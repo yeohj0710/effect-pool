@@ -2017,16 +2017,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] canakinumab — Stage I Lung Cancer AJCC v8에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] canakinumab — Lung Cancer에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] canakinumab — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] canakinumab — Type 1 Diabetes에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] tocilizumab — Cancer에 듣는다  <!-- 등록 시험 61건 -->
-- [ ] tocilizumab — Lymphoma에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] tocilizumab — COVID에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] tocilizumab — Takayasu Arteritis에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] sarilumab — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sarilumab — COVID에 듣는다  <!-- 등록 시험 8건 -->
+- [x] canakinumab — Stage I Lung Cancer AJCC v8에 듣는다 — 신규 항목(canakinumab-stage-i-lung-cancer-open)  <!-- 등록 시험 12건 -->
+- [x] canakinumab — Lung Cancer에 듣는다 — 신규 항목(canakinumab-lung-cancer-null)  <!-- 등록 시험 10건 -->
+- [x] canakinumab — Myelodysplastic Syndrome에 듣는다 — 신규 항목(canakinumab-myelodysplastic-syndrome-open)  <!-- 등록 시험 6건 -->
+- [x] canakinumab — Type 1 Diabetes에 듣는다 — 신규 항목(canakinumab-type-1-diabetes-null)  <!-- 등록 시험 6건 -->
+- [x] tocilizumab — Cancer에 듣는다 — 신규 항목(tocilizumab-cancer-open)  <!-- 등록 시험 61건 -->
+- [x] tocilizumab — Lymphoma에 듣는다 — 신규 항목(tocilizumab-lymphoma-null)  <!-- 등록 시험 46건 -->
+- [x] tocilizumab — COVID에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 42건 -->
+- [x] tocilizumab — Takayasu Arteritis에 듣는다 — 신규 항목(tocilizumab-takayasu-arteritis-open)  <!-- 등록 시험 23건 -->
+- [x] sarilumab — Cancer에 듣는다 — 신규 항목(sarilumab-cancer-open)  <!-- 등록 시험 22건 -->
+- [x] sarilumab — COVID에 듣는다 — 신규 항목(sarilumab-covid-null)  <!-- 등록 시험 8건 -->
 - [ ] sarilumab — Corona Virus Infection에 듣는다  <!-- 등록 시험 3건 -->
 - [ ] sarilumab — SARS에 듣는다  <!-- 등록 시험 3건 -->
 - [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 -->
