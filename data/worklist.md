@@ -3038,16 +3038,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
-- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
+- [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
+- [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
+- [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
+- [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
+- [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
+- [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
 - [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
