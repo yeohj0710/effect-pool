@@ -1,0 +1,36 @@
+{
+  "id": "aspirin-colon-cancer-null",
+  "subj": "아스피린",
+  "claim": "아스피린이 대장암 재발을 막는다",
+  "line": "대장암 수술 후 재발 없는 생존을 늘리지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1550,
+  "synth": "single",
+  "why": "허가사항에는 심근경색·뇌졸중 예방 등이 있지만 대장암 치료나 재발 예방은 없습니다. 표준 보조치료를 마친 대장암 환자를 대상으로 아스피린과 위약을 비교한 3상 무작위시험이 있습니다.",
+  "saw": "ASCOLT 시험(PMID 39824200·NCT00565708)은 대장암 또는 직장암 환자를 무작위 배정했고, 분석 대상은 1,550명이었습니다. 아스피린군의 5년 무병생존율은 77.0%, 위약군은 74.8%로 차이가 유의하지 않았습니다.",
+  "limit": "대장암과 직장암을 함께 분석했고 수술과 표준 보조치료를 마친 환자만 포함했습니다. 특정 유전자 변이가 있는 환자에게도 같은 결과라고 단정할 수 없습니다.",
+  "against": "반대 검색 715건을 확인했습니다. PIK3CA 변이 대장암 112명 무작위시험은 아스피린군의 무병생존이 유리한 방향이었지만 조기 종료로 통계적으로 유의하지 않았습니다.",
+  "use": "대장암 재발 예방 근거는 전체 환자를 대상으로 한 대규모 무작위시험에서 유의한 개선이 없었던 결과로 기록해야 합니다.",
+  "refs": [
+    {
+      "label": "2025 · ASCOLT 대장암 보조 아스피린 3상 무작위시험",
+      "doi": "10.1016/S2468-1253(24)00387-X",
+      "pmid": "39824200",
+      "nct": "NCT00565708"
+    },
+    {
+      "label": "2025 · PIK3CA 변이 대장암 SAKK 41/13 무작위시험",
+      "doi": "10.1158/1078-0432.CCR-24-4048",
+      "pmid": "40067142"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ASPIRIN\" → 726건 반환; 대장암 치료·재발 예방 허가 문구 없음",
+    "ctgov": "query.intr=aspirin&query.cond=Colon Cancer&countTotal=true&pageSize=100 → 45건 반환, InterventionName 대조 후 28건",
+    "pubmed": "aspirin Colon Cancer → 1,002건",
+    "negative": "aspirin Colon Cancer (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 715건",
+    "safety": "aspirin Colon Cancer (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 249건"
+  }
+}
