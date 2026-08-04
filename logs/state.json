@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 570,
+  "entries": 572,
   "worklist": {
-    "checked": 4118,
-    "unchecked": 240,
+    "checked": 4128,
+    "unchecked": 230,
     "no_evidence_pending": 0,
     "next_batch": [
-      "simvastatin-cancer",
-      "simvastatin-diabetes",
-      "simvastatin-heart-failure",
-      "simvastatin-dyslipidemia",
-      "eplerenone-heart-failure",
-      "eplerenone-chronic-kidney-disease",
-      "eplerenone-central-serous-chorioretinopathy",
-      "eplerenone-myocardial-injury",
-      "empagliflozin-heart-failure",
-      "empagliflozin-kidney-stone"
+      "empagliflozin-fatty-liver",
+      "empagliflozin-hypertension",
+      "liraglutide-obesity",
+      "liraglutide-metabolism-disorder-lipid",
+      "liraglutide-overweight",
+      "liraglutide-cardiovascular-disease",
+      "venlafaxine-depressive-episode",
+      "venlafaxine-pain",
+      "venlafaxine-anxiety",
+      "venlafaxine-breast-cancer"
     ]
   },
   "verification": {
@@ -24,15 +24,15 @@
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 526,
+      "trial": 528,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 225,
+    "no_effect_or_harm": 226,
     "harm": 23,
-    "no_effect_or_harm_share": "39%"
+    "no_effect_or_harm_share": "40%"
   },
   "deployment": {
     "last_entry_count": 554,
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "n-acetylcysteine-oxidative-stress (existing)",
-    "n-acetylcysteine-cocaine-dependence-null (existing)",
-    "creatine-muscle (existing)",
-    "creatine-major-depressive-disorder (existing)",
-    "creatine-sarcopenia (existing)",
-    "creatine-sport-performance (existing)",
-    "berberine-schizophrenia (existing)",
-    "berberine-metabolic-syndrome (existing)",
-    "berberine-hiv-1-infection-open (existing)",
-    "berberine-gastritis-open (existing)"
+    "simvastatin-cancer-null (new)",
+    "simvastatin-diabetes (approved)",
+    "simvastatin-heart-failure-open (new)",
+    "simvastatin-dyslipidemia (approved)",
+    "eplerenone-heart-failure (approved)",
+    "eplerenone-chronic-kidney-disease-open (existing)",
+    "eplerenone-central-serous-chorioretinopathy-null (existing)",
+    "eplerenone-myocardial-injury-open (existing)",
+    "empagliflozin-heart-failure (approved)",
+    "empagliflozin-kidney-stone-open (existing)"
   ],
   "resume": {
-    "last_committed_batch": "n-acetylcysteine, creatine, berberine",
-    "current_batch": "n-acetylcysteine, creatine, berberine",
+    "last_committed_batch": "simvastatin, eplerenone, empagliflozin",
+    "current_batch": "simvastatin, eplerenone, empagliflozin",
     "next_action": "build, commit, push, then process next batch"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "id": "simvastatin-heart-failure-open",
+  "subj": "심바스타틴",
+  "claim": "심부전을 치료한다",
+  "line": "심부전에서 사망과 입원을 줄이는지는 확정되지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 1532,
+  "synth": "meta",
+  "why": "심부전 환자 대상 무작위시험을 합친 메타분석이 있지만 심바스타틴 단독 효과를 분리해 확인해야 합니다.",
+  "saw": "PMID 24954758 메타분석은 13개 무작위시험 1532명을 합쳤고 지질친화성 스타틴 전체에서는 사망과 심부전 입원이 줄었지만, 심바스타틴 시험은 2개뿐이며 약물별 결과를 따로 제시하지 않았습니다.",
+  "limit": "서로 다른 스타틴을 합친 결과라 심바스타틴의 효과를 직접 추정할 수 없고, 분석 논문도 추가 연구가 필요하다고 결론냈습니다.",
+  "against": "반대쪽 검색에서도 심바스타틴 단독의 심부전 임상효과를 확정하는 결과가 부족했고, 스타틴 계열의 비유의 결과가 함께 확인됐습니다.",
+  "use": "심바스타틴의 심부전 치료 효과를 확정하는 근거가 아니라 추가 임상시험이 필요한 가설로만 사용하세요.",
+  "refs": [
+    {
+      "label": "Liu 2014 · Heart, Lung and Circulation · 지질친화성 스타틴 심부전 메타분석",
+      "doi": "10.1016/j.hlc.2014.05.005",
+      "pmid": "24954758"
+    },
+    {
+      "label": "Targeting Sympathetic Overactivity in Heart Failure Patients With Statins · ClinicalTrials.gov",
+      "nct": "NCT01097785"
+    },
+    {
+      "label": "The Effect of Simvastatin Therapy on Inflammatory Markers in Heart Failure · ClinicalTrials.gov",
+      "nct": "NCT00769210"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=simvastatin, query.cond=Heart Failure → 5건 반환, InterventionName 대조 후 simvastatin 4건",
+    "pubmed": "simvastatin Heart Failure → 252건",
+    "negative": "simvastatin Heart Failure AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 186건",
+    "safety": "simvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3727건"
+  }
+}

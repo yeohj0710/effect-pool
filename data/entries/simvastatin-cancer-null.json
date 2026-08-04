@@ -1,0 +1,30 @@
+{
+  "id": "simvastatin-cancer-null",
+  "subj": "심바스타틴",
+  "claim": "암을 치료한다",
+  "line": "결장직장암 수술에서 수술 후 합병증을 줄이지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 132,
+  "synth": "single",
+  "why": "결장직장암 수술 환자를 직접 대상으로 한 무작위 대조시험이 있어 암 치료 주장과 대조했습니다.",
+  "saw": "NCT00994903 및 PMID 27086089의 무작위 대조시험은 결장직장 수술 환자 132명을 비교했고, 수술 후 합병증 발생에 유의한 차이가 없었으며 일부 염증 지표만 낮아졌습니다.",
+  "limit": "수술 전후 보조요법 연구이며 종양 진행이나 생존을 측정하지 않아 심바스타틴의 항암 효과로 해석할 수 없습니다.",
+  "against": "반대쪽 검색에서도 같은 무작위시험의 합병증 무차이 결과가 확인되어 종양 치료 효과를 뒷받침하지 않습니다.",
+  "use": "결장직장 수술의 염증 반응 연구로만 제한해 사용하고 암 치료 근거로 확대하지 마세요.",
+  "refs": [
+    {
+      "label": "Singh 2016 · Journal of the American College of Surgeons · 결장직장 수술 무작위시험",
+      "doi": "10.1016/j.jamcollsurg.2016.04.004",
+      "pmid": "27086089",
+      "nct": "NCT00994903"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=simvastatin, query.cond=Cancer → 77건 반환, InterventionName 대조 후 simvastatin 68건",
+    "pubmed": "simvastatin Cancer → 1397건",
+    "negative": "simvastatin Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1188건",
+    "safety": "simvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3727건"
+  }
+}

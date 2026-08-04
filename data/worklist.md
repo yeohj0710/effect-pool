@@ -4543,16 +4543,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] simvastatin — Cancer에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] simvastatin — Diabetes에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] simvastatin — Heart Failure에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] simvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] eplerenone — Heart Failure에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] eplerenone — Chronic Kidney Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] eplerenone — Central Serous Chorioretinopathy에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] eplerenone — Myocardial Injury에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 -->
-- [ ] empagliflozin — Kidney Stone에 듣는다  <!-- 등록 시험 57건 -->
+- [x] simvastatin — Cancer에 듣는다  <!-- 등록 시험 53건 --> — 새 항목(simvastatin-cancer-null)
+- [x] simvastatin — Diabetes에 듣는다  <!-- 등록 시험 50건 --> — 허가 적응증(2026-08-04)
+- [x] simvastatin — Heart Failure에 듣는다  <!-- 등록 시험 39건 --> — 새 항목(simvastatin-heart-failure-open)
+- [x] simvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 34건 --> — 허가 적응증(2026-08-04)
+- [x] eplerenone — Heart Failure에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
+- [x] eplerenone — Chronic Kidney Disease에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(eplerenone-chronic-kidney-disease-open)
+- [x] eplerenone — Central Serous Chorioretinopathy에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(eplerenone-central-serous-chorioretinopathy-null)
+- [x] eplerenone — Myocardial Injury에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(eplerenone-myocardial-injury-open)
+- [x] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> — 허가 적응증(2026-08-04)
+- [x] empagliflozin — Kidney Stone에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(empagliflozin-kidney-stone-open)
 - [ ] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 -->
 - [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 -->
