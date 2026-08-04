@@ -428,3 +428,489 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] ruxolitinib — Cancer에 듣는다  <!-- 등록 시험 65건 -->
 - [ ] ruxolitinib — Lymphoma에 듣는다  <!-- 등록 시험 64건 -->
 - [ ] ruxolitinib — Graft Failure에 듣는다  <!-- 등록 시험 41건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] metformin — Colon Cancer에 듣는다  <!-- 등록 시험 46건 -->
+- [ ] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 38건 -->
+- [ ] aspirin — Cancer에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] aspirin — Cardiovascular Disease에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] propranolol — Prostate Carcinoma에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
+- [ ] naltrexone — Substance Use에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
+- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
+- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
+- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
+- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 204건 -->
+- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 90건 -->
+- [ ] ketamine — Major Depression에 듣는다  <!-- 등록 시험 78건 -->
+- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 50건 -->
+- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
+- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
+- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
+- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
+- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 -->
+- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 -->
+- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
+- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] botulinum toxin — Bladder Disease에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] botulinum toxin — Frown Lines에 듣는다  <!-- 등록 시험 43건 -->
+- [ ] botulinum toxin — Stroke에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
+- [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] baclofen — Pain에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] baclofen — Cerebral Palsy에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] baclofen — Alcoholism에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
+- [ ] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
+- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
+- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
+- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 -->
+- [ ] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] acetazolamide — Altitude Sickness에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] dapsone — Stroke에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 -->
+- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 -->
+- [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
+- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 -->
+- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 112건 -->
+- [ ] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
+- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 59건 -->
+- [ ] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 43건 -->
+- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Sarcopenia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] ibuprofen — Fever에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] curcumin — Acute Kidney Injury에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] curcumin — Pre-diabetes에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] curcumin — Ulcerative Colitis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] curcumin — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] zinc — Plaque에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] zinc — COVID에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] zinc — Iron에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] zinc — HIV에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] vitamin d — Diabetes에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] vitamin d — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] vitamin d — Obesity에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] vitamin d — Bone Loss에 듣는다  <!-- 등록 시험 18건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] metformin — Colon Cancer에 듣는다  <!-- 등록 시험 46건 -->
+- [ ] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 38건 -->
+- [ ] aspirin — Cancer에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] aspirin — Cardiovascular Disease에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] propranolol — Prostate Carcinoma에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
+- [ ] naltrexone — Substance Use에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
+- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
+- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
+- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
+- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 204건 -->
+- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 90건 -->
+- [ ] ketamine — Major Depression에 듣는다  <!-- 등록 시험 78건 -->
+- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 50건 -->
+- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
+- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
+- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
+- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
+- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 -->
+- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 -->
+- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
+- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] botulinum toxin — Bladder Disease에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] botulinum toxin — Frown Lines에 듣는다  <!-- 등록 시험 43건 -->
+- [ ] botulinum toxin — Stroke에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
+- [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] baclofen — Pain에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] baclofen — Cerebral Palsy에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] baclofen — Alcoholism에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
+- [ ] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
+- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
+- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
+- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
+- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
+- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 -->
+- [ ] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] acetazolamide — Altitude Sickness에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] dapsone — Stroke에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 -->
+- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 -->
+- [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
+- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 -->
+- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 112건 -->
+- [ ] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
+- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 59건 -->
+- [ ] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 43건 -->
+- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Sarcopenia에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
