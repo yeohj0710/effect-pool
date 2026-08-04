@@ -578,26 +578,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lithium — Depression에 듣는다 — 기존 항목(lithium-depression)  <!-- 등록 시험 32건 -->
 - [x] lithium — Depressive Disorder에 듣는다 — 기존 항목(lithium-depressive-disorder)  <!-- 등록 시험 25건 -->
 - [x] lithium — Tooth Loss에 듣는다 — 기존 항목(lithium-tooth-loss-harm)  <!-- 등록 시험 17건 -->
-- [x] pentoxifylline — Breast Cancer에 듣는다 — 기존 항목(pentoxifylline-breast-cancer-null)  <!-- 등록 시험 13건 -->
-- [x] pentoxifylline — Fibrosis에 듣는다 — 기존 항목(pentoxifylline-fibrosis-null)  <!-- 등록 시험 10건 -->
-- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다 — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)  <!-- 등록 시험 10건 -->
-- [x] pentoxifylline — Fatty Liver에 듣는다 — 기존 항목(pentoxifylline-fatty-liver-null)  <!-- 등록 시험 8건 -->
-- [x] sirolimus — Germ Cell Tumor에 듣는다 — 기존 항목(sirolimus-germ-cell-tumor-open)  <!-- 등록 시험 103건 -->
-- [x] sirolimus — Leukemia에 듣는다 — 기존 항목(sirolimus-leukemia)  <!-- 등록 시험 82건 -->
-- [x] sirolimus — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 60건 -->
-- [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 54건 -->
-- [x] rapamycin — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 9건 -->
-- [x] rapamycin — Endometrial Carcinoma에 듣는다 — 기존 항목(rapamycin-endometrial-carcinoma-open)  <!-- 등록 시험 9건 -->
-- [x] rapamycin — Kidney Transplant에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
-- [x] rapamycin — Malignant Melanoma에 듣는다 — 기존 항목(rapamycin-malignant-melanoma-open)  <!-- 등록 시험 7건 -->
-- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
-- [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
-- [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
-- [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
-- [x] atorvastatin — Coronary Artery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 81건 -->
-- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
-- [x] atorvastatin — Hyperlipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
-- [x] atorvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
+- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
+- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
+- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
+- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
 - [x] losartan — Nephropathy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
@@ -1594,46 +1594,46 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] melatonin — Delirium에 듣는다 — 기존 항목(melatonin-delirium-null)  <!-- 등록 시험 27건 -->
 - [x] melatonin — Cancer에 듣는다 — 기존 항목(melatonin-cancer-null)  <!-- 등록 시험 27건 -->
 - [x] melatonin — Anxiety에 듣는다 — 기존 항목(melatonin-anxiety)  <!-- 등록 시험 24건 -->
-- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] baclofen — Pain에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] baclofen — Cerebral Palsy에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] baclofen — Alcoholism에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
-- [ ] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
-- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
+- [x] modafinil — Fatigue에 듣는다 — 기존 항목(modafinil-fatigue-null)  <!-- 등록 시험 29건 -->
+- [x] modafinil — Sleep Apnea에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
+- [x] modafinil — Narcolepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] modafinil — Schizophrenia에 듣는다 — 기존 항목(modafinil-schizophrenia-null)  <!-- 등록 시험 13건 -->
+- [x] baclofen — Pain에 듣는다 — 기존 항목(baclofen-pain-null)  <!-- 등록 시험 14건 -->
+- [x] baclofen — Spasticity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] baclofen — Cerebral Palsy에 듣는다 — 기존 항목(baclofen-cerebral-palsy)  <!-- 등록 시험 9건 -->
+- [x] baclofen — Alcoholism에 듣는다 — 기존 항목(baclofen-alcoholism-null)  <!-- 등록 시험 7건 -->
+- [x] ondansetron — Lymphoma에 듣는다 — 기존 항목(ondansetron-lymphoma)  <!-- 등록 시험 71건 -->
+- [x] ondansetron — Cancer에 듣는다 — 기존 항목(ondansetron-cancer-null)  <!-- 등록 시험 33건 -->
+- [x] ondansetron — Leukemia에 듣는다 — 기존 항목(ondansetron-leukemia-null)  <!-- 등록 시험 28건 -->
+- [x] ondansetron — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] memantine — Autism에 듣는다 — 기존 항목(memantine-autism-null)  <!-- 등록 시험 19건 -->
+- [x] memantine — Dementia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] memantine — Chemo-brain에 듣는다 — 기존 항목(memantine-chemo-brain-open)  <!-- 등록 시험 18건 -->
+- [x] memantine — Cognitive Change에 듣는다 — 기존 항목(memantine-cognitive-change-open)  <!-- 등록 시험 17건 -->
+- [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다 — 기존 항목(lithium-stage-iv-mantle-cell-lymphoma-null)  <!-- 등록 시험 36건 -->
+- [x] lithium — Depression에 듣는다 — 기존 항목(lithium-depression)  <!-- 등록 시험 32건 -->
+- [x] lithium — Depressive Disorder에 듣는다 — 기존 항목(lithium-depressive-disorder)  <!-- 등록 시험 25건 -->
+- [x] lithium — Tooth Loss에 듣는다 — 기존 항목(lithium-tooth-loss-harm)  <!-- 등록 시험 17건 -->
+- [x] pentoxifylline — Breast Cancer에 듣는다 — 기존 항목(pentoxifylline-breast-cancer-null)  <!-- 등록 시험 13건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다 — 기존 항목(pentoxifylline-fibrosis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다 — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Fatty Liver에 듣는다 — 기존 항목(pentoxifylline-fatty-liver-null)  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Germ Cell Tumor에 듣는다 — 기존 항목(sirolimus-germ-cell-tumor-open)  <!-- 등록 시험 103건 -->
+- [x] sirolimus — Leukemia에 듣는다 — 기존 항목(sirolimus-leukemia)  <!-- 등록 시험 82건 -->
+- [x] sirolimus — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 60건 -->
+- [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 54건 -->
+- [x] rapamycin — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Endometrial Carcinoma에 듣는다 — 기존 항목(rapamycin-endometrial-carcinoma-open)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Kidney Transplant에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] rapamycin — Malignant Melanoma에 듣는다 — 기존 항목(rapamycin-malignant-melanoma-open)  <!-- 등록 시험 7건 -->
+- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
+- [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
+- [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
+- [x] atorvastatin — Coronary Artery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 81건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
+- [x] atorvastatin — Hyperlipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
+- [x] atorvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
 - [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
 - [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
