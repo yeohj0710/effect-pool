@@ -4293,16 +4293,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] carvedilol — Cancer에 듣는다 — 기존 항목(carvedilol-cancer-pos)  <!-- 등록 시험 12건 -->
 - [x] pioglitazone — Insulin Resistance에 듣는다 — 기존 항목(pioglitazone-insulin-resistance-pos)  <!-- 등록 시험 29건 -->
 - [x] pioglitazone — Liver에 듣는다 — 기존 항목(pioglitazone-liver-pos)  <!-- 등록 시험 21건 -->
-- [ ] pioglitazone — Lung Cancer에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] pioglitazone — Metabolic Syndrome에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] metoprolol — Heart Rate에 듣는다  <!-- 등록 시험 38건 -->
-- [ ] metoprolol — Atrial Flutter에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] metoprolol — Myocardial Ischemia에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] metoprolol — Cardiomyopathy에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] azithromycin — Infection에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] azithromycin — Pneumonia에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] azithromycin — COVID에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] azithromycin — Malaria에 듣는다  <!-- 등록 시험 29건 -->
+- [x] pioglitazone — Lung Cancer에 듣는다 — 기존 항목(pioglitazone-lung-cancer-null)  <!-- 등록 시험 21건 -->
+- [x] pioglitazone — Metabolic Syndrome에 듣는다 — 기존 항목(pioglitazone-metabolic-syndrome-pos)  <!-- 등록 시험 18건 -->
+- [x] metoprolol — Heart Rate에 듣는다 — 기존 항목(metoprolol-heart-rate-pos)  <!-- 등록 시험 38건 -->
+- [x] metoprolol — Atrial Flutter에 듣는다 — 기존 항목(metoprolol-atrial-flutter-open)  <!-- 등록 시험 26건 -->
+- [x] metoprolol — Myocardial Ischemia에 듣는다 — 기존 항목(metoprolol-myocardial-ischemia-pos)  <!-- 등록 시험 14건 -->
+- [x] metoprolol — Cardiomyopathy에 듣는다 — 기존 항목(metoprolol-cardiomyopathy-pos)  <!-- 등록 시험 13건 -->
+- [x] azithromycin — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 46건 -->
+- [x] azithromycin — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 45건 -->
+- [x] azithromycin — COVID에 듣는다 — 기존 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
+- [x] azithromycin — Malaria에 듣는다 — 기존 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
