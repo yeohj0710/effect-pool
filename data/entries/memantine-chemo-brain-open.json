@@ -1,0 +1,33 @@
+{
+  "id": "memantine-chemo-brain-open",
+  "subj": "메만틴",
+  "claim": "치매약을 화학요법 관련 인지저하 예방에 쓴다",
+  "line": "유방암 화학요법 뒤 인지저하 예방시험은 결과가 아직 없습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 55,
+  "synth": "single",
+  "why": "유방암 환자의 화학요법 관련 인지저하를 막기 위해 메만틴을 실제로 배정한 2상 등록시험이 있습니다.",
+  "saw": "NCT04033419는 55명을 등록하고 완료됐지만 공개된 결과가 아직 없으며, 조건과 중재에 메만틴이 직접 들어 있습니다.",
+  "limit": "등록시험의 결과가 없어 인지검사 효과나 안전성을 판단할 수 없습니다. 관련 문헌고찰도 5개 연구의 소규모·비무작위·비맹검 한계를 지적했습니다.",
+  "against": "현재 PubMed에서 직접 확인되는 문헌고찰은 메만틴을 긍정적 후보로 언급할 뿐 임상 효과를 확정하지 않았습니다.",
+  "use": "화학요법 관련 인지저하 예방 연구가 진행됐지만 결과가 공개되기 전에는 치료 근거로 쓸 수 없습니다.",
+  "refs": [
+    {
+      "label": "NCT04033419 · 유방암 환자 메만틴 인지저하 예방 2상",
+      "nct": "NCT04033419"
+    },
+    {
+      "label": "Joly 2025 · Journal of Cancer Survivorship · 화학요법 인지저하 예방 문헌고찰",
+      "doi": "10.1080/23279095.2025.2553713",
+      "pmid": "40986429"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=memantine, cond=Chemo-brain → 1건 반환, InterventionName 대조 후 1건",
+    "pubmed": "memantine chemo-brain → 1건",
+    "negative": "memantine chemo-brain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 0건",
+    "safety": "memantine chemo-brain AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 0건"
+  }
+}

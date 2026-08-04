@@ -1,0 +1,34 @@
+{
+  "id": "ondansetron-lymphoma",
+  "subj": "온단세트론",
+  "claim": "구토약을 림프종 항암치료에 쓴다",
+  "line": "림프종 화학요법에서 포함요법은 구토를 줄였지만 단독 효과는 모릅니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 15,
+  "synth": "single",
+  "why": "미만성 큰 B세포 림프종 환자에게 온단세트론을 포함한 구토 예방요법을 비교한 교차시험이 등록·보고됐습니다.",
+  "saw": "15명이 모집됐고 12명이 평가됐습니다. 온단세트론·덱사메타손에 다른 구토약을 더한 주기가 추가하지 않은 주기보다 완전 구토 억제가 좋았지만, 온단세트론 단독 효과는 분리되지 않았습니다.",
+  "limit": "온단세트론은 모든 군에 들어간 배경요법이고 림프종을 치료한 결과가 아니라 항암치료 중 구토를 측정했습니다. 소규모 교차시험입니다.",
+  "against": "비호지킨 림프종 무작위시험에서도 온단세트론·스테로이드에 다른 구토약을 더한 군이 더 나았지만, 역시 온단세트론 자체의 효과를 비교한 시험은 아닙니다.",
+  "use": "림프종 환자의 항암치료 관련 구토 예방에 포함되는 약이지만 림프종 치료제로 읽어서는 안 됩니다.",
+  "refs": [
+    {
+      "label": "Al-Samkari 2017 · Journal of the National Cancer Institute · 림프종 항암 구토 예방시험",
+      "doi": "10.1016/j.jnci.2017.05.001",
+      "pmid": "28844591"
+    },
+    {
+      "label": "Wang 2016 · Leukemia & Lymphoma · 비호지킨 림프종 구토 예방시험",
+      "doi": "10.1080/10428194.2016.1213838",
+      "pmid": "27545191"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=ondansetron, cond=Lymphoma → 18건 반환, InterventionName 대조 후 11건",
+    "pubmed": "ondansetron lymphoma → 69건",
+    "negative": "ondansetron lymphoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 58건",
+    "safety": "ondansetron lymphoma AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 58건"
+  }
+}

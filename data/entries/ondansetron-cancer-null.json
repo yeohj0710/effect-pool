@@ -1,0 +1,33 @@
+{
+  "id": "ondansetron-cancer-null",
+  "subj": "온단세트론",
+  "claim": "구토약을 암 치료에 쓴다",
+  "line": "항암 화학요법 구토 예방에서 온단세트론은 최선보다 낫지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 37313,
+  "synth": "meta",
+  "why": "암 환자의 항암치료 유발 구토 예방에서 온단세트론을 포함한 5-HT3 길항제 조합을 비교한 네트워크 메타분석입니다.",
+  "saw": "고도 구토 위험 항암치료 73개 시험 25,275명과 중등도 위험 38개 시험 12,038명을 분석했습니다. 온단세트론 포함 조합은 일부 비교군보다 확실한 우월성을 보이지 않았습니다.",
+  "limit": "측정한 결과는 암 치료나 생존이 아니라 항암치료 뒤 오심·구토 예방입니다. 온단세트론 단독과 병용요법이 섞였고 직접 비교가 아닌 네트워크 추정도 포함됐습니다.",
+  "against": "26개 연구 메타분석에서는 온단세트론이 granisetron·tropisetron과 비슷했고 palonosetron이 지연성 구토에서 더 나았지만, 급성 결과는 비교마다 달랐습니다.",
+  "use": "온단세트론은 항암치료의 구토 예방 보조약이지 암 치료제가 아니며, 항암요법과 구토 위험에 맞춰 비교해야 합니다.",
+  "refs": [
+    {
+      "label": "Olver 2022 · Cochrane Database of Systematic Reviews · 항암 구토 예방 네트워크 메타분석",
+      "pmid": "34784425"
+    },
+    {
+      "label": "Jordan 2016 · Expert Opinion on Pharmacotherapy · 온단세트론 비교 메타분석",
+      "doi": "10.1080/17512433.2016.1190271",
+      "pmid": "27180992"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=ondansetron, cond=Cancer → 137건 반환, InterventionName 대조 후 58건",
+    "pubmed": "ondansetron cancer → 1,238건",
+    "negative": "ondansetron cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,080건",
+    "safety": "ondansetron cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 982건"
+  }
+}
