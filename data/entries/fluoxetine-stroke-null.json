@@ -1,0 +1,27 @@
+{
+  "id": "fluoxetine-stroke-null",
+  "subj": "플루옥세틴",
+  "claim": "플루옥세틴이 뇌졸중 뒤 기능 회복을 개선한다",
+  "line": "뇌졸중 뒤 기능 회복을 위약보다 개선하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3127,
+  "synth": "single",
+  "why": "뇌졸중 환자에게 플루옥세틴을 직접 배정한 대규모 무작위 시험이 기능 회복 효과를 확인하지 못했습니다.",
+  "saw": "FOCUS 이중눈가림 무작위 시험은 급성 뇌졸중 환자 3,127명을 추적했고 기능 결과에서 플루옥세틴과 대조군의 차이를 확인하지 못했습니다. FLAME 118명 시험은 운동 점수 개선을 보고했습니다.",
+  "limit": "FLAME의 소규모 긍정 결과와 FOCUS의 대규모 결과가 엇갈립니다. 뇌졸중 유형과 평가 시점에 따라 결과가 달라질 수 있습니다.",
+  "against": "반대 검색 80건에서 FLAME처럼 운동 회복 개선을 보고한 연구가 있었지만, 대규모 FOCUS 결과와 일관되지 않았습니다.",
+  "use": "뇌졸중 뒤 기능 회복을 목적으로 한 효과는 대규모 시험에서 확인되지 않았고, 소규모 초기 신호만 남아 있습니다.",
+  "refs": [
+    { "label": "FOCUS Trial 2019 · Lancet · 대규모 무작위 시험·반대 결과", "pmid": "30528472" },
+    { "label": "FLAME 2011 · Lancet Neurol · 무작위 시험·긍정 결과", "pmid": "21216670", "nct": "NCT00657163" },
+    { "label": "Gao 2021 · Cochrane Database Syst Rev · 체계적 문헌고찰", "pmid": "34780067" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=fluoxetine&query.cond=Stroke → 14건 반환, intervention 이름에 fluoxetine 포함 13건",
+    "pubmed": "fluoxetine AND stroke → 321건",
+    "negative": "fluoxetine AND stroke AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 80건",
+    "safety": "fluoxetine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 5,144건"
+  }
+}

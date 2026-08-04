@@ -1,0 +1,26 @@
+{
+  "id": "carvedilol-cancer-pos",
+  "subj": "카르베딜롤",
+  "claim": "카르베딜롤이 항암치료 중 심장 기능 저하를 줄인다",
+  "line": "항암치료 중 좌심실 기능 저하는 덜했지만 심장 사건은 줄지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1291,
+  "synth": "meta",
+  "why": "암 환자가 항암치료 중 카르베딜롤을 포함한 베타차단제를 배정받은 무작위 연구들이 있습니다.",
+  "saw": "무작위 연구 17편, 1,291명을 합친 메타분석에서 베타차단제군의 좌심실 박출률 감소가 더 작았습니다. 카르베딜롤은 8편에 포함됐습니다.",
+  "limit": "메타분석은 카르베딜롤 단독 효과가 아니며 좌심실 박출률이라는 대리지표를 주로 봤습니다. 심장 기능 장애 발생률과 입원·심장사망은 유의하게 줄지 않았습니다.",
+  "against": "반대 검색 60건과 메타분석에서 심장 기능 장애 발생률은 유의하게 줄지 않았습니다.",
+  "use": "암 자체를 치료한다는 근거가 아니라 항암치료 중 심장 기능을 보존할 가능성에 대한 근거입니다.",
+  "refs": [
+    { "label": "Attar 2022 · Cardiovasc Ther · 무작위시험 메타분석", "pmid": "36687509" },
+    { "label": "NCT01724450 · 항암치료 심장독성 예방 무작위시험", "nct": "NCT01724450" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=carvedilol&query.cond=Cancer → 22건 반환, intervention 이름에 carvedilol 포함 19건",
+    "pubmed": "carvedilol AND cancer → 277건",
+    "negative": "carvedilol AND cancer AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 60건",
+    "safety": "carvedilol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,136건"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pioglitazone-insulin-resistance-pos",
+  "subj": "피오글리타존",
+  "claim": "피오글리타존이 인슐린 저항성을 낮춘다",
+  "line": "다낭성난소증후군에서 공복 인슐린을 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 976,
+  "synth": "meta",
+  "why": "인슐린 저항성과 관련된 다낭성난소증후군 여성에게 피오글리타존을 배정한 무작위시험 메타분석이 있습니다.",
+  "saw": "다낭성난소증후군 무작위시험 24편, 976명을 합친 메타분석에서 피오글리타존은 위약보다 공복 인슐린과 중성지방을 낮췄습니다.",
+  "limit": "메타분석 대상은 다낭성난소증후군 여성이고, 인슐린 저항성의 모든 지표가 같은 방향으로 개선된 것은 아닙니다. 체중과 비교약의 영향도 있었습니다.",
+  "against": "반대 검색 338건에서는 HOMA-IR 개선이 피오글리타존보다 다른 약물에서 뚜렷했던 결과도 확인됐습니다.",
+  "use": "인슐린 저항성에 대한 신호는 있지만 특정 환자군의 대리지표 결과이며 다른 집단에 그대로 적용하기 어렵습니다.",
+  "refs": [
+    { "label": "Abdalla 2024 · Adv Ther · 무작위시험 메타분석", "pmid": "38683294" },
+    { "label": "Abdalla 2022 · Clin Endocrinol · 인슐린 저항성 메타분석", "pmid": "34713480" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=pioglitazone&query.cond=Insulin Resistance → 79건 반환, intervention 이름에 pioglitazone 포함 70건",
+    "pubmed": "pioglitazone AND \"insulin resistance\" → 1,666건",
+    "negative": "pioglitazone AND \"insulin resistance\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 338건",
+    "safety": "pioglitazone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,054건"
+  }
+}

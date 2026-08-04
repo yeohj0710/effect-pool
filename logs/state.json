@@ -1,44 +1,59 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 563,
+  "entries": 570,
   "worklist": {
-    "checked": 3793,
-    "unchecked": 0,
+    "checked": 3888,
+    "unchecked": 230,
     "no_evidence_pending": 0,
     "next_batch": [
+      "metformin-lung-cancer",
+      "metformin-polycystic-ovary",
+      "metformin-obesity",
+      "metformin-insulin-resistance",
+      "aspirin-stroke",
+      "aspirin-colon-cancer",
+      "aspirin-brain-infarction",
+      "aspirin-cardiovascular-events",
+      "propranolol-migraine",
+      "propranolol-stress-reaction"
     ]
   },
-    "last_batch": [
-      "creatine-sport-performance (existing)",
-      "berberine-schizophrenia (existing)",
-      "berberine-metabolic-syndrome (existing)",
-      "berberine-hiv-1-infection-open (existing)",
-      "berberine-gastritis-open (existing)"
-    ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 519,
+      "trial": 526,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 223,
+    "no_effect_or_harm": 225,
     "harm": 23,
-    "no_effect_or_harm_share": "40%"
+    "no_effect_or_harm_share": "39%"
   },
   "deployment": {
     "last_entry_count": 554,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
+  "last_batch": [
+    "fluoxetine-depressive-disorder-approved",
+    "fluoxetine-social-anxiety-pos (existing)",
+    "fluoxetine-stroke-null (existing)",
+    "fluoxetine-obsessive-compulsive-disorder-approved",
+    "carvedilol-heart-failure-approved",
+    "carvedilol-cirrhosis-pos (existing)",
+    "carvedilol-esophageal-varix-null (existing)",
+    "carvedilol-cancer-pos (existing)",
+    "pioglitazone-insulin-resistance-pos (existing)",
+    "pioglitazone-liver-pos (existing)"
+  ],
   "resume": {
-    "last_committed_batch": "creatine, berberine",
-    "current_batch": "creatine, berberine",
+    "last_committed_batch": "fluoxetine, carvedilol, pioglitazone",
+    "current_batch": "fluoxetine, carvedilol, pioglitazone",
     "next_action": "build, commit, push, then process next batch"
   }
 }
