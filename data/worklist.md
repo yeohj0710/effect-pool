@@ -763,16 +763,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
 - [x] ivermectin — Covid19에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 39건 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 29건 -->
+- [x] ivermectin — Scabies에 듣는다 — 기존 항목(ivermectin-scabies)  <!-- 등록 시험 19건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다 — 기존 항목(ivermectin-lymphatic-filariasis)  <!-- 등록 시험 18건 -->
+- [x] hydroxychloroquine — Cancer에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)  <!-- 등록 시험 112건 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 55건 -->
+- [x] hydroxychloroquine — Virus Disease에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 41건 -->
+- [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
+- [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
+- [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
+- [x] valacyclovir — Infection에 듣는다 — 기존 항목(valacyclovir-infection-null)  <!-- 등록 시험 10건 -->
 - [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
