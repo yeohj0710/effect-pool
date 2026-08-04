@@ -1,0 +1,32 @@
+{
+  "id": "tamoxifen-solid-tumor-null",
+  "subj": "타목시펜",
+  "claim": "타목시펜을 진행성 고형암 치료에 쓴다",
+  "line": "진행성 고형암에서 타목시펜의 항암 효과는 평가되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 79,
+  "synth": "single",
+  "why": "진행성 고형암 환자에서 올라파립과 타목시펜을 포함한 호르몬제의 약동학 상호작용과 안전성을 평가한 1상 등록시험입니다.",
+  "saw": "NCT02093351에는 79명이 실제 등록됐지만 타목시펜은 종양 반응을 비교하는 치료시험이 아니라 약동학·안전성 평가에 포함됐고, 고형암별 항암 결과는 공개되지 않았습니다.",
+  "limit": "타목시펜의 유효성 시험이 아니며 여러 고형암과 호르몬제를 함께 다뤄 타목시펜의 종양 반응을 분리할 수 없습니다.",
+  "against": "NCT00002608은 타목시펜을 포함한 복합항암요법을 여러 고형암에서 평가했지만, 완료 등록자료의 실제 등록 인원과 질환별 타목시펜 효과는 공개되지 않았습니다.",
+  "use": "타목시펜을 일반적인 진행성 고형암 항암제로 표시할 근거는 없고, 허가된 유방암 맥락과 구분해야 합니다.",
+  "refs": [
+    {
+      "label": "NCT02093351 · 진행성 고형암에서 타목시펜 약동학·안전성 등록시험",
+      "nct": "NCT02093351"
+    },
+    {
+      "label": "NCT00002608 · 여러 고형암 타목시펜 복합항암요법 등록시험",
+      "nct": "NCT00002608"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=tamoxifen&query.cond=Solid Tumor → 13건 반환, InterventionName에 tamoxifen 포함 11건",
+    "pubmed": "tamoxifen solid tumor → 309건",
+    "negative": "tamoxifen solid tumor AND (no effect OR did not OR failed to OR negative OR no significant difference) → 226건",
+    "safety": "tamoxifen solid tumor AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 108건"
+  }
+}
