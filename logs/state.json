@@ -1,34 +1,48 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 381,
+  "entries": 388,
   "worklist": {
-    "checked": 1792,
-    "unchecked": 0,
+    "checked": 1802,
+    "unchecked": 10,
     "no_evidence_pending": 0,
-    "next_batch": []
+    "next_batch": [
+      "anakinra — Heart Failure",
+      "anakinra — Type 1 Diabetes",
+      "ustekinumab — Psoriasis",
+      "ustekinumab — Colitis",
+      "ustekinumab — Psoriatic Arthritis",
+      "ustekinumab — Stricture; Bowel",
+      "rituximab — Leukemia",
+      "rituximab — Multiple Myeloma",
+      "rituximab — Rheumatoid Arthritis",
+      "rituximab — Waldenstrom Macroglobulinemia"
+    ]
   },
   "last_batch": [
-    "pirfenidone-systemic-sclerosis-null",
-    "pirfenidone-diabetic-foot-ulcer-open",
-    "baricitinib-covid-approved",
-    "baricitinib-atopic-dermatitis-open",
-    "baricitinib-alopecia-approved",
-    "baricitinib-lupus-null",
-    "mavacamten-healthy-participants-skip"
+    "empagliflozin-heart-failure-approved",
+    "empagliflozin-kidney-stone-open",
+    "empagliflozin-fatty-liver-open",
+    "empagliflozin-hypertension-open",
+    "tofacitinib-alopecia-areata-open",
+    "tofacitinib-ulcerative-colitis-approved",
+    "tofacitinib-psoriasis-open",
+    "tofacitinib-cutaneous-lupus-open",
+    "anakinra-covid-19-null",
+    "anakinra-rheumatoid-arthritis-approved"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 342,
+      "trial": 349,
       "obs": 32,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 158,
+    "no_effect_or_harm": 159,
     "no_effect_or_harm_share": "41%"
   },
   "deployment": {
@@ -38,7 +52,7 @@
   },
   "resume": {
     "last_committed_batch": "afd82c4",
-    "current_batch": "pirfenidone, baricitinib, mavacamten",
-    "next_action": "expand worklist explicitly"
+    "current_batch": "empagliflozin, tofacitinib, anakinra",
+    "next_action": "research next_batch"
   }
 }

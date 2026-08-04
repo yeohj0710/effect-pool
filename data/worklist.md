@@ -1977,3 +1977,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] baricitinib — Alopecia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
 - [x] baricitinib — Lupus에 듣는다 — 신규 항목(baricitinib-lupus-null)  <!-- 등록 시험 6건 -->
 - [x] mavacamten — Healthy Participants에 듣는다 — 질환 아님(2026-08-04)  <!-- 등록 시험 4건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] empagliflozin — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 89건 -->
+- [x] empagliflozin — Kidney Stone에 듣는다 — 신규 항목(empagliflozin-kidney-stone-open)  <!-- 등록 시험 57건 -->
+- [x] empagliflozin — Fatty Liver에 듣는다 — 신규 항목(empagliflozin-fatty-liver-open)  <!-- 등록 시험 25건 -->
+- [x] empagliflozin — Hypertension에 듣는다 — 신규 항목(empagliflozin-hypertension-open)  <!-- 등록 시험 16건 -->
+- [x] tofacitinib — Alopecia Areata에 듣는다 — 신규 항목(tofacitinib-alopecia-areata-open)  <!-- 등록 시험 23건 -->
+- [x] tofacitinib — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 17건 -->
+- [x] tofacitinib — Psoriasis에 듣는다 — 신규 항목(tofacitinib-psoriasis-open)  <!-- 등록 시험 10건 -->
+- [x] tofacitinib — Cutaneous Lupus에 듣는다 — 신규 항목(tofacitinib-cutaneous-lupus-open)  <!-- 등록 시험 8건 -->
+- [x] anakinra — COVID-19에 듣는다 — 신규 항목(anakinra-covid-19-null)  <!-- 등록 시험 14건 -->
+- [x] anakinra — Rheumatoid Arthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [ ] anakinra — Heart Failure에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] anakinra — Type 1 Diabetes에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] ustekinumab — Psoriasis에 듣는다  <!-- 등록 시험 57건 -->
+- [ ] ustekinumab — Colitis에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] ustekinumab — Psoriatic Arthritis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] ustekinumab — Stricture; Bowel에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] rituximab — Leukemia에 듣는다  <!-- 등록 시험 141건 -->
+- [ ] rituximab — Multiple Myeloma에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] rituximab — Rheumatoid Arthritis에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] rituximab — Waldenstrom Macroglobulinemia에 듣는다  <!-- 등록 시험 15건 -->
