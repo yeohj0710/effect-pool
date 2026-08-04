@@ -4118,16 +4118,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 등록 시험 74건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 42건 -->
+- [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
+- [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
+- [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
+- [x] ivermectin — Covid19에 듣는다 — 기존 항목(ivermectin-covid19-null)  <!-- 등록 시험 39건 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다 — 기존 항목(ivermectin-sars-cov-infection-null)  <!-- 등록 시험 29건 -->
+- [x] ivermectin — Scabies에 듣는다 — 기존 항목(ivermectin-scabies)  <!-- 등록 시험 19건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다 — 기존 항목(ivermectin-lymphatic-filariasis)  <!-- 등록 시험 18건 -->
+- [x] hydroxychloroquine — Cancer에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)  <!-- 등록 시험 112건 -->
+- [x] hydroxychloroquine — Coronavirus에 듣는다 — 기존 항목(hydroxychloroquine-coronavirus-null)  <!-- 등록 시험 74건 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다 — 기존 항목(hydroxychloroquine-sars-cov2-null)  <!-- 등록 시험 42건 -->
 - [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
 - [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
 - [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
