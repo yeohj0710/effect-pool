@@ -1,0 +1,36 @@
+{
+  "id": "thalidomide-cancer-null",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 진행성 암의 악액질에 쓴다",
+  "line": "진행성 암 악액질에서 탈리도마이드 효과는 확정되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 20,
+  "synth": "single",
+  "why": "진행성 암 악액질에 탈리도마이드를 쓴 사람 연구가 있지만, Cochrane 검토는 연구가 적고 서로 달라 효과를 지지하거나 반박할 근거가 부족하다고 결론냈습니다.",
+  "saw": "Cochrane 검토에 포함된 연구는 3개였고 이질성이 커 메타분석을 하지 못했습니다. 등록 완료된 NCT00165451은 진행성·재발암 환자 20명을 대상으로 했습니다.",
+  "limit": "암종과 병용치료가 섞여 있습니다. 검토 논문은 세 연구의 합친 인원을 제시하지 않았고, n은 확인 가능한 단일 등록시험 20명입니다. 악액질 연구 결과를 암 자체의 치료 효과로 바꿔 읽을 수 없습니다.",
+  "against": "Cochrane 검토는 탈리도마이드가 진행성 암 악액질에 유효한지 판단할 수 없다고 했고, 포함 연구 중 하나는 내약성이 좋지 않았습니다. 다른 검토에서도 고형암의 활동성은 제한적이거나 일부 암종에서 없었습니다.",
+  "use": "진행성 암의 체중·식욕 저하에 대한 근거가 부족하므로 일반적인 항암 효과로 볼 수 없습니다.",
+  "refs": [
+    {
+      "label": "Moehler 2012 · Cochrane Database Syst Rev · 진행성 암 악액질 검토",
+      "pmid": "22513961"
+    },
+    {
+      "label": "Singhal 2004 · Leukemia · 진행성·재발암 탈리도마이드 시험",
+      "nct": "NCT00165451"
+    },
+    {
+      "label": "Cheson 2004 · Semin Oncol · 암 치료 탈리도마이드 검토",
+      "pmid": "15277253"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=thalidomide&query.cond=Cancer → 339건 반환, InterventionName에 thalidomide 포함 86건",
+    "pubmed": "thalidomide cancer → 6,729건",
+    "negative": "thalidomide cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 4,447건",
+    "safety": "thalidomide cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,503건"
+  }
+}

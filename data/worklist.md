@@ -493,16 +493,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 204건 --> — 허가 적응증(2026-08-04)
 - [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
 - [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 90건 -->
-- [ ] ketamine — Major Depression에 듣는다  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
+- [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
+- [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
+- [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
+- [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
+- [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
+- [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
+- [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
