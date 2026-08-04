@@ -2340,16 +2340,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] voriconazole — HIV/AIDS에 듣는다  <!-- 등록 시험 8건 -->
 - [x] posaconazole — Leukemia에 듣는다  <!-- 등록 시험 19건 --> — 허가 적응증(2026-08-04)
 - [x] posaconazole — Mycoses에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] posaconazole — Aspergillosis에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] caspofungin — Candidiasis에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] caspofungin — Aspergillosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] caspofungin — Candidemia에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] micafungin — Fungal Disease에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] micafungin — Candidemia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] micafungin — Liver Transplantation에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] micafungin — Aspergillosis에 듣는다  <!-- 등록 시험 4건 -->
+- [x] posaconazole — Aspergillosis에 듣는다  <!-- 등록 시험 9건 --> — 허가 적응증(2026-08-04)
+- [x] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 --> — 허가 적응증(2026-08-04)
+- [x] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 --> — 허가 적응증(2026-08-04)
+- [x] caspofungin — Candidiasis에 듣는다  <!-- 등록 시험 21건 --> — 허가 적응증(2026-08-04)
+- [x] caspofungin — Aspergillosis에 듣는다  <!-- 등록 시험 10건 --> — 허가 적응증(2026-08-04)
+- [x] caspofungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> — 허가 적응증(2026-08-04)
+- [x] micafungin — Fungal Disease에 듣는다  <!-- 등록 시험 8건 -->
+- [x] micafungin — Candidemia에 듣는다  <!-- 등록 시험 7건 --> — 허가 적응증(2026-08-04)
+- [x] micafungin — Liver Transplantation에 듣는다  <!-- 등록 시험 5건 -->
+- [x] micafungin — Aspergillosis에 듣는다  <!-- 등록 시험 4건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
