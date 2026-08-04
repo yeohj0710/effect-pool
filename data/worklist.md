@@ -4624,16 +4624,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> — 허가 적응증(2026-08-04)
 - [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> — 허가 적응증(2026-08-04)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-lung-cancer-open)
-- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
-- [ ] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
+- [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
+- [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(semaglutide-alcohol-use-disorder)
+- [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 --> — 기존 항목(ketamine-depression-null)
+- [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 --> — 기존 항목(ketamine-major-surgery-null)
+- [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(ketamine-analgesia)
+- [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> — 허가 적응증(2026-08-04)
+- [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(prazosin-alcohol-abuse-pos)
 - [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
