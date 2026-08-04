@@ -533,16 +533,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bimatoprost — Ocular Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [x] bimatoprost — Hypotrichosis에 듣는다 — 기존 항목(bimatoprost-eyelash-hypotrichosis)  <!-- 등록 시험 14건 -->
-- [ ] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다  <!-- 등록 시험 43건 -->
-- [ ] botulinum toxin — Stroke에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 -->
+- [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 54건 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
+- [x] botulinum toxin — Frown Lines에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
+- [x] duloxetine — Pain에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 79건 -->
+- [x] duloxetine — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
+- [x] duloxetine — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 24건 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
+- [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 등록 시험 9건 -->
 - [ ] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
