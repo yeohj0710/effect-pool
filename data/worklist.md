@@ -1104,16 +1104,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 54건 -->
 - [x] rapamycin — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 9건 -->
 - [x] rapamycin — Endometrial Carcinoma에 듣는다 — 기존 항목(rapamycin-endometrial-carcinoma-open)  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
+- [x] rapamycin — Kidney Transplant에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 --> — 근거 없음(2026-08-04 조회, rapamycin AND Malignant Melanoma; ClinicalTrials.gov 20건 반환·RAPA-201 세포치료/비특이 암시험 제외 시 직접 약물시험 0건, PubMed 600건)
+- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
+- [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
+- [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
+- [x] atorvastatin — Coronary Artery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 81건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
+- [x] atorvastatin — Hyperlipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
+- [x] atorvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
 - [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
 - [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
