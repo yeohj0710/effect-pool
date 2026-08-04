@@ -1,0 +1,41 @@
+{
+  "id": "propranolol-traumatic-stress-null",
+  "subj": "프로프라놀롤",
+  "claim": "외상 후 스트레스 반응을 줄인다",
+  "line": "PTSD 성인 66명에게 기억 재활성화와 함께 써도 위약보다 증상 감소가 크지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 66,
+  "synth": "single",
+  "why": "연구진이 PTSD 성인 66명을 프로프라놀롤과 위약에 무작위로 나누고 외상 기억 재활성화 뒤 PTSD와 우울 증상을 비교했습니다.",
+  "saw": "두 군 모두 PTSD 증상이 줄었지만 치료 직후와 추적 평가에서 프로프라놀롤군과 위약군 사이에 유의한 차이가 없었습니다.",
+  "limit": "기억 재활성화 절차와 함께 평가한 결과라 프로프라놀롤 단독 효과와 구분하기 어렵습니다. 오래된 PTSD 환자를 대상으로 했으므로 모든 급성 스트레스 반응에 일반화할 수 없습니다.",
+  "against": "다른 무작위시험에서는 PTSD 성인 60명에서 프로프라놀롤군의 PTSD 증상 감소가 위약군보다 컸습니다. 연구마다 기억 재활성화 절차와 대상자의 초기 중증도가 달라 결과가 일치하지 않습니다.",
+  "use": "외상 기억을 다루는 절차의 보조 효과를 프로프라놀롤의 일반적인 스트레스 치료 효과로 확대하면 안 됩니다.",
+  "refs": [
+    {
+      "label": "Roullet 2021 · Neuropsychopharmacology · PTSD 기억 재활성화 무작위시험",
+      "doi": "10.1038/s41386-021-00984-w",
+      "pmid": "33612830",
+      "pmc": "PMC7897457"
+    },
+    {
+      "label": "Brunet 2018 · Am J Psychiatry · PTSD 증상 감소 무작위시험",
+      "doi": "10.1176/appi.ajp.2017.17050481",
+      "pmid": "29325446"
+    },
+    {
+      "label": "Lonergan 2016 · J Psychopharmacol · 불안장애 체계적 문헌고찰·메타분석",
+      "doi": "10.1177/0269881115612236",
+      "pmid": "26487439",
+      "pmc": "PMC4724794"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=propranolol&query.cond=stress reaction → 4건 반환, InterventionName에 propranolol 포함 4건",
+    "pubmed": "propranolol AND (\"stress reaction\" OR \"acute stress\") → 88건",
+    "negative": "propranolol AND (\"stress reaction\" OR \"acute stress\") AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 26건",
+    "safety": "propranolol AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,565건"
+  }
+}

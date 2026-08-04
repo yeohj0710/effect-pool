@@ -147,6 +147,15 @@
   }
   .row .tag.harm{ color:var(--clay); }
 
+  /* 규모 — 36명 단일 시험과 6만 명 메타분석은 눈금이 같아도 무게가 다르다 */
+  .size{
+    flex:none; font-family:var(--n); font-size:11.5px; color:var(--ink-3);
+    white-space:nowrap; font-variant-numeric:tabular-nums;
+  }
+  .size b{ font-weight:600; color:var(--ink-2); }
+  .size.thin{ color:var(--clay); }
+  .size.thin b{ color:var(--clay); }
+
   .empty{
     background:var(--card); border-radius:var(--r);
     padding:3rem 1.75rem; text-align:center; color:var(--ink-3); font-size:14px;
@@ -305,6 +314,17 @@ function meter(tier, dir){
   return h + '</span>';
 }
 
+// 몇 명한테서 나온 결과인지. 눈금이 같아도 무게는 다르다.
+function sizeTag(e){
+  if (e.n == null) return '';
+  const n = e.n.toLocaleString('ko-KR');
+  const kind = e.synth === 'meta' ? '종합' : '단일';
+  return '<span class="size' + (e.thin ? ' thin' : '') + '" title="'
+    + (e.synth === 'meta' ? '여러 연구를 합친 결과' : '단일 연구')
+    + (e.thin ? ' · 사람 수가 적어 근거가 얇습니다' : '') + '">'
+    + kind + ' <b>' + n + '</b>명</span>';
+}
+
 /* ── 숫자 요약 ── */
 const nTrial = DATA.entries.filter(e => e.tier === 'trial').length;
 const nOff = DATA.entries.filter(e => e.dir === 'null' || e.dir === 'harm').length;
@@ -375,6 +395,7 @@ function render(){
         meter(item.tier, item.dir) +
         '<span class="txt"><span class="subj">' + esc(item.subj) + '</span> — ' +
           '<span class="rest">' + esc(item.line) + '</span></span>' +
+        sizeTag(item) +
         '<span class="tag' + (item.dir === 'harm' ? ' harm' : '') + '">' + d.t + '</span>';
       btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
       btn.addEventListener('click', () => open(item, tier, btn));
@@ -408,7 +429,14 @@ function open(item, tier, trigger){
     .map(([k, v]) => '<li><b>' + (LOGK[k] || k) + '</b> · ' + esc(v) + '</li>').join('');
 
   const noAgainst = /찾아봤지만 없었/.test(item.against);
+  const weight = item.n == null
+    ? '문장에 사람 수가 없습니다. 규모를 확인하려면 원문을 보세요.'
+    : (item.synth === 'meta' ? '여러 연구를 합친 결과' : '단일 연구')
+      + ', 사람 ' + item.n.toLocaleString('ko-KR') + '명'
+      + (item.thin ? '. 사람 수가 적어 이것만으로 판단하기에는 얇습니다.' : '.');
+
   document.getElementById('s-body').innerHTML =
+    '<h4>근거 무게</h4><p' + (item.thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
     '<h4>왜 이 칸인가</h4><p class="lead">' + esc(item.why) + '</p>' +
     '<h4>무슨 연구인가</h4><p>' + esc(item.saw) + '</p>' +
     '<h4>조심할 점</h4><p>' + esc(item.limit) + '</p>' +

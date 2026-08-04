@@ -109,19 +109,23 @@ entries.forEach((e, i) => {
   const hit = BAD.filter((w) => (e.line || "").includes(w));
   if (hit.length) warnings.push(`${at} — 한 줄에 번역투: ${hit.join(", ")}`);
 
-  // 근거의 무게 — 설계만 보면 36명 시험과 6만 명 메타분석이 같은 칸에 온다
-  const text = `${e.line} ${e.saw}`;
-  const people = [...text.matchAll(/([\d,]+)\s*명/g)]
-    .map((m) => Number(m[1].replace(/,/g, ""))).filter(Number.isFinite);
-  e._n = people.length ? Math.max(...people) : null;
-  e._synth = /메타분석|메타 분석|체계적 검토|코크란|합치자|합쳐|합쳐도|네트워크 분석|시험 \d+개|\d+편/.test(text)
-    ? "meta" : "single";
-
-  if (e.tier === "trial" && e._synth === "single" && e._n !== null && e._n < 50) {
-    warnings.push(`${at} — 사람 ${e._n}명짜리 단일 시험 하나로 맨 위 칸입니다. 근거가 얇습니다`);
+  // 근거의 무게 — 설계만 보면 36명 시험과 6만 명 메타분석이 같은 칸에 온다.
+  // 문장에서 정규식으로 뽑으면 3분의 1을 놓친다. 그래서 필드로 받는다.
+  // 눈금은 안 깎는다. 깎으면 "얇은 5칸"과 "제대로 된 4칸"이 구분되지 않는다.
+  if (!("n" in e)) errors.push(`${at} — n 필드가 없습니다. 사람 수를 적으세요 (모르면 null)`);
+  if (e.n !== null && e.n !== undefined && !(Number.isInteger(e.n) && e.n > 0)) {
+    errors.push(`${at} — n 은 양의 정수이거나 null 이어야 합니다: ${e.n}`);
   }
-  if (e.tier === "trial" && e._n === null) {
-    warnings.push(`${at} — 사람 수가 문장에 없습니다. 규모를 적으세요`);
+  if (!["single", "meta"].includes(e.synth)) {
+    errors.push(`${at} — synth 는 "single"(단일 연구) 또는 "meta"(여러 연구 합침) 여야 합니다`);
+  }
+
+  e.thin = e.synth === "single" && Number.isInteger(e.n) && e.n < 50;
+  if (e.tier === "trial" && e.thin) {
+    warnings.push(`${at} — 사람 ${e.n}명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다`);
+  }
+  if (e.tier === "trial" && e.n === null) {
+    warnings.push(`${at} — 사람 수 미상. 원문을 보고 n 을 채우세요`);
   }
 });
 

@@ -1,0 +1,35 @@
+{
+  "id": "aspirin-cancer-null",
+  "subj": "아스피린",
+  "claim": "암 발생을 줄인다",
+  "line": "건강한 여성 39,876명을 무작위로 나눈 시험에서 전체 암 발생과 암 사망이 줄지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 39876,
+  "synth": "single",
+  "why": "연구진이 암 병력이 없는 건강한 여성을 아스피린과 위약에 무작위로 나누고 전체 암 발생을 비교했습니다.",
+  "saw": "39,876명을 평균 10.1년 추적했습니다. 새 암은 2,865건이었고 전체 암 위험비는 1.01이었습니다. 암 사망 583건에서도 위험비는 0.95로 유의한 감소가 없었습니다.",
+  "limit": "건강한 미국 여성의 일차 예방시험이라 암 환자나 유전성 고위험군에 그대로 적용할 수 없습니다. 암 종류별 표본이 작아 특정 암의 효과까지 모두 배제하지는 못합니다.",
+  "against": "린치증후군 환자 861명을 무작위로 나눈 장기 추적에서는 대장암이 아스피린군 9%, 위약군 13%에서 발생했고 위험비가 0.65였습니다. 유전성 대장암 고위험군의 결과는 전체 암 예방 결과와 달랐습니다.",
+  "use": "아스피린이 모든 암을 예방한다는 주장은 지지하지 않으며, 특정 유전성 대장암 고위험군 연구와 일반인의 암 예방을 구분해야 합니다.",
+  "refs": [
+    {
+      "label": "Cook 2005 · JAMA · 건강한 여성 암 일차예방 무작위시험",
+      "doi": "10.1001/jama.294.1.47",
+      "pmid": "15998890"
+    },
+    {
+      "label": "Burn 2020 · Lancet · 린치증후군 대장암 예방 무작위시험",
+      "doi": "10.1016/S0140-6736(20)30366-4",
+      "pmid": "32534647",
+      "pmc": "PMC7294238"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=aspirin&query.cond=cancer → 185건 반환, InterventionName에 aspirin 포함 113건",
+    "pubmed": "aspirin AND cancer → 7,918건",
+    "negative": "aspirin AND cancer AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 1,508건",
+    "safety": "aspirin AND (adverse OR toxicity OR bleeding OR \"case report\" OR overdose OR \"self-medication\") → 33,432건"
+  }
+}

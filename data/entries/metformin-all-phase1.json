@@ -1,0 +1,40 @@
+{
+  "id": "metformin-all-phase1",
+  "subj": "메트포르민",
+  "claim": "급성림프모구백혈병에 듣는다",
+  "line": "재발·불응 급성림프모구백혈병 14명에게 병용했더니 반응 평가가 가능한 9명 중 5명이 완전관해를 보였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 14,
+  "synth": "single",
+  "why": "연구진이 재발·불응 급성림프모구백혈병 환자에게 메트포르민을 재유도 화학요법과 병용한 1상 시험을 했습니다.",
+  "saw": "14명이 등록했고 9명이 반응 평가를 받았습니다. 완전관해 5명, 부분관해 1명, 안정병변 1명을 기록했습니다.",
+  "limit": "단일군 1상이라 비교군이 없고 반응 평가 인원이 9명뿐입니다. 중증 환자를 대상으로 안전성과 실행 가능성을 본 시험이라 항암 효과를 확정할 수 없습니다.",
+  "against": "같은 급성림프모구백혈병 항암 주장을 직접 비교한 무작위 음성시험은 찾지 못했습니다. 메트포르민을 치료 유발 고혈당에 쓴 17명 회고 연구는 혈당만 평가하고 백혈병 반응은 평가하지 않았습니다.",
+  "use": "초기 병용시험의 반응 신호를 확인했지만, 메트포르민이 급성림프모구백혈병의 표준 치료라는 근거로 바꿔 읽을 수는 없습니다.",
+  "refs": [
+    {
+      "label": "Meyers 2018 · Pediatr Blood Cancer · 재발·불응 백혈병 1상",
+      "doi": "10.1002/pbc.27224",
+      "pmid": "29856514"
+    },
+    {
+      "label": "Morales 2018 · J Transl Med · ABCB1 고발현 백혈병 관찰 연구",
+      "doi": "10.1186/s12967-018-1620-6",
+      "pmid": "30176891",
+      "pmc": "PMC6122769"
+    },
+    {
+      "label": "Hertzberg 2013 · J Pediatr Hematol Oncol · 치료 유발 고혈당 연구",
+      "doi": "10.1097/MPH.0b013e31829cdeba",
+      "pmid": "23823111"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=metformin&query.cond=acute lymphoblastic leukemia → 5건 반환, InterventionName에 metformin 포함 5건",
+    "pubmed": "metformin AND \"acute lymphoblastic leukemia\" → 27건",
+    "negative": "metformin AND \"acute lymphoblastic leukemia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 9건",
+    "safety": "metformin AND \"acute lymphoblastic leukemia\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 10건"
+  }
+}
