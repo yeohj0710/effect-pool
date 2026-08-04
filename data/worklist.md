@@ -5313,14 +5313,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clozapine — Bipolar Disorder에 듣는다 — 새 항목(clozapine-bipolar-disorder-null)  <!-- 등록 시험 9건 -->
 - [x] clozapine — Psychotic Disorder에 듣는다 — 새 항목(clozapine-psychotic-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] clozapine — Alcohol Abuse에 듣는다 — 새 항목(clozapine-alcohol-abuse-null)  <!-- 등록 시험 6건 -->
-- [ ] cariprazine — Schizophrenia에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] cariprazine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] cariprazine — Depression에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] cariprazine — Mania에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] oxytocin — Labor에 듣는다  <!-- 등록 시험 51건 -->
-- [ ] oxytocin — Schizophrenia에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] oxytocin — Autism에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] oxytocin — Alcohol Use에 듣는다  <!-- 등록 시험 29건 -->
+- [x] cariprazine — Schizophrenia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
+- [x] cariprazine — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] cariprazine — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 6건 -->
+- [x] cariprazine — Mania에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 3건 -->
+- [x] oxytocin — Labor에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 51건 -->
+- [x] oxytocin — Schizophrenia에 듣는다 — 새 항목(oxytocin-schizophrenia-null)  <!-- 등록 시험 29건 -->
+- [x] oxytocin — Autism에 듣는다 — 새 항목(oxytocin-autism-null)  <!-- 등록 시험 29건 -->
+- [x] oxytocin — Alcohol Use에 듣는다 — 새 항목(oxytocin-alcohol-use-null)  <!-- 등록 시험 29건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -5331,8 +5331,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] fluvoxamine — COVID-19에 듣는다  <!-- 등록 시험 8건 -->
+- [x] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] fluvoxamine — COVID-19에 듣는다 — 새 항목(fluvoxamine-covid-19-null)  <!-- 등록 시험 8건 -->
 - [ ] fluvoxamine — Anxiety Disorders에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] fluvoxamine — Covid19에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] paroxetine — Depression에 듣는다  <!-- 등록 시험 39건 -->

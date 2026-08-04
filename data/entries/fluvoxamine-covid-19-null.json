@@ -1,0 +1,53 @@
+{
+  "id": "fluvoxamine-covid-19-null",
+  "subj": "플루복사민",
+  "claim": "플루복사민이 COVID-19를 치료한다",
+  "line": "COVID-19 외래환자에서 플루복사민의 효과는 일관되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4711,
+  "synth": "meta",
+  "why": "COVID-19 외래환자 무작위시험 메타분석은 병원 이용과 임상 악화 감소를 보고했지만, 다른 메타분석과 대규모 시험은 유익한 효과를 확인하지 못했습니다.",
+  "saw": "6편 무작위시험 4,711명을 합친 메타분석에서는 임상 악화와 입원이 감소했습니다. 반면 6편 메타분석은 임상 악화·입원 차이가 유의하지 않았고, Cochrane 검토는 2편 1,649명 근거를 낮은 확실성으로 평가했습니다.",
+  "limit": "시험 시기와 유행 변이, 표준치료, 고위험 외래환자 기준이 달랐습니다. 증상 호전·삶의 질과 장기 후유증은 일관되게 측정되지 않았습니다.",
+  "against": "반대 검색 121건을 확인했습니다. 대규모 무작위시험은 플루복사민의 임상적 이득 부족을 보고했고, Cochrane 검토도 효과 추정의 확실성이 낮다고 했습니다.",
+  "use": "COVID-19 치료제로 확정하지 말고, 서로 다른 결과를 낸 초기 외래시험의 비허가 근거로 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "Zhang 2024 · PLOS ONE · COVID-19 플루복사민 무작위시험 메타분석",
+      "doi": "10.1371/journal.pone.0300512",
+      "pmid": "38753761",
+      "pmc": "PMC11098472"
+    },
+    {
+      "label": "Bellos 2023 · Clinical Microbiology and Infection · COVID-19 플루복사민 메타분석",
+      "doi": "10.1177/10600280231162243",
+      "pmid": "37002592",
+      "pmc": "PMC10067701"
+    },
+    {
+      "label": "Cochrane 2022 · COVID-19 플루복사민 검토",
+      "doi": "10.1002/14651858.CD015391",
+      "pmid": "36103313",
+      "pmc": "PMC9473347"
+    },
+    {
+      "label": "Lack of Benefit of Fluvoxamine for COVID-19 · 대규모 무작위시험",
+      "doi": "10.1001/jama.2022.23954",
+      "pmid": "36633871"
+    },
+    {
+      "label": "Fluvoxamine-methadone interaction · 안전성 증례",
+      "doi": "10.1046/j.1440-1614.1999.00522.x",
+      "pmid": "10197892"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:FLUVOXAMINE → 23건; 허가 문구는 강박장애이며 COVID-19 감염 적응증 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=fluvoxamine&query.cond=COVID-19&countTotal=true&pageSize=50 → 14건 반환, InterventionName 대조 후 fluvoxamine 일치 13건",
+    "pubmed": "fluvoxamine AND COVID-19 → 195건",
+    "negative": "fluvoxamine AND COVID-19 AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 121건",
+    "safety": "fluvoxamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,380건"
+  }
+}

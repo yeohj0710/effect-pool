@@ -1,0 +1,41 @@
+{
+  "id": "oxytocin-autism-null",
+  "subj": "옥시토신",
+  "claim": "옥시토신이 자폐 스펙트럼 장애를 치료한다",
+  "line": "자폐 스펙트럼 장애에서 옥시토신 효과는 일관되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 486,
+  "synth": "meta",
+  "why": "자폐 스펙트럼 장애 소아 무작위시험 5편의 메타분석은 제한된 가능성을 보였지만, 가장 큰 위약대조시험은 사회기능·인지기능 차이를 확인하지 못했습니다.",
+  "saw": "5편의 무작위시험, 486명을 합친 메타분석은 핵심 증상 중 일부에서 중간 정도 가능성을 제시했습니다. 290명 소아·청소년 시험에서는 24주 뒤 일차·이차 사회기능 결과가 위약과 다르지 않았습니다.",
+  "limit": "메타분석에 포함된 시험 수가 적고 결과 척도와 연령대가 달랐습니다. 단일 시험의 사회기능 변화가 자폐의 전반적 치료를 뜻하지 않습니다.",
+  "against": "반대 검색 741건을 확인했습니다. 가장 큰 시험은 옥시토신과 위약의 사회·인지기능 차이가 없었고, 장기 투여 이상반응 검토가 별도로 필요합니다.",
+  "use": "자폐 스펙트럼 장애의 표준치료로 표시하지 말고, 작은 연구의 혼합된 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Li 2023 · European Journal of Clinical Pharmacology · 소아 자폐 옥시토신 메타분석",
+      "doi": "10.1007/s00228-023-03545-w",
+      "pmid": "37540265"
+    },
+    {
+      "label": "Sikich 2021 · New England Journal of Medicine · 소아·청소년 자폐 옥시토신 무작위시험",
+      "doi": "10.1056/NEJMoa2103583",
+      "pmid": "34644471",
+      "pmc": "PMC9701092"
+    },
+    {
+      "label": "자폐 옥시토신 장기 투여 이상반응 체계적 문헌고찰",
+      "doi": "10.1111/pcn.12627",
+      "pmid": "29232031"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.brand_name:PITOCIN → 4건; 허가 문구는 분만 관련 적응증이며 자폐 스펙트럼 장애 적응증 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=oxytocin&query.cond=Autism&countTotal=true&pageSize=50 → 45건 반환, InterventionName 대조 후 oxytocin 일치 38건",
+    "pubmed": "oxytocin AND Autism → 1,153건",
+    "negative": "oxytocin AND Autism AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 741건",
+    "safety": "oxytocin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,185건"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "oxytocin-schizophrenia-null",
+  "subj": "옥시토신",
+  "claim": "옥시토신이 조현병 증상을 개선한다",
+  "line": "조현병에서 옥시토신은 위약과 증상 차이가 없었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 344,
+  "synth": "meta",
+  "why": "조현병 보조치료 무작위시험 10편의 메타분석에서 옥시토신과 위약의 전체 정신병리·양성·음성 증상 차이가 유의하지 않았습니다.",
+  "saw": "10편의 이중눈가림 무작위시험, 344명을 합친 메타분석에서 전체 PANSS·BPRS와 양성·음성 증상 차이가 없었습니다. 9편의 음성증상 메타분석도 일관된 이득을 확인하지 못했습니다.",
+  "limit": "모두 기존 치료에 추가한 단기 시험이며 연구별 증상 척도와 투여 기간이 달랐습니다. 일부 하위분석의 신호는 이상치에 민감했습니다.",
+  "against": "반대 검색 301건을 확인했고, 별도 메타분석은 음성·양성 증상에서 일관된 유익한 효과가 없다고 결론냈습니다. 안전성 차이는 뚜렷하지 않았습니다.",
+  "use": "조현병 증상 개선을 확정된 효과로 표시하지 말고, 보조치료의 불확실한 연구 결과로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Wang 2019 · Schizophrenia Research · 조현병 옥시토신 보조치료 메타분석",
+      "doi": "10.1016/j.schres.2018.12.007",
+      "pmid": "30573406"
+    },
+    {
+      "label": "Deng 2021 · International Journal of Neuropsychopharmacology · 조현병 음성증상 옥시토신 메타분석",
+      "doi": "10.1093/ijnp/pyab020",
+      "pmid": "33890987",
+      "pmc": "PMC8378078"
+    },
+    {
+      "label": "옥시토신 모유수유 안전성 체계적 문헌고찰",
+      "doi": "10.1371/journal.pone.0235806",
+      "pmid": "32756565",
+      "pmc": "PMC7406087"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.brand_name:PITOCIN → 4건; 허가 문구는 분만 유도·분만 진행과 산후 출혈 조절이며 조현병 적응증 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=oxytocin&query.cond=Schizophrenia&countTotal=true&pageSize=50 → 36건 반환, InterventionName 대조 후 oxytocin 일치 34건",
+    "pubmed": "oxytocin AND Schizophrenia → 427건",
+    "negative": "oxytocin AND Schizophrenia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 301건",
+    "safety": "oxytocin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,185건"
+  }
+}

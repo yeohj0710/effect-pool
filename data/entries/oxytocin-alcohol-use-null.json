@@ -1,0 +1,41 @@
+{
+  "id": "oxytocin-alcohol-use-null",
+  "subj": "옥시토신",
+  "claim": "옥시토신이 알코올 사용장애를 개선한다",
+  "line": "알코올 사용장애에서 옥시토신 효과는 아직 불확실합니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 47,
+  "synth": "single",
+  "why": "PTSD와 알코올 사용장애가 함께 있는 47명을 대상으로 한 무작위 교차시험에서 옥시토신이 공포 유발 놀람 반응을 줄이지 못했습니다.",
+  "saw": "PTSD·알코올 사용장애 환자 47명과 대조군 37명을 포함한 이중눈가림 위약대조 교차시험에서 환자군의 공포 유발 놀람 반응은 개선되지 않았고 한 조건에서는 오히려 증가했습니다.",
+  "limit": "음주량·금주·재발이 아니라 실험실 놀람 반응을 측정한 단회 시험이며, PTSD가 함께 있는 환자만 포함했습니다.",
+  "against": "반대 검색 260건을 확인했습니다. 서술적 검토는 일부 임상 연구에서 갈망·금단 관련 가능성을 언급하지만 결과가 연구 조건에 따라 달랐습니다.",
+  "use": "알코올 사용장애 치료 효과로 확정하지 말고, 이중진단 환자의 제한된 실험 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Flanagan 2022 · Psychiatry Research · PTSD·알코올 사용장애 옥시토신 무작위시험",
+      "doi": "10.1016/j.psychres.2021.114340",
+      "pmid": "34983010",
+      "pmc": "PMC9074818"
+    },
+    {
+      "label": "Oxytocin as a treatment for alcohol use disorder · 임상·전임상 서술적 검토",
+      "doi": "10.1037/pha0000741",
+      "pmid": "39298263",
+      "pmc": "PMC11995404"
+    },
+    {
+      "label": "옥시토신 알코올 사용장애 임상시험 안전성·반응",
+      "pmid": "34983010"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.brand_name:PITOCIN → 4건; 허가 문구는 분만 관련 적응증이며 알코올 사용장애 적응증 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=oxytocin&query.cond=Alcohol%20Use&countTotal=true&pageSize=50 → 19건 반환, InterventionName 대조 후 oxytocin 일치 18건",
+    "pubmed": "oxytocin AND Alcohol Use → 317건",
+    "negative": "oxytocin AND Alcohol Use AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 260건",
+    "safety": "oxytocin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,185건"
+  }
+}

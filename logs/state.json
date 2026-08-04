@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 580,
+  "entries": 584,
   "worklist": {
-    "checked": 4838,
-    "unchecked": 40,
+    "checked": 4848,
+    "unchecked": 30,
     "no_evidence_pending": 0,
     "next_batch": [
-      "cariprazine-schizophrenia",
-      "cariprazine-major-depressive-disorder",
-      "cariprazine-depression",
-      "cariprazine-mania",
-      "oxytocin-labor",
-      "oxytocin-schizophrenia",
-      "oxytocin-autism",
-      "oxytocin-alcohol-use",
-      "fluvoxamine-obsessive-compulsive-disorder",
-      "fluvoxamine-covid-19"
+      "fluvoxamine-anxiety-disorders",
+      "fluvoxamine-covid19",
+      "paroxetine-depression",
+      "paroxetine-anxiety-disorder",
+      "paroxetine-posttraumatic-stress-disorder",
+      "paroxetine-panic-disorder",
+      "escitalopram-depression",
+      "escitalopram-anxiety",
+      "escitalopram-cancer",
+      "escitalopram-insomnia"
     ]
   },
   "verification": {
@@ -24,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 536,
+      "trial": 540,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 231,
+    "no_effect_or_harm": 235,
     "harm": 23,
     "no_effect_or_harm_share": "40%"
   },
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "berberine-hiv-1-infection-open (existing)",
-    "berberine-gastritis-open (existing)",
-    "sertraline-depressive-episode (approved)",
-    "sertraline-stress-pos",
-    "sertraline-anxiety-pos",
-    "sertraline-compulsive-behavior-null",
-    "clozapine-schizoaffective-disorder-pos",
-    "clozapine-bipolar-disorder-null",
-    "clozapine-psychotic-disorder-null",
-    "clozapine-alcohol-abuse-null"
+    "cariprazine-schizophrenia (approved)",
+    "cariprazine-major-depressive-disorder (approved)",
+    "cariprazine-depression (approved)",
+    "cariprazine-mania (approved)",
+    "oxytocin-labor (approved)",
+    "oxytocin-schizophrenia-null",
+    "oxytocin-autism-null",
+    "oxytocin-alcohol-use-null",
+    "fluvoxamine-obsessive-compulsive-disorder (approved)",
+    "fluvoxamine-covid-19-null"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -67,8 +67,8 @@
     "added_candidates": 32
   },
   "resume": {
-    "last_committed_batch": "berberine, sertraline, clozapine",
-    "current_batch": "berberine, sertraline, clozapine",
+    "last_committed_batch": "cariprazine, oxytocin, fluvoxamine",
+    "current_batch": "cariprazine, oxytocin, fluvoxamine",
     "next_action": "build, commit, push, then process next batch"
   }
 }
