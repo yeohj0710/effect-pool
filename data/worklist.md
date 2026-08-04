@@ -2888,16 +2888,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
+- [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
+- [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
+- [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
 - [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 -->
