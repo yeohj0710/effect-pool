@@ -1,37 +1,48 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 549,
+  "entries": 554,
   "worklist": {
-    "checked": 3613,
-    "unchecked": 0,
+    "checked": 3623,
+    "unchecked": 255,
     "no_evidence_pending": 0,
-    "next_batch": []
+    "next_batch": [
+      "mirtazapine-sleep",
+      "mirtazapine-cancer",
+      "mirtazapine-heroin-dependence",
+      "pregabalin-fibromyalgia",
+      "pregabalin-neuropathy",
+      "pregabalin-neuralgia",
+      "pregabalin-partial-seizures",
+      "lamotrigine-bipolar-disorder",
+      "lamotrigine-depression",
+      "lamotrigine-vertigo-aural"
+    ]
   },
   "last_batch": [
-    "doxycycline-acne-approved",
-    "doxycycline-rosacea-approved",
-    "doxycycline-syphilis-approved",
-    "doxycycline-periodontitis-approved",
-    "colchicine-gout-approved",
-    "colchicine-myocardial-injury-open (existing)",
-    "colchicine-atrial-flutter-null (existing)",
-    "colchicine-covid-null (existing)",
-    "dapagliflozin-heart-failure-approved",
-    "dapagliflozin-kidney-diseases-approved"
+    "hydroxyzine-effect-of-drug-excluded",
+    "buspirone-spinal-cord-injury-null",
+    "buspirone-autism-null",
+    "buspirone-depression-null",
+    "buspirone-heroin-dependence-pos",
+    "aripiprazole-bipolar-approved",
+    "aripiprazole-depressive-episode-approved",
+    "aripiprazole-schizoaffective-disorder-pos",
+    "aripiprazole-depression-approved",
+    "mirtazapine-depression-approved"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 506,
-      "obs": 34,
+      "trial": 510,
+      "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 215,
+    "no_effect_or_harm": 218,
     "harm": 23,
     "no_effect_or_harm_share": "39%"
   },
@@ -41,8 +52,8 @@
     "deployment_id": "dpl_Hucx5fUNENF2cboQSGvQNT13mX3S"
   },
   "resume": {
-    "last_committed_batch": "n-acetylcysteine, creatine, berberine",
-    "current_batch": "n-acetylcysteine, creatine, berberine",
-    "next_action": "process next batch"
+    "last_committed_batch": "hydroxyzine, buspirone, aripiprazole, mirtazapine",
+    "current_batch": "hydroxyzine, buspirone, aripiprazole, mirtazapine",
+    "next_action": "build, commit, push, deploy, then process next batch"
   }
 }
