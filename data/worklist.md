@@ -2027,13 +2027,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tocilizumab — Takayasu Arteritis에 듣는다 — 신규 항목(tocilizumab-takayasu-arteritis-open)  <!-- 등록 시험 23건 -->
 - [x] sarilumab — Cancer에 듣는다 — 신규 항목(sarilumab-cancer-open)  <!-- 등록 시험 22건 -->
 - [x] sarilumab — COVID에 듣는다 — 신규 항목(sarilumab-covid-null)  <!-- 등록 시험 8건 -->
-- [ ] sarilumab — Corona Virus Infection에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] sarilumab — SARS에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 -->
-- [ ] liraglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] ezetimibe — Coronary Disease에 듣는다  <!-- 등록 시험 56건 -->
-- [ ] ezetimibe — Diabetes에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] ezetimibe — Atherosclerosis에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] ezetimibe — Dyslipidemia에 듣는다  <!-- 등록 시험 26건 -->
+- [x] sarilumab — Corona Virus Infection에 듣는다 — 신규 항목(sarilumab-corona-virus-infection-null)  <!-- 등록 시험 3건 -->
+- [x] sarilumab — SARS에 듣는다 — 신규 항목(sarilumab-sars-null)  <!-- 등록 시험 3건 -->
+- [x] liraglutide — Obesity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 107건 -->
+- [x] liraglutide — Metabolism Disorder, Lipid에 듣는다 — 신규 항목(liraglutide-metabolism-disorder-lipid-open)  <!-- 등록 시험 20건 -->
+- [x] liraglutide — Overweight에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
+- [x] liraglutide — Cardiovascular Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] ezetimibe — Coronary Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 56건 -->
+- [x] ezetimibe — Diabetes에 듣는다 — 신규 항목(ezetimibe-diabetes-open)  <!-- 등록 시험 33건 -->
+- [x] ezetimibe — Atherosclerosis에 듣는다 — 신규 항목(ezetimibe-atherosclerosis-open)  <!-- 등록 시험 26건 -->
+- [x] ezetimibe — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 26건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] dupilumab — Asthma에 듣는다  <!-- 등록 시험 45건 -->
+- [ ] dupilumab — Nasal Polyps에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] dupilumab — Eosinophilic Gastritis에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] dupilumab — Eczema에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] mepolizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] mepolizumab — Eosinophilic Fasciitis에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] mepolizumab — Hypereosinophilic Syndrome에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] mepolizumab — Churg-Strauss Syndrome에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] omalizumab — Urticaria에 듣는다  <!-- 등록 시험 38건 -->
+- [ ] omalizumab — Allergy에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] omalizumab — Rhinitis에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] omalizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] tezepelumab — COPD에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] tezepelumab — Chronic Rhinosinusitis With Nasal Polyps에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] benralizumab — Eosinophilic Gastritis에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] benralizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] benralizumab — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] benralizumab — Hypereosinophilia에 듣는다  <!-- 등록 시험 3건 -->
