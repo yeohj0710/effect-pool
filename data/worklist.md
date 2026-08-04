@@ -4833,8 +4833,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 -->
 - [ ] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 18건 -->
+- [x] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
+- [x] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -4845,14 +4845,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 -->
+- [x] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 --> — 기존 항목(metformin-lung-cancer-null)
+- [x] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 --> — 기존 항목(metformin-polycystic-ovary-null)
+- [x] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 --> — 기존 항목(metformin-obesity-pos)
+- [x] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(metformin-insulin-resistance-null)
+- [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
+- [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
+- [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> — 허가 적응증(2026-08-04)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
 - [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
