@@ -2187,16 +2187,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dexamethasone — Lymphoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 64건 -->
 - [x] dexamethasone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 33건 -->
 - [x] hydrocortisone — Lymphoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 49건 -->
-- [ ] hydrocortisone — Cancer에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] hydrocortisone — Adrenal Insufficiency에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] hydrocortisone — Shock에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] enoxaparin — Thrombosis에 듣는다  <!-- 등록 시험 47건 -->
-- [ ] enoxaparin — Embolism에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] enoxaparin — Cancer에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] enoxaparin — COVID에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] apixaban — Thromboembolism에 듣는다  <!-- 등록 시험 77건 -->
-- [ ] apixaban — Thrombosis에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] apixaban — Embolism에 듣는다  <!-- 등록 시험 30건 -->
+- [x] hydrocortisone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 26건 -->
+- [x] hydrocortisone — Adrenal Insufficiency에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 20건 -->
+- [x] hydrocortisone — Shock에 듣는다  <!-- 등록 시험 19건 -->
+- [x] enoxaparin — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 47건 -->
+- [x] enoxaparin — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] enoxaparin — Cancer에 듣는다  <!-- 등록 시험 26건 -->
+- [x] enoxaparin — COVID에 듣는다  <!-- 등록 시험 19건 -->
+- [x] apixaban — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 77건 -->
+- [x] apixaban — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 42건 -->
+- [x] apixaban — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
 - [ ] apixaban — Stroke에 듣는다  <!-- 등록 시험 24건 -->
 - [ ] rivaroxaban — Atrial Flutter에 듣는다  <!-- 등록 시험 118건 -->
 - [ ] rivaroxaban — Thrombosis에 듣는다  <!-- 등록 시험 50건 -->
