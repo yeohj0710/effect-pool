@@ -934,16 +934,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] resveratrol — Aging에 듣는다  <!-- 등록 시험 7건 --> — 새 항목(resveratrol-aging-open)
 - [x] coenzyme q10 — Male Infertility에 듣는다  <!-- 등록 시험 5건 --> — 새 항목(coenzyme-q10-male-infertility-null)
 - [x] coenzyme q10 — Becker Muscular Dystrophy에 듣는다  <!-- 등록 시험 5건 --> — 새 항목(coenzyme-q10-becker-muscular-dystrophy-open)
-- [ ] coenzyme q10 — Coronary Stenosis에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] coenzyme q10 — Oxidative Stress에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] omega-3 — Type 2 Diabetes에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] omega-3 — Hypertriglyceridemia에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] omega-3 — Obesity에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] omega-3 — Concussion, Mild에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] probiotic — Fatty Liver에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] probiotic — Bowel Dysfunction에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] probiotic — Gastrointestinal Health에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] probiotic — Obesity에 듣는다  <!-- 등록 시험 16건 -->
+- [x] coenzyme q10 — Coronary Stenosis에 듣는다  <!-- 등록 시험 5건 --> — 새 항목(coenzyme-q10-coronary-stenosis-pos)
+- [x] coenzyme q10 — Oxidative Stress에 듣는다  <!-- 등록 시험 4건 --> — 새 항목(coenzyme-q10-oxidative-stress-open)
+- [x] omega-3 — Type 2 Diabetes에 듣는다  <!-- 등록 시험 17건 --> — 새 항목(omega-3-type-2-diabetes-open)
+- [x] omega-3 — Hypertriglyceridemia에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
+- [x] omega-3 — Obesity에 듣는다  <!-- 등록 시험 12건 --> — 새 항목(omega-3-obesity-open)
+- [x] omega-3 — Concussion, Mild에 듣는다  <!-- 등록 시험 12건 --> — 새 항목(omega-3-concussion-mild-open)
+- [x] probiotic — Fatty Liver에 듣는다  <!-- 등록 시험 19건 --> — 새 항목(probiotic-fatty-liver-open)
+- [x] probiotic — Bowel Dysfunction에 듣는다  <!-- 등록 시험 17건 --> — 새 항목(probiotic-bowel-dysfunction-open)
+- [x] probiotic — Gastrointestinal Health에 듣는다  <!-- 등록 시험 17건 --> — 새 항목(probiotic-gastrointestinal-health-open)
+- [x] probiotic — Obesity에 듣는다  <!-- 등록 시험 16건 --> — 새 항목(probiotic-obesity-open)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
