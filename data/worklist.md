@@ -2600,11 +2600,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(n-acetylcysteine-oxidative-stress)
 - [x] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(n-acetylcysteine-cocaine-dependence-null)
-- [ ] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] creatine — Sarcopenia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [x] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(creatine-muscle)
+- [x] creatine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(creatine-major-depressive-disorder)
+- [x] creatine — Sarcopenia에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(creatine-sarcopenia)
+- [x] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(creatine-sport-performance)
+- [x] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(berberine-schizophrenia)
+- [x] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(berberine-metabolic-syndrome)
+- [x] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(berberine-hiv-1-infection-open)
+- [x] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(berberine-gastritis-open)
