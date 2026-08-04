@@ -1,0 +1,35 @@
+{
+  "id": "buspirone-depression",
+  "subj": "부스피론",
+  "claim": "부스피론이 우울증에 듣는다",
+  "line": "난치성 우울증 전체에서는 위약보다 효과가 없었고 중증 하위군 신호만 있었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 102,
+  "synth": "single",
+  "why": "SSRI에 반응하지 않은 주요우울삽화 환자에서 부스피론 보조요법과 위약을 비교한 무작위시험을 확인했습니다.",
+  "saw": "102명이 무작위 배정된 시험에서 전체 환자의 종료 시점 MADRS 차이는 없었고 초기 중증 하위군에서만 제한적 신호가 있었습니다.",
+  "limit": "기존 SSRI에 반응하지 않은 환자의 보조요법 연구이며 부스피론 단독 우울증 치료를 평가하지 않았습니다.",
+  "against": "반대 검색 478건을 확인했습니다. 다른 89명 공개 무작위시험에서도 부스피론 보조요법은 우울 증상 전체의 유의한 이득을 보이지 않았습니다.",
+  "use": "우울증 치료제로 표시하지 말고, 전체 효과가 없고 중증 하위군에서만 탐색적 신호가 있었던 보조요법 시험으로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Landen 2001 · Journal of Clinical Psychiatry · SSRI 불응 우울증 부스피론 보조요법 무작위시험",
+      "doi": "10.4088/jcp.v62n0608",
+      "pmid": "11465522"
+    },
+    {
+      "label": "Ghosh 2020 · Psychiatry Investigation · 주요우울장애 에스시탈로프람·부스피론 공개 무작위시험",
+      "doi": "10.30773/pi.2020.0017",
+      "pmid": "32750760"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:BUSPIRONE → 170건; 허가 문구는 불안장애이며 우울증 적응증 없음",
+    "ctgov": "query.intr=buspirone&query.cond=Depression&countTotal=true&pageSize=50 → 7건 반환, InterventionName 대조 후 buspirone 일치 6건",
+    "pubmed": "buspirone AND Depression → 585건",
+    "negative": "buspirone AND Depression AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 478건",
+    "safety": "buspirone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 870건"
+  }
+}

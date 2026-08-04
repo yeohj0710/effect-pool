@@ -1,0 +1,30 @@
+{
+  "id": "venlafaxine-pain",
+  "subj": "벤라팍신",
+  "claim": "벤라팍신이 통증에 듣는다",
+  "line": "신경병증성 통증 효과는 연구가 작고 근거가 약했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 460,
+  "synth": "meta",
+  "why": "성인 만성 신경병증성 통증 무작위시험 6편을 검토한 Cochrane 문헌고찰을 확인했습니다.",
+  "saw": "6개 무작위 이중눈가림시험 460명에서 4편은 일부 이득을 보고했지만 모두 소규모·방법론적 한계가 있어 설득력 있는 근거로 평가되지 않았습니다.",
+  "limit": "대부분 당뇨병성 신경병증이고 연구 기간과 표본이 작았습니다. 일반 통증이나 장기 진통 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 387건을 확인했습니다. Cochrane 문헌고찰은 1·2단계 근거가 없고 처방 지침을 바꿀 근거가 부족하다고 결론냈습니다.",
+  "use": "통증 치료제로 확립됐다고 표시하지 말고, 작은 시험의 제한적 신호와 부족한 고품질 근거를 함께 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Gallagher 2015 · Cochrane Database of Systematic Reviews · 성인 신경병증성 통증 벤라팍신 검토",
+      "doi": "10.1002/14651858.CD011091.pub2",
+      "pmid": "26298465"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:VENLAFAXINE → 185건; 허가 문구는 주요우울장애·범불안장애·사회불안장애·공황장애이며 통증 적응증 없음",
+    "ctgov": "query.intr=venlafaxine&query.cond=Pain&countTotal=true&pageSize=50 → 24건 반환, InterventionName 대조 후 venlafaxine 일치 17건",
+    "pubmed": "venlafaxine AND Pain → 511건",
+    "negative": "venlafaxine AND Pain AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 387건",
+    "safety": "venlafaxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 2,644건"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "venlafaxine-breast-cancer",
+  "subj": "벤라팍신",
+  "claim": "벤라팍신이 유방암에 듣는다",
+  "line": "유방암 생존자의 안면홍조는 줄였지만 암 자체는 평가하지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 221,
+  "synth": "single",
+  "why": "유방암 생존자의 안면홍조를 벤라팍신과 위약으로 비교한 무작위시험을 확인했습니다.",
+  "saw": "221명이 무작위 배정된 시험에서 벤라팍신은 4주 동안 안면홍조 빈도와 점수를 위약보다 줄였습니다.",
+  "limit": "측정한 결과는 유방암 치료가 아니라 호르몬 치료와 관련된 안면홍조입니다. 종양 반응·재발·생존은 평가하지 않았습니다.",
+  "against": "반대 검색 92건을 확인했습니다. 메타분석은 효과를 확인했지만 시험 간 이질성이 매우 높고 출판 편향 가능성을 제기했습니다.",
+  "use": "유방암 치료제로 표시하지 말고, 유방암 생존자의 안면홍조를 줄이는 제한된 증상 치료 근거로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Ladd 2000 · Lancet · 유방암 생존자 안면홍조 벤라팍신 무작위시험",
+      "doi": "10.1016/S0140-6736(00)03403-6",
+      "pmid": "11145492"
+    },
+    {
+      "label": "Sideras 2015 · Breast Cancer Research and Treatment · 유방암 안면홍조 벤라팍신 메타분석",
+      "doi": "10.1007/s10549-015-3465-5",
+      "pmid": "26067931"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:VENLAFAXINE → 185건; 허가 문구는 주요우울장애·불안장애 계열이며 유방암 적응증 없음",
+    "ctgov": "query.intr=venlafaxine&query.cond=Breast%20Cancer&countTotal=true&pageSize=50 → 5건 반환, InterventionName 대조 후 venlafaxine 일치 5건",
+    "pubmed": "venlafaxine AND Breast Cancer → 107건",
+    "negative": "venlafaxine AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 92건",
+    "safety": "venlafaxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 2,644건"
+  }
+}

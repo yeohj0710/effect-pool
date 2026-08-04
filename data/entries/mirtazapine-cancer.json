@@ -1,0 +1,36 @@
+{
+  "id": "mirtazapine-cancer",
+  "subj": "미르타자핀",
+  "claim": "미르타자핀이 암에 듣는다",
+  "line": "암 관련 식욕부진 개선은 위약보다 낫다는 결과가 일관되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 120,
+  "synth": "single",
+  "why": "암 관련 식욕부진·악액질 환자를 대상으로 한 무작위 위약대조시험에서 미르타자핀의 효과를 평가했습니다.",
+  "saw": "120명이 무작위 배정된 시험에서 식욕 점수 증가는 미르타자핀과 위약 모두에서 나타났지만 두 군의 차이는 유의하지 않았습니다.",
+  "limit": "불치 고형암의 식욕부진·악액질이라는 특정 증상만 측정했고 종양 반응·생존·암 진행은 평가하지 않았습니다.",
+  "against": "반대 검색 150건을 확인했습니다. 다른 소규모 시험에서는 에너지 섭취나 근육량 신호가 있었지만 식욕 효과와 연구 결과가 일관되지 않았습니다.",
+  "use": "암 치료제로 표시하지 말고, 암 관련 식욕부진에서 위약보다 우월하지 않았던 무작위시험과 제한된 보조 신호를 함께 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Loh 2021 · Journal of Pain and Symptom Management · 암 관련 식욕부진·악액질 미르타자핀 위약대조시험",
+      "doi": "10.1016/j.jpainsymman.2021.05.017",
+      "pmid": "34051293"
+    },
+    {
+      "label": "Vera 2024 · JAMA Oncology · 비소세포폐암 식욕부진 미르타자핀 무작위시험",
+      "doi": "10.1001/jamaoncol.2023.5232",
+      "pmid": "38206631",
+      "nct": "NCT03254173"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:MIRTAZAPINE → 90건; 허가 문구는 성인 주요우울장애이며 암 적응증 없음",
+    "ctgov": "query.intr=mirtazapine&query.cond=Cancer&countTotal=true&pageSize=50 → 17건 반환, InterventionName 대조 후 mirtazapine 일치 15건",
+    "pubmed": "mirtazapine AND Cancer → 193건",
+    "negative": "mirtazapine AND Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 150건",
+    "safety": "mirtazapine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 1,667건"
+  }
+}

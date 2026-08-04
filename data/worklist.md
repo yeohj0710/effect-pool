@@ -5383,16 +5383,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] haloperidol — Advanced Cancer에 듣는다  <!-- 등록 시험 9건 -->
 - [x] mirtazapine — Depression에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 -->
-- [ ] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] buspirone — Spinal Cord Injury에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] buspirone — Autism에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] buspirone — Depression에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] buspirone — Heroin Dependence에 듣는다  <!-- 등록 시험 4건 -->
+- [x] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
+- [x] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> — 허가 적응증(2026-08-04)
+- [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
+- [x] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
+- [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
+- [x] buspirone — Spinal Cord Injury에 듣는다  <!-- 등록 시험 7건 -->
+- [x] buspirone — Autism에 듣는다  <!-- 등록 시험 6건 -->
+- [x] buspirone — Depression에 듣는다  <!-- 등록 시험 5건 -->
+- [x] buspirone — Heroin Dependence에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
 - [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->

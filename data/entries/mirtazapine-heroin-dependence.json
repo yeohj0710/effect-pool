@@ -1,0 +1,29 @@
+{
+  "id": "mirtazapine-heroin-dependence",
+  "subj": "미르타자핀",
+  "claim": "미르타자핀이 헤로인 의존에 듣는다",
+  "line": "헤로인 의존에 대한 미르타자핀 임상 효과를 확인하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 80,
+  "synth": "single",
+  "why": "헤로인·각성제 동시 의존 환자를 대상으로 한 미르타자핀 등록시험은 확인했지만 결과 논문을 찾지 못했습니다.",
+  "saw": "ClinicalTrials.gov에 80명 규모의 동시 오피오이드·각성제 의존 연구가 등록돼 있었으나 결과가 공개되지 않았고, PubMed에는 사람 효능 논문이 없었습니다.",
+  "limit": "등록 인원은 연구 계획상의 규모이며 실제 분석 인원이나 헤로인 금단·재사용 결과가 아닙니다. 확인된 PubMed 결과는 사람 연구가 아닌 동물 증례였습니다.",
+  "against": "반대 검색은 0건이었고, 사람의 헤로인 의존 치료 효과를 확인할 수 있는 논문도 찾지 못했습니다.",
+  "use": "미르타자핀을 헤로인 의존 치료제로 표시하지 말고, 결과 미공개 등록시험으로만 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "ClinicalTrials.gov · 오피오이드·각성제 동시 의존 미르타자핀 연구",
+      "nct": "NCT02541526"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:MIRTAZAPINE → 90건; 허가 문구는 성인 주요우울장애이며 헤로인 의존 적응증 없음",
+    "ctgov": "query.intr=mirtazapine&query.cond=Heroin%20Dependence&countTotal=true&pageSize=50 → 1건 반환, InterventionName 대조 후 mirtazapine 일치 1건",
+    "pubmed": "mirtazapine AND Heroin Dependence → 1건",
+    "negative": "mirtazapine AND Heroin Dependence AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 0건",
+    "safety": "mirtazapine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 1,667건"
+  }
+}
