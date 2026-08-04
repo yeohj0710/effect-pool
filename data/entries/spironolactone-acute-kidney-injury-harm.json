@@ -1,0 +1,35 @@
+{
+  "id": "spironolactone-acute-kidney-injury-harm",
+  "subj": "스피로놀락톤",
+  "claim": "이뇨제를 급성 신손상에 쓴다",
+  "line": "신장질환 1,446명 5시험에서 급성 신손상 위험이 두 배였습니다",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 1446,
+  "synth": "meta",
+  "why": "알도스테론 길항제를 ACE 억제제나 ARB에 더한 무작위시험을 합친 Cochrane 분석에서 급성 신손상을 사전 지정한 안전성 결과로 비교했습니다.",
+  "saw": "5개 시험 1,446명에서 급성 신손상 위험비가 2.04였습니다. 2024년 무기질코르티코이드 수용체 길항제 메타분석은 전체 급성 신손상은 유의하게 늘지 않았지만, 스피로놀락톤을 포함한 신장손상은 늘었다고 보고했습니다.",
+  "limit": "급성 신손상 결과는 스피로놀락톤만 따로 합친 값이 아니며, 대체로 ACE 억제제나 ARB를 함께 썼습니다. 연구마다 신장손상 정의도 달랐습니다.",
+  "against": "더 큰 메타분석에서 전체 급성 신손상은 18,065명 13시험의 위험비 1.13으로 유의하지 않았습니다. 다만 전체 신장손상은 27,492명 33시험에서 늘었고 스피로놀락톤 하위 결과의 위험비는 1.78이었습니다.",
+  "use": "신장질환에서 기대한 단백뇨 변화와 급성 신손상 신호를 함께 확인해야 하는 근거입니다.",
+  "refs": [
+    {
+      "label": "Bolignano 2020 · Cochrane · 급성 신손상 안전성 메타분석",
+      "doi": "10.1002/14651858.CD007004.pub4",
+      "pmid": "33107592",
+      "pmc": "PMC8094274"
+    },
+    {
+      "label": "Sakaguchi 2024 · Pharmacotherapy · 신장손상 메타분석",
+      "doi": "10.1002/phar.4618",
+      "pmid": "39578707"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=spironolactone&query.cond=Acute Renal Injury → 6건 반환, InterventionName 대조 후 5건",
+    "pubmed": "spironolactone AND (acute kidney injury OR acute renal injury) → 127건",
+    "negative": "spironolactone AND Acute Renal Injury AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 102건",
+    "safety": "spironolactone AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 3,190건"
+  }
+}

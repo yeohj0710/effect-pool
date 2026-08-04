@@ -1,0 +1,35 @@
+{
+  "id": "spironolactone-kidney-disease-null",
+  "subj": "스피로놀락톤",
+  "claim": "이뇨제를 신장질환에 쓴다",
+  "line": "신장질환 5,745명 메타분석에서 단백뇨는 줄었지만 이득은 불확실했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 5745,
+  "synth": "meta",
+  "why": "알도스테론 길항제를 ACE 억제제나 ARB에 더한 무작위시험 44개를 합친 Cochrane 메타분석입니다. 스피로놀락톤 단독 효과가 아니라 같은 계열 약의 신장질환 근거를 묶었습니다.",
+  "saw": "단백뇨 신장질환 환자 5,745명이 포함됐습니다. 단백뇨와 추정 사구체여과율은 줄었지만 신부전·심혈관 사건·사망에 대한 이득은 불확실했습니다.",
+  "limit": "스피로놀락톤만 분석하지 않았고 대부분 ACE 억제제나 ARB를 함께 썼습니다. 단백뇨와 추정 사구체여과율을 줄인 결과가 신부전 예방을 뜻하지는 않습니다.",
+  "against": "같은 분석에서 고칼륨혈증과 급성 신손상이 늘었습니다. 새 메타분석은 전체 무기질코르티코이드 수용체 길항제의 급성 신손상 증가는 뚜렷하지 않다고 봤지만 신장손상은 늘었다고 보고했습니다.",
+  "use": "신장질환에서 단백뇨 감소와 임상적 신장 이득을 같은 결과로 읽지 않게 하는 근거입니다.",
+  "refs": [
+    {
+      "label": "Higgins 2020 · Cochrane · 단백뇨 신장질환 메타분석",
+      "doi": "10.1002/14651858.CD007004.pub4",
+      "pmid": "33107592",
+      "pmc": "PMC8094274"
+    },
+    {
+      "label": "Sakaguchi 2024 · Pharmacotherapy · 신장손상 메타분석",
+      "doi": "10.1002/phar.4618",
+      "pmid": "39578707"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=spironolactone&query.cond=Kidney Disease → 67건 반환, InterventionName 대조 후 57건",
+    "pubmed": "spironolactone AND (kidney disease OR renal disease) → 1,649건",
+    "negative": "spironolactone AND Kidney Disease AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 973건",
+    "safety": "spironolactone AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 3,190건"
+  }
+}
