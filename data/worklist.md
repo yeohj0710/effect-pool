@@ -4634,16 +4634,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(ketamine-analgesia)
 - [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> — 허가 적응증(2026-08-04)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(prazosin-alcohol-abuse-pos)
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
+- [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(prazosin-sleep-disorders)
+- [x] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 --> — 허가 적응증(2026-08-04)
+- [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(prazosin-alcohol-use-disorder)
+- [x] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 --> — 기존 항목(thalidomide-cancer-null)
+- [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(thalidomide-lymphoma)
+- [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(thalidomide-leukemia-null)
+- [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(thalidomide-esophageal-carcinoma-null)
+- [x] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 --> — 기존 항목(ivermectin-covid19-null)
+- [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(ivermectin-sars-cov-infection-null)
+- [x] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(ivermectin-scabies)
 - [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
 - [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 등록 시험 74건 -->
