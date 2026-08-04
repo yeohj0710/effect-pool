@@ -2240,3 +2240,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] prasugrel — Platelet Function에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 9건 -->
 - [x] prasugrel — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
 - [x] prasugrel — Diabetes에 듣는다  <!-- 등록 시험 6건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] metoprolol — Heart Rate에 듣는다 — 기존 항목(metoprolol-heart-rate-pos)  <!-- 등록 시험 38건 -->
+- [x] metoprolol — Atrial Flutter에 듣는다 — 기존 항목(metoprolol-atrial-flutter-open)  <!-- 등록 시험 26건 -->
+- [x] metoprolol — Myocardial Ischemia에 듣는다 — 기존 항목(metoprolol-myocardial-ischemia-pos)  <!-- 등록 시험 14건 -->
+- [x] metoprolol — Cardiomyopathy에 듣는다 — 기존 항목(metoprolol-cardiomyopathy-pos)  <!-- 등록 시험 13건 -->
+- [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
+- [x] losartan — Nephropathy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
+- [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
+- [x] valsartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 109건 -->
+- [x] valsartan — Diabetes에 듣는다 — 기존 항목(valsartan-diabetes-null)  <!-- 등록 시험 25건 -->
+- [ ] valsartan — Nephropathy에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] candesartan — Heart Failure에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] candesartan — Migraine에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] candesartan — Diabetes에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] candesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] irbesartan — Kidney Disease에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] irbesartan — IgA Nephropathy에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] irbesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] irbesartan — Left Atrial Volume에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] amlodipine — Diabetes에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] amlodipine — Hyperlipidemia에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] nifedipine — Preterm Labor에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] nifedipine — Preeclampsia에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] nifedipine — Anal Pain에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] nifedipine — Kidney Stones에 듣는다  <!-- 등록 시험 6건 -->
