@@ -1950,3 +1950,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
 - [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
 - [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] eplerenone — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] eplerenone — Chronic Kidney Disease에 듣는다 — 신규 항목(eplerenone-chronic-kidney-disease-open)  <!-- 등록 시험 9건 -->
+- [x] eplerenone — Central Serous Chorioretinopathy에 듣는다 — 신규 항목(eplerenone-central-serous-chorioretinopathy-null)  <!-- 등록 시험 8건 -->
+- [x] eplerenone — Myocardial Injury에 듣는다 — 신규 항목(eplerenone-myocardial-injury-open)  <!-- 등록 시험 6건 -->
+- [x] ivabradine — Coronary Disease에 듣는다 — 신규 항목(ivabradine-coronary-disease-null)  <!-- 등록 시험 11건 -->
+- [x] ivabradine — Atrial Fibrillation에 듣는다 — 신규 항목(ivabradine-atrial-fibrillation-null)  <!-- 등록 시험 9건 -->
+- [x] ivabradine — Tachycardia에 듣는다 — 신규 항목(ivabradine-tachycardia-open)  <!-- 등록 시험 7건 -->
+- [x] ivabradine — Long COVID에 듣는다 — 신규 항목(ivabradine-long-covid-open)  <!-- 등록 시험 7건 -->
+- [x] pirfenidone — Lung Cancer에 듣는다 — 신규 항목(pirfenidone-lung-cancer-open)  <!-- 등록 시험 26건 -->
+- [x] pirfenidone — Breast Cancer에 듣는다 — 신규 항목(pirfenidone-breast-cancer-open)  <!-- 등록 시험 6건 -->
+- [x] pirfenidone — Systemic Sclerosis에 듣는다 — 신규 항목(pirfenidone-systemic-sclerosis-null)  <!-- 등록 시험 5건 -->
+- [x] pirfenidone — Diabetic Foot Ulcer에 듣는다 — 신규 항목(pirfenidone-diabetic-foot-ulcer-open)  <!-- 등록 시험 5건 -->
+- [x] baricitinib — COVID에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 21건 -->
+- [x] baricitinib — Atopic Dermatitis에 듣는다 — 신규 항목(baricitinib-atopic-dermatitis-open)  <!-- 등록 시험 19건 -->
+- [x] baricitinib — Alopecia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] baricitinib — Lupus에 듣는다 — 신규 항목(baricitinib-lupus-null)  <!-- 등록 시험 6건 -->
+- [x] mavacamten — Healthy Participants에 듣는다 — 질환 아님(2026-08-04)  <!-- 등록 시험 4건 -->
