@@ -1800,16 +1800,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
 - [x] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
 - [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
+- [x] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
+- [x] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
+- [x] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
+- [x] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
+- [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
+- [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
+- [x] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
