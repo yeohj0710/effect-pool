@@ -1,0 +1,26 @@
+{
+  "id": "trazodone-sleep-null",
+  "subj": "트라조돈",
+  "claim": "트라조돈이 수면에 듣는다",
+  "line": "일부 수면 지표는 좋아졌지만 임상적 이득은 불확실했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 466,
+  "synth": "meta",
+  "why": "불면증 환자에서 trazodone과 대조군을 비교한 무작위시험을 합쳐 수면다원검사 지표와 이상반응을 평가했습니다.",
+  "saw": "11개 무작위시험 466명을 합쳤고 총 수면시간과 일부 수면 구조 지표가 좋아졌지만 근거 확실성은 낮거나 매우 낮았습니다.",
+  "limit": "수면다원검사 지표와 주관적 수면 만족도가 일치하지 않을 수 있습니다. 불면증 전체와 장기 결과로 일반화하기 어렵습니다.",
+  "against": "수면의학 지침은 trazodone의 불면증 사용을 지지할 근거가 부족하다고 판단했고, 졸림과 식욕 저하가 대조군보다 많았습니다.",
+  "use": "수면 구조의 일부 변화와 실제 불면 증상 개선을 구분하고, trazodone이 불면증 전반에 확립된 효과가 있다고 표시하지 않아야 합니다.",
+  "refs": [
+    { "label": "Yi 2022 · Scientific Reports · 불면증 수면다원검사 메타분석", "doi": "10.1038/s41598-022-18776-7", "pmid": "36002579", "pmc": "PMC9402537" },
+    { "label": "Sateia 2017 · AASM 불면증 약물치료 지침", "pmc": "PMC5263087" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=trazodone&query.cond=sleep → 34건 반환, InterventionName에 trazodone 포함 30건",
+    "pubmed": "trazodone AND sleep → 505건",
+    "negative": "trazodone AND sleep AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 411건",
+    "safety": "trazodone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,176건"
+  }
+}

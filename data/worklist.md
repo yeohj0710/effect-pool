@@ -205,16 +205,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 40건 -->
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
+- [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 22건 -->
+- [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
+- [x] trazodone — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
+- [x] quetiapine — Bipolar에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 93건 -->
+- [x] quetiapine — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
+- [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
+- [x] spironolactone — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
 - [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->

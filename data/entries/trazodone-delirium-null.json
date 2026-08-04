@@ -1,0 +1,27 @@
+{
+  "id": "trazodone-delirium-null",
+  "subj": "트라조돈",
+  "claim": "트라조돈이 섬망에 듣는다",
+  "line": "후향적 섬망 연구에서 트라조돈은 쿠에티아핀과 호전 기간 차이가 없었습니다",
+  "tier": "obs",
+  "dir": "null",
+  "n": 194,
+  "synth": "single",
+  "why": "일반병원 섬망 입원환자의 진료기록을 후향적으로 분석해 첫 치료로 선택된 trazodone과 quetiapine의 호전 과정을 비교했습니다.",
+  "saw": "194명 중 첫 치료로 trazodone을 받은 사람은 100명, quetiapine을 받은 사람은 57명이었고, 호전까지 걸린 기간은 두 군에서 유의하게 다르지 않았습니다.",
+  "limit": "무작위 배정이 아닌 진료기록 연구라 약물을 선택한 환자 특성과 섬망 중증도의 차이를 제거하지 못합니다. trazodone 단독의 인과효과를 확정할 수 없습니다.",
+  "against": "섬망 약물치료 체계적 검토는 33개 연구 3,030명을 포함했지만 항우울제 연구는 한 편뿐이었고, trazodone의 확실한 효과를 제시하지 않았습니다.",
+  "use": "섬망 치료 효과가 입증됐다고 표시하지 말고, 관찰연구에서 다른 약물과 차이가 없었던 결과로 제한해야 합니다.",
+  "refs": [
+    { "label": "Kishi 2018 · Asian Journal of Psychiatry · 섬망 약물 후향적 분석", "doi": "10.1016/j.ajp.2017.11.028", "pmid": "29216606" },
+    { "label": "Nishikawa 2022 · Asian Journal of Psychiatry · 노인 섬망 후향적 연구", "doi": "10.1016/j.ajp.2022.103024", "pmid": "35219983" },
+    { "label": "Wilson 2022 · General Hospital Psychiatry · 섬망 약물치료 체계적 검토", "doi": "10.1016/j.genhosppsych.2022.10.010", "pmid": "36375344" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=trazodone&query.cond=delirium → 3건 반환, InterventionName에 trazodone 포함 3건",
+    "pubmed": "trazodone AND delirium → 48건",
+    "negative": "trazodone AND delirium AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 34건",
+    "safety": "trazodone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,176건"
+  }
+}

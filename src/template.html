@@ -141,17 +141,45 @@
   .chip:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
   .chip .c{ font-family:var(--n); opacity:.65; margin-left:.35rem; }
 
+  /* 묶는 기준 — 확인 수준으로 훑을 때와 물질로 찾을 때가 다르다 */
+  .views{
+    display:flex; gap:2px; padding:2px;
+    background:var(--card); border-radius:99px;
+  }
+  .view{
+    background:none; border:none; border-radius:99px;
+    padding:.42rem .85rem; font:inherit; font-size:12.5px; color:var(--ink-3);
+    cursor:pointer; white-space:nowrap;
+  }
+  .view:hover{ color:var(--ink-2); }
+  .view[aria-pressed="true"]{ background:var(--accent-soft); color:var(--accent); font-weight:600; }
+  .view:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+
+  /* 물질 묶음 머리말 — 확인 수준 머리말보다 가볍게 */
+  .g-head .dirmix{
+    display:flex; gap:.4rem; margin-left:auto; align-items:center;
+  }
+  .g-head .dirmix i{
+    display:block; width:6px; height:6px; border-radius:99px; background:var(--line-2);
+  }
+  .g-head .dirmix i.pos{ background:var(--accent); }
+  .g-head .dirmix i.harm{ background:var(--clay); }
+  .g-head .dirmix i.null{ background:var(--ink-3); }
+  .g-head .dirmix i.open{ box-shadow:inset 0 0 0 1.5px var(--accent); background:transparent; }
+
   /* ───────── 묶음 ───────── */
   .groups{ display:flex; flex-direction:column; gap:1.25rem; }
   .group{ background:var(--card); border-radius:var(--r); overflow:hidden; }
-  /* 어느 칸을 보고 있는지 스크롤 중에도 보이게.
-     거르개가 몇 줄로 접히느냐에 따라 높이가 달라져서 그 값을 받아 쓴다. */
   .g-head{
-    position:sticky; top:var(--tools-h,3.6rem); z-index:10;
     display:flex; align-items:baseline; gap:.7rem;
     padding:1.25rem 1.75rem .9rem;
     background:var(--card);
     border-radius:var(--r) var(--r) 0 0;
+  }
+  /* 확인 수준 보기는 묶음이 커서 스크롤 중에도 어느 칸인지 보여야 한다.
+     물질 보기는 묶음이 두세 줄이라, 붙여두면 머리말이 뜬 자리가 흰 띠로 남는다. */
+  .groups[data-view="tier"] .g-head{
+    position:sticky; top:var(--tools-h,3.6rem); z-index:10;
   }
   .g-head .step{
     font-family:var(--n); font-size:12px; font-weight:600;
@@ -373,6 +401,10 @@
   <div class="tools">
     <input class="search" id="q" type="search" placeholder="물질 이름이나 내용으로 찾기" aria-label="목록에서 찾기">
     <div class="chips" id="chips" role="group" aria-label="결과로 거르기"></div>
+    <div class="views" id="views" role="group" aria-label="묶는 기준">
+      <button class="view" type="button" data-v="tier" aria-pressed="true">확인 수준</button>
+      <button class="view" type="button" data-v="subj" aria-pressed="false">물질</button>
+    </div>
     <span class="hits" id="hits" aria-live="polite"></span>
   </div>
 
@@ -476,7 +508,7 @@ document.getElementById('key-dir').innerHTML = Object.entries(DIR).map(([k, v]) 
   '<li>' + meter('trial', k) + '<b>' + v.t + '</b></li>').join('');
 
 /* ── 거르개 ── */
-let filter = 'all', query = '';
+let filter = 'all', query = '', view = 'tier';
 const chipDefs = [['all', '전체']].concat(Object.entries(DIR).map(([k, v]) => [k, v.t]));
 const chipsEl = document.getElementById('chips');
 chipsEl.innerHTML = chipDefs.map(([k, label]) => {
@@ -492,6 +524,7 @@ function syncUrl(replace){
   const p = new URLSearchParams();
   if (filter !== 'all') p.set('d', filter);
   if (query) p.set('q', query);
+  if (view !== 'tier') p.set('v', view);
   const url = location.pathname + (p.toString() ? '?' + p : '') + location.hash;
   history[replace ? 'replaceState' : 'pushState'](null, '', url);
 }
@@ -504,6 +537,17 @@ function setChip(k){
 chipsEl.addEventListener('click', e => {
   const b = e.target.closest('.chip'); if (!b) return;
   setChip(b.dataset.k);
+  render(); syncUrl();
+});
+
+const viewsEl = document.getElementById('views');
+function setView(v){
+  view = v;
+  viewsEl.querySelectorAll('.view').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v)));
+}
+viewsEl.addEventListener('click', e => {
+  const b = e.target.closest('.view'); if (!b || b.dataset.v === view) return;
+  setView(b.dataset.v);
   render(); syncUrl();
 });
 
@@ -540,54 +584,88 @@ function paint(){
   }
 
   groupsEl.innerHTML = '';
-  DATA.tiers.forEach(tier => {
-    const items = hits.filter(e => e.tier === tier.id);
-    if (!items.length) return;
+  (view === 'subj' ? bySubject(hits) : byTier(hits)).forEach(drawGroup);
+}
 
-    const sec = document.createElement('section');
-    sec.className = 'group';
-    sec.innerHTML =
-      '<div class="g-head"><span class="step n">' + tier.step + '/5</span>' +
-      '<h2>' + esc(tier.name) + '</h2>' +
-      '<span class="gloss">' + esc(tier.gloss) + '</span></div>';
+/* 확인 수준으로 묶기 — 무엇이 얼마나 확인됐는지 훑을 때 */
+function byTier(hits){
+  return DATA.tiers.map(t => ({
+    items: hits.filter(e => e.tier === t.id),
+    head: '<span class="step n">' + t.step + '/5</span><h2>' + esc(t.name) + '</h2>'
+        + '<span class="gloss">' + esc(t.gloss) + '</span>',
+  })).filter(g => g.items.length);
+}
 
-    const makeRow = (item) => {
-      const d = DIR[item.dir];
-      const btn = document.createElement('button');
-      btn.className = 'row';
-      btn.type = 'button';
-      btn.dataset.id = item.id;
-      btn.innerHTML =
-        meter(item.tier, item.dir) +
-        '<span class="txt"><span class="subj">' + esc(item.subj) + '</span> — ' +
-          '<span class="rest">' + esc(item.line) + '</span></span>' +
-        sizeTag(item) +
-        '<span class="tag' + (item.dir === 'harm' ? ' harm' : '') + '">' + d.t + '</span>';
-      btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
-      btn.addEventListener('click', () => open(item, tier, btn));
-      return btn;
-    };
+/* 물질로 묶기 — 이 약에 무슨 얘기가 있는지 찾을 때.
+   105개 물질 중 88개가 한 건뿐이라 전부 묶으면 한 줄짜리 묶음만 잔뜩 생긴다.
+   여러 건인 물질만 묶고 나머지는 한 덩어리로 모은다. */
+function bySubject(hits){
+  const by = new Map();
+  hits.forEach(e => { if (!by.has(e.subj)) by.set(e.subj, []); by.get(e.subj).push(e); });
 
-    // 한 묶음이 길어지면 화면이 못 버틴다. 앞쪽만 펼쳐두고 나머지는 접는다.
-    const OPEN = 25;
-    items.slice(0, OPEN).forEach((item) => sec.appendChild(makeRow(item)));
+  const many = [...by.entries()].filter(([, v]) => v.length > 1)
+    .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], 'ko'));
+  const once = [...by.entries()].filter(([, v]) => v.length === 1)
+    .sort((a, b) => a[0].localeCompare(b[0], 'ko')).map(([, v]) => v[0]);
 
-    if (items.length > OPEN) {
-      const rest = items.slice(OPEN);
-      const more = document.createElement('button');
-      more.className = 'more-btn';
-      more.type = 'button';
-      more.textContent = `나머지 ${rest.length}개 보기`;
-      more.addEventListener('click', () => {
-        const frag = document.createDocumentFragment();
-        rest.forEach((item) => frag.appendChild(makeRow(item)));
-        sec.insertBefore(frag, more);
-        more.remove();
-      });
-      sec.appendChild(more);
-    }
-    groupsEl.appendChild(sec);
+  const dots = (items) => '<span class="dirmix">'
+    + items.map(e => '<i class="' + e.dir + '" title="' + DIR[e.dir].t + '"></i>').join('') + '</span>';
+
+  const groups = many.map(([subj, items]) => ({
+    items, hideSubj: true,
+    head: '<span class="step n">' + items.length + '</span><h2>' + esc(subj) + '</h2>' + dots(items),
+  }));
+
+  if (once.length) groups.push({
+    items: once,
+    head: '<h2>한 건씩 있는 것</h2><span class="gloss n">' + once.length + '</span>',
   });
+  return groups;
+}
+
+function drawGroup(g){
+  const sec = document.createElement('section');
+  sec.className = 'group';
+  sec.innerHTML = '<div class="g-head">' + g.head + '</div>';
+
+  const makeRow = (item) => {
+    const d = DIR[item.dir], tier = tierOf(item.tier);
+    const btn = document.createElement('button');
+    btn.className = 'row';
+    btn.type = 'button';
+    btn.dataset.id = item.id;
+    // 물질로 묶으면 머리말이 이미 물질명이다. 줄에서 빼면 그만큼 짧아진다.
+    const txt = g.hideSubj
+      ? '<span class="rest">' + esc(item.line) + '</span>'
+      : '<span class="subj">' + esc(item.subj) + '</span> — <span class="rest">' + esc(item.line) + '</span>';
+    btn.innerHTML =
+      meter(item.tier, item.dir) + '<span class="txt">' + txt + '</span>' +
+      sizeTag(item) +
+      '<span class="tag' + (item.dir === 'harm' ? ' harm' : '') + '">' + d.t + '</span>';
+    btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
+    btn.addEventListener('click', () => open(item, tier, btn));
+    return btn;
+  };
+
+  // 한 묶음이 길어지면 화면이 못 버틴다. 앞쪽만 펼쳐두고 나머지는 접는다.
+  const OPEN = 25;
+  g.items.slice(0, OPEN).forEach((item) => sec.appendChild(makeRow(item)));
+
+  if (g.items.length > OPEN) {
+    const rest = g.items.slice(OPEN);
+    const more = document.createElement('button');
+    more.className = 'more-btn';
+    more.type = 'button';
+    more.textContent = `나머지 ${rest.length}개 보기`;
+    more.addEventListener('click', () => {
+      const frag = document.createDocumentFragment();
+      rest.forEach((item) => frag.appendChild(makeRow(item)));
+      sec.insertBefore(frag, more);
+      more.remove();
+    });
+    sec.appendChild(more);
+  }
+  groupsEl.appendChild(sec);
 }
 
 /* ── 펼친 창 ── */
@@ -673,6 +751,7 @@ function applyUrl(scroll){
   // DIR 에 "null"(효과 없음) 키가 있고 get() 도 없으면 null 을 준다. 문자열로 받아서 갈라야 한다.
   const d = p.get('d') ?? '', q = p.get('q') ?? '';
   setChip(Object.prototype.hasOwnProperty.call(DIR, d) ? d : 'all');
+  setView(p.get('v') === 'subj' ? 'subj' : 'tier');
   query = q; qEl.value = q;
   paint();
   const id = decodeURIComponent(location.hash.slice(1));
