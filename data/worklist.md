@@ -2410,16 +2410,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(gabapentin-drug-dependence-null)
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(amitriptyline-pain-null)
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> — 허가 적응증(2026-08-04)
+- [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> — 허가 적응증(2026-08-04)
+- [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
+- [x] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> — 허가 적응증(2026-08-04)
+- [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(trazodone-sleep-null)
+- [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> — 허가 적응증(2026-08-04)
+- [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> — 허가 적응증(2026-08-04)
 - [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
 - [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
 - [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
