@@ -3458,16 +3458,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
 - [x] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
 - [x] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Disease에 듣는다  <!-- 등록 시험 77건 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
+- [x] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 등록 시험 7건 -->
+- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
+- [x] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [x] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
+- [x] atorvastatin — Coronary Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 77건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
+- [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
+- [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
 - [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
 - [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
