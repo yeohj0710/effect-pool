@@ -653,11 +653,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] creatine — Muscle에 듣는다 — 기존 항목(creatine-muscle)  <!-- 등록 시험 15건 -->
 - [x] creatine — Major Depressive Disorder에 듣는다 — 기존 항목(creatine-major-depressive-disorder)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sarcopenia에 듣는다 — 기존 항목(creatine-sarcopenia)  <!-- 등록 시험 13건 -->
-- [ ] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
+- [x] creatine — Sport Performance에 듣는다 — 기존 항목(creatine-sport-performance)  <!-- 등록 시험 13건 -->
+- [x] berberine — Schizophrenia에 듣는다 — 기존 항목(berberine-schizophrenia)  <!-- 등록 시험 9건 -->
+- [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
+- [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
+- [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -668,11 +668,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] ibuprofen — Fever에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] curcumin — Acute Kidney Injury에 듣는다  <!-- 등록 시험 12건 -->
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
+- [x] ibuprofen — Analgesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 20건 -->
+- [x] ibuprofen — Fever에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] ibuprofen — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 17건 -->
+- [x] curcumin — Acute Kidney Injury에 듣는다 — 기존 항목(curcumin-acute-kidney-injury-null)  <!-- 등록 시험 12건 -->
 - [ ] curcumin — Pre-diabetes에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] curcumin — Ulcerative Colitis에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] curcumin — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->

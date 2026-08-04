@@ -1,0 +1,37 @@
+{
+  "id": "curcumin-acute-kidney-injury-null",
+  "subj": "커큐민",
+  "claim": "강황 성분을 조영제 유발 급성 신장손상에 쓴다",
+  "line": "만성콩팥병 환자의 관상동맥 조영술 뒤 급성 신장손상을 예방하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 114,
+  "synth": "single",
+  "why": "관상동맥 조영술이나 중재술을 받는 사람을 커큐미노이드와 위약에 무작위 배정한 이중맹검 시험에서 조영제 유발 급성 신장손상 예방 효과가 없었습니다.",
+  "saw": "논문은 114명에서 급성 신장손상이 커큐미노이드군 12.7%, 위약군 14.0%로 다르지 않았고 소변 NGAL도 차이가 없었다고 보고했습니다. 레지스트리 NCT04890704에는 실제 등록 96명으로 기록돼 있습니다.",
+  "limit": "선택적 관상동맥 조영술·중재술 뒤의 단기 신장손상만 본 소규모 시험입니다. 논문과 레지스트리의 인원 기록이 다르고, 만성콩팥병 전체나 다른 급성 신장손상 원인으로 일반화할 수 없습니다.",
+  "against": "만성콩팥병 환자 60명 별도 무작위시험에서도 커큐민군과 위약군의 조영제 신장병 발생률과 NGAL이 다르지 않았습니다. 두 시험 모두 약물 관련 중대한 안전성 신호는 확인하지 못했습니다.",
+  "use": "조영제 사용 뒤 급성 신장손상 예방에 커큐민을 효과가 있는 보호제로 볼 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "Pattan 2024 · Kidney Diseases · 조영제 급성 신장손상 커큐미노이드 RCT",
+      "doi": "10.1159/000537710",
+      "pmid": "38350427"
+    },
+    {
+      "label": "Aminzadeh 2019 · Nephrology · 만성콩팥병 조영제 신장병 음성 RCT",
+      "pmid": "31705746"
+    },
+    {
+      "label": "NCT04890704 · 조영제 유발 급성 신장손상 커큐미노이드 시험 · 완료",
+      "nct": "NCT04890704"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=curcumin&query.cond=Acute Kidney Injury → 3건 반환, InterventionName에 curcumin·curcuminoid 포함 3건",
+    "pubmed": "curcumin Acute Kidney Injury → 132건",
+    "negative": "curcumin Acute Kidney Injury AND (no effect OR did not OR failed to OR negative OR no significant difference) → 119건",
+    "safety": "curcumin Acute Kidney Injury AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 53건"
+  }
+}
