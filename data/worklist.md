@@ -713,16 +713,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Cancer에 듣는다 — 기존 항목(gabapentin-cancer)  <!-- 등록 시험 40건 -->
 - [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-null)  <!-- 등록 시험 33건 -->
 - [x] gabapentin — Drug Dependence에 듣는다 — 기존 항목(gabapentin-drug-dependence-null)  <!-- 등록 시험 18건 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
+- [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 등록 시험 18건 -->
+- [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
+- [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
+- [x] amitriptyline — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
+- [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
+- [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 40건 -->
+- [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
+- [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 22건 -->
+- [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
 - [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
