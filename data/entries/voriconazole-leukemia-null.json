@@ -1,0 +1,27 @@
+{
+  "id": "voriconazole-leukemia-null",
+  "subj": "보리코나졸",
+  "claim": "보리코나졸이 백혈병을 치료한다",
+  "line": "백혈병 환자의 호중구감소 발열에서 침습성 진균감염을 줄이지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 147,
+  "synth": "single",
+  "why": "허가사항은 침습성 아스페르길루스증과 특정 칸디다 감염 등이며 백혈병 치료가 아닙니다. 급성 백혈병 환자를 포함한 호중구감소 발열 시험에서 보리코나졸의 예방·경험적 치료 효과를 비교했습니다.",
+  "saw": "PMID 23271674는 급성 백혈병 환자와 동종 조혈모세포이식 환자 147명을 즉시 보리코나졸군과 지연 투여군에 무작위 배정했습니다. 침습성 진균감염은 두 군에서 유의하게 다르지 않았고 안전성도 비슷했습니다.",
+  "limit": "백혈병 자체의 종양 치료가 아니라 호중구감소 발열 뒤 침습성 진균감염 예방·경험적 치료를 평가했습니다. 감염 결과를 백혈병 관해나 생존 결과로 바꿔 해석할 수 없습니다.",
+  "against": "무작위시험에서 즉시 투여군과 지연 투여군의 침습성 진균감염 차이가 유의하지 않았고, 반대 검색 368건과 안전성 검색 332건을 확인했습니다.",
+  "use": "보리코나졸의 백혈병 관련 근거는 항암효과가 아니라 호중구감소 상황의 진균감염 결과로만 기록해야 합니다.",
+  "refs": [
+    { "label": "Cordonnier 2012 · 급성 백혈병·이식 환자 호중구감소 발열 보리코나졸 즉시·지연 비교시험", "pmid": "23271674" },
+    { "label": "Wingard 2010 · 동종 조혈모세포이식 후 플루코나졸 대 보리코나졸 예방 무작위시험", "pmid": "20826719", "nct": "NCT00075803" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"VORICONAZOLE\" → 43건 반환; 허가 문구는 침습성 아스페르길루스증·칸디다 감염 등이며 백혈병 치료 적응증 없음",
+    "ctgov": "query.intr=voriconazole&query.cond=Leukemia → 28건 반환, InterventionName 대조 후 12건",
+    "pubmed": "voriconazole Leukemia → 689건",
+    "negative": "voriconazole Leukemia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 368건",
+    "safety": "voriconazole Leukemia (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 332건"
+  }
+}

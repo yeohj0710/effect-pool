@@ -1,0 +1,27 @@
+{
+  "id": "itraconazole-ovarian-carcinoma-pos",
+  "subj": "이트라코나졸",
+  "claim": "이트라코나졸이 난소암을 치료한다",
+  "line": "난소암 화학요법에 더했더니 종양 반응과 무진행 생존이 좋아졌습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "why": "허가사항은 진균 감염이며 난소암 치료가 아닙니다. 진행성 난소암 환자에게 이트라코나졸을 추가한 무작위 위약대조시험이 있습니다.",
+  "saw": "PMID 41590341은 진행성 상피성 난소암 환자 60명을 무작위 배정했습니다. 이트라코나졸 추가군은 위약군보다 객관적 반응률과 질병통제율이 높았고 18개월 무진행 비율도 높았습니다.",
+  "limit": "단일 기관의 소규모 추가요법 시험이며 기본 항암화학요법과 함께 평가했습니다. 이트라코나졸 단독치료나 전체 생존을 입증하지 않았고 다른 난소암 유형으로 일반화할 수 없습니다.",
+  "against": "PMID 36875717의 백금 불응성 난소암 병용 1상에서는 치료받은 11명에서 객관적 반응이 없었습니다. 반대 검색 11건과 안전성 검색 5건을 확인했습니다.",
+  "use": "난소암에서 나온 긍정 신호는 한 소규모 추가요법 시험의 종양 반응과 무진행 결과로 제한해 기록해야 합니다.",
+  "refs": [
+    { "label": "Hassan 2026 · 진행성 난소암 이트라코나졸 무작위 위약대조시험", "pmid": "41590341" },
+    { "label": "Liu 2022 · 백금 불응성 난소암 이트라코나졸·하이드록시클로로퀸 1상·객관적 반응 없음", "pmid": "36875717", "nct": "NCT03081702" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구에 난소암 적응증 없음",
+    "ctgov": "query.intr=itraconazole&query.cond=Ovarian Carcinoma → 10건 반환, InterventionName 대조 후 10건",
+    "pubmed": "itraconazole Ovarian Carcinoma → 20건",
+    "negative": "itraconazole Ovarian Carcinoma (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 11건",
+    "safety": "itraconazole Ovarian Carcinoma (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 5건"
+  }
+}

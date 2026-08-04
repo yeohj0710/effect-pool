@@ -2330,16 +2330,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fluconazole — Meningitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
 - [x] fluconazole — Leukemia에 듣는다 — 새 항목(fluconazole-leukemia-null)  <!-- 등록 시험 30건 -->
 - [x] fluconazole — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
-- [ ] itraconazole — Cancer에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] itraconazole — Solid Tumor에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] itraconazole — HIV Infection에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] itraconazole — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] voriconazole — Aspergillosis에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] voriconazole — Candidiasis에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] voriconazole — Leukemia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] voriconazole — HIV/AIDS에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] posaconazole — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] posaconazole — Mycoses에 듣는다  <!-- 등록 시험 10건 -->
+- [x] itraconazole — Cancer에 듣는다  <!-- 등록 시험 45건 -->
+- [x] itraconazole — Solid Tumor에 듣는다  <!-- 등록 시험 23건 -->
+- [x] itraconazole — HIV Infection에 듣는다  <!-- 등록 시험 19건 -->
+- [x] itraconazole — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
+- [x] voriconazole — Aspergillosis에 듣는다  <!-- 등록 시험 33건 --> — 허가 적응증(2026-08-04)
+- [x] voriconazole — Candidiasis에 듣는다  <!-- 등록 시험 9건 --> — 허가 적응증(2026-08-04)
+- [x] voriconazole — Leukemia에 듣는다  <!-- 등록 시험 9건 -->
+- [x] voriconazole — HIV/AIDS에 듣는다  <!-- 등록 시험 8건 -->
+- [x] posaconazole — Leukemia에 듣는다  <!-- 등록 시험 19건 --> — 허가 적응증(2026-08-04)
+- [x] posaconazole — Mycoses에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] posaconazole — Aspergillosis에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 -->

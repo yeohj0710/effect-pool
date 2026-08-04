@@ -1,48 +1,48 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 503,
+  "entries": 510,
   "worklist": {
-    "checked": 2035,
-    "unchecked": 20,
+    "checked": 2045,
+    "unchecked": 10,
     "no_evidence_pending": 0,
     "next_batch": [
-      "itraconazole-cancer",
-      "itraconazole-solid-tumor",
-      "itraconazole-hiv-infection",
-      "itraconazole-ovarian-carcinoma",
-      "voriconazole-aspergillosis",
-      "voriconazole-candidiasis",
-      "voriconazole-leukemia",
-      "voriconazole-hiv-aids",
-      "posaconazole-leukemia",
-      "posaconazole-mycoses"
+      "posaconazole-aspergillosis",
+      "posaconazole-myelodysplastic-syndrome",
+      "caspofungin-infection",
+      "caspofungin-candidiasis",
+      "caspofungin-aspergillosis",
+      "caspofungin-candidemia",
+      "micafungin-fungal-disease",
+      "micafungin-candidemia",
+      "micafungin-liver-transplantation",
+      "micafungin-aspergillosis"
     ]
   },
   "last_batch": [
-    "piperacillin-pneumonia-approved",
-    "piperacillin-febrile-excluded",
-    "gentamicin-sepsis-approved",
-    "gentamicin-infections-approved",
-    "gentamicin-diabetic-foot-ulcer-null",
-    "gentamicin-pneumonia-approved",
-    "fluconazole-hiv-open",
-    "fluconazole-meningitis-approved",
-    "fluconazole-leukemia-null",
-    "fluconazole-infection-approved"
+    "itraconazole-cancer-open",
+    "itraconazole-solid-tumor-null",
+    "itraconazole-hiv-infection-null",
+    "itraconazole-ovarian-carcinoma-pos",
+    "voriconazole-aspergillosis-approved",
+    "voriconazole-candidiasis-approved",
+    "voriconazole-leukemia-null",
+    "voriconazole-hiv-aids-null",
+    "posaconazole-leukemia-approved",
+    "posaconazole-mycoses-pos"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 464,
+      "trial": 470,
       "obs": 32,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 188,
+    "no_effect_or_harm": 192,
     "harm": 22,
     "no_effect_or_harm_share": "37%"
   },
@@ -53,7 +53,7 @@
   },
   "resume": {
     "last_committed_batch": "5921285",
-    "current_batch": "piperacillin, gentamicin, fluconazole",
-    "next_action": "process next batch"
+    "current_batch": "itraconazole, voriconazole, posaconazole",
+    "next_action": "commit batch27"
   }
 }

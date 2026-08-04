@@ -1,0 +1,27 @@
+{
+  "id": "itraconazole-cancer-open",
+  "subj": "이트라코나졸",
+  "claim": "이트라코나졸이 암을 치료한다",
+  "line": "전이성 전립선암에서 일부 종양 지표를 늦췄지만 항암 효과는 작았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 46,
+  "synth": "single",
+  "why": "허가사항은 진균 감염과 손발톱진균증이며 암 치료가 아닙니다. 전이성 거세저항성 전립선암 환자에게 이트라코나졸을 직접 투여한 2상 연구가 있습니다.",
+  "saw": "PMID 23340005·NCT00887458은 전이성 거세저항성 전립선암 환자 46명을 두 비교군에 배정했습니다. 한 군에서 24주 전립선특이항원 진행 억제율과 무진행 생존이 더 나았지만, 연구진은 항암 효과를 작다고 평가했습니다.",
+  "limit": "전립선암에 한정된 비비교 2상 연구이며 모든 암이나 전체 생존으로 일반화할 수 없습니다. 전립선특이항원과 무진행 생존을 측정해 종양 완치나 전체 생존을 직접 입증하지 않았습니다.",
+  "against": "PMID 30327180의 생화학적 재발 전립선암 2상 연구에서는 평가 가능한 19명 중 전립선특이항원이 크게 줄어든 사람이 1명뿐이었고 효과가 작았습니다. 반대 검색 824건과 안전성 검색 478건을 확인했습니다.",
+  "use": "이트라코나졸의 암 연구 신호는 전이성 전립선암의 제한적인 종양 지표 결과로만 기록하고 일반적인 항암제로 확대하지 말아야 합니다.",
+  "refs": [
+    { "label": "Antonarakis 2013 · 전이성 거세저항성 전립선암 이트라코나졸 2상 연구", "pmid": "23340005", "nct": "NCT00887458" },
+    { "label": "Madan 2018 · 생화학적 재발 전립선암 이트라코나졸 2상 연구·제한적 효과", "pmid": "30327180" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구는 블라스토미세스증·히스토플라스마증·아스페르길루스증·손발톱진균증이며 암 적응증 없음",
+    "ctgov": "query.intr=itraconazole&query.cond=Cancer → 101건 반환, InterventionName 대조 후 93건",
+    "pubmed": "itraconazole Cancer → 1342건",
+    "negative": "itraconazole Cancer (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 824건",
+    "safety": "itraconazole Cancer (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 478건"
+  }
+}
