@@ -2560,16 +2560,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(amantadine-cocaine-related-disorders-null)
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amantadine-covid-19-null)
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(amantadine-hepatitis-c-null)
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 -->
-- [ ] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> — 허가 적응증(2026-08-04)
+- [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(acetazolamide-hypoxia)
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> — 허가 적응증(2026-08-04)
+- [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(acetazolamide-hypertension-null)
+- [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(dapsone-malaria-harm)
+- [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(dapsone-hiv-infection-null)
+- [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dapsone-pneumocystis-pneumonia-null)
+- [x] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> — 허가 적응증(2026-08-04)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> — 허가 적응증(2026-08-04)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> — 허가 적응증(2026-08-04)
 - [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 -->
 - [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 -->
 - [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 -->
