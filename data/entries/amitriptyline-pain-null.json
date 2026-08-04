@@ -1,0 +1,35 @@
+{
+  "id": "amitriptyline-pain-null",
+  "subj": "신경병증성 통증",
+  "claim": "amitriptyline이 통증에 듣는다",
+  "line": "신경병증성 통증 무작위시험 17편 Cochrane 검토에서 확실한 상위·중간 수준의 유효 근거는 없었고, 일부 소규모 시험에서만 통증 개선 신호가 있었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1342,
+  "synth": "meta",
+  "why": "Cochrane 검토는 신경병증성 통증 성인을 대상으로 amitriptyline과 위약 또는 다른 치료를 비교한 무작위 이중눈가림 시험을 세 수준으로 나눠 평가했습니다.",
+  "saw": "17개 연구 1,342명을 포함했지만, 유효성 자료는 세 번째 수준의 작은 연구뿐이었고 7개 통증 질환 중 두 연구에서만 위약보다 유의한 결과가 나왔습니다.",
+  "limit": "연구 규모가 작고 비뚤림 위험이 높아 평균 효과를 안정적으로 추정하기 어렵습니다. 통증이라는 넓은 항목에 여러 신경병증성 질환 결과를 묶은 검토입니다.",
+  "against": "Cochrane 저자들은 유익한 효과를 뒷받침하는 비뚤림 없는 근거가 없고, 치료 효과가 과대평가됐을 가능성을 우려했습니다. 이상반응은 amitriptyline군에서 더 많았습니다.",
+  "use": "amitriptyline이 모든 통증에 효과가 있다고 표시하지 말고, 소수의 환자에서만 이득이 관찰된 낮은 확실성 근거로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Moore 2015 · Cochrane · 성인 신경병증성 통증 검토",
+      "doi": "10.1002/14651858.CD008242.pub3",
+      "pmid": "26146793",
+      "pmc": "PMC6447238"
+    },
+    {
+      "label": "Moore 2012 · Cochrane · 신경병증성 통증·섬유근육통 검토",
+      "doi": "10.1002/14651858.CD008242.pub2",
+      "pmid": "23235657"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=amitriptyline&query.cond=pain → 69건 반환, InterventionName에 amitriptyline 포함 69건",
+    "pubmed": "amitriptyline AND pain → 2,028건",
+    "negative": "amitriptyline AND pain AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 1,526건",
+    "safety": "amitriptyline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,342건"
+  }
+}

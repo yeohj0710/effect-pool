@@ -1,0 +1,38 @@
+{
+  "id": "topiramate-alcohol-abuse",
+  "subj": "알코올 사용장애",
+  "claim": "topiramate가 알코올 남용에 듣는다",
+  "line": "알코올 사용장애 무작위시험 7편 메타분석에서 topiramate는 음주량과 과음 일수를 줄였지만, 6,036명 네트워크 메타분석은 높은 확실성의 근거가 없다고 결론냈습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1125,
+  "synth": "meta",
+  "why": "topiramate와 위약을 비교한 알코올 사용장애 무작위시험을 합친 메타분석과 여러 약물을 비교한 네트워크 메타분석을 함께 확인했습니다.",
+  "saw": "7개 위약대조 무작위시험 1,125명을 합친 메타분석에서 topiramate의 음주 관련 결과가 개선됐습니다. 다른 네트워크 메타분석은 6,036명을 포함했지만 높은 확실성의 약물치료 근거는 없다고 했습니다.",
+  "limit": "알코올 사용장애 연구 결과이며 일반적인 알코올 남용이나 다른 물질사용장애로 확장할 수 없습니다. 메타분석마다 포함한 시험과 목표가 달라 확실성이 다릅니다.",
+  "against": "대규모 무작위시험에서는 과음 일수 감소가 관찰됐지만 감각 이상, 미각 변화, 식욕 저하, 집중 곤란이 topiramate군에서 더 많았습니다.",
+  "use": "topiramate의 근거를 알코올 사용장애의 음주 결과로 한정하고, 연구 간 확실성 차이와 이상반응을 함께 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "Blodgett 2014 · Alcoholism: Clinical and Experimental Research · topiramate 알코올 사용장애 메타분석",
+      "pmid": "24796492"
+    },
+    {
+      "label": "Johnson 2007 · JAMA · 알코올 의존 무작위시험",
+      "doi": "10.1001/jama.298.14.1641",
+      "pmid": "17925516",
+      "nct": "NCT00210925"
+    },
+    {
+      "label": "Palpacuer 2018 · Addiction · 알코올 사용장애 약물 네트워크 메타분석",
+      "pmid": "28940866"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=topiramate&query.cond=alcohol abuse → 7건 반환, InterventionName에 topiramate 포함 7건",
+    "pubmed": "topiramate AND (alcohol abuse OR alcohol use disorder) → 339건",
+    "negative": "topiramate AND (alcohol abuse OR alcohol use disorder) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 269건",
+    "safety": "topiramate AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,061건"
+  }
+}

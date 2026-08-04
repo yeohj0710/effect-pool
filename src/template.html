@@ -53,7 +53,7 @@
   }
   .n{ font-family:var(--n); font-variant-numeric:tabular-nums; font-feature-settings:"tnum"; }
 
-  .wrap{ max-width:56rem; margin:0 auto; padding:4rem 1.25rem 5rem; }
+  .wrap{ max-width:66rem; margin:0 auto; padding:4rem 1.25rem 5rem; }
 
   /* ───────── 머리말 ───────── */
   .mast{ margin-bottom:2.25rem; }
@@ -144,9 +144,10 @@
   /* ───────── 묶음 ───────── */
   .groups{ display:flex; flex-direction:column; gap:1.25rem; }
   .group{ background:var(--card); border-radius:var(--r); overflow:hidden; }
-  /* 어느 칸을 보고 있는지 스크롤 중에도 보이게 */
+  /* 어느 칸을 보고 있는지 스크롤 중에도 보이게.
+     거르개가 몇 줄로 접히느냐에 따라 높이가 달라져서 그 값을 받아 쓴다. */
   .g-head{
-    position:sticky; top:3.6rem; z-index:10;
+    position:sticky; top:var(--tools-h,3.6rem); z-index:10;
     display:flex; align-items:baseline; gap:.7rem;
     padding:1.25rem 1.75rem .9rem;
     background:var(--card);
@@ -712,12 +713,19 @@ document.addEventListener('keydown', e => {
 });
 
 /* ── 거르개가 위에 붙었을 때만 경계선 ── */
+const toolsEl = document.querySelector('.tools');
 const sentinel = document.createElement('div');
-document.querySelector('.tools').before(sentinel);
+toolsEl.before(sentinel);
 new IntersectionObserver(
-  ([x]) => document.querySelector('.tools').dataset.stuck = String(!x.isIntersecting),
+  ([x]) => toolsEl.dataset.stuck = String(!x.isIntersecting),
   { threshold: 1 }
 ).observe(sentinel);
+
+/* 거르개 높이만큼 묶음 머리말을 내린다. 좁은 화면에서 칩이 두 줄이 되면 겹치기 때문. */
+const fitHeads = () =>
+  document.documentElement.style.setProperty('--tools-h', toolsEl.offsetHeight + 'px');
+new ResizeObserver(fitHeads).observe(toolsEl);
+fitHeads();
 </script>
 </body>
 </html>

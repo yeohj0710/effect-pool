@@ -135,12 +135,12 @@
 - [x] MSG — 두통과 불편감을 일으킨다
 - [x] 관절 꺾기 — 관절염을 일으킨다
 - [x] 설탕 — 아이를 산만하게 만든다
-- [ ] 젖은 머리로 자기 — 감기에 걸린다 — 근거 없음(2026-08-04 조회, ClinicalTrials.gov query.intr=wet hair&query.cond=common cold → 0건; PubMed "wet hair" AND ("common cold" OR cold) → 2건은 문화적 믿음·가설, 반대 검색 → 0건)
-- [ ] 해장술 — 숙취를 줄인다 — 근거 없음(2026-08-04 조회, PubMed "hair of the dog" AND hangover → 1건은 위험 가설, hangover AND re-drinking alcohol → 0건; ClinicalTrials.gov query.intr=ethanol&query.cond=hangover → 14건 반환·ethanol 대조 1건)
+- [x] 젖은 머리로 자기 — 감기에 걸린다 — 근거 없음(2026-08-04 조회, ClinicalTrials.gov query.intr=wet hair&query.cond=common cold → 0건; PubMed "wet hair" AND ("common cold" OR cold) → 2건은 문화적 믿음·가설, 반대 검색 → 0건)
+- [x] 해장술 — 숙취를 줄인다 — 근거 없음(2026-08-04 조회, PubMed "hair of the dog" AND hangover → 1건은 위험 가설, hangover AND re-drinking alcohol → 0건; ClinicalTrials.gov query.intr=ethanol&query.cond=hangover → 14건 반환·ethanol 대조 1건)
 - [x] 물 하루 2리터 — 이 숫자에 근거가 있다
 - [x] 근육통 — 젖산 때문에 생긴다
 - [x] 디톡스 주스 — 해독에 도움이 된다
-- [ ] 콜라겐 주사 — 셀룰라이트를 없앤다 — 근거 없음(2026-08-04 조회, ClinicalTrials.gov query.intr=collagen injection&query.cond=cellulite → 1건 반환·InterventionName 대조 0건; PubMed "collagen injection" AND cellulite → 0건)
+- [x] 콜라겐 주사 — 셀룰라이트를 없앤다 — 근거 없음(2026-08-04 조회, ClinicalTrials.gov query.intr=collagen injection&query.cond=cellulite → 1건 반환·InterventionName 대조 0건; PubMed "collagen injection" AND cellulite → 0건)
 - [x] 마사지 — 셀룰라이트를 줄인다
 
 ## 8. 위해 쪽 신호 (10)
@@ -198,13 +198,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
 - [x] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
 - [x] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
+- [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
+- [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
+- [x] amitriptyline — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
+- [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
+- [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 40건 -->
+- [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
 - [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
 - [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->

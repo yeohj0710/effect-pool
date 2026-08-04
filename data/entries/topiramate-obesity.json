@@ -1,0 +1,35 @@
+{
+  "id": "topiramate-obesity",
+  "subj": "비만",
+  "claim": "topiramate가 비만에 듣는다",
+  "line": "과체중·비만 무작위시험 10편 메타분석에서 topiramate군의 체중이 위약군보다 평균 5.34kg 더 줄었지만 중단을 부른 이상반응이 많았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3320,
+  "synth": "meta",
+  "why": "무작위 대조시험을 합친 메타분석이 과체중·비만 성인의 체중 변화와 이상반응을 topiramate와 위약 사이에서 비교했습니다.",
+  "saw": "10개 연구 3,320명을 합쳤고, topiramate군에서 위약군보다 체중 감소가 컸습니다. 이상반응 자료는 6,620명에서 평가됐고 이상반응으로 치료를 중단할 오즈가 높았습니다.",
+  "limit": "비만 치료 허가 조합인 phentermine-topiramate와 topiramate 단독 연구를 구분해야 합니다. 체중 감소 외의 장기 건강 결과와 지속 가능성을 확인한 분석은 아닙니다.",
+  "against": "이상반응으로 중단할 오즈가 위약보다 높았고, 감각 이상·미각 변화·정신운동 문제가 더 자주 관찰됐습니다.",
+  "use": "topiramate 단독의 체중 감소 신호로 표시하되, 조합 제제의 허가 근거와 섞지 말고 이상반응과 중단 위험을 함께 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Kramer 2011 · Obesity Reviews · topiramate 체중감소 무작위시험 메타분석",
+      "doi": "10.1111/j.1467-789X.2010.00846.x",
+      "pmid": "21438989"
+    },
+    {
+      "label": "Khera 2016 · JAMA · 비만 약물 네트워크 메타분석",
+      "doi": "10.1001/jama.2016.7602",
+      "pmid": "27299618",
+      "pmc": "PMC5617638"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=topiramate&query.cond=obesity → 74건 반환, InterventionName에 topiramate 포함 74건",
+    "pubmed": "topiramate AND obesity → 819건",
+    "negative": "topiramate AND obesity AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 661건",
+    "safety": "topiramate AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,061건"
+  }
+}

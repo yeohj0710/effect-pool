@@ -1,0 +1,36 @@
+{
+  "id": "amitriptyline-headache",
+  "subj": "편두통·긴장형 두통",
+  "claim": "amitriptyline이 두통에 듣는다",
+  "line": "편두통 예방 무작위시험 3편 메타분석에서 amitriptyline은 월간 편두통 일수가 절반 이상 줄어든 사람을 늘렸지만 결과의 확실성은 제한적이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 622,
+  "synth": "meta",
+  "why": "유럽두통연맹 검토는 성인 편두통 예방에서 amitriptyline과 위약을 비교한 무작위시험을 다시 평가하고 월간 편두통 일수와 이상반응을 합쳤습니다.",
+  "saw": "3개 시험 622명을 합친 분석에서 월간 편두통 일수가 절반 이상 줄어든 비율이 amitriptyline군에서 높았습니다.",
+  "limit": "편두통 예방에 관한 결과이며 긴장형 두통이나 모든 두통으로 일반화할 수 없습니다. 저자들은 결과가 확고하지 않아 추가 연구가 필요하다고 했습니다.",
+  "against": "긴장형 두통 5개 연구 387명 분석에서는 삼환계 항우울제가 두통 빈도를 줄였지만, 개별 약물과 비교군이 섞여 있어 amitriptyline 단독 효과의 확실성은 제한됩니다. 중단을 부른 이상반응은 amitriptyline에서 더 많았습니다.",
+  "use": "두통 전체가 아니라 편두통 예방에서 관찰된 효과로 표시하고, 연구 결과의 불확실성과 이상반응을 함께 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Lampl 2023 · Journal of Headache and Pain · amitriptyline 편두통 예방 메타분석",
+      "doi": "10.1186/s10194-023-01573-6",
+      "pmid": "37038134",
+      "pmc": "PMC10088191"
+    },
+    {
+      "label": "Jackson 2017 · Journal of General Internal Medicine · 긴장형 두통 삼환계 항우울제 메타분석",
+      "doi": "10.1007/s11606-017-4121-z",
+      "pmid": "28721535",
+      "pmc": "PMC5698213"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=amitriptyline&query.cond=headache → 24건 반환, InterventionName에 amitriptyline 포함 24건",
+    "pubmed": "amitriptyline AND headache → 628건",
+    "negative": "amitriptyline AND headache AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 449건",
+    "safety": "amitriptyline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,342건"
+  }
+}
