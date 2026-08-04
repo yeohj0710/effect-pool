@@ -1,37 +1,39 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 468,
+  "entries": 470,
   "worklist": {
-    "checked": 1942,
-    "unchecked": 5,
+    "checked": 1952,
+    "unchecked": 23,
     "no_evidence_pending": 0,
     "next_batch": [
-      "apixaban — Stroke",
-      "rivaroxaban — Atrial Flutter",
-      "rivaroxaban — Thrombosis",
-      "rivaroxaban — Coronary Disease",
-      "rivaroxaban — Embolism"
+      "dabigatran — Stroke",
+      "dabigatran — Coronary Disease",
+      "dabigatran — Thrombosis",
+      "fondaparinux — Pulmonary Embolism",
+      "fondaparinux — Thrombosis",
+      "fondaparinux — Cancer",
+      "fondaparinux — Coronary Disease"
     ]
   },
   "last_batch": [
-    "hydrocortisone-cancer-approved",
-    "hydrocortisone-adrenal-insufficiency-approved",
-    "hydrocortisone-shock-open",
-    "enoxaparin-thrombosis-approved",
-    "enoxaparin-embolism-approved",
-    "enoxaparin-cancer-open",
-    "enoxaparin-covid-open",
-    "apixaban-thromboembolism-approved",
-    "apixaban-thrombosis-approved",
-    "apixaban-embolism-approved"
+    "apixaban-stroke-approved",
+    "rivaroxaban-atrial-flutter-open",
+    "rivaroxaban-thrombosis-approved",
+    "rivaroxaban-coronary-disease-approved",
+    "rivaroxaban-embolism-approved",
+    "warfarin-thromboembolism-approved",
+    "warfarin-heart-defect-open",
+    "warfarin-embolism-approved",
+    "warfarin-thrombosis-approved",
+    "dabigatran-thromboembolism-approved"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 429,
+      "trial": 431,
       "obs": 32,
       "animal": 1,
       "lab": 2,
@@ -46,8 +48,8 @@
     "deployment_id": "dpl_5aGYeSHsVC4ZDZy1FAVdxpdyreab"
   },
   "resume": {
-    "last_committed_batch": "06daa81",
-    "current_batch": "hydrocortisone, enoxaparin, apixaban",
-    "next_action": "expand worklist"
+    "last_committed_batch": "7f4dbf4",
+    "current_batch": "rivaroxaban, warfarin, apixaban, dabigatran",
+    "next_action": "commit batch17"
   }
 }

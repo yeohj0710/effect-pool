@@ -2197,8 +2197,46 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] apixaban — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 77건 -->
 - [x] apixaban — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 42건 -->
 - [x] apixaban — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
-- [ ] apixaban — Stroke에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] rivaroxaban — Atrial Flutter에 듣는다  <!-- 등록 시험 118건 -->
-- [ ] rivaroxaban — Thrombosis에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] rivaroxaban — Coronary Disease에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] rivaroxaban — Embolism에 듣는다  <!-- 등록 시험 34건 -->
+- [x] apixaban — Stroke에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 24건 -->
+- [x] rivaroxaban — Atrial Flutter에 듣는다  <!-- 등록 시험 118건 -->
+- [x] rivaroxaban — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
+- [x] rivaroxaban — Coronary Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 44건 -->
+- [x] rivaroxaban — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] warfarin — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 70건 -->
+- [x] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 -->
+- [x] warfarin — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 47건 -->
+- [x] warfarin — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] dabigatran — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
+- [ ] dabigatran — Stroke에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] dabigatran — Coronary Disease에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] dabigatran — Thrombosis에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] fondaparinux — Pulmonary Embolism에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] fondaparinux — Thrombosis에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] fondaparinux — Cancer에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] fondaparinux — Coronary Disease에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] dalteparin — Cancer에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] dalteparin — Thrombosis에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] dalteparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] dalteparin — Surgery에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] tinzaparin — Thrombosis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] tinzaparin — Cancer에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] tinzaparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] tinzaparin — Bleeding에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] ticagrelor — Infarction에 듣는다  <!-- 등록 시험 90건 -->
+- [ ] ticagrelor — Stroke에 듣는다  <!-- 등록 시험 31건 -->
+- [ ] ticagrelor — Platelet Function에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] ticagrelor — Stable Angina에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] prasugrel — Infarction에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] prasugrel — Platelet Function에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] prasugrel — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] prasugrel — Diabetes에 듣는다  <!-- 등록 시험 6건 -->
