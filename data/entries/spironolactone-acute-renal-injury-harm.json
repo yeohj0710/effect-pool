@@ -1,0 +1,35 @@
+{
+  "id": "spironolactone-acute-renal-injury-harm",
+  "subj": "스피로노락톤",
+  "claim": "스피로노락톤이 급성 신손상을 예방한다",
+  "line": "심장수술 뒤 급성 신손상을 예방하지 못했고 오히려 늘었습니다",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 233,
+  "synth": "single",
+  "why": "허가사항에는 심부전·고혈압·부종 등이 있지만 급성 신손상 예방은 없습니다. 심장수술 환자에게 스피로노락톤과 위약을 비교한 무작위시험이 있습니다.",
+  "saw": "PMID 27522513은 심장수술 환자 233명을 무작위 배정했습니다. 급성 신손상은 스피로노락톤군 43%, 위약군 29%로 스피로노락톤군에서 더 많았고, 신대체요법·중환자실 기간·사망률에는 유의한 차이가 없었습니다.",
+  "limit": "단일기관 시험이고 계획한 표본 수를 채우지 못했습니다. 심장수술 뒤 주로 1단계 급성 신손상을 본 결과라 다른 급성 신손상 원인이나 장기 신장 결과로 일반화할 수 없습니다.",
+  "against": "반대 검색 100건을 확인했습니다. 여러 미네랄코르티코이드 수용체 길항제 무작위시험 메타분석에서는 급성 신손상 자체는 늘지 않았지만, 스피로노락톤은 더 넓은 신장 손상 결과와 연관됐습니다.",
+  "use": "스피로노락톤을 급성 신손상 예방 근거로 표시하지 말고, 심장수술 환자에서 해로운 신장 신호가 나온 무작위시험으로 기록해야 합니다.",
+  "refs": [
+    {
+      "label": "2017 · 심장수술 뒤 스피로노락톤 급성 신손상 무작위시험",
+      "doi": "10.1053/j.ajkd.2016.06.013",
+      "pmid": "27522513"
+    },
+    {
+      "label": "2025 · 미네랄코르티코이드 수용체 길항제 신장 손상 무작위시험 메타분석",
+      "doi": "10.1002/phar.4618",
+      "pmid": "39578707"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"SPIRONOLACTONE\" → 143건 반환; 허가 문구는 심부전·고혈압·부종·고알도스테론증이며 급성 신손상 예방 없음",
+    "ctgov": "query.intr=spironolactone&query.cond=Acute Renal Injury&countTotal=true&pageSize=100 → 6건 반환, InterventionName 대조 후 5건",
+    "pubmed": "spironolactone Acute Renal Injury → 127건",
+    "negative": "spironolactone Acute Renal Injury (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 100건",
+    "safety": "spironolactone Acute Renal Injury (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 69건"
+  }
+}

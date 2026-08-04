@@ -2420,16 +2420,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> — 허가 적응증(2026-08-04)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
 - [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> — 허가 적응증(2026-08-04)
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
+- [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> — 허가 적응증(2026-08-04)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
+- [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(quetiapine-anxiety)
+- [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(quetiapine-schizoaffective-null)
+- [x] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> — 허가 적응증(2026-08-04)
+- [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(spironolactone-kidney-disease-null)
+- [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
+- [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> — 허가 적응증(2026-08-04)
+- [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
