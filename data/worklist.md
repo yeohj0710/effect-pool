@@ -1184,16 +1184,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] alpha lipoic acid — Diabetic Neuropathy에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] alpha lipoic acid — Resistant Ovary Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] alpha lipoic acid — Obesity에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] alpha lipoic acid — Oxidative Stress에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] magnesium — Anesthesia에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] magnesium — Cancer에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] magnesium — Asthma에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] magnesium — Coronary Artery Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] saffron — Macular Dystrophy에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] saffron — Ulcerative Colitis에 듣는다  <!-- 등록 시험 3건 -->
+- [x] alpha lipoic acid — Diabetic Neuropathy에 듣는다 — 새 항목(alpha-lipoic-acid-diabetic-neuropathy-pos)  <!-- 등록 시험 10건 -->
+- [x] alpha lipoic acid — Resistant Ovary Syndrome에 듣는다 — 새 항목(alpha-lipoic-acid-resistant-ovary-syndrome-open)  <!-- 등록 시험 8건 -->
+- [x] alpha lipoic acid — Obesity에 듣는다 — 새 항목(alpha-lipoic-acid-obesity-open)  <!-- 등록 시험 7건 -->
+- [x] alpha lipoic acid — Oxidative Stress에 듣는다 — 새 항목(alpha-lipoic-acid-oxidative-stress-open)  <!-- 등록 시험 6건 -->
+- [x] magnesium — Anesthesia에 듣는다 — 새 항목(magnesium-anesthesia-open)  <!-- 등록 시험 16건 -->
+- [x] magnesium — Cancer에 듣는다 — 새 항목(magnesium-cancer-open)  <!-- 등록 시험 14건 -->
+- [x] magnesium — Asthma에 듣는다 — 새 항목(magnesium-asthma-open)  <!-- 등록 시험 13건 -->
+- [x] magnesium — Coronary Artery Disease에 듣는다 — 새 항목(magnesium-coronary-artery-disease-open)  <!-- 등록 시험 9건 -->
+- [x] saffron — Macular Dystrophy에 듣는다 — 새 항목(saffron-macular-dystrophy-open)  <!-- 등록 시험 4건 -->
+- [x] saffron — Ulcerative Colitis에 듣는다 — 새 항목(saffron-ulcerative-colitis-open)  <!-- 등록 시험 3건 -->
 - [ ] saffron — Mood Disorders에 듣는다  <!-- 등록 시험 3건 -->
 - [ ] saffron — Periodontal Pocket에 듣는다  <!-- 등록 시험 3건 -->
 - [ ] ashwagandha — Skin Health에 듣는다  <!-- 등록 시험 6건 -->
