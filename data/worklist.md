@@ -4933,16 +4933,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> — 허가 적응증(2026-08-04)
 - [x] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(bupropion-cocaine-dependence-null)
-- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
-- [ ] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] bimatoprost — Baldness에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] botulinum toxin — Overactive Bladder에 듣는다  <!-- 등록 시험 46건 -->
+- [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 --> — 기존 항목(sildenafil-renal-dysfunction-null)
+- [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(sildenafil-ivf-failure-null)
+- [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(sildenafil-cancer-null)
+- [x] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
+- [x] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 --> — 허가 적응증(2026-08-04)
+- [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(bimatoprost-alopecia-null)
+- [x] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(bimatoprost-eyelash-hypotrichosis)
+- [x] bimatoprost — Baldness에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(bimatoprost-baldness-null)
+- [x] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 48건 --> — 허가 적응증(2026-08-04)
+- [x] botulinum toxin — Overactive Bladder에 듣는다  <!-- 등록 시험 46건 --> — 허가 적응증(2026-08-04)
 - [ ] botulinum toxin — Fine Lines에 듣는다  <!-- 등록 시험 42건 -->
 - [ ] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 등록 시험 34건 -->
 - [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
