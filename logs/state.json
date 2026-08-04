@@ -1,48 +1,48 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 554,
+  "entries": 557,
   "worklist": {
-    "checked": 3623,
-    "unchecked": 255,
+    "checked": 3633,
+    "unchecked": 245,
     "no_evidence_pending": 0,
     "next_batch": [
-      "mirtazapine-sleep",
-      "mirtazapine-cancer",
-      "mirtazapine-heroin-dependence",
-      "pregabalin-fibromyalgia",
-      "pregabalin-neuropathy",
-      "pregabalin-neuralgia",
-      "pregabalin-partial-seizures",
-      "lamotrigine-bipolar-disorder",
-      "lamotrigine-depression",
-      "lamotrigine-vertigo-aural"
+      "lamotrigine-schizophrenia",
+      "carbamazepine-healthy-adults",
+      "carbamazepine-bipolar-disorder",
+      "carbamazepine-trigeminal-neuralgia",
+      "carbamazepine-cocaine-related-disorders",
+      "clonazepam-epilepsy",
+      "clonazepam-pain",
+      "clonazepam-rem-sleep-behavior-disorder",
+      "clonazepam-schizophrenia",
+      "prednisone-cancer"
     ]
   },
   "last_batch": [
-    "hydroxyzine-effect-of-drug-excluded",
-    "buspirone-spinal-cord-injury-null",
-    "buspirone-autism-null",
-    "buspirone-depression-null",
-    "buspirone-heroin-dependence-pos",
-    "aripiprazole-bipolar-approved",
-    "aripiprazole-depressive-episode-approved",
-    "aripiprazole-schizoaffective-disorder-pos",
-    "aripiprazole-depression-approved",
-    "mirtazapine-depression-approved"
+    "mirtazapine-sleep-pos",
+    "mirtazapine-cancer-null",
+    "mirtazapine-heroin-dependence-null",
+    "pregabalin-fibromyalgia-approved",
+    "pregabalin-neuropathy-approved",
+    "pregabalin-neuralgia-approved",
+    "pregabalin-partial-seizures-approved",
+    "lamotrigine-bipolar-disorder-approved",
+    "lamotrigine-depression-open (existing)",
+    "lamotrigine-vertigo-aural-open (existing)"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 510,
+      "trial": 513,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 218,
+    "no_effect_or_harm": 220,
     "harm": 23,
     "no_effect_or_harm_share": "39%"
   },
@@ -52,8 +52,8 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "resume": {
-    "last_committed_batch": "hydroxyzine, buspirone, aripiprazole, mirtazapine",
-    "current_batch": "hydroxyzine, buspirone, aripiprazole, mirtazapine",
-    "next_action": "build, commit, push, deploy, then process next batch"
+    "last_committed_batch": "mirtazapine, pregabalin, lamotrigine",
+    "current_batch": "mirtazapine, pregabalin, lamotrigine",
+    "next_action": "build, commit, push, then process next batch"
   }
 }

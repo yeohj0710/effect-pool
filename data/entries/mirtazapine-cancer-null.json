@@ -1,0 +1,37 @@
+{
+  "id": "mirtazapine-cancer-null",
+  "subj": "미르타자핀",
+  "claim": "암 환자의 식욕을 위약보다 개선하지 못했습니다",
+  "line": "암 환자의 식욕을 위약보다 개선하지 못했지만 일부 영양 지표는 개선했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 120,
+  "synth": "single",
+  "why": "암성 식욕부진·악액질 환자를 대상으로 한 이중눈가림 위약대조 무작위시험에서 식욕 개선 효과가 위약보다 크지 않았습니다.",
+  "saw": "불치성 고형암과 식욕부진·악액질이 있는 환자 120명을 무작위 배정한 시험에서 28일 식욕 점수 변화는 미르타자핀과 위약 사이에 유의한 차이가 없었습니다. 진행성 비소세포폐암 환자 86명을 무작위 배정한 별도 시험에서도 식욕 점수는 다르지 않았지만 에너지 섭취량과 일부 근감소증 지표는 개선되었습니다.",
+  "limit": "주요 시험은 식욕을 측정했고 별도 시험은 에너지 섭취량과 근감소증을 측정해 주장과 지표가 어긋납니다. 두 시험 모두 추적 기간이 짧고 생존이나 암 자체의 치료효과를 평가하지 않았습니다.",
+  "against": "반대쪽 검색에서는 mirtazapine AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) 45건을 확인했고, 암성 식욕부진 무작위시험에서 식욕의 위약 대비 차이가 없었습니다.",
+  "use": "암성 식욕부진 치료효과로 단정할 수 없으며, 영양 지표 신호는 별도 확인시험이 필요합니다.",
+  "refs": [
+    {
+      "label": "Hunter 2021 · J Pain Symptom Manage · 암성 식욕부진·악액질 무작위시험",
+      "doi": "10.1016/j.jpainsymman.2021.05.017",
+      "pmid": "34051293"
+    },
+    {
+      "label": "Arrieta 2024 · JAMA Oncol · 비소세포폐암 식욕부진 무작위시험",
+      "doi": "10.1001/jamaoncol.2023.5232",
+      "pmid": "38206631",
+      "pmc": "PMC10784994",
+      "nct": "NCT04748523"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label search=openfda.substance_name:\"MIRTAZAPINE\" · 90건 반환",
+    "ctgov": "query.intr=mirtazapine&query.cond=Cancer&countTotal=true · 17건 반환",
+    "pubmed": "mirtazapine AND Cancer · 193건 반환",
+    "negative": "mirtazapine AND Cancer AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 45건 반환",
+    "safety": "mirtazapine AND Cancer AND (adverse OR toxicity OR \"case report\") · 99건 반환"
+  }
+}
