@@ -4583,16 +4583,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> — 허가 적응증(2026-08-04)
 - [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> — 허가 적응증(2026-08-04)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
-- [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
+- [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
+- [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> — 허가 적응증(2026-08-04)
+- [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(naltrexone-marijuana-use-pos)
+- [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(naltrexone-obesity-null)
+- [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(naltrexone-pain-null)
+- [x] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 --> — 기존 항목(gabapentin-cancer-null)
+- [x] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 --> — 기존 항목(gabapentin-opioid-use-open)
+- [x] gabapentin — Nausea에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(gabapentin-nausea-null)
+- [x] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(gabapentin-drug-dependence-open)
 - [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
