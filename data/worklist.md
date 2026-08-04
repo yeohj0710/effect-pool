@@ -914,3 +914,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
 - [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
 - [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] quercetin — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] quercetin — Aging에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] quercetin — Progressive Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] quercetin — Cognitive Decline에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] resveratrol — Obesity에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] resveratrol — Insulin Resistance에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] resveratrol — Metabolic Syndrome에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] resveratrol — Aging에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] coenzyme q10 — Male Infertility에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] coenzyme q10 — Becker Muscular Dystrophy에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] coenzyme q10 — Coronary Stenosis에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] coenzyme q10 — Oxidative Stress에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] omega-3 — Type 2 Diabetes에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] omega-3 — Hypertriglyceridemia에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] omega-3 — Obesity에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] omega-3 — Concussion, Mild에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] probiotic — Fatty Liver에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] probiotic — Bowel Dysfunction에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] probiotic — Gastrointestinal Health에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] probiotic — Obesity에 듣는다  <!-- 등록 시험 16건 -->
