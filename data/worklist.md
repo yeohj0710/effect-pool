@@ -5343,16 +5343,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] escitalopram — Anxiety에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
 - [x] escitalopram — Cancer에 듣는다 — 새 항목(escitalopram-cancer-pos)  <!-- 등록 시험 14건 -->
 - [x] escitalopram — Insomnia에 듣는다 — 새 항목(escitalopram-insomnia-open)  <!-- 등록 시험 7건 -->
-- [ ] lurasidone — Bipolar I에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] lurasidone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] lurasidone — Suicidal Ideas에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] lurasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] ziprasidone — Bipolar Mania에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] ziprasidone — Psychotic Disorder에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] ziprasidone — Psychosis에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] olanzapine — Bipolar Disorder에 듣는다  <!-- 등록 시험 59건 -->
-- [ ] olanzapine — Nausea에 듣는다  <!-- 등록 시험 44건 -->
+- [x] lurasidone — Bipolar I에 듣는다  <!-- 등록 시험 28건 --> — 허가 적응증(2026-08-04)
+- [x] lurasidone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 5건 -->
+- [x] lurasidone — Suicidal Ideas에 듣는다  <!-- 등록 시험 5건 -->
+- [x] lurasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 4건 -->
+- [x] ziprasidone — Bipolar Mania에 듣는다  <!-- 등록 시험 37건 --> — 허가 적응증(2026-08-04)
+- [x] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 17건 -->
+- [x] ziprasidone — Psychotic Disorder에 듣는다  <!-- 등록 시험 10건 -->
+- [x] ziprasidone — Psychosis에 듣는다  <!-- 등록 시험 6건 -->
+- [x] olanzapine — Bipolar Disorder에 듣는다  <!-- 등록 시험 59건 --> — 허가 적응증(2026-08-04)
+- [x] olanzapine — Nausea에 듣는다  <!-- 등록 시험 44건 -->
 - [ ] olanzapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 40건 -->
 - [ ] olanzapine — Cancer에 듣는다  <!-- 등록 시험 39건 -->
 - [ ] lidocaine — Anesthesia에 듣는다  <!-- 등록 시험 57건 -->

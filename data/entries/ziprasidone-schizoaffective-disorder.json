@@ -1,0 +1,35 @@
+{
+  "id": "ziprasidone-schizoaffective-disorder",
+  "subj": "지프라시돈",
+  "claim": "지프라시돈이 조현정동장애에 듣는다",
+  "line": "급성 조현정동장애·조현병 악화에서 증상을 위약보다 개선했습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 139,
+  "synth": "single",
+  "why": "조현정동장애를 포함한 급성 악화 환자를 대상으로 한 무작위 위약대조시험에서 지프라시돈의 증상 개선을 확인했습니다.",
+  "saw": "139명이 참여한 4주 시험에서 지프라시돈군은 위약군보다 BPRS와 CGI-S, 반응률을 개선했습니다.",
+  "limit": "조현병과 조현정동장애가 섞인 급성 악화 표본이며 단기시험입니다. 조현정동장애만의 장기 유지효과로 넓힐 수 없습니다.",
+  "against": "반대 검색 358건을 확인했습니다. 일부 비교시험에서는 지프라시돈과 다른 항정신병약의 증상 개선이 비슷했고, QT 간격과 추체외로계 이상반응 같은 안전성 차이가 보고됐습니다.",
+  "use": "조현정동장애 전체의 장기 치료 근거로 표시하지 말고, 조현병과 섞인 급성 악화 단기시험의 신호로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Goff 1998 · Psychopharmacology · 조현병·조현정동장애 급성 악화 위약대조시험",
+      "doi": "10.1007/s002130050755",
+      "pmid": "9860108"
+    },
+    {
+      "label": "Weiden 2004 · American Journal of Psychiatry · 조현병·조현정동장애 지프라시돈 비교시험",
+      "doi": "10.1176/ajp.161.10.1837",
+      "pmid": "15465981"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:ZIPRASIDONE → 41건; 허가 문구는 조현병과 양극성 I형 조증·혼합 삽화이며 조현정동장애 별도 적응증 없음",
+    "ctgov": "query.intr=ziprasidone&query.cond=Schizoaffective%20Disorder&countTotal=true&pageSize=50 → 31건 반환, InterventionName 대조 후 ziprasidone 일치 25건",
+    "pubmed": "ziprasidone AND Schizoaffective Disorder → 404건",
+    "negative": "ziprasidone AND Schizoaffective Disorder AND (no effect OR did not OR failed to OR negative) → 358건",
+    "safety": "ziprasidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 1,303건"
+  }
+}

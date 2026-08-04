@@ -1,0 +1,41 @@
+{
+  "id": "olanzapine-nausea",
+  "subj": "올란자핀",
+  "claim": "올란자핀이 오심에 듣는다",
+  "line": "항암치료로 생긴 오심·구토를 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 726,
+  "synth": "meta",
+  "why": "항암치료 유발 오심·구토 예방 무작위시험 6편을 합친 메타분석에서 올란자핀 포함 요법의 효과를 확인했습니다.",
+  "saw": "6개 무작위시험 726명에서 올란자핀 포함 요법은 대조 요법보다 항암치료 유발 오심·구토를 줄였고, 지연기에 효과가 특히 뚜렷했습니다.",
+  "limit": "항암치료 유발 오심·구토에 대한 예방 결과이며 일반 오심이나 다른 원인의 구토로 일반화할 수 없습니다. 급성기의 완전 반응 개선은 다른 메타분석에서 일관되지 않았습니다.",
+  "against": "반대 검색 401건을 확인했습니다. 다른 메타분석은 급성기의 완전 반응 개선은 확인하지 못했지만 지연기와 전체 기간의 일부 결과는 개선됐다고 보고했습니다.",
+  "use": "오심 치료 근거를 항암치료 유발 오심·구토 예방으로 한정하고, 일반 오심 치료제로 표시하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "Jiang 2014 · Scientific Reports · 항암치료 유발 오심·구토 올란자핀 메타분석",
+      "doi": "10.1038/srep04813",
+      "pmid": "24770591"
+    },
+    {
+      "label": "Chow 2016 · New England Journal of Medicine · 항암치료 유발 오심·구토 무작위시험",
+      "doi": "10.1056/NEJMoa1515725",
+      "pmid": "27410922",
+      "nct": "NCT02116530"
+    },
+    {
+      "label": "Yang 2017 · British Journal of Clinical Pharmacology · 항암치료 유발 오심·구토 메타분석",
+      "doi": "10.1111/bcp.13242",
+      "pmid": "28112422"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:OLANZAPINE → 105건; 허가 문구는 조현병과 양극성 I형이며 일반 오심 적응증 없음",
+    "ctgov": "query.intr=olanzapine&query.cond=Nausea&countTotal=true&pageSize=50 → 55건 반환, InterventionName 대조 후 olanzapine 일치 44건",
+    "pubmed": "olanzapine AND Nausea → 473건",
+    "negative": "olanzapine AND Nausea AND (no effect OR did not OR failed to OR negative) → 401건",
+    "safety": "olanzapine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,621건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ziprasidone-psychosis",
+  "subj": "지프라시돈",
+  "claim": "지프라시돈이 정신병에 듣는다",
+  "line": "첫 정신병 삽화에서 3년 치료 지속은 다른 약보다 좋지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 376,
+  "synth": "single",
+  "why": "첫 정신병 삽화 환자를 여러 항정신병약에 무작위 배정하고 장기 치료 지속을 비교한 시험을 확인했습니다.",
+  "saw": "376명이 참여한 무작위 시험에서 지프라시돈군의 3년 치료 중단률이 높았고, 주요 결과는 증상 자체가 아니라 모든 원인의 치료 중단이었습니다.",
+  "limit": "정신병 전체가 아니라 첫 정신병 삽화 표본이며, 주된 측정치는 증상 개선이 아닌 치료 지속입니다. 지프라시돈의 일반적인 정신병 증상 효과로 해석할 수 없습니다.",
+  "against": "반대 검색 423건을 확인했습니다. 지프라시돈이 포함된 비교시험은 약물 간 효능·중단 차이를 보고했지만 정신병 전체의 위약대조 효과를 확립하지 않았습니다.",
+  "use": "정신병의 일반 치료제로 표시하지 말고, 첫 삽화 장기 비교시험에서 치료 지속이 불리했던 제한된 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Crespo-Facorro 2020 · International Journal of Neuropsychopharmacology · 첫 정신병 삽화 장기 무작위 비교시험",
+      "doi": "10.1093/ijnp/pyaa004",
+      "pmid": "31974576",
+      "nct": "NCT02526030"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:ZIPRASIDONE → 41건; 허가 문구는 조현병과 양극성 I형 조증·혼합 삽화이며 정신병 일반 적응증 없음",
+    "ctgov": "query.intr=ziprasidone&query.cond=Psychosis&countTotal=true&pageSize=50 → 101건 반환, InterventionName 대조 후 ziprasidone 일치 38건",
+    "pubmed": "ziprasidone AND Psychosis → 477건",
+    "negative": "ziprasidone AND Psychosis AND (no effect OR did not OR failed to OR negative) → 423건",
+    "safety": "ziprasidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 1,303건"
+  }
+}
