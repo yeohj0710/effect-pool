@@ -1,0 +1,32 @@
+{
+  "id": "aspirin-cardiovascular-disease-pos",
+  "subj": "아스피린",
+  "claim": "아스피린을 심혈관질환 2차 예방에 쓴다",
+  "line": "확진 혈관질환에서 혈전성 사건을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 17000,
+  "synth": "meta",
+  "why": "확진 관상동맥·뇌혈관·말초동맥질환 환자의 아스피린 무작위시험을 합친 2차 예방 메타분석입니다.",
+  "saw": "확진 혈관질환 17,000명 이상의 2차 예방시험에서 아스피린은 혈관성 사망과 혈전성 사건을 낮췄고, 관상·뇌혈관·말초혈관질환군 모두에서 혈관 사건이 감소했습니다.",
+  "limit": "2차 예방 근거를 심혈관질환이 없는 사람의 1차 예방에 적용할 수 없습니다. 주요 출혈 위험과 복용 중인 항혈전제를 함께 봐야 합니다.",
+  "against": "1차 예방에서는 순이득이 불확실했고 주요 위장관·두개외 출혈이 증가했습니다.",
+  "use": "확진 심혈관질환의 재발 예방에는 효과가 있지만 질환이 없는 사람의 예방 목적으로 일반화할 수 없습니다.",
+  "refs": [
+    {
+      "label": "2010 · 확진 심혈관질환 아스피린 2차 예방 APTC 메타분석",
+      "pmid": "19678849"
+    },
+    {
+      "label": "2009 · 아스피린 1차·2차 혈관질환 예방 개별자료 메타분석",
+      "pmid": "19482214"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=aspirin&query.cond=Cardiovascular Disease → 1,224건 반환, InterventionName에 aspirin 포함 49건",
+    "pubmed": "aspirin Cardiovascular Disease → 34,732건",
+    "negative": "aspirin Cardiovascular Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 22,062건",
+    "safety": "aspirin Cardiovascular Disease AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 14,748건"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "aspirin-brain-infarction-pos",
+  "subj": "아스피린",
+  "claim": "아스피린을 뇌경색 후 재발 예방에 쓴다",
+  "line": "뇌경색 병력이 있는 환자에서 재발성 혈관 사건을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 17000,
+  "synth": "meta",
+  "why": "뇌경색을 포함한 혈관질환 환자의 아스피린 무작위시험 16편을 합친 개별 환자자료 메타분석입니다.",
+  "saw": "2차 예방시험 16편 약 17,000명에서 아스피린은 전체 뇌졸중과 중대한 혈관 사건을 줄였습니다. 뇌혈관질환군을 따로 본 메타분석에서도 비치명적 뇌졸중이 감소했습니다.",
+  "limit": "뇌경색 후 2차 예방 결과이며 급성 뇌경색의 초기 재관류 치료나 모든 뇌졸중 아형에 대한 효과는 아닙니다. 출혈 위험을 함께 판단해야 합니다.",
+  "against": "1차 예방시험에서는 뇌졸중 감소가 유의하지 않았고 주요 출혈은 늘었습니다.",
+  "use": "뇌경색 병력이 있는 환자의 재발 예방에는 효과가 있지만 급성기 치료와 1차 예방으로 넓혀 표시할 수 없습니다.",
+  "refs": [
+    {
+      "label": "2009 · 아스피린 뇌경색 포함 혈관질환 2차 예방 메타분석",
+      "pmid": "19482214"
+    },
+    {
+      "label": "2010 · 관상·뇌혈관·말초혈관질환 아스피린 2차 예방 메타분석",
+      "pmid": "19678849"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=aspirin&query.cond=Brain Infarction → 71건 반환, InterventionName에 aspirin 포함 42건",
+    "pubmed": "aspirin Brain Infarction → 1,183건",
+    "negative": "aspirin Brain Infarction AND (no effect OR did not OR failed to OR negative OR no significant difference) → 674건",
+    "safety": "aspirin Brain Infarction AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 574건"
+  }
+}
