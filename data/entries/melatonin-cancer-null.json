@@ -1,0 +1,36 @@
+{
+  "id": "melatonin-cancer-null",
+  "subj": "멜라토닌",
+  "claim": "수면 호르몬을 암 치료에 쓴다",
+  "line": "암 환자에서 삶의 질과 수면 개선은 아직 뚜렷하지 않습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 5093,
+  "synth": "meta",
+  "why": "암 환자에게 멜라토닌을 표준 항암치료와 함께 또는 단독으로 사용한 무작위시험 30편을 검토한 Cochrane 문헌고찰입니다.",
+  "saw": "30개 시험 5,093명에서 삶의 질과 수면 개선 효과는 자료가 부족하거나 매우 불확실했습니다. 표준치료에 더했을 때 피로는 줄었지만 암 자체의 생존·종양 반응 근거는 부족했습니다.",
+  "limit": "암 종류와 병기, 병용치료가 달랐고 30편 중 28편은 비뚤림 위험이 높았습니다. 멜라토닌이 암을 치료한다는 결과가 아니라 증상·부작용 지표를 본 연구입니다.",
+  "against": "19개 시험 2,101명 메타분석에서도 삶의 질, 수면, 피로, 통증은 유의하게 좋아지지 않았고 구내염 발생률만 일부 줄었습니다.",
+  "use": "멜라토닌을 항암제로 표시할 근거는 없으며, 보조요법 연구도 불확실성과 암종별 차이를 함께 봐야 합니다.",
+  "refs": [
+    {
+      "label": "Vijayakumar 2025 · Cochrane Database of Systematic Reviews · 암 환자 멜라토닌 검토",
+      "doi": "10.1002/14651858.CD010145.pub2",
+      "pmid": "40304216",
+      "pmc": "PMC12042261"
+    },
+    {
+      "label": "Seely 2022 · BMJ Open · 암 환자 멜라토닌 메타분석",
+      "doi": "10.1136/bmjopen-2022-060912",
+      "pmid": "36104141",
+      "pmc": "PMC9476160"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=melatonin, cond=Cancer → 53건 반환, InterventionName 대조 후 40건",
+    "pubmed": "melatonin cancer → 3,918건",
+    "negative": "melatonin cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3,003건",
+    "safety": "melatonin cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 973건"
+  }
+}

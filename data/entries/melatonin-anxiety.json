@@ -1,0 +1,35 @@
+{
+  "id": "melatonin-anxiety",
+  "subj": "멜라토닌",
+  "claim": "수면 호르몬을 수술 전후 불안에 쓴다",
+  "line": "수술 전 불안은 줄였지만 수술 뒤 효과는 작고 엇갈렸습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2319,
+  "synth": "meta",
+  "why": "성인 수술 환자의 수술 전·후 불안을 멜라토닌과 위약 또는 벤조디아제핀으로 비교한 무작위시험 27편의 Cochrane 검토입니다.",
+  "saw": "2,319명에서 멜라토닌은 위약보다 수술 전 불안을 줄였고, 수술 후 불안 감소는 작았습니다. 벤조디아제핀과 비교하면 불안 차이가 거의 없었습니다.",
+  "limit": "대부분 연구의 비뚤림 위험이 불명확했고 수술 종류와 불안 측정 시점이 달랐습니다. 수술 전 불안 결과를 일반 불안장애 치료로 확대할 수 없습니다.",
+  "against": "수술 후 불안에 대한 효과는 위약과 차이가 없거나 임상적 의미가 불확실한 결과가 섞였습니다. 이상반응 보고도 연구마다 빠져 있었습니다.",
+  "use": "수술 전 불안에 대한 보조 선택지 신호는 있지만 일반 불안장애 치료 근거로 보기는 어렵습니다.",
+  "refs": [
+    {
+      "label": "Yamamoto 2021 · Cochrane Database of Systematic Reviews · 수술 전후 불안 검토",
+      "doi": "10.1002/14651858.CD009861.pub3",
+      "pmid": "33319916",
+      "pmc": "PMC8092422"
+    },
+    {
+      "label": "Milewski 2015 · Cochrane Database of Systematic Reviews · 초기 수술 불안 검토",
+      "doi": "10.1002/14651858.CD009861.pub2",
+      "pmid": "25856551"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=melatonin, cond=Anxiety → 36건 반환, InterventionName 대조 후 30건",
+    "pubmed": "melatonin anxiety → 971건",
+    "negative": "melatonin anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference) → 754건",
+    "safety": "melatonin anxiety AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 258건"
+  }
+}
