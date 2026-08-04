@@ -1,39 +1,34 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 475,
+  "entries": 481,
   "worklist": {
-    "checked": 1962,
-    "unchecked": 13,
+    "checked": 1975,
+    "unchecked": 0,
     "no_evidence_pending": 0,
-    "next_batch": [
-      "dalteparin — Surgery",
-      "tinzaparin — Thrombosis",
-      "tinzaparin — Cancer",
-      "tinzaparin — Pulmonary Embolism",
-      "tinzaparin — Bleeding",
-      "ticagrelor — Infarction",
-      "ticagrelor — Stroke"
-    ]
+    "next_batch": []
   },
   "last_batch": [
-    "dabigatran-stroke-approved",
-    "dabigatran-coronary-disease-open",
-    "dabigatran-thrombosis-approved",
-    "fondaparinux-pulmonary-embolism-approved",
-    "fondaparinux-thrombosis-approved",
-    "fondaparinux-cancer-open",
-    "fondaparinux-coronary-disease-open",
-    "dalteparin-cancer-approved",
-    "dalteparin-thrombosis-open",
-    "dalteparin-pulmonary-embolism-open"
+    "dalteparin-surgery-approved",
+    "tinzaparin-thrombosis-open",
+    "tinzaparin-cancer-open",
+    "tinzaparin-pulmonary-embolism-open",
+    "tinzaparin-bleeding-excluded",
+    "ticagrelor-infarction-approved",
+    "ticagrelor-stroke-approved",
+    "ticagrelor-platelet-function-excluded",
+    "ticagrelor-stable-angina-open",
+    "prasugrel-infarction-approved",
+    "prasugrel-platelet-function-excluded",
+    "prasugrel-cardiovascular-disease-open",
+    "prasugrel-diabetes-open"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 436,
+      "trial": 442,
       "obs": 32,
       "animal": 1,
       "lab": 2,
@@ -48,8 +43,8 @@
     "deployment_id": "dpl_5aGYeSHsVC4ZDZy1FAVdxpdyreab"
   },
   "resume": {
-    "last_committed_batch": "69a650f",
-    "current_batch": "dabigatran, fondaparinux, dalteparin",
-    "next_action": "research next_batch"
+    "last_committed_batch": "9fffdcf",
+    "current_batch": "dalteparin, tinzaparin, ticagrelor, prasugrel",
+    "next_action": "commit batch20 and expand worklist"
   }
 }

@@ -2227,16 +2227,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dalteparin — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 21건 -->
 - [x] dalteparin — Thrombosis에 듣는다  <!-- 등록 시험 19건 -->
 - [x] dalteparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dalteparin — Surgery에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] tinzaparin — Thrombosis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] tinzaparin — Cancer에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tinzaparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] tinzaparin — Bleeding에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] ticagrelor — Infarction에 듣는다  <!-- 등록 시험 90건 -->
-- [ ] ticagrelor — Stroke에 듣는다  <!-- 등록 시험 31건 -->
-- [ ] ticagrelor — Platelet Function에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ticagrelor — Stable Angina에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] prasugrel — Infarction에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] prasugrel — Platelet Function에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] prasugrel — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] prasugrel — Diabetes에 듣는다  <!-- 등록 시험 6건 -->
+- [x] dalteparin — Surgery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] tinzaparin — Thrombosis에 듣는다  <!-- 등록 시험 12건 -->
+- [x] tinzaparin — Cancer에 듣는다  <!-- 등록 시험 9건 -->
+- [x] tinzaparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 6건 -->
+- [x] tinzaparin — Bleeding에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 4건 -->
+- [x] ticagrelor — Infarction에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 90건 -->
+- [x] ticagrelor — Stroke에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 31건 -->
+- [x] ticagrelor — Platelet Function에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 23건 -->
+- [x] ticagrelor — Stable Angina에 듣는다  <!-- 등록 시험 19건 -->
+- [x] prasugrel — Infarction에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 27건 -->
+- [x] prasugrel — Platelet Function에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 9건 -->
+- [x] prasugrel — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
+- [x] prasugrel — Diabetes에 듣는다  <!-- 등록 시험 6건 -->
