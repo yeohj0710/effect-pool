@@ -1,0 +1,24 @@
+{
+  "id": "thalidomide-refractory-myeloma",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 다발골수종에 쓴다",
+  "line": "탈리도마이드 — 치료가 듣지 않던 다발골수종 환자 84명 중 32%에서 종양 단백질을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "why": "표준 치료에 반응하지 않은 다발골수종 환자에게 탈리도마이드를 직접 투여한 임상시험입니다.",
+  "saw": "환자 84명 가운데 32%에서 혈액이나 소변의 골수종 단백질이 25% 이상 줄었습니다. 이후 무작위시험들이 병용 치료 효과를 확인했습니다.",
+  "limit": "초기 시험은 대조군이 없고 종양 단백질을 결과로 삼았습니다. 기형 위험 외에도 신경병증과 혈전 위험이 큽니다.",
+  "against": "안전성 메타분석에서 탈리도마이드는 정맥혈전 위험을 2.6배 높였고 덱사메타손과 함께 쓸 때 위험이 더 컸습니다.",
+  "use": "심각한 위해로 퇴출된 약도 엄격한 임신 예방과 안전관리 아래 다른 질환 치료제가 될 수 있습니다.",
+  "refs": [
+    { "label": "Singhal 1999 · NEJM · 난치성 다발골수종 임상시험", "doi": "10.1056/NEJM199911183412102", "pmid": "10564685" },
+    { "label": "El Accaoui 2007 · Thromb Haemost · 혈전 메타분석", "pmid": "17549307" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=thalidomide, cond=multiple myeloma → 167건 전수 반환, InterventionName 대조 후 132건",
+    "pubmed": "thalidomide multiple myeloma randomized trial response → 343건",
+    "negative": "thalidomide multiple myeloma AND (no effect OR did not OR negative OR no significant difference) → 2,849건",
+    "safety": "thalidomide multiple myeloma AND (adverse OR toxicity OR thrombosis OR case report) → 2,454건"
+  }
+}
