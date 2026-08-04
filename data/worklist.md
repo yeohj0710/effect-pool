@@ -1224,76 +1224,76 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Cardiovascular Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 24건 -->
 - [x] propranolol — Migraine에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-traumatic-stress-null)  <!-- 등록 시험 28건 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] propranolol — Prostate Carcinoma에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Substance Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 204건 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 90건 -->
-- [ ] ketamine — Major Depression에 듣는다  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
+- [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
+- [x] propranolol — Prostate Carcinoma에 듣는다 — 기존 항목(propranolol-prostate-carcinoma-null)  <!-- 등록 시험 23건 -->
+- [x] naltrexone — Alcoholism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Substance Use에 듣는다 — 기존 항목(naltrexone-substance-use)  <!-- 등록 시험 44건 -->
+- [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
+- [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
+- [x] gabapentin — Cancer에 듣는다 — 기존 항목(gabapentin-cancer)  <!-- 등록 시험 40건 -->
+- [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-null)  <!-- 등록 시험 33건 -->
+- [x] gabapentin — Drug Dependence에 듣는다 — 기존 항목(gabapentin-drug-dependence-null)  <!-- 등록 시험 18건 -->
+- [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 등록 시험 18건 -->
+- [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
+- [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
+- [x] amitriptyline — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
+- [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
+- [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 40건 -->
+- [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
+- [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 22건 -->
+- [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
+- [x] trazodone — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
+- [x] quetiapine — Bipolar에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 93건 -->
+- [x] quetiapine — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
+- [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
+- [x] spironolactone — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
+- [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
+- [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Acne에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Syphilis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
+- [x] colchicine — Gout에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
+- [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 등록 시험 29건 -->
+- [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
+- [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 100건 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
+- [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
+- [x] semaglutide — Obesity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 204건 -->
+- [x] semaglutide — Overweight에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] semaglutide — Weight Loss에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
+- [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
+- [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
+- [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
+- [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
+- [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
+- [x] thalidomide — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
+- [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
+- [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
+- [x] ivermectin — Covid19에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 39건 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 29건 -->
+- [x] ivermectin — Scabies에 듣는다 — 기존 항목(ivermectin-scabies)  <!-- 등록 시험 19건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다 — 기존 항목(ivermectin-lymphatic-filariasis)  <!-- 등록 시험 18건 -->
+- [x] hydroxychloroquine — Cancer에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)  <!-- 등록 시험 112건 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 55건 -->
+- [x] hydroxychloroquine — Virus Disease에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 41건 -->
+- [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
+- [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
+- [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
+- [x] valacyclovir — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
