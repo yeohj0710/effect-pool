@@ -1,58 +1,54 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 344,
+  "entries": 353,
   "worklist": {
-    "checked": 1539,
-    "unchecked": 16,
+    "checked": 1555,
+    "unchecked": 220,
     "no_evidence_pending": 0,
     "next_batch": [
-      "venlafaxine — Depressive Episode",
-      "venlafaxine — Pain",
-      "venlafaxine — Anxiety",
-      "venlafaxine — Breast Cancer",
-      "clopidogrel — Stroke",
-      "clopidogrel — Infarction",
-      "clopidogrel — Platelet Function",
-      "clopidogrel — Stenosis",
-      "valsartan — Heart Failure",
-      "valsartan — Diabetes"
+      "metformin — Colon Cancer",
+      "metformin — Polycystic Ovary Syndrom",
+      "metformin — Insulin Resistance",
+      "metformin — Acute Lymphoblastic Leukemia",
+      "aspirin — Stroke",
+      "aspirin — Brain Infarction",
+      "aspirin — Cancer",
+      "aspirin — Cardiovascular Disease",
+      "propranolol — Migraine",
+      "propranolol — Stress Reaction"
     ]
   },
   "last_batch": [
-    "raloxifene-breast-cancer-approved",
-    "raloxifene-schizophrenia (existing)",
-    "raloxifene-schizoaffective-disorder-null (existing)",
-    "raloxifene-schizophreniform-disorder-open (existing)",
-    "allopurinol-gout-approved",
-    "allopurinol-lymphoma-approved",
-    "allopurinol-hyperuricemia-null (existing)",
-    "allopurinol-kidney-stones-approved",
-    "n-acetylcysteine-kidney-disease-null (existing)",
-    "n-acetylcysteine-pulmonary-fibrosis-null (existing)",
-    "n-acetylcysteine-oxidative-stress (existing)",
-    "n-acetylcysteine-cocaine-dependence-null (existing)",
-    "creatine-muscle (existing)",
-    "creatine-major-depressive-disorder (existing)",
-    "creatine-sarcopenia (existing)",
-    "creatine-sport-performance (existing)",
-    "berberine-schizophrenia (existing)",
-    "berberine-metabolic-syndrome (existing)",
-    "berberine-gastritis-open (existing)",
-    "berberine-hiv-1-infection-open (existing)"
+    "venlafaxine-depressive-episode-approved",
+    "venlafaxine-pain-open",
+    "venlafaxine-anxiety-approved",
+    "venlafaxine-breast-cancer-null",
+    "clopidogrel-stroke-approved",
+    "clopidogrel-infarction-approved",
+    "clopidogrel-platelet-function-open",
+    "clopidogrel-stenosis-open",
+    "valsartan-heart-failure-approved",
+    "valsartan-diabetes-null",
+    "valsartan-nephropathy-open",
+    "valsartan-kidney-disease-null",
+    "rosuvastatin-hypercholesterolemia-approved",
+    "rosuvastatin-diabetes-harm",
+    "rosuvastatin-dyslipidemia-approved",
+    "rosuvastatin-hypertension-open"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 306,
+      "trial": 315,
       "obs": 31,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 144,
+    "no_effect_or_harm": 148,
     "no_effect_or_harm_share": "42%"
   },
   "deployment": {
@@ -62,7 +58,7 @@
   },
   "resume": {
     "last_committed_batch": "c359f6a",
-    "current_batch": "expanded worklist with venlafaxine, clopidogrel, valsartan, rosuvastatin",
-    "next_action": "research next_batch"
+    "current_batch": "venlafaxine, clopidogrel, valsartan, rosuvastatin",
+    "next_action": "commit, push, deploy, then research next_batch"
   }
 }

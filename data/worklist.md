@@ -1704,22 +1704,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 -->
-- [ ] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 62건 -->
-- [ ] clopidogrel — Infarction에 듣는다  <!-- 등록 시험 58건 -->
-- [ ] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] clopidogrel — Stenosis에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] valsartan — Heart Failure에 듣는다  <!-- 등록 시험 109건 -->
-- [ ] valsartan — Diabetes에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] valsartan — Nephropathy에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] rosuvastatin — Hypercholesterolemia에 듣는다  <!-- 등록 시험 72건 -->
-- [ ] rosuvastatin — Diabetes에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] rosuvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 38건 -->
-- [ ] rosuvastatin — Hypertension에 듣는다  <!-- 등록 시험 30건 -->
+- [x] venlafaxine — Depressive Episode에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 58건 -->
+- [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
+- [x] venlafaxine — Anxiety에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
+- [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
+- [x] clopidogrel — Stroke에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 62건 -->
+- [x] clopidogrel — Infarction에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 58건 -->
+- [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 24건 -->
+- [x] clopidogrel — Stenosis에 듣는다  <!-- 등록 시험 20건 -->
+- [x] valsartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 109건 -->
+- [x] valsartan — Diabetes에 듣는다 — 조사 완료(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] valsartan — Nephropathy에 듣는다  <!-- 등록 시험 15건 -->
+- [x] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
+- [x] rosuvastatin — Hypercholesterolemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 72건 -->
+- [x] rosuvastatin — Diabetes에 듣는다  <!-- 등록 시험 41건 -->
+- [x] rosuvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
+- [x] rosuvastatin — Hypertension에 듣는다  <!-- 등록 시험 30건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

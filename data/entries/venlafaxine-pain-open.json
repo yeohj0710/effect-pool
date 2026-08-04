@@ -1,0 +1,28 @@
+{
+  "id": "venlafaxine-pain-open",
+  "subj": "벤라팍신",
+  "claim": "벤라팍신이 신경병증 통증을 줄인다",
+  "line": "신경병증 통증에서 벤라팍신의 효과는 다른 SNRI보다 일관되지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 1440,
+  "synth": "meta",
+  "why": "신경병증 통증에 대한 SNRI 무작위시험 메타분석에서 벤라팍신의 하위군 효과가 다른 SNRI보다 일관되지 않았다.",
+  "saw": "19개 무작위시험 1440명을 합친 메타분석에서 전체 SNRI 효과와 벤라팍신 하위군의 결과가 달랐다. 항암제 유발 신경병증을 다룬 별도 무작위시험에서는 벤라팍신군의 통증 점수가 감소했지만 다른 약제와의 차이는 뚜렷하지 않았다.",
+  "limit": "메타분석은 SNRI를 합친 결과이고 벤라팍신 하위군의 표본과 측정 시점이 제한적이다. 직접시험도 암 치료 중 신경병증 통증이라는 특정 상황에 국한된다.",
+  "against": "메타분석에서 벤라팍신 하위군은 일부 시점에 유의한 효과를 보이지 않았고, 항암제 유발 신경병증 시험에서는 다른 SNRI가 더 효과적이었다.",
+  "use": "신경병증 통증에 벤라팍신을 고려할 때 다른 SNRI와 직접 비교한 결과와 통증 원인을 함께 확인해야 한다.",
+  "refs": [
+    { "label": "SNRI 수술 후 통증 무작위시험 메타분석", "pmid": "38484604" },
+    { "label": "항암제 유발 신경병증의 벤라팍신 무작위시험", "pmid": "38482077" },
+    { "label": "항암제 유발 신경병증의 벤라팍신·둘록세틴·위약 시험", "pmid": "30105459" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:VENLAFAXINE — 185건; 허가 문구에 주요우울장애·범불안장애·사회불안장애·공황장애가 포함되어 통증은 비허가 적응증으로 분류",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=venlafaxine&query.cond=Pain — 전체 24건, intervention 이름에 venlafaxine이 일치한 17건",
+    "pubmed": "venlafaxine Pain — 510건",
+    "negative": "venlafaxine Pain AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) — 386건",
+    "safety": "venlafaxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 2676건"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "valsartan-kidney-disease-null",
+  "subj": "발사르탄",
+  "claim": "발사르탄이 만성 신장질환을 치료한다",
+  "line": "만성 신장질환에서 병용요법의 신장 기능 개선은 분명하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3460,
+  "synth": "meta",
+  "why": "만성 신장질환과 심부전 환자에서 sacubitril/valsartan을 평가한 무작위시험 메타분석은 신장 기능 지표의 일부만 개선했고 단백뇨 결과는 차이가 없었다.",
+  "saw": "무작위시험 메타분석은 만성 신장질환을 동반한 심부전 환자 3460명을 합쳤다. sacubitril/valsartan은 추정 사구체여과율을 소폭 높였지만 요알부민·크레아티닌 비율은 대조군과 차이가 없었다. 별도 414명 시험에서도 12개월 측정 사구체여과율 차이가 없었다.",
+  "limit": "근거가 발사르탄 단독이 아닌 sacubitril/valsartan 병용제이고 심부전 동반 환자에 한정된다. 신장질환 전체의 치료 효과나 장기 신장 결과를 측정하지 않았다.",
+  "against": "메타분석에서 요알부민·크레아티닌 비율 차이가 없었고, 별도 무작위시험에서도 12개월 신장 여과 기능 차이가 없었다.",
+  "use": "병용제의 심부전·혈압 효과와 만성 신장질환 자체의 치료 효과를 분리해 해석해야 한다.",
+  "refs": [
+    { "label": "심부전·만성 신장질환에서 sacubitril/valsartan 무작위시험 메타분석", "pmid": "32739172" },
+    { "label": "만성 신장질환에서 sacubitril/valsartan 비교시험", "pmid": "30002098" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:VALSARTAN — 164건; 허가 문구는 고혈압·심부전·심근경색 후이며 만성 신장질환 치료는 직접 적응증으로 제시되지 않아 비허가 적응증으로 분류",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=valsartan&query.cond=Kidney%20Disease — 전체 52건, intervention 이름에 valsartan이 일치한 40건",
+    "pubmed": "valsartan Kidney Disease — 756건",
+    "negative": "valsartan Kidney Disease AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) — 646건",
+    "safety": "valsartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 2013건"
+  }
+}
