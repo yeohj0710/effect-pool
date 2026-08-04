@@ -4553,16 +4553,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] eplerenone — Myocardial Injury에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(eplerenone-myocardial-injury-open)
 - [x] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> — 허가 적응증(2026-08-04)
 - [x] empagliflozin — Kidney Stone에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(empagliflozin-kidney-stone-open)
-- [ ] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 -->
-- [ ] liraglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 -->
-- [ ] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
+- [x] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(empagliflozin-fatty-liver-open)
+- [x] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(empagliflozin-hypertension-open)
+- [x] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 --> — 허가 적응증(2026-08-04)
+- [x] liraglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(liraglutide-metabolism-disorder-lipid-open)
+- [x] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 --> — 허가 적응증(2026-08-04)
+- [x] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 --> — 허가 적응증(2026-08-04)
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> — 허가 적응증(2026-08-04)
+- [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(venlafaxine-pain-open)
+- [x] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
+- [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(venlafaxine-breast-cancer-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

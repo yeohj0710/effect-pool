@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 572,
   "worklist": {
-    "checked": 4128,
-    "unchecked": 230,
+    "checked": 4138,
+    "unchecked": 220,
     "no_evidence_pending": 0,
     "next_batch": [
-      "empagliflozin-fatty-liver",
-      "empagliflozin-hypertension",
-      "liraglutide-obesity",
-      "liraglutide-metabolism-disorder-lipid",
-      "liraglutide-overweight",
-      "liraglutide-cardiovascular-disease",
-      "venlafaxine-depressive-episode",
-      "venlafaxine-pain",
-      "venlafaxine-anxiety",
-      "venlafaxine-breast-cancer"
+      "metformin-lung-cancer",
+      "metformin-polycystic-ovary",
+      "metformin-obesity",
+      "metformin-insulin-resistance",
+      "aspirin-stroke",
+      "aspirin-acute-coronary-syndrome",
+      "aspirin-ovarian-cancer",
+      "aspirin-colorectal-cancer",
+      "aspirin-lung-cancer",
+      "aspirin-breast-cancer"
     ]
   },
   "verification": {
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "simvastatin-cancer-null (new)",
-    "simvastatin-diabetes (approved)",
-    "simvastatin-heart-failure-open (new)",
-    "simvastatin-dyslipidemia (approved)",
-    "eplerenone-heart-failure (approved)",
-    "eplerenone-chronic-kidney-disease-open (existing)",
-    "eplerenone-central-serous-chorioretinopathy-null (existing)",
-    "eplerenone-myocardial-injury-open (existing)",
-    "empagliflozin-heart-failure (approved)",
-    "empagliflozin-kidney-stone-open (existing)"
+    "empagliflozin-fatty-liver-open (existing)",
+    "empagliflozin-hypertension-open (existing)",
+    "liraglutide-obesity (approved)",
+    "liraglutide-metabolism-disorder-lipid-open (existing)",
+    "liraglutide-overweight (approved)",
+    "liraglutide-cardiovascular-disease (approved)",
+    "venlafaxine-depressive-episode (approved)",
+    "venlafaxine-pain-open (existing)",
+    "venlafaxine-anxiety (approved)",
+    "venlafaxine-breast-cancer-null (existing)"
   ],
   "resume": {
-    "last_committed_batch": "simvastatin, eplerenone, empagliflozin",
-    "current_batch": "simvastatin, eplerenone, empagliflozin",
+    "last_committed_batch": "empagliflozin, liraglutide, venlafaxine",
+    "current_batch": "empagliflozin, liraglutide, venlafaxine",
     "next_action": "build, commit, push, then process next batch"
   }
 }
