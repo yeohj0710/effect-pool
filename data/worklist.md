@@ -2520,16 +2520,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 --> — 기존 항목(ondansetron-cancer-null)
 - [x] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(ondansetron-leukemia-null)
 - [x] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 --> — 허가 적응증(2026-08-04)
-- [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] memantine — Autism에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(memantine-autism-null)
+- [x] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 --> — 허가 적응증(2026-08-04)
+- [x] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(memantine-chemo-brain-open)
+- [x] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(memantine-cognitive-change-open)
+- [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 --> — 기존 항목(lithium-stage-iv-mantle-cell-lymphoma-null)
+- [x] lithium — Depression에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(lithium-depression)
+- [x] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(lithium-depressive-disorder)
+- [x] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(lithium-tooth-loss-harm)
+- [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(pentoxifylline-breast-cancer-null)
+- [x] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(pentoxifylline-fibrosis-null)
 - [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 -->
