@@ -1194,16 +1194,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] magnesium — Coronary Artery Disease에 듣는다 — 새 항목(magnesium-coronary-artery-disease-open)  <!-- 등록 시험 9건 -->
 - [x] saffron — Macular Dystrophy에 듣는다 — 새 항목(saffron-macular-dystrophy-open)  <!-- 등록 시험 4건 -->
 - [x] saffron — Ulcerative Colitis에 듣는다 — 새 항목(saffron-ulcerative-colitis-open)  <!-- 등록 시험 3건 -->
-- [ ] saffron — Mood Disorders에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] saffron — Periodontal Pocket에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] ashwagandha — Skin Health에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] ashwagandha — Sleep에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] ashwagandha — Anxiety에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] ashwagandha — Strength에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] taurine — Long COVID에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] taurine — Fatigue에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] taurine — Obesity에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] taurine — Diabetes에 듣는다  <!-- 등록 시험 4건 -->
+- [x] saffron — Mood Disorders에 듣는다 — 새 항목(saffron-mood-disorders-meta)  <!-- 등록 시험 3건 -->
+- [x] saffron — Periodontal Pocket에 듣는다 — 새 항목(saffron-periodontal-pocket-open)  <!-- 등록 시험 3건 -->
+- [x] ashwagandha — Skin Health에 듣는다 — 새 항목(ashwagandha-skin-health-pos)  <!-- 등록 시험 6건 -->
+- [x] ashwagandha — Sleep에 듣는다 — 새 항목(ashwagandha-sleep-pos)  <!-- 등록 시험 5건 -->
+- [x] ashwagandha — Anxiety에 듣는다 — 새 항목(ashwagandha-anxiety-meta)  <!-- 등록 시험 3건 -->
+- [x] ashwagandha — Strength에 듣는다 — 새 항목(ashwagandha-strength-null)  <!-- 등록 시험 3건 -->
+- [x] taurine — Long COVID에 듣는다 — 새 항목(taurine-long-covid-open)  <!-- 등록 시험 5건 -->
+- [x] taurine — Fatigue에 듣는다 — 새 항목(taurine-fatigue-null)  <!-- 등록 시험 5건 -->
+- [x] taurine — Obesity에 듣는다 — 새 항목(taurine-obesity-pos)  <!-- 등록 시험 4건 -->
+- [x] taurine — Diabetes에 듣는다 — 새 항목(taurine-diabetes-meta)  <!-- 등록 시험 4건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

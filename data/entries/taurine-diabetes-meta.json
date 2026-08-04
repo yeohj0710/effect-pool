@@ -1,0 +1,27 @@
+{
+  "id": "taurine-diabetes-meta",
+  "subj": "타우린",
+  "claim": "타우린이 당뇨병 관련 혈당을 낮춘다",
+  "line": "당뇨병 관련 공복혈당을 타우린이 낮췄지만 당뇨병만 분석하지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1024,
+  "synth": "meta",
+  "why": "타우린 무작위시험을 합친 메타분석에서 대사증후군 관련 공복혈당이 낮아졌지만, 당뇨병 환자만 분리한 분석은 아니었습니다.",
+  "saw": "25개 무작위시험 1024명을 합친 메타분석에서 공복혈당이 평균 5.882 mg/dL 낮았고 중성지방과 혈압도 낮아졌습니다. HDL 콜레스테롤에는 유의한 차이가 없었습니다.",
+  "limit": "대사증후군 위험군과 여러 질환군이 섞여 당뇨병 특이 효과로 해석하기 어렵습니다. 별도 제2형 당뇨병 시험에서는 타우린 단독군의 혈당·지질 개선이 확인되지 않았습니다.",
+  "against": "반대 검색 768건을 확인했습니다. 제2형 당뇨병 40명 시험에서도 타우린 단독군은 저혈당·저지질 효과를 보이지 않았고 운동 병용군에서 차이가 나타났습니다.",
+  "use": "당뇨병 혈당 개선 주장의 간접적 종합 근거와 한계를 함께 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "타우린 대사증후군 무작위시험 25건 메타분석", "pmid": "38755142" },
+    { "label": "제2형 당뇨병 타우린·운동 무작위시험", "pmid": "34836211" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"taurine\": 20건; 확인된 처방 라벨은 영양공급 적응증이며 당뇨병 허가는 아님",
+    "ctgov": "query.intr=taurine&query.cond=Diabetes: 7건 반환, interventions에서 taurine 일치 3건",
+    "pubmed": "taurine AND Diabetes: 1014건; taurine AND diabetes AND randomized controlled trial: 33건; taurine AND type 2 diabetes randomized: 33건; taurine AND glycemic control: 48건",
+    "negative": "taurine AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference): 768건",
+    "safety": "taurine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication): 3821건"
+  }
+}
