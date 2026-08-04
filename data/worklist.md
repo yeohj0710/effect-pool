@@ -2147,16 +2147,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levetiracetam — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
 - [x] levetiracetam — Brain Tumor에 듣는다 — 신규 항목(levetiracetam-brain-tumor-open)  <!-- 등록 시험 22건 -->
 - [x] levetiracetam — Status Epilepticus에 듣는다 — 신규 항목(levetiracetam-status-epilepticus-open)  <!-- 등록 시험 17건 -->
-- [ ] levetiracetam — Alzheimer Disease에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] diltiazem — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] diltiazem — Hypertension에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] diltiazem — Anal Fissure에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] diltiazem — Stable Angina에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] probenecid — Interaction에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] probenecid — Cytomegalovirus Retinitis에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] probenecid — Diabetes에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] probenecid — Obesity에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] indomethacin — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 15건 -->
+- [x] levetiracetam — Alzheimer Disease에 듣는다 — 신규 항목(levetiracetam-alzheimer-disease-open)  <!-- 등록 시험 14건 -->
+- [x] diltiazem — Coronary Disease에 듣는다 — 신규 항목(diltiazem-coronary-disease-open)  <!-- 등록 시험 9건 -->
+- [x] diltiazem — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] diltiazem — Anal Fissure에 듣는다 — 신규 항목(diltiazem-anal-fissure-open)  <!-- 등록 시험 7건 -->
+- [x] diltiazem — Stable Angina에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] probenecid — Interaction에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 6건 -->
+- [x] probenecid — Cytomegalovirus Retinitis에 듣는다 — 신규 항목(probenecid-cytomegalovirus-retinitis-open)  <!-- 등록 시험 5건 -->
+- [x] probenecid — Diabetes에 듣는다 — 신규 항목(probenecid-diabetes-open)  <!-- 등록 시험 4건 -->
+- [x] probenecid — Obesity에 듣는다 — 신규 항목(probenecid-obesity-open)  <!-- 등록 시험 3건 -->
+- [x] indomethacin — Patent Ductus Arteriosus에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
 - [ ] indomethacin — Preterm Labor에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] indomethacin — Pain에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] indomethacin — Carcinoma In Situ에 듣는다  <!-- 등록 시험 6건 -->
