@@ -4,43 +4,33 @@
   "entries": 563,
   "worklist": {
     "checked": 3793,
-    "unchecked": 85,
+    "unchecked": 75,
     "no_evidence_pending": 0,
     "next_batch": [
-      "prednisone-leukemia",
-      "prednisone-myeloma",
-      "prednisone-kidney-diseases",
-      "warfarin-thromboembolism",
-      "warfarin-heart-defect",
-      "warfarin-embolism",
-      "warfarin-thrombosis",
-      "omeprazole-hiv-1-infection",
-      "omeprazole-ulcer",
-      "omeprazole-gastric-acid",
-      "sirolimus-renal-cell-cancer",
-      "sirolimus-stenosis-artery",
-      "sirolimus-kidney-cancer",
-      "rapamycin-urothelial-carcinoma",
-      "rapamycin-aging",
-      "rapamycin-heart-diseases",
-      "rapamycin-tuberous-sclerosis",
-      "montelukast-rhinitis",
-      "montelukast-bronchiolitis",
-      "montelukast-multiple-myeloma"
+      "montelukast-lung-diseases",
+      "atorvastatin-coronary-disease",
+      "atorvastatin-dyslipidemia",
+      "atorvastatin-diabetes",
+      "atorvastatin-cancer",
+      "losartan-cancer",
+      "losartan-nephropathy",
+      "losartan-diabetes",
+      "losartan-fibrosis",
+      "verapamil-atrial-fibrillation"
     ]
   },
-  "last_batch": [
-    "aspirin-colon-cancer-null (existing)",
-    "aspirin-brain-infarction-pos (existing)",
-    "aspirin-cardiovascular-events-approved",
-    "propranolol-migraine-approved",
-    "propranolol-stress-reaction-null (existing)",
-    "propranolol-ovarian-carcinoma-pos (existing)",
-    "propranolol-cirrhosis-open (existing)",
-    "naltrexone-alcoholism-approved",
-    "naltrexone-marijuana-use-pos (existing)",
-    "naltrexone-obesity-null (existing)"
-  ],
+    "last_batch": [
+      "sirolimus-renal-cell-cancer-open (existing)",
+      "sirolimus-stenosis-artery-pos (existing)",
+      "sirolimus-kidney-cancer-open (existing)",
+      "rapamycin-urothelial-carcinoma-open (existing)",
+      "rapamycin-aging-open (existing)",
+      "rapamycin-heart-diseases-pos (existing)",
+      "rapamycin-tuberous-sclerosis-pos (existing)",
+      "montelukast-rhinitis-approved",
+      "montelukast-bronchiolitis-null (existing)",
+      "montelukast-multiple-myeloma (existing)"
+    ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
@@ -62,8 +52,8 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "resume": {
-    "last_committed_batch": "memantine, lithium, pentoxifylline, sirolimus",
-    "current_batch": "memantine, lithium, pentoxifylline, sirolimus",
+    "last_committed_batch": "sirolimus, rapamycin, montelukast",
+    "current_batch": "sirolimus, rapamycin, montelukast",
     "next_action": "build, commit, push, then process next batch"
   }
 }
