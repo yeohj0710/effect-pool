@@ -2590,16 +2590,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> — 허가 적응증(2026-08-04)
 - [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(raloxifene-schizophrenia)
-- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 -->
+- [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(raloxifene-schizoaffective-disorder-null)
+- [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(raloxifene-schizophreniform-disorder-open)
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> — 허가 적응증(2026-08-04)
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> — 허가 적응증(2026-08-04)
+- [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(allopurinol-hyperuricemia-null)
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> — 허가 적응증(2026-08-04)
+- [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(n-acetylcysteine-kidney-disease-null)
+- [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)
+- [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(n-acetylcysteine-oxidative-stress)
+- [x] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(n-acetylcysteine-cocaine-dependence-null)
 - [ ] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] creatine — Sarcopenia에 듣는다  <!-- 등록 시험 13건 -->
