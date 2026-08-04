@@ -243,6 +243,27 @@ DOI가 없는 옛 논문은 `pmc`나 `pmid`만 적으면 된다. 없는 DOI를 �
 줄 끝에 `— 근거 없음(YYYY-MM-DD 조회, 검색어)`을 붙인다. 검색어까지 남겨야
 다음 세션이 같은 검색을 반복하지 않고 다른 각도로 판다.
 
+### 자동 추출된 주제를 다룰 때
+
+`## 자동 추출` 아래 줄들은 `tools/expand-worklist.mjs`가 ClinicalTrials.gov에서 뽑은 후보다.
+질환명이 영문이고 **허가 적응증이 섞여 있다.**
+
+시험 수로는 허가 여부를 못 가린다. 이미 허가된 적응증은 오히려 새 시험을 안 하기 때문이다.
+그래서 조사 첫 단계에서 **허가사항을 먼저 확인해라.**
+
+- 허가 안에 있는 조합이면 항목을 만들지 마라. 줄 끝에 `— 허가 적응증(YYYY-MM-DD)`을 붙이고 넘어간다
+- 허가 밖이면 평소대로 조사한다. `claim`은 한국어로 다시 쓴다
+  (`metformin — Colon Cancer에 듣는다` → `당뇨약이 대장암에도 듣는다`)
+
+### 주제가 떨어지면
+
+```bash
+node tools/expand-worklist.mjs --write            # 내장 물질 목록
+node tools/expand-worklist.mjs sertraline --write # 물질을 직접 지정
+```
+
+이미 worklist나 `data/entries/`에 있는 조합은 알아서 빠진다. 주제를 손으로 지어내지 마라.
+
 ### 배치 끝나고 매번 확인할 것
 
 - [ ] 새 항목 전부 `queried`가 채워져 있나
