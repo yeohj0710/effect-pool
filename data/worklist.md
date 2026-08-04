@@ -4674,16 +4674,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] botulinum toxin — Fine Lines에 듣는다  <!-- 등록 시험 42건 --> — 허가 적응증(2026-08-04)
 - [x] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 등록 시험 34건 --> — 허가 적응증(2026-08-04)
 - [x] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 --> — 허가 적응증(2026-08-04)
-- [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 -->
+- [x] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 --> — 허가 적응증(2026-08-04)
+- [x] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(duloxetine-knee-osteoarthritis)
+- [x] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 --> — 허가 적응증(2026-08-04)
+- [x] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dextromethorphan-pain)
+- [x] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(dextromethorphan-solid-tumor-null)
+- [x] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(dextromethorphan-alzheimer)
+- [x] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(dextromethorphan-bupropion-depression)
+- [x] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(clonidine-opioid-use)
+- [x] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
+- [x] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(clonidine-osteoarthritis-null)
 - [ ] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
 - [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
