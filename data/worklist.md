@@ -1434,3 +1434,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
 - [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
 - [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 -->
+- [ ] fluoxetine — Social Anxiety에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] fluoxetine — Stroke에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] pioglitazone — Insulin Resistance에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] pioglitazone — Liver에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] pioglitazone — Lung Cancer에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] pioglitazone — Metabolic Syndrome에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] celecoxib — Pain에 듣는다  <!-- 등록 시험 73건 -->
+- [ ] celecoxib — Osteoarthritis에 듣는다  <!-- 등록 시험 65건 -->
+- [ ] celecoxib — Colon Carcinoma에 듣는다  <!-- 등록 시험 62건 -->
+- [ ] celecoxib — COVID-19에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] metoprolol — Heart Rate에 듣는다  <!-- 등록 시험 38건 -->
+- [ ] metoprolol — Atrial Flutter에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] metoprolol — Myocardial Ischemia에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] metoprolol — Cardiomyopathy에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] amlodipine — Diabetes에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] amlodipine — Hyperlipidemia에 듣는다  <!-- 등록 시험 12건 -->
