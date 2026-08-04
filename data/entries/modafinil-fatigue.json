@@ -1,0 +1,35 @@
+{
+  "id": "modafinil-fatigue",
+  "subj": "모다피닐",
+  "claim": "모다피닐이 피로에 듣는다",
+  "line": "항암치료 중 심한 피로는 개선했지만 가벼운 피로에는 효과가 없었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 867,
+  "synth": "single",
+  "why": "항암치료 중인 환자의 암 관련 피로를 모다피닐과 위약으로 비교한 대규모 무작위시험을 확인했습니다.",
+  "saw": "867명이 무작위 배정된 시험에서 심한 피로 하위군은 개선했지만 가볍거나 중간 정도 피로군은 유의한 효과가 없었습니다.",
+  "limit": "암 환자의 항암치료 관련 피로이며 피로 원인 전체나 장기 기능 회복으로 일반화할 수 없습니다. 효과는 기저 피로가 심한 하위군에 국한됐습니다.",
+  "against": "반대 검색 314건을 확인했습니다. 같은 시험에서 가볍거나 중간 정도 피로에는 효과가 없었고 우울 증상도 유의하게 바뀌지 않았습니다.",
+  "use": "피로 전체의 치료제로 표시하지 말고, 항암치료 중 심한 피로 하위군에서만 나온 제한된 신호로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Jean-Pierre 2010 · Cancer · 항암치료 관련 피로 모다피닐 3상 무작위시험",
+      "doi": "10.1002/cncr.25083",
+      "pmid": "20564068"
+    },
+    {
+      "label": "Spathis 2023 · BMJ Supportive & Palliative Care · 암 관련 피로 약물 네트워크 메타분석",
+      "doi": "10.1136/bmjspcare-2021-003244",
+      "pmid": "34593386"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:MODAFINIL → 35건; 허가 문구는 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림이며 일반 피로 적응증 없음",
+    "ctgov": "query.intr=modafinil&query.cond=Fatigue&countTotal=true&pageSize=50 → 49건 반환, InterventionName 대조 후 modafinil 일치 46건",
+    "pubmed": "modafinil AND Fatigue → 395건",
+    "negative": "modafinil AND Fatigue AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 314건",
+    "safety": "modafinil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 855건"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "modafinil-schizophrenia",
+  "subj": "모다피닐",
+  "claim": "모다피닐이 조현병에 듣는다",
+  "line": "조현병·조현정동장애의 정신증상·인지에는 효과가 없고 파킨슨증만 개선했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 24,
+  "synth": "single",
+  "why": "항정신병약을 복용 중인 조현병·조현정동장애 환자에서 모다피닐 보조요법을 위약과 비교한 무작위시험을 확인했습니다.",
+  "saw": "24명이 무작위 배정된 시험에서 정신증상·졸림·인지 점수는 위약과 차이가 없었고 항정신병약 유발 파킨슨증만 개선됐습니다.",
+  "limit": "표본이 작고 조현병과 조현정동장애가 섞인 보조요법 시험입니다. 조현병의 핵심 증상이나 장기 기능 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 95건을 확인했습니다. 같은 연구와 관련 리뷰에서도 정신증상·인지 개선은 확인되지 않았고 더 큰 장기시험이 필요하다고 했습니다.",
+  "use": "조현병의 정신증상 치료제로 표시하지 말고, 작은 보조시험에서 파킨슨증만 개선되고 핵심 증상은 바뀌지 않은 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Makela 2013 · Schizophrenia Research · 조현병·조현정동장애 모다피닐 보조 무작위 위약대조시험",
+      "doi": "10.1016/j.schres.2013.07.039",
+      "pmid": "23938173"
+    },
+    {
+      "label": "Sevy 2009 · Journal of Clinical Psychiatry · 조현병 모다피닐 보조요법 비판적 검토",
+      "doi": "10.4088/jcp.07r03982",
+      "pmid": "19026265"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:MODAFINIL → 35건; 허가 문구는 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림이며 조현병 적응증 없음",
+    "ctgov": "query.intr=modafinil&query.cond=Schizophrenia&countTotal=true&pageSize=50 → 14건 반환, InterventionName 대조 후 modafinil 일치 14건",
+    "pubmed": "modafinil AND Schizophrenia → 106건",
+    "negative": "modafinil AND Schizophrenia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 95건",
+    "safety": "modafinil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 855건"
+  }
+}

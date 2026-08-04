@@ -202,7 +202,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
+- [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 40건 -->
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
 - [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 22건 -->
@@ -5393,16 +5393,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] buspirone — Autism에 듣는다  <!-- 등록 시험 6건 -->
 - [x] buspirone — Depression에 듣는다  <!-- 등록 시험 5건 -->
 - [x] buspirone — Heroin Dependence에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 -->
+- [x] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
+- [x] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 --> — 허가 적응증(2026-08-04)
+- [x] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
+- [x] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> — 허가 적응증(2026-08-04)
+- [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
+- [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
+- [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
+- [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> — 허가 적응증(2026-08-04)
 - [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
 - [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 -->
 

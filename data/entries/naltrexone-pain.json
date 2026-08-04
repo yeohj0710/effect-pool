@@ -1,0 +1,36 @@
+{
+  "id": "naltrexone-pain",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 통증에 듣는다",
+  "line": "섬유근육통 통증은 위약보다 줄이지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 99,
+  "synth": "single",
+  "why": "섬유근육통 여성에서 저용량 날트렉손과 위약을 비교한 이중눈가림 무작위시험을 확인했습니다.",
+  "saw": "99명이 무작위 배정된 시험에서 12주 통증 변화는 날트렉손과 위약 사이에 유의한 차이가 없었습니다.",
+  "limit": "섬유근육통 여성의 단일 연구이며 일반 통증·신경병증성 통증·장기 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 1,545건을 확인했습니다. 해당 시험은 통증 우월성을 확인하지 못했고 이상반응 중단도 날트렉손군과 위약군에서 비슷했습니다.",
+  "use": "통증 치료제로 확립됐다고 표시하지 말고, 섬유근육통에서 위약보다 우월하지 않았던 직접시험으로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Due Bruun 2024 · Lancet Rheumatology · 섬유근육통 날트렉손 위약대조시험",
+      "doi": "10.1016/S2665-9913(23)00278-3",
+      "pmid": "38258677",
+      "nct": "NCT04270877"
+    },
+    {
+      "label": "Younger 2013 · Arthritis & Rheumatology · 섬유근육통 날트렉손 소규모 교차시험",
+      "doi": "10.1002/art.37734",
+      "pmid": "23359310"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:NALTREXONE → 46건; 허가 문구는 알코올 의존과 외인성 오피오이드 효과 차단이며 통증 적응증 없음",
+    "ctgov": "query.intr=naltrexone&query.cond=Pain&countTotal=true&pageSize=50 → 45건 반환, InterventionName 대조 후 naltrexone 일치 32건",
+    "pubmed": "naltrexone AND Pain → 1,828건",
+    "negative": "naltrexone AND Pain AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1,545건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 3,100건"
+  }
+}

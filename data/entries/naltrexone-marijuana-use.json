@@ -1,0 +1,30 @@
+{
+  "id": "naltrexone-marijuana-use",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 대마 사용에 듣는다",
+  "line": "매일 대마를 피우는 사람의 자가사용은 줄였지만 치료 효과는 확인되지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 49,
+  "synth": "single",
+  "why": "매일 대마를 피우는 비치료 대상자에서 날트렉손과 위약이 대마의 강화 효과와 자가사용에 미치는 영향을 비교했습니다.",
+  "saw": "49명이 무작위 배정된 실험실 연구에서 날트렉손은 위약보다 대마 자가사용과 긍정적 주관 효과를 줄였습니다.",
+  "limit": "치료를 원하지 않는 일일 대마 사용자 대상의 실험실 연구이며 대마사용장애의 금단·재발·장기 치료 결과가 아닙니다.",
+  "against": "반대 검색 28건을 확인했습니다. 해당 연구도 치료 의지가 있는 대마사용장애 환자에서의 효능을 확인하려면 임상시험이 필요하다고 했습니다.",
+  "use": "대마사용장애의 확립된 치료제로 표시하지 말고, 비치료 대상자의 실험적 자가사용 억제 신호로 한정해 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Haney 2015 · Neuropsychopharmacology · 일일 대마 사용자 날트렉손 실험실 무작위시험",
+      "doi": "10.1038/npp.2015.108",
+      "pmid": "25881117"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:NALTREXONE → 46건; 허가 문구는 알코올 의존과 외인성 오피오이드 효과 차단이며 대마 사용 적응증 없음",
+    "ctgov": "query.intr=naltrexone&query.cond=Marijuana%20Use&countTotal=true&pageSize=50 → 5건 반환, InterventionName 대조 후 naltrexone 일치 4건",
+    "pubmed": "naltrexone AND Marijuana Use → 38건",
+    "negative": "naltrexone AND Marijuana Use AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 28건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 3,100건"
+  }
+}

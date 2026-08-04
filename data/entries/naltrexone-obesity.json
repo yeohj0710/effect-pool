@@ -1,0 +1,36 @@
+{
+  "id": "naltrexone-obesity",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 비만에 듣는다",
+  "line": "부프로피온 병용은 체중을 줄였지만 날트렉손 단독 효과는 아닙니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1742,
+  "synth": "single",
+  "why": "비만 성인에서 날트렉손·부프로피온 복합요법과 위약을 비교한 3상 무작위시험을 확인했습니다.",
+  "saw": "1,742명이 무작위 배정된 시험에서 날트렉손·부프로피온 복합요법은 위약보다 체중을 줄였지만 두 물질의 단독 효과를 분리하지 않았습니다.",
+  "limit": "날트렉손 단독시험이 아니라 부프로피온과의 고정 복합요법이며 식사·운동 지도가 함께 제공됐습니다. 복합제 결과를 날트렉손 단독 효과로 읽을 수 없습니다.",
+  "against": "반대 검색 464건을 확인했습니다. 비만 약물 네트워크 메타분석에서도 체중 감소는 날트렉손·부프로피온 복합요법으로 보고됐고 중단을 부르는 이상반응이 늘었습니다.",
+  "use": "날트렉손 단독 비만 치료제로 표시하지 말고, 부프로피온 병용 복합요법의 체중 감소 근거로만 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Greenway 2010 · Lancet · 날트렉손·부프로피온 비만 3상 무작위시험",
+      "doi": "10.1016/S0140-6736(10)60888-4",
+      "pmid": "20673995",
+      "nct": "NCT00532779"
+    },
+    {
+      "label": "Shi 2024 · Lancet · 성인 과체중·비만 약물 네트워크 메타분석",
+      "doi": "10.1016/S0140-6736(24)00351-9",
+      "pmid": "38582569"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:NALTREXONE → 46건; 허가 문구는 알코올 의존과 외인성 오피오이드 효과 차단이며 비만 적응증 없음",
+    "ctgov": "query.intr=naltrexone&query.cond=Obesity&countTotal=true&pageSize=50 → 56건 반환, InterventionName 대조 후 naltrexone 일치 34건",
+    "pubmed": "naltrexone AND Obesity → 582건",
+    "negative": "naltrexone AND Obesity AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 464건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 3,100건"
+  }
+}
