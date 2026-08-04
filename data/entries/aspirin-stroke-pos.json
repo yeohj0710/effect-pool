@@ -1,0 +1,32 @@
+{
+  "id": "aspirin-stroke-pos",
+  "subj": "아스피린",
+  "claim": "아스피린을 뇌졸중 재발 예방에 쓴다",
+  "line": "혈관질환 환자의 뇌졸중 재발을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 17000,
+  "synth": "meta",
+  "why": "혈관질환 고위험군의 아스피린 무작위시험 16편을 합친 개별 환자자료 메타분석에서 뇌졸중 재발을 평가했습니다.",
+  "saw": "2차 예방시험 16편 약 17,000명에서 아스피린은 전체 뇌졸중을 연간 2.54%에서 2.08%로 줄였고 중대한 혈관 사건도 낮췄습니다.",
+  "limit": "2차 예방 결과를 뇌졸중 급성치료나 1차 예방에 그대로 적용할 수 없습니다. 출혈성 뇌졸중과 주요 출혈 위험을 함께 봐야 합니다.",
+  "against": "1차 예방시험에서는 뇌졸중 감소가 유의하지 않았고 주요 위장관·두개외 출혈은 늘었습니다.",
+  "use": "혈관질환 환자의 뇌졸중 재발 예방에는 효과 신호가 있지만, 이전 뇌졸중 여부와 출혈 위험을 나눠 판단해야 합니다.",
+  "refs": [
+    {
+      "label": "2009 · 아스피린 1차·2차 혈관질환 예방 개별자료 메타분석",
+      "pmid": "19482214"
+    },
+    {
+      "label": "2023 · 2차 뇌졸중 예방 항혈소판제 메타분석",
+      "pmid": "35619249"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=aspirin&query.cond=Stroke → 334건 반환, InterventionName에 aspirin 포함 51건",
+    "pubmed": "aspirin Stroke → 10,499건",
+    "negative": "aspirin Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) → 6,655건",
+    "safety": "aspirin Stroke AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,614건"
+  }
+}

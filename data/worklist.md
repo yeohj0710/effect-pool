@@ -423,11 +423,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] methylphenidate — ADHD에 듣는다  <!-- 등록 시험 56건 --> — 허가 적응증(2026-08-04)
 - [x] methylphenidate — Cocaine Dependence에 듣는다  <!-- 등록 시험 18건 -->
 - [x] methylphenidate — Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] methylphenidate — Fatigue에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] ruxolitinib — Leukemia에 듣는다  <!-- 등록 시험 122건 -->
-- [ ] ruxolitinib — Cancer에 듣는다  <!-- 등록 시험 65건 -->
-- [ ] ruxolitinib — Lymphoma에 듣는다  <!-- 등록 시험 64건 -->
-- [ ] ruxolitinib — Graft Failure에 듣는다  <!-- 등록 시험 41건 -->
+- [x] methylphenidate — Fatigue에 듣는다  <!-- 등록 시험 16건 -->
+- [x] ruxolitinib — Leukemia에 듣는다  <!-- 등록 시험 122건 -->
+- [x] ruxolitinib — Cancer에 듣는다  <!-- 등록 시험 65건 -->
+- [x] ruxolitinib — Lymphoma에 듣는다  <!-- 등록 시험 64건 -->
+- [x] ruxolitinib — Graft Failure에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -438,11 +438,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Colon Cancer에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 41건 -->
+- [x] metformin — Colon Cancer에 듣는다  <!-- 등록 시험 46건 -->
+- [x] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
+- [x] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
+- [x] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
+- [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 41건 -->
 - [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 38건 -->
 - [ ] aspirin — Cancer에 듣는다  <!-- 등록 시험 33건 -->
 - [ ] aspirin — Cardiovascular Disease에 듣는다  <!-- 등록 시험 24건 -->

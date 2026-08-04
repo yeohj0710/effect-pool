@@ -1,0 +1,32 @@
+{
+  "id": "ruxolitinib-leukemia-pos",
+  "subj": "루복시티닙",
+  "claim": "루복시티닙을 급성림프모구성백혈병에 쓴다",
+  "line": "필라델피아 유사 급성림프모구성백혈병에서 일부 관해를 보였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 13,
+  "synth": "meta",
+  "why": "필라델피아 유사 급성림프모구성백혈병에서 루복시티닙을 추가한 환자 보고와 소아 등록자료를 합친 체계적 문헌고찰입니다.",
+  "saw": "문헌고찰에서 PubMed 12명과 소아 등록자료 1명을 확인했고, 보고된 9명 중 완전관해 7명과 부분관해 2명이 있었습니다. 모든 환자는 유도치료 실패 병력이 있었습니다.",
+  "limit": "무작위 대조시험이 아니라 소수 환자 보고와 등록자료를 합친 분석이며, 일부 환자의 결과가 없었습니다. 표적 유전자 이상이 있는 고위험군에 한정됩니다.",
+  "against": "찾아봤지만 대규모 무작위시험은 확인하지 못했습니다. 관해가 보고되지 않은 환자와 결과 미상 환자도 있었습니다.",
+  "use": "필라델피아 유사 급성림프모구성백혈병의 특정 JAK-STAT 이상군에서 신호가 있지만 표준 치료로 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "2022 · 필라델피아 유사 급성림프모구성백혈병 루복시티닙 체계적 문헌고찰",
+      "pmid": "35939887"
+    },
+    {
+      "label": "2011 · 백혈병에서 루복시티닙 가능성 고찰",
+      "pmid": "21635221"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=ruxolitinib&query.cond=Leukemia → 78건 반환, InterventionName에 ruxolitinib 포함 69건",
+    "pubmed": "ruxolitinib Leukemia → 818건",
+    "negative": "ruxolitinib Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 531건",
+    "safety": "ruxolitinib Leukemia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 346건"
+  }
+}
