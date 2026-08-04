@@ -4644,16 +4644,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 --> — 기존 항목(ivermectin-covid19-null)
 - [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(ivermectin-sars-cov-infection-null)
 - [x] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(ivermectin-scabies)
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 등록 시험 74건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(ivermectin-lymphatic-filariasis)
+- [x] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 --> — 기존 항목(hydroxychloroquine-cancer-null)
+- [x] hydroxychloroquine — Coronavirus에 듣는다  <!-- 등록 시험 74건 --> — 기존 항목(hydroxychloroquine-coronavirus-null)
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 42건 --> — 기존 항목(hydroxychloroquine-sars-cov2-null)
+- [x] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 --> — 기존 항목(hydroxychloroquine-covid19-null)
+- [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(valacyclovir-hiv-null)
+- [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(valacyclovir-cancer)
+- [x] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(valacyclovir-infection-null)
+- [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(valacyclovir-malignant-glioma-open)
+- [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(minoxidil-ovarian-cancer-lab)
 - [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
