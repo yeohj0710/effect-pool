@@ -2097,16 +2097,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] azithromycin — Infection에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] azithromycin — Pneumonia에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] azithromycin — COVID에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] azithromycin — Malaria에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] rifaximin — Hepatic Cirrhosis에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] rifaximin — Small Bowel Disease에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] rifaximin — Rectal Cancer에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] rifaximin — Diarrhea에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] clomiphene — Polycystic Ovary에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] clomiphene — Hypogonadism에 듣는다  <!-- 등록 시험 11건 -->
+- [x] azithromycin — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 46건 -->
+- [x] azithromycin — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 45건 -->
+- [x] azithromycin — COVID에 듣는다 — 신규 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
+- [x] azithromycin — Malaria에 듣는다 — 신규 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->
+- [x] rifaximin — Hepatic Cirrhosis에 듣는다 — 신규 항목(rifaximin-hepatic-cirrhosis-open)  <!-- 등록 시험 40건 -->
+- [x] rifaximin — Small Bowel Disease에 듣는다 — 신규 항목(rifaximin-small-bowel-disease-open)  <!-- 등록 시험 28건 -->
+- [x] rifaximin — Rectal Cancer에 듣는다 — 신규 항목(rifaximin-rectal-cancer-open)  <!-- 등록 시험 23건 -->
+- [x] rifaximin — Diarrhea에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
+- [x] clomiphene — Polycystic Ovary에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
+- [x] clomiphene — Hypogonadism에 듣는다 — 신규 항목(clomiphene-hypogonadism-open)  <!-- 등록 시험 11건 -->
 - [ ] clomiphene — Anovulation에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] clomiphene — Ovulation Disorder에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
