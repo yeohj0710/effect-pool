@@ -335,16 +335,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
 - [x] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
 - [x] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 --> — 허가 적응증(2026-08-04)
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 --> — 허가 적응증(2026-08-04)
+- [x] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 --> — 허가 적응증(2026-08-04)
+- [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 --> — 허가 적응증(2026-08-04)
+- [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> — 허가 적응증(2026-08-04)
+- [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
+- [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> — 허가 적응증(2026-08-04)
+- [x] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> — 허가 적응증(2026-08-04)
+- [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
