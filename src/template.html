@@ -584,6 +584,7 @@ function paint(){
   }
 
   groupsEl.innerHTML = '';
+  groupsEl.dataset.view = view;
   (view === 'subj' ? bySubject(hits) : byTier(hits)).forEach(drawGroup);
 }
 
