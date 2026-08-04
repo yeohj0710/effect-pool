@@ -1,34 +1,30 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 236,
+  "entries": 241,
   "worklist": {
-    "checked": 318,
-    "unchecked": 25,
-    "no_evidence_pending": 2,
+    "checked": 328,
+    "unchecked": 15,
+    "no_evidence_pending": 0,
     "next_batch": [
-      "lithium — Tooth Loss",
-      "rapamycin — Malignant Melanoma",
-      "tamoxifen — BRCA Mutation",
-      "tamoxifen — Brain Tumor",
-      "tamoxifen — Ductal Carcinoma",
-      "raloxifene — Breast Cancer",
-      "raloxifene — Schizophrenia",
-      "raloxifene — Schizoaffective Disorder",
-      "raloxifene — Schizophreniform Disorder",
-      "allopurinol — Gout"
+      "allopurinol — Lymphoma",
+      "allopurinol — Hyperuricemia",
+      "allopurinol — Kidney Stones",
+      "n-acetylcysteine — Kidney Disease",
+      "n-acetylcysteine — Pulmonary Fibrosis",
+      "n-acetylcysteine — Oxidative Stress",
+      "n-acetylcysteine — Cocaine Dependence",
+      "creatine — Muscle",
+      "creatine — Major Depressive Disorder",
+      "creatine — Sarcopenia"
     ]
   },
   "last_batch": [
-    "hydroxyurea-hiv-infection-null",
-    "tranexamic-acid-hemorrhage-null",
-    "tranexamic-acid-bleeding",
-    "tranexamic-acid-hip-fracture",
-    "tranexamic-acid-surgery",
-    "isotretinoin-lymphoma-t-cell",
-    "isotretinoin-lung-cancer-harm",
-    "isotretinoin-leukemia-open",
-    "tamoxifen-solid-tumor-null"
+    "tamoxifen-brca-mutation-open",
+    "tamoxifen-brain-tumor-null",
+    "raloxifene-schizophrenia",
+    "raloxifene-schizoaffective-disorder-null",
+    "raloxifene-schizophreniform-disorder-open"
   ],
   "verification": {
     "build": "passed",
@@ -40,8 +36,8 @@
     "deployment_id": "dpl_AY4JC8D1dks5brFeSJXjXA8xiLEs"
   },
   "resume": {
-    "last_committed_batch": "8c95f3f",
+    "last_committed_batch": "c13292a",
     "current_batch": "committed and pushed",
-    "next_action": "select and process next_batch"
+    "next_action": "expand worklist because unchecked is below 20, then select and process next_batch"
   }
 }
