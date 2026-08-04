@@ -1,0 +1,39 @@
+{
+  "id": "melatonin-pain-null",
+  "subj": "멜라토닌",
+  "claim": "수면 호르몬을 통증에 쓴다",
+  "line": "만성 근골격계 통증에서 위약보다 효과가 뚜렷하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 2028,
+  "synth": "meta",
+  "why": "멜라토닌을 위약 또는 활성 대조군과 비교한 근골격계 통증 무작위시험 23편의 메타분석입니다.",
+  "saw": "2,028명 분석에서 만성 근골격계 통증은 위약보다 통증을 유의하게 줄이지 못했고, 수술 뒤 통증에서는 위약보다 나았습니다. 효과 크기는 대체로 임상적으로 작은 범위였습니다.",
+  "limit": "만성 통증과 수술 뒤 통증이 섞였고 연구의 확실성은 낮거나 중간 수준이었습니다. 수면 개선이 통증 개선으로 이어지는지도 일관되지 않았습니다.",
+  "against": "수면을 돕는 약 3종을 합친 10개 무작위시험 574명 메타분석에서는 통증이 줄었고 멜라토닌 시험에서 신호가 더 일관됐지만 근거의 질은 낮았습니다. 수술 전후 검토에서는 진통 결과가 엇갈렸습니다.",
+  "use": "멜라토닌을 만성 통증의 기본 치료로 보기보다 통증 유형과 수면 문제를 함께 평가하는 보조 연구 대상으로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Liu 2026 · Pain · 근골격계 통증 멜라토닌 메타분석",
+      "doi": "10.1097/j.pain.0000000000004045",
+      "pmid": "42378431"
+    },
+    {
+      "label": "Seyffert 2023 · Pain Reports · 수면 촉진 약물 통증 메타분석",
+      "doi": "10.1097/PR9.0000000000001061",
+      "pmid": "36699991",
+      "pmc": "PMC9829257"
+    },
+    {
+      "label": "Naguib 2010 · Anesthesiology · 수술 전후 멜라토닌 검토",
+      "pmid": "20823763"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=melatonin, cond=Pain → 52건 반환, InterventionName 대조 후 47건",
+    "pubmed": "melatonin pain → 1,022건",
+    "negative": "melatonin pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 782건",
+    "safety": "melatonin pain AND (adverse OR toxicity OR hepatotoxicity OR nephrotoxicity OR case report OR self-medication) → 260건"
+  }
+}
