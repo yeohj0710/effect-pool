@@ -1,0 +1,38 @@
+{
+  "id": "hydroxychloroquine-sars-cov2-null",
+  "subj": "하이드록시클로로퀸",
+  "claim": "하이드록시클로로퀸이 SARS-CoV-2 감염을 예방·치료한다",
+  "line": "SARS-CoV-2 감염 입원 환자의 사망률을 낮추지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4716,
+  "synth": "single",
+  "why": "하이드록시클로로퀸의 허가사항에 SARS-CoV-2 감염 예방이나 치료는 포함되지 않습니다.",
+  "saw": "PMID33031652의 COVID-19 입원 환자 4,716명 무작위시험에서 하이드록시클로로퀸은 일반 치료보다 28일 사망률을 낮추지 못했습니다.",
+  "limit": "입원 치료 결과를 중심으로 한 시험이라 감염 전 예방과 초기 외래 치료의 효과를 모두 판단하지 못합니다.",
+  "against": "반대 검색 88건. 초기 연구는 예방 가능성을 제시했지만, PMID33001138의 의료진 132명 무작위시험에서 SARS-CoV-2 감염 예방 효과가 없었고 경미한 이상반응은 더 흔했습니다.",
+  "use": "SARS-CoV-2 감염의 예방이나 입원 환자 사망 감소 목적으로 사용할 근거가 없습니다.",
+  "refs": [
+    {
+      "label": "New England Journal of Medicine 2020 · COVID-19 입원 환자 하이드록시클로로퀸 무작위시험",
+      "doi": "10.1056/NEJMoa2022926",
+      "pmid": "33031652",
+      "pmc": "PMC7556338"
+    },
+    {
+      "label": "JAMA Internal Medicine 2021 · 의료진 SARS-CoV-2 노출 전 예방 무작위시험",
+      "doi": "10.1001/jamainternmed.2020.6319",
+      "pmid": "33001138",
+      "pmc": "PMC7527945",
+      "nct": "NCT04329923"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"HYDROXYCHLOROQUINE\" · 50건",
+    "ctgov": "query.intr=hydroxychloroquine&query.cond=Sars-CoV2 · 150건, 반환 100건, InterventionName에 hydroxychloroquine 포함 77건",
+    "pubmed": "hydroxychloroquine Sars-CoV2 · 137건",
+    "negative": "hydroxychloroquine Sars-CoV2 (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 88건",
+    "safety": "hydroxychloroquine Sars-CoV2 (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 45건"
+  }
+}
