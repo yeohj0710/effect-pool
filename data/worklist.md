@@ -2057,14 +2057,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mepolizumab — Churg-Strauss Syndrome에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
 - [x] omalizumab — Urticaria에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
 - [x] omalizumab — Allergy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
-- [ ] omalizumab — Rhinitis에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] omalizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] tezepelumab — COPD에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] tezepelumab — Chronic Rhinosinusitis With Nasal Polyps에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] benralizumab — Eosinophilic Gastritis에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] benralizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] benralizumab — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] benralizumab — Hypereosinophilia에 듣는다  <!-- 등록 시험 3건 -->
+- [x] omalizumab — Rhinitis에 듣는다 — 신규 항목(omalizumab-rhinitis-open)  <!-- 등록 시험 14건 -->
+- [x] omalizumab — Nasal Polyps에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] tezepelumab — COPD에 듣는다 — 신규 항목(tezepelumab-copd-null)  <!-- 등록 시험 7건 -->
+- [x] tezepelumab — Chronic Rhinosinusitis With Nasal Polyps에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] benralizumab — Eosinophilic Gastritis에 듣는다 — 신규 항목(benralizumab-eosinophilic-gastritis-null)  <!-- 등록 시험 11건 -->
+- [x] benralizumab — Nasal Polyps에 듣는다 — 신규 항목(benralizumab-nasal-polyps-null)  <!-- 등록 시험 7건 -->
+- [x] benralizumab — Chronic Obstructive Pulmonary Disease에 듣는다 — 신규 항목(benralizumab-copd-null)  <!-- 등록 시험 7건 -->
+- [x] benralizumab — Hypereosinophilia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 3건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2075,8 +2075,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] lebrikizumab — Asthma에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] lebrikizumab — Eczema에 듣는다  <!-- 등록 시험 7건 -->
+- [x] lebrikizumab — Asthma에 듣는다 — 신규 항목(lebrikizumab-asthma-null)  <!-- 등록 시험 12건 -->
+- [x] lebrikizumab — Eczema에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
 - [ ] tralokinumab — Asthma에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] reslizumab — Eosinophilic Bronchitis에 듣는다  <!-- 등록 시험 3건 -->
 - [ ] roflumilast — COPD에 듣는다  <!-- 등록 시험 16건 -->
