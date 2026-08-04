@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 359,
+  "entries": 366,
   "worklist": {
-    "checked": 1565,
-    "unchecked": 210,
+    "checked": 1575,
+    "unchecked": 200,
     "no_evidence_pending": 0,
     "next_batch": [
       "propranolol — Cirrhosis",
@@ -20,29 +20,29 @@
     ]
   },
   "last_batch": [
-    "metformin-colon-cancer-open (existing)",
-    "metformin-pcos-open",
-    "metformin-insulin-resistance-open",
-    "metformin-acute-lymphoblastic-leukemia-open",
-    "aspirin-stroke-approved",
-    "aspirin-brain-infarction-approved",
-    "aspirin-cancer-harm",
-    "aspirin-cardiovascular-disease-open",
-    "propranolol-migraine-approved",
-    "propranolol-stress-reaction-null"
+    "propranolol-cirrhosis-open",
+    "propranolol-prostate-carcinoma-null (existing)",
+    "naltrexone-alcoholism-approved",
+    "naltrexone-substance-use-open",
+    "naltrexone-obesity-open",
+    "naltrexone-pain-null (existing)",
+    "gabapentin-cancer-null",
+    "gabapentin-opioid-use-open",
+    "gabapentin-drug-dependence-open",
+    "gabapentin-nausea-null"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 321,
+      "trial": 328,
       "obs": 31,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 150,
+    "no_effect_or_harm": 152,
     "no_effect_or_harm_share": "42%"
   },
   "deployment": {
@@ -52,7 +52,7 @@
   },
   "resume": {
     "last_committed_batch": "87f1e79",
-    "current_batch": "metformin, aspirin, propranolol",
+    "current_batch": "propranolol, naltrexone, gabapentin",
     "next_action": "commit, push, then research next_batch"
   }
 }
