@@ -5321,3 +5321,45 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] oxytocin — Schizophrenia에 듣는다  <!-- 등록 시험 29건 -->
 - [ ] oxytocin — Autism에 듣는다  <!-- 등록 시험 29건 -->
 - [ ] oxytocin — Alcohol Use에 듣는다  <!-- 등록 시험 29건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] fluvoxamine — COVID-19에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] fluvoxamine — Anxiety Disorders에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] fluvoxamine — Covid19에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] paroxetine — Depression에 듣는다  <!-- 등록 시험 39건 -->
+- [ ] paroxetine — Anxiety Disorder에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] paroxetine — Posttraumatic Stress Disorder에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] paroxetine — Panic Disorder에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] escitalopram — Depression에 듣는다  <!-- 등록 시험 112건 -->
+- [ ] escitalopram — Anxiety에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] escitalopram — Cancer에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] escitalopram — Insomnia에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] lurasidone — Bipolar I에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] lurasidone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] lurasidone — Suicidal Ideas에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] lurasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] ziprasidone — Bipolar Mania에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] ziprasidone — Psychotic Disorder에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] ziprasidone — Psychosis에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] olanzapine — Bipolar Disorder에 듣는다  <!-- 등록 시험 59건 -->
+- [ ] olanzapine — Nausea에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] olanzapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] olanzapine — Cancer에 듣는다  <!-- 등록 시험 39건 -->
+- [ ] lidocaine — Anesthesia에 듣는다  <!-- 등록 시험 57건 -->
+- [ ] lidocaine — Surgery에 듣는다  <!-- 등록 시험 21건 -->
+- [ ] lidocaine — Cancer에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] lidocaine — Nerve Block에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] rifampin — HIV에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] rifampin — Healthy Adults에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] rifampin — Lymphoma에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] rifampin — Solid Tumor에 듣는다  <!-- 등록 시험 12건 -->
