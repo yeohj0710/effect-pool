@@ -4028,16 +4028,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clonazepam — REM Sleep Behavior Disorder에 듣는다  <!-- 등록 시험 3건 -->
 - [x] clonazepam — Schizophrenia에 듣는다  <!-- 등록 시험 3건 -->
 - [x] prednisone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 154건 -->
-- [ ] prednisone — Leukemia에 듣는다  <!-- 등록 시험 78건 -->
-- [ ] prednisone — Myeloma에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] prednisone — Kidney Diseases에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 -->
-- [ ] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] omeprazole — HIV-1 Infection에 듣는다  <!-- 등록 시험 73건 -->
-- [ ] omeprazole — Ulcer에 듣는다  <!-- 등록 시험 47건 -->
-- [ ] omeprazole — Gastric Acid에 듣는다  <!-- 등록 시험 33건 -->
+- [x] prednisone — Leukemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 78건 -->
+- [x] prednisone — Myeloma에 듣는다  <!-- 등록 시험 21건 -->
+- [x] prednisone — Kidney Diseases에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] warfarin — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 70건 -->
+- [x] warfarin — Heart Defect에 듣는다 — 기존 항목(warfarin-heart-defect-open)  <!-- 등록 시험 49건 -->
+- [x] warfarin — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 47건 -->
+- [x] warfarin — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 등록 시험 73건 -->
+- [x] omeprazole — Ulcer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 47건 -->
+- [x] omeprazole — Gastric Acid에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 33건 -->
 - [ ] omeprazole — GERD에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] azithromycin — Infection에 듣는다  <!-- 등록 시험 46건 -->
 - [ ] azithromycin — Pneumonia에 듣는다  <!-- 등록 시험 45건 -->

@@ -1,0 +1,36 @@
+{
+  "id": "prednisone-myeloma-open",
+  "subj": "프레드니손",
+  "claim": "다발골수종 병용요법에 포함됩니다",
+  "line": "다발골수종 병용요법에 포함되지만 생존 이득은 불확실합니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 6633,
+  "synth": "meta",
+  "why": "다발골수종 27개 무작위시험의 환자 6633명을 합친 개요에서 멜팔란·프레드니손 병용요법이 비교 기준으로 사용되었습니다.",
+  "saw": "무작위시험 27건과 환자 6633명을 합친 분석에서 다른 병용 화학요법은 멜팔란·프레드니손보다 반응률은 높았지만 사망률 차이는 없었습니다. 프레드니손은 다발골수종 병용요법의 일부로 평가되었습니다.",
+  "limit": "분석은 프레드니손 단독이 아니라 멜팔란과의 병용요법을 비교했으며 오래된 치료 조합을 다뤘습니다. 병용요법의 결과를 프레드니손 단독 효과나 현재 표준치료의 생존 이득으로 해석할 수 없습니다.",
+  "against": "반대 검색에서 prednisone AND Multiple Myeloma AND (no effect OR did not OR failed OR negative OR no significant difference) 255건을 확인했습니다. 주요 메타분석은 병용 화학요법과 멜팔란·프레드니손 사이의 사망률 차이를 확인하지 못했습니다.",
+  "use": "다발골수종에서 허가 적응증으로 표시하지 않으며 다른 항암제와의 병용 근거로만 설명합니다.",
+  "refs": [
+    {
+      "label": "Myeloma Trialists' Collaborative Group 1998 · J Clin Oncol · 다발골수종 무작위시험 27건 개요",
+      "doi": "10.1200/JCO.1998.16.12.3832",
+      "pmid": "9850028"
+    },
+    {
+      "label": "Mateos 2018 · N Engl J Med · 다발골수종 프레드니손 병용요법 무작위시험",
+      "doi": "10.1056/NEJMoa1714678",
+      "pmid": "29231133",
+      "nct": "NCT02195479"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label search=openfda.substance_name:\"PREDNISONE\" · 247건 반환; 적응증 본문에 다발골수종 표기 없음",
+    "ctgov": "query.intr=prednisone&query.cond=Multiple Myeloma&countTotal=true · 94건 반환",
+    "pubmed": "prednisone AND Multiple Myeloma · 1579건 반환",
+    "negative": "prednisone AND Multiple Myeloma AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 255건 반환",
+    "safety": "prednisone AND Multiple Myeloma AND (adverse OR toxicity OR \"case report\") · 641건 반환"
+  }
+}

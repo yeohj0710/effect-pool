@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 561,
+  "entries": 563,
   "worklist": {
-    "checked": 3643,
-    "unchecked": 235,
+    "checked": 3653,
+    "unchecked": 225,
     "no_evidence_pending": 0,
     "next_batch": [
       "prednisone-leukemia",
@@ -16,35 +16,44 @@
       "warfarin-thrombosis",
       "omeprazole-hiv-1-infection",
       "omeprazole-ulcer",
-      "omeprazole-gastric-acid"
+      "omeprazole-gastric-acid",
+      "omeprazole-gerd",
+      "azithromycin-infection",
+      "azithromycin-lung-disease",
+      "azithromycin-pulmonary-disease",
+      "azithromycin-respiratory-tract-infections",
+      "azithromycin-skin-diseases",
+      "azithromycin-tonsillitis",
+      "azithromycin-water",
+      "azithromycin-hiv-1-infection"
     ]
   },
   "last_batch": [
-    "mirtazapine-sleep-pos",
-    "mirtazapine-cancer-null",
-    "mirtazapine-heroin-dependence-null",
-    "pregabalin-fibromyalgia-approved",
-    "pregabalin-neuropathy-approved",
-    "pregabalin-neuralgia-approved",
-    "pregabalin-partial-seizures-approved",
-    "lamotrigine-bipolar-disorder-approved",
-    "lamotrigine-depression-open (existing)",
-    "lamotrigine-vertigo-aural-open (existing)"
+    "prednisone-leukemia-approved",
+    "prednisone-myeloma-open",
+    "prednisone-kidney-diseases-approved",
+    "warfarin-thromboembolism-approved",
+    "warfarin-heart-defect-open (existing)",
+    "warfarin-embolism-approved",
+    "warfarin-thrombosis-approved",
+    "omeprazole-hiv-1-infection-null",
+    "omeprazole-ulcer-approved",
+    "omeprazole-gastric-acid-approved"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 517,
+      "trial": 519,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 222,
+    "no_effect_or_harm": 223,
     "harm": 23,
-    "no_effect_or_harm_share": "39%"
+    "no_effect_or_harm_share": "40%"
   },
   "deployment": {
     "last_entry_count": 554,
@@ -52,8 +61,8 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "resume": {
-    "last_committed_batch": "lamotrigine, carbamazepine, clonazepam, prednisone",
-    "current_batch": "lamotrigine, carbamazepine, clonazepam, prednisone",
+    "last_committed_batch": "prednisone, warfarin, omeprazole",
+    "current_batch": "prednisone, warfarin, omeprazole",
     "next_action": "build, commit, push, then process next batch"
   }
 }
