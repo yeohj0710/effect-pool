@@ -1474,26 +1474,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Colon Cancer에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 38건 -->
-- [ ] aspirin — Cancer에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] aspirin — Cardiovascular Disease에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] propranolol — Prostate Carcinoma에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Substance Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
+- [x] metformin — Colon Cancer에 듣는다 — 기존 항목(metformin-colon-cancer)  <!-- 등록 시험 46건 -->
+- [x] metformin — Polycystic Ovary Syndrom에 듣는다 — 기존 항목(metformin-pcos-ovulation)  <!-- 등록 시험 40건 -->
+- [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 21건 -->
+- [x] metformin — Acute Lymphoblastic Leukemia에 듣는다 — 기존 항목(metformin-acute-lymphoblastic-leukemia-null)  <!-- 등록 시험 19건 -->
+- [x] aspirin — Stroke에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] aspirin — Brain Infarction에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
+- [x] aspirin — Cancer에 듣는다 — 기존 항목(aspirin-cancer-null)  <!-- 등록 시험 33건 -->
+- [x] aspirin — Cardiovascular Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 24건 -->
+- [x] propranolol — Migraine에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
+- [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-traumatic-stress-null)  <!-- 등록 시험 28건 -->
+- [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
+- [x] propranolol — Prostate Carcinoma에 듣는다 — 기존 항목(propranolol-prostate-carcinoma-null)  <!-- 등록 시험 23건 -->
+- [x] naltrexone — Alcoholism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Substance Use에 듣는다 — 기존 항목(naltrexone-substance-use)  <!-- 등록 시험 44건 -->
+- [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
+- [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
+- [x] gabapentin — Cancer에 듣는다 — 기존 항목(gabapentin-cancer)  <!-- 등록 시험 40건 -->
+- [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-null)  <!-- 등록 시험 33건 -->
+- [x] gabapentin — Drug Dependence에 듣는다 — 기존 항목(gabapentin-drug-dependence-null)  <!-- 등록 시험 18건 -->
+- [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 등록 시험 18건 -->
 - [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] amitriptyline — Depression에 듣는다  <!-- 등록 시험 8건 -->
