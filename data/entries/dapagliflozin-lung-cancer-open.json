@@ -1,0 +1,39 @@
+{
+  "id": "dapagliflozin-lung-cancer-open",
+  "subj": "다파글리플로진",
+  "claim": "당뇨약을 폐암에 쓴다",
+  "line": "폐선암 수술 전 48명 등록시험은 결과가 아직 없습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 48,
+  "synth": "single",
+  "why": "ClinicalTrials.gov에 다파글리플로진을 폐선암 수술 전 투여하는 초기 1상 시험이 등록돼 있고 모집 중입니다. 결과가 없어 진행 중 칸에 넣었습니다.",
+  "saw": "NCT07235280은 폐선암 환자 48명을 계획한 모집 중 시험입니다. 종양 반응이나 생존 결과는 아직 보고하지 않았습니다.",
+  "limit": "48명은 등록된 계획 인원이며 실제 분석 인원이 아닙니다. 폐암 치료 효과와 안전성을 판단할 결과가 아직 없습니다.",
+  "against": "세포·전임상 문헌은 가능성을 제시하지만 사람 치료 효과를 보여주지 않습니다. 당뇨병과 폐암을 함께 앓은 증례 모음에서는 편평상피폐암 표지자가 병용치료에도 반응하지 않았습니다.",
+  "use": "폐암에서 다파글리플로진은 아직 결과를 기다리는 실험 단계의 가설입니다.",
+  "refs": [
+    {
+      "label": "NCT07235280 · 초기 1상 · 모집 중",
+      "nct": "NCT07235280"
+    },
+    {
+      "label": "Heers 2025 · Cancer Chemother Pharmacol · 전임상 검토",
+      "doi": "10.1007/s00280-025-04788-3",
+      "pmid": "40569464"
+    },
+    {
+      "label": "Chen 2020 · Molecules · 세포·증례 모음",
+      "doi": "10.3390/molecules25030495",
+      "pmid": "31979355",
+      "pmc": "PMC7038111"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=dapagliflozin&query.cond=Lung Cancer → 2건 반환, InterventionName 대조 후 1건",
+    "pubmed": "dapagliflozin AND lung cancer → 18건",
+    "negative": "dapagliflozin AND Lung Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 15건",
+    "safety": "dapagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 1,781건"
+  }
+}
