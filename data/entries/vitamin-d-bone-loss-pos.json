@@ -1,0 +1,34 @@
+{
+  "id": "vitamin-d-bone-loss-pos",
+  "subj": "비타민D",
+  "claim": "골소실에 비타민D를 보충한다",
+  "line": "50세 이상에서 칼슘과 비타민D를 함께 쓰면 골소실이 줄었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 63897,
+  "synth": "meta",
+  "why": "50세 이상 성인을 대상으로 칼슘 단독 또는 칼슘과 비타민D 병용을 대조군과 비교한 무작위시험 29편의 메타분석입니다.",
+  "saw": "29편 63,897명에서 전체 골절 위험은 12% 낮았고, 골밀도를 본 23편 41,419명에서는 엉덩이와 척추의 골소실 속도가 낮았습니다.",
+  "limit": "칼슘 단독과 칼슘·비타민D 병용을 함께 분석해 비타민D의 독립 효과를 분리할 수 없습니다. 골절과 골밀도라는 서로 다른 지표를 합친 분석이며 50세 이상에 한정됩니다.",
+  "against": "비타민D 단독을 건강한 성인에게 평가한 VITAL 골절시험 25,871명에서는 전체·비척추·고관절 골절이 줄지 않았습니다.",
+  "use": "칼슘을 포함한 고령층 골소실 예방 전략의 근거로만 기록하며 비타민D 단독의 골절 예방 효과로 확대하지 않습니다.",
+  "refs": [
+    {
+      "label": "Tang 2007 · Lancet · 칼슘·비타민D 골절·골소실 무작위시험 메타분석",
+      "doi": "10.1016/S0140-6736(07)61342-7",
+      "pmid": "17720017"
+    },
+    {
+      "label": "LeBoff 2022 · NEJM · 비타민D 단독 VITAL 골절시험",
+      "doi": "10.1056/NEJMoa2202106",
+      "pmid": "35939577"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=vitamin D&query.cond=Bone Loss → 153건 반환, InterventionName 대조 후 71건",
+    "pubmed": "vitamin D Bone Loss → 18,363건",
+    "negative": "vitamin D Bone Loss AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9,898건",
+    "safety": "vitamin D Bone Loss AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 5,447건"
+  }
+}
