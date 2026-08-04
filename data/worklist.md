@@ -913,4 +913,4 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] berberine — Schizophrenia에 듣는다 — 기존 항목(berberine-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
 - [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
+- [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
