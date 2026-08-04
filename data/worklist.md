@@ -355,16 +355,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetazolamide — Altitude Sickness에 듣는다  <!-- 등록 시험 16건 --> — 허가 적응증(2026-08-04)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Stroke에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 -->
-- [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
+- [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
+- [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
+- [x] dapsone — Stroke에 듣는다  <!-- 등록 시험 6건 -->
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 --> — 허가 적응증(2026-08-04)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 --> — 허가 적응증(2026-08-04)
+- [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
+- [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 --> — 허가 적응증(2026-08-04)
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> — 허가 적응증(2026-08-04)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> — 허가 적응증(2026-08-04)
+- [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
 - [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 112건 -->
 - [ ] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
