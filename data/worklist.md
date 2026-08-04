@@ -578,26 +578,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lithium — Depression에 듣는다 — 기존 항목(lithium-depression)  <!-- 등록 시험 32건 -->
 - [x] lithium — Depressive Disorder에 듣는다 — 기존 항목(lithium-depressive-disorder)  <!-- 등록 시험 25건 -->
 - [x] lithium — Tooth Loss에 듣는다 — 기존 항목(lithium-tooth-loss-harm)  <!-- 등록 시험 17건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
-- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 -->
+- [x] pentoxifylline — Breast Cancer에 듣는다 — 기존 항목(pentoxifylline-breast-cancer-null)  <!-- 등록 시험 13건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다 — 기존 항목(pentoxifylline-fibrosis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다 — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Fatty Liver에 듣는다 — 기존 항목(pentoxifylline-fatty-liver-null)  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Germ Cell Tumor에 듣는다 — 기존 항목(sirolimus-germ-cell-tumor-open)  <!-- 등록 시험 103건 -->
+- [x] sirolimus — Leukemia에 듣는다 — 기존 항목(sirolimus-leukemia)  <!-- 등록 시험 82건 -->
+- [x] sirolimus — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 60건 -->
+- [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 54건 -->
+- [x] rapamycin — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Endometrial Carcinoma에 듣는다 — 기존 항목(rapamycin-endometrial-carcinoma-open)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Kidney Transplant에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] rapamycin — Malignant Melanoma에 듣는다 — 기존 항목(rapamycin-malignant-melanoma-open)  <!-- 등록 시험 7건 -->
+- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
+- [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
+- [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
+- [x] atorvastatin — Coronary Artery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 81건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
+- [x] atorvastatin — Hyperlipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
+- [x] atorvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
 - [x] losartan — Nephropathy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
