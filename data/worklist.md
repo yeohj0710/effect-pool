@@ -317,7 +317,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
 - [x] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
 - [x] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 --> — 근거 없음(2026-08-04 조회, lithium AND Tooth Loss; ClinicalTrials.gov 3건 반환·InterventionName 대조 후 lithium 약물 0건, PubMed 127건)
+- [x] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 --> — 근거 없음(2026-08-04 조회, lithium AND Tooth Loss; ClinicalTrials.gov 3건 반환·InterventionName 대조 후 lithium 약물 0건, PubMed 127건)
 - [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
 - [x] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
 - [x] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
@@ -329,7 +329,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(sirolimus-coronary-disease)
 - [x] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
 - [x] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 --> — 허가 적응증(2026-08-04)
-- [ ] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 --> — 근거 없음(2026-08-04 조회, rapamycin AND Malignant Melanoma; ClinicalTrials.gov 20건 반환·RAPA-201 세포치료/비특이 암시험 제외 시 직접 약물시험 0건, PubMed 600건)
+- [x] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 --> — 근거 없음(2026-08-04 조회, rapamycin AND Malignant Melanoma; ClinicalTrials.gov 20건 반환·RAPA-201 세포치료/비특이 암시험 제외 시 직접 약물시험 0건, PubMed 600건)
 - [x] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
 - [x] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
 - [x] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
@@ -375,14 +375,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->
+- [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
+- [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> — 허가 적응증(2026-08-04)
+- [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
+- [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
+- [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> — 허가 적응증(2026-08-04)
 - [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 -->
 - [ ] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
 - [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 -->

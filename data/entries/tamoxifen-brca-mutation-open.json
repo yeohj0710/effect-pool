@@ -1,0 +1,32 @@
+{
+  "id": "tamoxifen-brca-mutation-open",
+  "subj": "타목시펜",
+  "claim": "타목시펜을 BRCA1·2 변이 보인 여성의 유방암 1차 예방에 쓴다",
+  "line": "BRCA1·2 변이 여성의 유방암 예방 효과는 확정되지 않았습니다",
+  "tier": "obs",
+  "dir": "open",
+  "n": 4578,
+  "synth": "single",
+  "why": "BRCA1 또는 BRCA2 병원성 변이를 가진 유방암 미발생 여성에서 타목시펜 사용과 첫 유방암 발생을 추적한 전향 코호트 분석입니다.",
+  "saw": "4,578명 중 타목시펜 사용자는 137명이었고, 타목시펜 또는 라록시펜 사용자를 비사용자와 짝지은 202쌍에서 유방암 위험비는 0.64였지만 95% 신뢰구간은 1을 포함하고 p값은 0.07이었습니다.",
+  "limit": "무작위시험이 아닌 관찰연구이고 타목시펜과 라록시펜 사용자를 함께 분석했으며, 유전성 BRCA 변이 보인 여성의 1차 예방 효과를 확정하지 못했습니다.",
+  "against": "NCT06033092는 BRCA·PALB2 등 유전자 변이 보인 사람의 타목시펜 예방을 등록했지만 아직 결과가 공개되지 않아 관찰연구의 불확실성을 해소하지 못합니다.",
+  "use": "BRCA1·2 변이 보인 여성의 유방암 1차 예방에 타목시펜을 확정 효과로 표시할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Phillips 2023 · Breast Cancer Research and Treatment · BRCA 변이 보인 여성의 타목시펜 예방 관찰연구",
+      "pmid": "37432545"
+    },
+    {
+      "label": "NCT06033092 · BRCA·PALB2 등 변이 보인 사람의 타목시펜 예방 등록시험",
+      "nct": "NCT06033092"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=tamoxifen&query.cond=BRCA Mutation → 1건 반환, InterventionName에 tamoxifen 포함 1건",
+    "pubmed": "tamoxifen BRCA mutation → 114건",
+    "negative": "tamoxifen BRCA mutation AND (no effect OR did not OR failed to OR negative OR no significant difference) → 69건",
+    "safety": "tamoxifen BRCA mutation AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 35건"
+  }
+}
