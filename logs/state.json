@@ -3,33 +3,33 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 310,
   "worklist": {
-    "checked": 949,
-    "unchecked": 110,
+    "checked": 959,
+    "unchecked": 100,
     "no_evidence_pending": 0,
     "next_batch": [
-      "finasteride — Alopecia",
-      "finasteride — Prostatic Hyperplasia",
-      "finasteride — Spinal Cord Injury",
-      "finasteride — Trauma, Nervous System",
-      "melatonin — Pain",
-      "melatonin — Delirium",
-      "melatonin — Cancer",
-      "melatonin — Anxiety",
       "modafinil — Fatigue",
-      "modafinil — Sleep Apnea"
+      "modafinil — Sleep Apnea",
+      "modafinil — Narcolepsy",
+      "modafinil — Schizophrenia",
+      "baclofen — Pain",
+      "baclofen — Spasticity",
+      "baclofen — Cerebral Palsy",
+      "baclofen — Alcoholism",
+      "ondansetron — Lymphoma",
+      "ondansetron — Cancer"
     ]
   },
   "last_batch": [
-    "duloxetine-pain-approved",
-    "duloxetine-depression-approved",
-    "duloxetine-knee-osteoarthritis",
-    "duloxetine-fibromyalgia-approved",
-    "dextromethorphan-pain",
-    "dextromethorphan-solid-tumor-null",
-    "dextromethorphan-alzheimer",
-    "dextromethorphan-bupropion-depression",
-    "clonidine-opioid-use",
-    "clonidine-hypertension-approved"
+    "clonidine-anesthesia",
+    "clonidine-osteoarthritis-null",
+    "finasteride-alopecia-approved",
+    "finasteride-prostatic-hyperplasia-approved",
+    "finasteride-spinal-cord-injury",
+    "finasteride-trauma-nervous-system-open",
+    "melatonin-pain-null",
+    "melatonin-delirium-null",
+    "melatonin-cancer-null",
+    "melatonin-anxiety"
   ],
   "verification": {
     "build": "passed",
@@ -42,8 +42,8 @@
     "deployment_id": "dpl_43rV6RVfGrHXPVXq2H36AxmLtJiN"
   },
   "resume": {
-    "last_committed_batch": "29edc03",
-    "current_batch": "reconciled existing duloxetine, dextromethorphan, and clonidine worklist items",
-    "next_action": "process next_batch"
+    "last_committed_batch": "pending",
+    "current_batch": "reconciled existing clonidine, finasteride, and melatonin worklist items",
+    "next_action": "commit and push this batch, then process next_batch"
   }
 }
