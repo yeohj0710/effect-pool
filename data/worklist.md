@@ -2077,13 +2077,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] lebrikizumab — Asthma에 듣는다 — 신규 항목(lebrikizumab-asthma-null)  <!-- 등록 시험 12건 -->
 - [x] lebrikizumab — Eczema에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
-- [ ] tralokinumab — Asthma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] reslizumab — Eosinophilic Bronchitis에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] roflumilast — COPD에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] roflumilast — Psoriasis에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] roflumilast — Dermatitis에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] roflumilast — Asthma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] apremilast — Psoriatic Nail에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] apremilast — Atopic Dermatitis에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] apremilast — Alcohol Misuse에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] apremilast — Lichen Planus에 듣는다  <!-- 등록 시험 4건 -->
+- [x] tralokinumab — Asthma에 듣는다 — 신규 항목(tralokinumab-asthma-null)  <!-- 등록 시험 8건 -->
+- [x] reslizumab — Eosinophilic Bronchitis에 듣는다 — 신규 항목(reslizumab-eosinophilic-bronchitis-open)  <!-- 등록 시험 3건 -->
+- [x] roflumilast — COPD에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
+- [x] roflumilast — Psoriasis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
+- [x] roflumilast — Dermatitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
+- [x] roflumilast — Asthma에 듣는다 — 신규 항목(roflumilast-asthma-open)  <!-- 등록 시험 10건 -->
+- [x] apremilast — Psoriatic Nail에 듣는다 — 신규 항목(apremilast-psoriatic-nail-open)  <!-- 등록 시험 27건 -->
+- [x] apremilast — Atopic Dermatitis에 듣는다 — 신규 항목(apremilast-atopic-dermatitis-open)  <!-- 등록 시험 9건 -->
+- [x] apremilast — Alcohol Misuse에 듣는다 — 신규 항목(apremilast-alcohol-misuse-null)  <!-- 등록 시험 5건 -->
+- [x] apremilast — Lichen Planus에 듣는다 — 신규 항목(apremilast-lichen-planus-open)  <!-- 등록 시험 4건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] azithromycin — Infection에 듣는다  <!-- 등록 시험 46건 -->
+- [ ] azithromycin — Pneumonia에 듣는다  <!-- 등록 시험 45건 -->
+- [ ] azithromycin — COVID에 듣는다  <!-- 등록 시험 39건 -->
+- [ ] azithromycin — Malaria에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] rifaximin — Hepatic Cirrhosis에 듣는다  <!-- 등록 시험 40건 -->
+- [ ] rifaximin — Small Bowel Disease에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] rifaximin — Rectal Cancer에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] rifaximin — Diarrhea에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] clomiphene — Polycystic Ovary에 듣는다  <!-- 등록 시험 48건 -->
+- [ ] clomiphene — Hypogonadism에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] clomiphene — Anovulation에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] clomiphene — Ovulation Disorder에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] lamotrigine — Bipolar Disorder에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] lamotrigine — Depression에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] lamotrigine — Vertigo, Aural에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] lamotrigine — Schizophrenia에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] disulfiram — Glioblastoma에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] disulfiram — Alcohol Disorders에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] disulfiram — Cancer에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] disulfiram — HIV에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] hydroxyzine — Effect of Drug에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] amiodarone — Wide QRS Tachycardia에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] amiodarone — Cardiac Arrest에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] amiodarone — Heart Arrest에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] amiodarone — Arrhythmia에 듣는다  <!-- 등록 시험 7건 -->
