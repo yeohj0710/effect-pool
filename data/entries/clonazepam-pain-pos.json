@@ -1,0 +1,35 @@
+{
+  "id": "clonazepam-pain-pos",
+  "subj": "클로나제팜",
+  "claim": "구강작열감증후군의 통증을 줄였습니다",
+  "line": "구강작열감증후군의 통증을 줄였지만 다른 만성 통증 근거는 부족합니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "why": "구강작열감증후군 환자 60명을 무작위 배정한 시험에서 클로나제팜군의 통증 점수가 비교군보다 더 개선되었습니다.",
+  "saw": "구강작열감증후군 환자 60명을 무작위 배정한 시험에서 클로나제팜군의 시각상사 통증 점수가 설측 보호장치군보다 더 개선되었습니다. 반면 신경병증성 통증과 섬유근육통을 대상으로 한 Cochrane 검토는 적격한 근거를 찾지 못했습니다.",
+  "limit": "긍정적 결과는 구강작열감증후군에 한정되며 일반적인 통증을 평가하지 않았습니다. 위약 대조가 아닌 비교군을 사용했고 추적 기간이 짧아 다른 만성 통증으로 일반화할 수 없습니다.",
+  "against": "반대 검색에서 clonazepam AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) 63건을 확인했습니다. 신경병증성 통증과 섬유근육통에 대한 Cochrane 검토는 충분한 질의 근거가 없다고 결론냈습니다.",
+  "use": "구강작열감증후군에서만 제한적인 통증 신호로 설명하며, 일반적인 만성 통증 치료로 확대하지 않습니다.",
+  "refs": [
+    {
+      "label": "Tudor 2022 · Int J Environ Res Public Health · 구강작열감증후군 무작위시험",
+      "doi": "10.3390/ijerph19158999",
+      "pmid": "35897370"
+    },
+    {
+      "label": "Wong 2012 · Cochrane Database Syst Rev · 신경병증성 통증·섬유근육통 클로나제팜 검토",
+      "doi": "10.1002/14651858.CD009486.pub2",
+      "pmid": "22592742"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label search=openfda.substance_name:\"CLONAZEPAM\" · 96건 반환",
+    "ctgov": "query.intr=clonazepam&query.cond=Pain&countTotal=true · 8건 반환",
+    "pubmed": "clonazepam AND Pain · 318건 반환",
+    "negative": "clonazepam AND Pain AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 63건 반환",
+    "safety": "clonazepam AND Pain AND (adverse OR toxicity OR \"case report\") · 119건 반환"
+  }
+}

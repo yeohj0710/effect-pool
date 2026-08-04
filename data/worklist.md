@@ -4018,16 +4018,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lamotrigine — Bipolar Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
 - [x] lamotrigine — Depression에 듣는다 — 기존 항목(lamotrigine-depression-open)  <!-- 등록 시험 12건 -->
 - [x] lamotrigine — Vertigo, Aural에 듣는다 — 기존 항목(lamotrigine-vertigo-aural-open)  <!-- 등록 시험 7건 -->
-- [ ] lamotrigine — Schizophrenia에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] carbamazepine — Healthy Adults에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] carbamazepine — Bipolar Disorder에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] carbamazepine — Trigeminal Neuralgia에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] carbamazepine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] clonazepam — Epilepsy에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] clonazepam — Pain에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] clonazepam — REM Sleep Behavior Disorder에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] clonazepam — Schizophrenia에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] prednisone — Cancer에 듣는다  <!-- 등록 시험 154건 -->
+- [x] lamotrigine — Schizophrenia에 듣는다 — 기존 항목(lamotrigine-schizophrenia-open)  <!-- 등록 시험 4건 -->
+- [x] carbamazepine — Healthy Adults에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 14건 -->
+- [x] carbamazepine — Bipolar Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] carbamazepine — Trigeminal Neuralgia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] carbamazepine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 7건 -->
+- [x] clonazepam — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 4건 -->
+- [x] clonazepam — Pain에 듣는다  <!-- 등록 시험 4건 -->
+- [x] clonazepam — REM Sleep Behavior Disorder에 듣는다  <!-- 등록 시험 3건 -->
+- [x] clonazepam — Schizophrenia에 듣는다  <!-- 등록 시험 3건 -->
+- [x] prednisone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 154건 -->
 - [ ] prednisone — Leukemia에 듣는다  <!-- 등록 시험 78건 -->
 - [ ] prednisone — Myeloma에 듣는다  <!-- 등록 시험 21건 -->
 - [ ] prednisone — Kidney Diseases에 듣는다  <!-- 등록 시험 19건 -->
