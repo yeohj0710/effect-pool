@@ -5453,16 +5453,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
 - [x] spironolactone — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
-- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
+- [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
+- [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Acne에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Rosacea에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Syphilis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] colchicine — Gout에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
+- [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
+- [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
+- [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
 - [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
 - [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
 - [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
