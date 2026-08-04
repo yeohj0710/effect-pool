@@ -5423,16 +5423,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
+- [x] propranolol — Migraine에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
+- [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
+- [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
+- [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
+- [x] naltrexone — Alcoholism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use)  <!-- 등록 시험 44건 -->
+- [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity)  <!-- 등록 시험 34건 -->
+- [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
+- [x] gabapentin — Cancer에 듣는다 — 기존 항목(gabapentin-cancer-null)  <!-- 등록 시험 40건 -->
+- [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-null)  <!-- 등록 시험 33건 -->
 - [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 19건 -->
 - [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
