@@ -2157,10 +2157,48 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] probenecid — Diabetes에 듣는다 — 신규 항목(probenecid-diabetes-open)  <!-- 등록 시험 4건 -->
 - [x] probenecid — Obesity에 듣는다 — 신규 항목(probenecid-obesity-open)  <!-- 등록 시험 3건 -->
 - [x] indomethacin — Patent Ductus Arteriosus에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
-- [ ] indomethacin — Preterm Labor에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] indomethacin — Pain에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] indomethacin — Carcinoma In Situ에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] hydralazine — Heart Failure에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] hydralazine — Lung Cancer에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] hydralazine — Cerebral Hemorrhage에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] hydralazine — Mechanical Thrombectomy에 듣는다  <!-- 등록 시험 3건 -->
+- [x] indomethacin — Preterm Labor에 듣는다  <!-- 등록 시험 13건 -->
+- [x] indomethacin — Pain에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] indomethacin — Carcinoma In Situ에 듣는다  <!-- 등록 시험 6건 -->
+- [x] hydralazine — Heart Failure에 듣는다  <!-- 등록 시험 10건 -->
+- [x] hydralazine — Lung Cancer에 듣는다  <!-- 등록 시험 8건 -->
+- [x] hydralazine — Cerebral Hemorrhage에 듣는다  <!-- 등록 시험 3건 -->
+- [x] hydralazine — Mechanical Thrombectomy에 듣는다  <!-- 등록 시험 3건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 -->
+- [x] furosemide — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] furosemide — Fluid Overload에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
+- [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] prednisolone — Leukemia에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] prednisolone — Cancer에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] prednisolone — Pain에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] prednisolone — Myeloma에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] dexamethasone — Leukemia에 듣는다  <!-- 등록 시험 85건 -->
+- [ ] dexamethasone — Pain에 듣는다  <!-- 등록 시험 81건 -->
+- [ ] dexamethasone — Lymphoma에 듣는다  <!-- 등록 시험 64건 -->
+- [ ] dexamethasone — Cancer에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] hydrocortisone — Lymphoma에 듣는다  <!-- 등록 시험 49건 -->
+- [ ] hydrocortisone — Cancer에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] hydrocortisone — Adrenal Insufficiency에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] hydrocortisone — Shock에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] enoxaparin — Thrombosis에 듣는다  <!-- 등록 시험 47건 -->
+- [ ] enoxaparin — Embolism에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] enoxaparin — Cancer에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] enoxaparin — COVID에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] apixaban — Thromboembolism에 듣는다  <!-- 등록 시험 77건 -->
+- [ ] apixaban — Thrombosis에 듣는다  <!-- 등록 시험 42건 -->
+- [ ] apixaban — Embolism에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] apixaban — Stroke에 듣는다  <!-- 등록 시험 24건 -->
+- [ ] rivaroxaban — Atrial Flutter에 듣는다  <!-- 등록 시험 118건 -->
+- [ ] rivaroxaban — Thrombosis에 듣는다  <!-- 등록 시험 50건 -->
+- [ ] rivaroxaban — Coronary Disease에 듣는다  <!-- 등록 시험 44건 -->
+- [ ] rivaroxaban — Embolism에 듣는다  <!-- 등록 시험 34건 -->
