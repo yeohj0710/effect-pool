@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 594,
+  "entries": 602,
   "worklist": {
-    "checked": 4868,
-    "unchecked": 10,
+    "checked": 4878,
+    "unchecked": 252,
     "no_evidence_pending": 0,
     "next_batch": [
-      "olanzapine-schizoaffective-disorder",
-      "olanzapine-cancer",
-      "lidocaine-anesthesia",
-      "lidocaine-surgery",
-      "lidocaine-cancer",
-      "lidocaine-nerve-block",
-      "rifampin-hiv",
-      "rifampin-healthy-adults",
-      "rifampin-lymphoma",
-      "rifampin-solid-tumor"
+      "risperidone-schizoaffective-disorder",
+      "risperidone-bipolar-disorder",
+      "risperidone-psychotic-disorder",
+      "risperidone-dementia",
+      "haloperidol-delirium",
+      "haloperidol-agitation",
+      "haloperidol-nausea",
+      "haloperidol-advanced-cancer",
+      "mirtazapine-depression",
+      "mirtazapine-sleep"
     ]
   },
   "verification": {
@@ -24,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 550,
+      "trial": 558,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 239,
+    "no_effect_or_harm": 246,
     "harm": 23,
     "no_effect_or_harm_share": "40%"
   },
@@ -53,7 +53,7 @@
   ],
   "expansion": {
     "date": "2026-08-04",
-    "mode": "direct",
+    "mode": "builtin+direct",
     "substances": [
       "fluvoxamine",
       "paroxetine",
@@ -64,11 +64,13 @@
       "lidocaine",
       "rifampin"
     ],
-    "added_candidates": 32
+    "builtin_added_candidates": 220,
+    "direct_added_candidates": 32,
+    "added_candidates": 252
   },
   "resume": {
-    "last_committed_batch": "lurasidone, ziprasidone, olanzapine",
-    "current_batch": "lurasidone, ziprasidone, olanzapine",
-    "next_action": "commit, push, expand worklist because 10 unchecked remain"
+    "last_committed_batch": "olanzapine, lidocaine, rifampin",
+    "current_batch": "olanzapine, lidocaine, rifampin",
+    "next_action": "commit, push, deploy after crossing 600 entries, then process next batch"
   }
 }

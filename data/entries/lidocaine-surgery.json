@@ -1,0 +1,35 @@
+{
+  "id": "lidocaine-surgery",
+  "subj": "리도카인",
+  "claim": "리도카인이 수술에 듣는다",
+  "line": "수술 후 통증과 회복 개선은 연구마다 달랐습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4525,
+  "synth": "meta",
+  "why": "여러 수술에서 수술 중 정맥 리도카인을 위약·무처치와 비교한 Cochrane 체계적 문헌고찰을 확인했습니다.",
+  "saw": "68개 무작위시험 4,525명에서 수술 후 통증·위장관 회복·이상반응을 평가했지만 수술별 결과와 근거 확실성이 달랐습니다.",
+  "limit": "수술 종류와 연구 절차가 다양하고 결과 지표가 일관되지 않았습니다. 모든 수술의 통증·회복 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 11,827건을 확인했습니다. 유방암 수술 13개 시험 1,039명 메타분석에서는 만성 수술 후 통증을 줄이지 못했고 단기 통증 차이도 임상적으로 작았습니다.",
+  "use": "수술 전반의 치료제로 표시하지 말고, 수술 종류와 결과 지표에 따라 효과가 달랐던 제한된 보조 근거로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Weibel 2018 · Cochrane Database of Systematic Reviews · 수술 후 통증·회복 리도카인 메타분석",
+      "doi": "10.1002/14651858.CD009642.pub3",
+      "pmid": "29864216"
+    },
+    {
+      "label": "Bajwa 2024 · British Journal of Anaesthesia · 유방암 수술 리도카인 메타분석의 음성 결과",
+      "doi": "10.1016/j.bja.2023.12.005",
+      "pmid": "38199928"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:LIDOCAINE → 1,642건; 허가 문구는 국소·부위마취이며 수술 전반 적응증 없음",
+    "ctgov": "query.intr=lidocaine&query.cond=Surgery&countTotal=true&pageSize=50 → 903건 반환, InterventionName 대조 후 lidocaine 일치 23건",
+    "pubmed": "lidocaine AND Surgery → 16,538건",
+    "negative": "lidocaine AND Surgery AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 11,827건",
+    "safety": "lidocaine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 13,559건"
+  }
+}

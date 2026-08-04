@@ -1,0 +1,34 @@
+{
+  "id": "rifampin-lymphoma",
+  "subj": "리팜피신",
+  "claim": "리팜피신이 림프종에 듣는다",
+  "line": "림프종을 치료하지 않고 항암제 혈중농도 상호작용만 평가했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 42,
+  "synth": "single",
+  "why": "림프종 환자를 포함한 리팜피신 연구는 항암제 약동학 상호작용을 평가한 초기 연구였습니다.",
+  "saw": "42명이 참여한 연구에서 리팜피신이 항암제 혈중농도에 미치는 영향을 평가했으며 림프종 반응이나 생존은 측정하지 않았습니다.",
+  "limit": "항암제의 혈중농도와 상호작용만 본 연구라서 리팜피신의 림프종 치료 효과를 판단할 수 없습니다.",
+  "against": "반대 검색 60건을 확인했습니다. 확인된 림프종 관련 논문도 리팜피신을 항암제 대사 유도·억제 상호작용으로만 다뤘습니다.",
+  "use": "리팜피신을 림프종 치료제로 표시하지 말고, 항암제와의 상호작용 자료로만 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "ClinicalTrials.gov · 림프종 포함 악성종양의 리팜피신 상호작용 연구",
+      "nct": "NCT04537715"
+    },
+    {
+      "label": "Agarwal 2016 · Journal of Clinical Pharmacology · 림프종 항암제와 리팜피신 약동학 연구",
+      "doi": "10.1002/jcph.730",
+      "pmid": "26953185"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RIFAMPIN → 14건; 허가 문구는 결핵과 수막구균 보균 상태이며 림프종 적응증 없음",
+    "ctgov": "query.intr=rifampin&query.cond=Lymphoma&countTotal=true&pageSize=50 → 15건 반환, InterventionName 대조 후 rifampin 일치 11건",
+    "pubmed": "rifampin AND Lymphoma → 93건",
+    "negative": "rifampin AND Lymphoma AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 60건",
+    "safety": "rifampin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 7,926건"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rifampin-healthy-adults",
+  "subj": "리팜피신",
+  "claim": "리팜피신이 건강한 성인에게 듣는다",
+  "line": "건강한 성인에서 치료 효과가 아니라 약물상호작용과 혈중농도를 평가했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 72,
+  "synth": "single",
+  "why": "건강한 성인을 대상으로 한 리팜피신 연구는 치료 효과가 아닌 약물상호작용 약동학 시험이었습니다.",
+  "saw": "72명이 참여한 건강한 성인 연구에서 리팜피신이 다른 약물의 혈중농도에 미치는 상호작용을 평가했습니다.",
+  "limit": "건강한 성인은 치료 대상 환자가 아니며 질환 증상이나 임상 치료 결과를 측정하지 않았습니다.",
+  "against": "반대 검색 520건을 확인했습니다. 확인된 연구는 건강한 성인의 약동학·상호작용 또는 안전성 평가였고 치료 효과 연구는 아니었습니다.",
+  "use": "리팜피신의 치료 효과 근거로 표시하지 말고, 건강한 성인 약동학 연구로만 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "ClinicalTrials.gov · 건강한 성인 약물상호작용 연구",
+      "nct": "NCT04914936"
+    },
+    {
+      "label": "Zou 2020 · Advances in Therapy · 건강한 참가자 리팜피신 약동학·안전성 연구",
+      "doi": "10.1007/s12325-019-01198-9",
+      "pmid": "31863284",
+      "nct": "NCT02804399"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RIFAMPIN → 14건; 허가 문구는 결핵과 수막구균 보균 상태이며 건강한 성인 치료 적응증 없음",
+    "ctgov": "query.intr=rifampin&query.cond=Healthy%20Adults&countTotal=true&pageSize=50 → 45건 반환, InterventionName 대조 후 rifampin 일치 28건",
+    "pubmed": "rifampin AND Healthy Adults → 667건",
+    "negative": "rifampin AND Healthy Adults AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 520건",
+    "safety": "rifampin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 7,926건"
+  }
+}

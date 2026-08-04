@@ -1,0 +1,34 @@
+{
+  "id": "rifampin-hiv",
+  "subj": "리팜피신",
+  "claim": "리팜피신이 HIV에 듣는다",
+  "line": "HIV 감염 자체에 대한 리팜피신 효과는 분리해 확인되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 851,
+  "synth": "single",
+  "why": "HIV 감염인을 포함한 리팜피신 기반 결핵 연구는 확인했지만 HIV 자체의 치료 효과를 분리한 근거는 찾지 못했습니다.",
+  "saw": "851명이 참여한 HIV 감염인 결핵 연구에서 여러 결핵 치료 구성요소와 임상 결과를 평가했으며 리팜피신 단독의 HIV 억제 효과는 측정하지 않았습니다.",
+  "limit": "대상은 HIV와 결핵이 함께 있는 환자군이고 리팜피신은 결핵 치료 구성요소입니다. HIV 바이러스 억제나 HIV 단독 치료 효과로 해석할 수 없습니다.",
+  "against": "반대 검색 1,296건을 확인했습니다. HIV·결핵 통합치료 문헌도 리팜피신은 결핵 치료 성분으로 설명하며 HIV 치료 효과와 구분합니다.",
+  "use": "리팜피신을 HIV 치료제로 표시하지 말고, HIV 동반 결핵 치료에서 다른 약과 함께 사용된 근거로 한정해야 합니다.",
+  "refs": [
+    {
+      "label": "ClinicalTrials.gov · HIV 감염 입원 환자 결핵 경험적 치료 연구",
+      "nct": "NCT01380080"
+    },
+    {
+      "label": "Yew 2016 · AIDS Research and Therapy · HIV·결핵 통합치료 검토",
+      "doi": "10.1186/s12981-016-0106-y",
+      "pmid": "27182275"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RIFAMPIN → 14건; 허가 문구는 결핵과 수막구균 보균 상태이며 HIV 적응증 없음",
+    "ctgov": "query.intr=rifampin&query.cond=HIV&countTotal=true&pageSize=50 → 99건 반환, InterventionName 대조 후 rifampin 일치 10건",
+    "pubmed": "rifampin AND HIV → 1,833건",
+    "negative": "rifampin AND HIV AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1,296건",
+    "safety": "rifampin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 7,926건"
+  }
+}

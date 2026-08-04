@@ -1,0 +1,31 @@
+{
+  "id": "rifampin-solid-tumor",
+  "subj": "리팜피신",
+  "claim": "리팜피신이 고형암에 듣는다",
+  "line": "고형암 자체가 아니라 항암제 혈중농도 상호작용만 평가했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 20,
+  "synth": "single",
+  "why": "고형암 환자를 대상으로 한 리팜피신 연구는 항암제 약동학 상호작용을 평가한 1상 시험이었습니다.",
+  "saw": "20명이 참여한 1상 시험에서 리팜피신이 항암제 혈중노출에 미치는 영향을 평가했으며 종양 반응이나 생존은 측정하지 않았습니다.",
+  "limit": "대상은 진행성 고형암 환자지만 연구 목적은 항암제 상호작용이었습니다. 리팜피신의 항암 효과로 해석할 수 없습니다.",
+  "against": "반대 검색 27건을 확인했습니다. 고형암 관련 연구는 리팜피신의 대사 유도에 따른 항암제 혈중농도 변화와 안전성을 보고했습니다.",
+  "use": "리팜피신을 고형암 치료제로 표시하지 말고, 항암제와의 약동학 상호작용 근거로만 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Kawashima 2022 · Investigational New Drugs · 고형암 환자 리팜피신 약동학 1상 연구",
+      "doi": "10.1007/s10637-022-01286-8",
+      "pmid": "35932388",
+      "nct": "NCT03486314"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RIFAMPIN → 14건; 허가 문구는 결핵과 수막구균 보균 상태이며 고형암 적응증 없음",
+    "ctgov": "query.intr=rifampin&query.cond=Solid%20Tumor&countTotal=true&pageSize=50 → 26건 반환, InterventionName 대조 후 rifampin 일치 12건",
+    "pubmed": "rifampin AND Solid Tumor → 34건",
+    "negative": "rifampin AND Solid Tumor AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 27건",
+    "safety": "rifampin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 7,926건"
+  }
+}
