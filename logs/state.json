@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 572,
   "worklist": {
-    "checked": 4138,
-    "unchecked": 220,
+    "checked": 4148,
+    "unchecked": 210,
     "no_evidence_pending": 0,
     "next_batch": [
-      "metformin-lung-cancer",
-      "metformin-polycystic-ovary",
-      "metformin-obesity",
-      "metformin-insulin-resistance",
-      "aspirin-stroke",
-      "aspirin-acute-coronary-syndrome",
-      "aspirin-ovarian-cancer",
-      "aspirin-colorectal-cancer",
-      "aspirin-lung-cancer",
-      "aspirin-breast-cancer"
+      "naltrexone-alcoholism",
+      "naltrexone-marijuana-use",
+      "naltrexone-obesity",
+      "naltrexone-pain",
+      "gabapentin-cancer",
+      "gabapentin-opioid-use",
+      "gabapentin-nausea",
+      "gabapentin-drug-dependence",
+      "amitriptyline-pain",
+      "amitriptyline-headache"
     ]
   },
   "verification": {
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "empagliflozin-fatty-liver-open (existing)",
-    "empagliflozin-hypertension-open (existing)",
-    "liraglutide-obesity (approved)",
-    "liraglutide-metabolism-disorder-lipid-open (existing)",
-    "liraglutide-overweight (approved)",
-    "liraglutide-cardiovascular-disease (approved)",
-    "venlafaxine-depressive-episode (approved)",
-    "venlafaxine-pain-open (existing)",
-    "venlafaxine-anxiety (approved)",
-    "venlafaxine-breast-cancer-null (existing)"
+    "metformin-lung-cancer-null (existing)",
+    "metformin-polycystic-ovary-null (existing)",
+    "metformin-obesity-pos (existing)",
+    "metformin-insulin-resistance-null (existing)",
+    "aspirin-stroke-pos (existing)",
+    "aspirin-colon-cancer-null (existing)",
+    "aspirin-brain-infarction-pos (existing)",
+    "aspirin-cardiovascular-events (approved)",
+    "propranolol-migraine (approved)",
+    "propranolol-stress-reaction-null (existing)"
   ],
   "resume": {
-    "last_committed_batch": "empagliflozin, liraglutide, venlafaxine",
-    "current_batch": "empagliflozin, liraglutide, venlafaxine",
+    "last_committed_batch": "metformin, aspirin, propranolol",
+    "current_batch": "metformin, aspirin, propranolol",
     "next_action": "build, commit, push, then process next batch"
   }
 }
