@@ -1,0 +1,24 @@
+{
+  "id": "aspirin-colorectal-adenoma",
+  "subj": "아스피린",
+  "claim": "저용량이 대장암을 예방한다",
+  "line": "아스피린 — 대장암 병력이 있는 635명에게 나눠 줬더니 새 선종이 27%에서 17%로 줄었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "why": "대장암 치료를 마친 사람을 아스피린과 위약에 무작위로 나눠 새 선종이 생기는지 비교했습니다.",
+  "saw": "환자 635명을 추적했고 아스피린군 17%, 위약군 27%에서 선종을 찾았습니다. 차이가 커서 시험을 일찍 끝냈습니다.",
+  "limit": "선종은 대장암의 전단계이지 대장암 자체가 아닙니다. 이미 대장암을 겪은 사람의 결과를 일반인에게 그대로 옮길 수도 없습니다.",
+  "against": "안전성 검색에서는 고령자의 주요 위장관 출혈 증가를 확인했습니다. 예방 이득과 출혈 위험을 함께 봐야 합니다.",
+  "use": "대장암 예방이라는 큰 결론보다 재발 고위험군의 선종 감소라는 실제 측정 결과가 더 정확합니다.",
+  "refs": [
+    { "label": "Sandler 2003 · NEJM · 대장암 병력자 무작위시험", "doi": "10.1056/NEJMoa021633", "pmid": "12621132" },
+    { "label": "Mahady 2021 · Gut · ASPREE 주요 위장관 출혈", "doi": "10.1136/gutjnl-2020-321585", "pmid": "32747412", "pmc": "PMC7957959" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=aspirin, cond=colorectal cancer prevention → 13건 반환, InterventionName 대조 후 8건",
+    "pubmed": "aspirin colorectal cancer prevention trial → 544건",
+    "negative": "aspirin colorectal cancer prevention AND (no effect OR did not OR negative OR no significant difference) → 1,012건",
+    "safety": "aspirin AND (adverse OR toxicity OR bleeding OR case report) → 33,252건"
+  }
+}
