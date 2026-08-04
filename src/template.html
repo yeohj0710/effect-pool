@@ -163,6 +163,15 @@
   .size.thin{ color:var(--clay); }
   .size.thin b{ color:var(--clay); }
 
+  .more-btn{
+    width:100%; padding:.85rem 1.75rem; margin:0;
+    background:none; border:none; border-top:1px solid var(--line);
+    font:inherit; font-size:13px; color:var(--accent); cursor:pointer;
+    text-align:left;
+  }
+  .more-btn:hover{ background:var(--accent-soft); }
+  .more-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:-2px; }
+
   .empty{
     background:var(--card); border-radius:var(--r);
     padding:3rem 1.75rem; text-align:center; color:var(--ink-3); font-size:14px;
@@ -464,7 +473,7 @@ function render(){
       '<h2>' + esc(tier.name) + '</h2>' +
       '<span class="gloss">' + esc(tier.gloss) + '</span></div>';
 
-    items.forEach(item => {
+    const makeRow = (item) => {
       const d = DIR[item.dir];
       const btn = document.createElement('button');
       btn.className = 'row';
@@ -477,8 +486,27 @@ function render(){
         '<span class="tag' + (item.dir === 'harm' ? ' harm' : '') + '">' + d.t + '</span>';
       btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
       btn.addEventListener('click', () => open(item, tier, btn));
-      sec.appendChild(btn);
-    });
+      return btn;
+    };
+
+    // 한 묶음이 길어지면 화면이 못 버틴다. 앞쪽만 펼쳐두고 나머지는 접는다.
+    const OPEN = 25;
+    items.slice(0, OPEN).forEach((item) => sec.appendChild(makeRow(item)));
+
+    if (items.length > OPEN) {
+      const rest = items.slice(OPEN);
+      const more = document.createElement('button');
+      more.className = 'more-btn';
+      more.type = 'button';
+      more.textContent = `나머지 ${rest.length}개 보기`;
+      more.addEventListener('click', () => {
+        const frag = document.createDocumentFragment();
+        rest.forEach((item) => frag.appendChild(makeRow(item)));
+        sec.insertBefore(frag, more);
+        more.remove();
+      });
+      sec.appendChild(more);
+    }
     groupsEl.appendChild(sec);
   });
 }

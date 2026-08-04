@@ -148,8 +148,14 @@ if (errors.length) {
 
 /* ---- 출력 ---- */
 
-// 사람에게 가까운 칸부터, 같은 칸 안에서는 파일명 순
-entries.sort((a, b) => (STEP[b.tier] - STEP[a.tier]) || a.id.localeCompare(b.id));
+// 사람에게 가까운 칸부터. 같은 칸 안에서는 근거가 무거운 것부터
+// (여러 연구를 합친 것 > 사람 수가 많은 것). 규모 미상은 뒤로 보낸다.
+const heavy = (e) => (e.synth === "meta" ? 1 : 0);
+entries.sort((a, b) =>
+  (STEP[b.tier] - STEP[a.tier])
+  || (heavy(b) - heavy(a))
+  || ((b.n ?? -1) - (a.n ?? -1))
+  || a.id.localeCompare(b.id));
 
 const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
 const data = { updated, tiers: meta.tiers, entries };
