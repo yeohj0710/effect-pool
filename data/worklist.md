@@ -4268,8 +4268,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] creatine — Muscle에 듣는다 — 기존 항목(creatine-muscle)  <!-- 등록 시험 15건 -->
 - [x] creatine — Major Depressive Disorder에 듣는다 — 기존 항목(creatine-major-depressive-disorder)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sarcopenia에 듣는다 — 기존 항목(creatine-sarcopenia)  <!-- 등록 시험 13건 -->
-- [ ] creatine — Sport Performance에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [x] creatine — Sport Performance에 듣는다 — 기존 항목(creatine-sport-performance)  <!-- 등록 시험 13건 -->
+- [x] berberine — Schizophrenia에 듣는다 — 기존 항목(berberine-schizophrenia)  <!-- 등록 시험 9건 -->
+- [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
+- [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+- [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
