@@ -1,0 +1,33 @@
+{
+  "id": "zinc-covid-pos",
+  "subj": "아연",
+  "claim": "코로나19에 아연을 보충한다",
+  "line": "코로나19 환자에서 아연 보충군의 사망률이 낮았습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 1506,
+  "synth": "meta",
+  "why": "코로나19 환자의 아연 보충과 사망률을 비교한 임상 연구 5편을 합친 메타분석입니다.",
+  "saw": "5편 1,506명의 메타분석에서 한 연구를 제외한 1,398명 분석의 사망 오즈비는 0.57이었습니다.",
+  "limit": "무작위시험만 합친 분석이 아니며 연구 간 치료와 환자 특성이 달랐습니다. 한 연구의 오즈비는 추정할 수 없었고 아연 단독의 인과 효과도 확정하지 못합니다.",
+  "against": "완료된 코로나19 아연 무작위시험 NCT05778383은 75명으로 등록됐지만 결과가 공개되지 않았습니다. 반대쪽 PubMed 검색에는 부정적·무효 결과가 많이 포함돼 전체 효과의 불확실성이 큽니다.",
+  "use": "코로나19 사망률 감소와의 연관성 신호로만 기록하며, 표준 항바이러스 치료를 대신할 근거로 사용하지 않습니다.",
+  "refs": [
+    {
+      "label": "Kumar 2022 · Emergency Medicine International · 코로나19 아연 보충 사망률 메타분석",
+      "doi": "10.1186/s40001-022-00694-z",
+      "pmid": "35599332"
+    },
+    {
+      "label": "NCT05778383 · 급성 코로나19 아연 보충 임상시험 · 결과 미공개",
+      "nct": "NCT05778383"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=zinc&query.cond=COVID → 25건 반환, InterventionName 대조 후 15건",
+    "pubmed": "zinc COVID → 1,222건",
+    "negative": "zinc COVID AND (no effect OR did not OR failed to OR negative OR no significant difference) → 694건",
+    "safety": "zinc COVID AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 194건"
+  }
+}

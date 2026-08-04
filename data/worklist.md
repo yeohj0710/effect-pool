@@ -673,16 +673,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ibuprofen — Fever에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
 - [x] ibuprofen — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 17건 -->
 - [x] curcumin — Acute Kidney Injury에 듣는다 — 기존 항목(curcumin-acute-kidney-injury-null)  <!-- 등록 시험 12건 -->
-- [ ] curcumin — Pre-diabetes에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] curcumin — Ulcerative Colitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] curcumin — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] zinc — Plaque에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] zinc — COVID에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] zinc — Iron에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] zinc — HIV에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] vitamin d — Diabetes에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] vitamin d — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] vitamin d — Obesity에 듣는다  <!-- 등록 시험 19건 -->
+- [x] curcumin — Pre-diabetes에 듣는다  <!-- 등록 시험 12건 -->
+- [x] curcumin — Ulcerative Colitis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] curcumin — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
+- [x] zinc — Plaque에 듣는다  <!-- 등록 시험 16건 -->
+- [x] zinc — COVID에 듣는다  <!-- 등록 시험 14건 -->
+- [x] zinc — Iron에 듣는다  <!-- 등록 시험 13건 -->
+- [x] zinc — HIV에 듣는다  <!-- 등록 시험 12건 -->
+- [x] vitamin d — Diabetes에 듣는다  <!-- 등록 시험 23건 -->
+- [x] vitamin d — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [x] vitamin d — Obesity에 듣는다  <!-- 등록 시험 19건 -->
 - [ ] vitamin d — Bone Loss에 듣는다  <!-- 등록 시험 18건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
