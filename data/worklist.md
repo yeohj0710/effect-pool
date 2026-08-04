@@ -5473,16 +5473,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 71건 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
+- [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
+- [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
+- [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
+- [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
+- [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
+- [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
 - [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
 - [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
 - [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
