@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 573,
   "worklist": {
-    "checked": 4408,
-    "unchecked": 202,
+    "checked": 4418,
+    "unchecked": 192,
     "no_evidence_pending": 0,
     "next_batch": [
-      "trazodone-sleep",
-      "trazodone-depression",
-      "trazodone-delirium",
-      "trazodone-major-depressive-disorder",
-      "quetiapine-bipolar",
-      "quetiapine-major-depression",
-      "quetiapine-anxiety",
-      "quetiapine-schizoaffective-disorder",
-      "spironolactone-hypertension",
-      "spironolactone-kidney-disease"
+      "spironolactone-acute-renal-injury",
+      "spironolactone-alport-nephropathy",
+      "doxycycline-acne",
+      "doxycycline-rosacea",
+      "doxycycline-syphilis",
+      "doxycycline-periodontitis",
+      "colchicine-gout",
+      "colchicine-myocardial-injury",
+      "colchicine-atrial-flutter",
+      "colchicine-covid"
     ]
   },
   "verification": {
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "gabapentin-nausea-null (existing)",
-    "gabapentin-drug-dependence-open (existing)",
-    "amitriptyline-pain-null (existing)",
-    "amitriptyline-headache (existing)",
-    "amitriptyline-fibromyalgia (existing)",
-    "amitriptyline-major-depression (approved)",
-    "topiramate-obesity (existing)",
-    "topiramate-epilepsy (approved)",
-    "topiramate-alcohol-abuse (existing)",
-    "topiramate-seizures (approved)"
+    "trazodone-sleep-null (existing)",
+    "trazodone-depression (approved)",
+    "trazodone-delirium-null (existing)",
+    "trazodone-major-depressive-disorder (approved)",
+    "quetiapine-bipolar (approved)",
+    "quetiapine-major-depression (approved)",
+    "quetiapine-anxiety (existing)",
+    "quetiapine-schizoaffective-null (existing)",
+    "spironolactone-hypertension (approved)",
+    "spironolactone-kidney-disease-null (existing)"
   ],
   "resume": {
-    "last_committed_batch": "gabapentin, amitriptyline, topiramate",
-    "current_batch": "gabapentin, amitriptyline, topiramate",
+    "last_committed_batch": "trazodone, quetiapine, spironolactone",
+    "current_batch": "trazodone, quetiapine, spironolactone",
     "next_action": "build, commit, push, then process next batch"
   }
 }
