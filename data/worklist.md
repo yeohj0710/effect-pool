@@ -4813,16 +4813,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amlodipine — Hyperlipidemia에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(amlodipine-hyperlipidemia-open)
 - [x] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 --> — 허가 적응증(2026-08-04)
 - [x] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(carvedilol-cirrhosis-pos)
-- [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 72건 -->
-- [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 -->
-- [ ] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 20건 -->
+- [x] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(carvedilol-esophageal-varix-null)
+- [x] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(carvedilol-cancer-pos)
+- [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(furosemide-kidney-stone-open)
+- [x] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
+- [x] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
+- [x] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
+- [x] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 72건 --> — 허가 적응증(2026-08-04)
+- [x] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> — 허가 적응증(2026-08-04)
+- [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(clopidogrel-atrial-fibrillation-null)
+- [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(clopidogrel-platelet-function-open)
 - [ ] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 -->
 - [ ] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 -->
 - [ ] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 -->

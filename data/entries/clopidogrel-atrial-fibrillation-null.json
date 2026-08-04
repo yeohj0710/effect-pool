@@ -1,0 +1,35 @@
+{
+  "id": "clopidogrel-atrial-fibrillation-null",
+  "subj": "클로피도그렐",
+  "claim": "심방세동의 혈전색전 예방에 클로피도그렐을 쓴다",
+  "line": "심방세동에서 클로피도그렐은 경구 항응고보다 예방 효과가 낮았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 6706,
+  "synth": "single",
+  "why": "ACTIVE-W 무작위시험은 심방세동 환자 6,706명에서 클로피도그렐 기반 항혈소판 전략과 경구 항응고 전략의 혈관 사건 예방을 비교했습니다.",
+  "saw": "6,706명 무작위시험에서 클로피도그렐 기반 전략의 뇌졸중·전신 색전 등 혈관 사건이 경구 항응고군보다 많아 시험이 조기 종료됐습니다.",
+  "limit": "클로피도그렐 단독 효과가 아니라 항혈소판 전략과 경구 항응고 전략을 비교한 시험입니다. 심방세동의 뇌졸중 위험도와 항응고 적합성에 따라 결과를 적용할 대상이 달라집니다.",
+  "against": "ACTIVE-A 분석은 비타민 K 길항제를 쓰기 어려운 환자에서 클로피도그렐을 추가한 항혈소판 전략이 혈관 사건을 줄였지만 주요 출혈을 늘렸다고 보고했습니다.",
+  "use": "심방세동에서 클로피도그렐을 경구 항응고의 대체제로 설명하지 말고, 특정 항혈소판 전략의 한계와 출혈 위험을 함께 제시해야 합니다.",
+  "refs": [
+    {
+      "label": "ACTIVE-W · Lancet · 심방세동 클로피도그렐 대 경구 항응고 무작위시험",
+      "pmid": "16765759",
+      "nct": "NCT00243178"
+    },
+    {
+      "label": "ACTIVE-A 분석 · Annals of Internal Medicine · 심방세동 항혈소판 전략의 순임상 이득",
+      "pmid": "22041946",
+      "nct": "NCT00249873"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:CLOPIDOGREL → 58건; 허가 문구는 급성관상동맥증후군·최근 심근경색·최근 뇌졸중·말초동맥질환이며 심방세동 적응증은 없음",
+    "ctgov": "intr=clopidogrel, cond=Atrial Fibrillation → 70건 반환, InterventionName 대조 후 28건",
+    "pubmed": "clopidogrel AND \"atrial fibrillation\" → 960건",
+    "negative": "clopidogrel AND \"atrial fibrillation\" AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 612건",
+    "safety": "clopidogrel AND \"atrial fibrillation\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 447건"
+  }
+}
