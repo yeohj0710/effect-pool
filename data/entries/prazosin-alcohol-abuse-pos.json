@@ -1,0 +1,40 @@
+{
+  "id": "prazosin-alcohol-abuse-pos",
+  "subj": "프라조신",
+  "claim": "프라조신이 알코올 사용장애를 개선한다",
+  "line": "금단 증상이 많은 알코올 사용장애에서 음주일을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "why": "프라조신의 허가사항은 고혈압이며 알코올 사용장애 치료는 허가 적응증이 아닙니다.",
+  "saw": "PMID33207935의 알코올 의존 성인 100명 무작위시험에서 금단 증상이 많은 하위군은 프라조신군의 음주일과 과음일이 위약군보다 적었지만 금단 증상이 적은 하위군에서는 이득이 없었습니다.",
+  "limit": "금단 증상에 따라 효과가 달라진 증명개념 연구라 모든 알코올 사용장애 환자에게 일반화할 수 없습니다.",
+  "against": "반대 검색 68건. PMID36809662의 현역 군인 무작위시험에서는 전체 갈망 점수가 유의하게 다르지 않았고, PMID32959918 메타분석에서도 금주와 과음일에는 유의한 효과가 없었습니다.",
+  "use": "금단 증상이 많은 알코올 사용장애에서 음주 감소를 기대할 수 있지만 일반적인 치료 효과로 확대하면 안 됩니다.",
+  "refs": [
+    {
+      "label": "American Journal of Psychiatry 2021 · 알코올 금단 증상에 따른 프라조신 무작위시험",
+      "doi": "10.1176/appi.ajp.2020.20050609",
+      "pmid": "33207935",
+      "pmc": "PMC8119326"
+    },
+    {
+      "label": "American Journal of Psychiatry 2023 · 현역 군인 알코올 사용장애 프라조신 무작위시험",
+      "pmid": "36809662"
+    },
+    {
+      "label": "Addiction 2020 · 알코올 사용장애 알파1 길항제 메타분석",
+      "doi": "10.1111/add.15265",
+      "pmid": "32959918"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"PRAZOSIN\" · 71건",
+    "ctgov": "query.intr=prazosin&query.cond=Alcohol Abuse · 3건, InterventionName에 prazosin 포함 3건",
+    "pubmed": "prazosin Alcohol Abuse · 82건",
+    "negative": "prazosin Alcohol Abuse (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 68건",
+    "safety": "prazosin Alcohol Abuse (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 12건"
+  }
+}
