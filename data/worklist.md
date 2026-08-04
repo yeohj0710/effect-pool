@@ -315,16 +315,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
 - [x] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
 - [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
-- [ ] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
+- [x] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
+- [x] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 17건 --> — 근거 없음(2026-08-04 조회, lithium AND Tooth Loss; ClinicalTrials.gov 3건 반환·InterventionName 대조 후 lithium 약물 0건, PubMed 127건)
+- [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Fatty Liver에 듣는다  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Germ Cell Tumor에 듣는다  <!-- 등록 시험 103건 -->
+- [x] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 82건 -->
+- [x] sirolimus — Coronary Disease에 듣는다  <!-- 등록 시험 60건 -->
 - [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
 - [ ] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->

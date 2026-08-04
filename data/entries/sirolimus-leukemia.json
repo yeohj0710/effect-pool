@@ -1,0 +1,36 @@
+{
+  "id": "sirolimus-leukemia",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 백혈병 치료에 더한다",
+  "line": "급성 골수성 백혈병에서 병용요법은 관해 신호를 보였지만 단독 효과는 모릅니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 55,
+  "synth": "single",
+  "why": "새로 진단된 급성 골수성 백혈병에서 시롤리무스를 표준 유도화학요법에 더한 1상 시험이 있습니다.",
+  "saw": "55명이 치료받았고 고위험군 일부와 중간위험군에서 완전관해 신호가 나왔지만, 비교군 없는 1상 병용시험이었습니다.",
+  "limit": "시롤리무스 단독 효과가 아니라 idarubicin·cytarabine 병용 결과이며, 관해율은 위험군별로 달랐습니다. 1상 시험이라 효능 확정 근거가 아닙니다.",
+  "against": "ClinicalTrials.gov의 다른 백혈병 시롤리무스 시험 다수는 이식 후 GVHD 예방 목적이어서 백혈병 종양 반응 근거로 해석할 수 없습니다.",
+  "use": "백혈병에서 시롤리무스는 화학요법 병용 연구 신호만 있으며 단독 항암제로 권할 근거는 없습니다.",
+  "refs": [
+    {
+      "label": "Odenike 2023 · Leukemia & Lymphoma · 급성 골수성 백혈병 시롤리무스 1상",
+      "pmid": "37958304"
+    },
+    {
+      "label": "NCT01822015 · 새로 진단된 급성 골수성 백혈병 시롤리무스 병용시험",
+      "nct": "NCT01822015"
+    },
+    {
+      "label": "NCT02583893 · 고위험 급성 골수성 백혈병 시롤리무스 병용시험",
+      "nct": "NCT02583893"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=sirolimus, cond=Leukemia → 127건 반환, InterventionName 대조 후 65건",
+    "pubmed": "sirolimus leukemia → 536건",
+    "negative": "sirolimus leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 434건",
+    "safety": "sirolimus leukemia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 145건"
+  }
+}
