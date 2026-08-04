@@ -2260,16 +2260,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] valsartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 109건 -->
 - [x] valsartan — Diabetes에 듣는다 — 기존 항목(valsartan-diabetes-null)  <!-- 등록 시험 25건 -->
-- [ ] valsartan — Nephropathy에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] candesartan — Heart Failure에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] candesartan — Migraine에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] candesartan — Diabetes에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] candesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] irbesartan — Kidney Disease에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] irbesartan — IgA Nephropathy에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] irbesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] irbesartan — Left Atrial Volume에 듣는다  <!-- 등록 시험 5건 -->
+- [x] valsartan — Nephropathy에 듣는다 — 기존 항목(valsartan-nephropathy-open)  <!-- 등록 시험 15건 -->
+- [x] valsartan — Kidney Disease에 듣는다 — 기존 항목(valsartan-kidney-disease-null)  <!-- 등록 시험 13건 -->
+- [x] candesartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] candesartan — Migraine에 듣는다 — 새 항목(candesartan-migraine-pos)  <!-- 등록 시험 8건 -->
+- [x] candesartan — Diabetes에 듣는다 — 새 항목(candesartan-diabetes-null)  <!-- 등록 시험 7건 -->
+- [x] candesartan — Obesity에 듣는다 — 새 항목(candesartan-obesity-open)  <!-- 등록 시험 6건 -->
+- [x] irbesartan — Kidney Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] irbesartan — IgA Nephropathy에 듣는다 — 새 항목(irbesartan-iga-nephropathy-null)  <!-- 등록 시험 8건 -->
+- [x] irbesartan — Obesity에 듣는다 — 새 항목(irbesartan-obesity-null)  <!-- 등록 시험 6건 -->
+- [x] irbesartan — Left Atrial Volume에 듣는다 — 새 항목(irbesartan-left-atrial-volume-pos)  <!-- 등록 시험 5건 -->
 - [ ] amlodipine — Diabetes에 듣는다  <!-- 등록 시험 24건 -->
 - [ ] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 -->
 - [ ] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 -->
@@ -2278,3 +2278,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] nifedipine — Preeclampsia에 듣는다  <!-- 등록 시험 14건 -->
 - [ ] nifedipine — Anal Pain에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] nifedipine — Kidney Stones에 듣는다  <!-- 등록 시험 6건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ceftriaxone — Infections에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] ceftriaxone — Infection에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] ceftriaxone — Sepsis에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] ceftriaxone — Lyme Disease에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] vancomycin — Infections에 듣는다  <!-- 등록 시험 76건 -->
+- [ ] vancomycin — Implant Site Infection에 듣는다  <!-- 등록 시험 29건 -->
+- [ ] vancomycin — Pneumonia에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] vancomycin — Sepsis에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] linezolid — HIV Infections에 듣는다  <!-- 등록 시험 59건 -->
+- [ ] linezolid — Pneumonia에 듣는다  <!-- 등록 시험 19건 -->
+- [ ] linezolid — Infection에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] linezolid — Pulmonary TB에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] meropenem — Infection에 듣는다  <!-- 등록 시험 36건 -->
+- [ ] meropenem — Infections에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] meropenem — Sepsis에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] meropenem — Pyelonephritis에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] cefepime — Lymphoma에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] cefepime — Leukemia에 듣는다  <!-- 등록 시험 11건 -->
+- [ ] cefepime — Neutropenia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] cefepime — Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] piperacillin — Infection에 듣는다  <!-- 등록 시험 25건 -->
+- [ ] piperacillin — Sepsis에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] piperacillin — Pneumonia에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] piperacillin — Febrile에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] gentamicin — Sepsis에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] gentamicin — Infections에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] gentamicin — Diabetic Foot Ulcer에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] gentamicin — Pneumonia에 듣는다  <!-- 등록 시험 7건 -->
