@@ -1,0 +1,32 @@
+{
+  "id": "canagliflozin-obesity",
+  "subj": "카나글리플로진",
+  "claim": "카나글리플로진을 비만에 쓴다",
+  "line": "당뇨병이 없는 비만 성인에서 체중을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 376,
+  "synth": "single",
+  "why": "당뇨병이 없는 과체중·비만 성인을 카나글리플로진과 위약에 무작위 배정한 ClinicalTrials.gov 결과 등록자료입니다.",
+  "saw": "NCT00650806은 실제 참여자 376명에서 체중 변화가 위약보다 컸고, NCT02243202는 335명에서 카나글리플로진 단독군과 위약군의 차이가 유의하지 않았지만 병용군은 더 크게 줄었습니다.",
+  "limit": "두 시험 모두 짧은 체중 결과이며 PubMed 직접 논문을 확인하지 못했습니다. 두 번째 시험은 병용군 결과가 섞여 카나글리플로진 단독 효과를 분리하기 어렵습니다.",
+  "against": "두 번째 335명 등록시험에서 카나글리플로진 단독군과 위약군의 체중 차이는 유의하지 않았습니다.",
+  "use": "당뇨병이 없는 비만 성인에서 체중 감소 신호가 있지만, 짧은 등록시험 결과만으로 비만 치료 효과를 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "NCT00650806 · 당뇨병 없는 과체중·비만 카나글리플로진 무작위시험 결과",
+      "nct": "NCT00650806"
+    },
+    {
+      "label": "NCT02243202 · 당뇨병 없는 과체중·비만 카나글리플로진 시험 결과",
+      "nct": "NCT02243202"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=canagliflozin&query.cond=Obesity → 9건 반환, InterventionName에 canagliflozin 포함 8건",
+    "pubmed": "canagliflozin Obesity → 156건",
+    "negative": "canagliflozin Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) → 132건",
+    "safety": "canagliflozin Obesity AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 71건"
+  }
+}

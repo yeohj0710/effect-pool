@@ -1,0 +1,32 @@
+{
+  "id": "canagliflozin-heart-failure",
+  "subj": "카나글리플로진",
+  "claim": "카나글리플로진을 심부전에 쓴다",
+  "line": "심부전 성인에서 증상 부담을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 476,
+  "synth": "single",
+  "why": "심부전 성인을 카나글리플로진과 위약에 무작위 배정한 CHIEF-HF 임상시험에서 심부전 증상 점수를 비교했습니다.",
+  "saw": "CHIEF-HF 476명에서 12주 심부전 증상 점수가 위약보다 좋아졌고, 당뇨병과 박출률에 관계없이 비슷한 방향을 보였습니다. CANVAS 10,142명 분석에서도 심혈관 사망·입원 심부전 위험이 낮았습니다.",
+  "limit": "CHIEF-HF는 조기에 등록을 끝냈고 추적기간이 짧으며 사망·입원 같은 임상 사건이 아니라 증상 점수를 주 결과로 삼았습니다. 카나글리플로진의 심부전 단독 허가 적응증은 아닙니다.",
+  "against": "반대 검색에서 직접적인 무효과 결과는 찾지 못했습니다. 다만 CHIEF-HF는 장기 사망·입원 효과를 검증하지 않았습니다.",
+  "use": "심부전 성인의 증상 부담을 줄일 가능성은 있지만 장기 임상 사건과 허가 범위를 넘어 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "2022 · CHIEF-HF 카나글리플로진 심부전 무작위시험",
+      "pmid": "35228753"
+    },
+    {
+      "label": "2018 · CANVAS 카나글리플로진 심부전·심혈관 결과 분석",
+      "pmid": "29526832"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=canagliflozin&query.cond=Heart Failure → 8건 반환, InterventionName에 canagliflozin 포함 7건",
+    "pubmed": "canagliflozin Heart Failure → 502건",
+    "negative": "canagliflozin Heart Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 418건",
+    "safety": "canagliflozin Heart Failure AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 217건"
+  }
+}

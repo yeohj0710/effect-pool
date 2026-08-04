@@ -413,16 +413,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 -->
 - [x] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 -->
 - [x] canagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 10건 --> — 근거 없음(2026-08-04 조회, canagliflozin AND Lung Cancer; ClinicalTrials.gov 1건 반환·InterventionName 대조 후 결과 논문 없음, PubMed 16건)
-- [ ] canagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] canagliflozin — Obesity에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] canagliflozin — Cardiovascular Risk에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] tirzepatide — Diabetes에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] tirzepatide — Overweight에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] tirzepatide — Breast Cancer에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] tirzepatide — Alcohol에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] methylphenidate — ADHD에 듣는다  <!-- 등록 시험 56건 -->
-- [ ] methylphenidate — Cocaine Dependence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] methylphenidate — Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 17건 -->
+- [x] canagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 5건 -->
+- [x] canagliflozin — Obesity에 듣는다  <!-- 등록 시험 4건 -->
+- [x] canagliflozin — Cardiovascular Risk에 듣는다  <!-- 등록 시험 4건 --> — 허가 적응증(2026-08-04)
+- [x] tirzepatide — Diabetes에 듣는다  <!-- 등록 시험 70건 --> — 허가 적응증(2026-08-04)
+- [x] tirzepatide — Overweight에 듣는다  <!-- 등록 시험 34건 --> — 허가 적응증(2026-08-04)
+- [x] tirzepatide — Breast Cancer에 듣는다  <!-- 등록 시험 17건 -->
+- [x] tirzepatide — Alcohol에 듣는다  <!-- 등록 시험 16건 -->
+- [x] methylphenidate — ADHD에 듣는다  <!-- 등록 시험 56건 --> — 허가 적응증(2026-08-04)
+- [x] methylphenidate — Cocaine Dependence에 듣는다  <!-- 등록 시험 18건 -->
+- [x] methylphenidate — Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 17건 -->
 - [ ] methylphenidate — Fatigue에 듣는다  <!-- 등록 시험 16건 -->
 - [ ] ruxolitinib — Leukemia에 듣는다  <!-- 등록 시험 122건 -->
 - [ ] ruxolitinib — Cancer에 듣는다  <!-- 등록 시험 65건 -->

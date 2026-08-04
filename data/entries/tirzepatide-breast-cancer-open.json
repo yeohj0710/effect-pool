@@ -1,0 +1,36 @@
+{
+  "id": "tirzepatide-breast-cancer-open",
+  "subj": "티르제파타이드",
+  "claim": "티르제파타이드를 유방암에 쓴다",
+  "line": "유방암에서 티르제파타이드의 임상 효과는 아직 공개되지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 40,
+  "synth": "single",
+  "why": "유방암 환자에서 체중과 종양 관련 지표를 평가하는 티르제파타이드 시험이 등록됐지만 결과가 공개되지 않았습니다.",
+  "saw": "NCT06518837은 초기 호르몬수용체 양성·HER2 음성 유방암 환자 40명을 모집 중이며, NCT07257484는 폐경 후 HR 양성 유방암 생존자 30명을 모집 중입니다. NCT06485089는 25명 관찰시험을 완료했지만 결과가 없습니다.",
+  "limit": "등록시험의 직접 임상 결과가 없고 PubMed에는 티르제파타이드 유방암 환자시험이 없습니다. 유방암 생존율이나 재발 감소를 입증한 근거가 아닙니다.",
+  "against": "찾아봤지만 유방암 환자에서 티르제파타이드의 효과를 보고한 직접 결과 논문은 확인하지 못했습니다.",
+  "use": "유방암에서 티르제파타이드 효과는 아직 판정할 수 없고 등록시험 결과를 기다려야 합니다.",
+  "refs": [
+    {
+      "label": "NCT06518837 · 초기 유방암 체중감량 중재시험 · 모집 중",
+      "nct": "NCT06518837"
+    },
+    {
+      "label": "NCT07257484 · 폐경 후 유방암 생존자 티르제파타이드 시험 · 모집 중",
+      "nct": "NCT07257484"
+    },
+    {
+      "label": "NCT06485089 · 유방암 바이오마커 관찰시험 · 결과 미공개",
+      "nct": "NCT06485089"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=tirzepatide&query.cond=Breast Cancer → 5건 반환, InterventionName에 tirzepatide 포함 5건",
+    "pubmed": "tirzepatide Breast Cancer → 14건",
+    "negative": "tirzepatide Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 12건",
+    "safety": "tirzepatide Breast Cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 5건"
+  }
+}
