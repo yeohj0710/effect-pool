@@ -261,6 +261,51 @@ DOI가 없는 옛 논문은 `pmc`나 `pmid`만 적으면 된다. 없는 DOI를 �
 
 ---
 
+## 조회에 쓰는 API
+
+**브라우저를 띄우지 마라.** 둘 다 인증이 없는 REST 라 `curl` 하나로 끝난다.
+
+### ClinicalTrials.gov v2
+
+```bash
+curl -s "https://clinicaltrials.gov/api/v2/studies?query.intr=<물질>&query.cond=<대상>&countTotal=true&pageSize=50&fields=NCTId,BriefTitle,Phase,OverallStatus,EnrollmentCount,Condition,InterventionName"
+```
+
+`totalCount` 가 전체 건수다. `interventions[].name` 이 물질 동일성 대조에 쓸 필드다.
+
+**반환된 건수를 그대로 믿지 마라.** 검색이 동의어를 확장해서 다른 물질을 끼워 넣는다.
+`InterventionName` 에 조회한 물질 이름이 실제로 들어 있는 건만 세라.
+
+```bash
+# 예: 펜벤다졸 -> 7건 반환되지만 실제로는 0건 (옥스펜다졸 3건 + 무관 4건)
+curl -s "https://clinicaltrials.gov/api/v2/studies?query.intr=fenbendazole&countTotal=true&pageSize=50&fields=NCTId,InterventionName" \
+  | grep -ci "fenbendazole"
+```
+
+### PubMed E-utilities
+
+```bash
+# 검색 -> PMID 목록과 총 건수
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=<검색식>&retmode=json&retmax=20"
+
+# PMID -> 제목·저널·연도·DOI
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=<PMID,PMID>&retmode=json"
+```
+
+키 없이 초당 3회까지다. 그 이상 때리면 429 가 온다. 호출 사이에 0.4초쯤 쉬어라.
+`esummary` 의 `articleids` 에서 `doi` 와 `pmc` 를 꺼내 `refs` 에 넣는다. 없으면 `pmid` 만 넣는다.
+
+### 반대쪽·안전성 검색식 틀
+
+규칙 3의 5·6번에서 쓴다. 긍정 검색어로 나온 목록에 이게 섞여 들어오길 기대하지 마라.
+
+```
+<물질> AND <대상> AND (no effect OR "did not" OR "failed to" OR negative OR "no significant difference")
+<물질> AND (adverse OR toxicity OR hepatotoxicity OR "case report" OR overdose OR "self-medication")
+```
+
+---
+
 ## 출처 우선순위
 
 1. **ClinicalTrials.gov** — 사람 개입 연구의 존재 여부는 여기가 1순위다.
