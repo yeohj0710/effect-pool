@@ -3938,16 +3938,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
-- [ ] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 -->
-- [ ] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 -->
+- [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
+- [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia-null)  <!-- 등록 시험 24건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
+- [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria)  <!-- 등록 시험 16건 -->
+- [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
+- [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
+- [x] dapsone — Leprosy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 4건 -->
 - [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 -->
 - [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 -->
 - [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 -->
