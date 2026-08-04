@@ -2270,14 +2270,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] irbesartan — IgA Nephropathy에 듣는다 — 새 항목(irbesartan-iga-nephropathy-null)  <!-- 등록 시험 8건 -->
 - [x] irbesartan — Obesity에 듣는다 — 새 항목(irbesartan-obesity-null)  <!-- 등록 시험 6건 -->
 - [x] irbesartan — Left Atrial Volume에 듣는다 — 새 항목(irbesartan-left-atrial-volume-pos)  <!-- 등록 시험 5건 -->
-- [ ] amlodipine — Diabetes에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] amlodipine — Hyperlipidemia에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] nifedipine — Preterm Labor에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] nifedipine — Preeclampsia에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] nifedipine — Anal Pain에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] nifedipine — Kidney Stones에 듣는다  <!-- 등록 시험 6건 -->
+- [x] amlodipine — Diabetes에 듣는다 — 기존 항목(amlodipine-diabetes-open)  <!-- 등록 시험 24건 -->
+- [x] amlodipine — Blood Pressure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
+- [x] amlodipine — Coronary Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
+- [x] amlodipine — Hyperlipidemia에 듣는다 — 기존 항목(amlodipine-hyperlipidemia-open)  <!-- 등록 시험 12건 -->
+- [x] nifedipine — Preterm Labor에 듣는다 — 새 항목(nifedipine-preterm-labor-pos)  <!-- 등록 시험 36건 -->
+- [x] nifedipine — Preeclampsia에 듣는다 — 새 항목(nifedipine-preeclampsia-pos)  <!-- 등록 시험 14건 -->
+- [x] nifedipine — Anal Pain에 듣는다 — 새 항목(nifedipine-anal-pain-pos)  <!-- 등록 시험 7건 -->
+- [x] nifedipine — Kidney Stones에 듣는다 — 새 항목(nifedipine-kidney-stones-null)  <!-- 등록 시험 6건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2288,8 +2288,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ceftriaxone — Infections에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ceftriaxone — Infection에 듣는다  <!-- 등록 시험 18건 -->
+- [x] ceftriaxone — Infections에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] ceftriaxone — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
 - [ ] ceftriaxone — Sepsis에 듣는다  <!-- 등록 시험 11건 -->
 - [ ] ceftriaxone — Lyme Disease에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] vancomycin — Infections에 듣는다  <!-- 등록 시험 76건 -->

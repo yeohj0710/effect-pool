@@ -1,0 +1,26 @@
+{
+  "id": "nifedipine-preterm-labor-pos",
+  "subj": "니페디핀",
+  "claim": "니페디핀이 조산을 억제한다",
+  "line": "조산에서 분만을 지연했습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2179,
+  "synth": "meta",
+  "why": "조산에서 니페디핀의 자궁수축 억제 효과와 안전성을 평가한 무작위시험 메타분석이 있습니다.",
+  "saw": "PMID 21284967은 26개 무작위시험 2179명의 메타분석입니다. 니페디핀은 베타 작용제보다 7일 이내 분만과 34주 이전 분만 위험을 낮췄고, 마그네슘황산염과 자궁수축 억제 효과 차이는 없었습니다.",
+  "limit": "비교약과의 단기 분만 지연 결과이며 조산 원인 자체를 치료하거나 장기 신경발달을 개선한다는 근거는 아닙니다. 유지요법은 위약·무치료보다 임신 연장이나 신생아 결과를 개선하지 못했습니다.",
+  "against": "메타분석 안에서도 유지요법은 효과가 없었고, 반대 방향 검색에서 효과 없음 또는 차이 없음을 언급한 317건을 확인했습니다. 안전성 검색은 203건이었습니다.",
+  "use": "급성 조산에서 비교약 대비 분만 지연 근거로만 기록하고 유지요법이나 모든 임신 합병증에 확대하지 말아야 합니다.",
+  "refs": [
+    { "label": "Conde-Agudelo 2011 · 조산에서 니페디핀 자궁수축 억제 무작위시험 메타분석", "pmid": "21284967" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"NIFEDIPINE\" → 89건 반환; 허가 문구는 고혈압·혈관경련성 및 만성 안정형 협심증이며 조산 적응증 없음",
+    "ctgov": "query.intr=nifedipine&query.cond=Preterm Labor → 38건 반환, InterventionName 대조 후 32건",
+    "pubmed": "nifedipine Preterm Labor → 404건",
+    "negative": "nifedipine Preterm Labor (no effect OR did not OR failed to OR negative OR no significant difference) → 317건",
+    "safety": "nifedipine Preterm Labor (adverse OR toxicity OR case report) → 203건"
+  }
+}
