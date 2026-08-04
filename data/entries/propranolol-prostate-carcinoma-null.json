@@ -1,0 +1,27 @@
+{
+  "id": "propranolol-prostate-carcinoma-null",
+  "subj": "전립선암",
+  "claim": "propranolol이 전립선암에 듣는다",
+  "line": "전립선암 환자에서 propranolol이 생존이나 재발을 개선한다는 직접 인체시험 근거는 확인되지 않았습니다",
+  "tier": "obs",
+  "dir": "null",
+  "n": null,
+  "synth": "single",
+  "why": "전립선암과 아드레날린성 신호를 다룬 종설은 propranolol의 기전적 가능성을 제시하지만, 전립선암 환자를 대상으로 한 직접 임상효과 자료를 제시하지 않습니다.",
+  "saw": "2025년 종설은 종양 관련 연구 31편을 검토했지만 전립선암에 대한 직접 무작위시험 근거를 확인하지 못했습니다. 전립선암 환자 수를 합산한 원문 수치는 보고하지 않았습니다.",
+  "limit": "기전 연구와 여러 암종의 간접 자료를 전립선암 임상효과로 바꿔 읽을 수 없습니다. 현재 항목의 사람 수는 원문에서 합산할 수 없어 null입니다.",
+  "against": "전립선암 약물 재창출 종설에서 propranolol의 임상시험 근거는 전립선암이 아닌 다른 암종 또는 기전 연구에 한정됩니다.",
+  "use": "전립선암 치료 효과를 주장할 근거로 사용하지 말고, 직접 환자시험이 필요한 가설로 남겨야 합니다.",
+  "refs": [
+    { "label": "2025 전립선암과 propranolol 종설", "doi": "10.1007/s00432-025-06262-2", "pmid": "40652143", "pmc": "PMC12255574" },
+    { "label": "ADRB2 표적 전립선암 종설", "doi": "10.3390/cancers11030358", "pmid": "30871232", "pmc": "PMC6468358" },
+    { "label": "종양 약물 재창출 종설", "doi": "10.3390/cancers15112972", "pmid": "37296934", "pmc": "PMC10251882" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=propranolol&query.cond=prostate carcinoma → 4건 반환, InterventionName에 propranolol 포함 3건",
+    "pubmed": "propranolol AND (prostate cancer OR prostate carcinoma) → 33건",
+    "negative": "propranolol AND (prostate cancer OR prostate carcinoma) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 26건",
+    "safety": "propranolol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,577건"
+  }
+}

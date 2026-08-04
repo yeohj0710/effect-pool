@@ -1,0 +1,27 @@
+{
+  "id": "naltrexone-pain-null",
+  "subj": "만성 통증",
+  "claim": "naltrexone이 통증에 듣는다",
+  "line": "저용량 naltrexone 만성 통증 7개 무작위시험 406명 메타분석에서 전체 통증은 대조군과 유의한 차이가 없었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 406,
+  "synth": "meta",
+  "why": "저용량 naltrexone의 만성 통증 연구를 합친 메타분석은 통증 결과를 대조군과 비교했지만, 전체 만성 통증에 대한 효과가 일관되게 확인되지 않았습니다.",
+  "saw": "2025년 메타분석은 7개 무작위시험에서 무작위 배정된 406명을 검토했고 전체 통증 결과에서 대조군과 유의한 차이를 찾지 못했습니다.",
+  "limit": "연구마다 통증 질환과 지표가 달라 만성 통증 전체로 일반화하기 어렵습니다.",
+  "against": "섬유근육통을 대상으로 한 초기 소규모 연구의 긍정 신호가 있었지만, 후속 무작위시험과 종설에서는 효과가 일관되지 않았습니다.",
+  "use": "naltrexone이 만성 통증 전반에 효과가 있다고 단정하지 말고, 질환별·지표별 불확실성을 남겨야 합니다.",
+  "refs": [
+    { "label": "McKenzie-Brown 2025 · Current Pain and Headache Reports · 만성 통증 메타분석", "doi": "10.1007/s11916-025-01411-1", "pmid": "40540205" },
+    { "label": "Chandran 2020 · Current Pain and Headache Reports · 저용량 naltrexone 통증 검토", "doi": "10.1007/s11916-020-00898-0", "pmid": "32845365" },
+    { "label": "Yang 2023 · Journal of Pain Research · 섬유근육통 체계적 문헌고찰", "doi": "10.2147/JPR.S395457", "pmid": "36974308", "pmc": "PMC10039621" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=naltrexone&query.cond=pain → 45건 반환, InterventionName에 naltrexone 포함 32건",
+    "pubmed": "naltrexone AND pain → 1,827건",
+    "negative": "naltrexone AND pain AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 1,623건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,894건"
+  }
+}

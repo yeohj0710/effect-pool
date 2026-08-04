@@ -1,0 +1,27 @@
+{
+  "id": "gabapentin-drug-dependence-null",
+  "subj": "약물 의존",
+  "claim": "gabapentin이 약물 의존에 듣는다",
+  "line": "약물의존 치료 효과를 입증한 근거는 확인되지 않았고, 오피오이드 사용장애 등 고위험군에서 gabapentin 오남용·의존이 확인되었습니다",
+  "tier": "obs",
+  "dir": "harm",
+  "n": null,
+  "synth": "single",
+  "why": "gabapentin 오남용과 오용을 조사한 체계적 문헌고찰은 치료 효과보다 약물의존·오남용 위험이 큰 집단에서의 안전성 문제를 다룹니다.",
+  "saw": "체계적 문헌고찰은 46개 관찰연구와 10개 증례·증례군 등 55개 연구를 검토했고, 약물의존 집단에서 gabapentin 오남용이 보고됐습니다. 연구 전체의 사람 수 합계는 원문에서 제시하지 않았습니다.",
+  "limit": "오남용 위험에 관한 관찰·증례 근거이므로 약물의존 치료 효과의 크기를 산출할 수 없습니다. 합산 참가자 수를 확인할 수 없어 n은 null입니다.",
+  "against": "오피오이드 사용장애 환자를 대상으로 한 무작위시험에서는 치료 완료와 갈망·금단·오피오이드 사용 개선이 확인되지 않았습니다.",
+  "use": "gabapentin을 약물의존 치료제로 소개할 근거는 부족하고, 고위험군의 오남용·의존 위험을 먼저 표시해야 합니다.",
+  "refs": [
+    { "label": "Evoy 2021 · Drugs · gabapentin 오남용·오용 체계적 문헌고찰", "doi": "10.1007/s40265-020-01432-7", "pmid": "33215352" },
+    { "label": "Smith 2016 · Addiction · gabapentin 오남용 위험 검토", "doi": "10.1111/add.13315", "pmid": "26798136" },
+    { "label": "처방 오피오이드 사용장애 gabapentin 무작위시험", "doi": "10.1080/00952990.2025.2564757", "pmid": "41401348", "nct": "NCT02543944" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=gabapentin&query.cond=drug dependence → 5건 반환, InterventionName에 gabapentin 포함 3건",
+    "pubmed": "gabapentin AND (drug dependence OR substance use disorder) → 665건",
+    "negative": "gabapentin AND (drug dependence OR substance use disorder) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 503건",
+    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+  }
+}

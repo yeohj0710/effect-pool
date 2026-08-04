@@ -1,0 +1,26 @@
+{
+  "id": "gabapentin-opioid-use-null",
+  "subj": "오피오이드 사용장애",
+  "claim": "gabapentin이 오피오이드 사용에 듣는다",
+  "line": "처방 오피오이드 사용장애 환자 117명을 무작위로 비교한 시험에서 gabapentin은 치료 완료, naltrexone 전환, 갈망, 금단, 오피오이드 사용을 개선하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 117,
+  "synth": "single",
+  "why": "처방 오피오이드 사용장애 환자에서 gabapentin과 위약을 비교한 무작위시험이 치료 과정과 임상 결과를 직접 측정했습니다.",
+  "saw": "117명이 참여한 무작위 위약대조시험에서 치료 완료, naltrexone 전환, 갈망, 금단, 오피오이드 사용 결과에 군 간 유의한 차이가 없었습니다.",
+  "limit": "처방 오피오이드 사용장애에 관한 단일 시험이며, 다른 오피오이드·다른 치료 환경·장기 결과로 일반화할 수 없습니다.",
+  "against": "gabapentin 오남용 검토에서는 오피오이드 사용장애가 오남용 위험이 큰 집단으로 반복 보고됐습니다. 효과가 없다는 결과와 안전성 위험을 함께 봐야 합니다.",
+  "use": "오피오이드 사용장애 치료 효과가 확인됐다고 해석하지 말고, 직접 시험에서 확인된 무효과와 오남용 위험을 함께 표시해야 합니다.",
+  "refs": [
+    { "label": "2025 처방 오피오이드 사용장애 무작위시험", "doi": "10.1080/00952990.2025.2564757", "pmid": "41401348", "nct": "NCT02543944" },
+    { "label": "Evoy 2021 · Drugs · gabapentin 오남용·오용 체계적 문헌고찰", "doi": "10.1007/s40265-020-01432-7", "pmid": "33215352" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=gabapentin&query.cond=opioid use → 43건 반환, InterventionName에 gabapentin 포함 30건",
+    "pubmed": "gabapentin AND (opioid use OR opioid-related disorder) → 2,045건",
+    "negative": "gabapentin AND (opioid use OR opioid-related disorder) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 1,557건",
+    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+  }
+}

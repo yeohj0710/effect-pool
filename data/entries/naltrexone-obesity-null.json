@@ -1,0 +1,26 @@
+{
+  "id": "naltrexone-obesity-null",
+  "subj": "비만",
+  "claim": "naltrexone이 비만에 듣는다",
+  "line": "비만 약물 28개 무작위시험 29,018명 메타분석에서 naltrexone-bupropion 조합은 체중을 줄였지만 naltrexone 단독 효과는 분리되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 29018,
+  "synth": "meta",
+  "why": "비만 약물 네트워크 메타분석에서 naltrexone은 주로 bupropion과의 조합으로 평가됐습니다. 단독 naltrexone의 효과를 조합 효과에서 분리할 수 있는 근거는 확인되지 않았습니다.",
+  "saw": "28개 무작위시험 29,018명을 비교한 네트워크 메타분석에서 naltrexone-bupropion 조합의 체중 감소 효과가 보고됐습니다.",
+  "limit": "합산 인원과 효과는 비만 약물 네트워크 전체 및 naltrexone-bupropion 조합에 관한 수치입니다. naltrexone 단독의 효과와 조합 효과를 구분하지 못합니다.",
+  "against": "naltrexone-bupropion 조합 연구를 naltrexone 단독 치료로 해석하면 성분별 효과와 이상반응을 잘못 귀속할 수 있습니다.",
+  "use": "비만에서 naltrexone 단독 효과가 입증됐다고 읽지 말고, 조합 연구라는 제한을 먼저 표시해야 합니다.",
+  "refs": [
+    { "label": "Khera 2016 · JAMA · 비만 약물 네트워크 메타분석", "doi": "10.1001/jama.2016.7602", "pmid": "27299618", "pmc": "PMC5617638" },
+    { "label": "Greenway 2010 · Lancet · naltrexone-bupropion COR-I 시험", "doi": "10.1016/S0140-6736(10)60888-4", "pmid": "20673995", "nct": "NCT00532779" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=naltrexone&query.cond=obesity → 56건 반환, InterventionName에 naltrexone 포함 38건",
+    "pubmed": "naltrexone AND obesity → 582건",
+    "negative": "naltrexone AND obesity AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 475건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,894건"
+  }
+}

@@ -669,8 +669,9 @@ function openById(id, scroll){
 /* ── 처음 들어왔을 때 주소 상태를 되살린다 ── */
 function applyUrl(scroll){
   const p = new URLSearchParams(location.search);
-  const d = p.get('d'), q = p.get('q') || '';
-  setChip(DIR[d] ? d : 'all');
+  // DIR 에 "null"(효과 없음) 키가 있고 get() 도 없으면 null 을 준다. 문자열로 받아서 갈라야 한다.
+  const d = p.get('d') ?? '', q = p.get('q') ?? '';
+  setChip(Object.prototype.hasOwnProperty.call(DIR, d) ? d : 'all');
   query = q; qEl.value = q;
   paint();
   const id = decodeURIComponent(location.hash.slice(1));

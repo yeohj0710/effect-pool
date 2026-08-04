@@ -1,0 +1,27 @@
+{
+  "id": "naltrexone-substance-use",
+  "subj": "물질사용장애",
+  "claim": "naltrexone이 물질사용장애에 듣는다",
+  "line": "알코올 사용장애 약물치료 118개 임상시험 20,976명 메타분석에서 naltrexone은 음주 결과를 개선했지만, 이 결과를 모든 물질사용장애로 일반화할 수는 없습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 20976,
+  "synth": "meta",
+  "why": "naltrexone의 임상 근거는 물질사용장애 전체보다 알코올 사용장애에 집중되어 있습니다. 해당 메타분석은 음주 감소와 금주 결과를 약물별로 비교했습니다.",
+  "saw": "알코올 사용장애 약물치료 메타분석은 118개 임상시험과 20,976명을 합쳤고, naltrexone에서 음주 관련 결과의 개선 신호를 보고했습니다.",
+  "limit": "주요 근거가 알코올 사용장애에 관한 것이므로 오피오이드·자극제 등 다른 물질사용장애의 효과로 확장할 수 없습니다. 항목의 넓은 질환명과 연구 조건이 일치하지 않습니다.",
+  "against": "알코올 사용장애와 여러 물질사용장애를 함께 본 검토에서는 약물치료 효과가 치료 종류와 결과 지표에 따라 달랐고, naltrexone의 모든 물질사용장애 효과를 확정하지 않았습니다.",
+  "use": "naltrexone의 근거가 확인된 범위를 알코올 사용장애 중심으로 읽고, 다른 물질사용장애에는 별도 근거가 필요하다고 표시해야 합니다.",
+  "refs": [
+    { "label": "Bahji 2023 · JAMA · 알코올 사용장애 약물치료 메타분석", "doi": "10.1001/jama.2023.19761", "pmid": "37934220", "pmc": "PMC10630900" },
+    { "label": "McPheeters 2022 · Alcohol Clin Exp Res · 알코올 사용장애 약물치료 검토", "doi": "10.1097/ADM.0000000000000992", "pmid": "35653782", "pmc": "PMC10010623" },
+    { "label": "Hennessy 2020 · JAMA Network Open · 알코올·물질사용장애 통합 중재 메타분석", "doi": "10.1001/jamanetworkopen.2020.8279", "pmid": "32558914", "pmc": "PMC7305524" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=naltrexone&query.cond=substance use → 110건 반환, InterventionName에 naltrexone 포함 62건",
+    "pubmed": "naltrexone AND (substance use OR substance-related disorder) → 4,232건",
+    "negative": "naltrexone AND (substance use OR substance-related disorder) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 3,134건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,894건"
+  }
+}
