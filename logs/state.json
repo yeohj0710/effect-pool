@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 570,
   "worklist": {
-    "checked": 3888,
-    "unchecked": 230,
+    "checked": 3898,
+    "unchecked": 220,
     "no_evidence_pending": 0,
     "next_batch": [
-      "metformin-lung-cancer",
-      "metformin-polycystic-ovary",
-      "metformin-obesity",
-      "metformin-insulin-resistance",
-      "aspirin-stroke",
-      "aspirin-colon-cancer",
-      "aspirin-brain-infarction",
-      "aspirin-cardiovascular-events",
-      "propranolol-migraine",
-      "propranolol-stress-reaction"
+      "propranolol-ovarian-carcinoma",
+      "propranolol-cirrhosis",
+      "naltrexone-alcoholism",
+      "naltrexone-marijuana-use",
+      "naltrexone-obesity",
+      "naltrexone-pain",
+      "gabapentin-cancer",
+      "gabapentin-opioid-use",
+      "gabapentin-nausea",
+      "gabapentin-drug-dependence"
     ]
   },
   "verification": {
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "fluoxetine-depressive-disorder-approved",
-    "fluoxetine-social-anxiety-pos (existing)",
-    "fluoxetine-stroke-null (existing)",
-    "fluoxetine-obsessive-compulsive-disorder-approved",
-    "carvedilol-heart-failure-approved",
-    "carvedilol-cirrhosis-pos (existing)",
-    "carvedilol-esophageal-varix-null (existing)",
-    "carvedilol-cancer-pos (existing)",
-    "pioglitazone-insulin-resistance-pos (existing)",
-    "pioglitazone-liver-pos (existing)"
+    "metformin-lung-cancer-null (existing)",
+    "metformin-polycystic-ovary-null (existing)",
+    "metformin-obesity-pos (existing)",
+    "metformin-insulin-resistance-null (existing)",
+    "aspirin-stroke-pos (existing)",
+    "aspirin-colon-cancer-null (existing)",
+    "aspirin-brain-infarction-pos (existing)",
+    "aspirin-cardiovascular-events-approved",
+    "propranolol-migraine-approved",
+    "propranolol-stress-reaction-null (existing)"
   ],
   "resume": {
-    "last_committed_batch": "fluoxetine, carvedilol, pioglitazone",
-    "current_batch": "fluoxetine, carvedilol, pioglitazone",
+    "last_committed_batch": "metformin, aspirin, propranolol",
+    "current_batch": "metformin, aspirin, propranolol",
     "next_action": "build, commit, push, then process next batch"
   }
 }
