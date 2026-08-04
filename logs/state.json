@@ -1,35 +1,59 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 330,
+  "entries": 344,
   "worklist": {
-    "checked": 1299,
-    "unchecked": 20,
+    "checked": 1319,
+    "unchecked": 220,
     "no_evidence_pending": 0,
     "next_batch": [
-      "fluoxetine — Depressive Disorder",
-      "fluoxetine — Social Anxiety",
-      "fluoxetine — Stroke",
-      "fluoxetine — Obsessive-Compulsive Disorder",
-      "pioglitazone — Insulin Resistance",
-      "pioglitazone — Liver",
-      "pioglitazone — Lung Cancer",
-      "pioglitazone — Metabolic Syndrome",
-      "celecoxib — Pain",
-      "celecoxib — Osteoarthritis"
+      "metformin — Colon Cancer",
+      "metformin — Polycystic Ovary Syndrom",
+      "metformin — Insulin Resistance",
+      "metformin — Acute Lymphoblastic Leukemia",
+      "aspirin — Stroke",
+      "aspirin — Brain Infarction",
+      "aspirin — Cancer",
+      "aspirin — Cardiovascular Disease",
+      "propranolol — Migraine",
+      "propranolol — Stress Reaction"
     ]
   },
   "last_batch": [
-    "fluoxetine-worklist-expansion",
-    "pioglitazone-worklist-expansion",
-    "celecoxib-worklist-expansion",
-    "metoprolol-worklist-expansion",
-    "amlodipine-worklist-expansion"
+    "fluoxetine-depressive-disorder-approved",
+    "fluoxetine-social-anxiety-open",
+    "fluoxetine-stroke-open",
+    "fluoxetine-obsessive-compulsive-disorder-approved",
+    "pioglitazone-insulin-resistance-open",
+    "pioglitazone-liver-open",
+    "pioglitazone-lung-cancer-null",
+    "pioglitazone-metabolic-syndrome-pos",
+    "celecoxib-pain-approved",
+    "celecoxib-osteoarthritis-approved",
+    "celecoxib-colon-carcinoma-open",
+    "celecoxib-covid-19-null",
+    "metoprolol-heart-rate-pos",
+    "metoprolol-atrial-flutter-open",
+    "metoprolol-myocardial-ischemia-pos",
+    "metoprolol-cardiomyopathy-pos",
+    "amlodipine-diabetes-open",
+    "amlodipine-blood-pressure-approved",
+    "amlodipine-coronary-disease-approved",
+    "amlodipine-hyperlipidemia-open"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
-    "unknown_n_warnings": 0
+    "unknown_n_warnings": 0,
+    "tier_distribution": {
+      "trial": 306,
+      "obs": 31,
+      "animal": 1,
+      "lab": 2,
+      "case": 4
+    },
+    "no_effect_or_harm": 144,
+    "no_effect_or_harm_share": "42%"
   },
   "deployment": {
     "last_entry_count": 301,
@@ -37,8 +61,8 @@
     "deployment_id": "dpl_43rV6RVfGrHXPVXq2H36AxmLtJiN"
   },
   "resume": {
-    "last_committed_batch": "d20d2cc",
-    "current_batch": "new-material worklist expansion",
+    "last_committed_batch": "5c753df",
+    "current_batch": "new-material worklist reconciliation through amlodipine",
     "next_action": "commit and push, then research next_batch"
   }
 }

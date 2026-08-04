@@ -1,0 +1,41 @@
+{
+  "id": "pioglitazone-metabolic-syndrome-pos",
+  "subj": "피오글리타존",
+  "claim": "대사증후군의 인슐린 감수성과 지질 지표를 개선한다",
+  "line": "대사증후군 지표는 좋아졌지만 체중이 늘었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3186,
+  "synth": "meta",
+  "why": "대사증후군 기준을 충족한 제2형 당뇨병 무작위시험들을 합친 분석에서 피오글리타존이 대사 지표를 개선했지만 체중 증가는 남았습니다.",
+  "saw": "4개 다기관 무작위시험의 대사증후군 하위군 분석에는 총 3186명이 포함됐고, 피오글리타존군에서 혈당·인슐린 저항성 지표와 일부 지질 지표가 비교군보다 개선됐습니다. 대사증후군 성인 37명 무작위시험에서는 여러 혈장 세라마이드가 줄었지만, 당뇨가 없는 32명 시험에서는 일부 지표의 군 간 차이가 유의하지 않았습니다.",
+  "limit": "대사증후군 전체가 아니라 제2형 당뇨병 하위군과 소규모 대사 지표 시험이 중심이며, 체중·혈압 등 모든 구성요소가 일관되게 개선된 것은 아닙니다.",
+  "against": "비교 메타분석은 피오글리타존에서 체중이 약 2~3kg 늘었다고 정리했습니다. 소규모 무당뇨 시험에서도 여러 대사증후군 구성요소의 군 간 차이는 유의하지 않았습니다.",
+  "use": "대사증후군에서 대사 지표 개선과 체중 증가를 함께 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Guan 2005 · Int J Clin Pract · 대사증후군 제2형 당뇨병 피오글리타존 하위군 분석",
+      "pmid": "15854187"
+    },
+    {
+      "label": "Hernandez 2015 · J Clin Pharmacol · 대사증후군 피오글리타존 무작위시험",
+      "pmid": "25959529"
+    },
+    {
+      "label": "Samaha 2016 · Ann Pharmacother · 무당뇨 대사증후군 피오글리타존 시험",
+      "pmid": "26822630"
+    },
+    {
+      "label": "Yki-Jarvinen 2007 · Curr Diab Rev · 피오글리타존·로시글리타존 메타분석",
+      "pmid": "18220664"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:PIOGLITAZONE → 54건; 제2형 당뇨병 혈당 조절 문구만 확인되어 Metabolic Syndrome 단독 적응증은 없음",
+    "ctgov": "query.intr=pioglitazone&query.cond=Metabolic Syndrome → 62건 반환, InterventionName 대조 후 58건",
+    "pubmed": "pioglitazone AND Metabolic Syndrome → 448건",
+    "negative": "pioglitazone AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 359건",
+    "safety": "pioglitazone AND Metabolic Syndrome AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 146건"
+  }
+}

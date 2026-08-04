@@ -1,0 +1,33 @@
+{
+  "id": "amlodipine-hyperlipidemia-open",
+  "subj": "암로디핀",
+  "claim": "고지혈증에서 지질 목표를 개선한다",
+  "line": "고지혈증의 LDL 개선은 다른 약 병용 결과라 암로디핀 효과로 볼 수 없습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 134,
+  "synth": "single",
+  "why": "고혈압·고지혈증 환자 병용시험에서 LDL 목표가 개선됐지만 statin과 암로디핀의 효과를 분리할 수 없습니다.",
+  "saw": "고혈압과 고지혈증 환자 134명을 무작위 배정한 시험은 telmisartan·amlodipine과 rosuvastatin 병용을 비교했고 LDL과 혈압을 함께 평가했습니다. 별도 499명 단일정 연구에서도 암로디핀·atorvastatin 병용으로 혈압·LDL 목표 도달률이 높아졌습니다.",
+  "limit": "모든 핵심 결과가 statin 또는 복합제에 의존하고 암로디핀 단독군이 없어, 암로디핀이 LDL을 낮춘다고 판단할 수 없습니다.",
+  "against": "고지혈증의 LDL 개선을 직접 보여준 연구는 statin 병용 연구였고, 암로디핀 단독 지질 저하 근거는 확인하지 못했습니다.",
+  "use": "복합제의 지질 개선을 암로디핀 단독 효과로 오해하지 않도록 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Chrysant 2019 · Clin Ther · telmisartan·amlodipine·rosuvastatin 무작위시험",
+      "pmid": "30904178"
+    },
+    {
+      "label": "Taylor 2008 · J Clin Hypertens · 암로디핀·atorvastatin CAPABLE 연구",
+      "pmid": "18174006"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:AMLODIPINE → 244건; 고지혈증 적응증 문구 없음",
+    "ctgov": "query.intr=amlodipine&query.cond=Hyperlipidemia → 35건 반환, InterventionName 대조 후 28건",
+    "pubmed": "amlodipine AND Hyperlipidemia → 133건",
+    "negative": "amlodipine AND Hyperlipidemia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 100건",
+    "safety": "amlodipine AND Hyperlipidemia AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 56건"
+  }
+}

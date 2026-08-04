@@ -1,0 +1,37 @@
+{
+  "id": "fluoxetine-social-anxiety-open",
+  "subj": "플루옥세틴",
+  "claim": "사회불안장애 증상을 개선할 수 있지만 결과가 엇갈린다",
+  "line": "사회불안장애에서는 위약보다 나았다는 시험과 차이가 없다는 시험이 엇갈렸습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 295,
+  "synth": "single",
+  "why": "플루옥세틴을 직접 비교한 무작위시험 결과가 서로 달라 확정적 효과로 분류하지 않았습니다.",
+  "saw": "일반화 사회불안장애 환자 295명을 대상으로 한 무작위시험에서는 플루옥세틴군이 위약군보다 임상 평가와 사회공포 척도에서 개선됐습니다. 반면 60명 파일럿시험에서는 두 군의 차이가 없었습니다. 여러 SSRI를 합친 15개 시험 메타분석은 계열 효과를 시사했지만 플루옥세틴 단독 효과를 분리하지 않았습니다.",
+  "limit": "사회불안장애에 대한 직접 시험 수가 적고, 다른 SSRI의 결과를 플루옥세틴에 그대로 적용할 수 없습니다.",
+  "against": "60명 플루옥세틴 파일럿시험은 위약과 유의한 차이를 보이지 않았습니다. 인지행동치료와 비교한 다른 시험에서도 플루옥세틴과 위약의 차이가 뚜렷하지 않았습니다.",
+  "use": "사회불안장애에서 플루옥세틴의 직접 근거가 일관되지 않다는 점을 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Davidson 2004 · Arch Gen Psychiatry · 일반화 사회공포증 플루옥세틴 무작위시험",
+      "pmid": "15466674"
+    },
+    {
+      "label": "Nardi 2002 · J Clin Psychiatry · 사회공포증 플루옥세틴 음성 파일럿시험",
+      "pmid": "12006895"
+    },
+    {
+      "label": "Van der Linden 2007 · J Psychopharmacol · 성인 사회불안장애 SSRI 메타분석",
+      "pmid": "16714326"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:FLUOXETINE → 175건; 허가 문구에 주요우울장애·강박장애 등이 있고 Social Anxiety는 없음",
+    "ctgov": "query.intr=fluoxetine&query.cond=Social Anxiety → 4건 반환, InterventionName 대조 후 3건",
+    "pubmed": "fluoxetine AND Social Anxiety → 2251건",
+    "negative": "fluoxetine AND Social Anxiety AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1859건",
+    "safety": "fluoxetine AND Social Anxiety AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 796건"
+  }
+}

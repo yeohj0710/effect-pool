@@ -1,0 +1,37 @@
+{
+  "id": "metoprolol-atrial-flutter-open",
+  "subj": "메토프롤롤",
+  "claim": "심방조동의 빠른 심박수를 조절한다",
+  "line": "심방조동에서 심박수는 조절했지만 다른 약보다 느렸습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 142,
+  "synth": "single",
+  "why": "심방조동 환자에서 심박수 조절 사례가 있었지만 비교시험과 종합분석에서는 메토프롤롤의 급성 조절력이 더 낮았습니다.",
+  "saw": "상심실성 빈맥성 부정맥 142명 다기관 연구에서 심방조동 환자 35명 중 일부가 심박수 조절을 보였고 정상 리듬 전환은 23%였습니다. 응급실 심방세동·심방조동 비교시험과 16개 연구 메타분석에서는 정맥 diltiazem이 메토프롤롤보다 빠른 심박수 조절에 유리했습니다.",
+  "limit": "초기 다기관 연구는 비교군이 없는 단일 연구이고, 비교시험은 심방세동과 심방조동을 함께 분석했습니다.",
+  "against": "응급실 무작위시험에서 30분 내 목표 심박수 도달률은 diltiazem군이 메토프롤롤군보다 높았고, 메타분석도 무작위시험에서 같은 방향을 보였습니다.",
+  "use": "심방조동에서 심박수 조절 가능성과 약제 간 급성 차이를 함께 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Lemery 1981 · Acta Med Scand · 상심실성 빈맥성 부정맥 메토프롤롤 다기관 연구",
+      "pmid": "7027895"
+    },
+    {
+      "label": "Fromm 2015 · Acad Emerg Med · 심방세동·조동 diltiazem 대 메토프롤롤 비교시험",
+      "pmid": "25913166"
+    },
+    {
+      "label": "Sharda 2024 · Am J Emerg Med · 심방세동·조동 급성 심박수 조절 메타분석",
+      "pmid": "37856044"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:METOPROLOL → 349건; 심방조동 적응증 문구 없음",
+    "ctgov": "query.intr=metoprolol&query.cond=Atrial Flutter → 5건 반환, InterventionName 대조 후 3건",
+    "pubmed": "metoprolol AND Atrial Flutter → 51건",
+    "negative": "metoprolol AND Atrial Flutter AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 35건",
+    "safety": "metoprolol AND Atrial Flutter AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 35건"
+  }
+}

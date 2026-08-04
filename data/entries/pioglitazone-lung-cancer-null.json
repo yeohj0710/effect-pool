@@ -1,0 +1,33 @@
+{
+  "id": "pioglitazone-lung-cancer-null",
+  "subj": "피오글리타존",
+  "claim": "폐암 위험을 낮춘다",
+  "line": "피오글리타존이 폐암 위험을 낮춘다는 근거는 관찰연구뿐이고 확실하지 않습니다",
+  "tier": "obs",
+  "dir": "null",
+  "n": 2500000,
+  "synth": "meta",
+  "why": "대규모 관찰연구 메타분석에서 폐암 위험의 작은 감소 신호가 있었지만 약물군 혼합과 교란 때문에 피오글리타존의 예방 효과로 확정할 수 없습니다.",
+  "saw": "한 체계적 문헌고찰은 무작위시험 4개, 코호트 7개, 환자-대조군 9개 자료를 합쳐 약 250만 명을 분석했고 티아졸리딘디온 사용과 폐암의 연관성은 약한 감소 신호를 보였습니다. 다른 17개 관찰연구 메타분석은 피오글리타존 사용과 폐암 사이에 유의한 연관성이 없다고 보고했습니다.",
+  "limit": "직접 폐암 치료시험이 아니며 피오글리타존 단독이 아닌 티아졸리딘디온 전체 결과가 섞였습니다. 당뇨 중증도와 흡연 같은 교란을 완전히 제거할 수 없습니다.",
+  "against": "다른 메타분석은 폐암과 유의한 연관성이 없다고 결론냈고, 피오글리타존의 방광암 위험 증가는 별도로 보고됐습니다.",
+  "use": "관찰연구의 암 위험 신호를 예방 효과로 과해석하지 않도록 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Bosetti 2012 · Diabetes Metab · 티아졸리딘디온 암 발생 메타분석",
+      "pmid": "23041441"
+    },
+    {
+      "label": "Ferrara 2013 · Oncologist · 티아졸리딘디온 암 위험 관찰연구 메타분석",
+      "pmid": "23345544"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:PIOGLITAZONE → 54건; 폐암 적응증 문구 없음",
+    "ctgov": "query.intr=pioglitazone&query.cond=Lung Cancer → 7건 반환, InterventionName 대조 후 5건",
+    "pubmed": "pioglitazone AND Lung Cancer → 73건",
+    "negative": "pioglitazone AND Lung Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 56건",
+    "safety": "pioglitazone AND Lung Cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 20건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "celecoxib-covid-19-null",
+  "subj": "셀레콕시브",
+  "claim": "코로나19 회복을 개선한다",
+  "line": "중증 코로나19에서 셀레콕시브 병용은 회복 효과를 입증하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 30,
+  "synth": "single",
+  "why": "중증 코로나19 다기관 플랫폼시험의 셀레콕시브·파모티딘 병용군에서 사전 정한 효능 기준을 넘지 못했습니다.",
+  "saw": "입원한 중증 코로나19 환자에서 셀레콕시브·파모티딘 병용군 30명을 포함한 I-SPY COVID 무작위 플랫폼시험은 회복시간과 사망을 평가했고, 첫 7개 약제 중 어느 것도 사전 정한 효능·졸업 기준을 충족하지 못했습니다.",
+  "limit": "셀레콕시브 단독시험이 아니라 파모티딘과의 병용군이며 표본이 작고 중증 산소치료 환자에 한정됐습니다.",
+  "against": "직접 셀레콕시브 단독군의 코로나19 회복 개선 결과는 확인하지 못했습니다. 병용 플랫폼시험에서도 효능 신호가 없었습니다.",
+  "use": "코로나19에서 셀레콕시브를 치료제로 해석할 때 직접 단독 근거가 없다는 점을 설명합니다.",
+  "refs": [
+    {
+      "label": "I-SPY COVID Investigators 2023 · Lancet Respir Med · 셀레콕시브·파모티딘 병용 플랫폼시험",
+      "pmid": "36883141"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:CELECOXIB → 133건; 코로나19 적응증 문구 없음",
+    "ctgov": "query.intr=celecoxib&query.cond=COVID-19 → 7건 반환, InterventionName 대조 후 6건",
+    "pubmed": "celecoxib AND COVID-19 → 40건",
+    "negative": "celecoxib AND COVID-19 AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 28건",
+    "safety": "celecoxib AND COVID-19 AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 14건"
+  }
+}

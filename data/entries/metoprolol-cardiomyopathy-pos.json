@@ -1,0 +1,33 @@
+{
+  "id": "metoprolol-cardiomyopathy-pos",
+  "subj": "메토프롤롤",
+  "claim": "폐쇄성 비후성 심근병증의 유출로 폐색과 증상을 줄인다",
+  "line": "비후성 심근병증의 압력과 증상은 줄였지만 운동능력은 그대로였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 29,
+  "synth": "single",
+  "why": "폐쇄성 비후성 심근병증 무작위 교차시험에서 유출로 압력과 일부 증상 지표가 개선됐습니다.",
+  "saw": "증상이 있는 폐쇄성 비후성 심근병증 환자 29명 무작위 이중맹검 교차시험에서 메토프롤롤은 휴식·운동 시 좌심실 유출로 압력과 NYHA·협심증 등급을 낮추고 삶의 질 점수를 높였지만 최대 산소섭취량과 운동능력은 위약과 다르지 않았습니다.",
+  "limit": "표본이 작고 폐쇄성 비후성 심근병증에 한정된 단기 교차시험이라 다른 심근병증이나 장기 예후를 판단할 수 없습니다.",
+  "against": "별도 28명 무작위시험에서는 운동 시 폐모세혈관쐐기압 변화가 위약과 다르지 않았습니다.",
+  "use": "심근병증에서 혈역학·증상 개선과 운동능력·장기 예후를 구분해 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Dybro 2022 · J Am Coll Cardiol · 폐쇄성 비후성 심근병증 메토프롤롤 무작위시험",
+      "pmid": "34915981"
+    },
+    {
+      "label": "Reis 2022 · J Am Coll Cardiol · 비후성 심근병증 메토프롤롤 운동 혈역학 시험",
+      "pmid": "35450573"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:METOPROLOL → 349건; Cardiomyopathy 단독 적응증 문구 없음",
+    "ctgov": "query.intr=metoprolol&query.cond=Cardiomyopathy → 16건 반환, InterventionName 대조 후 14건",
+    "pubmed": "metoprolol AND Cardiomyopathy → 561건",
+    "negative": "metoprolol AND Cardiomyopathy AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 398건",
+    "safety": "metoprolol AND Cardiomyopathy AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 230건"
+  }
+}

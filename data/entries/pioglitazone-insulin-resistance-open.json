@@ -1,0 +1,33 @@
+{
+  "id": "pioglitazone-insulin-resistance-open",
+  "subj": "피오글리타존",
+  "claim": "인슐린 저항성에서 당뇨 전환과 심혈관 사건을 줄인다",
+  "line": "인슐린 저항성에서 당뇨 전환은 줄었지만 심부전·골절이 늘었습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 12026,
+  "synth": "meta",
+  "why": "인슐린 저항성·당뇨 환자 무작위시험 메타분석에서 심혈관 사건과 당뇨 전환은 줄었지만 주요 부작용은 늘었습니다.",
+  "saw": "9개 무작위시험 12026명을 합친 메타분석에서 주요 심혈관 사건 위험은 낮아졌지만 심부전, 골절, 부종, 체중 증가 위험은 높아졌습니다. 뇌졸중 또는 일과성 허혈발작 뒤 당뇨가 없는 인슐린 저항성 환자 3876명을 대상으로 한 IRIS 시험에서도 당뇨 전환과 HOMA-IR이 줄었습니다.",
+  "limit": "메타분석 대상은 인슐린 저항성부터 제2형 당뇨병까지 섞여 있고, IRIS 시험은 최근 뇌혈관질환 환자로 제한됐습니다.",
+  "against": "심부전 위험은 상대위험도 1.32, 골절 1.52, 부종 1.63, 체중 증가 1.60으로 메타분석에서 높았습니다.",
+  "use": "인슐린 저항성에서 대사·심혈관 이득과 안전성 손실을 함께 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Liao 2017 · BMJ Open · 피오글리타존 인슐린 저항성·당뇨 무작위시험 메타분석",
+      "pmid": "28057658"
+    },
+    {
+      "label": "Kernan 2016 · Diabetes Care · IRIS 피오글리타존 당뇨 예방 분석",
+      "pmid": "27465265"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:PIOGLITAZONE → 54건; 제2형 당뇨병 혈당 조절 문구만 확인되어 Insulin Resistance 단독 적응증은 없음",
+    "ctgov": "query.intr=pioglitazone&query.cond=Insulin Resistance → 79건 반환, InterventionName 대조 후 70건",
+    "pubmed": "pioglitazone AND Insulin Resistance → 1749건",
+    "negative": "pioglitazone AND Insulin Resistance AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1439건",
+    "safety": "pioglitazone AND Insulin Resistance AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 491건"
+  }
+}

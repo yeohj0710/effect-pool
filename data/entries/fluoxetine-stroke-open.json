@@ -1,0 +1,37 @@
+{
+  "id": "fluoxetine-stroke-open",
+  "subj": "플루옥세틴",
+  "claim": "뇌졸중 뒤 회복을 개선한다",
+  "line": "뇌졸중 뒤 운동 점수는 올렸지만 일상 기능 회복은 뚜렷하지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 6584,
+  "synth": "meta",
+  "why": "뇌졸중 후 플루옥세틴 무작위시험 메타분석에서 운동 지표와 일상 기능 지표의 결과가 달랐습니다.",
+  "saw": "14개 무작위시험 6584명을 합친 메타분석에서 Fugl-Meyer 운동 점수는 플루옥세틴군이 높았지만 수정 Rankin 척도, Barthel 지수, NIHSS에서는 유의한 차이가 없었습니다. FOCUS 무작위시험은 3127명을 분석했고 6개월 수정 Rankin 척도 분포가 두 군에서 비슷했습니다.",
+  "limit": "운동 점수는 일상 기능과 같은 결과가 아니며, 뇌졸중 유형·발병 시점·평가 기간이 시험마다 달랐습니다.",
+  "against": "Cochrane 검토는 76개 시험 13029명에서 장애 회복에 거의 차이가 없다고 정리했고, 낙상·골절·발작 같은 이상반응도 함께 평가했습니다.",
+  "use": "뇌졸중 회복에서 운동 지표와 실제 기능 회복을 구분해 설명할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Zhang 2023 · Int J Clin Pharm · 뇌졸중 후 플루옥세틴 무작위시험 메타분석",
+      "pmid": "37081168"
+    },
+    {
+      "label": "Dennis 2020 · Health Technol Assess · FOCUS 뇌졸중 플루옥세틴 무작위시험",
+      "pmid": "32452356"
+    },
+    {
+      "label": "Mead 2021 · Cochrane · 뇌졸중 회복 SSRI 검토",
+      "pmid": "34780067"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:FLUOXETINE → 175건; 허가 문구에 뇌졸중 회복은 없음",
+    "ctgov": "query.intr=fluoxetine&query.cond=Stroke → 14건 반환, InterventionName 대조 후 13건",
+    "pubmed": "fluoxetine AND Stroke → 321건",
+    "negative": "fluoxetine AND Stroke AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 263건",
+    "safety": "fluoxetine AND Stroke AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 102건"
+  }
+}
