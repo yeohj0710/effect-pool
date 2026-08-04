@@ -2,7 +2,7 @@
   "id": "cold-water-mood-null",
   "subj": "냉수 노출",
   "claim": "기분에 도움이 된다",
-  "line": "냉수 노출 — 기분 개선을 직접 검증한 근거는 체계적 검토 1개뿐이라 우울·기분 효과를 확정하지 못했습니다",
+  "line": "기분을 직접 잰 연구가 체계적 검토 하나뿐이라 아직 판단할 수 없습니다",
   "tier": "obs",
   "dir": "null",
   "why": "냉수 노출과 건강·기분 결과를 다룬 인간 연구를 모은 체계적 문헌고찰입니다.",
@@ -10,6 +10,19 @@
   "limit": "연구 규모와 노출 방식이 작고 기분 결과가 부차적이거나 자기보고인 경우가 많습니다.",
   "against": "일부 작은 연구와 자기보고 자료는 스트레스나 웰빙 개선 신호를 보고했습니다.",
   "use": "냉수 노출을 우울증 치료나 확실한 기분 개선법으로 사용하면 안 됩니다.",
-  "refs": [{ "label": "Cain 2025 · PLOS One · 냉수 노출 건강·웰빙 검토", "doi": "10.1371/journal.pone.0317615", "pmid": "39879231", "pmc": "PMC11778651" }],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=cold water immersion, cond=mood depression → 1건 반환, InterventionName 대조 후 0건", "pubmed": "cold water immersion mood depression randomized trial → 1건", "negative": "cold water immersion mood depression AND (no effect OR did not OR failed to OR negative) → 8건", "safety": "cold water immersion mood AND (adverse OR hypothermia OR toxicity OR case report) → 53건" }
+  "refs": [
+    {
+      "label": "Cain 2025 · PLOS One · 냉수 노출 건강·웰빙 검토",
+      "doi": "10.1371/journal.pone.0317615",
+      "pmid": "39879231",
+      "pmc": "PMC11778651"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=cold water immersion, cond=mood depression → 1건 반환, InterventionName 대조 후 0건",
+    "pubmed": "cold water immersion mood depression randomized trial → 1건",
+    "negative": "cold water immersion mood depression AND (no effect OR did not OR failed to OR negative) → 8건",
+    "safety": "cold water immersion mood AND (adverse OR hypothermia OR toxicity OR case report) → 53건"
+  }
 }

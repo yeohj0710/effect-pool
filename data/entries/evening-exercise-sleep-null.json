@@ -2,7 +2,7 @@
   "id": "evening-exercise-sleep-null",
   "subj": "운동 시간대",
   "claim": "저녁 운동이 수면을 방해한다",
-  "line": "운동 시간대 — 건강한 성인 메타분석에서 저녁 고강도 운동이 수면을 일관되게 방해한다는 결과는 없었습니다",
+  "line": "건강한 성인 메타분석에서 저녁 고강도 운동이 수면을 일관되게 방해한다는 결과는 없었습니다",
   "tier": "trial",
   "dir": "null",
   "why": "건강한 성인의 저녁 운동과 수면을 비교한 체계적 문헌고찰·메타분석입니다.",
@@ -11,8 +11,22 @@
   "against": "취침에 매우 가까운 고강도 운동이나 개인별 반응에서는 잠드는 시간이 늦어질 가능성이 남아 있습니다.",
   "use": "건강한 성인의 평균 결과를 모든 수면장애 환자에게 적용하면 안 됩니다.",
   "refs": [
-    { "label": "Stutz 2019 · Sports Med · 저녁 운동 수면 메타분석", "doi": "10.1007/s40279-018-1015-0", "pmid": "30374942" },
-    { "label": "Kovacevic 2021 · Sleep Med Rev · 저녁 고강도 운동 수면 메타분석", "doi": "10.1016/j.smrv.2021.101535", "pmid": "34416428" }
+    {
+      "label": "Stutz 2019 · Sports Med · 저녁 운동 수면 메타분석",
+      "doi": "10.1007/s40279-018-1015-0",
+      "pmid": "30374942"
+    },
+    {
+      "label": "Kovacevic 2021 · Sleep Med Rev · 저녁 고강도 운동 수면 메타분석",
+      "doi": "10.1016/j.smrv.2021.101535",
+      "pmid": "34416428"
+    }
   ],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=exercise timing, cond=sleep → 31건 반환, InterventionName 대조 후 11건", "pubmed": "evening exercise sleep randomized trial systematic review → 8건", "negative": "evening exercise sleep AND (no effect OR did not OR failed to OR negative) → 331건", "safety": "evening exercise sleep AND (adverse OR injury OR case report) → 68건" }
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=exercise timing, cond=sleep → 31건 반환, InterventionName 대조 후 11건",
+    "pubmed": "evening exercise sleep randomized trial systematic review → 8건",
+    "negative": "evening exercise sleep AND (no effect OR did not OR failed to OR negative) → 331건",
+    "safety": "evening exercise sleep AND (adverse OR injury OR case report) → 68건"
+  }
 }

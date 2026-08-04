@@ -92,11 +92,37 @@ entries.forEach((e, i) => {
     });
   }
 
+  // 화면이 subj 를 따로 붙인다. line 이 또 그걸로 시작하면 "침 — 침 — ..." 이 된다
+  if (e.subj && e.line) {
+    const esc = e.subj.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (new RegExp("^" + esc + "\\s*[—–]").test(e.line)) {
+      errors.push(`${at} — line 이 물질명으로 시작합니다. 화면이 이미 붙이니 빼세요`);
+    } else if (/^[^—–]{1,25}\s*[—–]\s/.test(e.line)) {
+      warnings.push(`${at} — line 앞에 "…—" 토막이 붙어 있습니다: ${e.line.slice(0, 24)}`);
+    }
+  }
+
   // 번역투·수동형 걸러내기
-  const BAD = ["확인됐", "보고됐", "나타났습니다", "현재 존재하는", "시사합니다",
-               "근거를 제공합니다", "가능성이 제기", "주목할 만한", "되어집", "지고 있습니다"];
+  const BAD = ["확인됐", "보고됐", "나타났습니다", "현재 존재하는", "시사합니다", "시사했",
+               "근거를 제공합니다", "가능성이 제기", "주목할 만한", "되어집", "지고 있습니다",
+               "연관됐", "제시했습니다", "관련됐", "확정하지 못", "정하지 못했"];
   const hit = BAD.filter((w) => (e.line || "").includes(w));
   if (hit.length) warnings.push(`${at} — 한 줄에 번역투: ${hit.join(", ")}`);
+
+  // 근거의 무게 — 설계만 보면 36명 시험과 6만 명 메타분석이 같은 칸에 온다
+  const text = `${e.line} ${e.saw}`;
+  const people = [...text.matchAll(/([\d,]+)\s*명/g)]
+    .map((m) => Number(m[1].replace(/,/g, ""))).filter(Number.isFinite);
+  e._n = people.length ? Math.max(...people) : null;
+  e._synth = /메타분석|메타 분석|체계적 검토|코크란|합치자|합쳐|합쳐도|네트워크 분석|시험 \d+개|\d+편/.test(text)
+    ? "meta" : "single";
+
+  if (e.tier === "trial" && e._synth === "single" && e._n !== null && e._n < 50) {
+    warnings.push(`${at} — 사람 ${e._n}명짜리 단일 시험 하나로 맨 위 칸입니다. 근거가 얇습니다`);
+  }
+  if (e.tier === "trial" && e._n === null) {
+    warnings.push(`${at} — 사람 수가 문장에 없습니다. 규모를 적으세요`);
+  }
 });
 
 // 반대·해로운 쪽 비중

@@ -2,7 +2,7 @@
   "id": "acupuncture-chronic-pain",
   "subj": "침",
   "claim": "만성 통증에 듣는다",
-  "line": "침 — 만성 통증 개별환자자료 메타분석에서 가짜침보다 통증이 작게 줄었습니다",
+  "line": "만성 통증 환자 자료를 모아보니 가짜침보다 통증이 조금 더 줄었습니다",
   "tier": "trial",
   "dir": "pos",
   "why": "만성 요통, 골관절염, 목 통증 등에서 침과 가짜침·무치료를 비교한 개별환자자료 메타분석입니다.",
@@ -10,6 +10,25 @@
   "limit": "통증 부위와 침법이 달랐고 가짜침 설계와 기대효과가 결과에 영향을 줍니다.",
   "against": "가짜침과의 차이는 작아 일부 환자에게 임상적으로 큰 변화가 아닐 수 있습니다.",
   "use": "침 효과를 모든 만성 통증 원인에 같은 크기로 적용하면 안 됩니다.",
-  "refs": [{ "label": "Vickers 2018 · J Pain · 만성 통증 침 개별환자자료 메타분석", "doi": "10.1016/j.jpain.2017.11.005", "pmid": "29198932", "pmc": "PMC5927830" }, { "label": "Vickers 2012 · Arch Intern Med · 만성 통증 침 메타분석", "doi": "10.1001/archinternmed.2012.3654", "pmid": "22965186", "pmc": "PMC3658605" }],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=acupuncture, cond=chronic pain → 188건 반환, InterventionName 대조 후 137건", "pubmed": "acupuncture chronic pain randomized sham controlled trial meta-analysis → 95건", "negative": "acupuncture chronic pain AND (no effect OR did not OR failed to OR negative) → 2,455건", "safety": "acupuncture chronic pain AND (adverse OR infection OR pneumothorax OR case report) → 805건" }
+  "refs": [
+    {
+      "label": "Vickers 2018 · J Pain · 만성 통증 침 개별환자자료 메타분석",
+      "doi": "10.1016/j.jpain.2017.11.005",
+      "pmid": "29198932",
+      "pmc": "PMC5927830"
+    },
+    {
+      "label": "Vickers 2012 · Arch Intern Med · 만성 통증 침 메타분석",
+      "doi": "10.1001/archinternmed.2012.3654",
+      "pmid": "22965186",
+      "pmc": "PMC3658605"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=acupuncture, cond=chronic pain → 188건 반환, InterventionName 대조 후 137건",
+    "pubmed": "acupuncture chronic pain randomized sham controlled trial meta-analysis → 95건",
+    "negative": "acupuncture chronic pain AND (no effect OR did not OR failed to OR negative) → 2,455건",
+    "safety": "acupuncture chronic pain AND (adverse OR infection OR pneumothorax OR case report) → 805건"
+  }
 }

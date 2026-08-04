@@ -2,7 +2,7 @@
   "id": "indoor-humidity-respiratory-infection-null",
   "subj": "실내 습도",
   "claim": "호흡기 감염과 관련 있다",
-  "line": "실내 습도 — 학교·직장 가습을 검토한 코크란 분석에서 상기도 감염을 줄인다는 근거가 부족했습니다",
+  "line": "학교·직장 가습을 검토한 코크란 분석에서 상기도 감염을 줄인다는 근거가 부족했습니다",
   "tier": "trial",
   "dir": "null",
   "why": "학교와 직장에서 실내 공기 가습이 상기도 감염을 예방하거나 줄이는지 평가한 코크란 검토입니다.",
@@ -10,6 +10,19 @@
   "limit": "교육·직장 환경에 초점을 둔 연구라 가정과 다른 환기·기후 조건에 일반화하기 어렵습니다.",
   "against": "실내 습도와 바이러스 생존을 연결하는 실험·관찰 근거는 있지만 사람 감염 감소 효과로 바로 이어지지 않습니다.",
   "use": "가습만으로 호흡기 감염을 예방한다고 단정하지 말고 환기와 손 위생을 함께 봐야 합니다.",
-  "refs": [{ "label": "Rees 2021 · Cochrane · 실내 가습과 상기도 감염 검토", "doi": "10.1002/14651858.CD012219.pub2", "pmid": "34891215", "pmc": "PMC8664457" }],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=indoor humidity, cond=respiratory infection → 1건 반환, InterventionName 대조 후 0건", "pubmed": "indoor humidity respiratory infection randomized trial systematic review → 1건", "negative": "indoor humidity respiratory infection AND (no effect OR did not OR failed to OR negative) → 159건", "safety": "humidifier humidity respiratory AND (adverse OR mold OR toxicity OR case report) → 125건" }
+  "refs": [
+    {
+      "label": "Rees 2021 · Cochrane · 실내 가습과 상기도 감염 검토",
+      "doi": "10.1002/14651858.CD012219.pub2",
+      "pmid": "34891215",
+      "pmc": "PMC8664457"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=indoor humidity, cond=respiratory infection → 1건 반환, InterventionName 대조 후 0건",
+    "pubmed": "indoor humidity respiratory infection randomized trial systematic review → 1건",
+    "negative": "indoor humidity respiratory infection AND (no effect OR did not OR failed to OR negative) → 159건",
+    "safety": "humidifier humidity respiratory AND (adverse OR mold OR toxicity OR case report) → 125건"
+  }
 }

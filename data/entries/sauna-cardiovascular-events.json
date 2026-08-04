@@ -2,7 +2,7 @@
   "id": "sauna-cardiovascular-events",
   "subj": "사우나",
   "claim": "자주 하면 심혈관 사건이 준다",
-  "line": "사우나 — 핀란드 남성 2,315명 코호트에서 잦은 이용이 치명적 심혈관 사건 위험 감소와 연관됐습니다",
+  "line": "핀란드 남성 2,315명 코호트에서 잦은 이용이 치명적 심혈관 사건 위험 감소와 연관됐습니다",
   "tier": "obs",
   "dir": "pos",
   "why": "사우나 이용 빈도와 심혈관 사망을 장기간 관찰한 전향적 코호트 연구입니다.",
@@ -11,8 +11,23 @@
   "against": "사우나를 무작위로 배정한 임상시험은 심혈관 사건 감소를 입증할 규모와 기간이 부족합니다.",
   "use": "관찰된 연관성을 사우나가 심혈관 사건을 예방한다는 인과 효과로 단정하면 안 됩니다.",
   "refs": [
-    { "label": "Laukkanen 2015 · JAMA Intern Med · 사우나 치명적 심혈관 코호트", "doi": "10.1001/jamainternmed.2014.8187", "pmid": "25705824" },
-    { "label": "Laukkanen 2018 · BMC Med · 사우나 심혈관 사망 코호트", "doi": "10.1186/s12916-018-1198-0", "pmid": "30486813", "pmc": "PMC6262976" }
+    {
+      "label": "Laukkanen 2015 · JAMA Intern Med · 사우나 치명적 심혈관 코호트",
+      "doi": "10.1001/jamainternmed.2014.8187",
+      "pmid": "25705824"
+    },
+    {
+      "label": "Laukkanen 2018 · BMC Med · 사우나 심혈관 사망 코호트",
+      "doi": "10.1186/s12916-018-1198-0",
+      "pmid": "30486813",
+      "pmc": "PMC6262976"
+    }
   ],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=sauna, cond=cardiovascular events → 0건 반환, InterventionName 대조 후 0건", "pubmed": "sauna cardiovascular events mortality prospective cohort → 3건", "negative": "sauna cardiovascular AND (no effect OR did not OR failed to OR negative) → 149건", "safety": "sauna cardiovascular AND (adverse OR syncope OR toxicity OR case report) → 62건" }
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=sauna, cond=cardiovascular events → 0건 반환, InterventionName 대조 후 0건",
+    "pubmed": "sauna cardiovascular events mortality prospective cohort → 3건",
+    "negative": "sauna cardiovascular AND (no effect OR did not OR failed to OR negative) → 149건",
+    "safety": "sauna cardiovascular AND (adverse OR syncope OR toxicity OR case report) → 62건"
+  }
 }

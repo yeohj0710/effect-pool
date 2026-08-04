@@ -2,7 +2,7 @@
   "id": "vitamin-e-mortality-harm",
   "subj": "고용량 비타민E",
   "claim": "사망률을 올린다",
-  "line": "고용량 비타민E — 19개 무작위시험·13만 명대 메타분석에서 전체 사망률이 4% 높다는 신호가 나왔지만 후속 분석은 일관되지 않았습니다",
+  "line": "19개 무작위시험·13만 명대 메타분석에서 전체 사망률이 4% 높다는 신호가 나왔지만 후속 분석은 일관되지 않았습니다",
   "tier": "trial",
   "dir": "harm",
   "why": "고용량 비타민E 보충과 대조군의 사망률을 비교한 무작위시험 메타분석과 후속 분석입니다.",
@@ -10,6 +10,24 @@
   "limit": "시험별 용량·기간과 기저질환이 달랐고 후속 메타분석은 사망 위해의 크기와 재현성을 확정하지 못했습니다.",
   "against": "후속 메타분석과 관찰연구에서는 사망률 증가가 뚜렷하지 않거나 결과가 섞였습니다.",
   "use": "고용량 보충을 안전하다고 단정하지 말고 출혈·전립선암 등 다른 위해 신호도 함께 검토해야 합니다.",
-  "refs": [{ "label": "Miller 2005 · Ann Intern Med · 고용량 비타민E 사망률 메타분석", "doi": "10.7326/0003-4819-142-1-200501040-00110", "pmid": "15537682" }, { "label": "Bjelakovic 2013 · PLOS One · 항산화 보충 사망률 후속 분석", "doi": "10.1371/journal.pone.0074558", "pmid": "24040282", "pmc": "PMC3765487" }],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=vitamin E, cond=mortality high dose supplementation → 0건 반환, InterventionName 대조 후 0건", "pubmed": "vitamin E high dose all cause mortality randomized meta-analysis → 7건", "negative": "vitamin E mortality AND (no effect OR did not OR failed to OR negative) → 1,212건", "safety": "vitamin E supplementation AND (adverse OR hemorrhage OR prostate cancer OR case report) → 4,264건" }
+  "refs": [
+    {
+      "label": "Miller 2005 · Ann Intern Med · 고용량 비타민E 사망률 메타분석",
+      "doi": "10.7326/0003-4819-142-1-200501040-00110",
+      "pmid": "15537682"
+    },
+    {
+      "label": "Bjelakovic 2013 · PLOS One · 항산화 보충 사망률 후속 분석",
+      "doi": "10.1371/journal.pone.0074558",
+      "pmid": "24040282",
+      "pmc": "PMC3765487"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=vitamin E, cond=mortality high dose supplementation → 0건 반환, InterventionName 대조 후 0건",
+    "pubmed": "vitamin E high dose all cause mortality randomized meta-analysis → 7건",
+    "negative": "vitamin E mortality AND (no effect OR did not OR failed to OR negative) → 1,212건",
+    "safety": "vitamin E supplementation AND (adverse OR hemorrhage OR prostate cancer OR case report) → 4,264건"
+  }
 }

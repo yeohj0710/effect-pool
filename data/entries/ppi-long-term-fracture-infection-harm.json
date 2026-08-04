@@ -2,7 +2,7 @@
   "id": "ppi-long-term-fracture-infection-harm",
   "subj": "PPI 장기 복용",
   "claim": "골절·감염 위험과 관련 있다",
-  "line": "PPI 장기 복용 — 관찰연구 메타분석은 골절 위험 증가와 감염 관련 위해 신호를 제시했습니다",
+  "line": "오래 먹은 사람에게서 골절과 감염이 더 많았습니다. 다만 지켜본 연구뿐입니다",
   "tier": "obs",
   "dir": "harm",
   "why": "프로톤펌프억제제 장기 사용과 골절·감염을 비교한 관찰연구 메타분석과 안전성 검토입니다.",
@@ -10,6 +10,24 @@
   "limit": "관찰연구라 PPI를 쓰게 된 원래 질환, 연령, 동반약물과 건강상태의 교란을 완전히 제거하지 못합니다.",
   "against": "무작위시험과 일부 보정 분석에서는 골절·감염 증가가 작거나 뚜렷하지 않았습니다.",
   "use": "적응증이 있는 PPI를 임의로 중단하지 말고 장기 필요성과 위험을 의료진과 재평가해야 합니다.",
-  "refs": [{ "label": "Poly 2018 · J Bone Metab · PPI 골절 위험 메타분석", "doi": "10.11005/jbm.2018.25.3.141", "pmid": "30237993", "pmc": "PMC6135649" }, { "label": "Freedberg 2017 · Gastroenterology · PPI 치료 합병증 검토", "doi": "10.1053/j.gastro.2017.04.047", "pmid": "28528705" }],
-  "queried": { "date": "2026-08-04", "ctgov": "intr=proton pump inhibitor, cond=fracture infection long term use → 0건 반환, InterventionName 대조 후 0건", "pubmed": "proton pump inhibitor fracture risk meta-analysis cohort → 10건", "negative": "proton pump inhibitor fracture risk AND (no effect OR did not OR failed to OR negative) → 368건", "safety": "proton pump inhibitor bone fracture infection AND (adverse OR fracture OR infection OR case report) → 87건" }
+  "refs": [
+    {
+      "label": "Poly 2018 · J Bone Metab · PPI 골절 위험 메타분석",
+      "doi": "10.11005/jbm.2018.25.3.141",
+      "pmid": "30237993",
+      "pmc": "PMC6135649"
+    },
+    {
+      "label": "Freedberg 2017 · Gastroenterology · PPI 치료 합병증 검토",
+      "doi": "10.1053/j.gastro.2017.04.047",
+      "pmid": "28528705"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=proton pump inhibitor, cond=fracture infection long term use → 0건 반환, InterventionName 대조 후 0건",
+    "pubmed": "proton pump inhibitor fracture risk meta-analysis cohort → 10건",
+    "negative": "proton pump inhibitor fracture risk AND (no effect OR did not OR failed to OR negative) → 368건",
+    "safety": "proton pump inhibitor bone fracture infection AND (adverse OR fracture OR infection OR case report) → 87건"
+  }
 }
