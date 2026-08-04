@@ -4823,16 +4823,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> — 허가 적응증(2026-08-04)
 - [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(clopidogrel-atrial-fibrillation-null)
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(clopidogrel-platelet-function-open)
-- [ ] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 -->
-- [ ] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 -->
+- [x] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 --> — 허가 적응증(2026-08-04)
+- [x] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 --> — 기존 항목(warfarin-heart-defect-open)
+- [x] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 --> — 허가 적응증(2026-08-04)
+- [x] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 --> — 허가 적응증(2026-08-04)
+- [x] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(valproic-acid-nasopharyngeal-carcinoma-open)
+- [x] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(valproic-acid-thyroid-neoplasm-open)
+- [x] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
+- [x] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(valproic-acid-stage-iv-pharyngeal-cancer-open)
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 --> — 허가 적응증(2026-08-04)
+- [x] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
 - [x] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
 - [x] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
 
