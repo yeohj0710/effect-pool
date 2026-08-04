@@ -1,0 +1,27 @@
+{
+  "id": "ketoconazole-glioma-null",
+  "subj": "케토코나졸",
+  "claim": "케토코나졸이 교종을 치료한다",
+  "line": "재발 교종에서 수술 전 시험만 있어 치료효과는 확인되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 15,
+  "synth": "single",
+  "why": "허가사항에 교종 치료가 없습니다. 재발 교종 환자에게 수술 전 케토코나졸을 평가한 초기 임상시험이 등록되어 있습니다.",
+  "saw": "NCT03796273은 재발 교종 또는 유방암 뇌전이 환자 15명을 대상으로 수술 전 케토코나졸을 평가하는 초기 1상 시험입니다. 등록 정보는 수술 조직의 약물 관련 지표를 중심으로 하며 종양 반응이나 생존 결과를 확립하지 않았습니다.",
+  "limit": "소규모 초기시험이며 치료효과를 검증하는 대조시험이 아닙니다. 수술 전 조직 지표를 교종의 장기 조절이나 생존으로 일반화할 수 없습니다.",
+  "against": "NCT04869449의 교모세포종 약리시험도 1명 규모로 중단됐고, 반대 검색 12건과 안전성 검색 2건을 확인했습니다.",
+  "use": "케토코나졸의 교종 연구는 초기 약리·수술 전 자료로만 기록하고 치료제로 해석하지 말아야 합니다.",
+  "refs": [
+    { "label": "NCT03796273 · 재발 교종 수술 전 케토코나졸 초기 1상시험", "nct": "NCT03796273" },
+    { "label": "NCT04869449 · 교모세포종 케토코나졸 약리시험·중단", "nct": "NCT04869449" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"KETOCONAZOLE\" → 70건 반환; 허가 문구에 교종 적응증 없음",
+    "ctgov": "query.intr=ketoconazole&query.cond=Glioma → 4건 반환, InterventionName 대조 후 4건",
+    "pubmed": "ketoconazole Glioma → 15건",
+    "negative": "ketoconazole Glioma (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 12건",
+    "safety": "ketoconazole Glioma (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 2건"
+  }
+}

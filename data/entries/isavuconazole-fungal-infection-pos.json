@@ -1,0 +1,27 @@
+{
+  "id": "isavuconazole-fungal-infection-pos",
+  "subj": "이사부코나졸",
+  "claim": "이사부코나졸이 진균 감염을 치료한다",
+  "line": "침습성 곰팡이 감염에서 보리코나졸보다 열등하지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 527,
+  "synth": "single",
+  "why": "이사부코나졸의 허가사항은 침습성 아스페르길루스증과 침습성 털곰팡이증입니다. 그 밖의 진균 감염을 포함한 침습성 곰팡이 감염을 보리코나졸과 비교한 3상시험이 있습니다.",
+  "saw": "PMID 26684607·NCT00412893은 침습성 곰팡이질환 환자 527명을 이사부코나졸군과 보리코나졸군에 무작위 배정했습니다. 이사부코나졸은 42일 사망률 기준으로 보리코나졸보다 열등하지 않았고 치료 관련 이상반응은 더 적었습니다.",
+  "limit": "시험의 주요 대상은 침습성 곰팡이질환이며 모든 진균 감염이나 모든 원인균으로 일반화할 수 없습니다. 비열등성 결과는 모든 상황에서 더 우월하다는 뜻이 아닙니다.",
+  "against": "비열등성 시험이므로 비교약보다 우월한 치료효과를 입증하지 않았습니다. 반대 검색 495건과 안전성 검색 300건을 확인했습니다.",
+  "use": "이사부코나졸의 넓은 진균 감염 근거는 침습성 곰팡이질환 비교시험의 결과로 좁혀 기록해야 합니다.",
+  "refs": [
+    { "label": "Maertens 2016 · 침습성 곰팡이질환 이사부코나졸 대 보리코나졸 3상 비열등성 시험", "pmid": "26684607", "nct": "NCT00412893" },
+    { "label": "Hage 2017 · 이사부코나졸 침습성 곰팡이질환 임상 근거 검토", "pmid": "27536124" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ISAVUCONAZONIUM\" → 1건 반환; 이사부코나졸 전구약물의 허가 문구는 침습성 아스페르길루스증·침습성 털곰팡이증이며 일반 진균 감염 전체는 아님",
+    "ctgov": "query.intr=isavuconazole&query.cond=Fungal Infection → 23건 반환, InterventionName 대조 후 14건",
+    "pubmed": "isavuconazole Fungal Infection → 814건",
+    "negative": "isavuconazole Fungal Infection (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 495건",
+    "safety": "isavuconazole Fungal Infection (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 300건"
+  }
+}

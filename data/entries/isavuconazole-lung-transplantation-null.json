@@ -1,0 +1,26 @@
+{
+  "id": "isavuconazole-lung-transplantation-null",
+  "subj": "이사부코나졸",
+  "claim": "이사부코나졸이 폐이식 환자의 진균 감염을 치료한다",
+  "line": "폐이식 연구는 약물 농도만 측정해 치료효과를 평가하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 110,
+  "synth": "single",
+  "why": "허가사항에 폐이식 환자 치료나 예방은 없습니다. 폐이식 환자를 포함한 이식 환자에서 이사부코나졸 약물 농도를 모니터링하는 임상시험이 등록되어 있습니다.",
+  "saw": "NCT07716878은 이식 환자 110명을 대상으로 이사부코나졸 치료약물 모니터링을 평가하는 시험입니다. 등록 정보의 주된 평가가 혈중 농도와 약동학이어서 폐이식 후 진균감염 치료 성공률을 직접 평가하지 않습니다.",
+  "limit": "약물 농도 연구를 폐이식 후 감염 치료효과로 해석할 수 없습니다. 폐이식 환자에 대한 무작위 효능시험이나 감염 결과가 확인되지 않았습니다.",
+  "against": "관련 임상시험이 약동학을 중심으로 설계되어 치료효과의 반대 결과를 제공하지 않았고, 반대 검색 29건과 안전성 검색 26건을 확인했습니다.",
+  "use": "폐이식 환자에서 이사부코나졸은 치료효과가 아니라 약물 농도 자료만 있는 상태로 기록해야 합니다.",
+  "refs": [
+    { "label": "NCT07716878 · 이식 환자 이사부코나졸 치료약물 모니터링 시험", "nct": "NCT07716878" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ISAVUCONAZONIUM\" → 1건 반환; 허가 문구에 폐이식 환자 적응증 없음",
+    "ctgov": "query.intr=isavuconazole&query.cond=Lung Transplantation → 2건 반환, InterventionName 대조 후 2건",
+    "pubmed": "isavuconazole Lung Transplantation → 48건",
+    "negative": "isavuconazole Lung Transplantation (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 29건",
+    "safety": "isavuconazole Lung Transplantation (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 26건"
+  }
+}
