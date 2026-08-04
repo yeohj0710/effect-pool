@@ -1,0 +1,35 @@
+{
+  "id": "valacyclovir-hiv-null",
+  "subj": "발라시클로버",
+  "claim": "항바이러스제를 HIV에 쓴다",
+  "line": "치료받지 않은 HIV에서 CD4 감소를 늦추지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 198,
+  "synth": "single",
+  "why": "치료받지 않은 HIV 양성 성인 198명을 발라시클로버와 위약에 무작위 배정한 다기관 시험입니다.",
+  "saw": "CD4 세포 감소 속도는 발라시클로버군과 위약군에서 유의하게 다르지 않았습니다. HIV 바이러스량은 소폭 낮아졌고 헤르페스 재발은 줄었습니다.",
+  "limit": "CD4와 바이러스량 같은 대리지표를 본 시험이며 조기 종료로 검정력이 제한됐습니다. 허가사항도 HIV 자체가 아니라 HIV 감염자의 생식기 헤르페스 억제입니다.",
+  "against": "HIV·HSV-2 동시감염 남성 20명 교차시험에서는 헤르페스 억제 중 혈장 HIV RNA가 낮아졌지만, HIV 진행 지연을 입증한 결과는 아닙니다.",
+  "use": "HIV 자체를 치료하는 약으로 볼 수 없고, HIV 감염자에서 동반 헤르페스 억제와 HIV 지표 변화는 구분해야 합니다.",
+  "refs": [
+    {
+      "label": "Lau 2019 · J Antimicrob Chemother · 치료 전 HIV 진행 RCT",
+      "doi": "10.1093/jac/dky433",
+      "pmid": "30376108",
+      "pmc": "PMC6337901"
+    },
+    {
+      "label": "Mayer 2007 · J Infect Dis · HIV·HSV-2 동시감염 교차 RCT",
+      "doi": "10.1086/522523",
+      "pmid": "18008230"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=valacyclovir, cond=HIV → 19건 반환, InterventionName 대조 후 valacyclovir 19건",
+    "pubmed": "valacyclovir HIV → 182건",
+    "negative": "valacyclovir HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) → 111건",
+    "safety": "valacyclovir HIV AND (adverse OR toxicity OR hepatotoxicity OR nephrotoxicity OR case report OR self-medication) → 87건"
+  }
+}

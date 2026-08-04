@@ -1,0 +1,36 @@
+{
+  "id": "hydroxychloroquine-cancer-null",
+  "subj": "하이드록시클로로퀸",
+  "claim": "항말라리아제를 암에 쓴다",
+  "line": "전이성 췌장암에서 생존을 늘리지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 112,
+  "synth": "single",
+  "why": "전이성 췌장관선암 환자 112명을 표준 항암요법에 하이드록시클로로퀸을 더한 군과 표준요법군에 무작위 배정한 2상 시험입니다.",
+  "saw": "1년 전체 생존율은 하이드록시클로로퀸 추가군 41%, 비교군 49%였고 중앙 생존기간도 11.1개월과 12.1개월로 일차 목표를 개선하지 못했습니다. 종양 반응률은 추가군에서 높았습니다.",
+  "limit": "전이성 췌장암에서 여러 항암제와 함께 평가한 결과입니다. 반응률 같은 지표가 좋아져도 전체 생존 이득을 뜻하지 않습니다.",
+  "against": "고령 고등급 신경교종 무작위 2상 시험 54명에서도 생존 개선이 없었고 중증 이상반응은 하이드록시클로로퀸군에서 더 많았습니다.",
+  "use": "암세포 자가포식 억제라는 기전만으로 환자 생존 이득을 가정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Hingorani 2019 · JAMA Oncology · 췌장암 하이드록시클로로퀸 RCT",
+      "doi": "10.1001/jamaoncol.2019.0684",
+      "pmid": "31120501",
+      "pmc": "PMC6547080"
+    },
+    {
+      "label": "Rohleder 2020 · Neuro-Oncology Advances · 고등급 신경교종 무작위 2상",
+      "doi": "10.1093/noajnl/vdaa046",
+      "pmid": "32642699",
+      "pmc": "PMC7236384"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=hydroxychloroquine, cond=Cancer → 125건 반환, InterventionName 대조 후 hydroxychloroquine 98건",
+    "pubmed": "hydroxychloroquine cancer → 1,113건",
+    "negative": "hydroxychloroquine cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 781건",
+    "safety": "hydroxychloroquine cancer AND (adverse OR toxicity OR hepatotoxicity OR nephrotoxicity OR case report OR self-medication) → 461건"
+  }
+}
