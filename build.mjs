@@ -1,7 +1,7 @@
 // data/meta.json + data/entries/*.json + src/template.html -> site/index.html
 // site/ 는 생성물이다. 직접 고치지 마라.
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -157,6 +157,12 @@ const data = { updated, tiers: meta.tiers, entries };
 const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "index.html"), tpl.replace("__ENTRIES__", JSON.stringify(data)), "utf8");
+
+// 로고·파비콘 같은 정적 파일을 그대로 옮긴다
+const assetDir = join(root, "src", "assets");
+if (existsSync(assetDir)) {
+  for (const f of readdirSync(assetDir)) copyFileSync(join(assetDir, f), join(outDir, f));
+}
 
 /* ---- 진행 상황 ---- */
 
