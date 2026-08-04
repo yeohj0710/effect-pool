@@ -2898,16 +2898,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
 - [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
 - [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
-- [ ] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 -->
+- [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
+- [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> — 허가 적응증(2026-08-04)
+- [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
+- [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
+- [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
+- [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
+- [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> — 허가 적응증(2026-08-04)
 - [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
