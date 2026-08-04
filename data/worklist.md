@@ -2047,16 +2047,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dupilumab — Asthma에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] dupilumab — Nasal Polyps에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] dupilumab — Eosinophilic Gastritis에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] dupilumab — Eczema에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] mepolizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] mepolizumab — Eosinophilic Fasciitis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] mepolizumab — Hypereosinophilic Syndrome에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] mepolizumab — Churg-Strauss Syndrome에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] omalizumab — Urticaria에 듣는다  <!-- 등록 시험 38건 -->
-- [ ] omalizumab — Allergy에 듣는다  <!-- 등록 시험 34건 -->
+- [x] dupilumab — Asthma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 45건 -->
+- [x] dupilumab — Nasal Polyps에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 33건 -->
+- [x] dupilumab — Eosinophilic Gastritis에 듣는다 — 신규 항목(dupilumab-eosinophilic-gastritis-open)  <!-- 등록 시험 20건 -->
+- [x] dupilumab — Eczema에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] mepolizumab — Nasal Polyps에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 26건 -->
+- [x] mepolizumab — Eosinophilic Fasciitis에 듣는다 — 신규 항목(mepolizumab-eosinophilic-fasciitis-null)  <!-- 등록 시험 15건 -->
+- [x] mepolizumab — Hypereosinophilic Syndrome에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
+- [x] mepolizumab — Churg-Strauss Syndrome에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] omalizumab — Urticaria에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
+- [x] omalizumab — Allergy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
 - [ ] omalizumab — Rhinitis에 듣는다  <!-- 등록 시험 14건 -->
 - [ ] omalizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] tezepelumab — COPD에 듣는다  <!-- 등록 시험 7건 -->
@@ -2065,3 +2065,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] benralizumab — Nasal Polyps에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] benralizumab — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] benralizumab — Hypereosinophilia에 듣는다  <!-- 등록 시험 3건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] lebrikizumab — Asthma에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] lebrikizumab — Eczema에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] tralokinumab — Asthma에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] reslizumab — Eosinophilic Bronchitis에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] roflumilast — COPD에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] roflumilast — Psoriasis에 듣는다  <!-- 등록 시험 16건 -->
+- [ ] roflumilast — Dermatitis에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] roflumilast — Asthma에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] apremilast — Psoriatic Nail에 듣는다  <!-- 등록 시험 27건 -->
+- [ ] apremilast — Atopic Dermatitis에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] apremilast — Alcohol Misuse에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] apremilast — Lichen Planus에 듣는다  <!-- 등록 시험 4건 -->
