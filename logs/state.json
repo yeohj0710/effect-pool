@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 570,
   "worklist": {
-    "checked": 3918,
-    "unchecked": 200,
+    "checked": 3928,
+    "unchecked": 190,
     "no_evidence_pending": 0,
     "next_batch": [
-      "amitriptyline-pain",
-      "amitriptyline-headache",
-      "amitriptyline-fibromyalgia",
-      "amitriptyline-major-depression",
-      "topiramate-obesity",
-      "topiramate-epilepsy",
-      "topiramate-alcohol-abuse",
-      "topiramate-seizures",
-      "trazodone-sleep",
-      "trazodone-depression"
+      "trazodone-delirium",
+      "trazodone-major-depressive-disorder",
+      "quetiapine-bipolar",
+      "quetiapine-major-depression",
+      "quetiapine-anxiety",
+      "quetiapine-schizoaffective-disorder",
+      "spironolactone-hypertension",
+      "spironolactone-kidney-disease",
+      "spironolactone-acute-renal-injury",
+      "spironolactone-alport-nephropathy"
     ]
   },
   "verification": {
@@ -40,20 +40,20 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "propranolol-ovarian-carcinoma-pos (existing)",
-    "propranolol-cirrhosis-open (existing)",
-    "naltrexone-alcoholism-approved",
-    "naltrexone-marijuana-use-pos (existing)",
-    "naltrexone-obesity-null (existing)",
-    "naltrexone-pain-null (existing)",
-    "gabapentin-cancer-null (existing)",
-    "gabapentin-opioid-use-open (existing)",
-    "gabapentin-nausea-null (existing)",
-    "gabapentin-drug-dependence-open (existing)"
+    "amitriptyline-pain-null (existing)",
+    "amitriptyline-headache (existing)",
+    "amitriptyline-fibromyalgia (existing)",
+    "amitriptyline-major-depression-approved",
+    "topiramate-obesity (existing)",
+    "topiramate-epilepsy-approved",
+    "topiramate-alcohol-abuse (existing)",
+    "topiramate-seizures-approved",
+    "trazodone-sleep-null (existing)",
+    "trazodone-depression-approved"
   ],
   "resume": {
-    "last_committed_batch": "propranolol, naltrexone, gabapentin",
-    "current_batch": "propranolol, naltrexone, gabapentin",
+    "last_committed_batch": "amitriptyline, topiramate, trazodone",
+    "current_batch": "amitriptyline, topiramate, trazodone",
     "next_action": "build, commit, push, then process next batch"
   }
 }
