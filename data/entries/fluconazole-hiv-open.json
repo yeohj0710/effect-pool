@@ -1,0 +1,26 @@
+{
+  "id": "fluconazole-hiv-open",
+  "subj": "플루코나졸",
+  "claim": "플루코나졸이 HIV 감염을 치료한다",
+  "line": "HIV 환자의 크립토코칼 수막염에서 플루코나졸을 비교했습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 120,
+  "synth": "single",
+  "why": "HIV 감염 환자의 크립토코칼 수막염에서 플루코나졸과 다른 항진균제를 비교한 임상시험이 등록돼 있습니다.",
+  "saw": "NCT00000708은 HIV 감염 환자의 급성 크립토코칼 수막염 120명을 대상으로 플루코나졸과 암포테리신 B를 비교한 완료 시험입니다. 이는 HIV 바이러스 자체가 아니라 기회감염 치료시험입니다.",
+  "limit": "HIV 감염 자체의 바이러스 억제나 생존을 평가한 시험이 아니며 특정 기회감염에 한정됩니다. 플루코나졸의 허가도 크립토코칼 수막염 등 진균감염 범위이지 HIV 치료가 아닙니다.",
+  "against": "HIV 바이러스 치료효과를 확인한 근거는 없고, 기회감염 비교시험으로 해석해야 합니다. 반대 검색 999건과 안전성 검색 641건을 확인했습니다.",
+  "use": "HIV 환자의 크립토코칼 수막염 치료자료로만 기록하고 항레트로바이러스 치료효과로 확대하지 말아야 합니다.",
+  "refs": [
+    { "label": "NCT00000708 · HIV 감염 환자 크립토코칼 수막염의 플루코나졸 비교시험", "nct": "NCT00000708" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"FLUCONAZOLE\" → 101건 반환; 허가 문구는 칸디다 감염·크립토코칼 수막염이며 HIV 감염 자체 적응증 없음",
+    "ctgov": "query.intr=fluconazole&query.cond=HIV → 64건 반환, InterventionName 대조 후 52건",
+    "pubmed": "fluconazole HIV → 1640건",
+    "negative": "fluconazole HIV (no effect OR did not OR failed to OR negative OR no significant difference) → 999건",
+    "safety": "fluconazole HIV (adverse OR toxicity OR case report) → 641건"
+  }
+}

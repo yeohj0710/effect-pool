@@ -1,0 +1,26 @@
+{
+  "id": "fluconazole-leukemia-null",
+  "subj": "플루코나졸",
+  "claim": "플루코나졸이 백혈병을 치료한다",
+  "line": "급성 골수성 백혈병 예방시험에서 다른 항진균제가 침습성 감염을 더 줄였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 602,
+  "synth": "single",
+  "why": "급성 골수성 백혈병 또는 골수형성이상증후군의 장기간 호중구감소에서 플루코나졸을 포함한 항진균 예방요법을 비교한 무작위시험이 있습니다.",
+  "saw": "PMID 17251531은 602명을 무작위 배정해 포사코나졸과 플루코나졸 또는 이트라코나졸을 비교했습니다. 침습성 진균감염은 포사코나졸군 2%, 플루코나졸·이트라코나졸군 8%였고 생존도 포사코나졸군이 더 길었습니다.",
+  "limit": "백혈병 자체의 치료가 아니라 항암치료 중 침습성 진균감염 예방시험이며 플루코나졸군과 이트라코나졸군이 합쳐진 대조군입니다. 플루코나졸 단독의 종양 치료효과를 측정하지 않았습니다.",
+  "against": "대조군에서 다른 항진균제보다 침습성 진균감염이 더 많았고, 반대 검색 366건과 안전성 검색 355건을 확인했습니다.",
+  "use": "백혈병 환자의 항진균 예방 비교 결과로만 기록하고 플루코나졸의 백혈병 치료효과로 확대하지 말아야 합니다.",
+  "refs": [
+    { "label": "Cornely 2007 · 급성 골수성 백혈병 호중구감소 환자의 포사코나졸 대 플루코나졸·이트라코나졸 예방시험", "pmid": "17251531" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"FLUCONAZOLE\" → 101건 반환; 허가 문구는 칸디다 감염·크립토코칼 수막염과 골수이식 환자 칸디다 예방이며 백혈병 치료 적응증 없음",
+    "ctgov": "query.intr=fluconazole&query.cond=Leukemia → 15건 반환, InterventionName 대조 후 6건",
+    "pubmed": "fluconazole Leukemia → 596건",
+    "negative": "fluconazole Leukemia (no effect OR did not OR failed to OR negative OR no significant difference) → 366건",
+    "safety": "fluconazole Leukemia (adverse OR toxicity OR case report) → 355건"
+  }
+}

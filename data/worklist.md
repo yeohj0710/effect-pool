@@ -2310,12 +2310,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cefepime — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
 - [x] piperacillin — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
 - [x] piperacillin — Sepsis에 듣는다 — 새 항목(piperacillin-sepsis-harm)  <!-- 등록 시험 18건 -->
-- [ ] piperacillin — Pneumonia에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] piperacillin — Febrile에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] gentamicin — Sepsis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] gentamicin — Infections에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] gentamicin — Diabetic Foot Ulcer에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] gentamicin — Pneumonia에 듣는다  <!-- 등록 시험 7건 -->
+- [x] piperacillin — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
+- [x] piperacillin — Febrile에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 10건 -->
+- [x] gentamicin — Sepsis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
+- [x] gentamicin — Infections에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] gentamicin — Diabetic Foot Ulcer에 듣는다 — 새 항목(gentamicin-diabetic-foot-ulcer-null)  <!-- 등록 시험 7건 -->
+- [x] gentamicin — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2326,10 +2326,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluconazole — Hiv에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] fluconazole — Meningitis에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] fluconazole — Leukemia에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] fluconazole — Infection에 듣는다  <!-- 등록 시험 23건 -->
+- [x] fluconazole — Hiv에 듣는다 — 새 항목(fluconazole-hiv-open)  <!-- 등록 시험 54건 -->
+- [x] fluconazole — Meningitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+- [x] fluconazole — Leukemia에 듣는다 — 새 항목(fluconazole-leukemia-null)  <!-- 등록 시험 30건 -->
+- [x] fluconazole — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
 - [ ] itraconazole — Cancer에 듣는다  <!-- 등록 시험 45건 -->
 - [ ] itraconazole — Solid Tumor에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] itraconazole — HIV Infection에 듣는다  <!-- 등록 시험 19건 -->
