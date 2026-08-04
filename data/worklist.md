@@ -2117,15 +2117,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lamotrigine — Depression에 듣는다 — 신규 항목(lamotrigine-depression-open)  <!-- 등록 시험 12건 -->
 - [x] lamotrigine — Vertigo, Aural에 듣는다 — 신규 항목(lamotrigine-vertigo-aural-open)  <!-- 등록 시험 7건 -->
 - [x] lamotrigine — Schizophrenia에 듣는다 — 신규 항목(lamotrigine-schizophrenia-open)  <!-- 등록 시험 4건 -->
-- [ ] disulfiram — Glioblastoma에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] disulfiram — Alcohol Disorders에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] disulfiram — Cancer에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] disulfiram — HIV에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] hydroxyzine — Effect of Drug에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] amiodarone — Wide QRS Tachycardia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] amiodarone — Cardiac Arrest에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] amiodarone — Heart Arrest에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] amiodarone — Arrhythmia에 듣는다  <!-- 등록 시험 7건 -->
+- [x] disulfiram — Glioblastoma에 듣는다 — 신규 항목(disulfiram-glioblastoma-open)  <!-- 등록 시험 9건 -->
+- [x] disulfiram — Alcohol Disorders에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] disulfiram — Cancer에 듣는다 — 신규 항목(disulfiram-cancer-open)  <!-- 등록 시험 7건 -->
+- [x] disulfiram — HIV에 듣는다 — 신규 항목(disulfiram-hiv-open)  <!-- 등록 시험 5건 -->
+- [x] hydroxyzine — Effect of Drug에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 3건 -->
+- [x] amiodarone — Wide QRS Tachycardia에 듣는다 — 신규 항목(amiodarone-wide-qrs-tachycardia-open)  <!-- 등록 시험 20건 -->
+- [x] amiodarone — Cardiac Arrest에 듣는다 — 신규 항목(amiodarone-cardiac-arrest-null)  <!-- 등록 시험 18건 -->
+- [x] amiodarone — Heart Arrest에 듣는다 — 신규 항목(amiodarone-heart-arrest-open)  <!-- 등록 시험 13건 -->
+- [x] amiodarone — Arrhythmia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 7건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2136,7 +2136,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 -->
+- [x] carvedilol — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
 - [ ] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 -->
 - [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 -->
