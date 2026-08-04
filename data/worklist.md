@@ -4714,16 +4714,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(lithium-depressive-disorder)
 - [x] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(lithium-tooth-loss-harm)
 - [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(pentoxifylline-breast-cancer-null)
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 -->
-- [ ] sirolimus — Renal Cell Cancer에 듣는다  <!-- 등록 시험 63건 -->
-- [ ] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(pentoxifylline-fibrosis-null)
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)
+- [x] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(pentoxifylline-pancreatitis-null)
+- [x] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 --> — 기존 항목(sirolimus-leukemia)
+- [x] sirolimus — Renal Cell Cancer에 듣는다  <!-- 등록 시험 63건 --> — 기존 항목(sirolimus-renal-cell-cancer-open)
+- [x] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 --> — 기존 항목(sirolimus-stenosis-artery-pos)
+- [x] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 --> — 기존 항목(sirolimus-kidney-cancer-open)
+- [x] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(rapamycin-urothelial-carcinoma-open)
+- [x] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(rapamycin-aging-open)
+- [x] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(rapamycin-heart-diseases-pos)
 - [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
 - [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
