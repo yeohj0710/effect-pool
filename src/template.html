@@ -6,11 +6,18 @@
 <title>오프라벨과 부수 효과 목록</title>
 <meta name="description" content="약이든 아니든, 어디까지 확인했는지를 같은 자로 재서 한 줄씩 적은 목록. 웰니스박스 연구자료.">
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/logo.png">
+<link rel="icon" href="/icon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="오프라벨과 부수 효과 목록">
 <meta property="og:description" content="약이든 아니든, 어디까지 확인했는지를 같은 자로 재서 한 줄씩 적었습니다.">
 <meta property="og:image" content="/logo.png">
 <meta property="og:site_name" content="웰니스박스">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.18/400.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.18/600.css">
@@ -100,9 +107,21 @@
   .meter.d-open i.on{ background:transparent; box-shadow:inset 0 0 0 1.5px var(--accent); }
 
   /* ───────── 거르개 ───────── */
+  /* 343건까지 가면 스크롤 중에도 거르개가 손에 닿아야 한다 */
   .tools{
+    position:sticky; top:0; z-index:20;
     display:flex; flex-wrap:wrap; gap:.75rem; align-items:center;
-    margin-bottom:1.25rem;
+    margin:0 -1.25rem 1.25rem; padding:.75rem 1.25rem;
+    background:var(--bg);
+  }
+  .tools::after{
+    content:''; position:absolute; left:0; right:0; bottom:0; height:1px;
+    background:var(--line-2); opacity:0; transition:opacity .18s;
+  }
+  .tools[data-stuck="true"]::after{ opacity:1; }
+  .hits{
+    font-size:12px; color:var(--ink-3); font-family:var(--n);
+    font-variant-numeric:tabular-nums; margin-left:auto;
   }
   .search{
     flex:1 1 14rem; min-width:0;
@@ -125,9 +144,13 @@
   /* ───────── 묶음 ───────── */
   .groups{ display:flex; flex-direction:column; gap:1.25rem; }
   .group{ background:var(--card); border-radius:var(--r); overflow:hidden; }
+  /* 어느 칸을 보고 있는지 스크롤 중에도 보이게 */
   .g-head{
+    position:sticky; top:3.6rem; z-index:10;
     display:flex; align-items:baseline; gap:.7rem;
     padding:1.25rem 1.75rem .9rem;
+    background:var(--card);
+    border-radius:var(--r) var(--r) 0 0;
   }
   .g-head .step{
     font-family:var(--n); font-size:12px; font-weight:600;
@@ -183,7 +206,14 @@
     display:none; align-items:flex-start; justify-content:center;
     padding:2rem 1rem; overflow-y:auto; z-index:50;
   }
-  .scrim[data-open="true"]{ display:flex; }
+  .scrim[data-open="true"]{ display:flex; animation:scrim-in .16s ease-out; }
+  .scrim[data-open="true"] .sheet{ animation:sheet-in .2s cubic-bezier(.22,.9,.32,1); }
+  @keyframes scrim-in{ from{ opacity:0 } }
+  @keyframes sheet-in{ from{ opacity:0; transform:translateY(10px) scale(.99) } }
+
+  /* 목록에서 항목으로 바로 들어왔을 때 붙어 있는 머리말에 가리지 않게 */
+  .row{ scroll-margin-top:7rem; }
+  .row[data-focus="true"]{ background:var(--accent-soft); }
   .sheet{
     background:var(--card); border-radius:var(--r);
     max-width:40rem; width:100%; margin:auto;
@@ -282,7 +312,20 @@
 
   .copy{ margin:0; font-size:11.5px; color:var(--ink-3); }
 
-  @media (prefers-reduced-motion:reduce){ *{ transition:none!important; animation:none!important; } }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion:reduce){
+    html{ scroll-behavior:auto; }
+    *{ transition:none!important; animation:none!important; }
+    ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){ animation:none!important; }
+  }
+
+  /* 거르개를 바꿀 때 줄이 튀지 않고 제자리를 찾아가게 */
+  @view-transition{ navigation:none; }
+  ::view-transition-old(list){ animation:vt-out .14s ease-in both; }
+  ::view-transition-new(list){ animation:vt-in .18s ease-out both; }
+  @keyframes vt-out{ to{ opacity:0 } }
+  @keyframes vt-in{ from{ opacity:0 } }
+  .groups{ view-transition-name:list; }
   @media (max-width:38rem){
     .wrap{ padding:2.5rem 1rem 3.5rem; }
     .stats{ gap:1.5rem 2rem; padding:1.25rem 1.25rem; }
@@ -329,6 +372,7 @@
   <div class="tools">
     <input class="search" id="q" type="search" placeholder="물질 이름이나 내용으로 찾기" aria-label="목록에서 찾기">
     <div class="chips" id="chips" role="group" aria-label="결과로 거르기"></div>
+    <span class="hits" id="hits" aria-live="polite"></span>
   </div>
 
   <div class="groups" id="groups"></div>
@@ -439,22 +483,55 @@ chipsEl.innerHTML = chipDefs.map(([k, label]) => {
   return '<button class="chip" type="button" data-k="' + k + '" aria-pressed="' + (k === 'all') + '">' +
          label + '<span class="c n">' + c + '</span></button>';
 }).join('');
+const qEl = document.getElementById('q');
+const hitsEl = document.getElementById('hits');
+
+// 거른 상태를 주소에 남긴다. 그래야 링크로 넘길 수 있다.
+function syncUrl(replace){
+  const p = new URLSearchParams();
+  if (filter !== 'all') p.set('d', filter);
+  if (query) p.set('q', query);
+  const url = location.pathname + (p.toString() ? '?' + p : '') + location.hash;
+  history[replace ? 'replaceState' : 'pushState'](null, '', url);
+}
+
+function setChip(k){
+  filter = k;
+  chipsEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c.dataset.k === k));
+}
+
 chipsEl.addEventListener('click', e => {
   const b = e.target.closest('.chip'); if (!b) return;
-  filter = b.dataset.k;
-  chipsEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
-  render();
+  setChip(b.dataset.k);
+  render(); syncUrl();
 });
-document.getElementById('q').addEventListener('input', e => { query = e.target.value.trim(); render(); });
+
+let typing;
+qEl.addEventListener('input', e => {
+  query = e.target.value.trim();
+  render();
+  clearTimeout(typing);
+  typing = setTimeout(() => syncUrl(true), 400);  // 글자마다 기록을 남기지 않는다
+});
 
 /* ── 목록 ── */
 const groupsEl = document.getElementById('groups');
 
+// 거르개를 바꿀 때 목록이 툭 바뀌지 않고 부드럽게 넘어가게
 function render(){
+  if (document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.startViewTransition(() => paint());
+  } else paint();
+}
+
+function paint(){
   const q = query.toLowerCase();
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
     (!q || (e.subj + e.line + e.claim + e.saw).toLowerCase().includes(q)));
+
+  hitsEl.textContent = (query || filter !== 'all')
+    ? hits.length + '건' : '';
 
   if (!hits.length){
     groupsEl.innerHTML = '<div class="empty">찾는 항목이 없습니다.</div>';
@@ -478,6 +555,7 @@ function render(){
       const btn = document.createElement('button');
       btn.className = 'row';
       btn.type = 'button';
+      btn.dataset.id = item.id;
       btn.innerHTML =
         meter(item.tier, item.dir) +
         '<span class="txt"><span class="subj">' + esc(item.subj) + '</span> — ' +
@@ -510,14 +588,15 @@ function render(){
     groupsEl.appendChild(sec);
   });
 }
-render();
 
 /* ── 펼친 창 ── */
 const scrim = document.getElementById('scrim'), xBtn = document.getElementById('x');
-let lastFocus = null;
+let lastFocus = null, openId = null;
 
 function open(item, tier, trigger){
   lastFocus = trigger;
+  openId = item.id;
+  if (location.hash !== '#' + item.id) history.pushState(null, '', '#' + item.id);
   const d = DIR[item.dir];
   document.getElementById('s-meter').innerHTML = meter(item.tier, item.dir);
   document.getElementById('s-tier').textContent = tier.name + ' · ' + d.t;
@@ -559,13 +638,85 @@ function open(item, tier, trigger){
 function close(){
   scrim.dataset.open = 'false';
   document.body.style.overflow = '';
+  openId = null;
+  if (location.hash) history.pushState(null, '', location.pathname + location.search);
   if (lastFocus) lastFocus.focus();
 }
 xBtn.addEventListener('click', close);
 scrim.addEventListener('click', e => { if (e.target === scrim) close(); });
+
+/* ── 주소로 항목 열기 ──
+   #<id> 로 들어오면 그 항목이 바로 펼쳐진다. 링크로 넘길 수 있게 하려는 것. */
+function openById(id, scroll){
+  const item = DATA.entries.find(e => e.id === id);
+  if (!item) return false;
+  const tier = tierOf(item.tier);
+
+  let row = groupsEl.querySelector('[data-id="' + CSS.escape(id) + '"]');
+  if (!row) {                                   // 접혀 있으면 펼치고 다시 찾는다
+    groupsEl.querySelectorAll('.more-btn').forEach(b => b.click());
+    row = groupsEl.querySelector('[data-id="' + CSS.escape(id) + '"]');
+  }
+  if (row && scroll) {
+    row.scrollIntoView({ block: 'center' });
+    row.dataset.focus = 'true';
+    setTimeout(() => delete row.dataset.focus, 1600);
+  }
+  open(item, tier, row || document.body);
+  return true;
+}
+
+/* ── 처음 들어왔을 때 주소 상태를 되살린다 ── */
+function applyUrl(scroll){
+  const p = new URLSearchParams(location.search);
+  const d = p.get('d'), q = p.get('q') || '';
+  setChip(DIR[d] ? d : 'all');
+  query = q; qEl.value = q;
+  paint();
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (id) openById(id, scroll); else if (scrim.dataset.open === 'true') close();
+}
+applyUrl(true);
+addEventListener('popstate', () => applyUrl(false));
+
+/* ── 손이 키보드에 있을 때 ── */
+const rows = () => [...groupsEl.querySelectorAll('.row')];
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && scrim.dataset.open === 'true') close();
+  const open_ = scrim.dataset.open === 'true';
+
+  if (e.key === 'Escape') {
+    if (open_) return close();
+    if (document.activeElement === qEl && qEl.value) {
+      qEl.value = ''; query = ''; paint(); syncUrl(true);
+    }
+    return;
+  }
+  if (open_) return;
+
+  const typingNow = /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName);
+  if (e.key === '/' && !typingNow) { e.preventDefault(); qEl.focus(); qEl.select(); return; }
+  if (typingNow && !['ArrowDown', 'ArrowUp', 'Enter'].includes(e.key)) return;
+
+  const list = rows();
+  if (!list.length) return;
+  const at = list.indexOf(document.activeElement);
+
+  if (e.key === 'ArrowDown' || (e.key === 'j' && !typingNow)) {
+    e.preventDefault(); (list[at + 1] || list[0]).focus();
+  } else if (e.key === 'ArrowUp' || (e.key === 'k' && !typingNow)) {
+    e.preventDefault(); (at > 0 ? list[at - 1] : list[list.length - 1]).focus();
+  } else if (e.key === 'Enter' && typingNow && list[0]) {
+    e.preventDefault(); list[0].focus();
+  }
 });
+
+/* ── 거르개가 위에 붙었을 때만 경계선 ── */
+const sentinel = document.createElement('div');
+document.querySelector('.tools').before(sentinel);
+new IntersectionObserver(
+  ([x]) => document.querySelector('.tools').dataset.stuck = String(!x.isIntersecting),
+  { threshold: 1 }
+).observe(sentinel);
 </script>
 </body>
 </html>
