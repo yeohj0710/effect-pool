@@ -3678,16 +3678,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
 - [x] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
 - [x] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 -->
-- [ ] sirolimus — Renal Cell Cancer에 듣는다  <!-- 등록 시험 63건 -->
-- [ ] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 -->
+- [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 -->
+- [x] sirolimus — Renal Cell Cancer에 듣는다  <!-- 등록 시험 63건 -->
+- [x] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 -->
+- [x] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
+- [x] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
+- [x] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
