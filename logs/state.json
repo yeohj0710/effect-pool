@@ -1,46 +1,46 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 470,
+  "entries": 475,
   "worklist": {
-    "checked": 1952,
-    "unchecked": 23,
+    "checked": 1962,
+    "unchecked": 13,
     "no_evidence_pending": 0,
     "next_batch": [
-      "dabigatran — Stroke",
-      "dabigatran — Coronary Disease",
-      "dabigatran — Thrombosis",
-      "fondaparinux — Pulmonary Embolism",
-      "fondaparinux — Thrombosis",
-      "fondaparinux — Cancer",
-      "fondaparinux — Coronary Disease"
+      "dalteparin — Surgery",
+      "tinzaparin — Thrombosis",
+      "tinzaparin — Cancer",
+      "tinzaparin — Pulmonary Embolism",
+      "tinzaparin — Bleeding",
+      "ticagrelor — Infarction",
+      "ticagrelor — Stroke"
     ]
   },
   "last_batch": [
-    "apixaban-stroke-approved",
-    "rivaroxaban-atrial-flutter-open",
-    "rivaroxaban-thrombosis-approved",
-    "rivaroxaban-coronary-disease-approved",
-    "rivaroxaban-embolism-approved",
-    "warfarin-thromboembolism-approved",
-    "warfarin-heart-defect-open",
-    "warfarin-embolism-approved",
-    "warfarin-thrombosis-approved",
-    "dabigatran-thromboembolism-approved"
+    "dabigatran-stroke-approved",
+    "dabigatran-coronary-disease-open",
+    "dabigatran-thrombosis-approved",
+    "fondaparinux-pulmonary-embolism-approved",
+    "fondaparinux-thrombosis-approved",
+    "fondaparinux-cancer-open",
+    "fondaparinux-coronary-disease-open",
+    "dalteparin-cancer-approved",
+    "dalteparin-thrombosis-open",
+    "dalteparin-pulmonary-embolism-open"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 431,
+      "trial": 436,
       "obs": 32,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
     "no_effect_or_harm": 178,
-    "no_effect_or_harm_share": "38%"
+    "no_effect_or_harm_share": "37%"
   },
   "deployment": {
     "last_entry_count": 455,
@@ -48,8 +48,8 @@
     "deployment_id": "dpl_5aGYeSHsVC4ZDZy1FAVdxpdyreab"
   },
   "resume": {
-    "last_committed_batch": "0171f1f",
-    "current_batch": "rivaroxaban, warfarin, apixaban, dabigatran",
-    "next_action": "research next_batch"
+    "last_committed_batch": "0526800",
+    "current_batch": "dabigatran, fondaparinux, dalteparin",
+    "next_action": "commit batch18"
   }
 }

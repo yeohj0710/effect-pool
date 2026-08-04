@@ -2217,16 +2217,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] warfarin — Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 47건 -->
 - [x] warfarin — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
 - [x] dabigatran — Thromboembolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
-- [ ] dabigatran — Stroke에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] dabigatran — Coronary Disease에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] dabigatran — Thrombosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] fondaparinux — Pulmonary Embolism에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] fondaparinux — Thrombosis에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] fondaparinux — Cancer에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] fondaparinux — Coronary Disease에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] dalteparin — Cancer에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dalteparin — Thrombosis에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] dalteparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 9건 -->
+- [x] dabigatran — Stroke에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] dabigatran — Coronary Disease에 듣는다  <!-- 등록 시험 12건 -->
+- [x] dabigatran — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] fondaparinux — Pulmonary Embolism에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 11건 -->
+- [x] fondaparinux — Thrombosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] fondaparinux — Cancer에 듣는다  <!-- 등록 시험 7건 -->
+- [x] fondaparinux — Coronary Disease에 듣는다  <!-- 등록 시험 6건 -->
+- [x] dalteparin — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 21건 -->
+- [x] dalteparin — Thrombosis에 듣는다  <!-- 등록 시험 19건 -->
+- [x] dalteparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] dalteparin — Surgery에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] tinzaparin — Thrombosis에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] tinzaparin — Cancer에 듣는다  <!-- 등록 시험 9건 -->
