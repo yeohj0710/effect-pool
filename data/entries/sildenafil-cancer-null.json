@@ -1,0 +1,35 @@
+{
+  "id": "sildenafil-cancer-null",
+  "subj": "실데나필",
+  "claim": "PDE5 억제제를 암 환자에게 쓴다",
+  "line": "암 환자에서 항암제 심장독성을 예방하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 60,
+  "synth": "single",
+  "why": "안트라사이클린 항암치료를 받는 암 환자 60명을 실데나필과 위약에 무작위 배정한 이중맹검 시험입니다.",
+  "saw": "최종 분석 52명에서 좌심실박출률 감소폭과 항암제 관련 심장기능장애 발생률은 두 군 차이가 없었습니다.",
+  "limit": "작은 예방시험이고 심장 대리지표를 본 결과입니다. 실데나필의 종양 반응이나 암 생존 효과를 평가한 시험이 아닙니다.",
+  "against": "암 수술·방사선 뒤 발기부전에는 실데나필 효과를 보인 시험이 있지만, 그 결과는 암 자체의 치료 효과가 아닙니다.",
+  "use": "암 환자에서 동반 심장독성 예방과 성기능 치료를 암 치료 효과와 혼동하면 안 됩니다.",
+  "refs": [
+    {
+      "label": "Farshidfar 2022 · J Med Sci · SILDAT-TAHA6 심장독성 예방 RCT",
+      "doi": "10.1155/2022/5681510",
+      "pmid": "35387238",
+      "pmc": "PMC8977337"
+    },
+    {
+      "label": "Rigaud 2002 · Dis Colon Rectum · 암 절제 후 발기부전 RCT",
+      "doi": "10.1007/s10350-004-6287-9",
+      "pmid": "12072621"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=sildenafil, cond=Cancer → 27건 반환, InterventionName 대조 후 sildenafil 25건",
+    "pubmed": "sildenafil cancer → 531건",
+    "negative": "sildenafil cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 408건",
+    "safety": "sildenafil cancer AND (adverse OR toxicity OR hepatotoxicity OR nephrotoxicity OR case report OR self-medication) → 271건"
+  }
+}
