@@ -774,26 +774,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
 - [x] valacyclovir — Infection에 듣는다 — 기존 항목(valacyclovir-infection-null)  <!-- 등록 시험 10건 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
-- [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
-- [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [x] minoxidil — Baldness에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 6건 -->
-- [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [x] bupropion — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 63건 -->
-- [x] bupropion — Tobacco Use에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 52건 -->
-- [x] bupropion — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
-- [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
-- [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
-- [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
-- [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [x] sildenafil — Impotence에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
-- [x] bimatoprost — Ocular Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 82건 -->
-- [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
-- [x] bimatoprost — Hypotrichosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
-- [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
-- [x] botulinum toxin — Bladder Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 54건 -->
-- [x] botulinum toxin — Spasticity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
-- [x] botulinum toxin — Frown Lines에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 43건 -->
-- [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
+- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 -->
+- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 -->
+- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
+- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
+- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
+- [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
+- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
+- [ ] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] botulinum toxin — Bladder Disease에 듣는다  <!-- 등록 시험 54건 -->
+- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 53건 -->
+- [ ] botulinum toxin — Frown Lines에 듣는다  <!-- 등록 시험 43건 -->
+- [ ] botulinum toxin — Stroke에 듣는다  <!-- 등록 시험 32건 -->
 - [x] duloxetine — Pain에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 79건 -->
 - [x] duloxetine — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
 - [x] duloxetine — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 24건 -->
@@ -1534,46 +1534,46 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
 - [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] hydroxychloroquine — Virus Disease에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
-- [ ] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다  <!-- 등록 시험 43건 -->
-- [ ] botulinum toxin — Stroke에 듣는다  <!-- 등록 시험 32건 -->
+- [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
+- [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
+- [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
+- [x] thalidomide — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
+- [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
+- [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
+- [x] ivermectin — Covid19에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 39건 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다 — 기존 항목(ivermectin-covid-null)  <!-- 등록 시험 29건 -->
+- [x] ivermectin — Scabies에 듣는다 — 기존 항목(ivermectin-scabies)  <!-- 등록 시험 19건 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다 — 기존 항목(ivermectin-lymphatic-filariasis)  <!-- 등록 시험 18건 -->
+- [x] hydroxychloroquine — Cancer에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)  <!-- 등록 시험 112건 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 55건 -->
+- [x] hydroxychloroquine — Virus Disease에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 41건 -->
+- [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
+- [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
+- [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
+- [x] valacyclovir — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
+- [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
+- [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
+- [x] minoxidil — Baldness에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
+- [x] bupropion — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 63건 -->
+- [x] bupropion — Tobacco Use에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 52건 -->
+- [x] bupropion — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
+- [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
+- [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
+- [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
+- [x] sildenafil — Impotence에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] bimatoprost — Ocular Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 82건 -->
+- [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
+- [x] bimatoprost — Hypotrichosis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
+- [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 54건 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
+- [x] botulinum toxin — Frown Lines에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
 - [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
 - [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 24건 -->
