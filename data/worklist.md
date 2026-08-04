@@ -2137,16 +2137,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] carvedilol — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
-- [ ] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] hydrochlorothiazide — Diabetes에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] hydrochlorothiazide — Heart Arrest에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] hydrochlorothiazide — Kidney Stone에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] hydrochlorothiazide — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] levetiracetam — Seizures에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] levetiracetam — Brain Tumor에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] levetiracetam — Status Epilepticus에 듣는다  <!-- 등록 시험 17건 -->
+- [x] carvedilol — Cirrhosis에 듣는다 — 신규 항목(carvedilol-cirrhosis-open)  <!-- 등록 시험 34건 -->
+- [x] carvedilol — Varix, Esophageal에 듣는다 — 신규 항목(carvedilol-esophageal-varix-open)  <!-- 등록 시험 15건 -->
+- [x] carvedilol — Cancer에 듣는다 — 신규 항목(carvedilol-cancer-open)  <!-- 등록 시험 12건 -->
+- [x] hydrochlorothiazide — Diabetes에 듣는다 — 신규 항목(hydrochlorothiazide-diabetes-open)  <!-- 등록 시험 28건 -->
+- [x] hydrochlorothiazide — Heart Arrest에 듣는다 — 신규 항목(hydrochlorothiazide-heart-arrest-open)  <!-- 등록 시험 14건 -->
+- [x] hydrochlorothiazide — Kidney Stone에 듣는다 — 신규 항목(hydrochlorothiazide-kidney-stone-null)  <!-- 등록 시험 12건 -->
+- [x] hydrochlorothiazide — Metabolic Syndrome에 듣는다 — 신규 항목(hydrochlorothiazide-metabolic-syndrome-open)  <!-- 등록 시험 8건 -->
+- [x] levetiracetam — Seizures에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] levetiracetam — Brain Tumor에 듣는다 — 신규 항목(levetiracetam-brain-tumor-open)  <!-- 등록 시험 22건 -->
+- [x] levetiracetam — Status Epilepticus에 듣는다 — 신규 항목(levetiracetam-status-epilepticus-open)  <!-- 등록 시험 17건 -->
 - [ ] levetiracetam — Alzheimer Disease에 듣는다  <!-- 등록 시험 14건 -->
 - [ ] diltiazem — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] diltiazem — Hypertension에 듣는다  <!-- 등록 시험 8건 -->
