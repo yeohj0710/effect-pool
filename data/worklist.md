@@ -4684,16 +4684,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(clonidine-opioid-use)
 - [x] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
 - [x] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(clonidine-osteoarthritis-null)
-- [ ] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
+- [x] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(clonidine-anesthesia)
+- [x] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 --> — 허가 적응증(2026-08-04)
+- [x] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 --> — 허가 적응증(2026-08-04)
+- [x] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(finasteride-spinal-cord-injury)
+- [x] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(finasteride-trauma-nervous-system-open)
+- [x] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(melatonin-pain-null)
+- [x] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(melatonin-delirium-null)
+- [x] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(melatonin-cancer-null)
+- [x] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(melatonin-anxiety)
+- [x] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(modafinil-fatigue-null)
 - [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
