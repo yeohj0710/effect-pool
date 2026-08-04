@@ -1,0 +1,39 @@
+{
+  "id": "ivermectin-sars-cov-infection-null",
+  "subj": "이버멕틴",
+  "claim": "이버멕틴이 SARS-CoV 감염을 치료한다",
+  "line": "SARS-CoV-2 감염에서 입원과 증상 회복을 개선하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1800,
+  "synth": "single",
+  "why": "이버멕틴의 허가사항에 SARS-CoV-2 감염 치료는 포함되지 않습니다.",
+  "saw": "PMID36269852의 SARS-CoV-2 양성 경증·중등도 외래 환자 1,800명 무작위 위약대조시험에서 회복까지의 시간과 입원·사망 복합 결과가 유의하게 개선되지 않았습니다.",
+  "limit": "외래 경증·중등도 환자 중심의 시험이라 중증 입원 환자와 감염 예방에는 직접 적용할 수 없습니다.",
+  "against": "반대 검색 195건. 초기 소규모 연구와 일부 메타분석은 상반된 결과를 제시했지만, PMID35353979의 3,515명 무작위시험도 COVID-19 진행을 낮추지 못했습니다.",
+  "use": "SARS-CoV-2 감염의 회복이나 입원을 개선하기 위해 이버멕틴을 사용할 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "JAMA 2022 · SARS-CoV-2 감염 외래 환자 이버멕틴 무작위시험",
+      "doi": "10.1001/jama.2022.18590",
+      "pmid": "36269852",
+      "pmc": "PMC9587497",
+      "nct": "NCT04885530"
+    },
+    {
+      "label": "New England Journal of Medicine 2022 · SARS-CoV-2 감염 조기 치료 이버멕틴 무작위시험",
+      "doi": "10.1056/NEJMoa2115869",
+      "pmid": "35353979",
+      "pmc": "PMC9006771",
+      "nct": "NCT04727424"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"IVERMECTIN\" · 38건",
+    "ctgov": "query.intr=ivermectin&query.cond=SARS-CoV Infection · 4건, InterventionName에 ivermectin 포함 4건",
+    "pubmed": "ivermectin SARS-CoV Infection · 271건",
+    "negative": "ivermectin SARS-CoV Infection (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 195건",
+    "safety": "ivermectin SARS-CoV Infection (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 71건"
+  }
+}

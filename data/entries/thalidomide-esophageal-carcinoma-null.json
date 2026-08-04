@@ -1,30 +1,31 @@
 {
   "id": "thalidomide-esophageal-carcinoma-null",
   "subj": "탈리도마이드",
-  "claim": "기형 유발 약을 식도암에 쓴다",
-  "line": "식도암에서 반응률은 늘지 않았지만 종양 표지자는 낮아졌습니다",
-  "tier": "obs",
+  "claim": "탈리도마이드가 식도암을 치료한다",
+  "line": "전이성 위식도 선암에서 효과 근거가 부족합니다",
+  "tier": "case",
   "dir": "null",
-  "n": 62,
+  "n": 1,
   "synth": "single",
-  "why": "식도암 환자 62명을 실제로 받은 치료에 따라 비교한 비무작위 임상자료입니다.",
-  "saw": "탈리도마이드 포함 항암방사선요법군 32명과 비교군 30명에서 전체 반응률과 질병통제율은 다르지 않았지만 종양 표지자와 삶의 질 지표는 더 좋아졌습니다.",
-  "limit": "비무작위 비교이고 여러 치료를 함께 사용했습니다. 종양 표지자는 생존이나 재발을 직접 측정한 결과가 아닙니다.",
-  "against": "반응률과 질병통제율에서 유의한 이득이 없었습니다. 탈리도마이드 자체의 효과와 장기 안전성을 분리할 수 없습니다.",
-  "use": "식도암에서 일부 생물학적 지표가 좋아져도 환자 중심의 치료 효과가 확인된 것은 아닙니다.",
+  "why": "탈리도마이드의 허가사항은 다발골수종과 나병성 결절홍반이며 식도암 치료는 허가 적응증이 아닙니다.",
+  "saw": "PMID20798199의 전이성 위식도 선암 환자 1명에서 라파마이신과 탈리도마이드 병용 뒤 종양표지자와 임상 상태가 호전되고 병변이 안정됐다는 증례만 보고됐습니다.",
+  "limit": "증례 1건이고 위식도 선암을 대상으로 했으며 병용요법이라 탈리도마이드의 독립 효과를 판단할 수 없습니다.",
+  "against": "반대 검색 5건. 식도암에서 탈리도마이드 단독요법의 무작위시험이나 비교시험을 찾지 못했습니다.",
+  "use": "식도암 치료에 탈리도마이드를 사용할 근거는 증례 수준에 그칩니다.",
   "refs": [
     {
-      "label": "Wang 2023 · World J Gastroenterol · 식도암 비교자료",
-      "doi": "10.4251/wjgo.v15.i7.1262",
-      "pmid": "37546558",
-      "pmc": "PMC10401474"
+      "label": "The Oncologist 2010 · 전이성 위식도 선암 병용요법 증례",
+      "doi": "10.1634/theoncologist.2010-0118",
+      "pmid": "20798199",
+      "pmc": "PMC3228032"
     }
   ],
   "queried": {
     "date": "2026-08-04",
-    "ctgov": "intr=thalidomide, cond=Esophageal Carcinoma → 3건 반환, InterventionName 대조 후 thalidomide 3건",
-    "pubmed": "thalidomide esophageal carcinoma → 7건",
-    "negative": "thalidomide esophageal carcinoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5건",
-    "safety": "thalidomide esophageal carcinoma AND (adverse OR toxicity OR hepatotoxicity OR nephrotoxicity OR case report OR self-medication) → 3건"
+    "fda": "openFDA drug label openfda.substance_name:\"THALIDOMIDE\" · 1건",
+    "ctgov": "query.intr=thalidomide&query.cond=Esophageal Carcinoma · 3건, InterventionName에 thalidomide 포함 3건",
+    "pubmed": "thalidomide Esophageal Carcinoma · 7건",
+    "negative": "thalidomide Esophageal Carcinoma (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 5건",
+    "safety": "thalidomide Esophageal Carcinoma (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 2건"
   }
 }
