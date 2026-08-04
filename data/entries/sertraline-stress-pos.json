@@ -1,0 +1,42 @@
+{
+  "id": "sertraline-stress-pos",
+  "subj": "세르트랄린",
+  "claim": "세르트랄린이 스트레스 반응을 치료한다",
+  "line": "외상 후 스트레스 증상에서 세르트랄린은 작은 개선 효과를 보였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "why": "외상 후 스트레스장애(PTSD) 약물치료 무작위시험 115편의 체계적 문헌고찰·메타분석에서 세르트랄린 단독요법의 작은 유의한 개선 신호가 있었습니다.",
+  "saw": "115편의 무작위시험을 합친 메타분석에서 세르트랄린은 PTSD 증상 감소에 작은 유의한 효과를 보인 개별 약제에 포함됐습니다. 메타분석 초록에는 전체 합친 사람 수가 보고되지 않았습니다.",
+  "limit": "대상은 일반 스트레스가 아니라 PTSD였고, 세르트랄린에 배정된 전체 사람 수와 일반 스트레스 반응의 효과는 따로 확인되지 않았습니다.",
+  "against": "반대 검색 496건을 확인했습니다. 세르트랄린 단독의 직접적인 무효 결과는 확인하지 못했지만, 최근 PTSD 시험에서는 세르트랄린 단독보다 다른 약과의 병용이 더 크게 개선됐습니다.",
+  "use": "일반 스트레스 치료로 확정하지 말고 PTSD 증상에 대한 작은 신호로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Hoskins 2021 · European Journal of Psychotraumatology · PTSD 약물치료 메타분석",
+      "doi": "10.1080/20008198.2020.1802920",
+      "pmid": "34992738",
+      "pmc": "PMC8725683"
+    },
+    {
+      "label": "JAMA Psychiatry 2025 · 세르트랄린과 병용약의 PTSD 무작위시험",
+      "doi": "10.1001/jamapsychiatry.2024.3996",
+      "pmid": "39693081",
+      "pmc": "PMC11883513"
+    },
+    {
+      "label": "Sertraline overdose · 안전성 증례",
+      "doi": "10.1111/j.1553-2712.1996.tb03400.x",
+      "pmid": "8808373"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:SERTRALINE → 161건; 허가 문구에 주요우울장애·강박장애·공황장애·외상 후 스트레스장애·사회불안장애·월경전불쾌장애가 있으나 일반 스트레스 반응은 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=sertraline&query.cond=Stress&countTotal=true&pageSize=50 → 45건 반환, InterventionName 대조 후 sertraline 일치 33건",
+    "pubmed": "sertraline AND Stress → 661건",
+    "negative": "sertraline AND Stress AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 496건",
+    "safety": "sertraline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,111건"
+  }
+}

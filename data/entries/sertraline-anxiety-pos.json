@@ -1,0 +1,41 @@
+{
+  "id": "sertraline-anxiety-pos",
+  "subj": "세르트랄린",
+  "claim": "세르트랄린이 불안장애를 치료한다",
+  "line": "불안장애에서 세르트랄린은 증상을 개선했지만 근거 규모가 작았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 25441,
+  "synth": "meta",
+  "why": "성인 범불안장애 무작위시험 89편의 네트워크 메타분석에서 세르트랄린이 효과가 있고 잘 견디는 약제로 분류됐지만 세르트랄린 근거는 작은 표본에 제한됐습니다.",
+  "saw": "22개 약제 또는 위약을 비교한 89편 무작위시험, 25,441명을 합친 네트워크 메타분석에서 세르트랄린은 범불안장애 증상을 개선했습니다. 아동·청소년 불안장애 488명 시험에서도 세르트랄린은 위약보다 나았습니다.",
+  "limit": "25,441명은 여러 약제와 위약을 합친 전체 인원이며 세르트랄린 비교군만의 인원이 아닙니다. 허가사항의 공황장애·사회불안장애와 일반 불안장애는 같은 진단이 아닙니다.",
+  "against": "네트워크 메타분석은 세르트랄린 결과가 작은 표본에 제한됐다고 했습니다. 아동시험에서는 세르트랄린 단독보다 인지행동치료 병용이 더 많이 개선됐습니다.",
+  "use": "불안장애 전반의 확정 치료로 넓히지 말고, 범불안장애와 일부 소아 불안장애의 제한된 근거로 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "Cipriani 2019 · The Lancet · 범불안장애 약물 네트워크 메타분석",
+      "doi": "10.1016/S0140-6736(18)31793-8",
+      "pmid": "30712879"
+    },
+    {
+      "label": "Walkup 2008 · New England Journal of Medicine · 소아 불안장애 세르트랄린 무작위시험",
+      "doi": "10.1056/NEJMoa0804633",
+      "pmid": "18974308",
+      "pmc": "PMC2702984"
+    },
+    {
+      "label": "Sertraline overdose · 안전성 증례",
+      "doi": "10.1111/j.1553-2712.1996.tb03400.x",
+      "pmid": "8808373"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:SERTRALINE → 161건; 허가 문구에 공황장애·사회불안장애는 있으나 일반 불안장애는 별도 적응증으로 제시되지 않음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=sertraline&query.cond=Anxiety&countTotal=true&pageSize=50 → 72건 반환, InterventionName 대조 후 sertraline 일치 36건",
+    "pubmed": "sertraline AND Anxiety → 1,144건",
+    "negative": "sertraline AND Anxiety AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 844건",
+    "safety": "sertraline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,111건"
+  }
+}

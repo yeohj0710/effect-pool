@@ -1,36 +1,36 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 573,
+  "entries": 580,
   "worklist": {
-    "checked": 4828,
-    "unchecked": 50,
+    "checked": 4838,
+    "unchecked": 40,
     "no_evidence_pending": 0,
     "next_batch": [
-      "berberine-hiv-1-infection",
-      "berberine-gastritis",
-      "sertraline-depressive-episode",
-      "sertraline-stress",
-      "sertraline-anxiety",
-      "sertraline-compulsive-behavior",
-      "clozapine-schizoaffective-disorder",
-      "clozapine-bipolar-disorder",
-      "clozapine-psychotic-disorder",
-      "clozapine-alcohol-abuse"
+      "cariprazine-schizophrenia",
+      "cariprazine-major-depressive-disorder",
+      "cariprazine-depression",
+      "cariprazine-mania",
+      "oxytocin-labor",
+      "oxytocin-schizophrenia",
+      "oxytocin-autism",
+      "oxytocin-alcohol-use",
+      "fluvoxamine-obsessive-compulsive-disorder",
+      "fluvoxamine-covid-19"
     ]
   },
   "verification": {
     "build": "passed",
     "line_warnings": 0,
-    "unknown_n_warnings": 1,
+    "unknown_n_warnings": 4,
     "tier_distribution": {
-    "trial": 529,
+      "trial": 536,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 227,
+    "no_effect_or_harm": 231,
     "harm": 23,
     "no_effect_or_harm_share": "40%"
   },
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_9dictit9QyGsfGVqcx7szMEMx87X"
   },
   "last_batch": [
-    "n-acetylcysteine-kidney-disease-null (existing)",
-    "n-acetylcysteine-pulmonary-fibrosis-null (existing)",
-    "n-acetylcysteine-oxidative-stress (existing)",
-    "n-acetylcysteine-cocaine-dependence-null (existing)",
-    "creatine-muscle (existing)",
-    "creatine-major-depressive-disorder (existing)",
-    "creatine-sarcopenia (existing)",
-    "creatine-sport-performance (existing)",
-    "berberine-schizophrenia (existing)",
-    "berberine-metabolic-syndrome (existing)"
+    "berberine-hiv-1-infection-open (existing)",
+    "berberine-gastritis-open (existing)",
+    "sertraline-depressive-episode (approved)",
+    "sertraline-stress-pos",
+    "sertraline-anxiety-pos",
+    "sertraline-compulsive-behavior-null",
+    "clozapine-schizoaffective-disorder-pos",
+    "clozapine-bipolar-disorder-null",
+    "clozapine-psychotic-disorder-null",
+    "clozapine-alcohol-abuse-null"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -67,8 +67,8 @@
     "added_candidates": 32
   },
   "resume": {
-    "last_committed_batch": "n-acetylcysteine, creatine, berberine",
-    "current_batch": "n-acetylcysteine, creatine, berberine",
+    "last_committed_batch": "berberine, sertraline, clozapine",
+    "current_batch": "berberine, sertraline, clozapine",
     "next_action": "build, commit, push, then process next batch"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "id": "sertraline-compulsive-behavior-null",
+  "subj": "세르트랄린",
+  "claim": "세르트랄린이 강박행동을 줄인다",
+  "line": "병적 도박에서 세르트랄린은 위약보다 낫지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 60,
+  "synth": "single",
+  "why": "병적 도박 환자 60명을 세르트랄린과 위약에 무작위 배정한 이중눈가림 시험에서 전체 표본의 우월성이 확인되지 않았습니다.",
+  "saw": "60명이 참여한 위약대조 시험에서 세르트랄린군과 위약군의 병적 도박 반응률은 각각 74%와 72%였고 차이는 유의하지 않았습니다.",
+  "limit": "강박행동 전체가 아니라 병적 도박을 측정한 소규모 시험이며 위약 반응이 높아 검정력이 제한됐습니다.",
+  "against": "강박행동 관련 무작위시험 21편을 지도화한 검토에서는 세르트랄린을 포함한 항우울제가 일부 발모벽 환자에서 가능성을 보였고, 병적 도박 결과를 다른 강박행동으로 일반화할 수 없습니다.",
+  "use": "강박행동 전반에 세르트랄린이 효과가 있다고 표시하지 말고, 질환별로 나뉜 작은 시험 근거로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Pallanti 2005 · Journal of Clinical Psychiatry · 병적 도박 세르트랄린 위약대조시험",
+      "doi": "10.4088/jcp.v66n0104",
+      "pmid": "15669885"
+    },
+    {
+      "label": "Woods 2023 · Journal of Dermatological Treatment · 강박성 피부질환 약물 무작위시험 근거지도",
+      "doi": "10.1177/12034754231155888",
+      "pmid": "36802832",
+      "pmc": "PMC10068402"
+    },
+    {
+      "label": "Mason 2006 · Journal of Clinical Psychiatry · 발모벽 세르트랄린 시험",
+      "doi": "10.4088/jcp.v67n0711",
+      "pmid": "16889452"
+    },
+    {
+      "label": "Sertraline overdose · 안전성 증례",
+      "doi": "10.1111/j.1553-2712.1996.tb03400.x",
+      "pmid": "8808373"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:SERTRALINE → 161건; 허가 문구에 강박장애는 있으나 일반 강박행동은 별도 적응증으로 제시되지 않음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=sertraline&query.cond=Compulsive%20Behavior&countTotal=true&pageSize=50 → 10건 반환, InterventionName 대조 후 sertraline 일치 5건",
+    "pubmed": "sertraline AND Compulsive Behavior → 76건",
+    "negative": "sertraline AND Compulsive Behavior AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 54건",
+    "safety": "sertraline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,111건"
+  }
+}
