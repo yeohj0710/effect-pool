@@ -1,0 +1,47 @@
+{
+  "id": "escitalopram-insomnia-open",
+  "subj": "에스시탈로프람",
+  "claim": "에스시탈로프람이 불면증을 치료한다",
+  "line": "우울·불안 환자의 수면 증상은 개선됐지만 독립 불면 근거는 제한적입니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 7185,
+  "synth": "meta",
+  "why": "우울·불안장애 에스시탈로프람 무작위시험 22편의 수면 부차지표 분석에서 수면 증상 개선 신호가 있었지만 독립 불면증 치료시험은 아니었습니다.",
+  "saw": "MDD 5,133명과 범불안장애 2,052명을 포함한 22편 무작위시험에서 우울·불안 척도의 수면 항목은 개선됐습니다. 불면증과 우울증 환자 107명 시험에서는 인지행동치료군만 객관적 수면이 개선됐고 에스시탈로프람 병용군은 악화됐습니다.",
+  "limit": "7,185명은 우울·불안장애 시험의 전체 인원이며 일차 불면증 환자만의 분석이 아닙니다. 수면 항목은 부차지표이고 주관·객관 측정 결과가 달랐습니다.",
+  "against": "반대 검색 97건을 확인했습니다. 107명 무작위시험에서 에스시탈로프람과 수면위생을 병용한 군은 객관적 수면이 악화됐고, 불면증을 독립 적응증으로 평가한 확정시험은 확인하지 못했습니다.",
+  "use": "불면증 단독 치료제로 표시하지 말고, 우울·불안 치료 중 수면 증상에 대한 혼합된 부차지표 근거로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "Wang 2011 · CNS Drugs · 우울·불안장애 에스시탈로프람 수면 분석",
+      "doi": "10.1007/s12325-011-0071-8",
+      "pmid": "22057726"
+    },
+    {
+      "label": "Manber 2017 · Sleep · 불면증·우울증 에스시탈로프람과 인지행동치료 무작위시험",
+      "doi": "10.1093/sleep/zsx019",
+      "pmid": "28199710",
+      "pmc": "PMC5806549"
+    },
+    {
+      "label": "Watanabe 2016 · Journal of Clinical Psychiatry · 불면증·우울증 항우울제와 인지행동치료 시험",
+      "doi": "10.4088/JCP.15m10244",
+      "pmid": "27788313"
+    },
+    {
+      "label": "Escitalopram 안전성 메타검토",
+      "doi": "10.1002/wps.20765",
+      "pmid": "32394557",
+      "pmc": "PMC7215080"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:ESCITALOPRAM → 115건; 허가 문구는 주요우울장애와 범불안장애이며 불면증 적응증 없음",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=escitalopram&query.cond=Insomnia&countTotal=true&pageSize=50 → 16건 반환, InterventionName 대조 후 escitalopram 일치 8건",
+    "pubmed": "escitalopram AND Insomnia → 117건",
+    "negative": "escitalopram AND Insomnia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 97건",
+    "safety": "escitalopram AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,544건"
+  }
+}
