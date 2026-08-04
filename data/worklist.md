@@ -1114,16 +1114,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 37건 -->
 - [x] atorvastatin — Hyperlipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
 - [x] atorvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
+- [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
+- [x] losartan — Nephropathy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
+- [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] verapamil — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 6건 -->
+- [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
+- [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
+- [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
+- [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [ ] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 -->
