@@ -2177,16 +2177,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 -->
 - [x] furosemide — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
 - [x] furosemide — Fluid Overload에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
-- [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] prednisolone — Leukemia에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] prednisolone — Cancer에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] prednisolone — Pain에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] prednisolone — Myeloma에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] dexamethasone — Leukemia에 듣는다  <!-- 등록 시험 85건 -->
-- [ ] dexamethasone — Pain에 듣는다  <!-- 등록 시험 81건 -->
-- [ ] dexamethasone — Lymphoma에 듣는다  <!-- 등록 시험 64건 -->
-- [ ] dexamethasone — Cancer에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] hydrocortisone — Lymphoma에 듣는다  <!-- 등록 시험 49건 -->
+- [x] furosemide — Renal Impairment에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] prednisolone — Leukemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] prednisolone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+- [x] prednisolone — Pain에 듣는다  <!-- 등록 시험 25건 -->
+- [x] prednisolone — Myeloma에 듣는다  <!-- 등록 시험 24건 -->
+- [x] dexamethasone — Leukemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 85건 -->
+- [x] dexamethasone — Pain에 듣는다  <!-- 등록 시험 81건 -->
+- [x] dexamethasone — Lymphoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 64건 -->
+- [x] dexamethasone — Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 33건 -->
+- [x] hydrocortisone — Lymphoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 49건 -->
 - [ ] hydrocortisone — Cancer에 듣는다  <!-- 등록 시험 26건 -->
 - [ ] hydrocortisone — Adrenal Insufficiency에 듣는다  <!-- 등록 시험 20건 -->
 - [ ] hydrocortisone — Shock에 듣는다  <!-- 등록 시험 19건 -->
