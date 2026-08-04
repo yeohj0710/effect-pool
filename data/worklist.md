@@ -3538,16 +3538,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
+- [x] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
+- [x] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
+- [x] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
+- [x] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
+- [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
+- [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
+- [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
+- [x] propranolol — Migraine에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 30건 -->
+- [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
