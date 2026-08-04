@@ -1997,13 +1997,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tofacitinib — Cutaneous Lupus에 듣는다 — 신규 항목(tofacitinib-cutaneous-lupus-open)  <!-- 등록 시험 8건 -->
 - [x] anakinra — COVID-19에 듣는다 — 신규 항목(anakinra-covid-19-null)  <!-- 등록 시험 14건 -->
 - [x] anakinra — Rheumatoid Arthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
-- [ ] anakinra — Heart Failure에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] anakinra — Type 1 Diabetes에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] ustekinumab — Psoriasis에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] ustekinumab — Colitis에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] ustekinumab — Psoriatic Arthritis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] ustekinumab — Stricture; Bowel에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] rituximab — Leukemia에 듣는다  <!-- 등록 시험 141건 -->
-- [ ] rituximab — Multiple Myeloma에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] rituximab — Rheumatoid Arthritis에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] rituximab — Waldenstrom Macroglobulinemia에 듣는다  <!-- 등록 시험 15건 -->
+- [x] anakinra — Heart Failure에 듣는다 — 신규 항목(anakinra-heart-failure-null)  <!-- 등록 시험 12건 -->
+- [x] anakinra — Type 1 Diabetes에 듣는다 — 신규 항목(anakinra-type-1-diabetes-null)  <!-- 등록 시험 10건 -->
+- [x] ustekinumab — Psoriasis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 57건 -->
+- [x] ustekinumab — Colitis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
+- [x] ustekinumab — Psoriatic Arthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
+- [x] ustekinumab — Stricture; Bowel에 듣는다 — 신규 항목(ustekinumab-bowel-stricture-open)  <!-- 등록 시험 15건 -->
+- [x] rituximab — Leukemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 141건 -->
+- [x] rituximab — Multiple Myeloma에 듣는다 — 신규 항목(rituximab-multiple-myeloma-open)  <!-- 등록 시험 28건 -->
+- [x] rituximab — Rheumatoid Arthritis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 17건 -->
+- [x] rituximab — Waldenstrom Macroglobulinemia에 듣는다 — 신규 항목(rituximab-waldenstrom-macroglobulinemia-open)  <!-- 등록 시험 15건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] canakinumab — Stage I Lung Cancer AJCC v8에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] canakinumab — Lung Cancer에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] canakinumab — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] canakinumab — Type 1 Diabetes에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] tocilizumab — Cancer에 듣는다  <!-- 등록 시험 61건 -->
+- [ ] tocilizumab — Lymphoma에 듣는다  <!-- 등록 시험 46건 -->
+- [ ] tocilizumab — COVID에 듣는다  <!-- 등록 시험 42건 -->
+- [ ] tocilizumab — Takayasu Arteritis에 듣는다  <!-- 등록 시험 23건 -->
+- [ ] sarilumab — Cancer에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] sarilumab — COVID에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] sarilumab — Corona Virus Infection에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] sarilumab — SARS에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 -->
+- [ ] liraglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 등록 시험 20건 -->
+- [ ] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] ezetimibe — Coronary Disease에 듣는다  <!-- 등록 시험 56건 -->
+- [ ] ezetimibe — Diabetes에 듣는다  <!-- 등록 시험 33건 -->
+- [ ] ezetimibe — Atherosclerosis에 듣는다  <!-- 등록 시험 26건 -->
+- [ ] ezetimibe — Dyslipidemia에 듣는다  <!-- 등록 시험 26건 -->
