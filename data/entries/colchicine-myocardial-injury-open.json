@@ -1,0 +1,36 @@
+{
+  "id": "colchicine-myocardial-injury-open",
+  "subj": "콜히친",
+  "claim": "콜히친이 심근손상을 줄인다",
+  "line": "급성 관상동맥증후군의 심근손상 결과가 아직 없습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 182,
+  "synth": "single",
+  "why": "허가사항은 통풍 발작과 가족성 지중해열이며 심근손상 예방은 아닙니다. 급성 관상동맥증후군 환자를 대상으로 콜히친을 평가한 무작위 등록시험이 완료됐지만 결과가 공개되지 않았습니다.",
+  "saw": "NCT05250596은 급성 관상동맥증후군 환자 182명을 등록한 무작위시험입니다. 콜히친을 표준치료와 비교해 염증 지표를 주평가하고 심근효소와 급성 신손상을 부평가하도록 설계했지만 결과 논문은 확인하지 못했습니다.",
+  "limit": "등록시험의 주평가는 염증 지표이고 심근손상은 부평가입니다. 결과가 공개되지 않아 심근손상 감소를 판단할 수 없고, 급성 심근경색 메타분석 결과를 심근손상이나 시술 후 손상에 그대로 적용할 수 없습니다.",
+  "against": "반대 검색 91건을 확인했습니다. 심혈관 무작위시험 메타분석은 급성 심근경색 감소를 보고했지만 급성 관상동맥증후군과 시술 관련 결과는 일관되지 않다고 했습니다.",
+  "use": "콜히친의 심근손상 근거는 결과 미공개 등록시험으로 남겨야 하며, 심근경색 사건 감소 근거와 구분해야 합니다.",
+  "refs": [
+    {
+      "label": "2023 · COLOR-ACS 급성 관상동맥증후군 콜히친 무작위시험 설계",
+      "doi": "10.2459/JCM.0000000000001389",
+      "pmid": "36473121",
+      "nct": "NCT05250596"
+    },
+    {
+      "label": "2026 · 심혈관 콜히친 무작위시험 메타분석",
+      "doi": "10.1016/j.medcli.2026.107498",
+      "pmid": "42413351"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"COLCHICINE\" → 53건 반환; 허가 문구는 통풍 발작·가족성 지중해열이며 심근손상 적응증 없음",
+    "ctgov": "query.intr=colchicine&query.cond=Myocardial Injury&countTotal=true&pageSize=100 → 8건 반환, InterventionName 대조 후 8건",
+    "pubmed": "colchicine Myocardial Injury → 140건",
+    "negative": "colchicine Myocardial Injury (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 91건",
+    "safety": "colchicine Myocardial Injury (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 64건"
+  }
+}

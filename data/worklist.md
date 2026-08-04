@@ -2430,16 +2430,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> — 허가 적응증(2026-08-04)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 허가 적응증(2026-08-04)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> — 허가 적응증(2026-08-04)
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(doxycycline-periodontitis-adjunct)
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> — 허가 적응증(2026-08-04)
+- [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
+- [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
+- [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(colchicine-covid-null)
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> — 허가 적응증(2026-08-04)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> — 허가 적응증(2026-08-04)
+- [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-lung-cancer-open)
+- [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
 - [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 -->
 - [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 -->
 - [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
