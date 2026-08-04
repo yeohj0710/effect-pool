@@ -1920,26 +1920,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 112건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
-- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 59건 -->
-- [ ] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 43건 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
+- [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 59건 -->
+- [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 43건 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 22건 -->
+- [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
+- [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
+- [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
+- [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] raloxifene — Breast Cancer에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
+- [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
+- [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
+- [x] allopurinol — Gout에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Lymphoma에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
+- [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [ ] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
 - [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] creatine — Muscle에 듣는다  <!-- 등록 시험 15건 -->
