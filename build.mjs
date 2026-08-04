@@ -1,38 +1,50 @@
-// data/entries.json + src/template.html -> site/index.html
+// data/meta.json + data/entries/*.json + src/template.html -> site/index.html
 // site/ 는 생성물이다. 직접 고치지 마라.
 
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(fileURLToPath(import.meta.url));
-const dataPath = join(root, "data", "entries.json");
-const tplPath = join(root, "src", "template.html");
+const dataDir = join(root, "data");
+const entryDir = join(dataDir, "entries");
 const outDir = join(root, "site");
 
-const raw = readFileSync(dataPath, "utf8");
-const data = JSON.parse(raw);
+const meta = JSON.parse(readFileSync(join(dataDir, "meta.json"), "utf8"));
+
+const files = readdirSync(entryDir).filter((f) => f.endsWith(".json")).sort();
+const entries = [];
+const errors = [];
+const warnings = [];
+
+for (const f of files) {
+  try {
+    entries.push(JSON.parse(readFileSync(join(entryDir, f), "utf8")));
+  } catch (err) {
+    errors.push(`${f} — JSON 이 깨졌습니다: ${err.message}`);
+  }
+}
 
 /* ---- 규칙 검사. 하나라도 걸리면 빌드를 세운다 ---- */
 
-const TIERS = new Set(data.tiers.map((t) => t.id));
+const TIERS = new Set(meta.tiers.map((t) => t.id));
+const STEP = Object.fromEntries(meta.tiers.map((t) => [t.id, t.step]));
 const DIRS = new Set(["pos", "open", "null", "harm"]);
 const REQUIRED = ["id", "subj", "claim", "line", "tier", "dir",
                   "why", "saw", "limit", "against", "use", "refs", "queried"];
 const REF_IDS = ["doi", "pmid", "pmc", "nct"];
 
-const errors = [];
-const warnings = [];
-const seen = new Set();
-
-data.tiers.forEach((t) => {
+meta.tiers.forEach((t) => {
   if (!Number.isInteger(t.step) || t.step < 1 || t.step > 5) {
-    errors.push(`tier ${t.id} — step 이 1~5 정수가 아님`);
+    errors.push(`tier ${t.id} — step 이 1~5 정수가 아닙니다`);
   }
 });
 
-data.entries.forEach((e, i) => {
-  const at = `[${i}] ${e.subj ?? "?"}`;
+const seen = new Set();
+const ids = new Set();
+
+entries.forEach((e, i) => {
+  const at = `${e.id ?? files[i]}`;
 
   REQUIRED.forEach((k) => {
     if (e[k] === undefined || e[k] === null || e[k] === "") errors.push(`${at} — ${k} 비어 있음`);
@@ -40,14 +52,22 @@ data.entries.forEach((e, i) => {
   if (!TIERS.has(e.tier)) errors.push(`${at} — tier 값이 이상함: ${e.tier}`);
   if (!DIRS.has(e.dir)) errors.push(`${at} — dir 값이 이상함: ${e.dir}`);
 
-  // 중복: 물질 + 주장 조합
+  // 파일명과 id 가 다르면 나중에 찾지 못한다
+  if (e.id && files[i] !== `${e.id}.json`) {
+    errors.push(`${at} — 파일명이 id 와 다릅니다 (${files[i]})`);
+  }
+  if (ids.has(e.id)) errors.push(`${at} — id 가 중복됩니다`);
+  ids.add(e.id);
+
+  // 같은 물질·주장·판정이 두 번
   const key = `${e.subj}::${e.claim}::${e.tier}::${e.dir}`;
-  if (seen.has(key)) errors.push(`${at} — 같은 물질·주장·판정이 이미 있음`);
+  if (seen.has(key)) errors.push(`${at} — 같은 물질·주장·판정이 이미 있습니다`);
   seen.add(key);
 
   // 조회 기록이 없으면 "0건"과 "안 찾아봤음"을 구분할 수 없다
   const q = e.queried || {};
   if (!q.date) errors.push(`${at} — queried.date 없음`);
+  else if (!/^\d{4}-\d{2}-\d{2}$/.test(q.date)) errors.push(`${at} — queried.date 형식이 이상함: ${q.date}`);
   if (!q.negative) errors.push(`${at} — 반대쪽을 따로 찾은 기록이 없음`);
   if (!q.safety) errors.push(`${at} — 안전성을 따로 찾은 기록이 없음`);
 
@@ -62,8 +82,7 @@ data.entries.forEach((e, i) => {
   } else {
     e.refs.forEach((r, j) => {
       if (!r.label) errors.push(`${at} refs[${j}] — label 없음`);
-      const ids = REF_IDS.filter((k) => r[k]);
-      if (!ids.length) {
+      if (!REF_IDS.filter((k) => r[k]).length) {
         errors.push(`${at} refs[${j}] — doi·pmid·pmc·nct 중 하나는 있어야 링크가 걸린다`);
       }
       if (r.doi && !/^10\.\d{4,9}\//.test(r.doi)) errors.push(`${at} refs[${j}] — doi 형식이 이상함: ${r.doi}`);
@@ -76,17 +95,17 @@ data.entries.forEach((e, i) => {
   // 번역투·수동형 걸러내기
   const BAD = ["확인됐", "보고됐", "나타났습니다", "현재 존재하는", "시사합니다",
                "근거를 제공합니다", "가능성이 제기", "주목할 만한", "되어집", "지고 있습니다"];
-  const hit = BAD.filter((w) => e.line.includes(w));
+  const hit = BAD.filter((w) => (e.line || "").includes(w));
   if (hit.length) warnings.push(`${at} — 한 줄에 번역투: ${hit.join(", ")}`);
 });
 
 // 반대·해로운 쪽 비중
-const off = data.entries.filter((e) => e.dir === "null" || e.dir === "harm").length;
-const ratio = off / data.entries.length;
-if (ratio < 1 / 3) {
+const off = entries.filter((e) => e.dir === "null" || e.dir === "harm").length;
+const ratio = entries.length ? off / entries.length : 0;
+if (entries.length >= 6 && ratio < 1 / 3) {
   warnings.push(
-    `효과 없음·해로운 쪽이 ${off}/${data.entries.length} (${Math.round(ratio * 100)}%). ` +
-    `한쪽만 보고 있다는 뜻이다. 반대쪽과 안전성 검색을 다시 돌려라.`
+    `효과 없음·해로운 쪽이 ${off}/${entries.length} (${Math.round(ratio * 100)}%). ` +
+    `한쪽만 보고 있다는 뜻입니다. 반대쪽과 안전성 검색을 다시 돌리세요.`
   );
 }
 
@@ -99,17 +118,30 @@ if (errors.length) {
 
 /* ---- 출력 ---- */
 
-const tpl = readFileSync(tplPath, "utf8");
-const html = tpl.replace("__ENTRIES__", JSON.stringify(data));
+// 사람에게 가까운 칸부터, 같은 칸 안에서는 파일명 순
+entries.sort((a, b) => (STEP[b.tier] - STEP[a.tier]) || a.id.localeCompare(b.id));
 
+const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
+const data = { updated, tiers: meta.tiers, entries };
+
+const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "index.html"), html, "utf8");
+writeFileSync(join(outDir, "index.html"), tpl.replace("__ENTRIES__", JSON.stringify(data)), "utf8");
 
-const byTier = data.tiers
-  .map((t) => `${t.id} ${data.entries.filter((e) => e.tier === t.id).length}`)
+/* ---- 진행 상황 ---- */
+
+const byTier = meta.tiers
+  .map((t) => `${t.id} ${entries.filter((e) => e.tier === t.id).length}`)
   .join(" · ");
+const refCount = entries.reduce((a, e) => a + e.refs.length, 0);
 
-const refCount = data.entries.reduce((a, e) => a + (e.refs || []).length, 0);
-
-console.log(`site/index.html 만들었습니다 — ${data.entries.length}건 (${byTier})`);
+console.log(`site/index.html 만들었습니다 — ${entries.length}건 (${byTier})`);
 console.log(`효과 없음·해로운 쪽 ${off}건 (${Math.round(ratio * 100)}%) · 연결된 근거 자료 ${refCount}건`);
+
+const wl = join(dataDir, "worklist.md");
+if (existsSync(wl)) {
+  const md = readFileSync(wl, "utf8");
+  const done = (md.match(/^- \[x\]/gim) || []).length;
+  const todo = (md.match(/^- \[ \]/gim) || []).length;
+  console.log(`조사 목록 ${done}/${done + todo} 끝냄 · ${todo}개 남음`);
+}

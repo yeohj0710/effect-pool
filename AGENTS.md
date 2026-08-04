@@ -13,11 +13,17 @@
 ## 파일 구조
 
 ```
-data/entries.json    원장. 여기가 유일한 진짜 데이터다
-src/template.html    화면 틀. __ENTRIES__ 자리에 데이터를 끼워 넣는다
-build.mjs            data + template -> site/index.html
-site/index.html      빌드 결과물. 직접 고치지 마라. 다음 빌드에 날아간다
+data/worklist.md      조사할 주제 목록. 여기서 골라서 시작한다
+data/entries/*.json   항목 하나가 파일 하나. 파일명은 반드시 <id>.json
+data/meta.json        확인 수준 다섯 칸 정의
+src/template.html     화면 틀. __ENTRIES__ 자리에 데이터를 끼워 넣는다
+build.mjs             data + template -> site/index.html
+site/index.html       빌드 결과물. 직접 고치지 마라. 다음 빌드에 날아간다
 ```
+
+**항목을 파일 하나씩 나눠둔 이유는 여러 세션이 동시에 채워도 안 깨지게 하려는 것이다.**
+한 파일에 몰아 쓰지 마라. 새 항목은 새 파일을 만든다.
+`updated` 날짜는 각 항목의 `queried.date` 중 가장 나중 것으로 빌드가 자동으로 정한다.
 
 빌드: `node build.mjs`
 배포: `vercel --prod`
@@ -211,11 +217,15 @@ DOI가 없는 옛 논문은 `pmc`나 `pmid`만 적으면 된다. 없는 DOI를 �
 
 ## 하루 배치로 돌릴 때
 
-1. 한 번에 한 물질, 한 주장. 물질 하나에 주장이 여러 개면 항목도 여러 개다
-2. `id`는 `물질-대상-성격` 꼴 (`mebendazole-glioma-phase1`)
-3. 중복 검사는 `subj` + `claim` 조합으로 한다
-4. `data/entries.json`에 append 한 뒤 `node build.mjs`
-5. 커밋은 항목 단위로. 메시지에 물질명과 tier를 적는다
+1. `data/worklist.md`에서 아직 `[ ]`인 줄을 고른다. 주제를 새로 지어내지 마라
+2. 한 번에 한 물질, 한 주장. 물질 하나에 주장이 여러 개면 항목도 여러 개다
+3. `id`는 `물질-대상-성격` 꼴 (`mebendazole-glioma-phase1`). 파일명은 `<id>.json`
+4. 다 적었으면 `data/entries/<id>.json`을 만들고 worklist의 그 줄을 `[x]`로 바꾼다
+5. `node build.mjs`가 통과해야 끝난 것이다. 빌드가 서면 고치고 다시 돌린다
+6. 커밋은 5~10건 단위로. 메시지에 채운 주제를 적는다
+
+조사해봤더니 근거가 아예 없어서 항목을 못 만들겠으면, worklist 줄을 `[x]`로 바꾸지 말고
+줄 끝에 `— 근거 없음(YYYY-MM-DD 조회)`을 붙여둔다. 다음 세션이 또 파지 않게.
 
 ### 배치 끝나고 매번 확인할 것
 
