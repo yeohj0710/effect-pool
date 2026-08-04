@@ -3618,16 +3618,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
 - [x] valacyclovir — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
-- [ ] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
+- [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
+- [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
+- [x] minoxidil — Baldness에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
+- [x] bupropion — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 63건 -->
+- [x] bupropion — Tobacco Use에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 52건 -->
+- [x] bupropion — Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 41건 -->
+- [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
+- [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
+- [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [ ] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
 - [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 -->
