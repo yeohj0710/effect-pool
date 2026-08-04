@@ -1,0 +1,27 @@
+{
+  "id": "aspirin-cardiovascular-disease-open",
+  "subj": "아스피린",
+  "claim": "아스피린이 심혈관질환을 예방한다",
+  "line": "심혈관 일차예방 사건은 줄였지만 주요 출혈은 늘었습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 164225,
+  "synth": "meta",
+  "why": "심혈관질환이 없는 사람의 일차예방에서 아스피린의 심혈관 사건과 출혈을 함께 평가한 무작위시험 메타분석이 있다.",
+  "saw": "13개 무작위시험 164225명을 합친 메타분석에서 아스피린은 심혈관 복합 사건을 줄였지만 주요 출혈을 늘렸다. 개별 참가자 자료 메타분석도 일차예방에서 혈관 사건 감소와 위장관·두개외 출혈 증가를 함께 보고했다.",
+  "limit": "절대 이득과 출혈 위험이 기저 심혈관 위험에 따라 달라지고 이차예방 결과를 일차예방에 적용할 수 없다.",
+  "against": "일차예방 메타분석에서는 출혈 증가를 고려하면 순 임상 이득이 없다는 결론도 보고되었다.",
+  "use": "심혈관 일차예방에 아스피린을 사용할 때 개인의 심혈관 위험과 출혈 위험을 함께 비교해야 한다.",
+  "refs": [
+    { "label": "아스피린 심혈관 일차예방 메타분석", "pmid": "30667501" },
+    { "label": "아스피린 혈관질환 일차·이차예방 개별자료 메타분석", "pmid": "19482214" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:ASPIRIN — 726건; 일부 제품에 재발 심근경색·뇌졸중 예방 문구가 있으나 심혈관질환 일반 일차예방은 직접 적응증으로 제시되지 않아 비허가 적응증으로 분류",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=aspirin&query.cond=Cardiovascular%20Disease — 전체 1224건, intervention 이름에 aspirin이 일치한 563건",
+    "pubmed": "aspirin Cardiovascular Disease — 34732건",
+    "negative": "aspirin Cardiovascular Disease AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) — 22065건",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 30772건"
+  }
+}

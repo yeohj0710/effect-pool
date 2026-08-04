@@ -1,54 +1,48 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 353,
+  "entries": 359,
   "worklist": {
-    "checked": 1555,
-    "unchecked": 220,
+    "checked": 1565,
+    "unchecked": 210,
     "no_evidence_pending": 0,
     "next_batch": [
-      "metformin — Colon Cancer",
-      "metformin — Polycystic Ovary Syndrom",
-      "metformin — Insulin Resistance",
-      "metformin — Acute Lymphoblastic Leukemia",
-      "aspirin — Stroke",
-      "aspirin — Brain Infarction",
-      "aspirin — Cancer",
-      "aspirin — Cardiovascular Disease",
-      "propranolol — Migraine",
-      "propranolol — Stress Reaction"
+      "propranolol — Cirrhosis",
+      "propranolol — Prostate Carcinoma",
+      "naltrexone — Alcoholism",
+      "naltrexone — Substance Use",
+      "naltrexone — Obesity",
+      "naltrexone — Pain",
+      "gabapentin — Cancer",
+      "gabapentin — Opioid Use",
+      "gabapentin — Drug Dependence",
+      "gabapentin — Nausea"
     ]
   },
   "last_batch": [
-    "venlafaxine-depressive-episode-approved",
-    "venlafaxine-pain-open",
-    "venlafaxine-anxiety-approved",
-    "venlafaxine-breast-cancer-null",
-    "clopidogrel-stroke-approved",
-    "clopidogrel-infarction-approved",
-    "clopidogrel-platelet-function-open",
-    "clopidogrel-stenosis-open",
-    "valsartan-heart-failure-approved",
-    "valsartan-diabetes-null",
-    "valsartan-nephropathy-open",
-    "valsartan-kidney-disease-null",
-    "rosuvastatin-hypercholesterolemia-approved",
-    "rosuvastatin-diabetes-harm",
-    "rosuvastatin-dyslipidemia-approved",
-    "rosuvastatin-hypertension-open"
+    "metformin-colon-cancer-open (existing)",
+    "metformin-pcos-open",
+    "metformin-insulin-resistance-open",
+    "metformin-acute-lymphoblastic-leukemia-open",
+    "aspirin-stroke-approved",
+    "aspirin-brain-infarction-approved",
+    "aspirin-cancer-harm",
+    "aspirin-cardiovascular-disease-open",
+    "propranolol-migraine-approved",
+    "propranolol-stress-reaction-null"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 315,
+      "trial": 321,
       "obs": 31,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 148,
+    "no_effect_or_harm": 150,
     "no_effect_or_harm_share": "42%"
   },
   "deployment": {
@@ -58,7 +52,7 @@
   },
   "resume": {
     "last_committed_batch": "87f1e79",
-    "current_batch": "venlafaxine, clopidogrel, valsartan, rosuvastatin",
-    "next_action": "research next_batch"
+    "current_batch": "metformin, aspirin, propranolol",
+    "next_action": "commit, push, then research next_batch"
   }
 }
