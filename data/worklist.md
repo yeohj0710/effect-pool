@@ -2107,16 +2107,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rifaximin — Diarrhea에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 16건 -->
 - [x] clomiphene — Polycystic Ovary에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
 - [x] clomiphene — Hypogonadism에 듣는다 — 신규 항목(clomiphene-hypogonadism-open)  <!-- 등록 시험 11건 -->
-- [ ] clomiphene — Anovulation에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] clomiphene — Ovulation Disorder에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] lamotrigine — Bipolar Disorder에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] lamotrigine — Depression에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] lamotrigine — Vertigo, Aural에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] lamotrigine — Schizophrenia에 듣는다  <!-- 등록 시험 4건 -->
+- [x] clomiphene — Anovulation에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] clomiphene — Ovulation Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 8건 -->
+- [x] valproic acid — Nasopharyngeal Carcinoma에 듣는다 — 신규 항목(valproic-acid-nasopharyngeal-carcinoma-open)  <!-- 등록 시험 19건 -->
+- [x] valproic acid — Thyroid Neoplasm에 듣는다 — 신규 항목(valproic-acid-thyroid-neoplasm-open)  <!-- 등록 시험 14건 -->
+- [x] valproic acid — Epilepsy에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] valproic acid — Stage IV Pharyngeal Cancer에 듣는다 — 신규 항목(valproic-acid-stage-iv-pharyngeal-cancer-open)  <!-- 등록 시험 13건 -->
+- [x] lamotrigine — Bipolar Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 53건 -->
+- [x] lamotrigine — Depression에 듣는다 — 신규 항목(lamotrigine-depression-open)  <!-- 등록 시험 12건 -->
+- [x] lamotrigine — Vertigo, Aural에 듣는다 — 신규 항목(lamotrigine-vertigo-aural-open)  <!-- 등록 시험 7건 -->
+- [x] lamotrigine — Schizophrenia에 듣는다 — 신규 항목(lamotrigine-schizophrenia-open)  <!-- 등록 시험 4건 -->
 - [ ] disulfiram — Glioblastoma에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] disulfiram — Alcohol Disorders에 듣는다  <!-- 등록 시험 8건 -->
 - [ ] disulfiram — Cancer에 듣는다  <!-- 등록 시험 7건 -->
@@ -2126,3 +2126,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] amiodarone — Cardiac Arrest에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] amiodarone — Heart Arrest에 듣는다  <!-- 등록 시험 13건 -->
 - [ ] amiodarone — Arrhythmia에 듣는다  <!-- 등록 시험 7건 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 -->
+- [ ] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 -->
+- [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] hydrochlorothiazide — Diabetes에 듣는다  <!-- 등록 시험 28건 -->
+- [ ] hydrochlorothiazide — Heart Arrest에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] hydrochlorothiazide — Kidney Stone에 듣는다  <!-- 등록 시험 12건 -->
+- [ ] hydrochlorothiazide — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] levetiracetam — Seizures에 듣는다  <!-- 등록 시험 41건 -->
+- [ ] levetiracetam — Brain Tumor에 듣는다  <!-- 등록 시험 22건 -->
+- [ ] levetiracetam — Status Epilepticus에 듣는다  <!-- 등록 시험 17건 -->
+- [ ] levetiracetam — Alzheimer Disease에 듣는다  <!-- 등록 시험 14건 -->
+- [ ] diltiazem — Coronary Disease에 듣는다  <!-- 등록 시험 9건 -->
+- [ ] diltiazem — Hypertension에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] diltiazem — Anal Fissure에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] diltiazem — Stable Angina에 듣는다  <!-- 등록 시험 7건 -->
+- [ ] probenecid — Interaction에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] probenecid — Cytomegalovirus Retinitis에 듣는다  <!-- 등록 시험 5건 -->
+- [ ] probenecid — Diabetes에 듣는다  <!-- 등록 시험 4건 -->
+- [ ] probenecid — Obesity에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] indomethacin — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 15건 -->
+- [ ] indomethacin — Preterm Labor에 듣는다  <!-- 등록 시험 13건 -->
+- [ ] indomethacin — Pain에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] indomethacin — Carcinoma In Situ에 듣는다  <!-- 등록 시험 6건 -->
+- [ ] hydralazine — Heart Failure에 듣는다  <!-- 등록 시험 10건 -->
+- [ ] hydralazine — Lung Cancer에 듣는다  <!-- 등록 시험 8건 -->
+- [ ] hydralazine — Cerebral Hemorrhage에 듣는다  <!-- 등록 시험 3건 -->
+- [ ] hydralazine — Mechanical Thrombectomy에 듣는다  <!-- 등록 시험 3건 -->
