@@ -1,0 +1,26 @@
+{
+  "id": "anidulafungin-fungemia-pos",
+  "subj": "아니둘라펀진",
+  "claim": "아니둘라펀진이 진균혈증을 치료한다",
+  "line": "칸디다혈증에서 플루코나졸보다 치료 성공률이 높았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 245,
+  "synth": "single",
+  "why": "허가사항은 칸디다혈증이며 진균혈증 전체가 아닙니다. 침습성 칸디다 감염 무작위시험의 대부분이 칸디다혈증 환자였습니다.",
+  "saw": "PMID 17568028·NCT00056368은 분석 대상 245명의 침습성 칸디다 감염 환자 중 89%가 칸디다혈증만 앓았습니다. 정맥 치료 종료 시 아니둘라펀진의 치료 성공률은 플루코나졸보다 높았습니다.",
+  "limit": "칸디다혈증 중심의 시험이며 비칸디다성 진균혈증으로 일반화할 수 없습니다. 기관별 결과 차이와 대부분 비호중구감소 성인이라는 제한이 있습니다.",
+  "against": "전체 사망률 차이는 통계적으로 유의하지 않았고 연구는 칸디다 감염에 한정됐습니다. 반대 검색 149건과 안전성 검색 41건을 확인했습니다.",
+  "use": "아니둘라펀진의 진균혈증 근거는 칸디다혈증 치료 결과로만 기록해야 합니다.",
+  "refs": [
+    { "label": "Reboli 2007 · 칸디다혈증·침습성 칸디다증 아니둘라펀진 비교시험", "pmid": "17568028", "nct": "NCT00056368" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"ANIDULAFUNGIN\" → 2건 반환; 허가 문구에 칸디다혈증은 있으나 비칸디다성 진균혈증 전체 적응증은 없음",
+    "ctgov": "query.intr=anidulafungin&query.cond=Fungemia → 21건 반환, InterventionName 대조 후 15건",
+    "pubmed": "anidulafungin Fungemia → 198건",
+    "negative": "anidulafungin Fungemia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 149건",
+    "safety": "anidulafungin Fungemia (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 41건"
+  }
+}

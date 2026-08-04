@@ -2370,14 +2370,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketoconazole — Scalp Dermatitis에 듣는다  <!-- 등록 시험 7건 --> — 허가 적응증(2026-08-04)
 - [x] ketoconazole — Solid Tumors에 듣는다  <!-- 등록 시험 7건 -->
 - [x] ketoconazole — Glioma에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] flucytosine — Hiv에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] flucytosine — Astrocytoma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] flucytosine — Glioblastoma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] flucytosine — Brain Cancer에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] anidulafungin — Aspergillosis에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] anidulafungin — Candidemia에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] anidulafungin — Infection에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] anidulafungin — Fungemia에 듣는다  <!-- 등록 시험 3건 -->
+- [x] flucytosine — Hiv에 듣는다  <!-- 등록 시험 10건 -->
+- [x] flucytosine — Astrocytoma에 듣는다  <!-- 등록 시험 8건 -->
+- [x] flucytosine — Glioblastoma에 듣는다  <!-- 등록 시험 8건 -->
+- [x] flucytosine — Brain Cancer에 듣는다  <!-- 등록 시험 4건 -->
+- [x] anidulafungin — Aspergillosis에 듣는다  <!-- 등록 시험 7건 -->
+- [x] anidulafungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> — 허가 적응증(2026-08-04)
+- [x] anidulafungin — Infection에 듣는다  <!-- 등록 시험 5건 -->
+- [x] anidulafungin — Fungemia에 듣는다  <!-- 등록 시험 3건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2388,8 +2388,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
+- [x] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
+- [x] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
 - [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
 - [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
 - [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->

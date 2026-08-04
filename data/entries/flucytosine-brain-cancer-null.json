@@ -1,0 +1,27 @@
+{
+  "id": "flucytosine-brain-cancer-null",
+  "subj": "플루시토신",
+  "claim": "플루시토신이 뇌암을 치료한다",
+  "line": "재발 뇌암 연구에서 표준치료보다 생존을 늘리지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 403,
+  "synth": "single",
+  "why": "허가사항은 칸디다·크립토코쿠스 감염이며 뇌암 치료가 아닙니다. 재발 고등급 뇌종양에서 플루시토신 병용요법을 평가한 무작위시험이 있습니다.",
+  "saw": "PMID 33119048·NCT02414165는 재발 교모세포종 또는 역형성 성상세포종 환자 403명을 무작위 배정했습니다. 플루시토신 병용요법은 표준치료보다 전체 생존을 늘리지 못했고 다른 효능 지표도 개선하지 못했습니다.",
+  "limit": "뇌암 전체가 아니라 재발 고등급 교종에 한정된 병용시험입니다. 플루시토신 단독효과나 다른 뇌종양 유형의 치료효과를 측정하지 않았습니다.",
+  "against": "무작위시험에서 생존 개선이 없었고, 반대 검색 56건과 안전성 검색 28건을 확인했습니다.",
+  "use": "뇌암에 대한 플루시토신 주장은 재발 고등급 교종 병용시험의 음성 결과로 제한해 기록해야 합니다.",
+  "refs": [
+    { "label": "Cloughesy 2020 · 재발 고등급 뇌종양 플루시토신 병용요법 무작위시험", "pmid": "33119048", "nct": "NCT02414165" },
+    { "label": "NCT03294486 · 재발 교모세포종 종양용해바이러스·플루시토신 초기시험", "nct": "NCT03294486" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"FLUCYTOSINE\" → 10건 반환; 허가 문구에 뇌암 적응증 없음",
+    "ctgov": "query.intr=flucytosine&query.cond=Brain Cancer → 8건 반환, InterventionName 대조 후 4건",
+    "pubmed": "flucytosine Brain Cancer → 78건",
+    "negative": "flucytosine Brain Cancer (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 56건",
+    "safety": "flucytosine Brain Cancer (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 28건"
+  }
+}

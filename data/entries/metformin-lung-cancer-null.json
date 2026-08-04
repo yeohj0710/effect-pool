@@ -1,0 +1,26 @@
+{
+  "id": "metformin-lung-cancer-null",
+  "subj": "메트포르민",
+  "claim": "메트포르민이 폐암을 치료한다",
+  "line": "3기 비소세포폐암에 더해도 생존을 늘리지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 170,
+  "synth": "single",
+  "why": "허가사항은 제2형 당뇨병의 혈당 조절이며 폐암 치료가 아닙니다. 국소 진행성 비소세포폐암에서 표준 방사선화학요법에 메트포르민을 더한 무작위시험이 있습니다.",
+  "saw": "PMID 34323922·NCT02186847은 3기 비소세포폐암 환자 170명을 등록해 메트포르민 추가군과 대조군을 비교했습니다. 1년 무진행 생존과 전체 생존에서 유의한 개선이 없었고 연구진은 생존을 개선하지 못했다고 결론냈습니다.",
+  "limit": "비소세포폐암 3기에 표준 방사선화학요법을 함께 받은 환자에 한정됩니다. 다른 폐암 유형이나 메트포르민 단독치료로 일반화할 수 없습니다.",
+  "against": "무작위시험에서 무진행 생존·전체 생존·재발 결과가 유의하게 좋아지지 않았고, 반대 검색 496건과 안전성 검색 146건을 확인했습니다.",
+  "use": "메트포르민의 폐암 근거는 3기 비소세포폐암 무작위시험의 음성 결과로 기록해야 합니다.",
+  "refs": [
+    { "label": "Tsakiridis 2021 · 3기 비소세포폐암 메트포르민 추가 무작위시험", "pmid": "34323922", "nct": "NCT02186847" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"METFORMIN\" → 387건 반환; 허가 문구는 제2형 당뇨병 혈당 조절이며 폐암 적응증 없음",
+    "ctgov": "query.intr=metformin&query.cond=Lung Cancer → 23건 반환, InterventionName 대조 후 21건",
+    "pubmed": "metformin Lung Cancer → 631건",
+    "negative": "metformin Lung Cancer (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 496건",
+    "safety": "metformin Lung Cancer (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 146건"
+  }
+}
