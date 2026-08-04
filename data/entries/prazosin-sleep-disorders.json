@@ -1,0 +1,39 @@
+{
+  "id": "prazosin-sleep-disorders",
+  "subj": "프라조신",
+  "claim": "혈압약을 수면장애에 쓴다",
+  "line": "PTSD 악몽은 줄였지만 수면의 질과 전반 증상은 좋아지지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 575,
+  "synth": "meta",
+  "why": "PTSD 환자의 프라조신과 위약을 비교한 무작위시험 8개를 합친 메타분석입니다.",
+  "saw": "프라조신 286명과 위약 289명에서 악몽은 유의하게 줄었지만, 전반적 PTSD 증상과 수면의 질은 위약보다 낫지 않았습니다.",
+  "limit": "수면장애 전체가 아니라 PTSD의 악몽·수면의 질·전반 증상을 따로 측정했습니다. 악몽 개선을 수면의 질 개선으로 바꿔 읽을 수 없습니다.",
+  "against": "재향군인 304명으로 이뤄진 큰 PACT 시험에서는 악몽, 수면의 질, 전반적 변화가 모두 위약과 다르지 않았습니다.",
+  "use": "PTSD 악몽에는 개선 신호가 있지만 전체 수면장애 치료 효과로 확대할 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "George 2020 · Sleep Medicine · PTSD 수면장애 프라조신 메타분석",
+      "doi": "10.1016/j.sleep.2019.06.010",
+      "pmid": "31972510",
+      "pmc": "PMC6986268"
+    },
+    {
+      "label": "Raskind 2018 · NEJM · 재향군인 음성 RCT",
+      "doi": "10.1056/NEJMoa1507598",
+      "pmid": "29414272"
+    },
+    {
+      "label": "NCT00532493 · PACT 재향군인 시험 · 완료",
+      "nct": "NCT00532493"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=prazosin, cond=Sleep Disorders → 11건 반환, InterventionName 대조 후 prazosin 9건",
+    "pubmed": "prazosin AND sleep disorders → 179건",
+    "negative": "prazosin AND Sleep Disorders AND (no effect OR did not OR failed to OR negative OR no significant difference) → 144건",
+    "safety": "prazosin AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 1,914건"
+  }
+}

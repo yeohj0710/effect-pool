@@ -1,0 +1,33 @@
+{
+  "id": "thalidomide-leukemia-null",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 백혈병에 쓴다",
+  "line": "급성 골수성 백혈병에서 항암제에 더해도 관해와 생존을 늘리지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 84,
+  "synth": "single",
+  "why": "급성 골수성 백혈병 또는 고위험 골수형성이상증후군 성인 84명을 항암화학요법에 탈리도마이드를 더한 군과 그렇지 않은 군으로 무작위 배정한 시험입니다.",
+  "saw": "84명에서 탈리도마이드 추가군과 비추가군의 조기 완전관해, 관해 지속기간, 생존 차이가 유의하지 않았고 연구진은 임상적 이득이 없다고 결론냈습니다.",
+  "limit": "백혈병과 골수형성이상증후군을 함께 분석했고 여러 항암제 조합을 사용했습니다. 탈리도마이드 단독 치료의 효과를 검증한 시험은 아닙니다.",
+  "against": "소규모 단일군 AML 시험 20명에서는 4명이 부분반응을 보였지만 대조군이 없고 반응 지속기간이 짧았습니다. 탈리도마이드 관련 피로, 변비, 발진, 신경병증도 보고됐습니다.",
+  "use": "AML에 항암제를 더하는 전략은 이 시험에서 임상 이득을 보이지 않았으며, 소규모 단일군 반응만으로 효과를 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Steins 2003 · Cancer · AML·고위험 MDS 탈리도마이드 무작위시험",
+      "doi": "10.1002/cncr.11180",
+      "pmid": "12599230"
+    },
+    {
+      "label": "Thomas 2002 · Blood · AML 탈리도마이드 1·2상",
+      "pmid": "11806984"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "intr=thalidomide, cond=Leukemia → 28건 전수 반환, InterventionName 대조 후 thalidomide 20건",
+    "pubmed": "thalidomide AND leukemia → 924건",
+    "negative": "thalidomide AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 603건",
+    "safety": "thalidomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 7,168건"
+  }
+}
