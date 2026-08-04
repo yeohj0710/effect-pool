@@ -5203,16 +5203,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] baclofen — Spasticity에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 12건 -->
 - [x] baclofen — Cerebral Palsy에 듣는다 — 기존 항목(baclofen-cerebral-palsy)  <!-- 등록 시험 9건 -->
 - [x] baclofen — Alcoholism에 듣는다 — 기존 항목(baclofen-alcoholism-null)  <!-- 등록 시험 7건 -->
-- [ ] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
-- [ ] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
+- [x] ondansetron — Lymphoma에 듣는다 — 기존 항목(ondansetron-lymphoma)  <!-- 등록 시험 71건 -->
+- [x] ondansetron — Cancer에 듣는다 — 기존 항목(ondansetron-cancer-null)  <!-- 등록 시험 33건 -->
+- [x] ondansetron — Leukemia에 듣는다 — 기존 항목(ondansetron-leukemia-null)  <!-- 등록 시험 28건 -->
+- [x] ondansetron — Anesthesia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] memantine — Autism에 듣는다 — 기존 항목(memantine-autism-null)  <!-- 등록 시험 19건 -->
+- [x] memantine — Dementia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] memantine — Chemo-brain에 듣는다 — 기존 항목(memantine-chemo-brain-open)  <!-- 등록 시험 18건 -->
+- [x] memantine — Cognitive Change에 듣는다 — 기존 항목(memantine-cognitive-change-open)  <!-- 등록 시험 17건 -->
+- [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다 — 기존 항목(lithium-stage-iv-mantle-cell-lymphoma-null)  <!-- 등록 시험 36건 -->
+- [x] lithium — Depression에 듣는다 — 기존 항목(lithium-depression)  <!-- 등록 시험 32건 -->
 - [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 -->
 - [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
