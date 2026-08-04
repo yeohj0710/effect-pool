@@ -1,0 +1,34 @@
+{
+  "id": "lithium-tooth-loss-harm",
+  "subj": "리튬",
+  "claim": "기분 안정제가 치아 손실을 일으킨다",
+  "line": "양극성장애 환자가 리튬 치료 중 심한 치아 손상을 겪었습니다",
+  "tier": "case",
+  "dir": "harm",
+  "n": 1,
+  "synth": "single",
+  "why": "리튬 치료 중인 양극성장애 환자 한 명에게 심한 치아 손상과 상아질 무기질 변화가 보고된 증례입니다.",
+  "saw": "30세 여성이 리튬 탄산염 치료 중 심한 치아 부식과 치아 구조 변화를 보였고, 상아질의 무기질 조성 변화가 확인됐습니다. 별도 40명 관찰자료에서는 많은 결손치가 보고됐지만 리튬의 원인은 분리하지 못했습니다.",
+  "limit": "증례 하나라 리튬과 치아 손상의 인과관계를 확정할 수 없습니다. 양극성장애, 구강위생, 다른 약물과 생활요인이 섞였고 일반적인 치아 손실 위험을 추정할 수 없습니다.",
+  "against": "양극성장애 환자 40명 관찰자료에는 결손치와 치아우식이 흔했지만 대조군이 없고 리튬 복용 여부별 결과도 분리하지 않았습니다.",
+  "use": "리튬 치료 중 설명되지 않는 치아 손상이 생긴 경우의 안전성 신호로만 보며, 리튬이 치아 손실을 일으킨다고 확정할 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "Tavassoli 2013 · Spec Care Dentist · 리튬 치료 중 상아질 탈회 증례",
+      "doi": "10.1111/scd.12000",
+      "pmid": "23451930"
+    },
+    {
+      "label": "Keller 1990 · Spec Care Dentist · 양극성장애 환자 구강상태 관찰자료",
+      "doi": "10.1111/j.1754-4505.1990.tb00782.x",
+      "pmid": "11100224"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=lithium&query.cond=Tooth Loss → 3건 반환, 3건 모두 lithium disilicate 치과재료로 약물 lithium 0건",
+    "pubmed": "lithium tooth loss → 127건; lithium carbonate tooth loss → 2건",
+    "negative": "lithium carbonate tooth loss AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2건",
+    "safety": "lithium carbonate AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 2,373건"
+  }
+}
