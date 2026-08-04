@@ -1,0 +1,35 @@
+{
+  "id": "risperidone-dementia",
+  "subj": "리스페리돈",
+  "claim": "리스페리돈이 치매에 듣는다",
+  "line": "치매의 공격성·초조·정신병은 개선했지만 안전성 문제가 있었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 345,
+  "synth": "single",
+  "why": "치매 환자의 공격성·초조·정신병 증상을 리스페리돈과 위약으로 비교한 무작위시험을 확인했습니다.",
+  "saw": "345명이 무작위 배정된 위약대조시험에서 리스페리돈은 공격성·초조·정신병 척도를 개선했지만 졸림과 요로감염이 더 흔했습니다.",
+  "limit": "노인 치매의 행동·정신병 증상에 대한 단기 결과이며 인지 저하나 치매 진행을 치료한 것이 아닙니다. 고령자 안전성 위험을 함께 고려해야 합니다.",
+  "against": "반대 검색 543건을 확인했습니다. 치매 항정신병약 메타분석에서 추체외로 증상·졸림이 더 많았고 뇌혈관 이상과 사망도 더 자주 관찰됐습니다.",
+  "use": "치매 자체의 치료제로 표시하지 말고, 일부 행동·정신병 증상의 단기 개선과 중대한 안전성 위험을 함께 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "De Deyn 2003 · Journal of Clinical Psychiatry · 치매 공격성·초조·정신병 리스페리돈 위약대조시험",
+      "doi": "10.4088/jcp.v64n0205",
+      "pmid": "12633121"
+    },
+    {
+      "label": "Katz 2007 · International Journal of Geriatric Psychiatry · 알츠하이머병 정신병 리스페리돈 메타분석",
+      "doi": "10.1002/gps.1792",
+      "pmid": "17471598"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RISPERIDONE → 67건; 허가 문구는 조현병·양극성 I형 조증·자폐성 장애의 과민성이며 치매 적응증 없음",
+    "ctgov": "query.intr=risperidone&query.cond=Dementia&countTotal=true&pageSize=50 → 30건 반환, InterventionName 대조 후 risperidone 일치 26건",
+    "pubmed": "risperidone AND Dementia → 737건",
+    "negative": "risperidone AND Dementia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 543건",
+    "safety": "risperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,474건"
+  }
+}

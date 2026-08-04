@@ -1,0 +1,30 @@
+{
+  "id": "haloperidol-agitation",
+  "subj": "할로페리돌",
+  "claim": "할로페리돌이 초조에 듣는다",
+  "line": "응급실 급성 초조 진정은 올란자핀과 유의한 차이가 없었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 94,
+  "synth": "single",
+  "why": "응급실 급성 초조 환자에서 할로페리돌과 올란자핀의 진정 효과를 비교한 무작위시험을 확인했습니다.",
+  "saw": "94명이 무작위 배정된 시험에서 15분·30분 진정률과 구조약 사용, 이상반응은 두 약 사이에 유의한 차이가 없었습니다.",
+  "limit": "응급실의 급성 초조에 대한 단기 진정 결과이며 초조의 원인별 장기 치료 효과를 평가하지 않았습니다.",
+  "against": "반대 검색 668건을 확인했습니다. 다른 무작위시험에서도 할로페리돌은 다른 진정 조합과 비교됐고 약물 조합에 따라 진정 속도와 이상반응이 달랐습니다.",
+  "use": "초조 전체의 확립된 치료제로 표시하지 말고, 응급실 단기 진정에서 다른 약과 유의한 차이가 없었던 비교 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Miller 2025 · Journal of Emergency Medicine · 응급실 급성 초조 올란자핀·할로페리돌 무작위 비교시험",
+      "doi": "10.1016/j.jemermed.2024.11.014",
+      "pmid": "40320314"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:HALOPERIDOL → 108건; 허가 문구는 정신병적 장애의 증상 조절과 투렛장애 틱이며 초조 일반 적응증 없음",
+    "ctgov": "query.intr=haloperidol&query.cond=Agitation&countTotal=true&pageSize=50 → 35건 반환, InterventionName 대조 후 haloperidol 일치 31건",
+    "pubmed": "haloperidol AND Agitation → 891건",
+    "negative": "haloperidol AND Agitation AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 668건",
+    "safety": "haloperidol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,755건"
+  }
+}

@@ -5373,16 +5373,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] risperidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 51건 -->
-- [ ] risperidone — Bipolar Disorder에 듣는다  <!-- 등록 시험 47건 -->
-- [ ] risperidone — Psychotic Disorder에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] risperidone — Dementia에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] haloperidol — Delirium에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] haloperidol — Agitation에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] haloperidol — Nausea에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] haloperidol — Advanced Cancer에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] mirtazapine — Depression에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
+- [x] risperidone — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 51건 -->
+- [x] risperidone — Bipolar Disorder에 듣는다  <!-- 등록 시험 47건 --> — 허가 적응증(2026-08-04)
+- [x] risperidone — Psychotic Disorder에 듣는다  <!-- 등록 시험 45건 -->
+- [x] risperidone — Dementia에 듣는다  <!-- 등록 시험 17건 -->
+- [x] haloperidol — Delirium에 듣는다  <!-- 등록 시험 32건 -->
+- [x] haloperidol — Agitation에 듣는다  <!-- 등록 시험 18건 -->
+- [x] haloperidol — Nausea에 듣는다  <!-- 등록 시험 12건 -->
+- [x] haloperidol — Advanced Cancer에 듣는다  <!-- 등록 시험 9건 -->
+- [x] mirtazapine — Depression에 듣는다  <!-- 등록 시험 15건 --> — 허가 적응증(2026-08-04)
+- [x] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
 - [ ] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
 - [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 -->

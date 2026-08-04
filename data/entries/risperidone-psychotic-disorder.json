@@ -1,0 +1,30 @@
+{
+  "id": "risperidone-psychotic-disorder",
+  "subj": "리스페리돈",
+  "claim": "리스페리돈이 정신병적 장애에 듣는다",
+  "line": "초발 정신병적 장애 청소년에서 다른 약보다 증상 반응이 우월하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 119,
+  "synth": "single",
+  "why": "초발 조현병 스펙트럼과 조현정동장애 청소년을 여러 항정신병약에 무작위 배정한 TEOSS 시험을 확인했습니다.",
+  "saw": "119명이 무작위 배정된 시험에서 리스페리돈의 반응률과 증상 감소는 다른 약과 유의한 차이가 없었고 체중 증가가 더 많았습니다.",
+  "limit": "청소년의 초발 조현병 스펙트럼 표본이며 정신병적 장애 전체의 결과가 아닙니다. 위약 대조가 아닌 약물 간 비교입니다.",
+  "against": "반대 검색 1,598건을 확인했습니다. TEOSS에서도 2세대 약물이 1세대 약물보다 우월하지 않았고 체중·대사 이상이 더 많았습니다.",
+  "use": "정신병적 장애 전체의 치료제로 표시하지 말고, 청소년 초발 표본에서 다른 약보다 우월하지 않았던 비교 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Sikich 2008 · American Journal of Psychiatry · 초발 정신병 스펙트럼 리스페리돈 무작위 비교시험",
+      "doi": "10.1176/appi.ajp.2008.08050756",
+      "pmid": "18794207"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RISPERIDONE → 67건; 허가 문구는 조현병·양극성 I형 조증·자폐성 장애의 과민성이며 정신병적 장애 일반 적응증 없음",
+    "ctgov": "query.intr=risperidone&query.cond=Psychotic%20Disorder&countTotal=true&pageSize=50 → 411건 반환, InterventionName 대조 후 risperidone 일치 33건",
+    "pubmed": "risperidone AND Psychotic Disorder → 2,028건",
+    "negative": "risperidone AND Psychotic Disorder AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1,598건",
+    "safety": "risperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,474건"
+  }
+}

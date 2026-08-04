@@ -1,0 +1,35 @@
+{
+  "id": "haloperidol-nausea",
+  "subj": "할로페리돌",
+  "claim": "할로페리돌이 오심에 듣는다",
+  "line": "전신마취 뒤 오심·구토 치료에서 온단세트론보다 열등하지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 120,
+  "synth": "single",
+  "why": "전신마취 뒤 이미 발생한 오심·구토 환자에서 할로페리돌과 온단세트론을 비교한 무작위시험을 확인했습니다.",
+  "saw": "120명이 무작위 배정된 시험에서 할로페리돌은 온단세트론보다 수술 후 오심·구토 완전 반응이 열등하지 않았지만 진정이 더 많았습니다.",
+  "limit": "전신마취 뒤 수술 후 오심·구토에 대한 단기 치료 결과이며 일반 오심이나 항암치료 오심으로 일반화할 수 없습니다.",
+  "against": "반대 검색 199건을 확인했습니다. 8개 무작위시험 메타분석에서도 수술 후 구토 예방 효과가 기존 5-HT3 길항제와 비슷했지만 우월하지는 않았습니다.",
+  "use": "오심 치료 근거를 수술 후 오심·구토로 한정하고, 진정과 심전도 관련 안전성을 함께 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "Nazar 2017 · Anesthesia & Analgesia · 수술 후 오심·구토 할로페리돌 무작위시험",
+      "doi": "10.1213/ANE.0000000000001723",
+      "pmid": "28002167"
+    },
+    {
+      "label": "Feng 2018 · Journal of Clinical Pharmacology · 수술 후 구토 할로페리돌 메타분석",
+      "doi": "10.1002/jcph.999",
+      "pmid": "28914976"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:HALOPERIDOL → 108건; 허가 문구는 정신병적 장애의 증상 조절과 투렛장애 틱이며 오심 적응증 없음",
+    "ctgov": "query.intr=haloperidol&query.cond=Nausea&countTotal=true&pageSize=50 → 15건 반환, InterventionName 대조 후 haloperidol 일치 9건",
+    "pubmed": "haloperidol AND Nausea → 256건",
+    "negative": "haloperidol AND Nausea AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 199건",
+    "safety": "haloperidol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,755건"
+  }
+}

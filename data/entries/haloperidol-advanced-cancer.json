@@ -1,0 +1,31 @@
+{
+  "id": "haloperidol-advanced-cancer",
+  "subj": "할로페리돌",
+  "claim": "할로페리돌이 진행암에 듣는다",
+  "line": "말기 암 섬망의 초조는 여러 신경이완 전략에서 비슷하게 줄었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 68,
+  "synth": "single",
+  "why": "진행암 말기 섬망의 초조에서 할로페리돌 증량과 다른 신경이완 전략을 비교한 무작위시험을 확인했습니다.",
+  "saw": "68명이 무작위 배정된 시험에서 할로페리돌 증량·교체·병용 전략 모두 초조가 줄었지만 전략 간 차이는 없었습니다.",
+  "limit": "말기 암의 난치성 섬망 초조라는 좁은 상황이며 위약군이 없습니다. 암의 진행·생존·종양 반응을 평가한 연구가 아닙니다.",
+  "against": "반대 검색 56건을 확인했습니다. 관련 시험들은 할로페리돌을 기본으로 한 전략 간 비교였고, 중대한 저혈압이 보고됐습니다.",
+  "use": "진행암 자체의 치료제로 표시하지 말고, 말기 섬망 초조에서 전략 간 차이가 없었던 제한된 완화의료 근거로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Hui 2020 · Lancet Oncology · 진행암 말기 섬망 초조 신경이완제 무작위시험",
+      "doi": "10.1016/S1470-2045(20)30307-7",
+      "pmid": "32479786",
+      "nct": "NCT03021486"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:HALOPERIDOL → 108건; 허가 문구는 정신병적 장애의 증상 조절과 투렛장애 틱이며 진행암 적응증 없음",
+    "ctgov": "query.intr=haloperidol&query.cond=Advanced%20Cancer&countTotal=true&pageSize=50 → 6건 반환, InterventionName 대조 후 haloperidol 일치 4건",
+    "pubmed": "haloperidol AND Advanced Cancer → 85건",
+    "negative": "haloperidol AND Advanced Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 56건",
+    "safety": "haloperidol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,755건"
+  }
+}

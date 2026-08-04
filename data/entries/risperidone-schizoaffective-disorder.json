@@ -1,0 +1,30 @@
+{
+  "id": "risperidone-schizoaffective-disorder",
+  "subj": "리스페리돈",
+  "claim": "리스페리돈이 조현정동장애에 듣는다",
+  "line": "조현정동장애·조현병 혼합군에서 증상은 개선했지만 우월하지 않았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 377,
+  "synth": "single",
+  "why": "조현정동장애를 포함한 환자군에서 리스페리돈과 올란자핀을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "377명이 참여한 이중눈가림시험에서 두 약 모두 PANSS 증상을 개선했고, 일부 양성·정동 증상은 리스페리돈군이 더 개선됐습니다.",
+  "limit": "조현병과 조현정동장애가 섞인 활성약 비교시험이며 위약 대조가 아닙니다. 조현정동장애만의 독립 효과와 장기 유지효과를 산출할 수 없습니다.",
+  "against": "반대 검색 1,628건을 확인했습니다. 같은 시험에서 올란자핀은 일부 지표에서 열세였지만 두 약 모두 체중 증가와 이상반응이 있었고 리스페리돈의 전반적 우월성은 확립되지 않았습니다.",
+  "use": "조현정동장애의 확립된 단독 치료제로 표시하지 말고, 혼합 환자군 직접 비교에서 증상 개선 신호가 있었던 근거로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "Tran 2001 · American Journal of Psychiatry · 조현병·조현정동장애 리스페리돈 비교 무작위시험",
+      "doi": "10.1176/appi.ajp.158.5.765",
+      "pmid": "11329400"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openfda.substance_name:RISPERIDONE → 67건; 허가 문구는 조현병·양극성 I형 조증·자폐성 장애의 과민성이며 조현정동장애 별도 적응증 없음",
+    "ctgov": "query.intr=risperidone&query.cond=Schizoaffective%20Disorder&countTotal=true&pageSize=50 → 101건 반환, InterventionName 대조 후 risperidone 일치 40건",
+    "pubmed": "risperidone AND Schizoaffective Disorder → 2,047건",
+    "negative": "risperidone AND Schizoaffective Disorder AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 1,628건",
+    "safety": "risperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,474건"
+  }
+}
