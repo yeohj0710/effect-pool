@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 624,
   "worklist": {
-    "checked": 5058,
-    "unchecked": 72,
+    "checked": 5068,
+    "unchecked": 62,
     "no_evidence_pending": 0,
     "next_batch": [
-      "rapamycin-urothelial-carcinoma",
-      "rapamycin-aging",
-      "rapamycin-heart-diseases",
-      "rapamycin-tuberous-sclerosis",
-      "montelukast-rhinitis",
-      "montelukast-bronchiolitis",
-      "montelukast-multiple-myeloma",
-      "montelukast-lung-diseases",
-      "atorvastatin-coronary-disease",
-      "atorvastatin-dyslipidemia"
+      "atorvastatin-diabetes",
+      "atorvastatin-cancer",
+      "losartan-cancer",
+      "losartan-nephropathy",
+      "losartan-diabetes",
+      "losartan-fibrosis",
+      "verapamil-atrial-fibrillation",
+      "verapamil-hypertension",
+      "verapamil-ischemic-stroke",
+      "verapamil-drug-dependence"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "lithium-depressive-disorder (existing)",
-    "lithium-tooth-loss (existing)",
-    "pentoxifylline-breast-cancer (existing)",
-    "pentoxifylline-fibrosis (existing)",
-    "pentoxifylline-alcoholic-hepatitis (existing)",
-    "pentoxifylline-pancreatitis (existing)",
-    "sirolimus-leukemia (existing)",
-    "sirolimus-renal-cell-cancer (existing)",
-    "sirolimus-stenosis-artery (existing)",
-    "sirolimus-kidney-cancer (existing)"
+    "rapamycin-urothelial-carcinoma (existing)",
+    "rapamycin-aging (existing)",
+    "rapamycin-heart-diseases (existing)",
+    "rapamycin-tuberous-sclerosis (existing)",
+    "montelukast-rhinitis (approved)",
+    "montelukast-bronchiolitis (existing)",
+    "montelukast-multiple-myeloma (existing)",
+    "montelukast-lung-diseases (existing)",
+    "atorvastatin-coronary-disease (approved)",
+    "atorvastatin-dyslipidemia (approved)"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -69,8 +69,8 @@
     "added_candidates": 252
   },
   "resume": {
-    "last_committed_batch": "lithium, pentoxifylline, sirolimus",
-    "current_batch": "rapamycin, montelukast, atorvastatin",
+    "last_committed_batch": "rapamycin, montelukast, atorvastatin",
+    "current_batch": "atorvastatin, losartan, verapamil",
     "next_action": "commit, push, then process next batch"
   }
 }
