@@ -18,11 +18,18 @@ const data = JSON.parse(raw);
 const TIERS = new Set(data.tiers.map((t) => t.id));
 const DIRS = new Set(["pos", "open", "null", "harm"]);
 const REQUIRED = ["id", "subj", "claim", "line", "tier", "dir",
-                  "why", "saw", "limit", "against", "use", "src", "queried"];
+                  "why", "saw", "limit", "against", "use", "refs", "queried"];
+const REF_IDS = ["doi", "pmid", "pmc", "nct"];
 
 const errors = [];
 const warnings = [];
 const seen = new Set();
+
+data.tiers.forEach((t) => {
+  if (!Number.isInteger(t.step) || t.step < 1 || t.step > 5) {
+    errors.push(`tier ${t.id} — step 이 1~5 정수가 아님`);
+  }
+});
 
 data.entries.forEach((e, i) => {
   const at = `[${i}] ${e.subj ?? "?"}`;
@@ -47,6 +54,23 @@ data.entries.forEach((e, i) => {
   // 빈 자리 표시로 넘어가는 것을 막는다
   if (e.against === "—" || e.against === "-") {
     errors.push(`${at} — against 를 "—" 로 두지 마라. 찾아본 결과를 문장으로 적어라`);
+  }
+
+  // 읽는 사람이 원문으로 넘어갈 수 없으면 항목이 아니다
+  if (!Array.isArray(e.refs) || e.refs.length === 0) {
+    errors.push(`${at} — refs 가 비어 있음. 원문으로 갈 수 있어야 한다`);
+  } else {
+    e.refs.forEach((r, j) => {
+      if (!r.label) errors.push(`${at} refs[${j}] — label 없음`);
+      const ids = REF_IDS.filter((k) => r[k]);
+      if (!ids.length) {
+        errors.push(`${at} refs[${j}] — doi·pmid·pmc·nct 중 하나는 있어야 링크가 걸린다`);
+      }
+      if (r.doi && !/^10\.\d{4,9}\//.test(r.doi)) errors.push(`${at} refs[${j}] — doi 형식이 이상함: ${r.doi}`);
+      if (r.nct && !/^NCT\d{8}$/.test(r.nct)) errors.push(`${at} refs[${j}] — nct 형식이 이상함: ${r.nct}`);
+      if (r.pmc && !/^PMC\d+$/.test(r.pmc)) errors.push(`${at} refs[${j}] — pmc 형식이 이상함: ${r.pmc}`);
+      if (r.pmid && !/^\d+$/.test(r.pmid)) errors.push(`${at} refs[${j}] — pmid 형식이 이상함: ${r.pmid}`);
+    });
   }
 
   // 번역투·수동형 걸러내기
@@ -85,5 +109,7 @@ const byTier = data.tiers
   .map((t) => `${t.id} ${data.entries.filter((e) => e.tier === t.id).length}`)
   .join(" · ");
 
+const refCount = data.entries.reduce((a, e) => a + (e.refs || []).length, 0);
+
 console.log(`site/index.html 만들었습니다 — ${data.entries.length}건 (${byTier})`);
-console.log(`효과 없음·해로운 쪽 ${off}건 (${Math.round(ratio * 100)}%)`);
+console.log(`효과 없음·해로운 쪽 ${off}건 (${Math.round(ratio * 100)}%) · 연결된 근거 자료 ${refCount}건`);
