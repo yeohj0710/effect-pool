@@ -1,0 +1,26 @@
+{
+  "id": "piperacillin-sepsis-harm",
+  "subj": "피페라실린",
+  "claim": "피페라실린이 패혈증을 치료한다",
+  "line": "내성 균혈증 패혈증에서 비교약보다 30일 사망률이 높았습니다",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 391,
+  "synth": "single",
+  "why": "세프트리악손 내성 대장균·클렙시엘라 균혈증에서 피페라실린-타조박탐과 메로페넴을 비교한 무작위시험이 있습니다.",
+  "saw": "PMID 30208454·NCT02176122는 391명을 등록했고 379명이 1차 분석에 포함됐습니다. 30일 사망은 피페라실린-타조박탐군 12.3%, 메로페넴군 3.7%였으며 비열등성 기준을 충족하지 못했습니다.",
+  "limit": "세프트리악손 내성 대장균·클렙시엘라 균혈증의 확정치료와 피페라실린-타조박탐 복합제에 한정됩니다. 모든 패혈증이나 피페라실린 단독의 위해로 일반화할 수 없습니다.",
+  "against": "무작위시험에서 피페라실린-타조박탐의 30일 사망률이 더 높았고, 반대 검색 1098건과 안전성 검색 552건을 확인했습니다.",
+  "use": "특정 내성 균혈증에서 비교약보다 불리했던 결과로 기록하고 모든 패혈증 치료에 적용하지 말아야 합니다.",
+  "refs": [
+    { "label": "MERINO · 세프트리악손 내성 균혈증 피페라실린-타조박탐 대 메로페넴 무작위시험", "pmid": "30208454", "nct": "NCT02176122" }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "fda": "openFDA drug label openfda.substance_name:\"PIPERACILLIN\" → 38건 반환; 허가 문구는 복강·폐렴·피부·골반 감염이며 패혈증 적응증 문구 없음",
+    "ctgov": "query.intr=piperacillin&query.cond=Sepsis → 50건 반환, InterventionName 대조 후 25건",
+    "pubmed": "piperacillin Sepsis → 1476건",
+    "negative": "piperacillin Sepsis (no effect OR did not OR failed to OR negative OR no significant difference) → 1098건",
+    "safety": "piperacillin Sepsis (adverse OR toxicity OR case report) → 552건"
+  }
+}

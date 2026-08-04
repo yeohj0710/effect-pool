@@ -2290,26 +2290,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] ceftriaxone — Infections에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
 - [x] ceftriaxone — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
-- [ ] ceftriaxone — Sepsis에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] ceftriaxone — Lyme Disease에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] vancomycin — Infections에 듣는다  <!-- 등록 시험 76건 -->
-- [ ] vancomycin — Implant Site Infection에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] vancomycin — Pneumonia에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] vancomycin — Sepsis에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] linezolid — HIV Infections에 듣는다  <!-- 등록 시험 59건 -->
-- [ ] linezolid — Pneumonia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] linezolid — Infection에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] linezolid — Pulmonary TB에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] meropenem — Infection에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] meropenem — Infections에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] meropenem — Sepsis에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] meropenem — Pyelonephritis에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] cefepime — Lymphoma에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] cefepime — Leukemia에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] cefepime — Neutropenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] cefepime — Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] piperacillin — Infection에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] piperacillin — Sepsis에 듣는다  <!-- 등록 시험 18건 -->
+- [x] ceftriaxone — Sepsis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 11건 -->
+- [x] ceftriaxone — Lyme Disease에 듣는다 — 새 항목(ceftriaxone-lyme-disease-open)  <!-- 등록 시험 10건 -->
+- [x] vancomycin — Infections에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 76건 -->
+- [x] vancomycin — Implant Site Infection에 듣는다 — 새 항목(vancomycin-implant-site-infection-null)  <!-- 등록 시험 29건 -->
+- [x] vancomycin — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 23건 -->
+- [x] vancomycin — Sepsis에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 20건 -->
+- [x] linezolid — HIV Infections에 듣는다 — 새 항목(linezolid-hiv-infections-null)  <!-- 등록 시험 59건 -->
+- [x] linezolid — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 19건 -->
+- [x] linezolid — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 14건 -->
+- [x] linezolid — Pulmonary TB에 듣는다 — 새 항목(linezolid-pulmonary-tb-open)  <!-- 등록 시험 9건 -->
+- [x] meropenem — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 36건 -->
+- [x] meropenem — Infections에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 20건 -->
+- [x] meropenem — Sepsis에 듣는다 — 새 항목(meropenem-sepsis-null)  <!-- 등록 시험 18건 -->
+- [x] meropenem — Pyelonephritis에 듣는다 — 새 항목(meropenem-pyelonephritis-open)  <!-- 등록 시험 11건 -->
+- [x] cefepime — Lymphoma에 듣는다 — 새 항목(cefepime-lymphoma-open)  <!-- 등록 시험 18건 -->
+- [x] cefepime — Leukemia에 듣는다 — 새 항목(cefepime-leukemia-open)  <!-- 등록 시험 11건 -->
+- [x] cefepime — Neutropenia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] cefepime — Pneumonia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 9건 -->
+- [x] piperacillin — Infection에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 25건 -->
+- [x] piperacillin — Sepsis에 듣는다 — 새 항목(piperacillin-sepsis-harm)  <!-- 등록 시험 18건 -->
 - [ ] piperacillin — Pneumonia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] piperacillin — Febrile에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] gentamicin — Sepsis에 듣는다  <!-- 등록 시험 12건 -->

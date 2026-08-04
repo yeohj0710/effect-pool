@@ -1,58 +1,55 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 491,
+  "entries": 500,
   "worklist": {
-    "checked": 2005,
-    "unchecked": 26,
+    "checked": 2025,
+    "unchecked": 6,
     "no_evidence_pending": 0,
     "next_batch": [
-      "ceftriaxone-sepsis",
-      "ceftriaxone-lyme-disease",
-      "vancomycin-infections",
-      "vancomycin-implant-site-infection",
-      "vancomycin-pneumonia",
-      "vancomycin-sepsis",
-      "linezolid-hiv-infections",
-      "linezolid-pneumonia",
-      "linezolid-infection",
-      "linezolid-pulmonary-tb"
+      "piperacillin-pneumonia",
+      "piperacillin-febrile",
+      "gentamicin-sepsis",
+      "gentamicin-infections",
+      "gentamicin-diabetic-foot-ulcer",
+      "gentamicin-pneumonia"
     ]
   },
   "last_batch": [
-    "amlodipine-diabetes-open",
-    "amlodipine-blood-pressure-approved",
-    "amlodipine-coronary-disease-approved",
-    "amlodipine-hyperlipidemia-open",
-    "nifedipine-preterm-labor-pos",
-    "nifedipine-preeclampsia-pos",
-    "nifedipine-anal-pain-pos",
-    "nifedipine-kidney-stones-null",
-    "ceftriaxone-infections-approved",
-    "ceftriaxone-infection-approved"
+    "meropenem-infection-approved",
+    "meropenem-infections-approved",
+    "meropenem-sepsis-null",
+    "meropenem-pyelonephritis-open",
+    "cefepime-lymphoma-open",
+    "cefepime-leukemia-open",
+    "cefepime-neutropenia-approved",
+    "cefepime-pneumonia-approved",
+    "piperacillin-infection-approved",
+    "piperacillin-sepsis-harm"
   ],
   "verification": {
     "build": "passed",
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 452,
+      "trial": 461,
       "obs": 32,
       "animal": 1,
       "lab": 2,
       "case": 4
     },
-    "no_effect_or_harm": 182,
+    "no_effect_or_harm": 186,
+    "harm": 22,
     "no_effect_or_harm_share": "37%"
   },
   "deployment": {
-    "last_entry_count": 455,
+    "last_entry_count": 500,
     "url": "https://offlabel-pool.vercel.app",
-    "deployment_id": "dpl_5aGYeSHsVC4ZDZy1FAVdxpdyreab"
+    "deployment_id": "dpl_Hucx5fUNENF2cboQSGvQNT13mX3S"
   },
   "resume": {
-    "last_committed_batch": "f14c46a",
-    "current_batch": "ceftriaxone, vancomycin, linezolid",
-    "next_action": "process next batch"
+    "last_committed_batch": "9bdaf85",
+    "current_batch": "meropenem, cefepime, piperacillin",
+    "next_action": "commit batch25"
   }
 }
