@@ -1,0 +1,28 @@
+{
+  "id": "alendronate-osteopenia-pos",
+  "subj": "알렌드론산",
+  "claim": "급성림프모구백혈병 치료 중 소아 골감소증에 알렌드론산을 쓴다",
+  "line": "백혈병 치료 중 소아 골감소증에서 알렌드론산 뒤 요추 골밀도 Z점수가 올랐습니다.",
+  "effect": "요추 BMD Z −1.78→−0.47",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 69,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "알렌드론산 허가는 성인 골다공증과 골다공증성 골절 예방이고, 백혈병 치료 중 소아 골감소증은 포함하지 않습니다.",
+  "why": "백혈병 치료와 스테로이드 노출로 낮아진 골밀도에서 파골세포 골흡수를 억제해 골량을 회복시킬 수 있다는 가설입니다.",
+  "saw": "급성림프모구백혈병 치료 중인 소아 69명이 평균 87주 알렌드론산을 투여받았습니다. 평균 요추 골밀도 Z점수는 −1.78에서 −0.47로 상승했고 대부분 잘 견뎠습니다. 장기 추적 32명에서는 이후 골밀도가 일부 다시 낮아졌습니다.",
+  "limit": "후향적 비무작위 코호트라 치료 선택과 백혈병 경과의 영향을 분리할 수 없습니다. 장기 추적 대상은 32명뿐이고 재발 예방 효과를 판단할 수 없습니다.",
+  "against": "알렌드론산 투여군에서 재발이 적었다는 관찰은 있었지만 대조군 차이를 인과적 항암 효과로 해석할 수 없습니다.",
+  "use": "백혈병 치료 중 소아 골감소증의 전문적 보조치료 신호로만 기록하며 소아 표준치료나 항암제로 확대하지 않습니다.",
+  "refs": [
+    { "label": "백혈병 치료 중 소아 골감소증 알렌드론산 후향 코호트", "pmid": "36729669" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=alendronate · cond=Osteopenia → 51건 반환, 물질 대조 후 40건",
+    "pubmed": "alendronate AND Osteopenia → 3272편",
+    "negative": "alendronate AND Osteopenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2633편",
+    "safety": "alendronate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2640편"
+  }
+}

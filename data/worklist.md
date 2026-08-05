@@ -9431,32 +9431,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] beclomethasone — Leukemia에 듣는다 — 백혈병 환자에서 GVHD를 치료한 연구이며 백혈병 치료 근거가 아님(2026-08-05)  <!-- 시험 11건 · 논문 11편 -->
 - [x] tiotropium — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 1639편 -->
 - [x] tiotropium — Asthma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 553편 -->
-- [ ] tiotropium — Bronchitis에 듣는다  <!-- 시험 5건 · 논문 39편 -->
-- [ ] tiotropium — Emphysema에 듣는다  <!-- 시험 3건 · 논문 36편 -->
-- [ ] salmeterol — Lung Diseases, Obstructive에 듣는다  <!-- 시험 114건 · 논문 2326편 -->
-- [ ] salmeterol — COPD에 듣는다  <!-- 시험 15건 · 논문 1043편 -->
-- [ ] salmeterol — Emphysema에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] salmeterol — Chronic Bronchitis에 듣는다  <!-- 시험 4건 · 논문 31편 -->
-- [ ] propafenone — Arrhythmia에 듣는다  <!-- 시험 6건 · 논문 1637편 -->
-- [ ] propafenone — Heart Arrest에 듣는다  <!-- 시험 3건 · 논문 57편 -->
-- [ ] propafenone — Ventricular Tachycardia에 듣는다  <!-- 시험 3건 · 논문 344편 -->
-- [ ] quinidine — Arrhythmia에 듣는다  <!-- 시험 5건 · 논문 3952편 -->
-- [ ] quinidine — Heart Arrest에 듣는다  <!-- 시험 4건 · 논문 178편 -->
-- [ ] quinidine — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3518편 -->
-- [ ] quinidine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] desvenlafaxine — Depression에 듣는다  <!-- 시험 10건 · 논문 355편 -->
-- [ ] desvenlafaxine — Vasomotor System에 듣는다  <!-- 시험 7건 · 논문 19편 -->
-- [ ] desvenlafaxine — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] brexpiprazole — Depressive Disorder에 듣는다  <!-- 시험 22건 · 논문 164편 -->
-- [ ] brexpiprazole — Bipolar I Disorder에 듣는다  <!-- 시험 6건 · 논문 42편 -->
-- [ ] brexpiprazole — Depression에 듣는다  <!-- 시험 5건 · 논문 236편 -->
-- [ ] lumateperone — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 87편 -->
-- [ ] galantamine — Dementia에 듣는다  <!-- 시험 22건 · 논문 1412편 -->
-- [ ] galantamine — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 102편 -->
-- [ ] galantamine — Cognitive Impairment에 듣는다  <!-- 시험 4건 · 논문 361편 -->
-- [ ] galantamine — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] rotigotine — Restless Legs Syndrome에 듣는다  <!-- 시험 16건 · 논문 153편 -->
-- [ ] rotigotine — Dementia에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [x] tiotropium — Bronchitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 39편 -->
+- [x] tiotropium — Emphysema에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 36편 -->
+- [x] salmeterol — Lung Diseases, Obstructive에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 114건 · 논문 2326편 -->
+- [x] salmeterol — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 1043편 -->
+- [x] salmeterol — Emphysema에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 19편 -->
+- [x] salmeterol — Chronic Bronchitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 31편 -->
+- [x] propafenone — Arrhythmia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 1637편 -->
+- [x] propafenone — Heart Arrest에 듣는다 — 과량 복용 심정지 안전성 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 57편 -->
+- [x] propafenone — Ventricular Tachycardia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 344편 -->
+- [x] quinidine — Arrhythmia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 3952편 -->
+- [x] quinidine — Heart Arrest에 듣는다 — 직접 치료 근거 없음(2026-08-05)  <!-- 시험 4건 · 논문 178편 -->
+- [x] quinidine — Cardiovascular Diseases에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 3518편 -->
+- [x] quinidine — Major Depressive Disorder에 듣는다 — 덱스트로메토르판·퀴니딘 병용 연구로 퀴니딘 단독 근거 없음(2026-08-05)  <!-- 시험 3건 · 논문 14편 -->
+- [x] desvenlafaxine — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 355편 -->
+- [x] desvenlafaxine — Vasomotor System에 듣는다 — 데스벤라팍신 폐경 혈관운동증상 시험 항목 생성(2026-08-05)  <!-- 시험 7건 · 논문 19편 -->
+- [x] desvenlafaxine — Fibromyalgia에 듣는다 — 데스벤라팍신 섬유근육통 무효 시험 항목 생성(2026-08-05)  <!-- 시험 4건 · 논문 11편 -->
+- [x] brexpiprazole — Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 164편 -->
+- [x] brexpiprazole — Bipolar I Disorder에 듣는다 — 브렉스피프라졸 양극성 조증 두 3상 무효 결과 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 42편 -->
+- [x] brexpiprazole — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 236편 -->
+- [x] lumateperone — Schizophrenia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 87편 -->
+- [x] galantamine — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 1412편 -->
+- [x] galantamine — Schizophrenia에 듣는다 — 갈란타민 조현병 인지저하 메타분석 항목 생성(2026-08-05)  <!-- 시험 11건 · 논문 102편 -->
+- [x] galantamine — Cognitive Impairment에 듣는다 — 갈란타민 혈관성 인지장애 메타분석 항목 생성(2026-08-05)  <!-- 시험 4건 · 논문 361편 -->
+- [x] galantamine — Bipolar Disorder에 듣는다 — 갈란타민 양극성장애 인지 파일럿 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 19편 -->
+- [x] rotigotine — Restless Legs Syndrome에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 153편 -->
+- [x] rotigotine — Dementia에 듣는다 — 로티고틴 전두측두엽치매 무효 시험 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 28편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9467,10 +9467,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] alendronate — Bone Loss에 듣는다  <!-- 시험 19건 · 논문 3599편 -->
-- [ ] alendronate — Osteopenia에 듣는다  <!-- 시험 11건 · 논문 3272편 -->
-- [ ] alendronate — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 217편 -->
-- [ ] alendronate — Periodontitis에 듣는다  <!-- 시험 7건 · 논문 187편 -->
+- [x] alendronate — Bone Loss에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 3599편 -->
+- [x] alendronate — Osteopenia에 듣는다 — 백혈병 치료 중 소아 골감소증 코호트 항목 생성(2026-08-05)  <!-- 시험 11건 · 논문 3272편 -->
+- [x] alendronate — Breast Cancer에 듣는다 — 유방암 자체 치료 근거 없음; 골소실 보조 연구로 확인(2026-08-05)  <!-- 시험 10건 · 논문 217편 -->
+- [x] alendronate — Periodontitis에 듣는다 — 알렌드론산 국소 젤 치주염 시험·메타분석 항목 생성(2026-08-05)  <!-- 시험 7건 · 논문 187편 -->
 - [ ] cladribine — Multiple Sclerosis에 듣는다  <!-- 시험 30건 · 논문 862편 -->
 - [ ] cladribine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 27건 · 논문 57편 -->
 - [ ] cladribine — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 509편 -->
