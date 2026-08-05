@@ -9361,36 +9361,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acitretin — Skin Rash에 듣는다  <!-- 시험 3건 · 논문 40편 -->
-- [ ] baloxavir — Infection Viral에 듣는다  <!-- 시험 4건 · 논문 445편 -->
-- [ ] captopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1878편 -->
-- [ ] captopril — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 135편 -->
-- [ ] captopril — Primary Aldosteronism에 듣는다  <!-- 시험 4건 · 논문 331편 -->
-- [ ] captopril — Kidney Insufficiency에 듣는다  <!-- 시험 3건 · 논문 573편 -->
-- [ ] dabrafenib — Cancer에 듣는다  <!-- 시험 47건 · 논문 2081편 -->
-- [ ] dabrafenib — Lung Carcinoma에 듣는다  <!-- 시험 38건 · 논문 163편 -->
-- [ ] dabrafenib — Neoplasm에 듣는다  <!-- 시험 34건 · 논문 1612편 -->
-- [ ] dabrafenib — Lymphoma에 듣는다  <!-- 시험 24건 · 논문 37편 -->
-- [ ] daridorexant — Sleep에 듣는다  <!-- 시험 4건 · 논문 142편 -->
-- [ ] daridorexant — Cognitive Functioning에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] delamanid — HIV에 듣는다  <!-- 시험 8건 · 논문 122편 -->
-- [ ] delamanid — Pulmonary TB에 듣는다  <!-- 시험 4건 · 논문 187편 -->
-- [ ] fosaprepitant — Breast Cancer에 듣는다  <!-- 시험 12건 · 논문 28편 -->
-- [ ] lemborexant — Insomnia에 듣는다  <!-- 시험 15건 · 논문 214편 -->
-- [ ] lemborexant — Delirium에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] milnacipran — Major Depressive Disorder에 듣는다  <!-- 시험 13건 · 논문 177편 -->
-- [ ] milnacipran — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 157편 -->
-- [ ] milnacipran — Depression에 듣는다  <!-- 시험 4건 · 논문 412편 -->
-- [ ] obinutuzumab — Leukemia에 듣는다  <!-- 시험 155건 · 논문 637편 -->
-- [ ] obinutuzumab — Cancer에 듣는다  <!-- 시험 21건 · 논문 945편 -->
-- [ ] obinutuzumab — Lupus Nephritis에 듣는다  <!-- 시험 11건 · 논문 92편 -->
-- [ ] obinutuzumab — B-Cell에 듣는다  <!-- 시험 10건 · 논문 870편 -->
-- [ ] pazopanib — Breast Carcinoma에 듣는다  <!-- 시험 121건 · 논문 71편 -->
-- [ ] pazopanib — Sarcoma에 듣는다  <!-- 시험 87건 · 논문 705편 -->
-- [ ] pazopanib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 225편 -->
-- [ ] pazopanib — Leiomyosarcoma에 듣는다  <!-- 시험 23건 · 논문 112편 -->
-- [ ] pitolisant — Narcolepsy에 듣는다  <!-- 시험 6건 · 논문 154편 -->
-- [ ] pitolisant — Prader-Willi Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] acitretin — Skin Rash에 듣는다  <!-- 시험 3건 · 논문 40편 -->
+- [x] baloxavir — Infection Viral에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 445편 -->
+- [x] captopril — Heart Failure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 1878편 -->
+- [x] captopril — Type 1 Diabetes에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 135편 -->
+- [x] captopril — Primary Aldosteronism에 듣는다 — 진단용 captopril challenge 연구라 치료 항목 제외(2026-08-05)  <!-- 시험 4건 · 논문 331편 -->
+- [x] captopril — Kidney Insufficiency에 듣는다 — 치료 결과 없는 신장생리·진단 연구라 제외(2026-08-05)  <!-- 시험 3건 · 논문 573편 -->
+- [x] dabrafenib — Cancer에 듣는다  <!-- 시험 47건 · 논문 2081편 -->
+- [x] dabrafenib — Lung Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 38건 · 논문 163편 -->
+- [x] dabrafenib — Neoplasm에 듣는다 — 기존 dabrafenib-cancer-pos로 처리(2026-08-05)  <!-- 시험 34건 · 논문 1612편 -->
+- [x] dabrafenib — Lymphoma에 듣는다 — 기존 혼합 BRAF 변이 종양 항목으로 처리(2026-08-05)  <!-- 시험 24건 · 논문 37편 -->
+- [x] daridorexant — Sleep에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 142편 -->
+- [x] daridorexant — Cognitive Functioning에 듣는다 — 치료 결과 없는 인지 안전성 연구라 제외(2026-08-05)  <!-- 시험 3건 · 논문 19편 -->
+- [x] delamanid — HIV에 듣는다 — HIV 치료가 아닌 결핵 동반·약동학 연구라 제외(2026-08-05)  <!-- 시험 8건 · 논문 122편 -->
+- [x] delamanid — Pulmonary TB에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 187편 -->
+- [x] fosaprepitant — Breast Cancer에 듣는다 — 항암화학요법 구역·구토 예방 허가 용도(2026-08-05)  <!-- 시험 12건 · 논문 28편 -->
+- [x] lemborexant — Insomnia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 214편 -->
+- [x] lemborexant — Delirium에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [x] milnacipran — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 177편 -->
+- [x] milnacipran — Chronic Pain에 듣는다 — 섬유근육통 허가·표준 용도와 중복(2026-08-05)  <!-- 시험 9건 · 논문 157편 -->
+- [x] milnacipran — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 412편 -->
+- [x] obinutuzumab — Leukemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 155건 · 논문 637편 -->
+- [x] obinutuzumab — Cancer에 듣는다 — B세포 혈액암 허가 용도와 중복(2026-08-05)  <!-- 시험 21건 · 논문 945편 -->
+- [x] obinutuzumab — Lupus Nephritis에 듣는다  <!-- 시험 11건 · 논문 92편 -->
+- [x] obinutuzumab — B-Cell에 듣는다 — B세포 혈액암 허가 용도와 중복(2026-08-05)  <!-- 시험 10건 · 논문 870편 -->
+- [x] pazopanib — Breast Carcinoma에 듣는다  <!-- 시험 121건 · 논문 71편 -->
+- [x] pazopanib — Sarcoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 87건 · 논문 705편 -->
+- [x] pazopanib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 225편 -->
+- [x] pazopanib — Leiomyosarcoma에 듣는다 — 연조직육종 허가 범위와 중복(2026-08-05)  <!-- 시험 23건 · 논문 112편 -->
+- [x] pitolisant — Narcolepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 154편 -->
+- [x] pitolisant — Prader-Willi Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [ ] remifentanil — Pain에 듣는다  <!-- 시험 70건 · 논문 3158편 -->
 - [ ] remifentanil — Surgery에 듣는다  <!-- 시험 27건 · 논문 4974편 -->
 - [ ] remifentanil — Postoperative에 듣는다  <!-- 시험 24건 · 논문 2805편 -->
