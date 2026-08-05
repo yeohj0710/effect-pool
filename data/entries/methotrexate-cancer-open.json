@@ -1,0 +1,40 @@
+{
+  "id": "methotrexate-cancer-open",
+  "subj": "메토트렉세이트",
+  "claim": "메토트렉세이트가 암을 치료한다",
+  "line": "암 일부에서 종양 반응이 있었지만 전체 효과는 확립되지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 53,
+  "synth": "single",
+  "why": "ClinicalTrials.gov에서 methotrexate를 중재로 넣은 암 연구를 확인했고, 암 환자를 대상으로 한 직접적인 임상 근거로 고형암 뇌수막전이 환자 53명을 분석한 2상 연구를 확인했습니다.",
+  "saw": "고형암 뇌수막전이 연구에서 methotrexate를 포함한 병용요법의 반응률은 34%(18/53)였고 신경 증상과 KPS가 개선됐습니다. 단일군 연구이며 여러 약제와 방사선치료를 함께 사용해 methotrexate 단독의 암 치료 효과로 해석할 수 없습니다.",
+  "limit": "대상 암종과 전이 부위가 제한됐고 병용요법 연구라 암 전반에 일반화할 수 없습니다.",
+  "against": "암 전반의 효능을 반박하는 직접 대조시험은 확인하지 못했습니다. 유방암 수막전이 연구는 해당 상황에서 척수강내 화학요법의 역할이 확립되지 않았다고 기술했습니다.",
+  "use": "암 전반의 치료제로 단정하지 말고 특정 암종과 전이 부위의 병용요법 근거로만 해석해야 합니다.",
+  "refs": [
+    {
+      "label": "Wang 2023 · Journal of Neuro-Oncology · 고형암 뇌수막전이 척수강내 병용요법 2상 연구",
+      "pmid": "37315582"
+    },
+    {
+      "label": "NCT05057130 · 골육종 환자 doxorubicin·cisplatin·methotrexate 병용 연구",
+      "nct": "NCT05057130"
+    },
+    {
+      "label": "NCT02115204 · 유방암 CMF/CEF 대조 3상 연구의 methotrexate 중재",
+      "nct": "NCT02115204"
+    },
+    {
+      "label": "Stewart 2004 · 유방암 수막전이 척수강내 화학요법 연구",
+      "pmid": "12530042"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=methotrexate&query.cond=Cancer — 1,037건 반환; NCT05057130·NCT03719560·NCT02115204의 중재명 Methotrexate 확인",
+    "pubmed": "methotrexate cancer randomized trial — 3,117건",
+    "negative": "methotrexate cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) — 18,124건",
+    "safety": "methotrexate cancer AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 15,149건"
+  }
+}
