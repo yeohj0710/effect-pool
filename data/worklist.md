@@ -7938,16 +7938,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Aldosteronism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 4291편 -->
 - [x] spironolactone — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 199편 -->
 - [x] doxycycline — Lyme Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 848편 -->
-- [ ] doxycycline — Chlamydia에 듣는다  <!-- 시험 11건 · 논문 1187편 -->
-- [ ] doxycycline — Erythema Migrans에 듣는다  <!-- 시험 10건 · 논문 247편 -->
-- [ ] doxycycline — Sexually Transmitted Diseases에 듣는다  <!-- 시험 10건 · 논문 1515편 -->
-- [ ] colchicine — Heart Attack에 듣는다  <!-- 시험 19건 · 논문 520편 -->
-- [ ] colchicine — Inflammation에 듣는다  <!-- 시험 14건 · 논문 2029편 -->
-- [ ] colchicine — Stroke에 듣는다  <!-- 시험 12건 · 논문 339편 -->
-- [ ] colchicine — Cardiovascular Events에 듣는다  <!-- 시험 11건 · 논문 554편 -->
-- [ ] dapagliflozin — Coronary Artery Disease에 듣는다  <!-- 시험 15건 · 논문 67편 -->
-- [ ] dapagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 15건 · 논문 3655편 -->
-- [ ] dapagliflozin — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 302편 -->
+- [x] doxycycline — Chlamydia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 1187편 -->
+- [x] doxycycline — Erythema Migrans에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 247편 -->
+- [x] doxycycline — Sexually Transmitted Diseases에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 1515편 -->
+- [x] colchicine — Heart Attack에 듣는다 — 기존 항목(colchicine-post-mi-null)(2026-08-05)  <!-- 시험 19건 · 논문 520편 -->
+- [x] colchicine — Inflammation에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 14건 · 논문 2029편 -->
+- [x] colchicine — Stroke에 듣는다  <!-- 시험 12건 · 논문 339편 -->
+- [x] colchicine — Cardiovascular Events에 듣는다 — 기존 항목(colchicine-post-mi-null)(2026-08-05)  <!-- 시험 11건 · 논문 554편 -->
+- [x] dapagliflozin — Coronary Artery Disease에 듣는다  <!-- 시험 15건 · 논문 67편 -->
+- [x] dapagliflozin — SGLT2 Inhibitors에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 15건 · 논문 3655편 -->
+- [x] dapagliflozin — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 302편 -->
 - [ ] dapagliflozin — Alport Nephropathy에 듣는다  <!-- 시험 14건 · 논문 14편 -->
 - [ ] semaglutide — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 20건 · 논문 215편 -->
 - [ ] semaglutide — Chronic Kidney Disease에 듣는다  <!-- 시험 17건 · 논문 250편 -->
