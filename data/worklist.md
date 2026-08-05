@@ -9672,3 +9672,66 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tibolone — Menopausal Syndrome에 듣는다 — 허가·표준 폐경 증상 적응증(2026-08-05)  <!-- 시험 3건 · 논문 46편 -->
 - [x] toremifene — Neoplasms, Hormone-Dependent에 듣는다 — 유방암 치료 허가·표준 항에스트로겐 적응증(2026-08-05)  <!-- 시험 3건 · 논문 44편 -->
 - [x] xylometazoline — Rhinitis에 듣는다 — 허가·표준 비충혈 제거 적응증(2026-08-05)  <!-- 시험 3건 · 논문 92편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] clomiphene — Subfertility에 듣는다  <!-- 시험 3건 · 논문 3634편 -->
+- [ ] clomiphene — IVF에 듣는다  <!-- 시험 3건 · 논문 821편 -->
+- [ ] clomiphene — Uterine Fibroids에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] deferoxamine — Stroke에 듣는다  <!-- 시험 3건 · 논문 224편 -->
+- [ ] eplerenone — Obesity에 듣는다  <!-- 시험 5건 · 논문 70편 -->
+- [ ] eplerenone — Diabetes Type 2에 듣는다  <!-- 시험 5건 · 논문 99편 -->
+- [ ] eplerenone — Endothelial Dysfunction에 듣는다  <!-- 시험 4건 · 논문 101편 -->
+- [ ] eplerenone — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 39편 -->
+- [ ] flecainide — Coronary Disease에 듣는다  <!-- 시험 3건 · 논문 136편 -->
+- [ ] indomethacin — Preterm Birth에 듣는다  <!-- 시험 5건 · 논문 839편 -->
+- [ ] indomethacin — Gout에 듣는다  <!-- 시험 4건 · 논문 350편 -->
+- [ ] indomethacin — Endoscopic Retrograde Cholangiopancreatography에 듣는다  <!-- 시험 4건 · 논문 212편 -->
+- [ ] indomethacin — Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 15313편 -->
+- [ ] ketoconazole — Tumors에 듣는다  <!-- 시험 8건 · 논문 1274편 -->
+- [ ] ketoconazole — Cushing Disease에 듣는다  <!-- 시험 6건 · 논문 280편 -->
+- [ ] ketoconazole — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 72편 -->
+- [ ] ketoconazole — Neuroblastoma에 듣는다  <!-- 시험 5건 · 논문 10편 -->
+- [ ] lamotrigine — Mental Disorders에 듣는다  <!-- 시험 4건 · 논문 1815편 -->
+- [ ] lamotrigine — Seizures에 듣는다  <!-- 시험 4건 · 논문 2474편 -->
+- [ ] lamotrigine — Alcohol Dependence에 듣는다  <!-- 시험 4건 · 논문 37편 -->
+- [ ] lamotrigine — Myotonia Congenita에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [ ] mifepristone — Cushing's Disease에 듣는다  <!-- 시험 8건 · 논문 83편 -->
+- [ ] mifepristone — Psychotic Disorders에 듣는다  <!-- 시험 6건 · 논문 35편 -->
+- [ ] mifepristone — Uterine Fibroid에 듣는다  <!-- 시험 6건 · 논문 176편 -->
+- [ ] mifepristone — Menstrual Regulation에 듣는다  <!-- 시험 6건 · 논문 144편 -->
+- [ ] misoprostol — Pain에 듣는다  <!-- 시험 13건 · 논문 772편 -->
+- [ ] misoprostol — IUD에 듣는다  <!-- 시험 13건 · 논문 56편 -->
+- [ ] misoprostol — Fetal Death에 듣는다  <!-- 시험 12건 · 논문 208편 -->
+- [ ] neostigmine — Respiratory Muscles에 듣는다  <!-- 시험 8건 · 논문 225편 -->
+- [ ] neostigmine — Headache에 듣는다  <!-- 시험 7건 · 논문 32편 -->
+- [ ] nitroglycerin — Migraine에 듣는다  <!-- 시험 7건 · 논문 714편 -->
+- [ ] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 -->
+- [ ] nitroglycerin — Pain에 듣는다  <!-- 시험 6건 · 논문 4619편 -->
+- [ ] nitroglycerin — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1436편 -->
+- [ ] psilocybin — Chronic Pain에 듣는다  <!-- 시험 15건 · 논문 75편 -->
+- [ ] psilocybin — Anxiety에 듣는다  <!-- 시험 13건 · 논문 562편 -->
+- [ ] psilocybin — Psychological Stress에 듣는다  <!-- 시험 13건 · 논문 121편 -->
+- [ ] psilocybin — Psychedelic Experiences에 듣는다  <!-- 시험 12건 · 논문 643편 -->
+- [ ] quercetin — Childhood Cancer에 듣는다  <!-- 시험 5건 · 논문 8편 -->
+- [ ] quercetin — Alzheimer Disease에 듣는다  <!-- 시험 4건 · 논문 663편 -->
+- [ ] quercetin — Sickle Cell Disease에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] quercetin — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 55편 -->
+- [ ] rifaximin — Crohn Disease에 듣는다  <!-- 시험 15건 · 논문 74편 -->
+- [ ] rifaximin — BACTERIAL VAGINOSIS에 듣는다  <!-- 시험 14건 · 논문 11편 -->
+- [ ] rifaximin — Hepatitis C에 듣는다  <!-- 시험 7건 · 논문 14편 -->
+- [ ] tacrolimus — Renal Failure에 듣는다  <!-- 시험 72건 · 논문 2123편 -->
+- [ ] tacrolimus — Graft Failure에 듣는다  <!-- 시험 51건 · 논문 2676편 -->
+- [ ] tacrolimus — Dermatitis에 듣는다  <!-- 시험 25건 · 논문 1496편 -->
+- [ ] tacrolimus — Myelofibrosis에 듣는다  <!-- 시험 23건 · 논문 19편 -->
+- [ ] valproic acid — Cancer에 듣는다  <!-- 시험 13건 · 논문 2007편 -->
+- [ ] valproic acid — Ovarian Neoplasm에 듣는다  <!-- 시험 13건 · 논문 26편 -->
+- [ ] valproic acid — Myelodysplastic Syndrome에 듣는다  <!-- 시험 10건 · 논문 71편 -->
+- [ ] valproic acid — Sarcoma에 듣는다  <!-- 시험 10건 · 논문 51편 -->
