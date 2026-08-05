@@ -1,0 +1,35 @@
+{
+  "id": "naltrexone-depression-null",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 우울증을 개선한다",
+  "line": "오피오이드 의존자의 우울 점수는 대조약과 다르지 않았습니다",
+  "effect": "우울 점수 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 159,
+  "synth": "single",
+  "why": "오피오이드 의존 치료 무작위시험에서 날트렉손과 부프레노르핀·날록손의 우울 증상 변화를 비교했습니다.",
+  "saw": "오피오이드 의존자 159명을 무작위 배정한 시험에서 12주 우울 점수는 날트렉손군과 부프레노르핀·날록손군 사이에 유의한 차이가 없었습니다.",
+  "limit": "주요 대상은 우울증 환자가 아닌 오피오이드 의존자였고, 우울 증상은 동반 증상 측정치였습니다. 시험을 끝낸 사람은 105명이었습니다.",
+  "against": "다른 오피오이드 의존 무작위시험에서도 날트렉손군의 우울 증상 악화는 확인되지 않았지만 우울증 치료효과를 검증한 것은 아닙니다.",
+  "use": "날트렉손을 주요우울증 치료제로 읽지 말고 오피오이드 의존 치료 중 동반 우울 증상 자료로 한정해야 합니다.",
+  "refs": [
+    {
+      "label": "Kampman 2019 · JAMA Psychiatry · 우울 증상 무작위시험",
+      "doi": "10.1001/jamapsychiatry.2018.3537",
+      "pmid": "30566177"
+    },
+    {
+      "label": "Dean 2006 · Aust N Z J Psychiatry · 우울 증상 RCT",
+      "pmid": "16496034"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:NALTREXONE → 46건; 확인 라벨의 적응증은 알코올의존·외인성 오피오이드 효과 차단",
+    "ctgov": "query.intr=naltrexone&query.cond=Depression → 17건 반환, InterventionName 대조 후 naltrexone 일치 14건",
+    "pubmed": "naltrexone AND \"Depression\" → 589건",
+    "negative": "naltrexone AND \"Depression\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 510건",
+    "safety": "naltrexone AND \"Depression\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 180건"
+  }
+}

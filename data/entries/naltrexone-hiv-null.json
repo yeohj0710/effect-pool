@@ -1,0 +1,36 @@
+{
+  "id": "naltrexone-hiv-null",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 HIV 감염자의 바이러스 억제를 높인다",
+  "line": "새 HIV 감염자의 바이러스 억제율을 위약보다 높이지 못했습니다",
+  "effect": "억제 81.6% vs 75.5%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 156,
+  "synth": "single",
+  "why": "HIV 감염과 알코올사용장애가 있는 사람을 날트렉손과 위약에 무작위 배정하고 바이러스 억제를 비교한 시험입니다.",
+  "saw": "새로 HIV를 진단받은 남성 간 성관계자와 트랜스젠더 여성 156명의 24주 시험에서 바이러스 억제율은 날트렉손 81.6%, 위약 75.5%로 군간 차이가 유의하지 않았습니다.",
+  "limit": "새 HIV 감염 MSM·트랜스젠더 여성의 알코올사용장애를 대상으로 했고 연구약 복약순응도가 낮아 HIV 치료 전체에 일반화할 수 없습니다.",
+  "against": "다른 HIV·오피오이드사용장애 무작위시험에서도 바이러스 억제는 대조치료와 비슷했지만 날트렉손의 비열등성을 입증하지 못했습니다.",
+  "use": "날트렉손을 항레트로바이러스 치료나 HIV 바이러스 억제 치료로 해석하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "Cunningham 2022 · AIDS · HIV 바이러스 억제 무작위시험",
+      "doi": "10.1097/QAI.0000000000002889",
+      "pmid": "34897226"
+    },
+    {
+      "label": "Springer 2022 · Addiction · HIV 진료소 날트렉손 무작위시험",
+      "doi": "10.1111/add.15836",
+      "pmid": "35129242"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:NALTREXONE → 46건; 확인 라벨의 적응증은 알코올의존·외인성 오피오이드 효과 차단",
+    "ctgov": "query.intr=naltrexone&query.cond=HIV → 31건 반환, InterventionName 대조 후 naltrexone 일치 26건",
+    "pubmed": "naltrexone AND \"HIV\" → 220건",
+    "negative": "naltrexone AND \"HIV\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 161건",
+    "safety": "naltrexone AND \"HIV\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 70건"
+  }
+}

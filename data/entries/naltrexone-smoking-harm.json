@@ -1,0 +1,36 @@
+{
+  "id": "naltrexone-smoking-harm",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 금연을 돕는다",
+  "line": "흡연자에게 바레니클린에 더하니 금연율이 오히려 낮았습니다",
+  "effect": "금연 26.5% vs 45.1%",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 165,
+  "synth": "single",
+  "why": "과음하는 흡연자를 대상으로 바레니클린에 날트렉손을 더한 군과 위약을 더한 군을 무작위 비교한 시험입니다.",
+  "saw": "일일 흡연과 과음이 함께 있는 성인 165명의 무작위시험에서 26주 금연율은 날트렉손 추가군 26.5%, 대조군 45.1%였습니다.",
+  "limit": "날트렉손 단독시험이 아니라 바레니클린 병용시험이며 과음하는 흡연자에 한정된 결과입니다.",
+  "against": "같은 시험에서 날트렉손 추가는 음주량 일부 결과에는 유리했지만 금연효과는 입증하지 못했습니다.",
+  "use": "금연을 위해 날트렉손을 추가하면 이득이 있다고 단정하지 말고 흡연·음주 결과를 나눠 봐야 합니다.",
+  "refs": [
+    {
+      "label": "Ray 2021 · Am J Psychiatry · 금연·음주 병용 무작위시험",
+      "doi": "10.1176/appi.ajp.2020.20070993",
+      "pmid": "34080890"
+    },
+    {
+      "label": "2003 · Nicotine Tob Res · 날트렉손·니코틴패치 예비시험",
+      "doi": "10.1080/14622200310001614601",
+      "pmid": "14750508"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:NALTREXONE → 46건; 확인 라벨의 적응증은 알코올의존·외인성 오피오이드 효과 차단",
+    "ctgov": "query.intr=naltrexone&query.cond=Smoking → 16건 반환, InterventionName 대조 후 naltrexone 일치 16건",
+    "pubmed": "naltrexone AND \"Smoking\" → 205건",
+    "negative": "naltrexone AND \"Smoking\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 179건",
+    "safety": "naltrexone AND \"Smoking\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 51건"
+  }
+}

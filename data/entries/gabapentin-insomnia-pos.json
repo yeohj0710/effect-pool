@@ -1,0 +1,36 @@
+{
+  "id": "gabapentin-insomnia-pos",
+  "subj": "가바펜틴",
+  "claim": "가바펜틴이 일시적 불면의 수면시간을 늘린다",
+  "line": "수면 위상 이동으로 생긴 일시적 불면의 수면시간을 늘렸습니다",
+  "effect": "수면시간 +64분",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 256,
+  "synth": "single",
+  "why": "수면 위상을 갑자기 앞당겨 일시적 불면을 만든 성인을 가바펜틴과 위약에 무작위 배정한 시험입니다.",
+  "saw": "일시적 수면장애 성인 256명을 비교한 28일 다기관 시험에서 수면 후 각성시간은 가바펜틴 107.0분, 위약 149.1분이었고 총수면시간은 347.6분 대 283.9분이었습니다.",
+  "limit": "수면 위상 이동으로 만든 일시적 불면 모델의 짧은 시험이라 만성 불면증 환자에게 일반화할 수 없습니다.",
+  "against": "불면증 가바펜티노이드 문헌고찰은 결과가 일관되지 않고 근거가 적어 일상 사용을 뒷받침하기 어렵다고 결론냈습니다.",
+  "use": "일시적 수면장애의 실험 모델 결과와 만성 불면증 치료 근거를 구분해야 합니다.",
+  "refs": [
+    {
+      "label": "Foldvary-Schaefer 2014 · J Clin Sleep Med · 일시적 불면 무작위시험",
+      "doi": "10.5664/jcsm.4110",
+      "pmid": "25317091"
+    },
+    {
+      "label": "Hong 2022 · Mol Psychiatry · 불면증 체계적 문헌고찰",
+      "doi": "10.1038/s41380-021-01386-6",
+      "pmid": "34819636"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:GABAPENTIN → 406건; 확인 라벨의 적응증은 성인 대상포진후신경통·부분발작 보조치료",
+    "ctgov": "query.intr=gabapentin&query.cond=Insomnia → 20건 반환, InterventionName 대조 후 gabapentin 일치 18건",
+    "pubmed": "gabapentin AND \"Insomnia\" → 134건",
+    "negative": "gabapentin AND \"Insomnia\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 98건",
+    "safety": "gabapentin AND \"Insomnia\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 60건"
+  }
+}

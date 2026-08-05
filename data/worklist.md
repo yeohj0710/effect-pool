@@ -7908,16 +7908,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Platelet Function에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 13건 · 논문 12314편 -->
 - [x] propranolol — Hemangioma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 20건 · 논문 1776편 -->
 - [x] propranolol — Self-injury에 듣는다  <!-- 시험 18건 · 논문 79편 -->
-- [ ] propranolol — Esophageal Varices에 듣는다  <!-- 시험 18건 · 논문 541편 -->
-- [ ] propranolol — Hypertension에 듣는다  <!-- 시험 17건 · 논문 5273편 -->
-- [ ] naltrexone — HIV에 듣는다  <!-- 시험 18건 · 논문 220편 -->
-- [ ] naltrexone — Binge Eating에 듣는다  <!-- 시험 18건 · 논문 89편 -->
-- [ ] naltrexone — Smoking에 듣는다  <!-- 시험 14건 · 논문 214편 -->
-- [ ] naltrexone — Depression에 듣는다  <!-- 시험 11건 · 논문 758편 -->
-- [ ] gabapentin — Neuralgia에 듣는다  <!-- 시험 15건 · 논문 1391편 -->
-- [ ] gabapentin — Hot Flashes에 듣는다  <!-- 시험 14건 · 논문 187편 -->
-- [ ] gabapentin — Insomnia에 듣는다  <!-- 시험 12건 · 논문 139편 -->
-- [ ] amitriptyline — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 611편 -->
+- [x] propranolol — Esophageal Varices에 듣는다  <!-- 시험 18건 · 논문 541편 -->
+- [x] propranolol — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 17건 · 논문 5273편 -->
+- [x] naltrexone — HIV에 듣는다  <!-- 시험 18건 · 논문 220편 -->
+- [x] naltrexone — Binge Eating에 듣는다  <!-- 시험 18건 · 논문 89편 -->
+- [x] naltrexone — Smoking에 듣는다  <!-- 시험 14건 · 논문 214편 -->
+- [x] naltrexone — Depression에 듣는다  <!-- 시험 11건 · 논문 758편 -->
+- [x] gabapentin — Neuralgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 1391편 -->
+- [x] gabapentin — Hot Flashes에 듣는다  <!-- 시험 14건 · 논문 187편 -->
+- [x] gabapentin — Insomnia에 듣는다  <!-- 시험 12건 · 논문 139편 -->
+- [x] amitriptyline — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 611편 -->
 - [ ] amitriptyline — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 103편 -->
 - [ ] amitriptyline — Interstitial Cystitis에 듣는다  <!-- 시험 3건 · 논문 82편 -->
 - [ ] amitriptyline — Laryngeal Diseases에 듣는다  <!-- 시험 3건 · 논문 13편 -->

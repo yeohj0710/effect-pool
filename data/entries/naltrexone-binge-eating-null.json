@@ -1,0 +1,36 @@
+{
+  "id": "naltrexone-binge-eating-null",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 폭식장애를 개선한다",
+  "line": "비만 동반 폭식장애에서 단독 효과를 분리하지 못했습니다",
+  "effect": "단독 효과 분리 불가",
+  "tier": "trial",
+  "dir": "null",
+  "n": 136,
+  "synth": "single",
+  "why": "폭식장애 무작위시험은 날트렉손 단독이 아니라 날트렉손·부프로피온 복합제를 평가했습니다.",
+  "saw": "비만을 동반한 폭식장애 환자 136명을 네 군에 무작위 배정한 16주 시험에서 복합제의 폭식 관해율은 위약보다 높았지만 날트렉손 단독군은 없었습니다.",
+  "limit": "부프로피온과 행동체중감량의 효과가 함께 섞여 있어 복합제 결과를 날트렉손 단독 효과로 귀속할 수 없습니다.",
+  "against": "복합제군의 폭식 관해율은 위약군보다 높았지만, 연구 설계상 날트렉손 성분만의 기여도는 확인하지 못했습니다.",
+  "use": "폭식장애에서 날트렉손 단독 효과가 입증됐다고 읽지 말고 복합제 근거로 한정해야 합니다.",
+  "refs": [
+    {
+      "label": "Grilo 2022 · Am J Psychiatry · 폭식장애 복합제 무작위시험",
+      "doi": "10.1176/appi.ajp.20220267",
+      "pmid": "36285406"
+    },
+    {
+      "label": "2025 · CNS Drugs · 폭식장애 약물 메타분석",
+      "doi": "10.47626/1516-4446-2025-4258",
+      "pmid": "41022489"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:NALTREXONE → 46건; 확인 라벨의 적응증은 알코올의존·외인성 오피오이드 효과 차단",
+    "ctgov": "query.intr=naltrexone&query.cond=Binge Eating → 11건 반환, InterventionName 대조 후 naltrexone 일치 10건",
+    "pubmed": "naltrexone AND \"Binge Eating\" → 66건",
+    "negative": "naltrexone AND \"Binge Eating\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 49건",
+    "safety": "naltrexone AND \"Binge Eating\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10건"
+  }
+}
