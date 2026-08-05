@@ -21,6 +21,7 @@ const WL = join(root, "data", "worklist.md");
 const ENTRY_DIR = join(root, "data", "entries");
 
 const MIN_TRIALS = 3;      // 이 이상 시험이 붙은 질환만 후보
+const MIN_PAPERS = 8;      // 논문이 이만큼은 있어야 한다. 등록만 된 조합을 걸러낸다
 const MAX_PER_DRUG = 4;    // 한 물질에서 최대 몇 개까지 뽑을지
 const PAGE = 200;
 const PAGES = 4;           // 한 물질당 최대 몇 장까지 넘겨볼지 (표본 쏠림 방지)
@@ -142,6 +143,20 @@ async function conditionsFor(drug) {
   return { total, kept, counts };
 }
 
+// 등록된 시험이 있다고 다 후보가 아니다. 논문이 없으면 아직 아무도 결과를 안 낸 것이고,
+// 그런 조합으로 항목을 만들면 "결과가 아직 없습니다" 밖에 못 쓴다. 실제로 175건이 그랬다.
+async function paperCount(drug, cond) {
+  const term = encodeURIComponent(`${drug} AND ${cond}`);
+  const url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+    + `?db=pubmed&term=${term}&retmode=json&retmax=0`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return 0;
+    const j = await res.json();
+    return Number(j?.esearchresult?.count ?? 0);
+  } catch { return 0; }
+}
+
 /* ---- 실행 ---- */
 
 const lines = [];
@@ -163,11 +178,22 @@ for (const drug of targets) {
       .filter((g) => !claims.has((drug + g.name).toLowerCase().replace(/\s+/g, "")))
       .slice(0, MAX_PER_DRUG);
 
-    report.push(`  ${drug.padEnd(22)} 반환 ${String(total).padStart(4)} · 대조 통과 ${String(kept).padStart(3)}`
-      + ` · 허가로 본 것 "${onLabel.name}" · 후보 ${picks.length}`);
-
+    // 논문이 있는 조합만 남긴다
+    const solid = [];
+    let dropped = 0;
     for (const g of picks) {
-      lines.push(`- [ ] ${drug} — ${g.name}에 듣는다  <!-- 등록 시험 ${g.n}건 -->`);
+      const papers = await paperCount(drug, g.name);
+      if (papers >= MIN_PAPERS) solid.push({ ...g, papers });
+      else dropped++;
+      await sleep(380);   // PubMed 는 키 없이 초당 3회
+    }
+
+    report.push(`  ${drug.padEnd(22)} 반환 ${String(total).padStart(4)} · 대조 통과 ${String(kept).padStart(3)}`
+      + ` · 허가로 본 것 "${onLabel.name}" · 후보 ${solid.length}`
+      + (dropped ? ` (논문 부족으로 ${dropped}개 뺌)` : ""));
+
+    for (const g of solid) {
+      lines.push(`- [ ] ${drug} — ${g.name}에 듣는다  <!-- 시험 ${g.n}건 · 논문 ${g.papers}편 -->`);
     }
   } catch (err) {
     report.push(`  ${drug.padEnd(22)} 실패: ${err.message}`);

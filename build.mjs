@@ -76,6 +76,15 @@ entries.forEach((e, i) => {
     errors.push(`${at} — against 를 "—" 로 두지 마라. 찾아본 결과를 문장으로 적어라`);
   }
 
+  // 등록정보(NCT)만 있으면 아직 아무도 결과를 안 낸 것이다. 그건 항목이 아니다.
+  if (Array.isArray(e.refs) && e.refs.length && !e.refs.some((r) => r.doi || r.pmid || r.pmc)) {
+    errors.push(`${at} — 논문 없이 등록정보만 있습니다. 결과가 나온 뒤에 만드세요`);
+  }
+  // "결과가 아직 없습니다" 는 읽어도 남는 게 없다
+  if (/(결과가 아직 없|결과가 아직 나오지 않|결과가 공개되지 않|효과를 평가한 (소규모 )?시험이 있|시험이 등록|시험만 있|아직 보고되지 않)/.test(e.line || "")) {
+    errors.push(`${at} — 문장에 결과가 없습니다. 등록만 된 조합은 항목으로 만들지 마세요`);
+  }
+
   // 읽는 사람이 원문으로 넘어갈 수 없으면 항목이 아니다
   if (!Array.isArray(e.refs) || e.refs.length === 0) {
     errors.push(`${at} — refs 가 비어 있음. 원문으로 갈 수 있어야 한다`);
