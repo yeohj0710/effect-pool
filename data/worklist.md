@@ -9762,36 +9762,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atovaquone — HIV에 듣는다  <!-- 시험 14건 · 논문 107편 --> — HIV 자체 치료 근거 없음(2026-08-05)
 - [x] atovaquone — Pneumocystis에 듣는다  <!-- 시험 12건 · 논문 247편 --> — PCP 치료 허가 적응증(2026-08-05)
 - [x] atovaquone — Toxoplasmosis에 듣는다  <!-- 시험 3건 · 논문 144편 -->
-- [ ] atovaquone — Falciparum에 듣는다  <!-- 시험 3건 · 논문 628편 -->
-- [ ] artemisinin — Plasmodium Falciparum에 듣는다  <!-- 시험 3건 · 논문 5036편 -->
-- [ ] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 -->
-- [ ] doxazosin — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 129편 -->
-- [ ] doxazosin — Substance Abuse에 듣는다  <!-- 시험 4건 · 논문 29편 -->
-- [ ] etoricoxib — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 160편 -->
-- [ ] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 -->
-- [ ] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 -->
-- [ ] etoricoxib — Headache에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 -->
-- [ ] levocetirizine — Dermatitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
-- [ ] levocetirizine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 62편 -->
-- [ ] ofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 1764편 -->
-- [ ] ofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 3444편 -->
-- [ ] ofloxacin — HIV Infections에 듣는다  <!-- 시험 26건 · 논문 201편 -->
-- [ ] ofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 250편 -->
-- [ ] propofol — Sedation에 듣는다  <!-- 시험 38건 · 논문 7978편 -->
-- [ ] propofol — Surgery에 듣는다  <!-- 시험 30건 · 논문 15880편 -->
-- [ ] propofol — Cancer에 듣는다  <!-- 시험 29건 · 논문 2334편 -->
-- [ ] propofol — Delirium에 듣는다  <!-- 시험 18건 · 논문 842편 -->
-- [ ] sumatriptan — Headache에 듣는다  <!-- 시험 15건 · 논문 1727편 -->
-- [ ] telmisartan — Diabetes에 듣는다  <!-- 시험 10건 · 논문 670편 -->
-- [ ] telmisartan — HIV Infection에 듣는다  <!-- 시험 9건 · 논문 22편 -->
-- [ ] telmisartan — Coronary Disease에 듣는다  <!-- 시험 8건 · 논문 88편 -->
-- [ ] telmisartan — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 155편 -->
-- [ ] torsemide — Edema에 듣는다  <!-- 시험 3건 · 논문 93편 -->
-- [ ] torsemide — Hypertension에 듣는다  <!-- 시험 3건 · 논문 131편 -->
-- [ ] valganciclovir — HIV Infections에 듣는다  <!-- 시험 56건 · 논문 162편 -->
-- [ ] valganciclovir — Leukemia에 듣는다  <!-- 시험 35건 · 논문 43편 -->
-- [ ] valganciclovir — Kidney Diseases에 듣는다  <!-- 시험 25건 · 논문 205편 -->
+- [x] atovaquone — Falciparum에 듣는다  <!-- 시험 3건 · 논문 628편 --> — 허가·표준 항말라리아 요법(2026-08-05)
+- [x] artemisinin — Plasmodium Falciparum에 듣는다  <!-- 시험 3건 · 논문 5036편 --> — 허가·표준 항말라리아 요법(2026-08-05)
+- [x] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 --> — 허가 적응증(2026-08-05)
+- [x] doxazosin — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 129편 --> — 신규 항목(doxazosin-heart-failure-harm)
+- [x] doxazosin — Substance Abuse에 듣는다  <!-- 시험 4건 · 논문 29편 --> — 신규 항목(doxazosin-substance-abuse-null)
+- [x] etoricoxib — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 160편 --> — 허가 적응증(2026-08-05)
+- [x] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 --> — 허가 적응증(2026-08-05)
+- [x] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 --> — 허가 적응증(2026-08-05)
+- [x] etoricoxib — Headache에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 신규 항목(etoricoxib-headache-pos)
+- [x] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 --> — 허가 적응증(2026-08-05)
+- [x] levocetirizine — Dermatitis에 듣는다  <!-- 시험 4건 · 논문 34편 --> — 직접 레보세티리진 사람 치료 결과 없음(2026-08-05 조회)
+- [x] levocetirizine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 신규 항목(levocetirizine-pruritus-pos)
+- [x] ofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 1764편 --> — 결핵 2차 치료 표준 요법(2026-08-05)
+- [x] ofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 3444편 --> — 허가·표준 항균 치료(2026-08-05)
+- [x] ofloxacin — HIV Infections에 듣는다  <!-- 시험 26건 · 논문 201편 --> — HIV 자체 치료 결과 없음(2026-08-05 조회)
+- [x] ofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 250편 --> — 백내장 수술 후 감염 예방 표준 범위(2026-08-05)
+- [x] propofol — Sedation에 듣는다  <!-- 시험 38건 · 논문 7978편 --> — 허가 적응증(2026-08-05)
+- [x] propofol — Surgery에 듣는다  <!-- 시험 30건 · 논문 15880편 --> — 허가·표준 마취(2026-08-05)
+- [x] propofol — Cancer에 듣는다  <!-- 시험 29건 · 논문 2334편 --> — 신규 항목(propofol-cancer-null)
+- [x] propofol — Delirium에 듣는다  <!-- 시험 18건 · 논문 842편 --> — 신규 항목(propofol-delirium-pos)
+- [x] sumatriptan — Headache에 듣는다  <!-- 시험 15건 · 논문 1727편 --> — 허가 적응증(2026-08-05)
+- [x] telmisartan — Diabetes에 듣는다  <!-- 시험 10건 · 논문 670편 --> — 신규 항목(telmisartan-diabetes-pos)
+- [x] telmisartan — HIV Infection에 듣는다  <!-- 시험 9건 · 논문 22편 --> — 신규 항목(telmisartan-hiv-infection-null)
+- [x] telmisartan — Coronary Disease에 듣는다  <!-- 시험 8건 · 논문 88편 --> — 신규 항목(telmisartan-coronary-disease-pos)
+- [x] telmisartan — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 155편 --> — 신규 항목(telmisartan-metabolic-syndrome-pos)
+- [x] torsemide — Edema에 듣는다  <!-- 시험 3건 · 논문 93편 --> — 허가 적응증(2026-08-05)
+- [x] torsemide — Hypertension에 듣는다  <!-- 시험 3건 · 논문 131편 --> — 표준 이뇨제 사용 범위(2026-08-05)
+- [x] valganciclovir — HIV Infections에 듣는다  <!-- 시험 56건 · 논문 162편 --> — HIV 감염인의 CMV 망막염 허가 적응증(2026-08-05)
+- [x] valganciclovir — Leukemia에 듣는다  <!-- 시험 35건 · 논문 43편 --> — 백혈병 자체 치료 결과 없음(2026-08-05 조회)
+- [x] valganciclovir — Kidney Diseases에 듣는다  <!-- 시험 25건 · 논문 205편 --> — 신장이식 CMV 예방·치료 표준 범위(2026-08-05)
 - [ ] valganciclovir — CMV에 듣는다  <!-- 시험 16건 · 논문 1388편 -->
 - [ ] vorinostat — Cancer에 듣는다  <!-- 시험 181건 · 논문 2402편 -->
 - [ ] vorinostat — Leukemia에 듣는다  <!-- 시험 139건 · 논문 327편 -->

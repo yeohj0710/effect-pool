@@ -1,0 +1,29 @@
+{
+  "id": "propofol-cancer-null",
+  "subj": "프로포폴",
+  "claim": "암 수술 뒤 생존을 늘리려 프로포폴을 쓴다",
+  "line": "암 절제수술 1,763명 무작위시험에서 프로포폴은 휘발성 마취보다 2년 생존을 늘리지 못했습니다",
+  "effect": "사망 26.1% vs 22.9%, HR 1.16",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1763,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "프로포폴은 마취 유도·유지에 허가됐지만 암 재발이나 생존 개선은 허가 적응증이 아닙니다.",
+  "why": "세포·동물 연구에서 제기된 항암 가능성을 수술 마취 선택과 장기 암 결과로 확인한 대규모 무작위시험입니다.",
+  "saw": "GA-CARES 다기관 무작위시험에서 암 절제수술을 받은 1,763명을 프로포폴군과 휘발성 마취군으로 나눴습니다. 2년 추적 사망률은 프로포폴 26.1%, 휘발성 마취 22.9%였고 전체 생존 차이는 유의하지 않았습니다. 앞선 1,195명 시험에서도 중앙 43개월 생존과 무재발 생존이 다르지 않았습니다.",
+  "limit": "마취제 선택 외에 암 종류와 수술 과정이 결과에 영향을 주며, 무작위시험의 결과도 수술받은 특정 암 환자군에 한정됩니다.",
+  "against": "GA-CARES 순응 분석에서는 프로포폴군 사망이 더 많았지만 무작위 배정 전체 분석에서는 통계적으로 유의하지 않아 위해로 단정할 수 없습니다.",
+  "use": "프로포폴을 암 생존 개선 목적으로 선택할 근거가 없고, 전임상 항암 신호가 임상 생존 이득으로 이어지지 않았음을 기록합니다.",
+  "refs": [
+    { "label": "GA-CARES 암 수술 마취 무작위시험", "pmid": "41363871" },
+    { "label": "암 수술 프로포폴·세보플루란 장기 생존 무작위시험", "pmid": "37474242", "nct": "NCT02660411" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=propofol · cond=Cancer → 238건 반환, 물질 대조 후 49건",
+    "pubmed": "propofol AND Cancer → 2334편",
+    "negative": "propofol AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1677편",
+    "safety": "propofol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 11540편"
+  }
+}

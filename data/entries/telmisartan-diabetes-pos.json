@@ -1,0 +1,29 @@
+{
+  "id": "telmisartan-diabetes-pos",
+  "subj": "텔미사르탄",
+  "claim": "당뇨·대사질환의 인슐린 저항성에 텔미사르탄을 쓴다",
+  "line": "당뇨·비만·대사증후군 환자 1,679명이 들어간 21개 무작위시험 메타분석에서 텔미사르탄은 다른 ARB보다 인슐린 저항성을 낮췄습니다",
+  "effect": "HOMA-IR MD −0.23, 공복혈당 MD −0.32",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1679,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "텔미사르탄은 고혈압과 심혈관 위험 감소에 허가됐지만 당뇨병 치료제는 아닙니다.",
+  "why": "안지오텐신 수용체 차단제의 인슐린 감수성 신호를 당뇨·대사질환 환자의 대사 결과로 묶어 본 메타분석입니다.",
+  "saw": "21개 무작위시험에 참여한 1,679명을 합친 메타분석에서 텔미사르탄은 다른 ARB보다 HOMA-IR, 공복혈당, 공복 인슐린을 낮추고 이완기 혈압도 줄였습니다. 수축기 혈압 차이는 유의하지 않았습니다.",
+  "limit": "대부분의 비교가 다른 ARB와의 비교이고 연구 규모와 기간이 달라 당뇨병 자체의 치료 효과나 합병증 예방으로 확대할 수 없습니다.",
+  "against": "효과는 대리 지표에 집중됐고, 개별 시험마다 환자군과 비교약이 달라 장기 혈당 조절이나 합병증 감소는 확인하지 못했습니다.",
+  "use": "텔미사르탄의 대사 효과를 당뇨병 치료 효과와 구분해, 인슐린 저항성 대리 지표에 대한 메타분석 근거로 기록합니다.",
+  "refs": [
+    { "label": "텔미사르탄 인슐린 저항성 메타분석", "pmid": "29557807" },
+    { "label": "제2형 당뇨병 환자 텔미사르탄 신장 분포·알부민뇨 연구", "pmid": "36070078" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=telmisartan · cond=Diabetes → 29건 반환, 물질 대조 후 21건",
+    "pubmed": "telmisartan AND Diabetes → 670편",
+    "negative": "telmisartan AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 584편",
+    "safety": "telmisartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 814편"
+  }
+}

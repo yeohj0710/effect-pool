@@ -1,0 +1,29 @@
+{
+  "id": "propofol-delirium-pos",
+  "subj": "프로포폴",
+  "claim": "수술 후 섬망을 줄이려 프로포폴을 쓴다",
+  "line": "암 수술을 받은 노인 1,195명 무작위시험에서 프로포폴 마취 뒤 섬망이 8.4%로 세보플루란의 12.4%보다 적었습니다",
+  "effect": "섬망 8.4% vs 12.4%, RR 0.68",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1195,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "프로포폴은 마취에 허가됐지만 수술 후 섬망 예방은 허가 적응증이 아닙니다.",
+  "why": "정맥마취제가 수술 후 뇌 기능에 미치는 차이를 암 수술 노인의 섬망 예방이라는 결과로 확인한 무작위시험입니다.",
+  "saw": "중국 14개 병원에서 암 수술을 받은 65~90세 환자 1,228명을 무작위 배정하고 1,195명을 분석했습니다. 수술 후 7일 섬망은 프로포폴군 597명 중 50명(8.4%), 세보플루란군 597명 중 74명(12.4%)이었고 상대위험도는 0.68이었습니다.",
+  "limit": "암 수술 노인이라는 특정 상황의 결과이고, 섬망 감소는 주로 수술 다음 날에 나타났으며 다른 장기 결과는 달라지지 않았습니다.",
+  "against": "허약한 노인 고관절 수술시험에서는 프로포폴군 섬망이 17.6%로 레미마졸람군 4.4%보다 많아 비교 마취제와 환자군에 따라 결과가 달랐습니다.",
+  "use": "프로포폴의 섬망 신호를 예방 효과로만 읽지 않고 수술 종류와 비교 마취제에 따른 차이까지 함께 기록합니다.",
+  "refs": [
+    { "label": "암 수술 프로포폴·세보플루란 섬망 무작위시험", "pmid": "37474241", "nct": "NCT02662257" },
+    { "label": "허약 노인 고관절 수술 레미마졸람·프로포폴 섬망 무작위시험", "pmid": "40574569" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=propofol · cond=Delirium → 150건 반환, 물질 대조 후 59건",
+    "pubmed": "propofol AND Delirium → 842편",
+    "negative": "propofol AND Delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 642편",
+    "safety": "propofol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 11540편"
+  }
+}

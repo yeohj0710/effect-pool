@@ -1,0 +1,29 @@
+{
+  "id": "telmisartan-metabolic-syndrome-pos",
+  "subj": "텔미사르탄",
+  "claim": "대사증후군의 대사 이상에 텔미사르탄을 쓴다",
+  "line": "대사증후군 환자 546명이 들어간 10개 무작위시험 메타분석에서 텔미사르탄은 혈당·인슐린·HOMA를 개선했습니다",
+  "effect": "공복혈당 SMD −0.51, HOMA SMD −0.22",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 546,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "텔미사르탄은 고혈압과 심혈관 위험 감소에 허가됐지만 대사증후군 자체의 치료는 허가 적응증이 아닙니다.",
+  "why": "혈압약 텔미사르탄의 부분적 PPAR-γ 작용을 대사증후군의 혈당·인슐린 저항성 결과로 확인한 무작위시험 메타분석입니다.",
+  "saw": "10개 무작위시험에 참여한 대사증후군 환자 546명을 합친 메타분석에서 텔미사르탄은 대조 치료보다 공복혈당, 인슐린, 당화혈색소, HOMA 지수를 낮추고 아디포넥틴을 높였습니다.",
+  "limit": "2012년까지의 10개 시험을 합친 분석이고 연구마다 비교약과 추적 기간이 달라 대사증후군의 장기 심혈관 결과를 보여주지 않습니다.",
+  "against": "효과가 대리 지표에 집중됐고, 이후 문헌도 더 큰 장기 무작위시험이 필요하다고 정리했습니다.",
+  "use": "텔미사르탄의 대사증후군 신호를 실제 당뇨병 치료나 심혈관 사건 예방과 구분해 기록합니다.",
+  "refs": [
+    { "label": "대사증후군 텔미사르탄 무작위시험 메타분석", "pmid": "23523138" },
+    { "label": "대사증후군 텔미사르탄·로사르탄 무작위시험", "pmid": "15892894" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=telmisartan · cond=Metabolic Syndrome → 11건 반환, 물질 대조 후 9건",
+    "pubmed": "telmisartan AND Metabolic Syndrome → 155편",
+    "negative": "telmisartan AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 141편",
+    "safety": "telmisartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 814편"
+  }
+}

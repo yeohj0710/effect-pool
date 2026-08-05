@@ -1,0 +1,29 @@
+{
+  "id": "telmisartan-hiv-infection-null",
+  "subj": "텔미사르탄",
+  "claim": "항레트로바이러스 치료 중 HIV 감염인의 인슐린 저항성에 텔미사르탄을 쓴다",
+  "line": "HIV 감염인 377명 무작위시험에서 텔미사르탄은 24주 인슐린 저항성 주평가변수를 개선하지 못했습니다",
+  "effect": "24주 HOMA-IR 군 간 차이 없음, 추정 효과 0.007",
+  "tier": "trial",
+  "dir": "null",
+  "n": 377,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "텔미사르탄은 고혈압과 심혈관 위험 감소에 허가됐지만 HIV 감염인의 항레트로바이러스 관련 대사 이상 치료는 허가 적응증이 아닙니다.",
+  "why": "텔미사르탄의 PPAR-γ 관련 대사 효과를 항레트로바이러스 치료 중 HIV 감염인의 인슐린 저항성 개선에 적용한 2상 무작위시험입니다.",
+  "saw": "TAILoR 다기관 무작위시험에서 HIV 감염인 377명을 무치료 대조군과 텔미사르탄군으로 나눴습니다. 24주 HOMA-IR은 80mg군과 대조군 사이에 차이가 없었고, 48주 추적에서도 HOMA-IR·지질·아디포카인 변화가 없었습니다.",
+  "limit": "공개형 시험이며 주요 분석은 항레트로바이러스 치료 중인 HIV 감염인의 대사 결과에 한정됩니다.",
+  "against": "QUICKI, hs-CRP, 간 지방량 같은 일부 2차 지표에는 작거나 유의한 변화가 있었고, 35명 공개형 파일럿에서는 피하지방이 소폭 줄었지만 내장지방은 유의하게 줄지 않았습니다.",
+  "use": "HIV 감염인의 대사 이상에 텔미사르탄을 추가하려는 시도에서 주평가변수가 실패했음을 기록합니다.",
+  "refs": [
+    { "label": "TAILoR HIV 인슐린 저항성 텔미사르탄 2상 무작위시험", "pmid": "31425580" },
+    { "label": "HIV 감염 내장지방 텔미사르탄 파일럿시험", "pmid": "23516440" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=telmisartan · cond=HIV Infection → 5건 반환, 물질 대조 후 5건",
+    "pubmed": "telmisartan AND HIV Infection → 22편",
+    "negative": "telmisartan AND HIV Infection AND (no effect OR did not OR failed to OR negative OR no significant difference) → 19편",
+    "safety": "telmisartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 814편"
+  }
+}
