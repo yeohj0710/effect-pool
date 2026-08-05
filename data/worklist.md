@@ -9084,21 +9084,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] teclistamab — AL Amyloidosis에 듣는다  <!-- 시험 7건 · 논문 17편 -->
 - [x] teclistamab — Plasma Cell Leukemia에 듣는다  <!-- 시험 4건 · 논문 10편 -->
 - [x] teclistamab — Hematologic Malignancies에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-05 조회, teclistamab AND Hematologic Malignancies)
-- [ ] mirvetuximab soravtansine — Recurrent Ovarian Cancer에 듣는다  <!-- 시험 14건 · 논문 58편 -->
-- [ ] mirvetuximab soravtansine — Folate Receptor Alpha Positive에 듣는다  <!-- 시험 3건 · 논문 65편 -->
-- [ ] capivasertib — Solid Tumour에 듣는다  <!-- 시험 14건 · 논문 27편 -->
-- [ ] capivasertib — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 11편 -->
-- [ ] elacestrant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 69편 -->
-- [ ] datopotamab deruxtecan — NSCLC에 듣는다  <!-- 시험 4건 · 논문 49편 -->
-- [ ] datopotamab deruxtecan — Advanced Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] repotrectinib — Nsclc에 듣는다  <!-- 시험 4건 · 논문 53편 -->
-- [ ] tepotinib — Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] tepotinib — MET Amplification에 듣는다  <!-- 시험 3건 · 논문 57편 -->
-- [ ] futibatinib — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 15편 -->
-- [ ] futibatinib — Gastric Cancer에 듣는다  <!-- 시험 6건 · 논문 9편 -->
-- [ ] pralsetinib — Other Cancer에 듣는다  <!-- 시험 14건 · 논문 86편 -->
-- [ ] pralsetinib — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 182편 -->
-- [ ] pralsetinib — Carcinoma에 듣는다  <!-- 시험 6건 · 논문 157편 -->
+- [x] mirvetuximab soravtansine — Recurrent Ovarian Cancer에 듣는다  <!-- 시험 14건 · 논문 58편 --> — 허가 적응증(2026-08-05)
+- [x] mirvetuximab soravtansine — Folate Receptor Alpha Positive에 듣는다  <!-- 시험 3건 · 논문 65편 --> — 허가 적응증(2026-08-05)
+- [x] capivasertib — Solid Tumour에 듣는다  <!-- 시험 14건 · 논문 27편 -->
+- [x] capivasertib — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 11편 -->
+- [x] elacestrant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 69편 --> — 근거 없음(2026-08-05 조회, elacestrant AND Neoplasms)
+- [x] datopotamab deruxtecan — NSCLC에 듣는다  <!-- 시험 4건 · 논문 49편 --> — 허가 적응증(2026-08-05)
+- [x] datopotamab deruxtecan — Advanced Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(2026-08-05 조회, datopotamab deruxtecan AND Advanced Solid Tumor)
+- [x] repotrectinib — Nsclc에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 허가 적응증(2026-08-05)
+- [x] tepotinib — Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-05 조회, tepotinib AND Solid Tumor)
+- [x] tepotinib — MET Amplification에 듣는다  <!-- 시험 3건 · 논문 57편 -->
+- [x] futibatinib — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 15편 -->
+- [x] futibatinib — Gastric Cancer에 듣는다  <!-- 시험 6건 · 논문 9편 -->
+- [x] pralsetinib — Other Cancer에 듣는다  <!-- 시험 14건 · 논문 86편 --> — 근거 없음(2026-08-05 조회, pralsetinib AND Other Cancer)
+- [x] pralsetinib — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 182편 --> — 근거 없음(2026-08-05 조회, pralsetinib AND Neoplasms)
+- [x] pralsetinib — Carcinoma에 듣는다  <!-- 시험 6건 · 논문 157편 --> — 근거 없음(2026-08-05 조회, pralsetinib AND Carcinoma)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9109,21 +9109,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] amiloride — Chronic Kidney Disease에 듣는다  <!-- 시험 6건 · 논문 98편 -->
-- [ ] amiloride — Type II Diabetes에 듣는다  <!-- 시험 4건 · 논문 29편 -->
-- [ ] amiloride — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 74편 -->
-- [ ] amiloride — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 644편 -->
-- [ ] anastrozole — Hormone Receptor Positive에 듣는다  <!-- 시험 14건 · 논문 841편 -->
-- [ ] anastrozole — Hypogonadism에 듣는다  <!-- 시험 6건 · 논문 54편 -->
-- [ ] aprepitant — Cancer에 듣는다  <!-- 시험 59건 · 논문 813편 -->
-- [ ] aprepitant — Nausea에 듣는다  <!-- 시험 35건 · 논문 840편 -->
-- [ ] bexarotene — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 64편 -->
-- [ ] bexarotene — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 77편 -->
-- [ ] bexarotene — Mycosis Fungoides에 듣는다  <!-- 시험 4건 · 논문 209편 -->
-- [ ] bexarotene — Leukemia에 듣는다  <!-- 시험 4건 · 논문 43편 -->
-- [ ] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 -->
-- [ ] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 -->
-- [ ] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 -->
+- [x] amiloride — Chronic Kidney Disease에 듣는다  <!-- 시험 6건 · 논문 98편 --> — 근거 없음(2026-08-05 조회, amiloride AND Chronic Kidney Disease)
+- [x] amiloride — Type II Diabetes에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [x] amiloride — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 74편 -->
+- [x] amiloride — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 644편 --> — 근거 없음(2026-08-05 조회, amiloride AND Cystic Fibrosis)
+- [x] anastrozole — Hormone Receptor Positive에 듣는다  <!-- 시험 14건 · 논문 841편 --> — 허가 적응증(2026-08-05)
+- [x] anastrozole — Hypogonadism에 듣는다  <!-- 시험 6건 · 논문 54편 -->
+- [x] aprepitant — Cancer에 듣는다  <!-- 시험 59건 · 논문 813편 --> — 근거 없음(2026-08-05 조회, aprepitant AND Cancer)
+- [x] aprepitant — Nausea에 듣는다  <!-- 시험 35건 · 논문 840편 --> — 허가 적응증(2026-08-05)
+- [x] bexarotene — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 64편 --> — 근거 없음(2026-08-05 조회, bexarotene AND Breast Cancer)
+- [x] bexarotene — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 77편 -->
+- [x] bexarotene — Mycosis Fungoides에 듣는다  <!-- 시험 4건 · 논문 209편 --> — 허가 적응증(2026-08-05)
+- [x] bexarotene — Leukemia에 듣는다  <!-- 시험 4건 · 논문 43편 --> — 허가 적응증(2026-08-05)
+- [x] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 --> — 허가 적응증(2026-08-05)
+- [x] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 --> — 허가 적응증(2026-08-05)
+- [x] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 --> — 허가 적응증(2026-08-05)
 - [ ] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 -->
 - [ ] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 -->
 - [ ] estradiol — Infertility에 듣는다  <!-- 시험 20건 · 논문 6136편 -->
