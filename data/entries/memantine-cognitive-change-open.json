@@ -1,0 +1,31 @@
+{
+  "id": "memantine-cognitive-change-open",
+  "subj": "메만틴",
+  "claim": "메만틴이 항암 중 인지 저하를 줄인다",
+  "line": "항암 중인 초기 유방암 환자에서 인지 기능 64%가 유지·개선됐습니다",
+  "effect": "시각 작업기억 64% 유지·개선",
+  "tier": "trial",
+  "dir": "open",
+  "n": 45,
+  "synth": "single",
+  "why": "무작위 대조군 없이 메만틴을 항암과 함께 쓴 2상 단일군 시험입니다. 저자들도 효능 확정에는 무작위시험이 필요하다고 했습니다.",
+  "saw": "초기 유방암 환자 56명이 등록했고 45명이 메만틴을 한 번 이상 투여받은 뒤 전후 인지검사를 마쳤습니다. 시각 작업기억은 64%에서 안정 또는 개선됐고, 인지 영역별 안정·개선 비율은 87~91%였습니다. 3등급 이상 이상반응 7건 중 2건은 약물 관련 가능성이 있었습니다.",
+  "limit": "대조군이 없어 연습 효과나 항암 자체의 영향을 분리할 수 없습니다. 탈락한 11명과 단일 암종·단기 전후검사도 결과를 제한합니다.",
+  "against": "무작위 대조군 연구에서 메만틴의 인지 효과가 없었다는 결과는 찾지 못했습니다. 등록된 NCT06727773의 결과 논문도 PubMed에서 찾지 못했습니다.",
+  "use": "항암 관련 인지 저하 예방 신호는 있지만 치료 효과로 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Nakamura 2023 · Cancer Medicine · 단일군 2상",
+      "doi": "10.1002/cam4.5619",
+      "pmid": "36645168",
+      "pmc": "PMC10134315"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=memantine, cond=Cognitive Change → 2건 반환, InterventionName 대조 후 1건 (NCT06727773)",
+    "pubmed": "memantine breast cancer cognitive impairment → 4건; memantine AND Cognitive Change → 411건",
+    "negative": "memantine AND Cognitive Change AND (no effect OR did not OR failed to OR negative OR no significant difference) → 348건; NCT06727773 → 0건",
+    "safety": "memantine AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1505건"
+  }
+}
