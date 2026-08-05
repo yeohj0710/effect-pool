@@ -1,0 +1,37 @@
+{
+  "id": "simvastatin-diabetes-null",
+  "subj": "심바스타틴",
+  "claim": "심바스타틴이 제2형 당뇨병의 혈당을 개선한다",
+  "line": "제2형 당뇨병에서 심바스타틴 유지군과 고강도 아토르바스타틴군의 혈당은 거의 달라지지 않았습니다",
+  "effect": "HbA1c 차이 0.2%p",
+  "tier": "trial",
+  "dir": "null",
+  "n": 125,
+  "synth": "single",
+  "why": "제2형 당뇨병 환자를 심바스타틴 유지군과 아토르바스타틴 전환군에 무작위 배정한 직접 비교시험입니다.",
+  "saw": "제2형 당뇨병 환자 125명을 무작위 배정해 심바스타틴 유지와 아토르바스타틴 전환을 비교했습니다. HbA1c 변화는 각각 -0.1%와 +0.1%였고, 공복혈당·인슐린·인슐린 저항성 지표는 차이가 없었습니다.",
+  "limit": "심바스타틴 무치료군이나 위약군이 없어 당뇨병 치료 효과를 직접 검증하지 않았습니다. 단일 연구의 전환 비교라 장기 혈당 효과로 일반화할 수 없습니다.",
+  "against": "심바스타틴을 복용한 고위험 당뇨병 환자 5,518명에서 페노피브레이트 추가는 주요 심혈관 사건을 줄이지 못했습니다(HR 0.92).",
+  "use": "심바스타틴은 당뇨병 치료제가 아니라 지질·심혈관 위험 관리 근거로 해석해야 합니다.",
+  "refs": [
+    {
+      "label": "Thongtang 2020 · Vascular Health and Risk Management · 당뇨병 스타틴 전환 무작위시험",
+      "doi": "10.2147/VHRM.S270751",
+      "pmid": "33061398",
+      "pmc": "PMC7518786"
+    },
+    {
+      "label": "ACCORD 2010 · New England Journal of Medicine · 심바스타틴 병용 음성 결과",
+      "doi": "10.1056/NEJMoa1001282",
+      "pmid": "20228404",
+      "pmc": "PMC2879499"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=simvastatin, cond=Diabetes → 70건 반환, InterventionName 대조 후 59건",
+    "pubmed": "simvastatin[Title/Abstract] AND type 2 diabetes AND randomized → 179건; simvastatin AND diabetes AND HbA1c → 93건",
+    "negative": "simvastatin AND diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1126건",
+    "safety": "simvastatin AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 3709건"
+  }
+}
