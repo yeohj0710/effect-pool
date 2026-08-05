@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 628,
   "worklist": {
-    "checked": 5328,
-    "unchecked": 54,
+    "checked": 5338,
+    "unchecked": 44,
     "no_evidence_pending": 0,
     "next_batch": [
-      "verapamil-ischemic-stroke",
-      "verapamil-drug-dependence",
-      "amantadine-brain-injury",
-      "amantadine-cocaine-related-disorders",
-      "amantadine-covid-19",
-      "amantadine-hepatitis-c",
-      "acetazolamide-heart-failure",
-      "acetazolamide-hypoxia",
-      "acetazolamide-mountain-sickness",
-      "acetazolamide-hypertension"
+      "dapsone-malaria",
+      "dapsone-hiv-infection",
+      "dapsone-pneumocystis-pneumonia",
+      "dapsone-leprosy",
+      "methotrexate-lymphoma",
+      "methotrexate-arthritis",
+      "methotrexate-myelodysplastic-syndrome",
+      "methotrexate-cancer",
+      "hydroxyurea-cancer",
+      "hydroxyurea-leukemia"
     ]
   },
   "verification": {
@@ -39,17 +39,17 @@
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
-    "last_batch": [
-    "sirolimus-stenosis-artery (existing)",
-    "sirolimus-kidney-cancer (existing)",
-    "rapamycin-urothelial-carcinoma (existing)",
-    "rapamycin-aging (existing)",
-    "rapamycin-heart-diseases (existing)",
-    "rapamycin-tuberous-sclerosis (existing)",
-    "montelukast-rhinitis (approved)",
-    "montelukast-bronchiolitis (existing)",
-    "montelukast-multiple-myeloma (existing)",
-    "montelukast-lung-diseases (existing)"
+  "last_batch": [
+    "verapamil-ischemic-stroke (existing)",
+    "verapamil-drug-dependence (existing)",
+    "amantadine-brain-injury (existing)",
+    "amantadine-cocaine-related-disorders (existing)",
+    "amantadine-covid-19 (existing)",
+    "amantadine-hepatitis-c (existing)",
+    "acetazolamide-heart-failure (existing)",
+    "acetazolamide-hypoxia (existing)",
+    "acetazolamide-mountain-sickness (approved)",
+    "acetazolamide-hypertension (existing)"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -77,8 +77,8 @@
     "added_candidates": 284
   },
   "resume": {
-    "last_committed_batch": "sirolimus, rapamycin, montelukast",
-    "current_batch": "atorvastatin, losartan, verapamil",
+    "last_committed_batch": "atorvastatin, losartan, verapamil",
+    "current_batch": "verapamil, amantadine, acetazolamide",
     "next_action": "build, commit, push, then process next batch"
   }
 }
