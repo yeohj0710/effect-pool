@@ -1,0 +1,29 @@
+{
+  "id": "methimazole-microbiota-pos",
+  "subj": "메티마졸",
+  "claim": "메티마졸 치료가 그레이브스병 환자의 장내 미생물 조성을 바꾼다",
+  "line": "그레이브스병 환자 28명 전후 비교에서 메티마졸 치료 뒤 장내 미생물 조성이 달라졌습니다.",
+  "effect": "치료 전후 장내균 조성 변화",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 39,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "메티마졸 허가는 갑상선기능항진증이고 장내 미생물 조절은 허가 적응증이 아니다.",
+  "why": "그레이브스병 환자의 메티마졸 치료 전후와 건강한 대조군의 장내 미생물을 비교한 관찰연구입니다.",
+  "saw": "새로 진단된 환자 18명, 메티마졸 치료 뒤 갑상선 기능이 회복된 환자 10명, 건강한 자원자 11명을 분석했습니다. 치료 뒤 Prevotella·Collinsella 등 균속 분포와 장내 미생물 다양성이 달라졌고, 일부 균속은 갑상선 자가항체와 상관관계를 보였습니다.",
+  "limit": "대조군이 있는 전후 관찰연구라 메티마졸 자체 효과와 갑상선 기능 회복·식습관 변화를 분리하지 못합니다. 장내 미생물 변화가 임상 재발을 줄이는지는 확인하지 않았습니다.",
+  "against": "메티마졸 단독군은 갑상선 기능 지표를 일부 개선했지만 가장 중요한 재발 관련 TRAb를 유의하게 바꾸지 못했다는 별도 소규모 연구가 있습니다.",
+  "use": "항갑상선 치료와 장내 미생물 변화의 연관을 보여주는 초기 근거로 사용하며 장내 미생물 치료 효과로 확대하지 않습니다.",
+  "refs": [
+    { "label": "그레이브스병 메티마졸 치료 전후 장내 미생물 관찰연구", "pmid": "35402292" },
+    { "label": "메티마졸·프로바이오틱스 그레이브스병 소규모 임상시험", "pmid": "34493790" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=methimazole · cond=Microbiota → 3건 반환, 물질 대조 후 3건",
+    "pubmed": "methimazole AND Microbiota → 13편",
+    "negative": "methimazole AND Microbiota AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9편",
+    "safety": "methimazole AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2354편"
+  }
+}

@@ -9391,19 +9391,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pazopanib — Leiomyosarcoma에 듣는다 — 연조직육종 허가 범위와 중복(2026-08-05)  <!-- 시험 23건 · 논문 112편 -->
 - [x] pitolisant — Narcolepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 154편 -->
 - [x] pitolisant — Prader-Willi Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] remifentanil — Pain에 듣는다  <!-- 시험 70건 · 논문 3158편 -->
-- [ ] remifentanil — Surgery에 듣는다  <!-- 시험 27건 · 논문 4974편 -->
-- [ ] remifentanil — Postoperative에 듣는다  <!-- 시험 24건 · 논문 2805편 -->
-- [ ] remifentanil — Sedation에 듣는다  <!-- 시험 20건 · 논문 1309편 -->
-- [ ] romiplostim — Aplastic Anemia에 듣는다  <!-- 시험 18건 · 논문 78편 -->
-- [ ] romiplostim — Thrombocytopenic Purpura에 듣는다  <!-- 시험 15건 · 논문 514편 -->
-- [ ] romiplostim — Cancer에 듣는다  <!-- 시험 14건 · 논문 243편 -->
-- [ ] romiplostim — Myelodysplastic Syndromes에 듣는다  <!-- 시험 8건 · 논문 66편 -->
-- [ ] selpercatinib — Cancer에 듣는다  <!-- 시험 26건 · 논문 542편 -->
-- [ ] selpercatinib — NSCLC Stage IV에 듣는다  <!-- 시험 9건 · 논문 9편 -->
-- [ ] selpercatinib — Neoplasm에 듣는다  <!-- 시험 9건 · 논문 342편 -->
-- [ ] tucatinib — Metastatic에 듣는다  <!-- 시험 15건 · 논문 184편 -->
-- [ ] tucatinib — Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 19편 -->
+- [x] remifentanil — Pain에 듣는다  <!-- 시험 70건 · 논문 3158편 -->
+- [x] remifentanil — Surgery에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 27건 · 논문 4974편 -->
+- [x] remifentanil — Postoperative에 듣는다 — 기존 remifentanil-pain-null로 처리(2026-08-05)  <!-- 시험 24건 · 논문 2805편 -->
+- [x] remifentanil — Sedation에 듣는다  <!-- 시험 20건 · 논문 1309편 -->
+- [x] romiplostim — Aplastic Anemia에 듣는다  <!-- 시험 18건 · 논문 78편 -->
+- [x] romiplostim — Thrombocytopenic Purpura에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 514편 -->
+- [x] romiplostim — Cancer에 듣는다  <!-- 시험 14건 · 논문 243편 -->
+- [x] romiplostim — Myelodysplastic Syndromes에 듣는다  <!-- 시험 8건 · 논문 66편 -->
+- [x] selpercatinib — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 26건 · 논문 542편 -->
+- [x] selpercatinib — NSCLC Stage IV에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 9편 -->
+- [x] selpercatinib — Neoplasm에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 342편 -->
+- [x] tucatinib — Metastatic에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 184편 -->
+- [x] tucatinib — Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 19편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9414,23 +9414,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sulindac — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 41편 -->
-- [ ] sulindac — Adenomatous Polyposis Coli에 듣는다  <!-- 시험 4건 · 논문 231편 -->
-- [ ] sulindac — Benign Neoplasms에 듣는다  <!-- 시험 3건 · 논문 906편 -->
-- [ ] pyrimethamine — HIV에 듣는다  <!-- 시험 24건 · 논문 426편 -->
-- [ ] pyrimethamine — Pregnancy에 듣는다  <!-- 시험 14건 · 논문 1475편 -->
-- [ ] pyrimethamine — Anemia에 듣는다  <!-- 시험 13건 · 논문 533편 -->
-- [ ] pyrimethamine — Toxoplasmosis에 듣는다  <!-- 시험 10건 · 논문 1479편 -->
-- [ ] pentamidine — HIV Infections에 듣는다  <!-- 시험 21건 · 논문 908편 -->
-- [ ] pentamidine — Lymphoma에 듣는다  <!-- 시험 3건 · 논문 57편 -->
-- [ ] indapamide — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 151편 -->
-- [ ] methimazole — Hyperthyroidism에 듣는다  <!-- 시험 3건 · 논문 3048편 -->
-- [ ] methimazole — Microbiota에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] beclomethasone — Asthma에 듣는다  <!-- 시험 58건 · 논문 2630편 -->
-- [ ] beclomethasone — Allergic Rhinitis에 듣는다  <!-- 시험 14건 · 논문 428편 -->
-- [ ] beclomethasone — Leukemia에 듣는다  <!-- 시험 11건 · 논문 11편 -->
-- [ ] tiotropium — COPD에 듣는다  <!-- 시험 41건 · 논문 1639편 -->
-- [ ] tiotropium — Asthma에 듣는다  <!-- 시험 41건 · 논문 553편 -->
+- [x] sulindac — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 41편 -->
+- [x] sulindac — Adenomatous Polyposis Coli에 듣는다  <!-- 시험 4건 · 논문 231편 -->
+- [x] sulindac — Benign Neoplasms에 듣는다 — 기존 sulindac-adenomatous-polyposis-coli-pos로 처리(2026-08-05)  <!-- 시험 3건 · 논문 906편 -->
+- [x] pyrimethamine — HIV에 듣는다 — 톡소플라스마·말라리아의 HIV 동반 치료 근거로 처리하지 않음(2026-08-05)  <!-- 시험 24건 · 논문 426편 -->
+- [x] pyrimethamine — Pregnancy에 듣는다 — 말라리아 예방·선천성 톡소플라스마 표준 조합(2026-08-05)  <!-- 시험 14건 · 논문 1475편 -->
+- [x] pyrimethamine — Anemia에 듣는다 — 피리메타민 기반 치료의 혈액억제 안전성 검색, 별도 효능 항목 없음(2026-08-05)  <!-- 시험 13건 · 논문 533편 -->
+- [x] pyrimethamine — Toxoplasmosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 1479편 -->
+- [x] pentamidine — HIV Infections에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 21건 · 논문 908편 -->
+- [x] pentamidine — Lymphoma에 듣는다 — 결과 논문 없음, NCT03730363은 1명 완료(2026-08-05)  <!-- 시험 3건 · 논문 57편 -->
+- [x] indapamide — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 151편 -->
+- [x] methimazole — Hyperthyroidism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 3048편 -->
+- [x] methimazole — Microbiota에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] beclomethasone — Asthma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 58건 · 논문 2630편 -->
+- [x] beclomethasone — Allergic Rhinitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 428편 -->
+- [x] beclomethasone — Leukemia에 듣는다 — 백혈병 환자에서 GVHD를 치료한 연구이며 백혈병 치료 근거가 아님(2026-08-05)  <!-- 시험 11건 · 논문 11편 -->
+- [x] tiotropium — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 1639편 -->
+- [x] tiotropium — Asthma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 553편 -->
 - [ ] tiotropium — Bronchitis에 듣는다  <!-- 시험 5건 · 논문 39편 -->
 - [ ] tiotropium — Emphysema에 듣는다  <!-- 시험 3건 · 논문 36편 -->
 - [ ] salmeterol — Lung Diseases, Obstructive에 듣는다  <!-- 시험 114건 · 논문 2326편 -->
