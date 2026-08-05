@@ -7184,11 +7184,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pantoprazole — Helicobacter Infection에 듣는다  <!-- 시험 13건 · 논문 407편 -->
 - [x] pantoprazole — Coronary Thrombosis에 듣는다  <!-- 시험 10건 · 논문 9편 -->
 - [x] pantoprazole — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 115편 -->
-- [ ] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 -->
-- [ ] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 -->
-- [ ] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->
-- [ ] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 -->
-- [ ] rifampin — HIV에 듣는다  <!-- 시험 25건 · 논문 1834편 -->
-- [ ] rifampin — Healthy Adults에 듣는다  <!-- 시험 17건 · 논문 667편 -->
-- [ ] rifampin — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 93편 -->
-- [ ] rifampin — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 34편 -->
+- [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 --> — 이미 수록됨(2026-08-05)
+- [x] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 --> — 허가 적응증(2026-08-05)
+- [x] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->
+- [x] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 --> — 허가 적응증(2026-08-05)
+- [x] rifampin — HIV에 듣는다  <!-- 시험 25건 · 논문 1834편 --> — 이미 수록됨(2026-08-05)
+- [x] rifampin — Healthy Adults에 듣는다  <!-- 시험 17건 · 논문 667편 --> — 이미 수록됨(2026-08-05)
+- [x] rifampin — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 93편 --> — 이미 수록됨(2026-08-05)
+- [x] rifampin — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 34편 --> — 이미 수록됨(2026-08-05)

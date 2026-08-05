@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 488,
+    "entries": 489,
   "worklist": {
-    "checked": 6549,
-    "unchecked": 8,
+    "checked": 6557,
+    "unchecked": 0,
     "no_evidence_pending": 0,
     "next_batch": []
   },
@@ -13,7 +13,7 @@
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 441,
+      "trial": 442,
       "obs": 37,
       "animal": 1,
       "lab": 2,
@@ -28,18 +28,16 @@
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
-  "last_batch": [
-    "metoprolol-myocardial-ischemia (already represented)",
-    "metoprolol-cardiomyopathy (already represented)",
-    "amlodipine-diabetes (already represented)",
-    "amlodipine-blood-pressure (approved)",
-    "amlodipine-coronary-disease (approved)",
-    "amlodipine-hyperlipidemia (already represented)",
-    "pantoprazole-peptic-ulcer (created)",
-    "pantoprazole-helicobacter-infection (created)",
-    "pantoprazole-coronary-thrombosis (created)",
-    "pantoprazole-dyspepsia (created)"
-  ],
+    "last_batch": [
+      "omeprazole-hiv-1-infection (already represented)",
+      "omeprazole-ulcer (approved)",
+      "omeprazole-gastric-acid (created)",
+      "omeprazole-gerd (approved)",
+      "rifampin-hiv (already represented)",
+      "rifampin-healthy-adults (already represented)",
+      "rifampin-lymphoma (already represented)",
+      "rifampin-solid-tumor (already represented)"
+    ],
   "expansion": {
     "date": "2026-08-05",
     "mode": "builtin+direct",
@@ -68,8 +66,8 @@
     "latest_candidates": 208
   },
   "resume": {
-    "last_committed_batch": "carvedilol furosemide batch",
-    "current_batch": "metoprolol amlodipine pantoprazole batch",
-    "next_action": "build, commit, push; then process remaining 8 worklist lines"
+    "last_committed_batch": "metoprolol amlodipine pantoprazole batch",
+    "current_batch": "omeprazole rifampin batch",
+    "next_action": "build, commit, push; then expand worklist with new substances"
   }
 }
