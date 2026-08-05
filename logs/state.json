@@ -3,8 +3,8 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 479,
   "worklist": {
-    "checked": 6277,
-    "unchecked": 0,
+    "checked": 6287,
+    "unchecked": 198,
     "no_evidence_pending": 0,
     "next_batch": []
   },
@@ -28,10 +28,17 @@
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
-    "last_batch": [
-    "rifaximin-hepatic-cirrhosis (results pending)",
-    "rifaximin-small-bowel-disease (results pending)",
-    "rifaximin-diarrhea (approved)"
+  "last_batch": [
+    "metformin-lung-cancer (already represented)",
+    "metformin-polycystic-ovary (already represented)",
+    "metformin-obesity (already represented)",
+    "metformin-insulin-resistance (already represented)",
+    "aspirin-stroke (already represented)",
+    "aspirin-colon-cancer (already represented)",
+    "aspirin-brain-infarction (already represented)",
+    "aspirin-cardiovascular-events (already represented)",
+    "propranolol-migraine (already represented)",
+    "propranolol-stress-reaction (already represented)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -56,11 +63,13 @@
     ],
     "builtin_added_candidates": 460,
     "direct_added_candidates": 80,
-    "added_candidates": 540
+    "added_candidates": 540,
+    "latest_run": "2026-08-05",
+    "latest_candidates": 208
   },
   "resume": {
-    "last_committed_batch": "rifaximin",
-    "current_batch": "rifaximin",
-    "next_action": "worklist complete; audit build and deploy threshold"
+    "last_committed_batch": "unknown sample-size fill",
+    "current_batch": "metformin aspirin propranolol duplicates",
+    "next_action": "build, commit, push, then process next 10 unchecked candidates"
   }
 }
