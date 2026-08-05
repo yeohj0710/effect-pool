@@ -6982,16 +6982,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] duloxetine — Osteoarthritis에 듣는다  <!-- 시험 28건 · 논문 170편 --> — 이미 수록됨(2026-08-05)
 - [x] duloxetine — Fibromyalgia에 듣는다  <!-- 시험 23건 · 논문 382편 --> — 허가 적응증(2026-08-05)
 - [x] dextromethorphan — Pain에 듣는다  <!-- 시험 9건 · 논문 314편 --> — 이미 수록됨(2026-08-05)
-- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 -->
-- [ ] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 -->
-- [ ] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 -->
-- [ ] clonidine — Hypertension에 듣는다  <!-- 시험 13건 · 논문 2809편 -->
-- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 24편 -->
-- [ ] clonidine — Anesthesia에 듣는다  <!-- 시험 12건 · 논문 2274편 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 시험 16건 · 논문 1005편 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 1481편 -->
-- [ ] melatonin — Pain에 듣는다  <!-- 시험 32건 · 논문 1022편 -->
-- [ ] melatonin — Delirium에 듣는다  <!-- 시험 27건 · 논문 372편 -->
+- [x] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 --> — 이미 수록됨(2026-08-05)
+- [x] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 --> — 이미 수록됨(2026-08-05)
+- [x] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 --> — 이미 수록됨(2026-08-05)
+- [x] clonidine — Hypertension에 듣는다  <!-- 시험 13건 · 논문 2809편 --> — 허가 적응증(2026-08-05)
+- [x] clonidine — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 24편 --> — 이미 수록됨(2026-08-05)
+- [x] clonidine — Anesthesia에 듣는다  <!-- 시험 12건 · 논문 2274편 --> — 이미 수록됨(2026-08-05)
+- [x] finasteride — Alopecia에 듣는다  <!-- 시험 16건 · 논문 1005편 --> — 이미 수록됨(2026-08-05)
+- [x] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 1481편 --> — 허가 적응증(2026-08-05)
+- [x] melatonin — Pain에 듣는다  <!-- 시험 32건 · 논문 1022편 --> — 이미 수록됨(2026-08-05)
+- [x] melatonin — Delirium에 듣는다  <!-- 시험 27건 · 논문 372편 --> — 이미 수록됨(2026-08-05)
 - [ ] melatonin — Cancer에 듣는다  <!-- 시험 27건 · 논문 3920편 -->
 - [ ] melatonin — Anxiety에 듣는다  <!-- 시험 24건 · 논문 971편 -->
 - [ ] modafinil — Fatigue에 듣는다  <!-- 시험 29건 · 논문 395편 -->
