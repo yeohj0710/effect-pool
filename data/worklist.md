@@ -8974,15 +8974,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] zonisamide — Partial Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 592편 -->
 - [x] zonisamide — Migraine에 듣는다  <!-- 시험 5건 · 논문 58편 -->
 - [x] zonisamide — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] lacosamide — Partial Epilepsies에 듣는다  <!-- 시험 14건 · 논문 211편 -->
-- [ ] lacosamide — Neuropathy에 듣는다  <!-- 시험 9건 · 논문 44편 -->
-- [ ] lacosamide — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 54편 -->
-- [ ] lacosamide — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 35편 -->
-- [ ] perampanel — Seizures에 듣는다  <!-- 시험 23건 · 논문 857편 -->
-- [ ] perampanel — Parkinson's Disease에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] perampanel — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 85편 -->
-- [ ] brivaracetam — Partial Seizure에 듣는다  <!-- 시험 4건 · 논문 363편 -->
-- [ ] brivaracetam — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [x] lacosamide — Partial Epilepsies에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 211편 -->
+- [x] lacosamide — Neuropathy에 듣는다  <!-- 시험 9건 · 논문 44편 -->
+- [x] lacosamide — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 54편 -->
+- [x] lacosamide — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [x] perampanel — Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 857편 -->
+- [x] perampanel — Parkinson's Disease에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [x] perampanel — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 85편 -->
+- [x] brivaracetam — Partial Seizure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 363편 -->
+- [x] brivaracetam — Healthy Participants에 듣는다 — 근거 없음(2026-08-05 조회, "brivaracetam AND Healthy Participants")  <!-- 시험 3건 · 논문 18편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8993,27 +8993,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] pembrolizumab — Penile Carcinoma에 듣는다  <!-- 시험 231건 · 논문 15편 -->
-- [ ] pembrolizumab — Melanoma에 듣는다  <!-- 시험 148건 · 논문 2604편 -->
-- [ ] pembrolizumab — Tumor에 듣는다  <!-- 시험 124건 · 논문 11465편 -->
-- [ ] pembrolizumab — Lymphoma에 듣는다  <!-- 시험 98건 · 논문 659편 -->
-- [ ] nivolumab — Cancer에 듣는다  <!-- 시험 268건 · 논문 12664편 -->
-- [ ] nivolumab — Melanoma에 듣는다  <!-- 시험 208건 · 논문 3486편 -->
-- [ ] nivolumab — Stage IV에 듣는다  <!-- 시험 166건 · 논문 689편 -->
-- [ ] nivolumab — Adenocarcinoma에 듣는다  <!-- 시험 127건 · 논문 2496편 -->
-- [ ] atezolizumab — Carcinoma에 듣는다  <!-- 시험 447건 · 논문 3338편 -->
-- [ ] atezolizumab — Rare Tumor에 듣는다  <!-- 시험 96건 · 논문 262편 -->
-- [ ] atezolizumab — Melanoma에 듣는다  <!-- 시험 46건 · 논문 276편 -->
-- [ ] atezolizumab — Adenocarcinoma Lung에 듣는다  <!-- 시험 40건 · 논문 150편 -->
-- [ ] durvalumab — Cancer에 듣는다  <!-- 시험 362건 · 논문 2926편 -->
-- [ ] durvalumab — NSCLC Stage II에 듣는다  <!-- 시험 221건 · 논문 121편 -->
-- [ ] durvalumab — Breast Neoplasm에 듣는다  <!-- 시험 63건 · 논문 104편 -->
-- [ ] durvalumab — Adenocarcinoma에 듣는다  <!-- 시험 48건 · 논문 428편 -->
-- [ ] ipilimumab — Renal Cancer에 듣는다  <!-- 시험 303건 · 논문 998편 -->
-- [ ] ipilimumab — Cancer에 듣는다  <!-- 시험 229건 · 논문 6616편 -->
-- [ ] ipilimumab — NSCLC Stage IV에 듣는다  <!-- 시험 156건 · 논문 66편 -->
-- [ ] ipilimumab — Tumor에 듣는다  <!-- 시험 116건 · 논문 5922편 -->
-- [ ] osimertinib — EGFR에 듣는다  <!-- 시험 50건 · 논문 3914편 -->
+- [x] pembrolizumab — Penile Carcinoma에 듣는다  <!-- 시험 231건 · 논문 15편 -->
+- [x] pembrolizumab — Melanoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 148건 · 논문 2604편 -->
+- [x] pembrolizumab — Tumor에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 124건 · 논문 11465편 -->
+- [x] pembrolizumab — Lymphoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 98건 · 논문 659편 -->
+- [x] nivolumab — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 268건 · 논문 12664편 -->
+- [x] nivolumab — Melanoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 208건 · 논문 3486편 -->
+- [x] nivolumab — Stage IV에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 166건 · 논문 689편 -->
+- [x] nivolumab — Adenocarcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 127건 · 논문 2496편 -->
+- [x] atezolizumab — Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 447건 · 논문 3338편 -->
+- [x] atezolizumab — Rare Tumor에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 96건 · 논문 262편 -->
+- [x] atezolizumab — Melanoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 46건 · 논문 276편 -->
+- [x] atezolizumab — Adenocarcinoma Lung에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 40건 · 논문 150편 -->
+- [x] durvalumab — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 362건 · 논문 2926편 -->
+- [x] durvalumab — NSCLC Stage II에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 221건 · 논문 121편 -->
+- [x] durvalumab — Breast Neoplasm에 듣는다  <!-- 시험 63건 · 논문 104편 -->
+- [x] durvalumab — Adenocarcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 48건 · 논문 428편 -->
+- [x] ipilimumab — Renal Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 303건 · 논문 998편 -->
+- [x] ipilimumab — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 229건 · 논문 6616편 -->
+- [x] ipilimumab — NSCLC Stage IV에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 156건 · 논문 66편 -->
+- [x] ipilimumab — Tumor에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 116건 · 논문 5922편 -->
+- [x] osimertinib — EGFR에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 3914편 -->
 - [ ] osimertinib — Carcinoma에 듣는다  <!-- 시험 47건 · 논문 2505편 -->
 - [ ] osimertinib — NSCLC에 듣는다  <!-- 시험 37건 · 논문 3277편 -->
 - [ ] osimertinib — Solid Tumor에 듣는다  <!-- 시험 25건 · 논문 169편 -->

@@ -1,0 +1,30 @@
+{
+  "id": "durvalumab-breast-neoplasm-pos",
+  "subj": "더발루맙",
+  "claim": "더발루맙을 백금계 화학요법과 병용하면 고위험 삼중음성 유방암의 병리학적 반응과 장기 결과가 좋아질 수 있다",
+  "line": "전체 pCR 차이는 없었지만 치료 전 투여군과 장기 생존 신호가 보였다.",
+  "effect": "3년 iDFS HR 0.48",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 174,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "더발루맙은 폐암·담도암·간세포암 등에는 허가되지만 유방암에는 허가 적응증이 없다.",
+  "why": "PD-L1 차단으로 삼중음성 유방암의 면역억제를 낮추고 백금계 화학요법의 종양세포 손상과 면역 반응을 강화하려는 접근이다.",
+  "saw": "GeparNuevo 무작위 2상 시험 174명에서 전체 병리학적 완전관해는 더발루맙군 53.4% 대 위약군 44.2%로 유의하지 않았다(P=.224). 치료 전 단기 투여군에서는 61.0% 대 41.4%로 유의한 차이가 났다(P=.035). 3년 분석에서 iDFS 85.6% 대 77.2%(HR 0.48), DDFS 91.7% 대 78.4%(HR 0.31), OS 95.2% 대 83.5%(HR 0.24)였다.",
+  "limit": "전체 1차 평가변수가 유의하지 않았고 표본이 작으며, 후속 분석의 장기 생존 신호는 탐색적이다. 면역 관련 3등급 이상 이상반응도 더 흔했다.",
+  "against": "전체 병리학적 완전관해의 군 간 차이는 유의하지 않았다(P=.224).",
+  "use": "유방암 표준 선행요법을 대체하지 말고, 더발루맙 병용은 임상시험과 다학제 평가 안에서만 검토한다.",
+  "refs": [
+    { "label": "GeparNuevo 더발루맙 삼중음성 유방암 3년 결과", "pmid": "35961599" },
+    { "label": "GeparNuevo 더발루맙 선행요법 무작위시험", "pmid": "31095287" },
+    { "label": "I-SPY2 더발루맙 병용 삼중음성 유방암 시험", "pmid": "34143979" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=durvalumab, cond=Breast Neoplasm · 총 72건, 더발루맙 직접 확인 57건",
+    "pubmed": "durvalumab AND Breast Neoplasm · 104편",
+    "negative": "durvalumab AND Breast Neoplasm AND (no effect OR did not OR failed to OR negative OR no significant difference) · 90편",
+    "safety": "durvalumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1,710편"
+  }
+}

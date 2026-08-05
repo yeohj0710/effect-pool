@@ -1,0 +1,30 @@
+{
+  "id": "pembrolizumab-penile-carcinoma-pos",
+  "subj": "펨브롤리주맙",
+  "claim": "펨브롤리주맙을 백금 화학요법과 병용하면 진행성 음경 편평세포암에 반응이 나타날 수 있다",
+  "line": "진행성 음경암 단일군 병용시험에서 평가 33명 중 13명이 반응했다.",
+  "effect": "ORR 39.4%; PFS 5.4개월",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 37,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "펨브롤리주맙은 여러 암종과 종양 바이오마커 적응증에는 허가되지만 음경암에는 별도 허가 적응증이 없다.",
+  "why": "PD-1 차단으로 음경 편평세포암의 면역 회피를 낮추고 백금 화학요법의 종양 항원 방출과 병용 효과를 노린다.",
+  "saw": "HERCULES 단일군 시험(NCT04224740)에 37명이 등록했고 33명이 유효성 평가를 받았다. 객관적 반응률은 39.4%, 무진행생존기간 중앙값은 5.4개월, 전체생존기간 중앙값은 9.6개월이었다. 모든 등급 이상반응은 91.9%, 3~4등급은 51.4%였다.",
+  "limit": "대조군이 없는 소규모 단일군 병용시험이며 펨브롤리주맙 단독 효과와 백금 화학요법의 기여를 분리할 수 없다.",
+  "against": "3명 증례군에서는 1명만 MSI-H 종양에서 지속 반응을 보였고 2명은 진행했다.",
+  "use": "진행성 음경암에서 표준 항암요법을 대체하지 말고, 바이오마커와 환자 상태를 확인한 임상시험 또는 전문 다학제 판단에서만 고려한다.",
+  "refs": [
+    { "label": "HERCULES 진행성 음경암 펨브롤리주맙 병용시험", "pmid": "40965911", "nct": "NCT04224740" },
+    { "label": "음경암 펨브롤리주맙 증례군", "pmid": "33770291" },
+    { "label": "음경암 펨브롤리주맙·방사선 병용 증례", "pmid": "36551787" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pembrolizumab, cond=Penile Carcinoma · 총 6건, 펨브롤리주맙 직접 확인 6건",
+    "pubmed": "pembrolizumab AND Penile Carcinoma · 15편",
+    "negative": "pembrolizumab AND Penile Carcinoma AND (no effect OR did not OR failed to OR negative OR no significant difference) · 6편",
+    "safety": "pembrolizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8,481편"
+  }
+}
