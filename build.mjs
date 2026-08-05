@@ -1,7 +1,7 @@
 // data/meta.json + data/entries/*.json + src/template.html -> site/index.html
 // site/ 는 생성물이다. 직접 고치지 마라.
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -234,16 +234,33 @@ const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
 // 473건이면 상세까지 인라인할 때 950KB 인데, 그중 대부분은 아무도 안 펼치는 글이다.
 const LIST = ["id", "subj", "claim", "line", "effect", "tier", "dir", "n", "synth", "score"];
 const DETAIL = ["why", "saw", "limit", "against", "use", "refs", "queried"];
+const SHARD = 48;   // 상세 묶음 하나에 담을 항목 수. 화면 하나를 덮고도 남는 크기다
 
 const list = entries.map((e) => Object.fromEntries(LIST.filter((k) => e[k] != null).map((k) => [k, e[k]])));
-const details = Object.fromEntries(entries.map((e) =>
-  [e.id, Object.fromEntries(DETAIL.map((k) => [k, e[k]]))]));
 
 const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
+// 근거 자료 수는 여기서 세서 넘긴다. refs 는 상세로 뺐기 때문에 화면에서는 셀 수 없다.
+const refTotal = entries.reduce((a, e) => a + e.refs.length, 0);
+
 writeFileSync(join(outDir, "index.html"),
-  tpl.replace("__ENTRIES__", JSON.stringify({ updated, tiers: meta.tiers, entries: list })), "utf8");
-writeFileSync(join(outDir, "details.json"), JSON.stringify(details), "utf8");
+  tpl.replace("__ENTRIES__",
+    JSON.stringify({ updated, tiers: meta.tiers, shard: SHARD, refs: refTotal, entries: list })), "utf8");
+
+// 상세는 순위 순으로 잘라서 묶음 파일로 낸다.
+// 통짜로 내면 항목 하나 펼치려고 640건 상세를 다 받는다 — 1.1MB 다.
+// 사람은 위에서부터 읽으니 앞 묶음 하나면 첫 화면이 다 덮인다.
+const detailDir = join(outDir, "d");
+mkdirSync(detailDir, { recursive: true });
+for (const f of readdirSync(detailDir)) rmSync(join(detailDir, f));   // 항목이 줄면 꼬리가 남는다
+rmSync(join(outDir, "details.json"), { force: true });                 // 통짜 시절 파일
+
+const shards = Math.ceil(entries.length / SHARD);
+for (let i = 0; i < shards; i++) {
+  writeFileSync(join(detailDir, `${i}.json`), JSON.stringify(Object.fromEntries(
+    entries.slice(i * SHARD, (i + 1) * SHARD)
+      .map((e) => [e.id, Object.fromEntries(DETAIL.map((k) => [k, e[k]]))]))), "utf8");
+}
 
 // 로고·파비콘 같은 정적 파일을 그대로 옮긴다
 const assetDir = join(root, "src", "assets");

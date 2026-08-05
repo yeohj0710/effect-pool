@@ -250,11 +250,12 @@
   .size.thin{ color:var(--clay); }
   .size.thin b{ color:var(--clay); }
 
+  /* 스스로 이어 붙으니 대개 스쳐 지나간다. 눈에 튀지 않게 둔다. */
   .more-btn{
     width:100%; padding:.85rem 1.75rem; margin:0;
     background:none; border:none; border-top:1px solid var(--line);
-    font:inherit; font-size:13px; color:var(--accent); cursor:pointer;
-    text-align:left;
+    font:inherit; font-size:12.5px; color:var(--ink-3); cursor:pointer;
+    text-align:left; letter-spacing:.01em;
   }
   .more-btn:hover{ background:var(--accent-soft); }
   .more-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:-2px; }
@@ -409,7 +410,12 @@
     .view{ padding:.34rem .58rem; font-size:11.5px; }
     .hits{ display:none; }
     .howto{ display:none; }              /* 읽는 법은 좁은 화면에서 접는다 */
-    .stats{ gap:1.1rem 1.75rem; padding:1.1rem 1.25rem; }
+    /* 좁은 화면에서 넷을 흘려두면 3+1 로 깨진다. 두 줄로 나란히 세운다. */
+    .stats{
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:1.15rem 1.25rem; padding:1.25rem;
+    }
+    .stat .v{ font-size:1.75rem; }
     .stat .v{ font-size:1.5rem; }
     .stat .k{ font-size:11.5px; }
     .mast{ margin-bottom:1.5rem; }
@@ -555,7 +561,7 @@ document.getElementById('stats').innerHTML =
   '<div class="stat"><div class="v">' + DATA.entries.length + '</div><div class="k">모은 항목</div></div>' +
   '<div class="stat hi"><div class="v">' + nTrial + '</div><div class="k">사람한테 직접 써본 것</div></div>' +
   '<div class="stat"><div class="v">' + nOff + '</div><div class="k">효과 없음 · 해로운 쪽</div></div>' +
-  '<div class="stat"><div class="v">' + DATA.entries.reduce((a, e) => a + (e.refs || []).length, 0) +
+  '<div class="stat"><div class="v">' + (DATA.refs ?? 0) +
   '</div><div class="k">연결된 근거 자료</div></div>';
 
 document.getElementById('updated').textContent = DATA.updated;
@@ -628,7 +634,12 @@ function render(){
   } else paint();
 }
 
+let watchers = [];   // 이어 붙이기를 지켜보는 눈. 다시 그릴 때 놓아준다
+let fills = [];      // 묶음마다 "끝까지 그리기"
+
 function paint(){
+  watchers.forEach((o) => o.disconnect());
+  watchers = []; fills = [];
   const q = query.toLowerCase();
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
@@ -720,43 +731,76 @@ function drawGroup(g){
     return btn;
   };
 
-  // 한 묶음이 길어지면 화면이 못 버틴다. 앞쪽만 펼쳐두고 나머지는 접는다.
-  const OPEN = 25;
-  g.items.slice(0, OPEN).forEach((item) => sec.appendChild(makeRow(item)));
+  // 640줄을 한 번에 그리면 첫 화면이 늦고, 25줄에서 끊고 버튼을 두면 읽다가 벽에 부딪힌다.
+  // 보이는 만큼만 그리고 바닥에 닿으면 이어 붙인다.
+  const STEP_N = 30;
+  let drawn = 0;
 
-  if (g.items.length > OPEN) {
-    const rest = g.items.slice(OPEN);
-    const more = document.createElement('button');
-    more.className = 'more-btn';
-    more.type = 'button';
-    more.textContent = `나머지 ${rest.length}개 보기`;
-    more.addEventListener('click', () => {
-      const frag = document.createDocumentFragment();
-      rest.forEach((item) => frag.appendChild(makeRow(item)));
-      sec.insertBefore(frag, more);
-      more.remove();
-    });
-    sec.appendChild(more);
-  }
+  const foot = document.createElement('button');
+  foot.className = 'more-btn';
+  foot.type = 'button';
+  sec.appendChild(foot);
   groupsEl.appendChild(sec);
+
+  let io = null;
+  function feed(){
+    const frag = document.createDocumentFragment();
+    g.items.slice(drawn, drawn + STEP_N).forEach((item) => frag.appendChild(makeRow(item)));
+    drawn = Math.min(drawn + STEP_N, g.items.length);
+    sec.insertBefore(frag, foot);
+    if (drawn >= g.items.length) { if (io) io.disconnect(); foot.remove(); }
+    else foot.textContent = `아래로 ${g.items.length - drawn}개 더`;
+  }
+  // 한 번 이어 붙인 뒤에도 바닥이 아직 화면 안이면 계속 채운다.
+  // 화면이 크거나 묶음이 짧을 때 바닥이 그대로 걸려 있는 것을 막는다.
+  function fill(){
+    feed();
+    if (drawn < g.items.length && foot.getBoundingClientRect().top < innerHeight + 600)
+      requestAnimationFrame(fill);
+  }
+  foot.addEventListener('click', fill);
+  fill();
+
+  if (drawn < g.items.length) {
+    io = new IntersectionObserver((xs) => xs.some((x) => x.isIntersecting) && fill(),
+      { rootMargin: '700px' });
+    io.observe(foot);
+    watchers.push(io);
+  }
+  // 주소로 바로 들어온 항목이 아직 안 그려졌을 수 있다. 끝까지 그리는 손잡이를 남긴다.
+  fills.push(() => { while (drawn < g.items.length) feed(); });
 }
 
 /* ── 펼친 창 ── */
 const scrim = document.getElementById('scrim'), xBtn = document.getElementById('x');
 let lastFocus = null, openId = null;
 
-/* 펼쳤을 때 쓰는 긴 글은 처음에 안 받는다. 첫 번째로 펼칠 때 한 번만 가져오고 그다음은 캐시. */
-let details = null, detailsPromise = null;
-function loadDetails(){
-  if (details) return Promise.resolve(details);
-  if (!detailsPromise) detailsPromise = fetch('/details.json')
-    .then((r) => r.json()).then((j) => (details = j))
-    .catch(() => (details = {}));
-  return detailsPromise;
+/* 펼쳤을 때 쓰는 긴 글은 처음에 안 받는다.
+   전부 한 파일에 두면 항목 하나 보려고 1.1MB 를 받는다. 순위 순으로 잘라둔 묶음에서
+   필요한 것만 가져온다 — 한 묶음이 20KB 남짓이다. */
+const SHARD = DATA.shard || 48;
+const rank = new Map(DATA.entries.map((e, i) => [e.id, i]));
+const details = {};
+const shardJobs = new Map();
+
+function loadShard(n){
+  if (!shardJobs.has(n)) shardJobs.set(n, fetch('d/' + n + '.json')
+    .then((r) => r.json()).then((j) => Object.assign(details, j))
+    .catch(() => {}));
+  return shardJobs.get(n);
 }
-// 목록에 손이 닿으면 미리 받아둔다. 실제로 펼칠 때는 이미 와 있다.
-['pointerover', 'focusin', 'touchstart'].forEach((ev) =>
-  document.getElementById('groups').addEventListener(ev, loadDetails, { once: true, passive: true }));
+const loadDetail = (id) => details[id]
+  ? Promise.resolve(details)
+  : loadShard(Math.floor((rank.get(id) ?? 0) / SHARD)).then(() => details);
+
+// 줄에 손이 닿으면 그 줄이 든 묶음을 미리 받는다. 펼칠 때는 이미 와 있다.
+['pointerover', 'focusin'].forEach((ev) =>
+  document.getElementById('groups').addEventListener(ev, (e) => {
+    const row = e.target.closest && e.target.closest('.row');
+    if (row && row.dataset.id) loadShard(Math.floor((rank.get(row.dataset.id) ?? 0) / SHARD));
+  }, { passive: true }));
+// 첫 화면에 보이는 줄은 어차피 앞 묶음이다. 한가할 때 받아둔다.
+(window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() => loadShard(0));
 
 function open(item, tier, trigger){
   lastFocus = trigger;
@@ -784,7 +828,7 @@ function open(item, tier, trigger){
   document.body.style.overflow = 'hidden';
   xBtn.focus();
 
-  loadDetails().then((all) => {
+  loadDetail(item.id).then((all) => {
     if (openId !== item.id) return;              // 그새 다른 걸 열었으면 버린다
     const x = all[item.id];
     if (!x) { body.querySelector('.loading').textContent = '근거를 불러오지 못했습니다.'; return; }
@@ -829,8 +873,8 @@ function openById(id, scroll){
   const tier = tierOf(item.tier);
 
   let row = groupsEl.querySelector('[data-id="' + CSS.escape(id) + '"]');
-  if (!row) {                                   // 접혀 있으면 펼치고 다시 찾는다
-    groupsEl.querySelectorAll('.more-btn').forEach(b => b.click());
+  if (!row) {                                   // 아직 안 그려졌으면 끝까지 그리고 다시 찾는다
+    fills.forEach((f) => f());
     row = groupsEl.querySelector('[data-id="' + CSS.escape(id) + '"]');
   }
   if (row && scroll) {
@@ -880,7 +924,14 @@ document.addEventListener('keydown', e => {
   const at = list.indexOf(document.activeElement);
 
   if (e.key === 'ArrowDown' || (e.key === 'j' && !typingNow)) {
-    e.preventDefault(); (list[at + 1] || list[0]).focus();
+    e.preventDefault();
+    // 그려둔 끝에 닿았는데 남은 게 있으면 이어 붙이고 계속 내려간다
+    if (at === list.length - 1 && groupsEl.querySelector('.more-btn')) {
+      groupsEl.querySelector('.more-btn').click();
+      const grown = rows();
+      if (grown[at + 1]) return grown[at + 1].focus();
+    }
+    (list[at + 1] || list[0]).focus();
   } else if (e.key === 'ArrowUp' || (e.key === 'k' && !typingNow)) {
     e.preventDefault(); (at > 0 ? list[at - 1] : list[list.length - 1]).focus();
   } else if (e.key === 'Enter' && typingNow && list[0]) {
