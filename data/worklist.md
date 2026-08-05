@@ -8764,23 +8764,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] riluzole — Multiple Sclerosis에 듣는다 — 근거 없음(2026-08-05 조회, "riluzole AND Multiple Sclerosis")  <!-- 시험 27건 · 논문 118편 -->
 - [x] riluzole — Melanoma에 듣는다  <!-- 시험 9건 · 논문 34편 -->
 - [x] riluzole — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 29편 -->
-- [ ] riluzole — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 155편 -->
-- [ ] rocuronium — Neuromuscular Block에 듣는다  <!-- 시험 67건 · 논문 1744편 -->
-- [ ] rocuronium — Pain에 듣는다  <!-- 시험 30건 · 논문 894편 -->
-- [ ] rocuronium — Surgery에 듣는다  <!-- 시험 25건 · 논문 2287편 -->
-- [ ] selegiline — MDD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] selegiline — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] sodium nitrite — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 59편 -->
-- [ ] sodium nitrite — Sickle Cell Anemia에 듣는다  <!-- 시험 5건 · 논문 16편 -->
-- [ ] sodium nitrite — Myocardial Ischemia에 듣는다  <!-- 시험 4건 · 논문 94편 -->
-- [ ] sodium nitrite — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 512편 -->
-- [ ] sucralfate — Bleeding에 듣는다  <!-- 시험 4건 · 논문 401편 -->
-- [ ] sucralfate — Ulcer Healing에 듣는다  <!-- 시험 3건 · 논문 434편 -->
-- [ ] theophylline — Pulmonary Complications에 듣는다  <!-- 시험 11건 · 논문 461편 -->
-- [ ] theophylline — COPD에 듣는다  <!-- 시험 9건 · 논문 1072편 -->
-- [ ] theophylline — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 -->
-- [ ] zaleplon — Sleep에 듣는다  <!-- 시험 3건 · 논문 273편 -->
-- [ ] vilazodone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 52편 -->
+- [x] riluzole — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 155편 -->
+- [x] rocuronium — Neuromuscular Block에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 67건 · 논문 1744편 -->
+- [x] rocuronium — Pain에 듣는다 — 근거 없음(2026-08-05 조회, "rocuronium AND Pain")  <!-- 시험 30건 · 논문 894편 -->
+- [x] rocuronium — Surgery에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 25건 · 논문 2287편 -->
+- [x] selegiline — MDD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 19편 -->
+- [x] selegiline — HIV Infections에 듣는다 — 근거 없음(2026-08-05 조회, "selegiline AND HIV Infections")  <!-- 시험 3건 · 논문 17편 -->
+- [x] sodium nitrite — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 59편 -->
+- [x] sodium nitrite — Sickle Cell Anemia에 듣는다  <!-- 시험 5건 · 논문 16편 -->
+- [x] sodium nitrite — Myocardial Ischemia에 듣는다  <!-- 시험 4건 · 논문 94편 -->
+- [x] sodium nitrite — Cardiovascular Diseases에 듣는다 — 같은 근거(별도 항목 없음)  <!-- 시험 3건 · 논문 512편 -->
+- [x] sucralfate — Bleeding에 듣는다  <!-- 시험 4건 · 논문 401편 -->
+- [x] sucralfate — Ulcer Healing에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 434편 -->
+- [x] theophylline — Pulmonary Complications에 듣는다 — 근거 없음(2026-08-05 조회, "theophylline AND Pulmonary Complications")  <!-- 시험 11건 · 논문 461편 -->
+- [x] theophylline — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 1072편 -->
+- [x] theophylline — Lung Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "theophylline AND Lung Cancer")  <!-- 시험 5건 · 논문 116편 -->
+- [x] zaleplon — Sleep에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 273편 -->
+- [x] vilazodone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 52편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8791,19 +8791,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acetaminophen — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 6588편 -->
-- [ ] acetaminophen — Surgery에 듣는다  <!-- 시험 13건 · 논문 7435편 -->
-- [ ] acetaminophen — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 1129편 -->
-- [ ] atropine — Anesthesia에 듣는다  <!-- 시험 19건 · 논문 4261편 -->
-- [ ] atropine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 28편 -->
-- [ ] atropine — Nausea에 듣는다  <!-- 시험 10건 · 논문 385편 -->
-- [ ] atropine — Amblyopia에 듣는다  <!-- 시험 9건 · 논문 275편 -->
-- [ ] bevacizumab — Carcinoma에 듣는다  <!-- 시험 171건 · 논문 6448편 -->
-- [ ] bevacizumab — Lymphoma에 듣는다  <!-- 시험 54건 · 논문 226편 -->
-- [ ] bevacizumab — Glioblastoma에 듣는다  <!-- 시험 47건 · 논문 1686편 -->
-- [ ] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
-- [ ] budesonide — Colitis에 듣는다  <!-- 시험 26건 · 논문 799편 -->
-- [ ] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->
+- [x] acetaminophen — Opioid Use에 듣는다 — 근거 없음(2026-08-05 조회, "acetaminophen AND Opioid Use")  <!-- 시험 14건 · 논문 6588편 -->
+- [x] acetaminophen — Surgery에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 7435편 -->
+- [x] acetaminophen — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 1129편 -->
+- [x] atropine — Anesthesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 4261편 -->
+- [x] atropine — Breast Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "atropine AND Breast Cancer")  <!-- 시험 13건 · 논문 28편 -->
+- [x] atropine — Nausea에 듣는다  <!-- 시험 10건 · 논문 385편 -->
+- [x] atropine — Amblyopia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 275편 -->
+- [x] bevacizumab — Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 171건 · 논문 6448편 -->
+- [x] bevacizumab — Lymphoma에 듣는다  <!-- 시험 54건 · 논문 226편 -->
+- [x] bevacizumab — Glioblastoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 47건 · 논문 1686편 -->
+- [x] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
+- [x] budesonide — Colitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 26건 · 논문 799편 -->
+- [x] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->
 - [ ] budesonide — Rhinitis에 듣는다  <!-- 시험 22건 · 논문 601편 -->
 - [ ] citalopram — Depressive Symptom에 듣는다  <!-- 시험 165건 · 논문 4217편 -->
 - [ ] citalopram — Anxiety에 듣는다  <!-- 시험 42건 · 논문 1627편 -->
