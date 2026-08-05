@@ -8314,36 +8314,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dextromethorphan — Healthy Participants에 듣는다 — 항목 아님(건강인 약동학 연구)(2026-08-05)  <!-- 시험 4건 · 논문 217편 -->
 - [x] dextromethorphan — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 27편 -->
 - [x] dextromethorphan — Cough에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 448편 -->
-- [ ] clonidine — Sedation에 듣는다  <!-- 시험 9건 · 논문 1178편 -->
-- [ ] clonidine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 434편 -->
-- [ ] clonidine — Nerve Block에 듣는다  <!-- 시험 7건 · 논문 438편 -->
-- [ ] melatonin — Hypertension에 듣는다  <!-- 시험 10건 · 논문 588편 -->
-- [ ] melatonin — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1396편 -->
-- [ ] melatonin — Ischemic Stroke에 듣는다  <!-- 시험 10건 · 논문 203편 -->
-- [ ] melatonin — COVID-19에 듣는다  <!-- 시험 9건 · 논문 295편 -->
-- [ ] modafinil — Substance Abuse에 듣는다  <!-- 시험 6건 · 논문 249편 -->
-- [ ] modafinil — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 40편 -->
-- [ ] modafinil — Insomnia에 듣는다  <!-- 시험 5건 · 논문 118편 -->
-- [ ] baclofen — Fragile X Syndrome에 듣는다  <!-- 시험 4건 · 논문 29편 -->
-- [ ] baclofen — GERD에 듣는다  <!-- 시험 3건 · 논문 157편 -->
-- [ ] ondansetron — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 109편 -->
-- [ ] ondansetron — Laparoscopic에 듣는다  <!-- 시험 11건 · 논문 256편 -->
-- [ ] ondansetron — Breast Neoplasm에 듣는다  <!-- 시험 11건 · 논문 132편 -->
-- [ ] memantine — Pain에 듣는다  <!-- 시험 6건 · 논문 263편 -->
-- [ ] memantine — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 119편 -->
-- [ ] lithium — Caries에 듣는다  <!-- 시험 9건 · 논문 136편 -->
-- [ ] pentoxifylline — Inflammatory Markers에 듣는다  <!-- 시험 5건 · 논문 122편 -->
-- [ ] pentoxifylline — Depressive Symptoms에 듣는다  <!-- 시험 5건 · 논문 71편 -->
-- [ ] pentoxifylline — Leishmaniasis에 듣는다  <!-- 시험 5건 · 논문 39편 -->
-- [ ] pentoxifylline — COVID에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] sirolimus — Multiple Myeloma에 듣는다  <!-- 시험 16건 · 논문 80편 -->
-- [ ] sirolimus — Melanoma에 듣는다  <!-- 시험 16건 · 논문 194편 -->
-- [ ] sirolimus — Graft Failure에 듣는다  <!-- 시험 14건 · 논문 1006편 -->
-- [ ] sirolimus — Tumor에 듣는다  <!-- 시험 13건 · 논문 8634편 -->
-- [ ] rapamycin — Tumors에 듣는다  <!-- 시험 4건 · 논문 21239편 -->
-- [ ] rapamycin — Port Wine Stain에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] rapamycin — Familial Adenomatous Polyposis에 듣는다  <!-- 시험 3건 · 논문 42편 -->
-- [ ] montelukast — Respiratory Disorders에 듣는다  <!-- 시험 5건 · 논문 270편 -->
+- [x] clonidine — Sedation에 듣는다  <!-- 시험 9건 · 논문 1178편 -->
+- [x] clonidine — Attention Deficit Hyperactivity Disorder에 듣는다 — 이미 반영(ADHD 소아·청소년)(2026-08-05)  <!-- 시험 7건 · 논문 434편 -->
+- [x] clonidine — Nerve Block에 듣는다  <!-- 시험 7건 · 논문 438편 -->
+- [x] melatonin — Hypertension에 듣는다  <!-- 시험 10건 · 논문 588편 -->
+- [x] melatonin — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1396편 -->
+- [x] melatonin — Ischemic Stroke에 듣는다  <!-- 시험 10건 · 논문 203편 -->
+- [x] melatonin — COVID-19에 듣는다  <!-- 시험 9건 · 논문 295편 -->
+- [x] modafinil — Substance Abuse에 듣는다  <!-- 시험 6건 · 논문 249편 -->
+- [x] modafinil — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 40편 -->
+- [x] modafinil — Insomnia에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 5건 · 논문 118편 -->
+- [x] baclofen — Fragile X Syndrome에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 4건 · 논문 29편 -->
+- [x] baclofen — GERD에 듣는다  <!-- 시험 3건 · 논문 157편 -->
+- [x] ondansetron — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 109편 -->
+- [x] ondansetron — Laparoscopic에 듣는다 — 이미 반영(수술 뒤 오심)(2026-08-05)  <!-- 시험 11건 · 논문 256편 -->
+- [x] ondansetron — Breast Neoplasm에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 132편 -->
+- [x] memantine — Pain에 듣는다  <!-- 시험 6건 · 논문 263편 -->
+- [x] memantine — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 119편 -->
+- [x] lithium — Caries에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 9건 · 논문 136편 -->
+- [x] pentoxifylline — Inflammatory Markers에 듣는다 — 항목 아님(질환이 아닌 측정 지표)(2026-08-05)  <!-- 시험 5건 · 논문 122편 -->
+- [x] pentoxifylline — Depressive Symptoms에 듣는다 — 항목 아님(질환이 아닌 증상 지표)(2026-08-05)  <!-- 시험 5건 · 논문 71편 -->
+- [x] pentoxifylline — Leishmaniasis에 듣는다  <!-- 시험 5건 · 논문 39편 -->
+- [x] pentoxifylline — COVID에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [x] sirolimus — Multiple Myeloma에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 16건 · 논문 80편 -->
+- [x] sirolimus — Melanoma에 듣는다 — 이미 반영(라파마이신 흑색종)(2026-08-05)  <!-- 시험 16건 · 논문 194편 -->
+- [x] sirolimus — Graft Failure에 듣는다  <!-- 시험 14건 · 논문 1006편 -->
+- [x] sirolimus — Tumor에 듣는다 — 항목 아님(종양 범위 불명확)(2026-08-05)  <!-- 시험 13건 · 논문 8634편 -->
+- [x] rapamycin — Tumors에 듣는다 — 항목 아님(종양 범위 불명확)(2026-08-05)  <!-- 시험 4건 · 논문 21239편 -->
+- [x] rapamycin — Port Wine Stain에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [x] rapamycin — Familial Adenomatous Polyposis에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [x] montelukast — Respiratory Disorders에 듣는다 — 이미 반영(만성폐쇄성폐질환)(2026-08-05)  <!-- 시험 5건 · 논문 270편 -->
 - [ ] montelukast — SARS-CoV-2에 듣는다  <!-- 시험 5건 · 논문 48편 -->
 - [ ] montelukast — Covid19에 듣는다  <!-- 시험 4건 · 논문 69편 -->
 - [ ] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 -->

@@ -1,0 +1,32 @@
+{
+  "id": "melatonin-hypertension-null",
+  "subj": "멜라토닌",
+  "claim": "수면호르몬을 야간고혈압에 쓴다",
+  "line": "야간고혈압 전체 혈압은 위약과 다르지 않았습니다",
+  "effect": "전체 혈압 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 221,
+  "synth": "meta",
+  "why": "야간고혈압 환자에서 멜라토닌과 위약을 비교한 무작위시험 7편의 메타분석입니다.",
+  "saw": "7개 시험 221명을 합친 전체 분석에서는 야간 혈압 차이가 없었습니다. 서방형 하위군은 수축기 혈압 6.1 mmHg, 이완기 혈압 3.5 mmHg 감소를 보였지만 속방형은 효과가 없었습니다.",
+  "limit": "제형별 결과가 달랐고 표본과 추적기간이 작아 장기 심혈관 이득을 판단할 수 없습니다.",
+  "against": "반대 검색 470건. 전체 분석은 음성이며 제형 하위군 결과만 양성이어서 연구 간 결과가 일관되지 않습니다.",
+  "use": "야간고혈압에서 전체 효과는 확인되지 않았고 특정 제형 하위군 신호만 있었던 메타분석입니다.",
+  "refs": [
+    {
+      "label": "Grossman 2011 · Vasc Health Risk Manag · 야간혈압 멜라토닌 메타분석",
+      "doi": "10.2147/VHRM.S24603",
+      "pmid": "21966222",
+      "pmc": "PMC3180511"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:MELATONIN → 50건, 의약품 허가 적응증 문구 확인 안 됨",
+    "ctgov": "query.intr=melatonin&query.cond=Hypertension → 20건 반환, InterventionName 대조 후 10건",
+    "pubmed": "melatonin Hypertension → 588건",
+    "negative": "melatonin Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 470건",
+    "safety": "melatonin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,376건"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pentoxifylline-covid-null",
+  "subj": "펜톡시필린",
+  "claim": "혈류개선제를 입원 코로나19에 쓴다",
+  "line": "입원 코로나19의 임상 결과는 개선하지 못했습니다",
+  "effect": "임상 개선·사망 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 68,
+  "synth": "single",
+  "why": "사이토카인 폭풍 증후군으로 입원한 코로나19 환자를 펜톡시필린과 표준치료에 무작위 배정한 임상시험입니다.",
+  "saw": "환자 68명에서 C반응단백과 IL-6는 좋아졌지만 임상 개선, 입원기간, 사망률은 대조군과 유의한 차이가 없었습니다.",
+  "limit": "표본이 작고 염증 지표와 임상 결과가 어긋났으며 입원 환자·사이토카인 폭풍 증후군에 한정된 결과입니다.",
+  "against": "반대 검색 24건. 염증 바이오마커 개선은 있었지만 환자 중심 결과에서 효과를 확인하지 못했습니다.",
+  "use": "코로나19에서 염증 지표와 임상 결과가 갈린 무작위 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "Sarhan 2023 · Pharmaceuticals · 입원 코로나19 펜톡시필린 RCT",
+      "doi": "10.3390/ph16040631",
+      "pmid": "37111389",
+      "pmc": "PMC10142327"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:PENTOXIFYLLINE → 7건, 말초혈관질환 관련 허가 문구 확인; 코로나19는 비허가",
+    "ctgov": "query.intr=pentoxifylline&query.cond=COVID → 3건 반환, InterventionName 대조 후 3건",
+    "pubmed": "pentoxifylline COVID → 34건",
+    "negative": "pentoxifylline COVID AND (no effect OR did not OR failed to OR negative OR no significant difference) → 24건",
+    "safety": "pentoxifylline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,648건"
+  }
+}

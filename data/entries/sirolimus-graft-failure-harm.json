@@ -1,0 +1,31 @@
+{
+  "id": "sirolimus-graft-failure-harm",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 신장이식 이식편 생존에 쓴다",
+  "line": "신장이식 이식편 생존이 낮고 중대한 이상반응이 늘었습니다",
+  "effect": "생존 89.3%·중대 AE 53.2%",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 1645,
+  "synth": "single",
+  "why": "신장이식 수혜자를 네 가지 면역억제요법에 무작위 배정해 이식편 생존과 신장기능을 비교한 다기관시험입니다.",
+  "saw": "환자 1,645명에서 저용량 시롤리무스군 이식편 생존은 89.3%였고 급성 거부반응은 37.2%였습니다. 중대한 이상반응은 53.2%로 다른 군보다 많았습니다.",
+  "limit": "시롤리무스 단독이 아니라 여러 면역억제제 조합을 비교한 신장이식 시험이며 특정 이식편 실패 원인만 본 결과가 아닙니다.",
+  "against": "반대 검색 765건. 저용량 타크로리무스군의 이식편 생존과 거부반응 결과가 더 좋았고 시롤리무스군의 안전성 신호를 상쇄하지 못했습니다.",
+  "use": "신장이식에서 시롤리무스 조합의 이식편 생존과 중대한 이상반응 결과를 비교할 때 사용합니다.",
+  "refs": [
+    {
+      "label": "Ekberg 2007 · NEJM · 신장이식 면역억제 무작위시험",
+      "doi": "10.1056/NEJMoa067411",
+      "pmid": "18094377"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:SIROLIMUS → 26건, 신장이식 거부반응 예방·림프관평활근종증 허가; 이식편 실패 치료는 비허가",
+    "ctgov": "query.intr=sirolimus&query.cond=Graft Failure → 39건 반환, InterventionName 대조 후 18건",
+    "pubmed": "sirolimus Graft Failure → 1,006건",
+    "negative": "sirolimus Graft Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 765건",
+    "safety": "sirolimus AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 11,607건"
+  }
+}

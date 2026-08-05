@@ -1,0 +1,31 @@
+{
+  "id": "rapamycin-port-wine-stain-null",
+  "subj": "라파마이신",
+  "claim": "면역억제제를 포도주색 반점 레이저 치료에 더한다",
+  "line": "포도주색 반점 레이저 병용 효과는 없었습니다",
+  "effect": "색소 소실 16%, 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 14,
+  "synth": "single",
+  "why": "포도주색 반점 환자의 병변 구역을 레이저 단독과 라파마이신 병용에 무작위 배정한 환자내 대조시험입니다.",
+  "saw": "환자 14명에서 레이저 단독의 평균 색소 소실은 16%였고 병용·단독 치료 간 차이는 유의하지 않았습니다. 가려움과 라파마이신 접촉피부염 1건이 있었습니다.",
+  "limit": "표본이 매우 작고 국소 병용요법의 색소 결과만 평가했으며 전신 라파마이신 치료나 장기 재발은 다루지 않았습니다.",
+  "against": "반대 검색 26건. 다른 레이저 병용 연구와 검토가 있지만 이 무작위시험에서는 병용 이득이 없었습니다.",
+  "use": "포도주색 반점에서 레이저에 라파마이신을 더해도 색소 소실이 좋아지지 않은 무작위 근거입니다.",
+  "refs": [
+    {
+      "label": "Greveling 2017 · Lasers Surg Med · 포도주색 반점 라파마이신 RCT",
+      "doi": "10.1002/lsm.22548",
+      "pmid": "27320685"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:SIROLIMUS → 26건, 신장이식 거부반응 예방·림프관평활근종증 허가; 포도주색 반점은 비허가",
+    "ctgov": "query.intr=rapamycin&query.cond=Port Wine Stain → 4건 반환, InterventionName 대조 후 0건",
+    "pubmed": "rapamycin Port Wine Stain → 37건",
+    "negative": "rapamycin Port Wine Stain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 26건",
+    "safety": "rapamycin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 15,888건"
+  }
+}

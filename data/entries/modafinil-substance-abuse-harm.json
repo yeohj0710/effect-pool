@@ -1,0 +1,32 @@
+{
+  "id": "modafinil-substance-abuse-harm",
+  "subj": "모다피닐",
+  "claim": "각성제를 암페타민계 사용장애 치료에 쓴다",
+  "line": "암페타민계 사용장애를 줄이지 못했고 중대한 이상반응이 늘었습니다",
+  "effect": "사용 RR 0.99·중대 AE↑",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 451,
+  "synth": "meta",
+  "why": "암페타민계 자극제 사용장애 환자에서 모다피닐과 위약을 비교한 무작위시험 5편의 메타분석입니다.",
+  "saw": "5개 무작위시험 451명에서 자극제 사용은 RR 0.99로 줄지 않았고 치료 유지와 갈망도 개선되지 않았습니다. 중대한 이상반응은 일부 분석에서 모다피닐군이 더 많았습니다(OR 4.80).",
+  "limit": "암페타민계 사용장애에 한정된 메타분석이며 연구별 환자 특성과 안전성 보고가 달랐습니다.",
+  "against": "반대 검색 314건. 효능 결과를 뒤집는 유의한 하위군은 없었고 안전성 신호를 함께 고려해야 합니다.",
+  "use": "암페타민계 사용장애 치료제로서 효과가 없고 중대한 이상반응 신호가 있는 메타분석 근거입니다.",
+  "refs": [
+    {
+      "label": "Elkrief 2024 · Can J Psychiatry · 자극제 사용장애 모다피닐 메타분석",
+      "doi": "10.1177/07067437241262967",
+      "pmid": "39033427",
+      "pmc": "PMC11572177"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:MODAFINIL → 35건, 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림 허가; 사용장애는 비허가",
+    "ctgov": "query.intr=modafinil&query.cond=Substance Abuse → 7건 반환, InterventionName 대조 후 4건",
+    "pubmed": "modafinil Substance Abuse → 366건",
+    "negative": "modafinil Substance Abuse AND (no effect OR did not OR failed to OR negative OR no significant difference) → 314건",
+    "safety": "modafinil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 878건"
+  }
+}

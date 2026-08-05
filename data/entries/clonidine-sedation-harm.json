@@ -1,0 +1,33 @@
+{
+  "id": "clonidine-sedation-harm",
+  "subj": "클로니딘",
+  "claim": "혈압약을 중환자 진정에 쓴다",
+  "line": "중환자 진정에서 삽관 이득은 없고 서맥·초조가 늘었습니다",
+  "effect": "서맥 RR 1.58",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 947,
+  "synth": "single",
+  "why": "기계환기 중환자를 클로니딘 기반 진정과 프로포폴에 무작위 배정한 다기관 시험입니다.",
+  "saw": "클로니딘군 476명과 프로포폴군 471명에서 성공적 발관 시간은 유의하게 다르지 않았습니다(HR 1.05). 초조는 RR 1.55, 중증 서맥은 RR 1.58로 클로니딘군에서 더 많았습니다.",
+  "limit": "클로니딘 단독 약효가 아니라 공개 진정 알고리즘을 비교한 중환자 시험이며 다른 진정 상황에 일반화하기 어렵습니다.",
+  "against": "반대 검색 1,041건. 다른 알파2 작용제 진정 연구와 기존 중환자 진정 연구를 함께 검색했으며 이 시험의 안전성 신호를 상쇄할 직접 근거는 확인하지 못했습니다.",
+  "use": "중환자 진정에서 발관 이득 없이 초조와 서맥이 늘어난 대규모 무작위 근거입니다.",
+  "refs": [
+    {
+      "label": "Walsh 2025 · JAMA · 중환자 클로니딘 진정 무작위시험",
+      "doi": "10.1001/jama.2025.7200",
+      "pmid": "40388916",
+      "pmc": "PMC12090071",
+      "nct": "NCT03653832"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:CLONIDINE → 127건, 고혈압 허가; 중환자 진정은 비허가",
+    "ctgov": "query.intr=clonidine&query.cond=Sedation → 16건 반환, InterventionName 대조 후 9건",
+    "pubmed": "clonidine Sedation → 1,178건",
+    "negative": "clonidine Sedation AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,041건",
+    "safety": "clonidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,468건"
+  }
+}

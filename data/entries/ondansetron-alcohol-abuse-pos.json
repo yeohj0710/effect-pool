@@ -1,0 +1,31 @@
+{
+  "id": "ondansetron-alcohol-abuse-pos",
+  "subj": "온단세트론",
+  "claim": "항구토제를 조기 발병 알코올 의존에 쓴다",
+  "line": "조기 발병 알코올 의존의 음주량을 줄였습니다",
+  "effect": "음주 1.56 vs 3.30잔/일",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 271,
+  "synth": "single",
+  "why": "알코올 의존 환자를 온단세트론과 위약에 무작위로 나눈 이중맹검시험이며 모든 환자가 인지행동치료를 받았습니다.",
+  "saw": "무작위 배정 271명 중 조기 발병군에서 음주량은 온단세트론군 1.56잔, 위약군 3.30잔으로 낮았고 금주일 비율도 높았습니다.",
+  "limit": "조기 발병 하위군 결과이며 인지행동치료를 함께 받아 온단세트론 단독 효과를 분리하기 어렵습니다.",
+  "against": "반대 검색 86건. 늦은 발병군에서는 같은 효과가 뚜렷하지 않아 알코올 의존 전체에 일반화할 수 없습니다.",
+  "use": "조기 발병 알코올 의존에서만 음주 감소 신호가 나온 하위군 무작위 근거입니다.",
+  "refs": [
+    {
+      "label": "Johnson 2000 · JAMA · 알코올 의존 온단세트론 RCT",
+      "doi": "10.1001/jama.284.8.963",
+      "pmid": "10944641"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:ONDANSETRON → 222건, 항암치료·방사선·수술 뒤 오심·구토 예방 허가; 알코올 의존은 비허가",
+    "ctgov": "query.intr=ondansetron&query.cond=Alcohol Abuse → 4건 반환, InterventionName 대조 후 4건",
+    "pubmed": "ondansetron Alcohol Abuse → 109건",
+    "negative": "ondansetron Alcohol Abuse AND (no effect OR did not OR failed to OR negative OR no significant difference) → 86건",
+    "safety": "ondansetron AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,766건"
+  }
+}

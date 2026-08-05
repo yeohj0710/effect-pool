@@ -1,0 +1,31 @@
+{
+  "id": "modafinil-schizoaffective-null",
+  "subj": "모다피닐",
+  "claim": "각성제를 조현정동장애 보조치료에 쓴다",
+  "line": "조현정동장애의 정신증상과 인지는 개선하지 못했습니다",
+  "effect": "PANSS·인지 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 24,
+  "synth": "single",
+  "why": "조현병 또는 조현정동장애 환자를 모다피닐과 위약에 무작위로 나눈 이중맹검 보조치료 시험입니다.",
+  "saw": "남성 환자 24명에서 파킨슨증 점수는 좋아졌지만 PANSS 정신증상, 졸림, 인지검사는 위약과 차이가 없었습니다.",
+  "limit": "표본이 작고 남성만 포함했으며 조현병과 조현정동장애를 합친 결과라 조현정동장애 단독 효과를 분리하기 어렵습니다.",
+  "against": "반대 검색 30건. 운동증상 개선은 있었지만 정신증상과 인지 결과를 개선한 근거는 확인되지 않았습니다.",
+  "use": "조현정동장애의 정신증상 치료제로는 효과가 확인되지 않았고 운동 부작용에만 신호가 있었던 소규모 시험입니다.",
+  "refs": [
+    {
+      "label": "Lohr 2013 · Schizophr Res · 조현병·조현정동장애 모다피닐 RCT",
+      "doi": "10.1016/j.schres.2013.07.039",
+      "pmid": "23938173"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:MODAFINIL → 35건, 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림 허가; 조현정동장애는 비허가",
+    "ctgov": "query.intr=modafinil&query.cond=Schizoaffective Disorder → 6건 반환, InterventionName 대조 후 5건",
+    "pubmed": "modafinil Schizoaffective Disorder → 40건",
+    "negative": "modafinil Schizoaffective Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) → 30건",
+    "safety": "modafinil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 878건"
+  }
+}

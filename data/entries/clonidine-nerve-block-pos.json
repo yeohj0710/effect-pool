@@ -1,0 +1,31 @@
+{
+  "id": "clonidine-nerve-block-pos",
+  "subj": "클로니딘",
+  "claim": "혈압약을 말초신경차단 보조제로 쓴다",
+  "line": "말초신경차단 진통을 늘렸지만 저혈압·서맥이 늘었습니다",
+  "effect": "진통 122분·저혈압 OR 3.61",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1054,
+  "synth": "meta",
+  "why": "수술 환자의 말초신경·신경총 차단에 클로니딘을 더한 무작위시험 20편의 메타분석입니다.",
+  "saw": "환자 1,054명에서 수술 후 진통 지속시간은 평균 122분 늘었지만 동맥성 저혈압 위험은 OR 3.61, 서맥은 OR 3.09로 높았습니다.",
+  "limit": "수술 종류와 국소마취 방법이 다양하고 진통 이득과 혈역학적 위해를 함께 봐야 합니다.",
+  "against": "반대 검색 360건. 분석 자체도 저혈압·실신·진정 위험 증가가 유용성을 제한한다고 결론냈습니다.",
+  "use": "말초신경차단의 진통 연장 신호와 저혈압·서맥 위해를 한 근거에서 함께 보여줍니다.",
+  "refs": [
+    {
+      "label": "Pöpping 2009 · Anesthesiology · 말초신경차단 클로니딘 메타분석",
+      "doi": "10.1097/ALN.0b013e3181aae897",
+      "pmid": "19602964"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:CLONIDINE → 127건, 고혈압 허가; 신경차단 보조는 비허가",
+    "ctgov": "query.intr=clonidine&query.cond=Nerve Block → 31건 반환, InterventionName 대조 후 7건",
+    "pubmed": "clonidine Nerve Block → 438건",
+    "negative": "clonidine Nerve Block AND (no effect OR did not OR failed to OR negative OR no significant difference) → 360건",
+    "safety": "clonidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,468건"
+  }
+}

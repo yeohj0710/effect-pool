@@ -1,0 +1,31 @@
+{
+  "id": "pentoxifylline-leishmaniasis-pos",
+  "subj": "펜톡시필린",
+  "claim": "혈류개선제를 점막 리슈만편모충증에 병용한다",
+  "line": "점막 리슈만편모충증 병변을 더 빨리 치유했습니다",
+  "effect": "완치 11/11 vs 7/12",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 23,
+  "synth": "single",
+  "why": "점막 리슈만편모충증 환자를 표준 치료에 펜톡시필린 또는 위약을 더한 군으로 무작위 배정한 이중맹검시험입니다.",
+  "saw": "환자 23명에서 펜톡시필린 병용군 11명은 모두 한 차례 치료로 완치됐고 위약군은 12명 중 7명만 완치됐습니다. 병변 치유기간도 83일 대 145일로 짧았습니다.",
+  "limit": "펜톡시필린 단독이 아닌 표준 치료 병용이며 표본이 작아 다른 리슈만편모충증 유형에 일반화하기 어렵습니다.",
+  "against": "반대 검색 28건. 단일 소규모 시험이라 후속 연구에서 재현할지 확인해야 합니다.",
+  "use": "표준 치료에 더했을 때 점막 병변의 완치와 치유기간을 개선한 무작위 근거입니다.",
+  "refs": [
+    {
+      "label": "Machado 2007 · Clin Infect Dis · 점막 리슈만편모충증 병용 RCT",
+      "doi": "10.1086/511643",
+      "pmid": "17304449"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:PENTOXIFYLLINE → 7건, 말초혈관질환 관련 허가 문구 확인; 리슈만편모충증은 비허가",
+    "ctgov": "query.intr=pentoxifylline&query.cond=Leishmaniasis → 4건 반환, InterventionName 대조 후 3건",
+    "pubmed": "pentoxifylline Leishmaniasis → 39건",
+    "negative": "pentoxifylline Leishmaniasis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 28건",
+    "safety": "pentoxifylline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,648건"
+  }
+}

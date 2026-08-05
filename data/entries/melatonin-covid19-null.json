@@ -1,0 +1,32 @@
+{
+  "id": "melatonin-covid19-null",
+  "subj": "멜라토닌",
+  "claim": "수면호르몬을 코로나19 치료에 쓴다",
+  "line": "코로나19 사망률과 회복률을 유의하게 낮추지 못했습니다",
+  "effect": "사망 RR 0.72, 유의하지 않음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 718,
+  "synth": "meta",
+  "why": "코로나19 환자에서 멜라토닌과 대조치료를 비교한 무작위시험 9편의 메타분석입니다.",
+  "saw": "9개 무작위시험 718명을 합친 사망률은 멜라토닌군과 대조군의 차이가 유의하지 않았습니다(RR 0.72). 증상 회복률과 염증 지표도 유의한 차이가 없었습니다.",
+  "limit": "근거 확실성이 낮고 연구 간 이질성이 컸으며, 일부 하위군 신호만으로 전체 치료 효과를 판단할 수 없습니다.",
+  "against": "반대 검색 189건. 하위군에서 사망 감소 신호가 있었지만 전체 사망률과 회복률 결과는 음성이었습니다.",
+  "use": "코로나19에서 멜라토닌의 전체 사망·회복 효과가 확인되지 않은 무작위 근거입니다.",
+  "refs": [
+    {
+      "label": "Huang 2023 · Front Med · 코로나19 멜라토닌 무작위시험 메타분석",
+      "doi": "10.3389/fmed.2023.1171294",
+      "pmid": "37181363",
+      "pmc": "PMC10166833"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:MELATONIN → 50건, 의약품 허가 적응증 문구 확인 안 됨",
+    "ctgov": "query.intr=melatonin&query.cond=COVID-19 → 16건 반환, InterventionName 대조 후 8건",
+    "pubmed": "melatonin COVID-19 → 295건",
+    "negative": "melatonin COVID-19 AND (no effect OR did not OR failed to OR negative OR no significant difference) → 189건",
+    "safety": "melatonin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,376건"
+  }
+}
