@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
     "entries": 500,
   "worklist": {
-    "checked": 6783,
-    "unchecked": 198,
+    "checked": 6803,
+    "unchecked": 188,
     "no_evidence_pending": 0,
     "next_batch": [
-      "propranolol-cirrhosis",
-      "propranolol-ovarian-carcinoma",
-      "naltrexone-alcoholism",
-      "naltrexone-substance-use",
-      "naltrexone-obesity",
-      "naltrexone-pain",
-      "gabapentin-cancer",
-      "gabapentin-opioid-use",
-      "gabapentin-drug-dependence",
-      "gabapentin-nausea"
+      "amitriptyline-pain",
+      "amitriptyline-headache",
+      "amitriptyline-fibromyalgia",
+      "amitriptyline-major-depression",
+      "topiramate-obesity",
+      "topiramate-epilepsy",
+      "topiramate-alcohol-abuse",
+      "topiramate-seizures",
+      "trazodone-sleep",
+      "trazodone-depression"
     ]
   },
   "verification": {
@@ -40,12 +40,16 @@
     "deployment_id": "dpl_6KVTDNH7JGEapQM5TnBihoLK2Zg7"
   },
     "last_batch": [
-      "creatine-major-depressive-disorder (already represented)",
-      "creatine-sarcopenia (already represented)",
-      "creatine-sport-performance (already represented)",
-      "berberine-schizophrenia (already represented)",
-      "berberine-metabolic-syndrome (already represented)",
-      "berberine-gastritis (already represented)"
+      "propranolol-ovarian-carcinoma (already represented)",
+      "propranolol-cirrhosis (already represented)",
+      "naltrexone-alcoholism (approved indication)",
+      "naltrexone-marijuana-use (already represented)",
+      "naltrexone-obesity (already represented)",
+      "naltrexone-pain (already represented)",
+      "gabapentin-cancer (already represented)",
+      "gabapentin-opioid-use (already represented)",
+      "gabapentin-nausea (already represented)",
+      "gabapentin-drug-dependence (already represented)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -84,7 +88,19 @@
   },
   "resume": {
     "last_committed_batch": "raloxifene allopurinol n-acetylcysteine creatine batch",
-    "current_batch": "metformin aspirin propranolol first expanded batch completed",
+    "last_batch": [
+      "propranolol-ovarian-carcinoma (already represented)",
+      "propranolol-cirrhosis (already represented)",
+      "naltrexone-alcoholism (approved indication)",
+      "naltrexone-marijuana-use (already represented)",
+      "naltrexone-obesity (already represented)",
+      "naltrexone-pain (already represented)",
+      "gabapentin-cancer (already represented)",
+      "gabapentin-opioid-use (already represented)",
+      "gabapentin-nausea (already represented)",
+      "gabapentin-drug-dependence (already represented)"
+    ],
+    "current_batch": "propranolol naltrexone gabapentin expanded batch completed",
     "next_action": "process next 10 expanded worklist items; build, commit, push",
     "expansion_checkpoint": "expanded worklist with 208 paper-backed candidates on 2026-08-05"
   }
