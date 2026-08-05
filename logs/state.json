@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 479,
   "worklist": {
-    "checked": 6224,
-    "unchecked": 53,
+    "checked": 6234,
+    "unchecked": 43,
     "no_evidence_pending": 0,
     "next_batch": [
-      "losartan-nephropathy",
-      "losartan-diabetes",
-      "losartan-fibrosis",
-      "verapamil-atrial-fibrillation",
-      "verapamil-hypertension",
-      "verapamil-ischemic-stroke",
-      "verapamil-drug-dependence",
-      "amantadine-brain-injury",
-      "amantadine-cocaine-related-disorders",
-      "amantadine-covid-19"
+      "amantadine-hepatitis-c",
+      "acetazolamide-heart-failure",
+      "acetazolamide-hypoxia",
+      "acetazolamide-mountain-sickness",
+      "acetazolamide-hypertension",
+      "dapsone-malaria",
+      "dapsone-hiv-infection",
+      "dapsone-pneumocystis-pneumonia",
+      "dapsone-leprosy",
+      "methotrexate-lymphoma"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "rapamycin-heart-diseases (existing: rapamycin-heart-diseases-pos)",
-    "rapamycin-tuberous-sclerosis (existing: rapamycin-tuberous-sclerosis-pos)",
-    "montelukast-rhinitis (approved)",
-    "montelukast-bronchiolitis (existing: montelukast-bronchiolitis-null)",
-    "montelukast-lung-diseases (existing: montelukast-lung-diseases)",
-    "atorvastatin-coronary-disease (approved)",
-    "atorvastatin-dyslipidemia (approved)",
-    "atorvastatin-diabetes (results pending)",
-    "atorvastatin-cancer (existing: atorvastatin-cancer-null)",
-    "losartan-cancer (existing: losartan-cancer-null)"
+    "losartan-nephropathy (approved)",
+    "losartan-diabetes (existing: losartan-diabetes)",
+    "losartan-fibrosis (existing: losartan-fibrosis-null)",
+    "verapamil-atrial-fibrillation (approved)",
+    "verapamil-hypertension (approved)",
+    "verapamil-ischemic-stroke (existing: verapamil-ischemic-stroke-null)",
+    "verapamil-drug-dependence (existing: verapamil-drug-dependence-null)",
+    "amantadine-brain-injury (existing: amantadine-brain-injury-null)",
+    "amantadine-cocaine-related-disorders (existing: amantadine-cocaine-related-disorders-null)",
+    "amantadine-covid-19 (existing: amantadine-covid-19-null)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "rapamycin, montelukast, atorvastatin, losartan",
-    "current_batch": "rapamycin, montelukast, atorvastatin, losartan",
+    "last_committed_batch": "losartan, verapamil, amantadine",
+    "current_batch": "losartan, verapamil, amantadine",
     "next_action": "commit, push, then process next batch"
   }
 }
