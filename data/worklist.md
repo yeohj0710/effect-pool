@@ -9643,32 +9643,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] alprostadil — Prostate Cancer에 듣는다  <!-- 시험 4건 · 논문 68편 -->
-- [ ] alprostadil — Peripheral Artery Disease에 듣는다  <!-- 시험 4건 · 논문 202편 -->
-- [ ] alprostadil — Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 197편 -->
-- [ ] alprostadil — Renal Transplant에 듣는다  <!-- 시험 3건 · 논문 62편 -->
-- [ ] ciclesonide — Asthma에 듣는다  <!-- 시험 33건 · 논문 314편 -->
-- [ ] ciclesonide — Hay Fever에 듣는다  <!-- 시험 10건 · 논문 35편 -->
-- [ ] ciclesonide — COVID-19에 듣는다  <!-- 시험 4건 · 논문 89편 -->
-- [ ] deferasirox — Lymphoma에 듣는다  <!-- 시험 67건 · 논문 15편 -->
-- [ ] deferasirox — Iron Overload에 듣는다  <!-- 시험 37건 · 논문 877편 -->
-- [ ] deferasirox — Myelodysplastic Syndrome에 듣는다  <!-- 시험 26건 · 논문 191편 -->
-- [ ] deferasirox — Thalassemia에 듣는다  <!-- 시험 25건 · 논문 625편 -->
-- [ ] palmitoylethanolamide — Autism에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] pyridoxine — HIV에 듣는다  <!-- 시험 14건 · 논문 71편 -->
-- [ ] pyridoxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 57편 -->
-- [ ] pyridoxine — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 50편 -->
-- [ ] pyridoxine — Nausea에 듣는다  <!-- 시험 4건 · 논문 233편 -->
-- [ ] silymarin — Liver Diseases에 듣는다  <!-- 시험 7건 · 논문 1867편 -->
-- [ ] silymarin — Tuberculosis에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] silymarin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 129편 -->
-- [ ] silymarin — HIV Infection에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] sotalol — Ventricular Arrythmia에 듣는다  <!-- 시험 12건 · 논문 1073편 -->
-- [ ] sotalol — Arrhythmia에 듣는다  <!-- 시험 7건 · 논문 2236편 -->
-- [ ] sotalol — Heart Arrest에 듣는다  <!-- 시험 5건 · 논문 151편 -->
-- [ ] sotalol — Death, Sudden에 듣는다  <!-- 시험 5건 · 논문 237편 -->
-- [ ] tibolone — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 255편 -->
-- [ ] tibolone — Vasomotor Symptoms에 듣는다  <!-- 시험 3건 · 논문 76편 -->
-- [ ] tibolone — Menopausal Syndrome에 듣는다  <!-- 시험 3건 · 논문 46편 -->
-- [ ] toremifene — Neoplasms, Hormone-Dependent에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] xylometazoline — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 92편 -->
+- [x] alprostadil — Prostate Cancer에 듣는다 — 전립선암 치료가 아니라 수술 뒤 발기부전 회복 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 4건 · 논문 68편 -->
+- [x] alprostadil — Peripheral Artery Disease에 듣는다 — 허가 적응증(2022)  <!-- 시험 4건 · 논문 202편 -->
+- [x] alprostadil — Kidney Diseases에 듣는다 — 조영제 신독성 예방 메타분석 항목 생성 alprostadil-contrast-nephropathy-pos(2026-08-05)  <!-- 시험 4건 · 논문 197편 -->
+- [x] alprostadil — Renal Transplant에 듣는다 — 신장이식 자체가 아니라 이식 환자의 발기부전 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 62편 -->
+- [x] ciclesonide — Asthma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 33건 · 논문 314편 -->
+- [x] ciclesonide — Hay Fever에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 35편 -->
+- [x] ciclesonide — COVID-19에 듣는다 — 외래 무작위시험 음성 항목 생성 ciclesonide-covid-19-null(2026-08-05)  <!-- 시험 4건 · 논문 89편 -->
+- [x] deferasirox — Lymphoma에 듣는다 — 림프종 치료 결과가 아닌 혈액질환 철과부하 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 67건 · 논문 15편 -->
+- [x] deferasirox — Iron Overload에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 37건 · 논문 877편 -->
+- [x] deferasirox — Myelodysplastic Syndrome에 듣는다 — MDS 자체 치료가 아닌 철과부하 보조 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 26건 · 논문 191편 -->
+- [x] deferasirox — Thalassemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 25건 · 논문 625편 -->
+- [x] palmitoylethanolamide — Autism에 듣는다 — 보조요법 무작위시험 항목 생성 palmitoylethanolamide-autism-pos(2026-08-05)  <!-- 시험 3건 · 논문 23편 -->
+- [x] pyridoxine — HIV에 듣는다 — HIV 치료가 아니라 결핵 예방·신경병증 보조 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 14건 · 논문 71편 -->
+- [x] pyridoxine — Breast Cancer에 듣는다 — 고용량 병용 단일군 항목 생성 pyridoxine-breast-cancer-open(2026-08-05)  <!-- 시험 10건 · 논문 57편 -->
+- [x] pyridoxine — Lymphoma에 듣는다 — 림프종 치료가 아니라 항암 부작용 보조 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 4건 · 논문 50편 -->
+- [x] pyridoxine — Nausea에 듣는다 — 임신 오심·구토 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 233편 -->
+- [x] silymarin — Liver Diseases에 듣는다 — NASH 무작위시험 음성 항목 생성 silymarin-nash-null(2026-08-05)  <!-- 시험 7건 · 논문 1867편 -->
+- [x] silymarin — Tuberculosis에 듣는다 — 항결핵약 간독성 예방 항목 생성 silymarin-tuberculosis-pos(2026-08-05)  <!-- 시험 3건 · 논문 47편 -->
+- [x] silymarin — Breast Cancer에 듣는다 — 등록 연구와 전임상 연구만 확인, 사람 결과 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 129편 -->
+- [x] silymarin — HIV Infection에 듣는다 — HIV 치료가 아닌 약물상호작용·약동학 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 13편 -->
+- [x] sotalol — Ventricular Arrythmia에 듣는다 — 허가·표준 항부정맥 적응증(2026-08-05)  <!-- 시험 12건 · 논문 1073편 -->
+- [x] sotalol — Arrhythmia에 듣는다 — 허가·표준 항부정맥 적응증(2026-08-05)  <!-- 시험 7건 · 논문 2236편 -->
+- [x] sotalol — Heart Arrest에 듣는다 — 심정지 자체가 아니라 재발성 심실빈맥 환자 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 5건 · 논문 151편 -->
+- [x] sotalol — Death, Sudden에 듣는다 — 돌연사 예방을 직접 평가한 허가 밖 결과가 부족해 항목 없음(2026-08-05)  <!-- 시험 5건 · 논문 237편 -->
+- [x] tibolone — Breast Cancer에 듣는다 — 유방암 치료 후 증상 사용의 재발 위험 항목 생성 tibolone-breast-cancer-harm(2026-08-05)  <!-- 시험 3건 · 논문 255편 -->
+- [x] tibolone — Vasomotor Symptoms에 듣는다 — 허가·표준 폐경 증상 적응증(2026-08-05)  <!-- 시험 3건 · 논문 76편 -->
+- [x] tibolone — Menopausal Syndrome에 듣는다 — 허가·표준 폐경 증상 적응증(2026-08-05)  <!-- 시험 3건 · 논문 46편 -->
+- [x] toremifene — Neoplasms, Hormone-Dependent에 듣는다 — 유방암 치료 허가·표준 항에스트로겐 적응증(2026-08-05)  <!-- 시험 3건 · 논문 44편 -->
+- [x] xylometazoline — Rhinitis에 듣는다 — 허가·표준 비충혈 제거 적응증(2026-08-05)  <!-- 시험 3건 · 논문 92편 -->

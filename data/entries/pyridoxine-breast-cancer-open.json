@@ -1,0 +1,28 @@
+{
+  "id": "pyridoxine-breast-cancer-open",
+  "subj": "피리독신",
+  "claim": "진행성 유방암 항암요법에 고용량 피리독신을 더한다",
+  "line": "5-FU·폴린산 병용 항암요법에 더한 소규모 단일군 시험에서 반응 신호가 있었지만 대조군은 없었습니다",
+  "effect": "26/27명 반응",
+  "tier": "trial",
+  "dir": "open",
+  "n": 27,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "피리독신의 허가 적응증은 비타민 B6 결핍 등이며 고용량 병용을 통한 유방암 치료는 허가 적응증이 아닙니다.",
+  "why": "비타민 B6의 대사 보조 작용을 이용해 5-FU·폴린산 항암요법의 종양 반응을 높이려 한 사례입니다.",
+  "saw": "진행성 유방암 환자 27명에게 고용량 피리독신을 5-FU·폴린산 및 여러 항암제와 함께 투여한 단일군 연구에서 26명이 반응했습니다. 이전 치료 환자도 포함됐지만 피리독신만의 효과를 분리할 수 없습니다.",
+  "limit": "표본이 매우 작고 항암제가 여러 개 병용됐으며 무작위 대조군이 없어 반응률만으로 피리독신의 항암 효과를 판단할 수 없습니다.",
+  "against": "후속 대조 임상시험이 부족하고 비타민 B6가 항암제 반응을 높인다는 결과는 확립되지 않았습니다.",
+  "use": "고용량 피리독신을 유방암 항암요법에 더한 초기 단일군 신호로만 기록하며 표준 치료로 확대하지 않습니다.",
+  "refs": [
+    { "label": "진행성 유방암 5-FU·폴린산·피리독신 병용 연구", "pmid": "35641554" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pyridoxine · cond=Breast Cancer → 7건 반환, 물질 대조 후 3건",
+    "pubmed": "pyridoxine AND Breast Cancer → 57편",
+    "negative": "pyridoxine AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 52편",
+    "safety": "pyridoxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2655편"
+  }
+}

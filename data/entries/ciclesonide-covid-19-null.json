@@ -1,0 +1,29 @@
+{
+  "id": "ciclesonide-covid-19-null",
+  "subj": "시클레소니드",
+  "claim": "코로나19 외래 치료에 시클레소니드를 쓴다",
+  "line": "젊고 건강한 외래 환자 무작위시험에서 7일 증상 소실은 위약과 다르지 않았습니다",
+  "effect": "7일 소실 40% vs 35%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 203,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "시클레소니드의 허가 적응증은 천식·알레르기 비염 등이며 코로나19 치료는 허가 적응증이 아닙니다.",
+  "why": "흡입 스테로이드의 기도 염증 억제 효과를 코로나19 외래 치료로 전환한 시도입니다.",
+  "saw": "CONTAIN 무작위 이중눈가림시험에서 시클레소니드군 105명 중 42명(40%), 위약군 98명 중 34명(35%)이 7일에 증상이 소실됐고 조정 위험차는 5.5%(95% CI -7.8~18.8)로 유의하지 않았습니다.",
+  "limit": "시험이 조기 중단됐고 주로 동반질환이 적은 젊은 외래 환자여서 중증 위험군이나 입원 치료에 적용할 수 없습니다.",
+  "against": "후속 메타분석과 다른 흡입 스테로이드 연구는 결과가 섞여 있어 특정 환자군의 이득을 완전히 배제하지는 않습니다.",
+  "use": "코로나19에 흡입 시클레소니드를 추가하려는 초기 임상 근거가 뚜렷한 증상 개선으로 이어지지 않았음을 기록합니다.",
+  "refs": [
+    { "label": "CONTAIN 코로나19 시클레소니드 무작위시험", "pmid": "34728476", "nct": "NCT04435795" },
+    { "label": "코로나19 외래 시클레소니드 메타분석", "pmid": "35995666" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=ciclesonide · cond=COVID-19 → 7건 반환, 물질 대조 후 6건",
+    "pubmed": "ciclesonide AND COVID-19 → 89편",
+    "negative": "ciclesonide AND COVID-19 AND (no effect OR did not OR failed to OR negative OR no significant difference) → 51편",
+    "safety": "ciclesonide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 233편"
+  }
+}
