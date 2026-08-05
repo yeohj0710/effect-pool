@@ -1,0 +1,31 @@
+{
+  "id": "desmopressin-blood-loss-surgical-open",
+  "subj": "데스모프레신",
+  "claim": "수술 전에 데스모프레신으로 수술 중 출혈을 줄이는가",
+  "line": "데스모프레신은 기능성 부비동 수술의 수술 중 출혈을 줄일 수 있습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 380,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "혈우병 A·폰빌레브란트병 지혈에는 허가됐지만, 일반 수술의 출혈 감소는 표준적 보조 사용으로 연구되는 범위입니다.",
+  "why": "혈소판의 von Willebrand factor 방출을 늘려 수술 시 출혈을 줄일 수 있다는 기전이 있습니다.",
+  "saw": "기능성 부비동 수술 5개 무작위시험 380명 메타분석에서 수술 중 출혈이 대조군보다 37.97mL 적었습니다. 단일 60명 시험에서도 147mL 대 212mL였지만, 심장수술 근거에서는 수혈 감소가 일관되지 않았습니다.",
+  "limit": "부비동 수술 중심의 소규모 연구이며, 수술 시간과 임상적 이득은 일관되지 않습니다. 혈압 상승과 저나트륨혈증을 감시해야 합니다.",
+  "against": "부비동 수술 메타분석은 출혈량은 줄였지만 유의한 임상적 이득은 확인하지 못했다고 결론냈습니다.",
+  "use": "수술 종류·출혈 위험·심혈관 상태를 고려해 마취과가 제한적으로 판단하며 routine 수혈 대체제로 쓰지 않습니다.",
+  "effect": "수술 출혈 MD -37.97 mL",
+  "refs": [
+    { "label": "Alrajhi 2023 · Clinical Otolaryngology · FESS RCT 메타분석", "pmid": "36536598" },
+    { "label": "Safaeian 2021 · Journal of Anaesthesiology · FESS RCT", "pmid": "34349377" },
+    { "label": "Akbarpour 2022 · Laryngoscope Investigative Otolaryngology · FESS RCT", "pmid": "36000037" },
+    { "label": "Kim 2024 · Journal of Rhinology · 비강 수술 메타분석", "pmid": "39664036" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=desmopressin, cond=Blood Loss, Surgical · 6건 중 6건 직접 확인",
+    "pubmed": "desmopressin AND Blood Loss, Surgical · 267건",
+    "negative": "desmopressin AND Blood Loss, Surgical AND (no effect OR did not OR failed to OR negative OR no significant difference) · 203건",
+    "safety": "desmopressin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2354건"
+  }
+}

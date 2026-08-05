@@ -1,0 +1,30 @@
+{
+  "id": "nitrofurantoin-antibiotic-prophylaxis-open",
+  "subj": "니트로푸란토인",
+  "claim": "재발성 요로감염의 항생제 예방에 니트로푸란토인을 사용하는가",
+  "line": "니트로푸란토인은 재발성 요로감염을 예방하지만 장기 이상반응을 감수해야 합니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 3052,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "재발성 요로감염의 저용량 예방은 임상에서 표준적으로 사용되지만, 급성 방광염 치료와 별도의 예방 사용입니다.",
+  "why": "저용량을 반복 투여해 재발 시 세균이 증식하기 전에 요로감염을 억제합니다.",
+  "saw": "26개 대조시험 3,052명 메타분석에서 니트로푸란토인은 무예방보다 재발성 요로감염을 줄였고 RR은 0.38(95% CI 0.30–0.48)이었습니다. 다른 항생제와 예방효과는 비슷했지만 비중증 이상반응 위험은 2.24배였습니다.",
+  "limit": "연구 질이 낮고 장기 사용에서 간독성·폐독성 위험이 누적될 수 있습니다. 예방효과가 내성·이상반응의 장기 비용을 상쇄하는지는 환자별로 다릅니다.",
+  "against": "항생제 예방은 위약보다 효과적이지만, 다른 항생제보다 우월하지 않고 장기 독성이 문제입니다.",
+  "use": "재발 횟수·배양 결과·신기능을 확인한 뒤 제한된 기간 사용하며, 간·폐 증상이 생기면 즉시 재평가합니다.",
+  "effect": "재발 UTI RR 0.38",
+  "refs": [
+    { "label": "Bogaard 2017 · Journal of Antimicrobial Chemotherapy · 예방 메타분석", "pmid": "27542332" },
+    { "label": "Jent 2022 · Open Forum Infectious Diseases · 항생제 예방 메타분석", "pmid": "35899289" },
+    { "label": "Kranjčec 2014 · World Journal of Urology · 여성 RCT", "pmid": "23633128" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=nitrofurantoin, cond=Antibiotic Prophylaxis · 18건 중 9건 직접 확인",
+    "pubmed": "nitrofurantoin AND Antibiotic Prophylaxis · 150건",
+    "negative": "nitrofurantoin AND Antibiotic Prophylaxis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 110건",
+    "safety": "nitrofurantoin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1559건"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lisinopril-nephropathy-pos",
+  "subj": "리시노프릴",
+  "claim": "단백뇨성 신병증에 리시노프릴을 사용하는가",
+  "line": "리시노프릴 단독요법은 경증 소아 IgA 신병증의 단백뇨를 줄였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 63,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "ACE 억제제의 단백뇨성 신병증 사용은 임상 표준이지만, 리시노프릴의 모든 신병증 적응증이 허가된 것은 아닙니다.",
+  "why": "ACE 억제로 사구체 내 압력을 낮추면 단백뇨와 신장 손상 진행을 줄일 수 있습니다.",
+  "saw": "단백뇨성 경증 IgA 신병증 소아 63명 무작위시험에서 리시노프릴 단독군의 24개월 단백뇨 소실률은 89%였고, 리시노프릴·로사르탄 병용군과 차이가 없었습니다.",
+  "limit": "소아 경증 IgA 신병증 단일시험이며, 당뇨병성·중증 신병증이나 장기 신기능 보존을 입증한 연구는 아닙니다.",
+  "against": "병용요법은 리시노프릴 단독보다 단백뇨 소실을 더 높이지 못했습니다.",
+  "use": "단백뇨성 신병증에서 혈압·칼륨·크레아티닌을 추적하며, 신장내과가 ACE 억제제 표준치료의 일부로 판단합니다.",
+  "effect": "24개월 단백뇨 소실 89%",
+  "refs": [
+    { "label": "Shima 2019 · Pediatric Nephrology · JSKDC01 무작위시험", "pmid": "30284023" },
+    { "label": "Salem 2021 · Hormone and Metabolic Research · 당뇨병성 신병증 RCT", "pmid": "34282598" },
+    { "label": "소아 IgA 신병증 ACE 억제제 시험", "nct": "NCT00171574" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=lisinopril, cond=Nephropathy · 24건 중 17건 직접 확인",
+    "pubmed": "lisinopril AND Nephropathy · 535건",
+    "negative": "lisinopril AND Nephropathy AND (no effect OR did not OR failed to OR negative OR no significant difference) · 429건",
+    "safety": "lisinopril AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1260건"
+  }
+}

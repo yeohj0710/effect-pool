@@ -8584,36 +8584,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cilostazol — Aneurysm, Cerebral에 듣는다  <!-- 시험 22건 · 논문 52편 -->
 - [x] cilostazol — Claudication에 듣는다  <!-- 시험 14건 · 논문 347편 --> — 허가 적응증(2026-08-05)
 - [x] cilostazol — Type 2 Diabetes에 듣는다  <!-- 시험 10건 · 논문 83편 -->
-- [ ] desmopressin — Nocturia에 듣는다  <!-- 시험 20건 · 논문 284편 -->
-- [ ] desmopressin — Bleeding에 듣는다  <!-- 시험 6건 · 논문 1721편 -->
-- [ ] desmopressin — Kidney Biopsy에 듣는다  <!-- 시험 6건 · 논문 144편 -->
-- [ ] desmopressin — Blood Loss, Surgical에 듣는다  <!-- 시험 5건 · 논문 267편 -->
-- [ ] dulaglutide — Obesity에 듣는다  <!-- 시험 7건 · 논문 293편 -->
-- [ ] dulaglutide — Overweight에 듣는다  <!-- 시험 4건 · 논문 100편 -->
-- [ ] dulaglutide — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 267편 -->
-- [ ] dulaglutide — Glucose, High Blood에 듣는다  <!-- 시험 3건 · 논문 48편 -->
-- [ ] edoxaban — Thromboembolism에 듣는다  <!-- 시험 21건 · 논문 1250편 -->
-- [ ] edoxaban — Stroke에 듣는다  <!-- 시험 18건 · 논문 1252편 -->
-- [ ] edoxaban — Embolism에 듣는다  <!-- 시험 10건 · 논문 801편 -->
-- [ ] edoxaban — Thrombosis에 듣는다  <!-- 시험 9건 · 논문 914편 -->
-- [ ] fremanezumab — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 20편 -->
-- [ ] lisinopril — Diabetes에 듣는다  <!-- 시험 12건 · 논문 427편 -->
-- [ ] lisinopril — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 501편 -->
-- [ ] lisinopril — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 14편 -->
-- [ ] lisinopril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 535편 -->
-- [ ] nabilone — Cannabis에 듣는다  <!-- 시험 4건 · 논문 181편 -->
-- [ ] nitrofurantoin — Cystitis에 듣는다  <!-- 시험 7건 · 논문 376편 -->
-- [ ] nitrofurantoin — Antibiotic Prophylaxis에 듣는다  <!-- 시험 3건 · 논문 150편 -->
-- [ ] nitrofurantoin — Pregnancy Complications에 듣는다  <!-- 시험 3건 · 논문 224편 -->
-- [ ] olmesartan — Diabetes에 듣는다  <!-- 시험 6건 · 논문 347편 -->
-- [ ] olmesartan — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 1043편 -->
-- [ ] olmesartan — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 88편 -->
-- [ ] olmesartan — Dyslipidemias에 듣는다  <!-- 시험 3건 · 논문 45편 -->
-- [ ] paliperidone — Schizoaffective Disorder에 듣는다  <!-- 시험 14건 · 논문 328편 -->
-- [ ] paliperidone — Bipolar Disorder에 듣는다  <!-- 시험 14건 · 논문 156편 -->
-- [ ] paliperidone — Psychotic Disorder에 듣는다  <!-- 시험 11건 · 논문 291편 -->
-- [ ] paliperidone — Antipsychotic에 듣는다  <!-- 시험 5건 · 논문 1943편 -->
-- [ ] ranolazine — Coronary Artery Disease에 듣는다  <!-- 시험 16건 · 논문 196편 -->
+- [x] desmopressin — Nocturia에 듣는다  <!-- 시험 20건 · 논문 284편 --> — 허가 적응증(2026-08-05)
+- [x] desmopressin — Bleeding에 듣는다  <!-- 시험 6건 · 논문 1721편 --> — 허가 적응증(2026-08-05)
+- [x] desmopressin — Kidney Biopsy에 듣는다  <!-- 시험 6건 · 논문 144편 -->
+- [x] desmopressin — Blood Loss, Surgical에 듣는다  <!-- 시험 5건 · 논문 267편 -->
+- [x] dulaglutide — Obesity에 듣는다  <!-- 시험 7건 · 논문 293편 -->
+- [x] dulaglutide — Overweight에 듣는다  <!-- 시험 4건 · 논문 100편 -->
+- [x] dulaglutide — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 267편 --> — 허가 적응증(2026-08-05)
+- [x] dulaglutide — Glucose, High Blood에 듣는다  <!-- 시험 3건 · 논문 48편 --> — 허가 적응증(2026-08-05)
+- [x] edoxaban — Thromboembolism에 듣는다  <!-- 시험 21건 · 논문 1250편 --> — 허가 적응증(2026-08-05)
+- [x] edoxaban — Stroke에 듣는다  <!-- 시험 18건 · 논문 1252편 --> — 허가 적응증(2026-08-05)
+- [x] edoxaban — Embolism에 듣는다  <!-- 시험 10건 · 논문 801편 --> — 허가 적응증(2026-08-05)
+- [x] edoxaban — Thrombosis에 듣는다  <!-- 시험 9건 · 논문 914편 --> — 허가 적응증(2026-08-05)
+- [x] fremanezumab — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [x] lisinopril — Diabetes에 듣는다  <!-- 시험 12건 · 논문 427편 --> — 근거 없음(당뇨병 자체 치료가 아니라 혈압·신장 합병증 자료만 확인)
+- [x] lisinopril — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 501편 --> — 허가 적응증(2026-08-05)
+- [x] lisinopril — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 14편 -->
+- [x] lisinopril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 535편 -->
+- [x] nabilone — Cannabis에 듣는다  <!-- 시험 4건 · 논문 181편 -->
+- [x] nitrofurantoin — Cystitis에 듣는다  <!-- 시험 7건 · 논문 376편 --> — 허가 적응증(2026-08-05)
+- [x] nitrofurantoin — Antibiotic Prophylaxis에 듣는다  <!-- 시험 3건 · 논문 150편 -->
+- [x] nitrofurantoin — Pregnancy Complications에 듣는다  <!-- 시험 3건 · 논문 224편 --> — 근거 없음(임신 합병증 치료가 아니라 임신 중 요로감염 자료와 안전성 연구뿐)
+- [x] olmesartan — Diabetes에 듣는다  <!-- 시험 6건 · 논문 347편 -->
+- [x] olmesartan — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 1043편 --> — 근거 없음(혈압 조절 연구는 있으나 심혈관질환 자체의 치료효과 없음)
+- [x] olmesartan — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 88편 -->
+- [x] olmesartan — Dyslipidemias에 듣는다  <!-- 시험 3건 · 논문 45편 --> — 근거 없음(지질 개선은 스타틴 병용시험이고 올메사르탄 단독효과 없음)
+- [x] paliperidone — Schizoaffective Disorder에 듣는다  <!-- 시험 14건 · 논문 328편 --> — 허가 적응증(2026-08-05)
+- [x] paliperidone — Bipolar Disorder에 듣는다  <!-- 시험 14건 · 논문 156편 -->
+- [x] paliperidone — Psychotic Disorder에 듣는다  <!-- 시험 11건 · 논문 291편 --> — 허가 적응증(2026-08-05)
+- [x] paliperidone — Antipsychotic에 듣는다  <!-- 시험 5건 · 논문 1943편 --> — 근거 없음(치료 대상이 아닌 약물 분류명이라 독립 평가변수 없음)
+- [x] ranolazine — Coronary Artery Disease에 듣는다  <!-- 시험 16건 · 논문 196편 --> — 허가 적응증(2026-08-05)
 - [ ] ranolazine — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 37편 -->
 - [ ] ranolazine — Myocardial Ischemia에 듣는다  <!-- 시험 10건 · 논문 561편 -->
 - [ ] ranolazine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 206편 -->

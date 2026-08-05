@@ -1,0 +1,31 @@
+{
+  "id": "desmopressin-kidney-biopsy-null",
+  "subj": "데스모프레신",
+  "claim": "신장 생검 전에 데스모프레신으로 출혈을 예방하는가",
+  "line": "신장 생검 전 데스모프레신은 출혈을 일관되게 줄이지 못합니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 2470,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가사항은 요붕증·야뇨증과 혈우병 A·폰빌레브란트병의 지혈이며, 신장 생검 전 예방은 허가 밖입니다.",
+  "why": "데스모프레신은 요독성 혈소판 기능장애를 줄일 수 있지만, 생검 전 예방 효과와 저나트륨혈증 위험을 함께 평가해야 합니다.",
+  "saw": "2025년 9개 연구 2,470명 메타분석에서 전체 출혈 RR은 0.61(95% CI 0.33–1.11)이었고 무작위시험만 보면 RR 0.87(0.10–7.69)로 유의하지 않았습니다. 저나트륨혈증은 데스모프레신군에서 더 많았습니다.",
+  "limit": "연구 간 신기능·투여 경로·출혈 정의가 달랐고, 무작위시험 수가 적습니다. 신기능이 나쁜 고위험군의 관찰연구 신호를 일반 환자에게 적용할 수 없습니다.",
+  "against": "269명 후향 코호트에서는 생검 후 출혈 odds가 증가했고, 3,018명 연구에서는 주요 출혈 차이가 없었습니다.",
+  "use": "routine 예방으로 쓰지 않으며, 신장내과가 출혈 위험·신기능·수분 제한과 저나트륨혈증 위험을 함께 판단합니다.",
+  "effect": "전체 출혈 RR 0.61(NS)",
+  "refs": [
+    { "label": "Liu 2025 · Kidney International Reports · 고위험 신장 생검 메타분석", "pmid": "40887459" },
+    { "label": "Mohan 2020 · Cochrane Database · 신장 생검 체계적 고찰", "pmid": "32040251" },
+    { "label": "Mohan 2019 · Kidney International Reports · 저나트륨혈증 코호트", "pmid": "31028561" },
+    { "label": "Kumar 2022 · Clinical Kidney Journal · 무작위 파일럿", "pmid": "39114394" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=desmopressin, cond=Kidney Biopsy · 3건 중 2건 직접 확인",
+    "pubmed": "desmopressin AND Kidney Biopsy · 144건",
+    "negative": "desmopressin AND Kidney Biopsy AND (no effect OR did not OR failed to OR negative OR no significant difference) · 99건",
+    "safety": "desmopressin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2354건"
+  }
+}
