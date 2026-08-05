@@ -7928,16 +7928,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] trazodone — Mild Cognitive Impairment에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 35편 -->
 - [x] trazodone — Wounds and Injury에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 39편 -->
 - [x] trazodone — Pain에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 161편 -->
-- [ ] trazodone — Bioavailability에 듣는다  <!-- 시험 3건 · 논문 22편 -->
-- [ ] quetiapine — Depression에 듣는다  <!-- 시험 20건 · 논문 1579편 -->
-- [ ] quetiapine — Psychotic Disorder에 듣는다  <!-- 시험 18건 · 논문 998편 -->
-- [ ] quetiapine — Delirium에 듣는다  <!-- 시험 16건 · 논문 285편 -->
-- [ ] quetiapine — Alcohol Abuse에 듣는다  <!-- 시험 15건 · 논문 116편 -->
-- [ ] spironolactone — Diabetes에 듣는다  <!-- 시험 11건 · 논문 962편 -->
-- [ ] spironolactone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 9건 · 논문 238편 -->
-- [ ] spironolactone — Aldosteronism에 듣는다  <!-- 시험 8건 · 논문 4291편 -->
-- [ ] spironolactone — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 199편 -->
-- [ ] doxycycline — Lyme Disease에 듣는다  <!-- 시험 11건 · 논문 848편 -->
+- [x] trazodone — Bioavailability에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 3건 · 논문 22편 -->
+- [x] quetiapine — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 20건 · 논문 1579편 -->
+- [x] quetiapine — Psychotic Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 18건 · 논문 998편 -->
+- [x] quetiapine — Delirium에 듣는다  <!-- 시험 16건 · 논문 285편 -->
+- [x] quetiapine — Alcohol Abuse에 듣는다  <!-- 시험 15건 · 논문 116편 -->
+- [x] spironolactone — Diabetes에 듣는다  <!-- 시험 11건 · 논문 962편 -->
+- [x] spironolactone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 9건 · 논문 238편 -->
+- [x] spironolactone — Aldosteronism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 4291편 -->
+- [x] spironolactone — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 199편 -->
+- [x] doxycycline — Lyme Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 848편 -->
 - [ ] doxycycline — Chlamydia에 듣는다  <!-- 시험 11건 · 논문 1187편 -->
 - [ ] doxycycline — Erythema Migrans에 듣는다  <!-- 시험 10건 · 논문 247편 -->
 - [ ] doxycycline — Sexually Transmitted Diseases에 듣는다  <!-- 시험 10건 · 논문 1515편 -->
