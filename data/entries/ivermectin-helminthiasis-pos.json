@@ -1,0 +1,29 @@
+{
+  "id": "ivermectin-helminthiasis-pos",
+  "subj": "이버멕틴",
+  "claim": "이버멕틴과 알벤다졸 병용을 토양매개 기생충 감염에 쓴다",
+  "line": "토양매개 기생충 메타분석에서 병용은 편충 치유율을 높였지만 회충에는 차이가 없었습니다.",
+  "effect": "편충 치유 RR 2.70",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 5720,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "이버멕틴 허가 적응증에는 토양매개 기생충 병용요법이 포함되지 않는다.",
+  "why": "토양매개 기생충 감염 환자에서 이버멕틴·알벤다졸 병용과 단독요법을 비교한 무작위시험 메타분석입니다.",
+  "saw": "12개 무작위시험 5720명에서 이버멕틴·알벤다졸 병용은 알벤다졸 단독보다 편충 치유율을 높였고(RR 2.70), 회충과 구충 치유율은 단독요법과 유의한 차이가 없었습니다.",
+  "limit": "효과는 편충에 집중됐고, 회충·구충 결과는 병용 우월성을 보이지 않았습니다. 병용은 이버멕틴 단독의 효과를 뜻하지 않습니다.",
+  "against": "더 이른 메타분석도 편충에서는 병용이 우월했지만 회충에서는 차이가 없었습니다.",
+  "use": "토양매개 기생충 전체에 병용 효과를 일반화하지 않고, 편충에서만 추가 검증이 필요한 신호로 사용합니다.",
+  "refs": [
+    { "label": "2025 · 토양매개 기생충 이버멕틴·알벤다졸 병용 메타분석", "pmid": "41052703" },
+    { "label": "2024 · 토양매개 기생충 병용요법 메타분석", "pmid": "39833059" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=ivermectin · cond=Helminthiasis → 60건 반환, 물질 대조 후 49건",
+    "pubmed": "ivermectin AND Helminthiasis → 4394편",
+    "negative": "ivermectin AND Helminthiasis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2753편",
+    "safety": "ivermectin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3650편"
+  }
+}

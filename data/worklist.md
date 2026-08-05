@@ -9264,28 +9264,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dextromethorphan — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(동물 뇌허혈·외상 연구 중심)
 - [x] hydroxychloroquine — HIV Infection에 듣는다  <!-- 시험 41건 · 논문 140편 --> — 근거 항목(2026-08-05)
 - [x] hydroxychloroquine — Crohn's Disease에 듣는다  <!-- 시험 10건 · 논문 23편 --> — 근거 항목(2026-08-05)
-- [ ] hydroxychloroquine — Lung Neoplasms에 듣는다  <!-- 시험 10건 · 논문 82편 -->
-- [ ] ivermectin — Ascariasis에 듣는다  <!-- 시험 5건 · 논문 67편 -->
-- [ ] ivermectin — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 4394편 -->
-- [ ] ivermectin — Parasitic Diseases에 듣는다  <!-- 시험 4건 · 논문 6458편 -->
-- [ ] ivermectin — Severe Acute Respiratory Syndrome에 듣는다  <!-- 시험 4건 · 논문 130편 -->
-- [ ] ketamine — Opioid에 듣는다  <!-- 시험 25건 · 논문 4690편 -->
-- [ ] ketamine — Delirium에 듣는다  <!-- 시험 15건 · 논문 513편 -->
-- [ ] ketamine — Amputation, Traumatic에 듣는다  <!-- 시험 14건 · 논문 8편 -->
-- [ ] ketamine — Sleep에 듣는다  <!-- 시험 14건 · 논문 858편 -->
-- [ ] minocycline — Schizophrenia에 듣는다  <!-- 시험 13건 · 논문 145편 -->
-- [ ] minocycline — Rosacea에 듣는다  <!-- 시험 12건 · 논문 187편 -->
-- [ ] minocycline — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 110편 -->
-- [ ] minocycline — Pain에 듣는다  <!-- 시험 10건 · 논문 770편 -->
-- [ ] modafinil — Brain Tumor에 듣는다  <!-- 시험 6건 · 논문 32편 -->
-- [ ] modafinil — Major Depressive Disorder에 듣는다  <!-- 시험 5건 · 논문 93편 -->
-- [ ] modafinil — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 76편 -->
-- [ ] naltrexone — Overweight에 듣는다  <!-- 시험 6건 · 논문 418편 -->
-- [ ] naltrexone — Fibromyalgia에 듣는다  <!-- 시험 6건 · 논문 96편 -->
-- [ ] naltrexone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 82편 -->
-- [ ] naltrexone — Narcotic Abuse에 듣는다  <!-- 시험 6건 · 논문 2253편 -->
-- [ ] ramelteon — Obstructive Sleep Apnea에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] ramelteon — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [x] hydroxychloroquine — Lung Neoplasms에 듣는다 — 기존 hydroxychloroquine-cancer-null로 처리(2026-08-05)  <!-- 시험 10건 · 논문 82편 -->
+- [x] ivermectin — Ascariasis에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [x] ivermectin — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 4394편 -->
+- [x] ivermectin — Parasitic Diseases에 듣는다 — 기존 ivermectin 기생충 감염 항목으로 처리(2026-08-05)  <!-- 시험 4건 · 논문 6458편 -->
+- [x] ivermectin — Severe Acute Respiratory Syndrome에 듣는다  <!-- 시험 4건 · 논문 130편 -->
+- [x] ketamine — Opioid에 듣는다 — 기존 ketamine-opioid-use-null로 처리(2026-08-05)  <!-- 시험 25건 · 논문 4690편 -->
+- [x] ketamine — Delirium에 듣는다  <!-- 시험 15건 · 논문 513편 -->
+- [x] ketamine — Amputation, Traumatic에 듣는다  <!-- 시험 14건 · 논문 8편 -->
+- [x] ketamine — Sleep에 듣는다  <!-- 시험 14건 · 논문 858편 -->
+- [x] minocycline — Schizophrenia에 듣는다  <!-- 시험 13건 · 논문 145편 -->
+- [x] minocycline — Rosacea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 187편 -->
+- [x] minocycline — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 110편 -->
+- [x] minocycline — Pain에 듣는다  <!-- 시험 10건 · 논문 770편 -->
+- [x] modafinil — Brain Tumor에 듣는다  <!-- 시험 6건 · 논문 32편 -->
+- [x] modafinil — Major Depressive Disorder에 듣는다 — 기존 modafinil-depression-pos로 처리(2026-08-05)  <!-- 시험 5건 · 논문 93편 -->
+- [x] modafinil — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 76편 -->
+- [x] naltrexone — Overweight에 듣는다 — 기존 naltrexone-obesity로 처리(2026-08-05)  <!-- 시험 6건 · 논문 418편 -->
+- [x] naltrexone — Fibromyalgia에 듣는다 — 기존 naltrexone-fibromyalgia-null로 처리(2026-08-05)  <!-- 시험 6건 · 논문 96편 -->
+- [x] naltrexone — Major Depressive Disorder에 듣는다 — 기존 naltrexone-depression-null로 처리(2026-08-05)  <!-- 시험 6건 · 논문 82편 -->
+- [x] naltrexone — Narcotic Abuse에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 2253편 -->
+- [x] ramelteon — Obstructive Sleep Apnea에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [x] ramelteon — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9296,10 +9296,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tranexamic acid — Fracture에 듣는다  <!-- 시험 14건 · 논문 354편 -->
-- [ ] tranexamic acid — Brain Injuries에 듣는다  <!-- 시험 13건 · 논문 199편 -->
-- [ ] tranexamic acid — Surgical Wound에 듣는다  <!-- 시험 13건 · 논문 284편 -->
-- [ ] tranexamic acid — ACL Injury에 듣는다  <!-- 시험 12건 · 논문 15편 -->
+- [x] tranexamic acid — Fracture에 듣는다 — 기존 tranexamic-acid-hip-fracture로 처리(2026-08-05)  <!-- 시험 14건 · 논문 354편 -->
+- [x] tranexamic acid — Brain Injuries에 듣는다  <!-- 시험 13건 · 논문 199편 -->
+- [x] tranexamic acid — Surgical Wound에 듣는다  <!-- 시험 13건 · 논문 284편 -->
+- [x] tranexamic acid — ACL Injury에 듣는다  <!-- 시험 12건 · 논문 15편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9310,7 +9310,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] moxifloxacin — Pneumonia에 듣는다  <!-- 시험 24건 · 논문 1200편 -->
-- [ ] moxifloxacin — Conjunctivitis에 듣는다  <!-- 시험 22건 · 논문 134편 -->
-- [ ] moxifloxacin — Healthy Male에 듣는다  <!-- 시험 21건 · 논문 385편 -->
-- [ ] moxifloxacin — Infection에 듣는다  <!-- 시험 21건 · 논문 5315편 -->
+- [x] moxifloxacin — Pneumonia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 24건 · 논문 1200편 -->
+- [x] moxifloxacin — Conjunctivitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 134편 -->
+- [x] moxifloxacin — Healthy Male에 듣는다  <!-- 시험 21건 · 논문 385편 -->
+- [x] moxifloxacin — Infection에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 21건 · 논문 5315편 -->

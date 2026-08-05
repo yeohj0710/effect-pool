@@ -1,0 +1,29 @@
+{
+  "id": "minocycline-hiv-infection-lab",
+  "subj": "미노사이클린",
+  "claim": "미노사이클린의 면역조절 작용을 HIV 감염·잠복 재활성화 억제에 쓴다",
+  "line": "사람 CD4 양성 T세포 모델에서 미노사이클린은 HIV 복제와 잠복 재활성화를 줄였습니다.",
+  "effect": "HIV RNA·재활성화↓",
+  "tier": "lab",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "미노사이클린 허가는 세균 감염이고 HIV 치료·잠복 재활성화 억제는 포함하지 않는다.",
+  "why": "사람 CD4 양성 T세포와 HIV 감염 환자에서 얻은 휴지기 CD4 세포를 사용한 세포·시험관 연구입니다.",
+  "saw": "미노사이클린은 CXCR4 친화 HIV의 단일주기 감염과 감염 후 바이러스 RNA를 용량 의존적으로 줄였고, 일차 CD4 T세포 모델과 환자 유래 휴지기 CD4 세포에서 잠복 재활성화도 억제했습니다.",
+  "limit": "사람 세포를 사용했지만 환자에게 투여한 임상시험이 아닙니다. 세포 활성·증식·사이토카인 억제가 면역억제로 이어질 가능성도 평가해야 합니다.",
+  "against": "찾아봤지만 미노사이클린이 HIV 환자의 바이러스량이나 임상 결과를 개선했다는 임상시험은 확인하지 못했습니다.",
+  "use": "항레트로바이러스 치료를 대신하는 근거가 아니라, 면역조절 부수 작용을 검증할 세포 단계 신호로 사용합니다.",
+  "refs": [
+    { "label": "사람 CD4 T세포 미노사이클린 HIV 감염·재활성화 모델", "pmid": "20205570" },
+    { "label": "인간화 생쥐 미노사이클린 HIV 연구", "pmid": "24409837" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=minocycline · cond=HIV Infection → 3건 반환, 물질 대조 후 3건",
+    "pubmed": "minocycline AND HIV Infection → 110편",
+    "negative": "minocycline AND HIV Infection AND (no effect OR did not OR failed to OR negative OR no significant difference) → 78편",
+    "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4214편"
+  }
+}

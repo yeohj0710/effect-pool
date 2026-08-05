@@ -1,0 +1,29 @@
+{
+  "id": "tranexamic-acid-brain-injuries-pos",
+  "subj": "트라넥삼산",
+  "claim": "지혈제를 급성 외상성 뇌손상에 쓴다",
+  "line": "CRASH-3 무작위시험에서 3시간 이내 트라넥삼산은 경증·중등도 외상성 뇌손상 사망을 줄였습니다.",
+  "effect": "경증·중등도 사망 RR 0.78",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 12737,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "트라넥삼산은 출혈에 허가됐지만 급성 외상성 뇌손상은 별도 허가 적응증이 아니다.",
+  "why": "급성 외상성 뇌손상 환자에게 손상 3시간 이내 트라넥삼산을 투여한 국제 다기관 무작위 위약대조시험입니다.",
+  "saw": "12737명이 무작위 배정됐고 3시간 이내 치료군 9127명에서 전체 두부손상 사망은 18.5% 대 19.8%(RR 0.94)였습니다. GCS 3점·양측 동공 반응 소실을 제외한 분석에서는 RR 0.89, 경증·중등도 손상에서는 RR 0.78이었습니다.",
+  "limit": "전체 일차 결과는 통계적으로 유의하지 않았고 중증 손상에서는 이득이 없었습니다. 조기 투여와 손상 중증도에 따라 효과가 달라집니다.",
+  "against": "전체 조기 치료군의 사망 감소 신뢰구간은 1을 포함했습니다. 따라서 모든 외상성 뇌손상에 효과가 있다고 쓰지 않습니다.",
+  "use": "경증·중등도 외상성 뇌손상에서 조기 투여를 검증한 근거로 사용하며 중증 손상과 구분합니다.",
+  "refs": [
+    { "label": "CRASH-3 외상성 뇌손상 트라넥삼산 국제 무작위시험", "pmid": "31623894", "nct": "NCT01402882" },
+    { "label": "CRASH-3 외상성 뇌손상 사망·경제성 분석", "pmid": "33928903", "nct": "NCT01402882" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=tranexamic acid · cond=Brain Injuries → 20건 반환, 물질 대조 후 20건",
+    "pubmed": "tranexamic acid AND Brain Injuries → 199편",
+    "negative": "tranexamic acid AND Brain Injuries AND (no effect OR did not OR failed to OR negative OR no significant difference) → 116편",
+    "safety": "tranexamic acid AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3939편"
+  }
+}

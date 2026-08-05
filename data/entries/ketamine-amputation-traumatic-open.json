@@ -1,0 +1,29 @@
+{
+  "id": "ketamine-amputation-traumatic-open",
+  "subj": "케타민",
+  "claim": "케타민을 외상성 절단 뒤 외상후스트레스 예방에 쓴다",
+  "line": "전투 외상 관찰자료에서 외상성 절단을 포함한 환자의 케타민 사용과 PTSD 관계는 TBI 여부에 따라 달랐습니다.",
+  "effect": "TBI 없음 PTSD OR 0.08",
+  "tier": "obs",
+  "dir": "open",
+  "n": 213,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "케타민 허가는 마취·진통이고 외상후스트레스 예방은 별도 적응증이 아니다.",
+  "why": "중증 전투 외상 환자에서 현장 케타민 진통과 1년 PTSD 진단을 관찰한 군 의료자료 분석입니다.",
+  "saw": "약물 기록이 있는 213명 중 케타민군은 56명이었습니다. TBI가 없었던 환자에서 케타민군은 아편유사제만 받은 군보다 1년 PTSD 오즈가 낮았지만(OR 0.08), TBI가 있으면 같은 효과가 확인되지 않았습니다.",
+  "limit": "무작위시험이 아니고 케타민군이 더 심한 외상과 하지 절단을 많이 입었습니다. 외상성 절단 환자만 따로 분석한 결과가 아닙니다.",
+  "against": "프랑스 전투 외상 생존자 274명 후향 연구에서는 케타민이 PTSD의 독립 위험인자가 아니었고, 급성 스트레스와 수술 횟수가 독립 연관 요인이었습니다.",
+  "use": "외상성 절단 뒤 PTSD 예방 효과는 아직 열어둔 관찰 신호로 기록하며 예방 처치로 확정하지 않습니다.",
+  "refs": [
+    { "label": "미군 전투 외상 현장 케타민·PTSD 관찰 분석", "pmid": "35104347" },
+    { "label": "프랑스 전투 외상 케타민·PTSD 후향 연구", "pmid": "28972278" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=ketamine · cond=Amputation, Traumatic → 1건 반환, 물질 대조 후 1건",
+    "pubmed": "ketamine AND Amputation, Traumatic → 8편",
+    "negative": "ketamine AND Amputation, Traumatic AND (no effect OR did not OR failed to OR negative OR no significant difference) → 6편",
+    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9442편"
+  }
+}

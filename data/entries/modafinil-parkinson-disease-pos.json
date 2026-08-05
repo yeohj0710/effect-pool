@@ -1,0 +1,30 @@
+{
+  "id": "modafinil-parkinson-disease-pos",
+  "subj": "모다피닐",
+  "claim": "모다피닐을 파킨슨병의 과도한 주간졸림에 쓴다",
+  "line": "파킨슨병 수면장애 무작위시험 메타분석에서 모다피닐은 주간졸림을 줄였습니다.",
+  "effect": "ESS −2.24점",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 338,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "모다피닐 허가는 기면증·교대근무 수면장애이고 파킨슨병 주간졸림은 포함하지 않는다.",
+  "why": "파킨슨병 환자에서 모다피닐을 위약과 비교한 무작위시험들을 합친 체계적 문헌고찰입니다.",
+  "saw": "10개 수면장애 무작위시험 338명 중 모다피닐 3개 시험에서 Epworth 졸림척도가 위약보다 평균 2.24점 낮았습니다. 21명 교차시험에서도 모다피닐군 점수가 17.8에서 14.4로 감소했습니다.",
+  "limit": "주간졸림에는 신호가 있었지만 파킨슨병 피로 메타분석에서는 효과가 유의하지 않았습니다. 운동 증상이나 질병 진행을 치료하는 결과가 아닙니다.",
+  "against": "파킨슨병 피로 2개 시험  연구에서는 피로 효과가 유의하지 않았습니다(SMD −0.21, P=.43). 주간졸림과 피로를 구분해야 합니다.",
+  "use": "파킨슨병의 주간졸림에 한정한 보조치료 근거로 사용하며 피로·운동 증상 효과로 확대하지 않습니다.",
+  "refs": [
+    { "label": "파킨슨병 주간졸림·수면장애 약물 메타분석", "pmid": "27010071" },
+    { "label": "파킨슨병 주간졸림 모다피닐 무작위 교차시험", "pmid": "12621632" },
+    { "label": "파킨슨병 피로 모다피닐 메타분석", "pmid": "37334618" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=modafinil · cond=Parkinson Disease → 5건 반환, 물질 대조 후 4건",
+    "pubmed": "modafinil AND Parkinson Disease → 76편",
+    "negative": "modafinil AND Parkinson Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 54편",
+    "safety": "modafinil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 878편"
+  }
+}

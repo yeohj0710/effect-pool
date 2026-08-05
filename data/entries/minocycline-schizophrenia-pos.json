@@ -1,0 +1,29 @@
+{
+  "id": "minocycline-schizophrenia-pos",
+  "subj": "미노사이클린",
+  "claim": "미노사이클린의 미세아교세포 억제를 조현병 보조치료에 쓴다",
+  "line": "조현병 무작위시험 메타분석에서 미노사이클린은 음성 증상과 전체 증상을 줄였습니다.",
+  "effect": "음성 증상 SMD −0.76",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 413,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "미노사이클린 허가는 세균 감염이고 조현병 보조치료는 포함하지 않는다.",
+  "why": "조현병 환자에서 항정신병약에 미노사이클린을 추가한 위약대조 무작위시험 메타분석입니다.",
+  "saw": "6개 무작위시험에서 미노사이클린 215명과 위약 198명을 비교했습니다. 전체 PANSS(SMD −0.59), 음성 증상(SMD −0.76), 일반 증상과 임상 전반 인상이 미노사이클린에서 개선됐고 중단률은 다르지 않았습니다.",
+  "limit": "오래된 소규모 시험 6개를 합친 결과이며 양성 증상, 우울, 주의력과 기억은 유의하게 좋아지지 않았습니다. 더 큰 질 높은 시험이 필요합니다.",
+  "against": "최신 종합검토는 조현병에서 이득 신호를 인정하면서도 대부분 질환의 자료가 제한적이고 해석이 어렵다고 평가했습니다.",
+  "use": "표준 항정신병약을 대신하지 않는 보조치료 연구 결과로 기록하며, 항염 효과를 일반 조현병 치료 효과로 확대하지 않습니다.",
+  "refs": [
+    { "label": "2017 · 조현병 미노사이클린 효능·안전성 메타분석", "pmid": "28181901" },
+    { "label": "2023 · 정신·신경질환 미노사이클린 체계적 문헌고찰", "pmid": "36982324" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=minocycline · cond=Schizophrenia → 16건 반환, 물질 대조 후 15건",
+    "pubmed": "minocycline AND Schizophrenia → 145편",
+    "negative": "minocycline AND Schizophrenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 126편",
+    "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4214편"
+  }
+}
