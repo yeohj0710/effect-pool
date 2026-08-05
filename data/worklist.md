@@ -6892,16 +6892,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 시험 23건 · 논문 6549편 --> — 이미 수록됨(2026-08-05)
 - [x] propranolol — Migraine에 듣는다  <!-- 시험 30건 · 논문 773편 --> — 이미 수록됨(2026-08-05)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 시험 28건 · 논문 93편 --> — 이미 수록됨(2026-08-05)
-- [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 시험 27건 · 논문 19편 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 955편 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 시험 40건 · 논문 890편 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 2044편 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 시험 19건 · 논문 331편 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 시험 18건 · 논문 622편 -->
+- [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 시험 27건 · 논문 19편 --> — 이미 수록됨(2026-08-05)
+- [x] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 955편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Cancer에 듣는다  <!-- 시험 40건 · 논문 890편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 2044편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Nausea에 듣는다  <!-- 시험 19건 · 논문 331편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Drug Dependence에 듣는다  <!-- 시험 18건 · 논문 622편 --> — 이미 수록됨(2026-08-05)
 - [ ] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 -->
 - [ ] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 -->
 - [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 -->
