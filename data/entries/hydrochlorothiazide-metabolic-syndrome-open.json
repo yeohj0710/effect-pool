@@ -1,0 +1,27 @@
+{
+  "id": "hydrochlorothiazide-metabolic-syndrome-open",
+  "subj": "하이드로클로로티아지드",
+  "claim": "대사증후군의 대사 지표를 개선한다",
+  "line": "대사증후군의 혈압은 낮췄지만 인슐린 저항성 개선은 보이지 않았습니다",
+  "effect": "인슐린 저항성 개선 없음",
+  "tier": "trial",
+  "dir": "open",
+  "n": 120,
+  "synth": "single",
+  "why": "대사증후군 고혈압 환자에서 하이드로클로로티아지드 병용요법의 대사 지표를 다른 병용요법과 비교했습니다.",
+  "saw": "대사증후군과 고혈압 환자 120명 무작위시험에서 하이드로클로로티아지드 병용군과 비교군은 혈압을 비슷하게 낮췄지만, 인슐린 저항성 지표와 아디포넥틴은 비교군에서만 개선됐고 새 당뇨병 위험도 비교군이 낮았습니다.",
+  "limit": "하이드로클로로티아지드 단독시험이 아니라 두 복합제 비교라 관찰된 대사 차이를 단일 성분에 전부 돌릴 수 없습니다.",
+  "against": "복합요법 비교에서만 나타난 결과이고 심혈관 사건이나 하이드로클로로티아지드 단독 장기 효과는 측정하지 않았습니다.",
+  "use": "혈압 강하 효과와 복합제별 대사 지표 차이를 분리해 읽어야 합니다.",
+  "refs": [
+    { "label": "Martinez-Martin 2011 · J Hum Hypertens · 대사증후군 복합제 무작위시험", "doi": "10.1038/jhh.2010.104", "pmid": "21107432", "pmc": "PMC3099035" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:hydrochlorothiazide → 546건; 허가 문구는 고혈압·부종이고 Metabolic Syndrome 적응증은 없음",
+    "ctgov": "query.intr=hydrochlorothiazide&query.cond=Metabolic Syndrome → 17건 반환, InterventionName 대조 후 13건",
+    "pubmed": "hydrochlorothiazide Metabolic Syndrome → 131건; hydrochlorothiazide Metabolic Syndrome randomized → 34건",
+    "negative": "hydrochlorothiazide AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 96건",
+    "safety": "hydrochlorothiazide AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 3549건"
+  }
+}

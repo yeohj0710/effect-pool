@@ -7222,12 +7222,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] venlafaxine — Pain에 듣는다  <!-- 시험 17건 · 논문 511편 --> — 이미 수록됨(2026-08-05)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 107편 --> — 이미 수록됨(2026-08-05)
 - [x] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 --> — 허가 적응증(2026-08-05)
-- [ ] prednisone — Myeloma에 듣는다  <!-- 시험 21건 · 논문 1841편 -->
-- [ ] prednisone — Kidney Diseases에 듣는다  <!-- 시험 19건 · 논문 5235편 -->
-- [ ] hydrochlorothiazide — Diabetes에 듣는다  <!-- 시험 28건 · 논문 1036편 -->
-- [ ] hydrochlorothiazide — Heart Arrest에 듣는다  <!-- 시험 14건 · 논문 18편 -->
-- [ ] hydrochlorothiazide — Kidney Stone에 듣는다  <!-- 시험 12건 · 논문 158편 -->
-- [ ] hydrochlorothiazide — Metabolic Syndrome에 듣는다  <!-- 시험 8건 · 논문 131편 -->
+- [x] prednisone — Myeloma에 듣는다  <!-- 시험 21건 · 논문 1841편 --> — 이미 수록됨(2026-08-05)
+- [x] prednisone — Kidney Diseases에 듣는다  <!-- 시험 19건 · 논문 5235편 --> — 허가 적응증(2026-08-05)
+- [x] hydrochlorothiazide — Diabetes에 듣는다  <!-- 시험 28건 · 논문 1036편 -->
+- [x] hydrochlorothiazide — Heart Arrest에 듣는다  <!-- 시험 14건 · 논문 18편 --> — 결과 대기(2026-08-05)
+- [x] hydrochlorothiazide — Kidney Stone에 듣는다  <!-- 시험 12건 · 논문 158편 -->
+- [x] hydrochlorothiazide — Metabolic Syndrome에 듣는다  <!-- 시험 8건 · 논문 131편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -7238,10 +7238,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 시험 79건 · 논문 631편 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 시험 50건 · 논문 2549편 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 시험 33건 · 논문 5301편 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 시험 17건 · 논문 5652편 -->
+- [x] metformin — Lung Cancer에 듣는다  <!-- 시험 79건 · 논문 631편 --> — 이미 수록됨(2026-08-05)
+- [x] metformin — Polycystic Ovary에 듣는다  <!-- 시험 50건 · 논문 2549편 --> — 이미 수록됨(2026-08-05)
+- [x] metformin — Obesity에 듣는다  <!-- 시험 33건 · 논문 5301편 --> — 이미 수록됨(2026-08-05)
+- [x] metformin — Insulin Resistance에 듣는다  <!-- 시험 17건 · 논문 5652편 --> — 이미 수록됨(2026-08-05)
 - [ ] aspirin — Stroke에 듣는다  <!-- 시험 57건 · 논문 10499편 -->
 - [ ] aspirin — Colon Cancer에 듣는다  <!-- 시험 37건 · 논문 1002편 -->
 - [ ] aspirin — Brain Infarction에 듣는다  <!-- 시험 26건 · 논문 1183편 -->

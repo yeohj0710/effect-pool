@@ -1,0 +1,27 @@
+{
+  "id": "hydrochlorothiazide-diabetes-harm",
+  "subj": "하이드로클로로티아지드",
+  "claim": "제2형 당뇨병 환자의 혈당을 악화한다",
+  "line": "제2형 당뇨병에서 공복혈당과 HbA1c를 높였습니다",
+  "effect": "HbA1c SMD 1.09↑",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 720,
+  "synth": "meta",
+  "why": "고혈압과 제2형 당뇨병 환자에서 하이드로클로로티아지드의 대사 효과를 무작위시험 메타분석으로 비교했습니다.",
+  "saw": "13개 무작위시험 720명 메타분석에서 하이드로클로로티아지드군은 대조군보다 공복혈당과 HbA1c가 높았고 HDL 콜레스테롤은 낮았습니다.",
+  "limit": "혈압 치료에 더한 대사 결과를 본 분석이라 당뇨병 치료제 자체의 장기 심혈관 결과나 모든 티아지드 약물에 적용할 수 없습니다.",
+  "against": "대사 지표 분석이라 혈압을 낮추는 치료 이득과 혈당 악화 신호의 임상적 균형은 판단하지 않았습니다.",
+  "use": "혈압 변화와 혈당·지질 대사 부작용을 따로 확인해야 합니다.",
+  "refs": [
+    { "label": "Lin 2016 · Eur Rev Med Pharmacol Sci · 당뇨병 하이드로클로로티아지드 대사 메타분석", "pmid": "27424996" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:hydrochlorothiazide → 546건; 허가 문구는 고혈압·부종이고 Diabetes 적응증은 없음",
+    "ctgov": "query.intr=hydrochlorothiazide&query.cond=Diabetes → 51건 반환, InterventionName 대조 후 33건",
+    "pubmed": "hydrochlorothiazide Diabetes → 1036건; hydrochlorothiazide Diabetes randomized → 317건",
+    "negative": "hydrochlorothiazide AND Diabetes AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 781건",
+    "safety": "hydrochlorothiazide AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 3549건"
+  }
+}
