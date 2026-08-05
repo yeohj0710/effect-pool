@@ -1,0 +1,28 @@
+{
+  "id": "fingolimod-skin-cancer-harm",
+  "subj": "핑골리모드",
+  "claim": "핑골리모드의 면역조절 부작용으로 피부암 위험을 확인한다",
+  "line": "핑골리모드 뒤 악성 흑색종이 발생한 증례가 있습니다.",
+  "effect": "악성 흑색종 증례 1건",
+  "tier": "case",
+  "dir": "harm",
+  "n": 1,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "핑골리모드의 피부암 위험 확인은 치료 적응증이 아니라 안전성 감시이다.",
+  "why": "다발성경화증에 핑골리모드를 사용한 뒤 악성 흑색종이 발생한 증례 보고입니다.",
+  "saw": "미국에서 핑골리모드 치료 후 표재성 확산형 악성 흑색종이 발생한 사례가 보고됐습니다. 임상시험에서는 대부분 제자리 흑색종이었고, 유럽에서도 악성 흑색종 증례가 보고됐습니다.",
+  "limit": "단일 증례라 약물 인과관계를 증명할 수 없고, 기저 피부암 위험과 검진 차이를 알 수 없습니다.",
+  "against": "보고된 사건이 드물고 관찰 연구의 확정 위험비가 아니어서 핑골리모드가 피부암을 직접 유발한다고 단정할 수 없습니다.",
+  "use": "핑골리모드의 면역조절 부작용을 피부 검진과 안전성 감시에 연결한 사례로 사용합니다.",
+  "refs": [
+    { "label": "핑골리모드 치료 후 악성 흑색종 증례", "pmid": "28003234" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=fingolimod · cond=Skin Cancer → 2건 반환, 물질 대조 후 2건",
+    "pubmed": "fingolimod AND Skin Cancer → 51편",
+    "negative": "fingolimod AND Skin Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 42편",
+    "safety": "fingolimod AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1413편"
+  }
+}

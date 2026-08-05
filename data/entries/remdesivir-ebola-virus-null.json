@@ -1,0 +1,28 @@
+{
+  "id": "remdesivir-ebola-virus-null",
+  "subj": "렘데시비르",
+  "claim": "렘데시비르를 에볼라 바이러스병에 쓴다",
+  "line": "에볼라 다기관 무작위시험에서 렘데시비르는 항체 치료보다 생존 우월성이 없어 중단됐습니다.",
+  "effect": "항체 치료보다 생존 우월성 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 681,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "렘데시비르 허가는 COVID-19이고 에볼라 바이러스병은 포함하지 않는다.",
+  "why": "에볼라 바이러스병 환자에게 렘데시비르를 정맥 투여하고 단일·삼중 항체와 비교한 PALM 무작위시험입니다.",
+  "saw": "에볼라 환자 681명이 표준치료와 함께 ZMapp, 렘데시비르, MAb114 또는 REGN-EB3에 무작위 배정됐습니다. 중간 분석에서 MAb114와 REGN-EB3가 ZMapp·렘데시비르보다 생존이 좋아 렘데시비르 배정은 중단됐습니다.",
+  "limit": "유행 현장에서 치료군 배정이 중간에 중단됐고 렘데시비르의 절대 사망률은 초록의 주 비교표에 제시되지 않았습니다. 에볼라 변종과 지원치료가 결과에 영향을 줍니다.",
+  "against": "MAb114와 REGN-EB3는 ZMapp보다 28일 사망을 유의하게 줄였지만 렘데시비르 우월성은 확인되지 않았습니다.",
+  "use": "에볼라 치료 후보가 항체 치료보다 낫지 않았던 무작위 근거로 사용하며 COVID-19 치료 결과와 섞지 않습니다.",
+  "refs": [
+    { "label": "PALM 에볼라 바이러스병 치료제 무작위시험", "pmid": "31774950", "nct": "NCT03719586" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=remdesivir · cond=Ebola Virus → 3건 반환, 물질 대조 후 2건",
+    "pubmed": "remdesivir AND Ebola Virus → 110편",
+    "negative": "remdesivir AND Ebola Virus AND (no effect OR did not OR failed to OR negative OR no significant difference) → 80편",
+    "safety": "remdesivir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1430편"
+  }
+}

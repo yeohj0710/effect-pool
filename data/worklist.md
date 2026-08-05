@@ -9324,30 +9324,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fingolimod — Stroke에 듣는다  <!-- 시험 8건 · 논문 170편 -->
-- [ ] fingolimod — Intracerebral Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 36편 -->
-- [ ] fingolimod — Skin Cancer에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] naproxen — Osteoarthritis에 듣는다  <!-- 시험 47건 · 논문 653편 -->
-- [ ] naproxen — Migraine에 듣는다  <!-- 시험 33건 · 논문 243편 -->
-- [ ] naproxen — Arthritis에 듣는다  <!-- 시험 22건 · 논문 1469편 -->
-- [ ] naproxen — Dysmenorrhea에 듣는다  <!-- 시험 9건 · 논문 169편 -->
-- [ ] remdesivir — Covid19에 듣는다  <!-- 시험 22건 · 논문 4484편 -->
-- [ ] remdesivir — SARS-CoV-2에 듣는다  <!-- 시험 14건 · 논문 3561편 -->
-- [ ] remdesivir — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 2507편 -->
-- [ ] remdesivir — Ebola Virus에 듣는다  <!-- 시험 4건 · 논문 110편 -->
-- [ ] ritonavir — Hepatitis C에 듣는다  <!-- 시험 79건 · 논문 849편 -->
-- [ ] ritonavir — COVID에 듣는다  <!-- 시험 51건 · 논문 2686편 -->
-- [ ] ritonavir — HCV Infection에 듣는다  <!-- 시험 50건 · 논문 875편 -->
-- [ ] ritonavir — Healthy Participant에 듣는다  <!-- 시험 11건 · 논문 299편 -->
-- [ ] methylnaltrexone — Healthy Males에 듣는다  <!-- 시험 7건 · 논문 19편 -->
-- [ ] methylnaltrexone — Postoperative Ileus에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] erenumab — Headache에 듣는다  <!-- 시험 9건 · 논문 532편 -->
-- [ ] erenumab — Facial Pain에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] upadacitinib — Atopic Dermatitis에 듣는다  <!-- 시험 28건 · 논문 596편 -->
-- [ ] upadacitinib — Ulcerative Colitis에 듣는다  <!-- 시험 20건 · 논문 393편 -->
-- [ ] upadacitinib — Crohn Disease에 듣는다  <!-- 시험 18건 · 논문 320편 -->
-- [ ] upadacitinib — Inflammatory Disease에 듣는다  <!-- 시험 6건 · 논문 695편 -->
-- [ ] valbenazine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 41편 -->
-- [ ] valbenazine — Tourette Syndrome에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] valbenazine — Chorea, Huntington에 듣는다  <!-- 시험 3건 · 논문 38편 -->
-- [ ] zileuton — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [x] fingolimod — Stroke에 듣는다  <!-- 시험 8건 · 논문 170편 -->
+- [x] fingolimod — Intracerebral Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 36편 -->
+- [x] fingolimod — Skin Cancer에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [x] naproxen — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 47건 · 논문 653편 -->
+- [x] naproxen — Migraine에 듣는다  <!-- 시험 33건 · 논문 243편 -->
+- [x] naproxen — Arthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 1469편 -->
+- [x] naproxen — Dysmenorrhea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 169편 -->
+- [x] remdesivir — Covid19에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 4484편 -->
+- [x] remdesivir — SARS-CoV-2에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 3561편 -->
+- [x] remdesivir — Pneumonia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 2507편 -->
+- [x] remdesivir — Ebola Virus에 듣는다  <!-- 시험 4건 · 논문 110편 -->
+- [x] ritonavir — Hepatitis C에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 79건 · 논문 849편 -->
+- [x] ritonavir — COVID에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 51건 · 논문 2686편 -->
+- [x] ritonavir — HCV Infection에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 875편 -->
+- [x] ritonavir — Healthy Participant에 듣는다 — 치료 결과 없는 약동학 연구라 제외(2026-08-05)  <!-- 시험 11건 · 논문 299편 -->
+- [x] methylnaltrexone — Healthy Males에 듣는다 — 치료 결과 없는 약동학·안전성 연구라 제외(2026-08-05)  <!-- 시험 7건 · 논문 19편 -->
+- [x] methylnaltrexone — Postoperative Ileus에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [x] erenumab — Headache에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 532편 -->
+- [x] erenumab — Facial Pain에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] upadacitinib — Atopic Dermatitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 28건 · 논문 596편 -->
+- [x] upadacitinib — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 20건 · 논문 393편 -->
+- [x] upadacitinib — Crohn Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 18건 · 논문 320편 -->
+- [x] upadacitinib — Inflammatory Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 695편 -->
+- [x] valbenazine — Schizophrenia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 41편 -->
+- [x] valbenazine — Tourette Syndrome에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [x] valbenazine — Chorea, Huntington에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 38편 -->
+- [x] zileuton — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 19편 -->
