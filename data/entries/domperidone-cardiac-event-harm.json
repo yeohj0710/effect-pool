@@ -1,0 +1,30 @@
+{
+  "id": "domperidone-cardiac-event-harm",
+  "subj": "돔페리돈",
+  "claim": "돔페리돈이 심실부정맥과 심장돌연사를 일으킨다",
+  "line": "관찰연구 메타분석에서 돔페리돈 복용자의 심실부정맥·심장돌연사 위험이 더 높았습니다.",
+  "effect": "심실부정맥·돌연사 OR 1.70",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 480395,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "돔페리돈 허가사항은 오심·구토 등 일부 용도이고 심장 사건 예방·치료는 아니다.",
+  "why": "돔페리돈 노출과 심실부정맥·심장돌연사를 비교한 관찰연구 8개를 합친 안전성 메타분석이다.",
+  "saw": "6개 환자대조·1개 환자교차·1개 후향 코호트 연구, 총 480,395명을 합친 분석에서 돔페리돈은 비복용보다 심실부정맥·심장돌연사 복합 결과와 연관됐다(보정 OR 1.69, 95% CI 1.46–1.95).",
+  "limit": "무작위시험이 아닌 관찰연구이고 연구별 교란·노출 용량·기저 심장질환이 달라 인과성을 확정할 수 없다.",
+  "against": "다른 메타분석은 30mg/day 이하에서 전체 심혈관 사건 증가가 뚜렷하지 않다고 했지만 고용량에서는 위험이 높았다.",
+  "use": "돔페리돈을 고려할 때 심장질환·QT 연장 약물·고령·용량을 함께 점검해야 하는 안전성 근거다.",
+  "refs": [
+    { "label": "돔페리돈 심실부정맥·심장돌연사 관찰연구 메타분석", "pmid": "33439512" },
+    { "label": "돔페리돈 심장 사건 메타분석", "pmid": "26649742" },
+    { "label": "파킨슨병 돔페리돈 심장 유해사건 베이지안 재분석", "pmid": "34508851" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=domperidone · cond=Cardiac Event · 총 3건, 돔페리돈 직접 확인 3건",
+    "pubmed": "domperidone AND Cardiac Event · 188편",
+    "negative": "domperidone AND Cardiac Event AND (no effect OR did not OR failed to OR negative OR no significant difference) · 163편",
+    "safety": "domperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 833편"
+  }
+}

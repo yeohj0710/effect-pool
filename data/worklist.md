@@ -9234,36 +9234,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] armodafinil — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 106편 --> — 근거 항목(2026-08-05)
 - [x] aprepitant — Major Depressive Disorder에 듣는다  <!-- 시험 9건 · 논문 10편 --> — 근거 항목(2026-08-05)
 - [x] aprepitant — Leukemia에 듣는다  <!-- 시험 8건 · 논문 19편 --> — 근거 없음(사람 연구는 백혈병 치료가 아니라 항암제 유발 구토 예방)
-- [ ] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 -->
-- [ ] bosentan — Scleroderma에 듣는다  <!-- 시험 3건 · 논문 306편 -->
-- [ ] bosentan — Interstitial Lung Disease에 듣는다  <!-- 시험 3건 · 논문 111편 -->
-- [ ] cabergoline — Cushing's Disease에 듣는다  <!-- 시험 4건 · 논문 151편 -->
-- [ ] cabergoline — Endometriosis에 듣는다  <!-- 시험 3건 · 논문 29편 -->
-- [ ] cabergoline — Hyperprolactinemia에 듣는다  <!-- 시험 3건 · 논문 564편 -->
-- [ ] calcitriol — Renal Osteodystrophy에 듣는다  <!-- 시험 7건 · 논문 518편 -->
-- [ ] calcitriol — Adult Solid Neoplasm에 듣는다  <!-- 시험 5건 · 논문 23편 -->
-- [ ] calcitriol — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 1703편 -->
-- [ ] calcitriol — Mouth Neoplasms에 듣는다  <!-- 시험 5건 · 논문 36편 -->
-- [ ] canakinumab — Gout에 듣는다  <!-- 시험 4건 · 논문 103편 -->
-- [ ] canakinumab — COVID-19에 듣는다  <!-- 시험 4건 · 논문 67편 -->
-- [ ] canakinumab — Periodic Fever에 듣는다  <!-- 시험 4건 · 논문 197편 -->
-- [ ] canakinumab — Cryopyrin Associated Periodic Syndrome에 듣는다  <!-- 시험 3건 · 논문 170편 -->
-- [ ] cannabidiol — Stress에 듣는다  <!-- 시험 10건 · 논문 873편 -->
-- [ ] cannabidiol — Cannabis에 듣는다  <!-- 시험 9건 · 논문 4943편 -->
-- [ ] cannabidiol — Sleep에 듣는다  <!-- 시험 9건 · 논문 560편 -->
-- [ ] cannabidiol — Cancer에 듣는다  <!-- 시험 9건 · 논문 1130편 -->
-- [ ] cilostazol — Migraine에 듣는다  <!-- 시험 9건 · 논문 21편 -->
-- [ ] cilostazol — Peripheral Neuropathy에 듣는다  <!-- 시험 8건 · 논문 25편 -->
-- [ ] cilostazol — Atherosclerosis에 듣는다  <!-- 시험 5건 · 논문 349편 -->
-- [ ] domperidone — Vomiting에 듣는다  <!-- 시험 3건 · 논문 381편 -->
-- [ ] domperidone — Gastroenteritis에 듣는다  <!-- 시험 3건 · 논문 62편 -->
-- [ ] domperidone — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] domperidone — Cardiac Event에 듣는다  <!-- 시험 3건 · 논문 188편 -->
-- [ ] dextromethorphan — Food-drug Interaction에 듣는다  <!-- 시험 4건 · 논문 27편 -->
-- [ ] dextromethorphan — Smoking에 듣는다  <!-- 시험 3건 · 논문 43편 -->
-- [ ] dextromethorphan — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] hydroxychloroquine — HIV Infection에 듣는다  <!-- 시험 41건 · 논문 140편 -->
-- [ ] hydroxychloroquine — Crohn's Disease에 듣는다  <!-- 시험 10건 · 논문 23편 -->
+- [x] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 --> — 허가 적응증(2026-08-05)
+- [x] bosentan — Scleroderma에 듣는다  <!-- 시험 3건 · 논문 306편 --> — 근거 없음(디지털 궤양·폐동맥고혈압·신장위기가 섞여 전신경화증 일반 치료결과 없음)
+- [x] bosentan — Interstitial Lung Disease에 듣는다  <!-- 시험 3건 · 논문 111편 --> — 근거 항목(2026-08-05)
+- [x] cabergoline — Cushing's Disease에 듣는다  <!-- 시험 4건 · 논문 151편 --> — 근거 항목(2026-08-05)
+- [x] cabergoline — Endometriosis에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 근거 없음(동물 자궁내막증 모델 중심, 사람 치료결과 없음)
+- [x] cabergoline — Hyperprolactinemia에 듣는다  <!-- 시험 3건 · 논문 564편 --> — 허가 적응증(2026-08-05)
+- [x] calcitriol — Renal Osteodystrophy에 듣는다  <!-- 시험 7건 · 논문 518편 --> — 허가 적응증(2026-08-05)
+- [x] calcitriol — Adult Solid Neoplasm에 듣는다  <!-- 시험 5건 · 논문 23편 --> — 근거 항목(2026-08-05)
+- [x] calcitriol — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 1703편 --> — 허가 적응증(2026-08-05)
+- [x] calcitriol — Mouth Neoplasms에 듣는다  <!-- 시험 5건 · 논문 36편 --> — 근거 없음(전임상·다른 고형암 연구 중심, 구강 종양 사람 결과 없음)
+- [x] canakinumab — Gout에 듣는다  <!-- 시험 4건 · 논문 103편 --> — 허가 적응증(2026-08-05)
+- [x] canakinumab — COVID-19에 듣는다  <!-- 시험 4건 · 논문 67편 --> — 근거 항목(2026-08-05)
+- [x] canakinumab — Periodic Fever에 듣는다  <!-- 시험 4건 · 논문 197편 --> — 허가 적응증(2026-08-05)
+- [x] canakinumab — Cryopyrin Associated Periodic Syndrome에 듣는다  <!-- 시험 3건 · 논문 170편 --> — 허가 적응증(2026-08-05)
+- [x] cannabidiol — Stress에 듣는다  <!-- 시험 10건 · 논문 873편 --> — 근거 항목(2026-08-05)
+- [x] cannabidiol — Cannabis에 듣는다  <!-- 시험 9건 · 논문 4943편 --> — 근거 항목(2026-08-05)
+- [x] cannabidiol — Sleep에 듣는다  <!-- 시험 9건 · 논문 560편 --> — 근거 항목(2026-08-05)
+- [x] cannabidiol — Cancer에 듣는다  <!-- 시험 9건 · 논문 1130편 --> — 근거 없음(세포·동물 연구 중심, 암 치료 사람 결과 없음)
+- [x] cilostazol — Migraine에 듣는다  <!-- 시험 9건 · 논문 21편 --> — 근거 없음(사람 연구는 실로스타졸로 편두통을 유발한 실험 중심)
+- [x] cilostazol — Peripheral Neuropathy에 듣는다  <!-- 시험 8건 · 논문 25편 --> — 근거 항목(2026-08-05)
+- [x] cilostazol — Atherosclerosis에 듣는다  <!-- 시험 5건 · 논문 349편 --> — 근거 항목(2026-08-05)
+- [x] domperidone — Vomiting에 듣는다  <!-- 시험 3건 · 논문 381편 --> — 허가 적응증(2026-08-05)
+- [x] domperidone — Gastroenteritis에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 근거 항목(2026-08-05)
+- [x] domperidone — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(위장운동 안전성·일반 소화관 증상 연구로 전신경화증 치료효과 없음)
+- [x] domperidone — Cardiac Event에 듣는다  <!-- 시험 3건 · 논문 188편 --> — 근거 항목(2026-08-05)
+- [x] dextromethorphan — Food-drug Interaction에 듣는다  <!-- 시험 4건 · 논문 27편 --> — 근거 없음(약동학·상호작용 연구로 치료효과 없음)
+- [x] dextromethorphan — Smoking에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 근거 없음(흡연 연구는 부프로피온·다른 개입 중심)
+- [x] dextromethorphan — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(동물 뇌허혈·외상 연구 중심)
+- [x] hydroxychloroquine — HIV Infection에 듣는다  <!-- 시험 41건 · 논문 140편 --> — 근거 항목(2026-08-05)
+- [x] hydroxychloroquine — Crohn's Disease에 듣는다  <!-- 시험 10건 · 논문 23편 --> — 근거 항목(2026-08-05)
 - [ ] hydroxychloroquine — Lung Neoplasms에 듣는다  <!-- 시험 10건 · 논문 82편 -->
 - [ ] ivermectin — Ascariasis에 듣는다  <!-- 시험 5건 · 논문 67편 -->
 - [ ] ivermectin — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 4394편 -->
