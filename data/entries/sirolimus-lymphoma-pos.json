@@ -1,0 +1,35 @@
+{
+  "id": "sirolimus-lymphoma-pos",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 심장이식 후 림프증식성질환 예방에 쓴다",
+  "line": "심장이식 후 시롤리무스가 이식후 림프증식성질환을 줄였습니다",
+  "effect": "PTLD 위험 HR 0.12",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 590,
+  "synth": "single",
+  "why": "심장이식 후 시롤리무스 기반 면역억제가 칼시뉴린억제제 기반 요법보다 이식후 림프증식성질환 위험을 낮추는지 본 이중기관 후향 코호트입니다.",
+  "saw": "심장이식 환자 590명을 중앙값 6.3년 추적했고 30명에서 이식후 림프증식성질환이 발생했습니다. 시롤리무스로 전환한 군은 칼시뉴린억제제를 계속 쓴 군보다 위험이 낮았습니다(다변량 HR 0.12, 95% 신뢰구간 0.03~0.55, P=0.006).",
+  "limit": "무작위 배정이 아닌 후향 관찰자료라 전환 이유와 엡스타인바바이러스 위험 차이를 완전히 제거할 수 없습니다. 심장이식 후 예방 결과이지 림프종 치료 효과가 아닙니다.",
+  "against": "신장이식 환자 354명 코호트에서는 시롤리무스 포함 요법과 비교 요법 모두 추적 기간에 이식후 림프증식성질환이 발생하지 않았습니다.",
+  "use": "시롤리무스는 심장이식 후 림프증식성질환 예방의 관찰 신호가 있지만 림프종 치료제로 해석할 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "Asleh 2022 · Journal of Clinical Medicine · 심장이식 후 림프증식성질환 코호트",
+      "doi": "10.3390/jcm11020322",
+      "pmid": "35054016"
+    },
+    {
+      "label": "Amin 2022 · Transplant Immunology · 신장이식 후 림프증식성질환 코호트",
+      "doi": "10.1016/j.trim.2022.101774",
+      "pmid": "36528248"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sirolimus, cond=Lymphoma → 157건 반환, InterventionName 대조 후 88건 (정확히 sirolimus 48건)",
+    "pubmed": "sirolimus lymphoma → 564건",
+    "negative": "sirolimus lymphoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 446건",
+    "safety": "sirolimus lymphoma AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 215건"
+  }
+}

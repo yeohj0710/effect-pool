@@ -1,0 +1,35 @@
+{
+  "id": "sirolimus-sarcoma-null",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 진행성 연조직육종 치료에 더한다",
+  "line": "진행성 연조직육종에서 병용요법의 객관적 반응은 드물었습니다",
+  "effect": "24주 무진행 20%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 49,
+  "synth": "single",
+  "why": "표준 화학요법에 실패한 진행성 육종에서 시롤리무스와 cyclophosphamide 병용을 평가한 단일군 2상 시험입니다.",
+  "saw": "진행성 육종 환자 49명이 참여했습니다. 부분반응은 1명이었고 24주 이상 무진행은 10명이었으며 중앙 무진행생존은 3.4개월이었습니다. 치료 관련 중대한 이상반응은 11%였습니다.",
+  "limit": "시롤리무스 단독이 아닌 병용요법이고 비교군이 없습니다. 안정병변과 무진행을 종양 축소나 생존 개선으로 해석할 수 없습니다.",
+  "against": "별도 시롤리무스 병용 2상에서는 28명 중 객관적 반응이 없었고 3개월 무진행률은 44%였습니다.",
+  "use": "시롤리무스 병용은 일부 육종의 진행 억제 신호를 보였지만 객관적 항암 효과를 확정할 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "Schuetze 2012 · European Journal of Cancer · 육종 시롤리무스 병용 2상",
+      "doi": "10.1016/j.ejca.2012.03.022",
+      "pmid": "22525224"
+    },
+    {
+      "label": "Martin-Broto 2017 · Clinical Cancer Research · 연조직육종 시롤리무스 병용 2상",
+      "doi": "10.1007/s11523-017-0539-9",
+      "pmid": "29177953"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sirolimus, cond=Sarcoma → 65건 반환, InterventionName 대조 후 42건 (정확히 sirolimus 17건)",
+    "pubmed": "sirolimus sarcoma → 553건",
+    "negative": "sirolimus sarcoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 386건",
+    "safety": "sirolimus sarcoma AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 304건"
+  }
+}

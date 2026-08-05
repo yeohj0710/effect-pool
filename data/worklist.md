@@ -8028,16 +8028,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pentoxifylline — HIV에 듣는다  <!-- 시험 6건 · 논문 94편 -->
 - [x] pentoxifylline — Neuropathy;Peripheral에 듣는다  <!-- 시험 6건 · 논문 83편 -->
 - [x] pentoxifylline — Nephropathy에 듣는다  <!-- 시험 6건 · 논문 341편 -->
-- [ ] pentoxifylline — Liver Failure에 듣는다  <!-- 시험 6건 · 논문 87편 -->
-- [ ] sirolimus — Lymphoma에 듣는다  <!-- 시험 38건 · 논문 564편 -->
-- [ ] sirolimus — Liver Carcinoma에 듣는다  <!-- 시험 27건 · 논문 464편 -->
-- [ ] sirolimus — Sarcoma에 듣는다  <!-- 시험 17건 · 논문 553편 -->
-- [ ] sirolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 17건 · 논문 42편 -->
-- [ ] rapamycin — Kidney Diseases에 듣는다  <!-- 시험 7건 · 논문 3902편 -->
-- [ ] rapamycin — Graft Rejection에 듣는다  <!-- 시험 6건 · 논문 2863편 -->
-- [ ] rapamycin — Leukemia에 듣는다  <!-- 시험 5건 · 논문 1338편 -->
-- [ ] rapamycin — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 346편 -->
-- [ ] montelukast — Cough에 듣는다  <!-- 시험 6건 · 논문 146편 -->
+- [x] pentoxifylline — Liver Failure에 듣는다  <!-- 시험 6건 · 논문 87편 --> — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)(2026-08-05)
+- [x] sirolimus — Lymphoma에 듣는다  <!-- 시험 38건 · 논문 564편 -->
+- [x] sirolimus — Liver Carcinoma에 듣는다  <!-- 시험 27건 · 논문 464편 -->
+- [x] sirolimus — Sarcoma에 듣는다  <!-- 시험 17건 · 논문 553편 -->
+- [x] sirolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 17건 · 논문 42편 -->
+- [x] rapamycin — Kidney Diseases에 듣는다  <!-- 시험 7건 · 논문 3902편 --> — 허가 적응증(2026-08-05)
+- [x] rapamycin — Graft Rejection에 듣는다  <!-- 시험 6건 · 논문 2863편 --> — 허가 적응증(2026-08-05)
+- [x] rapamycin — Leukemia에 듣는다  <!-- 시험 5건 · 논문 1338편 --> — 기존 항목(sirolimus-leukemia)(2026-08-05)
+- [x] rapamycin — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 346편 -->
+- [x] montelukast — Cough에 듣는다  <!-- 시험 6건 · 논문 146편 -->
 - [ ] montelukast — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 15편 -->
 - [ ] montelukast — Eosinophilic Esophagitis에 듣는다  <!-- 시험 5건 · 논문 33편 -->
 - [ ] montelukast — Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 68편 -->

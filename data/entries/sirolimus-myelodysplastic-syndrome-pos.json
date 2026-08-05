@@ -1,0 +1,30 @@
+{
+  "id": "sirolimus-myelodysplastic-syndrome-pos",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 골수형성이상증후군 치료에 쓴다",
+  "line": "골수형성이상증후군 일부에서 혈액학적 반응이 나왔습니다",
+  "effect": "혈액학적 반응 3/19명",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 19,
+  "synth": "single",
+  "why": "골수형성이상증후군 환자에서 시롤리무스의 혈액학적 활성을 본 단일군 파일럿 시험입니다.",
+  "saw": "골수형성이상증후군 환자 19명 중 3명에서 국제 실무그룹 기준의 주요 또는 경미한 혈액학적 반응이 나타났습니다. 고지혈증 4명, 구내염 3명, 혈소판감소증 2명 등이 보고됐습니다.",
+  "limit": "비교군이 없는 19명 파일럿 시험이라 자연 경과와 지지치료의 영향을 분리할 수 없습니다. 반응이 일부 혈구계열에 한정돼 생존이나 질환 진행 억제를 보여주지 않습니다.",
+  "against": "무작위 대조시험이 없어 시롤리무스가 골수형성이상증후군의 예후를 개선한다고 확인할 반대 비교 결과는 없습니다.",
+  "use": "일부 진행성 골수형성이상증후군에서 혈액학적 반응 신호가 있지만 확정 치료 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "Platzbecker 2005 · British Journal of Haematology · 골수형성이상증후군 파일럿시험",
+      "doi": "10.1111/j.1365-2141.2005.05360.x",
+      "pmid": "15725083"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sirolimus, cond=Myelodysplastic Syndrome → 58건 반환, InterventionName 대조 후 43건 (정확히 sirolimus 39건)",
+    "pubmed": "sirolimus myelodysplastic syndrome → 42건",
+    "negative": "sirolimus myelodysplastic syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 33건",
+    "safety": "sirolimus myelodysplastic syndrome AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 25건"
+  }
+}

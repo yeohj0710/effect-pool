@@ -1,0 +1,35 @@
+{
+  "id": "sirolimus-liver-carcinoma-null",
+  "subj": "시롤리무스",
+  "claim": "면역억제제를 간세포암 간이식 후 재발 예방에 쓴다",
+  "line": "간세포암 간이식 후 8년 재발 예방 효과는 유의하지 않았습니다",
+  "effect": "8년 무재발 HR 0.84",
+  "tier": "trial",
+  "dir": "null",
+  "n": 525,
+  "synth": "single",
+  "why": "간세포암으로 간이식을 받은 환자에서 시롤리무스 포함 면역억제와 비포함 요법을 비교한 국제 다기관 무작위 3상 시험입니다.",
+  "saw": "간이식 환자 525명이 무작위 배정됐습니다. 8년 시점 무재발 생존은 시롤리무스군 70.2%, 대조군 64.5%였지만 차이는 유의하지 않았습니다(HR 0.84, P=0.28). 전체생존도 유의한 차이가 없었습니다.",
+  "limit": "간이식 후 면역억제 선택 결과라 간세포암 자체의 항암치료 효과가 아닙니다. 초기 3~5년 하위 분석의 신호와 장기 주평가 결과가 달랐습니다.",
+  "against": "소규모 생체간이식 시험에서는 재발률 차이가 없었고, 시롤리무스군의 생존 신호는 보정분석에서만 나타났습니다.",
+  "use": "시롤리무스가 간세포암 간이식 후 장기 재발을 확실히 줄인다고 볼 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "Geissler 2016 · Transplantation · 간세포암 간이식 시롤리무스 무작위 3상",
+      "doi": "10.1097/TP.0000000000000965",
+      "pmid": "26555945"
+    },
+    {
+      "label": "Schaefer 2022 · Liver Transplantation · 간세포암 mTOR 억제제 메타분석",
+      "doi": "10.1002/lt.26387",
+      "pmid": "34919773"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sirolimus, cond=Liver Carcinoma → 47건 반환, InterventionName 대조 후 20건 (정확히 sirolimus 8건)",
+    "pubmed": "sirolimus liver carcinoma → 464건",
+    "negative": "sirolimus liver carcinoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 353건",
+    "safety": "sirolimus liver carcinoma AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 186건"
+  }
+}
