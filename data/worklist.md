@@ -5783,16 +5783,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [x] bimatoprost — Hypotrichosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 14건 -->
 - [x] bimatoprost — Baldness에 듣는다 — 기존 항목(bimatoprost-baldness-null)  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] botulinum toxin — Overactive Bladder에 듣는다  <!-- 등록 시험 46건 -->
-- [ ] botulinum toxin — Fine Lines에 듣는다  <!-- 등록 시험 42건 -->
-- [ ] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 48건 -->
+- [x] botulinum toxin — Overactive Bladder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 46건 -->
+- [x] botulinum toxin — Fine Lines에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 42건 -->
+- [x] botulinum toxin — Cerebral Palsy에 듣는다 — 기존 항목(botulinum-toxin-cerebral-palsy)  <!-- 등록 시험 34건 -->
+- [x] duloxetine — Pain에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 79건 -->
+- [x] duloxetine — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 53건 -->
+- [x] duloxetine — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 28건 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 23건 -->
+- [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 등록 시험 9건 -->
+- [x] dextromethorphan — Solid Tumor에 듣는다 — 기존 항목(dextromethorphan-solid-tumor-null)  <!-- 등록 시험 7건 -->
 - [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 -->
