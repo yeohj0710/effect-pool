@@ -8734,36 +8734,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levocarnitine — Lymphoblastic Lymphoma에 듣는다  <!-- 시험 8건 · 논문 17편 -->
 - [x] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(발프로산 병용시험에서 6개월 효과 없음)
 - [x] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
-- [ ] levocarnitine — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 578편 -->
-- [ ] loperamide — Diarrhea에 듣는다  <!-- 시험 16건 · 논문 1118편 -->
-- [ ] loperamide — Fecal Incontinence에 듣는다  <!-- 시험 5건 · 논문 85편 -->
-- [ ] loperamide — Intestinal Transit에 듣는다  <!-- 시험 3건 · 논문 405편 -->
-- [ ] loperamide — Rectal Carcinoma에 듣는다  <!-- 시험 3건 · 논문 18편 -->
-- [ ] mannitol — Asthma에 듣는다  <!-- 시험 19건 · 논문 343편 -->
-- [ ] mannitol — Intracranial Pressure에 듣는다  <!-- 시험 15건 · 논문 1117편 -->
-- [ ] mannitol — Cystic Fibrosis에 듣는다  <!-- 시험 10건 · 논문 207편 -->
-- [ ] mannitol — Cirrhosis, Liver에 듣는다  <!-- 시험 10건 · 논문 115편 -->
-- [ ] methylene blue — Shock에 듣는다  <!-- 시험 17건 · 논문 492편 -->
-- [ ] methylene blue — Sentinel Node에 듣는다  <!-- 시험 9건 · 논문 501편 -->
-- [ ] methylene blue — Periodontitis에 듣는다  <!-- 시험 8건 · 논문 263편 -->
-- [ ] methylene blue — Wound Infection에 듣는다  <!-- 시험 8건 · 논문 86편 -->
-- [ ] minocycline — Stroke에 듣는다  <!-- 시험 18건 · 논문 281편 -->
-- [ ] minocycline — Periodontitis에 듣는다  <!-- 시험 16건 · 논문 502편 -->
-- [ ] minocycline — Acne에 듣는다  <!-- 시험 15건 · 논문 702편 -->
-- [ ] minocycline — Depression에 듣는다  <!-- 시험 14건 · 논문 325편 -->
-- [ ] nicotine — Drug Use에 듣는다  <!-- 시험 75건 · 논문 29021편 -->
-- [ ] nicotine — Cancer에 듣는다  <!-- 시험 26건 · 논문 9155편 -->
-- [ ] nicotine — Schizophrenia에 듣는다  <!-- 시험 10건 · 논문 1276편 -->
-- [ ] nicotine — Smokers에 듣는다  <!-- 시험 6건 · 논문 18719편 -->
-- [ ] pimavanserin — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 67편 -->
-- [ ] pimavanserin — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] ramelteon — Sleep에 듣는다  <!-- 시험 10건 · 논문 363편 -->
-- [ ] ramelteon — Delirium에 듣는다  <!-- 시험 8건 · 논문 108편 -->
-- [ ] ramelteon — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 11편 -->
-- [ ] ramelteon — Circadian Dysregulation에 듣는다  <!-- 시험 4건 · 논문 27편 -->
-- [ ] riluzole — Multiple Sclerosis에 듣는다  <!-- 시험 27건 · 논문 118편 -->
-- [ ] riluzole — Melanoma에 듣는다  <!-- 시험 9건 · 논문 34편 -->
-- [ ] riluzole — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 29편 -->
+- [x] levocarnitine — Heart Failure에 듣는다 — 근거 없음(2026-08-05 조회, "levocarnitine AND Heart Failure")  <!-- 시험 3건 · 논문 578편 -->
+- [x] loperamide — Diarrhea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 1118편 -->
+- [x] loperamide — Fecal Incontinence에 듣는다  <!-- 시험 5건 · 논문 85편 -->
+- [x] loperamide — Intestinal Transit에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Intestinal Transit")  <!-- 시험 3건 · 논문 405편 -->
+- [x] loperamide — Rectal Carcinoma에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Rectal Carcinoma")  <!-- 시험 3건 · 논문 18편 -->
+- [x] mannitol — Asthma에 듣는다 — 근거 없음(2026-08-05 조회, "mannitol AND Asthma")  <!-- 시험 19건 · 논문 343편 -->
+- [x] mannitol — Intracranial Pressure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 1117편 -->
+- [x] mannitol — Cystic Fibrosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 207편 -->
+- [x] mannitol — Cirrhosis, Liver에 듣는다 — 근거 없음(2026-08-05 조회, "mannitol AND Cirrhosis, Liver")  <!-- 시험 10건 · 논문 115편 -->
+- [x] methylene blue — Shock에 듣는다  <!-- 시험 17건 · 논문 492편 -->
+- [x] methylene blue — Sentinel Node에 듣는다  <!-- 시험 9건 · 논문 501편 -->
+- [x] methylene blue — Periodontitis에 듣는다  <!-- 시험 8건 · 논문 263편 -->
+- [x] methylene blue — Wound Infection에 듣는다 — 근거 없음(2026-08-05 조회, "methylene blue AND Wound Infection")  <!-- 시험 8건 · 논문 86편 -->
+- [x] minocycline — Stroke에 듣는다  <!-- 시험 18건 · 논문 281편 -->
+- [x] minocycline — Periodontitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 502편 -->
+- [x] minocycline — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 702편 -->
+- [x] minocycline — Depression에 듣는다  <!-- 시험 14건 · 논문 325편 -->
+- [x] nicotine — Drug Use에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Drug Use")  <!-- 시험 75건 · 논문 29021편 -->
+- [x] nicotine — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Cancer")  <!-- 시험 26건 · 논문 9155편 -->
+- [x] nicotine — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Schizophrenia")  <!-- 시험 10건 · 논문 1276편 -->
+- [x] nicotine — Smokers에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 18719편 -->
+- [x] pimavanserin — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [x] pimavanserin — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [x] ramelteon — Sleep에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 363편 -->
+- [x] ramelteon — Delirium에 듣는다  <!-- 시험 8건 · 논문 108편 -->
+- [x] ramelteon — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 11편 -->
+- [x] ramelteon — Circadian Dysregulation에 듣는다  <!-- 시험 4건 · 논문 27편 -->
+- [x] riluzole — Multiple Sclerosis에 듣는다 — 근거 없음(2026-08-05 조회, "riluzole AND Multiple Sclerosis")  <!-- 시험 27건 · 논문 118편 -->
+- [x] riluzole — Melanoma에 듣는다  <!-- 시험 9건 · 논문 34편 -->
+- [x] riluzole — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 29편 -->
 - [ ] riluzole — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 155편 -->
 - [ ] rocuronium — Neuromuscular Block에 듣는다  <!-- 시험 67건 · 논문 1744편 -->
 - [ ] rocuronium — Pain에 듣는다  <!-- 시험 30건 · 논문 894편 -->
