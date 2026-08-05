@@ -1,0 +1,29 @@
+{
+  "id": "sulfasalazine-glioblastoma-open",
+  "subj": "설파살라진",
+  "claim": "설파살라진은 재발 교모세포종의 방사선수술 국소 조절을 돕는다",
+  "line": "방사선수술 병용에서 국소 조절과 무진행생존 연장 신호가 있었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 12,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "교모세포종 방사선 감작은 설파살라진의 허가 적응증에 없음",
+  "why": "설파살라진이 xCT를 억제해 종양 글루타티온을 낮추고 방사선의 산화 스트레스를 강화한다는 가설을 임상에서 시험한 사례입니다.",
+  "saw": "12명 공개 용량상승시험에서 객관적 반응 5/11, 안정 5/11이었고 동시 대조군은 안정 2/11·진행 9/11이었습니다. 국소 조절기간은 5.3개월, 무진행생존은 1.7개월 길었지만 전체생존 차이는 없었습니다.",
+  "limit": "1상 공개시험이며 대조군은 무작위 배정이 아니고 참여자 12명, 분석 가능한 방사선 반응 11명뿐입니다.",
+  "against": "이전 12명 연구에서는 전체생존·무진행생존 개선이 없었고 75%에서 3·4등급 이상반응이 발생했습니다.",
+  "use": "재발 교모세포종의 방사선수술 감작 연구 맥락에서만 검토할 수 있으며 표준치료를 대체하지 않습니다.",
+  "effect": "국소 조절·무진행생존 연장 신호",
+  "refs": [
+    { "label": "Skeie 2026 · Redox Biology · 재발 교모세포종 설파살라진·정위 방사선수술 1상", "doi": "10.1016/j.redox.2026.104241", "pmid": "42229231", "pmc": "PMC13251504", "nct": "NCT04205357" },
+    { "label": "Takeuchi 2014 · Neurology India · 신규 교모세포종 설파살라진 병용", "doi": "10.4103/0028-3886.128280", "pmid": "24608453" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sulfasalazine, cond=Glioblastoma → 2건 반환·2건 직접 확인",
+    "pubmed": "sulfasalazine AND Glioblastoma → 30건",
+    "negative": "sulfasalazine AND Glioblastoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 22건",
+    "safety": "sulfasalazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3348건"
+  }
+}

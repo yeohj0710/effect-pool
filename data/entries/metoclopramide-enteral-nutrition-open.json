@@ -1,0 +1,30 @@
+{
+  "id": "metoclopramide-enteral-nutrition-open",
+  "subj": "메토클로프라미드",
+  "claim": "메토클로프라미드는 중환자의 경장영양 불내성을 줄인다",
+  "line": "문헌고찰은 위 배출과 경장영양 내성 개선을 보고했지만 임상 결과는 부족했습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "경장영양 불내성은 허가 적응증에 없음",
+  "why": "중환자에게 위장관 운동을 촉진해 경장영양을 유지하려는 사용입니다.",
+  "saw": "서술 문헌고찰은 메토클로프라미드가 위 배출과 경장영양 내성을 개선한다고 정리했지만 흡인성 폐렴과 사망 같은 임상 결과의 근거는 부족하다고 했습니다.",
+  "limit": "직접 무작위시험의 표본수와 임상 결과를 이번 조회에서 확인하지 못했고, 중환자·영양 불내성 상황에 한정됩니다.",
+  "against": "메토클로프라미드가 모든 중환자에게 예방적으로 필요하다는 근거는 없습니다.",
+  "use": "중환자 경장영양 불내성에서 위 배출 촉진을 고려할 때 제한된 근거로 검토할 수 있습니다.",
+  "effect": "경장영양 내성 개선 신호",
+  "refs": [
+    { "label": "Davies 2004 · Current Opinion in Critical Care · 경장영양과 위장관운동촉진제", "doi": "10.1097/00075198-200404000-00013", "pmid": "15075727" },
+    { "label": "MacLaren 2000 · Pharmacotherapy · 중환자 경장영양 불내성 관리", "doi": "10.1592/phco.20.19.1486.34853", "pmid": "11130221" },
+    { "label": "NCT03331965 · 위공장관 배치에서 메토클로프라미드와 위약 비교", "nct": "NCT03331965" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=metoclopramide, cond=Enteral Nutrition → 12건 반환·10건 직접 확인",
+    "pubmed": "metoclopramide AND Enteral Nutrition → 131건",
+    "negative": "metoclopramide AND Enteral Nutrition AND (no effect OR did not OR failed to OR negative OR no significant difference) → 90건",
+    "safety": "metoclopramide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3080건"
+  }
+}

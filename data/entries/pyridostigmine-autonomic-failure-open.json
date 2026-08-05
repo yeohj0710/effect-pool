@@ -1,0 +1,30 @@
+{
+  "id": "pyridostigmine-autonomic-failure-open",
+  "subj": "피리도스티그민",
+  "claim": "피리도스티그민은 미도드린과 함께 자율신경부전의 기립성 저혈압을 개선한다",
+  "line": "메타분석에서 단독 효과는 불확실했고 미도드린 병용에서만 효과가 있었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "자율신경부전의 기립성 저혈압은 허가 적응증에 없음",
+  "why": "피리도스티그민은 누운 자세의 고혈압을 악화시키지 않으면서 남아 있는 교감신경 예비력을 높이려는 목적으로 사용됩니다.",
+  "saw": "2025년 메타분석에 포함된 무작위시험 6개에서 피리도스티그민 단독의 기립성 수축기·이완기 혈압 저하는 통계적으로 유의하지 않았지만 미도드린 병용은 수축기 혈압 저하를 유의하게 개선했습니다.",
+  "limit": "메타분석 초록에서 총 참여자 수를 확인하지 못했고 연구별 중증도와 자율신경 예비력이 달랐습니다.",
+  "against": "중증 자율신경부전에서는 기립 혈압에 효과가 없었던 시험이 있었고 단독요법의 통합 효과도 유의하지 않았습니다.",
+  "use": "누운 자세 고혈압이 우려되는 기립성 저혈압에서 미도드린 병용을 탐색할 때 제한된 근거로 검토할 수 있습니다.",
+  "effect": "미도드린 병용 시 기립성 혈압 저하 감소",
+  "refs": [
+    { "label": "Pavic 2025 · Open Heart · 피리도스티그민 기립성 저혈압 체계적 문헌고찰·메타분석", "doi": "10.1136/openhrt-2024-003106", "pmid": "40132893", "pmc": "PMC11938227" },
+    { "label": "Park 2020 · Autonomic Neuroscience · 기립성 저혈압 약물치료", "doi": "10.1016/j.autneu.2020.102721", "pmid": "32979782", "pmc": "PMC7704612" },
+    { "label": "NCT00223691 · 자율신경부전 기립성 저혈압 치료시험", "nct": "NCT00223691" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pyridostigmine, cond=Autonomic Failure → 3건 반환·3건 직접 확인",
+    "pubmed": "pyridostigmine AND Autonomic Failure → 41건",
+    "negative": "pyridostigmine AND Autonomic Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 28건",
+    "safety": "pyridostigmine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1502건"
+  }
+}

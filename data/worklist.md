@@ -8444,34 +8444,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoclopramide — Migraine에 듣는다  <!-- 시험 23건 · 논문 357편 -->
 - [x] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 --> — 허가 적응증(2026-08-05)
 - [x] metoclopramide — Headache에 듣는다  <!-- 시험 13건 · 논문 406편 -->
-- [ ] metoclopramide — Enteral Nutrition에 듣는다  <!-- 시험 9건 · 논문 131편 -->
-- [ ] pyridostigmine — HIV에 듣는다  <!-- 시험 5건 · 논문 20편 -->
-- [ ] pyridostigmine — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 41편 -->
-- [ ] pyridostigmine — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] pyridostigmine — Myasthenia Gravis에 듣는다  <!-- 시험 3건 · 논문 1260편 -->
-- [ ] ropinirole — Parkinson Disease에 듣는다  <!-- 시험 23건 · 논문 649편 -->
-- [ ] ropinirole — Pharmacokinetic Study에 듣는다  <!-- 시험 3건 · 논문 99편 -->
-- [ ] ropinirole — End Stage Renal Disease에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] sulfasalazine — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 409편 -->
-- [ ] sulfasalazine — Glioblastoma에 듣는다  <!-- 시험 3건 · 논문 30편 -->
-- [ ] sulfasalazine — Fibrosis, Liver에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] sulfasalazine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 111편 -->
-- [ ] tadalafil — Hypertension에 듣는다  <!-- 시험 41건 · 논문 640편 -->
-- [ ] tadalafil — Cancer에 듣는다  <!-- 시험 33건 · 논문 227편 -->
-- [ ] tadalafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 31건 · 논문 359편 -->
-- [ ] tadalafil — Impotence에 듣는다  <!-- 시험 12건 · 논문 1451편 -->
-- [ ] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 -->
-- [ ] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 -->
-- [ ] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 -->
-- [ ] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 -->
-- [ ] ursodeoxycholic acid — Biliary Atresia에 듣는다  <!-- 시험 22건 · 논문 84편 -->
-- [ ] ursodeoxycholic acid — Hepatitis에 듣는다  <!-- 시험 10건 · 논문 963편 -->
-- [ ] ursodeoxycholic acid — Cholestasis에 듣는다  <!-- 시험 8건 · 논문 2935편 -->
-- [ ] ursodeoxycholic acid — Cholangitis에 듣는다  <!-- 시험 7건 · 논문 1672편 -->
-- [ ] zolpidem — Sleep에 듣는다  <!-- 시험 37건 · 논문 1318편 -->
-- [ ] zolpidem — Depression에 듣는다  <!-- 시험 5건 · 논문 259편 -->
-- [ ] zolpidem — Child's Anxiety에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] zolpidem — Dementia에 듣는다  <!-- 시험 3건 · 논문 75편 -->
+- [x] metoclopramide — Enteral Nutrition에 듣는다  <!-- 시험 9건 · 논문 131편 -->
+- [x] pyridostigmine — HIV에 듣는다  <!-- 시험 5건 · 논문 20편 -->
+- [x] pyridostigmine — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 41편 -->
+- [x] pyridostigmine — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 32편 -->
+- [x] pyridostigmine — Myasthenia Gravis에 듣는다  <!-- 시험 3건 · 논문 1260편 --> — 허가 적응증(2026-08-05)
+- [x] ropinirole — Parkinson Disease에 듣는다  <!-- 시험 23건 · 논문 649편 --> — 허가 적응증(2026-08-05)
+- [x] ropinirole — Pharmacokinetic Study에 듣는다  <!-- 시험 3건 · 논문 99편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 5건은 생체이용률·약동학·건강인 시험; PubMed 99건은 약동학·파킨슨병 약물연구 중심)
+- [x] ropinirole — End Stage Renal Disease에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 4건 중 3건은 혈액투석 환자 하지불안증후군 시험이나 결과 논문 없음; PubMed 10건은 만성콩팥병 하지불안증후군 고찰 중심)
+- [x] sulfasalazine — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 409편 -->
+- [x] sulfasalazine — Glioblastoma에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] sulfasalazine — Fibrosis, Liver에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [x] sulfasalazine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 111편 -->
+- [x] tadalafil — Hypertension에 듣는다  <!-- 시험 41건 · 논문 640편 --> — 허가 적응증(2026-08-05)
+- [x] tadalafil — Cancer에 듣는다  <!-- 시험 33건 · 논문 227편 -->
+- [x] tadalafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 31건 · 논문 359편 --> — 허가 적응증(2026-08-05)
+- [x] tadalafil — Impotence에 듣는다  <!-- 시험 12건 · 논문 1451편 --> — 허가 적응증(2026-08-05)
+- [x] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 --> — 허가 적응증(2026-08-05)
+- [x] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 --> — 허가 적응증(2026-08-05)
+- [x] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 --> — 허가 적응증(2026-08-05)
+- [x] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 --> — 허가 적응증(2026-08-05)
+- [x] ursodeoxycholic acid — Biliary Atresia에 듣는다  <!-- 시험 22건 · 논문 84편 -->
+- [x] ursodeoxycholic acid — Hepatitis에 듣는다  <!-- 시험 10건 · 논문 963편 -->
+- [x] ursodeoxycholic acid — Cholestasis에 듣는다  <!-- 시험 8건 · 논문 2935편 -->
+- [x] ursodeoxycholic acid — Cholangitis에 듣는다  <!-- 시험 7건 · 논문 1672편 --> — 허가 적응증(2026-08-05)
+- [x] zolpidem — Sleep에 듣는다  <!-- 시험 37건 · 논문 1318편 --> — 허가 적응증(2026-08-05)
+- [x] zolpidem — Depression에 듣는다  <!-- 시험 5건 · 논문 259편 -->
+- [x] zolpidem — Child's Anxiety에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [x] zolpidem — Dementia에 듣는다  <!-- 시험 3건 · 논문 75편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8482,8 +8482,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] bromocriptine — Dilated Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 33편 -->
-- [ ] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 -->
+- [x] bromocriptine — Dilated Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 직접 시험 NCT06250257은 모집 중이고 결과 없음; PubMed 33건은 주로 임신주위 심근병증 고찰)
+- [x] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 --> — 허가 적응증(2026-08-05)
 - [ ] bromocriptine — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
 - [ ] cabergoline — Ovarian Hyperstimulation에 듣는다  <!-- 시험 7건 · 논문 117편 -->
 - [ ] cabergoline — Lactation Suppressed에 듣는다  <!-- 시험 6건 · 논문 30편 -->

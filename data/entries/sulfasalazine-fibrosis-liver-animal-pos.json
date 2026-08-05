@@ -1,0 +1,29 @@
+{
+  "id": "sulfasalazine-fibrosis-liver-animal-pos",
+  "subj": "설파살라진",
+  "claim": "설파살라진은 사염화탄소 유발 간섬유화 랫드에서 콜라겐 축적을 막는다",
+  "line": "간섬유화 랫드에서 콜라겐 축적과 염증 신호가 억제됐습니다.",
+  "tier": "animal",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "간섬유화 치료는 설파살라진의 허가 적응증에 없음",
+  "why": "설파살라진의 NFκB 억제와 항산화 작용을 간섬유화에 전용한 전임상 근거입니다.",
+  "saw": "랫드 사염화탄소 모델에서 설파살라진 100 mg/kg/day는 ALT·γ-GTP 상승과 지질과산화를 억제했고 간 콜라겐 축적, TGF-β 발현, NFκB 핵 이동, COX-2 활성을 막았습니다.",
+  "limit": "랫드 단일 모델이며 동물 수가 초록에 제시되지 않았고 사람의 간섬유화 치료효과를 입증하지 않습니다.",
+  "against": "설파살라진 자체가 사람에서 간독성을 일으킬 수 있어 임상 전환 전에 안전성 확인이 필요합니다.",
+  "use": "간섬유화 표적과 NFκB 억제 연구의 전임상 가설로만 사용할 수 있습니다.",
+  "effect": "간 콜라겐 축적 억제",
+  "refs": [
+    { "label": "Chávez 2012 · Human and Experimental Toxicology · 랫드 사염화탄소 간섬유화 모델", "doi": "10.1177/0960327112438928", "pmid": "22381741" },
+    { "label": "NCT06293378 · 간섬유화·간경변에서 설파살라진 시험", "nct": "NCT06293378" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sulfasalazine, cond=Fibrosis, Liver → 1건 반환·1건 직접 확인",
+    "pubmed": "sulfasalazine AND Fibrosis, Liver → 27건",
+    "negative": "sulfasalazine AND Fibrosis, Liver AND (no effect OR did not OR failed to OR negative OR no significant difference) → 18건",
+    "safety": "sulfasalazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3348건"
+  }
+}
