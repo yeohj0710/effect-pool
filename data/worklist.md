@@ -5673,10 +5673,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] furosemide — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
 - [x] furosemide — Fluid Overload에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
 - [x] furosemide — Renal Impairment에 듣는다 — 새 항목(furosemide-renal-impairment-null)  <!-- 등록 시험 13건 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
+- [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
+- [x] amitriptyline — Major Depression에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 5건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -5687,12 +5687,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
+- [x] metformin — Lung Cancer에 듣는다 — 기존 항목(metformin-lung-cancer-null)  <!-- 등록 시험 79건 -->
+- [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-null)  <!-- 등록 시험 50건 -->
+- [x] metformin — Obesity에 듣는다 — 기존 항목(metformin-obesity-pos)  <!-- 등록 시험 33건 -->
+- [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 17건 -->
+- [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
+- [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
 - [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
