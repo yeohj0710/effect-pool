@@ -6432,16 +6432,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] metformin — Lung Cancer에 듣는다 — 기존 항목(metformin-lung-cancer-null)  <!-- 등록 시험 79건 -->
 - [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-null)  <!-- 등록 시험 50건 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
+- [x] metformin — Obesity에 듣는다 — 기존 항목(metformin-obesity-pos)  <!-- 등록 시험 33건 -->
+- [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 17건 -->
+- [x] aspirin — Stroke에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 57건 -->
+- [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
+- [x] aspirin — Brain Infarction에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 26건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
+- [x] propranolol — Migraine에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 30건 -->
+- [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
+- [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
+- [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
 - [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
 - [ ] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
