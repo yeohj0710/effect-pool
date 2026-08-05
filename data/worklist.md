@@ -6902,16 +6902,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 2044편 --> — 이미 수록됨(2026-08-05)
 - [x] gabapentin — Nausea에 듣는다  <!-- 시험 19건 · 논문 331편 --> — 이미 수록됨(2026-08-05)
 - [x] gabapentin — Drug Dependence에 듣는다  <!-- 시험 18건 · 논문 622편 --> — 이미 수록됨(2026-08-05)
-- [ ] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 -->
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 -->
+- [x] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> — 허가 적응증(2026-08-05)
+- [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
+- [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> — 허가 적응증(2026-08-05)
+- [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
+- [x] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> — 허가 적응증(2026-08-05)
+- [x] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 --> — 이미 수록됨(2026-08-05)
+- [x] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> — 허가 적응증(2026-08-05)
 - [ ] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 -->
 - [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 -->
 - [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 -->
