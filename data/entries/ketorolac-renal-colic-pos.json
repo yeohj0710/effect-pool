@@ -1,0 +1,29 @@
+{
+  "id": "ketorolac-renal-colic-pos",
+  "subj": "케토롤락",
+  "claim": "신장산통의 심한 통증과 의료기관 방문을 줄인다",
+  "line": "요관 스텐트 제거 뒤 심한 신장산통 관련 방문을 2%로 낮췄습니다",
+  "effect": "예기치 않은 방문 2% vs 13%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 124,
+  "synth": "single",
+  "why": "요관 스텐트 제거 뒤 케토롤락이 신장산통과 관련 의료기관 방문을 줄이는지 위약과 비교한 무작위시험입니다.",
+  "saw": "요관 스텐트 제거 환자 124명 이중맹검 무작위시험에서 전체 통증 점수와 심한 통증 비율은 위약과 다르지 않았지만, 신장산통으로 예기치 않게 응급실이나 외래를 방문한 비율은 케토롤락군 2%, 대조군 13%였습니다.",
+  "limit": "스텐트 제거 뒤 상황에 한정된 단일시험이고 주관적 통증은 줄이지 못해 일반적인 신장산통 치료 효과로 확대할 수 없습니다.",
+  "against": "신장산통 4개 무작위시험 메타분석에서는 케토롤락 추가가 초기 통증과 구제진통을 개선했지만, 다른 메타분석에서는 이부프로펜과 통증 조절이 비슷했습니다.",
+  "use": "통증 점수와 예기치 않은 의료기관 방문처럼 서로 다른 결과를 따로 봐야 합니다.",
+  "refs": [
+    { "label": "Johnson 2022 · J Urol · 스텐트 제거 뒤 케토롤락 무작위시험", "doi": "10.1097/JU.0000000000002750", "pmid": "35653577" },
+    { "label": "Zhen 2021 · Am J Emerg Med · 신장산통 케토롤락 메타분석", "doi": "10.1016/j.ajem.2020.12.073", "pmid": "33476916" },
+    { "label": "Cai 2023 · Urol J · 이부프로펜·케토롤락 비교 메타분석", "doi": "10.22037/uj.v20i.7572", "pmid": "37634069" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:ketorolac → 150건; 허가 문구는 성인 급성 통증이고 Renal Colic 적응증은 없음",
+    "ctgov": "query.intr=ketorolac&query.cond=Renal Colic → 13건 반환, InterventionName 대조 후 10건",
+    "pubmed": "ketorolac Renal Colic → 83건; ketorolac renal colic randomized → 49건",
+    "negative": "ketorolac AND Renal Colic AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 64건",
+    "safety": "ketorolac AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1958건"
+  }
+}

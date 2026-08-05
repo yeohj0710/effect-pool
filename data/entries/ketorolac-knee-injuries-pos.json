@@ -1,0 +1,28 @@
+{
+  "id": "ketorolac-knee-injuries-pos",
+  "subj": "케토롤락",
+  "claim": "무릎 손상 뒤 통증을 줄인다",
+  "line": "전방십자인대 재건 뒤 무릎 통증을 비교약보다 더 줄였습니다",
+  "effect": "통증 점수·완화 우수",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 125,
+  "synth": "single",
+  "why": "전방십자인대 재건 뒤 무릎 통증을 케토롤락과 하이드로코돈·아세트아미노펜으로 비교한 이중맹검 무작위시험입니다.",
+  "saw": "전방십자인대 재건 환자 125명 이중맹검 무작위 다기관시험에서 케토롤락군은 비교약군보다 수술 직후 통증 강도와 총 통증 완화가 더 좋았고 소화기 증상과 출혈도 더 많지 않았습니다.",
+  "limit": "전방십자인대 수술 뒤 단기 통증 결과라 일반적인 무릎 손상이나 장기 기능 회복 효과로 확대할 수 없습니다.",
+  "against": "무릎 관절경 환자 54명 별도 시험에서는 케토롤락이 비교 소염제와 통증 점수에서 동등했고 24시간 통증 보고는 더 많았습니다.",
+  "use": "수술 직후 통증 결과와 무릎 손상 자체의 회복 효과를 구분해야 합니다.",
+  "refs": [
+    { "label": "Barber 1998 · Arthroscopy · 전방십자인대 재건 케토롤락 무작위시험", "doi": "10.1016/S0749-8063(98)70057-X", "pmid": "9754479" },
+    { "label": "Kim 2005 · J Clin Anesth · 무릎 관절경 케토롤락 비교 음성시험", "doi": "10.1016/j.jclinane.2004.09.008", "pmid": "16171664" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:ketorolac → 150건; 허가 문구는 성인 급성 통증이고 Knee Injuries 적응증은 없음",
+    "ctgov": "query.intr=ketorolac&query.cond=Knee Injuries → 12건 반환, InterventionName 대조 후 6건",
+    "pubmed": "ketorolac Knee Injuries → 15건; ketorolac knee injury randomized → 11건",
+    "negative": "ketorolac AND Knee Injuries AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 9건",
+    "safety": "ketorolac AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1958건"
+  }
+}

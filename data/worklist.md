@@ -7212,16 +7212,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] azithromycin — Infection에 듣는다  <!-- 시험 46건 · 논문 11046편 --> — 허가 적응증(2026-08-05)
 - [x] azithromycin — Pneumonia에 듣는다  <!-- 시험 45건 · 논문 3283편 --> — 허가 적응증(2026-08-05)
 - [x] azithromycin — Malaria에 듣는다  <!-- 시험 29건 · 논문 335편 -->
-- [ ] ketorolac — Knee Injuries에 듣는다  <!-- 시험 38건 · 논문 15편 -->
-- [ ] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 -->
-- [ ] ketorolac — Renal Colic에 듣는다  <!-- 시험 16건 · 논문 83편 -->
-- [ ] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 -->
-- [ ] mirtazapine — Sleep에 듣는다  <!-- 시험 15건 · 논문 339편 -->
-- [ ] mirtazapine — Cancer에 듣는다  <!-- 시험 12건 · 논문 193편 -->
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 시험 58건 · 논문 299편 -->
-- [ ] venlafaxine — Pain에 듣는다  <!-- 시험 17건 · 논문 511편 -->
-- [ ] venlafaxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 107편 -->
-- [ ] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 -->
+- [x] ketorolac — Knee Injuries에 듣는다  <!-- 시험 38건 · 논문 15편 -->
+- [x] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 --> — 허가 적응증(2026-08-05)
+- [x] ketorolac — Renal Colic에 듣는다  <!-- 시험 16건 · 논문 83편 -->
+- [x] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 --> — 허가 적응증(2026-08-05)
+- [x] mirtazapine — Sleep에 듣는다  <!-- 시험 15건 · 논문 339편 --> — 이미 수록됨(2026-08-05)
+- [x] mirtazapine — Cancer에 듣는다  <!-- 시험 12건 · 논문 193편 --> — 이미 수록됨(2026-08-05)
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 시험 58건 · 논문 299편 --> — 허가 적응증(2026-08-05)
+- [x] venlafaxine — Pain에 듣는다  <!-- 시험 17건 · 논문 511편 --> — 이미 수록됨(2026-08-05)
+- [x] venlafaxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 107편 --> — 이미 수록됨(2026-08-05)
+- [x] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 --> — 허가 적응증(2026-08-05)
 - [ ] prednisone — Myeloma에 듣는다  <!-- 시험 21건 · 논문 1841편 -->
 - [ ] prednisone — Kidney Diseases에 듣는다  <!-- 시험 19건 · 논문 5235편 -->
 - [ ] hydrochlorothiazide — Diabetes에 듣는다  <!-- 시험 28건 · 논문 1036편 -->
