@@ -1,0 +1,40 @@
+{
+  "id": "coffee-dehydration-null",
+  "subj": "커피",
+  "claim": "마시면 몸에서 물이 빠진다",
+  "line": "평소 마시는 남성한테 하루 4잔씩 사흘을 줘도 몸속 물이 안 줄었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 50,
+  "synth": "single",
+  "why": "사람에게 커피와 물을 순서를 바꿔가며 직접 먹인 시험입니다. 지켜보기만 한 게 아니라 나눠서 줬으니 맨 오른쪽 칸에 넣었습니다.",
+  "saw": "평소 하루 3~6잔 마시는 남성 50명에게 사흘씩 두 번, 한 번은 커피 200mL를 네 잔(카페인 4mg/kg), 다른 한 번은 같은 양의 물을 먹였습니다. 중수소로 잰 몸속 총 수분량이 51.5kg 대 51.4kg으로 같았고 24시간 소변량도 2409mL 대 2428mL로 같았습니다. 혈액·소변 탈수 지표도 전부 차이가 없었습니다. 소변 나트륨 배출만 커피 쪽이 높았습니다.",
+  "limit": "남성만 봤고 기간이 사흘뿐입니다. 참가자 전원이 평소 커피를 마시던 사람이라 카페인 내성이 이미 붙어 있었습니다. 안 마시던 사람이 갑자기 마시는 상황은 이 시험이 답하지 못합니다.",
+  "against": "카페인만 따로 준 시험 16개를 합친 분석에서는 소변이 109mL 늘었습니다. 다만 이 증가분은 운동을 하면 사라졌고, 남성에서는 통계적으로 유의하지 않았으며 여성에서만 뚜렷했습니다. 즉 커피 한 잔의 물이 이 정도 소변 증가분보다 훨씬 많습니다.",
+  "use": "커피 마신 만큼 물을 따로 더 마셔야 한다는 계산은 근거가 없습니다. 하루 수분 섭취량을 셀 때 커피도 같이 세면 됩니다. 여성이거나 평소 안 마시던 사람은 소변이 조금 늘 수 있습니다.",
+  "refs": [
+    {
+      "label": "Killer 2014 · PLoS One · 교차 시험",
+      "doi": "10.1371/journal.pone.0084154",
+      "pmid": "24416202",
+      "pmc": "PMC3886980"
+    },
+    {
+      "label": "Zhang 2014 · J Sci Med Sport · 메타분석(이뇨 있음)",
+      "doi": "10.1016/j.jsams.2014.07.017",
+      "pmid": "25154702",
+      "pmc": "PMC4725310"
+    },
+    {
+      "label": "Armstrong 2002 · Int J Sport Nutr Exerc Metab · 검토",
+      "doi": "10.1123/ijsnem.12.2.189",
+      "pmid": "12187618"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "pubmed": "coffee AND (dehydration OR \"hydration status\" OR \"total body water\") AND humans → 44건",
+    "negative": "caffeine ingestion AND (urine output OR diuresis) AND fluid balance review → 3건. Zhang 2014 메타분석에서 이뇨 효과가 실제로 잡혔고 성별·운동에 따라 갈렸습니다",
+    "safety": "coffee OR caffeine AND (adverse effects OR toxicity OR overdose) AND case report → 809건. 수분 균형 쪽 이상 신호는 없었습니다"
+  }
+}
