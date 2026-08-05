@@ -7022,16 +7022,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Kidney Cancer에 듣는다  <!-- 시험 45건 · 논문 1443편 --> — 이미 수록됨(2026-08-05)
 - [x] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 시험 19건 · 논문 111편 --> — 이미 수록됨(2026-08-05)
 - [x] rapamycin — Aging에 듣는다  <!-- 시험 9건 · 논문 3476편 --> — 이미 수록됨(2026-08-05)
-- [ ] rapamycin — Heart Diseases에 듣는다  <!-- 시험 9건 · 논문 6771편 -->
-- [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 시험 7건 · 논문 2670편 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 시험 41건 · 논문 501편 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 시험 13건 · 논문 80편 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 시험 8건 · 논문 1343편 -->
-- [ ] atorvastatin — Coronary Disease에 듣는다  <!-- 시험 77건 · 논문 2070편 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 시험 50건 · 논문 2990편 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 시험 44건 · 논문 1785편 -->
-- [ ] atorvastatin — Cancer에 듣는다  <!-- 시험 38건 · 논문 936편 -->
-- [ ] losartan — Cancer에 듣는다  <!-- 시험 35건 · 논문 421편 -->
+- [x] rapamycin — Heart Diseases에 듣는다  <!-- 시험 9건 · 논문 6771편 --> — 이미 수록됨(2026-08-05)
+- [x] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 시험 7건 · 논문 2670편 --> — 이미 수록됨(2026-08-05)
+- [x] montelukast — Rhinitis에 듣는다  <!-- 시험 41건 · 논문 501편 --> — 허가 적응증(2026-08-05)
+- [x] montelukast — Bronchiolitis에 듣는다  <!-- 시험 13건 · 논문 80편 --> — 이미 수록됨(2026-08-05)
+- [x] montelukast — Lung Diseases에 듣는다  <!-- 시험 8건 · 논문 1343편 --> — 이미 수록됨(2026-08-05)
+- [x] atorvastatin — Coronary Disease에 듣는다  <!-- 시험 77건 · 논문 2070편 --> — 허가 적응증(2026-08-05)
+- [x] atorvastatin — Dyslipidemia에 듣는다  <!-- 시험 50건 · 논문 2990편 --> — 허가 적응증(2026-08-05)
+- [x] atorvastatin — Diabetes에 듣는다  <!-- 시험 44건 · 논문 1785편 --> — 결과 대기(2026-08-05)
+- [x] atorvastatin — Cancer에 듣는다  <!-- 시험 38건 · 논문 936편 --> — 이미 수록됨(2026-08-05)
+- [x] losartan — Cancer에 듣는다  <!-- 시험 35건 · 논문 421편 --> — 이미 수록됨(2026-08-05)
 - [ ] losartan — Nephropathy에 듣는다  <!-- 시험 25건 · 논문 1600편 -->
 - [ ] losartan — Diabetes에 듣는다  <!-- 시험 22건 · 논문 1361편 -->
 - [ ] losartan — Fibrosis에 듣는다  <!-- 시험 15건 · 논문 848편 -->
