@@ -9832,21 +9832,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rifabutin — Infection, Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 447편 --> — HIV 관련 MAC 감염 표준 치료, HIV 자체 치료 아님(2026-08-05)
 - [x] sodium thiosulfate — Peripheral Neuropathy에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 직접 사람 치료 결과 없음(2026-08-05 재조회)
 - [x] sodium thiosulfate — Pain에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-pain-pos)
-- [ ] sodium thiosulfate — Lung Cancer에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 -->
-- [ ] sodium thiosulfate — Kidney Stone에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 -->
-- [ ] sodium thiosulfate — Cancer에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
-- [ ] sodium thiosulfate — Malignant Glioma에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
-- [ ] sodium thiosulfate — Brain Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
-- [ ] sodium thiosulfate — Germ Cell Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
-- [ ] tolcapone — Alcohol Abuse에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] trimetazidine — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 101편 -->
-- [ ] yohimbine — Stress에 듣는다  <!-- 시험 3건 · 논문 1048편 -->
-- [ ] yohimbine — Autonomic Failure에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] yohimbine — Opioid-use Disorder에 듣는다  <!-- 시험 3건 · 논문 70편 -->
-- [ ] bromfenac — Macular Edema에 듣는다  <!-- 시험 14건 · 논문 68편 -->
-- [ ] bromfenac — Inflammation에 듣는다  <!-- 시험 9건 · 논문 89편 -->
-- [ ] bromfenac — Pain에 듣는다  <!-- 시험 6건 · 논문 79편 -->
-- [ ] bromfenac — Eye Diseases에 듣는다  <!-- 시험 4건 · 논문 144편 -->
+- [x] sodium thiosulfate — Lung Cancer에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-lung-cancer-null)
+- [x] sodium thiosulfate — Kidney Stone에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-kidney-stone-null)
+- [x] sodium thiosulfate — Cancer에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 --> — 소아 국소·비전이 고형암의 시스플라틴 청력독성 예방 허가 적응증(2026-08-05 확인)
+- [x] sodium thiosulfate — Malignant Glioma에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-malignant-glioma-null)
+- [x] sodium thiosulfate — Brain Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-brain-tumor-pos)
+- [x] sodium thiosulfate — Germ Cell Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 --> — 소아 국소·비전이 고형암의 시스플라틴 청력독성 예방 허가 범위(2026-08-05 확인)
+- [x] tolcapone — Alcohol Abuse에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 신규 항목(tolcapone-alcohol-abuse-pos)
+- [x] trimetazidine — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 신규 항목(trimetazidine-diabetes-mellitus-null)
+- [x] yohimbine — Stress에 듣는다  <!-- 시험 3건 · 논문 1048편 --> — 신규 항목(yohimbine-stress-null)
+- [x] yohimbine — Autonomic Failure에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 신규 항목(yohimbine-autonomic-failure-pos)
+- [x] yohimbine — Opioid-use Disorder에 듣는다  <!-- 시험 3건 · 논문 70편 --> — 신규 항목(yohimbine-opioid-use-disorder-null)
+- [x] bromfenac — Macular Edema에 듣는다  <!-- 시험 14건 · 논문 68편 --> — 신규 항목(bromfenac-macular-edema-pos)
+- [x] bromfenac — Inflammation에 듣는다  <!-- 시험 9건 · 논문 89편 --> — 백내장 수술 후 안구 통증·염증 허가 적응증(2026-08-05 확인)
+- [x] bromfenac — Pain에 듣는다  <!-- 시험 6건 · 논문 79편 --> — 신규 항목(bromfenac-pain-pos)
+- [x] bromfenac — Eye Diseases에 듣는다  <!-- 시험 4건 · 논문 144편 --> — 전체 눈 질환 주장은 직접 결과가 없고 황반부종·수술 후 안구 염증 연구로 분화됨(2026-08-05 조회)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9857,21 +9857,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] amifostine — Radiation Toxicity에 듣는다  <!-- 시험 30건 · 논문 776편 -->
-- [ ] amifostine — Solid Tumors에 듣는다  <!-- 시험 12건 · 논문 54편 -->
-- [ ] amifostine — Myelodysplastic Syndromes에 듣는다  <!-- 시험 10건 · 논문 59편 -->
-- [ ] aminolevulinic acid — Brain Tumor에 듣는다  <!-- 시험 18건 · 논문 888편 -->
-- [ ] aminolevulinic acid — Glioblastoma에 듣는다  <!-- 시험 13건 · 논문 494편 -->
-- [ ] aminolevulinic acid — Glioma에 듣는다  <!-- 시험 11건 · 논문 917편 -->
-- [ ] aminolevulinic acid — Brain Cancer에 듣는다  <!-- 시험 10건 · 논문 777편 -->
-- [ ] benzydamine — Sore Throat에 듣는다  <!-- 시험 4건 · 논문 60편 -->
-- [ ] benzydamine — Head and Neck Cancer에 듣는다  <!-- 시험 3건 · 논문 49편 -->
-- [ ] clofazimine — HIV에 듣는다  <!-- 시험 14건 · 논문 149편 -->
-- [ ] clofazimine — Infection, Bacterial에 듣는다  <!-- 시험 8건 · 논문 1536편 -->
-- [ ] clofazimine — Pulmonary Tuberculoses에 듣는다  <!-- 시험 6건 · 논문 220편 -->
-- [ ] clofazimine — Leprosy에 듣는다  <!-- 시험 3건 · 논문 895편 -->
-- [ ] colistimethate — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 100편 -->
-- [ ] colistimethate — Colistin에 듣는다  <!-- 시험 3건 · 논문 386편 -->
+- [x] amifostine — Radiation Toxicity에 듣는다  <!-- 시험 30건 · 논문 776편 --> — 신규 항목(amifostine-radiation-toxicity-pos)
+- [x] amifostine — Solid Tumors에 듣는다  <!-- 시험 12건 · 논문 54편 --> — 신규 항목(amifostine-solid-tumors-null)
+- [x] amifostine — Myelodysplastic Syndromes에 듣는다  <!-- 시험 10건 · 논문 59편 --> — 신규 항목(amifostine-myelodysplastic-syndromes-pos)
+- [x] aminolevulinic acid — Brain Tumor에 듣는다  <!-- 시험 18건 · 논문 888편 --> — 전체 뇌종양이 아니라 악성 신경교종 시각화 허가·표준 범위(2026-08-05 확인)
+- [x] aminolevulinic acid — Glioblastoma에 듣는다  <!-- 시험 13건 · 논문 494편 --> — 악성 신경교종 수술 중 형광 시각화 허가 적응증(2026-08-05 확인)
+- [x] aminolevulinic acid — Glioma에 듣는다  <!-- 시험 11건 · 논문 917편 --> — 악성 신경교종 수술 중 형광 시각화 허가 적응증(2026-08-05 확인)
+- [x] aminolevulinic acid — Brain Cancer에 듣는다  <!-- 시험 10건 · 논문 777편 --> — 악성 신경교종 시각화 범위를 벗어난 전체 뇌암 직접 결과 없음(2026-08-05 조회)
+- [x] benzydamine — Sore Throat에 듣는다  <!-- 시험 4건 · 논문 60편 --> — 급성 인후통 증상 완화 허가 적응증(2026-08-05 확인)
+- [x] benzydamine — Head and Neck Cancer에 듣는다  <!-- 시험 3건 · 논문 49편 --> — 방사선 유발 구강점막염 예방 표준 보조요법이며 두경부암 치료 자체는 아님(2026-08-05)
+- [x] clofazimine — HIV에 듣는다  <!-- 시험 14건 · 논문 149편 --> — HIV 자체 치료 직접 결과 없음, 관련 연구는 결핵·비결핵항산균 기회감염(2026-08-05 조회)
+- [x] clofazimine — Infection, Bacterial에 듣는다  <!-- 시험 8건 · 논문 1536편 --> — 비결핵항산균 감염 지침의 대체요법이며 일반 세균 감염 근거는 아님(2026-08-05)
+- [x] clofazimine — Pulmonary Tuberculoses에 듣는다  <!-- 시험 6건 · 논문 220편 --> — 리팜피신 내성·비결핵항산균 폐질환 표준·대체 항균요법(2026-08-05)
+- [x] clofazimine — Leprosy에 듣는다  <!-- 시험 3건 · 논문 895편 --> — 나병 허가 적응증(2026-08-05 확인)
+- [x] colistimethate — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 100편 --> — 다제내성 그람음성균 폐렴의 허가·표준 항균요법(2026-08-05)
+- [x] colistimethate — Colistin에 듣는다  <!-- 시험 3건 · 논문 386편 --> — 콜리스틴의 전구약물인 콜리스티메테이트로 같은 허가·표준 항균 범위(2026-08-05)
 - [ ] colistimethate — Infection in ICU에 듣는다  <!-- 시험 3건 · 논문 44편 -->
 - [ ] dexrazoxane — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 67편 -->
 - [ ] dexrazoxane — Sarcoma에 듣는다  <!-- 시험 18건 · 논문 50편 -->

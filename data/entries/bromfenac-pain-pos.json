@@ -1,0 +1,29 @@
+{
+  "id": "bromfenac-pain-pos",
+  "subj": "브롬페낙",
+  "claim": "브롬페낙을 수술 후 통증에 쓴다",
+  "line": "정형외과 수술 후 통증 환자 200명 무작위시험에서 경구 브롬페낙 10mg은 아세트아미노펜과 비슷한 진통을 보였습니다",
+  "effect": "10mg 진통 효과가 아세트아미노펜 1000mg과 유사",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 200,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "브롬페낙 점안액은 안과 수술 후 통증에 허가됐지만 경구 브롬페낙의 정형외과 수술 후 통증은 현재 허가 적응증이 아닙니다.",
+  "why": "현재 점안제로 주로 쓰이는 브롬페낙의 과거 경구 진통 연구를 수술 후 통증의 직접 사람 근거로 확인했습니다.",
+  "saw": "정형외과 수술 뒤 중등도·중증 통증이 있던 입원 환자 200명을 경구 브롬페낙 25·50·100mg과 이부프로펜 200·400mg에 무작위 배정했습니다. 브롬페낙은 6시간 동안 통증을 줄였고, 별도 위약대조 연구에서 10mg은 아세트아미노펜 1000mg과 비슷한 진통을 보였으며 25mg은 추가 진통까지 시간이 더 길었습니다.",
+  "limit": "옛 단회 경구시험이고 현재 사용되는 점안 제형의 통증 적응증과 다릅니다.",
+  "against": "장기 통증, 다른 수술, 현재 점안 제형의 비수술성 통증에는 직접 근거가 없습니다.",
+  "use": "브롬페낙의 경구 수술 후 진통 신호를 기록하되 현재 점안 허가와 제형·안전성을 섞지 않습니다.",
+  "refs": [
+    { "label": "정형외과 수술 후 브롬페낙·아세트아미노펜 위약대조시험", "pmid": "2357869" },
+    { "label": "정형외과 수술 후 브롬페낙·이부프로펜 무작위시험", "pmid": "7937271" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=bromfenac · cond=Pain → 12건 반환, 물질 대조 후 9건",
+    "pubmed": "bromfenac AND Pain → 79편",
+    "negative": "bromfenac AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 65편",
+    "safety": "bromfenac AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 167편"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "yohimbine-autonomic-failure-pos",
+  "subj": "요힘빈",
+  "claim": "요힘빈의 혈압 상승 부작용을 자율신경부전 기립성 저혈압에 쓴다",
+  "line": "자율신경부전 환자 8명에게 요힘빈을 투여하자 수축기 혈압이 평균 33mmHg 올랐습니다",
+  "effect": "수축기 혈압 +33mmHg, 이완기 혈압 +16mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 8,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "요힘빈의 자율신경부전·기립성 저혈압 치료는 허가 적응증이 아닙니다.",
+  "why": "요힘빈의 교감신경 항진과 혈압 상승이라는 이상반응을 자율신경부전의 기립성 저혈압 치료에 전환한 초기 사람 연구입니다.",
+  "saw": "자율신경부전으로 심한 기립성 저혈압이 있는 환자 8명에게 요힘빈을 투여하자 수축기 혈압이 평균 136에서 169mmHg로 33mmHg, 이완기 혈압이 77에서 93mmHg로 16mmHg 올랐습니다. 심박수와 혈장 노르에피네프린도 증가했고, 2.5mg을 받은 5명에서는 변화가 유의하지 않았습니다.",
+  "limit": "환자 8명의 소규모 단회 약리시험이고 일상 기립 증상, 낙상, 장기 안전성을 확인하지 않았습니다.",
+  "against": "자율신경부전의 교감신경 예비력에 따라 반응이 달라지고 누운 자세의 고혈압 위험이 있습니다.",
+  "use": "요힘빈의 혈압 상승을 단순 부작용으로만 보지 않고 자율신경부전 기립성 저혈압의 초기 치료 신호로 기록합니다.",
+  "refs": [
+    { "label": "자율신경부전 환자 경구 요힘빈 혈압 시험", "pmid": "3808301" },
+    { "label": "자율신경부전 약물치료 검토", "pmid": "21664375" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=yohimbine · cond=Autonomic Failure → 2건 반환, 물질 대조 후 1건",
+    "pubmed": "yohimbine AND Autonomic Failure → 34편",
+    "negative": "yohimbine AND Autonomic Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 23편",
+    "safety": "yohimbine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2489편"
+  }
+}
