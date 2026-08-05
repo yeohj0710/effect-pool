@@ -7846,16 +7846,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 이미 수록됨(tranexamic-acid-hemorrhage)  <!-- 시험 113건 · 논문 7486편 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 이미 수록됨(tranexamic-acid-bleeding)  <!-- 시험 87건 · 논문 6215편 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 이미 수록됨(tranexamic-acid-hip-fracture)  <!-- 시험 57건 · 논문 220편 -->
-- [ ] tranexamic acid — Surgery에 듣는다  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 시험 34건 · 논문 2818편 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 시험 21건 · 논문 60편 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 99편 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 시험 13건 · 논문 83편 -->
-- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 시험 24건 · 논문 309편 -->
-- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 시험 11건 · 논문 114편 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 449편 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 시험 8건 · 논문 1126편 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 1368편 -->
+- [x] tranexamic acid — Surgery에 듣는다 — 이미 수록됨(tranexamic-acid-surgery)  <!-- 시험 44건 · 논문 5782편 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 이미 수록됨(isotretinoin-lymphoma-t-cell)  <!-- 시험 21건 · 논문 60편 -->
+- [x] isotretinoin — Lung Cancer에 듣는다 — 이미 수록됨(isotretinoin-lung-cancer)  <!-- 시험 18건 · 논문 99편 -->
+- [x] isotretinoin — Leukemia에 듣는다 — 이미 수록됨(isotretinoin-leukemia)  <!-- 시험 13건 · 논문 83편 -->
+- [x] tamoxifen — Solid Tumor에 듣는다 — 이미 수록됨(tamoxifen-solid-tumor)  <!-- 시험 24건 · 논문 309편 -->
+- [x] tamoxifen — BRCA Mutation에 듣는다 — 이미 수록됨(tamoxifen-brca-mutation)  <!-- 시험 11건 · 논문 114편 -->
+- [x] tamoxifen — Brain Tumor에 듣는다 — 이미 수록됨(tamoxifen-brain-tumor-null)  <!-- 시험 9건 · 논문 449편 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 이미 수록됨(tamoxifen-solid-tumor)  <!-- 시험 8건 · 논문 1126편 -->
+- [x] raloxifene — Breast Cancer에 듣는다 — 이미 수록됨(raloxifene-breast-cancer)  <!-- 시험 13건 · 논문 1368편 -->
 - [ ] raloxifene — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 71편 -->
 - [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 -->
 - [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 -->
