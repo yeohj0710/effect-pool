@@ -8472,3 +8472,87 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] zolpidem — Depression에 듣는다  <!-- 시험 5건 · 논문 259편 -->
 - [ ] zolpidem — Child's Anxiety에 듣는다  <!-- 시험 4건 · 논문 13편 -->
 - [ ] zolpidem — Dementia에 듣는다  <!-- 시험 3건 · 논문 75편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] bromocriptine — Dilated Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 33편 -->
+- [ ] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 -->
+- [ ] bromocriptine — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
+- [ ] cabergoline — Ovarian Hyperstimulation에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [ ] cabergoline — Lactation Suppressed에 듣는다  <!-- 시험 6건 · 논문 30편 -->
+- [ ] cabergoline — Infertility에 듣는다  <!-- 시험 6건 · 논문 145편 -->
+- [ ] cabergoline — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 247편 -->
+- [ ] cyclosporine — Leukemia에 듣는다  <!-- 시험 440건 · 논문 2659편 -->
+- [ ] cyclosporine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 117건 · 논문 599편 -->
+- [ ] cyclosporine — Myeloma에 듣는다  <!-- 시험 74건 · 논문 227편 -->
+- [ ] cyclosporine — Kidney Cancer에 듣는다  <!-- 시험 66건 · 논문 915편 -->
+- [ ] epoetin alfa — Kidney Disease에 듣는다  <!-- 시험 78건 · 논문 868편 -->
+- [ ] epoetin alfa — Cancer에 듣는다  <!-- 시험 56건 · 논문 617편 -->
+- [ ] epoetin alfa — Heart Failure에 듣는다  <!-- 시험 52건 · 논문 65편 -->
+- [ ] epoetin alfa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 30건 · 논문 61편 -->
+- [ ] exenatide — Obesity에 듣는다  <!-- 시험 33건 · 논문 860편 -->
+- [ ] exenatide — Glucose Homeostasis에 듣는다  <!-- 시험 9건 · 논문 227편 -->
+- [ ] exenatide — Myocardial Infarction에 듣는다  <!-- 시험 6건 · 논문 135편 -->
+- [ ] exenatide — Fatty Liver에 듣는다  <!-- 시험 6건 · 논문 127편 -->
+- [ ] febuxostat — Hyperuricemia에 듣는다  <!-- 시험 21건 · 논문 783편 -->
+- [ ] febuxostat — Kidney Stones에 듣는다  <!-- 시험 9건 · 논문 29편 -->
+- [ ] febuxostat — Renal Impairment에 듣는다  <!-- 시험 7건 · 논문 260편 -->
+- [ ] febuxostat — Hypertension에 듣는다  <!-- 시험 5건 · 논문 187편 -->
+- [ ] levodopa — Back Pain에 듣는다  <!-- 시험 11건 · 논문 27편 -->
+- [ ] levodopa — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 25편 -->
+- [ ] levodopa — Depression에 듣는다  <!-- 시험 7건 · 논문 1495편 -->
+- [ ] levodopa — Stroke에 듣는다  <!-- 시험 6건 · 논문 483편 -->
+- [ ] megestrol acetate — Cachexia에 듣는다  <!-- 시험 20건 · 논문 256편 -->
+- [ ] megestrol acetate — Anorexia에 듣는다  <!-- 시험 19건 · 논문 213편 -->
+- [ ] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 -->
+- [ ] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 -->
+- [ ] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 -->
+- [ ] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 -->
+- [ ] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 -->
+- [ ] methadone — HIV에 듣는다  <!-- 시험 19건 · 논문 2387편 -->
+- [ ] metronidazole — Vaginosis에 듣는다  <!-- 시험 40건 · 논문 1773편 -->
+- [ ] metronidazole — Periodontitis에 듣는다  <!-- 시험 23건 · 논문 1318편 -->
+- [ ] metronidazole — Oral Cancer에 듣는다  <!-- 시험 23건 · 논문 201편 -->
+- [ ] metronidazole — HIV Infections에 듣는다  <!-- 시험 14건 · 논문 323편 -->
+- [ ] nicotinamide — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 529편 -->
+- [ ] nicotinamide — Muscle Injury에 듣는다  <!-- 시험 6건 · 논문 416편 -->
+- [ ] nicotinamide — Cancer에 듣는다  <!-- 시험 5건 · 논문 12937편 -->
+- [ ] nicotinamide — Obesity에 듣는다  <!-- 시험 4건 · 논문 1405편 -->
+- [ ] nitroglycerin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 1840편 -->
+- [ ] nitroglycerin — Raynaud Disease에 듣는다  <!-- 시험 12건 · 논문 75편 -->
+- [ ] nitroglycerin — Cancer에 듣는다  <!-- 시험 11건 · 논문 406편 -->
+- [ ] nitroglycerin — Hypotension에 듣는다  <!-- 시험 8건 · 논문 3977편 -->
+- [ ] octreotide — Cancer에 듣는다  <!-- 시험 39건 · 논문 6861편 -->
+- [ ] octreotide — Acromegaly에 듣는다  <!-- 시험 37건 · 논문 1418편 -->
+- [ ] octreotide — Pancreatic NET에 듣는다  <!-- 시험 24건 · 논문 321편 -->
+- [ ] octreotide — Carcinoid에 듣는다  <!-- 시험 18건 · 논문 1330편 -->
+- [ ] oxcarbazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 1177편 -->
+- [ ] oxcarbazepine — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 176편 -->
+- [ ] oxcarbazepine — Neuralgia에 듣는다  <!-- 시험 5건 · 논문 188편 -->
+- [ ] prucalopride — Paralytic Ileus에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [ ] ribavirin — HIV에 듣는다  <!-- 시험 43건 · 논문 1982편 -->
+- [ ] ribavirin — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 4374편 -->
+- [ ] ribavirin — HCV에 듣는다  <!-- 시험 16건 · 논문 9363편 -->
+- [ ] ribavirin — Hepatocellular Carcinoma에 듣는다  <!-- 시험 12건 · 논문 1266편 -->
+- [ ] tacrolimus — Leukemia에 듣는다  <!-- 시험 460건 · 논문 595편 -->
+- [ ] tacrolimus — Kidney에 듣는다  <!-- 시험 165건 · 논문 9777편 -->
+- [ ] tacrolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 127건 · 논문 144편 -->
+- [ ] tacrolimus — Myeloma에 듣는다  <!-- 시험 75건 · 논문 62편 -->
+- [ ] thiamine — Sepsis에 듣는다  <!-- 시험 11건 · 논문 322편 -->
+- [ ] thiamine — Shock에 듣는다  <!-- 시험 11건 · 논문 418편 -->
+- [ ] thiamine — Cardiac Arrest에 듣는다  <!-- 시험 7건 · 논문 44편 -->
+- [ ] thiamine — Lactic Acidosis에 듣는다  <!-- 시험 4건 · 논문 318편 -->
+- [ ] tramadol — Opioid Use에 듣는다  <!-- 시험 17건 · 논문 6023편 -->
+- [ ] tramadol — Osteoarthritis에 듣는다  <!-- 시험 16건 · 논문 303편 -->
+- [ ] tramadol — Analgesia에 듣는다  <!-- 시험 13건 · 논문 2268편 -->
+- [ ] tramadol — Nerve Block에 듣는다  <!-- 시험 12건 · 논문 499편 -->
+- [ ] senna — Colonoscopy에 듣는다  <!-- 시험 5건 · 논문 91편 -->
+- [ ] senna — Bowel Obstruction에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] senna — Cancer에 듣는다  <!-- 시험 3건 · 논문 193편 -->
