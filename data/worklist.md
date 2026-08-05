@@ -7302,16 +7302,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 -->
 - [x] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 -->
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 시험 39건 · 논문 789편 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 -->
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 -->
-- [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 시험 33건 · 논문 4003편 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 시험 24건 · 논문 182편 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 시험 16건 · 논문 189편 -->
+- [x] ivermectin — Covid19에 듣는다  <!-- 시험 39건 · 논문 789편 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 -->
+- [x] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 -->
+- [x] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 -->
+- [x] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 -->
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 -->
+- [x] hydroxychloroquine — Covid19에 듣는다  <!-- 시험 33건 · 논문 4003편 -->
+- [x] valacyclovir — HIV에 듣는다  <!-- 시험 24건 · 논문 182편 -->
+- [x] valacyclovir — Cancer에 듣는다  <!-- 시험 16건 · 논문 189편 -->
 - [ ] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 -->
 - [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 -->
 - [ ] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 -->
