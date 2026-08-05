@@ -9457,3 +9457,84 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] galantamine — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 19편 -->
 - [ ] rotigotine — Restless Legs Syndrome에 듣는다  <!-- 시험 16건 · 논문 153편 -->
 - [ ] rotigotine — Dementia에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] alendronate — Bone Loss에 듣는다  <!-- 시험 19건 · 논문 3599편 -->
+- [ ] alendronate — Osteopenia에 듣는다  <!-- 시험 11건 · 논문 3272편 -->
+- [ ] alendronate — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 217편 -->
+- [ ] alendronate — Periodontitis에 듣는다  <!-- 시험 7건 · 논문 187편 -->
+- [ ] cladribine — Multiple Sclerosis에 듣는다  <!-- 시험 30건 · 논문 862편 -->
+- [ ] cladribine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 27건 · 논문 57편 -->
+- [ ] cladribine — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 509편 -->
+- [ ] cladribine — Blasts 10 Percent or More of Bone Marrow Nucleated Cells에 듣는다  <!-- 시험 5건 · 논문 593편 -->
+- [ ] cytarabine — Lymphoma에 듣는다  <!-- 시험 245건 · 논문 4800편 -->
+- [ ] cytarabine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 88건 · 논문 974편 -->
+- [ ] cytarabine — AML에 듣는다  <!-- 시험 29건 · 논문 4846편 -->
+- [ ] daunorubicin — Lymphoma에 듣는다  <!-- 시험 20건 · 논문 12915편 -->
+- [ ] daunorubicin — Myelodysplastic Syndrome에 듣는다  <!-- 시험 9건 · 논문 423편 -->
+- [ ] daunorubicin — AML에 듣는다  <!-- 시험 4건 · 논문 2520편 -->
+- [ ] daunorubicin — Myeloproliferative Neoplasm에 듣는다  <!-- 시험 3건 · 논문 644편 -->
+- [ ] doxorubicin — Cancer에 듣는다  <!-- 시험 324건 · 논문 77328편 -->
+- [ ] doxorubicin — Sarcoma에 듣는다  <!-- 시험 79건 · 논문 6769편 -->
+- [ ] doxorubicin — Ovarian Carcinoma에 듣는다  <!-- 시험 66건 · 논문 3203편 -->
+- [ ] doxorubicin — Leukemia에 듣는다  <!-- 시험 60건 · 논문 6560편 -->
+- [ ] etoposide — Leukemia에 듣는다  <!-- 시험 300건 · 논문 4209편 -->
+- [ ] etoposide — Cancer에 듣는다  <!-- 시험 227건 · 논문 25491편 -->
+- [ ] etoposide — Solid Tumor에 듣는다  <!-- 시험 65건 · 논문 1002편 -->
+- [ ] etoposide — Neuroblastoma에 듣는다  <!-- 시험 33건 · 논문 653편 -->
+- [ ] vincristine — Leukemia에 듣는다  <!-- 시험 262건 · 논문 6889편 -->
+- [ ] vincristine — Sarcoma에 듣는다  <!-- 시험 53건 · 논문 2689편 -->
+- [ ] vincristine — Neuroblastoma에 듣는다  <!-- 시험 38건 · 논문 632편 -->
+- [ ] vincristine — Cancer에 듣는다  <!-- 시험 36건 · 논문 31324편 -->
+- [ ] vinblastine — Lung Cancer에 듣는다  <!-- 시험 69건 · 논문 2572편 -->
+- [ ] vinblastine — Grade 1 Glioma에 듣는다  <!-- 시험 11건 · 논문 24편 -->
+- [ ] vinblastine — Hodgkin Disease에 듣는다  <!-- 시험 8건 · 논문 2569편 -->
+- [ ] vinblastine — Melanoma에 듣는다  <!-- 시험 8건 · 논문 360편 -->
+- [ ] paclitaxel — Carcinoma에 듣는다  <!-- 시험 83건 · 논문 14802편 -->
+- [ ] paclitaxel — Adenocarcinoma에 듣는다  <!-- 시험 48건 · 논문 5712편 -->
+- [ ] paclitaxel — Head and Neck (HNSCC)에 듣는다  <!-- 시험 35건 · 논문 789편 -->
+- [ ] paclitaxel — Neoplasms에 듣는다  <!-- 시험 35건 · 논문 31855편 -->
+- [ ] docetaxel — Carcinoma에 듣는다  <!-- 시험 84건 · 논문 7331편 -->
+- [ ] docetaxel — Adenocarcinoma에 듣는다  <!-- 시험 66건 · 논문 2582편 -->
+- [ ] docetaxel — Head and Neck Neoplasms에 듣는다  <!-- 시험 56건 · 논문 2059편 -->
+- [ ] docetaxel — Sarcoma에 듣는다  <!-- 시험 36건 · 논문 574편 -->
+- [ ] gemcitabine — Lymphoma에 듣는다  <!-- 시험 69건 · 논문 929편 -->
+- [ ] gemcitabine — Non-metastatic에 듣는다  <!-- 시험 64건 · 논문 98편 -->
+- [ ] gemcitabine — Cholangiocarcinoma에 듣는다  <!-- 시험 38건 · 논문 1317편 -->
+- [ ] gemcitabine — Neoplasms에 듣는다  <!-- 시험 36건 · 논문 19499편 -->
+- [ ] fluorouracil — Renal Cell Carcinoma에 듣는다  <!-- 시험 90건 · 논문 638편 -->
+- [ ] fluorouracil — Adenocarcinoma에 듣는다  <!-- 시험 34건 · 논문 13547편 -->
+- [ ] fluorouracil — Anal Tumor에 듣는다  <!-- 시험 12건 · 논문 1001편 -->
+- [ ] fluorouracil — Neoplasms에 듣는다  <!-- 시험 12건 · 논문 54778편 -->
+- [ ] capecitabine — Tumor Gastric에 듣는다  <!-- 시험 107건 · 논문 1161편 -->
+- [ ] capecitabine — Carcinoma에 듣는다  <!-- 시험 90건 · 논문 2679편 -->
+- [ ] capecitabine — Neoplasms에 듣는다  <!-- 시험 45건 · 논문 8093편 -->
+- [ ] trastuzumab — Tumors에 듣는다  <!-- 시험 63건 · 논문 14843편 -->
+- [ ] trastuzumab — Adenocarcinoma에 듣는다  <!-- 시험 41건 · 논문 1554편 -->
+- [ ] trastuzumab — Neoplasms에 듣는다  <!-- 시험 27건 · 논문 12821편 -->
+- [ ] trastuzumab — Lung Carcinoma에 듣는다  <!-- 시험 27건 · 논문 418편 -->
+- [ ] abiraterone — Gene Polymorphism에 듣는다  <!-- 시험 10건 · 논문 40편 -->
+- [ ] abiraterone — Solid Tumors에 듣는다  <!-- 시험 7건 · 논문 111편 -->
+- [ ] letrozole — Infertility에 듣는다  <!-- 시험 51건 · 논문 826편 -->
+- [ ] letrozole — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 44건 · 논문 905편 -->
+- [ ] letrozole — Ovarian Response에 듣는다  <!-- 시험 36건 · 논문 275편 -->
+- [ ] letrozole — KIT Positive에 듣는다  <!-- 시험 23건 · 논문 9편 -->
+- [ ] dutasteride — Cancer에 듣는다  <!-- 시험 37건 · 논문 498편 -->
+- [ ] dutasteride — Hypogonadism에 듣는다  <!-- 시험 8건 · 논문 18편 -->
+- [ ] dutasteride — Alopecia에 듣는다  <!-- 시험 7건 · 논문 272편 -->
+- [ ] mirabegron — Incontinence에 듣는다  <!-- 시험 25건 · 논문 339편 -->
+- [ ] mirabegron — Ureteral Stone에 듣는다  <!-- 시험 6건 · 논문 25편 -->
+- [ ] mirabegron — Detrusor Overactivity에 듣는다  <!-- 시험 5건 · 논문 681편 -->
+- [ ] mirabegron — Food Effect에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [ ] daptomycin — Bacteremia에 듣는다  <!-- 시험 16건 · 논문 916편 -->
+- [ ] daptomycin — Infections에 듣는다  <!-- 시험 12건 · 논문 3765편 -->
+- [ ] daptomycin — Endocarditis에 듣는다  <!-- 시험 9건 · 논문 636편 -->
+- [ ] daptomycin — Infectious에 듣는다  <!-- 시험 9건 · 논문 1466편 -->
