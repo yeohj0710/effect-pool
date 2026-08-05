@@ -1,0 +1,29 @@
+{
+  "id": "neostigmine-postoperative-pain-pos",
+  "subj": "네오스티그민",
+  "claim": "경막외 네오스티그민은 제왕절개 후 통증을 줄인다",
+  "line": "무작위시험에서 경막외 네오스티그민은 수술 후 통증을 줄였지만 진정을 늘렸다.",
+  "effect": "통증 5.4→3.0; 진정 증가",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 80,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "네오스티그민 허가사항은 비탈분극성 근이완 역전이고 수술 후 경막외 진통은 포함하지 않는다.",
+  "why": "제왕절개 후 경막외 네오스티그민을 여러 용량의 위약과 비교한 무작위시험에서 통증 감소를 직접 측정했다.",
+  "saw": "80명이 생리식염수 또는 경막외 네오스티그민 75·150·300 μg을 제대 결찰 후 받았다. 24시간 전반적 통증 평가는 생리식염수 5.4±0.2에서 네오스티그민군 3.0-3.5±0.3으로 낮아졌고, 수술 후 진정은 증가했다.",
+  "limit": "소규모 단일시험이고 통증 감소가 중등도였으며, 용량에 따른 추가 이득이 없었다.",
+  "against": "고찰에서는 척수강내 투여의 진통 효과가 오심·구토 때문에 제한되고, 경막외 투여는 추가 연구가 필요하다고 결론냈다.",
+  "use": "제왕절개 후 진통의 실험적 보조요법으로만 검토하며, 진정과 다른 신경축 투여 부작용을 감시한다.",
+  "refs": [
+    { "label": "제왕절개 후 경막외 네오스티그민 용량 무작위시험", "pmid": "14739815" },
+    { "label": "수술 후 통증·분만통 네오스티그민 고찰", "pmid": "16999453" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=neostigmine · cond=Postoperative Pain · 총 18건, 네오스티그민 직접 확인 8건",
+    "pubmed": "neostigmine AND Postoperative Pain · 308편",
+    "negative": "neostigmine AND Postoperative Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 275편",
+    "safety": "neostigmine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1689편"
+  }
+}

@@ -9124,36 +9124,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 --> — 허가 적응증(2026-08-05)
 - [x] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 --> — 허가 적응증(2026-08-05)
 - [x] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 --> — 허가 적응증(2026-08-05)
-- [ ] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 -->
-- [ ] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 -->
-- [ ] estradiol — Infertility에 듣는다  <!-- 시험 20건 · 논문 6136편 -->
-- [ ] estradiol — Vulvar Atrophy에 듣는다  <!-- 시험 18건 · 논문 64편 -->
-- [ ] estradiol — Depression에 듣는다  <!-- 시험 12건 · 논문 3533편 -->
-- [ ] fenofibrate — Hypertriglyceridemia에 듣는다  <!-- 시험 23건 · 논문 558편 -->
-- [ ] fenofibrate — Diabetes에 듣는다  <!-- 시험 23건 · 논문 1189편 -->
-- [ ] fenofibrate — Hyperlipidemia에 듣는다  <!-- 시험 16건 · 논문 1087편 -->
-- [ ] glycopyrrolate — Neuromuscular Blockade에 듣는다  <!-- 시험 15건 · 논문 166편 -->
-- [ ] glycopyrrolate — Spinal Anesthesia에 듣는다  <!-- 시험 9건 · 논문 29편 -->
-- [ ] glycopyrrolate — Surgery에 듣는다  <!-- 시험 7건 · 논문 583편 -->
-- [ ] glycopyrrolate — Anesthesia에 듣는다  <!-- 시험 7건 · 논문 564편 -->
-- [ ] lorazepam — Alcohol Withdrawal에 듣는다  <!-- 시험 11건 · 논문 283편 -->
-- [ ] lorazepam — Status Epilepticus에 듣는다  <!-- 시험 10건 · 논문 465편 -->
-- [ ] lorazepam — Depression에 듣는다  <!-- 시험 8건 · 논문 556편 -->
-- [ ] lorazepam — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 298편 -->
-- [ ] nadolol — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 124편 -->
-- [ ] neostigmine — Postoperative Pain에 듣는다  <!-- 시험 35건 · 논문 308편 -->
-- [ ] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 -->
-- [ ] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 -->
-- [ ] neostigmine — Sugammadex에 듣는다  <!-- 시험 9건 · 논문 606편 -->
-- [ ] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 -->
-- [ ] nicardipine — Spasm Artery에 듣는다  <!-- 시험 6건 · 논문 48편 -->
-- [ ] nicardipine — Stroke에 듣는다  <!-- 시험 5건 · 논문 329편 -->
-- [ ] nimodipine — Vasospasm에 듣는다  <!-- 시험 3건 · 논문 834편 -->
-- [ ] nimodipine — Stroke에 듣는다  <!-- 시험 3건 · 논문 646편 -->
-- [ ] nimodipine — Pain에 듣는다  <!-- 시험 3건 · 논문 191편 -->
-- [ ] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 -->
-- [ ] rasagiline — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] thiotepa — Lymphoma에 듣는다  <!-- 시험 123건 · 논문 468편 -->
+- [x] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 --> — 허가 적응증(2026-08-05)
+- [x] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 --> — 허가 적응증(2026-08-05)
+- [x] estradiol — Infertility에 듣는다  <!-- 시험 20건 · 논문 6136편 --> — 근거 항목(2026-08-05)
+- [x] estradiol — Vulvar Atrophy에 듣는다  <!-- 시험 18건 · 논문 64편 --> — 허가 적응증(2026-08-05)
+- [x] estradiol — Depression에 듣는다  <!-- 시험 12건 · 논문 3533편 --> — 근거 항목(2026-08-05)
+- [x] fenofibrate — Hypertriglyceridemia에 듣는다  <!-- 시험 23건 · 논문 558편 --> — 허가 적응증(2026-08-05)
+- [x] fenofibrate — Diabetes에 듣는다  <!-- 시험 23건 · 논문 1189편 --> — 근거 항목(2026-08-05)
+- [x] fenofibrate — Hyperlipidemia에 듣는다  <!-- 시험 16건 · 논문 1087편 --> — 허가 적응증(2026-08-05)
+- [x] glycopyrrolate — Neuromuscular Blockade에 듣는다  <!-- 시험 15건 · 논문 166편 --> — 허가 적응증(2026-08-05)
+- [x] glycopyrrolate — Spinal Anesthesia에 듣는다  <!-- 시험 9건 · 논문 29편 --> — 근거 항목(2026-08-05)
+- [x] glycopyrrolate — Surgery에 듣는다  <!-- 시험 7건 · 논문 583편 --> — 허가 적응증(2026-08-05)
+- [x] glycopyrrolate — Anesthesia에 듣는다  <!-- 시험 7건 · 논문 564편 --> — 허가 적응증(2026-08-05)
+- [x] lorazepam — Alcohol Withdrawal에 듣는다  <!-- 시험 11건 · 논문 283편 --> — 근거 항목(2026-08-05)
+- [x] lorazepam — Status Epilepticus에 듣는다  <!-- 시험 10건 · 논문 465편 --> — 허가 적응증(2026-08-05)
+- [x] lorazepam — Depression에 듣는다  <!-- 시험 8건 · 논문 556편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=lorazepam&query.cond=Depression → 13건 반환·로라제팜 직접 확인 7건, PubMed 556편은 금단·불안·진정 연구 중심)
+- [x] lorazepam — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 298편 --> — 근거 항목(2026-08-05)
+- [x] nadolol — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 항목(2026-08-05)
+- [x] neostigmine — Postoperative Pain에 듣는다  <!-- 시험 35건 · 논문 308편 --> — 근거 항목(2026-08-05)
+- [x] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 --> — 허가 적응증(2026-08-05)
+- [x] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 --> — 허가 적응증(2026-08-05)
+- [x] neostigmine — Sugammadex에 듣는다  <!-- 시험 9건 · 논문 606편 --> — 근거 없음(2026-08-05 조회, 수감마덱스는 질환이 아닌 비교약이며 네오스티그민의 허가 적응증은 비탈분극성 근이완 역전, PubMed 606편은 두 역전제 비교 연구 중심)
+- [x] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 --> — 허가 적응증(2026-08-05)
+- [x] nicardipine — Spasm Artery에 듣는다  <!-- 시험 6건 · 논문 48편 --> — 근거 항목(2026-08-05)
+- [x] nicardipine — Stroke에 듣는다  <!-- 시험 5건 · 논문 329편 --> — 근거 항목(2026-08-05)
+- [x] nimodipine — Vasospasm에 듣는다  <!-- 시험 3건 · 논문 834편 --> — 허가 적응증(2026-08-05)
+- [x] nimodipine — Stroke에 듣는다  <!-- 시험 3건 · 논문 646편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=nimodipine&query.cond=Stroke → 7건 반환·니모디핀 직접 확인 5건, PubMed 646편은 지주막하출혈 혈관연축·전임상 연구 중심)
+- [x] nimodipine — Pain에 듣는다  <!-- 시험 3건 · 논문 191편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=nimodipine&query.cond=Pain → 6건 반환·니모디핀 직접 확인 1건, PubMed 191편은 두통 고찰·동물 통증 연구 중심)
+- [x] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 --> — 허가 적응증(2026-08-05)
+- [x] rasagiline — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 항목(2026-08-05)
+- [x] thiotepa — Lymphoma에 듣는다  <!-- 시험 123건 · 논문 468편 --> — 근거 항목(2026-08-05)
 - [ ] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 -->
 - [ ] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 -->
 - [ ] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 -->
