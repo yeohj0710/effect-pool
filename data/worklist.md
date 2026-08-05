@@ -5653,16 +5653,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pioglitazone — Liver에 듣는다 — 기존 항목(pioglitazone-liver-open)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Lung Cancer에 듣는다 — 기존 항목(pioglitazone-lung-cancer-null)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Metabolic Syndrome에 듣는다 — 기존 항목(pioglitazone-metabolic-syndrome-pos)  <!-- 등록 시험 18건 -->
-- [ ] simvastatin — Cancer에 듣는다  <!-- 등록 시험 53건 -->
-- [ ] simvastatin — Diabetes에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] simvastatin — Heart Failure에 듣는다  <!-- 등록 시험 39건 -->
-- [ ] simvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] fluoxetine — Social Anxiety에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] fluoxetine — Stroke에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] candesartan — Heart Failure에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] candesartan — Migraine에 듣는다  <!-- 등록 시험 8건 -->
+- [x] simvastatin — Cancer에 듣는다 — 기존 항목(simvastatin-cancer-null)  <!-- 등록 시험 53건 -->
+- [x] simvastatin — Diabetes에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 50건 -->
+- [x] simvastatin — Heart Failure에 듣는다 — 기존 항목(simvastatin-heart-failure-open)  <!-- 등록 시험 39건 -->
+- [x] simvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 34건 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 48건 -->
+- [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-open)  <!-- 등록 시험 14건 -->
+- [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-null)  <!-- 등록 시험 12건 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
+- [x] candesartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
+- [x] candesartan — Migraine에 듣는다 — 기존 항목(candesartan-migraine-pos)  <!-- 등록 시험 8건 -->
 - [ ] candesartan — Diabetes에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] candesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 -->
