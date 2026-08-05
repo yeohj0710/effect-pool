@@ -7242,16 +7242,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다  <!-- 시험 50건 · 논문 2549편 --> — 이미 수록됨(2026-08-05)
 - [x] metformin — Obesity에 듣는다  <!-- 시험 33건 · 논문 5301편 --> — 이미 수록됨(2026-08-05)
 - [x] metformin — Insulin Resistance에 듣는다  <!-- 시험 17건 · 논문 5652편 --> — 이미 수록됨(2026-08-05)
-- [ ] aspirin — Stroke에 듣는다  <!-- 시험 57건 · 논문 10499편 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 시험 37건 · 논문 1002편 -->
-- [ ] aspirin — Brain Infarction에 듣는다  <!-- 시험 26건 · 논문 1183편 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 시험 23건 · 논문 6549편 -->
-- [ ] propranolol — Migraine에 듣는다  <!-- 시험 30건 · 논문 773편 -->
-- [ ] propranolol — Stress Reaction에 듣는다  <!-- 시험 28건 · 논문 94편 -->
-- [ ] propranolol — Ovarian Carcinoma에 듣는다  <!-- 시험 27건 · 논문 19편 -->
-- [ ] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 956편 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 -->
+- [x] aspirin — Stroke에 듣는다  <!-- 시험 57건 · 논문 10499편 --> — 이미 수록됨(2026-08-05)
+- [x] aspirin — Colon Cancer에 듣는다  <!-- 시험 37건 · 논문 1002편 --> — 이미 수록됨(2026-08-05)
+- [x] aspirin — Brain Infarction에 듣는다  <!-- 시험 26건 · 논문 1183편 --> — 이미 수록됨(2026-08-05)
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 시험 23건 · 논문 6549편 --> — 이미 수록됨(2026-08-05)
+- [x] propranolol — Migraine에 듣는다  <!-- 시험 30건 · 논문 773편 --> — 이미 수록됨(2026-08-05)
+- [x] propranolol — Stress Reaction에 듣는다  <!-- 시험 28건 · 논문 94편 --> — 이미 수록됨(2026-08-05)
+- [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 시험 27건 · 논문 19편 --> — 이미 수록됨(2026-08-05)
+- [x] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 956편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 --> — 허가 적응증(2026-08-05)
+- [x] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 --> — 이미 수록됨(2026-08-05)
 - [ ] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 -->
 - [ ] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 -->
 - [ ] gabapentin — Cancer에 듣는다  <!-- 시험 40건 · 논문 890편 -->
