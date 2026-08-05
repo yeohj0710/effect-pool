@@ -7174,16 +7174,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 시험 20건 · 논문 6343편 --> — 이미 수록됨(2026-08-05)
 - [x] metoprolol — Heart Rate에 듣는다  <!-- 시험 38건 · 논문 2384편 --> — 이미 수록됨(2026-08-05)
 - [x] metoprolol — Atrial Flutter에 듣는다  <!-- 시험 26건 · 논문 51편 --> — 이미 수록됨(2026-08-05)
-- [ ] metoprolol — Myocardial Ischemia에 듣는다  <!-- 시험 14건 · 논문 1494편 -->
-- [ ] metoprolol — Cardiomyopathy에 듣는다  <!-- 시험 13건 · 논문 561편 -->
-- [ ] amlodipine — Diabetes에 듣는다  <!-- 시험 24건 · 논문 829편 -->
-- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 시험 16건 · 논문 3458편 -->
-- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 시험 14건 · 논문 521편 -->
-- [ ] amlodipine — Hyperlipidemia에 듣는다  <!-- 시험 12건 · 논문 133편 -->
-- [ ] pantoprazole — Peptic Ulcer에 듣는다  <!-- 시험 21건 · 논문 515편 -->
-- [ ] pantoprazole — Helicobacter Infection에 듣는다  <!-- 시험 13건 · 논문 407편 -->
-- [ ] pantoprazole — Coronary Thrombosis에 듣는다  <!-- 시험 10건 · 논문 9편 -->
-- [ ] pantoprazole — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 115편 -->
+- [x] metoprolol — Myocardial Ischemia에 듣는다  <!-- 시험 14건 · 논문 1494편 -->
+- [x] metoprolol — Cardiomyopathy에 듣는다  <!-- 시험 13건 · 논문 561편 -->
+- [x] amlodipine — Diabetes에 듣는다  <!-- 시험 24건 · 논문 829편 -->
+- [x] amlodipine — Blood Pressure에 듣는다  <!-- 시험 16건 · 논문 3458편 --> — 허가 적응증(2026-08-05)
+- [x] amlodipine — Coronary Disease에 듣는다  <!-- 시험 14건 · 논문 521편 --> — 허가 적응증(2026-08-05)
+- [x] amlodipine — Hyperlipidemia에 듣는다  <!-- 시험 12건 · 논문 133편 -->
+- [x] pantoprazole — Peptic Ulcer에 듣는다  <!-- 시험 21건 · 논문 515편 -->
+- [x] pantoprazole — Helicobacter Infection에 듣는다  <!-- 시험 13건 · 논문 407편 -->
+- [x] pantoprazole — Coronary Thrombosis에 듣는다  <!-- 시험 10건 · 논문 9편 -->
+- [x] pantoprazole — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 115편 -->
 - [ ] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 -->
 - [ ] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 -->
 - [ ] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->

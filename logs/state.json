@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 484,
+    "entries": 488,
   "worklist": {
-    "checked": 6539,
-    "unchecked": 18,
+    "checked": 6549,
+    "unchecked": 8,
     "no_evidence_pending": 0,
     "next_batch": []
   },
@@ -13,13 +13,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 432,
+      "trial": 441,
       "obs": 37,
       "animal": 1,
       "lab": 2,
       "case": 7
     },
-    "no_effect_or_harm": 237,
+    "no_effect_or_harm": 239,
     "harm": 25,
     "no_effect_or_harm_share": "49%"
   },
@@ -29,16 +29,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "warfarin-thromboembolism (approved)",
-    "warfarin-heart-defect (approved)",
-    "warfarin-embolism (approved)",
-    "warfarin-thrombosis (approved)",
-    "clopidogrel-stroke (approved)",
-    "clopidogrel-brain-infarction (approved)",
-    "clopidogrel-atrial-fibrillation (already represented)",
-    "clopidogrel-platelet-function (already represented)",
-    "metoprolol-heart-rate (already represented)",
-    "metoprolol-atrial-flutter (already represented)"
+    "metoprolol-myocardial-ischemia (already represented)",
+    "metoprolol-cardiomyopathy (already represented)",
+    "amlodipine-diabetes (already represented)",
+    "amlodipine-blood-pressure (approved)",
+    "amlodipine-coronary-disease (approved)",
+    "amlodipine-hyperlipidemia (already represented)",
+    "pantoprazole-peptic-ulcer (created)",
+    "pantoprazole-helicobacter-infection (created)",
+    "pantoprazole-coronary-thrombosis (created)",
+    "pantoprazole-dyspepsia (created)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -69,7 +69,7 @@
   },
   "resume": {
     "last_committed_batch": "carvedilol furosemide batch",
-    "current_batch": "warfarin clopidogrel metoprolol batch",
-    "next_action": "worklist exhausted; audit build and deployment threshold"
+    "current_batch": "metoprolol amlodipine pantoprazole batch",
+    "next_action": "build, commit, push; then process remaining 8 worklist lines"
   }
 }

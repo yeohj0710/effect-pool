@@ -1,0 +1,28 @@
+{
+  "id": "pantoprazole-helicobacter-infection-pos",
+  "subj": "판토프라졸",
+  "claim": "헬리코박터균을 없애는 병용치료에 쓴다",
+  "line": "헬리코박터균 제균율은 83%로 다른 위산억제제와 비슷했습니다",
+  "effect": "제균율 83%, 타 PPI와 차이 없음",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1137,
+  "synth": "meta",
+  "why": "판토프라졸과 항생제를 함께 쓴 무작위시험 메타분석에서 제균 효과가 확인됐지만, 다른 PPI보다 낫지는 않았습니다.",
+  "saw": "12개 무작위시험의 판토프라졸군 534명과 다른 PPI군 603명을 합친 메타분석에서 제균율은 각각 83%와 81%였고 차이는 유의하지 않았습니다. 위궤양 환자 519명 무작위시험에서도 병용요법별 제균율은 60~67%였습니다.",
+  "limit": "항생제 병용요법의 결과라 판토프라졸 단독 효과나 내성별 장기 재발을 판단할 수 없습니다.",
+  "against": "항생제 내성 균주에서는 제균율이 낮았고, 판토프라졸 단독 효과는 측정하지 않았습니다.",
+  "use": "헬리코박터균 제균 효과와 다른 위산억제제 대비 차이를 구분해 읽어야 합니다.",
+  "refs": [
+    { "label": "Gisbert 2004 · Eur J Gastroenterol Hepatol · 판토프라졸 제균 메타분석", "doi": "10.1097/00042737-200401000-00014", "pmid": "15095858" },
+    { "label": "Malfertheiner 2003 · Aliment Pharmacol Ther · 위궤양 H. pylori 판토프라졸 무작위시험", "doi": "10.1046/j.1365-2036.2003.01560.x", "pmid": "12752349" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:pantoprazole → 135건; 허가 문구는 GERD·미란성 식도염·병적 과분비이고 Helicobacter Infection 적응증은 없음",
+    "ctgov": "query.intr=pantoprazole&query.cond=Helicobacter Infection → 28건 반환, InterventionName 대조 후 12건",
+    "pubmed": "pantoprazole Helicobacter Infection → 407건; pantoprazole Helicobacter pylori eradication trial → 211건",
+    "negative": "pantoprazole AND Helicobacter Infection AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 338건",
+    "safety": "pantoprazole AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1141건"
+  }
+}

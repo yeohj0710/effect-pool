@@ -1,0 +1,28 @@
+{
+  "id": "pantoprazole-dyspepsia-pos",
+  "subj": "판토프라졸",
+  "claim": "기능성 소화불량의 상복부 통증을 줄인다",
+  "line": "기능성 소화불량에서 통증 완화율이 위약보다 10%p 높았습니다",
+  "effect": "통증 완화 55% vs 45%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 419,
+  "synth": "single",
+  "why": "기능성 소화불량 환자를 대상으로 한 이중맹검 무작위시험에서 판토프라졸의 통증 완화 효과를 위약과 비교했습니다.",
+  "saw": "기능성 소화불량 환자 419명 이중맹검 무작위시험에서 통증 완화율은 판토프라졸 55%, 위약 45%였습니다. 속쓰림과 위산 역류도 개선됐고 이상반응은 차이가 없었습니다.",
+  "limit": "통증 중심의 기능성 소화불량 시험이고, 장기 재발이나 다른 소화불량 유형의 효과는 판단하기 어렵습니다.",
+  "against": "급성 심한 소화불량 87명 무작위시험에서는 기존 처치에 판토프라졸을 더해도 60분 통증 점수가 달라지지 않았습니다.",
+  "use": "기능성 소화불량의 통증 완화 결과와 급성 응급실 통증 결과를 구분해야 합니다.",
+  "refs": [
+    { "label": "van Rensburg 2008 · Curr Med Res Opin · 기능성 소화불량 판토프라졸 무작위시험", "doi": "10.1185/03007990802184545", "pmid": "18534050" },
+    { "label": "Musikatavorn 2012 · Am J Emerg Med · 급성 소화불량 음성 무작위시험", "doi": "10.1016/j.ajem.2012.02.001", "pmid": "22463973" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:pantoprazole → 135건; 허가 문구는 GERD·미란성 식도염·병적 과분비이고 Dyspepsia 적응증은 없음",
+    "ctgov": "query.intr=pantoprazole&query.cond=Dyspepsia → 16건 반환, InterventionName 대조 후 12건",
+    "pubmed": "pantoprazole dyspepsia → 115건; pantoprazole dyspepsia trial → 75건",
+    "negative": "pantoprazole AND Dyspepsia AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 94건",
+    "safety": "pantoprazole AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1141건"
+  }
+}

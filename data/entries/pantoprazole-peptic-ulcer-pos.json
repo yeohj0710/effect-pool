@@ -1,0 +1,28 @@
+{
+  "id": "pantoprazole-peptic-ulcer-pos",
+  "subj": "판토프라졸",
+  "claim": "소화성 궤양 출혈의 재출혈을 줄인다",
+  "line": "소화성 궤양 출혈의 재출혈률을 4.7%로 낮췄습니다",
+  "effect": "재출혈 RR 0.31",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 821,
+  "synth": "meta",
+  "why": "내시경 지혈 뒤 판토프라졸을 쓴 무작위시험 메타분석에서 재출혈이 줄었습니다.",
+  "saw": "5개 무작위시험 821명 메타분석에서 판토프라졸군 재출혈률은 4.7%, 대조군은 15.0%였고 재출혈 RR은 0.31이었습니다. 수술과 입원기간도 줄었지만 사망률은 다르지 않았습니다.",
+  "limit": "내시경 지혈 뒤 출혈 환자에 한정된 결과라 일반적인 궤양 치료 효과로 확대할 수 없습니다.",
+  "against": "821명 메타분석에서 사망률은 유의하게 낮아지지 않았습니다.",
+  "use": "소화성 궤양 출혈에서 재출혈과 사망을 따로 봐야 합니다.",
+  "refs": [
+    { "label": "Wang 2009 · Can J Gastroenterol · 궤양 출혈 판토프라졸 메타분석", "doi": "10.1155/2009/191706", "pmid": "19373423", "pmc": "PMC2711680" },
+    { "label": "Zargar 2006 · J Gastroenterol Hepatol · 궤양 출혈 판토프라졸 무작위시험", "doi": "10.1111/j.1440-1746.2006.04292.x", "pmid": "16677158" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:pantoprazole → 135건; 허가 문구는 GERD·미란성 식도염·병적 과분비이고 Peptic Ulcer 적응증은 없음",
+    "ctgov": "query.intr=pantoprazole&query.cond=Peptic Ulcer → 28건 반환, InterventionName 대조 후 20건",
+    "pubmed": "pantoprazole Peptic Ulcer → 515건; pantoprazole peptic ulcer bleeding randomized → 65건",
+    "negative": "pantoprazole AND Peptic Ulcer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 407건",
+    "safety": "pantoprazole AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1141건"
+  }
+}

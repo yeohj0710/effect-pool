@@ -1,0 +1,29 @@
+{
+  "id": "pantoprazole-coronary-thrombosis-null",
+  "subj": "판토프라졸",
+  "claim": "관상동맥 질환에서 항혈소판 효과를 떨어뜨리지 않는다",
+  "line": "급성 심근경색에서 판토프라졸은 항혈소판 반응을 바꾸지 않았습니다",
+  "effect": "혈소판 반응 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 87,
+  "synth": "single",
+  "why": "관상동맥 치료 중 판토프라졸 병용이 항혈소판 작용을 약화하는지 사람 시험에서 직접 측정했습니다.",
+  "saw": "급성 ST분절 상승 심근경색 환자 87명 전향적 시험에서 판토프라졸군 33명과 비병용군의 혈소판 반응 지표가 시점별로 유의하게 다르지 않았습니다. PCI 후 안정형 협심증 44명 연구도 이중항혈소판 효과 저하를 보이지 않았습니다.",
+  "limit": "혈소판 대리 지표를 본 소규모 단일기관 전향적 연구라 실제 관상동맥 혈전 사건이나 사망을 판단할 수 없습니다.",
+  "against": "관상동맥질환 159,998명 메타분석에서는 PPI와 클로피도그렐 병용이 주요 심혈관 사건과 연관됐고, 판토프라졸만 본 분석의 HR은 1.52였습니다.",
+  "use": "혈소판 대리 지표와 실제 관상동맥 혈전 사건을 같은 결과로 읽지 않아야 합니다.",
+  "refs": [
+    { "label": "Bolek 2017 · Am J Ther · 급성 심근경색 판토프라졸 혈소판 음성 시험", "doi": "10.1097/MJT.0000000000000454", "pmid": "27415979" },
+    { "label": "Mizia-Stec 2012 · Pharmacol Rep · PCI 후 판토프라졸 혈소판 음성 시험", "doi": "10.1016/S1734-1140(12)70776-4", "pmid": "22661187" },
+    { "label": "Huang 2012 · Arch Med Res · PPI·클로피도그렐 심혈관 메타분석", "doi": "10.1016/j.arcmed.2012.04.004", "pmid": "22564422" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:pantoprazole → 135건; 관상동맥 혈전증·항혈소판 상호작용 적응증 문구 없음",
+    "ctgov": "query.intr=pantoprazole&query.cond=Coronary Thrombosis → 2건 반환, InterventionName 대조 후 1건",
+    "pubmed": "pantoprazole Coronary Thrombosis → 9건",
+    "negative": "pantoprazole AND Coronary Thrombosis AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 9건",
+    "safety": "pantoprazole AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1141건"
+  }
+}
