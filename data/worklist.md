@@ -9898,3 +9898,58 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] tolvaptan — Chronic Kidney Disease에 듣는다  <!-- 시험 20건 · 논문 243편 -->
 - [ ] tolvaptan — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 236편 -->
 - [ ] tolvaptan — Ascites에 듣는다  <!-- 시험 6건 · 논문 120편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] bupivacaine — Anesthesia에 듣는다  <!-- 시험 41건 · 논문 14081편 -->
+- [ ] bupivacaine — Surgery에 듣는다  <!-- 시험 23건 · 논문 13733편 -->
+- [ ] bupivacaine — Analgesia에 듣는다  <!-- 시험 22건 · 논문 8830편 -->
+- [ ] bupivacaine — TAP Block에 듣는다  <!-- 시험 22건 · 논문 364편 -->
+- [ ] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 -->
+- [ ] guaifenesin — Bronchitis에 듣는다  <!-- 시험 3건 · 논문 43편 -->
+- [ ] nilotinib — Cancer에 듣는다  <!-- 시험 33건 · 논문 2482편 -->
+- [ ] nilotinib — Tumors에 듣는다  <!-- 시험 15건 · 논문 2260편 -->
+- [ ] nilotinib — Neoplasm에 듣는다  <!-- 시험 13건 · 논문 2163편 -->
+- [ ] nilotinib — Melanoma에 듣는다  <!-- 시험 11건 · 논문 42편 -->
+- [ ] ranitidine — Acid Reflux에 듣는다  <!-- 시험 9건 · 논문 514편 -->
+- [ ] ranitidine — Peptic Ulcers에 듣는다  <!-- 시험 4건 · 논문 2455편 -->
+- [ ] ranitidine — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 205편 -->
+- [ ] sodium bicarbonate — Nephropathy에 듣는다  <!-- 시험 24건 · 논문 1621편 -->
+- [ ] sodium bicarbonate — Metabolic Acidosis에 듣는다  <!-- 시험 22건 · 논문 2799편 -->
+- [ ] sodium bicarbonate — Pain에 듣는다  <!-- 시험 18건 · 논문 647편 -->
+- [ ] sodium bicarbonate — Oral Care에 듣는다  <!-- 시험 17건 · 논문 246편 -->
+- [ ] vitamin c — Sepsis에 듣는다  <!-- 시험 18건 · 논문 684편 -->
+- [ ] vitamin c — Hepatitis C에 듣는다  <!-- 시험 15건 · 논문 47편 -->
+- [ ] vitamin c — HIV에 듣는다  <!-- 시험 15건 · 논문 219편 -->
+- [ ] vitamin c — COVID에 듣는다  <!-- 시험 14건 · 논문 666편 -->
+- [ ] vitamin e — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2587편 -->
+- [ ] vitamin e — Fatty Liver에 듣는다  <!-- 시험 15건 · 논문 1626편 -->
+- [ ] vitamin e — HIV/AIDS에 듣는다  <!-- 시험 13건 · 논문 73편 -->
+- [ ] vitamin e — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 5325편 -->
+- [ ] isoproterenol — Sympathetic Nervous System에 듣는다  <!-- 시험 3건 · 논문 1761편 -->
+- [ ] isoproterenol — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 163편 -->
+- [ ] tetracycline — Lung Cancer에 듣는다  <!-- 시험 7건 · 논문 421편 -->
+- [ ] tetracycline — Gastritis에 듣는다  <!-- 시험 5건 · 논문 306편 -->
+- [ ] tetracycline — Dyspepsia에 듣는다  <!-- 시험 4건 · 논문 199편 -->
+- [ ] tetracycline — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 376편 -->
+- [ ] sulbactam — Pneumonia에 듣는다  <!-- 시험 13건 · 논문 1220편 -->
+- [ ] sulbactam — Wound Infections에 듣는다  <!-- 시험 9건 · 논문 340편 -->
+- [ ] sulbactam — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 328편 -->
+- [ ] sulbactam — Lung Abscess에 듣는다  <!-- 시험 3건 · 논문 33편 -->
+- [ ] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 -->
+- [ ] loratadine — Bone Pain에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [ ] loratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 101편 -->
+- [ ] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 -->
+- [ ] indacaterol — Asthma에 듣는다  <!-- 시험 22건 · 논문 165편 -->
+- [ ] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 -->
+- [ ] phenylephrine — Spinal에 듣는다  <!-- 시험 41건 · 논문 979편 -->
+- [ ] phenylephrine — Cesarean Birth에 듣는다  <!-- 시험 26건 · 논문 473편 -->
+- [ ] phenylephrine — Blood Flow에 듣는다  <!-- 시험 13건 · 논문 2792편 -->
+- [ ] phenylephrine — Adverse Effect에 듣는다  <!-- 시험 12건 · 논문 2000편 -->
