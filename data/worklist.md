@@ -5947,16 +5947,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 22건 -->
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
 - [x] trazodone — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 10건 -->
-- [ ] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
+- [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 6건 -->
+- [x] quetiapine — Bipolar에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 93건 -->
+- [x] quetiapine — Major Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
+- [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
+- [x] spironolactone — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
+- [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
+- [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 -->
 - [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 -->
