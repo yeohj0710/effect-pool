@@ -1,20 +1,13 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 476,
+  "entries": 478,
   "worklist": {
-    "checked": 6066,
-    "unchecked": 8,
+    "checked": 6074,
+    "unchecked": 0,
     "no_evidence_pending": 0,
     "next_batch": [
-      "creatine-muscle",
-      "creatine-major-depressive-disorder",
-      "creatine-sarcopenia",
-      "creatine-sport-performance",
-      "berberine-schizophrenia",
-      "berberine-metabolic-syndrome",
-      "berberine-hiv-1-infection",
-      "berberine-gastritis"
+    
     ]
   },
   "verification": {
@@ -22,7 +15,7 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 430,
+      "trial": 432,
       "obs": 36,
       "animal": 1,
       "lab": 2,
@@ -38,16 +31,14 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "raloxifene-schizoaffective-disorder (existing: raloxifene-schizoaffective-disorder-null)",
-    "raloxifene-schizophreniform-disorder (new: raloxifene-schizophreniform-disorder-open)",
-    "allopurinol-gout (approved)",
-    "allopurinol-lymphoma (existing: allopurinol-lymphoma-null)",
-    "allopurinol-hyperuricemia (existing: allopurinol-hyperuricemia-null)",
-    "allopurinol-kidney-stones (approved)",
-    "n-acetylcysteine-kidney-disease (existing: n-acetylcysteine-kidney-disease-null)",
-    "n-acetylcysteine-pulmonary-fibrosis (existing: n-acetylcysteine-pulmonary-fibrosis-null)",
-    "n-acetylcysteine-oxidative-stress (existing: n-acetylcysteine-oxidative-stress)",
-    "n-acetylcysteine-cocaine-dependence (existing: n-acetylcysteine-cocaine-dependence-null)"
+    "creatine-muscle (existing: creatine-muscle)",
+    "creatine-major-depressive-disorder (existing: creatine-major-depressive-disorder)",
+    "creatine-sarcopenia (existing: creatine-sarcopenia)",
+    "creatine-sport-performance (existing: creatine-sport-performance)",
+    "berberine-schizophrenia (existing: berberine-schizophrenia)",
+    "berberine-metabolic-syndrome (existing: berberine-metabolic-syndrome)",
+    "berberine-hiv-1-infection (new: berberine-hiv-1-infection)",
+    "berberine-gastritis (new: berberine-gastritis)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -75,8 +66,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "raloxifene, allopurinol, n-acetylcysteine",
-    "current_batch": "raloxifene, allopurinol, n-acetylcysteine",
-    "next_action": "commit, push, then process next batch"
+    "last_committed_batch": "creatine, berberine",
+    "current_batch": "creatine, berberine",
+    "next_action": "run expand-worklist; add direct substances if builtin candidates are exhausted"
   }
 }
