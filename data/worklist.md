@@ -7558,16 +7558,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] finasteride — Prostatic Hyperplasia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 1481편 -->
 - [x] melatonin — Pain에 듣는다 — 이미 수록됨(melatonin-pain-null)  <!-- 시험 32건 · 논문 1022편 -->
 - [x] melatonin — Delirium에 듣는다 — 이미 수록됨(melatonin-delirium-null)  <!-- 시험 27건 · 논문 372편 -->
-- [ ] melatonin — Cancer에 듣는다  <!-- 시험 27건 · 논문 3920편 -->
-- [ ] melatonin — Anxiety에 듣는다  <!-- 시험 24건 · 논문 971편 -->
-- [ ] modafinil — Fatigue에 듣는다  <!-- 시험 29건 · 논문 395편 -->
-- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 시험 23건 · 논문 205편 -->
-- [ ] modafinil — Narcolepsy에 듣는다  <!-- 시험 18건 · 논문 573편 -->
-- [ ] modafinil — Schizophrenia에 듣는다  <!-- 시험 13건 · 논문 106편 -->
-- [ ] baclofen — Pain에 듣는다  <!-- 시험 14건 · 논문 1152편 -->
-- [ ] baclofen — Spasticity에 듣는다  <!-- 시험 12건 · 논문 1866편 -->
-- [ ] baclofen — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 597편 -->
-- [ ] baclofen — Alcoholism에 듣는다  <!-- 시험 7건 · 논문 434편 -->
+- [x] melatonin — Cancer에 듣는다 — 이미 수록됨(melatonin-cancer-null)  <!-- 시험 27건 · 논문 3920편 -->
+- [x] melatonin — Anxiety에 듣는다 — 이미 수록됨(melatonin-anxiety)  <!-- 시험 24건 · 논문 971편 -->
+- [x] modafinil — Fatigue에 듣는다 — 이미 수록됨(modafinil-fatigue-null)  <!-- 시험 29건 · 논문 395편 -->
+- [x] modafinil — Sleep Apnea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 205편 -->
+- [x] modafinil — Narcolepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 18건 · 논문 573편 -->
+- [x] modafinil — Schizophrenia에 듣는다 — 이미 수록됨(modafinil-schizophrenia-null)  <!-- 시험 13건 · 논문 106편 -->
+- [x] baclofen — Pain에 듣는다 — 이미 수록됨(baclofen-pain-null)  <!-- 시험 14건 · 논문 1152편 -->
+- [x] baclofen — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 1866편 -->
+- [x] baclofen — Cerebral Palsy에 듣는다 — 이미 수록됨(baclofen-cerebral-palsy)  <!-- 시험 9건 · 논문 597편 -->
+- [x] baclofen — Alcoholism에 듣는다 — 이미 수록됨(baclofen-alcoholism-null)  <!-- 시험 7건 · 논문 434편 -->
 - [ ] ondansetron — Lymphoma에 듣는다  <!-- 시험 71건 · 논문 69편 -->
 - [ ] ondansetron — Cancer에 듣는다  <!-- 시험 33건 · 논문 1238편 -->
 - [ ] ondansetron — Leukemia에 듣는다  <!-- 시험 28건 · 논문 54편 -->
