@@ -6720,16 +6720,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 시험 32건 · 논문 3573편 -->
 - [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 30건 · 논문 11112편 -->
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 시험 11건 · 논문 82편 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 2690편 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 -->
-- [ ] thalidomide — Leukemia에 듣는다  <!-- 시험 19건 · 논문 924편 -->
-- [ ] ivermectin — Covid19에 듣는다  <!-- 시험 39건 · 논문 789편 -->
-- [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 -->
-- [ ] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 -->
+- [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 시험 5건 · 논문 179편 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 시험 4건 · 논문 90편 -->
+- [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 시험 62건 · 논문 6729편 -->
+- [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 시험 22건 · 논문 1012편 -->
+- [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 시험 19건 · 논문 924편 -->
+- [x] ivermectin — Covid19에 듣는다 — 기존 항목(ivermectin-covid19-null)  <!-- 시험 39건 · 논문 789편 -->
+- [x] ivermectin — SARS-CoV Infection에 듣는다 — 기존 항목(ivermectin-sars-cov-infection-null)  <!-- 시험 29건 · 논문 271편 -->
+- [x] ivermectin — Scabies에 듣는다 — 기존 항목(ivermectin-scabies)  <!-- 시험 19건 · 논문 868편 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다 — 기존 항목(ivermectin-lymphatic-filariasis)  <!-- 시험 18건 · 논문 655편 -->
 - [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 -->
 - [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 -->
 - [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 -->
