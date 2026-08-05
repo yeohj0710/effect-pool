@@ -8544,18 +8544,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tacrolimus — Leukemia에 듣는다  <!-- 시험 460건 · 논문 595편 -->
 - [x] tacrolimus — Kidney에 듣는다  <!-- 시험 165건 · 논문 9777편 --> — 허가 적응증(2026-08-05)
 - [x] tacrolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 127건 · 논문 144편 -->
-- [ ] tacrolimus — Myeloma에 듣는다  <!-- 시험 75건 · 논문 62편 -->
-- [ ] thiamine — Sepsis에 듣는다  <!-- 시험 11건 · 논문 322편 -->
-- [ ] thiamine — Shock에 듣는다  <!-- 시험 11건 · 논문 418편 -->
-- [ ] thiamine — Cardiac Arrest에 듣는다  <!-- 시험 7건 · 논문 44편 -->
-- [ ] thiamine — Lactic Acidosis에 듣는다  <!-- 시험 4건 · 논문 318편 -->
-- [ ] tramadol — Opioid Use에 듣는다  <!-- 시험 17건 · 논문 6023편 -->
-- [ ] tramadol — Osteoarthritis에 듣는다  <!-- 시험 16건 · 논문 303편 -->
-- [ ] tramadol — Analgesia에 듣는다  <!-- 시험 13건 · 논문 2268편 -->
-- [ ] tramadol — Nerve Block에 듣는다  <!-- 시험 12건 · 논문 499편 -->
-- [ ] senna — Colonoscopy에 듣는다  <!-- 시험 5건 · 논문 91편 -->
-- [ ] senna — Bowel Obstruction에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] senna — Cancer에 듣는다  <!-- 시험 3건 · 논문 193편 -->
+- [x] tacrolimus — Myeloma에 듣는다  <!-- 시험 75건 · 논문 62편 --> — 근거 없음(이식 면역억제 문헌은 있으나 다발골수종 치료 결과 없음)
+- [x] thiamine — Sepsis에 듣는다  <!-- 시험 11건 · 논문 322편 -->
+- [x] thiamine — Shock에 듣는다  <!-- 시험 11건 · 논문 418편 -->
+- [x] thiamine — Cardiac Arrest에 듣는다  <!-- 시험 7건 · 논문 44편 -->
+- [x] thiamine — Lactic Acidosis에 듣는다  <!-- 시험 4건 · 논문 318편 -->
+- [x] tramadol — Opioid Use에 듣는다  <!-- 시험 17건 · 논문 6023편 -->
+- [x] tramadol — Osteoarthritis에 듣는다  <!-- 시험 16건 · 논문 303편 --> — 허가 적응증(2026-08-05)
+- [x] tramadol — Analgesia에 듣는다  <!-- 시험 13건 · 논문 2268편 --> — 허가 적응증(2026-08-05)
+- [x] tramadol — Nerve Block에 듣는다  <!-- 시험 12건 · 논문 499편 --> — 근거 없음(신경차단 보조제로서 직접 치료효과를 확인한 결과 없음)
+- [x] senna — Colonoscopy에 듣는다  <!-- 시험 5건 · 논문 91편 -->
+- [x] senna — Bowel Obstruction에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(장폐색 치료효과를 확인한 임상 결과 없음)
+- [x] senna — Cancer에 듣는다  <!-- 시험 3건 · 논문 193편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8566,24 +8566,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] adalimumab — Crohn Disease에 듣는다  <!-- 시험 75건 · 논문 2763편 -->
-- [ ] adalimumab — Psoriasis에 듣는다  <!-- 시험 70건 · 논문 3049편 -->
-- [ ] adalimumab — Colitis에 듣는다  <!-- 시험 39건 · 논문 1753편 -->
-- [ ] adalimumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 29건 · 논문 947편 -->
-- [ ] bortezomib — Myeloma에 듣는다  <!-- 시험 354건 · 논문 7425편 -->
-- [ ] bortezomib — Leukemia에 듣는다  <!-- 시험 191건 · 논문 1143편 -->
-- [ ] bortezomib — Cancer에 듣는다  <!-- 시험 53건 · 논문 9953편 -->
-- [ ] bortezomib — Recurrent Disease에 듣는다  <!-- 시험 52건 · 논문 768편 -->
-- [ ] cannabidiol — Pain에 듣는다  <!-- 시험 30건 · 논문 1480편 -->
-- [ ] cannabidiol — Anxiety에 듣는다  <!-- 시험 23건 · 논문 926편 -->
-- [ ] cannabidiol — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 1229편 -->
-- [ ] cannabidiol — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 307편 -->
-- [ ] chlorpromazine — Advanced Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 46편 -->
-- [ ] chlorpromazine — Glioblastoma Multiforme에 듣는다  <!-- 시험 3건 · 논문 28편 -->
-- [ ] cilostazol — Stenosis Artery에 듣는다  <!-- 시험 23건 · 논문 159편 -->
-- [ ] cilostazol — Aneurysm, Cerebral에 듣는다  <!-- 시험 22건 · 논문 52편 -->
-- [ ] cilostazol — Claudication에 듣는다  <!-- 시험 14건 · 논문 347편 -->
-- [ ] cilostazol — Type 2 Diabetes에 듣는다  <!-- 시험 10건 · 논문 83편 -->
+- [x] adalimumab — Crohn Disease에 듣는다  <!-- 시험 75건 · 논문 2763편 --> — 허가 적응증(2026-08-05)
+- [x] adalimumab — Psoriasis에 듣는다  <!-- 시험 70건 · 논문 3049편 --> — 허가 적응증(2026-08-05)
+- [x] adalimumab — Colitis에 듣는다  <!-- 시험 39건 · 논문 1753편 --> — 허가 적응증(2026-08-05)
+- [x] adalimumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 29건 · 논문 947편 --> — 허가 적응증(2026-08-05)
+- [x] bortezomib — Myeloma에 듣는다  <!-- 시험 354건 · 논문 7425편 --> — 허가 적응증(2026-08-05)
+- [x] bortezomib — Leukemia에 듣는다  <!-- 시험 191건 · 논문 1143편 -->
+- [x] bortezomib — Cancer에 듣는다  <!-- 시험 53건 · 논문 9953편 --> — 근거 없음(암종을 특정하지 않은 자료로는 보르테조밉의 독립 치료효과를 확인할 수 없음)
+- [x] bortezomib — Recurrent Disease에 듣는다  <!-- 시험 52건 · 논문 768편 --> — 허가 적응증(2026-08-05)
+- [x] cannabidiol — Pain에 듣는다  <!-- 시험 30건 · 논문 1480편 --> — 근거 없음(사람 대상 CBD 단독 진통 근거가 일관되지 않고 통증학회도 권고하지 않음)
+- [x] cannabidiol — Anxiety에 듣는다  <!-- 시험 23건 · 논문 926편 -->
+- [x] cannabidiol — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 1229편 --> — 허가 적응증(2026-08-05)
+- [x] cannabidiol — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 307편 -->
+- [x] chlorpromazine — Advanced Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 46편 -->
+- [x] chlorpromazine — Glioblastoma Multiforme에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [x] cilostazol — Stenosis Artery에 듣는다  <!-- 시험 23건 · 논문 159편 -->
+- [x] cilostazol — Aneurysm, Cerebral에 듣는다  <!-- 시험 22건 · 논문 52편 -->
+- [x] cilostazol — Claudication에 듣는다  <!-- 시험 14건 · 논문 347편 --> — 허가 적응증(2026-08-05)
+- [x] cilostazol — Type 2 Diabetes에 듣는다  <!-- 시험 10건 · 논문 83편 -->
 - [ ] desmopressin — Nocturia에 듣는다  <!-- 시험 20건 · 논문 284편 -->
 - [ ] desmopressin — Bleeding에 듣는다  <!-- 시험 6건 · 논문 1721편 -->
 - [ ] desmopressin — Kidney Biopsy에 듣는다  <!-- 시험 6건 · 논문 144편 -->

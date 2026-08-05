@@ -1,0 +1,30 @@
+{
+  "id": "thiamine-sepsis-null",
+  "subj": "티아민",
+  "claim": "티아민을 패혈증 환자의 장기부전과 사망을 줄이는 보조요법으로 사용하는가",
+  "line": "패혈증에서 고용량 티아민 병용은 임상 결과를 개선하지 못했습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 501,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "패혈증 치료 적응증을 확인하지 못함",
+  "why": "티아민은 피루브산 탈수소효소의 보조인자로 젖산 대사와 에너지 생성을 도울 수 있습니다.",
+  "saw": "VICTAS 무작위시험 501명에서 비타민 C·티아민·하이드로코르티손 병용은 위약 대비 30일 인공호흡기·혈압상승제 없는 날을 개선하지 못했습니다. 초기 전후 연구와 후향 코호트는 사망·젖산 제거 신호를 보였지만, VITAMINS와 VICTAS의 무작위 결과는 일관되지 않았습니다.",
+  "limit": "티아민 단독효과가 아니라 비타민 C와 스테로이드 병용시험입니다. 결핍 환자 보충과 고용량 대사치료를 구분해야 합니다.",
+  "against": "후향 연구 123명에서는 젖산 제거와 28일 사망 감소가 보고됐습니다.",
+  "use": "결핍이 의심되는 환자의 표준 보충은 별도로 판단하되, 패혈증 예후 개선을 위해 고용량 병용을 routine으로 사용하지 않습니다.",
+  "effect": "30일 무혈압제 생존시간 차이 없음",
+  "refs": [
+    { "label": "Fujii 2020 · JAMA · VICTAS 무작위시험", "pmid": "33620405" },
+    { "label": "Fujii 2020 · JAMA · VITAMINS 무작위시험", "pmid": "31950979" },
+    { "label": "Marik 2017 · Chest · 전후 연구", "pmid": "27940189" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=thiamine, cond=Sepsis · 36건 중 15건 직접 확인",
+    "pubmed": "thiamine AND Sepsis · 322건",
+    "negative": "thiamine AND Sepsis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 170건",
+    "safety": "thiamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 3717건"
+  }
+}

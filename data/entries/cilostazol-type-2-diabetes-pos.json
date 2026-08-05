@@ -1,0 +1,29 @@
+{
+  "id": "cilostazol-type-2-diabetes-pos",
+  "subj": "실로스타졸",
+  "claim": "관상동맥 죽상경화가 있는 제2형 당뇨병 환자의 심혈관 사건 예방에 실로스타졸을 사용하는가",
+  "line": "관상동맥 죽상경화가 있는 당뇨병에서 실로스타졸은 장기 심혈관 사건을 줄였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "당뇨병 심혈관 사건 예방 적응증을 확인하지 못함",
+  "why": "실로스타졸은 항혈소판·혈관확장 효과와 함께 당뇨병성 혈관 염증과 인슐린 저항성에 영향을 줄 수 있습니다.",
+  "saw": "ESCAPE 연구 100명 장기추적에서 실로스타졸군의 중앙 5.2년 심혈관 사건 위험은 아스피린군보다 낮았고 HR 0.24(95% CI 0.07–0.83)였습니다. 원시험에서는 관상동맥 협착과 비석회화 플라크도 감소했습니다.",
+  "limit": "100명 단일 연구의 장기 추적이며 원래 무작위 배정 이후 추적 손실과 사건 수가 적습니다. 당뇨병 전체 환자의 일차예방 근거는 아닙니다.",
+  "against": "실로스타졸의 관상동맥·심혈관 예방 결과를 대규모 다기관 시험에서 재현하지 못했습니다.",
+  "use": "당뇨병 환자에게 아스피린을 routine으로 대체하지 않으며, 심장내과가 출혈·빈맥 위험을 포함해 제한적으로 검토합니다.",
+  "effect": "심혈관 사건 HR 0.24",
+  "refs": [
+    { "label": "Lee 2022 · Cardiovascular Diabetology · ESCAPE 장기추적", "pmid": "35932165" },
+    { "label": "Lee 2018 · Diabetologia · ESCAPE 관상동맥 협착 RCT", "pmid": "30761717" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=cilostazol, cond=Type 2 Diabetes · 12건 중 12건 직접 확인",
+    "pubmed": "cilostazol AND Type 2 Diabetes · 83건",
+    "negative": "cilostazol AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) · 76건",
+    "safety": "cilostazol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 880건"
+  }
+}
