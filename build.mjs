@@ -192,16 +192,37 @@ if (errors.length) {
 //   효과 크기   "얼마나" 가 적혀 있으면 읽을 값어치가 있다
 //   근거 무게   여러 연구를 합쳤나, 사람이 몇 명이나
 const NUMRE = /\d+(\.\d+)?\s*(%|배|점|일|주|개월|년|mm|mg|시간|분|포인트)|\d\s*→|→\s*\d/;
+
+// 효과가 얼마나 큰지. "94% vs 36%" 는 58%p 벌어진 것이고 그게 이 목록에서 제일 재미있는 값이다.
+function magnitude(e) {
+  const t = `${e.effect ?? ""} ${e.line}`;
+  const gap = t.match(/([\d.]+)\s*%\s*(?:vs\.?|대|→|에서)\s*([\d.]+)\s*%/);
+  if (gap) return Math.min(26, Math.abs(+gap[2] - +gap[1]) * 0.55);
+  const pct = t.match(/([\d.]+)\s*%\s*(?:[↓↑]|줄|늘|낮|높|감소|증가|적|많)/);
+  if (pct) return Math.min(22, +pct[1] * 0.42);
+  const fold = t.match(/([\d.]+)\s*배/);
+  if (fold) return Math.min(22, (+fold[1] - 1) * 12);
+  return 0;
+}
+
+// 허가 밖에서 쓴다는 게 이 목록의 본론이다. claim 이 "무엇을 어디에 쓴다" 꼴이면 그 얘기다.
+const REPURPOSE = /(을|를)\s*[^,]{2,24}에\s*(쓴다|듣는다)|부작용을|대신 쓴다/;
+
 function interest(e) {
   let s = 0;
-  if (e.dir === "harm") s += 40;
-  else if (e.dir === "pos") s += 20;
-  else if (e.dir === "null") s += 12;        // 통념이 깨지는 것도 읽을 값어치가 있다
-  if (e.effect) s += 25;
-  else if (NUMRE.test(e.line)) s += 15;
-  if (e.synth === "meta") s += 10;
-  s += Math.min(12, Math.log10(Math.max(e.n ?? 1, 1)) * 3);
-  if (STEP[e.tier] >= 4) s += 6;             // 사람에게서 나온 것
+  if (e.dir === "harm") s += 28;             // 다칠 수 있는 얘기는 위로
+  else if (e.dir === "pos") s += 22;
+  else if (e.dir === "null") s += 13;        // 통념이 깨지는 것도 읽을 값어치가 있다
+  else s += 2;                               // 진행 중은 아직 할 말이 없다
+
+  if (e.effect) s += 12;
+  else if (NUMRE.test(e.line)) s += 7;
+  s += magnitude(e);                         // 얼마나 크게 달라졌나
+  if (REPURPOSE.test(e.claim ?? "")) s += 18;
+
+  if (e.synth === "meta") s += 8;
+  s += Math.min(8, Math.log10(Math.max(e.n ?? 1, 1)) * 2);
+  if (STEP[e.tier] >= 4) s += 5;             // 사람에게서 나온 것
   return Math.round(s * 10) / 10;
 }
 entries.forEach((e) => { e.score = interest(e); });
