@@ -8694,23 +8694,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] suvorexant — Sleep에 듣는다  <!-- 시험 12건 · 논문 386편 --> — 허가 적응증(2026-08-05)
 - [x] suvorexant — Delirium에 듣는다  <!-- 시험 5건 · 논문 54편 -->
 - [x] suvorexant — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 15편 -->
-- [ ] terbutaline — Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] terbutaline — Fetal Distress에 듣는다  <!-- 시험 3건 · 논문 48편 -->
-- [ ] triamcinolone — Pain에 듣는다  <!-- 시험 51건 · 논문 1917편 -->
-- [ ] triamcinolone — Knee에 듣는다  <!-- 시험 38건 · 논문 444편 -->
-- [ ] triamcinolone — Oral Lichen Planus에 듣는다  <!-- 시험 20건 · 논문 181편 -->
-- [ ] triamcinolone — Keloid에 듣는다  <!-- 시험 18건 · 논문 543편 -->
-- [ ] zopiclone — Sleep에 듣는다  <!-- 시험 25건 · 논문 777편 -->
-- [ ] zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 6건 · 논문 410편 -->
-- [ ] zopiclone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 245편 -->
-- [ ] zopiclone — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 25편 -->
-- [ ] erythromycin — Gastric Motility에 듣는다  <!-- 시험 4건 · 논문 300편 -->
-- [ ] erythromycin — Pneumonia에 듣는다  <!-- 시험 3건 · 논문 6254편 -->
-- [ ] erythromycin — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] megestrol — Cachexia에 듣는다  <!-- 시험 20건 · 논문 273편 -->
-- [ ] megestrol — Anorexia에 듣는다  <!-- 시험 19건 · 논문 230편 -->
-- [ ] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 -->
-- [ ] megestrol — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 46편 -->
+- [x] terbutaline — Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [x] terbutaline — Fetal Distress에 듣는다  <!-- 시험 3건 · 논문 48편 -->
+- [x] triamcinolone — Pain에 듣는다  <!-- 시험 51건 · 논문 1917편 --> — 근거 없음(통증 부위별 자료가 흩어져 단일 치료 주장 없음)
+- [x] triamcinolone — Knee에 듣는다  <!-- 시험 38건 · 논문 444편 --> — 허가 적응증(2026-08-05)
+- [x] triamcinolone — Oral Lichen Planus에 듣는다  <!-- 시험 20건 · 논문 181편 -->
+- [x] triamcinolone — Keloid에 듣는다  <!-- 시험 18건 · 논문 543편 -->
+- [x] zopiclone — Sleep에 듣는다  <!-- 시험 25건 · 논문 777편 --> — 허가 적응증(2026-08-05)
+- [x] zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 6건 · 논문 410편 --> — 허가 적응증(2026-08-05)
+- [x] zopiclone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 245편 --> — 근거 없음(불안장애 치료가 아닌 수면 연구 중심)
+- [x] zopiclone — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 25편 --> — 근거 없음(정신병 치료가 아닌 수면 보조 자료)
+- [x] erythromycin — Gastric Motility에 듣는다  <!-- 시험 4건 · 논문 300편 -->
+- [x] erythromycin — Pneumonia에 듣는다  <!-- 시험 3건 · 논문 6254편 --> — 허가 적응증(2026-08-05)
+- [x] erythromycin — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] megestrol — Cachexia에 듣는다  <!-- 시험 20건 · 논문 273편 --> — 이미 megestrol-acetate-cachexia-null.json에 포함
+- [x] megestrol — Anorexia에 듣는다  <!-- 시험 19건 · 논문 230편 --> — 이미 megestrol-acetate-anorexia-null.json에 포함
+- [x] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 --> — 허가 적응증(2026-08-05)
+- [x] megestrol — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 46편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8721,19 +8721,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dronabinol — Marijuana에 듣는다  <!-- 시험 13건 · 논문 5625편 -->
-- [ ] dronabinol — Cannabis에 듣는다  <!-- 시험 11건 · 논문 4802편 -->
-- [ ] dronabinol — Vomiting에 듣는다  <!-- 시험 8건 · 논문 331편 -->
-- [ ] domperidone — Gastroesophageal Reflux에 듣는다  <!-- 시험 9건 · 논문 154편 -->
-- [ ] domperidone — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 163편 -->
-- [ ] domperidone — GERD에 듣는다  <!-- 시험 5건 · 논문 157편 -->
-- [ ] domperidone — Parkinson's Disease에 듣는다  <!-- 시험 5건 · 논문 166편 -->
-- [ ] flumazenil — Remimazolam에 듣는다  <!-- 시험 4건 · 논문 162편 -->
-- [ ] flumazenil — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1101편 -->
-- [ ] flumazenil — Recovery에 듣는다  <!-- 시험 3건 · 논문 440편 -->
-- [ ] levocarnitine — Lymphoblastic Lymphoma에 듣는다  <!-- 시험 8건 · 논문 17편 -->
-- [ ] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
+- [x] dronabinol — Marijuana에 듣는다  <!-- 시험 13건 · 논문 5625편 -->
+- [x] dronabinol — Cannabis에 듣는다  <!-- 시험 11건 · 논문 4802편 --> — 같은 대마 사용장애 근거로 처리
+- [x] dronabinol — Vomiting에 듣는다  <!-- 시험 8건 · 논문 331편 --> — 허가 적응증(2026-08-05)
+- [x] domperidone — Gastroesophageal Reflux에 듣는다  <!-- 시험 9건 · 논문 154편 -->
+- [x] domperidone — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 163편 -->
+- [x] domperidone — GERD에 듣는다  <!-- 시험 5건 · 논문 157편 --> — 같은 위식도역류 근거로 처리
+- [x] domperidone — Parkinson's Disease에 듣는다  <!-- 시험 5건 · 논문 166편 -->
+- [x] flumazenil — Remimazolam에 듣는다  <!-- 시험 4건 · 논문 162편 --> — 허가 적응증(2026-08-05)
+- [x] flumazenil — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1101편 --> — 근거 없음(불안 치료가 아니라 약동학·금단 연구)
+- [x] flumazenil — Recovery에 듣는다  <!-- 시험 3건 · 논문 440편 --> — 허가 적응증(2026-08-05)
+- [x] levocarnitine — Lymphoblastic Lymphoma에 듣는다  <!-- 시험 8건 · 논문 17편 -->
+- [x] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(발프로산 병용시험에서 6개월 효과 없음)
+- [x] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
 - [ ] levocarnitine — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 578편 -->
 - [ ] loperamide — Diarrhea에 듣는다  <!-- 시험 16건 · 논문 1118편 -->
 - [ ] loperamide — Fecal Incontinence에 듣는다  <!-- 시험 5건 · 논문 85편 -->

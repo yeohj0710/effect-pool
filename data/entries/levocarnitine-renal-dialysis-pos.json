@@ -1,0 +1,30 @@
+{
+  "id": "levocarnitine-renal-dialysis-pos",
+  "subj": "레보카르니틴",
+  "claim": "투석으로 생기는 카르니틴 결핍의 부작용을 줄이는 데 레보카르니틴을 사용하는가",
+  "line": "경구 레보카르니틴은 혈액투석 중 저혈압과 근육경련을 줄일 가능성이 있습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 224,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "혈액투석 환자의 카르니틴 결핍과 관련 증상에 레보카르니틴을 사용하는 관행이 있지만 국가별 허가 범위가 다릅니다.",
+  "why": "투석으로 제거되는 카르니틴 결핍이라는 치료 부작용을 보충해 심장기능·혈압·근육경련을 개선하려는 주장입니다.",
+  "saw": "혈액투석 환자 224명을 포함한 8개 무작위시험 메타분석에서 레보카르니틴은 투석 중 저혈압을 줄였습니다(OR 0.26, 95% CI 0.10–0.72). 147명 5개 연구에서는 근육경련도 줄었지만 추가 고품질 연구가 필요했습니다.",
+  "limit": "연구 이질성이 높았고(I² 76%), 경구 투여에서만 저혈압 효과가 유의했으며 정주 투여 효과는 분명하지 않았습니다.",
+  "against": "투석 환자의 빈혈·영양·심장질환 원인을 대체하지 않으며 저혈압의 모든 원인이 카르니틴 결핍은 아닙니다.",
+  "use": "신장내과가 영양·카르니틴 수치·투석 중 혈압을 함께 평가하고 제형과 용량을 결정합니다.",
+  "effect": "투석 중 저혈압 OR 0.26",
+  "refs": [
+    { "label": "Chen 2022 · 투석 중 저혈압 레보카르니틴 메타분석", "pmid": "35834513", "doi": "10.1097/MD.0000000000030896" },
+    { "label": "혈액투석 심장기능·빈혈 레보카르니틴 시험", "pmid": "30041211" },
+    { "label": "ClinicalTrials.gov 혈액투석 레보카르니틴 시험", "nct": "NCT05673239" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=levocarnitine, cond=Renal Dialysis · 21건 중 2건 직접 확인",
+    "pubmed": "levocarnitine AND Renal Dialysis · 510건",
+    "negative": "levocarnitine AND Renal Dialysis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 373건",
+    "safety": "levocarnitine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 5047건"
+  }
+}
