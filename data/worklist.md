@@ -9351,3 +9351,56 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valbenazine — Tourette Syndrome에 듣는다  <!-- 시험 4건 · 논문 16편 -->
 - [x] valbenazine — Chorea, Huntington에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 38편 -->
 - [x] zileuton — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acitretin — Skin Rash에 듣는다  <!-- 시험 3건 · 논문 40편 -->
+- [ ] baloxavir — Infection Viral에 듣는다  <!-- 시험 4건 · 논문 445편 -->
+- [ ] captopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1878편 -->
+- [ ] captopril — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 135편 -->
+- [ ] captopril — Primary Aldosteronism에 듣는다  <!-- 시험 4건 · 논문 331편 -->
+- [ ] captopril — Kidney Insufficiency에 듣는다  <!-- 시험 3건 · 논문 573편 -->
+- [ ] dabrafenib — Cancer에 듣는다  <!-- 시험 47건 · 논문 2081편 -->
+- [ ] dabrafenib — Lung Carcinoma에 듣는다  <!-- 시험 38건 · 논문 163편 -->
+- [ ] dabrafenib — Neoplasm에 듣는다  <!-- 시험 34건 · 논문 1612편 -->
+- [ ] dabrafenib — Lymphoma에 듣는다  <!-- 시험 24건 · 논문 37편 -->
+- [ ] daridorexant — Sleep에 듣는다  <!-- 시험 4건 · 논문 142편 -->
+- [ ] daridorexant — Cognitive Functioning에 듣는다  <!-- 시험 3건 · 논문 19편 -->
+- [ ] delamanid — HIV에 듣는다  <!-- 시험 8건 · 논문 122편 -->
+- [ ] delamanid — Pulmonary TB에 듣는다  <!-- 시험 4건 · 논문 187편 -->
+- [ ] fosaprepitant — Breast Cancer에 듣는다  <!-- 시험 12건 · 논문 28편 -->
+- [ ] lemborexant — Insomnia에 듣는다  <!-- 시험 15건 · 논문 214편 -->
+- [ ] lemborexant — Delirium에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] milnacipran — Major Depressive Disorder에 듣는다  <!-- 시험 13건 · 논문 177편 -->
+- [ ] milnacipran — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 157편 -->
+- [ ] milnacipran — Depression에 듣는다  <!-- 시험 4건 · 논문 412편 -->
+- [ ] obinutuzumab — Leukemia에 듣는다  <!-- 시험 155건 · 논문 637편 -->
+- [ ] obinutuzumab — Cancer에 듣는다  <!-- 시험 21건 · 논문 945편 -->
+- [ ] obinutuzumab — Lupus Nephritis에 듣는다  <!-- 시험 11건 · 논문 92편 -->
+- [ ] obinutuzumab — B-Cell에 듣는다  <!-- 시험 10건 · 논문 870편 -->
+- [ ] pazopanib — Breast Carcinoma에 듣는다  <!-- 시험 121건 · 논문 71편 -->
+- [ ] pazopanib — Sarcoma에 듣는다  <!-- 시험 87건 · 논문 705편 -->
+- [ ] pazopanib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 225편 -->
+- [ ] pazopanib — Leiomyosarcoma에 듣는다  <!-- 시험 23건 · 논문 112편 -->
+- [ ] pitolisant — Narcolepsy에 듣는다  <!-- 시험 6건 · 논문 154편 -->
+- [ ] pitolisant — Prader-Willi Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] remifentanil — Pain에 듣는다  <!-- 시험 70건 · 논문 3158편 -->
+- [ ] remifentanil — Surgery에 듣는다  <!-- 시험 27건 · 논문 4974편 -->
+- [ ] remifentanil — Postoperative에 듣는다  <!-- 시험 24건 · 논문 2805편 -->
+- [ ] remifentanil — Sedation에 듣는다  <!-- 시험 20건 · 논문 1309편 -->
+- [ ] romiplostim — Aplastic Anemia에 듣는다  <!-- 시험 18건 · 논문 78편 -->
+- [ ] romiplostim — Thrombocytopenic Purpura에 듣는다  <!-- 시험 15건 · 논문 514편 -->
+- [ ] romiplostim — Cancer에 듣는다  <!-- 시험 14건 · 논문 243편 -->
+- [ ] romiplostim — Myelodysplastic Syndromes에 듣는다  <!-- 시험 8건 · 논문 66편 -->
+- [ ] selpercatinib — Cancer에 듣는다  <!-- 시험 26건 · 논문 542편 -->
+- [ ] selpercatinib — NSCLC Stage IV에 듣는다  <!-- 시험 9건 · 논문 9편 -->
+- [ ] selpercatinib — Neoplasm에 듣는다  <!-- 시험 9건 · 논문 342편 -->
+- [ ] tucatinib — Metastatic에 듣는다  <!-- 시험 15건 · 논문 184편 -->
+- [ ] tucatinib — Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 19편 -->
