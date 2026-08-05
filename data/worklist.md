@@ -7252,16 +7252,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 956편 --> — 이미 수록됨(2026-08-05)
 - [x] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 --> — 허가 적응증(2026-08-05)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 --> — 이미 수록됨(2026-08-05)
-- [ ] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 시험 40건 · 논문 890편 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 2045편 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 시험 19건 · 논문 331편 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 시험 18건 · 논문 622편 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 227편 -->
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 -->
+- [x] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 --> — 이미 수록됨(2026-08-05)
+- [x] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Cancer에 듣는다  <!-- 시험 40건 · 논문 890편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 2045편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Nausea에 듣는다  <!-- 시험 19건 · 논문 331편 --> — 이미 수록됨(2026-08-05)
+- [x] gabapentin — Drug Dependence에 듣는다  <!-- 시험 18건 · 논문 622편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 227편 --> — 이미 수록됨(2026-08-05)
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> — 허가 적응증(2026-08-05)
 - [ ] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 -->
 - [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 -->
 - [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 -->
