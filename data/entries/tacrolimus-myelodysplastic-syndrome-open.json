@@ -1,0 +1,29 @@
+{
+  "id": "tacrolimus-myelodysplastic-syndrome-open",
+  "subj": "타크로리무스",
+  "claim": "MDS·AML 동종이식 후 tacrolimus 농도를 GVHD 예방과 재발 위험 사이에서 조절하는가",
+  "line": "MDS·AML 동종이식에서 약물 농도가 GVHD와 재발에 엇갈린 영향을 보였습니다.",
+  "tier": "obs",
+  "dir": "open",
+  "n": 673,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "동종 조혈모세포이식 후 GVHD 예방의 표준 면역억제 병용요법",
+  "why": "Tacrolimus 노출은 GVHD 억제에 필요하지만 T세포의 이식편대종양 효과까지 약화할 수 있어 농도 균형이 중요합니다.",
+  "saw": "동종 조혈모세포이식 673명 후향 코호트에서 1주차 tacrolimus 농도 10.15 ng/mL 이상은 급성 GVHD II–IV등급 위험 감소와 연관됐고, 2주차 11.55 ng/mL 초과는 재발 위험 증가와 연관됐습니다. AML·MDS 하위분석에서도 같은 방향이었습니다.",
+  "limit": "후향 연구라 농도와 예후의 인과관계를 확정할 수 없고 질환·이식·병용요법이 섞였습니다. 목표 농도를 독립적으로 정한 무작위시험이 아닙니다.",
+  "against": "높은 초기 농도가 모든 환자의 생존을 개선한다는 근거는 없으며, 과다 면역억제는 재발과 신독성 위험을 높일 수 있습니다.",
+  "use": "MDS·AML 동종이식 환자에서 이식 전문팀이 GVHD, 재발, 신기능을 함께 보며 혈중 농도를 조절합니다.",
+  "effect": "1주 농도↑ GVHD↓·2주 농도↑ 재발↑",
+  "refs": [
+    { "label": "Sharma 2021 · Biology of Blood and Marrow Transplantation · tacrolimus 농도 후향 코호트", "pmid": "33557088" },
+    { "label": "Orca-T Precision-T 2026 · Blood · AML·MDS 동종이식 3상시험", "pmid": "41385341" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=tacrolimus, cond=Myelodysplastic Syndrome · 188건 중 89건 직접 확인",
+    "pubmed": "tacrolimus AND Myelodysplastic Syndrome · 144건",
+    "negative": "tacrolimus AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) · 99건",
+    "safety": "tacrolimus AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 14475건"
+  }
+}

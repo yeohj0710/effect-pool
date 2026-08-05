@@ -8514,36 +8514,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 --> — 허가 적응증(2026-08-05)
 - [x] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 --> — 허가 적응증(2026-08-05)
 - [x] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 --> — 허가 적응증(2026-08-05)
-- [ ] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 -->
-- [ ] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 -->
-- [ ] methadone — HIV에 듣는다  <!-- 시험 19건 · 논문 2387편 -->
-- [ ] metronidazole — Vaginosis에 듣는다  <!-- 시험 40건 · 논문 1773편 -->
-- [ ] metronidazole — Periodontitis에 듣는다  <!-- 시험 23건 · 논문 1318편 -->
-- [ ] metronidazole — Oral Cancer에 듣는다  <!-- 시험 23건 · 논문 201편 -->
-- [ ] metronidazole — HIV Infections에 듣는다  <!-- 시험 14건 · 논문 323편 -->
-- [ ] nicotinamide — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 529편 -->
-- [ ] nicotinamide — Muscle Injury에 듣는다  <!-- 시험 6건 · 논문 416편 -->
-- [ ] nicotinamide — Cancer에 듣는다  <!-- 시험 5건 · 논문 12937편 -->
-- [ ] nicotinamide — Obesity에 듣는다  <!-- 시험 4건 · 논문 1405편 -->
-- [ ] nitroglycerin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 1840편 -->
-- [ ] nitroglycerin — Raynaud Disease에 듣는다  <!-- 시험 12건 · 논문 75편 -->
-- [ ] nitroglycerin — Cancer에 듣는다  <!-- 시험 11건 · 논문 406편 -->
-- [ ] nitroglycerin — Hypotension에 듣는다  <!-- 시험 8건 · 논문 3977편 -->
-- [ ] octreotide — Cancer에 듣는다  <!-- 시험 39건 · 논문 6861편 -->
-- [ ] octreotide — Acromegaly에 듣는다  <!-- 시험 37건 · 논문 1418편 -->
-- [ ] octreotide — Pancreatic NET에 듣는다  <!-- 시험 24건 · 논문 321편 -->
-- [ ] octreotide — Carcinoid에 듣는다  <!-- 시험 18건 · 논문 1330편 -->
-- [ ] oxcarbazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 1177편 -->
-- [ ] oxcarbazepine — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 176편 -->
-- [ ] oxcarbazepine — Neuralgia에 듣는다  <!-- 시험 5건 · 논문 188편 -->
-- [ ] prucalopride — Paralytic Ileus에 듣는다  <!-- 시험 6건 · 논문 19편 -->
-- [ ] ribavirin — HIV에 듣는다  <!-- 시험 43건 · 논문 1982편 -->
-- [ ] ribavirin — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 4374편 -->
-- [ ] ribavirin — HCV에 듣는다  <!-- 시험 16건 · 논문 9363편 -->
-- [ ] ribavirin — Hepatocellular Carcinoma에 듣는다  <!-- 시험 12건 · 논문 1266편 -->
-- [ ] tacrolimus — Leukemia에 듣는다  <!-- 시험 460건 · 논문 595편 -->
-- [ ] tacrolimus — Kidney에 듣는다  <!-- 시험 165건 · 논문 9777편 -->
-- [ ] tacrolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 127건 · 논문 144편 -->
+- [x] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 --> — 허가 적응증(2026-08-05)
+- [x] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 --> — 허가 적응증(2026-08-05)
+- [x] methadone — HIV에 듣는다  <!-- 시험 19건 · 논문 2387편 --> — 근거 없음(메타돈 유지요법이 HIV 관리 연속성을 높인 연구뿐이고 HIV 치료효과는 없음)
+- [x] metronidazole — Vaginosis에 듣는다  <!-- 시험 40건 · 논문 1773편 --> — 허가 적응증(2026-08-05)
+- [x] metronidazole — Periodontitis에 듣는다  <!-- 시험 23건 · 논문 1318편 -->
+- [x] metronidazole — Oral Cancer에 듣는다  <!-- 시험 23건 · 논문 201편 --> — 근거 없음(대장암 수술 항생제·전임상 문헌뿐이고 구강암 치료 결과 없음)
+- [x] metronidazole — HIV Infections에 듣는다  <!-- 시험 14건 · 논문 323편 --> — 근거 없음(성매개·질내 감염 연구는 있으나 HIV 자체 치료효과 없음)
+- [x] nicotinamide — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 529편 -->
+- [x] nicotinamide — Muscle Injury에 듣는다  <!-- 시험 6건 · 논문 416편 --> — 근거 없음(니코틴아마이드가 아니라 니코틴아마이드 리보사이드·프테로스틸벤 병용시험이 음성)
+- [x] nicotinamide — Cancer에 듣는다  <!-- 시험 5건 · 논문 12937편 -->
+- [x] nicotinamide — Obesity에 듣는다  <!-- 시험 4건 · 논문 1405편 --> — 근거 없음(기전·동물 연구와 대사 연구뿐이고 비만 치료효과 없음)
+- [x] nitroglycerin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 1840편 --> — 허가 적응증(2026-08-05)
+- [x] nitroglycerin — Raynaud Disease에 듣는다  <!-- 시험 12건 · 논문 75편 -->
+- [x] nitroglycerin — Cancer에 듣는다  <!-- 시험 11건 · 논문 406편 -->
+- [x] nitroglycerin — Hypotension에 듣는다  <!-- 시험 8건 · 논문 3977편 --> — 허가 적응증(2026-08-05)
+- [x] octreotide — Cancer에 듣는다  <!-- 시험 39건 · 논문 6861편 -->
+- [x] octreotide — Acromegaly에 듣는다  <!-- 시험 37건 · 논문 1418편 --> — 허가 적응증(2026-08-05)
+- [x] octreotide — Pancreatic NET에 듣는다  <!-- 시험 24건 · 논문 321편 --> — 근거 없음(장기지속형 octreotide가 GEP-NET 대조군으로 쓰였지만 췌장 NET 단독효과 결과 없음)
+- [x] octreotide — Carcinoid에 듣는다  <!-- 시험 18건 · 논문 1330편 --> — 허가 적응증(2026-08-05)
+- [x] oxcarbazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 1177편 --> — 허가 적응증(2026-08-05)
+- [x] oxcarbazepine — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 176편 -->
+- [x] oxcarbazepine — Neuralgia에 듣는다  <!-- 시험 5건 · 논문 188편 -->
+- [x] prucalopride — Paralytic Ileus에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [x] ribavirin — HIV에 듣는다  <!-- 시험 43건 · 논문 1982편 --> — 근거 없음(HIV/HCV 동시감염에서 HCV 치료자료만 있고 HIV 치료효과 없음)
+- [x] ribavirin — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 4374편 --> — 허가 적응증(2026-08-05)
+- [x] ribavirin — HCV에 듣는다  <!-- 시험 16건 · 논문 9363편 --> — 허가 적응증(2026-08-05)
+- [x] ribavirin — Hepatocellular Carcinoma에 듣는다  <!-- 시험 12건 · 논문 1266편 --> — 근거 없음(HCV 박멸 후 HCC 위험 감소 연구는 직접 항암치료가 아님)
+- [x] tacrolimus — Leukemia에 듣는다  <!-- 시험 460건 · 논문 595편 -->
+- [x] tacrolimus — Kidney에 듣는다  <!-- 시험 165건 · 논문 9777편 --> — 허가 적응증(2026-08-05)
+- [x] tacrolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 127건 · 논문 144편 -->
 - [ ] tacrolimus — Myeloma에 듣는다  <!-- 시험 75건 · 논문 62편 -->
 - [ ] thiamine — Sepsis에 듣는다  <!-- 시험 11건 · 논문 322편 -->
 - [ ] thiamine — Shock에 듣는다  <!-- 시험 11건 · 논문 418편 -->
