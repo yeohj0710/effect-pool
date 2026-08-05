@@ -8904,21 +8904,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acyclovir — Infection에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 15992편 -->
 - [x] vardenafil — Arterial Hypertension에 듣는다  <!-- 시험 5건 · 논문 177편 -->
 - [x] vardenafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 3건 · 논문 67편 -->
-- [ ] bosentan — Congenital Heart Disease에 듣는다  <!-- 시험 10건 · 논문 229편 -->
-- [ ] bosentan — Systemic Sclerosis에 듣는다  <!-- 시험 10건 · 논문 321편 -->
-- [ ] bosentan — Skin Fibrosis에 듣는다  <!-- 시험 6건 · 논문 37편 -->
-- [ ] bosentan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 19편 -->
-- [ ] macitentan — Congenital Heart Disease에 듣는다  <!-- 시험 3건 · 논문 46편 -->
-- [ ] treprostinil — Lung Transplantation에 듣는다  <!-- 시험 14건 · 논문 56편 -->
-- [ ] treprostinil — Idiopathic Pulmonary Fibrosis에 듣는다  <!-- 시험 10건 · 논문 36편 -->
-- [ ] treprostinil — Systemic Sclerosis에 듣는다  <!-- 시험 7건 · 논문 44편 -->
-- [ ] treprostinil — COPD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] dimethyl fumarate — Skin Cancer에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] dimethyl fumarate — Acute Ischemic Stroke에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] ocrelizumab — Rheumatoid Arthritis에 듣는다  <!-- 시험 8건 · 논문 46편 -->
-- [ ] ocrelizumab — Immune System Diseases에 듣는다  <!-- 시험 7건 · 논문 1068편 -->
-- [ ] ocrelizumab — Clinically Isolated Syndrome에 듣는다  <!-- 시험 5건 · 논문 23편 -->
-- [ ] ocrelizumab — Autoimmune Diseases에 듣는다  <!-- 시험 3건 · 논문 1068편 -->
+- [x] bosentan — Congenital Heart Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 229편 -->
+- [x] bosentan — Systemic Sclerosis에 듣는다  <!-- 시험 10건 · 논문 321편 -->
+- [x] bosentan — Skin Fibrosis에 듣는다  <!-- 시험 6건 · 논문 37편 -->
+- [x] bosentan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 19편 -->
+- [x] macitentan — Congenital Heart Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 46편 -->
+- [x] treprostinil — Lung Transplantation에 듣는다 — 근거 없음(2026-08-05 조회, "treprostinil AND Lung Transplantation")  <!-- 시험 14건 · 논문 56편 -->
+- [x] treprostinil — Idiopathic Pulmonary Fibrosis에 듣는다  <!-- 시험 10건 · 논문 36편 -->
+- [x] treprostinil — Systemic Sclerosis에 듣는다  <!-- 시험 7건 · 논문 44편 -->
+- [x] treprostinil — COPD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [x] dimethyl fumarate — Skin Cancer에 듣는다  <!-- 시험 4건 · 논문 32편 -->
+- [x] dimethyl fumarate — Acute Ischemic Stroke에 듣는다 — 근거 없음(2026-08-05 조회, "dimethyl fumarate AND Acute Ischemic Stroke")  <!-- 시험 3건 · 논문 21편 -->
+- [x] ocrelizumab — Rheumatoid Arthritis에 듣는다  <!-- 시험 8건 · 논문 46편 -->
+- [x] ocrelizumab — Immune System Diseases에 듣는다 — 근거 없음(2026-08-05 조회, "ocrelizumab AND Immune System Diseases")  <!-- 시험 7건 · 논문 1068편 -->
+- [x] ocrelizumab — Clinically Isolated Syndrome에 듣는다 — 근거 없음(2026-08-05 조회, "ocrelizumab AND Clinically Isolated Syndrome")  <!-- 시험 5건 · 논문 23편 -->
+- [x] ocrelizumab — Autoimmune Diseases에 듣는다 — 근거 없음(2026-08-05 조회, "ocrelizumab AND Autoimmune Diseases")  <!-- 시험 3건 · 논문 1068편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8929,21 +8929,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] mifepristone — Cancer에 듣는다  <!-- 시험 38건 · 논문 1214편 -->
-- [ ] mifepristone — Pregnancy에 듣는다  <!-- 시험 22건 · 논문 3310편 -->
-- [ ] mifepristone — Depressive Disorder에 듣는다  <!-- 시험 10건 · 논문 67편 -->
-- [ ] mifepristone — Fetal Death에 듣는다  <!-- 시험 9건 · 논문 108편 -->
-- [ ] sulforaphane — Chronic Kidney Disease에 듣는다  <!-- 시험 8건 · 논문 38편 -->
-- [ ] sulforaphane — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 151편 -->
-- [ ] sulforaphane — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 37편 -->
-- [ ] sulforaphane — Autistic Disorder에 듣는다  <!-- 시험 4건 · 논문 17편 -->
-- [ ] clobazam — Pain에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] lisdexamfetamine — Binge Eating에 듣는다  <!-- 시험 13건 · 논문 149편 -->
-- [ ] lisdexamfetamine — ADHD에 듣는다  <!-- 시험 9건 · 논문 450편 -->
-- [ ] lisdexamfetamine — Major Depressive Disorder에 듣는다  <!-- 시험 7건 · 논문 25편 -->
-- [ ] lisdexamfetamine — Obesity에 듣는다  <!-- 시험 6건 · 논문 53편 -->
-- [ ] dextroamphetamine — Opioid-Related Disorders에 듣는다  <!-- 시험 8건 · 논문 59편 -->
-- [ ] dextroamphetamine — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 277편 -->
+- [x] mifepristone — Cancer에 듣는다  <!-- 시험 38건 · 논문 1214편 -->
+- [x] mifepristone — Pregnancy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 3310편 -->
+- [x] mifepristone — Depressive Disorder에 듣는다  <!-- 시험 10건 · 논문 67편 -->
+- [x] mifepristone — Fetal Death에 듣는다  <!-- 시험 9건 · 논문 108편 -->
+- [x] sulforaphane — Chronic Kidney Disease에 듣는다 — 근거 없음(2026-08-05 조회, "sulforaphane AND Chronic Kidney Disease")  <!-- 시험 8건 · 논문 38편 -->
+- [x] sulforaphane — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 151편 -->
+- [x] sulforaphane — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 37편 -->
+- [x] sulforaphane — Autistic Disorder에 듣는다  <!-- 시험 4건 · 논문 17편 -->
+- [x] clobazam — Pain에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [x] lisdexamfetamine — Binge Eating에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 149편 -->
+- [x] lisdexamfetamine — ADHD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 450편 -->
+- [x] lisdexamfetamine — Major Depressive Disorder에 듣는다  <!-- 시험 7건 · 논문 25편 -->
+- [x] lisdexamfetamine — Obesity에 듣는다 — 근거 없음(2026-08-05 조회, "lisdexamfetamine AND Obesity")  <!-- 시험 6건 · 논문 53편 -->
+- [x] dextroamphetamine — Opioid-Related Disorders에 듣는다 — 근거 없음(2026-08-05 조회, "dextroamphetamine AND Opioid-Related Disorders")  <!-- 시험 8건 · 논문 59편 -->
+- [x] dextroamphetamine — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "dextroamphetamine AND Schizophrenia")  <!-- 시험 3건 · 논문 277편 -->
 - [ ] armodafinil — Fatigue에 듣는다  <!-- 시험 10건 · 논문 399편 -->
 - [ ] armodafinil — Sleepiness에 듣는다  <!-- 시험 8건 · 논문 586편 -->
 - [ ] armodafinil — Narcolepsy에 듣는다  <!-- 시험 6건 · 논문 574편 -->
