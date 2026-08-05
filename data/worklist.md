@@ -9157,3 +9157,65 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 -->
 - [ ] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 -->
 - [ ] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] amiodarone — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 7771편 -->
+- [ ] amiodarone — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 454편 -->
+- [ ] amiodarone — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] amiodarone — Sepsis에 듣는다  <!-- 시험 3건 · 논문 70편 -->
+- [ ] atropine — Neuromuscular Blockade에 듣는다  <!-- 시험 8건 · 논문 323편 -->
+- [ ] atropine — Bradycardia에 듣는다  <!-- 시험 7건 · 논문 2620편 -->
+- [ ] atropine — Pesticide Poisoning에 듣는다  <!-- 시험 6건 · 논문 987편 -->
+- [ ] atropine — Intubation에 듣는다  <!-- 시험 6건 · 논문 946편 -->
+- [ ] baclofen — Muscle Cramps에 듣는다  <!-- 시험 4건 · 논문 264편 -->
+- [ ] botulinum toxin — Crow's Feet에 듣는다  <!-- 시험 22건 · 논문 179편 -->
+- [ ] botulinum toxin — Rhytides에 듣는다  <!-- 시험 22건 · 논문 1356편 -->
+- [ ] botulinum toxin — Esophageal Diseases에 듣는다  <!-- 시험 12건 · 논문 856편 -->
+- [ ] botulinum toxin — Headache에 듣는다  <!-- 시험 11건 · 논문 1362편 -->
+- [ ] clomiphene — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 3802편 -->
+- [ ] clomiphene — PCOS에 듣는다  <!-- 시험 6건 · 논문 1004편 -->
+- [ ] clomiphene — Ovarian Response에 듣는다  <!-- 시험 4건 · 논문 560편 -->
+- [ ] colchicine — Coronavirus에 듣는다  <!-- 시험 8건 · 논문 334편 -->
+- [ ] colchicine — Pericarditis에 듣는다  <!-- 시험 7건 · 논문 859편 -->
+- [ ] colchicine — Chronic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 287편 -->
+- [ ] colchicine — Mediterranean Fever에 듣는다  <!-- 시험 6건 · 논문 1902편 -->
+- [ ] disulfiram — Melanoma에 듣는다  <!-- 시험 3건 · 논문 39편 -->
+- [ ] disulfiram — Obesity에 듣는다  <!-- 시험 3건 · 논문 24편 -->
+- [ ] disulfiram — Opioid Dependence에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [ ] flumazenil — Sedation에 듣는다  <!-- 시험 3건 · 논문 694편 -->
+- [ ] ivabradine — Septic Shock에 듣는다  <!-- 시험 6건 · 논문 13편 -->
+- [ ] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 -->
+- [ ] ivabradine — Myocardial Injury에 듣는다  <!-- 시험 4건 · 논문 38편 -->
+- [ ] ivabradine — Electrical Remodeling에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [ ] levodopa — Dyskinesias에 듣는다  <!-- 시험 5건 · 논문 6593편 -->
+- [ ] levodopa — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 303편 -->
+- [ ] levodopa — Parkinsonian Syndrome에 듣는다  <!-- 시험 4건 · 논문 15177편 -->
+- [ ] melatonin — Spine Surgery에 듣는다  <!-- 시험 9건 · 논문 129편 -->
+- [ ] melatonin — Obesity에 듣는다  <!-- 시험 8건 · 논문 749편 -->
+- [ ] melatonin — Epilepsy에 듣는다  <!-- 시험 8건 · 논문 379편 -->
+- [ ] melatonin — Circadian Rhythm에 듣는다  <!-- 시험 8건 · 논문 9128편 -->
+- [ ] misoprostol — Miscarriage에 듣는다  <!-- 시험 20건 · 논문 636편 -->
+- [ ] misoprostol — Cesarean Section에 듣는다  <!-- 시험 19건 · 논문 666편 -->
+- [ ] misoprostol — Blood Loss에 듣는다  <!-- 시험 17건 · 논문 1190편 -->
+- [ ] phenytoin — Wound에 듣는다  <!-- 시험 3건 · 논문 766편 -->
+- [ ] prazosin — Nicotine에 듣는다  <!-- 시험 4건 · 논문 90편 -->
+- [ ] prazosin — Brain Injuries에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [ ] roflumilast — Pulmonary Disease에 듣는다  <!-- 시험 22건 · 논문 556편 -->
+- [ ] roflumilast — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 9편 -->
+- [ ] roflumilast — Bronchiectasis에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [ ] roflumilast — Obesity에 듣는다  <!-- 시험 5건 · 논문 17편 -->
+- [ ] spironolactone — Puberty에 듣는다  <!-- 시험 4건 · 논문 58편 -->
+- [ ] spironolactone — Myocardial Fibrosis에 듣는다  <!-- 시험 4건 · 논문 298편 -->
+- [ ] spironolactone — Congenital Disorders에 듣는다  <!-- 시험 3건 · 논문 462편 -->
+- [ ] spironolactone — Acne에 듣는다  <!-- 시험 3건 · 논문 324편 -->
+- [ ] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 -->
+- [ ] verapamil — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 218편 -->
+- [ ] verapamil — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 168편 -->
