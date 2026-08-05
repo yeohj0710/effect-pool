@@ -9801,3 +9801,49 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] saccharomyces boulardii — Enterocolitis에 듣는다  <!-- 시험 3건 · 논문 89편 -->
 - [ ] nabiximols — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
 - [ ] nabiximols — Spasticity, Muscle에 듣는다  <!-- 시험 4건 · 논문 134편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] aminophylline — Anesthesia에 듣는다  <!-- 시험 5건 · 논문 196편 -->
+- [ ] aminophylline — Asthma에 듣는다  <!-- 시험 4건 · 논문 1180편 -->
+- [ ] aminophylline — Post-Dural Puncture Headache에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] danazol — Telomere Disease에 듣는다  <!-- 시험 6건 · 논문 28편 -->
+- [ ] danazol — Endometriosis에 듣는다  <!-- 시험 5건 · 논문 1036편 -->
+- [ ] danazol — Primary Myelofibrosis에 듣는다  <!-- 시험 5건 · 논문 50편 -->
+- [ ] danazol — Anemia에 듣는다  <!-- 시험 3건 · 논문 228편 -->
+- [ ] hydroquinone — Hyperpigmentation에 듣는다  <!-- 시험 3건 · 논문 614편 -->
+- [ ] imiquimod — Cancer에 듣는다  <!-- 시험 36건 · 논문 2614편 -->
+- [ ] imiquimod — Vulvar Carcinoma에 듣는다  <!-- 시험 24건 · 논문 157편 -->
+- [ ] imiquimod — Cervical Cancer에 듣는다  <!-- 시험 22건 · 논문 112편 -->
+- [ ] imiquimod — Melanoma에 듣는다  <!-- 시험 16건 · 논문 552편 -->
+- [ ] riboflavin — Ectasia에 듣는다  <!-- 시험 41건 · 논문 330편 -->
+- [ ] riboflavin — Keratitis에 듣는다  <!-- 시험 8건 · 논문 307편 -->
+- [ ] riboflavin — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 209편 -->
+- [ ] riboflavin — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 54편 -->
+- [ ] rifabutin — Tuberculosis에 듣는다  <!-- 시험 20건 · 논문 700편 -->
+- [ ] rifabutin — Helicobacter Pylori Infection에 듣는다  <!-- 시험 4건 · 논문 222편 -->
+- [ ] rifabutin — Infection, Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 447편 -->
+- [ ] sodium — Peripheral Neuropathy에 듣는다  <!-- 시험 16건 · 논문 2468편 -->
+- [ ] sodium — Pain에 듣는다  <!-- 시험 15건 · 논문 14394편 -->
+- [ ] sodium — Lung Cancer에 듣는다  <!-- 시험 15건 · 논문 2694편 -->
+- [ ] sodium — Kidney Stone에 듣는다  <!-- 시험 11건 · 논문 1427편 -->
+- [ ] thiosulfate — Cancer에 듣는다  <!-- 시험 27건 · 논문 541편 -->
+- [ ] thiosulfate — Malignant Glioma에 듣는다  <!-- 시험 12건 · 논문 9편 -->
+- [ ] thiosulfate — Brain Tumor에 듣는다  <!-- 시험 8건 · 논문 31편 -->
+- [ ] thiosulfate — Germ Cell Tumor에 듣는다  <!-- 시험 7건 · 논문 21편 -->
+- [ ] tolcapone — Alcohol Abuse에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [ ] trimetazidine — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 101편 -->
+- [ ] yohimbine — Stress에 듣는다  <!-- 시험 3건 · 논문 1048편 -->
+- [ ] yohimbine — Autonomic Failure에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] yohimbine — Opioid-use Disorder에 듣는다  <!-- 시험 3건 · 논문 70편 -->
+- [ ] bromfenac — Macular Edema에 듣는다  <!-- 시험 14건 · 논문 68편 -->
+- [ ] bromfenac — Inflammation에 듣는다  <!-- 시험 9건 · 논문 89편 -->
+- [ ] bromfenac — Pain에 듣는다  <!-- 시험 6건 · 논문 79편 -->
+- [ ] bromfenac — Eye Diseases에 듣는다  <!-- 시험 4건 · 논문 144편 -->
