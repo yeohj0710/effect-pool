@@ -1,0 +1,35 @@
+{
+  "id": "n-acetylcysteine-nephropathy-pos",
+  "subj": "N-아세틸시스테인",
+  "claim": "조영제 신병증을 예방한다",
+  "line": "조영제 신병증 발생을 줄였습니다",
+  "effect": "신병증 OR 0.52",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1677,
+  "synth": "meta",
+  "why": "무작위 대조시험을 합쳐 N-아세틸시스테인이 조영제 유발 신병증을 예방하는지 평가한 메타분석입니다.",
+  "saw": "무작위 비교 16개와 환자 1,677명을 합쳤습니다. N-아세틸시스테인은 조영제 신병증 발생 odds를 고정효과 모형에서 0.46, 보수적인 랜덤효과 모형에서 0.52로 낮췄습니다.",
+  "limit": "연구 시기와 환자군이 다양하고 조영제 신병증 정의도 일정하지 않았습니다. 다른 문헌고찰은 효과와 안전성을 확정할 근거가 없다고 결론냈습니다.",
+  "against": "정맥 투여 연구 문헌고찰은 대부분의 시험에서 임상적 이득이 없었고 결론적 근거가 없다고 보고했습니다.",
+  "use": "조영제 신병증 예방 신호는 있지만 환자군과 연구 방법 차이가 커서 일괄적인 효과로 해석하기 어렵습니다.",
+  "refs": [
+    {
+      "label": "Kelly 2009 · American Journal of Medicine · 조영제 신병증 예방 메타분석",
+      "doi": "10.1016/j.amjmed.2009.01.035",
+      "pmid": "19699385"
+    },
+    {
+      "label": "Subramaniam 2011 · Annals of Pharmacotherapy · 정맥 N-아세틸시스테인 문헌고찰",
+      "doi": "10.1345/aph.1P275",
+      "pmid": "21205947"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=acetylcysteine&query.cond=Nephropathy 반환 72건, InterventionName 정확 일치 7건",
+    "pubmed": "N-acetylcysteine nephropathy 반환 1390건",
+    "negative": "N-acetylcysteine nephropathy AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 1180건",
+    "safety": "N-acetylcysteine nephropathy AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 907건"
+  }
+}

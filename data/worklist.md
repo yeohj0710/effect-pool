@@ -8078,16 +8078,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tamoxifen — Infertility에 듣는다  <!-- 시험 6건 · 논문 395편 -->
 - [x] tamoxifen — Hypertension에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 결과 대기(2026-08-05)
 - [x] raloxifene — Adenocarcinoma에 듣는다  <!-- 시험 4건 · 논문 85편 -->
-- [ ] raloxifene — Vasomotor Symptoms에 듣는다  <!-- 시험 3건 · 논문 70편 -->
-- [ ] raloxifene — Endometrial Safety에 듣는다  <!-- 시험 3건 · 논문 80편 -->
-- [ ] allopurinol — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 285편 -->
-- [ ] allopurinol — Cardiovascular Disease에 듣는다  <!-- 시험 11건 · 논문 2081편 -->
-- [ ] allopurinol — Hypertension에 듣는다  <!-- 시험 9건 · 논문 607편 -->
-- [ ] n-acetylcysteine — Alcohol Abuse에 듣는다  <!-- 시험 12건 · 논문 161편 -->
-- [ ] n-acetylcysteine — Nephropathy에 듣는다  <!-- 시험 11건 · 논문 1383편 -->
-- [ ] n-acetylcysteine — HIV에 듣는다  <!-- 시험 10건 · 논문 259편 -->
-- [ ] n-acetylcysteine — Sickle Cell Anemia에 듣는다  <!-- 시험 10건 · 논문 18편 -->
-- [ ] creatine — Huntington Disease에 듣는다  <!-- 시험 10건 · 논문 174편 -->
+- [x] raloxifene — Vasomotor Symptoms에 듣는다  <!-- 시험 3건 · 논문 70편 -->
+- [x] raloxifene — Endometrial Safety에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+- [x] allopurinol — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 285편 -->
+- [x] allopurinol — Cardiovascular Disease에 듣는다  <!-- 시험 11건 · 논문 2081편 -->
+- [x] allopurinol — Hypertension에 듣는다  <!-- 시험 9건 · 논문 607편 -->
+- [x] n-acetylcysteine — Alcohol Abuse에 듣는다  <!-- 시험 12건 · 논문 161편 -->
+- [x] n-acetylcysteine — Nephropathy에 듣는다  <!-- 시험 11건 · 논문 1383편 -->
+- [x] n-acetylcysteine — HIV에 듣는다  <!-- 시험 10건 · 논문 259편 -->
+- [x] n-acetylcysteine — Sickle Cell Anemia에 듣는다  <!-- 시험 10건 · 논문 18편 -->
+- [x] creatine — Huntington Disease에 듣는다  <!-- 시험 10건 · 논문 174편 -->
 - [ ] creatine — Depression에 듣는다  <!-- 시험 9건 · 논문 1919편 -->
 - [ ] creatine — Knee Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 42편 -->
 - [ ] creatine — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 371편 -->
