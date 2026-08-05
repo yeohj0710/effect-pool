@@ -6622,16 +6622,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
+- [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
+- [x] isotretinoin — Leukemia에 듣는다 — 새 항목(isotretinoin-leukemia)  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Solid Tumor에 듣는다 — 새 항목(tamoxifen-solid-tumor)  <!-- 등록 시험 24건 -->
+- [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
+- [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 8건 -->
+- [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
+- [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 -->

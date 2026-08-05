@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 473,
+  "entries": 475,
   "worklist": {
-    "checked": 6046,
-    "unchecked": 28,
+    "checked": 6056,
+    "unchecked": 18,
     "no_evidence_pending": 0,
     "next_batch": [
-      "isotretinoin-acne",
-      "isotretinoin-lymphoma-t-cell",
-      "isotretinoin-lung-cancer",
-      "isotretinoin-leukemia",
-      "tamoxifen-solid-tumor",
-      "tamoxifen-brca-mutation",
-      "tamoxifen-brain-tumor",
-      "tamoxifen-ductal-carcinoma",
-      "raloxifene-breast-cancer",
-      "raloxifene-schizophrenia"
+      "raloxifene-schizoaffective-disorder",
+      "raloxifene-schizophreniform-disorder",
+      "allopurinol-gout",
+      "allopurinol-lymphoma",
+      "allopurinol-hyperuricemia",
+      "allopurinol-kidney-stones",
+      "n-acetylcysteine-kidney-disease",
+      "n-acetylcysteine-pulmonary-fibrosis",
+      "n-acetylcysteine-oxidative-stress",
+      "n-acetylcysteine-cocaine-dependence"
     ]
   },
   "verification": {
@@ -24,7 +24,7 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 427,
+    "trial": 429,
       "obs": 36,
       "animal": 1,
       "lab": 2,
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "methotrexate-myelodysplastic-syndrome (result pending)",
-    "methotrexate-cancer (existing: methotrexate-cancer-open)",
-    "hydroxyurea-cancer (approved)",
-    "hydroxyurea-leukemia (approved)",
-    "hydroxyurea-thalassemia (existing: hydroxyurea-thalassemia)",
-    "hydroxyurea-hiv-infection (existing: hydroxyurea-hiv-infection-null)",
-    "tranexamic-acid-hemorrhage (existing: tranexamic-acid-hemorrhage-null)",
-    "tranexamic-acid-bleeding (existing: tranexamic-acid-bleeding)",
-    "tranexamic-acid-hip-fracture (existing: tranexamic-acid-hip-fracture)",
-    "tranexamic-acid-surgery (existing: tranexamic-acid-surgery)"
+    "isotretinoin-acne (approved)",
+    "isotretinoin-lymphoma-t-cell (existing: isotretinoin-lymphoma-t-cell)",
+    "isotretinoin-lung-cancer (existing: isotretinoin-lung-cancer-harm)",
+    "isotretinoin-leukemia (new: isotretinoin-leukemia)",
+    "tamoxifen-solid-tumor (new: tamoxifen-solid-tumor)",
+    "tamoxifen-brca-mutation (existing: tamoxifen-brca-mutation-open)",
+    "tamoxifen-brain-tumor (existing: tamoxifen-brain-tumor-null)",
+    "tamoxifen-ductal-carcinoma (approved)",
+    "raloxifene-breast-cancer (existing: raloxifene-breast-cancer-null)",
+    "raloxifene-schizophrenia (existing: raloxifene-schizophrenia)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "methotrexate, hydroxyurea, tranexamic acid",
-    "current_batch": "methotrexate, hydroxyurea, tranexamic acid",
+    "last_committed_batch": "isotretinoin, tamoxifen, raloxifene",
+    "current_batch": "isotretinoin, tamoxifen, raloxifene",
     "next_action": "commit, push, then process next batch"
   }
 }
