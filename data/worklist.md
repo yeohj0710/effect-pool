@@ -7262,16 +7262,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 227편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> — 허가 적응증(2026-08-05)
-- [ ] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 -->
-- [ ] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 -->
+- [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
+- [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> — 허가 적응증(2026-08-05)
+- [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
+- [x] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> — 허가 적응증(2026-08-05)
+- [x] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 --> — 이미 수록됨(2026-08-05)
+- [x] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> — 허가 적응증(2026-08-05)
+- [x] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 이미 수록됨(2026-08-05)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> — 허가 적응증(2026-08-05)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> — 허가 적응증(2026-08-05)
+- [x] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 --> — 이미 수록됨(2026-08-05)
 - [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 시험 21건 · 논문 984편 -->
 - [ ] spironolactone — Hypertension에 듣는다  <!-- 시험 48건 · 논문 2844편 -->
 - [ ] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 -->
