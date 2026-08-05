@@ -46,6 +46,18 @@ const WRITE = args.includes("--write");
 const drugs = args.filter((a) => !a.startsWith("--"));
 const targets = drugs.length ? drugs : SEED;
 
+// 이미 다룬 물질을 뱉는다. 새 물질을 댈 때 겹치지 않게 먼저 이걸 본다.
+//   node tools/expand-worklist.mjs --covered
+if (args.includes("--covered")) {
+  const wl = existsSync(WL) ? readFileSync(WL, "utf8") : "";
+  const seen = new Set(wl.split("\n").filter((l) => /^- \[[ x]\]/.test(l))
+    .map((l) => l.replace(/^- \[[ x]\]\s*/, "").split("—")[0].trim().toLowerCase())
+    .filter((s) => /^[a-z][a-z0-9 .'-]*$/.test(s)));
+  console.log([...seen].sort().join("\n"));
+  console.error(`\n다룬 물질 ${seen.size}종. 여기 없는 이름을 골라라.`);
+  process.exit(0);
+}
+
 /* ---- 이미 있는 것 ---- */
 
 const wl = existsSync(WL) ? readFileSync(WL, "utf8") : "";
