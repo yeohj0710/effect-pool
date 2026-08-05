@@ -9571,10 +9571,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meloxicam — Migraine에 듣는다 — 단독 직접 효능 근거 없음(2026-08-05)  <!-- 시험 4건 · 논문 10편 -->
 - [x] phenazopyridine — Cystoscopy에 듣는다 — 수술 중 요관 개방 확인 관찰 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 22편 -->
 - [x] phenazopyridine — Pain에 듣는다 — 허가 적응증·표준 요로통증 완화(2026-08-05)  <!-- 시험 3건 · 논문 41편 -->
-- [ ] ketoprofen — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 160편 -->
-- [ ] ketoprofen — Migraine에 듣는다  <!-- 시험 10건 · 논문 54편 -->
-- [ ] ketoprofen — Sprain에 듣는다  <!-- 시험 7건 · 논문 28편 -->
-- [ ] ketoprofen — Cesarean Section에 듣는다  <!-- 시험 5건 · 논문 29편 -->
+- [x] ketoprofen — Osteoarthritis에 듣는다 — 허가·표준 소염진통 적응증(2026-08-05)  <!-- 시험 18건 · 논문 160편 -->
+- [x] ketoprofen — Migraine에 듣는다 — 급성 편두통 표준 NSAID 치료(2026-08-05)  <!-- 시험 6건 · 논문 54편 -->
+- [x] ketoprofen — Sprain에 듣는다 — 급성 염좌 표준 국소 NSAID 치료(2026-08-05)  <!-- 시험 9건 · 논문 28편 -->
+- [x] ketoprofen — Cesarean Section에 듣는다 — 제왕절개 후 통증 표준 NSAID 치료(2026-08-05)  <!-- 시험 5건 · 논문 29편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9585,23 +9585,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cyclobenzaprine — Healthy Adults에 듣는다  <!-- 시험 3건 · 논문 18편 -->
-- [ ] etomidate — Postoperative Confusion에 듣는다  <!-- 시험 5건 · 논문 9편 -->
-- [ ] etomidate — Trauma에 듣는다  <!-- 시험 4건 · 논문 197편 -->
-- [ ] etomidate — Coronary Artery Disease에 듣는다  <!-- 시험 4건 · 논문 46편 -->
-- [ ] etomidate — Sedation에 듣는다  <!-- 시험 4건 · 논문 397편 -->
-- [ ] pimozide — ALS에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] piracetam — Cognitive Enhancement에 듣는다  <!-- 시험 3건 · 논문 25편 -->
-- [ ] promethazine — Pain에 듣는다  <!-- 시험 6건 · 논문 273편 -->
-- [ ] prochlorperazine — Headache에 듣는다  <!-- 시험 4건 · 논문 153편 -->
-- [ ] prochlorperazine — Nausea에 듣는다  <!-- 시험 3건 · 논문 321편 -->
-- [ ] prochlorperazine — Breast Carcinoma에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] scopolamine — Depression에 듣는다  <!-- 시험 7건 · 논문 667편 -->
-- [ ] scopolamine — Memory Loss에 듣는다  <!-- 시험 7건 · 논문 1706편 -->
-- [ ] scopolamine — Nausea에 듣는다  <!-- 시험 5건 · 논문 315편 -->
-- [ ] scopolamine — Vomiting에 듣는다  <!-- 시험 3건 · 논문 332편 -->
-- [ ] niclosamide — Covid19에 듣는다  <!-- 시험 6건 · 논문 101편 -->
-- [ ] niclosamide — Colon Cancer에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] niclosamide — COVID에 듣는다  <!-- 시험 4건 · 논문 113편 -->
-- [ ] oxymetazoline — Anesthesia에 듣는다  <!-- 시험 14건 · 논문 62편 -->
-- [ ] oxymetazoline — Rosacea에 듣는다  <!-- 시험 6건 · 논문 58편 -->
+- [x] cyclobenzaprine — Healthy Adults에 듣는다 — 건강인 약동학·생체이용률만 확인(2026-08-05)  <!-- 시험 6건 · 논문 18편 -->
+- [x] etomidate — Postoperative Confusion에 듣는다 — 안전성 항목 생성 etomidate-postoperative-confusion-harm(2026-08-05)  <!-- 시험 3건 · 논문 9편 -->
+- [x] etomidate — Trauma에 듣는다 — 안전성 항목 생성 etomidate-trauma-harm(2026-08-05)  <!-- 시험 15건 · 논문 197편 -->
+- [x] etomidate — Coronary Artery Disease에 듣는다 — 심장수술 마취 유도 표준 치료(2026-08-05)  <!-- 시험 4건 · 논문 46편 -->
+- [x] etomidate — Sedation에 듣는다 — 마취·진정 표준 치료(2026-08-05)  <!-- 시험 16건 · 논문 397편 -->
+- [x] pimozide — ALS에 듣는다 — 항목 생성 pimozide-als-pos(2026-08-05)  <!-- 시험 2건 · 논문 9편 -->
+- [x] piracetam — Cognitive Enhancement에 듣는다 — 음성 메타분석 항목 생성 piracetam-cognitive-enhancement-null(2026-08-05)  <!-- 시험 1건 · 논문 25편 -->
+- [x] promethazine — Pain에 듣는다 — 음성 무작위시험 항목 생성 promethazine-pain-null(2026-08-05)  <!-- 시험 64건 · 논문 273편 -->
+- [x] prochlorperazine — Headache에 듣는다 — 급성 편두통 표준 응급 치료(2026-08-05)  <!-- 시험 25건 · 논문 153편 -->
+- [x] prochlorperazine — Nausea에 듣는다 — 허가·표준 항구토 적응증(2026-08-05)  <!-- 시험 9건 · 논문 321편 -->
+- [x] prochlorperazine — Breast Carcinoma에 듣는다 — 항암 구역·구토 표준 항구토 치료(2026-08-05)  <!-- 시험 3건 · 논문 16편 -->
+- [x] scopolamine — Depression에 듣는다 — 혼합 결과 항목 생성 scopolamine-depression-open(2026-08-05)  <!-- 시험 10건 · 논문 667편 -->
+- [x] scopolamine — Memory Loss에 듣는다 — 기억 손상 위해 항목 생성 scopolamine-memory-loss-harm(2026-08-05)  <!-- 시험 1건 · 논문 1706편 -->
+- [x] scopolamine — Nausea에 듣는다 — 수술 후 구역 예방 표준 치료(2026-08-05)  <!-- 시험 18건 · 논문 315편 -->
+- [x] scopolamine — Vomiting에 듣는다 — 수술 후 구토 예방 표준 치료(2026-08-05)  <!-- 시험 12건 · 논문 332편 -->
+- [x] niclosamide — Covid19에 듣는다 — 음성·혼합 무작위시험 항목 생성 niclosamide-covid-null(2026-08-05)  <!-- 시험 19건 · 논문 101편 -->
+- [x] niclosamide — Colon Cancer에 듣는다 — 등록 논문만 있고 임상 결과 없음(2026-08-05)  <!-- 시험 3건 · 논문 34편 -->
+- [x] niclosamide — COVID에 듣는다 — niclosamide-covid-null에 통합(2026-08-05)  <!-- 시험 5건 · 논문 113편 -->
+- [x] oxymetazoline — Anesthesia에 듣는다 — 치과 국소마취 허가 적응증(2026-08-05)  <!-- 시험 139건 · 논문 62편 -->
+- [x] oxymetazoline — Rosacea에 듣는다 — 로사시아 안면홍반 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 58편 -->

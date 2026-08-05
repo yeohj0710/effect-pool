@@ -1,0 +1,30 @@
+{
+  "id": "etomidate-postoperative-confusion-harm",
+  "subj": "에토미데이트",
+  "claim": "에토미데이트가 수술 후 각성 섬망 위험을 높인다",
+  "line": "성인 메타분석에서 수술 후 각성 섬망의 수술 중 위험인자로 분류됐습니다",
+  "effect": "20개 연구에서 위험인자",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 19171,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "에토미데이트의 허가 적응증은 마취 유도이고 수술 후 섬망 예방·치료는 아닙니다.",
+  "why": "효능이 아니라 마취 뒤 혼돈을 늘릴 수 있다는 안전성 신호를 기록합니다.",
+  "saw": "성인 수술·진정 후 각성 섬망 위험인자를 본 관찰연구 20개와 약 1만 9천 명을 합친 체계적 문헌고찰·메타분석에서 수술 중 에토미데이트 사용이 위험인자로 분류됐습니다. 연구 대부분은 과활동형 각성 섬망을 평가했습니다.",
+  "limit": "관찰연구라 중증도, 수술 종류, 다른 마취제와의 교란을 배제할 수 없고 인과관계를 증명하지 못합니다.",
+  "against": "심폐우회 심혈관수술 환자 202명 연구는 수술 중 에토미데이트 용량을 아급성 섬망과 연결했지만 OR 방향이 단순한 위해 신호와 일치하지 않아 결과가 일관되지 않았습니다.",
+  "use": "에토미데이트의 수술 후 섬망 안전성 신호로만 기록하며 예방·치료 효과로 해석하지 않습니다.",
+  "refs": [
+    { "label": "성인 각성 섬망 위험인자 메타분석", "pmid": "37916963" },
+    { "label": "심폐우회 수술 후 섬망 관찰연구", "pmid": "37545069" },
+    { "label": "심폐우회 후 섬망과 에토미데이트 논의", "pmid": "20728378" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=etomidate · cond=Postoperative Confusion → 3건 반환, 물질 대조 후 1건",
+    "pubmed": "etomidate AND Postoperative Confusion → 9편; 보강 검색 etomidate AND (postoperative delirium OR postoperative confusion) → 15편",
+    "negative": "etomidate AND Postoperative Confusion AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9편",
+    "safety": "etomidate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1267편"
+  }
+}

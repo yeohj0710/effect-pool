@@ -1,0 +1,31 @@
+{
+  "id": "niclosamide-covid-null",
+  "subj": "니클로사마이드",
+  "claim": "코로나19 치료에 니클로사마이드를 쓴다",
+  "line": "코로나19 위약대조시험에서 바이러스 소실과 감염 예방을 유의하게 개선하지 못했습니다",
+  "effect": "3일 소실 66.7% vs 55.9%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1651,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "니클로사마이드는 구충제로 허가됐고 코로나19 치료·예방은 허가 적응증이 아닙니다.",
+  "why": "세포·시험관 항바이러스 신호가 사람 무작위시험에서 재현되는지 확인했지만, 더 엄격한 위약대조 연구에서는 차이가 없었습니다.",
+  "saw": "경증·중등도 코로나19 외래 환자 73명 2상 위약대조시험에서 3일 호흡기 바이러스 소실은 니클로사마이드 66.67%, 위약 55.88%로 유의하지 않았고 증상 기간도 12.01일 대 14.61일이었습니다. 신장질환 고위험군 1,651명 예방시험에서는 증상성 감염 위험이 위약과 다르지 않았습니다(HR 1.02, 95% CI 0.79~1.32).",
+  "limit": "경구·비강 제형과 치료·예방 상황이 다르며, 일부 시험은 모집 중단·조기 종료 또는 병용요법이었습니다.",
+  "against": "방글라데시 공개 병용시험 150명은 회복 기간을 7일에서 5일로 줄였다고 보고했고, 니클로사마이드 나노하이브리드 300명 시험도 양성 결과를 보고했지만 제형·병용·연구 설계가 달라 일반 니클로사마이드의 효과로 합칠 수 없습니다.",
+  "use": "코로나19 재창출 연구의 음성 위약대조 근거로 기록하며 제형별 결과를 섞지 않습니다.",
+  "refs": [
+    { "label": "경증·중등도 코로나19 니클로사마이드 2상 위약대조시험", "pmid": "35138402", "nct": "NCT04399356" },
+    { "label": "신장질환 고위험군 니클로사마이드 예방시험", "pmid": "39934669", "nct": "NCT04870333" },
+    { "label": "코로나19 니클로사마이드 공개 병용시험", "pmid": "34512959", "nct": "NCT04753619" },
+    { "label": "니클로사마이드 나노하이브리드 무작위시험", "pmid": "40750596" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=niclosamide · cond=Covid19 → 19건 반환, 물질 대조 후 13건; intr=niclosamide · cond=COVID → 5건 반환, 물질 대조 후 5건",
+    "pubmed": "niclosamide AND Covid19 → 101편; niclosamide AND COVID → 113편; 보강 검색 niclosamide AND COVID AND (randomized OR trial) → 31편",
+    "negative": "niclosamide AND Covid19 AND (no effect OR did not OR failed to OR negative OR no significant difference) → 70편",
+    "safety": "niclosamide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 393편"
+  }
+}

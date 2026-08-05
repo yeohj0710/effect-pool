@@ -1,0 +1,31 @@
+{
+  "id": "scopolamine-depression-open",
+  "subj": "스코폴라민",
+  "claim": "우울증에 스코폴라민을 항우울제로 쓴다",
+  "line": "초기 시험은 빠른 항우울 신호를 보였지만 후속 활성위약 시험은 차이를 확인하지 못했습니다",
+  "effect": "초기 신호; 활성위약 d=0.17",
+  "tier": "trial",
+  "dir": "open",
+  "n": 50,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "스코폴라민의 허가 적응증은 멀미이고 우울증은 포함하지 않습니다.",
+  "why": "항콜린성 부작용을 조사하던 연구에서 빠른 기분 개선이 예상 밖으로 관찰돼 항우울 신호가 생겼지만 후속 검증은 엇갈렸습니다.",
+  "saw": "초기 이중맹검 교차시험은 우울증·양극성 우울증 환자 19명 중 18명이 완료했고 스코폴라민 뒤 우울·불안 척도가 감소했습니다. 그러나 활성위약 글리코피롤레이트를 쓴 40명 시험은 무효로 중단됐고, 양극성 우울증 50명 무작위시험도 위약보다 큰 개선을 보이지 않았습니다.",
+  "limit": "표본이 작고 정맥 투여·진단군·대조약이 연구마다 다르며 초기 연구의 위약 눈가림이 충분했는지 불확실합니다.",
+  "against": "활성위약 40명 시험은 3일째 스코폴라민과 글리코피롤레이트의 MADRS 감소가 비슷했고, 양극성 우울증 50명 시험도 군 간 차이가 없었습니다.",
+  "use": "부작용 관찰에서 항우울 신호가 나온 사례와 후속 음성 결과를 함께 기록하며 확립된 치료로 해석하지 않습니다.",
+  "refs": [
+    { "label": "스코폴라민 항우울 효과 초기 무작위시험", "pmid": "17015814" },
+    { "label": "스코폴라민 대 활성위약 무작위시험", "pmid": "35980261" },
+    { "label": "양극성 우울증 SCOPE-BD 무작위시험", "pmid": "41412339", "nct": "NCT04211961" },
+    { "label": "스코폴라민 항우울 체계적 문헌고찰", "pmid": "23334071" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=scopolamine · cond=Depression → 10건 반환, 물질 대조 후 8건",
+    "pubmed": "scopolamine AND Depression → 667편; 보강 검색 scopolamine AND depression AND (randomized OR trial) → 148편",
+    "negative": "scopolamine AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference) → 585편",
+    "safety": "scopolamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2936편"
+  }
+}
