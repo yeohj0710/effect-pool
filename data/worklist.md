@@ -8068,16 +8068,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 --> — 허가 적응증(2026-08-05)
 - [x] hydroxyurea — Nose Neoplasms에 듣는다  <!-- 시험 12건 · 논문 8편 --> — 허가 적응증(2026-08-05)
 - [x] hydroxyurea — Stroke에 듣는다  <!-- 시험 10건 · 논문 467편 -->
-- [ ] hydroxyurea — Polycythemia Vera에 듣는다  <!-- 시험 8건 · 논문 898편 -->
-- [ ] tranexamic acid — Osteoarthritis에 듣는다  <!-- 시험 35건 · 논문 239편 -->
-- [ ] tranexamic acid — Cesarean Section에 듣는다  <!-- 시험 32건 · 논문 228편 -->
-- [ ] tranexamic acid — Melasma에 듣는다  <!-- 시험 30건 · 논문 334편 -->
-- [ ] tranexamic acid — Cancer에 듣는다  <!-- 시험 27건 · 논문 632편 -->
-- [ ] isotretinoin — Medulloblastoma에 듣는다  <!-- 시험 8건 · 논문 9편 -->
-- [ ] tamoxifen — Adjuvant Therapy에 듣는다  <!-- 시험 8건 · 논문 6174편 -->
-- [ ] tamoxifen — Infertility에 듣는다  <!-- 시험 6건 · 논문 395편 -->
-- [ ] tamoxifen — Hypertension에 듣는다  <!-- 시험 5건 · 논문 332편 -->
-- [ ] raloxifene — Adenocarcinoma에 듣는다  <!-- 시험 4건 · 논문 85편 -->
+- [x] hydroxyurea — Polycythemia Vera에 듣는다  <!-- 시험 8건 · 논문 898편 -->
+- [x] tranexamic acid — Osteoarthritis에 듣는다  <!-- 시험 35건 · 논문 239편 -->
+- [x] tranexamic acid — Cesarean Section에 듣는다  <!-- 시험 32건 · 논문 228편 -->
+- [x] tranexamic acid — Melasma에 듣는다  <!-- 시험 30건 · 논문 334편 -->
+- [x] tranexamic acid — Cancer에 듣는다  <!-- 시험 27건 · 논문 632편 -->
+- [x] isotretinoin — Medulloblastoma에 듣는다  <!-- 시험 8건 · 논문 9편 -->
+- [x] tamoxifen — Adjuvant Therapy에 듣는다  <!-- 시험 8건 · 논문 6174편 --> — 허가 적응증(2026-08-05)
+- [x] tamoxifen — Infertility에 듣는다  <!-- 시험 6건 · 논문 395편 -->
+- [x] tamoxifen — Hypertension에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 결과 대기(2026-08-05)
+- [x] raloxifene — Adenocarcinoma에 듣는다  <!-- 시험 4건 · 논문 85편 -->
 - [ ] raloxifene — Vasomotor Symptoms에 듣는다  <!-- 시험 3건 · 논문 70편 -->
 - [ ] raloxifene — Endometrial Safety에 듣는다  <!-- 시험 3건 · 논문 80편 -->
 - [ ] allopurinol — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 285편 -->

@@ -1,0 +1,30 @@
+{
+  "id": "tranexamic-acid-cancer-null",
+  "subj": "트라넥삼산",
+  "claim": "혈액암 환자의 출혈을 줄인다",
+  "line": "혈액암 집중치료 환자에서 출혈을 줄이지 못했습니다",
+  "effect": "출혈 31.7% vs 34.2%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 616,
+  "synth": "single",
+  "why": "집중 화학요법 또는 조혈모세포이식을 받는 혈액암 환자에서 트라넥삼산이 출혈을 예방하는지 평가한 국제 3상 무작위시험입니다.",
+  "saw": "27개 혈액종양센터에서 환자 616명을 무작위 배정했습니다. 사망 또는 WHO 2등급 이상 출혈은 트라넥삼산군 31.7%, 위약군 34.2%였고 위험비 0.92, P=0.62로 유의하지 않았습니다. 혈전 사건과 정맥폐쇄성 질환도 차이가 없었습니다.",
+  "limit": "혈소판감소가 심한 혈액암 환자만 포함했으므로 고형암이나 일반적인 암 환자에게 확대할 수 없습니다. 예방적 혈소판 수혈은 표준치료로 유지됐습니다.",
+  "against": "위약군에서 사망 또는 WHO 2등급 이상 출혈이 34.2%로 트라넥삼산군 31.7%와 유의하게 다르지 않았습니다.",
+  "use": "혈액암 집중치료 중 출혈 예방에 트라넥삼산을 일상적으로 쓰기 어렵다는 직접 근거입니다.",
+  "refs": [
+    {
+      "label": "Gillett 2024 · The Lancet Haematology · 혈액암 중증 혈소판감소 출혈 예방 TREATT 3상시험",
+      "doi": "10.1016/S2352-3026(24)00317-X",
+      "pmid": "39642900"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=tranexamic acid&query.cond=Cancer 반환 66건, InterventionName 정확 일치 38건",
+    "pubmed": "tranexamic acid cancer 반환 632건",
+    "negative": "tranexamic acid cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 407건",
+    "safety": "tranexamic acid cancer AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 310건"
+  }
+}

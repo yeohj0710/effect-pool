@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 593,
+  "entries": 601,
   "worklist": {
-    "checked": 7373,
-    "unchecked": 26,
-    "no_evidence_pending": 14,
+    "checked": 7383,
+    "unchecked": 16,
+    "no_evidence_pending": 15,
     "next_batch": [
-      "hydroxyurea-polycythemia-vera",
-      "tranexamic-acid-osteoarthritis",
-      "tranexamic-acid-cesarean-section",
-      "tranexamic-acid-melasma",
-      "tranexamic-acid-cancer",
-      "isotretinoin-medulloblastoma",
-      "tamoxifen-adjuvant-therapy",
-      "tamoxifen-infertility",
-      "tamoxifen-hypertension",
-      "raloxifene-adenocarcinoma"
+      "raloxifene-vasomotor-symptoms",
+      "raloxifene-endometrial-safety",
+      "allopurinol-heart-failure",
+      "allopurinol-cardiovascular-disease",
+      "allopurinol-hypertension",
+      "n-acetylcysteine-alcohol-abuse",
+      "n-acetylcysteine-nephropathy",
+      "n-acetylcysteine-hiv",
+      "n-acetylcysteine-sickle-cell-anemia",
+      "creatine-huntington-disease"
     ]
   },
   "verification": {
@@ -24,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 539,
+      "trial": 546,
       "obs": 42,
-      "animal": 1,
+      "animal": 2,
       "lab": 2,
       "case": 9
     },
-    "no_effect_or_harm": 288,
+    "no_effect_or_harm": 292,
     "harm": 32,
     "no_effect_or_harm_share": "49%"
   },
@@ -39,18 +39,18 @@
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_HmC5Rp9g2vdrxv9SyyJctsP9bJLt"
   },
-    "last_batch": [
-      "acetazolamide-opioid-use (created)",
-      "dapsone-iga-vasculitis (created)",
-      "dapsone-bullous-pemphigoid (created)",
-      "methotrexate-myeloma (result pending)",
-      "methotrexate-psoriasis (approved)",
-      "methotrexate-graft-vs-host-disease (created)",
-      "methotrexate-osteosarcoma (approved)",
-      "hydroxyurea-cancer-of-the-oral-cavity (approved)",
-      "hydroxyurea-nose-neoplasms (approved)",
-      "hydroxyurea-stroke (created)"
-    ],
+  "last_batch": [
+    "hydroxyurea-polycythemia-vera (created)",
+    "tranexamic-acid-osteoarthritis (created)",
+    "tranexamic-acid-cesarean-section (created)",
+    "tranexamic-acid-melasma (created)",
+    "tranexamic-acid-cancer (created)",
+    "isotretinoin-medulloblastoma (created)",
+    "tamoxifen-adjuvant-therapy (approved)",
+    "tamoxifen-infertility (created)",
+    "tamoxifen-hypertension (result pending)",
+    "raloxifene-adenocarcinoma (created)"
+  ],
   "expansion": {
     "date": "2026-08-05",
     "mode": "builtin+direct",
@@ -87,21 +87,21 @@
     "latest_candidates": 196
   },
   "resume": {
-    "last_committed_batch": "expanded worklist batch 161–170",
+    "last_committed_batch": "expanded worklist batch 171-180",
     "last_batch": [
-      "acetazolamide-opioid-use (created)",
-      "dapsone-iga-vasculitis (created)",
-      "dapsone-bullous-pemphigoid (created)",
-      "methotrexate-myeloma (result pending)",
-      "methotrexate-psoriasis (approved)",
-      "methotrexate-graft-vs-host-disease (created)",
-      "methotrexate-osteosarcoma (approved)",
-      "hydroxyurea-cancer-of-the-oral-cavity (approved)",
-      "hydroxyurea-nose-neoplasms (approved)",
-      "hydroxyurea-stroke (created)"
+      "hydroxyurea-polycythemia-vera (created)",
+      "tranexamic-acid-osteoarthritis (created)",
+      "tranexamic-acid-cesarean-section (created)",
+      "tranexamic-acid-melasma (created)",
+      "tranexamic-acid-cancer (created)",
+      "isotretinoin-medulloblastoma (created)",
+      "tamoxifen-adjuvant-therapy (approved)",
+      "tamoxifen-infertility (created)",
+      "tamoxifen-hypertension (result pending)",
+      "raloxifene-adenocarcinoma (created)"
     ],
-    "current_batch": "expanded worklist batch 161–170",
-    "next_action": "commit and push; then process the next 10 expanded candidates",
+    "current_batch": "expanded worklist batch 171-180",
+    "next_action": "commit and push; deploy at 600 entries; then process the next 10 expanded candidates",
     "expansion_checkpoint": "deduplicating expansion found 196 paper-backed candidates on 2026-08-05"
   }
 }
