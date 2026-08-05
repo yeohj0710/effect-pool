@@ -9712,29 +9712,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] misoprostol — Fetal Death에 듣는다 — 임신 중기 유산·태아사망 유도 분만의 표준·허가 범위(2026-08-05)  <!-- 시험 12건 · 논문 208편 -->
 - [x] neostigmine — Respiratory Muscles에 듣는다 — 수술 후 근이완 역전의 허가·표준 적응증(2026-08-05)  <!-- 시험 8건 · 논문 225편 -->
 - [x] neostigmine — Headache에 듣는다 — 후경막천자 두통 무작위시험 항목 생성 neostigmine-headache-pos(2026-08-05)  <!-- 시험 7건 · 논문 32편 -->
-- [ ] nitroglycerin — Migraine에 듣는다  <!-- 시험 7건 · 논문 714편 -->
-- [ ] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 -->
-- [ ] nitroglycerin — Pain에 듣는다  <!-- 시험 6건 · 논문 4619편 -->
-- [ ] nitroglycerin — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1436편 -->
-- [ ] psilocybin — Chronic Pain에 듣는다  <!-- 시험 15건 · 논문 75편 -->
-- [ ] psilocybin — Anxiety에 듣는다  <!-- 시험 13건 · 논문 562편 -->
-- [ ] psilocybin — Psychological Stress에 듣는다  <!-- 시험 13건 · 논문 121편 -->
-- [ ] psilocybin — Psychedelic Experiences에 듣는다  <!-- 시험 12건 · 논문 643편 -->
-- [ ] quercetin — Childhood Cancer에 듣는다  <!-- 시험 5건 · 논문 8편 -->
-- [ ] quercetin — Alzheimer Disease에 듣는다  <!-- 시험 4건 · 논문 663편 -->
-- [ ] quercetin — Sickle Cell Disease에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] quercetin — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 55편 -->
-- [ ] rifaximin — Crohn Disease에 듣는다  <!-- 시험 15건 · 논문 74편 -->
-- [ ] rifaximin — BACTERIAL VAGINOSIS에 듣는다  <!-- 시험 14건 · 논문 11편 -->
-- [ ] rifaximin — Hepatitis C에 듣는다  <!-- 시험 7건 · 논문 14편 -->
-- [ ] tacrolimus — Renal Failure에 듣는다  <!-- 시험 72건 · 논문 2123편 -->
-- [ ] tacrolimus — Graft Failure에 듣는다  <!-- 시험 51건 · 논문 2676편 -->
-- [ ] tacrolimus — Dermatitis에 듣는다  <!-- 시험 25건 · 논문 1496편 -->
-- [ ] tacrolimus — Myelofibrosis에 듣는다  <!-- 시험 23건 · 논문 19편 -->
-- [ ] valproic acid — Cancer에 듣는다  <!-- 시험 13건 · 논문 2007편 -->
-- [ ] valproic acid — Ovarian Neoplasm에 듣는다  <!-- 시험 13건 · 논문 26편 -->
-- [ ] valproic acid — Myelodysplastic Syndrome에 듣는다  <!-- 시험 10건 · 논문 71편 -->
-- [ ] valproic acid — Sarcoma에 듣는다  <!-- 시험 10건 · 논문 51편 -->
+- [x] nitroglycerin — Migraine에 듣는다  <!-- 시험 7건 · 논문 714편 --> — 실험적 유발 모델, 치료 근거 없음(2026-08-05)
+- [x] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 --> — 허가 적응증(2026-08-05)
+- [x] nitroglycerin — Pain에 듣는다  <!-- 시험 6건 · 논문 4619편 --> — 허가·표준 적응증(2026-08-05)
+- [x] nitroglycerin — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1436편 --> — 표준 급성 심부전 혈관확장 치료(2026-08-05)
+- [x] psilocybin — Chronic Pain에 듣는다  <!-- 시험 15건 · 논문 75편 --> — 확실한 사람 치료 결과 없음(2026-08-05)
+- [x] psilocybin — Anxiety에 듣는다  <!-- 시험 13건 · 논문 562편 -->
+- [x] psilocybin — Psychological Stress에 듣는다  <!-- 시험 13건 · 논문 121편 --> — 등록·경험 연구, 치료 결과 없음(2026-08-05)
+- [x] psilocybin — Psychedelic Experiences에 듣는다  <!-- 시험 12건 · 논문 643편 --> — 경험·약동학 연구, 치료 주장 근거 없음(2026-08-05)
+- [x] quercetin — Childhood Cancer에 듣는다  <!-- 시험 5건 · 논문 8편 --> — 세포·생존자 연구, 치료 결과 없음(2026-08-05)
+- [x] quercetin — Alzheimer Disease에 듣는다  <!-- 시험 4건 · 논문 663편 --> — 다사티닙 병용·동물 연구, 퀘르세틴 단독 결과 없음(2026-08-05)
+- [x] quercetin — Sickle Cell Disease에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [x] quercetin — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 55편 -->
+- [x] rifaximin — Crohn Disease에 듣는다  <!-- 시험 15건 · 논문 74편 -->
+- [x] rifaximin — BACTERIAL VAGINOSIS에 듣는다  <!-- 시험 14건 · 논문 11편 --> — 등록·미생물 연구, 치료 결과 없음(2026-08-05)
+- [x] rifaximin — Hepatitis C에 듣는다  <!-- 시험 7건 · 논문 14편 --> — HCV 간경변의 간성뇌증 보조치료는 허가·표준이며 HCV 치료 근거 없음(2026-08-05)
+- [x] tacrolimus — Renal Failure에 듣는다  <!-- 시험 72건 · 논문 2123편 --> — 이식 후 면역억제 허가·표준 적응증(2026-08-05)
+- [x] tacrolimus — Graft Failure에 듣는다  <!-- 시험 51건 · 논문 2676편 --> — 이식 후 거부반응 예방 허가·표준 적응증(2026-08-05)
+- [x] tacrolimus — Dermatitis에 듣는다  <!-- 시험 25건 · 논문 1496편 --> — 아토피피부염 외용 허가 적응증(2026-08-05)
+- [x] tacrolimus — Myelofibrosis에 듣는다  <!-- 시험 23건 · 논문 19편 --> — 이식 면역억제 연구, 골수섬유증 직접 치료 결과 없음(2026-08-05)
+- [x] valproic acid — Cancer에 듣는다  <!-- 시험 13건 · 논문 2007편 -->
+- [x] valproic acid — Ovarian Neoplasm에 듣는다  <!-- 시험 13건 · 논문 26편 --> — 암 항목으로 통합
+- [x] valproic acid — Myelodysplastic Syndrome에 듣는다  <!-- 시험 10건 · 논문 71편 --> — 혼합 AML 연구에 MDS 환자 1명뿐, MDS 특이 결과 없음(2026-08-05)
+- [x] valproic acid — Sarcoma에 듣는다  <!-- 시험 10건 · 논문 51편 --> — 세포·증례·등록 연구, 사람 치료 결과 없음(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9745,10 +9745,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sodium oxybate — Hypersomnia에 듣는다  <!-- 시험 4건 · 논문 390편 -->
-- [ ] sodium oxybate — Alcohol Dependence에 듣는다  <!-- 시험 4건 · 논문 130편 -->
-- [ ] azelaic acid — Melasma에 듣는다  <!-- 시험 5건 · 논문 89편 -->
-- [ ] azelaic acid — Acne에 듣는다  <!-- 시험 4건 · 논문 255편 -->
+- [x] sodium oxybate — Hypersomnia에 듣는다  <!-- 시험 4건 · 논문 390편 --> — 기면증·특발성 과다수면 허가 적응증(2026-08-05)
+- [x] sodium oxybate — Alcohol Dependence에 듣는다  <!-- 시험 4건 · 논문 130편 -->
+- [x] azelaic acid — Melasma에 듣는다  <!-- 시험 5건 · 논문 89편 --> — 기미 허가 적응증(2026-08-05)
+- [x] azelaic acid — Acne에 듣는다  <!-- 시험 4건 · 논문 255편 --> — 여드름 허가 적응증(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9759,9 +9759,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] atovaquone — HIV에 듣는다  <!-- 시험 14건 · 논문 107편 -->
-- [ ] atovaquone — Pneumocystis에 듣는다  <!-- 시험 12건 · 논문 247편 -->
-- [ ] atovaquone — Toxoplasmosis에 듣는다  <!-- 시험 3건 · 논문 144편 -->
+- [x] atovaquone — HIV에 듣는다  <!-- 시험 14건 · 논문 107편 --> — HIV 자체 치료 근거 없음(2026-08-05)
+- [x] atovaquone — Pneumocystis에 듣는다  <!-- 시험 12건 · 논문 247편 --> — PCP 치료 허가 적응증(2026-08-05)
+- [x] atovaquone — Toxoplasmosis에 듣는다  <!-- 시험 3건 · 논문 144편 -->
 - [ ] atovaquone — Falciparum에 듣는다  <!-- 시험 3건 · 논문 628편 -->
 - [ ] artemisinin — Plasmodium Falciparum에 듣는다  <!-- 시험 3건 · 논문 5036편 -->
 - [ ] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 -->
