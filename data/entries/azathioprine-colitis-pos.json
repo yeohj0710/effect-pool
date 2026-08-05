@@ -1,0 +1,30 @@
+{
+  "id": "azathioprine-colitis-pos",
+  "subj": "아자티오프린",
+  "claim": "궤양성 대장염 관해 유지에 아자티오프린을 사용하는가",
+  "line": "아자티오프린은 궤양성 대장염의 관해 유지 실패를 줄였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 286,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "궤양성 대장염 유지요법에서 널리 쓰이는 표준 면역조절제지만, 미국 허가 적응증은 이식 거부와 류마티스관절염입니다.",
+  "why": "퓨린 합성을 억제해 장 점막의 만성 림프구성 염증을 낮추고 관해를 유지합니다.",
+  "saw": "궤양성 대장염 유지요법 6개 연구 286명 Cochrane 고찰에서 아자티오프린·6-MP는 위약보다 관해 유지 실패를 줄였습니다(OR 0.41, 95% CI 0.24–0.70). 2025년 업데이트도 5개 위약시험 286명에서 RR 0.66을 보고했습니다.",
+  "limit": "근거 확실도가 낮고 일부 연구의 비뚤림 위험이 높습니다. 감염·골수억제·간독성·림프종 위험을 추적해야 합니다.",
+  "against": "5-ASA 등 활성 대조군과의 비교 결과는 이질적이며, 장기 안전성 자료가 부족합니다.",
+  "use": "관해 유지에서 위장관 전문의가 TPMT/NUDT15와 혈구·간기능을 추적하며 사용합니다.",
+  "effect": "관해 실패 RR 0.66",
+  "refs": [
+    { "label": "Hasskamp 2025 · Cochrane Database · 궤양성 대장염 유지요법", "pmid": "40013523", "pmc": "PMC11866470" },
+    { "label": "Timmer 2016 · Cochrane Database · 아자티오프린 메타분석", "pmid": "22972046" },
+    { "label": "궤양성 대장염 유지요법 시험", "nct": "NCT00537316" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=azathioprine, cond=Colitis · 36건 중 17건 직접 확인",
+    "pubmed": "azathioprine AND Colitis · 2149건",
+    "negative": "azathioprine AND Colitis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1275건",
+    "safety": "azathioprine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 13538건"
+  }
+}

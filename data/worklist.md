@@ -8614,17 +8614,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paliperidone — Psychotic Disorder에 듣는다  <!-- 시험 11건 · 논문 291편 --> — 허가 적응증(2026-08-05)
 - [x] paliperidone — Antipsychotic에 듣는다  <!-- 시험 5건 · 논문 1943편 --> — 근거 없음(치료 대상이 아닌 약물 분류명이라 독립 평가변수 없음)
 - [x] ranolazine — Coronary Artery Disease에 듣는다  <!-- 시험 16건 · 논문 196편 --> — 허가 적응증(2026-08-05)
-- [ ] ranolazine — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 37편 -->
-- [ ] ranolazine — Myocardial Ischemia에 듣는다  <!-- 시험 10건 · 논문 561편 -->
-- [ ] ranolazine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 206편 -->
-- [ ] tamsulosin — Stone, Urinary에 듣는다  <!-- 시험 60건 · 논문 306편 -->
-- [ ] tamsulosin — Renal Calculi에 듣는다  <!-- 시험 22건 · 논문 127편 -->
-- [ ] tamsulosin — Bladder Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 -->
-- [ ] tamsulosin — Urinary Retention Postoperative에 듣는다  <!-- 시험 13건 · 논문 58편 -->
-- [ ] vortioxetine — Depression에 듣는다  <!-- 시험 15건 · 논문 713편 -->
-- [ ] vortioxetine — Anxiety State에 듣는다  <!-- 시험 9건 · 논문 119편 -->
-- [ ] vortioxetine — Cognitive Change에 듣는다  <!-- 시험 8건 · 논문 116편 -->
-- [ ] vortioxetine — Dementia에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [x] ranolazine — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 37편 -->
+- [x] ranolazine — Myocardial Ischemia에 듣는다  <!-- 시험 10건 · 논문 561편 --> — 허가 적응증(2026-08-05)
+- [x] ranolazine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 206편 -->
+- [x] tamsulosin — Stone, Urinary에 듣는다  <!-- 시험 60건 · 논문 306편 -->
+- [x] tamsulosin — Renal Calculi에 듣는다  <!-- 시험 22건 · 논문 127편 -->
+- [x] tamsulosin — Bladder Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 --> — 근거 없음(방광암 직접 치료시험이 아니라 다른 비뇨기 약물·관찰자료뿐)
+- [x] tamsulosin — Urinary Retention Postoperative에 듣는다  <!-- 시험 13건 · 논문 58편 -->
+- [x] vortioxetine — Depression에 듣는다  <!-- 시험 15건 · 논문 713편 --> — 허가 적응증(2026-08-05)
+- [x] vortioxetine — Anxiety State에 듣는다  <!-- 시험 9건 · 논문 119편 --> — 근거 없음(불안장애 단독 치료의 직접 임상시험을 확인하지 못함)
+- [x] vortioxetine — Cognitive Change에 듣는다  <!-- 시험 8건 · 논문 116편 -->
+- [x] vortioxetine — Dementia에 듣는다  <!-- 시험 4건 · 논문 29편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8635,10 +8635,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] zoledronic acid — Osteoporosis에 듣는다  <!-- 시험 79건 · 논문 1825편 -->
-- [ ] zoledronic acid — Bone Loss에 듣는다  <!-- 시험 51건 · 논문 1707편 -->
-- [ ] zoledronic acid — Myeloma에 듣는다  <!-- 시험 30건 · 논문 581편 -->
-- [ ] zoledronic acid — Pain에 듣는다  <!-- 시험 13건 · 논문 983편 -->
+- [x] zoledronic acid — Osteoporosis에 듣는다  <!-- 시험 79건 · 논문 1825편 --> — 허가 적응증(2026-08-05)
+- [x] zoledronic acid — Bone Loss에 듣는다  <!-- 시험 51건 · 논문 1707편 --> — 허가 적응증(2026-08-05)
+- [x] zoledronic acid — Myeloma에 듣는다  <!-- 시험 30건 · 논문 581편 --> — 허가 적응증(2026-08-05)
+- [x] zoledronic acid — Pain에 듣는다  <!-- 시험 13건 · 논문 983편 --> — 근거 없음(골격계 사건 예방 자료는 있으나 진통제 직접 비교 결과 없음)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8649,21 +8649,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acarbose — Tolerance에 듣는다  <!-- 시험 10건 · 논문 595편 -->
-- [ ] acarbose — Obesity에 듣는다  <!-- 시험 6건 · 논문 377편 -->
-- [ ] acarbose — Coronary Heart Disease에 듣는다  <!-- 시험 5건 · 논문 54편 -->
-- [ ] azathioprine — Lupus에 듣는다  <!-- 시험 21건 · 논문 2016편 -->
-- [ ] azathioprine — Colitis에 듣는다  <!-- 시험 14건 · 논문 2149편 -->
-- [ ] azathioprine — Kidney Diseases에 듣는다  <!-- 시험 14건 · 논문 3134편 -->
-- [ ] azathioprine — Vasculitis에 듣는다  <!-- 시험 13건 · 논문 2014편 -->
-- [ ] digoxin — Left Atrial Rhythm에 듣는다  <!-- 시험 19건 · 논문 161편 -->
-- [ ] digoxin — Healthy Participants에 듣는다  <!-- 시험 13건 · 논문 356편 -->
-- [ ] digoxin — Diabetes에 듣는다  <!-- 시험 12건 · 논문 437편 -->
-- [ ] digoxin — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 179편 -->
-- [ ] dipyridamole — Hypertension에 듣는다  <!-- 시험 7건 · 논문 540편 -->
-- [ ] dipyridamole — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 5943편 -->
-- [ ] dipyridamole — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 4129편 -->
-- [ ] dipyridamole — Brain Ischemia에 듣는다  <!-- 시험 5건 · 논문 509편 -->
+- [x] acarbose — Tolerance에 듣는다  <!-- 시험 10건 · 논문 595편 -->
+- [x] acarbose — Obesity에 듣는다  <!-- 시험 6건 · 논문 377편 -->
+- [x] acarbose — Coronary Heart Disease에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [x] azathioprine — Lupus에 듣는다  <!-- 시험 21건 · 논문 2016편 -->
+- [x] azathioprine — Colitis에 듣는다  <!-- 시험 14건 · 논문 2149편 -->
+- [x] azathioprine — Kidney Diseases에 듣는다  <!-- 시험 14건 · 논문 3134편 -->
+- [x] azathioprine — Vasculitis에 듣는다  <!-- 시험 13건 · 논문 2014편 -->
+- [x] digoxin — Left Atrial Rhythm에 듣는다  <!-- 시험 19건 · 논문 161편 --> — 허가 적응증(2026-08-05)
+- [x] digoxin — Healthy Participants에 듣는다  <!-- 시험 13건 · 논문 356편 --> — 근거 없음(건강한 참가자 약동학·상호작용 연구로 치료효과 없음)
+- [x] digoxin — Diabetes에 듣는다  <!-- 시험 12건 · 논문 437편 --> — 근거 없음(당뇨병 치료효과를 평가한 직접 임상시험 없음)
+- [x] digoxin — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 179편 -->
+- [x] dipyridamole — Hypertension에 듣는다  <!-- 시험 7건 · 논문 540편 --> — 근거 없음(혈압 치료 직접 효과가 아니라 진단·병용 자료뿐)
+- [x] dipyridamole — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 5943편 --> — 근거 없음(항혈소판제 문헌은 넓지만 심혈관질환 자체 치료효과 없음)
+- [x] dipyridamole — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 4129편 --> — 근거 없음(심장질환 치료가 아니라 심근 관류 진단 자료 중심)
+- [x] dipyridamole — Brain Ischemia에 듣는다  <!-- 시험 5건 · 논문 509편 -->
 - [ ] entecavir — Liver Cancer에 듣는다  <!-- 시험 26건 · 논문 680편 -->
 - [ ] entecavir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 10건 · 논문 844편 -->
 - [ ] entecavir — HBV에 듣는다  <!-- 시험 8건 · 논문 2474편 -->

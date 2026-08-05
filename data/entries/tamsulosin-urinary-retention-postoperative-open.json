@@ -1,0 +1,31 @@
+{
+  "id": "tamsulosin-urinary-retention-postoperative-open",
+  "subj": "탐스로신",
+  "claim": "수술 후 요폐 예방에 탐스로신을 사용하는가",
+  "line": "탐스로신은 수술 후 요폐를 줄일 가능성이 있지만 수술 종류별 결과가 달랐습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 3555,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가 적응증은 양성 전립선비대증의 하부요로증상이며, 수술 후 요폐 예방은 허가 밖입니다.",
+  "why": "방광경부와 전립선 요도의 α1 수용체를 차단해 수술 후 배뇨 저항을 낮춥니다.",
+  "saw": "23개 무작위시험 3,555명 메타분석에서 수술 후 요폐 위험은 탐스로신군에서 RR 0.50(95% CI 0.38–0.67)으로 낮았습니다. 다른 메타분석 13개 RCT 2,163명에서도 RR 0.63이었지만, 복부수술 158명 RCT에서는 26% 대 31%로 차이가 없었습니다.",
+  "limit": "수술 종류·투여 시점·기저 남성 요로증상이 달랐고, 일부 고찰은 분석에서 시험을 제외했습니다.",
+  "against": "복부수술 대규모 무작위시험에서는 요폐와 이차 결과가 모두 유의하게 줄지 않았습니다.",
+  "use": "수술 전 routine 처방이 아니며, 비뇨의학과·수술팀이 저혈압 위험과 수술 종류를 함께 평가합니다.",
+  "effect": "요폐 RR 0.50",
+  "refs": [
+    { "label": "Li 2023 · International Urology and Nephrology · 수술 후 요폐 메타분석", "pmid": "36445826" },
+    { "label": "Chen 2023 · Medicine · 수술 후 요폐 RCT 메타분석", "pmid": "36445384" },
+    { "label": "Liu 2021 · Journal of Surgical Research · 복부수술 RCT", "pmid": "33561724" },
+    { "label": "수술 후 요폐 예방시험", "nct": "NCT01560091" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=tamsulosin, cond=Urinary Retention Postoperative · 29건 중 27건 직접 확인",
+    "pubmed": "tamsulosin AND Urinary Retention Postoperative · 58건",
+    "negative": "tamsulosin AND Urinary Retention Postoperative AND (no effect OR did not OR failed to OR negative OR no significant difference) · 44건",
+    "safety": "tamsulosin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 986건"
+  }
+}

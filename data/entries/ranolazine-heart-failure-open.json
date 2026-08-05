@@ -1,0 +1,31 @@
+{
+  "id": "ranolazine-heart-failure-open",
+  "subj": "라놀라진",
+  "claim": "심부전의 이완기 기능에 라놀라진을 사용하는가",
+  "line": "라놀라진은 보존된 박출률 심부전의 이완기 지표를 개선할 가능성이 있지만 운동능력은 바꾸지 못했습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가 적응증은 만성 협심증이며, 심부전 치료는 허가 밖입니다.",
+  "why": "후기 나트륨 전류를 차단해 심근 세포의 칼슘 과부하와 이완기 긴장을 줄일 수 있습니다.",
+  "saw": "보존된 박출률 심부전 8개 시험의 체계적 고찰에서 라놀라진은 일부 이완기 지표를 개선했지만 최대 산소섭취량과 운동시간은 위약과 차이가 없었습니다(p=.09, p=.18).",
+  "limit": "시험별 표본과 평가 지표가 달랐고, 사망·입원 같은 임상 결과를 확정한 대규모 시험은 아닙니다.",
+  "against": "운동능력과 주요 혈역학 지표가 개선되지 않아 심부전 표준치료를 대체할 근거가 없습니다.",
+  "use": "심부전 치료제로 routine 처방하지 않으며, 협심증 동반 환자에서 QT 연장·신기능과 심부전 표준치료를 함께 검토합니다.",
+  "effect": "운동시간 차이 없음",
+  "refs": [
+    { "label": "Liu 2023 · Cardiology · HFpEF 이완기 기능 메타분석", "pmid": "36844933" },
+    { "label": "Horowitz 2012 · Journal of Cardiovascular Pharmacology · 라놀라진 고찰", "pmid": "22133843" },
+    { "label": "HFpEF 운동능력 시험", "nct": "NCT01505179" },
+    { "label": "이완기 심부전 라놀라진 시험", "nct": "NCT01163734" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=ranolazine, cond=Heart Failure · 6건 중 6건 직접 확인",
+    "pubmed": "ranolazine AND Heart Failure · 206건",
+    "negative": "ranolazine AND Heart Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) · 147건",
+    "safety": "ranolazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 404건"
+  }
+}

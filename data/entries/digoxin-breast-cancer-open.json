@@ -1,0 +1,30 @@
+{
+  "id": "digoxin-breast-cancer-open",
+  "subj": "디곡신",
+  "claim": "전이성 유방암의 순환 종양세포 군집에 디곡신을 사용하는가",
+  "line": "디곡신은 전이성 유방암의 순환 종양세포 군집 크기를 줄였지만 항암효과는 아직 입증되지 않았습니다.",
+  "tier": "case",
+  "dir": "open",
+  "n": 9,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가 적응증은 심부전과 일부 심방세동의 심박수 조절이며, 유방암 치료는 허가 밖입니다.",
+  "why": "Na+/K+-ATPase 억제가 순환 종양세포가 서로 뭉치는 현상을 약화해 전이 능력을 낮출 수 있다는 전임상 가설입니다.",
+  "saw": "전이성 유방암 여성 9명 proof-of-concept 연구에서 유지 혈중농도의 디곡신 투여 후 순환 종양세포 군집 크기가 평균 2.2개 감소했습니다(P=.003). 치료 관련 이상반응은 없었습니다.",
+  "limit": "9명 공개 단일군 연구이며 종양 축소·무진행생존·전체생존을 평가하지 않았습니다. 디곡신은 치료역이 좁고 독성이 있습니다.",
+  "against": "역학 연구에서는 장기 디곡신 사용이 유방암 발생 증가와 연관됐고, 세포·동물 항암효과가 임상효과로 이어지지 않았습니다.",
+  "use": "유방암 치료를 대체하지 않으며, 연구 환경에서만 혈중농도와 부정맥·신독성을 엄격히 감시합니다.",
+  "effect": "CTC 군집 -2.2개",
+  "refs": [
+    { "label": "Wang 2025 · Cancer Research Communications · 전이성 유방암 proof-of-concept", "pmid": "39856336" },
+    { "label": "Nurses' Health Study · 디곡신과 유방암 위험", "pmid": "24573543" },
+    { "label": "Digoxin CTC cluster trial", "nct": "NCT03928210" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=digoxin, cond=Breast Cancer · 8건 중 8건 직접 확인",
+    "pubmed": "digoxin AND Breast Cancer · 179건",
+    "negative": "digoxin AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) · 131건",
+    "safety": "digoxin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 5547건"
+  }
+}

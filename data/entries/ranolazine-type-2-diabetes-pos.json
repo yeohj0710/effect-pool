@@ -1,0 +1,31 @@
+{
+  "id": "ranolazine-type-2-diabetes-pos",
+  "subj": "라놀라진",
+  "claim": "제2형 당뇨병의 혈당 조절에 라놀라진을 사용하는가",
+  "line": "라놀라진은 제2형 당뇨병 환자의 HbA1c를 소폭 낮췄습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 949,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가 적응증은 만성 협심증이며, 혈당 조절은 허가 밖입니다.",
+  "why": "라놀라진의 후기 나트륨 전류 차단이 췌장 베타세포와 대사 조절에 영향을 줄 수 있다는 가설입니다.",
+  "saw": "제2형 당뇨병 라놀라진 연구 7편을 검토한 결과 대부분에서 위약 대비 HbA1c가 0.28–0.70% 낮아졌고, HbA1c 7% 미만 도달률도 높았습니다. 저혈당 증가는 확인되지 않았습니다.",
+  "limit": "당뇨병 치료를 주목적으로 한 대규모 장기 심혈관시험은 아니며, 연구별 병용약과 유지 용량이 달랐습니다.",
+  "against": "한 연구에서는 유의한 HbA1c 차이가 없었고, 당뇨병 환자의 혈당 개선이 일관된 기전으로 확정되지 않았습니다.",
+  "use": "당뇨병 표준약을 대체하지 않으며, 만성 협심증과 당뇨병을 함께 가진 환자에서 심장내과·내분비내과가 제한적으로 검토합니다.",
+  "effect": "HbA1c -0.28–0.70%",
+  "refs": [
+    { "label": "Khan 2016 · Pharmacotherapy · 라놀라진 HbA1c 고찰", "pmid": "26917816" },
+    { "label": "Matsumura 2017 · Journal of Clinical Pharmacology · 대사효과 고찰", "pmid": "29274809" },
+    { "label": "제2형 당뇨병·만성 협심증 평가시험", "nct": "NCT01425359" },
+    { "label": "메트포르민 단독 조절불량 제2형 당뇨병 시험", "nct": "NCT01555164" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=ranolazine, cond=Type 2 Diabetes · 11건 중 11건 직접 확인",
+    "pubmed": "ranolazine AND Type 2 Diabetes · 37건",
+    "negative": "ranolazine AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) · 32건",
+    "safety": "ranolazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 404건"
+  }
+}
