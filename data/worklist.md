@@ -6750,16 +6750,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bimatoprost — Ocular Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 82건 · 논문 637편 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 시험 15건 · 논문 53편 -->
 - [x] bimatoprost — Hypotrichosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 76편 -->
-- [ ] bimatoprost — Baldness에 듣는다  <!-- 시험 5건 · 논문 53편 -->
-- [ ] botulinum toxin — Spasticity에 듣는다  <!-- 시험 48건 · 논문 2907편 -->
-- [ ] botulinum toxin — Overactive Bladder에 듣는다  <!-- 시험 46건 · 논문 1299편 -->
-- [ ] botulinum toxin — Fine Lines에 듣는다  <!-- 시험 42건 · 논문 24편 -->
-- [ ] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 시험 34건 · 논문 1344편 -->
-- [ ] duloxetine — Pain에 듣는다  <!-- 시험 79건 · 논문 1631편 -->
-- [ ] duloxetine — Depression에 듣는다  <!-- 시험 53건 · 논문 1565편 -->
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 시험 28건 · 논문 170편 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 시험 23건 · 논문 382편 -->
-- [ ] dextromethorphan — Pain에 듣는다  <!-- 시험 9건 · 논문 314편 -->
+- [x] bimatoprost — Baldness에 듣는다 — 기존 항목(bimatoprost-baldness-null)  <!-- 시험 5건 · 논문 53편 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 48건 · 논문 2907편 -->
+- [x] botulinum toxin — Overactive Bladder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 46건 · 논문 1299편 -->
+- [x] botulinum toxin — Fine Lines에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 42건 · 논문 24편 -->
+- [x] botulinum toxin — Cerebral Palsy에 듣는다 — 기존 항목(botulinum-toxin-cerebral-palsy)  <!-- 시험 34건 · 논문 1344편 -->
+- [x] duloxetine — Pain에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 79건 · 논문 1631편 -->
+- [x] duloxetine — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 53건 · 논문 1565편 -->
+- [x] duloxetine — Osteoarthritis에 듣는다 — 기존 항목(duloxetine-knee-osteoarthritis)  <!-- 시험 28건 · 논문 170편 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 382편 -->
+- [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 시험 9건 · 논문 314편 -->
 - [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 -->
 - [ ] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 -->
 - [ ] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 -->
