@@ -8018,16 +8018,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ondansetron — Gastroenteritis에 듣는다 — 항목 생성(ondansetron-gastroenteritis-pos)(2026-08-05)  <!-- 시험 15건 · 논문 217편 -->
 - [x] ondansetron — Pain에 듣는다 — 항목 생성(ondansetron-pain-pos)(2026-08-05)  <!-- 시험 15건 · 논문 978편 -->
 - [x] ondansetron — Hypotension에 듣는다 — 기존 항목(ondansetron-anesthesia-pos)(2026-08-05)  <!-- 시험 14건 · 논문 315편 -->
-- [ ] ondansetron — Tumor에 듣는다  <!-- 시험 13건 · 논문 828편 -->
-- [ ] memantine — Cancer에 듣는다  <!-- 시험 13건 · 논문 266편 -->
-- [ ] memantine — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 173편 -->
-- [ ] memantine — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 26편 -->
-- [ ] memantine — Multiple Sclerosis에 듣는다  <!-- 시험 9건 · 논문 68편 -->
-- [ ] lithium — Broken Teeth에 듣는다  <!-- 시험 14건 · 논문 150편 -->
-- [ ] lithium — Brain Cancer에 듣는다  <!-- 시험 13건 · 논문 229편 -->
-- [ ] pentoxifylline — HIV에 듣는다  <!-- 시험 6건 · 논문 94편 -->
-- [ ] pentoxifylline — Neuropathy;Peripheral에 듣는다  <!-- 시험 6건 · 논문 83편 -->
-- [ ] pentoxifylline — Nephropathy에 듣는다  <!-- 시험 6건 · 논문 341편 -->
+- [x] ondansetron — Tumor에 듣는다  <!-- 시험 13건 · 논문 828편 --> — 기존 항목(ondansetron-cancer-null)(2026-08-05)
+- [x] memantine — Cancer에 듣는다  <!-- 시험 13건 · 논문 266편 -->
+- [x] memantine — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 173편 -->
+- [x] memantine — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 26편 --> — 결과 대기(2026-08-05)
+- [x] memantine — Multiple Sclerosis에 듣는다  <!-- 시험 9건 · 논문 68편 -->
+- [x] lithium — Broken Teeth에 듣는다  <!-- 시험 14건 · 논문 150편 --> — 기존 항목(lithium-tooth-loss-harm)(2026-08-05)
+- [x] lithium — Brain Cancer에 듣는다  <!-- 시험 13건 · 논문 229편 --> — 결과 대기(2026-08-05)
+- [x] pentoxifylline — HIV에 듣는다  <!-- 시험 6건 · 논문 94편 -->
+- [x] pentoxifylline — Neuropathy;Peripheral에 듣는다  <!-- 시험 6건 · 논문 83편 -->
+- [x] pentoxifylline — Nephropathy에 듣는다  <!-- 시험 6건 · 논문 341편 -->
 - [ ] pentoxifylline — Liver Failure에 듣는다  <!-- 시험 6건 · 논문 87편 -->
 - [ ] sirolimus — Lymphoma에 듣는다  <!-- 시험 38건 · 논문 564편 -->
 - [ ] sirolimus — Liver Carcinoma에 듣는다  <!-- 시험 27건 · 논문 464편 -->

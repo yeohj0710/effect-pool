@@ -1,0 +1,40 @@
+{
+  "id": "pentoxifylline-nephropathy-null",
+  "subj": "펜톡시필린",
+  "claim": "혈류개선제를 조영제 신병증 예방에 쓴다",
+  "line": "조영제 신병증 예방 효과가 유의하지 않았습니다",
+  "effect": "조영제 신병증 RR 0.84",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1142,
+  "synth": "meta",
+  "why": "관상동맥 조영술·중재술에서 펜톡시필린의 조영제 신병증 예방 효과를 평가한 무작위시험 메타분석입니다.",
+  "saw": "무작위시험 6편, 1,142명을 합친 메타분석에서 조영제 신병증은 펜톡시필린군 8.9%, 대조군 10.7%였고 위험비는 0.84(95% 신뢰구간 0.59~1.19, P=0.32)로 유의하지 않았습니다. 근거 확실성은 낮았습니다.",
+  "limit": "조영제 노출 뒤 급성 신장손상 예방 결과라 만성 당뇨병성 신병증이나 신장기능 회복으로 일반화할 수 없습니다. 포함 연구의 규모와 방법이 작고 이질적입니다.",
+  "against": "소규모 장기 추적시험에서는 신장 사건이 줄었지만 사후분석이고 단일기관 연구라 메타분석의 불확실성을 해소하지 못합니다.",
+  "use": "펜톡시필린의 조영제 신병증 예방 효과는 확인되지 않았으며, 만성 신장질환 치료 근거로도 사용할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Khan 2022 · European Review for Medical and Pharmacological Sciences · 신병증 예방 메타분석",
+      "doi": "10.26355/eurrev_202205_28750",
+      "pmid": "35587083"
+    },
+    {
+      "label": "Bren 2019 · Clinical Kidney Journal · 만성신장질환 장기 추적시험",
+      "doi": "10.1007/s40620-019-00607-0",
+      "pmid": "30949987"
+    },
+    {
+      "label": "Hosseini 2019 · International Urology and Nephrology · 조영제 신병증 무작위시험",
+      "doi": "10.1007/s11255-019-02104-6",
+      "pmid": "30830654"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pentoxifylline, cond=Nephropathy → 29건 반환, InterventionName 대조 후 28건 (정확히 pentoxifylline 16건)",
+    "pubmed": "pentoxifylline nephropathy → 341건",
+    "negative": "pentoxifylline nephropathy AND (no effect OR did not OR failed to OR negative OR no significant difference) → 277건",
+    "safety": "pentoxifylline nephropathy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 123건"
+  }
+}

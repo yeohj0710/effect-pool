@@ -1,0 +1,35 @@
+{
+  "id": "pentoxifylline-neuropathy-pos",
+  "subj": "펜톡시필린",
+  "claim": "혈류개선제를 당뇨 말초신경병증에 쓴다",
+  "line": "당뇨 말초신경병증 증상을 줄였습니다",
+  "effect": "증상 개선 P=0.042",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "why": "제2형 당뇨병의 말초신경병증에서 비타민 B1에 펜톡시필린을 더한 치료를 비타민 B1과 비교한 무작위시험입니다.",
+  "saw": "제2형 당뇨병 환자 60명이 참여한 무작위시험에서 비타민 B1에 펜톡시필린을 더한 군의 신경병증 증상이 대조군보다 개선됐습니다(P=0.042).",
+  "limit": "비타민 B1 병용요법의 소규모 단일시험이라 펜톡시필린 단독 효과와 장기 신경보호 효과를 판단할 수 없습니다.",
+  "against": "별도 단기 당뇨 말초신경병증 시험에서는 펜톡시필린이 위약보다 낫지 않았습니다.",
+  "use": "비타민 B1 병용 시 증상 개선 신호가 있지만 연구가 작고 결과가 엇갈려 당뇨 신경병증 치료제로 확정할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Hosseini 2019 · Journal of Research in Medical Sciences · 당뇨 신경병증 무작위시험",
+      "doi": "10.4103/jrms.JRMS_115_18",
+      "pmid": "31741661"
+    },
+    {
+      "label": "Arora 1990 · Diabetes Care · 당뇨 말초신경병증 비교시험",
+      "doi": "10.2337/diacare.13.10.1074",
+      "pmid": "2209305"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pentoxifylline, cond=Neuropathy Peripheral → 5건 반환, InterventionName 대조 후 5건 (정확히 pentoxifylline 3건)",
+    "pubmed": "pentoxifylline neuropathy peripheral → 83건",
+    "negative": "pentoxifylline neuropathy peripheral AND (no effect OR did not OR failed to OR negative OR no significant difference) → 60건",
+    "safety": "pentoxifylline neuropathy peripheral AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 26건"
+  }
+}

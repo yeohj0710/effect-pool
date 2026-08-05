@@ -1,0 +1,35 @@
+{
+  "id": "pentoxifylline-hiv-null",
+  "subj": "펜톡시필린",
+  "claim": "혈류개선제를 HIV 감염의 혈관기능 저하에 쓴다",
+  "line": "HIV 감염자의 혈관 기능을 개선하지 못했습니다",
+  "effect": "FMD P=0.44",
+  "tier": "trial",
+  "dir": "null",
+  "n": 26,
+  "synth": "single",
+  "why": "HIV 감염자의 염증과 내피기능에서 펜톡시필린을 위약과 비교한 무작위시험입니다.",
+  "saw": "HIV 감염자 26명을 무작위 배정한 위약대조시험에서 혈류매개 혈관확장(FMD)은 펜톡시필린으로 개선되지 않았습니다(P=0.44). 용해성 TNF 수용체 I은 오히려 증가했지만 치료는 전반적으로 잘 견뎠습니다.",
+  "limit": "FMD와 염증표지자를 본 소규모 시험이라 HIV 바이러스량이나 임상 사건의 개선을 보여주지 않습니다. 항레트로바이러스 치료를 시작한 환자와 결과가 섞이지 않았습니다.",
+  "against": "초기 HIV 임상 연구 검토에서도 바이러스량은 집단 전체에서 변하지 않았습니다.",
+  "use": "펜톡시필린을 HIV 감염의 혈관기능이나 바이러스 억제 목적으로 쓸 근거는 확인되지 않았습니다.",
+  "refs": [
+    {
+      "label": "Baker 2013 · PLOS ONE · HIV 내피기능 무작위시험",
+      "doi": "10.1371/journal.pone.0060852",
+      "pmid": "23593327"
+    },
+    {
+      "label": "Miller 1995 · AIDS · HIV 치료 임상 연구 검토",
+      "doi": "10.1097/00005344-199500252-00029",
+      "pmid": "8699854"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pentoxifylline, cond=HIV → 5건 반환, InterventionName 대조 후 5건 (정확히 pentoxifylline 5건)",
+    "pubmed": "pentoxifylline HIV → 94건",
+    "negative": "pentoxifylline HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) → 77건",
+    "safety": "pentoxifylline HIV AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 33건"
+  }
+}

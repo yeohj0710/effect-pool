@@ -1,13 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 564,
+  "entries": 570,
   "worklist": {
-    "checked": 7323,
-    "unchecked": 76,
-    "no_evidence_pending": 10,
+    "checked": 7333,
+    "unchecked": 66,
+    "no_evidence_pending": 12,
     "next_batch": [
-      
+      "pentoxifylline-liver-failure",
+      "sirolimus-lymphoma",
+      "sirolimus-liver-carcinoma",
+      "sirolimus-sarcoma",
+      "sirolimus-myelodysplastic-syndrome",
+      "rapamycin-kidney-diseases",
+      "rapamycin-graft-rejection",
+      "rapamycin-leukemia",
+      "rapamycin-type-1-diabetes",
+      "montelukast-cough"
     ]
   },
   "verification": {
@@ -15,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 512,
+      "trial": 518,
       "obs": 40,
       "animal": 1,
       "lab": 2,
       "case": 9
     },
-    "no_effect_or_harm": 274,
+    "no_effect_or_harm": 277,
     "harm": 32,
     "no_effect_or_harm_share": "49%"
   },
@@ -31,16 +40,16 @@
     "deployment_id": "dpl_HmC5Rp9g2vdrxv9SyyJctsP9bJLt"
   },
     "last_batch": [
-      "modafinil-sleepiness (approved)",
-      "modafinil-cognitive-symptom (excluded)",
-      "modafinil-depression (created)",
-      "baclofen-spinal-cord-injury (created)",
-      "baclofen-autism (created)",
-      "baclofen-multiple-sclerosis (approved)",
-      "baclofen-cirrhosis (created)",
-      "ondansetron-gastroenteritis (created)",
-      "ondansetron-pain (created)",
-      "ondansetron-hypotension (already represented)"
+      "ondansetron-tumor (already represented)",
+      "memantine-cancer (created)",
+      "memantine-schizophrenia (created)",
+      "memantine-lung-cancer (result pending)",
+      "memantine-multiple-sclerosis (created)",
+      "lithium-broken-teeth (already represented)",
+      "lithium-brain-cancer (result pending)",
+      "pentoxifylline-hiv (created)",
+      "pentoxifylline-neuropathy-peripheral (created)",
+      "pentoxifylline-nephropathy (created)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -78,21 +87,21 @@
     "latest_candidates": 196
   },
   "resume": {
-    "last_committed_batch": "expanded worklist batch 111–120",
+    "last_committed_batch": "expanded worklist batch 121–130",
     "last_batch": [
-      "modafinil-sleepiness (approved)",
-      "modafinil-cognitive-symptom (excluded)",
-      "modafinil-depression (created)",
-      "baclofen-spinal-cord-injury (created)",
-      "baclofen-autism (created)",
-      "baclofen-multiple-sclerosis (approved)",
-      "baclofen-cirrhosis (created)",
-      "ondansetron-gastroenteritis (created)",
-      "ondansetron-pain (created)",
-      "ondansetron-hypotension (already represented)"
+      "ondansetron-tumor (already represented)",
+      "memantine-cancer (created)",
+      "memantine-schizophrenia (created)",
+      "memantine-lung-cancer (result pending)",
+      "memantine-multiple-sclerosis (created)",
+      "lithium-broken-teeth (already represented)",
+      "lithium-brain-cancer (result pending)",
+      "pentoxifylline-hiv (created)",
+      "pentoxifylline-neuropathy-peripheral (created)",
+      "pentoxifylline-nephropathy (created)"
     ],
-    "current_batch": "expanded worklist batch 111–120",
-    "next_action": "build, commit, push; then process the next 10 expanded candidates",
+    "current_batch": "expanded worklist batch 121–130",
+    "next_action": "commit and push; then process the next 10 expanded candidates",
     "expansion_checkpoint": "deduplicating expansion found 196 paper-backed candidates on 2026-08-05"
   }
 }
