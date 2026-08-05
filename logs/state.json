@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 503,
+  "entries": 506,
   "worklist": {
-    "checked": 7203,
-    "unchecked": 0,
+    "checked": 7213,
+    "unchecked": 186,
     "no_evidence_pending": 0,
     "next_batch": [
       
@@ -15,13 +15,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 454,
-      "obs": 38,
+      "trial": 455,
+      "obs": 39,
       "animal": 1,
       "lab": 2,
-      "case": 8
+      "case": 9
     },
-    "no_effect_or_harm": 246,
+    "no_effect_or_harm": 247,
     "harm": 26,
     "no_effect_or_harm_share": "49%"
   },
@@ -31,10 +31,16 @@
     "deployment_id": "dpl_6KVTDNH7JGEapQM5TnBihoLK2Zg7"
   },
     "last_batch": [
-      "metformin-squamous-cell-carcinoma (created)",
-      "metformin-pregnancy (created)",
-      "metformin-adenocarcinoma (created)",
-      "metformin-pcos (already represented)"
+      "metformin-healthy-participants (excluded)",
+      "metformin-infertility (already represented)",
+      "metformin-heart-failure (created)",
+      "metformin-metabolic-syndrome (created)",
+      "aspirin-thromboembolism (already represented)",
+      "aspirin-peripheral-arterial-disease (already represented)",
+      "aspirin-atherosclerosis (already represented)",
+      "aspirin-platelet-function (excluded)",
+      "propranolol-hemangioma (approved)",
+      "propranolol-self-injury (created)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -67,20 +73,26 @@
     ],
     "builtin_added_candidates": 660,
     "direct_added_candidates": 106,
-    "added_candidates": 1186,
+    "added_candidates": 1382,
     "latest_run": "2026-08-05",
-    "latest_candidates": 4
+    "latest_candidates": 196
   },
   "resume": {
-    "last_committed_batch": "metformin expansion candidates",
+    "last_committed_batch": "expanded worklist batch 01–10",
     "last_batch": [
-      "metformin-squamous-cell-carcinoma (created)",
-      "metformin-pregnancy (created)",
-      "metformin-adenocarcinoma (created)",
-      "metformin-pcos (already represented)"
+      "metformin-healthy-participants (excluded)",
+      "metformin-infertility (already represented)",
+      "metformin-heart-failure (created)",
+      "metformin-metabolic-syndrome (created)",
+      "aspirin-thromboembolism (already represented)",
+      "aspirin-peripheral-arterial-disease (already represented)",
+      "aspirin-atherosclerosis (already represented)",
+      "aspirin-platelet-function (excluded)",
+      "propranolol-hemangioma (approved)",
+      "propranolol-self-injury (created)"
     ],
-    "current_batch": "metformin expansion candidates",
-    "next_action": "build, commit, push; then expand with deduplicating extractor",
-    "expansion_checkpoint": "deduplicating expansion found 4 paper-backed metformin candidates on 2026-08-05"
+    "current_batch": "expanded worklist batch 01–10",
+    "next_action": "build, commit, push; then process the next 10 expanded candidates",
+    "expansion_checkpoint": "deduplicating expansion found 196 paper-backed candidates on 2026-08-05"
   }
 }

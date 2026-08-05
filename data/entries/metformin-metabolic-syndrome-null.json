@@ -1,0 +1,31 @@
+{
+  "id": "metformin-metabolic-syndrome-null",
+  "subj": "메트포르민",
+  "claim": "메트포르민이 대사증후군 위험인자를 개선한다",
+  "line": "대사증후군 위험인자는 위약보다 유의하게 좋아지지 않았습니다",
+  "effect": "군간 차이 유의하지 않음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 40,
+  "synth": "single",
+  "why": "대사증후군 중년 여성을 메트포르민과 위약에 무작위 배정한 시험에서 군간 개선 차이가 유의하지 않았습니다.",
+  "saw": "폐경 중인 태국 여성 40명을 무작위 배정한 위약대조시험에서 BMI·공복혈당·hs-CRP가 메트포르민군 안에서는 개선됐지만 위약과의 군간 차이는 유의하지 않았습니다.",
+  "limit": "폐경 중년 태국 여성 40명의 6개월 시험이며, 군내 변화와 위약 대비 효과를 구분해야 합니다.",
+  "against": "메트포르민군 안에서는 BMI·혈당·hs-CRP가 개선됐지만 위약과의 차이는 유의하지 않았습니다.",
+  "use": "대사증후군 전체 치료 효과보다 개별 위험인자를 본 소규모 시험 결과로 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "Indhavivadhana 2020 · J Obstet Gynaecol Res · 대사증후군 무작위시험",
+      "doi": "10.1111/jog.14263",
+      "pmid": "32342619"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
+    "ctgov": "query.intr=metformin&query.cond=Metabolic Syndrome → 182건 반환, InterventionName에 metformin 포함 여부를 대조",
+    "pubmed": "metformin AND \"metabolic syndrome\" → 1,234건",
+    "negative": "metformin AND \"metabolic syndrome\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 887건",
+    "safety": "metformin AND \"metabolic syndrome\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 289건"
+  }
+}

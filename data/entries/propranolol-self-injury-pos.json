@@ -1,0 +1,35 @@
+{
+  "id": "propranolol-self-injury-pos",
+  "subj": "프로프라놀롤",
+  "claim": "프로프라놀롤이 자해 행동을 줄인다",
+  "line": "농맹·지적장애 청소년의 심한 자해 행동을 줄였습니다",
+  "effect": "자해 행동 감소",
+  "tier": "case",
+  "dir": "pos",
+  "n": 1,
+  "synth": "single",
+  "why": "대조군 없는 개별 증례 보고에서 프로프라놀롤 치료 뒤 심한 자해 행동이 줄었다고 보고했습니다.",
+  "saw": "농맹·지적장애 청소년 1명의 심한 자해 행동을 다룬 증례 보고에서 프로프라놀롤 치료 후 행동 감소를 보고했습니다.",
+  "limit": "대조군 없는 1명 증례라 자연 경과와 다른 치료의 영향을 분리할 수 없습니다.",
+  "against": "자폐 스펙트럼 문헌고찰은 개선 사례를 모았지만 양질의 임상시험이 부족해 무작위시험이 필요하다고 결론냈습니다.",
+  "use": "자해 행동 전체의 치료제로 일반화하지 말고 개별 증례 신호로만 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "1994 · J Am Acad Child Adolesc Psychiatry · 자해 행동 증례",
+      "doi": "10.1097/00004583-199402000-00016",
+      "pmid": "8150799"
+    },
+    {
+      "label": "2018 · J Psychopharmacol · 자폐 스펙트럼 자해 행동 문헌고찰",
+      "pmid": "29484909"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:PROPRANOLOL → 140건; 확인 라벨의 적응증에 자해 행동은 없음",
+    "ctgov": "query.intr=propranolol&query.cond=Self-injury → 3건 반환, propranolol 또는 Avlocardyl(프로프라놀롤) 대조",
+    "pubmed": "propranolol AND self-injury → 79건",
+    "negative": "propranolol AND \"Self-injury\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 5건",
+    "safety": "propranolol AND \"Self-injury\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3건"
+  }
+}
