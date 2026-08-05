@@ -1,0 +1,31 @@
+{
+  "id": "naltrexone-bipolar-disorder-null",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 양극성장애에 듣는다",
+  "line": "양극성장애·알코올 의존에서 음주 감소는 통계적으로 확정되지 않았습니다",
+  "effect": "음주 감소 p<0.10",
+  "tier": "trial",
+  "dir": "null",
+  "n": 50,
+  "synth": "single",
+  "why": "날트렉손의 허가 적응증은 알코올·오피오이드 의존이며 양극성장애 자체는 아닙니다. 양극성장애와 알코올 의존이 함께 있는 외래 환자 무작위시험을 확인했습니다.",
+  "saw": "양극성장애와 현재 알코올 의존이 있는 외래 환자 50명을 무작위 배정한 시험에서 날트렉손은 음주일과 갈망을 줄이는 경향을 보였지만 통계적으로 확정된 차이는 아니었습니다. 기분 증상과 이상반응은 비슷했습니다.",
+  "limit": "알코올 의존이 동반된 양극성장애 연구이며 표본이 작고 예비시험입니다. 양극성장애의 우울·조증 치료 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 9건에서 양극성장애 기분 증상에 확정된 효과가 없거나 연구가 예비적이라는 결과를 확인했습니다.",
+  "use": "양극성장애 자체의 치료 근거가 아니라 동반 알코올 의존에서 나온 불확실한 신호로 기록해야 합니다.",
+  "refs": [
+    {
+      "label": "2009 · 양극성장애·알코올 의존 날트렉손 무작위 예비시험",
+      "doi": "10.1111/j.1530-0277.2009.01024.x",
+      "pmid": "19673746"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"NALTREXONE\" → 48건 반환; 양극성장애 적응증 없음",
+    "ctgov": "query.intr=naltrexone&query.cond=Bipolar Disorder&countTotal=true&pageSize=1000 → 6건 반환, InterventionName exact 일치 2건",
+    "pubmed": "naltrexone AND \"Bipolar Disorder\" → 51건",
+    "negative": "naltrexone AND \"Bipolar Disorder\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 9건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,896건"
+  }
+}

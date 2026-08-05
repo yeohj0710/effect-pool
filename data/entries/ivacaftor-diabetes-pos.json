@@ -1,0 +1,32 @@
+{
+  "id": "ivacaftor-diabetes-pos",
+  "subj": "이바카프토르",
+  "claim": "이바카프토르가 낭포성섬유증 관련 당대사를 개선한다",
+  "line": "낭포성섬유증의 이상혈당을 개선했지만 병용요법 결과입니다",
+  "effect": "2시간 혈당 -35.0 mg/dL",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 69,
+  "synth": "single",
+  "why": "허가사항은 특정 CFTR 변이가 있는 낭포성섬유증입니다. 당대사 결과를 보고한 시험은 이바카프토르 단독이 아니라 세 CFTR 조절제 병용요법을 평가했습니다.",
+  "saw": "이상혈당이 있는 낭포성섬유증 환자 69명에게 세 CFTR 조절제 병용요법을 비교 없이 시행했습니다. 2시간 경구당부하 혈당이 평균 35.0 mg/dL 낮아졌고 이상혈당 분류가 좋아진 사람은 37.7%였습니다.",
+  "limit": "이바카프토르 단독 효과가 아니며 대조군이 없는 개방형 시험입니다. 낭포성섬유증 관련 당대사 결과를 일반 당뇨병 치료로 확대할 수 없습니다.",
+  "against": "반대 검색 29건을 확인했지만 이바카프토르 단독 당뇨병 치료의 유효성 결과는 찾지 못했습니다.",
+  "use": "당대사 개선 신호는 병용요법 결과로만 읽고 이바카프토르 단독 효과로 표시하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2025 · CFTR 조절제 병용요법과 낭포성섬유증 당대사 3b상 시험",
+      "doi": "10.1164/rccm.202411-2312OC",
+      "pmid": "40788823",
+      "nct": "NCT04599465"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"IVACAFTOR\" → 4건 반환; 당뇨병 적응증 없음",
+    "ctgov": "query.intr=ivacaftor&query.cond=Diabetes&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 0건",
+    "pubmed": "ivacaftor AND \"Diabetes\" → 115건",
+    "negative": "ivacaftor AND \"Diabetes\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 29건",
+    "safety": "ivacaftor AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 455건"
+  }
+}

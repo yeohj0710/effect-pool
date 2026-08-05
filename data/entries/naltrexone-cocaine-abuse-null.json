@@ -1,0 +1,31 @@
+{
+  "id": "naltrexone-cocaine-abuse-null",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 코카인 남용을 줄인다",
+  "line": "코카인·알코올 의존에서 사용을 위약보다 줄이지 못했습니다",
+  "effect": "사용량 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 80,
+  "synth": "single",
+  "why": "날트렉손의 허가 적응증은 알코올·오피오이드 의존이며 코카인 남용은 아닙니다. 코카인과 알코올 의존이 함께 있는 환자의 무작위시험을 확인했습니다.",
+  "saw": "코카인·알코올 의존 환자 80명을 무작위 배정한 시험에서 서방형 날트렉손은 위약보다 코카인이나 알코올 사용을 줄이지 못했습니다.",
+  "limit": "코카인과 알코올 의존이 함께 있는 치료 대상자이고 심리사회적 치료를 함께 받았습니다. 코카인 단독 사용장애나 장기 결과로 일반화할 수 없습니다.",
+  "against": "반대 검색 10건에서 코카인 사용 감소가 없거나 다른 중독 치료와 결과가 다르다는 연구를 확인했습니다.",
+  "use": "코카인 사용 감소 효과는 이 무작위시험에서 확인되지 않았다는 근거로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "2014 · 코카인·알코올 의존 서방형 날트렉손 무작위시험",
+      "doi": "10.1111/j.1521-0391.2014.12146.x",
+      "pmid": "25251201"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"NALTREXONE\" → 48건 반환; 알코올·오피오이드 의존 적응증",
+    "ctgov": "query.intr=naltrexone&query.cond=Cocaine Abuse&countTotal=true&pageSize=1000 → 8건 반환, InterventionName exact 일치 2건",
+    "pubmed": "naltrexone AND \"Cocaine Abuse\" → 24건",
+    "negative": "naltrexone AND \"Cocaine Abuse\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 10건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,896건"
+  }
+}

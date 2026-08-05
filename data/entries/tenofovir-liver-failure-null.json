@@ -1,0 +1,31 @@
+{
+  "id": "tenofovir-liver-failure-null",
+  "subj": "테노포비르",
+  "claim": "테노포비르가 B형간염 관련 간부전에 듣는다",
+  "line": "B형간염 급성-만성 간부전 생존율은 엔테카비르와 다르지 않았습니다",
+  "effect": "48주 생존 RR 0.96",
+  "tier": "trial",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "why": "B형간염 관련 급성-만성 간부전에서 테노포비르와 엔테카비르를 비교한 체계적 문헌고찰·메타분석입니다.",
+  "saw": "전향·후향 코호트 5편을 합친 메타분석에서 4주, 12주, 48주 생존율은 테노포비르와 엔테카비르 사이에 유의한 차이가 없었습니다. 장기 신장기능 저하는 테노포비르에서 더 클 가능성이 있었습니다.",
+  "limit": "무작위시험이 아니라 코호트 자료이고 합친 총 인원을 초록에서 확인하지 못했습니다. 급성-만성 간부전이 아닌 일반 B형간염 치료로 확대할 수 없습니다.",
+  "against": "반대 검색 42건에서 두 약제의 생존 차이가 없거나 신장기능 저하를 다룬 결과를 확인했습니다.",
+  "use": "B형간염 관련 급성-만성 간부전에서는 생존 우열이 확인되지 않았다는 비교 근거로 남겨야 합니다.",
+  "refs": [
+    {
+      "label": "2023 · B형간염 급성-만성 간부전 테노포비르·엔테카비르 메타분석",
+      "doi": "10.1186/s12876-023-03024-7",
+      "pmid": "37957546"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"TENOFOVIR\" → 74건 반환; 간부전 적응증 없음",
+    "ctgov": "query.intr=tenofovir&query.cond=Liver Failure&countTotal=true&pageSize=1000 → 9건 반환, InterventionName exact 일치 3건",
+    "pubmed": "tenofovir AND \"Liver Failure\" → 144건",
+    "negative": "tenofovir AND \"Liver Failure\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 42건",
+    "safety": "tenofovir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,370건"
+  }
+}

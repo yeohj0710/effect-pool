@@ -1,0 +1,37 @@
+{
+  "id": "aspirin-aortic-valve-disease-harm",
+  "subj": "아스피린",
+  "claim": "아스피린이 대동맥판막질환에 듣는다",
+  "line": "저위험 대동맥판막 치환에서 단독 사용이 판막 이상을 더 많이 만들었습니다",
+  "effect": "복합 사건 26.5% vs 7.0%",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 94,
+  "synth": "single",
+  "why": "아스피린의 허가 라벨에는 대동맥판막질환 적응증이 없습니다. 대동맥판막 치환 뒤 아스피린 단독과 항응고 병용을 비교한 무작위시험을 확인했습니다.",
+  "saw": "저위험 경피적 대동맥판막 치환 환자 94명을 무작위 배정한 시험에서 판막 혈전·운동저하·혈역학 이상·뇌졸중 복합사건은 아스피린 단독 26.5%, 항응고 병용 7.0%였습니다.",
+  "limit": "표본이 작고 판막 치환 뒤의 단기 영상·복합 결과를 본 시험입니다. 모든 대동맥판막질환이나 장기 사망 결과로 확대할 수 없습니다.",
+  "against": "반대 검색은 0건이었지만 환자 수준 메타분석에서는 아스피린 단독이 이중항혈소판요법보다 출혈·혈전 복합사건을 줄였습니다.",
+  "use": "판막 치환 뒤 치료 조합에 따른 결과이며 대동맥판막질환 자체를 치료한다는 근거로 읽으면 안 됩니다.",
+  "refs": [
+    {
+      "label": "2020 · 경피적 대동맥판막 치환 뒤 아스피린·항응고 무작위시험",
+      "doi": "10.1161/CIRCINTERVENTIONS.120.009983",
+      "pmid": "33423540",
+      "nct": "NCT03557242"
+    },
+    {
+      "label": "2021 · 대동맥판막 치환 뒤 아스피린 단독·이중항혈소판 메타분석",
+      "doi": "10.1161/JAHA.120.019604",
+      "pmid": "33860685"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"ASPIRIN\" → 719건 반환; 대동맥판막질환 적응증 없음",
+    "ctgov": "query.intr=aspirin&query.cond=Aortic Valve Disease&countTotal=true&pageSize=1000 → 28건 반환, InterventionName exact 일치 8건",
+    "pubmed": "aspirin AND \"Aortic Valve Disease\" → 20건",
+    "negative": "aspirin AND \"Aortic Valve Disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 0건",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27,505건"
+  }
+}

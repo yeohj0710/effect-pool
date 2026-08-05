@@ -1,0 +1,31 @@
+{
+  "id": "propranolol-tremor-pos",
+  "subj": "프로프라놀롤",
+  "claim": "프로프라놀롤이 본태성 떨림을 줄인다",
+  "line": "본태성 떨림을 개선했지만 올란자핀이 더 효과적이었습니다",
+  "effect": "올란자핀군이 더 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 38,
+  "synth": "single",
+  "why": "본태성 떨림은 프로프라놀롤의 허가 적응증이 아닙니다. 프로프라놀롤과 올란자핀을 비교한 무작위 교차시험을 확인했습니다.",
+  "saw": "본태성 떨림 환자 38명을 비교한 무작위 교차시험에서 두 약제 모두 떨림 지표를 개선했지만 올란자핀이 프로프라놀롤보다 대부분의 떨림 지표를 더 개선했습니다.",
+  "limit": "소규모 단일 연구이고 비교약의 상대적 우월성을 본 시험입니다. 프로프라놀롤이 위약보다 우수한지 직접 평가하지 않았습니다.",
+  "against": "반대 검색 93건에서 프로프라놀롤보다 다른 치료가 우수하거나 결과가 일관되지 않다는 연구를 확인했습니다.",
+  "use": "본태성 떨림에서 개선 신호는 있으나 비교시험 하나의 결과이며 다른 치료보다 낫다는 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "2006 · 본태성 떨림 올란자핀·프로프라놀롤 무작위 교차시험",
+      "doi": "10.1016/j.clineuro.2005.01.002",
+      "pmid": "16311142"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"PROPRANOLOL\" → 140건 반환; 본태성 떨림 적응증 없음",
+    "ctgov": "query.intr=propranolol&query.cond=Tremor&countTotal=true&pageSize=1000 → 8건 반환, InterventionName exact 일치 4건",
+    "pubmed": "propranolol AND \"Tremor\" → 604건",
+    "negative": "propranolol AND \"Tremor\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 93건",
+    "safety": "propranolol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,578건"
+  }
+}

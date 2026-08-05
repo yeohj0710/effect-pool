@@ -1,0 +1,33 @@
+{
+  "id": "sotagliflozin-diabetic-nephropathies-pos",
+  "subj": "소타글리플로진",
+  "claim": "소타글리플로진이 당뇨병성 신증을 늦춘다",
+  "line": "제2형 당뇨병·만성콩팥병에서 신장 복합사건을 줄였습니다",
+  "effect": "신장 사건 HR 0.62",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 10584,
+  "synth": "single",
+  "why": "허가사항은 심부전 또는 특정 심혈관 위험이 있는 제2형 당뇨병·만성콩팥병의 심혈관 사건 감소입니다. 신장 복합사건을 별도로 분석한 SCORED 시험을 확인했습니다.",
+  "saw": "제2형 당뇨병과 만성콩팥병 환자 10,584명을 무작위 배정한 시험의 신장 분석에서 신장 복합사건은 소타글리플로진 1.6%, 위약 2.6%였고 위험비는 0.62였습니다. 급성콩팥손상은 비슷했습니다.",
+  "limit": "신장 분석은 원래 시험의 탐색적 재분석이며 신장질환의 모든 원인에 적용할 수 없습니다. 허가 문구의 심혈관 위험 감소와 신증 치료를 구분해야 합니다.",
+  "against": "반대 검색 3건은 신장 결과의 불확실성이나 안전성 문제를 다뤘지만 이 분석의 신장 복합사건 감소를 뒤집지는 않았습니다.",
+  "use": "제2형 당뇨병·만성콩팥병에서 신장 결과가 개선된 신호로 기록하되 신증 일반 치료로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · SCORED 소타글리플로진 신장 결과 탐색적 재분석",
+      "doi": "10.2215/CJN.0000000000000414",
+      "pmid": "38277468",
+      "pmc": "PMC11108248",
+      "nct": "NCT03315143"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SOTAGLIFLOZIN\" → 1건 반환; 심부전 및 특정 제2형 당뇨병·만성콩팥병 심혈관 위험 적응증",
+    "ctgov": "query.intr=sotagliflozin&query.cond=Diabetic Nephropathies&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 3건",
+    "pubmed": "sotagliflozin AND \"Diabetic Nephropathies\" → 13건",
+    "negative": "sotagliflozin AND \"Diabetic Nephropathies\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 3건",
+    "safety": "sotagliflozin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 251건"
+  }
+}

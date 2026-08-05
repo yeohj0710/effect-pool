@@ -1,0 +1,31 @@
+{
+  "id": "topiramate-cocaine-use-disorder-null",
+  "subj": "토피라메이트",
+  "claim": "토피라메이트가 코카인 사용장애에 듣는다",
+  "line": "코카인 사용장애의 치료 유지율을 높이지 못했습니다",
+  "effect": "유지율 RR 0.85",
+  "tier": "trial",
+  "dir": "null",
+  "n": 518,
+  "synth": "meta",
+  "why": "토피라메이트의 허가 적응증은 부분발작과 편두통 예방이며 코카인 사용장애는 아닙니다. 코카인 사용장애 무작위시험 메타분석을 확인했습니다.",
+  "saw": "코카인 사용장애 환자 518명을 포함한 5개 무작위시험 메타분석에서 토피라메이트는 위약보다 치료 유지율을 높이지 못했습니다. 5개 중 2개 연구에서는 지속 금 abstinence가 늘었습니다.",
+  "limit": "시험 수가 적고 지속 금 abstinence 결과는 일부 연구에만 있었습니다. 유지율 개선이 없다는 결과를 전체 회복이나 다른 중독에 확대할 수 없습니다.",
+  "against": "반대 검색 4건에서 유지율 차이가 없고 일부 연구에서만 금 abstinence가 늘었다는 결과를 확인했습니다.",
+  "use": "코카인 사용장애에서 유지율 효과는 없고 일부 금 abstinence 신호만 있었다는 메타분석으로 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "2016 · 코카인 사용장애 토피라메이트 무작위시험 메타분석",
+      "doi": "10.1111/add.13328",
+      "pmid": "26826006"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"TOPIRAMATE\" → 162건 반환; 부분발작·편두통 예방 적응증",
+    "ctgov": "query.intr=topiramate&query.cond=Cocaine Use Disorder&countTotal=true&pageSize=1000 → 1건 반환, InterventionName exact 일치 1건",
+    "pubmed": "topiramate AND \"Cocaine Use Disorder\" → 16건",
+    "negative": "topiramate AND \"Cocaine Use Disorder\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 4건",
+    "safety": "topiramate AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,061건"
+  }
+}

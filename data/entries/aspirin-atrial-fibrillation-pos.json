@@ -1,0 +1,30 @@
+{
+  "id": "aspirin-atrial-fibrillation-pos",
+  "subj": "아스피린",
+  "claim": "아스피린이 심방세동의 뇌졸중을 예방한다",
+  "line": "심방세동에서 뇌졸중 위험을 조금 낮췄지만 효과는 작았습니다",
+  "effect": "뇌졸중 위험 21%↓",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "why": "아스피린의 허가 라벨에는 심방세동 뇌졸중 예방 적응증이 없습니다. 심방세동 무작위시험 3편의 개별자료를 합친 분석을 확인했습니다.",
+  "saw": "심방세동 무작위시험 3편의 아스피린군과 위약군을 합친 분석에서 뇌졸중 상대위험 감소는 21%였지만 신뢰구간 하한이 0%였고 특별히 반응하는 환자군은 확인되지 않았습니다. 사람 수는 원문 초록에서 확인하지 못했습니다.",
+  "limit": "환자 수가 아니라 환자년으로 보고된 분석이고 효과가 작았습니다. 항응고제와 같은 뇌졸중 예방 효과로 해석할 수 없습니다.",
+  "against": "반대 검색 384건에서 아스피린보다 항응고제가 뇌졸중 예방에 더 효과적이거나 아스피린의 효과가 제한적이라는 결과를 확인했습니다.",
+  "use": "심방세동에서 작은 예방 신호가 있었지만 현대 항응고 치료를 대신하는 근거로 쓰면 안 됩니다.",
+  "refs": [
+    {
+      "label": "1999 · 심방세동 아스피린 3개 무작위시험 통합분석",
+      "pmid": "9183235"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"ASPIRIN\" → 719건 반환; 심방세동 적응증 없음",
+    "ctgov": "query.intr=aspirin&query.cond=Atrial Fibrillation&countTotal=true&pageSize=1000 → 91건 반환, InterventionName exact 일치 16건",
+    "pubmed": "aspirin AND \"Atrial Fibrillation\" → 3,078건",
+    "negative": "aspirin AND \"Atrial Fibrillation\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 384건",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27,505건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "naltrexone-schizophrenia-harm",
+  "subj": "날트렉손",
+  "claim": "날트렉손이 조현병에 듣는다",
+  "line": "조현병에서 음성 증상을 일시적으로 악화시켰습니다",
+  "effect": "음성 증상 일시 악화",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 21,
+  "synth": "single",
+  "why": "날트렉손의 허가 적응증은 알코올·오피오이드 의존이며 조현병은 아닙니다. 신경이완제 보조요법으로 평가한 조현병 무작위시험에서 악화 결과를 확인했습니다.",
+  "saw": "조현병 환자 21명을 대상으로 신경이완제에 날트렉손을 추가한 무작위시험에서 정신병 증상 개선은 없었고 음성 증상이 일시적으로 악화됐습니다.",
+  "limit": "소규모 단일 시험이고 오래된 보조요법 연구입니다. 음성 증상 악화가 모든 조현병 환자에게 재현된다고 단정할 수 없습니다.",
+  "against": "반대 검색 34건에서 조현병 증상 개선이 없거나 날트렉손 보조요법의 근거가 부족하다는 결과를 확인했습니다.",
+  "use": "조현병 치료 목적으로 날트렉손을 확대할 근거가 없고 증상 악화 신호도 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "1998 · 조현병 신경이완제 보조 날트렉손 무작위시험",
+      "doi": "10.1097/00004714-199806000-00011",
+      "pmid": "9617985"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"NALTREXONE\" → 48건 반환; 조현병 적응증 없음",
+    "ctgov": "query.intr=naltrexone&query.cond=Schizophrenia&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 4건",
+    "pubmed": "naltrexone AND \"Schizophrenia\" → 136건",
+    "negative": "naltrexone AND \"Schizophrenia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 34건",
+    "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,896건"
+  }
+}

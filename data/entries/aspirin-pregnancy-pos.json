@@ -1,0 +1,31 @@
+{
+  "id": "aspirin-pregnancy-pos",
+  "subj": "아스피린",
+  "claim": "아스피린이 임신 결과를 개선한다",
+  "line": "임신 중 전자간증·조산·주산기 사망을 줄였습니다",
+  "effect": "전자간증 위험 24%↓",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 46568,
+  "synth": "meta",
+  "why": "아스피린의 임신 중 사용은 허가 적응증이 아닙니다. 임신 중 산모·신생아 결과를 평가한 위약대조 무작위시험 메타분석을 확인했습니다.",
+  "saw": "임신부 46,568명을 포함한 35개 무작위시험 메타분석에서 전자간증, 조산, 주산기 사망, 자궁내성장지연이 줄고 신생아 출생체중이 늘었지만 임신성 고혈압은 줄지 않았습니다.",
+  "limit": "이 근거는 임신중독증 위험이 있는 임신의 예방 결과이며 모든 임신에 대한 일반적 치료 효과가 아닙니다. 연구별 시작 시점과 결과가 달랐습니다.",
+  "against": "반대 검색 788건에서 임신성 고혈압이 줄지 않았고 아스피린 시작 시점에 따라 결과가 달랐다는 점을 확인했습니다.",
+  "use": "임신 중 산모·주산기 결과의 예방 근거로 기록하되 일반 임신 관리로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2021 · 임신 중 아스피린 산모·주산기 결과 메타분석",
+      "doi": "10.1016/j.amepre.2021.01.032",
+      "pmid": "33795180"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"ASPIRIN\" → 719건 반환; 임신 적응증 없음",
+    "ctgov": "query.intr=aspirin&query.cond=Pregnancy&countTotal=true&pageSize=1000 → 187건 반환, InterventionName exact 일치 48건",
+    "pubmed": "aspirin AND \"Pregnancy\" → 4,483건",
+    "negative": "aspirin AND \"Pregnancy\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 788건",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27,505건"
+  }
+}

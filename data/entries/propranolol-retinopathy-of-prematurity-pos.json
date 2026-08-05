@@ -1,0 +1,31 @@
+{
+  "id": "propranolol-retinopathy-of-prematurity-pos",
+  "subj": "프로프라놀롤",
+  "claim": "프로프라놀롤이 미숙아 망막병증을 예방한다",
+  "line": "미숙아의 중증 망막병증 위험을 낮췄습니다",
+  "effect": "중증 망막병증 RR 0.59",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "why": "미숙아 망막병증은 프로프라놀롤의 허가 적응증이 아닙니다. 경구 프로프라놀롤을 평가한 연구 8편의 체계적 문헌고찰·메타분석을 확인했습니다.",
+  "saw": "미숙아 망막병증 연구 8편을 합친 메타분석에서 중증 망막병증 위험비는 0.59였고 플러스병, 레이저 치료, 혈관내피성장인자 주사 위험도 낮았습니다. 합산 인원은 초록에 제시되지 않았습니다.",
+  "limit": "무작위시험과 관찰연구가 섞였고 합산 인원을 확인하지 못했습니다. 투여 시점과 대상 미숙아가 달라 예방 효과를 확정할 수 없습니다.",
+  "against": "반대 검색 10건에서 연구 간 대상과 치료 시점 차이, 안전성 우려를 확인했습니다.",
+  "use": "미숙아 망막병증의 중증화 감소 신호로 기록하되 무작위 근거와 안전성 검토가 더 필요합니다.",
+  "refs": [
+    {
+      "label": "2024 · 미숙아 망막병증 프로프라놀롤 메타분석",
+      "doi": "10.1016/j.ajo.2023.11.012",
+      "pmid": "37979602"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"PROPRANOLOL\" → 140건 반환; 미숙아 망막병증 적응증 없음",
+    "ctgov": "query.intr=propranolol&query.cond=Retinopathy of Prematurity&countTotal=true&pageSize=1000 → 7건 반환, InterventionName exact 일치 5건",
+    "pubmed": "propranolol AND \"Retinopathy of Prematurity\" → 50건",
+    "negative": "propranolol AND \"Retinopathy of Prematurity\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 10건",
+    "safety": "propranolol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,578건"
+  }
+}

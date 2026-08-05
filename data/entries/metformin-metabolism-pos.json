@@ -1,0 +1,31 @@
+{
+  "id": "metformin-metabolism-pos",
+  "subj": "메트포르민",
+  "claim": "메트포르민이 이상혈당의 당대사를 개선한다",
+  "line": "제2형 당뇨병에서 당화혈색소를 운동보다 0.40%p 더 낮췄습니다",
+  "effect": "HbA1c -0.88% vs -0.48%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 33802,
+  "synth": "meta",
+  "why": "제2형 당뇨병과 당뇨병 전단계에서 운동, 메트포르민, 병용요법을 비교한 네트워크 메타분석입니다. 허가 적응증과 비허가 대상을 나눠 읽었습니다.",
+  "saw": "이상혈당 환자 33,802명을 포함한 410개 무작위시험 네트워크 메타분석에서 제2형 당뇨병의 당화혈색소 감소는 메트포르민이 운동보다 컸습니다. 당뇨병 전단계에서는 운동이 더 나았습니다.",
+  "limit": "네트워크 비교이고 운동 방식과 메트포르민 연구가 서로 달랐습니다. 당뇨병 전단계 결과는 메트포르민의 제2형 당뇨병 결과와 다릅니다.",
+  "against": "반대 검색 2,913건에서 당뇨병 전단계에서는 운동이 메트포르민보다 우수하거나 두 방법의 효과가 비슷하다는 결과를 확인했습니다.",
+  "use": "제2형 당뇨병과 당뇨병 전단계에서 비교 대상이 다르다는 점을 포함해 당대사 근거를 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · 운동·메트포르민 당대사 네트워크 메타분석",
+      "doi": "10.1136/bjsports-2024-108127",
+      "pmid": "39242178"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"METFORMIN\" → 386건 반환; 제2형 당뇨병 적응증",
+    "ctgov": "query.intr=metformin&query.cond=Metabolism&countTotal=true&pageSize=1000 → 2,043건 반환, 1,000건 수신, InterventionName exact 일치 380건",
+    "pubmed": "metformin AND \"Metabolism\" → 16,307건",
+    "negative": "metformin AND \"Metabolism\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 2,913건",
+    "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10,097건"
+  }
+}

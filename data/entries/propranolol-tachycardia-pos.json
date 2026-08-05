@@ -1,0 +1,32 @@
+{
+  "id": "propranolol-tachycardia-pos",
+  "subj": "프로프라놀롤",
+  "claim": "프로프라놀롤이 기립성빈맥증후군의 운동능력을 높인다",
+  "line": "기립성빈맥증후군에서 운동능력을 높였습니다",
+  "effect": "최대산소섭취량 24.5→27.6",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 11,
+  "synth": "single",
+  "why": "기립성빈맥증후군은 프로프라놀롤의 허가 적응증이 아닙니다. 환자와 건강인을 포함한 무작위 비교시험에서 운동능력을 평가했습니다.",
+  "saw": "기립성빈맥증후군 환자 11명과 건강인 7명을 비교한 무작위시험에서 환자의 최대산소섭취량은 위약 24.5에서 프로프라놀롤 27.6 mL/min/kg으로 높아졌고 심박수와 박출량도 개선됐습니다.",
+  "limit": "환자 표본이 11명인 소규모 단일 시험이고 약을 한 번 투여한 뒤의 운동능력 결과입니다. 장기 증상 조절이나 다른 빈맥 원인에 적용할 수 없습니다.",
+  "against": "반대 검색 611건에서 고용량 프로프라놀롤이나 다른 베타차단제가 운동능력을 개선하지 못했다는 결과를 확인했습니다.",
+  "use": "기립성빈맥증후군의 운동능력에 대한 소규모 단기 신호로만 기록해야 합니다.",
+  "refs": [
+    {
+      "label": "2013 · 기립성빈맥증후군 프로프라놀롤 운동능력 무작위시험",
+      "doi": "10.1212/WNL.0b013e318293e310",
+      "pmid": "23616163",
+      "pmc": "PMC3716342"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"PROPRANOLOL\" → 140건 반환; 기립성빈맥증후군 적응증 없음",
+    "ctgov": "query.intr=propranolol&query.cond=Tachycardia&countTotal=true&pageSize=1000 → 11건 반환, InterventionName exact 일치 5건",
+    "pubmed": "propranolol AND \"Tachycardia\" → 2,439건",
+    "negative": "propranolol AND \"Tachycardia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 611건",
+    "safety": "propranolol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,578건"
+  }
+}

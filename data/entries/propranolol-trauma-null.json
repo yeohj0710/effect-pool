@@ -1,0 +1,32 @@
+{
+  "id": "propranolol-trauma-null",
+  "subj": "프로프라놀롤",
+  "claim": "프로프라놀롤이 중증 외상성뇌손상에 듣는다",
+  "line": "중증 외상성뇌손상에서 무환기 일수를 늘리지 못했습니다",
+  "effect": "무환기 일수 차이 0.3일",
+  "tier": "trial",
+  "dir": "null",
+  "n": 47,
+  "synth": "single",
+  "why": "프로프라놀롤의 허가 적응증은 고혈압·협심증 등이며 중증 외상성뇌손상은 아닙니다. 중증 외상성뇌손상 무작위시험을 확인했습니다.",
+  "saw": "중증 외상성뇌손상 환자 47명을 무작위 배정한 시험에서 프로프라놀롤과 클로니딘 병용은 위약보다 28일 무환기 일수를 0.3일 늘렸지만 유의하지 않았습니다. 교감신경 항진 특징은 좋아졌습니다.",
+  "limit": "프로프라놀롤 단독이 아니라 클로니딘과의 병용이고 소규모 단일기관 시험입니다. 무환기 일수 외 기능 회복과 사망 결과도 개선하지 못했습니다.",
+  "against": "반대 검색 74건에서 무환기 일수의 유의한 차이가 없고 시험이 무익성으로 중단됐다는 결과를 확인했습니다.",
+  "use": "외상성뇌손상에서 흔히 쓰이는 교감신경 차단의 임상 이득은 이 병용시험에서 확인되지 않았습니다.",
+  "refs": [
+    {
+      "label": "2023 · 중증 외상성뇌손상 프로프라놀롤·클로니딘 무작위시험",
+      "doi": "10.1186/s13054-023-04479-6",
+      "pmid": "37296432",
+      "nct": "NCT01322048"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"PROPRANOLOL\" → 140건 반환; 외상성뇌손상 적응증 없음",
+    "ctgov": "query.intr=propranolol&query.cond=Trauma&countTotal=true&pageSize=1000 → 62건 반환, InterventionName exact 일치 40건",
+    "pubmed": "propranolol AND \"Trauma\" → 265건",
+    "negative": "propranolol AND \"Trauma\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 74건",
+    "safety": "propranolol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 6,578건"
+  }
+}

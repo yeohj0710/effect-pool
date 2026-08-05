@@ -1,0 +1,31 @@
+{
+  "id": "tenofovir-virus-diseases-pos",
+  "subj": "테노포비르",
+  "claim": "테노포비르가 바이러스 질환을 억제한다",
+  "line": "HIV·B형간염 동시감염에서 B형간염 바이러스를 억제했습니다",
+  "effect": "3년 억제율 85.6%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 550,
+  "synth": "meta",
+  "why": "테노포비르의 HIV·B형간염 동시감염 바이러스 억제 결과를 합친 메타분석을 확인했습니다. 바이러스 질환이라는 넓은 목록명보다 이 대상에 근거를 한정했습니다.",
+  "saw": "HIV·B형간염 동시감염 환자 550명을 포함한 23개 연구 메타분석에서 B형간염 바이러스 억제율은 1년 57.4%, 2년 79.0%, 3년 85.6%였습니다.",
+  "limit": "동시감염 환자 대상이고 연구 대부분은 관찰자료입니다. 이 결과를 모든 바이러스 질환이나 테노포비르 단독의 HIV 치료 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 1건은 테노포비르 중단 뒤 B형간염 재활성화 가능성을 다뤘습니다.",
+  "use": "바이러스 질환 전체가 아니라 HIV·B형간염 동시감염의 B형간염 억제 근거로 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "2013 · HIV·B형간염 동시감염 테노포비르 바이러스 억제 메타분석",
+      "doi": "10.1371/journal.pone.0068152",
+      "pmid": "23874527"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"TENOFOVIR\" → 74건 반환; HIV-1·만성 B형간염 적응증",
+    "ctgov": "query.intr=tenofovir&query.cond=Virus Diseases&countTotal=true&pageSize=1000 → 906건 반환, InterventionName exact 일치 59건",
+    "pubmed": "tenofovir AND \"Virus Diseases\" → 19건",
+    "negative": "tenofovir AND \"Virus Diseases\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 1건",
+    "safety": "tenofovir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,370건"
+  }
+}

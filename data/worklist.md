@@ -8184,8 +8184,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ivacaftor — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] ivacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 117편 -->
+- [x] ivacaftor — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] ivacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 117편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8196,9 +8196,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sotagliflozin — Heart Failure에 듣는다  <!-- 시험 11건 · 논문 243편 -->
-- [ ] sotagliflozin — Diabetic Nephropathies에 듣는다  <!-- 시험 5건 · 논문 13편 -->
-- [ ] sotagliflozin — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 77편 -->
+- [x] sotagliflozin — Heart Failure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 243편 -->
+- [x] sotagliflozin — Diabetic Nephropathies에 듣는다  <!-- 시험 5건 · 논문 13편 -->
+- [x] sotagliflozin — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 77편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8209,10 +8209,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tenofovir — Hepatitis B에 듣는다  <!-- 시험 124건 · 논문 3408편 -->
-- [ ] tenofovir — Virus Diseases에 듣는다  <!-- 시험 19건 · 논문 9045편 -->
-- [ ] tenofovir — Liver Failure에 듣는다  <!-- 시험 10건 · 논문 281편 -->
-- [ ] tenofovir — ART Adherence에 듣는다  <!-- 시험 8건 · 논문 346편 -->
+- [x] tenofovir — Hepatitis B에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 124건 · 논문 3408편 -->
+- [x] tenofovir — Virus Diseases에 듣는다  <!-- 시험 19건 · 논문 9045편 -->
+- [x] tenofovir — Liver Failure에 듣는다  <!-- 시험 10건 · 논문 281편 -->
+- [x] tenofovir — ART Adherence에 듣는다 — 항목 아님(복약순응도 측정 연구)(2026-08-05)  <!-- 시험 8건 · 논문 346편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8223,8 +8223,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nirmatrelvir — SARS-CoV2 Infection에 듣는다  <!-- 시험 4건 · 논문 1622편 -->
-- [ ] nirmatrelvir — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] nirmatrelvir — SARS-CoV2 Infection에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 1622편 -->
+- [x] nirmatrelvir — Healthy Participants에 듣는다 — 항목 아님(건강인 약동학 연구)(2026-08-05)  <!-- 시험 3건 · 논문 13편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8235,25 +8235,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Weight Loss에 듣는다  <!-- 시험 8건 · 논문 2136편 -->
-- [ ] metformin — Fatty Liver에 듣는다  <!-- 시험 8건 · 논문 1183편 -->
-- [ ] metformin — Metabolism에 듣는다  <!-- 시험 7건 · 논문 22523편 -->
-- [ ] aspirin — Preeclampsia에 듣는다  <!-- 시험 12건 · 논문 1946편 -->
-- [ ] aspirin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 3082편 -->
-- [ ] aspirin — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 280편 -->
-- [ ] aspirin — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 4532편 -->
-- [ ] propranolol — Trauma에 듣는다  <!-- 시험 9건 · 논문 644편 -->
-- [ ] propranolol — Tremor에 듣는다  <!-- 시험 9건 · 논문 644편 -->
-- [ ] propranolol — Retinopathy of Prematurity에 듣는다  <!-- 시험 8건 · 논문 50편 -->
-- [ ] propranolol — Tachycardia에 듣는다  <!-- 시험 8건 · 논문 2478편 -->
-- [ ] naltrexone — Cocaine Abuse에 듣는다  <!-- 시험 11건 · 논문 223편 -->
-- [ ] naltrexone — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 136편 -->
-- [ ] naltrexone — Bipolar Disorder에 듣는다  <!-- 시험 7건 · 논문 69편 -->
-- [ ] naltrexone — Addiction에 듣는다  <!-- 시험 7건 · 논문 2293편 -->
-- [ ] gabapentin — Pruritus에 듣는다  <!-- 시험 9건 · 논문 253편 -->
-- [ ] gabapentin — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 708편 -->
-- [ ] topiramate — Epilepsies, Partial에 듣는다  <!-- 시험 12건 · 논문 316편 -->
-- [ ] topiramate — Cocaine Use Disorder에 듣는다  <!-- 시험 7건 · 논문 74편 -->
+- [x] metformin — Weight Loss에 듣는다  <!-- 시험 8건 · 논문 2136편 -->
+- [x] metformin — Fatty Liver에 듣는다  <!-- 시험 8건 · 논문 1183편 -->
+- [x] metformin — Metabolism에 듣는다  <!-- 시험 7건 · 논문 22523편 -->
+- [x] aspirin — Preeclampsia에 듣는다  <!-- 시험 12건 · 논문 1946편 -->
+- [x] aspirin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 3082편 -->
+- [x] aspirin — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 280편 -->
+- [x] aspirin — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 4532편 -->
+- [x] propranolol — Trauma에 듣는다  <!-- 시험 9건 · 논문 644편 -->
+- [x] propranolol — Tremor에 듣는다  <!-- 시험 9건 · 논문 644편 -->
+- [x] propranolol — Retinopathy of Prematurity에 듣는다  <!-- 시험 8건 · 논문 50편 -->
+- [x] propranolol — Tachycardia에 듣는다  <!-- 시험 8건 · 논문 2478편 -->
+- [x] naltrexone — Cocaine Abuse에 듣는다  <!-- 시험 11건 · 논문 223편 -->
+- [x] naltrexone — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 136편 -->
+- [x] naltrexone — Bipolar Disorder에 듣는다  <!-- 시험 7건 · 논문 69편 -->
+- [x] naltrexone — Addiction에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 2293편 -->
+- [x] gabapentin — Pruritus에 듣는다  <!-- 시험 9건 · 논문 253편 -->
+- [x] gabapentin — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 708편 -->
+- [x] topiramate — Epilepsies, Partial에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 316편 -->
+- [x] topiramate — Cocaine Use Disorder에 듣는다  <!-- 시험 7건 · 논문 74편 -->
 - [ ] topiramate — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 6건 · 논문 68편 -->
 - [ ] topiramate — Hiv에 듣는다  <!-- 시험 6건 · 논문 19편 -->
 - [ ] quetiapine — Substance Abuse에 듣는다  <!-- 시험 11건 · 논문 491편 -->

@@ -1,0 +1,32 @@
+{
+  "id": "sotagliflozin-chronic-kidney-disease-pos",
+  "subj": "소타글리플로진",
+  "claim": "소타글리플로진이 당뇨병성 만성콩팥병에 듣는다",
+  "line": "제2형 당뇨병·만성콩팥병의 심혈관·심부전 사건을 줄였습니다",
+  "effect": "복합사건 HR 0.74",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 10584,
+  "synth": "single",
+  "why": "제2형 당뇨병과 만성콩팥병 환자를 대상으로 한 SCORED 무작위시험에서 심혈관·심부전 복합 결과를 평가했습니다.",
+  "saw": "제2형 당뇨병과 만성콩팥병 환자 10,584명에서 심혈관 사망·심부전 입원·긴급 방문 복합사건은 소타글리플로진군 5.6, 위약군 7.5건/환자년이었고 위험비는 0.74였습니다. 설사와 생식기 진균감염 등은 더 많았습니다.",
+  "limit": "시험은 자금 문제로 일찍 끝났고 제2형 당뇨병·심혈관 위험이 있는 만성콩팥병 환자에 한정됩니다. 콩팥 기능 자체의 장기 보존 효과와는 다른 결과입니다.",
+  "against": "반대 검색 11건에서 조기 종료와 이상반응을 포함한 제한을 확인했습니다.",
+  "use": "당뇨병을 동반한 만성콩팥병의 심혈관·심부전 위험 결과로 한정해 읽어야 합니다.",
+  "refs": [
+    {
+      "label": "2021 · SCORED 소타글리플로진 만성콩팥병 무작위시험",
+      "doi": "10.1056/NEJMoa2030186",
+      "pmid": "33200891",
+      "nct": "NCT03315143"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SOTAGLIFLOZIN\" → 1건 반환; 심부전 및 특정 제2형 당뇨병·만성콩팥병 심혈관 위험 적응증",
+    "ctgov": "query.intr=sotagliflozin&query.cond=Chronic Kidney Disease&countTotal=true&pageSize=1000 → 8건 반환, InterventionName exact 일치 7건",
+    "pubmed": "sotagliflozin AND \"Chronic Kidney Disease\" → 67건",
+    "negative": "sotagliflozin AND \"Chronic Kidney Disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 11건",
+    "safety": "sotagliflozin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 251건"
+  }
+}

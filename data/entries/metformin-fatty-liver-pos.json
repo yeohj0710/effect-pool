@@ -1,0 +1,31 @@
+{
+  "id": "metformin-fatty-liver-pos",
+  "subj": "메트포르민",
+  "claim": "메트포르민이 비당뇨 지방간을 치료한다",
+  "line": "비당뇨 지방간에서 BMI와 AST를 줄였지만 ALT는 못 줄였습니다",
+  "effect": "BMI -0.77·AST -5.94 U/L",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 307,
+  "synth": "meta",
+  "why": "허가사항은 제2형 당뇨병이며 지방간 치료는 허가 적응증이 아닙니다. 비당뇨 지방간 무작위시험을 합친 메타분석을 확인했습니다.",
+  "saw": "비당뇨 지방간 환자 307명을 포함한 6개 무작위시험에서 메트포르민은 대조군보다 체질량지수와 AST를 낮췄지만 ALT 차이는 유의하지 않았습니다.",
+  "limit": "시험 수가 적고 간효소와 체성분을 주로 봤습니다. 지방섬유화나 간경변 같은 임상 결과의 개선을 뜻하지 않습니다.",
+  "against": "반대 검색 136건에서 ALT 차이가 없거나 연구 규모와 질이 부족하다는 결과를 확인했습니다.",
+  "use": "비당뇨 지방간의 대리지표 변화로만 기록하고 간질환 치료 효과로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2020 · 비당뇨 지방간 메트포르민 무작위시험 메타분석",
+      "doi": "10.1016/j.phrs.2020.104799",
+      "pmid": "32278041"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"METFORMIN\" → 386건 반환; 지방간 적응증 없음",
+    "ctgov": "query.intr=metformin&query.cond=Fatty Liver&countTotal=true&pageSize=1000 → 52건 반환, InterventionName exact 일치 21건",
+    "pubmed": "metformin AND \"Fatty Liver\" → 917건",
+    "negative": "metformin AND \"Fatty Liver\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 136건",
+    "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10,097건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "metformin-weight-loss-pos",
+  "subj": "메트포르민",
+  "claim": "메트포르민이 비당뇨 과체중·비만의 체중을 줄인다",
+  "line": "비당뇨 과체중·비만에서 체질량지수를 조금 줄였습니다",
+  "effect": "BMI -0.56 kg/m²",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "why": "허가사항은 제2형 당뇨병이며 비당뇨 과체중·비만은 허가 적응증이 아닙니다. 무작위시험을 합친 메타분석에서 체중 결과를 확인했습니다.",
+  "saw": "당뇨병이 없는 과체중·비만 성인을 대상으로 한 49개 무작위시험 메타분석에서 메트포르민은 위약보다 체질량지수를 0.56 kg/m² 낮췄습니다. 연구 합산 인원은 초록에 제시되지 않았습니다.",
+  "limit": "포함 연구의 질이 낮고 체중 감소가 modest했습니다. 생활요법이나 다른 비만 치료와 비교한 결과가 달랐고 장기 건강 결과는 확인하지 못했습니다.",
+  "against": "반대 검색 295건에서 생활요법과 차이가 없거나 다른 비만약보다 효과가 작다는 결과를 확인했습니다.",
+  "use": "비당뇨 과체중·비만에서 작은 체질량지수 변화가 관찰됐다는 근거로 한정해야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · 비당뇨 과체중·비만 메트포르민 무작위시험 메타분석",
+      "doi": "10.1111/dom.15501",
+      "pmid": "38468148"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"METFORMIN\" → 386건 반환; 제2형 당뇨병 적응증",
+    "ctgov": "query.intr=metformin&query.cond=Weight Loss&countTotal=true&pageSize=1000 → 36건 반환, InterventionName exact 일치 18건",
+    "pubmed": "metformin AND \"Weight Loss\" → 1,979건",
+    "negative": "metformin AND \"Weight Loss\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 295건",
+    "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10,097건"
+  }
+}

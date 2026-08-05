@@ -1,0 +1,31 @@
+{
+  "id": "aspirin-preeclampsia-pos",
+  "subj": "아스피린",
+  "claim": "아스피린이 임신중독증을 예방한다",
+  "line": "임신 중 전자간증 위험을 24% 낮췄습니다",
+  "effect": "전자간증 위험 24%↓",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 46568,
+  "synth": "meta",
+  "why": "아스피린의 허가 라벨에는 임신중독증 예방 적응증이 없습니다. 임신 중 아스피린 예방 무작위시험을 합친 메타분석을 확인했습니다.",
+  "saw": "임신부 46,568명을 포함한 35개 위약대조 무작위시험 메타분석에서 전자간증 위험과 조산·주산기 사망·자궁내성장지연 위험이 낮아졌고 출혈 증가는 없었습니다.",
+  "limit": "시험마다 위험도와 시작 시점이 달랐고 아스피린 용량별 효과 차이는 확인되지 않았습니다. 모든 임신부에게 같은 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 353건에서 임신성 고혈압은 줄지 않았고 연구별 시작 시점과 결과가 달랐다는 점을 확인했습니다.",
+  "use": "고위험 임신의 전자간증 예방 근거로 한정하고 일반 임신 관리 효과로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2021 · 임신 중 아스피린 예방 무작위시험 메타분석",
+      "doi": "10.1016/j.amepre.2021.01.032",
+      "pmid": "33795180"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"ASPIRIN\" → 719건 반환; 임신중독증 적응증 없음",
+    "ctgov": "query.intr=aspirin&query.cond=Preeclampsia&countTotal=true&pageSize=1000 → 87건 반환, InterventionName exact 일치 19건",
+    "pubmed": "aspirin AND \"Preeclampsia\" → 1,812건",
+    "negative": "aspirin AND \"Preeclampsia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 353건",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27,505건"
+  }
+}
