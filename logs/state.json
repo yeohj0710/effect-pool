@@ -3,11 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 478,
   "worklist": {
-    "checked": 6074,
-    "unchecked": 0,
+    "checked": 6084,
+    "unchecked": 193,
     "no_evidence_pending": 0,
     "next_batch": [
-    
+      "propranolol-ovarian-carcinoma",
+      "propranolol-cirrhosis",
+      "naltrexone-alcoholism",
+      "naltrexone-marijuana-use",
+      "naltrexone-obesity",
+      "naltrexone-pain",
+      "gabapentin-cancer",
+      "gabapentin-opioid-use",
+      "gabapentin-nausea",
+      "gabapentin-drug-dependence"
     ]
   },
   "verification": {
@@ -31,14 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "creatine-muscle (existing: creatine-muscle)",
-    "creatine-major-depressive-disorder (existing: creatine-major-depressive-disorder)",
-    "creatine-sarcopenia (existing: creatine-sarcopenia)",
-    "creatine-sport-performance (existing: creatine-sport-performance)",
-    "berberine-schizophrenia (existing: berberine-schizophrenia)",
-    "berberine-metabolic-syndrome (existing: berberine-metabolic-syndrome)",
-    "berberine-hiv-1-infection (new: berberine-hiv-1-infection)",
-    "berberine-gastritis (new: berberine-gastritis)"
+    "metformin-lung-cancer (existing: metformin-lung-cancer-null)",
+    "metformin-polycystic-ovary (existing: metformin-polycystic-ovary-syndrome-pos)",
+    "metformin-obesity (existing: metformin-obesity-pos)",
+    "metformin-insulin-resistance (existing: metformin-insulin-resistance-trial)",
+    "aspirin-stroke (existing: aspirin-stroke-pos)",
+    "aspirin-colon-cancer (existing: aspirin-cancer-null)",
+    "aspirin-brain-infarction (existing: aspirin-brain-infarction-pos)",
+    "aspirin-cardiovascular-events (existing: aspirin-cardiovascular-disease-open)",
+    "propranolol-migraine (existing: propranolol-migraine-pos)",
+    "propranolol-stress-reaction (existing: propranolol-stress-reaction-null)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -66,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "creatine, berberine",
-    "current_batch": "creatine, berberine",
-    "next_action": "run expand-worklist; add direct substances if builtin candidates are exhausted"
+    "last_committed_batch": "metformin, aspirin, propranolol",
+    "current_batch": "metformin, aspirin, propranolol",
+    "next_action": "commit, push, then process next batch"
   }
 }
