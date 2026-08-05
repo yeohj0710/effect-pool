@@ -9538,3 +9538,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] daptomycin — Infections에 듣는다  <!-- 시험 12건 · 논문 3765편 -->
 - [ ] daptomycin — Endocarditis에 듣는다  <!-- 시험 9건 · 논문 636편 -->
 - [ ] daptomycin — Infectious에 듣는다  <!-- 시험 9건 · 논문 1466편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] abemaciclib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 51편 -->
+- [ ] abemaciclib — Neoplasm에 듣는다  <!-- 시험 30건 · 논문 889편 -->
+- [ ] abemaciclib — Neoplasms에 듣는다  <!-- 시험 15건 · 논문 889편 -->
+- [ ] abemaciclib — Sarcoma에 듣는다  <!-- 시험 11건 · 논문 25편 -->
+- [ ] bicalutamide — Breast Neoplasms에 듣는다  <!-- 시험 16건 · 논문 145편 -->
+- [ ] bicalutamide — Metastatic Disease에 듣는다  <!-- 시험 5건 · 논문 302편 -->
+- [ ] bisoprolol — Heart Rate에 듣는다  <!-- 시험 19건 · 논문 669편 -->
+- [ ] bisoprolol — Left Atrial Rhythm에 듣는다  <!-- 시험 10건 · 논문 17편 -->
+- [ ] bisoprolol — Myocardial Infarct에 듣는다  <!-- 시험 8건 · 논문 186편 -->
+- [ ] colesevelam — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 113편 -->
+- [ ] colesevelam — Diarrhea에 듣는다  <!-- 시험 6건 · 논문 58편 -->
+- [ ] cyproterone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 9건 · 논문 307편 -->
+- [ ] cyproterone — Acne Vulgaris에 듣는다  <!-- 시험 4건 · 논문 259편 -->
+- [ ] cyproterone — Hyperandrogenism에 듣는다  <!-- 시험 3건 · 논문 176편 -->
+- [ ] doxylamine — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 287편 -->
+- [ ] flutamide — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 168편 -->
+- [ ] flutamide — Prostatic Neoplasms에 듣는다  <!-- 시험 5건 · 논문 1314편 -->
+- [ ] levamisole — Colorectal Cancer에 듣는다  <!-- 시험 4건 · 논문 464편 -->
+- [ ] meloxicam — Osteoarthritis에 듣는다  <!-- 시험 17건 · 논문 249편 -->
+- [ ] meloxicam — Arthritis에 듣는다  <!-- 시험 11건 · 논문 381편 -->
+- [ ] meloxicam — Migraine에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [ ] phenazopyridine — Cystoscopy에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+- [ ] phenazopyridine — Pain에 듣는다  <!-- 시험 3건 · 논문 41편 -->
+- [ ] ketoprofen — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 160편 -->
+- [ ] ketoprofen — Migraine에 듣는다  <!-- 시험 10건 · 논문 54편 -->
+- [ ] ketoprofen — Sprain에 듣는다  <!-- 시험 7건 · 논문 28편 -->
+- [ ] ketoprofen — Cesarean Section에 듣는다  <!-- 시험 5건 · 논문 29편 -->
