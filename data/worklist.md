@@ -7648,11 +7648,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 이미 수록됨(n-acetylcysteine-kidney-disease-null)  <!-- 시험 24건 · 논문 1415편 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 이미 수록됨(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 시험 15건 · 논문 357편 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 이미 수록됨(n-acetylcysteine-oxidative-stress)  <!-- 시험 14건 · 논문 6597편 -->
-- [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 시험 13건 · 논문 52편 -->
-- [ ] creatine — Muscle에 듣는다  <!-- 시험 15건 · 논문 29399편 -->
-- [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 시험 13건 · 논문 206편 -->
-- [ ] creatine — Sarcopenia에 듣는다  <!-- 시험 13건 · 논문 301편 -->
-- [ ] creatine — Sport Performance에 듣는다  <!-- 시험 13건 · 논문 2262편 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 48편 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 시험 8건 · 논문 181편 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 시험 8건 · 논문 35편 -->
+- [x] n-acetylcysteine — Cocaine Dependence에 듣는다 — 이미 수록됨(n-acetylcysteine-cocaine-dependence-null)  <!-- 시험 13건 · 논문 52편 -->
+- [x] creatine — Muscle에 듣는다 — 이미 수록됨(creatine-muscle)  <!-- 시험 15건 · 논문 29399편 -->
+- [x] creatine — Major Depressive Disorder에 듣는다 — 이미 수록됨(creatine-major-depressive-disorder)  <!-- 시험 13건 · 논문 206편 -->
+- [x] creatine — Sarcopenia에 듣는다 — 이미 수록됨(creatine-sarcopenia)  <!-- 시험 13건 · 논문 301편 -->
+- [x] creatine — Sport Performance에 듣는다 — 이미 수록됨(creatine-sport-performance)  <!-- 시험 13건 · 논문 2262편 -->
+- [x] berberine — Schizophrenia에 듣는다 — 이미 수록됨(berberine-schizophrenia)  <!-- 시험 9건 · 논문 48편 -->
+- [x] berberine — Metabolic Syndrome에 듣는다 — 이미 수록됨(berberine-metabolic-syndrome)  <!-- 시험 8건 · 논문 181편 -->
+- [x] berberine — Gastritis에 듣는다 — 이미 수록됨(berberine-gastritis)  <!-- 시험 8건 · 논문 35편 -->

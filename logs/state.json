@@ -3,18 +3,11 @@
   "root": "C:\\dev\\offlabel-pool",
     "entries": 500,
   "worklist": {
-    "checked": 6983,
-    "unchecked": 8,
+    "checked": 6991,
+    "unchecked": 0,
     "no_evidence_pending": 0,
     "next_batch": [
-      "n-acetylcysteine-cocaine-dependence",
-      "creatine-muscle",
-      "creatine-major-depressive-disorder",
-      "creatine-sarcopenia",
-      "creatine-sport-performance",
-      "berberine-schizophrenia",
-      "berberine-metabolic-syndrome",
-      "berberine-gastritis"
+      "<none>"
     ]
   },
   "verification": {
@@ -38,16 +31,14 @@
     "deployment_id": "dpl_6KVTDNH7JGEapQM5TnBihoLK2Zg7"
   },
     "last_batch": [
-      "raloxifene-schizophrenia (already represented)",
-      "raloxifene-schizoaffective-disorder (already represented)",
-      "raloxifene-schizophreniform-disorder (already represented)",
-      "allopurinol-gout (approved indication)",
-      "allopurinol-lymphoma (already represented)",
-      "allopurinol-hyperuricemia (already represented)",
-      "allopurinol-kidney-stones (approved indication)",
-      "n-acetylcysteine-kidney-disease (already represented)",
-      "n-acetylcysteine-pulmonary-fibrosis (already represented)",
-      "n-acetylcysteine-oxidative-stress (already represented)"
+      "n-acetylcysteine-cocaine-dependence (already represented)",
+      "creatine-muscle (already represented)",
+      "creatine-major-depressive-disorder (already represented)",
+      "creatine-sarcopenia (already represented)",
+      "creatine-sport-performance (already represented)",
+      "berberine-schizophrenia (already represented)",
+      "berberine-metabolic-syndrome (already represented)",
+      "berberine-gastritis (already represented)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -98,8 +89,8 @@
       "gabapentin-nausea (already represented)",
       "gabapentin-drug-dependence (already represented)"
     ],
-    "current_batch": "propranolol naltrexone gabapentin expanded batch completed",
-    "next_action": "process next 10 expanded worklist items; build, commit, push",
+    "current_batch": "final expanded worklist batch completed",
+    "next_action": "run expand-worklist.mjs --write because worklist is empty",
     "expansion_checkpoint": "expanded worklist with 208 paper-backed candidates on 2026-08-05"
   }
 }
