@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 628,
   "worklist": {
-    "checked": 5382,
-    "unchecked": 456,
+    "checked": 5392,
+    "unchecked": 446,
     "no_evidence_pending": 0,
     "next_batch": [
-      "metformin-lung-cancer",
-      "metformin-polycystic-ovary",
-      "metformin-obesity",
-      "metformin-insulin-resistance",
-      "aspirin-stroke",
-      "aspirin-colon-cancer",
-      "aspirin-brain-infarction",
-      "aspirin-cardiovascular-events",
-      "propranolol-migraine",
-      "propranolol-stress-reaction"
+      "propranolol-ovarian-carcinoma",
+      "propranolol-cirrhosis",
+      "naltrexone-alcoholism",
+      "naltrexone-marijuana-use",
+      "naltrexone-obesity",
+      "naltrexone-pain",
+      "gabapentin-cancer",
+      "gabapentin-opioid-use",
+      "gabapentin-nausea",
+      "gabapentin-drug-dependence"
     ]
   },
   "verification": {
@@ -40,10 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "berberine-schizophrenia (existing)",
-    "berberine-metabolic-syndrome (existing)",
-    "berberine-hiv-1-infection (existing)",
-    "berberine-gastritis (existing)"
+    "metformin-lung-cancer (existing)",
+    "metformin-polycystic-ovary (existing)",
+    "metformin-obesity (existing)",
+    "metformin-insulin-resistance (existing)",
+    "aspirin-stroke (existing)",
+    "aspirin-colon-cancer (existing)",
+    "aspirin-brain-infarction (existing)",
+    "aspirin-cardiovascular-events (existing)",
+    "propranolol-migraine (approved)",
+    "propranolol-stress-reaction (existing)"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -71,8 +77,8 @@
     "added_candidates": 284
   },
   "resume": {
-    "last_committed_batch": "berberine",
-    "current_batch": "metformin, aspirin, propranolol",
+    "last_committed_batch": "metformin, aspirin, propranolol",
+    "current_batch": "propranolol, naltrexone, gabapentin",
     "next_action": "build, commit, push, then process next batch"
   }
 }
