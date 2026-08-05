@@ -9749,3 +9749,55 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] sodium oxybate — Alcohol Dependence에 듣는다  <!-- 시험 4건 · 논문 130편 -->
 - [ ] azelaic acid — Melasma에 듣는다  <!-- 시험 5건 · 논문 89편 -->
 - [ ] azelaic acid — Acne에 듣는다  <!-- 시험 4건 · 논문 255편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] atovaquone — HIV에 듣는다  <!-- 시험 14건 · 논문 107편 -->
+- [ ] atovaquone — Pneumocystis에 듣는다  <!-- 시험 12건 · 논문 247편 -->
+- [ ] atovaquone — Toxoplasmosis에 듣는다  <!-- 시험 3건 · 논문 144편 -->
+- [ ] atovaquone — Falciparum에 듣는다  <!-- 시험 3건 · 논문 628편 -->
+- [ ] artemisinin — Plasmodium Falciparum에 듣는다  <!-- 시험 3건 · 논문 5036편 -->
+- [ ] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 -->
+- [ ] doxazosin — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 129편 -->
+- [ ] doxazosin — Substance Abuse에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [ ] etoricoxib — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 160편 -->
+- [ ] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 -->
+- [ ] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 -->
+- [ ] etoricoxib — Headache에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 -->
+- [ ] levocetirizine — Dermatitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
+- [ ] levocetirizine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 62편 -->
+- [ ] ofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 1764편 -->
+- [ ] ofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 3444편 -->
+- [ ] ofloxacin — HIV Infections에 듣는다  <!-- 시험 26건 · 논문 201편 -->
+- [ ] ofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 250편 -->
+- [ ] propofol — Sedation에 듣는다  <!-- 시험 38건 · 논문 7978편 -->
+- [ ] propofol — Surgery에 듣는다  <!-- 시험 30건 · 논문 15880편 -->
+- [ ] propofol — Cancer에 듣는다  <!-- 시험 29건 · 논문 2334편 -->
+- [ ] propofol — Delirium에 듣는다  <!-- 시험 18건 · 논문 842편 -->
+- [ ] sumatriptan — Headache에 듣는다  <!-- 시험 15건 · 논문 1727편 -->
+- [ ] telmisartan — Diabetes에 듣는다  <!-- 시험 10건 · 논문 670편 -->
+- [ ] telmisartan — HIV Infection에 듣는다  <!-- 시험 9건 · 논문 22편 -->
+- [ ] telmisartan — Coronary Disease에 듣는다  <!-- 시험 8건 · 논문 88편 -->
+- [ ] telmisartan — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 155편 -->
+- [ ] torsemide — Edema에 듣는다  <!-- 시험 3건 · 논문 93편 -->
+- [ ] torsemide — Hypertension에 듣는다  <!-- 시험 3건 · 논문 131편 -->
+- [ ] valganciclovir — HIV Infections에 듣는다  <!-- 시험 56건 · 논문 162편 -->
+- [ ] valganciclovir — Leukemia에 듣는다  <!-- 시험 35건 · 논문 43편 -->
+- [ ] valganciclovir — Kidney Diseases에 듣는다  <!-- 시험 25건 · 논문 205편 -->
+- [ ] valganciclovir — CMV에 듣는다  <!-- 시험 16건 · 논문 1388편 -->
+- [ ] vorinostat — Cancer에 듣는다  <!-- 시험 181건 · 논문 2402편 -->
+- [ ] vorinostat — Leukemia에 듣는다  <!-- 시험 139건 · 논문 327편 -->
+- [ ] vorinostat — Myelodysplastic Syndrome에 듣는다  <!-- 시험 36건 · 논문 37편 -->
+- [ ] saccharomyces boulardii — H. Pylori Infection에 듣는다  <!-- 시험 5건 · 논문 72편 -->
+- [ ] saccharomyces boulardii — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 43편 -->
+- [ ] saccharomyces boulardii — Enterocolitis에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [ ] nabiximols — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [ ] nabiximols — Spasticity, Muscle에 듣는다  <!-- 시험 4건 · 논문 134편 -->
