@@ -7568,16 +7568,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] baclofen — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 1866편 -->
 - [x] baclofen — Cerebral Palsy에 듣는다 — 이미 수록됨(baclofen-cerebral-palsy)  <!-- 시험 9건 · 논문 597편 -->
 - [x] baclofen — Alcoholism에 듣는다 — 이미 수록됨(baclofen-alcoholism-null)  <!-- 시험 7건 · 논문 434편 -->
-- [ ] ondansetron — Lymphoma에 듣는다  <!-- 시험 71건 · 논문 69편 -->
-- [ ] ondansetron — Cancer에 듣는다  <!-- 시험 33건 · 논문 1238편 -->
-- [ ] ondansetron — Leukemia에 듣는다  <!-- 시험 28건 · 논문 54편 -->
-- [ ] ondansetron — Anesthesia에 듣는다  <!-- 시험 25건 · 논문 1148편 -->
-- [ ] memantine — Autism에 듣는다  <!-- 시험 19건 · 논문 90편 -->
-- [ ] memantine — Dementia에 듣는다  <!-- 시험 19건 · 논문 2334편 -->
-- [ ] memantine — Cognitive Change에 듣는다  <!-- 시험 17건 · 논문 411편 -->
-- [ ] lithium — Depression에 듣는다  <!-- 시험 32건 · 논문 6937편 -->
-- [ ] lithium — Depressive Disorder에 듣는다  <!-- 시험 25건 · 논문 3845편 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 시험 21건 · 논문 127편 -->
+- [x] ondansetron — Lymphoma에 듣는다 — 이미 수록됨(ondansetron-lymphoma)  <!-- 시험 71건 · 논문 69편 -->
+- [x] ondansetron — Cancer에 듣는다 — 이미 수록됨(ondansetron-cancer-null)  <!-- 시험 33건 · 논문 1238편 -->
+- [x] ondansetron — Leukemia에 듣는다 — 이미 수록됨(ondansetron-leukemia-null)  <!-- 시험 28건 · 논문 54편 -->
+- [x] ondansetron — Anesthesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 25건 · 논문 1148편 -->
+- [x] memantine — Autism에 듣는다 — 이미 수록됨(memantine-autism-null)  <!-- 시험 19건 · 논문 90편 -->
+- [x] memantine — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 2334편 -->
+- [x] memantine — Cognitive Change에 듣는다 — 이미 수록됨(memantine-cognitive-change-open)  <!-- 시험 17건 · 논문 411편 -->
+- [x] lithium — Depression에 듣는다 — 이미 수록됨(lithium-depression)  <!-- 시험 32건 · 논문 6937편 -->
+- [x] lithium — Depressive Disorder에 듣는다 — 이미 수록됨(lithium-depressive-disorder)  <!-- 시험 25건 · 논문 3845편 -->
+- [x] lithium — Tooth Loss에 듣는다 — 이미 수록됨(lithium-tooth-loss-harm)  <!-- 시험 21건 · 논문 127편 -->
 - [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 60편 -->
 - [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 시험 10건 · 논문 393편 -->
 - [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 시험 10건 · 논문 197편 -->
