@@ -9044,25 +9044,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sotorasib — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 55편 -->
 - [x] sotorasib — Metastatic Solid Tumor에 듣는다  <!-- 시험 8건 · 논문 17편 -->
 - [x] sotorasib — Metastatic NSCLC에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 86편 -->
-- [ ] sotorasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 516편 -->
-- [ ] adagrasib — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 211편 -->
-- [ ] adagrasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 280편 -->
-- [ ] adagrasib — NSCLC에 듣는다  <!-- 시험 3건 · 논문 188편 -->
-- [ ] belzutifan — Kidney에 듣는다  <!-- 시험 12건 · 논문 128편 -->
-- [ ] belzutifan — Pheochromocytoma에 듣는다  <!-- 시험 7건 · 논문 40편 -->
-- [ ] belzutifan — Neoplasm Malignant에 듣는다  <!-- 시험 3건 · 논문 159편 -->
-- [ ] enfortumab vedotin — Cancer에 듣는다  <!-- 시험 49건 · 논문 762편 -->
-- [ ] enfortumab vedotin — Advanced Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 43편 -->
-- [ ] enfortumab vedotin — Neoplasm Metastasis에 듣는다  <!-- 시험 4건 · 논문 78편 -->
-- [ ] sacituzumab govitecan — Solid Tumor에 듣는다  <!-- 시험 17건 · 논문 97편 -->
-- [ ] sacituzumab govitecan — Bladder Neoplasm에 듣는다  <!-- 시험 12건 · 논문 69편 -->
-- [ ] sacituzumab govitecan — Brain Metastasis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] trastuzumab deruxtecan — Metastatic에 듣는다  <!-- 시험 30건 · 논문 771편 -->
-- [ ] trastuzumab deruxtecan — Adenocarcinoma (NOS)에 듣는다  <!-- 시험 28건 · 논문 130편 -->
-- [ ] trastuzumab deruxtecan — Urothelial Carcinoma에 듣는다  <!-- 시험 14건 · 논문 33편 -->
-- [ ] epcoritamab — FL에 듣는다  <!-- 시험 17건 · 논문 40편 -->
-- [ ] epcoritamab — Small Lymphocytic Lymphoma에 듣는다  <!-- 시험 13건 · 논문 10편 -->
-- [ ] epcoritamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 12건 · 논문 119편 -->
+- [x] sotorasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 516편 --> — 허가 적응증(2026-08-05)
+- [x] adagrasib — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 211편 --> — 근거 없음(2026-08-05 조회, adagrasib AND Malignant Neoplasm)
+- [x] adagrasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 280편 -->
+- [x] adagrasib — NSCLC에 듣는다  <!-- 시험 3건 · 논문 188편 --> — 허가 적응증(2026-08-05)
+- [x] belzutifan — Kidney에 듣는다  <!-- 시험 12건 · 논문 128편 --> — 허가 적응증(2026-08-05)
+- [x] belzutifan — Pheochromocytoma에 듣는다  <!-- 시험 7건 · 논문 40편 --> — 허가 적응증(2026-08-05)
+- [x] belzutifan — Neoplasm Malignant에 듣는다  <!-- 시험 3건 · 논문 159편 --> — 허가 적응증(2026-08-05)
+- [x] enfortumab vedotin — Cancer에 듣는다  <!-- 시험 49건 · 논문 762편 --> — 허가 적응증(2026-08-05)
+- [x] enfortumab vedotin — Advanced Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 43편 --> — 허가 적응증(2026-08-05)
+- [x] enfortumab vedotin — Neoplasm Metastasis에 듣는다  <!-- 시험 4건 · 논문 78편 --> — 허가 적응증(2026-08-05)
+- [x] sacituzumab govitecan — Solid Tumor에 듣는다  <!-- 시험 17건 · 논문 97편 -->
+- [x] sacituzumab govitecan — Bladder Neoplasm에 듣는다  <!-- 시험 12건 · 논문 69편 -->
+- [x] sacituzumab govitecan — Brain Metastasis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [x] trastuzumab deruxtecan — Metastatic에 듣는다  <!-- 시험 30건 · 논문 771편 --> — 허가 적응증(2026-08-05)
+- [x] trastuzumab deruxtecan — Adenocarcinoma (NOS)에 듣는다  <!-- 시험 28건 · 논문 130편 --> — 근거 없음(2026-08-05 조회, trastuzumab deruxtecan AND Adenocarcinoma NOS)
+- [x] trastuzumab deruxtecan — Urothelial Carcinoma에 듣는다  <!-- 시험 14건 · 논문 33편 --> — 근거 없음(2026-08-05 조회, trastuzumab deruxtecan AND Urothelial Carcinoma)
+- [x] epcoritamab — FL에 듣는다  <!-- 시험 17건 · 논문 40편 --> — 허가 적응증(2026-08-05)
+- [x] epcoritamab — Small Lymphocytic Lymphoma에 듣는다  <!-- 시험 13건 · 논문 10편 -->
+- [x] epcoritamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 12건 · 논문 119편 --> — 허가 적응증(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9073,17 +9073,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] amivantamab — Breast Cancer에 듣는다  <!-- 시험 17건 · 논문 10편 -->
-- [ ] amivantamab — Solid Tumors에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] polatuzumab vedotin — Grade 1 Follicular Lymphoma에 듣는다  <!-- 시험 21건 · 논문 18편 -->
-- [ ] polatuzumab vedotin — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 15건 · 논문 226편 -->
-- [ ] mosunetuzumab — Leukemia에 듣는다  <!-- 시험 6건 · 논문 17편 -->
-- [ ] mosunetuzumab — Relapsed Cancer에 듣는다  <!-- 시험 4건 · 논문 93편 -->
-- [ ] glofitamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 11건 · 논문 119편 -->
-- [ ] glofitamab — Relapsed Cancer에 듣는다  <!-- 시험 6건 · 논문 114편 -->
-- [ ] teclistamab — AL Amyloidosis에 듣는다  <!-- 시험 7건 · 논문 17편 -->
-- [ ] teclistamab — Plasma Cell Leukemia에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] teclistamab — Hematologic Malignancies에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [x] amivantamab — Breast Cancer에 듣는다  <!-- 시험 17건 · 논문 10편 --> — 근거 없음(2026-08-05 조회, amivantamab AND Breast Cancer)
+- [x] amivantamab — Solid Tumors에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 근거 없음(2026-08-05 조회, amivantamab AND Solid Tumors)
+- [x] polatuzumab vedotin — Grade 1 Follicular Lymphoma에 듣는다  <!-- 시험 21건 · 논문 18편 -->
+- [x] polatuzumab vedotin — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 15건 · 논문 226편 --> — 허가 적응증(2026-08-05)
+- [x] mosunetuzumab — Leukemia에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 근거 없음(2026-08-05 조회, mosunetuzumab AND Leukemia)
+- [x] mosunetuzumab — Relapsed Cancer에 듣는다  <!-- 시험 4건 · 논문 93편 --> — 근거 없음(2026-08-05 조회, mosunetuzumab AND Relapsed Cancer)
+- [x] glofitamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 11건 · 논문 119편 --> — 허가 적응증(2026-08-05)
+- [x] glofitamab — Relapsed Cancer에 듣는다  <!-- 시험 6건 · 논문 114편 --> — 근거 없음(2026-08-05 조회, glofitamab AND Relapsed Cancer)
+- [x] teclistamab — AL Amyloidosis에 듣는다  <!-- 시험 7건 · 논문 17편 -->
+- [x] teclistamab — Plasma Cell Leukemia에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [x] teclistamab — Hematologic Malignancies에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-05 조회, teclistamab AND Hematologic Malignancies)
 - [ ] mirvetuximab soravtansine — Recurrent Ovarian Cancer에 듣는다  <!-- 시험 14건 · 논문 58편 -->
 - [ ] mirvetuximab soravtansine — Folate Receptor Alpha Positive에 듣는다  <!-- 시험 3건 · 논문 65편 -->
 - [ ] capivasertib — Solid Tumour에 듣는다  <!-- 시험 14건 · 논문 27편 -->
