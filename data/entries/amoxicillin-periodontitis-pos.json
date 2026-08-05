@@ -1,0 +1,28 @@
+{
+  "id": "amoxicillin-periodontitis-pos",
+  "subj": "아목시실린",
+  "claim": "당뇨병 동반 치주염의 치주 상태를 개선한다",
+  "line": "당뇨병 동반 치주염에서 치주 주머니와 출혈이 줄었습니다",
+  "effect": "치주 주머니 깊이·출혈↓",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 209,
+  "synth": "meta",
+  "why": "당뇨병과 만성 치주염 환자에서 아목시실린·메트로니다졸 보조요법을 평가한 무작위시험 체계적 문헌고찰입니다.",
+  "saw": "4개 무작위시험 209명을 검토한 문헌고찰에서 아목시실린·메트로니다졸 병용은 치주 주머니 깊이, 임상 부착수준, 출혈을 줄였습니다. 다만 무수술 치료와 수술·클린다마이신 비교에서는 우월성이 일관되지 않았습니다.",
+  "limit": "아목시실린 단독 효과가 아니라 메트로니다졸과 치주 처치에 더한 보조요법 결과이며, 장기 근거와 확실성이 부족합니다.",
+  "against": "더 넓은 메타분석에서는 병용 항생제가 임상 지표를 개선했지만 이상반응이 더 자주 보고됐습니다.",
+  "use": "항생제 병용 보조요법의 치주 지표와 아목시실린 단독 효과를 구분해야 합니다.",
+  "refs": [
+    { "label": "Mugri 2022 · Medicina · 당뇨병 치주염 아목시실린 메타분석", "doi": "10.3390/medicina58111605", "pmid": "36363562", "pmc": "PMC9695465" },
+    { "label": "Teughels 2020 · J Clin Periodontol · 치주 항생제 메타분석", "doi": "10.1111/jcpe.13264", "pmid": "31994207" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:amoxicillin → 391건; Periodontitis 적응증 문구 없음",
+    "ctgov": "query.intr=amoxicillin&query.cond=Periodontitis → 43건 반환, InterventionName 대조 후 30건",
+    "pubmed": "amoxicillin Periodontitis → 866건; amoxicillin periodontitis randomized → 217건",
+    "negative": "amoxicillin AND Periodontitis AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 600건",
+    "safety": "amoxicillin AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 8603건"
+  }
+}

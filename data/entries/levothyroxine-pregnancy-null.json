@@ -1,0 +1,27 @@
+{
+  "id": "levothyroxine-pregnancy-null",
+  "subj": "레보티록신",
+  "claim": "무증상 갑상선기능저하증의 임신 결과를 개선한다",
+  "line": "무증상 갑상선기능저하증의 생존출산율과 유산을 개선하지 않았습니다",
+  "effect": "생존출산 RR 1.03",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3390,
+  "synth": "meta",
+  "why": "무증상 갑상선기능저하증에서 임신 전·초기 레보티록신 치료가 임신 결과를 바꾸는지 무작위시험 메타분석으로 평가했습니다.",
+  "saw": "임신 전 치료 5개 연구 768명과 임신 중 치료 8개 연구 2622명을 합친 메타분석에서 생존출산율과 유산률은 유의하게 달라지지 않았습니다. 임신 중 치료의 생존출산 RR은 1.03이었습니다.",
+  "limit": "TSH 기준과 치료 시점이 연구마다 달랐고, TSH 4.0 초과군의 조산 신호는 추가 확인이 필요합니다.",
+  "against": "TSH 2.5~4.0군에서는 조산 효과가 없었고, 생존출산과 유산도 유의한 차이가 없었습니다.",
+  "use": "임신 중 갑상선 호르몬 보충의 생존출산 결과와 특정 TSH 하위군 결과를 구분해야 합니다.",
+  "refs": [
+    { "label": "Sankoda 2024 · Thyroid · 임신 중 레보티록신 무작위시험 메타분석", "doi": "10.1089/thy.2023.0546", "pmid": "38368537" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:levothyroxine → 313건; 허가 문구는 갑상선기능저하증·TSH 억제이고 임신 결과 개선 적응증은 없음",
+    "ctgov": "query.intr=levothyroxine&query.cond=Pregnancy → 36건 반환, InterventionName 대조 후 13건",
+    "pubmed": "levothyroxine Pregnancy → 6467건; levothyroxine pregnancy randomized live birth → 31건",
+    "negative": "levothyroxine AND Pregnancy AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 3379건",
+    "safety": "levothyroxine AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 13881건"
+  }
+}

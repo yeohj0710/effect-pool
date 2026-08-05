@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 489,
+    "entries": 494,
   "worklist": {
-    "checked": 6557,
-    "unchecked": 0,
+    "checked": 6567,
+    "unchecked": 216,
     "no_evidence_pending": 0,
     "next_batch": []
   },
@@ -13,13 +13,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 442,
+      "trial": 447,
       "obs": 37,
       "animal": 1,
       "lab": 2,
       "case": 7
     },
-    "no_effect_or_harm": 239,
+    "no_effect_or_harm": 242,
     "harm": 25,
     "no_effect_or_harm_share": "49%"
   },
@@ -29,14 +29,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
     "last_batch": [
-      "omeprazole-hiv-1-infection (already represented)",
-      "omeprazole-ulcer (approved)",
-      "omeprazole-gastric-acid (created)",
-      "omeprazole-gerd (approved)",
-      "rifampin-hiv (already represented)",
-      "rifampin-healthy-adults (already represented)",
-      "rifampin-lymphoma (already represented)",
-      "rifampin-solid-tumor (already represented)"
+      "levothyroxine-thyroid (approved)",
+      "levothyroxine-pregnancy (created)",
+      "levothyroxine-heart-failure (created)",
+      "levothyroxine-subclinical-hypothyroidism (created)",
+      "amoxicillin-pneumonia (approved)",
+      "amoxicillin-infections (approved)",
+      "amoxicillin-periodontitis (created)",
+      "azithromycin-infection (approved)",
+      "azithromycin-pneumonia (approved)",
+      "azithromycin-malaria (created)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -57,17 +59,26 @@
       "candesartan",
       "carvedilol",
       "furosemide",
-      "amitriptyline"
+      "amitriptyline",
+      "levothyroxine",
+      "amoxicillin",
+      "azithromycin",
+      "ketorolac",
+      "mirtazapine",
+      "venlafaxine",
+      "prednisone",
+      "hydrochlorothiazide"
     ],
-    "builtin_added_candidates": 460,
-    "direct_added_candidates": 80,
-    "added_candidates": 540,
+    "builtin_added_candidates": 660,
+    "direct_added_candidates": 106,
+    "added_candidates": 766,
     "latest_run": "2026-08-05",
-    "latest_candidates": 208
+    "latest_candidates": 226
   },
   "resume": {
     "last_committed_batch": "metoprolol amlodipine pantoprazole batch",
-    "current_batch": "omeprazole rifampin batch",
-    "next_action": "build, commit, push; then expand worklist with new substances"
+    "current_batch": "levothyroxine amoxicillin azithromycin batch",
+    "next_action": "build, commit, push; then process remaining 216 worklist lines",
+    "expansion_checkpoint": "direct substances levothyroxine amoxicillin azithromycin ketorolac mirtazapine venlafaxine prednisone hydrochlorothiazide added 26 candidates"
   }
 }
