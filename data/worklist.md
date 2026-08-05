@@ -8834,25 +8834,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] erlotinib — Tumors에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 7299편 -->
 - [x] formoterol — Pulmonary Emphysema에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 131건 · 논문 26편 -->
 - [x] formoterol — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 1157편 -->
-- [ ] formoterol — Emphysema에 듣는다  <!-- 시험 8건 · 논문 29편 -->
-- [ ] formoterol — Bronchitis에 듣는다  <!-- 시험 7건 · 논문 41편 -->
-- [ ] isoniazid — HIV에 듣는다  <!-- 시험 41건 · 논문 2664편 -->
-- [ ] isoniazid — Kidney Failure에 듣는다  <!-- 시험 6건 · 논문 173편 -->
-- [ ] isoniazid — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 264편 -->
-- [ ] isoniazid — MDR-TB에 듣는다  <!-- 시험 4건 · 논문 1490편 -->
-- [ ] midazolam — Pain에 듣는다  <!-- 시험 42건 · 논문 3191편 -->
-- [ ] midazolam — Anesthesia에 듣는다  <!-- 시험 33건 · 논문 7389편 -->
-- [ ] midazolam — Anxiety에 듣는다  <!-- 시험 32건 · 논문 2260편 -->
-- [ ] midazolam — Healthy Adults에 듣는다  <!-- 시험 22건 · 논문 960편 -->
-- [ ] phenytoin — Brain Hypoxia에 듣는다  <!-- 시험 11건 · 논문 84편 -->
-- [ ] phenytoin — Seizures에 듣는다  <!-- 시험 6건 · 논문 5580편 -->
-- [ ] phenytoin — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 212편 -->
-- [ ] phenytoin — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 1068편 -->
-- [ ] tizanidine — Spinal Cord Injury에 듣는다  <!-- 시험 5건 · 논문 46편 -->
-- [ ] tizanidine — Spasticity에 듣는다  <!-- 시험 4건 · 논문 245편 -->
-- [ ] tizanidine — Migraine에 듣는다  <!-- 시험 3건 · 논문 20편 -->
-- [ ] tolterodine — Incontinence에 듣는다  <!-- 시험 27건 · 논문 535편 -->
-- [ ] tolterodine — Pain에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [x] formoterol — Emphysema에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 29편 -->
+- [x] formoterol — Bronchitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 41편 -->
+- [x] isoniazid — HIV에 듣는다  <!-- 시험 41건 · 논문 2664편 -->
+- [x] isoniazid — Kidney Failure에 듣는다 — 근거 없음(2026-08-05 조회, "isoniazid AND Kidney Failure")  <!-- 시험 6건 · 논문 173편 -->
+- [x] isoniazid — Diabetes Mellitus에 듣는다 — 근거 없음(2026-08-05 조회, "isoniazid AND Diabetes Mellitus")  <!-- 시험 4건 · 논문 264편 -->
+- [x] isoniazid — MDR-TB에 듣는다  <!-- 시험 4건 · 논문 1490편 -->
+- [x] midazolam — Pain에 듣는다  <!-- 시험 42건 · 논문 3191편 -->
+- [x] midazolam — Anesthesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 33건 · 논문 7389편 -->
+- [x] midazolam — Anxiety에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 32건 · 논문 2260편 -->
+- [x] midazolam — Healthy Adults에 듣는다 — 근거 없음(2026-08-05 조회, "midazolam AND Healthy Adults")  <!-- 시험 22건 · 논문 960편 -->
+- [x] phenytoin — Brain Hypoxia에 듣는다 — 근거 없음(2026-08-05 조회, "phenytoin AND Brain Hypoxia")  <!-- 시험 11건 · 논문 84편 -->
+- [x] phenytoin — Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 5580편 -->
+- [x] phenytoin — Healthy Participants에 듣는다 — 근거 없음(2026-08-05 조회, "phenytoin AND Healthy Participants")  <!-- 시험 4건 · 논문 212편 -->
+- [x] phenytoin — Status Epilepticus에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 1068편 -->
+- [x] tizanidine — Spinal Cord Injury에 듣는다  <!-- 시험 5건 · 논문 46편 -->
+- [x] tizanidine — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 245편 -->
+- [x] tizanidine — Migraine에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [x] tolterodine — Incontinence에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 27건 · 논문 535편 -->
+- [x] tolterodine — Pain에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8863,17 +8863,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] buprenorphine — Pain에 듣는다  <!-- 시험 99건 · 논문 3370편 -->
-- [ ] buprenorphine — Drug Dependence에 듣는다  <!-- 시험 60건 · 논문 7446편 -->
-- [ ] buprenorphine — Drug Use에 듣는다  <!-- 시험 23건 · 논문 10373편 -->
-- [ ] buprenorphine — HIV에 듣는다  <!-- 시험 21건 · 논문 640편 -->
-- [ ] psilocybin — Major Depression에 듣는다  <!-- 시험 50건 · 논문 444편 -->
-- [ ] psilocybin — Alcohol Abuse에 듣는다  <!-- 시험 44건 · 논문 112편 -->
-- [ ] psilocybin — Cancer에 듣는다  <!-- 시험 28건 · 논문 231편 -->
-- [ ] psilocybin — PTSD에 듣는다  <!-- 시험 21건 · 논문 237편 -->
-- [ ] MDMA — PTSD에 듣는다  <!-- 시험 9건 · 논문 401편 -->
-- [ ] MDMA — Stimulant Use에 듣는다  <!-- 시험 7건 · 논문 1635편 -->
-- [ ] MDMA — Substance-related Disorder에 듣는다  <!-- 시험 7건 · 논문 1913편 -->
+- [x] buprenorphine — Pain에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 99건 · 논문 3370편 -->
+- [x] buprenorphine — Drug Dependence에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 60건 · 논문 7446편 -->
+- [x] buprenorphine — Drug Use에 듣는다 — 근거 없음(2026-08-05 조회, "buprenorphine AND Drug Use")  <!-- 시험 23건 · 논문 10373편 -->
+- [x] buprenorphine — HIV에 듣는다 — 근거 없음(2026-08-05 조회, "buprenorphine AND HIV")  <!-- 시험 21건 · 논문 640편 -->
+- [x] psilocybin — Major Depression에 듣는다  <!-- 시험 50건 · 논문 444편 -->
+- [x] psilocybin — Alcohol Abuse에 듣는다  <!-- 시험 44건 · 논문 112편 -->
+- [x] psilocybin — Cancer에 듣는다  <!-- 시험 28건 · 논문 231편 -->
+- [x] psilocybin — PTSD에 듣는다 — 근거 없음(2026-08-05 조회, "psilocybin AND PTSD")  <!-- 시험 21건 · 논문 237편 -->
+- [x] MDMA — PTSD에 듣는다  <!-- 시험 9건 · 논문 401편 -->
+- [x] MDMA — Stimulant Use에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Stimulant Use")  <!-- 시험 7건 · 논문 1635편 -->
+- [x] MDMA — Substance-related Disorder에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Substance-related Disorder")  <!-- 시험 7건 · 논문 1913편 -->
 - [ ] MDMA — Interaction에 듣는다  <!-- 시험 5건 · 논문 677편 -->
 - [ ] varenicline — Opioid Dependence에 듣는다  <!-- 시험 91건 · 논문 47편 -->
 - [ ] varenicline — Tobacco에 듣는다  <!-- 시험 55건 · 논문 1444편 -->
