@@ -6294,16 +6294,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pentoxifylline — Pancreatitis에 듣는다 — 기존 항목(pentoxifylline-pancreatitis-null)  <!-- 등록 시험 8건 -->
 - [x] sirolimus — Leukemia에 듣는다 — 기존 항목(sirolimus-leukemia)  <!-- 등록 시험 80건 -->
 - [x] sirolimus — Renal Cell Cancer에 듣는다 — 기존 항목(sirolimus-renal-cell-cancer-open)  <!-- 등록 시험 63건 -->
-- [ ] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
-- [ ] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] rapamycin — Aging에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Heart Diseases에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Stenosis Artery에 듣는다 — 기존 항목(sirolimus-stenosis-artery-pos)  <!-- 등록 시험 56건 -->
+- [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 45건 -->
+- [x] rapamycin — Urothelial Carcinoma에 듣는다 — 기존 항목(rapamycin-urothelial-carcinoma-open)  <!-- 등록 시험 19건 -->
+- [x] rapamycin — Aging에 듣는다 — 기존 항목(rapamycin-aging-open)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Heart Diseases에 듣는다 — 기존 항목(rapamycin-heart-diseases-pos)  <!-- 등록 시험 9건 -->
+- [x] rapamycin — Tuberous Sclerosis에 듣는다 — 기존 항목(rapamycin-tuberous-sclerosis-pos)  <!-- 등록 시험 7건 -->
+- [x] montelukast — Rhinitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 41건 -->
+- [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
+- [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
+- [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
 - [ ] atorvastatin — Coronary Disease에 듣는다  <!-- 등록 시험 77건 -->
 - [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 50건 -->
 - [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
