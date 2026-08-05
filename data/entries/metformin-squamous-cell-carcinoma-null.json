@@ -1,0 +1,31 @@
+{
+  "id": "metformin-squamous-cell-carcinoma-null",
+  "subj": "metformin",
+  "claim": "메트포르민이 피부 편평상피암 위험을 낮춘다",
+  "line": "피부 편평상피암 위험은 유의하게 줄지 않았습니다",
+  "effect": "SCC OR 0.98",
+  "tier": "trial",
+  "dir": "null",
+  "n": 363287,
+  "synth": "meta",
+  "why": "메트포르민의 허가사항은 제2형 당뇨병 혈당 조절이며 피부암 예방은 아닙니다.",
+  "saw": "6개 무작위시험 8541명 메타분석에서 SCC OR은 0.98(95% CI 0.06–15.60)로 유의한 위험 감소가 없었습니다. 4개 코호트 354746명에서도 피부암 위험 감소는 유의하지 않았습니다.",
+  "limit": "SCC 결과는 피부암 분석의 일부였고 OR 신뢰구간이 매우 넓어 예방 효과를 확정하지 못합니다.",
+  "against": "무작위시험과 코호트 분석 모두 피부암 위험의 유의한 감소를 보이지 않았습니다.",
+  "use": "당뇨 환자의 피부 편평상피암 예방 가설을 검토하는 근거로만 사용합니다.",
+  "refs": [
+    {
+      "label": "Chang 2021 · Cancer Prevention Research · 피부암 메타분석",
+      "doi": "10.1158/1940-6207.CAPR-20-0376",
+      "pmid": "32958585"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
+    "ctgov": "query.intr=metformin&query.cond=Squamous Cell Carcinoma → 14건 반환, 조건 묶음 후보 13건",
+    "pubmed": "metformin AND \"squamous cell carcinoma\" → 197건",
+    "negative": "metformin AND \"squamous cell carcinoma\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 148건",
+    "safety": "metformin AND \"squamous cell carcinoma\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 38건"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "metformin-adenocarcinoma-null",
+  "subj": "metformin",
+  "claim": "메트포르민이 선암 생존을 늘린다",
+  "line": "췌장 선암 생존은 유의하게 늘지 않았습니다",
+  "effect": "생존 HR 0.67배(무효)",
+  "tier": "obs",
+  "dir": "null",
+  "n": 111,
+  "synth": "meta",
+  "why": "메트포르민의 허가사항은 제2형 당뇨병 혈당 조절이며 항암 적응증은 아닙니다.",
+  "saw": "절제된 췌장 선암 당뇨 환자를 다룬 2개 연구 111명 메타분석에서 통합 생존 HR은 0.668(95% CI 0.397–1.125), 유의하지 않았습니다.",
+  "limit": "췌장 선암 절제·당뇨 환자에 한정된 소규모 관찰 근거라 다른 선암에 일반화할 수 없습니다.",
+  "against": "단일기관 44명 분석에서도 메트포르민군과 비사용군의 생존 차이가 유의하지 않았습니다.",
+  "use": "당뇨를 동반한 절제 췌장 선암의 제한적 생존 가설을 설명하는 데만 사용합니다.",
+  "refs": [
+    {
+      "label": "Ambe 2016 · PLOS ONE · 췌장 선암 생존 분석",
+      "doi": "10.1371/journal.pone.0151632",
+      "pmid": "26967162",
+      "pmc": "PMC4788143"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
+    "ctgov": "query.intr=metformin&query.cond=Adenocarcinoma → 44건 반환, 조건 묶음 후보 12건",
+    "pubmed": "metformin AND adenocarcinoma → 710건",
+    "negative": "metformin AND adenocarcinoma AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 533건",
+    "safety": "metformin AND adenocarcinoma AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 111건"
+  }
+}

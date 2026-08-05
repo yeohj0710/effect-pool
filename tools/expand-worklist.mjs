@@ -50,6 +50,23 @@ const targets = drugs.length ? drugs : SEED;
 
 const wl = existsSync(WL) ? readFileSync(WL, "utf8") : "";
 const existing = new Set();
+const pairs = new Set();
+
+const pairKey = (drug, condition) =>
+  `${drug}::${condition}`.toLowerCase().replace(/\s+/g, " ").trim();
+
+function rememberPair(line) {
+  if (!/^- \[[ x]\]/.test(line)) return;
+  const body = line.replace(/^- \[[ x]\]\s*/, "");
+  const sep = body.indexOf(" — ");
+  if (sep < 0) return;
+  const drug = body.slice(0, sep).trim();
+  const rest = body.slice(sep + 3).split("  <!--")[0].split(" — ")[0];
+  const condition = rest.replace(/\s*에 듣는다\s*$/, "").trim();
+  if (drug && condition) pairs.add(pairKey(drug, condition));
+}
+
+wl.split("\n").forEach(rememberPair);
 
 wl.split("\n").filter((l) => /^- \[[ x]\]/.test(l)).forEach((l) => {
   existing.add(l.replace(/^- \[[ x]\]\s*/, "").split("—")[0].trim().toLowerCase());
@@ -176,6 +193,7 @@ for (const drug of targets) {
       .filter((g) => g.n >= MIN_TRIALS)
       .filter((g) => overlap(g.key, onLabel.key) < 0.4)
       .filter((g) => !claims.has((drug + g.name).toLowerCase().replace(/\s+/g, "")))
+      .filter((g) => !pairs.has(pairKey(drug, g.name)))
       .slice(0, MAX_PER_DRUG);
 
     // 논문이 있는 조합만 남긴다
@@ -193,6 +211,9 @@ for (const drug of targets) {
       + (dropped ? ` (논문 부족으로 ${dropped}개 뺌)` : ""));
 
     for (const g of solid) {
+      const key = pairKey(drug, g.name);
+      if (pairs.has(key)) continue;
+      pairs.add(key);
       lines.push(`- [ ] ${drug} — ${g.name}에 듣는다  <!-- 시험 ${g.n}건 · 논문 ${g.papers}편 -->`);
     }
   } catch (err) {

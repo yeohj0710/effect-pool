@@ -1,9 +1,9 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 500,
+    "entries": 503,
   "worklist": {
-    "checked": 7199,
+    "checked": 7203,
     "unchecked": 0,
     "no_evidence_pending": 0,
     "next_batch": [
@@ -15,13 +15,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 0,
     "tier_distribution": {
-      "trial": 452,
-      "obs": 37,
+      "trial": 454,
+      "obs": 38,
       "animal": 1,
       "lab": 2,
       "case": 8
     },
-    "no_effect_or_harm": 244,
+    "no_effect_or_harm": 246,
     "harm": 26,
     "no_effect_or_harm_share": "49%"
   },
@@ -31,16 +31,10 @@
     "deployment_id": "dpl_6KVTDNH7JGEapQM5TnBihoLK2Zg7"
   },
     "last_batch": [
-      "bupropion-major-depression (approved indication)",
-      "bupropion-tobacco-use (approved indication)",
-      "bupropion-depression (approved indication)",
-      "bupropion-cocaine-dependence (already represented)",
-      "sildenafil-renal-dysfunction (already represented)",
-      "sildenafil-cancer (already represented)",
-      "sildenafil-impotence (approved indication)",
-      "bimatoprost-ocular-hypertension (approved indication)",
-      "bimatoprost-alopecia (already represented)",
-      "bimatoprost-hypotrichosis (approved indication)"
+      "metformin-squamous-cell-carcinoma (created)",
+      "metformin-pregnancy (created)",
+      "metformin-adenocarcinoma (created)",
+      "metformin-pcos (already represented)"
     ],
   "expansion": {
     "date": "2026-08-05",
@@ -73,24 +67,20 @@
     ],
     "builtin_added_candidates": 660,
     "direct_added_candidates": 106,
-    "added_candidates": 1182,
+    "added_candidates": 1186,
     "latest_run": "2026-08-05",
-    "latest_candidates": 208
+    "latest_candidates": 4
   },
   "resume": {
-    "last_committed_batch": "n-acetylcysteine creatine berberine repeated batch",
+    "last_committed_batch": "metformin expansion candidates",
     "last_batch": [
-      "n-acetylcysteine-cocaine-dependence (already represented)",
-      "creatine-muscle (already represented)",
-      "creatine-major-depressive-disorder (already represented)",
-      "creatine-sarcopenia (already represented)",
-      "creatine-sport-performance (already represented)",
-      "berberine-schizophrenia (already represented)",
-      "berberine-metabolic-syndrome (already represented)",
-      "berberine-gastritis (already represented)"
+      "metformin-squamous-cell-carcinoma (created)",
+      "metformin-pregnancy (created)",
+      "metformin-adenocarcinoma (created)",
+      "metformin-pcos (already represented)"
     ],
-    "current_batch": "repeated expanded worklist batch",
-    "next_action": "process first 10 repeated expanded candidates; build, commit, push",
-    "expansion_checkpoint": "expanded worklist with 208 paper-backed candidates on 2026-08-05"
+    "current_batch": "metformin expansion candidates",
+    "next_action": "build, commit, push; then expand with deduplicating extractor",
+    "expansion_checkpoint": "deduplicating expansion found 4 paper-backed metformin candidates on 2026-08-05"
   }
 }
