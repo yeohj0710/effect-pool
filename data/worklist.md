@@ -8048,16 +8048,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] losartan — Kidney Disease에 듣는다  <!-- 시험 14건 · 논문 1707편 --> — 허가 적응증(2026-08-05)
 - [x] losartan — Proteinuria에 듣는다  <!-- 시험 12건 · 논문 759편 -->
 - [x] losartan — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 923편 -->
-- [ ] verapamil — Migraine에 듣는다  <!-- 시험 4건 · 논문 221편 -->
-- [ ] verapamil — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 1410편 -->
-- [ ] verapamil — Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 770편 -->
-- [ ] amantadine — Dyskinesia에 듣는다  <!-- 시험 5건 · 논문 717편 -->
-- [ ] amantadine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 202편 -->
-- [ ] amantadine — Influenza에 듣는다  <!-- 시험 4건 · 논문 1686편 -->
-- [ ] amantadine — Covid19에 듣는다  <!-- 시험 4건 · 논문 85편 -->
-- [ ] acetazolamide — Edema에 듣는다  <!-- 시험 8건 · 논문 742편 -->
-- [ ] acetazolamide — Sleep-Disordered Breathing에 듣는다  <!-- 시험 6건 · 논문 171편 -->
-- [ ] acetazolamide — Pulmonary Edema에 듣는다  <!-- 시험 4건 · 논문 172편 -->
+- [x] verapamil — Migraine에 듣는다  <!-- 시험 4건 · 논문 221편 -->
+- [x] verapamil — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 1410편 --> — 허가 적응증(2026-08-05)
+- [x] verapamil — Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 770편 -->
+- [x] amantadine — Dyskinesia에 듣는다  <!-- 시험 5건 · 논문 717편 --> — 허가 적응증(2026-08-05)
+- [x] amantadine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 202편 -->
+- [x] amantadine — Influenza에 듣는다  <!-- 시험 4건 · 논문 1686편 --> — 허가 적응증(2026-08-05)
+- [x] amantadine — Covid19에 듣는다  <!-- 시험 4건 · 논문 85편 --> — 기존 항목(amantadine-covid-19-null)(2026-08-05)
+- [x] acetazolamide — Edema에 듣는다  <!-- 시험 8건 · 논문 742편 --> — 허가 적응증(2026-08-05)
+- [x] acetazolamide — Sleep-Disordered Breathing에 듣는다  <!-- 시험 6건 · 논문 171편 -->
+- [x] acetazolamide — Pulmonary Edema에 듣는다  <!-- 시험 4건 · 논문 172편 -->
 - [ ] acetazolamide — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 44편 -->
 - [ ] dapsone — IgA Vasculitis에 듣는다  <!-- 시험 4건 · 논문 55편 -->
 - [ ] dapsone — Bullous Pemphigoid에 듣는다  <!-- 시험 3건 · 논문 286편 -->
