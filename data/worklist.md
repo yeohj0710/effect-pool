@@ -8390,3 +8390,85 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] berberine — Prediabetes에 듣는다  <!-- 시험 4건 · 논문 15편 -->
 - [ ] berberine — Glucose Intolerance에 듣는다  <!-- 시험 4건 · 논문 19편 -->
 - [ ] berberine — Non Alcoholic Fatty Liver에 듣는다  <!-- 시험 4건 · 논문 152편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] cyproheptadine — Cancer에 듣는다  <!-- 시험 4건 · 논문 292편 -->
+- [ ] cyproheptadine — Brain Tumor에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] daratumumab — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 370편 -->
+- [ ] daratumumab — Myeloid Leukemia에 듣는다  <!-- 시험 38건 · 논문 41편 -->
+- [ ] daratumumab — Amyloidosis에 듣는다  <!-- 시험 27건 · 논문 326편 -->
+- [ ] daratumumab — Cancer에 듣는다  <!-- 시험 17건 · 논문 1967편 -->
+- [ ] dexmedetomidine — Anesthesia에 듣는다  <!-- 시험 98건 · 논문 6216편 -->
+- [ ] dexmedetomidine — Sedation에 듣는다  <!-- 시험 65건 · 논문 4552편 -->
+- [ ] dexmedetomidine — Surgery에 듣는다  <!-- 시험 41건 · 논문 6215편 -->
+- [ ] dexmedetomidine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 2625편 -->
+- [ ] etanercept — Psoriasis에 듣는다  <!-- 시험 83건 · 논문 2814편 -->
+- [ ] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 -->
+- [ ] etanercept — Leukemia에 듣는다  <!-- 시험 16건 · 논문 75편 -->
+- [ ] etanercept — Type 1 Diabetes에 듣는다  <!-- 시험 13건 · 논문 44편 -->
+- [ ] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 -->
+- [ ] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 -->
+- [ ] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 -->
+- [ ] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 -->
+- [ ] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 -->
+- [ ] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 -->
+- [ ] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 -->
+- [ ] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 -->
+- [ ] guanfacine — Personality Disorders에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [ ] guanfacine — Smoking에 듣는다  <!-- 시험 4건 · 논문 17편 -->
+- [ ] guanfacine — Alcohol Use에 듣는다  <!-- 시험 4건 · 논문 37편 -->
+- [ ] guanfacine — ADHD에 듣는다  <!-- 시험 3건 · 논문 501편 -->
+- [ ] imatinib — Cancer에 듣는다  <!-- 시험 84건 · 논문 15716편 -->
+- [ ] imatinib — Solid Tumors에 듣는다  <!-- 시험 81건 · 논문 575편 -->
+- [ ] imatinib — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 1474편 -->
+- [ ] imatinib — Melanoma에 듣는다  <!-- 시험 28건 · 논문 377편 -->
+- [ ] infliximab — Arthritis에 듣는다  <!-- 시험 85건 · 논문 6077편 -->
+- [ ] infliximab — Colitis에 듣는다  <!-- 시험 63건 · 논문 4440편 -->
+- [ ] infliximab — Bowel Disease에 듣는다  <!-- 시험 44건 · 논문 8669편 -->
+- [ ] infliximab — Psoriasis에 듣는다  <!-- 시험 33건 · 논문 2469편 -->
+- [ ] leflunomide — Lupus에 듣는다  <!-- 시험 6건 · 논문 141편 -->
+- [ ] leflunomide — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 20편 -->
+- [ ] leflunomide — Breast Diseases에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [ ] methylprednisolone — Leukemia에 듣는다  <!-- 시험 31건 · 논문 837편 -->
+- [ ] methylprednisolone — Myeloma에 듣는다  <!-- 시험 20건 · 논문 199편 -->
+- [ ] methylprednisolone — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 233편 -->
+- [ ] methylprednisolone — Myelodysplastic Syndromes에 듣는다  <!-- 시험 19건 · 논문 126편 -->
+- [ ] metoclopramide — Migraine에 듣는다  <!-- 시험 23건 · 논문 357편 -->
+- [ ] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 -->
+- [ ] metoclopramide — Headache에 듣는다  <!-- 시험 13건 · 논문 406편 -->
+- [ ] metoclopramide — Enteral Nutrition에 듣는다  <!-- 시험 9건 · 논문 131편 -->
+- [ ] pyridostigmine — HIV에 듣는다  <!-- 시험 5건 · 논문 20편 -->
+- [ ] pyridostigmine — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 41편 -->
+- [ ] pyridostigmine — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 32편 -->
+- [ ] pyridostigmine — Myasthenia Gravis에 듣는다  <!-- 시험 3건 · 논문 1260편 -->
+- [ ] ropinirole — Parkinson Disease에 듣는다  <!-- 시험 23건 · 논문 649편 -->
+- [ ] ropinirole — Pharmacokinetic Study에 듣는다  <!-- 시험 3건 · 논문 99편 -->
+- [ ] ropinirole — End Stage Renal Disease에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [ ] sulfasalazine — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 409편 -->
+- [ ] sulfasalazine — Glioblastoma에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [ ] sulfasalazine — Fibrosis, Liver에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [ ] sulfasalazine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 111편 -->
+- [ ] tadalafil — Hypertension에 듣는다  <!-- 시험 41건 · 논문 640편 -->
+- [ ] tadalafil — Cancer에 듣는다  <!-- 시험 33건 · 논문 227편 -->
+- [ ] tadalafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 31건 · 논문 359편 -->
+- [ ] tadalafil — Impotence에 듣는다  <!-- 시험 12건 · 논문 1451편 -->
+- [ ] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 -->
+- [ ] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 -->
+- [ ] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 -->
+- [ ] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 -->
+- [ ] ursodeoxycholic acid — Biliary Atresia에 듣는다  <!-- 시험 22건 · 논문 84편 -->
+- [ ] ursodeoxycholic acid — Hepatitis에 듣는다  <!-- 시험 10건 · 논문 963편 -->
+- [ ] ursodeoxycholic acid — Cholestasis에 듣는다  <!-- 시험 8건 · 논문 2935편 -->
+- [ ] ursodeoxycholic acid — Cholangitis에 듣는다  <!-- 시험 7건 · 논문 1672편 -->
+- [ ] zolpidem — Sleep에 듣는다  <!-- 시험 37건 · 논문 1318편 -->
+- [ ] zolpidem — Depression에 듣는다  <!-- 시험 5건 · 논문 259편 -->
+- [ ] zolpidem — Child's Anxiety에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] zolpidem — Dementia에 듣는다  <!-- 시험 3건 · 논문 75편 -->
