@@ -7918,16 +7918,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Hot Flashes에 듣는다  <!-- 시험 14건 · 논문 187편 -->
 - [x] gabapentin — Insomnia에 듣는다  <!-- 시험 12건 · 논문 139편 -->
 - [x] amitriptyline — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 611편 -->
-- [ ] amitriptyline — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 103편 -->
-- [ ] amitriptyline — Interstitial Cystitis에 듣는다  <!-- 시험 3건 · 논문 82편 -->
-- [ ] amitriptyline — Laryngeal Diseases에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] topiramate — Diabetes에 듣는다  <!-- 시험 16건 · 논문 376편 -->
-- [ ] topiramate — Headache에 듣는다  <!-- 시험 13건 · 논문 955편 -->
-- [ ] topiramate — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 302편 -->
-- [ ] topiramate — Alcoholism에 듣는다  <!-- 시험 12건 · 논문 271편 -->
-- [ ] trazodone — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 35편 -->
-- [ ] trazodone — Wounds and Injury에 듣는다  <!-- 시험 3건 · 논문 39편 -->
-- [ ] trazodone — Pain에 듣는다  <!-- 시험 3건 · 논문 161편 -->
+- [x] amitriptyline — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 103편 -->
+- [x] amitriptyline — Interstitial Cystitis에 듣는다  <!-- 시험 3건 · 논문 82편 -->
+- [x] amitriptyline — Laryngeal Diseases에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] topiramate — Diabetes에 듣는다  <!-- 시험 16건 · 논문 376편 -->
+- [x] topiramate — Headache에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 955편 -->
+- [x] topiramate — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 302편 -->
+- [x] topiramate — Alcoholism에 듣는다 — 기존 항목(topiramate-alcohol-abuse)(2026-08-05)  <!-- 시험 12건 · 논문 271편 -->
+- [x] trazodone — Mild Cognitive Impairment에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 35편 -->
+- [x] trazodone — Wounds and Injury에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 39편 -->
+- [x] trazodone — Pain에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 161편 -->
 - [ ] trazodone — Bioavailability에 듣는다  <!-- 시험 3건 · 논문 22편 -->
 - [ ] quetiapine — Depression에 듣는다  <!-- 시험 20건 · 논문 1579편 -->
 - [ ] quetiapine — Psychotic Disorder에 듣는다  <!-- 시험 18건 · 논문 998편 -->
