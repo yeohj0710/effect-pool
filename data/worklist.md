@@ -6922,16 +6922,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 --> — 이미 수록됨(2026-08-05)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 --> — 이미 수록됨(2026-08-05)
 - [x] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 --> — 허가 적응증(2026-08-05)
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 749편 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 -->
+- [x] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 --> — 이미 수록됨(2026-08-05)
+- [x] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 --> — 허가 적응증(2026-08-05)
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 --> — 이미 수록됨(2026-08-05)
+- [x] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 --> — 허가 적응증(2026-08-05)
+- [x] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 --> — 이미 수록됨(2026-08-05)
+- [x] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
+- [x] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 --> — 이미 수록됨(2026-08-05)
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 --> — 허가 적응증(2026-08-05)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 749편 --> — 허가 적응증(2026-08-05)
+- [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 --> — 이미 수록됨(2026-08-05)
 - [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 -->
 - [ ] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2692편 -->
 - [ ] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 -->
