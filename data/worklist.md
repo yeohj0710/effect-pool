@@ -6412,14 +6412,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paroxetine — Anxiety Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 26건 -->
 - [x] paroxetine — Posttraumatic Stress Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 19건 -->
 - [x] paroxetine — Panic Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 14건 -->
-- [ ] escitalopram — Depression에 듣는다  <!-- 등록 시험 112건 -->
-- [ ] escitalopram — Anxiety에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] escitalopram — Cancer에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] escitalopram — Insomnia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 -->
-- [ ] fluoxetine — Social Anxiety에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] fluoxetine — Stroke에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 -->
+- [x] escitalopram — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 112건 -->
+- [x] escitalopram — Anxiety에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 37건 -->
+- [x] escitalopram — Cancer에 듣는다 — 기존 항목(escitalopram-cancer-pos)  <!-- 등록 시험 14건 -->
+- [x] escitalopram — Insomnia에 듣는다 — 기존 항목(escitalopram-insomnia-open)  <!-- 등록 시험 7건 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 48건 -->
+- [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-open)  <!-- 등록 시험 14건 -->
+- [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-null)  <!-- 등록 시험 12건 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 10건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -6430,8 +6430,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
+- [x] metformin — Lung Cancer에 듣는다 — 기존 항목(metformin-lung-cancer-null)  <!-- 등록 시험 79건 -->
+- [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-null)  <!-- 등록 시험 50건 -->
 - [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
 - [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
 - [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->

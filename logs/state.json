@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 642,
   "worklist": {
-    "checked": 5846,
-    "unchecked": 228,
+    "checked": 5856,
+    "unchecked": 218,
     "no_evidence_pending": 0,
     "next_batch": [
-      "escitalopram-depression",
-      "escitalopram-anxiety",
-      "escitalopram-cancer",
-      "escitalopram-insomnia",
-      "fluoxetine-depressive-disorder",
-      "fluoxetine-social-anxiety",
-      "fluoxetine-stroke",
-      "fluoxetine-obsessive-compulsive-disorder",
-      "metformin-lung-cancer",
-      "metformin-polycystic-ovary"
+      "metformin-obesity",
+      "metformin-insulin-resistance",
+      "aspirin-stroke",
+      "aspirin-colon-cancer",
+      "aspirin-brain-infarction",
+      "aspirin-cardiovascular-events",
+      "propranolol-migraine",
+      "propranolol-stress-reaction",
+      "propranolol-ovarian-carcinoma",
+      "propranolol-cirrhosis"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "donepezil-stroke (new: donepezil-stroke-pos)",
-    "donepezil-brain-tumor (new: donepezil-brain-tumor-pos)",
-    "rivastigmine-delirium (new: rivastigmine-delirium-harm)",
-    "rivastigmine-cognitive-symptoms (new: rivastigmine-cognitive-symptoms-open)",
-    "rivastigmine-dementia (approved)",
-    "rivastigmine-cocaine-abuse (new: rivastigmine-cocaine-abuse-pos)",
-    "pramipexole-restless-legs-syndrome (approved)",
-    "pramipexole-depression (new: pramipexole-depression-pos)",
-    "pramipexole-asthma (no direct pramipexole evidence)",
-    "pramipexole-amyotrophic-lateral-sclerosis (new: pramipexole-amyotrophic-lateral-sclerosis-null)"
+    "escitalopram-depression (approved)",
+    "escitalopram-anxiety (approved)",
+    "escitalopram-cancer (existing: escitalopram-cancer-pos)",
+    "escitalopram-insomnia (existing: escitalopram-insomnia-open)",
+    "fluoxetine-depressive-disorder (approved)",
+    "fluoxetine-social-anxiety (existing: fluoxetine-social-anxiety-open)",
+    "fluoxetine-stroke (existing: fluoxetine-stroke-null)",
+    "fluoxetine-obsessive-compulsive-disorder (approved)",
+    "metformin-lung-cancer (existing: metformin-lung-cancer-null)",
+    "metformin-polycystic-ovary (existing: metformin-polycystic-ovary-null)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "fluvoxamine, paroxetine",
-    "current_batch": "fluvoxamine, paroxetine",
-    "next_action": "build, commit, push, then process next batch"
+    "last_committed_batch": "escitalopram, fluoxetine, metformin",
+    "current_batch": "escitalopram, fluoxetine, metformin",
+    "next_action": "commit, push, then process next batch"
   }
 }
