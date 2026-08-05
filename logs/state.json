@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 628,
   "worklist": {
-    "checked": 5458,
-    "unchecked": 380,
+    "checked": 5468,
+    "unchecked": 370,
     "no_evidence_pending": 0,
     "next_batch": [
-      "valacyclovir-hiv",
-      "valacyclovir-cancer",
-      "valacyclovir-infection",
-      "valacyclovir-malignant-glioma",
-      "minoxidil-ovarian-cancer",
-      "minoxidil-grey-hair",
-      "minoxidil-baldness",
-      "minoxidil-thin-eyebrow",
-      "bupropion-major-depression",
-      "bupropion-tobacco-use"
+      "bupropion-depression",
+      "bupropion-cocaine-dependence",
+      "sildenafil-renal-dysfunction",
+      "sildenafil-ivf-failure",
+      "sildenafil-cancer",
+      "sildenafil-impotence",
+      "bimatoprost-ocular-hypertension",
+      "bimatoprost-alopecia",
+      "bimatoprost-hypotrichosis",
+      "bimatoprost-baldness"
     ]
   },
   "verification": {
@@ -40,12 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "ivermectin-scabies (approved)",
-    "ivermectin-lymphatic-filariasis (existing)",
-    "hydroxychloroquine-cancer (existing)",
-    "hydroxychloroquine-coronavirus (existing)",
-    "hydroxychloroquine-sars-cov2 (existing)",
-    "hydroxychloroquine-covid19 (existing)"
+    "valacyclovir-hiv (existing)",
+    "valacyclovir-cancer (existing)",
+    "valacyclovir-infection (existing)",
+    "valacyclovir-malignant-glioma (existing)",
+    "minoxidil-ovarian-cancer (existing)",
+    "minoxidil-grey-hair (existing)",
+    "minoxidil-baldness (approved)",
+    "minoxidil-thin-eyebrow (existing)",
+    "bupropion-major-depression (approved)",
+    "bupropion-tobacco-use (approved)"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -73,8 +77,8 @@
     "added_candidates": 284
   },
   "resume": {
-    "last_committed_batch": "ivermectin, hydroxychloroquine",
-    "current_batch": "valacyclovir, minoxidil, bupropion",
+    "last_committed_batch": "valacyclovir, minoxidil, bupropion",
+    "current_batch": "bupropion, sildenafil, bimatoprost",
     "next_action": "build, commit, push, then process next batch"
   }
 }
