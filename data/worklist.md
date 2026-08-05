@@ -9471,36 +9471,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] alendronate — Osteopenia에 듣는다 — 백혈병 치료 중 소아 골감소증 코호트 항목 생성(2026-08-05)  <!-- 시험 11건 · 논문 3272편 -->
 - [x] alendronate — Breast Cancer에 듣는다 — 유방암 자체 치료 근거 없음; 골소실 보조 연구로 확인(2026-08-05)  <!-- 시험 10건 · 논문 217편 -->
 - [x] alendronate — Periodontitis에 듣는다 — 알렌드론산 국소 젤 치주염 시험·메타분석 항목 생성(2026-08-05)  <!-- 시험 7건 · 논문 187편 -->
-- [ ] cladribine — Multiple Sclerosis에 듣는다  <!-- 시험 30건 · 논문 862편 -->
-- [ ] cladribine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 27건 · 논문 57편 -->
-- [ ] cladribine — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 509편 -->
-- [ ] cladribine — Blasts 10 Percent or More of Bone Marrow Nucleated Cells에 듣는다  <!-- 시험 5건 · 논문 593편 -->
-- [ ] cytarabine — Lymphoma에 듣는다  <!-- 시험 245건 · 논문 4800편 -->
-- [ ] cytarabine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 88건 · 논문 974편 -->
-- [ ] cytarabine — AML에 듣는다  <!-- 시험 29건 · 논문 4846편 -->
-- [ ] daunorubicin — Lymphoma에 듣는다  <!-- 시험 20건 · 논문 12915편 -->
-- [ ] daunorubicin — Myelodysplastic Syndrome에 듣는다  <!-- 시험 9건 · 논문 423편 -->
-- [ ] daunorubicin — AML에 듣는다  <!-- 시험 4건 · 논문 2520편 -->
-- [ ] daunorubicin — Myeloproliferative Neoplasm에 듣는다  <!-- 시험 3건 · 논문 644편 -->
-- [ ] doxorubicin — Cancer에 듣는다  <!-- 시험 324건 · 논문 77328편 -->
-- [ ] doxorubicin — Sarcoma에 듣는다  <!-- 시험 79건 · 논문 6769편 -->
-- [ ] doxorubicin — Ovarian Carcinoma에 듣는다  <!-- 시험 66건 · 논문 3203편 -->
-- [ ] doxorubicin — Leukemia에 듣는다  <!-- 시험 60건 · 논문 6560편 -->
-- [ ] etoposide — Leukemia에 듣는다  <!-- 시험 300건 · 논문 4209편 -->
-- [ ] etoposide — Cancer에 듣는다  <!-- 시험 227건 · 논문 25491편 -->
-- [ ] etoposide — Solid Tumor에 듣는다  <!-- 시험 65건 · 논문 1002편 -->
-- [ ] etoposide — Neuroblastoma에 듣는다  <!-- 시험 33건 · 논문 653편 -->
-- [ ] vincristine — Leukemia에 듣는다  <!-- 시험 262건 · 논문 6889편 -->
-- [ ] vincristine — Sarcoma에 듣는다  <!-- 시험 53건 · 논문 2689편 -->
-- [ ] vincristine — Neuroblastoma에 듣는다  <!-- 시험 38건 · 논문 632편 -->
-- [ ] vincristine — Cancer에 듣는다  <!-- 시험 36건 · 논문 31324편 -->
-- [ ] vinblastine — Lung Cancer에 듣는다  <!-- 시험 69건 · 논문 2572편 -->
-- [ ] vinblastine — Grade 1 Glioma에 듣는다  <!-- 시험 11건 · 논문 24편 -->
-- [ ] vinblastine — Hodgkin Disease에 듣는다  <!-- 시험 8건 · 논문 2569편 -->
-- [ ] vinblastine — Melanoma에 듣는다  <!-- 시험 8건 · 논문 360편 -->
-- [ ] paclitaxel — Carcinoma에 듣는다  <!-- 시험 83건 · 논문 14802편 -->
-- [ ] paclitaxel — Adenocarcinoma에 듣는다  <!-- 시험 48건 · 논문 5712편 -->
-- [ ] paclitaxel — Head and Neck (HNSCC)에 듣는다  <!-- 시험 35건 · 논문 789편 -->
+- [x] cladribine — Multiple Sclerosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 30건 · 논문 862편 -->
+- [x] cladribine — Myelodysplastic Syndrome에 듣는다 — 클라드리빈 고위험 MDS 병용요법 항목 생성(2026-08-05)  <!-- 시험 27건 · 논문 57편 -->
+- [x] cladribine — Lymphoma에 듣는다 — 클라드리빈 저등급 림프종 2상 항목 생성(2026-08-05)  <!-- 시험 22건 · 논문 509편 -->
+- [x] cladribine — Blasts 10 Percent or More of Bone Marrow Nucleated Cells에 듣는다 — MDS·AML 조건의 중복 항목으로 처리(2026-08-05)  <!-- 시험 5건 · 논문 593편 -->
+- [x] cytarabine — Lymphoma에 듣는다 — 림프종 병용 구제화학요법 표준 맥락; 별도 항목 없음(2026-08-05)  <!-- 시험 245건 · 논문 4800편 -->
+- [x] cytarabine — Myelodysplastic Syndrome에 듣는다 — 시타라빈 MDS 병용 메타분석 항목 생성(2026-08-05)  <!-- 시험 88건 · 논문 974편 -->
+- [x] cytarabine — AML에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 29건 · 논문 4846편 -->
+- [x] daunorubicin — Lymphoma에 듣는다 — 림프종 병용 항암치료 표준 맥락; 별도 항목 없음(2026-08-05)  <!-- 시험 20건 · 논문 12915편 -->
+- [x] daunorubicin — Myelodysplastic Syndrome에 듣는다 — CPX-351 고위험 MDS 2상 항목 생성(2026-08-05)  <!-- 시험 9건 · 논문 423편 -->
+- [x] daunorubicin — AML에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 4건 · 논문 2520편 -->
+- [x] daunorubicin — Myeloproliferative Neoplasm에 듣는다 — 다우노루비신 단독 직접 근거 없음(2026-08-05)  <!-- 시험 3건 · 논문 644편 -->
+- [x] doxorubicin — Cancer에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 324건 · 논문 77328편 -->
+- [x] doxorubicin — Sarcoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 79건 · 논문 6769편 -->
+- [x] doxorubicin — Ovarian Carcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 66건 · 논문 3203편 -->
+- [x] doxorubicin — Leukemia에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 60건 · 논문 6560편 -->
+- [x] etoposide — Leukemia에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 300건 · 논문 4209편 -->
+- [x] etoposide — Cancer에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 227건 · 논문 25491편 -->
+- [x] etoposide — Solid Tumor에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 65건 · 논문 1002편 -->
+- [x] etoposide — Neuroblastoma에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 33건 · 논문 653편 -->
+- [x] vincristine — Leukemia에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 262건 · 논문 6889편 -->
+- [x] vincristine — Sarcoma에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 53건 · 논문 2689편 -->
+- [x] vincristine — Neuroblastoma에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 38건 · 논문 632편 -->
+- [x] vincristine — Cancer에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 36건 · 논문 31324편 -->
+- [x] vinblastine — Lung Cancer에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 69건 · 논문 2572편 -->
+- [x] vinblastine — Grade 1 Glioma에 듣는다 — 빈블라스틴 소아 저등급 교종 2상 항목 생성(2026-08-05)  <!-- 시험 11건 · 논문 24편 -->
+- [x] vinblastine — Hodgkin Disease에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 8건 · 논문 2569편 -->
+- [x] vinblastine — Melanoma에 듣는다 — 빈블라스틴 단독 직접 근거 없음(2026-08-05)  <!-- 시험 8건 · 논문 360편 -->
+- [x] paclitaxel — Carcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 83건 · 논문 14802편 -->
+- [x] paclitaxel — Adenocarcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 48건 · 논문 5712편 -->
+- [x] paclitaxel — Head and Neck (HNSCC)에 듣는다 — 파클리탁셀·세툭시맙 두경부암 2상 항목 생성(2026-08-05)  <!-- 시험 35건 · 논문 789편 -->
 - [ ] paclitaxel — Neoplasms에 듣는다  <!-- 시험 35건 · 논문 31855편 -->
 - [ ] docetaxel — Carcinoma에 듣는다  <!-- 시험 84건 · 논문 7331편 -->
 - [ ] docetaxel — Adenocarcinoma에 듣는다  <!-- 시험 66건 · 논문 2582편 -->
