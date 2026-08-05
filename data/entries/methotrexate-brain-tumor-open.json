@@ -1,0 +1,28 @@
+{
+  "id": "methotrexate-brain-tumor-open",
+  "subj": "메토트렉세이트",
+  "claim": "항대사제를 뇌종양에 쓴다",
+  "line": "소아 고위험 뇌종양에서 메토트렉세이트 효과는 일부 분자군에만 보였습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 77,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "특정 림프종 치료 허가는 있으나 일반 뇌종양 적응증은 아님",
+  "why": "고위험 배아성 뇌종양 소아에서 고용량 메토트렉세이트를 포함한 치료와 포함하지 않은 치료를 무작위 비교한 3상 연구입니다.",
+  "saw": "77명 중 평가 가능한 59명에서 전체 완전관해는 메토트렉세이트군 50%, 대조군 45%로 차이가 없었습니다. 3군 수모세포종에서는 5년 무사건생존이 70% 대 33%로 좋아졌지만 다른 종양에서는 이득이 없었습니다.",
+  "limit": "소아 고위험 배아성 종양과 여러 항암제 병용에 한정됐습니다. 특정 분자군 신호를 모든 뇌종양의 메토트렉세이트 효과로 일반화할 수 없습니다.",
+  "against": "성인 원발성 중추신경계 림프종 219명 분석에서는 메토트렉세이트 단독보다 리툭시맙·티오테파 병용이 완전관해를 높였지만, 메토트렉세이트 단독 효과를 분리하지 못했습니다.",
+  "use": "뇌종양 전체 치료제로 표시하지 말고 종양 유형과 분자군별 병용시험 결과로 제한해야 합니다.",
+  "refs": [
+    { "label": "2025 · Neuro-Oncology · 소아 고위험 배아성 뇌종양 메토트렉세이트 무작위시험", "pmid": "40485042" },
+    { "label": "Ferreri 2016 · The Lancet Haematology · 원발성 중추신경계 림프종 MATRix 무작위 2상시험", "pmid": "27132696" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=methotrexate, cond=Brain Tumor → 44건 반환, InterventionName 대조 후 36건",
+    "pubmed": "methotrexate AND Brain Tumor → 2443건",
+    "negative": "methotrexate AND Brain Tumor AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1335건",
+    "safety": "methotrexate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 32631건"
+  }
+}

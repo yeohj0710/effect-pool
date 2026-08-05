@@ -1,0 +1,28 @@
+{
+  "id": "montelukast-covid19-open",
+  "subj": "몬테루카스트",
+  "claim": "천식약을 코로나19 입원 환자에 쓴다",
+  "line": "코로나19 입원 환자에서 몬테루카스트는 염증 지표를 낮췄지만 회복 효과는 확실하지 않습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 180,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 천식·알레르기 비염·운동유발 기관지수축이고 코로나19는 없음",
+  "why": "델타 변이 코로나19 입원 환자에게 표준치료에 몬테루카스트를 더한 전향 무작위시험이 있지만, 더 큰 외래 시험과 결과가 달라 임상 효과를 열어둡니다.",
+  "saw": "180명 3군 시험에서 5일째 몬테루카스트군의 C반응단백·D-dimer·피브리노겐 등이 표준치료군보다 낮았고 한 군에서 폐기능이 좋아졌습니다.",
+  "limit": "단일 병원의 작은 시험이며 염증 지표와 폐기능을 주로 봤습니다. 입원 기간·호흡부전·사망 같은 임상 결과를 확정하지 못했습니다.",
+  "against": "ACTIV-6 외래 무작위시험 1250명에서는 지속 회복까지의 기간, 입원·사망 복합 결과가 위약과 다르지 않았습니다.",
+  "use": "코로나19에서 몬테루카스트의 신호는 염증 지표 수준에 머물며 치료 효과로 표시하기에는 결과가 부족합니다.",
+  "refs": [
+    { "label": "Yildiz 2022 · Journal of Medical Virology · 입원 코로나19 몬테루카스트 무작위시험", "doi": "10.1002/jmv.27552", "pmid": "34958142", "pmc": "PMC9015221" },
+    { "label": "Butler 2024 · JAMA Network Open · ACTIV-6 코로나19 무작위시험 음성 결과", "doi": "10.1001/jamanetworkopen.2024.39332", "pmid": "39422912", "pmc": "PMC11581631" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=montelukast, cond=Covid19 → 10건 반환, InterventionName 대조 후 9건",
+    "pubmed": "montelukast AND Covid19 → 69건",
+    "negative": "montelukast AND Covid19 AND (no effect OR did not OR failed to OR negative OR no significant difference) → 46건",
+    "safety": "montelukast AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1144건"
+  }
+}

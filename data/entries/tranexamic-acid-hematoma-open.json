@@ -1,0 +1,28 @@
+{
+  "id": "tranexamic-acid-hematoma-open",
+  "subj": "트라넥삼산",
+  "claim": "지혈제를 만성 경막하혈종에 쓴다",
+  "line": "만성 경막하혈종에서 트라넥삼산의 재발 감소 효과는 아직 엇갈립니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 148,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "만성 경막하혈종 치료는 트라넥삼산 허가 적응증이 아님",
+  "why": "만성 경막하혈종의 수술 전후 또는 일차 치료로 트라넥삼산을 쓴 무작위시험을 합친 메타분석입니다.",
+  "saw": "4개 무작위시험 148명에서 재수술이 필요한 재발률 감소는 통계적으로 유의하지 않았고 중대한 이상사건도 유의하게 늘지 않았습니다. 다른 연구를 섞은 메타분석에서는 재발 오즈비 0.33이 나왔습니다.",
+  "limit": "무작위시험 수와 인원이 적고 수술 보조요법과 일차 치료가 섞였습니다. 재발 외 신경학적 기능과 장기 예후 근거가 부족합니다.",
+  "against": "관찰연구를 포함한 9개 연구 메타분석은 재발 감소를 보고했지만 혈전과 사망 차이는 없었고, 무작위시험만 합친 분석에서는 효과가 확정되지 않았습니다.",
+  "use": "만성 경막하혈종에서 트라넥삼산은 연구 중인 보조요법으로 표시하고 재발 감소를 확정된 효과로 쓰지 않아야 합니다.",
+  "refs": [
+    { "label": "2025 · Turkish Neurosurgery · 만성 경막하혈종 트라넥삼산 무작위시험 메타분석", "doi": "10.5137/1019-5149.JTN.46950-24.4", "pmid": "40577507" },
+    { "label": "2024 · Frontiers in Neurology · 만성 경막하혈종 재발 트라넥삼산 메타분석", "doi": "10.3389/fneur.2024.1359354", "pmid": "38711565", "pmc": "PMC11070546" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=tranexamic acid, cond=Hematoma → 24건 반환, InterventionName 대조 후 23건",
+    "pubmed": "tranexamic acid AND Hematoma → 7488건",
+    "negative": "tranexamic acid AND Hematoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5280건",
+    "safety": "tranexamic acid AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3939건"
+  }
+}

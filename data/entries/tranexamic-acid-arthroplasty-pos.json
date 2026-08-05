@@ -1,0 +1,29 @@
+{
+  "id": "tranexamic-acid-arthroplasty-pos",
+  "subj": "트라넥삼산",
+  "claim": "지혈제를 인공관절 수술에 쓴다",
+  "line": "무릎 인공관절 수술에서 트라넥삼산은 24시간 출혈량과 수혈률을 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "출혈량·수혈률↓",
+  "n": null,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "정형외과 인공관절 수술 출혈 관리 표준",
+  "why": "무릎 인공관절 수술에서 트라넥삼산과 위약을 비교한 무작위시험 15편의 메타분석입니다.",
+  "saw": "15개 무작위시험에서 트라넥삼산군의 수술 후 출혈량과 수혈 환자 비율이 낮았습니다. 심부정맥혈전과 폐색전은 대조군과 유의한 차이가 없었습니다.",
+  "limit": "메타분석 초록에서 합산 인원을 확인하지 못했고 트라넥삼산 투여 경로와 수술 방식이 연구마다 달랐습니다. 드문 혈전 위해를 배제할 만큼 큰 연구인지 별도 확인이 필요합니다.",
+  "against": "인공관절 재수술 메타분석에서도 수혈 감소와 정맥혈전색전증 차이 없음이 나왔지만, 다른 수술과 환자 위험도에 그대로 적용할 수 없습니다.",
+  "use": "인공관절 수술의 출혈·수혈 감소 근거는 있지만 모든 수술이나 모든 환자에게 같은 효과로 표시하지 않아야 합니다.",
+  "refs": [
+    { "label": "Alshryda 2012 · Journal of Bone and Joint Surgery · 슬관절 인공관절 트라넥삼산 메타분석", "doi": "10.2106/JBJS.K.00873", "pmid": "22623147" },
+    { "label": "2023 · 인공관절 재수술 트라넥삼산 메타분석", "pmid": "42382163" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=tranexamic acid, cond=Arthroplasty → 117건 반환, 첫 100건 중 InterventionName 대조 후 77건",
+    "pubmed": "tranexamic acid AND Arthroplasty → 1611건",
+    "negative": "tranexamic acid AND Arthroplasty AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1319건",
+    "safety": "tranexamic acid AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3939건"
+  }
+}

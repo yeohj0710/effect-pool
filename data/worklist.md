@@ -8344,36 +8344,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rapamycin — Port Wine Stain에 듣는다  <!-- 시험 3건 · 논문 37편 -->
 - [x] rapamycin — Familial Adenomatous Polyposis에 듣는다  <!-- 시험 3건 · 논문 42편 -->
 - [x] montelukast — Respiratory Disorders에 듣는다 — 이미 반영(만성폐쇄성폐질환)(2026-08-05)  <!-- 시험 5건 · 논문 270편 -->
-- [ ] montelukast — SARS-CoV-2에 듣는다  <!-- 시험 5건 · 논문 48편 -->
-- [ ] montelukast — Covid19에 듣는다  <!-- 시험 4건 · 논문 69편 -->
-- [ ] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 -->
-- [ ] atorvastatin — Heart Failure에 듣는다  <!-- 시험 16건 · 논문 345편 -->
-- [ ] losartan — Renal Injury에 듣는다  <!-- 시험 10건 · 논문 414편 -->
-- [ ] losartan — Marfan Syndrome에 듣는다  <!-- 시험 8건 · 논문 154편 -->
-- [ ] losartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 4276편 -->
-- [ ] verapamil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 7523편 -->
-- [ ] verapamil — Keloid에 듣는다  <!-- 시험 3건 · 논문 80편 -->
-- [ ] amantadine — Cancer에 듣는다  <!-- 시험 3건 · 논문 317편 -->
-- [ ] amantadine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 176편 -->
-- [ ] amantadine — Coma에 듣는다  <!-- 시험 3건 · 논문 108편 -->
-- [ ] amantadine — Consciousness Disorders에 듣는다  <!-- 시험 3건 · 논문 123편 -->
-- [ ] acetazolamide — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 23편 -->
-- [ ] acetazolamide — Cognitive Function에 듣는다  <!-- 시험 4건 · 논문 87편 -->
-- [ ] acetazolamide — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
-- [ ] acetazolamide — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 981편 -->
-- [ ] methotrexate — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 2443편 -->
-- [ ] methotrexate — Myeloproliferative Diseases에 듣는다  <!-- 시험 9건 · 논문 41편 -->
-- [ ] methotrexate — Sarcoma에 듣는다  <!-- 시험 8건 · 논문 2139편 -->
-- [ ] methotrexate — Crohn Disease에 듣는다  <!-- 시험 8건 · 논문 1070편 -->
-- [ ] hydroxyurea — Glioblastoma에 듣는다  <!-- 시험 7건 · 논문 75편 -->
-- [ ] hydroxyurea — Myelodysplastic Syndromes에 듣는다  <!-- 시험 7건 · 논문 117편 -->
-- [ ] hydroxyurea — Thrombocythemia에 듣는다  <!-- 시험 6건 · 논문 1001편 -->
-- [ ] tranexamic acid — Arthroplasty에 듣는다  <!-- 시험 25건 · 논문 1611편 -->
-- [ ] tranexamic acid — Hematoma에 듣는다  <!-- 시험 17건 · 논문 7486편 -->
-- [ ] tranexamic acid — Back Pain에 듣는다  <!-- 시험 15건 · 논문 19편 -->
-- [ ] tranexamic acid — ACL Tears에 듣는다  <!-- 시험 13건 · 논문 15편 -->
-- [ ] isotretinoin — Brain Tumor에 듣는다  <!-- 시험 5건 · 논문 47편 -->
-- [ ] tamoxifen — Hot Flashes에 듣는다  <!-- 시험 4건 · 논문 420편 -->
+- [x] montelukast — SARS-CoV-2에 듣는다  <!-- 시험 5건 · 논문 48편 -->
+- [x] montelukast — Covid19에 듣는다  <!-- 시험 4건 · 논문 69편 -->
+- [x] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 --> — 허가 적응증(2026-08-05)
+- [x] atorvastatin — Heart Failure에 듣는다  <!-- 시험 16건 · 논문 345편 -->
+- [x] losartan — Renal Injury에 듣는다  <!-- 시험 10건 · 논문 414편 -->
+- [x] losartan — Marfan Syndrome에 듣는다  <!-- 시험 8건 · 논문 154편 -->
+- [x] losartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 4276편 --> — 허가 적응증(2026-08-05)
+- [x] verapamil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 7523편 --> — 허가 적응증(2026-08-05)
+- [x] verapamil — Keloid에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+- [x] amantadine — Cancer에 듣는다  <!-- 시험 3건 · 논문 317편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=amantadine&cond=Cancer → 직접 항암시험 0건; PubMed amantadine AND Cancer → 317건은 바이오마커·통증 연구 중심)
+- [x] amantadine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 176편 -->
+- [x] amantadine — Coma에 듣는다  <!-- 시험 3건 · 논문 108편 -->
+- [x] amantadine — Consciousness Disorders에 듣는다  <!-- 시험 3건 · 논문 123편 -->
+- [x] acetazolamide — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 23편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=acetazolamide&cond=Chronic Pain → 통증 치료시험 0건; PubMed acetazolamide AND Chronic Pain → 23건은 수면무호흡·검사 연구 중심)
+- [x] acetazolamide — Cognitive Function에 듣는다  <!-- 시험 4건 · 논문 87편 -->
+- [x] acetazolamide — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] acetazolamide — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 981편 --> — 허가 적응증(2026-08-05)
+- [x] methotrexate — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 2443편 -->
+- [x] methotrexate — Myeloproliferative Diseases에 듣는다  <!-- 시험 9건 · 논문 41편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=methotrexate&cond=Myeloproliferative Diseases → MPN 치료시험 0건; PubMed methotrexate AND Myeloproliferative Diseases → 41건은 이식·GVHD 예방 연구 중심)
+- [x] methotrexate — Sarcoma에 듣는다  <!-- 시험 8건 · 논문 2139편 -->
+- [x] methotrexate — Crohn Disease에 듣는다  <!-- 시험 8건 · 논문 1070편 -->
+- [x] hydroxyurea — Glioblastoma에 듣는다  <!-- 시험 7건 · 논문 75편 -->
+- [x] hydroxyurea — Myelodysplastic Syndromes에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [x] hydroxyurea — Thrombocythemia에 듣는다  <!-- 시험 6건 · 논문 1001편 -->
+- [x] tranexamic acid — Arthroplasty에 듣는다  <!-- 시험 25건 · 논문 1611편 -->
+- [x] tranexamic acid — Hematoma에 듣는다  <!-- 시험 17건 · 논문 7486편 -->
+- [x] tranexamic acid — Back Pain에 듣는다  <!-- 시험 15건 · 논문 19편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=tranexamic acid&cond=Back Pain → 통증 치료시험 0건; PubMed tranexamic acid AND Back Pain → 19건은 척추수술 출혈 연구 중심)
+- [x] tranexamic acid — ACL Tears에 듣는다  <!-- 시험 13건 · 논문 15편 -->
+- [x] isotretinoin — Brain Tumor에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [x] tamoxifen — Hot Flashes에 듣는다  <!-- 시험 4건 · 논문 420편 -->
 - [ ] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 -->
 - [ ] tamoxifen — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
 - [ ] allopurinol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 521편 -->

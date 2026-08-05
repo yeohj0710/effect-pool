@@ -1,0 +1,28 @@
+{
+  "id": "montelukast-sars-cov2-null",
+  "subj": "몬테루카스트",
+  "claim": "천식약을 SARS-CoV-2 감염에 쓴다",
+  "line": "경증 코로나19 외래 환자에서 몬테루카스트는 회복을 앞당기지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1250,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 천식·알레르기 비염·운동유발 기관지수축이고 SARS-CoV-2 감염은 없음",
+  "why": "SARS-CoV-2 감염으로 증상이 시작된 비입원 성인을 몬테루카스트와 위약에 무작위 배정한 ACTIV-6 임상시험입니다.",
+  "saw": "1250명에서 지속 회복까지 걸린 기간의 중앙값은 두 군 모두 10일이었고 조정 위험비는 1.02였습니다. 입원·사망 복합 결과도 차이가 없었습니다.",
+  "limit": "오미크론 유행기의 예방접종을 포함한 비입원 경증 환자 시험입니다. 입원 환자나 이후 변이에 같은 결과를 그대로 적용할 수 없습니다.",
+  "against": "180명 입원 환자 3군 시험에서는 5일째 염증 지표와 일부 폐기능이 좋아졌지만 임상 회복·사망을 검증한 결과는 아닙니다.",
+  "use": "경증 코로나19의 증상 기간을 줄이는 근거로 몬테루카스트를 표시하기 어렵습니다.",
+  "refs": [
+    { "label": "Butler 2024 · JAMA Network Open · ACTIV-6 코로나19 몬테루카스트 무작위시험 음성 결과", "doi": "10.1001/jamanetworkopen.2024.39332", "pmid": "39422912", "pmc": "PMC11581631" },
+    { "label": "Yildiz 2022 · Journal of Medical Virology · 입원 코로나19 몬테루카스트 무작위시험", "doi": "10.1002/jmv.27552", "pmid": "34958142", "pmc": "PMC9015221" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=montelukast, cond=SARS-CoV-2 → 6건 반환, InterventionName 대조 후 6건",
+    "pubmed": "montelukast AND SARS-CoV-2 → 48건",
+    "negative": "montelukast AND SARS-CoV-2 AND (no effect OR did not OR failed to OR negative OR no significant difference) → 34건",
+    "safety": "montelukast AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1144건"
+  }
+}

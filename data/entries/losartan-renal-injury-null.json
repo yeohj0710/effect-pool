@@ -1,0 +1,28 @@
+{
+  "id": "losartan-renal-injury-null",
+  "subj": "로사르탄",
+  "claim": "혈압약을 이식신 손상 예방에 쓴다",
+  "line": "신장이식 환자에서 로사르탄은 이식신 손상 지표를 바꾸지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 134,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 고혈압·당뇨병성 신장병 등이지만 이식신 손상 예방은 아님",
+  "why": "신장이식 환자를 로사르탄군과 표준 혈압치료군에 배정해 6개월 동안 이식신 기능과 섬유화 지표를 비교한 전향 임상시험입니다.",
+  "saw": "134명이 6개월 평가를 마쳤고 추정사구체여과율, 알부민뇨, TGF-β1과 PIIINP 변화가 두 군에서 다르지 않았습니다.",
+  "limit": "단기 중간분석이며 혈압 목표를 맞추는 비교였습니다. 이식신 장기 생존이나 급성 신손상 사건을 검증한 연구가 아닙니다.",
+  "against": "동물 방사선 신손상 모델에서는 로사르탄이 신부전 지연에 효과를 보였지만 사람 이식신 자료의 음성 결과를 뒤집지는 못합니다.",
+  "use": "로사르탄의 고혈압·단백뇨 적응증과 이식신 손상 예방 주장을 구분해야 합니다.",
+  "refs": [
+    { "label": "Pawlik 2022 · Frontiers in Pharmacology · 신장이식 환자 로사르탄 전향 비교시험", "pmid": "35346485" },
+    { "label": "Moulder 2011 · Health Physics · 방사선 신손상 동물 연구", "pmid": "21175344" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=losartan, cond=Renal Injury → 5건 반환, InterventionName 대조 후 3건",
+    "pubmed": "losartan AND Renal Injury → 414건",
+    "negative": "losartan AND Renal Injury AND (no effect OR did not OR failed to OR negative OR no significant difference) → 354건",
+    "safety": "losartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2068건"
+  }
+}

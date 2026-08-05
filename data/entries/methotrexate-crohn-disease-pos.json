@@ -1,0 +1,30 @@
+{
+  "id": "methotrexate-crohn-disease-pos",
+  "subj": "메토트렉세이트",
+  "claim": "항대사제를 크론병 관해 유지에 쓴다",
+  "line": "스테로이드 의존 크론병에서 메토트렉세이트는 관해율을 65% 대 39%로 높였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "관해 65% vs 39%",
+  "n": 333,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "스테로이드 의존 크론병의 스테로이드 절약 선택지로 지침에 포함됨",
+  "why": "크론병 관해 유지에서 메토트렉세이트와 위약·다른 면역조절제를 비교한 무작위시험을 합친 코크란 검토입니다.",
+  "saw": "5개 연구 333명에서 근육주사 메토트렉세이트는 40주 관해 유지율이 65%로 위약 39%보다 높았습니다. 저용량 경구 메토트렉세이트는 위약과 차이가 없었습니다.",
+  "limit": "효과가 주사 제형과 스테로이드 의존 환자에 집중됐고 연구 수가 적습니다. 경구 제형, 생물학적제제 병용과 모든 크론병 환자에게 같은 결과를 적용할 수 없습니다.",
+  "against": "소아 메타분석 886명은 관찰연구만 포함했고 12개월 관해율은 37.1%로 낮았습니다. 생물학적제제 병용은 단독보다 관해를 높이지 못했습니다.",
+  "use": "크론병에서 메토트렉세이트는 특정 스테로이드 의존 상황의 선택지로 표시하되 제형과 환자군을 함께 적어야 합니다.",
+  "refs": [
+    { "label": "Patel 2014 · Cochrane Database of Systematic Reviews · 크론병 관해 유지 메토트렉세이트 검토", "pmid": "25157445" },
+    { "label": "Schnitzler 2018 · Inflammatory Bowel Diseases · 소아 크론병 메토트렉세이트 메타분석", "pmid": "29688409" },
+    { "label": "2022 · Digestive and Liver Disease · 성인 크론병 메토트렉세이트 근거 검토", "pmid": "35340755" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=methotrexate, cond=Crohn Disease → 24건 반환, InterventionName 대조 후 10건",
+    "pubmed": "methotrexate AND Crohn Disease → 1070건",
+    "negative": "methotrexate AND Crohn Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 678건",
+    "safety": "methotrexate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 32631건"
+  }
+}

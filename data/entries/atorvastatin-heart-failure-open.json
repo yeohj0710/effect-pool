@@ -1,0 +1,29 @@
+{
+  "id": "atorvastatin-heart-failure-open",
+  "subj": "아토르바스타틴",
+  "claim": "스타틴을 심부전 치료에 쓴다",
+  "line": "심부전에서 아토르바스타틴의 작은 연구들은 이득을 보였지만 임상 효과는 확립되지 않았습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 540,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "심부전 자체의 치료는 아토르바스타틴 허가 적응증이 아님",
+  "why": "아토르바스타틴과 위약을 비교한 무작위시험 7편을 합친 메타분석은 사망·심부전 입원 감소를 시사했지만, 대규모 다른 스타틴 시험은 임상 결과를 바꾸지 못했습니다.",
+  "saw": "7개 무작위시험 540명 메타분석에서 전체 사망 오즈비 0.39, 심부전 악화 입원 오즈비 0.30이었습니다. 별도 4574명 GISSI-HF 시험에서는 스타틴이 사망과 심혈관 입원을 줄이지 못했습니다.",
+  "limit": "아토르바스타틴 메타분석은 표본이 작고 시험마다 심부전 중증도와 치료가 달랐습니다. GISSI-HF는 로수바스타틴 시험이라 아토르바스타틴에 직접 대입할 수 없습니다.",
+  "against": "300명 림프종 환자 STOP-CA 시험에서는 아토르바스타틴이 항암제 관련 심장기능 저하는 줄였지만 24개월 심부전 사건은 유의하게 줄이지 못했습니다.",
+  "use": "심부전 환자의 지질 적응증과 심부전 자체 치료를 구분해야 하며, 아토르바스타틴의 심부전 임상 이득은 확정되지 않았습니다.",
+  "refs": [
+    { "label": "Kjekshus 2011 · Cardiovascular Drugs and Therapy · 심부전 아토르바스타틴 무작위시험 메타분석", "pmid": "22427759" },
+    { "label": "Gissi-HF 2008 · The Lancet · 만성 심부전 로수바스타틴 무작위시험 음성 결과", "pmid": "18757089" },
+    { "label": "Neilan 2023 · JAMA · 항암제 관련 심장기능 아토르바스타틴 무작위시험", "doi": "10.1001/jama.2023.11887", "pmid": "37552303", "pmc": "PMC10410476" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=atorvastatin, cond=Heart Failure → 20건 반환, InterventionName 대조 후 16건",
+    "pubmed": "atorvastatin AND Heart Failure → 345건",
+    "negative": "atorvastatin AND Heart Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 277건",
+    "safety": "atorvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4082건"
+  }
+}
