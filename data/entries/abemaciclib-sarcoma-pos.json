@@ -1,0 +1,30 @@
+{
+  "id": "abemaciclib-sarcoma-pos",
+  "subj": "아베마시클립",
+  "claim": "진행성 탈분화 지방육종에 아베마시클립을 쓴다",
+  "line": "탈분화 지방육종 2상에서 아베마시클립의 12주 무진행률은 76.7%였습니다.",
+  "effect": "12주 PFS 76.7%; 중앙 33주",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 30,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아베마시클립 허가 적응증은 호르몬수용체 양성 HER2 음성 유방암이고 지방육종은 포함하지 않습니다.",
+  "why": "탈분화 지방육종에서 흔한 CDK4 경로 이상을 CDK4/6 억제제로 차단해 세포주기를 멈추는 전략입니다.",
+  "saw": "진행성 탈분화 지방육종 환자 30명을 대상으로 한 2상 단일군 시험에서 12주 시점 23명이 무진행이었고 비율은 76.7%였습니다. 데이터 마감 시점의 중앙 무진행생존은 33주였으며 새로운 안전성 신호는 없었습니다.",
+  "limit": "대조군이 없는 소규모 단일군 시험이고 12주 무진행률은 종양 반응이나 전체생존과 다릅니다.",
+  "against": "치료로 유도된 세포노화와 면역세포 침윤이 뒤늦은 내성을 동반한 환자에서 관찰되어 지속효과는 불확실합니다.",
+  "use": "진행성 탈분화 지방육종의 분자표적 치료 연구 근거로만 기록하며 임상시험에서 검토합니다.",
+  "refs": [
+    { "label": "탈분화 지방육종 아베마시클립 2상", "pmid": "37695642" },
+    { "label": "탈분화 지방육종 아베마시클립 시험", "nct": "NCT02846987" },
+    { "label": "CDK 경로 이상 골·연조직육종 아베마시클립 시험", "nct": "NCT04040205" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=abemaciclib · cond=Sarcoma → 11건 반환, 물질 대조 후 11건",
+    "pubmed": "abemaciclib AND Sarcoma → 25편",
+    "negative": "abemaciclib AND Sarcoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 15편",
+    "safety": "abemaciclib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 648편"
+  }
+}

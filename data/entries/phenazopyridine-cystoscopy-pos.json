@@ -1,0 +1,31 @@
+{
+  "id": "phenazopyridine-cystoscopy-pos",
+  "subj": "페나조피리딘",
+  "claim": "골반수술 중 방광경으로 요관 개방을 확인할 때 페나조피리딘으로 소변을 물들인다",
+  "line": "부인과 수술 후향 연구에서 페나조피리딘은 요관 흐름을 91.8%에서 보여줬습니다.",
+  "effect": "요관 흐름 190/207 (91.8%)",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 207,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "페나조피리딘 허가 적응증은 요로 통증·작열감 완화이고 수술 중 요관 개방 확인은 포함하지 않습니다.",
+  "why": "페나조피리딘이 소변을 주황색으로 물들여 방광경에서 양쪽 요관 소변 흐름을 눈으로 확인하게 합니다.",
+  "saw": "부인과 수술 중 방광경을 시행한 207명의 후향 차트 연구에서 페나조피리딘만으로 190명(91.8%)의 요관 흐름을 확인했습니다. 흐름이 보이지 않은 17명은 수술 중 플루오레세인을 추가로 투여했습니다.",
+  "limit": "대조군 없는 후향 연구이며 수술 중 소변량과 투여 시점이 성공률에 영향을 줬습니다.",
+  "against": "수술 전 페나조피리딘 124명 연구는 모두 양측 흐름을 확인했지만, 방광 카테터 통증 219명 무작위시험에서는 위약보다 통증을 줄이지 못했습니다.",
+  "use": "골반수술 중 요관 손상 확인을 돕는 저비용 염료 사용의 관찰 근거로만 기록하며 표준 염료를 대체할지는 수술팀이 판단합니다.",
+  "refs": [
+    { "label": "부인과 수술 방광경 페나조피리딘 후향 연구", "pmid": "29300258" },
+    { "label": "골반수술 요관 개방 확인 페나조피리딘 연구", "pmid": "19941709" },
+    { "label": "방광경 전 페나조피리딘 통증 무작위시험", "pmid": "32897014" },
+    { "label": "수술 중 방광경 페나조피리딘 시험", "nct": "NCT02424149" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=phenazopyridine · cond=Cystoscopy → 4건 반환, 물질 대조 후 4건",
+    "pubmed": "phenazopyridine AND Cystoscopy → 22편",
+    "negative": "phenazopyridine AND Cystoscopy AND (no effect OR did not OR failed to OR negative OR no significant difference) → 18편",
+    "safety": "phenazopyridine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 187편"
+  }
+}

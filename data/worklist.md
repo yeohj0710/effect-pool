@@ -9531,13 +9531,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dutasteride — Hypogonadism에 듣는다 — 테스토스테론 부작용 억제 항목 생성(2026-08-05)  <!-- 시험 8건 · 논문 18편 -->
 - [x] dutasteride — Alopecia에 듣는다 — 남성 탈모 3상 항목 생성(2026-08-05)  <!-- 시험 7건 · 논문 272편 -->
 - [x] mirabegron — Incontinence에 듣는다 — 허가·표준 배뇨장애 치료(2026-08-05)  <!-- 시험 25건 · 논문 339편 -->
-- [ ] mirabegron — Ureteral Stone에 듣는다  <!-- 시험 6건 · 논문 25편 -->
-- [ ] mirabegron — Detrusor Overactivity에 듣는다  <!-- 시험 5건 · 논문 681편 -->
-- [ ] mirabegron — Food Effect에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] daptomycin — Bacteremia에 듣는다  <!-- 시험 16건 · 논문 916편 -->
-- [ ] daptomycin — Infections에 듣는다  <!-- 시험 12건 · 논문 3765편 -->
-- [ ] daptomycin — Endocarditis에 듣는다  <!-- 시험 9건 · 논문 636편 -->
-- [ ] daptomycin — Infectious에 듣는다  <!-- 시험 9건 · 논문 1466편 -->
+- [x] mirabegron — Ureteral Stone에 듣는다 — 요관결석 배출 메타분석 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 25편 -->
+- [x] mirabegron — Detrusor Overactivity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 681편 -->
+- [x] mirabegron — Food Effect에 듣는다 — 효능이 아닌 약동학 연구(2026-08-05)  <!-- 시험 5건 · 논문 34편 -->
+- [x] daptomycin — Bacteremia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 916편 -->
+- [x] daptomycin — Infections에 듣는다 — 허가·표준 항균치료(2026-08-05)  <!-- 시험 12건 · 논문 3765편 -->
+- [x] daptomycin — Endocarditis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 636편 -->
+- [x] daptomycin — Infectious에 듣는다 — 허가·표준 항균치료(2026-08-05)  <!-- 시험 9건 · 논문 1466편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9548,29 +9548,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] abemaciclib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 51편 -->
-- [ ] abemaciclib — Neoplasm에 듣는다  <!-- 시험 30건 · 논문 889편 -->
-- [ ] abemaciclib — Neoplasms에 듣는다  <!-- 시험 15건 · 논문 889편 -->
-- [ ] abemaciclib — Sarcoma에 듣는다  <!-- 시험 11건 · 논문 25편 -->
-- [ ] bicalutamide — Breast Neoplasms에 듣는다  <!-- 시험 16건 · 논문 145편 -->
-- [ ] bicalutamide — Metastatic Disease에 듣는다  <!-- 시험 5건 · 논문 302편 -->
-- [ ] bisoprolol — Heart Rate에 듣는다  <!-- 시험 19건 · 논문 669편 -->
-- [ ] bisoprolol — Left Atrial Rhythm에 듣는다  <!-- 시험 10건 · 논문 17편 -->
-- [ ] bisoprolol — Myocardial Infarct에 듣는다  <!-- 시험 8건 · 논문 186편 -->
-- [ ] colesevelam — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 113편 -->
-- [ ] colesevelam — Diarrhea에 듣는다  <!-- 시험 6건 · 논문 58편 -->
-- [ ] cyproterone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 9건 · 논문 307편 -->
-- [ ] cyproterone — Acne Vulgaris에 듣는다  <!-- 시험 4건 · 논문 259편 -->
-- [ ] cyproterone — Hyperandrogenism에 듣는다  <!-- 시험 3건 · 논문 176편 -->
-- [ ] doxylamine — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 287편 -->
-- [ ] flutamide — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 168편 -->
-- [ ] flutamide — Prostatic Neoplasms에 듣는다  <!-- 시험 5건 · 논문 1314편 -->
-- [ ] levamisole — Colorectal Cancer에 듣는다  <!-- 시험 4건 · 논문 464편 -->
-- [ ] meloxicam — Osteoarthritis에 듣는다  <!-- 시험 17건 · 논문 249편 -->
-- [ ] meloxicam — Arthritis에 듣는다  <!-- 시험 11건 · 논문 381편 -->
-- [ ] meloxicam — Migraine에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] phenazopyridine — Cystoscopy에 듣는다  <!-- 시험 3건 · 논문 22편 -->
-- [ ] phenazopyridine — Pain에 듣는다  <!-- 시험 3건 · 논문 41편 -->
+- [x] abemaciclib — Solid Tumor에 듣는다 — 육종 직접 근거를 별도 항목으로 기록(2026-08-05)  <!-- 시험 36건 · 논문 51편 -->
+- [x] abemaciclib — Neoplasm에 듣는다 — 육종 직접 근거를 별도 항목으로 기록(2026-08-05)  <!-- 시험 30건 · 논문 889편 -->
+- [x] abemaciclib — Neoplasms에 듣는다 — 육종 직접 근거를 별도 항목으로 기록(2026-08-05)  <!-- 시험 15건 · 논문 889편 -->
+- [x] abemaciclib — Sarcoma에 듣는다 — 탈분화 지방육종 2상 항목 생성(2026-08-05)  <!-- 시험 11건 · 논문 25편 -->
+- [x] bicalutamide — Breast Neoplasms에 듣는다 — AR 양성 유방암 2상 항목 생성(2026-08-05)  <!-- 시험 16건 · 논문 145편 -->
+- [x] bicalutamide — Metastatic Disease에 듣는다 — 전립선암 표준 항안드로겐(2026-08-05)  <!-- 시험 5건 · 논문 302편 -->
+- [x] bisoprolol — Heart Rate에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 19건 · 논문 669편 -->
+- [x] bisoprolol — Left Atrial Rhythm에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 10건 · 논문 17편 -->
+- [x] bisoprolol — Myocardial Infarct에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 8건 · 논문 186편 -->
+- [x] colesevelam — Hypercholesterolemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 113편 -->
+- [x] colesevelam — Diarrhea에 듣는다 — 담즙산 설사 4상 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 58편 -->
+- [x] cyproterone — Polycystic Ovary Syndrome에 듣는다 — 국가별 허가·표준 호르몬 치료(2026-08-05)  <!-- 시험 9건 · 논문 307편 -->
+- [x] cyproterone — Acne Vulgaris에 듣는다 — 국가별 허가·표준 호르몬 치료(2026-08-05)  <!-- 시험 4건 · 논문 259편 -->
+- [x] cyproterone — Hyperandrogenism에 듣는다 — 국가별 허가·표준 항안드로겐(2026-08-05)  <!-- 시험 3건 · 논문 176편 -->
+- [x] doxylamine — Pregnancy에 듣는다 — 임신 오심·구토 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 287편 -->
+- [x] flutamide — Polycystic Ovary Syndrome에 듣는다 — PCOS 항안드로겐 메타분석 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 168편 -->
+- [x] flutamide — Prostatic Neoplasms에 듣는다 — 허가·표준 항안드로겐(2026-08-05)  <!-- 시험 5건 · 논문 1314편 -->
+- [x] levamisole — Colorectal Cancer에 듣는다 — 과거 표준 병용 항암치료(2026-08-05)  <!-- 시험 4건 · 논문 464편 -->
+- [x] meloxicam — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 17건 · 논문 249편 -->
+- [x] meloxicam — Arthritis에 듣는다 — 허가·표준 소염진통 치료(2026-08-05)  <!-- 시험 11건 · 논문 381편 -->
+- [x] meloxicam — Migraine에 듣는다 — 단독 직접 효능 근거 없음(2026-08-05)  <!-- 시험 4건 · 논문 10편 -->
+- [x] phenazopyridine — Cystoscopy에 듣는다 — 수술 중 요관 개방 확인 관찰 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 22편 -->
+- [x] phenazopyridine — Pain에 듣는다 — 허가 적응증·표준 요로통증 완화(2026-08-05)  <!-- 시험 3건 · 논문 41편 -->
 - [ ] ketoprofen — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 160편 -->
 - [ ] ketoprofen — Migraine에 듣는다  <!-- 시험 10건 · 논문 54편 -->
 - [ ] ketoprofen — Sprain에 듣는다  <!-- 시험 7건 · 논문 28편 -->
