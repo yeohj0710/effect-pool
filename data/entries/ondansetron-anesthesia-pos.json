@@ -1,0 +1,44 @@
+{
+  "id": "ondansetron-anesthesia-pos",
+  "subj": "온단세트론",
+  "claim": "온단세트론이 척추마취 뒤 저혈압을 줄인다",
+  "line": "척추마취 뒤 온단세트론은 저혈압을 줄였지만 근거의 질은 낮았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1166,
+  "synth": "meta",
+  "why": "척추마취를 받는 비제왕절개 환자를 대상으로 한 무작위시험 13편을 합친 메타분석에서 저혈압 발생이 줄었습니다.",
+  "saw": "13편 1,166명에서 위약과 비교해 척추마취 유발 저혈압 발생이 줄었고, 서맥과 구조 에페드린 사용도 줄었습니다. 근거의 질은 낮았습니다.",
+  "limit": "척추마취의 혈역학 지표를 본 결과라 모든 마취 환자의 임상 결과로 확대할 수 없습니다. 다른 메타분석에서는 비제왕절개군 결과가 유의하지 않았고 출판 편향도 확인됐습니다.",
+  "against": "17편 1,604명을 합친 분석에서는 전체 5-HT3 길항제 효과가 제왕절개군에서는 유의했지만 비제왕절개군에서는 신뢰구간이 0을 포함해 유의하지 않았습니다.",
+  "use": "마취 중 저혈압 예방을 위한 연구 신호는 있지만 표준 마취 관리의 대체 근거로 쓰기에는 연구 결과와 질이 충분히 일관되지 않습니다.",
+  "refs": [
+    {
+      "label": "You 2022 · Journal of Perioperative Practice · 척추마취 저혈압 메타분석",
+      "doi": "10.1177/1750458920964157",
+      "pmid": "33599544"
+    },
+    {
+      "label": "Heesen 2015 · International Journal of Obstetric Anesthesia · 척추마취 저혈압 메타분석",
+      "doi": "10.1016/j.ijoa.2015.08.012",
+      "pmid": "26421701"
+    },
+    {
+      "label": "Sahoo 2016 · Anesthesia & Analgesia · 비제왕절개군 음성 결과를 포함한 메타분석",
+      "doi": "10.1213/ANE.0000000000001511",
+      "pmid": "27537930"
+    },
+    {
+      "label": "Henzi 2015 · BMC Pharmacology and Toxicology · 5-HT3 길항제 심장 안전성 검토",
+      "doi": "10.1186/2050-6511-16-1",
+      "pmid": "25623303"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=ondansetron AND query.cond=Anesthesia → 116건 반환, 중재명에 ondansetron 또는 Zofran이 실제 들어간 시험 57건",
+    "pubmed": "ondansetron spinal anesthesia hypotension → 80건",
+    "negative": "ondansetron spinal anesthesia hypotension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 74건",
+    "safety": "ondansetron spinal anesthesia hypotension AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 52건"
+  }
+}
