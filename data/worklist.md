@@ -7968,16 +7968,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ivermectin — Onchocerciasis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 1633편 -->
 - [x] ivermectin — HIV Infections에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 13건 · 논문 88편 -->
 - [x] ivermectin — Rosacea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 195편 -->
-- [ ] ivermectin — Malaria에 듣는다  <!-- 시험 11건 · 논문 332편 -->
-- [ ] hydroxychloroquine — Arthritis에 듣는다  <!-- 시험 30건 · 논문 2629편 -->
-- [ ] hydroxychloroquine — Melanoma에 듣는다  <!-- 시험 17건 · 논문 57편 -->
-- [ ] hydroxychloroquine — Neonatal Lupus에 듣는다  <!-- 시험 14건 · 논문 57편 -->
-- [ ] hydroxychloroquine — Solid Tumor에 듣는다  <!-- 시험 14건 · 논문 37편 -->
-- [ ] valacyclovir — Shingles에 듣는다  <!-- 시험 5건 · 논문 575편 -->
-- [ ] valacyclovir — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] valacyclovir — Leukemia에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] bupropion — Obesity에 듣는다  <!-- 시험 35건 · 논문 544편 -->
-- [ ] bupropion — Cancer에 듣는다  <!-- 시험 35건 · 논문 413편 -->
+- [x] ivermectin — Malaria에 듣는다 — 항목 생성(ivermectin-malaria-pos)(2026-08-05)  <!-- 시험 11건 · 논문 332편 -->
+- [x] hydroxychloroquine — Arthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 30건 · 논문 2629편 -->
+- [x] hydroxychloroquine — Melanoma에 듣는다 — 항목 생성(hydroxychloroquine-melanoma-null)(2026-08-05)  <!-- 시험 17건 · 논문 57편 -->
+- [x] hydroxychloroquine — Neonatal Lupus에 듣는다 — 항목 생성(hydroxychloroquine-neonatal-lupus-pos)(2026-08-05)  <!-- 시험 14건 · 논문 57편 -->
+- [x] hydroxychloroquine — Solid Tumor에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)(2026-08-05)  <!-- 시험 14건 · 논문 37편 -->
+- [x] valacyclovir — Shingles에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 575편 -->
+- [x] valacyclovir — Schizophrenia에 듣는다 — 항목 생성(valacyclovir-schizophrenia-null)(2026-08-05)  <!-- 시험 3건 · 논문 13편 -->
+- [x] valacyclovir — Leukemia에 듣는다 — 항목 생성(valacyclovir-leukemia-pos)(2026-08-05)  <!-- 시험 3건 · 논문 34편 -->
+- [x] bupropion — Obesity에 듣는다 — 항목 생성(bupropion-obesity-pos)(2026-08-05)  <!-- 시험 35건 · 논문 544편 -->
+- [x] bupropion — Cancer에 듣는다 — 항목 생성(bupropion-cancer-related-fatigue-pos)(2026-08-05)  <!-- 시험 35건 · 논문 413편 -->
 - [ ] bupropion — Schizophrenia에 듣는다  <!-- 시험 16건 · 논문 156편 -->
 - [ ] bupropion — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 124편 -->
 - [ ] sildenafil — Fetal Distress에 듣는다  <!-- 시험 10건 · 논문 27편 -->

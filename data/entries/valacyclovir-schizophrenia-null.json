@@ -1,0 +1,36 @@
+{
+  "id": "valacyclovir-schizophrenia-null",
+  "subj": "발라시클로버",
+  "claim": "항바이러스제를 조현병 인지증상에 쓴다",
+  "line": "HSV-1 양성 조현병에서 인지와 증상을 개선하지 못했습니다",
+  "effect": "인지·증상 지표 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 170,
+  "synth": "single",
+  "why": "발라시클로버의 허가사항은 단순포진·생식기포진·대상포진이며 조현병의 인지·정신증상 치료는 허가 적응증이 아닙니다.",
+  "saw": "HSV-1 양성 조현병 환자를 포함한 170명 규모 VISTA 무작위 이중맹검 시험에서 발라시클로버는 인지 지표, 증상, 기능을 유의하게 개선하지 못했습니다.",
+  "limit": "HSV-1 양성 하위군과 초기 조현병 환자를 대상으로 한 시험이며, 바이러스 활성 상태에 따라 결과가 달라질 수 있습니다. 조현병 전체 치료 효과를 평가한 시험은 아닙니다.",
+  "against": "반대 검색 13건. 이전 HSV-1 양성 24명 시험에서는 일부 기억력이 개선됐지만, CMV 양성 47명 시험에서는 PANSS 증상 차이가 없었습니다.",
+  "use": "조현병의 인지·정신증상 치료제로 발라시클로버를 추가할 근거는 큰 무작위시험에서 확인되지 않았습니다.",
+  "refs": [
+    {
+      "label": "Dickerson 2019 · Schizophr Res · VISTA 발라시클로버 무작위시험",
+      "doi": "10.1016/j.schres.2018.11.002",
+      "pmid": "30478008"
+    },
+    {
+      "label": "Bramanti 2009 · Schizophr Res · CMV 양성 조현병 무작위시험",
+      "doi": "10.1016/j.schres.2008.10.007",
+      "pmid": "19008077"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"VALACYCLOVIR\" → 90건, 단순포진·생식기포진·대상포진 적응증 확인",
+    "ctgov": "query.intr=valacyclovir&query.cond=Schizophrenia → 5건 반환, InterventionName 대조 후 valacyclovir 4건",
+    "pubmed": "valacyclovir Schizophrenia → 13건",
+    "negative": "valacyclovir Schizophrenia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 13건",
+    "safety": "valacyclovir Schizophrenia (adverse OR toxicity OR case report OR overdose OR self-medication) → 4건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "hydroxychloroquine-neonatal-lupus-pos",
+  "subj": "하이드록시클로로퀸",
+  "claim": "하이드록시클로로퀸을 항SSA 임신의 신생아 루푸스 예방에 쓴다",
+  "line": "항SSA 임신에서 태아 심장차단 재발을 낮췄습니다",
+  "effect": "심장차단 재발 7.4%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 54,
+  "synth": "single",
+  "why": "하이드록시클로로퀸의 허가사항은 말라리아와 류마티스관절염·루푸스이며 태아 심장차단 재발 예방은 허가 적응증이 아닙니다.",
+  "saw": "태아 심장차단 병력이 있는 항SSA 양성 임신 54건을 추적한 다기관 공개 단일군 시험에서 2도·3도 심장차단 재발은 4건, 7.4%였습니다. 역사적 재발률 18%보다 절반 이상 낮았습니다.",
+  "limit": "위약 대조가 없는 단일군 시험이며 역사적 비교군을 사용했습니다. 일부 임신부는 등록 후 다른 치료를 받아 하이드록시클로로퀸 단독 효과를 완전히 분리하기 어렵습니다.",
+  "against": "반대 검색 22건. 동시 위약 대조 무작위시험이 아니며, 심장차단 재발은 신생아 루푸스 전체 결과가 아니라 주요 심장 결과입니다.",
+  "use": "항SSA 양성 임신에서 태아 심장차단 재발을 줄인 전향적 신호가 있지만, 역사적 비교에 의존한 결과입니다.",
+  "refs": [
+    {
+      "label": "Izmirly 2020 · JACC · 항SSA 임신 태아 심장차단 예방 PATCH 시험",
+      "doi": "10.1016/j.jacc.2020.05.045",
+      "pmid": "32674792"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"HYDROXYCHLOROQUINE\" → 50건, 말라리아·류마티스관절염·루푸스 적응증 확인",
+    "ctgov": "query.intr=hydroxychloroquine&query.cond=Neonatal Lupus → 2건 반환, InterventionName 대조 후 hydroxychloroquine 1건",
+    "pubmed": "hydroxychloroquine Neonatal Lupus → 57건",
+    "negative": "hydroxychloroquine Neonatal Lupus (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 22건",
+    "safety": "hydroxychloroquine Neonatal Lupus (adverse OR toxicity OR case report OR overdose OR self-medication) → 24건"
+  }
+}

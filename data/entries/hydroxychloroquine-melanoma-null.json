@@ -1,0 +1,36 @@
+{
+  "id": "hydroxychloroquine-melanoma-null",
+  "subj": "하이드록시클로로퀸",
+  "claim": "하이드록시클로로퀸을 진행성 흑색종에 병용한다",
+  "line": "진행성 흑색종에서 표적치료에 추가 이득이 확인되지 않았습니다",
+  "effect": "반응률 20% vs 0%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 14,
+  "synth": "single",
+  "why": "하이드록시클로로퀸의 허가사항은 말라리아와 류마티스관절염·루푸스이며 흑색종 치료는 허가 적응증이 아닙니다.",
+  "saw": "기존 치료에 실패한 BRAF V600 변이 진행성 흑색종 14명을 무작위 배정한 2상 시험에서 표적치료와 하이드록시클로로퀸 병용군의 반응률은 20%, 대조군은 0%였습니다. 위험·이득 평가가 부정적이어서 시험을 조기 종료했습니다.",
+  "limit": "14명만 참여한 조기종료 시험이며 하이드록시클로로퀸 단독이 아니라 표적치료 병용을 평가했습니다. 반응률 차이를 확정적 생존 이득으로 해석할 수 없습니다.",
+  "against": "반대 검색 42건. 다른 1상·2상 병용시험 34명에서는 반응률이 높았지만 1년 무진행생존 기준을 충족하지 못했고 대조군이 없었습니다.",
+  "use": "진행성 흑색종 표적치료에 하이드록시클로로퀸을 추가할 이득은 작은 조기종료 시험에서 확인되지 않았습니다.",
+  "refs": [
+    {
+      "label": "Ribas 2022 · Cancer Res · 흑색종 하이드록시클로로퀸 무작위 2상",
+      "doi": "10.1097/CMR.0000000000000821",
+      "pmid": "35377866"
+    },
+    {
+      "label": "Karasic 2022 · Clin Cancer Res · BAMM 흑색종 1·2상",
+      "doi": "10.1158/1078-0432.CCR-21-3382",
+      "pmid": "35022320"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"HYDROXYCHLOROQUINE\" → 50건, 말라리아·류마티스관절염·루푸스 적응증 확인",
+    "ctgov": "query.intr=hydroxychloroquine&query.cond=Melanoma → 12건 반환, InterventionName 대조 후 hydroxychloroquine 9건",
+    "pubmed": "hydroxychloroquine Melanoma → 57건",
+    "negative": "hydroxychloroquine Melanoma (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 42건",
+    "safety": "hydroxychloroquine Melanoma (adverse OR toxicity OR case report OR overdose OR self-medication) → 31건"
+  }
+}
