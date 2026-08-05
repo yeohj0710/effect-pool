@@ -1,0 +1,28 @@
+{
+  "id": "imatinib-lymphoma-case",
+  "subj": "이마티닙",
+  "claim": "이마티닙이 FIP1L1/PDGFRA 융합 양성 림프종을 치료한다",
+  "line": "융합 양성 림프종 증례에서 이마티닙 뒤 완전관해가 왔습니다",
+  "tier": "case",
+  "dir": "pos",
+  "n": 1,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "일반 림프종 치료로 허가받은 적 없음",
+  "why": "특정 융합 유전자를 가진 혈관면역모세포성 T세포 림프종 증례에서 이마티닙이 표적 이상을 억제해 완전관해를 보였습니다.",
+  "saw": "30대 남성의 호산구증후군과 혈관면역모세포성 T세포 림프종에서 FIP1L1/PDGFRA 융합이 확인됐습니다. 스테로이드가 듣지 않은 뒤 이마티닙으로 두 질환이 모두 완전관해됐습니다.",
+  "limit": "단일 증례이고 유전자 융합이 없는 일반 림프종에 적용할 수 없습니다.",
+  "against": "림프종 전체를 대상으로 한 이마티닙 대조시험은 확인하지 못했습니다.",
+  "use": "이마티닙의 림프종 신호는 FIP1L1/PDGFRA 융합을 확인한 예외적 사례에 한정됩니다.",
+  "effect": "완전관해",
+  "refs": [
+    { "label": "Aoki 2017 · Internal Medicine · 융합 양성 림프종 이마티닙 증례", "pmid": "28885361" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=imatinib, cond=Lymphoma → 71건 반환·44건 직접 대조",
+    "pubmed": "imatinib AND Lymphoma → 1474건",
+    "negative": "imatinib AND Lymphoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 848건",
+    "safety": "imatinib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 7449건"
+  }
+}

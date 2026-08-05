@@ -8414,36 +8414,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 --> — 허가 적응증(2026-08-05)
 - [x] etanercept — Leukemia에 듣는다  <!-- 시험 16건 · 논문 75편 -->
 - [x] etanercept — Type 1 Diabetes에 듣는다  <!-- 시험 13건 · 논문 44편 -->
-- [ ] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 -->
-- [ ] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 -->
-- [ ] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 -->
-- [ ] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 -->
-- [ ] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 -->
-- [ ] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 -->
-- [ ] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 -->
-- [ ] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 -->
-- [ ] guanfacine — Personality Disorders에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] guanfacine — Smoking에 듣는다  <!-- 시험 4건 · 논문 17편 -->
-- [ ] guanfacine — Alcohol Use에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] guanfacine — ADHD에 듣는다  <!-- 시험 3건 · 논문 501편 -->
-- [ ] imatinib — Cancer에 듣는다  <!-- 시험 84건 · 논문 15716편 -->
-- [ ] imatinib — Solid Tumors에 듣는다  <!-- 시험 81건 · 논문 575편 -->
-- [ ] imatinib — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 1474편 -->
-- [ ] imatinib — Melanoma에 듣는다  <!-- 시험 28건 · 논문 377편 -->
-- [ ] infliximab — Arthritis에 듣는다  <!-- 시험 85건 · 논문 6077편 -->
-- [ ] infliximab — Colitis에 듣는다  <!-- 시험 63건 · 논문 4440편 -->
-- [ ] infliximab — Bowel Disease에 듣는다  <!-- 시험 44건 · 논문 8669편 -->
-- [ ] infliximab — Psoriasis에 듣는다  <!-- 시험 33건 · 논문 2469편 -->
-- [ ] leflunomide — Lupus에 듣는다  <!-- 시험 6건 · 논문 141편 -->
-- [ ] leflunomide — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 20편 -->
-- [ ] leflunomide — Breast Diseases에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] methylprednisolone — Leukemia에 듣는다  <!-- 시험 31건 · 논문 837편 -->
-- [ ] methylprednisolone — Myeloma에 듣는다  <!-- 시험 20건 · 논문 199편 -->
-- [ ] methylprednisolone — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 233편 -->
-- [ ] methylprednisolone — Myelodysplastic Syndromes에 듣는다  <!-- 시험 19건 · 논문 126편 -->
-- [ ] metoclopramide — Migraine에 듣는다  <!-- 시험 23건 · 논문 357편 -->
-- [ ] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 -->
-- [ ] metoclopramide — Headache에 듣는다  <!-- 시험 13건 · 논문 406편 -->
+- [x] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 --> — 허가 적응증(2026-08-05)
+- [x] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 --> — 허가 적응증(2026-08-05)
+- [x] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 --> — 허가 적응증(2026-08-05)
+- [x] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 --> — 허가 적응증(2026-08-05)
+- [x] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 --> — 허가 적응증(2026-08-05)
+- [x] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 --> — 허가 적응증(2026-08-05)
+- [x] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 --> — 허가 적응증(2026-08-05)
+- [x] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 --> — 허가 적응증(2026-08-05)
+- [x] guanfacine — Personality Disorders에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [x] guanfacine — Smoking에 듣는다  <!-- 시험 4건 · 논문 17편 -->
+- [x] guanfacine — Alcohol Use에 듣는다  <!-- 시험 4건 · 논문 37편 -->
+- [x] guanfacine — ADHD에 듣는다  <!-- 시험 3건 · 논문 501편 --> — 허가 적응증(2026-08-05)
+- [x] imatinib — Cancer에 듣는다  <!-- 시험 84건 · 논문 15716편 --> — 허가 적응증(2026-08-05)
+- [x] imatinib — Solid Tumors에 듣는다  <!-- 시험 81건 · 논문 575편 --> — 허가 적응증(2026-08-05)
+- [x] imatinib — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 1474편 -->
+- [x] imatinib — Melanoma에 듣는다  <!-- 시험 28건 · 논문 377편 -->
+- [x] infliximab — Arthritis에 듣는다  <!-- 시험 85건 · 논문 6077편 --> — 허가 적응증(2026-08-05)
+- [x] infliximab — Colitis에 듣는다  <!-- 시험 63건 · 논문 4440편 --> — 허가 적응증(2026-08-05)
+- [x] infliximab — Bowel Disease에 듣는다  <!-- 시험 44건 · 논문 8669편 --> — 허가 적응증(2026-08-05)
+- [x] infliximab — Psoriasis에 듣는다  <!-- 시험 33건 · 논문 2469편 --> — 허가 적응증(2026-08-05)
+- [x] leflunomide — Lupus에 듣는다  <!-- 시험 6건 · 논문 141편 -->
+- [x] leflunomide — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 20편 -->
+- [x] leflunomide — Breast Diseases에 듣는다  <!-- 시험 4건 · 논문 24편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=leflunomide&cond=Breast Diseases → 삼중음성 전이암 등록시험 1건은 결과 논문 없음; PubMed leflunomide AND Breast Diseases → 24건은 임신·안전성·세포 연구 중심)
+- [x] methylprednisolone — Leukemia에 듣는다  <!-- 시험 31건 · 논문 837편 -->
+- [x] methylprednisolone — Myeloma에 듣는다  <!-- 시험 20건 · 논문 199편 -->
+- [x] methylprednisolone — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 233편 --> — 허가 적응증(2026-08-05)
+- [x] methylprednisolone — Myelodysplastic Syndromes에 듣는다  <!-- 시험 19건 · 논문 126편 -->
+- [x] metoclopramide — Migraine에 듣는다  <!-- 시험 23건 · 논문 357편 -->
+- [x] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 --> — 허가 적응증(2026-08-05)
+- [x] metoclopramide — Headache에 듣는다  <!-- 시험 13건 · 논문 406편 -->
 - [ ] metoclopramide — Enteral Nutrition에 듣는다  <!-- 시험 9건 · 논문 131편 -->
 - [ ] pyridostigmine — HIV에 듣는다  <!-- 시험 5건 · 논문 20편 -->
 - [ ] pyridostigmine — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 41편 -->

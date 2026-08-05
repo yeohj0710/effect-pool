@@ -1,0 +1,29 @@
+{
+  "id": "metoclopramide-migraine-pos",
+  "subj": "메토클로프라미드",
+  "claim": "메토클로프라미드가 급성 편두통을 완화한다",
+  "line": "급성 편두통 16개 무작위시험 1934명 메타분석에서 메토클로프라미드가 두통과 구역을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1934,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "응급실 급성 편두통 치료지침에 정맥 메토클로프라미드가 포함됨",
+  "why": "급성 편두통 무작위시험 16개를 합친 네트워크 메타분석에서 메토클로프라미드가 위약보다 두통·구역과 구조약 사용을 줄였습니다.",
+  "saw": "1934명 중 메토클로프라미드 826명, 위약 302명, 다른 약 806명을 비교했습니다. 메토클로프라미드는 위약보다 두통 점수와 두통 완전 소실을 개선했습니다.",
+  "limit": "정맥 투여가 대부분이고 약제·투여경로가 다양했으며, 활성 대조약보다 일관되게 우월하지는 않았습니다.",
+  "against": "granisetron은 두통 점수에서 메토클로프라미드보다 유의하게 나았고, 근긴장이상·정좌불능 같은 추체외로 증상이 보고됐습니다.",
+  "use": "메토클로프라미드의 편두통 효과는 응급실 급성 발작의 표준 보조치료 근거로 보되 모든 두통에 확대하면 안 됩니다.",
+  "effect": "두통·구역 개선",
+  "refs": [
+    { "label": "Abd-Elmonem 2023 · Clinical Drug Investigation · 급성 편두통 메토클로프라미드 네트워크 메타분석", "pmid": "37291500" },
+    { "label": "Wang 2024 · Medicine · 케토롤락과 메토클로프라미드 메타분석", "pmid": "37849443" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=metoclopramide, cond=Migraine → 32건 반환·21건 직접 대조",
+    "pubmed": "metoclopramide AND Migraine → 357건",
+    "negative": "metoclopramide AND Migraine AND (no effect OR did not OR failed to OR negative OR no significant difference) → 224건",
+    "safety": "metoclopramide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3080건"
+  }
+}

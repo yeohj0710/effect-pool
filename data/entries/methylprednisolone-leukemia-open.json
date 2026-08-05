@@ -1,0 +1,28 @@
+{
+  "id": "methylprednisolone-leukemia-open",
+  "subj": "메틸프레드니솔론",
+  "claim": "메틸프레드니솔론이 재발 고위험 백혈병에 도움이 된다",
+  "line": "재발 고위험 CLL 병용요법의 무진행 생존 중앙값은 11개월이었습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 25,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "백혈병 항암치료로 허가받은 적 없음",
+  "why": "재발 고위험 CLL 환자에서 리툭시맙과 고용량 메틸프레드니솔론을 병용한 단일군 2상이 임상 반응과 생존 신호를 보고했습니다.",
+  "saw": "25명 2상에서 무진행 생존 중앙값은 11개월, 전체 생존 중앙값은 68개월이었습니다. 이상반응의 77%는 1~2등급이었고 치료 중 사망은 없었습니다.",
+  "limit": "메틸프레드니솔론 단독시험이 아니고 대조군이 없는 소규모 CLL 연구라 다른 백혈병에 일반화할 수 없습니다.",
+  "against": "급성백혈병 시험에서는 다른 항암제·스테로이드와 함께 사용돼 메틸프레드니솔론의 독립 효과를 확인하기 어렵습니다.",
+  "use": "메틸프레드니솔론의 백혈병 신호는 리툭시맙 병용 CLL에서만 확인됐고 확립된 단독 항암효과는 아닙니다.",
+  "refs": [
+    { "label": "Kocoglu 2019 · Turkish Journal of Hematology · 재발 CLL 리툭시맙·고용량 메틸프레드니솔론 2상", "pmid": "31671877", "nct": "NCT01576588" },
+    { "label": "Schmiegelow 2022 · Pediatric Blood & Cancer · 고위험 소아 ALL AEP 병용시험", "pmid": "36129234" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=methylprednisolone, cond=Leukemia → 161건 반환·45건 직접 대조",
+    "pubmed": "methylprednisolone AND Leukemia → 837건",
+    "negative": "methylprednisolone AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 564건",
+    "safety": "methylprednisolone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 19328건"
+  }
+}
