@@ -1,0 +1,28 @@
+{
+  "id": "methotrexate-myelodysplastic-syndrome-pos",
+  "subj": "메토트렉세이트",
+  "claim": "메토트렉세이트를 골수형성이상증후군에 쓴다",
+  "line": "자가면역 증상이 동반된 골수형성이상증후군에서 혈액 소견이 호전됐습니다",
+  "tier": "case",
+  "dir": "pos",
+  "n": 1,
+  "synth": "single",
+  "effect": "혈액 소견·자가면역 증상 호전",
+  "why": "골수형성이상증후군과 골수섬유화를 동반한 피부근염 환자에서 메토트렉세이트 치료 뒤 피부근염 증상과 혈액 소견이 함께 좋아진 증례입니다.",
+  "saw": "50세 남성 1명에서 고열·근육통·홍반이 고용량 스테로이드에 반응하지 않았고, 메토트렉세이트 뒤 피부근염 증상과 골수형성이상증후군 관련 혈액 소견이 호전됐습니다.",
+  "limit": "단일 증례이며 피부근염과 골수섬유화가 함께 있었습니다. 대조군과 정량적 효과 크기가 없어 골수형성이상증후군 자체의 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색에서는 메토트렉세이트 뒤 치료 관련 골수형성이상증후군이 생긴 증례가 확인됐고, 직접 치료시험보다 이식·GVHD 예방 연구가 대부분이었습니다.",
+  "use": "자가면역 증상이 동반된 골수형성이상증후군에서 나온 단일 증례 신호로만 기록하며, 치료 효과의 근거로 확대하지 않습니다.",
+  "refs": [
+    { "label": "Goh 2003 · Am J Hematol · 피부근염·골수형성이상증후군 증례", "doi": "10.1002/ajh.10430", "pmid": "14587044" },
+    { "label": "Methotrexate-induced myelodysplasia mimicking MDS · 증례", "doi": "10.5045/br.2018.53.4.268", "pmid": "30588461", "pmc": "PMC6300683" },
+    { "label": "Methotrexate toxicity-related hypoplastic MDS · 증례", "doi": "10.7759/cureus.40580", "pmid": "37469807", "pmc": "PMC10352143" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=methotrexate&query.cond=Myelodysplastic Syndrome → 126건 반환, InterventionName에 methotrexate 포함 83건(대부분 이식·GVHD 예방)",
+    "pubmed": "methotrexate myelodysplastic syndrome → 301건; methotrexate AND \"myelodysplastic syndrome\"[Title] → 56건; 직접 치료 증례 PMID 14587044",
+    "negative": "methotrexate myelodysplastic syndrome AND (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 187건; methotrexate AND \"myelodysplastic syndrome\" AND (therapy OR treatment) → 184건",
+    "safety": "methotrexate myelodysplastic syndrome AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 176건"
+  }
+}
