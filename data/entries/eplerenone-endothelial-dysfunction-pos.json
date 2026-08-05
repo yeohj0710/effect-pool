@@ -1,0 +1,28 @@
+{
+  "id": "eplerenone-endothelial-dysfunction-pos",
+  "subj": "에플레레논",
+  "claim": "혈관 내피 기능 장애에 에플레레논을 쓴다",
+  "line": "특발성 고알도스테론증 환자에서 에플레레논 투여 뒤 미세혈관 기능과 동맥 경직도가 좋아졌습니다",
+  "effect": "RHI 0.56→0.69",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 50,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "에플레레논의 허가 적응증은 고혈압과 심부전 등이며 혈관 내피 기능 장애 자체의 치료는 허가 적응증이 아닙니다.",
+  "why": "알도스테론 차단으로 혈압을 낮추는 약을 혈관 내피 기능과 동맥 경직도 개선에 사용한 사례입니다.",
+  "saw": "특발성 고알도스테론증 환자 50명에게 12주간 에플레레논을 투여한 전후 연구에서 반응성 충혈 지수와 니트로글리세린 유발 혈관확장이 증가했고, 발목-상완 맥파속도와 백혈구 ROCK 활성은 감소했습니다. 혈압과 흐름매개 혈관확장은 유의하게 달라지지 않았습니다.",
+  "limit": "대조군이 없는 단일기관 전후 연구이고 알도스테론증 환자만 포함해 일반 고혈압이나 대사질환 환자에게 그대로 적용하기 어렵습니다.",
+  "against": "흐름매개 혈관확장과 혈관 내막 두께는 유의하게 개선되지 않아 모든 내피 기능 지표가 좋아진 것은 아닙니다.",
+  "use": "에플레레논의 혈관 보호 가능성을 혈압 변화와 분리해 초기 관찰 근거로 기록합니다.",
+  "refs": [
+    { "label": "고알도스테론증 에플레레논 혈관 기능 전후 연구", "pmid": "30418321" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=eplerenone · cond=Endothelial Dysfunction → 6건 반환, 물질 대조 후 6건",
+    "pubmed": "eplerenone AND Endothelial Dysfunction → 101편",
+    "negative": "eplerenone AND Endothelial Dysfunction AND (no effect OR did not OR failed to OR negative OR no significant difference) → 92편",
+    "safety": "eplerenone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 618편"
+  }
+}

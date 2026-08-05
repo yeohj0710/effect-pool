@@ -1,0 +1,29 @@
+{
+  "id": "indomethacin-preterm-birth-harm",
+  "subj": "인도메타신",
+  "claim": "조산을 늦추는 데 인도메타신을 쓴다",
+  "line": "조산 억제 효과를 노린 산전 인도메타신 노출에서 중증 뇌실내출혈과 장염 위험이 커졌습니다",
+  "effect": "중증 출혈 RR 1.29",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 8454,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "인도메타신의 허가 적응증은 통증·염증성 관절질환 등이며 조산 억제는 허가 적응증이 아닙니다.",
+  "why": "조산을 늦추려는 자궁수축 억제 효과 뒤에 신생아 뇌출혈과 장 손상이라는 부작용이 따라온 사례입니다.",
+  "saw": "산전 조산 억제 목적으로 인도메타신을 받은 신생아 1731명과 비노출 6723명을 포함한 관찰연구 27개 메타분석에서 중증 뇌실내출혈 위험이 RR 1.29, 괴사성 장염이 RR 1.36, 뇌실주위 백질연화증이 RR 1.59로 높았습니다.",
+  "limit": "모든 연구가 관찰연구라 임신 주수·감염·분만 방식 같은 교란을 완전히 제거할 수 없고, 전체 등급 뇌실내출혈은 유의하게 늘지 않았습니다.",
+  "against": "매칭 연구에서는 교란을 보정한 뒤 인도메타신 노출과 뇌실내출혈의 연관성이 유의하지 않았습니다.",
+  "use": "산전 인도메타신의 조산 억제 이득과 신생아 중증 출혈·장염 위험을 함께 비교하는 안전성 근거로 씁니다.",
+  "refs": [
+    { "label": "산전 인도메타신 노출 신생아 결과 메타분석", "pmid": "25448524" },
+    { "label": "인도메타신 자궁수축 억제와 뇌실내출혈 매칭 연구", "pmid": "11384697" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=indomethacin · cond=Preterm Birth → 37건 반환, 물질 대조 후 26건",
+    "pubmed": "indomethacin AND Preterm Birth → 839편",
+    "negative": "indomethacin AND Preterm Birth AND (no effect OR did not OR failed to OR negative OR no significant difference) → 577편",
+    "safety": "indomethacin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 10547편"
+  }
+}

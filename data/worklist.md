@@ -9682,36 +9682,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] clomiphene — Subfertility에 듣는다  <!-- 시험 3건 · 논문 3634편 -->
-- [ ] clomiphene — IVF에 듣는다  <!-- 시험 3건 · 논문 821편 -->
-- [ ] clomiphene — Uterine Fibroids에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] deferoxamine — Stroke에 듣는다  <!-- 시험 3건 · 논문 224편 -->
-- [ ] eplerenone — Obesity에 듣는다  <!-- 시험 5건 · 논문 70편 -->
-- [ ] eplerenone — Diabetes Type 2에 듣는다  <!-- 시험 5건 · 논문 99편 -->
-- [ ] eplerenone — Endothelial Dysfunction에 듣는다  <!-- 시험 4건 · 논문 101편 -->
-- [ ] eplerenone — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 39편 -->
-- [ ] flecainide — Coronary Disease에 듣는다  <!-- 시험 3건 · 논문 136편 -->
-- [ ] indomethacin — Preterm Birth에 듣는다  <!-- 시험 5건 · 논문 839편 -->
-- [ ] indomethacin — Gout에 듣는다  <!-- 시험 4건 · 논문 350편 -->
-- [ ] indomethacin — Endoscopic Retrograde Cholangiopancreatography에 듣는다  <!-- 시험 4건 · 논문 212편 -->
-- [ ] indomethacin — Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 15313편 -->
-- [ ] ketoconazole — Tumors에 듣는다  <!-- 시험 8건 · 논문 1274편 -->
-- [ ] ketoconazole — Cushing Disease에 듣는다  <!-- 시험 6건 · 논문 280편 -->
-- [ ] ketoconazole — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 72편 -->
-- [ ] ketoconazole — Neuroblastoma에 듣는다  <!-- 시험 5건 · 논문 10편 -->
-- [ ] lamotrigine — Mental Disorders에 듣는다  <!-- 시험 4건 · 논문 1815편 -->
-- [ ] lamotrigine — Seizures에 듣는다  <!-- 시험 4건 · 논문 2474편 -->
-- [ ] lamotrigine — Alcohol Dependence에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] lamotrigine — Myotonia Congenita에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] mifepristone — Cushing's Disease에 듣는다  <!-- 시험 8건 · 논문 83편 -->
-- [ ] mifepristone — Psychotic Disorders에 듣는다  <!-- 시험 6건 · 논문 35편 -->
-- [ ] mifepristone — Uterine Fibroid에 듣는다  <!-- 시험 6건 · 논문 176편 -->
-- [ ] mifepristone — Menstrual Regulation에 듣는다  <!-- 시험 6건 · 논문 144편 -->
-- [ ] misoprostol — Pain에 듣는다  <!-- 시험 13건 · 논문 772편 -->
-- [ ] misoprostol — IUD에 듣는다  <!-- 시험 13건 · 논문 56편 -->
-- [ ] misoprostol — Fetal Death에 듣는다  <!-- 시험 12건 · 논문 208편 -->
-- [ ] neostigmine — Respiratory Muscles에 듣는다  <!-- 시험 8건 · 논문 225편 -->
-- [ ] neostigmine — Headache에 듣는다  <!-- 시험 7건 · 논문 32편 -->
+- [x] clomiphene — Subfertility에 듣는다 — 허가·표준 난임 치료 적응증(2026-08-05)  <!-- 시험 3건 · 논문 3634편 -->
+- [x] clomiphene — IVF에 듣는다 — 허가·표준 난임 치료 보조 적응증(2026-08-05)  <!-- 시험 3건 · 논문 821편 -->
+- [x] clomiphene — Uterine Fibroids에 듣는다 — 클로미펜 치료가 아닌 임신·난임 연구가 확인돼 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 16편 -->
+- [x] deferoxamine — Stroke에 듣는다 — 사람 치료 결과가 아닌 등록·동물 기전 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 224편 -->
+- [x] eplerenone — Obesity에 듣는다 — 비만 치료가 아닌 비만 동반 고혈압 혈압강하 연구라 항목 없음(2026-08-05)  <!-- 시험 5건 · 논문 70편 -->
+- [x] eplerenone — Diabetes Type 2에 듣는다 — 에플레레논 직접 당뇨 치료 결과가 부족해 항목 없음(2026-08-05)  <!-- 시험 5건 · 논문 99편 -->
+- [x] eplerenone — Endothelial Dysfunction에 듣는다 — 혈관 내피 기능 전후 연구 항목 생성 eplerenone-endothelial-dysfunction-pos(2026-08-05)  <!-- 시험 4건 · 논문 101편 -->
+- [x] eplerenone — Metabolic Syndrome에 듣는다 — 문헌고찰·대사질환 기전 연구가 중심이라 사람 항목 없음(2026-08-05)  <!-- 시험 4건 · 논문 39편 -->
+- [x] flecainide — Coronary Disease에 듣는다 — 관상동맥질환의 폐쇄성 정도별 안전성 항목 생성 flecainide-coronary-disease-harm(2026-08-05)  <!-- 시험 3건 · 논문 136편 -->
+- [x] indomethacin — Preterm Birth에 듣는다 — 산전 조산 억제 노출의 신생아 위해 항목 생성 indomethacin-preterm-birth-harm(2026-08-05)  <!-- 시험 5건 · 논문 839편 -->
+- [x] indomethacin — Gout에 듣는다 — 허가·표준 급성 통풍 치료 적응증(2026-08-05)  <!-- 시험 4건 · 논문 350편 -->
+- [x] indomethacin — Endoscopic Retrograde Cholangiopancreatography에 듣는다 — ERCP 후 췌장염 예방 메타분석 항목 생성 indomethacin-ercp-pancreatitis-pos(2026-08-05)  <!-- 시험 4건 · 논문 212편 -->
+- [x] indomethacin — Hemorrhage에 듣는다 — 산전 조산 억제의 뇌실내출혈 결과를 indomethacin-preterm-birth-harm에 합침(2026-08-05)  <!-- 시험 4건 · 논문 15313편 -->
+- [x] ketoconazole — Tumors에 듣는다 — 종양 환자 약동학·전임상 연구가 대부분이라 치료 항목 없음(2026-08-05)  <!-- 시험 8건 · 논문 1274편 -->
+- [x] ketoconazole — Cushing Disease에 듣는다 — 허가·표준 쿠싱증후군 치료 적응증(2026-08-05)  <!-- 시험 6건 · 논문 280편 -->
+- [x] ketoconazole — Lymphoma에 듣는다 — 림프종 치료 결과가 아닌 약물상호작용·전임상 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 6건 · 논문 72편 -->
+- [x] ketoconazole — Neuroblastoma에 듣는다 — 복합요법 등록·동물 연구만 확인돼 항목 없음(2026-08-05)  <!-- 시험 5건 · 논문 10편 -->
+- [x] lamotrigine — Mental Disorders에 듣는다 — 양극성장애 유지치료 허가·표준 적응증(2026-08-05)  <!-- 시험 4건 · 논문 1815편 -->
+- [x] lamotrigine — Seizures에 듣는다 — 허가·표준 간질 치료 적응증(2026-08-05)  <!-- 시험 4건 · 논문 2474편 -->
+- [x] lamotrigine — Alcohol Dependence에 듣는다 — 양극성장애 동반 알코올 의존 공개시험 항목 생성 lamotrigine-alcohol-dependence-open(2026-08-05)  <!-- 시험 4건 · 논문 37편 -->
+- [x] lamotrigine — Myotonia Congenita에 듣는다 — 비근긴장성 근긴장증 코호트 항목 생성 lamotrigine-myotonia-congenita-pos(2026-08-05)  <!-- 시험 3건 · 논문 9편 -->
+- [x] mifepristone — Cushing's Disease에 듣는다 — 허가·표준 쿠싱증후군 치료 적응증(2026-08-05)  <!-- 시험 8건 · 논문 83편 -->
+- [x] mifepristone — Psychotic Disorders에 듣는다 — 정신병적 우울증 무작위시험 음성 항목 생성 mifepristone-psychotic-depression-null(2026-08-05)  <!-- 시험 6건 · 논문 35편 -->
+- [x] mifepristone — Uterine Fibroid에 듣는다 — 자궁근종 증상 메타분석 항목 생성 mifepristone-uterine-fibroid-pos(2026-08-05)  <!-- 시험 6건 · 논문 176편 -->
+- [x] mifepristone — Menstrual Regulation에 듣는다 — 임신중지·월경조절 관련 허가·표준 적응증(2026-08-05)  <!-- 시험 6건 · 논문 144편 -->
+- [x] misoprostol — Pain에 듣는다 — IUD 삽입 전 통증 연구로 misoprostol-iud-null에 합침(2026-08-05)  <!-- 시험 13건 · 논문 772편 -->
+- [x] misoprostol — IUD에 듣는다 — 삽입 전 미소프로스톨의 이득·부작용 메타분석 항목 생성 misoprostol-iud-null(2026-08-05)  <!-- 시험 13건 · 논문 56편 -->
+- [x] misoprostol — Fetal Death에 듣는다 — 임신 중기 유산·태아사망 유도 분만의 표준·허가 범위(2026-08-05)  <!-- 시험 12건 · 논문 208편 -->
+- [x] neostigmine — Respiratory Muscles에 듣는다 — 수술 후 근이완 역전의 허가·표준 적응증(2026-08-05)  <!-- 시험 8건 · 논문 225편 -->
+- [x] neostigmine — Headache에 듣는다 — 후경막천자 두통 무작위시험 항목 생성 neostigmine-headache-pos(2026-08-05)  <!-- 시험 7건 · 논문 32편 -->
 - [ ] nitroglycerin — Migraine에 듣는다  <!-- 시험 7건 · 논문 714편 -->
 - [ ] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 -->
 - [ ] nitroglycerin — Pain에 듣는다  <!-- 시험 6건 · 논문 4619편 -->
