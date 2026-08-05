@@ -9099,3 +9099,61 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] pralsetinib — Other Cancer에 듣는다  <!-- 시험 14건 · 논문 86편 -->
 - [ ] pralsetinib — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 182편 -->
 - [ ] pralsetinib — Carcinoma에 듣는다  <!-- 시험 6건 · 논문 157편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] amiloride — Chronic Kidney Disease에 듣는다  <!-- 시험 6건 · 논문 98편 -->
+- [ ] amiloride — Type II Diabetes에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [ ] amiloride — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 74편 -->
+- [ ] amiloride — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 644편 -->
+- [ ] anastrozole — Hormone Receptor Positive에 듣는다  <!-- 시험 14건 · 논문 841편 -->
+- [ ] anastrozole — Hypogonadism에 듣는다  <!-- 시험 6건 · 논문 54편 -->
+- [ ] aprepitant — Cancer에 듣는다  <!-- 시험 59건 · 논문 813편 -->
+- [ ] aprepitant — Nausea에 듣는다  <!-- 시험 35건 · 논문 840편 -->
+- [ ] bexarotene — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 64편 -->
+- [ ] bexarotene — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 77편 -->
+- [ ] bexarotene — Mycosis Fungoides에 듣는다  <!-- 시험 4건 · 논문 209편 -->
+- [ ] bexarotene — Leukemia에 듣는다  <!-- 시험 4건 · 논문 43편 -->
+- [ ] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 -->
+- [ ] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 -->
+- [ ] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 -->
+- [ ] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 -->
+- [ ] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 -->
+- [ ] estradiol — Infertility에 듣는다  <!-- 시험 20건 · 논문 6136편 -->
+- [ ] estradiol — Vulvar Atrophy에 듣는다  <!-- 시험 18건 · 논문 64편 -->
+- [ ] estradiol — Depression에 듣는다  <!-- 시험 12건 · 논문 3533편 -->
+- [ ] fenofibrate — Hypertriglyceridemia에 듣는다  <!-- 시험 23건 · 논문 558편 -->
+- [ ] fenofibrate — Diabetes에 듣는다  <!-- 시험 23건 · 논문 1189편 -->
+- [ ] fenofibrate — Hyperlipidemia에 듣는다  <!-- 시험 16건 · 논문 1087편 -->
+- [ ] glycopyrrolate — Neuromuscular Blockade에 듣는다  <!-- 시험 15건 · 논문 166편 -->
+- [ ] glycopyrrolate — Spinal Anesthesia에 듣는다  <!-- 시험 9건 · 논문 29편 -->
+- [ ] glycopyrrolate — Surgery에 듣는다  <!-- 시험 7건 · 논문 583편 -->
+- [ ] glycopyrrolate — Anesthesia에 듣는다  <!-- 시험 7건 · 논문 564편 -->
+- [ ] lorazepam — Alcohol Withdrawal에 듣는다  <!-- 시험 11건 · 논문 283편 -->
+- [ ] lorazepam — Status Epilepticus에 듣는다  <!-- 시험 10건 · 논문 465편 -->
+- [ ] lorazepam — Depression에 듣는다  <!-- 시험 8건 · 논문 556편 -->
+- [ ] lorazepam — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 298편 -->
+- [ ] nadolol — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 124편 -->
+- [ ] neostigmine — Postoperative Pain에 듣는다  <!-- 시험 35건 · 논문 308편 -->
+- [ ] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 -->
+- [ ] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 -->
+- [ ] neostigmine — Sugammadex에 듣는다  <!-- 시험 9건 · 논문 606편 -->
+- [ ] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 -->
+- [ ] nicardipine — Spasm Artery에 듣는다  <!-- 시험 6건 · 논문 48편 -->
+- [ ] nicardipine — Stroke에 듣는다  <!-- 시험 5건 · 논문 329편 -->
+- [ ] nimodipine — Vasospasm에 듣는다  <!-- 시험 3건 · 논문 834편 -->
+- [ ] nimodipine — Stroke에 듣는다  <!-- 시험 3건 · 논문 646편 -->
+- [ ] nimodipine — Pain에 듣는다  <!-- 시험 3건 · 논문 191편 -->
+- [ ] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 -->
+- [ ] rasagiline — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] thiotepa — Lymphoma에 듣는다  <!-- 시험 123건 · 논문 468편 -->
+- [ ] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 -->
+- [ ] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 -->
+- [ ] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 -->
