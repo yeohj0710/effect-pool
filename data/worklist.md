@@ -9501,36 +9501,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paclitaxel — Carcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 83건 · 논문 14802편 -->
 - [x] paclitaxel — Adenocarcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 48건 · 논문 5712편 -->
 - [x] paclitaxel — Head and Neck (HNSCC)에 듣는다 — 파클리탁셀·세툭시맙 두경부암 2상 항목 생성(2026-08-05)  <!-- 시험 35건 · 논문 789편 -->
-- [ ] paclitaxel — Neoplasms에 듣는다  <!-- 시험 35건 · 논문 31855편 -->
-- [ ] docetaxel — Carcinoma에 듣는다  <!-- 시험 84건 · 논문 7331편 -->
-- [ ] docetaxel — Adenocarcinoma에 듣는다  <!-- 시험 66건 · 논문 2582편 -->
-- [ ] docetaxel — Head and Neck Neoplasms에 듣는다  <!-- 시험 56건 · 논문 2059편 -->
-- [ ] docetaxel — Sarcoma에 듣는다  <!-- 시험 36건 · 논문 574편 -->
-- [ ] gemcitabine — Lymphoma에 듣는다  <!-- 시험 69건 · 논문 929편 -->
-- [ ] gemcitabine — Non-metastatic에 듣는다  <!-- 시험 64건 · 논문 98편 -->
-- [ ] gemcitabine — Cholangiocarcinoma에 듣는다  <!-- 시험 38건 · 논문 1317편 -->
-- [ ] gemcitabine — Neoplasms에 듣는다  <!-- 시험 36건 · 논문 19499편 -->
-- [ ] fluorouracil — Renal Cell Carcinoma에 듣는다  <!-- 시험 90건 · 논문 638편 -->
-- [ ] fluorouracil — Adenocarcinoma에 듣는다  <!-- 시험 34건 · 논문 13547편 -->
-- [ ] fluorouracil — Anal Tumor에 듣는다  <!-- 시험 12건 · 논문 1001편 -->
-- [ ] fluorouracil — Neoplasms에 듣는다  <!-- 시험 12건 · 논문 54778편 -->
-- [ ] capecitabine — Tumor Gastric에 듣는다  <!-- 시험 107건 · 논문 1161편 -->
-- [ ] capecitabine — Carcinoma에 듣는다  <!-- 시험 90건 · 논문 2679편 -->
-- [ ] capecitabine — Neoplasms에 듣는다  <!-- 시험 45건 · 논문 8093편 -->
-- [ ] trastuzumab — Tumors에 듣는다  <!-- 시험 63건 · 논문 14843편 -->
-- [ ] trastuzumab — Adenocarcinoma에 듣는다  <!-- 시험 41건 · 논문 1554편 -->
-- [ ] trastuzumab — Neoplasms에 듣는다  <!-- 시험 27건 · 논문 12821편 -->
-- [ ] trastuzumab — Lung Carcinoma에 듣는다  <!-- 시험 27건 · 논문 418편 -->
-- [ ] abiraterone — Gene Polymorphism에 듣는다  <!-- 시험 10건 · 논문 40편 -->
-- [ ] abiraterone — Solid Tumors에 듣는다  <!-- 시험 7건 · 논문 111편 -->
-- [ ] letrozole — Infertility에 듣는다  <!-- 시험 51건 · 논문 826편 -->
-- [ ] letrozole — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 44건 · 논문 905편 -->
-- [ ] letrozole — Ovarian Response에 듣는다  <!-- 시험 36건 · 논문 275편 -->
-- [ ] letrozole — KIT Positive에 듣는다  <!-- 시험 23건 · 논문 9편 -->
-- [ ] dutasteride — Cancer에 듣는다  <!-- 시험 37건 · 논문 498편 -->
-- [ ] dutasteride — Hypogonadism에 듣는다  <!-- 시험 8건 · 논문 18편 -->
-- [ ] dutasteride — Alopecia에 듣는다  <!-- 시험 7건 · 논문 272편 -->
-- [ ] mirabegron — Incontinence에 듣는다  <!-- 시험 25건 · 논문 339편 -->
+- [x] paclitaxel — Neoplasms에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 35건 · 논문 31855편 -->
+- [x] docetaxel — Carcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 84건 · 논문 7331편 -->
+- [x] docetaxel — Adenocarcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 66건 · 논문 2582편 -->
+- [x] docetaxel — Head and Neck Neoplasms에 듣는다 — 도세탁셀 방사선 민감화 3상 항목 생성(2026-08-05)  <!-- 시험 56건 · 논문 2059편 -->
+- [x] docetaxel — Sarcoma에 듣는다 — 젬시타빈·도세탁셀 육종 2상 항목 생성(2026-08-05)  <!-- 시험 36건 · 논문 574편 -->
+- [x] gemcitabine — Lymphoma에 듣는다 — R-GemOx 림프종 2상 항목 생성(2026-08-05)  <!-- 시험 69건 · 논문 929편 -->
+- [x] gemcitabine — Non-metastatic에 듣는다 — 비전이성 광범위 용어로 직접 항목 없음(2026-08-05)  <!-- 시험 64건 · 논문 98편 -->
+- [x] gemcitabine — Cholangiocarcinoma에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 38건 · 논문 1317편 -->
+- [x] gemcitabine — Neoplasms에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 36건 · 논문 19499편 -->
+- [x] fluorouracil — Renal Cell Carcinoma에 듣는다 — 신세포암 5-FU 병용 항목 생성(2026-08-05)  <!-- 시험 90건 · 논문 638편 -->
+- [x] fluorouracil — Adenocarcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 34건 · 논문 13547편 -->
+- [x] fluorouracil — Anal Tumor에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 12건 · 논문 1001편 -->
+- [x] fluorouracil — Neoplasms에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 12건 · 논문 54778편 -->
+- [x] capecitabine — Tumor Gastric에 듣는다 — 표준 병용 항암치료(2026-08-05)  <!-- 시험 107건 · 논문 1161편 -->
+- [x] capecitabine — Carcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 90건 · 논문 2679편 -->
+- [x] capecitabine — Neoplasms에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 45건 · 논문 8093편 -->
+- [x] trastuzumab — Tumors에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 63건 · 논문 14843편 -->
+- [x] trastuzumab — Adenocarcinoma에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 41건 · 논문 1554편 -->
+- [x] trastuzumab — Neoplasms에 듣는다 — 허가·표준 항암치료(2026-08-05)  <!-- 시험 27건 · 논문 12821편 -->
+- [x] trastuzumab — Lung Carcinoma에 듣는다 — HER2 변이 폐암 2상 항목 생성(2026-08-05)  <!-- 시험 27건 · 논문 418편 -->
+- [x] abiraterone — Gene Polymorphism에 듣는다 — 효능이 아닌 건강인 약동학 연구(2026-08-05)  <!-- 시험 10건 · 논문 40편 -->
+- [x] abiraterone — Solid Tumors에 듣는다 — 전립선암 외 직접 효능 근거 없음(2026-08-05)  <!-- 시험 7건 · 논문 111편 -->
+- [x] letrozole — Infertility에 듣는다 — 표준 배란유도 사용(2026-08-05)  <!-- 시험 51건 · 논문 826편 -->
+- [x] letrozole — Polycystic Ovary Syndrome에 듣는다 — 표준 배란유도 사용(2026-08-05)  <!-- 시험 44건 · 논문 905편 -->
+- [x] letrozole — Ovarian Response에 듣는다 — 난소 반응 저하 보조요법 관찰 항목 생성(2026-08-05)  <!-- 시험 36건 · 논문 275편 -->
+- [x] letrozole — KIT Positive에 듣는다 — c-KIT·PDGFR-β 양성 유방암 2상 항목 생성(2026-08-05)  <!-- 시험 23건 · 논문 9편 -->
+- [x] dutasteride — Cancer에 듣는다 — 전립선암 예방 3상 항목 생성(2026-08-05)  <!-- 시험 37건 · 논문 498편 -->
+- [x] dutasteride — Hypogonadism에 듣는다 — 테스토스테론 부작용 억제 항목 생성(2026-08-05)  <!-- 시험 8건 · 논문 18편 -->
+- [x] dutasteride — Alopecia에 듣는다 — 남성 탈모 3상 항목 생성(2026-08-05)  <!-- 시험 7건 · 논문 272편 -->
+- [x] mirabegron — Incontinence에 듣는다 — 허가·표준 배뇨장애 치료(2026-08-05)  <!-- 시험 25건 · 논문 339편 -->
 - [ ] mirabegron — Ureteral Stone에 듣는다  <!-- 시험 6건 · 논문 25편 -->
 - [ ] mirabegron — Detrusor Overactivity에 듣는다  <!-- 시험 5건 · 논문 681편 -->
 - [ ] mirabegron — Food Effect에 듣는다  <!-- 시험 5건 · 논문 34편 -->

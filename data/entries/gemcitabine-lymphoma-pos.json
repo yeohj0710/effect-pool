@@ -1,0 +1,30 @@
+{
+  "id": "gemcitabine-lymphoma-pos",
+  "subj": "젬시타빈",
+  "claim": "재발·불응 미만성 거대 B세포 림프종에 리툭시맙·젬시타빈·옥살리플라틴을 병용한다",
+  "line": "재발·불응 DLBCL 2상에서 R-GemOx의 전체 반응률은 61%였습니다.",
+  "effect": "전체 반응률 61%; 완전관해 44%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 49,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "젬시타빈 허가 적응증에 미만성 거대 B세포 림프종은 포함하지 않습니다.",
+  "why": "젬시타빈과 옥살리플라틴의 상호보완적 세포독성을 리툭시맙의 B세포 표적 효과와 결합하는 구제요법입니다.",
+  "saw": "고용량 치료 대상이 아닌 재발·불응 미만성 거대 B세포 림프종 환자 49명을 대상으로 한 다기관 2상에서 4주기 후 완전관해 44%, 부분관해 17%, 전체 반응률 61%였습니다. 5년 무진행생존율과 전체생존율은 각각 12.8%와 13.9%였고 3·4등급 감염은 치료 주기의 22%에서 발생했습니다.",
+  "limit": "소규모 단일군 시험이며 고위험 재발 환자가 많아 장기 생존율은 낮았습니다.",
+  "against": "이 연구는 비교군이 없고 조기 재발·리툭시맙 선행 노출 환자에서 반응률이 특히 낮았습니다.",
+  "use": "자가이식이나 고강도 치료가 어려운 재발·불응 미만성 거대 B세포 림프종의 구제요법 근거로만 기록합니다.",
+  "refs": [
+    { "label": "재발·불응 DLBCL 리툭시맙·젬시타빈·옥살리플라틴 2상", "pmid": "23753028", "nct": "NCT00169195" },
+    { "label": "재발·불응 DLBCL R-GemOx 실제진료 코호트", "pmid": "33764240" },
+    { "label": "재발·불응 DLBCL GemOx 3상 비교시험", "pmid": "39550172", "nct": "NCT04408638" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=gemcitabine · cond=Lymphoma → 298건 반환, 물질 대조 후 79건",
+    "pubmed": "gemcitabine AND Lymphoma → 929편",
+    "negative": "gemcitabine AND Lymphoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 597편",
+    "safety": "gemcitabine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 11806편"
+  }
+}
