@@ -1,0 +1,30 @@
+{
+  "id": "naloxone-pain-open",
+  "subj": "날록손",
+  "claim": "오피오이드의 장내 부작용인 변비를 줄이면서 진통을 유지하는 데 날록손을 병용하는가",
+  "line": "옥시코돈·날록손은 진통을 유지하면서 변비를 줄일 수 있습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "날록손 단독은 오피오이드 과량투여 해독제로 허가됐고, 통증에서의 경구 날록손 병용은 별도 제형·적응증으로 다뤄집니다.",
+  "why": "장내 오피오이드 수용체 차단이라는 날록손의 약리 작용을 변비·장기능 장애 완화에 이용하고 중추 진통은 유지하려는 주장입니다.",
+  "saw": "옥시코돈·날록손 병용 연구 리뷰에서 진통 효과는 옥시코돈과 비슷하거나 우수했고 장기능 장애는 줄었습니다. 암 환자 오피오이드 유발 변비 메타분석에서는 옥시코돈·날록손이 옥시코돈+완하제보다 Bowel Function Index를 개선했습니다(MD -13.68, 95% CI -18.38–-8.98).",
+  "limit": "근거는 날록손 단독이 아니라 옥시코돈·날록손 고정복합제에 대한 것이며, 연구마다 비교약과 용량이 달랐습니다.",
+  "against": "날록손이 전신으로 충분히 흡수되거나 용량이 높으면 진통을 약화시키고 금단을 유발할 수 있습니다.",
+  "use": "오피오이드 진통과 변비를 함께 평가해 복합제·말초 μ수용체 길항제·완하제를 비교하고, 임의로 날록손을 추가하지 않습니다.",
+  "effect": "장기능 지수 MD -13.68",
+  "refs": [
+    { "label": "Leppert 2019 · 옥시코돈·날록손의 통증·변비 리뷰", "pmid": "30625013", "doi": "10.1080/03007995.2019.1570516" },
+    { "label": "Schutter 2010 · 옥시코돈·날록손 임상자료 리뷰", "pmid": "20030568" },
+    { "label": "암 환자 오피오이드 유발 변비 약물 메타분석", "pmid": "38452708" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=naloxone, cond=Pain · 139건 중 56건 직접 확인",
+    "pubmed": "naloxone AND Pain · 7713건",
+    "negative": "naloxone AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 6637건",
+    "safety": "naloxone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 10282건"
+  }
+}

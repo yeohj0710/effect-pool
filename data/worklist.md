@@ -8664,36 +8664,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dipyridamole — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 5943편 --> — 근거 없음(항혈소판제 문헌은 넓지만 심혈관질환 자체 치료효과 없음)
 - [x] dipyridamole — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 4129편 --> — 근거 없음(심장질환 치료가 아니라 심근 관류 진단 자료 중심)
 - [x] dipyridamole — Brain Ischemia에 듣는다  <!-- 시험 5건 · 논문 509편 -->
-- [ ] entecavir — Liver Cancer에 듣는다  <!-- 시험 26건 · 논문 680편 -->
-- [ ] entecavir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 10건 · 논문 844편 -->
-- [ ] entecavir — HBV에 듣는다  <!-- 시험 8건 · 논문 2474편 -->
-- [ ] famotidine — COVID-19에 듣는다  <!-- 시험 19건 · 논문 103편 -->
-- [ ] famotidine — Healthy Adults에 듣는다  <!-- 시험 14건 · 논문 166편 -->
-- [ ] famotidine — 2019-nCoV Disease에 듣는다  <!-- 시험 12건 · 논문 103편 -->
-- [ ] famotidine — Covid19에 듣는다  <!-- 시험 8건 · 논문 103편 -->
-- [ ] flecainide — Ventricular Arrhythmia에 듣는다  <!-- 시험 13건 · 논문 1302편 -->
-- [ ] flecainide — Supraventricular Tachycardia에 듣는다  <!-- 시험 5건 · 논문 394편 -->
-- [ ] flecainide — Heart Arrest에 듣는다  <!-- 시험 4건 · 논문 183편 -->
-- [ ] flecainide — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 2070편 -->
-- [ ] labetalol — Preeclampsia에 듣는다  <!-- 시험 15건 · 논문 314편 -->
-- [ ] labetalol — Acute Stroke에 듣는다  <!-- 시험 6건 · 논문 182편 -->
-- [ ] labetalol — Pre-Eclampsia에 듣는다  <!-- 시험 5건 · 논문 226편 -->
-- [ ] labetalol — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 274편 -->
-- [ ] misoprostol — Hemorrhage에 듣는다  <!-- 시험 67건 · 논문 1801편 -->
-- [ ] misoprostol — Labor에 듣는다  <!-- 시험 62건 · 논문 1913편 -->
-- [ ] misoprostol — Pregnancy에 듣는다  <!-- 시험 56건 · 논문 4389편 -->
-- [ ] mycophenolate mofetil — Leukemia에 듣는다  <!-- 시험 697건 · 논문 468편 -->
-- [ ] mycophenolate mofetil — Myelodysplastic Syndrome에 듣는다  <!-- 시험 161건 · 논문 119편 -->
-- [ ] mycophenolate mofetil — Kidney Cancer에 듣는다  <!-- 시험 142건 · 논문 281편 -->
-- [ ] mycophenolate mofetil — Myeloma에 듣는다  <!-- 시험 110건 · 논문 61편 -->
-- [ ] naloxone — Pain에 듣는다  <!-- 시험 68건 · 논문 7713편 -->
-- [ ] naloxone — Drug Dependence에 듣는다  <!-- 시험 30건 · 논문 10680편 -->
-- [ ] naloxone — Overdose에 듣는다  <!-- 시험 24건 · 논문 3908편 -->
-- [ ] naloxone — Constipation에 듣는다  <!-- 시험 9건 · 논문 611편 -->
-- [ ] suvorexant — Opioid Use Disorder에 듣는다  <!-- 시험 18건 · 논문 16편 -->
-- [ ] suvorexant — Sleep에 듣는다  <!-- 시험 12건 · 논문 386편 -->
-- [ ] suvorexant — Delirium에 듣는다  <!-- 시험 5건 · 논문 54편 -->
-- [ ] suvorexant — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 15편 -->
+- [x] entecavir — Liver Cancer에 듣는다  <!-- 시험 26건 · 논문 680편 -->
+- [x] entecavir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 10건 · 논문 844편 --> — 같은 간세포암 발생 위험 근거로 처리
+- [x] entecavir — HBV에 듣는다  <!-- 시험 8건 · 논문 2474편 --> — 허가 적응증(2026-08-05)
+- [x] famotidine — COVID-19에 듣는다  <!-- 시험 19건 · 논문 103편 -->
+- [x] famotidine — Healthy Adults에 듣는다  <!-- 시험 14건 · 논문 166편 --> — 근거 없음(약동학·위산 억제 연구로 치료효과 없음)
+- [x] famotidine — 2019-nCoV Disease에 듣는다  <!-- 시험 12건 · 논문 103편 --> — 같은 COVID-19 근거로 처리
+- [x] famotidine — Covid19에 듣는다  <!-- 시험 8건 · 논문 103편 --> — 같은 COVID-19 근거로 처리
+- [x] flecainide — Ventricular Arrhythmia에 듣는다  <!-- 시험 13건 · 논문 1302편 --> — 허가 적응증(2026-08-05)
+- [x] flecainide — Supraventricular Tachycardia에 듣는다  <!-- 시험 5건 · 논문 394편 --> — 허가 적응증(2026-08-05)
+- [x] flecainide — Heart Arrest에 듣는다  <!-- 시험 4건 · 논문 183편 --> — 근거 없음(심정지 소생 치료 직접시험 없음)
+- [x] flecainide — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 2070편 --> — 근거 없음(심혈관질환 전체 치료효과가 아니라 부정맥 자료 중심)
+- [x] labetalol — Preeclampsia에 듣는다  <!-- 시험 15건 · 논문 314편 --> — 허가 적응증(2026-08-05)
+- [x] labetalol — Acute Stroke에 듣는다  <!-- 시험 6건 · 논문 182편 -->
+- [x] labetalol — Pre-Eclampsia에 듣는다  <!-- 시험 5건 · 논문 226편 --> — 같은 자간전증 주제·허가 적응증(2026-08-05)
+- [x] labetalol — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 274편 -->
+- [x] misoprostol — Hemorrhage에 듣는다  <!-- 시험 67건 · 논문 1801편 -->
+- [x] misoprostol — Labor에 듣는다  <!-- 시험 62건 · 논문 1913편 -->
+- [x] misoprostol — Pregnancy에 듣는다  <!-- 시험 56건 · 논문 4389편 --> — 근거 없음(임신 전체를 대상으로 한 단일 치료 주장 없음)
+- [x] mycophenolate mofetil — Leukemia에 듣는다  <!-- 시험 697건 · 논문 468편 --> — 근거 없음(백혈병 치료가 아니라 이식 후 면역억제 자료)
+- [x] mycophenolate mofetil — Myelodysplastic Syndrome에 듣는다  <!-- 시험 161건 · 논문 119편 -->
+- [x] mycophenolate mofetil — Kidney Cancer에 듣는다  <!-- 시험 142건 · 논문 281편 --> — 근거 없음(이식 면역억제 자료로 신장암 치료효과 없음)
+- [x] mycophenolate mofetil — Myeloma에 듣는다  <!-- 시험 110건 · 논문 61편 -->
+- [x] naloxone — Pain에 듣는다  <!-- 시험 68건 · 논문 7713편 -->
+- [x] naloxone — Drug Dependence에 듣는다  <!-- 시험 30건 · 논문 10680편 --> — 허가 적응증(부프레노르핀·날록손 병용, 2026-08-05)
+- [x] naloxone — Overdose에 듣는다  <!-- 시험 24건 · 논문 3908편 --> — 허가 적응증(2026-08-05)
+- [x] naloxone — Constipation에 듣는다  <!-- 시험 9건 · 논문 611편 -->
+- [x] suvorexant — Opioid Use Disorder에 듣는다  <!-- 시험 18건 · 논문 16편 -->
+- [x] suvorexant — Sleep에 듣는다  <!-- 시험 12건 · 논문 386편 --> — 허가 적응증(2026-08-05)
+- [x] suvorexant — Delirium에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [x] suvorexant — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 15편 -->
 - [ ] terbutaline — Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 21편 -->
 - [ ] terbutaline — Fetal Distress에 듣는다  <!-- 시험 3건 · 논문 48편 -->
 - [ ] triamcinolone — Pain에 듣는다  <!-- 시험 51건 · 논문 1917편 -->

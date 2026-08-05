@@ -1,0 +1,29 @@
+{
+  "id": "labetalol-acute-stroke-open",
+  "subj": "라베타롤",
+  "claim": "급성 뇌졸중의 고혈압 조절에 라베타롤을 사용하는가",
+  "line": "라베타롤은 급성 뇌졸중의 혈압 조절에 사용되지만 니카르디핀보다 목표 혈압 도달이 늦을 수 있습니다.",
+  "tier": "obs",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "라베타롤은 고혈압 허가 약물이지만 급성 뇌졸중의 혈압 조절은 별도 허가 적응증이 아닙니다.",
+  "why": "급성 뇌졸중에서 과도한 혈압 상승을 낮춰 재관류 치료와 출혈 위험을 관리하려는 임상 사용에서 나온 주장입니다.",
+  "saw": "급성 뇌졸중 환자를 비교한 후향 코호트 5개와 전향 유사무작위 코호트 1개 메타분석에서 니카르디핀이 목표 혈압 도달 시간에 유리했습니다(SMD 0.275, 95% CI 0.112–0.438). 이상반응은 라베타롤군에서 더 적었지만 근거의 질은 낮았습니다.",
+  "limit": "무작위 비교시험이 부족하고 연구가 대부분 관찰자료라 혈압 조절 차이가 기능적 신경학적 결과로 이어지는지 알 수 없습니다.",
+  "against": "라베타롤은 급성 뇌졸중에서 사용 가능한 1차 혈압강하제 중 하나로 권고되지만, 약제 간 우월성은 확립되지 않았습니다.",
+  "use": "뇌졸중 유형, 재관류 치료 여부, 목표 혈압에 따라 신경과가 정주 혈압강하제를 선택하고 신경학적 악화를 감시합니다.",
+  "effect": "목표 혈압 도달은 니카르디핀 우세",
+  "refs": [
+    { "label": "Wang 2022 · Journal of Stroke and Cerebrovascular Diseases · 체계적 문헌고찰·메타분석", "pmid": "36352567", "doi": "10.1016/j.jstrokecerebrovasdis.2022.106891" },
+    { "label": "ACOG 2019 · 급성 중증 고혈압 응급치료 권고", "pmid": "30575639" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=labetalol, cond=Acute Stroke · 11건 중 7건 직접 확인",
+    "pubmed": "labetalol AND Acute Stroke · 182건",
+    "negative": "labetalol AND Acute Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 141건",
+    "safety": "labetalol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1130건"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "entecavir-liver-cancer-open",
+  "subj": "엔테카비르",
+  "claim": "만성 B형간염 환자의 간세포암 발생 위험을 낮추는 데 엔테카비르를 사용하는가",
+  "line": "엔테카비르의 간세포암 위험 감소 근거는 연구마다 엇갈립니다.",
+  "tier": "obs",
+  "dir": "open",
+  "n": 119053,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "엔테카비르는 만성 B형간염 치료 허가 약물이지만 간세포암 예방·치료는 허가 적응증이 아닙니다.",
+  "why": "바이러스 억제로 간 염증과 섬유화를 낮추면 간세포암 위험도 낮아질 수 있다는 관찰 근거에서 출발한 주장입니다.",
+  "saw": "31개 연구 119,053명 메타분석에서 테노포비르와 엔테카비르의 간세포암 위험은 보정 HR 0.88(95% CI 0.73–1.07)로 유의한 차이가 없었습니다. 다른 20개 코호트 90,404명 분석에서는 엔테카비르군의 발생률이 더 높게 나타났습니다(OR 1.66, 95% CI 1.35–2.05).",
+  "limit": "관찰연구의 처방 선택·간질환 중증도 차이와 높은 이질성이 있어 엔테카비르가 간암을 직접 치료하거나 예방한다고 결론낼 수 없습니다.",
+  "against": "개별 환자자료 메타분석과 병원 기반 하위분석에서는 테노포비르와 엔테카비르의 위험 차이가 없었습니다.",
+  "use": "간암 치료를 대신하지 않으며, 만성 B형간염 치료가 필요한 환자에서 간 전문의가 항바이러스제 선택과 간암 감시를 함께 결정합니다.",
+  "effect": "간세포암 HR 0.88, 유의하지 않음",
+  "refs": [
+    { "label": "Lim 2020 · Lancet Gastroenterology & Hepatology · 체계적 문헌고찰·메타분석", "pmid": "33007228", "doi": "10.1016/S2468-1253(20)30249-0" },
+    { "label": "Zhang 2023 · Medicine · 메타분석", "pmid": "36820558", "doi": "10.1097/MD.0000000000032891" },
+    { "label": "Kim 2022 · 개별 환자자료 메타분석", "pmid": "36572349" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=entecavir, cond=Liver Cancer · 27건 중 18건 직접 확인",
+    "pubmed": "entecavir AND Liver Cancer · 680건",
+    "negative": "entecavir AND Liver Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) · 462건",
+    "safety": "entecavir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1215건"
+  }
+}

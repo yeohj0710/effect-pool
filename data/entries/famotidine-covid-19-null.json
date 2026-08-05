@@ -1,0 +1,31 @@
+{
+  "id": "famotidine-covid-19-null",
+  "subj": "파모티딘",
+  "claim": "COVID-19 치료에 파모티딘을 사용하는가",
+  "line": "파모티딘은 COVID-19 중증도·사망을 유의하게 줄이지 않았습니다.",
+  "tier": "obs",
+  "dir": "null",
+  "n": 46435,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "파모티딘은 위산 분비 억제 허가 약물이지만 COVID-19 치료는 허가 적응증이 아닙니다.",
+  "why": "H2 수용체 차단과 히스타민-염증 반응 조절 가능성에서 COVID-19 재창출 주장이 나왔습니다.",
+  "saw": "입원환자 46,435명을 포함한 4개 관찰연구 메타분석에서 복합 결과 HR은 0.63(95% CI 0.35–1.16), 사망 HR은 0.67(0.26–1.73)로 유의하지 않았습니다. 208명 무작위시험에서는 임상 회복이 75% 대 70%였지만 생존 차이는 유의하지 않았습니다(P=.989).",
+  "limit": "관찰연구 메타분석의 이질성이 높았고(H² 결과 이질성 83.69–88.07%), 무작위시험도 작고 병용치료의 영향을 받았습니다.",
+  "against": "50명 무작위 위약대조시험에서는 COVID-19 후 인지·우울·불안 점수가 파모티딘군에서 개선됐지만, 급성 COVID-19의 중증도·사망 효과를 검증한 결과는 아닙니다.",
+  "use": "COVID-19 표준치료를 대신하지 않으며, 임상시험 밖에서 치료 목적으로 추가하지 않습니다.",
+  "effect": "복합 결과 HR 0.63, 유의하지 않음",
+  "refs": [
+    { "label": "Sun 2021 · Journal of Infection · 입원환자 메타분석", "pmid": "34735523", "doi": "10.1016/j.jinf.2021.08.014" },
+    { "label": "Wang 2021 · Journal of Medical Virology · 체계적 문헌고찰·메타분석", "pmid": "33625613", "doi": "10.1002/jmv.26970" },
+    { "label": "Sultana 2022 · randomized controlled trial", "pmid": "36159508" },
+    { "label": "ClinicalTrials.gov COVID-19 famotidine trials", "nct": "NCT04724720" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=famotidine, cond=COVID-19 · 19건 중 15건 직접 확인",
+    "pubmed": "famotidine AND COVID-19 · 103건",
+    "negative": "famotidine AND COVID-19 AND (no effect OR did not OR failed to OR negative OR no significant difference) · 55건",
+    "safety": "famotidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 845건"
+  }
+}

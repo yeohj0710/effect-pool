@@ -1,0 +1,30 @@
+{
+  "id": "misoprostol-hemorrhage-open",
+  "subj": "미소프로스톨",
+  "claim": "자궁 수축을 일으키는 미소프로스톨을 산후출혈 예방·치료에 사용하는가",
+  "line": "미소프로스톨 병용은 출혈 예방에 일부 이득이 있지만 발열이 늘었습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 3174,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "산과 진료에서 자궁수축제로 널리 사용되지만 산후출혈 적응증의 허가 범위는 국가·제형에 따라 다릅니다.",
+  "why": "프로스타글란딘 유사체의 자궁수축 작용이라는 약리 부작용을 산후출혈 예방·치료에 이용한다는 주장입니다.",
+  "saw": "제왕절개 17개 무작위시험 3,174명 메타분석에서 미소프로스톨과 옥시토신 단독의 출혈 차이는 일관되지 않았지만, 미소프로스톨·옥시토신 병용은 추가 자궁수축제 사용을 줄였습니다(RR 0.33, 95% CI 0.18–0.62). 발열과 오한은 더 많았습니다.",
+  "limit": "투여 경로와 용량이 연구마다 달랐고 일부 결과는 소수 연구와 방법론적 한계에 의존합니다.",
+  "against": "트라넥삼산과 미소프로스톨을 비교한 10개 무작위시험 2,121명에서는 출혈량·수혈·추가 자궁수축제 사용의 유의한 차이가 없었습니다.",
+  "use": "산과팀이 옥시토신·트라넥삼산 등과 함께 출혈 원인과 금기를 확인해 선택하며, 발열·오한을 감시합니다.",
+  "effect": "병용 추가 자궁수축제 RR 0.33",
+  "refs": [
+    { "label": "Conde-Agudelo 2013 · American Journal of Obstetrics and Gynecology · 메타분석", "pmid": "23507545", "doi": "10.1016/j.ajog.2013.01.014" },
+    { "label": "Mousa 2023 · 산후출혈 예방 병용치료 리뷰", "pmid": "36028160" },
+    { "label": "Alonso-Coello 2024 · 트라넥삼산 대 미소프로스톨 메타분석", "pmid": "37832480" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=misoprostol, cond=Hemorrhage · 132건 중 87건 직접 확인",
+    "pubmed": "misoprostol AND Hemorrhage · 1801건",
+    "negative": "misoprostol AND Hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1396건",
+    "safety": "misoprostol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 3100건"
+  }
+}
