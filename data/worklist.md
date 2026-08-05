@@ -6364,10 +6364,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] creatine — Major Depressive Disorder에 듣는다 — 기존 항목(creatine-major-depressive-disorder)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sarcopenia에 듣는다 — 기존 항목(creatine-sarcopenia)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sport Performance에 듣는다 — 기존 항목(creatine-sport-performance)  <!-- 등록 시험 13건 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [x] berberine — Schizophrenia에 듣는다 — 기존 항목(berberine-schizophrenia)  <!-- 등록 시험 9건 -->
+- [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
+- [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+- [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -6378,12 +6378,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sacubitril — Hypertension에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] sacubitril — Myocardial Injury에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] sacubitril — Chagas Cardiomyopathy에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] sacubitril — Breast Cancer에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] donepezil — Dementia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] donepezil — Memory Impairment에 듣는다  <!-- 등록 시험 29건 -->
+- [x] sacubitril — Hypertension에 듣는다 — 새 항목(sacubitril-hypertension-open)  <!-- 등록 시험 19건 -->
+- [x] sacubitril — Myocardial Injury에 듣는다 — 새 항목(sacubitril-myocardial-injury-open)  <!-- 등록 시험 9건 -->
+- [x] sacubitril — Chagas Cardiomyopathy에 듣는다 — 새 항목(sacubitril-chagas-cardiomyopathy-pos)  <!-- 등록 시험 6건 -->
+- [x] sacubitril — Breast Cancer에 듣는다 — 새 항목(sacubitril-breast-cancer-open)  <!-- 등록 시험 6건 -->
+- [x] donepezil — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 32건 -->
+- [x] donepezil — Memory Impairment에 듣는다 — 새 항목(donepezil-memory-impairment-null)  <!-- 등록 시험 29건 -->
 - [ ] donepezil — Stroke에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] donepezil — Brain Tumor에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] rivastigmine — Delirium에 듣는다  <!-- 등록 시험 10건 -->
