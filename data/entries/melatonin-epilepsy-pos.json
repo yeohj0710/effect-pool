@@ -1,0 +1,29 @@
+{
+  "id": "melatonin-epilepsy-pos",
+  "subj": "멜라토닌",
+  "claim": "멜라토닌을 간질 환자의 보조 치료로 쓴다",
+  "line": "간질 보조치료 무작위시험 메타분석에서 멜라토닌은 수면 잠복기와 발작 중증도를 개선했습니다.",
+  "effect": "수면 RR 0.56; 중증도 RR 0.33",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "멜라토닌 허가사항에 간질 발작 치료는 없다.",
+  "why": "간질 환자의 기존 항경련제에 멜라토닌을 더한 무작위시험 10개를 합친 메타분석이다.",
+  "saw": "2023년 6월까지의 무작위시험 10개에서 멜라토닌 추가치료는 위약보다 수면 잠복기(RR 0.56, 95% CI 0.10–1.02)와 발작 중증도(RR 0.33, 95% CI 0.04–0.62)를 개선했다. 통합된 총 참여자 수는 초록에 제시되지 않았다.",
+  "limit": "연구마다 수면·발작·안전성 측정이 달랐고 장기 추적이 부족하며, 발작 빈도 감소가 확립된 것은 아니다.",
+  "against": "사람 연구 수가 적고 결과가 일관되지 않다는 종설도 있으며, 편두통 병력이 있는 소아에서 두통 악화 등 이상반응이 보고됐다.",
+  "use": "기존 항경련제를 대체하지 않는 수면·발작 중증도 보조치료 가설로만 해석한다.",
+  "refs": [
+    { "label": "간질 멜라토닌 보조치료 무작위시험 메타분석", "pmid": "38417212" },
+    { "label": "멜라토닌과 간질 종설", "pmid": "35851222" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=melatonin · cond=Epilepsy · 총 10건, 멜라토닌 직접 확인 10건",
+    "pubmed": "melatonin AND Epilepsy · 379편",
+    "negative": "melatonin AND Epilepsy AND (no effect OR did not OR failed to OR negative OR no significant difference) · 259편",
+    "safety": "melatonin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 6,376편"
+  }
+}

@@ -9194,31 +9194,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ivabradine — Septic Shock에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 근거 항목(2026-08-05)
 - [x] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 --> — 허가 적응증(2026-08-05)
 - [x] ivabradine — Myocardial Injury에 듣는다  <!-- 시험 4건 · 논문 38편 --> — 근거 항목(2026-08-05)
-- [ ] ivabradine — Electrical Remodeling에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] levodopa — Dyskinesias에 듣는다  <!-- 시험 5건 · 논문 6593편 -->
-- [ ] levodopa — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 303편 -->
-- [ ] levodopa — Parkinsonian Syndrome에 듣는다  <!-- 시험 4건 · 논문 15177편 -->
-- [ ] melatonin — Spine Surgery에 듣는다  <!-- 시험 9건 · 논문 129편 -->
-- [ ] melatonin — Obesity에 듣는다  <!-- 시험 8건 · 논문 749편 -->
-- [ ] melatonin — Epilepsy에 듣는다  <!-- 시험 8건 · 논문 379편 -->
-- [ ] melatonin — Circadian Rhythm에 듣는다  <!-- 시험 8건 · 논문 9128편 -->
-- [ ] misoprostol — Miscarriage에 듣는다  <!-- 시험 20건 · 논문 636편 -->
-- [ ] misoprostol — Cesarean Section에 듣는다  <!-- 시험 19건 · 논문 666편 -->
-- [ ] misoprostol — Blood Loss에 듣는다  <!-- 시험 17건 · 논문 1190편 -->
-- [ ] phenytoin — Wound에 듣는다  <!-- 시험 3건 · 논문 766편 -->
-- [ ] prazosin — Nicotine에 듣는다  <!-- 시험 4건 · 논문 90편 -->
-- [ ] prazosin — Brain Injuries에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] roflumilast — Pulmonary Disease에 듣는다  <!-- 시험 22건 · 논문 556편 -->
-- [ ] roflumilast — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 9편 -->
-- [ ] roflumilast — Bronchiectasis에 듣는다  <!-- 시험 6건 · 논문 8편 -->
-- [ ] roflumilast — Obesity에 듣는다  <!-- 시험 5건 · 논문 17편 -->
-- [ ] spironolactone — Puberty에 듣는다  <!-- 시험 4건 · 논문 58편 -->
-- [ ] spironolactone — Myocardial Fibrosis에 듣는다  <!-- 시험 4건 · 논문 298편 -->
-- [ ] spironolactone — Congenital Disorders에 듣는다  <!-- 시험 3건 · 논문 462편 -->
-- [ ] spironolactone — Acne에 듣는다  <!-- 시험 3건 · 논문 324편 -->
-- [ ] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 -->
-- [ ] verapamil — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 218편 -->
-- [ ] verapamil — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 168편 -->
+- [x] ivabradine — Electrical Remodeling에 듣는다  <!-- 시험 4건 · 논문 18편 --> — 근거 항목(2026-08-05)
+- [x] levodopa — Dyskinesias에 듣는다  <!-- 시험 5건 · 논문 6593편 --> — 근거 없음(치료 연구가 아니라 레보도파 유발 이상운동증 연구 중심)
+- [x] levodopa — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 303편 --> — 표준 치료(2026-08-05)
+- [x] levodopa — Parkinsonian Syndrome에 듣는다  <!-- 시험 4건 · 논문 15177편 --> — 허가 적응증(2026-08-05)
+- [x] melatonin — Spine Surgery에 듣는다  <!-- 시험 9건 · 논문 129편 --> — 근거 항목(2026-08-05)
+- [x] melatonin — Obesity에 듣는다  <!-- 시험 8건 · 논문 749편 --> — 근거 없음(임상 치료 결과 없이 기전·종설 중심)
+- [x] melatonin — Epilepsy에 듣는다  <!-- 시험 8건 · 논문 379편 --> — 근거 항목(2026-08-05)
+- [x] melatonin — Circadian Rhythm에 듣는다  <!-- 시험 8건 · 논문 9128편 --> — 표준 치료(2026-08-05)
+- [x] misoprostol — Miscarriage에 듣는다  <!-- 시험 20건 · 논문 636편 --> — 근거 항목(2026-08-05)
+- [x] misoprostol — Cesarean Section에 듣는다  <!-- 시험 19건 · 논문 666편 --> — 근거 항목(2026-08-05)
+- [x] misoprostol — Blood Loss에 듣는다  <!-- 시험 17건 · 논문 1190편 --> — 기존 항목으로 다룸(2026-08-05)
+- [x] phenytoin — Wound에 듣는다  <!-- 시험 3건 · 논문 766편 --> — 근거 항목(2026-08-05)
+- [x] prazosin — Nicotine에 듣는다  <!-- 시험 4건 · 논문 90편 --> — 근거 없음(사람 치료결과 없이 동물·약리 연구 중심)
+- [x] prazosin — Brain Injuries에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(완료된 사람 치료효과 결과를 찾지 못함)
+- [x] roflumilast — Pulmonary Disease에 듣는다  <!-- 시험 22건 · 논문 556편 --> — 허가 적응증(2026-08-05)
+- [x] roflumilast — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 9편 --> — 근거 항목(2026-08-05)
+- [x] roflumilast — Bronchiectasis에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 근거 항목(2026-08-05)
+- [x] roflumilast — Obesity에 듣는다  <!-- 시험 5건 · 논문 17편 --> — 근거 항목(2026-08-05)
+- [x] spironolactone — Puberty에 듣는다  <!-- 시험 4건 · 논문 58편 --> — 근거 없음(사람 치료효과 결과 없이 내분비·소아 증례 중심)
+- [x] spironolactone — Myocardial Fibrosis에 듣는다  <!-- 시험 4건 · 논문 298편 --> — 근거 항목(2026-08-05)
+- [x] spironolactone — Congenital Disorders에 듣는다  <!-- 시험 3건 · 논문 462편 --> — 근거 없음(선천성 심장·내분비 질환이 섞여 일반 치료결과 없음)
+- [x] spironolactone — Acne에 듣는다  <!-- 시험 3건 · 논문 324편 --> — 근거 항목(2026-08-05)
+- [x] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 --> — 허가 적응증(2026-08-05)
+- [x] verapamil — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 218편 --> — 표준 치료(2026-08-05)
+- [x] verapamil — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 168편 --> — 근거 없음(소규모 탐색시험·기전 연구만 확인)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9229,11 +9229,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] armodafinil — Shift Work Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 128편 -->
-- [ ] armodafinil — Insomnia에 듣는다  <!-- 시험 3건 · 논문 121편 -->
-- [ ] armodafinil — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 106편 -->
-- [ ] aprepitant — Major Depressive Disorder에 듣는다  <!-- 시험 9건 · 논문 10편 -->
-- [ ] aprepitant — Leukemia에 듣는다  <!-- 시험 8건 · 논문 19편 -->
+- [x] armodafinil — Shift Work Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 128편 --> — 허가 적응증(2026-08-05)
+- [x] armodafinil — Insomnia에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 근거 항목(2026-08-05)
+- [x] armodafinil — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 106편 --> — 근거 항목(2026-08-05)
+- [x] aprepitant — Major Depressive Disorder에 듣는다  <!-- 시험 9건 · 논문 10편 --> — 근거 항목(2026-08-05)
+- [x] aprepitant — Leukemia에 듣는다  <!-- 시험 8건 · 논문 19편 --> — 근거 없음(사람 연구는 백혈병 치료가 아니라 항암제 유발 구토 예방)
 - [ ] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 -->
 - [ ] bosentan — Scleroderma에 듣는다  <!-- 시험 3건 · 논문 306편 -->
 - [ ] bosentan — Interstitial Lung Disease에 듣는다  <!-- 시험 3건 · 논문 111편 -->

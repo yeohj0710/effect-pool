@@ -1,0 +1,29 @@
+{
+  "id": "phenytoin-wound-pos",
+  "subj": "페니토인",
+  "claim": "페니토인의 국소 부작용·섬유아세포 자극을 상처 치유에 쓴다",
+  "line": "국소 페니토인 상처치료 연구 메타분석에서 상처 치유와 육아조직이 호전됐지만 표준화가 부족합니다.",
+  "effect": "치유 개선 17/24 연구",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1653,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "페니토인 허가사항은 간질·부정맥 등이고 국소 상처치료는 포함하지 않는다.",
+  "why": "국소 페니토인의 섬유아세포 증식·콜라겐 침착·항균 작용을 상처 치유에 이용한 사람 RCT·비무작위 연구를 합친 검토다.",
+  "saw": "사람 RCT 17개와 비무작위 연구 8개, 총 1,653명을 검토한 2023년 체계적 문헌고찰에서 상처 치유를 평가한 24개 연구 중 17개가 개선을 보고했다. 육아조직 증가는 10개 중 9개, 진통 효과는 13개 중 7개에서 보고됐고 이상반응은 드물고 일시적이었다.",
+  "limit": "상처 종류·제형·용량이 서로 다르고 연구 표본 중앙값이 60명이며, 24개 중 7개는 개선을 보이지 않았다.",
+  "against": "기존 임상시험에는 무작위·이중맹검과 적절한 대조군이 부족하다는 지적이 있으며, 표준 상처치료를 대체하는 근거는 아니다.",
+  "use": "전문 상처치료에서 표준 처치를 유지한 채 국소 보조치료 후보로 연구할 수 있지만, 제형과 용량은 확립되지 않았다.",
+  "refs": [
+    { "label": "국소 페니토인 상처치료 체계적 문헌고찰", "pmid": "38479432" },
+    { "label": "압박궤양 국소 페니토인 증례·문헌고찰", "pmid": "8826558" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=phenytoin · cond=Wound · 총 15건, 페니토인 직접 확인 13건",
+    "pubmed": "phenytoin AND Wound · 766편",
+    "negative": "phenytoin AND Wound AND (no effect OR did not OR failed to OR negative OR no significant difference) · 561편",
+    "safety": "phenytoin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8,915편"
+  }
+}
