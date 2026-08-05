@@ -8781,3 +8781,75 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] theophylline — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 -->
 - [ ] zaleplon — Sleep에 듣는다  <!-- 시험 3건 · 논문 273편 -->
 - [ ] vilazodone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 52편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acetaminophen — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 6588편 -->
+- [ ] acetaminophen — Surgery에 듣는다  <!-- 시험 13건 · 논문 7435편 -->
+- [ ] acetaminophen — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 1129편 -->
+- [ ] atropine — Anesthesia에 듣는다  <!-- 시험 19건 · 논문 4261편 -->
+- [ ] atropine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 28편 -->
+- [ ] atropine — Nausea에 듣는다  <!-- 시험 10건 · 논문 385편 -->
+- [ ] atropine — Amblyopia에 듣는다  <!-- 시험 9건 · 논문 275편 -->
+- [ ] bevacizumab — Carcinoma에 듣는다  <!-- 시험 171건 · 논문 6448편 -->
+- [ ] bevacizumab — Lymphoma에 듣는다  <!-- 시험 54건 · 논문 226편 -->
+- [ ] bevacizumab — Glioblastoma에 듣는다  <!-- 시험 47건 · 논문 1686편 -->
+- [ ] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
+- [ ] budesonide — Colitis에 듣는다  <!-- 시험 26건 · 논문 799편 -->
+- [ ] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->
+- [ ] budesonide — Rhinitis에 듣는다  <!-- 시험 22건 · 논문 601편 -->
+- [ ] citalopram — Depressive Symptom에 듣는다  <!-- 시험 165건 · 논문 4217편 -->
+- [ ] citalopram — Anxiety에 듣는다  <!-- 시험 42건 · 논문 1627편 -->
+- [ ] citalopram — Cancer에 듣는다  <!-- 시험 18건 · 논문 272편 -->
+- [ ] citalopram — Cocaine Abuse에 듣는다  <!-- 시험 14건 · 논문 52편 -->
+- [ ] clomipramine — Depression에 듣는다  <!-- 시험 5건 · 논문 1468편 -->
+- [ ] cyclophosphamide — Leukemia에 듣는다  <!-- 시험 310건 · 논문 9179편 -->
+- [ ] cyclophosphamide — Cancer에 듣는다  <!-- 시험 229건 · 논문 53775편 -->
+- [ ] cyclophosphamide — Myelodysplastic Syndrome에 듣는다  <!-- 시험 62건 · 논문 830편 -->
+- [ ] cyclophosphamide — Myeloma에 듣는다  <!-- 시험 58건 · 논문 2925편 -->
+- [ ] deferoxamine — Iron Overload에 듣는다  <!-- 시험 12건 · 논문 1917편 -->
+- [ ] deferoxamine — Subarachnoid Hemorrhage에 듣는다  <!-- 시험 12건 · 논문 38편 -->
+- [ ] deferoxamine — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 165편 -->
+- [ ] diclofenac — Osteoarthritis에 듣는다  <!-- 시험 56건 · 논문 1067편 -->
+- [ ] diclofenac — Arthritis에 듣는다  <!-- 시험 16건 · 논문 1885편 -->
+- [ ] diclofenac — Sprain에 듣는다  <!-- 시험 15건 · 논문 76편 -->
+- [ ] diclofenac — Irreversible Pulpitis에 듣는다  <!-- 시험 14건 · 논문 31편 -->
+- [ ] diphenhydramine — Acute Leukemia에 듣는다  <!-- 시험 24건 · 논문 29편 -->
+- [ ] diphenhydramine — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 44편 -->
+- [ ] diphenhydramine — Multiple Myeloma에 듣는다  <!-- 시험 9건 · 논문 10편 -->
+- [ ] enalapril — Hypertension에 듣는다  <!-- 시험 39건 · 논문 4214편 -->
+- [ ] enalapril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 1569편 -->
+- [ ] enalapril — Pre-diabetes에 듣는다  <!-- 시험 7건 · 논문 17편 -->
+- [ ] enalapril — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5546편 -->
+- [ ] erlotinib — Carcinoma에 듣는다  <!-- 시험 258건 · 논문 4790편 -->
+- [ ] erlotinib — Recurrent Skin Carcinoma에 듣는다  <!-- 시험 48건 · 논문 39편 -->
+- [ ] erlotinib — Adenocarcinoma에 듣는다  <!-- 시험 46건 · 논문 1874편 -->
+- [ ] erlotinib — Tumors에 듣는다  <!-- 시험 41건 · 논문 7299편 -->
+- [ ] formoterol — Pulmonary Emphysema에 듣는다  <!-- 시험 131건 · 논문 26편 -->
+- [ ] formoterol — COPD에 듣는다  <!-- 시험 50건 · 논문 1157편 -->
+- [ ] formoterol — Emphysema에 듣는다  <!-- 시험 8건 · 논문 29편 -->
+- [ ] formoterol — Bronchitis에 듣는다  <!-- 시험 7건 · 논문 41편 -->
+- [ ] isoniazid — HIV에 듣는다  <!-- 시험 41건 · 논문 2664편 -->
+- [ ] isoniazid — Kidney Failure에 듣는다  <!-- 시험 6건 · 논문 173편 -->
+- [ ] isoniazid — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 264편 -->
+- [ ] isoniazid — MDR-TB에 듣는다  <!-- 시험 4건 · 논문 1490편 -->
+- [ ] midazolam — Pain에 듣는다  <!-- 시험 42건 · 논문 3191편 -->
+- [ ] midazolam — Anesthesia에 듣는다  <!-- 시험 33건 · 논문 7389편 -->
+- [ ] midazolam — Anxiety에 듣는다  <!-- 시험 32건 · 논문 2260편 -->
+- [ ] midazolam — Healthy Adults에 듣는다  <!-- 시험 22건 · 논문 960편 -->
+- [ ] phenytoin — Brain Hypoxia에 듣는다  <!-- 시험 11건 · 논문 84편 -->
+- [ ] phenytoin — Seizures에 듣는다  <!-- 시험 6건 · 논문 5580편 -->
+- [ ] phenytoin — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 212편 -->
+- [ ] phenytoin — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 1068편 -->
+- [ ] tizanidine — Spinal Cord Injury에 듣는다  <!-- 시험 5건 · 논문 46편 -->
+- [ ] tizanidine — Spasticity에 듣는다  <!-- 시험 4건 · 논문 245편 -->
+- [ ] tizanidine — Migraine에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [ ] tolterodine — Incontinence에 듣는다  <!-- 시험 27건 · 논문 535편 -->
+- [ ] tolterodine — Pain에 듣는다  <!-- 시험 5건 · 논문 47편 -->
