@@ -1,0 +1,30 @@
+{
+  "id": "oxybutynin-hyperhidrosis-pos",
+  "subj": "옥시부티닌",
+  "claim": "다한증에 옥시부티닌을 쓴다",
+  "line": "다한증 무작위시험 메타분석에서 옥시부티닌이 증상 점수를 개선했습니다",
+  "effect": "HDSS 개선 RR 1.68; 6연구",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 293,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "다한증에서 경구 항콜린제로 쓰는 진료 관행이 있지만 허가 적응증은 과민성 방광입니다.",
+  "why": "방광 치료에서 나타나는 항콜린성 땀 분비 억제를 다한증 치료 효과로 전환한 대표적인 부작용-효능 사례입니다.",
+  "saw": "다한증 환자 293명을 포함한 무작위시험 6개 메타분석에서 옥시부티닌은 위약보다 다한증 중증도 척도(HDSS) 개선 가능성이 높았습니다(RR 1.68, 95% CI 1.21~2.33). 삶의 질도 개선됐지만 입마름과 같은 항콜린성 이상반응을 함께 봐야 합니다.",
+  "limit": "연구 수와 표본이 작고 다한증 부위·제형·추적기간이 달라 장기 안전성과 지속 효과가 불확실합니다.",
+  "against": "장기 관찰·문헌고찰은 인지 저하와 전신 항콜린성 부담을 우려하며, 국소 제형도 전신 부작용 가능성을 완전히 없애지 못했습니다.",
+  "use": "항콜린성 이상반응이 다한증 개선으로 활용된 근거를 기록하며 전신 안전성 신호와 함께 봅니다.",
+  "refs": [
+    { "label": "다한증 옥시부티닌 무작위시험 메타분석", "pmid": "36869926" },
+    { "label": "다한증 옥시부티닌 장기 관찰·문헌고찰", "pmid": "33527699" },
+    { "label": "다한증 옥시부티닌 국소 제형 연구 설계", "pmid": "40012967" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=oxybutynin · cond=Hyperhidrosis → 9건 반환, 물질 대조 후 9건",
+    "pubmed": "oxybutynin AND Hyperhidrosis → 120편",
+    "negative": "oxybutynin AND Hyperhidrosis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 84편",
+    "safety": "oxybutynin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 752편"
+  }
+}

@@ -9615,21 +9615,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] desipramine — Cocaine-Related Disorders에 듣는다  <!-- 시험 6건 · 논문 115편 -->
-- [ ] desipramine — Pain에 듣는다  <!-- 시험 5건 · 논문 258편 -->
-- [ ] desipramine — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 901편 -->
-- [ ] ipratropium — Asthma에 듣는다  <!-- 시험 23건 · 논문 1194편 -->
-- [ ] ipratropium — COPD에 듣는다  <!-- 시험 10건 · 논문 736편 -->
-- [ ] ipratropium — Airway Obstruction에 듣는다  <!-- 시험 4건 · 논문 187편 -->
-- [ ] ipratropium — Lung Diseases에 듣는다  <!-- 시험 4건 · 논문 1813편 -->
-- [ ] orlistat — Overweight에 듣는다  <!-- 시험 10건 · 논문 1437편 -->
-- [ ] orlistat — Diabetes에 듣는다  <!-- 시험 6건 · 논문 744편 -->
-- [ ] orlistat — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 4건 · 논문 49편 -->
-- [ ] orlistat — Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 654편 -->
-- [ ] oxybutynin — Urgency Urinary에 듣는다  <!-- 시험 15건 · 논문 219편 -->
-- [ ] oxybutynin — Hyperhidrosis에 듣는다  <!-- 시험 9건 · 논문 120편 -->
-- [ ] oxybutynin — Sleep Apnea에 듣는다  <!-- 시험 9건 · 논문 43편 -->
-- [ ] tranylcypromine — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 64편 -->
-- [ ] tranylcypromine — Leukemia에 듣는다  <!-- 시험 3건 · 논문 41편 -->
-- [ ] vigabatrin — Infantile Spasms에 듣는다  <!-- 시험 4건 · 논문 649편 -->
-- [ ] vigabatrin — Infantile Spasm에 듣는다  <!-- 시험 3건 · 논문 655편 -->
+- [x] desipramine — Cocaine-Related Disorders에 듣는다 — 혼합 근거 항목 생성 desipramine-cocaine-related-disorders-open(2026-08-05)  <!-- 시험 3건 · 논문 115편 -->
+- [x] desipramine — Pain에 듣는다 — 당뇨병성 신경병증 통증 항목 생성 desipramine-pain-pos(2026-08-05)  <!-- 시험 6건 · 논문 258편 -->
+- [x] desipramine — Depressive Disorder에 듣는다 — 우울증 허가·표준 적응증(2026-08-05)  <!-- 시험 15건 · 논문 901편 -->
+- [x] ipratropium — Asthma에 듣는다 — 천식 기관지확장 표준 치료(2026-08-05)  <!-- 시험 49건 · 논문 1194편 -->
+- [x] ipratropium — COPD에 듣는다 — COPD 기관지확장 허가·표준 적응증(2026-08-05)  <!-- 시험 98건 · 논문 736편 -->
+- [x] ipratropium — Airway Obstruction에 듣는다 — 기도폐쇄 기관지확장 표준 치료(2026-08-05)  <!-- 시험 1건 · 논문 187편 -->
+- [x] ipratropium — Lung Diseases에 듣는다 — 폐쇄성 폐질환 허가·표준 치료(2026-08-05)  <!-- 시험 144건 · 논문 1813편 -->
+- [x] orlistat — Overweight에 듣는다 — 과체중·비만 허가 적응증(2026-08-05)  <!-- 시험 56건 · 논문 1437편 -->
+- [x] orlistat — Diabetes에 듣는다 — 비만 동반 당뇨 체중관리 표준 치료(2026-08-05)  <!-- 시험 11건 · 논문 744편 -->
+- [x] orlistat — Polycystic Ovary Syndrome에 듣는다 — PCOS 체중·대사 항목 생성 orlistat-polycystic-ovary-syndrome-pos(2026-08-05)  <!-- 시험 7건 · 논문 49편 -->
+- [x] orlistat — Metabolic Disease에 듣는다 — 비만 대사관리 허가·표준 치료(2026-08-05)  <!-- 시험 66건 · 논문 654편 -->
+- [x] oxybutynin — Urgency Urinary에 듣는다 — 과민성 방광 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 219편 -->
+- [x] oxybutynin — Hyperhidrosis에 듣는다 — 항콜린성 부작용-효능 항목 생성 oxybutynin-hyperhidrosis-pos(2026-08-05)  <!-- 시험 9건 · 논문 120편 -->
+- [x] oxybutynin — Sleep Apnea에 듣는다 — 초기 병용시험 항목 생성 oxybutynin-sleep-apnea-pos(2026-08-05)  <!-- 시험 11건 · 논문 43편 -->
+- [x] tranylcypromine — Bipolar Disorder에 듣는다 — 양극성 우울증 항목 생성 tranylcypromine-bipolar-disorder-pos(2026-08-05)  <!-- 시험 3건 · 논문 64편 -->
+- [x] tranylcypromine — Leukemia에 듣는다 — 등록·전임상 연구만 확인, 사람 결과 없음(2026-08-05)  <!-- 시험 3건 · 논문 41편 -->
+- [x] vigabatrin — Infantile Spasms에 듣는다 — 영아연축 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 649편 -->
+- [x] vigabatrin — Infantile Spasm에 듣는다 — 영아연축 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 655편 -->
