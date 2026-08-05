@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 479,
   "worklist": {
-    "checked": 6234,
-    "unchecked": 43,
+    "checked": 6244,
+    "unchecked": 33,
     "no_evidence_pending": 0,
     "next_batch": [
-      "amantadine-hepatitis-c",
-      "acetazolamide-heart-failure",
-      "acetazolamide-hypoxia",
-      "acetazolamide-mountain-sickness",
-      "acetazolamide-hypertension",
-      "dapsone-malaria",
-      "dapsone-hiv-infection",
-      "dapsone-pneumocystis-pneumonia",
-      "dapsone-leprosy",
-      "methotrexate-lymphoma"
+      "methotrexate-arthritis",
+      "methotrexate-myelodysplastic-syndrome",
+      "hydroxyurea-cancer",
+      "hydroxyurea-leukemia",
+      "hydroxyurea-thalassemia",
+      "hydroxyurea-hiv-infection",
+      "tranexamic-acid-hemorrhage",
+      "tranexamic-acid-bleeding",
+      "tranexamic-acid-hip-fracture",
+      "tranexamic-acid-surgery"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "losartan-nephropathy (approved)",
-    "losartan-diabetes (existing: losartan-diabetes)",
-    "losartan-fibrosis (existing: losartan-fibrosis-null)",
-    "verapamil-atrial-fibrillation (approved)",
-    "verapamil-hypertension (approved)",
-    "verapamil-ischemic-stroke (existing: verapamil-ischemic-stroke-null)",
-    "verapamil-drug-dependence (existing: verapamil-drug-dependence-null)",
-    "amantadine-brain-injury (existing: amantadine-brain-injury-null)",
-    "amantadine-cocaine-related-disorders (existing: amantadine-cocaine-related-disorders-null)",
-    "amantadine-covid-19 (existing: amantadine-covid-19-null)"
+    "amantadine-hepatitis-c (existing: amantadine-hepatitis-c-null)",
+    "acetazolamide-heart-failure (approved)",
+    "acetazolamide-hypoxia (existing: acetazolamide-hypoxia)",
+    "acetazolamide-mountain-sickness (approved)",
+    "acetazolamide-hypertension (existing: acetazolamide-hypertension-null)",
+    "dapsone-malaria (existing: dapsone-malaria-harm)",
+    "dapsone-hiv-infection (existing: dapsone-hiv-infection-null)",
+    "dapsone-pneumocystis-pneumonia (existing: dapsone-pneumocystis-pneumonia-null)",
+    "dapsone-leprosy (approved)",
+    "methotrexate-lymphoma (approved)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "losartan, verapamil, amantadine",
-    "current_batch": "losartan, verapamil, amantadine",
+    "last_committed_batch": "amantadine, acetazolamide, dapsone, methotrexate",
+    "current_batch": "amantadine, acetazolamide, dapsone, methotrexate",
     "next_action": "commit, push, then process next batch"
   }
 }
