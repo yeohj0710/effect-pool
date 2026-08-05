@@ -1,0 +1,36 @@
+{
+  "id": "botulinum-toxin-parkinson-pos",
+  "subj": "보툴리눔 독소",
+  "claim": "보툴리눔 독소를 파킨슨병 침흘림에 쓴다",
+  "line": "파킨슨병의 침흘림을 위약보다 줄였습니다",
+  "effect": "침흘림 DSFS SMD −0.98",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 259,
+  "synth": "meta",
+  "why": "보툴리눔 독소 제품별 허가사항은 방광·편두통·경직·근긴장이상 등이며 파킨슨병 침흘림은 허가 적응증이 아닙니다.",
+  "saw": "파킨슨병 침흘림을 대상으로 한 무작위시험 8편, 259명을 합친 메타분석에서 보툴리눔 독소 주사는 침흘림 중증도·빈도 점수를 위약보다 낮췄습니다. 이상반응도 더 많았지만 대체로 경미했습니다.",
+  "limit": "파킨슨병 자체의 운동증상이나 진행을 치료한 결과가 아니라 침흘림이라는 비운동 증상을 치료한 결과입니다. 이상반응 근거 확실성은 낮았습니다.",
+  "against": "반대 검색 572건. 10명 교차시험에서는 침 무게와 이차 지표가 유의하게 달라지지 않아 제제와 주입 부위에 따라 결과가 달라질 수 있습니다.",
+  "use": "파킨슨병 침흘림에는 개선 근거가 있지만, 파킨슨병 치료 효과로 확대할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Tan 2023 · BMC Pharmacol Toxicol · 파킨슨병 침흘림 보툴리눔 독소 메타분석",
+      "doi": "10.1186/s40360-023-00694-7",
+      "pmid": "37828600"
+    },
+    {
+      "label": "Patel 2019 · Neurology · SIAXI 침흘림 무작위 3상",
+      "doi": "10.1212/WNL.0000000000007368",
+      "pmid": "30918101"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA brand_name:\"BOTOX\" → 3건, 방광·만성편두통·경직 등 적응증 확인",
+    "ctgov": "query.intr=botulinum toxin&query.cond=Parkinson → 17건 반환, InterventionName 대조 후 8건",
+    "pubmed": "botulinum toxin Parkinson → 917건",
+    "negative": "botulinum toxin Parkinson (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 572건",
+    "safety": "botulinum toxin Parkinson (adverse OR toxicity OR case report OR overdose OR self-medication) → 318건"
+  }
+}

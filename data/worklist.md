@@ -7988,16 +7988,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] botulinum toxin — Urinary Urgency에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 31건 · 논문 363편 -->
 - [x] botulinum toxin — Dystonia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 2948편 -->
 - [x] botulinum toxin — Migraine에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 1110편 -->
-- [ ] botulinum toxin — Parkinson에 듣는다  <!-- 시험 20건 · 논문 917편 -->
-- [ ] duloxetine — Urinary Incontinence에 듣는다  <!-- 시험 22건 · 논문 290편 -->
-- [ ] duloxetine — Anxiety에 듣는다  <!-- 시험 22건 · 논문 484편 -->
-- [ ] duloxetine — Diabetic Neuralgia에 듣는다  <!-- 시험 20건 · 논문 251편 -->
-- [ ] duloxetine — Painful Neuropathy에 듣는다  <!-- 시험 18건 · 논문 456편 -->
-- [ ] dextromethorphan — Opioid Abuse에 듣는다  <!-- 시험 4건 · 논문 89편 -->
-- [ ] dextromethorphan — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 36편 -->
-- [ ] dextromethorphan — Interaction Drug Food에 듣는다  <!-- 시험 4건 · 논문 27편 -->
-- [ ] clonidine — Neuropathy에 듣는다  <!-- 시험 10건 · 논문 128편 -->
-- [ ] clonidine — Intensive Care, Neonatal에 듣는다  <!-- 시험 9건 · 논문 50편 -->
+- [x] botulinum toxin — Parkinson에 듣는다 — 항목 생성(botulinum-toxin-parkinson-pos)(2026-08-05)  <!-- 시험 20건 · 논문 917편 -->
+- [x] duloxetine — Urinary Incontinence에 듣는다 — 항목 생성(duloxetine-urinary-incontinence-harm)(2026-08-05)  <!-- 시험 22건 · 논문 290편 -->
+- [x] duloxetine — Anxiety에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 484편 -->
+- [x] duloxetine — Diabetic Neuralgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 20건 · 논문 251편 -->
+- [x] duloxetine — Painful Neuropathy에 듣는다 — 항목 생성(duloxetine-painful-neuropathy-pos)(2026-08-05)  <!-- 시험 18건 · 논문 456편 -->
+- [x] dextromethorphan — Opioid Abuse에 듣는다 — 항목 생성(dextromethorphan-opioid-abuse-pos)(2026-08-05)  <!-- 시험 4건 · 논문 89편 -->
+- [x] dextromethorphan — Breast Cancer에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 4건 · 논문 36편 -->
+- [x] dextromethorphan — Interaction Drug Food에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 4건 · 논문 27편 -->
+- [x] clonidine — Neuropathy에 듣는다 — 항목 생성(clonidine-neuropathy-null)(2026-08-05)  <!-- 시험 10건 · 논문 128편 -->
+- [x] clonidine — Intensive Care, Neonatal에 듣는다 — 항목 생성(clonidine-intensive-care-neonatal-null)(2026-08-05)  <!-- 시험 9건 · 논문 50편 -->
 - [ ] clonidine — Delirium에 듣는다  <!-- 시험 9건 · 논문 191편 -->
 - [ ] finasteride — Hypogonadism에 듣는다  <!-- 시험 4건 · 논문 28편 -->
 - [ ] finasteride — Urinary Obstruction에 듣는다  <!-- 시험 4건 · 논문 121편 -->
