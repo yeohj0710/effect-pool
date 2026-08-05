@@ -1,0 +1,29 @@
+{
+  "id": "atropine-intubation-pos",
+  "subj": "아트로핀",
+  "claim": "아트로핀 전처치는 신생아 비응급 기관삽관의 중증 서맥을 줄인다",
+  "line": "신생아 기관삽관 무작위시험에서 아트로핀 전처치는 위약보다 중증 서맥을 줄였다.",
+  "effect": "중증 서맥 RR 6.3(위약 대 아트로핀)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "신생아 기관삽관 전 미주신경성 서맥을 줄이는 항콜린성 전처치가 표준 보조요법으로 사용된다.",
+  "why": "신생아 비응급 기관삽관 전에 아트로핀·펜타닐·숙시닐콜린과 위약·펜타닐·숙시닐콜린을 이중맹검으로 비교했다.",
+  "saw": "다기관 무작위시험에서 60명에게 아트로핀 24건 또는 위약 49건의 삽관 사건이 배정됐다. 위약군의 중증 서맥 위험은 아트로핀군보다 6.3배 높았고, 전체 서맥의 발생과 지속시간도 더 컸다.",
+  "limit": "삽관 사건 수가 작고 여러 번 삽관한 비율·삽관 시간 차이가 결과에 영향을 줄 수 있다.",
+  "against": "소아 응급실 관찰연구 126건에서는 아트로핀이 저산소혈증이나 서맥을 예방하지 못했고 보정 후 서맥 오즈가 더 높았다.",
+  "use": "신생아 비응급 기관삽관에서 서맥 위험을 줄이는 전처치로 고려하되, 환자 연령·삽관 횟수·저산소혈증을 함께 관리한다.",
+  "refs": [
+    { "label": "신생아 비응급 기관삽관 아트로핀 위약대조시험", "pmid": "40645282", "nct": "NCT01595399" },
+    { "label": "소아 응급실 기관삽관 아트로핀 관찰연구", "pmid": "37937676" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=atropine · cond=Intubation · 총 13건, 아트로핀 직접 확인 8건",
+    "pubmed": "atropine AND Intubation · 946편",
+    "negative": "atropine AND Intubation AND (no effect OR did not OR failed to OR negative OR no significant difference) · 626편",
+    "safety": "atropine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 7703편"
+  }
+}

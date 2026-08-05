@@ -9154,9 +9154,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 --> — 허가 적응증(2026-08-05)
 - [x] rasagiline — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 항목(2026-08-05)
 - [x] thiotepa — Lymphoma에 듣는다  <!-- 시험 123건 · 논문 468편 --> — 근거 항목(2026-08-05)
-- [ ] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 -->
-- [ ] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 -->
-- [ ] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 -->
+- [x] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 --> — 허가 적응증(2026-08-05)
+- [x] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 --> — 근거 항목(2026-08-05)
+- [x] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 --> — 허가 적응증(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9167,33 +9167,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] amiodarone — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 7771편 -->
-- [ ] amiodarone — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 454편 -->
-- [ ] amiodarone — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] amiodarone — Sepsis에 듣는다  <!-- 시험 3건 · 논문 70편 -->
-- [ ] atropine — Neuromuscular Blockade에 듣는다  <!-- 시험 8건 · 논문 323편 -->
-- [ ] atropine — Bradycardia에 듣는다  <!-- 시험 7건 · 논문 2620편 -->
-- [ ] atropine — Pesticide Poisoning에 듣는다  <!-- 시험 6건 · 논문 987편 -->
-- [ ] atropine — Intubation에 듣는다  <!-- 시험 6건 · 논문 946편 -->
-- [ ] baclofen — Muscle Cramps에 듣는다  <!-- 시험 4건 · 논문 264편 -->
-- [ ] botulinum toxin — Crow's Feet에 듣는다  <!-- 시험 22건 · 논문 179편 -->
-- [ ] botulinum toxin — Rhytides에 듣는다  <!-- 시험 22건 · 논문 1356편 -->
-- [ ] botulinum toxin — Esophageal Diseases에 듣는다  <!-- 시험 12건 · 논문 856편 -->
-- [ ] botulinum toxin — Headache에 듣는다  <!-- 시험 11건 · 논문 1362편 -->
-- [ ] clomiphene — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 3802편 -->
-- [ ] clomiphene — PCOS에 듣는다  <!-- 시험 6건 · 논문 1004편 -->
-- [ ] clomiphene — Ovarian Response에 듣는다  <!-- 시험 4건 · 논문 560편 -->
-- [ ] colchicine — Coronavirus에 듣는다  <!-- 시험 8건 · 논문 334편 -->
-- [ ] colchicine — Pericarditis에 듣는다  <!-- 시험 7건 · 논문 859편 -->
-- [ ] colchicine — Chronic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 287편 -->
-- [ ] colchicine — Mediterranean Fever에 듣는다  <!-- 시험 6건 · 논문 1902편 -->
-- [ ] disulfiram — Melanoma에 듣는다  <!-- 시험 3건 · 논문 39편 -->
-- [ ] disulfiram — Obesity에 듣는다  <!-- 시험 3건 · 논문 24편 -->
-- [ ] disulfiram — Opioid Dependence에 듣는다  <!-- 시험 3건 · 논문 90편 -->
-- [ ] flumazenil — Sedation에 듣는다  <!-- 시험 3건 · 논문 694편 -->
-- [ ] ivabradine — Septic Shock에 듣는다  <!-- 시험 6건 · 논문 13편 -->
-- [ ] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 -->
-- [ ] ivabradine — Myocardial Injury에 듣는다  <!-- 시험 4건 · 논문 38편 -->
+- [x] amiodarone — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 7771편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=amiodarone&query.cond=Cardiovascular Diseases → 199건 반환·아미오다론 직접 확인 52건, PubMed 7771편은 부정맥·약리·안전성 연구 중심으로 일반 심혈관질환 치료결과 없음)
+- [x] amiodarone — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 454편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=amiodarone&query.cond=Coronary Artery Disease → 18건 반환·아미오다론 직접 확인 12건, PubMed 454편은 갑상선·부정맥 동반 연구 중심)
+- [x] amiodarone — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 항목(2026-08-05)
+- [x] amiodarone — Sepsis에 듣는다  <!-- 시험 3건 · 논문 70편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=amiodarone&query.cond=Sepsis → 6건 반환·아미오다론 직접 확인 4건, PubMed 70편은 패혈증 동반 심방세동·부작용 연구 중심으로 패혈증 자체 치료결과 없음)
+- [x] atropine — Neuromuscular Blockade에 듣는다  <!-- 시험 8건 · 논문 323편 --> — 표준 보조요법(2026-08-05)
+- [x] atropine — Bradycardia에 듣는다  <!-- 시험 7건 · 논문 2620편 --> — 허가 적응증(2026-08-05)
+- [x] atropine — Pesticide Poisoning에 듣는다  <!-- 시험 6건 · 논문 987편 --> — 허가 적응증(2026-08-05)
+- [x] atropine — Intubation에 듣는다  <!-- 시험 6건 · 논문 946편 --> — 근거 항목(2026-08-05)
+- [x] baclofen — Muscle Cramps에 듣는다  <!-- 시험 4건 · 논문 264편 --> — 근거 항목(2026-08-05)
+- [x] botulinum toxin — Crow's Feet에 듣는다  <!-- 시험 22건 · 논문 179편 --> — 허가 적응증(2026-08-05)
+- [x] botulinum toxin — Rhytides에 듣는다  <!-- 시험 22건 · 논문 1356편 --> — 허가 적응증(2026-08-05)
+- [x] botulinum toxin — Esophageal Diseases에 듣는다  <!-- 시험 12건 · 논문 856편 --> — 근거 항목(2026-08-05)
+- [x] botulinum toxin — Headache에 듣는다  <!-- 시험 11건 · 논문 1362편 --> — 허가 적응증(2026-08-05)
+- [x] clomiphene — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 3802편 --> — 허가 적응증(2026-08-05)
+- [x] clomiphene — PCOS에 듣는다  <!-- 시험 6건 · 논문 1004편 --> — 허가 적응증(2026-08-05)
+- [x] clomiphene — Ovarian Response에 듣는다  <!-- 시험 4건 · 논문 560편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=clomiphene&query.cond=Ovarian Response → 11건 반환·클로미펜 직접 확인 8건, PubMed 560편은 난소예비능 예측검사·생리 연구 중심)
+- [x] colchicine — Coronavirus에 듣는다  <!-- 시험 8건 · 논문 334편 --> — 근거 항목(2026-08-05)
+- [x] colchicine — Pericarditis에 듣는다  <!-- 시험 7건 · 논문 859편 --> — 근거 항목(2026-08-05)
+- [x] colchicine — Chronic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 287편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=colchicine&query.cond=Chronic Kidney Disease → 8건 반환·콜히친 직접 확인 7건, PubMed 287편은 통풍·고요산혈증 환자의 CKD 관리 연구 중심)
+- [x] colchicine — Mediterranean Fever에 듣는다  <!-- 시험 6건 · 논문 1902편 --> — 허가 적응증(2026-08-05)
+- [x] disulfiram — Melanoma에 듣는다  <!-- 시험 3건 · 논문 39편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Melanoma → 3건 반환·디설피람 직접 확인 3건, PubMed 39편은 세포·동물·제형 연구로 사람 항암 결과 없음)
+- [x] disulfiram — Obesity에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Obesity → 3건 반환·디설피람 직접 확인 2건, PubMed 24편은 비만 동물·세포 연구 중심)
+- [x] disulfiram — Opioid Dependence에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Opioid Dependence → 4건 반환·디설피람 직접 확인 4건, PubMed 90편은 알코올·코카인·메타돈 병용 연구 중심으로 오피오이드 의존 치료결과 없음)
+- [x] flumazenil — Sedation에 듣는다  <!-- 시험 3건 · 논문 694편 --> — 허가 적응증(2026-08-05)
+- [x] ivabradine — Septic Shock에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 근거 항목(2026-08-05)
+- [x] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 --> — 허가 적응증(2026-08-05)
+- [x] ivabradine — Myocardial Injury에 듣는다  <!-- 시험 4건 · 논문 38편 --> — 근거 항목(2026-08-05)
 - [ ] ivabradine — Electrical Remodeling에 듣는다  <!-- 시험 4건 · 논문 18편 -->
 - [ ] levodopa — Dyskinesias에 듣는다  <!-- 시험 5건 · 논문 6593편 -->
 - [ ] levodopa — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 303편 -->

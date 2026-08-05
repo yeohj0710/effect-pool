@@ -1,0 +1,29 @@
+{
+  "id": "amiodarone-septic-shock-open",
+  "subj": "아미오다론",
+  "claim": "아미오다론은 빈맥을 동반한 패혈성 쇼크에서 심박수를 낮춘다",
+  "line": "패혈성 쇼크 빈맥 환자 단일군 연구에서 아미오다론 투여 후 심박수가 낮아졌다.",
+  "effect": "HR 121→91.5; 목표 56.5%",
+  "tier": "obs",
+  "dir": "open",
+  "n": 46,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아미오다론 허가사항은 생명 위협 심실성 부정맥 등이고 패혈성 쇼크의 빈맥 치료는 포함하지 않는다.",
+  "why": "혈관수축제를 받는 패혈성 쇼크 환자의 지속 빈맥을 대상으로 아미오다론 정주 전후 심박수와 혈역학을 직접 관찰했다.",
+  "saw": "전향 단일군 연구에서 46명이 아미오다론 150 mg 부하 후 1 mg/분 지속주입을 받았다. 24시간 심박수 중앙값은 121.0에서 91.5회/분으로 낮아졌고, 26명(56.52%)이 95회/분 미만 목표를 유지했다.",
+  "limit": "대조군이 없고 표본이 작으며, 심박수 대리 지표만 확인했다. 패혈성 쇼크의 사망률 개선을 입증하지 않았다.",
+  "against": "패혈성 쇼크에서 아미오다론의 최적 위치를 직접 비교한 근거는 제한적이며 다른 항부정맥제가 더 적절할 수 있다는 고찰도 있다.",
+  "use": "패혈성 쇼크의 심방세동·빈맥에서 다른 원인과 혈압을 먼저 교정한 뒤 전문 중환자의학 판단으로만 고려한다.",
+  "refs": [
+    { "label": "패혈성 쇼크 아미오다론 심박수 조절 전향 연구", "pmid": "34629112" },
+    { "label": "패혈성 쇼크 새 심방세동 아미오다론 고찰", "pmid": "39336476" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=amiodarone · cond=Septic Shock · 총 5건, 아미오다론 직접 확인 3건",
+    "pubmed": "amiodarone AND Septic Shock · 34편",
+    "negative": "amiodarone AND Septic Shock AND (no effect OR did not OR failed to OR negative OR no significant difference) · 20편",
+    "safety": "amiodarone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 7193편"
+  }
+}
