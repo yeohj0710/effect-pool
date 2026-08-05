@@ -6680,16 +6680,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-open)  <!-- 시험 33건 · 논문 2044편 -->
 - [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 시험 19건 · 논문 331편 -->
 - [x] gabapentin — Drug Dependence에 듣는다 — 기존 항목(gabapentin-drug-dependence-open)  <!-- 시험 18건 · 논문 622편 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 -->
-- [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 -->
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 -->
-- [ ] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 -->
-- [ ] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 -->
-- [ ] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 -->
+- [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 시험 21건 · 논문 2029편 -->
+- [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 시험 10건 · 논문 628편 -->
+- [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 226편 -->
+- [x] amitriptyline — Major Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 673편 -->
+- [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
+- [x] topiramate — Epilepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 40건 · 논문 2324편 -->
+- [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
+- [x] topiramate — Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 1788편 -->
+- [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 시험 15건 · 논문 505편 -->
+- [x] trazodone — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 1009편 -->
 - [ ] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 -->
 - [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 -->
 - [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 -->
