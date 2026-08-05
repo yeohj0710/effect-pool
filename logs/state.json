@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 642,
   "worklist": {
-    "checked": 5886,
-    "unchecked": 188,
+    "checked": 5896,
+    "unchecked": 178,
     "no_evidence_pending": 0,
     "next_batch": [
-      "quetiapine-bipolar",
-      "quetiapine-major-depression",
-      "quetiapine-anxiety",
-      "quetiapine-schizoaffective-disorder",
-      "spironolactone-hypertension",
-      "spironolactone-kidney-disease",
-      "spironolactone-acute-renal-injury",
-      "spironolactone-alport-nephropathy",
-      "doxycycline-acne",
-      "doxycycline-rosacea"
+      "doxycycline-syphilis",
+      "doxycycline-periodontitis",
+      "colchicine-gout",
+      "colchicine-myocardial-injury",
+      "colchicine-atrial-flutter",
+      "colchicine-covid",
+      "dapagliflozin-heart-failure",
+      "dapagliflozin-kidney-diseases",
+      "dapagliflozin-lung-cancer",
+      "dapagliflozin-myocardial-infarct"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "amitriptyline-fibromyalgia (existing: amitriptyline-fibromyalgia)",
-    "amitriptyline-major-depression (approved)",
-    "topiramate-obesity (existing: topiramate-obesity)",
-    "topiramate-epilepsy (approved)",
-    "topiramate-alcohol-abuse (existing: topiramate-alcohol-abuse)",
-    "topiramate-seizures (approved)",
-    "trazodone-sleep (existing: trazodone-sleep-null)",
-    "trazodone-depression (approved)",
-    "trazodone-delirium (existing: trazodone-delirium-null)",
-    "trazodone-major-depressive-disorder (approved)"
+    "quetiapine-bipolar (approved)",
+    "quetiapine-major-depression (approved)",
+    "quetiapine-anxiety (existing: quetiapine-anxiety)",
+    "quetiapine-schizoaffective-disorder (existing: quetiapine-schizoaffective-null)",
+    "spironolactone-hypertension (approved)",
+    "spironolactone-kidney-disease (existing: spironolactone-kidney-disease-null)",
+    "spironolactone-acute-renal-injury (existing: spironolactone-acute-renal-injury-harm)",
+    "spironolactone-alport-nephropathy (existing: spironolactone-alport-nephropathy)",
+    "doxycycline-acne (approved)",
+    "doxycycline-rosacea (approved)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "amitriptyline, topiramate, trazodone",
-    "current_batch": "amitriptyline, topiramate, trazodone",
+    "last_committed_batch": "quetiapine, spironolactone, doxycycline",
+    "current_batch": "quetiapine, spironolactone, doxycycline",
     "next_action": "commit, push, then process next batch"
   }
 }
