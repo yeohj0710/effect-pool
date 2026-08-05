@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 479,
   "worklist": {
-    "checked": 6204,
-    "unchecked": 73,
+    "checked": 6214,
+    "unchecked": 63,
     "no_evidence_pending": 0,
     "next_batch": [
-      "pentoxifylline-breast-cancer",
-      "pentoxifylline-fibrosis",
-      "pentoxifylline-alcoholic-hepatitis",
-      "pentoxifylline-pancreatitis",
-      "sirolimus-leukemia",
-      "sirolimus-renal-cell-cancer",
-      "sirolimus-stenosis-artery",
-      "sirolimus-kidney-cancer",
-      "rapamycin-urothelial-carcinoma",
-      "rapamycin-aging"
+      "rapamycin-heart-diseases",
+      "rapamycin-tuberous-sclerosis",
+      "montelukast-rhinitis",
+      "montelukast-bronchiolitis",
+      "montelukast-lung-diseases",
+      "atorvastatin-coronary-disease",
+      "atorvastatin-dyslipidemia",
+      "atorvastatin-diabetes",
+      "atorvastatin-cancer",
+      "losartan-cancer"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "ondansetron-lymphoma (existing: ondansetron-lymphoma)",
-    "ondansetron-cancer (existing: ondansetron-cancer-null)",
-    "ondansetron-leukemia (existing: ondansetron-leukemia-null)",
-    "ondansetron-anesthesia (existing: ondansetron-anesthesia-pos)",
-    "memantine-autism (existing: memantine-autism-null)",
-    "memantine-dementia (approved)",
-    "memantine-cognitive-change (results pending)",
-    "lithium-depression (existing: lithium-depression)",
-    "lithium-depressive-disorder (existing: lithium-depressive-disorder)",
-    "lithium-tooth-loss (existing: lithium-tooth-loss-harm)"
+    "pentoxifylline-breast-cancer (existing: pentoxifylline-breast-cancer-null)",
+    "pentoxifylline-fibrosis (existing: pentoxifylline-fibrosis-null)",
+    "pentoxifylline-alcoholic-hepatitis (existing: pentoxifylline-alcoholic-hepatitis-null)",
+    "pentoxifylline-pancreatitis (existing: pentoxifylline-pancreatitis-null)",
+    "sirolimus-leukemia (existing: sirolimus-leukemia)",
+    "sirolimus-renal-cell-cancer (existing: sirolimus-renal-cell-cancer-open)",
+    "sirolimus-stenosis-artery (existing: sirolimus-stenosis-artery-pos)",
+    "sirolimus-kidney-cancer (results pending)",
+    "rapamycin-urothelial-carcinoma (existing: rapamycin-urothelial-carcinoma-open)",
+    "rapamycin-aging (existing: rapamycin-aging-open)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "ondansetron, memantine, lithium",
-    "current_batch": "ondansetron, memantine, lithium",
+    "last_committed_batch": "pentoxifylline, sirolimus, rapamycin",
+    "current_batch": "pentoxifylline, sirolimus, rapamycin",
     "next_action": "commit, push, then process next batch"
   }
 }
