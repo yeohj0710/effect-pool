@@ -7312,16 +7312,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다  <!-- 시험 33건 · 논문 4003편 -->
 - [x] valacyclovir — HIV에 듣는다  <!-- 시험 24건 · 논문 182편 -->
 - [x] valacyclovir — Cancer에 듣는다  <!-- 시험 16건 · 논문 189편 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 -->
-- [ ] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 -->
-- [ ] bupropion — Major Depression에 듣는다  <!-- 시험 63건 · 논문 845편 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 시험 41건 · 논문 1983편 -->
-- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 시험 37건 · 논문 60편 -->
-- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 시험 70건 · 논문 158편 -->
-- [ ] sildenafil — Cancer에 듣는다  <!-- 시험 22건 · 논문 531편 -->
-- [ ] sildenafil — Impotence에 듣는다  <!-- 시험 18건 · 논문 3307편 -->
+- [x] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 -->
+- [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 -->
+- [x] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 -->
+- [x] bupropion — Major Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 63건 · 논문 845편 -->
+- [x] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 -->
+- [x] bupropion — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Cocaine Dependence에 듣는다  <!-- 시험 37건 · 논문 60편 -->
+- [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 시험 70건 · 논문 158편 -->
+- [x] sildenafil — Cancer에 듣는다  <!-- 시험 22건 · 논문 531편 -->
+- [x] sildenafil — Impotence에 듣는다  <!-- 시험 18건 · 논문 3307편 -->
 - [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 시험 82건 · 논문 637편 -->
 - [ ] bimatoprost — Alopecia에 듣는다  <!-- 시험 15건 · 논문 53편 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 시험 14건 · 논문 76편 -->
