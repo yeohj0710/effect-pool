@@ -1,0 +1,27 @@
+{
+  "id": "n-acetylcysteine-covid-null",
+  "subj": "N-아세틸시스테인",
+  "claim": "N-아세틸시스테인이 코로나19 폐렴을 치료한다",
+  "line": "코로나19 무작위시험 메타분석에서 사망·침습환기 차이가 유의하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 315,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "코로나19 폐렴 치료로 허가받은 적 없음",
+  "why": "코로나19 입원환자 무작위시험 3개를 합친 메타분석에서 NAC의 사망·중환자실 입실·침습환기 효과가 위약 또는 대조군과 다르지 않았습니다.",
+  "saw": "무작위시험 3개 315명의 사망 오즈비는 0.85였고 침습환기 오즈비는 0.91이었습니다. 두 결과의 신뢰구간은 효과 없음과 해로움을 모두 포함했습니다.",
+  "limit": "시험 수와 표본이 작고 결과의 확실성이 매우 낮았습니다. 관찰연구 5개 20,826명은 이질성이 컸습니다.",
+  "against": "관찰연구에서는 일부 유리한 신호가 있었지만 사망 오즈비가 1.02였고 이질성이 높아 무작위시험 결과를 뒤집지 못했습니다.",
+  "use": "코로나19 폐렴에서 NAC을 표준 치료로 해석할 근거는 부족하며, 무작위시험의 불확실성을 함께 봐야 합니다.",
+  "refs": [
+    { "label": "Vasile 2023 · Romanian Journal of Internal Medicine · 코로나19 NAC 무작위시험 메타분석", "doi": "10.2478/rjim-2023-0001", "pmid": "36627753" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=n-acetylcysteine, cond=COVID → 12건 반환·5건 직접 대조",
+    "pubmed": "n-acetylcysteine AND COVID → 167건",
+    "negative": "n-acetylcysteine AND COVID AND (no effect OR did not OR failed to OR negative OR no significant difference) → 104건",
+    "safety": "n-acetylcysteine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 8899건"
+  }
+}

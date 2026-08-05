@@ -1,0 +1,28 @@
+{
+  "id": "allopurinol-diabetes-open",
+  "subj": "알로푸리놀",
+  "claim": "알로푸리놀이 당뇨병 신장 손상을 늦춘다",
+  "line": "PERL 시험은 사구체여과율 차이 0.001이었지만 메타분석은 일부 신장 지표를 개선했습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 866,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "당뇨병성 신장질환 치료로 허가받은 적 없음",
+  "why": "대규모 PERL 무작위시험의 1차 신장기능 결과는 음성이었지만, 별도 무작위시험 10개를 합친 메타분석은 요단백과 일부 크레아티닌 지표 개선을 보고해 결과가 갈립니다.",
+  "saw": "PERL은 알로푸리놀 267명과 위약 263명을 3년 투여한 뒤 2개월 씻어냈고, 사구체여과율 차이는 0.001 mL/min/1.73m²였습니다. 866명 메타분석은 요산과 24시간 요단백을 낮췄습니다.",
+  "limit": "PERL은 제1형 당뇨병의 초기·중등도 신장질환에 한정됐고, 메타분석은 작은 시험과 서로 다른 신장 지표를 합쳤습니다.",
+  "against": "PERL에서 알부민 배설률은 알로푸리놀군이 위약군보다 40% 높았고, 임상적으로 의미 있는 신장 이득은 없었습니다.",
+  "use": "알로푸리놀의 요산·대리지표 변화와 신장기능 보존을 구분해야 하며, 당뇨병 신장 보호 효과는 아직 열려 있습니다.",
+  "refs": [
+    { "label": "Doria 2020 · New England Journal of Medicine · PERL 무작위시험 음성 결과", "doi": "10.1056/NEJMoa1916624", "pmid": "32579810" },
+    { "label": "Wang 2022 · Renal Failure · 당뇨병 알로푸리놀 무작위시험 메타분석", "doi": "10.1080/0886022X.2022.2068443", "pmid": "35856157" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=allopurinol, cond=Diabetes → 13건 반환·12건 직접 대조",
+    "pubmed": "allopurinol AND Diabetes → 521건",
+    "negative": "allopurinol AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 313건",
+    "safety": "allopurinol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4258건"
+  }
+}

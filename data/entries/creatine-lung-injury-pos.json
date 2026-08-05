@@ -1,0 +1,28 @@
+{
+  "id": "creatine-lung-injury-pos",
+  "subj": "크레아틴",
+  "claim": "크레아틴이 폐 허혈재관류 손상을 줄인다",
+  "line": "쥐 폐 이식에서 크레아틴이 염증세포와 폐부종을 줄였습니다",
+  "tier": "animal",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "폐 허혈재관류 손상 치료로 허가받은 적 없음",
+  "why": "쥐 한쪽 폐 이식 모델에서 크레아틴 보충군이 허혈재관류 손상의 염증과 조직 손상을 덜 보였습니다.",
+  "saw": "쥐 64마리를 4군으로 나눠 90분 또는 180분 허혈 뒤 2시간 재관류했습니다. 크레아틴군에서 산화질소, 염증세포, 폐부종, 세포사멸과 염증 단백질이 줄었습니다.",
+  "limit": "사람 임상시험이 아니라 폐 이식 쥐 모델의 전임상 결과이며, 사람의 투여 시점과 임상 효과를 알 수 없습니다.",
+  "against": "사람 폐손상 치료 효과를 평가한 임상시험은 찾지 못했습니다.",
+  "use": "크레아틴의 폐 보호 신호는 폐 이식 허혈재관류 모델에서만 확인됐고 사람 치료 근거로 확장할 수 없습니다.",
+  "effect": "염증·폐부종 감소",
+  "refs": [
+    { "label": "Macedo 2020 · Transplantation Proceedings · 폐 이식 쥐 허혈재관류 모델", "pmid": "32927837" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=creatine, cond=Lung Injury → 3건 반환·1건 직접 대조",
+    "pubmed": "creatine AND Lung Injury → 313건",
+    "negative": "creatine AND Lung Injury AND (no effect OR did not OR failed to OR negative OR no significant difference) → 217건",
+    "safety": "creatine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 17028건"
+  }
+}

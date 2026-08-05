@@ -1,0 +1,28 @@
+{
+  "id": "berberine-nonalcoholic-fatty-liver-pos",
+  "subj": "베르베린",
+  "claim": "베르베린이 비알코올성 지방간의 간수치를 개선한다",
+  "line": "비알코올성 지방간 메타분석에서 베르베린이 ALT와 AST를 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 811,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비알코올성 지방간 치료로 허가받은 적 없음",
+  "why": "무작위시험 10개를 합친 메타분석에서 베르베린이 간효소, 지질, 인슐린 저항성 지표를 개선했습니다.",
+  "saw": "811명 메타분석에서 ALT 표준화 평균차는 -0.72, AST는 -0.79, GGT는 -0.62, HOMA-IR은 -1.56이었습니다.",
+  "limit": "연구마다 베르베린 단독·병용과 생활습관 중재가 달랐고, 간 섬유화나 장기 임상 사건보다 대리지표를 주로 봤습니다.",
+  "against": "HDL-C 변화는 유의하지 않았고, 안전성 자료에서는 주로 가벼운 위장관 이상반응이 보고됐습니다.",
+  "use": "베르베린의 지방간 간효소 개선 신호는 있지만 간질환 진행 억제 효과와는 구분해야 합니다.",
+  "effect": "ALT SMD -0.72",
+  "refs": [
+    { "label": "Zhang 2024 · Journal of Translational Medicine · 비알코올성 지방간 베르베린 메타분석", "doi": "10.1186/s12967-024-05011-2", "pmid": "38429794" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=berberine, cond=Non Alcoholic Fatty Liver → 5건 반환·5건 직접 대조",
+    "pubmed": "berberine AND Non Alcoholic Fatty Liver → 152건",
+    "negative": "berberine AND Non Alcoholic Fatty Liver AND (no effect OR did not OR failed to OR negative OR no significant difference) → 138건",
+    "safety": "berberine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1675건"
+  }
+}

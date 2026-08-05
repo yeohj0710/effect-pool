@@ -1,0 +1,28 @@
+{
+  "id": "allopurinol-cancer-null",
+  "subj": "알로푸리놀",
+  "claim": "알로푸리놀이 암을 치료한다",
+  "line": "알로푸리놀은 암 자체를 줄인 근거 없이 주로 종양용해증후군을 예방하는 데 쓰였습니다",
+  "tier": "obs",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "암 자체의 치료로 허가받은 적 없음",
+  "why": "암 관련 연구와 종양용해증후군 문헌을 따로 확인했지만 알로푸리놀을 항암제로 사용해 종양 반응이나 생존을 개선한 임상 근거는 찾지 못했습니다.",
+  "saw": "종양용해증후군 문헌은 알로푸리놀을 항암치료로 생기는 요산 상승 예방에 설명합니다. 전립선암 위험 메타분석은 치료 효과가 아니라 관찰 연관을 다뤘습니다.",
+  "limit": "암 종류와 치료 상황을 하나의 검색어로 묶어 암종별 효과를 판단할 수 없습니다.",
+  "against": "검색된 암 임상시험은 이식·항암치료 중 요산 관리가 목적이었고, 알로푸리놀 단독 항암 효과를 평가하지 않았습니다.",
+  "use": "종양용해증후군 예방과 암 치료를 구분해야 하며, 알로푸리놀을 항암제로 해석할 근거는 없습니다.",
+  "refs": [
+    { "label": "Howard 2024 · Tumour lysis syndrome · 종양용해증후군 검토", "pmid": "39174582" },
+    { "label": "Albasri 2022 · 전립선암과 알로푸리놀 위험 메타분석", "pmid": "35356907" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=allopurinol, cond=Cancer → 40건 반환·31건 직접 대조",
+    "pubmed": "allopurinol AND Cancer → 997건",
+    "negative": "allopurinol AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 635건",
+    "safety": "allopurinol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4258건"
+  }
+}

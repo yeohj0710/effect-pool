@@ -8374,22 +8374,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tranexamic acid — ACL Tears에 듣는다  <!-- 시험 13건 · 논문 15편 -->
 - [x] isotretinoin — Brain Tumor에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 - [x] tamoxifen — Hot Flashes에 듣는다  <!-- 시험 4건 · 논문 420편 -->
-- [ ] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 -->
-- [ ] tamoxifen — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
-- [ ] allopurinol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 521편 -->
-- [ ] allopurinol — Mania에 듣는다  <!-- 시험 6건 · 논문 19편 -->
-- [ ] allopurinol — Cancer에 듣는다  <!-- 시험 6건 · 논문 997편 -->
-- [ ] n-acetylcysteine — Muscle Weakness에 듣는다  <!-- 시험 9건 · 논문 31편 -->
-- [ ] n-acetylcysteine — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 60편 -->
-- [ ] n-acetylcysteine — COVID에 듣는다  <!-- 시험 9건 · 논문 167편 -->
-- [ ] n-acetylcysteine — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 178편 -->
-- [ ] creatine — Lung Injury에 듣는다  <!-- 시험 6건 · 논문 313편 -->
-- [ ] creatine — Concussion, Brain에 듣는다  <!-- 시험 5건 · 논문 95편 -->
-- [ ] creatine — Fatigue에 듣는다  <!-- 시험 5건 · 논문 2247편 -->
-- [ ] creatine — Cognition에 듣는다  <!-- 시험 4건 · 논문 1469편 -->
-- [ ] berberine — Prediabetes에 듣는다  <!-- 시험 4건 · 논문 15편 -->
-- [ ] berberine — Glucose Intolerance에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] berberine — Non Alcoholic Fatty Liver에 듣는다  <!-- 시험 4건 · 논문 152편 -->
+- [x] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 --> — 허가 적응증(2026-08-05)
+- [x] tamoxifen — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
+- [x] allopurinol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 521편 -->
+- [x] allopurinol — Mania에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [x] allopurinol — Cancer에 듣는다  <!-- 시험 6건 · 논문 997편 -->
+- [x] n-acetylcysteine — Muscle Weakness에 듣는다  <!-- 시험 9건 · 논문 31편 -->
+- [x] n-acetylcysteine — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 60편 -->
+- [x] n-acetylcysteine — COVID에 듣는다  <!-- 시험 9건 · 논문 167편 -->
+- [x] n-acetylcysteine — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 178편 -->
+- [x] creatine — Lung Injury에 듣는다  <!-- 시험 6건 · 논문 313편 -->
+- [x] creatine — Concussion, Brain에 듣는다  <!-- 시험 5건 · 논문 95편 -->
+- [x] creatine — Fatigue에 듣는다  <!-- 시험 5건 · 논문 2247편 -->
+- [x] creatine — Cognition에 듣는다  <!-- 시험 4건 · 논문 1469편 -->
+- [x] berberine — Prediabetes에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [x] berberine — Glucose Intolerance에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [x] berberine — Non Alcoholic Fatty Liver에 듣는다  <!-- 시험 4건 · 논문 152편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8400,20 +8400,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cyproheptadine — Cancer에 듣는다  <!-- 시험 4건 · 논문 292편 -->
-- [ ] cyproheptadine — Brain Tumor에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] daratumumab — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 370편 -->
-- [ ] daratumumab — Myeloid Leukemia에 듣는다  <!-- 시험 38건 · 논문 41편 -->
-- [ ] daratumumab — Amyloidosis에 듣는다  <!-- 시험 27건 · 논문 326편 -->
-- [ ] daratumumab — Cancer에 듣는다  <!-- 시험 17건 · 논문 1967편 -->
-- [ ] dexmedetomidine — Anesthesia에 듣는다  <!-- 시험 98건 · 논문 6216편 -->
-- [ ] dexmedetomidine — Sedation에 듣는다  <!-- 시험 65건 · 논문 4552편 -->
-- [ ] dexmedetomidine — Surgery에 듣는다  <!-- 시험 41건 · 논문 6215편 -->
-- [ ] dexmedetomidine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 2625편 -->
-- [ ] etanercept — Psoriasis에 듣는다  <!-- 시험 83건 · 논문 2814편 -->
-- [ ] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 -->
-- [ ] etanercept — Leukemia에 듣는다  <!-- 시험 16건 · 논문 75편 -->
-- [ ] etanercept — Type 1 Diabetes에 듣는다  <!-- 시험 13건 · 논문 44편 -->
+- [x] cyproheptadine — Cancer에 듣는다  <!-- 시험 4건 · 논문 292편 -->
+- [x] cyproheptadine — Brain Tumor에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=cyproheptadine&cond=Brain Tumor → 직접 뇌종양 치료시험 0건; PubMed cyproheptadine AND Brain Tumor → 44건은 암성 악액질·세포 연구 중심)
+- [x] daratumumab — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 370편 -->
+- [x] daratumumab — Myeloid Leukemia에 듣는다  <!-- 시험 38건 · 논문 41편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=daratumumab&cond=Myeloid Leukemia → 직접시험은 종료·중단 또는 등록만 있고 결과 논문 없음; PubMed daratumumab AND Myeloid Leukemia → 41건은 다발골수종·리뷰 중심)
+- [x] daratumumab — Amyloidosis에 듣는다  <!-- 시험 27건 · 논문 326편 --> — 허가 적응증(2026-08-05)
+- [x] daratumumab — Cancer에 듣는다  <!-- 시험 17건 · 논문 1967편 --> — 허가 적응증(2026-08-05)
+- [x] dexmedetomidine — Anesthesia에 듣는다  <!-- 시험 98건 · 논문 6216편 -->
+- [x] dexmedetomidine — Sedation에 듣는다  <!-- 시험 65건 · 논문 4552편 --> — 허가 적응증(2026-08-05)
+- [x] dexmedetomidine — Surgery에 듣는다  <!-- 시험 41건 · 논문 6215편 -->
+- [x] dexmedetomidine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 2625편 -->
+- [x] etanercept — Psoriasis에 듣는다  <!-- 시험 83건 · 논문 2814편 --> — 허가 적응증(2026-08-05)
+- [x] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 --> — 허가 적응증(2026-08-05)
+- [x] etanercept — Leukemia에 듣는다  <!-- 시험 16건 · 논문 75편 -->
+- [x] etanercept — Type 1 Diabetes에 듣는다  <!-- 시험 13건 · 논문 44편 -->
 - [ ] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 -->
 - [ ] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 -->
 - [ ] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 -->
