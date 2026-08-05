@@ -8639,3 +8639,75 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] zoledronic acid — Bone Loss에 듣는다  <!-- 시험 51건 · 논문 1707편 -->
 - [ ] zoledronic acid — Myeloma에 듣는다  <!-- 시험 30건 · 논문 581편 -->
 - [ ] zoledronic acid — Pain에 듣는다  <!-- 시험 13건 · 논문 983편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acarbose — Tolerance에 듣는다  <!-- 시험 10건 · 논문 595편 -->
+- [ ] acarbose — Obesity에 듣는다  <!-- 시험 6건 · 논문 377편 -->
+- [ ] acarbose — Coronary Heart Disease에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [ ] azathioprine — Lupus에 듣는다  <!-- 시험 21건 · 논문 2016편 -->
+- [ ] azathioprine — Colitis에 듣는다  <!-- 시험 14건 · 논문 2149편 -->
+- [ ] azathioprine — Kidney Diseases에 듣는다  <!-- 시험 14건 · 논문 3134편 -->
+- [ ] azathioprine — Vasculitis에 듣는다  <!-- 시험 13건 · 논문 2014편 -->
+- [ ] digoxin — Left Atrial Rhythm에 듣는다  <!-- 시험 19건 · 논문 161편 -->
+- [ ] digoxin — Healthy Participants에 듣는다  <!-- 시험 13건 · 논문 356편 -->
+- [ ] digoxin — Diabetes에 듣는다  <!-- 시험 12건 · 논문 437편 -->
+- [ ] digoxin — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 179편 -->
+- [ ] dipyridamole — Hypertension에 듣는다  <!-- 시험 7건 · 논문 540편 -->
+- [ ] dipyridamole — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 5943편 -->
+- [ ] dipyridamole — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 4129편 -->
+- [ ] dipyridamole — Brain Ischemia에 듣는다  <!-- 시험 5건 · 논문 509편 -->
+- [ ] entecavir — Liver Cancer에 듣는다  <!-- 시험 26건 · 논문 680편 -->
+- [ ] entecavir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 10건 · 논문 844편 -->
+- [ ] entecavir — HBV에 듣는다  <!-- 시험 8건 · 논문 2474편 -->
+- [ ] famotidine — COVID-19에 듣는다  <!-- 시험 19건 · 논문 103편 -->
+- [ ] famotidine — Healthy Adults에 듣는다  <!-- 시험 14건 · 논문 166편 -->
+- [ ] famotidine — 2019-nCoV Disease에 듣는다  <!-- 시험 12건 · 논문 103편 -->
+- [ ] famotidine — Covid19에 듣는다  <!-- 시험 8건 · 논문 103편 -->
+- [ ] flecainide — Ventricular Arrhythmia에 듣는다  <!-- 시험 13건 · 논문 1302편 -->
+- [ ] flecainide — Supraventricular Tachycardia에 듣는다  <!-- 시험 5건 · 논문 394편 -->
+- [ ] flecainide — Heart Arrest에 듣는다  <!-- 시험 4건 · 논문 183편 -->
+- [ ] flecainide — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 2070편 -->
+- [ ] labetalol — Preeclampsia에 듣는다  <!-- 시험 15건 · 논문 314편 -->
+- [ ] labetalol — Acute Stroke에 듣는다  <!-- 시험 6건 · 논문 182편 -->
+- [ ] labetalol — Pre-Eclampsia에 듣는다  <!-- 시험 5건 · 논문 226편 -->
+- [ ] labetalol — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 274편 -->
+- [ ] misoprostol — Hemorrhage에 듣는다  <!-- 시험 67건 · 논문 1801편 -->
+- [ ] misoprostol — Labor에 듣는다  <!-- 시험 62건 · 논문 1913편 -->
+- [ ] misoprostol — Pregnancy에 듣는다  <!-- 시험 56건 · 논문 4389편 -->
+- [ ] mycophenolate mofetil — Leukemia에 듣는다  <!-- 시험 697건 · 논문 468편 -->
+- [ ] mycophenolate mofetil — Myelodysplastic Syndrome에 듣는다  <!-- 시험 161건 · 논문 119편 -->
+- [ ] mycophenolate mofetil — Kidney Cancer에 듣는다  <!-- 시험 142건 · 논문 281편 -->
+- [ ] mycophenolate mofetil — Myeloma에 듣는다  <!-- 시험 110건 · 논문 61편 -->
+- [ ] naloxone — Pain에 듣는다  <!-- 시험 68건 · 논문 7713편 -->
+- [ ] naloxone — Drug Dependence에 듣는다  <!-- 시험 30건 · 논문 10680편 -->
+- [ ] naloxone — Overdose에 듣는다  <!-- 시험 24건 · 논문 3908편 -->
+- [ ] naloxone — Constipation에 듣는다  <!-- 시험 9건 · 논문 611편 -->
+- [ ] suvorexant — Opioid Use Disorder에 듣는다  <!-- 시험 18건 · 논문 16편 -->
+- [ ] suvorexant — Sleep에 듣는다  <!-- 시험 12건 · 논문 386편 -->
+- [ ] suvorexant — Delirium에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [ ] suvorexant — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 15편 -->
+- [ ] terbutaline — Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [ ] terbutaline — Fetal Distress에 듣는다  <!-- 시험 3건 · 논문 48편 -->
+- [ ] triamcinolone — Pain에 듣는다  <!-- 시험 51건 · 논문 1917편 -->
+- [ ] triamcinolone — Knee에 듣는다  <!-- 시험 38건 · 논문 444편 -->
+- [ ] triamcinolone — Oral Lichen Planus에 듣는다  <!-- 시험 20건 · 논문 181편 -->
+- [ ] triamcinolone — Keloid에 듣는다  <!-- 시험 18건 · 논문 543편 -->
+- [ ] zopiclone — Sleep에 듣는다  <!-- 시험 25건 · 논문 777편 -->
+- [ ] zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 6건 · 논문 410편 -->
+- [ ] zopiclone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 245편 -->
+- [ ] zopiclone — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 25편 -->
+- [ ] erythromycin — Gastric Motility에 듣는다  <!-- 시험 4건 · 논문 300편 -->
+- [ ] erythromycin — Pneumonia에 듣는다  <!-- 시험 3건 · 논문 6254편 -->
+- [ ] erythromycin — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] megestrol — Cachexia에 듣는다  <!-- 시험 20건 · 논문 273편 -->
+- [ ] megestrol — Anorexia에 듣는다  <!-- 시험 19건 · 논문 230편 -->
+- [ ] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 -->
+- [ ] megestrol — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 46편 -->
