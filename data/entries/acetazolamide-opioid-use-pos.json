@@ -1,0 +1,30 @@
+{
+  "id": "acetazolamide-opioid-use-pos",
+  "subj": "아세타졸아미드",
+  "claim": "이뇨제를 오피오이드 사용자의 중추성 수면무호흡에 쓴다",
+  "line": "오피오이드 사용자의 중추성 수면무호흡을 줄였습니다",
+  "effect": "혼합·중추무호흡 P<0.023",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 10,
+  "synth": "single",
+  "why": "오피오이드 사용으로 생긴 중추성 수면무호흡에서 아세타졸아미드와 위약을 비교한 이중눈가림 교차시험입니다.",
+  "saw": "중추성 수면무호흡 기준을 충족한 오피오이드 사용 환자 14명 중 10명이 시험에 참여했습니다. 아세타졸아미드 기간에 혼합·중추성 무호흡 사건이 위약보다 줄었고(P<0.023), 산소포화도 90% 미만 시간도 감소하는 경향을 보였습니다.",
+  "limit": "10명만 참여한 짧은 교차시험이라 오피오이드 사용 전체나 장기 호흡·사망 결과로 일반화할 수 없습니다. 산소포화도 결과의 통계적 확실성도 낮았습니다.",
+  "against": "오피오이드 관련 중추성 수면무호흡 약물치료 검토는 소규모 연구가 대부분이라 아세타졸아미드의 장기 임상효과를 확정하지 못했습니다.",
+  "use": "오피오이드 관련 중추성 수면무호흡에서 단기 개선 신호가 있지만 표준치료로 확정할 근거는 부족합니다.",
+  "refs": [
+    {
+      "label": "Javaheri 2019 · Sleep and Breathing · 오피오이드 관련 중추성 수면무호흡 교차시험",
+      "doi": "10.1007/s11325-019-01968-3",
+      "pmid": "31808012"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=acetazolamide, cond=Opioid Use → 3건 반환, InterventionName 대조 후 3건",
+    "pubmed": "acetazolamide opioid use → 44건",
+    "negative": "acetazolamide opioid use AND (no effect OR did not OR failed to OR negative OR no significant difference) → 22건",
+    "safety": "acetazolamide opioid use AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 14건"
+  }
+}

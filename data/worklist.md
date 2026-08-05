@@ -8058,16 +8058,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetazolamide — Edema에 듣는다  <!-- 시험 8건 · 논문 742편 --> — 허가 적응증(2026-08-05)
 - [x] acetazolamide — Sleep-Disordered Breathing에 듣는다  <!-- 시험 6건 · 논문 171편 -->
 - [x] acetazolamide — Pulmonary Edema에 듣는다  <!-- 시험 4건 · 논문 172편 -->
-- [ ] acetazolamide — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 44편 -->
-- [ ] dapsone — IgA Vasculitis에 듣는다  <!-- 시험 4건 · 논문 55편 -->
-- [ ] dapsone — Bullous Pemphigoid에 듣는다  <!-- 시험 3건 · 논문 286편 -->
-- [ ] methotrexate — Myeloma에 듣는다  <!-- 시험 20건 · 논문 275편 -->
-- [ ] methotrexate — Psoriasis에 듣는다  <!-- 시험 19건 · 논문 4271편 -->
-- [ ] methotrexate — Graft Vs Host Disease에 듣는다  <!-- 시험 18건 · 논문 1662편 -->
-- [ ] methotrexate — Osteosarcoma에 듣는다  <!-- 시험 10건 · 논문 1599편 -->
-- [ ] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 -->
-- [ ] hydroxyurea — Nose Neoplasms에 듣는다  <!-- 시험 12건 · 논문 8편 -->
-- [ ] hydroxyurea — Stroke에 듣는다  <!-- 시험 10건 · 논문 467편 -->
+- [x] acetazolamide — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 44편 -->
+- [x] dapsone — IgA Vasculitis에 듣는다  <!-- 시험 4건 · 논문 55편 -->
+- [x] dapsone — Bullous Pemphigoid에 듣는다  <!-- 시험 3건 · 논문 286편 -->
+- [x] methotrexate — Myeloma에 듣는다  <!-- 시험 20건 · 논문 275편 --> — 결과 대기(2026-08-05)
+- [x] methotrexate — Psoriasis에 듣는다  <!-- 시험 19건 · 논문 4271편 --> — 허가 적응증(2026-08-05)
+- [x] methotrexate — Graft Vs Host Disease에 듣는다  <!-- 시험 18건 · 논문 1662편 -->
+- [x] methotrexate — Osteosarcoma에 듣는다  <!-- 시험 10건 · 논문 1599편 --> — 허가 적응증(2026-08-05)
+- [x] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 --> — 허가 적응증(2026-08-05)
+- [x] hydroxyurea — Nose Neoplasms에 듣는다  <!-- 시험 12건 · 논문 8편 --> — 허가 적응증(2026-08-05)
+- [x] hydroxyurea — Stroke에 듣는다  <!-- 시험 10건 · 논문 467편 -->
 - [ ] hydroxyurea — Polycythemia Vera에 듣는다  <!-- 시험 8건 · 논문 898편 -->
 - [ ] tranexamic acid — Osteoarthritis에 듣는다  <!-- 시험 35건 · 논문 239편 -->
 - [ ] tranexamic acid — Cesarean Section에 듣는다  <!-- 시험 32건 · 논문 228편 -->

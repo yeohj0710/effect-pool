@@ -1,0 +1,35 @@
+{
+  "id": "hydroxyurea-stroke-null",
+  "subj": "하이드록시우레아",
+  "claim": "항암제를 겸상적혈구병 소아의 뇌졸중 예방에 쓴다",
+  "line": "겸상적혈구병 소아의 재발 뇌졸중을 줄이지 못했습니다",
+  "effect": "뇌졸중·사망 IRR 0.98",
+  "tier": "trial",
+  "dir": "null",
+  "n": 101,
+  "synth": "single",
+  "why": "뇌졸중 병력이 있는 겸상적혈구병 소아에서 하이드록시우레아 두 용량의 재발 예방을 비교한 무작위 이중눈가림 3상 시험입니다.",
+  "saw": "겸상적혈구병 소아 101명이 무작위 배정됐습니다. 저강도군과 비교해 중강도군의 뇌졸중 또는 사망 발생률 차이는 없었고(IRR 0.98, P=0.97), 재발 뇌졸중도 달라지지 않았습니다. 시험은 임상적 차이가 없어 조기 중단됐습니다.",
+  "limit": "하이드록시우레아와 위약을 비교한 시험이 아니라 두 용량을 비교한 연구입니다. 수혈을 이용할 수 없는 환경의 뇌졸중 병력 소아 결과라 다른 환자군에 일반화할 수 없습니다.",
+  "against": "일차 뇌졸중 위험 소아 220명 시험에서도 하이드록시우레아 두 용량 사이의 뇌졸중 발생 차이는 없었고, 중강도군은 입원이 더 적었습니다.",
+  "use": "겸상적혈구병 뇌졸중 예방에서 하이드록시우레아의 적정 용량 비교 결과이며, 약물 자체의 뇌졸중 예방 효과를 위약 대비 입증한 자료는 아닙니다.",
+  "refs": [
+    {
+      "label": "Abdullahi 2023 · Blood · 겸상적혈구병 이차 뇌졸중 예방 무작위시험",
+      "doi": "10.1182/blood.2022016620",
+      "pmid": "36322937"
+    },
+    {
+      "label": "McGann 2021 · The Lancet Haematology · 겸상적혈구병 일차 뇌졸중 예방 무작위시험",
+      "doi": "10.1016/S2352-3026(21)00368-9",
+      "pmid": "34971579"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=hydroxyurea, cond=Stroke → 15건 반환, InterventionName 대조 후 10건",
+    "pubmed": "hydroxyurea stroke → 467건",
+    "negative": "hydroxyurea stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) → 201건",
+    "safety": "hydroxyurea stroke AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 139건"
+  }
+}
