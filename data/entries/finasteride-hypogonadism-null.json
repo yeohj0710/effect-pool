@@ -1,0 +1,36 @@
+{
+  "id": "finasteride-hypogonadism-null",
+  "subj": "피나스테리드",
+  "claim": "탈모약을 성선기능저하증 남성의 테스토스테론 치료에 병용한다",
+  "line": "성선기능저하증 남성에서 테스토스테론 효과를 바꾸지 않았습니다",
+  "effect": "근력·골밀도 효과 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 60,
+  "synth": "single",
+  "why": "피나스테리드의 허가사항은 남성형 탈모와 양성 전립선비대증이며 성선기능저하증 치료는 허가 적응증이 아닙니다.",
+  "saw": "성선기능저하증이 있는 60세 이상 남성 60명을 대상으로 테스토스테론 치료와 피나스테리드 병용 여부를 요인설계로 비교했습니다. 근력·제지방량·골밀도·체지방 변화는 테스토스테론이 만들었고 피나스테리드는 그 효과를 바꾸지 않았습니다.",
+  "limit": "피나스테리드가 성선기능저하증을 치료한 시험이 아니라 테스토스테론 치료 중 DHT 억제 효과를 본 시험입니다. 양성 전립선비대증 예방 결과와 근력·골밀도 결과를 혼동하면 안 됩니다.",
+  "against": "반대 검색 22건. 같은 60명 연구의 인지 하위분석에서도 피나스테리드나 테스토스테론의 큰 인지 개선은 관찰되지 않았습니다.",
+  "use": "성선기능저하증에서 피나스테리드를 치료제로 볼 근거는 없으며, 테스토스테론 효과를 보존하면서 전립선 증가를 막는 병용 맥락의 결과입니다.",
+  "refs": [
+    {
+      "label": "Borst 2014 · Am J Physiol Endocrinol Metab · 성선기능저하증 남성 테스토스테론·피나스테리드 RCT",
+      "doi": "10.1152/ajpendo.00592.2013",
+      "pmid": "24326421"
+    },
+    {
+      "label": "Borst 2014 · Clin Interv Aging · 테스토스테론·피나스테리드 인지 분석",
+      "doi": "10.2147/CIA.S61760",
+      "pmid": "25143719"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA brand_name:\"PROPECIA\"·\"PROSCAR\" → 1건씩, 남성형 탈모·양성 전립선비대증 적응증 확인",
+    "ctgov": "query.intr=finasteride&query.cond=Hypogonadism → 4건 반환, InterventionName 대조 후 finasteride 4건",
+    "pubmed": "finasteride Hypogonadism → 28건",
+    "negative": "finasteride Hypogonadism (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 22건",
+    "safety": "finasteride Hypogonadism (adverse OR toxicity OR case report OR overdose OR self-medication) → 13건"
+  }
+}

@@ -7998,16 +7998,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dextromethorphan — Interaction Drug Food에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 4건 · 논문 27편 -->
 - [x] clonidine — Neuropathy에 듣는다 — 항목 생성(clonidine-neuropathy-null)(2026-08-05)  <!-- 시험 10건 · 논문 128편 -->
 - [x] clonidine — Intensive Care, Neonatal에 듣는다 — 항목 생성(clonidine-intensive-care-neonatal-null)(2026-08-05)  <!-- 시험 9건 · 논문 50편 -->
-- [ ] clonidine — Delirium에 듣는다  <!-- 시험 9건 · 논문 191편 -->
-- [ ] finasteride — Hypogonadism에 듣는다  <!-- 시험 4건 · 논문 28편 -->
-- [ ] finasteride — Urinary Obstruction에 듣는다  <!-- 시험 4건 · 논문 121편 -->
-- [ ] finasteride — Retinal Disease에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] finasteride — Healthy Adult Male에 듣는다  <!-- 시험 3건 · 논문 76편 -->
-- [ ] melatonin — Insomnia에 듣는다  <!-- 시험 20건 · 논문 1636편 -->
-- [ ] melatonin — Stress에 듣는다  <!-- 시험 15건 · 논문 7540편 -->
-- [ ] melatonin — Hip Surgery에 듣는다  <!-- 시험 12건 · 논문 30편 -->
-- [ ] melatonin — Brain Injury에 듣는다  <!-- 시험 11건 · 논문 825편 -->
-- [ ] modafinil — Cancer에 듣는다  <!-- 시험 13건 · 논문 127편 -->
+- [x] clonidine — Delirium에 듣는다 — 항목 생성(clonidine-delirium-null)(2026-08-05)  <!-- 시험 9건 · 논문 191편 -->
+- [x] finasteride — Hypogonadism에 듣는다 — 항목 생성(finasteride-hypogonadism-null)(2026-08-05)  <!-- 시험 4건 · 논문 28편 -->
+- [x] finasteride — Urinary Obstruction에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 121편 -->
+- [x] finasteride — Retinal Disease에 듣는다 — 항목 생성(finasteride-retinal-disease-pos)(2026-08-05)  <!-- 시험 3건 · 논문 9편 -->
+- [x] finasteride — Healthy Adult Male에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 3건 · 논문 76편 -->
+- [x] melatonin — Insomnia에 듣는다 — 기존 항목(melatonin-insomnia-null)(2026-08-05)  <!-- 시험 20건 · 논문 1636편 -->
+- [x] melatonin — Stress에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 15건 · 논문 7540편 -->
+- [x] melatonin — Hip Surgery에 듣는다 — 항목 생성(melatonin-hip-surgery-null)(2026-08-05)  <!-- 시험 12건 · 논문 30편 -->
+- [x] melatonin — Brain Injury에 듣는다 — 항목 생성(melatonin-brain-injury-null)(2026-08-05)  <!-- 시험 11건 · 논문 825편 -->
+- [x] modafinil — Cancer에 듣는다 — 기존 항목(modafinil-fatigue)(2026-08-05)  <!-- 시험 13건 · 논문 127편 -->
 - [ ] modafinil — Sleepiness에 듣는다  <!-- 시험 12건 · 논문 584편 -->
 - [ ] modafinil — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 108편 -->
 - [ ] modafinil — Depression에 듣는다  <!-- 시험 8건 · 논문 350편 -->

@@ -1,0 +1,36 @@
+{
+  "id": "clonidine-delirium-null",
+  "subj": "클로니딘",
+  "claim": "혈압약을 노인 섬망에 쓴다",
+  "line": "노인 섬망의 중증도와 기간을 위약보다 줄이지 못했습니다",
+  "effect": "MDAS P=0.60",
+  "tier": "trial",
+  "dir": "null",
+  "n": 20,
+  "synth": "single",
+  "why": "클로니딘의 허가사항은 고혈압이며 노인 섬망 치료는 허가 적응증이 아닙니다.",
+  "saw": "급성 입원한 65세 이상 섬망 환자를 클로니딘군과 위약군 각각 10명으로 무작위 배정한 이중맹검 시험에서 7일간 섬망 중증도 궤적은 다르지 않았습니다. 안전성 이상도 유의하게 늘지 않았습니다.",
+  "limit": "20명만 분석한 조기 중단 시험이며 안전성 우려로 제외 기준이 많았습니다. 결과가 부족한 것이지 섬망 치료 효과가 없다고 확정한 큰 시험은 아닙니다.",
+  "against": "반대 검색 155건. 중환자 진정 비교시험에서도 클로니딘은 프로포폴보다 발관 시간을 줄이지 못했고 서맥·초조가 더 많았습니다.",
+  "use": "노인 섬망 치료 효과는 작은 음성시험에서 확인되지 않았으며, 더 큰 연구가 필요합니다.",
+  "refs": [
+    {
+      "label": "Michaelsen 2019 · Int J Geriatr Psychiatry · LUCID 섬망 클로니딘 RCT",
+      "doi": "10.1002/gps.5098",
+      "pmid": "30901487"
+    },
+    {
+      "label": "A2B 2025 · JAMA · 중환자 클로니딘 진정 무작위시험",
+      "doi": "10.1001/jama.2025.7200",
+      "pmid": "40388916"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"CLONIDINE\" → 127건, 고혈압 적응증 확인",
+    "ctgov": "query.intr=clonidine&query.cond=Delirium → 9건 반환, InterventionName 대조 후 clonidine 9건",
+    "pubmed": "clonidine Delirium → 191건",
+    "negative": "clonidine Delirium (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 155건",
+    "safety": "clonidine Delirium (adverse OR toxicity OR case report OR overdose OR self-medication) → 116건"
+  }
+}

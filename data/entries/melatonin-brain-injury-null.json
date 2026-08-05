@@ -1,0 +1,36 @@
+{
+  "id": "melatonin-brain-injury-null",
+  "subj": "멜라토닌",
+  "claim": "수면 호르몬을 뇌손상 후 증상에 쓴다",
+  "line": "소아 뇌진탕 후 증상을 위약보다 개선하지 못했습니다",
+  "effect": "PPCS 증상 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 99,
+  "synth": "single",
+  "why": "멜라토닌은 미국 FDA 의약품 허가 적응증이 없으며 뇌손상 후 증상 치료는 허가 적응증이 아닙니다.",
+  "saw": "뇌진탕 후 증상이 지속된 8~18세 청소년 99명을 멜라토닌 두 용량과 위약에 무작위 배정한 시험에서 28일 뒤 뇌진탕 후 증상 점수와 인지·수면 이차 결과는 위약과 차이가 없었습니다.",
+  "limit": "경증 외상성 뇌손상 뒤 지속 증상이 있는 소아·청소년 시험입니다. 성인·중증 뇌손상이나 장기 인지 저하에 일반화할 수 없습니다.",
+  "against": "반대 검색 667건. 성인 외상성 뇌손상 수면장애 33명 교차시험에서는 주관적 수면의 질이 좋아졌지만, 증상 전체 치료 효과는 확인되지 않았습니다.",
+  "use": "소아 뇌진탕 후 증상 전체에는 효과가 없었고, 일부 성인 수면장애 연구의 신호를 뇌손상 치료 효과로 확대할 수 없습니다.",
+  "refs": [
+    {
+      "label": "van der Heijden 2020 · Pediatrics · 소아 뇌진탕 후 증상 멜라토닌 RCT",
+      "doi": "10.1542/peds.2019-2812",
+      "pmid": "32217739"
+    },
+    {
+      "label": "Grima 2018 · BMC Medicine · 외상성 뇌손상 수면장애 멜라토닌 RCT",
+      "doi": "10.1186/s12916-017-0995-1",
+      "pmid": "29347988"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:\"MELATONIN\" → 50건, 의약품 허가 적응증 문구 확인 안 됨",
+    "ctgov": "query.intr=melatonin&query.cond=Brain Injury → 14건 반환, InterventionName 대조 후 melatonin 11건",
+    "pubmed": "melatonin Brain Injury → 825건",
+    "negative": "melatonin Brain Injury (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 667건",
+    "safety": "melatonin Brain Injury (adverse OR toxicity OR case report OR overdose OR self-medication) → 174건"
+  }
+}
