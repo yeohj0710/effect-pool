@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 642,
+  "entries": 466,
   "worklist": {
-    "checked": 5896,
-    "unchecked": 178,
+    "checked": 5906,
+    "unchecked": 168,
     "no_evidence_pending": 0,
     "next_batch": [
-      "doxycycline-syphilis",
-      "doxycycline-periodontitis",
-      "colchicine-gout",
-      "colchicine-myocardial-injury",
-      "colchicine-atrial-flutter",
-      "colchicine-covid",
-      "dapagliflozin-heart-failure",
-      "dapagliflozin-kidney-diseases",
-      "dapagliflozin-lung-cancer",
-      "dapagliflozin-myocardial-infarct"
+      "semaglutide-obesity",
+      "semaglutide-overweight",
+      "semaglutide-weight-loss",
+      "semaglutide-alcohol",
+      "ketamine-depression",
+      "ketamine-major-surgery",
+      "ketamine-analgesia",
+      "ketamine-anesthesia",
+      "prazosin-alcohol-abuse",
+      "prazosin-sleep-disorders"
     ]
   },
   "verification": {
@@ -24,15 +24,15 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 598,
-      "obs": 35,
+      "trial": 423,
+      "obs": 34,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 263,
+    "no_effect_or_harm": 233,
     "harm": 24,
-    "no_effect_or_harm_share": "41%"
+    "no_effect_or_harm_share": "50%"
   },
   "deployment": {
     "last_entry_count": 602,
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "quetiapine-bipolar (approved)",
-    "quetiapine-major-depression (approved)",
-    "quetiapine-anxiety (existing: quetiapine-anxiety)",
-    "quetiapine-schizoaffective-disorder (existing: quetiapine-schizoaffective-null)",
-    "spironolactone-hypertension (approved)",
-    "spironolactone-kidney-disease (existing: spironolactone-kidney-disease-null)",
-    "spironolactone-acute-renal-injury (existing: spironolactone-acute-renal-injury-harm)",
-    "spironolactone-alport-nephropathy (existing: spironolactone-alport-nephropathy)",
-    "doxycycline-acne (approved)",
-    "doxycycline-rosacea (approved)"
+    "doxycycline-syphilis (approved)",
+    "doxycycline-periodontitis (existing: doxycycline-periodontitis-adjunct)",
+    "colchicine-gout (approved)",
+    "colchicine-myocardial-injury (existing: colchicine-myocardial-injury-open)",
+    "colchicine-atrial-flutter (existing: colchicine-atrial-flutter-null)",
+    "colchicine-covid (existing: colchicine-covid-null)",
+    "dapagliflozin-heart-failure (approved)",
+    "dapagliflozin-kidney-diseases (approved)",
+    "dapagliflozin-lung-cancer (existing: dapagliflozin-lung-cancer-open)",
+    "dapagliflozin-myocardial-infarct (existing: dapagliflozin-myocardial-infarct-null)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "quetiapine, spironolactone, doxycycline",
-    "current_batch": "quetiapine, spironolactone, doxycycline",
+    "last_committed_batch": "doxycycline, colchicine, dapagliflozin",
+    "current_batch": "doxycycline, colchicine, dapagliflozin",
     "next_action": "commit, push, then process next batch"
   }
 }
