@@ -7548,16 +7548,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] duloxetine — Osteoarthritis에 듣는다 — 이미 수록됨(duloxetine-knee-osteoarthritis)  <!-- 시험 28건 · 논문 170편 -->
 - [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 383편 -->
 - [x] dextromethorphan — Pain에 듣는다 — 이미 수록됨(dextromethorphan-pain)  <!-- 시험 9건 · 논문 314편 -->
-- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 -->
-- [ ] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 -->
-- [ ] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 -->
-- [ ] clonidine — Hypertension에 듣는다  <!-- 시험 13건 · 논문 2809편 -->
-- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 24편 -->
-- [ ] clonidine — Anesthesia에 듣는다  <!-- 시험 12건 · 논문 2274편 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 시험 16건 · 논문 1005편 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 1481편 -->
-- [ ] melatonin — Pain에 듣는다  <!-- 시험 32건 · 논문 1022편 -->
-- [ ] melatonin — Delirium에 듣는다  <!-- 시험 27건 · 논문 372편 -->
+- [x] dextromethorphan — Alzheimer Disease에 듣는다 — 이미 수록됨(dextromethorphan-alzheimer)  <!-- 시험 6건 · 논문 75편 -->
+- [x] dextromethorphan — Depression에 듣는다 — 이미 수록됨(dextromethorphan-bupropion-depression)  <!-- 시험 6건 · 논문 269편 -->
+- [x] clonidine — Opioid Use에 듣는다 — 이미 수록됨(clonidine-opioid-use)  <!-- 시험 14건 · 논문 2570편 -->
+- [x] clonidine — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 2809편 -->
+- [x] clonidine — Osteoarthritis에 듣는다 — 이미 수록됨(clonidine-osteoarthritis-null)  <!-- 시험 12건 · 논문 24편 -->
+- [x] clonidine — Anesthesia에 듣는다 — 이미 수록됨(clonidine-anesthesia)  <!-- 시험 12건 · 논문 2274편 -->
+- [x] finasteride — Alopecia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 1005편 -->
+- [x] finasteride — Prostatic Hyperplasia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 1481편 -->
+- [x] melatonin — Pain에 듣는다 — 이미 수록됨(melatonin-pain-null)  <!-- 시험 32건 · 논문 1022편 -->
+- [x] melatonin — Delirium에 듣는다 — 이미 수록됨(melatonin-delirium-null)  <!-- 시험 27건 · 논문 372편 -->
 - [ ] melatonin — Cancer에 듣는다  <!-- 시험 27건 · 논문 3920편 -->
 - [ ] melatonin — Anxiety에 듣는다  <!-- 시험 24건 · 논문 971편 -->
 - [ ] modafinil — Fatigue에 듣는다  <!-- 시험 29건 · 논문 395편 -->
