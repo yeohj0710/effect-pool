@@ -7110,9 +7110,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fluvoxamine — Covid19에 듣는다  <!-- 시험 6건 · 논문 190편 --> — 이미 수록됨(2026-08-05)
 - [x] escitalopram — Depression에 듣는다  <!-- 시험 112건 · 논문 2549편 --> — 허가 적응증(2026-08-05)
 - [x] escitalopram — Anxiety에 듣는다  <!-- 시험 37건 · 논문 887편 --> — 허가 적응증(2026-08-05)
-- [ ] escitalopram — Cancer에 듣는다  <!-- 시험 14건 · 논문 134편 -->
-- [ ] escitalopram — Insomnia에 듣는다  <!-- 시험 7건 · 논문 117편 -->
-- [ ] ziprasidone — Bipolar Mania에 듣는다  <!-- 시험 37건 · 논문 139편 -->
-- [ ] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 시험 17건 · 논문 404편 -->
-- [ ] ziprasidone — Psychotic Disorder에 듣는다  <!-- 시험 10건 · 논문 396편 -->
-- [ ] ziprasidone — Psychosis에 듣는다  <!-- 시험 6건 · 논문 477편 -->
+- [x] escitalopram — Cancer에 듣는다  <!-- 시험 14건 · 논문 134편 --> — 이미 수록됨(2026-08-05)
+- [x] escitalopram — Insomnia에 듣는다  <!-- 시험 7건 · 논문 117편 --> — 이미 수록됨(2026-08-05)
+- [x] ziprasidone — Bipolar Mania에 듣는다  <!-- 시험 37건 · 논문 139편 --> — 허가 적응증(2026-08-05)
+- [x] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 시험 17건 · 논문 404편 --> — 이미 수록됨(2026-08-05)
+- [x] ziprasidone — Psychotic Disorder에 듣는다  <!-- 시험 10건 · 논문 396편 --> — 이미 수록됨(2026-08-05)
+- [x] ziprasidone — Psychosis에 듣는다  <!-- 시험 6건 · 논문 477편 --> — 이미 수록됨(2026-08-05)
