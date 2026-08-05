@@ -6542,26 +6542,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clonidine — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 13건 -->
 - [x] clonidine — Osteoarthritis에 듣는다 — 기존 항목(clonidine-osteoarthritis-null)  <!-- 등록 시험 12건 -->
 - [x] clonidine — Anesthesia에 듣는다 — 기존 항목(clonidine-anesthesia)  <!-- 등록 시험 12건 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] baclofen — Pain에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] baclofen — Cerebral Palsy에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] baclofen — Alcoholism에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
-- [ ] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 -->
+- [x] finasteride — Alopecia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 16건 -->
+- [x] finasteride — Prostatic Hyperplasia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 13건 -->
+- [x] finasteride — Spinal Cord Injury에 듣는다 — 기존 항목(finasteride-spinal-cord-injury)  <!-- 등록 시험 10건 -->
+- [x] finasteride — Trauma, Nervous System에 듣는다 — 결과 대기(2026-08-05)  <!-- 등록 시험 7건 -->
+- [x] melatonin — Pain에 듣는다 — 기존 항목(melatonin-pain-null)  <!-- 등록 시험 32건 -->
+- [x] melatonin — Delirium에 듣는다 — 기존 항목(melatonin-delirium-null)  <!-- 등록 시험 27건 -->
+- [x] melatonin — Cancer에 듣는다 — 기존 항목(melatonin-cancer-null)  <!-- 등록 시험 27건 -->
+- [x] melatonin — Anxiety에 듣는다 — 기존 항목(melatonin-anxiety)  <!-- 등록 시험 24건 -->
+- [x] modafinil — Fatigue에 듣는다 — 기존 항목(modafinil-fatigue, modafinil-fatigue-null)  <!-- 등록 시험 29건 -->
+- [x] modafinil — Sleep Apnea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 23건 -->
+- [x] modafinil — Narcolepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 18건 -->
+- [x] modafinil — Schizophrenia에 듣는다 — 기존 항목(modafinil-schizophrenia, modafinil-schizophrenia-null)  <!-- 등록 시험 13건 -->
+- [x] baclofen — Pain에 듣는다 — 기존 항목(baclofen-pain-null)  <!-- 등록 시험 14건 -->
+- [x] baclofen — Spasticity에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 12건 -->
+- [x] baclofen — Cerebral Palsy에 듣는다 — 기존 항목(baclofen-cerebral-palsy)  <!-- 등록 시험 9건 -->
+- [x] baclofen — Alcoholism에 듣는다 — 기존 항목(baclofen-alcoholism-null)  <!-- 등록 시험 7건 -->
+- [x] ondansetron — Lymphoma에 듣는다 — 기존 항목(ondansetron-lymphoma)  <!-- 등록 시험 71건 -->
+- [x] ondansetron — Cancer에 듣는다 — 기존 항목(ondansetron-cancer-null)  <!-- 등록 시험 33건 -->
+- [x] ondansetron — Leukemia에 듣는다 — 기존 항목(ondansetron-leukemia-null)  <!-- 등록 시험 28건 -->
+- [x] ondansetron — Anesthesia에 듣는다 — 기존 항목(ondansetron-anesthesia-pos)  <!-- 등록 시험 25건 -->
 - [ ] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
 - [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 -->
 - [ ] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
