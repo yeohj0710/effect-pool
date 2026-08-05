@@ -7292,16 +7292,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] semaglutide — Overweight에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 42건 · 논문 1471편 -->
 - [x] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1957편 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 -->
-- [ ] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 -->
-- [ ] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 -->
-- [ ] ketamine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 3573편 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 시험 30건 · 논문 11112편 -->
-- [ ] prazosin — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 82편 -->
-- [ ] prazosin — Sleep Disorders에 듣는다  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 2690편 -->
-- [ ] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 -->
-- [ ] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 -->
-- [ ] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 -->
+- [x] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 -->
+- [x] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 -->
+- [x] ketamine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 3573편 -->
+- [x] ketamine — Anesthesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 30건 · 논문 11112편 -->
+- [x] prazosin — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 82편 -->
+- [x] prazosin — Sleep Disorders에 듣는다  <!-- 시험 5건 · 논문 179편 -->
+- [x] prazosin — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 -->
+- [x] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 -->
+- [x] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 -->
 - [ ] ivermectin — Covid19에 듣는다  <!-- 시험 39건 · 논문 789편 -->
 - [ ] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 -->
 - [ ] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 -->
