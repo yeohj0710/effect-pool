@@ -6740,16 +6740,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
 - [x] minoxidil — Baldness에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 1822편 -->
-- [ ] bupropion — Major Depression에 듣는다  <!-- 시험 63건 · 논문 845편 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 시험 41건 · 논문 1983편 -->
-- [ ] bupropion — Cocaine Dependence에 듣는다  <!-- 시험 37건 · 논문 60편 -->
-- [ ] sildenafil — Renal Dysfunction에 듣는다  <!-- 시험 70건 · 논문 158편 -->
-- [ ] sildenafil — Cancer에 듣는다  <!-- 시험 22건 · 논문 531편 -->
-- [ ] sildenafil — Impotence에 듣는다  <!-- 시험 18건 · 논문 3307편 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 시험 82건 · 논문 637편 -->
-- [ ] bimatoprost — Alopecia에 듣는다  <!-- 시험 15건 · 논문 53편 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 시험 14건 · 논문 76편 -->
+- [x] bupropion — Major Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 63건 · 논문 845편 -->
+- [x] bupropion — Tobacco Use에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 52건 · 논문 1390편 -->
+- [x] bupropion — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 시험 37건 · 논문 60편 -->
+- [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 시험 70건 · 논문 158편 -->
+- [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 시험 22건 · 논문 531편 -->
+- [x] sildenafil — Impotence에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 18건 · 논문 3307편 -->
+- [x] bimatoprost — Ocular Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 82건 · 논문 637편 -->
+- [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 시험 15건 · 논문 53편 -->
+- [x] bimatoprost — Hypotrichosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 76편 -->
 - [ ] bimatoprost — Baldness에 듣는다  <!-- 시험 5건 · 논문 53편 -->
 - [ ] botulinum toxin — Spasticity에 듣는다  <!-- 시험 48건 · 논문 2907편 -->
 - [ ] botulinum toxin — Overactive Bladder에 듣는다  <!-- 시험 46건 · 논문 1299편 -->
