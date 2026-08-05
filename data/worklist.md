@@ -7282,16 +7282,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
 - [x] colchicine — Gout에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 35건 · 논문 2229편 -->
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 750편 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 -->
-- [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2693편 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 -->
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1957편 -->
-- [ ] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 -->
+- [x] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 -->
+- [x] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 100건 · 논문 1493편 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 66건 · 논문 750편 -->
+- [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 -->
+- [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2693편 -->
+- [x] semaglutide — Overweight에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 42건 · 논문 1471편 -->
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1957편 -->
+- [x] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 -->
 - [ ] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 -->
 - [ ] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 -->
 - [ ] ketamine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 3573편 -->
