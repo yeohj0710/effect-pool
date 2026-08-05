@@ -8556,3 +8556,86 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] senna — Colonoscopy에 듣는다  <!-- 시험 5건 · 논문 91편 -->
 - [ ] senna — Bowel Obstruction에 듣는다  <!-- 시험 3건 · 논문 14편 -->
 - [ ] senna — Cancer에 듣는다  <!-- 시험 3건 · 논문 193편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] adalimumab — Crohn Disease에 듣는다  <!-- 시험 75건 · 논문 2763편 -->
+- [ ] adalimumab — Psoriasis에 듣는다  <!-- 시험 70건 · 논문 3049편 -->
+- [ ] adalimumab — Colitis에 듣는다  <!-- 시험 39건 · 논문 1753편 -->
+- [ ] adalimumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 29건 · 논문 947편 -->
+- [ ] bortezomib — Myeloma에 듣는다  <!-- 시험 354건 · 논문 7425편 -->
+- [ ] bortezomib — Leukemia에 듣는다  <!-- 시험 191건 · 논문 1143편 -->
+- [ ] bortezomib — Cancer에 듣는다  <!-- 시험 53건 · 논문 9953편 -->
+- [ ] bortezomib — Recurrent Disease에 듣는다  <!-- 시험 52건 · 논문 768편 -->
+- [ ] cannabidiol — Pain에 듣는다  <!-- 시험 30건 · 논문 1480편 -->
+- [ ] cannabidiol — Anxiety에 듣는다  <!-- 시험 23건 · 논문 926편 -->
+- [ ] cannabidiol — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 1229편 -->
+- [ ] cannabidiol — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 307편 -->
+- [ ] chlorpromazine — Advanced Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 46편 -->
+- [ ] chlorpromazine — Glioblastoma Multiforme에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [ ] cilostazol — Stenosis Artery에 듣는다  <!-- 시험 23건 · 논문 159편 -->
+- [ ] cilostazol — Aneurysm, Cerebral에 듣는다  <!-- 시험 22건 · 논문 52편 -->
+- [ ] cilostazol — Claudication에 듣는다  <!-- 시험 14건 · 논문 347편 -->
+- [ ] cilostazol — Type 2 Diabetes에 듣는다  <!-- 시험 10건 · 논문 83편 -->
+- [ ] desmopressin — Nocturia에 듣는다  <!-- 시험 20건 · 논문 284편 -->
+- [ ] desmopressin — Bleeding에 듣는다  <!-- 시험 6건 · 논문 1721편 -->
+- [ ] desmopressin — Kidney Biopsy에 듣는다  <!-- 시험 6건 · 논문 144편 -->
+- [ ] desmopressin — Blood Loss, Surgical에 듣는다  <!-- 시험 5건 · 논문 267편 -->
+- [ ] dulaglutide — Obesity에 듣는다  <!-- 시험 7건 · 논문 293편 -->
+- [ ] dulaglutide — Overweight에 듣는다  <!-- 시험 4건 · 논문 100편 -->
+- [ ] dulaglutide — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 267편 -->
+- [ ] dulaglutide — Glucose, High Blood에 듣는다  <!-- 시험 3건 · 논문 48편 -->
+- [ ] edoxaban — Thromboembolism에 듣는다  <!-- 시험 21건 · 논문 1250편 -->
+- [ ] edoxaban — Stroke에 듣는다  <!-- 시험 18건 · 논문 1252편 -->
+- [ ] edoxaban — Embolism에 듣는다  <!-- 시험 10건 · 논문 801편 -->
+- [ ] edoxaban — Thrombosis에 듣는다  <!-- 시험 9건 · 논문 914편 -->
+- [ ] fremanezumab — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [ ] lisinopril — Diabetes에 듣는다  <!-- 시험 12건 · 논문 427편 -->
+- [ ] lisinopril — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 501편 -->
+- [ ] lisinopril — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 14편 -->
+- [ ] lisinopril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 535편 -->
+- [ ] nabilone — Cannabis에 듣는다  <!-- 시험 4건 · 논문 181편 -->
+- [ ] nitrofurantoin — Cystitis에 듣는다  <!-- 시험 7건 · 논문 376편 -->
+- [ ] nitrofurantoin — Antibiotic Prophylaxis에 듣는다  <!-- 시험 3건 · 논문 150편 -->
+- [ ] nitrofurantoin — Pregnancy Complications에 듣는다  <!-- 시험 3건 · 논문 224편 -->
+- [ ] olmesartan — Diabetes에 듣는다  <!-- 시험 6건 · 논문 347편 -->
+- [ ] olmesartan — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 1043편 -->
+- [ ] olmesartan — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 88편 -->
+- [ ] olmesartan — Dyslipidemias에 듣는다  <!-- 시험 3건 · 논문 45편 -->
+- [ ] paliperidone — Schizoaffective Disorder에 듣는다  <!-- 시험 14건 · 논문 328편 -->
+- [ ] paliperidone — Bipolar Disorder에 듣는다  <!-- 시험 14건 · 논문 156편 -->
+- [ ] paliperidone — Psychotic Disorder에 듣는다  <!-- 시험 11건 · 논문 291편 -->
+- [ ] paliperidone — Antipsychotic에 듣는다  <!-- 시험 5건 · 논문 1943편 -->
+- [ ] ranolazine — Coronary Artery Disease에 듣는다  <!-- 시험 16건 · 논문 196편 -->
+- [ ] ranolazine — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 37편 -->
+- [ ] ranolazine — Myocardial Ischemia에 듣는다  <!-- 시험 10건 · 논문 561편 -->
+- [ ] ranolazine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 206편 -->
+- [ ] tamsulosin — Stone, Urinary에 듣는다  <!-- 시험 60건 · 논문 306편 -->
+- [ ] tamsulosin — Renal Calculi에 듣는다  <!-- 시험 22건 · 논문 127편 -->
+- [ ] tamsulosin — Bladder Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 -->
+- [ ] tamsulosin — Urinary Retention Postoperative에 듣는다  <!-- 시험 13건 · 논문 58편 -->
+- [ ] vortioxetine — Depression에 듣는다  <!-- 시험 15건 · 논문 713편 -->
+- [ ] vortioxetine — Anxiety State에 듣는다  <!-- 시험 9건 · 논문 119편 -->
+- [ ] vortioxetine — Cognitive Change에 듣는다  <!-- 시험 8건 · 논문 116편 -->
+- [ ] vortioxetine — Dementia에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] zoledronic acid — Osteoporosis에 듣는다  <!-- 시험 79건 · 논문 1825편 -->
+- [ ] zoledronic acid — Bone Loss에 듣는다  <!-- 시험 51건 · 논문 1707편 -->
+- [ ] zoledronic acid — Myeloma에 듣는다  <!-- 시험 30건 · 논문 581편 -->
+- [ ] zoledronic acid — Pain에 듣는다  <!-- 시험 13건 · 논문 983편 -->
