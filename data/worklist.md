@@ -8254,36 +8254,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 708편 -->
 - [x] topiramate — Epilepsies, Partial에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 316편 -->
 - [x] topiramate — Cocaine Use Disorder에 듣는다  <!-- 시험 7건 · 논문 74편 -->
-- [ ] topiramate — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 6건 · 논문 68편 -->
-- [ ] topiramate — Hiv에 듣는다  <!-- 시험 6건 · 논문 19편 -->
-- [ ] quetiapine — Substance Abuse에 듣는다  <!-- 시험 11건 · 논문 491편 -->
-- [ ] quetiapine — Dementia에 듣는다  <!-- 시험 9건 · 논문 471편 -->
-- [ ] quetiapine — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 195편 -->
-- [ ] quetiapine — Insomnia에 듣는다  <!-- 시험 7건 · 논문 241편 -->
-- [ ] spironolactone — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 4565편 -->
-- [ ] spironolactone — Dilated Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 104편 -->
-- [ ] spironolactone — Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 1136편 -->
-- [ ] spironolactone — Hyperkalemia에 듣는다  <!-- 시험 4건 · 논문 752편 -->
-- [ ] doxycycline — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 51편 -->
-- [ ] doxycycline — Periodontal Disease에 듣는다  <!-- 시험 9건 · 논문 666편 -->
-- [ ] doxycycline — COVID에 듣는다  <!-- 시험 9건 · 논문 245편 -->
-- [ ] doxycycline — Mycoplasma Pneumoniae에 듣는다  <!-- 시험 9건 · 논문 166편 -->
-- [ ] colchicine — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 386편 -->
-- [ ] colchicine — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 97편 -->
-- [ ] colchicine — Covid19에 듣는다  <!-- 시험 8건 · 논문 446편 -->
-- [ ] colchicine — Cardiac Surgery에 듣는다  <!-- 시험 8건 · 논문 377편 -->
-- [ ] dapagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 1860편 -->
-- [ ] dapagliflozin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 327편 -->
-- [ ] dapagliflozin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 112편 -->
-- [ ] dapagliflozin — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 126편 -->
-- [ ] semaglutide — Cardiovascular에 듣는다  <!-- 시험 10건 · 논문 1505편 -->
-- [ ] semaglutide — Stroke에 듣는다  <!-- 시험 8건 · 논문 329편 -->
-- [ ] semaglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 시험 7건 · 논문 34편 -->
-- [ ] semaglutide — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 51편 -->
-- [ ] ketamine — Suicidal Ideas에 듣는다  <!-- 시험 19건 · 논문 10편 -->
-- [ ] ketamine — Opioid Use에 듣는다  <!-- 시험 16건 · 논문 4690편 -->
-- [ ] ketamine — Postoperative에 듣는다  <!-- 시험 16건 · 논문 3700편 -->
-- [ ] ketamine — Brain Tumor에 듣는다  <!-- 시험 15건 · 논문 158편 -->
+- [x] topiramate — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 6건 · 논문 68편 -->
+- [x] topiramate — Hiv에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 6건 · 논문 19편 -->
+- [x] quetiapine — Substance Abuse에 듣는다 — 이미 반영(알코올 사용장애)(2026-08-05)  <!-- 시험 11건 · 논문 491편 -->
+- [x] quetiapine — Dementia에 듣는다  <!-- 시험 9건 · 논문 471편 -->
+- [x] quetiapine — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 195편 -->
+- [x] quetiapine — Insomnia에 듣는다 — 이미 반영(원발성 불면)(2026-08-05)  <!-- 시험 7건 · 논문 241편 -->
+- [x] spironolactone — Cardiovascular Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 4565편 -->
+- [x] spironolactone — Dilated Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 104편 -->
+- [x] spironolactone — Cirrhosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 1136편 -->
+- [x] spironolactone — Hyperkalemia에 듣는다  <!-- 시험 4건 · 논문 752편 -->
+- [x] doxycycline — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 51편 -->
+- [x] doxycycline — Periodontal Disease에 듣는다 — 이미 반영(치주염 보조치료)(2026-08-05)  <!-- 시험 9건 · 논문 666편 -->
+- [x] doxycycline — COVID에 듣는다  <!-- 시험 9건 · 논문 245편 -->
+- [x] doxycycline — Mycoplasma Pneumoniae에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 166편 -->
+- [x] colchicine — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 386편 -->
+- [x] colchicine — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 97편 -->
+- [x] colchicine — Covid19에 듣는다 — 이미 반영(코로나19)(2026-08-05)  <!-- 시험 8건 · 논문 446편 -->
+- [x] colchicine — Cardiac Surgery에 듣는다  <!-- 시험 8건 · 논문 377편 -->
+- [x] dapagliflozin — Cardiovascular Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 1860편 -->
+- [x] dapagliflozin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 327편 -->
+- [x] dapagliflozin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 112편 -->
+- [x] dapagliflozin — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 126편 -->
+- [x] semaglutide — Cardiovascular에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 1505편 -->
+- [x] semaglutide — Stroke에 듣는다  <!-- 시험 8건 · 논문 329편 -->
+- [x] semaglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 시험 7건 · 논문 34편 -->
+- [x] semaglutide — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 51편 -->
+- [x] ketamine — Suicidal Ideas에 듣는다  <!-- 시험 19건 · 논문 10편 -->
+- [x] ketamine — Opioid Use에 듣는다  <!-- 시험 16건 · 논문 4690편 -->
+- [x] ketamine — Postoperative에 듣는다  <!-- 시험 16건 · 논문 3700편 -->
+- [x] ketamine — Brain Tumor에 듣는다  <!-- 시험 15건 · 논문 158편 -->
 - [ ] prazosin — Cocaine Dependence에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [ ] prazosin — Headache에 듣는다  <!-- 시험 3건 · 논문 115편 -->
 - [ ] thalidomide — Melanoma에 듣는다  <!-- 시험 14건 · 논문 107편 -->

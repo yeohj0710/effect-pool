@@ -1,0 +1,36 @@
+{
+  "id": "quetiapine-dementia-harm",
+  "subj": "쿠에티아핀",
+  "claim": "쿠에티아핀이 치매의 행동증상을 치료한다",
+  "line": "치매에서 비정형 항정신병약은 사망 위험을 54% 높였습니다",
+  "effect": "사망 OR 1.54",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 5110,
+  "synth": "meta",
+  "why": "쿠에티아핀의 허가사항은 조현병·양극성장애와 주요우울장애 보조치료이며 치매 행동증상은 아닙니다. 쿠에티아핀을 포함한 비정형 항정신병약 무작위시험 메타분석에서 사망 위험을 확인했습니다.",
+  "saw": "치매 환자 5,110명을 포함한 15개 위약대조 무작위시험 메타분석에서 비정형 항정신병약의 사망 오즈비는 1.54였습니다. 쿠에티아핀 하위군 오즈비는 1.66이었지만 개별 약제 차이는 유의하지 않았습니다.",
+  "limit": "사망 분석은 비정형 항정신병약 계열 결과이며 쿠에티아핀 단독 효과를 확정하지 못했습니다. 행동증상의 중증도와 치료 필요성을 함께 판단해야 합니다.",
+  "against": "반대 검색 73건에서 치매의 초조 개선은 작거나 무시할 수준이고 졸림·중대한 이상반응·사망 위험이 늘었다는 결과를 확인했습니다.",
+  "use": "치매 행동증상에 쿠에티아핀을 확대할 때 작은 증상 이득보다 사망·중대한 이상반응 위험을 먼저 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "2005 · 치매 비정형 항정신병약 사망 위험 메타분석",
+      "doi": "10.1001/jama.294.15.1934",
+      "pmid": "16234500"
+    },
+    {
+      "label": "2006 · 치매 비정형 항정신병약 효능·이상반응 메타분석",
+      "doi": "10.1097/01.JGP.0000200589.01396.6d",
+      "pmid": "16505124"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"QUETIAPINE\" → 153건 반환; 치매 적응증 없음",
+    "ctgov": "query.intr=quetiapine&query.cond=Dementia&countTotal=true&pageSize=1000 → 15건 반환, InterventionName exact 일치 9건",
+    "pubmed": "quetiapine AND \"Dementia\" → 407건",
+    "negative": "quetiapine AND \"Dementia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 73건",
+    "safety": "quetiapine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,630건"
+  }
+}

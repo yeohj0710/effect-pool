@@ -1,0 +1,32 @@
+{
+  "id": "doxycycline-dry-eye-null",
+  "subj": "독시사이클린",
+  "claim": "독시사이클린이 마이봄샘 기능장애 건조안을 개선한다",
+  "line": "마이봄샘 기능장애 건조안은 개선했지만 비교약과 차이가 없었습니다",
+  "effect": "눈물막 두 군 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 20,
+  "synth": "single",
+  "why": "독시사이클린의 허가사항에는 마이봄샘 기능장애나 건조안이 없습니다. 독시사이클린과 국소 아지트로마이신을 비교한 무작위시험을 확인했습니다.",
+  "saw": "마이봄샘 기능장애 건조안 환자 20명을 비교한 무작위시험에서 두 치료 모두 눈물막 두께와 안구 표면 증상을 개선했지만 군 간 차이는 없었습니다. 전신 이상반응은 독시사이클린군에서 더 많았습니다.",
+  "limit": "표본이 20명인 소규모 비교시험이고 위약군이 없습니다. 눈물막 지표 개선을 모든 건조안 환자의 장기 치료 효과로 확대할 수 없습니다.",
+  "against": "반대 검색 5건에서 독시사이클린과 비교약의 눈물막 차이가 없거나 전신 이상반응이 더 많다는 결과를 확인했습니다.",
+  "use": "건조안에서 독시사이클린의 개선 신호와 비교약 대비 우월성 부재를 함께 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "2023 · 마이봄샘 기능장애 건조안 독시사이클린 무작위시험",
+      "doi": "10.1089/jop.2022.0186",
+      "pmid": "37327369",
+      "nct": "NCT03162497"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"DOXYCYCLINE\" → 240건 반환; 건조안 적응증 없음",
+    "ctgov": "query.intr=doxycycline&query.cond=Dry Eye&countTotal=true&pageSize=1000 → 6건 반환, InterventionName exact 일치 2건",
+    "pubmed": "doxycycline AND \"Dry Eye\" → 45건",
+    "negative": "doxycycline AND \"Dry Eye\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 5건",
+    "safety": "doxycycline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,674건"
+  }
+}

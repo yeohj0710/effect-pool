@@ -1,0 +1,36 @@
+{
+  "id": "semaglutide-atrial-fibrillation-pos",
+  "subj": "세마글루타이드",
+  "claim": "세마글루타이드가 심방세동 발생을 줄인다",
+  "line": "심혈관 위험 환자의 심방세동 발생을 42% 줄였습니다",
+  "effect": "AF RR 0.58",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 12651,
+  "synth": "meta",
+  "why": "세마글루타이드의 허가사항에는 특정 환자의 심혈관 위험 감소가 있지만 심방세동 예방은 아닙니다. 무작위시험 10편의 심방세동 결과 메타분석을 확인했습니다.",
+  "saw": "심혈관 위험이 높은 환자 12,651명을 포함한 10개 무작위시험 메타분석에서 세마글루타이드는 위약보다 심방세동 발생을 42% 줄였습니다. 당뇨병과 체질량지수에 따른 효과 차이는 없었습니다.",
+  "limit": "심방세동 발생을 본 예방 결과이며 이미 있는 심방세동의 치료나 재발 예방이 아닙니다. 분석 대상은 심혈관 위험이 높은 환자에 한정됩니다.",
+  "against": "반대 검색 12건에서 위약 대조 하위분석은 유의하지 않거나 비만군에서는 효과가 확정되지 않았다는 결과를 확인했습니다.",
+  "use": "심혈관 위험 환자의 새 심방세동 발생에 대한 신호로만 기록하고 심방세동 치료 효과로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · 세마글루타이드 심방세동 발생 메타분석",
+      "doi": "10.1111/eci.14292",
+      "pmid": "39058274"
+    },
+    {
+      "label": "2024 · 세마글루타이드 심방세동 예방 메타분석",
+      "doi": "10.1016/j.dsx.2024.103067",
+      "pmid": "38955095"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SEMAGLUTIDE\" → 5건 반환; 심방세동 적응증 없음",
+    "ctgov": "query.intr=semaglutide&query.cond=Atrial Fibrillation&countTotal=true&pageSize=1000 → 7건 반환, InterventionName exact 일치 2건",
+    "pubmed": "semaglutide AND \"Atrial Fibrillation\" → 51건",
+    "negative": "semaglutide AND \"Atrial Fibrillation\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 12건",
+    "safety": "semaglutide AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,018건"
+  }
+}

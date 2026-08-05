@@ -1,0 +1,41 @@
+{
+  "id": "topiramate-posttraumatic-stress-disorder-harm",
+  "subj": "토피라메이트",
+  "claim": "토피라메이트가 외상후스트레스장애에 듣는다",
+  "line": "전투 관련 PTSD 증상을 줄이지 못했고 중단이 더 많았습니다",
+  "effect": "중단 55% vs 25%",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 40,
+  "synth": "single",
+  "why": "허가사항은 부분발작과 편두통 예방이며 외상후스트레스장애는 아닙니다. 서로 다른 PTSD 무작위시험에서 결과가 엇갈리고 중단 위험이 큰 시험을 중심 근거로 삼았습니다.",
+  "saw": "전투 관련 PTSD 남성 40명을 무작위 배정한 위약대조 시험에서 PTSD 주요 결과의 유의한 차이는 없었고 토피라메이트군 중단은 55%, 위약군은 25%였습니다. 다른 민간인 35명 시험은 증상 점수 감소를 보고했습니다.",
+  "limit": "시험 표본이 작고 결과가 일관되지 않았으며 중단이 많았습니다. 민간인 시험의 긍정 결과만으로 모든 PTSD 환자에게 확대할 수 없습니다.",
+  "against": "반대 검색 16건에서 위약과 차이가 없거나 이상반응으로 중단했다는 결과를 확인했습니다.",
+  "use": "PTSD에서 토피라메이트의 효과를 확정하지 말고, 소규모 시험 간 불일치와 중단 위험을 함께 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "2007 · 전투 관련 PTSD 토피라메이트 무작위시험",
+      "doi": "10.1097/jcp.0b013e31815a43ee",
+      "pmid": "18004136"
+    },
+    {
+      "label": "2011 · 민간인 PTSD 토피라메이트 무작위시험",
+      "doi": "10.1111/j.1755-5949.2010.00188.x",
+      "pmid": "21554564"
+    },
+    {
+      "label": "2013 · PTSD 치료 메타분석",
+      "doi": "10.4088/JCP.12r08225",
+      "pmid": "23842024"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"TOPIRAMATE\" → 162건 반환; 외상후스트레스장애 적응증 없음",
+    "ctgov": "query.intr=topiramate&query.cond=Posttraumatic Stress Disorder&countTotal=true&pageSize=1000 → 9건 반환, InterventionName exact 일치 9건",
+    "pubmed": "topiramate AND \"Posttraumatic Stress Disorder\" → 43건",
+    "negative": "topiramate AND \"Posttraumatic Stress Disorder\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 16건",
+    "safety": "topiramate AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,061건"
+  }
+}

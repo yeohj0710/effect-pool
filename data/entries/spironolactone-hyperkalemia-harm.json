@@ -1,0 +1,31 @@
+{
+  "id": "spironolactone-hyperkalemia-harm",
+  "subj": "스피로놀락톤",
+  "claim": "스피로놀락톤이 고칼륨혈증에 듣는다",
+  "line": "심부전에서 고칼륨혈증 위험을 2.27배 높였습니다",
+  "effect": "고칼륨혈증 OR 2.27",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 13846,
+  "synth": "meta",
+  "why": "고칼륨혈증은 스피로놀락톤의 치료 대상이 아니라 주요 안전성 문제입니다. 심부전 무작위시험 4편의 개별 환자 자료 메타분석에서 칼륨 결과를 확인했습니다.",
+  "saw": "심부전 환자 13,846명을 포함한 4개 무작위시험의 개별 환자 메타분석에서 미네랄코르티코이드 수용체 길항제는 위약보다 고칼륨혈증 위험을 2.27배 높였고 중증 고칼륨혈증은 2.9% 대 1.4%였습니다.",
+  "limit": "여러 미네랄코르티코이드 수용체 길항제를 합친 분석이며 심부전 환자에 한정됩니다. 고칼륨혈증을 치료하는 약이라는 주장에는 직접 근거가 없습니다.",
+  "against": "반대 검색 92건에서 고칼륨혈증을 관리하는 약은 스피로놀락톤이 아니라 칼륨결합제이며 스피로놀락톤 중단·감량이 필요할 수 있음을 확인했습니다.",
+  "use": "고칼륨혈증 치료제로 오인하지 말고 심부전 치료 중 고칼륨혈증 위험을 높이는 안전성 정보로 표시해야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · 심부전 미네랄코르티코이드 수용체 길항제 개별자료 메타분석",
+      "doi": "10.1016/S0140-6736(24)01733-1",
+      "pmid": "39232490"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SPIRONOLACTONE\" → 142건 반환; 고칼륨혈증 적응증 없음",
+    "ctgov": "query.intr=spironolactone&query.cond=Hyperkalemia&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 7건",
+    "pubmed": "spironolactone AND \"Hyperkalemia\" → 695건",
+    "negative": "spironolactone AND \"Hyperkalemia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 92건",
+    "safety": "spironolactone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,622건"
+  }
+}

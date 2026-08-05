@@ -1,0 +1,36 @@
+{
+  "id": "quetiapine-alzheimer-disease-harm",
+  "subj": "쿠에티아핀",
+  "claim": "쿠에티아핀이 알츠하이머병의 초조를 치료한다",
+  "line": "알츠하이머의 초조를 줄이지 못했고 인지점수는 더 떨어졌습니다",
+  "effect": "인지점수 -14.6점",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 93,
+  "synth": "single",
+  "why": "쿠에티아핀의 허가사항에 알츠하이머병의 초조 치료는 없습니다. 알츠하이머병 환자의 쿠에티아핀·리바스티그민·위약 무작위시험을 확인했습니다.",
+  "saw": "알츠하이머병과 임상적으로 유의한 초조가 있는 환자 93명을 세 군으로 무작위 배정한 시험에서 쿠에티아핀은 초조를 위약보다 줄이지 못했고 6주 인지점수는 위약보다 평균 14.6점 낮았습니다.",
+  "limit": "소규모 단일 시험이고 시설 거주 환자 대상입니다. 인지점수 변화가 모든 알츠하이머병 환자의 장기 기능 저하를 뜻하는 것은 아닙니다.",
+  "against": "반대 검색 21건에서 초조 개선이 없거나 비정형 항정신병약의 졸림·사망 위험이 증가했다는 결과를 확인했습니다.",
+  "use": "알츠하이머병의 초조 치료로 쿠에티아핀을 확대할 때 효과 부족과 인지 악화 신호를 함께 봐야 합니다.",
+  "refs": [
+    {
+      "label": "2005 · 알츠하이머병 초조 쿠에티아핀 무작위시험",
+      "doi": "10.1136/bmj.38369.459988.8F",
+      "pmid": "15722369"
+    },
+    {
+      "label": "2021 · 알츠하이머병 항정신병약 체계적 문헌고찰",
+      "doi": "10.1002/14651858.CD013304.pub2",
+      "pmid": "34918337"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"QUETIAPINE\" → 153건 반환; 알츠하이머병 적응증 없음",
+    "ctgov": "query.intr=quetiapine&query.cond=Alzheimer Disease&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 4건",
+    "pubmed": "quetiapine AND \"Alzheimer Disease\" → 110건",
+    "negative": "quetiapine AND \"Alzheimer Disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 21건",
+    "safety": "quetiapine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,630건"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "spironolactone-dilated-cardiomyopathy-pos",
+  "subj": "스피로놀락톤",
+  "claim": "스피로놀락톤이 확장성심근병증의 수축기능을 유지한다",
+  "line": "뒤시엔 근이영양증 초기 심근병증의 수축기능을 유지했습니다",
+  "effect": "strain 차이 0.4",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 52,
+  "synth": "single",
+  "why": "스피로놀락톤의 허가사항은 심부전·고혈압·부종이며 확장성심근병증의 조기 진행 억제는 아닙니다. 뒤시엔 근이영양증 심근병증 무작위시험을 확인했습니다.",
+  "saw": "뒤시엔 근이영양증과 보존된 박출률을 가진 남아 52명을 무작위 배정한 시험에서 스피로놀락톤은 에플레레논과 비교해 좌심실 수축기 변형률을 유지했고 신장·폐기능은 안정적이었습니다.",
+  "limit": "유전성 근이영양증의 초기 심근병증을 대상으로 한 비교시험이며 위약군이 없습니다. 일반 확장성심근병증이나 사망 결과로 확대할 수 없습니다.",
+  "against": "반대 검색 15건에서 일반 확장성심근병증의 근거가 부족하거나 동물시험 결과가 사람에게 재현되지 않았다는 자료를 확인했습니다.",
+  "use": "뒤시엔 근이영양증 관련 초기 심근병증의 기능 보존 신호로 한정해 기록해야 합니다.",
+  "refs": [
+    {
+      "label": "2019 · 뒤시엔 근이영양증 심근병증 알도스테론 억제 무작위시험",
+      "doi": "10.1161/JAHA.119.013501",
+      "pmid": "31549577",
+      "nct": "NCT02354352"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SPIRONOLACTONE\" → 142건 반환; 확장성심근병증 적응증 없음",
+    "ctgov": "query.intr=spironolactone&query.cond=Dilated Cardiomyopathy&countTotal=true&pageSize=1000 → 4건 반환, InterventionName exact 일치 1건",
+    "pubmed": "spironolactone AND \"Dilated Cardiomyopathy\" → 89건",
+    "negative": "spironolactone AND \"Dilated Cardiomyopathy\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 15건",
+    "safety": "spironolactone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,622건"
+  }
+}

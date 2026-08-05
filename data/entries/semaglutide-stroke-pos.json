@@ -1,0 +1,31 @@
+{
+  "id": "semaglutide-stroke-pos",
+  "subj": "세마글루타이드",
+  "claim": "세마글루타이드가 제2형 당뇨병의 뇌졸중을 줄인다",
+  "line": "제2형 당뇨병 환자의 뇌졸중 위험을 35% 낮췄습니다",
+  "effect": "뇌졸중 RR 0.65",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 6480,
+  "synth": "meta",
+  "why": "세마글루타이드의 허가사항에는 특정 심혈관 위험 감소가 있지만 뇌졸중 단독 치료 적응증은 없습니다. 과체중·비만 및 당뇨병 무작위시험 메타분석의 뇌졸중 결과를 확인했습니다.",
+  "saw": "과체중·비만 및 제2형 당뇨병 환자의 심혈관 무작위시험을 합친 분석에서 제2형 당뇨병 6,480명의 뇌졸중 위험비는 세마글루타이드군에서 0.65였습니다.",
+  "limit": "뇌졸중은 심혈관시험의 결과 중 하나이며 뇌졸중 환자 치료시험이 아닙니다. 분석 간 이질성이 있어 모든 뇌졸중 환자에게 적용할 수 없습니다.",
+  "against": "반대 검색 50건에서 뇌졸중 결과가 시험군과 대상에 따라 달랐고 일부 분석은 유의한 차이를 보이지 않았습니다.",
+  "use": "제2형 당뇨병 심혈관 위험시험의 뇌졸중 결과로만 기록하고 뇌졸중 치료 효과로 확대하지 않아야 합니다.",
+  "refs": [
+    {
+      "label": "2024 · 과체중·비만 세마글루타이드 심혈관 결과 메타분석",
+      "doi": "10.1038/s41366-024-01646-9",
+      "pmid": "39396098"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"SEMAGLUTIDE\" → 5건 반환; 심혈관 위험 감소 적응증은 특정 과체중·비만 성인에 한정",
+    "ctgov": "query.intr=semaglutide&query.cond=Stroke&countTotal=true&pageSize=1000 → 8건 반환, InterventionName exact 일치 5건",
+    "pubmed": "semaglutide AND \"Stroke\" → 325건",
+    "negative": "semaglutide AND \"Stroke\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 50건",
+    "safety": "semaglutide AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,018건"
+  }
+}
