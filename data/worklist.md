@@ -8983,3 +8983,83 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] perampanel — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 85편 -->
 - [ ] brivaracetam — Partial Seizure에 듣는다  <!-- 시험 4건 · 논문 363편 -->
 - [ ] brivaracetam — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] pembrolizumab — Penile Carcinoma에 듣는다  <!-- 시험 231건 · 논문 15편 -->
+- [ ] pembrolizumab — Melanoma에 듣는다  <!-- 시험 148건 · 논문 2604편 -->
+- [ ] pembrolizumab — Tumor에 듣는다  <!-- 시험 124건 · 논문 11465편 -->
+- [ ] pembrolizumab — Lymphoma에 듣는다  <!-- 시험 98건 · 논문 659편 -->
+- [ ] nivolumab — Cancer에 듣는다  <!-- 시험 268건 · 논문 12664편 -->
+- [ ] nivolumab — Melanoma에 듣는다  <!-- 시험 208건 · 논문 3486편 -->
+- [ ] nivolumab — Stage IV에 듣는다  <!-- 시험 166건 · 논문 689편 -->
+- [ ] nivolumab — Adenocarcinoma에 듣는다  <!-- 시험 127건 · 논문 2496편 -->
+- [ ] atezolizumab — Carcinoma에 듣는다  <!-- 시험 447건 · 논문 3338편 -->
+- [ ] atezolizumab — Rare Tumor에 듣는다  <!-- 시험 96건 · 논문 262편 -->
+- [ ] atezolizumab — Melanoma에 듣는다  <!-- 시험 46건 · 논문 276편 -->
+- [ ] atezolizumab — Adenocarcinoma Lung에 듣는다  <!-- 시험 40건 · 논문 150편 -->
+- [ ] durvalumab — Cancer에 듣는다  <!-- 시험 362건 · 논문 2926편 -->
+- [ ] durvalumab — NSCLC Stage II에 듣는다  <!-- 시험 221건 · 논문 121편 -->
+- [ ] durvalumab — Breast Neoplasm에 듣는다  <!-- 시험 63건 · 논문 104편 -->
+- [ ] durvalumab — Adenocarcinoma에 듣는다  <!-- 시험 48건 · 논문 428편 -->
+- [ ] ipilimumab — Renal Cancer에 듣는다  <!-- 시험 303건 · 논문 998편 -->
+- [ ] ipilimumab — Cancer에 듣는다  <!-- 시험 229건 · 논문 6616편 -->
+- [ ] ipilimumab — NSCLC Stage IV에 듣는다  <!-- 시험 156건 · 논문 66편 -->
+- [ ] ipilimumab — Tumor에 듣는다  <!-- 시험 116건 · 논문 5922편 -->
+- [ ] osimertinib — EGFR에 듣는다  <!-- 시험 50건 · 논문 3914편 -->
+- [ ] osimertinib — Carcinoma에 듣는다  <!-- 시험 47건 · 논문 2505편 -->
+- [ ] osimertinib — NSCLC에 듣는다  <!-- 시험 37건 · 논문 3277편 -->
+- [ ] osimertinib — Solid Tumor에 듣는다  <!-- 시험 25건 · 논문 169편 -->
+- [ ] venetoclax — B-Cell에 듣는다  <!-- 시험 119건 · 논문 1552편 -->
+- [ ] venetoclax — Myelodysplastic Syndrome에 듣는다  <!-- 시험 109건 · 논문 313편 -->
+- [ ] venetoclax — Lymphoma에 듣는다  <!-- 시험 94건 · 논문 1449편 -->
+- [ ] venetoclax — AML에 듣는다  <!-- 시험 48건 · 논문 1898편 -->
+- [ ] ibrutinib — Lymphoma에 듣는다  <!-- 시험 216건 · 논문 2052편 -->
+- [ ] ibrutinib — Refractory Cancer에 듣는다  <!-- 시험 87건 · 논문 852편 -->
+- [ ] ibrutinib — Waldenstrom's Disease에 듣는다  <!-- 시험 32건 · 논문 202편 -->
+- [ ] ibrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 32건 · 논문 72편 -->
+- [ ] zanubrutinib — Leukemia에 듣는다  <!-- 시험 71건 · 논문 312편 -->
+- [ ] zanubrutinib — Relapsed Cancer에 듣는다  <!-- 시험 27건 · 논문 191편 -->
+- [ ] zanubrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 24건 · 논문 28편 -->
+- [ ] zanubrutinib — Waldenstrom Macroglobulinemia에 듣는다  <!-- 시험 19건 · 논문 107편 -->
+- [ ] acalabrutinib — Lymphoma에 듣는다  <!-- 시험 80건 · 논문 314편 -->
+- [ ] acalabrutinib — Non Hodgkin Lymphoma에 듣는다  <!-- 시험 10건 · 논문 124편 -->
+- [ ] acalabrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 10건 · 논문 12편 -->
+- [ ] lenalidomide — Myeloma에 듣는다  <!-- 시험 334건 · 논문 4550편 -->
+- [ ] lenalidomide — Leukemia에 듣는다  <!-- 시험 206건 · 논문 1095편 -->
+- [ ] lenalidomide — Myelodysplastic Syndrome에 듣는다  <!-- 시험 34건 · 논문 824편 -->
+- [ ] lenalidomide — Cancer에 듣는다  <!-- 시험 28건 · 논문 5939편 -->
+- [ ] carfilzomib — Lymphoma에 듣는다  <!-- 시험 56건 · 논문 272편 -->
+- [ ] carfilzomib — Leukemia에 듣는다  <!-- 시험 10건 · 논문 159편 -->
+- [ ] carfilzomib — Cancer에 듣는다  <!-- 시험 9건 · 논문 1589편 -->
+- [ ] ixazomib — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 111편 -->
+- [ ] ixazomib — Amyloidosis에 듣는다  <!-- 시험 12건 · 논문 35편 -->
+- [ ] sotorasib — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 55편 -->
+- [ ] sotorasib — Metastatic Solid Tumor에 듣는다  <!-- 시험 8건 · 논문 17편 -->
+- [ ] sotorasib — Metastatic NSCLC에 듣는다  <!-- 시험 7건 · 논문 86편 -->
+- [ ] sotorasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 516편 -->
+- [ ] adagrasib — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 211편 -->
+- [ ] adagrasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 280편 -->
+- [ ] adagrasib — NSCLC에 듣는다  <!-- 시험 3건 · 논문 188편 -->
+- [ ] belzutifan — Kidney에 듣는다  <!-- 시험 12건 · 논문 128편 -->
+- [ ] belzutifan — Pheochromocytoma에 듣는다  <!-- 시험 7건 · 논문 40편 -->
+- [ ] belzutifan — Neoplasm Malignant에 듣는다  <!-- 시험 3건 · 논문 159편 -->
+- [ ] enfortumab vedotin — Cancer에 듣는다  <!-- 시험 49건 · 논문 762편 -->
+- [ ] enfortumab vedotin — Advanced Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 43편 -->
+- [ ] enfortumab vedotin — Neoplasm Metastasis에 듣는다  <!-- 시험 4건 · 논문 78편 -->
+- [ ] sacituzumab govitecan — Solid Tumor에 듣는다  <!-- 시험 17건 · 논문 97편 -->
+- [ ] sacituzumab govitecan — Bladder Neoplasm에 듣는다  <!-- 시험 12건 · 논문 69편 -->
+- [ ] sacituzumab govitecan — Brain Metastasis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [ ] trastuzumab deruxtecan — Metastatic에 듣는다  <!-- 시험 30건 · 논문 771편 -->
+- [ ] trastuzumab deruxtecan — Adenocarcinoma (NOS)에 듣는다  <!-- 시험 28건 · 논문 130편 -->
+- [ ] trastuzumab deruxtecan — Urothelial Carcinoma에 듣는다  <!-- 시험 14건 · 논문 33편 -->
+- [ ] epcoritamab — FL에 듣는다  <!-- 시험 17건 · 논문 40편 -->
+- [ ] epcoritamab — Small Lymphocytic Lymphoma에 듣는다  <!-- 시험 13건 · 논문 10편 -->
+- [ ] epcoritamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 12건 · 논문 119편 -->
