@@ -5793,16 +5793,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 23건 -->
 - [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 등록 시험 9건 -->
 - [x] dextromethorphan — Solid Tumor에 듣는다 — 기존 항목(dextromethorphan-solid-tumor-null)  <!-- 등록 시험 7건 -->
-- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] dextromethorphan — Depression에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] clonidine — Opioid Use에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] clonidine — Hypertension에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
+- [x] dextromethorphan — Alzheimer Disease에 듣는다 — 기존 항목(dextromethorphan-alzheimer)  <!-- 등록 시험 6건 -->
+- [x] dextromethorphan — Depression에 듣는다 — 기존 항목(dextromethorphan-bupropion-depression)  <!-- 등록 시험 6건 -->
+- [x] clonidine — Opioid Use에 듣는다 — 기존 항목(clonidine-opioid-use)  <!-- 등록 시험 14건 -->
+- [x] clonidine — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 13건 -->
+- [x] clonidine — Osteoarthritis에 듣는다 — 기존 항목(clonidine-osteoarthritis-null)  <!-- 등록 시험 12건 -->
+- [x] clonidine — Anesthesia에 듣는다 — 기존 항목(clonidine-anesthesia)  <!-- 등록 시험 12건 -->
+- [x] finasteride — Alopecia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 16건 -->
+- [x] finasteride — Prostatic Hyperplasia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 13건 -->
+- [x] finasteride — Spinal Cord Injury에 듣는다 — 기존 항목(finasteride-spinal-cord-injury)  <!-- 등록 시험 10건 -->
+- [x] finasteride — Trauma, Nervous System에 듣는다 — 기존 항목(finasteride-trauma-nervous-system-open)  <!-- 등록 시험 7건 -->
 - [ ] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
 - [ ] melatonin — Delirium에 듣는다  <!-- 등록 시험 27건 -->
 - [ ] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
