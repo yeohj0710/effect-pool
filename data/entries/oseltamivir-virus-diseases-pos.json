@@ -1,0 +1,27 @@
+{
+  "id": "oseltamivir-virus-diseases-pos",
+  "subj": "오셀타미비르",
+  "claim": "오셀타미비르가 인플루엔자의 증상 완화 시간을 줄인다",
+  "line": "바이러스성 질환 중 인플루엔자의 증상 완화는 빨랐지만 효과가 작았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "성인 증상 16.8시간 단축",
+  "n": 9623,
+  "synth": "meta",
+  "why": "코크란 메타분석은 오셀타미비르 무작위시험 20편에서 인플루엔자 증상 완화와 합병증·이상반응을 종합했습니다.",
+  "saw": "PubMed 24718923 원문은 오셀타미비르 시험 20편과 9623명을 분석했고 성인 인플루엔자 증상 첫 완화가 평균 16.8시간 빨랐지만 효과는 작고 비특이적이라고 결론냈습니다.",
+  "limit": "근거는 인플루엔자에 집중되어 다른 바이러스성 질환에는 적용되지 않으며 오심·구토 등 위해가 함께 보고됐습니다.",
+  "against": "반대 검색 3건은 입원·중증 합병증 감소가 유의하지 않거나 오셀타미비르의 효과가 제한적이라고 보고했습니다.",
+  "use": "바이러스성 질환 전체가 아니라 인플루엔자의 성인 증상 완화에 한정된 작은 효과로 설명합니다.",
+  "refs": [
+    { "label": "Jefferson 2014 · Cochrane · 인플루엔자 오셀타미비르 무작위시험 메타분석", "doi": "10.1002/14651858.CD008965.pub4", "pmid": "24718923", "pmc": "PMC6464969" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"oseltamivir\" → 3건 반환; 인플루엔자 A·B 치료·예방 표시",
+    "ctgov": "query.intr=oseltamivir&query.cond=Virus Diseases&countTotal=true&pageSize=1000 → 125건 반환, InterventionName 정확 대조 후 65건",
+    "pubmed": "oseltamivir AND \"Virus Diseases\" → 44건",
+    "negative": "oseltamivir AND \"Virus Diseases\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 3건",
+    "safety": "oseltamivir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1039건"
+  }
+}

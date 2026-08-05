@@ -1,0 +1,27 @@
+{
+  "id": "nitazoxanide-hiv-infection-null",
+  "subj": "니타족사나이드",
+  "claim": "니타족사나이드가 HIV 감염 소아의 크립토스포리디움증을 개선한다",
+  "line": "HIV 감염 소아의 크립토스포리디움증을 개선하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "임상 호전 42% vs 35%",
+  "n": 60,
+  "synth": "single",
+  "why": "무작위 위약대조시험은 HIV 감염으로 면역저하된 잠비아 소아의 크립토스포리디움증에서 니타족사나이드의 임상·기생충학적 반응을 평가했습니다.",
+  "saw": "PubMed 19954529 원문은 60명을 무작위 배정했고 임상 호전은 니타족사나이드군 42%, 위약군 35%였으며 기생충 제거와 사망률 차이는 없었습니다.",
+  "limit": "잠비아 HIV 감염 소아의 소규모 시험이며 면역상태와 지역적 치료환경이 다른 환자에게 일반화하기 어렵습니다.",
+  "against": "반대 검색 1건과 이전 소아시험도 HIV 관련 크립토스포리디움증의 유의한 이득을 뒷받침하지 않았습니다.",
+  "use": "HIV 감염 소아의 크립토스포리디움증에서 임상적 추가 이득이 없었던 무작위시험으로 설명합니다.",
+  "refs": [
+    { "label": "Amadi 2009 · BMC Infect Dis · HIV 감염 소아 무작위시험", "doi": "10.1186/1471-2334-9-195", "pmid": "19954529", "pmc": "PMC2794874" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"nitazoxanide\" → 3건 반환; HIV 감염 적응증 문구 없음",
+    "ctgov": "query.intr=nitazoxanide&query.cond=HIV Infection&countTotal=true&pageSize=1000 → 9건 반환, InterventionName 정확 대조 후 7건",
+    "pubmed": "nitazoxanide AND \"HIV Infection\" → 7건",
+    "negative": "nitazoxanide AND \"HIV Infection\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 1건",
+    "safety": "nitazoxanide AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 278건"
+  }
+}

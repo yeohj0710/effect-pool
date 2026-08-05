@@ -1,0 +1,27 @@
+{
+  "id": "oseltamivir-pneumonia-null",
+  "subj": "오셀타미비르",
+  "claim": "오셀타미비르가 인플루엔자의 폐렴 합병증을 줄인다",
+  "line": "인플루엔자에서 확진 폐렴 감소를 입증하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "확진 폐렴 효과 없음",
+  "n": 9623,
+  "synth": "meta",
+  "why": "코크란 메타분석은 오셀타미비르 무작위시험 20편에서 인플루엔자 폐렴과 입원 등 합병증을 평가했습니다.",
+  "saw": "PubMed 24718923 원문은 오셀타미비르 시험 20편과 9623명을 분석했고 자기보고 폐렴은 일부 줄었지만 방사선학적으로 확인한 폐렴 감소 효과는 보고되지 않았습니다.",
+  "limit": "폐렴 정의가 불충분한 시험이 많고 분석 대상은 인플루엔자 치료시험이라 다른 바이러스성 폐렴에 일반화할 수 없습니다.",
+  "against": "반대 검색 146건에서도 확진 폐렴과 중증 합병증을 줄였다는 일관된 결과는 확인되지 않았습니다.",
+  "use": "인플루엔자에서 증상 단축 자료와 달리 확진 폐렴 합병증 감소는 입증되지 않았다고 설명합니다.",
+  "refs": [
+    { "label": "Jefferson 2014 · Cochrane · 뉴라미니다제 억제제 무작위시험 메타분석", "doi": "10.1002/14651858.CD008965.pub4", "pmid": "24718923", "pmc": "PMC6464969" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"oseltamivir\" → 3건 반환; 폐렴 적응증 문구 없음",
+    "ctgov": "query.intr=oseltamivir&query.cond=Pneumonia&countTotal=true&pageSize=1000 → 26건 반환, InterventionName 정확 대조 후 10건",
+    "pubmed": "oseltamivir AND \"Pneumonia\" → 668건",
+    "negative": "oseltamivir AND \"Pneumonia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 146건",
+    "safety": "oseltamivir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1039건"
+  }
+}

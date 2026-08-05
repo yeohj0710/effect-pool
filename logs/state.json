@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 617,
+  "entries": 640,
   "worklist": {
-    "checked": 7399,
-    "unchecked": 196,
+    "checked": 7429,
+    "unchecked": 166,
     "no_evidence_pending": 15,
     "next_batch": [
-      "pirfenidone-covid-19",
-      "pirfenidone-liver-cirrhosis",
-      "baricitinib-covid19",
-      "baricitinib-immune-thrombocytopenia",
-      "tofacitinib-atopic-dermatitis",
-      "tofacitinib-inflammatory-skin-disease",
-      "tofacitinib-takayasu-arteritis",
-      "tofacitinib-covid-19",
-      "ruxolitinib-t-cell-lymphoma",
-      "ruxolitinib-mds-mpn"
+      "ivacaftor-chronic-obstructive-pulmonary-disease",
+      "ivacaftor-diabetes",
+      "sotagliflozin-heart-failure",
+      "sotagliflozin-diabetic-nephropathies",
+      "sotagliflozin-chronic-kidney-disease",
+      "tenofovir-hepatitis-b",
+      "tenofovir-virus-diseases",
+      "tenofovir-liver-failure",
+      "tenofovir-art-adherence",
+      "nirmatrelvir-sars-cov2-infection"
     ]
   },
   "verification": {
@@ -24,15 +24,15 @@
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 561,
-      "obs": 43,
+      "trial": 581,
+      "obs": 45,
       "animal": 2,
       "lab": 2,
-      "case": 9
+      "case": 10
     },
-    "no_effect_or_harm": 300,
+    "no_effect_or_harm": 309,
     "harm": 33,
-    "no_effect_or_harm_share": "49%"
+    "no_effect_or_harm_share": "48%"
   },
   "deployment": {
     "last_entry_count": 601,
@@ -42,12 +42,36 @@
     "deployment_url": "https://offlabel-pool-hglxi1phv-yeohj0710s-projects.vercel.app"
   },
   "last_batch": [
-    "creatine-depression (created)",
-    "creatine-knee-osteoarthritis (created)",
-    "creatine-multiple-sclerosis (created)",
-    "berberine-obesity (created)",
-    "berberine-polycystic-ovary-syndrome (created)",
-    "berberine-dyslipidemias (created)"
+    "pirfenidone-covid-19 (created)",
+    "pirfenidone-liver-cirrhosis (created)",
+    "baricitinib-covid19 (approved)",
+    "baricitinib-immune-thrombocytopenia (created)",
+    "tofacitinib-atopic-dermatitis (created)",
+    "tofacitinib-inflammatory-skin-disease (created)",
+    "tofacitinib-takayasu-arteritis (created)",
+    "tofacitinib-covid-19 (created)",
+    "ruxolitinib-t-cell-lymphoma (created)",
+    "ruxolitinib-mds-mpn (created)",
+    "ruxolitinib-polycythemia-vera (approved)",
+    "nitazoxanide-sars-cov-infection (result pending)",
+    "nitazoxanide-covid19 (created)",
+    "nitazoxanide-hepatitis-c (created)",
+    "nitazoxanide-hiv-infection (created)",
+    "favipiravir-covid19 (created)",
+    "favipiravir-influenza (created)",
+    "favipiravir-sars-cov2 (created)",
+    "favipiravir-ebola-virus-disease (created)",
+    "oseltamivir-viral-shedding (created)",
+    "oseltamivir-pneumonia (created)",
+    "oseltamivir-virus-diseases (created)",
+    "nintedanib-pulmonary-fibrosis (approved)",
+    "nintedanib-breast-cancer (created)",
+    "nintedanib-cervical-carcinoma (result pending)",
+    "nitazoxanide-hepatic-cirrhosis (result pending)",
+    "nitazoxanide-influenza (created)",
+    "nitazoxanide-cryptosporidiosis (approved)",
+    "favipiravir-lassa-fever (created)",
+    "oseltamivir-covid (created)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -97,17 +121,41 @@
     "latest_candidates": 196
   },
   "resume": {
-    "last_committed_batch": "expanded worklist batch 191-196",
+    "last_committed_batch": "worklist batch 197-226",
     "last_batch": [
-      "creatine-depression (created)",
-      "creatine-knee-osteoarthritis (created)",
-      "creatine-multiple-sclerosis (created)",
-      "berberine-obesity (created)",
-      "berberine-polycystic-ovary-syndrome (created)",
-      "berberine-dyslipidemias (created)"
+      "pirfenidone-covid-19 (created)",
+      "pirfenidone-liver-cirrhosis (created)",
+      "baricitinib-covid19 (approved)",
+      "baricitinib-immune-thrombocytopenia (created)",
+      "tofacitinib-atopic-dermatitis (created)",
+      "tofacitinib-inflammatory-skin-disease (created)",
+      "tofacitinib-takayasu-arteritis (created)",
+      "tofacitinib-covid-19 (created)",
+      "ruxolitinib-t-cell-lymphoma (created)",
+      "ruxolitinib-mds-mpn (created)",
+      "ruxolitinib-polycythemia-vera (approved)",
+      "nitazoxanide-sars-cov-infection (result pending)",
+      "nitazoxanide-covid19 (created)",
+      "nitazoxanide-hepatitis-c (created)",
+      "nitazoxanide-hiv-infection (created)",
+      "favipiravir-covid19 (created)",
+      "favipiravir-influenza (created)",
+      "favipiravir-sars-cov2 (created)",
+      "favipiravir-ebola-virus-disease (created)",
+      "oseltamivir-viral-shedding (created)",
+      "oseltamivir-pneumonia (created)",
+      "oseltamivir-virus-diseases (created)",
+      "nintedanib-pulmonary-fibrosis (approved)",
+      "nintedanib-breast-cancer (created)",
+      "nintedanib-cervical-carcinoma (result pending)",
+      "nitazoxanide-hepatic-cirrhosis (result pending)",
+      "nitazoxanide-influenza (created)",
+      "nitazoxanide-cryptosporidiosis (approved)",
+      "favipiravir-lassa-fever (created)",
+      "oseltamivir-covid (created)"
     ],
-    "current_batch": "expanded worklist batch 191-196",
-    "next_action": "commit and push; process the next 10 expanded candidates",
+    "current_batch": "worklist batch 197-226",
+    "next_action": "commit and push; process the next 30 candidates",
     "expansion_checkpoint": "added 196 unique paper-backed candidates on 2026-08-05 after the built-in list was exhausted"
   }
 }

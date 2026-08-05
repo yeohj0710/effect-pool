@@ -1,0 +1,27 @@
+{
+  "id": "favipiravir-covid-19-null",
+  "subj": "파비피라비르",
+  "claim": "파비피라비르가 코로나19의 임상 결과를 개선한다",
+  "line": "코로나19에서 바이러스 소실과 입원을 줄이지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "임상 결과 차이 없음",
+  "n": 1448,
+  "synth": "meta",
+  "why": "무작위시험 메타분석은 코로나19 환자에서 파비피라비르의 바이러스 소실·임상 호전·산소·중환자실 결과와 안전성을 비교했습니다.",
+  "saw": "PubMed 36788824 원문은 8개 무작위시험과 1448명을 합쳤고 바이러스 소실, 임상 호전, 산소·중환자실 필요, 이상반응에서 유의한 차이를 확인하지 못했습니다.",
+  "limit": "포함 시험의 중증도와 치료시점이 달라 결과의 이질성이 크고 메타분석 논문 자체의 연구 질 평가에 한계가 있습니다.",
+  "against": "반대 검색 196건에는 일부 양성 단일시험이 있었지만 임상 결과의 일관된 개선은 확인되지 않았습니다.",
+  "use": "코로나19에서 파비피라비르의 임상적 추가 이득이 없었던 무작위시험 메타분석으로 설명합니다.",
+  "refs": [
+    { "label": "Batool 2023 · Cureus · 코로나19 파비피라비르 무작위시험 메타분석", "doi": "10.7759/cureus.33676", "pmid": "36788824", "pmc": "PMC9918851" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
+    "ctgov": "query.intr=favipiravir&query.cond=Covid19&countTotal=true&pageSize=1000 → 65건 반환, InterventionName 정확 대조 후 38건",
+    "pubmed": "favipiravir AND \"Covid19\" → 1051건",
+    "negative": "favipiravir AND \"Covid19\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 196건",
+    "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
+  }
+}

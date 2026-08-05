@@ -1,0 +1,27 @@
+{
+  "id": "favipiravir-lassa-fever-open",
+  "subj": "파비피라비르",
+  "claim": "파비피라비르가 라사열 치료에 안전하다",
+  "line": "라사열 2상에서 중대한 이상반응 없이 모두 생존했지만 효과는 불명확합니다",
+  "tier": "trial",
+  "dir": "open",
+  "effect": "중대한 이상반응 0건",
+  "n": 41,
+  "synth": "single",
+  "why": "공개 무작위 2상 시험은 라사열 성인에서 파비피라비르와 리바비린의 약동학·안전성·내약성을 비교했고 치료 효과는 주평가 대상이 아니었습니다.",
+  "saw": "PubMed 42141199 원문은 41명을 무작위 배정했고 두 군 모두 생존·퇴원했으며 파비피라비르군의 중대한 이상반응은 없었지만 유효성 비교 결론은 내리지 않았습니다.",
+  "limit": "소규모 공개시험이며 경증·중등도 입원 성인에 한정되고 사망 감소나 바이러스 제거 효과를 검증하도록 설계되지 않았습니다.",
+  "against": "반대 검색 1건은 라사열에서 파비피라비르의 유효성이 아직 불확실하다고 지적했습니다.",
+  "use": "라사열에서 안전성·약동학 자료가 나온 연구 단계 신호로만 설명하고 치료 효과로 단정하지 않습니다.",
+  "refs": [
+    { "label": "Erameh 2026 · Nat Med · 라사열 파비피라비르 2상 무작위시험", "doi": "10.1038/s41591-026-04402-w", "pmid": "42141199", "pmc": "PMC13375587", "nct": "NCT04907682" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
+    "ctgov": "query.intr=favipiravir&query.cond=Lassa Fever&countTotal=true&pageSize=1000 → 2건 반환, InterventionName 정확 대조 후 2건",
+    "pubmed": "favipiravir AND \"Lassa Fever\" → 21건",
+    "negative": "favipiravir AND \"Lassa Fever\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 1건",
+    "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
+  }
+}

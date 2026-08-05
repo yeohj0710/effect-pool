@@ -1,0 +1,27 @@
+{
+  "id": "oseltamivir-covid-19-null",
+  "subj": "오셀타미비르",
+  "claim": "오셀타미비르가 코로나19의 생존율을 높인다",
+  "line": "코로나19에서 생존율을 유의하게 높이지 못했습니다",
+  "tier": "obs",
+  "dir": "null",
+  "effect": "생존율 유의한 차이 없음",
+  "n": null,
+  "synth": "meta",
+  "why": "관찰연구 메타분석은 코로나19 환자에서 인플루엔자 치료제인 오셀타미비르의 생존·입원·바이러스학적 결과를 종합했습니다.",
+  "saw": "PubMed 36454880 원문은 8개 관찰연구를 합쳤고 생존율과 바이러스학적·영상학적 반응률은 유의하게 좋아지지 않았으며 입원기간만 민감도 분석에서 짧았습니다.",
+  "limit": "무작위시험이 아닌 관찰연구만 포함했고 연구별 환자 수를 원문 초록에서 확인할 수 없어 총 n은 null로 두었습니다.",
+  "against": "반대 검색 60건에는 입원기간 감소를 보고한 관찰연구가 있었지만 생존율 결과는 일관되지 않았습니다.",
+  "use": "코로나19에서 오셀타미비르의 생존 이득을 지지하지 않는 관찰연구 메타분석으로 설명합니다.",
+  "refs": [
+    { "label": "Aliyu 2022 · PLoS One · 코로나19 오셀타미비르 관찰연구 메타분석", "doi": "10.1371/journal.pone.0277206", "pmid": "36454880", "pmc": "PMC9714710" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"oseltamivir\" → 3건 반환; 코로나19 적응증 문구 없음",
+    "ctgov": "query.intr=oseltamivir&query.cond=COVID&countTotal=true&pageSize=1000 → 11건 반환, InterventionName 정확 대조 후 6건",
+    "pubmed": "oseltamivir AND \"COVID\" → 332건",
+    "negative": "oseltamivir AND \"COVID\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 60건",
+    "safety": "oseltamivir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1039건"
+  }
+}

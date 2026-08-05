@@ -1,0 +1,27 @@
+{
+  "id": "pirfenidone-covid-19-null",
+  "subj": "피르페니돈",
+  "claim": "피르페니돈이 코로나19 후 폐섬유화를 개선한다",
+  "line": "코로나19 후 폐섬유화에서 위약보다 개선하지 못했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "개선율 79.7% vs 82.3%",
+  "n": 103,
+  "synth": "single",
+  "why": "FIBRO-COVID 2상 무작위 위약대조시험은 코로나19 중증 폐렴 회복 후 섬유성 폐변화가 남은 환자에서 피르페니돈의 효과를 평가했습니다.",
+  "saw": "PubMed 40154560 원문은 분석 환자 103명에서 피르페니돈군과 위약군의 전반적 개선율이 79.7%와 82.3%로 비슷했고, 폐기능·CT 섬유화 점수 차이도 유의하지 않았다고 보고했습니다.",
+  "limit": "6개월 단일 시험이며 코로나19 회복 후 섬유성 폐변화에 한정됩니다. 전체 개선율은 자연 회복을 포함할 수 있습니다.",
+  "against": "반대 검색 7건에서도 피르페니돈의 임상적 추가 이득을 일관되게 확인하지 못했습니다.",
+  "use": "코로나19 후 폐섬유화에서 피르페니돈은 위약 대비 확정된 추가 효과가 없는 연구 결과로 설명합니다.",
+  "refs": [
+    { "label": "Bermudo-Peloche 2025 · Eur Respir J · FIBRO-COVID 2상 무작위시험", "doi": "10.1183/13993003.02249-2024", "pmid": "40154560", "pmc": "PMC12018760" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"pirfenidone\" → 20건 반환; idiopathic pulmonary fibrosis(IPF)만 표시",
+    "ctgov": "query.intr=pirfenidone&query.cond=COVID 19&countTotal=true&pageSize=1000 → 8건 반환, InterventionName 정확 대조 후 4건",
+    "pubmed": "pirfenidone AND \"COVID-19\" → 89건",
+    "negative": "pirfenidone AND \"COVID-19\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 7건",
+    "safety": "pirfenidone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 817건"
+  }
+}

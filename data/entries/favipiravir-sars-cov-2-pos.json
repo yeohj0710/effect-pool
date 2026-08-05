@@ -1,0 +1,27 @@
+{
+  "id": "favipiravir-sars-cov-2-pos",
+  "subj": "파비피라비르",
+  "claim": "파비피라비르가 SARS-CoV-2 재양성의 바이러스 배출 기간을 줄인다",
+  "line": "사스코로나바이러스-2 재양성에서 PCR 음전까지 걸린 시간을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "PCR 음전 17일 vs 26일",
+  "n": 55,
+  "synth": "single",
+  "why": "다기관 공개 무작위시험은 퇴원 후 SARS-CoV-2 RNA 재양성 환자에서 파비피라비르와 표준치료의 바이러스 음전 시간을 비교했습니다.",
+  "saw": "PubMed 33930706 원문은 55명을 무작위 배정했고 연속 PCR 음전까지의 중앙값이 파비피라비르군 17일, 대조군 26일이었으며 이상반응은 대체로 경미했습니다.",
+  "limit": "재양성 환자 대상 소규모 공개시험이고 이중눈가림이 아니며 임상 증상·장기 예후 개선을 입증하지 않았습니다.",
+  "against": "반대 검색 3건은 SARS-CoV-2 임상시험에서 바이러스 소실과 임상 결과가 일관되지 않다고 보고했습니다.",
+  "use": "퇴원 후 SARS-CoV-2 재양성의 바이러스 음전 시간에 대한 단일시험 신호로만 설명합니다.",
+  "refs": [
+    { "label": "Zhao 2021 · Int Immunopharmacol · SARS-CoV-2 재양성 무작위시험", "doi": "10.1016/j.intimp.2021.107702", "pmid": "33930706", "pmc": "PMC8059985" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
+    "ctgov": "query.intr=favipiravir&query.cond=Sars-CoV2&countTotal=true&pageSize=1000 → 33건 반환, InterventionName 정확 대조 후 19건",
+    "pubmed": "favipiravir AND \"Sars-CoV2\" → 30건",
+    "negative": "favipiravir AND \"Sars-CoV2\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 3건",
+    "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
+  }
+}

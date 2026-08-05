@@ -1,0 +1,27 @@
+{
+  "id": "tofacitinib-covid-19-pos",
+  "subj": "토파시티닙",
+  "claim": "토파시티닙이 입원 코로나19 폐렴의 악화를 줄인다",
+  "line": "입원 코로나19 폐렴에서 사망·호흡부전을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "사망·호흡부전 18.1% vs 29.0%",
+  "n": 289,
+  "synth": "single",
+  "why": "STOP-COVID 무작위 위약대조시험은 입원한 코로나19 폐렴 환자에서 토파시티닙의 사망 또는 호흡부전 예방 효과를 평가했습니다.",
+  "saw": "PubMed 34133856 원문은 환자 289명을 무작위 배정했고 28일 사망 또는 호흡부전이 토파시티닙군 18.1%, 위약군 29.0%였으며 중대한 이상반응은 비슷했습니다.",
+  "limit": "브라질 입원 환자의 단일 대규모 시험이며 다른 중증도·변이·치료 배경에 같은 효과를 보장하지 않습니다.",
+  "against": "반대 검색 25건과 후속 메타분석은 연구 간 이질성과 추가 확증시험의 필요성을 제시했습니다.",
+  "use": "입원 코로나19 폐렴에서 사망·호흡부전 감소를 보인 무작위시험 결과로 설명하되 허가 적응증으로 오인하지 않습니다.",
+  "refs": [
+    { "label": "Guimarães 2021 · N Engl J Med · STOP-COVID 무작위시험", "doi": "10.1056/NEJMoa2101643", "pmid": "34133856", "pmc": "PMC8220898", "nct": "NCT04469114" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"tofacitinib\" → 20건 반환; 코로나19 적응증 문구 없음",
+    "ctgov": "query.intr=tofacitinib&query.cond=COVID-19&countTotal=true&pageSize=1000 → 7건 반환, InterventionName 정확 대조 후 4건",
+    "pubmed": "tofacitinib AND \"COVID-19\" → 171건",
+    "negative": "tofacitinib AND \"COVID-19\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 25건",
+    "safety": "tofacitinib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1928건"
+  }
+}

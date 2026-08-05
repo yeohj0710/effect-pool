@@ -1,0 +1,27 @@
+{
+  "id": "nitazoxanide-influenza-pos",
+  "subj": "니타족사나이드",
+  "claim": "니타족사나이드가 급성 인플루엔자의 증상 기간을 줄인다",
+  "line": "급성 인플루엔자에서 증상 지속 시간을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "증상 21.2시간 단축",
+  "n": 624,
+  "synth": "single",
+  "why": "2b/3상 무작위 위약대조시험은 급성 단순 인플루엔자 청소년·성인에서 니타족사나이드의 증상 완화 시간을 평가했습니다.",
+  "saw": "PubMed 24852376 원문은 624명을 등록했고 증상 지속기간 중앙값은 한 니타족사나이드군 95.5시간, 위약군 116.7시간이었으며 이상반응은 비슷했습니다.",
+  "limit": "단순 인플루엔자에 한정된 단일 시험이며 중증 환자와 합병증 예방 효과는 평가하지 않았습니다.",
+  "against": "반대 검색 8건은 후속 임상 근거가 제한적이고 다른 호흡기 바이러스에 대한 효과를 확립하지 못했습니다.",
+  "use": "급성 단순 인플루엔자의 증상 기간을 줄인 무작위시험 신호로 설명하되 허가 적응증으로 표시하지 않습니다.",
+  "refs": [
+    { "label": "Haffizulla 2014 · Lancet Infect Dis · 인플루엔자 2b/3상 무작위시험", "doi": "10.1016/S1473-3099(14)70717-0", "pmid": "24852376", "pmc": "PMC7164783", "nct": "NCT01227421" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"nitazoxanide\" → 3건 반환; 인플루엔자 적응증 문구 없음",
+    "ctgov": "query.intr=nitazoxanide&query.cond=Influenza&countTotal=true&pageSize=1000 → 6건 반환, InterventionName 정확 대조 후 5건",
+    "pubmed": "nitazoxanide AND \"Influenza\" → 43건",
+    "negative": "nitazoxanide AND \"Influenza\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 8건",
+    "safety": "nitazoxanide AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 278건"
+  }
+}

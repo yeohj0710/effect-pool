@@ -1,0 +1,27 @@
+{
+  "id": "nitazoxanide-hepatitis-c-pos",
+  "subj": "니타족사나이드",
+  "claim": "니타족사나이드가 만성 C형간염의 지속 바이러스 반응을 높인다",
+  "line": "만성 C형간염에서 지속 바이러스 반응을 늘렸습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "SVR 실패 RR 0.85",
+  "n": 538,
+  "synth": "meta",
+  "why": "코크란 메타분석은 만성 C형간염 무작위시험에서 니타족사나이드의 바이러스 반응과 임상적 위해를 평가했습니다.",
+  "saw": "PubMed 24706397 원문은 7개 무작위시험과 538명을 합쳤고 지속 바이러스 반응 실패 위험은 RR 0.85였지만 모든 시험의 비뚤림 위험이 높았습니다.",
+  "limit": "유전자형 1·4 환자에 한정되고 근거의 질이 낮으며 사망·이환·간 조직 결과 자료가 부족합니다.",
+  "against": "반대 검색 11건은 단일시험의 무효 결과와 높은 비뚤림 위험을 제시해 효과의 확실성을 낮춥니다.",
+  "use": "만성 C형간염의 바이러스 반응에서 제한적 메타분석 신호로 설명하고 현대 직접작용 항바이러스제의 대체로 제시하지 않습니다.",
+  "refs": [
+    { "label": "Nikolova 2014 · Cochrane · 만성 C형간염 무작위시험 메타분석", "doi": "10.1002/14651858.CD009182.pub2", "pmid": "24706397", "pmc": "PMC10984248" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"nitazoxanide\" → 3건 반환; 만성 C형간염 적응증 문구 없음",
+    "ctgov": "query.intr=nitazoxanide&query.cond=Hepatitis C&countTotal=true&pageSize=1000 → 13건 반환, InterventionName 정확 대조 후 9건",
+    "pubmed": "nitazoxanide AND \"Hepatitis C\" → 43건",
+    "negative": "nitazoxanide AND \"Hepatitis C\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 11건",
+    "safety": "nitazoxanide AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 278건"
+  }
+}

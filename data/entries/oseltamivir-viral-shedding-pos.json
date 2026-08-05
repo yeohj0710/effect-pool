@@ -1,0 +1,27 @@
+{
+  "id": "oseltamivir-viral-shedding-pos",
+  "subj": "오셀타미비르",
+  "claim": "오셀타미비르가 인플루엔자 성인의 바이러스 배출을 줄인다",
+  "line": "인플루엔자 성인의 바이러스 배출을 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "3일 검출 45.0% vs 57.2%",
+  "n": 558,
+  "synth": "single",
+  "why": "다기관 무작위 위약대조시험은 합병증 위험이 낮은 인플루엔자 성인에서 오셀타미비르가 바이러스 배출과 증상에 미치는 영향을 평가했습니다.",
+  "saw": "PubMed 31541242 원문은 558명을 무작위 배정했고 3일째 바이러스 검출률은 오셀타미비르군 45.0%, 위약군 57.2%였지만 증상 해소 시간은 유의하게 줄지 않았습니다.",
+  "limit": "합병증 위험이 낮은 성인 대상이며 바이러스 배출 감소가 증상 해소나 전파 감소를 보장하지 않습니다.",
+  "against": "반대 검색 32건에는 증상 효과가 작거나 치료시점에 따라 달라진다는 결과가 포함됐습니다.",
+  "use": "인플루엔자 성인의 바이러스 배출 감소와 임상 증상 효과가 분리된 무작위시험 결과로 설명합니다.",
+  "refs": [
+    { "label": "Beigel 2020 · Clin Infect Dis · 인플루엔자 바이러스학적 결과 무작위시험", "doi": "10.1093/cid/ciz634", "pmid": "31541242", "pmc": "PMC7245154", "nct": "NCT01314911" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"oseltamivir\" → 3건 반환; 인플루엔자 A·B 치료·예방 표시",
+    "ctgov": "query.intr=oseltamivir&query.cond=Viral Shedding&countTotal=true&pageSize=1000 → 6건 반환, InterventionName 정확 대조 후 4건",
+    "pubmed": "oseltamivir AND \"Viral Shedding\" → 122건",
+    "negative": "oseltamivir AND \"Viral Shedding\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 32건",
+    "safety": "oseltamivir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1039건"
+  }
+}

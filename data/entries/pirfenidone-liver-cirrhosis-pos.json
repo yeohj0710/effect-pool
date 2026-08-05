@@ -1,0 +1,27 @@
+{
+  "id": "pirfenidone-liver-cirrhosis-pos",
+  "subj": "피르페니돈",
+  "claim": "피르페니돈이 간경화의 간 섬유화를 줄인다",
+  "line": "간경화에서 간 섬유화 지표를 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "LSM 15.4 vs 24.2kPa",
+  "n": 180,
+  "synth": "single",
+  "why": "ODISEA 무작위시험은 보상성 간경화 환자에서 피르페니돈의 비침습적 섬유화 지표 변화를 평가했습니다.",
+  "saw": "PubMed 40402087 원문은 보상성 간경화 환자 180명을 무작위 배정했고, 한 피르페니돈군에서 24개월 간경직도와 FibroTest가 유의하게 낮아졌으며 간기능·MELD·삶의 질도 개선됐다고 보고했습니다.",
+  "limit": "보상성 간경화에 한정된 단일 시험이며 비침습적 지표가 조직학적 섬유화나 장기 생존을 대신하지 않습니다.",
+  "against": "반대 검색 3건은 피르페니돈의 간경화 효과를 부정하거나 직접 평가하지 않았습니다.",
+  "use": "보상성 간경화에서 간 섬유화 지표에 대한 임상시험 신호로 설명하되, 질병 경과 개선으로 확대하지 않습니다.",
+  "refs": [
+    { "label": "Muñoz-Espinosa 2025 · Liver Int · ODISEA 무작위시험", "doi": "10.1111/liv.70131", "pmid": "40402087", "pmc": "PMC12097196", "nct": "NCT01046474" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"pirfenidone\" → 20건 반환; 간경화 적응증 문구 없음",
+    "ctgov": "query.intr=pirfenidone&query.cond=Liver Cirrhosis&countTotal=true&pageSize=1000 → 4건 반환, InterventionName 정확 대조 후 2건",
+    "pubmed": "pirfenidone AND \"liver cirrhosis\" → 63건",
+    "negative": "pirfenidone AND \"liver cirrhosis\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 3건",
+    "safety": "pirfenidone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 817건"
+  }
+}

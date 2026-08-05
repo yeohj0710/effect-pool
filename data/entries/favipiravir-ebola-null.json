@@ -1,0 +1,27 @@
+{
+  "id": "favipiravir-ebola-null",
+  "subj": "파비피라비르",
+  "claim": "파비피라비르가 에볼라 바이러스병의 사망을 줄인다",
+  "line": "에볼라 바이러스병의 사망 감소 효과는 불확실했습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "성인 사망률 20%·91%",
+  "n": 111,
+  "synth": "single",
+  "why": "JIKI 비무작위 단일군 시험은 에볼라 바이러스병 환자에서 파비피라비르의 안전성과 사망·바이러스량 결과를 탐색했습니다.",
+  "saw": "PubMed 26930627 원문은 111명을 분석했고 성인·청소년의 기저 바이러스량 하위군별 사망률은 20%와 91%였지만 대조군이 없어 약효를 결론내리지 않았습니다.",
+  "limit": "비무작위 단일군 응급 연구라 기저 바이러스량과 중증도가 결과를 크게 좌우하며 파비피라비르의 사망 감소 효과를 비교할 수 없습니다.",
+  "against": "반대 검색 5건은 에볼라에서 무작위 대조군이 필요하고 파비피라비르 효과를 확정할 수 없다고 지적했습니다.",
+  "use": "에볼라 바이러스병에서는 약효 미확정 연구로 설명하고 생존율 수치를 치료 효과로 오해하지 않게 합니다.",
+  "refs": [
+    { "label": "Sissoko 2016 · PLoS Med · JIKI 에볼라 단일군 시험", "doi": "10.1371/journal.pmed.1001967", "pmid": "26930627", "pmc": "PMC4773183", "nct": "NCT02329054" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
+    "ctgov": "query.intr=favipiravir&query.cond=Ebola Virus Disease&countTotal=true&pageSize=1000 → 3건 반환, InterventionName 정확 대조 후 3건",
+    "pubmed": "favipiravir AND \"Ebola Virus Disease\" → 37건",
+    "negative": "favipiravir AND \"Ebola Virus Disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 5건",
+    "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
+  }
+}

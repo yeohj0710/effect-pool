@@ -1,0 +1,27 @@
+{
+  "id": "tofacitinib-inflammatory-skin-disease-pos",
+  "subj": "토파시티닙",
+  "claim": "토파시티닙이 전신 농포성 건선의 피부 병변을 호전시킨다",
+  "line": "전신 농포성 건선 증례에서 피부 병변이 호전됐습니다",
+  "tier": "case",
+  "dir": "pos",
+  "effect": "증례 1건에서 호전",
+  "n": 1,
+  "synth": "single",
+  "why": "전신 농포성 건선은 급격히 악화할 수 있는 염증성 피부질환이며, 증례 논문이 토파시티닙 치료 결과를 보고했습니다.",
+  "saw": "PubMed 40034382 원문은 중증 전신 농포성 건선 환자 1명에서 토파시티닙 후 피부 병변이 호전되고 안전성이 양호했다고 보고했습니다.",
+  "limit": "단일 증례라 자연 경과와 다른 치료의 영향을 분리할 수 없고 다른 염증성 피부질환이나 재발 예방으로 일반화할 수 없습니다.",
+  "against": "반대 검색 3건은 염증성 피부질환에서 토파시티닙의 무효 결과와 제한된 근거를 함께 제시했습니다.",
+  "use": "전신 농포성 건선의 예비 증례 신호로만 설명하고 확립된 치료 효과로 사용하지 않습니다.",
+  "refs": [
+    { "label": "Wang 2025 · Front Med · 전신 농포성 건선 토파시티닙 증례", "doi": "10.3389/fmed.2025.1518583", "pmid": "40034382", "pmc": "PMC11872701" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"tofacitinib\" → 20건 반환; 염증성 피부질환 적응증 문구 없음",
+    "ctgov": "query.intr=tofacitinib&query.cond=Inflammatory Skin Disease&countTotal=true&pageSize=1000 → 5건 반환, InterventionName 정확 대조 후 2건",
+    "pubmed": "tofacitinib AND \"inflammatory skin disease\" → 26건",
+    "negative": "tofacitinib AND \"inflammatory skin disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 3건",
+    "safety": "tofacitinib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1928건"
+  }
+}

@@ -8104,28 +8104,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] pirfenidone — COVID 19에 듣는다  <!-- 시험 5건 · 논문 93편 -->
-- [ ] pirfenidone — Liver Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 66편 -->
-- [ ] baricitinib — Covid19에 듣는다  <!-- 시험 5건 · 논문 570편 -->
-- [ ] baricitinib — Immune Thrombocytopenia에 듣는다  <!-- 시험 5건 · 논문 9편 -->
-- [ ] tofacitinib — Atopic Dermatitis에 듣는다  <!-- 시험 7건 · 논문 147편 -->
-- [ ] tofacitinib — Inflammatory Skin Disease에 듣는다  <!-- 시험 6건 · 논문 350편 -->
-- [ ] tofacitinib — Takayasu Arteritis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] tofacitinib — COVID-19에 듣는다  <!-- 시험 5건 · 논문 174편 -->
-- [ ] ruxolitinib — T-cell Lymphoma에 듣는다  <!-- 시험 30건 · 논문 117편 -->
-- [ ] ruxolitinib — MDS/MPN에 듣는다  <!-- 시험 28건 · 논문 15편 -->
-- [ ] ruxolitinib — Polycythemia Vera에 듣는다  <!-- 시험 22건 · 논문 515편 -->
-- [ ] nitazoxanide — SARS-CoV Infection에 듣는다  <!-- 시험 17건 · 논문 60편 -->
-- [ ] nitazoxanide — Covid19에 듣는다  <!-- 시험 13건 · 논문 137편 -->
-- [ ] nitazoxanide — Hepatitis C에 듣는다  <!-- 시험 13건 · 논문 44편 -->
-- [ ] nitazoxanide — HIV Infection에 듣는다  <!-- 시험 10건 · 논문 87편 -->
-- [ ] favipiravir — Covid19에 듣는다  <!-- 시험 10건 · 논문 1099편 -->
-- [ ] favipiravir — Influenza에 듣는다  <!-- 시험 9건 · 논문 266편 -->
-- [ ] favipiravir — Sars-CoV2에 듣는다  <!-- 시험 9건 · 논문 30편 -->
-- [ ] favipiravir — Ebola Virus Disease에 듣는다  <!-- 시험 5건 · 논문 81편 -->
-- [ ] oseltamivir — Viral Shedding에 듣는다  <!-- 시험 9건 · 논문 191편 -->
-- [ ] oseltamivir — Pneumonia에 듣는다  <!-- 시험 5건 · 논문 792편 -->
-- [ ] oseltamivir — Virus Diseases에 듣는다  <!-- 시험 4건 · 논문 4107편 -->
+- [x] pirfenidone — COVID 19에 듣는다 — 신규 항목(pirfenidone-covid-19-null)  <!-- 시험 5건 · 논문 93편 -->
+- [x] pirfenidone — Liver Cirrhosis에 듣는다 — 신규 항목(pirfenidone-liver-cirrhosis-pos)  <!-- 시험 4건 · 논문 66편 -->
+- [x] baricitinib — Covid19에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 570편 -->
+- [x] baricitinib — Immune Thrombocytopenia에 듣는다 — 신규 항목(baricitinib-immune-thrombocytopenia-pos)  <!-- 시험 5건 · 논문 9편 -->
+- [x] tofacitinib — Atopic Dermatitis에 듣는다 — 신규 항목(tofacitinib-atopic-dermatitis-pos)  <!-- 시험 7건 · 논문 147편 -->
+- [x] tofacitinib — Inflammatory Skin Disease에 듣는다 — 신규 항목(tofacitinib-inflammatory-skin-disease-pos)  <!-- 시험 6건 · 논문 350편 -->
+- [x] tofacitinib — Takayasu Arteritis에 듣는다 — 신규 항목(tofacitinib-takayasu-arteritis-pos)  <!-- 시험 5건 · 논문 34편 -->
+- [x] tofacitinib — COVID-19에 듣는다 — 신규 항목(tofacitinib-covid-19-pos)  <!-- 시험 5건 · 논문 174편 -->
+- [x] ruxolitinib — T-cell Lymphoma에 듣는다 — 신규 항목(ruxolitinib-t-cell-lymphoma-pos)  <!-- 시험 30건 · 논문 117편 -->
+- [x] ruxolitinib — MDS/MPN에 듣는다 — 신규 항목(ruxolitinib-mds-mpn-pos)  <!-- 시험 28건 · 논문 15편 -->
+- [x] ruxolitinib — Polycythemia Vera에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 515편 -->
+- [x] nitazoxanide — SARS-CoV Infection에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 17건 · 논문 60편 -->
+- [x] nitazoxanide — Covid19에 듣는다 — 신규 항목(nitazoxanide-covid-19-null)  <!-- 시험 13건 · 논문 137편 -->
+- [x] nitazoxanide — Hepatitis C에 듣는다 — 신규 항목(nitazoxanide-hepatitis-c-pos)  <!-- 시험 13건 · 논문 44편 -->
+- [x] nitazoxanide — HIV Infection에 듣는다 — 신규 항목(nitazoxanide-hiv-infection-null)  <!-- 시험 10건 · 논문 87편 -->
+- [x] favipiravir — Covid19에 듣는다 — 신규 항목(favipiravir-covid-19-null)  <!-- 시험 10건 · 논문 1099편 -->
+- [x] favipiravir — Influenza에 듣는다 — 신규 항목(favipiravir-influenza-null)  <!-- 시험 9건 · 논문 266편 -->
+- [x] favipiravir — Sars-CoV2에 듣는다 — 신규 항목(favipiravir-sars-cov-2-pos)  <!-- 시험 9건 · 논문 30편 -->
+- [x] favipiravir — Ebola Virus Disease에 듣는다 — 신규 항목(favipiravir-ebola-null)  <!-- 시험 5건 · 논문 81편 -->
+- [x] oseltamivir — Viral Shedding에 듣는다 — 신규 항목(oseltamivir-viral-shedding-pos)  <!-- 시험 9건 · 논문 191편 -->
+- [x] oseltamivir — Pneumonia에 듣는다 — 신규 항목(oseltamivir-pneumonia-null)  <!-- 시험 5건 · 논문 792편 -->
+- [x] oseltamivir — Virus Diseases에 듣는다 — 신규 항목(oseltamivir-virus-diseases-pos)  <!-- 시험 4건 · 논문 4107편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8136,9 +8136,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nintedanib — Pulmonary Fibrosis에 듣는다  <!-- 시험 42건 · 논문 1625편 -->
-- [ ] nintedanib — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 39편 -->
-- [ ] nintedanib — Cervical Carcinoma에 듣는다  <!-- 시험 11건 · 논문 11편 -->
+- [x] nintedanib — Pulmonary Fibrosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 42건 · 논문 1625편 -->
+- [x] nintedanib — Breast Cancer에 듣는다 — 신규 항목(nintedanib-breast-cancer-null)  <!-- 시험 11건 · 논문 39편 -->
+- [x] nintedanib — Cervical Carcinoma에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 11건 · 논문 11편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8149,9 +8149,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nitazoxanide — Hepatic Cirrhosis에 듣는다  <!-- 시험 7건 · 논문 14편 -->
-- [ ] nitazoxanide — Influenza에 듣는다  <!-- 시험 6건 · 논문 43편 -->
-- [ ] nitazoxanide — Cryptosporidiosis에 듣는다  <!-- 시험 6건 · 논문 258편 -->
+- [x] nitazoxanide — Hepatic Cirrhosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 7건 · 논문 14편 -->
+- [x] nitazoxanide — Influenza에 듣는다 — 신규 항목(nitazoxanide-influenza-pos)  <!-- 시험 6건 · 논문 43편 -->
+- [x] nitazoxanide — Cryptosporidiosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 258편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8162,7 +8162,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] favipiravir — Lassa Fever에 듣는다  <!-- 시험 3건 · 논문 24편 -->
+- [x] favipiravir — Lassa Fever에 듣는다 — 신규 항목(favipiravir-lassa-fever-open)  <!-- 시험 3건 · 논문 24편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8173,7 +8173,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] oseltamivir — COVID에 듣는다  <!-- 시험 3건 · 논문 352편 -->
+- [x] oseltamivir — COVID에 듣는다 — 신규 항목(oseltamivir-covid-19-null)  <!-- 시험 3건 · 논문 352편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

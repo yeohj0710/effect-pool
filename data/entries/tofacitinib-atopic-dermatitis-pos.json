@@ -1,0 +1,27 @@
+{
+  "id": "tofacitinib-atopic-dermatitis-pos",
+  "subj": "토파시티닙",
+  "claim": "토파시티닙이 아토피피부염의 습진 중증도를 줄인다",
+  "line": "아토피피부염에서 습진 중증도를 줄였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "effect": "EASI 81.7% vs 29.9%",
+  "n": 69,
+  "synth": "single",
+  "why": "4주 무작위 위약대조 2상 시험은 경증·중등도 아토피피부염 성인에서 국소 토파시티닙의 효과를 평가했습니다.",
+  "saw": "PubMed 27423107 원문은 성인 69명을 무작위 배정했고 4주 EASI 변화율이 토파시티닙군 81.7%, 차량군 29.9%로 유의하게 달랐으며 가려움도 개선됐다고 보고했습니다.",
+  "limit": "4주 소규모 시험이고 국소 제형의 결과라 중증 아토피피부염이나 장기 효과로 일반화할 수 없습니다.",
+  "against": "반대 검색 6건은 안전성·리뷰 자료가 주로 확인됐고 이 시험의 장기 효과를 확증하지 않았습니다.",
+  "use": "경증·중등도 아토피피부염의 국소 치료에서 초기 효능 신호로 설명하며 허가 치료로 혼동하지 않습니다.",
+  "refs": [
+    { "label": "Bissonnette 2016 · Br J Dermatol · 아토피피부염 국소 2상 무작위시험", "doi": "10.1111/bjd.14871", "pmid": "27423107", "nct": "NCT02001181" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"tofacitinib\" → 20건 반환; 아토피피부염 적응증 문구 없음",
+    "ctgov": "query.intr=tofacitinib&query.cond=Atopic Dermatitis&countTotal=true&pageSize=1000 → 7건 반환, InterventionName 정확 대조 후 3건",
+    "pubmed": "tofacitinib AND \"atopic dermatitis\" → 140건",
+    "negative": "tofacitinib AND \"atopic dermatitis\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 6건",
+    "safety": "tofacitinib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1928건"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "favipiravir-influenza-null",
+  "subj": "파비피라비르",
+  "claim": "파비피라비르가 급성 인플루엔자의 증상을 일관되게 줄인다",
+  "line": "급성 인플루엔자에서 바이러스 억제는 확인했지만 증상 개선은 일관되지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "effect": "증상 14.4시간 단축(1/2시험)",
+  "n": 1318,
+  "synth": "meta",
+  "why": "두 3상 무작위 위약대조시험은 건강한 성인의 급성 인플루엔자에서 파비피라비르의 증상 완화와 바이러스 억제를 평가했습니다.",
+  "saw": "PubMed 35639525 원문은 두 시험 1318명을 합쳐 한 시험에서는 증상 완화가 14.4시간 빨랐지만 다른 시험에서는 유의한 차이가 없었고 바이러스 지표는 감소했다고 보고했습니다.",
+  "limit": "건강한 성인의 단순 인플루엔자에 한정되고 두 시험의 증상 결과가 일치하지 않아 중증 인플루엔자에 일반화할 수 없습니다.",
+  "against": "반대 검색 36건은 증상 개선의 불일치와 고요산혈증을 포함한 안전성 문제를 제시했습니다.",
+  "use": "급성 인플루엔자에서 항바이러스 신호는 있으나 증상 개선이 일관되지 않은 시험 결과로 설명합니다.",
+  "refs": [
+    { "label": "Hayden 2022 · J Infect Dis · 인플루엔자 두 3상 무작위시험", "doi": "10.1093/infdis/jiac135", "pmid": "35639525", "pmc": "PMC9650493" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
+    "ctgov": "query.intr=favipiravir&query.cond=Influenza&countTotal=true&pageSize=1000 → 7건 반환, InterventionName 정확 대조 후 7건",
+    "pubmed": "favipiravir AND \"Influenza\" → 266건",
+    "negative": "favipiravir AND \"Influenza\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 36건",
+    "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
+  }
+}

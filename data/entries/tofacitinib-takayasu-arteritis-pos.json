@@ -1,0 +1,27 @@
+{
+  "id": "tofacitinib-takayasu-arteritis-pos",
+  "subj": "토파시티닙",
+  "claim": "토파시티닙이 다카야수동맥염의 관해를 높인다",
+  "line": "다카야수동맥염에서 완전 관해율을 높였습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "effect": "완전 관해 88.46% vs 56.52%",
+  "n": 53,
+  "synth": "single",
+  "why": "전향적 관찰 코호트는 활동성 다카야수동맥염에서 토파시티닙과 메토트렉세이트의 관해·재발·영상 결과를 비교했습니다.",
+  "saw": "PubMed 34362744 원문은 토파시티닙군 27명과 메토트렉세이트군 26명, 총 53명을 12개월 관찰했고 12개월 완전 관해율은 88.46%와 56.52%였습니다.",
+  "limit": "무작위 배정이 아닌 관찰 연구라 선택 편향과 병용 스테로이드의 영향을 배제할 수 없고 영상 진행 차이는 없었습니다.",
+  "against": "반대 검색 2건은 토파시티닙과 다른 면역억제제의 효과가 비슷하거나 연구 설계가 약하다고 보고했습니다.",
+  "use": "치료저항성 다카야수동맥염에서 관해 신호로 설명하되 무작위시험으로 확정된 효과는 아니라고 표시합니다.",
+  "refs": [
+    { "label": "Kong 2022 · Ann Rheum Dis · 토파시티닙 대 메토트렉세이트 관찰연구", "doi": "10.1136/annrheumdis-2021-220832", "pmid": "34362744" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.generic_name:\"tofacitinib\" → 20건 반환; 다카야수동맥염 적응증 문구 없음",
+    "ctgov": "query.intr=tofacitinib&query.cond=Takayasu Arteritis&countTotal=true&pageSize=1000 → 5건 반환, InterventionName 정확 대조 후 2건",
+    "pubmed": "tofacitinib AND \"Takayasu arteritis\" → 32건",
+    "negative": "tofacitinib AND \"Takayasu arteritis\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 2건",
+    "safety": "tofacitinib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1928건"
+  }
+}
