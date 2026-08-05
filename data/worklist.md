@@ -9014,36 +9014,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ipilimumab — NSCLC Stage IV에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 156건 · 논문 66편 -->
 - [x] ipilimumab — Tumor에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 116건 · 논문 5922편 -->
 - [x] osimertinib — EGFR에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 3914편 -->
-- [ ] osimertinib — Carcinoma에 듣는다  <!-- 시험 47건 · 논문 2505편 -->
-- [ ] osimertinib — NSCLC에 듣는다  <!-- 시험 37건 · 논문 3277편 -->
-- [ ] osimertinib — Solid Tumor에 듣는다  <!-- 시험 25건 · 논문 169편 -->
-- [ ] venetoclax — B-Cell에 듣는다  <!-- 시험 119건 · 논문 1552편 -->
-- [ ] venetoclax — Myelodysplastic Syndrome에 듣는다  <!-- 시험 109건 · 논문 313편 -->
-- [ ] venetoclax — Lymphoma에 듣는다  <!-- 시험 94건 · 논문 1449편 -->
-- [ ] venetoclax — AML에 듣는다  <!-- 시험 48건 · 논문 1898편 -->
-- [ ] ibrutinib — Lymphoma에 듣는다  <!-- 시험 216건 · 논문 2052편 -->
-- [ ] ibrutinib — Refractory Cancer에 듣는다  <!-- 시험 87건 · 논문 852편 -->
-- [ ] ibrutinib — Waldenstrom's Disease에 듣는다  <!-- 시험 32건 · 논문 202편 -->
-- [ ] ibrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 32건 · 논문 72편 -->
-- [ ] zanubrutinib — Leukemia에 듣는다  <!-- 시험 71건 · 논문 312편 -->
-- [ ] zanubrutinib — Relapsed Cancer에 듣는다  <!-- 시험 27건 · 논문 191편 -->
-- [ ] zanubrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 24건 · 논문 28편 -->
-- [ ] zanubrutinib — Waldenstrom Macroglobulinemia에 듣는다  <!-- 시험 19건 · 논문 107편 -->
-- [ ] acalabrutinib — Lymphoma에 듣는다  <!-- 시험 80건 · 논문 314편 -->
-- [ ] acalabrutinib — Non Hodgkin Lymphoma에 듣는다  <!-- 시험 10건 · 논문 124편 -->
-- [ ] acalabrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 10건 · 논문 12편 -->
-- [ ] lenalidomide — Myeloma에 듣는다  <!-- 시험 334건 · 논문 4550편 -->
-- [ ] lenalidomide — Leukemia에 듣는다  <!-- 시험 206건 · 논문 1095편 -->
-- [ ] lenalidomide — Myelodysplastic Syndrome에 듣는다  <!-- 시험 34건 · 논문 824편 -->
-- [ ] lenalidomide — Cancer에 듣는다  <!-- 시험 28건 · 논문 5939편 -->
-- [ ] carfilzomib — Lymphoma에 듣는다  <!-- 시험 56건 · 논문 272편 -->
-- [ ] carfilzomib — Leukemia에 듣는다  <!-- 시험 10건 · 논문 159편 -->
-- [ ] carfilzomib — Cancer에 듣는다  <!-- 시험 9건 · 논문 1589편 -->
-- [ ] ixazomib — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 111편 -->
-- [ ] ixazomib — Amyloidosis에 듣는다  <!-- 시험 12건 · 논문 35편 -->
-- [ ] sotorasib — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 55편 -->
-- [ ] sotorasib — Metastatic Solid Tumor에 듣는다  <!-- 시험 8건 · 논문 17편 -->
-- [ ] sotorasib — Metastatic NSCLC에 듣는다  <!-- 시험 7건 · 논문 86편 -->
+- [x] osimertinib — Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 47건 · 논문 2505편 -->
+- [x] osimertinib — NSCLC에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 37건 · 논문 3277편 -->
+- [x] osimertinib — Solid Tumor에 듣는다 — 근거 없음(2026-08-05 조회, "osimertinib AND Solid Tumor")  <!-- 시험 25건 · 논문 169편 -->
+- [x] venetoclax — B-Cell에 듣는다 — 근거 없음(2026-08-05 조회, "venetoclax AND B-Cell")  <!-- 시험 119건 · 논문 1552편 -->
+- [x] venetoclax — Myelodysplastic Syndrome에 듣는다  <!-- 시험 109건 · 논문 313편 -->
+- [x] venetoclax — Lymphoma에 듣는다  <!-- 시험 94건 · 논문 1449편 -->
+- [x] venetoclax — AML에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 48건 · 논문 1898편 -->
+- [x] ibrutinib — Lymphoma에 듣는다  <!-- 시험 216건 · 논문 2052편 -->
+- [x] ibrutinib — Refractory Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "ibrutinib AND Refractory Cancer")  <!-- 시험 87건 · 논문 852편 -->
+- [x] ibrutinib — Waldenstrom's Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 32건 · 논문 202편 -->
+- [x] ibrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 32건 · 논문 72편 -->
+- [x] zanubrutinib — Leukemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 71건 · 논문 312편 -->
+- [x] zanubrutinib — Relapsed Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "zanubrutinib AND Relapsed Cancer")  <!-- 시험 27건 · 논문 191편 -->
+- [x] zanubrutinib — Marginal Zone Lymphoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 24건 · 논문 28편 -->
+- [x] zanubrutinib — Waldenstrom Macroglobulinemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 107편 -->
+- [x] acalabrutinib — Lymphoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 80건 · 논문 314편 -->
+- [x] acalabrutinib — Non Hodgkin Lymphoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 124편 -->
+- [x] acalabrutinib — Marginal Zone Lymphoma에 듣는다  <!-- 시험 10건 · 논문 12편 -->
+- [x] lenalidomide — Myeloma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 334건 · 논문 4550편 -->
+- [x] lenalidomide — Leukemia에 듣는다 — 근거 없음(2026-08-05 조회, "lenalidomide AND Leukemia")  <!-- 시험 206건 · 논문 1095편 -->
+- [x] lenalidomide — Myelodysplastic Syndrome에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 34건 · 논문 824편 -->
+- [x] lenalidomide — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "lenalidomide AND Cancer")  <!-- 시험 28건 · 논문 5939편 -->
+- [x] carfilzomib — Lymphoma에 듣는다 — 근거 없음(2026-08-05 조회, "carfilzomib AND Lymphoma")  <!-- 시험 56건 · 논문 272편 -->
+- [x] carfilzomib — Leukemia에 듣는다  <!-- 시험 10건 · 논문 159편 -->
+- [x] carfilzomib — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "carfilzomib AND Cancer")  <!-- 시험 9건 · 논문 1589편 -->
+- [x] ixazomib — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 111편 -->
+- [x] ixazomib — Amyloidosis에 듣는다  <!-- 시험 12건 · 논문 35편 -->
+- [x] sotorasib — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 55편 -->
+- [x] sotorasib — Metastatic Solid Tumor에 듣는다  <!-- 시험 8건 · 논문 17편 -->
+- [x] sotorasib — Metastatic NSCLC에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 86편 -->
 - [ ] sotorasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 516편 -->
 - [ ] adagrasib — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 211편 -->
 - [ ] adagrasib — KRAS G12C에 듣는다  <!-- 시험 5건 · 논문 280편 -->

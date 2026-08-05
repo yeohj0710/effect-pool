@@ -1,0 +1,28 @@
+{
+  "id": "sotorasib-metastatic-solid-tumor-open",
+  "subj": "소토라십",
+  "claim": "소토라십은 KRAS G12C 변이를 가진 여러 전이성 고형암에서 기존 치료가 실패한 뒤 종양을 조절할 가능성이 있다",
+  "line": "1상에서 폐암·대장암과 기타 암종에 질병 조절이 보였다.",
+  "effect": "질병통제 NSCLC 88%; CRC 74%",
+  "tier": "trial",
+  "dir": "open",
+  "n": 129,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "소토라십의 허가사항은 특정 KRAS G12C 변이 NSCLC와 전이성 대장암 병용으로 제한되며 전이성 고형암 전체에는 허가되지 않았다.",
+  "why": "KRAS G12C를 선택적으로 차단해 여러 전이성 고형암에서 비정상 RAS 신호를 낮추려는 접근이다.",
+  "saw": "CodeBreaK100 1상 129명은 전이성 질환에 중앙값 3개 선행치료를 받았다. NSCLC 59명에서 ORR 32.2%, 질병통제 88.1%, 대장암 42명에서 ORR 7.1%, 질병통제 73.8%였고 다른 암종에서도 반응이 보였다.",
+  "limit": "암종별 환자 수가 작고 단일군 연구이며 전이성 고형암 전체의 생존 이득을 확인하지 않았다.",
+  "against": "전이성 고형암 전체를 대상으로 한 비교군이 없고 암종별 반응률 차이가 컸다.",
+  "use": "허가된 분자·암종 조건을 먼저 확인하고, 그 밖의 전이성 고형암은 표준치료를 대체하지 않는 임상시험에서만 검토한다.",
+  "refs": [
+    { "label": "KRAS G12C 변이 전이성 고형암 소토라십 1상", "pmid": "32955176", "nct": "NCT03600883" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sotorasib, cond=Metastatic Solid Tumor · 총 5건, 소토라십 직접 확인 4건",
+    "pubmed": "sotorasib AND Metastatic Solid Tumor · 17편",
+    "negative": "sotorasib AND Metastatic Solid Tumor AND (no effect OR did not OR failed to OR negative OR no significant difference) · 8편",
+    "safety": "sotorasib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 179편"
+  }
+}

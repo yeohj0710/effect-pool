@@ -1,0 +1,28 @@
+{
+  "id": "sotorasib-solid-tumor-open",
+  "subj": "소토라십",
+  "claim": "소토라십은 KRAS G12C 변이를 가진 진행성 고형암에서 종양 반응을 일으킬 가능성이 있다",
+  "line": "1상에서 여러 KRAS G12C 변이 고형암에 반응이 보였다.",
+  "effect": "NSCLC ORR 32.2%; CRC 7.1%",
+  "tier": "trial",
+  "dir": "open",
+  "n": 129,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "소토라십은 KRAS G12C 변이 국소진행성·전이성 NSCLC와 KRAS G12C 변이 전이성 대장암 병용에는 허가되지만 고형암 전체에는 허가되지 않았다.",
+  "why": "KRAS G12C 단백질에 비가역적으로 결합해 종양세포의 MAPK 신호를 차단하는 종양 유전자 표적 치료다.",
+  "saw": "CodeBreaK100 1상에 전이성 KRAS G12C 변이 고형암 129명이 등록됐다. NSCLC ORR은 32.2%, 질병통제율은 88.1%, 대장암 ORR은 7.1%, 질병통제율은 73.8%였고 췌장·자궁내막·충수·흑색종에서도 반응이 관찰됐다.",
+  "limit": "초기 단일군 용량시험이며 암종별 표본이 작고 대부분 여러 치료를 받은 환자였다. 3~4등급 치료 관련 이상반응은 11.6%였다.",
+  "against": "고형암 전체를 대상으로 한 무작위 비교시험이 없고 반응은 KRAS G12C 변이와 암종에 따라 크게 달랐다.",
+  "use": "분자검사로 KRAS G12C를 확인하고 허가된 NSCLC·대장암 적응증을 우선 적용하며, 다른 고형암은 임상시험에서만 고려한다.",
+  "refs": [
+    { "label": "CodeBreaK100 KRAS G12C 변이 진행성 고형암 소토라십 1상", "pmid": "32955176", "nct": "NCT03600883" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sotorasib, cond=Solid Tumor · 총 15건, 소토라십 직접 확인 12건",
+    "pubmed": "sotorasib AND Solid Tumor · 55편",
+    "negative": "sotorasib AND Solid Tumor AND (no effect OR did not OR failed to OR negative OR no significant difference) · 29편",
+    "safety": "sotorasib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 179편"
+  }
+}
