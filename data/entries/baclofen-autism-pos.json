@@ -1,0 +1,36 @@
+{
+  "id": "baclofen-autism-pos",
+  "subj": "바클로펜",
+  "claim": "근육이완제를 자폐 아동의 과잉행동에 보조로 쓴다",
+  "line": "자폐 아동의 과잉행동을 병용으로 줄였습니다",
+  "effect": "과잉행동 d −4.45",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 64,
+  "synth": "single",
+  "why": "바클로펜의 허가사항은 경직이며 자폐 스펙트럼 장애의 행동증상은 허가 적응증이 아닙니다.",
+  "saw": "중등도·중증 과민성이 있는 자폐 아동 64명을 바클로펜·리스페리돈 병용군과 위약·리스페리돈군으로 무작위 배정한 10주 시험에서 과잉행동과 여러 ABC 하위척도가 더 좋아졌습니다.",
+  "limit": "바클로펜 단독이 아니라 리스페리돈 병용시험이며 3~12세 아동만 포함했습니다. 과잉행동 외 핵심 자폐 사회성 결과는 두 군이 비슷했습니다.",
+  "against": "반대 검색 33건. 다른 GABA-B 작용제 150명 시험에서는 사회적 위축의 일차 결과가 위약과 다르지 않았습니다.",
+  "use": "자폐 아동의 과잉행동에 리스페리돈과 병용한 신호가 있지만, 자폐 핵심증상 치료로 확대할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Abdallah 2019 · Eur Child Adolesc Psychiatry · 자폐 바클로펜 보조 RCT",
+      "doi": "10.1007/s00787-019-01333-5",
+      "pmid": "30980177"
+    },
+    {
+      "label": "Erickson 2017 · Neuropsychopharmacology · 자폐 아르바클로펜 2상 RCT",
+      "doi": "10.1038/npp.2016.237",
+      "pmid": "27748740"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"BACLOFEN\" → 171건, 경직 적응증 확인",
+    "ctgov": "query.intr=baclofen&query.cond=Autism → 6건 반환, InterventionName 대조 후 baclofen 6건",
+    "pubmed": "baclofen Autism → 50건",
+    "negative": "baclofen Autism (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 33건",
+    "safety": "baclofen Autism (adverse OR toxicity OR case report OR overdose OR self-medication) → 3건"
+  }
+}

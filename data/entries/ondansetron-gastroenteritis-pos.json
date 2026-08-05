@@ -1,0 +1,36 @@
+{
+  "id": "ondansetron-gastroenteritis-pos",
+  "subj": "온단세트론",
+  "claim": "구토약을 소아 급성 위장염에 쓴다",
+  "line": "소아 위장염의 구토와 수액 필요를 줄였습니다",
+  "effect": "구토 지속 OR 0.28",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3482,
+  "synth": "meta",
+  "why": "온단세트론의 허가사항은 항암치료·방사선·수술 뒤 오심·구토 예방이며 급성 위장염은 허가 적응증이 아닙니다.",
+  "saw": "소아 급성 위장염 항구토제 무작위시험 24편, 3,482명을 합친 메타분석에서 온단세트론은 위약보다 구토 지속과 정맥 수액 필요를 줄였습니다. 구토 중단 효과의 근거 확실성은 높았습니다.",
+  "limit": "소아 급성 위장염의 구토·탈수 보조치료 결과이며 설사 기간이나 입원 기간을 일관되게 줄인 결과가 아닙니다. 연구별 편향과 비교약 차이가 있습니다.",
+  "against": "반대 검색 133건. 일부 연구에서는 설사가 더 잦았고, 구토는 줄어도 설사 기간과 입원 기간이 달라지지 않았습니다.",
+  "use": "소아 급성 위장염에서 구토와 수액 필요를 줄이는 보조효과가 있지만, 탈수 평가와 수액치료를 대신하지 않습니다.",
+  "refs": [
+    {
+      "label": "Carter 2020 · Pediatrics · 소아 급성 위장염 항구토제 메타분석",
+      "doi": "10.1542/peds.2019-3260",
+      "pmid": "32132152"
+    },
+    {
+      "label": "Freedman 2002 · Pediatrics · 급성 위장염 온단세트론 RCT",
+      "doi": "10.1542/peds.109.4.e62",
+      "pmid": "11927735"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"ONDANSETRON\" → 222건, 항암치료·방사선·수술 뒤 오심·구토 예방 적응증 확인",
+    "ctgov": "query.intr=ondansetron&query.cond=Gastroenteritis → 20건 반환, InterventionName 대조 후 ondansetron 15건",
+    "pubmed": "ondansetron Gastroenteritis → 217건",
+    "negative": "ondansetron Gastroenteritis (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 133건",
+    "safety": "ondansetron Gastroenteritis (adverse OR toxicity OR case report OR overdose OR self-medication) → 80건"
+  }
+}

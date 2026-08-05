@@ -8008,16 +8008,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] melatonin — Hip Surgery에 듣는다 — 항목 생성(melatonin-hip-surgery-null)(2026-08-05)  <!-- 시험 12건 · 논문 30편 -->
 - [x] melatonin — Brain Injury에 듣는다 — 항목 생성(melatonin-brain-injury-null)(2026-08-05)  <!-- 시험 11건 · 논문 825편 -->
 - [x] modafinil — Cancer에 듣는다 — 기존 항목(modafinil-fatigue)(2026-08-05)  <!-- 시험 13건 · 논문 127편 -->
-- [ ] modafinil — Sleepiness에 듣는다  <!-- 시험 12건 · 논문 584편 -->
-- [ ] modafinil — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 108편 -->
-- [ ] modafinil — Depression에 듣는다  <!-- 시험 8건 · 논문 350편 -->
-- [ ] baclofen — Spinal Cord Injury에 듣는다  <!-- 시험 7건 · 논문 470편 -->
-- [ ] baclofen — Autism에 듣는다  <!-- 시험 6건 · 논문 50편 -->
-- [ ] baclofen — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 382편 -->
-- [ ] baclofen — Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 64편 -->
-- [ ] ondansetron — Gastroenteritis에 듣는다  <!-- 시험 15건 · 논문 217편 -->
-- [ ] ondansetron — Pain에 듣는다  <!-- 시험 15건 · 논문 978편 -->
-- [ ] ondansetron — Hypotension에 듣는다  <!-- 시험 14건 · 논문 315편 -->
+- [x] modafinil — Sleepiness에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 584편 -->
+- [x] modafinil — Cognitive Symptom에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 9건 · 논문 108편 -->
+- [x] modafinil — Depression에 듣는다 — 항목 생성(modafinil-depression-pos)(2026-08-05)  <!-- 시험 8건 · 논문 350편 -->
+- [x] baclofen — Spinal Cord Injury에 듣는다 — 항목 생성(baclofen-spinal-cord-injury-pos)(2026-08-05)  <!-- 시험 7건 · 논문 470편 -->
+- [x] baclofen — Autism에 듣는다 — 항목 생성(baclofen-autism-pos)(2026-08-05)  <!-- 시험 6건 · 논문 50편 -->
+- [x] baclofen — Multiple Sclerosis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 382편 -->
+- [x] baclofen — Cirrhosis에 듣는다 — 항목 생성(baclofen-cirrhosis-pos)(2026-08-05)  <!-- 시험 5건 · 논문 64편 -->
+- [x] ondansetron — Gastroenteritis에 듣는다 — 항목 생성(ondansetron-gastroenteritis-pos)(2026-08-05)  <!-- 시험 15건 · 논문 217편 -->
+- [x] ondansetron — Pain에 듣는다 — 항목 생성(ondansetron-pain-pos)(2026-08-05)  <!-- 시험 15건 · 논문 978편 -->
+- [x] ondansetron — Hypotension에 듣는다 — 기존 항목(ondansetron-anesthesia-pos)(2026-08-05)  <!-- 시험 14건 · 논문 315편 -->
 - [ ] ondansetron — Tumor에 듣는다  <!-- 시험 13건 · 논문 828편 -->
 - [ ] memantine — Cancer에 듣는다  <!-- 시험 13건 · 논문 266편 -->
 - [ ] memantine — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 173편 -->

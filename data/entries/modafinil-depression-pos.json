@@ -1,0 +1,36 @@
+{
+  "id": "modafinil-depression-pos",
+  "subj": "모다피닐",
+  "claim": "각성제를 우울증 보조치료에 쓴다",
+  "line": "우울증에 보조로 더해 증상과 관해율을 개선했습니다",
+  "effect": "우울 점수 SMD −0.35·관해 OR1.61",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 910,
+  "synth": "meta",
+  "why": "모다피닐의 허가사항은 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림이며 우울증은 허가 적응증이 아닙니다.",
+  "saw": "주요우울장애 또는 양극성 우울증의 무작위시험 6편, 910명을 합친 메타분석에서 기존 치료에 모다피닐을 더하면 전체 우울 점수와 관해율이 위약보다 좋아졌고 피로 증상도 개선됐습니다. 이상반응은 위약과 다르지 않았습니다.",
+  "limit": "항우울제나 기분안정제에 모다피닐을 더한 보조치료 결과이며 우울증 단독치료가 아닙니다. 주요우울장애와 양극성 우울증이 섞였습니다.",
+  "against": "반대 검색 259건. 치료저항성 우울증 네트워크 분석에서는 모다피닐 반응 신호가 있었지만 연구 수가 적고 시험 기간과 환자 정의가 달랐습니다.",
+  "use": "우울증의 잔여 피로와 증상에 보조효과 신호가 있지만, 표준 항우울제 대신 쓰는 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "Goss 2013 · J Clin Psychiatry · 우울증 모다피닐 보조 메타분석",
+      "doi": "10.4088/JCP.13r08560",
+      "pmid": "24330897"
+    },
+    {
+      "label": "Kishi 2022 · J Affect Disord · 치료저항성 우울증 보조요법 네트워크 분석",
+      "doi": "10.1016/j.jad.2021.12.134",
+      "pmid": "34986373"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"MODAFINIL\" → 35건, 기면증·폐쇄성 수면무호흡·교대근무수면장애의 과도한 졸림 적응증 확인",
+    "ctgov": "query.intr=modafinil&query.cond=Depression → 17건 반환, InterventionName 대조 후 modafinil 16건",
+    "pubmed": "modafinil Depression → 350건",
+    "negative": "modafinil Depression (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 259건",
+    "safety": "modafinil Depression (adverse OR toxicity OR case report OR overdose OR self-medication) → 146건"
+  }
+}

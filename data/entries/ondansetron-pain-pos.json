@@ -1,0 +1,36 @@
+{
+  "id": "ondansetron-pain-pos",
+  "subj": "온단세트론",
+  "claim": "구토약을 프로포폴 주사 통증에 쓴다",
+  "line": "프로포폴 주사 통증을 줄였지만 리도카인보다 약했습니다",
+  "effect": "무통 RR 2.36 vs 위약",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2957,
+  "synth": "meta",
+  "why": "온단세트론의 허가사항은 오심·구토 예방이며 프로포폴 주사 통증 완화는 허가 적응증이 아닙니다.",
+  "saw": "프로포폴 주사 통증을 본 무작위시험 23편, 2,957명을 합친 메타분석에서 온단세트론은 위약보다 무통 비율을 높이고 중등도·중증 통증을 줄였습니다. 그러나 lidocaine보다 효과가 약했습니다.",
+  "limit": "마취 유도 중 정맥주사 통증이라는 짧은 결과이며 만성 통증이나 일반 수술 후 통증 치료가 아닙니다. 비교약에 따라 우열이 달랐습니다.",
+  "against": "반대 검색 834건. 충수절제술 80명 시험에서도 2시간 통증만 소폭 줄었고 6시간 이후에는 차이가 없었습니다.",
+  "use": "프로포폴 주사 통증을 줄이는 보조 선택지지만 lidocaine보다 우월하지 않고 일반 진통제로 볼 수 없습니다.",
+  "refs": [
+    {
+      "label": "Khan 2023 · Medicine · 프로포폴 주사 통증 온단세트론 메타분석",
+      "doi": "10.1097/MD.0000000000035021",
+      "pmid": "37746949"
+    },
+    {
+      "label": "Alizadeh 2024 · J Pain Res · 충수절제술 뒤 온단세트론 RCT",
+      "doi": "10.1155/2024/6429874",
+      "pmid": "38899063"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"ONDANSETRON\" → 222건, 오심·구토 예방 적응증 확인",
+    "ctgov": "query.intr=ondansetron&query.cond=Pain → 110건 반환, InterventionName 대조 후 ondansetron 32건",
+    "pubmed": "ondansetron Pain → 978건",
+    "negative": "ondansetron Pain (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 834건",
+    "safety": "ondansetron Pain (adverse OR toxicity OR case report OR overdose OR self-medication) → 455건"
+  }
+}
