@@ -1,0 +1,51 @@
+{
+  "id": "dapagliflozin-lung-cancer-open",
+  "subj": "다파글리플로진",
+  "claim": "폐암 환자에서 암 경과를 개선한다",
+  "line": "폐암·당뇨 관찰자료에서 병용군 생존이 좋아 보였지만 약물별 효과는 모릅니다",
+  "effect": "SGLT-2I+GLP-1RA 진행 HR 0.37",
+  "tier": "obs",
+  "dir": "open",
+  "n": 11357,
+  "synth": "single",
+  "why": "중국 전자의무기록에서 폐암과 제2형 당뇨 환자의 당뇨약 병용 결과를 관찰한 연구라 obs로 분류했습니다. 다파글리플로진 단독 효과를 분리하지 않았습니다.",
+  "saw": "2020년 1월부터 2023년 7월까지 새로 진단된 폐암·제2형 당뇨 환자 11,357명을 8개 당뇨약 단독·병용군으로 나눠 관찰했습니다. SGLT-2 억제제+GLP-1 수용체 작용제군은 진행 HR 0.37(95% CI 0.18–0.78), 사망 HR 0.34(0.14–0.82), 중앙 무진행 생존 1.55년, 전체 생존 1.62년이었습니다.",
+  "limit": "후향적 자료라 교란과 선택 편향이 남습니다. SGLT-2 억제제와 GLP-1 수용체 작용제를 묶었고 다파글리플로진 단독 효과나 폐암 치료 효과를 측정하지 않았습니다.",
+  "against": "다파글리플로진 세포 연구에서는 폐암 세포 억제가 임상적으로 가능한 농도에서 나타나지 않았습니다. 6명 증례에서도 폐암 표지자가 병용 중 호전되지 않았습니다.",
+  "use": "폐암 치료 효과로 해석하지 말고, 다파글리플로진 단독 효과를 검증할 무작위 연구를 기다립니다.",
+  "refs": [
+    {
+      "label": "Chen 2025 · Front Oncol · 후향적 코호트",
+      "doi": "10.3389/fonc.2025.1498927",
+      "pmid": "40040724",
+      "pmc": "PMC11876025"
+    },
+    {
+      "label": "Okada 2020 · Molecules · 세포·6명 증례",
+      "doi": "10.3390/molecules25030495",
+      "pmid": "31979355",
+      "pmc": "PMC7038111"
+    },
+    {
+      "label": "Villani 2016 · Mol Metab · 다파글리플로진 음성 전임상",
+      "doi": "10.1016/j.molmet.2016.08.014",
+      "pmid": "27689018",
+      "pmc": "PMC5034684"
+    },
+    {
+      "label": "NCT07235280 · 폐선암 초기 1상 · 결과 없음",
+      "nct": "NCT07235280"
+    },
+    {
+      "label": "NCT07272057 · SGLT-2 억제제 관찰 시험 · 결과 없음",
+      "nct": "NCT07272057"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=dapagliflozin&query.cond=Lung Cancer → 2건 반환, InterventionName 대조 후 다파글리플로진 1건; PubMed에서 NCT07235280·NCT07272057 각각 0건",
+    "pubmed": "dapagliflozin lung cancer → 18건; lung cancer SGLT-2I → 5건; 40040724 → 1건",
+    "negative": "dapagliflozin lung cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 15건; dapagliflozin lung cancer AND randomized → 2건",
+    "safety": "dapagliflozin lung cancer AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 6건"
+  }
+}
