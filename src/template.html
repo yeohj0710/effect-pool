@@ -98,7 +98,7 @@
   /* ───────── 눈금 ───────── */
   .meter{ display:flex; gap:2px; flex:none; }
   .meter i{
-    display:block; width:7px; height:15px; border-radius:1.5px;
+    display:block; width:4px; height:14px; border-radius:1px;
     background:var(--line-2);
   }
   .meter i.on{ background:var(--accent); }
@@ -188,23 +188,47 @@
   .g-head h2{ font-size:1rem; font-weight:650; letter-spacing:-.015em; margin:0; }
   .g-head .gloss{ font-size:12.5px; color:var(--ink-3); margin-left:auto; text-align:right; }
 
+  /* 473줄을 훑으려면 열이 세로로 맞아야 한다. 물질 · 결과 · 규모 · 판정 순서로 고정한다. */
   .row{
-    display:flex; align-items:center; gap:1rem;
+    display:grid; align-items:center;
+    grid-template-columns:auto 9.5rem 1fr auto 4.5rem;
+    gap:0 1rem;
     width:100%; text-align:left; margin:0;
-    padding:.95rem 1.75rem; background:none; border:none;
+    padding:.72rem 1.5rem .72rem 1.1rem; background:none; border:none;
     border-top:1px solid var(--line);
     font:inherit; color:inherit; cursor:pointer;
   }
   .row:hover{ background:var(--accent-soft); }
   .row:focus-visible{ outline:2px solid var(--accent); outline-offset:-2px; }
 
-  .row .txt{ flex:1 1 auto; min-width:0; line-height:1.5; font-size:14.5px; }
-  .row .subj{ font-weight:650; }
-  .row .rest{ color:var(--ink-2); }
-  .row .tag{
-    flex:none; font-size:12px; color:var(--ink-3); white-space:nowrap;
+  .row .subj{
+    font-weight:650; font-size:14px; letter-spacing:-.01em;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
   }
-  .row .tag.harm{ color:var(--clay); }
+  /* 한 줄로 자른다. 전문은 펼치면 나온다. 행 높이가 같아야 훑을 수 있다. */
+  .row .txt{
+    min-width:0; font-size:14px; color:var(--ink-2); line-height:1.45;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  /* 무엇이 얼마나 달라졌나. 이 목록에서 제일 궁금한 값이다. */
+  .row .eff{
+    font-family:var(--n); font-weight:600; color:var(--ink);
+    font-variant-numeric:tabular-nums; margin-right:.5rem;
+  }
+  .row .eff.harm{ color:var(--clay); }
+  .row .tag{
+    font-size:11.5px; color:var(--ink-3); white-space:nowrap; text-align:right;
+  }
+  .row .tag.harm{ color:var(--clay); font-weight:600; }
+  .row .tag.pos{ color:var(--accent); }
+
+  @media (max-width:52rem){
+    .row{ grid-template-columns:auto 1fr auto; gap:.15rem .8rem; padding:.7rem 1.1rem; }
+    .row .subj{ grid-column:2; }
+    .row .txt{ grid-column:2/4; grid-row:2; white-space:normal; }
+    .row .size{ grid-column:3; grid-row:1; }
+    .row .tag{ grid-column:3; grid-row:2; }
+  }
 
   /* 규모 — 36명 단일 시험과 6만 명 메타분석은 눈금이 같아도 무게가 다르다 */
   .size{
@@ -275,6 +299,7 @@
   .s-body p{ margin:0; font-size:14px; line-height:1.68; color:var(--ink-2); }
   .s-body p.lead{ color:var(--ink); }
   .s-body p.warn{ color:var(--clay); }
+  .s-body p.loading{ color:var(--ink-3); padding:1.5rem 0; }
 
   .refs{ list-style:none; margin:.2rem 0 0; padding:0; display:flex; flex-direction:column; gap:.55rem; }
   .refs li{
@@ -402,7 +427,8 @@
     <input class="search" id="q" type="search" placeholder="물질 이름이나 내용으로 찾기" aria-label="목록에서 찾기">
     <div class="chips" id="chips" role="group" aria-label="결과로 거르기"></div>
     <div class="views" id="views" role="group" aria-label="묶는 기준">
-      <button class="view" type="button" data-v="tier" aria-pressed="true">확인 수준</button>
+      <button class="view" type="button" data-v="top" aria-pressed="true">눈여겨볼 것</button>
+      <button class="view" type="button" data-v="tier" aria-pressed="false">확인 수준</button>
       <button class="view" type="button" data-v="subj" aria-pressed="false">물질</button>
     </div>
     <span class="hits" id="hits" aria-live="polite"></span>
@@ -481,11 +507,12 @@ function meter(tier, dir){
 // 몇 명한테서 나온 결과인지. 눈금이 같아도 무게는 다르다.
 function sizeTag(e){
   if (e.n == null) return '';
+  const thin = e.synth === 'single' && e.n < 50;
   const n = e.n.toLocaleString('ko-KR');
   const kind = e.synth === 'meta' ? '종합' : '단일';
-  return '<span class="size' + (e.thin ? ' thin' : '') + '" title="'
+  return '<span class="size' + (thin ? ' thin' : '') + '" title="'
     + (e.synth === 'meta' ? '여러 연구를 합친 결과' : '단일 연구')
-    + (e.thin ? ' · 사람 수가 적어 근거가 얇습니다' : '') + '">'
+    + (thin ? ' · 사람 수가 적어 근거가 얇습니다' : '') + '">'
     + kind + ' <b>' + n + '</b>명</span>';
 }
 
@@ -508,7 +535,7 @@ document.getElementById('key-dir').innerHTML = Object.entries(DIR).map(([k, v]) 
   '<li>' + meter('trial', k) + '<b>' + v.t + '</b></li>').join('');
 
 /* ── 거르개 ── */
-let filter = 'all', query = '', view = 'tier';
+let filter = 'all', query = '', view = 'top';
 const chipDefs = [['all', '전체']].concat(Object.entries(DIR).map(([k, v]) => [k, v.t]));
 const chipsEl = document.getElementById('chips');
 chipsEl.innerHTML = chipDefs.map(([k, label]) => {
@@ -524,7 +551,7 @@ function syncUrl(replace){
   const p = new URLSearchParams();
   if (filter !== 'all') p.set('d', filter);
   if (query) p.set('q', query);
-  if (view !== 'tier') p.set('v', view);
+  if (view !== 'top') p.set('v', view);
   const url = location.pathname + (p.toString() ? '?' + p : '') + location.hash;
   history[replace ? 'replaceState' : 'pushState'](null, '', url);
 }
@@ -573,7 +600,7 @@ function paint(){
   const q = query.toLowerCase();
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
-    (!q || (e.subj + e.line + e.claim + e.saw).toLowerCase().includes(q)));
+    (!q || (e.subj + e.line + e.claim + (e.effect || '')).toLowerCase().includes(q)));
 
   hitsEl.textContent = (query || filter !== 'all')
     ? hits.length + '건' : '';
@@ -585,7 +612,18 @@ function paint(){
 
   groupsEl.innerHTML = '';
   groupsEl.dataset.view = view;
-  (view === 'subj' ? bySubject(hits) : byTier(hits)).forEach(drawGroup);
+  const draw = view === 'subj' ? bySubject(hits)
+             : view === 'tier' ? byTier(hits)
+             : byScore(hits);
+  draw.forEach(drawGroup);
+}
+
+/* 눈여겨볼 것부터 — 473줄을 위에서부터 읽는 사람은 없다.
+   빌드가 매긴 점수(해로운 쪽 · 효과 크기 · 근거 무게) 순으로 이미 정렬돼 있다. */
+function byScore(hits){
+  return [{ items: hits, head:
+    '<h2>눈여겨볼 것부터</h2>'
+    + '<span class="gloss">해로운 쪽 · 효과가 큰 것 · 근거가 두꺼운 것 순서</span>' }];
 }
 
 /* 확인 수준으로 묶기 — 무엇이 얼마나 확인됐는지 훑을 때 */
@@ -635,14 +673,16 @@ function drawGroup(g){
     btn.className = 'row';
     btn.type = 'button';
     btn.dataset.id = item.id;
-    // 물질로 묶으면 머리말이 이미 물질명이다. 줄에서 빼면 그만큼 짧아진다.
-    const txt = g.hideSubj
-      ? '<span class="rest">' + esc(item.line) + '</span>'
-      : '<span class="subj">' + esc(item.subj) + '</span> — <span class="rest">' + esc(item.line) + '</span>';
+    // 효과 크기가 있으면 앞에 세운다. 없으면 문장이 그 자리를 채운다.
+    const eff = item.effect
+      ? '<span class="eff' + (item.dir === 'harm' ? ' harm' : '') + '">' + esc(item.effect) + '</span>'
+      : '';
     btn.innerHTML =
-      meter(item.tier, item.dir) + '<span class="txt">' + txt + '</span>' +
+      meter(item.tier, item.dir) +
+      '<span class="subj">' + esc(g.hideSubj ? '' : item.subj) + '</span>' +
+      '<span class="txt">' + eff + esc(item.line) + '</span>' +
       sizeTag(item) +
-      '<span class="tag' + (item.dir === 'harm' ? ' harm' : '') + '">' + d.t + '</span>';
+      '<span class="tag ' + item.dir + '">' + d.t + '</span>';
     btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
     btn.addEventListener('click', () => open(item, tier, btn));
     return btn;
@@ -673,6 +713,19 @@ function drawGroup(g){
 const scrim = document.getElementById('scrim'), xBtn = document.getElementById('x');
 let lastFocus = null, openId = null;
 
+/* 펼쳤을 때 쓰는 긴 글은 처음에 안 받는다. 첫 번째로 펼칠 때 한 번만 가져오고 그다음은 캐시. */
+let details = null, detailsPromise = null;
+function loadDetails(){
+  if (details) return Promise.resolve(details);
+  if (!detailsPromise) detailsPromise = fetch('/details.json')
+    .then((r) => r.json()).then((j) => (details = j))
+    .catch(() => (details = {}));
+  return detailsPromise;
+}
+// 목록에 손이 닿으면 미리 받아둔다. 실제로 펼칠 때는 이미 와 있다.
+['pointerover', 'focusin', 'touchstart'].forEach((ev) =>
+  document.getElementById('groups').addEventListener(ev, loadDetails, { once: true, passive: true }));
+
 function open(item, tier, trigger){
   lastFocus = trigger;
   openId = item.id;
@@ -683,36 +736,47 @@ function open(item, tier, trigger){
   document.getElementById('s-title').textContent = item.subj + ' — ' + item.line;
   document.getElementById('s-claim').textContent = '도는 주장 — ' + item.claim;
 
-  const refs = (item.refs || []).map(r => {
-    const links = Object.keys(REF).filter(k => r[k])
-      .map(k => '<a href="' + REF[k].u(r[k]) + '" target="_blank" rel="noopener noreferrer">' +
-                REF[k].t + ' ↗</a>').join('');
-    return '<li><span class="lb">' + esc(r.label) + '</span>' + links + '</li>';
-  }).join('');
-
-  const log = Object.entries(item.queried || {})
-    .map(([k, v]) => '<li><b>' + (LOGK[k] || k) + '</b> · ' + esc(v) + '</li>').join('');
-
-  const noAgainst = /찾아봤지만 없었/.test(item.against);
+  const thin = item.synth === 'single' && Number.isInteger(item.n) && item.n < 50;
   const weight = item.n == null
-    ? '문장에 사람 수가 없습니다. 규모를 확인하려면 원문을 보세요.'
+    ? '사람 수를 확인하지 못했습니다. 규모는 원문을 보세요.'
     : (item.synth === 'meta' ? '여러 연구를 합친 결과' : '단일 연구')
       + ', 사람 ' + item.n.toLocaleString('ko-KR') + '명'
-      + (item.thin ? '. 사람 수가 적어 이것만으로 판단하기에는 얇습니다.' : '.');
+      + (thin ? '. 사람 수가 적어 이것만으로 판단하기에는 얇습니다.' : '.');
 
-  document.getElementById('s-body').innerHTML =
-    '<h4>근거 무게</h4><p' + (item.thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
-    '<h4>왜 이 칸인가</h4><p class="lead">' + esc(item.why) + '</p>' +
-    '<h4>무슨 연구인가</h4><p>' + esc(item.saw) + '</p>' +
-    '<h4>조심할 점</h4><p>' + esc(item.limit) + '</p>' +
-    '<h4>반대쪽 결과</h4><p' + (noAgainst ? '' : ' class="warn"') + '>' + esc(item.against) + '</p>' +
-    '<h4>그래서</h4><p class="lead">' + esc(item.use) + '</p>' +
-    '<h4>근거 자료</h4><ul class="refs">' + refs + '</ul>' +
-    '<h4>조회 기록</h4><ul class="log">' + log + '</ul>';
+  const body = document.getElementById('s-body');
+  body.innerHTML =
+    '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
+    '<p class="loading">근거를 불러오는 중…</p>';
 
   scrim.dataset.open = 'true';
   document.body.style.overflow = 'hidden';
   xBtn.focus();
+
+  loadDetails().then((all) => {
+    if (openId !== item.id) return;              // 그새 다른 걸 열었으면 버린다
+    const x = all[item.id];
+    if (!x) { body.querySelector('.loading').textContent = '근거를 불러오지 못했습니다.'; return; }
+
+    const refs = (x.refs || []).map((r) => {
+      const links = Object.keys(REF).filter((k) => r[k])
+        .map((k) => '<a href="' + REF[k].u(r[k]) + '" target="_blank" rel="noopener noreferrer">' +
+                    REF[k].t + ' ↗</a>').join('');
+      return '<li><span class="lb">' + esc(r.label) + '</span>' + links + '</li>';
+    }).join('');
+    const log = Object.entries(x.queried || {})
+      .map(([k, v]) => '<li><b>' + (LOGK[k] || k) + '</b> · ' + esc(v) + '</li>').join('');
+    const noAgainst = /찾아봤지만 없었/.test(x.against || '');
+
+    body.innerHTML =
+      '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
+      '<h4>왜 이 칸인가</h4><p class="lead">' + esc(x.why) + '</p>' +
+      '<h4>무슨 연구인가</h4><p>' + esc(x.saw) + '</p>' +
+      '<h4>조심할 점</h4><p>' + esc(x.limit) + '</p>' +
+      '<h4>반대쪽 결과</h4><p' + (noAgainst ? '' : ' class="warn"') + '>' + esc(x.against) + '</p>' +
+      '<h4>그래서</h4><p class="lead">' + esc(x.use) + '</p>' +
+      '<h4>근거 자료</h4><ul class="refs">' + refs + '</ul>' +
+      '<h4>조회 기록</h4><ul class="log">' + log + '</ul>';
+  });
 }
 
 function close(){
@@ -752,7 +816,7 @@ function applyUrl(scroll){
   // DIR 에 "null"(효과 없음) 키가 있고 get() 도 없으면 null 을 준다. 문자열로 받아서 갈라야 한다.
   const d = p.get('d') ?? '', q = p.get('q') ?? '';
   setChip(Object.prototype.hasOwnProperty.call(DIR, d) ? d : 'all');
-  setView(p.get('v') === 'subj' ? 'subj' : 'tier');
+  setView(['subj','tier'].includes(p.get('v')) ? p.get('v') : 'top');
   query = q; qEl.value = q;
   paint();
   const id = decodeURIComponent(location.hash.slice(1));

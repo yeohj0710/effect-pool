@@ -128,9 +128,18 @@ entries.forEach((e, i) => {
     warnings.push(`${at} — 규모 숫자가 태그와 겹칩니다. 문장에서는 빼세요`);
   }
 
-  // 한 줄이 두 줄로 넘어가면 훑기가 안 된다
+  // 목록에서 제일 궁금한 건 "얼마나" 다. 효과 크기가 없으면 읽어도 남는 게 없다.
+  const NUM = /\d+(\.\d+)?\s*(%|배|점|일|주|개월|년|mm|mg|시간|분|포인트|명)|\d\s*→|→\s*\d/;
+  if (!e.effect && ["pos", "harm"].includes(e.dir) && !NUM.test(e.line)) {
+    warnings.push(`${at} — 무엇이 얼마나 달라졌는지가 없습니다. effect 를 채우세요`);
+  }
+  if (e.effect && [...e.effect].length > 26) {
+    warnings.push(`${at} — effect 가 ${[...e.effect].length}자입니다. 26자 안쪽 한 조각으로`);
+  }
+
+  // 뜻이 사라질 만큼 줄이지는 마라. 효과 숫자를 넣느라 길어지는 건 괜찮다.
   const shown = [...`${e.subj} — ${e.line}`].length;
-  if (shown > 50) warnings.push(`${at} — 한 줄이 ${shown}자입니다. 50자 안쪽으로 줄이세요`);
+  if (shown > 64) warnings.push(`${at} — 한 줄이 ${shown}자입니다. 64자 안쪽으로`);
 
   // 번역투·수동형 걸러내기
   const BAD = ["확인됐", "보고됐", "나타났습니다", "현재 존재하는", "시사합니다", "시사했",
@@ -178,21 +187,42 @@ if (errors.length) {
 
 /* ---- 출력 ---- */
 
-// 사람에게 가까운 칸부터. 같은 칸 안에서는 근거가 무거운 것부터
-// (여러 연구를 합친 것 > 사람 수가 많은 것). 규모 미상은 뒤로 보낸다.
-const heavy = (e) => (e.synth === "meta" ? 1 : 0);
-entries.sort((a, b) =>
-  (STEP[b.tier] - STEP[a.tier])
-  || (heavy(b) - heavy(a))
-  || ((b.n ?? -1) - (a.n ?? -1))
-  || a.id.localeCompare(b.id));
+// 눈여겨볼 것부터 위로. 473줄을 위에서부터 읽는 사람은 없다.
+//   해로운 쪽   사람이 다칠 수 있는 얘기가 먼저다
+//   효과 크기   "얼마나" 가 적혀 있으면 읽을 값어치가 있다
+//   근거 무게   여러 연구를 합쳤나, 사람이 몇 명이나
+const NUMRE = /\d+(\.\d+)?\s*(%|배|점|일|주|개월|년|mm|mg|시간|분|포인트)|\d\s*→|→\s*\d/;
+function interest(e) {
+  let s = 0;
+  if (e.dir === "harm") s += 40;
+  else if (e.dir === "pos") s += 20;
+  else if (e.dir === "null") s += 12;        // 통념이 깨지는 것도 읽을 값어치가 있다
+  if (e.effect) s += 25;
+  else if (NUMRE.test(e.line)) s += 15;
+  if (e.synth === "meta") s += 10;
+  s += Math.min(12, Math.log10(Math.max(e.n ?? 1, 1)) * 3);
+  if (STEP[e.tier] >= 4) s += 6;             // 사람에게서 나온 것
+  return Math.round(s * 10) / 10;
+}
+entries.forEach((e) => { e.score = interest(e); });
+entries.sort((a, b) => (b.score - a.score) || ((b.n ?? -1) - (a.n ?? -1)) || a.id.localeCompare(b.id));
 
 const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
-const data = { updated, tiers: meta.tiers, entries };
+
+// 목록에 필요한 것만 HTML 에 넣는다. 펼쳤을 때 쓰는 긴 글은 따로 뺀다.
+// 473건이면 상세까지 인라인할 때 950KB 인데, 그중 대부분은 아무도 안 펼치는 글이다.
+const LIST = ["id", "subj", "claim", "line", "effect", "tier", "dir", "n", "synth", "score"];
+const DETAIL = ["why", "saw", "limit", "against", "use", "refs", "queried"];
+
+const list = entries.map((e) => Object.fromEntries(LIST.filter((k) => e[k] != null).map((k) => [k, e[k]])));
+const details = Object.fromEntries(entries.map((e) =>
+  [e.id, Object.fromEntries(DETAIL.map((k) => [k, e[k]]))]));
 
 const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "index.html"), tpl.replace("__ENTRIES__", JSON.stringify(data)), "utf8");
+writeFileSync(join(outDir, "index.html"),
+  tpl.replace("__ENTRIES__", JSON.stringify({ updated, tiers: meta.tiers, entries: list })), "utf8");
+writeFileSync(join(outDir, "details.json"), JSON.stringify(details), "utf8");
 
 // 로고·파비콘 같은 정적 파일을 그대로 옮긴다
 const assetDir = join(root, "src", "assets");
