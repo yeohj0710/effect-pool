@@ -6952,16 +6952,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 --> — 이미 수록됨(2026-08-05)
 - [x] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 --> — 허가 적응증(2026-08-05)
 - [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 --> — 허가 적응증(2026-08-05)
-- [ ] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 -->
-- [ ] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 -->
-- [ ] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 -->
-- [ ] hydroxychloroquine — Covid19에 듣는다  <!-- 시험 33건 · 논문 4003편 -->
-- [ ] valacyclovir — HIV에 듣는다  <!-- 시험 24건 · 논문 182편 -->
-- [ ] valacyclovir — Cancer에 듣는다  <!-- 시험 16건 · 논문 189편 -->
-- [ ] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 -->
-- [ ] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 -->
-- [ ] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 -->
-- [ ] minoxidil — Baldness에 듣는다  <!-- 시험 6건 · 논문 1822편 -->
+- [x] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 --> — 이미 수록됨(2026-08-05)
+- [x] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 --> — 이미 수록됨(2026-08-05)
+- [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 --> — 이미 수록됨(2026-08-05)
+- [x] hydroxychloroquine — Covid19에 듣는다  <!-- 시험 33건 · 논문 4003편 --> — 이미 수록됨(2026-08-05)
+- [x] valacyclovir — HIV에 듣는다  <!-- 시험 24건 · 논문 182편 --> — 이미 수록됨(2026-08-05)
+- [x] valacyclovir — Cancer에 듣는다  <!-- 시험 16건 · 논문 189편 --> — 이미 수록됨(2026-08-05)
+- [x] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 --> — 이미 수록됨(2026-08-05)
+- [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
+- [x] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
+- [x] minoxidil — Baldness에 듣는다  <!-- 시험 6건 · 논문 1822편 --> — 이미 수록됨(2026-08-05)
 - [ ] bupropion — Major Depression에 듣는다  <!-- 시험 63건 · 논문 845편 -->
 - [ ] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 -->
 - [ ] bupropion — Depression에 듣는다  <!-- 시험 41건 · 논문 1983편 -->
