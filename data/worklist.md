@@ -8944,36 +8944,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lisdexamfetamine — Obesity에 듣는다 — 근거 없음(2026-08-05 조회, "lisdexamfetamine AND Obesity")  <!-- 시험 6건 · 논문 53편 -->
 - [x] dextroamphetamine — Opioid-Related Disorders에 듣는다 — 근거 없음(2026-08-05 조회, "dextroamphetamine AND Opioid-Related Disorders")  <!-- 시험 8건 · 논문 59편 -->
 - [x] dextroamphetamine — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "dextroamphetamine AND Schizophrenia")  <!-- 시험 3건 · 논문 277편 -->
-- [ ] armodafinil — Fatigue에 듣는다  <!-- 시험 10건 · 논문 399편 -->
-- [ ] armodafinil — Sleepiness에 듣는다  <!-- 시험 8건 · 논문 586편 -->
-- [ ] armodafinil — Narcolepsy에 듣는다  <!-- 시험 6건 · 논문 574편 -->
-- [ ] armodafinil — Depression에 듣는다  <!-- 시험 5건 · 논문 355편 -->
-- [ ] tretinoin — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 454편 -->
-- [ ] tretinoin — Acne에 듣는다  <!-- 시험 39건 · 논문 1098편 -->
-- [ ] tretinoin — Neuroblastoma에 듣는다  <!-- 시험 38건 · 논문 1090편 -->
-- [ ] tretinoin — Lung Cancer에 듣는다  <!-- 시험 28건 · 논문 393편 -->
-- [ ] calcitriol — Kidney Failure에 듣는다  <!-- 시험 20건 · 논문 1755편 -->
-- [ ] calcitriol — Psoriasis에 듣는다  <!-- 시험 11건 · 논문 1193편 -->
-- [ ] calcitriol — Hyperparathyroidism에 듣는다  <!-- 시험 9건 · 논문 2286편 -->
-- [ ] calcitriol — Vitamin D Deficiency에 듣는다  <!-- 시험 7건 · 논문 3646편 -->
-- [ ] tapentadol — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 99편 -->
-- [ ] tapentadol — Peripheral Neuropathy에 듣는다  <!-- 시험 5건 · 논문 110편 -->
-- [ ] oxycodone — Opioid Use에 듣는다  <!-- 시험 65건 · 논문 5571편 -->
-- [ ] oxycodone — Cancer에 듣는다  <!-- 시험 24건 · 논문 1062편 -->
-- [ ] oxycodone — Osteoarthritis에 듣는다  <!-- 시험 22건 · 논문 159편 -->
-- [ ] oxycodone — Analgesia에 듣는다  <!-- 시험 13건 · 논문 1266편 -->
-- [ ] hydromorphone — Opioid에 듣는다  <!-- 시험 33건 · 논문 2589편 -->
-- [ ] hydromorphone — Analgesia에 듣는다  <!-- 시험 14건 · 논문 815편 -->
-- [ ] hydromorphone — Cancer에 듣는다  <!-- 시험 11건 · 논문 504편 -->
-- [ ] hydromorphone — Renal Neoplasm에 듣는다  <!-- 시험 9건 · 논문 12편 -->
-- [ ] phenobarbital — Epilepsy에 듣는다  <!-- 시험 7건 · 논문 4264편 -->
-- [ ] phenobarbital — Alcohol Withdrawal에 듣는다  <!-- 시험 6건 · 논문 283편 -->
-- [ ] phenobarbital — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 146편 -->
-- [ ] phenobarbital — Agitated Delirium에 듣는다  <!-- 시험 4건 · 논문 25편 -->
-- [ ] zonisamide — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 17편 -->
-- [ ] zonisamide — Partial Seizures에 듣는다  <!-- 시험 12건 · 논문 592편 -->
-- [ ] zonisamide — Migraine에 듣는다  <!-- 시험 5건 · 논문 58편 -->
-- [ ] zonisamide — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [x] armodafinil — Fatigue에 듣는다  <!-- 시험 10건 · 논문 399편 -->
+- [x] armodafinil — Sleepiness에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 586편 -->
+- [x] armodafinil — Narcolepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 574편 -->
+- [x] armodafinil — Depression에 듣는다  <!-- 시험 5건 · 논문 355편 -->
+- [x] tretinoin — Lymphoma에 듣는다 — 근거 없음(2026-08-05 조회, "tretinoin AND Lymphoma")  <!-- 시험 57건 · 논문 454편 -->
+- [x] tretinoin — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 39건 · 논문 1098편 -->
+- [x] tretinoin — Neuroblastoma에 듣는다 — 근거 없음(2026-08-05 조회, "tretinoin AND Neuroblastoma")  <!-- 시험 38건 · 논문 1090편 -->
+- [x] tretinoin — Lung Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "tretinoin AND Lung Cancer")  <!-- 시험 28건 · 논문 393편 -->
+- [x] calcitriol — Kidney Failure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 20건 · 논문 1755편 -->
+- [x] calcitriol — Psoriasis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 1193편 -->
+- [x] calcitriol — Hyperparathyroidism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 9건 · 논문 2286편 -->
+- [x] calcitriol — Vitamin D Deficiency에 듣는다 — 근거 없음(2026-08-05 조회, "calcitriol AND Vitamin D Deficiency")  <!-- 시험 7건 · 논문 3646편 -->
+- [x] tapentadol — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 99편 -->
+- [x] tapentadol — Peripheral Neuropathy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 110편 -->
+- [x] oxycodone — Opioid Use에 듣는다 — 근거 없음(2026-08-05 조회, "oxycodone AND Opioid Use")  <!-- 시험 65건 · 논문 5571편 -->
+- [x] oxycodone — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "oxycodone AND Cancer")  <!-- 시험 24건 · 논문 1062편 -->
+- [x] oxycodone — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 159편 -->
+- [x] oxycodone — Analgesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 1266편 -->
+- [x] hydromorphone — Opioid에 듣는다 — 근거 없음(2026-08-05 조회, "hydromorphone AND Opioid")  <!-- 시험 33건 · 논문 2589편 -->
+- [x] hydromorphone — Analgesia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 815편 -->
+- [x] hydromorphone — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "hydromorphone AND Cancer")  <!-- 시험 11건 · 논문 504편 -->
+- [x] hydromorphone — Renal Neoplasm에 듣는다 — 근거 없음(2026-08-05 조회, "hydromorphone AND Renal Neoplasm")  <!-- 시험 9건 · 논문 12편 -->
+- [x] phenobarbital — Epilepsy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 7건 · 논문 4264편 -->
+- [x] phenobarbital — Alcohol Withdrawal에 듣는다  <!-- 시험 6건 · 논문 283편 -->
+- [x] phenobarbital — Brain Hypoxia에 듣는다 — 근거 없음(2026-08-05 조회, "phenobarbital AND Brain Hypoxia")  <!-- 시험 5건 · 논문 146편 -->
+- [x] phenobarbital — Agitated Delirium에 듣는다 — 근거 없음(2026-08-05 조회, "phenobarbital AND Agitated Delirium")  <!-- 시험 4건 · 논문 25편 -->
+- [x] zonisamide — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 17편 -->
+- [x] zonisamide — Partial Seizures에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 592편 -->
+- [x] zonisamide — Migraine에 듣는다  <!-- 시험 5건 · 논문 58편 -->
+- [x] zonisamide — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 16편 -->
 - [ ] lacosamide — Partial Epilepsies에 듣는다  <!-- 시험 14건 · 논문 211편 -->
 - [ ] lacosamide — Neuropathy에 듣는다  <!-- 시험 9건 · 논문 44편 -->
 - [ ] lacosamide — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 54편 -->
