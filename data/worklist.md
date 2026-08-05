@@ -8038,16 +8038,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rapamycin — Leukemia에 듣는다  <!-- 시험 5건 · 논문 1338편 --> — 기존 항목(sirolimus-leukemia)(2026-08-05)
 - [x] rapamycin — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 346편 -->
 - [x] montelukast — Cough에 듣는다  <!-- 시험 6건 · 논문 146편 -->
-- [ ] montelukast — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 15편 -->
-- [ ] montelukast — Eosinophilic Esophagitis에 듣는다  <!-- 시험 5건 · 논문 33편 -->
-- [ ] montelukast — Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 68편 -->
-- [ ] atorvastatin — Cardiovascular에 듣는다  <!-- 시험 27건 · 논문 4741편 -->
-- [ ] atorvastatin — Hypertension에 듣는다  <!-- 시험 25건 · 논문 971편 -->
-- [ ] atorvastatin — Myocardial Edema에 듣는다  <!-- 시험 24건 · 논문 9편 -->
-- [ ] atorvastatin — Atherosclerosis에 듣는다  <!-- 시험 21건 · 논문 1757편 -->
-- [ ] losartan — Kidney Disease에 듣는다  <!-- 시험 14건 · 논문 1707편 -->
-- [ ] losartan — Proteinuria에 듣는다  <!-- 시험 12건 · 논문 759편 -->
-- [ ] losartan — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 923편 -->
+- [x] montelukast — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 15편 -->
+- [x] montelukast — Eosinophilic Esophagitis에 듣는다  <!-- 시험 5건 · 논문 33편 -->
+- [x] montelukast — Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 68편 -->
+- [x] atorvastatin — Cardiovascular에 듣는다  <!-- 시험 27건 · 논문 4741편 --> — 허가 적응증(2026-08-05)
+- [x] atorvastatin — Hypertension에 듣는다  <!-- 시험 25건 · 논문 971편 -->
+- [x] atorvastatin — Myocardial Edema에 듣는다  <!-- 시험 24건 · 논문 9편 --> — 결과 대기(2026-08-05)
+- [x] atorvastatin — Atherosclerosis에 듣는다  <!-- 시험 21건 · 논문 1757편 -->
+- [x] losartan — Kidney Disease에 듣는다  <!-- 시험 14건 · 논문 1707편 --> — 허가 적응증(2026-08-05)
+- [x] losartan — Proteinuria에 듣는다  <!-- 시험 12건 · 논문 759편 -->
+- [x] losartan — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 923편 -->
 - [ ] verapamil — Migraine에 듣는다  <!-- 시험 4건 · 논문 221편 -->
 - [ ] verapamil — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 1410편 -->
 - [ ] verapamil — Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 770편 -->

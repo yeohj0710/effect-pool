@@ -1,0 +1,35 @@
+{
+  "id": "losartan-heart-failure-null",
+  "subj": "로사르탄",
+  "claim": "혈압약을 증상성 심부전 생존 개선에 쓴다",
+  "line": "심부전에서 로사르탄은 캅토프릴보다 사망률을 낮추지 못했습니다",
+  "effect": "사망률 11.7% vs 10.4%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3152,
+  "synth": "single",
+  "why": "증상성 심부전에서 로사르탄과 캅토프릴의 사망률을 비교한 대규모 무작위 이중눈가림 ELITE II 시험입니다.",
+  "saw": "뉴욕심장협회 II~IV급 심부전 환자 3,152명이 무작위 배정됐습니다. 연간 전체 사망률은 로사르탄 11.7%, 캅토프릴 10.4%였고 차이는 유의하지 않았습니다(HR 1.13, P=0.16). 이상반응으로 중단한 환자는 로사르탄에서 적었습니다.",
+  "limit": "ACE억제제와 비교한 시험이라 위약 대비 절대효과를 보여주지 않습니다. 사망률은 심부전 전체가 아니라 해당 환자군과 추적기간에서 측정했습니다.",
+  "against": "ACE억제제를 견디지 못한 심부전 환자 HEAAL 시험에서는 고용량 로사르탄이 저용량보다 심부전 입원을 줄였지만 사망률 비교와는 다른 질문입니다.",
+  "use": "로사르탄은 캅토프릴보다 생존 우월성이 확인되지 않았으며, 심부전에서는 환자군과 비교약에 따라 해석해야 합니다.",
+  "refs": [
+    {
+      "label": "Pitt 2000 · The Lancet · 심부전 ELITE II 무작위시험",
+      "doi": "10.1016/S0140-6736(00)02213-3",
+      "pmid": "10821361"
+    },
+    {
+      "label": "Konstam 2009 · The Lancet · 심부전 HEAAL 무작위시험",
+      "doi": "10.1016/S0140-6736(09)61913-9",
+      "pmid": "19922995"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=losartan, cond=Heart Failure → 16건 반환, InterventionName 대조 후 4건",
+    "pubmed": "losartan heart failure → 923건",
+    "negative": "losartan heart failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 698건",
+    "safety": "losartan heart failure AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 227건"
+  }
+}
