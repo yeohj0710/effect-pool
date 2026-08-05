@@ -1,0 +1,29 @@
+{
+  "id": "cyclosporine-myelodysplastic-syndrome-pos",
+  "subj": "시클로스포린",
+  "claim": "시클로스포린은 일부 골수형성이상증후군의 혈액학적 반응을 유도한다",
+  "line": "저위험 골수형성이상증후군에서 혈액학적 반응 신호가 있었습니다.",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 12,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "골수형성이상증후군은 시클로스포린의 허가 적응증에 없음",
+  "why": "면역매개 골수억제가 일부 MDS에서 작동한다는 가설에 면역억제제 시클로스포린을 적용한 사용입니다.",
+  "saw": "MDS 12명 중 7명(58.3%)에서 주요 적혈구계 반응이 나타났고 반응 중앙기간은 18개월(범위 3~22개월)이었습니다. 문헌 72명을 합친 분석에서는 44명(61.1%)이 반응했습니다.",
+  "limit": "소규모 임상 연구와 문헌자료를 합친 관찰 근거이며 신독성·감염과 질병 진행 위험을 따로 고려해야 합니다.",
+  "against": "MDS 환자 전체에 효과가 있는 것은 아니며 고용량 반응과 질병기간의 관계는 무작위시험으로 확인되지 않았습니다.",
+  "use": "저위험 MDS에서 면역매개 양상이 의심되고 표준치료가 제한될 때 혈액내과 전문의가 예외적으로 검토합니다.",
+  "effect": "혈액학적 반응 58.3%",
+  "refs": [
+    { "label": "Ogata 2004 · International Journal of Hematology · MDS 시클로스포린 12례", "doi": "10.1532/ijh97.04051", "pmid": "15293566" },
+    { "label": "Mitani 2008 · Nihon Rinsho · 저위험 MDS 시클로스포린 연구", "pmid": "18330027" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=cyclosporine, cond=Myelodysplastic Syndrome → 156건 반환·77건 직접 확인",
+    "pubmed": "cyclosporine AND Myelodysplastic Syndrome → 599건",
+    "negative": "cyclosporine AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 354건",
+    "safety": "cyclosporine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 27507건"
+  }
+}

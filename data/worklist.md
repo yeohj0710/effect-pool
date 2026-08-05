@@ -8484,36 +8484,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] bromocriptine — Dilated Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 직접 시험 NCT06250257은 모집 중이고 결과 없음; PubMed 33건은 주로 임신주위 심근병증 고찰)
 - [x] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 --> — 허가 적응증(2026-08-05)
-- [ ] bromocriptine — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
-- [ ] cabergoline — Ovarian Hyperstimulation에 듣는다  <!-- 시험 7건 · 논문 117편 -->
-- [ ] cabergoline — Lactation Suppressed에 듣는다  <!-- 시험 6건 · 논문 30편 -->
-- [ ] cabergoline — Infertility에 듣는다  <!-- 시험 6건 · 논문 145편 -->
-- [ ] cabergoline — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 247편 -->
-- [ ] cyclosporine — Leukemia에 듣는다  <!-- 시험 440건 · 논문 2659편 -->
-- [ ] cyclosporine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 117건 · 논문 599편 -->
-- [ ] cyclosporine — Myeloma에 듣는다  <!-- 시험 74건 · 논문 227편 -->
-- [ ] cyclosporine — Kidney Cancer에 듣는다  <!-- 시험 66건 · 논문 915편 -->
-- [ ] epoetin alfa — Kidney Disease에 듣는다  <!-- 시험 78건 · 논문 868편 -->
-- [ ] epoetin alfa — Cancer에 듣는다  <!-- 시험 56건 · 논문 617편 -->
-- [ ] epoetin alfa — Heart Failure에 듣는다  <!-- 시험 52건 · 논문 65편 -->
-- [ ] epoetin alfa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 30건 · 논문 61편 -->
-- [ ] exenatide — Obesity에 듣는다  <!-- 시험 33건 · 논문 860편 -->
-- [ ] exenatide — Glucose Homeostasis에 듣는다  <!-- 시험 9건 · 논문 227편 -->
-- [ ] exenatide — Myocardial Infarction에 듣는다  <!-- 시험 6건 · 논문 135편 -->
-- [ ] exenatide — Fatty Liver에 듣는다  <!-- 시험 6건 · 논문 127편 -->
-- [ ] febuxostat — Hyperuricemia에 듣는다  <!-- 시험 21건 · 논문 783편 -->
-- [ ] febuxostat — Kidney Stones에 듣는다  <!-- 시험 9건 · 논문 29편 -->
-- [ ] febuxostat — Renal Impairment에 듣는다  <!-- 시험 7건 · 논문 260편 -->
-- [ ] febuxostat — Hypertension에 듣는다  <!-- 시험 5건 · 논문 187편 -->
-- [ ] levodopa — Back Pain에 듣는다  <!-- 시험 11건 · 논문 27편 -->
-- [ ] levodopa — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 25편 -->
-- [ ] levodopa — Depression에 듣는다  <!-- 시험 7건 · 논문 1495편 -->
-- [ ] levodopa — Stroke에 듣는다  <!-- 시험 6건 · 논문 483편 -->
-- [ ] megestrol acetate — Cachexia에 듣는다  <!-- 시험 20건 · 논문 256편 -->
-- [ ] megestrol acetate — Anorexia에 듣는다  <!-- 시험 19건 · 논문 213편 -->
-- [ ] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 -->
-- [ ] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 -->
-- [ ] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 -->
+- [x] bromocriptine — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
+- [x] cabergoline — Ovarian Hyperstimulation에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [x] cabergoline — Lactation Suppressed에 듣는다  <!-- 시험 6건 · 논문 30편 -->
+- [x] cabergoline — Infertility에 듣는다  <!-- 시험 6건 · 논문 145편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 10건은 대부분 프로락틴종·임신 안전성 연구; PubMed 145건도 고프로락틴혈증 치료 중심으로 일반 난임 직접시험 없음)
+- [x] cabergoline — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 247편 -->
+- [x] cyclosporine — Leukemia에 듣는다  <!-- 시험 440건 · 논문 2659편 -->
+- [x] cyclosporine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 117건 · 논문 599편 -->
+- [x] cyclosporine — Myeloma에 듣는다  <!-- 시험 74건 · 논문 227편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 81건은 이식·면역억제·약동학 중심; PubMed 227건은 다약제 내성·전임상 연구 중심)
+- [x] cyclosporine — Kidney Cancer에 듣는다  <!-- 시험 66건 · 논문 915편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 24건은 이식·면역억제 연구 중심; PubMed 915건은 신장이식 후 암 위험·면역억제 변경 연구 중심)
+- [x] epoetin alfa — Kidney Disease에 듣는다  <!-- 시험 78건 · 논문 868편 --> — 허가 적응증(2026-08-05)
+- [x] epoetin alfa — Cancer에 듣는다  <!-- 시험 56건 · 논문 617편 --> — 허가 적응증(2026-08-05)
+- [x] epoetin alfa — Heart Failure에 듣는다  <!-- 시험 52건 · 논문 65편 -->
+- [x] epoetin alfa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 30건 · 논문 61편 --> — 허가 적응증(2026-08-05)
+- [x] exenatide — Obesity에 듣는다  <!-- 시험 33건 · 논문 860편 -->
+- [x] exenatide — Glucose Homeostasis에 듣는다  <!-- 시험 9건 · 논문 227편 --> — 근거 없음(2026-08-05 조회, PubMed 227건은 GLP-1 생리·당뇨 기전 연구 중심; 별도 질환 치료효과를 평가한 직접시험 없음)
+- [x] exenatide — Myocardial Infarction에 듣는다  <!-- 시험 6건 · 논문 135편 -->
+- [x] exenatide — Fatty Liver에 듣는다  <!-- 시험 6건 · 논문 127편 -->
+- [x] febuxostat — Hyperuricemia에 듣는다  <!-- 시험 21건 · 논문 783편 --> — 허가 적응증(2026-08-05)
+- [x] febuxostat — Kidney Stones에 듣는다  <!-- 시험 9건 · 논문 29편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 3건은 요산결석 직접치료 결과 없음; PubMed 29건은 요산·신장결석 고찰과 약물 안전성 중심)
+- [x] febuxostat — Renal Impairment에 듣는다  <!-- 시험 7건 · 논문 260편 -->
+- [x] febuxostat — Hypertension에 듣는다  <!-- 시험 5건 · 논문 187편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 5건은 고요산혈증·신장 연구 중심; PubMed 187건은 연관성 연구와 동물시험 중심)
+- [x] levodopa — Back Pain에 듣는다  <!-- 시험 11건 · 논문 27편 -->
+- [x] levodopa — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 25편 -->
+- [x] levodopa — Depression에 듣는다  <!-- 시험 7건 · 논문 1495편 -->
+- [x] levodopa — Stroke에 듣는다  <!-- 시험 6건 · 논문 483편 -->
+- [x] megestrol acetate — Cachexia에 듣는다  <!-- 시험 20건 · 논문 256편 -->
+- [x] megestrol acetate — Anorexia에 듣는다  <!-- 시험 19건 · 논문 213편 -->
+- [x] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 --> — 허가 적응증(2026-08-05)
+- [x] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 --> — 허가 적응증(2026-08-05)
+- [x] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 --> — 허가 적응증(2026-08-05)
 - [ ] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 -->
 - [ ] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 -->
 - [ ] methadone — HIV에 듣는다  <!-- 시험 19건 · 논문 2387편 -->
