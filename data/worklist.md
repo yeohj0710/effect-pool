@@ -7488,16 +7488,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Kidney Disease에 듣는다 — 이미 수록됨(spironolactone-kidney-disease-null)  <!-- 시험 18건 · 논문 1461편 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 이미 수록됨(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
 - [x] doxycycline — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 25건 · 논문 406편 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 -->
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 -->
-- [ ] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 -->
-- [ ] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 750편 -->
-- [ ] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 -->
+- [x] doxycycline — Rosacea에 듣는다 — 이미 수록됨(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
+- [x] doxycycline — Syphilis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 419편 -->
+- [x] doxycycline — Periodontitis에 듣는다 — 이미 수록됨(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
+- [x] colchicine — Gout에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Myocardial Injury에 듣는다 — 이미 수록됨(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
+- [x] colchicine — Atrial Flutter에 듣는다 — 이미 수록됨(colchicine-atrial-flutter-null)  <!-- 시험 25건 · 논문 8편 -->
+- [x] colchicine — COVID에 듣는다 — 이미 수록됨(colchicine-covid-null)  <!-- 시험 21건 · 논문 460편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 100건 · 논문 1493편 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 66건 · 논문 750편 -->
+- [x] dapagliflozin — Lung Cancer에 듣는다 — 이미 수록됨(dapagliflozin-lung-cancer-open)  <!-- 시험 23건 · 논문 18편 -->
 - [ ] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 -->
 - [ ] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2693편 -->
 - [ ] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 -->
