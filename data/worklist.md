@@ -9847,3 +9847,54 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] bromfenac — Inflammation에 듣는다  <!-- 시험 9건 · 논문 89편 -->
 - [ ] bromfenac — Pain에 듣는다  <!-- 시험 6건 · 논문 79편 -->
 - [ ] bromfenac — Eye Diseases에 듣는다  <!-- 시험 4건 · 논문 144편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] amifostine — Radiation Toxicity에 듣는다  <!-- 시험 30건 · 논문 776편 -->
+- [ ] amifostine — Solid Tumors에 듣는다  <!-- 시험 12건 · 논문 54편 -->
+- [ ] amifostine — Myelodysplastic Syndromes에 듣는다  <!-- 시험 10건 · 논문 59편 -->
+- [ ] aminolevulinic acid — Brain Tumor에 듣는다  <!-- 시험 18건 · 논문 888편 -->
+- [ ] aminolevulinic acid — Glioblastoma에 듣는다  <!-- 시험 13건 · 논문 494편 -->
+- [ ] aminolevulinic acid — Glioma에 듣는다  <!-- 시험 11건 · 논문 917편 -->
+- [ ] aminolevulinic acid — Brain Cancer에 듣는다  <!-- 시험 10건 · 논문 777편 -->
+- [ ] benzydamine — Sore Throat에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [ ] benzydamine — Head and Neck Cancer에 듣는다  <!-- 시험 3건 · 논문 49편 -->
+- [ ] clofazimine — HIV에 듣는다  <!-- 시험 14건 · 논문 149편 -->
+- [ ] clofazimine — Infection, Bacterial에 듣는다  <!-- 시험 8건 · 논문 1536편 -->
+- [ ] clofazimine — Pulmonary Tuberculoses에 듣는다  <!-- 시험 6건 · 논문 220편 -->
+- [ ] clofazimine — Leprosy에 듣는다  <!-- 시험 3건 · 논문 895편 -->
+- [ ] colistimethate — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 100편 -->
+- [ ] colistimethate — Colistin에 듣는다  <!-- 시험 3건 · 논문 386편 -->
+- [ ] colistimethate — Infection in ICU에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] dexrazoxane — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 67편 -->
+- [ ] dexrazoxane — Sarcoma에 듣는다  <!-- 시험 18건 · 논문 50편 -->
+- [ ] dexrazoxane — Cardiac Toxicity에 듣는다  <!-- 시험 8건 · 논문 553편 -->
+- [ ] dexrazoxane — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 -->
+- [ ] mitotane — Adrenal Cancer에 듣는다  <!-- 시험 3건 · 논문 889편 -->
+- [ ] nelarabine — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 187편 -->
+- [ ] obeticholic acid — Nonalcoholic Steatohepatitis에 듣는다  <!-- 초기 obeticholic 검색 결과, 물질 재대조 필요 -->
+- [ ] pamidronate — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 521편 -->
+- [ ] pamidronate — Pain에 듣는다  <!-- 시험 6건 · 논문 801편 -->
+- [ ] pamidronate — Bone Loss에 듣는다  <!-- 시험 6건 · 논문 656편 -->
+- [ ] pamidronate — Osteoporosis에 듣는다  <!-- 시험 4건 · 논문 592편 -->
+- [ ] plerixafor — Sickle Cell Anemia에 듣는다  <!-- 시험 76건 · 논문 22편 -->
+- [ ] plerixafor — Leukemia에 듣는다  <!-- 시험 58건 · 논문 170편 -->
+- [ ] plerixafor — Myeloma에 듣는다  <!-- 시험 52건 · 논문 409편 -->
+- [ ] plerixafor — Myelodysplastic Syndrome에 듣는다  <!-- 시험 13건 · 논문 8편 -->
+- [ ] rebamipide — Dry Eye에 듣는다  <!-- 시험 7건 · 논문 100편 -->
+- [ ] rebamipide — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 20편 -->
+- [ ] rebamipide — Stomach Ulcer에 듣는다  <!-- 시험 5건 · 논문 131편 -->
+- [ ] sodium phenylbutyrate — Myelodysplastic Syndromes에 듣는다  <!-- 시험 5건 · 논문 8편 -->
+- [ ] sodium phenylbutyrate — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 20편 -->
+- [ ] sodium phenylbutyrate — Leukemia에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [ ] tolvaptan — Hyponatremia에 듣는다  <!-- 시험 25건 · 논문 556편 -->
+- [ ] tolvaptan — Chronic Kidney Disease에 듣는다  <!-- 시험 20건 · 논문 243편 -->
+- [ ] tolvaptan — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 236편 -->
+- [ ] tolvaptan — Ascites에 듣는다  <!-- 시험 6건 · 논문 120편 -->
