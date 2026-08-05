@@ -8919,3 +8919,67 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] ocrelizumab — Immune System Diseases에 듣는다  <!-- 시험 7건 · 논문 1068편 -->
 - [ ] ocrelizumab — Clinically Isolated Syndrome에 듣는다  <!-- 시험 5건 · 논문 23편 -->
 - [ ] ocrelizumab — Autoimmune Diseases에 듣는다  <!-- 시험 3건 · 논문 1068편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] mifepristone — Cancer에 듣는다  <!-- 시험 38건 · 논문 1214편 -->
+- [ ] mifepristone — Pregnancy에 듣는다  <!-- 시험 22건 · 논문 3310편 -->
+- [ ] mifepristone — Depressive Disorder에 듣는다  <!-- 시험 10건 · 논문 67편 -->
+- [ ] mifepristone — Fetal Death에 듣는다  <!-- 시험 9건 · 논문 108편 -->
+- [ ] sulforaphane — Chronic Kidney Disease에 듣는다  <!-- 시험 8건 · 논문 38편 -->
+- [ ] sulforaphane — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 151편 -->
+- [ ] sulforaphane — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 37편 -->
+- [ ] sulforaphane — Autistic Disorder에 듣는다  <!-- 시험 4건 · 논문 17편 -->
+- [ ] clobazam — Pain에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] lisdexamfetamine — Binge Eating에 듣는다  <!-- 시험 13건 · 논문 149편 -->
+- [ ] lisdexamfetamine — ADHD에 듣는다  <!-- 시험 9건 · 논문 450편 -->
+- [ ] lisdexamfetamine — Major Depressive Disorder에 듣는다  <!-- 시험 7건 · 논문 25편 -->
+- [ ] lisdexamfetamine — Obesity에 듣는다  <!-- 시험 6건 · 논문 53편 -->
+- [ ] dextroamphetamine — Opioid-Related Disorders에 듣는다  <!-- 시험 8건 · 논문 59편 -->
+- [ ] dextroamphetamine — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 277편 -->
+- [ ] armodafinil — Fatigue에 듣는다  <!-- 시험 10건 · 논문 399편 -->
+- [ ] armodafinil — Sleepiness에 듣는다  <!-- 시험 8건 · 논문 586편 -->
+- [ ] armodafinil — Narcolepsy에 듣는다  <!-- 시험 6건 · 논문 574편 -->
+- [ ] armodafinil — Depression에 듣는다  <!-- 시험 5건 · 논문 355편 -->
+- [ ] tretinoin — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 454편 -->
+- [ ] tretinoin — Acne에 듣는다  <!-- 시험 39건 · 논문 1098편 -->
+- [ ] tretinoin — Neuroblastoma에 듣는다  <!-- 시험 38건 · 논문 1090편 -->
+- [ ] tretinoin — Lung Cancer에 듣는다  <!-- 시험 28건 · 논문 393편 -->
+- [ ] calcitriol — Kidney Failure에 듣는다  <!-- 시험 20건 · 논문 1755편 -->
+- [ ] calcitriol — Psoriasis에 듣는다  <!-- 시험 11건 · 논문 1193편 -->
+- [ ] calcitriol — Hyperparathyroidism에 듣는다  <!-- 시험 9건 · 논문 2286편 -->
+- [ ] calcitriol — Vitamin D Deficiency에 듣는다  <!-- 시험 7건 · 논문 3646편 -->
+- [ ] tapentadol — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 99편 -->
+- [ ] tapentadol — Peripheral Neuropathy에 듣는다  <!-- 시험 5건 · 논문 110편 -->
+- [ ] oxycodone — Opioid Use에 듣는다  <!-- 시험 65건 · 논문 5571편 -->
+- [ ] oxycodone — Cancer에 듣는다  <!-- 시험 24건 · 논문 1062편 -->
+- [ ] oxycodone — Osteoarthritis에 듣는다  <!-- 시험 22건 · 논문 159편 -->
+- [ ] oxycodone — Analgesia에 듣는다  <!-- 시험 13건 · 논문 1266편 -->
+- [ ] hydromorphone — Opioid에 듣는다  <!-- 시험 33건 · 논문 2589편 -->
+- [ ] hydromorphone — Analgesia에 듣는다  <!-- 시험 14건 · 논문 815편 -->
+- [ ] hydromorphone — Cancer에 듣는다  <!-- 시험 11건 · 논문 504편 -->
+- [ ] hydromorphone — Renal Neoplasm에 듣는다  <!-- 시험 9건 · 논문 12편 -->
+- [ ] phenobarbital — Epilepsy에 듣는다  <!-- 시험 7건 · 논문 4264편 -->
+- [ ] phenobarbital — Alcohol Withdrawal에 듣는다  <!-- 시험 6건 · 논문 283편 -->
+- [ ] phenobarbital — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 146편 -->
+- [ ] phenobarbital — Agitated Delirium에 듣는다  <!-- 시험 4건 · 논문 25편 -->
+- [ ] zonisamide — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 17편 -->
+- [ ] zonisamide — Partial Seizures에 듣는다  <!-- 시험 12건 · 논문 592편 -->
+- [ ] zonisamide — Migraine에 듣는다  <!-- 시험 5건 · 논문 58편 -->
+- [ ] zonisamide — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [ ] lacosamide — Partial Epilepsies에 듣는다  <!-- 시험 14건 · 논문 211편 -->
+- [ ] lacosamide — Neuropathy에 듣는다  <!-- 시험 9건 · 논문 44편 -->
+- [ ] lacosamide — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 54편 -->
+- [ ] lacosamide — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [ ] perampanel — Seizures에 듣는다  <!-- 시험 23건 · 논문 857편 -->
+- [ ] perampanel — Parkinson's Disease에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] perampanel — Status Epilepticus에 듣는다  <!-- 시험 4건 · 논문 85편 -->
+- [ ] brivaracetam — Partial Seizure에 듣는다  <!-- 시험 4건 · 논문 363편 -->
+- [ ] brivaracetam — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 18편 -->
