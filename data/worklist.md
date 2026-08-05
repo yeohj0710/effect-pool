@@ -7978,16 +7978,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Leukemia에 듣는다 — 항목 생성(valacyclovir-leukemia-pos)(2026-08-05)  <!-- 시험 3건 · 논문 34편 -->
 - [x] bupropion — Obesity에 듣는다 — 항목 생성(bupropion-obesity-pos)(2026-08-05)  <!-- 시험 35건 · 논문 544편 -->
 - [x] bupropion — Cancer에 듣는다 — 항목 생성(bupropion-cancer-related-fatigue-pos)(2026-08-05)  <!-- 시험 35건 · 논문 413편 -->
-- [ ] bupropion — Schizophrenia에 듣는다  <!-- 시험 16건 · 논문 156편 -->
-- [ ] bupropion — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 124편 -->
-- [ ] sildenafil — Fetal Distress에 듣는다  <!-- 시험 10건 · 논문 27편 -->
-- [ ] sildenafil — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 18편 -->
-- [ ] sildenafil — Liver Fibrosis에 듣는다  <!-- 시험 7건 · 논문 52편 -->
-- [ ] sildenafil — Infertility에 듣는다  <!-- 시험 7건 · 논문 105편 -->
-- [ ] bimatoprost — Vitiligo에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] botulinum toxin — Urinary Urgency에 듣는다  <!-- 시험 31건 · 논문 363편 -->
-- [ ] botulinum toxin — Dystonia에 듣는다  <!-- 시험 23건 · 논문 2948편 -->
-- [ ] botulinum toxin — Migraine에 듣는다  <!-- 시험 22건 · 논문 1110편 -->
+- [x] bupropion — Schizophrenia에 듣는다 — 항목 생성(bupropion-schizophrenia-pos)(2026-08-05)  <!-- 시험 16건 · 논문 156편 -->
+- [x] bupropion — Alcohol Abuse에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 13건 · 논문 124편 -->
+- [x] sildenafil — Fetal Distress에 듣는다 — 항목 생성(sildenafil-fetal-distress-null)(2026-08-05)  <!-- 시험 10건 · 논문 27편 -->
+- [x] sildenafil — Brain Tumor에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 9건 · 논문 18편 -->
+- [x] sildenafil — Liver Fibrosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 7건 · 논문 52편 -->
+- [x] sildenafil — Infertility에 듣는다 — 항목 생성(sildenafil-infertility-pos)(2026-08-05)  <!-- 시험 7건 · 논문 105편 -->
+- [x] bimatoprost — Vitiligo에 듣는다 — 항목 생성(bimatoprost-vitiligo-pos)(2026-08-05)  <!-- 시험 3건 · 논문 23편 -->
+- [x] botulinum toxin — Urinary Urgency에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 31건 · 논문 363편 -->
+- [x] botulinum toxin — Dystonia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 2948편 -->
+- [x] botulinum toxin — Migraine에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 1110편 -->
 - [ ] botulinum toxin — Parkinson에 듣는다  <!-- 시험 20건 · 논문 917편 -->
 - [ ] duloxetine — Urinary Incontinence에 듣는다  <!-- 시험 22건 · 논문 290편 -->
 - [ ] duloxetine — Anxiety에 듣는다  <!-- 시험 22건 · 논문 484편 -->

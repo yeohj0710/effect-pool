@@ -1,0 +1,37 @@
+{
+  "id": "sildenafil-infertility-pos",
+  "subj": "실데나필",
+  "claim": "PDE5 억제제를 원인불명 난임의 배란유도에 쓴다",
+  "line": "원인불명 난임에서 임신률을 높였습니다",
+  "effect": "임신률 65% vs 40%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 80,
+  "synth": "single",
+  "why": "실데나필의 허가사항은 발기부전이며 원인불명 난임의 배란유도 보조는 허가 적응증이 아닙니다.",
+  "saw": "원인불명 난임 여성 80명을 무작위 배정한 시험에서 클로미펜에 실데나필을 더한 군의 임신률은 65%, 대조군은 40%였고 자궁내막 두께도 더 컸습니다. 실데나필군에서 이상반응은 더 흔했습니다.",
+  "limit": "클로미펜 배란유도에 실데나필을 더한 단일 시험이며 실데나필 단독 효과가 아닙니다. IVF·IUI에서는 일관된 이득이 확인되지 않았습니다.",
+  "against": "반대 검색 78건. 난임 RCT 메타분석은 배란유도에서는 이득을 봤지만 IUI·IVF에서는 유의한 임신률 이득이 없다고 정리했습니다.",
+  "use": "원인불명 난임의 배란유도 보조에서 임신률 신호가 있지만, 시술 유형에 따라 결과가 달라집니다.",
+  "refs": [
+    {
+      "label": "El-Mazny 2020 · Int J Gynaecol Obstet · 원인불명 난임 배란유도 RCT",
+      "doi": "10.1002/ijgo.13159",
+      "pmid": "32286686"
+    },
+    {
+      "label": "Gutarra-Vilchez 2021 · J Clin Med · 난임 실데나필 RCT 메타분석",
+      "doi": "10.3390/jcm10194346",
+      "pmid": "34640363",
+      "pmc": "PMC8470648"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"SILDENAFIL\" → 166건, 발기부전 적응증 확인",
+    "ctgov": "query.intr=sildenafil&query.cond=Infertility → 13건 반환, InterventionName 대조 후 sildenafil 11건",
+    "pubmed": "sildenafil Infertility → 105건",
+    "negative": "sildenafil Infertility (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 78건",
+    "safety": "sildenafil Infertility (adverse OR toxicity OR case report OR overdose OR self-medication) → 33건"
+  }
+}
