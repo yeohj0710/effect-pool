@@ -7332,16 +7332,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 시험 34건 · 논문 1344편 -->
 - [x] duloxetine — Pain에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 79건 · 논문 1631편 -->
 - [x] duloxetine — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 53건 · 논문 1566편 -->
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 시험 28건 · 논문 170편 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다  <!-- 시험 23건 · 논문 383편 -->
-- [ ] dextromethorphan — Pain에 듣는다  <!-- 시험 9건 · 논문 314편 -->
-- [ ] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 -->
-- [ ] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 -->
-- [ ] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 -->
-- [ ] clonidine — Hypertension에 듣는다  <!-- 시험 13건 · 논문 2809편 -->
-- [ ] clonidine — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 24편 -->
-- [ ] clonidine — Anesthesia에 듣는다  <!-- 시험 12건 · 논문 2274편 -->
-- [ ] finasteride — Alopecia에 듣는다  <!-- 시험 16건 · 논문 1005편 -->
+- [x] duloxetine — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 28건 · 논문 170편 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 23건 · 논문 383편 -->
+- [x] dextromethorphan — Pain에 듣는다  <!-- 시험 9건 · 논문 314편 -->
+- [x] dextromethorphan — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 75편 -->
+- [x] dextromethorphan — Depression에 듣는다  <!-- 시험 6건 · 논문 269편 -->
+- [x] clonidine — Opioid Use에 듣는다  <!-- 시험 14건 · 논문 2570편 -->
+- [x] clonidine — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 2809편 -->
+- [x] clonidine — Osteoarthritis에 듣는다  <!-- 시험 12건 · 논문 24편 -->
+- [x] clonidine — Anesthesia에 듣는다  <!-- 시험 12건 · 논문 2274편 -->
+- [x] finasteride — Alopecia에 듣는다  <!-- 시험 16건 · 논문 1005편 -->
 - [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 1481편 -->
 - [ ] melatonin — Pain에 듣는다  <!-- 시험 32건 · 논문 1022편 -->
 - [ ] melatonin — Cancer에 듣는다  <!-- 시험 27건 · 논문 3920편 -->
