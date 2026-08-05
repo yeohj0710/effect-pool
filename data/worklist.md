@@ -9219,3 +9219,98 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 -->
 - [ ] verapamil — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 218편 -->
 - [ ] verapamil — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 168편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] armodafinil — Shift Work Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 128편 -->
+- [ ] armodafinil — Insomnia에 듣는다  <!-- 시험 3건 · 논문 121편 -->
+- [ ] armodafinil — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 106편 -->
+- [ ] aprepitant — Major Depressive Disorder에 듣는다  <!-- 시험 9건 · 논문 10편 -->
+- [ ] aprepitant — Leukemia에 듣는다  <!-- 시험 8건 · 논문 19편 -->
+- [ ] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 -->
+- [ ] bosentan — Scleroderma에 듣는다  <!-- 시험 3건 · 논문 306편 -->
+- [ ] bosentan — Interstitial Lung Disease에 듣는다  <!-- 시험 3건 · 논문 111편 -->
+- [ ] cabergoline — Cushing's Disease에 듣는다  <!-- 시험 4건 · 논문 151편 -->
+- [ ] cabergoline — Endometriosis에 듣는다  <!-- 시험 3건 · 논문 29편 -->
+- [ ] cabergoline — Hyperprolactinemia에 듣는다  <!-- 시험 3건 · 논문 564편 -->
+- [ ] calcitriol — Renal Osteodystrophy에 듣는다  <!-- 시험 7건 · 논문 518편 -->
+- [ ] calcitriol — Adult Solid Neoplasm에 듣는다  <!-- 시험 5건 · 논문 23편 -->
+- [ ] calcitriol — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 1703편 -->
+- [ ] calcitriol — Mouth Neoplasms에 듣는다  <!-- 시험 5건 · 논문 36편 -->
+- [ ] canakinumab — Gout에 듣는다  <!-- 시험 4건 · 논문 103편 -->
+- [ ] canakinumab — COVID-19에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [ ] canakinumab — Periodic Fever에 듣는다  <!-- 시험 4건 · 논문 197편 -->
+- [ ] canakinumab — Cryopyrin Associated Periodic Syndrome에 듣는다  <!-- 시험 3건 · 논문 170편 -->
+- [ ] cannabidiol — Stress에 듣는다  <!-- 시험 10건 · 논문 873편 -->
+- [ ] cannabidiol — Cannabis에 듣는다  <!-- 시험 9건 · 논문 4943편 -->
+- [ ] cannabidiol — Sleep에 듣는다  <!-- 시험 9건 · 논문 560편 -->
+- [ ] cannabidiol — Cancer에 듣는다  <!-- 시험 9건 · 논문 1130편 -->
+- [ ] cilostazol — Migraine에 듣는다  <!-- 시험 9건 · 논문 21편 -->
+- [ ] cilostazol — Peripheral Neuropathy에 듣는다  <!-- 시험 8건 · 논문 25편 -->
+- [ ] cilostazol — Atherosclerosis에 듣는다  <!-- 시험 5건 · 논문 349편 -->
+- [ ] domperidone — Vomiting에 듣는다  <!-- 시험 3건 · 논문 381편 -->
+- [ ] domperidone — Gastroenteritis에 듣는다  <!-- 시험 3건 · 논문 62편 -->
+- [ ] domperidone — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] domperidone — Cardiac Event에 듣는다  <!-- 시험 3건 · 논문 188편 -->
+- [ ] dextromethorphan — Food-drug Interaction에 듣는다  <!-- 시험 4건 · 논문 27편 -->
+- [ ] dextromethorphan — Smoking에 듣는다  <!-- 시험 3건 · 논문 43편 -->
+- [ ] dextromethorphan — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] hydroxychloroquine — HIV Infection에 듣는다  <!-- 시험 41건 · 논문 140편 -->
+- [ ] hydroxychloroquine — Crohn's Disease에 듣는다  <!-- 시험 10건 · 논문 23편 -->
+- [ ] hydroxychloroquine — Lung Neoplasms에 듣는다  <!-- 시험 10건 · 논문 82편 -->
+- [ ] ivermectin — Ascariasis에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [ ] ivermectin — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 4394편 -->
+- [ ] ivermectin — Parasitic Diseases에 듣는다  <!-- 시험 4건 · 논문 6458편 -->
+- [ ] ivermectin — Severe Acute Respiratory Syndrome에 듣는다  <!-- 시험 4건 · 논문 130편 -->
+- [ ] ketamine — Opioid에 듣는다  <!-- 시험 25건 · 논문 4690편 -->
+- [ ] ketamine — Delirium에 듣는다  <!-- 시험 15건 · 논문 513편 -->
+- [ ] ketamine — Amputation, Traumatic에 듣는다  <!-- 시험 14건 · 논문 8편 -->
+- [ ] ketamine — Sleep에 듣는다  <!-- 시험 14건 · 논문 858편 -->
+- [ ] minocycline — Schizophrenia에 듣는다  <!-- 시험 13건 · 논문 145편 -->
+- [ ] minocycline — Rosacea에 듣는다  <!-- 시험 12건 · 논문 187편 -->
+- [ ] minocycline — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 110편 -->
+- [ ] minocycline — Pain에 듣는다  <!-- 시험 10건 · 논문 770편 -->
+- [ ] modafinil — Brain Tumor에 듣는다  <!-- 시험 6건 · 논문 32편 -->
+- [ ] modafinil — Major Depressive Disorder에 듣는다  <!-- 시험 5건 · 논문 93편 -->
+- [ ] modafinil — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 76편 -->
+- [ ] naltrexone — Overweight에 듣는다  <!-- 시험 6건 · 논문 418편 -->
+- [ ] naltrexone — Fibromyalgia에 듣는다  <!-- 시험 6건 · 논문 96편 -->
+- [ ] naltrexone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 82편 -->
+- [ ] naltrexone — Narcotic Abuse에 듣는다  <!-- 시험 6건 · 논문 2253편 -->
+- [ ] ramelteon — Obstructive Sleep Apnea에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [ ] ramelteon — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] tranexamic acid — Fracture에 듣는다  <!-- 시험 14건 · 논문 354편 -->
+- [ ] tranexamic acid — Brain Injuries에 듣는다  <!-- 시험 13건 · 논문 199편 -->
+- [ ] tranexamic acid — Surgical Wound에 듣는다  <!-- 시험 13건 · 논문 284편 -->
+- [ ] tranexamic acid — ACL Injury에 듣는다  <!-- 시험 12건 · 논문 15편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] moxifloxacin — Pneumonia에 듣는다  <!-- 시험 24건 · 논문 1200편 -->
+- [ ] moxifloxacin — Conjunctivitis에 듣는다  <!-- 시험 22건 · 논문 134편 -->
+- [ ] moxifloxacin — Healthy Male에 듣는다  <!-- 시험 21건 · 논문 385편 -->
+- [ ] moxifloxacin — Infection에 듣는다  <!-- 시험 21건 · 논문 5315편 -->
