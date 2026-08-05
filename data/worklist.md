@@ -6053,16 +6053,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] memantine — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 19건 -->
 - [x] memantine — Chemo-brain에 듣는다 — 기존 항목(memantine-chemo-brain-open)  <!-- 등록 시험 18건 -->
 - [x] memantine — Cognitive Change에 듣는다 — 기존 항목(memantine-cognitive-change-open)  <!-- 등록 시험 17건 -->
-- [ ] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
-- [ ] lithium — Depression에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] lithium — Depressive Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] pentoxifylline — Pancreatitis에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 등록 시험 80건 -->
-- [ ] sirolimus — Renal Cell Cancer에 듣는다  <!-- 등록 시험 63건 -->
+- [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다 — 기존 항목(lithium-stage-iv-mantle-cell-lymphoma-null)  <!-- 등록 시험 36건 -->
+- [x] lithium — Depression에 듣는다 — 기존 항목(lithium-depression)  <!-- 등록 시험 32건 -->
+- [x] lithium — Depressive Disorder에 듣는다 — 기존 항목(lithium-depressive-disorder)  <!-- 등록 시험 25건 -->
+- [x] lithium — Tooth Loss에 듣는다 — 기존 항목(lithium-tooth-loss-harm)  <!-- 등록 시험 21건 -->
+- [x] pentoxifylline — Breast Cancer에 듣는다 — 기존 항목(pentoxifylline-breast-cancer-null)  <!-- 등록 시험 13건 -->
+- [x] pentoxifylline — Fibrosis에 듣는다 — 기존 항목(pentoxifylline-fibrosis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다 — 기존 항목(pentoxifylline-alcoholic-hepatitis-null)  <!-- 등록 시험 10건 -->
+- [x] pentoxifylline — Pancreatitis에 듣는다 — 기존 항목(pentoxifylline-pancreatitis-null)  <!-- 등록 시험 8건 -->
+- [x] sirolimus — Leukemia에 듣는다 — 기존 항목(sirolimus-leukemia)  <!-- 등록 시험 80건 -->
+- [x] sirolimus — Renal Cell Cancer에 듣는다 — 기존 항목(sirolimus-renal-cell-cancer-open)  <!-- 등록 시험 63건 -->
 - [ ] sirolimus — Stenosis Artery에 듣는다  <!-- 등록 시험 56건 -->
 - [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 45건 -->
 - [ ] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
