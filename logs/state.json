@@ -3,26 +3,15 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 479,
   "worklist": {
-    "checked": 6244,
-    "unchecked": 33,
+    "checked": 6277,
+    "unchecked": 0,
     "no_evidence_pending": 0,
-    "next_batch": [
-      "methotrexate-arthritis",
-      "methotrexate-myelodysplastic-syndrome",
-      "hydroxyurea-cancer",
-      "hydroxyurea-leukemia",
-      "hydroxyurea-thalassemia",
-      "hydroxyurea-hiv-infection",
-      "tranexamic-acid-hemorrhage",
-      "tranexamic-acid-bleeding",
-      "tranexamic-acid-hip-fracture",
-      "tranexamic-acid-surgery"
-    ]
+    "next_batch": []
   },
   "verification": {
     "build": "passed",
     "line_warnings": 0,
-    "unknown_n_warnings": 4,
+    "unknown_n_warnings": 0,
     "tier_distribution": {
       "trial": 432,
       "obs": 37,
@@ -39,17 +28,10 @@
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
-  "last_batch": [
-    "amantadine-hepatitis-c (existing: amantadine-hepatitis-c-null)",
-    "acetazolamide-heart-failure (approved)",
-    "acetazolamide-hypoxia (existing: acetazolamide-hypoxia)",
-    "acetazolamide-mountain-sickness (approved)",
-    "acetazolamide-hypertension (existing: acetazolamide-hypertension-null)",
-    "dapsone-malaria (existing: dapsone-malaria-harm)",
-    "dapsone-hiv-infection (existing: dapsone-hiv-infection-null)",
-    "dapsone-pneumocystis-pneumonia (existing: dapsone-pneumocystis-pneumonia-null)",
-    "dapsone-leprosy (approved)",
-    "methotrexate-lymphoma (approved)"
+    "last_batch": [
+    "rifaximin-hepatic-cirrhosis (results pending)",
+    "rifaximin-small-bowel-disease (results pending)",
+    "rifaximin-diarrhea (approved)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +59,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "amantadine, acetazolamide, dapsone, methotrexate",
-    "current_batch": "amantadine, acetazolamide, dapsone, methotrexate",
-    "next_action": "commit, push, then process next batch"
+    "last_committed_batch": "rifaximin",
+    "current_batch": "rifaximin",
+    "next_action": "worklist complete; audit build and deploy threshold"
   }
 }

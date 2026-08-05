@@ -6830,29 +6830,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 시험 9건 · 논문 365편 -->
 - [x] dapsone — Leprosy에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 4건 · 논문 2127편 -->
 - [x] methotrexate — Lymphoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 224건 · 논문 8732편 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 -->
-- [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 시험 29건 · 논문 5582편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 시험 22건 · 논문 2333편 -->
-- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 시험 17건 · 논문 693편 -->
-- [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 시험 16건 · 논문 277편 -->
-- [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 시험 113건 · 논문 7485편 -->
-- [ ] tranexamic acid — Bleeding에 듣는다  <!-- 시험 87건 · 논문 6214편 -->
-- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 시험 57건 · 논문 220편 -->
-- [ ] tranexamic acid — Surgery에 듣는다  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 시험 34건 · 논문 2818편 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 시험 21건 · 논문 60편 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 99편 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 시험 13건 · 논문 83편 -->
-- [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 시험 24건 · 논문 309편 -->
-- [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 449편 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 시험 8건 · 논문 1126편 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 1368편 -->
-- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 -->
-- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 시험 54건 · 논문 3005편 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 224편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 시험 19건 · 논문 415편 -->
+- [x] methotrexate — Arthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 103건 · 논문 15732편 -->
+- [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 41건 · 논문 301편 -->
+- [x] hydroxyurea — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 29건 · 논문 5582편 -->
+- [x] hydroxyurea — Leukemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 2333편 -->
+- [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 시험 17건 · 논문 693편 -->
+- [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 시험 16건 · 논문 277편 -->
+- [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 시험 113건 · 논문 7485편 -->
+- [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 시험 87건 · 논문 6214편 -->
+- [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 시험 57건 · 논문 220편 -->
+- [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 시험 44건 · 논문 5782편 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 시험 21건 · 논문 60편 -->
+- [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 시험 18건 · 논문 99편 -->
+- [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia)  <!-- 시험 13건 · 논문 83편 -->
+- [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor)  <!-- 시험 24건 · 논문 309편 -->
+- [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 시험 9건 · 논문 449편 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 1126편 -->
+- [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 시험 13건 · 논문 1368편 -->
+- [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 시험 6건 · 논문 15편 -->
+- [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 시험 4건 · 논문 12편 -->
+- [x] allopurinol — Gout에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 시험 29건 · 논문 224편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 415편 -->
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
 ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
@@ -6862,13 +6862,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 -->
-- [ ] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 -->
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 -->
-- [ ] atorvastatin — Coronary Disease에 듣는다  <!-- 시험 77건 · 논문 2070편 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 시험 50건 · 논문 2990편 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 시험 44건 · 논문 1785편 -->
-- [ ] rifaximin — Hepatic Cirrhosis에 듣는다  <!-- 시험 40건 · 논문 570편 -->
-- [ ] rifaximin — Small Bowel Disease에 듣는다  <!-- 시험 28건 · 논문 114편 -->
-- [ ] rifaximin — Diarrhea에 듣는다  <!-- 시험 16건 · 논문 482편 -->
+- [x] colchicine — Gout에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
+- [x] trazodone — Depression에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 1009편 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 237편 -->
+- [x] atorvastatin — Coronary Disease에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 77건 · 논문 2070편 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 2990편 -->
+- [x] atorvastatin — Diabetes에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 44건 · 논문 1785편 -->
+- [x] rifaximin — Hepatic Cirrhosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 40건 · 논문 570편 -->
+- [x] rifaximin — Small Bowel Disease에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 28건 · 논문 114편 -->
+- [x] rifaximin — Diarrhea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 482편 -->
