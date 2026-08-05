@@ -6912,16 +6912,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> — 허가 적응증(2026-08-05)
 - [x] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 --> — 이미 수록됨(2026-08-05)
 - [x] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> — 허가 적응증(2026-08-05)
-- [ ] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 -->
-- [ ] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 -->
-- [ ] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 시험 21건 · 논문 984편 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 시험 48건 · 논문 2844편 -->
-- [ ] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 -->
-- [ ] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 -->
+- [x] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 이미 수록됨(2026-08-05)
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 --> — 허가 적응증(2026-08-05)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> — 허가 적응증(2026-08-05)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> — 허가 적응증(2026-08-05)
+- [x] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 --> — 이미 수록됨(2026-08-05)
+- [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 시험 21건 · 논문 984편 --> — 이미 수록됨(2026-08-05)
+- [x] spironolactone — Hypertension에 듣는다  <!-- 시험 48건 · 논문 2844편 --> — 허가 적응증(2026-08-05)
+- [x] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 --> — 이미 수록됨(2026-08-05)
+- [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 --> — 이미 수록됨(2026-08-05)
+- [x] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 --> — 허가 적응증(2026-08-05)
 - [ ] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 -->
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 -->
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
