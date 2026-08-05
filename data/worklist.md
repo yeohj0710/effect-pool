@@ -6133,10 +6133,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] creatine — Major Depressive Disorder에 듣는다 — 기존 항목(creatine-major-depressive-disorder)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sarcopenia에 듣는다 — 기존 항목(creatine-sarcopenia)  <!-- 등록 시험 13건 -->
 - [x] creatine — Sport Performance에 듣는다 — 기존 항목(creatine-sport-performance)  <!-- 등록 시험 13건 -->
-- [ ] berberine — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] berberine — Metabolic Syndrome에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — HIV-1-infection에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] berberine — Gastritis에 듣는다  <!-- 등록 시험 8건 -->
+- [x] berberine — Schizophrenia에 듣는다 — 기존 항목(berberine-schizophrenia)  <!-- 등록 시험 9건 -->
+- [x] berberine — Metabolic Syndrome에 듣는다 — 기존 항목(berberine-metabolic-syndrome)  <!-- 등록 시험 8건 -->
+- [x] berberine — HIV-1-infection에 듣는다 — 기존 항목(berberine-hiv-1-infection-open)  <!-- 등록 시험 8건 -->
+- [x] berberine — Gastritis에 듣는다 — 기존 항목(berberine-gastritis-open)  <!-- 등록 시험 8건 -->
 
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -6148,12 +6148,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metformin — Lung Cancer에 듣는다  <!-- 등록 시험 79건 -->
-- [ ] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
-- [ ] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
+- [x] metformin — Lung Cancer에 듣는다 — 기존 항목(metformin-lung-cancer-null)  <!-- 등록 시험 79건 -->
+- [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-syndrome-pos)  <!-- 등록 시험 50건 -->
+- [x] metformin — Obesity에 듣는다 — 기존 항목(metformin-obesity-pos)  <!-- 등록 시험 33건 -->
+- [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-trial)  <!-- 등록 시험 17건 -->
+- [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
+- [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [ ] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
 - [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 -->
