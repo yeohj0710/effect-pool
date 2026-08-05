@@ -7052,16 +7052,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 시험 9건 · 논문 365편 --> — 이미 수록됨(2026-08-05)
 - [x] dapsone — Leprosy에 듣는다  <!-- 시험 4건 · 논문 2127편 --> — 허가 적응증(2026-08-05)
 - [x] methotrexate — Lymphoma에 듣는다  <!-- 시험 224건 · 논문 8732편 --> — 허가 적응증(2026-08-05)
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 -->
-- [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 -->
-- [ ] methotrexate — Cancer에 듣는다  <!-- 시험 40건 · 논문 30398편 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 시험 29건 · 논문 5582편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 시험 22건 · 논문 2333편 -->
-- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 시험 17건 · 논문 693편 -->
-- [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 시험 16건 · 논문 277편 -->
-- [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 시험 113건 · 논문 7485편 -->
-- [ ] tranexamic acid — Bleeding에 듣는다  <!-- 시험 87건 · 논문 6214편 -->
-- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 시험 57건 · 논문 220편 -->
+- [x] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 --> — 허가 적응증(2026-08-05)
+- [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 --> — 결과 대기(2026-08-05)
+- [x] methotrexate — Cancer에 듣는다  <!-- 시험 40건 · 논문 30398편 --> — 이미 수록됨(2026-08-05)
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 시험 29건 · 논문 5582편 --> — 허가 적응증(2026-08-05)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 시험 22건 · 논문 2333편 --> — 허가 적응증(2026-08-05)
+- [x] hydroxyurea — Thalassemia에 듣는다  <!-- 시험 17건 · 논문 693편 --> — 이미 수록됨(2026-08-05)
+- [x] hydroxyurea — HIV Infection에 듣는다  <!-- 시험 16건 · 논문 277편 --> — 이미 수록됨(2026-08-05)
+- [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 시험 113건 · 논문 7485편 --> — 이미 수록됨(2026-08-05)
+- [x] tranexamic acid — Bleeding에 듣는다  <!-- 시험 87건 · 논문 6214편 --> — 이미 수록됨(2026-08-05)
+- [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 시험 57건 · 논문 220편 --> — 이미 수록됨(2026-08-05)
 - [ ] tranexamic acid — Surgery에 듣는다  <!-- 시험 44건 · 논문 5782편 -->
 - [ ] isotretinoin — Acne에 듣는다  <!-- 시험 34건 · 논문 2818편 -->
 - [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 시험 21건 · 논문 60편 -->
