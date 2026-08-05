@@ -7362,16 +7362,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] memantine — Cognitive Change에 듣는다  <!-- 시험 17건 · 논문 411편 -->
 - [x] lithium — Depression에 듣는다  <!-- 시험 32건 · 논문 6937편 -->
 - [x] lithium — Depressive Disorder에 듣는다  <!-- 시험 25건 · 논문 3845편 -->
-- [ ] lithium — Tooth Loss에 듣는다  <!-- 시험 21건 · 논문 127편 -->
-- [ ] pentoxifylline — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 60편 -->
-- [ ] pentoxifylline — Fibrosis에 듣는다  <!-- 시험 10건 · 논문 393편 -->
-- [ ] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 시험 10건 · 논문 197편 -->
-- [ ] pentoxifylline — Pancreatitis에 듣는다  <!-- 시험 8건 · 논문 116편 -->
-- [ ] sirolimus — Leukemia에 듣는다  <!-- 시험 80건 · 논문 536편 -->
-- [ ] sirolimus — Renal Cell Cancer에 듣는다  <!-- 시험 63건 · 논문 1131편 -->
-- [ ] sirolimus — Stenosis Artery에 듣는다  <!-- 시험 56건 · 논문 973편 -->
-- [ ] sirolimus — Kidney Cancer에 듣는다  <!-- 시험 45건 · 논문 1443편 -->
-- [ ] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 시험 19건 · 논문 111편 -->
+- [x] lithium — Tooth Loss에 듣는다  <!-- 시험 21건 · 논문 127편 -->
+- [x] pentoxifylline — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 60편 -->
+- [x] pentoxifylline — Fibrosis에 듣는다  <!-- 시험 10건 · 논문 393편 -->
+- [x] pentoxifylline — Alcoholic Hepatitis에 듣는다  <!-- 시험 10건 · 논문 197편 -->
+- [x] pentoxifylline — Pancreatitis에 듣는다  <!-- 시험 8건 · 논문 116편 -->
+- [x] sirolimus — Leukemia에 듣는다  <!-- 시험 80건 · 논문 536편 -->
+- [x] sirolimus — Renal Cell Cancer에 듣는다  <!-- 시험 63건 · 논문 1131편 -->
+- [x] sirolimus — Stenosis Artery에 듣는다  <!-- 시험 56건 · 논문 973편 -->
+- [x] sirolimus — Kidney Cancer에 듣는다  <!-- 시험 45건 · 논문 1443편 -->
+- [x] rapamycin — Urothelial Carcinoma에 듣는다  <!-- 시험 19건 · 논문 111편 -->
 - [ ] rapamycin — Aging에 듣는다  <!-- 시험 9건 · 논문 3477편 -->
 - [ ] rapamycin — Heart Diseases에 듣는다  <!-- 시험 9건 · 논문 6771편 -->
 - [ ] rapamycin — Tuberous Sclerosis에 듣는다  <!-- 시험 7건 · 논문 2670편 -->
