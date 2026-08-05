@@ -8711,3 +8711,73 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] megestrol — Anorexia에 듣는다  <!-- 시험 19건 · 논문 230편 -->
 - [ ] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 -->
 - [ ] megestrol — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 46편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] dronabinol — Marijuana에 듣는다  <!-- 시험 13건 · 논문 5625편 -->
+- [ ] dronabinol — Cannabis에 듣는다  <!-- 시험 11건 · 논문 4802편 -->
+- [ ] dronabinol — Vomiting에 듣는다  <!-- 시험 8건 · 논문 331편 -->
+- [ ] domperidone — Gastroesophageal Reflux에 듣는다  <!-- 시험 9건 · 논문 154편 -->
+- [ ] domperidone — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 163편 -->
+- [ ] domperidone — GERD에 듣는다  <!-- 시험 5건 · 논문 157편 -->
+- [ ] domperidone — Parkinson's Disease에 듣는다  <!-- 시험 5건 · 논문 166편 -->
+- [ ] flumazenil — Remimazolam에 듣는다  <!-- 시험 4건 · 논문 162편 -->
+- [ ] flumazenil — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1101편 -->
+- [ ] flumazenil — Recovery에 듣는다  <!-- 시험 3건 · 논문 440편 -->
+- [ ] levocarnitine — Lymphoblastic Lymphoma에 듣는다  <!-- 시험 8건 · 논문 17편 -->
+- [ ] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
+- [ ] levocarnitine — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 578편 -->
+- [ ] loperamide — Diarrhea에 듣는다  <!-- 시험 16건 · 논문 1118편 -->
+- [ ] loperamide — Fecal Incontinence에 듣는다  <!-- 시험 5건 · 논문 85편 -->
+- [ ] loperamide — Intestinal Transit에 듣는다  <!-- 시험 3건 · 논문 405편 -->
+- [ ] loperamide — Rectal Carcinoma에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [ ] mannitol — Asthma에 듣는다  <!-- 시험 19건 · 논문 343편 -->
+- [ ] mannitol — Intracranial Pressure에 듣는다  <!-- 시험 15건 · 논문 1117편 -->
+- [ ] mannitol — Cystic Fibrosis에 듣는다  <!-- 시험 10건 · 논문 207편 -->
+- [ ] mannitol — Cirrhosis, Liver에 듣는다  <!-- 시험 10건 · 논문 115편 -->
+- [ ] methylene blue — Shock에 듣는다  <!-- 시험 17건 · 논문 492편 -->
+- [ ] methylene blue — Sentinel Node에 듣는다  <!-- 시험 9건 · 논문 501편 -->
+- [ ] methylene blue — Periodontitis에 듣는다  <!-- 시험 8건 · 논문 263편 -->
+- [ ] methylene blue — Wound Infection에 듣는다  <!-- 시험 8건 · 논문 86편 -->
+- [ ] minocycline — Stroke에 듣는다  <!-- 시험 18건 · 논문 281편 -->
+- [ ] minocycline — Periodontitis에 듣는다  <!-- 시험 16건 · 논문 502편 -->
+- [ ] minocycline — Acne에 듣는다  <!-- 시험 15건 · 논문 702편 -->
+- [ ] minocycline — Depression에 듣는다  <!-- 시험 14건 · 논문 325편 -->
+- [ ] nicotine — Drug Use에 듣는다  <!-- 시험 75건 · 논문 29021편 -->
+- [ ] nicotine — Cancer에 듣는다  <!-- 시험 26건 · 논문 9155편 -->
+- [ ] nicotine — Schizophrenia에 듣는다  <!-- 시험 10건 · 논문 1276편 -->
+- [ ] nicotine — Smokers에 듣는다  <!-- 시험 6건 · 논문 18719편 -->
+- [ ] pimavanserin — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [ ] pimavanserin — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] ramelteon — Sleep에 듣는다  <!-- 시험 10건 · 논문 363편 -->
+- [ ] ramelteon — Delirium에 듣는다  <!-- 시험 8건 · 논문 108편 -->
+- [ ] ramelteon — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 11편 -->
+- [ ] ramelteon — Circadian Dysregulation에 듣는다  <!-- 시험 4건 · 논문 27편 -->
+- [ ] riluzole — Multiple Sclerosis에 듣는다  <!-- 시험 27건 · 논문 118편 -->
+- [ ] riluzole — Melanoma에 듣는다  <!-- 시험 9건 · 논문 34편 -->
+- [ ] riluzole — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 29편 -->
+- [ ] riluzole — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 155편 -->
+- [ ] rocuronium — Neuromuscular Block에 듣는다  <!-- 시험 67건 · 논문 1744편 -->
+- [ ] rocuronium — Pain에 듣는다  <!-- 시험 30건 · 논문 894편 -->
+- [ ] rocuronium — Surgery에 듣는다  <!-- 시험 25건 · 논문 2287편 -->
+- [ ] selegiline — MDD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] selegiline — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [ ] sodium nitrite — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 59편 -->
+- [ ] sodium nitrite — Sickle Cell Anemia에 듣는다  <!-- 시험 5건 · 논문 16편 -->
+- [ ] sodium nitrite — Myocardial Ischemia에 듣는다  <!-- 시험 4건 · 논문 94편 -->
+- [ ] sodium nitrite — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 512편 -->
+- [ ] sucralfate — Bleeding에 듣는다  <!-- 시험 4건 · 논문 401편 -->
+- [ ] sucralfate — Ulcer Healing에 듣는다  <!-- 시험 3건 · 논문 434편 -->
+- [ ] theophylline — Pulmonary Complications에 듣는다  <!-- 시험 11건 · 논문 461편 -->
+- [ ] theophylline — COPD에 듣는다  <!-- 시험 9건 · 논문 1072편 -->
+- [ ] theophylline — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 -->
+- [ ] zaleplon — Sleep에 듣는다  <!-- 시험 3건 · 논문 273편 -->
+- [ ] vilazodone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 52편 -->
