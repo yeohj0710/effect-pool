@@ -1,0 +1,41 @@
+{
+  "id": "thalidomide-brain-neoplasms-null",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 뇌전이에 쓴다",
+  "line": "뇌전이에 방사선을 더해도 무진행기간 차이가 없었습니다",
+  "effect": "무진행 2개월 vs 3개월",
+  "tier": "trial",
+  "dir": "null",
+  "n": 42,
+  "synth": "single",
+  "why": "탈리도마이드의 허가사항은 다발골수종과 나병성 결절홍반이며 뇌전이 치료는 허가 적응증이 아닙니다.",
+  "saw": "뇌전이 환자 42명을 무작위 비교한 시험에서 전뇌방사선에 탈리도마이드를 추가한 군과 방사선 단독군의 중앙 무진행기간은 2개월 대 3개월, 전체 반응률은 56% 대 44%였고 차이는 유의하지 않았습니다.",
+  "limit": "뇌전이 환자에서 방사선과 병용한 결과이며 탈리도마이드 단독 또는 다른 뇌종양으로 일반화할 수 없습니다. 연구 규모도 작습니다.",
+  "against": "반대 검색 86건. 새로 진단된 교모세포종 155명 요인설계 시험에서도 탈리도마이드 추가로 무진행생존이 개선되지 않았고, 재발 교종 18명 시험에서는 객관적 반응이 없었습니다.",
+  "use": "뇌전이에 방사선을 병용해도 추가 이득이 확인되지 않았으며, 뇌종양 치료제로 일반화할 근거가 부족합니다.",
+  "refs": [
+    {
+      "label": "Singh 2024 · J Clin Res Ther · 뇌전이 방사선 병용 무작위시험",
+      "doi": "10.4103/jcrt.jcrt_1724_22",
+      "pmid": "38554330"
+    },
+    {
+      "label": "Gilbert 2014 · Neuro-Oncology · 교모세포종 요인설계 무작위 2상",
+      "doi": "10.1093/neuonc/nou155",
+      "pmid": "25239666"
+    },
+    {
+      "label": "Reardon 2012 · J Neurooncol · 재발 교종 2상",
+      "doi": "10.1007/s11060-011-0698-y",
+      "pmid": "21870118"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"THALIDOMIDE\" → 1건, 다발골수종·나병성 결절홍반 적응증 확인",
+    "ctgov": "query.intr=thalidomide&query.cond=Brain Neoplasms → 18건 반환, InterventionName 대조 후 thalidomide 16건",
+    "pubmed": "thalidomide Brain Neoplasms → 139건",
+    "negative": "thalidomide Brain Neoplasms (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 86건",
+    "safety": "thalidomide Brain Neoplasms (adverse OR toxicity OR case report OR overdose OR self-medication) → 89건"
+  }
+}

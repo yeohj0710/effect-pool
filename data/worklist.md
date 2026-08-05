@@ -7958,16 +7958,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Sedation에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 26건 · 논문 3582편 -->
 - [x] ketamine — Dexmedetomidine에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 24건 · 논문 1333편 -->
 - [x] prazosin — Combat Disorders에 듣는다 — 기존 항목(prazosin-ptsd-nightmares-null)(2026-08-05)  <!-- 시험 3건 · 논문 37편 -->
-- [ ] prazosin — Anxiety에 듣는다  <!-- 시험 3건 · 논문 137편 -->
-- [ ] prazosin — PTSD에 듣는다  <!-- 시험 3건 · 논문 251편 -->
-- [ ] prazosin — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 40편 -->
-- [ ] thalidomide — Myelodysplastic Syndrome에 듣는다  <!-- 시험 15건 · 논문 610편 -->
-- [ ] thalidomide — Thalassemia에 듣는다  <!-- 시험 15건 · 논문 85편 -->
-- [ ] thalidomide — HIV Infection에 듣는다  <!-- 시험 14건 · 논문 343편 -->
-- [ ] thalidomide — Brain Neoplasms에 듣는다  <!-- 시험 14건 · 논문 139편 -->
-- [ ] ivermectin — Onchocerciasis에 듣는다  <!-- 시험 15건 · 논문 1633편 -->
-- [ ] ivermectin — HIV Infections에 듣는다  <!-- 시험 13건 · 논문 88편 -->
-- [ ] ivermectin — Rosacea에 듣는다  <!-- 시험 12건 · 논문 195편 -->
+- [x] prazosin — Anxiety에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 137편 -->
+- [x] prazosin — PTSD에 듣는다 — 기존 항목(prazosin-ptsd-nightmares-null)(2026-08-05)  <!-- 시험 3건 · 논문 251편 -->
+- [x] prazosin — Alzheimer Disease에 듣는다 — 항목 생성(prazosin-alzheimer-agitation-pos)(2026-08-05)  <!-- 시험 3건 · 논문 40편 -->
+- [x] thalidomide — Myelodysplastic Syndrome에 듣는다 — 항목 생성(thalidomide-myelodysplastic-syndrome-pos)(2026-08-05)  <!-- 시험 15건 · 논문 610편 -->
+- [x] thalidomide — Thalassemia에 듣는다 — 항목 생성(thalidomide-thalassemia-pos)(2026-08-05)  <!-- 시험 15건 · 논문 85편 -->
+- [x] thalidomide — HIV Infection에 듣는다 — 항목 생성(thalidomide-hiv-infection-pos)(2026-08-05)  <!-- 시험 14건 · 논문 343편 -->
+- [x] thalidomide — Brain Neoplasms에 듣는다 — 항목 생성(thalidomide-brain-neoplasms-null)(2026-08-05)  <!-- 시험 14건 · 논문 139편 -->
+- [x] ivermectin — Onchocerciasis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 1633편 -->
+- [x] ivermectin — HIV Infections에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 13건 · 논문 88편 -->
+- [x] ivermectin — Rosacea에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 195편 -->
 - [ ] ivermectin — Malaria에 듣는다  <!-- 시험 11건 · 논문 332편 -->
 - [ ] hydroxychloroquine — Arthritis에 듣는다  <!-- 시험 30건 · 논문 2629편 -->
 - [ ] hydroxychloroquine — Melanoma에 듣는다  <!-- 시험 17건 · 논문 57편 -->

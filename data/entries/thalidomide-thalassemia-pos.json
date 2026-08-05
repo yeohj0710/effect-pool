@@ -1,0 +1,36 @@
+{
+  "id": "thalidomide-thalassemia-pos",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 수혈의존 β-지중해빈혈에 쓴다",
+  "line": "수혈의존 β-지중해빈혈에서 혈색소를 올리고 수혈량을 줄였습니다",
+  "effect": "혈색소 +14 g/L·수혈량↓",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "why": "탈리도마이드의 허가사항은 다발골수종과 나병성 결절홍반이며 수혈의존 β-지중해빈혈은 허가 적응증이 아닙니다.",
+  "saw": "수혈의존 β-지중해빈혈 환자 100명을 무작위 배정한 이중맹검 시험에서 탈리도마이드군의 혈색소 중앙값은 14.0 g/L 올랐고, 12주 수혈량은 위약군보다 적었습니다. 졸림·어지럼·피로·발열·발진은 탈리도마이드군에서 더 흔했습니다.",
+  "limit": "12주 위약 대조기간과 이후 연장기간을 포함한 단일 시험입니다. 수혈 부담과 혈색소를 측정했으며 생존이나 장기 합병증을 평가한 시험은 아닙니다.",
+  "against": "반대 검색 53건. 장기 단일군 연구에서도 효과 신호가 있었지만 무작위 대조군이 없었고, 탈리도마이드군에서 여러 이상반응이 더 흔했습니다.",
+  "use": "수혈의존 β-지중해빈혈에서 혈색소와 수혈 부담을 개선한 무작위시험이 있지만, 중대한 위해를 감안한 전문 관리가 필요합니다.",
+  "refs": [
+    {
+      "label": "Feng 2021 · Signal Transduct Target Ther · β-지중해빈혈 탈리도마이드 RCT",
+      "doi": "10.1038/s41392-021-00811-0",
+      "pmid": "34795208"
+    },
+    {
+      "label": "Kumar 2023 · Sci Rep · 탈리도마이드 장기 추적 연구",
+      "doi": "10.1038/s41598-023-40849-4",
+      "pmid": "37604857"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"THALIDOMIDE\" → 1건, 다발골수종·나병성 결절홍반 적응증 확인",
+    "ctgov": "query.intr=thalidomide&query.cond=Thalassemia → 15건 반환, InterventionName 대조 후 thalidomide 15건",
+    "pubmed": "thalidomide Thalassemia → 85건",
+    "negative": "thalidomide Thalassemia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 53건",
+    "safety": "thalidomide Thalassemia (adverse OR toxicity OR case report OR overdose OR self-medication) → 45건"
+  }
+}

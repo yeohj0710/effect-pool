@@ -1,0 +1,36 @@
+{
+  "id": "thalidomide-hiv-infection-pos",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 HIV 관련 구강궤양에 쓴다",
+  "line": "HIV 관련 구강궤양을 위약보다 더 잘 아물게 했습니다",
+  "effect": "완전 치유 90% vs 33%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 16,
+  "synth": "single",
+  "why": "탈리도마이드의 허가사항은 다발골수종과 나병성 결절홍반이며 HIV 관련 구강궤양은 허가 적응증이 아닙니다.",
+  "saw": "HIV 감염자 16명을 탈리도마이드군 10명과 위약군 6명으로 무작위 배정한 이중맹검 시험에서 8주 뒤 구강궤양 완전 치유는 90% 대 33%였습니다. 탈리도마이드군의 80%에서 발진이 발생했습니다.",
+  "limit": "HIV 감염 자체가 아니라 재발성 구강궤양을 치료한 16명 시험입니다. 바이러스 억제나 HIV 감염의 진행을 평가하지 않았습니다.",
+  "against": "반대 검색 200건. 재발 예방 무작위시험 49명에서는 궤양 재발이 61% 대 42%로 유의한 차이가 없었고, 호중구감소·발진·말초신경병증이 보고됐습니다.",
+  "use": "HIV 관련 구강궤양의 단기 치유 신호는 있지만, 재발 예방이나 HIV 감염 자체의 치료 효과로 확대할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Jacobson 1997 · Clin Infect Dis · HIV 관련 구강궤양 위약대조시험",
+      "doi": "10.1086/515222",
+      "pmid": "10825055"
+    },
+    {
+      "label": "Jacobson 2001 · Clin Infect Dis · HIV 관련 구강궤양 재발 예방시험",
+      "doi": "10.1086/317928",
+      "pmid": "11120935"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"THALIDOMIDE\" → 1건, 다발골수종·나병성 결절홍반 적응증 확인",
+    "ctgov": "query.intr=thalidomide&query.cond=HIV Infection → 13건 반환, InterventionName 대조 후 thalidomide 12건",
+    "pubmed": "thalidomide HIV Infection → 343건",
+    "negative": "thalidomide HIV Infection (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 200건",
+    "safety": "thalidomide HIV Infection (adverse OR toxicity OR case report OR overdose OR self-medication) → 185건"
+  }
+}

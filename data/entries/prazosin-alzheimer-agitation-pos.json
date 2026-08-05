@@ -1,0 +1,31 @@
+{
+  "id": "prazosin-alzheimer-agitation-pos",
+  "subj": "프라조신",
+  "claim": "혈압약을 알츠하이머병 행동증상에 쓴다",
+  "line": "알츠하이머병의 초조·공격성을 위약보다 줄였습니다",
+  "effect": "NPI 19점 vs 2점 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 22,
+  "synth": "single",
+  "why": "프라조신의 허가사항은 고혈압이며 알츠하이머병 행동증상은 허가 적응증이 아닙니다.",
+  "saw": "알츠하이머병 행동증상 환자 22명을 8주 이중맹검 위약대조 무작위시험에 배정했습니다. NPI 평균 변화는 프라조신 −19점, 위약 −2점이었고 BPRS도 −9점 대 −3점으로 더 줄었습니다. 임상 전반 인상도 개선됐고 이상반응과 혈압 변화는 비슷했습니다.",
+  "limit": "행동증상이 있는 알츠하이머병 환자 22명의 소규모 파일럿 시험입니다. 알츠하이머병 전체 진행이나 장기 기능을 평가하지 않았습니다.",
+  "against": "반대 검색 30건. 이 소규모 파일럿 한 편 외에 알츠하이머병 행동증상에서 프라조신의 효과를 확증한 큰 시험은 확인하지 못했습니다.",
+  "use": "알츠하이머병의 초조·공격성에 개선 신호가 있지만, 작은 단일 시험 결과이므로 확정적 치료 효과로 볼 수 없습니다.",
+  "refs": [
+    {
+      "label": "Wang 2009 · Am J Geriatr Psychiatry · 알츠하이머병 행동증상 RCT",
+      "doi": "10.1097/JGP.0b013e3181ab8c61",
+      "pmid": "19700947"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:\"PRAZOSIN\" → 71건, 고혈압 적응증 확인",
+    "ctgov": "query.intr=prazosin&query.cond=Alzheimer Disease → 3건 반환, InterventionName 대조 후 prazosin 3건",
+    "pubmed": "prazosin Alzheimer Disease → 40건",
+    "negative": "prazosin Alzheimer Disease (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 30건",
+    "safety": "prazosin Alzheimer Disease (adverse OR toxicity OR case report OR overdose OR self-medication) → 10건"
+  }
+}
