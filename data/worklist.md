@@ -7090,3 +7090,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] berberine — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 48편 --> — 이미 수록됨(2026-08-05)
 - [x] berberine — Metabolic Syndrome에 듣는다  <!-- 시험 8건 · 논문 181편 --> — 이미 수록됨(2026-08-05)
 - [x] berberine — Gastritis에 듣는다  <!-- 시험 8건 · 논문 35편 --> — 이미 수록됨(2026-08-05)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] paroxetine — Depression에 듣는다  <!-- 시험 39건 · 논문 3377편 --> — 허가 적응증(2026-08-05)
+- [x] paroxetine — Anxiety Disorder에 듣는다  <!-- 시험 26건 · 논문 1267편 --> — 허가 적응증(2026-08-05)
+- [x] paroxetine — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 19건 · 논문 222편 --> — 신규 항목(paroxetine-ptsd-pos)(2026-08-05)
+- [x] paroxetine — Panic Disorder에 듣는다  <!-- 시험 14건 · 논문 315편 --> — 허가 적응증(2026-08-05)
+- [x] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 8건 · 논문 490편 --> — 허가 적응증(2026-08-05)
+- [x] fluvoxamine — COVID-19에 듣는다  <!-- 시험 8건 · 논문 195편 --> — 이미 수록됨(2026-08-05)
+- [x] fluvoxamine — Anxiety Disorders에 듣는다  <!-- 시험 7건 · 논문 691편 --> — 이미 수록됨(2026-08-05)
+- [x] fluvoxamine — Covid19에 듣는다  <!-- 시험 6건 · 논문 190편 --> — 이미 수록됨(2026-08-05)
+- [x] escitalopram — Depression에 듣는다  <!-- 시험 112건 · 논문 2549편 --> — 허가 적응증(2026-08-05)
+- [x] escitalopram — Anxiety에 듣는다  <!-- 시험 37건 · 논문 887편 --> — 허가 적응증(2026-08-05)
+- [ ] escitalopram — Cancer에 듣는다  <!-- 시험 14건 · 논문 134편 -->
+- [ ] escitalopram — Insomnia에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [ ] ziprasidone — Bipolar Mania에 듣는다  <!-- 시험 37건 · 논문 139편 -->
+- [ ] ziprasidone — Schizoaffective Disorder에 듣는다  <!-- 시험 17건 · 논문 404편 -->
+- [ ] ziprasidone — Psychotic Disorder에 듣는다  <!-- 시험 10건 · 논문 396편 -->
+- [ ] ziprasidone — Psychosis에 듣는다  <!-- 시험 6건 · 논문 477편 -->
