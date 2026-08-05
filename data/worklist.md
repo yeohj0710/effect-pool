@@ -7136,16 +7136,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pioglitazone — Metabolic Syndrome에 듣는다  <!-- 시험 18건 · 논문 448편 --> — 이미 수록됨(2026-08-05)
 - [x] simvastatin — Cancer에 듣는다  <!-- 시험 53건 · 논문 1397편 --> — 이미 수록됨(2026-08-05)
 - [x] simvastatin — Diabetes에 듣는다  <!-- 시험 50건 · 논문 1437편 --> — 신규 항목(simvastatin-diabetes-null)(2026-08-05)
-- [ ] simvastatin — Heart Failure에 듣는다  <!-- 시험 39건 · 논문 252편 -->
-- [ ] simvastatin — Dyslipidemia에 듣는다  <!-- 시험 34건 · 논문 3177편 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 시험 48건 · 논문 3832편 -->
-- [ ] fluoxetine — Social Anxiety에 듣는다  <!-- 시험 14건 · 논문 2251편 -->
-- [ ] fluoxetine — Stroke에 듣는다  <!-- 시험 12건 · 논문 321편 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 10건 · 논문 797편 -->
-- [ ] candesartan — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 553편 -->
-- [ ] candesartan — Migraine에 듣는다  <!-- 시험 8건 · 논문 79편 -->
-- [ ] candesartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 513편 -->
-- [ ] candesartan — Obesity에 듣는다  <!-- 시험 6건 · 논문 95편 -->
+- [x] simvastatin — Heart Failure에 듣는다  <!-- 시험 39건 · 논문 252편 --> — 이미 수록됨(2026-08-05)
+- [x] simvastatin — Dyslipidemia에 듣는다  <!-- 시험 34건 · 논문 3177편 --> — 허가 적응증(2026-08-05)
+- [x] fluoxetine — Depressive Disorder에 듣는다  <!-- 시험 48건 · 논문 3832편 --> — 허가 적응증(2026-08-05)
+- [x] fluoxetine — Social Anxiety에 듣는다  <!-- 시험 14건 · 논문 2251편 --> — 이미 수록됨(2026-08-05)
+- [x] fluoxetine — Stroke에 듣는다  <!-- 시험 12건 · 논문 321편 --> — 이미 수록됨(2026-08-05)
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 10건 · 논문 797편 --> — 허가 적응증(2026-08-05)
+- [x] candesartan — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 553편 --> — 허가 적응증(2026-08-05)
+- [x] candesartan — Migraine에 듣는다  <!-- 시험 8건 · 논문 79편 --> — 이미 수록됨(2026-08-05)
+- [x] candesartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 513편 --> — 이미 수록됨(2026-08-05)
+- [x] candesartan — Obesity에 듣는다  <!-- 시험 6건 · 논문 95편 --> — 신규 항목(candesartan-obesity-open)(2026-08-05)
 - [ ] carvedilol — Heart Failure에 듣는다  <!-- 시험 38건 · 논문 1839편 -->
 - [ ] carvedilol — Cirrhosis에 듣는다  <!-- 시험 34건 · 논문 343편 -->
 - [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 시험 15건 · 논문 104편 -->
