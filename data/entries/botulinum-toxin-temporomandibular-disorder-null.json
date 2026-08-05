@@ -1,0 +1,36 @@
+{
+  "id": "botulinum-toxin-temporomandibular-disorder-null",
+  "subj": "보툴리눔 독소",
+  "claim": "보툴리눔 독소를 턱관절장애 통증에 쓴다",
+  "line": "턱관절장애 통증을 줄인다는 근거는 일관되지 않습니다",
+  "effect": "통증 MD -1.71, 유의하지 않음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 395,
+  "synth": "meta",
+  "why": "턱관절장애에서 보툴리눔 독소와 대조치료를 비교한 무작위시험 14편의 메타분석입니다.",
+  "saw": "무작위시험 14편, 환자 395명의 통증 통합효과는 여러 시점에서 유의하지 않았고 대표 평균차는 -1.71점이었습니다.",
+  "limit": "주사 부위와 평가 시점이 연구마다 달랐고, 다른 메타분석은 통증과 기능 개선을 보고해 결과가 충돌합니다.",
+  "against": "반대 검색 5건. 환자 504명을 합친 다른 메타분석은 통증과 기능 개선을 보고해 연구 선택과 방법 차이가 있습니다.",
+  "use": "턱관절장애 통증에서 효과가 일관되지 않다는 메타분석 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "PLOS One 2024 · 턱관절장애 보툴리눔 독소 메타분석",
+      "doi": "10.1371/journal.pone.0300157",
+      "pmid": "38483856"
+    },
+    {
+      "label": "J Oral Rehabil 2024 · 턱관절장애 보툴리눔 독소 메타분석",
+      "doi": "10.1111/joor.13648",
+      "pmid": "38151884"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:BOTULINUM TOXIN → 3건, 근육경직·경련·주름 등 제형별 허가; 턱관절장애는 비허가",
+    "ctgov": "query.intr=botulinum toxin&query.cond=Temporomandibular Disorder → 18건 반환, InterventionName 대조 후 0건",
+    "pubmed": "botulinum toxin Temporomandibular Disorder → 49건",
+    "negative": "botulinum toxin Temporomandibular Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5건",
+    "safety": "botulinum toxin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 7,717건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "prazosin-headache-pos",
+  "subj": "프라조신",
+  "claim": "혈압약을 외상후 두통에 쓴다",
+  "line": "외상후 두통의 빈도와 장애를 줄였습니다",
+  "effect": "두통 빈도 -5.2회/4주",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 48,
+  "synth": "single",
+  "why": "외상후 두통 환자를 프라조신과 위약에 무작위로 나눈 시험입니다.",
+  "saw": "환자 48명에서 4주 두통 빈도 차이는 -5.2회, HIT-6 차이는 -6.6점이었고 50% 이상 감소는 70% 대 29%였습니다. 아침 졸림은 69% 대 19%로 더 많았습니다.",
+  "limit": "단일 소규모 시험이며 두통 감소와 함께 아침 졸림이 더 흔했습니다.",
+  "against": "반대 검색 25건에서 직접 비교 가능한 반증 시험은 찾지 못했지만, 작은 표본이라 재현성은 불확실합니다.",
+  "use": "외상후 두통에서 보인 감소 신호와 졸림 위험을 함께 평가할 때 참고합니다.",
+  "refs": [
+    {
+      "label": "Khan 2023 · Headache · 외상후 두통 무작위시험",
+      "doi": "10.1111/head.14529",
+      "pmid": "37313689"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:PRAZOSIN → 71건, 고혈압 허가; 외상후 두통은 비허가",
+    "ctgov": "query.intr=prazosin&query.cond=Headache → 2건 반환, InterventionName 대조 후 1건",
+    "pubmed": "prazosin Headache → 107건",
+    "negative": "prazosin Headache AND (no effect OR did not OR failed to OR negative OR no significant difference) → 25건",
+    "safety": "prazosin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,743건"
+  }
+}

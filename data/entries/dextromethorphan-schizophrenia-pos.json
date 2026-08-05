@@ -1,0 +1,37 @@
+{
+  "id": "dextromethorphan-schizophrenia-pos",
+  "subj": "덱스트로메토르판",
+  "claim": "기침약을 클로자핀 저항성 조현병 보조치료에 쓴다",
+  "line": "치료저항성 조현병에서 클로자핀 보조로 증상을 줄였습니다",
+  "effect": "PANSS -10.68점",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 40,
+  "synth": "single",
+  "why": "클로자핀 치료에도 증상이 남은 조현병 환자를 덱스트로메토르판 보조요법과 대조요법에 무작위로 나눈 시험입니다.",
+  "saw": "중간분석 환자 40명에서 PANSS 점수 차이는 -10.68점이었고 효능 신호로 시험을 조기 종료했습니다.",
+  "limit": "중간분석 결과이며 표본이 작고 조기 종료된 단일 시험이라 큰 연구에서 재현할지 확인해야 합니다.",
+  "against": "반대 검색 7건. 이전 보조요법 연구와 직접 비교하기 어렵고 조기 종료에 따른 과대추정 가능성이 있습니다.",
+  "use": "치료저항성 조현병에서 클로자핀 보조요법으로 나온 초기 양성 신호를 보여줍니다.",
+  "refs": [
+    {
+      "label": "2026 · Am J Psychiatry · 클로자핀 보조 무작위시험",
+      "doi": "10.1016/j.ajp.2026.104919",
+      "pmid": "41780197",
+      "nct": "NCT05944510"
+    },
+    {
+      "label": "Chung 2012 · J Neuroimmune Pharmacol · 조현병 보조요법 연구",
+      "doi": "10.1007/s11481-012-9382-z",
+      "pmid": "22730040"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:DEXTROMETHORPHAN → 2,221건, 기침 완화 허가 성분; 조현병은 비허가",
+    "ctgov": "query.intr=dextromethorphan&query.cond=Schizophrenia → 5건 반환, InterventionName 대조 후 3건",
+    "pubmed": "dextromethorphan Schizophrenia → 27건",
+    "negative": "dextromethorphan Schizophrenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 7건",
+    "safety": "dextromethorphan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 956건"
+  }
+}

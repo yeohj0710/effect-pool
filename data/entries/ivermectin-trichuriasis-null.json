@@ -1,0 +1,31 @@
+{
+  "id": "ivermectin-trichuriasis-null",
+  "subj": "이버멕틴",
+  "claim": "구충제를 편충 감염에 쓴다",
+  "line": "편충 감염의 치유율은 위약과 다르지 않았습니다",
+  "effect": "치유율 20.9% vs 19.5%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 292,
+  "synth": "single",
+  "why": "편충 감염 어린이를 이버멕틴과 위약에 무작위로 나눈 두 시험의 결과입니다.",
+  "saw": "어린이 292명에서 이버멕틴 단독 치료의 치유율은 20.9%, 위약은 19.5%로 차이가 없었습니다.",
+  "limit": "어린이 대상이며 치유율이 낮았습니다. 다른 구충제와 병용한 시험 결과와는 구분해야 합니다.",
+  "against": "반대 검색 21건. 병용요법을 포함한 연구는 단독요법의 결과를 직접 반박하지 않습니다.",
+  "use": "편충 감염에서 이버멕틴 단독 효과가 확인되지 않은 무작위 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "Belizario 2018 · Clin Infect Dis · 편충 감염 소아 무작위시험",
+      "doi": "10.1093/cid/ciy246",
+      "pmid": "29617737"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:IVERMECTIN → 37건, 강변실명증·분선충증 허가; 편충 감염은 비허가",
+    "ctgov": "query.intr=ivermectin&query.cond=Trichuriasis → 9건 반환, InterventionName 대조 후 2건",
+    "pubmed": "ivermectin Trichuriasis → 90건",
+    "negative": "ivermectin Trichuriasis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 21건",
+    "safety": "ivermectin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,841건"
+  }
+}

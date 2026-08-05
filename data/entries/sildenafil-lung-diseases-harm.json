@@ -1,0 +1,32 @@
+{
+  "id": "sildenafil-lung-diseases-harm",
+  "subj": "실데나필",
+  "claim": "발기부전약을 COPD 운동능력에 쓴다",
+  "line": "COPD 운동능력을 높이지 못했고 가스교환과 삶의 질은 나빠졌습니다",
+  "effect": "6분 보행 -7.8m",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 10,
+  "synth": "single",
+  "why": "폐고혈압이 없는 COPD·폐기종 환자를 실데나필과 위약에 무작위로 나눈 시험입니다.",
+  "saw": "환자 10명에서 6분 보행과 산소섭취량은 좋아지지 않았고 가스교환, 호흡기 증상, 삶의 질과 이상반응은 더 나빴습니다.",
+  "limit": "표본이 10명으로 매우 작고 폐고혈압이 없는 COPD 환자에 한정된 결과입니다.",
+  "against": "반대 검색 11건. 폐고혈압을 동반한 다른 환자군의 결과는 이 시험의 위해 결과와 직접 비교할 수 없습니다.",
+  "use": "폐고혈압이 없는 COPD에 운동능력 개선 목적으로 쓰면 위해 신호가 있었던 근거입니다.",
+  "refs": [
+    {
+      "label": "Lopes 2012 · COPD · COPD 실데나필 무작위시험",
+      "doi": "10.3109/15412555.2011.651180",
+      "pmid": "22360383",
+      "nct": "NCT00104637"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:SILDENAFIL → 166건, 발기부전·폐동맥고혈압 허가; COPD 운동능력은 비허가",
+    "ctgov": "query.intr=sildenafil&query.cond=Lung Diseases → 147건 반환, InterventionName 대조 후 73건",
+    "pubmed": "sildenafil Lung Diseases → 71건",
+    "negative": "sildenafil Lung Diseases AND (no effect OR did not OR failed to OR negative OR no significant difference) → 11건",
+    "safety": "sildenafil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,822건"
+  }
+}

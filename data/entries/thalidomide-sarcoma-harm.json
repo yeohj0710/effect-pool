@@ -1,0 +1,31 @@
+{
+  "id": "thalidomide-sarcoma-harm",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 부인암 육종에 쓴다",
+  "line": "부인암 육종에서 모두 진행했고 내약성이 나빴습니다",
+  "effect": "전원 진행·PFS 1.84개월",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 17,
+  "synth": "single",
+  "why": "진행성 부인과 육종 환자를 대상으로 한 단일군 2상 시험입니다.",
+  "saw": "부인과 육종 환자 17명에서 모두 병이 진행했고 무진행생존기간 중앙값은 1.84개월이었습니다. 치료를 견디기 어려운 환자도 있었습니다.",
+  "limit": "표본이 작고 대조군이 없는 단일군 시험이라 다른 육종에 일반화하기 어렵습니다.",
+  "against": "반대 검색 13건. 직접적인 반대 효능시험은 적지만 이 시험에서는 유효성 신호를 확인하지 못했습니다.",
+  "use": "진행성 부인과 육종에서 실패와 독성을 함께 보여주는 근거입니다.",
+  "refs": [
+    {
+      "label": "GOG 2005 · Gynecol Oncol · 부인과 육종 2상",
+      "doi": "10.1016/j.ygyno.2005.08.033",
+      "pmid": "16198398"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:THALIDOMIDE → 1건, 다발골수종·나병성 결절홍반 허가; 육종은 비허가",
+    "ctgov": "query.intr=thalidomide&query.cond=Sarcoma → 11건 반환, InterventionName 대조 후 10건",
+    "pubmed": "thalidomide Sarcoma → 123건",
+    "negative": "thalidomide Sarcoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 13건",
+    "safety": "thalidomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,092건"
+  }
+}

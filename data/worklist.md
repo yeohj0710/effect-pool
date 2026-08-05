@@ -8284,36 +8284,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Opioid Use에 듣는다  <!-- 시험 16건 · 논문 4690편 -->
 - [x] ketamine — Postoperative에 듣는다  <!-- 시험 16건 · 논문 3700편 -->
 - [x] ketamine — Brain Tumor에 듣는다  <!-- 시험 15건 · 논문 158편 -->
-- [ ] prazosin — Cocaine Dependence에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] prazosin — Headache에 듣는다  <!-- 시험 3건 · 논문 115편 -->
-- [ ] thalidomide — Melanoma에 듣는다  <!-- 시험 14건 · 논문 107편 -->
-- [ ] thalidomide — Sarcoma에 듣는다  <!-- 시험 12건 · 논문 149편 -->
-- [ ] thalidomide — Vascular Malformation에 듣는다  <!-- 시험 6건 · 논문 110편 -->
-- [ ] ivermectin — Head Lice에 듣는다  <!-- 시험 10건 · 논문 133편 -->
-- [ ] ivermectin — Sars-CoV2에 듣는다  <!-- 시험 9건 · 논문 23편 -->
-- [ ] ivermectin — Strongyloidiasis에 듣는다  <!-- 시험 8건 · 논문 670편 -->
-- [ ] ivermectin — Trichuriasis에 듣는다  <!-- 시험 6건 · 논문 90편 -->
-- [ ] hydroxychloroquine — Pregnancy Related에 듣는다  <!-- 시험 13건 · 논문 176편 -->
-- [ ] hydroxychloroquine — Respiratory Failure에 듣는다  <!-- 시험 12건 · 논문 309편 -->
-- [ ] hydroxychloroquine — Pneumonia에 듣는다  <!-- 시험 10건 · 논문 2582편 -->
-- [ ] valacyclovir — Postherpetic Neuralgia에 듣는다  <!-- 시험 3건 · 논문 94편 -->
-- [ ] bupropion — Dementia에 듣는다  <!-- 시험 13건 · 논문 48편 -->
-- [ ] bupropion — Breast Carcinoma에 듣는다  <!-- 시험 13건 · 논문 13편 -->
-- [ ] bupropion — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 238편 -->
-- [ ] sildenafil — Diabetes에 듣는다  <!-- 시험 7건 · 논문 570편 -->
-- [ ] sildenafil — Female Sexual Health에 듣는다  <!-- 시험 7건 · 논문 101편 -->
-- [ ] sildenafil — Lung Diseases에 듣는다  <!-- 시험 7건 · 논문 1827편 -->
-- [ ] sildenafil — Neonatal Asphyxia에 듣는다  <!-- 시험 6건 · 논문 12편 -->
-- [ ] botulinum toxin — Blepharospasm에 듣는다  <!-- 시험 14건 · 논문 1124편 -->
-- [ ] botulinum toxin — Lateral Canthal Lines에 듣는다  <!-- 시험 13건 · 논문 52편 -->
-- [ ] botulinum toxin — Temporomandibular Disorder에 듣는다  <!-- 시험 13건 · 논문 267편 -->
-- [ ] botulinum toxin — Aging에 듣는다  <!-- 시험 12건 · 논문 1587편 -->
-- [ ] duloxetine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 69편 -->
-- [ ] duloxetine — Alcohol-Related Disorders에 듣는다  <!-- 시험 6건 · 논문 11편 -->
-- [ ] duloxetine — Opioid Use에 듣는다  <!-- 시험 6건 · 논문 413편 -->
-- [ ] dextromethorphan — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 217편 -->
-- [ ] dextromethorphan — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] dextromethorphan — Cough에 듣는다  <!-- 시험 3건 · 논문 448편 -->
+- [x] prazosin — Cocaine Dependence에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 15편 -->
+- [x] prazosin — Headache에 듣는다  <!-- 시험 3건 · 논문 115편 -->
+- [x] thalidomide — Melanoma에 듣는다  <!-- 시험 14건 · 논문 107편 -->
+- [x] thalidomide — Sarcoma에 듣는다  <!-- 시험 12건 · 논문 149편 -->
+- [x] thalidomide — Vascular Malformation에 듣는다  <!-- 시험 6건 · 논문 110편 -->
+- [x] ivermectin — Head Lice에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 133편 -->
+- [x] ivermectin — Sars-CoV2에 듣는다 — 이미 반영(코로나19 입원)(2026-08-05)  <!-- 시험 9건 · 논문 23편 -->
+- [x] ivermectin — Strongyloidiasis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 670편 -->
+- [x] ivermectin — Trichuriasis에 듣는다  <!-- 시험 6건 · 논문 90편 -->
+- [x] hydroxychloroquine — Pregnancy Related에 듣는다  <!-- 시험 13건 · 논문 176편 -->
+- [x] hydroxychloroquine — Respiratory Failure에 듣는다 — 이미 반영(코로나19 입원)(2026-08-05)  <!-- 시험 12건 · 논문 309편 -->
+- [x] hydroxychloroquine — Pneumonia에 듣는다 — 이미 반영(코로나19 입원)(2026-08-05)  <!-- 시험 10건 · 논문 2582편 -->
+- [x] valacyclovir — Postherpetic Neuralgia에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [x] bupropion — Dementia에 듣는다  <!-- 시험 13건 · 논문 48편 -->
+- [x] bupropion — Breast Carcinoma에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 13건 · 논문 13편 -->
+- [x] bupropion — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 238편 -->
+- [x] sildenafil — Diabetes에 듣는다  <!-- 시험 7건 · 논문 570편 -->
+- [x] sildenafil — Female Sexual Health에 듣는다  <!-- 시험 7건 · 논문 101편 -->
+- [x] sildenafil — Lung Diseases에 듣는다  <!-- 시험 7건 · 논문 1827편 -->
+- [x] sildenafil — Neonatal Asphyxia에 듣는다  <!-- 시험 6건 · 논문 12편 -->
+- [x] botulinum toxin — Blepharospasm에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 14건 · 논문 1124편 -->
+- [x] botulinum toxin — Lateral Canthal Lines에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 13건 · 논문 52편 -->
+- [x] botulinum toxin — Temporomandibular Disorder에 듣는다  <!-- 시험 13건 · 논문 267편 -->
+- [x] botulinum toxin — Aging에 듣는다 — 항목 아님(질환·결과 범위 불명확)(2026-08-05)  <!-- 시험 12건 · 논문 1587편 -->
+- [x] duloxetine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 69편 -->
+- [x] duloxetine — Alcohol-Related Disorders에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 6건 · 논문 11편 -->
+- [x] duloxetine — Opioid Use에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 6건 · 논문 413편 -->
+- [x] dextromethorphan — Healthy Participants에 듣는다 — 항목 아님(건강인 약동학 연구)(2026-08-05)  <!-- 시험 4건 · 논문 217편 -->
+- [x] dextromethorphan — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [x] dextromethorphan — Cough에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 448편 -->
 - [ ] clonidine — Sedation에 듣는다  <!-- 시험 9건 · 논문 1178편 -->
 - [ ] clonidine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 434편 -->
 - [ ] clonidine — Nerve Block에 듣는다  <!-- 시험 7건 · 논문 438편 -->

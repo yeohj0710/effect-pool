@@ -1,0 +1,31 @@
+{
+  "id": "thalidomide-melanoma-null",
+  "subj": "탈리도마이드",
+  "claim": "기형 유발 약을 진행성 흑색종에 쓴다",
+  "line": "흑색종에서 테모졸로마이드 병용 효과가 뚜렷하지 않았습니다",
+  "effect": "반응·안정 25% vs 20%대",
+  "tier": "trial",
+  "dir": "null",
+  "n": 181,
+  "synth": "single",
+  "why": "진행성 흑색종 환자를 탈리도마이드 병용요법과 비교요법에 무작위로 나눈 2상 시험입니다.",
+  "saw": "환자 181명에서 반응 또는 안정 질환은 병용군 25%, 비교군 20%대였고 생존기간 중앙값은 7.3개월이었습니다.",
+  "limit": "탈리도마이드 단독 효과가 아니라 테모졸로마이드 병용요법을 비교했으며 생존 개선은 뚜렷하지 않았습니다.",
+  "against": "반대 검색 14건. 다른 소규모 연구는 반응을 보고했지만 무작위 비교 근거와 일관되지 않습니다.",
+  "use": "흑색종에 탈리도마이드 단독을 추가할 근거가 부족하다는 판단에 사용합니다.",
+  "refs": [
+    {
+      "label": "Hwu 2003 · J Clin Oncol · 진행성 흑색종 무작위 2상",
+      "doi": "10.1200/JCO.2003.10.039",
+      "pmid": "12829675"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:THALIDOMIDE → 1건, 다발골수종·나병성 결절홍반 허가; 흑색종은 비허가",
+    "ctgov": "query.intr=thalidomide&query.cond=Melanoma → 11건 반환, InterventionName 대조 후 11건",
+    "pubmed": "thalidomide Melanoma → 107건",
+    "negative": "thalidomide Melanoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 14건",
+    "safety": "thalidomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,092건"
+  }
+}

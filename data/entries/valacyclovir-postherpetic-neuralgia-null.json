@@ -1,0 +1,32 @@
+{
+  "id": "valacyclovir-postherpetic-neuralgia-null",
+  "subj": "발라시클로버",
+  "claim": "항바이러스제를 눈 대상포진 후 신경통 예방에 쓴다",
+  "line": "눈 대상포진 뒤 신경통 유병률을 줄이지 못했습니다",
+  "effect": "신경통 12개월 38% vs 40%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 527,
+  "synth": "single",
+  "why": "면역정상 눈 대상포진 환자를 발라시클로버와 위약에 무작위로 나눈 시험입니다.",
+  "saw": "환자 527명에서 12개월 후 대상포진 후 신경통 유병률은 발라시클로버 38%, 위약 40%로 차이가 없었습니다. 통증 강도와 기간의 일부 하위 결과는 더 낮았습니다.",
+  "limit": "주요 결과는 신경통 유병률이며 하위 분석의 통증 결과만으로 예방 효과를 확정할 수 없습니다.",
+  "against": "반대 검색 8건. 일부 이차 결과는 통증 감소를 시사했지만 주요 유병률 결과는 음성이었습니다.",
+  "use": "눈 대상포진 뒤 신경통 예방 효과를 판단할 때 주요 결과와 하위 결과를 분리해 제시합니다.",
+  "refs": [
+    {
+      "label": "Cohen 2025 · JAMA Ophthalmology · 눈 대상포진 무작위시험",
+      "doi": "10.1001/jamaophthalmol.2024.6113",
+      "pmid": "40048191",
+      "nct": "NCT03134196"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA generic_name:VALACYCLOVIR → 90건, 대상포진·단순포진 허가; 대상포진 후 신경통 예방은 비허가",
+    "ctgov": "query.intr=valacyclovir&query.cond=Postherpetic Neuralgia → 5건 반환, InterventionName 대조 후 3건",
+    "pubmed": "valacyclovir Postherpetic Neuralgia → 72건",
+    "negative": "valacyclovir Postherpetic Neuralgia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 8건",
+    "safety": "valacyclovir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 697건"
+  }
+}
