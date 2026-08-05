@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-04",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 625,
+  "entries": 627,
   "worklist": {
-    "checked": 5108,
-    "unchecked": 22,
+    "checked": 5118,
+    "unchecked": 12,
     "no_evidence_pending": 0,
     "next_batch": [
-      "tamoxifen-brain-tumor",
-      "tamoxifen-ductal-carcinoma",
-      "raloxifene-breast-cancer",
-      "raloxifene-schizophrenia",
-      "raloxifene-schizoaffective-disorder",
-      "raloxifene-schizophreniform-disorder",
-      "allopurinol-gout",
-      "allopurinol-lymphoma",
-      "allopurinol-hyperuricemia",
-      "allopurinol-kidney-stones"
+      "n-acetylcysteine-kidney-disease",
+      "n-acetylcysteine-pulmonary-fibrosis",
+      "n-acetylcysteine-oxidative-stress",
+      "n-acetylcysteine-cocaine-dependence",
+      "creatine-muscle",
+      "creatine-major-depressive-disorder",
+      "creatine-sarcopenia",
+      "creatine-sport-performance",
+      "berberine-schizophrenia",
+      "berberine-metabolic-syndrome"
     ]
   },
   "verification": {
@@ -24,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 581,
+      "trial": 583,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 257,
+    "no_effect_or_harm": 259,
     "harm": 23,
     "no_effect_or_harm_share": "41%"
   },
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "tranexamic-acid-hemorrhage (approved)",
-    "tranexamic-acid-bleeding (existing)",
-    "tranexamic-acid-hip-fracture (existing)",
-    "tranexamic-acid-surgery (existing)",
-    "isotretinoin-acne (approved)",
-    "isotretinoin-lymphoma-t-cell (existing)",
-    "isotretinoin-lung-cancer (existing)",
-    "isotretinoin-leukemia (existing)",
-    "tamoxifen-solid-tumor (existing)",
-    "tamoxifen-brca-mutation (existing)"
+    "tamoxifen-brain-tumor (existing)",
+    "tamoxifen-ductal-carcinoma (approved)",
+    "raloxifene-breast-cancer (new)",
+    "raloxifene-schizophrenia (existing)",
+    "raloxifene-schizoaffective-disorder (existing)",
+    "raloxifene-schizophreniform-disorder (existing)",
+    "allopurinol-gout (approved)",
+    "allopurinol-lymphoma (new)",
+    "allopurinol-hyperuricemia (existing)",
+    "allopurinol-kidney-stones (approved)"
   ],
   "expansion": {
     "date": "2026-08-04",
@@ -69,8 +69,8 @@
     "added_candidates": 252
   },
   "resume": {
-    "last_committed_batch": "dapsone, methotrexate, hydroxyurea",
-    "current_batch": "tranexamic acid, isotretinoin, tamoxifen",
+    "last_committed_batch": "tranexamic acid, isotretinoin, tamoxifen",
+    "current_batch": "tamoxifen, raloxifene, allopurinol",
     "next_action": "commit, push, then process next batch"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "id": "raloxifene-breast-cancer-null",
+  "subj": "랄록시펜",
+  "claim": "랄록시펜이 유방암을 치료한다",
+  "line": "유방암 위험은 줄였지만 침윤성 유방암 치료 효과는 없습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 19747,
+  "synth": "single",
+  "why": "허가 라벨은 고위험 폐경 후 여성의 침윤성 유방암 발생 위험 감소를 적응증으로 두고 침윤성 유방암 치료에는 적응증이 없다고 명시합니다. ClinicalTrials.gov에서 raloxifene과 유방암 연구 16건을 확인했고, STAR 예방시험 NCT00003906의 등록 인원은 19,747명이었습니다.",
+  "saw": "STAR 연구는 침윤성 유방암이 없는 폐경 후 여성의 예방 효과를 비교했고, 43개 예방 무작위시험을 합친 네트워크 메타분석(PMID40598299)에서도 raloxifene은 유방암 발생 위험을 줄였지만 이미 생긴 암의 치료 효과를 평가하지 않았습니다.",
+  "limit": "근거가 유방암 예방 대상자에 한정되고 침윤성 유방암 환자를 제외했으므로 치료 효과로 일반화할 수 없습니다.",
+  "against": "허가 라벨은 raloxifene을 침윤성 유방암 치료나 재발 위험 감소에 사용하지 않도록 명시합니다.",
+  "use": "raloxifene은 고위험 폐경 후 여성의 유방암 발생 위험 감소 근거로만 해석하고 이미 생긴 유방암 치료제로 사용해서는 안 됩니다.",
+  "refs": [
+    {
+      "label": "NCT00003906 · 폐경 후 여성의 tamoxifen·raloxifene 유방암 예방 STAR 연구",
+      "nct": "NCT00003906"
+    },
+    {
+      "label": "Medications to reduce breast cancer risk · 유방암 예방 무작위시험 네트워크 메타분석",
+      "pmid": "40598299"
+    },
+    {
+      "label": "Pharmacological Prevention in Breast Cancer · 약물 예방 근거 종설",
+      "pmid": "41300964"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=raloxifene&query.cond=Breast Cancer — 16건 반환; NCT00003906의 중재명 Raloxifene 확인",
+    "pubmed": "raloxifene breast cancer randomized trial — 301건",
+    "negative": "raloxifene breast cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) — 1,075건",
+    "safety": "raloxifene breast cancer AND (adverse OR toxicity OR case report OR overdose OR self-medication) — 475건"
+  }
+}
