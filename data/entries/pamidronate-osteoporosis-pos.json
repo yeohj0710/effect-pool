@@ -1,0 +1,29 @@
+{
+  "id": "pamidronate-osteoporosis-pos",
+  "subj": "파미드론산",
+  "claim": "소아 골다공증에 파미드론산을 쓴다",
+  "line": "소아 골다공증 13명 후향 연구에서 파미드론산은 1년 뒤 요추 골밀도 Z점수를 높였습니다",
+  "effect": "요추 골밀도 Z점수 1년 개선",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 13,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "파미드론산의 소아 골다공증 치료는 허가 적응증이 아닙니다.",
+  "why": "정맥 비스포스포네이트의 골흡수 억제 효과를 소아 골다공증 환자에게 적용한 후향 연구입니다.",
+  "saw": "골밀도 Z점수가 -2.0 미만인 소아·청소년 13명에게 파미드론산을 투여했습니다. 1년 뒤 요추 골밀도 Z점수는 유의하게 좋아졌고, 치료 종료 시점에는 요추와 대퇴 경부 Z점수가 모두 증가했습니다. 연구에서 중대한 이상반응은 없었습니다.",
+  "limit": "13명뿐인 후향 연구이고 기저 질환이 서로 달랐으며 장기 골절 예방을 확인하지 않았습니다.",
+  "against": "치료 중단 뒤 골밀도 유지와 성장·턱뼈·신장 관련 장기 안전성은 확인되지 않았습니다.",
+  "use": "소아 골다공증의 초기 골밀도 개선 신호로만 기록하고 소아과 전문 추적이 필요한 근거로 둡니다.",
+  "refs": [
+    { "label": "소아·청소년 골다공증 정맥 파미드론산 후향 연구", "pmid": "34218632" },
+    { "label": "소아 골다공증 비스포스포네이트 실제 지침 검토", "pmid": "38374961" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=pamidronate · cond=Osteoporosis → 7건 반환, 물질 대조 후 5건",
+    "pubmed": "pamidronate AND Osteoporosis → 592편",
+    "negative": "pamidronate AND Osteoporosis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 490편",
+    "safety": "pamidronate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1699편"
+  }
+}

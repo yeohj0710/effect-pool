@@ -9872,32 +9872,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clofazimine — Leprosy에 듣는다  <!-- 시험 3건 · 논문 895편 --> — 나병 허가 적응증(2026-08-05 확인)
 - [x] colistimethate — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 100편 --> — 다제내성 그람음성균 폐렴의 허가·표준 항균요법(2026-08-05)
 - [x] colistimethate — Colistin에 듣는다  <!-- 시험 3건 · 논문 386편 --> — 콜리스틴의 전구약물인 콜리스티메테이트로 같은 허가·표준 항균 범위(2026-08-05)
-- [ ] colistimethate — Infection in ICU에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] dexrazoxane — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 67편 -->
-- [ ] dexrazoxane — Sarcoma에 듣는다  <!-- 시험 18건 · 논문 50편 -->
-- [ ] dexrazoxane — Cardiac Toxicity에 듣는다  <!-- 시험 8건 · 논문 553편 -->
-- [ ] dexrazoxane — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 -->
-- [ ] mitotane — Adrenal Cancer에 듣는다  <!-- 시험 3건 · 논문 889편 -->
-- [ ] nelarabine — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 187편 -->
-- [ ] obeticholic acid — Nonalcoholic Steatohepatitis에 듣는다  <!-- 초기 obeticholic 검색 결과, 물질 재대조 필요 -->
-- [ ] pamidronate — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 521편 -->
-- [ ] pamidronate — Pain에 듣는다  <!-- 시험 6건 · 논문 801편 -->
-- [ ] pamidronate — Bone Loss에 듣는다  <!-- 시험 6건 · 논문 656편 -->
-- [ ] pamidronate — Osteoporosis에 듣는다  <!-- 시험 4건 · 논문 592편 -->
-- [ ] plerixafor — Sickle Cell Anemia에 듣는다  <!-- 시험 76건 · 논문 22편 -->
-- [ ] plerixafor — Leukemia에 듣는다  <!-- 시험 58건 · 논문 170편 -->
-- [ ] plerixafor — Myeloma에 듣는다  <!-- 시험 52건 · 논문 409편 -->
-- [ ] plerixafor — Myelodysplastic Syndrome에 듣는다  <!-- 시험 13건 · 논문 8편 -->
-- [ ] rebamipide — Dry Eye에 듣는다  <!-- 시험 7건 · 논문 100편 -->
-- [ ] rebamipide — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 20편 -->
-- [ ] rebamipide — Stomach Ulcer에 듣는다  <!-- 시험 5건 · 논문 131편 -->
-- [ ] sodium phenylbutyrate — Myelodysplastic Syndromes에 듣는다  <!-- 시험 5건 · 논문 8편 -->
-- [ ] sodium phenylbutyrate — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 20편 -->
-- [ ] sodium phenylbutyrate — Leukemia에 듣는다  <!-- 시험 4건 · 논문 35편 -->
-- [ ] tolvaptan — Hyponatremia에 듣는다  <!-- 시험 25건 · 논문 556편 -->
-- [ ] tolvaptan — Chronic Kidney Disease에 듣는다  <!-- 시험 20건 · 논문 243편 -->
-- [ ] tolvaptan — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 236편 -->
-- [ ] tolvaptan — Ascites에 듣는다  <!-- 시험 6건 · 논문 120편 -->
+- [x] colistimethate — Infection in ICU에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 중환자 다제내성 그람음성균 감염의 표준·허가 항균요법(2026-08-05)
+- [x] dexrazoxane — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 67편 --> — 신규 항목(dexrazoxane-lymphoma-pos)
+- [x] dexrazoxane — Sarcoma에 듣는다  <!-- 시험 18건 · 논문 50편 --> — 신규 항목(dexrazoxane-sarcoma-pos)
+- [x] dexrazoxane — Cardiac Toxicity에 듣는다  <!-- 시험 8건 · 논문 553편 --> — 일부 유방암의 안트라사이클린 심장독성 예방 허가와 비허가 혈액암·육종 근거가 섞여 별도 일반 항목을 만들지 않음(2026-08-05)
+- [x] dexrazoxane — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 116편 --> — 안트라사이클린 심장독성 예방 허가 범위(2026-08-05 확인)
+- [x] mitotane — Adrenal Cancer에 듣는다  <!-- 시험 3건 · 논문 889편 --> — 부신피질암 표준·허가 치료(2026-08-05)
+- [x] nelarabine — Lymphoma에 듣는다  <!-- 시험 26건 · 논문 187편 --> — 재발·불응 T세포 림프모구성 림프종 허가 적응증(2026-08-05 확인)
+- [x] obeticholic acid — Nonalcoholic Steatohepatitis에 듣는다  <!-- 초기 obeticholic 검색 결과, 물질 재대조 필요 --> — 신규 항목(obeticholic-acid-nonalcoholic-steatohepatitis-pos)
+- [x] pamidronate — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 521편 --> — 신규 항목(pamidronate-breast-cancer-null)
+- [x] pamidronate — Pain에 듣는다  <!-- 시험 6건 · 논문 801편 --> — 신규 항목(pamidronate-pain-pos)
+- [x] pamidronate — Bone Loss에 듣는다  <!-- 시험 6건 · 논문 656편 --> — 신규 항목(pamidronate-bone-loss-pos)
+- [x] pamidronate — Osteoporosis에 듣는다  <!-- 시험 4건 · 논문 592편 --> — 신규 항목(pamidronate-osteoporosis-pos)
+- [x] plerixafor — Sickle Cell Anemia에 듣는다  <!-- 시험 76건 · 논문 22편 --> — 신규 항목(plerixafor-sickle-cell-anemia-open)
+- [x] plerixafor — Leukemia에 듣는다  <!-- 시험 58건 · 논문 170편 --> — 신규 항목(plerixafor-leukemia-open)
+- [x] plerixafor — Myeloma에 듣는다  <!-- 시험 52건 · 논문 409편 --> — 다발골수종 조혈모세포 동원 허가 적응증(2026-08-05 확인)
+- [x] plerixafor — Myelodysplastic Syndrome에 듣는다  <!-- 시험 13건 · 논문 8편 --> — 신규 항목(plerixafor-myelodysplastic-syndrome-open)
+- [x] rebamipide — Dry Eye에 듣는다  <!-- 시험 7건 · 논문 100편 --> — 일본 점안제의 건성안 허가 적응증(2026-08-05 확인)
+- [x] rebamipide — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 20편 --> — 신규 항목(rebamipide-rheumatoid-arthritis-null)
+- [x] rebamipide — Stomach Ulcer에 듣는다  <!-- 시험 5건 · 논문 131편 --> — 위궤양·위염 점막보호 허가·표준 적응증(2026-08-05)
+- [x] sodium phenylbutyrate — Myelodysplastic Syndromes에 듣는다  <!-- 시험 5건 · 논문 8편 --> — 신규 항목(sodium-phenylbutyrate-myelodysplastic-syndromes-open)
+- [x] sodium phenylbutyrate — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 20편 --> — 신규 항목(sodium-phenylbutyrate-lymphoma-open)
+- [x] sodium phenylbutyrate — Leukemia에 듣는다  <!-- 시험 4건 · 논문 35편 --> — 신규 항목(sodium-phenylbutyrate-leukemia-open)
+- [x] tolvaptan — Hyponatremia에 듣는다  <!-- 시험 25건 · 논문 556편 --> — 저나트륨혈증 허가·표준 적응증(2026-08-05)
+- [x] tolvaptan — Chronic Kidney Disease에 듣는다  <!-- 시험 20건 · 논문 243편 --> — 상염색체 우성 다낭신의 진행 억제 허가 적응증(2026-08-05 확인)
+- [x] tolvaptan — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 236편 --> — 간경변 체액저류·저나트륨혈증의 국가별 허가·표준 범위(2026-08-05)
+- [x] tolvaptan — Ascites에 듣는다  <!-- 시험 6건 · 논문 120편 --> — 간경변 복수의 국가별 허가·표준 범위(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9908,10 +9908,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] bupivacaine — Anesthesia에 듣는다  <!-- 시험 41건 · 논문 14081편 -->
-- [ ] bupivacaine — Surgery에 듣는다  <!-- 시험 23건 · 논문 13733편 -->
-- [ ] bupivacaine — Analgesia에 듣는다  <!-- 시험 22건 · 논문 8830편 -->
-- [ ] bupivacaine — TAP Block에 듣는다  <!-- 시험 22건 · 논문 364편 -->
+- [x] bupivacaine — Anesthesia에 듣는다  <!-- 시험 41건 · 논문 14081편 --> — 국소·부위마취 허가·표준 적응증(2026-08-05)
+- [x] bupivacaine — Surgery에 듣는다  <!-- 시험 23건 · 논문 13733편 --> — 수술 중 부위마취의 허가·표준 사용(2026-08-05)
+- [x] bupivacaine — Analgesia에 듣는다  <!-- 시험 22건 · 논문 8830편 --> — 수술 후 국소·부위 진통의 허가·표준 사용(2026-08-05)
+- [x] bupivacaine — TAP Block에 듣는다  <!-- 시험 22건 · 논문 364편 --> — 복횡근 평면 차단술의 표준 국소마취 사용(2026-08-05)
 - [ ] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 -->
 - [ ] guaifenesin — Bronchitis에 듣는다  <!-- 시험 3건 · 논문 43편 -->
 - [ ] nilotinib — Cancer에 듣는다  <!-- 시험 33건 · 논문 2482편 -->

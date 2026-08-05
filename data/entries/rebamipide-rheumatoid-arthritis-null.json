@@ -1,0 +1,28 @@
+{
+  "id": "rebamipide-rheumatoid-arthritis-null",
+  "subj": "레바미피드",
+  "claim": "류마티스관절염 환자의 NSAID 위장관 출혈을 막으려 레바미피드를 쓴다",
+  "line": "NSAID를 장기 복용한 류마티스관절염 환자 24,258명에서 레바미피드는 위장관 출혈을 줄이는 표준 위산억제제보다 우월하지 않았습니다",
+  "effect": "PPI와 상·하부 출혈 위험 차이 없음",
+  "tier": "obs",
+  "dir": "null",
+  "n": 24258,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "레바미피드는 위궤양·위염의 점막 보호에 쓰이지만 류마티스관절염 NSAID 출혈 예방은 별도 허가 적응증이 아닙니다.",
+  "why": "류마티스관절염 자체를 치료하는 연구가 아니라 NSAID를 복용하는 류마티스관절염 환자의 위장관 보호를 본 대규모 건강보험 코호트입니다.",
+  "saw": "NSAID를 3개월 넘게 복용한 류마티스관절염 환자 24,258명 중 레바미피드, 양성자펌프억제제, DA-9601 사용군의 상·하부 위장관 출혈을 비교했습니다. 레바미피드군의 상부 출혈은 1.2%, 하부 출혈은 0.9%였지만 다변량 분석에서 두 비교군과 출혈 위험의 유의한 차이는 없었습니다.",
+  "limit": "후향 건강보험 자료이고 처방 선택의 교란이 남으며 레바미피드의 류마티스관절염 치료 효과는 측정하지 않았습니다.",
+  "against": "레바미피드는 PPI보다 출혈을 줄이지 못했고, 직접적인 관절염 활성도 결과도 없습니다.",
+  "use": "레바미피드를 류마티스관절염 치료제로 해석하지 않고 NSAID 위장관 보호의 비교 관찰 결과로 기록합니다.",
+  "refs": [
+    { "label": "류마티스관절염 NSAID 복용자 레바미피드 위장관 출혈 건강보험 코호트", "pmid": "38968495" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=rebamipide · cond=Rheumatoid Arthritis → 7건 반환, 물질 대조 후 7건",
+    "pubmed": "rebamipide AND Rheumatoid Arthritis → 20편",
+    "negative": "rebamipide AND Rheumatoid Arthritis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 16편",
+    "safety": "rebamipide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 252편"
+  }
+}

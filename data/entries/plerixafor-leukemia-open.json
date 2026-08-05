@@ -1,0 +1,29 @@
+{
+  "id": "plerixafor-leukemia-open",
+  "subj": "플레릭사포르",
+  "claim": "백혈병 세포의 골수 틈새를 풀어 항암치료를 높이려 플레릭사포르를 쓴다",
+  "line": "재발·불응 FLT3-ITD AML 28명 1상에서 플레릭사포르 병용요법의 반응률은 36%였지만 손발증후군과 발진이 흔했습니다",
+  "effect": "반응률 36%, 손발증후군·발진",
+  "tier": "trial",
+  "dir": "open",
+  "n": 28,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "플레릭사포르는 림프종·다발골수종 조혈모세포 동원에 허가됐지만 백혈병 항암 감작은 허가 적응증이 아닙니다.",
+  "why": "CXCR4가 백혈병 세포를 골수 미세환경에 붙잡는다는 기전을 차단해 소라페닙·G-CSF와 병용한 1상 연구입니다.",
+  "saw": "재발·불응 FLT3-ITD 급성골수성백혈병 28명에게 소라페닙·G-CSF·플레릭사포르를 병용했습니다. 의도한 치료군 반응률은 36%로 완전관해 4명, 불완전 혈소판 회복 관해 4명, 불완전 혈액학적 회복 관해 1명, 부분반응 1명이었습니다. 백혈병 모세포는 평균 58.4배 말초혈액으로 동원됐습니다.",
+  "limit": "1상 비비교 연구이고 소라페닙·G-CSF와 플레릭사포르 단독 효과를 나눌 수 없습니다.",
+  "against": "손발증후군과 발진이 용량제한기간 뒤 흔했고 대부분 용량 감량이 필요했습니다.",
+  "use": "플레릭사포르의 백혈병 치료 가능성을 확정하지 않고 골수 미세환경에서 세포를 동원하는 초기 병용 신호로 기록합니다.",
+  "refs": [
+    { "label": "FLT3-ITD AML 소라페닙·G-CSF·플레릭사포르 1상", "pmid": "32697348" },
+    { "label": "급성백혈병 플레릭사포르 병용 체계적 문헌고찰", "pmid": "32877869" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=plerixafor · cond=Leukemia → 37건 반환, 물질 대조 후 27건",
+    "pubmed": "plerixafor AND Leukemia → 170편",
+    "negative": "plerixafor AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 109편",
+    "safety": "plerixafor AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 420편"
+  }
+}
