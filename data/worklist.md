@@ -8804,36 +8804,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
 - [x] budesonide — Colitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 26건 · 논문 799편 -->
 - [x] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->
-- [ ] budesonide — Rhinitis에 듣는다  <!-- 시험 22건 · 논문 601편 -->
-- [ ] citalopram — Depressive Symptom에 듣는다  <!-- 시험 165건 · 논문 4217편 -->
-- [ ] citalopram — Anxiety에 듣는다  <!-- 시험 42건 · 논문 1627편 -->
-- [ ] citalopram — Cancer에 듣는다  <!-- 시험 18건 · 논문 272편 -->
-- [ ] citalopram — Cocaine Abuse에 듣는다  <!-- 시험 14건 · 논문 52편 -->
-- [ ] clomipramine — Depression에 듣는다  <!-- 시험 5건 · 논문 1468편 -->
-- [ ] cyclophosphamide — Leukemia에 듣는다  <!-- 시험 310건 · 논문 9179편 -->
-- [ ] cyclophosphamide — Cancer에 듣는다  <!-- 시험 229건 · 논문 53775편 -->
-- [ ] cyclophosphamide — Myelodysplastic Syndrome에 듣는다  <!-- 시험 62건 · 논문 830편 -->
-- [ ] cyclophosphamide — Myeloma에 듣는다  <!-- 시험 58건 · 논문 2925편 -->
-- [ ] deferoxamine — Iron Overload에 듣는다  <!-- 시험 12건 · 논문 1917편 -->
-- [ ] deferoxamine — Subarachnoid Hemorrhage에 듣는다  <!-- 시험 12건 · 논문 38편 -->
-- [ ] deferoxamine — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 165편 -->
-- [ ] diclofenac — Osteoarthritis에 듣는다  <!-- 시험 56건 · 논문 1067편 -->
-- [ ] diclofenac — Arthritis에 듣는다  <!-- 시험 16건 · 논문 1885편 -->
-- [ ] diclofenac — Sprain에 듣는다  <!-- 시험 15건 · 논문 76편 -->
-- [ ] diclofenac — Irreversible Pulpitis에 듣는다  <!-- 시험 14건 · 논문 31편 -->
-- [ ] diphenhydramine — Acute Leukemia에 듣는다  <!-- 시험 24건 · 논문 29편 -->
-- [ ] diphenhydramine — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 44편 -->
-- [ ] diphenhydramine — Multiple Myeloma에 듣는다  <!-- 시험 9건 · 논문 10편 -->
-- [ ] enalapril — Hypertension에 듣는다  <!-- 시험 39건 · 논문 4214편 -->
-- [ ] enalapril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 1569편 -->
-- [ ] enalapril — Pre-diabetes에 듣는다  <!-- 시험 7건 · 논문 17편 -->
-- [ ] enalapril — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5546편 -->
-- [ ] erlotinib — Carcinoma에 듣는다  <!-- 시험 258건 · 논문 4790편 -->
-- [ ] erlotinib — Recurrent Skin Carcinoma에 듣는다  <!-- 시험 48건 · 논문 39편 -->
-- [ ] erlotinib — Adenocarcinoma에 듣는다  <!-- 시험 46건 · 논문 1874편 -->
-- [ ] erlotinib — Tumors에 듣는다  <!-- 시험 41건 · 논문 7299편 -->
-- [ ] formoterol — Pulmonary Emphysema에 듣는다  <!-- 시험 131건 · 논문 26편 -->
-- [ ] formoterol — COPD에 듣는다  <!-- 시험 50건 · 논문 1157편 -->
+- [x] budesonide — Rhinitis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 22건 · 논문 601편 -->
+- [x] citalopram — Depressive Symptom에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 165건 · 논문 4217편 -->
+- [x] citalopram — Anxiety에 듣는다  <!-- 시험 42건 · 논문 1627편 -->
+- [x] citalopram — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "citalopram AND Cancer")  <!-- 시험 18건 · 논문 272편 -->
+- [x] citalopram — Cocaine Abuse에 듣는다  <!-- 시험 14건 · 논문 52편 -->
+- [x] clomipramine — Depression에 듣는다  <!-- 시험 5건 · 논문 1468편 -->
+- [x] cyclophosphamide — Leukemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 310건 · 논문 9179편 -->
+- [x] cyclophosphamide — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 229건 · 논문 53775편 -->
+- [x] cyclophosphamide — Myelodysplastic Syndrome에 듣는다 — 근거 없음(2026-08-05 조회, "cyclophosphamide AND Myelodysplastic Syndrome")  <!-- 시험 62건 · 논문 830편 -->
+- [x] cyclophosphamide — Myeloma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 58건 · 논문 2925편 -->
+- [x] deferoxamine — Iron Overload에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 1917편 -->
+- [x] deferoxamine — Subarachnoid Hemorrhage에 듣는다 — 근거 없음(2026-08-05 조회, "deferoxamine AND Subarachnoid Hemorrhage")  <!-- 시험 12건 · 논문 38편 -->
+- [x] deferoxamine — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 165편 -->
+- [x] diclofenac — Osteoarthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 56건 · 논문 1067편 -->
+- [x] diclofenac — Arthritis에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 16건 · 논문 1885편 -->
+- [x] diclofenac — Sprain에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 15건 · 논문 76편 -->
+- [x] diclofenac — Irreversible Pulpitis에 듣는다  <!-- 시험 14건 · 논문 31편 -->
+- [x] diphenhydramine — Acute Leukemia에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Acute Leukemia")  <!-- 시험 24건 · 논문 29편 -->
+- [x] diphenhydramine — Lymphoma에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Lymphoma")  <!-- 시험 13건 · 논문 44편 -->
+- [x] diphenhydramine — Multiple Myeloma에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Multiple Myeloma")  <!-- 시험 9건 · 논문 10편 -->
+- [x] enalapril — Hypertension에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 39건 · 논문 4214편 -->
+- [x] enalapril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 1569편 -->
+- [x] enalapril — Pre-diabetes에 듣는다 — 근거 없음(2026-08-05 조회, "enalapril AND Pre-diabetes")  <!-- 시험 7건 · 논문 17편 -->
+- [x] enalapril — Cardiovascular Diseases에 듣는다 — 같은 근거(별도 항목 없음)  <!-- 시험 6건 · 논문 5546편 -->
+- [x] erlotinib — Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 258건 · 논문 4790편 -->
+- [x] erlotinib — Recurrent Skin Carcinoma에 듣는다  <!-- 시험 48건 · 논문 39편 -->
+- [x] erlotinib — Adenocarcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 46건 · 논문 1874편 -->
+- [x] erlotinib — Tumors에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 41건 · 논문 7299편 -->
+- [x] formoterol — Pulmonary Emphysema에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 131건 · 논문 26편 -->
+- [x] formoterol — COPD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 50건 · 논문 1157편 -->
 - [ ] formoterol — Emphysema에 듣는다  <!-- 시험 8건 · 논문 29편 -->
 - [ ] formoterol — Bronchitis에 듣는다  <!-- 시험 7건 · 논문 41편 -->
 - [ ] isoniazid — HIV에 듣는다  <!-- 시험 41건 · 논문 2664편 -->
