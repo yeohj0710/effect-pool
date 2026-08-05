@@ -7154,3 +7154,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] furosemide — Hypertension에 듣는다  <!-- 시험 18건 · 논문 2767편 --> — 허가 적응증(2026-08-05)
 - [x] furosemide — Fluid Overload에 듣는다  <!-- 시험 15건 · 논문 262편 --> — 허가 적응증(2026-08-05)
 - [x] furosemide — Renal Impairment에 듣는다  <!-- 시험 13건 · 논문 1715편 --> — 이미 수록됨(2026-08-05)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] warfarin — Thromboembolism에 듣는다  <!-- 시험 70건 · 논문 8796편 --> — 허가 적응증(2026-08-05)
+- [x] warfarin — Heart Defect에 듣는다  <!-- 시험 49건 · 논문 364편 --> — 허가 적응증(2026-08-05)
+- [x] warfarin — Embolism에 듣는다  <!-- 시험 47건 · 논문 5435편 --> — 허가 적응증(2026-08-05)
+- [x] warfarin — Thrombosis에 듣는다  <!-- 시험 41건 · 논문 9143편 --> — 허가 적응증(2026-08-05)
+- [x] clopidogrel — Stroke에 듣는다  <!-- 시험 72건 · 논문 4606편 --> — 허가 적응증(2026-08-05)
+- [x] clopidogrel — Brain Infarction에 듣는다  <!-- 시험 69건 · 논문 460편 --> — 허가 적응증(2026-08-05)
+- [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 시험 22건 · 논문 960편 --> — 이미 수록됨(2026-08-05)
+- [x] clopidogrel — Platelet Function에 듣는다  <!-- 시험 20건 · 논문 6343편 --> — 이미 수록됨(2026-08-05)
+- [x] metoprolol — Heart Rate에 듣는다  <!-- 시험 38건 · 논문 2384편 --> — 이미 수록됨(2026-08-05)
+- [x] metoprolol — Atrial Flutter에 듣는다  <!-- 시험 26건 · 논문 51편 --> — 이미 수록됨(2026-08-05)
+- [ ] metoprolol — Myocardial Ischemia에 듣는다  <!-- 시험 14건 · 논문 1494편 -->
+- [ ] metoprolol — Cardiomyopathy에 듣는다  <!-- 시험 13건 · 논문 561편 -->
+- [ ] amlodipine — Diabetes에 듣는다  <!-- 시험 24건 · 논문 829편 -->
+- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 시험 16건 · 논문 3458편 -->
+- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 시험 14건 · 논문 521편 -->
+- [ ] amlodipine — Hyperlipidemia에 듣는다  <!-- 시험 12건 · 논문 133편 -->
+- [ ] pantoprazole — Peptic Ulcer에 듣는다  <!-- 시험 21건 · 논문 515편 -->
+- [ ] pantoprazole — Helicobacter Infection에 듣는다  <!-- 시험 13건 · 논문 407편 -->
+- [ ] pantoprazole — Coronary Thrombosis에 듣는다  <!-- 시험 10건 · 논문 9편 -->
+- [ ] pantoprazole — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 115편 -->
+- [ ] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 -->
+- [ ] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 -->
+- [ ] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->
+- [ ] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 -->
+- [ ] rifampin — HIV에 듣는다  <!-- 시험 25건 · 논문 1834편 -->
+- [ ] rifampin — Healthy Adults에 듣는다  <!-- 시험 17건 · 논문 667편 -->
+- [ ] rifampin — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 93편 -->
+- [ ] rifampin — Solid Tumor에 듣는다  <!-- 시험 12건 · 논문 34편 -->
