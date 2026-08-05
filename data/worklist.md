@@ -5663,16 +5663,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
 - [x] candesartan — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 13건 -->
 - [x] candesartan — Migraine에 듣는다 — 기존 항목(candesartan-migraine-pos)  <!-- 등록 시험 8건 -->
-- [ ] candesartan — Diabetes에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] candesartan — Obesity에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 -->
-- [ ] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 -->
+- [x] candesartan — Diabetes에 듣는다 — 기존 항목(candesartan-diabetes-null)  <!-- 등록 시험 7건 -->
+- [x] candesartan — Obesity에 듣는다 — 기존 항목(candesartan-obesity-open)  <!-- 등록 시험 6건 -->
+- [x] carvedilol — Heart Failure에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 38건 -->
+- [x] carvedilol — Cirrhosis에 듣는다 — 기존 항목(carvedilol-cirrhosis-open)  <!-- 등록 시험 34건 -->
+- [x] carvedilol — Varix, Esophageal에 듣는다 — 기존 항목(carvedilol-esophageal-varix-null)  <!-- 등록 시험 15건 -->
+- [x] carvedilol — Cancer에 듣는다 — 기존 항목(carvedilol-cancer-open)  <!-- 등록 시험 12건 -->
+- [x] furosemide — Kidney Stone에 듣는다 — 기존 항목(furosemide-kidney-stone-open)  <!-- 등록 시험 30건 -->
+- [x] furosemide — Hypertension에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 18건 -->
+- [x] furosemide — Fluid Overload에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 15건 -->
+- [x] furosemide — Renal Impairment에 듣는다 — 새 항목(furosemide-renal-impairment-null)  <!-- 등록 시험 13건 -->
 - [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->

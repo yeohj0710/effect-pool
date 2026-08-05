@@ -1,0 +1,40 @@
+{
+  "id": "furosemide-renal-impairment-null",
+  "subj": "푸로세미드",
+  "claim": "푸로세미드가 신기능장애를 치료한다",
+  "line": "신기능장애에서 급성 신손상 예방 효과는 없었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 555,
+  "synth": "meta",
+  "why": "허가 라벨은 신장질환에 따른 부종과 신증후군의 부종을 다루지만 신기능장애 자체의 치료 적응증은 제시하지 않습니다. ClinicalTrials.gov에서 furosemide와 신기능장애 연구 74건, PubMed에서 무작위시험 193건을 확인했습니다.",
+  "saw": "급성신부전 환자 5개 무작위시험 555명을 합친 메타분석(PMID17352669)에서 loop 이뇨제는 사망률과 신기능 회복을 개선하지 않았습니다. 심장수술 환자 100명 무작위시험(PMID41405035)에서도 급성 신손상 발생을 줄이지 못했습니다.",
+  "limit": "근거가 주로 급성신손상과 중환자·수술 환자에 집중돼 모든 만성 신기능장애에 일반화할 수 없습니다.",
+  "against": "급성신손상에서 loop 이뇨제가 사망률, 투석 필요, 신기능 회복을 개선한다는 근거가 없다는 종설(PMID18636060)이 있습니다.",
+  "use": "푸로세미드는 신기능장애를 회복시키는 치료제가 아니라 신장질환에 동반된 부종을 줄이는 대증요법으로만 해석해야 합니다.",
+  "refs": [
+    {
+      "label": "Loop diuretics in the management of acute renal failure · 5개 무작위시험 555명 메타분석",
+      "pmid": "17352669"
+    },
+    {
+      "label": "Diuretics in acute kidney injury · 급성신손상 이뇨제 종설",
+      "pmid": "18636060"
+    },
+    {
+      "label": "Continuous furosemide does not prevent cardiopulmonary bypass-related acute kidney injury · 심장수술 100명 무작위시험",
+      "pmid": "41405035"
+    },
+    {
+      "label": "NCT00652782 · 심부전 환자의 furosemide와 신기능 연구",
+      "nct": "NCT00652782"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-04",
+    "ctgov": "query.intr=furosemide&query.cond=Renal Impairment — 74건 반환; NCT00652782의 중재명 furosemide 확인",
+    "pubmed": "furosemide renal impairment randomized trial — 193건",
+    "negative": "furosemide renal impairment AND (no effect OR did not OR failed to OR negative OR no significant difference) — 1,142건",
+    "safety": "furosemide renal impairment AND (adverse OR toxicity OR case report OR overdose OR self-medication) — 794건"
+  }
+}
