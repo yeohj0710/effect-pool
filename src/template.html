@@ -233,12 +233,24 @@
     }
     .row .meter{ grid-area:1/1/3/2; margin-top:3px; }
     .row .subj{ grid-area:1/2; font-size:13.5px; }
-    .row .size{ grid-area:1/3; font-size:11px; }
+    .row .side{ grid-area:1/3; gap:.35rem; }
+    .row .size{ font-size:11px; }
+    .row .known{ font-size:10px; padding:.1rem .3rem; }
     .row .tag{ grid-area:1/4; font-size:11px; }
     .row .txt{
       grid-area:2/2/3/5; white-space:normal; font-size:13.5px; line-height:1.5;
       display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
     }
+  }
+
+  /* 허가 여부와 규모를 한 칸에 나란히 둔다 */
+  .side{ display:flex; align-items:center; gap:.5rem; justify-content:flex-end; min-width:0; }
+
+  /* 이 용도로 이미 허가받았다는 표시. 오프라벨이 아니라는 뜻이라 눈에 띄어야 한다 */
+  .known{
+    flex:none; font-size:10.5px; font-weight:600; letter-spacing:.02em;
+    padding:.12rem .38rem; border-radius:4px;
+    background:var(--accent-soft); color:var(--accent);
   }
 
   /* 규모 — 36명 단일 시험과 6만 명 메타분석은 눈금이 같아도 무게가 다르다 */
@@ -542,6 +554,27 @@ function meter(tier, dir){
   return h + '</span>';
 }
 
+/* 이미 그 용도로 허가받았는지. 오프라벨 목록에서 제일 먼저 갈라야 하는 것이다.
+   실데나필-발기부전처럼 허가 안에 있는 얘기가 섞여 있으면 그렇다고 적어준다. */
+const KNOWN = {
+  label:    { t: '허가',   d: '이 용도로 허가받았습니다. 오프라벨이 아닙니다' },
+  standard: { t: '표준',   d: '허가는 없지만 진료지침에 실린 표준 요법입니다' },
+  off:      { t: '허가 밖', d: '허가 밖이고 표준 요법도 아닙니다' },
+};
+function knownTag(e){
+  const k = KNOWN[e.known];
+  return k && e.known !== 'off'
+    ? '<span class="known" title="' + k.d + '">' + k.t + '</span>' : '';
+}
+// 펼쳤을 때는 판정 근거까지 적는다. 왜 오프라벨이 아닌지 읽는 사람이 알아야 한다.
+function knownBlock(e, x){
+  const k = KNOWN[e.known];
+  if (!k) return '';
+  const why = (x && x.knownWhy) ? ' — ' + x.knownWhy : '';
+  return '<h4>허가 여부</h4><p' + (e.known === 'label' ? ' class="warn"' : '') + '>'
+    + esc(k.d + why) + '</p>';
+}
+
 // 몇 명한테서 나온 결과인지. 눈금이 같아도 무게는 다르다.
 function sizeTag(e){
   if (e.n == null) return '';
@@ -724,7 +757,7 @@ function drawGroup(g){
       meter(item.tier, item.dir) +
       '<span class="subj">' + esc(g.hideSubj ? '' : item.subj) + '</span>' +
       '<span class="txt">' + eff + esc(item.line) + '</span>' +
-      sizeTag(item) +
+      '<span class="side">' + knownTag(item) + sizeTag(item) + '</span>' +
       '<span class="tag ' + item.dir + '">' + d.t + '</span>';
     btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
     btn.addEventListener('click', () => open(item, tier, btn));
@@ -821,6 +854,7 @@ function open(item, tier, trigger){
 
   const body = document.getElementById('s-body');
   body.innerHTML =
+    knownBlock(item, null) +
     '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
     '<p class="loading">근거를 불러오는 중…</p>';
 
@@ -844,7 +878,8 @@ function open(item, tier, trigger){
     const noAgainst = /찾아봤지만 없었/.test(x.against || '');
 
     body.innerHTML =
-      '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
+      knownBlock(item, x) +
+    '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
       '<h4>왜 이 칸인가</h4><p class="lead">' + esc(x.why) + '</p>' +
       '<h4>무슨 연구인가</h4><p>' + esc(x.saw) + '</p>' +
       '<h4>조심할 점</h4><p>' + esc(x.limit) + '</p>' +

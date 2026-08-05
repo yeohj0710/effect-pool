@@ -13,7 +13,7 @@ const outDir = join(root, "site");
 const meta = JSON.parse(readFileSync(join(dataDir, "meta.json"), "utf8"));
 
 const files = readdirSync(entryDir).filter((f) => f.endsWith(".json")).sort();
-const entries = [];
+let entries = [];
 const errors = [];
 const warnings = [];
 
@@ -178,11 +178,14 @@ if (entries.length >= 6 && ratio < 1 / 3) {
   );
 }
 
-warnings.forEach((w) => console.warn("주의  " + w));
-if (errors.length) {
-  errors.forEach((e) => console.error("오류  " + e));
-  console.error(`\n${errors.length}건 걸려서 빌드를 세웁니다.`);
-  process.exit(1);
+// 순위를 매긴 뒤에야 알 수 있는 것(위쪽 항목의 허가 여부)이 있어서 여기서 바로 안 세운다.
+function report() {
+  warnings.forEach((w) => console.warn("주의  " + w));
+  if (errors.length) {
+    errors.forEach((e) => console.error("오류  " + e));
+    console.error(`\n${errors.length}건 걸려서 빌드를 세웁니다.`);
+    process.exit(1);
+  }
 }
 
 /* ---- 출력 ---- */
@@ -193,20 +196,27 @@ if (errors.length) {
 //   근거 무게   여러 연구를 합쳤나, 사람이 몇 명이나
 const NUMRE = /\d+(\.\d+)?\s*(%|배|점|일|주|개월|년|mm|mg|시간|분|포인트)|\d\s*→|→\s*\d/;
 
-// 효과가 얼마나 큰지. "94% vs 36%" 는 58%p 벌어진 것이고 그게 이 목록에서 제일 재미있는 값이다.
+// 효과가 얼마나 큰지. 크게 달라진 건 눈길이 가지만 그것만 보면 안 된다 —
+// 효과가 제일 큰 건 대개 이미 허가받은 약이고, 그건 이 목록이 찾는 얘기가 아니다.
 function magnitude(e) {
   const t = `${e.effect ?? ""} ${e.line}`;
   const gap = t.match(/([\d.]+)\s*%\s*(?:vs\.?|대|→|에서)\s*([\d.]+)\s*%/);
-  if (gap) return Math.min(26, Math.abs(+gap[2] - +gap[1]) * 0.55);
+  if (gap) return Math.min(17, Math.abs(+gap[2] - +gap[1]) * 0.36);
   const pct = t.match(/([\d.]+)\s*%\s*(?:[↓↑]|줄|늘|낮|높|감소|증가|적|많)/);
-  if (pct) return Math.min(22, +pct[1] * 0.42);
+  if (pct) return Math.min(14, +pct[1] * 0.28);
   const fold = t.match(/([\d.]+)\s*배/);
-  if (fold) return Math.min(22, (+fold[1] - 1) * 12);
+  if (fold) return Math.min(14, (+fold[1] - 1) * 8);
   return 0;
 }
 
 // 허가 밖에서 쓴다는 게 이 목록의 본론이다. claim 이 "무엇을 어디에 쓴다" 꼴이면 그 얘기다.
 const REPURPOSE = /(을|를)\s*[^,]{2,24}에\s*(쓴다|듣는다)|부작용을|대신 쓴다/;
+// 부작용이 효능이 된 것. "이게 이런 효능이 있었어?" 하는 얘기라 제일 위에 와야 한다.
+const SIDE_TURNED = /부작용을?\s*[^,]{0,20}(로|으로|에)\s*(쓴다|씀|바꿔|치료)|부작용이\s*[^,]{0,16}(가|이)\s*(된|됐)/;
+
+// 이미 그 용도로 허가받았으면 오프라벨이 아니다. 실데나필-발기부전, 미녹시딜-탈모처럼
+// 다 아는 얘기가 효과 크기만으로 맨 위를 먹는 것을 막는다.
+const KNOWN = { label: -46, standard: -24, off: 8 };
 
 function interest(e) {
   let s = 0;
@@ -215,25 +225,57 @@ function interest(e) {
   else if (e.dir === "null") s += 13;        // 통념이 깨지는 것도 읽을 값어치가 있다
   else s += 2;                               // 진행 중은 아직 할 말이 없다
 
-  if (e.effect) s += 12;
-  else if (NUMRE.test(e.line)) s += 7;
+  if (e.effect) s += 9;
+  else if (NUMRE.test(e.line)) s += 5;
   s += magnitude(e);                         // 얼마나 크게 달라졌나
   if (REPURPOSE.test(e.claim ?? "")) s += 18;
+  if (SIDE_TURNED.test(e.claim ?? "")) s += 14;
+  s += KNOWN[e.known] ?? 0;                  // 미판정은 깎지도 올리지도 않는다
 
   if (e.synth === "meta") s += 8;
   s += Math.min(8, Math.log10(Math.max(e.n ?? 1, 1)) * 2);
   if (STEP[e.tier] >= 4) s += 5;             // 사람에게서 나온 것
   return Math.round(s * 10) / 10;
 }
-entries.forEach((e) => { e.score = interest(e); });
+entries.forEach((e) => {
+  if (e.known != null && !["label", "standard", "off"].includes(e.known))
+    errors.push(`${e.id} — known 은 label · standard · off 중 하나여야 합니다: "${e.known}"`);
+  if (e.known && !e.knownWhy)
+    errors.push(`${e.id} — known 을 적었으면 knownWhy 에 근거를 적으세요 (허가 이름·연도 등)`);
+  e.score = interest(e);
+});
 entries.sort((a, b) => (b.score - a.score) || ((b.n ?? -1) - (a.n ?? -1)) || a.id.localeCompare(b.id));
+
+// 위에 서는 항목은 허가 여부를 반드시 알아야 한다. 허가 안에 있는 얘기가 맨 위에 오면
+// 오프라벨 목록이라는 말이 무색해진다. 위쪽 80건은 판정을 요구한다.
+entries.slice(0, 80).forEach((e, i) => {
+  if (!e.known) warnings.push(`${e.id} — 위쪽 ${i + 1}번인데 허가 여부가 없습니다. known 을 채우세요`);
+});
+report();
+
+// 점수만으로 세우면 한 물질이 위쪽을 통째로 먹는다 — 실데나필 두 줄이 1·2등으로 붙는 식이다.
+// 점수를 건드리지 않고 자리만 바꿔서, 같은 물질 사이를 벌린다.
+function spread(list, gap = 4, look = 30) {
+  const out = [], rest = list.slice(), recent = [];
+  while (rest.length) {
+    const limit = Math.min(look, rest.length);
+    let i = 0;
+    while (i < limit && recent.includes(rest[i].subj)) i++;
+    if (i >= limit) i = 0;                   // 멀리 봐도 다른 물질이 없으면 그냥 순서대로
+    out.push(rest.splice(i, 1)[0]);
+    recent.push(out[out.length - 1].subj);
+    if (recent.length > gap) recent.shift();
+  }
+  return out;
+}
+entries = spread(entries);
 
 const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
 
 // 목록에 필요한 것만 HTML 에 넣는다. 펼쳤을 때 쓰는 긴 글은 따로 뺀다.
 // 473건이면 상세까지 인라인할 때 950KB 인데, 그중 대부분은 아무도 안 펼치는 글이다.
-const LIST = ["id", "subj", "claim", "line", "effect", "tier", "dir", "n", "synth", "score"];
-const DETAIL = ["why", "saw", "limit", "against", "use", "refs", "queried"];
+const LIST = ["id", "subj", "claim", "line", "effect", "tier", "dir", "n", "synth", "known", "score"];
+const DETAIL = ["why", "saw", "limit", "against", "use", "knownWhy", "refs", "queried"];
 const SHARD = 48;   // 상세 묶음 하나에 담을 항목 수. 화면 하나를 덮고도 남는 크기다
 
 const list = entries.map((e) => Object.fromEntries(LIST.filter((k) => e[k] != null).map((k) => [k, e[k]])));
