@@ -1,18 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 611,
+  "entries": 617,
   "worklist": {
-    "checked": 7393,
-    "unchecked": 6,
+    "checked": 7399,
+    "unchecked": 196,
     "no_evidence_pending": 15,
     "next_batch": [
-      "creatine-depression",
-      "creatine-knee-osteoarthritis",
-      "creatine-multiple-sclerosis",
-      "berberine-obesity",
-      "berberine-polycystic-ovary-syndrome",
-      "berberine-dyslipidemias"
+      "pirfenidone-covid-19",
+      "pirfenidone-liver-cirrhosis",
+      "baricitinib-covid19",
+      "baricitinib-immune-thrombocytopenia",
+      "tofacitinib-atopic-dermatitis",
+      "tofacitinib-inflammatory-skin-disease",
+      "tofacitinib-takayasu-arteritis",
+      "tofacitinib-covid-19",
+      "ruxolitinib-t-cell-lymphoma",
+      "ruxolitinib-mds-mpn"
     ]
   },
   "verification": {
@@ -20,13 +24,13 @@
     "line_warnings": 0,
     "unknown_n_warnings": 1,
     "tier_distribution": {
-      "trial": 555,
+      "trial": 561,
       "obs": 43,
       "animal": 2,
       "lab": 2,
       "case": 9
     },
-    "no_effect_or_harm": 297,
+    "no_effect_or_harm": 300,
     "harm": 33,
     "no_effect_or_harm_share": "49%"
   },
@@ -38,16 +42,12 @@
     "deployment_url": "https://offlabel-pool-hglxi1phv-yeohj0710s-projects.vercel.app"
   },
   "last_batch": [
-    "raloxifene-vasomotor-symptoms (created)",
-    "raloxifene-endometrial-safety (created)",
-    "allopurinol-heart-failure (created)",
-    "allopurinol-cardiovascular-disease (created)",
-    "allopurinol-hypertension (created)",
-    "n-acetylcysteine-alcohol-abuse (created)",
-    "n-acetylcysteine-nephropathy (created)",
-    "n-acetylcysteine-hiv (created)",
-    "n-acetylcysteine-sickle-cell-anemia (created)",
-    "creatine-huntington-disease (created)"
+    "creatine-depression (created)",
+    "creatine-knee-osteoarthritis (created)",
+    "creatine-multiple-sclerosis (created)",
+    "berberine-obesity (created)",
+    "berberine-polycystic-ovary-syndrome (created)",
+    "berberine-dyslipidemias (created)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -76,30 +76,38 @@
       "mirtazapine",
       "venlafaxine",
       "prednisone",
-      "hydrochlorothiazide"
+      "hydrochlorothiazide",
+      "nintedanib",
+      "pirfenidone",
+      "baricitinib",
+      "tofacitinib",
+      "ruxolitinib",
+      "nitazoxanide",
+      "favipiravir",
+      "oseltamivir",
+      "ivacaftor",
+      "sotagliflozin",
+      "tenofovir",
+      "nirmatrelvir"
     ],
     "builtin_added_candidates": 660,
-    "direct_added_candidates": 106,
-    "added_candidates": 1382,
+    "direct_added_candidates": 302,
+    "added_candidates": 1578,
     "latest_run": "2026-08-05",
     "latest_candidates": 196
   },
   "resume": {
-    "last_committed_batch": "expanded worklist batch 181-190",
+    "last_committed_batch": "expanded worklist batch 191-196",
     "last_batch": [
-      "raloxifene-vasomotor-symptoms (created)",
-      "raloxifene-endometrial-safety (created)",
-      "allopurinol-heart-failure (created)",
-      "allopurinol-cardiovascular-disease (created)",
-      "allopurinol-hypertension (created)",
-      "n-acetylcysteine-alcohol-abuse (created)",
-      "n-acetylcysteine-nephropathy (created)",
-      "n-acetylcysteine-hiv (created)",
-      "n-acetylcysteine-sickle-cell-anemia (created)",
-      "creatine-huntington-disease (created)"
+      "creatine-depression (created)",
+      "creatine-knee-osteoarthritis (created)",
+      "creatine-multiple-sclerosis (created)",
+      "berberine-obesity (created)",
+      "berberine-polycystic-ovary-syndrome (created)",
+      "berberine-dyslipidemias (created)"
     ],
-    "current_batch": "expanded worklist batch 181-190",
-    "next_action": "commit and push; process six remaining candidates; expand worklist below 20",
-    "expansion_checkpoint": "deduplicating expansion found 196 paper-backed candidates on 2026-08-05"
+    "current_batch": "expanded worklist batch 191-196",
+    "next_action": "commit and push; process the next 10 expanded candidates",
+    "expansion_checkpoint": "added 196 unique paper-backed candidates on 2026-08-05 after the built-in list was exhausted"
   }
 }

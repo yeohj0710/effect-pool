@@ -8088,9 +8088,305 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] n-acetylcysteine — HIV에 듣는다  <!-- 시험 10건 · 논문 259편 -->
 - [x] n-acetylcysteine — Sickle Cell Anemia에 듣는다  <!-- 시험 10건 · 논문 18편 -->
 - [x] creatine — Huntington Disease에 듣는다  <!-- 시험 10건 · 논문 174편 -->
-- [ ] creatine — Depression에 듣는다  <!-- 시험 9건 · 논문 1919편 -->
-- [ ] creatine — Knee Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 42편 -->
-- [ ] creatine — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 371편 -->
-- [ ] berberine — Obesity에 듣는다  <!-- 시험 7건 · 논문 334편 -->
-- [ ] berberine — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 74편 -->
-- [ ] berberine — Dyslipidemias에 듣는다  <!-- 시험 4건 · 논문 253편 -->
+- [x] creatine — Depression에 듣는다  <!-- 시험 9건 · 논문 1919편 -->
+- [x] creatine — Knee Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 42편 -->
+- [x] creatine — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 371편 -->
+- [x] berberine — Obesity에 듣는다  <!-- 시험 7건 · 논문 334편 -->
+- [x] berberine — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 74편 -->
+- [x] berberine — Dyslipidemias에 듣는다  <!-- 시험 4건 · 논문 253편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] pirfenidone — COVID 19에 듣는다  <!-- 시험 5건 · 논문 93편 -->
+- [ ] pirfenidone — Liver Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 66편 -->
+- [ ] baricitinib — Covid19에 듣는다  <!-- 시험 5건 · 논문 570편 -->
+- [ ] baricitinib — Immune Thrombocytopenia에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [ ] tofacitinib — Atopic Dermatitis에 듣는다  <!-- 시험 7건 · 논문 147편 -->
+- [ ] tofacitinib — Inflammatory Skin Disease에 듣는다  <!-- 시험 6건 · 논문 350편 -->
+- [ ] tofacitinib — Takayasu Arteritis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [ ] tofacitinib — COVID-19에 듣는다  <!-- 시험 5건 · 논문 174편 -->
+- [ ] ruxolitinib — T-cell Lymphoma에 듣는다  <!-- 시험 30건 · 논문 117편 -->
+- [ ] ruxolitinib — MDS/MPN에 듣는다  <!-- 시험 28건 · 논문 15편 -->
+- [ ] ruxolitinib — Polycythemia Vera에 듣는다  <!-- 시험 22건 · 논문 515편 -->
+- [ ] nitazoxanide — SARS-CoV Infection에 듣는다  <!-- 시험 17건 · 논문 60편 -->
+- [ ] nitazoxanide — Covid19에 듣는다  <!-- 시험 13건 · 논문 137편 -->
+- [ ] nitazoxanide — Hepatitis C에 듣는다  <!-- 시험 13건 · 논문 44편 -->
+- [ ] nitazoxanide — HIV Infection에 듣는다  <!-- 시험 10건 · 논문 87편 -->
+- [ ] favipiravir — Covid19에 듣는다  <!-- 시험 10건 · 논문 1099편 -->
+- [ ] favipiravir — Influenza에 듣는다  <!-- 시험 9건 · 논문 266편 -->
+- [ ] favipiravir — Sars-CoV2에 듣는다  <!-- 시험 9건 · 논문 30편 -->
+- [ ] favipiravir — Ebola Virus Disease에 듣는다  <!-- 시험 5건 · 논문 81편 -->
+- [ ] oseltamivir — Viral Shedding에 듣는다  <!-- 시험 9건 · 논문 191편 -->
+- [ ] oseltamivir — Pneumonia에 듣는다  <!-- 시험 5건 · 논문 792편 -->
+- [ ] oseltamivir — Virus Diseases에 듣는다  <!-- 시험 4건 · 논문 4107편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] nintedanib — Pulmonary Fibrosis에 듣는다  <!-- 시험 42건 · 논문 1625편 -->
+- [ ] nintedanib — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 39편 -->
+- [ ] nintedanib — Cervical Carcinoma에 듣는다  <!-- 시험 11건 · 논문 11편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] nitazoxanide — Hepatic Cirrhosis에 듣는다  <!-- 시험 7건 · 논문 14편 -->
+- [ ] nitazoxanide — Influenza에 듣는다  <!-- 시험 6건 · 논문 43편 -->
+- [ ] nitazoxanide — Cryptosporidiosis에 듣는다  <!-- 시험 6건 · 논문 258편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] favipiravir — Lassa Fever에 듣는다  <!-- 시험 3건 · 논문 24편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] oseltamivir — COVID에 듣는다  <!-- 시험 3건 · 논문 352편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ivacaftor — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [ ] ivacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 117편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] sotagliflozin — Heart Failure에 듣는다  <!-- 시험 11건 · 논문 243편 -->
+- [ ] sotagliflozin — Diabetic Nephropathies에 듣는다  <!-- 시험 5건 · 논문 13편 -->
+- [ ] sotagliflozin — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 77편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] tenofovir — Hepatitis B에 듣는다  <!-- 시험 124건 · 논문 3408편 -->
+- [ ] tenofovir — Virus Diseases에 듣는다  <!-- 시험 19건 · 논문 9045편 -->
+- [ ] tenofovir — Liver Failure에 듣는다  <!-- 시험 10건 · 논문 281편 -->
+- [ ] tenofovir — ART Adherence에 듣는다  <!-- 시험 8건 · 논문 346편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] nirmatrelvir — SARS-CoV2 Infection에 듣는다  <!-- 시험 4건 · 논문 1622편 -->
+- [ ] nirmatrelvir — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] metformin — Weight Loss에 듣는다  <!-- 시험 8건 · 논문 2136편 -->
+- [ ] metformin — Fatty Liver에 듣는다  <!-- 시험 8건 · 논문 1183편 -->
+- [ ] metformin — Metabolism에 듣는다  <!-- 시험 7건 · 논문 22523편 -->
+- [ ] aspirin — Preeclampsia에 듣는다  <!-- 시험 12건 · 논문 1946편 -->
+- [ ] aspirin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 3082편 -->
+- [ ] aspirin — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 280편 -->
+- [ ] aspirin — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 4532편 -->
+- [ ] propranolol — Trauma에 듣는다  <!-- 시험 9건 · 논문 644편 -->
+- [ ] propranolol — Tremor에 듣는다  <!-- 시험 9건 · 논문 644편 -->
+- [ ] propranolol — Retinopathy of Prematurity에 듣는다  <!-- 시험 8건 · 논문 50편 -->
+- [ ] propranolol — Tachycardia에 듣는다  <!-- 시험 8건 · 논문 2478편 -->
+- [ ] naltrexone — Cocaine Abuse에 듣는다  <!-- 시험 11건 · 논문 223편 -->
+- [ ] naltrexone — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 136편 -->
+- [ ] naltrexone — Bipolar Disorder에 듣는다  <!-- 시험 7건 · 논문 69편 -->
+- [ ] naltrexone — Addiction에 듣는다  <!-- 시험 7건 · 논문 2293편 -->
+- [ ] gabapentin — Pruritus에 듣는다  <!-- 시험 9건 · 논문 253편 -->
+- [ ] gabapentin — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 708편 -->
+- [ ] topiramate — Epilepsies, Partial에 듣는다  <!-- 시험 12건 · 논문 316편 -->
+- [ ] topiramate — Cocaine Use Disorder에 듣는다  <!-- 시험 7건 · 논문 74편 -->
+- [ ] topiramate — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 6건 · 논문 68편 -->
+- [ ] topiramate — Hiv에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [ ] quetiapine — Substance Abuse에 듣는다  <!-- 시험 11건 · 논문 491편 -->
+- [ ] quetiapine — Dementia에 듣는다  <!-- 시험 9건 · 논문 471편 -->
+- [ ] quetiapine — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 195편 -->
+- [ ] quetiapine — Insomnia에 듣는다  <!-- 시험 7건 · 논문 241편 -->
+- [ ] spironolactone — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 4565편 -->
+- [ ] spironolactone — Dilated Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 104편 -->
+- [ ] spironolactone — Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 1136편 -->
+- [ ] spironolactone — Hyperkalemia에 듣는다  <!-- 시험 4건 · 논문 752편 -->
+- [ ] doxycycline — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 51편 -->
+- [ ] doxycycline — Periodontal Disease에 듣는다  <!-- 시험 9건 · 논문 666편 -->
+- [ ] doxycycline — COVID에 듣는다  <!-- 시험 9건 · 논문 245편 -->
+- [ ] doxycycline — Mycoplasma Pneumoniae에 듣는다  <!-- 시험 9건 · 논문 166편 -->
+- [ ] colchicine — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 386편 -->
+- [ ] colchicine — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 97편 -->
+- [ ] colchicine — Covid19에 듣는다  <!-- 시험 8건 · 논문 446편 -->
+- [ ] colchicine — Cardiac Surgery에 듣는다  <!-- 시험 8건 · 논문 377편 -->
+- [ ] dapagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 1860편 -->
+- [ ] dapagliflozin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 327편 -->
+- [ ] dapagliflozin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 112편 -->
+- [ ] dapagliflozin — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 126편 -->
+- [ ] semaglutide — Cardiovascular에 듣는다  <!-- 시험 10건 · 논문 1505편 -->
+- [ ] semaglutide — Stroke에 듣는다  <!-- 시험 8건 · 논문 329편 -->
+- [ ] semaglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 시험 7건 · 논문 34편 -->
+- [ ] semaglutide — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 51편 -->
+- [ ] ketamine — Suicidal Ideas에 듣는다  <!-- 시험 19건 · 논문 10편 -->
+- [ ] ketamine — Opioid Use에 듣는다  <!-- 시험 16건 · 논문 4690편 -->
+- [ ] ketamine — Postoperative에 듣는다  <!-- 시험 16건 · 논문 3700편 -->
+- [ ] ketamine — Brain Tumor에 듣는다  <!-- 시험 15건 · 논문 158편 -->
+- [ ] prazosin — Cocaine Dependence에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] prazosin — Headache에 듣는다  <!-- 시험 3건 · 논문 115편 -->
+- [ ] thalidomide — Melanoma에 듣는다  <!-- 시험 14건 · 논문 107편 -->
+- [ ] thalidomide — Sarcoma에 듣는다  <!-- 시험 12건 · 논문 149편 -->
+- [ ] thalidomide — Vascular Malformation에 듣는다  <!-- 시험 6건 · 논문 110편 -->
+- [ ] ivermectin — Head Lice에 듣는다  <!-- 시험 10건 · 논문 133편 -->
+- [ ] ivermectin — Sars-CoV2에 듣는다  <!-- 시험 9건 · 논문 23편 -->
+- [ ] ivermectin — Strongyloidiasis에 듣는다  <!-- 시험 8건 · 논문 670편 -->
+- [ ] ivermectin — Trichuriasis에 듣는다  <!-- 시험 6건 · 논문 90편 -->
+- [ ] hydroxychloroquine — Pregnancy Related에 듣는다  <!-- 시험 13건 · 논문 176편 -->
+- [ ] hydroxychloroquine — Respiratory Failure에 듣는다  <!-- 시험 12건 · 논문 309편 -->
+- [ ] hydroxychloroquine — Pneumonia에 듣는다  <!-- 시험 10건 · 논문 2582편 -->
+- [ ] valacyclovir — Postherpetic Neuralgia에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [ ] bupropion — Dementia에 듣는다  <!-- 시험 13건 · 논문 48편 -->
+- [ ] bupropion — Breast Carcinoma에 듣는다  <!-- 시험 13건 · 논문 13편 -->
+- [ ] bupropion — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 238편 -->
+- [ ] sildenafil — Diabetes에 듣는다  <!-- 시험 7건 · 논문 570편 -->
+- [ ] sildenafil — Female Sexual Health에 듣는다  <!-- 시험 7건 · 논문 101편 -->
+- [ ] sildenafil — Lung Diseases에 듣는다  <!-- 시험 7건 · 논문 1827편 -->
+- [ ] sildenafil — Neonatal Asphyxia에 듣는다  <!-- 시험 6건 · 논문 12편 -->
+- [ ] botulinum toxin — Blepharospasm에 듣는다  <!-- 시험 14건 · 논문 1124편 -->
+- [ ] botulinum toxin — Lateral Canthal Lines에 듣는다  <!-- 시험 13건 · 논문 52편 -->
+- [ ] botulinum toxin — Temporomandibular Disorder에 듣는다  <!-- 시험 13건 · 논문 267편 -->
+- [ ] botulinum toxin — Aging에 듣는다  <!-- 시험 12건 · 논문 1587편 -->
+- [ ] duloxetine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 69편 -->
+- [ ] duloxetine — Alcohol-Related Disorders에 듣는다  <!-- 시험 6건 · 논문 11편 -->
+- [ ] duloxetine — Opioid Use에 듣는다  <!-- 시험 6건 · 논문 413편 -->
+- [ ] dextromethorphan — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 217편 -->
+- [ ] dextromethorphan — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [ ] dextromethorphan — Cough에 듣는다  <!-- 시험 3건 · 논문 448편 -->
+- [ ] clonidine — Sedation에 듣는다  <!-- 시험 9건 · 논문 1178편 -->
+- [ ] clonidine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 434편 -->
+- [ ] clonidine — Nerve Block에 듣는다  <!-- 시험 7건 · 논문 438편 -->
+- [ ] melatonin — Hypertension에 듣는다  <!-- 시험 10건 · 논문 588편 -->
+- [ ] melatonin — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1396편 -->
+- [ ] melatonin — Ischemic Stroke에 듣는다  <!-- 시험 10건 · 논문 203편 -->
+- [ ] melatonin — COVID-19에 듣는다  <!-- 시험 9건 · 논문 295편 -->
+- [ ] modafinil — Substance Abuse에 듣는다  <!-- 시험 6건 · 논문 249편 -->
+- [ ] modafinil — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 40편 -->
+- [ ] modafinil — Insomnia에 듣는다  <!-- 시험 5건 · 논문 118편 -->
+- [ ] baclofen — Fragile X Syndrome에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [ ] baclofen — GERD에 듣는다  <!-- 시험 3건 · 논문 157편 -->
+- [ ] ondansetron — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 109편 -->
+- [ ] ondansetron — Laparoscopic에 듣는다  <!-- 시험 11건 · 논문 256편 -->
+- [ ] ondansetron — Breast Neoplasm에 듣는다  <!-- 시험 11건 · 논문 132편 -->
+- [ ] memantine — Pain에 듣는다  <!-- 시험 6건 · 논문 263편 -->
+- [ ] memantine — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 119편 -->
+- [ ] lithium — Caries에 듣는다  <!-- 시험 9건 · 논문 136편 -->
+- [ ] pentoxifylline — Inflammatory Markers에 듣는다  <!-- 시험 5건 · 논문 122편 -->
+- [ ] pentoxifylline — Depressive Symptoms에 듣는다  <!-- 시험 5건 · 논문 71편 -->
+- [ ] pentoxifylline — Leishmaniasis에 듣는다  <!-- 시험 5건 · 논문 39편 -->
+- [ ] pentoxifylline — COVID에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [ ] sirolimus — Multiple Myeloma에 듣는다  <!-- 시험 16건 · 논문 80편 -->
+- [ ] sirolimus — Melanoma에 듣는다  <!-- 시험 16건 · 논문 194편 -->
+- [ ] sirolimus — Graft Failure에 듣는다  <!-- 시험 14건 · 논문 1006편 -->
+- [ ] sirolimus — Tumor에 듣는다  <!-- 시험 13건 · 논문 8634편 -->
+- [ ] rapamycin — Tumors에 듣는다  <!-- 시험 4건 · 논문 21239편 -->
+- [ ] rapamycin — Port Wine Stain에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [ ] rapamycin — Familial Adenomatous Polyposis에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [ ] montelukast — Respiratory Disorders에 듣는다  <!-- 시험 5건 · 논문 270편 -->
+- [ ] montelukast — SARS-CoV-2에 듣는다  <!-- 시험 5건 · 논문 48편 -->
+- [ ] montelukast — Covid19에 듣는다  <!-- 시험 4건 · 논문 69편 -->
+- [ ] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 -->
+- [ ] atorvastatin — Heart Failure에 듣는다  <!-- 시험 16건 · 논문 345편 -->
+- [ ] losartan — Renal Injury에 듣는다  <!-- 시험 10건 · 논문 414편 -->
+- [ ] losartan — Marfan Syndrome에 듣는다  <!-- 시험 8건 · 논문 154편 -->
+- [ ] losartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 4276편 -->
+- [ ] verapamil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 7523편 -->
+- [ ] verapamil — Keloid에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+- [ ] amantadine — Cancer에 듣는다  <!-- 시험 3건 · 논문 317편 -->
+- [ ] amantadine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 176편 -->
+- [ ] amantadine — Coma에 듣는다  <!-- 시험 3건 · 논문 108편 -->
+- [ ] amantadine — Consciousness Disorders에 듣는다  <!-- 시험 3건 · 논문 123편 -->
+- [ ] acetazolamide — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 23편 -->
+- [ ] acetazolamide — Cognitive Function에 듣는다  <!-- 시험 4건 · 논문 87편 -->
+- [ ] acetazolamide — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [ ] acetazolamide — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 981편 -->
+- [ ] methotrexate — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 2443편 -->
+- [ ] methotrexate — Myeloproliferative Diseases에 듣는다  <!-- 시험 9건 · 논문 41편 -->
+- [ ] methotrexate — Sarcoma에 듣는다  <!-- 시험 8건 · 논문 2139편 -->
+- [ ] methotrexate — Crohn Disease에 듣는다  <!-- 시험 8건 · 논문 1070편 -->
+- [ ] hydroxyurea — Glioblastoma에 듣는다  <!-- 시험 7건 · 논문 75편 -->
+- [ ] hydroxyurea — Myelodysplastic Syndromes에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [ ] hydroxyurea — Thrombocythemia에 듣는다  <!-- 시험 6건 · 논문 1001편 -->
+- [ ] tranexamic acid — Arthroplasty에 듣는다  <!-- 시험 25건 · 논문 1611편 -->
+- [ ] tranexamic acid — Hematoma에 듣는다  <!-- 시험 17건 · 논문 7486편 -->
+- [ ] tranexamic acid — Back Pain에 듣는다  <!-- 시험 15건 · 논문 19편 -->
+- [ ] tranexamic acid — ACL Tears에 듣는다  <!-- 시험 13건 · 논문 15편 -->
+- [ ] isotretinoin — Brain Tumor에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [ ] tamoxifen — Hot Flashes에 듣는다  <!-- 시험 4건 · 논문 420편 -->
+- [ ] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 -->
+- [ ] tamoxifen — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
+- [ ] allopurinol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 521편 -->
+- [ ] allopurinol — Mania에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [ ] allopurinol — Cancer에 듣는다  <!-- 시험 6건 · 논문 997편 -->
+- [ ] n-acetylcysteine — Muscle Weakness에 듣는다  <!-- 시험 9건 · 논문 31편 -->
+- [ ] n-acetylcysteine — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 60편 -->
+- [ ] n-acetylcysteine — COVID에 듣는다  <!-- 시험 9건 · 논문 167편 -->
+- [ ] n-acetylcysteine — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 178편 -->
+- [ ] creatine — Lung Injury에 듣는다  <!-- 시험 6건 · 논문 313편 -->
+- [ ] creatine — Concussion, Brain에 듣는다  <!-- 시험 5건 · 논문 95편 -->
+- [ ] creatine — Fatigue에 듣는다  <!-- 시험 5건 · 논문 2247편 -->
+- [ ] creatine — Cognition에 듣는다  <!-- 시험 4건 · 논문 1469편 -->
+- [ ] berberine — Prediabetes에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [ ] berberine — Glucose Intolerance에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] berberine — Non Alcoholic Fatty Liver에 듣는다  <!-- 시험 4건 · 논문 152편 -->
