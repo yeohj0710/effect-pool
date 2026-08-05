@@ -6103,16 +6103,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] methotrexate — Cancer에 듣는다 — 기존 항목(methotrexate-cancer-open)  <!-- 등록 시험 40건 -->
 - [x] hydroxyurea — Cancer에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 29건 -->
 - [x] hydroxyurea — Leukemia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 22건 -->
-- [ ] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 -->
-- [ ] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
-- [ ] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
-- [ ] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
+- [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
+- [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
+- [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
+- [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
+- [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
+- [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
+- [x] isotretinoin — Acne에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
+- [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
+- [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [ ] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
 - [ ] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
 - [ ] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
