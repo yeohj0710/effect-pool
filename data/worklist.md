@@ -7042,16 +7042,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amantadine — Brain Injury에 듣는다  <!-- 시험 13건 · 논문 382편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 시험 8건 · 논문 52편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — COVID-19에 듣는다  <!-- 시험 7건 · 논문 92편 --> — 이미 수록됨(2026-08-05)
-- [ ] amantadine — Hepatitis C에 듣는다  <!-- 시험 6건 · 논문 248편 -->
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 시험 31건 · 논문 347편 -->
-- [ ] acetazolamide — Hypoxia에 듣는다  <!-- 시험 24건 · 논문 446편 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 시험 12건 · 논문 489편 -->
-- [ ] acetazolamide — Hypertension에 듣는다  <!-- 시험 11건 · 논문 1199편 -->
-- [ ] dapsone — Malaria에 듣는다  <!-- 시험 16건 · 논문 385편 -->
-- [ ] dapsone — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 363편 -->
-- [ ] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 시험 9건 · 논문 365편 -->
-- [ ] dapsone — Leprosy에 듣는다  <!-- 시험 4건 · 논문 2127편 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 시험 224건 · 논문 8732편 -->
+- [x] amantadine — Hepatitis C에 듣는다  <!-- 시험 6건 · 논문 248편 --> — 이미 수록됨(2026-08-05)
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 시험 31건 · 논문 347편 --> — 허가 적응증(2026-08-05)
+- [x] acetazolamide — Hypoxia에 듣는다  <!-- 시험 24건 · 논문 446편 --> — 이미 수록됨(2026-08-05)
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 시험 12건 · 논문 489편 --> — 허가 적응증(2026-08-05)
+- [x] acetazolamide — Hypertension에 듣는다  <!-- 시험 11건 · 논문 1199편 --> — 이미 수록됨(2026-08-05)
+- [x] dapsone — Malaria에 듣는다  <!-- 시험 16건 · 논문 385편 --> — 이미 수록됨(2026-08-05)
+- [x] dapsone — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 363편 --> — 이미 수록됨(2026-08-05)
+- [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 시험 9건 · 논문 365편 --> — 이미 수록됨(2026-08-05)
+- [x] dapsone — Leprosy에 듣는다  <!-- 시험 4건 · 논문 2127편 --> — 허가 적응증(2026-08-05)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 시험 224건 · 논문 8732편 --> — 허가 적응증(2026-08-05)
 - [ ] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 -->
 - [ ] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 -->
 - [ ] methotrexate — Cancer에 듣는다  <!-- 시험 40건 · 논문 30398편 -->
