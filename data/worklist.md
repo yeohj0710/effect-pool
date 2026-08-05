@@ -9792,15 +9792,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valganciclovir — HIV Infections에 듣는다  <!-- 시험 56건 · 논문 162편 --> — HIV 감염인의 CMV 망막염 허가 적응증(2026-08-05)
 - [x] valganciclovir — Leukemia에 듣는다  <!-- 시험 35건 · 논문 43편 --> — 백혈병 자체 치료 결과 없음(2026-08-05 조회)
 - [x] valganciclovir — Kidney Diseases에 듣는다  <!-- 시험 25건 · 논문 205편 --> — 신장이식 CMV 예방·치료 표준 범위(2026-08-05)
-- [ ] valganciclovir — CMV에 듣는다  <!-- 시험 16건 · 논문 1388편 -->
-- [ ] vorinostat — Cancer에 듣는다  <!-- 시험 181건 · 논문 2402편 -->
-- [ ] vorinostat — Leukemia에 듣는다  <!-- 시험 139건 · 논문 327편 -->
-- [ ] vorinostat — Myelodysplastic Syndrome에 듣는다  <!-- 시험 36건 · 논문 37편 -->
-- [ ] saccharomyces boulardii — H. Pylori Infection에 듣는다  <!-- 시험 5건 · 논문 72편 -->
-- [ ] saccharomyces boulardii — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 43편 -->
-- [ ] saccharomyces boulardii — Enterocolitis에 듣는다  <!-- 시험 3건 · 논문 89편 -->
-- [ ] nabiximols — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
-- [ ] nabiximols — Spasticity, Muscle에 듣는다  <!-- 시험 4건 · 논문 134편 -->
+- [x] valganciclovir — CMV에 듣는다  <!-- 시험 16건 · 논문 1388편 --> — CMV 망막염·이식 후 예방 허가 적응증(2026-08-05)
+- [x] vorinostat — Cancer에 듣는다  <!-- 시험 181건 · 논문 2402편 --> — 여러 암 병용·전임상 결과가 섞여 단일 암 직접 결과 없음(2026-08-05 조회)
+- [x] vorinostat — Leukemia에 듣는다  <!-- 시험 139건 · 논문 327편 --> — 신규 항목(vorinostat-leukemia-harm)
+- [x] vorinostat — Myelodysplastic Syndrome에 듣는다  <!-- 시험 36건 · 논문 37편 --> — 신규 항목(vorinostat-myelodysplastic-syndrome-pos)
+- [x] saccharomyces boulardii — H. Pylori Infection에 듣는다  <!-- 시험 5건 · 논문 72편 --> — 신규 항목(saccharomyces-boulardii-h-pylori-infection-pos)
+- [x] saccharomyces boulardii — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 43편 --> — 신규 항목(saccharomyces-boulardii-irritable-bowel-syndrome-pos)
+- [x] saccharomyces boulardii — Enterocolitis에 듣는다  <!-- 시험 3건 · 논문 89편 --> — 신규 항목(saccharomyces-boulardii-enterocolitis-pos)
+- [x] nabiximols — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 --> — 신규 항목(nabiximols-advanced-cancer-null)
+- [x] nabiximols — Spasticity, Muscle에 듣는다  <!-- 시험 4건 · 논문 134편 --> — 다발성경화증 경직 허가·표준 적응증(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9811,33 +9811,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] aminophylline — Anesthesia에 듣는다  <!-- 시험 5건 · 논문 196편 -->
-- [ ] aminophylline — Asthma에 듣는다  <!-- 시험 4건 · 논문 1180편 -->
-- [ ] aminophylline — Post-Dural Puncture Headache에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] danazol — Telomere Disease에 듣는다  <!-- 시험 6건 · 논문 28편 -->
-- [ ] danazol — Endometriosis에 듣는다  <!-- 시험 5건 · 논문 1036편 -->
-- [ ] danazol — Primary Myelofibrosis에 듣는다  <!-- 시험 5건 · 논문 50편 -->
-- [ ] danazol — Anemia에 듣는다  <!-- 시험 3건 · 논문 228편 -->
-- [ ] hydroquinone — Hyperpigmentation에 듣는다  <!-- 시험 3건 · 논문 614편 -->
-- [ ] imiquimod — Cancer에 듣는다  <!-- 시험 36건 · 논문 2614편 -->
-- [ ] imiquimod — Vulvar Carcinoma에 듣는다  <!-- 시험 24건 · 논문 157편 -->
-- [ ] imiquimod — Cervical Cancer에 듣는다  <!-- 시험 22건 · 논문 112편 -->
-- [ ] imiquimod — Melanoma에 듣는다  <!-- 시험 16건 · 논문 552편 -->
-- [ ] riboflavin — Ectasia에 듣는다  <!-- 시험 41건 · 논문 330편 -->
-- [ ] riboflavin — Keratitis에 듣는다  <!-- 시험 8건 · 논문 307편 -->
-- [ ] riboflavin — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 209편 -->
-- [ ] riboflavin — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 54편 -->
-- [ ] rifabutin — Tuberculosis에 듣는다  <!-- 시험 20건 · 논문 700편 -->
-- [ ] rifabutin — Helicobacter Pylori Infection에 듣는다  <!-- 시험 4건 · 논문 222편 -->
-- [ ] rifabutin — Infection, Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 447편 -->
-- [ ] sodium — Peripheral Neuropathy에 듣는다  <!-- 시험 16건 · 논문 2468편 -->
-- [ ] sodium — Pain에 듣는다  <!-- 시험 15건 · 논문 14394편 -->
-- [ ] sodium — Lung Cancer에 듣는다  <!-- 시험 15건 · 논문 2694편 -->
-- [ ] sodium — Kidney Stone에 듣는다  <!-- 시험 11건 · 논문 1427편 -->
-- [ ] thiosulfate — Cancer에 듣는다  <!-- 시험 27건 · 논문 541편 -->
-- [ ] thiosulfate — Malignant Glioma에 듣는다  <!-- 시험 12건 · 논문 9편 -->
-- [ ] thiosulfate — Brain Tumor에 듣는다  <!-- 시험 8건 · 논문 31편 -->
-- [ ] thiosulfate — Germ Cell Tumor에 듣는다  <!-- 시험 7건 · 논문 21편 -->
+- [x] aminophylline — Anesthesia에 듣는다  <!-- 시험 5건 · 논문 196편 --> — 회복 보조 연구뿐, 마취 자체 치료 결과 없음(2026-08-05 조회)
+- [x] aminophylline — Asthma에 듣는다  <!-- 시험 4건 · 논문 1180편 --> — 허가·표준 기관지확장 적응증(2026-08-05)
+- [x] aminophylline — Post-Dural Puncture Headache에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 신규 항목(aminophylline-post-dural-puncture-headache-pos)
+- [x] danazol — Telomere Disease에 듣는다  <!-- 시험 6건 · 논문 28편 --> — 신규 항목(danazol-telomere-disease-pos)
+- [x] danazol — Endometriosis에 듣는다  <!-- 시험 5건 · 논문 1036편 --> — 허가 적응증(2026-08-05)
+- [x] danazol — Primary Myelofibrosis에 듣는다  <!-- 시험 5건 · 논문 50편 --> — 골수섬유증 빈혈의 표준 비교요법(2026-08-05)
+- [x] danazol — Anemia에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 자가면역 용혈성 빈혈·ITP 표준 대체요법, 별도 항목 없음(2026-08-05)
+- [x] hydroquinone — Hyperpigmentation에 듣는다  <!-- 시험 3건 · 논문 614편 --> — 기미·과다색소침착 허가·표준 적응증(2026-08-05)
+- [x] imiquimod — Cancer에 듣는다  <!-- 시험 36건 · 논문 2614편 --> — 피부암 일부 허가, 전체 암 주장은 직접 결과 없음(2026-08-05 조회)
+- [x] imiquimod — Vulvar Carcinoma에 듣는다  <!-- 시험 24건 · 논문 157편 --> — 침윤성 암이 아닌 외음부 상피내 병변 연구만 확인(2026-08-05 조회)
+- [x] imiquimod — Cervical Cancer에 듣는다  <!-- 시험 22건 · 논문 112편 --> — 신규 항목(imiquimod-cervical-cancer-null)
+- [x] imiquimod — Melanoma에 듣는다  <!-- 시험 16건 · 논문 552편 --> — 신규 항목(imiquimod-melanoma-pos)
+- [x] riboflavin — Ectasia에 듣는다  <!-- 시험 41건 · 논문 330편 --> — 각막확장증 교차결합 표준 치료 범위(2026-08-05)
+- [x] riboflavin — Keratitis에 듣는다  <!-- 시험 8건 · 논문 307편 --> — 감염성 각막염은 전임상·교차결합 연구, 직접 치료 결과 부족(2026-08-05 조회)
+- [x] riboflavin — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 209편 --> — 신규 항목(riboflavin-blood-pressure-null)
+- [x] riboflavin — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 54편 --> — HIV 치료 직접 결과 없음(2026-08-05 조회)
+- [x] rifabutin — Tuberculosis에 듣는다  <!-- 시험 20건 · 논문 700편 --> — 결핵 표준·허가 항균요법(2026-08-05)
+- [x] rifabutin — Helicobacter Pylori Infection에 듣는다  <!-- 시험 4건 · 논문 222편 --> — 헬리코박터 제균 허가·표준 병용요법(2026-08-05)
+- [x] rifabutin — Infection, Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 447편 --> — HIV 관련 MAC 감염 표준 치료, HIV 자체 치료 아님(2026-08-05)
+- [x] sodium thiosulfate — Peripheral Neuropathy에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 직접 사람 치료 결과 없음(2026-08-05 재조회)
+- [x] sodium thiosulfate — Pain에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 --> — 신규 항목(sodium-thiosulfate-pain-pos)
+- [ ] sodium thiosulfate — Lung Cancer에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 -->
+- [ ] sodium thiosulfate — Kidney Stone에 듣는다  <!-- 초기 sodium 검색 결과, 물질 재대조 필요 -->
+- [ ] sodium thiosulfate — Cancer에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
+- [ ] sodium thiosulfate — Malignant Glioma에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
+- [ ] sodium thiosulfate — Brain Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
+- [ ] sodium thiosulfate — Germ Cell Tumor에 듣는다  <!-- 초기 thiosulfate 검색 결과, 물질 재대조 필요 -->
 - [ ] tolcapone — Alcohol Abuse에 듣는다  <!-- 시험 4건 · 논문 10편 -->
 - [ ] trimetazidine — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 101편 -->
 - [ ] yohimbine — Stress에 듣는다  <!-- 시험 3건 · 논문 1048편 -->

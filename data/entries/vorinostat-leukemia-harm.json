@@ -1,0 +1,29 @@
+{
+  "id": "vorinostat-leukemia-harm",
+  "subj": "보리노스타트",
+  "claim": "재발·불응 백혈병에 보리노스타트를 병용한다",
+  "line": "재발·불응 소아 급성림프모구백혈병 23명 병용시험에서 39%가 완전관해에 들어갔지만 74%에서 중증 감염이 생겼습니다",
+  "effect": "완전관해 9/23명, 3등급 이상 감염 17/23명",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 23,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "보리노스타트는 피부T세포림프종에 허가됐지만 급성백혈병 치료는 허가 적응증이 아닙니다.",
+  "why": "후성유전 조절제를 재발 백혈병의 다제 병용요법에 더해 반응을 노렸지만, 중증 감염과 장기독성이 치료 가능성을 제한했습니다.",
+  "saw": "재발·불응 소아 B세포 급성림프모구백혈병 환자 23명에게 데시타빈과 보리노스타트를 여러 항암제와 병용한 파일럿시험에서 9명(39%)이 완전관해 범주에 들었습니다. 17명(74%)은 3등급 이상 감염을 겪었고, 연구진은 이 병용을 독성 때문에 실행하기 어렵다고 결론냈습니다.",
+  "limit": "보리노스타트 단독 효과를 분리할 수 없고 표본이 작으며, 소아 재발 백혈병에 한정된 병용시험입니다.",
+  "against": "성인 AML·MDS 병용 1상에서는 반응 신호가 있었지만 병용 일정에 따라 반응과 독성이 달랐고, 백혈병 생존 이득은 확립되지 않았습니다.",
+  "use": "보리노스타트 병용이 백혈병에서 반응 신호와 중증 감염을 동시에 보인 사례로 기록합니다.",
+  "refs": [
+    { "label": "재발 소아 급성림프모구백혈병 데시타빈·보리노스타트 병용시험", "pmid": "31969338", "nct": "NCT01483690" },
+    { "label": "급성백혈병·MDS 데시타빈·보리노스타트 1상", "pmid": "25040094" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=vorinostat · cond=Leukemia → 49건 반환, 물질 대조 후 49건",
+    "pubmed": "vorinostat AND Leukemia → 327편",
+    "negative": "vorinostat AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 266편",
+    "safety": "vorinostat AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 729편"
+  }
+}

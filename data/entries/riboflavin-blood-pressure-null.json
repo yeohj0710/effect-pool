@@ -1,0 +1,29 @@
+{
+  "id": "riboflavin-blood-pressure-null",
+  "subj": "리보플라빈",
+  "claim": "고혈압을 낮추려 리보플라빈을 쓴다",
+  "line": "성인 374명이 들어간 4개 무작위시험 메타분석에서 리보플라빈의 수축기 혈압 효과는 불확실했습니다",
+  "effect": "수축기 −1.94 mmHg, 95% CI −5.74~1.86",
+  "tier": "trial",
+  "dir": "null",
+  "n": 374,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "리보플라빈은 영양 결핍 예방에 쓰이지만 고혈압 치료는 허가 적응증이 아닙니다.",
+  "why": "MTHFR 유전형에 따른 혈압 차이를 줄이려 비타민 B2를 혈압 보조치료로 사용한 무작위시험 메타분석입니다.",
+  "saw": "성인 374명이 포함된 4개 무작위시험을 합친 코크란 메타분석에서 수축기 혈압 차이는 -1.94mmHg였지만 신뢰구간이 0을 포함했습니다. 이완기 혈압은 -3.03mmHg였으나 근거 확실성이 매우 낮았습니다.",
+  "limit": "포함 연구 대부분의 비뚤림 위험이 높았고, 혈압약 변경이나 장기 심혈관 사건을 보고한 시험이 없었습니다.",
+  "against": "MTHFR C677T 유전형에서 특정 하위군 신호를 보고한 연구가 있지만 전체 혈압 효과를 확정하지 못했고, 큰 양질의 시험이 필요합니다.",
+  "use": "리보플라빈의 혈압 신호가 특정 유전형 가설에서 출발했지만 현재 무작위 근거로는 효과가 불확실하다는 점을 기록합니다.",
+  "refs": [
+    { "label": "리보플라빈 혈압강하 코크란 메타분석", "pmid": "41123035" },
+    { "label": "리보플라빈·MTHFR 유전형·혈압 검토", "pmid": "27720779" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=riboflavin · cond=Blood Pressure → 7건 반환, 물질 대조 후 5건",
+    "pubmed": "riboflavin AND Blood Pressure → 209편",
+    "negative": "riboflavin AND Blood Pressure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 119편",
+    "safety": "riboflavin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2295편"
+  }
+}

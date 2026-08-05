@@ -1,48 +1,18 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 1164,
+  "entries": 1176,
   "worklist": {
-    "checked": 8727,
-    "unchecked": 45,
+    "checked": 8757,
+    "unchecked": 15,
     "no_evidence_pending": 183,
     "next_batch": [
-      "valganciclovir-cmv",
-      "vorinostat-cancer",
-      "vorinostat-leukemia",
-      "vorinostat-myelodysplastic-syndrome",
-      "saccharomyces-boulardii-h-pylori-infection",
-      "saccharomyces-boulardii-irritable-bowel-syndrome",
-      "saccharomyces-boulardii-enterocolitis",
-      "nabiximols-advanced-cancer",
-      "nabiximols-spasticity-muscle",
-      "aminophylline-anesthesia",
-      "aminophylline-asthma",
-      "aminophylline-post-dural-puncture-headache",
-      "danazol-telomere-disease",
-      "danazol-endometriosis",
-      "danazol-primary-myelofibrosis",
-      "danazol-anemia",
-      "hydroquinone-hyperpigmentation",
-      "imiquimod-cancer",
-      "imiquimod-vulvar-carcinoma",
-      "imiquimod-cervical-cancer",
-      "imiquimod-melanoma",
-      "riboflavin-ectasia",
-      "riboflavin-keratitis",
-      "riboflavin-blood-pressure",
-      "riboflavin-hiv-infections",
-      "rifabutin-tuberculosis",
-      "rifabutin-helicobacter-pylori-infection",
-      "rifabutin-infection-human-immunodeficiency-virus",
-      "sodium-peripheral-neuropathy",
-      "sodium-pain",
-      "sodium-lung-cancer",
-      "sodium-kidney-stone",
-      "thiosulfate-cancer",
-      "thiosulfate-malignant-glioma",
-      "thiosulfate-brain-tumor",
-      "thiosulfate-germ-cell-tumor",
+      "sodium-thiosulfate-lung-cancer",
+      "sodium-thiosulfate-kidney-stone",
+      "sodium-thiosulfate-cancer",
+      "sodium-thiosulfate-malignant-glioma",
+      "sodium-thiosulfate-brain-tumor",
+      "sodium-thiosulfate-germ-cell-tumor",
       "tolcapone-alcohol-abuse",
       "trimetazidine-diabetes-mellitus",
       "yohimbine-stress",
@@ -60,16 +30,16 @@
     "unknown_n_warnings": 34,
     "known_warnings": 0,
     "tier_distribution": {
-      "trial": 1033,
+      "trial": 1045,
       "obs": 99,
     "animal": 8,
       "lab": 4,
       "case": 20
     },
-    "no_effect_or_harm": 447,
-    "harm": 61,
+    "no_effect_or_harm": 451,
+    "harm": 62,
     "no_effect_or_harm_share": "39%",
-    "connected_evidence": 2255
+    "connected_evidence": 2283
   },
   "deployment": {
     "last_entry_count": 716,
@@ -181,7 +151,7 @@
     ]
   },
   "resume": {
-    "last_committed_batch": "expansion after batch 41: 36 candidates added",
+    "last_committed_batch": "batch 42: 12 entries added and 30 topics processed",
     "last_batch": [
       "atovaquone-falciparum (label/standard malaria indication; no entry)",
       "artemisinin-plasmodium-falciparum (label/standard malaria indication; no entry)",
@@ -214,8 +184,8 @@
       "valganciclovir-leukemia (no direct leukemia treatment result; no entry)",
       "valganciclovir-kidney-diseases (standard kidney-transplant CMV prophylaxis/treatment; no entry)"
     ],
-    "current_batch": "expansion after batch 41: 36 candidates from 21 substance inputs",
-    "next_action": "research and process the first 30 unchecked topics, then run build, commit, and push",
-    "expansion_checkpoint": "36 candidates added after batch 41; 45 unchecked topics remain"
+    "current_batch": "worklist batch 42: valganciclovir CMV through sodium thiosulfate Pain",
+    "next_action": "research and process the next 15 unchecked topics, then run build, commit, and push; if fewer than 30 remain, expand the worklist first",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 15 unchecked topics remain"
   }
 }

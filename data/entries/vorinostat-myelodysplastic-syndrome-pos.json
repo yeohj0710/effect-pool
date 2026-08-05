@@ -1,0 +1,29 @@
+{
+  "id": "vorinostat-myelodysplastic-syndrome-pos",
+  "subj": "보리노스타트",
+  "claim": "고위험 골수이형성증후군에 보리노스타트를 병용한다",
+  "line": "급성골수성백혈병·골수이형성증후군 71명 1상에서 데시타빈과 보리노스타트를 함께 쓴 일정의 MDS 반응률은 60%였습니다",
+  "effect": "동시투여 일정 MDS 반응 60%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 71,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "보리노스타트는 피부T세포림프종에 허가됐지만 골수이형성증후군 치료는 허가 적응증이 아닙니다.",
+  "why": "히스톤탈아세틸화효소 억제제를 저메틸화제와 병용해 고위험 골수이형성증후군의 치료 반응을 높이려 한 1상 시험입니다.",
+  "saw": "급성골수성백혈병과 골수이형성증후군 환자 71명을 대상으로 데시타빈과 보리노스타트를 병용한 1상 시험에서 MDS 환자는 11명이었습니다. 최대투여량의 동시투여 일정에서 MDS 반응은 60%였고, 순차투여 일정에서는 반응이 관찰되지 않았습니다.",
+  "limit": "MDS 환자가 11명뿐이고 보리노스타트 단독 효과가 아니라 데시타빈 병용 효과이며, 1상 연구라 비교군이 없습니다.",
+  "against": "아자시티딘 실패 고위험 MDS 40명 병용 1상에서는 전체 반응률이 15%였고, 병용 순서에 따라 독성과 반응이 달랐습니다.",
+  "use": "보리노스타트의 MDS 신호가 단독요법이 아니라 특정 병용 일정에서 나온 초기 결과임을 기록합니다.",
+  "refs": [
+    { "label": "급성백혈병·MDS 데시타빈·보리노스타트 1상", "pmid": "25040094" },
+    { "label": "고위험 MDS 아자시티딘 실패 환자 보리노스타트 병용 1상", "pmid": "23953882", "nct": "NCT00776503" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=vorinostat · cond=Myelodysplastic Syndrome → 24건 반환, 물질 대조 후 24건",
+    "pubmed": "vorinostat AND Myelodysplastic Syndrome → 37편",
+    "negative": "vorinostat AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 27편",
+    "safety": "vorinostat AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 729편"
+  }
+}
