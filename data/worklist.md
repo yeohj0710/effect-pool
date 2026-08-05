@@ -7146,11 +7146,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] candesartan — Migraine에 듣는다  <!-- 시험 8건 · 논문 79편 --> — 이미 수록됨(2026-08-05)
 - [x] candesartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 513편 --> — 이미 수록됨(2026-08-05)
 - [x] candesartan — Obesity에 듣는다  <!-- 시험 6건 · 논문 95편 --> — 신규 항목(candesartan-obesity-open)(2026-08-05)
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 시험 38건 · 논문 1839편 -->
-- [ ] carvedilol — Cirrhosis에 듣는다  <!-- 시험 34건 · 논문 343편 -->
-- [ ] carvedilol — Varix, Esophageal에 듣는다  <!-- 시험 15건 · 논문 104편 -->
-- [ ] carvedilol — Cancer에 듣는다  <!-- 시험 12건 · 논문 277편 -->
-- [ ] furosemide — Kidney Stone에 듣는다  <!-- 시험 30건 · 논문 104편 -->
-- [ ] furosemide — Hypertension에 듣는다  <!-- 시험 18건 · 논문 2767편 -->
-- [ ] furosemide — Fluid Overload에 듣는다  <!-- 시험 15건 · 논문 262편 -->
-- [ ] furosemide — Renal Impairment에 듣는다  <!-- 시험 13건 · 논문 1715편 -->
+- [x] carvedilol — Heart Failure에 듣는다  <!-- 시험 38건 · 논문 1839편 --> — 허가 적응증(2026-08-05)
+- [x] carvedilol — Cirrhosis에 듣는다  <!-- 시험 34건 · 논문 343편 --> — 이미 수록됨(2026-08-05)
+- [x] carvedilol — Varix, Esophageal에 듣는다  <!-- 시험 15건 · 논문 104편 --> — 이미 수록됨(2026-08-05)
+- [x] carvedilol — Cancer에 듣는다  <!-- 시험 12건 · 논문 277편 --> — 이미 수록됨(2026-08-05)
+- [x] furosemide — Kidney Stone에 듣는다  <!-- 시험 30건 · 논문 104편 --> — 신규 항목(furosemide-kidney-stone-pos)(2026-08-05)
+- [x] furosemide — Hypertension에 듣는다  <!-- 시험 18건 · 논문 2767편 --> — 허가 적응증(2026-08-05)
+- [x] furosemide — Fluid Overload에 듣는다  <!-- 시험 15건 · 논문 262편 --> — 허가 적응증(2026-08-05)
+- [x] furosemide — Renal Impairment에 듣는다  <!-- 시험 13건 · 논문 1715편 --> — 이미 수록됨(2026-08-05)

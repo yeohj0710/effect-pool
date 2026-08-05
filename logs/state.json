@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 483,
+    "entries": 484,
   "worklist": {
-    "checked": 6521,
-    "unchecked": 8,
+    "checked": 6529,
+    "unchecked": 0,
     "no_evidence_pending": 0,
     "next_batch": []
   },
@@ -29,16 +29,14 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "simvastatin-heart-failure (already represented)",
-    "simvastatin-dyslipidemia (approved)",
-    "fluoxetine-depressive-disorder (approved)",
-    "fluoxetine-social-anxiety (already represented)",
-    "fluoxetine-stroke (already represented)",
-    "fluoxetine-obsessive-compulsive-disorder (approved)",
-    "candesartan-heart-failure (approved)",
-    "candesartan-migraine (already represented)",
-    "candesartan-diabetes (already represented)",
-    "candesartan-obesity (created)"
+    "carvedilol-heart-failure (approved)",
+    "carvedilol-cirrhosis (already represented)",
+    "carvedilol-varix-esophageal (already represented)",
+    "carvedilol-cancer (already represented)",
+    "furosemide-kidney-stone (created)",
+    "furosemide-hypertension (approved)",
+    "furosemide-fluid-overload (approved)",
+    "furosemide-renal-impairment (already represented)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -68,8 +66,8 @@
     "latest_candidates": 208
   },
   "resume": {
-    "last_committed_batch": "ibuprofen pioglitazone simvastatin batch",
-    "current_batch": "simvastatin fluoxetine candesartan batch",
-    "next_action": "build, commit, push, then process next 10 expanded candidates"
+    "last_committed_batch": "simvastatin fluoxetine candesartan batch",
+    "current_batch": "carvedilol furosemide batch",
+    "next_action": "worklist exhausted; audit build and deployment threshold"
   }
 }
