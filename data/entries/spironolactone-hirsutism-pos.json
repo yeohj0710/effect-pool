@@ -1,0 +1,36 @@
+{
+  "id": "spironolactone-hirsutism-pos",
+  "subj": "스피로놀락톤",
+  "claim": "이뇨제의 항남성호르몬 부작용을 여성 다모증에 쓴다",
+  "line": "여성 다모증에서 털 점수를 42% 낮췄습니다",
+  "effect": "다모 점수 42% 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 40,
+  "synth": "single",
+  "why": "이뇨제 스피로놀락톤의 항남성호르몬 성질을 여성 다모증 치료로 전환한 무작위 비교시험입니다.",
+  "saw": "특발성 다모증 여성 40명을 무작위 배정한 단일맹검시험에서 스피로놀락톤군 다모 점수는 9개월에 42.36% 줄었고 비교약군은 15.15% 줄었습니다. 스피로놀락톤군 20명 중 11명에서 이상반응이 보고됐습니다.",
+  "limit": "위약이 아닌 비교약과 비교한 소규모 시험이며, 항남성호르몬 부작용이 치료 성질로 전환됐지만 월경 이상 등 이상반응이 흔했습니다.",
+  "against": "반대 검색 217건. 다모증 스피로놀락톤 문헌고찰은 효과 신호를 확인했지만 시험 수가 적고 표본이 작아 근거 확실성이 낮다고 평가했습니다.",
+  "use": "허가된 이뇨제의 항남성호르몬 부작용을 여성 다모증에 전환한 초기 임상 근거로 표시합니다.",
+  "refs": [
+    {
+      "label": "특발성 다모증 스피로놀락톤 무작위 비교시험",
+      "pmid": "9418687"
+    },
+    {
+      "label": "Cochrane · 다모증 스피로놀락톤 체계적 문헌고찰",
+      "pmid": "14583916"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA substance_name:SPIRONOLACTONE → 143건; 심부전·고혈압·고알도스테론증 허가, 여성 다모증은 허가 없음",
+    "ctgov": "query.intr=spironolactone&query.cond=Hirsutism → 0건 반환, InterventionName 일치 0건",
+    "pubmed": "spironolactone hirsutism → 302건",
+    "negative": "spironolactone hirsutism AND (no effect OR did not OR failed to OR negative OR no significant difference) → 217건",
+    "safety": "spironolactone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,192건"
+  },
+  "known": "off",
+  "knownWhy": "여성 다모증은 허가 적응증 없음"
+}
