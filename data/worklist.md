@@ -8874,36 +8874,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] MDMA — PTSD에 듣는다  <!-- 시험 9건 · 논문 401편 -->
 - [x] MDMA — Stimulant Use에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Stimulant Use")  <!-- 시험 7건 · 논문 1635편 -->
 - [x] MDMA — Substance-related Disorder에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Substance-related Disorder")  <!-- 시험 7건 · 논문 1913편 -->
-- [ ] MDMA — Interaction에 듣는다  <!-- 시험 5건 · 논문 677편 -->
-- [ ] varenicline — Opioid Dependence에 듣는다  <!-- 시험 91건 · 논문 47편 -->
-- [ ] varenicline — Tobacco에 듣는다  <!-- 시험 55건 · 논문 1444편 -->
-- [ ] varenicline — Cancer에 듣는다  <!-- 시험 19건 · 논문 414편 -->
-- [ ] varenicline — Schizophrenia에 듣는다  <!-- 시험 16건 · 논문 115편 -->
-- [ ] acamprosate — Alcoholism에 듣는다  <!-- 시험 12건 · 논문 810편 -->
-- [ ] acamprosate — Anxiety에 듣는다  <!-- 시험 4건 · 논문 65편 -->
-- [ ] acamprosate — Depression에 듣는다  <!-- 시험 4건 · 논문 87편 -->
-- [ ] acamprosate — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] nalmefene — Opioid Overdose에 듣는다  <!-- 시험 11건 · 논문 54편 -->
-- [ ] atomoxetine — ADHD에 듣는다  <!-- 시험 19건 · 논문 1812편 -->
-- [ ] atomoxetine — Sleep Apnea에 듣는다  <!-- 시험 15건 · 논문 59편 -->
-- [ ] atomoxetine — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 46편 -->
-- [ ] doxepin — Insomnia에 듣는다  <!-- 시험 6건 · 논문 131편 -->
-- [ ] nortriptyline — Depressive Disorder에 듣는다  <!-- 시험 5건 · 논문 852편 -->
-- [ ] nortriptyline — Tinnitus에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] nortriptyline — Migraine에 듣는다  <!-- 시험 4건 · 논문 52편 -->
-- [ ] imipramine — Arrhythmia에 듣는다  <!-- 시험 5건 · 논문 270편 -->
-- [ ] imipramine — Oxidative Stress에 듣는다  <!-- 시험 5건 · 논문 110편 -->
-- [ ] imipramine — Heart Arrest에 듣는다  <!-- 시험 4건 · 논문 35편 -->
-- [ ] imipramine — Dysthymia에 듣는다  <!-- 시험 3건 · 논문 72편 -->
-- [ ] carbidopa — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 15편 -->
-- [ ] carbidopa — Depression에 듣는다  <!-- 시험 5건 · 논문 204편 -->
-- [ ] trihexyphenidyl — Cerebral Palsy에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] acyclovir — HIV에 듣는다  <!-- 시험 43건 · 논문 1526편 -->
-- [ ] acyclovir — Cancer에 듣는다  <!-- 시험 18건 · 논문 3269편 -->
-- [ ] acyclovir — Leukemia에 듣는다  <!-- 시험 17건 · 논문 625편 -->
-- [ ] acyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 15992편 -->
-- [ ] vardenafil — Arterial Hypertension에 듣는다  <!-- 시험 5건 · 논문 177편 -->
-- [ ] vardenafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 3건 · 논문 67편 -->
+- [x] MDMA — Interaction에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Interaction")  <!-- 시험 5건 · 논문 677편 -->
+- [x] varenicline — Opioid Dependence에 듣는다 — 근거 없음(2026-08-05 조회, "varenicline AND Opioid Dependence")  <!-- 시험 91건 · 논문 47편 -->
+- [x] varenicline — Tobacco에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 55건 · 논문 1444편 -->
+- [x] varenicline — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "varenicline AND Cancer")  <!-- 시험 19건 · 논문 414편 -->
+- [x] varenicline — Schizophrenia에 듣는다  <!-- 시험 16건 · 논문 115편 -->
+- [x] acamprosate — Alcoholism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 12건 · 논문 810편 -->
+- [x] acamprosate — Anxiety에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Anxiety")  <!-- 시험 4건 · 논문 65편 -->
+- [x] acamprosate — Depression에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Depression")  <!-- 시험 4건 · 논문 87편 -->
+- [x] acamprosate — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Schizophrenia")  <!-- 시험 3건 · 논문 16편 -->
+- [x] nalmefene — Opioid Overdose에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 11건 · 논문 54편 -->
+- [x] atomoxetine — ADHD에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 1812편 -->
+- [x] atomoxetine — Sleep Apnea에 듣는다  <!-- 시험 15건 · 논문 59편 -->
+- [x] atomoxetine — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 46편 -->
+- [x] doxepin — Insomnia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 6건 · 논문 131편 -->
+- [x] nortriptyline — Depressive Disorder에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 5건 · 논문 852편 -->
+- [x] nortriptyline — Tinnitus에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [x] nortriptyline — Migraine에 듣는다  <!-- 시험 4건 · 논문 52편 -->
+- [x] imipramine — Arrhythmia에 듣는다 — 근거 없음(2026-08-05 조회, "imipramine AND Arrhythmia")  <!-- 시험 5건 · 논문 270편 -->
+- [x] imipramine — Oxidative Stress에 듣는다 — 근거 없음(2026-08-05 조회, "imipramine AND Oxidative Stress")  <!-- 시험 5건 · 논문 110편 -->
+- [x] imipramine — Heart Arrest에 듣는다 — 근거 없음(2026-08-05 조회, "imipramine AND Heart Arrest")  <!-- 시험 4건 · 논문 35편 -->
+- [x] imipramine — Dysthymia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 3건 · 논문 72편 -->
+- [x] carbidopa — Cocaine Abuse에 듣는다  <!-- 시험 9건 · 논문 15편 -->
+- [x] carbidopa — Depression에 듣는다 — 근거 없음(2026-08-05 조회, "carbidopa AND Depression")  <!-- 시험 5건 · 논문 204편 -->
+- [x] trihexyphenidyl — Cerebral Palsy에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [x] acyclovir — HIV에 듣는다  <!-- 시험 43건 · 논문 1526편 -->
+- [x] acyclovir — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "acyclovir AND Cancer")  <!-- 시험 18건 · 논문 3269편 -->
+- [x] acyclovir — Leukemia에 듣는다  <!-- 시험 17건 · 논문 625편 -->
+- [x] acyclovir — Infection에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 10건 · 논문 15992편 -->
+- [x] vardenafil — Arterial Hypertension에 듣는다  <!-- 시험 5건 · 논문 177편 -->
+- [x] vardenafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 3건 · 논문 67편 -->
 - [ ] bosentan — Congenital Heart Disease에 듣는다  <!-- 시험 10건 · 논문 229편 -->
 - [ ] bosentan — Systemic Sclerosis에 듣는다  <!-- 시험 10건 · 논문 321편 -->
 - [ ] bosentan — Skin Fibrosis에 듣는다  <!-- 시험 6건 · 논문 37편 -->

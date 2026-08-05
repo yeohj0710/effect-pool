@@ -1,0 +1,29 @@
+{
+  "id": "acyclovir-hiv-open",
+  "subj": "아시클로버",
+  "claim": "HSV-2에 동시 감염된 HIV 환자의 HIV 바이러스량을 아시클로버로 낮춘다",
+  "line": "HIV·HSV-2 동시감염에서 아시클로버는 HIV RNA를 낮췄지만 전파는 줄이지 못했습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 3408,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아시클로버는 HSV·수두대상포진 치료·억제 약물이지만 HIV 치료는 허가 적응증이 아닙니다.",
+  "why": "HSV-2 재활성화를 억제해 HIV 복제와 생식기 바이러스 배출을 함께 낮춘다는 주장입니다.",
+  "saw": "무작위시험 7건 메타분석에서 HIV RNA는 약 0.33 log10 copies 낮아졌고, 3,408쌍 시험에서는 HIV RNA가 0.25 log10 줄었지만 HIV 전파 HR은 0.92로 유의하지 않았습니다.",
+  "limit": "HSV-2 동시감염과 항레트로바이러스 치료 여부에 따라 결과가 달라지고, HIV 전파 예방 효과는 없었습니다.",
+  "against": "대규모 커플 무작위시험에서 HIV 전파 감소가 확인되지 않았습니다(p=0.69).",
+  "use": "항레트로바이러스 치료를 대신하지 않는 HSV-2 동시감염 연구근거로만 사용해야 합니다.",
+  "effect": "HIV RNA −0.25 log10",
+  "refs": [
+    { "label": "아시클로버·HIV 바이러스량 무작위시험 메타분석", "pmid": "21666542" },
+    { "label": "아시클로버·HIV 전파 무작위시험", "pmid": "20089951", "nct": "NCT00194519" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=acyclovir, cond=HIV · 93건 중 39건 직접 확인",
+    "pubmed": "acyclovir AND HIV · 1526건",
+    "negative": "acyclovir AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) · 865건",
+    "safety": "acyclovir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 10252건"
+  }
+}
