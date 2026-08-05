@@ -7422,16 +7422,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 449편 -->
 - [x] tamoxifen — Ductal Carcinoma에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 8건 · 논문 1126편 -->
 - [x] raloxifene — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 1368편 -->
-- [ ] raloxifene — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 71편 -->
-- [ ] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 -->
-- [ ] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 시험 54건 · 논문 3005편 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 224편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 시험 19건 · 논문 415편 -->
-- [ ] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 24건 · 논문 1415편 -->
-- [ ] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 시험 15건 · 논문 357편 -->
-- [ ] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 시험 13건 · 논문 52편 -->
-- [ ] creatine — Muscle에 듣는다  <!-- 시험 15건 · 논문 29399편 -->
+- [x] raloxifene — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 71편 -->
+- [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 -->
+- [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [x] allopurinol — Gout에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 224편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 — 허가 적응증(2026-08-05)  <!-- 시험 19건 · 논문 415편 -->
+- [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 24건 · 논문 1415편 -->
+- [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 시험 15건 · 논문 357편 -->
+- [x] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 시험 13건 · 논문 52편 -->
+- [x] creatine — Muscle에 듣는다  <!-- 시험 15건 · 논문 29399편 -->
 - [ ] creatine — Major Depressive Disorder에 듣는다  <!-- 시험 13건 · 논문 206편 -->
 - [ ] creatine — Sarcopenia에 듣는다  <!-- 시험 13건 · 논문 301편 -->
 - [ ] creatine — Sport Performance에 듣는다  <!-- 시험 13건 · 논문 2262편 -->
