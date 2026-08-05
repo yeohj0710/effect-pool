@@ -6442,16 +6442,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 -->
-- [ ] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
-- [ ] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
-- [ ] gabapentin — Cancer에 듣는다  <!-- 등록 시험 40건 -->
-- [ ] gabapentin — Opioid Use에 듣는다  <!-- 등록 시험 33건 -->
-- [ ] gabapentin — Nausea에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] gabapentin — Drug Dependence에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
+- [x] naltrexone — Alcoholism에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
+- [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-open)  <!-- 등록 시험 34건 -->
+- [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
+- [x] gabapentin — Cancer에 듣는다 — 기존 항목(gabapentin-cancer-null)  <!-- 등록 시험 40건 -->
+- [x] gabapentin — Opioid Use에 듣는다 — 기존 항목(gabapentin-opioid-use-open)  <!-- 등록 시험 33건 -->
+- [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea-null)  <!-- 등록 시험 19건 -->
+- [x] gabapentin — Drug Dependence에 듣는다 — 기존 항목(gabapentin-drug-dependence-null)  <!-- 등록 시험 18건 -->
+- [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
+- [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [ ] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 -->
 - [ ] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->

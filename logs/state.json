@@ -3,20 +3,20 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 642,
   "worklist": {
-    "checked": 5866,
-    "unchecked": 208,
+    "checked": 5876,
+    "unchecked": 198,
     "no_evidence_pending": 0,
     "next_batch": [
-      "naltrexone-alcoholism",
-      "naltrexone-marijuana-use",
-      "naltrexone-obesity",
-      "naltrexone-pain",
-      "gabapentin-cancer",
-      "gabapentin-opioid-use",
-      "gabapentin-nausea",
-      "gabapentin-drug-dependence",
-      "amitriptyline-pain",
-      "amitriptyline-headache"
+      "amitriptyline-fibromyalgia",
+      "amitriptyline-major-depression",
+      "topiramate-obesity",
+      "topiramate-epilepsy",
+      "topiramate-alcohol-abuse",
+      "topiramate-seizures",
+      "trazodone-sleep",
+      "trazodone-depression",
+      "trazodone-delirium",
+      "trazodone-major-depressive-disorder"
     ]
   },
   "verification": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "metformin-obesity (existing: metformin-obesity-pos)",
-    "metformin-insulin-resistance (existing: metformin-insulin-resistance-null)",
-    "aspirin-stroke (approved)",
-    "aspirin-colon-cancer (existing: aspirin-colon-cancer-null)",
-    "aspirin-brain-infarction (approved)",
-    "aspirin-cardiovascular-events (existing: aspirin-cardiovascular-disease-open)",
-    "propranolol-migraine (approved)",
-    "propranolol-stress-reaction (existing: propranolol-stress-reaction-null)",
-    "propranolol-ovarian-carcinoma (existing: propranolol-ovarian-carcinoma-pos)",
-    "propranolol-cirrhosis (existing: propranolol-cirrhosis)"
+    "naltrexone-alcoholism (approved)",
+    "naltrexone-marijuana-use (existing: naltrexone-marijuana-use-pos)",
+    "naltrexone-obesity (existing: naltrexone-obesity-open)",
+    "naltrexone-pain (existing: naltrexone-pain-null)",
+    "gabapentin-cancer (existing: gabapentin-cancer-null)",
+    "gabapentin-opioid-use (existing: gabapentin-opioid-use-open)",
+    "gabapentin-nausea (existing: gabapentin-nausea-null)",
+    "gabapentin-drug-dependence (existing: gabapentin-drug-dependence-null)",
+    "amitriptyline-pain (existing: amitriptyline-pain-null)",
+    "amitriptyline-headache (existing: amitriptyline-headache)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "metformin, aspirin, propranolol",
-    "current_batch": "metformin, aspirin, propranolol",
+    "last_committed_batch": "naltrexone, gabapentin, amitriptyline",
+    "current_batch": "naltrexone, gabapentin, amitriptyline",
     "next_action": "commit, push, then process next batch"
   }
 }
