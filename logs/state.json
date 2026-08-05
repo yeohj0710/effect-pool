@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-05",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 635,
+  "entries": 642,
   "worklist": {
-    "checked": 5828,
-    "unchecked": 246,
+    "checked": 5838,
+    "unchecked": 236,
     "no_evidence_pending": 0,
     "next_batch": [
-      "donepezil-stroke",
-      "donepezil-brain-tumor",
-      "rivastigmine-delirium",
-      "rivastigmine-cognitive-symptoms",
-      "rivastigmine-dementia",
-      "rivastigmine-cocaine-abuse",
-      "pramipexole-restless-legs-syndrome",
-      "pramipexole-depression",
-      "pramipexole-asthma",
-      "pramipexole-amyotrophic-lateral-sclerosis"
+      "fluvoxamine-obsessive-compulsive-disorder",
+      "fluvoxamine-covid-19",
+      "fluvoxamine-anxiety-disorders",
+      "fluvoxamine-covid19",
+      "paroxetine-depression",
+      "paroxetine-anxiety-disorder",
+      "paroxetine-posttraumatic-stress-disorder",
+      "paroxetine-panic-disorder",
+      "escitalopram-depression",
+      "escitalopram-anxiety"
     ]
   },
   "verification": {
@@ -24,14 +24,14 @@
     "line_warnings": 0,
     "unknown_n_warnings": 4,
     "tier_distribution": {
-      "trial": 591,
+      "trial": 598,
       "obs": 35,
       "animal": 1,
       "lab": 2,
       "case": 6
     },
-    "no_effect_or_harm": 261,
-    "harm": 23,
+    "no_effect_or_harm": 263,
+    "harm": 24,
     "no_effect_or_harm_share": "41%"
   },
   "deployment": {
@@ -40,16 +40,16 @@
     "deployment_id": "dpl_BXX6FqjJgHchDRxCKhh3uSMpxFU1"
   },
   "last_batch": [
-    "berberine-schizophrenia (existing)",
-    "berberine-metabolic-syndrome (existing)",
-    "berberine-hiv-1-infection (existing)",
-    "berberine-gastritis (existing)",
-    "sacubitril-hypertension (new: sacubitril-hypertension-open)",
-    "sacubitril-myocardial-injury (new: sacubitril-myocardial-injury-open)",
-    "sacubitril-chagas-cardiomyopathy (new: sacubitril-chagas-cardiomyopathy-pos)",
-    "sacubitril-breast-cancer (new: sacubitril-breast-cancer-open)",
-    "donepezil-dementia (approved)",
-    "donepezil-memory-impairment (new: donepezil-memory-impairment-null)"
+    "donepezil-stroke (new: donepezil-stroke-pos)",
+    "donepezil-brain-tumor (new: donepezil-brain-tumor-pos)",
+    "rivastigmine-delirium (new: rivastigmine-delirium-harm)",
+    "rivastigmine-cognitive-symptoms (new: rivastigmine-cognitive-symptoms-open)",
+    "rivastigmine-dementia (approved)",
+    "rivastigmine-cocaine-abuse (new: rivastigmine-cocaine-abuse-pos)",
+    "pramipexole-restless-legs-syndrome (approved)",
+    "pramipexole-depression (new: pramipexole-depression-pos)",
+    "pramipexole-asthma (no direct pramipexole evidence)",
+    "pramipexole-amyotrophic-lateral-sclerosis (new: pramipexole-amyotrophic-lateral-sclerosis-null)"
   ],
   "expansion": {
     "date": "2026-08-05",
@@ -77,8 +77,8 @@
     "added_candidates": 540
   },
   "resume": {
-    "last_committed_batch": "berberine, sacubitril, donepezil",
-    "current_batch": "berberine, sacubitril, donepezil",
+    "last_committed_batch": "donepezil, rivastigmine, pramipexole",
+    "current_batch": "donepezil, rivastigmine, pramipexole",
     "next_action": "build, commit, push, then process next batch"
   }
 }

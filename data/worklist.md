@@ -6384,16 +6384,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sacubitril — Breast Cancer에 듣는다 — 새 항목(sacubitril-breast-cancer-open)  <!-- 등록 시험 6건 -->
 - [x] donepezil — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 32건 -->
 - [x] donepezil — Memory Impairment에 듣는다 — 새 항목(donepezil-memory-impairment-null)  <!-- 등록 시험 29건 -->
-- [ ] donepezil — Stroke에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] donepezil — Brain Tumor에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] rivastigmine — Delirium에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] rivastigmine — Cognitive Symptoms에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rivastigmine — Dementia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rivastigmine — Cocaine Abuse에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] pramipexole — Restless Legs Syndrome에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] pramipexole — Depression에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] pramipexole — Asthma에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] pramipexole — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 등록 시험 10건 -->
+- [x] donepezil — Stroke에 듣는다 — 새 항목(donepezil-stroke-pos)  <!-- 등록 시험 7건 -->
+- [x] donepezil — Brain Tumor에 듣는다 — 새 항목(donepezil-brain-tumor-pos)  <!-- 등록 시험 7건 -->
+- [x] rivastigmine — Delirium에 듣는다 — 새 항목(rivastigmine-delirium-harm)  <!-- 등록 시험 10건 -->
+- [x] rivastigmine — Cognitive Symptoms에 듣는다 — 새 항목(rivastigmine-cognitive-symptoms-open)  <!-- 등록 시험 9건 -->
+- [x] rivastigmine — Dementia에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 9건 -->
+- [x] rivastigmine — Cocaine Abuse에 듣는다 — 새 항목(rivastigmine-cocaine-abuse-pos)  <!-- 등록 시험 5건 -->
+- [x] pramipexole — Restless Legs Syndrome에 듣는다 — 허가 적응증(2026-08-05)  <!-- 등록 시험 21건 -->
+- [x] pramipexole — Depression에 듣는다 — 새 항목(pramipexole-depression-pos)  <!-- 등록 시험 16건 -->
+- [x] pramipexole — Asthma에 듣는다 — 근거 없음(2026-08-05 조회, pramipexole AND Asthma; ClinicalTrials.gov 6건 반환·dexpramipexole만 확인, PubMed 5건)  <!-- 등록 시험 12건 -->
+- [x] pramipexole — Amyotrophic Lateral Sclerosis에 듣는다 — 새 항목(pramipexole-amyotrophic-lateral-sclerosis-null)  <!-- 등록 시험 10건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

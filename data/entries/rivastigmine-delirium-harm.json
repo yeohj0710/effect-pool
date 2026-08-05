@@ -1,0 +1,33 @@
+{
+  "id": "rivastigmine-delirium-harm",
+  "subj": "리바스티그민",
+  "claim": "치매약을 중환자 섬망에 쓴다",
+  "line": "중환자 섬망 기간을 줄이지 못했고 사망이 더 많았습니다",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 104,
+  "synth": "single",
+  "why": "중환자실 섬망 환자에게 리바스티그민과 위약을 배정해 섬망 기간과 사망을 비교한 다기관 무작위시험입니다.",
+  "saw": "104명 분석에서 섬망 기간 중앙값은 리바스티그민군 5일, 위약군 3일이었고 사망은 22% 대 8%로 리바스티그민군이 많아 시험이 중단됐습니다.",
+  "limit": "중환자실에서 할로페리돌 기반 표준치료에 더한 시험이며 조기 중단으로 정밀한 효과 추정이 어렵습니다. 일반 섬망이나 치매 환자에 그대로 일반화할 수 없습니다.",
+  "against": "반대 검색 64건을 확인했습니다. 같은 무작위시험에서 섬망 기간 단축은 없었고 사망 증가 신호가 관찰됐습니다.",
+  "use": "중환자 섬망 치료제로 리바스티그민을 표시하면 안 되며, 사망 증가 신호를 포함한 해로운 결과로 설명해야 합니다.",
+  "refs": [
+    {
+      "label": "van Eijk 2010 · Lancet · 중환자실 섬망 리바스티그민 무작위시험",
+      "doi": "10.1016/S0140-6736(10)61855-7",
+      "pmid": "21056464"
+    },
+    {
+      "label": "NCT00704301 · 중환자실 섬망 리바스티그민 시험 · 중단",
+      "nct": "NCT00704301"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=rivastigmine&query.cond=Delirium → 12건 반환, InterventionName 대조 후 10건",
+    "pubmed": "rivastigmine delirium → 83건",
+    "negative": "rivastigmine delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 64건",
+    "safety": "rivastigmine delirium AND (adverse OR toxicity OR case report) → 54건"
+  }
+}

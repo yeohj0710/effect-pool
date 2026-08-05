@@ -1,0 +1,34 @@
+{
+  "id": "donepezil-brain-tumor-pos",
+  "subj": "도네페질",
+  "claim": "치매약을 뇌종양 생존자의 인지저하에 쓴다",
+  "line": "뇌종양 생존자의 전체 인지점수는 못 바꿨지만 일부 기억력은 개선했습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 198,
+  "synth": "single",
+  "why": "뇌 방사선치료를 받은 뇌종양 생존자에게 도네페질과 위약을 비교한 3상 무작위시험입니다.",
+  "saw": "198명에서 전체 인지 복합점수는 위약과 다르지 않았지만 기억력과 운동속도·손재주 일부 지표는 도네페질군이 유의하게 나았습니다.",
+  "limit": "주요 복합 결과는 음성이었고 일부 이차 인지지표만 개선됐습니다. 뇌종양 치료나 생존을 본 시험이 아니며, 방사선치료 후 인지저하 환자에 한정됩니다.",
+  "against": "반대 검색 106건을 확인했습니다. 전체 인지점수는 개선되지 않았고, 이득은 치료 전 인지저하가 큰 하위군과 일부 지표에 집중됐습니다.",
+  "use": "뇌종양 생존자의 방사선치료 후 인지재활에서 제한된 신호가 있지만, 뇌종양 치료제나 전반적 인지개선제로 표시할 수 없습니다.",
+  "refs": [
+    {
+      "label": "Rapp 2015 · Journal of Clinical Oncology · 방사선치료 후 뇌종양 생존자 도네페질 3상시험",
+      "doi": "10.1200/JCO.2014.58.4508",
+      "pmid": "25897156",
+      "pmc": "PMC4429174"
+    },
+    {
+      "label": "NCT00369785 · 방사선치료 후 뇌종양 환자 도네페질 시험 · 완료",
+      "nct": "NCT00369785"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "query.intr=donepezil&query.cond=Brain Tumor → 8건 반환, InterventionName 대조 후 5건",
+    "pubmed": "donepezil brain tumor → 119건",
+    "negative": "donepezil brain tumor AND (no effect OR did not OR failed to OR negative OR no significant difference) → 106건",
+    "safety": "donepezil brain tumor AND (adverse OR toxicity OR case report) → 50건"
+  }
+}
