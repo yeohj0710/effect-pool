@@ -11524,3 +11524,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] guided breathing — Pain에 듣는다  <!-- 시험 17건 · 논문 816편 -->
 - [ ] guided breathing — Mechanical Power에 듣는다  <!-- 시험 15건 · 논문 78편 -->
 - [ ] guided breathing — Surgery에 듣는다  <!-- 시험 12건 · 논문 2557편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acceptance and commitment therapy — Stress에 듣는다  <!-- 시험 24건 · 논문 676편 -->
+- [ ] acceptance and commitment therapy — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 64편 -->
+- [ ] acceptance and commitment therapy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 96편 -->
+- [ ] acceptance and commitment therapy — Lung Neoplasms에 듣는다  <!-- 시험 13건 · 논문 15편 -->
+- [ ] aerobic exercise — Stroke에 듣는다  <!-- 시험 9건 · 논문 27199편 -->
+- [ ] aerobic exercise — Brain Concussion에 듣는다  <!-- 시험 9건 · 논문 1656편 -->
+- [ ] aerobic exercise — Multiple Sclerosis에 듣는다  <!-- 시험 8건 · 논문 4085편 -->
+- [ ] aerobic exercise — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 5401편 -->
+- [ ] acupressure — Depressive Symptoms에 듣는다  <!-- 시험 8건 · 논문 216편 -->
+- [ ] acupressure — Obesity에 듣는다  <!-- 시험 7건 · 논문 54편 -->
+- [ ] acupressure — Stress에 듣는다  <!-- 시험 7건 · 논문 189편 -->
+- [ ] acupuncture — Obesity에 듣는다  <!-- 시험 12건 · 논문 1024편 -->
+- [ ] acupuncture — Anxiety에 듣는다  <!-- 시험 12건 · 논문 2340편 -->
+- [ ] acupuncture — Infertility에 듣는다  <!-- 시험 11건 · 논문 569편 -->
+- [ ] acupuncture — Stress에 듣는다  <!-- 시험 11건 · 논문 3169편 -->
+- [ ] biofeedback — Knee Injuries에 듣는다  <!-- 시험 17건 · 논문 130편 -->
+- [ ] biofeedback — Pelvic Floor에 듣는다  <!-- 시험 15건 · 논문 1344편 -->
+- [ ] biofeedback — Cancer에 듣는다  <!-- 시험 14건 · 논문 554편 -->
+- [ ] biofeedback — ACL Injury에 듣는다  <!-- 시험 11건 · 논문 94편 -->
+- [ ] breathing meditation — Meditation에 듣는다  <!-- 시험 5건 · 논문 1274편 -->
+- [ ] breathing meditation — Hypertension에 듣는다  <!-- 시험 4건 · 논문 68편 -->
+- [ ] breathing meditation — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [ ] compression stockings — Ankle Sprain에 듣는다  <!-- 시험 3건 · 논문 19편 -->
+- [ ] compression stockings — Post Thrombotic Syndrome에 듣는다  <!-- 시험 3건 · 논문 312편 -->
+- [ ] alendronate — Heart Transplantation에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] alendronate — Hyperparathyroidism에 듣는다  <!-- 시험 3건 · 논문 96편 -->
+- [ ] alendronate — Spinal Cord Injury에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] anakinra — Inflammation에 듣는다  <!-- 시험 8건 · 논문 2781편 -->
+- [ ] anakinra — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 35편 -->
+- [ ] anakinra — Virus Diseases에 듣는다  <!-- 시험 7건 · 논문 515편 -->
+- [ ] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 -->
+- [ ] bempedoic acid — Diabetes에 듣는다  <!-- 시험 4건 · 논문 160편 -->
+- [ ] bempedoic acid — Atherosclerosis에 듣는다  <!-- 시험 3건 · 논문 202편 -->
+- [ ] bisoprolol — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 62편 -->
+- [ ] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 -->
+- [ ] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 -->
+- [ ] cabergoline — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [ ] canagliflozin — Renal Insufficiency에 듣는다  <!-- 시험 3건 · 논문 203편 -->
+- [ ] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 -->
+- [ ] canagliflozin — ESRD에 듣는다  <!-- 시험 3건 · 논문 168편 -->
