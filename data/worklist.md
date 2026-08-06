@@ -10820,28 +10820,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meal planning — Dietary Habits에 듣는다  <!-- 시험 5건 · 논문 650편 --> — 근거 없음(2026-08-06, "meal planning AND Dietary Habits")
 - [x] dietary self-monitoring — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 --> — 근거 없음(2026-08-06, "dietary self-monitoring AND Breast Cancer")
 - [x] dietary self-monitoring — Weight에 듣는다  <!-- 시험 7건 · 논문 1085편 --> — 항목 생성(2026-08-06)
-- [ ] dietary self-monitoring — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 291편 -->
-- [ ] dietary self-monitoring — Health Behavior에 듣는다  <!-- 시험 4건 · 논문 1035편 -->
-- [ ] plant-based eating — Kidney Disease, Chronic에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] plant-based eating — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 63편 -->
-- [ ] plant-based eating — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 323편 -->
-- [ ] plant-based eating — Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 124편 -->
-- [ ] high protein diet — Diabetes에 듣는다  <!-- 시험 29건 · 논문 13344편 -->
-- [ ] high protein diet — Metabolic Disease에 듣는다  <!-- 시험 27건 · 논문 21455편 -->
-- [ ] high protein diet — Overweight에 듣는다  <!-- 시험 16건 · 논문 12057편 -->
-- [ ] high protein diet — Weight Loss에 듣는다  <!-- 시험 16건 · 논문 3775편 -->
-- [ ] mindful eating — Stress에 듣는다  <!-- 시험 25건 · 논문 273편 -->
-- [ ] mindful eating — Obesity에 듣는다  <!-- 시험 24건 · 논문 402편 -->
-- [ ] mindful eating — Mental Health에 듣는다  <!-- 시험 8건 · 논문 255편 -->
-- [ ] mindful eating — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 44편 -->
-- [ ] nature therapy — Stress에 듣는다  <!-- 시험 14건 · 논문 11749편 -->
-- [ ] nature therapy — Cancer에 듣는다  <!-- 시험 11건 · 논문 34130편 -->
-- [ ] nature therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 12526편 -->
-- [ ] nature therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 7427편 -->
-- [ ] resistance exercise — Cancer에 듣는다  <!-- 시험 18건 · 논문 3562편 -->
-- [ ] resistance exercise — Aging에 듣는다  <!-- 시험 14건 · 논문 5612편 -->
-- [ ] resistance exercise — Obesity에 듣는다  <!-- 시험 13건 · 논문 7871편 -->
-- [ ] resistance exercise — Strength에 듣는다  <!-- 시험 12건 · 논문 18388편 -->
+- [x] dietary self-monitoring — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 291편 --> — 항목 생성(2026-08-06)
+- [x] dietary self-monitoring — Health Behavior에 듣는다  <!-- 시험 4건 · 논문 1035편 --> — 근거 없음(2026-08-06, "dietary self-monitoring AND Health Behavior")
+- [x] plant-based eating — Kidney Disease, Chronic에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 항목 생성(2026-08-06)
+- [x] plant-based eating — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 63편 --> — 항목 생성(2026-08-06)
+- [x] plant-based eating — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 323편 --> — 근거 없음(2026-08-06, "plant-based eating AND Dietary Habits")
+- [x] plant-based eating — Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 없음(2026-08-06, "plant-based eating AND Metabolic Disease")
+- [x] high protein diet — Diabetes에 듣는다  <!-- 시험 29건 · 논문 13344편 --> — 항목 생성(2026-08-06)
+- [x] high protein diet — Metabolic Disease에 듣는다  <!-- 시험 27건 · 논문 21455편 --> — 근거 없음(2026-08-06, "high protein diet AND Metabolic Disease")
+- [x] high protein diet — Overweight에 듣는다  <!-- 시험 16건 · 논문 12057편 --> — 항목 생성(2026-08-06)
+- [x] high protein diet — Weight Loss에 듣는다  <!-- 시험 16건 · 논문 3775편 --> — 항목 생성(2026-08-06)
+- [x] mindful eating — Stress에 듣는다  <!-- 시험 25건 · 논문 273편 --> — 근거 없음(2026-08-06, "mindful eating AND Stress")
+- [x] mindful eating — Obesity에 듣는다  <!-- 시험 24건 · 논문 402편 --> — 항목 생성(2026-08-06)
+- [x] mindful eating — Mental Health에 듣는다  <!-- 시험 8건 · 논문 255편 --> — 근거 없음(2026-08-06, "mindful eating AND Mental Health")
+- [x] mindful eating — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 44편 --> — 항목 생성(2026-08-06)
+- [x] nature therapy — Stress에 듣는다  <!-- 시험 14건 · 논문 11749편 --> — 항목 생성(2026-08-06)
+- [x] nature therapy — Cancer에 듣는다  <!-- 시험 11건 · 논문 34130편 --> — 근거 없음(2026-08-06, "nature therapy AND Cancer")
+- [x] nature therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 12526편 --> — 근거 없음(2026-08-06, "nature therapy AND Pain")
+- [x] nature therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 7427편 --> — 근거 없음(2026-08-06, "nature therapy AND Depression")
+- [x] resistance exercise — Cancer에 듣는다  <!-- 시험 18건 · 논문 3562편 --> — 항목 생성(2026-08-06)
+- [x] resistance exercise — Aging에 듣는다  <!-- 시험 14건 · 논문 5612편 --> — 근거 없음(2026-08-06, "resistance exercise AND Aging")
+- [x] resistance exercise — Obesity에 듣는다  <!-- 시험 13건 · 논문 7871편 --> — 항목 생성(2026-08-06)
+- [x] resistance exercise — Strength에 듣는다  <!-- 시험 12건 · 논문 18388편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10852,14 +10852,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] caregiver skills training — Stroke에 듣는다  <!-- 시험 4건 · 논문 166편 -->
-- [ ] caregiver skills training — Depression에 듣는다  <!-- 시험 3건 · 논문 526편 -->
-- [ ] caregiver skills training — Cancer에 듣는다  <!-- 시험 3건 · 논문 529편 -->
-- [ ] caregiver skills training — Psychological Well-being에 듣는다  <!-- 시험 3건 · 논문 373편 -->
-- [ ] parent training — Behavior, Child에 듣는다  <!-- 시험 25건 · 논문 22665편 -->
-- [ ] parent training — Attention Deficit에 듣는다  <!-- 시험 24건 · 논문 3478편 -->
-- [ ] parent training — Child에 듣는다  <!-- 시험 23건 · 논문 94086편 -->
-- [ ] parent training — Obesity에 듣는다  <!-- 시험 16건 · 논문 6397편 -->
+- [x] caregiver skills training — Stroke에 듣는다  <!-- 시험 4건 · 논문 166편 --> — 항목 생성(2026-08-06)
+- [x] caregiver skills training — Depression에 듣는다  <!-- 시험 3건 · 논문 526편 --> — 근거 없음(2026-08-06, "caregiver skills training AND Depression")
+- [x] caregiver skills training — Cancer에 듣는다  <!-- 시험 3건 · 논문 529편 --> — 근거 없음(2026-08-06, "caregiver skills training AND Cancer")
+- [x] caregiver skills training — Psychological Well-being에 듣는다  <!-- 시험 3건 · 논문 373편 --> — 항목 생성(2026-08-06)
+- [x] parent training — Behavior, Child에 듣는다  <!-- 시험 25건 · 논문 22665편 --> — 항목 생성(2026-08-06)
+- [x] parent training — Attention Deficit에 듣는다  <!-- 시험 24건 · 논문 3478편 --> — 항목 생성(2026-08-06)
+- [x] parent training — Child에 듣는다  <!-- 시험 23건 · 논문 94086편 --> — 근거 없음(2026-08-06, "parent training AND Child")
+- [x] parent training — Obesity에 듣는다  <!-- 시험 16건 · 논문 6397편 --> — 항목 생성(2026-08-06)
 - [ ] behavioral parent training — Obesity에 듣는다  <!-- 시험 17건 · 논문 4159편 -->
 - [ ] behavioral parent training — Problem Behavior에 듣는다  <!-- 시험 16건 · 논문 3097편 -->
 - [ ] behavioral parent training — Autism에 듣는다  <!-- 시험 15건 · 논문 3252편 -->
