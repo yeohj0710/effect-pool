@@ -12816,8 +12816,51 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] azilsartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 42편 -->
 - [x] nicorandil — Myocardial Ischemia에 듣는다  <!-- 시험 8건 · 논문 798편 -->
 - [x] nicorandil — Stable Angina에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 109편 -->
-- [ ] nicorandil — Chronic Renal Failure에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] nicorandil — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 51편 -->
-- [ ] mitapivat — Sickle Cell Disease에 듣는다  <!-- 시험 5건 · 논문 35편 -->
-- [ ] mitapivat — Anemia에 듣는다  <!-- 시험 5건 · 논문 75편 -->
-- [ ] mitapivat — Pyruvate Kinase Deficiency에 듣는다  <!-- 시험 4건 · 논문 39편 -->
+- [x] nicorandil — Chronic Renal Failure에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [x] nicorandil — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 51편 -->
+- [x] mitapivat — Sickle Cell Disease에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [x] mitapivat — Anemia에 듣는다  <!-- 시험 5건 · 논문 75편 -->
+- [x] mitapivat — Pyruvate Kinase Deficiency에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 39편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] self management education — Pain에 듣는다  <!-- 시험 21건 · 논문 5617편 -->
+- [x] self management education — Cancer에 듣는다  <!-- 시험 11건 · 논문 4284편 -->
+- [x] self management education — Depression에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self management education AND cond=Depression; PubMed self management education AND Depression)  <!-- 시험 10건 · 논문 4423편 -->
+- [x] self management education — Mental Health에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self management education AND cond=Mental Health; PubMed self management education AND Mental Health)  <!-- 시험 9건 · 논문 5638편 -->
+- [x] psychological first aid — Stress에 듣는다  <!-- 시험 9건 · 논문 542편 -->
+- [x] psychological first aid — Anxiety에 듣는다  <!-- 시험 7건 · 논문 283편 -->
+- [x] psychological first aid — Depression에 듣는다  <!-- 시험 6건 · 논문 283편 -->
+- [x] coping skills training — Depression에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=coping skills training AND cond=Depression; PubMed coping skills training AND Depression)  <!-- 시험 10건 · 논문 879편 -->
+- [x] coping skills training — Pain에 듣는다  <!-- 시험 8건 · 논문 454편 -->
+- [x] coping skills training — Anxiety에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=coping skills training AND cond=Anxiety; PubMed coping skills training AND Anxiety)  <!-- 시험 6건 · 논문 944편 -->
+- [x] coping skills training — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 70편 -->
+- [x] shared decision making — Diabetes에 듣는다  <!-- 시험 12건 · 논문 1282편 -->
+- [x] shared decision making — Patient Engagement에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=shared decision making AND cond=Patient Engagement; PubMed shared decision making AND Patient Engagement)  <!-- 시험 10건 · 논문 6374편 -->
+- [x] shared decision making — Arthritis (Knee)에 듣는다  <!-- 시험 7건 · 논문 178편 -->
+- [x] shared decision making — Kidney Disease에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=shared decision making AND cond=Kidney Disease; PubMed shared decision making AND Kidney Disease)  <!-- 시험 7건 · 논문 1053편 -->
+- [x] medication adherence counseling — Cardiovascular Disease에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=medication adherence counseling AND cond=Cardiovascular Disease; PubMed medication adherence counseling AND Cardiovascular Disease)  <!-- 시험 7건 · 논문 490편 -->
+- [x] medication adherence counseling — Hypertension에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=medication adherence counseling AND cond=Hypertension; PubMed medication adherence counseling AND Hypertension)  <!-- 시험 6건 · 논문 318편 -->
+- [x] medication adherence counseling — Smoking에 듣는다  <!-- 시험 4건 · 논문 218편 -->
+- [x] medication adherence counseling — Adherence에 듣는다  <!-- 시험 4건 · 논문 3085편 -->
+- [x] online support group — Heat Health에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=online support group AND cond=Heat Health; PubMed online support group AND Heat Health)  <!-- 시험 16건 · 논문 43편 -->
+- [x] online support group — Cancer에 듣는다  <!-- 시험 15건 · 논문 4006편 -->
+- [x] online support group — Obesity에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=online support group AND cond=Obesity; PubMed online support group AND Obesity)  <!-- 시험 10건 · 논문 849편 -->
+- [x] online support group — Anxiety에 듣는다  <!-- 시험 9건 · 논문 2637편 -->
+- [x] virtual coaching — Health Behavior에 듣는다  <!-- 시험 7건 · 논문 169편 -->
+- [x] behavioral weight management — Lung Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=behavioral weight management AND cond=Lung Cancer; PubMed behavioral weight management AND Lung Cancer)  <!-- 시험 47건 · 논문 396편 -->
+- [ ] behavioral weight management — Weight에 듣는다  <!-- 시험 28건 · 논문 52247편 -->
+- [ ] behavioral weight management — Overweight에 듣는다  <!-- 시험 9건 · 논문 17938편 -->
+- [ ] behavioral weight management — Diabetes에 듣는다  <!-- 시험 6건 · 논문 8004편 -->
+- [ ] satralizumab — NMOSD에 듣는다  <!-- 시험 5건 · 논문 164편 -->
+- [ ] ublituximab — Multiple Sclerosis에 듣는다  <!-- 시험 16건 · 논문 80편 -->
+- [ ] ublituximab — B-cell Lymphoma에 듣는다  <!-- 시험 14건 · 논문 15편 -->
+- [ ] gantenerumab — Alzheimers Disease에 듣는다  <!-- 시험 7건 · 논문 181편 -->
+- [ ] gantenerumab — Dementia에 듣는다  <!-- 시험 3건 · 논문 153편 -->
