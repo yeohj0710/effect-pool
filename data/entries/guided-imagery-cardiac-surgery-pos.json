@@ -1,0 +1,28 @@
+{
+  "id": "guided-imagery-cardiac-surgery-pos",
+  "subj": "유도 심상",
+  "claim": "심장수술 전후 불안과 통증에 유도 심상을 사용하는가",
+  "line": "심장수술 환자에서 유도 심상 프로그램은 입원 기간과 직접 약제비·진통제비를 줄였다.",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "유도 심상은 심장수술의 허가 치료가 아닌 보조적 이완 프로그램이다.",
+  "why": "수술 전 불안을 줄이면 수술 후 통증과 회복 자원 사용도 낮아질 가능성을 평가한다.",
+  "saw": "심장수술팀의 비교 관찰에서 프로그램 참여자는 더 짧은 평균 입원 기간과 더 낮은 직접 약제비·진통제비를 보였다.",
+  "limit": "참여를 스스로 선택한 비교 관찰 연구라 무작위 배정이 아니며 참여자 수가 초록에 없다.",
+  "against": "수술 방식과 회복 상태의 차이가 비용과 입원 기간을 설명했을 수 있다.",
+  "use": "수술 전 교육과 이완 보조요법으로 고려하되 수술 후 통증 평가와 표준 관리를 유지한다.",
+  "effect": "입원 기간·약제비 감소",
+  "refs": [
+    { "label": "심장수술 유도 심상 프로그램", "pmid": "12134377", "nct": "NCT01020227" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=guided imagery · cond=Cardiac Surgery · 7건",
+    "pubmed": "guided imagery AND Cardiac Surgery · 30편",
+    "negative": "guided imagery AND Cardiac Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference) · 16편",
+    "safety": "guided imagery AND (adverse OR toxicity OR case report) · 9편"
+  }
+}

@@ -10280,7 +10280,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] deucravacitinib — Systemic Lupus Erythematosus에 듣는다 — 항목 생성(deucravacitinib-systemic-lupus-erythematosus-pos)  <!-- 시험 4건 · 논문 40편 -->
 - [x] deucravacitinib — Healthy Participants에 듣는다 — 근거 없음(2026-08-06, deucravacitinib Healthy Participants)  <!-- 시험 3건 · 논문 8편 -->
 - [x] deucravacitinib — Alopecia Areata에 듣는다 — 근거 없음(2026-08-06, deucravacitinib AND Alopecia Areata)  <!-- 시험 3건 · 논문 15편 -->
-- [ ] siponimod — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [x] siponimod — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 8편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10291,34 +10291,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 42건 · 논문 23007편 -->
-- [ ] cognitive behavioral therapy — Insomnia에 듣는다  <!-- 시험 35건 · 논문 3789편 -->
-- [ ] cognitive behavioral therapy — Pain에 듣는다  <!-- 시험 34건 · 논문 6729편 -->
-- [ ] cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 32건 · 논문 19399편 -->
-- [ ] massage — Leukemia에 듣는다  <!-- 시험 29건 · 논문 34편 -->
-- [ ] massage — Cancer에 듣는다  <!-- 시험 25건 · 논문 1889편 -->
-- [ ] massage — Anxiety에 듣는다  <!-- 시험 17건 · 논문 1181편 -->
-- [ ] dance therapy — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 66편 -->
-- [ ] dance therapy — Pain에 듣는다  <!-- 시험 10건 · 논문 254편 -->
-- [ ] dance therapy — Cognitive Decline에 듣는다  <!-- 시험 7건 · 논문 95편 -->
-- [ ] dance therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 280편 -->
-- [ ] progressive muscle relaxation — Pain에 듣는다  <!-- 시험 40건 · 논문 409편 -->
-- [ ] progressive muscle relaxation — Stress에 듣는다  <!-- 시험 34건 · 논문 591편 -->
-- [ ] progressive muscle relaxation — Cancer에 듣는다  <!-- 시험 23건 · 논문 188편 -->
-- [ ] progressive muscle relaxation — Sleep에 듣는다  <!-- 시험 20건 · 논문 252편 -->
-- [ ] guided imagery — Cancer에 듣는다  <!-- 시험 28건 · 논문 334편 -->
-- [ ] guided imagery — Stress에 듣는다  <!-- 시험 27건 · 논문 809편 -->
-- [ ] guided imagery — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 30편 -->
-- [ ] aducanumab — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 89편 -->
-- [ ] efgartigimod — Immune Thrombocytopenia (ITP)에 듣는다  <!-- 시험 12건 · 논문 16편 -->
-- [ ] efgartigimod — CIDP에 듣는다  <!-- 시험 9건 · 논문 46편 -->
-- [ ] efgartigimod — gMG에 듣는다  <!-- 시험 6건 · 논문 105편 -->
-- [ ] efgartigimod — Pemphigus Vulgaris에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] retatrutide — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 81편 -->
-- [ ] retatrutide — Overweight에 듣는다  <!-- 시험 6건 · 논문 92편 -->
-- [ ] orforglipron — Overweight에 듣는다  <!-- 시험 12건 · 논문 50편 -->
-- [ ] orforglipron — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 74편 -->
-- [ ] orforglipron — Receptors, Peptide에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 42건 · 논문 23007편 -->
+- [x] cognitive behavioral therapy — Insomnia에 듣는다  <!-- 시험 35건 · 논문 3789편 -->
+- [x] cognitive behavioral therapy — Pain에 듣는다  <!-- 시험 34건 · 논문 6729편 -->
+- [x] cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 32건 · 논문 19399편 -->
+- [x] massage — Leukemia에 듣는다  <!-- 시험 29건 · 논문 34편 -->
+- [x] massage — Cancer에 듣는다  <!-- 시험 25건 · 논문 1889편 -->
+- [x] massage — Anxiety에 듣는다  <!-- 시험 17건 · 논문 1181편 -->
+- [x] dance therapy — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 66편 -->
+- [x] dance therapy — Pain에 듣는다  <!-- 시험 10건 · 논문 254편 -->
+- [x] dance therapy — Cognitive Decline에 듣는다  <!-- 시험 7건 · 논문 95편 -->
+- [x] dance therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 280편 -->
+- [x] progressive muscle relaxation — Pain에 듣는다  <!-- 시험 40건 · 논문 409편 -->
+- [x] progressive muscle relaxation — Stress에 듣는다  <!-- 시험 34건 · 논문 591편 -->
+- [x] progressive muscle relaxation — Cancer에 듣는다  <!-- 시험 23건 · 논문 188편 -->
+- [x] progressive muscle relaxation — Sleep에 듣는다  <!-- 시험 20건 · 논문 252편 -->
+- [x] guided imagery — Cancer에 듣는다  <!-- 시험 28건 · 논문 334편 -->
+- [x] guided imagery — Stress에 듣는다  <!-- 시험 27건 · 논문 809편 -->
+- [x] guided imagery — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 30편 -->
+- [x] aducanumab — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [x] efgartigimod — Immune Thrombocytopenia (ITP)에 듣는다  <!-- 시험 12건 · 논문 16편 -->
+- [x] efgartigimod — CIDP에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 46편 -->
+- [x] efgartigimod — gMG에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 105편 -->
+- [x] efgartigimod — Pemphigus Vulgaris에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [x] retatrutide — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 81편 -->
+- [x] retatrutide — Overweight에 듣는다  <!-- 시험 6건 · 논문 92편 -->
+- [x] orforglipron — Overweight에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 12건 · 논문 50편 -->
+- [x] orforglipron — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 74편 -->
+- [x] orforglipron — Receptors, Peptide에 듣는다 — 근거 없음(2026-08-06, orforglipron AND Receptors, Peptide)  <!-- 시험 3건 · 논문 17편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10329,7 +10329,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] art therapy — Malaria에 듣는다  <!-- 시험 41건 · 논문 609편 -->
+- [x] art therapy — Malaria에 듣는다 — 근거 없음(2026-08-06, art therapy AND Malaria)  <!-- 시험 41건 · 논문 609편 -->
 - [ ] art therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 10768편 -->
 - [ ] art therapy — Stress에 듣는다  <!-- 시험 11건 · 논문 2054편 -->
 - [ ] art therapy — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1367편 -->
