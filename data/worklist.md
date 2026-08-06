@@ -11320,35 +11320,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] apixaban — Aortic Stenosis에 듣는다  <!-- 시험 13건 · 논문 30편 --> — 항목 생성(apixaban-aortic-stenosis-open)
 - [x] atorvastatin — Dyslipidemias에 듣는다  <!-- 시험 16건 · 논문 2990편 --> — 허가 적응증(2026-08-06)
 - [x] atorvastatin — Angina에 듣는다  <!-- 시험 12건 · 논문 344편 --> — 항목 생성(atorvastatin-angina-pos)
-- [ ] atorvastatin — Inflammation에 듣는다  <!-- 시험 10건 · 논문 1399편 -->
-- [ ] atorvastatin — Platelet Dysfunction에 듣는다  <!-- 시험 9건 · 논문 58편 -->
-- [ ] celecoxib — Arthritis에 듣는다  <!-- 시험 17건 · 논문 1363편 -->
-- [ ] celecoxib — Colon Neoplasm에 듣는다  <!-- 시험 15건 · 논문 227편 -->
-- [ ] celecoxib — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 62편 -->
-- [ ] chlorhexidine — Catheter에 듣는다  <!-- 시험 16건 · 논문 1064편 -->
-- [ ] chlorhexidine — Tooth Loss에 듣는다  <!-- 시험 13건 · 논문 216편 -->
-- [ ] chlorhexidine — Caries에 듣는다  <!-- 시험 12건 · 논문 1348편 -->
-- [ ] chlorhexidine — Colonization에 듣는다  <!-- 시험 12건 · 논문 1133편 -->
-- [ ] aquatic exercise — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 66편 -->
-- [ ] aquatic exercise — Aging에 듣는다  <!-- 시험 5건 · 논문 133편 -->
-- [ ] aquatic exercise — Exercise에 듣는다  <!-- 시험 4건 · 논문 3075편 -->
-- [ ] aquatic therapy — Obesity에 듣는다  <!-- 시험 4건 · 논문 98편 -->
-- [ ] aquatic therapy — Parkinson Disease에 듣는다  <!-- 시험 4건 · 논문 91편 -->
-- [ ] balance training — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 704편 -->
-- [ ] balance training — Parkinson에 듣는다  <!-- 시험 4건 · 논문 1481편 -->
-- [ ] balance training — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 368편 -->
-- [ ] balance training — ADHD에 듣는다  <!-- 시험 4건 · 논문 178편 -->
-- [ ] compression stockings — Vascular Diseases에 듣는다  <!-- 시험 4건 · 논문 2274편 -->
-- [ ] compression stockings — Sleep Disorder에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] breathing exercises — COPD에 듣는다  <!-- 시험 4건 · 논문 870편 -->
-- [ ] breathing exercises — Stress에 듣는다  <!-- 시험 4건 · 논문 735편 -->
-- [ ] breathing exercises — Lung Disease에 듣는다  <!-- 시험 4건 · 논문 2126편 -->
-- [ ] breathing exercises — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 164편 -->
-- [ ] dance therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 149편 -->
-- [ ] dance therapy — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 444편 -->
-- [ ] dance therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 856편 -->
-- [ ] dance therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 85편 -->
-- [ ] mindfulness — Mental Health에 듣는다  <!-- 시험 28건 · 논문 8497편 -->
-- [ ] mindfulness — Psychological에 듣는다  <!-- 시험 22건 · 논문 11830편 -->
+- [x] atorvastatin — Inflammation에 듣는다 — 항목 생성(atorvastatin-inflammation-pos)  <!-- 시험 10건 · 논문 1399편 -->
+- [x] atorvastatin — Platelet Dysfunction에 듣는다 — 항목 생성(atorvastatin-platelet-dysfunction-animal-pos)  <!-- 시험 9건 · 논문 58편 -->
+- [x] celecoxib — Arthritis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 17건 · 논문 1363편 -->
+- [x] celecoxib — Colon Neoplasm에 듣는다 — 항목 생성(celecoxib-colon-neoplasm-open)  <!-- 시험 15건 · 논문 227편 -->
+- [x] celecoxib — Lymphoma에 듣는다 — 항목 생성(celecoxib-lymphoma-lab-pos)  <!-- 시험 13건 · 논문 62편 -->
+- [x] chlorhexidine — Catheter에 듣는다 — 항목 생성(chlorhexidine-catheter-pos)  <!-- 시험 16건 · 논문 1064편 -->
+- [x] chlorhexidine — Tooth Loss에 듣는다 — 근거 없음(2026-08-06, "chlorhexidine AND Tooth Loss")  <!-- 시험 13건 · 논문 216편 -->
+- [x] chlorhexidine — Caries에 듣는다 — 항목 생성(chlorhexidine-caries-open)  <!-- 시험 12건 · 논문 1348편 -->
+- [x] chlorhexidine — Colonization에 듣는다 — 항목 생성(chlorhexidine-colonization-pos)  <!-- 시험 12건 · 논문 1133편 -->
+- [x] aquatic exercise — Parkinson Disease에 듣는다 — 항목 생성(aquatic-exercise-parkinson-disease-null)  <!-- 시험 5건 · 논문 66편 -->
+- [x] aquatic exercise — Aging에 듣는다 — 근거 없음(2026-08-06, "aquatic exercise AND Aging")  <!-- 시험 5건 · 논문 133편 -->
+- [x] aquatic exercise — Exercise에 듣는다 — 항목 생성(aquatic-exercise-exercise-pos)  <!-- 시험 4건 · 논문 3075편 -->
+- [x] aquatic therapy — Obesity에 듣는다 — 근거 없음(2026-08-06, "aquatic therapy AND Obesity")  <!-- 시험 4건 · 논문 98편 -->
+- [x] aquatic therapy — Parkinson Disease에 듣는다 — 항목 생성(aquatic-therapy-parkinson-disease-pos)  <!-- 시험 4건 · 논문 91편 -->
+- [x] balance training — Chronic Pain에 듣는다 — 근거 없음(2026-08-06, "balance training AND Chronic Pain")  <!-- 시험 5건 · 논문 704편 -->
+- [x] balance training — Parkinson에 듣는다 — 항목 생성(balance-training-parkinson-open)  <!-- 시험 4건 · 논문 1481편 -->
+- [x] balance training — Peripheral Neuropathy에 듣는다 — 항목 생성(balance-training-peripheral-neuropathy-open)  <!-- 시험 4건 · 논문 368편 -->
+- [x] balance training — ADHD에 듣는다 — 근거 없음(2026-08-06, "balance training AND ADHD")  <!-- 시험 4건 · 논문 178편 -->
+- [x] compression stockings — Vascular Diseases에 듣는다 — 기존 항목(compression-stockings-peripheral-arterial-disease-open)  <!-- 시험 4건 · 논문 2274편 -->
+- [x] compression stockings — Sleep Disorder에 듣는다 — 근거 없음(2026-08-06, "compression stockings AND Sleep Disorder")  <!-- 시험 4건 · 논문 18편 -->
+- [x] breathing exercises — COPD에 듣는다 — 항목 생성(breathing-exercises-copd-open)  <!-- 시험 4건 · 논문 870편 -->
+- [x] breathing exercises — Stress에 듣는다 — 항목 생성(breathing-exercises-stress-open)  <!-- 시험 4건 · 논문 735편 -->
+- [x] breathing exercises — Lung Disease에 듣는다 — 근거 없음(2026-08-06, "breathing exercises AND Lung Disease")  <!-- 시험 4건 · 논문 2126편 -->
+- [x] breathing exercises — Heart Failure에 듣는다 — 항목 생성(breathing-exercises-heart-failure-pos)  <!-- 시험 3건 · 논문 164편 -->
+- [x] dance therapy — Dementia에 듣는다 — 항목 생성(dance-therapy-dementia-open)  <!-- 시험 5건 · 논문 149편 -->
+- [x] dance therapy — Motor Activity에 듣는다 — 항목 생성(dance-therapy-motor-activity-open)  <!-- 시험 5건 · 논문 444편 -->
+- [x] dance therapy — Older Adults에 듣는다 — 근거 없음(2026-08-06, "dance therapy AND Older Adults")  <!-- 시험 5건 · 논문 856편 -->
+- [x] dance therapy — Stroke에 듣는다 — 항목 생성(dance-therapy-stroke-open)  <!-- 시험 5건 · 논문 85편 -->
+- [x] mindfulness — Mental Health에 듣는다 — 항목 생성(mindfulness-mental-health-open)  <!-- 시험 28건 · 논문 8497편 -->
+- [x] mindfulness — Psychological에 듣는다 — 항목 생성(mindfulness-psychological-open)  <!-- 시험 22건 · 논문 11830편 -->
 - [ ] mindfulness — Depressive에 듣는다  <!-- 시험 17건 · 논문 7140편 -->
 - [ ] mindfulness — Burnout에 듣는다  <!-- 시험 14건 · 논문 1458편 -->
