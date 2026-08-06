@@ -10022,36 +10022,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] chlorhexidine — Gingivitis에 듣는다  <!-- 시험 30건 · 논문 1722편 --> — 표준 구강 소독·치은염 보조치료(2026-08-06)
 - [x] chlorhexidine — Oral Health에 듣는다  <!-- 시험 27건 · 논문 1802편 --> — 항목 chlorhexidine-oral-health-harm
 - [x] dobutamine — Shock에 듣는다  <!-- 시험 13건 · 논문 996편 --> — 표준 혈관작용제 치료(2026-08-06)
-- [ ] dobutamine — Surgery에 듣는다  <!-- 시험 11건 · 논문 3094편 -->
-- [ ] dobutamine — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 2871편 -->
-- [ ] dobutamine — Myocardial Ischemia에 듣는다  <!-- 시험 9건 · 논문 4301편 -->
-- [ ] dopamine — Heart에 듣는다  <!-- 시험 12건 · 논문 8384편 -->
-- [ ] dopamine — Hypotension에 듣는다  <!-- 시험 7건 · 논문 11341편 -->
-- [ ] dopamine — Shock에 듣는다  <!-- 시험 7건 · 논문 2849편 -->
-- [ ] dopamine — Renal Function에 듣는다  <!-- 시험 4건 · 논문 3610편 -->
-- [ ] epinephrine — Anesthesia에 듣는다  <!-- 시험 19건 · 논문 9230편 -->
-- [ ] epinephrine — Heart Arrest에 듣는다  <!-- 시험 6건 · 논문 2522편 -->
-- [ ] epinephrine — Hip Fractures에 듣는다  <!-- 시험 6건 · 논문 24편 -->
-- [ ] epinephrine — Surgery에 듣는다  <!-- 시험 5건 · 논문 15886편 -->
-- [ ] heparin — Coronary Disease에 듣는다  <!-- 시험 30건 · 논문 4559편 -->
-- [ ] heparin — Heart Failure에 듣는다  <!-- 시험 19건 · 논문 1952편 -->
-- [ ] heparin — Embolism에 듣는다  <!-- 시험 18건 · 논문 11362편 -->
-- [ ] heparin — Pregnancy Related에 듣는다  <!-- 시험 15건 · 논문 1004편 -->
-- [ ] hydroxyprogesterone — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 2993편 -->
-- [ ] arginine — Hypertension에 듣는다  <!-- 시험 19건 · 논문 8058편 -->
-- [ ] arginine — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 15825편 -->
-- [ ] arginine — Dental Caries에 듣는다  <!-- 시험 11건 · 논문 233편 -->
-- [ ] arginine — Sickle Cell Anemia에 듣는다  <!-- 시험 11건 · 논문 214편 -->
-- [ ] adenosine — Coronary Slow Flow에 듣는다  <!-- 시험 20건 · 논문 88편 -->
-- [ ] adenosine — Ischemia에 듣는다  <!-- 시험 16건 · 논문 15524편 -->
-- [ ] adenosine — Supraventricular Arrhythmia에 듣는다  <!-- 시험 11건 · 논문 815편 -->
-- [ ] adenosine — Ischemic Heart Disease에 듣는다  <!-- 시험 6건 · 논문 13696편 -->
-- [ ] methyldopa — Pre-Eclampsia에 듣는다  <!-- 시험 4건 · 논문 222편 -->
-- [ ] methyldopa — Preeclampsia에 듣는다  <!-- 시험 3건 · 논문 278편 -->
-- [ ] methyldopa — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 53편 -->
-- [ ] methylergonovine — Uterine Atony에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] nitroprusside — Hypertension에 듣는다  <!-- 시험 6건 · 논문 3451편 -->
-- [ ] nitroprusside — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5613편 -->
+- [x] dobutamine — Surgery에 듣는다  <!-- 시험 11건 · 논문 3094편 --> — 표준 수술 중 심장·혈압 관리(2026-08-06)
+- [x] dobutamine — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 2871편 --> — 표준 심장부하검사(2026-08-06)
+- [x] dobutamine — Myocardial Ischemia에 듣는다  <!-- 시험 9건 · 논문 4301편 --> — 표준 허혈 유발검사(2026-08-06)
+- [x] dopamine — Heart에 듣는다  <!-- 시험 12건 · 논문 8384편 --> — 표준 심혈관 혈역학 사용(2026-08-06)
+- [x] dopamine — Hypotension에 듣는다  <!-- 시험 7건 · 논문 11341편 --> — 표준 혈압상승제 사용(2026-08-06)
+- [x] dopamine — Shock에 듣는다  <!-- 시험 7건 · 논문 2849편 --> — 표준 혈관작용제 치료(2026-08-06)
+- [x] dopamine — Renal Function에 듣는다  <!-- 시험 4건 · 논문 3610편 --> — 항목 dopamine-renal-function-null
+- [x] epinephrine — Anesthesia에 듣는다  <!-- 시험 19건 · 논문 9230편 --> — 허가·표준 국소마취 보조(2026-08-06)
+- [x] epinephrine — Heart Arrest에 듣는다  <!-- 시험 6건 · 논문 2522편 --> — 허가·표준 심폐소생술(2026-08-06)
+- [x] epinephrine — Hip Fractures에 듣는다  <!-- 시험 6건 · 논문 24편 --> — 표준 마취·수술 보조 범위(2026-08-06)
+- [x] epinephrine — Surgery에 듣는다  <!-- 시험 5건 · 논문 15886편 --> — 허가·표준 수술·마취 보조(2026-08-06)
+- [x] heparin — Coronary Disease에 듣는다  <!-- 시험 30건 · 논문 4559편 --> — 허가·표준 항응고 범위(2026-08-06)
+- [x] heparin — Heart Failure에 듣는다  <!-- 시험 19건 · 논문 1952편 --> — 직접 심부전 개선 근거 부족(2026-08-06 조회)
+- [x] heparin — Embolism에 듣는다  <!-- 시험 18건 · 논문 11362편 --> — 허가·표준 혈전색전증 치료(2026-08-06)
+- [x] heparin — Pregnancy Related에 듣는다  <!-- 시험 15건 · 논문 1004편 --> — 표준 임신 혈전예방·치료(2026-08-06)
+- [x] hydroxyprogesterone — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 2993편 --> — 표준·기존 허가 임신 치료 범위(2026-08-06)
+- [x] arginine — Hypertension에 듣는다  <!-- 시험 19건 · 논문 8058편 --> — 항목 arginine-hypertension-pos
+- [x] arginine — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 15825편 --> — 직접 질환 치료 근거 부족(2026-08-06 조회)
+- [x] arginine — Dental Caries에 듣는다  <!-- 시험 11건 · 논문 233편 --> — 항목 arginine-dental-caries-pos
+- [x] arginine — Sickle Cell Anemia에 듣는다  <!-- 시험 11건 · 논문 214편 --> — 항목 arginine-sickle-cell-anemia-null
+- [x] adenosine — Coronary Slow Flow에 듣는다  <!-- 시험 20건 · 논문 88편 --> — 직접 치료 근거 부족(2026-08-06 조회)
+- [x] adenosine — Ischemia에 듣는다  <!-- 시험 16건 · 논문 15524편 --> — 표준 심장부하·관상동맥 진단(2026-08-06)
+- [x] adenosine — Supraventricular Arrhythmia에 듣는다  <!-- 시험 11건 · 논문 815편 --> — 허가·표준 부정맥 치료(2026-08-06)
+- [x] adenosine — Ischemic Heart Disease에 듣는다  <!-- 시험 6건 · 논문 13696편 --> — 표준 관상동맥 진단·중재 보조(2026-08-06)
+- [x] methyldopa — Pre-Eclampsia에 듣는다  <!-- 시험 4건 · 논문 222편 --> — 표준 임신성 고혈압 치료(2026-08-06)
+- [x] methyldopa — Preeclampsia에 듣는다  <!-- 시험 3건 · 논문 278편 --> — 표준 임신성 고혈압 치료(2026-08-06)
+- [x] methyldopa — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 직접 치료 근거 부족(2026-08-06 조회)
+- [x] methylergonovine — Uterine Atony에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 허가·표준 자궁수축제 치료(2026-08-06)
+- [x] nitroprusside — Hypertension에 듣는다  <!-- 시험 6건 · 논문 3451편 --> — 허가·표준 고혈압 응급치료(2026-08-06)
+- [x] nitroprusside — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5613편 --> — 표준 심혈관 혈관확장 치료(2026-08-06)
 - [ ] nitroprusside — Vasoconstriction에 듣는다  <!-- 시험 5건 · 논문 1915편 -->
 - [ ] nitroprusside — Vasodilation에 듣는다  <!-- 시험 5건 · 논문 17057편 -->
 - [ ] phentolamine — Anesthesia, Local에 듣는다  <!-- 시험 6건 · 논문 99편 -->

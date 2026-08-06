@@ -1,0 +1,30 @@
+{
+  "id": "arginine-hypertension-pos",
+  "subj": "아르기닌",
+  "claim": "아르기닌의 혈관확장 작용을 고혈압 치료에 쓴다",
+  "line": "경구 아르기닌 무작위시험 메타분석에서 수축기·이완기 혈압이 낮아졌습니다",
+  "effect": "수축기·이완기 혈압 각각 약 5mmHg 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 387,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "아르기닌 보충은 고혈압 치료제로 허가된 적응증이 아닙니다.",
+  "why": "질소산화물 전구체인 아르기닌의 혈관확장 작용을 고혈압 혈압 조절에 전환한 무작위시험 메타분석입니다.",
+  "saw": "11개 이중눈가림 위약대조시험 387명에서 경구 아르기닌은 위약보다 수축기 혈압을 5.39mmHg, 이완기 혈압을 2.66mmHg 낮췄습니다. 최신 22개 시험 메타분석도 수축기 6.40mmHg, 이완기 2.64mmHg 감소를 보고했습니다.",
+  "limit": "시험 기간과 용량이 달랐고, 최신 분석에서는 9g/일 초과와 24일 초과 투여 또는 비만군에서 효과가 일관되지 않았습니다.",
+  "against": "아르기닌은 심혈관 위험요인 일부를 낮출 수 있지만 모든 심혈관 사건이나 사망 감소를 입증한 것은 아닙니다.",
+  "use": "혈관확장 생리작용을 혈압 치료에 전환한 보충제 사례로 표시합니다.",
+  "refs": [
+    { "label": "경구 아르기닌 혈압 11개 시험 메타분석", "pmid": "22137067" },
+    { "label": "아르기닌 혈압 용량반응 22개 시험 메타분석", "pmid": "34967840" },
+    { "label": "미량영양소 심혈관 위험 884개 시험 지도", "pmid": "36480969" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=arginine · cond=Hypertension → 44건 반환, 물질 대조 후 27건",
+    "pubmed": "arginine AND Hypertension → 8058편",
+    "negative": "arginine AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 6433편",
+    "safety": "arginine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 16556편"
+  }
+}
