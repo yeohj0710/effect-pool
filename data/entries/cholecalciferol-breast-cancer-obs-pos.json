@@ -1,0 +1,29 @@
+{
+  "id": "cholecalciferol-breast-cancer-obs-pos",
+  "subj": "콜레칼시페롤",
+  "claim": "HER2 양성 유방암의 무병생존을 비타민 D3 결핍 교정과 연결한다",
+  "line": "HER2 양성 유방암 코호트에서 비타민 D3 결핍 교정군의 무병생존이 높았습니다",
+  "effect": "3년 DFS 90% 대 85%; n=129",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 129,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "유방암의 무병생존 개선은 콜레칼시페롤의 허가 적응증이 아닙니다.",
+  "why": "HER2 양성 유방암에서 비타민 D3 결핍 교정과 재발을 후향적으로 비교한 코호트입니다.",
+  "saw": "초기 HER2 양성 유방암 환자 196명 중 기저 결핍은 129명이었습니다. 그중 76명은 비타민 D3 보충으로 25(OH)D가 보충됐고 3년 무병생존은 90% 대 85%, 비보충군의 재발 위험비는 1.7배였습니다.",
+  "limit": "무작위 배정이 아니고 보충에 반응한 사람의 건강·치료·추적 차이가 재발과 섞였을 수 있습니다.",
+  "against": "유방암 생존자 무작위시험에서는 고용량과 표준 용량 비타민 D3 사이에 테스토스테론 변화가 없었습니다.",
+  "use": "결핍 교정과 유방암 예후의 연관성을 검증할 가설로만 기록합니다.",
+  "refs": [
+    { "label": "HER2 양성 유방암 비타민 D3 보충 후향적 코호트", "pmid": "42075066" },
+    { "label": "유방암 생존자 비타민 D 보충 무작위시험 · 테스토스테론 결과", "pmid": "41155322" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=cholecalciferol · cond=Breast Cancer → 14건 반환, 물질 대조 후 14건",
+    "pubmed": "cholecalciferol AND Breast Cancer → 680편",
+    "negative": "cholecalciferol AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) → 553편",
+    "safety": "cholecalciferol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4779편"
+  }
+}

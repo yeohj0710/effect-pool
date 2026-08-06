@@ -11614,36 +11614,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sodium valproate — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 57편 --> — 근거 없음(2026-08-06 조회, sodium valproate AND Brain Hypoxia)
 - [x] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 --> — 허가 적응증(2026-08-06)
 - [x] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 --> — 허가 적응증(2026-08-06)
-- [ ] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 -->
-- [ ] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 -->
-- [ ] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 -->
-- [ ] carnitine — Peripheral Arterial Disease에 듣는다  <!-- 시험 10건 · 논문 91편 -->
-- [ ] carnitine — Fatigue에 듣는다  <!-- 시험 9건 · 논문 392편 -->
-- [ ] carnitine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 585편 -->
-- [ ] diosmin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] inositol — Type 2 Diabetes에 듣는다  <!-- 시험 18건 · 논문 598편 -->
-- [ ] inositol — PCOS에 듣는다  <!-- 시험 11건 · 논문 412편 -->
-- [ ] inositol — Infertility에 듣는다  <!-- 시험 10건 · 논문 288편 -->
-- [ ] inositol — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 444편 -->
-- [ ] cholecalciferol — Breast Cancer에 듣는다  <!-- 시험 12건 · 논문 680편 -->
-- [ ] cholecalciferol — Leukemia에 듣는다  <!-- 시험 9건 · 논문 936편 -->
-- [ ] cholecalciferol — Diabetes에 듣는다  <!-- 시험 8건 · 논문 1808편 -->
-- [ ] cholecalciferol — Osteoporosis에 듣는다  <!-- 시험 7건 · 논문 2375편 -->
-- [ ] calcifediol — Secondary Hyperparathyroidism Due to Renal Causes에 듣는다  <!-- 시험 3건 · 논문 94편 -->
-- [ ] calcifediol — Frail Elderly에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] calcifediol — Acute Kidney Injury에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] gratitude intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 387편 -->
-- [ ] gratitude intervention — Anxiety에 듣는다  <!-- 시험 3건 · 논문 319편 -->
-- [ ] narrative therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 1032편 -->
-- [ ] narrative therapy — Depression에 듣는다  <!-- 시험 11건 · 논문 2373편 -->
-- [ ] narrative therapy — Mental Distress에 듣는다  <!-- 시험 11건 · 논문 304편 -->
-- [ ] narrative therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 81편 -->
-- [ ] therapeutic touch — Anxiety에 듣는다  <!-- 시험 4건 · 논문 278편 -->
-- [ ] therapeutic touch — Sleep에 듣는다  <!-- 시험 4건 · 논문 108편 -->
-- [ ] therapeutic touch — Infants에 듣는다  <!-- 시험 3건 · 논문 182편 -->
-- [ ] light exposure — Depression에 듣는다  <!-- 시험 29건 · 논문 1690편 -->
-- [ ] light exposure — Circadian Rhythm에 듣는다  <!-- 시험 19건 · 논문 4033편 -->
-- [ ] light exposure — Dementia에 듣는다  <!-- 시험 12건 · 논문 446편 -->
+- [x] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 --> — 항목 생성(2026-08-06)
+- [x] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(2026-08-06)
+- [x] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 --> — 허가 적응증(2026-08-06)
+- [x] carnitine — Peripheral Arterial Disease에 듣는다  <!-- 시험 10건 · 논문 91편 --> — 항목 생성(2026-08-06)
+- [x] carnitine — Fatigue에 듣는다  <!-- 시험 9건 · 논문 392편 --> — 항목 생성(2026-08-06)
+- [x] carnitine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 585편 --> — 근거 없음(2026-08-06 조회, "carnitine AND Heart Failure")
+- [x] diosmin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 항목 생성(2026-08-06)
+- [x] inositol — Type 2 Diabetes에 듣는다  <!-- 시험 18건 · 논문 598편 --> — 근거 없음(2026-08-06 조회, "inositol AND Type 2 Diabetes")
+- [x] inositol — PCOS에 듣는다  <!-- 시험 11건 · 논문 412편 --> — 항목 생성(2026-08-06)
+- [x] inositol — Infertility에 듣는다  <!-- 시험 10건 · 논문 288편 --> — 항목 생성(2026-08-06)
+- [x] inositol — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 444편 --> — 근거 없음(2026-08-06 조회, "inositol AND Metabolic Syndrome")
+- [x] cholecalciferol — Breast Cancer에 듣는다  <!-- 시험 12건 · 논문 680편 --> — 항목 생성(2026-08-06)
+- [x] cholecalciferol — Leukemia에 듣는다  <!-- 시험 9건 · 논문 936편 --> — 항목 생성(2026-08-06)
+- [x] cholecalciferol — Diabetes에 듣는다  <!-- 시험 8건 · 논문 1808편 --> — 항목 생성(2026-08-06)
+- [x] cholecalciferol — Osteoporosis에 듣는다  <!-- 시험 7건 · 논문 2375편 --> — 근거 없음(2026-08-06 조회, "cholecalciferol AND Osteoporosis")
+- [x] calcifediol — Secondary Hyperparathyroidism Due to Renal Causes에 듣는다  <!-- 시험 3건 · 논문 94편 --> — 허가 적응증(2026-08-06)
+- [x] calcifediol — Frail Elderly에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(2026-08-06)
+- [x] calcifediol — Acute Kidney Injury에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(2026-08-06)
+- [x] gratitude intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 387편 --> — 항목 생성(2026-08-06)
+- [x] gratitude intervention — Anxiety에 듣는다  <!-- 시험 3건 · 논문 319편 --> — 항목 생성(2026-08-06)
+- [x] narrative therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 1032편 --> — 근거 없음(2026-08-06 조회, "narrative therapy AND Substance Use")
+- [x] narrative therapy — Depression에 듣는다  <!-- 시험 11건 · 논문 2373편 --> — 근거 없음(2026-08-06 조회, "narrative therapy AND Depression")
+- [x] narrative therapy — Mental Distress에 듣는다  <!-- 시험 11건 · 논문 304편 --> — 근거 없음(2026-08-06 조회, "narrative therapy AND Mental Distress")
+- [x] narrative therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 81편 --> — 근거 없음(2026-08-06 조회, "narrative therapy AND Binge Eating")
+- [x] therapeutic touch — Anxiety에 듣는다  <!-- 시험 4건 · 논문 278편 --> — 항목 생성(2026-08-06)
+- [x] therapeutic touch — Sleep에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 항목 생성(2026-08-06)
+- [x] therapeutic touch — Infants에 듣는다  <!-- 시험 3건 · 논문 182편 --> — 항목 생성(2026-08-06)
+- [x] light exposure — Depression에 듣는다  <!-- 시험 29건 · 논문 1690편 --> — 근거 없음(2026-08-06 조회, "light exposure AND Depression")
+- [x] light exposure — Circadian Rhythm에 듣는다  <!-- 시험 19건 · 논문 4033편 --> — 항목 생성(2026-08-06)
+- [x] light exposure — Dementia에 듣는다  <!-- 시험 12건 · 논문 446편 --> — 항목 생성(2026-08-06)
 - [ ] light exposure — Cancer에 듣는다  <!-- 시험 12건 · 논문 13635편 -->
 - [ ] nature sounds — Pain에 듣는다  <!-- 시험 4건 · 논문 384편 -->
 - [ ] nature sounds — Stress에 듣는다  <!-- 시험 4건 · 논문 827편 -->

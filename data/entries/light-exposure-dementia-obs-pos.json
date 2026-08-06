@@ -1,0 +1,28 @@
+{
+  "id": "light-exposure-dementia-obs-pos",
+  "subj": "광 노출",
+  "claim": "낮의 밝은 광 노출과 치매 위험 감소를 연결한다",
+  "line": "치매가 없던 코호트에서 낮의 밝은 광 노출이 치매 위험과 반비례했습니다",
+  "effect": "치매 HR 0.84; n=87577",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 87577,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "치매 예방은 광 노출의 허가 적응증이 아닙니다.",
+  "why": "손목기기로 측정한 낮·밤 광 노출과 신규 치매를 장기간 관찰한 코호트입니다.",
+  "saw": "치매가 없던 성인 87,577명을 중앙값 8.1년 추적했고 741명이 치매를 진단받았습니다. 낮에 1,000 lux 이상 빛을 받은 사람의 치매 위험은 HR 0.84였고, 일주기 활동리듬과 뇌 구조가 연관의 일부를 매개했습니다.",
+  "limit": "사람을 광에 배정한 시험이 아니며 야외활동·건강상태·수면 같은 생활습관 교란을 완전히 제거할 수 없습니다.",
+  "against": "관찰연구이므로 밝은 광을 늘리면 치매를 예방한다고 결론낼 수 없습니다.",
+  "use": "치매 예방 광 중재시험을 설계할 때의 대규모 관찰 가설로만 기록합니다.",
+  "refs": [
+    { "label": "웨어러블 측정 광 노출·치매 위험 전향 코호트", "pmid": "42358626" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=light exposure · cond=Dementia → 12건 반환, 물질 대조 후 12건",
+    "pubmed": "light exposure AND Dementia → 446편",
+    "negative": "light exposure AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) → 281편",
+    "safety": "light exposure AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 24518편"
+  }
+}
