@@ -11457,11 +11457,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep hygiene — Hypertension에 듣는다  <!-- 시험 9건 · 논문 365편 --> — 근거 없음(2026-08-06, "sleep hygiene AND Hypertension")
 - [x] qigong — Anxiety에 듣는다  <!-- 시험 4건 · 논문 249편 --> — 항목 생성(qigong-anxiety-null)
 - [x] qigong — Fatigue에 듣는다  <!-- 시험 4건 · 논문 203편 --> — 항목 생성(qigong-fatigue-pos)
-- [ ] qigong — Motor Function에 듣는다  <!-- 시험 4건 · 논문 62편 -->
-- [ ] qigong — COVID-19에 듣는다  <!-- 시험 4건 · 논문 56편 -->
-- [ ] pilates — Balance에 듣는다  <!-- 시험 14건 · 논문 271편 -->
-- [ ] pilates — Healthy Lifestyle에 듣는다  <!-- 시험 13건 · 논문 14편 -->
-- [ ] pilates — Urinary Incontinence에 듣는다  <!-- 시험 12건 · 논문 33편 -->
+- [x] qigong — Motor Function에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 항목 생성(qigong-motor-function-pos)
+- [x] qigong — COVID-19에 듣는다  <!-- 시험 4건 · 논문 56편 --> — 항목 생성(qigong-covid-19-pos)
+- [x] pilates — Balance에 듣는다  <!-- 시험 14건 · 논문 271편 --> — 항목 생성(pilates-balance-pos)
+- [x] pilates — Healthy Lifestyle에 듣는다  <!-- 시험 13건 · 논문 14편 --> — 항목 생성(pilates-healthy-lifestyle-pos)
+- [x] pilates — Urinary Incontinence에 듣는다  <!-- 시험 12건 · 논문 33편 --> — 항목 생성(pilates-urinary-incontinence-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11472,31 +11472,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] enalapril — Postpartum에 듣는다  <!-- 시험 5건 · 논문 18편 -->
-- [ ] enalapril — Cancer에 듣는다  <!-- 시험 4건 · 논문 214편 -->
-- [ ] enalapril — Chagas Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] enalapril — IGA Nephropathy에 듣는다  <!-- 시험 4건 · 논문 50편 -->
-- [ ] eplerenone — Hyperaldosteronism에 듣는다  <!-- 시험 3건 · 논문 141편 -->
-- [ ] eplerenone — Left Ventricular Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 66편 -->
-- [ ] eplerenone — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 61편 -->
-- [ ] finerenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 306편 -->
-- [ ] finerenone — Albuminuria에 듣는다  <!-- 시험 3건 · 논문 218편 -->
-- [ ] finerenone — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 160편 -->
-- [ ] finerenone — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 423편 -->
-- [ ] irbesartan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 240편 -->
-- [ ] irbesartan — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 269편 -->
-- [ ] linagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 4건 · 논문 20편 -->
-- [ ] linagliptin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 69편 -->
-- [ ] linagliptin — Coronavirus에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] liraglutide — Fatty Liver에 듣는다  <!-- 시험 9건 · 논문 303편 -->
-- [ ] liraglutide — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 1648편 -->
-- [ ] liraglutide — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 222편 -->
-- [ ] liraglutide — Diabetic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 142편 -->
-- [ ] sitagliptin — Cardiovascular Risk에 듣는다  <!-- 시험 6건 · 논문 367편 -->
-- [ ] sitagliptin — Insulin Secretion에 듣는다  <!-- 시험 5건 · 논문 331편 -->
-- [ ] sitagliptin — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 19편 -->
-- [ ] telmisartan — Diabetic Nephropathy에 듣는다  <!-- 시험 7건 · 논문 166편 -->
-- [ ] telmisartan — Hyperlipidemia에 듣는다  <!-- 시험 6건 · 논문 39편 -->
+- [x] enalapril — Postpartum에 듣는다  <!-- 시험 5건 · 논문 18편 --> — 항목 생성(enalapril-postpartum-null)
+- [x] enalapril — Cancer에 듣는다  <!-- 시험 4건 · 논문 214편 --> — 항목 생성(enalapril-cancer-open)
+- [x] enalapril — Chagas Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 항목 생성(enalapril-chagas-cardiomyopathy-open)
+- [x] enalapril — IGA Nephropathy에 듣는다  <!-- 시험 4건 · 논문 50편 --> — 항목 생성(enalapril-iga-nephropathy-pos)
+- [x] eplerenone — Hyperaldosteronism에 듣는다  <!-- 시험 3건 · 논문 141편 --> — 항목 생성(eplerenone-hyperaldosteronism-open)
+- [x] eplerenone — Left Ventricular Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 66편 --> — 항목 생성(eplerenone-left-ventricular-hypertrophy-pos)
+- [x] eplerenone — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 61편 --> — 근거 없음(2026-08-06, "eplerenone AND Atrial Fibrillation")
+- [x] finerenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 306편 --> — 항목 생성(finerenone-hypertension-open)
+- [x] finerenone — Albuminuria에 듣는다  <!-- 시험 3건 · 논문 218편 --> — 허가 적응증(2026-08-06)
+- [x] finerenone — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 160편 --> — 항목 생성(finerenone-proteinuria-open)
+- [x] finerenone — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 423편 --> — 근거 없음(2026-08-06, "finerenone AND Cardiovascular Diseases")
+- [x] irbesartan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 240편 --> — 허가 적응증(2026-08-06)
+- [x] irbesartan — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 269편 --> — 근거 없음(2026-08-06, "irbesartan AND Heart Failure")
+- [x] linagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 4건 · 논문 20편 --> — 항목 생성(linagliptin-impaired-glucose-tolerance-pos)
+- [x] linagliptin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 근거 없음(2026-08-06, "linagliptin AND Hypertension")
+- [x] linagliptin — Coronavirus에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(linagliptin-coronavirus-null)
+- [x] liraglutide — Fatty Liver에 듣는다  <!-- 시험 9건 · 논문 303편 --> — 항목 생성(liraglutide-fatty-liver-open)
+- [x] liraglutide — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 1648편 --> — 허가 적응증(2026-08-06)
+- [x] liraglutide — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 222편 --> — 항목 생성(liraglutide-metabolic-syndrome-open)
+- [x] liraglutide — Diabetic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 142편 --> — 항목 생성(liraglutide-diabetic-kidney-disease-open)
+- [x] sitagliptin — Cardiovascular Risk에 듣는다  <!-- 시험 6건 · 논문 367편 --> — 항목 생성(sitagliptin-cardiovascular-risk-open)
+- [x] sitagliptin — Insulin Secretion에 듣는다  <!-- 시험 5건 · 논문 331편 --> — 근거 없음(2026-08-06, "sitagliptin AND Insulin Secretion")
+- [x] sitagliptin — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 19편 --> — 항목 생성(sitagliptin-polycystic-ovary-syndrome-pos)
+- [x] telmisartan — Diabetic Nephropathy에 듣는다  <!-- 시험 7건 · 논문 166편 --> — 항목 생성(telmisartan-diabetic-nephropathy-open)
+- [x] telmisartan — Hyperlipidemia에 듣는다  <!-- 시험 6건 · 논문 39편 --> — 항목 생성(telmisartan-hyperlipidemia-pos)
 - [ ] telmisartan — COVID-19에 듣는다  <!-- 시험 6건 · 논문 38편 -->
 - [ ] telmisartan — Covid19에 듣는다  <!-- 시험 4건 · 논문 37편 -->
 - [ ] valsartan — Myocardial Injury에 듣는다  <!-- 시험 12건 · 논문 113편 -->
