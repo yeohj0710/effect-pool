@@ -12177,16 +12177,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] olfactory training — COVID-19에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 236편 -->
 - [x] olfactory training — Hyposmia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 5건 · 논문 246편 -->
 - [x] olfactory training — Cognitive Decline에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 67편 -->
-- [ ] sensory integration therapy — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 81편 -->
-- [ ] sensory integration therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 319편 -->
-- [ ] sensory integration therapy — Children에 듣는다  <!-- 시험 4건 · 논문 1130편 -->
-- [ ] sensory integration therapy — Diabetic Neuropathy에 듣는다  <!-- 시험 4건 · 논문 74편 -->
-- [ ] cranial electrotherapy stimulation — Depression에 듣는다  <!-- 시험 5건 · 논문 138편 -->
-- [ ] cranial electrotherapy stimulation — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 35편 -->
-- [ ] virtual reality exposure therapy — Stroke에 듣는다  <!-- 시험 25건 · 논문 215편 -->
-- [ ] virtual reality exposure therapy — Pain에 듣는다  <!-- 시험 24건 · 논문 337편 -->
-- [ ] virtual reality exposure therapy — Stress에 듣는다  <!-- 시험 20건 · 논문 374편 -->
-- [ ] virtual reality exposure therapy — Social Phobia에 듣는다  <!-- 시험 20건 · 논문 100편 -->
+- [x] sensory integration therapy — Cerebral Palsy에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 9건 · 논문 81편 -->
+- [x] sensory integration therapy — Stroke에 듣는다 — 근거 없음(2026-08-06, "sensory integration therapy" AND "Stroke" AND human intervention)  <!-- 시험 5건 · 논문 319편 -->
+- [x] sensory integration therapy — Children에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 1130편 -->
+- [x] sensory integration therapy — Diabetic Neuropathy에 듣는다 — 근거 없음(2026-08-06, "sensory integration therapy" AND "Diabetic Neuropathy" AND human intervention)  <!-- 시험 4건 · 논문 74편 -->
+- [x] cranial electrotherapy stimulation — Depression에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 5건 · 논문 138편 -->
+- [x] cranial electrotherapy stimulation — Depressive Disorder에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 35편 -->
+- [x] virtual reality exposure therapy — Stroke에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 25건 · 논문 215편 -->
+- [x] virtual reality exposure therapy — Pain에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 24건 · 논문 337편 -->
+- [x] virtual reality exposure therapy — Stress에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 20건 · 논문 374편 -->
+- [x] virtual reality exposure therapy — Social Phobia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 20건 · 논문 100편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12197,7 +12197,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] laughter meditation — Life Quality에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [x] laughter meditation — Life Quality에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 10편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12208,14 +12208,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] guided relaxation — Stress에 듣는다  <!-- 시험 20건 · 논문 645편 -->
-- [ ] guided relaxation — Cancer에 듣는다  <!-- 시험 14건 · 논문 708편 -->
-- [ ] guided relaxation — Anxiety에 듣는다  <!-- 시험 9건 · 논문 452편 -->
-- [ ] guided relaxation — Insomnia에 듣는다  <!-- 시험 8건 · 논문 52편 -->
-- [ ] water fasting — Obesity에 듣는다  <!-- 시험 5건 · 논문 753편 -->
-- [ ] water fasting — Gastric Disease에 듣는다  <!-- 시험 4건 · 논문 164편 -->
-- [ ] water fasting — Diabetes에 듣는다  <!-- 시험 4건 · 논문 1609편 -->
-- [ ] water fasting — Fasting에 듣는다  <!-- 시험 3건 · 논문 6444편 -->
-- [ ] reiki — Cancer에 듣는다  <!-- 시험 13건 · 논문 103편 -->
-- [ ] reiki — Fatigue에 듣는다  <!-- 시험 7건 · 논문 42편 -->
-- [ ] reiki — Stress에 듣는다  <!-- 시험 6건 · 논문 106편 -->
+- [x] guided relaxation — Stress에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 20건 · 논문 645편 -->
+- [x] guided relaxation — Cancer에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 14건 · 논문 708편 -->
+- [x] guided relaxation — Anxiety에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 9건 · 논문 452편 -->
+- [x] guided relaxation — Insomnia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 8건 · 논문 52편 -->
+- [x] water fasting — Obesity에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 5건 · 논문 753편 -->
+- [x] water fasting — Gastric Disease에 듣는다 — 근거 없음(2026-08-06, "water fasting" AND "Gastric Disease" AND human intervention)  <!-- 시험 4건 · 논문 164편 -->
+- [x] water fasting — Diabetes에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 1609편 -->
+- [x] water fasting — Fasting에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 6444편 -->
+- [x] reiki — Cancer에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 13건 · 논문 103편 -->
+- [x] reiki — Fatigue에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 42편 -->
+- [x] reiki — Stress에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 106편 -->
