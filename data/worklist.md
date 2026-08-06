@@ -11110,13 +11110,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meal planning — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-06, "meal planning AND Breast Cancer")
 - [x] meal planning — Stress에 듣는다  <!-- 시험 3건 · 논문 127편 --> — 근거 없음(2026-08-06, "meal planning AND Stress")
 - [x] sleep education — Obesity에 듣는다  <!-- 시험 6건 · 논문 3343편 --> — 근거 없음(2026-08-06, "sleep education AND Obesity")
-- [ ] sleep education — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 122편 -->
-- [ ] sleep education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 6170편 -->
-- [ ] sleep education — Osteoarthritis, Hip에 듣는다  <!-- 시험 6건 · 논문 31편 -->
-- [ ] tai chi — Activity, Motor에 듣는다  <!-- 시험 12건 · 논문 799편 -->
-- [ ] tai chi — Falls에 듣는다  <!-- 시험 11건 · 논문 490편 -->
-- [ ] tai chi — Sleep에 듣는다  <!-- 시험 11건 · 논문 368편 -->
-- [ ] tai chi — Stroke에 듣는다  <!-- 시험 8건 · 논문 211편 -->
+- [x] sleep education — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 122편 --> — 근거 없음(2026-08-06, "sleep education AND Type 1 Diabetes")
+- [x] sleep education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 6170편 --> — 근거 없음(2026-08-06, "sleep education AND Anxiety")
+- [x] sleep education — Osteoarthritis, Hip에 듣는다  <!-- 시험 6건 · 논문 31편 --> — 근거 없음(2026-08-06, "sleep education AND Osteoarthritis, Hip")
+- [x] tai chi — Activity, Motor에 듣는다  <!-- 시험 12건 · 논문 799편 --> — 항목 생성(tai-chi-activity-motor-pos)
+- [x] tai chi — Falls에 듣는다  <!-- 시험 11건 · 논문 490편 --> — 항목 생성(tai-chi-falls-pos)
+- [x] tai chi — Sleep에 듣는다  <!-- 시험 11건 · 논문 368편 --> — 항목 생성(tai-chi-sleep-pos)
+- [x] tai chi — Stroke에 듣는다  <!-- 시험 8건 · 논문 211편 --> — 항목 생성(tai-chi-stroke-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11127,29 +11127,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] clotrimazole — Tinea Pedis에 듣는다  <!-- 시험 6건 · 논문 66편 -->
-- [ ] clotrimazole — HIV Infections에 듣는다  <!-- 시험 5건 · 논문 85편 -->
-- [ ] clotrimazole — Otomycosis에 듣는다  <!-- 시험 4건 · 논문 79편 -->
-- [ ] clotrimazole — Bacterial Vaginosis에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] dimenhydrinate — Vertigo에 듣는다  <!-- 시험 3건 · 논문 88편 -->
-- [ ] drospirenone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 10건 · 논문 108편 -->
-- [ ] drospirenone — Premenstrual Syndrome에 듣는다  <!-- 시험 4건 · 논문 78편 -->
-- [ ] drospirenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 69편 -->
-- [ ] ethinylestradiol — Ovulation Inhibition에 듣는다  <!-- 시험 6건 · 논문 221편 -->
-- [ ] ethinylestradiol — Endometrial Polyp에 듣는다  <!-- 시험 4건 · 논문 14편 -->
-- [ ] ethinylestradiol — Diabetes에 듣는다  <!-- 시험 3건 · 논문 311편 -->
-- [ ] ethinylestradiol — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 3건 · 논문 376편 -->
-- [ ] follitropin — Ovarian Reserve에 듣는다  <!-- 시험 11건 · 논문 1682편 -->
-- [ ] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 -->
-- [ ] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 -->
-- [ ] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 -->
-- [ ] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 -->
-- [ ] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 -->
-- [ ] lactulose — Renal Failure에 듣는다  <!-- 시험 9건 · 논문 63편 -->
-- [ ] lactulose — Bowel Preparation에 듣는다  <!-- 시험 9건 · 논문 83편 -->
-- [ ] levonorgestrel — Endometrial Polyp에 듣는다  <!-- 시험 22건 · 논문 66편 -->
-- [ ] levonorgestrel — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 230편 -->
-- [ ] levonorgestrel — HIV에 듣는다  <!-- 시험 13건 · 논문 211편 -->
+- [x] clotrimazole — Tinea Pedis에 듣는다  <!-- 시험 6건 · 논문 66편 --> — 허가 적응증(2026-08-06)
+- [x] clotrimazole — HIV Infections에 듣는다  <!-- 시험 5건 · 논문 85편 --> — 근거 없음(2026-08-06, "clotrimazole AND HIV Infections")
+- [x] clotrimazole — Otomycosis에 듣는다  <!-- 시험 4건 · 논문 79편 --> — 항목 생성(clotrimazole-otomycosis-open)
+- [x] clotrimazole — Bacterial Vaginosis에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-06, "clotrimazole AND Bacterial Vaginosis")
+- [x] dimenhydrinate — Vertigo에 듣는다  <!-- 시험 3건 · 논문 88편 --> — 항목 생성(dimenhydrinate-vertigo-open)
+- [x] drospirenone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 10건 · 논문 108편 --> — 항목 생성(drospirenone-polycystic-ovary-syndrome-open)
+- [x] drospirenone — Premenstrual Syndrome에 듣는다  <!-- 시험 4건 · 논문 78편 --> — 항목 생성(drospirenone-premenstrual-syndrome-pos)
+- [x] drospirenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 69편 --> — 근거 없음(2026-08-06, "drospirenone AND Hypertension")
+- [x] ethinylestradiol — Ovulation Inhibition에 듣는다  <!-- 시험 6건 · 논문 221편 --> — 허가 적응증(2026-08-06)
+- [x] ethinylestradiol — Endometrial Polyp에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(ethinylestradiol-endometrial-polyp-pos)
+- [x] ethinylestradiol — Diabetes에 듣는다  <!-- 시험 3건 · 논문 311편 --> — 근거 없음(2026-08-06, "ethinylestradiol AND Diabetes")
+- [x] ethinylestradiol — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 3건 · 논문 376편 --> — 항목 생성(ethinylestradiol-polycystic-ovary-syndrome-open)
+- [x] follitropin — Ovarian Reserve에 듣는다  <!-- 시험 11건 · 논문 1682편 --> — 근거 없음(2026-08-06, "follitropin AND Ovarian Reserve")
+- [x] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 --> — 허가 적응증(2026-08-06)
+- [x] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 --> — 허가 적응증(2026-08-06)
+- [x] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 --> — 허가 적응증(2026-08-06)
+- [x] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 --> — 허가 적응증(2026-08-06)
+- [x] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 --> — 허가 적응증(2026-08-06)
+- [x] lactulose — Renal Failure에 듣는다  <!-- 시험 9건 · 논문 63편 --> — 항목 생성(lactulose-renal-failure-open)
+- [x] lactulose — Bowel Preparation에 듣는다  <!-- 시험 9건 · 논문 83편 --> — 항목 생성(lactulose-bowel-preparation-pos)
+- [x] levonorgestrel — Endometrial Polyp에 듣는다  <!-- 시험 22건 · 논문 66편 --> — 항목 생성(levonorgestrel-endometrial-polyp-null)
+- [x] levonorgestrel — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 230편 --> — 항목 생성(levonorgestrel-breast-cancer-open)
+- [x] levonorgestrel — HIV에 듣는다  <!-- 시험 13건 · 논문 211편 --> — 항목 생성(levonorgestrel-hiv-open)
 - [ ] levonorgestrel — Pregnancy에 듣는다  <!-- 시험 13건 · 논문 2241편 -->
 - [ ] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 -->
 - [ ] medroxyprogesterone — HIV에 듣는다  <!-- 시험 11건 · 논문 356편 -->
