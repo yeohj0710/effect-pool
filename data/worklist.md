@@ -10527,3 +10527,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] animal-assisted therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 301편 -->
 - [ ] animal-assisted therapy — Dementia에 듣는다  <!-- 시험 3건 · 논문 171편 -->
 - [ ] animal-assisted therapy — Advanced Cancer에 듣는다  <!-- 시험 3건 · 논문 146편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] laughter yoga — Psychological에 듣는다  <!-- 시험 11건 · 논문 188편 -->
+- [ ] laughter yoga — Anxiety에 듣는다  <!-- 시험 9건 · 논문 132편 -->
+- [ ] laughter yoga — Education에 듣는다  <!-- 시험 8건 · 논문 89편 -->
+- [ ] nature-based intervention — Stress에 듣는다  <!-- 시험 5건 · 논문 266편 -->
+- [ ] nature-based intervention — Pain에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [ ] nature-based intervention — Loneliness에 듣는다  <!-- 시험 3건 · 논문 35편 -->
+- [ ] nature-based intervention — Depression에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [ ] healthy eating — Child Behavior에 듣는다  <!-- 시험 14건 · 논문 5875편 -->
+- [ ] healthy eating — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 1277편 -->
+- [ ] healthy eating — Dietary Habits에 듣는다  <!-- 시험 6건 · 논문 18412편 -->
+- [ ] healthy eating — Eating에 듣는다  <!-- 시험 6건 · 논문 31527편 -->
+- [ ] fermented foods — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 219편 -->
+- [ ] fermented foods — Microbiome에 듣는다  <!-- 시험 4건 · 논문 3416편 -->
+- [ ] fermented foods — Immune Function에 듣는다  <!-- 시험 3건 · 논문 516편 -->
+- [ ] olive oil — Diabetes에 듣는다  <!-- 시험 15건 · 논문 913편 -->
+- [ ] olive oil — Obesity에 듣는다  <!-- 시험 13건 · 논문 815편 -->
+- [ ] olive oil — Metabolic Syndrome에 듣는다  <!-- 시험 12건 · 논문 270편 -->
+- [ ] olive oil — Mucositis에 듣는다  <!-- 시험 9건 · 논문 226편 -->
+- [ ] plant stanols — Childhood Obesity에 듣는다  <!-- 시험 4건 · 논문 9편 -->
+- [ ] plant stanols — Hyperlipidemias에 듣는다  <!-- 시험 3건 · 논문 160편 -->
+- [ ] walking program — Knee Injury에 듣는다  <!-- 시험 7건 · 논문 406편 -->
+- [ ] walking program — Coronary Artery Disease에 듣는다  <!-- 시험 6건 · 논문 170편 -->
+- [ ] walking program — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 1175편 -->
+- [ ] walking program — Obesity에 듣는다  <!-- 시험 4건 · 논문 1144편 -->
+- [ ] breathing retraining — Heart Rate에 듣는다  <!-- 시험 3건 · 논문 25편 -->
+- [ ] breathing retraining — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 135편 -->
