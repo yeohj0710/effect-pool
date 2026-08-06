@@ -1,60 +1,52 @@
 {
   "updated": "2026-08-06",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 1284,
+  "entries": 1298,
   "worklist": {
-    "checked": 9025,
-    "unchecked": 52,
+    "checked": 9055,
+    "unchecked": 22,
     "no_evidence_pending": 183,
     "next_batch": [
-      "tai-chi-neck-pain",
-      "tai-chi-oa-knee",
-      "resistance-training-cancer",
-      "resistance-training-obesity",
-      "resistance-training-aging",
-      "resistance-training-jumper-s-knee",
-      "linagliptin-insulin-resistance",
-      "linagliptin-renal-insufficiency",
-      "linagliptin-chronic-kidney-diseases",
-      "sitagliptin-heart-failure",
-      "sitagliptin-obesity",
-      "sitagliptin-renal-impairment",
-      "vildagliptin-renal-impairment",
-      "vildagliptin-fed-conditions",
-      "vildagliptin-ischemic-heart-disease",
-      "repaglinide-healthy-participants",
-      "repaglinide-drug-drug-interaction",
-      "glimepiride-cardiovascular-disease",
-      "glimepiride-chronic-heart-failure",
-      "glimepiride-diabetic-patients",
-      "finerenone-diabetes",
-      "finerenone-heart-failure",
-      "finerenone-iga-nephropathy",
-      "finerenone-primary-aldosteronism",
-      "evolocumab-hypercholesterolemia",
-      "evolocumab-hyperlipidemia",
-      "evolocumab-cardiovascular-disease",
-      "evolocumab-dyslipidemia",
-      "alirocumab-coronary-vessel",
-      "alirocumab-atherosclerosis"
+      "alirocumab-cardiovascular-diseases",
+      "alirocumab-atheroma-myocardial",
+      "inclisiran-plaque-atherosclerotic",
+      "inclisiran-coronary-heart-disease",
+      "inclisiran-ldl-cholesterol",
+      "inclisiran-ascvd",
+      "belimumab-rheumatoid-arthritis",
+      "belimumab-membranous-nephropathy",
+      "belimumab-vasculitis",
+      "belimumab-sjogren-s-syndrome",
+      "guselkumab-psoriatic-arthritis",
+      "guselkumab-crohn-disease",
+      "guselkumab-ulcerative-colitis",
+      "risankizumab-crohn-disease",
+      "risankizumab-ulcerative-colitis",
+      "risankizumab-psoriatic-arthritis",
+      "romosozumab-bone-loss",
+      "romosozumab-osteopenia",
+      "teriparatide-fracture",
+      "teriparatide-bone-loss",
+      "teriparatide-fractures",
+      "teriparatide-spinal-stenosis"
     ]
   },
   "verification": {
     "build": "passed",
     "line_warnings": 0,
-    "unknown_n_warnings": 39,
+    "unknown_n_warnings": 41,
     "known_warnings": 0,
     "tier_distribution": {
-      "trial": 1144,
-      "obs": 106,
+      "trial": 1153,
+      "obs": 111,
     "animal": 9,
       "lab": 4,
       "case": 21
     },
-    "no_effect_or_harm": 487,
+    "no_effect_or_harm": 493,
     "harm": 68,
     "no_effect_or_harm_share": "38%",
-    "connected_evidence": 2489
+    "connected_evidence": 2503
   },
   "deployment": {
     "last_entry_count": 716,
@@ -185,7 +177,7 @@
     "direct_added_candidates": 1281
   },
   "resume": {
-    "last_committed_batch": "batch 51: 18 evidence entries added; 30 topics processed; 21 old warnings fixed",
+    "last_committed_batch": "batch 52: 14 evidence entries added; 30 topics processed; 21 old warnings fixed",
   "last_batch": [
     "dobutamine-surgery (standard perioperative cardiac/blood-pressure management; no entry)",
     "dobutamine-coronary-disease (standard cardiac stress testing; no entry)",
@@ -218,8 +210,8 @@
     "nitroprusside-hypertension (label/standard hypertensive emergency treatment; no entry)",
     "nitroprusside-cardiovascular-diseases (standard cardiovascular vasodilator treatment; no entry)"
   ],
-    "current_batch": "batch 51: 30 topics processed; 18 evidence entries added; 21 old warnings fixed; 52 unchecked topics remain",
-    "next_action": "process the first 30 topics in next_batch, check label status per substance before APIs, then build and commit",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remain"
+    "current_batch": "batch 52: 30 topics processed; 14 evidence entries added; 21 old warnings fixed; 22 unchecked topics remain",
+    "next_action": "expand the worklist first because 22 topics remain; then choose 20 uncovered non-cancer substances with at least 5 non-drug names",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remain"
   }
 }

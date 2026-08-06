@@ -1,0 +1,28 @@
+{
+  "id": "glimepiride-chronic-heart-failure-pos",
+  "subj": "글리메피리드",
+  "claim": "제2형 당뇨병과 만성 심부전의 심혈관 사망에 글리메피리드를 쓴다",
+  "line": "제2형 당뇨병·만성 심부전 관찰 코호트에서 글리메피리드는 심혈관 사망과 입원을 낮게 유지했습니다",
+  "effect": "CV 사망 HR 0.34",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 21451,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "글리메피리드는 제2형 당뇨병 혈당 조절에 허가됐지만 만성 심부전 치료는 허가 적응증이 아닙니다.",
+  "why": "제2형 당뇨병과 만성 심부전 환자에서 글리메피리드 사용과 심혈관 사망·입원의 연관성을 본 전향적 코호트입니다.",
+  "saw": "입원 환자 21,451명 중 글리메피리드 사용자는 638명이었습니다. 성향점수 매칭 509쌍에서 글리메피리드 사용군은 비사용군보다 심혈관 사망, 심부전 입원·응급방문, 심근경색·뇌졸중 입원이 낮았습니다.",
+  "limit": "비무작위 관찰연구이고 글리메피리드 사용을 선택한 환자와 비사용 환자의 차이를 완전히 제거할 수 없습니다.",
+  "against": "심부전 환자를 글리메피리드로 치료하는 무작위시험이 아니며 설포닐우레아의 저혈당 위험은 남습니다.",
+  "use": "심부전에서 글리메피리드의 보호 신호로만 기록하고 관찰연구 결과를 치료 권고로 확장하지 않습니다.",
+  "refs": [
+    { "label": "제2형 당뇨병·만성 심부전 글리메피리드 전향 코호트", "doi": "10.1093/eurjpc/zwac312", "pmid": "36573717" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=glimepiride, cond=Chronic Heart Failure · 2건",
+    "pubmed": "glimepiride AND Chronic Heart Failure · 15편",
+    "negative": "glimepiride AND Chronic Heart Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) · 4편",
+    "safety": "glimepiride AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 596편"
+  }
+}

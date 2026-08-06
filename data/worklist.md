@@ -10180,36 +10180,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meditation — Depression에 듣는다  <!-- 시험 19건 · 논문 2157편 --> — 같은 근거(meditation-anxiety-depression-pos)
 - [x] tai chi — Cognitive Decline에 듣는다  <!-- 시험 25건 · 논문 185편 --> — 항목 생성(tai-chi-cognitive-decline-pos)
 - [x] tai chi — Aging에 듣는다  <!-- 시험 18건 · 논문 584편 --> — 항목 생성(tai-chi-aging-pos)
-- [ ] tai chi — Neck Pain에 듣는다  <!-- 시험 15건 · 논문 43편 -->
-- [ ] tai chi — OA Knee에 듣는다  <!-- 시험 13건 · 논문 61편 -->
-- [ ] resistance training — Cancer에 듣는다  <!-- 시험 17건 · 논문 4245편 -->
-- [ ] resistance training — Obesity에 듣는다  <!-- 시험 13건 · 논문 3685편 -->
-- [ ] resistance training — Aging에 듣는다  <!-- 시험 12건 · 논문 4192편 -->
-- [ ] resistance training — Jumper's Knee에 듣는다  <!-- 시험 10건 · 논문 8편 -->
-- [ ] linagliptin — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 52편 -->
-- [ ] linagliptin — Renal Insufficiency에 듣는다  <!-- 시험 5건 · 논문 69편 -->
-- [ ] linagliptin — Chronic Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 66편 -->
-- [ ] sitagliptin — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 198편 -->
-- [ ] sitagliptin — Obesity에 듣는다  <!-- 시험 8건 · 논문 259편 -->
-- [ ] sitagliptin — Renal Impairment에 듣는다  <!-- 시험 8건 · 논문 122편 -->
-- [ ] vildagliptin — Renal Impairment에 듣는다  <!-- 시험 5건 · 논문 61편 -->
-- [ ] vildagliptin — Fed Conditions에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] vildagliptin — Ischemic Heart Disease에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] repaglinide — Healthy Participants에 듣는다  <!-- 시험 5건 · 논문 71편 -->
-- [ ] repaglinide — Drug-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 228편 -->
-- [ ] glimepiride — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 281편 -->
-- [ ] glimepiride — Chronic Heart Failure에 듣는다  <!-- 시험 4건 · 논문 15편 -->
-- [ ] glimepiride — Diabetic Patients에 듣는다  <!-- 시험 3건 · 논문 1018편 -->
-- [ ] finerenone — Diabetes에 듣는다  <!-- 시험 31건 · 논문 798편 -->
-- [ ] finerenone — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 520편 -->
-- [ ] finerenone — IgA Nephropathy에 듣는다  <!-- 시험 11건 · 논문 20편 -->
-- [ ] finerenone — Primary Aldosteronism에 듣는다  <!-- 시험 6건 · 논문 22편 -->
-- [ ] evolocumab — Hypercholesterolemia에 듣는다  <!-- 시험 29건 · 논문 645편 -->
-- [ ] evolocumab — Hyperlipidemia에 듣는다  <!-- 시험 17건 · 논문 546편 -->
-- [ ] evolocumab — Cardiovascular Disease에 듣는다  <!-- 시험 15건 · 논문 1014편 -->
-- [ ] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 -->
-- [ ] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 -->
-- [ ] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 -->
+- [x] tai chi — Neck Pain에 듣는다  <!-- 시험 15건 · 논문 43편 --> — 항목 생성(tai-chi-neck-pain-pos)
+- [x] tai chi — OA Knee에 듣는다  <!-- 시험 13건 · 논문 61편 --> — 항목 생성(tai-chi-oa-knee-pos)
+- [x] resistance training — Cancer에 듣는다  <!-- 시험 17건 · 논문 4245편 --> — 항목 생성(resistance-training-cancer-pos)
+- [x] resistance training — Obesity에 듣는다  <!-- 시험 13건 · 논문 3685편 --> — 항목 생성(resistance-training-obesity-pos)
+- [x] resistance training — Aging에 듣는다  <!-- 시험 12건 · 논문 4192편 --> — 항목 생성(resistance-training-aging-pos)
+- [x] resistance training — Jumper's Knee에 듣는다  <!-- 시험 10건 · 논문 8편 --> — 근거 없음(2026-08-06, resistance training AND Jumper Knee)
+- [x] linagliptin — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 52편 --> — 근거 없음(2026-08-06, linagliptin AND Insulin Resistance)
+- [x] linagliptin — Renal Insufficiency에 듣는다  <!-- 시험 5건 · 논문 69편 --> — 항목 생성(linagliptin-renal-insufficiency-null)
+- [x] linagliptin — Chronic Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 66편 --> — 같은 근거(linagliptin-renal-insufficiency-null)
+- [x] sitagliptin — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 198편 --> — 항목 생성(sitagliptin-heart-failure-null)
+- [x] sitagliptin — Obesity에 듣는다  <!-- 시험 8건 · 논문 259편 --> — 항목 생성(sitagliptin-obesity-null)
+- [x] sitagliptin — Renal Impairment에 듣는다  <!-- 시험 8건 · 논문 122편 --> — 항목 생성(sitagliptin-renal-impairment-null)
+- [x] vildagliptin — Renal Impairment에 듣는다  <!-- 시험 5건 · 논문 61편 --> — 항목 생성(vildagliptin-renal-impairment-pos)
+- [x] vildagliptin — Fed Conditions에 듣는다  <!-- 시험 4건 · 논문 24편 --> — 근거 없음(2026-08-06, vildagliptin AND Fed Conditions)
+- [x] vildagliptin — Ischemic Heart Disease에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-06, vildagliptin AND Ischemic Heart Disease)
+- [x] repaglinide — Healthy Participants에 듣는다  <!-- 시험 5건 · 논문 71편 --> — 근거 없음(2026-08-06, repaglinide AND Healthy Participants)
+- [x] repaglinide — Drug-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 근거 없음(2026-08-06, repaglinide AND Drug-drug Interaction)
+- [x] glimepiride — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 281편 --> — 항목 생성(glimepiride-cardiovascular-disease-null)
+- [x] glimepiride — Chronic Heart Failure에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 항목 생성(glimepiride-chronic-heart-failure-pos)
+- [x] glimepiride — Diabetic Patients에 듣는다  <!-- 시험 3건 · 논문 1018편 --> — 허가 적응증(2026-08-06)
+- [x] finerenone — Diabetes에 듣는다  <!-- 시험 31건 · 논문 798편 --> — 허가 적응증(2026-08-06)
+- [x] finerenone — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 520편 --> — 허가 적응증(2026-08-06)
+- [x] finerenone — IgA Nephropathy에 듣는다  <!-- 시험 11건 · 논문 20편 --> — 항목 생성(finerenone-iga-nephropathy-pos)
+- [x] finerenone — Primary Aldosteronism에 듣는다  <!-- 시험 6건 · 논문 22편 --> — 항목 생성(finerenone-primary-aldosteronism-null)
+- [x] evolocumab — Hypercholesterolemia에 듣는다  <!-- 시험 29건 · 논문 645편 --> — 허가 적응증(2026-08-06)
+- [x] evolocumab — Hyperlipidemia에 듣는다  <!-- 시험 17건 · 논문 546편 --> — 허가 적응증(2026-08-06)
+- [x] evolocumab — Cardiovascular Disease에 듣는다  <!-- 시험 15건 · 논문 1014편 --> — 허가 적응증(2026-08-06)
+- [x] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 --> — 허가 적응증(2026-08-06)
+- [x] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 --> — 허가 적응증(2026-08-06)
+- [x] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 --> — 허가 적응증(2026-08-06)
 - [ ] alirocumab — Cardiovascular Diseases에 듣는다  <!-- 시험 9건 · 논문 591편 -->
 - [ ] alirocumab — Atheroma; Myocardial에 듣는다  <!-- 시험 7건 · 논문 13편 -->
 - [ ] inclisiran — Plaque, Atherosclerotic에 듣는다  <!-- 시험 20건 · 논문 22편 -->
