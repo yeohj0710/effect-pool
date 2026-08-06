@@ -11985,7 +11985,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] seaweed — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 73편 --> — 항목 생성(2026-08-06)
 - [x] seaweed — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 361편 --> — 항목 생성(2026-08-06)
 - [x] seaweed — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 235편 --> — 항목 생성(2026-08-06)
-- [ ] coconut water — Water에 듣는다  <!-- 시험 3건 · 논문 2029편 -->
+- [x] coconut water — Water에 듣는다  <!-- 시험 3건 · 논문 2029편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11996,29 +11996,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] prayer — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 1193편 -->
-- [ ] heat therapy — Peripheral Neuropathies에 듣는다  <!-- 시험 10건 · 논문 1060편 -->
-- [ ] heat therapy — Advanced Cholangiocarcinoma에 듣는다  <!-- 시험 7건 · 논문 18편 -->
-- [ ] heat therapy — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 594편 -->
-- [ ] heat therapy — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 638편 -->
-- [ ] mindful breathing — Pain에 듣는다  <!-- 시험 34건 · 논문 119편 -->
-- [ ] mindful breathing — Anxiety에 듣는다  <!-- 시험 22건 · 논문 271편 -->
-- [ ] mindful breathing — Depression에 듣는다  <!-- 시험 20건 · 논문 229편 -->
-- [ ] behavior change — Anxiety에 듣는다  <!-- 시험 16건 · 논문 115105편 -->
-- [ ] behavior change — Alcohol Use에 듣는다  <!-- 시험 14건 · 논문 28066편 -->
-- [ ] behavior change — Depression에 듣는다  <!-- 시험 11건 · 논문 247142편 -->
-- [ ] behavior change — Stress에 듣는다  <!-- 시험 10건 · 논문 209435편 -->
-- [ ] red light therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 2476편 -->
-- [ ] red light therapy — Keratosis에 듣는다  <!-- 시험 14건 · 논문 173편 -->
-- [ ] red light therapy — Sleep에 듣는다  <!-- 시험 11건 · 논문 141편 -->
-- [ ] red light therapy — Depression에 듣는다  <!-- 시험 8건 · 논문 208편 -->
-- [ ] massage therapy — Anxiety에 듣는다  <!-- 시험 17건 · 논문 1165편 -->
-- [ ] massage therapy — Cancer에 듣는다  <!-- 시험 13건 · 논문 1790편 -->
-- [ ] massage therapy — Constipation에 듣는다  <!-- 시험 10건 · 논문 229편 -->
-- [ ] massage therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 831편 -->
-- [ ] psyllium husk — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 13편 -->
-- [ ] psyllium husk — Obesity에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] green tea — Obesity에 듣는다  <!-- 시험 12건 · 논문 1910편 -->
-- [ ] green tea — Diabetes에 듣는다  <!-- 시험 11건 · 논문 2213편 -->
-- [ ] green tea — Hypertension에 듣는다  <!-- 시험 5건 · 논문 1052편 -->
-- [ ] green tea — Oral Care에 듣는다  <!-- 시험 5건 · 논문 259편 -->
+- [x] prayer — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 1193편 --> — 근거 없음(2026-08-06 조회, "prayer breast cancer intervention")
+- [x] heat therapy — Peripheral Neuropathies에 듣는다  <!-- 시험 10건 · 논문 1060편 --> — 근거 없음(2026-08-06 조회, "heat therapy peripheral neuropathies intervention")
+- [x] heat therapy — Advanced Cholangiocarcinoma에 듣는다  <!-- 시험 7건 · 논문 18편 --> — 근거 없음(2026-08-06 조회, "heat therapy cholangiocarcinoma intervention")
+- [x] heat therapy — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 594편 --> — 항목 생성(2026-08-06)
+- [x] heat therapy — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 638편 --> — 항목 생성(2026-08-06)
+- [x] mindful breathing — Pain에 듣는다  <!-- 시험 34건 · 논문 119편 --> — 항목 생성(2026-08-06)
+- [x] mindful breathing — Anxiety에 듣는다  <!-- 시험 22건 · 논문 271편 --> — 항목 생성(2026-08-06)
+- [x] mindful breathing — Depression에 듣는다  <!-- 시험 20건 · 논문 229편 --> — 근거 없음(2026-08-06 조회, "mindful breathing depression intervention")
+- [x] behavior change — Anxiety에 듣는다  <!-- 시험 16건 · 논문 115105편 --> — 근거 없음(2026-08-06 조회, "behavior change anxiety intervention")
+- [x] behavior change — Alcohol Use에 듣는다  <!-- 시험 14건 · 논문 28066편 --> — 근거 없음(2026-08-06 조회, "behavior change alcohol use intervention")
+- [x] behavior change — Depression에 듣는다  <!-- 시험 11건 · 논문 247142편 --> — 근거 없음(2026-08-06 조회, "behavior change depression intervention")
+- [x] behavior change — Stress에 듣는다  <!-- 시험 10건 · 논문 209435편 --> — 근거 없음(2026-08-06 조회, "behavior change stress intervention")
+- [x] red light therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 2476편 --> — 근거 없음(2026-08-06 조회, "red light therapy cancer intervention")
+- [x] red light therapy — Keratosis에 듣는다  <!-- 시험 14건 · 논문 173편 --> — 항목 생성(2026-08-06)
+- [x] red light therapy — Sleep에 듣는다  <!-- 시험 11건 · 논문 141편 --> — 항목 생성(2026-08-06)
+- [x] red light therapy — Depression에 듣는다  <!-- 시험 8건 · 논문 208편 --> — 항목 생성(2026-08-06)
+- [x] massage therapy — Anxiety에 듣는다  <!-- 시험 17건 · 논문 1165편 --> — 근거 없음(2026-08-06 조회, "massage therapy anxiety intervention")
+- [x] massage therapy — Cancer에 듣는다  <!-- 시험 13건 · 논문 1790편 --> — 항목 생성(2026-08-06)
+- [x] massage therapy — Constipation에 듣는다  <!-- 시험 10건 · 논문 229편 --> — 항목 생성(2026-08-06)
+- [x] massage therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 831편 --> — 근거 없음(2026-08-06 조회, "massage therapy depression intervention")
+- [x] psyllium husk — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 13편 --> — 항목 생성(2026-08-06)
+- [x] psyllium husk — Obesity에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 항목 생성(2026-08-06)
+- [x] green tea — Obesity에 듣는다  <!-- 시험 12건 · 논문 1910편 --> — 항목 생성(2026-08-06)
+- [x] green tea — Diabetes에 듣는다  <!-- 시험 11건 · 논문 2213편 --> — 항목 생성(2026-08-06)
+- [x] green tea — Hypertension에 듣는다  <!-- 시험 5건 · 논문 1052편 --> — 항목 생성(2026-08-06)
+- [x] green tea — Oral Care에 듣는다  <!-- 시험 5건 · 논문 259편 --> — 항목 생성(2026-08-06)

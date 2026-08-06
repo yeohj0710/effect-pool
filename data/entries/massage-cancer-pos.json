@@ -1,28 +1,20 @@
 {
   "id": "massage-cancer-pos",
-  "subj": "마사지",
-  "claim": "암 통증에 마사지를 사용하는가",
-  "line": "암 환자 무작위시험 메타분석에서 마사지가 통증을 줄였다.",
+  "subj": "massage therapy",
+  "claim": "마사지 요법은 암 환자의 통증을 줄일 수 있다",
+  "line": "암 환자 통증 무작위시험 종합에서 마사지 요법이 통증을 줄였다",
+  "effect": "암 통증 감소",
   "tier": "trial",
   "dir": "pos",
   "n": 1000,
   "synth": "meta",
   "known": "off",
-  "knownWhy": "마사지는 암의 허가 치료가 아니며 암 원인 치료와 진통제 치료를 대신하지 않는다.",
-  "why": "마사지가 근육 긴장과 통증 지각을 낮춰 암성 통증의 보조 조절에 기여할 가능성을 평가한다.",
-  "saw": "13개 무작위시험 1,000명에서 암성 통증의 표준화 평균차는 -1.16이었다.",
-  "limit": "연구마다 마사지 방식과 대조군이 달라 효과 크기의 이질성이 있고 장기 효과는 불확실하다.",
-  "against": "골전이, 혈소판감소, 피부 손상 부위에는 마사지가 통증이나 출혈을 악화시킬 수 있다.",
-  "use": "종양 전문팀이 금기 부위를 확인한 뒤 진통제와 함께 보조요법으로 고려한다.",
-  "effect": "암성 통증 SMD -1.16",
-  "refs": [
-    { "label": "암 통증 마사지 무작위시험 메타분석", "doi": "10.1097/MD.0000000000033939", "pmid": "37417622" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=massage · cond=Cancer · 181건",
-    "pubmed": "massage AND Cancer · 1,889편",
-    "negative": "massage AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) · 651편",
-    "safety": "massage AND (adverse OR toxicity OR case report) · 430편"
-  }
+  "knownWhy": "비약물 중재로 허가 적응증 없음",
+  "why": "암 통증에 대한 마사지 무작위시험을 체계적으로 종합했다",
+  "saw": "무작위시험 13편 1,000명을 분석했다. 마사지 요법은 암 환자 통증을 표준화 평균차 -1.16으로 줄였고 중대한 이상반응은 보고되지 않았다",
+  "limit": "암 종류와 마사지 방법이 달랐고 통증을 본 결과라 암 자체를 치료한 것이 아니다",
+  "against": "마사지가 항암치료나 진통제를 대신한다는 근거는 아니다",
+  "use": "암 통증 관리에서 치료팀과 상의할 수 있는 보조요법으로만 본다",
+  "refs": [{ "label": "Massage therapy can effectively relieve cancer pain", "doi": "10.1097/MD.0000000000033939", "pmid": "37417622" }],
+  "queried": { "date": "2026-08-06", "ctgov": "intr=massage therapy 쨌 cond=Cancer: 14건", "pubmed": "massage therapy AND Cancer: 1790건", "negative": "massage therapy AND Cancer AND no effect: 1064건", "safety": "massage therapy AND adverse OR toxicity: 3302건" }
 }
