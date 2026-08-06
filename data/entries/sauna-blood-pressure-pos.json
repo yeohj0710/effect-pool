@@ -1,0 +1,28 @@
+{
+  "id": "sauna-blood-pressure-pos",
+  "subj": "사우나",
+  "claim": "치료받지 않은 고혈압의 혈압에 사우나를 쓰는가",
+  "line": "치료받지 않은 고혈압에서 사우나가 노출 직후 혈압을 낮췄습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 16,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "사우나는 열치료 행동이며 고혈압 치료의 의약품 허가 적응증이 아닙니다.",
+  "why": "열 노출이 말초혈관 저항을 낮추면 고혈압 환자의 단기 혈압이 내려갈 수 있다는 가설입니다.",
+  "saw": "치료받지 않은 고혈압 환자 16명을 대조 기간, 사우나, 운동 후 사우나 조건에 배정했습니다. 사우나 단독과 운동 후 사우나는 혈관저항을 낮췄고, 운동 후 사우나는 24시간 수축기·평균 혈압에 긍정적 효과를 보였습니다.",
+  "limit": "소규모 단기 생리시험이며 사우나 단독의 24시간 혈압 효과를 운동 병용 결과와 구분하기 어렵습니다.",
+  "against": "노출 직후 혈압 변화가 고혈압 합병증이나 장기 심혈관 사건 감소를 뜻하지 않습니다.",
+  "use": "고혈압약을 사우나로 대체하지 않으며, 어지럼·탈수·심혈관 위험이 있으면 열 노출을 피합니다.",
+  "effect": "혈관저항 감소; 단기 혈압 개선",
+  "refs": [
+    { "label": "Hussain 2012 · Journal of Clinical Hypertension · 고혈압 사우나 시험", "doi": "10.1111/j.1751-7176.2012.00637.x", "pmid": "22863164" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=sauna, cond=Blood Pressure · 7건",
+    "pubmed": "sauna AND Blood Pressure · 171건",
+    "negative": "sauna AND Blood Pressure AND (no effect OR did not OR failed to OR negative OR no significant difference) · 122건",
+    "safety": "sauna AND (adverse OR toxicity OR case report OR overdose OR harm) · 336건"
+  }
+}

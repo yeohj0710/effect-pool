@@ -1,42 +1,29 @@
 {
   "updated": "2026-08-06",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 1252,
+  "entries": 1266,
   "worklist": {
-    "checked": 8965,
-    "unchecked": 47,
+    "checked": 8995,
+    "unchecked": 17,
     "no_evidence_pending": 183,
     "next_batch": [
-      "intermittent-fasting-diabetes",
-      "intermittent-fasting-metabolic-changes",
-      "intermittent-fasting-liver-fat",
-      "intermittent-fasting-weight",
-      "sauna-blood-pressure",
-      "sauna-heat-stress",
-      "sauna-heart-failure",
-      "cold-water-immersion-cryotherapy-effect",
-      "cold-water-immersion-recovery",
-      "cold-water-immersion-fatigue",
-      "compression-stockings-spider-veins",
-      "compression-stockings-lymphedema",
-      "compression-stockings-breast-cancer",
-      "compression-stockings-edema",
-      "acupuncture-cancer",
-      "acupuncture-neuropathy",
-      "acupuncture-stroke",
-      "acupuncture-postoperative-ileus",
-      "ambrisentan-systemic-sclerosis",
-      "ambrisentan-cirrhosis",
-      "ciclopirox-tinea-pedis",
-      "clindamycin-infection",
-      "clindamycin-bacterial-vaginosis",
-      "clindamycin-infections",
-      "clindamycin-abscess",
-      "deferiprone-thalassemia",
-      "deferiprone-anemia-cooleys",
-      "deferiprone-sickle-cell-disease",
-      "deferiprone-pantothenate-kinase-associated-neurodegeneration",
-      "elagolix-uterine-fibroids"
+      "elagolix-heavy-menstrual-bleeding",
+      "elagolix-infertility",
+      "luspatercept-anemia",
+      "luspatercept-thalassemia",
+      "luspatercept-myelofibrosis-mf",
+      "luspatercept-acute-leukemia",
+      "omadacycline-bone-infection",
+      "ravulizumab-myasthenia-gravis",
+      "ravulizumab-neuromyelitis-optica",
+      "ravulizumab-ahus",
+      "teprotumumab-graves-disease",
+      "voclosporin-psoriasis",
+      "voclosporin-kidney-diseases",
+      "abrocitinib-eczema",
+      "dornase-alfa-covid-19",
+      "dornase-alfa-atelectasis",
+      "dornase-alfa-lower-respiratory-tract-infection"
     ]
   },
   "verification": {
@@ -45,16 +32,16 @@
     "unknown_n_warnings": 36,
     "known_warnings": 0,
     "tier_distribution": {
-      "trial": 1114,
-      "obs": 104,
+      "trial": 1127,
+      "obs": 105,
     "animal": 9,
       "lab": 4,
       "case": 21
     },
-    "no_effect_or_harm": 482,
+    "no_effect_or_harm": 484,
     "harm": 68,
     "no_effect_or_harm_share": "38%",
-    "connected_evidence": 2453
+    "connected_evidence": 2468
   },
   "deployment": {
     "last_entry_count": 716,
@@ -165,7 +152,7 @@
     "direct_added_candidates": 1216
   },
   "resume": {
-    "last_committed_batch": "batch 49: 11 evidence entries added; 28 topics processed; 20 old warnings fixed",
+    "last_committed_batch": "batch 50: 14 evidence entries added; 30 topics processed; 22 old warnings fixed",
   "last_batch": [
     "dobutamine-surgery (standard perioperative cardiac/blood-pressure management; no entry)",
     "dobutamine-coronary-disease (standard cardiac stress testing; no entry)",
@@ -198,8 +185,8 @@
     "nitroprusside-hypertension (label/standard hypertensive emergency treatment; no entry)",
     "nitroprusside-cardiovascular-diseases (standard cardiovascular vasodilator treatment; no entry)"
   ],
-    "current_batch": "batch 49: 28 topics processed; 11 evidence entries added; 20 old warnings fixed; 47 new candidates added from 20 substances",
-    "next_action": "process the first 30 topics in next_batch, check label status per substance before APIs, then build and commit",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; 47 unchecked topics remain"
+    "current_batch": "batch 50: 30 topics processed; 14 evidence entries added; 22 old warnings fixed; 17 unchecked topics remain",
+    "next_action": "expand the worklist first because 17 topics remain; then choose 20 uncovered non-cancer substances with at least 5 non-drug names",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 unchecked topics remain"
   }
 }

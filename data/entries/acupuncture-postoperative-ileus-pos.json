@@ -1,0 +1,28 @@
+{
+  "id": "acupuncture-postoperative-ileus-pos",
+  "subj": "침 치료",
+  "claim": "대장암 복강경 수술 뒤 장폐색 기간에 전기침을 쓰는가",
+  "line": "대장암 복강경 수술 뒤 전기침이 장폐색 기간을 줄였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 248,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "전기침은 수술 후 장폐색의 의약품 허가 적응증이 아닙니다.",
+  "why": "수술 뒤 자율신경과 장운동을 자극하면 첫 배변과 식사 재개를 앞당길 수 있다는 가설입니다.",
+  "saw": "중국 다기관 무작위 가짜시술 대조시험에서 대장암 복강경 절제 환자 248명이 ERAS와 전기침 또는 가짜 전기침을 받았습니다. 첫 배변까지 중앙값은 76.4시간 대 90.0시간이었고(P=0.003), 지속 장폐색은 10% 대 20%였습니다(RR 0.51, P=0.03).",
+  "limit": "ERAS를 함께 시행한 중국 대장암 수술 환자의 4회 시술 결과이며, 다른 수술에 그대로 적용할 수 없습니다.",
+  "against": "재입원과 다른 이차 결과에는 차이가 없었고, 전기침이 모든 수술 후 장마비를 예방한다는 뜻은 아닙니다.",
+  "use": "수술 후 표준 회복 프로그램을 전기침으로 대체하지 않으며, 수술팀이 금기와 시행 가능성을 판단합니다.",
+  "effect": "첫 배변 76.4시간 vs 90.0시간",
+  "refs": [
+    { "label": "Chen 2023 · JAMA Surgery · 다기관 무작위시험", "doi": "10.1001/jamasurg.2022.5674", "pmid": "36322060" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=acupuncture, cond=Postoperative Ileus · 14건",
+    "pubmed": "acupuncture AND Postoperative Ileus · 87건",
+    "negative": "acupuncture AND Postoperative Ileus AND (no effect OR did not OR failed to OR negative OR no significant difference) · 71건",
+    "safety": "acupuncture AND (adverse OR toxicity OR case report OR overdose OR harm) · 9366건"
+  }
+}

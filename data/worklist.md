@@ -10100,36 +10100,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] intermittent fasting — Diabetes에 듣는다  <!-- 시험 14건 · 논문 878편 -->
-- [ ] intermittent fasting — Metabolic Changes에 듣는다  <!-- 시험 12건 · 논문 881편 -->
-- [ ] intermittent fasting — Liver Fat에 듣는다  <!-- 시험 11건 · 논문 147편 -->
-- [ ] intermittent fasting — Weight에 듣는다  <!-- 시험 9건 · 논문 1534편 -->
-- [ ] sauna — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 171편 -->
-- [ ] sauna — Heat Stress에 듣는다  <!-- 시험 3건 · 논문 129편 -->
-- [ ] sauna — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 79편 -->
-- [ ] cold water immersion — Cryotherapy Effect에 듣는다  <!-- 시험 6건 · 논문 225편 -->
-- [ ] cold water immersion — Recovery에 듣는다  <!-- 시험 5건 · 논문 616편 -->
-- [ ] cold water immersion — Fatigue에 듣는다  <!-- 시험 4건 · 논문 173편 -->
-- [ ] compression stockings — Spider Veins에 듣는다  <!-- 시험 22건 · 논문 20편 -->
-- [ ] compression stockings — Lymphedema에 듣는다  <!-- 시험 12건 · 논문 258편 -->
-- [ ] compression stockings — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 28편 -->
-- [ ] compression stockings — Edema에 듣는다  <!-- 시험 9건 · 논문 481편 -->
-- [ ] acupuncture — Cancer에 듣는다  <!-- 시험 80건 · 논문 4697편 -->
-- [ ] acupuncture — Neuropathy에 듣는다  <!-- 시험 20건 · 논문 630편 -->
-- [ ] acupuncture — Stroke에 듣는다  <!-- 시험 17건 · 논문 3224편 -->
-- [ ] acupuncture — Postoperative Ileus에 듣는다  <!-- 시험 16건 · 논문 87편 -->
-- [ ] ambrisentan — Systemic Sclerosis에 듣는다  <!-- 시험 5건 · 논문 38편 -->
-- [ ] ambrisentan — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] ciclopirox — Tinea Pedis에 듣는다  <!-- 시험 3건 · 논문 39편 -->
-- [ ] clindamycin — Infection에 듣는다  <!-- 시험 33건 · 논문 11931편 -->
-- [ ] clindamycin — Bacterial Vaginosis에 듣는다  <!-- 시험 24건 · 논문 333편 -->
-- [ ] clindamycin — Infections에 듣는다  <!-- 시험 12건 · 논문 11931편 -->
-- [ ] clindamycin — Abscess에 듣는다  <!-- 시험 8건 · 논문 1312편 -->
-- [ ] deferiprone — Thalassemia에 듣는다  <!-- 시험 12건 · 논문 766편 -->
-- [ ] deferiprone — Anemia, Cooley's에 듣는다  <!-- 시험 10건 · 논문 452편 -->
-- [ ] deferiprone — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 65편 -->
-- [ ] deferiprone — Pantothenate Kinase-Associated Neurodegeneration에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] elagolix — Uterine Fibroids에 듣는다  <!-- 시험 9건 · 논문 57편 -->
+- [x] intermittent fasting — Diabetes에 듣는다 — 항목 생성(intermittent-fasting-diabetes-pos)(2026-08-06)  <!-- 시험 14건 · 논문 878편 -->
+- [x] intermittent fasting — Metabolic Changes에 듣는다 — 같은 근거(별도 항목 없음; intermittent-fasting-weight-pos)(2026-08-06)  <!-- 시험 12건 · 논문 881편 -->
+- [x] intermittent fasting — Liver Fat에 듣는다 — 항목 생성(intermittent-fasting-liver-fat-pos)(2026-08-06)  <!-- 시험 11건 · 논문 147편 -->
+- [x] intermittent fasting — Weight에 듣는다 — 항목 생성(intermittent-fasting-weight-pos)(2026-08-06)  <!-- 시험 9건 · 논문 1534편 -->
+- [x] sauna — Blood Pressure에 듣는다 — 항목 생성(sauna-blood-pressure-pos)(2026-08-06)  <!-- 시험 4건 · 논문 171편 -->
+- [x] sauna — Heat Stress에 듣는다 — 근거 없음(2026-08-06 조회, sauna AND heat stress; 직접 치료 결과 없음)  <!-- 시험 3건 · 논문 129편 -->
+- [x] sauna — Heart Failure에 듣는다 — 항목 생성(sauna-heart-failure-pos)(2026-08-06)  <!-- 시험 3건 · 논문 79편 -->
+- [x] cold water immersion — Cryotherapy Effect에 듣는다 — 같은 근거(별도 항목 없음; cold-water-immersion-recovery-pos)(2026-08-06)  <!-- 시험 6건 · 논문 225편 -->
+- [x] cold water immersion — Recovery에 듣는다 — 항목 생성(cold-water-immersion-recovery-pos)(2026-08-06)  <!-- 시험 5건 · 논문 616편 -->
+- [x] cold water immersion — Fatigue에 듣는다 — 같은 근거(별도 항목 없음; cold-water-immersion-recovery-pos)(2026-08-06)  <!-- 시험 4건 · 논문 173편 -->
+- [x] compression stockings — Spider Veins에 듣는다 — 근거 없음(2026-08-06 조회, compression stockings AND spider veins; 직접 치료 결과 없음)  <!-- 시험 22건 · 논문 20편 -->
+- [x] compression stockings — Lymphedema에 듣는다 — 항목 생성(compression-stockings-lymphedema-null)(2026-08-06)  <!-- 시험 12건 · 논문 258편 -->
+- [x] compression stockings — Breast Cancer에 듣는다 — 항목 생성(compression-stockings-breast-cancer-pos)(2026-08-06)  <!-- 시험 10건 · 논문 28편 -->
+- [x] compression stockings — Edema에 듣는다 — 근거 없음(2026-08-06 조회, compression stockings AND edema; 직접 치료 결과 없음)  <!-- 시험 9건 · 논문 481편 -->
+- [x] acupuncture — Cancer에 듣는다 — 항목 생성(acupuncture-cancer-pos)(2026-08-06)  <!-- 시험 80건 · 논문 4697편 -->
+- [x] acupuncture — Neuropathy에 듣는다 — 항목 생성(acupuncture-neuropathy-pos)(2026-08-06)  <!-- 시험 20건 · 논문 630편 -->
+- [x] acupuncture — Stroke에 듣는다 — 항목 생성(acupuncture-stroke-pos)(2026-08-06)  <!-- 시험 17건 · 논문 3224편 -->
+- [x] acupuncture — Postoperative Ileus에 듣는다 — 항목 생성(acupuncture-postoperative-ileus-pos)(2026-08-06)  <!-- 시험 16건 · 논문 87편 -->
+- [x] ambrisentan — Systemic Sclerosis에 듣는다 — 항목 생성(ambrisentan-systemic-sclerosis-pos)(2026-08-06)  <!-- 시험 5건 · 논문 38편 -->
+- [x] ambrisentan — Cirrhosis에 듣는다 — 근거 없음(2026-08-06 조회, ambrisentan AND cirrhosis; 등록시험·직접 치료결과 없음)  <!-- 시험 3건 · 논문 47편 -->
+- [x] ciclopirox — Tinea Pedis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 39편 -->
+- [x] clindamycin — Infection에 듣는다 — 허가·표준 항균 용도(2026-08-06)  <!-- 시험 33건 · 논문 11931편 -->
+- [x] clindamycin — Bacterial Vaginosis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 24건 · 논문 333편 -->
+- [x] clindamycin — Infections에 듣는다 — 허가·표준 항균 용도(2026-08-06)  <!-- 시험 12건 · 논문 11931편 -->
+- [x] clindamycin — Abscess에 듣는다 — 허가·표준 피부·연조직 감염 용도(2026-08-06)  <!-- 시험 8건 · 논문 1312편 -->
+- [x] deferiprone — Thalassemia에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 12건 · 논문 766편 -->
+- [x] deferiprone — Anemia, Cooley's에 듣는다 — 허가 적응증(지중해빈혈, 2026-08-06)  <!-- 시험 10건 · 논문 452편 -->
+- [x] deferiprone — Sickle Cell Disease에 듣는다 — 허가·표준 철 과부하 치료(2026-08-06)  <!-- 시험 3건 · 논문 65편 -->
+- [x] deferiprone — Pantothenate Kinase-Associated Neurodegeneration에 듣는다 — 항목 생성(deferiprone-pkan-null)(2026-08-06)  <!-- 시험 3건 · 논문 21편 -->
+- [x] elagolix — Uterine Fibroids에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 57편 -->
 - [ ] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 - [ ] elagolix — Infertility에 듣는다  <!-- 시험 4건 · 논문 31편 -->
 - [ ] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 -->
