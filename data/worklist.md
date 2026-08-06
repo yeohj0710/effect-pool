@@ -11150,23 +11150,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levonorgestrel — Endometrial Polyp에 듣는다  <!-- 시험 22건 · 논문 66편 --> — 항목 생성(levonorgestrel-endometrial-polyp-null)
 - [x] levonorgestrel — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 230편 --> — 항목 생성(levonorgestrel-breast-cancer-open)
 - [x] levonorgestrel — HIV에 듣는다  <!-- 시험 13건 · 논문 211편 --> — 항목 생성(levonorgestrel-hiv-open)
-- [ ] levonorgestrel — Pregnancy에 듣는다  <!-- 시험 13건 · 논문 2241편 -->
-- [ ] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 -->
-- [ ] medroxyprogesterone — HIV에 듣는다  <!-- 시험 11건 · 논문 356편 -->
-- [ ] medroxyprogesterone — Coronary Disease에 듣는다  <!-- 시험 7건 · 논문 305편 -->
-- [ ] medroxyprogesterone — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 879편 -->
-- [ ] permethrin — Pediculosis에 듣는다  <!-- 시험 7건 · 논문 276편 -->
-- [ ] permethrin — Head Lice에 듣는다  <!-- 시험 5건 · 논문 254편 -->
-- [ ] permethrin — Malaria에 듣는다  <!-- 시험 4건 · 논문 847편 -->
-- [ ] permethrin — Tick Bites에 듣는다  <!-- 시험 4건 · 논문 62편 -->
-- [ ] food vouchers — Nutrition에 듣는다  <!-- 시험 6건 · 논문 280편 -->
-- [ ] food vouchers — Breast Feeding에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] food vouchers — Obesity에 듣는다  <!-- 시험 3건 · 논문 49편 -->
-- [ ] food vouchers — Hypertension에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] resistance bands — Cancer에 듣는다  <!-- 시험 14건 · 논문 318편 -->
-- [ ] resistance bands — Diabetes에 듣는다  <!-- 시험 13건 · 논문 61편 -->
-- [ ] resistance bands — Aging에 듣는다  <!-- 시험 12건 · 논문 106편 -->
-- [ ] resistance bands — Obesity에 듣는다  <!-- 시험 11건 · 논문 36편 -->
+- [x] levonorgestrel — Pregnancy에 듣는다  <!-- 시험 13건 · 논문 2241편 --> — 항목 생성(levonorgestrel-pregnancy-null)
+- [x] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 --> — 허가 적응증(2026-08-06)
+- [x] medroxyprogesterone — HIV에 듣는다  <!-- 시험 11건 · 논문 356편 --> — 항목 생성(medroxyprogesterone-hiv-harm)
+- [x] medroxyprogesterone — Coronary Disease에 듣는다  <!-- 시험 7건 · 논문 305편 --> — 항목 생성(medroxyprogesterone-coronary-disease-harm)
+- [x] medroxyprogesterone — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 879편 --> — 항목 생성(medroxyprogesterone-cardiovascular-disease-harm)
+- [x] permethrin — Pediculosis에 듣는다  <!-- 시험 7건 · 논문 276편 --> — 허가 적응증(2026-08-06)
+- [x] permethrin — Head Lice에 듣는다  <!-- 시험 5건 · 논문 254편 --> — 허가 적응증(2026-08-06)
+- [x] permethrin — Malaria에 듣는다  <!-- 시험 4건 · 논문 847편 --> — 항목 생성(permethrin-malaria-pos)
+- [x] permethrin — Tick Bites에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 항목 생성(permethrin-tick-bites-null)
+- [x] food vouchers — Nutrition에 듣는다  <!-- 시험 6건 · 논문 280편 --> — 항목 생성(food-vouchers-nutrition-pos)
+- [x] food vouchers — Breast Feeding에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 항목 생성(food-vouchers-breast-feeding-null)
+- [x] food vouchers — Obesity에 듣는다  <!-- 시험 3건 · 논문 49편 --> — 항목 생성(food-vouchers-obesity-pos)
+- [x] food vouchers — Hypertension에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-06, "food vouchers AND Hypertension")
+- [x] resistance bands — Cancer에 듣는다  <!-- 시험 14건 · 논문 318편 --> — 근거 없음(2026-08-06, "resistance bands AND Cancer")
+- [x] resistance bands — Diabetes에 듣는다  <!-- 시험 13건 · 논문 61편 --> — 항목 생성(resistance-bands-diabetes-pos)
+- [x] resistance bands — Aging에 듣는다  <!-- 시험 12건 · 논문 106편 --> — 항목 생성(resistance-bands-aging-pos)
+- [x] resistance bands — Obesity에 듣는다  <!-- 시험 11건 · 논문 36편 --> — 항목 생성(resistance-bands-obesity-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11177,10 +11177,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] meal delivery — Obesity에 듣는다  <!-- 시험 20건 · 논문 263편 -->
-- [ ] meal delivery — Food Habits에 듣는다  <!-- 시험 16건 · 논문 355편 -->
-- [ ] meal delivery — Heart Failure에 듣는다  <!-- 시험 15건 · 논문 18편 -->
-- [ ] meal delivery — Healthy Diet에 듣는다  <!-- 시험 13건 · 논문 142편 -->
+- [x] meal delivery — Obesity에 듣는다  <!-- 시험 20건 · 논문 263편 --> — 근거 없음(2026-08-06, "meal delivery AND Obesity")
+- [x] meal delivery — Food Habits에 듣는다  <!-- 시험 16건 · 논문 355편 --> — 근거 없음(2026-08-06, "meal delivery AND Food Habits")
+- [x] meal delivery — Heart Failure에 듣는다  <!-- 시험 15건 · 논문 18편 --> — 항목 생성(meal-delivery-heart-failure-open)
+- [x] meal delivery — Healthy Diet에 듣는다  <!-- 시험 13건 · 논문 142편 --> — 항목 생성(meal-delivery-healthy-diet-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11191,15 +11191,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ethosuximide — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 1058편 -->
-- [ ] nevirapine — Tuberculosis에 듣는다  <!-- 시험 9건 · 논문 205편 -->
-- [ ] nevirapine — Pregnancy에 듣는다  <!-- 시험 8건 · 논문 1079편 -->
-- [ ] nevirapine — Acquired Immunodeficiency Syndrome에 듣는다  <!-- 시험 5건 · 논문 309편 -->
-- [ ] nevirapine — AIDS에 듣는다  <!-- 시험 5건 · 논문 2016편 -->
-- [ ] isradipine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 64편 -->
-- [ ] isradipine — Drug Dependence에 듣는다  <!-- 시험 3건 · 논문 81편 -->
-- [ ] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 -->
-- [ ] ephedrine — Cesarean에 듣는다  <!-- 시험 23건 · 논문 618편 -->
+- [x] ethosuximide — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 1058편 --> — 허가 적응증(2026-08-06)
+- [x] nevirapine — Tuberculosis에 듣는다  <!-- 시험 9건 · 논문 205편 --> — 항목 생성(nevirapine-tuberculosis-harm)
+- [x] nevirapine — Pregnancy에 듣는다  <!-- 시험 8건 · 논문 1079편 --> — 항목 생성(nevirapine-pregnancy-harm)
+- [x] nevirapine — Acquired Immunodeficiency Syndrome에 듣는다  <!-- 시험 5건 · 논문 309편 --> — 허가 적응증(2026-08-06)
+- [x] nevirapine — AIDS에 듣는다  <!-- 시험 5건 · 논문 2016편 --> — 허가 적응증(2026-08-06)
+- [x] isradipine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 64편 --> — 항목 생성(isradipine-parkinson-disease-null)
+- [x] isradipine — Drug Dependence에 듣는다  <!-- 시험 3건 · 논문 81편 --> — 항목 생성(isradipine-drug-dependence-open)
+- [x] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 --> — 허가 적응증(2026-08-06)
+- [x] ephedrine — Cesarean에 듣는다  <!-- 시험 23건 · 논문 618편 --> — 항목 생성(ephedrine-cesarean-null)
 - [ ] ephedrine — Obesity에 듣는다  <!-- 시험 8건 · 논문 246편 -->
 - [ ] ephedrine — Rhinitis에 듣는다  <!-- 시험 8건 · 논문 182편 -->
 - [ ] home-based exercise — Exercise에 듣는다  <!-- 시험 9건 · 논문 6550편 -->

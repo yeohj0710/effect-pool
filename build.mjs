@@ -4,11 +4,22 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readPermitManifest } from "./tools/kr-drug-data-reader.mjs";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(root, "data");
 const entryDir = join(dataDir, "entries");
 const outDir = join(root, "site");
+
+const permitManifest = await readPermitManifest();
+if (
+  permitManifest.recordCount !== 42971 ||
+  permitManifest.sourceSnapshot?.status !== "parsed" ||
+  permitManifest.candidateOnly !== true ||
+  permitManifest.clinicalUseProhibited !== true
+) {
+  throw new Error("MFDS permit catalog manifest is incomplete or unsafe");
+}
 
 const meta = JSON.parse(readFileSync(join(dataDir, "meta.json"), "utf8"));
 
