@@ -11295,3 +11295,60 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] intermittent fasting — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 28편 -->
 - [ ] intermittent fasting — Overweight에 듣는다  <!-- 시험 5건 · 논문 736편 -->
 - [ ] intermittent fasting — Hypertension에 듣는다  <!-- 시험 5건 · 논문 173편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acetaminophen — Lymphoma에 듣는다  <!-- 시험 11건 · 논문 105편 -->
+- [ ] acetaminophen — Cancer에 듣는다  <!-- 시험 11건 · 논문 2298편 -->
+- [ ] acetaminophen — Nausea에 듣는다  <!-- 시험 9건 · 논문 1280편 -->
+- [ ] adenosine — Leukemia에 듣는다  <!-- 시험 6건 · 논문 7094편 -->
+- [ ] adenosine — Atrial Fibrillation에 듣는다  <!-- 시험 4건 · 논문 846편 -->
+- [ ] adenosine — Cough에 듣는다  <!-- 시험 3건 · 논문 300편 -->
+- [ ] allopurinol — Uric Acid에 듣는다  <!-- 시험 6건 · 논문 3288편 -->
+- [ ] allopurinol — Renal Function에 듣는다  <!-- 시험 6건 · 논문 1594편 -->
+- [ ] allopurinol — Multiple Myeloma에 듣는다  <!-- 시험 5건 · 논문 42편 -->
+- [ ] apixaban — Cancer에 듣는다  <!-- 시험 20건 · 논문 714편 -->
+- [ ] apixaban — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 340편 -->
+- [ ] apixaban — Bleeding에 듣는다  <!-- 시험 13건 · 논문 4077편 -->
+- [ ] apixaban — Aortic Stenosis에 듣는다  <!-- 시험 13건 · 논문 30편 -->
+- [ ] atorvastatin — Dyslipidemias에 듣는다  <!-- 시험 16건 · 논문 2990편 -->
+- [ ] atorvastatin — Angina에 듣는다  <!-- 시험 12건 · 논문 344편 -->
+- [ ] atorvastatin — Inflammation에 듣는다  <!-- 시험 10건 · 논문 1399편 -->
+- [ ] atorvastatin — Platelet Dysfunction에 듣는다  <!-- 시험 9건 · 논문 58편 -->
+- [ ] celecoxib — Arthritis에 듣는다  <!-- 시험 17건 · 논문 1363편 -->
+- [ ] celecoxib — Colon Neoplasm에 듣는다  <!-- 시험 15건 · 논문 227편 -->
+- [ ] celecoxib — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 62편 -->
+- [ ] chlorhexidine — Catheter에 듣는다  <!-- 시험 16건 · 논문 1064편 -->
+- [ ] chlorhexidine — Tooth Loss에 듣는다  <!-- 시험 13건 · 논문 216편 -->
+- [ ] chlorhexidine — Caries에 듣는다  <!-- 시험 12건 · 논문 1348편 -->
+- [ ] chlorhexidine — Colonization에 듣는다  <!-- 시험 12건 · 논문 1133편 -->
+- [ ] aquatic exercise — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 66편 -->
+- [ ] aquatic exercise — Aging에 듣는다  <!-- 시험 5건 · 논문 133편 -->
+- [ ] aquatic exercise — Exercise에 듣는다  <!-- 시험 4건 · 논문 3075편 -->
+- [ ] aquatic therapy — Obesity에 듣는다  <!-- 시험 4건 · 논문 98편 -->
+- [ ] aquatic therapy — Parkinson Disease에 듣는다  <!-- 시험 4건 · 논문 91편 -->
+- [ ] balance training — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 704편 -->
+- [ ] balance training — Parkinson에 듣는다  <!-- 시험 4건 · 논문 1481편 -->
+- [ ] balance training — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 368편 -->
+- [ ] balance training — ADHD에 듣는다  <!-- 시험 4건 · 논문 178편 -->
+- [ ] compression stockings — Vascular Diseases에 듣는다  <!-- 시험 4건 · 논문 2274편 -->
+- [ ] compression stockings — Sleep Disorder에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [ ] breathing exercises — COPD에 듣는다  <!-- 시험 4건 · 논문 870편 -->
+- [ ] breathing exercises — Stress에 듣는다  <!-- 시험 4건 · 논문 735편 -->
+- [ ] breathing exercises — Lung Disease에 듣는다  <!-- 시험 4건 · 논문 2126편 -->
+- [ ] breathing exercises — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 164편 -->
+- [ ] dance therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 149편 -->
+- [ ] dance therapy — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 444편 -->
+- [ ] dance therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 856편 -->
+- [ ] dance therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 85편 -->
+- [ ] mindfulness — Mental Health에 듣는다  <!-- 시험 28건 · 논문 8497편 -->
+- [ ] mindfulness — Psychological에 듣는다  <!-- 시험 22건 · 논문 11830편 -->
+- [ ] mindfulness — Depressive에 듣는다  <!-- 시험 17건 · 논문 7140편 -->
+- [ ] mindfulness — Burnout에 듣는다  <!-- 시험 14건 · 논문 1458편 -->
