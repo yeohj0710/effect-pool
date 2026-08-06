@@ -12711,3 +12711,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] blue light therapy — Actinic Keratosis에 듣는다  <!-- 시험 13건 · 논문 962편 --> — 허가 적응증(2026-08-06)
 - [x] blue light therapy — Wound Infection에 듣는다  <!-- 시험 10건 · 논문 747편 --> — 항목 생성(blue-light-therapy-wound-infection-animal-pos)
 - [x] blue light therapy — Bipolar에 듣는다  <!-- 시험 9건 · 논문 242편 --> — 항목 생성(blue-light-therapy-bipolar-null)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] narrative exposure therapy — Substance Use에 듣는다  <!-- 시험 8건 · 논문 81편 --> — 항목 생성(narrative-exposure-therapy-substance-use-pos)
+- [x] narrative exposure therapy — Depression에 듣는다  <!-- 시험 5건 · 논문 198편 --> — 항목 생성(narrative-exposure-therapy-depression-pos)
+- [x] narrative exposure therapy — PTSD에 듣는다  <!-- 시험 4건 · 논문 340편 --> — 항목 생성(narrative-exposure-therapy-ptsd-pos)
+- [x] narrative exposure therapy — Aggressive Behavior에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(narrative-exposure-therapy-aggressive-behavior-pos)
+- [x] autogenic — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 5건 · 논문 26편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] autogenic — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 93편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] autogenic — Cancer에 듣는다  <!-- 시험 5건 · 논문 1373편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] training — Family Health에 듣는다  <!-- 시험 16건 · 논문 179775편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] training — Cancer에 듣는다  <!-- 시험 14건 · 논문 315526편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] training — Motor Activity에 듣는다  <!-- 시험 13건 · 논문 130150편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] training — Muscle Power에 듣는다  <!-- 시험 13건 · 논문 10395편 --> — 분리 오류(2026-08-06, 정확한 이름은 "autogenic training")
+- [x] progressive relaxation — Pain에 듣는다  <!-- 시험 38건 · 논문 533편 --> — 항목 생성(progressive-relaxation-pain-pos)
+- [x] progressive relaxation — Stress에 듣는다  <!-- 시험 34건 · 논문 802편 --> — 항목 생성(progressive-relaxation-stress-pos)
+- [x] progressive relaxation — Cancer에 듣는다  <!-- 시험 23건 · 논문 269편 --> — 항목 생성(progressive-relaxation-cancer-pos)
+- [x] progressive relaxation — Sleep에 듣는다  <!-- 시험 20건 · 논문 301편 --> — 항목 생성(progressive-relaxation-sleep-pos)
+- [x] dance movement psychotherapy — Dementia에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 항목 생성(dance-movement-psychotherapy-dementia-null)
+- [x] dance movement psychotherapy — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-06, "dance movement psychotherapy AND Chronic Pain")
+- [x] clown therapy — Subjective Stress에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(clown-therapy-subjective-stress-open)
