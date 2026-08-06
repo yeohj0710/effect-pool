@@ -12415,10 +12415,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality therapy — Stroke에 듣는다  <!-- 시험 58건 · 논문 1115편 --> — 항목 생성(2026-08-06)
 - [x] virtual reality therapy — Cancer에 듣는다  <!-- 시험 30건 · 논문 480편 --> — 항목 생성(2026-08-06)
 - [x] virtual reality therapy — Music Therapy에 듣는다  <!-- 시험 18건 · 논문 221편 --> — 근거 없음(2026-08-06, virtual reality therapy AND Music Therapy; 등록시험 결과 미공개)
-- [ ] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 -->
-- [ ] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 -->
-- [ ] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 -->
-- [ ] belumosudil — Lung Diseases에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [x] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 --> — 허가 적응증(2026-08-06)
+- [x] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 허가 적응증(2026-08-06)
+- [x] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 허가 적응증(2026-08-06)
+- [x] belumosudil — Lung Diseases에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12429,18 +12429,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] wellness coaching — Obesity에 듣는다  <!-- 시험 3건 · 논문 1247편 -->
-- [ ] abatacept — T-cell Lymphoma에 듣는다  <!-- 시험 16건 · 논문 30편 -->
-- [ ] abatacept — Graft Vs Host Disease에 듣는다  <!-- 시험 13건 · 논문 118편 -->
-- [ ] abatacept — Lupus Nephritis에 듣는다  <!-- 시험 8건 · 논문 65편 -->
-- [ ] icatibant — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 33편 -->
-- [ ] lanadelumab — COVID-19에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] eculizumab — Atypical Hemolytic Uremic에 듣는다  <!-- 시험 13건 · 논문 1112편 -->
-- [ ] eculizumab — Kidney Failure에 듣는다  <!-- 시험 13건 · 논문 461편 -->
-- [ ] eculizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 11건 · 논문 276편 -->
-- [ ] eculizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 268편 -->
-- [ ] difelikefalin — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 41편 -->
-- [ ] letermovir — HIV Infections에 듣는다  <!-- 시험 21건 · 논문 12편 -->
-- [ ] letermovir — Lung Transplant에 듣는다  <!-- 시험 14건 · 논문 36편 -->
-- [ ] letermovir — Acute Myeloid Leukemia에 듣는다  <!-- 시험 13건 · 논문 17편 -->
-- [ ] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 -->
+- [x] wellness coaching — Obesity에 듣는다  <!-- 시험 3건 · 논문 1247편 --> — 항목 생성(2026-08-06)
+- [x] abatacept — T-cell Lymphoma에 듣는다  <!-- 시험 16건 · 논문 30편 --> — 근거 없음(2026-08-06, abatacept AND T-cell Lymphoma)
+- [x] abatacept — Graft Vs Host Disease에 듣는다  <!-- 시험 13건 · 논문 118편 --> — 허가 적응증(2026-08-06)
+- [x] abatacept — Lupus Nephritis에 듣는다  <!-- 시험 8건 · 논문 65편 --> — 항목 생성(2026-08-06)
+- [x] icatibant — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 항목 생성(2026-08-06)
+- [x] lanadelumab — COVID-19에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목 생성(2026-08-06)
+- [x] eculizumab — Atypical Hemolytic Uremic에 듣는다  <!-- 시험 13건 · 논문 1112편 --> — 허가 적응증(2026-08-06)
+- [x] eculizumab — Kidney Failure에 듣는다  <!-- 시험 13건 · 논문 461편 --> — 근거 없음(2026-08-06, eculizumab AND Kidney Failure; aHUS 문헌은 일반 신부전 결과에서 제외)
+- [x] eculizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 11건 · 논문 276편 --> — 허가 적응증(2026-08-06)
+- [x] eculizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 268편 --> — 허가 적응증(2026-08-06)
+- [x] difelikefalin — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 허가 적응증(2026-08-06)
+- [x] letermovir — HIV Infections에 듣는다  <!-- 시험 21건 · 논문 12편 --> — 근거 없음(2026-08-06, letermovir AND HIV Infections; CIAO 시험은 결과 미공개)
+- [x] letermovir — Lung Transplant에 듣는다  <!-- 시험 14건 · 논문 36편 --> — 항목 생성(2026-08-06)
+- [x] letermovir — Acute Myeloid Leukemia에 듣는다  <!-- 시험 13건 · 논문 17편 --> — 근거 없음(2026-08-06, letermovir AND Acute Myeloid Leukemia; 조혈모세포 이식 예방 문헌은 AML 치료 결과에서 제외)
+- [x] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 --> — 허가 적응증(2026-08-06)
