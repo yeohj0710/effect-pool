@@ -1,50 +1,69 @@
 {
   "updated": "2026-08-06",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 2611,
+  "entries": 2634,
   "worklist": {
-    "checked": 11066,
-    "unchecked": 0,
-    "no_evidence_pending": 320,
-    "next_batch": []
+    "checked": 11096,
+    "unchecked": 19,
+    "no_evidence_pending": 327,
+    "next_batch": [
+      "sleep coaching program — Stress",
+      "family support program — Obesity",
+      "family support program — Health Behavior",
+      "family support program — Parenting",
+      "family support program — Premature Birth",
+      "behavioral counseling — Obesity",
+      "behavioral counseling — Smoking",
+      "behavioral counseling — Alcohol Abuse",
+      "behavioral counseling — Opioid Use",
+      "care navigation — HIV",
+      "care navigation — Drug Use",
+      "care navigation — Depression",
+      "care navigation — Pain",
+      "self-management program — Pain",
+      "self-management program — Arthritis",
+      "self-management program — Osteoarthritis",
+      "self-management program — Obstructive Sleep Apnea",
+      "dexpramipexole — Amyotrophic Lateral Sclerosis"
+    ]
   },
   "verification": {
-    "build": "passed with expected legacy unknown-n/thin warnings; batch 132 added no evidence entries and closed 4 malformed alfa candidates after two expansion attempts; no new line/effect/known warnings",
+    "build": "passed; batch 133 added 23 evidence entries and closed 7 no-evidence topics; 2 new unknown-n warnings remain because the source abstracts omit total participants, and one truthful thin-study warning remains",
     "line_warnings": 0,
-    "unknown_n_warnings": 262,
-    "known_warnings": 1,
+    "unknown_n_warnings": 264,
+    "known_warnings": 0,
     "tier_distribution": {
-      "trial": 2288,
+      "trial": 2311,
       "obs": 269,
       "animal": 19,
       "lab": 9,
       "case": 26
     },
-    "no_effect_or_harm": 702,
+    "no_effect_or_harm": 705,
     "harm": 97,
     "no_effect_or_harm_share": "27%",
-    "connected_evidence": 3909,
-    "thin_warnings": 403
+    "connected_evidence": 3932,
+    "thin_warnings": 404
   },
   "deployment": {
-    "last_entry_count": 2611,
+    "last_entry_count": 2634,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_F7ESYVTwMGC83d7ZQyaP9KbdLWAk",
-    "deployment_state": "local build has 2611 entries; production alias remains at the last verified 2574 entries until the next six-round prebuilt deployment",
+    "deployment_state": "local build has 2634 entries; production alias remains at the last verified 2574 entries until the six-round check after batches 128-133",
     "deployment_url": "https://offlabel-pool-jm8ihqnqn-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-06",
-    "local_entry_count": 2611,
+    "local_entry_count": 2634,
     "public_entry_count": 2574,
     "public_id_field_count": 2574,
     "counts_match": false,
-    "latest_note": "Batch 132 local build has 2611 entries; production remains at 2574 until the next six-round deployment verification. The Git-triggered remote build cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
+    "latest_note": "Batch 133 local build has 2634 entries; production remains at 2574 until the six-round deployment verification. The Git-triggered remote build cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
   "last_batch": [
-    "created 0 evidence entries from 4 processed topics",
-    "the first expansion added 0 candidates and the second different expansion added 4; no third attempt was made",
-    "all 4 candidates were malformed alfa lines caused by passing the spaced name sebelipase alfa without quotes; they were closed without API searches",
-    "build passed with no new line/effect/known warnings; no new entry count change; next batch will change the name-selection branch"
+    "created 23 evidence entries from 30 processed topics",
+    "closed 7 no-evidence topics with dated ClinicalTrials.gov and PubMed search records; no approved indications were skipped",
+    "the first expansion added 49 candidates from 20 quoted names, including 15 non-drug options; no second expansion was needed",
+    "build passed with no new line/effect/known warnings; local count is 2634 and 19 unchecked topics remain; six-round deployment check is next"
   ],
   "expansion": {
     "date": "2026-08-06",
@@ -1218,9 +1237,9 @@
     "deployment_command": "vercel build --prod --yes; vercel deploy --prebuilt --prod --yes; production alias verified at 2574 entries; Git-triggered remote build could not access C:\\dev\\kr-drug-data/permit/manifest.json"
   },
   "legacy_wording": {
-    "fixed_this_batch": 2,
+    "fixed_this_batch": 0,
     "remaining": 0,
-    "note": "No legacy wording warning remained after the previous 20-item cleanup; this batch kept all existing numbers and sentences unchanged."
+    "note": "No legacy wording warning remained; this batch kept all existing numbers and sentences unchanged."
   },
   "history": [
     "batch 113: 18 evidence entries added; 12 no-evidence topics closed; 0 approved indications skipped; 4 unchecked topics remain",
@@ -1257,8 +1276,9 @@
     "batch 131 expansion: first attempt added 8; second different attempt added 12 candidates from 20 supplied names, including 10 non-drug options; no third attempt was made",
     "batch 131: 8 evidence entries added; 9 no-evidence topics closed; 3 approved indications skipped; 0 unchecked topics remain",
     "batch 132 expansion: first attempt added 0; second different attempt added 4 malformed candidates; no third attempt was made",
-    "batch 132: 0 evidence entries added; 4 malformed candidates closed; 0 unchecked topics remain"
+    "batch 132: 0 evidence entries added; 4 malformed candidates closed; 0 unchecked topics remain",
+    "batch 133: 23 evidence entries added; 7 no-evidence topics closed; 0 approved indications skipped; 19 unchecked topics remain"
   ],
-  "current_batch": "batch 132 completed; 0 evidence entries added; 4 malformed candidates closed; 0 unchecked topics remain",
-  "next_action": "start batch 133 with git pull --ff-only and read AGENTS.md; count 0 unchecked topics, then use a changed non-cancer name-selection branch for the required expansion"
+  "current_batch": "batch 133 completed; 23 evidence entries added; 7 no-evidence topics closed; 19 unchecked topics remain",
+  "next_action": "run six-round deployment verification for batches 128-133, then start batch 134 with git pull --ff-only and read AGENTS.md; count 19 unchecked topics and expand before processing"
 }
