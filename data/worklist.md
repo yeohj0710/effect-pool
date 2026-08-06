@@ -11462,3 +11462,65 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] pilates — Balance에 듣는다  <!-- 시험 14건 · 논문 271편 -->
 - [ ] pilates — Healthy Lifestyle에 듣는다  <!-- 시험 13건 · 논문 14편 -->
 - [ ] pilates — Urinary Incontinence에 듣는다  <!-- 시험 12건 · 논문 33편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] enalapril — Postpartum에 듣는다  <!-- 시험 5건 · 논문 18편 -->
+- [ ] enalapril — Cancer에 듣는다  <!-- 시험 4건 · 논문 214편 -->
+- [ ] enalapril — Chagas Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] enalapril — IGA Nephropathy에 듣는다  <!-- 시험 4건 · 논문 50편 -->
+- [ ] eplerenone — Hyperaldosteronism에 듣는다  <!-- 시험 3건 · 논문 141편 -->
+- [ ] eplerenone — Left Ventricular Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 66편 -->
+- [ ] eplerenone — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 61편 -->
+- [ ] finerenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 306편 -->
+- [ ] finerenone — Albuminuria에 듣는다  <!-- 시험 3건 · 논문 218편 -->
+- [ ] finerenone — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 160편 -->
+- [ ] finerenone — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 423편 -->
+- [ ] irbesartan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 240편 -->
+- [ ] irbesartan — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 269편 -->
+- [ ] linagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 4건 · 논문 20편 -->
+- [ ] linagliptin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 69편 -->
+- [ ] linagliptin — Coronavirus에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] liraglutide — Fatty Liver에 듣는다  <!-- 시험 9건 · 논문 303편 -->
+- [ ] liraglutide — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 1648편 -->
+- [ ] liraglutide — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 222편 -->
+- [ ] liraglutide — Diabetic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 142편 -->
+- [ ] sitagliptin — Cardiovascular Risk에 듣는다  <!-- 시험 6건 · 논문 367편 -->
+- [ ] sitagliptin — Insulin Secretion에 듣는다  <!-- 시험 5건 · 논문 331편 -->
+- [ ] sitagliptin — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 19편 -->
+- [ ] telmisartan — Diabetic Nephropathy에 듣는다  <!-- 시험 7건 · 논문 166편 -->
+- [ ] telmisartan — Hyperlipidemia에 듣는다  <!-- 시험 6건 · 논문 39편 -->
+- [ ] telmisartan — COVID-19에 듣는다  <!-- 시험 6건 · 논문 38편 -->
+- [ ] telmisartan — Covid19에 듣는다  <!-- 시험 4건 · 논문 37편 -->
+- [ ] valsartan — Myocardial Injury에 듣는다  <!-- 시험 12건 · 논문 113편 -->
+- [ ] valsartan — Ventricular Remodeling에 듣는다  <!-- 시험 12건 · 논문 414편 -->
+- [ ] valsartan — Obesity에 듣는다  <!-- 시험 8건 · 논문 174편 -->
+- [ ] valsartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 2041편 -->
+- [ ] water aerobics — Aging에 듣는다  <!-- 시험 4건 · 논문 1116편 -->
+- [ ] nature therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 3302편 -->
+- [ ] nature therapy — Loneliness에 듣는다  <!-- 시험 3건 · 논문 128편 -->
+- [ ] nature therapy — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 552편 -->
+- [ ] nature therapy — Mental Health에 듣는다  <!-- 시험 3건 · 논문 7080편 -->
+- [ ] relaxation training — Stress에 듣는다  <!-- 시험 23건 · 논문 6694편 -->
+- [ ] relaxation training — Cancer에 듣는다  <!-- 시험 18건 · 논문 3193편 -->
+- [ ] relaxation training — Depression에 듣는다  <!-- 시험 12건 · 논문 3326편 -->
+- [ ] relaxation training — Neck Pain에 듣는다  <!-- 시험 11건 · 논문 256편 -->
+- [ ] stress management — Depression에 듣는다  <!-- 시험 13건 · 논문 18331편 -->
+- [ ] stress management — Anxiety에 듣는다  <!-- 시험 13건 · 논문 17137편 -->
+- [ ] stress management — Pregnancy에 듣는다  <!-- 시험 7건 · 논문 5653편 -->
+- [ ] stress management — Mental Health에 듣는다  <!-- 시험 7건 · 논문 21982편 -->
+- [ ] exercise snacks — Sedentary Time에 듣는다  <!-- 시험 10건 · 논문 244편 -->
+- [ ] exercise snacks — Diabetes에 듣는다  <!-- 시험 10건 · 논문 210편 -->
+- [ ] exercise snacks — Physical Activity에 듣는다  <!-- 시험 8건 · 논문 1595편 -->
+- [ ] exercise snacks — Muscle Power에 듣는다  <!-- 시험 7건 · 논문 12편 -->
+- [ ] guided breathing — Cancer에 듣는다  <!-- 시험 18건 · 논문 1927편 -->
+- [ ] guided breathing — Pain에 듣는다  <!-- 시험 17건 · 논문 816편 -->
+- [ ] guided breathing — Mechanical Power에 듣는다  <!-- 시험 15건 · 논문 78편 -->
+- [ ] guided breathing — Surgery에 듣는다  <!-- 시험 12건 · 논문 2557편 -->
