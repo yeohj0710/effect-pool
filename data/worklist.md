@@ -12536,3 +12536,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] treadmill training — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 241편 -->
 - [x] treadmill training — Spinal Cord Injury에 듣는다  <!-- 시험 13건 · 논문 729편 -->
 - [x] remibrutinib — Chronic Inducible Urticaria에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mindfulness retreat — Cancer에 듣는다  <!-- 시험 12건 · 논문 11편 -->
+- [x] mindfulness retreat — Depression에 듣는다  <!-- 시험 11건 · 논문 33편 -->
+- [x] mindfulness retreat — Anxiety에 듣는다  <!-- 시험 10건 · 논문 36편 -->
+- [x] mindfulness retreat — Pain에 듣는다  <!-- 시험 9건 · 논문 18편 -->
+- [x] bimekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 18건 · 논문 48편 --> — 허가 적응증(2026-08-06)
+- [x] bimekizumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 6건 · 논문 98편 --> — 허가 적응증(2026-08-06)
+- [x] bimekizumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 44편 --> — 허가 적응증(2026-08-06)
+- [x] bimekizumab — Axial Spondyloarthritis에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 허가 적응증(2026-08-06)
+- [x] depemokimab — Nasal Polyps에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] remimazolam — Sedation에 듣는다  <!-- 시험 37건 · 논문 704편 --> — 허가 적응증(2026-08-06)
+- [x] remimazolam — Surgery에 듣는다  <!-- 시험 22건 · 논문 804편 -->
+- [x] remimazolam — Delirium에 듣는다  <!-- 시험 16건 · 논문 155편 -->
+- [x] remimazolam — Elderly Patients에 듣는다  <!-- 시험 14건 · 논문 514편 -->

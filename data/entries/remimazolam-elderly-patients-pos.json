@@ -1,0 +1,30 @@
+{
+  "id": "remimazolam-elderly-patients-pos",
+  "subj": "remimazolam",
+  "claim": "노인 전신마취에서 레미마졸람을 프로포폴 대신 쓴다",
+  "line": "노인 전신마취에서 레미마졸람은 저혈압과 서맥이 적었습니다",
+  "effect": "저혈압 RR 0.41·서맥 RR 0.58",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 947,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "FDA 라벨의 레미마졸람 허가는 30분 이하 성인 시술의 진정이며 노인 전신마취는 허가 적응증이 아닙니다",
+  "why": "60세 이상 노인의 레미마졸람과 프로포폴 전신마취를 비교한 무작위시험 11개, 947명을 메타분석했습니다.",
+  "saw": "프로포폴과 비교해 레미마졸람의 유도 후·수술 중 저혈압 위험은 RR 0.41, 서맥 위험은 RR 0.58로 낮았고 각성흥분은 차이가 없었습니다.",
+  "limit": "레미마졸람군의 의식소실까지 시간이 더 길었고 연구마다 용량·마취방법이 달랐습니다.",
+  "against": "80세 이상 87명 무작위시험에서는 유도 후 저혈압이 레미마졸람 72.1%, 프로포폴 72.7%로 차이가 없었습니다.",
+  "use": "노인 수술에서 저혈압을 줄일 필요가 있을 때 대안으로 검토하되, 회복시간과 개별 혈역학을 함께 감시합니다.",
+  "refs": [
+    { "label": "remimazolam versus propofol elderly general anesthesia meta-analysis", "doi": "10.1097/EJA.0000000000002042", "pmid": "39069837" },
+    { "label": "remimazolam geriatric induction hypotension randomized trial", "doi": "10.1016/j.bja.2024.04.013", "pmid": "38777646" },
+    { "label": "remimazolam elderly safety meta-analysis", "doi": "10.3389/fmed.2025.1409495", "pmid": "39991057" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "remimazolam AND Elderly Patients · 25건 중 21건 직접 확인",
+    "pubmed": "remimazolam AND Elderly Patients AND (randomized OR trial OR meta-analysis) · 372건",
+    "negative": "remimazolam AND Elderly Patients AND (no effect OR did not OR failed OR negative OR no significant difference) · 443건",
+    "safety": "remimazolam AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 757건"
+  }
+}
