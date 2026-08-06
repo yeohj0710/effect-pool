@@ -12306,3 +12306,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] snoezelen — Autism에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 - [x] cotadutide — Non-alcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 11편 -->
 - [x] bimagrumab — Sporadic Inclusion Body Myositis에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] cognitive bias modification — Depression에 듣는다  <!-- 시험 12건 · 논문 319편 -->
+- [ ] cognitive bias modification — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 14편 -->
+- [ ] cognitive bias modification — Obsessive Thoughts에 듣는다  <!-- 시험 8건 · 논문 11편 -->
+- [ ] cognitive bias modification — Psychotic Disorders에 듣는다  <!-- 시험 8건 · 논문 12편 -->
+- [ ] emotion regulation training — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1766편 -->
+- [ ] emotion regulation training — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 102편 -->
+- [ ] emotion regulation training — Stress에 듣는다  <!-- 시험 6건 · 논문 2176편 -->
+- [ ] emotion regulation training — Depressive Symptom에 듣는다  <!-- 시험 5건 · 논문 1622편 -->
+- [ ] parent-child interaction therapy — Oppositional Defiant Disorder에 듣는다  <!-- 시험 3건 · 논문 83편 -->
+- [ ] parent-child interaction therapy — Conduct Disorder에 듣는다  <!-- 시험 3건 · 논문 175편 -->
+- [ ] parent-child interaction therapy — Child Abuse에 듣는다  <!-- 시험 3건 · 논문 1121편 -->
+- [ ] parent-child interaction therapy — Family Conflict에 듣는다  <!-- 시험 3건 · 논문 656편 -->
+- [ ] behavioral couples therapy — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 71편 -->
+- [ ] behavioral couples therapy — Erectile Dysfunction에 듣는다  <!-- 시험 3건 · 논문 195편 -->
+- [ ] mindfulness-based relapse prevention — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 74편 -->
+- [ ] mindfulness-based relapse prevention — Depression에 듣는다  <!-- 시험 5건 · 논문 235편 -->
+- [ ] mindfulness-based relapse prevention — Alcohol Drinking에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] reflexology — Fatigue에 듣는다  <!-- 시험 9건 · 논문 535편 -->
+- [ ] reflexology — Anxiety에 듣는다  <!-- 시험 9건 · 논문 968편 -->
+- [ ] reflexology — Sleep에 듣는다  <!-- 시험 7건 · 논문 675편 -->
+- [ ] reflexology — Nursing에 듣는다  <!-- 시험 6건 · 논문 2390편 -->
+- [ ] acoramidis — Amyloid Cardiomyopathy에 듣는다  <!-- 시험 9건 · 논문 90편 -->
+- [ ] acoramidis — Cardiomyopathies에 듣는다  <!-- 시험 3건 · 논문 99편 -->
+- [ ] acoramidis — Heart Disease에 듣는다  <!-- 시험 3건 · 논문 77편 -->
+- [ ] inotersen — Familial Amyloid Polyneuropathy에 듣는다  <!-- 시험 3건 · 논문 97편 -->
+- [ ] filgotinib — Ulcerative Colitis에 듣는다  <!-- 시험 7건 · 논문 168편 -->
+- [ ] filgotinib — Crohn's Disease에 듣는다  <!-- 시험 6건 · 논문 93편 -->
+- [ ] filgotinib — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
