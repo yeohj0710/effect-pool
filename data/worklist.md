@@ -12739,3 +12739,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dance movement psychotherapy — Dementia에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 항목 생성(dance-movement-psychotherapy-dementia-null)
 - [x] dance movement psychotherapy — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-06, "dance movement psychotherapy AND Chronic Pain")
 - [x] clown therapy — Subjective Stress에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(clown-therapy-subjective-stress-open)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] compassion focused therapy — Distress, Emotional에 듣는다 — 근거 없음(2026-08-06, "compassion focused therapy AND Distress, Emotional")  <!-- 시험 7건 · 논문 160편 -->
+- [x] compassion focused therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 254편 -->
+- [x] compassion focused therapy — Anxiety에 듣는다 — 근거 없음(2026-08-06, "compassion focused therapy AND Anxiety")  <!-- 시험 6건 · 논문 216편 -->
+- [x] compassion focused therapy — Autism에 듣는다 — 근거 없음(2026-08-06, "compassion focused therapy AND Autism")  <!-- 시험 5건 · 논문 31편 -->
+- [x] emotion focused therapy — Depression에 듣는다  <!-- 시험 12건 · 논문 475편 -->
+- [x] emotion focused therapy — Stress Disorder에 듣는다  <!-- 시험 12건 · 논문 232편 -->
+- [x] emotion focused therapy — Child Welfare에 듣는다 — 근거 없음(2026-08-06, "emotion focused therapy AND Child Welfare")  <!-- 시험 11건 · 논문 10편 -->
+- [x] emotion focused therapy — Trauma에 듣는다  <!-- 시험 9건 · 논문 220편 -->
+- [x] mentalization based therapy — Behavior Problem에 듣는다 — 근거 없음(2026-08-06, "mentalization based therapy AND Behavior Problem")  <!-- 시험 4건 · 논문 19편 -->
+- [x] mentalization based therapy — Mental Illness에 듣는다  <!-- 시험 3건 · 논문 319편 -->
+- [x] solution focused brief therapy — Perceived Stress에 듣는다  <!-- 시험 3건 · 논문 164편 -->
+- [x] self compassion training — Mindfulness에 듣는다  <!-- 시험 7건 · 논문 825편 -->
+- [x] self compassion training — Distress에 듣는다  <!-- 시험 6건 · 논문 347편 -->
+- [x] self compassion training — Mental Health에 듣는다 — 근거 없음(2026-08-06, "self compassion training AND Mental Health")  <!-- 시험 5건 · 논문 796편 -->
+- [x] self compassion training — Type 1 Diabetes에 듣는다 — 근거 없음(2026-08-06, "self compassion training AND Type 1 Diabetes")  <!-- 시험 5건 · 논문 9편 -->
+- [x] photovoice — Education에 듣는다  <!-- 시험 3건 · 논문 561편 -->
+- [x] storytelling intervention — Cancer에 듣는다  <!-- 시험 8건 · 논문 214편 -->
+- [x] storytelling intervention — HIV에 듣는다  <!-- 시험 6건 · 논문 76편 -->
+- [x] storytelling intervention — Anxiety에 듣는다  <!-- 시험 5건 · 논문 114편 -->
+- [x] mindful self compassion — Anxiety에 듣는다  <!-- 시험 17건 · 논문 581편 -->
+- [x] mindful self compassion — Self Harm에 듣는다 — 근거 없음(2026-08-06, "mindful self compassion AND Self Harm")  <!-- 시험 11건 · 논문 44편 -->
+- [x] mindful self compassion — Mental Health에 듣는다  <!-- 시험 9건 · 논문 681편 -->
+- [x] mindful self compassion — Depressive에 듣는다  <!-- 시험 8건 · 논문 665편 -->
+- [x] behavioral activation therapy — Depressive Symptoms에 듣는다  <!-- 시험 41건 · 논문 37018편 -->
+- [x] behavioral activation therapy — Anxiety에 듣는다  <!-- 시험 36건 · 논문 22839편 -->
+- [x] behavioral activation therapy — Stress에 듣는다 — 근거 없음(2026-08-06, "behavioral activation therapy" AND Stress)  <!-- 시험 24건 · 논문 36501편 -->
+- [x] behavioral activation therapy — Opioid Use에 듣는다  <!-- 시험 17건 · 논문 6803편 -->
