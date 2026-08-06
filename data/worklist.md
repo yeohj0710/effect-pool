@@ -11427,36 +11427,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] amiodarone — Chagas Cardiomyopathy에 듣는다  <!-- 시험 3건 · 논문 65편 -->
-- [ ] diltiazem — Supraventricular Tachycardia (SVT)에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] diltiazem — Myocardial Bridging에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] hydralazine — Preeclampsia에 듣는다  <!-- 시험 3건 · 논문 349편 -->
-- [ ] lisinopril — Kidney Disease에 듣는다  <!-- 시험 6건 · 논문 550편 -->
-- [ ] lisinopril — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 1882편 -->
-- [ ] lisinopril — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 161편 -->
-- [ ] lisinopril — Becker Muscular Dystrophy에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] metoprolol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 411편 -->
-- [ ] metoprolol — CT Angiography에 듣는다  <!-- 시험 9건 · 논문 84편 -->
-- [ ] metoprolol — Chronic Obstructive Airway Disease에 듣는다  <!-- 시험 8건 · 논문 72편 -->
-- [ ] metoprolol — Cardiac Output에 듣는다  <!-- 시험 7건 · 논문 553편 -->
-- [ ] nicardipine — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 337편 -->
-- [ ] nicardipine — Vasospasm에 듣는다  <!-- 시험 4건 · 논문 260편 -->
-- [ ] nicardipine — Hypertensive Crisis에 듣는다  <!-- 시험 3건 · 논문 55편 -->
-- [ ] laughter therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 133편 -->
-- [ ] meditation — Sleep에 듣는다  <!-- 시험 10건 · 논문 1024편 -->
-- [ ] meditation — Psychological에 듣는다  <!-- 시험 9건 · 논문 3867편 -->
-- [ ] meditation — Mental Health에 듣는다  <!-- 시험 8건 · 논문 2363편 -->
-- [ ] meditation — Mindfulness에 듣는다  <!-- 시험 8건 · 논문 4541편 -->
-- [ ] low sodium diet — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 689편 -->
-- [ ] low sodium diet — Salt; Excess에 듣는다  <!-- 시험 9건 · 논문 412편 -->
-- [ ] low sodium diet — Cardiovascular Diseases에 듣는다  <!-- 시험 7건 · 논문 5831편 -->
-- [ ] low sodium diet — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 202편 -->
-- [ ] sleep hygiene — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 405편 -->
-- [ ] sleep hygiene — Cannabis Use에 듣는다  <!-- 시험 10건 · 논문 57편 -->
-- [ ] sleep hygiene — Cancer에 듣는다  <!-- 시험 10건 · 논문 767편 -->
-- [ ] sleep hygiene — Hypertension에 듣는다  <!-- 시험 9건 · 논문 365편 -->
-- [ ] qigong — Anxiety에 듣는다  <!-- 시험 4건 · 논문 249편 -->
-- [ ] qigong — Fatigue에 듣는다  <!-- 시험 4건 · 논문 203편 -->
+- [x] amiodarone — Chagas Cardiomyopathy에 듣는다  <!-- 시험 3건 · 논문 65편 --> — 항목 생성(amiodarone-chagas-cardiomyopathy-harm)
+- [x] diltiazem — Supraventricular Tachycardia (SVT)에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 항목 생성(diltiazem-supraventricular-tachycardia-open)
+- [x] diltiazem — Myocardial Bridging에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(diltiazem-myocardial-bridging-pos)
+- [x] hydralazine — Preeclampsia에 듣는다  <!-- 시험 3건 · 논문 349편 --> — 항목 생성(hydralazine-preeclampsia-open)
+- [x] lisinopril — Kidney Disease에 듣는다  <!-- 시험 6건 · 논문 550편 --> — 항목 생성(lisinopril-kidney-disease-open)
+- [x] lisinopril — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 1882편 --> — 근거 없음(2026-08-06, "lisinopril AND Cardiovascular Disease")
+- [x] lisinopril — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 161편 --> — 근거 없음(2026-08-06, "lisinopril AND Coronary Disease")
+- [x] lisinopril — Becker Muscular Dystrophy에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 근거 없음(2026-08-06, "lisinopril AND Becker Muscular Dystrophy")
+- [x] metoprolol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 411편 --> — 근거 없음(2026-08-06, "metoprolol AND Diabetes")
+- [x] metoprolol — CT Angiography에 듣는다  <!-- 시험 9건 · 논문 84편 --> — 근거 없음(2026-08-06, "metoprolol AND CT Angiography")
+- [x] metoprolol — Chronic Obstructive Airway Disease에 듣는다  <!-- 시험 8건 · 논문 72편 --> — 항목 생성(metoprolol-chronic-obstructive-airway-disease-open)
+- [x] metoprolol — Cardiac Output에 듣는다  <!-- 시험 7건 · 논문 553편 --> — 항목 생성(metoprolol-cardiac-output-pos)
+- [x] nicardipine — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 337편 --> — 항목 생성(nicardipine-anesthesia-animal-pos)
+- [x] nicardipine — Vasospasm에 듣는다  <!-- 시험 4건 · 논문 260편 --> — 항목 생성(nicardipine-vasospasm-open)
+- [x] nicardipine — Hypertensive Crisis에 듣는다  <!-- 시험 3건 · 논문 55편 --> — 허가 적응증(2026-08-06)
+- [x] laughter therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 133편 --> — 항목 생성(laughter-therapy-depression-pos)
+- [x] meditation — Sleep에 듣는다  <!-- 시험 10건 · 논문 1024편 --> — 항목 생성(meditation-sleep-open)
+- [x] meditation — Psychological에 듣는다  <!-- 시험 9건 · 논문 3867편 --> — 항목 생성(meditation-psychological-null)
+- [x] meditation — Mental Health에 듣는다  <!-- 시험 8건 · 논문 2363편 --> — 항목 생성(meditation-mental-health-pos)
+- [x] meditation — Mindfulness에 듣는다  <!-- 시험 8건 · 논문 4541편 --> — 항목 생성(meditation-mindfulness-null)
+- [x] low sodium diet — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 689편 --> — 항목 생성(low-sodium-diet-heart-failure-harm)
+- [x] low sodium diet — Salt; Excess에 듣는다  <!-- 시험 9건 · 논문 412편 --> — 근거 없음(2026-08-06, "low sodium diet AND Salt; Excess")
+- [x] low sodium diet — Cardiovascular Diseases에 듣는다  <!-- 시험 7건 · 논문 5831편 --> — 근거 없음(2026-08-06, "low sodium diet AND Cardiovascular Diseases")
+- [x] low sodium diet — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 202편 --> — 항목 생성(low-sodium-diet-metabolic-syndrome-open)
+- [x] sleep hygiene — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 405편 --> — 항목 생성(sleep-hygiene-pregnancy-open)
+- [x] sleep hygiene — Cannabis Use에 듣는다  <!-- 시험 10건 · 논문 57편 --> — 항목 생성(sleep-hygiene-cannabis-use-open)
+- [x] sleep hygiene — Cancer에 듣는다  <!-- 시험 10건 · 논문 767편 --> — 근거 없음(2026-08-06, "sleep hygiene AND Cancer")
+- [x] sleep hygiene — Hypertension에 듣는다  <!-- 시험 9건 · 논문 365편 --> — 근거 없음(2026-08-06, "sleep hygiene AND Hypertension")
+- [x] qigong — Anxiety에 듣는다  <!-- 시험 4건 · 논문 249편 --> — 항목 생성(qigong-anxiety-null)
+- [x] qigong — Fatigue에 듣는다  <!-- 시험 4건 · 논문 203편 --> — 항목 생성(qigong-fatigue-pos)
 - [ ] qigong — Motor Function에 듣는다  <!-- 시험 4건 · 논문 62편 -->
 - [ ] qigong — COVID-19에 듣는다  <!-- 시험 4건 · 논문 56편 -->
 - [ ] pilates — Balance에 듣는다  <!-- 시험 14건 · 논문 271편 -->
