@@ -4,7 +4,7 @@
   "entries": 1214,
   "worklist": {
     "checked": 8847,
-    "unchecked": 11,
+    "unchecked": 47,
     "no_evidence_pending": 183,
     "next_batch": [
       "sulbactam-lung-abscess",
@@ -17,7 +17,26 @@
       "phenylephrine-spinal",
       "phenylephrine-cesarean-birth",
       "phenylephrine-blood-flow",
-      "phenylephrine-adverse-effect"
+      "phenylephrine-adverse-effect",
+      "fludrocortisone-sepsis",
+      "fludrocortisone-renal-failure-chronic",
+      "midodrine-renal-failure",
+      "midodrine-cirrhosis",
+      "midodrine-shock",
+      "mexiletine-myotonia",
+      "mexiletine-ventricular-fibrillation",
+      "mexiletine-arrhythmia",
+      "mexiletine-heart-arrest",
+      "pilocarpine-dry-eye",
+      "pilocarpine-glaucoma",
+      "pilocarpine-xerostomia",
+      "pilocarpine-ocular-hypertension",
+      "agomelatine-schizophrenia",
+      "agomelatine-depression",
+      "itopride-gastric-emptying",
+      "lubiprostone-irritable-bowel-syndrome",
+      "lubiprostone-colonoscopy",
+      "lubiprostone-diabetes"
     ]
   },
   "verification": {
@@ -118,32 +137,32 @@
       "nirmatrelvir"
     ],
     "builtin_added_candidates": 660,
-    "added_candidates": 2776,
-    "direct_added_candidates": 1062,
     "latest_run": "2026-08-05",
-    "latest_candidates": 45,
+    "latest_candidates": 36,
     "latest_substances": [
-      "cimetidine",
-      "bupivacaine",
-      "famciclovir",
-      "guaifenesin",
-      "nilotinib",
-      "ranitidine",
-      "sodium bicarbonate",
-      "vitamin c",
-      "vitamin e",
-      "benztropine",
-      "isoproterenol",
+      "fludrocortisone",
+      "midodrine",
+      "mexiletine",
+      "dantrolene",
+      "bethanechol",
+      "pilocarpine",
       "methysergide",
-      "tetracycline",
-      "sulbactam",
-      "azelastine",
-      "dicyclomine",
-      "loratadine",
-      "indacaterol",
-      "nimesulide",
-      "phenylephrine"
-    ]
+      "trimipramine",
+      "amoxapine",
+      "nefazodone",
+      "agomelatine",
+      "droperidol",
+      "itopride",
+      "lubiprostone",
+      "linaclotide",
+      "plecanatide",
+      "trametinib",
+      "vemurafenib",
+      "sorafenib",
+      "sunitinib"
+    ],
+    "added_candidates": 2812,
+    "direct_added_candidates": 1098
   },
   "resume": {
     "last_committed_batch": "batch 45: 10 evidence entries added; 30 topics processed",
@@ -179,8 +198,8 @@
     "sulbactam-wound-infections (label/standard antibacterial therapy; no entry)",
     "sulbactam-sepsis-bacterial (label/standard antibacterial therapy; no entry)"
   ],
-    "current_batch": "batch 45: first 30 topics processed; 10 evidence entries added",
-    "next_action": "run expansion because 11 unchecked topics remain, then research the next batch, run build, commit, and push",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 11 unchecked topics remain"
+    "current_batch": "batch 45 completed; expansion added 36 candidates from 20 substances",
+    "next_action": "research the first 30 unchecked topics, then run build, commit, and push",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; 47 unchecked topics remain"
   }
 }
