@@ -12354,24 +12354,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cognitive behavioral stress management — Stress에 듣는다  <!-- 시험 31건 · 논문 7768편 -->
-- [ ] cognitive behavioral stress management — Depression에 듣는다  <!-- 시험 26건 · 논문 2391편 -->
-- [ ] cognitive behavioral stress management — Anxiety에 듣는다  <!-- 시험 22건 · 논문 2274편 -->
-- [ ] cognitive behavioral stress management — Pain에 듣는다  <!-- 시험 16건 · 논문 953편 -->
-- [ ] functional exercise — Pain에 듣는다  <!-- 시험 5건 · 논문 37268편 -->
-- [ ] functional exercise — Stroke에 듣는다  <!-- 시험 4건 · 논문 22295편 -->
-- [ ] functional exercise — Fall Injury에 듣는다  <!-- 시험 4건 · 논문 1014편 -->
-- [ ] functional exercise — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 4246편 -->
-- [ ] interval training — Exercise에 듣는다  <!-- 시험 19건 · 논문 21467편 -->
-- [ ] interval training — Diabetes에 듣는다  <!-- 시험 18건 · 논문 10115편 -->
-- [ ] interval training — Heart Failure에 듣는다  <!-- 시험 17건 · 논문 2750편 -->
-- [ ] interval training — Metabolic Disease에 듣는다  <!-- 시험 12건 · 논문 8654편 -->
-- [ ] problem-solving therapy — Stroke에 듣는다  <!-- 시험 4건 · 논문 366편 -->
-- [ ] problem-solving therapy — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 154편 -->
-- [ ] problem-solving therapy — Depressive Symptoms에 듣는다  <!-- 시험 3건 · 논문 1853편 -->
-- [ ] bright light therapy — Depression에 듣는다  <!-- 시험 21건 · 논문 1793편 -->
-- [ ] bright light therapy — Cancer에 듣는다  <!-- 시험 16건 · 논문 28632편 -->
-- [ ] bright light therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 393편 -->
-- [ ] bright light therapy — Circadian Rhythm에 듣는다  <!-- 시험 11건 · 논문 954편 -->
-- [ ] brodalumab — Psoriatic Arthritis에 듣는다  <!-- 시험 6건 · 논문 136편 -->
-- [ ] brodalumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 4건 · 논문 30편 -->
+- [x] cognitive behavioral stress management — Stress에 듣는다  <!-- 시험 31건 · 논문 7768편 -->
+- [x] cognitive behavioral stress management — Depression에 듣는다  <!-- 시험 26건 · 논문 2391편 -->
+- [x] cognitive behavioral stress management — Anxiety에 듣는다  <!-- 시험 22건 · 논문 2274편 -->
+- [x] cognitive behavioral stress management — Pain에 듣는다  <!-- 시험 16건 · 논문 953편 -->
+- [x] functional exercise — Pain에 듣는다 — 근거 없음(2026-08-06, functional exercise pain)  <!-- 시험 5건 · 논문 37268편 -->
+- [x] functional exercise — Stroke에 듣는다 — 근거 없음(2026-08-06, functional exercise stroke)  <!-- 시험 4건 · 논문 22295편 -->
+- [x] functional exercise — Fall Injury에 듣는다 — 근거 없음(2026-08-06, functional exercise fall injury)  <!-- 시험 4건 · 논문 1014편 -->
+- [x] functional exercise — Spinal Cord Injury에 듣는다 — 근거 없음(2026-08-06, functional exercise spinal cord injury)  <!-- 시험 4건 · 논문 4246편 -->
+- [x] interval training — Exercise에 듣는다 — 근거 없음(2026-08-06, interval training exercise)  <!-- 시험 19건 · 논문 21467편 -->
+- [x] interval training — Diabetes에 듣는다  <!-- 시험 18건 · 논문 10115편 -->
+- [x] interval training — Heart Failure에 듣는다  <!-- 시험 17건 · 논문 2750편 -->
+- [x] interval training — Metabolic Disease에 듣는다  <!-- 시험 12건 · 논문 8654편 -->
+- [x] problem-solving therapy — Stroke에 듣는다  <!-- 시험 4건 · 논문 366편 -->
+- [x] problem-solving therapy — Chronic Pain에 듣는다 — 근거 없음(2026-08-06, problem-solving therapy chronic pain)  <!-- 시험 3건 · 논문 154편 -->
+- [x] problem-solving therapy — Depressive Symptoms에 듣는다  <!-- 시험 3건 · 논문 1853편 -->
+- [x] bright light therapy — Depression에 듣는다  <!-- 시험 21건 · 논문 1793편 -->
+- [x] bright light therapy — Cancer에 듣는다  <!-- 시험 16건 · 논문 28632편 -->
+- [x] bright light therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 393편 -->
+- [x] bright light therapy — Circadian Rhythm에 듣는다  <!-- 시험 11건 · 논문 954편 -->
+- [x] brodalumab — Psoriatic Arthritis에 듣는다 — 근거 없음(2026-08-06, brodalumab psoriatic arthritis)  <!-- 시험 6건 · 논문 136편 -->
+- [x] brodalumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 4건 · 논문 30편 -->
