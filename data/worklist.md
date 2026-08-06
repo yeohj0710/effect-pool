@@ -11963,3 +11963,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] honey — Oral Mucositis에 듣는다  <!-- 시험 12건 · 논문 131편 -->
 - [ ] honey — Dry Mouth에 듣는다  <!-- 시험 10건 · 논문 34편 -->
 - [ ] honey — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 65편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] box breathing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 96편 -->
+- [ ] box breathing — Breathing Exercises에 듣는다  <!-- 시험 3건 · 논문 71편 -->
+- [ ] chia seed — Dietary Fiber에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [ ] tart cherry — Inflammation에 듣는다  <!-- 시험 7건 · 논문 90편 -->
+- [ ] tart cherry — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [ ] tart cherry — Gout에 듣는다  <!-- 시험 5건 · 논문 15편 -->
+- [ ] tart cherry — Hypertension에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] olive leaf extract — Hypertension에 듣는다  <!-- 시험 4건 · 논문 25편 -->
+- [ ] seaweed — Pre-diabetes에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] seaweed — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 73편 -->
+- [ ] seaweed — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 361편 -->
+- [ ] seaweed — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 235편 -->
+- [ ] coconut water — Water에 듣는다  <!-- 시험 3건 · 논문 2029편 -->
