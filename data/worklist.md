@@ -12163,3 +12163,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] fexofenadine — Urticaria에 듣는다  <!-- 시험 4건 · 논문 166편 -->
 - [ ] fexofenadine — Asthma에 듣는다  <!-- 시험 3건 · 논문 142편 -->
 - [ ] galcanezumab — Chronic Cluster Headache에 듣는다  <!-- 시험 4건 · 논문 73편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] olfactory training — Smell Loss에 듣는다  <!-- 시험 9건 · 논문 324편 -->
+- [ ] olfactory training — COVID-19에 듣는다  <!-- 시험 6건 · 논문 236편 -->
+- [ ] olfactory training — Hyposmia에 듣는다  <!-- 시험 5건 · 논문 246편 -->
+- [ ] olfactory training — Cognitive Decline에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [ ] sensory integration therapy — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 81편 -->
+- [ ] sensory integration therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 319편 -->
+- [ ] sensory integration therapy — Children에 듣는다  <!-- 시험 4건 · 논문 1130편 -->
+- [ ] sensory integration therapy — Diabetic Neuropathy에 듣는다  <!-- 시험 4건 · 논문 74편 -->
+- [ ] cranial electrotherapy stimulation — Depression에 듣는다  <!-- 시험 5건 · 논문 138편 -->
+- [ ] cranial electrotherapy stimulation — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [ ] virtual reality exposure therapy — Stroke에 듣는다  <!-- 시험 25건 · 논문 215편 -->
+- [ ] virtual reality exposure therapy — Pain에 듣는다  <!-- 시험 24건 · 논문 337편 -->
+- [ ] virtual reality exposure therapy — Stress에 듣는다  <!-- 시험 20건 · 논문 374편 -->
+- [ ] virtual reality exposure therapy — Social Phobia에 듣는다  <!-- 시험 20건 · 논문 100편 -->
