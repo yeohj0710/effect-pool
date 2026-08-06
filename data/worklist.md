@@ -11352,3 +11352,68 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness — Psychological에 듣는다 — 항목 생성(mindfulness-psychological-open)  <!-- 시험 22건 · 논문 11830편 -->
 - [ ] mindfulness — Depressive에 듣는다  <!-- 시험 17건 · 논문 7140편 -->
 - [ ] mindfulness — Burnout에 듣는다  <!-- 시험 14건 · 논문 1458편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] clonidine — Pregnancy Related에 듣는다  <!-- 시험 10건 · 논문 72편 -->
+- [ ] clonidine — Surgery에 듣는다  <!-- 시험 5건 · 논문 2781편 -->
+- [ ] clonidine — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
+- [ ] digoxin — Solid Tumor에 듣는다  <!-- 시험 10건 · 논문 20편 -->
+- [ ] digoxin — Overweight에 듣는다  <!-- 시험 9건 · 논문 60편 -->
+- [ ] digoxin — DRUG REACTIONS에 듣는다  <!-- 시험 9건 · 논문 568편 -->
+- [ ] digoxin — Abortion에 듣는다  <!-- 시험 8건 · 논문 60편 -->
+- [ ] empagliflozin — NAFLD에 듣는다  <!-- 시험 10건 · 논문 101편 -->
+- [ ] empagliflozin — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 169편 -->
+- [ ] empagliflozin — Insulin Resistance에 듣는다  <!-- 시험 10건 · 논문 196편 -->
+- [ ] empagliflozin — Dialysis에 듣는다  <!-- 시험 9건 · 논문 75편 -->
+- [ ] fenofibrate — Diabetic Retinopathy에 듣는다  <!-- 시험 12건 · 논문 202편 -->
+- [ ] fenofibrate — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 1213편 -->
+- [ ] fenofibrate — Hypercholesterolemia에 듣는다  <!-- 시험 7건 · 논문 278편 -->
+- [ ] guanfacine — Hypertension에 듣는다  <!-- 시험 3건 · 논문 253편 -->
+- [ ] guanfacine — Tourette Syndrome에 듣는다  <!-- 시험 3건 · 논문 40편 -->
+- [ ] guanfacine — Cognitive Aging에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] hydrochlorothiazide — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 4252편 -->
+- [ ] hydrochlorothiazide — Obesity에 듣는다  <!-- 시험 6건 · 논문 189편 -->
+- [ ] hydrochlorothiazide — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 144편 -->
+- [ ] hydrochlorothiazide — Cardiovascular Events에 듣는다  <!-- 시험 4건 · 논문 398편 -->
+- [ ] ivabradine — Ischemic Cardiomyopathy에 듣는다  <!-- 시험 3건 · 논문 31편 -->
+- [ ] losartan — HIV Infection에 듣는다  <!-- 시험 8건 · 논문 14편 -->
+- [ ] losartan — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 4835편 -->
+- [ ] nebivolol — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 254편 -->
+- [ ] nebivolol — Angina Pectoris에 듣는다  <!-- 시험 4건 · 논문 32편 -->
+- [ ] nebivolol — Erectile Dysfunction에 듣는다  <!-- 시험 4건 · 논문 43편 -->
+- [ ] nifedipine — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 1326편 -->
+- [ ] nifedipine — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 194편 -->
+- [ ] nifedipine — Pre-Eclampsia에 듣는다  <!-- 시험 3건 · 논문 222편 -->
+- [ ] nifedipine — High Altitude에 듣는다  <!-- 시험 3건 · 논문 114편 -->
+- [ ] pioglitazone — Obesity에 듣는다  <!-- 시험 14건 · 논문 885편 -->
+- [ ] pioglitazone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 13건 · 논문 171편 -->
+- [ ] pioglitazone — Impaired Glucose Tolerance에 듣는다  <!-- 시험 12건 · 논문 212편 -->
+- [ ] pioglitazone — HIV에 듣는다  <!-- 시험 12건 · 논문 32편 -->
+- [ ] pravastatin — Hypercholesterolemia에 듣는다  <!-- 시험 18건 · 논문 1221편 -->
+- [ ] pravastatin — HIV에 듣는다  <!-- 시험 16건 · 논문 102편 -->
+- [ ] pravastatin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 2278편 -->
+- [ ] pravastatin — Coronary Artery에 듣는다  <!-- 시험 13건 · 논문 598편 -->
+- [ ] sacubitril valsartan — Hypertension에 듣는다  <!-- 시험 19건 · 논문 410편 -->
+- [ ] sacubitril valsartan — Myocardial Injury에 듣는다  <!-- 시험 9건 · 논문 62편 -->
+- [ ] sacubitril valsartan — Chagas Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 14편 -->
+- [ ] sacubitril valsartan — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 15편 -->
+- [ ] isometric exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 640766편 -->
+- [ ] isometric exercise — Muscle Spasm에 듣는다  <!-- 시험 7건 · 논문 1137편 -->
+- [ ] isometric exercise — Cervical Spine Injury에 듣는다  <!-- 시험 6건 · 논문 513편 -->
+- [ ] isometric exercise — Performance에 듣는다  <!-- 시험 5건 · 논문 198970편 -->
+- [ ] sleep extension — Insomnia에 듣는다  <!-- 시험 3건 · 논문 141편 -->
+- [ ] sleep extension — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [ ] sleep extension — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] sleep extension — Motor Development에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [ ] whole body vibration — Knee OA에 듣는다  <!-- 시험 23건 · 논문 30편 -->
+- [ ] whole body vibration — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 70편 -->
+- [ ] whole body vibration — Obesity에 듣는다  <!-- 시험 17건 · 논문 89편 -->
+- [ ] whole body vibration — Muscle Mass에 듣는다  <!-- 시험 15건 · 논문 246편 -->
