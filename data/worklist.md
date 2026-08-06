@@ -12316,31 +12316,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cognitive bias modification — Depression에 듣는다  <!-- 시험 12건 · 논문 319편 -->
-- [ ] cognitive bias modification — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 14편 -->
-- [ ] cognitive bias modification — Obsessive Thoughts에 듣는다  <!-- 시험 8건 · 논문 11편 -->
-- [ ] cognitive bias modification — Psychotic Disorders에 듣는다  <!-- 시험 8건 · 논문 12편 -->
-- [ ] emotion regulation training — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1766편 -->
-- [ ] emotion regulation training — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 102편 -->
-- [ ] emotion regulation training — Stress에 듣는다  <!-- 시험 6건 · 논문 2176편 -->
-- [ ] emotion regulation training — Depressive Symptom에 듣는다  <!-- 시험 5건 · 논문 1622편 -->
-- [ ] parent-child interaction therapy — Oppositional Defiant Disorder에 듣는다  <!-- 시험 3건 · 논문 83편 -->
-- [ ] parent-child interaction therapy — Conduct Disorder에 듣는다  <!-- 시험 3건 · 논문 175편 -->
-- [ ] parent-child interaction therapy — Child Abuse에 듣는다  <!-- 시험 3건 · 논문 1121편 -->
-- [ ] parent-child interaction therapy — Family Conflict에 듣는다  <!-- 시험 3건 · 논문 656편 -->
-- [ ] behavioral couples therapy — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 71편 -->
-- [ ] behavioral couples therapy — Erectile Dysfunction에 듣는다  <!-- 시험 3건 · 논문 195편 -->
-- [ ] mindfulness-based relapse prevention — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 74편 -->
-- [ ] mindfulness-based relapse prevention — Depression에 듣는다  <!-- 시험 5건 · 논문 235편 -->
-- [ ] mindfulness-based relapse prevention — Alcohol Drinking에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] reflexology — Fatigue에 듣는다  <!-- 시험 9건 · 논문 535편 -->
-- [ ] reflexology — Anxiety에 듣는다  <!-- 시험 9건 · 논문 968편 -->
-- [ ] reflexology — Sleep에 듣는다  <!-- 시험 7건 · 논문 675편 -->
-- [ ] reflexology — Nursing에 듣는다  <!-- 시험 6건 · 논문 2390편 -->
-- [ ] acoramidis — Amyloid Cardiomyopathy에 듣는다  <!-- 시험 9건 · 논문 90편 -->
-- [ ] acoramidis — Cardiomyopathies에 듣는다  <!-- 시험 3건 · 논문 99편 -->
-- [ ] acoramidis — Heart Disease에 듣는다  <!-- 시험 3건 · 논문 77편 -->
-- [ ] inotersen — Familial Amyloid Polyneuropathy에 듣는다  <!-- 시험 3건 · 논문 97편 -->
-- [ ] filgotinib — Ulcerative Colitis에 듣는다  <!-- 시험 7건 · 논문 168편 -->
-- [ ] filgotinib — Crohn's Disease에 듣는다  <!-- 시험 6건 · 논문 93편 -->
-- [ ] filgotinib — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
+- [x] cognitive bias modification — Depression에 듣는다  <!-- 시험 12건 · 논문 319편 -->
+- [x] cognitive bias modification — Schizophrenia에 듣는다  <!-- 시험 11건 · 논문 14편 -->
+- [x] cognitive bias modification — Obsessive Thoughts에 듣는다  <!-- 시험 8건 · 논문 11편 -->
+- [x] cognitive bias modification — Psychotic Disorders에 듣는다  <!-- 시험 8건 · 논문 12편 -->
+- [x] emotion regulation training — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1766편 -->
+- [x] emotion regulation training — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 102편 -->
+- [x] emotion regulation training — Stress에 듣는다  <!-- 시험 6건 · 논문 2176편 -->
+- [x] emotion regulation training — Depressive Symptom에 듣는다  <!-- 시험 5건 · 논문 1622편 -->
+- [x] parent-child interaction therapy — Oppositional Defiant Disorder에 듣는다  <!-- 시험 3건 · 논문 83편 -->
+- [x] parent-child interaction therapy — Conduct Disorder에 듣는다  <!-- 시험 3건 · 논문 175편 -->
+- [x] parent-child interaction therapy — Child Abuse에 듣는다  <!-- 시험 3건 · 논문 1121편 -->
+- [x] parent-child interaction therapy — Family Conflict에 듣는다 — 근거 없음(2026-08-06, parent-child interaction therapy family conflict)  <!-- 시험 3건 · 논문 656편 -->
+- [x] behavioral couples therapy — Breast Cancer에 듣는다 — 근거 없음(2026-08-06, behavioral couples therapy breast cancer)  <!-- 시험 4건 · 논문 71편 -->
+- [x] behavioral couples therapy — Erectile Dysfunction에 듣는다 — 근거 없음(2026-08-06, behavioral couples therapy erectile dysfunction)  <!-- 시험 3건 · 논문 195편 -->
+- [x] mindfulness-based relapse prevention — Major Depressive Disorder에 듣는다 — 근거 없음(2026-08-06, mindfulness-based relapse prevention major depressive disorder)  <!-- 시험 6건 · 논문 74편 -->
+- [x] mindfulness-based relapse prevention — Depression에 듣는다 — 근거 없음(2026-08-06, mindfulness-based relapse prevention depression)  <!-- 시험 5건 · 논문 235편 -->
+- [x] mindfulness-based relapse prevention — Alcohol Drinking에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [x] reflexology — Fatigue에 듣는다  <!-- 시험 9건 · 논문 535편 -->
+- [x] reflexology — Anxiety에 듣는다  <!-- 시험 9건 · 논문 968편 -->
+- [x] reflexology — Sleep에 듣는다  <!-- 시험 7건 · 논문 675편 -->
+- [x] reflexology — Nursing에 듣는다  <!-- 시험 6건 · 논문 2390편 -->
+- [x] acoramidis — Amyloid Cardiomyopathy에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 90편 -->
+- [x] acoramidis — Cardiomyopathies에 듣는다  <!-- 시험 3건 · 논문 99편 -->
+- [x] acoramidis — Heart Disease에 듣는다  <!-- 시험 3건 · 논문 77편 -->
+- [x] inotersen — Familial Amyloid Polyneuropathy에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 97편 -->
+- [x] filgotinib — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 168편 -->
+- [x] filgotinib — Crohn's Disease에 듣는다  <!-- 시험 6건 · 논문 93편 -->
+- [x] filgotinib — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
