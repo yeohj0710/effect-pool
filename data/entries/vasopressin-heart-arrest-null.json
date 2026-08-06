@@ -1,0 +1,29 @@
+{
+  "id": "vasopressin-heart-arrest-null",
+  "subj": "바소프레신",
+  "claim": "심정지에서 바소프레신을 에피네프린 대신 또는 추가로 쓰는가",
+  "line": "심정지에서 바소프레신은 에피네프린보다 신경학적 생존을 늘리지 못했습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 6718,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가 적응증은 혈관확장성 쇼크의 저혈압이며, 심정지 소생은 허가 밖입니다.",
+  "why": "강한 혈관수축으로 심폐소생 중 관상동맥·뇌 관류압을 높일 수 있다는 가설입니다.",
+  "saw": "무작위시험 12건, 6,718명을 합친 메타분석에서 바소프레신의 자발순환 회복은 위약 대비 유의하지 않았습니다(RR 1.11, 95% CI 0.99–1.26). 중기 생존과 좋은 신경학적 결과도 유의한 차이가 없었고, 바소프레신·스테로이드·에피네프린 병용은 병원 내 자발순환만 높였습니다.",
+  "limit": "병원 밖과 병원 안 심정지, 단독 투여와 병용 투여를 합친 분석이며, 병용의 생존 효과는 불확실합니다.",
+  "against": "자발순환 회복 신호만으로 퇴원 생존이나 신경학적 회복을 입증할 수 없습니다.",
+  "use": "심정지에서 바소프레신을 임의로 추가하지 않으며, 최신 소생술 지침과 표준 약물 순서를 따릅니다.",
+  "effect": "ROSC 1.11 (0.99–1.26)",
+  "refs": [
+    { "label": "Yan 2023 · BMJ Open · 심정지 바소프레신 메타분석", "doi": "10.1136/bmjopen-2022-065061", "pmid": "37068900" },
+    { "label": "Cochrane 2019 · 에피네프린과 바소프레신 검토", "doi": "10.1002/14651858.CD003179.pub2", "pmid": "30653257" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=vasopressin, cond=Heart Arrest · 12건",
+    "pubmed": "vasopressin AND Heart Arrest · 419건",
+    "negative": "vasopressin AND Heart Arrest AND (no effect OR did not OR failed to OR negative OR no significant difference) · 249건",
+    "safety": "vasopressin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 5110건"
+  }
+}

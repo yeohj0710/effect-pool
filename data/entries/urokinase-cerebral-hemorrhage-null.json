@@ -1,0 +1,29 @@
+{
+  "id": "urokinase-cerebral-hemorrhage-null",
+  "subj": "유로키나제",
+  "claim": "뇌실내 출혈에 유로키나제를 주입하면 사망을 줄이는가",
+  "line": "뇌실내 출혈에 유로키나제를 넣어도 사망률 감소는 확실하지 않았습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 607,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "유로키나제의 허가 용도는 혈전용해이며, 뇌실내 출혈의 혈액 제거는 허가 밖입니다.",
+  "why": "뇌실에 고인 혈액을 섬유소용해로 제거하면 뇌척수액 흐름과 생존을 개선할 수 있다는 가설입니다.",
+  "saw": "무작위시험 6건, 607명을 합친 메타분석에서 뇌실내 섬유소용해 전체는 사망을 줄였지만, 유로키나제 하위군은 사망 감소가 유의하지 않았습니다(RR 0.30, 95% CI 0.06–1.53). 유로키나제가 rt-PA보다 낫다는 신호도 없었습니다.",
+  "limit": "유로키나제를 평가한 시험은 2건뿐이고, 여러 섬유소용해제와 외부 뇌실 배액 방법을 함께 합친 분석입니다.",
+  "against": "유로키나제 하위군의 신뢰구간이 넓어 효과와 무효과를 모두 배제하지 못합니다.",
+  "use": "뇌실내 출혈에 유로키나제를 임의로 주입하지 않으며, 신경외과 전문 판단과 근거가 더 강한 치료를 따릅니다.",
+  "effect": "사망 RR 0.30 (0.06–1.53)",
+  "refs": [
+    { "label": "Wang 2017 · World Neurosurgery · 무작위시험 메타분석", "doi": "10.1016/j.wneu.2017.07.135", "pmid": "28778779" },
+    { "label": "Gaberel 2011 · Stroke · 뇌실내 섬유소용해 메타분석", "doi": "10.1161/STROKEAHA.111.615724", "pmid": "21817146" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=urokinase, cond=Cerebral Hemorrhage · 14건",
+    "pubmed": "urokinase AND Cerebral Hemorrhage · 414건",
+    "negative": "urokinase AND Cerebral Hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) · 280건",
+    "safety": "urokinase AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2606건"
+  }
+}

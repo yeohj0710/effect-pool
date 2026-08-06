@@ -1,0 +1,29 @@
+{
+  "id": "urokinase-empyema-pos",
+  "subj": "유로키나제",
+  "claim": "소아 농흉의 배액에 유로키나제를 추가하는가",
+  "line": "소아 농흉에서 흉강내 유로키나제가 입원 기간을 줄였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "유로키나제의 허가 용도는 혈전용해이며, 흉강내 농흉 치료는 허가 밖입니다.",
+  "why": "농흉의 격벽을 섬유소용해로 풀면 흉관 배액을 개선하고 수술을 피할 수 있다는 가설입니다.",
+  "saw": "10개 기관의 이중맹검 무작위시험에서 소아 60명이 유로키나제 또는 생리식염수를 받았습니다. 유로키나제군의 치료 후 입원 기간은 7.4일로 대조군 9.5일보다 짧았습니다(P=0.027).",
+  "limit": "소아 농흉 60명 시험이며, 40,000단위를 12시간마다 3일 흉강내 투여한 결과입니다.",
+  "against": "수술과 직접 비교한 결과가 아니며, 성인과 다른 원인의 흉막 감염에 같은 효과가 난다고 볼 수 없습니다.",
+  "use": "농흉에 흉강내 유로키나제를 일반적으로 추가하지 않으며, 배액·항생제와 수술 필요성을 전문의가 판단합니다.",
+  "effect": "입원 7.4일 vs 9.5일",
+  "refs": [
+    { "label": "Thomson 2002 · Thorax · 소아 농흉 무작위시험", "doi": "10.1136/thorax.57.4.343", "pmid": "11923554" },
+    { "label": "Marhuenda 2014 · Pediatrics · 유로키나제 대 흉강경", "doi": "10.1542/peds.2013-3935", "pmid": "25349313" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=urokinase, cond=Empyema · 7건",
+    "pubmed": "urokinase AND Empyema · 167건",
+    "negative": "urokinase AND Empyema AND (no effect OR did not OR failed to OR negative OR no significant difference) · 98건",
+    "safety": "urokinase AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2606건"
+  }
+}

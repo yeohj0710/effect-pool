@@ -1,0 +1,29 @@
+{
+  "id": "terlipressin-septic-shock-null",
+  "subj": "테를리프레신",
+  "claim": "패혈성 쇼크의 혈압 유지에 테를리프레신을 추가하는가",
+  "line": "패혈성 쇼크에서 테를리프레신은 카테콜아민보다 전체 사망률을 낮추지 못했습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 850,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "허가 적응증은 급격히 악화하는 간신증후군의 신장 기능 개선이며, 패혈성 쇼크는 허가 밖입니다.",
+  "why": "혈관수축성 바소프레신 유사체가 카테콜아민 반응이 약한 패혈성 쇼크에서 혈압과 장기 관류를 보완할 수 있다는 가설입니다.",
+  "saw": "성인 무작위시험 9건, 850명을 합친 메타분석에서 전체 사망률은 테를리프레신과 카테콜아민 사이에 유의한 차이가 없었습니다(RR 0.85, 95% CI 0.70–1.03). 60세 미만 하위군의 사망률과 크레아티닌은 낮았지만, 말초 허혈은 더 흔했습니다(OR 8.65, 95% CI 1.48–50.59).",
+  "limit": "시험별 용량과 비교 카테콜아민이 달랐고, 연령 하위군 결과는 전체 결과와 다릅니다.",
+  "against": "전체 생존 이득이 없고 말초 허혈 신호가 있어 패혈성 쇼크의 일반 혈압상승제로 확대할 수 없습니다.",
+  "use": "패혈성 쇼크에 임의로 사용하지 않으며, 전문 중환자 치료에서 허가 범위와 허혈 위험을 따로 확인합니다.",
+  "effect": "사망률 RR 0.85 (0.70–1.03)",
+  "refs": [
+    { "label": "Huang 2020 · BMC Anesthesiology · 성인 패혈성 쇼크 메타분석", "doi": "10.1186/s12871-020-00965-4", "pmid": "32138657" },
+    { "label": "Huang 2019 · Frontiers in Pharmacology · 테를리프레신 대 노르에피네프린", "doi": "10.3389/fphar.2019.01492", "pmid": "31920672" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=terlipressin, cond=Septic Shock · 20건",
+    "pubmed": "terlipressin AND Septic Shock · 164건",
+    "negative": "terlipressin AND Septic Shock AND (no effect OR did not OR failed to OR negative OR no significant difference) · 117건",
+    "safety": "terlipressin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 452건"
+  }
+}

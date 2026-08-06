@@ -10052,32 +10052,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] methylergonovine — Uterine Atony에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 허가·표준 자궁수축제 치료(2026-08-06)
 - [x] nitroprusside — Hypertension에 듣는다  <!-- 시험 6건 · 논문 3451편 --> — 허가·표준 고혈압 응급치료(2026-08-06)
 - [x] nitroprusside — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5613편 --> — 표준 심혈관 혈관확장 치료(2026-08-06)
-- [ ] nitroprusside — Vasoconstriction에 듣는다  <!-- 시험 5건 · 논문 1915편 -->
-- [ ] nitroprusside — Vasodilation에 듣는다  <!-- 시험 5건 · 논문 17057편 -->
-- [ ] phentolamine — Anesthesia, Local에 듣는다  <!-- 시험 6건 · 논문 99편 -->
-- [ ] phentolamine — Mydriasis에 듣는다  <!-- 시험 4건 · 논문 23편 -->
-- [ ] phentolamine — Dilation에 듣는다  <!-- 시험 4건 · 논문 331편 -->
-- [ ] phentolamine — Vasodilation에 듣는다  <!-- 시험 3건 · 논문 6614편 -->
-- [ ] somatostatin — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 565편 -->
-- [ ] somatostatin — Portal Vein에 듣는다  <!-- 시험 7건 · 논문 314편 -->
-- [ ] somatostatin — Acromegaly에 듣는다  <!-- 시험 4건 · 논문 2349편 -->
-- [ ] somatostatin — Esophageal Varices에 듣는다  <!-- 시험 4건 · 논문 376편 -->
-- [ ] terlipressin — Septic Shock에 듣는다  <!-- 시험 18건 · 논문 164편 -->
-- [ ] terlipressin — Hepatorenal Syndrome에 듣는다  <!-- 시험 17건 · 논문 528편 -->
-- [ ] terlipressin — Liver Failure에 듣는다  <!-- 시험 12건 · 논문 283편 -->
-- [ ] terlipressin — Hemorrhage에 듣는다  <!-- 시험 11건 · 논문 720편 -->
-- [ ] urokinase — Empyema에 듣는다  <!-- 시험 5건 · 논문 167편 -->
-- [ ] urokinase — Cerebral Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 414편 -->
-- [ ] urokinase — Diabetic Foot에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] urokinase — Pulmonary Embolism에 듣는다  <!-- 시험 3건 · 논문 800편 -->
-- [ ] vasopressin — Heart Arrest에 듣는다  <!-- 시험 14건 · 논문 419편 -->
-- [ ] vasopressin — Acute Lung Injury에 듣는다  <!-- 시험 6건 · 논문 39편 -->
-- [ ] vasopressin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 3668편 -->
-- [ ] vasopressin — Burn Surgery에 듣는다  <!-- 시험 5건 · 논문 68편 -->
-- [ ] calcitonin — Osteoporosis에 듣는다  <!-- 시험 10건 · 논문 2753편 -->
-- [ ] calcitonin — Infection에 듣는다  <!-- 시험 9건 · 논문 5844편 -->
-- [ ] calcitonin — Sepsis에 듣는다  <!-- 시험 6건 · 논문 2638편 -->
-- [ ] calcitonin — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 332편 -->
+- [x] nitroprusside — Vasoconstriction에 듣는다 — 근거 없음(2026-08-06 조회, nitroprusside AND vasoconstriction; 직접 투여 결과 없음)  <!-- 시험 5건 · 논문 1915편 -->
+- [x] nitroprusside — Vasodilation에 듣는다 — 허가·표준 혈관확장 용도(2026-08-06)  <!-- 시험 5건 · 논문 17057편 -->
+- [x] phentolamine — Anesthesia, Local에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 99편 -->
+- [x] phentolamine — Mydriasis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 23편 -->
+- [x] phentolamine — Dilation에 듣는다 — 근거 없음(2026-08-06 조회, phentolamine AND dilation; 직접 확장 치료 결과 없음)  <!-- 시험 4건 · 논문 331편 -->
+- [x] phentolamine — Vasodilation에 듣는다 — 항목 생성(phentolamine-vasodilation-pos)(2026-08-06)  <!-- 시험 3건 · 논문 6614편 -->
+- [x] somatostatin — Cirrhosis에 듣는다 — 같은 근거(별도 항목 없음; somatostatin-esophageal-varices-null)(2026-08-06)  <!-- 시험 15건 · 논문 565편 -->
+- [x] somatostatin — Portal Vein에 듣는다 — 근거 없음(2026-08-06 조회, somatostatin AND portal vein; 직접 치료 결과 없음)  <!-- 시험 7건 · 논문 314편 -->
+- [x] somatostatin — Acromegaly에 듣는다 — 허가·표준 소마토스타틴 유사체 용도(2026-08-06)  <!-- 시험 4건 · 논문 2349편 -->
+- [x] somatostatin — Esophageal Varices에 듣는다 — 항목 생성(somatostatin-esophageal-varices-null)(2026-08-06)  <!-- 시험 4건 · 논문 376편 -->
+- [x] terlipressin — Septic Shock에 듣는다 — 항목 생성(terlipressin-septic-shock-null)(2026-08-06)  <!-- 시험 18건 · 논문 164편 -->
+- [x] terlipressin — Hepatorenal Syndrome에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 17건 · 논문 528편 -->
+- [x] terlipressin — Liver Failure에 듣는다 — 근거 없음(2026-08-06 조회, terlipressin AND liver failure; 간 기능 회복 직접 결과 없음)  <!-- 시험 12건 · 논문 283편 -->
+- [x] terlipressin — Hemorrhage에 듣는다 — 허가·표준 정맥류 출혈 용도(일부 국가, 2026-08-06)  <!-- 시험 11건 · 논문 720편 -->
+- [x] urokinase — Empyema에 듣는다 — 항목 생성(urokinase-empyema-pos)(2026-08-06)  <!-- 시험 5건 · 논문 167편 -->
+- [x] urokinase — Cerebral Hemorrhage에 듣는다 — 항목 생성(urokinase-cerebral-hemorrhage-null)(2026-08-06)  <!-- 시험 4건 · 논문 414편 -->
+- [x] urokinase — Diabetic Foot에 듣는다 — 항목 생성(urokinase-diabetic-foot-pos)(2026-08-06)  <!-- 시험 3건 · 논문 15편 -->
+- [x] urokinase — Pulmonary Embolism에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 800편 -->
+- [x] vasopressin — Heart Arrest에 듣는다 — 항목 생성(vasopressin-heart-arrest-null)(2026-08-06)  <!-- 시험 14건 · 논문 419편 -->
+- [x] vasopressin — Acute Lung Injury에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND acute lung injury; 치료 결과 직접 근거 없음)  <!-- 시험 6건 · 논문 39편 -->
+- [x] vasopressin — Hypertension에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND hypertension; 고혈압 치료 결과 직접 근거 없음)  <!-- 시험 5건 · 논문 3668편 -->
+- [x] vasopressin — Burn Surgery에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND burn surgery; 등록시험 결과 논문 없음)  <!-- 시험 5건 · 논문 68편 -->
+- [x] calcitonin — Osteoporosis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 10건 · 논문 2753편 -->
+- [x] calcitonin — Infection에 듣는다 — 근거 없음(2026-08-06 조회, calcitonin AND infection; procalcitonin 검색 오인 제외, 직접 치료 결과 없음)  <!-- 시험 9건 · 논문 5844편 -->
+- [x] calcitonin — Sepsis에 듣는다 — 근거 없음(2026-08-06 조회, calcitonin AND sepsis; procalcitonin 검색 오인 제외, 직접 치료 결과 없음)  <!-- 시험 6건 · 논문 2638편 -->
+- [x] calcitonin — Osteoarthritis에 듣는다 — 항목 생성(calcitonin-osteoarthritis-pos)(2026-08-06)  <!-- 시험 5건 · 논문 332편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10088,5 +10088,5 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] metyrapone — Cocaine Addiction에 듣는다  <!-- 시험 5건 · 논문 14편 -->
-- [ ] metyrapone — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 66편 -->
+- [x] metyrapone — Cocaine Addiction에 듣는다 — 항목 생성(metyrapone-cocaine-addiction-pos)(2026-08-06)  <!-- 시험 5건 · 논문 14편 -->
+- [x] metyrapone — Depressive Disorder에 듣는다 — 항목 생성(metyrapone-depressive-disorder-pos, metyrapone-depressive-disorder-null)(2026-08-06)  <!-- 시험 3건 · 논문 66편 -->
