@@ -10960,11 +10960,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] neuromuscular exercise — Knee OA에 듣는다  <!-- 시험 33건 · 논문 114편 --> — 항목 생성(2026-08-06)
 - [x] neuromuscular exercise — Pain에 듣는다  <!-- 시험 33건 · 논문 1841편 --> — 항목 생성(2026-08-06)
 - [x] neuromuscular exercise — Muscle에 듣는다  <!-- 시험 17건 · 논문 9899편 --> — 근거 없음(2026-08-06, "neuromuscular exercise AND Muscle")
-- [ ] neuromuscular exercise — Ankle Sprain에 듣는다  <!-- 시험 16건 · 논문 310편 -->
-- [ ] community health worker — Hypertension에 듣는다  <!-- 시험 22건 · 논문 1134편 -->
-- [ ] community health worker — Child Health에 듣는다  <!-- 시험 16건 · 논문 8477편 -->
-- [ ] community health worker — HIV에 듣는다  <!-- 시험 11건 · 논문 4467편 -->
-- [ ] community health worker — Smoking에 듣는다  <!-- 시험 9건 · 논문 1216편 -->
+- [x] neuromuscular exercise — Ankle Sprain에 듣는다  <!-- 시험 16건 · 논문 310편 --> — 항목 생성(2026-08-06)
+- [x] community health worker — Hypertension에 듣는다  <!-- 시험 22건 · 논문 1134편 --> — 항목 생성(2026-08-06)
+- [x] community health worker — Child Health에 듣는다  <!-- 시험 16건 · 논문 8477편 --> — 항목 생성(2026-08-06)
+- [x] community health worker — HIV에 듣는다  <!-- 시험 11건 · 논문 4467편 --> — 근거 없음(2026-08-06, "community health worker AND HIV")
+- [x] community health worker — Smoking에 듣는다  <!-- 시험 9건 · 논문 1216편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10975,31 +10975,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acetyl-l-carnitine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 78편 -->
-- [ ] acetyl-l-carnitine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] acetyl-l-carnitine — Hepatic Encephalopathy에 듣는다  <!-- 시험 3건 · 논문 24편 -->
-- [ ] benfotiamine — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 22편 -->
-- [ ] desloratadine — Urticaria에 듣는다  <!-- 시험 19건 · 논문 175편 -->
-- [ ] desloratadine — Asthma에 듣는다  <!-- 시험 4건 · 논문 114편 -->
-- [ ] desloratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 60편 -->
-- [ ] fesoterodine — Urgency Urinary에 듣는다  <!-- 시험 7건 · 논문 104편 -->
-- [ ] fesoterodine — Neurogenic Detrusor Overactivity에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] glyburide — Stroke에 듣는다  <!-- 시험 3건 · 논문 230편 -->
-- [ ] glyburide — Brain Metastases에 듣는다  <!-- 시험 3건 · 논문 24편 -->
-- [ ] ibandronate — Lung Cancer에 듣는다  <!-- 시험 11건 · 논문 33편 -->
-- [ ] ibandronate — Pain에 듣는다  <!-- 시험 10건 · 논문 195편 -->
-- [ ] ibandronate — Bone Neoplasm에 듣는다  <!-- 시험 7건 · 논문 290편 -->
-- [ ] ibandronate — Osteopenia에 듣는다  <!-- 시험 4건 · 논문 593편 -->
-- [ ] levofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 971편 -->
-- [ ] levofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 2709편 -->
-- [ ] levofloxacin — HIV Infections에 듣는다  <!-- 시험 24건 · 논문 108편 -->
-- [ ] levofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 128편 -->
-- [ ] ramipril — Diabetes에 듣는다  <!-- 시험 16건 · 논문 694편 -->
-- [ ] ramipril — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 530편 -->
-- [ ] ramipril — Kidney Transplant에 듣는다  <!-- 시험 11건 · 논문 73편 -->
-- [ ] ramipril — Non-Diabetic에 듣는다  <!-- 시험 11건 · 논문 53편 -->
-- [ ] isometric exercise — Hypertension에 듣는다  <!-- 시험 24건 · 논문 27786편 -->
-- [ ] isometric exercise — OA Knee에 듣는다  <!-- 시험 14건 · 논문 2809편 -->
+- [x] acetyl-l-carnitine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "acetyl-l-carnitine AND Fatigue")
+- [x] acetyl-l-carnitine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(2026-08-06)
+- [x] acetyl-l-carnitine — Hepatic Encephalopathy에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 항목 생성(2026-08-06)
+- [x] benfotiamine — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 항목 생성(2026-08-06)
+- [x] desloratadine — Urticaria에 듣는다  <!-- 시험 19건 · 논문 175편 --> — 허가 적응증(2026-08-06)
+- [x] desloratadine — Asthma에 듣는다  <!-- 시험 4건 · 논문 114편 --> — 근거 없음(2026-08-06, "desloratadine AND Asthma")
+- [x] desloratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 60편 --> — 근거 없음(2026-08-06, "desloratadine AND Pruritus")
+- [x] fesoterodine — Urgency Urinary에 듣는다  <!-- 시험 7건 · 논문 104편 --> — 허가 적응증(2026-08-06)
+- [x] fesoterodine — Neurogenic Detrusor Overactivity에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-06, "fesoterodine AND Neurogenic Detrusor Overactivity")
+- [x] glyburide — Stroke에 듣는다  <!-- 시험 3건 · 논문 230편 --> — 근거 없음(2026-08-06, "glyburide AND Stroke")
+- [x] glyburide — Brain Metastases에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-06, "glyburide AND Brain Metastases")
+- [x] ibandronate — Lung Cancer에 듣는다  <!-- 시험 11건 · 논문 33편 --> — 근거 없음(2026-08-06, "ibandronate AND Lung Cancer")
+- [x] ibandronate — Pain에 듣는다  <!-- 시험 10건 · 논문 195편 --> — 항목 생성(2026-08-06)
+- [x] ibandronate — Bone Neoplasm에 듣는다  <!-- 시험 7건 · 논문 290편 --> — 항목 생성(2026-08-06)
+- [x] ibandronate — Osteopenia에 듣는다  <!-- 시험 4건 · 논문 593편 --> — 근거 없음(2026-08-06, "ibandronate AND Osteopenia")
+- [x] levofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 971편 --> — 항목 생성(2026-08-06)
+- [x] levofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 2709편 --> — 허가 적응증(2026-08-06)
+- [x] levofloxacin — HIV Infections에 듣는다  <!-- 시험 24건 · 논문 108편 --> — 근거 없음(2026-08-06, "levofloxacin AND HIV Infections")
+- [x] levofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 128편 --> — 항목 생성(2026-08-06)
+- [x] ramipril — Diabetes에 듣는다  <!-- 시험 16건 · 논문 694편 --> — 항목 생성(2026-08-06)
+- [x] ramipril — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 530편 --> — 허가 적응증(2026-08-06)
+- [x] ramipril — Kidney Transplant에 듣는다  <!-- 시험 11건 · 논문 73편 --> — 항목 생성(2026-08-06)
+- [x] ramipril — Non-Diabetic에 듣는다  <!-- 시험 11건 · 논문 53편 --> — 항목 생성(2026-08-06)
+- [x] isometric exercise — Hypertension에 듣는다  <!-- 시험 24건 · 논문 27786편 --> — 항목 생성(2026-08-06)
+- [x] isometric exercise — OA Knee에 듣는다  <!-- 시험 14건 · 논문 2809편 --> — 근거 없음(2026-08-06, "isometric exercise AND OA Knee")
 - [ ] isometric exercise — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 48573편 -->
 - [ ] isometric exercise — Exercise Training에 듣는다  <!-- 시험 8건 · 논문 640766편 -->
 - [ ] aquatic exercise — Chronic Pain에 듣는다  <!-- 시험 10건 · 논문 106편 -->
