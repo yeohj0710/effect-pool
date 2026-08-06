@@ -58,17 +58,17 @@
     "thin_warnings": 264
   },
   "deployment": {
-    "last_entry_count": 1603,
+    "last_entry_count": 1698,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_6qK5tZydk1Vm1DNE38KF6tSubpyh",
     "deployment_state": "READY",
     "deployment_url": "https://offlabel-pool-5p5w6mq3c-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-06",
-    "local_entry_count": 1603,
-    "public_entry_count": 1603,
-    "public_id_field_count": 1608,
+    "local_entry_count": 1698,
+    "public_entry_count": 1698,
+    "public_id_field_count": 1703,
     "counts_match": true,
-    "note": "Six-round check found the public alias on an older-looking build; vercel --prod refreshed it. Final local/public entry counts match."
+    "note": "Six-round check after batch 72 found the public alias already included the latest build; local and public entry counts match, so vercel --prod was not needed."
   },
   "last_batch": [
     "music-based intervention — Cognitive Dysfunction (created music-based-intervention-cognitive-dysfunction-open)",
@@ -201,13 +201,13 @@
   },
   "six_round_check": {
     "date": "2026-08-06",
-    "batches": "60, 61, 62, 63, 65, 66",
-    "no_effect_or_harm_share": "32%",
+    "batches": "67, 68, 69, 70, 71, 72",
+    "no_effect_or_harm_share": "31%",
     "harm_entries": 71,
-    "non_trial_entries": 201,
-    "public_entry_count_local": 1603,
-    "public_entry_count_public": 1603,
+    "non_trial_entries": 224,
+    "public_entry_count_local": 1698,
+    "public_entry_count_public": 1698,
     "public_counts_match": true,
-    "deployment_command": "vercel --prod"
+    "deployment_command": "automatic deployment matched; vercel --prod not needed"
   }
 }
