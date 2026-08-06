@@ -11390,30 +11390,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nebivolol — Angina Pectoris에 듣는다 — 근거 없음(2026-08-06, "nebivolol AND Angina Pectoris")  <!-- 시험 4건 · 논문 32편 -->
 - [x] nebivolol — Erectile Dysfunction에 듣는다 — 근거 없음(2026-08-06, "nebivolol AND Erectile Dysfunction")  <!-- 시험 4건 · 논문 43편 -->
 - [x] nifedipine — Pregnancy에 듣는다 — 항목 생성(nifedipine-pregnancy-open)  <!-- 시험 4건 · 논문 1326편 -->
-- [ ] nifedipine — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 194편 -->
-- [ ] nifedipine — Pre-Eclampsia에 듣는다  <!-- 시험 3건 · 논문 222편 -->
-- [ ] nifedipine — High Altitude에 듣는다  <!-- 시험 3건 · 논문 114편 -->
-- [ ] pioglitazone — Obesity에 듣는다  <!-- 시험 14건 · 논문 885편 -->
-- [ ] pioglitazone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 13건 · 논문 171편 -->
-- [ ] pioglitazone — Impaired Glucose Tolerance에 듣는다  <!-- 시험 12건 · 논문 212편 -->
-- [ ] pioglitazone — HIV에 듣는다  <!-- 시험 12건 · 논문 32편 -->
-- [ ] pravastatin — Hypercholesterolemia에 듣는다  <!-- 시험 18건 · 논문 1221편 -->
-- [ ] pravastatin — HIV에 듣는다  <!-- 시험 16건 · 논문 102편 -->
-- [ ] pravastatin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 2278편 -->
-- [ ] pravastatin — Coronary Artery에 듣는다  <!-- 시험 13건 · 논문 598편 -->
-- [ ] sacubitril valsartan — Hypertension에 듣는다  <!-- 시험 19건 · 논문 410편 -->
-- [ ] sacubitril valsartan — Myocardial Injury에 듣는다  <!-- 시험 9건 · 논문 62편 -->
-- [ ] sacubitril valsartan — Chagas Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 14편 -->
-- [ ] sacubitril valsartan — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 15편 -->
-- [ ] isometric exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 640766편 -->
-- [ ] isometric exercise — Muscle Spasm에 듣는다  <!-- 시험 7건 · 논문 1137편 -->
-- [ ] isometric exercise — Cervical Spine Injury에 듣는다  <!-- 시험 6건 · 논문 513편 -->
-- [ ] isometric exercise — Performance에 듣는다  <!-- 시험 5건 · 논문 198970편 -->
-- [ ] sleep extension — Insomnia에 듣는다  <!-- 시험 3건 · 논문 141편 -->
-- [ ] sleep extension — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 28편 -->
-- [ ] sleep extension — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] sleep extension — Motor Development에 듣는다  <!-- 시험 3건 · 논문 18편 -->
-- [ ] whole body vibration — Knee OA에 듣는다  <!-- 시험 23건 · 논문 30편 -->
-- [ ] whole body vibration — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 70편 -->
-- [ ] whole body vibration — Obesity에 듣는다  <!-- 시험 17건 · 논문 89편 -->
-- [ ] whole body vibration — Muscle Mass에 듣는다  <!-- 시험 15건 · 논문 246편 -->
+- [x] nifedipine — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 194편 --> — 항목 생성(nifedipine-proteinuria-open)
+- [x] nifedipine — Pre-Eclampsia에 듣는다  <!-- 시험 3건 · 논문 222편 --> — 항목 생성(nifedipine-pre-eclampsia-open)
+- [x] nifedipine — High Altitude에 듣는다  <!-- 시험 3건 · 논문 114편 --> — 항목 생성(nifedipine-high-altitude-open)
+- [x] pioglitazone — Obesity에 듣는다  <!-- 시험 14건 · 논문 885편 --> — 항목 생성(pioglitazone-obesity-open)
+- [x] pioglitazone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 13건 · 논문 171편 --> — 항목 생성(pioglitazone-polycystic-ovary-syndrome-open)
+- [x] pioglitazone — Impaired Glucose Tolerance에 듣는다  <!-- 시험 12건 · 논문 212편 --> — 항목 생성(pioglitazone-impaired-glucose-tolerance-pos)
+- [x] pioglitazone — HIV에 듣는다  <!-- 시험 12건 · 논문 32편 --> — 항목 생성(pioglitazone-hiv-lab-pos)
+- [x] pravastatin — Hypercholesterolemia에 듣는다  <!-- 시험 18건 · 논문 1221편 --> — 허가 적응증(2026-08-06)
+- [x] pravastatin — HIV에 듣는다  <!-- 시험 16건 · 논문 102편 --> — 항목 생성(pravastatin-hiv-harm)
+- [x] pravastatin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 2278편 --> — 항목 생성(pravastatin-cardiovascular-disease-open)
+- [x] pravastatin — Coronary Artery에 듣는다  <!-- 시험 13건 · 논문 598편 --> — 항목 생성(pravastatin-coronary-artery-open)
+- [x] sacubitril valsartan — Hypertension에 듣는다  <!-- 시험 19건 · 논문 410편 --> — 항목 생성(sacubitril-valsartan-hypertension-pos)
+- [x] sacubitril valsartan — Myocardial Injury에 듣는다  <!-- 시험 9건 · 논문 62편 --> — 항목 생성(sacubitril-valsartan-myocardial-injury-open)
+- [x] sacubitril valsartan — Chagas Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 14편 --> — 항목 생성(sacubitril-valsartan-chagas-cardiomyopathy-open)
+- [x] sacubitril valsartan — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 15편 --> — 항목 생성(sacubitril-valsartan-breast-cancer-open)
+- [x] isometric exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 640766편 --> — 항목 생성(isometric-exercise-exercise-pos)
+- [x] isometric exercise — Muscle Spasm에 듣는다  <!-- 시험 7건 · 논문 1137편 --> — 근거 없음(2026-08-06, "isometric exercise AND Muscle Spasm")
+- [x] isometric exercise — Cervical Spine Injury에 듣는다  <!-- 시험 6건 · 논문 513편 --> — 근거 없음(2026-08-06, "isometric exercise AND Cervical Spine Injury")
+- [x] isometric exercise — Performance에 듣는다  <!-- 시험 5건 · 논문 198970편 --> — 근거 없음(2026-08-06, "isometric exercise AND Performance")
+- [x] sleep extension — Insomnia에 듣는다  <!-- 시험 3건 · 논문 141편 --> — 근거 없음(2026-08-06, "sleep extension AND Insomnia")
+- [x] sleep extension — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 28편 --> — 항목 생성(sleep-extension-insulin-resistance-open)
+- [x] sleep extension — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-06, "sleep extension AND Attention Deficit Hyperactivity Disorder")
+- [x] sleep extension — Motor Development에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 근거 없음(2026-08-06, "sleep extension AND Motor Development")
+- [x] whole body vibration — Knee OA에 듣는다  <!-- 시험 23건 · 논문 30편 --> — 항목 생성(whole-body-vibration-knee-oa-pos)
+- [x] whole body vibration — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 70편 --> — 항목 생성(whole-body-vibration-cerebral-palsy-null)
+- [x] whole body vibration — Obesity에 듣는다  <!-- 시험 17건 · 논문 89편 --> — 항목 생성(whole-body-vibration-obesity-harm)
+- [x] whole body vibration — Muscle Mass에 듣는다  <!-- 시험 15건 · 논문 246편 --> — 항목 생성(whole-body-vibration-muscle-mass-open)
