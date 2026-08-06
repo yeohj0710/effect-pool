@@ -10400,25 +10400,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketogenic diet — Epilepsy에 듣는다  <!-- 시험 30건 · 논문 2752편 -->
 - [x] ketogenic diet — Bipolar Disorder에 듣는다  <!-- 시험 23건 · 논문 57편 -->
 - [x] ketogenic diet — Cancer에 듣는다  <!-- 시험 19건 · 논문 858편 -->
-- [ ] ketogenic diet — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 2042편 -->
-- [ ] breathing exercises — Asthma에 듣는다  <!-- 시험 9건 · 논문 494편 -->
-- [ ] breathing exercises — Hypertension에 듣는다  <!-- 시험 7건 · 논문 275편 -->
-- [ ] breathing exercises — Respiratory Muscle에 듣는다  <!-- 시험 5건 · 논문 1719편 -->
-- [ ] breathing exercises — Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 160편 -->
-- [ ] health coaching — Obesity에 듣는다  <!-- 시험 30건 · 논문 1243편 -->
-- [ ] health coaching — Cancer에 듣는다  <!-- 시험 28건 · 논문 1701편 -->
-- [ ] health coaching — Hypertension에 듣는다  <!-- 시험 15건 · 논문 447편 -->
-- [ ] health coaching — Cardiovascular Disease에 듣는다  <!-- 시험 11건 · 논문 1191편 -->
-- [ ] behavioral activation — Depressive Episode에 듣는다  <!-- 시험 37건 · 논문 2851편 -->
-- [ ] behavioral activation — Anxiety에 듣는다  <!-- 시험 29건 · 논문 53880편 -->
-- [ ] behavioral activation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 14749편 -->
-- [ ] behavioral activation — Cancer에 듣는다  <!-- 시험 15건 · 논문 112662편 -->
-- [ ] motivational interviewing — Smoking에 듣는다  <!-- 시험 23건 · 논문 743편 -->
-- [ ] motivational interviewing — Substance Use에 듣는다  <!-- 시험 18건 · 논문 1877편 -->
-- [ ] motivational interviewing — Tobacco Use에 듣는다  <!-- 시험 18건 · 논문 444편 -->
-- [ ] motivational interviewing — Cancer에 듣는다  <!-- 시험 17건 · 논문 457편 -->
-- [ ] ensifentrine — COPD에 듣는다  <!-- 시험 3건 · 논문 86편 -->
-- [ ] pelacarsen — Atherosclerotic Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 56편 -->
+- [x] ketogenic diet — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 2042편 -->
+- [x] breathing exercises — Asthma에 듣는다  <!-- 시험 9건 · 논문 494편 -->
+- [x] breathing exercises — Hypertension에 듣는다  <!-- 시험 7건 · 논문 275편 -->
+- [x] breathing exercises — Respiratory Muscle에 듣는다  <!-- 시험 5건 · 논문 1719편 -->
+- [x] breathing exercises — Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 160편 -->
+- [x] health coaching — Obesity에 듣는다  <!-- 시험 30건 · 논문 1243편 -->
+- [x] health coaching — Cancer에 듣는다  <!-- 시험 28건 · 논문 1701편 -->
+- [x] health coaching — Hypertension에 듣는다  <!-- 시험 15건 · 논문 447편 -->
+- [x] health coaching — Cardiovascular Disease에 듣는다  <!-- 시험 11건 · 논문 1191편 -->
+- [x] behavioral activation — Depressive Episode에 듣는다  <!-- 시험 37건 · 논문 2851편 -->
+- [x] behavioral activation — Anxiety에 듣는다  <!-- 시험 29건 · 논문 53880편 -->
+- [x] behavioral activation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 14749편 -->
+- [x] behavioral activation — Cancer에 듣는다  <!-- 시험 15건 · 논문 112662편 -->
+- [x] motivational interviewing — Smoking에 듣는다  <!-- 시험 23건 · 논문 743편 -->
+- [x] motivational interviewing — Substance Use에 듣는다  <!-- 시험 18건 · 논문 1877편 -->
+- [x] motivational interviewing — Tobacco Use에 듣는다  <!-- 시험 18건 · 논문 444편 -->
+- [x] motivational interviewing — Cancer에 듣는다  <!-- 시험 17건 · 논문 457편 -->
+- [x] ensifentrine — COPD에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 86편 -->
+- [x] pelacarsen — Atherosclerotic Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 56편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10429,17 +10429,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sotatercept — Anemia에 듣는다  <!-- 시험 7건 · 논문 61편 -->
-- [ ] sotatercept — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] setmelanotide — Bardet-Biedl Syndrome에 듣는다  <!-- 시험 7건 · 논문 48편 -->
-- [ ] setmelanotide — POMC Deficiency에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] molnupiravir — Viral Infection에 듣는다  <!-- 시험 4건 · 논문 714편 -->
-- [ ] molnupiravir — Respiratory Syncytial Virus에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] cabotegravir — Human Immunodeficiency Virus에 듣는다  <!-- 시험 9건 · 논문 989편 -->
-- [ ] cabotegravir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 505편 -->
-- [ ] family therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 7174편 -->
-- [ ] family therapy — Mental Health에 듣는다  <!-- 시험 7건 · 논문 19828편 -->
-- [ ] family therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 15870편 -->
+- [x] sotatercept — Anemia에 듣는다  <!-- 시험 7건 · 논문 61편 -->
+- [x] sotatercept — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] setmelanotide — Bardet-Biedl Syndrome에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 48편 -->
+- [x] setmelanotide — POMC Deficiency에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 17편 -->
+- [x] molnupiravir — Viral Infection에 듣는다  <!-- 시험 4건 · 논문 714편 -->
+- [x] molnupiravir — Respiratory Syncytial Virus에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [x] cabotegravir — Human Immunodeficiency Virus에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 989편 -->
+- [x] cabotegravir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 505편 -->
+- [x] family therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 7174편 -->
+- [x] family therapy — Mental Health에 듣는다  <!-- 시험 7건 · 논문 19828편 -->
+- [x] family therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 15870편 -->
 - [ ] family therapy — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 2058편 -->
 - [ ] forest bathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
 - [ ] breathwork — Stress에 듣는다  <!-- 시험 5건 · 논문 51편 -->

@@ -1,0 +1,29 @@
+{
+  "id": "behavioral-activation-depressive-episode-pos",
+  "subj": "행동 활성화",
+  "claim": "행동 활성화가 성인 우울 에피소드의 증상을 줄이는가",
+  "line": "행동 활성화는 우울증에서 통상치료보다 증상을 줄였지만 인지치료와 차이는 없었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3382,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "행동 활성화는 우울 에피소드의 의약품 허가 치료가 아닌 심리치료다.",
+  "why": "활동 회복과 회피 감소를 목표로 하는 행동 활성화의 우울 증상 효과를 다른 심리치료와 비교했다.",
+  "saw": "네트워크 메타분석은 45개 연구 3,382명을 포함했고 행동 활성화의 SMD는 통상치료 대비 0.52, 대기목록 대비 1.15였다.",
+  "limit": "연구의 치료 형식과 대조군이 달랐고 행동 활성화가 인지치료보다 우월하다는 근거는 없었다.",
+  "against": "초기 중증 우울에서는 항우울제와 비슷했지만 연구마다 장기 추적과 치료 충실도 보고가 달랐다.",
+  "use": "우울증 연구에서는 행동 활성화를 다른 심리치료와 구분해 증상·기능·재발을 따로 추적한다.",
+  "effect": "통상치료 대비 우울 SMD 0.52",
+  "refs": [
+    { "label": "우울증 행동 활성화 네트워크 메타분석", "doi": "10.1037/ccp0000654", "pmid": "34264703" },
+    { "label": "우울증 행동 활성화·인지치료·항우울제 무작위시험", "doi": "10.1037/0022-006X.74.4.658", "pmid": "16881773" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=behavioral activation · cond=Depressive Episode · 6건 반환(중재명 대조)",
+    "pubmed": "behavioral activation AND Depressive Episode · 2,851편",
+    "negative": "behavioral activation AND Depressive Episode AND (no effect OR did not OR failed OR no significant difference) · 1,780편",
+    "safety": "behavioral activation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 136,503편"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "behavioral-activation-anxiety-pos",
+  "subj": "행동 활성화",
+  "claim": "우울증에 적용한 행동 활성화가 불안 증상도 줄이는가",
+  "line": "우울증 행동 활성화가 불안을 g=0.37 줄였지만 적극적 치료와 차이는 없었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "행동 활성화는 불안장애의 의약품 허가 치료가 아닌 심리중재다.",
+  "why": "불안장애만을 대상으로 한 연구가 아니라 우울증 행동 활성화 시험에서 불안 증상도 함께 변했는지 확인했다.",
+  "saw": "우울증 행동 활성화 무작위시험 28개 메타분석에서 비활성 대조군 대비 불안 Hedges g는 0.37, 적극적 대조군 대비는 0.03이었다.",
+  "limit": "포함 대상이 주로 우울증 환자였고 메타분석에 참가자 총수가 초록에 제시되지 않았으며 연구 질이 낮고 출판편향이 있었다.",
+  "against": "인지치료 등 적극적 치료와 비교하면 불안 증상 차이가 유의하지 않았다.",
+  "use": "불안 증상 연구에서는 우울증 동반 환자에서의 보조 신호와 불안장애 자체 치료 효과를 구분한다.",
+  "effect": "비활성 대조군 대비 불안 g 0.37",
+  "refs": [
+    { "label": "행동 활성화의 불안 증상 효과 메타분석", "doi": "10.1017/S0033291720000239", "pmid": "32138802" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=behavioral activation · cond=Anxiety · 195건 반환(중재명 대조)",
+    "pubmed": "behavioral activation AND Anxiety · 53,880편",
+    "negative": "behavioral activation AND Anxiety AND (no effect OR did not OR failed OR no significant difference) · 37,546편",
+    "safety": "behavioral activation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 136,503편"
+  }
+}

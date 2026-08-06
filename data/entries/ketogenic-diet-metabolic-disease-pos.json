@@ -1,0 +1,29 @@
+{
+  "id": "ketogenic-diet-metabolic-disease-pos",
+  "subj": "케톤식",
+  "claim": "케톤식이 과체중 제2형 당뇨병 환자의 대사 지표를 개선하는가",
+  "line": "당뇨병 케톤식 메타분석에서 체중·혈당·중성지방이 줄고 HDL이 늘었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "케톤식은 대사질환 치료의 의약품 허가 적응증이 아닌 식이중재다.",
+  "why": "케톤식이 체중과 혈당·지질 지표를 함께 바꾸는지 무작위시험을 합쳐 확인했다.",
+  "saw": "무작위시험 8개를 합친 메타분석에서 체중 SMD -5.63, 당화혈색소 SMD -0.38, 중성지방 SMD -0.36, HDL 콜레스테롤 SMD 0.28이었다.",
+  "limit": "초록에 메타분석에 포함된 총 인원이 제시되지 않았고 연구 수가 8개로 적으며 식단 구성과 대조식이의 차이가 컸다.",
+  "against": "케톤식은 LDL 콜레스테롤을 크게 올릴 수 있고 장기 심혈관 결과를 비교한 시험은 부족하다는 안전성 검토가 있다.",
+  "use": "대사질환 연구에서는 체중·혈당·지질을 함께 보고 LDL 상승과 장기 순응도를 따로 확인한다.",
+  "effect": "HbA1c SMD -0.38",
+  "refs": [
+    { "label": "과체중 제2형 당뇨병 케톤식 무작위시험 메타분석", "doi": "10.3390/ijerph191610429", "pmid": "36012064" },
+    { "label": "케톤식의 장단점과 LDL 상승 검토", "doi": "10.1016/j.atherosclerosis.2019.11.021", "pmid": "31805451" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=ketogenic diet · cond=Metabolic Disease · 236건 반환(중재명 대조)",
+    "pubmed": "ketogenic diet AND Metabolic Disease · 2,042편",
+    "negative": "ketogenic diet AND Metabolic Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 1,401편",
+    "safety": "ketogenic diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1,995편"
+  }
+}
