@@ -1,0 +1,28 @@
+{
+  "id": "qigong-depressive-symptoms-pos",
+  "subj": "기공",
+  "claim": "우울 증상에 기공을 사용하는가",
+  "line": "COPD 환자 기공 메타분석에서 기공을 더한 치료가 우울 점수를 낮췄다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 415,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "기공은 우울증의 허가 치료가 아닌 운동·호흡 보조중재다.",
+  "why": "규칙적인 호흡과 움직임이 우울 증상과 신체 기능에 미치는 영향을 평가한다.",
+  "saw": "6개 연구 415명에서 기공과 기존 치료를 병행한 군의 우울 SDS 점수는 대조군보다 MD -3.99였다.",
+  "limit": "대상이 COPD 환자라 일반적인 우울증 환자에게 효과를 그대로 적용하기 어렵다.",
+  "against": "중증 우울증이나 자살 위험의 진단과 치료를 기공으로 대체할 수 없다.",
+  "use": "정신건강 치료와 호흡 재활에 더하는 보조 운동으로 고려한다.",
+  "effect": "우울 SDS MD -3.99",
+  "refs": [
+    { "label": "COPD 기공 우울·불안 메타분석", "doi": "10.1097/MD.0000000000015776", "pmid": "31145299" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=qigong · cond=Depressive Symptoms · 9건",
+    "pubmed": "qigong AND Depressive Symptoms · 335편",
+    "negative": "qigong AND Depressive Symptoms AND (no effect OR did not OR failed to OR negative OR no significant difference) · 288편",
+    "safety": "qigong AND (adverse OR toxicity OR case report) · 229편"
+  }
+}

@@ -10330,31 +10330,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] art therapy — Malaria에 듣는다 — 근거 없음(2026-08-06, art therapy AND Malaria)  <!-- 시험 41건 · 논문 609편 -->
-- [ ] art therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 10768편 -->
-- [ ] art therapy — Stress에 듣는다  <!-- 시험 11건 · 논문 2054편 -->
-- [ ] art therapy — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1367편 -->
-- [ ] qigong — Neck Pain에 듣는다  <!-- 시험 14건 · 논문 36편 -->
-- [ ] qigong — Women Health에 듣는다  <!-- 시험 8건 · 논문 106편 -->
-- [ ] qigong — Depression에 듣는다  <!-- 시험 7건 · 논문 343편 -->
-- [ ] qigong — Depressive Symptoms에 듣는다  <!-- 시험 5건 · 논문 335편 -->
-- [ ] pilates — Exercise에 듣는다  <!-- 시험 21건 · 논문 1144편 -->
-- [ ] pilates — Muscle Weakness에 듣는다  <!-- 시험 16건 · 논문 9편 -->
-- [ ] pilates — Multiple Sclerosis에 듣는다  <!-- 시험 14건 · 논문 54편 -->
-- [ ] physical therapy — Chronic Pain에 듣는다  <!-- 시험 7건 · 논문 25152편 -->
-- [ ] physical therapy — Subacromial Impingement에 듣는다  <!-- 시험 6건 · 논문 560편 -->
-- [ ] physical therapy — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 5867편 -->
-- [ ] physical therapy — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 10249편 -->
-- [ ] dietary counseling — Pre Diabetes에 듣는다  <!-- 시험 13건 · 논문 281편 -->
-- [ ] dietary counseling — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 332편 -->
-- [ ] dietary counseling — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 417편 -->
-- [ ] dietary counseling — Malnutrition에 듣는다  <!-- 시험 5건 · 논문 907편 -->
-- [ ] aticaprant — Anhedonia에 듣는다  <!-- 시험 4건 · 논문 38편 -->
-- [ ] tecovirimat — Smallpox에 듣는다  <!-- 시험 4건 · 논문 229편 -->
-- [ ] tapinarof — Atopic Dermatitis에 듣는다  <!-- 시험 6건 · 논문 107편 -->
-- [ ] spesolimab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] faricimab — Macular Edema에 듣는다  <!-- 시험 23건 · 논문 248편 -->
-- [ ] faricimab — Retinal Vein Occlusion에 듣는다  <!-- 시험 9건 · 논문 62편 -->
-- [ ] faricimab — Choroidal Neovascularization에 듣는다  <!-- 시험 6건 · 논문 73편 -->
+- [x] art therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 10768편 -->
+- [x] art therapy — Stress에 듣는다  <!-- 시험 11건 · 논문 2054편 -->
+- [x] art therapy — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1367편 -->
+- [x] qigong — Neck Pain에 듣는다  <!-- 시험 14건 · 논문 36편 -->
+- [x] qigong — Women Health에 듣는다  <!-- 시험 8건 · 논문 106편 -->
+- [x] qigong — Depression에 듣는다  <!-- 시험 7건 · 논문 343편 -->
+- [x] qigong — Depressive Symptoms에 듣는다  <!-- 시험 5건 · 논문 335편 -->
+- [x] pilates — Exercise에 듣는다  <!-- 시험 21건 · 논문 1144편 -->
+- [x] pilates — Muscle Weakness에 듣는다  <!-- 시험 16건 · 논문 9편 -->
+- [x] pilates — Multiple Sclerosis에 듣는다  <!-- 시험 14건 · 논문 54편 -->
+- [x] physical therapy — Chronic Pain에 듣는다  <!-- 시험 7건 · 논문 25152편 -->
+- [x] physical therapy — Subacromial Impingement에 듣는다  <!-- 시험 6건 · 논문 560편 -->
+- [x] physical therapy — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 5867편 -->
+- [x] physical therapy — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 10249편 -->
+- [x] dietary counseling — Pre Diabetes에 듣는다  <!-- 시험 13건 · 논문 281편 -->
+- [x] dietary counseling — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 332편 -->
+- [x] dietary counseling — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 417편 -->
+- [x] dietary counseling — Malnutrition에 듣는다  <!-- 시험 5건 · 논문 907편 -->
+- [x] aticaprant — Anhedonia에 듣는다  <!-- 시험 4건 · 논문 38편 -->
+- [x] tecovirimat — Smallpox에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 229편 -->
+- [x] tapinarof — Atopic Dermatitis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 107편 -->
+- [x] spesolimab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [x] faricimab — Macular Edema에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 23건 · 논문 248편 -->
+- [x] faricimab — Retinal Vein Occlusion에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 62편 -->
+- [x] faricimab — Choroidal Neovascularization에 듣는다  <!-- 시험 6건 · 논문 73편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10365,11 +10365,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acceptance and commitment therapy — Pain에 듣는다  <!-- 시험 58건 · 논문 592편 -->
-- [ ] acceptance and commitment therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 388편 -->
-- [ ] acceptance and commitment therapy — Depression에 듣는다  <!-- 시험 28건 · 논문 1077편 -->
-- [ ] acceptance and commitment therapy — Distress에 듣는다  <!-- 시험 28건 · 논문 608편 -->
-- [ ] dialectical behavior therapy — Suicide에 듣는다  <!-- 시험 12건 · 논문 549편 -->
+- [x] acceptance and commitment therapy — Pain에 듣는다  <!-- 시험 58건 · 논문 592편 -->
+- [x] acceptance and commitment therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 388편 -->
+- [x] acceptance and commitment therapy — Depression에 듣는다  <!-- 시험 28건 · 논문 1077편 -->
+- [x] acceptance and commitment therapy — Distress에 듣는다  <!-- 시험 28건 · 논문 608편 -->
+- [x] dialectical behavior therapy — Suicide에 듣는다  <!-- 시험 12건 · 논문 549편 -->
 - [ ] dialectical behavior therapy — Bulimia Nervosa에 듣는다  <!-- 시험 11건 · 논문 39편 -->
 - [ ] dialectical behavior therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 49편 -->
 - [ ] dialectical behavior therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 452편 -->
