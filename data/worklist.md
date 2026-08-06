@@ -10860,36 +10860,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] parent training — Attention Deficit에 듣는다  <!-- 시험 24건 · 논문 3478편 --> — 항목 생성(2026-08-06)
 - [x] parent training — Child에 듣는다  <!-- 시험 23건 · 논문 94086편 --> — 근거 없음(2026-08-06, "parent training AND Child")
 - [x] parent training — Obesity에 듣는다  <!-- 시험 16건 · 논문 6397편 --> — 항목 생성(2026-08-06)
-- [ ] behavioral parent training — Obesity에 듣는다  <!-- 시험 17건 · 논문 4159편 -->
-- [ ] behavioral parent training — Problem Behavior에 듣는다  <!-- 시험 16건 · 논문 3097편 -->
-- [ ] behavioral parent training — Autism에 듣는다  <!-- 시험 15건 · 논문 3252편 -->
-- [ ] behavioral parent training — Attention Deficit에 듣는다  <!-- 시험 14건 · 논문 2591편 -->
-- [ ] family skills training — Depression에 듣는다  <!-- 시험 9건 · 논문 1439편 -->
-- [ ] family skills training — Substance Use에 듣는다  <!-- 시험 8건 · 논문 829편 -->
-- [ ] family skills training — Behavior에 듣는다  <!-- 시험 8건 · 논문 13473편 -->
-- [ ] family skills training — Anorexia Nervosa에 듣는다  <!-- 시험 6건 · 논문 53편 -->
-- [ ] sleep coaching — Stress에 듣는다  <!-- 시험 9건 · 논문 273편 -->
-- [ ] sleep coaching — Type 1 Diabetes에 듣는다  <!-- 시험 7건 · 논문 8편 -->
-- [ ] sleep coaching — Cancer에 듣는다  <!-- 시험 5건 · 논문 77편 -->
-- [ ] sleep coaching — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 30편 -->
-- [ ] sleep diary — Cancer에 듣는다  <!-- 시험 35건 · 논문 299편 -->
-- [ ] sleep diary — Depression에 듣는다  <!-- 시험 11건 · 논문 963편 -->
-- [ ] sleep diary — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 319편 -->
-- [ ] sleep diary — Pain에 듣는다  <!-- 시험 9건 · 논문 612편 -->
-- [ ] acceptance-based therapy — Obesity에 듣는다  <!-- 시험 5건 · 논문 57편 -->
-- [ ] acceptance-based therapy — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 50편 -->
-- [ ] acceptance-based therapy — Anxiety에 듣는다  <!-- 시험 3건 · 논문 139편 -->
-- [ ] cooking skills — Diet에 듣는다  <!-- 시험 7건 · 논문 515편 -->
-- [ ] cooking skills — Family Health에 듣는다  <!-- 시험 3건 · 논문 235편 -->
-- [ ] diet quality counseling — Obesity에 듣는다  <!-- 시험 59건 · 논문 458편 -->
-- [ ] diet quality counseling — Diabetes에 듣는다  <!-- 시험 19건 · 논문 341편 -->
-- [ ] diet quality counseling — Weight Loss에 듣는다  <!-- 시험 15건 · 논문 288편 -->
-- [ ] diet quality counseling — Malnutrition에 듣는다  <!-- 시험 12건 · 논문 169편 -->
-- [ ] loving-kindness meditation — Depression에 듣는다  <!-- 시험 3건 · 논문 42편 -->
-- [ ] loving-kindness meditation — MM Group에 듣는다  <!-- 시험 3건 · 논문 101편 -->
-- [ ] transcendental meditation — Burnout에 듣는다  <!-- 시험 5건 · 논문 349편 -->
-- [ ] transcendental meditation — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 549편 -->
-- [ ] transcendental meditation — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+- [x] behavioral parent training — Obesity에 듣는다  <!-- 시험 17건 · 논문 4159편 --> — 항목 생성(2026-08-06)
+- [x] behavioral parent training — Problem Behavior에 듣는다  <!-- 시험 16건 · 논문 3097편 --> — 근거 없음(2026-08-06, "behavioral parent training AND Problem Behavior")
+- [x] behavioral parent training — Autism에 듣는다  <!-- 시험 15건 · 논문 3252편 --> — 근거 없음(2026-08-06, "behavioral parent training AND Autism")
+- [x] behavioral parent training — Attention Deficit에 듣는다  <!-- 시험 14건 · 논문 2591편 --> — 항목 생성(2026-08-06)
+- [x] family skills training — Depression에 듣는다  <!-- 시험 9건 · 논문 1439편 --> — 근거 없음(2026-08-06, "family skills training AND Depression")
+- [x] family skills training — Substance Use에 듣는다  <!-- 시험 8건 · 논문 829편 --> — 근거 없음(2026-08-06, "family skills training AND Substance Use")
+- [x] family skills training — Behavior에 듣는다  <!-- 시험 8건 · 논문 13473편 --> — 근거 없음(2026-08-06, "family skills training AND Behavior")
+- [x] family skills training — Anorexia Nervosa에 듣는다  <!-- 시험 6건 · 논문 53편 --> — 항목 생성(2026-08-06)
+- [x] sleep coaching — Stress에 듣는다  <!-- 시험 9건 · 논문 273편 --> — 근거 없음(2026-08-06, "sleep coaching AND Stress")
+- [x] sleep coaching — Type 1 Diabetes에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 항목 생성(2026-08-06)
+- [x] sleep coaching — Cancer에 듣는다  <!-- 시험 5건 · 논문 77편 --> — 근거 없음(2026-08-06, "sleep coaching AND Cancer")
+- [x] sleep coaching — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 30편 --> — 근거 없음(2026-08-06, "sleep coaching AND Blood Pressure")
+- [x] sleep diary — Cancer에 듣는다  <!-- 시험 35건 · 논문 299편 --> — 근거 없음(2026-08-06, "sleep diary AND Cancer")
+- [x] sleep diary — Depression에 듣는다  <!-- 시험 11건 · 논문 963편 --> — 근거 없음(2026-08-06, "sleep diary AND Depression")
+- [x] sleep diary — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 319편 --> — 근거 없음(2026-08-06, "sleep diary AND Cognitive Disorder")
+- [x] sleep diary — Pain에 듣는다  <!-- 시험 9건 · 논문 612편 --> — 근거 없음(2026-08-06, "sleep diary AND Pain")
+- [x] acceptance-based therapy — Obesity에 듣는다  <!-- 시험 5건 · 논문 57편 --> — 항목 생성(2026-08-06)
+- [x] acceptance-based therapy — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 50편 --> — 항목 생성(2026-08-06)
+- [x] acceptance-based therapy — Anxiety에 듣는다  <!-- 시험 3건 · 논문 139편 --> — 항목 생성(2026-08-06)
+- [x] cooking skills — Diet에 듣는다  <!-- 시험 7건 · 논문 515편 --> — 근거 없음(2026-08-06, "cooking skills AND Diet")
+- [x] cooking skills — Family Health에 듣는다  <!-- 시험 3건 · 논문 235편 --> — 항목 생성(2026-08-06)
+- [x] diet quality counseling — Obesity에 듣는다  <!-- 시험 59건 · 논문 458편 --> — 근거 없음(2026-08-06, "diet quality counseling AND Obesity")
+- [x] diet quality counseling — Diabetes에 듣는다  <!-- 시험 19건 · 논문 341편 --> — 근거 없음(2026-08-06, "diet quality counseling AND Diabetes")
+- [x] diet quality counseling — Weight Loss에 듣는다  <!-- 시험 15건 · 논문 288편 --> — 근거 없음(2026-08-06, "diet quality counseling AND Weight Loss")
+- [x] diet quality counseling — Malnutrition에 듣는다  <!-- 시험 12건 · 논문 169편 --> — 근거 없음(2026-08-06, "diet quality counseling AND Malnutrition")
+- [x] loving-kindness meditation — Depression에 듣는다  <!-- 시험 3건 · 논문 42편 --> — 항목 생성(2026-08-06)
+- [x] loving-kindness meditation — MM Group에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 근거 없음(2026-08-06, "loving-kindness meditation AND MM Group")
+- [x] transcendental meditation — Burnout에 듣는다  <!-- 시험 5건 · 논문 349편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Burnout")
+- [x] transcendental meditation — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 549편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Cardiovascular Disease")
+- [x] transcendental meditation — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Coronary Heart Disease")
 - [ ] music-based intervention — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 21편 -->
 - [ ] dance intervention — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 216편 -->
 - [ ] dance intervention — Cancer에 듣는다  <!-- 시험 14건 · 논문 396편 -->
