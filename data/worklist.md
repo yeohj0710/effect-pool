@@ -11644,10 +11644,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] light exposure — Depression에 듣는다  <!-- 시험 29건 · 논문 1690편 --> — 근거 없음(2026-08-06 조회, "light exposure AND Depression")
 - [x] light exposure — Circadian Rhythm에 듣는다  <!-- 시험 19건 · 논문 4033편 --> — 항목 생성(2026-08-06)
 - [x] light exposure — Dementia에 듣는다  <!-- 시험 12건 · 논문 446편 --> — 항목 생성(2026-08-06)
-- [ ] light exposure — Cancer에 듣는다  <!-- 시험 12건 · 논문 13635편 -->
-- [ ] nature sounds — Pain에 듣는다  <!-- 시험 4건 · 논문 384편 -->
-- [ ] nature sounds — Stress에 듣는다  <!-- 시험 4건 · 논문 827편 -->
-- [ ] nature sounds — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 84편 -->
+- [x] light exposure — Cancer에 듣는다  <!-- 시험 12건 · 논문 13635편 --> — 항목 생성(2026-08-06)
+- [x] nature sounds — Pain에 듣는다  <!-- 시험 4건 · 논문 384편 --> — 항목 생성(2026-08-06)
+- [x] nature sounds — Stress에 듣는다  <!-- 시험 4건 · 논문 827편 --> — 항목 생성(2026-08-06)
+- [x] nature sounds — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 84편 --> — 근거 없음(2026-08-06 조회, "nature sounds AND Virtual Reality")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11658,32 +11658,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ginseng — Blood Pressure에 듣는다  <!-- 시험 9건 · 논문 366편 -->
-- [ ] ginseng — Fatigue에 듣는다  <!-- 시험 8건 · 논문 360편 -->
-- [ ] ginseng — Diabetes에 듣는다  <!-- 시험 8건 · 논문 943편 -->
-- [ ] ginseng — Hypertension에 듣는다  <!-- 시험 7건 · 논문 226편 -->
-- [ ] rhodiola — Sleep Quality에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] l-theanine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] beta alanine — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 1129편 -->
-- [ ] beta alanine — Dietary Supplement에 듣는다  <!-- 시험 3건 · 논문 569편 -->
-- [ ] collagen peptides — Pain에 듣는다  <!-- 시험 13건 · 논문 1287편 -->
-- [ ] collagen peptides — Muscle Loss에 듣는다  <!-- 시험 9건 · 논문 714편 -->
-- [ ] collagen peptides — Knee Injuries에 듣는다  <!-- 시험 8건 · 논문 210편 -->
-- [ ] collagen peptides — Wound Heal에 듣는다  <!-- 시험 5건 · 논문 6331편 -->
-- [ ] dietary fiber — Pre Diabetes에 듣는다  <!-- 시험 8건 · 논문 244편 -->
-- [ ] dietary fiber — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 3352편 -->
-- [ ] dietary fiber — Obesity에 듣는다  <!-- 시험 5건 · 논문 4690편 -->
-- [ ] resistant starch — Obesity에 듣는다  <!-- 시험 12건 · 논문 317편 -->
-- [ ] resistant starch — Diabetes에 듣는다  <!-- 시험 6건 · 논문 475편 -->
-- [ ] resistant starch — Hyperglycemia에 듣는다  <!-- 시험 5건 · 논문 53편 -->
-- [ ] resistant starch — Blood Sugar에 듣는다  <!-- 시험 4건 · 논문 512편 -->
-- [ ] cocoa flavanols — Vascular Health에 듣는다  <!-- 시험 4건 · 논문 83편 -->
-- [ ] cocoa flavanols — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 176편 -->
-- [ ] cocoa flavanols — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] cocoa flavanols — Diabetes에 듣는다  <!-- 시험 3건 · 논문 73편 -->
-- [ ] green tea extract — Diabetes에 듣는다  <!-- 시험 8건 · 논문 652편 -->
-- [ ] green tea extract — Obesity에 듣는다  <!-- 시험 7건 · 논문 639편 -->
-- [ ] green tea extract — Inflammation에 듣는다  <!-- 시험 5건 · 논문 836편 -->
+- [x] ginseng — Blood Pressure에 듣는다  <!-- 시험 9건 · 논문 366편 --> — 항목 생성(2026-08-06)
+- [x] ginseng — Fatigue에 듣는다  <!-- 시험 8건 · 논문 360편 --> — 근거 없음(2026-08-06 조회, "ginseng AND Fatigue")
+- [x] ginseng — Diabetes에 듣는다  <!-- 시험 8건 · 논문 943편 --> — 항목 생성(2026-08-06)
+- [x] ginseng — Hypertension에 듣는다  <!-- 시험 7건 · 논문 226편 --> — 근거 없음(2026-08-06 조회, "ginseng AND Hypertension")
+- [x] rhodiola — Sleep Quality에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 항목 생성(2026-08-06)
+- [x] l-theanine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목 생성(2026-08-06)
+- [x] beta alanine — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 1129편 --> — 항목 생성(2026-08-06)
+- [x] beta alanine — Dietary Supplement에 듣는다  <!-- 시험 3건 · 논문 569편 --> — 근거 없음(2026-08-06 조회, "beta alanine AND Dietary Supplement")
+- [x] collagen peptides — Pain에 듣는다  <!-- 시험 13건 · 논문 1287편 --> — 항목 생성(2026-08-06)
+- [x] collagen peptides — Muscle Loss에 듣는다  <!-- 시험 9건 · 논문 714편 --> — 근거 없음(2026-08-06 조회, "collagen peptides AND Muscle Loss")
+- [x] collagen peptides — Knee Injuries에 듣는다  <!-- 시험 8건 · 논문 210편 --> — 항목 생성(2026-08-06)
+- [x] collagen peptides — Wound Heal에 듣는다  <!-- 시험 5건 · 논문 6331편 --> — 항목 생성(2026-08-06)
+- [x] dietary fiber — Pre Diabetes에 듣는다  <!-- 시험 8건 · 논문 244편 --> — 항목 생성(2026-08-06)
+- [x] dietary fiber — Malignant Neoplasm에 듣는다  <!-- 시험 8건 · 논문 3352편 --> — 근거 없음(2026-08-06 조회, "dietary fiber AND Malignant Neoplasm")
+- [x] dietary fiber — Obesity에 듣는다  <!-- 시험 5건 · 논문 4690편 --> — 근거 없음(2026-08-06 조회, "dietary fiber AND Obesity")
+- [x] resistant starch — Obesity에 듣는다  <!-- 시험 12건 · 논문 317편 --> — 항목 생성(2026-08-06)
+- [x] resistant starch — Diabetes에 듣는다  <!-- 시험 6건 · 논문 475편 --> — 근거 없음(2026-08-06 조회, "resistant starch AND Diabetes")
+- [x] resistant starch — Hyperglycemia에 듣는다  <!-- 시험 5건 · 논문 53편 --> — 근거 없음(2026-08-06 조회, "resistant starch AND Hyperglycemia")
+- [x] resistant starch — Blood Sugar에 듣는다  <!-- 시험 4건 · 논문 512편 --> — 항목 생성(2026-08-06)
+- [x] cocoa flavanols — Vascular Health에 듣는다  <!-- 시험 4건 · 논문 83편 --> — 항목 생성(2026-08-06)
+- [x] cocoa flavanols — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 176편 --> — 항목 생성(2026-08-06)
+- [x] cocoa flavanols — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목 생성(2026-08-06)
+- [x] cocoa flavanols — Diabetes에 듣는다  <!-- 시험 3건 · 논문 73편 --> — 근거 없음(2026-08-06 조회, "cocoa flavanols AND Diabetes")
+- [x] green tea extract — Diabetes에 듣는다  <!-- 시험 8건 · 논문 652편 --> — 근거 없음(2026-08-06 조회, "green tea extract AND Diabetes")
+- [x] green tea extract — Obesity에 듣는다  <!-- 시험 7건 · 논문 639편 --> — 근거 없음(2026-08-06 조회, "green tea extract AND Obesity")
+- [x] green tea extract — Inflammation에 듣는다  <!-- 시험 5건 · 논문 836편 --> — 항목 생성(2026-08-06)
 - [ ] prebiotic — Microbiota에 듣는다  <!-- 시험 14건 · 논문 9578편 -->
 - [ ] prebiotic — Constipation에 듣는다  <!-- 시험 13건 · 논문 370편 -->
 - [ ] prebiotic — Stress에 듣는다  <!-- 시험 12건 · 논문 1448편 -->

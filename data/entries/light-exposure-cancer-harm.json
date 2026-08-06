@@ -1,0 +1,28 @@
+{
+  "id": "light-exposure-cancer-harm",
+  "subj": "광 노출",
+  "claim": "야간 인공광 노출과 암 사망 위험 증가를 연결한다",
+  "line": "야간 인공광 노출이 높은 코호트에서 유방암과 전립선암 사망이 많았습니다",
+  "effect": "암 사망 위험 증가 연관",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 6325139,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "암 사망 위험 관리는 광 노출의 허가 적응증이 아닙니다.",
+  "why": "위성으로 추정한 야외 야간 인공광과 암 사망을 대규모 코호트에서 관찰했습니다.",
+  "saw": "네덜란드 성인 6,325,139명을 2013~2023년 추적했습니다. 야간 인공광 노출은 자연사망과 제2형당뇨병·비만·유방암·전립선암 사망과 양의 연관을 보였고, 유방암·전립선암 연관은 환경요인 보정 뒤 나타났습니다.",
+  "limit": "사람을 빛에 배정한 시험이 아니며 주거지·생활습관·사회경제 요인의 잔여 교란을 배제할 수 없습니다.",
+  "against": "관찰연구라 야간 인공광이 암 사망을 일으킨다고 단정할 수 없습니다.",
+  "use": "야간 빛 노출을 줄이는 암 예방 연구의 안전성 신호로만 기록합니다.",
+  "refs": [
+    { "label": "야외 야간 인공광·암 사망 네덜란드 전향 코호트", "doi": "10.1016/j.envint.2026.110437", "pmid": "42531978" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=light exposure · cond=Cancer → 33건 반환, 물질 대조 후 33건",
+    "pubmed": "light exposure AND Cancer → 13635편",
+    "negative": "light exposure AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) → 10739편",
+    "safety": "light exposure AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 24518편"
+  }
+}
