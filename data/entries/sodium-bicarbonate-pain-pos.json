@@ -1,0 +1,31 @@
+{
+  "id": "sodium-bicarbonate-pain-pos",
+  "subj": "중탄산나트륨",
+  "claim": "중탄산나트륨을 국소마취제에 섞어 주사 통증을 줄인다",
+  "line": "백내장 수술 환자 100명에서 중탄산나트륨을 섞은 국소마취가 히알루로니다제보다 주사 통증을 줄였습니다",
+  "effect": "주사 통증 점수 5.12 대 7.16, 마취 시작은 더 빨랐지만 안구운동 억제는 히알루로니다제가 나았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "국소마취제 완충을 통한 주사 통증 감소는 중탄산나트륨의 허가 적응증이 아닙니다.",
+  "why": "국소마취제에 중탄산나트륨을 섞은 직접 비교 무작위시험에서 주사 통증과 마취 시작 시간이 좋아졌습니다.",
+  "saw": "백내장 수술 환자 100명을 나눠 비교한 전향적 이중맹검 시험에서 중탄산나트륨 혼합군의 통증 점수는 5.12, 히알루로니다제 혼합군은 7.16이었고 중탄산나트륨군의 마취 시작이 빨랐습니다. 안구운동 억제는 히알루로니다제군이 더 좋았습니다.",
+  "limit": "단일 소규모 수술 시험이고 통증 감소가 모든 통증 질환이나 모든 국소마취 상황으로 일반화되지는 않습니다.",
+  "against": "국소마취제 완충 연구를 검토한 논문은 효과와 위험이 혼재한다고 정리했고, 종양 관련 통증 보조시험은 9명 규모로 중단돼 결과가 없습니다.",
+  "use": "중탄산나트륨의 통증 관련 근거를 전신 진통이 아닌 국소마취 주사 통증 감소로 한정합니다.",
+  "refs": [
+    { "label": "백내장 수술 주사 통증 무작위시험", "pmid": "36249141" },
+    { "label": "상악 견치 침윤마취 주사 통증 시험", "pmid": "39600451" },
+    { "label": "국소마취제 완충 문헌고찰 · 효과·위험 혼재", "pmid": "41363872" },
+    { "label": "종양 관련 통증 보조시험 · 중단", "nct": "NCT01846429" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sodium bicarbonate · cond=Pain → 70건 반환, 물질 대조 후 22건",
+    "pubmed": "sodium bicarbonate AND Pain → 647편",
+    "negative": "sodium bicarbonate AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 446편",
+    "safety": "sodium bicarbonate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3769편"
+  }
+}

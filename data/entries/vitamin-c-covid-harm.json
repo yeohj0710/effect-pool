@@ -1,0 +1,30 @@
+{
+  "id": "vitamin-c-covid-harm",
+  "subj": "비타민 C",
+  "claim": "정주 비타민 C가 입원 COVID-19 환자의 회복을 돕는다",
+  "line": "입원 COVID-19 환자 2,590명 시험에서 정주 비타민 C는 장기 지지 없이 살아 퇴원하는 기간을 늘리지 못했고 무용·해로움 신호로 중단됐습니다",
+  "effect": "중환자 장기지지 없는 날 adjusted OR 0.88, 비중환자 0.80; 두 집단 모두 효능보다 무용·해로움 확률이 높음",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 2590,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "COVID-19 치료용 정주 비타민 C는 허가 적응증이 아닙니다.",
+  "why": "두 대규모 무작위시험을 조화시킨 분석에서 정주 비타민 C가 입원 COVID-19 환자의 장기 지지 없는 생존 기간을 늘리지 못했고 해로움·무용 기준으로 시험이 종료됐습니다.",
+  "saw": "중환자 1,568명과 비중환자 1,022명, 총 2,590명을 포함한 두 무작위시험에서 중환자군의 장기지지 없는 날은 비타민 C군 중앙값 7일, 대조군 10일이었고 비중환자군은 두 군 모두 22일이었습니다. 통계적 해로움과 무용 기준을 충족해 등록을 종료했습니다.",
+  "limit": "정주 치료와 입원 환자에 한정된 결과이며 초기 소규모 연구와 영양 결핍 보충 결과를 대변하지 않습니다.",
+  "against": "초기 소규모 연구와 일부 체계적 문헌고찰은 가능성을 제시했지만, 대규모 환자 중심 시험에서 회복 이득을 재현하지 못했습니다.",
+  "use": "COVID-19에서 바이오마커나 초기 관찰 신호와 환자 중심 임상 결과를 구분합니다.",
+  "refs": [
+    { "label": "COVID-19 정주 비타민 C 조화 무작위시험 · 무용·해로움", "pmid": "37877585", "nct": "NCT04401150" },
+    { "label": "REMAP-CAP COVID-19 플랫폼 시험", "nct": "NCT02735707" },
+    { "label": "COVID-19 비타민 C 체계적 문헌고찰", "pmid": "36235869" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=vitamin c · cond=COVID → 36건 반환, 물질 대조 후 11건",
+    "pubmed": "vitamin c AND COVID → 666편",
+    "negative": "vitamin c AND COVID AND (no effect OR did not OR failed to OR negative OR no significant difference) → 405편",
+    "safety": "vitamin c AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 13823편"
+  }
+}

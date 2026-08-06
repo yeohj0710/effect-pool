@@ -1,0 +1,30 @@
+{
+  "id": "vitamin-c-sepsis-harm",
+  "subj": "비타민 C",
+  "claim": "고용량 비타민 C가 패혈증의 사망·장기부전을 줄인다",
+  "line": "패혈증 중환자 872명에게 정주 비타민 C를 더했더니 사망 또는 지속 장기부전이 44.5%로 위약군 38.5%보다 높았습니다",
+  "effect": "28일 사망·지속 장기부전 RR 1.21, 28일 사망 RR 1.17; 중증 저혈당과 아나필락시스 사례도 발생",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 872,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "패혈증 치료용 고용량 정주 비타민 C는 허가 적응증이 아닙니다.",
+  "why": "LOVIT 다기관 무작위 위약대조시험에서 정주 비타민 C군의 사망 또는 지속 장기부전 위험이 더 높았습니다.",
+  "saw": "혈압상승제를 받는 중환자 872명을 무작위 배정한 LOVIT 시험에서 28일 사망 또는 지속 장기부전은 비타민 C군 44.5%, 위약군 38.5%였고 위험비는 1.21이었습니다. 비타민 C군에서 중증 저혈당 1건과 중대한 아나필락시스 1건이 발생했습니다.",
+  "limit": "단일 중환자군 시험이고 고용량 정주 치료에 대한 결과라 경증 패혈증이나 경구 보충제로 일반화할 수 없습니다.",
+  "against": "VICTAS 복합요법 무작위시험 501명은 인공호흡기·혈압상승제 없는 날을 늘리지 못했고, CITRIS-ALI의 일부 바이오마커 분석에서는 생물학적 신호가 보고됐습니다.",
+  "use": "초기 관찰연구의 양성 신호보다 환자 중심 무작위시험의 위해 신호를 우선해 기록합니다.",
+  "refs": [
+    { "label": "LOVIT 무작위시험 · 위해 결과", "pmid": "35704292", "nct": "NCT03680274" },
+    { "label": "VICTAS 무작위시험 · 일차 결과 음성", "pmid": "33620405" },
+    { "label": "고용량 비타민 C 관련 측정 오류·저혈당 증례", "pmid": "34020705" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=vitamin c · cond=Sepsis → 54건 반환, 물질 대조 후 32건",
+    "pubmed": "vitamin c AND Sepsis → 684편",
+    "negative": "vitamin c AND Sepsis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 422편",
+    "safety": "vitamin c AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 13823편"
+  }
+}

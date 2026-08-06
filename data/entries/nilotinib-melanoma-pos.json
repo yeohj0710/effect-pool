@@ -1,0 +1,31 @@
+{
+  "id": "nilotinib-melanoma-pos",
+  "subj": "닐로티닙",
+  "claim": "닐로티닙이 KIT 변이 진행성 흑색종에 듣는다",
+  "line": "KIT 변이 진행성 흑색종 42명에게 닐로티닙을 썼더니 11명(26%)에서 부분반응이 나왔습니다",
+  "effect": "TEAM 객관적 반응률 26.2%(11/42), NICAM 객관적 반응률 19%(5/26)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 42,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "닐로티닙은 백혈병에 허가됐지만 흑색종에는 허가되지 않았습니다.",
+  "why": "KIT 변이 진행성 흑색종 환자에게 닐로티닙을 직접 투여한 단일군 2상 두 건에서 부분반응이 확인됐습니다.",
+  "saw": "TEAM 2상은 KIT 변이 진행성 흑색종 42명 중 11명에서 부분반응을 확인했고, 반응 지속기간 중앙값은 7.1개월이었습니다. NICAM 2상은 평가 가능한 26명 중 5명에서 12주 객관적 반응을 확인했고 6개월 무진행 생존자는 6명이었습니다.",
+  "limit": "비교군 없는 소수 단일군 시험이고 KIT 변이를 선별한 환자만 포함했습니다.",
+  "against": "KIT 억제제 단일군 19개 연구 601명 메타분석의 전체 반응률은 15%였고 중증 이상반응은 42%였습니다.",
+  "use": "KIT 변이가 확인된 흑색종과 비선별 흑색종을 구분해 기록합니다.",
+  "refs": [
+    { "label": "TEAM 2상 최종 결과 · KIT 변이 흑색종", "pmid": "28327988", "nct": "NCT01028222" },
+    { "label": "NICAM 2상 결과 · KIT 변이 흑색종", "pmid": "38417447" },
+    { "label": "KIT 억제제 흑색종 메타분석 · 반대 근거", "pmid": "34562816" },
+    { "label": "닐로티닙 병용 흑색종 시험 · 모집 중", "nct": "NCT04903119" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=nilotinib · cond=Melanoma → 7건 반환, 물질 대조 후 7건",
+    "pubmed": "nilotinib AND Melanoma → 42편",
+    "negative": "nilotinib AND Melanoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 28편",
+    "safety": "nilotinib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1372편"
+  }
+}

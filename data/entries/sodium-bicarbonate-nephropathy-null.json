@@ -1,0 +1,30 @@
+{
+  "id": "sodium-bicarbonate-nephropathy-null",
+  "subj": "중탄산나트륨",
+  "claim": "중탄산나트륨이 조영제 유발 신병증을 예방한다",
+  "line": "고위험 혈관조영 환자 4,993명에서 중탄산나트륨은 생리식염수보다 신장 사건을 줄이지 못했습니다",
+  "effect": "90일 사망·투석·지속 크레아티닌 상승 4.4% 대 4.7%, 조영제 관련 급성신손상 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4993,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "조영제 유발 신병증 예방은 중탄산나트륨의 허가 적응증이 아닙니다.",
+  "why": "대규모 무작위 PRESERVE 시험에서 중탄산나트륨이 생리식염수보다 환자 중심 신장 결과를 개선하지 못했습니다.",
+  "saw": "혈관조영을 받는 신장 합병증 고위험 환자 4,993명을 무작위 배정한 PRESERVE 시험에서 90일 사망·투석·기저치 대비 크레아티닌 50% 이상 상승은 중탄산나트륨군 4.4%, 생리식염수군 4.7%였고 조영제 관련 급성신손상도 차이가 없었습니다.",
+  "limit": "중간 분석 뒤 후원자가 시험을 중단했고, 결과는 정맥 수액 예방 전략에 한정됩니다.",
+  "against": "초기 12개 시험 1,854명 메타분석은 신병증 감소를 보고했지만, 22개 시험 5,686명 메타분석과 PRESERVE 시험은 이득을 확인하지 못했습니다.",
+  "use": "초기 소규모 메타분석의 양성 결과와 대규모 후속 무작위시험의 음성 결과를 함께 남깁니다.",
+  "refs": [
+    { "label": "PRESERVE 무작위시험 · 음성 결과", "pmid": "29130810", "nct": "NCT01467466" },
+    { "label": "중탄산나트륨 대 생리식염수 메타분석 · 음성 결과", "pmid": "26600623" },
+    { "label": "초기 조영제 신병증 예방 메타분석 · 양성 결과", "pmid": "19027212" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=sodium bicarbonate · cond=Nephropathy → 117건 반환, 물질 대조 후 65건",
+    "pubmed": "sodium bicarbonate AND Nephropathy → 1621편",
+    "negative": "sodium bicarbonate AND Nephropathy AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1030편",
+    "safety": "sodium bicarbonate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3769편"
+  }
+}

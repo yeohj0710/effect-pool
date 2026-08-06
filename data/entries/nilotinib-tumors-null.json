@@ -1,0 +1,30 @@
+{
+  "id": "nilotinib-tumors-null",
+  "subj": "닐로티닙",
+  "claim": "닐로티닙이 위장관기질종양(GIST)의 일반 치료에 듣는다",
+  "line": "위장관기질종양 시험들을 합친 218명에서 닐로티닙은 일반 치료로 쓸 이득을 입증하지 못했습니다",
+  "effect": "KIT exon 11 변이군에서만 임상적 이득 신호, GIST 일반 치료의 유용성은 미입증",
+  "tier": "trial",
+  "dir": "null",
+  "n": 218,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "닐로티닙은 백혈병에 허가됐지만 GIST에는 허가되지 않았습니다.",
+  "why": "GIST 환자 직접 시험을 합친 메타분석과 검토에서 전체 치료 효용이 확인되지 않았습니다.",
+  "saw": "GIST 환자 3개 임상시험 218명을 합친 메타분석은 KIT exon 11 하위군에서 임상적 이득이 더 컸지만, 검토 논문은 무작위 대조시험에서 GIST 일반 치료의 유용성이 입증되지 않아 일반 사용을 권하지 않는다고 정리했습니다.",
+  "limit": "소수 시험과 유전자형 하위군 분석을 바탕으로 했고, 1차 치료와 3차 치료가 섞였습니다.",
+  "against": "KIT exon 11 변이군에서 다른 유전자형보다 임상적 이득이 컸다는 하위군 신호가 있습니다.",
+  "use": "GIST 전체에 듣는다는 주장과 특정 KIT 변이군의 탐색 신호를 분리해 기록합니다.",
+  "refs": [
+    { "label": "GIST 닐로티닙 임상시험 검토 · 일반 사용 음성", "pmid": "23834614" },
+    { "label": "GIST 유전자형별 닐로티닙 메타분석", "pmid": "33495025" },
+    { "label": "GIST 닐로티닙 임상 경험 검토", "pmid": "21419932" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=nilotinib · cond=Tumors → 193건 반환, 물질 대조 후 70건",
+    "pubmed": "nilotinib AND Tumors → 2260편",
+    "negative": "nilotinib AND Tumors AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1566편",
+    "safety": "nilotinib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1372편"
+  }
+}

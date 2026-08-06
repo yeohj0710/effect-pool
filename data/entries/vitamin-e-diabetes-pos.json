@@ -1,0 +1,30 @@
+{
+  "id": "vitamin-e-diabetes-pos",
+  "subj": "비타민 E",
+  "claim": "비타민 E가 Hp2-2형 당뇨병 환자의 심혈관 사건을 줄인다",
+  "line": "당뇨병 환자 2,110명을 합친 분석에서 Hp2-2형만 비타민 E의 심혈관 사건 감소 신호가 났습니다",
+  "effect": "Hp2-2형 복합 심혈관 사건 OR 0.66(95% CI 0.48–0.90), 다른 Hp형에서는 같은 효과 없음",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2110,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "Hp 유전형을 고른 당뇨병 환자의 심혈관 예방용 비타민 E는 허가 적응증이 아닙니다.",
+  "why": "당뇨병 환자 비타민 E 무작위시험 3건의 유전형 하위군 분석에서 Hp2-2형에만 심혈관 사건 감소 신호가 나타났습니다.",
+  "saw": "비타민 E 중재 분석에 포함된 당뇨병 환자 2,110명에서 Hp2-2형의 비치명적 심근경색·뇌졸중·심혈관 사망 복합 결과가 비타민 E군에서 낮았습니다. 다른 Hp형에서는 같은 효과가 보이지 않았습니다.",
+  "limit": "전체 당뇨병 환자 효과가 아니라 사후 유전형 하위군 분석이고, 포함 시험은 3건입니다.",
+  "against": "심혈관질환 전체 84개 무작위시험 메타분석은 비타민 E의 사망·심근경색 예방 효과를 확인하지 못했고 USPSTF도 일반 예방에 반대합니다.",
+  "use": "비타민 E의 일반 당뇨병 보충과 Hp2-2형 표적 신호를 구분해 기록합니다.",
+  "refs": [
+    { "label": "당뇨병 Hp 유전형별 비타민 E 심혈관 메타분석", "pmid": "22939808" },
+    { "label": "비타민 E 심혈관 예방·치료 무작위시험 검토 · 음성", "pmid": "15061748" },
+    { "label": "USPSTF 비타민 E 심혈관 예방 권고 · 반대", "pmid": "35727271" }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "ctgov": "intr=vitamin e · cond=Diabetes → 44건 반환, 물질 대조 후 19건",
+    "pubmed": "vitamin e AND Diabetes → 2587편",
+    "negative": "vitamin e AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1818편",
+    "safety": "vitamin e AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 10522편"
+  }
+}

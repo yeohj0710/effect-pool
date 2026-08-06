@@ -9912,36 +9912,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bupivacaine — Surgery에 듣는다  <!-- 시험 23건 · 논문 13733편 --> — 수술 중 부위마취의 허가·표준 사용(2026-08-05)
 - [x] bupivacaine — Analgesia에 듣는다  <!-- 시험 22건 · 논문 8830편 --> — 수술 후 국소·부위 진통의 허가·표준 사용(2026-08-05)
 - [x] bupivacaine — TAP Block에 듣는다  <!-- 시험 22건 · 논문 364편 --> — 복횡근 평면 차단술의 표준 국소마취 사용(2026-08-05)
-- [ ] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 -->
-- [ ] guaifenesin — Bronchitis에 듣는다  <!-- 시험 3건 · 논문 43편 -->
-- [ ] nilotinib — Cancer에 듣는다  <!-- 시험 33건 · 논문 2482편 -->
-- [ ] nilotinib — Tumors에 듣는다  <!-- 시험 15건 · 논문 2260편 -->
-- [ ] nilotinib — Neoplasm에 듣는다  <!-- 시험 13건 · 논문 2163편 -->
-- [ ] nilotinib — Melanoma에 듣는다  <!-- 시험 11건 · 논문 42편 -->
-- [ ] ranitidine — Acid Reflux에 듣는다  <!-- 시험 9건 · 논문 514편 -->
-- [ ] ranitidine — Peptic Ulcers에 듣는다  <!-- 시험 4건 · 논문 2455편 -->
-- [ ] ranitidine — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 205편 -->
-- [ ] sodium bicarbonate — Nephropathy에 듣는다  <!-- 시험 24건 · 논문 1621편 -->
-- [ ] sodium bicarbonate — Metabolic Acidosis에 듣는다  <!-- 시험 22건 · 논문 2799편 -->
-- [ ] sodium bicarbonate — Pain에 듣는다  <!-- 시험 18건 · 논문 647편 -->
-- [ ] sodium bicarbonate — Oral Care에 듣는다  <!-- 시험 17건 · 논문 246편 -->
-- [ ] vitamin c — Sepsis에 듣는다  <!-- 시험 18건 · 논문 684편 -->
-- [ ] vitamin c — Hepatitis C에 듣는다  <!-- 시험 15건 · 논문 47편 -->
-- [ ] vitamin c — HIV에 듣는다  <!-- 시험 15건 · 논문 219편 -->
-- [ ] vitamin c — COVID에 듣는다  <!-- 시험 14건 · 논문 666편 -->
-- [ ] vitamin e — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2587편 -->
-- [ ] vitamin e — Fatty Liver에 듣는다  <!-- 시험 15건 · 논문 1626편 -->
-- [ ] vitamin e — HIV/AIDS에 듣는다  <!-- 시험 13건 · 논문 73편 -->
-- [ ] vitamin e — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 5325편 -->
-- [ ] isoproterenol — Sympathetic Nervous System에 듣는다  <!-- 시험 3건 · 논문 1761편 -->
-- [ ] isoproterenol — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 163편 -->
-- [ ] tetracycline — Lung Cancer에 듣는다  <!-- 시험 7건 · 논문 421편 -->
-- [ ] tetracycline — Gastritis에 듣는다  <!-- 시험 5건 · 논문 306편 -->
-- [ ] tetracycline — Dyspepsia에 듣는다  <!-- 시험 4건 · 논문 199편 -->
-- [ ] tetracycline — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 376편 -->
-- [ ] sulbactam — Pneumonia에 듣는다  <!-- 시험 13건 · 논문 1220편 -->
-- [ ] sulbactam — Wound Infections에 듣는다  <!-- 시험 9건 · 논문 340편 -->
-- [ ] sulbactam — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 328편 -->
+- [x] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 --> — 허가 적응증(2026-08-05)
+- [x] guaifenesin — Bronchitis에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 허가·표준 증상완화(2026-08-05)
+- [x] nilotinib — Cancer에 듣는다  <!-- 시험 33건 · 논문 2482편 --> — 범용 암 치료 근거 없음(2026-08-05 조회, nilotinib AND Cancer)
+- [x] nilotinib — Tumors에 듣는다  <!-- 시험 15건 · 논문 2260편 --> — 항목 nilotinib-tumors-null
+- [x] nilotinib — Neoplasm에 듣는다  <!-- 시험 13건 · 논문 2163편 --> — 범용 신생물 치료 근거 없음(2026-08-05 조회, nilotinib AND Neoplasm)
+- [x] nilotinib — Melanoma에 듣는다  <!-- 시험 11건 · 논문 42편 --> — 항목 nilotinib-melanoma-pos
+- [x] ranitidine — Acid Reflux에 듣는다  <!-- 시험 9건 · 논문 514편 --> — 허가 적응증(2026-08-05)
+- [x] ranitidine — Peptic Ulcers에 듣는다  <!-- 시험 4건 · 논문 2455편 --> — 허가 적응증(2026-08-05)
+- [x] ranitidine — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 205편 --> — 허가 적응증(2026-08-05)
+- [x] sodium bicarbonate — Nephropathy에 듣는다  <!-- 시험 24건 · 논문 1621편 --> — 항목 sodium-bicarbonate-nephropathy-null
+- [x] sodium bicarbonate — Metabolic Acidosis에 듣는다  <!-- 시험 22건 · 논문 2799편 --> — 허가·표준 산증 교정(2026-08-05)
+- [x] sodium bicarbonate — Pain에 듣는다  <!-- 시험 18건 · 논문 647편 --> — 항목 sodium-bicarbonate-pain-pos
+- [x] sodium bicarbonate — Oral Care에 듣는다  <!-- 시험 17건 · 논문 246편 --> — 항목 sodium-bicarbonate-oral-care-pos
+- [x] vitamin c — Sepsis에 듣는다  <!-- 시험 18건 · 논문 684편 --> — 항목 vitamin-c-sepsis-harm
+- [x] vitamin c — Hepatitis C에 듣는다  <!-- 시험 15건 · 논문 47편 --> — 항목 vitamin-c-hepatitis-c-pos
+- [x] vitamin c — HIV에 듣는다  <!-- 시험 15건 · 논문 219편 --> — 직접 HIV 치료 근거 없음(2026-08-05 조회, vitamin c AND HIV)
+- [x] vitamin c — COVID에 듣는다  <!-- 시험 14건 · 논문 666편 --> — 항목 vitamin-c-covid-harm
+- [x] vitamin e — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2587편 --> — 항목 vitamin-e-diabetes-pos
+- [x] vitamin e — Fatty Liver에 듣는다  <!-- 시험 15건 · 논문 1626편 --> — 표준 NASH 보조요법 범위(2026-08-05)
+- [x] vitamin e — HIV/AIDS에 듣는다  <!-- 시험 13건 · 논문 73편 --> — 직접 HIV/AIDS 치료 근거 없음(2026-08-05 조회, vitamin e AND HIV/AIDS)
+- [x] vitamin e — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 5325편 --> — 항목 vitamin-e-cardiovascular-disease-null
+- [x] isoproterenol — Sympathetic Nervous System에 듣는다  <!-- 시험 3건 · 논문 1761편 --> — 생리·진단 연구만, 치료 근거 없음(2026-08-05 조회)
+- [x] isoproterenol — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 163편 --> — 기립검사 유발 연구만, 치료 근거 없음(2026-08-05 조회)
+- [x] tetracycline — Lung Cancer에 듣는다  <!-- 시험 7건 · 논문 421편 --> — 직접 폐암 치료 근거 없음(2026-08-05 조회, tetracycline AND Lung Cancer)
+- [x] tetracycline — Gastritis에 듣는다  <!-- 시험 5건 · 논문 306편 --> — 허가·표준 H. pylori 항균요법(2026-08-05)
+- [x] tetracycline — Dyspepsia에 듣는다  <!-- 시험 4건 · 논문 199편 --> — 허가·표준 H. pylori 항균요법(2026-08-05)
+- [x] tetracycline — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 376편 --> — 직접 림프종 치료 근거 없음(2026-08-05 조회, tetracycline AND Lymphoma)
+- [x] sulbactam — Pneumonia에 듣는다  <!-- 시험 13건 · 논문 1220편 --> — 허가·표준 항균요법(2026-08-05)
+- [x] sulbactam — Wound Infections에 듣는다  <!-- 시험 9건 · 논문 340편 --> — 허가·표준 항균요법(2026-08-05)
+- [x] sulbactam — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 328편 --> — 허가·표준 항균요법(2026-08-05)
 - [ ] sulbactam — Lung Abscess에 듣는다  <!-- 시험 3건 · 논문 33편 -->
 - [ ] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 -->
 - [ ] loratadine — Bone Pain에 듣는다  <!-- 시험 4건 · 논문 15편 -->
