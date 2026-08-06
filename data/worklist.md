@@ -10778,3 +10778,67 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] Nordic diet — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 33편 -->
 - [ ] Nordic diet — Diabetes에 듣는다  <!-- 시험 4건 · 논문 174편 -->
 - [ ] Nordic diet — Hypertension에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] family psychoeducation — Cannabis Use에 듣는다  <!-- 시험 15건 · 논문 30편 -->
+- [ ] family psychoeducation — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 333편 -->
+- [ ] family psychoeducation — Depression에 듣는다  <!-- 시험 11건 · 논문 1031편 -->
+- [ ] family psychoeducation — Psychosis에 듣는다  <!-- 시험 10건 · 논문 409편 -->
+- [ ] caregiver coaching — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [ ] caregiver coaching — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [ ] caregiver coaching — Cancer에 듣는다  <!-- 시험 3건 · 논문 142편 -->
+- [ ] caregiver coaching — Developmental Delay에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] peer mentoring — Depression에 듣는다  <!-- 시험 13건 · 논문 177편 -->
+- [ ] peer mentoring — Mental Health에 듣는다  <!-- 시험 11건 · 논문 431편 -->
+- [ ] peer mentoring — Diabetes에 듣는다  <!-- 시험 9건 · 논문 122편 -->
+- [ ] sleep education — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 2147편 -->
+- [ ] sleep education — Stress Disorder에 듣는다  <!-- 시험 8건 · 논문 1330편 -->
+- [ ] sleep education — Depression에 듣는다  <!-- 시험 7건 · 논문 8532편 -->
+- [ ] sleep education — Pain에 듣는다  <!-- 시험 7건 · 논문 4289편 -->
+- [ ] sleep regularity — Obesity에 듣는다  <!-- 시험 7건 · 논문 616편 -->
+- [ ] sleep regularity — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 134편 -->
+- [ ] sleep regularity — Pain에 듣는다  <!-- 시험 4건 · 논문 626편 -->
+- [ ] sleep regularity — Autism Spectrum Disorder에 듣는다  <!-- 시험 3건 · 논문 38편 -->
+- [ ] behavioral sleep medicine — Depression에 듣는다  <!-- 시험 12건 · 논문 3612편 -->
+- [ ] behavioral sleep medicine — Sleep Apnea에 듣는다  <!-- 시험 9건 · 논문 1443편 -->
+- [ ] behavioral sleep medicine — Pain에 듣는다  <!-- 시험 9건 · 논문 1600편 -->
+- [ ] behavioral sleep medicine — Opioid Use에 듣는다  <!-- 시험 8건 · 논문 267편 -->
+- [ ] circadian lighting — Eating Habit에 듣는다  <!-- 시험 4건 · 논문 1425편 -->
+- [ ] circadian lighting — Depression에 듣는다  <!-- 시험 3건 · 논문 1495편 -->
+- [ ] circadian lighting — Stroke에 듣는다  <!-- 시험 3건 · 논문 148편 -->
+- [ ] meal planning — Diabetes에 듣는다  <!-- 시험 14건 · 논문 527편 -->
+- [ ] meal planning — Overweight에 듣는다  <!-- 시험 5건 · 논문 326편 -->
+- [ ] meal planning — Healthy Diet에 듣는다  <!-- 시험 5건 · 논문 395편 -->
+- [ ] meal planning — Dietary Habits에 듣는다  <!-- 시험 5건 · 논문 650편 -->
+- [ ] dietary self-monitoring — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 -->
+- [ ] dietary self-monitoring — Weight에 듣는다  <!-- 시험 7건 · 논문 1085편 -->
+- [ ] dietary self-monitoring — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 291편 -->
+- [ ] dietary self-monitoring — Health Behavior에 듣는다  <!-- 시험 4건 · 논문 1035편 -->
+- [ ] plant-based eating — Kidney Disease, Chronic에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] plant-based eating — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 63편 -->
+- [ ] plant-based eating — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 323편 -->
+- [ ] plant-based eating — Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 124편 -->
+- [ ] high protein diet — Diabetes에 듣는다  <!-- 시험 29건 · 논문 13344편 -->
+- [ ] high protein diet — Metabolic Disease에 듣는다  <!-- 시험 27건 · 논문 21455편 -->
+- [ ] high protein diet — Overweight에 듣는다  <!-- 시험 16건 · 논문 12057편 -->
+- [ ] high protein diet — Weight Loss에 듣는다  <!-- 시험 16건 · 논문 3775편 -->
+- [ ] mindful eating — Stress에 듣는다  <!-- 시험 25건 · 논문 273편 -->
+- [ ] mindful eating — Obesity에 듣는다  <!-- 시험 24건 · 논문 402편 -->
+- [ ] mindful eating — Mental Health에 듣는다  <!-- 시험 8건 · 논문 255편 -->
+- [ ] mindful eating — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 44편 -->
+- [ ] nature therapy — Stress에 듣는다  <!-- 시험 14건 · 논문 11749편 -->
+- [ ] nature therapy — Cancer에 듣는다  <!-- 시험 11건 · 논문 34130편 -->
+- [ ] nature therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 12526편 -->
+- [ ] nature therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 7427편 -->
+- [ ] resistance exercise — Cancer에 듣는다  <!-- 시험 18건 · 논문 3562편 -->
+- [ ] resistance exercise — Aging에 듣는다  <!-- 시험 14건 · 논문 5612편 -->
+- [ ] resistance exercise — Obesity에 듣는다  <!-- 시험 13건 · 논문 7871편 -->
+- [ ] resistance exercise — Strength에 듣는다  <!-- 시험 12건 · 논문 18388편 -->
