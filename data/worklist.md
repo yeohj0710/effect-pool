@@ -12569,3 +12569,37 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] remimazolam — Surgery에 듣는다  <!-- 시험 22건 · 논문 804편 -->
 - [x] remimazolam — Delirium에 듣는다  <!-- 시험 16건 · 논문 155편 -->
 - [x] remimazolam — Elderly Patients에 듣는다  <!-- 시험 14건 · 논문 514편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] tai chi chuan — Cognitive Decline에 듣는다  <!-- 시험 24건 · 논문 112편 -->
+- [x] tai chi chuan — Aging에 듣는다  <!-- 시험 17건 · 논문 342편 -->
+- [x] tai chi chuan — Neck Pain에 듣는다  <!-- 시험 15건 · 논문 14편 -->
+- [x] tai chi chuan — OA Knee에 듣는다  <!-- 시험 13건 · 논문 31편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] emotional freedom technique — Stress에 듣는다  <!-- 시험 13건 · 논문 316편 -->
+- [x] emotional freedom technique — Sleep Quality에 듣는다  <!-- 시험 8건 · 논문 42편 -->
+- [x] emotional freedom technique — Depression에 듣는다  <!-- 시험 6건 · 논문 388편 -->
+- [x] equine therapy — Anxiety에 듣는다  <!-- 시험 5건 · 논문 105편 -->
+- [x] equine therapy — MDS에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-06, equine therapy AND MDS)
+- [x] equine therapy — Stress에 듣는다  <!-- 시험 3건 · 논문 739편 -->
+- [x] equine therapy — Acute Liver Injury에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 근거 없음(2026-08-06, equine therapy AND Acute Liver Injury)
+- [x] animal-assisted intervention — Anxiety에 듣는다  <!-- 시험 5건 · 논문 219편 -->
+- [x] animal-assisted intervention — Dementia에 듣는다  <!-- 시험 3건 · 논문 110편 -->
+- [x] animal-assisted intervention — Autism에 듣는다  <!-- 시험 3건 · 논문 121편 -->
