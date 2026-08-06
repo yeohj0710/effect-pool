@@ -12494,7 +12494,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] health literacy intervention — Sexual Behavior에 듣는다  <!-- 시험 12건 · 논문 386편 -->
 - [x] health literacy intervention — Hypertension에 듣는다  <!-- 시험 11건 · 논문 869편 -->
 - [x] olezarsen — Familial Chylomicronemia Syndrome에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 47편 -->
-- [ ] lonafarnib — Hepatitis D에 듣는다  <!-- 시험 9건 · 논문 74편 -->
+- [x] lonafarnib — Hepatitis D에 듣는다  <!-- 시험 9건 · 논문 74편 -->
 - [x] lonafarnib — Progeria에 듣는다  <!-- 시험 6건 · 논문 66편 --> — 허가 적응증(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12506,33 +12506,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] contingency management — Drug Abuse에 듣는다  <!-- 시험 75건 · 논문 1155편 -->
-- [ ] contingency management — Smoking에 듣는다  <!-- 시험 49건 · 논문 348편 -->
-- [ ] contingency management — Opioid Dependence에 듣는다  <!-- 시험 33건 · 논문 247편 -->
-- [ ] contingency management — HIV에 듣는다  <!-- 시험 24건 · 논문 267편 -->
-- [ ] dignity therapy — End of Life에 듣는다  <!-- 시험 3건 · 논문 469편 -->
-- [ ] life review therapy — Prostate Carcinoma에 듣는다  <!-- 시험 26건 · 논문 500편 -->
-- [ ] life review therapy — Arthrogryposis에 듣는다  <!-- 시험 11건 · 논문 31편 -->
-- [ ] life review therapy — Acute Leukemia에 듣는다  <!-- 시험 11건 · 논문 1667편 -->
-- [ ] life review therapy — Recurrent Hodgkin Lymphoma에 듣는다  <!-- 시험 8건 · 논문 80편 -->
-- [ ] meaning-centered psychotherapy — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 60편 -->
-- [ ] meaning-centered psychotherapy — Caregiver Burden에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] motivational enhancement therapy — Tobacco Use에 듣는다  <!-- 시험 36건 · 논문 470편 -->
-- [ ] motivational enhancement therapy — HIV에 듣는다  <!-- 시험 21건 · 논문 569편 -->
-- [ ] motivational enhancement therapy — Smoking에 듣는다  <!-- 시험 14건 · 논문 783편 -->
-- [ ] motivational enhancement therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 470편 -->
-- [ ] binaural beats — Pain에 듣는다  <!-- 시험 7건 · 논문 35편 -->
-- [ ] binaural beats — Stress에 듣는다  <!-- 시험 4건 · 논문 31편 -->
-- [ ] hippotherapy — Autism에 듣는다  <!-- 시험 5건 · 논문 59편 -->
-- [ ] hippotherapy — Down Syndrome에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] hippotherapy — Stroke에 듣는다  <!-- 시험 3건 · 논문 26편 -->
-- [ ] hippotherapy — Equine-Assisted Therapy에 듣는다  <!-- 시험 3건 · 논문 446편 -->
-- [ ] exergaming — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 113편 -->
-- [ ] exergaming — Cerebral Palsy에 듣는다  <!-- 시험 7건 · 논문 54편 -->
-- [ ] exergaming — Stroke에 듣는다  <!-- 시험 7건 · 논문 164편 -->
-- [ ] exergaming — Exercise에 듣는다  <!-- 시험 7건 · 논문 1516편 -->
-- [ ] treadmill training — Parkinson Disease에 듣는다  <!-- 시험 27건 · 논문 371편 -->
-- [ ] treadmill training — Gait에 듣는다  <!-- 시험 23건 · 논문 2772편 -->
-- [ ] treadmill training — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 241편 -->
-- [ ] treadmill training — Spinal Cord Injury에 듣는다  <!-- 시험 13건 · 논문 729편 -->
+- [x] contingency management — Drug Abuse에 듣는다  <!-- 시험 75건 · 논문 1155편 -->
+- [x] contingency management — Smoking에 듣는다  <!-- 시험 49건 · 논문 348편 -->
+- [x] contingency management — Opioid Dependence에 듣는다  <!-- 시험 33건 · 논문 247편 -->
+- [x] contingency management — HIV에 듣는다  <!-- 시험 24건 · 논문 267편 -->
+- [x] dignity therapy — End of Life에 듣는다  <!-- 시험 3건 · 논문 469편 -->
+- [x] life review therapy — Prostate Carcinoma에 듣는다  <!-- 시험 26건 · 논문 500편 --> — 근거 없음(2026-08-06, life review therapy AND Prostate Carcinoma)
+- [x] life review therapy — Arthrogryposis에 듣는다  <!-- 시험 11건 · 논문 31편 --> — 근거 없음(2026-08-06, life review therapy AND Arthrogryposis)
+- [x] life review therapy — Acute Leukemia에 듣는다  <!-- 시험 11건 · 논문 1667편 --> — 근거 없음(2026-08-06, life review therapy AND Acute Leukemia)
+- [x] life review therapy — Recurrent Hodgkin Lymphoma에 듣는다  <!-- 시험 8건 · 논문 80편 --> — 근거 없음(2026-08-06, life review therapy AND Recurrent Hodgkin Lymphoma)
+- [x] meaning-centered psychotherapy — Advanced Cancer에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [x] meaning-centered psychotherapy — Caregiver Burden에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [x] motivational enhancement therapy — Tobacco Use에 듣는다  <!-- 시험 36건 · 논문 470편 -->
+- [x] motivational enhancement therapy — HIV에 듣는다  <!-- 시험 21건 · 논문 569편 -->
+- [x] motivational enhancement therapy — Smoking에 듣는다  <!-- 시험 14건 · 논문 783편 -->
+- [x] motivational enhancement therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 470편 -->
+- [x] binaural beats — Pain에 듣는다  <!-- 시험 7건 · 논문 35편 -->
+- [x] binaural beats — Stress에 듣는다  <!-- 시험 4건 · 논문 31편 -->
+- [x] hippotherapy — Autism에 듣는다  <!-- 시험 5건 · 논문 59편 -->
+- [x] hippotherapy — Down Syndrome에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [x] hippotherapy — Stroke에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [x] hippotherapy — Equine-Assisted Therapy에 듣는다  <!-- 시험 3건 · 논문 446편 -->
+- [x] exergaming — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 113편 -->
+- [x] exergaming — Cerebral Palsy에 듣는다  <!-- 시험 7건 · 논문 54편 -->
+- [x] exergaming — Stroke에 듣는다  <!-- 시험 7건 · 논문 164편 -->
+- [x] exergaming — Exercise에 듣는다  <!-- 시험 7건 · 논문 1516편 -->
+- [x] treadmill training — Parkinson Disease에 듣는다  <!-- 시험 27건 · 논문 371편 -->
+- [x] treadmill training — Gait에 듣는다  <!-- 시험 23건 · 논문 2772편 -->
+- [x] treadmill training — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 241편 -->
+- [x] treadmill training — Spinal Cord Injury에 듣는다  <!-- 시험 13건 · 논문 729편 -->
 - [ ] remibrutinib — Chronic Inducible Urticaria에 듣는다  <!-- 시험 5건 · 논문 9편 -->
