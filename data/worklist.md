@@ -10560,9 +10560,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] walking program — Knee Injury에 듣는다 — 근거 없음(2026-08-06, walking program AND knee injury)  <!-- 시험 7건 · 논문 406편 -->
 - [x] walking program — Coronary Artery Disease에 듣는다 — 항목 생성(walking-program-coronary-artery-disease-pos)  <!-- 시험 6건 · 논문 170편 -->
 - [x] walking program — Gait Impairment에 듣는다 — 항목 생성(walking-program-gait-impairment-open)  <!-- 시험 5건 · 논문 1175편 -->
-- [ ] walking program — Obesity에 듣는다  <!-- 시험 4건 · 논문 1144편 -->
-- [ ] breathing retraining — Heart Rate에 듣는다  <!-- 시험 3건 · 논문 25편 -->
-- [ ] breathing retraining — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 135편 -->
+- [x] walking program — Obesity에 듣는다 — 항목 생성(walking-program-obesity-open)  <!-- 시험 4건 · 논문 1144편 -->
+- [x] breathing retraining — Heart Rate에 듣는다 — 항목 생성(breathing-retraining-heart-rate-open)  <!-- 시험 3건 · 논문 25편 -->
+- [x] breathing retraining — Pulmonary Disease에 듣는다 — 항목 생성(breathing-retraining-pulmonary-disease-pos)  <!-- 시험 3건 · 논문 135편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10573,32 +10573,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tenapanor — Hyperphosphatemia에 듣는다  <!-- 시험 5건 · 논문 74편 -->
-- [ ] obicetrapib — Dyslipidemias에 듣는다  <!-- 시험 7건 · 논문 42편 -->
-- [ ] obicetrapib — High Cholesterol에 듣는다  <!-- 시험 7건 · 논문 59편 -->
-- [ ] obicetrapib — Lipid Metabolism에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] bempedoic acid — Dyslipidemia에 듣는다  <!-- 시험 9건 · 논문 350편 -->
-- [ ] bempedoic acid — Cardiovascular에 듣는다  <!-- 시험 9건 · 논문 577편 -->
-- [ ] bempedoic acid — Statin Adverse Reaction에 듣는다  <!-- 시험 4건 · 논문 14편 -->
-- [ ] bempedoic acid — Hypercholesterolaemia에 듣는다  <!-- 시험 4건 · 논문 282편 -->
-- [ ] evinacumab — Hypertriglyceridemia에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] gardening — Dietary Habits에 듣는다  <!-- 시험 4건 · 논문 1002편 -->
-- [ ] gardening — Eating Behavior에 듣는다  <!-- 시험 4건 · 논문 1017편 -->
-- [ ] gardening — Anxiety에 듣는다  <!-- 시험 3건 · 논문 502편 -->
-- [ ] gardening — Depression에 듣는다  <!-- 시험 3건 · 논문 881편 -->
-- [ ] peer support — HIV에 듣는다  <!-- 시험 23건 · 논문 4626편 -->
-- [ ] peer support — Diabetes에 듣는다  <!-- 시험 23건 · 논문 3548편 -->
-- [ ] peer support — Mental Health에 듣는다  <!-- 시험 22건 · 논문 13282편 -->
-- [ ] peer support — Depression에 듣는다  <!-- 시험 19건 · 논문 6482편 -->
-- [ ] laughter therapy — Anxiety에 듣는다  <!-- 시험 12건 · 논문 127편 -->
-- [ ] laughter therapy — Burnout에 듣는다  <!-- 시험 8건 · 논문 14편 -->
-- [ ] green exercise — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] green exercise — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 5283편 -->
-- [ ] green exercise — Well-Being에 듣는다  <!-- 시험 3건 · 논문 3655편 -->
-- [ ] digital cognitive training — Insomnia에 듣는다  <!-- 시험 8건 · 논문 53편 -->
-- [ ] digital cognitive training — Dementia에 듣는다  <!-- 시험 7건 · 논문 258편 -->
-- [ ] digital cognitive training — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 126편 -->
-- [ ] digital cognitive training — Stroke에 듣는다  <!-- 시험 4건 · 논문 95편 -->
+- [x] tenapanor — Hyperphosphatemia에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 74편 -->
+- [x] obicetrapib — Dyslipidemias에 듣는다 — 항목 생성(obicetrapib-dyslipidemias-pos)  <!-- 시험 7건 · 논문 42편 -->
+- [x] obicetrapib — High Cholesterol에 듣는다 — 항목 생성(obicetrapib-high-cholesterol-pos)  <!-- 시험 7건 · 논문 59편 -->
+- [x] obicetrapib — Lipid Metabolism에 듣는다 — 항목 생성(obicetrapib-lipid-metabolism-pos)  <!-- 시험 3건 · 논문 19편 -->
+- [x] bempedoic acid — Dyslipidemia에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 350편 -->
+- [x] bempedoic acid — Cardiovascular에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 577편 -->
+- [x] bempedoic acid — Statin Adverse Reaction에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 14편 -->
+- [x] bempedoic acid — Hypercholesterolaemia에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 282편 -->
+- [x] evinacumab — Hypertriglyceridemia에 듣는다 — 항목 생성(evinacumab-hypertriglyceridemia-open)  <!-- 시험 3건 · 논문 44편 -->
+- [x] gardening — Dietary Habits에 듣는다 — 항목 생성(gardening-dietary-habits-open)  <!-- 시험 4건 · 논문 1002편 -->
+- [x] gardening — Eating Behavior에 듣는다 — 항목 생성(gardening-eating-behavior-open)  <!-- 시험 4건 · 논문 1017편 -->
+- [x] gardening — Anxiety에 듣는다 — 항목 생성(gardening-anxiety-open)  <!-- 시험 3건 · 논문 502편 -->
+- [x] gardening — Depression에 듣는다 — 항목 생성(gardening-depression-open)  <!-- 시험 3건 · 논문 881편 -->
+- [x] peer support — HIV에 듣는다 — 항목 생성(peer-support-hiv-pos)  <!-- 시험 23건 · 논문 4626편 -->
+- [x] peer support — Diabetes에 듣는다 — 항목 생성(peer-support-diabetes-open)  <!-- 시험 23건 · 논문 3548편 -->
+- [x] peer support — Mental Health에 듣는다 — 항목 생성(peer-support-mental-health-open)  <!-- 시험 22건 · 논문 13282편 -->
+- [x] peer support — Depression에 듣는다 — 항목 생성(peer-support-depression-pos)  <!-- 시험 19건 · 논문 6482편 -->
+- [x] laughter therapy — Anxiety에 듣는다 — 항목 생성(laughter-therapy-anxiety-pos)  <!-- 시험 12건 · 논문 127편 -->
+- [x] laughter therapy — Burnout에 듣는다 — 항목 생성(laughter-therapy-burnout-open)  <!-- 시험 8건 · 논문 14편 -->
+- [x] green exercise — Metabolic Syndrome에 듣는다 — 근거 없음(2026-08-06, green exercise AND metabolic syndrome)  <!-- 시험 4건 · 논문 51편 -->
+- [x] green exercise — Physical Activity에 듣는다 — 항목 생성(green-exercise-physical-activity-open)  <!-- 시험 3건 · 논문 5283편 -->
+- [x] green exercise — Well-Being에 듣는다 — 항목 생성(green-exercise-well-being-open)  <!-- 시험 3건 · 논문 3655편 -->
+- [x] digital cognitive training — Insomnia에 듣는다 — 항목 생성(digital-cognitive-training-insomnia-pos)  <!-- 시험 8건 · 논문 53편 -->
+- [x] digital cognitive training — Dementia에 듣는다 — 항목 생성(digital-cognitive-training-dementia-open)  <!-- 시험 7건 · 논문 258편 -->
+- [x] digital cognitive training — Alzheimer Disease에 듣는다 — 근거 없음(2026-08-06, digital cognitive training AND Alzheimer Disease)  <!-- 시험 6건 · 논문 126편 -->
+- [x] digital cognitive training — Stroke에 듣는다 — 항목 생성(digital-cognitive-training-stroke-open)  <!-- 시험 4건 · 논문 95편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10609,7 +10609,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] saroglitazar — Primary Biliary Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 11편 -->
+- [x] saroglitazar — Primary Biliary Cirrhosis에 듣는다 — 항목 생성(saroglitazar-primary-biliary-cirrhosis-open)  <!-- 시험 5건 · 논문 11편 -->
 - [ ] saroglitazar — NAFLD에 듣는다  <!-- 시험 3건 · 논문 69편 -->
 - [ ] saroglitazar — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 66편 -->
 - [ ] ziltivekimab — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 25편 -->
