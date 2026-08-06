@@ -11713,3 +11713,59 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] exercise bike — Heart Rate에 듣는다  <!-- 시험 25건 · 논문 2210편 -->
 - [ ] exercise bike — Pulmonary Hypertension에 듣는다  <!-- 시험 21건 · 논문 19편 -->
 - [ ] light deprivation — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ginkgo biloba — Alzheimer's에 듣는다  <!-- 시험 8건 · 논문 592편 -->
+- [ ] ginkgo biloba — Ischemic Stroke에 듣는다  <!-- 시험 7건 · 논문 119편 -->
+- [ ] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 -->
+- [ ] ginkgo biloba — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 137편 -->
+- [ ] phosphatidylserine — ADHD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] HMB — Sarcopenia에 듣는다  <!-- 시험 9건 · 논문 120편 -->
+- [ ] HMB — Cancer에 듣는다  <!-- 시험 7건 · 논문 2019편 -->
+- [ ] HMB — Aging에 듣는다  <!-- 시험 6건 · 논문 174편 -->
+- [ ] HMB — Sports Nutrition에 듣는다  <!-- 시험 5건 · 논문 97편 -->
+- [ ] citrulline — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 37편 -->
+- [ ] citrulline — Menopause에 듣는다  <!-- 시험 5건 · 논문 69편 -->
+- [ ] citrulline — Aging에 듣는다  <!-- 시험 4건 · 논문 414편 -->
+- [ ] turmeric — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [ ] turmeric — Inflammation에 듣는다  <!-- 시험 3건 · 논문 1440편 -->
+- [ ] valerian — Sleep에 듣는다  <!-- 시험 5건 · 논문 272편 -->
+- [ ] lavender — Pain에 듣는다  <!-- 시험 25건 · 논문 358편 -->
+- [ ] lavender — Aromatherapy에 듣는다  <!-- 시험 15건 · 논문 567편 -->
+- [ ] lavender — Stress에 듣는다  <!-- 시험 9건 · 논문 465편 -->
+- [ ] lavender — Sleep에 듣는다  <!-- 시험 9건 · 논문 231편 -->
+- [ ] glucosamine — Back Pain에 듣는다  <!-- 시험 7건 · 논문 48편 -->
+- [ ] glucosamine — Obesity에 듣는다  <!-- 시험 3건 · 논문 222편 -->
+- [ ] chondroitin — Joint Pain에 듣는다  <!-- 시험 8건 · 논문 299편 -->
+- [ ] chondroitin — Recurrent Cystitis에 듣는다  <!-- 시험 5건 · 논문 22편 -->
+- [ ] chondroitin — Bladder Cancer에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] cinnamon — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 31편 -->
+- [ ] cinnamon — Insulin Resistance에 듣는다  <!-- 시험 5건 · 논문 142편 -->
+- [ ] cinnamon — Obesity에 듣는다  <!-- 시험 5건 · 논문 134편 -->
+- [ ] cinnamon — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 67편 -->
+- [ ] caloric restriction — Type2 Diabetes에 듣는다  <!-- 시험 17건 · 논문 23편 -->
+- [ ] caloric restriction — Weight에 듣는다  <!-- 시험 12건 · 논문 6352편 -->
+- [ ] caloric restriction — Metabolic Health에 듣는다  <!-- 시험 8건 · 논문 3428편 -->
+- [ ] caloric restriction — Aging에 듣는다  <!-- 시험 7건 · 논문 4433편 -->
+- [ ] low fat diet — Diabetes에 듣는다  <!-- 시험 52건 · 논문 7808편 -->
+- [ ] low fat diet — Metabolic Disease에 듣는다  <!-- 시험 28건 · 논문 12700편 -->
+- [ ] low fat diet — Liver Fat에 듣는다  <!-- 시험 15건 · 논문 7946편 -->
+- [ ] low fat diet — Insulin Resistance에 듣는다  <!-- 시험 13건 · 논문 5176편 -->
+- [ ] swimming — Cold Exposure에 듣는다  <!-- 시험 4건 · 논문 375편 -->
+- [ ] swimming — Pain, Chest에 듣는다  <!-- 시험 4건 · 논문 80편 -->
+- [ ] swimming — Hypertension에 듣는다  <!-- 시험 3건 · 논문 494편 -->
+- [ ] swimming — Motor Function에 듣는다  <!-- 시험 3건 · 논문 5108편 -->
+- [ ] dry needling — Headache에 듣는다  <!-- 시험 27건 · 논문 71편 -->
+- [ ] dry needling — Trigger Point에 듣는다  <!-- 시험 18건 · 논문 625편 -->
+- [ ] white noise — Sleep에 듣는다  <!-- 시험 12건 · 논문 215편 -->
+- [ ] white noise — Newborn에 듣는다  <!-- 시험 9건 · 논문 173편 -->
+- [ ] white noise — Anxiety에 듣는다  <!-- 시험 8건 · 논문 200편 -->
+- [ ] white noise — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 23편 -->
