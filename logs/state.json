@@ -4,7 +4,7 @@
   "entries": 2137,
   "worklist": {
     "checked": 10370,
-    "unchecked": 17,
+    "unchecked": 33,
     "no_evidence_pending": 187,
     "next_batch": [
       "- [ ] fish oil — Cancer에 듣는다  <!-- 시험 18건 · 논문 4431편 -->",
@@ -23,7 +23,20 @@
       "- [ ] lycopene — Prostatic Neoplasms에 듣는다  <!-- 시험 5건 · 논문 390편 -->",
       "- [ ] lycopene — Oral Lichen Planus에 듣는다  <!-- 시험 3건 · 논문 10편 -->",
       "- [ ] lycopene — Skin Aging에 듣는다  <!-- 시험 3건 · 논문 44편 -->",
-      "- [ ] kefir — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 30편 -->"
+      "- [ ] kefir — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 30편 -->",
+      "- [ ] group singing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 107편 -->",
+      "- [ ] group singing — Well-Being에 듣는다  <!-- 시험 5건 · 논문 809편 -->",
+      "- [ ] group singing — Physical Function에 듣는다  <!-- 시험 4건 · 논문 121편 -->",
+      "- [ ] group singing — Depression에 듣는다  <!-- 시험 3건 · 논문 122편 -->",
+      "- [ ] ginger — Vomiting에 듣는다  <!-- 시험 8건 · 논문 371편 -->",
+      "- [ ] ginger — Stress에 듣는다  <!-- 시험 5건 · 논문 820편 -->",
+      "- [ ] ginger — Inflammation에 듣는다  <!-- 시험 4건 · 논문 756편 -->",
+      "- [ ] ginger — Cancer에 듣는다  <!-- 시험 4건 · 논문 1047편 -->",
+      "- [ ] cranberry — Bacteriuria에 듣는다  <!-- 시험 5건 · 논문 85편 -->",
+      "- [ ] cranberry — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 42편 -->",
+      "- [ ] cranberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 142편 -->",
+      "- [ ] chamomile — Oral Mucositis Due to Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 22편 -->",
+      "- [ ] pistachio — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 67편 -->"
     ]
   },
   "verification": {
@@ -132,31 +145,31 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 47,
+    "latest_candidates": 16,
     "latest_substances": [
       "art journaling",
-      "music improvisation",
-      "mindful self-compassion",
-      "lifestyle intervention",
-      "health behavior intervention",
       "community choir",
-      "social dance",
       "outdoor walking",
       "green prescribing",
-      "mindfulness meditation",
-      "flaxseed",
-      "garlic extract",
-      "grape seed extract",
-      "fish oil",
-      "inulin",
-      "beta-glucan",
-      "soy isoflavones",
-      "lycopene",
-      "kefir",
-      "apple cider vinegar"
+      "body scan meditation",
+      "hot yoga",
+      "community gardening",
+      "nature immersion",
+      "volunteer activity",
+      "group singing",
+      "milk thistle",
+      "maca",
+      "black seed oil",
+      "ginger",
+      "cranberry",
+      "chamomile",
+      "nattokinase",
+      "pistachio",
+      "sourdough",
+      "coconut oil"
     ],
-    "added_candidates": 4109,
-    "direct_added_candidates": 1974,
+    "added_candidates": 4125,
+    "direct_added_candidates": 1990,
     "last_attempts": [
       {
         "candidates": 47,
@@ -441,11 +454,37 @@
           "apple cider vinegar"
         ],
         "non_drug_count": 10
+      },
+      {
+        "candidates": 16,
+        "substances": [
+          "art journaling",
+          "community choir",
+          "outdoor walking",
+          "green prescribing",
+          "body scan meditation",
+          "hot yoga",
+          "community gardening",
+          "nature immersion",
+          "volunteer activity",
+          "group singing",
+          "milk thistle",
+          "maca",
+          "black seed oil",
+          "ginger",
+          "cranberry",
+          "chamomile",
+          "nattokinase",
+          "pistachio",
+          "sourdough",
+          "coconut oil"
+        ],
+        "non_drug_count": 10
       }
     ]
   },
   "resume": {
-    "last_committed_batch": "batch 98: 30 topics processed; 30 evidence entries added; 17 unchecked topics remain",
+    "last_committed_batch": "expansion after batch 98 added 16 candidates from 20 supplied names, including 10 non-drug options; 33 unchecked topics remain",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -511,11 +550,12 @@
       "batch 97: 21 topics processed; 20 evidence entries added; 1 no-evidence topic closed; 0 unchecked topics remain",
       "six-round check after batches 92-97: no-effect/harm share 29%, harm 90, non-trial 299; public/local counts match at 2107; Vercel remote build failed on the external MFDS manifest path, then prebuilt production deployment succeeded",
       "expansion after batch 97 added 47 candidates from 20 supplied names, including 10 non-drug options; 47 unchecked topics remain",
-      "batch 98: 30 topics processed; 30 evidence entries added; 17 unchecked topics remain"
+      "batch 98: 30 topics processed; 30 evidence entries added; 17 unchecked topics remain",
+      "expansion after batch 98 added 16 candidates from 20 supplied names, including 10 non-drug options; 33 unchecked topics remain"
     ],
-    "current_batch": "batch 98 completed; 17 unchecked topics remain",
-    "next_action": "expand worklist with 20 uncovered names, including at least 5 non-drug options, then process the next batch",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remained; expansion after batch 57 added 22 candidates from 20 supplied names, including 5 non-drug options; batch 58 processed 30 topics; 26 evidence entries added; 4 approved indications skipped; expansion after batch 58 added 23 candidates from 20 supplied names including 5 non-drug options; batch 59 processed 30 topics; 27 evidence entries added; 3 no-evidence topics closed; expansion after batch 59 added 33 candidates from 20 supplied names including 10 non-drug options; batch 60 processed 30 topics; 29 evidence entries added; 1 no-evidence topic closed; expansion after batch 60 added 26 candidates from 20 supplied names including 10 non-drug options; batch 61 processed 30 topics; 26 evidence entries added; 4 no-evidence topics closed; expansion after batch 61 added 26 candidates from 20 supplied names including 10 non-drug options; second expansion after batch 61 added 33 candidates from 20 supplied names including 10 non-drug options; batch 62 processed 30 topics; 23 evidence entries added; 5 approved topics skipped; 2 no-evidence topics closed; 32 unchecked topics remain; batch 63: 30 topics processed; 20 evidence entries added; 10 no-evidence topics closed; 2 unchecked topics remain; expansion after batch 63 added 61 candidates from 20 supplied non-drug names; 63 unchecked topics remain; batch 65: 30 topics processed; 23 evidence entries added; 7 no-evidence topics closed; 33 unchecked topics remain; batch 66: 30 topics processed; 16 evidence entries added; 14 no-evidence topics closed; 3 unchecked topics remain; six-round check completed: no-effect/harm share 32%, harm 71, non-trial 201, public/local counts match at 1603; expansion after batch 66 added 55 candidates from 20 supplied non-drug names; 58 unchecked topics remain; batch 67: 30 topics processed; 17 evidence entries added; 13 no-evidence topics closed; 28 unchecked topics remain; expansion after batch 67 added 54 candidates from 20 supplied non-drug names; 82 unchecked topics remain; batch 68: 30 topics processed; 23 evidence entries added; 7 no-evidence topics closed; 52 unchecked topics remain; batch 69: 30 topics processed; 10 evidence entries added; 20 no-evidence topics closed; 22 unchecked topics remain; expansion after batch 69 added 43 candidates from 20 supplied non-drug names; 65 unchecked topics remain; batch 70: 30 topics processed; 17 evidence entries added; 13 no-evidence topics closed; 35 unchecked topics remain; batch 71: 30 topics processed; 9 evidence entries added; 21 no-evidence topics closed; 5 unchecked topics remain; expansion after batch 71 added 60 candidates from 20 supplied non-drug names; 65 unchecked topics remain; batch 72: 30 topics processed; 19 evidence entries added; 11 no-evidence topics closed; 35 unchecked topics remain; batch 73: 30 topics processed; 12 evidence entries added; 18 no-evidence topics closed; 5 unchecked topics remain; expansion after batch 73 added 40 candidates from 20 supplied names, including 5 non-drug options; 45 unchecked topics remain; batch 74: 30 topics processed; 15 evidence entries added; 10 no-evidence topics closed; 4 approved topics skipped; 15 unchecked topics remain; expansion after batch 74 added 35 candidates from 20 supplied names, including 5 non-drug options; 50 unchecked topics remain; batch 75: 30 topics processed; 18 evidence entries added; 7 no-evidence topics closed; 5 approved topics skipped; 20 unchecked topics remain; expansion after batch 75 added 47 candidates from 20 supplied names, including 5 non-drug options; 67 unchecked topics remain; batch 76: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 37 unchecked topics remain; batch 77: 30 topics processed; 4 evidence entries added; 20 no-evidence topics closed; 6 approved topics skipped; 7 unchecked topics remain; expansion after batch 77 added 40 candidates from 20 supplied names, including 5 non-drug options; 47 unchecked topics remain; batch 78: 30 topics processed; 15 evidence entries added; 8 no-evidence topics closed; 7 approved topics skipped; 17 unchecked topics remain; first expansion after batch 78 added 4 candidates from 20 supplied names, including 5 non-drug options; second expansion after batch 78 added 31 candidates from 20 supplied names, including 5 non-drug options; 52 unchecked topics remain; batch 79: 30 topics processed; 19 evidence entries added; 4 no-evidence topics closed; 7 approved topics skipped; 22 unchecked topics remain; expansion after batch 79 added 53 candidates from 20 supplied names, including 7 non-drug options; 75 unchecked topics remain; batch 80: 30 topics processed; 18 evidence entries added; 11 no-evidence topics closed; 1 approved topic skipped; 45 unchecked topics remain; batch 81: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 15 unchecked topics remain; expansion after batch 81 added 47 candidates from 20 supplied names, including 9 non-drug options; 62 unchecked topics remain; batch 82: 30 topics processed; 20 evidence entries added; 8 no-evidence topics closed; 2 approved topics skipped; 32 unchecked topics remain; batch 83: 30 topics processed; 20 evidence entries added; 8 no-evidence topics closed; 1 duplicate skipped; 1 approved topic skipped; 2 unchecked topics remain; expansion after batch 83 added 55 candidates from 20 supplied names, including 5 non-drug options; 57 unchecked topics remain; batch 84: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 27 unchecked topics remain; six-round check after batches 79-84 completed; batch 85: 27 topics processed; 20 evidence entries added; 6 no-evidence topics closed; 1 approved topic skipped; 0 unchecked topics remain; expansion after batch 85 added 35 candidates from 20 supplied names, including 10 non-drug options; 35 unchecked topics remain; batch 86: 30 topics processed; 20 evidence entries added; 9 no-evidence topics closed; 1 approved topic skipped; 5 unchecked topics remain; expansion after batch 86 added 52 candidates from 20 supplied names, including 10 non-drug options; 57 unchecked topics remain; batch 87: 30 topics processed; 22 evidence entries added; 5 no-evidence topics closed; 3 approved topics skipped; 27 unchecked topics remain; batch 87: 30 topics processed; 22 evidence entries added; 5 no-evidence topics closed; 3 approved topics skipped; 27 unchecked topics remain; expansion after batch 87 added 40 candidates from 20 supplied names, including 10 non-drug options; 67 unchecked topics remain; batch 88: 30 topics processed; 13 evidence entries added; 16 no-evidence topics closed; 1 duplicate skipped; 1 approved topic skipped; 37 unchecked topics remain; batch 89: 30 topics processed; 12 evidence entries added; 17 no-evidence topics closed; 1 approved topic skipped; 7 unchecked topics remain; expansion after batch 89 added 64 candidates from 20 supplied names, including 5 non-drug options; 71 unchecked topics remain; batch 90: 7 remaining topics processed; 3 evidence entries added; 1 no-evidence topic closed; 3 approved topics skipped; 64 unchecked topics remain; six-round check after batches 85-90 completed; public/local counts match at 1980; batch 91: 30 topics processed; 8 evidence entries added; 16 no-evidence topics closed; 6 approved topics skipped; 34 unchecked topics remain; batch 92: 30 topics processed; 20 evidence entries added; 9 no-evidence topics closed; 2 approved topics skipped; 4 unchecked topics remain; expansion after batch 92 added 55 candidates from 20 supplied names, including 13 non-drug options; 59 unchecked topics remain; batch 93: 30 topics processed; 19 evidence entries added; 11 no-evidence topics closed; 29 unchecked topics remain; expansion after batch 93 added 46 candidates from 20 supplied names, including 6 non-drug options; 75 unchecked topics remain; batch 94: 30 topics processed; 21 evidence entries added; 9 no-evidence topics closed; 1 approved topic skipped; 46 unchecked topics remain; batch 95: 30 topics processed; 19 evidence entries added; 7 no-evidence topics closed; 5 approved topics skipped; 16 unchecked topics remain; expansion after batch 95 added 18 candidates from 20 supplied names, including 10 non-drug options; 34 unchecked topics remain; batch 96: 30 topics processed; 20 evidence entries added; 10 no-evidence topics closed; 4 unchecked topics remain; expansion after batch 96 added 17 candidates from 20 supplied names, including 10 non-drug options; 21 unchecked topics remain; batch 97: 21 topics processed; 20 evidence entries added; 1 no-evidence topic closed; 0 unchecked topics remain; six-round check after batches 92-97: no-effect/harm share 29%, harm 90, non-trial 299; public/local counts match at 2107; Vercel remote build failed on the external MFDS manifest path, then prebuilt production deployment succeeded; expansion after batch 97 added 47 candidates from 20 supplied names, including 10 non-drug options; 47 unchecked topics remain; batch 98: 30 topics processed; 30 evidence entries added; 17 unchecked topics remain"
+    "current_batch": "expansion after batch 98 completed; 33 unchecked topics remain",
+    "next_action": "git pull --ff-only, read AGENTS.md, then process the next 30 unchecked topics",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remained; expansion after batch 57 added 22 candidates from 20 supplied names, including 5 non-drug options; batch 58 processed 30 topics; 26 evidence entries added; 4 approved indications skipped; expansion after batch 58 added 23 candidates from 20 supplied names including 5 non-drug options; batch 59 processed 30 topics; 27 evidence entries added; 3 no-evidence topics closed; expansion after batch 59 added 33 candidates from 20 supplied names including 10 non-drug options; batch 60 processed 30 topics; 29 evidence entries added; 1 no-evidence topic closed; expansion after batch 60 added 26 candidates from 20 supplied names including 10 non-drug options; batch 61 processed 30 topics; 26 evidence entries added; 4 no-evidence topics closed; expansion after batch 61 added 26 candidates from 20 supplied names including 10 non-drug options; second expansion after batch 61 added 33 candidates from 20 supplied names including 10 non-drug options; batch 62 processed 30 topics; 23 evidence entries added; 5 approved topics skipped; 2 no-evidence topics closed; 32 unchecked topics remain; batch 63: 30 topics processed; 20 evidence entries added; 10 no-evidence topics closed; 2 unchecked topics remain; expansion after batch 63 added 61 candidates from 20 supplied non-drug names; 63 unchecked topics remain; batch 65: 30 topics processed; 23 evidence entries added; 7 no-evidence topics closed; 33 unchecked topics remain; batch 66: 30 topics processed; 16 evidence entries added; 14 no-evidence topics closed; 3 unchecked topics remain; six-round check completed: no-effect/harm share 32%, harm 71, non-trial 201, public/local counts match at 1603; expansion after batch 66 added 55 candidates from 20 supplied non-drug names; 58 unchecked topics remain; batch 67: 30 topics processed; 17 evidence entries added; 13 no-evidence topics closed; 28 unchecked topics remain; expansion after batch 67 added 54 candidates from 20 supplied non-drug names; 82 unchecked topics remain; batch 68: 30 topics processed; 23 evidence entries added; 7 no-evidence topics closed; 52 unchecked topics remain; batch 69: 30 topics processed; 10 evidence entries added; 20 no-evidence topics closed; 22 unchecked topics remain; expansion after batch 69 added 43 candidates from 20 supplied non-drug names; 65 unchecked topics remain; batch 70: 30 topics processed; 17 evidence entries added; 13 no-evidence topics closed; 35 unchecked topics remain; batch 71: 30 topics processed; 9 evidence entries added; 21 no-evidence topics closed; 5 unchecked topics remain; expansion after batch 71 added 60 candidates from 20 supplied non-drug names; 65 unchecked topics remain; batch 72: 30 topics processed; 19 evidence entries added; 11 no-evidence topics closed; 35 unchecked topics remain; batch 73: 30 topics processed; 12 evidence entries added; 18 no-evidence topics closed; 5 unchecked topics remain; expansion after batch 73 added 40 candidates from 20 supplied names, including 5 non-drug options; 45 unchecked topics remain; batch 74: 30 topics processed; 15 evidence entries added; 10 no-evidence topics closed; 4 approved topics skipped; 15 unchecked topics remain; expansion after batch 74 added 35 candidates from 20 supplied names, including 5 non-drug options; 50 unchecked topics remain; batch 75: 30 topics processed; 18 evidence entries added; 7 no-evidence topics closed; 5 approved topics skipped; 20 unchecked topics remain; expansion after batch 75 added 47 candidates from 20 supplied names, including 5 non-drug options; 67 unchecked topics remain; batch 76: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 37 unchecked topics remain; batch 77: 30 topics processed; 4 evidence entries added; 20 no-evidence topics closed; 6 approved topics skipped; 7 unchecked topics remain; expansion after batch 77 added 40 candidates from 20 supplied names, including 5 non-drug options; 47 unchecked topics remain; batch 78: 30 topics processed; 15 evidence entries added; 8 no-evidence topics closed; 7 approved topics skipped; 17 unchecked topics remain; first expansion after batch 78 added 4 candidates from 20 supplied names, including 5 non-drug options; second expansion after batch 78 added 31 candidates from 20 supplied names, including 5 non-drug options; 52 unchecked topics remain; batch 79: 30 topics processed; 19 evidence entries added; 4 no-evidence topics closed; 7 approved topics skipped; 22 unchecked topics remain; expansion after batch 79 added 53 candidates from 20 supplied names, including 7 non-drug options; 75 unchecked topics remain; batch 80: 30 topics processed; 18 evidence entries added; 11 no-evidence topics closed; 1 approved topic skipped; 45 unchecked topics remain; batch 81: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 15 unchecked topics remain; expansion after batch 81 added 47 candidates from 20 supplied names, including 9 non-drug options; 62 unchecked topics remain; batch 82: 30 topics processed; 20 evidence entries added; 8 no-evidence topics closed; 2 approved topics skipped; 32 unchecked topics remain; batch 83: 30 topics processed; 20 evidence entries added; 8 no-evidence topics closed; 1 duplicate skipped; 1 approved topic skipped; 2 unchecked topics remain; expansion after batch 83 added 55 candidates from 20 supplied names, including 5 non-drug options; 57 unchecked topics remain; batch 84: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 27 unchecked topics remain; six-round check after batches 79-84 completed; batch 85: 27 topics processed; 20 evidence entries added; 6 no-evidence topics closed; 1 approved topic skipped; 0 unchecked topics remain; expansion after batch 85 added 35 candidates from 20 supplied names, including 10 non-drug options; 35 unchecked topics remain; batch 86: 30 topics processed; 20 evidence entries added; 9 no-evidence topics closed; 1 approved topic skipped; 5 unchecked topics remain; expansion after batch 86 added 52 candidates from 20 supplied names, including 10 non-drug options; 57 unchecked topics remain; batch 87: 30 topics processed; 22 evidence entries added; 5 no-evidence topics closed; 3 approved topics skipped; 27 unchecked topics remain; batch 87: 30 topics processed; 22 evidence entries added; 5 no-evidence topics closed; 3 approved topics skipped; 27 unchecked topics remain; expansion after batch 87 added 40 candidates from 20 supplied names, including 10 non-drug options; 67 unchecked topics remain; batch 88: 30 topics processed; 13 evidence entries added; 16 no-evidence topics closed; 1 duplicate skipped; 1 approved topic skipped; 37 unchecked topics remain; batch 89: 30 topics processed; 12 evidence entries added; 17 no-evidence topics closed; 1 approved topic skipped; 7 unchecked topics remain; expansion after batch 89 added 64 candidates from 20 supplied names, including 5 non-drug options; 71 unchecked topics remain; batch 90: 7 remaining topics processed; 3 evidence entries added; 1 no-evidence topic closed; 3 approved topics skipped; 64 unchecked topics remain; six-round check after batches 85-90 completed; public/local counts match at 1980; batch 91: 30 topics processed; 8 evidence entries added; 16 no-evidence topics closed; 6 approved topics skipped; 34 unchecked topics remain; batch 92: 30 topics processed; 20 evidence entries added; 9 no-evidence topics closed; 2 approved topics skipped; 4 unchecked topics remain; expansion after batch 92 added 55 candidates from 20 supplied names, including 13 non-drug options; 59 unchecked topics remain; batch 93: 30 topics processed; 19 evidence entries added; 11 no-evidence topics closed; 29 unchecked topics remain; expansion after batch 93 added 46 candidates from 20 supplied names, including 6 non-drug options; 75 unchecked topics remain; batch 94: 30 topics processed; 21 evidence entries added; 9 no-evidence topics closed; 1 approved topic skipped; 46 unchecked topics remain; batch 95: 30 topics processed; 19 evidence entries added; 7 no-evidence topics closed; 5 approved topics skipped; 16 unchecked topics remain; expansion after batch 95 added 18 candidates from 20 supplied names, including 10 non-drug options; 34 unchecked topics remain; batch 96: 30 topics processed; 20 evidence entries added; 10 no-evidence topics closed; 4 unchecked topics remain; expansion after batch 96 added 17 candidates from 20 supplied names, including 10 non-drug options; 21 unchecked topics remain; batch 97: 21 topics processed; 20 evidence entries added; 1 no-evidence topic closed; 0 unchecked topics remain; six-round check after batches 92-97: no-effect/harm share 29%, harm 90, non-trial 299; public/local counts match at 2107; Vercel remote build failed on the external MFDS manifest path, then prebuilt production deployment succeeded; expansion after batch 97 added 47 candidates from 20 supplied names, including 10 non-drug options; 47 unchecked topics remain; batch 98: 30 topics processed; 30 evidence entries added; 17 unchecked topics remain; expansion after batch 98 added 16 candidates from 20 supplied names, including 10 non-drug options; 33 unchecked topics remain"
   },
   "six_round_check": {
     "date": "2026-08-06",
