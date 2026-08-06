@@ -1,0 +1,29 @@
+{
+  "id": "cranberry-bacteriuria-pos",
+  "subj": "cranberry",
+  "claim": "크랜베리가 요로감염·세균뇨를 줄인다",
+  "line": "크랜베리 음료 시험을 묶어 요로감염을 줄였다",
+  "effect": "요로감염 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3091,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+  "why": "크랜베리 음료·정제와 요로감염 결과를 비교한 네트워크 메타분석을 확인했다",
+  "saw": "20개 무작위시험 3,091명에서 크랜베리와 무치료·위약 음료를 비교했다",
+  "limit": "무증상 세균뇨와 증상성 요로감염을 연구마다 다르게 정의했다",
+  "against": "척수손상 환자 세균뇨만 묶은 다른 메타분석에서는 유의한 차이가 없었다",
+  "use": "요로감염과 항생제 사용을 줄이는 비약물 중재 신호를 기록했다",
+  "refs": [
+    { "label": "크랜베리 요로감염 네트워크 메타분석", "doi": "10.1016/j.euf.2024.07.002", "pmid": "39030132" },
+    { "label": "척수손상 세균뇨 크랜베리 메타분석 · 음성 결과", "doi": "10.1155/2020/9869851", "pmid": "33194008" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=cranberry · cond=Bacteriuria 5건 반환, 물질 일치 5건",
+    "pubmed": "cranberry AND Bacteriuria 85건",
+    "negative": "cranberry AND Bacteriuria AND (no effect OR did not OR failed OR negative OR no significant difference) 55건",
+    "safety": "cranberry AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 355건"
+  }
+}

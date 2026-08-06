@@ -11865,23 +11865,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] grape seed extract — Hypertension에 듣는다  <!-- 시험 3건 · 논문 46편 --> — 항목 생성(2026-08-06)
 - [x] grape seed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 항목 생성(2026-08-06)
 - [x] grape seed extract — Elevated Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 45편 --> — 항목 생성(2026-08-06)
-- [ ] fish oil — Cancer에 듣는다  <!-- 시험 18건 · 논문 4431편 -->
-- [ ] fish oil — Cardiovascular System에 듣는다  <!-- 시험 14건 · 논문 2469편 -->
-- [ ] fish oil — Inflammation에 듣는다  <!-- 시험 13건 · 논문 6137편 -->
-- [ ] fish oil — Metabolic Syndrome에 듣는다  <!-- 시험 11건 · 논문 844편 -->
-- [ ] inulin — Microbiota에 듣는다  <!-- 시험 17건 · 논문 1361편 -->
-- [ ] inulin — Diabetes에 듣는다  <!-- 시험 12건 · 논문 783편 -->
-- [ ] inulin — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 47편 -->
-- [ ] inulin — Metabolic Disease에 듣는다  <!-- 시험 9건 · 논문 1184편 -->
-- [ ] beta-glucan — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 67편 -->
-- [ ] beta-glucan — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 223편 -->
-- [ ] beta-glucan — Aging에 듣는다  <!-- 시험 4건 · 논문 241편 -->
-- [ ] soy isoflavones — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 339편 -->
-- [ ] soy isoflavones — Cardiovascular Risk에 듣는다  <!-- 시험 7건 · 논문 279편 -->
-- [ ] lycopene — Prostatic Neoplasms에 듣는다  <!-- 시험 5건 · 논문 390편 -->
-- [ ] lycopene — Oral Lichen Planus에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] lycopene — Skin Aging에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] kefir — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] fish oil — Cancer에 듣는다  <!-- 시험 18건 · 논문 4431편 --> — 항목 생성(2026-08-06)
+- [x] fish oil — Cardiovascular System에 듣는다  <!-- 시험 14건 · 논문 2469편 --> — 항목 생성(2026-08-06)
+- [x] fish oil — Inflammation에 듣는다  <!-- 시험 13건 · 논문 6137편 --> — 항목 생성(2026-08-06)
+- [x] fish oil — Metabolic Syndrome에 듣는다  <!-- 시험 11건 · 논문 844편 --> — 항목 생성(2026-08-06)
+- [x] inulin — Microbiota에 듣는다  <!-- 시험 17건 · 논문 1361편 --> — 항목 생성(2026-08-06)
+- [x] inulin — Diabetes에 듣는다  <!-- 시험 12건 · 논문 783편 --> — 항목 생성(2026-08-06)
+- [x] inulin — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 47편 --> — 항목 생성(2026-08-06)
+- [x] inulin — Metabolic Disease에 듣는다  <!-- 시험 9건 · 논문 1184편 --> — 항목 생성(2026-08-06)
+- [x] beta-glucan — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 67편 --> — 항목 생성(2026-08-06)
+- [x] beta-glucan — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 223편 --> — 항목 생성(2026-08-06)
+- [x] beta-glucan — Aging에 듣는다  <!-- 시험 4건 · 논문 241편 --> — 항목 생성(2026-08-06)
+- [x] soy isoflavones — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 339편 --> — 항목 생성(2026-08-06)
+- [x] soy isoflavones — Cardiovascular Risk에 듣는다  <!-- 시험 7건 · 논문 279편 --> — 항목 생성(2026-08-06)
+- [x] lycopene — Prostatic Neoplasms에 듣는다  <!-- 시험 5건 · 논문 390편 --> — 항목 생성(2026-08-06)
+- [x] lycopene — Oral Lichen Planus에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 항목 생성(2026-08-06)
+- [x] lycopene — Skin Aging에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 항목 생성(2026-08-06)
+- [x] kefir — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11892,19 +11892,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] group singing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 107편 -->
-- [ ] group singing — Well-Being에 듣는다  <!-- 시험 5건 · 논문 809편 -->
-- [ ] group singing — Physical Function에 듣는다  <!-- 시험 4건 · 논문 121편 -->
-- [ ] group singing — Depression에 듣는다  <!-- 시험 3건 · 논문 122편 -->
-- [ ] ginger — Vomiting에 듣는다  <!-- 시험 8건 · 논문 371편 -->
-- [ ] ginger — Stress에 듣는다  <!-- 시험 5건 · 논문 820편 -->
-- [ ] ginger — Inflammation에 듣는다  <!-- 시험 4건 · 논문 756편 -->
-- [ ] ginger — Cancer에 듣는다  <!-- 시험 4건 · 논문 1047편 -->
-- [ ] cranberry — Bacteriuria에 듣는다  <!-- 시험 5건 · 논문 85편 -->
-- [ ] cranberry — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 42편 -->
-- [ ] cranberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 142편 -->
-- [ ] chamomile — Oral Mucositis Due to Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 22편 -->
-- [ ] pistachio — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [x] group singing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 107편 --> — 항목 생성(2026-08-06)
+- [x] group singing — Well-Being에 듣는다  <!-- 시험 5건 · 논문 809편 --> — 항목 생성(2026-08-06)
+- [x] group singing — Physical Function에 듣는다  <!-- 시험 4건 · 논문 121편 --> — 항목 생성(2026-08-06)
+- [x] group singing — Depression에 듣는다  <!-- 시험 3건 · 논문 122편 --> — 항목 생성(2026-08-06)
+- [x] ginger — Vomiting에 듣는다  <!-- 시험 8건 · 논문 371편 --> — 항목 생성(2026-08-06)
+- [x] ginger — Stress에 듣는다  <!-- 시험 5건 · 논문 820편 --> — 항목 생성(2026-08-06)
+- [x] ginger — Inflammation에 듣는다  <!-- 시험 4건 · 논문 756편 --> — 항목 생성(2026-08-06)
+- [x] ginger — Cancer에 듣는다  <!-- 시험 4건 · 논문 1047편 --> — 항목 생성(2026-08-06)
+- [x] cranberry — Bacteriuria에 듣는다  <!-- 시험 5건 · 논문 85편 --> — 항목 생성(2026-08-06)
+- [x] cranberry — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 42편 --> — 항목 생성(2026-08-06)
+- [x] cranberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 142편 --> — 항목 생성(2026-08-06)
+- [x] chamomile — Oral Mucositis Due to Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 항목 생성(2026-08-06)
+- [x] pistachio — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 67편 --> — 항목 생성(2026-08-06)
 - [ ] sourdough — Energy Intake에 듣는다  <!-- 시험 3건 · 논문 9편 -->
 - [ ] coconut oil — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 303편 -->
 - [ ] coconut oil — Inflammation에 듣는다  <!-- 시험 3건 · 논문 191편 -->
