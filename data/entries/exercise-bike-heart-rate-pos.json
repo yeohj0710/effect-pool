@@ -1,0 +1,28 @@
+{
+  "id": "exercise-bike-heart-rate-pos",
+  "subj": "실내 자전거",
+  "claim": "심박수로 운동 강도를 구분할 수 있다",
+  "line": "실내 자전거 운동에서 심박수가 운동 강도 변화를 반영했습니다",
+  "effect": "심박수·운동 강도 동반 상승",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 12,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "운동 강도 평가에는 실내 자전거의 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "건강한 남성이 기능적 역치 출력의 55%와 85%로 자전거를 탄 무작위 교차시험입니다.",
+  "saw": "건강한 남성 12명이 각 강도로 30분씩 자전거를 탔습니다. 두 강도에서 심박수·산소섭취량·혈중 젖산·주관적 운동강도가 유의하게 달라져 심박수와 자각도를 운동 강도 구분에 함께 쓸 수 있었습니다.",
+  "limit": "건강한 남성의 단회 운동이고 심혈관질환 환자의 안전성이나 예후를 검증하지 않았습니다.",
+  "against": "기능적 역치 출력만으로는 높은 강도의 생리·심리 부담을 과소평가할 수 있었습니다.",
+  "use": "실내 자전거 처방에서 출력과 심박수·자각도를 함께 확인하는 근거입니다.",
+  "refs": [
+    { "label": "자전거 운동 강도와 심박수 무작위 교차시험", "pmid": "42148565" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=exercise bike · cond=Heart Rate → 10건 반환, 물질 대조 후 10건",
+    "pubmed": "exercise bike AND Heart Rate → 2210편",
+    "negative": "exercise bike AND Heart Rate AND (no effect OR did not OR failed OR negative OR no significant difference) → 1276편",
+    "safety": "exercise bike AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 433편"
+  }
+}

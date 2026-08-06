@@ -11684,35 +11684,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] green tea extract — Diabetes에 듣는다  <!-- 시험 8건 · 논문 652편 --> — 근거 없음(2026-08-06 조회, "green tea extract AND Diabetes")
 - [x] green tea extract — Obesity에 듣는다  <!-- 시험 7건 · 논문 639편 --> — 근거 없음(2026-08-06 조회, "green tea extract AND Obesity")
 - [x] green tea extract — Inflammation에 듣는다  <!-- 시험 5건 · 논문 836편 --> — 항목 생성(2026-08-06)
-- [ ] prebiotic — Microbiota에 듣는다  <!-- 시험 14건 · 논문 9578편 -->
-- [ ] prebiotic — Constipation에 듣는다  <!-- 시험 13건 · 논문 370편 -->
-- [ ] prebiotic — Stress에 듣는다  <!-- 시험 12건 · 논문 1448편 -->
-- [ ] low fodmap diet — Functional Dyspepsia에 듣는다  <!-- 시험 17건 · 논문 31편 -->
-- [ ] low fodmap diet — FODMAP Diet에 듣는다  <!-- 시험 6건 · 논문 926편 -->
-- [ ] low fodmap diet — Food Intolerance에 듣는다  <!-- 시험 5건 · 논문 59편 -->
-- [ ] low fodmap diet — Small Intestinal Bacterial Overgrowth에 듣는다  <!-- 시험 3건 · 논문 24편 -->
-- [ ] weighted blanket — Attention Deficit Disorder에 듣는다  <!-- 시험 5건 · 논문 19편 -->
-- [ ] weighted blanket — Anxiety에 듣는다  <!-- 시험 4건 · 논문 42편 -->
-- [ ] acoustic stimulation — Hearing Loss에 듣는다  <!-- 시험 7건 · 논문 6183편 -->
-- [ ] acoustic stimulation — Tinnitus에 듣는다  <!-- 시험 7건 · 논문 1165편 -->
-- [ ] acoustic stimulation — Mild Cognitive Impairment에 듣는다  <!-- 시험 4건 · 논문 322편 -->
-- [ ] acoustic stimulation — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 1081편 -->
-- [ ] cold exposure — Pre-diabetes에 듣는다  <!-- 시험 9건 · 논문 28편 -->
-- [ ] cold exposure — Metabolic Disease에 듣는다  <!-- 시험 5건 · 논문 1013편 -->
-- [ ] cold exposure — Stress에 듣는다  <!-- 시험 4건 · 논문 5066편 -->
-- [ ] cold exposure — Inflammation에 듣는다  <!-- 시험 4건 · 논문 730편 -->
-- [ ] music listening — Pain에 듣는다  <!-- 시험 106건 · 논문 641편 -->
-- [ ] music listening — Cancer에 듣는다  <!-- 시험 58건 · 논문 207편 -->
-- [ ] music listening — Stress에 듣는다  <!-- 시험 41건 · 논문 711편 -->
-- [ ] music listening — Dementia에 듣는다  <!-- 시험 35건 · 논문 245편 -->
-- [ ] nordic walking — Overweight에 듣는다  <!-- 시험 4건 · 논문 40편 -->
-- [ ] nordic walking — Elderly에 듣는다  <!-- 시험 4건 · 논문 275편 -->
-- [ ] nordic walking — Osteoporosis에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] exercise bike — Obesity에 듣는다  <!-- 시험 34건 · 논문 360편 -->
-- [ ] exercise bike — Diabetes에 듣는다  <!-- 시험 33건 · 논문 238편 -->
-- [ ] exercise bike — Heart Rate에 듣는다  <!-- 시험 25건 · 논문 2210편 -->
-- [ ] exercise bike — Pulmonary Hypertension에 듣는다  <!-- 시험 21건 · 논문 19편 -->
-- [ ] light deprivation — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
+- [x] prebiotic — Microbiota에 듣는다  <!-- 시험 14건 · 논문 9578편 --> — 항목 생성(2026-08-06)
+- [x] prebiotic — Constipation에 듣는다  <!-- 시험 13건 · 논문 370편 --> — 항목 생성(2026-08-06)
+- [x] prebiotic — Stress에 듣는다  <!-- 시험 12건 · 논문 1448편 --> — 근거 없음(2026-08-06 조회, "prebiotic AND Stress")
+- [x] low fodmap diet — Functional Dyspepsia에 듣는다  <!-- 시험 17건 · 논문 31편 --> — 항목 생성(2026-08-06)
+- [x] low fodmap diet — FODMAP Diet에 듣는다  <!-- 시험 6건 · 논문 926편 --> — 항목 생성(2026-08-06)
+- [x] low fodmap diet — Food Intolerance에 듣는다  <!-- 시험 5건 · 논문 59편 --> — 근거 없음(2026-08-06 조회, "low fodmap diet AND Food Intolerance")
+- [x] low fodmap diet — Small Intestinal Bacterial Overgrowth에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-06 조회, "low fodmap diet AND Small Intestinal Bacterial Overgrowth")
+- [x] weighted blanket — Attention Deficit Disorder에 듣는다  <!-- 시험 5건 · 논문 19편 --> — 항목 생성(2026-08-06)
+- [x] weighted blanket — Anxiety에 듣는다  <!-- 시험 4건 · 논문 42편 --> — 항목 생성(2026-08-06)
+- [x] acoustic stimulation — Hearing Loss에 듣는다  <!-- 시험 7건 · 논문 6183편 --> — 근거 없음(2026-08-06 조회, "acoustic stimulation AND Hearing Loss")
+- [x] acoustic stimulation — Tinnitus에 듣는다  <!-- 시험 7건 · 논문 1165편 --> — 항목 생성(2026-08-06)
+- [x] acoustic stimulation — Mild Cognitive Impairment에 듣는다  <!-- 시험 4건 · 논문 322편 --> — 항목 생성(2026-08-06)
+- [x] acoustic stimulation — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 1081편 --> — 근거 없음(2026-08-06 조회, "acoustic stimulation AND Epilepsy")
+- [x] cold exposure — Pre-diabetes에 듣는다  <!-- 시험 9건 · 논문 28편 --> — 근거 없음(2026-08-06 조회, "cold exposure AND Pre-diabetes")
+- [x] cold exposure — Metabolic Disease에 듣는다  <!-- 시험 5건 · 논문 1013편 --> — 근거 없음(2026-08-06 조회, "cold exposure AND Metabolic Disease")
+- [x] cold exposure — Stress에 듣는다  <!-- 시험 4건 · 논문 5066편 --> — 근거 없음(2026-08-06 조회, "cold exposure AND Stress")
+- [x] cold exposure — Inflammation에 듣는다  <!-- 시험 4건 · 논문 730편 --> — 항목 생성(2026-08-06)
+- [x] music listening — Pain에 듣는다  <!-- 시험 106건 · 논문 641편 --> — 항목 생성(2026-08-06)
+- [x] music listening — Cancer에 듣는다  <!-- 시험 58건 · 논문 207편 --> — 항목 생성(2026-08-06)
+- [x] music listening — Stress에 듣는다  <!-- 시험 41건 · 논문 711편 --> — 항목 생성(2026-08-06)
+- [x] music listening — Dementia에 듣는다  <!-- 시험 35건 · 논문 245편 --> — 항목 생성(2026-08-06)
+- [x] nordic walking — Overweight에 듣는다  <!-- 시험 4건 · 논문 40편 --> — 항목 생성(2026-08-06)
+- [x] nordic walking — Elderly에 듣는다  <!-- 시험 4건 · 논문 275편 --> — 항목 생성(2026-08-06)
+- [x] nordic walking — Osteoporosis에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 항목 생성(2026-08-06)
+- [x] exercise bike — Obesity에 듣는다  <!-- 시험 34건 · 논문 360편 --> — 항목 생성(2026-08-06)
+- [x] exercise bike — Diabetes에 듣는다  <!-- 시험 33건 · 논문 238편 --> — 근거 없음(2026-08-06 조회, "exercise bike AND Diabetes")
+- [x] exercise bike — Heart Rate에 듣는다  <!-- 시험 25건 · 논문 2210편 --> — 항목 생성(2026-08-06)
+- [x] exercise bike — Pulmonary Hypertension에 듣는다  <!-- 시험 21건 · 논문 19편 --> — 항목 생성(2026-08-06)
+- [x] light deprivation — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 --> — 항목 생성(2026-08-06)
+- [x] ginkgo biloba — Alzheimer’s에 듣는다  <!-- 시험 8건 · 논문 592편 --> — 허가 적응증(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
