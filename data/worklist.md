@@ -12535,4 +12535,4 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] treadmill training — Gait에 듣는다  <!-- 시험 23건 · 논문 2772편 -->
 - [x] treadmill training — Cerebral Palsy에 듣는다  <!-- 시험 18건 · 논문 241편 -->
 - [x] treadmill training — Spinal Cord Injury에 듣는다  <!-- 시험 13건 · 논문 729편 -->
-- [ ] remibrutinib — Chronic Inducible Urticaria에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [x] remibrutinib — Chronic Inducible Urticaria에 듣는다  <!-- 시험 5건 · 논문 9편 -->
