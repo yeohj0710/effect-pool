@@ -1,0 +1,29 @@
+{
+  "id": "therapeutic-massage-hand-burn-pos",
+  "subj": "therapeutic massage",
+  "claim": "화상 환자의 통증과 불안에 치료적 마사지를 보조로 쓴다",
+  "line": "화상 환자에서 치료적 마사지는 통증과 불안을 줄일 수 있습니다",
+  "effect": "통증·불안 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 240,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "치료적 마사지는 허가 의약품 적응증이 아닌 비약물 중재입니다",
+  "why": "화상 환자 240명을 네 군으로 무작위 배정한 임상시험에서 20분 Swedish massage를 3일 시행한 군은 일반 치료군보다 통증과 불안이 줄고 이완이 늘었습니다.",
+  "limit": "단일 병원에서 3일간 시행한 단기 연구이며 마사지 단독과 음악 병용의 차이는 크지 않았습니다.",
+  "against": "화상 마사지 연구들은 방법과 결과 척도가 달라 모든 환자에게 같은 효과가 난다고 단정할 수 없습니다.",
+  "use": "화상 드레싱과 통증 치료를 보조하는 짧은 마사지로 검토하되 상처와 피부 상태를 먼저 확인합니다.",
+  "refs": [
+    { "label": "The effects of massage and music on pain anxiety and relaxation in burn patients randomized trial", "doi": "10.1016/j.burns.2017.01.011", "pmid": "28169080" },
+    { "label": "The effect of shiatsu massage on underlying anxiety in burn patients", "pmid": "25606475", "pmc": "PMC4298863" }
+  ],
+  "saw": "240명 무작위시험에서 60명씩 일반 치료, 음악, 마사지, 음악·마사지 병용군으로 나눠 20분 중재를 3일 시행했고 세 중재군 모두 대조군보다 통증과 불안이 줄고 이완이 늘었습니다.",
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "therapeutic massage AND Hand Burn · 1건 반환; 중재명 표기가 달라 직접 매칭 0건",
+    "pubmed": "therapeutic massage AND Hand Burn AND (randomized OR trial OR meta-analysis) · 6건",
+    "negative": "therapeutic massage AND Hand Burn AND (no effect OR did not OR failed OR negative OR no significant difference) · 14건",
+    "safety": "therapeutic massage AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 3302건"
+  }
+}
