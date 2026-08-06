@@ -1,0 +1,28 @@
+{
+  "id": "whey-protein-diabetes-pos",
+  "subj": "whey protein",
+  "claim": "성인의 혈당 조절을 유청 단백질을 포함한 우유 단백질로 일부 개선할 수 있다",
+  "line": "성인에서 우유 단백질 보충이 공복혈당과 HOMA-IR을 낮췄습니다",
+  "effect": "공복혈당·HOMA-IR 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1851,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "유청 단백질은 당뇨병 치료에 허가된 의약품이 아닙니다.",
+  "why": "성인의 혈당 지표에 대한 우유·유청 단백질 보충 무작위시험을 합쳤습니다.",
+  "saw": "무작위시험 36건, 1,851명을 합친 메타분석에서 우유 단백질 보충은 공복혈당·공복 인슐린·HOMA-IR을 낮췄지만 HbA1c는 달라지지 않았습니다. 유청 단백질 하위군에서도 일부 지표가 개선됐습니다.",
+  "limit": "우유 단백질과 유청 단백질이 함께 분석됐고 연구 기간과 용량이 달랐습니다.",
+  "against": "유청 단백질이 당뇨병 약을 대신하거나 HbA1c를 낮춘다는 근거는 없습니다.",
+  "use": "혈당 조절의 영양 보조 신호로 기록합니다.",
+  "refs": [
+    { "label": "우유 단백질 혈당 지표 용량반응 메타분석", "doi": "10.1186/s12937-023-00878-1", "pmid": "37798798" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=whey protein · cond=Diabetes 35건, 중재 일치 35건",
+    "pubmed": "whey protein AND Diabetes 545건",
+    "negative": "whey protein AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 375건",
+    "safety": "whey protein AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1896건"
+  }
+}

@@ -11794,10 +11794,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propolis — Inflammation에 듣는다  <!-- 시험 7건 · 논문 575편 --> — 항목 생성(2026-08-06)
 - [x] propolis — Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 101편 --> — 항목 생성(2026-08-06)
 - [x] royal jelly — Hypertension에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(2026-08-06)
-- [ ] beetroot juice — Exercise에 듣는다  <!-- 시험 20건 · 논문 431편 -->
-- [ ] beetroot juice — Cardiovascular Health에 듣는다  <!-- 시험 11건 · 논문 113편 -->
-- [ ] beetroot juice — Dietary Nitrate에 듣는다  <!-- 시험 11건 · 논문 495편 -->
-- [ ] beetroot juice — Aging에 듣는다  <!-- 시험 9건 · 논문 52편 -->
+- [x] beetroot juice — Exercise에 듣는다  <!-- 시험 20건 · 논문 431편 --> — 항목 생성(2026-08-06)
+- [x] beetroot juice — Cardiovascular Health에 듣는다  <!-- 시험 11건 · 논문 113편 --> — 항목 생성(2026-08-06)
+- [x] beetroot juice — Dietary Nitrate에 듣는다  <!-- 시험 11건 · 논문 495편 --> — 항목 생성(2026-08-06)
+- [x] beetroot juice — Aging에 듣는다  <!-- 시험 9건 · 논문 52편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11808,20 +11808,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] positive psychology — Cancer에 듣는다  <!-- 시험 13건 · 논문 13468편 -->
-- [ ] positive psychology — Depressive Symptoms에 듣는다  <!-- 시험 10건 · 논문 33542편 -->
-- [ ] positive psychology — Depression에 듣는다  <!-- 시험 9건 · 논문 35351편 -->
-- [ ] positive psychology — Acute Coronary Syndrome에 듣는다  <!-- 시험 6건 · 논문 116편 -->
-- [ ] astaxanthin — Skin Aging에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] astaxanthin — Metabolic Syndrome X에 듣는다  <!-- 시험 3건 · 논문 36편 -->
-- [ ] pomegranate extract — Inflammation에 듣는다  <!-- 시험 4건 · 논문 254편 -->
-- [ ] pomegranate extract — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 99편 -->
-- [ ] pomegranate extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] pomegranate extract — Gingival Health에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] whey protein — Obesity에 듣는다  <!-- 시험 32건 · 논문 420편 -->
-- [ ] whey protein — Sarcopenia에 듣는다  <!-- 시험 30건 · 논문 210편 -->
-- [ ] whey protein — Diabetes에 듣는다  <!-- 시험 27건 · 논문 545편 -->
-- [ ] whey protein — Cancer에 듣는다  <!-- 시험 24건 · 논문 1664편 -->
-- [ ] spirulina — Obesity에 듣는다  <!-- 시험 5건 · 논문 120편 -->
-- [ ] spirulina — Periodontitis에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] spirulina — Gastroparesis에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [x] positive psychology — Cancer에 듣는다  <!-- 시험 13건 · 논문 13468편 --> — 항목 생성(2026-08-06)
+- [x] positive psychology — Depressive Symptoms에 듣는다  <!-- 시험 10건 · 논문 33542편 --> — 항목 생성(2026-08-06)
+- [x] positive psychology — Depression에 듣는다  <!-- 시험 9건 · 논문 35351편 --> — 항목 생성(2026-08-06)
+- [x] positive psychology — Acute Coronary Syndrome에 듣는다  <!-- 시험 6건 · 논문 116편 --> — 항목 생성(2026-08-06)
+- [x] astaxanthin — Skin Aging에 듣는다  <!-- 시험 4건 · 논문 51편 --> — 항목 생성(2026-08-06)
+- [x] astaxanthin — Metabolic Syndrome X에 듣는다  <!-- 시험 3건 · 논문 36편 --> — 항목 생성(2026-08-06)
+- [x] pomegranate extract — Inflammation에 듣는다  <!-- 시험 4건 · 논문 254편 --> — 항목 생성(2026-08-06)
+- [x] pomegranate extract — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 99편 --> — 항목 생성(2026-08-06)
+- [x] pomegranate extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 항목 생성(2026-08-06)
+- [x] pomegranate extract — Gingival Health에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 항목 생성(2026-08-06)
+- [x] whey protein — Obesity에 듣는다  <!-- 시험 32건 · 논문 420편 --> — 항목 생성(2026-08-06)
+- [x] whey protein — Sarcopenia에 듣는다  <!-- 시험 30건 · 논문 210편 --> — 항목 생성(2026-08-06)
+- [x] whey protein — Diabetes에 듣는다  <!-- 시험 27건 · 논문 545편 --> — 항목 생성(2026-08-06)
+- [x] whey protein — Cancer에 듣는다  <!-- 시험 24건 · 논문 1664편 --> — 항목 생성(2026-08-06)
+- [x] spirulina — Obesity에 듣는다  <!-- 시험 5건 · 논문 120편 --> — 항목 생성(2026-08-06)
+- [x] spirulina — Periodontitis에 듣는다  <!-- 시험 4건 · 논문 11편 --> — 항목 생성(2026-08-06)
+- [x] spirulina — Gastroparesis에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-06, spirulina AND Gastroparesis)

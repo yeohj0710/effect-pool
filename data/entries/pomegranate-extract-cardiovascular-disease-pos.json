@@ -1,0 +1,28 @@
+{
+  "id": "pomegranate-extract-cardiovascular-disease-pos",
+  "subj": "pomegranate extract",
+  "claim": "증상이 없는 성인의 이완기혈압을 석류 추출물로 낮출 수 있다",
+  "line": "증상이 없는 성인에서 석류 추출물이 이완기혈압을 낮췄습니다",
+  "effect": "이완기혈압 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 55,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "석류 추출물은 심혈관질환 예방·치료에 허가된 의약품이 아닙니다.",
+  "why": "심혈관 위험 요인을 줄이는 보충 전략으로 성인의 석류 추출물을 시험했습니다.",
+  "saw": "무작위 이중눈가림 임상시험에서 증상이 없는 성인 55명이 석류 추출물 또는 위약을 8주 복용했습니다. 석류군의 이완기혈압은 위약보다 낮아졌지만 수축기혈압과 체성분은 달라지지 않았습니다.",
+  "limit": "증상이 없는 성인의 단기 혈압 연구라 심혈관 사건이나 장기 예방 효과를 보여주지 않습니다.",
+  "against": "석류 추출물이 심근경색·뇌졸중을 예방한다는 임상 결과는 없습니다.",
+  "use": "심혈관 위험 표지 중 혈압에 대한 단기 보조 신호로 기록합니다.",
+  "refs": [
+    { "label": "성인의 석류 추출물 혈압 무작위시험", "doi": "10.1017/jns.2017.36", "pmid": "29152243" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=pomegranate extract · cond=Cardiovascular Disease 8건, 중재 일치 8건",
+    "pubmed": "pomegranate extract AND Cardiovascular Disease 99건",
+    "negative": "pomegranate extract AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 93건",
+    "safety": "pomegranate extract AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 361건"
+  }
+}
