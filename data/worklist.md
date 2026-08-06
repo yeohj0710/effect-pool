@@ -12057,3 +12057,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] garlic — Endothelial Dysfunction에 듣는다  <!-- 시험 3건 · 논문 55편 --> — 항목 생성(2026-08-06)
 - [x] garlic — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 135편 --> — 항목 생성(2026-08-06)
 - [x] garlic — Hypertension에 듣는다  <!-- 시험 3건 · 논문 298편 --> — 항목 생성(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] hyperbaric oxygen therapy — COVID-19에 듣는다  <!-- 시험 33건 · 논문 160편 -->
+- [ ] hyperbaric oxygen therapy — Post-Concussion Syndrome에 듣는다  <!-- 시험 20건 · 논문 64편 -->
+- [ ] hyperbaric oxygen therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 1933편 -->
+- [ ] hyperbaric oxygen therapy — Stroke에 듣는다  <!-- 시험 15건 · 논문 582편 -->
+- [ ] transcranial magnetic stimulation — Depression에 듣는다  <!-- 시험 49건 · 논문 5240편 -->
+- [ ] transcranial magnetic stimulation — Stroke에 듣는다  <!-- 시험 32건 · 논문 3725편 -->
+- [ ] transcranial magnetic stimulation — Pain에 듣는다  <!-- 시험 28건 · 논문 2077편 -->
+- [ ] transcranial magnetic stimulation — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 1025편 -->
+- [ ] vagus nerve stimulation — Pain에 듣는다  <!-- 시험 41건 · 논문 863편 -->
+- [ ] vagus nerve stimulation — Autonomic Diseases에 듣는다  <!-- 시험 23건 · 논문 290편 -->
+- [ ] vagus nerve stimulation — Burn Injury에 듣는다  <!-- 시험 21건 · 논문 47편 -->
+- [ ] vagus nerve stimulation — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 2517편 -->
+- [ ] neurofeedback — Pain에 듣는다  <!-- 시험 25건 · 논문 229편 -->
+- [ ] neurofeedback — Opioid Use에 듣는다  <!-- 시험 25건 · 논문 18편 -->
+- [ ] neurofeedback — Cognitive Change에 듣는다  <!-- 시험 21건 · 논문 490편 -->
+- [ ] neurofeedback — Stress에 듣는다  <!-- 시험 21건 · 논문 297편 -->
+- [ ] photobiomodulation — Cancer에 듣는다  <!-- 시험 26건 · 논문 1388편 -->
+- [ ] photobiomodulation — Mucositis에 듣는다  <!-- 시험 21건 · 논문 542편 -->
+- [ ] photobiomodulation — Laser에 듣는다  <!-- 시험 12건 · 논문 9754편 -->
+- [ ] balneotherapy — Low Back Pain에 듣는다  <!-- 시험 4건 · 논문 88편 -->
+- [ ] balneotherapy — Balneology에 듣는다  <!-- 시험 3건 · 논문 13673편 -->
+- [ ] schema therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 233편 -->
+- [ ] schema therapy — Depressive Symptoms에 듣는다  <!-- 시험 5건 · 논문 217편 -->
+- [ ] schema therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 160편 -->
+- [ ] metacognitive therapy — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 294편 -->
+- [ ] metacognitive therapy — Depression에 듣는다  <!-- 시험 16건 · 논문 446편 -->
+- [ ] metacognitive therapy — Psychotic Disorders에 듣는다  <!-- 시험 12건 · 논문 169편 -->
+- [ ] metacognitive therapy — Aphasia에 듣는다  <!-- 시험 9건 · 논문 15편 -->
+- [ ] cognitive processing therapy — PTSD에 듣는다  <!-- 시험 56건 · 논문 4130편 -->
+- [ ] cognitive processing therapy — Depression에 듣는다  <!-- 시험 36건 · 논문 24647편 -->
+- [ ] cognitive processing therapy — Schizophrenia에 듣는다  <!-- 시험 29건 · 논문 9183편 -->
+- [ ] cognitive processing therapy — Anxiety Symptoms에 듣는다  <!-- 시험 26건 · 논문 11058편 -->
+- [ ] exposure and response prevention — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1418편 -->
+- [ ] exposure and response prevention — Tic Disorders에 듣는다  <!-- 시험 8건 · 논문 72편 -->
+- [ ] exposure and response prevention — Tourette Disease에 듣는다  <!-- 시험 7건 · 논문 64편 -->
+- [ ] exposure and response prevention — Binge Eating에 듣는다  <!-- 시험 5건 · 논문 53편 -->
+- [ ] oats — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 333편 -->
+- [ ] oats — Gluten Allergy에 듣는다  <!-- 시험 3건 · 논문 31편 -->
+- [ ] barley — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 211편 -->
