@@ -11060,3 +11060,60 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] group prenatal care — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1636편 -->
 - [ ] group prenatal care — Stress에 듣는다  <!-- 시험 7건 · 논문 1081편 -->
 - [ ] group prenatal care — Depression에 듣는다  <!-- 시험 6건 · 논문 1167편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] cefepime — Acute Pyelonephritis에 듣는다  <!-- 시험 4건 · 논문 31편 -->
+- [ ] cefepime — Drug Allergy에 듣는다  <!-- 시험 4건 · 논문 80편 -->
+- [ ] cefepime — Peritonitis에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [ ] chlorhexidine — Periodontal Pocket에 듣는다  <!-- 시험 24건 · 논문 473편 -->
+- [ ] chlorhexidine — Pneumonia에 듣는다  <!-- 시험 23건 · 논문 734편 -->
+- [ ] chlorhexidine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 580편 -->
+- [ ] chlorhexidine — Staphylococcus Aureus에 듣는다  <!-- 시험 16건 · 논문 1556편 -->
+- [ ] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 -->
+- [ ] diltiazem — Drug Dependence에 듣는다  <!-- 시험 4건 · 논문 282편 -->
+- [ ] diltiazem — Pain에 듣는다  <!-- 시험 4건 · 논문 991편 -->
+- [ ] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 -->
+- [ ] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 -->
+- [ ] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 -->
+- [ ] empagliflozin — Obesity에 듣는다  <!-- 시험 13건 · 논문 302편 -->
+- [ ] empagliflozin — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 79편 -->
+- [ ] famotidine — Acid Reflux에 듣는다  <!-- 시험 7건 · 논문 153편 -->
+- [ ] famotidine — Ulcer에 듣는다  <!-- 시험 6건 · 논문 1004편 -->
+- [ ] famotidine — HIV에 듣는다  <!-- 시험 5건 · 논문 14편 -->
+- [ ] famotidine — SARS-CoV-2 Infection에 듣는다  <!-- 시험 5건 · 논문 103편 -->
+- [ ] ivermectin — Drug Effect에 듣는다  <!-- 시험 4건 · 논문 6009편 -->
+- [ ] ivermectin — Loiasis에 듣는다  <!-- 시험 3건 · 논문 250편 -->
+- [ ] ivermectin — Trachoma에 듣는다  <!-- 시험 3건 · 논문 33편 -->
+- [ ] moxifloxacin — Cataract에 듣는다  <!-- 시험 16건 · 논문 337편 -->
+- [ ] moxifloxacin — Pulmonary Disease에 듣는다  <!-- 시험 16건 · 논문 1017편 -->
+- [ ] moxifloxacin — QT/QTc에 듣는다  <!-- 시험 16건 · 논문 182편 -->
+- [ ] moxifloxacin — Infections에 듣는다  <!-- 시험 14건 · 논문 5315편 -->
+- [ ] nitrofurantoin — Pain에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [ ] ranitidine — Food-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [ ] ranitidine — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] rebamipide — Gastric Lesion에 듣는다  <!-- 시험 3건 · 논문 58편 -->
+- [ ] sitagliptin — Glucose Intolerance에 듣는다  <!-- 시험 7건 · 논문 44편 -->
+- [ ] sitagliptin — Hyperglycemia에 듣는다  <!-- 시험 6건 · 논문 341편 -->
+- [ ] sitagliptin — Liver Insufficiency에 듣는다  <!-- 시험 6건 · 논문 13편 -->
+- [ ] tapentadol — Cancer에 듣는다  <!-- 시험 4건 · 논문 145편 -->
+- [ ] gardening — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 234편 -->
+- [ ] gardening — Pre-Diabetes에 듣는다  <!-- 시험 3건 · 논문 56편 -->
+- [ ] meal planning — Food Insecurity에 듣는다  <!-- 시험 4건 · 논문 77편 -->
+- [ ] meal planning — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 -->
+- [ ] meal planning — Stress에 듣는다  <!-- 시험 3건 · 논문 127편 -->
+- [ ] sleep education — Obesity에 듣는다  <!-- 시험 6건 · 논문 3343편 -->
+- [ ] sleep education — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 122편 -->
+- [ ] sleep education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 6170편 -->
+- [ ] sleep education — Osteoarthritis, Hip에 듣는다  <!-- 시험 6건 · 논문 31편 -->
+- [ ] tai chi — Activity, Motor에 듣는다  <!-- 시험 12건 · 논문 799편 -->
+- [ ] tai chi — Falls에 듣는다  <!-- 시험 11건 · 논문 490편 -->
+- [ ] tai chi — Sleep에 듣는다  <!-- 시험 11건 · 논문 368편 -->
+- [ ] tai chi — Stroke에 듣는다  <!-- 시험 8건 · 논문 211편 -->
