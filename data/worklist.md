@@ -11905,9 +11905,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cranberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 142편 --> — 항목 생성(2026-08-06)
 - [x] chamomile — Oral Mucositis Due to Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 항목 생성(2026-08-06)
 - [x] pistachio — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 67편 --> — 항목 생성(2026-08-06)
-- [ ] sourdough — Energy Intake에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] coconut oil — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 303편 -->
-- [ ] coconut oil — Inflammation에 듣는다  <!-- 시험 3건 · 논문 191편 -->
+- [x] sourdough — Energy Intake에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 9편 -->
+- [x] coconut oil — Cardiovascular Disease에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 303편 -->
+- [x] coconut oil — Inflammation에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 191편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11918,33 +11918,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] singing therapy — Cardiovascular Health에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] social connection — Suicide Ideation에 듣는다  <!-- 시험 3건 · 논문 406편 -->
-- [ ] social connection — Elderly에 듣는다  <!-- 시험 3건 · 논문 12460편 -->
-- [ ] social connection — Colorectal Cancer에 듣는다  <!-- 시험 3건 · 논문 106편 -->
-- [ ] social connection — Wellbeing에 듣는다  <!-- 시험 3건 · 논문 6235편 -->
-- [ ] community volunteering — Diabetes에 듣는다  <!-- 시험 4건 · 논문 606편 -->
-- [ ] gardening intervention — Anxiety에 듣는다  <!-- 시험 3건 · 논문 329편 -->
-- [ ] gardening intervention — Depression에 듣는다  <!-- 시험 3건 · 논문 473편 -->
-- [ ] gardening intervention — Pre-Diabetes에 듣는다  <!-- 시험 3건 · 논문 39편 -->
-- [ ] gardening intervention — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 151편 -->
-- [ ] laughter intervention — Well-being에 듣는다  <!-- 시험 10건 · 논문 537편 -->
-- [ ] laughter intervention — Education에 듣는다  <!-- 시험 9건 · 논문 145편 -->
-- [ ] laughter intervention — Burnout에 듣는다  <!-- 시험 7건 · 논문 19편 -->
-- [ ] laughter intervention — Anxiety에 듣는다  <!-- 시험 6건 · 논문 143편 -->
-- [ ] compassion practice — Mental Health에 듣는다  <!-- 시험 9건 · 논문 1729편 -->
-- [ ] compassion practice — Anxiety에 듣는다  <!-- 시험 8건 · 논문 768편 -->
-- [ ] compassion practice — Emotion Regulation에 듣는다  <!-- 시험 7건 · 논문 326편 -->
-- [ ] compassion practice — Mindfulness에 듣는다  <!-- 시험 7건 · 논문 933편 -->
-- [ ] leisure activity — Physical Function에 듣는다  <!-- 시험 3건 · 논문 117542편 -->
-- [ ] blueberry — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 94편 -->
-- [ ] blueberry — Executive Function에 듣는다  <!-- 시험 8건 · 논문 25편 -->
-- [ ] blueberry — Inflammation에 듣는다  <!-- 시험 7건 · 논문 307편 -->
-- [ ] blueberry — Diabetes에 듣는다  <!-- 시험 7건 · 논문 198편 -->
-- [ ] walnut — Obesity에 듣는다  <!-- 시험 9건 · 논문 458편 -->
-- [ ] walnut — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 110편 -->
-- [ ] walnut — Diabetes에 듣는다  <!-- 시험 4건 · 논문 674편 -->
-- [ ] walnut — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
+- [x] singing therapy — Cardiovascular Health에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 9편 -->
+- [x] social connection — Suicide Ideation에 듣는다 — 근거 없음(2026-08-06 조회, "social connection suicide intervention")  <!-- 시험 3건 · 논문 406편 -->
+- [x] social connection — Elderly에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 12460편 -->
+- [x] social connection — Colorectal Cancer에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 106편 -->
+- [x] social connection — Wellbeing에 듣는다 — 근거 없음(2026-08-06 조회, "social connection wellbeing intervention")  <!-- 시험 3건 · 논문 6235편 -->
+- [x] community volunteering — Diabetes에 듣는다 — 근거 없음(2026-08-06 조회, "community volunteering diabetes intervention")  <!-- 시험 4건 · 논문 606편 -->
+- [x] gardening intervention — Anxiety에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 329편 -->
+- [x] gardening intervention — Depression에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 473편 -->
+- [x] gardening intervention — Pre-Diabetes에 듣는다 — 근거 없음(2026-08-06 조회, "gardening intervention prediabetes")  <!-- 시험 3건 · 논문 39편 -->
+- [x] gardening intervention — Malnutrition에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 151편 -->
+- [x] laughter intervention — Well-being에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 10건 · 논문 537편 -->
+- [x] laughter intervention — Education에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 9건 · 논문 145편 -->
+- [x] laughter intervention — Burnout에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 19편 -->
+- [x] laughter intervention — Anxiety에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 143편 -->
+- [x] compassion practice — Mental Health에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 9건 · 논문 1729편 -->
+- [x] compassion practice — Anxiety에 듣는다 — 근거 없음(2026-08-06 조회, "compassion practice anxiety intervention")  <!-- 시험 8건 · 논문 768편 -->
+- [x] compassion practice — Emotion Regulation에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 326편 -->
+- [x] compassion practice — Mindfulness에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 933편 -->
+- [x] leisure activity — Physical Function에 듣는다 — 근거 없음(2026-08-06 조회, "leisure activity physical function intervention")  <!-- 시험 3건 · 논문 117542편 -->
+- [x] blueberry — Blood Pressure에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 8건 · 논문 94편 -->
+- [x] blueberry — Executive Function에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 8건 · 논문 25편 -->
+- [x] blueberry — Inflammation에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 307편 -->
+- [x] blueberry — Diabetes에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 198편 -->
+- [x] walnut — Obesity에 듣는다 — 근거 없음(2026-08-06 조회, "walnut obesity intervention")  <!-- 시험 9건 · 논문 458편 -->
+- [x] walnut — Cognitive Change에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 110편 -->
+- [x] walnut — Diabetes에 듣는다 — 근거 없음(2026-08-06 조회, "walnut diabetes intervention")  <!-- 시험 4건 · 논문 674편 -->
+- [x] walnut — Colon Cancer에 듣는다 — 근거 없음(2026-08-06 조회, "walnut colon cancer intervention")  <!-- 시험 4건 · 논문 89편 -->
 - [ ] almond — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 484편 -->
 - [ ] almond — Overweight에 듣는다  <!-- 시험 7건 · 논문 150편 -->
 - [ ] almond — PreDiabetes에 듣는다  <!-- 시험 7건 · 논문 24편 -->
