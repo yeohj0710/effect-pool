@@ -190,7 +190,8 @@
       "batch 76: 30 topics processed; 17 evidence entries added; 11 no-evidence topics closed; 2 approved topics skipped; 37 unchecked topics remain",
       "batch 77: 30 topics processed; 4 evidence entries added; 20 no-evidence topics closed; 6 approved topics skipped; 7 unchecked topics remain",
       "expansion after batch 77 added 40 candidates from 20 supplied names, including 5 non-drug options; 47 unchecked topics remain",
-      "batch 78: 30 topics processed; 15 evidence entries added; 8 no-evidence topics closed; 7 approved topics skipped; 17 unchecked topics remain"
+      "batch 78: 30 topics processed; 15 evidence entries added; 8 no-evidence topics closed; 7 approved topics skipped; 17 unchecked topics remain",
+      "six-round check after batches 73-78: no-effect/harm share 30%, harm 73, non-trial 247, public/local counts match at 1779; automatic deployment matched"
     ],
     "current_batch": "batch 78: 30 topics processed; 15 evidence entries added; 8 no-evidence topics closed; 7 approved topics skipped; 17 unchecked topics remain",
     "next_action": "run expand-worklist --covered because 17 unchecked topics remain, then process the next 30",
@@ -198,12 +199,12 @@
   },
   "six_round_check": {
     "date": "2026-08-06",
-    "batches": "67, 68, 69, 70, 71, 72",
-    "no_effect_or_harm_share": "31%",
-    "harm_entries": 71,
-    "non_trial_entries": 224,
-    "public_entry_count_local": 1698,
-    "public_entry_count_public": 1698,
+    "batches": "73, 74, 75, 76, 77, 78",
+    "no_effect_or_harm_share": "30%",
+    "harm_entries": 73,
+    "non_trial_entries": 247,
+    "public_entry_count_local": 1779,
+    "public_entry_count_public": 1779,
     "public_counts_match": true,
     "deployment_command": "automatic deployment matched; vercel --prod not needed"
   }
