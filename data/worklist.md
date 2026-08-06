@@ -10480,10 +10480,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] high-intensity interval training — Obesity에 듣는다  <!-- 시험 17건 · 논문 939편 -->
 - [x] high-intensity interval training — Lung Cancer에 듣는다  <!-- 시험 14건 · 논문 38편 -->
 - [x] high-intensity interval training — Brain Activity에 듣는다  <!-- 시험 13건 · 논문 442편 -->
-- [ ] high-intensity interval training — Cognitive Change에 듣는다  <!-- 시험 13건 · 논문 169편 -->
-- [ ] nature exposure — Well-being에 듣는다  <!-- 시험 5건 · 논문 56886편 -->
-- [ ] nature exposure — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 302편 -->
-- [ ] nature exposure — Anxiety에 듣는다  <!-- 시험 3건 · 논문 2149편 -->
+- [x] high-intensity interval training — Cognitive Change에 듣는다 — 항목 생성(high-intensity-interval-training-cognitive-change-null)  <!-- 시험 13건 · 논문 169편 -->
+- [x] nature exposure — Well-being에 듣는다 — 항목 생성(nature-exposure-well-being-open)  <!-- 시험 5건 · 논문 56886편 -->
+- [x] nature exposure — Virtual Reality에 듣는다 — 항목 생성(nature-exposure-virtual-reality-pos)  <!-- 시험 3건 · 논문 302편 -->
+- [x] nature exposure — Anxiety에 듣는다 — 항목 생성(nature-exposure-anxiety-pos)  <!-- 시험 3건 · 논문 2149편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10494,32 +10494,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] resmetirom — Cirrhosis, Liver에 듣는다  <!-- 시험 3건 · 논문 173편 -->
-- [ ] cagrilintide — Overweight에 듣는다  <!-- 시험 12건 · 논문 56편 -->
-- [ ] cagrilintide — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 36편 -->
-- [ ] acupressure — Cancer에 듣는다  <!-- 시험 54건 · 논문 375편 -->
-- [ ] acupressure — Anxiety에 듣는다  <!-- 시험 24건 · 논문 338편 -->
-- [ ] acupressure — Fatigue에 듣는다  <!-- 시험 22건 · 논문 195편 -->
-- [ ] acupressure — Nausea에 듣는다  <!-- 시험 22건 · 논문 415편 -->
-- [ ] social prescribing — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 62편 -->
-- [ ] social prescribing — Cancer에 듣는다  <!-- 시험 3건 · 논문 329편 -->
-- [ ] mindfulness-based stress reduction — Depression에 듣는다  <!-- 시험 25건 · 논문 928편 -->
-- [ ] mindfulness-based stress reduction — Anxiety에 듣는다  <!-- 시험 22건 · 논문 908편 -->
-- [ ] mindfulness-based stress reduction — Pain에 듣는다  <!-- 시험 19건 · 논문 394편 -->
-- [ ] mindfulness-based stress reduction — Cancer에 듣는다  <!-- 시험 17건 · 논문 377편 -->
-- [ ] vegan diet — Healthy Diet에 듣는다  <!-- 시험 10건 · 논문 554편 -->
-- [ ] vegan diet — Cardiovascular Health에 듣는다  <!-- 시험 8건 · 논문 228편 -->
-- [ ] vegan diet — Obesity에 듣는다  <!-- 시험 6건 · 논문 240편 -->
-- [ ] vegan diet — Cardiometabolic Health에 듣는다  <!-- 시험 6건 · 논문 69편 -->
-- [ ] sleep extension — Diabetes에 듣는다  <!-- 시험 8건 · 논문 126편 -->
-- [ ] sleep extension — Hypertension에 듣는다  <!-- 시험 5건 · 논문 69편 -->
-- [ ] sleep extension — Metabolic Disease에 듣는다  <!-- 시험 4건 · 논문 112편 -->
-- [ ] sleep extension — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 76편 -->
-- [ ] whole grain diet — Metabolic Disease에 듣는다  <!-- 시험 10건 · 논문 978편 -->
-- [ ] whole grain diet — Diabetes에 듣는다  <!-- 시험 7건 · 논문 1000편 -->
-- [ ] whole grain diet — Overweight에 듣는다  <!-- 시험 5건 · 논문 682편 -->
-- [ ] whole grain diet — Healthy Diet에 듣는다  <!-- 시험 5건 · 논문 1798편 -->
-- [ ] low glycemic diet — Obesity에 듣는다  <!-- 시험 44건 · 논문 1608편 -->
+- [x] resmetirom — Cirrhosis, Liver에 듣는다 — 근거 없음(2026-08-06, resmetirom AND cirrhosis)  <!-- 시험 3건 · 논문 173편 -->
+- [x] cagrilintide — Overweight에 듣는다 — 항목 생성(cagrilintide-overweight-pos)  <!-- 시험 12건 · 논문 56편 -->
+- [x] cagrilintide — Type 2 Diabetes에 듣는다 — 항목 생성(cagrilintide-type-2-diabetes-pos)  <!-- 시험 12건 · 논문 36편 -->
+- [x] acupressure — Cancer에 듣는다 — 항목 생성(acupressure-cancer-pos)  <!-- 시험 54건 · 논문 375편 -->
+- [x] acupressure — Anxiety에 듣는다 — 항목 생성(acupressure-anxiety-pos)  <!-- 시험 24건 · 논문 338편 -->
+- [x] acupressure — Fatigue에 듣는다 — 항목 생성(acupressure-fatigue-pos)  <!-- 시험 22건 · 논문 195편 -->
+- [x] acupressure — Nausea에 듣는다 — 항목 생성(acupressure-nausea-pos)  <!-- 시험 22건 · 논문 415편 -->
+- [x] social prescribing — Heart Failure에 듣는다 — 항목 생성(social-prescribing-heart-failure-open)  <!-- 시험 7건 · 논문 62편 -->
+- [x] social prescribing — Cancer에 듣는다 — 항목 생성(social-prescribing-cancer-open)  <!-- 시험 3건 · 논문 329편 -->
+- [x] mindfulness-based stress reduction — Depression에 듣는다 — 항목 생성(mindfulness-based-stress-reduction-depression-open)  <!-- 시험 25건 · 논문 928편 -->
+- [x] mindfulness-based stress reduction — Anxiety에 듣는다 — 항목 생성(mindfulness-based-stress-reduction-anxiety-pos)  <!-- 시험 22건 · 논문 908편 -->
+- [x] mindfulness-based stress reduction — Pain에 듣는다 — 항목 생성(mindfulness-based-stress-reduction-pain-pos)  <!-- 시험 19건 · 논문 394편 -->
+- [x] mindfulness-based stress reduction — Cancer에 듣는다 — 항목 생성(mindfulness-based-stress-reduction-cancer-pos)  <!-- 시험 17건 · 논문 377편 -->
+- [x] vegan diet — Healthy Diet에 듣는다 — 항목 생성(vegan-diet-healthy-diet-open)  <!-- 시험 10건 · 논문 554편 -->
+- [x] vegan diet — Cardiovascular Health에 듣는다 — 항목 생성(vegan-diet-cardiovascular-health-open)  <!-- 시험 8건 · 논문 228편 -->
+- [x] vegan diet — Obesity에 듣는다 — 항목 생성(vegan-diet-obesity-open)  <!-- 시험 6건 · 논문 240편 -->
+- [x] vegan diet — Cardiometabolic Health에 듣는다 — 항목 생성(vegan-diet-cardiometabolic-health-pos)  <!-- 시험 6건 · 논문 69편 -->
+- [x] sleep extension — Diabetes에 듣는다 — 항목 생성(sleep-extension-diabetes-null)  <!-- 시험 8건 · 논문 126편 -->
+- [x] sleep extension — Hypertension에 듣는다 — 항목 생성(sleep-extension-hypertension-pos)  <!-- 시험 5건 · 논문 69편 -->
+- [x] sleep extension — Metabolic Disease에 듣는다 — 항목 생성(sleep-extension-metabolic-disease-null)  <!-- 시험 4건 · 논문 112편 -->
+- [x] sleep extension — Blood Pressure에 듣는다 — 항목 생성(sleep-extension-blood-pressure-pos)  <!-- 시험 4건 · 논문 76편 -->
+- [x] whole grain diet — Metabolic Disease에 듣는다 — 항목 생성(whole-grain-diet-metabolic-disease-open)  <!-- 시험 10건 · 논문 978편 -->
+- [x] whole grain diet — Diabetes에 듣는다 — 항목 생성(whole-grain-diet-diabetes-pos)  <!-- 시험 7건 · 논문 1000편 -->
+- [x] whole grain diet — Overweight에 듣는다 — 항목 생성(whole-grain-diet-overweight-null)  <!-- 시험 5건 · 논문 682편 -->
+- [x] whole grain diet — Healthy Diet에 듣는다 — 항목 생성(whole-grain-diet-healthy-diet-open)  <!-- 시험 5건 · 논문 1798편 -->
+- [x] low glycemic diet — Obesity에 듣는다 — 항목 생성(low-glycemic-diet-obesity-pos)  <!-- 시험 44건 · 논문 1608편 -->
 - [ ] low glycemic diet — Metabolic Disease에 듣는다  <!-- 시험 17건 · 논문 2943편 -->
 - [ ] low glycemic diet — Overweight에 듣는다  <!-- 시험 16건 · 논문 1187편 -->
 - [ ] low glycemic diet — Glucose Blood에 듣는다  <!-- 시험 12건 · 논문 2530편 -->
