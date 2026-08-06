@@ -10710,9 +10710,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] low sodium diet — Kidney Stone에 듣는다  <!-- 시험 13건 · 논문 154편 --> — 근거 없음(2026-08-06, "low sodium diet" AND "Kidney Stone")
 - [x] low sodium diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 1175편 --> — 항목 생성(2026-08-06)
 - [x] time-restricted eating — Time에 듣는다  <!-- 시험 27건 · 논문 2822편 --> — 항목 생성(2026-08-06)
-- [ ] time-restricted eating — Fasting에 듣는다  <!-- 시험 15건 · 논문 3931편 -->
-- [ ] time-restricted eating — Metabolic Health에 듣는다  <!-- 시험 14건 · 논문 1760편 -->
-- [ ] time-restricted eating — Cancer에 듣는다  <!-- 시험 14건 · 논문 524편 -->
+- [x] time-restricted eating — Fasting에 듣는다  <!-- 시험 15건 · 논문 3931편 --> — 항목 생성(2026-08-06)
+- [x] time-restricted eating — Metabolic Health에 듣는다  <!-- 시험 14건 · 논문 1760편 --> — 항목 생성(2026-08-06)
+- [x] time-restricted eating — Cancer에 듣는다  <!-- 시험 14건 · 논문 524편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10723,33 +10723,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] reminiscence therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 101편 -->
-- [ ] reminiscence therapy — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 135편 -->
-- [ ] cognitive stimulation therapy — Alzheimer Disease에 듣는다  <!-- 시험 19건 · 논문 2507편 -->
-- [ ] cognitive stimulation therapy — Stroke에 듣는다  <!-- 시험 15건 · 논문 1584편 -->
-- [ ] cognitive stimulation therapy — Aging에 듣는다  <!-- 시험 13건 · 논문 2292편 -->
-- [ ] cognitive stimulation therapy — Brain Tumor에 듣는다  <!-- 시험 13건 · 논문 403편 -->
-- [ ] validation therapy — Chronic Kidney Disease, Stage 5에 듣는다  <!-- 시험 3건 · 논문 717편 -->
-- [ ] interpersonal psychotherapy — Depressive Symptoms에 듣는다  <!-- 시험 25건 · 논문 2392편 -->
-- [ ] interpersonal psychotherapy — Stress에 듣는다  <!-- 시험 13건 · 논문 1095편 -->
-- [ ] interpersonal psychotherapy — Binge Eating에 듣는다  <!-- 시험 12건 · 논문 215편 -->
-- [ ] interpersonal psychotherapy — Anxiety에 듣는다  <!-- 시험 10건 · 논문 1260편 -->
-- [ ] compassion-focused therapy — Parent에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] self-compassion training — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 825편 -->
-- [ ] self-compassion training — Type 1 Diabetes에 듣는다  <!-- 시험 5건 · 논문 9편 -->
-- [ ] self-compassion training — Anxiety에 듣는다  <!-- 시험 4건 · 논문 473편 -->
-- [ ] self-compassion training — Mental Health에 듣는다  <!-- 시험 3건 · 논문 795편 -->
-- [ ] peer counseling — Opioid Use에 듣는다  <!-- 시험 22건 · 논문 108편 -->
-- [ ] peer counseling — Cancer에 듣는다  <!-- 시험 18건 · 논문 528편 -->
-- [ ] peer counseling — Breastfeeding에 듣는다  <!-- 시험 12건 · 논문 303편 -->
-- [ ] peer counseling — Diabetes에 듣는다  <!-- 시험 10건 · 논문 229편 -->
-- [ ] support group — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 34558편 -->
-- [ ] support group — Depression에 듣는다  <!-- 시험 7건 · 논문 71869편 -->
-- [ ] support group — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 17412편 -->
-- [ ] support group — Mental Health에 듣는다  <!-- 시험 6건 · 논문 73849편 -->
-- [ ] caregiver education — Depression에 듣는다  <!-- 시험 6건 · 논문 4042편 -->
-- [ ] caregiver education — Autism에 듣는다  <!-- 시험 5건 · 논문 1430편 -->
-- [ ] caregiver education — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 346편 -->
+- [x] reminiscence therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 101편 --> — 항목 생성(2026-08-06)
+- [x] reminiscence therapy — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 135편 --> — 항목 생성(2026-08-06)
+- [x] cognitive stimulation therapy — Alzheimer Disease에 듣는다  <!-- 시험 19건 · 논문 2507편 --> — 근거 없음(2026-08-06, "cognitive stimulation therapy" AND "Alzheimer Disease")
+- [x] cognitive stimulation therapy — Stroke에 듣는다  <!-- 시험 15건 · 논문 1584편 --> — 근거 없음(2026-08-06, "cognitive stimulation therapy" AND Stroke)
+- [x] cognitive stimulation therapy — Aging에 듣는다  <!-- 시험 13건 · 논문 2292편 --> — 근거 없음(2026-08-06, "cognitive stimulation therapy" AND Aging)
+- [x] cognitive stimulation therapy — Brain Tumor에 듣는다  <!-- 시험 13건 · 논문 403편 --> — 근거 없음(2026-08-06, "cognitive stimulation therapy" AND "Brain Tumor")
+- [x] validation therapy — Chronic Kidney Disease, Stage 5에 듣는다  <!-- 시험 3건 · 논문 717편 --> — 근거 없음(2026-08-06, "validation therapy" AND "Chronic Kidney Disease, Stage 5")
+- [x] interpersonal psychotherapy — Depressive Symptoms에 듣는다  <!-- 시험 25건 · 논문 2392편 --> — 항목 생성(2026-08-06)
+- [x] interpersonal psychotherapy — Stress에 듣는다  <!-- 시험 13건 · 논문 1095편 --> — 항목 생성(2026-08-06)
+- [x] interpersonal psychotherapy — Binge Eating에 듣는다  <!-- 시험 12건 · 논문 215편 --> — 근거 없음(2026-08-06, "interpersonal psychotherapy" AND "Binge Eating")
+- [x] interpersonal psychotherapy — Anxiety에 듣는다  <!-- 시험 10건 · 논문 1260편 --> — 근거 없음(2026-08-06, "interpersonal psychotherapy" AND Anxiety)
+- [x] compassion-focused therapy — Parent에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목 생성(2026-08-06)
+- [x] self-compassion training — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 825편 --> — 항목 생성(2026-08-06)
+- [x] self-compassion training — Type 1 Diabetes에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 근거 없음(2026-08-06, "self-compassion training" AND "Type 1 Diabetes")
+- [x] self-compassion training — Anxiety에 듣는다  <!-- 시험 4건 · 논문 473편 --> — 근거 없음(2026-08-06, "self-compassion training" AND Anxiety)
+- [x] self-compassion training — Mental Health에 듣는다  <!-- 시험 3건 · 논문 795편 --> — 항목 생성(2026-08-06)
+- [x] peer counseling — Opioid Use에 듣는다  <!-- 시험 22건 · 논문 108편 --> — 항목 생성(2026-08-06)
+- [x] peer counseling — Cancer에 듣는다  <!-- 시험 18건 · 논문 528편 --> — 근거 없음(2026-08-06, "peer counseling" AND Cancer)
+- [x] peer counseling — Breastfeeding에 듣는다  <!-- 시험 12건 · 논문 303편 --> — 항목 생성(2026-08-06)
+- [x] peer counseling — Diabetes에 듣는다  <!-- 시험 10건 · 논문 229편 --> — 항목 생성(2026-08-06)
+- [x] support group — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 34558편 --> — 항목 생성(2026-08-06)
+- [x] support group — Depression에 듣는다  <!-- 시험 7건 · 논문 71869편 --> — 항목 생성(2026-08-06)
+- [x] support group — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 17412편 --> — 근거 없음(2026-08-06, "support group" AND Schizophrenia)
+- [x] support group — Mental Health에 듣는다  <!-- 시험 6건 · 논문 73849편 --> — 항목 생성(2026-08-06)
+- [x] caregiver education — Depression에 듣는다  <!-- 시험 6건 · 논문 4042편 --> — 항목 생성(2026-08-06)
+- [x] caregiver education — Autism에 듣는다  <!-- 시험 5건 · 논문 1430편 --> — 근거 없음(2026-08-06, "caregiver education" AND Autism)
+- [x] caregiver education — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 346편 --> — 근거 없음(2026-08-06, "caregiver education" AND "Chronic Pain")
 - [ ] caregiver education — Diabetes에 듣는다  <!-- 시험 4건 · 논문 1172편 -->
 - [ ] aromatherapy — Pain에 듣는다  <!-- 시험 35건 · 논문 642편 -->
 - [ ] aromatherapy — Cancer에 듣는다  <!-- 시험 19건 · 논문 289편 -->
