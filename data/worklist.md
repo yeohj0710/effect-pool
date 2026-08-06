@@ -11222,3 +11222,76 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] group exercise — Obesity에 듣는다  <!-- 시험 8건 · 논문 21846편 -->
 - [ ] group exercise — Pain에 듣는다  <!-- 시험 6건 · 논문 24232편 -->
 - [ ] group exercise — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 6693편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acetazolamide — Plasma Volume에 듣는다  <!-- 시험 3건 · 논문 76편 -->
+- [ ] acetazolamide — Chronic Obstructive Pulmonary Disease (COPD)에 듣는다  <!-- 시험 3건 · 논문 79편 -->
+- [ ] acetazolamide — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 761편 -->
+- [ ] acetazolamide — Obesity에 듣는다  <!-- 시험 3건 · 논문 254편 -->
+- [ ] albuterol — Status Asthmaticus에 듣는다  <!-- 시험 4건 · 논문 197편 -->
+- [ ] albuterol — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 164편 -->
+- [ ] amantadine — Schizoaffective Disorder에 듣는다  <!-- 시험 3건 · 논문 121편 -->
+- [ ] amantadine — Pain에 듣는다  <!-- 시험 3건 · 논문 270편 -->
+- [ ] alendronate — Osteonecrosis에 듣는다  <!-- 시험 5건 · 논문 533편 -->
+- [ ] alendronate — HIV에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [ ] alendronate — Rheumatoid Arthritis에 듣는다  <!-- 시험 3건 · 논문 98편 -->
+- [ ] alendronate — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] amlodipine — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 68편 -->
+- [ ] amlodipine — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 -->
+- [ ] amlodipine — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 453편 -->
+- [ ] amlodipine — Angina에 듣는다  <!-- 시험 9건 · 논문 360편 -->
+- [ ] armodafinil — Brain Tumors에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [ ] buspirone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+- [ ] buspirone — Marijuana Abuse에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] buspirone — Parkinson에 듣는다  <!-- 시험 3건 · 논문 79편 -->
+- [ ] carbamazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 4920편 -->
+- [ ] carbamazepine — COVID-19에 듣는다  <!-- 시험 3건 · 논문 52편 -->
+- [ ] carbamazepine — Neuropathic Pain에 듣는다  <!-- 시험 3건 · 논문 1499편 -->
+- [ ] carvedilol — Cardiomyopathy에 듣는다  <!-- 시험 10건 · 논문 537편 -->
+- [ ] carvedilol — Myocardial Strain에 듣는다  <!-- 시험 7건 · 논문 21편 -->
+- [ ] carvedilol — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 171편 -->
+- [ ] carvedilol — Diabetes에 듣는다  <!-- 시험 6건 · 논문 262편 -->
+- [ ] acupressure — Sleep에 듣는다  <!-- 시험 22건 · 논문 359편 -->
+- [ ] acupressure — Insomnia에 듣는다  <!-- 시험 18건 · 논문 139편 -->
+- [ ] acupressure — Constipation에 듣는다  <!-- 시험 15건 · 논문 51편 -->
+- [ ] acupressure — Vomiting에 듣는다  <!-- 시험 10건 · 논문 378편 -->
+- [ ] acupuncture — Insomnia에 듣는다  <!-- 시험 15건 · 논문 1144편 -->
+- [ ] acupuncture — Migraine에 듣는다  <!-- 시험 15건 · 논문 924편 -->
+- [ ] acupuncture — Osteoarthritis에 듣는다  <!-- 시험 15건 · 논문 1454편 -->
+- [ ] acupuncture — Nausea에 듣는다  <!-- 시험 14건 · 논문 1263편 -->
+- [ ] aerobic exercise — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 21568편 -->
+- [ ] aerobic exercise — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 299632편 -->
+- [ ] aerobic exercise — Obesity에 듣는다  <!-- 시험 10건 · 논문 52718편 -->
+- [ ] aerobic exercise — Cognitive Change에 듣는다  <!-- 시험 10건 · 논문 10117편 -->
+- [ ] balance training — Physical Therapy에 듣는다  <!-- 시험 8건 · 논문 10787편 -->
+- [ ] balance training — Fall Patients에 듣는다  <!-- 시험 7건 · 논문 862편 -->
+- [ ] balance training — Aging에 듣는다  <!-- 시험 5건 · 논문 4660편 -->
+- [ ] balance training — Knee Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 421편 -->
+- [ ] compression stockings — Thrombosis에 듣는다  <!-- 시험 6건 · 논문 1380편 -->
+- [ ] compression stockings — Heart Rate에 듣는다  <!-- 시험 5건 · 논문 88편 -->
+- [ ] compression stockings — Peripheral Arterial Disease에 듣는다  <!-- 시험 5건 · 논문 41편 -->
+- [ ] cold water immersion — Stress에 듣는다  <!-- 시험 4건 · 논문 648편 -->
+- [ ] cold water immersion — Soccer에 듣는다  <!-- 시험 3건 · 논문 43편 -->
+- [ ] cold water immersion — Athletic Performance에 듣는다  <!-- 시험 3건 · 논문 172편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] intermittent fasting — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 50편 -->
+- [ ] intermittent fasting — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 28편 -->
+- [ ] intermittent fasting — Overweight에 듣는다  <!-- 시험 5건 · 논문 736편 -->
+- [ ] intermittent fasting — Hypertension에 듣는다  <!-- 시험 5건 · 논문 173편 -->
