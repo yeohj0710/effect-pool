@@ -1,0 +1,37 @@
+{
+  "id": "neurofeedback-pain-pos",
+  "subj": "neurofeedback",
+  "claim": "뇌파 신경되먹임을 만성 통증에 쓴다",
+  "line": "신경되먹임 메타분석에서 단기 통증 감소 신호가 있었습니다",
+  "effect": "RCT 10편·단기 통증 개선 신호",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "만성 통증 환자의 EEG 신경되먹임 무작위시험과 비무작위시험을 검토한 메타분석을 확인했습니다",
+  "saw": "무작위시험 10편과 비무작위 연구 13편을 검토했고 단기 통증 감소 신호가 있었지만 확신도는 낮았습니다",
+  "limit": "프로토콜이 다르고 표본이 작아 장기 효과와 최적 주파수는 불확실합니다",
+  "against": "sham 또는 대조 중재",
+  "use": "약물치료의 부작용을 줄이려는 만성 통증 보조치료 후보로만 봅니다",
+  "refs": [
+    {
+      "label": "The analgesic effect of electroencephalographic neurofeedback for people with chronic pain",
+      "doi": "10.1111/ene.15189",
+      "pmid": "34813662"
+    },
+    {
+      "label": "Effects of neurofeedback in the management of chronic pain",
+      "doi": "10.1002/ejp.1612",
+      "pmid": "32502283"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=neurofeedback · cond=Pain: 29건",
+    "pubmed": "neurofeedback AND Pain AND (randomized OR trial OR meta-analysis): 109건",
+    "negative": "neurofeedback AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 141건",
+    "safety": "neurofeedback AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 192건"
+  }
+}

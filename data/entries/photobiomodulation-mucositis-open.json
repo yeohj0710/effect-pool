@@ -1,0 +1,37 @@
+{
+  "id": "photobiomodulation-mucositis-open",
+  "subj": "photobiomodulation",
+  "claim": "광생체조절을 항암치료 유발 구강 점막염에 쓴다",
+  "line": "점막염 연구에서 광생체조절 효과가 엇갈렸습니다",
+  "effect": "LLLT RR 0.99·결과 엇갈림",
+  "tier": "trial",
+  "dir": "open",
+  "n": 380,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "항암치료 유발 구강 점막염을 저출력 레이저·광생체조절로 예방·치료한 무작위시험을 비교했습니다",
+  "saw": "소아 메타분석의 2개 RCT에서는 grade ≥II 점막염 RR 0.99로 유의하지 않았고 다른 리뷰에서는 통증·중증도 감소 신호가 있었습니다",
+  "limit": "소아 중심이며 장비·파장·치료 시점이 달라 결과를 합치기 어렵습니다",
+  "against": "sham 또는 표준 관리",
+  "use": "프로토콜을 정한 추가 시험 전까지 확정된 치료로 보지 않습니다",
+  "refs": [
+    {
+      "label": "Prevention and Treatment of Oral Mucositis in Pediatric Patients",
+      "doi": "10.21873/invivo.13535",
+      "pmid": "38688628"
+    },
+    {
+      "label": "Low-level laser therapy for oral mucositis in children with cancer",
+      "doi": "10.1136/archdischild-2020-321216",
+      "pmid": "34230010"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=photobiomodulation · cond=Mucositis: 18건",
+    "pubmed": "photobiomodulation AND Mucositis AND (randomized OR trial OR meta-analysis): 230건",
+    "negative": "photobiomodulation AND Mucositis AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 463건",
+    "safety": "photobiomodulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2768건"
+  }
+}
