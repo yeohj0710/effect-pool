@@ -11200,28 +11200,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] isradipine — Drug Dependence에 듣는다  <!-- 시험 3건 · 논문 81편 --> — 항목 생성(isradipine-drug-dependence-open)
 - [x] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 --> — 허가 적응증(2026-08-06)
 - [x] ephedrine — Cesarean에 듣는다  <!-- 시험 23건 · 논문 618편 --> — 항목 생성(ephedrine-cesarean-null)
-- [ ] ephedrine — Obesity에 듣는다  <!-- 시험 8건 · 논문 246편 -->
-- [ ] ephedrine — Rhinitis에 듣는다  <!-- 시험 8건 · 논문 182편 -->
-- [ ] home-based exercise — Exercise에 듣는다  <!-- 시험 9건 · 논문 6550편 -->
-- [ ] home-based exercise — Stroke에 듣는다  <!-- 시험 7건 · 논문 420편 -->
-- [ ] home-based exercise — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 313편 -->
-- [ ] home-based exercise — Coronary Artery Disease에 듣는다  <!-- 시험 6건 · 논문 133편 -->
-- [ ] walking group — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 1099편 -->
-- [ ] walking group — Inhalation Injury에 듣는다  <!-- 시험 6건 · 논문 10편 -->
-- [ ] walking group — Pain에 듣는다  <!-- 시험 6건 · 논문 6544편 -->
-- [ ] walking group — Stroke에 듣는다  <!-- 시험 5건 · 논문 3722편 -->
-- [ ] mindful walking — Depression에 듣는다  <!-- 시험 10건 · 논문 48편 -->
-- [ ] mindful walking — Psychological에 듣는다  <!-- 시험 10건 · 논문 78편 -->
-- [ ] mindful walking — Cancer에 듣는다  <!-- 시험 9건 · 논문 23편 -->
-- [ ] mindful walking — Behavior, Health에 듣는다  <!-- 시험 8건 · 논문 41편 -->
-- [ ] nutrition counseling — Obesity에 듣는다  <!-- 시험 31건 · 논문 2825편 -->
-- [ ] nutrition counseling — Overweight에 듣는다  <!-- 시험 10건 · 논문 2276편 -->
-- [ ] nutrition counseling — Diabetes에 듣는다  <!-- 시험 9건 · 논문 1835편 -->
-- [ ] nutrition counseling — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 1343편 -->
-- [ ] group exercise — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 6996편 -->
-- [ ] group exercise — Obesity에 듣는다  <!-- 시험 8건 · 논문 21846편 -->
-- [ ] group exercise — Pain에 듣는다  <!-- 시험 6건 · 논문 24232편 -->
-- [ ] group exercise — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 6693편 -->
+- [x] ephedrine — Obesity에 듣는다  <!-- 시험 8건 · 논문 246편 --> — 항목 생성(ephedrine-obesity-harm)
+- [x] ephedrine — Rhinitis에 듣는다  <!-- 시험 8건 · 논문 182편 --> — 항목 생성(ephedrine-rhinitis-harm)
+- [x] home-based exercise — Exercise에 듣는다  <!-- 시험 9건 · 논문 6550편 --> — 항목 생성(home-based-exercise-exercise-pos)
+- [x] home-based exercise — Stroke에 듣는다  <!-- 시험 7건 · 논문 420편 --> — 항목 생성(home-based-exercise-stroke-pos)
+- [x] home-based exercise — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 313편 --> — 항목 생성(home-based-exercise-heart-failure-pos)
+- [x] home-based exercise — Coronary Artery Disease에 듣는다  <!-- 시험 6건 · 논문 133편 --> — 항목 생성(home-based-exercise-coronary-artery-disease-pos)
+- [x] walking group — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 1099편 --> — 근거 없음(2026-08-06, "walking group AND Multiple Sclerosis")
+- [x] walking group — Inhalation Injury에 듣는다  <!-- 시험 6건 · 논문 10편 --> — 근거 없음(2026-08-06, "walking group AND Inhalation Injury")
+- [x] walking group — Pain에 듣는다  <!-- 시험 6건 · 논문 6544편 --> — 항목 생성(walking-group-pain-pos)
+- [x] walking group — Stroke에 듣는다  <!-- 시험 5건 · 논문 3722편 --> — 항목 생성(walking-group-stroke-pos)
+- [x] mindful walking — Depression에 듣는다  <!-- 시험 10건 · 논문 48편 --> — 항목 생성(mindful-walking-depression-null)
+- [x] mindful walking — Psychological에 듣는다  <!-- 시험 10건 · 논문 78편 --> — 항목 생성(mindful-walking-psychological-open)
+- [x] mindful walking — Cancer에 듣는다  <!-- 시험 9건 · 논문 23편 --> — 항목 생성(mindful-walking-cancer-null)
+- [x] mindful walking — Behavior, Health에 듣는다  <!-- 시험 8건 · 논문 41편 --> — 근거 없음(2026-08-06, "mindful walking AND Behavior, Health")
+- [x] nutrition counseling — Obesity에 듣는다  <!-- 시험 31건 · 논문 2825편 --> — 항목 생성(nutrition-counseling-obesity-pos)
+- [x] nutrition counseling — Overweight에 듣는다  <!-- 시험 10건 · 논문 2276편 --> — 항목 생성(nutrition-counseling-overweight-pos)
+- [x] nutrition counseling — Diabetes에 듣는다  <!-- 시험 9건 · 논문 1835편 --> — 항목 생성(nutrition-counseling-diabetes-pos)
+- [x] nutrition counseling — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 1343편 --> — 근거 없음(2026-08-06, "nutrition counseling AND Cardiovascular Disease")
+- [x] group exercise — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 6996편 --> — 근거 없음(2026-08-06, "group exercise AND Type 2 Diabetes")
+- [x] group exercise — Obesity에 듣는다  <!-- 시험 8건 · 논문 21846편 --> — 근거 없음(2026-08-06, "group exercise AND Obesity")
+- [x] group exercise — Pain에 듣는다  <!-- 시험 6건 · 논문 24232편 --> — 근거 없음(2026-08-06, "group exercise AND Pain")
+- [x] group exercise — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 6693편 --> — 근거 없음(2026-08-06, "group exercise AND Heart Failure")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11232,14 +11232,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acetazolamide — Plasma Volume에 듣는다  <!-- 시험 3건 · 논문 76편 -->
-- [ ] acetazolamide — Chronic Obstructive Pulmonary Disease (COPD)에 듣는다  <!-- 시험 3건 · 논문 79편 -->
-- [ ] acetazolamide — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 761편 -->
-- [ ] acetazolamide — Obesity에 듣는다  <!-- 시험 3건 · 논문 254편 -->
-- [ ] albuterol — Status Asthmaticus에 듣는다  <!-- 시험 4건 · 논문 197편 -->
-- [ ] albuterol — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 164편 -->
-- [ ] amantadine — Schizoaffective Disorder에 듣는다  <!-- 시험 3건 · 논문 121편 -->
-- [ ] amantadine — Pain에 듣는다  <!-- 시험 3건 · 논문 270편 -->
+- [x] acetazolamide — Plasma Volume에 듣는다  <!-- 시험 3건 · 논문 76편 --> — 항목 생성(acetazolamide-plasma-volume-pos)
+- [x] acetazolamide — Chronic Obstructive Pulmonary Disease (COPD)에 듣는다  <!-- 시험 3건 · 논문 79편 --> — 항목 생성(acetazolamide-chronic-obstructive-pulmonary-disease-null)
+- [x] acetazolamide — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 761편 --> — 항목 생성(acetazolamide-blood-pressure-pos)
+- [x] acetazolamide — Obesity에 듣는다  <!-- 시험 3건 · 논문 254편 --> — 근거 없음(2026-08-06, "acetazolamide AND Obesity")
+- [x] albuterol — Status Asthmaticus에 듣는다  <!-- 시험 4건 · 논문 197편 --> — 허가 적응증(2026-08-06)
+- [x] albuterol — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 164편 --> — 근거 없음(2026-08-06, "albuterol AND Rhinitis")
+- [x] amantadine — Schizoaffective Disorder에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 항목 생성(amantadine-schizoaffective-disorder-open)
+- [x] amantadine — Pain에 듣는다  <!-- 시험 3건 · 논문 270편 --> — 근거 없음(2026-08-06, "amantadine AND Pain")
 - [ ] alendronate — Osteonecrosis에 듣는다  <!-- 시험 5건 · 논문 533편 -->
 - [ ] alendronate — HIV에 듣는다  <!-- 시험 5건 · 논문 35편 -->
 - [ ] alendronate — Rheumatoid Arthritis에 듣는다  <!-- 시험 3건 · 논문 98편 -->
