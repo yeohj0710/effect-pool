@@ -10563,3 +10563,82 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] walking program — Obesity에 듣는다  <!-- 시험 4건 · 논문 1144편 -->
 - [ ] breathing retraining — Heart Rate에 듣는다  <!-- 시험 3건 · 논문 25편 -->
 - [ ] breathing retraining — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 135편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] tenapanor — Hyperphosphatemia에 듣는다  <!-- 시험 5건 · 논문 74편 -->
+- [ ] obicetrapib — Dyslipidemias에 듣는다  <!-- 시험 7건 · 논문 42편 -->
+- [ ] obicetrapib — High Cholesterol에 듣는다  <!-- 시험 7건 · 논문 59편 -->
+- [ ] obicetrapib — Lipid Metabolism에 듣는다  <!-- 시험 3건 · 논문 19편 -->
+- [ ] bempedoic acid — Dyslipidemia에 듣는다  <!-- 시험 9건 · 논문 350편 -->
+- [ ] bempedoic acid — Cardiovascular에 듣는다  <!-- 시험 9건 · 논문 577편 -->
+- [ ] bempedoic acid — Statin Adverse Reaction에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [ ] bempedoic acid — Hypercholesterolaemia에 듣는다  <!-- 시험 4건 · 논문 282편 -->
+- [ ] evinacumab — Hypertriglyceridemia에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] gardening — Dietary Habits에 듣는다  <!-- 시험 4건 · 논문 1002편 -->
+- [ ] gardening — Eating Behavior에 듣는다  <!-- 시험 4건 · 논문 1017편 -->
+- [ ] gardening — Anxiety에 듣는다  <!-- 시험 3건 · 논문 502편 -->
+- [ ] gardening — Depression에 듣는다  <!-- 시험 3건 · 논문 881편 -->
+- [ ] peer support — HIV에 듣는다  <!-- 시험 23건 · 논문 4626편 -->
+- [ ] peer support — Diabetes에 듣는다  <!-- 시험 23건 · 논문 3548편 -->
+- [ ] peer support — Mental Health에 듣는다  <!-- 시험 22건 · 논문 13282편 -->
+- [ ] peer support — Depression에 듣는다  <!-- 시험 19건 · 논문 6482편 -->
+- [ ] laughter therapy — Anxiety에 듣는다  <!-- 시험 12건 · 논문 127편 -->
+- [ ] laughter therapy — Burnout에 듣는다  <!-- 시험 8건 · 논문 14편 -->
+- [ ] green exercise — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [ ] green exercise — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 5283편 -->
+- [ ] green exercise — Well-Being에 듣는다  <!-- 시험 3건 · 논문 3655편 -->
+- [ ] digital cognitive training — Insomnia에 듣는다  <!-- 시험 8건 · 논문 53편 -->
+- [ ] digital cognitive training — Dementia에 듣는다  <!-- 시험 7건 · 논문 258편 -->
+- [ ] digital cognitive training — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 126편 -->
+- [ ] digital cognitive training — Stroke에 듣는다  <!-- 시험 4건 · 논문 95편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] saroglitazar — Primary Biliary Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 11편 -->
+- [ ] saroglitazar — NAFLD에 듣는다  <!-- 시험 3건 · 논문 69편 -->
+- [ ] saroglitazar — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 66편 -->
+- [ ] ziltivekimab — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 25편 -->
+- [ ] ziltivekimab — Chronic Kidney Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] forest therapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 602편 -->
+- [ ] forest therapy — Maternal Mental Health에 듣는다  <!-- 시험 4건 · 논문 36편 -->
+- [ ] forest therapy — Depression에 듣는다  <!-- 시험 3건 · 논문 1212편 -->
+- [ ] forest therapy — Attention에 듣는다  <!-- 시험 3건 · 논문 619편 -->
+- [ ] green care — Neoplasms에 듣는다  <!-- 시험 8건 · 논문 2300편 -->
+- [ ] green care — Lymph Node Mapping에 듣는다  <!-- 시험 5건 · 논문 87편 -->
+- [ ] green care — Surgery에 듣는다  <!-- 시험 3건 · 논문 4990편 -->
+- [ ] green care — Prostate Carcinoma에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [ ] exercise referral — Pain에 듣는다  <!-- 시험 19건 · 논문 1028편 -->
+- [ ] exercise referral — Physical Therapy에 듣는다  <!-- 시험 11건 · 논문 1834편 -->
+- [ ] exercise referral — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 2200편 -->
+- [ ] social support — HIV에 듣는다  <!-- 시험 6건 · 논문 26160편 -->
+- [ ] social support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 49526편 -->
+- [ ] social support — Heart Diseases에 듣는다  <!-- 시험 4건 · 논문 13454편 -->
+- [ ] social support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 104236편 -->
+- [ ] mind-body therapy — Insomnia에 듣는다  <!-- 시험 3건 · 논문 760편 -->
+- [ ] compassion meditation — Anxiety에 듣는다  <!-- 시험 14건 · 논문 178편 -->
+- [ ] compassion meditation — Depression에 듣는다  <!-- 시험 8건 · 논문 186편 -->
+- [ ] compassion meditation — Burnout에 듣는다  <!-- 시험 8건 · 논문 111편 -->
+- [ ] compassion meditation — Distress, Emotional에 듣는다  <!-- 시험 7건 · 논문 103편 -->
+- [ ] breathing meditation — Sleep Disorder에 듣는다  <!-- 시험 7건 · 논문 32편 -->
+- [ ] breathing meditation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 297편 -->
+- [ ] breathing meditation — Depression에 듣는다  <!-- 시험 5건 · 논문 225편 -->
+- [ ] breathing meditation — Pain에 듣는다  <!-- 시험 5건 · 논문 172편 -->
+- [ ] health literacy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2699편 -->
+- [ ] health literacy — Obesity에 듣는다  <!-- 시험 14건 · 논문 1087편 -->
+- [ ] health literacy — Distress, Emotional에 듣는다  <!-- 시험 10건 · 논문 622편 -->
+- [ ] health literacy — Hypertension에 듣는다  <!-- 시험 9건 · 논문 1085편 -->
