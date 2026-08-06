@@ -10680,36 +10680,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dance movement therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 83편 --> — 항목 생성(2026-08-06)
 - [x] dance movement therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 536편 --> — 항목 생성(2026-08-06)
 - [x] aquatic therapy — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 122편 --> — 항목 생성(2026-08-06)
-- [ ] aquatic therapy — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 45편 -->
-- [ ] aquatic therapy — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 63편 -->
-- [ ] aquatic therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] spinal manipulation — Lumbar Surgery에 듣는다  <!-- 시험 7건 · 논문 437편 -->
-- [ ] spinal manipulation — Headache에 듣는다  <!-- 시험 6건 · 논문 363편 -->
-- [ ] spinal manipulation — Stroke에 듣는다  <!-- 시험 4건 · 논문 222편 -->
-- [ ] osteopathic manipulation — Headache에 듣는다  <!-- 시험 16건 · 논문 80편 -->
-- [ ] osteopathic manipulation — Otitis Media에 듣는다  <!-- 시험 9건 · 논문 24편 -->
-- [ ] osteopathic manipulation — Migraine에 듣는다  <!-- 시험 8건 · 논문 36편 -->
-- [ ] manual therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 16건 · 논문 485편 -->
-- [ ] manual therapy — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 194편 -->
-- [ ] manual therapy — Breast-feeding에 듣는다  <!-- 시험 7건 · 논문 148편 -->
-- [ ] manual therapy — Cervical Myelopathy에 듣는다  <!-- 시험 6건 · 논문 172편 -->
-- [ ] balance training — Leg Injuries에 듣는다  <!-- 시험 8건 · 논문 943편 -->
-- [ ] balance training — Head Injury에 듣는다  <!-- 시험 8건 · 논문 670편 -->
-- [ ] balance training — Cognitive Test에 듣는다  <!-- 시험 8건 · 논문 1860편 -->
-- [ ] balance training — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 26편 -->
-- [ ] gait training — Knee Injuries에 듣는다  <!-- 시험 22건 · 논문 473편 -->
-- [ ] gait training — Cerebral Palsy에 듣는다  <!-- 시험 21건 · 논문 766편 -->
-- [ ] gait training — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 1860편 -->
-- [ ] gait training — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 198편 -->
-- [ ] DASH diet — Diabetes에 듣는다  <!-- 시험 20건 · 논문 538편 -->
-- [ ] DASH diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 815편 -->
-- [ ] DASH diet — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 89편 -->
-- [ ] DASH diet — Obesity에 듣는다  <!-- 시험 12건 · 논문 532편 -->
-- [ ] low sodium diet — Obesity에 듣는다  <!-- 시험 13건 · 논문 980편 -->
-- [ ] low sodium diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 5158편 -->
-- [ ] low sodium diet — Kidney Stone에 듣는다  <!-- 시험 13건 · 논문 154편 -->
-- [ ] low sodium diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 1175편 -->
-- [ ] time-restricted eating — Time에 듣는다  <!-- 시험 27건 · 논문 2822편 -->
+- [x] aquatic therapy — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 45편 --> — 항목 생성(2026-08-06)
+- [x] aquatic therapy — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 63편 --> — 항목 생성(2026-08-06)
+- [x] aquatic therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 4건 · 논문 37편 --> — 항목 생성(2026-08-06)
+- [x] spinal manipulation — Lumbar Surgery에 듣는다  <!-- 시험 7건 · 논문 437편 --> — 근거 없음(2026-08-06, "spinal manipulation" AND "Lumbar Surgery")
+- [x] spinal manipulation — Headache에 듣는다  <!-- 시험 6건 · 논문 363편 --> — 항목 생성(2026-08-06)
+- [x] spinal manipulation — Stroke에 듣는다  <!-- 시험 4건 · 논문 222편 --> — 근거 없음(2026-08-06, "spinal manipulation" AND Stroke)
+- [x] osteopathic manipulation — Headache에 듣는다  <!-- 시험 16건 · 논문 80편 --> — 항목 생성(2026-08-06)
+- [x] osteopathic manipulation — Otitis Media에 듣는다  <!-- 시험 9건 · 논문 24편 --> — 근거 없음(2026-08-06, "osteopathic manipulation" AND "Otitis Media")
+- [x] osteopathic manipulation — Migraine에 듣는다  <!-- 시험 8건 · 논문 36편 --> — 항목 생성(2026-08-06)
+- [x] manual therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 16건 · 논문 485편 --> — 항목 생성(2026-08-06)
+- [x] manual therapy — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 194편 --> — 항목 생성(2026-08-06)
+- [x] manual therapy — Breast-feeding에 듣는다  <!-- 시험 7건 · 논문 148편 --> — 근거 없음(2026-08-06, "manual therapy" AND "Breast-feeding")
+- [x] manual therapy — Cervical Myelopathy에 듣는다  <!-- 시험 6건 · 논문 172편 --> — 근거 없음(2026-08-06, "manual therapy" AND "Cervical Myelopathy")
+- [x] balance training — Leg Injuries에 듣는다  <!-- 시험 8건 · 논문 943편 --> — 항목 생성(2026-08-06)
+- [x] balance training — Head Injury에 듣는다  <!-- 시험 8건 · 논문 670편 --> — 근거 없음(2026-08-06, "balance training" AND "Head Injury")
+- [x] balance training — Cognitive Test에 듣는다  <!-- 시험 8건 · 논문 1860편 --> — 근거 없음(2026-08-06, "balance training" AND "Cognitive Test")
+- [x] balance training — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 26편 --> — 근거 없음(2026-08-06, "balance training" AND "Multiple Myeloma")
+- [x] gait training — Knee Injuries에 듣는다  <!-- 시험 22건 · 논문 473편 --> — 근거 없음(2026-08-06, "gait training" AND "Knee Injuries")
+- [x] gait training — Cerebral Palsy에 듣는다  <!-- 시험 21건 · 논문 766편 --> — 항목 생성(2026-08-06)
+- [x] gait training — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 1860편 --> — 항목 생성(2026-08-06)
+- [x] gait training — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 198편 --> — 근거 없음(2026-08-06, "gait training" AND "Hip Osteoarthritis")
+- [x] DASH diet — Diabetes에 듣는다  <!-- 시험 20건 · 논문 538편 --> — 근거 없음(2026-08-06, "DASH diet" AND Diabetes)
+- [x] DASH diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 815편 --> — 항목 생성(2026-08-06)
+- [x] DASH diet — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 89편 --> — 항목 생성(2026-08-06)
+- [x] DASH diet — Obesity에 듣는다  <!-- 시험 12건 · 논문 532편 --> — 근거 없음(2026-08-06, "DASH diet" AND Obesity)
+- [x] low sodium diet — Obesity에 듣는다  <!-- 시험 13건 · 논문 980편 --> — 근거 없음(2026-08-06, "low sodium diet" AND Obesity)
+- [x] low sodium diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 5158편 --> — 항목 생성(2026-08-06)
+- [x] low sodium diet — Kidney Stone에 듣는다  <!-- 시험 13건 · 논문 154편 --> — 근거 없음(2026-08-06, "low sodium diet" AND "Kidney Stone")
+- [x] low sodium diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 1175편 --> — 항목 생성(2026-08-06)
+- [x] time-restricted eating — Time에 듣는다  <!-- 시험 27건 · 논문 2822편 --> — 항목 생성(2026-08-06)
 - [ ] time-restricted eating — Fasting에 듣는다  <!-- 시험 15건 · 논문 3931편 -->
 - [ ] time-restricted eating — Metabolic Health에 듣는다  <!-- 시험 14건 · 논문 1760편 -->
 - [ ] time-restricted eating — Cancer에 듣는다  <!-- 시험 14건 · 논문 524편 -->
