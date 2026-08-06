@@ -10440,17 +10440,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] family therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 7174편 -->
 - [x] family therapy — Mental Health에 듣는다  <!-- 시험 7건 · 논문 19828편 -->
 - [x] family therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 15870편 -->
-- [ ] family therapy — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 2058편 -->
-- [ ] forest bathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
-- [ ] breathwork — Stress에 듣는다  <!-- 시험 5건 · 논문 51편 -->
-- [ ] cognitive remediation — Psychosis에 듣는다  <!-- 시험 27건 · 논문 526편 -->
-- [ ] cognitive remediation — Schizoaffective에 듣는다  <!-- 시험 25건 · 논문 91편 -->
-- [ ] cognitive remediation — Depression에 듣는다  <!-- 시험 20건 · 논문 415편 -->
-- [ ] cognitive remediation — Bipolar Disorder에 듣는다  <!-- 시험 18건 · 논문 211편 -->
-- [ ] pet therapy — Carcinoma에 듣는다  <!-- 시험 38건 · 논문 7525편 -->
-- [ ] pet therapy — Lymphoma에 듣는다  <!-- 시험 30건 · 논문 3935편 -->
-- [ ] pet therapy — Carcinoid Tumors에 듣는다  <!-- 시험 16건 · 논문 149편 -->
-- [ ] pet therapy — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 22949편 -->
+- [x] family therapy — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 2058편 -->
+- [x] forest bathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
+- [x] breathwork — Stress에 듣는다  <!-- 시험 5건 · 논문 51편 -->
+- [x] cognitive remediation — Psychosis에 듣는다  <!-- 시험 27건 · 논문 526편 -->
+- [x] cognitive remediation — Schizoaffective에 듣는다  <!-- 시험 25건 · 논문 91편 -->
+- [x] cognitive remediation — Depression에 듣는다  <!-- 시험 20건 · 논문 415편 -->
+- [x] cognitive remediation — Bipolar Disorder에 듣는다  <!-- 시험 18건 · 논문 211편 -->
+- [x] pet therapy — Carcinoma에 듣는다 — 근거 없음(2026-08-06, "pet therapy" AND carcinoma)  <!-- 시험 38건 · 논문 7525편 -->
+- [x] pet therapy — Lymphoma에 듣는다 — 근거 없음(2026-08-06, "pet therapy" AND lymphoma)  <!-- 시험 30건 · 논문 3935편 -->
+- [x] pet therapy — Carcinoid Tumors에 듣는다 — 근거 없음(2026-08-06, "pet therapy" AND carcinoid)  <!-- 시험 16건 · 논문 149편 -->
+- [x] pet therapy — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 22949편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10461,25 +10461,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] survodutide — Overweight에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] mazdutide — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 30편 -->
-- [ ] afamelanotide — Vitiligo에 듣는다  <!-- 시험 5건 · 논문 24편 -->
-- [ ] tesamorelin — Liver Fat에 듣는다  <!-- 시험 5건 · 논문 13편 -->
-- [ ] tesamorelin — Obesity에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] biofeedback — Incontinence에 듣는다  <!-- 시험 34건 · 논문 1707편 -->
-- [ ] biofeedback — Stroke에 듣는다  <!-- 시험 30건 · 논문 1083편 -->
-- [ ] biofeedback — Anxiety에 듣는다  <!-- 시험 21건 · 논문 1355편 -->
-- [ ] biofeedback — Stress에 듣는다  <!-- 시험 18건 · 논문 2149편 -->
-- [ ] journaling — Depression에 듣는다  <!-- 시험 5건 · 논문 81편 -->
-- [ ] journaling — Stress에 듣는다  <!-- 시험 4건 · 논문 155편 -->
-- [ ] journaling — Burnout에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] plant-based diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 2862편 -->
-- [ ] plant-based diet — Diet, Healthy에 듣는다  <!-- 시험 12건 · 논문 5192편 -->
-- [ ] plant-based diet — Cancer에 듣는다  <!-- 시험 11건 · 논문 2844편 -->
-- [ ] plant-based diet — Overweight에 듣는다  <!-- 시험 8건 · 논문 2024편 -->
-- [ ] high-intensity interval training — Obesity에 듣는다  <!-- 시험 17건 · 논문 939편 -->
-- [ ] high-intensity interval training — Lung Cancer에 듣는다  <!-- 시험 14건 · 논문 38편 -->
-- [ ] high-intensity interval training — Brain Activity에 듣는다  <!-- 시험 13건 · 논문 442편 -->
+- [x] survodutide — Overweight에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [x] mazdutide — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 30편 -->
+- [x] afamelanotide — Vitiligo에 듣는다  <!-- 시험 5건 · 논문 24편 -->
+- [x] tesamorelin — Liver Fat에 듣는다  <!-- 시험 5건 · 논문 13편 -->
+- [x] tesamorelin — Obesity에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [x] biofeedback — Incontinence에 듣는다  <!-- 시험 34건 · 논문 1707편 -->
+- [x] biofeedback — Stroke에 듣는다  <!-- 시험 30건 · 논문 1083편 -->
+- [x] biofeedback — Anxiety에 듣는다  <!-- 시험 21건 · 논문 1355편 -->
+- [x] biofeedback — Stress에 듣는다  <!-- 시험 18건 · 논문 2149편 -->
+- [x] journaling — Depression에 듣는다  <!-- 시험 5건 · 논문 81편 -->
+- [x] journaling — Stress에 듣는다  <!-- 시험 4건 · 논문 155편 -->
+- [x] journaling — Burnout에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [x] plant-based diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 2862편 -->
+- [x] plant-based diet — Diet, Healthy에 듣는다  <!-- 시험 12건 · 논문 5192편 -->
+- [x] plant-based diet — Cancer에 듣는다  <!-- 시험 11건 · 논문 2844편 -->
+- [x] plant-based diet — Overweight에 듣는다  <!-- 시험 8건 · 논문 2024편 -->
+- [x] high-intensity interval training — Obesity에 듣는다  <!-- 시험 17건 · 논문 939편 -->
+- [x] high-intensity interval training — Lung Cancer에 듣는다  <!-- 시험 14건 · 논문 38편 -->
+- [x] high-intensity interval training — Brain Activity에 듣는다  <!-- 시험 13건 · 논문 442편 -->
 - [ ] high-intensity interval training — Cognitive Change에 듣는다  <!-- 시험 13건 · 논문 169편 -->
 - [ ] nature exposure — Well-being에 듣는다  <!-- 시험 5건 · 논문 56886편 -->
 - [ ] nature exposure — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 302편 -->
