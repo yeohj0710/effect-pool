@@ -4,7 +4,7 @@
   "entries": 1413,
   "worklist": {
     "checked": 9205,
-    "unchecked": 19,
+    "unchecked": 41,
     "no_evidence_pending": 183,
     "next_batch": [
       "ketogenic-diet-metabolic-disease",
@@ -25,7 +25,18 @@
       "motivational-interviewing-tobacco-use",
       "motivational-interviewing-cancer",
       "ensifentrine-copd",
-      "pelacarsen-atherosclerotic-cardiovascular-disease"
+      "pelacarsen-atherosclerotic-cardiovascular-disease",
+      "sotatercept-anemia",
+      "sotatercept-myelodysplastic-syndromes",
+      "setmelanotide-bardet-biedl-syndrome",
+      "setmelanotide-pomc-deficiency",
+      "molnupiravir-viral-infection",
+      "molnupiravir-respiratory-syncytial-virus",
+      "cabotegravir-human-immunodeficiency-virus",
+      "cabotegravir-injection-drug-use",
+      "family-therapy-obesity",
+      "family-therapy-mental-health",
+      "family-therapy-depression"
     ]
   },
   "verification": {
@@ -127,34 +138,34 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 54,
+    "latest_candidates": 22,
     "latest_substances": [
-      "acceptance and commitment therapy",
-      "dialectical behavior therapy",
-      "exposure therapy",
-      "occupational therapy",
-      "speech therapy",
-      "light therapy",
-      "horticultural therapy",
-      "virtual reality",
-      "Mediterranean diet",
-      "ketogenic diet",
-      "breathing exercises",
-      "health coaching",
-      "behavioral activation",
-      "problem-solving therapy",
-      "motivational interviewing",
-      "brepocitinib",
-      "ensifentrine",
-      "brensocatib",
-      "pelacarsen",
-      "teplizumab"
+      "zuranolone",
+      "lenacapavir",
+      "sotatercept",
+      "suzetrigine",
+      "rimegepant",
+      "ubrogepant",
+      "atogepant",
+      "setmelanotide",
+      "ensitrelvir",
+      "molnupiravir",
+      "cabotegravir",
+      "crovalimab",
+      "naldemedine",
+      "plecanatide",
+      "teduglutide",
+      "family therapy",
+      "forest bathing",
+      "breathwork",
+      "cognitive remediation",
+      "pet therapy"
     ],
-    "added_candidates": 3142,
-    "direct_added_candidates": 1428
+    "added_candidates": 3164,
+    "direct_added_candidates": 1450
   },
   "resume": {
-    "last_committed_batch": "batch 57: 30 topics processed; 30 evidence entries added; 20 old formatting warnings fixed; 19 unchecked topics remain",
+    "last_committed_batch": "batch 57: 30 topics processed; 30 evidence entries added; 20 old formatting warnings fixed; expansion added 22 candidates; 41 unchecked topics remain",
     "last_batch": [
       "dialectical-behavior-therapy-bulimia-nervosa (created dialectical-behavior-therapy-bulimia-nervosa-pos)",
       "dialectical-behavior-therapy-bipolar-disorder (created dialectical-behavior-therapy-bipolar-disorder-open)",
@@ -187,8 +198,8 @@
       "ketogenic-diet-bipolar-disorder (created ketogenic-diet-bipolar-disorder-open)",
       "ketogenic-diet-cancer (created ketogenic-diet-cancer-pos)"
     ],
-    "current_batch": "batch 57: 30 topics processed; 30 evidence entries added; 20 old formatting warnings fixed; 19 unchecked topics remain",
-    "next_action": "unchecked topics are below 30; run expand-worklist.mjs --covered, add 20 uncovered names with at least 5 non-drug options, then process the next batch",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remain"
+    "current_batch": "batch 57: 30 topics processed; 30 evidence entries added; 20 old formatting warnings fixed; expansion added 22 candidates; 41 unchecked topics remain",
+    "next_action": "process the first 30 topics in next_batch; check approved status per substance before APIs, then build and commit",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remained; expansion after batch 57 added 22 candidates from 20 supplied names, including 5 non-drug options; 41 unchecked topics remain"
   }
 }

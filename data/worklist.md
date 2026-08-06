@@ -10419,3 +10419,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] motivational interviewing — Cancer에 듣는다  <!-- 시험 17건 · 논문 457편 -->
 - [ ] ensifentrine — COPD에 듣는다  <!-- 시험 3건 · 논문 86편 -->
 - [ ] pelacarsen — Atherosclerotic Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 56편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] sotatercept — Anemia에 듣는다  <!-- 시험 7건 · 논문 61편 -->
+- [ ] sotatercept — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [ ] setmelanotide — Bardet-Biedl Syndrome에 듣는다  <!-- 시험 7건 · 논문 48편 -->
+- [ ] setmelanotide — POMC Deficiency에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [ ] molnupiravir — Viral Infection에 듣는다  <!-- 시험 4건 · 논문 714편 -->
+- [ ] molnupiravir — Respiratory Syncytial Virus에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [ ] cabotegravir — Human Immunodeficiency Virus에 듣는다  <!-- 시험 9건 · 논문 989편 -->
+- [ ] cabotegravir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 505편 -->
+- [ ] family therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 7174편 -->
+- [ ] family therapy — Mental Health에 듣는다  <!-- 시험 7건 · 논문 19828편 -->
+- [ ] family therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 15870편 -->
+- [ ] family therapy — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 2058편 -->
+- [ ] forest bathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
+- [ ] breathwork — Stress에 듣는다  <!-- 시험 5건 · 논문 51편 -->
+- [ ] cognitive remediation — Psychosis에 듣는다  <!-- 시험 27건 · 논문 526편 -->
+- [ ] cognitive remediation — Schizoaffective에 듣는다  <!-- 시험 25건 · 논문 91편 -->
+- [ ] cognitive remediation — Depression에 듣는다  <!-- 시험 20건 · 논문 415편 -->
+- [ ] cognitive remediation — Bipolar Disorder에 듣는다  <!-- 시험 18건 · 논문 211편 -->
+- [ ] pet therapy — Carcinoma에 듣는다  <!-- 시험 38건 · 논문 7525편 -->
+- [ ] pet therapy — Lymphoma에 듣는다  <!-- 시험 30건 · 논문 3935편 -->
+- [ ] pet therapy — Carcinoid Tumors에 듣는다  <!-- 시험 16건 · 논문 149편 -->
+- [ ] pet therapy — Neoplasms에 듣는다  <!-- 시험 13건 · 논문 22949편 -->
