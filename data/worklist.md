@@ -12267,7 +12267,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] arimoclomol — Inclusion Body Myositis에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [x] arimoclomol — Inclusion Body Myositis에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12278,10 +12278,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] laughter yoga — Spiritual Well-being에 듣는다  <!-- 시험 8건 · 논문 9편 -->
-- [ ] laughter yoga — Burnout에 듣는다  <!-- 시험 7건 · 논문 16편 -->
-- [ ] laughter yoga — Depression에 듣는다  <!-- 시험 6건 · 논문 138편 -->
-- [ ] ganaxolone — Epilepsy에 듣는다  <!-- 시험 5건 · 논문 159편 -->
-- [ ] ganaxolone — Partial Epilepsy에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] ganaxolone — Depression에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] ganaxolone — Tuberous Sclerosis에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [x] laughter yoga — Spiritual Well-being에 듣는다  <!-- 시험 8건 · 논문 9편 --> — 근거 없음(2026-08-06, "laughter yoga" AND "Spiritual Well-being" AND human intervention)
+- [x] laughter yoga — Burnout에 듣는다  <!-- 시험 7건 · 논문 16편 --> — 항목 생성(2026-08-06)
+- [x] laughter yoga — Depression에 듣는다  <!-- 시험 6건 · 논문 138편 --> — 항목 생성(2026-08-06)
+- [x] ganaxolone — Epilepsy에 듣는다  <!-- 시험 5건 · 논문 159편 --> — 항목 생성(2026-08-06)
+- [x] ganaxolone — Partial Epilepsy에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 근거 없음(2026-08-06, "ganaxolone" AND "Partial Epilepsy" AND human intervention)
+- [x] ganaxolone — Depression에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 근거 없음(2026-08-06, "ganaxolone" AND "Depression" AND human intervention)
+- [x] ganaxolone — Tuberous Sclerosis에 듣는다  <!-- 시험 3건 · 논문 20편 --> — 근거 없음(2026-08-06, "ganaxolone" AND "Tuberous Sclerosis" AND human intervention)
