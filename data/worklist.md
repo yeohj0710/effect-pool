@@ -11724,36 +11724,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ginkgo biloba — Alzheimer's에 듣는다  <!-- 시험 8건 · 논문 592편 -->
-- [ ] ginkgo biloba — Ischemic Stroke에 듣는다  <!-- 시험 7건 · 논문 119편 -->
-- [ ] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 -->
-- [ ] ginkgo biloba — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 137편 -->
-- [ ] phosphatidylserine — ADHD에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] HMB — Sarcopenia에 듣는다  <!-- 시험 9건 · 논문 120편 -->
-- [ ] HMB — Cancer에 듣는다  <!-- 시험 7건 · 논문 2019편 -->
-- [ ] HMB — Aging에 듣는다  <!-- 시험 6건 · 논문 174편 -->
-- [ ] HMB — Sports Nutrition에 듣는다  <!-- 시험 5건 · 논문 97편 -->
-- [ ] citrulline — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 37편 -->
-- [ ] citrulline — Menopause에 듣는다  <!-- 시험 5건 · 논문 69편 -->
-- [ ] citrulline — Aging에 듣는다  <!-- 시험 4건 · 논문 414편 -->
-- [ ] turmeric — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] turmeric — Inflammation에 듣는다  <!-- 시험 3건 · 논문 1440편 -->
-- [ ] valerian — Sleep에 듣는다  <!-- 시험 5건 · 논문 272편 -->
-- [ ] lavender — Pain에 듣는다  <!-- 시험 25건 · 논문 358편 -->
-- [ ] lavender — Aromatherapy에 듣는다  <!-- 시험 15건 · 논문 567편 -->
-- [ ] lavender — Stress에 듣는다  <!-- 시험 9건 · 논문 465편 -->
-- [ ] lavender — Sleep에 듣는다  <!-- 시험 9건 · 논문 231편 -->
-- [ ] glucosamine — Back Pain에 듣는다  <!-- 시험 7건 · 논문 48편 -->
-- [ ] glucosamine — Obesity에 듣는다  <!-- 시험 3건 · 논문 222편 -->
-- [ ] chondroitin — Joint Pain에 듣는다  <!-- 시험 8건 · 논문 299편 -->
-- [ ] chondroitin — Recurrent Cystitis에 듣는다  <!-- 시험 5건 · 논문 22편 -->
-- [ ] chondroitin — Bladder Cancer에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] cinnamon — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 31편 -->
-- [ ] cinnamon — Insulin Resistance에 듣는다  <!-- 시험 5건 · 논문 142편 -->
-- [ ] cinnamon — Obesity에 듣는다  <!-- 시험 5건 · 논문 134편 -->
-- [ ] cinnamon — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 67편 -->
-- [ ] caloric restriction — Type2 Diabetes에 듣는다  <!-- 시험 17건 · 논문 23편 -->
-- [ ] caloric restriction — Weight에 듣는다  <!-- 시험 12건 · 논문 6352편 -->
+- [x] ginkgo biloba — Alzheimer's에 듣는다  <!-- 시험 8건 · 논문 592편 --> — 허가 적응증(2026-08-06)
+- [x] ginkgo biloba — Ischemic Stroke에 듣는다  <!-- 시험 7건 · 논문 119편 --> — 항목 생성(2026-08-06)
+- [x] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 --> — 허가 적응증(2026-08-06)
+- [x] ginkgo biloba — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 137편 --> — 항목 생성(2026-08-06)
+- [x] phosphatidylserine — ADHD에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 항목 생성(2026-08-06)
+- [x] HMB — Sarcopenia에 듣는다  <!-- 시험 9건 · 논문 120편 --> — 항목 생성(2026-08-06)
+- [x] HMB — Cancer에 듣는다  <!-- 시험 7건 · 논문 2019편 --> — 항목 생성(2026-08-06)
+- [x] HMB — Aging에 듣는다  <!-- 시험 6건 · 논문 174편 --> — 항목 생성(2026-08-06)
+- [x] HMB — Sports Nutrition에 듣는다  <!-- 시험 5건 · 논문 97편 --> — 항목 생성(2026-08-06)
+- [x] citrulline — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 37편 --> — 근거 없음(2026-08-06 조회, "citrulline AND Sickle Cell Disease")
+- [x] citrulline — Menopause에 듣는다  <!-- 시험 5건 · 논문 69편 --> — 항목 생성(2026-08-06)
+- [x] citrulline — Aging에 듣는다  <!-- 시험 4건 · 논문 414편 --> — 근거 없음(2026-08-06 조회, "citrulline AND Aging")
+- [x] turmeric — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(2026-08-06 조회, "turmeric AND Cognitive Change")
+- [x] turmeric — Inflammation에 듣는다  <!-- 시험 3건 · 논문 1440편 --> — 항목 생성(2026-08-06)
+- [x] valerian — Sleep에 듣는다  <!-- 시험 5건 · 논문 272편 --> — 허가 적응증(2026-08-06)
+- [x] lavender — Pain에 듣는다  <!-- 시험 25건 · 논문 358편 --> — 항목 생성(2026-08-06)
+- [x] lavender — Aromatherapy에 듣는다  <!-- 시험 15건 · 논문 567편 --> — 항목 생성(2026-08-06)
+- [x] lavender — Stress에 듣는다  <!-- 시험 9건 · 논문 465편 --> — 허가 적응증(2026-08-06)
+- [x] lavender — Sleep에 듣는다  <!-- 시험 9건 · 논문 231편 --> — 허가 적응증(2026-08-06)
+- [x] glucosamine — Back Pain에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 항목 생성(2026-08-06)
+- [x] glucosamine — Obesity에 듣는다  <!-- 시험 3건 · 논문 222편 --> — 근거 없음(2026-08-06 조회, "glucosamine AND Obesity")
+- [x] chondroitin — Joint Pain에 듣는다  <!-- 시험 8건 · 논문 299편 --> — 항목 생성(2026-08-06)
+- [x] chondroitin — Recurrent Cystitis에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 항목 생성(2026-08-06)
+- [x] chondroitin — Bladder Cancer에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-06 조회, "chondroitin AND Bladder Cancer")
+- [x] cinnamon — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 31편 --> — 항목 생성(2026-08-06)
+- [x] cinnamon — Insulin Resistance에 듣는다  <!-- 시험 5건 · 논문 142편 --> — 항목 생성(2026-08-06)
+- [x] cinnamon — Obesity에 듣는다  <!-- 시험 5건 · 논문 134편 --> — 근거 없음(2026-08-06 조회, "cinnamon AND Obesity")
+- [x] cinnamon — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 67편 --> — 항목 생성(2026-08-06)
+- [x] caloric restriction — Type2 Diabetes에 듣는다  <!-- 시험 17건 · 논문 23편 --> — 항목 생성(2026-08-06)
+- [x] caloric restriction — Weight에 듣는다  <!-- 시험 12건 · 논문 6352편 --> — 근거 없음(2026-08-06 조회, "caloric restriction AND Weight")
 - [ ] caloric restriction — Metabolic Health에 듣는다  <!-- 시험 8건 · 논문 3428편 -->
 - [ ] caloric restriction — Aging에 듣는다  <!-- 시험 7건 · 논문 4433편 -->
 - [ ] low fat diet — Diabetes에 듣는다  <!-- 시험 52건 · 논문 7808편 -->
