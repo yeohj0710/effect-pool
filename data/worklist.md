@@ -9999,3 +9999,94 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] sunitinib — Cancer에 듣는다  <!-- 시험 216건 · 논문 7392편 -->
 - [ ] sunitinib — Tumors에 듣는다  <!-- 시험 42건 · 논문 7025편 -->
 - [ ] sunitinib — Neoplasms에 듣는다  <!-- 시험 38건 · 논문 6038편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] albuterol — Pulmonary Edema에 듣는다  <!-- 시험 33건 · 논문 102편 -->
+- [ ] albuterol — COPD에 듣는다  <!-- 시험 8건 · 논문 1762편 -->
+- [ ] albuterol — Bronchospasm에 듣는다  <!-- 시험 7건 · 논문 555편 -->
+- [ ] albuterol — Bronchiolitis에 듣는다  <!-- 시험 5건 · 논문 308편 -->
+- [ ] betamethasone — Atopic Eczema에 듣는다  <!-- 시험 18건 · 논문 298편 -->
+- [ ] betamethasone — Neonatal Distress에 듣는다  <!-- 시험 13건 · 논문 533편 -->
+- [ ] betamethasone — Late Preterm에 듣는다  <!-- 시험 9건 · 논문 144편 -->
+- [ ] betamethasone — Neck Pain에 듣는다  <!-- 시험 8건 · 논문 36편 -->
+- [ ] chlorhexidine — Pain, Dental에 듣는다  <!-- 시험 43건 · 논문 213편 -->
+- [ ] chlorhexidine — Periodontitis에 듣는다  <!-- 시험 36건 · 논문 2706편 -->
+- [ ] chlorhexidine — Gingivitis에 듣는다  <!-- 시험 30건 · 논문 1722편 -->
+- [ ] chlorhexidine — Oral Health에 듣는다  <!-- 시험 27건 · 논문 1802편 -->
+- [ ] dobutamine — Shock에 듣는다  <!-- 시험 13건 · 논문 996편 -->
+- [ ] dobutamine — Surgery에 듣는다  <!-- 시험 11건 · 논문 3094편 -->
+- [ ] dobutamine — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 2871편 -->
+- [ ] dobutamine — Myocardial Ischemia에 듣는다  <!-- 시험 9건 · 논문 4301편 -->
+- [ ] dopamine — Heart에 듣는다  <!-- 시험 12건 · 논문 8384편 -->
+- [ ] dopamine — Hypotension에 듣는다  <!-- 시험 7건 · 논문 11341편 -->
+- [ ] dopamine — Shock에 듣는다  <!-- 시험 7건 · 논문 2849편 -->
+- [ ] dopamine — Renal Function에 듣는다  <!-- 시험 4건 · 논문 3610편 -->
+- [ ] epinephrine — Anesthesia에 듣는다  <!-- 시험 19건 · 논문 9230편 -->
+- [ ] epinephrine — Heart Arrest에 듣는다  <!-- 시험 6건 · 논문 2522편 -->
+- [ ] epinephrine — Hip Fractures에 듣는다  <!-- 시험 6건 · 논문 24편 -->
+- [ ] epinephrine — Surgery에 듣는다  <!-- 시험 5건 · 논문 15886편 -->
+- [ ] heparin — Coronary Disease에 듣는다  <!-- 시험 30건 · 논문 4559편 -->
+- [ ] heparin — Heart Failure에 듣는다  <!-- 시험 19건 · 논문 1952편 -->
+- [ ] heparin — Embolism에 듣는다  <!-- 시험 18건 · 논문 11362편 -->
+- [ ] heparin — Pregnancy Related에 듣는다  <!-- 시험 15건 · 논문 1004편 -->
+- [ ] hydroxyprogesterone — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 2993편 -->
+- [ ] arginine — Hypertension에 듣는다  <!-- 시험 19건 · 논문 8058편 -->
+- [ ] arginine — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 15825편 -->
+- [ ] arginine — Dental Caries에 듣는다  <!-- 시험 11건 · 논문 233편 -->
+- [ ] arginine — Sickle Cell Anemia에 듣는다  <!-- 시험 11건 · 논문 214편 -->
+- [ ] adenosine — Coronary Slow Flow에 듣는다  <!-- 시험 20건 · 논문 88편 -->
+- [ ] adenosine — Ischemia에 듣는다  <!-- 시험 16건 · 논문 15524편 -->
+- [ ] adenosine — Supraventricular Arrhythmia에 듣는다  <!-- 시험 11건 · 논문 815편 -->
+- [ ] adenosine — Ischemic Heart Disease에 듣는다  <!-- 시험 6건 · 논문 13696편 -->
+- [ ] methyldopa — Pre-Eclampsia에 듣는다  <!-- 시험 4건 · 논문 222편 -->
+- [ ] methyldopa — Preeclampsia에 듣는다  <!-- 시험 3건 · 논문 278편 -->
+- [ ] methyldopa — Orthostatic Intolerance에 듣는다  <!-- 시험 3건 · 논문 53편 -->
+- [ ] methylergonovine — Uterine Atony에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] nitroprusside — Hypertension에 듣는다  <!-- 시험 6건 · 논문 3451편 -->
+- [ ] nitroprusside — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5613편 -->
+- [ ] nitroprusside — Vasoconstriction에 듣는다  <!-- 시험 5건 · 논문 1915편 -->
+- [ ] nitroprusside — Vasodilation에 듣는다  <!-- 시험 5건 · 논문 17057편 -->
+- [ ] phentolamine — Anesthesia, Local에 듣는다  <!-- 시험 6건 · 논문 99편 -->
+- [ ] phentolamine — Mydriasis에 듣는다  <!-- 시험 4건 · 논문 23편 -->
+- [ ] phentolamine — Dilation에 듣는다  <!-- 시험 4건 · 논문 331편 -->
+- [ ] phentolamine — Vasodilation에 듣는다  <!-- 시험 3건 · 논문 6614편 -->
+- [ ] somatostatin — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 565편 -->
+- [ ] somatostatin — Portal Vein에 듣는다  <!-- 시험 7건 · 논문 314편 -->
+- [ ] somatostatin — Acromegaly에 듣는다  <!-- 시험 4건 · 논문 2349편 -->
+- [ ] somatostatin — Esophageal Varices에 듣는다  <!-- 시험 4건 · 논문 376편 -->
+- [ ] terlipressin — Septic Shock에 듣는다  <!-- 시험 18건 · 논문 164편 -->
+- [ ] terlipressin — Hepatorenal Syndrome에 듣는다  <!-- 시험 17건 · 논문 528편 -->
+- [ ] terlipressin — Liver Failure에 듣는다  <!-- 시험 12건 · 논문 283편 -->
+- [ ] terlipressin — Hemorrhage에 듣는다  <!-- 시험 11건 · 논문 720편 -->
+- [ ] urokinase — Empyema에 듣는다  <!-- 시험 5건 · 논문 167편 -->
+- [ ] urokinase — Cerebral Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 414편 -->
+- [ ] urokinase — Diabetic Foot에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] urokinase — Pulmonary Embolism에 듣는다  <!-- 시험 3건 · 논문 800편 -->
+- [ ] vasopressin — Heart Arrest에 듣는다  <!-- 시험 14건 · 논문 419편 -->
+- [ ] vasopressin — Acute Lung Injury에 듣는다  <!-- 시험 6건 · 논문 39편 -->
+- [ ] vasopressin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 3668편 -->
+- [ ] vasopressin — Burn Surgery에 듣는다  <!-- 시험 5건 · 논문 68편 -->
+- [ ] calcitonin — Osteoporosis에 듣는다  <!-- 시험 10건 · 논문 2753편 -->
+- [ ] calcitonin — Infection에 듣는다  <!-- 시험 9건 · 논문 5844편 -->
+- [ ] calcitonin — Sepsis에 듣는다  <!-- 시험 6건 · 논문 2638편 -->
+- [ ] calcitonin — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 332편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] metyrapone — Cocaine Addiction에 듣는다  <!-- 시험 5건 · 논문 14편 -->
+- [ ] metyrapone — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 66편 -->

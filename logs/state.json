@@ -4,7 +4,7 @@
   "entries": 1228,
   "worklist": {
     "checked": 8877,
-    "unchecked": 17,
+    "unchecked": 88,
     "no_evidence_pending": 183,
     "next_batch": [
       "linaclotide-colorectal-cancer",
@@ -23,7 +23,20 @@
       "sorafenib-lymphoma",
       "sunitinib-cancer",
       "sunitinib-tumors",
-      "sunitinib-neoplasms"
+      "sunitinib-neoplasms",
+      "albuterol-pulmonary-edema",
+      "albuterol-copd",
+      "albuterol-bronchospasm",
+      "albuterol-bronchiolitis",
+      "betamethasone-atopic-eczema",
+      "betamethasone-neonatal-distress",
+      "betamethasone-late-preterm",
+      "betamethasone-neck-pain",
+      "chlorhexidine-pain-dental",
+      "chlorhexidine-periodontitis",
+      "chlorhexidine-gingivitis",
+      "chlorhexidine-oral-health",
+      "dobutamine-shock"
     ]
   },
   "verification": {
@@ -83,7 +96,7 @@
     "lubiprostone-diabetes (created lubiprostone-diabetes-pos)"
   ],
   "expansion": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "mode": "builtin+direct",
     "substances": [
       "fluvoxamine",
@@ -124,8 +137,8 @@
       "nirmatrelvir"
     ],
     "builtin_added_candidates": 660,
-    "latest_run": "2026-08-05",
-    "latest_candidates": 36,
+    "latest_run": "2026-08-06",
+    "latest_candidates": 71,
     "latest_substances": [
       "fludrocortisone",
       "midodrine",
@@ -146,10 +159,30 @@
       "trametinib",
       "vemurafenib",
       "sorafenib",
-      "sunitinib"
+      "sunitinib",
+      "albuterol",
+      "betamethasone",
+      "chlorhexidine",
+      "dobutamine",
+      "dopamine",
+      "epinephrine",
+      "heparin",
+      "hydroxyprogesterone",
+      "arginine",
+      "adenosine",
+      "methyldopa",
+      "methylergonovine",
+      "nitroprusside",
+      "phentolamine",
+      "somatostatin",
+      "terlipressin",
+      "urokinase",
+      "vasopressin",
+      "calcitonin",
+      "metyrapone"
     ],
-    "added_candidates": 2812,
-    "direct_added_candidates": 1098
+    "added_candidates": 2883,
+    "direct_added_candidates": 1169
   },
   "resume": {
     "last_committed_batch": "batch 46: 14 evidence entries added; 30 topics processed",
@@ -185,8 +218,8 @@
     "lubiprostone-colonoscopy (created lubiprostone-colonoscopy-pos)",
     "lubiprostone-diabetes (created lubiprostone-diabetes-pos)"
   ],
-    "current_batch": "batch 46: first 30 topics processed; 14 evidence entries added",
-    "next_action": "run build, commit, and push batch 46, then expand the worklist before the next research batch",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 17 unchecked topics remain"
+    "current_batch": "batch 46 completed; expansion added 71 candidates from 20 substances",
+    "next_action": "research the first 30 unchecked topics, then run build, commit, and push",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; 88 unchecked topics remain"
   }
 }
