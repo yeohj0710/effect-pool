@@ -12689,3 +12689,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atacicept — Berger Disease에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 허가 적응증(2026-08-06)
 - [x] paltusotine — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 허가 적응증(2026-08-06)
 - [x] nemolizumab — Prurigo Nodularis에 듣는다  <!-- 시험 4건 · 논문 95편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] animal assisted therapy — Autism에 듣는다  <!-- 시험 6건 · 논문 148편 --> — 항목 생성(animal-assisted-therapy-autism-pos)
+- [x] animal assisted therapy — Stress에 듣는다  <!-- 시험 6건 · 논문 564편 --> — 항목 생성(animal-assisted-therapy-stress-null)
+- [x] animal assisted therapy — Pain에 듣는다  <!-- 시험 5건 · 논문 229편 --> — 항목 생성(animal-assisted-therapy-pain-pos)
+- [x] animal assisted therapy — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 65편 --> — 항목 생성(animal-assisted-therapy-brain-injuries-pos)
+- [x] breathing exercise — Pain에 듣는다  <!-- 시험 11건 · 논문 1061편 --> — 항목 생성(breathing-exercise-pain-pos)
+- [x] breathing exercise — Hypertension에 듣는다  <!-- 시험 9건 · 논문 584편 --> — 항목 생성(breathing-exercise-hypertension-open)
+- [x] breathing exercise — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1009편 --> — 항목 생성(breathing-exercise-anxiety-pos)
+- [x] breathing exercise — Lung Surgery에 듣는다  <!-- 시험 7건 · 논문 588편 --> — 항목 생성(breathing-exercise-lung-surgery-pos)
+- [x] blue light therapy — Sleep에 듣는다  <!-- 시험 16건 · 논문 1196편 --> — 항목 생성(blue-light-therapy-sleep-pos)
+- [x] blue light therapy — Actinic Keratosis에 듣는다  <!-- 시험 13건 · 논문 962편 --> — 허가 적응증(2026-08-06)
+- [x] blue light therapy — Wound Infection에 듣는다  <!-- 시험 10건 · 논문 747편 --> — 항목 생성(blue-light-therapy-wound-infection-animal-pos)
+- [x] blue light therapy — Bipolar에 듣는다  <!-- 시험 9건 · 논문 242편 --> — 항목 생성(blue-light-therapy-bipolar-null)
