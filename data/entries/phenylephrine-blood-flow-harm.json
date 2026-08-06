@@ -1,0 +1,30 @@
+{
+  "id": "phenylephrine-blood-flow-harm",
+  "subj": "페닐에프린",
+  "claim": "페닐에프린이 뇌혈류를 늘려 뇌 산소를 지킨다",
+  "line": "뇌종양 수술 환자 24명에서 페닐에프린은 에페드린보다 반대쪽 뇌혈류와 산소포화도를 덜 높였습니다",
+  "effect": "에페드린이 반대쪽 뇌혈류 3.9mL/100g/min, 뇌 산소포화도 4% 더 높임",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 24,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "뇌혈류·뇌 산소화 개선은 페닐에프린의 허가 적응증이 아닙니다.",
+  "why": "혈압을 올리는 페닐에프린의 혈관수축 작용이 뇌 산소화에는 불리할 수 있다는 사람 시험 신호가 나왔습니다.",
+  "saw": "뇌종양 수술 환자 24명을 에페드린과 페닐에프린으로 나눈 이중맹검 무작위시험에서 대측 뇌의 산소대사율은 차이가 없었지만, 에페드린이 뇌혈류와 뇌 산소포화도를 각각 더 높였습니다.",
+  "limit": "24명 단일 수술 시험이고 실제 뇌 허혈이나 수술 후 인지기능을 평가하지 않았습니다.",
+  "against": "건강한 남성 8명에서는 페닐에프린 뒤 내경동맥 혈류가 유의하게 변하지 않았지만 근적외선 뇌 산소포화도는 감소했습니다.",
+  "use": "혈압 상승과 뇌 관류·산소화가 같은 방향으로 움직인다고 가정하지 않도록 기록합니다.",
+  "refs": [
+    { "label": "뇌종양 수술 에페드린·페닐에프린 무작위시험", "pmid": "32482999" },
+    { "label": "수술 중 페닐에프린 뇌 산소화 체계적 검토", "pmid": "32941358" },
+    { "label": "건강인 페닐에프린 뇌혈류·산소화 시험", "pmid": "21981455" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=phenylephrine · cond=Blood Flow → 22건 반환, 물질 대조 후 14건",
+    "pubmed": "phenylephrine AND Blood Flow → 2792편",
+    "negative": "phenylephrine AND Blood Flow AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2445편",
+    "safety": "phenylephrine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3113편"
+  }
+}

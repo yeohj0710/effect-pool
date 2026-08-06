@@ -1,0 +1,30 @@
+{
+  "id": "lubiprostone-colonoscopy-pos",
+  "subj": "루비프로스톤",
+  "claim": "루비프로스톤을 장정결에 더하면 대장내시경 준비가 좋아진다",
+  "line": "대장내시경 전 루비프로스톤 보조요법 무작위시험 8편 1,322명에서 우수한 장정결 가능성이 높아졌습니다",
+  "effect": "우수한 장정결 OR 2.25, 용종 발견·검사 시간·이상반응 차이 없음",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1322,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "대장내시경 장정결 보조는 루비프로스톤의 허가 적응증이 아닙니다.",
+  "why": "대장내시경 전 장정결에 루비프로스톤을 더한 무작위시험들을 합친 분석에서 우수한 장정결 비율이 높아졌습니다.",
+  "saw": "8개 무작위시험 1,322명을 합친 2025년 메타분석에서 루비프로스톤군의 우수한 장정결 가능성이 대조군보다 높았고, 용종 발견률·검사 시간·이상반응은 차이가 없었습니다.",
+  "limit": "장정결 방법과 연구별 위험도가 달랐고 우수한 장정결이 용종 발견률 증가로 이어지지는 않았습니다.",
+  "against": "5개 시험 메타분석도 우수한 장정결은 늘렸지만 용종 발견률과 이상반응은 개선하지 못했습니다.",
+  "use": "검사 전 장정결 지표 개선과 환자에게 중요한 용종 발견 결과를 따로 기록합니다.",
+  "refs": [
+    { "label": "장정결 루비프로스톤 무작위시험 메타분석", "pmid": "40549639" },
+    { "label": "대장내시경 장정결 루비프로스톤 메타분석", "pmid": "32080109" },
+    { "label": "루비프로스톤·PEG 장정결 시험", "nct": "NCT00611442" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=lubiprostone · cond=Colonoscopy → 7건 반환, 물질 대조 후 7건",
+    "pubmed": "lubiprostone AND Colonoscopy → 19편",
+    "negative": "lubiprostone AND Colonoscopy AND (no effect OR did not OR failed to OR negative OR no significant difference) → 14편",
+    "safety": "lubiprostone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 206편"
+  }
+}

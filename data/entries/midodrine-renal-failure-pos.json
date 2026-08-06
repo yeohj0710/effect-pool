@@ -1,0 +1,30 @@
+{
+  "id": "midodrine-renal-failure-pos",
+  "subj": "미도드린",
+  "claim": "미도드린이 혈액투석 중 저혈압을 막는다",
+  "line": "혈액투석 중 저혈압 연구 10편을 합친 검토에서 미도드린은 투석 후 수축기 혈압을 12.4mmHg 높였습니다",
+  "effect": "투석 후 수축기 혈압 +12.4mmHg, 최저 수축기 혈압 +13.3mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "혈액투석 중 저혈압 예방은 미도드린의 허가 적응증이 아닙니다.",
+  "why": "혈액투석 중 저혈압을 다룬 무작위·관찰 연구 10편을 합친 검토에서 미도드린이 혈압 지표를 높였습니다.",
+  "saw": "10개 연구를 합친 체계적 검토에서 미도드린은 대조군보다 투석 후 수축기 혈압을 12.4mmHg, 투석 중 최저 수축기 혈압을 13.3mmHg 높였습니다. 10개 연구 중 6개는 증상 개선을 보고했습니다.",
+  "limit": "연구별 환자 수와 설계가 달랐고 작은 연구가 많아 증상·장기 예후 효과를 확정할 수 없습니다.",
+  "against": "심부전·신부전으로 입원한 투석 환자 관찰자료에서는 미도드린 사용군의 6개월 사망 연관이 더 높았지만, 적응증에 따른 교란을 배제할 수 없습니다.",
+  "use": "단기 혈압 상승과 장기 안전성·생존 결과를 분리해 기록합니다.",
+  "refs": [
+    { "label": "투석 유발 저혈압 미도드린 체계적 검토", "pmid": "15280522" },
+    { "label": "중증 투석 저혈압 교차 연구 · 증상 개선 없음", "pmid": "11157369" },
+    { "label": "심부전·신부전 투석 환자 미도드린 관찰연구 · 사망 연관", "pmid": "38860595" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=midodrine · cond=Renal Failure → 8건 반환, 물질 대조 후 5건",
+    "pubmed": "midodrine AND Renal Failure → 107편",
+    "negative": "midodrine AND Renal Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) → 80편",
+    "safety": "midodrine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 427편"
+  }
+}

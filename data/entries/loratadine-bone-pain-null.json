@@ -1,0 +1,30 @@
+{
+  "id": "loratadine-bone-pain-null",
+  "subj": "로라타딘",
+  "claim": "로라타딘이 페그필그라스팀 유발 골통을 줄인다",
+  "line": "페그필그라스팀을 맞은 유방암 환자 600명 시험에서 로라타딘은 첫 주기 골통 발생을 줄이지 못했습니다",
+  "effect": "골통 42.5% 대 무처치 46.6%, 차이 유의하지 않음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 600,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "G-CSF 유발 골통 완화는 로라타딘의 허가 적응증이 아닙니다.",
+  "why": "페그필그라스팀의 골통이라는 이상반응을 로라타딘으로 줄이려 한 무작위시험에서 일차 평가변수가 음성이었습니다.",
+  "saw": "초기 유방암 환자 600명을 나눈 NOLAN 시험에서 첫 항암 주기 골통은 로라타딘군 42.5%, 예방치료를 하지 않은 군 46.6%였고 차이는 유의하지 않았습니다. 환자가 기록한 통증의 일부 지표는 낮았습니다.",
+  "limit": "공개형 시험이고 일차 결과는 이상반응 보고 방식의 골통 발생률이었으며, 환자 보고 통증은 이차 결과였습니다.",
+  "against": "46명 무작위 시험도 심한 골통 개선률이 로라타딘 77.3%, 위약 62.5%로 차이가 유의하지 않았습니다.",
+  "use": "G-CSF 골통에 로라타딘을 쓰는 온라인 관행과 무작위시험의 음성 결과를 함께 기록합니다.",
+  "refs": [
+    { "label": "NOLAN 무작위 2상 시험 · 일차 결과 음성", "pmid": "29147854", "nct": "NCT01712009" },
+    { "label": "페그필그라스팀 골통 무작위 2상 시험 · 음성", "pmid": "26894485", "nct": "NCT01311336" },
+    { "label": "G-CSF 골통 로라타딘 소규모 연구", "pmid": "30811242" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=loratadine · cond=Bone Pain → 8건 반환, 물질 대조 후 8건",
+    "pubmed": "loratadine AND Bone Pain → 15편",
+    "negative": "loratadine AND Bone Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 15편",
+    "safety": "loratadine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 775편"
+  }
+}

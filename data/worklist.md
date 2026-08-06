@@ -9942,17 +9942,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sulbactam — Pneumonia에 듣는다  <!-- 시험 13건 · 논문 1220편 --> — 허가·표준 항균요법(2026-08-05)
 - [x] sulbactam — Wound Infections에 듣는다  <!-- 시험 9건 · 논문 340편 --> — 허가·표준 항균요법(2026-08-05)
 - [x] sulbactam — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 328편 --> — 허가·표준 항균요법(2026-08-05)
-- [ ] sulbactam — Lung Abscess에 듣는다  <!-- 시험 3건 · 논문 33편 -->
-- [ ] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 -->
-- [ ] loratadine — Bone Pain에 듣는다  <!-- 시험 4건 · 논문 15편 -->
-- [ ] loratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 101편 -->
-- [ ] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 -->
-- [ ] indacaterol — Asthma에 듣는다  <!-- 시험 22건 · 논문 165편 -->
-- [ ] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 -->
-- [ ] phenylephrine — Spinal에 듣는다  <!-- 시험 41건 · 논문 979편 -->
-- [ ] phenylephrine — Cesarean Birth에 듣는다  <!-- 시험 26건 · 논문 473편 -->
-- [ ] phenylephrine — Blood Flow에 듣는다  <!-- 시험 13건 · 논문 2792편 -->
-- [ ] phenylephrine — Adverse Effect에 듣는다  <!-- 시험 12건 · 논문 2000편 -->
+- [x] sulbactam — Lung Abscess에 듣는다  <!-- 시험 3건 · 논문 33편 --> — 표준 항균요법(2026-08-06)
+- [x] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 --> — 허가 적응증(2026-08-06)
+- [x] loratadine — Bone Pain에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 항목 loratadine-bone-pain-null
+- [x] loratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 항목 loratadine-pruritus-pos
+- [x] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 --> — 허가 적응증(2026-08-06)
+- [x] indacaterol — Asthma에 듣는다  <!-- 시험 22건 · 논문 165편 --> — 항목 indacaterol-asthma-pos
+- [x] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 --> — 허가 적응증(2026-08-06)
+- [x] phenylephrine — Spinal에 듣는다  <!-- 시험 41건 · 논문 979편 --> — 표준 마취·혈압 유지(2026-08-06)
+- [x] phenylephrine — Cesarean Birth에 듣는다  <!-- 시험 26건 · 논문 473편 --> — 표준 산과 마취(2026-08-06)
+- [x] phenylephrine — Blood Flow에 듣는다  <!-- 시험 13건 · 논문 2792편 --> — 항목 phenylephrine-blood-flow-harm
+- [x] phenylephrine — Adverse Effect에 듣는다  <!-- 시험 12건 · 논문 2000편 --> — 항목 phenylephrine-adverse-effect-harm
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9963,25 +9963,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fludrocortisone — Sepsis에 듣는다  <!-- 시험 4건 · 논문 108편 -->
-- [ ] fludrocortisone — Renal Failure, Chronic에 듣는다  <!-- 시험 4건 · 논문 40편 -->
-- [ ] midodrine — Renal Failure에 듣는다  <!-- 시험 21건 · 논문 107편 -->
-- [ ] midodrine — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 123편 -->
-- [ ] midodrine — Shock에 듣는다  <!-- 시험 7건 · 논문 50편 -->
-- [ ] mexiletine — Myotonia에 듣는다  <!-- 시험 6건 · 논문 150편 -->
-- [ ] mexiletine — Ventricular Fibrillation에 듣는다  <!-- 시험 4건 · 논문 197편 -->
-- [ ] mexiletine — Arrhythmia에 듣는다  <!-- 시험 3건 · 논문 1337편 -->
-- [ ] mexiletine — Heart Arrest에 듣는다  <!-- 시험 3건 · 논문 56편 -->
-- [ ] pilocarpine — Dry Eye에 듣는다  <!-- 시험 11건 · 논문 207편 -->
-- [ ] pilocarpine — Glaucoma에 듣는다  <!-- 시험 9건 · 논문 1381편 -->
-- [ ] pilocarpine — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 439편 -->
-- [ ] pilocarpine — Ocular Hypertension에 듣는다  <!-- 시험 3건 · 논문 1271편 -->
-- [ ] agomelatine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] agomelatine — Depression에 듣는다  <!-- 시험 3건 · 논문 683편 -->
-- [ ] itopride — Gastric Emptying에 듣는다  <!-- 시험 3건 · 논문 35편 -->
-- [ ] lubiprostone — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 160편 -->
-- [ ] lubiprostone — Colonoscopy에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] lubiprostone — Diabetes에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [x] fludrocortisone — Sepsis에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 항목 fludrocortisone-sepsis-pos
+- [x] fludrocortisone — Renal Failure, Chronic에 듣는다  <!-- 시험 4건 · 논문 40편 --> — 항목 fludrocortisone-renal-failure-chronic-null
+- [x] midodrine — Renal Failure에 듣는다  <!-- 시험 21건 · 논문 107편 --> — 항목 midodrine-renal-failure-pos
+- [x] midodrine — Cirrhosis에 듣는다  <!-- 시험 15건 · 논문 123편 --> — 표준·지침 혈관수축요법(2026-08-06)
+- [x] midodrine — Shock에 듣는다  <!-- 시험 7건 · 논문 50편 --> — 항목 midodrine-shock-null
+- [x] mexiletine — Myotonia에 듣는다  <!-- 시험 6건 · 논문 150편 --> — 표준·지침 치료(2026-08-06)
+- [x] mexiletine — Ventricular Fibrillation에 듣는다  <!-- 시험 4건 · 논문 197편 --> — 허가·표준 항부정맥 치료(2026-08-06)
+- [x] mexiletine — Arrhythmia에 듣는다  <!-- 시험 3건 · 논문 1337편 --> — 허가·표준 항부정맥 치료(2026-08-06)
+- [x] mexiletine — Heart Arrest에 듣는다  <!-- 시험 3건 · 논문 56편 --> — 허가·표준 항부정맥 치료(2026-08-06)
+- [x] pilocarpine — Dry Eye에 듣는다  <!-- 시험 11건 · 논문 207편 --> — 항목 pilocarpine-dry-eye-pos
+- [x] pilocarpine — Glaucoma에 듣는다  <!-- 시험 9건 · 논문 1381편 --> — 허가 적응증(2026-08-06)
+- [x] pilocarpine — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 439편 --> — 허가 적응증(2026-08-06)
+- [x] pilocarpine — Ocular Hypertension에 듣는다  <!-- 시험 3건 · 논문 1271편 --> — 허가·표준 안압 치료(2026-08-06)
+- [x] agomelatine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 항목 agomelatine-schizophrenia-pos
+- [x] agomelatine — Depression에 듣는다  <!-- 시험 3건 · 논문 683편 --> — 허가·표준 항우울제(2026-08-06)
+- [x] itopride — Gastric Emptying에 듣는다  <!-- 시험 3건 · 논문 35편 --> — 항목 itopride-gastric-emptying-null
+- [x] lubiprostone — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 160편 --> — 허가·표준 IBS-C 치료(2026-08-06)
+- [x] lubiprostone — Colonoscopy에 듣는다  <!-- 시험 3건 · 논문 19편 --> — 항목 lubiprostone-colonoscopy-pos
+- [x] lubiprostone — Diabetes에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 lubiprostone-diabetes-pos
 - [ ] linaclotide — Colorectal Cancer에 듣는다  <!-- 시험 12건 · 논문 29편 -->
 - [ ] linaclotide — Bowel Preparation에 듣는다  <!-- 시험 6건 · 논문 41편 -->
 - [ ] trametinib — Melanoma에 듣는다  <!-- 시험 142건 · 논문 1252편 -->

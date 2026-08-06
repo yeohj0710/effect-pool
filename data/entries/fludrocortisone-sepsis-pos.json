@@ -1,0 +1,30 @@
+{
+  "id": "fludrocortisone-sepsis-pos",
+  "subj": "플루드로코르티손",
+  "claim": "플루드로코르티손을 하이드로코르티손에 더해 패혈성 쇼크 사망을 줄인다",
+  "line": "패혈성 쇼크 환자 1,241명 시험에서 두 약 병용군의 90일 사망률이 43.0%로 위약군 49.1%보다 낮았습니다",
+  "effect": "90일 사망 RR 0.88, 혈압상승제 없이 산 날 17일 대 15일; 고혈당은 더 흔함",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1241,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "패혈성 쇼크의 플루드로코르티손 병용은 허가 적응증이 아닙니다.",
+  "why": "APROCCHSS 다기관 무작위시험에서 플루드로코르티손·하이드로코르티손 병용이 위약보다 90일 사망을 낮췄습니다.",
+  "saw": "패혈성 쇼크 환자 1,241명을 무작위 배정한 시험에서 병용군 614명의 90일 사망은 43.0%, 위약군 627명은 49.1%였습니다. 병용군의 혈압상승제 없이 산 날과 장기부전 없이 산 날도 더 많았고 고혈당은 더 흔했습니다.",
+  "limit": "플루드로코르티손 단독 효과가 아니라 하이드로코르티손과의 병용 효과이며, 직접 비교 시험은 적습니다.",
+  "against": "하이드로코르티손에 플루드로코르티손을 더한 비교 코호트는 88,275명에서 사망·호스피스 전환을 낮췄지만 관찰연구라 교란 가능성이 있습니다.",
+  "use": "플루드로코르티손 단독이 아니라 스테로이드 병용 전략의 근거로 기록합니다.",
+  "refs": [
+    { "label": "APROCCHSS 무작위시험 · 패혈성 쇼크 사망 감소", "pmid": "29490185", "nct": "NCT00625209" },
+    { "label": "플루드로코르티손 병용 네트워크 메타분석", "pmid": "38271488" },
+    { "label": "플루드로코르티손 병용 비교 코호트", "pmid": "36972033" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=fludrocortisone · cond=Sepsis → 12건 반환, 물질 대조 후 8건",
+    "pubmed": "fludrocortisone AND Sepsis → 108편",
+    "negative": "fludrocortisone AND Sepsis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 70편",
+    "safety": "fludrocortisone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 981편"
+  }
+}
