@@ -12603,3 +12603,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] animal-assisted intervention — Anxiety에 듣는다  <!-- 시험 5건 · 논문 219편 -->
 - [x] animal-assisted intervention — Dementia에 듣는다  <!-- 시험 3건 · 논문 110편 -->
 - [x] animal-assisted intervention — Autism에 듣는다  <!-- 시험 3건 · 논문 121편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] storytelling — Cancer에 듣는다  <!-- 시험 9건 · 논문 288편 -->
+- [x] storytelling — Stress에 듣는다  <!-- 시험 6건 · 논문 193편 -->
+- [x] storytelling — HIV에 듣는다  <!-- 시험 6건 · 논문 92편 -->
+- [x] storytelling — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 803편 -->
+- [x] self-compassion — Stress에 듣는다  <!-- 시험 18건 · 논문 2073편 -->
+- [x] self-compassion — Depression에 듣는다  <!-- 시험 9건 · 논문 1467편 -->
+- [x] self-compassion — Body Image에 듣는다  <!-- 시험 8건 · 논문 325편 -->
+- [x] green care intervention — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 1694편 --> — 근거 없음(2026-08-06, green care intervention AND Neoplasms)
+- [x] green care intervention — Lymph Node Mapping에 듣는다  <!-- 시험 4건 · 논문 75편 --> — 근거 없음(2026-08-06, green care intervention AND Lymph Node Mapping)
+- [x] green care intervention — Bladder Neoplasm에 듣는다  <!-- 시험 4건 · 논문 30편 --> — 근거 없음(2026-08-06, green care intervention AND Bladder Neoplasm)
+- [x] plozasiran — Familial Chylomicronemia에 듣는다  <!-- 시험 3건 · 논문 35편 --> — 허가 적응증(2026-08-06)
+- [x] doravirine — Weight Gain에 듣는다  <!-- 시험 4건 · 논문 23편 -->
+- [x] doravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 323편 --> — 허가 적응증(2026-08-06)
+- [x] ritlecitinib — Vitiligo에 듣는다  <!-- 시험 5건 · 논문 32편 -->
