@@ -10713,3 +10713,68 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] time-restricted eating — Fasting에 듣는다  <!-- 시험 15건 · 논문 3931편 -->
 - [ ] time-restricted eating — Metabolic Health에 듣는다  <!-- 시험 14건 · 논문 1760편 -->
 - [ ] time-restricted eating — Cancer에 듣는다  <!-- 시험 14건 · 논문 524편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] reminiscence therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 101편 -->
+- [ ] reminiscence therapy — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 135편 -->
+- [ ] cognitive stimulation therapy — Alzheimer Disease에 듣는다  <!-- 시험 19건 · 논문 2507편 -->
+- [ ] cognitive stimulation therapy — Stroke에 듣는다  <!-- 시험 15건 · 논문 1584편 -->
+- [ ] cognitive stimulation therapy — Aging에 듣는다  <!-- 시험 13건 · 논문 2292편 -->
+- [ ] cognitive stimulation therapy — Brain Tumor에 듣는다  <!-- 시험 13건 · 논문 403편 -->
+- [ ] validation therapy — Chronic Kidney Disease, Stage 5에 듣는다  <!-- 시험 3건 · 논문 717편 -->
+- [ ] interpersonal psychotherapy — Depressive Symptoms에 듣는다  <!-- 시험 25건 · 논문 2392편 -->
+- [ ] interpersonal psychotherapy — Stress에 듣는다  <!-- 시험 13건 · 논문 1095편 -->
+- [ ] interpersonal psychotherapy — Binge Eating에 듣는다  <!-- 시험 12건 · 논문 215편 -->
+- [ ] interpersonal psychotherapy — Anxiety에 듣는다  <!-- 시험 10건 · 논문 1260편 -->
+- [ ] compassion-focused therapy — Parent에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] self-compassion training — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 825편 -->
+- [ ] self-compassion training — Type 1 Diabetes에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [ ] self-compassion training — Anxiety에 듣는다  <!-- 시험 4건 · 논문 473편 -->
+- [ ] self-compassion training — Mental Health에 듣는다  <!-- 시험 3건 · 논문 795편 -->
+- [ ] peer counseling — Opioid Use에 듣는다  <!-- 시험 22건 · 논문 108편 -->
+- [ ] peer counseling — Cancer에 듣는다  <!-- 시험 18건 · 논문 528편 -->
+- [ ] peer counseling — Breastfeeding에 듣는다  <!-- 시험 12건 · 논문 303편 -->
+- [ ] peer counseling — Diabetes에 듣는다  <!-- 시험 10건 · 논문 229편 -->
+- [ ] support group — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 34558편 -->
+- [ ] support group — Depression에 듣는다  <!-- 시험 7건 · 논문 71869편 -->
+- [ ] support group — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 17412편 -->
+- [ ] support group — Mental Health에 듣는다  <!-- 시험 6건 · 논문 73849편 -->
+- [ ] caregiver education — Depression에 듣는다  <!-- 시험 6건 · 논문 4042편 -->
+- [ ] caregiver education — Autism에 듣는다  <!-- 시험 5건 · 논문 1430편 -->
+- [ ] caregiver education — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 346편 -->
+- [ ] caregiver education — Diabetes에 듣는다  <!-- 시험 4건 · 논문 1172편 -->
+- [ ] aromatherapy — Pain에 듣는다  <!-- 시험 35건 · 논문 642편 -->
+- [ ] aromatherapy — Cancer에 듣는다  <!-- 시험 19건 · 논문 289편 -->
+- [ ] aromatherapy — Nausea에 듣는다  <!-- 시험 14건 · 논문 176편 -->
+- [ ] aromatherapy — Dementia에 듣는다  <!-- 시험 10건 · 논문 174편 -->
+- [ ] hypnotherapy — Functional Dyspepsia에 듣는다  <!-- 시험 11건 · 논문 52편 -->
+- [ ] hypnotherapy — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 130편 -->
+- [ ] hypnotherapy — Pain에 듣는다  <!-- 시험 9건 · 논문 2829편 -->
+- [ ] hypnotherapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1878편 -->
+- [ ] nature walk — Anxiety에 듣는다  <!-- 시험 5건 · 논문 209편 -->
+- [ ] nature walk — Well-being에 듣는다  <!-- 시험 4건 · 논문 5238편 -->
+- [ ] nature walk — Cancer에 듣는다  <!-- 시험 4건 · 논문 463편 -->
+- [ ] nature walk — Mental Fatigue에 듣는다  <!-- 시험 3건 · 논문 36편 -->
+- [ ] yoga nidra — Insomnia에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] chronotherapy — Sleep에 듣는다  <!-- 시험 6건 · 논문 679편 -->
+- [ ] chronotherapy — Hypertension에 듣는다  <!-- 시험 5건 · 논문 450편 -->
+- [ ] chronotherapy — Depressive Episode에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] blue light blocking — Sleep에 듣는다  <!-- 시험 8건 · 논문 112편 -->
+- [ ] blue light blocking — Mania에 듣는다  <!-- 시험 4건 · 논문 9편 -->
+- [ ] blue light blocking — Cataract에 듣는다  <!-- 시험 3건 · 논문 57편 -->
+- [ ] food diary — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 778편 -->
+- [ ] food diary — Obesity에 듣는다  <!-- 시험 4건 · 논문 2628편 -->
+- [ ] food diary — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 131편 -->
+- [ ] food diary — Dietary Assessment에 듣는다  <!-- 시험 3건 · 논문 3335편 -->
+- [ ] Nordic diet — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 140편 -->
+- [ ] Nordic diet — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 33편 -->
+- [ ] Nordic diet — Diabetes에 듣는다  <!-- 시험 4건 · 논문 174편 -->
+- [ ] Nordic diet — Hypertension에 듣는다  <!-- 시험 3건 · 논문 78편 -->
