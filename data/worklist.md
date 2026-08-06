@@ -10930,36 +10930,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paced breathing — Pain에 듣는다  <!-- 시험 4건 · 논문 114편 --> — 근거 없음(2026-08-06, "paced breathing AND Pain")
 - [x] diaphragmatic breathing — Stress에 듣는다  <!-- 시험 8건 · 논문 464편 --> — 항목 생성(2026-08-06)
 - [x] diaphragmatic breathing — COPD에 듣는다  <!-- 시험 8건 · 논문 680편 --> — 항목 생성(2026-08-06)
-- [ ] diaphragmatic breathing — Diaphragm에 듣는다  <!-- 시험 8건 · 논문 8364편 -->
-- [ ] diaphragmatic breathing — Anxiety에 듣는다  <!-- 시험 7건 · 논문 169편 -->
-- [ ] relaxation breathing — Pain에 듣는다  <!-- 시험 18건 · 논문 618편 -->
-- [ ] relaxation breathing — Stress에 듣는다  <!-- 시험 17건 · 논문 957편 -->
-- [ ] relaxation breathing — Cancer에 듣는다  <!-- 시험 13건 · 논문 412편 -->
-- [ ] relaxation breathing — Virtual Reality에 듣는다  <!-- 시험 7건 · 논문 53편 -->
-- [ ] culinary medicine — Family Research에 듣는다  <!-- 시험 4건 · 논문 352편 -->
-- [ ] culinary medicine — Obesity & Overweight에 듣는다  <!-- 시험 3건 · 논문 101편 -->
-- [ ] culinary medicine — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 30편 -->
-- [ ] nutrition education — Cancer에 듣는다  <!-- 시험 27건 · 논문 11618편 -->
-- [ ] nutrition education — Diabetes에 듣는다  <!-- 시험 16건 · 논문 14823편 -->
-- [ ] nutrition education — Mental Health에 듣는다  <!-- 시험 15건 · 논문 6468편 -->
-- [ ] nutrition education — Overweight에 듣는다  <!-- 시험 8건 · 논문 15026편 -->
-- [ ] food literacy — Obesity에 듣는다  <!-- 시험 6건 · 논문 314편 -->
-- [ ] food literacy — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 92편 -->
-- [ ] produce prescription — Diabetes에 듣는다  <!-- 시험 13건 · 논문 286편 -->
-- [ ] produce prescription — Obesity에 듣는다  <!-- 시험 7건 · 논문 120편 -->
-- [ ] produce prescription — Hypertension에 듣는다  <!-- 시험 3건 · 논문 155편 -->
-- [ ] meal kit — Obesity에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] meal kit — Diet Quality에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] flexibility exercise — Hip Injury에 듣는다  <!-- 시험 4건 · 논문 157편 -->
-- [ ] flexibility exercise — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 94편 -->
-- [ ] flexibility exercise — Depression에 듣는다  <!-- 시험 3건 · 논문 485편 -->
-- [ ] flexibility exercise — Osteoporosis에 듣는다  <!-- 시험 3건 · 논문 86편 -->
-- [ ] motor control exercise — Cognitive Test에 듣는다  <!-- 시험 5건 · 논문 968편 -->
-- [ ] motor control exercise — Stroke에 듣는다  <!-- 시험 4건 · 논문 1666편 -->
-- [ ] motor control exercise — Exercise에 듣는다  <!-- 시험 3건 · 논문 17200편 -->
-- [ ] neuromuscular exercise — Knee OA에 듣는다  <!-- 시험 33건 · 논문 114편 -->
-- [ ] neuromuscular exercise — Pain에 듣는다  <!-- 시험 33건 · 논문 1841편 -->
-- [ ] neuromuscular exercise — Muscle에 듣는다  <!-- 시험 17건 · 논문 9899편 -->
+- [x] diaphragmatic breathing — Diaphragm에 듣는다  <!-- 시험 8건 · 논문 8364편 --> — 근거 없음(2026-08-06, "diaphragmatic breathing AND Diaphragm")
+- [x] diaphragmatic breathing — Anxiety에 듣는다  <!-- 시험 7건 · 논문 169편 --> — 항목 생성(2026-08-06)
+- [x] relaxation breathing — Pain에 듣는다  <!-- 시험 18건 · 논문 618편 --> — 항목 생성(2026-08-06)
+- [x] relaxation breathing — Stress에 듣는다  <!-- 시험 17건 · 논문 957편 --> — 항목 생성(2026-08-06)
+- [x] relaxation breathing — Cancer에 듣는다  <!-- 시험 13건 · 논문 412편 --> — 근거 없음(2026-08-06, "relaxation breathing AND Cancer")
+- [x] relaxation breathing — Virtual Reality에 듣는다  <!-- 시험 7건 · 논문 53편 --> — 근거 없음(2026-08-06, "relaxation breathing AND Virtual Reality")
+- [x] culinary medicine — Family Research에 듣는다  <!-- 시험 4건 · 논문 352편 --> — 근거 없음(2026-08-06, "culinary medicine AND Family Research")
+- [x] culinary medicine — Obesity & Overweight에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 근거 없음(2026-08-06, "culinary medicine AND Obesity & Overweight")
+- [x] culinary medicine — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 근거 없음(2026-08-06, "culinary medicine AND Food Insecurity")
+- [x] nutrition education — Cancer에 듣는다  <!-- 시험 27건 · 논문 11618편 --> — 근거 없음(2026-08-06, "nutrition education AND Cancer")
+- [x] nutrition education — Diabetes에 듣는다  <!-- 시험 16건 · 논문 14823편 --> — 근거 없음(2026-08-06, "nutrition education AND Diabetes")
+- [x] nutrition education — Mental Health에 듣는다  <!-- 시험 15건 · 논문 6468편 --> — 근거 없음(2026-08-06, "nutrition education AND Mental Health")
+- [x] nutrition education — Overweight에 듣는다  <!-- 시험 8건 · 논문 15026편 --> — 항목 생성(2026-08-06)
+- [x] food literacy — Obesity에 듣는다  <!-- 시험 6건 · 논문 314편 --> — 근거 없음(2026-08-06, "food literacy AND Obesity")
+- [x] food literacy — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 92편 --> — 항목 생성(2026-08-06)
+- [x] produce prescription — Diabetes에 듣는다  <!-- 시험 13건 · 논문 286편 --> — 항목 생성(2026-08-06)
+- [x] produce prescription — Obesity에 듣는다  <!-- 시험 7건 · 논문 120편 --> — 항목 생성(2026-08-06)
+- [x] produce prescription — Hypertension에 듣는다  <!-- 시험 3건 · 논문 155편 --> — 근거 없음(2026-08-06, "produce prescription AND Hypertension")
+- [x] meal kit — Obesity에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 항목 생성(2026-08-06)
+- [x] meal kit — Diet Quality에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 생성(2026-08-06)
+- [x] flexibility exercise — Hip Injury에 듣는다  <!-- 시험 4건 · 논문 157편 --> — 근거 없음(2026-08-06, "flexibility exercise AND Hip Injury")
+- [x] flexibility exercise — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 94편 --> — 근거 없음(2026-08-06, "flexibility exercise AND Alzheimer Disease")
+- [x] flexibility exercise — Depression에 듣는다  <!-- 시험 3건 · 논문 485편 --> — 근거 없음(2026-08-06, "flexibility exercise AND Depression")
+- [x] flexibility exercise — Osteoporosis에 듣는다  <!-- 시험 3건 · 논문 86편 --> — 근거 없음(2026-08-06, "flexibility exercise AND Osteoporosis")
+- [x] motor control exercise — Cognitive Test에 듣는다  <!-- 시험 5건 · 논문 968편 --> — 근거 없음(2026-08-06, "motor control exercise AND Cognitive Test")
+- [x] motor control exercise — Stroke에 듣는다  <!-- 시험 4건 · 논문 1666편 --> — 항목 생성(2026-08-06)
+- [x] motor control exercise — Exercise에 듣는다  <!-- 시험 3건 · 논문 17200편 --> — 근거 없음(2026-08-06, "motor control exercise AND Exercise")
+- [x] neuromuscular exercise — Knee OA에 듣는다  <!-- 시험 33건 · 논문 114편 --> — 항목 생성(2026-08-06)
+- [x] neuromuscular exercise — Pain에 듣는다  <!-- 시험 33건 · 논문 1841편 --> — 항목 생성(2026-08-06)
+- [x] neuromuscular exercise — Muscle에 듣는다  <!-- 시험 17건 · 논문 9899편 --> — 근거 없음(2026-08-06, "neuromuscular exercise AND Muscle")
 - [ ] neuromuscular exercise — Ankle Sprain에 듣는다  <!-- 시험 16건 · 논문 310편 -->
 - [ ] community health worker — Hypertension에 듣는다  <!-- 시험 22건 · 논문 1134편 -->
 - [ ] community health worker — Child Health에 듣는다  <!-- 시험 16건 · 논문 8477편 -->
