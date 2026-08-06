@@ -10090,3 +10090,70 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] metyrapone — Cocaine Addiction에 듣는다 — 항목 생성(metyrapone-cocaine-addiction-pos)(2026-08-06)  <!-- 시험 5건 · 논문 14편 -->
 - [x] metyrapone — Depressive Disorder에 듣는다 — 항목 생성(metyrapone-depressive-disorder-pos, metyrapone-depressive-disorder-null)(2026-08-06)  <!-- 시험 3건 · 논문 66편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] intermittent fasting — Diabetes에 듣는다  <!-- 시험 14건 · 논문 878편 -->
+- [ ] intermittent fasting — Metabolic Changes에 듣는다  <!-- 시험 12건 · 논문 881편 -->
+- [ ] intermittent fasting — Liver Fat에 듣는다  <!-- 시험 11건 · 논문 147편 -->
+- [ ] intermittent fasting — Weight에 듣는다  <!-- 시험 9건 · 논문 1534편 -->
+- [ ] sauna — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 171편 -->
+- [ ] sauna — Heat Stress에 듣는다  <!-- 시험 3건 · 논문 129편 -->
+- [ ] sauna — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 79편 -->
+- [ ] cold water immersion — Cryotherapy Effect에 듣는다  <!-- 시험 6건 · 논문 225편 -->
+- [ ] cold water immersion — Recovery에 듣는다  <!-- 시험 5건 · 논문 616편 -->
+- [ ] cold water immersion — Fatigue에 듣는다  <!-- 시험 4건 · 논문 173편 -->
+- [ ] compression stockings — Spider Veins에 듣는다  <!-- 시험 22건 · 논문 20편 -->
+- [ ] compression stockings — Lymphedema에 듣는다  <!-- 시험 12건 · 논문 258편 -->
+- [ ] compression stockings — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 28편 -->
+- [ ] compression stockings — Edema에 듣는다  <!-- 시험 9건 · 논문 481편 -->
+- [ ] acupuncture — Cancer에 듣는다  <!-- 시험 80건 · 논문 4697편 -->
+- [ ] acupuncture — Neuropathy에 듣는다  <!-- 시험 20건 · 논문 630편 -->
+- [ ] acupuncture — Stroke에 듣는다  <!-- 시험 17건 · 논문 3224편 -->
+- [ ] acupuncture — Postoperative Ileus에 듣는다  <!-- 시험 16건 · 논문 87편 -->
+- [ ] ambrisentan — Systemic Sclerosis에 듣는다  <!-- 시험 5건 · 논문 38편 -->
+- [ ] ambrisentan — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [ ] ciclopirox — Tinea Pedis에 듣는다  <!-- 시험 3건 · 논문 39편 -->
+- [ ] clindamycin — Infection에 듣는다  <!-- 시험 33건 · 논문 11931편 -->
+- [ ] clindamycin — Bacterial Vaginosis에 듣는다  <!-- 시험 24건 · 논문 333편 -->
+- [ ] clindamycin — Infections에 듣는다  <!-- 시험 12건 · 논문 11931편 -->
+- [ ] clindamycin — Abscess에 듣는다  <!-- 시험 8건 · 논문 1312편 -->
+- [ ] deferiprone — Thalassemia에 듣는다  <!-- 시험 12건 · 논문 766편 -->
+- [ ] deferiprone — Anemia, Cooley's에 듣는다  <!-- 시험 10건 · 논문 452편 -->
+- [ ] deferiprone — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 65편 -->
+- [ ] deferiprone — Pantothenate Kinase-Associated Neurodegeneration에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [ ] elagolix — Uterine Fibroids에 듣는다  <!-- 시험 9건 · 논문 57편 -->
+- [ ] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [ ] elagolix — Infertility에 듣는다  <!-- 시험 4건 · 논문 31편 -->
+- [ ] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 -->
+- [ ] luspatercept — Thalassemia에 듣는다  <!-- 시험 14건 · 논문 125편 -->
+- [ ] luspatercept — Myelofibrosis (MF)에 듣는다  <!-- 시험 6건 · 논문 17편 -->
+- [ ] luspatercept — Acute Leukemia에 듣는다  <!-- 시험 5건 · 논문 50편 -->
+- [ ] omadacycline — Bone Infection에 듣는다  <!-- 시험 6건 · 논문 16편 -->
+- [ ] ravulizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 98편 -->
+- [ ] ravulizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 5건 · 논문 71편 -->
+- [ ] ravulizumab — aHUS에 듣는다  <!-- 시험 5건 · 논문 98편 -->
+- [ ] teprotumumab — Graves Disease에 듣는다  <!-- 시험 5건 · 논문 351편 -->
+- [ ] voclosporin — Psoriasis에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [ ] voclosporin — Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [ ] abrocitinib — Eczema에 듣는다  <!-- 시험 3건 · 논문 173편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] dornase alfa — COVID-19에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [ ] dornase alfa — Atelectasis에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] dornase alfa — Lower Respiratory Tract Infection에 듣는다  <!-- 시험 3건 · 논문 12편 -->
