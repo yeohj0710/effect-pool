@@ -10640,8 +10640,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] breathing meditation — Pain에 듣는다  <!-- 시험 5건 · 논문 172편 --> — 근거 없음(2026-08-06, "breathing meditation" AND Pain)
 - [x] health literacy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2699편 --> — 항목 생성(2026-08-06)
 - [x] health literacy — Obesity에 듣는다  <!-- 시험 14건 · 논문 1087편 --> — 항목 생성(2026-08-06)
-- [ ] health literacy — Distress, Emotional에 듣는다  <!-- 시험 10건 · 논문 622편 -->
-- [ ] health literacy — Hypertension에 듣는다  <!-- 시험 9건 · 논문 1085편 -->
+- [x] health literacy — Distress, Emotional에 듣는다  <!-- 시험 10건 · 논문 622편 --> — 항목 생성(2026-08-06)
+- [x] health literacy — Hypertension에 듣는다  <!-- 시험 9건 · 논문 1085편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10652,34 +10652,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sleep restriction — Obesity에 듣는다  <!-- 시험 17건 · 논문 1089편 -->
-- [ ] sleep restriction — Cognitive Change에 듣는다  <!-- 시험 16건 · 논문 412편 -->
-- [ ] sleep restriction — Pain에 듣는다  <!-- 시험 9건 · 논문 696편 -->
-- [ ] sleep restriction — Cancer에 듣는다  <!-- 시험 8건 · 논문 511편 -->
-- [ ] caregiver support — Alzheimer Disease에 듣는다  <!-- 시험 5건 · 논문 5570편 -->
-- [ ] caregiver support — Depression에 듣는다  <!-- 시험 4건 · 논문 10654편 -->
-- [ ] caregiver support — Anxiety에 듣는다  <!-- 시험 4건 · 논문 7209편 -->
-- [ ] caregiver support — Dementia에 듣는다  <!-- 시험 4건 · 논문 13682편 -->
-- [ ] problem solving therapy — Distress에 듣는다  <!-- 시험 13건 · 논문 607편 -->
-- [ ] problem solving therapy — Depressive Symptoms에 듣는다  <!-- 시험 13건 · 논문 1853편 -->
-- [ ] problem solving therapy — Anxiety에 듣는다  <!-- 시험 11건 · 논문 1034편 -->
-- [ ] mindfulness-based cognitive therapy — Depression에 듣는다  <!-- 시험 32건 · 논문 2137편 -->
-- [ ] mindfulness-based cognitive therapy — Pain에 듣는다  <!-- 시험 26건 · 논문 668편 -->
-- [ ] mindfulness-based cognitive therapy — Cancer에 듣는다  <!-- 시험 22건 · 논문 625편 -->
-- [ ] mindfulness-based cognitive therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1750편 -->
-- [ ] expressive writing — Stress에 듣는다  <!-- 시험 14건 · 논문 268편 -->
-- [ ] expressive writing — Psychological에 듣는다  <!-- 시험 11건 · 논문 372편 -->
-- [ ] expressive writing — Depression에 듣는다  <!-- 시험 10건 · 논문 188편 -->
-- [ ] expressive writing — Anxiety에 듣는다  <!-- 시험 9건 · 논문 148편 -->
-- [ ] bibliotherapy — Panic Attacks에 듣는다  <!-- 시험 6건 · 논문 16편 -->
-- [ ] bibliotherapy — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 5건 · 논문 18편 -->
-- [ ] bibliotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 204편 -->
-- [ ] bibliotherapy — Dementia에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] dance movement therapy — Parkinson Disease에 듣는다  <!-- 시험 6건 · 논문 167편 -->
-- [ ] dance movement therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 157편 -->
-- [ ] dance movement therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 83편 -->
-- [ ] dance movement therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 536편 -->
-- [ ] aquatic therapy — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 122편 -->
+- [x] sleep restriction — Obesity에 듣는다  <!-- 시험 17건 · 논문 1089편 --> — 항목 생성(2026-08-06)
+- [x] sleep restriction — Cognitive Change에 듣는다  <!-- 시험 16건 · 논문 412편 --> — 항목 생성(2026-08-06)
+- [x] sleep restriction — Pain에 듣는다  <!-- 시험 9건 · 논문 696편 --> — 근거 없음(2026-08-06, "sleep restriction" AND Pain)
+- [x] sleep restriction — Cancer에 듣는다  <!-- 시험 8건 · 논문 511편 --> — 근거 없음(2026-08-06, "sleep restriction" AND Cancer)
+- [x] caregiver support — Alzheimer Disease에 듣는다  <!-- 시험 5건 · 논문 5570편 --> — 항목 생성(2026-08-06)
+- [x] caregiver support — Depression에 듣는다  <!-- 시험 4건 · 논문 10654편 --> — 항목 생성(2026-08-06)
+- [x] caregiver support — Anxiety에 듣는다  <!-- 시험 4건 · 논문 7209편 --> — 항목 생성(2026-08-06)
+- [x] caregiver support — Dementia에 듣는다  <!-- 시험 4건 · 논문 13682편 --> — 항목 생성(2026-08-06)
+- [x] problem solving therapy — Distress에 듣는다  <!-- 시험 13건 · 논문 607편 --> — 근거 없음(2026-08-06, "problem solving therapy" AND Distress)
+- [x] problem solving therapy — Depressive Symptoms에 듣는다  <!-- 시험 13건 · 논문 1853편 --> — 항목 생성(2026-08-06)
+- [x] problem solving therapy — Anxiety에 듣는다  <!-- 시험 11건 · 논문 1034편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness-based cognitive therapy — Depression에 듣는다  <!-- 시험 32건 · 논문 2137편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness-based cognitive therapy — Pain에 듣는다  <!-- 시험 26건 · 논문 668편 --> — 근거 없음(2026-08-06, "mindfulness-based cognitive therapy" AND Pain)
+- [x] mindfulness-based cognitive therapy — Cancer에 듣는다  <!-- 시험 22건 · 논문 625편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness-based cognitive therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1750편 --> — 항목 생성(2026-08-06)
+- [x] expressive writing — Stress에 듣는다  <!-- 시험 14건 · 논문 268편 --> — 항목 생성(2026-08-06)
+- [x] expressive writing — Psychological에 듣는다  <!-- 시험 11건 · 논문 372편 --> — 항목 생성(2026-08-06)
+- [x] expressive writing — Depression에 듣는다  <!-- 시험 10건 · 논문 188편 --> — 항목 생성(2026-08-06)
+- [x] expressive writing — Anxiety에 듣는다  <!-- 시험 9건 · 논문 148편 --> — 항목 생성(2026-08-06)
+- [x] bibliotherapy — Panic Attacks에 듣는다  <!-- 시험 6건 · 논문 16편 --> — 근거 없음(2026-08-06, "bibliotherapy" AND "Panic Attacks")
+- [x] bibliotherapy — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 5건 · 논문 18편 --> — 근거 없음(2026-08-06, "bibliotherapy" AND "Obsessive-Compulsive Disorder")
+- [x] bibliotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 204편 --> — 항목 생성(2026-08-06)
+- [x] bibliotherapy — Dementia에 듣는다  <!-- 시험 4건 · 논문 11편 --> — 근거 없음(2026-08-06, "bibliotherapy" AND Dementia)
+- [x] dance movement therapy — Parkinson Disease에 듣는다  <!-- 시험 6건 · 논문 167편 --> — 항목 생성(2026-08-06)
+- [x] dance movement therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 157편 --> — 항목 생성(2026-08-06)
+- [x] dance movement therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 83편 --> — 항목 생성(2026-08-06)
+- [x] dance movement therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 536편 --> — 항목 생성(2026-08-06)
+- [x] aquatic therapy — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 122편 --> — 항목 생성(2026-08-06)
 - [ ] aquatic therapy — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 45편 -->
 - [ ] aquatic therapy — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 63편 -->
 - [ ] aquatic therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 4건 · 논문 37편 -->
