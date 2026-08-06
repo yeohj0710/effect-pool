@@ -11350,8 +11350,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dance therapy — Stroke에 듣는다 — 항목 생성(dance-therapy-stroke-open)  <!-- 시험 5건 · 논문 85편 -->
 - [x] mindfulness — Mental Health에 듣는다 — 항목 생성(mindfulness-mental-health-open)  <!-- 시험 28건 · 논문 8497편 -->
 - [x] mindfulness — Psychological에 듣는다 — 항목 생성(mindfulness-psychological-open)  <!-- 시험 22건 · 논문 11830편 -->
-- [ ] mindfulness — Depressive에 듣는다  <!-- 시험 17건 · 논문 7140편 -->
-- [ ] mindfulness — Burnout에 듣는다  <!-- 시험 14건 · 논문 1458편 -->
+- [x] mindfulness — Depressive에 듣는다 — 항목 생성(mindfulness-depressive-open)  <!-- 시험 17건 · 논문 7140편 -->
+- [x] mindfulness — Burnout에 듣는다 — 항목 생성(mindfulness-burnout-open)  <!-- 시험 14건 · 논문 1458편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11362,34 +11362,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] clonidine — Pregnancy Related에 듣는다  <!-- 시험 10건 · 논문 72편 -->
-- [ ] clonidine — Surgery에 듣는다  <!-- 시험 5건 · 논문 2781편 -->
-- [ ] clonidine — Anxiety에 듣는다  <!-- 시험 4건 · 논문 620편 -->
-- [ ] digoxin — Solid Tumor에 듣는다  <!-- 시험 10건 · 논문 20편 -->
-- [ ] digoxin — Overweight에 듣는다  <!-- 시험 9건 · 논문 60편 -->
-- [ ] digoxin — DRUG REACTIONS에 듣는다  <!-- 시험 9건 · 논문 568편 -->
-- [ ] digoxin — Abortion에 듣는다  <!-- 시험 8건 · 논문 60편 -->
-- [ ] empagliflozin — NAFLD에 듣는다  <!-- 시험 10건 · 논문 101편 -->
-- [ ] empagliflozin — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 169편 -->
-- [ ] empagliflozin — Insulin Resistance에 듣는다  <!-- 시험 10건 · 논문 196편 -->
-- [ ] empagliflozin — Dialysis에 듣는다  <!-- 시험 9건 · 논문 75편 -->
-- [ ] fenofibrate — Diabetic Retinopathy에 듣는다  <!-- 시험 12건 · 논문 202편 -->
-- [ ] fenofibrate — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 1213편 -->
-- [ ] fenofibrate — Hypercholesterolemia에 듣는다  <!-- 시험 7건 · 논문 278편 -->
-- [ ] guanfacine — Hypertension에 듣는다  <!-- 시험 3건 · 논문 253편 -->
-- [ ] guanfacine — Tourette Syndrome에 듣는다  <!-- 시험 3건 · 논문 40편 -->
-- [ ] guanfacine — Cognitive Aging에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] hydrochlorothiazide — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 4252편 -->
-- [ ] hydrochlorothiazide — Obesity에 듣는다  <!-- 시험 6건 · 논문 189편 -->
-- [ ] hydrochlorothiazide — Healthy Participants에 듣는다  <!-- 시험 4건 · 논문 144편 -->
-- [ ] hydrochlorothiazide — Cardiovascular Events에 듣는다  <!-- 시험 4건 · 논문 398편 -->
-- [ ] ivabradine — Ischemic Cardiomyopathy에 듣는다  <!-- 시험 3건 · 논문 31편 -->
-- [ ] losartan — HIV Infection에 듣는다  <!-- 시험 8건 · 논문 14편 -->
-- [ ] losartan — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 4835편 -->
-- [ ] nebivolol — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 254편 -->
-- [ ] nebivolol — Angina Pectoris에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] nebivolol — Erectile Dysfunction에 듣는다  <!-- 시험 4건 · 논문 43편 -->
-- [ ] nifedipine — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 1326편 -->
+- [x] clonidine — Pregnancy Related에 듣는다 — 근거 없음(2026-08-06, "clonidine AND Pregnancy Related")  <!-- 시험 10건 · 논문 72편 -->
+- [x] clonidine — Surgery에 듣는다 — 항목 생성(clonidine-surgery-open)  <!-- 시험 5건 · 논문 2781편 -->
+- [x] clonidine — Anxiety에 듣는다 — 근거 없음(2026-08-06, "clonidine AND Anxiety")  <!-- 시험 4건 · 논문 620편 -->
+- [x] digoxin — Solid Tumor에 듣는다 — 근거 없음(2026-08-06, "digoxin AND Solid Tumor")  <!-- 시험 10건 · 논문 20편 -->
+- [x] digoxin — Overweight에 듣는다 — 근거 없음(2026-08-06, "digoxin AND Overweight")  <!-- 시험 9건 · 논문 60편 -->
+- [x] digoxin — DRUG REACTIONS에 듣는다 — 근거 없음(2026-08-06, "digoxin AND DRUG REACTIONS")  <!-- 시험 9건 · 논문 568편 -->
+- [x] digoxin — Abortion에 듣는다 — 항목 생성(digoxin-abortion-pos)  <!-- 시험 8건 · 논문 60편 -->
+- [x] empagliflozin — NAFLD에 듣는다 — 항목 생성(empagliflozin-nafld-animal-pos)  <!-- 시험 10건 · 논문 101편 -->
+- [x] empagliflozin — Coronary Disease에 듣는다 — 항목 생성(empagliflozin-coronary-disease-null)  <!-- 시험 10건 · 논문 169편 -->
+- [x] empagliflozin — Insulin Resistance에 듣는다 — 항목 생성(empagliflozin-insulin-resistance-animal-pos)  <!-- 시험 10건 · 논문 196편 -->
+- [x] empagliflozin — Dialysis에 듣는다 — 근거 없음(2026-08-06, "empagliflozin AND Dialysis")  <!-- 시험 9건 · 논문 75편 -->
+- [x] fenofibrate — Diabetic Retinopathy에 듣는다 — 항목 생성(fenofibrate-diabetic-retinopathy-open)  <!-- 시험 12건 · 논문 202편 -->
+- [x] fenofibrate — Cardiovascular Disease에 듣는다 — 항목 생성(fenofibrate-cardiovascular-disease-open)  <!-- 시험 9건 · 논문 1213편 -->
+- [x] fenofibrate — Hypercholesterolemia에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 278편 -->
+- [x] guanfacine — Hypertension에 듣는다 — 항목 생성(guanfacine-hypertension-open)  <!-- 시험 3건 · 논문 253편 -->
+- [x] guanfacine — Tourette Syndrome에 듣는다 — 항목 생성(guanfacine-tourette-syndrome-open)  <!-- 시험 3건 · 논문 40편 -->
+- [x] guanfacine — Cognitive Aging에 듣는다 — 항목 생성(guanfacine-cognitive-aging-open)  <!-- 시험 3건 · 논문 14편 -->
+- [x] hydrochlorothiazide — Blood Pressure에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 4252편 -->
+- [x] hydrochlorothiazide — Obesity에 듣는다 — 근거 없음(2026-08-06, "hydrochlorothiazide AND Obesity")  <!-- 시험 6건 · 논문 189편 -->
+- [x] hydrochlorothiazide — Healthy Participants에 듣는다 — 근거 없음(2026-08-06, "hydrochlorothiazide AND Healthy Participants")  <!-- 시험 4건 · 논문 144편 -->
+- [x] hydrochlorothiazide — Cardiovascular Events에 듣는다 — 항목 생성(hydrochlorothiazide-cardiovascular-events-null)  <!-- 시험 4건 · 논문 398편 -->
+- [x] ivabradine — Ischemic Cardiomyopathy에 듣는다 — 근거 없음(2026-08-06, "ivabradine AND Ischemic Cardiomyopathy")  <!-- 시험 3건 · 논문 31편 -->
+- [x] losartan — HIV Infection에 듣는다 — 항목 생성(losartan-hiv-infection-null)  <!-- 시험 8건 · 논문 14편 -->
+- [x] losartan — Cardiovascular Disease에 듣는다 — 항목 생성(losartan-cardiovascular-disease-open)  <!-- 시험 7건 · 논문 4835편 -->
+- [x] nebivolol — Heart Failure에 듣는다 — 항목 생성(nebivolol-heart-failure-pos)  <!-- 시험 10건 · 논문 254편 -->
+- [x] nebivolol — Angina Pectoris에 듣는다 — 근거 없음(2026-08-06, "nebivolol AND Angina Pectoris")  <!-- 시험 4건 · 논문 32편 -->
+- [x] nebivolol — Erectile Dysfunction에 듣는다 — 근거 없음(2026-08-06, "nebivolol AND Erectile Dysfunction")  <!-- 시험 4건 · 논문 43편 -->
+- [x] nifedipine — Pregnancy에 듣는다 — 항목 생성(nifedipine-pregnancy-open)  <!-- 시험 4건 · 논문 1326편 -->
 - [ ] nifedipine — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 194편 -->
 - [ ] nifedipine — Pre-Eclampsia에 듣는다  <!-- 시험 3건 · 논문 222편 -->
 - [ ] nifedipine — High Altitude에 듣는다  <!-- 시험 3건 · 논문 114편 -->
