@@ -11537,36 +11537,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acceptance and commitment therapy — Stress에 듣는다  <!-- 시험 24건 · 논문 676편 --> — 항목 생성(acceptance-commitment-therapy-stress-pos)
 - [x] acceptance and commitment therapy — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 64편 --> — 항목 생성(acceptance-commitment-therapy-opioid-use-null)
 - [x] acceptance and commitment therapy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 96편 --> — 항목 생성(acceptance-commitment-therapy-diabetes-pos)
-- [ ] acceptance and commitment therapy — Lung Neoplasms에 듣는다  <!-- 시험 13건 · 논문 15편 -->
-- [ ] aerobic exercise — Stroke에 듣는다  <!-- 시험 9건 · 논문 27199편 -->
-- [ ] aerobic exercise — Brain Concussion에 듣는다  <!-- 시험 9건 · 논문 1656편 -->
-- [ ] aerobic exercise — Multiple Sclerosis에 듣는다  <!-- 시험 8건 · 논문 4085편 -->
-- [ ] aerobic exercise — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 5401편 -->
-- [ ] acupressure — Depressive Symptoms에 듣는다  <!-- 시험 8건 · 논문 216편 -->
-- [ ] acupressure — Obesity에 듣는다  <!-- 시험 7건 · 논문 54편 -->
-- [ ] acupressure — Stress에 듣는다  <!-- 시험 7건 · 논문 189편 -->
-- [ ] acupuncture — Obesity에 듣는다  <!-- 시험 12건 · 논문 1024편 -->
-- [ ] acupuncture — Anxiety에 듣는다  <!-- 시험 12건 · 논문 2340편 -->
-- [ ] acupuncture — Infertility에 듣는다  <!-- 시험 11건 · 논문 569편 -->
-- [ ] acupuncture — Stress에 듣는다  <!-- 시험 11건 · 논문 3169편 -->
-- [ ] biofeedback — Knee Injuries에 듣는다  <!-- 시험 17건 · 논문 130편 -->
-- [ ] biofeedback — Pelvic Floor에 듣는다  <!-- 시험 15건 · 논문 1344편 -->
-- [ ] biofeedback — Cancer에 듣는다  <!-- 시험 14건 · 논문 554편 -->
-- [ ] biofeedback — ACL Injury에 듣는다  <!-- 시험 11건 · 논문 94편 -->
-- [ ] breathing meditation — Meditation에 듣는다  <!-- 시험 5건 · 논문 1274편 -->
-- [ ] breathing meditation — Hypertension에 듣는다  <!-- 시험 4건 · 논문 68편 -->
-- [ ] breathing meditation — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 125편 -->
-- [ ] compression stockings — Ankle Sprain에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] compression stockings — Post Thrombotic Syndrome에 듣는다  <!-- 시험 3건 · 논문 312편 -->
-- [ ] alendronate — Heart Transplantation에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] alendronate — Hyperparathyroidism에 듣는다  <!-- 시험 3건 · 논문 96편 -->
-- [ ] alendronate — Spinal Cord Injury에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] anakinra — Inflammation에 듣는다  <!-- 시험 8건 · 논문 2781편 -->
-- [ ] anakinra — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 35편 -->
-- [ ] anakinra — Virus Diseases에 듣는다  <!-- 시험 7건 · 논문 515편 -->
-- [ ] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 -->
-- [ ] bempedoic acid — Diabetes에 듣는다  <!-- 시험 4건 · 논문 160편 -->
-- [ ] bempedoic acid — Atherosclerosis에 듣는다  <!-- 시험 3건 · 논문 202편 -->
+- [x] acceptance and commitment therapy — Lung Neoplasms에 듣는다  <!-- 시험 13건 · 논문 15편 -->
+- [x] aerobic exercise — Stroke에 듣는다  <!-- 시험 9건 · 논문 27199편 --> — 근거 없음(2026-08-06 조회, aerobic exercise AND Stroke)
+- [x] aerobic exercise — Brain Concussion에 듣는다  <!-- 시험 9건 · 논문 1656편 --> — 근거 없음(2026-08-06 조회, aerobic exercise AND Brain Concussion)
+- [x] aerobic exercise — Multiple Sclerosis에 듣는다  <!-- 시험 8건 · 논문 4085편 --> — 근거 없음(2026-08-06 조회, aerobic exercise AND Multiple Sclerosis)
+- [x] aerobic exercise — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 5401편 --> — 근거 없음(2026-08-06 조회, aerobic exercise AND Parkinson Disease)
+- [x] acupressure — Depressive Symptoms에 듣는다  <!-- 시험 8건 · 논문 216편 --> — 근거 없음(2026-08-06 조회, acupressure AND Depressive Symptoms)
+- [x] acupressure — Obesity에 듣는다  <!-- 시험 7건 · 논문 54편 -->
+- [x] acupressure — Stress에 듣는다  <!-- 시험 7건 · 논문 189편 --> — 근거 없음(2026-08-06 조회, acupressure AND Stress)
+- [x] acupuncture — Obesity에 듣는다  <!-- 시험 12건 · 논문 1024편 --> — 근거 없음(2026-08-06 조회, acupuncture AND Obesity)
+- [x] acupuncture — Anxiety에 듣는다  <!-- 시험 12건 · 논문 2340편 --> — 근거 없음(2026-08-06 조회, acupuncture AND Anxiety)
+- [x] acupuncture — Infertility에 듣는다  <!-- 시험 11건 · 논문 569편 -->
+- [x] acupuncture — Stress에 듣는다  <!-- 시험 11건 · 논문 3169편 --> — 근거 없음(2026-08-06 조회, acupuncture AND Stress)
+- [x] biofeedback — Knee Injuries에 듣는다  <!-- 시험 17건 · 논문 130편 -->
+- [x] biofeedback — Pelvic Floor에 듣는다  <!-- 시험 15건 · 논문 1344편 -->
+- [x] biofeedback — Cancer에 듣는다  <!-- 시험 14건 · 논문 554편 --> — 근거 없음(2026-08-06 조회, biofeedback AND Cancer)
+- [x] biofeedback — ACL Injury에 듣는다  <!-- 시험 11건 · 논문 94편 -->
+- [x] breathing meditation — Meditation에 듣는다  <!-- 시험 5건 · 논문 1274편 --> — 근거 없음(2026-08-06 조회, breathing meditation AND Meditation)
+- [x] breathing meditation — Hypertension에 듣는다  <!-- 시험 4건 · 논문 68편 --> — 근거 없음(2026-08-06 조회, breathing meditation AND Hypertension)
+- [x] breathing meditation — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [x] compression stockings — Ankle Sprain에 듣는다  <!-- 시험 3건 · 논문 19편 --> — 근거 없음(2026-08-06 조회, compression stockings AND Ankle Sprain)
+- [x] compression stockings — Post Thrombotic Syndrome에 듣는다  <!-- 시험 3건 · 논문 312편 -->
+- [x] alendronate — Heart Transplantation에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [x] alendronate — Hyperparathyroidism에 듣는다  <!-- 시험 3건 · 논문 96편 --> — 근거 없음(2026-08-06 조회, alendronate AND Hyperparathyroidism)
+- [x] alendronate — Spinal Cord Injury에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [x] anakinra — Inflammation에 듣는다  <!-- 시험 8건 · 논문 2781편 -->
+- [x] anakinra — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 35편 --> — 근거 없음(2026-08-06 조회, anakinra AND Multiple Myeloma)
+- [x] anakinra — Virus Diseases에 듣는다  <!-- 시험 7건 · 논문 515편 -->
+- [x] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 --> — 허가 적응증(2026-08-06)
+- [x] bempedoic acid — Diabetes에 듣는다  <!-- 시험 4건 · 논문 160편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Diabetes)
+- [x] bempedoic acid — Atherosclerosis에 듣는다  <!-- 시험 3건 · 논문 202편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Atherosclerosis)
 - [ ] bisoprolol — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 62편 -->
 - [ ] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 -->
 - [ ] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 -->
