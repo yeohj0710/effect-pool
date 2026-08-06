@@ -10520,13 +10520,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] whole grain diet — Overweight에 듣는다 — 항목 생성(whole-grain-diet-overweight-null)  <!-- 시험 5건 · 논문 682편 -->
 - [x] whole grain diet — Healthy Diet에 듣는다 — 항목 생성(whole-grain-diet-healthy-diet-open)  <!-- 시험 5건 · 논문 1798편 -->
 - [x] low glycemic diet — Obesity에 듣는다 — 항목 생성(low-glycemic-diet-obesity-pos)  <!-- 시험 44건 · 논문 1608편 -->
-- [ ] low glycemic diet — Metabolic Disease에 듣는다  <!-- 시험 17건 · 논문 2943편 -->
-- [ ] low glycemic diet — Overweight에 듣는다  <!-- 시험 16건 · 논문 1187편 -->
-- [ ] low glycemic diet — Glucose Blood에 듣는다  <!-- 시험 12건 · 논문 2530편 -->
-- [ ] animal-assisted therapy — Autism에 듣는다  <!-- 시험 4건 · 논문 148편 -->
-- [ ] animal-assisted therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 301편 -->
-- [ ] animal-assisted therapy — Dementia에 듣는다  <!-- 시험 3건 · 논문 171편 -->
-- [ ] animal-assisted therapy — Advanced Cancer에 듣는다  <!-- 시험 3건 · 논문 146편 -->
+- [x] low glycemic diet — Metabolic Disease에 듣는다 — 항목 생성(low-glycemic-diet-metabolic-disease-pos)  <!-- 시험 17건 · 논문 2943편 -->
+- [x] low glycemic diet — Overweight에 듣는다 — 항목 생성(low-glycemic-diet-overweight-open)  <!-- 시험 16건 · 논문 1187편 -->
+- [x] low glycemic diet — Glucose Blood에 듣는다 — 항목 생성(low-glycemic-diet-glucose-blood-pos)  <!-- 시험 12건 · 논문 2530편 -->
+- [x] animal-assisted therapy — Autism에 듣는다 — 항목 생성(animal-assisted-therapy-autism-open)  <!-- 시험 4건 · 논문 148편 -->
+- [x] animal-assisted therapy — Anxiety에 듣는다 — 항목 생성(animal-assisted-therapy-anxiety-null)  <!-- 시험 4건 · 논문 301편 -->
+- [x] animal-assisted therapy — Dementia에 듣는다 — 항목 생성(animal-assisted-therapy-dementia-open)  <!-- 시험 3건 · 논문 171편 -->
+- [x] animal-assisted therapy — Advanced Cancer에 듣는다 — 항목 생성(animal-assisted-therapy-advanced-cancer-pos)  <!-- 시험 3건 · 논문 146편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10537,29 +10537,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] laughter yoga — Psychological에 듣는다  <!-- 시험 11건 · 논문 188편 -->
-- [ ] laughter yoga — Anxiety에 듣는다  <!-- 시험 9건 · 논문 132편 -->
-- [ ] laughter yoga — Education에 듣는다  <!-- 시험 8건 · 논문 89편 -->
-- [ ] nature-based intervention — Stress에 듣는다  <!-- 시험 5건 · 논문 266편 -->
-- [ ] nature-based intervention — Pain에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] nature-based intervention — Loneliness에 듣는다  <!-- 시험 3건 · 논문 35편 -->
-- [ ] nature-based intervention — Depression에 듣는다  <!-- 시험 3건 · 논문 125편 -->
-- [ ] healthy eating — Child Behavior에 듣는다  <!-- 시험 14건 · 논문 5875편 -->
-- [ ] healthy eating — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 1277편 -->
-- [ ] healthy eating — Dietary Habits에 듣는다  <!-- 시험 6건 · 논문 18412편 -->
-- [ ] healthy eating — Eating에 듣는다  <!-- 시험 6건 · 논문 31527편 -->
-- [ ] fermented foods — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 219편 -->
-- [ ] fermented foods — Microbiome에 듣는다  <!-- 시험 4건 · 논문 3416편 -->
-- [ ] fermented foods — Immune Function에 듣는다  <!-- 시험 3건 · 논문 516편 -->
-- [ ] olive oil — Diabetes에 듣는다  <!-- 시험 15건 · 논문 913편 -->
-- [ ] olive oil — Obesity에 듣는다  <!-- 시험 13건 · 논문 815편 -->
-- [ ] olive oil — Metabolic Syndrome에 듣는다  <!-- 시험 12건 · 논문 270편 -->
-- [ ] olive oil — Mucositis에 듣는다  <!-- 시험 9건 · 논문 226편 -->
-- [ ] plant stanols — Childhood Obesity에 듣는다  <!-- 시험 4건 · 논문 9편 -->
-- [ ] plant stanols — Hyperlipidemias에 듣는다  <!-- 시험 3건 · 논문 160편 -->
-- [ ] walking program — Knee Injury에 듣는다  <!-- 시험 7건 · 논문 406편 -->
-- [ ] walking program — Coronary Artery Disease에 듣는다  <!-- 시험 6건 · 논문 170편 -->
-- [ ] walking program — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 1175편 -->
+- [x] laughter yoga — Psychological에 듣는다 — 항목 생성(laughter-yoga-psychological-pos)  <!-- 시험 11건 · 논문 188편 -->
+- [x] laughter yoga — Anxiety에 듣는다 — 항목 생성(laughter-yoga-anxiety-pos)  <!-- 시험 9건 · 논문 132편 -->
+- [x] laughter yoga — Education에 듣는다 — 항목 생성(laughter-yoga-education-pos)  <!-- 시험 8건 · 논문 89편 -->
+- [x] nature-based intervention — Stress에 듣는다 — 항목 생성(nature-based-intervention-stress-open)  <!-- 시험 5건 · 논문 266편 -->
+- [x] nature-based intervention — Pain에 듣는다 — 근거 없음(2026-08-06, "nature-based intervention" AND pain)  <!-- 시험 4건 · 논문 51편 -->
+- [x] nature-based intervention — Loneliness에 듣는다 — 항목 생성(nature-based-intervention-loneliness-open)  <!-- 시험 3건 · 논문 35편 -->
+- [x] nature-based intervention — Depression에 듣는다 — 항목 생성(nature-based-intervention-depression-open)  <!-- 시험 3건 · 논문 125편 -->
+- [x] healthy eating — Child Behavior에 듣는다 — 항목 생성(healthy-eating-child-behavior-open)  <!-- 시험 14건 · 논문 5875편 -->
+- [x] healthy eating — Breast Cancer에 듣는다 — 항목 생성(healthy-eating-breast-cancer-open)  <!-- 시험 7건 · 논문 1277편 -->
+- [x] healthy eating — Dietary Habits에 듣는다 — 항목 생성(healthy-eating-dietary-habits-open)  <!-- 시험 6건 · 논문 18412편 -->
+- [x] healthy eating — Eating에 듣는다 — 항목 생성(healthy-eating-eating-open)  <!-- 시험 6건 · 논문 31527편 -->
+- [x] fermented foods — Metabolic Syndrome에 듣는다 — 항목 생성(fermented-foods-metabolic-syndrome-open)  <!-- 시험 4건 · 논문 219편 -->
+- [x] fermented foods — Microbiome에 듣는다 — 항목 생성(fermented-foods-microbiome-pos)  <!-- 시험 4건 · 논문 3416편 -->
+- [x] fermented foods — Immune Function에 듣는다 — 항목 생성(fermented-foods-immune-function-pos)  <!-- 시험 3건 · 논문 516편 -->
+- [x] olive oil — Diabetes에 듣는다 — 항목 생성(olive-oil-diabetes-open)  <!-- 시험 15건 · 논문 913편 -->
+- [x] olive oil — Obesity에 듣는다 — 항목 생성(olive-oil-obesity-open)  <!-- 시험 13건 · 논문 815편 -->
+- [x] olive oil — Metabolic Syndrome에 듣는다 — 근거 없음(2026-08-06, olive oil AND metabolic syndrome)  <!-- 시험 12건 · 논문 270편 -->
+- [x] olive oil — Mucositis에 듣는다 — 항목 생성(olive-oil-mucositis-pos)  <!-- 시험 9건 · 논문 226편 -->
+- [x] plant stanols — Childhood Obesity에 듣는다 — 근거 없음(2026-08-06, plant stanols AND childhood obesity)  <!-- 시험 4건 · 논문 9편 -->
+- [x] plant stanols — Hyperlipidemias에 듣는다 — 항목 생성(plant-stanols-hyperlipidemias-pos)  <!-- 시험 3건 · 논문 160편 -->
+- [x] walking program — Knee Injury에 듣는다 — 근거 없음(2026-08-06, walking program AND knee injury)  <!-- 시험 7건 · 논문 406편 -->
+- [x] walking program — Coronary Artery Disease에 듣는다 — 항목 생성(walking-program-coronary-artery-disease-pos)  <!-- 시험 6건 · 논문 170편 -->
+- [x] walking program — Gait Impairment에 듣는다 — 항목 생성(walking-program-gait-impairment-open)  <!-- 시험 5건 · 논문 1175편 -->
 - [ ] walking program — Obesity에 듣는다  <!-- 시험 4건 · 논문 1144편 -->
 - [ ] breathing retraining — Heart Rate에 듣는다  <!-- 시험 3건 · 논문 25편 -->
 - [ ] breathing retraining — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 135편 -->
