@@ -10250,34 +10250,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness — Pain에 듣는다 — 항목 생성(mindfulness-pain-pos)  <!-- 시험 46건 · 논문 2884편 -->
 - [x] mindfulness — Anxiety에 듣는다 — 항목 생성(mindfulness-anxiety-pos)  <!-- 시험 37건 · 논문 6604편 -->
 - [x] mindfulness — Cancer에 듣는다 — 항목 생성(mindfulness-cancer-pos)  <!-- 시험 31건 · 논문 2980편 -->
-- [ ] music therapy — Anxiety에 듣는다  <!-- 시험 99건 · 논문 2468편 -->
-- [ ] music therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 1031편 -->
-- [ ] music therapy — Dementia에 듣는다  <!-- 시험 36건 · 논문 1074편 -->
-- [ ] music therapy — Stress에 듣는다  <!-- 시험 33건 · 논문 1515편 -->
-- [ ] sleep hygiene — Depression에 듣는다  <!-- 시험 18건 · 논문 2631편 -->
-- [ ] sleep hygiene — Pain에 듣는다  <!-- 시험 14건 · 논문 1157편 -->
-- [ ] sleep hygiene — Stress에 듣는다  <!-- 시험 11건 · 논문 1779편 -->
-- [ ] sleep hygiene — Anxiety에 듣는다  <!-- 시험 10건 · 논문 2040편 -->
-- [ ] low carbohydrate diet — Diabetes에 듣는다  <!-- 시험 75건 · 논문 3345편 -->
-- [ ] low carbohydrate diet — Metabolic Disease에 듣는다  <!-- 시험 26건 · 논문 4819편 -->
-- [ ] low carbohydrate diet — Insulin Resistance에 듣는다  <!-- 시험 24건 · 논문 1461편 -->
-- [ ] low carbohydrate diet — Irritable Bowel Syndrome에 듣는다  <!-- 시험 18건 · 논문 313편 -->
-- [ ] vonoprazan — Gastroesophageal Reflux에 듣는다  <!-- 시험 10건 · 논문 204편 -->
-- [ ] vonoprazan — Gastric Ulcer에 듣는다  <!-- 시험 6건 · 논문 121편 -->
-- [ ] vonoprazan — Heartburn에 듣는다  <!-- 시험 4건 · 논문 209편 -->
-- [ ] fezolinetant — Vasomotor Symptoms에 듣는다  <!-- 시험 6건 · 논문 125편 -->
-- [ ] fezolinetant — Menopause에 듣는다  <!-- 시험 3건 · 논문 137편 -->
-- [ ] lecanemab — Alzheimers Disease에 듣는다  <!-- 시험 5건 · 논문 821편 -->
-- [ ] lecanemab — Dementia에 듣는다  <!-- 시험 3건 · 논문 684편 -->
-- [ ] lecanemab — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 220편 -->
-- [ ] donanemab — Nervous System Diseases에 듣는다  <!-- 시험 5건 · 논문 268편 -->
-- [ ] donanemab — Dementia에 듣는다  <!-- 시험 4건 · 논문 348편 -->
-- [ ] donanemab — Brain Diseases에 듣는다  <!-- 시험 3건 · 논문 282편 -->
-- [ ] donanemab — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 120편 -->
-- [ ] ozanimod — Ulcerative Colitis에 듣는다  <!-- 시험 12건 · 논문 182편 -->
-- [ ] ozanimod — Crohn Disease에 듣는다  <!-- 시험 5건 · 논문 74편 -->
-- [ ] deucravacitinib — Psoriatic Arthritis에 듣는다  <!-- 시험 4건 · 논문 63편 -->
-- [ ] deucravacitinib — Systemic Lupus Erythematosus에 듣는다  <!-- 시험 4건 · 논문 40편 -->
-- [ ] deucravacitinib — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 8편 -->
-- [ ] deucravacitinib — Alopecia Areata에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] music therapy — Anxiety에 듣는다 — 항목 생성(music-therapy-anxiety-pos)  <!-- 시험 99건 · 논문 2468편 -->
+- [x] music therapy — Cancer에 듣는다 — 항목 생성(music-therapy-cancer-pos)  <!-- 시험 37건 · 논문 1031편 -->
+- [x] music therapy — Dementia에 듣는다 — 항목 생성(music-therapy-dementia-pos)  <!-- 시험 36건 · 논문 1074편 -->
+- [x] music therapy — Stress에 듣는다 — 항목 생성(music-therapy-stress-pos)  <!-- 시험 33건 · 논문 1515편 -->
+- [x] sleep hygiene — Depression에 듣는다 — 항목 생성(sleep-hygiene-depression-pos)  <!-- 시험 18건 · 논문 2631편 -->
+- [x] sleep hygiene — Pain에 듣는다 — 근거 없음(2026-08-06, sleep hygiene AND Pain)  <!-- 시험 14건 · 논문 1157편 -->
+- [x] sleep hygiene — Stress에 듣는다 — 항목 생성(sleep-hygiene-stress-pos)  <!-- 시험 11건 · 논문 1779편 -->
+- [x] sleep hygiene — Anxiety에 듣는다 — 항목 생성(sleep-hygiene-anxiety-pos)  <!-- 시험 10건 · 논문 2040편 -->
+- [x] low carbohydrate diet — Diabetes에 듣는다 — 항목 생성(low-carbohydrate-diet-diabetes-pos)  <!-- 시험 75건 · 논문 3345편 -->
+- [x] low carbohydrate diet — Metabolic Disease에 듣는다 — 항목 생성(low-carbohydrate-diet-metabolic-disease-pos)  <!-- 시험 26건 · 논문 4819편 -->
+- [x] low carbohydrate diet — Insulin Resistance에 듣는다 — 항목 생성(low-carbohydrate-diet-insulin-resistance-pos)  <!-- 시험 24건 · 논문 1461편 -->
+- [x] low carbohydrate diet — Irritable Bowel Syndrome에 듣는다 — 항목 생성(low-carbohydrate-diet-irritable-bowel-syndrome-pos)  <!-- 시험 18건 · 논문 313편 -->
+- [x] vonoprazan — Gastroesophageal Reflux에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 10건 · 논문 204편 -->
+- [x] vonoprazan — Gastric Ulcer에 듣는다 — 항목 생성(vonoprazan-gastric-ulcer-null)  <!-- 시험 6건 · 논문 121편 -->
+- [x] vonoprazan — Heartburn에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 209편 -->
+- [x] fezolinetant — Vasomotor Symptoms에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 125편 -->
+- [x] fezolinetant — Menopause에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 137편 -->
+- [x] lecanemab — Alzheimers Disease에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 821편 -->
+- [x] lecanemab — Dementia에 듣는다 — 항목 생성(lecanemab-dementia-pos)  <!-- 시험 3건 · 논문 684편 -->
+- [x] lecanemab — Mild Cognitive Impairment에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 220편 -->
+- [x] donanemab — Nervous System Diseases에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 5건 · 논문 268편 -->
+- [x] donanemab — Dementia에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 4건 · 논문 348편 -->
+- [x] donanemab — Brain Diseases에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 3건 · 논문 282편 -->
+- [x] donanemab — Cognitive Impairment에 듣는다 — 항목 생성(donanemab-cognitive-impairment-pos)  <!-- 시험 3건 · 논문 120편 -->
+- [x] ozanimod — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 12건 · 논문 182편 -->
+- [x] ozanimod — Crohn Disease에 듣는다 — 근거 없음(2026-08-06, ozanimod AND Crohn Disease)  <!-- 시험 5건 · 논문 74편 -->
+- [x] deucravacitinib — Psoriatic Arthritis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 4건 · 논문 63편 -->
+- [x] deucravacitinib — Systemic Lupus Erythematosus에 듣는다 — 항목 생성(deucravacitinib-systemic-lupus-erythematosus-pos)  <!-- 시험 4건 · 논문 40편 -->
+- [x] deucravacitinib — Healthy Participants에 듣는다 — 근거 없음(2026-08-06, deucravacitinib Healthy Participants)  <!-- 시험 3건 · 논문 8편 -->
+- [x] deucravacitinib — Alopecia Areata에 듣는다 — 근거 없음(2026-08-06, deucravacitinib AND Alopecia Areata)  <!-- 시험 3건 · 논문 15편 -->
 - [ ] siponimod — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 8편 -->
