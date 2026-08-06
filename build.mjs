@@ -34,6 +34,32 @@ let entries = [];
 const errors = [];
 const warnings = [];
 
+// 허가원문 대조는 사람이 판정을 다시 볼 후보만 알려준다. known/knownWhy를
+// 자동으로 바꾸면 사람이 확인한 판정을 덮어쓰므로, 빌드 경고만 추가한다.
+const crosscheckPath = join(dataDir, "permit-crosscheck.json");
+if (existsSync(crosscheckPath)) {
+  try {
+    const crosscheck = JSON.parse(readFileSync(crosscheckPath, "utf8"));
+    if (!Array.isArray(crosscheck)) {
+      warnings.push("permit-crosscheck.json — 배열이 아니어서 허가원문 경고를 건너뜁니다");
+    } else {
+      crosscheck
+        .filter((row) => row?.판정 === "일치")
+        .forEach((row) => {
+          const count = Number.isInteger(row.매칭품목수) ? row.매칭품목수 : "?";
+          warnings.push(
+            `${row.id ?? "(id 없음)"} — known=${row.known ?? "미기재"}인데 허가원문 대조가 일치합니다` +
+            ` (매칭 품목 ${count}개). 허가 적응증을 사람이 확인하고 판정을 직접 바꾸세요`,
+          );
+        });
+    }
+  } catch (err) {
+    warnings.push(`permit-crosscheck.json — 읽지 못해 허가원문 경고를 건너뜁니다: ${err.message}`);
+  }
+} else {
+  warnings.push("permit-crosscheck.json — 파일이 없어 허가원문 대조 경고를 건너뜁니다");
+}
+
 for (const f of files) {
   try {
     entries.push(JSON.parse(readFileSync(join(entryDir, f), "utf8")));
