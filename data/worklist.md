@@ -11835,36 +11835,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] music improvisation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 36편 -->
-- [ ] music improvisation — Dementia에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] mindful self-compassion — Anxiety에 듣는다  <!-- 시험 17건 · 논문 581편 -->
-- [ ] mindful self-compassion — Mental Health에 듣는다  <!-- 시험 9건 · 논문 681편 -->
-- [ ] mindful self-compassion — Depressive에 듣는다  <!-- 시험 8건 · 논문 665편 -->
-- [ ] lifestyle intervention — Diabetes에 듣는다  <!-- 시험 39건 · 논문 30584편 -->
-- [ ] lifestyle intervention — Cancer에 듣는다  <!-- 시험 23건 · 논문 21142편 -->
-- [ ] lifestyle intervention — Weight Loss에 듣는다  <!-- 시험 13건 · 논문 9901편 -->
-- [ ] lifestyle intervention — Metabolic Syndrome에 듣는다  <!-- 시험 12건 · 논문 6715편 -->
-- [ ] health behavior intervention — Obesity에 듣는다  <!-- 시험 14건 · 논문 28299편 -->
-- [ ] health behavior intervention — HIV에 듣는다  <!-- 시험 14건 · 논문 30413편 -->
-- [ ] health behavior intervention — Behavior에 듣는다  <!-- 시험 14건 · 논문 501934편 -->
-- [ ] health behavior intervention — Diabetes에 듣는다  <!-- 시험 13건 · 논문 25697편 -->
-- [ ] social dance — Dementia에 듣는다  <!-- 시험 5건 · 논문 112편 -->
-- [ ] social dance — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 38편 -->
-- [ ] mindfulness meditation — Anxiety에 듣는다  <!-- 시험 66건 · 논문 5667편 -->
-- [ ] mindfulness meditation — Depression에 듣는다  <!-- 시험 51건 · 논문 6033편 -->
-- [ ] mindfulness meditation — Cancer에 듣는다  <!-- 시험 51건 · 논문 1830편 -->
-- [ ] mindfulness meditation — Pain에 듣는다  <!-- 시험 49건 · 논문 2239편 -->
-- [ ] flaxseed — Diabetes에 듣는다  <!-- 시험 8건 · 논문 309편 -->
-- [ ] flaxseed — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 84편 -->
-- [ ] flaxseed — Insulin에 듣는다  <!-- 시험 5건 · 논문 208편 -->
-- [ ] flaxseed — Hypertension에 듣는다  <!-- 시험 4건 · 논문 99편 -->
-- [ ] garlic extract — Endothelial Dysfunction에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] garlic extract — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 61편 -->
-- [ ] garlic extract — Hypertension에 듣는다  <!-- 시험 3건 · 논문 135편 -->
-- [ ] grape seed extract — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] grape seed extract — Hypertension에 듣는다  <!-- 시험 3건 · 논문 46편 -->
-- [ ] grape seed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 41편 -->
-- [ ] grape seed extract — Elevated Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 45편 -->
+- [x] music improvisation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 36편 --> — 항목 생성(2026-08-06)
+- [x] music improvisation — Dementia에 듣는다  <!-- 시험 4건 · 논문 18편 --> — 항목 생성(2026-08-06)
+- [x] mindful self-compassion — Anxiety에 듣는다  <!-- 시험 17건 · 논문 581편 --> — 항목 생성(2026-08-06)
+- [x] mindful self-compassion — Mental Health에 듣는다  <!-- 시험 9건 · 논문 681편 --> — 항목 생성(2026-08-06)
+- [x] mindful self-compassion — Depressive에 듣는다  <!-- 시험 8건 · 논문 665편 --> — 항목 생성(2026-08-06)
+- [x] lifestyle intervention — Diabetes에 듣는다  <!-- 시험 39건 · 논문 30584편 --> — 항목 생성(2026-08-06)
+- [x] lifestyle intervention — Cancer에 듣는다  <!-- 시험 23건 · 논문 21142편 --> — 항목 생성(2026-08-06)
+- [x] lifestyle intervention — Weight Loss에 듣는다  <!-- 시험 13건 · 논문 9901편 --> — 항목 생성(2026-08-06)
+- [x] lifestyle intervention — Metabolic Syndrome에 듣는다  <!-- 시험 12건 · 논문 6715편 --> — 항목 생성(2026-08-06)
+- [x] health behavior intervention — Obesity에 듣는다  <!-- 시험 14건 · 논문 28299편 --> — 항목 생성(2026-08-06)
+- [x] health behavior intervention — HIV에 듣는다  <!-- 시험 14건 · 논문 30413편 --> — 항목 생성(2026-08-06)
+- [x] health behavior intervention — Behavior에 듣는다  <!-- 시험 14건 · 논문 501934편 --> — 항목 생성(2026-08-06)
+- [x] health behavior intervention — Diabetes에 듣는다  <!-- 시험 13건 · 논문 25697편 --> — 항목 생성(2026-08-06)
+- [x] social dance — Dementia에 듣는다  <!-- 시험 5건 · 논문 112편 --> — 항목 생성(2026-08-06)
+- [x] social dance — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 38편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness meditation — Anxiety에 듣는다  <!-- 시험 66건 · 논문 5667편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness meditation — Depression에 듣는다  <!-- 시험 51건 · 논문 6033편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness meditation — Cancer에 듣는다  <!-- 시험 51건 · 논문 1830편 --> — 항목 생성(2026-08-06)
+- [x] mindfulness meditation — Pain에 듣는다  <!-- 시험 49건 · 논문 2239편 --> — 항목 생성(2026-08-06)
+- [x] flaxseed — Diabetes에 듣는다  <!-- 시험 8건 · 논문 309편 --> — 항목 생성(2026-08-06)
+- [x] flaxseed — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 84편 --> — 항목 생성(2026-08-06)
+- [x] flaxseed — Insulin에 듣는다  <!-- 시험 5건 · 논문 208편 --> — 항목 생성(2026-08-06)
+- [x] flaxseed — Hypertension에 듣는다  <!-- 시험 4건 · 논문 99편 --> — 항목 생성(2026-08-06)
+- [x] garlic extract — Endothelial Dysfunction에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 항목 생성(2026-08-06)
+- [x] garlic extract — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 61편 --> — 항목 생성(2026-08-06)
+- [x] garlic extract — Hypertension에 듣는다  <!-- 시험 3건 · 논문 135편 --> — 항목 생성(2026-08-06)
+- [x] grape seed extract — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 37편 --> — 항목 생성(2026-08-06)
+- [x] grape seed extract — Hypertension에 듣는다  <!-- 시험 3건 · 논문 46편 --> — 항목 생성(2026-08-06)
+- [x] grape seed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 항목 생성(2026-08-06)
+- [x] grape seed extract — Elevated Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 45편 --> — 항목 생성(2026-08-06)
 - [ ] fish oil — Cancer에 듣는다  <!-- 시험 18건 · 논문 4431편 -->
 - [ ] fish oil — Cardiovascular System에 듣는다  <!-- 시험 14건 · 논문 2469편 -->
 - [ ] fish oil — Inflammation에 듣는다  <!-- 시험 13건 · 논문 6137편 -->
