@@ -10610,35 +10610,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] saroglitazar — Primary Biliary Cirrhosis에 듣는다 — 항목 생성(saroglitazar-primary-biliary-cirrhosis-open)  <!-- 시험 5건 · 논문 11편 -->
-- [ ] saroglitazar — NAFLD에 듣는다  <!-- 시험 3건 · 논문 69편 -->
-- [ ] saroglitazar — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 66편 -->
-- [ ] ziltivekimab — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 25편 -->
-- [ ] ziltivekimab — Chronic Kidney Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] forest therapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 602편 -->
-- [ ] forest therapy — Maternal Mental Health에 듣는다  <!-- 시험 4건 · 논문 36편 -->
-- [ ] forest therapy — Depression에 듣는다  <!-- 시험 3건 · 논문 1212편 -->
-- [ ] forest therapy — Attention에 듣는다  <!-- 시험 3건 · 논문 619편 -->
-- [ ] green care — Neoplasms에 듣는다  <!-- 시험 8건 · 논문 2300편 -->
-- [ ] green care — Lymph Node Mapping에 듣는다  <!-- 시험 5건 · 논문 87편 -->
-- [ ] green care — Surgery에 듣는다  <!-- 시험 3건 · 논문 4990편 -->
-- [ ] green care — Prostate Carcinoma에 듣는다  <!-- 시험 3건 · 논문 8편 -->
-- [ ] exercise referral — Pain에 듣는다  <!-- 시험 19건 · 논문 1028편 -->
-- [ ] exercise referral — Physical Therapy에 듣는다  <!-- 시험 11건 · 논문 1834편 -->
-- [ ] exercise referral — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 2200편 -->
-- [ ] social support — HIV에 듣는다  <!-- 시험 6건 · 논문 26160편 -->
-- [ ] social support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 49526편 -->
-- [ ] social support — Heart Diseases에 듣는다  <!-- 시험 4건 · 논문 13454편 -->
-- [ ] social support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 104236편 -->
-- [ ] mind-body therapy — Insomnia에 듣는다  <!-- 시험 3건 · 논문 760편 -->
-- [ ] compassion meditation — Anxiety에 듣는다  <!-- 시험 14건 · 논문 178편 -->
-- [ ] compassion meditation — Depression에 듣는다  <!-- 시험 8건 · 논문 186편 -->
-- [ ] compassion meditation — Burnout에 듣는다  <!-- 시험 8건 · 논문 111편 -->
-- [ ] compassion meditation — Distress, Emotional에 듣는다  <!-- 시험 7건 · 논문 103편 -->
-- [ ] breathing meditation — Sleep Disorder에 듣는다  <!-- 시험 7건 · 논문 32편 -->
-- [ ] breathing meditation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 297편 -->
-- [ ] breathing meditation — Depression에 듣는다  <!-- 시험 5건 · 논문 225편 -->
-- [ ] breathing meditation — Pain에 듣는다  <!-- 시험 5건 · 논문 172편 -->
-- [ ] health literacy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2699편 -->
-- [ ] health literacy — Obesity에 듣는다  <!-- 시험 14건 · 논문 1087편 -->
+- [x] saroglitazar — NAFLD에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 항목 생성(2026-08-06)
+- [x] saroglitazar — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 66편 --> — 항목 생성(2026-08-06)
+- [x] ziltivekimab — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 항목 생성(2026-08-06)
+- [x] ziltivekimab — Chronic Kidney Disease에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(2026-08-06)
+- [x] forest therapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 602편 --> — 항목 생성(2026-08-06)
+- [x] forest therapy — Maternal Mental Health에 듣는다  <!-- 시험 4건 · 논문 36편 --> — 근거 없음(2026-08-06, "forest therapy" AND "maternal mental health")
+- [x] forest therapy — Depression에 듣는다  <!-- 시험 3건 · 논문 1212편 --> — 항목 생성(2026-08-06)
+- [x] forest therapy — Attention에 듣는다  <!-- 시험 3건 · 논문 619편 --> — 근거 없음(2026-08-06, "forest therapy" AND attention)
+- [x] green care — Neoplasms에 듣는다  <!-- 시험 8건 · 논문 2300편 --> — 근거 없음(2026-08-06, "green care" AND Neoplasms)
+- [x] green care — Lymph Node Mapping에 듣는다  <!-- 시험 5건 · 논문 87편 --> — 근거 없음(2026-08-06, "green care" AND "Lymph Node Mapping")
+- [x] green care — Surgery에 듣는다  <!-- 시험 3건 · 논문 4990편 --> — 근거 없음(2026-08-06, "green care" AND Surgery)
+- [x] green care — Prostate Carcinoma에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-06, "green care" AND "Prostate Carcinoma")
+- [x] exercise referral — Pain에 듣는다  <!-- 시험 19건 · 논문 1028편 --> — 항목 생성(2026-08-06)
+- [x] exercise referral — Physical Therapy에 듣는다  <!-- 시험 11건 · 논문 1834편 --> — 항목 생성(2026-08-06)
+- [x] exercise referral — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 2200편 --> — 항목 생성(2026-08-06)
+- [x] social support — HIV에 듣는다  <!-- 시험 6건 · 논문 26160편 --> — 항목 생성(2026-08-06)
+- [x] social support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 49526편 --> — 항목 생성(2026-08-06)
+- [x] social support — Heart Diseases에 듣는다  <!-- 시험 4건 · 논문 13454편 --> — 항목 생성(2026-08-06)
+- [x] social support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 104236편 --> — 항목 생성(2026-08-06)
+- [x] mind-body therapy — Insomnia에 듣는다  <!-- 시험 3건 · 논문 760편 --> — 항목 생성(2026-08-06)
+- [x] compassion meditation — Anxiety에 듣는다  <!-- 시험 14건 · 논문 178편 --> — 항목 생성(2026-08-06)
+- [x] compassion meditation — Depression에 듣는다  <!-- 시험 8건 · 논문 186편 --> — 항목 생성(2026-08-06)
+- [x] compassion meditation — Burnout에 듣는다  <!-- 시험 8건 · 논문 111편 --> — 항목 생성(2026-08-06)
+- [x] compassion meditation — Distress, Emotional에 듣는다  <!-- 시험 7건 · 논문 103편 --> — 근거 없음(2026-08-06, "compassion meditation" AND "Distress, Emotional")
+- [x] breathing meditation — Sleep Disorder에 듣는다  <!-- 시험 7건 · 논문 32편 --> — 근거 없음(2026-08-06, "breathing meditation" AND "Sleep Disorder")
+- [x] breathing meditation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 297편 --> — 항목 생성(2026-08-06)
+- [x] breathing meditation — Depression에 듣는다  <!-- 시험 5건 · 논문 225편 --> — 근거 없음(2026-08-06, "breathing meditation" AND Depression)
+- [x] breathing meditation — Pain에 듣는다  <!-- 시험 5건 · 논문 172편 --> — 근거 없음(2026-08-06, "breathing meditation" AND Pain)
+- [x] health literacy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 2699편 --> — 항목 생성(2026-08-06)
+- [x] health literacy — Obesity에 듣는다  <!-- 시험 14건 · 논문 1087편 --> — 항목 생성(2026-08-06)
 - [ ] health literacy — Distress, Emotional에 듣는다  <!-- 시험 10건 · 논문 622편 -->
 - [ ] health literacy — Hypertension에 듣는다  <!-- 시험 9건 · 논문 1085편 -->
