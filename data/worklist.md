@@ -11270,17 +11270,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aerobic exercise — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 21568편 --> — 항목 생성(aerobic-exercise-heart-failure-pos)
 - [x] aerobic exercise — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 299632편 --> — 근거 없음(2026-08-06, "aerobic exercise AND Motor Activity")
 - [x] aerobic exercise — Obesity에 듣는다  <!-- 시험 10건 · 논문 52718편 --> — 항목 생성(aerobic-exercise-obesity-pos)
-- [ ] aerobic exercise — Cognitive Change에 듣는다  <!-- 시험 10건 · 논문 10117편 -->
-- [ ] balance training — Physical Therapy에 듣는다  <!-- 시험 8건 · 논문 10787편 -->
-- [ ] balance training — Fall Patients에 듣는다  <!-- 시험 7건 · 논문 862편 -->
-- [ ] balance training — Aging에 듣는다  <!-- 시험 5건 · 논문 4660편 -->
-- [ ] balance training — Knee Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 421편 -->
-- [ ] compression stockings — Thrombosis에 듣는다  <!-- 시험 6건 · 논문 1380편 -->
-- [ ] compression stockings — Heart Rate에 듣는다  <!-- 시험 5건 · 논문 88편 -->
-- [ ] compression stockings — Peripheral Arterial Disease에 듣는다  <!-- 시험 5건 · 논문 41편 -->
-- [ ] cold water immersion — Stress에 듣는다  <!-- 시험 4건 · 논문 648편 -->
-- [ ] cold water immersion — Soccer에 듣는다  <!-- 시험 3건 · 논문 43편 -->
-- [ ] cold water immersion — Athletic Performance에 듣는다  <!-- 시험 3건 · 논문 172편 -->
+- [x] aerobic exercise — Cognitive Change에 듣는다  <!-- 시험 10건 · 논문 10117편 --> — 항목 생성(aerobic-exercise-cognitive-change-null)
+- [x] balance training — Physical Therapy에 듣는다  <!-- 시험 8건 · 논문 10787편 --> — 항목 생성(balance-training-physical-therapy-open)
+- [x] balance training — Fall Patients에 듣는다  <!-- 시험 7건 · 논문 862편 --> — 항목 생성(balance-training-fall-patients-pos)
+- [x] balance training — Aging에 듣는다  <!-- 시험 5건 · 논문 4660편 --> — 근거 없음(2026-08-06, "balance training AND Aging")
+- [x] balance training — Knee Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 421편 --> — 항목 생성(balance-training-knee-osteoarthritis-open)
+- [x] compression stockings — Thrombosis에 듣는다  <!-- 시험 6건 · 논문 1380편 --> — 항목 생성(compression-stockings-thrombosis-pos)
+- [x] compression stockings — Heart Rate에 듣는다  <!-- 시험 5건 · 논문 88편 --> — 근거 없음(2026-08-06, "compression stockings AND Heart Rate")
+- [x] compression stockings — Peripheral Arterial Disease에 듣는다  <!-- 시험 5건 · 논문 41편 --> — 항목 생성(compression-stockings-peripheral-arterial-disease-open)
+- [x] cold water immersion — Stress에 듣는다  <!-- 시험 4건 · 논문 648편 --> — 항목 생성(cold-water-immersion-stress-open)
+- [x] cold water immersion — Soccer에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 항목 생성(cold-water-immersion-soccer-null)
+- [x] cold water immersion — Athletic Performance에 듣는다  <!-- 시험 3건 · 논문 172편 --> — 항목 생성(cold-water-immersion-athletic-performance-open)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11291,10 +11291,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] intermittent fasting — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 50편 -->
-- [ ] intermittent fasting — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 28편 -->
-- [ ] intermittent fasting — Overweight에 듣는다  <!-- 시험 5건 · 논문 736편 -->
-- [ ] intermittent fasting — Hypertension에 듣는다  <!-- 시험 5건 · 논문 173편 -->
+- [x] intermittent fasting — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 50편 --> — 항목 생성(intermittent-fasting-breast-cancer-open)
+- [x] intermittent fasting — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 28편 --> — 항목 생성(intermittent-fasting-polycystic-ovary-syndrome-pos)
+- [x] intermittent fasting — Overweight에 듣는다  <!-- 시험 5건 · 논문 736편 --> — 항목 생성(intermittent-fasting-overweight-open)
+- [x] intermittent fasting — Hypertension에 듣는다  <!-- 시험 5건 · 논문 173편 --> — 근거 없음(2026-08-06, "intermittent fasting AND Hypertension")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11305,21 +11305,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acetaminophen — Lymphoma에 듣는다  <!-- 시험 11건 · 논문 105편 -->
-- [ ] acetaminophen — Cancer에 듣는다  <!-- 시험 11건 · 논문 2298편 -->
-- [ ] acetaminophen — Nausea에 듣는다  <!-- 시험 9건 · 논문 1280편 -->
-- [ ] adenosine — Leukemia에 듣는다  <!-- 시험 6건 · 논문 7094편 -->
-- [ ] adenosine — Atrial Fibrillation에 듣는다  <!-- 시험 4건 · 논문 846편 -->
-- [ ] adenosine — Cough에 듣는다  <!-- 시험 3건 · 논문 300편 -->
-- [ ] allopurinol — Uric Acid에 듣는다  <!-- 시험 6건 · 논문 3288편 -->
-- [ ] allopurinol — Renal Function에 듣는다  <!-- 시험 6건 · 논문 1594편 -->
-- [ ] allopurinol — Multiple Myeloma에 듣는다  <!-- 시험 5건 · 논문 42편 -->
-- [ ] apixaban — Cancer에 듣는다  <!-- 시험 20건 · 논문 714편 -->
-- [ ] apixaban — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 340편 -->
-- [ ] apixaban — Bleeding에 듣는다  <!-- 시험 13건 · 논문 4077편 -->
-- [ ] apixaban — Aortic Stenosis에 듣는다  <!-- 시험 13건 · 논문 30편 -->
-- [ ] atorvastatin — Dyslipidemias에 듣는다  <!-- 시험 16건 · 논문 2990편 -->
-- [ ] atorvastatin — Angina에 듣는다  <!-- 시험 12건 · 논문 344편 -->
+- [x] acetaminophen — Lymphoma에 듣는다  <!-- 시험 11건 · 논문 105편 --> — 근거 없음(2026-08-06, "acetaminophen AND Lymphoma")
+- [x] acetaminophen — Cancer에 듣는다  <!-- 시험 11건 · 논문 2298편 --> — 근거 없음(2026-08-06, "acetaminophen AND Cancer")
+- [x] acetaminophen — Nausea에 듣는다  <!-- 시험 9건 · 논문 1280편 --> — 항목 생성(acetaminophen-nausea-pos)
+- [x] adenosine — Leukemia에 듣는다  <!-- 시험 6건 · 논문 7094편 --> — 근거 없음(2026-08-06, "adenosine AND Leukemia")
+- [x] adenosine — Atrial Fibrillation에 듣는다  <!-- 시험 4건 · 논문 846편 --> — 항목 생성(adenosine-atrial-fibrillation-pos)
+- [x] adenosine — Cough에 듣는다  <!-- 시험 3건 · 논문 300편 --> — 근거 없음(2026-08-06, "adenosine AND Cough")
+- [x] allopurinol — Uric Acid에 듣는다  <!-- 시험 6건 · 논문 3288편 --> — 허가 적응증(2026-08-06)
+- [x] allopurinol — Renal Function에 듣는다  <!-- 시험 6건 · 논문 1594편 --> — 항목 생성(allopurinol-renal-function-pos)
+- [x] allopurinol — Multiple Myeloma에 듣는다  <!-- 시험 5건 · 논문 42편 --> — 항목 생성(allopurinol-multiple-myeloma-harm)
+- [x] apixaban — Cancer에 듣는다  <!-- 시험 20건 · 논문 714편 --> — 항목 생성(apixaban-cancer-pos)
+- [x] apixaban — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 340편 --> — 근거 없음(2026-08-06, "apixaban AND Heart Failure")
+- [x] apixaban — Bleeding에 듣는다  <!-- 시험 13건 · 논문 4077편 --> — 항목 생성(apixaban-bleeding-pos)
+- [x] apixaban — Aortic Stenosis에 듣는다  <!-- 시험 13건 · 논문 30편 --> — 항목 생성(apixaban-aortic-stenosis-open)
+- [x] atorvastatin — Dyslipidemias에 듣는다  <!-- 시험 16건 · 논문 2990편 --> — 허가 적응증(2026-08-06)
+- [x] atorvastatin — Angina에 듣는다  <!-- 시험 12건 · 논문 344편 --> — 항목 생성(atorvastatin-angina-pos)
 - [ ] atorvastatin — Inflammation에 듣는다  <!-- 시험 10건 · 논문 1399편 -->
 - [ ] atorvastatin — Platelet Dysfunction에 듣는다  <!-- 시험 9건 · 논문 58편 -->
 - [ ] celecoxib — Arthritis에 듣는다  <!-- 시험 17건 · 논문 1363편 -->
