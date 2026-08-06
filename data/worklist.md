@@ -12385,36 +12385,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sleep restriction therapy — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 186편 -->
-- [ ] sleep restriction therapy — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 115편 -->
-- [ ] sleep restriction therapy — Depression에 듣는다  <!-- 시험 5건 · 논문 439편 -->
-- [ ] sleep restriction therapy — Alcohol Dependence에 듣는다  <!-- 시험 5건 · 논문 10편 -->
-- [ ] supportive psychotherapy — Depressive Disorder에 듣는다  <!-- 시험 12건 · 논문 10274편 -->
-- [ ] supportive psychotherapy — Anxiety에 듣는다  <!-- 시험 11건 · 논문 18940편 -->
-- [ ] supportive psychotherapy — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 5612편 -->
-- [ ] psychoeducation — Psychological에 듣는다  <!-- 시험 11건 · 논문 4671편 -->
-- [ ] psychoeducation — Substance Use에 듣는다  <!-- 시험 11건 · 논문 899편 -->
-- [ ] psychoeducation — Anxiety에 듣는다  <!-- 시험 10건 · 논문 2567편 -->
-- [ ] psychoeducation — Caregiver Burden에 듣는다  <!-- 시험 10건 · 논문 414편 -->
-- [ ] problem solving training — Depression에 듣는다  <!-- 시험 9건 · 논문 1128편 -->
-- [ ] problem solving training — Stress에 듣는다  <!-- 시험 6건 · 논문 1274편 -->
-- [ ] problem solving training — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 20편 -->
-- [ ] problem solving training — Recovery of Function에 듣는다  <!-- 시험 5건 · 논문 48편 -->
-- [ ] behavioral sleep therapy — Sleep에 듣는다  <!-- 시험 53건 · 논문 41581편 -->
-- [ ] behavioral sleep therapy — Depression에 듣는다  <!-- 시험 21건 · 논문 11193편 -->
-- [ ] behavioral sleep therapy — Pain에 듣는다  <!-- 시험 15건 · 논문 5592편 -->
-- [ ] behavioral sleep therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 3364편 -->
-- [ ] strength training — Stroke에 듣는다  <!-- 시험 7건 · 논문 2581편 -->
-- [ ] strength training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 560편 -->
-- [ ] strength training — Colon Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 -->
-- [ ] strength training — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 1099편 -->
-- [ ] percussion therapy — Pain에 듣는다  <!-- 시험 5건 · 논문 465편 -->
-- [ ] percussion therapy — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 97편 -->
-- [ ] percussion therapy — Muscle에 듣는다  <!-- 시험 4건 · 논문 174편 -->
-- [ ] virtual reality therapy — Anxiety에 듣는다  <!-- 시험 87건 · 논문 1583편 -->
-- [ ] virtual reality therapy — Stroke에 듣는다  <!-- 시험 58건 · 논문 1115편 -->
-- [ ] virtual reality therapy — Cancer에 듣는다  <!-- 시험 30건 · 논문 480편 -->
-- [ ] virtual reality therapy — Music Therapy에 듣는다  <!-- 시험 18건 · 논문 221편 -->
+- [x] sleep restriction therapy — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 186편 --> — 근거 없음(2026-08-06, sleep restriction therapy AND Cognitive Disorder)
+- [x] sleep restriction therapy — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 115편 --> — 근거 없음(2026-08-06, sleep restriction therapy AND Chronic Pain)
+- [x] sleep restriction therapy — Depression에 듣는다  <!-- 시험 5건 · 논문 439편 --> — 근거 없음(2026-08-06, sleep restriction therapy AND Depression)
+- [x] sleep restriction therapy — Alcohol Dependence에 듣는다  <!-- 시험 5건 · 논문 10편 --> — 근거 없음(2026-08-06, sleep restriction therapy AND Alcohol Dependence)
+- [x] supportive psychotherapy — Depressive Disorder에 듣는다  <!-- 시험 12건 · 논문 10274편 --> — 근거 없음(2026-08-06, supportive psychotherapy AND Depressive Disorder; 등록시험 결과 미공개)
+- [x] supportive psychotherapy — Anxiety에 듣는다  <!-- 시험 11건 · 논문 18940편 --> — 근거 없음(2026-08-06, supportive psychotherapy AND Anxiety)
+- [x] supportive psychotherapy — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 5612편 --> — 근거 없음(2026-08-06, supportive psychotherapy AND Schizophrenia; 등록시험 결과 미공개)
+- [x] psychoeducation — Psychological에 듣는다  <!-- 시험 11건 · 논문 4671편 --> — 항목 생성(2026-08-06)
+- [x] psychoeducation — Substance Use에 듣는다  <!-- 시험 11건 · 논문 899편 --> — 근거 없음(2026-08-06, psychoeducation AND Substance Use; 등록시험 결과 미공개)
+- [x] psychoeducation — Anxiety에 듣는다  <!-- 시험 10건 · 논문 2567편 --> — 근거 없음(2026-08-06, psychoeducation AND Anxiety; 등록시험 결과 미공개)
+- [x] psychoeducation — Caregiver Burden에 듣는다  <!-- 시험 10건 · 논문 414편 --> — 항목 생성(2026-08-06)
+- [x] problem solving training — Depression에 듣는다  <!-- 시험 9건 · 논문 1128편 --> — 항목 생성(2026-08-06)
+- [x] problem solving training — Stress에 듣는다  <!-- 시험 6건 · 논문 1274편 --> — 항목 생성(2026-08-06)
+- [x] problem solving training — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 20편 --> — 항목 생성(2026-08-06)
+- [x] problem solving training — Recovery of Function에 듣는다  <!-- 시험 5건 · 논문 48편 --> — 항목 생성(2026-08-06)
+- [x] behavioral sleep therapy — Sleep에 듣는다  <!-- 시험 53건 · 논문 41581편 --> — 근거 없음(2026-08-06, behavioral sleep therapy AND Sleep)
+- [x] behavioral sleep therapy — Depression에 듣는다  <!-- 시험 21건 · 논문 11193편 --> — 항목 생성(2026-08-06)
+- [x] behavioral sleep therapy — Pain에 듣는다  <!-- 시험 15건 · 논문 5592편 --> — 근거 없음(2026-08-06, behavioral sleep therapy AND Pain)
+- [x] behavioral sleep therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 3364편 --> — 항목 생성(2026-08-06)
+- [x] strength training — Stroke에 듣는다  <!-- 시험 7건 · 논문 2581편 --> — 항목 생성(2026-08-06)
+- [x] strength training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 560편 --> — 항목 생성(2026-08-06)
+- [x] strength training — Colon Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 --> — 항목 생성(2026-08-06)
+- [x] strength training — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 1099편 --> — 항목 생성(2026-08-06)
+- [x] percussion therapy — Pain에 듣는다  <!-- 시험 5건 · 논문 465편 --> — 항목 생성(2026-08-06)
+- [x] percussion therapy — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 97편 --> — 항목 생성(2026-08-06)
+- [x] percussion therapy — Muscle에 듣는다  <!-- 시험 4건 · 논문 174편 --> — 항목 생성(2026-08-06)
+- [x] virtual reality therapy — Anxiety에 듣는다  <!-- 시험 87건 · 논문 1583편 --> — 항목 생성(2026-08-06)
+- [x] virtual reality therapy — Stroke에 듣는다  <!-- 시험 58건 · 논문 1115편 --> — 항목 생성(2026-08-06)
+- [x] virtual reality therapy — Cancer에 듣는다  <!-- 시험 30건 · 논문 480편 --> — 항목 생성(2026-08-06)
+- [x] virtual reality therapy — Music Therapy에 듣는다  <!-- 시험 18건 · 논문 221편 --> — 근거 없음(2026-08-06, virtual reality therapy AND Music Therapy; 등록시험 결과 미공개)
 - [ ] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 -->
 - [ ] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 -->
 - [ ] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 -->
