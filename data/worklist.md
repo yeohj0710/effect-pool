@@ -12856,11 +12856,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online support group — Anxiety에 듣는다  <!-- 시험 9건 · 논문 2637편 -->
 - [x] virtual coaching — Health Behavior에 듣는다  <!-- 시험 7건 · 논문 169편 -->
 - [x] behavioral weight management — Lung Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=behavioral weight management AND cond=Lung Cancer; PubMed behavioral weight management AND Lung Cancer)  <!-- 시험 47건 · 논문 396편 -->
-- [ ] behavioral weight management — Weight에 듣는다  <!-- 시험 28건 · 논문 52247편 -->
-- [ ] behavioral weight management — Overweight에 듣는다  <!-- 시험 9건 · 논문 17938편 -->
-- [ ] behavioral weight management — Diabetes에 듣는다  <!-- 시험 6건 · 논문 8004편 -->
-- [ ] satralizumab — NMOSD에 듣는다  <!-- 시험 5건 · 논문 164편 -->
-- [ ] ublituximab — Multiple Sclerosis에 듣는다  <!-- 시험 16건 · 논문 80편 -->
-- [ ] ublituximab — B-cell Lymphoma에 듣는다  <!-- 시험 14건 · 논문 15편 -->
-- [ ] gantenerumab — Alzheimers Disease에 듣는다  <!-- 시험 7건 · 논문 181편 -->
-- [ ] gantenerumab — Dementia에 듣는다  <!-- 시험 3건 · 논문 153편 -->
+- [x] behavioral weight management — Weight에 듣는다  <!-- 시험 28건 · 논문 52247편 -->
+- [x] behavioral weight management — Overweight에 듣는다  <!-- 시험 9건 · 논문 17938편 -->
+- [x] behavioral weight management — Diabetes에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=behavioral weight management AND cond=Diabetes; PubMed behavioral weight management AND Diabetes)  <!-- 시험 6건 · 논문 8004편 -->
+- [x] satralizumab — NMOSD에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 164편 -->
+- [x] ublituximab — Multiple Sclerosis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 16건 · 논문 80편 -->
+- [x] ublituximab — B-cell Lymphoma에 듣는다  <!-- 시험 14건 · 논문 15편 -->
+- [x] gantenerumab — Alzheimers Disease에 듣는다  <!-- 시험 7건 · 논문 181편 -->
+- [x] gantenerumab — Dementia에 듣는다  <!-- 시험 3건 · 논문 153편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] implementation intentions — Breast Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=implementation intentions AND cond=Breast Cancer; PubMed implementation intentions AND Breast Cancer)  <!-- 시험 6건 · 논문 136편 -->
+- [x] implementation intentions — Obesity에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=implementation intentions AND cond=Obesity; PubMed implementation intentions AND Obesity)  <!-- 시험 5건 · 논문 212편 -->
+- [x] implementation intentions — Health Behavior에 듣는다  <!-- 시험 5건 · 논문 2011편 -->
+- [x] implementation intentions — Smoking Cessation에 듣는다  <!-- 시험 3건 · 논문 188편 -->
+- [x] goal setting — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 1062편 -->
+- [x] goal setting — Obesity에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=goal setting AND cond=Obesity; PubMed goal setting AND Obesity)  <!-- 시험 4건 · 논문 1572편 -->
+- [x] goal setting — Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=goal setting AND cond=Cancer; PubMed goal setting AND Cancer)  <!-- 시험 4건 · 논문 5721편 -->
+- [x] goal setting — Endometrial Carcinoma에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=goal setting AND cond=Endometrial Carcinoma; PubMed goal setting AND Endometrial Carcinoma)  <!-- 시험 4건 · 논문 43편 -->
+- [x] social connection intervention — Suicide Ideation에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=social connection intervention AND cond=Suicide Ideation; PubMed social connection intervention AND Suicide Ideation)  <!-- 시험 3건 · 논문 286편 -->
+- [x] social connection intervention — Colorectal Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=social connection intervention AND cond=Colorectal Cancer; PubMed social connection intervention AND Colorectal Cancer)  <!-- 시험 3건 · 논문 81편 -->
+- [x] social connection intervention — Wellbeing에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=social connection intervention AND cond=Wellbeing; PubMed social connection intervention AND Wellbeing)  <!-- 시험 3건 · 논문 3933편 -->
+- [x] social connection intervention — Disordered Eating에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=social connection intervention AND cond=Disordered Eating; PubMed social connection intervention AND Disordered Eating)  <!-- 시험 3건 · 논문 57편 -->
+- [x] self compassion practice — Depression에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self compassion practice AND cond=Depression; PubMed self compassion practice AND Depression)  <!-- 시험 7건 · 논문 281편 -->
+- [x] self compassion practice — Anxiety에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self compassion practice AND cond=Anxiety; PubMed self compassion practice AND Anxiety)  <!-- 시험 6건 · 논문 274편 -->
+- [x] self compassion practice — Mindfulness에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self compassion practice AND cond=Mindfulness; PubMed self compassion practice AND Mindfulness)  <!-- 시험 6건 · 논문 583편 -->
+- [x] self compassion practice — Well-being에 듣는다  <!-- 시험 6건 · 논문 1345편 -->
+- [x] self efficacy training — Foot Care에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self efficacy training AND cond=Foot Care; PubMed self efficacy training AND Foot Care)  <!-- 시험 8건 · 논문 176편 -->
+- [x] self efficacy training — Anxiety에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self efficacy training AND cond=Anxiety; PubMed self efficacy training AND Anxiety)  <!-- 시험 6건 · 논문 4015편 -->
+- [x] self efficacy training — Diabetes에 듣는다  <!-- 시험 6건 · 논문 2596편 -->
+- [x] self efficacy training — Memory Dysfunction에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=self efficacy training AND cond=Memory Dysfunction; PubMed self efficacy training AND Memory Dysfunction)  <!-- 시험 6건 · 논문 132편 -->
+- [x] patient activation training — Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation training AND cond=Cancer; PubMed patient activation training AND Cancer)  <!-- 시험 4건 · 논문 6346편 -->
+- [x] patient activation training — Manual Therapy에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation training AND cond=Manual Therapy; PubMed patient activation training AND Manual Therapy)  <!-- 시험 3건 · 논문 219편 -->
