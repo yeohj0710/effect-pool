@@ -1,0 +1,28 @@
+{
+  "id": "osilodrostat-adrenal-adenoma-pos",
+  "subj": "오실로드로스타트",
+  "claim": "오실로드로스타트가 부신선종에 의한 쿠싱증후군의 코르티솔을 낮춘다",
+  "line": "부신선종 쿠싱증후군 실제진료 자료에서 오실로드로스타트 뒤 코르티솔이 감소했습니다.",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 42,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "미국 허가사항은 성인 내인성 쿠싱증후군의 고코르티솔혈증을 적응증으로 하지만 부신선종 원인군을 별도 적응증으로 명시하지 않습니다.",
+  "why": "실제진료 후향자료에서 쿠싱증후군 원인별 결과를 분리해 부신선종 환자의 코르티솔 변화를 보고했습니다.",
+  "saw": "오실로드로스타트를 사용한 미국 성인 쿠싱증후군 42명 중 부신선종 원인은 5명이었습니다. 평가 가능한 부신선종 환자 2명 모두 치료 중 소변 유리 코르티솔이 감소했습니다.",
+  "limit": "후향 관찰자료이고 부신선종 환자는 5명, 코르티솔 결과가 있는 환자는 2명뿐이며 비교군이 없습니다.",
+  "against": "부신선종 원인군의 장기 종양 결과와 재발 결과는 제시하지 않았습니다.",
+  "use": "수술이 어렵거나 추가 치료가 필요한 부신선종 쿠싱증후군에서 코르티솔 조절 후보를 평가할 때 소규모 관찰근거로만 봅니다.",
+  "effect": "평가 가능한 2명 모두 코르티솔 감소",
+  "refs": [
+    { "label": "쿠싱증후군 실제진료 후향연구", "doi": "10.1210/jendso/bvaf046", "pmid": "40226519", "pmc": "PMC11986586" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=osilodrostat · cond=Adrenal Adenoma · 4건 반환, 중재명 일치 3건",
+    "pubmed": "osilodrostat AND Adrenal Adenoma AND (randomized OR trial OR meta-analysis) · 11편",
+    "negative": "osilodrostat AND Adrenal Adenoma AND (no effect OR did not OR failed OR negative OR no significant difference) · 8편",
+    "safety": "osilodrostat AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 84편"
+  }
+}
