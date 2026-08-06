@@ -10355,3 +10355,67 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] faricimab — Macular Edema에 듣는다  <!-- 시험 23건 · 논문 248편 -->
 - [ ] faricimab — Retinal Vein Occlusion에 듣는다  <!-- 시험 9건 · 논문 62편 -->
 - [ ] faricimab — Choroidal Neovascularization에 듣는다  <!-- 시험 6건 · 논문 73편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] acceptance and commitment therapy — Pain에 듣는다  <!-- 시험 58건 · 논문 592편 -->
+- [ ] acceptance and commitment therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 388편 -->
+- [ ] acceptance and commitment therapy — Depression에 듣는다  <!-- 시험 28건 · 논문 1077편 -->
+- [ ] acceptance and commitment therapy — Distress에 듣는다  <!-- 시험 28건 · 논문 608편 -->
+- [ ] dialectical behavior therapy — Suicide에 듣는다  <!-- 시험 12건 · 논문 549편 -->
+- [ ] dialectical behavior therapy — Bulimia Nervosa에 듣는다  <!-- 시험 11건 · 논문 39편 -->
+- [ ] dialectical behavior therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 49편 -->
+- [ ] dialectical behavior therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 452편 -->
+- [ ] exposure therapy — Anxiety에 듣는다  <!-- 시험 15건 · 논문 6964편 -->
+- [ ] exposure therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 6103편 -->
+- [ ] exposure therapy — PTSD에 듣는다  <!-- 시험 11건 · 논문 3906편 -->
+- [ ] exposure therapy — Chronic Pain에 듣는다  <!-- 시험 11건 · 논문 2090편 -->
+- [ ] occupational therapy — Cognitive에 듣는다  <!-- 시험 16건 · 논문 9422편 -->
+- [ ] occupational therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 6928편 -->
+- [ ] occupational therapy — Hand Injury에 듣는다  <!-- 시험 11건 · 논문 1555편 -->
+- [ ] occupational therapy — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 42977편 -->
+- [ ] speech therapy — Stroke에 듣는다  <!-- 시험 20건 · 논문 2860편 -->
+- [ ] speech therapy — Language Delay에 듣는다  <!-- 시험 8건 · 논문 3189편 -->
+- [ ] speech therapy — Deafness에 듣는다  <!-- 시험 7건 · 논문 1579편 -->
+- [ ] speech therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1399편 -->
+- [ ] light therapy — Cancer에 듣는다  <!-- 시험 12건 · 논문 57257편 -->
+- [ ] light therapy — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 586편 -->
+- [ ] light therapy — Acute Pain에 듣는다  <!-- 시험 8건 · 논문 817편 -->
+- [ ] light therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 7건 · 논문 860편 -->
+- [ ] virtual reality — Anxiety에 듣는다  <!-- 시험 92건 · 논문 3130편 -->
+- [ ] virtual reality — Stroke에 듣는다  <!-- 시험 41건 · 논문 1831편 -->
+- [ ] virtual reality — Cancer에 듣는다  <!-- 시험 26건 · 논문 1683편 -->
+- [ ] virtual reality — Surgery에 듣는다  <!-- 시험 13건 · 논문 7332편 -->
+- [ ] Mediterranean diet — Metabolic Syndrome에 듣는다  <!-- 시험 30건 · 논문 1027편 -->
+- [ ] Mediterranean diet — Liver Fat에 듣는다  <!-- 시험 29건 · 논문 285편 -->
+- [ ] Mediterranean diet — Diabetes에 듣는다  <!-- 시험 28건 · 논문 2512편 -->
+- [ ] Mediterranean diet — Cardiovascular Risk에 듣는다  <!-- 시험 22건 · 논문 3018편 -->
+- [ ] ketogenic diet — Epilepsy에 듣는다  <!-- 시험 30건 · 논문 2752편 -->
+- [ ] ketogenic diet — Bipolar Disorder에 듣는다  <!-- 시험 23건 · 논문 57편 -->
+- [ ] ketogenic diet — Cancer에 듣는다  <!-- 시험 19건 · 논문 858편 -->
+- [ ] ketogenic diet — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 2042편 -->
+- [ ] breathing exercises — Asthma에 듣는다  <!-- 시험 9건 · 논문 494편 -->
+- [ ] breathing exercises — Hypertension에 듣는다  <!-- 시험 7건 · 논문 275편 -->
+- [ ] breathing exercises — Respiratory Muscle에 듣는다  <!-- 시험 5건 · 논문 1719편 -->
+- [ ] breathing exercises — Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 160편 -->
+- [ ] health coaching — Obesity에 듣는다  <!-- 시험 30건 · 논문 1243편 -->
+- [ ] health coaching — Cancer에 듣는다  <!-- 시험 28건 · 논문 1701편 -->
+- [ ] health coaching — Hypertension에 듣는다  <!-- 시험 15건 · 논문 447편 -->
+- [ ] health coaching — Cardiovascular Disease에 듣는다  <!-- 시험 11건 · 논문 1191편 -->
+- [ ] behavioral activation — Depressive Episode에 듣는다  <!-- 시험 37건 · 논문 2851편 -->
+- [ ] behavioral activation — Anxiety에 듣는다  <!-- 시험 29건 · 논문 53880편 -->
+- [ ] behavioral activation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 14749편 -->
+- [ ] behavioral activation — Cancer에 듣는다  <!-- 시험 15건 · 논문 112662편 -->
+- [ ] motivational interviewing — Smoking에 듣는다  <!-- 시험 23건 · 논문 743편 -->
+- [ ] motivational interviewing — Substance Use에 듣는다  <!-- 시험 18건 · 논문 1877편 -->
+- [ ] motivational interviewing — Tobacco Use에 듣는다  <!-- 시험 18건 · 논문 444편 -->
+- [ ] motivational interviewing — Cancer에 듣는다  <!-- 시험 17건 · 논문 457편 -->
+- [ ] ensifentrine — COPD에 듣는다  <!-- 시험 3건 · 논문 86편 -->
+- [ ] pelacarsen — Atherosclerotic Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 56편 -->
