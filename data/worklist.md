@@ -12961,3 +12961,62 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] alfa — Hemophilia A에 듣는다 — 근거 없음(2026-08-06, 확장 입력 오류로 "sebelipase alfa"가 alfa 단독 이름으로 생성됨; 검색하지 않음)  <!-- 시험 41건 · 논문 425편 -->
 - [x] alfa — Hepatitis C에 듣는다 — 근거 없음(2026-08-06, 확장 입력 오류로 "sebelipase alfa"가 alfa 단독 이름으로 생성됨; 검색하지 않음)  <!-- 시험 41건 · 논문 5853편 -->
 - [x] alfa — Melanoma에 듣는다 — 근거 없음(2026-08-06, 확장 입력 오류로 "sebelipase alfa"가 alfa 단독 이름으로 생성됨; 검색하지 않음)  <!-- 시험 31건 · 논문 460편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] pain neuroscience education — Osteoarthritis에 듣는다  <!-- 시험 13건 · 논문 164편 -->
+- [x] pain neuroscience education — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 66편 -->
+- [x] pain neuroscience education — Kinesiophobia에 듣는다  <!-- 시험 5건 · 논문 157편 -->
+- [x] remote patient monitoring — Diabetes에 듣는다  <!-- 시험 27건 · 논문 673편 -->
+- [x] remote patient monitoring — Cancer에 듣는다  <!-- 시험 15건 · 논문 735편 -->
+- [x] remote patient monitoring — Cardiac Disease에 듣는다  <!-- 시험 13건 · 논문 1287편 -->
+- [x] remote patient monitoring — Hypertension에 듣는다  <!-- 시험 12건 · 논문 526편 -->
+- [x] mobile health intervention — Cancer에 듣는다  <!-- 시험 19건 · 논문 8847편 -->
+- [x] mobile health intervention — Depression에 듣는다  <!-- 시험 13건 · 논문 6188편 -->
+- [x] mobile health intervention — Child Health에 듣는다  <!-- 시험 13건 · 논문 9010편 -->
+- [x] mobile health intervention — HIV에 듣는다  <!-- 시험 12건 · 논문 3217편 -->
+- [x] text message intervention — HIV에 듣는다  <!-- 시험 19건 · 논문 789편 -->
+- [x] text message intervention — Health Behavior에 듣는다  <!-- 시험 19건 · 논문 3324편 -->
+- [x] text message intervention — Smoking에 듣는다  <!-- 시험 14건 · 논문 779편 -->
+- [x] text message intervention — Diabetes에 듣는다  <!-- 시험 13건 · 논문 729편 -->
+- [x] web-based intervention — Anxiety에 듣는다  <!-- 시험 9건 · 논문 2954편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov web-based intervention AND Anxiety; PubMed web-based intervention AND Anxiety)
+- [x] web-based intervention — Tobacco Cessation에 듣는다  <!-- 시험 7건 · 논문 289편 -->
+- [x] web-based intervention — Obesity에 듣는다  <!-- 시험 6건 · 논문 1187편 -->
+- [x] web-based intervention — Depression에 듣는다  <!-- 시험 5건 · 논문 3875편 -->
+- [x] digital peer support — Health Education에 듣는다  <!-- 시험 5건 · 논문 1171편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov digital peer support AND Health Education; PubMed digital peer support AND Health Education)
+- [x] digital peer support — HIV Stigma에 듣는다  <!-- 시험 4건 · 논문 43편 -->
+- [x] digital peer support — COVID-19에 듣는다  <!-- 시험 3건 · 논문 374편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov digital peer support AND COVID-19; PubMed digital peer support AND COVID-19)
+- [x] online peer support — Depression에 듣는다  <!-- 시험 7건 · 논문 659편 -->
+- [x] online peer support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 560편 -->
+- [x] online peer support — Social Support에 듣는다  <!-- 시험 5건 · 논문 3125편 -->
+- [x] online peer support — Dementia에 듣는다  <!-- 시험 5건 · 논문 170편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov online peer support AND Dementia; PubMed online peer support AND Dementia)
+- [x] peer-led support — Health Behavior에 듣는다  <!-- 시험 3건 · 논문 429편 -->
+- [x] social network intervention — Obesity에 듣는다  <!-- 시험 14건 · 논문 1200편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Obesity; PubMed social network intervention AND Obesity)
+- [x] social network intervention — Cancer에 듣는다  <!-- 시험 13건 · 논문 4502편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Cancer; PubMed social network intervention AND Cancer)
+- [x] social network intervention — Weight Loss에 듣는다  <!-- 시험 8건 · 논문 320편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Weight Loss; PubMed social network intervention AND Weight Loss)
+- [ ] social network intervention — Loneliness에 듣는다  <!-- 시험 7건 · 논문 1017편 -->
+- [ ] sleep coaching program — Stress에 듣는다  <!-- 시험 6건 · 논문 107편 -->
+- [ ] family support program — Obesity에 듣는다  <!-- 시험 23건 · 논문 4119편 -->
+- [ ] family support program — Health Behavior에 듣는다  <!-- 시험 15건 · 논문 16096편 -->
+- [ ] family support program — Parenting에 듣는다  <!-- 시험 7건 · 논문 13633편 -->
+- [ ] family support program — Premature Birth에 듣는다  <!-- 시험 7건 · 논문 342편 -->
+- [ ] behavioral counseling — Obesity에 듣는다  <!-- 시험 15건 · 논문 13448편 -->
+- [ ] behavioral counseling — Smoking에 듣는다  <!-- 시험 11건 · 논문 8780편 -->
+- [ ] behavioral counseling — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 6232편 -->
+- [ ] behavioral counseling — Opioid Use에 듣는다  <!-- 시험 10건 · 논문 6217편 -->
+- [ ] care navigation — HIV에 듣는다  <!-- 시험 29건 · 논문 1098편 -->
+- [ ] care navigation — Drug Use에 듣는다  <!-- 시험 26건 · 논문 1917편 -->
+- [ ] care navigation — Depression에 듣는다  <!-- 시험 10건 · 논문 786편 -->
+- [ ] care navigation — Pain에 듣는다  <!-- 시험 10건 · 논문 1207편 -->
+- [ ] self-management program — Pain에 듣는다  <!-- 시험 13건 · 논문 5993편 -->
+- [ ] self-management program — Arthritis에 듣는다  <!-- 시험 8건 · 논문 1912편 -->
+- [ ] self-management program — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 911편 -->
+- [ ] self-management program — Obstructive Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 70편 -->
+- [ ] dexpramipexole — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 7건 · 논문 27편 -->

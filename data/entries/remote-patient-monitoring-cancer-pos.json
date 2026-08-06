@@ -1,0 +1,28 @@
+{
+  "id": "remote-patient-monitoring-cancer-pos",
+  "subj": "remote patient monitoring",
+  "claim": "원격 증상관찰이 항암치료 중 증상부담을 줄일 수 있다",
+  "line": "항암치료 중 증상부담이 대조군보다 낮았습니다",
+  "effect": "증상부담 평균차 -0.15",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 829,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 원격관리 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "처음 항암치료를 받는 비전이성 암 환자에게 원격 증상관리 시스템을 제공하고 표준 진료와 비교했습니다.",
+  "saw": "829명이 무작위 배정됐고 원격관리군은 6주기 동안 증상부담 증가를 막았으며 삶의 질과 불안도 더 나았습니다.",
+  "limit": "유럽 12개 암센터의 특정 암종과 항암치료 환자에 한정된 결과입니다.",
+  "against": "표준 진료군에서는 항암치료 주기 이후 증상부담이 증가했습니다.",
+  "use": "항암치료 중 부작용을 조기에 기록하고 대응하는 원격관리의 근거로 검토합니다.",
+  "refs": [
+    { "label": "항암치료 원격 증상관찰 eSMART 무작위시험", "doi": "10.1136/bmj.n1647", "pmid": "34289996", "pmc": "PMC8293749", "nct": "NCT02356081" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=remote patient monitoring AND condition=Cancer; 172건",
+    "pubmed": "remote patient monitoring AND Cancer; 735건",
+    "negative": "remote patient monitoring AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 96건",
+    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 896건"
+  }
+}

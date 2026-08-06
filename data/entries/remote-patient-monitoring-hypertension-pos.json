@@ -1,0 +1,28 @@
+{
+  "id": "remote-patient-monitoring-hypertension-pos",
+  "subj": "remote patient monitoring",
+  "claim": "디지털 원격관찰이 건강불평등을 겪는 고혈압 환자의 혈압을 낮출 수 있다",
+  "line": "수축기혈압이 표준진료보다 낮았습니다",
+  "effect": "수축기혈압 평균차 -4.24mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 8257,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 원격관리 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "건강불평등을 겪는 집단의 고혈압 디지털 중재 연구를 통합해 혈압 변화를 비교했습니다.",
+  "saw": "28편 8,257명이 포함됐고 6개월 수축기혈압이 중재군에서 4.24mmHg 더 낮았습니다.",
+  "limit": "대부분 여러 구성요소를 함께 쓴 중재였고 1년을 넘긴 혈압 결과 보고는 적었습니다.",
+  "against": "표준 진료군보다 디지털 중재군의 6개월 수축기혈압이 낮았습니다.",
+  "use": "혈압계 원격전송과 상담을 취약집단 고혈압 관리에 보조적으로 검토합니다.",
+  "refs": [
+    { "label": "건강불평등 집단 고혈압 디지털 중재 메타분석", "doi": "10.1001/jamanetworkopen.2023.56070", "pmid": "38353950", "pmc": "PMC10867699" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=remote patient monitoring AND condition=Hypertension; 110건",
+    "pubmed": "remote patient monitoring AND Hypertension; 526건",
+    "negative": "remote patient monitoring AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference); 51건",
+    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 896건"
+  }
+}

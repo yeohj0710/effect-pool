@@ -1,0 +1,28 @@
+{
+  "id": "remote-patient-monitoring-cardiac-disease-pos",
+  "subj": "remote patient monitoring",
+  "claim": "심부전 원격관찰이 입원과 사망을 줄일 수 있다",
+  "line": "심부전 입원과 사망 위험이 낮았습니다",
+  "effect": "사망 OR 0.81, 입원 OR 0.78",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 16312,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 원격관리 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "심부전 환자를 대상으로 비침습 원격관찰 무작위시험을 통합하고 입원과 사망을 평가했습니다.",
+  "saw": "41편 16,312명이 포함됐고 원격관찰은 사망과 첫 심부전 입원 위험을 낮췄습니다.",
+  "limit": "관찰 방식과 교육·자기관리 구성요소가 연구마다 달라 이질성이 있습니다.",
+  "against": "통상 진료군보다 원격관찰군에서 사망과 심부전 첫 입원이 적었습니다.",
+  "use": "심부전 원격관리에서 자기관리 교육과 영상통화를 포함할지 판단할 근거입니다.",
+  "refs": [
+    { "label": "심부전 원격관찰 구성요소 메타분석", "doi": "10.1002/ejhf.3568", "pmid": "39834044", "pmc": "PMC12502459" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=remote patient monitoring AND condition=Cardiac Disease; 311건",
+    "pubmed": "remote patient monitoring AND Cardiac Disease; 1287건",
+    "negative": "remote patient monitoring AND Cardiac Disease AND (no effect OR did not OR failed OR negative OR no significant difference); 174건",
+    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 896건"
+  }
+}
