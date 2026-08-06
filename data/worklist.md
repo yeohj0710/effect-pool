@@ -9982,23 +9982,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lubiprostone — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 160편 --> — 허가·표준 IBS-C 치료(2026-08-06)
 - [x] lubiprostone — Colonoscopy에 듣는다  <!-- 시험 3건 · 논문 19편 --> — 항목 lubiprostone-colonoscopy-pos
 - [x] lubiprostone — Diabetes에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 lubiprostone-diabetes-pos
-- [ ] linaclotide — Colorectal Cancer에 듣는다  <!-- 시험 12건 · 논문 29편 -->
-- [ ] linaclotide — Bowel Preparation에 듣는다  <!-- 시험 6건 · 논문 41편 -->
-- [ ] trametinib — Melanoma에 듣는다  <!-- 시험 142건 · 논문 1252편 -->
-- [ ] trametinib — Lung Carcinoma에 듣는다  <!-- 시험 97건 · 논문 232편 -->
-- [ ] trametinib — Neoplasm에 듣는다  <!-- 시험 70건 · 논문 2049편 -->
-- [ ] trametinib — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 76편 -->
-- [ ] vemurafenib — Cancer에 듣는다  <!-- 시험 52건 · 논문 2845편 -->
-- [ ] vemurafenib — Rare Tumor에 듣는다  <!-- 시험 43건 · 논문 163편 -->
-- [ ] vemurafenib — Lymphoma에 듣는다  <!-- 시험 30건 · 논문 58편 -->
-- [ ] vemurafenib — Thyroid Carcinoma에 듣는다  <!-- 시험 24건 · 논문 169편 -->
-- [ ] sorafenib — Cancer에 듣는다  <!-- 시험 316건 · 논문 12788편 -->
-- [ ] sorafenib — Leukemia에 듣는다  <!-- 시험 157건 · 논문 708편 -->
-- [ ] sorafenib — Melanoma에 듣는다  <!-- 시험 45건 · 논문 339편 -->
-- [ ] sorafenib — Lymphoma에 듣는다  <!-- 시험 37건 · 논문 156편 -->
-- [ ] sunitinib — Cancer에 듣는다  <!-- 시험 216건 · 논문 7392편 -->
-- [ ] sunitinib — Tumors에 듣는다  <!-- 시험 42건 · 논문 7025편 -->
-- [ ] sunitinib — Neoplasms에 듣는다  <!-- 시험 38건 · 논문 6038편 -->
+- [x] linaclotide — Colorectal Cancer에 듣는다  <!-- 시험 12건 · 논문 29편 --> — 직접 대장암 치료 근거 부족(2026-08-06 조회)
+- [x] linaclotide — Bowel Preparation에 듣는다  <!-- 시험 6건 · 논문 41편 --> — 항목 linaclotide-bowel-preparation-pos
+- [x] trametinib — Melanoma에 듣는다  <!-- 시험 142건 · 논문 1252편 --> — 허가 적응증(2026-08-06)
+- [x] trametinib — Lung Carcinoma에 듣는다  <!-- 시험 97건 · 논문 232편 --> — 허가 적응증(2026-08-06)
+- [x] trametinib — Neoplasm에 듣는다  <!-- 시험 70건 · 논문 2049편 --> — 항목 trametinib-neoplasm-pos
+- [x] trametinib — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 76편 --> — 직접 림프종 하위군 근거 부족(2026-08-06 조회)
+- [x] vemurafenib — Cancer에 듣는다  <!-- 시험 52건 · 논문 2845편 --> — 허가·표준 암종 범위; 세부 근거만 분리(2026-08-06)
+- [x] vemurafenib — Rare Tumor에 듣는다  <!-- 시험 43건 · 논문 163편 --> — 항목 vemurafenib-rare-tumor-pos
+- [x] vemurafenib — Lymphoma에 듣는다  <!-- 시험 30건 · 논문 58편 --> — 직접 림프종 치료 근거 부족(2026-08-06 조회)
+- [x] vemurafenib — Thyroid Carcinoma에 듣는다  <!-- 시험 24건 · 논문 169편 --> — 항목 vemurafenib-thyroid-carcinoma-pos
+- [x] sorafenib — Cancer에 듣는다  <!-- 시험 316건 · 논문 12788편 --> — 허가·표준 암종 범위; 세부 근거만 분리(2026-08-06)
+- [x] sorafenib — Leukemia에 듣는다  <!-- 시험 157건 · 논문 708편 --> — 항목 sorafenib-leukemia-pos
+- [x] sorafenib — Melanoma에 듣는다  <!-- 시험 45건 · 논문 339편 --> — 항목 sorafenib-melanoma-null
+- [x] sorafenib — Lymphoma에 듣는다  <!-- 시험 37건 · 논문 156편 --> — 직접 사람 치료 근거 부족(2026-08-06 조회)
+- [x] sunitinib — Cancer에 듣는다  <!-- 시험 216건 · 논문 7392편 --> — 허가·표준 암종 범위(2026-08-06)
+- [x] sunitinib — Tumors에 듣는다  <!-- 시험 42건 · 논문 7025편 --> — 허가·표준 암종 범위(2026-08-06)
+- [x] sunitinib — Neoplasms에 듣는다  <!-- 시험 38건 · 논문 6038편 --> — 허가·표준 암종 범위(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10009,19 +10009,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] albuterol — Pulmonary Edema에 듣는다  <!-- 시험 33건 · 논문 102편 -->
-- [ ] albuterol — COPD에 듣는다  <!-- 시험 8건 · 논문 1762편 -->
-- [ ] albuterol — Bronchospasm에 듣는다  <!-- 시험 7건 · 논문 555편 -->
-- [ ] albuterol — Bronchiolitis에 듣는다  <!-- 시험 5건 · 논문 308편 -->
-- [ ] betamethasone — Atopic Eczema에 듣는다  <!-- 시험 18건 · 논문 298편 -->
-- [ ] betamethasone — Neonatal Distress에 듣는다  <!-- 시험 13건 · 논문 533편 -->
-- [ ] betamethasone — Late Preterm에 듣는다  <!-- 시험 9건 · 논문 144편 -->
-- [ ] betamethasone — Neck Pain에 듣는다  <!-- 시험 8건 · 논문 36편 -->
-- [ ] chlorhexidine — Pain, Dental에 듣는다  <!-- 시험 43건 · 논문 213편 -->
-- [ ] chlorhexidine — Periodontitis에 듣는다  <!-- 시험 36건 · 논문 2706편 -->
-- [ ] chlorhexidine — Gingivitis에 듣는다  <!-- 시험 30건 · 논문 1722편 -->
-- [ ] chlorhexidine — Oral Health에 듣는다  <!-- 시험 27건 · 논문 1802편 -->
-- [ ] dobutamine — Shock에 듣는다  <!-- 시험 13건 · 논문 996편 -->
+- [x] albuterol — Pulmonary Edema에 듣는다  <!-- 시험 33건 · 논문 102편 --> — 항목 albuterol-pulmonary-edema-harm
+- [x] albuterol — COPD에 듣는다  <!-- 시험 8건 · 논문 1762편 --> — 허가 적응증(2026-08-06)
+- [x] albuterol — Bronchospasm에 듣는다  <!-- 시험 7건 · 논문 555편 --> — 허가 적응증(2026-08-06)
+- [x] albuterol — Bronchiolitis에 듣는다  <!-- 시험 5건 · 논문 308편 --> — 항목 albuterol-bronchiolitis-null
+- [x] betamethasone — Atopic Eczema에 듣는다  <!-- 시험 18건 · 논문 298편 --> — 허가·표준 피부 스테로이드 치료(2026-08-06)
+- [x] betamethasone — Neonatal Distress에 듣는다  <!-- 시험 13건 · 논문 533편 --> — 표준 산전 스테로이드 치료(2026-08-06)
+- [x] betamethasone — Late Preterm에 듣는다  <!-- 시험 9건 · 논문 144편 --> — 표준 산전 스테로이드 치료(2026-08-06)
+- [x] betamethasone — Neck Pain에 듣는다  <!-- 시험 8건 · 논문 36편 --> — 직접 베타메타손 근거 부족(2026-08-06 조회)
+- [x] chlorhexidine — Pain, Dental에 듣는다  <!-- 시험 43건 · 논문 213편 --> — 표준 치과 소독·구강관리(2026-08-06)
+- [x] chlorhexidine — Periodontitis에 듣는다  <!-- 시험 36건 · 논문 2706편 --> — 표준 치주 보조치료(2026-08-06)
+- [x] chlorhexidine — Gingivitis에 듣는다  <!-- 시험 30건 · 논문 1722편 --> — 표준 구강 소독·치은염 보조치료(2026-08-06)
+- [x] chlorhexidine — Oral Health에 듣는다  <!-- 시험 27건 · 논문 1802편 --> — 항목 chlorhexidine-oral-health-harm
+- [x] dobutamine — Shock에 듣는다  <!-- 시험 13건 · 논문 996편 --> — 표준 혈관작용제 치료(2026-08-06)
 - [ ] dobutamine — Surgery에 듣는다  <!-- 시험 11건 · 논문 3094편 -->
 - [ ] dobutamine — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 2871편 -->
 - [ ] dobutamine — Myocardial Ischemia에 듣는다  <!-- 시험 9건 · 논문 4301편 -->

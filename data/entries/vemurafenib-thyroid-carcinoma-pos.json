@@ -1,0 +1,29 @@
+{
+  "id": "vemurafenib-thyroid-carcinoma-pos",
+  "subj": "베무라페닙",
+  "claim": "베무라페닙을 방사성요오드 불응성 BRAF 갑상선암 재분화에 쓴다",
+  "line": "BRAF 변이 방사성요오드 불응 갑상선암 파일럿에서 요오드 섭취와 부분반응이 관찰됐습니다",
+  "effect": "요오드 섭취·부분반응 관찰",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 7,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "베무라페닙 단독 또는 CDX-3379 병용의 방사성요오드 불응성 갑상선암 재분화는 허가 적응증이 아닙니다.",
+  "why": "베무라페닙의 BRAF 억제로 방사성요오드 섭취를 되살리는 재분화 전략을 갑상선암에 전환한 소규모 임상시험입니다.",
+  "saw": "BRAF V600E 방사성요오드 불응성 갑상선암 7명이 베무라페닙을 먼저 받고 CDX-3379를 병용했습니다. 평가 가능한 6명 중 5명은 요오드 섭취가 늘어 치료용 요오드 투여가 가능했고, 6개월에 2명은 부분반응을 보였습니다.",
+  "limit": "7명 파일럿이고 대조군이 없으며 CDX-3379 병용 효과를 베무라페닙 단독 효과와 분리할 수 없습니다.",
+  "against": "동일한 베무라페닙 바스켓 2상에서는 갑상선암 반응이 일화적 수준으로 보고돼 재현성이 제한적입니다.",
+  "use": "BRAF 억제의 재분화 신호를 방사성요오드 치료와 연결한 사례로 표시합니다.",
+  "refs": [
+    { "label": "베무라페닙·CDX-3379 갑상선암 재분화 파일럿", "pmid": "35045748", "nct": "NCT02456701" },
+    { "label": "BRAF V600 비흑색종 암 베무라페닙 바스켓 2상", "pmid": "26287849", "nct": "NCT01524978" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=vemurafenib · cond=Thyroid Carcinoma → 9건 반환, 물질 대조 후 8건",
+    "pubmed": "vemurafenib AND Thyroid Carcinoma → 169편",
+    "negative": "vemurafenib AND Thyroid Carcinoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 110편",
+    "safety": "vemurafenib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1318편"
+  }
+}

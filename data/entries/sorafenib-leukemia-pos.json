@@ -1,0 +1,30 @@
+{
+  "id": "sorafenib-leukemia-pos",
+  "subj": "소라페닙",
+  "claim": "소라페닙을 FLT3-ITD 급성골수성백혈병 이식 후 유지요법에 쓴다",
+  "line": "AML 이식 후 무작위시험에서 24개월 무재발생존은 소라페닙군이 위약군보다 높았습니다",
+  "effect": "24개월 무재발생존 85% 대 53%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 83,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "소라페닙의 허가 암종은 FLT3-ITD 급성골수성백혈병 이식 후 유지요법을 포함하지 않습니다.",
+  "why": "소라페닙의 FLT3 억제와 이식편대백혈병 면역 효과를 이식 후 AML 재발 예방에 전환한 무작위 위약대조시험입니다.",
+  "saw": "SORMAIN 2상에서 동종이식 후 혈액학적 완전관해 FLT3-ITD 양성 AML 83명이 소라페닙 43명 또는 위약 40명에 무작위 배정됐습니다. 24개월 무재발생존은 85.0% 대 53.3%였고 재발·사망 위험 HR은 0.26이었습니다. 소아 비교 코호트에서도 사건 위험이 낮았습니다.",
+  "limit": "성인 시험은 83명 규모이고 이식 전후 잔존질환에 따른 효과 차이가 탐색 분석이며, 소아 자료는 무작위 비교가 아닙니다.",
+  "against": "소라페닙은 발진·수족증후군·발열 같은 독성으로 소아 AML 시험에서 용량 제한 사건이 보고됐습니다.",
+  "use": "소라페닙의 FLT3 억제와 면역 자극을 이식 후 재발 예방에 연결한 사례로 표시합니다.",
+  "refs": [
+    { "label": "SORMAIN 성인 AML 이식 후 소라페닙 유지요법 무작위시험", "pmid": "32673171" },
+    { "label": "소아 FLT3-ITD AML 소라페닙 병용·유지요법", "pmid": "35349331", "nct": "NCT01371981" },
+    { "label": "소라페닙의 이식편대백혈병 면역 기전", "pmid": "29431743" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=sorafenib · cond=Leukemia → 76건 반환, 물질 대조 후 57건",
+    "pubmed": "sorafenib AND Leukemia → 708편",
+    "negative": "sorafenib AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 486편",
+    "safety": "sorafenib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 5282편"
+  }
+}
