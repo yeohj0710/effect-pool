@@ -11945,24 +11945,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] walnut — Cognitive Change에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 110편 -->
 - [x] walnut — Diabetes에 듣는다 — 근거 없음(2026-08-06 조회, "walnut diabetes intervention")  <!-- 시험 4건 · 논문 674편 -->
 - [x] walnut — Colon Cancer에 듣는다 — 근거 없음(2026-08-06 조회, "walnut colon cancer intervention")  <!-- 시험 4건 · 논문 89편 -->
-- [ ] almond — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 484편 -->
-- [ ] almond — Overweight에 듣는다  <!-- 시험 7건 · 논문 150편 -->
-- [ ] almond — PreDiabetes에 듣는다  <!-- 시험 7건 · 논문 24편 -->
-- [ ] almond — Glucose Control에 듣는다  <!-- 시험 7건 · 논문 125편 -->
-- [ ] sesame — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] sesame — Sleep에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] sesame — Food Allergy에 듣는다  <!-- 시험 3건 · 논문 373편 -->
-- [ ] avocado — Insulin에 듣는다  <!-- 시험 6건 · 논문 63편 -->
-- [ ] avocado — Healthy Adult에 듣는다  <!-- 시험 5건 · 논문 84편 -->
-- [ ] avocado — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 152편 -->
-- [ ] avocado — Diabetes에 듣는다  <!-- 시험 4건 · 논문 136편 -->
-- [ ] yogurt — Inflammation에 듣는다  <!-- 시험 11건 · 논문 270편 -->
-- [ ] yogurt — Diabetes에 듣는다  <!-- 시험 9건 · 논문 489편 -->
-- [ ] yogurt — Gastrointestinal Cancer에 듣는다  <!-- 시험 6건 · 논문 139편 -->
-- [ ] yogurt — Diarrhea에 듣는다  <!-- 시험 6건 · 논문 196편 -->
-- [ ] honey — Oral Mucositis에 듣는다  <!-- 시험 12건 · 논문 131편 -->
-- [ ] honey — Dry Mouth에 듣는다  <!-- 시험 10건 · 논문 34편 -->
-- [ ] honey — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 65편 -->
+- [x] almond — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 484편 --> — 항목 생성(2026-08-06)
+- [x] almond — Overweight에 듣는다  <!-- 시험 7건 · 논문 150편 --> — 항목 생성(2026-08-06)
+- [x] almond — PreDiabetes에 듣는다  <!-- 시험 7건 · 논문 24편 --> — 항목 생성(2026-08-06)
+- [x] almond — Glucose Control에 듣는다  <!-- 시험 7건 · 논문 125편 --> — 항목 생성(2026-08-06)
+- [x] sesame — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 항목 생성(2026-08-06)
+- [x] sesame — Sleep에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 항목 생성(2026-08-06)
+- [x] sesame — Food Allergy에 듣는다  <!-- 시험 3건 · 논문 373편 --> — 근거 없음(2026-08-06 조회, "sesame food allergy intervention")
+- [x] avocado — Insulin에 듣는다  <!-- 시험 6건 · 논문 63편 --> — 항목 생성(2026-08-06)
+- [x] avocado — Healthy Adult에 듣는다  <!-- 시험 5건 · 논문 84편 --> — 항목 생성(2026-08-06)
+- [x] avocado — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 152편 --> — 항목 생성(2026-08-06)
+- [x] avocado — Diabetes에 듣는다  <!-- 시험 4건 · 논문 136편 --> — 근거 없음(2026-08-06 조회, "avocado diabetes intervention")
+- [x] yogurt — Inflammation에 듣는다  <!-- 시험 11건 · 논문 270편 --> — 항목 생성(2026-08-06)
+- [x] yogurt — Diabetes에 듣는다  <!-- 시험 9건 · 논문 489편 --> — 항목 생성(2026-08-06)
+- [x] yogurt — Gastrointestinal Cancer에 듣는다  <!-- 시험 6건 · 논문 139편 --> — 항목 생성(2026-08-06)
+- [x] yogurt — Diarrhea에 듣는다  <!-- 시험 6건 · 논문 196편 --> — 항목 생성(2026-08-06)
+- [x] honey — Oral Mucositis에 듣는다  <!-- 시험 12건 · 논문 131편 --> — 항목 생성(2026-08-06)
+- [x] honey — Dry Mouth에 듣는다  <!-- 시험 10건 · 논문 34편 --> — 항목 생성(2026-08-06)
+- [x] honey — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 65편 --> — 근거 없음(2026-08-06 조회, "honey lung cancer intervention")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11973,16 +11973,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] box breathing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 96편 -->
-- [ ] box breathing — Breathing Exercises에 듣는다  <!-- 시험 3건 · 논문 71편 -->
-- [ ] chia seed — Dietary Fiber에 듣는다  <!-- 시험 3건 · 논문 42편 -->
-- [ ] tart cherry — Inflammation에 듣는다  <!-- 시험 7건 · 논문 90편 -->
-- [ ] tart cherry — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 8편 -->
-- [ ] tart cherry — Gout에 듣는다  <!-- 시험 5건 · 논문 15편 -->
-- [ ] tart cherry — Hypertension에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] olive leaf extract — Hypertension에 듣는다  <!-- 시험 4건 · 논문 25편 -->
-- [ ] seaweed — Pre-diabetes에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] seaweed — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 73편 -->
-- [ ] seaweed — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 361편 -->
-- [ ] seaweed — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 235편 -->
+- [x] box breathing — Anxiety에 듣는다  <!-- 시험 5건 · 논문 96편 --> — 근거 없음(2026-08-06 조회, "box breathing anxiety intervention")
+- [x] box breathing — Breathing Exercises에 듣는다  <!-- 시험 3건 · 논문 71편 --> — 항목 생성(2026-08-06)
+- [x] chia seed — Dietary Fiber에 듣는다  <!-- 시험 3건 · 논문 42편 --> — 항목 생성(2026-08-06)
+- [x] tart cherry — Inflammation에 듣는다  <!-- 시험 7건 · 논문 90편 --> — 항목 생성(2026-08-06)
+- [x] tart cherry — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 항목 생성(2026-08-06)
+- [x] tart cherry — Gout에 듣는다  <!-- 시험 5건 · 논문 15편 --> — 항목 생성(2026-08-06)
+- [x] tart cherry — Hypertension에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 항목 생성(2026-08-06)
+- [x] olive leaf extract — Hypertension에 듣는다  <!-- 시험 4건 · 논문 25편 --> — 항목 생성(2026-08-06)
+- [x] seaweed — Pre-diabetes에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 항목 생성(2026-08-06)
+- [x] seaweed — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 73편 --> — 항목 생성(2026-08-06)
+- [x] seaweed — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 361편 --> — 항목 생성(2026-08-06)
+- [x] seaweed — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 235편 --> — 항목 생성(2026-08-06)
 - [ ] coconut water — Water에 듣는다  <!-- 시험 3건 · 논문 2029편 -->
