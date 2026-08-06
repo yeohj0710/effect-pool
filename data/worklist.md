@@ -10842,3 +10842,56 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] resistance exercise — Aging에 듣는다  <!-- 시험 14건 · 논문 5612편 -->
 - [ ] resistance exercise — Obesity에 듣는다  <!-- 시험 13건 · 논문 7871편 -->
 - [ ] resistance exercise — Strength에 듣는다  <!-- 시험 12건 · 논문 18388편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] caregiver skills training — Stroke에 듣는다  <!-- 시험 4건 · 논문 166편 -->
+- [ ] caregiver skills training — Depression에 듣는다  <!-- 시험 3건 · 논문 526편 -->
+- [ ] caregiver skills training — Cancer에 듣는다  <!-- 시험 3건 · 논문 529편 -->
+- [ ] caregiver skills training — Psychological Well-being에 듣는다  <!-- 시험 3건 · 논문 373편 -->
+- [ ] parent training — Behavior, Child에 듣는다  <!-- 시험 25건 · 논문 22665편 -->
+- [ ] parent training — Attention Deficit에 듣는다  <!-- 시험 24건 · 논문 3478편 -->
+- [ ] parent training — Child에 듣는다  <!-- 시험 23건 · 논문 94086편 -->
+- [ ] parent training — Obesity에 듣는다  <!-- 시험 16건 · 논문 6397편 -->
+- [ ] behavioral parent training — Obesity에 듣는다  <!-- 시험 17건 · 논문 4159편 -->
+- [ ] behavioral parent training — Problem Behavior에 듣는다  <!-- 시험 16건 · 논문 3097편 -->
+- [ ] behavioral parent training — Autism에 듣는다  <!-- 시험 15건 · 논문 3252편 -->
+- [ ] behavioral parent training — Attention Deficit에 듣는다  <!-- 시험 14건 · 논문 2591편 -->
+- [ ] family skills training — Depression에 듣는다  <!-- 시험 9건 · 논문 1439편 -->
+- [ ] family skills training — Substance Use에 듣는다  <!-- 시험 8건 · 논문 829편 -->
+- [ ] family skills training — Behavior에 듣는다  <!-- 시험 8건 · 논문 13473편 -->
+- [ ] family skills training — Anorexia Nervosa에 듣는다  <!-- 시험 6건 · 논문 53편 -->
+- [ ] sleep coaching — Stress에 듣는다  <!-- 시험 9건 · 논문 273편 -->
+- [ ] sleep coaching — Type 1 Diabetes에 듣는다  <!-- 시험 7건 · 논문 8편 -->
+- [ ] sleep coaching — Cancer에 듣는다  <!-- 시험 5건 · 논문 77편 -->
+- [ ] sleep coaching — Blood Pressure에 듣는다  <!-- 시험 4건 · 논문 30편 -->
+- [ ] sleep diary — Cancer에 듣는다  <!-- 시험 35건 · 논문 299편 -->
+- [ ] sleep diary — Depression에 듣는다  <!-- 시험 11건 · 논문 963편 -->
+- [ ] sleep diary — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 319편 -->
+- [ ] sleep diary — Pain에 듣는다  <!-- 시험 9건 · 논문 612편 -->
+- [ ] acceptance-based therapy — Obesity에 듣는다  <!-- 시험 5건 · 논문 57편 -->
+- [ ] acceptance-based therapy — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 50편 -->
+- [ ] acceptance-based therapy — Anxiety에 듣는다  <!-- 시험 3건 · 논문 139편 -->
+- [ ] cooking skills — Diet에 듣는다  <!-- 시험 7건 · 논문 515편 -->
+- [ ] cooking skills — Family Health에 듣는다  <!-- 시험 3건 · 논문 235편 -->
+- [ ] diet quality counseling — Obesity에 듣는다  <!-- 시험 59건 · 논문 458편 -->
+- [ ] diet quality counseling — Diabetes에 듣는다  <!-- 시험 19건 · 논문 341편 -->
+- [ ] diet quality counseling — Weight Loss에 듣는다  <!-- 시험 15건 · 논문 288편 -->
+- [ ] diet quality counseling — Malnutrition에 듣는다  <!-- 시험 12건 · 논문 169편 -->
+- [ ] loving-kindness meditation — Depression에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [ ] loving-kindness meditation — MM Group에 듣는다  <!-- 시험 3건 · 논문 101편 -->
+- [ ] transcendental meditation — Burnout에 듣는다  <!-- 시험 5건 · 논문 349편 -->
+- [ ] transcendental meditation — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 549편 -->
+- [ ] transcendental meditation — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+- [ ] music-based intervention — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [ ] dance intervention — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 216편 -->
+- [ ] dance intervention — Cancer에 듣는다  <!-- 시험 14건 · 논문 396편 -->
+- [ ] dance intervention — Aging에 듣는다  <!-- 시험 14건 · 논문 515편 -->
+- [ ] dance intervention — Older Adults에 듣는다  <!-- 시험 12건 · 논문 1832편 -->
