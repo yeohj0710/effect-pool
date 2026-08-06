@@ -11567,13 +11567,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 --> — 허가 적응증(2026-08-06)
 - [x] bempedoic acid — Diabetes에 듣는다  <!-- 시험 4건 · 논문 160편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Diabetes)
 - [x] bempedoic acid — Atherosclerosis에 듣는다  <!-- 시험 3건 · 논문 202편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Atherosclerosis)
-- [ ] bisoprolol — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 62편 -->
-- [ ] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 -->
-- [ ] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 -->
-- [ ] cabergoline — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 -->
-- [ ] canagliflozin — Renal Insufficiency에 듣는다  <!-- 시험 3건 · 논문 203편 -->
-- [ ] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 -->
-- [ ] canagliflozin — ESRD에 듣는다  <!-- 시험 3건 · 논문 168편 -->
+- [x] bisoprolol — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 62편 -->
+- [x] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 허가 적응증(2026-08-06)
+- [x] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 --> — 허가 적응증(2026-08-06)
+- [x] cabergoline — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-06 조회, cabergoline AND Prostate Cancer)
+- [x] canagliflozin — Renal Insufficiency에 듣는다  <!-- 시험 3건 · 논문 203편 -->
+- [x] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 --> — 허가 적응증(2026-08-06)
+- [x] canagliflozin — ESRD에 듣는다  <!-- 시험 3건 · 논문 168편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
