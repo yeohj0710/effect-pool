@@ -11167,3 +11167,58 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] resistance bands — Diabetes에 듣는다  <!-- 시험 13건 · 논문 61편 -->
 - [ ] resistance bands — Aging에 듣는다  <!-- 시험 12건 · 논문 106편 -->
 - [ ] resistance bands — Obesity에 듣는다  <!-- 시험 11건 · 논문 36편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] meal delivery — Obesity에 듣는다  <!-- 시험 20건 · 논문 263편 -->
+- [ ] meal delivery — Food Habits에 듣는다  <!-- 시험 16건 · 논문 355편 -->
+- [ ] meal delivery — Heart Failure에 듣는다  <!-- 시험 15건 · 논문 18편 -->
+- [ ] meal delivery — Healthy Diet에 듣는다  <!-- 시험 13건 · 논문 142편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ethosuximide — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 1058편 -->
+- [ ] nevirapine — Tuberculosis에 듣는다  <!-- 시험 9건 · 논문 205편 -->
+- [ ] nevirapine — Pregnancy에 듣는다  <!-- 시험 8건 · 논문 1079편 -->
+- [ ] nevirapine — Acquired Immunodeficiency Syndrome에 듣는다  <!-- 시험 5건 · 논문 309편 -->
+- [ ] nevirapine — AIDS에 듣는다  <!-- 시험 5건 · 논문 2016편 -->
+- [ ] isradipine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 64편 -->
+- [ ] isradipine — Drug Dependence에 듣는다  <!-- 시험 3건 · 논문 81편 -->
+- [ ] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 -->
+- [ ] ephedrine — Cesarean에 듣는다  <!-- 시험 23건 · 논문 618편 -->
+- [ ] ephedrine — Obesity에 듣는다  <!-- 시험 8건 · 논문 246편 -->
+- [ ] ephedrine — Rhinitis에 듣는다  <!-- 시험 8건 · 논문 182편 -->
+- [ ] home-based exercise — Exercise에 듣는다  <!-- 시험 9건 · 논문 6550편 -->
+- [ ] home-based exercise — Stroke에 듣는다  <!-- 시험 7건 · 논문 420편 -->
+- [ ] home-based exercise — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 313편 -->
+- [ ] home-based exercise — Coronary Artery Disease에 듣는다  <!-- 시험 6건 · 논문 133편 -->
+- [ ] walking group — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 1099편 -->
+- [ ] walking group — Inhalation Injury에 듣는다  <!-- 시험 6건 · 논문 10편 -->
+- [ ] walking group — Pain에 듣는다  <!-- 시험 6건 · 논문 6544편 -->
+- [ ] walking group — Stroke에 듣는다  <!-- 시험 5건 · 논문 3722편 -->
+- [ ] mindful walking — Depression에 듣는다  <!-- 시험 10건 · 논문 48편 -->
+- [ ] mindful walking — Psychological에 듣는다  <!-- 시험 10건 · 논문 78편 -->
+- [ ] mindful walking — Cancer에 듣는다  <!-- 시험 9건 · 논문 23편 -->
+- [ ] mindful walking — Behavior, Health에 듣는다  <!-- 시험 8건 · 논문 41편 -->
+- [ ] nutrition counseling — Obesity에 듣는다  <!-- 시험 31건 · 논문 2825편 -->
+- [ ] nutrition counseling — Overweight에 듣는다  <!-- 시험 10건 · 논문 2276편 -->
+- [ ] nutrition counseling — Diabetes에 듣는다  <!-- 시험 9건 · 논문 1835편 -->
+- [ ] nutrition counseling — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 1343편 -->
+- [ ] group exercise — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 6996편 -->
+- [ ] group exercise — Obesity에 듣는다  <!-- 시험 8건 · 논문 21846편 -->
+- [ ] group exercise — Pain에 듣는다  <!-- 시험 6건 · 논문 24232편 -->
+- [ ] group exercise — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 6693편 -->
