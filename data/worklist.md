@@ -10790,36 +10790,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] family psychoeducation — Cannabis Use에 듣는다  <!-- 시험 15건 · 논문 30편 --> — 근거 없음(2026-08-06, "family psychoeducation AND Cannabis Use")
 - [x] family psychoeducation — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 333편 --> — 항목 생성(2026-08-06)
-- [ ] family psychoeducation — Depression에 듣는다  <!-- 시험 11건 · 논문 1031편 -->
-- [ ] family psychoeducation — Psychosis에 듣는다  <!-- 시험 10건 · 논문 409편 -->
-- [ ] caregiver coaching — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 18편 -->
-- [ ] caregiver coaching — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 37편 -->
-- [ ] caregiver coaching — Cancer에 듣는다  <!-- 시험 3건 · 논문 142편 -->
-- [ ] caregiver coaching — Developmental Delay에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] peer mentoring — Depression에 듣는다  <!-- 시험 13건 · 논문 177편 -->
-- [ ] peer mentoring — Mental Health에 듣는다  <!-- 시험 11건 · 논문 431편 -->
-- [ ] peer mentoring — Diabetes에 듣는다  <!-- 시험 9건 · 논문 122편 -->
-- [ ] sleep education — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 2147편 -->
-- [ ] sleep education — Stress Disorder에 듣는다  <!-- 시험 8건 · 논문 1330편 -->
-- [ ] sleep education — Depression에 듣는다  <!-- 시험 7건 · 논문 8532편 -->
-- [ ] sleep education — Pain에 듣는다  <!-- 시험 7건 · 논문 4289편 -->
-- [ ] sleep regularity — Obesity에 듣는다  <!-- 시험 7건 · 논문 616편 -->
-- [ ] sleep regularity — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 134편 -->
-- [ ] sleep regularity — Pain에 듣는다  <!-- 시험 4건 · 논문 626편 -->
-- [ ] sleep regularity — Autism Spectrum Disorder에 듣는다  <!-- 시험 3건 · 논문 38편 -->
-- [ ] behavioral sleep medicine — Depression에 듣는다  <!-- 시험 12건 · 논문 3612편 -->
-- [ ] behavioral sleep medicine — Sleep Apnea에 듣는다  <!-- 시험 9건 · 논문 1443편 -->
-- [ ] behavioral sleep medicine — Pain에 듣는다  <!-- 시험 9건 · 논문 1600편 -->
-- [ ] behavioral sleep medicine — Opioid Use에 듣는다  <!-- 시험 8건 · 논문 267편 -->
-- [ ] circadian lighting — Eating Habit에 듣는다  <!-- 시험 4건 · 논문 1425편 -->
-- [ ] circadian lighting — Depression에 듣는다  <!-- 시험 3건 · 논문 1495편 -->
-- [ ] circadian lighting — Stroke에 듣는다  <!-- 시험 3건 · 논문 148편 -->
-- [ ] meal planning — Diabetes에 듣는다  <!-- 시험 14건 · 논문 527편 -->
-- [ ] meal planning — Overweight에 듣는다  <!-- 시험 5건 · 논문 326편 -->
-- [ ] meal planning — Healthy Diet에 듣는다  <!-- 시험 5건 · 논문 395편 -->
-- [ ] meal planning — Dietary Habits에 듣는다  <!-- 시험 5건 · 논문 650편 -->
-- [ ] dietary self-monitoring — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 -->
-- [ ] dietary self-monitoring — Weight에 듣는다  <!-- 시험 7건 · 논문 1085편 -->
+- [x] family psychoeducation — Depression에 듣는다  <!-- 시험 11건 · 논문 1031편 --> — 근거 없음(2026-08-06, "family psychoeducation AND Depression")
+- [x] family psychoeducation — Psychosis에 듣는다  <!-- 시험 10건 · 논문 409편 --> — 항목 생성(2026-08-06)
+- [x] caregiver coaching — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 18편 --> — 근거 없음(2026-08-06, "caregiver coaching AND Cerebral Palsy")
+- [x] caregiver coaching — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(2026-08-06, "caregiver coaching AND Alzheimer Disease")
+- [x] caregiver coaching — Cancer에 듣는다  <!-- 시험 3건 · 논문 142편 --> — 항목 생성(2026-08-06)
+- [x] caregiver coaching — Developmental Delay에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 근거 없음(2026-08-06, "caregiver coaching AND Developmental Delay")
+- [x] peer mentoring — Depression에 듣는다  <!-- 시험 13건 · 논문 177편 --> — 항목 생성(2026-08-06)
+- [x] peer mentoring — Mental Health에 듣는다  <!-- 시험 11건 · 논문 431편 --> — 항목 생성(2026-08-06)
+- [x] peer mentoring — Diabetes에 듣는다  <!-- 시험 9건 · 논문 122편 --> — 항목 생성(2026-08-06)
+- [x] sleep education — Cognitive Disorder에 듣는다  <!-- 시험 9건 · 논문 2147편 --> — 근거 없음(2026-08-06, "sleep education AND Cognitive Disorder")
+- [x] sleep education — Stress Disorder에 듣는다  <!-- 시험 8건 · 논문 1330편 --> — 근거 없음(2026-08-06, "sleep education AND Stress Disorder")
+- [x] sleep education — Depression에 듣는다  <!-- 시험 7건 · 논문 8532편 --> — 근거 없음(2026-08-06, "sleep education AND Depression")
+- [x] sleep education — Pain에 듣는다  <!-- 시험 7건 · 논문 4289편 --> — 근거 없음(2026-08-06, "sleep education AND Pain")
+- [x] sleep regularity — Obesity에 듣는다  <!-- 시험 7건 · 논문 616편 --> — 항목 생성(2026-08-06)
+- [x] sleep regularity — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 134편 --> — 근거 없음(2026-08-06, "sleep regularity AND Cognitive Decline")
+- [x] sleep regularity — Pain에 듣는다  <!-- 시험 4건 · 논문 626편 --> — 근거 없음(2026-08-06, "sleep regularity AND Pain")
+- [x] sleep regularity — Autism Spectrum Disorder에 듣는다  <!-- 시험 3건 · 논문 38편 --> — 근거 없음(2026-08-06, "sleep regularity AND Autism Spectrum Disorder")
+- [x] behavioral sleep medicine — Depression에 듣는다  <!-- 시험 12건 · 논문 3612편 --> — 항목 생성(2026-08-06)
+- [x] behavioral sleep medicine — Sleep Apnea에 듣는다  <!-- 시험 9건 · 논문 1443편 --> — 항목 생성(2026-08-06)
+- [x] behavioral sleep medicine — Pain에 듣는다  <!-- 시험 9건 · 논문 1600편 --> — 근거 없음(2026-08-06, "behavioral sleep medicine AND Pain")
+- [x] behavioral sleep medicine — Opioid Use에 듣는다  <!-- 시험 8건 · 논문 267편 --> — 근거 없음(2026-08-06, "behavioral sleep medicine AND Opioid Use")
+- [x] circadian lighting — Eating Habit에 듣는다  <!-- 시험 4건 · 논문 1425편 --> — 근거 없음(2026-08-06, "circadian lighting AND Eating Habit")
+- [x] circadian lighting — Depression에 듣는다  <!-- 시험 3건 · 논문 1495편 --> — 항목 생성(2026-08-06)
+- [x] circadian lighting — Stroke에 듣는다  <!-- 시험 3건 · 논문 148편 --> — 근거 없음(2026-08-06, "circadian lighting AND Stroke")
+- [x] meal planning — Diabetes에 듣는다  <!-- 시험 14건 · 논문 527편 --> — 근거 없음(2026-08-06, "meal planning AND Diabetes")
+- [x] meal planning — Overweight에 듣는다  <!-- 시험 5건 · 논문 326편 --> — 근거 없음(2026-08-06, "meal planning AND Overweight")
+- [x] meal planning — Healthy Diet에 듣는다  <!-- 시험 5건 · 논문 395편 --> — 근거 없음(2026-08-06, "meal planning AND Healthy Diet")
+- [x] meal planning — Dietary Habits에 듣는다  <!-- 시험 5건 · 논문 650편 --> — 근거 없음(2026-08-06, "meal planning AND Dietary Habits")
+- [x] dietary self-monitoring — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 21편 --> — 근거 없음(2026-08-06, "dietary self-monitoring AND Breast Cancer")
+- [x] dietary self-monitoring — Weight에 듣는다  <!-- 시험 7건 · 논문 1085편 --> — 항목 생성(2026-08-06)
 - [ ] dietary self-monitoring — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 291편 -->
 - [ ] dietary self-monitoring — Health Behavior에 듣는다  <!-- 시험 4건 · 논문 1035편 -->
 - [ ] plant-based eating — Kidney Disease, Chronic에 듣는다  <!-- 시험 4건 · 논문 12편 -->
