@@ -12419,3 +12419,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 -->
 - [ ] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 -->
 - [ ] belumosudil — Lung Diseases에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] wellness coaching — Obesity에 듣는다  <!-- 시험 3건 · 논문 1247편 -->
+- [ ] abatacept — T-cell Lymphoma에 듣는다  <!-- 시험 16건 · 논문 30편 -->
+- [ ] abatacept — Graft Vs Host Disease에 듣는다  <!-- 시험 13건 · 논문 118편 -->
+- [ ] abatacept — Lupus Nephritis에 듣는다  <!-- 시험 8건 · 논문 65편 -->
+- [ ] icatibant — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 33편 -->
+- [ ] lanadelumab — COVID-19에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [ ] eculizumab — Atypical Hemolytic Uremic에 듣는다  <!-- 시험 13건 · 논문 1112편 -->
+- [ ] eculizumab — Kidney Failure에 듣는다  <!-- 시험 13건 · 논문 461편 -->
+- [ ] eculizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 11건 · 논문 276편 -->
+- [ ] eculizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 268편 -->
+- [ ] difelikefalin — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 41편 -->
+- [ ] letermovir — HIV Infections에 듣는다  <!-- 시험 21건 · 논문 12편 -->
+- [ ] letermovir — Lung Transplant에 듣는다  <!-- 시험 14건 · 논문 36편 -->
+- [ ] letermovir — Acute Myeloid Leukemia에 듣는다  <!-- 시험 13건 · 논문 17편 -->
+- [ ] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 -->
