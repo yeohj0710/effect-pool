@@ -11754,22 +11754,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cinnamon — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 67편 --> — 항목 생성(2026-08-06)
 - [x] caloric restriction — Type2 Diabetes에 듣는다  <!-- 시험 17건 · 논문 23편 --> — 항목 생성(2026-08-06)
 - [x] caloric restriction — Weight에 듣는다  <!-- 시험 12건 · 논문 6352편 --> — 근거 없음(2026-08-06 조회, "caloric restriction AND Weight")
-- [ ] caloric restriction — Metabolic Health에 듣는다  <!-- 시험 8건 · 논문 3428편 -->
-- [ ] caloric restriction — Aging에 듣는다  <!-- 시험 7건 · 논문 4433편 -->
-- [ ] low fat diet — Diabetes에 듣는다  <!-- 시험 52건 · 논문 7808편 -->
-- [ ] low fat diet — Metabolic Disease에 듣는다  <!-- 시험 28건 · 논문 12700편 -->
-- [ ] low fat diet — Liver Fat에 듣는다  <!-- 시험 15건 · 논문 7946편 -->
-- [ ] low fat diet — Insulin Resistance에 듣는다  <!-- 시험 13건 · 논문 5176편 -->
-- [ ] swimming — Cold Exposure에 듣는다  <!-- 시험 4건 · 논문 375편 -->
-- [ ] swimming — Pain, Chest에 듣는다  <!-- 시험 4건 · 논문 80편 -->
-- [ ] swimming — Hypertension에 듣는다  <!-- 시험 3건 · 논문 494편 -->
-- [ ] swimming — Motor Function에 듣는다  <!-- 시험 3건 · 논문 5108편 -->
-- [ ] dry needling — Headache에 듣는다  <!-- 시험 27건 · 논문 71편 -->
-- [ ] dry needling — Trigger Point에 듣는다  <!-- 시험 18건 · 논문 625편 -->
-- [ ] white noise — Sleep에 듣는다  <!-- 시험 12건 · 논문 215편 -->
-- [ ] white noise — Newborn에 듣는다  <!-- 시험 9건 · 논문 173편 -->
-- [ ] white noise — Anxiety에 듣는다  <!-- 시험 8건 · 논문 200편 -->
-- [ ] white noise — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 23편 -->
+- [x] caloric restriction — Metabolic Health에 듣는다  <!-- 시험 8건 · 논문 3428편 --> — 항목 생성(2026-08-06)
+- [x] caloric restriction — Aging에 듣는다  <!-- 시험 7건 · 논문 4433편 --> — 항목 생성(2026-08-06)
+- [x] low fat diet — Diabetes에 듣는다  <!-- 시험 52건 · 논문 7808편 --> — 근거 없음(2026-08-06 조회, "low fat diet AND Diabetes")
+- [x] low fat diet — Metabolic Disease에 듣는다  <!-- 시험 28건 · 논문 12700편 --> — 근거 없음(2026-08-06 조회, "low fat diet AND Metabolic Disease")
+- [x] low fat diet — Liver Fat에 듣는다  <!-- 시험 15건 · 논문 7946편 --> — 근거 없음(2026-08-06 조회, "low fat diet AND Liver Fat")
+- [x] low fat diet — Insulin Resistance에 듣는다  <!-- 시험 13건 · 논문 5176편 --> — 근거 없음(2026-08-06 조회, "low fat diet AND Insulin Resistance")
+- [x] swimming — Cold Exposure에 듣는다  <!-- 시험 4건 · 논문 375편 --> — 항목 생성(2026-08-06)
+- [x] swimming — Pain, Chest에 듣는다  <!-- 시험 4건 · 논문 80편 --> — 항목 생성(2026-08-06)
+- [x] swimming — Hypertension에 듣는다  <!-- 시험 3건 · 논문 494편 --> — 근거 없음(2026-08-06 조회, "swimming AND Hypertension")
+- [x] swimming — Motor Function에 듣는다  <!-- 시험 3건 · 논문 5108편 --> — 항목 생성(2026-08-06)
+- [x] dry needling — Headache에 듣는다  <!-- 시험 27건 · 논문 71편 --> — 항목 생성(2026-08-06)
+- [x] dry needling — Trigger Point에 듣는다  <!-- 시험 18건 · 논문 625편 --> — 항목 생성(2026-08-06)
+- [x] white noise — Sleep에 듣는다  <!-- 시험 12건 · 논문 215편 --> — 항목 생성(2026-08-06)
+- [x] white noise — Newborn에 듣는다  <!-- 시험 9건 · 논문 173편 --> — 항목 생성(2026-08-06)
+- [x] white noise — Anxiety에 듣는다  <!-- 시험 8건 · 논문 200편 --> — 항목 생성(2026-08-06)
+- [x] white noise — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 23편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11780,20 +11780,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] stretching exercise — Neck Pain에 듣는다  <!-- 시험 12건 · 논문 340편 -->
-- [ ] stretching exercise — Multiple Sclerosis에 듣는다  <!-- 시험 10건 · 논문 87편 -->
-- [ ] stretching exercise — Work Injury에 듣는다  <!-- 시험 8건 · 논문 193편 -->
-- [ ] stretching exercise — Muscle Tone에 듣는다  <!-- 시험 8건 · 논문 118편 -->
-- [ ] play therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 7532편 -->
-- [ ] play therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 6건 · 논문 999편 -->
-- [ ] play therapy — Child, Only에 듣는다  <!-- 시험 6건 · 논문 1633편 -->
-- [ ] play therapy — Behavior Problem에 듣는다  <!-- 시험 5건 · 논문 406편 -->
-- [ ] lutein — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 31편 -->
-- [ ] propolis — Plaque에 듣는다  <!-- 시험 9건 · 논문 119편 -->
-- [ ] propolis — Pain에 듣는다  <!-- 시험 9건 · 논문 116편 -->
-- [ ] propolis — Inflammation에 듣는다  <!-- 시험 7건 · 논문 575편 -->
-- [ ] propolis — Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 101편 -->
-- [ ] royal jelly — Hypertension에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] stretching exercise — Neck Pain에 듣는다  <!-- 시험 12건 · 논문 340편 --> — 항목 생성(2026-08-06)
+- [x] stretching exercise — Multiple Sclerosis에 듣는다  <!-- 시험 10건 · 논문 87편 --> — 근거 없음(2026-08-06 조회, "stretching exercise AND Multiple Sclerosis")
+- [x] stretching exercise — Work Injury에 듣는다  <!-- 시험 8건 · 논문 193편 --> — 근거 없음(2026-08-06 조회, "stretching exercise AND Work Injury")
+- [x] stretching exercise — Muscle Tone에 듣는다  <!-- 시험 8건 · 논문 118편 --> — 항목 생성(2026-08-06)
+- [x] play therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 7532편 --> — 근거 없음(2026-08-06 조회, "play therapy AND Pain")
+- [x] play therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 6건 · 논문 999편 --> — 항목 생성(2026-08-06)
+- [x] play therapy — Child, Only에 듣는다  <!-- 시험 6건 · 논문 1633편 --> — 근거 없음(2026-08-06 조회, "play therapy AND Child, Only")
+- [x] play therapy — Behavior Problem에 듣는다  <!-- 시험 5건 · 논문 406편 --> — 근거 없음(2026-08-06 조회, "play therapy AND Behavior Problem")
+- [x] lutein — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 항목 생성(2026-08-06)
+- [x] propolis — Plaque에 듣는다  <!-- 시험 9건 · 논문 119편 --> — 항목 생성(2026-08-06)
+- [x] propolis — Pain에 듣는다  <!-- 시험 9건 · 논문 116편 --> — 항목 생성(2026-08-06)
+- [x] propolis — Inflammation에 듣는다  <!-- 시험 7건 · 논문 575편 --> — 항목 생성(2026-08-06)
+- [x] propolis — Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 101편 --> — 항목 생성(2026-08-06)
+- [x] royal jelly — Hypertension에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(2026-08-06)
 - [ ] beetroot juice — Exercise에 듣는다  <!-- 시험 20건 · 논문 431편 -->
 - [ ] beetroot juice — Cardiovascular Health에 듣는다  <!-- 시험 11건 · 논문 113편 -->
 - [ ] beetroot juice — Dietary Nitrate에 듣는다  <!-- 시험 11건 · 논문 495편 -->
