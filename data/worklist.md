@@ -11908,3 +11908,58 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] sourdough — Energy Intake에 듣는다  <!-- 시험 3건 · 논문 9편 -->
 - [ ] coconut oil — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 303편 -->
 - [ ] coconut oil — Inflammation에 듣는다  <!-- 시험 3건 · 논문 191편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] singing therapy — Cardiovascular Health에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [ ] social connection — Suicide Ideation에 듣는다  <!-- 시험 3건 · 논문 406편 -->
+- [ ] social connection — Elderly에 듣는다  <!-- 시험 3건 · 논문 12460편 -->
+- [ ] social connection — Colorectal Cancer에 듣는다  <!-- 시험 3건 · 논문 106편 -->
+- [ ] social connection — Wellbeing에 듣는다  <!-- 시험 3건 · 논문 6235편 -->
+- [ ] community volunteering — Diabetes에 듣는다  <!-- 시험 4건 · 논문 606편 -->
+- [ ] gardening intervention — Anxiety에 듣는다  <!-- 시험 3건 · 논문 329편 -->
+- [ ] gardening intervention — Depression에 듣는다  <!-- 시험 3건 · 논문 473편 -->
+- [ ] gardening intervention — Pre-Diabetes에 듣는다  <!-- 시험 3건 · 논문 39편 -->
+- [ ] gardening intervention — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 151편 -->
+- [ ] laughter intervention — Well-being에 듣는다  <!-- 시험 10건 · 논문 537편 -->
+- [ ] laughter intervention — Education에 듣는다  <!-- 시험 9건 · 논문 145편 -->
+- [ ] laughter intervention — Burnout에 듣는다  <!-- 시험 7건 · 논문 19편 -->
+- [ ] laughter intervention — Anxiety에 듣는다  <!-- 시험 6건 · 논문 143편 -->
+- [ ] compassion practice — Mental Health에 듣는다  <!-- 시험 9건 · 논문 1729편 -->
+- [ ] compassion practice — Anxiety에 듣는다  <!-- 시험 8건 · 논문 768편 -->
+- [ ] compassion practice — Emotion Regulation에 듣는다  <!-- 시험 7건 · 논문 326편 -->
+- [ ] compassion practice — Mindfulness에 듣는다  <!-- 시험 7건 · 논문 933편 -->
+- [ ] leisure activity — Physical Function에 듣는다  <!-- 시험 3건 · 논문 117542편 -->
+- [ ] blueberry — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 94편 -->
+- [ ] blueberry — Executive Function에 듣는다  <!-- 시험 8건 · 논문 25편 -->
+- [ ] blueberry — Inflammation에 듣는다  <!-- 시험 7건 · 논문 307편 -->
+- [ ] blueberry — Diabetes에 듣는다  <!-- 시험 7건 · 논문 198편 -->
+- [ ] walnut — Obesity에 듣는다  <!-- 시험 9건 · 논문 458편 -->
+- [ ] walnut — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 110편 -->
+- [ ] walnut — Diabetes에 듣는다  <!-- 시험 4건 · 논문 674편 -->
+- [ ] walnut — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
+- [ ] almond — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 484편 -->
+- [ ] almond — Overweight에 듣는다  <!-- 시험 7건 · 논문 150편 -->
+- [ ] almond — PreDiabetes에 듣는다  <!-- 시험 7건 · 논문 24편 -->
+- [ ] almond — Glucose Control에 듣는다  <!-- 시험 7건 · 논문 125편 -->
+- [ ] sesame — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [ ] sesame — Sleep에 듣는다  <!-- 시험 3건 · 논문 37편 -->
+- [ ] sesame — Food Allergy에 듣는다  <!-- 시험 3건 · 논문 373편 -->
+- [ ] avocado — Insulin에 듣는다  <!-- 시험 6건 · 논문 63편 -->
+- [ ] avocado — Healthy Adult에 듣는다  <!-- 시험 5건 · 논문 84편 -->
+- [ ] avocado — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 152편 -->
+- [ ] avocado — Diabetes에 듣는다  <!-- 시험 4건 · 논문 136편 -->
+- [ ] yogurt — Inflammation에 듣는다  <!-- 시험 11건 · 논문 270편 -->
+- [ ] yogurt — Diabetes에 듣는다  <!-- 시험 9건 · 논문 489편 -->
+- [ ] yogurt — Gastrointestinal Cancer에 듣는다  <!-- 시험 6건 · 논문 139편 -->
+- [ ] yogurt — Diarrhea에 듣는다  <!-- 시험 6건 · 논문 196편 -->
+- [ ] honey — Oral Mucositis에 듣는다  <!-- 시험 12건 · 논문 131편 -->
+- [ ] honey — Dry Mouth에 듣는다  <!-- 시험 10건 · 논문 34편 -->
+- [ ] honey — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 65편 -->
