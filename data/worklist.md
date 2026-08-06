@@ -11240,36 +11240,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] albuterol — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 164편 --> — 근거 없음(2026-08-06, "albuterol AND Rhinitis")
 - [x] amantadine — Schizoaffective Disorder에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 항목 생성(amantadine-schizoaffective-disorder-open)
 - [x] amantadine — Pain에 듣는다  <!-- 시험 3건 · 논문 270편 --> — 근거 없음(2026-08-06, "amantadine AND Pain")
-- [ ] alendronate — Osteonecrosis에 듣는다  <!-- 시험 5건 · 논문 533편 -->
-- [ ] alendronate — HIV에 듣는다  <!-- 시험 5건 · 논문 35편 -->
-- [ ] alendronate — Rheumatoid Arthritis에 듣는다  <!-- 시험 3건 · 논문 98편 -->
-- [ ] alendronate — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] amlodipine — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 68편 -->
-- [ ] amlodipine — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 -->
-- [ ] amlodipine — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 453편 -->
-- [ ] amlodipine — Angina에 듣는다  <!-- 시험 9건 · 논문 360편 -->
-- [ ] armodafinil — Brain Tumors에 듣는다  <!-- 시험 3건 · 논문 28편 -->
-- [ ] buspirone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 78편 -->
-- [ ] buspirone — Marijuana Abuse에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] buspirone — Parkinson에 듣는다  <!-- 시험 3건 · 논문 79편 -->
-- [ ] carbamazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 4920편 -->
-- [ ] carbamazepine — COVID-19에 듣는다  <!-- 시험 3건 · 논문 52편 -->
-- [ ] carbamazepine — Neuropathic Pain에 듣는다  <!-- 시험 3건 · 논문 1499편 -->
-- [ ] carvedilol — Cardiomyopathy에 듣는다  <!-- 시험 10건 · 논문 537편 -->
-- [ ] carvedilol — Myocardial Strain에 듣는다  <!-- 시험 7건 · 논문 21편 -->
-- [ ] carvedilol — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 171편 -->
-- [ ] carvedilol — Diabetes에 듣는다  <!-- 시험 6건 · 논문 262편 -->
-- [ ] acupressure — Sleep에 듣는다  <!-- 시험 22건 · 논문 359편 -->
-- [ ] acupressure — Insomnia에 듣는다  <!-- 시험 18건 · 논문 139편 -->
-- [ ] acupressure — Constipation에 듣는다  <!-- 시험 15건 · 논문 51편 -->
-- [ ] acupressure — Vomiting에 듣는다  <!-- 시험 10건 · 논문 378편 -->
-- [ ] acupuncture — Insomnia에 듣는다  <!-- 시험 15건 · 논문 1144편 -->
-- [ ] acupuncture — Migraine에 듣는다  <!-- 시험 15건 · 논문 924편 -->
-- [ ] acupuncture — Osteoarthritis에 듣는다  <!-- 시험 15건 · 논문 1454편 -->
-- [ ] acupuncture — Nausea에 듣는다  <!-- 시험 14건 · 논문 1263편 -->
-- [ ] aerobic exercise — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 21568편 -->
-- [ ] aerobic exercise — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 299632편 -->
-- [ ] aerobic exercise — Obesity에 듣는다  <!-- 시험 10건 · 논문 52718편 -->
+- [x] alendronate — Osteonecrosis에 듣는다  <!-- 시험 5건 · 논문 533편 --> — 근거 없음(2026-08-06, "alendronate AND Osteonecrosis")
+- [x] alendronate — HIV에 듣는다  <!-- 시험 5건 · 논문 35편 --> — 항목 생성(alendronate-hiv-pos)
+- [x] alendronate — Rheumatoid Arthritis에 듣는다  <!-- 시험 3건 · 논문 98편 --> — 항목 생성(alendronate-rheumatoid-arthritis-pos)
+- [x] alendronate — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(alendronate-cystic-fibrosis-pos)
+- [x] amlodipine — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 68편 --> — 근거 없음(2026-08-06, "amlodipine AND Hypercholesterolemia")
+- [x] amlodipine — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 --> — 근거 없음(2026-08-06, "amlodipine AND Obesity")
+- [x] amlodipine — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 453편 --> — 근거 없음(2026-08-06, "amlodipine AND Heart Failure")
+- [x] amlodipine — Angina에 듣는다  <!-- 시험 9건 · 논문 360편 --> — 허가 적응증(2026-08-06)
+- [x] armodafinil — Brain Tumors에 듣는다  <!-- 시험 3건 · 논문 28편 --> — 근거 없음(2026-08-06, "armodafinil AND Brain Tumors")
+- [x] buspirone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "buspirone AND Schizophrenia")
+- [x] buspirone — Marijuana Abuse에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-06, "buspirone AND Marijuana Abuse")
+- [x] buspirone — Parkinson에 듣는다  <!-- 시험 3건 · 논문 79편 --> — 항목 생성(buspirone-parkinson-harm)
+- [x] carbamazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 4920편 --> — 허가 적응증(2026-08-06)
+- [x] carbamazepine — COVID-19에 듣는다  <!-- 시험 3건 · 논문 52편 --> — 항목 생성(carbamazepine-covid-19-null)
+- [x] carbamazepine — Neuropathic Pain에 듣는다  <!-- 시험 3건 · 논문 1499편 --> — 항목 생성(carbamazepine-neuropathic-pain-open)
+- [x] carvedilol — Cardiomyopathy에 듣는다  <!-- 시험 10건 · 논문 537편 --> — 근거 없음(2026-08-06, "carvedilol AND Cardiomyopathy")
+- [x] carvedilol — Myocardial Strain에 듣는다  <!-- 시험 7건 · 논문 21편 --> — 근거 없음(2026-08-06, "carvedilol AND Myocardial Strain")
+- [x] carvedilol — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 171편 --> — 항목 생성(carvedilol-atrial-fibrillation-pos)
+- [x] carvedilol — Diabetes에 듣는다  <!-- 시험 6건 · 논문 262편 --> — 근거 없음(2026-08-06, "carvedilol AND Diabetes")
+- [x] acupressure — Sleep에 듣는다  <!-- 시험 22건 · 논문 359편 --> — 항목 생성(acupressure-sleep-pos)
+- [x] acupressure — Insomnia에 듣는다  <!-- 시험 18건 · 논문 139편 --> — 항목 생성(acupressure-insomnia-open)
+- [x] acupressure — Constipation에 듣는다  <!-- 시험 15건 · 논문 51편 --> — 항목 생성(acupressure-constipation-pos)
+- [x] acupressure — Vomiting에 듣는다  <!-- 시험 10건 · 논문 378편 --> — 항목 생성(acupressure-vomiting-pos)
+- [x] acupuncture — Insomnia에 듣는다  <!-- 시험 15건 · 논문 1144편 --> — 항목 생성(acupuncture-insomnia-pos)
+- [x] acupuncture — Migraine에 듣는다  <!-- 시험 15건 · 논문 924편 --> — 항목 생성(acupuncture-migraine-open)
+- [x] acupuncture — Osteoarthritis에 듣는다  <!-- 시험 15건 · 논문 1454편 --> — 항목 생성(acupuncture-osteoarthritis-open)
+- [x] acupuncture — Nausea에 듣는다  <!-- 시험 14건 · 논문 1263편 --> — 항목 생성(acupuncture-nausea-pos)
+- [x] aerobic exercise — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 21568편 --> — 항목 생성(aerobic-exercise-heart-failure-pos)
+- [x] aerobic exercise — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 299632편 --> — 근거 없음(2026-08-06, "aerobic exercise AND Motor Activity")
+- [x] aerobic exercise — Obesity에 듣는다  <!-- 시험 10건 · 논문 52718편 --> — 항목 생성(aerobic-exercise-obesity-pos)
 - [ ] aerobic exercise — Cognitive Change에 듣는다  <!-- 시험 10건 · 논문 10117편 -->
 - [ ] balance training — Physical Therapy에 듣는다  <!-- 시험 8건 · 논문 10787편 -->
 - [ ] balance training — Fall Patients에 듣는다  <!-- 시험 7건 · 논문 862편 -->
