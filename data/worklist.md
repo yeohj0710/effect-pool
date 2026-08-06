@@ -11497,33 +11497,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sitagliptin — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 5건 · 논문 19편 --> — 항목 생성(sitagliptin-polycystic-ovary-syndrome-pos)
 - [x] telmisartan — Diabetic Nephropathy에 듣는다  <!-- 시험 7건 · 논문 166편 --> — 항목 생성(telmisartan-diabetic-nephropathy-open)
 - [x] telmisartan — Hyperlipidemia에 듣는다  <!-- 시험 6건 · 논문 39편 --> — 항목 생성(telmisartan-hyperlipidemia-pos)
-- [ ] telmisartan — COVID-19에 듣는다  <!-- 시험 6건 · 논문 38편 -->
-- [ ] telmisartan — Covid19에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] valsartan — Myocardial Injury에 듣는다  <!-- 시험 12건 · 논문 113편 -->
-- [ ] valsartan — Ventricular Remodeling에 듣는다  <!-- 시험 12건 · 논문 414편 -->
-- [ ] valsartan — Obesity에 듣는다  <!-- 시험 8건 · 논문 174편 -->
-- [ ] valsartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 2041편 -->
-- [ ] water aerobics — Aging에 듣는다  <!-- 시험 4건 · 논문 1116편 -->
-- [ ] nature therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 3302편 -->
-- [ ] nature therapy — Loneliness에 듣는다  <!-- 시험 3건 · 논문 128편 -->
-- [ ] nature therapy — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 552편 -->
-- [ ] nature therapy — Mental Health에 듣는다  <!-- 시험 3건 · 논문 7080편 -->
-- [ ] relaxation training — Stress에 듣는다  <!-- 시험 23건 · 논문 6694편 -->
-- [ ] relaxation training — Cancer에 듣는다  <!-- 시험 18건 · 논문 3193편 -->
-- [ ] relaxation training — Depression에 듣는다  <!-- 시험 12건 · 논문 3326편 -->
-- [ ] relaxation training — Neck Pain에 듣는다  <!-- 시험 11건 · 논문 256편 -->
-- [ ] stress management — Depression에 듣는다  <!-- 시험 13건 · 논문 18331편 -->
-- [ ] stress management — Anxiety에 듣는다  <!-- 시험 13건 · 논문 17137편 -->
-- [ ] stress management — Pregnancy에 듣는다  <!-- 시험 7건 · 논문 5653편 -->
-- [ ] stress management — Mental Health에 듣는다  <!-- 시험 7건 · 논문 21982편 -->
-- [ ] exercise snacks — Sedentary Time에 듣는다  <!-- 시험 10건 · 논문 244편 -->
-- [ ] exercise snacks — Diabetes에 듣는다  <!-- 시험 10건 · 논문 210편 -->
-- [ ] exercise snacks — Physical Activity에 듣는다  <!-- 시험 8건 · 논문 1595편 -->
-- [ ] exercise snacks — Muscle Power에 듣는다  <!-- 시험 7건 · 논문 12편 -->
-- [ ] guided breathing — Cancer에 듣는다  <!-- 시험 18건 · 논문 1927편 -->
-- [ ] guided breathing — Pain에 듣는다  <!-- 시험 17건 · 논문 816편 -->
-- [ ] guided breathing — Mechanical Power에 듣는다  <!-- 시험 15건 · 논문 78편 -->
-- [ ] guided breathing — Surgery에 듣는다  <!-- 시험 12건 · 논문 2557편 -->
+- [x] telmisartan — COVID-19에 듣는다  <!-- 시험 6건 · 논문 38편 --> — 항목 생성(telmisartan-covid-19-null)
+- [x] telmisartan — Covid19에 듣는다  <!-- 시험 4건 · 논문 37편 --> — 중복 항목(2026-08-06, COVID-19)
+- [x] valsartan — Myocardial Injury에 듣는다  <!-- 시험 12건 · 논문 113편 --> — 항목 생성(valsartan-myocardial-injury-pos)
+- [x] valsartan — Ventricular Remodeling에 듣는다  <!-- 시험 12건 · 논문 414편 --> — 근거 없음(2026-08-06, "valsartan AND Ventricular Remodeling")
+- [x] valsartan — Obesity에 듣는다  <!-- 시험 8건 · 논문 174편 --> — 근거 없음(2026-08-06, "valsartan AND Obesity")
+- [x] valsartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 2041편 --> — 허가 적응증(2026-08-06)
+- [x] water aerobics — Aging에 듣는다  <!-- 시험 4건 · 논문 1116편 --> — 근거 없음(2026-08-06, "water aerobics AND Aging")
+- [x] nature therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 3302편 --> — 근거 없음(2026-08-06, "nature therapy AND Stroke")
+- [x] nature therapy — Loneliness에 듣는다  <!-- 시험 3건 · 논문 128편 --> — 항목 생성(nature-therapy-loneliness-open)
+- [x] nature therapy — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 552편 --> — 근거 없음(2026-08-06, "nature therapy AND Virtual Reality")
+- [x] nature therapy — Mental Health에 듣는다  <!-- 시험 3건 · 논문 7080편 --> — 근거 없음(2026-08-06, "nature therapy AND Mental Health")
+- [x] relaxation training — Stress에 듣는다  <!-- 시험 23건 · 논문 6694편 --> — 근거 없음(2026-08-06, "relaxation training AND Stress")
+- [x] relaxation training — Cancer에 듣는다  <!-- 시험 18건 · 논문 3193편 --> — 근거 없음(2026-08-06, "relaxation training AND Cancer")
+- [x] relaxation training — Depression에 듣는다  <!-- 시험 12건 · 논문 3326편 --> — 항목 생성(relaxation-training-depression-pos)
+- [x] relaxation training — Neck Pain에 듣는다  <!-- 시험 11건 · 논문 256편 --> — 항목 생성(relaxation-training-neck-pain-pos)
+- [x] stress management — Depression에 듣는다  <!-- 시험 13건 · 논문 18331편 --> — 근거 없음(2026-08-06, "stress management AND Depression")
+- [x] stress management — Anxiety에 듣는다  <!-- 시험 13건 · 논문 17137편 --> — 근거 없음(2026-08-06, "stress management AND Anxiety")
+- [x] stress management — Pregnancy에 듣는다  <!-- 시험 7건 · 논문 5653편 --> — 항목 생성(stress-management-pregnancy-open)
+- [x] stress management — Mental Health에 듣는다  <!-- 시험 7건 · 논문 21982편 --> — 근거 없음(2026-08-06, "stress management AND Mental Health")
+- [x] exercise snacks — Sedentary Time에 듣는다  <!-- 시험 10건 · 논문 244편 --> — 항목 생성(exercise-snacks-sedentary-time-pos)
+- [x] exercise snacks — Diabetes에 듣는다  <!-- 시험 10건 · 논문 210편 --> — 항목 생성(exercise-snacks-diabetes-pos)
+- [x] exercise snacks — Physical Activity에 듣는다  <!-- 시험 8건 · 논문 1595편 --> — 항목 생성(exercise-snacks-physical-activity-null)
+- [x] exercise snacks — Muscle Power에 듣는다  <!-- 시험 7건 · 논문 12편 --> — 항목 생성(exercise-snacks-muscle-power-pos)
+- [x] guided breathing — Cancer에 듣는다  <!-- 시험 18건 · 논문 1927편 --> — 근거 없음(2026-08-06, "guided breathing AND Cancer")
+- [x] guided breathing — Pain에 듣는다  <!-- 시험 17건 · 논문 816편 --> — 근거 없음(2026-08-06, "guided breathing AND Pain")
+- [x] guided breathing — Mechanical Power에 듣는다  <!-- 시험 15건 · 논문 78편 --> — 근거 없음(2026-08-06, "guided breathing AND Mechanical Power")
+- [x] guided breathing — Surgery에 듣는다  <!-- 시험 12건 · 논문 2557편 --> — 근거 없음(2026-08-06, "guided breathing AND Surgery")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11534,9 +11534,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] acceptance and commitment therapy — Stress에 듣는다  <!-- 시험 24건 · 논문 676편 -->
-- [ ] acceptance and commitment therapy — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 64편 -->
-- [ ] acceptance and commitment therapy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 96편 -->
+- [x] acceptance and commitment therapy — Stress에 듣는다  <!-- 시험 24건 · 논문 676편 --> — 항목 생성(acceptance-commitment-therapy-stress-pos)
+- [x] acceptance and commitment therapy — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 64편 --> — 항목 생성(acceptance-commitment-therapy-opioid-use-null)
+- [x] acceptance and commitment therapy — Diabetes에 듣는다  <!-- 시험 15건 · 논문 96편 --> — 항목 생성(acceptance-commitment-therapy-diabetes-pos)
 - [ ] acceptance and commitment therapy — Lung Neoplasms에 듣는다  <!-- 시험 13건 · 논문 15편 -->
 - [ ] aerobic exercise — Stroke에 듣는다  <!-- 시험 9건 · 논문 27199편 -->
 - [ ] aerobic exercise — Brain Concussion에 듣는다  <!-- 시험 9건 · 논문 1656편 -->
