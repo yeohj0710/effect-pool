@@ -10130,20 +10130,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] deferiprone — Sickle Cell Disease에 듣는다 — 허가·표준 철 과부하 치료(2026-08-06)  <!-- 시험 3건 · 논문 65편 -->
 - [x] deferiprone — Pantothenate Kinase-Associated Neurodegeneration에 듣는다 — 항목 생성(deferiprone-pkan-null)(2026-08-06)  <!-- 시험 3건 · 논문 21편 -->
 - [x] elagolix — Uterine Fibroids에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 57편 -->
-- [ ] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 -->
-- [ ] elagolix — Infertility에 듣는다  <!-- 시험 4건 · 논문 31편 -->
-- [ ] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 -->
-- [ ] luspatercept — Thalassemia에 듣는다  <!-- 시험 14건 · 논문 125편 -->
-- [ ] luspatercept — Myelofibrosis (MF)에 듣는다  <!-- 시험 6건 · 논문 17편 -->
-- [ ] luspatercept — Acute Leukemia에 듣는다  <!-- 시험 5건 · 논문 50편 -->
-- [ ] omadacycline — Bone Infection에 듣는다  <!-- 시험 6건 · 논문 16편 -->
-- [ ] ravulizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 98편 -->
-- [ ] ravulizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 5건 · 논문 71편 -->
-- [ ] ravulizumab — aHUS에 듣는다  <!-- 시험 5건 · 논문 98편 -->
-- [ ] teprotumumab — Graves Disease에 듣는다  <!-- 시험 5건 · 논문 351편 -->
-- [ ] voclosporin — Psoriasis에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] voclosporin — Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 94편 -->
-- [ ] abrocitinib — Eczema에 듣는다  <!-- 시험 3건 · 논문 173편 -->
+- [x] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 --> — 허가 적응증(2026-08-06)
+- [x] elagolix — Infertility에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 항목 생성(elagolix-infertility-pos)
+- [x] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 --> — 허가 적응증(2026-08-06)
+- [x] luspatercept — Thalassemia에 듣는다  <!-- 시험 14건 · 논문 125편 --> — 허가 적응증(2026-08-06)
+- [x] luspatercept — Myelofibrosis (MF)에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 항목 생성(luspatercept-myelofibrosis-pos)
+- [x] luspatercept — Acute Leukemia에 듣는다  <!-- 시험 5건 · 논문 50편 --> — 근거 없음(2026-08-06, luspatercept AND Acute Leukemia)
+- [x] omadacycline — Bone Infection에 듣는다  <!-- 시험 6건 · 논문 16편 --> — 근거 없음(2026-08-06, omadacycline AND Bone Infection)
+- [x] ravulizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 98편 --> — 허가 적응증(2026-08-06)
+- [x] ravulizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 5건 · 논문 71편 --> — 허가 적응증(2026-08-06)
+- [x] ravulizumab — aHUS에 듣는다  <!-- 시험 5건 · 논문 98편 --> — 허가 적응증(2026-08-06)
+- [x] teprotumumab — Graves Disease에 듣는다  <!-- 시험 5건 · 논문 351편 --> — 허가 적응증(2026-08-06)
+- [x] voclosporin — Psoriasis에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(voclosporin-psoriasis-pos)
+- [x] voclosporin — Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 94편 --> — 허가 적응증(2026-08-06)
+- [x] abrocitinib — Eczema에 듣는다  <!-- 시험 3건 · 논문 173편 --> — 허가 적응증(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10154,9 +10154,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dornase alfa — COVID-19에 듣는다  <!-- 시험 6건 · 논문 19편 -->
-- [ ] dornase alfa — Atelectasis에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] dornase alfa — Lower Respiratory Tract Infection에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [x] dornase alfa — COVID-19에 듣는다  <!-- 시험 6건 · 논문 19편 --> — 항목 생성(dornase-alfa-covid-19-null)
+- [x] dornase alfa — Atelectasis에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 항목 생성(dornase-alfa-atelectasis-pos)
+- [x] dornase alfa — Lower Respiratory Tract Infection에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(dornase-alfa-lower-respiratory-tract-infection-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10167,19 +10167,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] psyllium — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 74편 -->
-- [ ] psyllium — Incontinence에 듣는다  <!-- 시험 6건 · 논문 27편 -->
-- [ ] psyllium — Obesity에 듣는다  <!-- 시험 4건 · 논문 68편 -->
-- [ ] yoga — Pain에 듣는다  <!-- 시험 92건 · 논문 1723편 -->
-- [ ] yoga — Stress에 듣는다  <!-- 시험 66건 · 논문 2548편 -->
-- [ ] yoga — Anxiety에 듣는다  <!-- 시험 36건 · 논문 1780편 -->
-- [ ] yoga — Depression에 듣는다  <!-- 시험 32건 · 논문 1774편 -->
-- [ ] meditation — Anxiety에 듣는다  <!-- 시험 27건 · 논문 2315편 -->
-- [ ] meditation — Cancer에 듣는다  <!-- 시험 26건 · 논문 1191편 -->
-- [ ] meditation — Pain에 듣는다  <!-- 시험 25건 · 논문 1348편 -->
-- [ ] meditation — Depression에 듣는다  <!-- 시험 19건 · 논문 2157편 -->
-- [ ] tai chi — Cognitive Decline에 듣는다  <!-- 시험 25건 · 논문 185편 -->
-- [ ] tai chi — Aging에 듣는다  <!-- 시험 18건 · 논문 584편 -->
+- [x] psyllium — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 74편 --> — 항목 생성(psyllium-irritable-bowel-pos)
+- [x] psyllium — Incontinence에 듣는다  <!-- 시험 6건 · 논문 27편 --> — 항목 생성(psyllium-incontinence-null)
+- [x] psyllium — Obesity에 듣는다  <!-- 시험 4건 · 논문 68편 --> — 항목 생성(psyllium-obesity-pos)
+- [x] yoga — Pain에 듣는다  <!-- 시험 92건 · 논문 1723편 --> — 항목 생성(yoga-pain-pos)
+- [x] yoga — Stress에 듣는다  <!-- 시험 66건 · 논문 2548편 --> — 항목 생성(yoga-stress-pos)
+- [x] yoga — Anxiety에 듣는다  <!-- 시험 36건 · 논문 1780편 --> — 항목 생성(yoga-anxiety-pos)
+- [x] yoga — Depression에 듣는다  <!-- 시험 32건 · 논문 1774편 --> — 항목 생성(yoga-depression-pos)
+- [x] meditation — Anxiety에 듣는다  <!-- 시험 27건 · 논문 2315편 --> — 항목 생성(meditation-anxiety-depression-pos)
+- [x] meditation — Cancer에 듣는다  <!-- 시험 26건 · 논문 1191편 --> — 항목 생성(meditation-cancer-pos)
+- [x] meditation — Pain에 듣는다  <!-- 시험 25건 · 논문 1348편 --> — 항목 생성(meditation-pain-pos)
+- [x] meditation — Depression에 듣는다  <!-- 시험 19건 · 논문 2157편 --> — 같은 근거(meditation-anxiety-depression-pos)
+- [x] tai chi — Cognitive Decline에 듣는다  <!-- 시험 25건 · 논문 185편 --> — 항목 생성(tai-chi-cognitive-decline-pos)
+- [x] tai chi — Aging에 듣는다  <!-- 시험 18건 · 논문 584편 --> — 항목 생성(tai-chi-aging-pos)
 - [ ] tai chi — Neck Pain에 듣는다  <!-- 시험 15건 · 논문 43편 -->
 - [ ] tai chi — OA Knee에 듣는다  <!-- 시험 13건 · 논문 61편 -->
 - [ ] resistance training — Cancer에 듣는다  <!-- 시험 17건 · 논문 4245편 -->
