@@ -11080,36 +11080,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 --> — 허가 적응증(2026-08-06)
 - [x] diltiazem — Drug Dependence에 듣는다  <!-- 시험 4건 · 논문 282편 --> — 근거 없음(2026-08-06, "diltiazem AND Drug Dependence")
 - [x] diltiazem — Pain에 듣는다  <!-- 시험 4건 · 논문 991편 --> — 항목 생성(2026-08-06)
-- [ ] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 -->
-- [ ] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 -->
-- [ ] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 -->
-- [ ] empagliflozin — Obesity에 듣는다  <!-- 시험 13건 · 논문 302편 -->
-- [ ] empagliflozin — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 79편 -->
-- [ ] famotidine — Acid Reflux에 듣는다  <!-- 시험 7건 · 논문 153편 -->
-- [ ] famotidine — Ulcer에 듣는다  <!-- 시험 6건 · 논문 1004편 -->
-- [ ] famotidine — HIV에 듣는다  <!-- 시험 5건 · 논문 14편 -->
-- [ ] famotidine — SARS-CoV-2 Infection에 듣는다  <!-- 시험 5건 · 논문 103편 -->
-- [ ] ivermectin — Drug Effect에 듣는다  <!-- 시험 4건 · 논문 6009편 -->
-- [ ] ivermectin — Loiasis에 듣는다  <!-- 시험 3건 · 논문 250편 -->
-- [ ] ivermectin — Trachoma에 듣는다  <!-- 시험 3건 · 논문 33편 -->
-- [ ] moxifloxacin — Cataract에 듣는다  <!-- 시험 16건 · 논문 337편 -->
-- [ ] moxifloxacin — Pulmonary Disease에 듣는다  <!-- 시험 16건 · 논문 1017편 -->
-- [ ] moxifloxacin — QT/QTc에 듣는다  <!-- 시험 16건 · 논문 182편 -->
-- [ ] moxifloxacin — Infections에 듣는다  <!-- 시험 14건 · 논문 5315편 -->
-- [ ] nitrofurantoin — Pain에 듣는다  <!-- 시험 3건 · 논문 90편 -->
-- [ ] ranitidine — Food-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 26편 -->
-- [ ] ranitidine — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] rebamipide — Gastric Lesion에 듣는다  <!-- 시험 3건 · 논문 58편 -->
-- [ ] sitagliptin — Glucose Intolerance에 듣는다  <!-- 시험 7건 · 논문 44편 -->
-- [ ] sitagliptin — Hyperglycemia에 듣는다  <!-- 시험 6건 · 논문 341편 -->
-- [ ] sitagliptin — Liver Insufficiency에 듣는다  <!-- 시험 6건 · 논문 13편 -->
-- [ ] tapentadol — Cancer에 듣는다  <!-- 시험 4건 · 논문 145편 -->
-- [ ] gardening — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 234편 -->
-- [ ] gardening — Pre-Diabetes에 듣는다  <!-- 시험 3건 · 논문 56편 -->
-- [ ] meal planning — Food Insecurity에 듣는다  <!-- 시험 4건 · 논문 77편 -->
-- [ ] meal planning — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 -->
-- [ ] meal planning — Stress에 듣는다  <!-- 시험 3건 · 논문 127편 -->
-- [ ] sleep education — Obesity에 듣는다  <!-- 시험 6건 · 논문 3343편 -->
+- [x] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 --> — 허가 적응증(2026-08-06)
+- [x] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 --> — 허가 적응증(2026-08-06)
+- [x] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 --> — 근거 없음(2026-08-06, "empagliflozin AND SGLT2 Inhibitors")
+- [x] empagliflozin — Obesity에 듣는다  <!-- 시험 13건 · 논문 302편 --> — 근거 없음(2026-08-06, "empagliflozin AND Obesity")
+- [x] empagliflozin — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 79편 --> — 근거 없음(2026-08-06, "empagliflozin AND Metabolic Syndrome")
+- [x] famotidine — Acid Reflux에 듣는다  <!-- 시험 7건 · 논문 153편 --> — 허가 적응증(2026-08-06)
+- [x] famotidine — Ulcer에 듣는다  <!-- 시험 6건 · 논문 1004편 --> — 허가 적응증(2026-08-06)
+- [x] famotidine — HIV에 듣는다  <!-- 시험 5건 · 논문 14편 --> — 근거 없음(2026-08-06, "famotidine AND HIV")
+- [x] famotidine — SARS-CoV-2 Infection에 듣는다  <!-- 시험 5건 · 논문 103편 --> — 항목 생성(2026-08-06)
+- [x] ivermectin — Drug Effect에 듣는다  <!-- 시험 4건 · 논문 6009편 --> — 근거 없음(2026-08-06, "ivermectin AND Drug Effect")
+- [x] ivermectin — Loiasis에 듣는다  <!-- 시험 3건 · 논문 250편 --> — 항목 생성(2026-08-06)
+- [x] ivermectin — Trachoma에 듣는다  <!-- 시험 3건 · 논문 33편 --> — 근거 없음(2026-08-06, "ivermectin AND Trachoma")
+- [x] moxifloxacin — Cataract에 듣는다  <!-- 시험 16건 · 논문 337편 --> — 항목 생성(2026-08-06)
+- [x] moxifloxacin — Pulmonary Disease에 듣는다  <!-- 시험 16건 · 논문 1017편 --> — 근거 없음(2026-08-06, "moxifloxacin AND Pulmonary Disease")
+- [x] moxifloxacin — QT/QTc에 듣는다  <!-- 시험 16건 · 논문 182편 --> — 근거 없음(2026-08-06, "moxifloxacin AND QT/QTc")
+- [x] moxifloxacin — Infections에 듣는다  <!-- 시험 14건 · 논문 5315편 --> — 허가 적응증(2026-08-06)
+- [x] nitrofurantoin — Pain에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-06, "nitrofurantoin AND Pain")
+- [x] ranitidine — Food-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 근거 없음(2026-08-06, "ranitidine AND Food-drug Interaction")
+- [x] ranitidine — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-06, "ranitidine AND Coronary Artery Disease")
+- [x] rebamipide — Gastric Lesion에 듣는다  <!-- 시험 3건 · 논문 58편 --> — 근거 없음(2026-08-06, "rebamipide AND Gastric Lesion")
+- [x] sitagliptin — Glucose Intolerance에 듣는다  <!-- 시험 7건 · 논문 44편 --> — 근거 없음(2026-08-06, "sitagliptin AND Glucose Intolerance")
+- [x] sitagliptin — Hyperglycemia에 듣는다  <!-- 시험 6건 · 논문 341편 --> — 허가 적응증(2026-08-06)
+- [x] sitagliptin — Liver Insufficiency에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 근거 없음(2026-08-06, "sitagliptin AND Liver Insufficiency")
+- [x] tapentadol — Cancer에 듣는다  <!-- 시험 4건 · 논문 145편 --> — 항목 생성(2026-08-06)
+- [x] gardening — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 234편 --> — 근거 없음(2026-08-06, "gardening AND Malnutrition")
+- [x] gardening — Pre-Diabetes에 듣는다  <!-- 시험 3건 · 논문 56편 --> — 근거 없음(2026-08-06, "gardening AND Pre-Diabetes")
+- [x] meal planning — Food Insecurity에 듣는다  <!-- 시험 4건 · 논문 77편 --> — 근거 없음(2026-08-06, "meal planning AND Food Insecurity")
+- [x] meal planning — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-06, "meal planning AND Breast Cancer")
+- [x] meal planning — Stress에 듣는다  <!-- 시험 3건 · 논문 127편 --> — 근거 없음(2026-08-06, "meal planning AND Stress")
+- [x] sleep education — Obesity에 듣는다  <!-- 시험 6건 · 논문 3343편 --> — 근거 없음(2026-08-06, "sleep education AND Obesity")
 - [ ] sleep education — Type 1 Diabetes에 듣는다  <!-- 시험 6건 · 논문 122편 -->
 - [ ] sleep education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 6170편 -->
 - [ ] sleep education — Osteoarthritis, Hip에 듣는다  <!-- 시험 6건 · 논문 31편 -->
