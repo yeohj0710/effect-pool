@@ -12907,3 +12907,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] solriamfetol — Sleep Disturbance에 듣는다  <!-- 시험 5건 · 논문 95편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] patient activation — Eye Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation AND cond=Eye Cancer; PubMed patient activation AND Eye Cancer)  <!-- 시험 4건 · 논문 246편 -->
+- [x] patient activation — Cardiovascular Disease에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation AND cond=Cardiovascular Disease; PubMed patient activation AND Cardiovascular Disease)  <!-- 시험 3건 · 논문 15620편 -->
+- [x] patient activation — Diabetes에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation AND cond=Diabetes; PubMed patient activation AND Diabetes)  <!-- 시험 3건 · 논문 5966편 -->
+- [x] patient activation — Chronic Pain에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=patient activation AND cond=Chronic Pain; PubMed patient activation AND Chronic Pain)  <!-- 시험 3건 · 논문 2252편 -->
+- [x] social isolation intervention — Aging에 듣는다  <!-- 시험 5건 · 논문 3395편 -->
+- [x] social isolation intervention — Cognitive Decline에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=social isolation intervention AND cond=Cognitive Decline; PubMed social isolation intervention AND Cognitive Decline)  <!-- 시험 3건 · 논문 766편 -->
+- [x] sauna therapy — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 146편 -->
+- [x] teriflunomide — Skin Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=teriflunomide AND cond=Skin Cancer; PubMed teriflunomide AND Skin Cancer)  <!-- 시험 4건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] group art therapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 555편 -->
+- [x] group art therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 453편 -->
+- [x] group art therapy — ART에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=group art therapy AND cond=ART; PubMed group art therapy AND ART)  <!-- 시험 6건 · 논문 14193편 -->
+- [x] group art therapy — PTSD에 듣는다  <!-- 시험 5건 · 논문 98편 -->
+- [x] digital wellbeing program — Psychological Stress에 듣는다  <!-- 시험 5건 · 논문 204편 -->
+- [x] digital wellbeing program — Type 1 Diabetes에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [x] atrasentan — Kidney Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=atrasentan AND cond=Kidney Cancer; PubMed atrasentan AND Kidney Cancer)  <!-- 시험 11건 · 논문 8편 -->
+- [x] atrasentan — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 83편 -->
+- [x] fenfluramine — Epilepsy에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 274편 -->
+- [x] fenfluramine — Lennox Gastaut Syndrome에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 82편 -->
+- [x] fenfluramine — Amphetamine Abuse에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=fenfluramine AND cond=Amphetamine Abuse; PubMed fenfluramine AND Amphetamine Abuse)  <!-- 시험 3건 · 논문 64편 -->
+- [x] cenobamate — Focal Seizure에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 261편 -->
