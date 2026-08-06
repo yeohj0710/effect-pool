@@ -1,0 +1,32 @@
+{
+  "id": "transcutaneous-electrical-nerve-stimulation-stroke-pos",
+  "subj": "transcutaneous electrical nerve stimulation",
+  "claim": "경피 전기신경자극을 뇌졸중 후 경직에 쓴다",
+  "line": "뇌졸중 하지 경직을 줄였습니다",
+  "effect": "경직 SMD −0.64",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "뇌졸중 성인의 경직에 TENS를 물리치료와 병행한 임상시험 메타분석을 확인했습니다",
+  "saw": "15개 연구의 메타분석에서 TENS 병행군은 가짜 TENS 또는 물리치료 단독보다 하지 경직이 줄었습니다",
+  "limit": "상지 경직 연구가 적고 초록에 전체 참여자 수가 제시되지 않았습니다",
+  "against": "가짜 TENS 또는 물리치료 단독",
+  "use": "뇌졸중 후 하지 경직의 물리치료 보조중재 신호로만 봅니다",
+  "refs": [
+    {
+      "label": "Effect of Transcutaneous Electrical Nerve Stimulation on Spasticity in Adults With Stroke: A Systematic Review and Meta-analysis",
+      "doi": "10.1016/j.apmr.2018.10.016",
+      "pmid": "30452892"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=transcutaneous electrical nerve stimulation · cond=Stroke: 12건",
+    "pubmed": "transcutaneous electrical nerve stimulation AND Stroke AND (randomized OR trial OR meta-analysis): 412건",
+    "negative": "transcutaneous electrical nerve stimulation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 755건",
+    "safety": "transcutaneous electrical nerve stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2508건"
+  }
+}

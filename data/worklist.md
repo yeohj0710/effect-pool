@@ -12097,14 +12097,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metacognitive therapy — Aphasia에 듣는다  <!-- 시험 9건 · 논문 15편 --> — 항목 생성(2026-08-06)
 - [x] cognitive processing therapy — PTSD에 듣는다  <!-- 시험 56건 · 논문 4130편 --> — 항목 생성(2026-08-06)
 - [x] cognitive processing therapy — Depression에 듣는다  <!-- 시험 36건 · 논문 24647편 --> — 항목 생성(2026-08-06)
-- [ ] cognitive processing therapy — Schizophrenia에 듣는다  <!-- 시험 29건 · 논문 9183편 -->
-- [ ] cognitive processing therapy — Anxiety Symptoms에 듣는다  <!-- 시험 26건 · 논문 11058편 -->
+- [x] cognitive processing therapy — Schizophrenia에 듣는다  <!-- 시험 29건 · 논문 9183편 --> — 근거 없음(2026-08-06 조회, "cognitive processing therapy schizophrenia human intervention")
+- [x] cognitive processing therapy — Anxiety Symptoms에 듣는다  <!-- 시험 26건 · 논문 11058편 --> — 근거 없음(2026-08-06 조회, "cognitive processing therapy anxiety symptoms human intervention")
 - [ ] exposure and response prevention — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1418편 -->
 - [ ] exposure and response prevention — Tic Disorders에 듣는다  <!-- 시험 8건 · 논문 72편 -->
 - [ ] exposure and response prevention — Tourette Disease에 듣는다  <!-- 시험 7건 · 논문 64편 -->
 - [ ] exposure and response prevention — Binge Eating에 듣는다  <!-- 시험 5건 · 논문 53편 -->
-- [ ] oats — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 333편 -->
-- [ ] oats — Gluten Allergy에 듣는다  <!-- 시험 3건 · 논문 31편 -->
+- [x] oats — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 333편 --> — 근거 없음(2026-08-06 조회, "oats cardiovascular disease human intervention")
+- [x] oats — Gluten Allergy에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 근거 없음(2026-08-06 조회, "oats gluten allergy human intervention")
 - [ ] barley — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 211편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12133,10 +12133,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] constraint-induced movement therapy — Hemiparesis에 듣는다  <!-- 시험 6건 · 논문 230편 -->
 - [ ] constraint-induced movement therapy — Hemiplegia에 듣는다  <!-- 시험 6건 · 논문 214편 -->
 - [ ] spinal cord stimulation — Stroke에 듣는다  <!-- 시험 16건 · 논문 837편 -->
-- [ ] spinal cord stimulation — Diabetic Neuropathy에 듣는다  <!-- 시험 16건 · 논문 282편 -->
-- [ ] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다  <!-- 시험 14건 · 논문 649편 -->
+- [x] spinal cord stimulation — Diabetic Neuropathy에 듣는다  <!-- 시험 16건 · 논문 282편 --> — 허가 적응증(2026-08-06)
+- [x] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다  <!-- 시험 14건 · 논문 649편 --> — 허가 적응증(2026-08-06)
 - [ ] spinal cord stimulation — Parkinson Disease에 듣는다  <!-- 시험 14건 · 논문 328편 -->
-- [ ] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 -->
+- [x] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 --> — 허가 적응증(2026-08-06)
 - [ ] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 -->
 - [ ] deep brain stimulation — Compulsive Shopping에 듣는다  <!-- 시험 26건 · 논문 8편 -->
 - [ ] deep brain stimulation — Major Depression에 듣는다  <!-- 시험 16건 · 논문 759편 -->

@@ -1,0 +1,32 @@
+{
+  "id": "functional-electrical-stimulation-acquired-brain-injury-pos",
+  "subj": "functional electrical stimulation",
+  "claim": "기능적 전기자극을 후천성 뇌손상에 쓴다",
+  "line": "후천성 뇌손상에서 상지 운동기능이 개선됐습니다",
+  "effect": "FMA SMD 0.66·AROM 0.77",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1148,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "후천성 뇌손상 환자에게 반대쪽 조절 기능적 전기자극을 적용한 무작위시험 메타분석을 확인했습니다",
+  "saw": "24개 시험 1,148명에서 FMA SMD 0.66, 관절가동범위 SMD 0.77, Barthel 지수 SMD 0.55가 대조군보다 좋아졌지만 ARAT는 차이가 없었습니다",
+  "limit": "대상 1,148명은 모두 뇌졸중이어서 다른 뇌손상에 일반화하기 어렵습니다",
+  "against": "통상 재활 또는 일반 전기자극",
+  "use": "후천성 뇌손상 중 뇌졸중 상지 재활의 보조중재 신호로만 봅니다",
+  "refs": [
+    {
+      "label": "Contralaterally Controlled Functional Electrical Stimulation for Improving Motor Function After Acquired Brain Injury: A Systematic Review and Meta-analysis",
+      "doi": "10.1016/j.apmr.2024.03.001",
+      "pmid": "38490452"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=functional electrical stimulation · cond=Acquired Brain Injury: 6건",
+    "pubmed": "functional electrical stimulation AND Acquired Brain Injury AND (randomized OR trial OR meta-analysis): 209건",
+    "negative": "functional electrical stimulation AND Acquired Brain Injury AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 818건",
+    "safety": "functional electrical stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 10899건"
+  }
+}

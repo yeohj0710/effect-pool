@@ -1,0 +1,32 @@
+{
+  "id": "mirror-therapy-pain-pos",
+  "subj": "mirror therapy",
+  "claim": "거울치료를 통증에 쓴다",
+  "line": "환상통 단기 완화 신호가 있었지만 장기 근거는 없습니다",
+  "effect": "통증 SMD −0.46",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "절단 후 환상통에 거울치료를 적용한 무작위시험 메타분석을 확인했습니다",
+  "saw": "10개 무작위시험에서 거울치료가 단기 환상통을 줄였지만 장기 추적 자료는 부족했습니다",
+  "limit": "메타분석 초록에 전체 표본 수가 제시되지 않았고 장기 결과가 부족합니다",
+  "against": "표준치료 또는 대조 중재",
+  "use": "절단 후 환상통의 단기 보조치료 신호로만 봅니다",
+  "refs": [
+    {
+      "label": "Mirror therapy for phantom limb pain: A systematic review and meta-analysis",
+      "doi": "10.1016/j.apmr.2021.07.810",
+      "pmid": "34461084"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=mirror therapy · cond=Pain: 23건",
+    "pubmed": "mirror therapy AND Pain AND (randomized OR trial OR meta-analysis): 225건",
+    "negative": "mirror therapy AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 400건",
+    "safety": "mirror therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 681건"
+  }
+}
