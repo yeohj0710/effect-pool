@@ -12444,3 +12444,55 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] letermovir — Lung Transplant에 듣는다  <!-- 시험 14건 · 논문 36편 --> — 항목 생성(2026-08-06)
 - [x] letermovir — Acute Myeloid Leukemia에 듣는다  <!-- 시험 13건 · 논문 17편 --> — 근거 없음(2026-08-06, letermovir AND Acute Myeloid Leukemia; 조혈모세포 이식 예방 문헌은 AML 치료 결과에서 제외)
 - [x] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] contrast water therapy — Small Bowel Adhesion에 듣는다  <!-- 시험 4건 · 논문 41편 -->
+- [ ] contrast water therapy — Rectal Cancer에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [ ] contrast water therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [ ] patisiran — Amyloid Neuropathies에 듣는다  <!-- 시험 6건 · 논문 158편 -->
+- [ ] patisiran — Wild-Type Transthyretin Cardiac Amyloidosis에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [ ] inebilizumab — Autoimmune Diseases에 듣는다  <!-- 시험 4건 · 논문 188편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] reminiscence therapy — Rural Health에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [ ] laughter therapy — Mental Health에 듣는다  <!-- 시험 6건 · 논문 72편 -->
+- [ ] therapeutic touch — Pain에 듣는다  <!-- 시험 3건 · 논문 1088편 -->
+- [ ] therapeutic touch — Cancer에 듣는다  <!-- 시험 3건 · 논문 665편 -->
+- [ ] self-compassion training — Distress에 듣는다  <!-- 시험 3건 · 논문 347편 -->
+- [ ] self-compassion training — Caregiver Burden에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [ ] self-compassion training — Body Image에 듣는다  <!-- 시험 3건 · 논문 91편 -->
+- [ ] gratitude intervention — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 45편 -->
+- [ ] sensory integration therapy — Motor Activity에 듣는다  <!-- 시험 3건 · 논문 656편 -->
+- [ ] sensory integration therapy — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 70편 -->
+- [ ] sensory integration therapy — Balance에 듣는다  <!-- 시험 3건 · 논문 653편 -->
+- [ ] dance movement therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 161편 -->
+- [ ] dance movement therapy — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 709편 -->
+- [ ] dance movement therapy — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [ ] dance movement therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [ ] mindful self-compassion — Self Harm에 듣는다  <!-- 시험 11건 · 논문 44편 -->
+- [ ] mindful self-compassion — Caregiver에 듣는다  <!-- 시험 7건 · 논문 102편 -->
+- [ ] mindful self-compassion — Well-being에 듣는다  <!-- 시험 7건 · 논문 1577편 -->
+- [ ] mindful self-compassion — Depression에 듣는다  <!-- 시험 4건 · 논문 665편 -->
+- [ ] health literacy intervention — Diabetes에 듣는다  <!-- 시험 17건 · 논문 2180편 -->
+- [ ] health literacy intervention — Obesity에 듣는다  <!-- 시험 15건 · 논문 872편 -->
+- [ ] health literacy intervention — Sexual Behavior에 듣는다  <!-- 시험 12건 · 논문 386편 -->
+- [ ] health literacy intervention — Hypertension에 듣는다  <!-- 시험 11건 · 논문 869편 -->
+- [ ] olezarsen — Familial Chylomicronemia Syndrome에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [ ] lonafarnib — Hepatitis D에 듣는다  <!-- 시험 9건 · 논문 74편 -->
+- [ ] lonafarnib — Progeria에 듣는다  <!-- 시험 6건 · 논문 66편 -->
