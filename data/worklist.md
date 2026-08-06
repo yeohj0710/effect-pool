@@ -11574,3 +11574,77 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] canagliflozin — Renal Insufficiency에 듣는다  <!-- 시험 3건 · 논문 203편 -->
 - [ ] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 -->
 - [ ] canagliflozin — ESRD에 듣는다  <!-- 시험 3건 · 논문 168편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] caffeine — Apnea에 듣는다  <!-- 시험 18건 · 논문 833편 -->
+- [ ] caffeine — Placebo에 듣는다  <!-- 시험 15건 · 논문 2678편 -->
+- [ ] caffeine — Sleep에 듣는다  <!-- 시험 12건 · 논문 2247편 -->
+- [ ] caffeine — Migraine에 듣는다  <!-- 시험 12건 · 논문 568편 -->
+- [ ] folic acid — Anemia에 듣는다  <!-- 시험 11건 · 논문 6084편 -->
+- [ ] folic acid — Breast Cancer에 듣는다  <!-- 시험 8건 · 논문 1839편 -->
+- [ ] folic acid — Lymphoma, B-Cell에 듣는다  <!-- 시험 7건 · 논문 296편 -->
+- [ ] folic acid — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 115편 -->
+- [ ] calcium — Leukemia에 듣는다  <!-- 시험 24건 · 논문 4661편 -->
+- [ ] calcium — Osteoporosis에 듣는다  <!-- 시험 20건 · 논문 19891편 -->
+- [ ] calcium — Gastric Adenocarcinoma에 듣는다  <!-- 시험 10건 · 논문 284편 -->
+- [ ] calcium — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 2550편 -->
+- [ ] vitamin b12 — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 230편 -->
+- [ ] vitamin b12 — Anemia에 듣는다  <!-- 시험 15건 · 논문 7641편 -->
+- [ ] vitamin b12 — B-cell Lymphoma에 듣는다  <!-- 시험 11건 · 논문 42편 -->
+- [ ] vitamin b12 — Zinc Deficiency에 듣는다  <!-- 시험 10건 · 논문 815편 -->
+- [ ] vitamin k — Thrombosis에 듣는다  <!-- 시험 13건 · 논문 4695편 -->
+- [ ] vitamin k — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 779편 -->
+- [ ] vitamin k — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 208편 -->
+- [ ] vitamin k — Bone Health에 듣는다  <!-- 시험 9건 · 논문 619편 -->
+- [ ] acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 29건 · 논문 1421편 -->
+- [ ] acetylcysteine — Liver Tumour에 듣는다  <!-- 시험 28건 · 논문 576편 -->
+- [ ] acetylcysteine — Pulmonary Cancer에 듣는다  <!-- 시험 18건 · 논문 425편 -->
+- [ ] acetylcysteine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 467편 -->
+- [ ] sodium valproate — Epilepsy에 듣는다  <!-- 시험 17건 · 논문 7497편 -->
+- [ ] sodium valproate — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 511편 -->
+- [ ] sodium valproate — Autism에 듣는다  <!-- 시험 5건 · 논문 1214편 -->
+- [ ] sodium valproate — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 57편 -->
+- [ ] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 -->
+- [ ] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 -->
+- [ ] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 -->
+- [ ] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [ ] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 -->
+- [ ] carnitine — Peripheral Arterial Disease에 듣는다  <!-- 시험 10건 · 논문 91편 -->
+- [ ] carnitine — Fatigue에 듣는다  <!-- 시험 9건 · 논문 392편 -->
+- [ ] carnitine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 585편 -->
+- [ ] diosmin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] inositol — Type 2 Diabetes에 듣는다  <!-- 시험 18건 · 논문 598편 -->
+- [ ] inositol — PCOS에 듣는다  <!-- 시험 11건 · 논문 412편 -->
+- [ ] inositol — Infertility에 듣는다  <!-- 시험 10건 · 논문 288편 -->
+- [ ] inositol — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 444편 -->
+- [ ] cholecalciferol — Breast Cancer에 듣는다  <!-- 시험 12건 · 논문 680편 -->
+- [ ] cholecalciferol — Leukemia에 듣는다  <!-- 시험 9건 · 논문 936편 -->
+- [ ] cholecalciferol — Diabetes에 듣는다  <!-- 시험 8건 · 논문 1808편 -->
+- [ ] cholecalciferol — Osteoporosis에 듣는다  <!-- 시험 7건 · 논문 2375편 -->
+- [ ] calcifediol — Secondary Hyperparathyroidism Due to Renal Causes에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [ ] calcifediol — Frail Elderly에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] calcifediol — Acute Kidney Injury에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] gratitude intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 387편 -->
+- [ ] gratitude intervention — Anxiety에 듣는다  <!-- 시험 3건 · 논문 319편 -->
+- [ ] narrative therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 1032편 -->
+- [ ] narrative therapy — Depression에 듣는다  <!-- 시험 11건 · 논문 2373편 -->
+- [ ] narrative therapy — Mental Distress에 듣는다  <!-- 시험 11건 · 논문 304편 -->
+- [ ] narrative therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 81편 -->
+- [ ] therapeutic touch — Anxiety에 듣는다  <!-- 시험 4건 · 논문 278편 -->
+- [ ] therapeutic touch — Sleep에 듣는다  <!-- 시험 4건 · 논문 108편 -->
+- [ ] therapeutic touch — Infants에 듣는다  <!-- 시험 3건 · 논문 182편 -->
+- [ ] light exposure — Depression에 듣는다  <!-- 시험 29건 · 논문 1690편 -->
+- [ ] light exposure — Circadian Rhythm에 듣는다  <!-- 시험 19건 · 논문 4033편 -->
+- [ ] light exposure — Dementia에 듣는다  <!-- 시험 12건 · 논문 446편 -->
+- [ ] light exposure — Cancer에 듣는다  <!-- 시험 12건 · 논문 13635편 -->
+- [ ] nature sounds — Pain에 듣는다  <!-- 시험 4건 · 논문 384편 -->
+- [ ] nature sounds — Stress에 듣는다  <!-- 시험 4건 · 논문 827편 -->
+- [ ] nature sounds — Virtual Reality에 듣는다  <!-- 시험 3건 · 논문 84편 -->
