@@ -10750,34 +10750,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] caregiver education — Depression에 듣는다  <!-- 시험 6건 · 논문 4042편 --> — 항목 생성(2026-08-06)
 - [x] caregiver education — Autism에 듣는다  <!-- 시험 5건 · 논문 1430편 --> — 근거 없음(2026-08-06, "caregiver education" AND Autism)
 - [x] caregiver education — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 346편 --> — 근거 없음(2026-08-06, "caregiver education" AND "Chronic Pain")
-- [ ] caregiver education — Diabetes에 듣는다  <!-- 시험 4건 · 논문 1172편 -->
-- [ ] aromatherapy — Pain에 듣는다  <!-- 시험 35건 · 논문 642편 -->
-- [ ] aromatherapy — Cancer에 듣는다  <!-- 시험 19건 · 논문 289편 -->
-- [ ] aromatherapy — Nausea에 듣는다  <!-- 시험 14건 · 논문 176편 -->
-- [ ] aromatherapy — Dementia에 듣는다  <!-- 시험 10건 · 논문 174편 -->
-- [ ] hypnotherapy — Functional Dyspepsia에 듣는다  <!-- 시험 11건 · 논문 52편 -->
-- [ ] hypnotherapy — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 130편 -->
-- [ ] hypnotherapy — Pain에 듣는다  <!-- 시험 9건 · 논문 2829편 -->
-- [ ] hypnotherapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1878편 -->
-- [ ] nature walk — Anxiety에 듣는다  <!-- 시험 5건 · 논문 209편 -->
-- [ ] nature walk — Well-being에 듣는다  <!-- 시험 4건 · 논문 5238편 -->
-- [ ] nature walk — Cancer에 듣는다  <!-- 시험 4건 · 논문 463편 -->
-- [ ] nature walk — Mental Fatigue에 듣는다  <!-- 시험 3건 · 논문 36편 -->
-- [ ] yoga nidra — Insomnia에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] chronotherapy — Sleep에 듣는다  <!-- 시험 6건 · 논문 679편 -->
-- [ ] chronotherapy — Hypertension에 듣는다  <!-- 시험 5건 · 논문 450편 -->
-- [ ] chronotherapy — Depressive Episode에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] blue light blocking — Sleep에 듣는다  <!-- 시험 8건 · 논문 112편 -->
-- [ ] blue light blocking — Mania에 듣는다  <!-- 시험 4건 · 논문 9편 -->
-- [ ] blue light blocking — Cataract에 듣는다  <!-- 시험 3건 · 논문 57편 -->
-- [ ] food diary — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 778편 -->
-- [ ] food diary — Obesity에 듣는다  <!-- 시험 4건 · 논문 2628편 -->
-- [ ] food diary — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 131편 -->
-- [ ] food diary — Dietary Assessment에 듣는다  <!-- 시험 3건 · 논문 3335편 -->
-- [ ] Nordic diet — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 140편 -->
-- [ ] Nordic diet — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 33편 -->
-- [ ] Nordic diet — Diabetes에 듣는다  <!-- 시험 4건 · 논문 174편 -->
-- [ ] Nordic diet — Hypertension에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+- [x] caregiver education — Diabetes에 듣는다  <!-- 시험 4건 · 논문 1172편 --> — 항목 생성(2026-08-06)
+- [x] aromatherapy — Pain에 듣는다  <!-- 시험 35건 · 논문 642편 --> — 항목 생성(2026-08-06)
+- [x] aromatherapy — Cancer에 듣는다  <!-- 시험 19건 · 논문 289편 --> — 항목 생성(2026-08-06)
+- [x] aromatherapy — Nausea에 듣는다  <!-- 시험 14건 · 논문 176편 --> — 항목 생성(2026-08-06)
+- [x] aromatherapy — Dementia에 듣는다  <!-- 시험 10건 · 논문 174편 --> — 항목 생성(2026-08-06)
+- [x] hypnotherapy — Functional Dyspepsia에 듣는다  <!-- 시험 11건 · 논문 52편 --> — 항목 생성(2026-08-06)
+- [x] hypnotherapy — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 130편 --> — 항목 생성(2026-08-06)
+- [x] hypnotherapy — Pain에 듣는다  <!-- 시험 9건 · 논문 2829편 --> — 항목 생성(2026-08-06)
+- [x] hypnotherapy — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1878편 --> — 항목 생성(2026-08-06)
+- [x] nature walk — Anxiety에 듣는다  <!-- 시험 5건 · 논문 209편 --> — 항목 생성(2026-08-06)
+- [x] nature walk — Well-being에 듣는다  <!-- 시험 4건 · 논문 5238편 --> — 항목 생성(2026-08-06)
+- [x] nature walk — Cancer에 듣는다  <!-- 시험 4건 · 논문 463편 --> — 근거 없음(2026-08-06, "nature walk AND Cancer")
+- [x] nature walk — Mental Fatigue에 듣는다  <!-- 시험 3건 · 논문 36편 --> — 근거 없음(2026-08-06, "nature walk AND Mental Fatigue")
+- [x] yoga nidra — Insomnia에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 생성(2026-08-06)
+- [x] chronotherapy — Sleep에 듣는다  <!-- 시험 6건 · 논문 679편 --> — 항목 생성(2026-08-06)
+- [x] chronotherapy — Hypertension에 듣는다  <!-- 시험 5건 · 논문 450편 --> — 항목 생성(2026-08-06)
+- [x] chronotherapy — Depressive Episode에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 항목 생성(2026-08-06)
+- [x] blue light blocking — Sleep에 듣는다  <!-- 시험 8건 · 논문 112편 --> — 항목 생성(2026-08-06)
+- [x] blue light blocking — Mania에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목 생성(2026-08-06)
+- [x] blue light blocking — Cataract에 듣는다  <!-- 시험 3건 · 논문 57편 --> — 항목 생성(2026-08-06)
+- [x] food diary — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 778편 --> — 근거 없음(2026-08-06, "food diary AND Type 2 Diabetes")
+- [x] food diary — Obesity에 듣는다  <!-- 시험 4건 · 논문 2628편 --> — 근거 없음(2026-08-06, "food diary AND Obesity")
+- [x] food diary — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 131편 --> — 근거 없음(2026-08-06, "food diary AND Cirrhosis")
+- [x] food diary — Dietary Assessment에 듣는다  <!-- 시험 3건 · 논문 3335편 --> — 근거 없음(2026-08-06, "food diary AND Dietary Assessment")
+- [x] Nordic diet — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 140편 --> — 항목 생성(2026-08-06)
+- [x] Nordic diet — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 항목 생성(2026-08-06)
+- [x] Nordic diet — Diabetes에 듣는다  <!-- 시험 4건 · 논문 174편 --> — 항목 생성(2026-08-06)
+- [x] Nordic diet — Hypertension에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10788,8 +10788,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] family psychoeducation — Cannabis Use에 듣는다  <!-- 시험 15건 · 논문 30편 -->
-- [ ] family psychoeducation — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 333편 -->
+- [x] family psychoeducation — Cannabis Use에 듣는다  <!-- 시험 15건 · 논문 30편 --> — 근거 없음(2026-08-06, "family psychoeducation AND Cannabis Use")
+- [x] family psychoeducation — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 333편 --> — 항목 생성(2026-08-06)
 - [ ] family psychoeducation — Depression에 듣는다  <!-- 시험 11건 · 논문 1031편 -->
 - [ ] family psychoeducation — Psychosis에 듣는다  <!-- 시험 10건 · 논문 409편 -->
 - [ ] caregiver coaching — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 18편 -->
