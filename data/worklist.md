@@ -10642,3 +10642,74 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] health literacy — Obesity에 듣는다  <!-- 시험 14건 · 논문 1087편 --> — 항목 생성(2026-08-06)
 - [ ] health literacy — Distress, Emotional에 듣는다  <!-- 시험 10건 · 논문 622편 -->
 - [ ] health literacy — Hypertension에 듣는다  <!-- 시험 9건 · 논문 1085편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] sleep restriction — Obesity에 듣는다  <!-- 시험 17건 · 논문 1089편 -->
+- [ ] sleep restriction — Cognitive Change에 듣는다  <!-- 시험 16건 · 논문 412편 -->
+- [ ] sleep restriction — Pain에 듣는다  <!-- 시험 9건 · 논문 696편 -->
+- [ ] sleep restriction — Cancer에 듣는다  <!-- 시험 8건 · 논문 511편 -->
+- [ ] caregiver support — Alzheimer Disease에 듣는다  <!-- 시험 5건 · 논문 5570편 -->
+- [ ] caregiver support — Depression에 듣는다  <!-- 시험 4건 · 논문 10654편 -->
+- [ ] caregiver support — Anxiety에 듣는다  <!-- 시험 4건 · 논문 7209편 -->
+- [ ] caregiver support — Dementia에 듣는다  <!-- 시험 4건 · 논문 13682편 -->
+- [ ] problem solving therapy — Distress에 듣는다  <!-- 시험 13건 · 논문 607편 -->
+- [ ] problem solving therapy — Depressive Symptoms에 듣는다  <!-- 시험 13건 · 논문 1853편 -->
+- [ ] problem solving therapy — Anxiety에 듣는다  <!-- 시험 11건 · 논문 1034편 -->
+- [ ] mindfulness-based cognitive therapy — Depression에 듣는다  <!-- 시험 32건 · 논문 2137편 -->
+- [ ] mindfulness-based cognitive therapy — Pain에 듣는다  <!-- 시험 26건 · 논문 668편 -->
+- [ ] mindfulness-based cognitive therapy — Cancer에 듣는다  <!-- 시험 22건 · 논문 625편 -->
+- [ ] mindfulness-based cognitive therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1750편 -->
+- [ ] expressive writing — Stress에 듣는다  <!-- 시험 14건 · 논문 268편 -->
+- [ ] expressive writing — Psychological에 듣는다  <!-- 시험 11건 · 논문 372편 -->
+- [ ] expressive writing — Depression에 듣는다  <!-- 시험 10건 · 논문 188편 -->
+- [ ] expressive writing — Anxiety에 듣는다  <!-- 시험 9건 · 논문 148편 -->
+- [ ] bibliotherapy — Panic Attacks에 듣는다  <!-- 시험 6건 · 논문 16편 -->
+- [ ] bibliotherapy — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 5건 · 논문 18편 -->
+- [ ] bibliotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 204편 -->
+- [ ] bibliotherapy — Dementia에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [ ] dance movement therapy — Parkinson Disease에 듣는다  <!-- 시험 6건 · 논문 167편 -->
+- [ ] dance movement therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 157편 -->
+- [ ] dance movement therapy — Dementia에 듣는다  <!-- 시험 5건 · 논문 83편 -->
+- [ ] dance movement therapy — Older Adults에 듣는다  <!-- 시험 5건 · 논문 536편 -->
+- [ ] aquatic therapy — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 122편 -->
+- [ ] aquatic therapy — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 45편 -->
+- [ ] aquatic therapy — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 63편 -->
+- [ ] aquatic therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 4건 · 논문 37편 -->
+- [ ] spinal manipulation — Lumbar Surgery에 듣는다  <!-- 시험 7건 · 논문 437편 -->
+- [ ] spinal manipulation — Headache에 듣는다  <!-- 시험 6건 · 논문 363편 -->
+- [ ] spinal manipulation — Stroke에 듣는다  <!-- 시험 4건 · 논문 222편 -->
+- [ ] osteopathic manipulation — Headache에 듣는다  <!-- 시험 16건 · 논문 80편 -->
+- [ ] osteopathic manipulation — Otitis Media에 듣는다  <!-- 시험 9건 · 논문 24편 -->
+- [ ] osteopathic manipulation — Migraine에 듣는다  <!-- 시험 8건 · 논문 36편 -->
+- [ ] manual therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 16건 · 논문 485편 -->
+- [ ] manual therapy — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 194편 -->
+- [ ] manual therapy — Breast-feeding에 듣는다  <!-- 시험 7건 · 논문 148편 -->
+- [ ] manual therapy — Cervical Myelopathy에 듣는다  <!-- 시험 6건 · 논문 172편 -->
+- [ ] balance training — Leg Injuries에 듣는다  <!-- 시험 8건 · 논문 943편 -->
+- [ ] balance training — Head Injury에 듣는다  <!-- 시험 8건 · 논문 670편 -->
+- [ ] balance training — Cognitive Test에 듣는다  <!-- 시험 8건 · 논문 1860편 -->
+- [ ] balance training — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 26편 -->
+- [ ] gait training — Knee Injuries에 듣는다  <!-- 시험 22건 · 논문 473편 -->
+- [ ] gait training — Cerebral Palsy에 듣는다  <!-- 시험 21건 · 논문 766편 -->
+- [ ] gait training — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 1860편 -->
+- [ ] gait training — Hip Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 198편 -->
+- [ ] DASH diet — Diabetes에 듣는다  <!-- 시험 20건 · 논문 538편 -->
+- [ ] DASH diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 815편 -->
+- [ ] DASH diet — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 89편 -->
+- [ ] DASH diet — Obesity에 듣는다  <!-- 시험 12건 · 논문 532편 -->
+- [ ] low sodium diet — Obesity에 듣는다  <!-- 시험 13건 · 논문 980편 -->
+- [ ] low sodium diet — Blood Pressure에 듣는다  <!-- 시험 13건 · 논문 5158편 -->
+- [ ] low sodium diet — Kidney Stone에 듣는다  <!-- 시험 13건 · 논문 154편 -->
+- [ ] low sodium diet — Diabetes에 듣는다  <!-- 시험 13건 · 논문 1175편 -->
+- [ ] time-restricted eating — Time에 듣는다  <!-- 시험 27건 · 논문 2822편 -->
+- [ ] time-restricted eating — Fasting에 듣는다  <!-- 시험 15건 · 논문 3931편 -->
+- [ ] time-restricted eating — Metabolic Health에 듣는다  <!-- 시험 14건 · 논문 1760편 -->
+- [ ] time-restricted eating — Cancer에 듣는다  <!-- 시험 14건 · 논문 524편 -->
