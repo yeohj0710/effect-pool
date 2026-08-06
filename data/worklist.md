@@ -10370,36 +10370,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acceptance and commitment therapy — Depression에 듣는다  <!-- 시험 28건 · 논문 1077편 -->
 - [x] acceptance and commitment therapy — Distress에 듣는다  <!-- 시험 28건 · 논문 608편 -->
 - [x] dialectical behavior therapy — Suicide에 듣는다  <!-- 시험 12건 · 논문 549편 -->
-- [ ] dialectical behavior therapy — Bulimia Nervosa에 듣는다  <!-- 시험 11건 · 논문 39편 -->
-- [ ] dialectical behavior therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 49편 -->
-- [ ] dialectical behavior therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 452편 -->
-- [ ] exposure therapy — Anxiety에 듣는다  <!-- 시험 15건 · 논문 6964편 -->
-- [ ] exposure therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 6103편 -->
-- [ ] exposure therapy — PTSD에 듣는다  <!-- 시험 11건 · 논문 3906편 -->
-- [ ] exposure therapy — Chronic Pain에 듣는다  <!-- 시험 11건 · 논문 2090편 -->
-- [ ] occupational therapy — Cognitive에 듣는다  <!-- 시험 16건 · 논문 9422편 -->
-- [ ] occupational therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 6928편 -->
-- [ ] occupational therapy — Hand Injury에 듣는다  <!-- 시험 11건 · 논문 1555편 -->
-- [ ] occupational therapy — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 42977편 -->
-- [ ] speech therapy — Stroke에 듣는다  <!-- 시험 20건 · 논문 2860편 -->
-- [ ] speech therapy — Language Delay에 듣는다  <!-- 시험 8건 · 논문 3189편 -->
-- [ ] speech therapy — Deafness에 듣는다  <!-- 시험 7건 · 논문 1579편 -->
-- [ ] speech therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1399편 -->
-- [ ] light therapy — Cancer에 듣는다  <!-- 시험 12건 · 논문 57257편 -->
-- [ ] light therapy — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 586편 -->
-- [ ] light therapy — Acute Pain에 듣는다  <!-- 시험 8건 · 논문 817편 -->
-- [ ] light therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 7건 · 논문 860편 -->
-- [ ] virtual reality — Anxiety에 듣는다  <!-- 시험 92건 · 논문 3130편 -->
-- [ ] virtual reality — Stroke에 듣는다  <!-- 시험 41건 · 논문 1831편 -->
-- [ ] virtual reality — Cancer에 듣는다  <!-- 시험 26건 · 논문 1683편 -->
-- [ ] virtual reality — Surgery에 듣는다  <!-- 시험 13건 · 논문 7332편 -->
-- [ ] Mediterranean diet — Metabolic Syndrome에 듣는다  <!-- 시험 30건 · 논문 1027편 -->
-- [ ] Mediterranean diet — Liver Fat에 듣는다  <!-- 시험 29건 · 논문 285편 -->
-- [ ] Mediterranean diet — Diabetes에 듣는다  <!-- 시험 28건 · 논문 2512편 -->
-- [ ] Mediterranean diet — Cardiovascular Risk에 듣는다  <!-- 시험 22건 · 논문 3018편 -->
-- [ ] ketogenic diet — Epilepsy에 듣는다  <!-- 시험 30건 · 논문 2752편 -->
-- [ ] ketogenic diet — Bipolar Disorder에 듣는다  <!-- 시험 23건 · 논문 57편 -->
-- [ ] ketogenic diet — Cancer에 듣는다  <!-- 시험 19건 · 논문 858편 -->
+- [x] dialectical behavior therapy — Bulimia Nervosa에 듣는다  <!-- 시험 11건 · 논문 39편 -->
+- [x] dialectical behavior therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 49편 -->
+- [x] dialectical behavior therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 452편 -->
+- [x] exposure therapy — Anxiety에 듣는다  <!-- 시험 15건 · 논문 6964편 -->
+- [x] exposure therapy — Substance Use에 듣는다  <!-- 시험 13건 · 논문 6103편 -->
+- [x] exposure therapy — PTSD에 듣는다  <!-- 시험 11건 · 논문 3906편 -->
+- [x] exposure therapy — Chronic Pain에 듣는다  <!-- 시험 11건 · 논문 2090편 -->
+- [x] occupational therapy — Cognitive에 듣는다  <!-- 시험 16건 · 논문 9422편 -->
+- [x] occupational therapy — Cancer에 듣는다  <!-- 시험 14건 · 논문 6928편 -->
+- [x] occupational therapy — Hand Injury에 듣는다  <!-- 시험 11건 · 논문 1555편 -->
+- [x] occupational therapy — Rehabilitation에 듣는다  <!-- 시험 9건 · 논문 42977편 -->
+- [x] speech therapy — Stroke에 듣는다  <!-- 시험 20건 · 논문 2860편 -->
+- [x] speech therapy — Language Delay에 듣는다  <!-- 시험 8건 · 논문 3189편 -->
+- [x] speech therapy — Deafness에 듣는다  <!-- 시험 7건 · 논문 1579편 -->
+- [x] speech therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1399편 -->
+- [x] light therapy — Cancer에 듣는다  <!-- 시험 12건 · 논문 57257편 -->
+- [x] light therapy — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 586편 -->
+- [x] light therapy — Acute Pain에 듣는다  <!-- 시험 8건 · 논문 817편 -->
+- [x] light therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 7건 · 논문 860편 -->
+- [x] virtual reality — Anxiety에 듣는다  <!-- 시험 92건 · 논문 3130편 -->
+- [x] virtual reality — Stroke에 듣는다  <!-- 시험 41건 · 논문 1831편 -->
+- [x] virtual reality — Cancer에 듣는다  <!-- 시험 26건 · 논문 1683편 -->
+- [x] virtual reality — Surgery에 듣는다  <!-- 시험 13건 · 논문 7332편 -->
+- [x] Mediterranean diet — Metabolic Syndrome에 듣는다  <!-- 시험 30건 · 논문 1027편 -->
+- [x] Mediterranean diet — Liver Fat에 듣는다  <!-- 시험 29건 · 논문 285편 -->
+- [x] Mediterranean diet — Diabetes에 듣는다  <!-- 시험 28건 · 논문 2512편 -->
+- [x] Mediterranean diet — Cardiovascular Risk에 듣는다  <!-- 시험 22건 · 논문 3018편 -->
+- [x] ketogenic diet — Epilepsy에 듣는다  <!-- 시험 30건 · 논문 2752편 -->
+- [x] ketogenic diet — Bipolar Disorder에 듣는다  <!-- 시험 23건 · 논문 57편 -->
+- [x] ketogenic diet — Cancer에 듣는다  <!-- 시험 19건 · 논문 858편 -->
 - [ ] ketogenic diet — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 2042편 -->
 - [ ] breathing exercises — Asthma에 듣는다  <!-- 시험 9건 · 논문 494편 -->
 - [ ] breathing exercises — Hypertension에 듣는다  <!-- 시험 7건 · 논문 275편 -->
