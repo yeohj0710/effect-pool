@@ -4,7 +4,7 @@
   "entries": 1439,
   "worklist": {
     "checked": 9235,
-    "unchecked": 11,
+    "unchecked": 34,
     "no_evidence_pending": 183,
     "next_batch": [
       "family-therapy-bipolar-disorder",
@@ -17,7 +17,26 @@
       "pet-therapy-carcinoma",
       "pet-therapy-lymphoma",
       "pet-therapy-carcinoid-tumors",
-      "pet-therapy-neoplasms"
+      "pet-therapy-neoplasms",
+      "survodutide-overweight",
+      "mazdutide-type-2-diabetes",
+      "afamelanotide-vitiligo",
+      "tesamorelin-liver-fat",
+      "tesamorelin-obesity",
+      "biofeedback-incontinence",
+      "biofeedback-stroke",
+      "biofeedback-anxiety",
+      "biofeedback-stress",
+      "journaling-depression",
+      "journaling-stress",
+      "journaling-burnout",
+      "plant-based-diet-diabetes",
+      "plant-based-diet-diet-healthy",
+      "plant-based-diet-cancer",
+      "plant-based-diet-overweight",
+      "high-intensity-interval-training-obesity",
+      "high-intensity-interval-training-lung-cancer",
+      "high-intensity-interval-training-brain-activity"
     ]
   },
   "verification": {
@@ -119,7 +138,7 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 22,
+    "latest_candidates": 23,
     "latest_substances": [
       "zuranolone",
       "lenacapavir",
@@ -140,10 +159,30 @@
       "forest bathing",
       "breathwork",
       "cognitive remediation",
-      "pet therapy"
+      "pet therapy",
+      "survodutide",
+      "mazdutide",
+      "pemvidutide",
+      "danuglipron",
+      "afamelanotide",
+      "tesamorelin",
+      "zavegepant",
+      "lasmiditan",
+      "rimegepant",
+      "ubrogepant",
+      "atogepant",
+      "lenacapavir",
+      "zuranolone",
+      "suzetrigine",
+      "crovalimab",
+      "biofeedback",
+      "journaling",
+      "plant-based diet",
+      "high-intensity interval training",
+      "nature exposure"
     ],
-    "added_candidates": 3164,
-    "direct_added_candidates": 1450
+    "added_candidates": 3187,
+    "direct_added_candidates": 1473
   },
   "resume": {
     "last_committed_batch": "batch 58: 30 topics processed; 26 evidence entries added; 4 approved indications skipped; 22 old formatting warnings fixed; 11 unchecked topics remain",
@@ -179,8 +218,8 @@
       "family-therapy-mental-health (created family-therapy-mental-health-null)",
       "family-therapy-depression (created family-therapy-depression-null)"
     ],
-    "current_batch": "batch 58: 30 topics processed; 26 evidence entries added; 4 approved indications skipped; 22 old formatting warnings fixed; 11 unchecked topics remain",
-    "next_action": "expand worklist because 11 topics remain; choose 20 uncovered names with at least 5 non-drug options, then process the next batch",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remained; expansion after batch 57 added 22 candidates from 20 supplied names, including 5 non-drug options; batch 58 processed 30 topics; 26 evidence entries added; 4 approved indications skipped; 11 unchecked topics remain"
+    "current_batch": "batch 58: 30 topics processed; 26 evidence entries added; 4 approved indications skipped; 22 old formatting warnings fixed; expansion added 23 candidates from 20 supplied names including 5 non-drug options; 34 unchecked topics remain",
+    "next_action": "process the first 30 topics in next_batch; check approved status per substance before APIs, then build and commit",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remained; batch 53 processed 30 topics; 19 evidence entries added; 31 unchecked topics remained; batch 54 processed 30 topics; 15 evidence entries added; 1 unchecked topic remained; 28 valid candidates added in first expansion after batch 54; 26 valid candidates added in second expansion after batch 54; batch 55 processed 30 topics; 25 evidence entries added; 54 valid candidates added from 20 supplied uncovered substances after batch 55; batch 56 processed 30 topics; 26 evidence entries added; 49 unchecked topics remained; batch 57 processed 30 topics; 30 evidence entries added; 19 unchecked topics remained; expansion after batch 57 added 22 candidates from 20 supplied names, including 5 non-drug options; batch 58 processed 30 topics; 26 evidence entries added; 4 approved indications skipped; expansion after batch 58 added 23 candidates from 20 supplied names including 5 non-drug options; 34 unchecked topics remain"
   }
 }
