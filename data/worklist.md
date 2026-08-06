@@ -11584,36 +11584,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] caffeine — Apnea에 듣는다  <!-- 시험 18건 · 논문 833편 -->
-- [ ] caffeine — Placebo에 듣는다  <!-- 시험 15건 · 논문 2678편 -->
-- [ ] caffeine — Sleep에 듣는다  <!-- 시험 12건 · 논문 2247편 -->
-- [ ] caffeine — Migraine에 듣는다  <!-- 시험 12건 · 논문 568편 -->
-- [ ] folic acid — Anemia에 듣는다  <!-- 시험 11건 · 논문 6084편 -->
-- [ ] folic acid — Breast Cancer에 듣는다  <!-- 시험 8건 · 논문 1839편 -->
-- [ ] folic acid — Lymphoma, B-Cell에 듣는다  <!-- 시험 7건 · 논문 296편 -->
-- [ ] folic acid — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 115편 -->
-- [ ] calcium — Leukemia에 듣는다  <!-- 시험 24건 · 논문 4661편 -->
-- [ ] calcium — Osteoporosis에 듣는다  <!-- 시험 20건 · 논문 19891편 -->
-- [ ] calcium — Gastric Adenocarcinoma에 듣는다  <!-- 시험 10건 · 논문 284편 -->
-- [ ] calcium — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 2550편 -->
-- [ ] vitamin b12 — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 230편 -->
-- [ ] vitamin b12 — Anemia에 듣는다  <!-- 시험 15건 · 논문 7641편 -->
-- [ ] vitamin b12 — B-cell Lymphoma에 듣는다  <!-- 시험 11건 · 논문 42편 -->
-- [ ] vitamin b12 — Zinc Deficiency에 듣는다  <!-- 시험 10건 · 논문 815편 -->
-- [ ] vitamin k — Thrombosis에 듣는다  <!-- 시험 13건 · 논문 4695편 -->
-- [ ] vitamin k — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 779편 -->
-- [ ] vitamin k — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 208편 -->
-- [ ] vitamin k — Bone Health에 듣는다  <!-- 시험 9건 · 논문 619편 -->
-- [ ] acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 29건 · 논문 1421편 -->
-- [ ] acetylcysteine — Liver Tumour에 듣는다  <!-- 시험 28건 · 논문 576편 -->
-- [ ] acetylcysteine — Pulmonary Cancer에 듣는다  <!-- 시험 18건 · 논문 425편 -->
-- [ ] acetylcysteine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 467편 -->
-- [ ] sodium valproate — Epilepsy에 듣는다  <!-- 시험 17건 · 논문 7497편 -->
-- [ ] sodium valproate — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 511편 -->
-- [ ] sodium valproate — Autism에 듣는다  <!-- 시험 5건 · 논문 1214편 -->
-- [ ] sodium valproate — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 57편 -->
-- [ ] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 -->
-- [ ] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 -->
+- [x] caffeine — Apnea에 듣는다  <!-- 시험 18건 · 논문 833편 --> — 허가 적응증(2026-08-06)
+- [x] caffeine — Placebo에 듣는다  <!-- 시험 15건 · 논문 2678편 --> — 근거 없음(2026-08-06 조회, caffeine AND Placebo)
+- [x] caffeine — Sleep에 듣는다  <!-- 시험 12건 · 논문 2247편 -->
+- [x] caffeine — Migraine에 듣는다  <!-- 시험 12건 · 논문 568편 -->
+- [x] folic acid — Anemia에 듣는다  <!-- 시험 11건 · 논문 6084편 --> — 허가 적응증(2026-08-06)
+- [x] folic acid — Breast Cancer에 듣는다  <!-- 시험 8건 · 논문 1839편 --> — 근거 없음(2026-08-06 조회, folic acid AND Breast Cancer)
+- [x] folic acid — Lymphoma, B-Cell에 듣는다  <!-- 시험 7건 · 논문 296편 --> — 근거 없음(2026-08-06 조회, folic acid AND Lymphoma, B-Cell)
+- [x] folic acid — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 115편 --> — 근거 없음(2026-08-06 조회, folic acid AND Polycystic Ovary Syndrome)
+- [x] calcium — Leukemia에 듣는다  <!-- 시험 24건 · 논문 4661편 --> — 근거 없음(2026-08-06 조회, calcium AND Leukemia)
+- [x] calcium — Osteoporosis에 듣는다  <!-- 시험 20건 · 논문 19891편 -->
+- [x] calcium — Gastric Adenocarcinoma에 듣는다  <!-- 시험 10건 · 논문 284편 --> — 근거 없음(2026-08-06 조회, calcium AND Gastric Adenocarcinoma)
+- [x] calcium — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 2550편 --> — 근거 없음(2026-08-06 조회, calcium AND Lymphoma)
+- [x] vitamin b12 — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 230편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND Lung Cancer)
+- [x] vitamin b12 — Anemia에 듣는다  <!-- 시험 15건 · 논문 7641편 --> — 허가 적응증(2026-08-06)
+- [x] vitamin b12 — B-cell Lymphoma에 듣는다  <!-- 시험 11건 · 논문 42편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND B-cell Lymphoma)
+- [x] vitamin b12 — Zinc Deficiency에 듣는다  <!-- 시험 10건 · 논문 815편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND Zinc Deficiency)
+- [x] vitamin k — Thrombosis에 듣는다  <!-- 시험 13건 · 논문 4695편 --> — 근거 없음(2026-08-06 조회, vitamin k AND Thrombosis)
+- [x] vitamin k — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 779편 -->
+- [x] vitamin k — Aortic Valve Disease에 듣는다  <!-- 시험 11건 · 논문 208편 --> — 근거 없음(2026-08-06 조회, vitamin k AND Aortic Valve Disease)
+- [x] vitamin k — Bone Health에 듣는다  <!-- 시험 9건 · 논문 619편 -->
+- [x] acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 29건 · 논문 1421편 -->
+- [x] acetylcysteine — Liver Tumour에 듣는다  <!-- 시험 28건 · 논문 576편 --> — 근거 없음(2026-08-06 조회, acetylcysteine AND Liver Tumour)
+- [x] acetylcysteine — Pulmonary Cancer에 듣는다  <!-- 시험 18건 · 논문 425편 --> — 근거 없음(2026-08-06 조회, acetylcysteine AND Pulmonary Cancer)
+- [x] acetylcysteine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 467편 -->
+- [x] sodium valproate — Epilepsy에 듣는다  <!-- 시험 17건 · 논문 7497편 --> — 허가 적응증(2026-08-06)
+- [x] sodium valproate — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 511편 -->
+- [x] sodium valproate — Autism에 듣는다  <!-- 시험 5건 · 논문 1214편 --> — 근거 없음(2026-08-06 조회, sodium valproate AND Autism)
+- [x] sodium valproate — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 57편 --> — 근거 없음(2026-08-06 조회, sodium valproate AND Brain Hypoxia)
+- [x] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 --> — 허가 적응증(2026-08-06)
+- [x] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 --> — 허가 적응증(2026-08-06)
 - [ ] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 -->
 - [ ] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 -->
 - [ ] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 -->
