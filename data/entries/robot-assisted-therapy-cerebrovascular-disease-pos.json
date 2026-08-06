@@ -1,0 +1,32 @@
+{
+  "id": "robot-assisted-therapy-cerebrovascular-disease-pos",
+  "subj": "robot-assisted therapy",
+  "claim": "로봇 보조치료를 뇌혈관질환 재활에 쓴다",
+  "line": "뇌졸중 보행·균형이 대조군보다 좋아졌습니다",
+  "effect": "FAC MD 0.44·BBS 4.55",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 4224,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "의료기기 기반 재활이며 뇌혈관질환 허가 적응증을 확인하지 못함",
+  "why": "뇌졸중 후 로봇 보조 보행훈련을 기존 재활과 비교한 Cochrane 고찰을 확인했습니다",
+  "saw": "101개 연구 4,224명에서 독립보행 OR 1.65 신호가 있었고 보행속도와 보행능력 결과는 일관되지 않았습니다",
+  "limit": "중재 장치와 대조치료가 다양하고 모든 결과에서 일관된 이득을 보이지 않았습니다",
+  "against": "기존 재활 또는 무중재",
+  "use": "뇌졸중 보행 회복의 로봇 보조중재 신호로만 봅니다",
+  "refs": [
+    {
+      "label": "Electromechanical-assisted training for walking after stroke",
+      "doi": "10.1002/14651858.CD006185.pub6",
+      "pmid": "40365867"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=robot-assisted therapy · cond=Cerebrovascular Disease: 10건",
+    "pubmed": "robot-assisted therapy AND Cerebrovascular Disease AND (randomized OR trial OR meta-analysis): 318건",
+    "negative": "robot-assisted therapy AND Cerebrovascular Disease AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 388건",
+    "safety": "robot-assisted therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 3773건"
+  }
+}

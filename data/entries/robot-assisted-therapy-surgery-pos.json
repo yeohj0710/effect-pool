@@ -1,0 +1,32 @@
+{
+  "id": "robot-assisted-therapy-surgery-pos",
+  "subj": "robot-assisted therapy",
+  "claim": "로봇 보조치료를 수술에 쓴다",
+  "line": "전립선 수술에서 출혈과 수혈이 줄었습니다",
+  "effect": "수혈 OR 0.23",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "의료기기 기반 수술이며 일반 수술 허가 적응증은 특정되지 않음",
+  "why": "로봇 보조 근치적 전립선절제술과 개복수술을 비교한 체계적 문헌고찰을 확인했습니다",
+  "saw": "21개 연구에서 로봇수술은 출혈과 수혈, 재원기간, 일부 합병증을 줄였지만 여러 기능 결과는 차이가 없었습니다",
+  "limit": "초록에 통합 표본 수가 없고 연구 설계와 술자 경험이 다양합니다",
+  "against": "개복 근치적 전립선절제술",
+  "use": "전립선 수술의 로봇 보조 접근에 대한 비교 근거로만 봅니다",
+  "refs": [
+    {
+      "label": "Robot-assisted versus open radical prostatectomy: a systematic review and meta-analysis",
+      "doi": "10.1007/s11701-023-01714-8",
+      "pmid": "37721644"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=robot-assisted therapy · cond=Surgery: 0건",
+    "pubmed": "robot-assisted therapy AND Surgery AND (randomized OR trial OR meta-analysis): 2156건",
+    "negative": "robot-assisted therapy AND Surgery AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 5676건",
+    "safety": "robot-assisted therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 3773건"
+  }
+}

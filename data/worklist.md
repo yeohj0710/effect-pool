@@ -12137,32 +12137,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다  <!-- 시험 14건 · 논문 649편 --> — 허가 적응증(2026-08-06)
 - [x] spinal cord stimulation — Parkinson Disease에 듣는다  <!-- 시험 14건 · 논문 328편 --> — 항목 생성(2026-08-06)
 - [x] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 --> — 허가 적응증(2026-08-06)
-- [ ] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 -->
-- [ ] deep brain stimulation — Compulsive Shopping에 듣는다  <!-- 시험 26건 · 논문 8편 -->
-- [ ] deep brain stimulation — Major Depression에 듣는다  <!-- 시험 16건 · 논문 759편 -->
-- [ ] motor imagery — Stroke에 듣는다  <!-- 시험 41건 · 논문 932편 -->
-- [ ] motor imagery — Parkinson Disease에 듣는다  <!-- 시험 10건 · 논문 189편 -->
-- [ ] robot-assisted therapy — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 325편 -->
-- [ ] robot-assisted therapy — Cerebral Palsy에 듣는다  <!-- 시험 11건 · 논문 98편 -->
-- [ ] robot-assisted therapy — Surgery에 듣는다  <!-- 시험 8건 · 논문 11488편 -->
-- [ ] robot-assisted therapy — Cerebrovascular Disease에 듣는다  <!-- 시험 6건 · 논문 536편 -->
-- [ ] telerehabilitation — Pain에 듣는다  <!-- 시험 26건 · 논문 632편 -->
-- [ ] telerehabilitation — Multiple Sclerosis에 듣는다  <!-- 시험 23건 · 논문 195편 -->
-- [ ] telerehabilitation — Heart Failure에 듣는다  <!-- 시험 22건 · 논문 143편 -->
-- [ ] telerehabilitation — Osteoarthritis에 듣는다  <!-- 시험 19건 · 논문 178편 -->
-- [ ] cognitive rehabilitation — Stroke에 듣는다  <!-- 시험 31건 · 논문 8357편 -->
-- [ ] cognitive rehabilitation — Pain에 듣는다  <!-- 시험 27건 · 논문 6043편 -->
-- [ ] cognitive rehabilitation — Schizophrenia에 듣는다  <!-- 시험 22건 · 논문 3548편 -->
-- [ ] cognitive rehabilitation — Breast Cancer에 듣는다  <!-- 시험 22건 · 논문 706편 -->
-- [ ] atenolol — Marfan Syndrome에 듣는다  <!-- 시험 7건 · 논문 49편 -->
-- [ ] atenolol — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 2036편 -->
-- [ ] atenolol — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 3324편 -->
-- [ ] atenolol — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 4266편 -->
-- [ ] terazosin — Urinary Retention에 듣는다  <!-- 시험 3건 · 논문 42편 -->
-- [ ] fexofenadine — Pruritus에 듣는다  <!-- 시험 7건 · 논문 68편 -->
-- [ ] fexofenadine — Urticaria에 듣는다  <!-- 시험 4건 · 논문 166편 -->
-- [ ] fexofenadine — Asthma에 듣는다  <!-- 시험 3건 · 논문 142편 -->
-- [ ] galcanezumab — Chronic Cluster Headache에 듣는다  <!-- 시험 4건 · 논문 73편 -->
+- [x] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 --> — 허가 적응증(2026-08-06)
+- [x] deep brain stimulation — Compulsive Shopping에 듣는다 — 근거 없음(2026-08-06, "deep brain stimulation" AND "Compulsive Shopping" AND human intervention)  <!-- 시험 26건 · 논문 8편 -->
+- [x] deep brain stimulation — Major Depression에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 16건 · 논문 759편 -->
+- [x] motor imagery — Stroke에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 41건 · 논문 932편 -->
+- [x] motor imagery — Parkinson Disease에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 10건 · 논문 189편 -->
+- [x] robot-assisted therapy — Lung Cancer에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 23건 · 논문 325편 -->
+- [x] robot-assisted therapy — Cerebral Palsy에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 11건 · 논문 98편 -->
+- [x] robot-assisted therapy — Surgery에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 8건 · 논문 11488편 -->
+- [x] robot-assisted therapy — Cerebrovascular Disease에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 536편 -->
+- [x] telerehabilitation — Pain에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 26건 · 논문 632편 -->
+- [x] telerehabilitation — Multiple Sclerosis에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 23건 · 논문 195편 -->
+- [x] telerehabilitation — Heart Failure에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 22건 · 논문 143편 -->
+- [x] telerehabilitation — Osteoarthritis에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 19건 · 논문 178편 -->
+- [x] cognitive rehabilitation — Stroke에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 31건 · 논문 8357편 -->
+- [x] cognitive rehabilitation — Pain에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 27건 · 논문 6043편 -->
+- [x] cognitive rehabilitation — Schizophrenia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 22건 · 논문 3548편 -->
+- [x] cognitive rehabilitation — Breast Cancer에 듣는다 — 근거 없음(2026-08-06, "cognitive rehabilitation" AND "Breast Cancer" AND human intervention)  <!-- 시험 22건 · 논문 706편 -->
+- [x] atenolol — Marfan Syndrome에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 49편 -->
+- [x] atenolol — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 2036편 --> — 허가 적응증(2026-08-06)
+- [x] atenolol — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 3324편 --> — 허가 적응증(2026-08-06)
+- [x] atenolol — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 4266편 --> — 허가 적응증(2026-08-06)
+- [x] terazosin — Urinary Retention에 듣는다 — 근거 없음(2026-08-06, "terazosin" AND "Urinary Retention" AND human intervention)  <!-- 시험 3건 · 논문 42편 -->
+- [x] fexofenadine — Pruritus에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 68편 -->
+- [x] fexofenadine — Urticaria에 듣는다  <!-- 시험 4건 · 논문 166편 --> — 허가 적응증(2026-08-06)
+- [x] fexofenadine — Asthma에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 142편 -->
+- [x] galcanezumab — Chronic Cluster Headache에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 73편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12173,10 +12173,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] olfactory training — Smell Loss에 듣는다  <!-- 시험 9건 · 논문 324편 -->
-- [ ] olfactory training — COVID-19에 듣는다  <!-- 시험 6건 · 논문 236편 -->
-- [ ] olfactory training — Hyposmia에 듣는다  <!-- 시험 5건 · 논문 246편 -->
-- [ ] olfactory training — Cognitive Decline에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [x] olfactory training — Smell Loss에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 9건 · 논문 324편 -->
+- [x] olfactory training — COVID-19에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 6건 · 논문 236편 -->
+- [x] olfactory training — Hyposmia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 5건 · 논문 246편 -->
+- [x] olfactory training — Cognitive Decline에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 67편 -->
 - [ ] sensory integration therapy — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 81편 -->
 - [ ] sensory integration therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 319편 -->
 - [ ] sensory integration therapy — Children에 듣는다  <!-- 시험 4건 · 논문 1130편 -->

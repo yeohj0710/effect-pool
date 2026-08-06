@@ -1,0 +1,32 @@
+{
+  "id": "robot-assisted-therapy-lung-cancer-pos",
+  "subj": "robot-assisted therapy",
+  "claim": "로봇 보조치료를 폐암 수술에 쓴다",
+  "line": "로봇 보조 흉부수술이 출혈과 입원을 줄였습니다",
+  "effect": "출혈 WMD −50.4 mL",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 11247,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "의료기기 기반 수술이며 폐암 허가 적응증을 확인하지 못함",
+  "why": "폐암 환자의 로봇 보조 흉부수술과 비디오 흉강경수술을 비교한 메타분석을 확인했습니다",
+  "saw": "18개 연구 11,247명에서 로봇수술은 출혈 WMD −50.40 mL, 개흉 전환 OR 0.50, 재원기간 감소를 보였습니다",
+  "limit": "관찰연구가 섞였고 수술 선택과 술자 숙련도의 영향을 배제하기 어렵습니다",
+  "against": "비디오 흉강경수술",
+  "use": "폐암 절제술의 로봇 보조 접근에 대한 비교 근거로만 봅니다",
+  "refs": [
+    {
+      "label": "Robotic-assisted versus video-assisted thoracoscopic surgery for lung cancer: a meta-analysis",
+      "doi": "10.1186/s12885-021-08241-5",
+      "pmid": "33941112"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=robot-assisted therapy · cond=Lung Cancer: 0건",
+    "pubmed": "robot-assisted therapy AND Lung Cancer AND (randomized OR trial OR meta-analysis): 50건",
+    "negative": "robot-assisted therapy AND Lung Cancer AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 153건",
+    "safety": "robot-assisted therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 3773건"
+  }
+}
