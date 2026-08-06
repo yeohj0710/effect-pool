@@ -12295,14 +12295,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] rhythmic auditory stimulation — Parkinson Disease에 듣는다  <!-- 시험 6건 · 논문 175편 -->
-- [ ] rhythmic auditory stimulation — Gait Training에 듣는다  <!-- 시험 4건 · 논문 110편 -->
-- [ ] rhythmic auditory stimulation — Traumatic Brain Injury에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] rhythmic auditory stimulation — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] craft therapy — Family에 듣는다  <!-- 시험 6건 · 논문 371편 -->
-- [ ] craft therapy — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 21편 -->
-- [ ] craft therapy — Substance Dependence에 듣는다  <!-- 시험 4건 · 논문 98편 -->
-- [ ] craft therapy — Psychosis에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] snoezelen — Autism에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] cotadutide — Non-alcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] bimagrumab — Sporadic Inclusion Body Myositis에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [x] rhythmic auditory stimulation — Parkinson Disease에 듣는다  <!-- 시험 6건 · 논문 175편 -->
+- [x] rhythmic auditory stimulation — Gait Training에 듣는다  <!-- 시험 4건 · 논문 110편 -->
+- [x] rhythmic auditory stimulation — Traumatic Brain Injury에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [x] rhythmic auditory stimulation — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [x] craft therapy — Family에 듣는다 — 근거 없음(2026-08-06, craft therapy family)  <!-- 시험 6건 · 논문 371편 -->
+- [x] craft therapy — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 21편 -->
+- [x] craft therapy — Substance Dependence에 듣는다 — 근거 없음(2026-08-06, craft therapy substance dependence)  <!-- 시험 4건 · 논문 98편 -->
+- [x] craft therapy — Psychosis에 듣는다 — 근거 없음(2026-08-06, craft therapy psychosis)  <!-- 시험 3건 · 논문 19편 -->
+- [x] snoezelen — Autism에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] cotadutide — Non-alcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [x] bimagrumab — Sporadic Inclusion Body Myositis에 듣는다  <!-- 시험 3건 · 논문 18편 -->
