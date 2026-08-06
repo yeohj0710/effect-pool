@@ -10895,3 +10895,73 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] dance intervention — Cancer에 듣는다  <!-- 시험 14건 · 논문 396편 -->
 - [ ] dance intervention — Aging에 듣는다  <!-- 시험 14건 · 논문 515편 -->
 - [ ] dance intervention — Older Adults에 듣는다  <!-- 시험 12건 · 논문 1832편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] parent-mediated intervention — Parent-Training에 듣는다  <!-- 시험 4건 · 논문 50편 -->
+- [ ] family-based treatment — Anorexia Nervosa에 듣는다  <!-- 시험 3건 · 논문 456편 -->
+- [ ] family-based treatment — Eating Disorder에 듣는다  <!-- 시험 3건 · 논문 560편 -->
+- [ ] social skills training — Autism에 듣는다  <!-- 시험 24건 · 논문 2064편 -->
+- [ ] social skills training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 6건 · 논문 464편 -->
+- [ ] social skills training — Obesity에 듣는다  <!-- 시험 6건 · 논문 436편 -->
+- [ ] social skills training — Stress, Emotional에 듣는다  <!-- 시험 6건 · 논문 1788편 -->
+- [ ] executive function training — Autism에 듣는다  <!-- 시험 8건 · 논문 365편 -->
+- [ ] executive function training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 682편 -->
+- [ ] executive function training — ADHD에 듣는다  <!-- 시험 5건 · 논문 744편 -->
+- [ ] executive function training — Obesity에 듣는다  <!-- 시험 3건 · 논문 302편 -->
+- [ ] cognitive training — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 1941편 -->
+- [ ] cognitive training — Depression에 듣는다  <!-- 시험 18건 · 논문 5536편 -->
+- [ ] cognitive training — Pain에 듣는다  <!-- 시험 17건 · 논문 2104편 -->
+- [ ] cognitive training — Insomnia에 듣는다  <!-- 시험 15건 · 논문 453편 -->
+- [ ] working memory training — Attention에 듣는다  <!-- 시험 7건 · 논문 5232편 -->
+- [ ] working memory training — Depression에 듣는다  <!-- 시험 6건 · 논문 1200편 -->
+- [ ] working memory training — ADHD에 듣는다  <!-- 시험 5건 · 논문 611편 -->
+- [ ] working memory training — Weight Loss에 듣는다  <!-- 시험 5건 · 논문 61편 -->
+- [ ] paced breathing — Hot Flashes에 듣는다  <!-- 시험 5건 · 논문 25편 -->
+- [ ] paced breathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 120편 -->
+- [ ] paced breathing — Stress에 듣는다  <!-- 시험 4건 · 논문 229편 -->
+- [ ] paced breathing — Pain에 듣는다  <!-- 시험 4건 · 논문 114편 -->
+- [ ] diaphragmatic breathing — Stress에 듣는다  <!-- 시험 8건 · 논문 464편 -->
+- [ ] diaphragmatic breathing — COPD에 듣는다  <!-- 시험 8건 · 논문 680편 -->
+- [ ] diaphragmatic breathing — Diaphragm에 듣는다  <!-- 시험 8건 · 논문 8364편 -->
+- [ ] diaphragmatic breathing — Anxiety에 듣는다  <!-- 시험 7건 · 논문 169편 -->
+- [ ] relaxation breathing — Pain에 듣는다  <!-- 시험 18건 · 논문 618편 -->
+- [ ] relaxation breathing — Stress에 듣는다  <!-- 시험 17건 · 논문 957편 -->
+- [ ] relaxation breathing — Cancer에 듣는다  <!-- 시험 13건 · 논문 412편 -->
+- [ ] relaxation breathing — Virtual Reality에 듣는다  <!-- 시험 7건 · 논문 53편 -->
+- [ ] culinary medicine — Family Research에 듣는다  <!-- 시험 4건 · 논문 352편 -->
+- [ ] culinary medicine — Obesity & Overweight에 듣는다  <!-- 시험 3건 · 논문 101편 -->
+- [ ] culinary medicine — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [ ] nutrition education — Cancer에 듣는다  <!-- 시험 27건 · 논문 11618편 -->
+- [ ] nutrition education — Diabetes에 듣는다  <!-- 시험 16건 · 논문 14823편 -->
+- [ ] nutrition education — Mental Health에 듣는다  <!-- 시험 15건 · 논문 6468편 -->
+- [ ] nutrition education — Overweight에 듣는다  <!-- 시험 8건 · 논문 15026편 -->
+- [ ] food literacy — Obesity에 듣는다  <!-- 시험 6건 · 논문 314편 -->
+- [ ] food literacy — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 92편 -->
+- [ ] produce prescription — Diabetes에 듣는다  <!-- 시험 13건 · 논문 286편 -->
+- [ ] produce prescription — Obesity에 듣는다  <!-- 시험 7건 · 논문 120편 -->
+- [ ] produce prescription — Hypertension에 듣는다  <!-- 시험 3건 · 논문 155편 -->
+- [ ] meal kit — Obesity에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] meal kit — Diet Quality에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] flexibility exercise — Hip Injury에 듣는다  <!-- 시험 4건 · 논문 157편 -->
+- [ ] flexibility exercise — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [ ] flexibility exercise — Depression에 듣는다  <!-- 시험 3건 · 논문 485편 -->
+- [ ] flexibility exercise — Osteoporosis에 듣는다  <!-- 시험 3건 · 논문 86편 -->
+- [ ] motor control exercise — Cognitive Test에 듣는다  <!-- 시험 5건 · 논문 968편 -->
+- [ ] motor control exercise — Stroke에 듣는다  <!-- 시험 4건 · 논문 1666편 -->
+- [ ] motor control exercise — Exercise에 듣는다  <!-- 시험 3건 · 논문 17200편 -->
+- [ ] neuromuscular exercise — Knee OA에 듣는다  <!-- 시험 33건 · 논문 114편 -->
+- [ ] neuromuscular exercise — Pain에 듣는다  <!-- 시험 33건 · 논문 1841편 -->
+- [ ] neuromuscular exercise — Muscle에 듣는다  <!-- 시험 17건 · 논문 9899편 -->
+- [ ] neuromuscular exercise — Ankle Sprain에 듣는다  <!-- 시험 16건 · 논문 310편 -->
+- [ ] community health worker — Hypertension에 듣는다  <!-- 시험 22건 · 논문 1134편 -->
+- [ ] community health worker — Child Health에 듣는다  <!-- 시험 16건 · 논문 8477편 -->
+- [ ] community health worker — HIV에 듣는다  <!-- 시험 11건 · 논문 4467편 -->
+- [ ] community health worker — Smoking에 듣는다  <!-- 시험 9건 · 논문 1216편 -->
