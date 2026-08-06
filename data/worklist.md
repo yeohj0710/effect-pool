@@ -12022,3 +12022,38 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] green tea — Diabetes에 듣는다  <!-- 시험 11건 · 논문 2213편 --> — 항목 생성(2026-08-06)
 - [x] green tea — Hypertension에 듣는다  <!-- 시험 5건 · 논문 1052편 --> — 항목 생성(2026-08-06)
 - [x] green tea — Oral Care에 듣는다  <!-- 시험 5건 · 논문 259편 --> — 항목 생성(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] manual lymphatic drainage — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 237편 -->
+- [ ] manual lymphatic drainage — Pain에 듣는다  <!-- 시험 5건 · 논문 171편 -->
+- [ ] therapeutic ultrasound — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 2420편 -->
+- [ ] therapeutic ultrasound — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 754편 -->
+- [ ] therapeutic ultrasound — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 982편 -->
+- [ ] neuromuscular electrical stimulation — Muscle에 듣는다  <!-- 시험 44건 · 논문 7206편 -->
+- [ ] neuromuscular electrical stimulation — Injury, Knee에 듣는다  <!-- 시험 22건 · 논문 176편 -->
+- [ ] neuromuscular electrical stimulation — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 74편 -->
+- [ ] electroacupuncture — Cancer에 듣는다  <!-- 시험 45건 · 논문 623편 -->
+- [ ] electroacupuncture — Postoperative Ileus에 듣는다  <!-- 시험 19건 · 논문 52편 -->
+- [ ] electroacupuncture — Urinary Retention에 듣는다  <!-- 시험 19건 · 논문 55편 -->
+- [ ] electroacupuncture — Acupuncture에 듣는다  <!-- 시험 18건 · 논문 8806편 -->
+- [ ] mindful movement — Pain에 듣는다  <!-- 시험 13건 · 논문 206편 -->
+- [ ] mindful movement — Cognitive Health에 듣는다  <!-- 시험 11건 · 논문 309편 -->
+- [ ] mindful movement — Depression에 듣는다  <!-- 시험 10건 · 논문 277편 -->
+- [ ] mindful movement — Anxiety에 듣는다  <!-- 시험 9건 · 논문 244편 -->
+- [ ] legumes — Obesity에 듣는다  <!-- 시험 3건 · 논문 1571편 -->
+- [ ] legumes — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 2870편 -->
+- [ ] moringa — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+- [ ] moringa — Diabetes에 듣는다  <!-- 시험 3건 · 논문 271편 -->
+- [ ] moringa — Dental Caries에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [ ] garlic — Healthy Men에 듣는다  <!-- 시험 4건 · 논문 18편 -->
+- [ ] garlic — Endothelial Dysfunction에 듣는다  <!-- 시험 3건 · 논문 55편 -->
+- [ ] garlic — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 135편 -->
+- [ ] garlic — Hypertension에 듣는다  <!-- 시험 3건 · 논문 298편 -->
