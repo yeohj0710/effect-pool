@@ -12776,3 +12776,48 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] behavioral activation therapy — Anxiety에 듣는다  <!-- 시험 36건 · 논문 22839편 -->
 - [x] behavioral activation therapy — Stress에 듣는다 — 근거 없음(2026-08-06, "behavioral activation therapy" AND Stress)  <!-- 시험 24건 · 논문 36501편 -->
 - [x] behavioral activation therapy — Opioid Use에 듣는다  <!-- 시험 17건 · 논문 6803편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] guided self-help — Depression에 듣는다  <!-- 시험 28건 · 논문 630편 -->
+- [x] guided self-help — Anxiety에 듣는다  <!-- 시험 22건 · 논문 478편 -->
+- [x] guided self-help — Stress에 듣는다  <!-- 시험 13건 · 논문 227편 -->
+- [x] guided self-help — Obesity에 듣는다  <!-- 시험 12건 · 논문 73편 -->
+- [x] reality orientation — Motor Impairment에 듣는다 — 근거 없음(2026-08-06, "reality orientation AND Motor Impairment")  <!-- 시험 9건 · 논문 64편 -->
+- [x] reality orientation — Anxiety에 듣는다 — 근거 없음(2026-08-06, "reality orientation AND Anxiety")  <!-- 시험 6건 · 논문 113편 -->
+- [x] reality orientation — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 100편 -->
+- [x] reality orientation — Rehabilitation에 듣는다 — 근거 없음(2026-08-06, "reality orientation AND Rehabilitation")  <!-- 시험 5건 · 논문 549편 -->
+- [x] cognitive restructuring — Depression에 듣는다  <!-- 시험 59건 · 논문 503편 -->
+- [x] cognitive restructuring — Insomnia에 듣는다  <!-- 시험 49건 · 논문 69편 -->
+- [x] cognitive restructuring — Stress에 듣는다  <!-- 시험 41건 · 논문 460편 -->
+- [x] cognitive restructuring — Pain에 듣는다  <!-- 시험 28건 · 논문 137편 -->
+- [x] mental health first aid — Health Literacy에 듣는다  <!-- 시험 5건 · 논문 164편 -->
+- [x] mental health first aid — Distress, Emotional에 듣는다 — 근거 없음(2026-08-06, "mental health first aid AND Distress, Emotional")  <!-- 시험 5건 · 논문 145편 -->
+- [x] mental health first aid — Depressive Symptoms에 듣는다 — 근거 없음(2026-08-06, "mental health first aid AND Depressive Symptoms")  <!-- 시험 3건 · 논문 401편 -->
+- [x] social emotional learning — Rural Health에 듣는다 — 근거 없음(2026-08-06, "social emotional learning AND Rural Health")  <!-- 시험 9건 · 논문 312편 -->
+- [x] social emotional learning — Lung Cancer에 듣는다 — 근거 없음(2026-08-06, "social emotional learning AND Lung Cancer")  <!-- 시험 9건 · 논문 40편 -->
+- [x] social emotional learning — Stress에 듣는다 — 근거 없음(2026-08-06, "social emotional learning AND Stress")  <!-- 시험 7건 · 논문 4373편 -->
+- [x] social emotional learning — Psychosis에 듣는다 — 근거 없음(2026-08-06, "social emotional learning AND Psychosis")  <!-- 시험 5건 · 논문 358편 -->
+- [x] digital storytelling — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 69편 -->
+- [x] digital storytelling — Nursing에 듣는다  <!-- 시험 4건 · 논문 174편 -->
+- [x] digital storytelling — Cancer에 듣는다  <!-- 시험 3건 · 논문 58편 -->
+- [x] digital storytelling — Education에 듣는다  <!-- 시험 3건 · 논문 324편 -->
+- [x] art-based intervention — Health에 듣는다  <!-- 시험 3건 · 논문 389편 -->
+- [x] vericiguat — Coronary Artery Disease에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [x] vericiguat — Cardiac Dysfunction에 듣는다 — 근거 없음(2026-08-06, "vericiguat AND Cardiac Dysfunction")  <!-- 시험 3건 · 논문 170편 -->
+- [x] vericiguat — Vascular Diseases에 듣는다  <!-- 시험 3건 · 논문 56편 -->
+- [x] azilsartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 42편 -->
+- [x] nicorandil — Myocardial Ischemia에 듣는다  <!-- 시험 8건 · 논문 798편 -->
+- [x] nicorandil — Stable Angina에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 109편 -->
+- [ ] nicorandil — Chronic Renal Failure에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [ ] nicorandil — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 51편 -->
+- [ ] mitapivat — Sickle Cell Disease에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [ ] mitapivat — Anemia에 듣는다  <!-- 시험 5건 · 논문 75편 -->
+- [ ] mitapivat — Pyruvate Kinase Deficiency에 듣는다  <!-- 시험 4건 · 논문 39편 -->
