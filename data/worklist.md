@@ -11015,3 +11015,48 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] group medical visit — Hypertension에 듣는다  <!-- 시험 6건 · 논문 4425편 -->
 - [ ] group medical visit — HIV에 듣는다  <!-- 시험 5건 · 논문 2341편 -->
 - [ ] group medical visit — Back Pain에 듣는다  <!-- 시험 5건 · 논문 753편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] brimonidine — Ocular Redness에 듣는다  <!-- 시험 56건 · 논문 34편 -->
+- [ ] brimonidine — Rosacea에 듣는다  <!-- 시험 12건 · 논문 119편 -->
+- [ ] brimonidine — Dry Eye에 듣는다  <!-- 시험 12건 · 논문 27편 -->
+- [ ] clobetasol — Oral Pain에 듣는다  <!-- 시험 21건 · 논문 73편 -->
+- [ ] clobetasol — Vulvar Lichen Sclerosus에 듣는다  <!-- 시험 9건 · 논문 110편 -->
+- [ ] clobetasol — Atopic Dermatitis에 듣는다  <!-- 시험 8건 · 논문 103편 -->
+- [ ] cyclopentolate — Refractive Errors에 듣는다  <!-- 시험 3건 · 논문 268편 -->
+- [ ] dapoxetine — Sexual Dysfunction에 듣는다  <!-- 시험 14건 · 논문 218편 -->
+- [ ] etodolac — Colorectal Neoplasms에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [ ] fluvastatin — Dyslipidemia에 듣는다  <!-- 시험 7건 · 논문 595편 -->
+- [ ] fluvastatin — Renal Transplantation에 듣는다  <!-- 시험 4건 · 논문 98편 -->
+- [ ] fluvastatin — Hypertension에 듣는다  <!-- 시험 4건 · 논문 108편 -->
+- [ ] fluvastatin — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 45편 -->
+- [ ] fosfomycin — Sepsis Bacterial에 듣는다  <!-- 시험 7건 · 논문 201편 -->
+- [ ] fosfomycin — Infection에 듣는다  <!-- 시험 5건 · 논문 3809편 -->
+- [ ] fosfomycin — Bladder Cancer에 듣는다  <!-- 시험 5건 · 논문 15편 -->
+- [ ] fosfomycin — Pathogen Resistance에 듣는다  <!-- 시험 4건 · 논문 1268편 -->
+- [ ] hydrocodone — Nausea에 듣는다  <!-- 시험 5건 · 논문 76편 -->
+- [ ] patient navigation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 123편 -->
+- [ ] patient navigation — Lung Carcinoma에 듣는다  <!-- 시험 18건 · 논문 57편 -->
+- [ ] patient navigation — HIV에 듣는다  <!-- 시험 12건 · 논문 312편 -->
+- [ ] patient navigation — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 42편 -->
+- [ ] community paramedicine — Smoking에 듣는다  <!-- 시험 3건 · 논문 67편 -->
+- [ ] home blood pressure monitoring — Diabetes에 듣는다  <!-- 시험 13건 · 논문 2625편 -->
+- [ ] home blood pressure monitoring — Blood Pressure에 듣는다  <!-- 시험 11건 · 논문 20388편 -->
+- [ ] home blood pressure monitoring — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 967편 -->
+- [ ] home blood pressure monitoring — Cardiovascular Health에 듣는다  <!-- 시험 10건 · 논문 2760편 -->
+- [ ] telephone counseling — Smoking에 듣는다  <!-- 시험 17건 · 논문 1292편 -->
+- [ ] telephone counseling — Obesity에 듣는다  <!-- 시험 10건 · 논문 334편 -->
+- [ ] telephone counseling — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 25편 -->
+- [ ] telephone counseling — Pre-Diabetes에 듣는다  <!-- 시험 4건 · 논문 52편 -->
+- [ ] group prenatal care — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 19756편 -->
+- [ ] group prenatal care — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1636편 -->
+- [ ] group prenatal care — Stress에 듣는다  <!-- 시험 7건 · 논문 1081편 -->
+- [ ] group prenatal care — Depression에 듣는다  <!-- 시험 6건 · 논문 1167편 -->
