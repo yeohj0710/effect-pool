@@ -11117,3 +11117,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] tai chi — Falls에 듣는다  <!-- 시험 11건 · 논문 490편 -->
 - [ ] tai chi — Sleep에 듣는다  <!-- 시험 11건 · 논문 368편 -->
 - [ ] tai chi — Stroke에 듣는다  <!-- 시험 8건 · 논문 211편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] clotrimazole — Tinea Pedis에 듣는다  <!-- 시험 6건 · 논문 66편 -->
+- [ ] clotrimazole — HIV Infections에 듣는다  <!-- 시험 5건 · 논문 85편 -->
+- [ ] clotrimazole — Otomycosis에 듣는다  <!-- 시험 4건 · 논문 79편 -->
+- [ ] clotrimazole — Bacterial Vaginosis에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] dimenhydrinate — Vertigo에 듣는다  <!-- 시험 3건 · 논문 88편 -->
+- [ ] drospirenone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 10건 · 논문 108편 -->
+- [ ] drospirenone — Premenstrual Syndrome에 듣는다  <!-- 시험 4건 · 논문 78편 -->
+- [ ] drospirenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 69편 -->
+- [ ] ethinylestradiol — Ovulation Inhibition에 듣는다  <!-- 시험 6건 · 논문 221편 -->
+- [ ] ethinylestradiol — Endometrial Polyp에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [ ] ethinylestradiol — Diabetes에 듣는다  <!-- 시험 3건 · 논문 311편 -->
+- [ ] ethinylestradiol — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 3건 · 논문 376편 -->
+- [ ] follitropin — Ovarian Reserve에 듣는다  <!-- 시험 11건 · 논문 1682편 -->
+- [ ] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 -->
+- [ ] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 -->
+- [ ] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 -->
+- [ ] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 -->
+- [ ] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 -->
+- [ ] lactulose — Renal Failure에 듣는다  <!-- 시험 9건 · 논문 63편 -->
+- [ ] lactulose — Bowel Preparation에 듣는다  <!-- 시험 9건 · 논문 83편 -->
+- [ ] levonorgestrel — Endometrial Polyp에 듣는다  <!-- 시험 22건 · 논문 66편 -->
+- [ ] levonorgestrel — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 230편 -->
+- [ ] levonorgestrel — HIV에 듣는다  <!-- 시험 13건 · 논문 211편 -->
+- [ ] levonorgestrel — Pregnancy에 듣는다  <!-- 시험 13건 · 논문 2241편 -->
+- [ ] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 -->
+- [ ] medroxyprogesterone — HIV에 듣는다  <!-- 시험 11건 · 논문 356편 -->
+- [ ] medroxyprogesterone — Coronary Disease에 듣는다  <!-- 시험 7건 · 논문 305편 -->
+- [ ] medroxyprogesterone — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 879편 -->
+- [ ] permethrin — Pediculosis에 듣는다  <!-- 시험 7건 · 논문 276편 -->
+- [ ] permethrin — Head Lice에 듣는다  <!-- 시험 5건 · 논문 254편 -->
+- [ ] permethrin — Malaria에 듣는다  <!-- 시험 4건 · 논문 847편 -->
+- [ ] permethrin — Tick Bites에 듣는다  <!-- 시험 4건 · 논문 62편 -->
+- [ ] food vouchers — Nutrition에 듣는다  <!-- 시험 6건 · 논문 280편 -->
+- [ ] food vouchers — Breast Feeding에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [ ] food vouchers — Obesity에 듣는다  <!-- 시험 3건 · 논문 49편 -->
+- [ ] food vouchers — Hypertension에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] resistance bands — Cancer에 듣는다  <!-- 시험 14건 · 논문 318편 -->
+- [ ] resistance bands — Diabetes에 듣는다  <!-- 시험 13건 · 논문 61편 -->
+- [ ] resistance bands — Aging에 듣는다  <!-- 시험 12건 · 논문 106편 -->
+- [ ] resistance bands — Obesity에 듣는다  <!-- 시험 11건 · 논문 36편 -->
