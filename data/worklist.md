@@ -10157,3 +10157,78 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] dornase alfa — COVID-19에 듣는다  <!-- 시험 6건 · 논문 19편 -->
 - [ ] dornase alfa — Atelectasis에 듣는다  <!-- 시험 3건 · 논문 23편 -->
 - [ ] dornase alfa — Lower Respiratory Tract Infection에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] psyllium — Irritable Bowel에 듣는다  <!-- 시험 11건 · 논문 74편 -->
+- [ ] psyllium — Incontinence에 듣는다  <!-- 시험 6건 · 논문 27편 -->
+- [ ] psyllium — Obesity에 듣는다  <!-- 시험 4건 · 논문 68편 -->
+- [ ] yoga — Pain에 듣는다  <!-- 시험 92건 · 논문 1723편 -->
+- [ ] yoga — Stress에 듣는다  <!-- 시험 66건 · 논문 2548편 -->
+- [ ] yoga — Anxiety에 듣는다  <!-- 시험 36건 · 논문 1780편 -->
+- [ ] yoga — Depression에 듣는다  <!-- 시험 32건 · 논문 1774편 -->
+- [ ] meditation — Anxiety에 듣는다  <!-- 시험 27건 · 논문 2315편 -->
+- [ ] meditation — Cancer에 듣는다  <!-- 시험 26건 · 논문 1191편 -->
+- [ ] meditation — Pain에 듣는다  <!-- 시험 25건 · 논문 1348편 -->
+- [ ] meditation — Depression에 듣는다  <!-- 시험 19건 · 논문 2157편 -->
+- [ ] tai chi — Cognitive Decline에 듣는다  <!-- 시험 25건 · 논문 185편 -->
+- [ ] tai chi — Aging에 듣는다  <!-- 시험 18건 · 논문 584편 -->
+- [ ] tai chi — Neck Pain에 듣는다  <!-- 시험 15건 · 논문 43편 -->
+- [ ] tai chi — OA Knee에 듣는다  <!-- 시험 13건 · 논문 61편 -->
+- [ ] resistance training — Cancer에 듣는다  <!-- 시험 17건 · 논문 4245편 -->
+- [ ] resistance training — Obesity에 듣는다  <!-- 시험 13건 · 논문 3685편 -->
+- [ ] resistance training — Aging에 듣는다  <!-- 시험 12건 · 논문 4192편 -->
+- [ ] resistance training — Jumper's Knee에 듣는다  <!-- 시험 10건 · 논문 8편 -->
+- [ ] linagliptin — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 52편 -->
+- [ ] linagliptin — Renal Insufficiency에 듣는다  <!-- 시험 5건 · 논문 69편 -->
+- [ ] linagliptin — Chronic Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 66편 -->
+- [ ] sitagliptin — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 198편 -->
+- [ ] sitagliptin — Obesity에 듣는다  <!-- 시험 8건 · 논문 259편 -->
+- [ ] sitagliptin — Renal Impairment에 듣는다  <!-- 시험 8건 · 논문 122편 -->
+- [ ] vildagliptin — Renal Impairment에 듣는다  <!-- 시험 5건 · 논문 61편 -->
+- [ ] vildagliptin — Fed Conditions에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [ ] vildagliptin — Ischemic Heart Disease에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] repaglinide — Healthy Participants에 듣는다  <!-- 시험 5건 · 논문 71편 -->
+- [ ] repaglinide — Drug-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 228편 -->
+- [ ] glimepiride — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 281편 -->
+- [ ] glimepiride — Chronic Heart Failure에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [ ] glimepiride — Diabetic Patients에 듣는다  <!-- 시험 3건 · 논문 1018편 -->
+- [ ] finerenone — Diabetes에 듣는다  <!-- 시험 31건 · 논문 798편 -->
+- [ ] finerenone — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 520편 -->
+- [ ] finerenone — IgA Nephropathy에 듣는다  <!-- 시험 11건 · 논문 20편 -->
+- [ ] finerenone — Primary Aldosteronism에 듣는다  <!-- 시험 6건 · 논문 22편 -->
+- [ ] evolocumab — Hypercholesterolemia에 듣는다  <!-- 시험 29건 · 논문 645편 -->
+- [ ] evolocumab — Hyperlipidemia에 듣는다  <!-- 시험 17건 · 논문 546편 -->
+- [ ] evolocumab — Cardiovascular Disease에 듣는다  <!-- 시험 15건 · 논문 1014편 -->
+- [ ] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 -->
+- [ ] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 -->
+- [ ] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 -->
+- [ ] alirocumab — Cardiovascular Diseases에 듣는다  <!-- 시험 9건 · 논문 591편 -->
+- [ ] alirocumab — Atheroma; Myocardial에 듣는다  <!-- 시험 7건 · 논문 13편 -->
+- [ ] inclisiran — Plaque, Atherosclerotic에 듣는다  <!-- 시험 20건 · 논문 22편 -->
+- [ ] inclisiran — Coronary Heart Disease에 듣는다  <!-- 시험 8건 · 논문 95편 -->
+- [ ] inclisiran — LDL-cholesterol에 듣는다  <!-- 시험 6건 · 논문 464편 -->
+- [ ] inclisiran — ASCVD에 듣는다  <!-- 시험 3건 · 논문 153편 -->
+- [ ] belimumab — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 121편 -->
+- [ ] belimumab — Membranous Nephropathy에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] belimumab — Vasculitis에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [ ] belimumab — Sjogren's Syndrome에 듣는다  <!-- 시험 3건 · 논문 57편 -->
+- [ ] guselkumab — Psoriatic Arthritis에 듣는다  <!-- 시험 19건 · 논문 253편 -->
+- [ ] guselkumab — Crohn Disease에 듣는다  <!-- 시험 17건 · 논문 104편 -->
+- [ ] guselkumab — Ulcerative Colitis에 듣는다  <!-- 시험 10건 · 논문 100편 -->
+- [ ] risankizumab — Crohn Disease에 듣는다  <!-- 시험 20건 · 논문 239편 -->
+- [ ] risankizumab — Ulcerative Colitis에 듣는다  <!-- 시험 9건 · 논문 105편 -->
+- [ ] risankizumab — Psoriatic Arthritis에 듣는다  <!-- 시험 9건 · 논문 130편 -->
+- [ ] romosozumab — Bone Loss에 듣는다  <!-- 시험 5건 · 논문 524편 -->
+- [ ] romosozumab — Osteopenia에 듣는다  <!-- 시험 4건 · 논문 492편 -->
+- [ ] teriparatide — Fracture에 듣는다  <!-- 시험 15건 · 논문 2052편 -->
+- [ ] teriparatide — Bone Loss에 듣는다  <!-- 시험 12건 · 논문 2011편 -->
+- [ ] teriparatide — Fractures에 듣는다  <!-- 시험 7건 · 논문 2052편 -->
+- [ ] teriparatide — Spinal Stenosis에 듣는다  <!-- 시험 5건 · 논문 9편 -->
