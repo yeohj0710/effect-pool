@@ -12454,12 +12454,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] contrast water therapy — Small Bowel Adhesion에 듣는다  <!-- 시험 4건 · 논문 41편 -->
-- [ ] contrast water therapy — Rectal Cancer에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] contrast water therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] patisiran — Amyloid Neuropathies에 듣는다  <!-- 시험 6건 · 논문 158편 -->
-- [ ] patisiran — Wild-Type Transthyretin Cardiac Amyloidosis에 듣는다  <!-- 시험 5건 · 논문 35편 -->
-- [ ] inebilizumab — Autoimmune Diseases에 듣는다  <!-- 시험 4건 · 논문 188편 -->
+- [x] contrast water therapy — Small Bowel Adhesion에 듣는다  <!-- 시험 4건 · 논문 41편 -->
+- [x] contrast water therapy — Rectal Cancer에 듣는다 — 근거 없음(2026-08-06, contrast water therapy AND Rectal Cancer)  <!-- 시험 4건 · 논문 24편 -->
+- [x] contrast water therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [x] patisiran — Amyloid Neuropathies에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 158편 -->
+- [x] patisiran — Wild-Type Transthyretin Cardiac Amyloidosis에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [x] inebilizumab — Autoimmune Diseases에 듣는다  <!-- 시험 4건 · 논문 188편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12470,29 +12470,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] reminiscence therapy — Rural Health에 듣는다  <!-- 시험 3건 · 논문 9편 -->
-- [ ] laughter therapy — Mental Health에 듣는다  <!-- 시험 6건 · 논문 72편 -->
-- [ ] therapeutic touch — Pain에 듣는다  <!-- 시험 3건 · 논문 1088편 -->
-- [ ] therapeutic touch — Cancer에 듣는다  <!-- 시험 3건 · 논문 665편 -->
-- [ ] self-compassion training — Distress에 듣는다  <!-- 시험 3건 · 논문 347편 -->
-- [ ] self-compassion training — Caregiver Burden에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] self-compassion training — Body Image에 듣는다  <!-- 시험 3건 · 논문 91편 -->
-- [ ] gratitude intervention — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 45편 -->
-- [ ] sensory integration therapy — Motor Activity에 듣는다  <!-- 시험 3건 · 논문 656편 -->
-- [ ] sensory integration therapy — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 70편 -->
-- [ ] sensory integration therapy — Balance에 듣는다  <!-- 시험 3건 · 논문 653편 -->
-- [ ] dance movement therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 161편 -->
-- [ ] dance movement therapy — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 709편 -->
-- [ ] dance movement therapy — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 54편 -->
-- [ ] dance movement therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 14편 -->
-- [ ] mindful self-compassion — Self Harm에 듣는다  <!-- 시험 11건 · 논문 44편 -->
-- [ ] mindful self-compassion — Caregiver에 듣는다  <!-- 시험 7건 · 논문 102편 -->
-- [ ] mindful self-compassion — Well-being에 듣는다  <!-- 시험 7건 · 논문 1577편 -->
-- [ ] mindful self-compassion — Depression에 듣는다  <!-- 시험 4건 · 논문 665편 -->
-- [ ] health literacy intervention — Diabetes에 듣는다  <!-- 시험 17건 · 논문 2180편 -->
-- [ ] health literacy intervention — Obesity에 듣는다  <!-- 시험 15건 · 논문 872편 -->
-- [ ] health literacy intervention — Sexual Behavior에 듣는다  <!-- 시험 12건 · 논문 386편 -->
-- [ ] health literacy intervention — Hypertension에 듣는다  <!-- 시험 11건 · 논문 869편 -->
-- [ ] olezarsen — Familial Chylomicronemia Syndrome에 듣는다  <!-- 시험 5건 · 논문 47편 -->
+- [x] reminiscence therapy — Rural Health에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [x] laughter therapy — Mental Health에 듣는다  <!-- 시험 6건 · 논문 72편 -->
+- [x] therapeutic touch — Pain에 듣는다 — 근거 없음(2026-08-06, therapeutic touch AND Pain)  <!-- 시험 3건 · 논문 1088편 -->
+- [x] therapeutic touch — Cancer에 듣는다 — 근거 없음(2026-08-06, therapeutic touch AND Cancer)  <!-- 시험 3건 · 논문 665편 -->
+- [x] self-compassion training — Distress에 듣는다  <!-- 시험 3건 · 논문 347편 -->
+- [x] self-compassion training — Caregiver Burden에 듣는다  <!-- 시험 3건 · 논문 11편 -->
+- [x] self-compassion training — Body Image에 듣는다  <!-- 시험 3건 · 논문 91편 -->
+- [x] gratitude intervention — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 45편 -->
+- [x] sensory integration therapy — Motor Activity에 듣는다  <!-- 시험 3건 · 논문 656편 -->
+- [x] sensory integration therapy — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 70편 -->
+- [x] sensory integration therapy — Balance에 듣는다  <!-- 시험 3건 · 논문 653편 -->
+- [x] dance movement therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 161편 -->
+- [x] dance movement therapy — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 709편 -->
+- [x] dance movement therapy — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+- [x] dance movement therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [x] mindful self-compassion — Self Harm에 듣는다 — 근거 없음(2026-08-06, mindful self-compassion AND Self Harm; 등록시험 결과 미공개)  <!-- 시험 11건 · 논문 44편 -->
+- [x] mindful self-compassion — Caregiver에 듣는다  <!-- 시험 7건 · 논문 102편 -->
+- [x] mindful self-compassion — Well-being에 듣는다  <!-- 시험 7건 · 논문 1577편 -->
+- [x] mindful self-compassion — Depression에 듣는다 — 근거 없음(2026-08-06, mindful self-compassion AND Depression; MBCT·일반 mindfulness 연구는 제외)  <!-- 시험 4건 · 논문 665편 -->
+- [x] health literacy intervention — Diabetes에 듣는다  <!-- 시험 17건 · 논문 2180편 -->
+- [x] health literacy intervention — Obesity에 듣는다  <!-- 시험 15건 · 논문 872편 -->
+- [x] health literacy intervention — Sexual Behavior에 듣는다  <!-- 시험 12건 · 논문 386편 -->
+- [x] health literacy intervention — Hypertension에 듣는다  <!-- 시험 11건 · 논문 869편 -->
+- [x] olezarsen — Familial Chylomicronemia Syndrome에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 5건 · 논문 47편 -->
 - [ ] lonafarnib — Hepatitis D에 듣는다  <!-- 시험 9건 · 논문 74편 -->
 - [ ] lonafarnib — Progeria에 듣는다  <!-- 시험 6건 · 논문 66편 -->
