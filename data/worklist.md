@@ -10210,28 +10210,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 --> — 허가 적응증(2026-08-06)
 - [x] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 --> — 허가 적응증(2026-08-06)
 - [x] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 --> — 허가 적응증(2026-08-06)
-- [ ] alirocumab — Cardiovascular Diseases에 듣는다  <!-- 시험 9건 · 논문 591편 -->
-- [ ] alirocumab — Atheroma; Myocardial에 듣는다  <!-- 시험 7건 · 논문 13편 -->
-- [ ] inclisiran — Plaque, Atherosclerotic에 듣는다  <!-- 시험 20건 · 논문 22편 -->
-- [ ] inclisiran — Coronary Heart Disease에 듣는다  <!-- 시험 8건 · 논문 95편 -->
-- [ ] inclisiran — LDL-cholesterol에 듣는다  <!-- 시험 6건 · 논문 464편 -->
-- [ ] inclisiran — ASCVD에 듣는다  <!-- 시험 3건 · 논문 153편 -->
-- [ ] belimumab — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 121편 -->
-- [ ] belimumab — Membranous Nephropathy에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] belimumab — Vasculitis에 듣는다  <!-- 시험 3건 · 논문 90편 -->
-- [ ] belimumab — Sjogren's Syndrome에 듣는다  <!-- 시험 3건 · 논문 57편 -->
-- [ ] guselkumab — Psoriatic Arthritis에 듣는다  <!-- 시험 19건 · 논문 253편 -->
-- [ ] guselkumab — Crohn Disease에 듣는다  <!-- 시험 17건 · 논문 104편 -->
-- [ ] guselkumab — Ulcerative Colitis에 듣는다  <!-- 시험 10건 · 논문 100편 -->
-- [ ] risankizumab — Crohn Disease에 듣는다  <!-- 시험 20건 · 논문 239편 -->
-- [ ] risankizumab — Ulcerative Colitis에 듣는다  <!-- 시험 9건 · 논문 105편 -->
-- [ ] risankizumab — Psoriatic Arthritis에 듣는다  <!-- 시험 9건 · 논문 130편 -->
-- [ ] romosozumab — Bone Loss에 듣는다  <!-- 시험 5건 · 논문 524편 -->
-- [ ] romosozumab — Osteopenia에 듣는다  <!-- 시험 4건 · 논문 492편 -->
-- [ ] teriparatide — Fracture에 듣는다  <!-- 시험 15건 · 논문 2052편 -->
-- [ ] teriparatide — Bone Loss에 듣는다  <!-- 시험 12건 · 논문 2011편 -->
-- [ ] teriparatide — Fractures에 듣는다  <!-- 시험 7건 · 논문 2052편 -->
-- [ ] teriparatide — Spinal Stenosis에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [x] alirocumab — Cardiovascular Diseases에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 591편 -->
+- [x] alirocumab — Atheroma; Myocardial에 듣는다 — 항목 생성(alirocumab-atheroma-myocardial-pos)  <!-- 시험 7건 · 논문 13편 -->
+- [x] inclisiran — Plaque, Atherosclerotic에 듣는다 — 항목 생성(inclisiran-plaque-atherosclerotic-null)  <!-- 시험 20건 · 논문 22편 -->
+- [x] inclisiran — Coronary Heart Disease에 듣는다 — 항목 생성(inclisiran-coronary-heart-disease-pos)  <!-- 시험 8건 · 논문 95편 -->
+- [x] inclisiran — LDL-cholesterol에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 6건 · 논문 464편 -->
+- [x] inclisiran — ASCVD에 듣는다 — 항목 생성(inclisiran-ascvd-null)  <!-- 시험 3건 · 논문 153편 -->
+- [x] belimumab — Rheumatoid Arthritis에 듣는다 — 항목 생성(belimumab-rheumatoid-arthritis-null)  <!-- 시험 4건 · 논문 121편 -->
+- [x] belimumab — Membranous Nephropathy에 듣는다 — 항목 생성(belimumab-membranous-nephropathy-pos)  <!-- 시험 3건 · 논문 13편 -->
+- [x] belimumab — Vasculitis에 듣는다 — 항목 생성(belimumab-vasculitis-pos)  <!-- 시험 3건 · 논문 90편 -->
+- [x] belimumab — Sjogren's Syndrome에 듣는다 — 항목 생성(belimumab-sjogren-s-syndrome-pos)  <!-- 시험 3건 · 논문 57편 -->
+- [x] guselkumab — Psoriatic Arthritis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 19건 · 논문 253편 -->
+- [x] guselkumab — Crohn Disease에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 17건 · 논문 104편 -->
+- [x] guselkumab — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 10건 · 논문 100편 -->
+- [x] risankizumab — Crohn Disease에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 20건 · 논문 239편 -->
+- [x] risankizumab — Ulcerative Colitis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 105편 -->
+- [x] risankizumab — Psoriatic Arthritis에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 9건 · 논문 130편 -->
+- [x] romosozumab — Bone Loss에 듣는다 — 항목 생성(romosozumab-bone-loss-pos)  <!-- 시험 5건 · 논문 524편 -->
+- [x] romosozumab — Osteopenia에 듣는다 — 항목 생성(romosozumab-osteopenia-null)  <!-- 시험 4건 · 논문 492편 -->
+- [x] teriparatide — Fracture에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 15건 · 논문 2052편 -->
+- [x] teriparatide — Bone Loss에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 12건 · 논문 2011편 -->
+- [x] teriparatide — Fractures에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 2052편 -->
+- [x] teriparatide — Spinal Stenosis에 듣는다 — 항목 생성(teriparatide-spinal-stenosis-pos)  <!-- 시험 5건 · 논문 9편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10242,14 +10242,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] aerobic exercise — Pre Diabetes에 듣는다  <!-- 시험 16건 · 논문 3446편 -->
-- [ ] aerobic exercise — Cancer에 듣는다  <!-- 시험 15건 · 논문 33982편 -->
-- [ ] aerobic exercise — Hypertension에 듣는다  <!-- 시험 11건 · 논문 27786편 -->
-- [ ] aerobic exercise — Ovarian Adenocarcinoma에 듣는다  <!-- 시험 11건 · 논문 18편 -->
-- [ ] mindfulness — Depression에 듣는다  <!-- 시험 47건 · 논문 7140편 -->
-- [ ] mindfulness — Pain에 듣는다  <!-- 시험 46건 · 논문 2884편 -->
-- [ ] mindfulness — Anxiety에 듣는다  <!-- 시험 37건 · 논문 6604편 -->
-- [ ] mindfulness — Cancer에 듣는다  <!-- 시험 31건 · 논문 2980편 -->
+- [x] aerobic exercise — Pre Diabetes에 듣는다 — 항목 생성(aerobic-exercise-pre-diabetes-pos)  <!-- 시험 16건 · 논문 3446편 -->
+- [x] aerobic exercise — Cancer에 듣는다 — 항목 생성(aerobic-exercise-cancer-pos)  <!-- 시험 15건 · 논문 33982편 -->
+- [x] aerobic exercise — Hypertension에 듣는다 — 항목 생성(aerobic-exercise-hypertension-pos)  <!-- 시험 11건 · 논문 27786편 -->
+- [x] aerobic exercise — Ovarian Adenocarcinoma에 듣는다 — 항목 생성(aerobic-exercise-ovarian-adenocarcinoma-pos)  <!-- 시험 11건 · 논문 18편 -->
+- [x] mindfulness — Depression에 듣는다 — 항목 생성(mindfulness-depression-pos)  <!-- 시험 47건 · 논문 7140편 -->
+- [x] mindfulness — Pain에 듣는다 — 항목 생성(mindfulness-pain-pos)  <!-- 시험 46건 · 논문 2884편 -->
+- [x] mindfulness — Anxiety에 듣는다 — 항목 생성(mindfulness-anxiety-pos)  <!-- 시험 37건 · 논문 6604편 -->
+- [x] mindfulness — Cancer에 듣는다 — 항목 생성(mindfulness-cancer-pos)  <!-- 시험 31건 · 논문 2980편 -->
 - [ ] music therapy — Anxiety에 듣는다  <!-- 시험 99건 · 논문 2468편 -->
 - [ ] music therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 1031편 -->
 - [ ] music therapy — Dementia에 듣는다  <!-- 시험 36건 · 논문 1074편 -->

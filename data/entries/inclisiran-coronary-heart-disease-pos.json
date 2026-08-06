@@ -1,0 +1,28 @@
+{
+  "id": "inclisiran-coronary-heart-disease-pos",
+  "subj": "인클리시란",
+  "claim": "관상동맥질환 환자의 LDL 콜레스테롤에 인클리시란을 쓴다",
+  "line": "관상동맥질환 환자에서 인클리시란은 LDL 콜레스테롤을 약 50% 낮췄습니다",
+  "effect": "LDL-C −52.3%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3178,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "인클리시란 허가는 고콜레스테롤혈증의 LDL-C 감소이며 관상동맥질환 자체의 치료 적응증은 아닙니다.",
+  "why": "ORION-10과 ORION-11에서 죽상경화성 심혈관질환 환자 또는 위험 동등군의 LDL-C 변화를 평가했습니다.",
+  "saw": "두 무작위 3상 시험 3,178명에서 510일째 위약 보정 LDL-C 감소는 ORION-10 52.3%, ORION-11 49.9%였습니다. 주사부위 이상반응은 인클리시란군에서 더 흔했습니다.",
+  "limit": "관상동맥질환의 임상 사건이나 플라크 회귀를 평가한 시험이 아니라 LDL-C 대리지표 시험입니다.",
+  "against": "LDL-C 감소만으로 심근경색이나 사망 감소를 확정할 수 없습니다.",
+  "use": "관상동맥질환 환자의 LDL-C 관리에 대한 대리지표 근거로 기록하며 임상 결과와 구분합니다.",
+  "refs": [
+    { "label": "ORION-10·11 인클리시란 3상시험", "doi": "10.1056/NEJMoa1912387", "pmid": "32187462" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=inclisiran, cond=Coronary Heart Disease · 23건",
+    "pubmed": "inclisiran AND Coronary Heart Disease · 95편",
+    "negative": "inclisiran AND Coronary Heart Disease AND (no benefit OR no difference OR failed OR ineffective) · 38편",
+    "safety": "inclisiran AND Coronary Heart Disease AND (adverse OR safety OR toxicity) · 45편"
+  }
+}
