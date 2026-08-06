@@ -11,9 +11,15 @@ const dataDir = join(root, "data");
 const entryDir = join(dataDir, "entries");
 const outDir = join(root, "site");
 
+// 허가 카탈로그가 온전한지 확인한다. 건수를 숫자로 박아두면 식약처가 품목을
+// 하나 더 내는 날 빌드가 죽는다. 카탈로그가 스스로 센 건수와 스냅샷이 센
+// 건수가 같은지, 그리고 후보 표시가 살아 있는지만 본다.
 const permitManifest = await readPermitManifest();
+const permitRecordCount = permitManifest.recordCount;
 if (
-  permitManifest.recordCount !== 42971 ||
+  !Number.isInteger(permitRecordCount) ||
+  permitRecordCount < 1000 ||
+  permitRecordCount !== permitManifest.sourceSnapshot?.record_count ||
   permitManifest.sourceSnapshot?.status !== "parsed" ||
   permitManifest.candidateOnly !== true ||
   permitManifest.clinicalUseProhibited !== true
