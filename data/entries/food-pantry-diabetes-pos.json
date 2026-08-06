@@ -1,0 +1,28 @@
+{
+  "id": "food-pantry-diabetes-pos",
+  "subj": "food pantry",
+  "claim": "당뇨병 환자가 병원 식품 저장고를 이용한 뒤 다음 분기 응급실 이용 확률이 낮아졌다",
+  "line": "응급실 이용 확률이 분기당 7.3%p 낮아졌다",
+  "effect": "ED 이용 -7.3%p",
+  "tier": "obs",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식품 저장고는 당뇨병 치료제로 허가된 약물이 아닌 식량 지원 중재다.",
+  "why": "대형 안전망 의료체계의 Medicaid 당뇨병 환자 전자의무기록을 이용한 차이의 차이 분석에서 병원 식품 저장고 이용 전후 응급실 이용을 비교했다.",
+  "saw": "식품 저장고 이용 뒤 다음 분기 응급실 이용 확률이 환자당 7.3%포인트 낮아졌다(95% CI -13.8~-0.8, P=.03).",
+  "limit": "무작위 배정이 아닌 관찰 자료이고, 분석 대상 인원은 초록에 제시되지 않았다.",
+  "against": "식품 저장고 이용 자체가 응급실 이용 감소를 일으켰다고 확정할 수 없다.",
+  "use": "식량 불안이 있는 당뇨병 환자에게 식품 지원과 진료 이용 변화를 함께 평가한다.",
+  "refs": [
+    { "label": "Lim 2025 · Journal of the American College of Clinical Pharmacy · 차이의 차이 분석", "doi": "10.1097/JAC.0000000000000499", "pmid": "38744317" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "food pantry AND Diabetes (DM) · 1건",
+    "pubmed": "food pantry AND Diabetes (DM) · 24건",
+    "negative": "food pantry AND Diabetes (DM) AND (no effect OR did not OR failed OR negative OR no significant difference) · 1건",
+    "safety": "food pantry AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 32건"
+  }
+}

@@ -11000,21 +11000,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ramipril — Non-Diabetic에 듣는다  <!-- 시험 11건 · 논문 53편 --> — 항목 생성(2026-08-06)
 - [x] isometric exercise — Hypertension에 듣는다  <!-- 시험 24건 · 논문 27786편 --> — 항목 생성(2026-08-06)
 - [x] isometric exercise — OA Knee에 듣는다  <!-- 시험 14건 · 논문 2809편 --> — 근거 없음(2026-08-06, "isometric exercise AND OA Knee")
-- [ ] isometric exercise — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 48573편 -->
-- [ ] isometric exercise — Exercise Training에 듣는다  <!-- 시험 8건 · 논문 640766편 -->
-- [ ] aquatic exercise — Chronic Pain에 듣는다  <!-- 시험 10건 · 논문 106편 -->
-- [ ] aquatic exercise — Cerebral Palsy에 듣는다  <!-- 시험 6건 · 논문 39편 -->
-- [ ] aquatic exercise — Obesity에 듣는다  <!-- 시험 5건 · 논문 76편 -->
-- [ ] aquatic exercise — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 60편 -->
-- [ ] food pantry — Diabetes (DM)에 듣는다  <!-- 시험 7건 · 논문 24편 -->
-- [ ] food pantry — Obesity에 듣는다  <!-- 시험 3건 · 논문 59편 -->
-- [ ] peer navigation — Drug Use에 듣는다  <!-- 시험 14건 · 논문 370편 -->
-- [ ] peer navigation — Mental Health에 듣는다  <!-- 시험 9건 · 논문 616편 -->
-- [ ] peer navigation — Social Care에 듣는다  <!-- 시험 5건 · 논문 1158편 -->
-- [ ] group medical visit — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 1536편 -->
-- [ ] group medical visit — Hypertension에 듣는다  <!-- 시험 6건 · 논문 4425편 -->
-- [ ] group medical visit — HIV에 듣는다  <!-- 시험 5건 · 논문 2341편 -->
-- [ ] group medical visit — Back Pain에 듣는다  <!-- 시험 5건 · 논문 753편 -->
+- [x] isometric exercise — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 48573편 --> — 항목 생성(2026-08-06)
+- [x] isometric exercise — Exercise Training에 듣는다  <!-- 시험 8건 · 논문 640766편 --> — 근거 없음(2026-08-06, "isometric exercise AND Exercise Training")
+- [x] aquatic exercise — Chronic Pain에 듣는다  <!-- 시험 10건 · 논문 106편 --> — 항목 생성(2026-08-06)
+- [x] aquatic exercise — Cerebral Palsy에 듣는다  <!-- 시험 6건 · 논문 39편 --> — 항목 생성(2026-08-06)
+- [x] aquatic exercise — Obesity에 듣는다  <!-- 시험 5건 · 논문 76편 --> — 근거 없음(2026-08-06, "aquatic exercise AND Obesity")
+- [x] aquatic exercise — Fibromyalgia에 듣는다  <!-- 시험 5건 · 논문 60편 --> — 항목 생성(2026-08-06)
+- [x] food pantry — Diabetes (DM)에 듣는다  <!-- 시험 7건 · 논문 24편 --> — 항목 생성(2026-08-06)
+- [x] food pantry — Obesity에 듣는다  <!-- 시험 3건 · 논문 59편 --> — 항목 생성(2026-08-06)
+- [x] peer navigation — Drug Use에 듣는다  <!-- 시험 14건 · 논문 370편 --> — 항목 생성(2026-08-06)
+- [x] peer navigation — Mental Health에 듣는다  <!-- 시험 9건 · 논문 616편 --> — 항목 생성(2026-08-06)
+- [x] peer navigation — Social Care에 듣는다  <!-- 시험 5건 · 논문 1158편 --> — 항목 생성(2026-08-06)
+- [x] group medical visit — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 1536편 --> — 항목 생성(2026-08-06)
+- [x] group medical visit — Hypertension에 듣는다  <!-- 시험 6건 · 논문 4425편 --> — 항목 생성(2026-08-06)
+- [x] group medical visit — HIV에 듣는다  <!-- 시험 5건 · 논문 2341편 --> — 근거 없음(2026-08-06, "group medical visit AND HIV")
+- [x] group medical visit — Back Pain에 듣는다  <!-- 시험 5건 · 논문 753편 --> — 근거 없음(2026-08-06, "group medical visit AND Back Pain")
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11025,21 +11025,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] brimonidine — Ocular Redness에 듣는다  <!-- 시험 56건 · 논문 34편 -->
-- [ ] brimonidine — Rosacea에 듣는다  <!-- 시험 12건 · 논문 119편 -->
-- [ ] brimonidine — Dry Eye에 듣는다  <!-- 시험 12건 · 논문 27편 -->
-- [ ] clobetasol — Oral Pain에 듣는다  <!-- 시험 21건 · 논문 73편 -->
-- [ ] clobetasol — Vulvar Lichen Sclerosus에 듣는다  <!-- 시험 9건 · 논문 110편 -->
-- [ ] clobetasol — Atopic Dermatitis에 듣는다  <!-- 시험 8건 · 논문 103편 -->
-- [ ] cyclopentolate — Refractive Errors에 듣는다  <!-- 시험 3건 · 논문 268편 -->
-- [ ] dapoxetine — Sexual Dysfunction에 듣는다  <!-- 시험 14건 · 논문 218편 -->
-- [ ] etodolac — Colorectal Neoplasms에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] fluvastatin — Dyslipidemia에 듣는다  <!-- 시험 7건 · 논문 595편 -->
-- [ ] fluvastatin — Renal Transplantation에 듣는다  <!-- 시험 4건 · 논문 98편 -->
-- [ ] fluvastatin — Hypertension에 듣는다  <!-- 시험 4건 · 논문 108편 -->
-- [ ] fluvastatin — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 45편 -->
-- [ ] fosfomycin — Sepsis Bacterial에 듣는다  <!-- 시험 7건 · 논문 201편 -->
-- [ ] fosfomycin — Infection에 듣는다  <!-- 시험 5건 · 논문 3809편 -->
+- [x] brimonidine — Ocular Redness에 듣는다  <!-- 시험 56건 · 논문 34편 --> — 허가 적응증(2026-08-06)
+- [x] brimonidine — Rosacea에 듣는다  <!-- 시험 12건 · 논문 119편 --> — 허가 적응증(2026-08-06)
+- [x] brimonidine — Dry Eye에 듣는다  <!-- 시험 12건 · 논문 27편 --> — 근거 없음(2026-08-06, "brimonidine AND Dry Eye")
+- [x] clobetasol — Oral Pain에 듣는다  <!-- 시험 21건 · 논문 73편 --> — 항목 생성(2026-08-06)
+- [x] clobetasol — Vulvar Lichen Sclerosus에 듣는다  <!-- 시험 9건 · 논문 110편 --> — 항목 생성(2026-08-06)
+- [x] clobetasol — Atopic Dermatitis에 듣는다  <!-- 시험 8건 · 논문 103편 --> — 근거 없음(2026-08-06, "clobetasol AND Atopic Dermatitis")
+- [x] cyclopentolate — Refractive Errors에 듣는다  <!-- 시험 3건 · 논문 268편 --> — 허가 적응증(2026-08-06)
+- [x] dapoxetine — Sexual Dysfunction에 듣는다  <!-- 시험 14건 · 논문 218편 --> — 허가 적응증(2026-08-06)
+- [x] etodolac — Colorectal Neoplasms에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(2026-08-06)
+- [x] fluvastatin — Dyslipidemia에 듣는다  <!-- 시험 7건 · 논문 595편 --> — 허가 적응증(2026-08-06)
+- [x] fluvastatin — Renal Transplantation에 듣는다  <!-- 시험 4건 · 논문 98편 --> — 항목 생성(2026-08-06)
+- [x] fluvastatin — Hypertension에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 항목 생성(2026-08-06)
+- [x] fluvastatin — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 항목 생성(2026-08-06)
+- [x] fosfomycin — Sepsis Bacterial에 듣는다  <!-- 시험 7건 · 논문 201편 --> — 항목 생성(2026-08-06)
+- [x] fosfomycin — Infection에 듣는다  <!-- 시험 5건 · 논문 3809편 --> — 근거 없음(2026-08-06, "fosfomycin AND Infection")
 - [ ] fosfomycin — Bladder Cancer에 듣는다  <!-- 시험 5건 · 논문 15편 -->
 - [ ] fosfomycin — Pathogen Resistance에 듣는다  <!-- 시험 4건 · 논문 1268편 -->
 - [ ] hydrocodone — Nausea에 듣는다  <!-- 시험 5건 · 논문 76편 -->
