@@ -11040,26 +11040,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fluvastatin — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 항목 생성(2026-08-06)
 - [x] fosfomycin — Sepsis Bacterial에 듣는다  <!-- 시험 7건 · 논문 201편 --> — 항목 생성(2026-08-06)
 - [x] fosfomycin — Infection에 듣는다  <!-- 시험 5건 · 논문 3809편 --> — 근거 없음(2026-08-06, "fosfomycin AND Infection")
-- [ ] fosfomycin — Bladder Cancer에 듣는다  <!-- 시험 5건 · 논문 15편 -->
-- [ ] fosfomycin — Pathogen Resistance에 듣는다  <!-- 시험 4건 · 논문 1268편 -->
-- [ ] hydrocodone — Nausea에 듣는다  <!-- 시험 5건 · 논문 76편 -->
-- [ ] patient navigation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 123편 -->
-- [ ] patient navigation — Lung Carcinoma에 듣는다  <!-- 시험 18건 · 논문 57편 -->
-- [ ] patient navigation — HIV에 듣는다  <!-- 시험 12건 · 논문 312편 -->
-- [ ] patient navigation — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 42편 -->
-- [ ] community paramedicine — Smoking에 듣는다  <!-- 시험 3건 · 논문 67편 -->
-- [ ] home blood pressure monitoring — Diabetes에 듣는다  <!-- 시험 13건 · 논문 2625편 -->
-- [ ] home blood pressure monitoring — Blood Pressure에 듣는다  <!-- 시험 11건 · 논문 20388편 -->
-- [ ] home blood pressure monitoring — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 967편 -->
-- [ ] home blood pressure monitoring — Cardiovascular Health에 듣는다  <!-- 시험 10건 · 논문 2760편 -->
-- [ ] telephone counseling — Smoking에 듣는다  <!-- 시험 17건 · 논문 1292편 -->
-- [ ] telephone counseling — Obesity에 듣는다  <!-- 시험 10건 · 논문 334편 -->
-- [ ] telephone counseling — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 25편 -->
-- [ ] telephone counseling — Pre-Diabetes에 듣는다  <!-- 시험 4건 · 논문 52편 -->
-- [ ] group prenatal care — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 19756편 -->
-- [ ] group prenatal care — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1636편 -->
-- [ ] group prenatal care — Stress에 듣는다  <!-- 시험 7건 · 논문 1081편 -->
-- [ ] group prenatal care — Depression에 듣는다  <!-- 시험 6건 · 논문 1167편 -->
+- [x] fosfomycin — Bladder Cancer에 듣는다  <!-- 시험 5건 · 논문 15편 --> — 항목 생성(2026-08-06)
+- [x] fosfomycin — Pathogen Resistance에 듣는다  <!-- 시험 4건 · 논문 1268편 --> — 근거 없음(2026-08-06, "fosfomycin AND Pathogen Resistance")
+- [x] hydrocodone — Nausea에 듣는다  <!-- 시험 5건 · 논문 76편 --> — 근거 없음(2026-08-06, "hydrocodone AND Nausea")
+- [x] patient navigation — Opioid Use에 듣는다  <!-- 시험 19건 · 논문 123편 --> — 항목 생성(2026-08-06)
+- [x] patient navigation — Lung Carcinoma에 듣는다  <!-- 시험 18건 · 논문 57편 --> — 항목 생성(2026-08-06)
+- [x] patient navigation — HIV에 듣는다  <!-- 시험 12건 · 논문 312편 --> — 항목 생성(2026-08-06)
+- [x] patient navigation — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 42편 --> — 항목 생성(2026-08-06)
+- [x] community paramedicine — Smoking에 듣는다  <!-- 시험 3건 · 논문 67편 --> — 근거 없음(2026-08-06, "community paramedicine AND Smoking")
+- [x] home blood pressure monitoring — Diabetes에 듣는다  <!-- 시험 13건 · 논문 2625편 --> — 근거 없음(2026-08-06, "home blood pressure monitoring AND Diabetes")
+- [x] home blood pressure monitoring — Blood Pressure에 듣는다  <!-- 시험 11건 · 논문 20388편 --> — 항목 생성(2026-08-06)
+- [x] home blood pressure monitoring — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 967편 --> — 근거 없음(2026-08-06, "home blood pressure monitoring AND Heart Failure")
+- [x] home blood pressure monitoring — Cardiovascular Health에 듣는다  <!-- 시험 10건 · 논문 2760편 --> — 항목 생성(2026-08-06)
+- [x] telephone counseling — Smoking에 듣는다  <!-- 시험 17건 · 논문 1292편 --> — 항목 생성(2026-08-06)
+- [x] telephone counseling — Obesity에 듣는다  <!-- 시험 10건 · 논문 334편 --> — 근거 없음(2026-08-06, "telephone counseling AND Obesity")
+- [x] telephone counseling — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 25편 --> — 근거 없음(2026-08-06, "telephone counseling AND Metabolic Syndrome")
+- [x] telephone counseling — Pre-Diabetes에 듣는다  <!-- 시험 4건 · 논문 52편 --> — 근거 없음(2026-08-06, "telephone counseling AND Pre-Diabetes")
+- [x] group prenatal care — Prenatal Care에 듣는다  <!-- 시험 11건 · 논문 19756편 --> — 항목 생성(2026-08-06)
+- [x] group prenatal care — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1636편 --> — 항목 생성(2026-08-06)
+- [x] group prenatal care — Stress에 듣는다  <!-- 시험 7건 · 논문 1081편 --> — 항목 생성(2026-08-06)
+- [x] group prenatal care — Depression에 듣는다  <!-- 시험 6건 · 논문 1167편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11070,16 +11070,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cefepime — Acute Pyelonephritis에 듣는다  <!-- 시험 4건 · 논문 31편 -->
-- [ ] cefepime — Drug Allergy에 듣는다  <!-- 시험 4건 · 논문 80편 -->
-- [ ] cefepime — Peritonitis에 듣는다  <!-- 시험 3건 · 논문 125편 -->
-- [ ] chlorhexidine — Periodontal Pocket에 듣는다  <!-- 시험 24건 · 논문 473편 -->
-- [ ] chlorhexidine — Pneumonia에 듣는다  <!-- 시험 23건 · 논문 734편 -->
-- [ ] chlorhexidine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 580편 -->
-- [ ] chlorhexidine — Staphylococcus Aureus에 듣는다  <!-- 시험 16건 · 논문 1556편 -->
-- [ ] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 -->
-- [ ] diltiazem — Drug Dependence에 듣는다  <!-- 시험 4건 · 논문 282편 -->
-- [ ] diltiazem — Pain에 듣는다  <!-- 시험 4건 · 논문 991편 -->
+- [x] cefepime — Acute Pyelonephritis에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 허가 적응증(2026-08-06)
+- [x] cefepime — Drug Allergy에 듣는다  <!-- 시험 4건 · 논문 80편 --> — 근거 없음(2026-08-06, "cefepime AND Drug Allergy")
+- [x] cefepime — Peritonitis에 듣는다  <!-- 시험 3건 · 논문 125편 --> — 근거 없음(2026-08-06, "cefepime AND Peritonitis")
+- [x] chlorhexidine — Periodontal Pocket에 듣는다  <!-- 시험 24건 · 논문 473편 --> — 항목 생성(2026-08-06)
+- [x] chlorhexidine — Pneumonia에 듣는다  <!-- 시험 23건 · 논문 734편 --> — 항목 생성(2026-08-06)
+- [x] chlorhexidine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 580편 --> — 항목 생성(2026-08-06)
+- [x] chlorhexidine — Staphylococcus Aureus에 듣는다  <!-- 시험 16건 · 논문 1556편 --> — 항목 생성(2026-08-06)
+- [x] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 --> — 허가 적응증(2026-08-06)
+- [x] diltiazem — Drug Dependence에 듣는다  <!-- 시험 4건 · 논문 282편 --> — 근거 없음(2026-08-06, "diltiazem AND Drug Dependence")
+- [x] diltiazem — Pain에 듣는다  <!-- 시험 4건 · 논문 991편 --> — 항목 생성(2026-08-06)
 - [ ] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 -->
 - [ ] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 -->
 - [ ] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 -->
