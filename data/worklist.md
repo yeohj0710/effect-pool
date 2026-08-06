@@ -10890,11 +10890,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] transcendental meditation — Burnout에 듣는다  <!-- 시험 5건 · 논문 349편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Burnout")
 - [x] transcendental meditation — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 549편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Cardiovascular Disease")
 - [x] transcendental meditation — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "transcendental meditation AND Coronary Heart Disease")
-- [ ] music-based intervention — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] dance intervention — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 216편 -->
-- [ ] dance intervention — Cancer에 듣는다  <!-- 시험 14건 · 논문 396편 -->
-- [ ] dance intervention — Aging에 듣는다  <!-- 시험 14건 · 논문 515편 -->
-- [ ] dance intervention — Older Adults에 듣는다  <!-- 시험 12건 · 논문 1832편 -->
+- [x] music-based intervention — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(2026-08-06)
+- [x] dance intervention — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 216편 --> — 근거 없음(2026-08-06, "dance intervention AND Cognitive Change")
+- [x] dance intervention — Cancer에 듣는다  <!-- 시험 14건 · 논문 396편 --> — 항목 생성(2026-08-06)
+- [x] dance intervention — Aging에 듣는다  <!-- 시험 14건 · 논문 515편 --> — 항목 생성(2026-08-06)
+- [x] dance intervention — Older Adults에 듣는다  <!-- 시험 12건 · 논문 1832편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10905,31 +10905,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] parent-mediated intervention — Parent-Training에 듣는다  <!-- 시험 4건 · 논문 50편 -->
-- [ ] family-based treatment — Anorexia Nervosa에 듣는다  <!-- 시험 3건 · 논문 456편 -->
-- [ ] family-based treatment — Eating Disorder에 듣는다  <!-- 시험 3건 · 논문 560편 -->
-- [ ] social skills training — Autism에 듣는다  <!-- 시험 24건 · 논문 2064편 -->
-- [ ] social skills training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 6건 · 논문 464편 -->
-- [ ] social skills training — Obesity에 듣는다  <!-- 시험 6건 · 논문 436편 -->
-- [ ] social skills training — Stress, Emotional에 듣는다  <!-- 시험 6건 · 논문 1788편 -->
-- [ ] executive function training — Autism에 듣는다  <!-- 시험 8건 · 논문 365편 -->
-- [ ] executive function training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 682편 -->
-- [ ] executive function training — ADHD에 듣는다  <!-- 시험 5건 · 논문 744편 -->
-- [ ] executive function training — Obesity에 듣는다  <!-- 시험 3건 · 논문 302편 -->
-- [ ] cognitive training — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 1941편 -->
-- [ ] cognitive training — Depression에 듣는다  <!-- 시험 18건 · 논문 5536편 -->
-- [ ] cognitive training — Pain에 듣는다  <!-- 시험 17건 · 논문 2104편 -->
-- [ ] cognitive training — Insomnia에 듣는다  <!-- 시험 15건 · 논문 453편 -->
-- [ ] working memory training — Attention에 듣는다  <!-- 시험 7건 · 논문 5232편 -->
-- [ ] working memory training — Depression에 듣는다  <!-- 시험 6건 · 논문 1200편 -->
-- [ ] working memory training — ADHD에 듣는다  <!-- 시험 5건 · 논문 611편 -->
-- [ ] working memory training — Weight Loss에 듣는다  <!-- 시험 5건 · 논문 61편 -->
-- [ ] paced breathing — Hot Flashes에 듣는다  <!-- 시험 5건 · 논문 25편 -->
-- [ ] paced breathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 120편 -->
-- [ ] paced breathing — Stress에 듣는다  <!-- 시험 4건 · 논문 229편 -->
-- [ ] paced breathing — Pain에 듣는다  <!-- 시험 4건 · 논문 114편 -->
-- [ ] diaphragmatic breathing — Stress에 듣는다  <!-- 시험 8건 · 논문 464편 -->
-- [ ] diaphragmatic breathing — COPD에 듣는다  <!-- 시험 8건 · 논문 680편 -->
+- [x] parent-mediated intervention — Parent-Training에 듣는다  <!-- 시험 4건 · 논문 50편 --> — 항목 생성(2026-08-06)
+- [x] family-based treatment — Anorexia Nervosa에 듣는다  <!-- 시험 3건 · 논문 456편 --> — 항목 생성(2026-08-06)
+- [x] family-based treatment — Eating Disorder에 듣는다  <!-- 시험 3건 · 논문 560편 --> — 근거 없음(2026-08-06, "family-based treatment AND Eating Disorder")
+- [x] social skills training — Autism에 듣는다  <!-- 시험 24건 · 논문 2064편 --> — 항목 생성(2026-08-06)
+- [x] social skills training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 6건 · 논문 464편 --> — 항목 생성(2026-08-06)
+- [x] social skills training — Obesity에 듣는다  <!-- 시험 6건 · 논문 436편 --> — 근거 없음(2026-08-06, "social skills training AND Obesity")
+- [x] social skills training — Stress, Emotional에 듣는다  <!-- 시험 6건 · 논문 1788편 --> — 근거 없음(2026-08-06, "social skills training AND Stress, Emotional")
+- [x] executive function training — Autism에 듣는다  <!-- 시험 8건 · 논문 365편 --> — 근거 없음(2026-08-06, "executive function training AND Autism")
+- [x] executive function training — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 7건 · 논문 682편 --> — 항목 생성(2026-08-06)
+- [x] executive function training — ADHD에 듣는다  <!-- 시험 5건 · 논문 744편 --> — 항목 생성(2026-08-06)
+- [x] executive function training — Obesity에 듣는다  <!-- 시험 3건 · 논문 302편 --> — 근거 없음(2026-08-06, "executive function training AND Obesity")
+- [x] cognitive training — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 1941편 --> — 항목 생성(2026-08-06)
+- [x] cognitive training — Depression에 듣는다  <!-- 시험 18건 · 논문 5536편 --> — 근거 없음(2026-08-06, "cognitive training AND Depression")
+- [x] cognitive training — Pain에 듣는다  <!-- 시험 17건 · 논문 2104편 --> — 근거 없음(2026-08-06, "cognitive training AND Pain")
+- [x] cognitive training — Insomnia에 듣는다  <!-- 시험 15건 · 논문 453편 --> — 근거 없음(2026-08-06, "cognitive training AND Insomnia")
+- [x] working memory training — Attention에 듣는다  <!-- 시험 7건 · 논문 5232편 --> — 근거 없음(2026-08-06, "working memory training AND Attention")
+- [x] working memory training — Depression에 듣는다  <!-- 시험 6건 · 논문 1200편 --> — 항목 생성(2026-08-06)
+- [x] working memory training — ADHD에 듣는다  <!-- 시험 5건 · 논문 611편 --> — 항목 생성(2026-08-06)
+- [x] working memory training — Weight Loss에 듣는다  <!-- 시험 5건 · 논문 61편 --> — 항목 생성(2026-08-06)
+- [x] paced breathing — Hot Flashes에 듣는다  <!-- 시험 5건 · 논문 25편 --> — 항목 생성(2026-08-06)
+- [x] paced breathing — Anxiety에 듣는다  <!-- 시험 4건 · 논문 120편 --> — 항목 생성(2026-08-06)
+- [x] paced breathing — Stress에 듣는다  <!-- 시험 4건 · 논문 229편 --> — 항목 생성(2026-08-06)
+- [x] paced breathing — Pain에 듣는다  <!-- 시험 4건 · 논문 114편 --> — 근거 없음(2026-08-06, "paced breathing AND Pain")
+- [x] diaphragmatic breathing — Stress에 듣는다  <!-- 시험 8건 · 논문 464편 --> — 항목 생성(2026-08-06)
+- [x] diaphragmatic breathing — COPD에 듣는다  <!-- 시험 8건 · 논문 680편 --> — 항목 생성(2026-08-06)
 - [ ] diaphragmatic breathing — Diaphragm에 듣는다  <!-- 시험 8건 · 논문 8364편 -->
 - [ ] diaphragmatic breathing — Anxiety에 듣는다  <!-- 시험 7건 · 논문 169편 -->
 - [ ] relaxation breathing — Pain에 듣는다  <!-- 시험 18건 · 논문 618편 -->
