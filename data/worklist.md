@@ -10232,3 +10232,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] teriparatide — Bone Loss에 듣는다  <!-- 시험 12건 · 논문 2011편 -->
 - [ ] teriparatide — Fractures에 듣는다  <!-- 시험 7건 · 논문 2052편 -->
 - [ ] teriparatide — Spinal Stenosis에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] aerobic exercise — Pre Diabetes에 듣는다  <!-- 시험 16건 · 논문 3446편 -->
+- [ ] aerobic exercise — Cancer에 듣는다  <!-- 시험 15건 · 논문 33982편 -->
+- [ ] aerobic exercise — Hypertension에 듣는다  <!-- 시험 11건 · 논문 27786편 -->
+- [ ] aerobic exercise — Ovarian Adenocarcinoma에 듣는다  <!-- 시험 11건 · 논문 18편 -->
+- [ ] mindfulness — Depression에 듣는다  <!-- 시험 47건 · 논문 7140편 -->
+- [ ] mindfulness — Pain에 듣는다  <!-- 시험 46건 · 논문 2884편 -->
+- [ ] mindfulness — Anxiety에 듣는다  <!-- 시험 37건 · 논문 6604편 -->
+- [ ] mindfulness — Cancer에 듣는다  <!-- 시험 31건 · 논문 2980편 -->
+- [ ] music therapy — Anxiety에 듣는다  <!-- 시험 99건 · 논문 2468편 -->
+- [ ] music therapy — Cancer에 듣는다  <!-- 시험 37건 · 논문 1031편 -->
+- [ ] music therapy — Dementia에 듣는다  <!-- 시험 36건 · 논문 1074편 -->
+- [ ] music therapy — Stress에 듣는다  <!-- 시험 33건 · 논문 1515편 -->
+- [ ] sleep hygiene — Depression에 듣는다  <!-- 시험 18건 · 논문 2631편 -->
+- [ ] sleep hygiene — Pain에 듣는다  <!-- 시험 14건 · 논문 1157편 -->
+- [ ] sleep hygiene — Stress에 듣는다  <!-- 시험 11건 · 논문 1779편 -->
+- [ ] sleep hygiene — Anxiety에 듣는다  <!-- 시험 10건 · 논문 2040편 -->
+- [ ] low carbohydrate diet — Diabetes에 듣는다  <!-- 시험 75건 · 논문 3345편 -->
+- [ ] low carbohydrate diet — Metabolic Disease에 듣는다  <!-- 시험 26건 · 논문 4819편 -->
+- [ ] low carbohydrate diet — Insulin Resistance에 듣는다  <!-- 시험 24건 · 논문 1461편 -->
+- [ ] low carbohydrate diet — Irritable Bowel Syndrome에 듣는다  <!-- 시험 18건 · 논문 313편 -->
+- [ ] vonoprazan — Gastroesophageal Reflux에 듣는다  <!-- 시험 10건 · 논문 204편 -->
+- [ ] vonoprazan — Gastric Ulcer에 듣는다  <!-- 시험 6건 · 논문 121편 -->
+- [ ] vonoprazan — Heartburn에 듣는다  <!-- 시험 4건 · 논문 209편 -->
+- [ ] fezolinetant — Vasomotor Symptoms에 듣는다  <!-- 시험 6건 · 논문 125편 -->
+- [ ] fezolinetant — Menopause에 듣는다  <!-- 시험 3건 · 논문 137편 -->
+- [ ] lecanemab — Alzheimers Disease에 듣는다  <!-- 시험 5건 · 논문 821편 -->
+- [ ] lecanemab — Dementia에 듣는다  <!-- 시험 3건 · 논문 684편 -->
+- [ ] lecanemab — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 220편 -->
+- [ ] donanemab — Nervous System Diseases에 듣는다  <!-- 시험 5건 · 논문 268편 -->
+- [ ] donanemab — Dementia에 듣는다  <!-- 시험 4건 · 논문 348편 -->
+- [ ] donanemab — Brain Diseases에 듣는다  <!-- 시험 3건 · 논문 282편 -->
+- [ ] donanemab — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 120편 -->
+- [ ] ozanimod — Ulcerative Colitis에 듣는다  <!-- 시험 12건 · 논문 182편 -->
+- [ ] ozanimod — Crohn Disease에 듣는다  <!-- 시험 5건 · 논문 74편 -->
+- [ ] deucravacitinib — Psoriatic Arthritis에 듣는다  <!-- 시험 4건 · 논문 63편 -->
+- [ ] deucravacitinib — Systemic Lupus Erythematosus에 듣는다  <!-- 시험 4건 · 논문 40편 -->
+- [ ] deucravacitinib — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [ ] deucravacitinib — Alopecia Areata에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] siponimod — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 8편 -->

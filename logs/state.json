@@ -4,7 +4,7 @@
   "entries": 1298,
   "worklist": {
     "checked": 9055,
-    "unchecked": 22,
+    "unchecked": 61,
     "no_evidence_pending": 183,
     "next_batch": [
       "alirocumab-cardiovascular-diseases",
@@ -28,7 +28,15 @@
       "teriparatide-fracture",
       "teriparatide-bone-loss",
       "teriparatide-fractures",
-      "teriparatide-spinal-stenosis"
+      "teriparatide-spinal-stenosis",
+      "aerobic-exercise-pre-diabetes",
+      "aerobic-exercise-cancer",
+      "aerobic-exercise-hypertension",
+      "aerobic-exercise-ovarian-adenocarcinoma",
+      "mindfulness-depression",
+      "mindfulness-pain",
+      "mindfulness-anxiety",
+      "mindfulness-cancer"
     ]
   },
   "verification": {
@@ -130,7 +138,7 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 65,
+    "latest_candidates": 39,
     "latest_substances": [
       "intermittent fasting",
       "sauna",
@@ -171,10 +179,30 @@
       "risankizumab",
       "romosozumab",
       "abaloparatide",
-      "teriparatide"
+      "teriparatide",
+      "aerobic exercise",
+      "mindfulness",
+      "music therapy",
+      "sleep hygiene",
+      "low carbohydrate diet",
+      "acotiamide",
+      "vonoprazan",
+      "naldemedine",
+      "fezolinetant",
+      "rimegepant",
+      "ubrogepant",
+      "eptinezumab",
+      "lecanemab",
+      "donanemab",
+      "nusinersen",
+      "risdiplam",
+      "ozanimod",
+      "etrasimod",
+      "deucravacitinib",
+      "siponimod"
     ],
-    "added_candidates": 2995,
-    "direct_added_candidates": 1281
+    "added_candidates": 3034,
+    "direct_added_candidates": 1320
   },
   "resume": {
     "last_committed_batch": "batch 52: 14 evidence entries added; 30 topics processed; 21 old warnings fixed",
@@ -211,7 +239,7 @@
     "nitroprusside-cardiovascular-diseases (standard cardiovascular vasodilator treatment; no entry)"
   ],
     "current_batch": "batch 52: 30 topics processed; 14 evidence entries added; 21 old warnings fixed; 22 unchecked topics remain",
-    "next_action": "expand the worklist first because 22 topics remain; then choose 20 uncovered non-cancer substances with at least 5 non-drug names",
-    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remain"
+    "next_action": "process the first 30 topics in next_batch, check label status per substance before APIs, then build and commit",
+    "expansion_checkpoint": "36 candidates added after batch 41; batch 42 processed 30 topics; 41 valid candidates added after batch 42; batch 43 processed 30 topics; 45 valid candidates added after batch 43; batch 44 processed 30 topics; batch 45 processed 30 topics; 36 valid candidates added after batch 45; batch 46 processed 30 topics; 71 valid candidates added after batch 46; batch 47 processed 30 topics; batch 48 processed 30 topics; batch 49 processed 28 topics; 47 valid candidates added from 20 substances after batch 49; batch 50 processed 30 topics; 14 evidence entries added; 17 topics remained; 65 valid candidates added from 20 uncovered substances after batch 50; 82 unchecked topics remained; batch 51 processed 30 topics; 18 evidence entries added; 52 unchecked topics remained; batch 52 processed 30 topics; 14 evidence entries added; 22 unchecked topics remained; 39 valid candidates added from 20 uncovered non-cancer substances after batch 52; 61 unchecked topics remain"
   }
 }
