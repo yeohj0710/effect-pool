@@ -14106,3 +14106,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] estradiol valerate — Infertility에 듣는다  <!-- 시험 21건 · 논문 5762편 -->
 - [x] estradiol valerate — Vagina Atrophy에 듣는다  <!-- 시험 20건 · 논문 265편 --> — 허가 적응증(2026-08-07)
 - [x] estradiol valerate — Uterine Fibroid에 듣는다  <!-- 시험 12건 · 논문 595편 --> — 근거 없음(2026-08-07 조회, "estradiol valerate" AND "Uterine Fibroid")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] narrative medicine — Mitochondrial Diseases에 듣는다  <!-- 시험 3건 · 논문 251편 --> — 근거 없음(2026-08-07 조회, "narrative medicine" AND "Mitochondrial Diseases")
+- [x] narrative medicine — Diabetes Education에 듣는다  <!-- 시험 3건 · 논문 665편 --> — 근거 없음(2026-08-07 조회, "narrative medicine" AND "Diabetes Education")
+- [x] pomegranate juice — Healthy Diet에 듣는다  <!-- 시험 4건 · 논문 25편 --> — 근거 없음(2026-08-07 조회, "pomegranate juice" AND "Healthy Diet")
+- [x] pomegranate juice — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 53편 -->
+- [x] pomegranate juice — Inflammation에 듣는다  <!-- 시험 3건 · 논문 102편 -->
+- [x] pomegranate juice — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 102편 -->
+- [x] pridopidine — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [x] danicopan — Paroxysmal Nocturnal Hemoglobinuria에 듣는다  <!-- 시험 8건 · 논문 52편 --> — 허가 적응증(2026-08-07)
+- [x] danicopan — PNH에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 허가 적응증(2026-08-07)
+- [x] iptacopan — Immunoglobulin A Nephropathy에 듣는다  <!-- 시험 3건 · 논문 27편 -->
