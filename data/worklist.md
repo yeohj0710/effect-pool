@@ -15722,3 +15722,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sugammadex — Postoperative Pain에 듣는다  <!-- 시험 25건 · 논문 190편 --> — 항목(sugammadex-postoperative-pain-null, 2026-08-08)
 - [x] sugammadex — Surgery에 듣는다  <!-- 시험 23건 · 논문 1077편 --> — 항목(sugammadex-surgery-pos, 2026-08-08)
 - [x] sugammadex — Surgical Conditions에 듣는다  <!-- 시험 8건 · 논문 199편 --> — 항목(sugammadex-surgical-conditions-null, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] bedtime routine intervention — Insomnia에 듣는다  <!-- 시험 3건 · 논문 65편 --> — 항목(bedtime-routine-intervention-insomnia-open, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] active transport — Brain Fog에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 근거 없음(2026-08-08, PubMed: active commuting OR active transportation AND brain fog; ClinicalTrials.gov 직접 결과 미확인)
+- [x] active transport — Depressive Symptoms에 듣는다  <!-- 시험 7건 · 논문 1123편 --> — 항목(active-transport-depressive-symptoms-pos, 2026-08-08)
+- [x] active transport — Cognitive Aging에 듣는다  <!-- 시험 7건 · 논문 55편 --> — 항목(active-transport-cognitive-aging-null, 2026-08-08)
+- [x] active transport — Depression에 듣는다  <!-- 시험 7건 · 논문 1533편 --> — 항목(active-transport-depression-null, 2026-08-08)
+- [x] cenicriviroc — Liver Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 39편 --> — 항목(cenicriviroc-liver-cirrhosis-null, 2026-08-08)
+- [x] cenicriviroc — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 28편 --> — 항목(cenicriviroc-hiv-infections-pos, 2026-08-08)

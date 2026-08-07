@@ -1,0 +1,29 @@
+{
+  "id": "active-transport-depressive-symptoms-pos",
+  "subj": "active transport",
+  "claim": "걷기·자전거 통근을 우울 발생 위험 감소에 쓴다",
+  "line": "걷기·자전거 통근과 우울 발생 위험이 낮았습니다",
+  "effect": "자전거 HR 0.775; 도보 0.858",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 240547,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "활동적 이동은 의약품 허가 적응증 대상이 아닌 이동·신체활동 중재입니다.",
+  "why": "걷기·자전거 통근이 비활동적 통근보다 우울 발생을 줄이는지 확인합니다.",
+  "saw": "영국 바이오뱅크 240,547명 코호트에서 자전거 통근은 우울 발생 위험 HR 0.775(95% CI 0.674–0.890), 혼합형 도보 통근은 HR 0.858(0.800–0.919)였습니다. 염증 지표가 자전거 통근과 우울 발생의 연관성 중 19.75%를 매개했습니다.",
+  "limit": "무작위 배정이 아닌 코호트 연구이며 통근 방식과 우울 진단의 관계를 관찰한 결과입니다.",
+  "against": "브라질 단면 연구에서는 활동적 통근 수준이 높을수록 일부 소득군에서 우울 증상 오즈가 높았고, 결과가 집단별로 달랐습니다.",
+  "use": "우울 예방 연구의 관찰 근거로 사용할 수 있지만 통근을 처방하면 우울이 예방된다고 말할 수 없습니다.",
+  "refs": [
+    { "label": "활동적 통근과 우울·불안 발생 영국 바이오뱅크 코호트", "doi": "10.1038/s41398-024-03219-w", "pmid": "39893172" },
+    { "label": "브라질 성인의 활동적 통근과 우울 증상", "doi": "10.1016/j.puhe.2024.04.033", "pmid": "38805868" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "active transport AND Depressive Symptoms — 7건 직접 확인",
+    "pubmed": "active commuting OR active transportation AND depressive — PMID 39893172, 38805868",
+    "negative": "active commuting AND depressive symptoms AND (no effect OR increased OR inconsistent)",
+    "safety": "active transport AND (injury OR crash OR harm OR safety)"
+  }
+}
