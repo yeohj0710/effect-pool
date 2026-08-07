@@ -14451,3 +14451,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] culinary education — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 27편 -->
 - [x] culinary education — Family Function에 듣는다 — 근거 없음(2026-08-07 조회, "culinary education" AND "Family Function"; 직접 교육 중재 결과 없음, PubMed 39997291은 family cooking 관찰 연구)  <!-- 시험 3건 · 논문 40편 -->
 - [x] food skills training — Weight Loss에 듣는다 — 근거 없음(2026-08-07 조회, "food skills training" AND "Weight Loss"; 직접 훈련 중재 결과 없음)  <!-- 시험 3건 · 논문 81편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] nutrition workshop — Cancer에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition workshop" AND Cancer; ClinicalTrials.gov 직접 개입명 0건, 확인된 문헌은 워크숍 권고·고찰로 중재 결과 없음)  <!-- 시험 6건 · 논문 10039편 -->
+- [x] nutrition workshop — Cognitive Impairment에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition workshop" AND "Cognitive Impairment"; ClinicalTrials.gov 직접 개입명 0건, 직접 중재 결과 없음)  <!-- 시험 3건 · 논문 1204편 -->
+- [x] nutrition workshop — HIV에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition workshop" AND HIV; ClinicalTrials.gov 직접 개입명 0건, 직접 워크숍 결과 없음)  <!-- 시험 3건 · 논문 1190편 -->
+- [x] nutrition workshop — Food Habits에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition workshop" AND "Food Habits"; ClinicalTrials.gov 직접 개입명 0건, 직접 워크숍 결과 없음)  <!-- 시험 3건 · 논문 14583편 -->
+- [x] cooking class — Obesity에 듣는다  <!-- 시험 8건 · 논문 104편 -->
+- [x] cooking class — Diet에 듣는다  <!-- 시험 7건 · 논문 353편 -->
+- [x] cooking class — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 52편 -->
+- [x] cooking class — Nutrition Poor에 듣는다  <!-- 시험 4건 · 논문 38편 -->
+- [x] healthy cooking — Blood Pressure에 듣는다 — 근거 없음(2026-08-07 조회, "healthy cooking" AND "Blood Pressure"; ClinicalTrials.gov 직접 개입명 0건, 건강한 조리의 혈압 직접 결과 없음)  <!-- 시험 9건 · 논문 113편 -->
+- [x] healthy cooking — Sleep Health에 듣는다 — 근거 없음(2026-08-07 조회, "healthy cooking" AND "Sleep Health"; ClinicalTrials.gov 직접 개입명 0건, 건강한 조리의 수면 직접 결과 없음)  <!-- 시험 8건 · 논문 29편 -->
+- [x] healthy cooking — Diabetes에 듣는다  <!-- 시험 7건 · 논문 342편 -->
+- [x] healthy cooking — Food Habits에 듣는다  <!-- 시험 6건 · 논문 883편 -->
