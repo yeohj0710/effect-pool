@@ -1,0 +1,28 @@
+{
+  "id": "soy-milk-cardiovascular-risk-pos",
+  "subj": "soy milk",
+  "claim": "심혈관 위험 지표에 우유 대신 두유를 쓴다",
+  "line": "우유를 두유로 바꾸면 LDL·혈압·CRP가 낮아졌습니다",
+  "effect": "LDL·비HDL·혈압·CRP 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 504,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "심혈관 위험 감소에 허가된 두유가 아닙니다.",
+  "why": "성인 무작위시험에서 우유 500mL를 두유로 바꾼 효과를 합친 메타분석입니다.",
+  "saw": "17개 시험, 504명에서 우유를 두유로 바꾸면 비HDL 콜레스테롤, LDL 콜레스테롤, 수축기·이완기 혈압과 CRP가 낮아졌습니다. 첨가당 유무에 따른 효과 차이는 뚜렷하지 않았습니다.",
+  "limit": "건강 상태·두유 조성·대조 우유가 달랐고 심혈관 사건이 아닌 중간 지표를 평가했습니다.",
+  "against": "혈당·체중 등 다른 결과에는 차이가 없었고 장기 심혈관 사건을 확인하지 않았습니다.",
+  "use": "우유를 두유로 바꿀 때의 중간 심혈관 지표 근거로만 사용합니다.",
+  "refs": [
+    { "label": "우유를 두유로 대체한 무작위시험 메타분석", "doi": "10.1186/s12916-024-03524-7", "pmid": "39169353" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=soy milk AND query.cond=Cardiovascular Risk · 8건, 직접 개입 2건",
+    "pubmed": "soy milk AND Cardiovascular Risk · 101편, 결과 검색 62편",
+    "negative": "soy milk AND Cardiovascular Risk AND (no effect OR did not OR failed OR negative OR no significant difference) · 78편",
+    "safety": "soy milk AND (adverse OR toxicity OR case report OR harm OR dropout) · 678편"
+  }
+}
