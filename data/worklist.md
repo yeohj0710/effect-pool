@@ -13001,22 +13001,61 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] social network intervention — Obesity에 듣는다  <!-- 시험 14건 · 논문 1200편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Obesity; PubMed social network intervention AND Obesity)
 - [x] social network intervention — Cancer에 듣는다  <!-- 시험 13건 · 논문 4502편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Cancer; PubMed social network intervention AND Cancer)
 - [x] social network intervention — Weight Loss에 듣는다  <!-- 시험 8건 · 논문 320편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Weight Loss; PubMed social network intervention AND Weight Loss)
-- [ ] social network intervention — Loneliness에 듣는다  <!-- 시험 7건 · 논문 1017편 -->
-- [ ] sleep coaching program — Stress에 듣는다  <!-- 시험 6건 · 논문 107편 -->
-- [ ] family support program — Obesity에 듣는다  <!-- 시험 23건 · 논문 4119편 -->
-- [ ] family support program — Health Behavior에 듣는다  <!-- 시험 15건 · 논문 16096편 -->
-- [ ] family support program — Parenting에 듣는다  <!-- 시험 7건 · 논문 13633편 -->
-- [ ] family support program — Premature Birth에 듣는다  <!-- 시험 7건 · 논문 342편 -->
-- [ ] behavioral counseling — Obesity에 듣는다  <!-- 시험 15건 · 논문 13448편 -->
-- [ ] behavioral counseling — Smoking에 듣는다  <!-- 시험 11건 · 논문 8780편 -->
-- [ ] behavioral counseling — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 6232편 -->
-- [ ] behavioral counseling — Opioid Use에 듣는다  <!-- 시험 10건 · 논문 6217편 -->
-- [ ] care navigation — HIV에 듣는다  <!-- 시험 29건 · 논문 1098편 -->
-- [ ] care navigation — Drug Use에 듣는다  <!-- 시험 26건 · 논문 1917편 -->
-- [ ] care navigation — Depression에 듣는다  <!-- 시험 10건 · 논문 786편 -->
-- [ ] care navigation — Pain에 듣는다  <!-- 시험 10건 · 논문 1207편 -->
-- [ ] self-management program — Pain에 듣는다  <!-- 시험 13건 · 논문 5993편 -->
-- [ ] self-management program — Arthritis에 듣는다  <!-- 시험 8건 · 논문 1912편 -->
-- [ ] self-management program — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 911편 -->
-- [ ] self-management program — Obstructive Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 70편 -->
-- [ ] dexpramipexole — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 7건 · 논문 27편 -->
+- [x] social network intervention — Loneliness에 듣는다  <!-- 시험 7건 · 논문 1017편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov social network intervention AND Loneliness; PubMed social network intervention AND Loneliness)
+- [x] sleep coaching program — Stress에 듣는다  <!-- 시험 6건 · 논문 107편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov sleep coaching program AND Stress; PubMed sleep coaching program AND Stress)
+- [x] family support program — Obesity에 듣는다  <!-- 시험 23건 · 논문 4119편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov family support program AND Obesity; PubMed family support program AND Obesity)
+- [x] family support program — Health Behavior에 듣는다  <!-- 시험 15건 · 논문 16096편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov family support program AND Health Behavior; PubMed family support program AND Health Behavior)
+- [x] family support program — Parenting에 듣는다  <!-- 시험 7건 · 논문 13633편 -->
+- [x] family support program — Premature Birth에 듣는다  <!-- 시험 7건 · 논문 342편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov family support program AND Premature Birth; PubMed family support program AND Premature Birth)
+- [x] behavioral counseling — Obesity에 듣는다  <!-- 시험 15건 · 논문 13448편 -->
+- [x] behavioral counseling — Smoking에 듣는다  <!-- 시험 11건 · 논문 8780편 -->
+- [x] behavioral counseling — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 6232편 -->
+- [x] behavioral counseling — Opioid Use에 듣는다  <!-- 시험 10건 · 논문 6217편 -->
+- [x] care navigation — HIV에 듣는다  <!-- 시험 29건 · 논문 1098편 -->
+- [x] care navigation — Drug Use에 듣는다  <!-- 시험 26건 · 논문 1917편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov care navigation AND Drug Use; PubMed care navigation AND Drug Use)
+- [x] care navigation — Depression에 듣는다  <!-- 시험 10건 · 논문 786편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov care navigation AND Depression; PubMed care navigation AND Depression)
+- [x] care navigation — Pain에 듣는다  <!-- 시험 10건 · 논문 1207편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov care navigation AND Pain; PubMed care navigation AND Pain)
+- [x] self-management program — Pain에 듣는다  <!-- 시험 13건 · 논문 5993편 -->
+- [x] self-management program — Arthritis에 듣는다  <!-- 시험 8건 · 논문 1912편 -->
+- [x] self-management program — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 911편 -->
+- [x] self-management program — Obstructive Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 70편 -->
+- [x] dexpramipexole — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 7건 · 논문 27편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] ecological momentary assessment — Alcohol Use에 듣는다  <!-- 시험 9건 · 논문 802편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov ecological momentary assessment AND Alcohol Use; PubMed ecological momentary assessment AND Alcohol Use)
+- [x] ecological momentary assessment — Suicide에 듣는다  <!-- 시험 6건 · 논문 414편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov ecological momentary assessment AND Suicide; PubMed ecological momentary assessment AND Suicide)
+- [x] ecological momentary assessment — Stroke에 듣는다  <!-- 시험 5건 · 논문 45편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov ecological momentary assessment AND Stroke; PubMed ecological momentary assessment AND Stroke)
+- [x] ecological momentary assessment — Suicidal Ideation에 듣는다  <!-- 시험 5건 · 논문 292편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov ecological momentary assessment AND Suicidal Ideation; PubMed ecological momentary assessment AND Suicidal Ideation)
+- [x] transdiagnostic psychotherapy — Posttraumatic Stress에 듣는다  <!-- 시험 7건 · 논문 150편 -->
+- [x] transdiagnostic psychotherapy — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 426편 -->
+- [x] transdiagnostic psychotherapy — Panic Disorder에 듣는다  <!-- 시험 3건 · 논문 87편 -->
+- [x] transdiagnostic psychotherapy — Trauma에 듣는다  <!-- 시험 3건 · 논문 179편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov transdiagnostic psychotherapy AND Trauma; PubMed transdiagnostic psychotherapy AND Trauma)
+- [x] wearable activity tracker — Pre-Diabetes에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov wearable activity tracker AND Pre-Diabetes; PubMed wearable activity tracker AND Pre-Diabetes)
+- [x] wearable activity tracker — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 856편 -->
+- [x] wearable activity tracker — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] resilience training — Anxiety에 듣는다  <!-- 시험 14건 · 논문 3135편 -->
+- [ ] resilience training — Cancer에 듣는다  <!-- 시험 14건 · 논문 1476편 -->
+- [ ] resilience training — Depression에 듣는다  <!-- 시험 13건 · 논문 3505편 -->
+- [ ] resilience training — Mental Health에 듣는다  <!-- 시험 9건 · 논문 7134편 -->
+- [ ] digital storytelling intervention — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 61편 -->
+- [ ] digital storytelling intervention — Nursing에 듣는다  <!-- 시험 3건 · 논문 135편 -->
+- [ ] digital storytelling intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 48편 -->
+- [ ] remote group exercise — Cancer에 듣는다  <!-- 시험 9건 · 논문 208편 -->
+- [ ] remote group exercise — Cardiac Disease에 듣는다  <!-- 시험 7건 · 논문 237편 -->
+- [ ] remote group exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 168편 -->
+- [ ] remote group exercise — Coronary Heart Disease에 듣는다  <!-- 시험 6건 · 논문 90편 -->
+- [ ] self-compassion intervention — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1040편 -->
+- [ ] self-compassion intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 1173편 -->
+- [ ] self-compassion intervention — Body Image에 듣는다  <!-- 시험 7건 · 논문 235편 -->
+- [ ] esketamine — Depression에 듣는다  <!-- 시험 46건 · 논문 1595편 -->
+- [ ] esketamine — Major Surgery에 듣는다  <!-- 시험 45건 · 논문 53편 -->
+- [ ] esketamine — Dexmedetomidine에 듣는다  <!-- 시험 27건 · 논문 134편 -->
+- [ ] esketamine — Surgery에 듣는다  <!-- 시험 18건 · 논문 637편 -->
