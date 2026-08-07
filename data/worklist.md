@@ -14007,17 +14007,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online parenting support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 992편 --> — 근거 없음(2026-08-07 조회, "online parenting support" AND "Anxiety")
 - [x] online parenting support — School Climate에 듣는다  <!-- 시험 5건 · 논문 54편 --> — 근거 없음(2026-08-07 조회, "online parenting support" AND "School Climate")
 - [x] physical activity promotion — Child Health에 듣는다  <!-- 시험 11건 · 논문 11713편 -->
-- [ ] physical activity promotion — Cognitive Change에 듣는다  <!-- 시험 7건 · 논문 2282편 -->
-- [ ] physical activity promotion — Sedentary Behavior에 듣는다  <!-- 시험 6건 · 논문 5977편 -->
-- [ ] physical activity promotion — Aging에 듣는다  <!-- 시험 4건 · 논문 8256편 -->
-- [ ] prenatal yoga — Depression에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] remote patient education — Diabetes에 듣는다  <!-- 시험 15건 · 논문 150편 -->
-- [ ] remote patient education — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 149편 -->
-- [ ] remote patient education — Digital Health에 듣는다  <!-- 시험 5건 · 논문 154편 -->
-- [ ] respite care — Anxiety in Older Adults에 듣는다  <!-- 시험 3건 · 논문 61편 -->
-- [ ] self-management coaching — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 124편 -->
-- [ ] self-management coaching — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 -->
-- [ ] virtual reality biofeedback — Stress에 듣는다  <!-- 시험 6건 · 논문 61편 -->
-- [ ] virtual reality biofeedback — Anxiety에 듣는다  <!-- 시험 6건 · 논문 97편 -->
-- [ ] virtual reality biofeedback — Back Pain에 듣는다  <!-- 시험 5건 · 논문 11편 -->
-- [ ] virtual reality biofeedback — Stroke에 듣는다  <!-- 시험 4건 · 논문 76편 -->
+- [x] physical activity promotion — Cognitive Change에 듣는다  <!-- 시험 7건 · 논문 2282편 --> — 근거 없음(2026-08-07 조회, "physical activity promotion" AND "Cognitive Change")
+- [x] physical activity promotion — Sedentary Behavior에 듣는다  <!-- 시험 6건 · 논문 5977편 -->
+- [x] physical activity promotion — Aging에 듣는다  <!-- 시험 4건 · 논문 8256편 -->
+- [x] prenatal yoga — Depression에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [x] remote patient education — Diabetes에 듣는다  <!-- 시험 15건 · 논문 150편 --> — 근거 없음(2026-08-07 조회, "remote patient education" AND "Diabetes")
+- [x] remote patient education — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 149편 --> — 근거 없음(2026-08-07 조회, "remote patient education" AND "Cardiovascular Disease")
+- [x] remote patient education — Digital Health에 듣는다  <!-- 시험 5건 · 논문 154편 --> — 근거 없음(2026-08-07 조회, "remote patient education" AND "Digital Health")
+- [x] respite care — Anxiety in Older Adults에 듣는다  <!-- 시험 3건 · 논문 61편 --> — 근거 없음(2026-08-07 조회, "respite care" AND "Anxiety in Older Adults")
+- [x] self-management coaching — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 124편 --> — 근거 없음(2026-08-07 조회, "self-management coaching" AND "Chronic Pain")
+- [x] self-management coaching — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-07 조회, "self-management coaching" AND "Lung Cancer")
+- [x] virtual reality biofeedback — Stress에 듣는다  <!-- 시험 6건 · 논문 61편 --> — 근거 없음(2026-08-07 조회, "virtual reality biofeedback" AND "Stress")
+- [x] virtual reality biofeedback — Anxiety에 듣는다  <!-- 시험 6건 · 논문 97편 -->
+- [x] virtual reality biofeedback — Back Pain에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-07 조회, "virtual reality biofeedback" AND "Back Pain")
+- [x] virtual reality biofeedback — Stroke에 듣는다  <!-- 시험 4건 · 논문 76편 --> — 근거 없음(2026-08-07 조회, "virtual reality biofeedback" AND "Stroke")
