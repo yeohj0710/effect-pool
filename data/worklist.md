@@ -15045,3 +15045,55 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] avocado — High Cholesterol에 듣는다  <!-- 시험 5건 · 논문 73편 --> — 중복(avocado-cardiovascular-pos)
 - [x] avocado — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 73편 --> — avocado-diet-habit-pos
 - [x] avocado — Prediabetes에 듣는다  <!-- 시험 3건 · 논문 11편 --> — avocado-prediabetes-open
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] breathing biofeedback — Stress에 듣는다  <!-- 시험 9건 · 논문 272편 --> — 중복(biofeedback-stress-pos)
+- [x] breathing biofeedback — Anxiety에 듣는다  <!-- 시험 4건 · 논문 212편 --> — 중복(biofeedback-anxiety-pos)
+- [x] breathing biofeedback — COPD에 듣는다  <!-- 시험 3건 · 논문 30편 --> — breathing-biofeedback-copd-open
+- [x] guided self-help — Mental Health에 듣는다  <!-- 시험 8건 · 논문 592편 --> — guided-self-help-mental-health-pos
+- [x] guided self-help — Autism에 듣는다  <!-- 시험 7건 · 논문 19편 --> — guided-self-help-autism-open
+- [x] guided self-help — Alcohol Abuse에 듣는다  <!-- 시험 7건 · 논문 26편 --> — guided-self-help-alcohol-abuse-pos
+- [x] peer support group — Drug Use에 듣는다  <!-- 시험 33건 · 논문 4060편 --> — 근거 없음(2026-08-08, "peer support group" AND "Drug Use"; 직접 임상 결과 없음)
+- [x] peer support group — Social Skills에 듣는다  <!-- 시험 13건 · 논문 1721편 --> — peer-support-group-social-skills-pos
+- [x] peer support group — Cancer에 듣는다  <!-- 시험 12건 · 논문 3031편 --> — 중복(peer-support-cancer-pos)
+- [x] peer support group — Depression에 듣는다  <!-- 시험 11건 · 논문 3071편 --> — 중복(peer-support-depression-pos)
+- [x] community walking — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 31편 --> — community-walking-lung-cancer-pos
+- [x] community walking — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 150편 --> — community-walking-dietary-habits-pos
+- [x] community walking — Sedentary에 듣는다  <!-- 시험 3건 · 논문 710편 --> — 근거 없음(2026-08-08, "community walking" AND "Sedentary"; 직접 임상 결과 없음)
+- [x] community walking — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 109편 --> — 중복(home-based-walking-program-heart-failure-null)
+- [x] resilience training — Burnout에 듣는다  <!-- 시험 7건 · 논문 1823편 --> — 근거 없음(2026-08-08, "resilience training" AND "Burnout"; 직접 결과 논문 없음)
+- [x] resilience training — Drug Use에 듣는다  <!-- 시험 6건 · 논문 1253편 --> — 근거 없음(2026-08-08, "resilience training" AND "Drug Use"; 직접 임상 결과 없음)
+- [x] resilience training — Depressive Disorder에 듣는다  <!-- 시험 5건 · 논문 475편 --> — resilience-training-depressive-disorder-pos
+- [x] resilience training — Trauma에 듣는다  <!-- 시험 5건 · 논문 2241편 --> — 근거 없음(2026-08-08, "resilience training" AND "Trauma"; 직접 결과 논문 없음)
+- [x] positive psychology intervention — Acute Coronary Syndrome에 듣는다  <!-- 시험 6건 · 논문 87편 --> — 중복(positive-psychology-acute-coronary-syndrome-pos)
+- [x] positive psychology intervention — Type2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 19편 --> — 근거 없음(2026-08-08, "positive psychology intervention" AND "Type2 Diabetes"; 직접 임상 결과 없음)
+- [x] positive psychology intervention — Mental Health에 듣는다  <!-- 시험 5건 · 논문 26716편 --> — 근거 없음(2026-08-08, "positive psychology intervention" AND "Mental Health"; 직접 임상 결과 없음)
+- [x] positive psychology intervention — Pain에 듣는다  <!-- 시험 4건 · 논문 6563편 --> — positive-psychology-intervention-pain-open
+- [x] cognitive training game — Schizophrenia에 듣는다  <!-- 시험 17건 · 논문 25편 --> — cognitive-training-game-schizophrenia-pos
+- [x] cognitive training game — Depression에 듣는다  <!-- 시험 16건 · 논문 67편 --> — cognitive-training-game-depression-open
+- [x] cognitive training game — Alzheimer Disease에 듣는다  <!-- 시험 14건 · 논문 29편 --> — cognitive-training-game-alzheimer-disease-pos
+- [x] cognitive training game — Dementia에 듣는다  <!-- 시험 11건 · 논문 75편 --> — cognitive-training-game-dementia-null
+- [x] virtual nature exposure — Acute Pain에 듣는다  <!-- 시험 6건 · 논문 10편 --> — virtual-nature-exposure-acute-pain-pos
+- [x] virtual nature exposure — Stress에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 중복(nature-exposure-virtual-reality-pos)
+- [x] virtual nature exposure — Cancer에 듣는다  <!-- 시험 3건 · 논문 48편 --> — virtual-nature-exposure-cancer-open
+- [x] virtual nature exposure — Physiological Recovery에 듣는다  <!-- 시험 3건 · 논문 15편 --> — virtual-nature-exposure-physiological-recovery-open
+- [ ] tai chi breathing — Cancer에 듣는다  <!-- 시험 6건 · 논문 21편 -->
+- [ ] tai chi breathing — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [ ] tai chi breathing — Fall에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [ ] music listening intervention — Pain에 듣는다  <!-- 시험 98건 · 논문 547편 -->
+- [ ] music listening intervention — Cancer에 듣는다  <!-- 시험 40건 · 논문 167편 -->
+- [ ] music listening intervention — Stress에 듣는다  <!-- 시험 29건 · 논문 495편 -->
+- [ ] music listening intervention — Dementia에 듣는다  <!-- 시험 29건 · 논문 179편 -->
+- [ ] animal assisted activity — Stress에 듣는다  <!-- 시험 8건 · 논문 2842편 -->
+- [ ] animal assisted activity — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 238편 -->
+- [ ] animal assisted activity — Autism에 듣는다  <!-- 시험 4건 · 논문 125편 -->
+- [ ] animal assisted activity — Developmental Delays에 듣는다  <!-- 시험 4건 · 논문 87편 -->
+- [ ] pistachio — Overweight에 듣는다  <!-- 시험 4건 · 논문 42편 -->
