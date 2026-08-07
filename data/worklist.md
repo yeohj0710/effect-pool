@@ -15117,3 +15117,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nicotinamide riboside — Aging에 듣는다  <!-- 시험 8건 · 논문 260편 --> — 항목 생성(nicotinamide-riboside-aging-open, 2026-08-08)
 - [x] nicotinamide riboside — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 47편 --> — 항목 생성(nicotinamide-riboside-heart-failure-open, 2026-08-08)
 - [x] nicotinamide riboside — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 21편 --> — 항목 생성(nicotinamide-riboside-parkinson-disease-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] isometric handgrip exercise — Blood Pressure에 듣는다  <!-- 시험 6건 · 논문 1778편 --> — 중복(isometric-exercise-blood-pressure-pos, 2026-08-08)
+- [x] isometric handgrip exercise — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 171편 --> — 근거 없음(2026-08-08, "isometric handgrip" AND "Coronary Artery Disease"; 직접 치료 결과 없음)
+- [x] interval walking training — Stroke에 듣는다  <!-- 시험 10건 · 논문 277편 --> — 항목 생성(interval-walking-training-stroke-pos, 2026-08-08)
+- [x] interval walking training — Pre Diabetes에 듣는다  <!-- 시험 9건 · 논문 19편 --> — 항목 생성(interval-walking-training-prediabetes-pos, 2026-08-08)
+- [x] interval walking training — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 66편 --> — 중복(interval-training-heart-failure-null, 2026-08-08)
+- [x] resistance circuit training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 51편 --> — 항목 생성(resistance-circuit-training-diabetes-pos, 2026-08-08)
+- [x] resistance circuit training — Cognitive Change에 듣는다  <!-- 시험 5건 · 논문 13편 --> — 근거 없음(2026-08-08, "resistance circuit training" AND "Cognitive Change"; 결과 논문 없음)
+- [x] sleep education app — Cognitive Disorder에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 근거 없음(2026-08-08, "sleep education app" AND "Cognitive Disorder"; 인지결과 직접 보고 없음)
+- [x] sleep education app — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 중복(sleep-app-chronic-pain-pos, 2026-08-08)
+- [x] sleep education app — Cancer에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 중복(sleep-app-cancer-null, 2026-08-08)
+- [x] sleep education app — Stress에 듣는다  <!-- 시험 3건 · 논문 104편 --> — 중복(sleep-app-stress-pos, 2026-08-08)
