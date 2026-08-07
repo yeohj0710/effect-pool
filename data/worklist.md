@@ -13936,3 +13936,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality relaxation — Stress에 듣는다  <!-- 시험 22건 · 논문 208편 -->
 - [x] virtual reality relaxation — Relaxation에 듣는다  <!-- 시험 12건 · 논문 595편 -->
 - [x] virtual reality relaxation — Cancer에 듣는다  <!-- 시험 9건 · 논문 67편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] caregiver coaching — Infant에 듣는다  <!-- 시험 3건 · 논문 105편 -->
+- [x] caregiver coaching — Traumas, Brain에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-07 조회, "caregiver coaching" AND "Traumas, Brain")
+- [x] community exercise program — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 898편 --> — 근거 없음(2026-08-07 조회, "community exercise program" AND "Pulmonary Disease")
+- [x] emotion regulation group therapy — Self-Harm에 듣는다  <!-- 시험 7건 · 논문 136편 -->
+- [x] emotion regulation group therapy — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 41편 --> — 근거 없음(2026-08-07 조회, "emotion regulation group therapy" AND "Breast Cancer")
+- [x] emotion regulation group therapy — Depressive Symptom에 듣는다  <!-- 시험 5건 · 논문 850편 --> — 근거 없음(2026-08-07 조회, "emotion regulation group therapy" AND "Depressive Symptom")
+- [x] emotion regulation group therapy — Trauma에 듣는다  <!-- 시험 5건 · 논문 258편 --> — 근거 없음(2026-08-07 조회, "emotion regulation group therapy" AND "Trauma")
+- [x] health insurance navigation — Asthma에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-07 조회, "health insurance navigation" AND "Asthma")
+- [x] meal delivery — Diet Quality에 듣는다  <!-- 시험 13건 · 논문 150편 -->
+- [x] meal delivery — Weight Loss에 듣는다  <!-- 시험 10건 · 논문 117편 --> — 근거 없음(2026-08-07 조회, "meal delivery" AND "Weight Loss")
+- [x] meal delivery — Nutrition에 듣는다  <!-- 시험 6건 · 논문 887편 -->
+- [x] meal delivery — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 291편 -->
+- [x] online group therapy — Depressive Symptoms에 듣는다  <!-- 시험 8건 · 논문 2339편 -->
+- [x] online group therapy — Sleep Hygiene에 듣는다  <!-- 시험 8건 · 논문 80편 --> — 근거 없음(2026-08-07 조회, "online group therapy" AND "Sleep Hygiene")
+- [x] online group therapy — Chronic Pain에 듣는다  <!-- 시험 7건 · 논문 571편 --> — 근거 없음(2026-08-07 조회, "online group therapy" AND "Chronic Pain")
+- [x] online group therapy — HIV에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 근거 없음(2026-08-07 조회, "online group therapy" AND "HIV")
+- [x] virtual anxiety management — Stress에 듣는다  <!-- 시험 4건 · 논문 402편 --> — 근거 없음(2026-08-07 조회, "virtual anxiety management" AND "Stress")
+- [x] home visiting — HIV에 듣는다  <!-- 시험 11건 · 논문 213편 -->
+- [x] home visiting — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 -->
+- [x] home visiting — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 1126편 -->
+- [x] home visiting — Asthma에 듣는다  <!-- 시험 9건 · 논문 151편 -->
