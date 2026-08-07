@@ -14824,3 +14824,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] body psychotherapy — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 378편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Major Depressive Disorder"; 직접 중재 결과 없음)
 - [x] body psychotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 2931편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND Depression; 직접 중재 결과 없음)
 - [ ] body psychotherapy — Pain Acute에 듣는다  <!-- 시험 4건 · 논문 91편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] black seed — Stress에 듣는다  <!-- 시험 3건 · 논문 740편 --> — 근거 없음(2026-08-07, "black seed" AND Stress; 직접 스트레스 결과 없음)
+- [x] resistance band — Cancer에 듣는다  <!-- 시험 16건 · 논문 584편 --> — 중복(resistance-training-cancer-pos·resistance-exercise-cancer-pos)
+- [x] resistance band — Aging에 듣는다  <!-- 시험 12건 · 논문 157편 --> — 중복(resistance-bands-aging-pos)
+- [x] resistance band — Obesity에 듣는다  <!-- 시험 11건 · 논문 105편 --> — 중복(resistance-bands-obesity-null)
+- [x] resistance band — Diabetes에 듣는다  <!-- 시험 11건 · 논문 139편 --> — 중복(resistance-bands-diabetes-pos)
+- [x] balance board — Ankle Sprain에 듣는다  <!-- 시험 11건 · 논문 62편 --> — balance-board-ankle-sprain-pos 항목
+- [x] balance board — Stroke에 듣는다  <!-- 시험 9건 · 논문 487편 --> — 근거 없음(2026-08-07, "balance board" AND Stroke; 직접 중재 일치 없음)
+- [x] balance board — Cognitive Test에 듣는다  <!-- 시험 7건 · 논문 211편 --> — 근거 없음(2026-08-07, "balance board" AND "Cognitive Test"; 직접 인지 결과 없음)
+- [x] balance board — Healthy Young Adults에 듣는다  <!-- 시험 5건 · 논문 208편 --> — 근거 없음(2026-08-07, "balance board" AND "Healthy Young Adults"; 치료 결과 없음)
+- [x] breath counting — Kidney Cancer에 듣는다  <!-- 시험 4건 · 논문 28편 --> — 근거 없음(2026-08-07, "breath counting" AND "Kidney Cancer"; 직접 중재 결과 없음)
+- [x] breath counting — Anxiety에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 근거 없음(2026-08-07, "breath counting" AND Anxiety; 직접 불안 결과 없음)
+- [x] qigong breathing — Neck Pain에 듣는다  <!-- 시험 8건 · 논문 10편 --> — 중복(qigong-neck-pain-null)
+- [x] qigong breathing — COVID-19에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 중복(qigong-covid-19-pos)
+- [x] progressive resistance training — Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 136편 --> — 중복(resistance-training-osteoarthritis-null)
+- [x] progressive resistance training — Muscle Loss에 듣는다  <!-- 시험 9건 · 논문 378편 --> — 중복(resistance-training-muscle-pos)
+- [x] progressive resistance training — Sarcopenia에 듣는다  <!-- 시험 8건 · 논문 362편 --> — 중복(resistance-training-sarcopenia-pos)
+- [x] progressive resistance training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 426편 --> — 중복(resistance-training-type-2-diabetes-pos)
