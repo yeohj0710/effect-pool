@@ -13967,3 +13967,57 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] home visiting — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 -->
 - [x] home visiting — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 1126편 -->
 - [x] home visiting — Asthma에 듣는다  <!-- 시험 9건 · 논문 151편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] digital health intervention — Health에 듣는다  <!-- 시험 33건 · 논문 91321편 -->
+- [x] digital health intervention — Diabetes에 듣는다  <!-- 시험 16건 · 논문 5069편 -->
+- [x] digital health intervention — Depression에 듣는다  <!-- 시험 12건 · 논문 6014편 -->
+- [x] digital health intervention — Anxiety에 듣는다  <!-- 시험 12건 · 논문 5003편 -->
+- [x] ehealth intervention — Pre Diabetes에 듣는다  <!-- 시험 8건 · 논문 381편 --> — 근거 없음(2026-08-07 조회, "ehealth intervention" AND "Pre Diabetes")
+- [x] ehealth intervention — Autism에 듣는다  <!-- 시험 7건 · 논문 368편 --> — 근거 없음(2026-08-07 조회, "ehealth intervention" AND "Autism")
+- [x] ehealth intervention — COPD에 듣는다  <!-- 시험 7건 · 논문 986편 -->
+- [x] ehealth intervention — Behavior, Child에 듣는다  <!-- 시험 7건 · 논문 799편 --> — 근거 없음(2026-08-07 조회, "ehealth intervention" AND "Behavior, Child")
+- [x] food prescription — Diet, Healthy에 듣는다  <!-- 시험 3건 · 논문 217편 --> — 근거 없음(2026-08-07 조회, "food prescription" AND "Diet, Healthy")
+- [x] group prenatal education — Pregnancy에 듣는다  <!-- 시험 12건 · 논문 5884편 -->
+- [x] group prenatal education — Infant Care에 듣는다  <!-- 시험 7건 · 논문 1735편 --> — 근거 없음(2026-08-07 조회, "group prenatal education" AND "Infant Care")
+- [x] group prenatal education — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 34편 --> — 근거 없음(2026-08-07 조회, "group prenatal education" AND "Type 2 Diabetes")
+- [x] group prenatal education — Fear of Childbirth에 듣는다  <!-- 시험 4건 · 논문 97편 --> — 근거 없음(2026-08-07 조회, "group prenatal education" AND "Fear of Childbirth")
+- [x] health behavior change intervention — Obesity에 듣는다  <!-- 시험 21건 · 논문 9357편 -->
+- [x] health behavior change intervention — Diabetes에 듣는다  <!-- 시험 13건 · 논문 7462편 --> — 근거 없음(2026-08-07 조회, "health behavior change intervention" AND "Diabetes")
+- [x] health behavior change intervention — Activity, Motor에 듣는다  <!-- 시험 11건 · 논문 11519편 --> — 근거 없음(2026-08-07 조회, "health behavior change intervention" AND "Activity, Motor")
+- [x] health behavior change intervention — Behavior에 듣는다  <!-- 시험 10건 · 논문 103897편 -->
+- [x] lifestyle coaching — Diabetes에 듣는다  <!-- 시험 39건 · 논문 598편 -->
+- [x] lifestyle coaching — Cancer에 듣는다  <!-- 시험 29건 · 논문 218편 -->
+- [x] lifestyle coaching — Weight Loss에 듣는다  <!-- 시험 14건 · 논문 398편 -->
+- [x] lifestyle coaching — Hypertension에 듣는다  <!-- 시험 11건 · 논문 150편 -->
+- [x] mobile health coaching — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 5건 · 논문 152편 --> — 근거 없음(2026-08-07 조회, "mobile health coaching" AND "Type 2 Diabetes Mellitus")
+- [x] mobile health coaching — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-07 조회, "mobile health coaching" AND "Lung Cancer")
+- [x] mobile health coaching — Back Pain에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 근거 없음(2026-08-07 조회, "mobile health coaching" AND "Back Pain")
+- [x] mobile health coaching — Women Health에 듣는다  <!-- 시험 4건 · 논문 268편 --> — 근거 없음(2026-08-07 조회, "mobile health coaching" AND "Women Health")
+- [x] online parenting support — Parenting에 듣는다  <!-- 시험 6건 · 논문 9072편 -->
+- [x] online parenting support — Conduct Problems에 듣는다  <!-- 시험 6건 · 논문 864편 -->
+- [x] online parenting support — Anxiety에 듣는다  <!-- 시험 5건 · 논문 992편 --> — 근거 없음(2026-08-07 조회, "online parenting support" AND "Anxiety")
+- [x] online parenting support — School Climate에 듣는다  <!-- 시험 5건 · 논문 54편 --> — 근거 없음(2026-08-07 조회, "online parenting support" AND "School Climate")
+- [x] physical activity promotion — Child Health에 듣는다  <!-- 시험 11건 · 논문 11713편 -->
+- [ ] physical activity promotion — Cognitive Change에 듣는다  <!-- 시험 7건 · 논문 2282편 -->
+- [ ] physical activity promotion — Sedentary Behavior에 듣는다  <!-- 시험 6건 · 논문 5977편 -->
+- [ ] physical activity promotion — Aging에 듣는다  <!-- 시험 4건 · 논문 8256편 -->
+- [ ] prenatal yoga — Depression에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [ ] remote patient education — Diabetes에 듣는다  <!-- 시험 15건 · 논문 150편 -->
+- [ ] remote patient education — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 149편 -->
+- [ ] remote patient education — Digital Health에 듣는다  <!-- 시험 5건 · 논문 154편 -->
+- [ ] respite care — Anxiety in Older Adults에 듣는다  <!-- 시험 3건 · 논문 61편 -->
+- [ ] self-management coaching — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 124편 -->
+- [ ] self-management coaching — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 21편 -->
+- [ ] virtual reality biofeedback — Stress에 듣는다  <!-- 시험 6건 · 논문 61편 -->
+- [ ] virtual reality biofeedback — Anxiety에 듣는다  <!-- 시험 6건 · 논문 97편 -->
+- [ ] virtual reality biofeedback — Back Pain에 듣는다  <!-- 시험 5건 · 논문 11편 -->
+- [ ] virtual reality biofeedback — Stroke에 듣는다  <!-- 시험 4건 · 논문 76편 -->

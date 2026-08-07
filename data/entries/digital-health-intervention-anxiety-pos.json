@@ -1,0 +1,28 @@
+{
+  "id": "digital-health-intervention-anxiety-pos",
+  "subj": "digital health intervention",
+  "claim": "고위험 임신부의 불안과 스트레스를 디지털 건강 중재로 줄이는가",
+  "line": "고위험 임신부의 불안·스트레스가 줄었습니다.",
+  "effect": "불안·스트레스 점수 감소",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 300,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "디지털 건강 중재는 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "고위험 임신부 300명이 4주 인공지능 정서 지원 도구를 사용한 전후를 비교한 비무작위 연구입니다.",
+  "saw": "불안·스트레스 총점은 중재 전 54.05점에서 사용 뒤 10.15점으로 줄었고, 변화는 통계적으로 유의했습니다.",
+  "limit": "대조군이 없는 편의표본 전후 연구이고 이집트 한 병원에서 시행했으므로 인과 효과를 확정할 수 없습니다.",
+  "against": "무작위 대조군이 없어 시간 경과나 동시 치료의 영향을 분리하지 못했습니다.",
+  "use": "고위험 임신의 표준 산전 진료와 정신건강 평가를 대신하지 않는 보조 도구로만 검토합니다.",
+  "refs": [
+    { "label": "고위험 임신부 인공지능 정서 지원 전후 연구", "doi": "10.1038/s41598-026-49427-w", "pmid": "42031992" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "digital health intervention AND Anxiety — 200건 반환, 중재명 직접 일치 0건",
+    "pubmed": "\"digital health intervention\" AND \"Anxiety\" — 84건, 시험·코호트 등 62건",
+    "negative": "\"digital health intervention\" AND \"Anxiety\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 59건",
+    "safety": "\"digital health intervention\" AND (adverse OR toxicity OR case report OR harm) — 79건"
+  }
+}
