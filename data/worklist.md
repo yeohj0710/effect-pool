@@ -13187,3 +13187,42 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] elinzanetant — Hot Flashes에 듣는다  <!-- 시험 12건 · 논문 38편 --> — 허가 적응증(2026-08-06)
 - [x] mirikizumab — Crohn Disease에 듣는다  <!-- 시험 14건 · 논문 88편 -->
 - [x] mirikizumab — Psoriasis에 듣는다  <!-- 시험 6건 · 논문 32편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cognitive behavioral therapy for insomnia — Sleep에 듣는다  <!-- 시험 60건 · 논문 3426편 -->
+- [x] cognitive behavioral therapy for insomnia — Cancer에 듣는다  <!-- 시험 38건 · 논문 364편 -->
+- [x] cognitive behavioral therapy for insomnia — Depression에 듣는다  <!-- 시험 29건 · 논문 1339편 -->
+- [x] cognitive behavioral therapy for insomnia — Pain에 듣는다  <!-- 시험 21건 · 논문 370편 -->
+- [x] behavioral therapy for insomnia — Sleep에 듣는다  <!-- 시험 54건 · 논문 5360편 -->
+- [x] behavioral therapy for insomnia — Depression에 듣는다  <!-- 시험 32건 · 논문 2043편 -->
+- [x] behavioral therapy for insomnia — Cancer에 듣는다  <!-- 시험 32건 · 논문 542편 -->
+- [x] behavioral therapy for insomnia — Stress에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral therapy for insomnia AND Stress; PubMed behavioral therapy for insomnia AND Stress)  <!-- 시험 19건 · 논문 889편 -->
+- [x] group interpersonal therapy — Emotional Stress에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov group interpersonal therapy AND Emotional Stress; PubMed group interpersonal therapy AND Emotional Stress)  <!-- 시험 14건 · 논문 891편 -->
+- [x] group interpersonal therapy — Depressive Symptoms에 듣는다  <!-- 시험 8건 · 논문 2000편 -->
+- [x] group interpersonal therapy — Child Behavior에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov group interpersonal therapy AND Child Behavior; PubMed group interpersonal therapy AND Child Behavior)  <!-- 시험 7건 · 논문 866편 -->
+- [x] group interpersonal therapy — Suicidal Ideation에 듣는다  <!-- 시험 4건 · 논문 87편 -->
+- [x] internet-based cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 22건 · 논문 1251편 -->
+- [x] internet-based cognitive behavioral therapy — Insomnia에 듣는다  <!-- 시험 13건 · 논문 205편 -->
+- [x] internet-based cognitive behavioral therapy — Panic Attacks에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov internet-based cognitive behavioral therapy AND Panic Attacks; PubMed internet-based cognitive behavioral therapy AND Panic Attacks)  <!-- 시험 9건 · 논문 78편 -->
+- [x] internet-based cognitive behavioral therapy — Mental Stress에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov internet-based cognitive behavioral therapy AND Mental Stress; PubMed internet-based cognitive behavioral therapy AND Mental Stress)  <!-- 시험 9건 · 논문 372편 -->
+- [x] cognitive behavioral therapy for chronic pain — Insomnia에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive behavioral therapy for chronic pain AND Insomnia; PubMed cognitive behavioral therapy for chronic pain AND Insomnia)  <!-- 시험 11건 · 논문 218편 -->
+- [x] cognitive behavioral therapy for chronic pain — Opioid Use에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive behavioral therapy for chronic pain AND Opioid Use; PubMed cognitive behavioral therapy for chronic pain AND Opioid Use)  <!-- 시험 6건 · 논문 422편 -->
+- [x] cognitive behavioral therapy for chronic pain — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 40편 -->
+- [x] cognitive behavioral therapy for chronic pain — Signs and Symptoms에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive behavioral therapy for chronic pain AND Signs and Symptoms; PubMed cognitive behavioral therapy for chronic pain AND Signs and Symptoms)  <!-- 시험 5건 · 논문 2521편 -->
+- [x] exposure-based cognitive therapy — Gastrointestinal Disease에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [x] exposure-based cognitive therapy — Irritable Bowel Syndrome에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [x] behavioral sleep intervention — Sleep에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep intervention AND Sleep; PubMed behavioral sleep intervention AND Sleep)  <!-- 시험 42건 · 논문 68522편 -->
+- [x] behavioral sleep intervention — Depression에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep intervention AND Depression; PubMed behavioral sleep intervention AND Depression)  <!-- 시험 16건 · 논문 18091편 -->
+- [x] behavioral sleep intervention — Alcohol Use에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep intervention AND Alcohol Use; PubMed behavioral sleep intervention AND Alcohol Use)  <!-- 시험 11건 · 논문 3759편 -->
+- [x] behavioral sleep intervention — Pain에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep intervention AND Pain; PubMed behavioral sleep intervention AND Pain)  <!-- 시험 10건 · 논문 7190편 -->
+- [x] sleep compression therapy — Cognitive Functioning에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov sleep compression therapy AND Cognitive Functioning; PubMed sleep compression therapy AND Cognitive Functioning)  <!-- 시험 3건 · 논문 21편 -->
+- [x] nirsevimab — Respiratory Syncytial Virus에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 568편 -->
+- [x] nirsevimab — Lower Respiratory Tract Infection에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 223편 -->
