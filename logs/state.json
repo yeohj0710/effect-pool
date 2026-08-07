@@ -30,6 +30,8 @@
     "no_effect_or_harm": 811,
     "harm": 103,
     "no_effect_or_harm_share": "24%",
+    "non_trial": 436,
+    "unexpected_benefit_entries": 22,
     "connected_evidence": 4750,
     "thin_warnings": 541
   },
@@ -37,14 +39,14 @@
     "last_entry_count": 3307,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_FDMkrnLSBGJhau34aavobhAEnyGT",
-    "deployment_state": "batch 199 local build has 3360 entries; public remains 3307 until the six-round deployment check after batches 194-199",
+    "deployment_state": "six-round check after batches 194-199 passed; public HTTP 200 and local/public counts match at 3360 entries (3365 id fields)",
     "deployment_url": "https://offlabel-pool-e2my2atta-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-07",
     "local_entry_count": 3360,
-    "public_entry_count": 3307,
-    "public_id_field_count": 3312,
-    "counts_match": false,
-    "latest_note": "Batch 199 local build passed with 3360 entries; public remains 3307 until the six-round deployment check after batches 194-199. The previous six-round prebuilt deployment was required because Git-triggered builds could not access C:\\dev\\kr-drug-data/permit/manifest.json.",
+    "public_entry_count": 3360,
+    "public_id_field_count": 3365,
+    "counts_match": true,
+    "latest_note": "Six-round check after batches 194-199 passed: public HTTP 200 and 3360 public entry objects match the 3360-entry local build; the five extra id fields are page metadata. Automatic Git deployment succeeded for this batch.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
   "last_batch": [
@@ -78,7 +80,8 @@
     "batch 199 processed 30 topics; added 16 evidence entries; closed 5 duplicate topics and 10 no-evidence topics; skipped 0 approved indications; 6 unchecked topics remain",
     "batch 199 added sleep-hygiene-migraine-pos, sleep-hygiene-fatigue-pos, guided-imagery-pregnancy-open, progressive-muscle-relaxation-hemodialysis-pos, progressive-muscle-relaxation-multiple-sclerosis-pos, wheelchair-skills-training-cerebral-palsy-open, robot-assisted-therapy-osteoarthritis-pos, robot-assisted-therapy-hemiplegic-gait-open, robot-assisted-therapy-parkinson-disease-open, social-support-intervention-obesity-open, olive-oil-cognitive-decline-open, olive-oil-hypercholesterolemia-pos, olive-oil-inflammation-pos, propolis-diabetes-mellitus-pos, propolis-dentin-caries-pos, and beetroot-juice-peripheral-artery-disease-open",
     "batch 199 edited 20 legacy sentences from dapagliflozin-coronary-artery-disease-pos through depression-itself-autism; numbers and effect fields were preserved",
-    "batch 199 build passed after shortening all new line and effect fields; four new truthful thin-study warnings remain; local build is 3360 and public remains 3307 before the six-round deployment check"
+    "batch 199 build passed after shortening all new line and effect fields; four new truthful thin-study warnings remain; local build is 3360 and public remains 3307 before the six-round deployment check",
+    "six-round check after batches 194-199: no-effect/harm share 24%, harm 103, non-trial 436, unexpected-benefit entries 22; public HTTP 200 and local/public counts match at 3360 entries (3365 id fields) after automatic Git deployment"
   ],
   "expansion": {
     "date": "2026-08-07",
@@ -289,7 +292,7 @@
     "expansion_checkpoint": "batch 186 expansion: first valid 20-name attempt added 8 candidates; second different 20-name attempt added 7 candidates from food and bread names; all 15 topics were processed and 0 unchecked topics remain"
   },
   "resume": {
-    "last_committed_batch": "batch 193: 9 evidence entries added; 13 duplicate topics, 3 result-less registered topics, 6 no-evidence topics, and 20 legacy sentence edits completed; 31 unchecked topics remain",
+    "last_committed_batch": "batch 199: 16 evidence entries added; 5 duplicate topics, 10 no-evidence topics, and 20 legacy sentence edits completed; six-round check passed at 3360 public/local entries; 6 unchecked topics remain",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -604,6 +607,6 @@
     "batch 188: 5 evidence entries added; 2 no-evidence topics closed; 0 approved indications skipped; 20 legacy sentences edited; 0 unchecked topics remain",
     "batch 188 build passed after all new line warnings were fixed; two truthful thin-study and one truthful unknown-n warning remain; local build is 3234 while public remains 3229 until the six-round deployment check after batches 188-193"
   ],
-  "current_batch": "batch 199 completed; 16 evidence entries, 5 duplicate topics, 10 no-evidence topics, and 20 legacy sentences edited; local build has 3360 entries, public remains 3307, and 6 unchecked topics remain",
-  "next_action": "commit and push batch 199, perform the six-round check after batches 194-199, deploy the local build if public/local counts differ, update logs/state.json, then process the 6 remaining topics"
+  "current_batch": "batch 199 completed; 16 evidence entries, 5 duplicate topics, 10 no-evidence topics, and 20 legacy sentences edited; six-round check passed with local/public counts at 3360; 6 unchecked topics remain",
+  "next_action": "commit and push the six-round state update, then start batch 200 with git pull --ff-only and read AGENTS.md; process the 6 remaining topics and commit/push"
 }
