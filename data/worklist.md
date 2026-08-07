@@ -15138,3 +15138,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep education app — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 중복(sleep-app-chronic-pain-pos, 2026-08-08)
 - [x] sleep education app — Cancer에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 중복(sleep-app-cancer-null, 2026-08-08)
 - [x] sleep education app — Stress에 듣는다  <!-- 시험 3건 · 논문 104편 --> — 중복(sleep-app-stress-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] music reminiscence — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(2026-08-08)
+- [x] lentil — Obesity에 듣는다  <!-- 시험 5건 · 논문 72편 --> — 항목 생성(2026-08-08)
