@@ -1,0 +1,29 @@
+{
+  "id": "mavrilimumab-rheumatoid-arthritis-pos",
+  "subj": "mavrilimumab",
+  "claim": "류마티스관절염에 mavrilimumab를 쓴다",
+  "line": "류마티스관절염에서 해당 항체의 치료 반응이 장기간 유지됐습니다",
+  "effect": "DAS28 저활성 65.0%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 442,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "mavrilimumab은 사람용 허가 적응증을 확인하지 못한 시험 약물입니다",
+  "why": "GM-CSF 수용체를 막는 항체가 기존 DMARD에 반응하지 않는 류마티스관절염에서 염증 활성을 낮추는지 확인합니다.",
+  "saw": "2상 시험과 공개 연장시험에서 mavrilimumab을 받은 442명의 누적 안전성 노출은 899 환자년이었습니다. 122주에 DAS28-CRP 저활성은 65.0%, 관해는 40.6%였습니다.",
+  "limit": "대조군이 없는 장기 연장 자료가 포함됐고 폐기능 저하와 감염성 이상반응 감시가 필요합니다.",
+  "against": "새로운 허가 치료와 직접 비교한 대규모 3상 결과는 확인되지 않았습니다.",
+  "use": "표준 DMARD에 반응하지 않는 류마티스관절염의 임상시험 후보로만 검토합니다.",
+  "refs": [
+    { "label": "Burmester 2018 · mavrilimumab 류마티스관절염 장기 안전성·효능", "doi": "10.1002/art.40420", "pmid": "29361199", "pmc": "PMC5947536", "nct": "NCT01712399" },
+    { "label": "mavrilimumab 류마티스관절염 2상시험", "pmid": "28213566" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=mavrilimumab AND condition=Rheumatoid Arthritis; 4건; NCT01715896·NCT01712399 대조",
+    "pubmed": "mavrilimumab rheumatoid arthritis randomized trial; 12건; PMID29361199·PMID28213566",
+    "negative": "mavrilimumab rheumatoid arthritis AND (no effect OR failed OR negative); 직접 반대 결과 대조",
+    "safety": "mavrilimumab rheumatoid arthritis AND (adverse OR pulmonary OR infection); 폐기능·감염 안전성 대조"
+  }
+}

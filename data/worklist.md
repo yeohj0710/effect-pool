@@ -15802,3 +15802,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] financial planning education — Impaired Driving에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 근거 없음(2026-08-08, PubMed: financial planning education AND impaired driving; ClinicalTrials.gov: NCT05469477 금융 인센티브로 중재명 불일치)
 - [x] ibrexafungerp — Candida Infection에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 항목(ibrexafungerp-candida-infection-open, 2026-08-08)
 - [x] avacopan — ANCA-Associated Vasculitis에 듣는다  <!-- 시험 3건 · 논문 245편 --> — 허가 적응증(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mavrilimumab — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 30편 --> — 항목(mavrilimumab-rheumatoid-arthritis-pos, 2026-08-08)
+- [x] mavrilimumab — Pneumonia에 듣는다  <!-- 시험 4건 · 논문 8편 --> — 항목(mavrilimumab-pneumonia-null, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] brexanolone — PTSD에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-08, PubMed: brexanolone PTSD; ClinicalTrials.gov: NCT05254405·NCT05223829 결과 논문 미확인)
+- [x] dolutegravir — HTLV-1 Infection에 듣는다  <!-- 시험 36건 · 논문 8편 --> — 항목(dolutegravir-htlv-1-infection-pos, 2026-08-08)
+- [x] dolutegravir — Tuberculosis에 듣는다  <!-- 시험 11건 · 논문 182편 --> — 항목(dolutegravir-tuberculosis-pos, 2026-08-08)
+- [x] dolutegravir — Obesity에 듣는다  <!-- 시험 5건 · 논문 99편 --> — 항목(dolutegravir-obesity-harm, 2026-08-08)
+- [x] dolutegravir — Weight Gain에 듣는다  <!-- 시험 4건 · 논문 261편 --> — 항목(dolutegravir-weight-gain-harm, 2026-08-08)
