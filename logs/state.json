@@ -320,7 +320,7 @@
     "expansion_checkpoint": "batch 206 expansion: first 20-name attempt added 2 candidates; second different 20-name attempt added 0; both attempts used non-drug, behavior, and food names; 2 topics were processed and 0 unchecked topics remain"
   },
   "resume": {
-    "last_committed_batch": "batch 205: 3 evidence entries added; 5 duplicate topics, 3 no-evidence topics, and 20 legacy sentence edits completed; pushed as a27b480; six-round deployment check matched local/public counts at 3405",
+    "last_committed_batch": "batch 206: 2 evidence entries added; 0 duplicate topics, 0 no-evidence topics, and 20 legacy sentence edits completed; pushed as 3148bd8; local build 3407 and public remains 3405 until the six-round check after batch 211",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -635,6 +635,6 @@
     "batch 188: 5 evidence entries added; 2 no-evidence topics closed; 0 approved indications skipped; 20 legacy sentences edited; 0 unchecked topics remain",
     "batch 188 build passed after all new line warnings were fixed; two truthful thin-study and one truthful unknown-n warning remain; local build is 3234 while public remains 3229 until the six-round deployment check after batches 188-193"
   ],
-  "current_batch": "batch 206 completed locally; 2 evidence entries, 0 duplicate topics, 0 no-evidence topics, and 20 legacy sentences edited; local build 3407; 0 unchecked topics remain",
-  "next_action": "commit and push batch 206, then start batch 207 immediately; six-round deployment check is due after batch 211"
+  "current_batch": "batch 206 completed and pushed as 3148bd8; 2 evidence entries, 0 duplicate topics, 0 no-evidence topics, and 20 legacy sentences edited; local build 3407; 0 unchecked topics remain",
+  "next_action": "start batch 207 immediately; git pull --ff-only, read AGENTS.md, expand 20 new non-oncology names with at least 5 non-drug options, process up to 30 topics, build, commit, push, and checkpoint state; six-round deployment check is due after batch 211"
 }
