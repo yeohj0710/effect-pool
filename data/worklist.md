@@ -13771,3 +13771,55 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] family caregiver training — Cancer에 듣는다  <!-- 시험 6건 · 논문 4232편 --> — 근거 없음(2026-08-06 조회, "family caregiver training" AND "Cancer")
 - [x] family caregiver training — Childhood Obesity에 듣는다  <!-- 시험 4건 · 논문 400편 -->
 - [x] family caregiver training — Stroke에 듣는다  <!-- 시험 4건 · 논문 1257편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] zilebesiran — High Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] peer support worker — HIV에 듣는다  <!-- 시험 13건 · 논문 991편 --> — 근거 없음(2026-08-06 조회, "peer support worker" AND "HIV")
+- [x] peer support worker — Stress에 듣는다  <!-- 시험 10건 · 논문 1343편 --> — 근거 없음(2026-08-06 조회, "peer support worker" AND "Stress")
+- [x] peer support worker — Cancer에 듣는다  <!-- 시험 9건 · 논문 835편 --> — 근거 없음(2026-08-06 조회, "peer support worker" AND "Cancer")
+- [x] peer support worker — Diabetes에 듣는다  <!-- 시험 7건 · 논문 310편 -->
+- [x] online health coaching — Anxiety에 듣는다  <!-- 시험 8건 · 논문 208편 --> — 근거 없음(2026-08-06 조회, "online health coaching" AND "Anxiety")
+- [x] online health coaching — Mental Health에 듣는다  <!-- 시험 7건 · 논문 516편 --> — 근거 없음(2026-08-06 조회, "online health coaching" AND "Mental Health")
+- [x] online health coaching — Stress에 듣는다  <!-- 시험 5건 · 논문 254편 --> — 근거 없음(2026-08-06 조회, "online health coaching" AND "Stress")
+- [x] online health coaching — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 39편 --> — 근거 없음(2026-08-06 조회, "online health coaching" AND "Chronic Pain")
+- [x] remote behavioral counseling — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 209편 --> — 근거 없음(2026-08-06 조회, "remote behavioral counseling" AND "Cardiovascular Disease")
+- [x] digital physical therapy — Pain에 듣는다  <!-- 시험 24건 · 논문 2375편 -->
+- [x] digital physical therapy — Cognitive Decline에 듣는다  <!-- 시험 12건 · 논문 143편 --> — 근거 없음(2026-08-06 조회, "digital physical therapy" AND "Cognitive Decline")
+- [x] digital physical therapy — Mental Health에 듣는다  <!-- 시험 11건 · 논문 921편 --> — 근거 없음(2026-08-06 조회, "digital physical therapy" AND "Mental Health")
+- [x] digital physical therapy — Colon Carcinoma에 듣는다  <!-- 시험 11건 · 논문 20편 --> — 근거 없음(2026-08-06 조회, "digital physical therapy" AND "Colon Carcinoma")
+- [x] virtual physiotherapy — Pain에 듣는다  <!-- 시험 42건 · 논문 575편 --> — 근거 없음(2026-08-06 조회, "virtual physiotherapy" AND "Pain")
+- [x] virtual physiotherapy — Parkinson Disease에 듣는다  <!-- 시험 20건 · 논문 165편 -->
+- [x] virtual physiotherapy — OA Knee에 듣는다  <!-- 시험 15건 · 논문 25편 -->
+- [x] virtual physiotherapy — Physical Health에 듣는다  <!-- 시험 14건 · 논문 1293편 --> — 근거 없음(2026-08-06 조회, "virtual physiotherapy" AND "Physical Health")
+- [x] home rehabilitation coaching — COPD에 듣는다  <!-- 시험 6건 · 논문 36편 -->
+- [x] home rehabilitation coaching — Stroke에 듣는다  <!-- 시험 3건 · 논문 62편 -->
+- [x] community exercise program — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 167편 --> — 근거 없음(2026-08-06 조회, "community exercise program" AND "Heart Failure")
+- [x] community exercise program — Obesity에 듣는다  <!-- 시험 4건 · 논문 2461편 --> — 근거 없음(2026-08-06 조회, "community exercise program" AND "Obesity")
+- [x] community exercise program — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 386편 -->
+- [x] community exercise program — Physical Function에 듣는다  <!-- 시험 3건 · 논문 5240편 -->
+- [x] nutrition education group — Cancer에 듣는다  <!-- 시험 32건 · 논문 4484편 --> — 근거 없음(2026-08-06 조회, "nutrition education group" AND "Cancer")
+- [x] nutrition education group — Diabetes에 듣는다  <!-- 시험 19건 · 논문 6277편 --> — 근거 없음(2026-08-06 조회, "nutrition education group" AND "Diabetes")
+- [x] nutrition education group — Weight에 듣는다  <!-- 시험 11건 · 논문 13702편 --> — 근거 없음(2026-08-06 조회, "nutrition education group" AND "Weight")
+- [x] nutrition education group — Cognitive Function에 듣는다  <!-- 시험 10건 · 논문 1593편 -->
+- [x] caregiver skills workshop — Depression에 듣는다  <!-- 시험 3건 · 논문 378편 -->
+- [x] virtual pain education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 214편 -->
+- [ ] virtual pain education — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 22편 -->
+- [ ] virtual pain education — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 15편 -->
