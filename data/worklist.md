@@ -13160,3 +13160,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] riociguat — CTEPH에 듣는다  <!-- 시험 3건 · 논문 209편 --> — 허가 적응증(2026-08-06)
 - [x] riociguat — Ventricular Dysfunction, Left에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] riociguat — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 38편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] parent management training — Child Abuse에 듣는다  <!-- 시험 16건 · 논문 875편 -->
+- [x] parent management training — Autism에 듣는다  <!-- 시험 14건 · 논문 761편 -->
+- [x] parent management training — Emotional Problem에 듣는다  <!-- 시험 14건 · 논문 802편 -->
+- [x] parent management training — ADHD에 듣는다  <!-- 시험 12건 · 논문 729편 -->
+- [x] positive affect training — Anxiety에 듣는다  <!-- 시험 5건 · 논문 2974편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov positive affect training AND Anxiety; PubMed positive affect training AND Anxiety)
+- [x] positive affect training — Anhedonia에 듣는다  <!-- 시험 4건 · 논문 89편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov positive affect training AND Anhedonia; PubMed positive affect training AND Anhedonia)
+- [x] positive affect training — Psychological Stress에 듣는다  <!-- 시험 3건 · 논문 2159편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov positive affect training AND Psychological Stress; PubMed positive affect training AND Psychological Stress)
+- [x] positive affect training — Affect에 듣는다  <!-- 시험 3건 · 논문 40536편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov positive affect training AND Affect; PubMed positive affect training AND Affect)
+- [x] behavioral activation for depression — Depressive Symptoms에 듣는다  <!-- 시험 37건 · 논문 76989편 -->
+- [x] behavioral activation for depression — Anxiety에 듣는다  <!-- 시험 17건 · 논문 26940편 -->
+- [x] behavioral activation for depression — Cancer에 듣는다  <!-- 시험 10건 · 논문 4882편 -->
+- [x] behavioral activation for depression — Stress에 듣는다  <!-- 시험 8건 · 논문 21220편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral activation for depression AND Stress; PubMed behavioral activation for depression AND Stress)
+- [x] trauma-informed care — Domestic Violence에 듣는다  <!-- 시험 4건 · 논문 338편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov trauma-informed care AND Domestic Violence; PubMed trauma-informed care AND Domestic Violence)
+- [x] trauma-informed care — Stress, Psychologic에 듣는다  <!-- 시험 3건 · 논문 479편 -->
+- [x] elinzanetant — Hot Flashes에 듣는다  <!-- 시험 12건 · 논문 38편 --> — 허가 적응증(2026-08-06)
+- [x] mirikizumab — Crohn Disease에 듣는다  <!-- 시험 14건 · 논문 88편 -->
+- [x] mirikizumab — Psoriasis에 듣는다  <!-- 시험 6건 · 논문 32편 -->
