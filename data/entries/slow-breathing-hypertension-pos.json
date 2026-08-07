@@ -1,0 +1,28 @@
+{
+  "id": "slow-breathing-hypertension-pos",
+  "subj": "slow breathing",
+  "claim": "고혈압의 혈압을 느린 호흡으로 낮추는가",
+  "line": "호흡 운동이 고혈압 환자의 수축기·이완기 혈압을 낮췄습니다.",
+  "effect": "수축기·이완기 혈압 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "느린 호흡은 약물이 아닌 호흡 행동 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "고혈압 환자의 호흡 운동 무작위시험 15편을 종합한 체계적 문헌고찰·메타분석입니다.",
+  "saw": "호흡 운동 뒤 수축기 혈압은 평균 7.06 mmHg, 이완기 혈압은 3.43 mmHg, 심박수는 분당 2.41회 낮아졌습니다.",
+  "limit": "호흡 방식과 시험의 질이 달랐고 메타분석 초록에 전체 참가자 수가 제시되지 않았습니다.",
+  "against": "느린 호흡이 고혈압 약물이나 생활습관 치료를 대신한다고 볼 수 없습니다.",
+  "use": "고혈압 관리에서 약물·운동과 함께 사용할 수 있는 호흡 보조법으로 검토합니다.",
+  "refs": [
+    { "label": "호흡 운동과 혈압 메타분석", "doi": "10.1016/j.ijcrp.2023.200232", "pmid": "38179185", "pmc": "PMC10765252" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "slow breathing AND Hypertension — 37건 반환, 중재명 직접 일치 3건",
+    "pubmed": "\"slow breathing\" AND \"Hypertension\" — 80건, 시험·코호트 등 46건",
+    "negative": "\"slow breathing\" AND \"Hypertension\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 62건",
+    "safety": "\"slow breathing\" AND (adverse OR toxicity OR case report OR harm) — 30건"
+  }
+}
