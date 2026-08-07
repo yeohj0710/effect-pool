@@ -30,17 +30,17 @@
     "thin_warnings": 621
   },
   "deployment": {
-    "last_entry_count": 3643,
+    "last_entry_count": 3698,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_7uX3G8PJyiahYCTuXo5Cu6Yj4uhj",
-    "deployment_state": "batch 241 local build has 3698 entries; public last verified at 3643 until the six-round deployment check",
+    "deployment_state": "batch 241 six-round check: public HTTP 200 and 3698 entries match the local build; Git automatic deployment succeeded, so vercel --prod was not needed",
     "deployment_url": "https://offlabel-pool-fcmz17v16-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
     "local_entry_count": 3698,
-    "public_entry_count": 3643,
-    "public_id_field_count": 3648,
-    "counts_match": false,
-    "latest_note": "Batch 241 local build: 3698 entries and 5275 refs; public remains 3643 until the six-round deployment check.",
+    "public_entry_count": 3698,
+    "public_id_field_count": 3703,
+    "counts_match": true,
+    "latest_note": "Batch 241 six-round check: public HTTP 200, 3698 entries, and 5275 local refs; public entry IDs matched local output.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
   "last_batch": [
@@ -782,8 +782,9 @@
     "batch 241 processed 19 topics; added 13 evidence entries; closed 4 topics as no-evidence; skipped 2 approved indications; 2 oncology topics remain unchecked",
     "batch 241 added cocoa-diabetes-null, cocoa-oxidative-stress-pos, cocoa-nonalcoholic-fatty-liver-disease-pos, allopurinol-renal-stones-pos, allopurinol-coronary-artery-disease-null, aliskiren-diabetes-harm, aliskiren-heart-failure-null, aliskiren-kidney-disease-harm, amlodipine-stroke-pos, amlodipine-cardiovascular-events-pos, atenolol-coronary-disease-null, atenolol-cardiac-disease-null, and atenolol-migraine-pos",
     "batch 241 marked cocoa Platelet Dysfunction, allopurinol Obesity, amlodipine Graft Failure, and amlodipine Dyslipidemias as no-evidence; atenolol Angina and clomipramine Obsessive Compulsive Disorder were skipped as approved indications",
-    "batch 241 build passed after replacing English drug names in new display lines; three truthful thin-study warnings remain for the 19-person cocoa studies and 28-person atenolol study; local build is 3698 and public remains 3643 until the six-round deployment check"
+    "batch 241 build passed after replacing English drug names in new display lines; three truthful thin-study warnings remain for the 19-person cocoa studies and 28-person atenolol study; local build is 3698 and public remains 3643 until the six-round deployment check",
+    "six-round check after batches 236-241: no-effect/harm share 24%, harm 114, non-trial 486, unexpected-benefit entries 23; public HTTP 200 and local/public counts match at 3698 entries (3703 id fields) after Git automatic deployment"
   ],
-  "current_batch": "batch 241 complete locally; 13 evidence entries, 4 no-evidence topics, 2 approved indications, and 2 oncology topics remain; local build 3698; public last verified 3643",
-  "next_action": "commit and push batch 241; perform the six-round public count check and deploy with vercel --prod if public is stale; then start batch 242"
+  "current_batch": "batch 241 complete and publicly matched; 13 evidence entries, 4 no-evidence topics, 2 approved indications, and 2 oncology topics remain; local/public build 3698",
+  "next_action": "start batch 242; first run git pull --ff-only and read AGENTS.md, then rotate away from the two oncology leftovers when expanding the worklist"
 }
