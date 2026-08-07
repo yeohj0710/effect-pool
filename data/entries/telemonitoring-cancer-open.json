@@ -1,0 +1,28 @@
+{
+  "id": "telemonitoring-cancer-open",
+  "subj": "telemonitoring",
+  "claim": "암 진료의 원격 모니터링은 증상을 일찍 찾고 소통을 정리할 가능성이 있다",
+  "line": "암 진료에 원격 모니터링",
+  "effect": "증상 조기 발견 신호",
+  "tier": "obs",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "원격 모니터링은 의약품이 아닌 디지털 진료 중재다",
+  "why": "성인 암 진료에 쓰인 디지털 건강기술의 임상 기능과 실행 근거를 범위 문헌고찰로 정리했다.",
+  "saw": "41개 연구를 검토했다. 환자보고 결과·원격진료·원격 모니터링이 증상 감시, 소통, 추적 관리에 쓰였고 증상 조기 발견과 환자 안심이 보고됐다.",
+  "limit": "조직·관리 인력을 포함한 연구는 3건뿐이었고 디지털 문해력, 참여 감소, 경보 부담, 상호운용성 문제가 남았다.",
+  "against": "암 환자의 생존이나 치료 성적을 개선한다는 비교시험 근거는 이 범위 고찰에서 확정되지 않았다.",
+  "use": "암 원격 모니터링을 도입할 때 증상 경보, 진료 업무량, 디지털 접근성, 다른 시스템과의 연동을 함께 평가한다.",
+  "refs": [
+    { "label": "Digital Health Technologies in Oncology Services: A Scoping Review of Clinical Implementation, Organisational Evidence Gaps, and Policy Implications 2026 · Journal of Cancer Policy", "doi": "10.1016/j.jcpo.2026.100789", "pmid": "42537844" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=telemonitoring AND condition=Cancer; 37건 반환, 중재명 일치 9건",
+    "pubmed": "telemonitoring AND Cancer; 153건",
+    "negative": "telemonitoring AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 82건",
+    "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 42건"
+  }
+}

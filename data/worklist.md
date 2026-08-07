@@ -13548,22 +13548,61 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] text message reminders — HIV에 듣는다  <!-- 시험 23건 · 논문 291편 --> — 근거 항목 추가(2026-08-06)
 - [x] text message reminders — Colon Cancer에 듣는다  <!-- 시험 23건 · 논문 12편 --> — 근거 항목 추가(2026-08-06)
 - [x] text message reminders — Diabetes에 듣는다  <!-- 시험 15건 · 논문 180편 --> — 근거 없음(2026-08-06, "text message reminders" AND "Diabetes")
-- [ ] text message reminders — Child Health에 듣는다  <!-- 시험 14건 · 논문 321편 -->
-- [ ] nurse-led education — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 150편 -->
-- [ ] nurse-led education — Type 2 Diabetes에 듣는다  <!-- 시험 9건 · 논문 123편 -->
-- [ ] nurse-led education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 215편 -->
-- [ ] nurse-led education — School Health에 듣는다  <!-- 시험 6건 · 논문 2200편 -->
-- [ ] home-based exercise program — Knee OA에 듣는다  <!-- 시험 13건 · 논문 72편 -->
-- [ ] home-based exercise program — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 216편 -->
-- [ ] home-based exercise program — Physical Fitness에 듣는다  <!-- 시험 5건 · 논문 577편 -->
-- [ ] home-based exercise program — Exercise에 듣는다  <!-- 시험 5건 · 논문 4344편 -->
-- [ ] food pharmacy — Obesity에 듣는다  <!-- 시험 3건 · 논문 4161편 -->
-- [ ] social prescribing — Depression에 듣는다  <!-- 시험 3건 · 논문 443편 -->
-- [ ] caregiver training — Dementia에 듣는다  <!-- 시험 9건 · 논문 5654편 -->
-- [ ] caregiver training — Cancer에 듣는다  <!-- 시험 9건 · 논문 4664편 -->
-- [ ] sleep education — Stress에 듣는다  <!-- 시험 10건 · 논문 6295편 -->
-- [ ] sleep education — Motor Activity에 듣는다  <!-- 시험 9건 · 논문 3390편 -->
-- [ ] sleep education — Infant Health에 듣는다  <!-- 시험 9건 · 논문 1819편 -->
-- [ ] sleep education — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 528편 -->
-- [ ] inclisiran — Mixed Dyslipidemia에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] inclisiran — Hypercholesterolaemia에 듣는다  <!-- 시험 3건 · 논문 290편 -->
+- [x] text message reminders — Child Health에 듣는다  <!-- 시험 14건 · 논문 321편 --> — 근거 항목 추가(2026-08-06)
+- [x] nurse-led education — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 150편 --> — 근거 항목 추가(2026-08-06)
+- [x] nurse-led education — Type 2 Diabetes에 듣는다  <!-- 시험 9건 · 논문 123편 --> — 근거 항목 추가(2026-08-06)
+- [x] nurse-led education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 215편 --> — 근거 항목 추가(2026-08-06)
+- [x] nurse-led education — School Health에 듣는다  <!-- 시험 6건 · 논문 2200편 --> — 근거 없음(2026-08-06, "nurse-led education" AND "School Health")
+- [x] home-based exercise program — Knee OA에 듣는다  <!-- 시험 13건 · 논문 72편 --> — 근거 항목 추가(2026-08-06)
+- [x] home-based exercise program — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 216편 --> — 근거 항목 추가(2026-08-06)
+- [x] home-based exercise program — Physical Fitness에 듣는다  <!-- 시험 5건 · 논문 577편 --> — 근거 없음(2026-08-06, "home-based exercise program" AND "Physical Fitness")
+- [x] home-based exercise program — Exercise에 듣는다  <!-- 시험 5건 · 논문 4344편 --> — 근거 없음(2026-08-06, "home-based exercise program" AND "Exercise")
+- [x] food pharmacy — Obesity에 듣는다  <!-- 시험 3건 · 논문 4161편 --> — 근거 없음(2026-08-06, "food pharmacy" AND "Obesity")
+- [x] social prescribing — Depression에 듣는다  <!-- 시험 3건 · 논문 443편 --> — 근거 항목 추가(2026-08-06)
+- [x] caregiver training — Dementia에 듣는다  <!-- 시험 9건 · 논문 5654편 --> — 근거 없음(2026-08-06, "caregiver training" AND "Dementia")
+- [x] caregiver training — Cancer에 듣는다  <!-- 시험 9건 · 논문 4664편 --> — 근거 없음(2026-08-06, "caregiver training" AND "Cancer")
+- [x] sleep education — Stress에 듣는다  <!-- 시험 10건 · 논문 6295편 --> — 근거 없음(2026-08-06, "sleep education" AND "Stress")
+- [x] sleep education — Motor Activity에 듣는다  <!-- 시험 9건 · 논문 3390편 --> — 근거 없음(2026-08-06, "sleep education" AND "Motor Activity")
+- [x] sleep education — Infant Health에 듣는다  <!-- 시험 9건 · 논문 1819편 --> — 근거 항목 추가(2026-08-06)
+- [x] sleep education — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 528편 --> — 근거 없음(2026-08-06, "sleep education" AND "Heart Failure")
+- [x] inclisiran — Mixed Dyslipidemia에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-06, "inclisiran" AND "Mixed Dyslipidemia")
+- [x] inclisiran — Hypercholesterolaemia에 듣는다  <!-- 시험 3건 · 논문 290편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] telemonitoring — Cancer에 듣는다  <!-- 시험 45건 · 논문 153편 --> — 근거 항목 추가(2026-08-06)
+- [x] telemonitoring — Diabetes에 듣는다  <!-- 시험 23건 · 논문 412편 --> — 근거 항목 추가(2026-08-06)
+- [x] telemonitoring — Sleep Apnea에 듣는다  <!-- 시험 22건 · 논문 160편 --> — 근거 항목 추가(2026-08-06)
+- [x] telemonitoring — Hypertension에 듣는다  <!-- 시험 18건 · 논문 454편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital peer support — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 91편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital peer support — Activation, Patient에 듣는다  <!-- 시험 3건 · 논문 203편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital peer support — HIV에 듣는다  <!-- 시험 3건 · 논문 154편 --> — 근거 항목 추가(2026-08-06)
+- [x] online psychoeducation — Depression에 듣는다  <!-- 시험 18건 · 논문 407편 --> — 근거 없음(2026-08-06, "online psychoeducation" AND "Depression")
+- [x] online psychoeducation — Stress에 듣는다  <!-- 시험 11건 · 논문 296편 --> — 근거 항목 추가(2026-08-06)
+- [x] online psychoeducation — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 61편 --> — 근거 없음(2026-08-06, "online psychoeducation" AND "Cognitive Symptom")
+- [x] online psychoeducation — Emotional Disorder에 듣는다  <!-- 시험 7건 · 논문 197편 --> — 근거 항목 추가(2026-08-06)
+- [ ] home-based rehabilitation — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 396편 -->
+- [ ] home-based rehabilitation — Cancer에 듣는다  <!-- 시험 9건 · 논문 879편 -->
+- [ ] home-based rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 8건 · 논문 896편 -->
+- [ ] home-based rehabilitation — Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 297편 -->
+- [ ] virtual group visit — Pain에 듣는다  <!-- 시험 10건 · 논문 115편 -->
+- [ ] virtual group visit — Cardiac Event에 듣는다  <!-- 시험 5건 · 논문 71편 -->
+- [ ] mindfulness-based stress reduction — Depressive에 듣는다  <!-- 시험 16건 · 논문 928편 -->
+- [ ] mindfulness-based stress reduction — Mindfulness에 듣는다  <!-- 시험 13건 · 논문 2377편 -->
+- [ ] mindfulness-based stress reduction — Mental Health에 듣는다  <!-- 시험 12건 · 논문 723편 -->
+- [ ] health literacy intervention — Depression에 듣는다  <!-- 시험 10건 · 논문 1996편 -->
+- [ ] health literacy intervention — Cognitive Change에 듣는다  <!-- 시험 9건 · 논문 562편 -->
+- [ ] health literacy intervention — Distress, Emotional에 듣는다  <!-- 시험 9건 · 논문 494편 -->
+- [ ] health literacy intervention — Heart Disease에 듣는다  <!-- 시험 7건 · 논문 986편 -->
+- [ ] exercise referral — Peripheral Artery Disease에 듣는다  <!-- 시험 8건 · 논문 93편 -->
+- [ ] exercise referral — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 164편 -->
+- [ ] exercise referral — ILD에 듣는다  <!-- 시험 6건 · 논문 17편 -->
+- [ ] givinostat — Polycythemia Vera에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [ ] givinostat — Drug Drug Interaction에 듣는다  <!-- 시험 3건 · 논문 13편 -->

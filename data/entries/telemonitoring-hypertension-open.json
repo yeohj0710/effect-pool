@@ -1,0 +1,28 @@
+{
+  "id": "telemonitoring-hypertension-open",
+  "subj": "telemonitoring",
+  "claim": "가정 혈압 원격 모니터링은 인종별 심장·신장 손상 양상을 드러낼 수 있다",
+  "line": "고위험 고혈압에 가정 혈압 감시",
+  "effect": "심장·신장 손상 양상 구분",
+  "tier": "obs",
+  "dir": "open",
+  "n": 441,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가정 혈압 원격 모니터링은 의약품이 아닌 측정 중재다",
+  "why": "고위험 무증상 환자가 가정 혈압을 원격으로 측정한 국제 연구에서 혈압과 심장·신장 표적장기 손상의 관계를 분석했다.",
+  "saw": "심초음파를 받은 흑인 287명과 백인 154명을 분석했다. 흑인은 혈압과 무관하게 만성콩팥병 등급이 더 나빴고, 백인은 수축기 혈압과 심장 구조 지표의 관계가 더 가팔랐다.",
+  "limit": "진행 중인 관찰 연구의 일부 분석이고 인종별 치료와 기저 위험이 달랐다. 원격 측정이 손상을 줄이는지는 평가하지 않았다.",
+  "against": "가정 혈압 감시만으로 심장·신장 손상을 예방한다고 말할 수 없다.",
+  "use": "고위험 고혈압 환자의 가정 혈압을 관리할 때 혈압 수치뿐 아니라 인종별 심장·신장 위험을 함께 평가한다.",
+  "refs": [
+    { "label": "Home Blood Pressure Telemonitoring Reveals Race-Specific Patterns of Target Organ Damage 2026 · Journal of Hypertension", "doi": "10.1097/HJH.0000000000004390", "pmid": "42474350" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=telemonitoring AND condition=Hypertension; 59건 반환, 중재명 일치 17건",
+    "pubmed": "telemonitoring AND Hypertension; 454건",
+    "negative": "telemonitoring AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference); 262건",
+    "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 49건"
+  }
+}

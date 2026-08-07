@@ -1,0 +1,28 @@
+{
+  "id": "nurse-led-education-heart-failure-pos",
+  "subj": "nurse-led education",
+  "claim": "퇴원 뒤 간호사의 기술 기반 교육은 심부전 자기관리를 개선할 수 있다",
+  "line": "심부전 퇴원 뒤 간호사 기술 지원",
+  "effect": "자기관리 효과크기 0.80~0.97",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 952,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "간호사 교육은 의약품이 아닌 돌봄 중재다",
+  "why": "퇴원한 심부전 환자에게 간호사가 전화·앱으로 교육하고 증상을 추적하는 무작위시험들을 체계적으로 합쳤다.",
+  "saw": "무작위시험 9건, 952명을 합쳤다. 자기관리 유지·관리·자신감이 모두 좋아졌고 표준화 효과크기는 각각 0.97, 0.84, 0.80이었다.",
+  "limit": "결과별 이질성이 I² 82~90%로 높았고 추적 기간·기술·진료 환경이 서로 달랐다.",
+  "against": "재입원과 사망 같은 환자 중심 결과를 일관되게 줄이는지는 이 분석만으로 확정하기 어렵다.",
+  "use": "심부전 퇴원 관리에 간호사 전화나 앱을 붙일 때 자기관리 지표와 재입원을 함께 추적한다.",
+  "refs": [
+    { "label": "Nurse-Led, Technology-Based Interventions to Improve Self-Care in Heart Failure Patients After Hospital Discharge 2026 · European Journal of Cardiovascular Nursing", "doi": "10.1093/eurjcn/zvag159", "pmid": "42375020" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=nurse-led education AND condition=Heart Failure; 32건 반환, 중재명 일치 0건",
+    "pubmed": "nurse-led education AND Heart Failure; 150건",
+    "negative": "nurse-led education AND Heart Failure AND (no effect OR did not OR failed to OR negative OR no significant difference); 103건",
+    "safety": "nurse-led education AND (adverse OR toxicity OR case report OR harm OR dropout); 15건"
+  }
+}
