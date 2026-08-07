@@ -1,0 +1,29 @@
+{
+  "id": "peer-support-intervention-depression-pos",
+  "subj": "peer support intervention",
+  "claim": "주산기 동료 지지가 우울 증상을 줄인다",
+  "line": "주산기 동료 지지 메타분석에서 우울 증상이 줄었습니다",
+  "effect": "우울 SMD −0.39",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3154,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "동료 지지는 비약물 중재라 허가 적응증 분류를 적용하지 않습니다.",
+  "why": "주산기 우울증을 대상으로 한 무작위시험 16개와 참가자 3,154명을 종합한 메타분석입니다.",
+  "saw": "동료 지지군의 우울 효과크기는 대조군보다 SMD −0.39였고 대면·전화·인터넷 방식 모두 신호가 있었습니다.",
+  "limit": "연구 간 이질성이 I² 78%로 높고 중재 빈도·기간·형식이 달랐습니다.",
+  "against": "동료 지지가 중증 산후우울증이나 자살위험의 전문치료를 대신한다는 근거는 아닙니다.",
+  "use": "주산기 우울 예방·지원에서 동료 지지를 보조 선택지로 검토하되 위험도 평가와 전문치료를 병행합니다.",
+  "refs": [
+    { "label": "주산기 동료 지지 16개 연구 메타분석", "doi": "10.1016/j.genhosppsych.2021.12.001", "pmid": "34942447" },
+    { "label": "주산기 우울 동료 지지 체계적 문헌고찰", "doi": "10.1016/j.jad.2020.06.048", "pmid": "32738663" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "peer support intervention AND Depression · 151건 반환, InterventionName 일치 0건",
+    "pubmed": "\"peer support intervention\" AND \"Depression\" · 75건",
+    "negative": "\"peer support intervention\" AND \"Depression\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 21건",
+    "safety": "\"peer support intervention\" AND (adverse OR toxicity OR harm OR \"case report\" OR overdose) · 29건"
+  }
+}

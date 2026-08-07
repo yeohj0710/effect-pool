@@ -14243,3 +14243,44 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] imlifidase — Kidney Transplant Rejection에 듣는다  <!-- 시험 4건 · 논문 51편 -->
 - [x] imlifidase — Anti-Glomerular Basement Membrane Disease에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 - [x] emapalumab — Graft Failure에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] behavioral sleep medicine — Alcohol Abuse에 듣는다  <!-- 시험 8건 · 논문 166편 --> — 근거 없음(2026-08-07 조회, "behavioral sleep medicine" AND "Alcohol Abuse")
+- [x] behavioral sleep medicine — Anxiety에 듣는다  <!-- 시험 7건 · 논문 2650편 --> — 근거 없음(2026-08-07 조회, "behavioral sleep medicine" AND "Anxiety")
+- [x] behavioral sleep medicine — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 107편 --> — 근거 없음(2026-08-07 조회, "behavioral sleep medicine" AND "Heart Failure")
+- [x] behavioral sleep medicine — Stress Disorders에 듣는다  <!-- 시험 4건 · 논문 1372편 --> — 근거 없음(2026-08-07 조회, "behavioral sleep medicine" AND "Stress Disorders")
+- [x] health coaching — Diabetes에 듣는다  <!-- 시험 29건 · 논문 1537편 -->
+- [x] health coaching — Weight Loss에 듣는다  <!-- 시험 12건 · 논문 807편 -->
+- [x] health coaching — HIV에 듣는다  <!-- 시험 12건 · 논문 490편 -->
+- [x] health coaching — Pain에 듣는다  <!-- 시험 11건 · 논문 1032편 -->
+- [x] peer support intervention — Social Care에 듣는다  <!-- 시험 14건 · 논문 21423편 --> — 근거 없음(2026-08-07 조회, "peer support intervention" AND "Social Care")
+- [x] peer support intervention — Cancer에 듣는다  <!-- 시험 13건 · 논문 7188편 -->
+- [x] peer support intervention — Depression에 듣는다  <!-- 시험 12건 · 논문 4743편 -->
+- [x] peer support intervention — Psychological에 듣는다  <!-- 시험 10건 · 논문 8378편 -->
+- [x] therapeutic gardening — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 20편 --> — 근거 없음(2026-08-07 조회, "therapeutic gardening" AND "Coronary Artery Disease")
+- [x] occupational therapy — Cerebral Palsy에 듣는다  <!-- 시험 16건 · 논문 1735편 -->
+- [x] occupational therapy — Brain Disease에 듣는다  <!-- 시험 12건 · 논문 10148편 --> — 근거 없음(2026-08-07 조회, "occupational therapy" AND "Brain Disease")
+- [x] occupational therapy — Hand Injuries에 듣는다  <!-- 시험 11건 · 논문 1315편 -->
+- [x] occupational therapy — Autism Spectrum Disorder에 듣는다  <!-- 시험 8건 · 논문 1459편 -->
+- [x] virtual reality relaxation — Heart Surgery에 듣는다  <!-- 시험 9건 · 논문 27편 --> — 근거 없음(2026-08-07 조회, "virtual reality relaxation" AND "Heart Surgery")
+- [x] virtual reality relaxation — Stroke에 듣는다  <!-- 시험 7건 · 논문 10편 --> — 근거 없음(2026-08-07 조회, "virtual reality relaxation" AND "Stroke")
+- [x] virtual reality relaxation — Sleep Quality에 듣는다  <!-- 시험 7건 · 논문 15편 -->
+- [x] paced breathing — Sleep에 듣는다  <!-- 시험 3건 · 논문 227편 -->
+- [x] sleep restriction therapy — Cancer에 듣는다  <!-- 시험 4건 · 논문 278편 --> — 근거 없음(2026-08-07 조회, "sleep restriction therapy" AND "Cancer")
+- [x] sleep restriction therapy — Menopause에 듣는다  <!-- 시험 3건 · 논문 29편 -->
+- [x] sleep restriction therapy — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 329편 --> — 근거 없음(2026-08-07 조회, "sleep restriction therapy" AND "Cardiovascular Disease")
+- [x] caregiver education — Advanced Cancer에 듣는다  <!-- 시험 7건 · 논문 847편 --> — 근거 없음(2026-08-07 조회, "caregiver education" AND "Advanced Cancer")
+- [x] caregiver education — Stroke에 듣는다  <!-- 시험 6건 · 논문 1292편 -->
+- [x] caregiver education — Alzheimer Disease에 듣는다  <!-- 시험 5건 · 논문 2028편 -->
+- [ ] caregiver education — Palliative Care에 듣는다  <!-- 시험 4건 · 논문 2701편 -->
+- [x] ravulizumab — Thrombotic Microangiopathy에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 4건 · 논문 102편 -->
+- [x] ravulizumab — gMG에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 3건 · 논문 37편 -->
+- [x] ravulizumab — PNH에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 3건 · 논문 174편 -->
