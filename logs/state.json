@@ -1,46 +1,46 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3519,
+  "entries": 3530,
   "worklist": {
-    "total": 12665,
-    "checked": 12665,
+    "total": 12680,
+    "checked": 12680,
     "unchecked": 0,
-    "no_evidence_pending": 1204,
+    "no_evidence_pending": 1205,
     "next_batch": []
   },
   "verification": {
-    "build": "passed; batch 219 added 6 evidence entries, closed 0 no-evidence topics, skipped 1 approved indication, and introduced 0 new actionable warnings",
+    "build": "passed; batch 220 added 11 evidence entries, closed 1 no-evidence topic, skipped 3 approved indications, and introduced 0 new actionable warnings",
     "line_warnings": 0,
     "unknown_n_warnings": 336,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3073,
+      "trial": 3084,
       "obs": 386,
       "animal": 20,
       "lab": 10,
       "case": 30
     },
-    "no_effect_or_harm": 845,
+    "no_effect_or_harm": 846,
     "harm": 105,
     "no_effect_or_harm_share": "24%",
     "non_trial": 446,
     "unexpected_benefit_entries": 23,
-    "connected_evidence": 4982,
+    "connected_evidence": 5010,
     "thin_warnings": 592
   },
   "deployment": {
     "last_entry_count": 3511,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_HFVhXoZCGBN1HG9XTtWEBJfNr1kb",
-    "deployment_state": "batch 219 local build has 3519 entries; public remains 3511 until the next six-round deployment check",
+    "deployment_state": "batch 220 local build has 3530 entries; public remains 3511 until the six-round deployment check after batch 223",
     "deployment_url": "https://offlabel-pool-cyq65rrzb-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3519,
+    "local_entry_count": 3530,
     "public_entry_count": 3511,
     "public_id_field_count": 3516,
     "counts_match": false,
-    "latest_note": "Batch 219 local build: 3519 entries; public production remains 3511 until the next six-round deployment check.",
+    "latest_note": "Batch 220 local build: 3530 entries; public production remains 3511 until the six-round deployment check after batch 223.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged."
   },
   "last_batch": [
@@ -669,8 +669,13 @@
     "six-round check after batches 182-187: no-effect/harm share 25%, harm 101, non-trial 423, unexpected-benefit entries 22; public HTTP 200 and local/public counts match at 3229 claim objects (3234 id fields) after prebuilt Production deployment dpl_4hsGTKJUVZetFkrk4SQHWb5Vo2Pi because Git-triggered builds could not access C:\\dev\\kr-drug-data/permit/manifest.json",
     "batch 188 expansion: the first 20-name food attempt added 4 candidates and a different second 20-name food-access attempt added 3; both were below 10, so no third attempt was made",
     "batch 188: 5 evidence entries added; 2 no-evidence topics closed; 0 approved indications skipped; 20 legacy sentences edited; 0 unchecked topics remain",
-    "batch 188 build passed after all new line warnings were fixed; two truthful thin-study and one truthful unknown-n warning remain; local build is 3234 while public remains 3229 until the six-round deployment check after batches 188-193"
+    "batch 188 build passed after all new line warnings were fixed; two truthful thin-study and one truthful unknown-n warning remain; local build is 3234 while public remains 3229 until the six-round deployment check after batches 188-193",
+    "batch 220 expansion: first 20-name attempt added 0 candidates; corrected second 20-name attempt added 15 candidates from 20 names, including 5 non-drug options; an initial tools path typo was corrected",
+    "batch 220 processed 15 topics; added 11 evidence entries; closed 1 result-less topic as 근거 없음; skipped 3 approved indications; 0 unchecked topics remain",
+    "batch 220 added ofatumumab-lymphoma-open, ofatumumab-rheumatoid-arthritis-pos, sparsentan-kidney-diseases-pos, sparsentan-iga-vasculitis-open, sparsentan-proteinuria-pos, exercise-therapy-cancer-pos, exercise-therapy-weakness-pos, exercise-therapy-knee-injuries-null, exercise-therapy-obesity-pos, social-engagement-cognitive-impairment-pos, and social-engagement-obesity-open",
+    "batch 220 build passed after shortening three new effect fields; no new actionable line/effect/known warnings remain; local build is 3530 and public remains 3511",
+    "batch 220 included no legacy line warnings to edit; the next six-round deployment check is due after batch 223"
   ],
-  "current_batch": "batch 219 complete locally; 6 evidence entries, 0 no-evidence topics, 0 same-evidence topics, 1 approved indication, and 0 unchecked topics remain; local build 3519; public remains 3511",
-  "next_action": "start batch 220 by expanding the worklist because 0 topics remain, using a different non-drug and non-oncology branch"
+  "current_batch": "batch 220 complete locally; 11 evidence entries, 1 no-evidence topic, 0 same-evidence topics, 3 approved indications, and 0 unchecked topics remain; local build 3530; public remains 3511",
+  "next_action": "start batch 221 by expanding the worklist because 0 topics remain, using a different non-drug and non-oncology branch; deploy and compare local/public counts after batch 223"
 }
