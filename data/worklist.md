@@ -13253,3 +13253,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] interpersonal psychotherapy for adolescents — Adolescent에 듣는다  <!-- 시험 8건 · 논문 1659편 -->
 - [x] interpersonal psychotherapy for adolescents — Overweight에 듣는다  <!-- 시험 5건 · 논문 21편 -->
 - [x] interpersonal psychotherapy for adolescents — Binge Eating에 듣는다  <!-- 시험 5건 · 논문 63편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] brief behavioral therapy for insomnia — Sleep에 듣는다  <!-- 시험 14건 · 논문 354편 -->
+- [x] brief behavioral therapy for insomnia — Cancer에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov brief behavioral therapy for insomnia AND Cancer; PubMed brief behavioral therapy for insomnia AND Cancer)  <!-- 시험 10건 · 논문 49편 -->
+- [x] brief behavioral therapy for insomnia — Depression에 듣는다  <!-- 시험 8건 · 논문 151편 -->
+- [x] brief behavioral therapy for insomnia — Alcohol Use에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov brief behavioral therapy for insomnia AND Alcohol Use; PubMed brief behavioral therapy for insomnia AND Alcohol Use)  <!-- 시험 7건 · 논문 20편 -->
+- [x] cognitive behavioral therapy for chronic insomnia — Pain에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive behavioral therapy for chronic insomnia AND Pain; PubMed cognitive behavioral therapy for chronic insomnia AND Pain)  <!-- 시험 15건 · 논문 303편 -->
+- [x] cognitive behavioral therapy for chronic insomnia — Sleep에 듣는다  <!-- 시험 7건 · 논문 2755편 -->
+- [x] cognitive behavioral therapy for chronic insomnia — Head Injury에 듣는다  <!-- 시험 5건 · 논문 35편 -->
+- [x] cognitive behavioral therapy for chronic insomnia — Cancer에 듣는다  <!-- 시험 4건 · 논문 256편 -->
+- [x] cognitive behavioral analysis system of psychotherapy — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 330편 -->
+- [x] cognitive therapy for suicide prevention — Suicidal Ideation에 듣는다  <!-- 시험 14건 · 논문 341편 -->
+- [x] cognitive therapy for suicide prevention — Depression에 듣는다  <!-- 시험 5건 · 논문 535편 -->
+- [x] cognitive therapy for suicide prevention — Behavior에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive therapy for suicide prevention AND Behavior; PubMed cognitive therapy for suicide prevention AND Behavior)  <!-- 시험 4건 · 논문 937편 -->
+- [x] cognitive therapy for suicide prevention — Psychosis에 듣는다  <!-- 시험 3건 · 논문 57편 -->
+- [x] emotion regulation group therapy — Depression에 듣는다  <!-- 시험 12건 · 논문 945편 -->
+- [x] emotion regulation group therapy — Drug Use Disorder에 듣는다  <!-- 시험 11건 · 논문 210편 -->
+- [x] emotion regulation group therapy — Stress에 듣는다  <!-- 시험 9건 · 논문 750편 -->
+- [x] emotion regulation group therapy — Mental Health에 듣는다  <!-- 시험 8건 · 논문 1009편 -->
