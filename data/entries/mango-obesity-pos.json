@@ -1,0 +1,32 @@
+{
+  "id": "mango-obesity-pos",
+  "subj": "망고",
+  "claim": "망고를 과체중·비만 성인의 인슐린 감수성에 쓴다",
+  "line": "망고가 과체중·비만 성인에서 대조식품보다 인슐린을 낮췄습니다",
+  "effect": "인슐린 감소; 공복혈당·염증표지자 차이 없음",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 48,
+  "synth": "single",
+  "why": "과체중 또는 비만과 만성 저등급 염증이 있는 성인을 대상으로 망고와 대조 제품을 4주간 비교한 무작위 대조시험에서 인슐린 신호가 나왔습니다.",
+  "saw": "48명이 망고 또는 대조 제품을 4주간 섭취하고 경구 포도당 부하검사를 받았습니다. 망고군의 인슐린은 8.2 ± 1.2, 대조군은 15.3이었고 공복혈당은 유의하게 달라지지 않았습니다. IL-6·TNFα·hs-CRP도 4주 뒤 차이가 없었습니다.",
+  "limit": "48명이 완료한 4주 시험이며 과체중·비만과 만성 저등급 염증이 있는 성인에 한정됩니다.",
+  "against": "공복혈당과 세 염증표지자는 차이가 없었고 장기 체중·당뇨병 결과를 평가하지 않았습니다.",
+  "use": "인슐린 감수성에 관한 짧은 식이시험 신호로만 기록하며 비만 치료를 대신하지 않습니다.",
+  "refs": [
+    {
+      "label": "Mango Consumption Is Associated with Increased Insulin Sensitivity in Participants with Overweight/Obesity and Chronic Low-Grade Inflammation",
+      "doi": "10.3390/nu17030490",
+      "pmid": "39940348"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=mango AND query.cond=Obesity → 9건, mango 개입명 일치 5건",
+    "pubmed": "mango AND Obesity → 101건",
+    "negative": "mango AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 79건",
+    "safety": "mango AND (adverse OR toxicity OR case report OR harm OR dropout) → 678건"
+  },
+  "known": "off",
+  "knownWhy": "망고는 허가 적응증이 없는 식품입니다."
+}

@@ -14350,3 +14350,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] plant protein — Diabetes에 듣는다  <!-- 시험 16건 · 논문 7429편 -->
 - [x] plant protein — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 358편 -->
 - [x] plant protein — Metabolic Health에 듣는다  <!-- 시험 9건 · 논문 22986편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] plant milk — Obesity에 듣는다 — 근거 없음(2026-08-07 조회, "plant milk" AND Obesity; ClinicalTrials.gov 개입명 일치 0건, 직접 결과 논문 없음)  <!-- 시험 4건 · 논문 188편 -->
+- [x] plant milk — Protein Malnutrition에 듣는다 — 근거 없음(2026-08-07 조회, "plant milk" AND Protein Malnutrition; ClinicalTrials.gov 개입명 일치 0건, 직접 결과 논문 없음)  <!-- 시험 4건 · 논문 45편 -->
+- [x] plant milk — Kidney Function에 듣는다  <!-- 시험 4건 · 논문 103편 -->
+- [x] rice milk — Persistent Diarrhea에 듣는다 — 근거 없음(2026-08-07 조회, "rice milk" AND Persistent Diarrhea; ClinicalTrials.gov 개입명 일치 0건, 직접 결과 논문 없음)  <!-- 시험 3건 · 논문 14편 -->
+- [x] rice milk — Blood Glucose에 듣는다 — 결과 없음(2026-08-07 조회, "rice milk" AND Blood Glucose; NCT00728065 완료·n30, 직접 결과 논문 없음)  <!-- 시험 3건 · 논문 90편 -->
+- [x] herbal tea — Microbiome에 듣는다 — 결과 없음(2026-08-07 조회, "herbal tea" AND Microbiome; NCT06522412 등 등록·직접 결과 논문 없음)  <!-- 시험 3건 · 논문 80편 -->
+- [x] herbal tea — Pain Syndrome에 듣는다 — 결과 없음(2026-08-07 조회, "herbal tea" AND Pain Syndrome; NCT07737366 완료·n60 등 등록·직접 결과 논문 없음)  <!-- 시험 3건 · 논문 11편 -->
+- [x] herbal tea — Arthritis에 듣는다 — 결과 없음(2026-08-07 조회, "herbal tea" AND Arthritis; NCT05656196 완료·n100 등 등록·직접 결과 논문 없음)  <!-- 시험 3건 · 논문 30편 -->
+- [x] mango — Diet, Healthy에 듣는다 — 결과 없음(2026-08-07 조회, "mango" AND Diet Healthy; NCT06449170 미상·n12, 직접 결과 논문 없음)  <!-- 시험 7건 · 논문 25편 -->
+- [x] mango — Gut Health에 듣는다  <!-- 시험 6건 · 논문 33편 -->
+- [x] mango — Breast Cancer에 듣는다 — 결과 없음(2026-08-07 조회, "mango" AND Breast Cancer; NCT00982319 완료·n34, 직접 결과 논문 없음)  <!-- 시험 5건 · 논문 169편 -->
+- [x] mango — Obesity에 듣는다  <!-- 시험 4건 · 논문 101편 -->
+- [x] beet juice — Hypertension에 듣는다  <!-- 시험 20건 · 논문 61편 -->
+- [x] beet juice — Arterial Stiffness에 듣는다  <!-- 시험 14건 · 논문 14편 -->
+- [x] beet juice — Aging에 듣는다 — 근거 없음(2026-08-07 조회, "beet juice" AND Aging; ClinicalTrials.gov 개입명 일치 0건, 직접 결과 논문 없음)  <!-- 시험 11건 · 논문 37편 -->
+- [x] grape juice — Diet, Healthy에 듣는다  <!-- 시험 4건 · 논문 27편 -->

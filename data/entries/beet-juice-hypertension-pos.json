@@ -1,0 +1,32 @@
+{
+  "id": "beet-juice-hypertension-pos",
+  "subj": "비트 주스",
+  "claim": "비트 주스를 고혈압에 쓴다",
+  "line": "비트 주스가 고혈압 성인의 임상 수축기혈압을 낮췄습니다",
+  "effect": "임상 수축기혈압 MD −5.31 mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 349,
+  "synth": "meta",
+  "why": "무작위시험 11편을 합친 메타분석에서 질산염이 풍부한 비트 주스를 고혈압 성인의 위약·물·무섭취와 비교했습니다.",
+  "saw": "11개 시험 349명에서 비트 주스가 임상 수축기혈압을 대조군보다 낮췄고 평균차는 −5.31 mmHg(95% CI −7.46~−3.16)였습니다. 이질성 I²는 64%였고 GRADE 확실성은 ⊕⊕OO였습니다.",
+  "limit": "메타분석의 근거 확실성이 낮고 시험 간 이질성이 있었으며 장기 심혈관 사건을 평가하지 않았습니다.",
+  "against": "모든 혈압 지표가 같은 방향으로 변한다고 볼 수 없고 연구 간 결과 차이가 있었습니다.",
+  "use": "고혈압 약을 대체하지 않는 보조 식이 연구 근거로 기록합니다.",
+  "refs": [
+    {
+      "label": "Effects of beetroot juice on blood pressure in hypertension according to European Society of Hypertension Guidelines: A systematic review and meta-analysis",
+      "doi": "10.1016/j.numecd.2024.06.009",
+      "pmid": "39069465"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=beet juice AND query.cond=Hypertension → 31건, beet juice 개입명 일치 0건",
+    "pubmed": "beet juice AND Hypertension → 61건",
+    "negative": "beet juice AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) → 53건",
+    "safety": "beet juice AND (adverse OR toxicity OR case report OR harm OR dropout) → 63건"
+  },
+  "known": "off",
+  "knownWhy": "비트 주스는 허가 적응증이 없는 식품입니다."
+}
