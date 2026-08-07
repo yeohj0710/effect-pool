@@ -14126,3 +14126,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] danicopan — Paroxysmal Nocturnal Hemoglobinuria에 듣는다  <!-- 시험 8건 · 논문 52편 --> — 허가 적응증(2026-08-07)
 - [x] danicopan — PNH에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 허가 적응증(2026-08-07)
 - [x] iptacopan — Immunoglobulin A Nephropathy에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] spiritual care — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 61편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=spiritual care&query.cond=Lymphoma → 7건 반환·InterventionName 직접 대조 1건, PubMed "spiritual care" AND "Lymphoma" → 5건은 시험 적격성·혈액암 안전성 문헌)
+- [x] spiritual care — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1486편 -->
+- [x] spiritual care — Malignant Neoplasm에 듣는다  <!-- 시험 3건 · 논문 2929편 -->
+- [x] spiritual care — Multiple Myeloma에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=spiritual care&query.cond=Multiple Myeloma → 3건 반환·InterventionName 직접 대조 1건, PubMed "spiritual care" AND "Multiple Myeloma" → 2건은 혈액암 시험 안전성 문헌)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] imagery rehearsal therapy — Nightmares에 듣는다  <!-- 시험 7건 · 논문 110편 -->
+- [x] imagery rehearsal therapy — Nightmare에 듣는다  <!-- 시험 5건 · 논문 110편 --> — 중복(2026-08-07, imagery rehearsal therapy — Nightmares와 동일)
+- [x] imagery rehearsal therapy — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 69편 -->
+- [x] imagery rehearsal therapy — Stroke에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=imagery rehearsal therapy&query.cond=Stroke → 4건 반환·InterventionName 직접 대조 0건, PubMed "imagery rehearsal therapy" AND "Stroke" → 0건)
+- [x] spiritual counseling — Anxiety에 듣는다  <!-- 시험 3건 · 논문 183편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=spiritual counseling&query.cond=Anxiety → 14건 반환·InterventionName 직접 대조 0건, PubMed "spiritual counseling" AND "Anxiety" → 9건은 경험·상관관계 연구)
+- [x] spiritual counseling — Malignant Neoplasm에 듣는다  <!-- 시험 3건 · 논문 220편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=spiritual counseling&query.cond=Malignant Neoplasm → 5건 반환·InterventionName 직접 대조 0건, PubMed "spiritual counseling" AND "Malignant Neoplasm" → 0건)
+- [x] mindful self-compassion group — Anxiety에 듣는다  <!-- 시험 13건 · 논문 295편 --> — 중복(2026-08-07, 기존 mindful self-compassion 항목과 동일)
+- [x] mindful self-compassion group — Mental Health에 듣는다  <!-- 시험 9건 · 논문 305편 --> — 중복(2026-08-07, 기존 mindful self-compassion 항목과 동일)
+- [x] mindful self-compassion group — Depressive에 듣는다  <!-- 시험 7건 · 논문 329편 --> — 중복(2026-08-07, 기존 mindful self-compassion 항목과 동일)
+- [x] mindful self-compassion group — Well-being에 듣는다  <!-- 시험 6건 · 논문 666편 --> — 중복(2026-08-07, 기존 mindful self-compassion 항목과 동일)
+- [x] health behavior counseling — Drug Use에 듣는다  <!-- 시험 15건 · 논문 5712편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=health behavior counseling&query.cond=Drug Use → 68건 반환·InterventionName 직접 대조 0건, PubMed "health behavior counseling" AND "Drug Use" → 0건)
+- [x] health behavior counseling — Diabetes에 듣는다  <!-- 시험 11건 · 논문 1761편 -->
+- [x] health behavior counseling — Obesity에 듣는다  <!-- 시험 10건 · 논문 1945편 -->
+- [x] health behavior counseling — Smoking Cessation에 듣는다  <!-- 시험 10건 · 논문 5637편 -->
