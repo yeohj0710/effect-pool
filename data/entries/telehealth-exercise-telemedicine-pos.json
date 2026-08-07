@@ -1,0 +1,28 @@
+{
+  "id": "telehealth-exercise-telemedicine-pos",
+  "subj": "telehealth exercise",
+  "claim": "원격 재활 운동은 무릎 골관절염 통증을 줄였다",
+  "line": "원격 재활의 통증 효과는 작지만 유의했다",
+  "effect": "통증 SMD -0.21",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 734,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "원격 운동은 비약물 의료기술이며 원격의료에 의약품 허가 적응증을 적용하지 않는다.",
+  "why": "원격 재활 전략을 적용한 무릎 골관절염 무작위시험을 비교했다.",
+  "saw": "6개 무작위시험 734명에서 원격 재활은 통증을 줄였지만(SMD -0.21, 95% CI -0.35~-0.07) 신체기능은 유의하게 개선하지 못했다.",
+  "limit": "연구 수가 6개이고 전략별 효과를 직접 비교하기 어려웠다.",
+  "against": "신체기능 효과는 유의하지 않았다(SMD -0.09, P=.24).",
+  "use": "원격의료 기반 운동 재활의 통증 완화 선택지로 검토하되 기능 회복 근거는 제한적으로 설명한다.",
+  "refs": [
+    { "label": "무릎 골관절염 원격 재활 전략 메타분석", "doi": "10.2196/40735", "pmid": "37982411", "pmc": "PMC10728785" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=telehealth exercise AND condition=Telemedicine; 413건",
+    "pubmed": "telehealth exercise AND Telemedicine; 4262건",
+    "negative": "telehealth exercise AND Telemedicine AND (no effect OR did not OR failed OR negative OR no significant difference); 599건",
+    "safety": "telehealth exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 562건"
+  }
+}

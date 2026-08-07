@@ -13041,21 +13041,44 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] wearable activity tracker — Pre-Diabetes에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov wearable activity tracker AND Pre-Diabetes; PubMed wearable activity tracker AND Pre-Diabetes)
 - [x] wearable activity tracker — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 856편 -->
 - [x] wearable activity tracker — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] resilience training — Anxiety에 듣는다  <!-- 시험 14건 · 논문 3135편 -->
-- [ ] resilience training — Cancer에 듣는다  <!-- 시험 14건 · 논문 1476편 -->
-- [ ] resilience training — Depression에 듣는다  <!-- 시험 13건 · 논문 3505편 -->
-- [ ] resilience training — Mental Health에 듣는다  <!-- 시험 9건 · 논문 7134편 -->
-- [ ] digital storytelling intervention — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 61편 -->
-- [ ] digital storytelling intervention — Nursing에 듣는다  <!-- 시험 3건 · 논문 135편 -->
-- [ ] digital storytelling intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 48편 -->
-- [ ] remote group exercise — Cancer에 듣는다  <!-- 시험 9건 · 논문 208편 -->
-- [ ] remote group exercise — Cardiac Disease에 듣는다  <!-- 시험 7건 · 논문 237편 -->
-- [ ] remote group exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 168편 -->
-- [ ] remote group exercise — Coronary Heart Disease에 듣는다  <!-- 시험 6건 · 논문 90편 -->
-- [ ] self-compassion intervention — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1040편 -->
-- [ ] self-compassion intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 1173편 -->
-- [ ] self-compassion intervention — Body Image에 듣는다  <!-- 시험 7건 · 논문 235편 -->
-- [ ] esketamine — Depression에 듣는다  <!-- 시험 46건 · 논문 1595편 -->
-- [ ] esketamine — Major Surgery에 듣는다  <!-- 시험 45건 · 논문 53편 -->
-- [ ] esketamine — Dexmedetomidine에 듣는다  <!-- 시험 27건 · 논문 134편 -->
-- [ ] esketamine — Surgery에 듣는다  <!-- 시험 18건 · 논문 637편 -->
+- [x] resilience training — Anxiety에 듣는다  <!-- 시험 14건 · 논문 3135편 -->
+- [x] resilience training — Cancer에 듣는다  <!-- 시험 14건 · 논문 1476편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov resilience training AND Cancer; PubMed resilience training AND Cancer)
+- [x] resilience training — Depression에 듣는다  <!-- 시험 13건 · 논문 3505편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov resilience training AND Depression; PubMed resilience training AND Depression)
+- [x] resilience training — Mental Health에 듣는다  <!-- 시험 9건 · 논문 7134편 -->
+- [x] digital storytelling intervention — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 61편 -->
+- [x] digital storytelling intervention — Nursing에 듣는다  <!-- 시험 3건 · 논문 135편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov digital storytelling intervention AND Nursing; PubMed digital storytelling intervention AND Nursing)
+- [x] digital storytelling intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 48편 -->
+- [x] remote group exercise — Cancer에 듣는다  <!-- 시험 9건 · 논문 208편 -->
+- [x] remote group exercise — Cardiac Disease에 듣는다  <!-- 시험 7건 · 논문 237편 -->
+- [x] remote group exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 168편 -->
+- [x] remote group exercise — Coronary Heart Disease에 듣는다  <!-- 시험 6건 · 논문 90편 -->
+- [x] self-compassion intervention — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1040편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov self-compassion intervention AND Anxiety; PubMed self-compassion intervention AND Anxiety)
+- [x] self-compassion intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 1173편 -->
+- [x] self-compassion intervention — Body Image에 듣는다  <!-- 시험 7건 · 논문 235편 -->
+- [x] esketamine — Depression에 듣는다  <!-- 시험 46건 · 논문 1595편 --> — 허가 적응증(2026-08-06)
+- [x] esketamine — Major Surgery에 듣는다  <!-- 시험 45건 · 논문 53편 -->
+- [x] esketamine — Dexmedetomidine에 듣는다  <!-- 시험 27건 · 논문 134편 -->
+- [x] esketamine — Surgery에 듣는다  <!-- 시험 18건 · 논문 637편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cognitive defusion — Depressive에 듣는다  <!-- 시험 4건 · 논문 59편 -->
+- [x] behavioral economics intervention — HIV에 듣는다  <!-- 시험 8건 · 논문 589편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral economics intervention AND HIV; PubMed behavioral economics intervention AND HIV)
+- [x] behavioral economics intervention — Behavior Changes에 듣는다  <!-- 시험 6건 · 논문 2431편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral economics intervention AND Behavior Changes; PubMed behavioral economics intervention AND Behavior Changes)
+- [x] behavioral economics intervention — Food Choice에 듣는다  <!-- 시험 6건 · 논문 164편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral economics intervention AND Food Choice; PubMed behavioral economics intervention AND Food Choice)
+- [x] behavioral economics intervention — Depression에 듣는다  <!-- 시험 5건 · 논문 1109편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral economics intervention AND Depression; PubMed behavioral economics intervention AND Depression)
+- [x] health mentoring — Cancer에 듣는다  <!-- 시험 6건 · 논문 1400편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov health mentoring AND Cancer; PubMed health mentoring AND Cancer)
+- [x] health mentoring — Sickle Cell Disease에 듣는다  <!-- 시험 5건 · 논문 24편 -->
+- [x] health mentoring — Obesity에 듣는다  <!-- 시험 4건 · 논문 316편 -->
+- [x] health mentoring — Anxiety에 듣는다  <!-- 시험 4건 · 논문 476편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov health mentoring AND Anxiety; PubMed health mentoring AND Anxiety)
+- [x] telehealth exercise — Obesity에 듣는다  <!-- 시험 8건 · 논문 441편 -->
+- [x] telehealth exercise — Pain에 듣는다  <!-- 시험 7건 · 논문 627편 -->
+- [x] telehealth exercise — Copd에 듣는다  <!-- 시험 6건 · 논문 245편 -->
+- [x] telehealth exercise — Telemedicine에 듣는다  <!-- 시험 5건 · 논문 4262편 -->
