@@ -15193,18 +15193,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dual task gait training — Balance에 듣는다  <!-- 시험 9건 · 논문 447편 --> — 항목 생성(2026-08-08)
 - [x] dual task gait training — Gait에 듣는다  <!-- 시험 9건 · 논문 858편 --> — 중복(dual-task-gait-training-balance-null, 2026-08-08)
 - [x] dual task gait training — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 41편 --> — 항목 생성(2026-08-08)
-- [ ] resistance exercise program — Obesity에 듣는다  <!-- 시험 17건 · 논문 1959편 -->
-- [ ] resistance exercise program — Bone Loss에 듣는다  <!-- 시험 13건 · 논문 291편 -->
-- [ ] resistance exercise program — Sarcopenia에 듣는다  <!-- 시험 12건 · 논문 609편 -->
-- [ ] resistance exercise program — Cognitive Decline에 듣는다  <!-- 시험 11건 · 논문 220편 -->
-- [ ] proprioceptive neuromuscular facilitation — Stroke에 듣는다  <!-- 시험 18건 · 논문 192편 -->
-- [ ] proprioceptive neuromuscular facilitation — Cerebral Palsy에 듣는다  <!-- 시험 14건 · 논문 61편 -->
-- [ ] proprioceptive neuromuscular facilitation — Muscle Strength에 듣는다  <!-- 시험 10건 · 논문 1188편 -->
-- [ ] proprioceptive neuromuscular facilitation — Knee Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 59편 -->
-- [ ] computerized cognitive training — Aging에 듣는다  <!-- 시험 13건 · 논문 286편 -->
-- [ ] computerized cognitive training — Schizophrenia에 듣는다  <!-- 시험 12건 · 논문 142편 -->
-- [ ] computerized cognitive training — Dementia에 듣는다  <!-- 시험 9건 · 논문 238편 -->
-- [ ] robotic gait training — Brain Injuries에 듣는다  <!-- 시험 16건 · 논문 73편 -->
-- [ ] robotic gait training — Cerebral Palsy에 듣는다  <!-- 시험 15건 · 논문 183편 -->
-- [ ] robotic gait training — Acquired Brain Injury에 듣는다  <!-- 시험 6건 · 논문 79편 -->
-- [ ] robotic gait training — Gait Disorders에 듣는다  <!-- 시험 5건 · 논문 788편 -->
+- [x] resistance exercise program — Obesity에 듣는다  <!-- 시험 17건 · 논문 1959편 --> — 중복(resistance-training-obesity-pos, 2026-08-08)
+- [x] resistance exercise program — Bone Loss에 듣는다  <!-- 시험 13건 · 논문 291편 --> — 항목 생성(2026-08-08)
+- [x] resistance exercise program — Sarcopenia에 듣는다  <!-- 시험 12건 · 논문 609편 --> — 중복(resistance-training-sarcopenia-pos, 2026-08-08)
+- [x] resistance exercise program — Cognitive Decline에 듣는다  <!-- 시험 11건 · 논문 220편 --> — 중복(resistance-training-aging-pos, 2026-08-08)
+- [x] proprioceptive neuromuscular facilitation — Stroke에 듣는다  <!-- 시험 18건 · 논문 192편 --> — 항목 생성(2026-08-08)
+- [x] proprioceptive neuromuscular facilitation — Cerebral Palsy에 듣는다  <!-- 시험 14건 · 논문 61편 --> — 근거 없음(2026-08-08, "proprioceptive neuromuscular facilitation AND Cerebral Palsy")
+- [x] proprioceptive neuromuscular facilitation — Muscle Strength에 듣는다  <!-- 시험 10건 · 논문 1188편 --> — 근거 없음(2026-08-08, "proprioceptive neuromuscular facilitation AND Muscle Strength")
+- [x] proprioceptive neuromuscular facilitation — Knee Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 59편 --> — 항목 생성(2026-08-08)
+- [x] computerized cognitive training — Aging에 듣는다  <!-- 시험 13건 · 논문 286편 --> — 항목 생성(2026-08-08)
+- [x] computerized cognitive training — Schizophrenia에 듣는다  <!-- 시험 12건 · 논문 142편 --> — 항목 생성(2026-08-08)
+- [x] computerized cognitive training — Dementia에 듣는다  <!-- 시험 9건 · 논문 238편 --> — 항목 생성(2026-08-08)
+- [x] robotic gait training — Brain Injuries에 듣는다  <!-- 시험 16건 · 논문 73편 --> — 항목 생성(2026-08-08)
+- [x] robotic gait training — Cerebral Palsy에 듣는다  <!-- 시험 15건 · 논문 183편 --> — 항목 생성(2026-08-08)
+- [x] robotic gait training — Acquired Brain Injury에 듣는다  <!-- 시험 6건 · 논문 79편 --> — 중복(robotic-gait-training-brain-injuries-pos, 2026-08-08)
+- [x] robotic gait training — Gait Disorders에 듣는다  <!-- 시험 5건 · 논문 788편 --> — 근거 없음(2026-08-08, "robotic gait training AND Gait Disorders")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] boswellia — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 126편 --> — 항목 생성(2026-08-08)
+- [x] boswellia — Irritable Bowel Syndrome에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-08, "boswellia AND Irritable Bowel Syndrome")
+- [x] cinnamon extract — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 항목 생성(2026-08-08)
+- [x] dark chocolate — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 145편 --> — 항목 생성(2026-08-08)
+- [x] dark chocolate — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(2026-08-08)
+- [x] glycine — Peri-implantitis에 듣는다  <!-- 시험 6건 · 논문 73편 --> — 근거 없음(2026-08-08, "glycine AND Peri-implantitis")
+- [ ] glycine — Colon Cancer에 듣는다  <!-- 시험 5건 · 논문 451편 -->
+- [x] glycine — HIV Infection에 듣는다  <!-- 시험 4건 · 논문 227편 --> — 근거 없음(2026-08-08, "glycine AND HIV Infection")
+- [x] safflower oil — Obesity에 듣는다  <!-- 시험 4건 · 논문 132편 --> — 근거 없음(2026-08-08, "safflower oil AND Obesity")
+- [x] safflower oil — Inflammation에 듣는다  <!-- 시험 4건 · 논문 118편 --> — 근거 없음(2026-08-08, "safflower oil AND Inflammation")
+- [x] safflower oil — Brain Function에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 근거 없음(2026-08-08, "safflower oil AND Brain Function")
+- [x] safflower oil — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 157편 --> — 근거 없음(2026-08-08, "safflower oil AND Cardiovascular Disease")
