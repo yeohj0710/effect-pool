@@ -13138,3 +13138,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] community health navigation — Cancer에 듣는다  <!-- 시험 7건 · 논문 6567편 -->
 - [x] community health navigation — Child Health에 듣는다  <!-- 시험 7건 · 논문 2876편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov community health navigation AND Child Health; PubMed community health navigation AND Child Health)
 - [x] community health navigation — Hypertension에 듣는다  <!-- 시험 6건 · 논문 358편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov community health navigation AND Hypertension; PubMed community health navigation AND Hypertension)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cognitive control training — Pain에 듣는다  <!-- 시험 18건 · 논문 2235편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive control training AND Pain; PubMed cognitive control training AND Pain)
+- [x] cognitive control training — Depression에 듣는다  <!-- 시험 17건 · 논문 8035편 -->
+- [x] cognitive control training — Aging에 듣는다  <!-- 시험 16건 · 논문 7196편 -->
+- [x] cognitive control training — Schizophrenia에 듣는다  <!-- 시험 14건 · 논문 2178편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive control training AND Schizophrenia; PubMed cognitive control training AND Schizophrenia)
+- [x] forgiveness therapy — Alcohol Abuse에 듣는다  <!-- 시험 4건 · 논문 21편 -->
+- [x] metacognitive training — Psychotic Disorders에 듣는다  <!-- 시험 12건 · 논문 117편 -->
+- [x] metacognitive training — Aphasia에 듣는다  <!-- 시험 10건 · 논문 13편 -->
+- [x] metacognitive training — Depression에 듣는다  <!-- 시험 9건 · 논문 234편 -->
+- [x] metacognitive training — Psychosis에 듣는다  <!-- 시험 8건 · 논문 173편 -->
+- [x] riociguat — CTEPH에 듣는다  <!-- 시험 3건 · 논문 209편 --> — 허가 적응증(2026-08-06)
+- [x] riociguat — Ventricular Dysfunction, Left에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] riociguat — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 38편 -->
