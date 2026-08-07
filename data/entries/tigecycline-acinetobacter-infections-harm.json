@@ -1,0 +1,28 @@
+{
+  "id": "tigecycline-acinetobacter-infections-harm",
+  "subj": "티게사이클린",
+  "claim": "티게사이클린 고용량이 카바페넴 내성 아시네토박터 폐렴의 치료 성공을 높인다",
+  "line": "티게사이클린 고용량은 미생물 성공은 높였지만 임상 성공은 없었고 독성은 잦았습니다",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 170,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가는 복잡성 피부·피부구조 감염, 복잡성 복강내 감염, 지역사회획득 세균성 폐렴이며 아시네토박터 감염 자체 적응증은 아닙니다.",
+  "why": "카바페넴 내성 아시네토박터 감염에서 티게사이클린은 대체 항균제가 적지만 용량에 따른 임상 이득은 불확실합니다.",
+  "saw": "후향적 성향점수 연구에서 환자 170명(표준용량 69명, 고용량 101명)을 비교했습니다. 매칭 뒤 각 군 62명에서 임상 성공률은 48.3% 대 40.4%로 차이가 없었고, 미생물학적 성공률은 고용량군 50.9% 대 표준용량군 26.5%로 높았습니다(P=.012).",
+  "limit": "무작위 배정이 아닌 후향적 연구이며 매칭 뒤 분석 인원은 각 군 62명입니다.",
+  "against": "30일 사망률은 43.5% 대 56.5%로 유의한 차이가 없었고(P=.151), 고용량군에서 간효소·빌리루빈 상승과 혈소판감소가 더 잦았습니다.",
+  "use": "고용량 티게사이클린을 미생물 배양 개선만으로 증량하지 말고, 임상 반응과 간·혈액 이상반응을 함께 평가합니다.",
+  "effect": "미생물 성공↑; 독성↑",
+  "refs": [
+    { "label": "2026 · Infectious Diseases Now · 카바페넴 내성 아시네토박터 폐렴 용량 비교", "doi": "10.1016/j.idnow.2025.105242", "pmid": "41421451" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=tigecycline, cond=Acinetobacter Infections · 5건 반환",
+    "pubmed": "tigecycline AND Acinetobacter · 8552편",
+    "negative": "tigecycline AND Acinetobacter AND (no effect OR did not OR failed to OR negative OR no significant difference) · 7881편",
+    "safety": "tigecycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 9459편"
+  }
+}

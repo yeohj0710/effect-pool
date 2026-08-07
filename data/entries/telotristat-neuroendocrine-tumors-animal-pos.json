@@ -1,0 +1,28 @@
+{
+  "id": "telotristat-neuroendocrine-tumors-animal-pos",
+  "subj": "텔로트리스타트",
+  "claim": "텔로트리스타트와 에베롤리무스 병용이 신경내분비종양 이종이식의 성장을 억제한다",
+  "line": "텔로트리스타트와 에베롤리무스 병용은 신경내분비종양 성장을 억제했습니다",
+  "tier": "animal",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가는 소마토스타틴 유사체로 조절되지 않는 성인 카르시노이드 증후군 설사이며 종양 치료 적응증은 아닙니다.",
+  "why": "텔로트리스타트의 세로토닌 억제가 종양세포와 mTOR 억제제의 반응을 바꾸는지 전임상에서 시험했습니다.",
+  "saw": "췌장·장 유래 신경내분비종양 세포주 3개에서 텔로트리스타트가 세포 생존을 낮췄고, 에베롤리무스와 병용하면 세포 생존 감소와 세포자멸사가 더 컸습니다. 생쥐 이종이식에서는 병용군의 종양 성장이 멈췄습니다.",
+  "limit": "세포주와 면역결핍 생쥐 모델 결과이며 사람 종양 환자의 반응이나 병용 안전성을 보여주지 않습니다.",
+  "against": "텔로트리스타트 단독보다 병용이 우월한 임상 근거는 없습니다.",
+  "use": "신경내분비종양 환자에게 병용을 권하지 말고, 사람 대상 용량·안전성 시험이 필요한 전임상 신호로만 봅니다.",
+  "effect": "병용에서 종양 성장 억제",
+  "refs": [
+    { "label": "2026 · Drugs in R&D · 신경내분비종양 세포주·이종이식", "doi": "10.1007/s40268-026-00544-x", "pmid": "42177741" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=telotristat, cond=Neuroendocrine Tumors · 8건 반환",
+    "pubmed": "telotristat AND neuroendocrine · 300편",
+    "negative": "telotristat AND neuroendocrine AND (no effect OR did not OR failed to OR negative OR no significant difference) · 260편",
+    "safety": "telotristat AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 277편"
+  }
+}
