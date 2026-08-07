@@ -14753,19 +14753,74 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] progressive muscle relaxation — Depressive에 듣는다  <!-- 시험 10건 · 논문 347편 -->
 - [x] sleep education — Cognitive Impairment에 듣는다  <!-- 시험 11건 · 논문 1831편 --> — 중복(sleep-health-education-cognitive-decline-pos.json)
 - [x] sleep education — Cancer에 듣는다  <!-- 시험 10건 · 논문 2646편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT03542604·NCT06938802·NCT05780814·NCT00935376)
-- [ ] sleep education — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 1344편 -->
-- [ ] sleep education — Physical Activity에 듣는다  <!-- 시험 6건 · 논문 8916편 -->
-- [ ] social prescribing — Mental Health에 듣는다  <!-- 시험 4건 · 논문 976편 -->
-- [ ] social prescribing — Opioid Prescribing에 듣는다  <!-- 시험 3건 · 논문 725편 -->
-- [ ] nature sounds — Cancer에 듣는다  <!-- 시험 3건 · 논문 566편 -->
-- [ ] white noise — Premature Birth에 듣는다  <!-- 시험 4건 · 논문 9편 -->
-- [ ] white noise — Stress에 듣는다  <!-- 시험 3건 · 논문 475편 -->
-- [ ] art therapy — HIV에 듣는다  <!-- 시험 34건 · 논문 28372편 -->
-- [ ] art therapy — Colon Cancer에 듣는다  <!-- 시험 9건 · 논문 169편 -->
-- [ ] art therapy — Psychological Stress에 듣는다  <!-- 시험 4건 · 논문 658편 -->
-- [ ] art therapy — Human Papillomavirus에 듣는다  <!-- 시험 4건 · 논문 169편 -->
-- [ ] water aerobics — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 20016편 -->
-- [ ] stretching exercise — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 113편 -->
-- [ ] stretching exercise — Stretch에 듣는다  <!-- 시험 5건 · 논문 9281편 -->
-- [ ] stretching exercise — Epicondylitis에 듣는다  <!-- 시험 5건 · 논문 89편 -->
-- [ ] stretching exercise — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 127편 -->
+- [x] sleep education — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 1344편 --> — 근거 없음(2026-08-07, "sleep education" AND "chronic pain" AND (trial OR randomized))
+- [x] sleep education — Physical Activity에 듣는다  <!-- 시험 6건 · 논문 8916편 --> — 등록만(2026-08-07, PM38425564; 결과 논문 없음)
+- [x] social prescribing — Mental Health에 듣는다  <!-- 시험 4건 · 논문 976편 --> — social-prescribing-mental-health-open 항목
+- [x] social prescribing — Opioid Prescribing에 듣는다  <!-- 시험 3건 · 논문 725편 --> — 근거 없음(2026-08-07, social prescribing AND "Opioid Prescribing")
+- [x] nature sounds — Cancer에 듣는다  <!-- 시험 3건 · 논문 566편 --> — 등록만(2026-08-07, NCT03238976; 결과 논문 없음)
+- [x] white noise — Premature Birth에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 중복(white-noise-newborn-pos)
+- [x] white noise — Stress에 듣는다  <!-- 시험 3건 · 논문 475편 --> — 등록만(2026-08-07, NCT06278441; 결과 논문 없음)
+- [x] art therapy — HIV에 듣는다  <!-- 시험 34건 · 논문 28372편 --> — 근거 없음(2026-08-07, "art therapy" AND HIV; ART 오검색 제외)
+- [x] art therapy — Colon Cancer에 듣는다  <!-- 시험 9건 · 논문 169편 --> — 중복(art-therapy-cancer-pos)
+- [x] art therapy — Psychological Stress에 듣는다  <!-- 시험 4건 · 논문 658편 --> — 중복(art-therapy-stress-pos)
+- [x] art therapy — Human Papillomavirus에 듣는다  <!-- 시험 4건 · 논문 169편 --> — 근거 없음(2026-08-07, "art therapy" AND "Human Papillomavirus")
+- [x] water aerobics — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 20016편 --> — water-aerobics-physical-activity-pos 항목
+- [x] stretching exercise — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 113편 --> — stretching-exercise-cognitive-decline-null 항목
+- [x] stretching exercise — Stretch에 듣는다  <!-- 시험 5건 · 논문 9281편 --> — 근거 없음(2026-08-07, stretching exercise AND Stretch; 직접 대상 없음)
+- [x] stretching exercise — Epicondylitis에 듣는다  <!-- 시험 5건 · 논문 89편 --> — stretching-exercise-epicondylitis-open 항목
+- [x] stretching exercise — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 127편 --> — stretching-exercise-cerebral-palsy-null 항목
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] self compassion — Anxiety에 듣는다  <!-- 시험 22건 · 논문 1286편 --> — 중복(self-compassion·mindful-self-compassion 불안 항목)
+- [x] self compassion — Depression에 듣는다  <!-- 시험 18건 · 논문 1468편 --> — 중복(self-compassion-intervention-depression-pos)
+- [x] self compassion — Distress에 듣는다  <!-- 시험 16건 · 논문 992편 --> — 중복(self-compassion-distress-pos)
+- [x] self compassion — Mental Health에 듣는다  <!-- 시험 12건 · 논문 1891편 --> — 중복(mindful-self-compassion-mental-health-pos)
+- [x] breath meditation — Anxiety에 듣는다  <!-- 시험 5건 · 논문 298편 --> — breath-meditation-anxiety-pos 항목
+- [x] breath meditation — Depression에 듣는다  <!-- 시험 4건 · 논문 226편 --> — breath-meditation-depression-pos 항목
+- [x] breath meditation — Pain에 듣는다  <!-- 시험 4건 · 논문 173편 --> — breath-meditation-pain-null 항목
+- [x] breath meditation — Sleep Disorder에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 근거 없음(2026-08-07, "breathing meditation" AND sleep AND (trial OR randomized OR systematic review))
+- [x] plant based diet — Obesity에 듣는다  <!-- 시험 20건 · 논문 3134편 --> — plant-based-diet-obesity-pos 항목
+- [x] plant based diet — Diet, Healthy에 듣는다  <!-- 시험 16건 · 논문 5194편 --> — 중복(plant-based-diet-diet-healthy-pos)
+- [x] plant based diet — Cancer에 듣는다  <!-- 시험 13건 · 논문 2847편 --> — 중복(plant-based-diet-cancer-open)
+- [x] plant based diet — Kidney Diseases에 듣는다  <!-- 시험 12건 · 논문 519편 --> — 중복(plant-based-eating-kidney-disease-chronic-pos)
+- [x] vibration therapy — Cerebral Palsy에 듣는다  <!-- 시험 7건 · 논문 125편 --> — 중복(whole-body-vibration-cerebral-palsy-null)
+- [x] vibration therapy — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 130편 --> — 중복(whole-body-vibration-knee-oa-pos)
+- [ ] vibration therapy — Muscle Weakness에 듣는다  <!-- 시험 4건 · 논문 150편 -->
+- [ ] vibration therapy — COPD에 듣는다  <!-- 시험 3건 · 논문 134편 -->
+- [ ] home exercise — Pain에 듣는다  <!-- 시험 10건 · 논문 3368편 -->
+- [ ] home exercise — Stroke에 듣는다  <!-- 시험 8건 · 논문 1209편 -->
+- [ ] home exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 23529편 -->
+- [ ] home exercise — Fall에 듣는다  <!-- 시험 7건 · 논문 1021편 -->
+- [ ] remote monitoring — Diabetes에 듣는다  <!-- 시험 18건 · 논문 1464편 -->
+- [ ] remote monitoring — Hypertension에 듣는다  <!-- 시험 17건 · 논문 938편 -->
+- [ ] remote monitoring — Cancer에 듣는다  <!-- 시험 12건 · 논문 1603편 -->
+- [ ] remote monitoring — Arrhythmia, Cardiac에 듣는다  <!-- 시험 8건 · 논문 1054편 -->
+- [ ] telehealth counseling — Cancer에 듣는다  <!-- 시험 6건 · 논문 364편 -->
+- [ ] telehealth counseling — Hypertension에 듣는다  <!-- 시험 5건 · 논문 106편 -->
+- [ ] telehealth counseling — HIV에 듣는다  <!-- 시험 5건 · 논문 139편 -->
+- [ ] telehealth counseling — COPD에 듣는다  <!-- 시험 5건 · 논문 26편 -->
+- [ ] hypnosis — Cancer에 듣는다  <!-- 시험 46건 · 논문 690편 -->
+- [ ] hypnosis — Anxiety에 듣는다  <!-- 시험 28건 · 논문 1803편 -->
+- [ ] hypnosis — Stress에 듣는다  <!-- 시험 10건 · 논문 1302편 -->
+- [ ] hypnosis — Surgery에 듣는다  <!-- 시험 10건 · 논문 1606편 -->
+- [ ] writing therapy — Stress에 듣는다  <!-- 시험 16건 · 논문 3280편 -->
+- [ ] writing therapy — Depression에 듣는다  <!-- 시험 7건 · 논문 2116편 -->
+- [ ] writing therapy — Psychological Health에 듣는다  <!-- 시험 6건 · 논문 4213편 -->
+- [ ] writing therapy — Eating Disorders에 듣는다  <!-- 시험 5건 · 논문 255편 -->
+- [ ] solution focused therapy — Mental Well-being에 듣는다  <!-- 시험 3건 · 논문 712편 -->
+- [ ] mindfulness based stress reduction — Anxiety에 듣는다  <!-- 시험 59건 · 논문 1069편 -->
+- [ ] mindfulness based stress reduction — Pain에 듣는다  <!-- 시험 58건 · 논문 424편 -->
+- [ ] mindfulness based stress reduction — Cancer에 듣는다  <!-- 시험 47건 · 논문 403편 -->
+- [ ] mindfulness based stress reduction — Depression에 듣는다  <!-- 시험 45건 · 논문 1079편 -->
+- [ ] body psychotherapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 597편 -->
+- [ ] body psychotherapy — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 378편 -->
+- [ ] body psychotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 2931편 -->
+- [ ] body psychotherapy — Pain Acute에 듣는다  <!-- 시험 4건 · 논문 91편 -->
