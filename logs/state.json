@@ -325,7 +325,7 @@
     "expansion_checkpoint": "batch 207 expansion: one 20-name rehabilitation, neuromodulation, and food attempt added 48 candidates; 30 topics were selected; 19 unchecked topics remain including 1 ClinicalTrials.gov query failure"
   },
   "resume": {
-    "last_committed_batch": "batch 206: 2 evidence entries added; 0 duplicate topics, 0 no-evidence topics, and 20 legacy sentence edits completed; pushed as 3148bd8; local build 3407 and public remains 3405 until the six-round check after batch 211",
+    "last_committed_batch": "batch 207: 13 evidence entries added; 10 duplicate topics, 6 no-evidence topics, 1 query failure, and 20 legacy sentence edits completed; pushed as 6435eff; local build 3420 and public remains 3405 until the six-round check after batch 211",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -640,6 +640,6 @@
     "batch 188: 5 evidence entries added; 2 no-evidence topics closed; 0 approved indications skipped; 20 legacy sentences edited; 0 unchecked topics remain",
     "batch 188 build passed after all new line warnings were fixed; two truthful thin-study and one truthful unknown-n warning remain; local build is 3234 while public remains 3229 until the six-round deployment check after batches 188-193"
   ],
-  "current_batch": "batch 207 completed locally; 13 evidence entries, 10 duplicate topics, 6 no-evidence topics, 1 query failure, and 20 legacy sentences edited; local build 3420; 19 unchecked topics remain",
-  "next_action": "commit and push batch 207, then start batch 208; six-round deployment check is due after batch 211"
+  "current_batch": "batch 207 completed and pushed as 6435eff; 13 evidence entries, 10 duplicate topics, 6 no-evidence topics, 1 query failure, and 20 legacy sentences edited; local build 3420; 19 unchecked topics remain",
+  "next_action": "start batch 208 immediately; git pull --ff-only, read AGENTS.md, expand because 19 unchecked topics remain, process up to 30 non-oncology topics, build, commit, push, and checkpoint state; six-round deployment check is due after batch 211"
 }
