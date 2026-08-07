@@ -13290,21 +13290,65 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] family focused therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 311편 -->
-- [ ] family focused therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 2090편 -->
+- [x] family focused therapy — Bipolar Disorder에 듣는다  <!-- 시험 10건 · 논문 311편 -->
+- [x] family focused therapy — Depression에 듣는다  <!-- 시험 10건 · 논문 2090편 -->
 - [x] family focused therapy — Anorexia Nervosa에 듣는다  <!-- 시험 8건 · 논문 169편 --> — 근거 없음(2026-08-06, "family focused therapy" AND "Anorexia Nervosa")
 - [x] family focused therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 756편 --> — 근거 없음(2026-08-06, "family focused therapy" AND Obesity)
-- [ ] social cognition training — Psychosis에 듣는다  <!-- 시험 8건 · 논문 642편 -->
+- [x] social cognition training — Psychosis에 듣는다  <!-- 시험 8건 · 논문 642편 -->
 - [x] social cognition training — Cognitive Frailty에 듣는다  <!-- 시험 7건 · 논문 174편 --> — 근거 없음(2026-08-06, "social cognition training" AND "Cognitive Frailty")
-- [ ] social cognition training — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 423편 -->
-- [ ] social cognition training — Autism에 듣는다  <!-- 시험 5건 · 논문 694편 -->
-- [ ] cognitive remediation therapy — Psychosis에 듣는다  <!-- 시험 27건 · 논문 399편 -->
-- [ ] cognitive remediation therapy — Schizoaffective에 듣는다  <!-- 시험 23건 · 논문 75편 -->
-- [ ] cognitive remediation therapy — Depression에 듣는다  <!-- 시험 18건 · 논문 296편 -->
-- [ ] cognitive remediation therapy — Bipolar Disorder에 듣는다  <!-- 시험 12건 · 논문 134편 -->
-- [ ] brief cognitive behavioral therapy for suicide prevention — Suicide Ideation에 듣는다  <!-- 시험 9건 · 논문 60편 -->
-- [ ] supported employment — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 54편 -->
-- [ ] cognitive behavioral social skills training — Schizophrenia에 듣는다  <!-- 시험 17건 · 논문 360편 -->
+- [x] social cognition training — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 423편 -->
+- [x] social cognition training — Autism에 듣는다  <!-- 시험 5건 · 논문 694편 -->
+- [x] cognitive remediation therapy — Psychosis에 듣는다  <!-- 시험 27건 · 논문 399편 -->
+- [x] cognitive remediation therapy — Schizoaffective에 듣는다  <!-- 시험 23건 · 논문 75편 -->
+- [x] cognitive remediation therapy — Depression에 듣는다  <!-- 시험 18건 · 논문 296편 -->
+- [x] cognitive remediation therapy — Bipolar Disorder에 듣는다  <!-- 시험 12건 · 논문 134편 -->
+- [x] brief cognitive behavioral therapy for suicide prevention — Suicide Ideation에 듣는다  <!-- 시험 9건 · 논문 60편 -->
+- [x] supported employment — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 54편 -->
+- [x] cognitive behavioral social skills training — Schizophrenia에 듣는다  <!-- 시험 17건 · 논문 360편 -->
 - [x] cognitive behavioral social skills training — Depression에 듣는다  <!-- 시험 10건 · 논문 511편 --> — 근거 없음(2026-08-06, "cognitive behavioral social skills training" AND Depression)
 - [x] cognitive behavioral social skills training — Autism에 듣는다  <!-- 시험 10건 · 논문 470편 --> — 근거 없음(2026-08-06, "cognitive behavioral social skills training" AND Autism)
-- [ ] cognitive behavioral social skills training — Schizoaffective에 듣는다  <!-- 시험 9건 · 논문 32편 -->
+- [x] cognitive behavioral social skills training — Schizoaffective에 듣는다  <!-- 시험 9건 · 논문 32편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] problem solving therapy — Brain Concussion에 듣는다  <!-- 시험 9건 · 논문 27편 --> — 근거 없음(2026-08-06, "problem solving therapy" AND "Brain Concussion")
+- [x] problem solving therapy — Diabetes에 듣는다  <!-- 시험 6건 · 논문 705편 -->
+- [x] problem solving therapy — HIV에 듣는다  <!-- 시험 5건 · 논문 273편 -->
+- [x] motivational interviewing — HIV에 듣는다  <!-- 시험 20건 · 논문 538편 -->
+- [x] motivational interviewing — Diabetes에 듣는다  <!-- 시험 12건 · 논문 557편 -->
+- [x] motivational interviewing — Anxiety에 듣는다  <!-- 시험 10건 · 논문 397편 -->
+- [x] contingency management — Addiction, Cocaine에 듣는다  <!-- 시험 13건 · 논문 238편 -->
+- [x] contingency management — Risk Behavior에 듣는다  <!-- 시험 5건 · 논문 318편 --> — 근거 없음(2026-08-06, "contingency management" AND "Risk Behavior")
+- [x] contingency management — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [x] contingency management — Cannabis에 듣는다  <!-- 시험 4건 · 논문 117편 -->
+- [x] music therapy — Pain에 듣는다  <!-- 시험 89건 · 논문 1934편 -->
+- [x] music therapy — Motor Impairment에 듣는다  <!-- 시험 20건 · 논문 173편 -->
+- [x] music therapy — Depression에 듣는다  <!-- 시험 19건 · 논문 1448편 -->
+- [x] music therapy — Stroke에 듣는다  <!-- 시험 18건 · 논문 441편 -->
+- [x] art therapy — Stroke에 듣는다  <!-- 시험 7건 · 논문 934편 -->
+- [x] art therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 1726편 -->
+- [x] art therapy — Pregnancy Tests에 듣는다  <!-- 시험 6건 · 논문 275편 --> — 근거 없음(2026-08-06, "art therapy" AND "Pregnancy Tests")
+- [x] art therapy — Dental Caries에 듣는다  <!-- 시험 5건 · 논문 316편 --> — 근거 없음(2026-08-06, "art therapy" AND "Dental Caries")
+- [x] mindfulness based cognitive therapy — Depression에 듣는다  <!-- 시험 67건 · 논문 2845편 -->
+- [x] mindfulness based cognitive therapy — Pain에 듣는다  <!-- 시험 53건 · 논문 892편 -->
+- [x] mindfulness based cognitive therapy — Cancer에 듣는다  <!-- 시험 44건 · 논문 809편 -->
+- [x] mindfulness based cognitive therapy — Anxiety에 듣는다  <!-- 시험 35건 · 논문 2425편 -->
+- [x] interpersonal psychotherapy — Adolescent에 듣는다  <!-- 시험 11건 · 논문 1659편 -->
+- [x] interpersonal psychotherapy — Obesity에 듣는다  <!-- 시험 9건 · 논문 90편 -->
+- [x] interpersonal psychotherapy — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 239편 -->
+- [x] interpersonal psychotherapy — PTSD에 듣는다  <!-- 시험 5건 · 논문 459편 -->
+- [x] peer support — Stress에 듣는다  <!-- 시험 22건 · 논문 6882편 -->
+- [x] peer support — Social Care에 듣는다  <!-- 시험 11건 · 논문 32073편 -->
+- [x] peer support — Cancer에 듣는다  <!-- 시험 11건 · 논문 9662편 -->
+- [x] peer support — Psychological에 듣는다  <!-- 시험 9건 · 논문 12678편 -->
+- [ ] sleep hygiene — Health Status에 듣는다  <!-- 시험 14건 · 논문 2550편 -->
+- [ ] sleep hygiene — Cognitive Disorder에 듣는다  <!-- 시험 10건 · 논문 615편 -->
+- [ ] sleep hygiene — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 87편 -->
+- [ ] sleep hygiene — Obesity에 듣는다  <!-- 시험 8건 · 논문 630편 -->
