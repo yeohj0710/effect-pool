@@ -13226,3 +13226,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep compression therapy — Cognitive Functioning에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov sleep compression therapy AND Cognitive Functioning; PubMed sleep compression therapy AND Cognitive Functioning)  <!-- 시험 3건 · 논문 21편 -->
 - [x] nirsevimab — Respiratory Syncytial Virus에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 7건 · 논문 568편 -->
 - [x] nirsevimab — Lower Respiratory Tract Infection에 듣는다 — 허가 적응증(2026-08-06)  <!-- 시험 3건 · 논문 223편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cognitive behavioral therapy for psychosis — Psychosis에 듣는다  <!-- 시험 41건 · 논문 2763편 -->
+- [x] cognitive behavioral therapy for psychosis — Psychotic Paranoia에 듣는다  <!-- 시험 29건 · 논문 130편 -->
+- [x] cognitive behavioral therapy for psychosis — Schizoaffective Disorder에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive behavioral therapy for psychosis AND Schizoaffective Disorder; PubMed cognitive behavioral therapy for psychosis AND Schizoaffective Disorder)  <!-- 시험 11건 · 논문 1943편 -->
+- [x] cognitive behavioral therapy for psychosis — Prodromal Stage에 듣는다  <!-- 시험 6건 · 논문 89편 -->
+- [x] metacognitive therapy for depression — Anxiety에 듣는다  <!-- 시험 8건 · 논문 263편 -->
+- [x] metacognitive therapy for depression — Cardiac Rehabilitation에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+- [x] metacognitive therapy for depression — Psychological Distress에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [x] supportive-expressive therapy — Major Depressive Disorder에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov supportive-expressive therapy AND Major Depressive Disorder; PubMed supportive-expressive therapy AND Major Depressive Disorder)  <!-- 시험 4건 · 논문 37편 -->
+- [x] transdiagnostic cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 26건 · 논문 690편 -->
+- [x] transdiagnostic cognitive behavioral therapy — Emotional Problem에 듣는다  <!-- 시험 15건 · 논문 132편 -->
+- [x] transdiagnostic cognitive behavioral therapy — Posttraumatic Stress에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov transdiagnostic cognitive behavioral therapy AND Posttraumatic Stress; PubMed transdiagnostic cognitive behavioral therapy AND Posttraumatic Stress)  <!-- 시험 11건 · 논문 88편 -->
+- [x] transdiagnostic cognitive behavioral therapy — Depressive Disorder에 듣는다  <!-- 시험 10건 · 논문 234편 -->
+- [x] behavioral activation for insomnia — Depression에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral activation for insomnia AND Depression; PubMed behavioral activation for insomnia AND Depression)  <!-- 시험 6건 · 논문 1622편 -->
+- [x] interpersonal psychotherapy for adolescents — Depressive Symptoms에 듣는다  <!-- 시험 10건 · 논문 539편 -->
+- [x] interpersonal psychotherapy for adolescents — Adolescent에 듣는다  <!-- 시험 8건 · 논문 1659편 -->
+- [x] interpersonal psychotherapy for adolescents — Overweight에 듣는다  <!-- 시험 5건 · 논문 21편 -->
+- [x] interpersonal psychotherapy for adolescents — Binge Eating에 듣는다  <!-- 시험 5건 · 논문 63편 -->
