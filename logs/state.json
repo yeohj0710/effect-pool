@@ -9,7 +9,7 @@
     "next_batch": []
   },
   "verification": {
-    "build": "passed; batch 175 added 0 evidence entries; 1 duplicate topic and 1 ongoing trial without a result paper were closed; 20 legacy sentences were edited; no new actionable line/effect/known warnings remain",
+    "build": "passed; batch 176 added 0 evidence entries because both expansion attempts produced 0 candidates; 20 legacy sentences were edited; no new actionable line/effect/known warnings remain",
     "line_warnings": 0,
     "unknown_n_warnings": 302,
     "known_warnings": 0,
@@ -41,11 +41,11 @@
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
   "last_batch": [
-    "created 0 evidence entries; closed 1 duplicate topic and 1 ongoing trial without a result paper",
-    "processed 2 selected topics; skipped 0 approved indications; 0 unchecked topics remain",
-    "the first 20-name expansion added 0 candidates; the second different attempt added 2 candidates, including 10 non-drug options",
+    "created 0 evidence entries; no topics were available after expansion attempts",
+    "processed 0 selected topics; skipped 0 approved indications; 0 unchecked topics remain",
+    "the first 20-name expansion added 0 candidates; the second different attempt also added 0 candidates from 22 supplied names, including 10 non-drug options",
     "edited 20 legacy evidence sentences without changing their numbers",
-    "build passed with no new line/effect/known warnings; the six-round check deployed the 3149-entry prebuilt artifact and production returned HTTP 200 with 3149 claim objects"
+    "build passed with no new line/effect/known warnings; local and public remain matched at 3149 entries from the batch 175 six-round deployment"
   ],
   "expansion": {
     "date": "2026-08-07",
@@ -90,34 +90,35 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-07",
-    "latest_candidates": 2,
+    "latest_candidates": 0,
     "latest_substances": [
-      "therapeutic recreation",
-      "nature prescription",
-      "adventure therapy",
-      "museum-based therapy",
-      "animal companionship",
-      "virtual companion",
-      "storytelling therapy",
-      "rhythmic movement therapy",
-      "mindful coloring",
-      "garden-based therapy",
-      "lorundrostat",
-      "enlicitide",
-      "danuglipron",
-      "icotrokinra",
-      "sibeprenlimab",
-      "nipocalimab",
-      "zoliflodacin",
-      "tulisokibart",
-      "neflamapimod",
-      "iguratimod"
+      "body scan meditation",
+      "sound bath",
+      "cold plunge",
+      "forest school",
+      "art journaling",
+      "group drumming",
+      "guided nature walk",
+      "horticultural therapy",
+      "supportive counseling",
+      "leisure education",
+      "donidalorsen",
+      "namilumab",
+      "serdexmethylphenidate",
+      "vibegron",
+      "obefazimod",
+      "cenerimod",
+      "evobrutinib",
+      "leronlimab",
+      "temanogrel",
+      "tavapadon",
+      "xanomeline"
     ],
     "latest_attempts": {
       "first_candidates": 0,
-      "second_candidates": 2,
+      "second_candidates": 0,
       "non_drug_count": 10,
-      "notes": "The first 20-name attempt added 0 candidates; the second different attempt added 2 candidates, including 10 non-drug options; both candidates were processed."
+      "notes": "The first 20-name attempt added 0 candidates; the second different attempt also added 0 candidates from 22 supplied names, including 10 non-drug options; branch rotation is required next batch."
     },
     "added_candidates": 5416,
     "direct_added_candidates": 3281,
@@ -1084,7 +1085,7 @@
         "non_drug_count": 10
       }
     ],
-    "expansion_checkpoint": "batch 175 expansion: first attempt added 0 candidates; second different attempt added 2 candidates from 20 supplied names, including 10 non-drug options; both candidates were processed and 0 unchecked topics remain"
+    "expansion_checkpoint": "batch 176 expansion: first attempt added 0 candidates; second different attempt also added 0 candidates from 22 supplied names, including 10 non-drug options; change the substance branch next batch"
   },
   "resume": {
     "last_committed_batch": "batch 146: 30 evidence entries added from 29 off-label topics; 1 approved indication skipped; 10 unchecked topics remain",
@@ -1360,7 +1361,10 @@
     ,"batch 175: 0 evidence entries added; 1 duplicate topic and 1 ongoing trial without a result paper closed; 20 legacy sentences edited; 0 unchecked topics remain"
     ,"batch 175 build passed with no new line/effect/known warnings; six-round check after batches 170-175 deployed the prebuilt Production artifact and matched local/public counts at 3149"
     ,"six-round check after batches 170-175: no-effect/harm share 25%, harm 99, non-trial 408, unexpected-benefit entries 22; public HTTP 200 and local/public counts match at 3149 after prebuilt Production deployment because Git-triggered builds could not access C:\\dev\\kr-drug-data/permit/manifest.json"
+    ,"batch 176 expansion: first attempt added 0 candidates; second different attempt also added 0 candidates from 22 supplied names, including 10 non-drug options; branch rotation is required next batch"
+    ,"batch 176: 0 evidence entries added; 0 topics processed; 20 legacy sentences edited; 0 unchecked topics remain"
+    ,"batch 176 build passed with no new line/effect/known warnings; two consecutive zero-entry batches require changing the substance branch"
   ],
-  "current_batch": "batch 175 completed; 0 evidence entries, 1 duplicate topic, 1 ongoing trial without a result paper, and 20 legacy sentences closed; local/public production both have 3149 entries",
-  "next_action": "start batch 176 with git pull --ff-only and read AGENTS.md; count 0 unchecked topics, expand 20 new names with at least 5 non-drug options, then process the next candidates"
+  "current_batch": "batch 176 completed; 0 evidence entries, 0 topics processed, and 20 legacy sentences closed; local/public production both have 3149 entries",
+  "next_action": "start batch 177 with git pull --ff-only and read AGENTS.md; change to a different substance branch, expand 20 new names with at least 5 non-drug options, then process the next candidates"
 }
