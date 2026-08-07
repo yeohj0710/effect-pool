@@ -15340,10 +15340,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] chokeberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 42편 -->
 - [x] chokeberry — Hypertension에 듣는다  <!-- 시험 3건 · 논문 18편 -->
 - [x] glutathione — Autism에 듣는다  <!-- 시험 8건 · 논문 389편 --> — 근거 없음(2026-08-08, "glutathione AND Autism")
-- [ ] glutathione — Oxidative Stress에 듣는다  <!-- 시험 5건 · 논문 71285편 -->
-- [ ] glutathione — Liver Cancer에 듣는다  <!-- 시험 5건 · 논문 6104편 -->
-- [ ] glutathione — Cystic Fibrosis에 듣는다  <!-- 시험 4건 · 논문 428편 -->
-- [ ] betaine — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] betaine — Mucositis에 듣는다  <!-- 시험 3건 · 논문 101편 -->
-- [ ] inosine — Lymphatic Disease에 듣는다  <!-- 시험 3건 · 논문 208편 -->
-- [ ] inosine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 62편 -->
+- [x] glutathione — Oxidative Stress에 듣는다  <!-- 시험 5건 · 논문 71285편 --> — 항목(glutathione-oxidative-stress-null, 2026-08-08)
+- [x] glutathione — Liver Cancer에 듣는다  <!-- 시험 5건 · 논문 6104편 --> — 항목(glutathione-liver-cancer-pos, 2026-08-08)
+- [x] glutathione — Cystic Fibrosis에 듣는다  <!-- 시험 4건 · 논문 428편 --> — 항목(glutathione-cystic-fibrosis-null, 2026-08-08)
+- [x] betaine — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(betaine-hepatitis-c-pos, 2026-08-08)
+- [x] betaine — Mucositis에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 항목(betaine-mucositis-pos, 2026-08-08)
+- [x] inosine — Lymphatic Disease에 듣는다  <!-- 시험 3건 · 논문 208편 --> — 항목(inosine-lymphatic-disease-pos, 2026-08-08)
+- [x] inosine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 항목(inosine-parkinson-disease-null, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cordyceps — Sports Performance에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목(cordyceps-sports-performance-null, 2026-08-08)
+- [x] bromelain — Cancer에 듣는다  <!-- 시험 3건 · 논문 242편 --> — 항목(bromelain-cancer-pos, 2026-08-08)
+- [x] bitter melon — Glucose Intolerance에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목(bitter-melon-glucose-intolerance-pos, 2026-08-08)
