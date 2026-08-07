@@ -15290,3 +15290,60 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ganaxolone — Postpartum에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목 생성(ganaxolone-postpartum-null, 2026-08-08)
 - [x] pimavanserin — Insomnia에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 항목 생성(pimavanserin-insomnia-open, 2026-08-08)
 - [x] pimavanserin — Neurodegenerative Diseases에 듣는다  <!-- 시험 3건 · 논문 176편 --> — 항목 생성(pimavanserin-neurodegenerative-diseases-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] dance fitness — Motor Activity에 듣는다  <!-- 시험 6건 · 논문 373편 --> — 같은 근거(dance-motor-pos, 2026-08-08)
+- [x] dance fitness — Aged에 듣는다  <!-- 시험 3건 · 논문 297편 --> — 같은 근거(dance-aging-pos, 2026-08-08)
+- [x] dance fitness — Stress에 듣는다  <!-- 시험 3건 · 논문 61편 -->
+- [x] dance fitness — Anxiety에 듣는다  <!-- 시험 3건 · 논문 32편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] board games — Education에 듣는다  <!-- 시험 4건 · 논문 756편 -->
+- [x] board games — Stroke에 듣는다  <!-- 시험 3건 · 논문 55편 --> — 같은 근거(board-games-health-professional-education-null, 2026-08-08)
+- [x] board games — Smoking Cessation에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [x] board games — Child Behavior에 듣는다  <!-- 시험 3건 · 논문 94편 -->
+- [x] brain computer interface — Spinal Cord Injury에 듣는다  <!-- 시험 16건 · 논문 514편 -->
+- [x] brain computer interface — Multiple Sclerosis에 듣는다  <!-- 시험 8건 · 논문 86편 -->
+- [x] brain computer interface — Alzheimer's Disease에 듣는다  <!-- 시험 8건 · 논문 147편 --> — 근거 없음(2026-08-08, "brain computer interface AND Alzheimer's Disease")
+- [x] brain computer interface — Tetraplegia에 듣는다  <!-- 시험 6건 · 논문 274편 -->
+- [x] smartwatch intervention — Sleep Quality에 듣는다  <!-- 시험 5건 · 논문 105편 --> — 근거 없음(2026-08-08, "smartwatch intervention AND Sleep Quality")
+- [x] smartwatch intervention — Cancer에 듣는다  <!-- 시험 5건 · 논문 75편 -->
+- [x] smartwatch intervention — Atrial Fibrillation에 듣는다  <!-- 시험 5건 · 논문 163편 -->
+- [x] immersive virtual reality — Stroke에 듣는다  <!-- 시험 22건 · 논문 356편 -->
+- [x] immersive virtual reality — Pain에 듣는다  <!-- 시험 22건 · 논문 802편 -->
+- [x] immersive virtual reality — Anxiety에 듣는다  <!-- 시험 15건 · 논문 906편 -->
+- [x] immersive virtual reality — Education에 듣는다  <!-- 시험 11건 · 논문 2343편 -->
+- [x] virtual reality exergaming — Stroke에 듣는다  <!-- 시험 14건 · 논문 80편 -->
+- [x] virtual reality exergaming — Physical Fitness에 듣는다  <!-- 시험 12건 · 논문 45편 -->
+- [x] virtual reality exergaming — Obesity에 듣는다  <!-- 시험 7건 · 논문 17편 -->
+- [x] virtual reality exergaming — Parkinson에 듣는다  <!-- 시험 6건 · 논문 56편 --> — 같은 근거(virtual-reality-exercise-parkinson-pos, 2026-08-08)
+- [x] black cohosh — Hot Flashes에 듣는다  <!-- 시험 7건 · 논문 211편 -->
+- [x] soy protein — Obesity에 듣는다  <!-- 시험 19건 · 논문 537편 -->
+- [x] soy protein — Cardiovascular Risk에 듣는다  <!-- 시험 14건 · 논문 390편 -->
+- [x] soy protein — Osteoporosis에 듣는다  <!-- 시험 9건 · 논문 216편 -->
+- [x] chokeberry — Inflammation에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [x] chokeberry — Hypertension에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [x] glutathione — Autism에 듣는다  <!-- 시험 8건 · 논문 389편 --> — 근거 없음(2026-08-08, "glutathione AND Autism")
+- [ ] glutathione — Oxidative Stress에 듣는다  <!-- 시험 5건 · 논문 71285편 -->
+- [ ] glutathione — Liver Cancer에 듣는다  <!-- 시험 5건 · 논문 6104편 -->
+- [ ] glutathione — Cystic Fibrosis에 듣는다  <!-- 시험 4건 · 논문 428편 -->
+- [ ] betaine — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] betaine — Mucositis에 듣는다  <!-- 시험 3건 · 논문 101편 -->
+- [ ] inosine — Lymphatic Disease에 듣는다  <!-- 시험 3건 · 논문 208편 -->
+- [ ] inosine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 62편 -->

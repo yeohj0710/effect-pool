@@ -1,0 +1,28 @@
+{
+  "id": "smartwatch-intervention-atrial-fibrillation-pos",
+  "subj": "smartwatch intervention",
+  "claim": "스마트워치 불규칙 맥박 알림이 심방세동 확인을 돕는다",
+  "line": "스마트워치 알림 뒤 ECG 패치의 심방세동 양성예측도가 84%였다",
+  "effect": "동시 심방세동 양성예측도 84%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 419297,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "스마트워치는 심방세동 치료의 허가 적응증이 있는 의약품이 아닌 선별 기기다",
+  "why": "자가 보유 스마트워치와 스마트폰 앱을 사용한 대규모 전향적 관찰 연구다.",
+  "saw": "41만9297명 중 2161명에게 불규칙 맥박 알림이 갔고, ECG 패치를 분석할 수 있었던 450명 중 34%에서 심방세동이 확인됐다. 알림과 동시에 ECG에서 심방세동을 본 양성예측도는 84%였다.",
+  "limit": "알림을 받은 사람만 ECG 패치 검증을 받았고 전체 사용자에서 심방세동을 놓치지 않는 능력은 평가하지 않았다.",
+  "against": "알림 후 ECG 패치에서 심방세동이 확인된 비율은 34%로, 알림만으로 진단할 수 없었다.",
+  "use": "심방세동 의심 신호를 의료진 평가로 연결하는 보조 선별 수단으로 사용할 수 있지만 ECG 진단을 대신하지 않는다.",
+  "refs": [
+    { "label": "Large-Scale Assessment of a Smartwatch to Identify Atrial Fibrillation 쨌 NEJM 2019", "doi": "10.1056/NEJMoa1901183", "pmid": "31722151", "pmc": "PMC8112605", "nct": "NCT03335800" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "smartwatch intervention AND Atrial Fibrillation 쨌 25건 반환, 결과 보고 2건",
+    "pubmed": "smartwatch intervention AND Atrial Fibrillation 쨌 163건",
+    "negative": "smartwatch intervention AND Atrial Fibrillation AND (no effect OR did not OR failed OR no significant difference) 쨌 57건",
+    "safety": "smartwatch intervention AND (adverse OR toxicity OR case report OR harm) 쨌 110건"
+  }
+}
