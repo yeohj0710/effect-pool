@@ -13888,3 +13888,51 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online sleep intervention — Depression에 듣는다  <!-- 시험 10건 · 논문 1857편 -->
 - [x] online sleep intervention — Chronic Pain에 듣는다  <!-- 시험 9건 · 논문 247편 --> — 근거 없음(2026-08-06 조회, "online sleep intervention" AND "Chronic Pain")
 - [x] online sleep intervention — Anxiety에 듣는다  <!-- 시험 6건 · 논문 1717편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] home-based cognitive rehabilitation — Stroke에 듣는다  <!-- 시험 3건 · 논문 123편 --> — 근거 없음(2026-08-06 조회, "home-based cognitive rehabilitation" AND "Stroke")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] online cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 34건 · 논문 1547편 -->
+- [x] online cognitive behavioral therapy — Insomnia에 듣는다  <!-- 시험 13건 · 논문 358편 -->
+- [x] online cognitive behavioral therapy — Depressive Symptoms에 듣는다  <!-- 시험 13건 · 논문 1741편 -->
+- [x] online cognitive behavioral therapy — Cancer에 듣는다  <!-- 시험 12건 · 논문 332편 -->
+- [x] web-based cognitive behavioral therapy — Pain에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [x] web-based cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 540편 -->
+- [x] web-based cognitive behavioral therapy — Alcohol Abuse에 듣는다  <!-- 시험 6건 · 논문 36편 --> — 근거 없음(2026-08-06 조회, "web-based cognitive behavioral therapy" AND "Alcohol Abuse")
+- [x] web-based cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 5건 · 논문 415편 -->
+- [x] mobile cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 13건 · 논문 617편 -->
+- [x] mobile cognitive behavioral therapy — Back Pain에 듣는다  <!-- 시험 10건 · 논문 12편 --> — 근거 없음(2026-08-06 조회, "mobile cognitive behavioral therapy" AND "Back Pain")
+- [x] mobile cognitive behavioral therapy — Smoking에 듣는다  <!-- 시험 8건 · 논문 87편 --> — 근거 없음(2026-08-06 조회, "mobile cognitive behavioral therapy" AND "Smoking")
+- [x] mobile cognitive behavioral therapy — Sleep에 듣는다  <!-- 시험 8건 · 논문 257편 --> — 근거 없음(2026-08-06 조회, "mobile cognitive behavioral therapy" AND "Sleep")
+- [x] smartphone cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 4건 · 논문 337편 -->
+- [x] smartphone cognitive behavioral therapy — Smoking에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 근거 없음(2026-08-06 조회, "smartphone cognitive behavioral therapy" AND "Smoking")
+- [x] smartphone cognitive behavioral therapy — Eating Disorders에 듣는다  <!-- 시험 3건 · 논문 38편 --> — 근거 없음(2026-08-06 조회, "smartphone cognitive behavioral therapy" AND "Eating Disorders")
+- [x] online mindfulness intervention — Cancer에 듣는다  <!-- 시험 19건 · 논문 201편 -->
+- [x] online mindfulness intervention — Mental Health에 듣는다  <!-- 시험 16건 · 논문 915편 -->
+- [x] online mindfulness intervention — Stress에 듣는다  <!-- 시험 15건 · 논문 919편 -->
+- [x] online mindfulness intervention — Pain, Acute에 듣는다  <!-- 시험 15건 · 논문 8편 --> — 근거 없음(2026-08-06 조회, "online mindfulness intervention" AND "Pain, Acute")
+- [x] online parenting program — Parenting에 듣는다  <!-- 시험 5건 · 논문 3550편 -->
+- [x] online parenting program — Mental Health에 듣는다  <!-- 시험 3건 · 논문 791편 -->
+- [x] online parenting program — Anxiety에 듣는다  <!-- 시험 3건 · 논문 357편 -->
+- [x] online parenting program — Disruptive Behavior에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [x] virtual reality relaxation — Pain에 듣는다  <!-- 시험 56건 · 논문 182편 -->
+- [x] virtual reality relaxation — Stress에 듣는다  <!-- 시험 22건 · 논문 208편 -->
+- [x] virtual reality relaxation — Relaxation에 듣는다  <!-- 시험 12건 · 논문 595편 -->
+- [x] virtual reality relaxation — Cancer에 듣는다  <!-- 시험 9건 · 논문 67편 -->
