@@ -14673,6 +14673,51 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] light therapy — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 395편 -->
 - [x] nature exposure — Psychological Distress에 듣는다  <!-- 시험 4건 · 논문 414편 -->
 - [x] breathing exercise — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 249편 -->
-- [ ] breathing exercise — Pulmonary Disease에 듣는다  <!-- 시험 5건 · 논문 4262편 -->
-- [ ] breathing exercise — Muscle Tone에 듣는다  <!-- 시험 5건 · 논문 48편 -->
-- [ ] breathing exercise — Respiratory Disease에 듣는다  <!-- 시험 4건 · 논문 5880편 -->
+- [x] breathing exercise — Pulmonary Disease에 듣는다  <!-- 시험 5건 · 논문 4262편 -->
+- [x] breathing exercise — Muscle Tone에 듣는다  <!-- 시험 5건 · 논문 48편 -->
+- [x] breathing exercise — Respiratory Disease에 듣는다  <!-- 시험 4건 · 논문 5880편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] aerobic exercise — Exercise에 듣는다  <!-- 시험 15건 · 논문 640963편 --> — 중복(기존 aerobic-exercise-* 운동 항목)
+- [x] aerobic exercise — Lung Cancer에 듣는다  <!-- 시험 15건 · 논문 2960편 --> — 중복(aerobic-exercise-cancer-pos.json)
+- [x] aerobic exercise — Diabetes에 듣는다  <!-- 시험 12건 · 논문 44036편 -->
+- [x] aerobic exercise — Physical Fitness에 듣는다  <!-- 시험 10건 · 논문 43647편 --> — 중복(기존 유산소운동·운동능력 항목)
+- [x] yoga — Cancer에 듣는다  <!-- 시험 74건 · 논문 1172편 -->
+- [x] yoga — Rural Health에 듣는다  <!-- 시험 18건 · 논문 146편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT07489105·NCT05085392·NCT05844007)
+- [x] yoga — Pregnancy에 듣는다  <!-- 시험 16건 · 논문 379편 -->
+- [x] yoga — Sleep에 듣는다  <!-- 시험 13건 · 논문 978편 -->
+- [x] pilates — Women's Health에 듣는다  <!-- 시험 11건 · 논문 51편 -->
+- [x] pilates — Hypertension에 듣는다  <!-- 시험 10건 · 논문 27편 -->
+- [x] pilates — Laser Therapy에 듣는다  <!-- 시험 10건 · 논문 9편 -->
+- [x] pilates — Aging에 듣는다  <!-- 시험 9건 · 논문 95편 -->
+- [x] swimming — Asthma에 듣는다  <!-- 시험 4건 · 논문 451편 -->
+- [x] swimming — Recovery에 듣는다  <!-- 시험 3건 · 논문 2119편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT07596238·NCT07641062)
+- [x] cycling — Stroke에 듣는다  <!-- 시험 9건 · 논문 8249편 -->
+- [x] cycling — Brain Injuries에 듣는다  <!-- 시험 7건 · 논문 1511편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT03854214·NCT05888714·NCT06198153·NCT03600012)
+- [x] cycling — Exercise에 듣는다  <!-- 시험 7건 · 논문 40396편 --> — 근거 없음(2026-08-07, cycling AND Exercise; 직접 대상 결과 없음)
+- [x] cycling — Aging에 듣는다  <!-- 시험 6건 · 논문 28496편 --> — 근거 없음(2026-08-07, cycling AND Aging; 직접 대상 결과 없음)
+- [x] outdoor walking — Cognitive Fatigue에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-07, outdoor walking AND Cognitive Fatigue)
+- [x] group singing — Mental Health에 듣는다  <!-- 시험 4건 · 논문 163편 -->
+- [x] group singing — Stress에 듣는다  <!-- 시험 3건 · 논문 115편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT04454736)
+- [x] group singing — Parkinson에 듣는다  <!-- 시험 3건 · 논문 53편 -->
+- [x] laughter therapy — Self에 듣는다  <!-- 시험 6건 · 논문 99편 -->
+- [x] sleep extension — Circadian Disruption에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT01264913)
+- [x] low sodium diet — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 23편 --> — 근거 없음(2026-08-07, low sodium diet AND Lung Cancer)
+- [x] low sodium diet — Systolic Dysfunction에 듣는다  <!-- 시험 4건 · 논문 467편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT00689819)
+- [x] low sodium diet — Healthy Humans에 듣는다  <!-- 시험 4건 · 논문 1130편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT00345215·NCT03067363)
+- [ ] low sodium diet — Inflammation에 듣는다  <!-- 시험 3건 · 논문 407편 -->
+- [ ] fermented foods — Gut Health에 듣는다  <!-- 시험 5건 · 논문 1068편 -->
+- [ ] fermented foods — Obesity에 듣는다  <!-- 시험 4건 · 논문 731편 -->
+- [ ] fermented foods — Inflammation에 듣는다  <!-- 시험 3건 · 논문 979편 -->
+- [ ] whole grains — Metabolic Disease에 듣는다  <!-- 시험 10건 · 논문 816편 -->
+- [ ] whole grains — Healthy Diet에 듣는다  <!-- 시험 7건 · 논문 1431편 -->
+- [ ] whole grains — Diabetes에 듣는다  <!-- 시험 7건 · 논문 906편 -->
+- [ ] whole grains — Blood Glucose에 듣는다  <!-- 시험 6건 · 논문 366편 -->
