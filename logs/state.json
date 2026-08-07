@@ -3,14 +3,14 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 3725,
   "worklist": {
-    "total": 12992,
-    "checked": 12986,
+    "total": 12994,
+    "checked": 12988,
     "unchecked": 6,
-    "no_evidence_pending": 1281,
+    "no_evidence_pending": 1282,
     "next_batch": ["clonidine — Cancer", "desmopressin — Breast Cancer", "water intake — Colon Cancer", "weight loss counseling — Cancer", "alvimopan — Cancer", "naloxegol — Cancer"]
   },
   "verification": {
-    "build": "passed; batch 244 processed 27 non-oncology topics; 11 evidence entries were added, 11 no-evidence topics were marked, 5 approved indications were skipped, and 20 legacy sentences were tightened without changing numbers; all new actionable line/effect/scale warnings were fixed; one new truthful thin-study warning remains",
+    "build": "passed; batch 245 processed 2 non-oncology topics; no evidence entries were added, 1 no-evidence topic was marked, 1 approved indication was skipped, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings remain",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
@@ -800,8 +800,13 @@
     "batch 244 added ertapenem-bacteremia-null, eravacycline-sepsis-case-pos, eravacycline-pulmonary-infection-pos, alvimopan-bowel-dysfunction-open, milrinone-cardiac-output-pos, milrinone-septic-shock-pos, milrinone-vasospasm-pos, breathing-exercises-respiratory-open, breathing-exercises-anxiety-pos, intermittent-hypoxia-multiple-sclerosis-open, and intermittent-hypoxia-stroke-animal-pos",
     "batch 244 marked cefepime Antibiotic Allergy, doripenem Bacterial Infections and Infection, alvimopan Constipation, naloxegol Opioid Use, pegvisomant Insulin Resistance, milrinone Pulmonary Edema, breathing exercises Pulmonary Disease and Sleep, and intermittent hypoxia Sleep Apnea and Hypoxia as no-evidence; delafloxacin Pulmonary Infection, ertapenem Infections/Appendicitis/Pneumonia, and plazomicin Acute Pyelonephritis were skipped as approved indications",
     "batch 244 tightened 20 legacy sentences from amifampridine-myasthenia-gravis-harm through aquatic-walking-osteoarthritis; numbers, effects, and evidence levels were preserved",
-    "batch 244 build passed with one truthful thin-study warning for the 12-person intermittent hypoxia multiple sclerosis trial and two old approval-match warnings; local build is 3725 and public remains 3698 until the six-round check after batch 247"
+    "batch 244 build passed with one truthful thin-study warning for the 12-person intermittent hypoxia multiple sclerosis trial and two old approval-match warnings; local build is 3725 and public remains 3698 until the six-round check after batch 247",
+    "batch 245 expansion: the first 20-name branch added 2 candidates from emicizumab and chickpea; a different second 20-name branch added 0 candidates, so no third attempt was made",
+    "batch 245 processed 2 topics; added 0 evidence entries, marked chickpea Inflammation as no-evidence, skipped emicizumab Factor VIII as an approved hemophilia A indication, and left 6 oncology topics unchecked",
+    "batch 245 checked chickpea AND inflammation and found no direct human intervention evidence; registration and review results were not promoted to an evidence entry",
+    "batch 245 tightened 20 legacy sentences from aromatherapy-cancer through baricitinib-immune-thrombocytopenia; numbers, effects, and evidence levels were preserved",
+    "batch 245 build passed with no new actionable warnings; local build is 3725 and public remains 3698 until the six-round check after batch 247"
   ],
-  "current_batch": "batch 244 complete locally; 11 evidence entries, 11 no-evidence topics, 4 approved indications, and 6 oncology topics remain; local build 3725; public last verified 3698",
-  "next_action": "start batch 245 with git pull --ff-only and AGENTS.md; because 6 unchecked oncology topics remain, run expand-worklist.mjs --covered and a new 20-name branch first, then continue with non-oncology topics"
+  "current_batch": "batch 245 complete locally; 0 evidence entries, 1 no-evidence topic, 1 approved indication, and 6 oncology topics remain; local build 3725; public last verified 3698",
+  "next_action": "start batch 246 with git pull --ff-only and AGENTS.md; because 6 unchecked oncology topics remain, run expand-worklist.mjs --covered and a new 20-name branch first, then continue with non-oncology topics"
 }
