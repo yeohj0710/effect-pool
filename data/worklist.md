@@ -15252,3 +15252,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aflibercept — Cancer에 듣는다  <!-- 시험 52건 · 논문 654편 --> — 항목 생성(aflibercept-cancer-pos)
 - [x] aflibercept — Retinal Disease에 듣는다  <!-- 시험 45건 · 논문 2606편 --> — 허가 적응증(2026-08-08)
 - [x] aflibercept — Neovascularization에 듣는다  <!-- 시험 40건 · 논문 2055편 --> — 같은 근거(aflibercept-cancer-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] miso — Hypoxia에 듣는다  <!-- 시험 3건 · 논문 132편 --> — 근거 없음(2026-08-08, "miso AND Hypoxia")
+- [x] miso — Glioblastoma에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 항목 생성(miso-glioblastoma-null, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] flaxseed — Non Alcoholic Steatohepatitis에 듣는다  <!-- 시험 3건 · 논문 33편 --> — 항목 생성(flaxseed-non-alcoholic-steatohepatitis-pos, 2026-08-08)
+- [x] flaxseed — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 68편 --> — 항목 생성(flaxseed-hypercholesterolemia-harm, 2026-08-08)
+- [x] flaxseed — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 435편 --> — 항목 생성(flaxseed-cardiovascular-disease-null, 2026-08-08)
+- [x] flaxseed — Obesity에 듣는다  <!-- 시험 3건 · 논문 234편 --> — 항목 생성(flaxseed-obesity-pos, 2026-08-08)
+- [x] grape seed extract — Mood Change에 듣는다  <!-- 시험 4건 · 논문 23편 --> — 근거 없음(2026-08-08, "grape seed extract AND Mood Change")
+- [x] grape seed extract — Obesity에 듣는다  <!-- 시험 3건 · 논문 127편 --> — 근거 없음(2026-08-08, "grape seed extract AND Obesity")
+- [x] tai chi — Hypertension에 듣는다  <!-- 시험 7건 · 논문 194편 --> — 항목 생성(tai-chi-hypertension-pos, 2026-08-08)
+- [x] tai chi — Postural Balance에 듣는다  <!-- 시험 7건 · 논문 451편 --> — 항목 생성(tai-chi-postural-balance-pos, 2026-08-08)
+- [x] tai chi — Insomnia에 듣는다  <!-- 시험 7건 · 논문 88편 --> — 같은 근거(tai-chi-sleep-pos, 2026-08-08)
+- [x] tai chi — Fall에 듣는다  <!-- 시험 6건 · 논문 321편 --> — 같은 근거(tai-chi-falls-pos, 2026-08-08)
+- [x] ganaxolone — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(ganaxolone-depressive-disorder-pos, 2026-08-08)
+- [x] ganaxolone — Epilepsies, Partial에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-08, "ganaxolone AND Epilepsies, Partial")
+- [x] ganaxolone — CDKL5 Disorder에 듣는다  <!-- 시험 3건 · 논문 20편 --> — 허가 적응증(2026-08-08)
+- [x] ganaxolone — Postpartum에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목 생성(ganaxolone-postpartum-null, 2026-08-08)
+- [x] pimavanserin — Insomnia에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 항목 생성(pimavanserin-insomnia-open, 2026-08-08)
+- [x] pimavanserin — Neurodegenerative Diseases에 듣는다  <!-- 시험 3건 · 논문 176편 --> — 항목 생성(pimavanserin-neurodegenerative-diseases-pos, 2026-08-08)
