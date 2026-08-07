@@ -1,67 +1,50 @@
 {
   "updated": "2026-08-06",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 2928,
+  "entries": 2951,
   "worklist": {
-    "checked": 11543,
-    "unchecked": 16,
-    "no_evidence_pending": 391,
-    "next_batch": [
-      "music intervention — Dementia",
-      "peer support group — Opioid Use",
-      "peer support group — HIV",
-      "peer support group — Diabetes",
-      "peer support group — Stress",
-      "online counseling — Depression",
-      "online counseling — Anxiety",
-      "online counseling — Stress",
-      "online counseling — Obesity",
-      "health coaching intervention — Obesity",
-      "health coaching intervention — Diabetes",
-      "health coaching intervention — Hypertension",
-      "health coaching intervention — Weight Loss",
-      "ixekizumab — Psoriatic Plaque",
-      "ixekizumab — Spondyloarthritis",
-      "ixekizumab — Obesity"
-    ]
+    "checked": 11569,
+    "unchecked": 0,
+    "no_evidence_pending": 392,
+    "next_batch": []
   },
   "verification": {
-    "build": "passed; batch 151 added 20 evidence entries from 30 off-label topics and closed 10 no-evidence topics; no approved indication was processed; no new line/effect/known warnings; three truthful unknown-n and two truthful thin-study warnings from this batch remain",
+    "build": "passed; batch 152 added 23 evidence entries from 26 off-label topics and closed 1 no-evidence topic; 2 approved indications were skipped; no new line/effect/known warnings; four truthful unknown-n warnings from this batch remain",
     "line_warnings": 0,
-    "unknown_n_warnings": 290,
+    "unknown_n_warnings": 294,
     "known_warnings": 0,
     "tier_distribution": {
-      "trial": 2564,
-      "obs": 310,
+      "trial": 2582,
+      "obs": 315,
       "animal": 19,
       "lab": 9,
       "case": 26
     },
-    "no_effect_or_harm": 746,
+    "no_effect_or_harm": 750,
     "harm": 98,
     "no_effect_or_harm_share": "25%",
-    "connected_evidence": 4229,
+    "connected_evidence": 4252,
     "thin_warnings": 449
   },
   "deployment": {
-    "last_entry_count": 2928,
+    "last_entry_count": 2951,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BY3dYHXVQspXyBkdz15wBBHisFqP",
-    "deployment_state": "six-round check after batches 146-151: local and public builds match at 2928 entries after prebuilt Production deployment; Git-triggered remote build cannot access C:\\dev\\kr-drug-data/permit/manifest.json",
+    "deployment_state": "batch 152 local build has 2951 entries; public remains at the batch 151 deployment with 2928 entries until the six-round deployment check",
     "deployment_url": "https://offlabel-pool-gk0e1jt1t-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-06",
-    "local_entry_count": 2928,
+    "local_entry_count": 2951,
     "public_entry_count": 2928,
     "public_id_field_count": 2928,
-    "counts_match": true,
-    "latest_note": "Batch 151 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; deployment dpl_BY3dYHXVQspXyBkdz15wBBHisFqP reached Production and the production alias returned HTTP 200 with 2928 entries. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json, so the local prebuilt artifact was deployed.",
+    "counts_match": false,
+    "latest_note": "Batch 151 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; deployment dpl_BY3dYHXVQspXyBkdz15wBBHisFqP reached Production and the production alias returned HTTP 200 with 2928 entries. Batch 152 local build now has 2951 entries; public remains 2928 until the next six-round check. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
-    "last_batch": [
-    "created 20 evidence entries from 30 off-label topics, including home rehabilitation, mindfulness, health literacy, telepsychiatry, remote physical therapy, and music intervention",
-    "closed 10 no-evidence topics after exact ClinicalTrials.gov and PubMed searches; no approved indication was processed",
-    "the first expansion added 28 candidates from 20 quoted names, including 7 non-drug options; 46 unchecked topics were available and 30 were processed",
-    "build passed with no new line/effect/known warnings; three truthful unknown-n and two truthful thin-study warnings from this batch remain; local count is 2928"
+  "last_batch": [
+    "created 23 evidence entries from 26 off-label topics, including music intervention, peer support, online counseling, health coaching, patient-reported outcome monitoring, behavioral activation, and online group therapy",
+    "closed 1 no-evidence topic after exact ClinicalTrials.gov and PubMed searches; skipped 2 ixekizumab approved-indication topics",
+    "the first expansion added 10 candidates from 20 quoted names, including 8 non-drug options; 26 unchecked topics were processed and no second expansion was needed",
+    "build passed with no new line/effect/known warnings; four truthful unknown-n warnings remain; local count is 2951"
   ],
   "expansion": {
     "date": "2026-08-06",
@@ -106,37 +89,37 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 28,
+    "latest_candidates": 10,
     "latest_substances": [
-      "telepsychiatry",
       "digital phenotyping",
-      "video consultation",
-      "remote physical therapy",
-      "community gardening",
-      "music intervention",
-      "peer support group",
-      "online counseling",
-      "caregiver respite",
-      "health coaching intervention",
-      "anifrolumab",
-      "teplizumab",
-      "donidalorsen",
-      "garadacimab",
-      "nipocalimab",
-      "rozanolixizumab",
-      "etrasimod",
-      "lenacapavir",
-      "ensitrelvir",
-      "ixekizumab"
+      "social rhythm therapy",
+      "patient-reported outcome monitoring",
+      "interoceptive exposure",
+      "behavioral activation for anxiety",
+      "online group therapy",
+      "sleep regularity coaching",
+      "nature prescription",
+      "vutrisiran",
+      "lepodisiran",
+      "rocatinlimab",
+      "itepekimab",
+      "povetacicept",
+      "frexalimab",
+      "tolebrutinib",
+      "fenebrutinib",
+      "cenerimod",
+      "batoclimab",
+      "icotrokinra",
+      "zasocitinib"
     ],
     "latest_attempts": {
-        "first_candidates": 28,
+        "first_candidates": 10,
       "second_candidates": 0,
-        "non_drug_count": 7,
-        "notes": "The first expansion added 28 candidates from 20 quoted names, including 7 non-drug options; the 18 carried-over topics were processed first, and no second expansion was needed."
+        "non_drug_count": 8,
+        "notes": "The first expansion added 10 candidates from 20 quoted names, including 8 non-drug options; the 16 carried-over topics were processed first, and no second expansion was needed."
     },
-    "added_candidates": 5132,
-    "direct_added_candidates": 2997,
+    "added_candidates": 5142,
+    "direct_added_candidates": 3007,
     "last_attempts": [
       {
         "candidates": 47,
@@ -1312,7 +1295,10 @@
     "batch 151: 20 evidence entries added; 10 no-evidence topics closed; 0 approved indications skipped; 16 unchecked topics remain",
     "batch 151 build passed with no new line/effect/known warnings; three truthful unknown-n and two truthful thin-study warnings remain; local build is 2928 while public remains 2813 before the six-round deployment check",
     "six-round check after batches 146-151: no-effect/harm share 25%, harm 98, non-trial 364, local/public counts match at 2928; prebuilt Production deployment dpl_BY3dYHXVQspXyBkdz15wBBHisFqP succeeded because the Git-triggered remote build cannot access C:\\dev\\kr-drug-data/permit/manifest.json"
+    ,"batch 152 expansion: first attempt added 10 candidates from 20 quoted names, including 8 non-drug options; 26 unchecked topics were processed and no second attempt was needed"
+    ,"batch 152: 23 evidence entries added; 1 no-evidence topic closed; 2 approved indications skipped; 0 unchecked topics remain"
+    ,"batch 152 build passed with no new line/effect/known warnings; four truthful unknown-n warnings remain; local build is 2951"
   ],
-  "current_batch": "batch 151 completed; six-round deployment check recorded; 20 evidence entries added from 30 off-label topics; 10 no-evidence topics closed; build passed; 16 unchecked topics remain",
-  "next_action": "start batch 152 with git pull --ff-only and read AGENTS.md; count 16 unchecked topics and expand because the queue is below 30"
+  "current_batch": "batch 152 completed; 23 evidence entries added from 26 off-label topics; 1 no-evidence topic closed; 2 approved indications skipped; build passed; 0 unchecked topics remain",
+  "next_action": "start batch 153 with git pull --ff-only and read AGENTS.md; count 0 unchecked topics and expand with 20 new quoted names because the queue is below 30"
 }

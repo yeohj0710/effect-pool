@@ -13628,19 +13628,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] music intervention — Pain에 듣는다  <!-- 시험 74건 · 논문 2334편 --> — 근거 항목 추가(2026-08-06)
 - [x] music intervention — Cancer에 듣는다  <!-- 시험 42건 · 논문 1244편 --> — 근거 항목 추가(2026-08-06)
 - [x] music intervention — Stress에 듣는다  <!-- 시험 34건 · 논문 2009편 --> — 근거 없음(2026-08-06, "music intervention" AND "Stress")
-- [ ] music intervention — Dementia에 듣는다  <!-- 시험 32건 · 논문 1181편 -->
-- [ ] peer support group — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 445편 -->
-- [ ] peer support group — HIV에 듣는다  <!-- 시험 24건 · 논문 1920편 -->
-- [ ] peer support group — Diabetes에 듣는다  <!-- 시험 24건 · 논문 1462편 -->
-- [ ] peer support group — Stress에 듣는다  <!-- 시험 18건 · 논문 2643편 -->
-- [ ] online counseling — Depression에 듣는다  <!-- 시험 11건 · 논문 852편 -->
-- [ ] online counseling — Anxiety에 듣는다  <!-- 시험 11건 · 논문 866편 -->
-- [ ] online counseling — Stress에 듣는다  <!-- 시험 9건 · 논문 892편 -->
-- [ ] online counseling — Obesity에 듣는다  <!-- 시험 7건 · 논문 282편 -->
-- [ ] health coaching intervention — Obesity에 듣는다  <!-- 시험 36건 · 논문 1107편 -->
-- [ ] health coaching intervention — Diabetes에 듣는다  <!-- 시험 25건 · 논문 1365편 -->
-- [ ] health coaching intervention — Hypertension에 듣는다  <!-- 시험 10건 · 논문 395편 -->
-- [ ] health coaching intervention — Weight Loss에 듣는다  <!-- 시험 10건 · 논문 724편 -->
-- [ ] ixekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 13건 · 논문 99편 -->
-- [ ] ixekizumab — Spondyloarthritis에 듣는다  <!-- 시험 5건 · 논문 305편 -->
-- [ ] ixekizumab — Obesity에 듣는다  <!-- 시험 3건 · 논문 39편 -->
+- [x] music intervention — Dementia에 듣는다  <!-- 시험 32건 · 논문 1181편 -->
+- [x] peer support group — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 445편 -->
+- [x] peer support group — HIV에 듣는다  <!-- 시험 24건 · 논문 1920편 -->
+- [x] peer support group — Diabetes에 듣는다  <!-- 시험 24건 · 논문 1462편 -->
+- [x] peer support group — Stress에 듣는다  <!-- 시험 18건 · 논문 2643편 -->
+- [x] online counseling — Depression에 듣는다  <!-- 시험 11건 · 논문 852편 -->
+- [x] online counseling — Anxiety에 듣는다  <!-- 시험 11건 · 논문 866편 -->
+- [x] online counseling — Stress에 듣는다  <!-- 시험 9건 · 논문 892편 -->
+- [x] online counseling — Obesity에 듣는다  <!-- 시험 7건 · 논문 282편 -->
+- [x] health coaching intervention — Obesity에 듣는다  <!-- 시험 36건 · 논문 1107편 -->
+- [x] health coaching intervention — Diabetes에 듣는다  <!-- 시험 25건 · 논문 1365편 -->
+- [x] health coaching intervention — Hypertension에 듣는다  <!-- 시험 10건 · 논문 395편 -->
+- [x] health coaching intervention — Weight Loss에 듣는다  <!-- 시험 10건 · 논문 724편 -->
+- [x] ixekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 13건 · 논문 99편 --> — 허가 적응증(2026-08-06)
+- [x] ixekizumab — Spondyloarthritis에 듣는다  <!-- 시험 5건 · 논문 305편 --> — 허가 적응증(2026-08-06)
+- [x] ixekizumab — Obesity에 듣는다  <!-- 시험 3건 · 논문 39편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] patient-reported outcome monitoring — Patient Safety에 듣는다  <!-- 시험 3건 · 논문 2774편 -->
+- [x] patient-reported outcome monitoring — Kidney Transplantation에 듣는다  <!-- 시험 3건 · 논문 158편 -->
+- [x] behavioral activation for anxiety — Depression에 듣는다  <!-- 시험 20건 · 논문 26940편 -->
+- [x] behavioral activation for anxiety — Depressive Disorder에 듣는다  <!-- 시험 10건 · 논문 3901편 -->
+- [x] behavioral activation for anxiety — Stress에 듣는다  <!-- 시험 8건 · 논문 17673편 -->
+- [x] behavioral activation for anxiety — Cancer에 듣는다  <!-- 시험 7건 · 논문 3164편 -->
+- [x] online group therapy — Anxiety에 듣는다  <!-- 시험 13건 · 논문 2019편 -->
+- [x] online group therapy — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 602편 -->
+- [x] online group therapy — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 486편 --> — 근거 없음(2026-08-06 조회, "online group therapy" AND "cognitive symptom")
+- [x] online group therapy — Distress에 듣는다  <!-- 시험 9건 · 논문 935편 -->
