@@ -13508,23 +13508,62 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] home blood pressure monitoring — Chronic Kidney Disease에 듣는다  <!-- 시험 8건 · 논문 1238편 --> — 근거 없음(2026-08-06, "home blood pressure monitoring" AND "Chronic Kidney Disease")
 - [x] home blood pressure monitoring — Preeclampsia에 듣는다  <!-- 시험 7건 · 논문 367편 --> — 근거 항목 추가(2026-08-06)
 - [x] home blood pressure monitoring — Stroke에 듣는다  <!-- 시험 7건 · 논문 1431편 --> — 근거 항목 추가(2026-08-06)
-- [ ] remote patient monitoring — Surgery에 듣는다  <!-- 시험 10건 · 논문 1197편 -->
-- [ ] remote patient monitoring — Patient Discharge에 듣는다  <!-- 시험 5건 · 논문 478편 -->
-- [ ] remote patient monitoring — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 66편 -->
-- [ ] digital cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 27건 · 논문 1142편 -->
-- [ ] digital cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1003편 -->
-- [ ] digital cognitive behavioral therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 151편 -->
-- [ ] digital cognitive behavioral therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 50편 -->
-- [ ] group prenatal care — Prenatal에 듣는다  <!-- 시험 16건 · 논문 19761편 -->
-- [ ] group prenatal care — Infant Behavior에 듣는다  <!-- 시험 5건 · 논문 719편 -->
-- [ ] group prenatal care — Fetal Conditions에 듣는다  <!-- 시험 5건 · 논문 1376편 -->
-- [ ] group prenatal care — Hernia에 듣는다  <!-- 시험 5건 · 논문 219편 -->
-- [ ] nutrition education — Obesity에 듣는다  <!-- 시험 32건 · 논문 20820편 -->
-- [ ] nutrition education — Pre Diabetes에 듣는다  <!-- 시험 18건 · 논문 1185편 -->
-- [ ] nutrition education — Weight에 듣는다  <!-- 시험 7건 · 논문 30985편 -->
-- [ ] nutrition education — M-health에 듣는다  <!-- 시험 7건 · 논문 81편 -->
-- [ ] resistance training — Sarcopenia에 듣는다  <!-- 시험 23건 · 논문 1513편 -->
-- [ ] resistance training — Muscle에 듣는다  <!-- 시험 22건 · 논문 19146편 -->
-- [ ] resistance training — Walking Impairment에 듣는다  <!-- 시험 8건 · 논문 271편 -->
-- [ ] resistance training — ACL Injury에 듣는다  <!-- 시험 8건 · 논문 138편 -->
-- [ ] donanemab — Amyloid에 듣는다  <!-- 시험 3건 · 논문 352편 -->
+- [x] remote patient monitoring — Surgery에 듣는다  <!-- 시험 10건 · 논문 1197편 --> — 근거 항목 추가(2026-08-06)
+- [x] remote patient monitoring — Patient Discharge에 듣는다  <!-- 시험 5건 · 논문 478편 --> — 근거 없음(2026-08-06, "remote patient monitoring" AND "Patient Discharge")
+- [x] remote patient monitoring — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 66편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 27건 · 논문 1142편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1003편 --> — 근거 없음(2026-08-06, "digital cognitive behavioral therapy" AND "Anxiety")
+- [x] digital cognitive behavioral therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 151편 --> — 근거 없음(2026-08-06, "digital cognitive behavioral therapy" AND "Cognitive Decline")
+- [x] digital cognitive behavioral therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 50편 --> — 근거 항목 추가(2026-08-06)
+- [x] group prenatal care — Prenatal에 듣는다  <!-- 시험 16건 · 논문 19761편 --> — 근거 없음(2026-08-06, "group prenatal care" AND "Prenatal")
+- [x] group prenatal care — Infant Behavior에 듣는다  <!-- 시험 5건 · 논문 719편 --> — 근거 없음(2026-08-06, "group prenatal care" AND "Infant Behavior")
+- [x] group prenatal care — Fetal Conditions에 듣는다  <!-- 시험 5건 · 논문 1376편 --> — 근거 없음(2026-08-06, "group prenatal care" AND "Fetal Conditions")
+- [x] group prenatal care — Hernia에 듣는다  <!-- 시험 5건 · 논문 219편 --> — 근거 없음(2026-08-06, "group prenatal care" AND "Hernia")
+- [x] nutrition education — Obesity에 듣는다  <!-- 시험 32건 · 논문 20820편 --> — 근거 없음(2026-08-06, "nutrition education" AND "Obesity")
+- [x] nutrition education — Pre Diabetes에 듣는다  <!-- 시험 18건 · 논문 1185편 --> — 근거 없음(2026-08-06, "nutrition education" AND "Pre Diabetes")
+- [x] nutrition education — Weight에 듣는다  <!-- 시험 7건 · 논문 30985편 --> — 근거 없음(2026-08-06, "nutrition education" AND "Weight")
+- [x] nutrition education — M-health에 듣는다  <!-- 시험 7건 · 논문 81편 --> — 근거 항목 추가(2026-08-06)
+- [x] resistance training — Sarcopenia에 듣는다  <!-- 시험 23건 · 논문 1513편 --> — 근거 항목 추가(2026-08-06)
+- [x] resistance training — Muscle에 듣는다  <!-- 시험 22건 · 논문 19146편 --> — 근거 항목 추가(2026-08-06)
+- [x] resistance training — Walking Impairment에 듣는다  <!-- 시험 8건 · 논문 271편 --> — 근거 없음(2026-08-06, "resistance training" AND "Walking Impairment")
+- [x] resistance training — ACL Injury에 듣는다  <!-- 시험 8건 · 논문 138편 --> — 근거 항목 추가(2026-08-06)
+- [x] donanemab — Amyloid에 듣는다  <!-- 시험 3건 · 논문 352편 --> — 근거 없음(2026-08-06, "donanemab" AND "Amyloid")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] telephone health coaching — Diabetes에 듣는다  <!-- 시험 6건 · 논문 242편 --> — 근거 없음(2026-08-06, "telephone health coaching" AND "Diabetes")
+- [x] telephone health coaching — Obesity에 듣는다  <!-- 시험 5건 · 논문 189편 --> — 근거 항목 추가(2026-08-06)
+- [x] telephone health coaching — Depression에 듣는다  <!-- 시험 5건 · 논문 192편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital self-management support — Cancer에 듣는다  <!-- 시험 18건 · 논문 572편 --> — 근거 없음(2026-08-06, "digital self-management support" AND "Cancer")
+- [x] digital self-management support — Acute Pain에 듣는다  <!-- 시험 6건 · 논문 44편 --> — 근거 없음(2026-08-06, "digital self-management support" AND "Acute Pain")
+- [x] digital self-management support — Parkinson에 듣는다  <!-- 시험 4건 · 논문 58편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital self-management support — Palliative Care에 듣는다  <!-- 시험 4건 · 논문 105편 --> — 근거 항목 추가(2026-08-06)
+- [x] text message reminders — HIV에 듣는다  <!-- 시험 23건 · 논문 291편 --> — 근거 항목 추가(2026-08-06)
+- [x] text message reminders — Colon Cancer에 듣는다  <!-- 시험 23건 · 논문 12편 --> — 근거 항목 추가(2026-08-06)
+- [x] text message reminders — Diabetes에 듣는다  <!-- 시험 15건 · 논문 180편 --> — 근거 없음(2026-08-06, "text message reminders" AND "Diabetes")
+- [ ] text message reminders — Child Health에 듣는다  <!-- 시험 14건 · 논문 321편 -->
+- [ ] nurse-led education — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 150편 -->
+- [ ] nurse-led education — Type 2 Diabetes에 듣는다  <!-- 시험 9건 · 논문 123편 -->
+- [ ] nurse-led education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 215편 -->
+- [ ] nurse-led education — School Health에 듣는다  <!-- 시험 6건 · 논문 2200편 -->
+- [ ] home-based exercise program — Knee OA에 듣는다  <!-- 시험 13건 · 논문 72편 -->
+- [ ] home-based exercise program — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 216편 -->
+- [ ] home-based exercise program — Physical Fitness에 듣는다  <!-- 시험 5건 · 논문 577편 -->
+- [ ] home-based exercise program — Exercise에 듣는다  <!-- 시험 5건 · 논문 4344편 -->
+- [ ] food pharmacy — Obesity에 듣는다  <!-- 시험 3건 · 논문 4161편 -->
+- [ ] social prescribing — Depression에 듣는다  <!-- 시험 3건 · 논문 443편 -->
+- [ ] caregiver training — Dementia에 듣는다  <!-- 시험 9건 · 논문 5654편 -->
+- [ ] caregiver training — Cancer에 듣는다  <!-- 시험 9건 · 논문 4664편 -->
+- [ ] sleep education — Stress에 듣는다  <!-- 시험 10건 · 논문 6295편 -->
+- [ ] sleep education — Motor Activity에 듣는다  <!-- 시험 9건 · 논문 3390편 -->
+- [ ] sleep education — Infant Health에 듣는다  <!-- 시험 9건 · 논문 1819편 -->
+- [ ] sleep education — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 528편 -->
+- [ ] inclisiran — Mixed Dyslipidemia에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] inclisiran — Hypercholesterolaemia에 듣는다  <!-- 시험 3건 · 논문 290편 -->
