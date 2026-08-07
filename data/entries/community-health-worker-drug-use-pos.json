@@ -1,0 +1,29 @@
+{
+  "id": "community-health-worker-drug-use-pos",
+  "subj": "community health worker",
+  "claim": "보건인력 지원을 약물 사용 문제의 금연에 쓴다",
+  "line": "정신질환 흡연자에서 보건인력 지원 금연율이 높았습니다",
+  "effect": "금연 12% 대 5%·n=1,010",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1010,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "community health worker는 금연 약물이 아니라 금연 지원을 전달하는 인력입니다",
+  "why": "약물 사용 문제에 대한 보건인력 지원 중 금연 결과를 직접 평가한 군집무작위시험을 확인합니다",
+  "saw": "중증 정신질환 흡연자 1,010명이 참여한 시험에서 보건의료진 교육과 보건인력 지원을 함께 받은 군의 2년 생화학적 금연율은 12%였습니다. 일반진료군은 5%, 보건의료진 교육만 받은 군은 7%였고, 보건인력 지원군의 바레니클린 사용도 늘었습니다.",
+  "limit": "보건의료진 교육과 보건인력 지원을 함께 배정해 보건인력의 단독 효과를 분리할 수 없고, 중증 정신질환 흡연자에 한정됩니다.",
+  "against": "보건의료진 교육만 받은 군에서는 금연 효과가 검출되지 않았고, 보건인력 금연 개입에 관한 라틴계 음주 문제 문헌고찰은 포함 연구가 6편뿐이었습니다.",
+  "use": "약물 사용 문제 중 흡연에서 보건인력 지원이 금연율과 금연약 사용을 높인 근거로 기록합니다.",
+  "refs": [
+    { "label": "Himelhoch 2022 · 중증 정신질환 흡연자 보건인력 금연 군집무작위시험", "doi": "10.1176/appi.ps.20220187", "pmid": "36349498" },
+    { "label": "Cabassa 2023 · 라틴계 음주 문제 보건인력 문헌고찰", "doi": "10.1097/ADM.0000000000001209", "pmid": "37934543" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=community health worker AND condition=Drug Use; 19건 반환",
+    "pubmed": "community health worker AND (drug use OR substance use OR substance use disorder); 5,078편",
+    "negative": "community health worker AND (drug use OR substance use OR substance use disorder) AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
+    "safety": "community health worker AND (adverse OR toxicity OR case report OR harm); 결과 없음"
+  }
+}

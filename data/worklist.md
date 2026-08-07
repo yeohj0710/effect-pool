@@ -15857,7 +15857,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] maraviroc — Stroke에 듣는다  <!-- 시험 7건 · 논문 20편 --> — maraviroc-stroke-pos (2026-08-08)
 - [x] maraviroc — Graft-versus-host Disease에 듣는다  <!-- 시험 4건 · 논문 27편 --> — maraviroc-graft-versus-host-disease-null (2026-08-08)
 - [x] rilpivirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 7건 · 논문 1443편 --> — 허가 적응증(2026-08-08)
-- [x] rilpivirine — Contraception에 듣는다  <!-- 시험 3건 · 논문 16편 --> — rilpivirine-contraception-open (2026-08-08)
+- [x] rilpivirine — Contraception에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-08, rilpivirine AND Contraception; 등록 시험 3건에 결과 논문 없음)
 - [x] bedaquiline — Pulmonary TB에 듣는다  <!-- 시험 11건 · 논문 469편 --> — bedaquiline-pulmonary-tb-pos (2026-08-08)
 - [x] bedaquiline — Bacterial Infections에 듣는다  <!-- 시험 6건 · 논문 1327편 --> — bedaquiline-bacterial-infections-open (2026-08-08)
 - [x] bedaquiline — MDR-TB에 듣는다  <!-- 시험 5건 · 논문 531편 --> — 허가 적응증(2026-08-08)
@@ -15894,3 +15894,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness in nature — Stress Reaction에 듣는다  <!-- 시험 8건 · 논문 8편 --> — mindfulness-in-nature-stress-reaction-null (2026-08-08)
 - [x] mindfulness in nature — Mental Health Issue에 듣는다  <!-- 시험 3건 · 논문 64편 --> — mindfulness-in-nature-mental-health-issue-pos (2026-08-08)
 - [x] mindfulness in nature — Substance Use에 듣는다  <!-- 시험 3건 · 논문 103편 --> — mindfulness-in-nature-substance-use-pos (2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] community health worker — Health에 듣는다  <!-- 시험 22건 · 논문 45214편 --> — community-health-worker-health-pos (2026-08-08)
+- [x] community health worker — COVID-19에 듣는다  <!-- 시험 8건 · 논문 4690편 --> — community-health-worker-covid-19-pos (2026-08-08)
+- [x] community health worker — Malnutrition에 듣는다  <!-- 시험 8건 · 논문 681편 --> — community-health-worker-malnutrition-pos (2026-08-08)
+- [x] community health worker — Drug Use에 듣는다  <!-- 시험 8건 · 논문 4257편 --> — community-health-worker-drug-use-pos (2026-08-08)
