@@ -13725,3 +13725,49 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pain education app — Hip Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 - [x] virtual caregiver support — Caregiver에 듣는다  <!-- 시험 3건 · 논문 1308편 -->
 - [x] olipudase alfa — Acid Sphingomyelinase Deficiency에 듣는다  <!-- 시험 3건 · 논문 55편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] peer recovery support — Family Health에 듣는다  <!-- 시험 12건 · 논문 512편 --> — 근거 없음(2026-08-06 조회, "peer recovery support" AND "Family Health")
+- [x] peer recovery support — Psychotic Disorder에 듣는다  <!-- 시험 7건 · 논문 117편 -->
+- [x] peer recovery support — Substance Abuse에 듣는다  <!-- 시험 7건 · 논문 616편 -->
+- [x] peer recovery support — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 52편 -->
+- [x] group medical nutrition therapy — Obesity에 듣는다  <!-- 시험 10건 · 논문 12284편 --> — 근거 없음(2026-08-06 조회, "group medical nutrition therapy" AND "Obesity")
+- [x] group medical nutrition therapy — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 7건 · 논문 4109편 --> — 근거 없음(2026-08-06 조회, "group medical nutrition therapy" AND "Type 2 Diabetes Mellitus")
+- [x] group medical nutrition therapy — Hypertension에 듣는다  <!-- 시험 5건 · 논문 3931편 --> — 근거 없음(2026-08-06 조회, "group medical nutrition therapy" AND "Hypertension")
+- [x] group medical nutrition therapy — Frail에 듣는다  <!-- 시험 4건 · 논문 628편 --> — 근거 없음(2026-08-06 조회, "group medical nutrition therapy" AND "Frail")
+- [x] nerandomilast — Pulmonary Fibrosis에 듣는다  <!-- 시험 4건 · 논문 58편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] virtual group education — Cancer에 듣는다  <!-- 시험 26건 · 논문 801편 --> — 근거 없음(2026-08-06 조회, "virtual group education" AND "Cancer")
+- [x] virtual group education — Pain에 듣는다  <!-- 시험 24건 · 논문 488편 -->
+- [x] virtual group education — Anxiety에 듣는다  <!-- 시험 21건 · 논문 603편 --> — 근거 없음(2026-08-06 조회, "virtual group education" AND "Anxiety")
+- [x] virtual group education — Stroke에 듣는다  <!-- 시험 17건 · 논문 175편 --> — 근거 없음(2026-08-06 조회, "virtual group education" AND "Stroke")
+- [x] home-based walking program — Rehabilitation에 듣는다  <!-- 시험 10건 · 논문 831편 --> — 근거 없음(2026-08-06 조회, "home-based walking program" AND "Rehabilitation")
+- [x] home-based walking program — Lung Neoplasm에 듣는다  <!-- 시험 8건 · 논문 10편 -->
+- [x] home-based walking program — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 56편 -->
+- [x] home-based walking program — Exercise에 듣는다  <!-- 시험 7건 · 논문 901편 -->
+- [x] produce voucher — Obesity에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] cooking intervention — Pre Diabetes에 듣는다  <!-- 시험 12건 · 논문 66편 --> — 근거 없음(2026-08-06 조회, "cooking intervention" AND "Pre Diabetes")
+- [x] cooking intervention — Diet에 듣는다  <!-- 시험 8건 · 논문 4025편 -->
+- [x] cooking intervention — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 684편 -->
+- [x] cooking intervention — Family Health에 듣는다  <!-- 시험 3건 · 논문 1404편 --> — 근거 없음(2026-08-06 조회, "cooking intervention" AND "Family Health")
+- [x] family caregiver training — Anorexia Nervosa에 듣는다  <!-- 시험 6건 · 논문 73편 -->
+- [x] family caregiver training — Cancer에 듣는다  <!-- 시험 6건 · 논문 4232편 --> — 근거 없음(2026-08-06 조회, "family caregiver training" AND "Cancer")
+- [x] family caregiver training — Childhood Obesity에 듣는다  <!-- 시험 4건 · 논문 400편 -->
+- [x] family caregiver training — Stroke에 듣는다  <!-- 시험 4건 · 논문 1257편 -->
