@@ -13112,3 +13112,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acceptance and commitment coaching — Depression에 듣는다  <!-- 시험 4건 · 논문 28편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov acceptance and commitment coaching AND Depression; PubMed acceptance and commitment coaching AND Depression)
 - [x] acceptance and commitment coaching — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 9편 -->
 - [x] digital health literacy — Cancer에 듣는다  <!-- 시험 8건 · 논문 605편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cognitive flexibility training — Back Pain에 듣는다  <!-- 시험 8건 · 논문 21편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive flexibility training AND Back Pain; PubMed cognitive flexibility training AND Back Pain)
+- [x] cognitive flexibility training — ADHD에 듣는다  <!-- 시험 7건 · 논문 126편 -->
+- [x] cognitive flexibility training — Aging에 듣는다  <!-- 시험 6건 · 논문 380편 -->
+- [x] cognitive flexibility training — Memory Disorders에 듣는다  <!-- 시험 6건 · 논문 318편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov cognitive flexibility training AND Memory Disorders; PubMed cognitive flexibility training AND Memory Disorders)
+- [x] emotion regulation skills training — Anxiety에 듣는다  <!-- 시험 6건 · 논문 336편 -->
+- [x] emotion regulation skills training — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 19편 -->
+- [x] emotion regulation skills training — Stress Disorder에 듣는다  <!-- 시험 5건 · 논문 150편 -->
+- [x] emotion regulation skills training — Borderline Personality Disorder에 듣는다  <!-- 시험 4건 · 논문 66편 -->
+- [x] behavioral sleep education — Sleep에 듣는다  <!-- 시험 47건 · 논문 20925편 -->
+- [x] behavioral sleep education — Pain에 듣는다  <!-- 시험 23건 · 논문 1850편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep education AND Pain; PubMed behavioral sleep education AND Pain)
+- [x] behavioral sleep education — Cancer에 듣는다  <!-- 시험 22건 · 논문 1187편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov behavioral sleep education AND Cancer; PubMed behavioral sleep education AND Cancer)
+- [x] behavioral sleep education — Depression에 듣는다  <!-- 시험 15건 · 논문 5560편 -->
+- [x] community health navigation — Kidney Diseases에 듣는다  <!-- 시험 7건 · 논문 347편 -->
+- [x] community health navigation — Cancer에 듣는다  <!-- 시험 7건 · 논문 6567편 -->
+- [x] community health navigation — Child Health에 듣는다  <!-- 시험 7건 · 논문 2876편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov community health navigation AND Child Health; PubMed community health navigation AND Child Health)
+- [x] community health navigation — Hypertension에 듣는다  <!-- 시험 6건 · 논문 358편 --> — 근거 없음(2026-08-06, ClinicalTrials.gov community health navigation AND Hypertension; PubMed community health navigation AND Hypertension)
