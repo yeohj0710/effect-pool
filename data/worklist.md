@@ -14593,3 +14593,86 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fresh produce — Diabetes에 듣는다  <!-- 시험 3건 · 논문 189편 -->
 - [x] produce delivery — Obesity에 듣는다 — 근거 없음(2026-08-07 조회, "produce delivery" AND Obesity; 직접 중재 결과 없음)  <!-- 시험 6건 · 논문 469편 -->
 - [x] produce delivery — Food Habits에 듣는다  <!-- 시험 5건 · 논문 364편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] onion — Keloid에 듣는다  <!-- 시험 3건 · 논문 45편 -->
+- [x] onion — Gut Health에 듣는다  <!-- 시험 3건 · 논문 33편 -->
+- [x] chia seeds — Dietary Fiber에 듣는다 — 중복(기존 chia-seed-dietary-fiber-pos.json)  <!-- 시험 3건 · 논문 70편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] time-restricted eating — Pre-diabetes에 듣는다 — 중복(기존 time-restricted-eating-fasting-pos.json)  <!-- 시험 12건 · 논문 119편 -->
+- [x] time-restricted eating — Aging에 듣는다 — 중복(기존 time-restricted-eating-time-pos.json)  <!-- 시험 8건 · 논문 602편 -->
+- [x] time-restricted eating — Weight Loss에 듣는다 — 중복(기존 time-restricted-eating-metabolic-health-pos.json)  <!-- 시험 7건 · 논문 1035편 -->
+- [x] time-restricted eating — Overweight에 듣는다 — 중복(기존 time-restricted-eating-metabolic-health-pos.json)  <!-- 시험 6건 · 논문 1059편 -->
+- [x] plant-based diet — Psoriasis Arthritis에 듣는다 — 등록만 있고 결과 없음(2026-08-07 조회, NCT06905028)  <!-- 시험 8건 · 논문 14편 -->
+- [x] plant-based diet — Kidney Disease, Chronic에 듣는다 — 중복(기존 plant-based-eating-kidney-disease-chronic-pos.json)  <!-- 시험 8건 · 논문 401편 -->
+- [x] plant-based diet — Metabolic Health에 듣는다  <!-- 시험 7건 · 논문 4808편 -->
+- [x] plant-based diet — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 1158편 -->
+- [x] vegan diet — Gut Health에 듣는다 — 중복(기존 vegan-diet-healthy-diet-open.json)  <!-- 시험 8건 · 논문 89편 -->
+- [x] vegan diet — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 39편 -->
+- [x] vegan diet — Dietary Intakes에 듣는다  <!-- 시험 5건 · 논문 512편 -->
+- [x] vegan diet — Overweight에 듣는다 — 중복(기존 vegan-diet-obesity-open.json)  <!-- 시험 4건 · 논문 154편 -->
+- [x] vegetarian diet — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 1077편 -->
+- [x] vegetarian diet — Diet에 듣는다  <!-- 시험 6건 · 논문 6847편 -->
+- [x] vegetarian diet — Nutrition에 듣는다  <!-- 시험 5건 · 논문 3528편 -->
+- [x] vegetarian diet — Inflammatory Bowel Diseases에 듣는다  <!-- 시험 3건 · 논문 51편 -->
+- [x] low-glycemic diet — Diabetes Mellitus, Type 2에 듣는다 — 중복(기존 low-glycemic-diet-metabolic-disease-pos.json)  <!-- 시험 3건 · 논문 205편 -->
+- [x] Nordic diet — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 51편 -->
+- [x] MIND diet — Mental Health에 듣는다  <!-- 시험 6건 · 논문 273편 -->
+- [x] MIND diet — Multiple Sclerosis에 듣는다 — 등록만 있고 결과 없음(2026-08-07 조회, NCT07057999·NCT06450977)  <!-- 시험 5건 · 논문 43편 -->
+- [x] MIND diet — Alzheimer Disease에 듣는다 — 중복(기존 mind-diet-dementia-null.json)  <!-- 시험 4건 · 논문 192편 -->
+- [x] MIND diet — Depression에 듣는다 — 등록만 있고 결과 없음(2026-08-07 조회, NCT06351423·NCT06374407)  <!-- 시험 4건 · 논문 232편 -->
+- [x] walking program — Parkinson Disease에 듣는다  <!-- 시험 7건 · 논문 863편 -->
+- [x] walking program — Diabetes Mellitus에 듣는다  <!-- 시험 6건 · 논문 550편 -->
+- [x] walking program — Lung Cancer에 듣는다 — 중복(기존 home-based-walking-program-lung-neoplasm-open.json)  <!-- 시험 6건 · 논문 120편 -->
+- [x] walking program — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 9920편 -->
+- [x] resistance training — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1361편 -->
+- [ ] resistance training — Exercise에 듣는다  <!-- 시험 7건 · 논문 29940편 -->
+- [ ] resistance training — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 1899편 -->
+- [ ] resistance training — Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 560편 -->
+- [ ] tai chi — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 176편 -->
+- [ ] tai chi — COPD에 듣는다  <!-- 시험 8건 · 논문 99편 -->
+- [ ] tai chi — Exercise에 듣는다  <!-- 시험 8건 · 논문 2359편 -->
+- [ ] tai chi — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 75편 -->
+- [ ] qigong — Physical Function에 듣는다  <!-- 시험 4건 · 논문 408편 -->
+- [ ] qigong — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 43편 -->
+- [ ] dance therapy — Parkinson Disease에 듣는다  <!-- 시험 10건 · 논문 262편 -->
+- [ ] dance therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 236편 -->
+- [ ] dance therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [ ] dance therapy — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [ ] music therapy — Alzheimer Disease에 듣는다  <!-- 시험 14건 · 논문 401편 -->
+- [ ] music therapy — Sleep에 듣는다  <!-- 시험 13건 · 논문 624편 -->
+- [ ] music therapy — Surgery에 듣는다  <!-- 시험 12건 · 논문 1537편 -->
+- [ ] mindfulness meditation — Health에 듣는다  <!-- 시험 32건 · 논문 13836편 -->
+- [ ] mindfulness meditation — Depressive에 듣는다  <!-- 시험 26건 · 논문 6034편 -->
+- [ ] mindfulness meditation — Distress에 듣는다  <!-- 시험 25건 · 논문 2540편 -->
+- [ ] mindfulness meditation — Burnout에 듣는다  <!-- 시험 19건 · 논문 1362편 -->
+- [ ] sleep hygiene — Autism에 듣는다  <!-- 시험 5건 · 논문 113편 -->
+- [ ] sleep hygiene — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 348편 -->
+- [ ] sleep hygiene — Brain Diseases에 듣는다  <!-- 시험 5건 · 논문 696편 -->
+- [ ] sleep hygiene — Diabetes Mellitus에 듣는다  <!-- 시험 5건 · 논문 355편 -->
+- [ ] light therapy — Myopia에 듣는다  <!-- 시험 8건 · 논문 804편 -->
+- [ ] light therapy — COVID-19에 듣는다  <!-- 시험 6건 · 논문 1472편 -->
+- [ ] light therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1095편 -->
+- [ ] light therapy — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 395편 -->
+- [ ] nature exposure — Psychological Distress에 듣는다  <!-- 시험 4건 · 논문 414편 -->
+- [ ] breathing exercise — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 249편 -->
+- [ ] breathing exercise — Pulmonary Disease에 듣는다  <!-- 시험 5건 · 논문 4262편 -->
+- [ ] breathing exercise — Muscle Tone에 듣는다  <!-- 시험 5건 · 논문 48편 -->
+- [ ] breathing exercise — Respiratory Disease에 듣는다  <!-- 시험 4건 · 논문 5880편 -->
