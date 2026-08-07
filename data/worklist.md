@@ -14643,36 +14643,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] walking program — Lung Cancer에 듣는다 — 중복(기존 home-based-walking-program-lung-neoplasm-open.json)  <!-- 시험 6건 · 논문 120편 -->
 - [x] walking program — Motor Activity에 듣는다  <!-- 시험 5건 · 논문 9920편 -->
 - [x] resistance training — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1361편 -->
-- [ ] resistance training — Exercise에 듣는다  <!-- 시험 7건 · 논문 29940편 -->
-- [ ] resistance training — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 1899편 -->
-- [ ] resistance training — Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 560편 -->
-- [ ] tai chi — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 176편 -->
-- [ ] tai chi — COPD에 듣는다  <!-- 시험 8건 · 논문 99편 -->
-- [ ] tai chi — Exercise에 듣는다  <!-- 시험 8건 · 논문 2359편 -->
-- [ ] tai chi — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 75편 -->
-- [ ] qigong — Physical Function에 듣는다  <!-- 시험 4건 · 논문 408편 -->
-- [ ] qigong — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 43편 -->
-- [ ] dance therapy — Parkinson Disease에 듣는다  <!-- 시험 10건 · 논문 262편 -->
-- [ ] dance therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 236편 -->
-- [ ] dance therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 19편 -->
-- [ ] dance therapy — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 42편 -->
-- [ ] music therapy — Alzheimer Disease에 듣는다  <!-- 시험 14건 · 논문 401편 -->
-- [ ] music therapy — Sleep에 듣는다  <!-- 시험 13건 · 논문 624편 -->
-- [ ] music therapy — Surgery에 듣는다  <!-- 시험 12건 · 논문 1537편 -->
-- [ ] mindfulness meditation — Health에 듣는다  <!-- 시험 32건 · 논문 13836편 -->
-- [ ] mindfulness meditation — Depressive에 듣는다  <!-- 시험 26건 · 논문 6034편 -->
-- [ ] mindfulness meditation — Distress에 듣는다  <!-- 시험 25건 · 논문 2540편 -->
-- [ ] mindfulness meditation — Burnout에 듣는다  <!-- 시험 19건 · 논문 1362편 -->
-- [ ] sleep hygiene — Autism에 듣는다  <!-- 시험 5건 · 논문 113편 -->
-- [ ] sleep hygiene — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 348편 -->
-- [ ] sleep hygiene — Brain Diseases에 듣는다  <!-- 시험 5건 · 논문 696편 -->
-- [ ] sleep hygiene — Diabetes Mellitus에 듣는다  <!-- 시험 5건 · 논문 355편 -->
-- [ ] light therapy — Myopia에 듣는다  <!-- 시험 8건 · 논문 804편 -->
-- [ ] light therapy — COVID-19에 듣는다  <!-- 시험 6건 · 논문 1472편 -->
-- [ ] light therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1095편 -->
-- [ ] light therapy — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 395편 -->
-- [ ] nature exposure — Psychological Distress에 듣는다  <!-- 시험 4건 · 논문 414편 -->
-- [ ] breathing exercise — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 249편 -->
+- [x] resistance training — Exercise에 듣는다  <!-- 시험 7건 · 논문 29940편 --> — 중복(resistance-training-aging-pos.json 등 기존 저항운동 항목)
+- [x] resistance training — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 1899편 -->
+- [x] resistance training — Osteoarthritis에 듣는다  <!-- 시험 7건 · 논문 560편 -->
+- [x] tai chi — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 176편 --> — 중복(tai-chi-activity-motor-pos.json)
+- [x] tai chi — COPD에 듣는다  <!-- 시험 8건 · 논문 99편 -->
+- [x] tai chi — Exercise에 듣는다  <!-- 시험 8건 · 논문 2359편 --> — 중복(tai-chi-activity-motor-pos.json 등 기존 태극권 항목)
+- [x] tai chi — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 75편 -->
+- [x] qigong — Physical Function에 듣는다  <!-- 시험 4건 · 논문 408편 -->
+- [x] qigong — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 43편 -->
+- [x] dance therapy — Parkinson Disease에 듣는다  <!-- 시험 10건 · 논문 262편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT03549793·NCT06986941)
+- [x] dance therapy — Aging에 듣는다  <!-- 시험 5건 · 논문 236편 -->
+- [x] dance therapy — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 19편 -->
+- [x] dance therapy — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [x] music therapy — Alzheimer Disease에 듣는다  <!-- 시험 14건 · 논문 401편 -->
+- [x] music therapy — Sleep에 듣는다  <!-- 시험 13건 · 논문 624편 -->
+- [x] music therapy — Surgery에 듣는다  <!-- 시험 12건 · 논문 1537편 -->
+- [x] mindfulness meditation — Health에 듣는다  <!-- 시험 32건 · 논문 13836편 -->
+- [x] mindfulness meditation — Depressive에 듣는다  <!-- 시험 26건 · 논문 6034편 --> — 중복(mindfulness-meditation-depression-pos.json)
+- [x] mindfulness meditation — Distress에 듣는다  <!-- 시험 25건 · 논문 2540편 -->
+- [x] mindfulness meditation — Burnout에 듣는다  <!-- 시험 19건 · 논문 1362편 -->
+- [x] sleep hygiene — Autism에 듣는다  <!-- 시험 5건 · 논문 113편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT05010824·NCT04545606)
+- [x] sleep hygiene — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 348편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT05062161·NCT07257237)
+- [x] sleep hygiene — Brain Diseases에 듣는다  <!-- 시험 5건 · 논문 696편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT02838082)
+- [x] sleep hygiene — Diabetes Mellitus에 듣는다  <!-- 시험 5건 · 논문 355편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT06960408·NCT03857802·NCT04420845)
+- [x] light therapy — Myopia에 듣는다  <!-- 시험 8건 · 논문 804편 -->
+- [x] light therapy — COVID-19에 듣는다  <!-- 시험 6건 · 논문 1472편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT05677932)
+- [x] light therapy — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 1095편 -->
+- [x] light therapy — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 395편 -->
+- [x] nature exposure — Psychological Distress에 듣는다  <!-- 시험 4건 · 논문 414편 -->
+- [x] breathing exercise — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 249편 -->
 - [ ] breathing exercise — Pulmonary Disease에 듣는다  <!-- 시험 5건 · 논문 4262편 -->
 - [ ] breathing exercise — Muscle Tone에 듣는다  <!-- 시험 5건 · 논문 48편 -->
 - [ ] breathing exercise — Respiratory Disease에 듣는다  <!-- 시험 4건 · 논문 5880편 -->
