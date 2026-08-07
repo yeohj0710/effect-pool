@@ -13664,3 +13664,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online group therapy — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 602편 -->
 - [x] online group therapy — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 486편 --> — 근거 없음(2026-08-06 조회, "online group therapy" AND "cognitive symptom")
 - [x] online group therapy — Distress에 듣는다  <!-- 시험 9건 · 논문 935편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] physical activity counseling — Diabetes에 듣는다  <!-- 시험 10건 · 논문 1897편 -->
+- [x] physical activity counseling — Obesity에 듣는다  <!-- 시험 9건 · 논문 2811편 -->
+- [x] physical activity counseling — Sedentary에 듣는다  <!-- 시험 6건 · 논문 809편 -->
+- [x] physical activity counseling — Low Back Pain에 듣는다  <!-- 시험 5건 · 논문 123편 -->
+- [x] food as medicine — Hypertension에 듣는다  <!-- 시험 3건 · 논문 10277편 -->
+- [x] food as medicine — Postpartum Depression에 듣는다  <!-- 시험 3건 · 논문 307편 -->
+- [x] virtual reality cognitive training — Stroke에 듣는다  <!-- 시험 10건 · 논문 205편 -->
+- [x] virtual reality cognitive training — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 85편 -->
+- [x] virtual reality cognitive training — Exercise에 듣는다  <!-- 시험 9건 · 논문 355편 -->
+- [x] virtual reality cognitive training — Physical Therapy에 듣는다  <!-- 시험 8건 · 논문 320편 -->
+- [x] cognitive training app — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 124편 --> — 근거 없음(2026-08-06 조회, "cognitive training app" AND "Alzheimer Disease")
+- [x] cognitive training app — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 15편 -->
+- [x] cognitive training app — Psychosis에 듣는다  <!-- 시험 6건 · 논문 20편 -->
+- [x] caregiver telehealth — Spinal Cord Injury에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [x] shared decision aid — Cancer에 듣는다  <!-- 시험 11건 · 논문 1282편 -->
+- [x] shared decision aid — Decision Aids에 듣는다  <!-- 시험 5건 · 논문 4399편 -->
+- [x] shared decision aid — Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 141편 -->
+- [x] shared decision aid — Arthritis (Hip)에 듣는다  <!-- 시험 4건 · 논문 36편 -->
+- [x] workplace wellness intervention — Health Behavior에 듣는다  <!-- 시험 7건 · 논문 5621편 -->
+- [x] workplace wellness intervention — Depression에 듣는다  <!-- 시험 5건 · 논문 2529편 -->
+- [x] workplace wellness intervention — Stress에 듣는다  <!-- 시험 5건 · 논문 7576편 -->
+- [x] workplace wellness intervention — Anxiety에 듣는다  <!-- 시험 4건 · 논문 1857편 -->
+- [x] secukinumab — Psoriatic Plaque에 듣는다  <!-- 시험 40건 · 논문 183편 --> — 허가 적응증(2026-08-06)
+- [x] secukinumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 17건 · 논문 188편 --> — 허가 적응증(2026-08-06)
+- [x] secukinumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 16건 · 논문 381편 --> — 허가 적응증(2026-08-06)
+- [x] secukinumab — Axial Spondyloarthritis에 듣는다  <!-- 시험 10건 · 논문 342편 --> — 허가 적응증(2026-08-06)
+- [x] tildrakizumab — Skin Diseases에 듣는다  <!-- 시험 3건 · 논문 276편 --> — 허가 적응증(2026-08-06)
