@@ -14993,9 +14993,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propolis — Dentin Caries에 듣는다  <!-- 시험 5건 · 논문 19편 --> — propolis-dentin-caries-pos
 - [x] propolis — Periodontitis에 듣는다  <!-- 시험 4건 · 논문 205편 --> — 근거 없음(2026-08-07, "propolis" AND "Periodontitis"; 직접 치료 결과 없음)
 - [x] beetroot juice — Peripheral Artery Disease에 듣는다  <!-- 시험 9건 · 논문 16편 --> — beetroot-juice-peripheral-artery-disease-open
-- [ ] beetroot juice — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 27편 -->
-- [ ] beetroot juice — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 269편 -->
-- [ ] beetroot juice — Menopause에 듣는다  <!-- 시험 7건 · 논문 18편 -->
-- [ ] cranberry — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] cranberry — Healthy Men에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] cranberry — Microbiota에 듣는다  <!-- 시험 3건 · 논문 122편 -->
+- [x] beetroot juice — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 27편 --> — beetroot-juice-heart-failure-open
+- [x] beetroot juice — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 269편 --> — 중복(beet-juice-hypertension-pos)
+- [x] beetroot juice — Menopause에 듣는다  <!-- 시험 7건 · 논문 18편 --> — 근거 없음(2026-08-07, "beetroot juice" AND "Menopause"; 직접 임상 근거 없음)
+- [x] cranberry — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 24편 --> — cranberry-metabolic-syndrome-open
+- [x] cranberry — Healthy Men에 듣는다  <!-- 시험 4건 · 논문 13편 --> — cranberry-healthy-men-pos
+- [x] cranberry — Microbiota에 듣는다  <!-- 시험 3건 · 논문 122편 --> — cranberry-microbiota-open
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] virtual reality exercise — Stroke에 듣는다  <!-- 시험 57건 · 논문 386편 --> — 중복(virtual-reality-therapy-stroke-pos)
+- [x] virtual reality exercise — Parkinson에 듣는다  <!-- 시험 30건 · 논문 187편 --> — virtual-reality-exercise-parkinson-pos
+- [x] virtual reality exercise — Cancer에 듣는다  <!-- 시험 21건 · 논문 114편 --> — 중복(virtual-reality-therapy-cancer-pos)
+- [x] virtual reality exercise — Anxiety에 듣는다  <!-- 시험 19건 · 논문 187편 --> — 중복(virtual-reality-therapy-anxiety-pos)
+- [x] sleep consolidation therapy — Consolidation에 듣는다  <!-- 시험 4건 · 논문 855편 --> — 근거 없음(2026-08-07, "sleep consolidation therapy" AND "Consolidation"; 치료 개입의 직접 임상 근거 없음)
+- [x] aquatic walking — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 39편 --> — aquatic-walking-osteoarthritis-pos
+- [x] aquatic walking — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 중복(aquatic-therapy-chronic-pain-pos)
+- [x] group singing intervention — Dementia에 듣는다  <!-- 시험 5건 · 논문 91편 --> — group-singing-intervention-dementia-pos
+- [x] group singing intervention — Well-Being에 듣는다  <!-- 시험 4건 · 논문 548편 --> — 중복(group-singing-well-being-pos)
+- [x] group singing intervention — Mental Health에 듣는다  <!-- 시험 4건 · 논문 132편 --> — 중복(group-singing-mental-health-open)
+- [x] group singing intervention — Depression에 듣는다  <!-- 시험 3건 · 논문 110편 --> — 중복(group-singing-depression-pos)
+- [x] video game exercise — Pain Management에 듣는다  <!-- 시험 8건 · 논문 21편 --> — video-game-exercise-pain-management-pos
+- [x] video game exercise — Stroke에 듣는다  <!-- 시험 7건 · 논문 240편 --> — 중복(exergaming-stroke-pos)
+- [x] video game exercise — Cerebral Palsy에 듣는다  <!-- 시험 7건 · 논문 103편 --> — 근거 없음(2026-08-07, "video game exercise" AND "Cerebral Palsy"; 직접 임상 근거 없음)
+- [x] video game exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 361편 --> — video-game-exercise-obesity-open
