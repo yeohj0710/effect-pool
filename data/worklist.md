@@ -14321,3 +14321,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] anti-inflammatory diet — Ulcerative Colitis에 듣는다  <!-- 시험 3건 · 논문 444편 -->
 - [x] anti-inflammatory diet — Autism에 듣는다  <!-- 시험 3건 · 논문 58편 -->
 - [x] food craving intervention — Obesity에 듣는다  <!-- 시험 3건 · 논문 537편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] chicory root — Fat Metabolism에 듣는다 — 결과 없음(2026-08-07 조회, chicory root AND Fat Metabolism; NCT07094191 완료·결과 논문 없음)  <!-- 시험 3건 · 논문 32편 -->
+- [x] thyme — Oral Mucositis에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] clove — Dental Caries에 듣는다 — 결과 없음(2026-08-07 조회, clove AND Dental Caries; NCT03553628 완료·결과 논문 없음)  <!-- 시험 3건 · 논문 33편 -->
+- [x] wheat germ — Colon Cancer에 듣는다 — 결과 없음(2026-08-07 조회, wheat germ AND Colon Cancer; NCT05967533 중단·결과 논문 없음)  <!-- 시험 3건 · 논문 80편 -->
+- [x] wheat germ — Inflammation에 듣는다  <!-- 시험 3건 · 논문 138편 -->
+- [x] sesame oil — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [x] sesame oil — Sleep에 듣는다 — 결과 없음(2026-08-07 조회, sesame oil AND Sleep; 직접 결과 논문 없음)  <!-- 시험 3건 · 논문 25편 -->
+- [x] avocado oil — Insulin에 듣는다 — 결과 없음(2026-08-07 조회, avocado oil AND Insulin; 개입명 일치 1건·직접 결과 논문 없음)  <!-- 시험 6건 · 논문 12편 -->
+- [x] avocado oil — Healthy Adult에 듣는다 — 근거 없음(2026-08-07 조회, avocado oil AND Healthy Adult; 개입명 일치 0건·직접 인체 결과 없음)  <!-- 시험 5건 · 논문 9편 -->
+- [x] avocado oil — Cardiovascular Disease에 듣는다 — 근거 없음(2026-08-07 조회, avocado oil AND Cardiovascular Disease; 개입명 일치 0건·직접 인체 결과 없음)  <!-- 시험 4건 · 논문 26편 -->
+- [x] avocado oil — Diabetes에 듣는다 — 근거 없음(2026-08-07 조회, avocado oil AND Diabetes; 개입명 일치 0건·직접 인체 결과 없음)  <!-- 시험 4건 · 논문 27편 -->
+- [x] pea protein — Diabetes Prevention에 듣는다 — 결과 없음(2026-08-07 조회, pea protein AND Diabetes Prevention; 개입명 일치 4건·직접 결과 논문 없음)  <!-- 시험 8건 · 논문 31편 -->
+- [x] pea protein — Metabolic Health에 듣는다 — 결과 없음(2026-08-07 조회, pea protein AND Metabolic Health; NCT07489118 결과 논문 없음)  <!-- 시험 6건 · 논문 457편 -->
+- [x] pea protein — Healthy Adults에 듣는다  <!-- 시험 5건 · 논문 128편 -->
+- [x] pea protein — Sarcopenia에 듣는다 — 결과 없음(2026-08-07 조회, pea protein AND Sarcopenia; NCT06628349 모집 중·결과 논문 없음)  <!-- 시험 3건 · 논문 12편 -->
+- [x] plant protein — Diet, Healthy에 듣는다 — 결과 없음(2026-08-07 조회, plant protein AND Diet Healthy; NCT03206827 완료·결과 논문 없음)  <!-- 시험 17건 · 논문 1909편 -->
+- [x] plant protein — Diabetes에 듣는다  <!-- 시험 16건 · 논문 7429편 -->
+- [x] plant protein — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 358편 -->
+- [x] plant protein — Metabolic Health에 듣는다  <!-- 시험 9건 · 논문 22986편 -->
