@@ -15689,3 +15689,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ergonomic workstation — Musculoskeletal Disorders에 듣는다  <!-- 시험 5건 · 논문 428편 --> — 항목(ergonomic-workstation-musculoskeletal-disorders-pos, 2026-08-08)
 - [x] apitegromab — Neuromuscular Diseases에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 항목(apitegromab-neuromuscular-diseases-open, 2026-08-08)
 - [x] apitegromab — SMA에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목(apitegromab-sma-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] music practice — Anxiety에 듣는다  <!-- 시험 21건 · 논문 636편 --> — 항목(music-practice-anxiety-open, 2026-08-08)
+- [x] music practice — Cancer에 듣는다  <!-- 시험 19건 · 논문 339편 --> — 근거 없음(2026-08-08, PubMed: music practice AND Cancer; ClinicalTrials.gov 직접 결과 미확인)
+- [x] music practice — Cognitive Aging에 듣는다  <!-- 시험 13건 · 논문 82편 --> — 항목(music-practice-cognitive-aging-open, 2026-08-08)
+- [x] music practice — Stress에 듣는다  <!-- 시험 12건 · 논문 517편 --> — 근거 없음(2026-08-08, PubMed: music practice AND Stress; ClinicalTrials.gov 직접 결과 미확인)
+- [x] air quality monitoring — Health Behavior에 듣는다  <!-- 시험 3건 · 논문 707편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Health Behavior; ClinicalTrials.gov 직접 결과 미확인)
+- [x] air quality monitoring — Asthma에 듣는다  <!-- 시험 3건 · 논문 1475편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Asthma; ClinicalTrials.gov 직접 결과 미확인)
+- [x] air quality monitoring — Cholesterol에 듣는다  <!-- 시험 3건 · 논문 87편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Cholesterol; ClinicalTrials.gov 직접 결과 미확인)
+- [x] fexinidazole — Sleeping Sickness에 듣는다  <!-- 시험 3건 · 논문 94편 --> — 허가 적응증(2026-08-08)
+- [x] fexinidazole — Chagas Disease에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 항목(fexinidazole-chagas-disease-open, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sugammadex — Anesthesia에 듣는다  <!-- 시험 63건 · 논문 1275편 --> — 허가 적응증(2026-08-08)
+- [x] sugammadex — Postoperative Pain에 듣는다  <!-- 시험 25건 · 논문 190편 --> — 항목(sugammadex-postoperative-pain-null, 2026-08-08)
+- [x] sugammadex — Surgery에 듣는다  <!-- 시험 23건 · 논문 1077편 --> — 항목(sugammadex-surgery-pos, 2026-08-08)
+- [x] sugammadex — Surgical Conditions에 듣는다  <!-- 시험 8건 · 논문 199편 --> — 항목(sugammadex-surgical-conditions-null, 2026-08-08)

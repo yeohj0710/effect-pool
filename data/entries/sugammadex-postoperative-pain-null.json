@@ -1,0 +1,28 @@
+{
+  "id": "sugammadex-postoperative-pain-null",
+  "subj": "sugammadex",
+  "claim": "sugammadex를 수술 후 통증 감소에 쓴다",
+  "line": "수술 후 통증 점수와 총 오피오이드 사용량은 달라지지 않았습니다",
+  "effect": "통증 점수·오피오이드 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 60,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "sugammadex의 허가 범위는 신경근 차단 역전이며 수술 후 통증은 허가 적응증이 아닙니다.",
+  "why": "복강경 비만 수술에서 신경근 차단 역전제로 sugammadex를 사용했을 때 수술 후 통증과 회복을 비교합니다.",
+  "saw": "복강경 비만 수술 환자 60명을 sugammadex군과 neostigmine군으로 무작위 배정했습니다. 회복 질과 발관·신경근 회복은 sugammadex군이 빨랐지만 수술 후 통증 점수와 총 오피오이드 사용량은 차이가 없었습니다.",
+  "limit": "표본이 60명인 단일 연구이고 통증은 이차 결과였습니다.",
+  "against": "회복 시간 개선이 통증 감소로 이어지지 않았습니다.",
+  "use": "수술 후 통증 치료제로 사용할 근거는 없고 신경근 차단 역전 효과와 구분해야 합니다.",
+  "refs": [
+    { "label": "복강경 비만 수술 sugammadex 무작위시험", "doi": "10.2147/DDDT.S570281", "pmid": "41836531" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "sugammadex AND Postoperative Pain — NCT04165057, NCT03803982 직접 확인",
+    "pubmed": "sugammadex AND postoperative pain AND (randomized OR trial) — PMID 41836531",
+    "negative": "sugammadex AND postoperative pain AND (no effect OR did not OR failed OR negative OR no significant difference)",
+    "safety": "sugammadex AND (adverse OR hypersensitivity OR safety)"
+  }
+}
