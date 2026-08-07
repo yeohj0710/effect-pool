@@ -1,0 +1,29 @@
+{
+  "id": "sleep-mask-critical-illness-pos",
+  "subj": "sleep mask",
+  "claim": "중환자에서 수면 마스크를 포함한 비약물 수면 중재가 수면 질을 개선할 수 있습니다",
+  "line": "중환자 비약물 수면 중재 네트워크 분석에서 눈가리개가 수면 질 개선과 연관됨",
+  "effect": "수면 질 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2036,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "sleep mask는 비약물 환경 중재이며 중환자 수면 질의 허가 적응증으로 분류하지 않습니다.",
+  "why": "중환자실의 빛과 소음을 차단하는 수면 마스크는 잦은 각성으로 깨지는 수면을 보조할 수 있습니다.",
+  "saw": "중환자 2,036명을 포함한 무작위시험 네트워크 분석에서 11가지 간호 중재를 비교했습니다. 눈가리개 단독과 이어플러그·눈가리개 조합은 통상 관리보다 수면 질을 개선하는 중재로 분류됐습니다.",
+  "limit": "여러 중재를 포함한 네트워크 분석이라 수면 마스크 단독의 효과 크기와 최적 사용 시간을 확정할 수 없습니다.",
+  "against": "중환자의 수면 질은 통증, 섬망, 진정제, 간호 관찰 빈도에도 영향을 받아 마스크만의 효과를 분리하기 어렵습니다.",
+  "use": "중환자 수면 보조로 사용할 때 시야 확보와 환자 선호를 확인하고 섬망 평가를 계속합니다.",
+  "refs": [
+    { "label": "중환자 비약물 수면 중재 네트워크 분석", "doi": "10.1097/MD.0000000000036298", "pmid": "38206715" },
+    { "label": "중환자 수면 마스크·이어플러그 시험", "nct": "NCT02612636" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "sleep mask AND Critical Illness · 직접 확인 37건",
+    "pubmed": "\"sleep mask\" AND \"Critical Illness\" · 직접 0편; 눈가리개 포함 수면 중재 분석 확인",
+    "negative": "sleep mask AND Critical Illness AND (no effect OR did not OR failed to OR negative OR no significant difference)",
+    "safety": "sleep mask AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+  }
+}

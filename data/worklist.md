@@ -15609,3 +15609,38 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] wake therapy — Obstructive Sleep Apnea에 듣는다  <!-- 시험 3건 · 논문 1084편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov wake therapy AND Obstructive Sleep Apnea 직접 일치 근거 없음; PubMed 직접 논문 0편)
 - [x] pink noise — Noise Exposure에 듣는다  <!-- 시험 5건 · 논문 71편 --> — 항목(pink-noise-noise-exposure-harm, 2026-08-08)
 - [x] pink noise — Anxiety에 듣는다  <!-- 시험 4건 · 논문 17편 --> — 항목(pink-noise-anxiety-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sleep mask — Critical Illness에 듣는다  <!-- 시험 4건 · 논문 50편 --> — 항목(sleep-mask-critical-illness-pos, 2026-08-08)
+- [x] sleep mask — Delirium에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 항목(sleep-mask-delirium-pos, 2026-08-08)
+- [x] sleep mask — Stress에 듣는다  <!-- 시험 3건 · 논문 68편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov sleep mask AND Stress 직접 치료 결과 없음; PubMed 직접 논문 1편은 시력상실 스트레스 유발 실험계획)
+- [x] earplugs — Sleep Quality에 듣는다  <!-- 시험 3건 · 논문 95편 --> — 항목(earplugs-sleep-quality-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] craft group — Substance-Related Disorders에 듣는다  <!-- 시험 4건 · 논문 65편 --> — 항목(craft-group-substance-related-disorders-pos, 2026-08-08)
+- [x] craft group — Family Health에 듣는다  <!-- 시험 3건 · 논문 214편 --> — 항목(craft-group-family-health-open, 2026-08-08)
+- [x] relaxation audio — Anxiety에 듣는다  <!-- 시험 21건 · 논문 123편 --> — 항목(relaxation-audio-anxiety-null, 2026-08-08)
+- [x] relaxation audio — Pain에 듣는다  <!-- 시험 13건 · 논문 105편 --> — 항목(relaxation-audio-pain-open, 2026-08-08)
+- [x] relaxation audio — Virtual Reality에 듣는다  <!-- 시험 7건 · 논문 30편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov 직접 결과 미확인; PubMed relaxation audio AND Virtual Reality 0편)
+- [x] relaxation audio — Depression에 듣는다  <!-- 시험 7건 · 논문 53편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov 직접 결과 미확인; PubMed 4편 중 직접 결과 없음)
+- [x] light box therapy — Sleep에 듣는다  <!-- 시험 12건 · 논문 122편 --> — 항목(light-box-therapy-sleep-null, 2026-08-08)
+- [x] light box therapy — Depressive Symptoms에 듣는다  <!-- 시험 12건 · 논문 254편 --> — 항목(light-box-therapy-depressive-symptoms-pos, 2026-08-08)
+- [x] light box therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 7건 · 논문 37편 --> — 항목(light-box-therapy-seasonal-affective-disorder-pos, 2026-08-08)
+- [x] light box therapy — Fatigue에 듣는다  <!-- 시험 5건 · 논문 24편 --> — 항목(light-box-therapy-fatigue-pos, 2026-08-08)
+- [x] leronlimab — Coronavirus Disease 2019에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(leronlimab-covid19-open, 2026-08-08)
