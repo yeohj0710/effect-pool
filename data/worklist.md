@@ -14953,3 +14953,49 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tart cherry — Recovery에 듣는다  <!-- 시험 4건 · 논문 66편 --> — tart-cherry-muscle-recovery
 - [x] tart cherry — Oxidative Stress에 듣는다  <!-- 시험 3건 · 논문 50편 --> — tart-cherry-oxidative-stress-pos
 - [x] tart cherry — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 14편 --> — tart-cherry-insulin-resistance-open
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sleep hygiene — Migraine에 듣는다  <!-- 시험 5건 · 논문 96편 --> — sleep-hygiene-migraine-pos
+- [x] sleep hygiene — Fatigue에 듣는다  <!-- 시험 4건 · 논문 997편 --> — sleep-hygiene-fatigue-pos
+- [x] sleep hygiene — Restless Leg Syndrome에 듣는다  <!-- 시험 4건 · 논문 179편 --> — 근거 없음(2026-08-07, "sleep hygiene" AND "Restless Leg Syndrome"; 직접 수면 위생 중재 결과 없음)
+- [x] guided imagery — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 62편 --> — guided-imagery-pregnancy-open
+- [x] guided imagery — Smoking에 듣는다  <!-- 시험 6건 · 논문 50편 --> — 근거 없음(2026-08-07, "guided imagery" AND "Smoking"; 직접 금연 중재 결과 없음)
+- [x] guided imagery — Virtual Reality에 듣는다  <!-- 시험 5건 · 논문 122편 --> — 근거 없음(2026-08-07, "guided imagery" AND "Virtual Reality"; 특정 질환 치료 결과 없음)
+- [x] progressive muscle relaxation — Depression에 듣는다  <!-- 시험 7건 · 논문 347편 --> — 중복(progressive-muscle-relaxation-depressive-open)
+- [x] progressive muscle relaxation — Hemodialysis에 듣는다  <!-- 시험 7건 · 논문 16편 --> — progressive-muscle-relaxation-hemodialysis-pos
+- [x] progressive muscle relaxation — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 32편 --> — progressive-muscle-relaxation-multiple-sclerosis-pos
+- [x] wheelchair skills training — Cerebral Palsy에 듣는다  <!-- 시험 3건 · 논문 40편 --> — wheelchair-skills-training-cerebral-palsy-open
+- [x] robot-assisted therapy — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 138편 --> — robot-assisted-therapy-osteoarthritis-pos
+- [x] robot-assisted therapy — Gait, Hemiplegic에 듣는다  <!-- 시험 5건 · 논문 197편 --> — robot-assisted-therapy-hemiplegic-gait-open
+- [x] robot-assisted therapy — Parkinson Disease에 듣는다  <!-- 시험 4건 · 논문 74편 --> — robot-assisted-therapy-parkinson-disease-open
+- [x] social support intervention — Obesity에 듣는다  <!-- 시험 8건 · 논문 12604편 --> — social-support-intervention-obesity-open
+- [x] social support intervention — Maternal Health에 듣는다  <!-- 시험 8건 · 논문 14003편 --> — 근거 없음(2026-08-07, "social support intervention" AND "Maternal Health"; 직접 중재 결과 없음)
+- [x] social support intervention — Pain에 듣는다  <!-- 시험 5건 · 논문 16674편 --> — 근거 없음(2026-08-07, "social support intervention" AND "Pain"; 직접 치료 중재 결과 없음)
+- [x] social support intervention — Depression에 듣는다  <!-- 시험 4건 · 논문 45043편 --> — 근거 없음(2026-08-07, "social support intervention" AND "Depression"; 직접 중재 결과 없음)
+- [x] flaxseed oil — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 10편 --> — 근거 없음(2026-08-07, "flaxseed oil" AND "Lung Cancer"; 사람 치료 결과 없음)
+- [x] flaxseed oil — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 40편 --> — 중복(flaxseed-diabetes-pos)
+- [x] flaxseed oil — Hypertension에 듣는다  <!-- 시험 4건 · 논문 72편 --> — 중복(flaxseed-hypertension-pos)
+- [x] flaxseed oil — Insulin에 듣는다  <!-- 시험 4건 · 논문 142편 --> — 중복(flaxseed-insulin-pos)
+- [x] olive oil — Healthy Diet에 듣는다  <!-- 시험 8건 · 논문 857편 --> — 근거 없음(2026-08-07, "olive oil" AND "Healthy Diet"; 특정 질환 치료 결과 없음)
+- [x] olive oil — Cognitive Decline에 듣는다  <!-- 시험 7건 · 논문 131편 --> — olive-oil-cognitive-decline-open
+- [x] olive oil — Hypercholesterolemia에 듣는다  <!-- 시험 6건 · 논문 158편 --> — olive-oil-hypercholesterolemia-pos
+- [x] olive oil — Inflammation에 듣는다  <!-- 시험 6건 · 논문 1283편 --> — olive-oil-inflammation-pos
+- [x] propolis — Diabetes Mellitus에 듣는다  <!-- 시험 6건 · 논문 138편 --> — propolis-diabetes-mellitus-pos
+- [x] propolis — Gingivitis에 듣는다  <!-- 시험 5건 · 논문 111편 --> — 근거 없음(2026-08-07, "propolis" AND "Gingivitis"; 직접 치료 결과 없음)
+- [x] propolis — Dentin Caries에 듣는다  <!-- 시험 5건 · 논문 19편 --> — propolis-dentin-caries-pos
+- [x] propolis — Periodontitis에 듣는다  <!-- 시험 4건 · 논문 205편 --> — 근거 없음(2026-08-07, "propolis" AND "Periodontitis"; 직접 치료 결과 없음)
+- [x] beetroot juice — Peripheral Artery Disease에 듣는다  <!-- 시험 9건 · 논문 16편 --> — beetroot-juice-peripheral-artery-disease-open
+- [ ] beetroot juice — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 27편 -->
+- [ ] beetroot juice — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 269편 -->
+- [ ] beetroot juice — Menopause에 듣는다  <!-- 시험 7건 · 논문 18편 -->
+- [ ] cranberry — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [ ] cranberry — Healthy Men에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] cranberry — Microbiota에 듣는다  <!-- 시험 3건 · 논문 122편 -->
