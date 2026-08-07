@@ -30,14 +30,14 @@
     "last_entry_count": 3022,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_BY3dYHXVQspXyBkdz15wBBHisFqP",
-    "deployment_state": "batch 157 local build has 3022 entries; public remains at the batch 151 deployment with 2928 entries until the six-round deployment check",
-    "deployment_url": "https://offlabel-pool-gk0e1jt1t-yeohj0710s-projects.vercel.app",
+    "deployment_state": "batch 157 local build and prebuilt Production deployment both have 3022 entries; production alias verified HTTP 200",
+    "deployment_url": "https://offlabel-pool-gblojo6dr-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-06",
     "local_entry_count": 3022,
-    "public_entry_count": 2928,
-    "public_id_field_count": 2928,
-    "counts_match": false,
-    "latest_note": "Batch 151 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; deployment dpl_BY3dYHXVQspXyBkdz15wBBHisFqP reached Production and the production alias returned HTTP 200 with 2928 entries. Batch 157 local build now has 3022 entries; public remains 2928 until the six-round deployment verification. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
+    "public_entry_count": 3022,
+    "public_id_field_count": 3022,
+    "counts_match": true,
+    "latest_note": "Batch 152-157 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; deployment dpl_2ApzJCwZsvovqmfzKXzUVNXemQK9 reached Production and the production alias returned HTTP 200 with 3022 entries. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
   "last_batch": [
@@ -1237,15 +1237,15 @@
   },
   "six_round_check": {
     "date": "2026-08-06",
-    "batches": "146, 147, 148, 149, 150, 151",
+    "batches": "152, 153, 154, 155, 156, 157",
     "no_effect_or_harm_share": "25%",
     "harm_entries": 98,
-    "non_trial_entries": 364,
-    "trial_entries": 2564,
-    "public_entry_count_local": 2928,
-    "public_entry_count_public": 2928,
+    "non_trial_entries": 383,
+    "trial_entries": 2639,
+    "public_entry_count_local": 3022,
+    "public_entry_count_public": 3022,
     "public_counts_match": true,
-    "deployment_command": "vercel build --prod --yes; vercel deploy --prebuilt --prod --yes; deployment dpl_BY3dYHXVQspXyBkdz15wBBHisFqP reached Production, production alias verified HTTP 200 at 2928 entries; Git-triggered remote build could not access C:\\dev\\kr-drug-data/permit/manifest.json"
+    "deployment_command": "vercel build --prod --yes; vercel deploy --prebuilt --prod --yes; deployment dpl_2ApzJCwZsvovqmfzKXzUVNXemQK9 reached Production, production alias verified HTTP 200 at 3022 entries; Git-triggered remote build could not access C:\\dev\\kr-drug-data/permit/manifest.json"
   },
   "legacy_wording": {
     "fixed_this_batch": 0,
@@ -1328,6 +1328,6 @@
     ,"batch 155: 13 evidence entries added; 12 no-evidence topics closed; 1 approved indication skipped; 0 unchecked topics remain"
     ,"batch 155 build passed with no new line/effect/known warnings; one truthful unknown-n and four truthful thin-study warnings remain; local build is 2997"
   ],
-  "current_batch": "batch 157 completed; 13 evidence entries added from 30 off-label topics; 17 no-evidence topics closed; build passed; 0 unchecked topics remain",
-  "next_action": "perform the six-round deployment check now because batches 152-157 are complete; then start batch 158 with git pull --ff-only and read AGENTS.md; count 0 unchecked topics and expand with 20 new quoted names"
+  "current_batch": "batch 157 completed; six-round deployment check recorded; local and public counts match at 3022 entries",
+  "next_action": "start batch 158 with git pull --ff-only and read AGENTS.md; count 0 unchecked topics and expand with 20 new quoted names"
 }
