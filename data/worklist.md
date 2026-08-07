@@ -13468,13 +13468,63 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] care coordination — Dementia에 듣는다  <!-- 시험 18건 · 논문 1552편 --> — 근거 항목 추가(2026-08-06)
 - [x] care coordination — Drug Use에 듣는다  <!-- 시험 17건 · 논문 8427편 --> — 근거 항목 추가(2026-08-06)
 - [x] care coordination — Diabetes에 듣는다  <!-- 시험 15건 · 논문 3865편 --> — 근거 항목 추가(2026-08-06)
-- [ ] care coordination — Mental Health에 듣는다  <!-- 시험 13건 · 논문 7381편 -->
-- [ ] patient education program — Diabetes에 듣는다  <!-- 시험 9건 · 논문 3946편 -->
-- [ ] patient education program — Colorectal Cancer에 듣는다  <!-- 시험 6건 · 논문 270편 -->
-- [ ] patient education program — Hypertension에 듣는다  <!-- 시험 5건 · 논문 960편 -->
-- [ ] patient education program — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 609편 -->
-- [ ] digital nutrition intervention — Obesity에 듣는다  <!-- 시험 6건 · 논문 645편 -->
-- [ ] digital nutrition intervention — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 428편 -->
-- [ ] digital nutrition intervention — Food Habits에 듣는다  <!-- 시험 5건 · 논문 246편 -->
-- [ ] relacorilant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 27편 -->
-- [ ] relacorilant — Cushing Syndrome에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] care coordination — Mental Health에 듣는다  <!-- 시험 13건 · 논문 7381편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient education program — Diabetes에 듣는다  <!-- 시험 9건 · 논문 3946편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient education program — Colorectal Cancer에 듣는다  <!-- 시험 6건 · 논문 270편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient education program — Hypertension에 듣는다  <!-- 시험 5건 · 논문 960편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient education program — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 609편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital nutrition intervention — Obesity에 듣는다  <!-- 시험 6건 · 논문 645편 --> — 근거 항목 추가(2026-08-06)
+- [x] digital nutrition intervention — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 428편 --> — 근거 없음(2026-08-06, "digital nutrition intervention" AND "Cardiovascular Diseases")
+- [x] digital nutrition intervention — Food Habits에 듣는다  <!-- 시험 5건 · 논문 246편 --> — 근거 항목 추가(2026-08-06)
+- [x] relacorilant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 27편 --> — 근거 항목 추가(2026-08-06)
+- [x] relacorilant — Cushing Syndrome에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] peer support intervention — Mental Health에 듣는다  <!-- 시험 32건 · 논문 10091편 --> — 근거 없음(2026-08-06, "peer support intervention" AND "Mental Health")
+- [x] peer support intervention — HIV에 듣는다  <!-- 시험 24건 · 논문 3760편 --> — 근거 항목 추가(2026-08-06)
+- [x] peer support intervention — Diabetes에 듣는다  <!-- 시험 22건 · 논문 2925편 --> — 근거 항목 추가(2026-08-06)
+- [x] peer support intervention — Stress에 듣는다  <!-- 시험 18건 · 논문 4625편 --> — 근거 없음(2026-08-06, "peer support intervention" AND "Stress")
+- [x] community health worker — Mental Health에 듣는다  <!-- 시험 14건 · 논문 6645편 --> — 근거 항목 추가(2026-08-06)
+- [x] community health worker — Cancer에 듣는다  <!-- 시험 12건 · 논문 2660편 --> — 근거 없음(2026-08-06, "community health worker" AND "Cancer")
+- [x] community health worker — Depression에 듣는다  <!-- 시험 7건 · 논문 2065편 --> — 근거 항목 추가(2026-08-06)
+- [x] community health worker — Malaria에 듣는다  <!-- 시험 6건 · 논문 1474편 --> — 근거 없음(2026-08-06, "community health worker" AND "Malaria")
+- [x] motivational interviewing — Depression에 듣는다  <!-- 시험 11건 · 논문 645편 --> — 근거 항목 추가(2026-08-06)
+- [x] motivational interviewing — Obesity에 듣는다  <!-- 시험 10건 · 논문 647편 --> — 근거 항목 추가(2026-08-06)
+- [x] motivational interviewing — Health Behavior에 듣는다  <!-- 시험 10건 · 논문 3242편 --> — 근거 항목 추가(2026-08-06)
+- [x] motivational interviewing — Drug Compliance에 듣는다  <!-- 시험 9건 · 논문 556편 --> — 근거 항목 추가(2026-08-06)
+- [x] shared decision making — Asthma에 듣는다  <!-- 시험 5건 · 논문 379편 --> — 근거 항목 추가(2026-08-06)
+- [x] shared decision making — Smoking에 듣는다  <!-- 시험 5건 · 논문 427편 --> — 근거 없음(2026-08-06, "shared decision making" AND "Smoking")
+- [x] shared decision making — Obesity에 듣는다  <!-- 시험 3건 · 논문 431편 --> — 근거 없음(2026-08-06, "shared decision making" AND "Obesity")
+- [x] shared decision making — Depression에 듣는다  <!-- 시험 3건 · 논문 895편 --> — 근거 없음(2026-08-06, "shared decision making" AND "Depression")
+- [x] home blood pressure monitoring — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 13편 --> — 근거 없음(2026-08-06, "home blood pressure monitoring" AND "Lung Cancer")
+- [x] home blood pressure monitoring — Chronic Kidney Disease에 듣는다  <!-- 시험 8건 · 논문 1238편 --> — 근거 없음(2026-08-06, "home blood pressure monitoring" AND "Chronic Kidney Disease")
+- [x] home blood pressure monitoring — Preeclampsia에 듣는다  <!-- 시험 7건 · 논문 367편 --> — 근거 항목 추가(2026-08-06)
+- [x] home blood pressure monitoring — Stroke에 듣는다  <!-- 시험 7건 · 논문 1431편 --> — 근거 항목 추가(2026-08-06)
+- [ ] remote patient monitoring — Surgery에 듣는다  <!-- 시험 10건 · 논문 1197편 -->
+- [ ] remote patient monitoring — Patient Discharge에 듣는다  <!-- 시험 5건 · 논문 478편 -->
+- [ ] remote patient monitoring — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 66편 -->
+- [ ] digital cognitive behavioral therapy — Depression에 듣는다  <!-- 시험 27건 · 논문 1142편 -->
+- [ ] digital cognitive behavioral therapy — Anxiety에 듣는다  <!-- 시험 18건 · 논문 1003편 -->
+- [ ] digital cognitive behavioral therapy — Cognitive Decline에 듣는다  <!-- 시험 14건 · 논문 151편 -->
+- [ ] digital cognitive behavioral therapy — Binge Eating에 듣는다  <!-- 시험 10건 · 논문 50편 -->
+- [ ] group prenatal care — Prenatal에 듣는다  <!-- 시험 16건 · 논문 19761편 -->
+- [ ] group prenatal care — Infant Behavior에 듣는다  <!-- 시험 5건 · 논문 719편 -->
+- [ ] group prenatal care — Fetal Conditions에 듣는다  <!-- 시험 5건 · 논문 1376편 -->
+- [ ] group prenatal care — Hernia에 듣는다  <!-- 시험 5건 · 논문 219편 -->
+- [ ] nutrition education — Obesity에 듣는다  <!-- 시험 32건 · 논문 20820편 -->
+- [ ] nutrition education — Pre Diabetes에 듣는다  <!-- 시험 18건 · 논문 1185편 -->
+- [ ] nutrition education — Weight에 듣는다  <!-- 시험 7건 · 논문 30985편 -->
+- [ ] nutrition education — M-health에 듣는다  <!-- 시험 7건 · 논문 81편 -->
+- [ ] resistance training — Sarcopenia에 듣는다  <!-- 시험 23건 · 논문 1513편 -->
+- [ ] resistance training — Muscle에 듣는다  <!-- 시험 22건 · 논문 19146편 -->
+- [ ] resistance training — Walking Impairment에 듣는다  <!-- 시험 8건 · 논문 271편 -->
+- [ ] resistance training — ACL Injury에 듣는다  <!-- 시험 8건 · 논문 138편 -->
+- [ ] donanemab — Amyloid에 듣는다  <!-- 시험 3건 · 논문 352편 -->
