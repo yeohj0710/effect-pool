@@ -1,0 +1,28 @@
+{
+  "id": "sleep-app-stress-harm",
+  "subj": "sleep app",
+  "claim": "앱 마음챙김의 수면 개선과 함께 개인 번아웃 점수가 일시적으로 오른다",
+  "line": "앱 마음챙김 뒤 일시적 번아웃 상승",
+  "effect": "중재 직후 개인 번아웃 점수 상승",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 81,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "수면 앱은 의약품 허가 적응증이 아닌 비약물 중재다",
+  "why": "10일 앱 마음챙김 무작위시험에서 수면 지표는 좋아졌지만 안전성 검색에서 개인 번아웃 점수가 중재 직후 높아지는 신호가 함께 나왔다.",
+  "saw": "앱군 49명과 대기군 32명을 비교했을 때 앱군의 개인 번아웃 점수가 중재 직후 유의하게 높아졌고, 추적 시에는 다시 기준선 쪽으로 돌아왔다.",
+  "limit": "번아웃 상승은 일시적 2차 결과였고 표본이 81명인 단일 시험이므로 반복 확인이 필요하다.",
+  "against": "4주 추적에서는 상승이 기준선 쪽으로 돌아왔다.",
+  "use": "앱 마음챙김을 사용할 때 수면 개선만 보지 말고 번아웃과 정서 상태도 함께 확인한다.",
+  "refs": [
+    { "label": "Digital Mindfulness Intervention Improves Sleep Efficiency 2026 · Scientific Reports", "doi": "10.1038/s41598-026-44902-w", "pmid": "41862627" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=sleep app AND condition=Stress; 53건 반환, 중재명 일치 0건",
+    "pubmed": "sleep app AND Stress; 328건",
+    "negative": "sleep app AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 233건",
+    "safety": "sleep app AND (adverse OR toxicity OR case report OR harm OR dropout); 30건"
+  }
+}

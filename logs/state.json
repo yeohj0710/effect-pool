@@ -1,61 +1,61 @@
 {
   "updated": "2026-08-06",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 2813,
+  "entries": 2843,
   "worklist": {
-    "checked": 11363,
+    "checked": 11393,
     "unchecked": 10,
     "no_evidence_pending": 328,
     "next_batch": [
-      "digital health coaching — Obesity",
-      "web-based counseling — Smoking",
-      "web-based counseling — BRCA1 Mutation",
-      "web-based counseling — Lung Cancer",
-      "web-based counseling — Mental Health",
-      "lifestyle counseling — Diabetes",
-      "lifestyle counseling — Overweight",
-      "lifestyle counseling — Metabolic Syndrome",
-      "lifestyle counseling — Hypertension",
-      "daprodustat — Anemia"
+      "patient portal intervention — Diabetes",
+      "patient portal intervention — Fall",
+      "patient portal intervention — Mobile Health",
+      "patient portal intervention — Liver Tumor",
+      "health insurance navigation — Cancer",
+      "health insurance navigation — Hypertension",
+      "health insurance navigation — Diabetes Mellitus, Type 2",
+      "health insurance navigation — Chronic Kidney Diseases",
+      "home sleep apnea test — Mild Cognitive Impairment",
+      "home sleep apnea test — Atrial Fibrillation"
     ]
   },
   "verification": {
-    "build": "passed; batch 145 added 28 new evidence entries, retained 1 existing matching evidence entry, and closed 1 no-evidence topic; no approved indications were present; no new line/effect/known warnings; two truthful unknown-n and five truthful thin-study warnings from this batch remain",
+    "build": "passed; batch 146 added 30 evidence entries from 29 off-label topics, including one additional harm entry; skipped 1 approved indication before API investigation; no new line/effect/known warnings; three truthful unknown-n and four truthful thin-study warnings from this batch remain",
     "line_warnings": 0,
-    "unknown_n_warnings": 279,
+    "unknown_n_warnings": 282,
     "known_warnings": 0,
     "tier_distribution": {
-      "trial": 2484,
-      "obs": 275,
+      "trial": 2511,
+      "obs": 278,
       "animal": 19,
       "lab": 9,
       "case": 26
     },
-    "no_effect_or_harm": 730,
-    "harm": 97,
+    "no_effect_or_harm": 736,
+    "harm": 98,
     "no_effect_or_harm_share": "26%",
-    "connected_evidence": 4113,
-    "thin_warnings": 438
+    "connected_evidence": 4144,
+    "thin_warnings": 442
   },
   "deployment": {
-    "last_entry_count": 2813,
+    "last_entry_count": 2843,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_HsBcG4TFryP7t3bzjrYXHhS7W2KL",
-    "deployment_state": "batch 145 prebuilt artifact deployed to Production; local and public both have 2813 entries",
+    "deployment_state": "batch 146 local build has 2843 entries; public remains at the batch 145 deployment with 2813 entries until the next six-round deployment check",
     "deployment_url": "https://offlabel-pool-lv8txnyfx-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-06",
-    "local_entry_count": 2813,
+    "local_entry_count": 2843,
     "public_entry_count": 2813,
     "public_id_field_count": 2813,
-    "counts_match": true,
-    "latest_note": "Batch 145 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; production alias returned HTTP 200 and displayed 2813 entries with the new batch. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
+    "counts_match": false,
+    "latest_note": "Batch 145 six-round check used vercel build --prod --yes followed by vercel deploy --prebuilt --prod --yes; production alias returned HTTP 200 and displayed 2813 entries with the batch 145 changes. Batch 146 local build now has 2843 entries; public remains 2813 until the next six-round check. Git-triggered remote builds cannot access C:\\dev\\kr-drug-data/permit/manifest.json.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification."
   },
   "last_batch": [
-    "created 28 new evidence entries and retained 1 existing matching evidence entry from 30 processed topics",
-    "closed 1 no-evidence topic with dated ClinicalTrials.gov and PubMed search records; skipped 0 approved indications before API investigation",
-    "the first expansion added 36 candidates from 20 quoted names, including 10 non-drug options; 30 topics were processed and 10 remain",
-    "build passed with no new line/effect/known warnings; two truthful unknown-n and five truthful thin-study warnings from this batch remain; local count is 2813 and 10 unchecked topics remain"
+    "created 30 evidence entries from 29 off-label topics, including one additional sleep-app harm entry",
+    "skipped 1 approved indication before API investigation: daprodustat — Anemia; no no-evidence topic was closed",
+    "the first expansion added 30 candidates from 20 quoted names, including 10 non-drug options; 30 topics were processed and 10 remain",
+    "build passed with no new line/effect/known warnings; three truthful unknown-n and four truthful thin-study warnings from this batch remain; local count is 2843 and 10 unchecked topics remain"
   ],
   "expansion": {
     "date": "2026-08-06",
@@ -100,37 +100,37 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-06",
-    "latest_candidates": 36,
+    "latest_candidates": 30,
     "latest_substances": [
-      "sleep health education",
-      "behavioral insomnia treatment",
-      "text messaging intervention",
-      "medication adherence intervention",
-      "food is medicine",
-      "meal replacement",
-      "self-management education",
-      "digital health coaching",
-      "web-based counseling",
-      "lifestyle counseling",
-      "naldemedine",
-      "zavegepant",
-      "efpeglenatide",
-      "oteseconazole",
-      "etrasimod",
-      "gepotidacin",
-      "daprodustat",
-      "vutrisiran",
-      "setmelanotide",
-      "sutimlimab"
+      "financial incentive intervention",
+      "mindfulness app",
+      "sleep app",
+      "grocery voucher",
+      "virtual group therapy",
+      "online mindfulness",
+      "patient portal intervention",
+      "health insurance navigation",
+      "remote dietary counseling",
+      "home sleep apnea test",
+      "donidalorsen",
+      "garadacimab",
+      "marstacimab",
+      "concizumab",
+      "remternetug",
+      "simufilam",
+      "imeglimin",
+      "efinopegdutide",
+      "selatogrel",
+      "milvexian"
     ],
     "latest_attempts": {
-      "first_candidates": 36,
+      "first_candidates": 30,
       "second_candidates": 0,
       "non_drug_count": 10,
-      "notes": "The first expansion added 36 candidates from 20 quoted names, including 10 non-drug options; drug names produced one daprodustat candidate and no second expansion was needed."
+      "notes": "The first expansion added 30 candidates from 20 quoted names, including 10 non-drug options; the 10 carried-over topics were processed first, and no second expansion was needed."
     },
-    "added_candidates": 4946,
-    "direct_added_candidates": 2811,
+    "added_candidates": 4976,
+    "direct_added_candidates": 2841,
     "last_attempts": [
       {
         "candidates": 47,
@@ -1094,10 +1094,10 @@
         "non_drug_count": 10
       }
     ],
-    "expansion_checkpoint": "batch 138 expansion: first attempt added 12 candidates from 20 supplied quoted names, including 10 non-drug options; no second or third attempt was needed; 0 unchecked topics remain"
+    "expansion_checkpoint": "batch 146 expansion: first attempt added 30 candidates from 20 supplied quoted names, including 10 non-drug options; no second or third attempt was needed; 40 unchecked topics were available and 10 remain after processing 30"
   },
   "resume": {
-    "last_committed_batch": "batch 145: 28 new evidence entries added; 1 existing matching evidence entry retained; 1 no-evidence topic closed; 0 approved indications skipped; 10 unchecked topics remain",
+    "last_committed_batch": "batch 146: 30 evidence entries added from 29 off-label topics; 1 approved indication skipped; 10 unchecked topics remain",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -1219,8 +1219,8 @@
       "batch 142: 13 evidence entries added; 4 no-evidence topics closed; 0 approved indications skipped; 0 unchecked topics remain",
       "batch 143: 13 evidence entries added; 5 no-evidence topics closed; 0 approved indications skipped; 0 unchecked topics remain",
       "batch 144: 24 new evidence entries added; 2 existing evidence entries refreshed; 4 no-evidence topics closed; 0 approved indications skipped; 4 unchecked topics remain",
-      "expansion after batch 144: first attempt added 36 candidates from 20 quoted names, including 10 non-drug options; 40 unchecked topics remained",
-      "batch 145: 28 new evidence entries added; 1 existing matching evidence entry retained; 1 no-evidence topic closed; 0 approved indications skipped; 10 unchecked topics remain"
+      "expansion after batch 145: first attempt added 30 candidates from 20 quoted names, including 10 non-drug options; 40 unchecked topics remained",
+      "batch 146: 30 evidence entries added from 29 off-label topics, including one additional harm entry; 1 approved indication skipped; 10 unchecked topics remain"
     ],
     "current_batch": "batch 145 completed; 28 new evidence entries added; 1 existing matching evidence entry retained; 1 no-evidence topic closed; 0 approved indications skipped; 10 unchecked topics remain",
     "next_action": "perform the six-round deployment check now, then start batch 146 with git pull --ff-only and read AGENTS.md; count 10 unchecked topics and expand because the queue is below 30",
@@ -1294,6 +1294,6 @@
     "expansion after batch 144: first attempt added 36 candidates from 20 quoted names, including 10 non-drug options; 40 unchecked topics remained",
     "batch 145: 28 new evidence entries added; 1 existing matching evidence entry retained; 1 no-evidence topic closed; 0 approved indications skipped; 10 unchecked topics remain"
   ],
-    "current_batch": "batch 145 completed; 28 new evidence entries added; 1 existing matching evidence entry retained; 1 no-evidence topic closed; 0 approved indications skipped; 10 unchecked topics remain",
-    "next_action": "perform the six-round deployment check now, then start batch 146 with git pull --ff-only and read AGENTS.md; count 10 unchecked topics and expand because the queue is below 30"
+  "current_batch": "batch 146 completed; 30 evidence entries added from 29 off-label topics; 1 approved indication skipped; build passed; 10 unchecked topics remain",
+  "next_action": "start batch 147 with git pull --ff-only and read AGENTS.md; count 10 unchecked topics and expand because the queue is below 30; process the remaining patient portal, health insurance navigation, and home sleep apnea test topics first"
 }
