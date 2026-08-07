@@ -13701,3 +13701,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] secukinumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 16건 · 논문 381편 --> — 허가 적응증(2026-08-06)
 - [x] secukinumab — Axial Spondyloarthritis에 듣는다  <!-- 시험 10건 · 논문 342편 --> — 허가 적응증(2026-08-06)
 - [x] tildrakizumab — Skin Diseases에 듣는다  <!-- 시험 3건 · 논문 276편 --> — 허가 적응증(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] peer-led education — Diabetes에 듣는다  <!-- 시험 4건 · 논문 88편 -->
+- [x] peer-led education — Dental Care에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [x] peer-led education — Pain Management에 듣는다  <!-- 시험 3건 · 논문 25편 -->
+- [x] digital sleep intervention — Cognitive Decline에 듣는다  <!-- 시험 10건 · 논문 144편 --> — 근거 없음(2026-08-06 조회, "digital sleep intervention" AND "Cognitive Decline")
+- [x] digital sleep intervention — Depression에 듣는다  <!-- 시험 9건 · 논문 927편 -->
+- [x] digital sleep intervention — Anxiety에 듣는다  <!-- 시험 8건 · 논문 717편 -->
+- [x] digital sleep intervention — Sleep에 듣는다  <!-- 시험 8건 · 논문 5696편 -->
+- [x] nutrition prescription — Pre-diabetes에 듣는다  <!-- 시험 8건 · 논문 87편 -->
+- [x] nutrition prescription — Food Selection에 듣는다  <!-- 시험 5건 · 논문 59편 -->
+- [x] nutrition prescription — Overweight에 듣는다  <!-- 시험 5건 · 논문 450편 -->
+- [x] nutrition prescription — Dietary Habits에 듣는다  <!-- 시험 4건 · 논문 230편 -->
+- [x] pain education app — Hip Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] virtual caregiver support — Caregiver에 듣는다  <!-- 시험 3건 · 논문 1308편 -->
+- [x] olipudase alfa — Acid Sphingomyelinase Deficiency에 듣는다  <!-- 시험 3건 · 논문 55편 --> — 허가 적응증(2026-08-06)
