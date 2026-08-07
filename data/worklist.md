@@ -13348,7 +13348,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] peer support — Social Care에 듣는다  <!-- 시험 11건 · 논문 32073편 -->
 - [x] peer support — Cancer에 듣는다  <!-- 시험 11건 · 논문 9662편 -->
 - [x] peer support — Psychological에 듣는다  <!-- 시험 9건 · 논문 12678편 -->
-- [ ] sleep hygiene — Health Status에 듣는다  <!-- 시험 14건 · 논문 2550편 -->
-- [ ] sleep hygiene — Cognitive Disorder에 듣는다  <!-- 시험 10건 · 논문 615편 -->
-- [ ] sleep hygiene — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 87편 -->
-- [ ] sleep hygiene — Obesity에 듣는다  <!-- 시험 8건 · 논문 630편 -->
+- [x] sleep hygiene — Health Status에 듣는다  <!-- 시험 14건 · 논문 2550편 -->
+- [x] sleep hygiene — Cognitive Disorder에 듣는다  <!-- 시험 10건 · 논문 615편 -->
+- [x] sleep hygiene — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 87편 -->
+- [x] sleep hygiene — Obesity에 듣는다  <!-- 시험 8건 · 논문 630편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sleep health education — Infant Health에 듣는다  <!-- 시험 17건 · 논문 1618편 -->
+- [x] sleep health education — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 926편 -->
+- [x] sleep health education — Depression에 듣는다  <!-- 시험 7건 · 논문 6618편 -->
+- [x] sleep health education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 4754편 -->
+- [x] behavioral insomnia treatment — Sleep에 듣는다  <!-- 시험 54건 · 논문 9436편 -->
+- [x] behavioral insomnia treatment — Cancer에 듣는다  <!-- 시험 32건 · 논문 1148편 -->
+- [x] behavioral insomnia treatment — Depression에 듣는다  <!-- 시험 30건 · 논문 4835편 -->
+- [x] behavioral insomnia treatment — Pain에 듣는다  <!-- 시험 19건 · 논문 1514편 -->
+- [x] text messaging intervention — Health Behavior에 듣는다  <!-- 시험 26건 · 논문 2856편 -->
+- [x] text messaging intervention — Smoking에 듣는다  <!-- 시험 21건 · 논문 627편 -->
+- [x] text messaging intervention — HIV에 듣는다  <!-- 시험 19건 · 논문 680편 -->
+- [x] text messaging intervention — Diabetes에 듣는다  <!-- 시험 14건 · 논문 623편 -->
+- [x] medication adherence intervention — Diabetes에 듣는다  <!-- 시험 10건 · 논문 5107편 -->
+- [x] medication adherence intervention — Asthma에 듣는다  <!-- 시험 6건 · 논문 1932편 -->
+- [x] medication adherence intervention — HIV에 듣는다  <!-- 시험 6건 · 논문 5888편 -->
+- [x] medication adherence intervention — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 6891편 -->
+- [x] meal replacement — Diabetes에 듣는다  <!-- 시험 21건 · 논문 582편 -->
+- [x] meal replacement — Weight Loss에 듣는다  <!-- 시험 15건 · 논문 689편 -->
+- [x] meal replacement — Overweight에 듣는다  <!-- 시험 13건 · 논문 594편 -->
+- [x] meal replacement — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 76편 -->
+- [x] self-management education — Pain에 듣는다  <!-- 시험 15건 · 논문 5617편 -->
+- [x] self-management education — OSA - Obstructive Sleep Apnea에 듣는다  <!-- 시험 6건 · 논문 74편 --> — 근거 없음(2026-08-06, "self-management education" AND "OSA - Obstructive Sleep Apnea")
+- [x] self-management education — Osteoarthritis에 듣는다  <!-- 시험 6건 · 논문 714편 -->
+- [x] self-management education — Depression에 듣는다  <!-- 시험 5건 · 논문 4423편 -->
+- [x] digital health coaching — Diabetes에 듣는다  <!-- 시험 14건 · 논문 254편 -->
+- [x] digital health coaching — Depression에 듣는다  <!-- 시험 8건 · 논문 269편 -->
+- [ ] digital health coaching — Obesity에 듣는다  <!-- 시험 6건 · 논문 150편 -->
+- [ ] web-based counseling — Smoking에 듣는다  <!-- 시험 4건 · 논문 189편 -->
+- [ ] web-based counseling — BRCA1 Mutation에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [ ] web-based counseling — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 23편 -->
+- [ ] web-based counseling — Mental Health에 듣는다  <!-- 시험 4건 · 논문 286편 -->
+- [ ] lifestyle counseling — Diabetes에 듣는다  <!-- 시험 52건 · 논문 1921편 -->
+- [ ] lifestyle counseling — Overweight에 듣는다  <!-- 시험 19건 · 논문 1765편 -->
+- [ ] lifestyle counseling — Metabolic Syndrome에 듣는다  <!-- 시험 14건 · 논문 362편 -->
+- [ ] lifestyle counseling — Hypertension에 듣는다  <!-- 시험 12건 · 논문 923편 -->
+- [ ] daprodustat — Anemia에 듣는다  <!-- 시험 3건 · 논문 152편 -->
