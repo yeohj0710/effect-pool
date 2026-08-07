@@ -14376,3 +14376,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] beet juice — Arterial Stiffness에 듣는다  <!-- 시험 14건 · 논문 14편 -->
 - [x] beet juice — Aging에 듣는다 — 근거 없음(2026-08-07 조회, "beet juice" AND Aging; ClinicalTrials.gov 개입명 일치 0건, 직접 결과 논문 없음)  <!-- 시험 11건 · 논문 37편 -->
 - [x] grape juice — Diet, Healthy에 듣는다  <!-- 시험 4건 · 논문 27편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] millet — Obesity에 듣는다  <!-- 시험 3건 · 논문 113편 -->
+- [x] millet — Iron Deficiency에 듣는다  <!-- 시험 3건 · 논문 92편 -->
+- [x] teff — Acute Myeloid Leukemia에 듣는다 — 근거 없음(2026-08-07 조회, "teff" AND "Acute Myeloid Leukemia"; NCT01163201 철회·n0, 직접 결과 논문 없음)  <!-- 시험 4건 · 논문 10편 -->
+- [x] cassava — Obesity에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [x] navy beans — Obesity에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cocoa powder — Diabetes에 듣는다  <!-- 시험 12건 · 논문 310편 -->
+- [x] cocoa powder — Endothelial Function에 듣는다  <!-- 시험 7건 · 논문 136편 -->
+- [x] cocoa powder — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 186편 -->
+- [x] cocoa powder — Nonalcoholic Fatty Liver Disease에 듣는다 — 결과 없음(2026-08-07 조회, "cocoa powder" AND "Nonalcoholic Fatty Liver Disease"; NCT07093346 모집 중·n45, 직접 결과 논문 없음)  <!-- 시험 6건 · 논문 17편 -->
