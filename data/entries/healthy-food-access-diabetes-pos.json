@@ -1,0 +1,28 @@
+{
+  "id": "healthy-food-access-diabetes-pos",
+  "subj": "healthy food access",
+  "claim": "식품 접근성을 높이는 바우처가 식품 불안정성이 있는 제2형 당뇨병 환자의 당화혈색소를 낮춘다",
+  "line": "식품 바우처를 받은 제2형 당뇨병 환자의 당화혈색소가 줄었습니다",
+  "effect": "당화혈색소 감소",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 165,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "건강한 식품 접근성 바우처는 허가 적응증을 적용하지 않는 사회·영양 중재입니다.",
+  "why": "농촌 지역의 식품 불안정성이 있는 제2형 당뇨병 환자에게 주 1회 지역 식품은행에서 쓸 수 있는 식품 바우처를 제공하고 건강교육도 함께 시행한 실제 진료 환경의 전후 관찰 연구입니다.",
+  "saw": "165명이 참여했습니다. 바우처 수령 횟수를 보정한 뒤 당화혈색소가 평균 0.34% 줄었고, 38%는 0.5% 이상 줄었습니다. 체질량지수와 혈압은 유의하게 좋아지지 않았습니다.",
+  "limit": "무작위 대조군이 없는 관찰 연구이고 식품 바우처와 건강교육을 함께 시행했습니다. 당화혈색소 변화가 식품 접근성만의 효과인지는 분리할 수 없습니다.",
+  "against": "체질량지수와 혈압은 유의하게 개선되지 않았습니다.",
+  "use": "식품 불안정성이 있는 제2형 당뇨병 환자에게 식품 바우처를 제공할 때의 실제 진료 결과로 참고합니다.",
+  "refs": [
+    { "label": "Real-world implementation of a clinic-community Food is Medicine intervention for patients with type 2 diabetes", "doi": "10.1016/j.diabres.2025.112376", "pmid": "40669564" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=healthy food access AND query.cond=Diabetes → 49건, healthy food access 개입명 직접 일치 0건",
+    "pubmed": "healthy food access AND Diabetes → 519건",
+    "negative": "healthy food access AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) → 268건",
+    "safety": "healthy food access AND (adverse OR toxicity OR case report OR harm OR dropout) → 418건"
+  }
+}

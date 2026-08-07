@@ -1,0 +1,28 @@
+{
+  "id": "orange-juice-blood-insulin-pos",
+  "subj": "orange juice",
+  "claim": "오렌지 주스에 오렌지 식이섬유를 더하면 심혈관대사 위험 성인의 식후 인슐린 상승을 낮춘다",
+  "line": "오렌지 식이섬유를 더한 주스가 식후 인슐린 상승폭을 낮췄습니다",
+  "effect": "식후 인슐린 최고 상승폭 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 36,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "오렌지 주스는 허가 적응증을 적용하지 않는 식품입니다.",
+  "why": "심혈관대사 위험이 있는 남성에게 오렌지 주스, 오렌지 식이섬유를 더한 주스, 통오렌지 음료 또는 당 대조 음료를 번갈아 먹인 무작위 교차시험입니다.",
+  "saw": "36명이 네 음료를 각각 경험했습니다. 오렌지 식이섬유를 더한 주스는 순수 오렌지 주스와 당 대조 음료보다 식후 최대 인슐린 상승폭이 낮았고 식후 혈당 최고 상승폭도 낮췄습니다.",
+  "limit": "오렌지 주스 자체가 아니라 오렌지 식이섬유를 추가한 음료의 단회 식사 반응입니다. 36명의 남성만 포함했고 장기 혈당 조절 결과는 아닙니다.",
+  "against": "순수 오렌지 주스는 오렌지 식이섬유를 더한 주스보다 인슐린 상승 억제 효과가 작았습니다.",
+  "use": "심혈관대사 위험 성인의 식후 혈당·인슐린 반응을 줄이려는 음료 조성 연구의 소규모 근거로 참고합니다.",
+  "refs": [
+    { "label": "Addition of Orange Pomace to Orange Juice Attenuates the Increases in Peak Glucose and Insulin Concentrations after Sequential Meal Ingestion in Men with Elevated Cardiometabolic Risk", "doi": "10.3945/jn.115.226001", "pmid": "27170728", "nct": "NCT01963416" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=orange juice AND query.cond=Blood Insulin → 4건, orange juice 개입명 직접 일치 1건",
+    "pubmed": "orange juice AND Blood Insulin → 67건",
+    "negative": "orange juice AND Blood Insulin AND (no effect OR did not OR failed OR negative OR no significant difference) → 61건",
+    "safety": "orange juice AND (adverse OR toxicity OR case report OR harm OR dropout) → 478건"
+  }
+}

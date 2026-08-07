@@ -14541,3 +14541,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] whole grain bread — Impaired Fasting Glucose에 듣는다  <!-- 시험 3건 · 논문 8편 -->
 - [x] rye bread — Appetite에 듣는다  <!-- 시험 4건 · 논문 28편 -->
 - [x] rye bread — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] pecan — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 38편 -->
+- [x] pecan — Healthy Adults에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [x] orange juice — Blood Insulin에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [x] orange juice — Vitamin D Status에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [x] orange juice — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [x] cooking therapy — Adolescent Health에 듣는다 — 근거 없음(2026-08-07 조회, "cooking therapy" AND "Adolescent Health"; 직접 중재 결과 없음)  <!-- 시험 3건 · 논문 270편 -->
+- [x] food environment intervention — Cancer에 듣는다 — 근거 없음(2026-08-07 조회, "food environment intervention" AND Cancer; 물질 동일성 대조 후 직접 중재 0건)  <!-- 시험 9건 · 논문 5372편 -->
+- [x] food environment intervention — Type 1 Diabetes에 듣는다 — 근거 없음(2026-08-07 조회, "food environment intervention" AND "Type 1 Diabetes"; 물질 동일성 대조 후 직접 중재 0건)  <!-- 시험 8건 · 논문 158편 -->
+- [x] food environment intervention — Breast Feeding에 듣는다 — 근거 없음(2026-08-07 조회, "food environment intervention" AND "Breast Feeding"; 물질 동일성 대조 후 직접 중재 0건)  <!-- 시험 6건 · 논문 956편 -->
+- [x] food environment intervention — High Triglycerides에 듣는다 — 근거 없음(2026-08-07 조회, "food environment intervention" AND "High Triglycerides"; 물질 동일성 대조 후 직접 중재 0건)  <!-- 시험 5건 · 논문 531편 -->
+- [x] healthy food access — Diabetes에 듣는다  <!-- 시험 8건 · 논문 519편 -->
+- [x] healthy food access — Food Selection에 듣는다  <!-- 시험 6건 · 논문 581편 -->
+- [x] healthy food access — Mental Health에 듣는다  <!-- 시험 5건 · 논문 312편 -->
+- [x] healthy food access — High Triglycerides에 듣는다 — 근거 없음(2026-08-07 조회, "healthy food access" AND "High Triglycerides"; 직접 중재 결과 없음)  <!-- 시험 4건 · 논문 23편 -->
+- [x] school cooking — Child Nutrition에 듣는다 — 근거 없음(2026-08-07 조회, "school cooking" AND "Child Nutrition"; 직접 시험 1건이나 결과 보고 없음)  <!-- 시험 3건 · 논문 953편 -->
