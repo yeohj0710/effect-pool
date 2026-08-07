@@ -1,0 +1,29 @@
+{
+  "id": "darunavir-patient-compliance-pos",
+  "subj": "darunavir",
+  "claim": "복약 순응도가 낮은 HIV 환자에 다루나비르 단일정 제형을 쓴다",
+  "line": "단일정 다루나비르 제형의 6개월 복약일수 비율이 복수정 제형보다 높았습니다",
+  "effect": "PDC 81% 대 73%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 2633,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "darunavir 허가는 HIV-1 감염이며 단일정 제형을 통한 복약 순응도 개선은 별도 적응증이 아닙니다",
+  "why": "다루나비르 기반 HIV 치료에서 단일정과 복수정의 복약 지속성과 복약일수 비율을 실제 진료자료로 비교합니다.",
+  "saw": "실제 진료자료 2,633명 중 단일정 다루나비르·코비시스타트·엠트리시타빈·테노포비르 알라페나미드군 822명은 평균 PDC 81%, 복수정군 204명은 73%였습니다. 60일 이상 공백이 없었던 비율도 80% 대 69%였습니다.",
+  "limit": "후향적 자료라 제형 선택과 순응도 차이에 환자 특성·치료 경험이 함께 영향을 줄 수 있습니다.",
+  "against": "단일정군도 평균 PDC가 100%가 아니며, 연구는 HCV나 다른 질환의 순응도를 평가하지 않았습니다.",
+  "use": "복약 순응도 연구에서 제형 효과와 환자 선택 편향을 함께 살펴볼 사례로 둡니다.",
+  "refs": [
+    { "label": "Hernandez 2020 · 다루나비르 단일정·복수정 순응도 실제자료", "doi": "10.2147/PPA.S272211", "pmid": "33262581", "pmc": "PMC7695894" },
+    { "label": "Darunavir 복약 단순화 약동학 모델 연구", "doi": "10.1007/s40262-020-00920-z", "pmid": "32696441", "pmc": "PMC7862523" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=darunavir AND condition=Patient Compliance; 1건 반환, 1건 직접 대조",
+    "pubmed": "darunavir AND Patient Compliance; 13편",
+    "negative": "darunavir AND Patient Compliance AND (no effect OR did not OR failed to OR negative); 1편",
+    "safety": "darunavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 763편"
+  }
+}

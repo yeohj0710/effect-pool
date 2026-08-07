@@ -1,42 +1,33 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3626,
+  "entries": 3634,
   "worklist": {
     "total": 12820,
-    "checked": 12812,
-    "unchecked": 8,
+    "checked": 12820,
+    "unchecked": 0,
     "no_evidence_pending": 1226,
-    "next_batch": [
-      "community resilience — Disaster",
-      "atazanavir — Hepatitis C",
-      "darunavir — Hepatitis C",
-      "darunavir — Patient Compliance",
-      "etravirine — Hepatitis B",
-      "maraviroc — Virus Diseases",
-      "bedaquiline — Pulmonary TB",
-      "bedaquiline — HIV"
-    ]
+    "next_batch": []
   },
   "verification": {
-    "build": "passed; batch 233 processed 17 topics; 9 evidence entries were added, 1 registration-only topic was closed as no-evidence, 8 approved indications were skipped, and all new actionable line/effect/scale warnings were fixed",
+    "build": "passed; batch 234 processed 8 topics; 8 evidence entries were added, and all new actionable line/effect/scale warnings were fixed",
     "line_warnings": 0,
     "unknown_n_warnings": 342,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3153,
-      "obs": 413,
+      "trial": 3156,
+      "obs": 417,
       "animal": 20,
       "lab": 10,
-      "case": 30
+      "case": 31
     },
-    "no_effect_or_harm": 867,
+    "no_effect_or_harm": 871,
     "harm": 110,
     "no_effect_or_harm_share": "24%",
-    "non_trial": 473,
+    "non_trial": 478,
     "unexpected_benefit_entries": 23,
-    "connected_evidence": 5179,
-    "thin_warnings": 611
+    "connected_evidence": 5190,
+    "thin_warnings": 612
   },
   "deployment": {
     "last_entry_count": 3595,
@@ -45,11 +36,11 @@
     "deployment_state": "batch 232 local build has 3617 entries; public last verified at 3595 until the six-round check after batch 235",
     "deployment_url": "https://offlabel-pool-ii00bc9vf-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3626,
+    "local_entry_count": 3634,
     "public_entry_count": 3595,
     "public_id_field_count": 3600,
     "counts_match": false,
-    "latest_note": "Batch 233 local build: 3626 entries and 5179 refs; public last verified at 3595 until the six-round check after batch 235.",
+    "latest_note": "Batch 234 local build: 3634 entries and 5190 refs; public last verified at 3595 until the six-round check after batch 235.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs."
   },
   "last_batch": [
@@ -753,8 +744,11 @@
     "batch 233 processed 17 topics; added 9 evidence entries; closed 1 registration-only topic as no-evidence; skipped 8 approved indications; 8 unchecked topics remain",
     "batch 233 added community-resilience-child-development-pos, atazanavir-endothelial-dysfunction-pos, atazanavir-tuberculosis-null, maraviroc-stroke-pos, maraviroc-graft-versus-host-disease-null, rilpivirine-contraception-open, itacitinib-graft-versus-host-disease-null, bedaquiline-bacterial-infections-open, and pretomanid-pulmonary-tuberculoses-open",
     "batch 233 recorded community resilience—Resilience as no-evidence because NCT06771167 is recruiting without a result paper; approved topics were marked with the 2026-08-08 approval date",
-    "batch 233 build passed after shortening new line/effect fields and removing the registration-only entry; four truthful thin-study warnings from small human studies remain; local build is 3626 and public remains 3595 until the six-round deployment check after batch 235"
+    "batch 233 build passed after shortening new line/effect fields and removing the registration-only entry; four truthful thin-study warnings from small human studies remain; local build is 3626 and public remains 3595 until the six-round deployment check after batch 235",
+    "batch 234 processed the 8 remaining topics from the community resilience, atazanavir, darunavir, etravirine, maraviroc, and bedaquiline branch; added 8 evidence entries and closed the worklist",
+    "batch 234 added community-resilience-disaster-pos, atazanavir-hepatitis-c-null, darunavir-hepatitis-c-null, darunavir-patient-compliance-pos, etravirine-hepatitis-b-null, maraviroc-virus-diseases-pos, bedaquiline-pulmonary-tb-pos, and bedaquiline-hiv-null",
+    "batch 234 build passed after shortening itacitinib and maraviroc GVHD lines/effects and removing scale overlaps; one truthful thin-study warning remains for the 33-person COVID-19 maraviroc trial; local build is 3634 and public remains 3595 until the six-round deployment check after batch 235"
   ],
-  "current_batch": "batch 233 complete locally; 9 evidence entries, 1 no-evidence topic, 0 same-evidence topics, 8 approved indications, and 8 unchecked topics remain; local build 3626; public last verified 3595",
-  "next_action": "start batch 234; process the 8 remaining topics from community resilience, atazanavir, darunavir, etravirine, maraviroc, and bedaquiline; six-round deployment check due after batch 235"
+  "current_batch": "batch 234 complete locally; 8 evidence entries, 0 no-evidence topics, 0 same-evidence topics, 0 approved indications, and 0 unchecked topics remain; local build 3634; public last verified 3595",
+  "next_action": "start batch 235; read state, run git pull, expand with a new non-drug and non-oncology branch, and perform the six-round deployment check after this batch"
 }

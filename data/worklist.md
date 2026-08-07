@@ -15841,27 +15841,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] community resilience — Resilience에 듣는다  <!-- 시험 5건 · 논문 23452편 --> — 근거 없음(2026-08-08, community resilience Resilience; ClinicalTrials.gov NCT06771167 모집 중·결과 논문 없음)
 - [x] community resilience — Child Development에 듣는다  <!-- 시험 3건 · 논문 1185편 --> — community-resilience-child-development-pos (2026-08-08)
-- [ ] community resilience — Disaster에 듣는다  <!-- 시험 3건 · 논문 2781편 -->
+- [x] community resilience — Disaster에 듣는다  <!-- 시험 3건 · 논문 2781편 --> — community-resilience-disaster-pos (2026-08-08)
 - [x] atazanavir — Human Immunodeficiency Virus에 듣는다  <!-- 시험 10건 · 논문 1930편 --> — 허가 적응증(2026-08-08)
-- [ ] atazanavir — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 98편 -->
+- [x] atazanavir — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 98편 --> — atazanavir-hepatitis-c-null (2026-08-08)
 - [x] atazanavir — Endothelial Dysfunction에 듣는다  <!-- 시험 4건 · 논문 15편 --> — atazanavir-endothelial-dysfunction-pos (2026-08-08)
 - [x] atazanavir — Tuberculosis에 듣는다  <!-- 시험 3건 · 논문 34편 --> — atazanavir-tuberculosis-null (2026-08-08)
 - [x] darunavir — AIDS Virus에 듣는다  <!-- 시험 17건 · 논문 2001편 --> — 허가 적응증(2026-08-08)
 - [x] darunavir — AIDS에 듣는다  <!-- 시험 3건 · 논문 759편 --> — 허가 적응증(2026-08-08)
-- [ ] darunavir — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 74편 -->
-- [ ] darunavir — Patient Compliance에 듣는다  <!-- 시험 3건 · 논문 46편 -->
+- [x] darunavir — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 74편 --> — darunavir-hepatitis-c-null (2026-08-08)
+- [x] darunavir — Patient Compliance에 듣는다  <!-- 시험 3건 · 논문 46편 --> — darunavir-patient-compliance-pos (2026-08-08)
 - [x] etravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 6건 · 논문 836편 --> — 허가 적응증(2026-08-08)
-- [ ] etravirine — Hepatitis B에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] maraviroc — Virus Diseases에 듣는다  <!-- 시험 13건 · 논문 842편 -->
+- [x] etravirine — Hepatitis B에 듣는다  <!-- 시험 3건 · 논문 19편 --> — etravirine-hepatitis-b-null (2026-08-08)
+- [x] maraviroc — Virus Diseases에 듣는다  <!-- 시험 13건 · 논문 842편 --> — maraviroc-virus-diseases-pos (2026-08-08)
 - [x] maraviroc — AIDS에 듣는다  <!-- 시험 7건 · 논문 412편 --> — 허가 적응증(2026-08-08)
 - [x] maraviroc — Stroke에 듣는다  <!-- 시험 7건 · 논문 20편 --> — maraviroc-stroke-pos (2026-08-08)
 - [x] maraviroc — Graft-versus-host Disease에 듣는다  <!-- 시험 4건 · 논문 27편 --> — maraviroc-graft-versus-host-disease-null (2026-08-08)
 - [x] rilpivirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 7건 · 논문 1443편 --> — 허가 적응증(2026-08-08)
 - [x] rilpivirine — Contraception에 듣는다  <!-- 시험 3건 · 논문 16편 --> — rilpivirine-contraception-open (2026-08-08)
-- [ ] bedaquiline — Pulmonary TB에 듣는다  <!-- 시험 11건 · 논문 469편 -->
+- [x] bedaquiline — Pulmonary TB에 듣는다  <!-- 시험 11건 · 논문 469편 --> — bedaquiline-pulmonary-tb-pos (2026-08-08)
 - [x] bedaquiline — Bacterial Infections에 듣는다  <!-- 시험 6건 · 논문 1327편 --> — bedaquiline-bacterial-infections-open (2026-08-08)
 - [x] bedaquiline — MDR-TB에 듣는다  <!-- 시험 5건 · 논문 531편 --> — 허가 적응증(2026-08-08)
-- [ ] bedaquiline — HIV에 듣는다  <!-- 시험 4건 · 논문 301편 -->
+- [x] bedaquiline — HIV에 듣는다  <!-- 시험 4건 · 논문 301편 --> — bedaquiline-hiv-null (2026-08-08)
 - [x] pretomanid — XDR-TB에 듣는다  <!-- 시험 4건 · 논문 123편 --> — 허가 적응증(2026-08-08)
 - [x] pretomanid — Pulmonary Tuberculoses에 듣는다  <!-- 시험 3건 · 논문 143편 --> — pretomanid-pulmonary-tuberculoses-open (2026-08-08)
 - [x] itacitinib — Graft Vs Host Disease에 듣는다  <!-- 시험 11건 · 논문 13편 --> — itacitinib-graft-versus-host-disease-null (2026-08-08)
