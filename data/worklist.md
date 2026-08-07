@@ -15668,3 +15668,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] produce box — Pre-diabetes에 듣는다  <!-- 시험 3건 · 논문 32편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov 직접 결과 미확인; PubMed 직접 결과 없음)
 - [x] sleep position therapy — Neck Pain에 듣는다  <!-- 시험 3건 · 논문 47편 --> — 항목(sleep-position-therapy-neck-pain-pos, 2026-08-08)
 - [x] etelcalcetide — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 91편 --> — 허가 적응증(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] salt substitute — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 622편 --> — 항목(salt-substitute-blood-pressure-pos, 2026-08-08)
+- [x] salt substitute — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 662편 --> — 항목(salt-substitute-cardiovascular-disease-pos, 2026-08-08)
+- [x] salt substitute — Kidney Tumors에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-08, PubMed: salt substitute AND Kidney Tumors; ClinicalTrials.gov 직접 결과 미확인)
+- [x] grocery delivery — Diet, Healthy에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(2026-08-08, PubMed: grocery delivery AND Diet, Healthy; ClinicalTrials.gov 직접 결과 미확인)
+- [x] grocery delivery — Obesity에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 항목(grocery-delivery-obesity-open, 2026-08-08)
+- [x] food label intervention — Healthy Diet에 듣는다  <!-- 시험 4건 · 논문 559편 --> — 항목(food-label-intervention-healthy-diet-open, 2026-08-08)
+- [x] food label intervention — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 680편 --> — 항목(food-label-intervention-cardiovascular-disease-open, 2026-08-08)
+- [x] food label intervention — Nutrition에 듣는다  <!-- 시험 3건 · 논문 3552편 --> — 항목(food-label-intervention-nutrition-open, 2026-08-08)
+- [x] ergonomic workstation — Musculoskeletal Disorders에 듣는다  <!-- 시험 5건 · 논문 428편 --> — 항목(ergonomic-workstation-musculoskeletal-disorders-pos, 2026-08-08)
+- [x] apitegromab — Neuromuscular Diseases에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 항목(apitegromab-neuromuscular-diseases-open, 2026-08-08)
+- [x] apitegromab — SMA에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목(apitegromab-sma-pos, 2026-08-08)

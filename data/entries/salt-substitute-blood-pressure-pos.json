@@ -1,0 +1,29 @@
+{
+  "id": "salt-substitute-blood-pressure-pos",
+  "subj": "salt substitute",
+  "claim": "소금 일부를 염화칼륨으로 바꾸면 혈압을 낮추고 고혈압 발생을 줄인다",
+  "line": "고혈압 발생과 혈압을 낮추는 방향이었습니다",
+  "effect": "고혈압 HR 0.60; 수축기 -8.0mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 20995,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "소금 대체는 식품 조성 변경이며 의약품 허가 적응증이 아닙니다.",
+  "why": "나트륨 일부를 칼륨으로 바꾼 소금 대체가 혈압과 고혈압 발생에 미치는 효과를 확인합니다.",
+  "saw": "중국 600개 마을의 군집 무작위시험에서 20,995명이 일반 소금 또는 염화나트륨 75%·염화칼륨 25% 소금을 사용했습니다. 뇌졸중과 주요 심혈관 사건, 사망이 줄었고 고칼륨혈증 중증 이상반응은 유의하게 늘지 않았습니다.",
+  "limit": "참여자는 고혈압, 고령 또는 뇌졸중 병력이 많은 중국 농촌 주민이어서 다른 집단에 그대로 일반화하기 어렵습니다.",
+  "against": "소금 대체가 저혈압을 늘릴 수 있다는 우려가 있지만 정상 혈압 노인 분석에서는 저혈압 발생이 늘지 않았습니다.",
+  "use": "고혈압 예방과 식이 나트륨 감소를 위한 선택지로 검토할 수 있지만 신장 기능과 칼륨 수치를 함께 살펴야 합니다.",
+  "refs": [
+    { "label": "소금 대체와 심혈관 사건·사망 무작위시험", "doi": "10.1056/NEJMoa2105675", "pmid": "34459569", "nct": "NCT02092090" },
+    { "label": "정상 혈압 노인의 소금 대체와 고혈압 발생 분석", "doi": "10.1016/j.jacc.2023.12.013", "pmid": "38355240", "nct": "NCT03290716" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "salt substitute AND Blood Pressure — NCT02092090, NCT03290716 직접 확인",
+    "pubmed": "salt substitute AND Blood Pressure AND (randomized OR trial OR meta-analysis) — PMID 34459569, 38355240",
+    "negative": "salt substitute AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference)",
+    "safety": "salt substitute AND (hyperkalemia OR hypotension OR adverse OR safety)"
+  }
+}
