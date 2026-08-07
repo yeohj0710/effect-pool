@@ -16010,3 +16010,49 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sarizotan — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 근거 없음(2026-08-08, sarizotan AND Parkinson; 직접 결과 논문 없음)
 - [x] stiripentol — Primary Hyperoxaluria에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 근거 없음(2026-08-08, stiripentol AND "Primary Hyperoxaluria"; 직접 결과 논문 없음)
 - [x] stiripentol — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 345편 --> — 허가 적응증(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] buspirone — Functional Dysphagia에 듣는다  <!-- 시험 3건 · 논문 10편 --> — buspirone-functional-dysphagia-null (2026-08-08)
+- [x] carvedilol — Hemorrhage에 듣는다  <!-- 시험 6건 · 논문 1447편 --> — carvedilol-hemorrhage-null (2026-08-08)
+- [x] carvedilol — Sleep에 듣는다  <!-- 시험 5건 · 논문 31편 --> — 근거 없음(2026-08-08, carvedilol AND Sleep; 직접 결과 논문 없음)
+- [x] carvedilol — Cell Therapy에 듣는다  <!-- 시험 5건 · 논문 213편 --> — 근거 없음(2026-08-08, carvedilol AND Cell Therapy; carvedilol 직접 결과 논문 없음)
+- [x] cilostazol — Aneurysmal Subarachnoid Hemorrhage에 듣는다  <!-- 시험 3건 · 논문 88편 --> — cilostazol-aneurysmal-subarachnoid-hemorrhage-pos (2026-08-08)
+- [x] cilostazol — Cerebrovascular Disease에 듣는다  <!-- 시험 3건 · 논문 540편 --> — cilostazol-cerebrovascular-disease-pos (2026-08-08)
+- [x] clonidine — Critical Illness에 듣는다  <!-- 시험 4건 · 논문 78편 --> — clonidine-critical-illness-pos (2026-08-08)
+- [x] clonidine — Analgesia에 듣는다  <!-- 시험 4건 · 논문 1561편 --> — clonidine-analgesia-pos (2026-08-08)
+- [ ] clonidine — Cancer에 듣는다  <!-- 시험 4건 · 논문 669편 -->
+- [x] colchicine — Cardiac Disease에 듣는다  <!-- 시험 7건 · 논문 1619편 --> — colchicine-cardiac-disease-null (2026-08-08)
+- [x] colchicine — Inflammatory Markers에 듣는다  <!-- 시험 6건 · 논문 355편 --> — colchicine-inflammatory-markers-pos (2026-08-08)
+- [x] colchicine — Aortic Stenosis에 듣는다  <!-- 시험 6건 · 논문 19편 --> — colchicine-aortic-stenosis-harm (2026-08-08)
+- [x] colchicine — HIV Infection에 듣는다  <!-- 시험 5건 · 논문 34편 --> — colchicine-hiv-infection-null (2026-08-08)
+- [x] desmopressin — Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 3203편 --> — desmopressin-hemorrhage-harm (2026-08-08)
+- [x] desmopressin — Diabetes Insipidus에 듣는다  <!-- 시험 4건 · 논문 1377편 --> — 허가 적응증(2026-08-08)
+- [ ] desmopressin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 35편 -->
+- [x] azithromycin — Asthma에 듣는다  <!-- 시험 26건 · 논문 351편 --> — azithromycin-asthma-pos (2026-08-08)
+- [x] azithromycin — Pulmonary Disease에 듣는다  <!-- 시험 24건 · 논문 3128편 --> — azithromycin-pulmonary-disease-pos (2026-08-08)
+- [x] azithromycin — Preterm에 듣는다  <!-- 시험 24건 · 논문 157편 --> — azithromycin-preterm-null (2026-08-08)
+- [x] azithromycin — Mortality에 듣는다  <!-- 시험 23건 · 논문 1386편 --> — azithromycin-mortality-pos (2026-08-08)
+- [x] bupropion — Pregnancy Related에 듣는다  <!-- 시험 8건 · 논문 50편 --> — 근거 없음(2026-08-08, bupropion AND Pregnancy Related; 직접 치료 결과 논문 없음)
+- [x] bupropion — Overweight에 듣는다  <!-- 시험 7건 · 논문 401편 --> — bupropion-overweight-pos (2026-08-08)
+- [x] bupropion — Healthy Participants에 듣는다  <!-- 시험 5건 · 논문 110편 --> — bupropion-healthy-participants-pos (2026-08-08)
+- [x] clopidogrel — Platelet Thrombus에 듣는다  <!-- 시험 29건 · 논문 3655편 --> — 근거 없음(2026-08-08, clopidogrel AND Platelet Thrombus; 직접 임상 결과 논문 없음)
+- [x] clopidogrel — Stable Angina에 듣는다  <!-- 시험 18건 · 논문 239편 --> — clopidogrel-stable-angina-harm (2026-08-08)
+- [x] clopidogrel — Peripheral Arterial Disease에 듣는다  <!-- 시험 17건 · 논문 630편 --> — 허가 적응증(2026-08-08)
+- [x] clopidogrel — Atherosclerosis에 듣는다  <!-- 시험 16건 · 논문 947편 --> — 근거 없음(2026-08-08, clopidogrel AND Atherosclerosis; 직접 적응증 결과 논문 없음)
+- [x] carbidopa — Stroke에 듣는다  <!-- 시험 5건 · 논문 79편 --> — carbidopa-stroke-null (2026-08-08)
+- [x] carbidopa — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 18편 --> — carbidopa-autonomic-failure-pos (2026-08-08)
+- [x] acupuncture — Depressive Disorder에 듣는다  <!-- 시험 12건 · 논문 534편 --> — acupuncture-depressive-disorder-pos (2026-08-08)
+- [x] acupuncture — Hypertension에 듣는다  <!-- 시험 11건 · 논문 938편 --> — acupuncture-hypertension-pos (2026-08-08)
+- [x] acupuncture — Lumbar에 듣는다  <!-- 시험 9건 · 논문 1160편 --> — acupuncture-lumbar-null (2026-08-08)
+- [ ] cocoa — Diabetes에 듣는다  <!-- 시험 12건 · 논문 494편 -->
+- [ ] cocoa — Platelet Dysfunction에 듣는다  <!-- 시험 7건 · 논문 31편 -->
+- [ ] cocoa — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 458편 -->
+- [ ] cocoa — Nonalcoholic Fatty Liver Disease에 듣는다  <!-- 시험 6건 · 논문 34편 -->
