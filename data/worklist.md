@@ -14890,7 +14890,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] blood pressure self-monitoring — Preeclampsia에 듣는다  <!-- 시험 4건 · 논문 59편 --> — 중복(home-blood-pressure-monitoring-preeclampsia-pos)
 - [x] blood pressure self-monitoring — Pregnancy Toxemia에 듣는다  <!-- 시험 3건 · 논문 48편 --> — 중복(home-blood-pressure-monitoring-preeclampsia-pos)
 - [x] positive psychology intervention — Stress, Psychological에 듣는다  <!-- 시험 10건 · 논문 12324편 --> — 근거 없음(2026-08-07, "positive psychology intervention" AND "Stress, Psychological"; 직접 결과 없음)
-- [ ] positive psychology intervention — Depressive Symptoms에 듣는다  <!-- 시험 9건 · 논문 21334편 -->
-- [ ] positive psychology intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 22252편 -->
-- [ ] positive psychology intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 17530편 -->
-- [ ] sedentary breaks — Cardiometabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 28편 -->
+- [x] positive psychology intervention — Depressive Symptoms에 듣는다  <!-- 시험 9건 · 논문 21334편 --> — 중복(positive-psychology-depressive-symptoms-null)
+- [x] positive psychology intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 22252편 --> — 중복(positive-psychology-depression-null)
+- [x] positive psychology intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 17530편 --> — 근거 없음(2026-08-07, "positive psychology intervention" AND Stress; 직접 결과 없음)
+- [x] sedentary breaks — Cardiometabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 28편 --> — sedentary-breaks-cardiometabolic-syndrome-pos
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] olive leaf — Hypertension에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 중복(olive-leaf-extract-hypertension-pos)
+- [x] pomegranate — Diabetes에 듣는다  <!-- 시험 8건 · 논문 270편 --> — 중복(pomegranate-extract-metabolic-syndrome-pos)
+- [x] pomegranate — Cardiovascular Disease에 듣는다  <!-- 시험 6건 · 논문 232편 --> — 중복(pomegranate-extract-cardiovascular-disease-pos)
+- [x] pomegranate — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 51편 --> — 중복(pomegranate-extract-metabolic-syndrome-pos)
+- [x] pomegranate — Inflammation에 듣는다  <!-- 시험 5건 · 논문 450편 --> — 중복(pomegranate-extract-inflammation-pos)
+- [x] olfactory training — Olfaction Disorders에 듣는다  <!-- 시험 3건 · 논문 412편 --> — 중복(olfactory-training-hyposmia-pos)
+- [x] mirror therapy — Upper Extremity Paresis에 듣는다  <!-- 시험 9건 · 논문 89편 --> — 중복(mirror-therapy-hemiplegia-pos)
+- [x] mirror therapy — Rehabilitation에 듣는다  <!-- 시험 7건 · 논문 1367편 --> — 중복(mirror-therapy-hemiplegia-pos)
+- [x] mirror therapy — Complex Regional Pain Syndrome에 듣는다  <!-- 시험 5건 · 논문 82편 --> — mirror-therapy-complex-regional-pain-syndrome-pos
+- [x] functional electrical stimulation — C5 Palsy에 듣는다  <!-- 시험 10건 · 논문 103편 --> — 근거 없음(2026-08-07, "functional electrical stimulation" AND "C5 Palsy"; 결과 논문 없음)
+- [x] functional electrical stimulation — Gait에 듣는다  <!-- 시험 4건 · 논문 1945편 --> — functional-electrical-stimulation-gait-open
+- [x] functional electrical stimulation — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 1448편 --> — functional-electrical-stimulation-heart-failure-pos
+- [x] functional electrical stimulation — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 2678편 --> — 근거 없음(2026-08-07, "functional electrical stimulation" AND "Parkinson Disease"; 치료 결과 없음)
