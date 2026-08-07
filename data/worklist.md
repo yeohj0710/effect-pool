@@ -15444,3 +15444,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paricalcitol — Hyperparathyroidism에 듣는다  <!-- 시험 29건 · 논문 367편 --> — 허가 적응증(2026-08-08)
 - [x] paricalcitol — Renal Transplant에 듣는다  <!-- 시험 15건 · 논문 77편 --> — 항목(paricalcitol-renal-transplant-open, 2026-08-08)
 - [x] paricalcitol — Hemodialysis에 듣는다  <!-- 시험 6건 · 논문 289편 --> — 허가 적응증(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] chiropractic manipulation — Migraine에 듣는다  <!-- 시험 9건 · 논문 82편 --> — 항목(chiropractic-manipulation-migraine-null, 2026-08-08)
+- [x] chiropractic manipulation — Musculoskeletal Chest Pain에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목(chiropractic-manipulation-musculoskeletal-chest-pain-null, 2026-08-08)
+- [x] chiropractic manipulation — Chronic Headache에 듣는다  <!-- 시험 4건 · 논문 124편 --> — 같은 근거(chiropractic-manipulation-migraine-null, 2026-08-08)
+- [x] chiropractic manipulation — Infantile Colic에 듣는다  <!-- 시험 3건 · 논문 36편 --> — 항목(chiropractic-manipulation-infantile-colic-null, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] rilzabrutinib — Autoimmune Disorder에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 허가 적응증(2026-08-08)
