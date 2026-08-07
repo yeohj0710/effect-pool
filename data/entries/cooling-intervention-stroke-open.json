@@ -1,0 +1,30 @@
+{
+  "id": "cooling-intervention-stroke-open",
+  "subj": "cooling intervention",
+  "claim": "급성 허혈성 뇌졸중 재관류치료에 냉각 중재를 더한다",
+  "line": "허혈성 뇌졸중에서 냉각은 기능을 개선했지만 장시간 냉각은 폐렴을 늘렸습니다",
+  "effect": "mRS≤2 RR 1.28; 폐렴 RR 2.84",
+  "tier": "trial",
+  "dir": "open",
+  "n": 785,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "냉각 중재는 급성 허혈성 뇌졸중의 허가 표준치료가 아닙니다",
+  "why": "재관류치료 뒤 허혈 재관류 손상을 줄이려는 선택적 뇌 냉각이 임상 예후를 바꾸는지 확인합니다.",
+  "saw": "10개 연구 785명을 합친 분석에서 3개월 mRS≤2는 RR 1.28(95% CI 1.01~1.61), 사망률은 RR 0.95(0.69~1.29)였습니다. 24~48시간 냉각은 합병증 RR 1.37, 폐렴 RR 2.84였습니다.",
+  "limit": "포함 연구가 10개이고 무작위 근거가 부족해 결과의 확실성이 낮습니다.",
+  "against": "사망률과 전체 합병증은 유의하게 줄지 않았고 장시간 냉각은 폐렴을 늘렸습니다.",
+  "use": "급성 뇌졸중에서 재관류치료를 대신하지 않는 임상시험 단계의 보조 중재로만 검토합니다.",
+  "refs": [
+    { "label": "Wang 2025 · 허혈성 뇌졸중 저체온요법 메타분석", "doi": "10.3389/fneur.2024.1481115", "pmid": "39839874", "pmc": "PMC11746097" },
+    { "label": "허혈성 뇌졸중 저체온요법 메타분석", "pmid": "37269787" },
+    { "label": "선택적 동맥 내 냉각·혈전제거술 ClinicalTrials.gov", "nct": "NCT06665386" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=cooling intervention AND condition=Stroke; 3건; NCT06665386 직접 대조",
+    "pubmed": "therapeutic hypothermia ischemic stroke randomized trial meta-analysis; PMID39839874, PMID37269787",
+    "negative": "hypothermia stroke mortality complications pneumonia; 사망률 무차이·장시간 냉각 폐렴 증가 확인",
+    "safety": "hypothermia stroke adverse complication pneumonia; 24~48시간 냉각 안전성 대조"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cooling-intervention-multiple-sclerosis-pos",
+  "subj": "cooling intervention",
+  "claim": "다발성경화증의 열 민감 증상에 냉각 중재를 쓴다",
+  "line": "다발성경화증에서 두경부 냉각이 운동 지속시간과 보행거리를 늘렸습니다",
+  "effect": "운동 시간 28.4분 대 20.8분",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 10,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "냉각 중재는 다발성경화증의 허가 치료 적응증이 아닙니다",
+  "why": "다발성경화증의 열 민감성이 운동 수행을 떨어뜨릴 때 두경부 냉각이 증상을 덜어내는지 확인합니다.",
+  "saw": "성인 10명이 두경부를 10°C로 냉각하거나 중성 조건에서 운동했습니다. 운동 시간은 28.4±5.1분 대 20.8±5.1분, 운동 뒤 2분 보행은 176.5m 대 147.7m였고 피로도는 달라지지 않았습니다.",
+  "limit": "표본이 10명인 단일 교차시험이고 운동 중 단기 효과만 확인했습니다.",
+  "against": "피로도는 냉각 조건과 중성 조건 사이에 차이가 없었습니다.",
+  "use": "열에 민감한 다발성경화증 환자의 운동 전·중 보조 냉각으로 제한적으로 검토합니다.",
+  "refs": [
+    { "label": "Apostolou 2024 · 다발성경화증 두경부 냉각 교차시험", "doi": "10.1016/j.msard.2024.105833", "pmid": "39241465", "nct": "NCT04040010" },
+    { "label": "Reynolds 2011 · 열 민감 다발성경화증 두경부 예냉 교차시험", "doi": "10.1017/S0317167100011136", "pmid": "21156438" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=cooling intervention AND condition=Multiple Sclerosis; 4건; NCT06370403 포함",
+    "pubmed": "head and neck cooling multiple sclerosis fatigue; PMID39241465, PMID21156438",
+    "negative": "cooling multiple sclerosis AND (no effect OR failed OR fatigue unchanged); 피로도 무차이 확인",
+    "safety": "cooling multiple sclerosis AND (adverse OR complication); 단기 교차시험 안전성 대조"
+  }
+}

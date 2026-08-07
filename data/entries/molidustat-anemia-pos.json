@@ -1,0 +1,30 @@
+{
+  "id": "molidustat-anemia-pos",
+  "subj": "molidustat",
+  "claim": "만성콩팥병 빈혈에 molidustat를 쓴다",
+  "line": "비투석 만성콩팥병 빈혈에서 해당 약물이 기존 조혈자극제와 비열등했습니다",
+  "effect": "TEAE 93.9% 대 93.7%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 162,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "사람용 허가 적응증은 확인되지 않았고 승인 제품은 고양이 만성콩팥병 빈혈용입니다",
+  "why": "경구 HIF-PH 억제제인 molidustat가 비투석 만성콩팥병 빈혈에서 ESA 대안이 될 수 있는지 확인합니다.",
+  "saw": "무작위 3상 시험에서 162명이 molidustat 82명과 darbepoetin 80명으로 배정됐습니다. 평가기간 평균 Hb는 11.28 대 11.70g/dL, 변화 차이는 -0.38g/dL로 비열등 기준을 충족했습니다.",
+  "limit": "일본 비투석 환자 대상 공개시험이고 3명이 molidustat군, 1명이 대조군에서 사망했습니다.",
+  "against": "투석 환자에서는 ESA와 Hb 상승 효과가 비슷했고 철 지표 차이가 남았습니다.",
+  "use": "사람용 허가 여부와 HIF-PH 억제제 안전성을 확인하는 연구 맥락에서만 검토합니다.",
+  "refs": [
+    { "label": "Yamamoto 2021 · ESA 비사용 비투석 만성콩팥병 빈혈 3상시험", "doi": "10.1159/000518071", "pmid": "34569489" },
+    { "label": "molidustat ESA 사용 비투석 환자 3상시험", "pmid": "34569482" },
+    { "label": "molidustat 만성콩팥병 빈혈 체계적 문헌고찰·메타분석", "pmid": "38765138" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intervention=molidustat AND condition=Anemia; 8건; NCT04899661 포함",
+    "pubmed": "molidustat renal anemia randomized trial; PMID34569489, PMID34569482, PMID38765138",
+    "negative": "molidustat anemia AND (no effect OR failed OR noninferior); 투석군 ESA와 유사한 효과 대조",
+    "safety": "molidustat anemia AND (adverse OR death OR hypertension); 이상반응·사망 대조"
+  }
+}
