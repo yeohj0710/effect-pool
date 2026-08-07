@@ -1,0 +1,29 @@
+{
+  "id": "meal-preparation-diet-quality-obs",
+  "subj": "meal preparation",
+  "claim": "가정 식사 준비 참여를 아동 식단 질에 쓴다",
+  "line": "가정 식사 준비에 자주 참여한 아동의 식단 질이 더 좋았습니다",
+  "effect": "식단 질·과일채소 섭취 증가",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 3398,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식사 준비는 허가 적응증을 적용하지 않는 생활습관 중재입니다.",
+  "why": "캐나다 5학년 아동 3,398명을 대상으로 가정 식사 준비 참여 빈도, 식품 섭취와 Diet Quality Index-International을 조사한 학교 기반 단면 연구입니다.",
+  "saw": "가정 식사 준비에 더 자주 참여한 아동일수록 식단 질 점수가 높았습니다. 매일 참여한 아동은 전혀 참여하지 않은 아동보다 과일과 채소를 하루 1회분 더 먹었습니다(P<0.001).",
+  "limit": "무작위 배정이 없는 단면 연구이고 식사 준비 참여와 식품 섭취를 자기보고했으므로 참여가 식단 질을 높였다고 단정할 수 없습니다.",
+  "against": "관찰된 연관성은 가정의 교육·소득·식품 환경 같은 교란 요인의 영향을 받을 수 있습니다.",
+  "use": "아동 식생활 연구에서 식사 준비 참여를 평가할 근거로 사용하며 식단 질 개선 효과로 확정하지 않습니다.",
+  "refs": [
+    { "label": "Involvement in meal preparation at home is associated with better diet quality among Canadian children", "doi": "10.1016/j.jneb.2013.10.003", "pmid": "24238908" },
+    { "label": "Family Food Preparation and Its Effects on Adolescent Dietary Quality and Eating Patterns", "doi": "10.1016/j.jadohealth.2016.06.007", "pmid": "27544460" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=meal preparation AND query.cond=Diet Quality → 17건, meal preparation 개입명 직접 일치 0건",
+    "pubmed": "meal preparation AND Diet Quality → 545건; 제목·초록 정확검색 → 51건",
+    "negative": "meal preparation AND Diet Quality AND (no effect OR did not OR failed OR negative OR no significant difference) → 312건",
+    "safety": "meal preparation AND (adverse OR toxicity OR case report OR harm OR dropout) → 693건"
+  }
+}
