@@ -14823,7 +14823,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] body psychotherapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 597편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Bulimia Nervosa"; 직접 중재 결과 없음)
 - [x] body psychotherapy — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 378편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Major Depressive Disorder"; 직접 중재 결과 없음)
 - [x] body psychotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 2931편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND Depression; 직접 중재 결과 없음)
-- [ ] body psychotherapy — Pain Acute에 듣는다  <!-- 시험 4건 · 논문 91편 -->
+- [x] body psychotherapy — Pain Acute에 듣는다  <!-- 시험 4건 · 논문 91편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Pain Acute"; 직접 결과 없음)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -14851,3 +14851,46 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] progressive resistance training — Muscle Loss에 듣는다  <!-- 시험 9건 · 논문 378편 --> — 중복(resistance-training-muscle-pos)
 - [x] progressive resistance training — Sarcopenia에 듣는다  <!-- 시험 8건 · 논문 362편 --> — 중복(resistance-training-sarcopenia-pos)
 - [x] progressive resistance training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 426편 --> — 중복(resistance-training-type-2-diabetes-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] transcranial direct current stimulation — Pain에 듣는다  <!-- 시험 47건 · 논문 1119편 --> — tdcs-pain-pos
+- [x] transcranial direct current stimulation — Brain Fog에 듣는다  <!-- 시험 35건 · 논문 70편 --> — 근거 없음(2026-08-07, "transcranial direct current stimulation" AND "Brain Fog"; 결과 논문 없음)
+- [x] transcranial direct current stimulation — Depression에 듣는다  <!-- 시험 27건 · 논문 1333편 --> — 중복(tdcs-depression)
+- [x] transcranial direct current stimulation — Cognitive Change에 듣는다  <!-- 시험 26건 · 논문 1254편 --> — tdcs-cognitive-change-pos
+- [x] circadian rhythm therapy — Depression에 듣는다  <!-- 시험 5건 · 논문 1927편 --> — 중복(circadian-lighting-depression-open)
+- [x] circadian rhythm therapy — Insomnia에 듣는다  <!-- 시험 3건 · 논문 1086편 --> — 근거 없음(2026-08-07, "circadian rhythm therapy" AND Insomnia; 직접 결과 없음)
+- [x] music improvisation therapy — Dementia에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 중복(music-improvisation-dementia-null)
+- [x] exoskeleton training — Spinal Cord Injury에 듣는다  <!-- 시험 37건 · 논문 334편 --> — exoskeleton-training-spinal-cord-injury-null
+- [x] exoskeleton training — Gait Disorders에 듣는다  <!-- 시험 11건 · 논문 270편 --> — 중복(exoskeleton-training-spinal-cord-injury-null)
+- [x] exoskeleton training — Sclerosis에 듣는다  <!-- 시험 10건 · 논문 47편 --> — exoskeleton-training-sclerosis-pos
+- [x] exoskeleton training — Paraplegia에 듣는다  <!-- 시험 10건 · 논문 53편 --> — exoskeleton-training-paraplegia-open
+- [x] virtual reality rehabilitation — Pain에 듣는다  <!-- 시험 51건 · 논문 835편 --> — virtual-reality-rehabilitation-pain-pos
+- [x] virtual reality rehabilitation — Rehabilitation에 듣는다  <!-- 시험 34건 · 논문 6698편 --> — 근거 없음(2026-08-07, "virtual reality rehabilitation" AND Rehabilitation; 질환별 결과만 확인)
+- [x] virtual reality rehabilitation — Parkinson Disease에 듣는다  <!-- 시험 27건 · 논문 347편 --> — 중복(virtual-physiotherapy-parkinson-disease-pos)
+- [x] virtual reality rehabilitation — Cerebral Palsy에 듣는다  <!-- 시험 24건 · 논문 308편 --> — virtual-reality-rehabilitation-cerebral-palsy-pos
+- [x] remote physiotherapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 185편 --> — remote-physiotherapy-cancer-open
+- [x] home-based pulmonary rehabilitation — Cancer에 듣는다  <!-- 시험 16건 · 논문 123편 --> — home-based-pulmonary-rehabilitation-cancer-pos
+- [x] home-based pulmonary rehabilitation — COPD에 듣는다  <!-- 시험 4건 · 논문 456편 --> — home-based-pulmonary-rehabilitation-copd-pos
+- [x] home-based pulmonary rehabilitation — Bronchiectasis에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 근거 없음(2026-08-07, "home-based pulmonary rehabilitation" AND Bronchiectasis; 직접 결과 없음)
+- [x] home-based pulmonary rehabilitation — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 156편 --> — 근거 없음(2026-08-07, "home-based pulmonary rehabilitation" AND "Muscle Function"; 직접 결과 없음)
+- [x] self-monitoring — Overweight에 듣는다  <!-- 시험 5건 · 논문 1048편 --> — 중복(dietary-self-monitoring-weight-pos)
+- [x] self-monitoring — Physical Activity에 듣는다  <!-- 시험 5건 · 논문 3371편 --> — 근거 없음(2026-08-07, "self-monitoring" AND "Physical Activity"; 독립 중재 결과 없음)
+- [x] self-monitoring — Health Behavior에 듣는다  <!-- 시험 5건 · 논문 3957편 --> — 근거 없음(2026-08-07, "self-monitoring" AND "Health Behavior"; 독립 중재 결과 없음)
+- [x] self-monitoring — Hypertension에 듣는다  <!-- 시험 4건 · 논문 1019편 --> — 근거 없음(2026-08-07, "self-monitoring" AND Hypertension; 독립 중재 결과 없음)
+- [x] blood pressure self-monitoring — Diabetes에 듣는다  <!-- 시험 7건 · 논문 578편 --> — 근거 없음(2026-08-07, "blood pressure self-monitoring" AND Diabetes; 직접 결과 없음)
+- [x] blood pressure self-monitoring — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 41편 --> — 근거 없음(2026-08-07, "blood pressure self-monitoring" AND "Chronic Kidney Disease"; 직접 결과 없음)
+- [x] blood pressure self-monitoring — Preeclampsia에 듣는다  <!-- 시험 4건 · 논문 59편 --> — 중복(home-blood-pressure-monitoring-preeclampsia-pos)
+- [x] blood pressure self-monitoring — Pregnancy Toxemia에 듣는다  <!-- 시험 3건 · 논문 48편 --> — 중복(home-blood-pressure-monitoring-preeclampsia-pos)
+- [x] positive psychology intervention — Stress, Psychological에 듣는다  <!-- 시험 10건 · 논문 12324편 --> — 근거 없음(2026-08-07, "positive psychology intervention" AND "Stress, Psychological"; 직접 결과 없음)
+- [ ] positive psychology intervention — Depressive Symptoms에 듣는다  <!-- 시험 9건 · 논문 21334편 -->
+- [ ] positive psychology intervention — Depression에 듣는다  <!-- 시험 8건 · 논문 22252편 -->
+- [ ] positive psychology intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 17530편 -->
+- [ ] sedentary breaks — Cardiometabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 28편 -->
