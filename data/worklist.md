@@ -14164,3 +14164,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] health behavior counseling — Diabetes에 듣는다  <!-- 시험 11건 · 논문 1761편 -->
 - [x] health behavior counseling — Obesity에 듣는다  <!-- 시험 10건 · 논문 1945편 -->
 - [x] health behavior counseling — Smoking Cessation에 듣는다  <!-- 시험 10건 · 논문 5637편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] animal-assisted activity — Dementia에 듣는다  <!-- 시험 3건 · 논문 61편 -->
+- [x] therapeutic exercise — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 5769편 -->
+- [x] therapeutic exercise — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 11113편 -->
+- [x] therapeutic exercise — Lung Cancer에 듣는다  <!-- 시험 3건 · 논문 1227편 -->
+- [x] community-based rehabilitation — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 310편 -->
+- [x] community-based rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 3건 · 논문 439편 -->
+- [x] peer support counseling — Opioid Use에 듣는다  <!-- 시험 15건 · 논문 85편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=peer support counseling&query.cond=Opioid Use → 12건 반환·InterventionName 직접 대조 0건, PubMed "peer support counseling" AND "Opioid Use" → 1건은 직접 결과 없음)
+- [x] peer support counseling — Cancer에 듣는다  <!-- 시험 14건 · 논문 378편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=peer support counseling&query.cond=Cancer → 26건 반환·InterventionName 직접 대조 0건, PubMed "peer support counseling" AND "Cancer" → 1건은 직접 결과 없음)
+- [x] peer support counseling — Diabetes에 듣는다  <!-- 시험 7건 · 논문 177편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=peer support counseling&query.cond=Diabetes → 23건 반환·InterventionName 직접 대조 0건, PubMed "peer support counseling" AND "Diabetes" → 1건은 약사 주도 진료 연구)
+- [x] peer support counseling — Physical Activity에 듣는다  <!-- 시험 6건 · 논문 262편 --> — 근거 없음(2026-08-07 조회, ClinicalTrials.gov query.intr=peer support counseling&query.cond=Physical Activity → 32건 반환·InterventionName 직접 대조 0건, PubMed "peer support counseling" AND "Physical Activity" → 0건)
+- [x] sotrovimab — Covid19에 듣는다  <!-- 시험 8건 · 논문 429편 -->
+- [x] pegcetacoplan — C3G에 듣는다  <!-- 시험 9건 · 논문 19편 --> — 허가 적응증(2026-08-07)
+- [x] pegcetacoplan — C3 Glomerulopathy에 듣는다  <!-- 시험 8건 · 논문 34편 --> — 허가 적응증(2026-08-07)
+- [x] pegcetacoplan — Geographic Atrophy에 듣는다  <!-- 시험 7건 · 논문 111편 -->
