@@ -15097,3 +15097,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] animal assisted activity — Autism에 듣는다  <!-- 시험 4건 · 논문 125편 --> — 중복(animal-assisted-intervention-autism-pos)
 - [x] animal assisted activity — Developmental Delays에 듣는다  <!-- 시험 4건 · 논문 87편 --> — 근거 없음(2026-08-08, "animal assisted activity" AND "Developmental Delays"; 직접 임상 결과 없음)
 - [x] pistachio — Overweight에 듣는다  <!-- 시험 4건 · 논문 42편 --> — pistachio-overweight-null
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mindful eating program — Obesity에 듣는다  <!-- 시험 10건 · 논문 148편 --> — 중복(mindful-eating-obesity-pos, 2026-08-08)
+- [x] mindful eating program — Mental Health에 듣는다  <!-- 시험 10건 · 논문 89편 --> — 근거 없음(2026-08-08, "mindful eating program" AND "Mental Health"; 직접 프로그램 연구 없음)
+- [x] mindful eating program — Binge Eating에 듣는다  <!-- 시험 5건 · 논문 49편 --> — 항목 생성(mindful-eating-program-binge-eating-pos, 2026-08-08)
+- [x] high potassium diet — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 1347편 --> — 항목 생성(high-potassium-diet-cardiovascular-disease-open, 2026-08-08)
+- [x] high potassium diet — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1314편 --> — 항목 생성(high-potassium-diet-blood-pressure-open, 2026-08-08)
+- [x] high potassium diet — Healthy Controls에 듣는다  <!-- 시험 3건 · 논문 150편 --> — 근거 없음(2026-08-08, "Healthy Controls"는 질환·증상 대상이 아님)
+- [x] spermidine — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 51편 --> — 항목 생성(spermidine-cognitive-impairment-null, 2026-08-08)
+- [x] nicotinamide riboside — Aging에 듣는다  <!-- 시험 8건 · 논문 260편 --> — 항목 생성(nicotinamide-riboside-aging-open, 2026-08-08)
+- [x] nicotinamide riboside — Heart Failure에 듣는다  <!-- 시험 8건 · 논문 47편 --> — 항목 생성(nicotinamide-riboside-heart-failure-open, 2026-08-08)
+- [x] nicotinamide riboside — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 21편 --> — 항목 생성(nicotinamide-riboside-parkinson-disease-pos, 2026-08-08)
