@@ -1,0 +1,29 @@
+{
+  "id": "hydration-intervention-contrast-induced-nephropathy-null",
+  "subj": "hydration intervention",
+  "claim": "조영제 투여 전 수액을 조영제 신손상 예방에 쓴다",
+  "line": "수액 예방은 무수액보다 조영제 신손상을 줄이지 못했습니다",
+  "effect": "신손상 2.6% vs 2.7%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 660,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "조영제 예방 수액은 의약품 허가 적응증이 아닌 시술 전 중재입니다.",
+  "why": "조영제를 맞는 신장 고위험 환자에서 예방 수액이 조영제 신손상을 줄이는지 확인합니다.",
+  "saw": "AMACING 3상 무작위시험에서 eGFR 30–59인 660명을 무수액군 332명과 0.9% 생리식염수군 328명으로 나눴습니다. 분석된 환자에서 조영제 신손상은 무수액 2.6%, 수액 2.7%였고, 수액군 5.5%에서 수액 관련 합병증이 발생했습니다.",
+  "limit": "eGFR 30 미만, 투석, 응급 시술 환자는 제외했고 선택적 시술의 고위험군만 평가했습니다.",
+  "against": "POSEIDON 시험에서는 좌심실 이완기말 압력에 맞춘 수액이 표준 수액보다 조영제 급성 신손상을 줄였습니다(6.7% 대 16.3%).",
+  "use": "조영제 신손상 예방 수액의 효과가 상황에 따라 다르다는 근거로 사용할 수 있지만 모든 환자에게 같은 수액 전략을 적용할 수 없습니다.",
+  "refs": [
+    { "label": "AMACING 조영제 신손상 예방 수액 무작위 비열등성시험", "doi": "10.1016/S0140-6736(17)30057-0", "pmid": "28233565", "nct": "NCT02106234" },
+    { "label": "POSEIDON 혈역학 유도 수액 조영제 신손상 무작위시험", "doi": "10.1016/S0140-6736(14)60689-9", "pmid": "24856027", "nct": "NCT01218828" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "hydration intervention AND Contrast Induced Nephropathy — NCT01292317, NCT04215042 직접 확인",
+    "pubmed": "hydration OR fluid AND contrast-induced nephropathy AND randomized OR trial — PMID 28233565, 24856027",
+    "negative": "hydration AND contrast-induced nephropathy AND (non-inferior OR no difference OR complication)",
+    "safety": "intravenous hydration AND (adverse OR complication OR fluid overload)"
+  }
+}

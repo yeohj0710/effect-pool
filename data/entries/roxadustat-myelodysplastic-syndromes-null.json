@@ -1,0 +1,29 @@
+{
+  "id": "roxadustat-myelodysplastic-syndromes-null",
+  "subj": "roxadustat",
+  "claim": "roxadustat를 저위험 골수이형성증후군 빈혈에 쓴다",
+  "line": "수혈 독립은 늘었지만 3상 1차 평가변수는 유의하지 않았습니다",
+  "effect": "TI 47.5% vs 33.3%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 140,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "roxadustat은 만성콩팥병 빈혈 허가가 있지만 골수이형성증후군은 허가 적응증이 아닙니다.",
+  "why": "저위험 골수이형성증후군의 수혈 의존 빈혈에서 roxadustat이 수혈 독립을 만드는지 확인합니다.",
+  "saw": "MATTERHORN 3상 이중눈가림시험에서 140명을 roxadustat 82명과 위약 58명으로 배정했습니다. 28주 안에 56일 이상 수혈 독립을 보인 비율은 47.5%와 33.3%였지만 차이는 유의하지 않았고(P=.217), 중간 분석 뒤 시험이 종료됐습니다.",
+  "limit": "1차 평가변수에 실패했고, 일부 수혈 부담 하위군의 명목상 신호만 남았습니다.",
+  "against": "24명 공개 도입단계에서는 9명(37.5%)이 수혈 독립을 보였지만 대조군이 없어 효과를 분리할 수 없습니다.",
+  "use": "골수이형성증후군 빈혈의 연구 실패·하위군 신호로 사용할 수 있지만 표준 치료나 효과가 확립됐다고 말할 수 없습니다.",
+  "refs": [
+    { "label": "MATTERHORN roxadustat 저위험 골수이형성증후군 3상시험", "doi": "10.1002/ajh.27410", "pmid": "38884137", "nct": "NCT03263091" },
+    { "label": "roxadustat 저위험 골수이형성증후군 공개 도입단계", "doi": "10.1002/ajh.26397", "pmid": "34724251", "nct": "NCT03303066" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "roxadustat AND Myelodysplastic Syndromes — NCT03303066, NCT03263091 직접 확인",
+    "pubmed": "roxadustat AND myelodysplastic — PMID 38884137, 34724251",
+    "negative": "roxadustat AND myelodysplastic AND (failed OR not significant OR placebo)",
+    "safety": "roxadustat AND myelodysplastic AND (adverse OR leukemia OR safety)"
+  }
+}

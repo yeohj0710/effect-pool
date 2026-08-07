@@ -15749,3 +15749,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] active transport — Depression에 듣는다  <!-- 시험 7건 · 논문 1533편 --> — 항목(active-transport-depression-null, 2026-08-08)
 - [x] cenicriviroc — Liver Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 39편 --> — 항목(cenicriviroc-liver-cirrhosis-null, 2026-08-08)
 - [x] cenicriviroc — HIV Infections에 듣는다  <!-- 시험 3건 · 논문 28편 --> — 항목(cenicriviroc-hiv-infections-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] financial literacy — Woman's Role에 듣는다  <!-- 시험 4건 · 논문 196편 --> — 항목(financial-literacy-womens-role-open, 2026-08-08)
+- [x] financial literacy — Literacy에 듣는다  <!-- 시험 3건 · 논문 10689편 --> — 항목(financial-literacy-literacy-open, 2026-08-08)
+- [x] financial literacy — Mental Health에 듣는다  <!-- 시험 3건 · 논문 1257편 --> — 항목(financial-literacy-mental-health-open, 2026-08-08)
+- [x] hydration intervention — Contrast Induced Nephropathy에 듣는다  <!-- 시험 7건 · 논문 607편 --> — 항목(hydration-intervention-contrast-induced-nephropathy-null, 2026-08-08)
+- [x] hydration intervention — Renal Insufficiency에 듣는다  <!-- 시험 6건 · 논문 1021편 --> — 항목(hydration-intervention-renal-insufficiency-null, 2026-08-08)
+- [x] hydration intervention — Obesity Prevention에 듣는다  <!-- 시험 3건 · 논문 107편 --> — 항목(hydration-intervention-obesity-prevention-open, 2026-08-08)
+- [x] hydration intervention — Health Behavior에 듣는다  <!-- 시험 3건 · 논문 612편 --> — 항목(hydration-intervention-health-behavior-pos, 2026-08-08)
+- [x] roxadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 12건 · 논문 309편 --> — 허가 적응증(2026-08-08)
+- [x] roxadustat — Renal Anaemia에 듣는다  <!-- 시험 6건 · 논문 311편 --> — 허가 적응증(2026-08-08)
+- [x] roxadustat — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(roxadustat-myelodysplastic-syndromes-null, 2026-08-08)
+- [x] roxadustat — Diabetes Complications에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(roxadustat-diabetes-complications-pos, 2026-08-08)
+- [x] vadadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 10건 · 논문 84편 --> — 허가 적응증(2026-08-08)
