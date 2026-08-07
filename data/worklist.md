@@ -14917,3 +14917,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] functional electrical stimulation — Gait에 듣는다  <!-- 시험 4건 · 논문 1945편 --> — functional-electrical-stimulation-gait-open
 - [x] functional electrical stimulation — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 1448편 --> — functional-electrical-stimulation-heart-failure-pos
 - [x] functional electrical stimulation — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 2678편 --> — 근거 없음(2026-08-07, "functional electrical stimulation" AND "Parkinson Disease"; 치료 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sleep restriction therapy — Heart Diseases에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 없음(2026-08-07, "sleep restriction therapy" AND "Heart Diseases"; 직접 중재 결과 없음)
+- [x] bright light therapy — Depressive Symptoms에 듣는다  <!-- 시험 10건 · 논문 1409편 --> — bright-light-therapy-depression-pos
+- [x] bright light therapy — Brain Tumor에 듣는다  <!-- 시험 7건 · 논문 869편 --> — 근거 없음(2026-08-07, "bright light therapy" AND "Brain Tumor"; 검색 결과가 광역학·광치료 등 다른 중재로 오염되어 직접 치료 연구 없음)
+- [x] bright light therapy — Mood에 듣는다  <!-- 시험 6건 · 논문 2041편 --> — bright-light-therapy-depression-pos
+- [x] bright light therapy — Stress에 듣는다  <!-- 시험 6건 · 논문 2599편 --> — 근거 없음(2026-08-07, "bright light therapy" AND "Stress"; 직접 결과 없음)
+- [x] nordic walking — Physical Inactivity에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 근거 없음(2026-08-07, "nordic walking" AND "Physical Inactivity"; 직접 중재 결과 없음)
+- [x] nordic walking — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 66편 --> — nordic-walking-cardiovascular-disease-pos
+- [x] nordic walking — Hip Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 8편 --> — nordic-walking-hip-osteoarthritis-pos
+- [x] proprioceptive training — Stroke에 듣는다  <!-- 시험 18건 · 논문 1130편 --> — proprioceptive-training-stroke-pos
+- [x] proprioceptive training — Knee Injuries에 듣는다  <!-- 시험 9건 · 논문 394편 --> — proprioceptive-training-knee-injuries-pos
+- [x] proprioceptive training — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 246편 --> — proprioceptive-training-cerebral-palsy-open
+- [x] proprioceptive training — Diabetic Neuropathy에 듣는다  <!-- 시험 7건 · 논문 77편 --> — proprioceptive-training-diabetic-neuropathy-pos
+- [x] pet therapy — Metastases에 듣는다  <!-- 시험 10건 · 논문 6504편 --> — 근거 없음(2026-08-07, "pet therapy" AND "Metastases"; PET 영상 검색 결과가 대부분이며 반려동물 치료 직접 결과 없음)
+- [x] pet therapy — Brain Tumors에 듣는다  <!-- 시험 8건 · 논문 1929편 --> — 근거 없음(2026-08-07, "pet therapy" AND "Brain Tumors"; PET 영상 검색 결과가 대부분이며 반려동물 치료 직접 결과 없음)
+- [x] pet therapy — Glioblastoma에 듣는다  <!-- 시험 7건 · 논문 616편 --> — 근거 없음(2026-08-07, "pet therapy" AND "Glioblastoma"; PET 영상 검색 결과가 대부분이며 반려동물 치료 직접 결과 없음)
+- [x] pet therapy — Solid Tumor, Adult에 듣는다  <!-- 시험 5건 · 논문 538편 --> — 근거 없음(2026-08-07, "pet therapy" AND "Solid Tumor, Adult"; PET 영상 검색 결과가 대부분이며 반려동물 치료 직접 결과 없음)
+- [x] cocoa flavanols — Aging에 듣는다  <!-- 시험 4건 · 논문 67편 --> — cocoa-flavanols-aging-null
+- [x] beta glucan — Leukemia에 듣는다  <!-- 시험 8건 · 논문 230편 --> — 근거 없음(2026-08-07, "beta glucan" AND "Leukemia"; 직접 치료 결과 없음; β-D-glucan 진단 연구가 대부분)
+- [x] beta glucan — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 68편 --> — 중복(beta-glucan-metabolic-syndrome-null)
+- [x] beta glucan — Cold에 듣는다  <!-- 시험 5건 · 논문 229편 --> — beta-glucan-cold-pos
+- [x] sesame — Phlebitis에 듣는다  <!-- 시험 3건 · 논문 9편 --> — sesame-phlebitis-open
+- [x] kefir — Diabetes Mellitus, Type 2에 듣는다  <!-- 시험 3건 · 논문 12편 --> — kefir-type2-diabetes-pos
+- [x] tart cherry — Pain에 듣는다  <!-- 시험 4건 · 논문 31편 --> — tart-cherry-pain-pos
+- [x] tart cherry — Recovery에 듣는다  <!-- 시험 4건 · 논문 66편 --> — tart-cherry-muscle-recovery
+- [x] tart cherry — Oxidative Stress에 듣는다  <!-- 시험 3건 · 논문 50편 --> — tart-cherry-oxidative-stress-pos
+- [x] tart cherry — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 14편 --> — tart-cherry-insulin-resistance-open
