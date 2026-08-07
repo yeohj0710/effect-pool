@@ -15085,15 +15085,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual nature exposure — Stress에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 중복(nature-exposure-virtual-reality-pos)
 - [x] virtual nature exposure — Cancer에 듣는다  <!-- 시험 3건 · 논문 48편 --> — virtual-nature-exposure-cancer-open
 - [x] virtual nature exposure — Physiological Recovery에 듣는다  <!-- 시험 3건 · 논문 15편 --> — virtual-nature-exposure-physiological-recovery-open
-- [ ] tai chi breathing — Cancer에 듣는다  <!-- 시험 6건 · 논문 21편 -->
-- [ ] tai chi breathing — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 9편 -->
-- [ ] tai chi breathing — Fall에 듣는다  <!-- 시험 4건 · 논문 8편 -->
-- [ ] music listening intervention — Pain에 듣는다  <!-- 시험 98건 · 논문 547편 -->
-- [ ] music listening intervention — Cancer에 듣는다  <!-- 시험 40건 · 논문 167편 -->
-- [ ] music listening intervention — Stress에 듣는다  <!-- 시험 29건 · 논문 495편 -->
-- [ ] music listening intervention — Dementia에 듣는다  <!-- 시험 29건 · 논문 179편 -->
-- [ ] animal assisted activity — Stress에 듣는다  <!-- 시험 8건 · 논문 2842편 -->
-- [ ] animal assisted activity — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 238편 -->
-- [ ] animal assisted activity — Autism에 듣는다  <!-- 시험 4건 · 논문 125편 -->
-- [ ] animal assisted activity — Developmental Delays에 듣는다  <!-- 시험 4건 · 논문 87편 -->
-- [ ] pistachio — Overweight에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [x] tai chi breathing — Cancer에 듣는다  <!-- 시험 6건 · 논문 21편 --> — tai-chi-breathing-cancer-open
+- [x] tai chi breathing — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 중복(tai-chi-cognitive-decline-pos)
+- [x] tai chi breathing — Fall에 듣는다  <!-- 시험 4건 · 논문 8편 --> — 중복(tai-chi-falls-pos)
+- [x] music listening intervention — Pain에 듣는다  <!-- 시험 98건 · 논문 547편 --> — 중복(music-listening-pain-pos)
+- [x] music listening intervention — Cancer에 듣는다  <!-- 시험 40건 · 논문 167편 --> — 중복(music-listening-cancer-pos)
+- [x] music listening intervention — Stress에 듣는다  <!-- 시험 29건 · 논문 495편 --> — 중복(music-listening-stress-pos)
+- [x] music listening intervention — Dementia에 듣는다  <!-- 시험 29건 · 논문 179편 --> — 중복(music-listening-dementia-pos)
+- [x] animal assisted activity — Stress에 듣는다  <!-- 시험 8건 · 논문 2842편 --> — 중복(animal-assisted-therapy-stress-null)
+- [x] animal assisted activity — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 238편 --> — 중복(animal-assisted-therapy-brain-injuries-pos)
+- [x] animal assisted activity — Autism에 듣는다  <!-- 시험 4건 · 논문 125편 --> — 중복(animal-assisted-intervention-autism-pos)
+- [x] animal assisted activity — Developmental Delays에 듣는다  <!-- 시험 4건 · 논문 87편 --> — 근거 없음(2026-08-08, "animal assisted activity" AND "Developmental Delays"; 직접 임상 결과 없음)
+- [x] pistachio — Overweight에 듣는다  <!-- 시험 4건 · 논문 42편 --> — pistachio-overweight-null
