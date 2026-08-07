@@ -1,0 +1,28 @@
+{
+  "id": "video-consultation-telemedicine-open",
+  "subj": "video consultation",
+  "claim": "응급 비디오 상담은 환자 이송과 비용을 줄일 가능성이 있다",
+  "line": "응급진료에 비디오 상담",
+  "effect": "이송 31~73% 감소",
+  "tier": "obs",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비디오 상담은 의약품이 아닌 진료 전달 중재다",
+  "why": "가상 응급진료 모델의 비용효과를 대면 응급진료와 비교한 경제성 연구를 체계적으로 검토했다.",
+  "saw": "6개국 13개 경제성 연구를 합쳤다. 비디오 상담이 11건에서 가장 흔했고 환자 이송을 31~73% 줄이며 건당 비용 절감이 보고됐다.",
+  "limit": "중재·진료 환경·경제성 기준이 서로 달랐고 사망·응급실 체류시간 결과의 확실성은 낮았다. 통합 환자 수는 제시되지 않았다.",
+  "against": "비디오 상담이 모든 응급 상황에서 임상 결과와 안전성을 개선한다고 말할 수 없다.",
+  "use": "응급 비디오 상담을 도입할 때 이송 회피뿐 아니라 대면 전환 기준, 안전 결과, 지역별 비용을 함께 평가한다.",
+  "refs": [
+    { "label": "Cost-Effectiveness of Virtual Emergency Care Models: Systematic Review 2026 · JMIR", "doi": "10.2196/82143", "pmid": "42555953" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=video consultation AND condition=Telemedicine; 85건 반환, 중재명 일치 3건",
+    "pubmed": "video consultation AND Telemedicine; 2794건",
+    "negative": "video consultation AND Telemedicine AND (no effect OR did not OR failed to OR negative OR no significant difference); 1090건",
+    "safety": "video consultation AND (adverse OR toxicity OR case report OR harm OR dropout); 171건"
+  }
+}

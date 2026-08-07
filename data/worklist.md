@@ -13588,21 +13588,59 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online psychoeducation — Stress에 듣는다  <!-- 시험 11건 · 논문 296편 --> — 근거 항목 추가(2026-08-06)
 - [x] online psychoeducation — Cognitive Symptom에 듣는다  <!-- 시험 9건 · 논문 61편 --> — 근거 없음(2026-08-06, "online psychoeducation" AND "Cognitive Symptom")
 - [x] online psychoeducation — Emotional Disorder에 듣는다  <!-- 시험 7건 · 논문 197편 --> — 근거 항목 추가(2026-08-06)
-- [ ] home-based rehabilitation — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 396편 -->
-- [ ] home-based rehabilitation — Cancer에 듣는다  <!-- 시험 9건 · 논문 879편 -->
-- [ ] home-based rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 8건 · 논문 896편 -->
-- [ ] home-based rehabilitation — Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 297편 -->
-- [ ] virtual group visit — Pain에 듣는다  <!-- 시험 10건 · 논문 115편 -->
-- [ ] virtual group visit — Cardiac Event에 듣는다  <!-- 시험 5건 · 논문 71편 -->
-- [ ] mindfulness-based stress reduction — Depressive에 듣는다  <!-- 시험 16건 · 논문 928편 -->
-- [ ] mindfulness-based stress reduction — Mindfulness에 듣는다  <!-- 시험 13건 · 논문 2377편 -->
-- [ ] mindfulness-based stress reduction — Mental Health에 듣는다  <!-- 시험 12건 · 논문 723편 -->
-- [ ] health literacy intervention — Depression에 듣는다  <!-- 시험 10건 · 논문 1996편 -->
-- [ ] health literacy intervention — Cognitive Change에 듣는다  <!-- 시험 9건 · 논문 562편 -->
-- [ ] health literacy intervention — Distress, Emotional에 듣는다  <!-- 시험 9건 · 논문 494편 -->
-- [ ] health literacy intervention — Heart Disease에 듣는다  <!-- 시험 7건 · 논문 986편 -->
-- [ ] exercise referral — Peripheral Artery Disease에 듣는다  <!-- 시험 8건 · 논문 93편 -->
-- [ ] exercise referral — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 164편 -->
-- [ ] exercise referral — ILD에 듣는다  <!-- 시험 6건 · 논문 17편 -->
-- [ ] givinostat — Polycythemia Vera에 듣는다  <!-- 시험 3건 · 논문 20편 -->
-- [ ] givinostat — Drug Drug Interaction에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] home-based rehabilitation — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 396편 --> — 근거 항목 추가(2026-08-06)
+- [x] home-based rehabilitation — Cancer에 듣는다  <!-- 시험 9건 · 논문 879편 --> — 근거 항목 추가(2026-08-06)
+- [x] home-based rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 8건 · 논문 896편 --> — 근거 항목 추가(2026-08-06)
+- [x] home-based rehabilitation — Osteoarthritis에 듣는다  <!-- 시험 8건 · 논문 297편 --> — 근거 항목 추가(2026-08-06)
+- [x] virtual group visit — Pain에 듣는다  <!-- 시험 10건 · 논문 115편 --> — 근거 없음(2026-08-06, "virtual group visit" AND "Pain")
+- [x] virtual group visit — Cardiac Event에 듣는다  <!-- 시험 5건 · 논문 71편 --> — 근거 없음(2026-08-06, "virtual group visit" AND "Cardiac Event")
+- [x] mindfulness-based stress reduction — Depressive에 듣는다  <!-- 시험 16건 · 논문 928편 --> — 근거 항목 추가(2026-08-06)
+- [x] mindfulness-based stress reduction — Mindfulness에 듣는다  <!-- 시험 13건 · 논문 2377편 --> — 근거 항목 추가(2026-08-06)
+- [x] mindfulness-based stress reduction — Mental Health에 듣는다  <!-- 시험 12건 · 논문 723편 --> — 근거 항목 추가(2026-08-06)
+- [x] health literacy intervention — Depression에 듣는다  <!-- 시험 10건 · 논문 1996편 --> — 근거 항목 추가(2026-08-06)
+- [x] health literacy intervention — Cognitive Change에 듣는다  <!-- 시험 9건 · 논문 562편 --> — 근거 항목 추가(2026-08-06)
+- [x] health literacy intervention — Distress, Emotional에 듣는다  <!-- 시험 9건 · 논문 494편 --> — 근거 항목 추가(2026-08-06)
+- [x] health literacy intervention — Heart Disease에 듣는다  <!-- 시험 7건 · 논문 986편 --> — 근거 항목 추가(2026-08-06)
+- [x] exercise referral — Peripheral Artery Disease에 듣는다  <!-- 시험 8건 · 논문 93편 --> — 근거 항목 추가(2026-08-06)
+- [x] exercise referral — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 164편 --> — 근거 없음(2026-08-06, "exercise referral" AND "Type 2 Diabetes")
+- [x] exercise referral — ILD에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 근거 항목 추가(2026-08-06)
+- [x] givinostat — Polycythemia Vera에 듣는다  <!-- 시험 3건 · 논문 20편 --> — 근거 없음(2026-08-06, "givinostat" AND "Polycythemia Vera")
+- [x] givinostat — Drug Drug Interaction에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-06, "givinostat" AND "Drug Drug Interaction")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] telepsychiatry — Psychiatric Disorder에 듣는다  <!-- 시험 3건 · 논문 660편 --> — 근거 항목 추가(2026-08-06)
+- [x] video consultation — Telemedicine에 듣는다  <!-- 시험 6건 · 논문 2794편 --> — 근거 항목 추가(2026-08-06)
+- [x] video consultation — Patient에 듣는다  <!-- 시험 6건 · 논문 7399편 --> — 근거 없음(2026-08-06, "video consultation" AND "Patient")
+- [x] video consultation — Anxiety에 듣는다  <!-- 시험 4건 · 논문 482편 --> — 근거 항목 추가(2026-08-06)
+- [x] video consultation — Abdominal Migraine에 듣는다  <!-- 시험 4건 · 논문 26편 --> — 근거 없음(2026-08-06, "video consultation" AND "Abdominal Migraine")
+- [x] remote physical therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 291편 --> — 근거 항목 추가(2026-08-06)
+- [x] remote physical therapy — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 103편 --> — 근거 없음(2026-08-06, "remote physical therapy" AND "Weight Loss")
+- [x] remote physical therapy — Low Back Pain에 듣는다  <!-- 시험 4건 · 논문 95편 --> — 근거 항목 추가(2026-08-06)
+- [x] remote physical therapy — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 102편 --> — 근거 없음(2026-08-06, "remote physical therapy" AND "Type 2 Diabetes")
+- [x] music intervention — Pain에 듣는다  <!-- 시험 74건 · 논문 2334편 --> — 근거 항목 추가(2026-08-06)
+- [x] music intervention — Cancer에 듣는다  <!-- 시험 42건 · 논문 1244편 --> — 근거 항목 추가(2026-08-06)
+- [x] music intervention — Stress에 듣는다  <!-- 시험 34건 · 논문 2009편 --> — 근거 없음(2026-08-06, "music intervention" AND "Stress")
+- [ ] music intervention — Dementia에 듣는다  <!-- 시험 32건 · 논문 1181편 -->
+- [ ] peer support group — Opioid Use에 듣는다  <!-- 시험 33건 · 논문 445편 -->
+- [ ] peer support group — HIV에 듣는다  <!-- 시험 24건 · 논문 1920편 -->
+- [ ] peer support group — Diabetes에 듣는다  <!-- 시험 24건 · 논문 1462편 -->
+- [ ] peer support group — Stress에 듣는다  <!-- 시험 18건 · 논문 2643편 -->
+- [ ] online counseling — Depression에 듣는다  <!-- 시험 11건 · 논문 852편 -->
+- [ ] online counseling — Anxiety에 듣는다  <!-- 시험 11건 · 논문 866편 -->
+- [ ] online counseling — Stress에 듣는다  <!-- 시험 9건 · 논문 892편 -->
+- [ ] online counseling — Obesity에 듣는다  <!-- 시험 7건 · 논문 282편 -->
+- [ ] health coaching intervention — Obesity에 듣는다  <!-- 시험 36건 · 논문 1107편 -->
+- [ ] health coaching intervention — Diabetes에 듣는다  <!-- 시험 25건 · 논문 1365편 -->
+- [ ] health coaching intervention — Hypertension에 듣는다  <!-- 시험 10건 · 논문 395편 -->
+- [ ] health coaching intervention — Weight Loss에 듣는다  <!-- 시험 10건 · 논문 724편 -->
+- [ ] ixekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 13건 · 논문 99편 -->
+- [ ] ixekizumab — Spondyloarthritis에 듣는다  <!-- 시험 5건 · 논문 305편 -->
+- [ ] ixekizumab — Obesity에 듣는다  <!-- 시험 3건 · 논문 39편 -->
