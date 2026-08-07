@@ -15417,3 +15417,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] social robot — Procedural Pain에 듣는다  <!-- 시험 3건 · 논문 67편 --> — 항목(social-robot-procedural-pain-null, 2026-08-08)
 - [x] metreleptin — Obesity에 듣는다  <!-- 시험 5건 · 논문 106편 --> — 항목(metreleptin-obesity-pos, 2026-08-08)
 - [x] metreleptin — Nonalcoholic Steatohepatitis에 듣는다  <!-- 시험 4건 · 논문 11편 --> — 항목(metreleptin-nonalcoholic-steatohepatitis-pos, 2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] recreation therapy — Anxiety에 듣는다  <!-- 시험 3건 · 논문 202편 --> — 항목(recreation-therapy-anxiety-open, 2026-08-08)
+- [x] smartphone abstinence — Alcohol Dependence에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 근거 없음(2026-08-08, "smartphone abstinence AND Alcohol Dependence")
+- [x] reading intervention — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1429편 --> — 같은 근거(reading-therapy-anxiety-open, 2026-08-08)
+- [x] reading intervention — Obesity에 듣는다  <!-- 시험 5건 · 논문 1088편 --> — 근거 없음(2026-08-08, "reading intervention AND Obesity")
+- [x] reading intervention — Aphasia, Acquired에 듣는다  <!-- 시험 3건 · 논문 385편 --> — 같은 근거(reading-therapy-aphasia-pos, 2026-08-08)
+- [x] lorcaserin — Opioid Use에 듣는다  <!-- 시험 15건 · 논문 26편 --> — 항목(lorcaserin-opioid-use-null, 2026-08-08)
+- [x] lorcaserin — Obesity에 듣는다  <!-- 시험 14건 · 논문 432편 --> — 허가 적응증(2026-08-08)
+- [x] lorcaserin — Weight Gain에 듣는다  <!-- 시험 5건 · 논문 48편 --> — 근거 없음(2026-08-08, "lorcaserin AND Weight Gain")
+- [x] lorcaserin — Overweight에 듣는다  <!-- 시험 4건 · 논문 334편 --> — 허가 적응증(2026-08-08)
+- [x] mipomersen — Metabolism, Inborn Errors에 듣는다  <!-- 시험 13건 · 논문 94편 --> — 허가 적응증(2026-08-08)
+- [x] mipomersen — Metabolic Diseases에 듣는다  <!-- 시험 10건 · 논문 178편 --> — 허가 적응증(2026-08-08)
+- [x] mipomersen — Hyperlipidemias에 듣는다  <!-- 시험 5건 · 논문 158편 --> — 허가 적응증(2026-08-08)
+- [x] mipomersen — Dyslipidemias에 듣는다  <!-- 시험 5건 · 논문 179편 --> — 허가 적응증(2026-08-08)
+- [x] paricalcitol — Kidney Failure에 듣는다  <!-- 시험 31건 · 논문 335편 --> — 허가 적응증(2026-08-08)
+- [x] paricalcitol — Hyperparathyroidism에 듣는다  <!-- 시험 29건 · 논문 367편 --> — 허가 적응증(2026-08-08)
+- [x] paricalcitol — Renal Transplant에 듣는다  <!-- 시험 15건 · 논문 77편 --> — 항목(paricalcitol-renal-transplant-open, 2026-08-08)
+- [x] paricalcitol — Hemodialysis에 듣는다  <!-- 시험 6건 · 논문 289편 --> — 허가 적응증(2026-08-08)
