@@ -14793,34 +14793,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] plant based diet — Kidney Diseases에 듣는다  <!-- 시험 12건 · 논문 519편 --> — 중복(plant-based-eating-kidney-disease-chronic-pos)
 - [x] vibration therapy — Cerebral Palsy에 듣는다  <!-- 시험 7건 · 논문 125편 --> — 중복(whole-body-vibration-cerebral-palsy-null)
 - [x] vibration therapy — Osteoarthritis에 듣는다  <!-- 시험 4건 · 논문 130편 --> — 중복(whole-body-vibration-knee-oa-pos)
-- [ ] vibration therapy — Muscle Weakness에 듣는다  <!-- 시험 4건 · 논문 150편 -->
-- [ ] vibration therapy — COPD에 듣는다  <!-- 시험 3건 · 논문 134편 -->
-- [ ] home exercise — Pain에 듣는다  <!-- 시험 10건 · 논문 3368편 -->
-- [ ] home exercise — Stroke에 듣는다  <!-- 시험 8건 · 논문 1209편 -->
-- [ ] home exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 23529편 -->
-- [ ] home exercise — Fall에 듣는다  <!-- 시험 7건 · 논문 1021편 -->
-- [ ] remote monitoring — Diabetes에 듣는다  <!-- 시험 18건 · 논문 1464편 -->
-- [ ] remote monitoring — Hypertension에 듣는다  <!-- 시험 17건 · 논문 938편 -->
-- [ ] remote monitoring — Cancer에 듣는다  <!-- 시험 12건 · 논문 1603편 -->
-- [ ] remote monitoring — Arrhythmia, Cardiac에 듣는다  <!-- 시험 8건 · 논문 1054편 -->
-- [ ] telehealth counseling — Cancer에 듣는다  <!-- 시험 6건 · 논문 364편 -->
-- [ ] telehealth counseling — Hypertension에 듣는다  <!-- 시험 5건 · 논문 106편 -->
-- [ ] telehealth counseling — HIV에 듣는다  <!-- 시험 5건 · 논문 139편 -->
-- [ ] telehealth counseling — COPD에 듣는다  <!-- 시험 5건 · 논문 26편 -->
-- [ ] hypnosis — Cancer에 듣는다  <!-- 시험 46건 · 논문 690편 -->
-- [ ] hypnosis — Anxiety에 듣는다  <!-- 시험 28건 · 논문 1803편 -->
-- [ ] hypnosis — Stress에 듣는다  <!-- 시험 10건 · 논문 1302편 -->
-- [ ] hypnosis — Surgery에 듣는다  <!-- 시험 10건 · 논문 1606편 -->
-- [ ] writing therapy — Stress에 듣는다  <!-- 시험 16건 · 논문 3280편 -->
-- [ ] writing therapy — Depression에 듣는다  <!-- 시험 7건 · 논문 2116편 -->
-- [ ] writing therapy — Psychological Health에 듣는다  <!-- 시험 6건 · 논문 4213편 -->
-- [ ] writing therapy — Eating Disorders에 듣는다  <!-- 시험 5건 · 논문 255편 -->
-- [ ] solution focused therapy — Mental Well-being에 듣는다  <!-- 시험 3건 · 논문 712편 -->
-- [ ] mindfulness based stress reduction — Anxiety에 듣는다  <!-- 시험 59건 · 논문 1069편 -->
-- [ ] mindfulness based stress reduction — Pain에 듣는다  <!-- 시험 58건 · 논문 424편 -->
-- [ ] mindfulness based stress reduction — Cancer에 듣는다  <!-- 시험 47건 · 논문 403편 -->
-- [ ] mindfulness based stress reduction — Depression에 듣는다  <!-- 시험 45건 · 논문 1079편 -->
-- [ ] body psychotherapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 597편 -->
-- [ ] body psychotherapy — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 378편 -->
-- [ ] body psychotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 2931편 -->
+- [x] vibration therapy — Muscle Weakness에 듣는다  <!-- 시험 4건 · 논문 150편 --> — vibration-therapy-muscle-weakness-open 항목
+- [x] vibration therapy — COPD에 듣는다  <!-- 시험 3건 · 논문 134편 --> — vibration-therapy-copd-pos 항목
+- [x] home exercise — Pain에 듣는다  <!-- 시험 10건 · 논문 3368편 --> — 근거 없음(2026-08-07, "home exercise" AND Pain; 직접 결과 논문 없음)
+- [x] home exercise — Stroke에 듣는다  <!-- 시험 8건 · 논문 1209편 --> — 중복(home-based-exercise-stroke-pos)
+- [x] home exercise — Exercise에 듣는다  <!-- 시험 7건 · 논문 23529편 --> — 중복(home-based-exercise-exercise-pos)
+- [x] home exercise — Fall에 듣는다  <!-- 시험 7건 · 논문 1021편 --> — home-exercise-fall-pos 항목
+- [x] remote monitoring — Diabetes에 듣는다  <!-- 시험 18건 · 논문 1464편 --> — 중복(remote-patient-monitoring-diabetes-pos·telemonitoring-diabetes-open)
+- [x] remote monitoring — Hypertension에 듣는다  <!-- 시험 17건 · 논문 938편 --> — 중복(remote-patient-monitoring-hypertension-pos·telemonitoring-hypertension-open)
+- [x] remote monitoring — Cancer에 듣는다  <!-- 시험 12건 · 논문 1603편 --> — 중복(remote-patient-monitoring-cancer-pos·telemonitoring-cancer-open)
+- [x] remote monitoring — Arrhythmia, Cardiac에 듣는다  <!-- 시험 8건 · 논문 1054편 --> — 중복(remote-patient-monitoring-cardiac-disease-pos)
+- [x] telehealth counseling — Cancer에 듣는다  <!-- 시험 6건 · 논문 364편 --> — 근거 없음(2026-08-07, "telehealth counseling" AND Cancer; 직접 중재 일치 없음)
+- [x] telehealth counseling — Hypertension에 듣는다  <!-- 시험 5건 · 논문 106편 --> — telehealth-counseling-hypertension-pos 항목
+- [x] telehealth counseling — HIV에 듣는다  <!-- 시험 5건 · 논문 139편 --> — telehealth-counseling-hiv-pos 항목
+- [x] telehealth counseling — COPD에 듣는다  <!-- 시험 5건 · 논문 26편 --> — 근거 없음(2026-08-07, "telehealth counseling" AND COPD; 직접 중재 일치 없음)
+- [x] hypnosis — Cancer에 듣는다  <!-- 시험 46건 · 논문 690편 --> — hypnosis-cancer-open 항목
+- [x] hypnosis — Anxiety에 듣는다  <!-- 시험 28건 · 논문 1803편 --> — 중복(hypnotherapy-anxiety-pos)
+- [x] hypnosis — Stress에 듣는다  <!-- 시험 10건 · 논문 1302편 --> — hypnosis-stress-pos 항목
+- [x] hypnosis — Surgery에 듣는다  <!-- 시험 10건 · 논문 1606편 --> — hypnosis-surgery-null 항목
+- [x] writing therapy — Stress에 듣는다  <!-- 시험 16건 · 논문 3280편 --> — 중복(expressive-writing-stress-pos)
+- [x] writing therapy — Depression에 듣는다  <!-- 시험 7건 · 논문 2116편 --> — 중복(expressive-writing-depression-pos)
+- [x] writing therapy — Psychological Health에 듣는다  <!-- 시험 6건 · 논문 4213편 --> — 중복(expressive-writing-psychological-open)
+- [x] writing therapy — Eating Disorders에 듣는다  <!-- 시험 5건 · 논문 255편 --> — 근거 없음(2026-08-07, "writing therapy" AND "Eating Disorders"; 직접 중재 결과 없음)
+- [x] solution focused therapy — Mental Well-being에 듣는다  <!-- 시험 3건 · 논문 712편 --> — solution-focused-therapy-mental-wellbeing-pos 항목
+- [x] mindfulness based stress reduction — Anxiety에 듣는다  <!-- 시험 59건 · 논문 1069편 --> — 중복(mindfulness-based-stress-reduction-anxiety-pos)
+- [x] mindfulness based stress reduction — Pain에 듣는다  <!-- 시험 58건 · 논문 424편 --> — 중복(mindfulness-based-stress-reduction-pain-pos)
+- [x] mindfulness based stress reduction — Cancer에 듣는다  <!-- 시험 47건 · 논문 403편 --> — 중복(mindfulness-based-stress-reduction-cancer-pos)
+- [x] mindfulness based stress reduction — Depression에 듣는다  <!-- 시험 45건 · 논문 1079편 --> — 중복(mindfulness-based-stress-reduction-depression-open)
+- [x] body psychotherapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 597편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Bulimia Nervosa"; 직접 중재 결과 없음)
+- [x] body psychotherapy — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 378편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND "Major Depressive Disorder"; 직접 중재 결과 없음)
+- [x] body psychotherapy — Depression에 듣는다  <!-- 시험 4건 · 논문 2931편 --> — 근거 없음(2026-08-07, "body psychotherapy" AND Depression; 직접 중재 결과 없음)
 - [ ] body psychotherapy — Pain Acute에 듣는다  <!-- 시험 4건 · 논문 91편 -->
