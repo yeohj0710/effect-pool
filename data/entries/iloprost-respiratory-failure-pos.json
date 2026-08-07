@@ -1,0 +1,28 @@
+{
+  "id": "iloprost-respiratory-failure-pos",
+  "subj": "iloprost",
+  "claim": "흡입 iloprost를 포함한 폐혈관확장제가 급성 저산소성 호흡부전의 산소화를 개선하는가",
+  "line": "흡입 일로프로스트를 포함한 치료가 중증 코로나19 호흡부전의 산소화를 개선했습니다",
+  "effect": "72시간 PF 비율 개선",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 59,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "iloprost의 허가 적응증에 급성 저산소성 호흡부전 치료는 포함하지 않습니다.",
+  "why": "중증 COVID-19 급성 호흡부전으로 중환자실에 입원한 59명에게 흡입 산화질소와 iloprost를 포함한 폐혈관확장제를 사용한 관찰연구입니다.",
+  "saw": "폐혈관확장제 시작 72시간 뒤 PF 비율 중앙값이 33.9% 개선됐고 생존자는 비생존자보다 개선 폭이 컸습니다.",
+  "limit": "산화질소와 흡입 iloprost를 함께 사용했고 대조군이 없어 iloprost의 단독 효과를 알 수 없습니다.",
+  "against": "생존자에서 산소화가 더 좋아진 결과만으로 생존 효과나 인과관계를 판단할 수 없습니다.",
+  "use": "중증 저산소성 호흡부전에서 흡입 prostacyclin 계열을 시험할 때 필요한 신호로 사용할 수 있습니다.",
+  "refs": [
+    { "label": "COVID-19 급성 저산소성 호흡부전 폐혈관확장제 관찰연구", "doi": "10.1177/08850666221086521", "pmid": "35369798", "pmc": "PMC9353318" }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "iloprost AND Respiratory Failure 검색 5건, 직접 중재 5건",
+    "pubmed": "\"iloprost\" AND \"Respiratory Failure\" 검색 18건, 임상시험·관찰연구 2건",
+    "negative": "\"iloprost\" AND \"Respiratory Failure\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 12건",
+    "safety": "\"iloprost\" AND (adverse OR toxicity OR case report OR harm) 검색 639건"
+  }
+}

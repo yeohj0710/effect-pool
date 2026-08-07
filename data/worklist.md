@@ -14069,3 +14069,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] sit stand desk — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 147편 -->
 - [x] tegoprazan — Erosive Reflux Disease에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 허가 적응증(2026-08-07)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] community meal — Hypertension에 듣는다  <!-- 시험 3건 · 논문 173편 --> — 근거 없음(2026-08-07 조회, "community meal" AND "Hypertension")
+- [x] cetirizine — Lung Cancer에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 근거 없음(2026-08-07 조회, "cetirizine" AND "Lung Cancer")
+- [x] cetirizine — Urticaria에 듣는다  <!-- 시험 5건 · 논문 455편 --> — 허가 적응증(2026-08-07)
+- [x] cetirizine — Allergies에 듣는다  <!-- 시험 4건 · 논문 1293편 --> — 허가 적응증(2026-08-07)
+- [x] cetirizine — Allergy에 듣는다  <!-- 시험 3건 · 논문 1293편 --> — 허가 적응증(2026-08-07)
+- [x] saxagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 5건 · 논문 12편 -->
+- [x] saxagliptin — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 281편 --> — 근거 없음(2026-08-07 조회, "saxagliptin" AND "Cardiovascular Disease")
+- [x] iloprost — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 41편 -->
+- [x] iloprost — Respiratory Failure에 듣는다  <!-- 시험 8건 · 논문 44편 -->
+- [x] iloprost — Systemic Sclerosis에 듣는다  <!-- 시험 4건 · 논문 271편 -->
+- [x] iloprost — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+- [x] cangrelor — STEMI에 듣는다  <!-- 시험 15건 · 논문 128편 -->
+- [x] cangrelor — Platelet Dysfunction에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-07 조회, "cangrelor" AND "Platelet Dysfunction")
