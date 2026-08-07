@@ -15971,3 +15971,42 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cooking skills intervention — Mental Health에 듣는다  <!-- 시험 6건 · 논문 42편 --> — cooking-skills-intervention-mental-health-pos (2026-08-08)
 - [x] cooking skills intervention — Diet에 듣는다  <!-- 시험 5건 · 논문 415편 --> — cooking-skills-intervention-diet-pos (2026-08-08)
 - [x] cooking skills intervention — Family Health에 듣는다  <!-- 시험 3건 · 논문 187편 --> — cooking-skills-intervention-family-health-pos (2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] emraclidine — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-08, emraclidine AND Schizophrenia; 결과 논문 없음)
+- [x] soticlestat — Lennox Gastaut Syndrome (LGS)에 듣는다  <!-- 시험 4건 · 논문 11편 --> — soticlestat-lennox-gastaut-syndrome-null (2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] food delivery intervention — Diabetes에 듣는다  <!-- 시험 20건 · 논문 1311편 --> — 근거 없음(2026-08-08, "food delivery intervention" AND Diabetes; 직접 결과 논문 없음)
+- [x] food delivery intervention — Diet에 듣는다  <!-- 시험 10건 · 논문 2493편 --> — food-delivery-intervention-diet-open (2026-08-08)
+- [x] food delivery intervention — Overweight에 듣는다  <!-- 시험 6건 · 논문 698편 --> — 근거 없음(2026-08-08, "food delivery intervention" AND Overweight; 직접 결과 논문 없음)
+- [x] food delivery intervention — Nutrition에 듣는다  <!-- 시험 6건 · 논문 5624편 --> — food-delivery-intervention-nutrition-open (2026-08-08)
+- [x] nutrition skills program — Cancer에 듣는다  <!-- 시험 10건 · 논문 185편 --> — 근거 없음(2026-08-08, "nutrition skills program" AND Cancer; 직접 결과 논문 없음)
+- [x] nutrition skills program — Family Health에 듣는다  <!-- 시험 7건 · 논문 693편 --> — 근거 없음(2026-08-08, "nutrition skills program" AND "Family Health"; 직접 결과 논문 없음)
+- [x] nutrition skills program — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 98편 --> — 근거 없음(2026-08-08, "nutrition skills program" AND "Type 2 Diabetes"; 직접 결과 논문 없음)
+- [x] nutrition skills program — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 20편 --> — 근거 없음(2026-08-08, "nutrition skills program" AND "Cognitive Decline"; 직접 결과 논문 없음)
+- [x] family meal intervention — Anorexia Nervosa에 듣는다  <!-- 시험 3건 · 논문 52편 --> — family-meal-intervention-anorexia-nervosa-null (2026-08-08)
+- [x] home food preparation — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 72편 --> — 근거 없음(2026-08-08, "home food preparation" AND "Food Insecurity"; 직접 개입 결과 논문 없음)
+- [x] social farming — Abdominal Pain에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(2026-08-08, "social farming" AND "Abdominal Pain"; 직접 결과 논문 없음)
+- [x] healthy food box — Food Habits에 듣는다  <!-- 시험 3건 · 논문 660편 --> — 근거 없음(2026-08-08, "healthy food box" AND "Food Habits"; 직접 결과 논문 없음)
+- [x] healthy food box — Diabetes에 듣는다  <!-- 시험 3건 · 논문 273편 --> — 근거 없음(2026-08-08, "healthy food box" AND Diabetes; 직접 결과 논문 없음)
+- [x] healthy food box — Health Status에 듣는다  <!-- 시험 3건 · 논문 444편 --> — healthy-food-box-health-status-pos (2026-08-08)
+- [x] sarizotan — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 근거 없음(2026-08-08, sarizotan AND Parkinson; 직접 결과 논문 없음)
+- [x] stiripentol — Primary Hyperoxaluria에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 근거 없음(2026-08-08, stiripentol AND "Primary Hyperoxaluria"; 직접 결과 논문 없음)
+- [x] stiripentol — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 345편 --> — 허가 적응증(2026-08-08)
