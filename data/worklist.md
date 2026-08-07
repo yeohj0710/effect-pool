@@ -14713,11 +14713,59 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] low sodium diet — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 23편 --> — 근거 없음(2026-08-07, low sodium diet AND Lung Cancer)
 - [x] low sodium diet — Systolic Dysfunction에 듣는다  <!-- 시험 4건 · 논문 467편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT00689819)
 - [x] low sodium diet — Healthy Humans에 듣는다  <!-- 시험 4건 · 논문 1130편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT00345215·NCT03067363)
-- [ ] low sodium diet — Inflammation에 듣는다  <!-- 시험 3건 · 논문 407편 -->
-- [ ] fermented foods — Gut Health에 듣는다  <!-- 시험 5건 · 논문 1068편 -->
-- [ ] fermented foods — Obesity에 듣는다  <!-- 시험 4건 · 논문 731편 -->
-- [ ] fermented foods — Inflammation에 듣는다  <!-- 시험 3건 · 논문 979편 -->
-- [ ] whole grains — Metabolic Disease에 듣는다  <!-- 시험 10건 · 논문 816편 -->
-- [ ] whole grains — Healthy Diet에 듣는다  <!-- 시험 7건 · 논문 1431편 -->
-- [ ] whole grains — Diabetes에 듣는다  <!-- 시험 7건 · 논문 906편 -->
-- [ ] whole grains — Blood Glucose에 듣는다  <!-- 시험 6건 · 논문 366편 -->
+- [x] low sodium diet — Inflammation에 듣는다  <!-- 시험 3건 · 논문 407편 --> — 근거 없음(2026-08-07, low sodium diet AND Inflammation)
+- [x] fermented foods — Gut Health에 듣는다  <!-- 시험 5건 · 논문 1068편 --> — 중복(fermented-foods-microbiome-pos.json)
+- [x] fermented foods — Obesity에 듣는다  <!-- 시험 4건 · 논문 731편 --> — 중복(fermented-foods-metabolic-syndrome-open.json)
+- [x] fermented foods — Inflammation에 듣는다  <!-- 시험 3건 · 논문 979편 -->
+- [x] whole grains — Metabolic Disease에 듣는다  <!-- 시험 10건 · 논문 816편 --> — 중복(whole-grain-diet-metabolic-disease-open.json)
+- [x] whole grains — Healthy Diet에 듣는다  <!-- 시험 7건 · 논문 1431편 --> — 중복(whole-grain-diet-healthy-diet-open.json)
+- [x] whole grains — Diabetes에 듣는다  <!-- 시험 7건 · 논문 906편 --> — 중복(whole-grain-diet-diabetes-pos.json)
+- [x] whole grains — Blood Glucose에 듣는다  <!-- 시험 6건 · 논문 366편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] intermittent fasting — PreDiabetes에 듣는다  <!-- 시험 4건 · 논문 62편 -->
+- [x] intermittent fasting — Psoriasis에 듣는다  <!-- 시험 4건 · 논문 17편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT05590247·NCT06893913·NCT04418791)
+- [x] intermittent fasting — Diet에 듣는다  <!-- 시험 4건 · 논문 2584편 --> — 중복(intermittent-fasting-weight-pos.json 등 기존 간헐적 단식 항목)
+- [x] sauna — Heat에 듣는다  <!-- 시험 3건 · 논문 434편 --> — 중복(sauna-therapy-blood-pressure-pos.json 등 기존 사우나 항목)
+- [x] cold water immersion — Muscle Tone에 듣는다  <!-- 시험 8건 · 논문 12편 -->
+- [x] cold water immersion — Immune Function에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [x] cold water immersion — Physical Stress에 듣는다  <!-- 시험 3건 · 논문 324편 --> — 중복(cold-water-immersion-stress-open.json)
+- [x] compression stockings — Hypotension에 듣는다  <!-- 시험 3건 · 논문 83편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT06707428·NCT07534891·NCT01067170)
+- [x] acupuncture — HIV Neuropathy에 듣는다  <!-- 시험 16건 · 논문 27편 --> — 중복(acupuncture-neuropathy-pos.json)
+- [x] acupuncture — Depression에 듣는다  <!-- 시험 14건 · 논문 3246편 -->
+- [x] acupuncture — Urinary Retention에 듣는다  <!-- 시험 14건 · 논문 158편 -->
+- [x] psyllium — Metabolic Disease에 듣는다  <!-- 시험 4건 · 논문 179편 --> — 중복(psyllium-obesity-pos.json 등 기존 차전자피 항목)
+- [x] therapeutic gardening — Mood Disorders에 듣는다  <!-- 시험 4건 · 논문 77편 --> — 중복(therapeutic-gardening-anxiety-pos.json 등 기존 원예 항목)
+- [x] guided imagery — Functional Status에 듣는다  <!-- 시험 11건 · 논문 39편 -->
+- [x] guided imagery — Anxiety에 듣는다  <!-- 시험 9건 · 논문 779편 -->
+- [x] guided imagery — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 56편 -->
+- [x] progressive muscle relaxation — Fatigue에 듣는다  <!-- 시험 15건 · 논문 147편 -->
+- [x] progressive muscle relaxation — Relaxation에 듣는다  <!-- 시험 12건 · 논문 1861편 --> — 중복(progressive-muscle-relaxation-stress-pos.json 등 기존 이완 항목)
+- [x] progressive muscle relaxation — Nursing에 듣는다  <!-- 시험 11건 · 논문 321편 --> — 근거 없음(2026-08-07, progressive muscle relaxation AND Nursing; 직접 간호 결과 없음)
+- [x] progressive muscle relaxation — Depressive에 듣는다  <!-- 시험 10건 · 논문 347편 -->
+- [x] sleep education — Cognitive Impairment에 듣는다  <!-- 시험 11건 · 논문 1831편 --> — 중복(sleep-health-education-cognitive-decline-pos.json)
+- [x] sleep education — Cancer에 듣는다  <!-- 시험 10건 · 논문 2646편 --> — 등록만 있고 결과 없음(2026-08-07 조회, NCT03542604·NCT06938802·NCT05780814·NCT00935376)
+- [ ] sleep education — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 1344편 -->
+- [ ] sleep education — Physical Activity에 듣는다  <!-- 시험 6건 · 논문 8916편 -->
+- [ ] social prescribing — Mental Health에 듣는다  <!-- 시험 4건 · 논문 976편 -->
+- [ ] social prescribing — Opioid Prescribing에 듣는다  <!-- 시험 3건 · 논문 725편 -->
+- [ ] nature sounds — Cancer에 듣는다  <!-- 시험 3건 · 논문 566편 -->
+- [ ] white noise — Premature Birth에 듣는다  <!-- 시험 4건 · 논문 9편 -->
+- [ ] white noise — Stress에 듣는다  <!-- 시험 3건 · 논문 475편 -->
+- [ ] art therapy — HIV에 듣는다  <!-- 시험 34건 · 논문 28372편 -->
+- [ ] art therapy — Colon Cancer에 듣는다  <!-- 시험 9건 · 논문 169편 -->
+- [ ] art therapy — Psychological Stress에 듣는다  <!-- 시험 4건 · 논문 658편 -->
+- [ ] art therapy — Human Papillomavirus에 듣는다  <!-- 시험 4건 · 논문 169편 -->
+- [ ] water aerobics — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 20016편 -->
+- [ ] stretching exercise — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 113편 -->
+- [ ] stretching exercise — Stretch에 듣는다  <!-- 시험 5건 · 논문 9281편 -->
+- [ ] stretching exercise — Epicondylitis에 듣는다  <!-- 시험 5건 · 논문 89편 -->
+- [ ] stretching exercise — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 127편 -->
