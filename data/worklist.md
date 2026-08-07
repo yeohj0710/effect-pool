@@ -14218,3 +14218,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] reminiscence group therapy — Cognitive Decline에 듣는다  <!-- 시험 11건 · 논문 48편 -->
 - [x] reminiscence group therapy — Alzheimer Disease에 듣는다  <!-- 시험 6건 · 논문 64편 -->
 - [x] mindful parenting program — Disruptive Behavior에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] coherence therapy — Macular Degeneration Advanced에 듣는다  <!-- 시험 9건 · 논문 358편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "coherence therapy" AND "Macular Degeneration Advanced" 0건)
+- [x] coherence therapy — Diabetic Retinopathy에 듣는다  <!-- 시험 6건 · 논문 3078편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "coherence therapy" AND "Diabetic Retinopathy" 0건)
+- [x] coherence therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 3586편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "coherence therapy" AND "Cancer" 0건)
+- [x] coherence therapy — Corneal Opacity에 듣는다  <!-- 시험 4건 · 논문 159편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "coherence therapy" AND "Corneal Opacity" 0건)
+- [x] behavioral activation group — Anxious Symptoms에 듣는다  <!-- 시험 18건 · 논문 9610편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "behavioral activation group" AND "Anxious Symptoms" 0건)
+- [x] behavioral activation group — Anxiety에 듣는다  <!-- 시험 17건 · 논문 17557편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 1건은 다른 중재·대상)
+- [x] behavioral activation group — Stress에 듣는다  <!-- 시험 15건 · 논문 32142편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 2건은 behavioral activation 일반 연구)
+- [x] behavioral activation group — Pain에 듣는다  <!-- 시험 9건 · 논문 17233편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed "behavioral activation group" AND Pain 0건)
+- [x] family sleep intervention — Sleep에 듣는다  <!-- 시험 9건 · 논문 17639편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 검색 16541건 중 직접 중재 근거 없음)
+- [x] family sleep intervention — Physical Fitness에 듣는다  <!-- 시험 5건 · 논문 146편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 검색 80건 중 직접 중재 근거 없음)
+- [x] family sleep intervention — Child Behavior에 듣는다  <!-- 시험 5건 · 논문 2003편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 검색 415건 중 직접 중재 근거 없음)
+- [x] family sleep intervention — Children에 듣는다  <!-- 시험 3건 · 논문 7900편 --> — 근거 없음(2026-08-07 조회, CT.gov InterventionName 대조 0건; PubMed 검색 6171건 중 직접 중재 근거 없음)
+- [x] imlifidase — Kidney Transplant Rejection에 듣는다  <!-- 시험 4건 · 논문 51편 -->
+- [x] imlifidase — Anti-Glomerular Basement Membrane Disease에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] emapalumab — Graft Failure에 듣는다  <!-- 시험 3건 · 논문 13편 -->
