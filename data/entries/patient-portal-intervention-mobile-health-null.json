@@ -1,0 +1,28 @@
+{
+  "id": "patient-portal-intervention-mobile-health-null",
+  "subj": "patient portal intervention",
+  "claim": "환자 포털 지원이 화상 방문 완료율을 높이지 못한다",
+  "line": "모바일 헬스 이용에 환자 포털 중재",
+  "effect": "방문 완료 차이 없음",
+  "tier": "trial",
+  "dir": "null",
+  "n": 328,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "환자 포털 중재는 의약품 허가 적응증이 아닌 비약물 중재다",
+  "why": "환자 포털 헬프라인 아웃리치 무작위시험에서 포털 지원은 전체 원격진료 방문 완료율을 유의하게 높이지 못했다.",
+  "saw": "방문 완료율은 대조군 70.1%, 중재군 73.8%였고 p=.46이었다. 방문 완료자 중 화상 방문 비율은 28.1% 대 15.7%였다.",
+  "limit": "단일 기관의 질 개선 무작위시험이며 포털 활성화율도 30.5% 대 29.3%로 차이가 없었다.",
+  "against": "방문 완료자 안에서는 중재군의 화상 방문 비율이 더 높았지만 사전 지정된 전체 완료율 결과는 음성이었다.",
+  "use": "환자 포털 지원으로 원격진료 완료율을 높이려 할 때 예상 효과를 보수적으로 잡는다.",
+  "refs": [
+    { "label": "Patient Portal Helpline Outreach and Telehealth Visit Completion 2025 · Journal of Evaluation in Clinical Practice", "doi": "10.1111/jep.70420", "pmid": "41887122" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=patient portal intervention AND condition=Mobile Health; 23건 반환, 중재명 일치 0건",
+    "pubmed": "patient portal intervention AND Mobile Health; 755건",
+    "negative": "patient portal intervention AND Mobile Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 341건",
+    "safety": "patient portal intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 45건"
+  }
+}

@@ -13428,13 +13428,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online mindfulness — Stress에 듣는다  <!-- 시험 18건 · 논문 1044편 -->
 - [x] online mindfulness — Mental Health에 듣는다  <!-- 시험 17건 · 논문 1069편 -->
 - [x] online mindfulness — Pain, Acute에 듣는다  <!-- 시험 16건 · 논문 9편 -->
-- [ ] patient portal intervention — Diabetes에 듣는다  <!-- 시험 7건 · 논문 662편 -->
-- [ ] patient portal intervention — Fall에 듣는다  <!-- 시험 6건 · 논문 53편 -->
-- [ ] patient portal intervention — Mobile Health에 듣는다  <!-- 시험 5건 · 논문 755편 -->
-- [ ] patient portal intervention — Liver Tumor에 듣는다  <!-- 시험 4건 · 논문 2549편 -->
-- [ ] health insurance navigation — Cancer에 듣는다  <!-- 시험 5건 · 논문 483편 -->
-- [ ] health insurance navigation — Hypertension에 듣는다  <!-- 시험 3건 · 논문 19편 -->
-- [ ] health insurance navigation — Diabetes Mellitus, Type 2에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] health insurance navigation — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 11편 -->
-- [ ] home sleep apnea test — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 26편 -->
-- [ ] home sleep apnea test — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 31편 -->
+- [x] patient portal intervention — Diabetes에 듣는다  <!-- 시험 7건 · 논문 662편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient portal intervention — Fall에 듣는다  <!-- 시험 6건 · 논문 53편 --> — 근거 없음(2026-08-06, "patient portal intervention" AND "Fall")
+- [x] patient portal intervention — Mobile Health에 듣는다  <!-- 시험 5건 · 논문 755편 --> — 근거 항목 추가(2026-08-06)
+- [x] patient portal intervention — Liver Tumor에 듣는다  <!-- 시험 4건 · 논문 2549편 --> — 근거 없음(2026-08-06, "patient portal intervention" AND "Liver Tumor")
+- [x] health insurance navigation — Cancer에 듣는다  <!-- 시험 5건 · 논문 483편 --> — 근거 항목 추가(2026-08-06)
+- [x] health insurance navigation — Hypertension에 듣는다  <!-- 시험 3건 · 논문 19편 --> — 근거 없음(2026-08-06, "health insurance navigation" AND "Hypertension")
+- [x] health insurance navigation — Diabetes Mellitus, Type 2에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-06, "health insurance navigation" AND "Diabetes Mellitus, Type 2")
+- [x] health insurance navigation — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-06, "health insurance navigation" AND "Chronic Kidney Diseases")
+- [x] home sleep apnea test — Mild Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 근거 없음(2026-08-06, "home sleep apnea test" AND "Mild Cognitive Impairment")
+- [x] home sleep apnea test — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 근거 항목 추가(2026-08-06)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] financial counseling — Colon Neoplasm에 듣는다  <!-- 시험 5건 · 논문 24편 --> — 근거 없음(2026-08-06, "financial counseling" AND "Colon Neoplasm")
+- [x] financial counseling — Pre-diabetes에 듣는다  <!-- 시험 5건 · 논문 146편 --> — 근거 없음(2026-08-06, "financial counseling" AND "Pre-diabetes")
+- [x] financial counseling — Health Behavior에 듣는다  <!-- 시험 4건 · 논문 4550편 --> — 근거 항목 추가(2026-08-06)
+- [x] financial counseling — Tobacco Use에 듣는다  <!-- 시험 4건 · 논문 881편 --> — 근거 없음(2026-08-06, "financial counseling" AND "Tobacco Use")
+- [x] housing support — Homeless Persons에 듣는다  <!-- 시험 4건 · 논문 6085편 --> — 근거 항목 추가(2026-08-06)
+- [x] social needs screening — Primary Health Care에 듣는다  <!-- 시험 5건 · 논문 5676편 --> — 근거 항목 추가(2026-08-06)
+- [x] social needs screening — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 421편 --> — 근거 없음(2026-08-06, "social needs screening" AND "Type 2 Diabetes")
+- [x] social needs screening — Pregnancy, High Risk에 듣는다  <!-- 시험 3건 · 논문 316편 --> — 근거 없음(2026-08-06, "social needs screening" AND "Pregnancy, High Risk")
+- [x] social needs screening — Congestive Heart Failure에 듣는다  <!-- 시험 3건 · 논문 334편 --> — 근거 없음(2026-08-06, "social needs screening" AND "Congestive Heart Failure")
+- [x] food insecurity intervention — Nutrition에 듣는다  <!-- 시험 11건 · 논문 4054편 --> — 근거 항목 추가(2026-08-06)
+- [x] food insecurity intervention — Hypertension에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 근거 항목 추가(2026-08-06)
+- [x] community resource navigation — Cancer에 듣는다  <!-- 시험 5건 · 논문 387편 --> — 근거 없음(2026-08-06, "community resource navigation" AND "Cancer")
+- [x] community resource navigation — Social Care에 듣는다  <!-- 시험 5건 · 논문 1087편 --> — 근거 없음(2026-08-06, "community resource navigation" AND "Social Care")
+- [x] home visiting — Child Abuse에 듣는다  <!-- 시험 28건 · 논문 373편 --> — 근거 항목 추가(2026-08-06)
+- [x] home visiting — Cancer에 듣는다  <!-- 시험 17건 · 논문 478편 --> — 근거 없음(2026-08-06, "home visiting" AND "Cancer")
+- [x] home visiting — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 150편 --> — 근거 항목 추가(2026-08-06)
+- [x] home visiting — Diabetes에 듣는다  <!-- 시험 12건 · 논문 241편 --> — 근거 항목 추가(2026-08-06)
+- [x] care coordination — Dementia에 듣는다  <!-- 시험 18건 · 논문 1552편 --> — 근거 항목 추가(2026-08-06)
+- [x] care coordination — Drug Use에 듣는다  <!-- 시험 17건 · 논문 8427편 --> — 근거 항목 추가(2026-08-06)
+- [x] care coordination — Diabetes에 듣는다  <!-- 시험 15건 · 논문 3865편 --> — 근거 항목 추가(2026-08-06)
+- [ ] care coordination — Mental Health에 듣는다  <!-- 시험 13건 · 논문 7381편 -->
+- [ ] patient education program — Diabetes에 듣는다  <!-- 시험 9건 · 논문 3946편 -->
+- [ ] patient education program — Colorectal Cancer에 듣는다  <!-- 시험 6건 · 논문 270편 -->
+- [ ] patient education program — Hypertension에 듣는다  <!-- 시험 5건 · 논문 960편 -->
+- [ ] patient education program — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 609편 -->
+- [ ] digital nutrition intervention — Obesity에 듣는다  <!-- 시험 6건 · 논문 645편 -->
+- [ ] digital nutrition intervention — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 428편 -->
+- [ ] digital nutrition intervention — Food Habits에 듣는다  <!-- 시험 5건 · 논문 246편 -->
+- [ ] relacorilant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 27편 -->
+- [ ] relacorilant — Cushing Syndrome에 듣는다  <!-- 시험 3건 · 논문 17편 -->

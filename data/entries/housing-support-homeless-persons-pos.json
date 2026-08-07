@@ -1,0 +1,28 @@
+{
+  "id": "housing-support-homeless-persons-pos",
+  "subj": "housing support",
+  "claim": "주거 지원이 노숙인의 입원 일수를 줄인다",
+  "line": "노숙인의 주거 안정에 주거 지원",
+  "effect": "입원일수 RR 0.62",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 703,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "주거 지원은 의약품 허가 적응증이 아닌 사회적 중재다",
+  "why": "중증 정신질환과 노숙을 함께 겪는 사람을 대상으로 Housing First와 지원팀을 일반 서비스와 비교한 연구에서 주거 안정과 입원일수에 신호가 있었다.",
+  "saw": "Housing First군 353명과 대조군 350명을 비교했다. 입원·응급실 이용 여부는 다르지 않았지만 입원일수는 RR 0.62였고 주거 안정성이 높았다.",
+  "limit": "주거 서비스와 지원팀이 함께 제공되어 어떤 요소가 효과를 냈는지 분리하기 어렵다.",
+  "against": "입원 또는 응급실 이용을 경험한 사람의 비율과 모든 의료 이용이 감소한 것은 아니었다.",
+  "use": "노숙과 중증 정신질환이 함께 있는 사람의 주거 프로그램을 설계할 때 입원일수와 주거 안정을 함께 본다.",
+  "refs": [
+    { "label": "Housing First and Support Team for Homeless People With Severe Mental Illness 2020 · Epidemiology and Psychiatric Sciences", "doi": "10.1017/S2045796020000785", "pmid": "32996442" }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=housing support AND condition=Homeless Persons; 23건 반환, 중재명 일치 1건",
+    "pubmed": "housing support AND Homeless Persons; 6085건",
+    "negative": "housing support AND Homeless Persons AND (no effect OR did not OR failed to OR negative OR no significant difference); 2148건",
+    "safety": "housing support AND (adverse OR toxicity OR case report OR harm OR dropout); 730건"
+  }
+}
