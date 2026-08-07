@@ -1,46 +1,46 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3714,
+  "entries": 3725,
   "worklist": {
-    "total": 12963,
-    "checked": 12959,
-    "unchecked": 4,
-    "no_evidence_pending": 1270,
-    "next_batch": ["clonidine — Cancer", "desmopressin — Breast Cancer", "water intake — Colon Cancer", "weight loss counseling — Cancer"]
+    "total": 12992,
+    "checked": 12986,
+    "unchecked": 6,
+    "no_evidence_pending": 1281,
+    "next_batch": ["clonidine — Cancer", "desmopressin — Breast Cancer", "water intake — Colon Cancer", "weight loss counseling — Cancer", "alvimopan — Cancer", "naloxegol — Cancer"]
   },
   "verification": {
-    "build": "passed; batch 243 processed 16 non-oncology topics; 6 evidence entries were added, 1 registration-only topic was marked no-evidence, 9 approved indications were skipped, and 20 legacy sentences were tightened without changing numbers; all new actionable line/effect/scale warnings were fixed; two new truthful thin-study warnings remain",
+    "build": "passed; batch 244 processed 27 non-oncology topics; 11 evidence entries were added, 11 no-evidence topics were marked, 5 approved indications were skipped, and 20 legacy sentences were tightened without changing numbers; all new actionable line/effect/scale warnings were fixed; one new truthful thin-study warning remains",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3225,
-      "obs": 426,
-      "animal": 21,
+      "trial": 3229,
+      "obs": 431,
+      "animal": 22,
       "lab": 11,
       "case": 31
     },
-    "no_effect_or_harm": 895,
+    "no_effect_or_harm": 896,
     "harm": 116,
     "no_effect_or_harm_share": "24%",
-    "non_trial": 489,
+    "non_trial": 496,
     "unexpected_benefit_entries": 23,
-    "connected_evidence": 5291,
-    "thin_warnings": 627
+    "connected_evidence": 5302,
+    "thin_warnings": 628
   },
   "deployment": {
     "last_entry_count": 3698,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_7uX3G8PJyiahYCTuXo5Cu6Yj4uhj",
-    "deployment_state": "batch 243 local build has 3714 entries; public last verified at 3698 until the six-round check after batch 247",
+    "deployment_state": "batch 244 local build has 3725 entries; public last verified at 3698 until the six-round check after batch 247",
     "deployment_url": "https://offlabel-pool-fcmz17v16-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3714,
+    "local_entry_count": 3725,
     "public_entry_count": 3698,
     "public_id_field_count": 3703,
     "counts_match": false,
-    "latest_note": "Batch 243 local build: 3714 entries and 5291 refs; public remains 3698 until the six-round check after batch 247.",
+    "latest_note": "Batch 244 local build: 3725 entries and 5302 refs; public remains 3698 until the six-round check after batch 247.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
   "last_batch": [
@@ -794,8 +794,14 @@
     "batch 243 added cefiderocol-sepsis-null, rifapentine-kidney-failure-open, tigecycline-acinetobacter-infections-harm, telotristat-neuroendocrine-tumors-lab-pos, telotristat-neuroendocrine-tumors-animal-pos, and pitavastatin-coronary-disease-pos",
     "batch 243 tightened 20 legacy sentences from abemaciclib-sarcoma through acupressure-obesity; numbers, effects, and evidence levels were preserved",
     "batch 243 build passed after removing the registration-only entry and shortening all new actionable fields; two new truthful thin-study warnings and two old approval-match warnings remain; local build is 3714 and public remains 3698",
-    "batch 243 committed and pushed as 349dda5; pnpm-lock.yaml remains user-untracked and unstaged"
+    "batch 243 committed and pushed as 349dda5; pnpm-lock.yaml remains user-untracked and unstaged",
+    "batch 244 expansion added 29 candidates from 20 names; 27 non-oncology topics were processed and 6 oncology topics remain unchecked",
+    "batch 244 processed 27 topics; added 11 evidence entries, marked 11 topics as no-evidence, skipped 5 approved indications, and left alvimopan Cancer and naloxegol Cancer plus the four prior oncology topics for later",
+    "batch 244 added ertapenem-bacteremia-null, eravacycline-sepsis-case-pos, eravacycline-pulmonary-infection-pos, alvimopan-bowel-dysfunction-open, milrinone-cardiac-output-pos, milrinone-septic-shock-pos, milrinone-vasospasm-pos, breathing-exercises-respiratory-open, breathing-exercises-anxiety-pos, intermittent-hypoxia-multiple-sclerosis-open, and intermittent-hypoxia-stroke-animal-pos",
+    "batch 244 marked cefepime Antibiotic Allergy, doripenem Bacterial Infections and Infection, alvimopan Constipation, naloxegol Opioid Use, pegvisomant Insulin Resistance, milrinone Pulmonary Edema, breathing exercises Pulmonary Disease and Sleep, and intermittent hypoxia Sleep Apnea and Hypoxia as no-evidence; delafloxacin Pulmonary Infection, ertapenem Infections/Appendicitis/Pneumonia, and plazomicin Acute Pyelonephritis were skipped as approved indications",
+    "batch 244 tightened 20 legacy sentences from amifampridine-myasthenia-gravis-harm through aquatic-walking-osteoarthritis; numbers, effects, and evidence levels were preserved",
+    "batch 244 build passed with one truthful thin-study warning for the 12-person intermittent hypoxia multiple sclerosis trial and two old approval-match warnings; local build is 3725 and public remains 3698 until the six-round check after batch 247"
   ],
-  "current_batch": "batch 243 complete locally; 6 evidence entries, 1 no-evidence topic, 9 approved indications, and 4 oncology topics remain; local build 3714; public last verified 3698",
-  "next_action": "start batch 244 with git pull --ff-only and AGENTS.md; because 4 unchecked topics remain, run expand-worklist.mjs --covered and a new 20-name branch first, leaving the four oncology topics for later"
+  "current_batch": "batch 244 complete locally; 11 evidence entries, 11 no-evidence topics, 4 approved indications, and 6 oncology topics remain; local build 3725; public last verified 3698",
+  "next_action": "start batch 245 with git pull --ff-only and AGENTS.md; because 6 unchecked oncology topics remain, run expand-worklist.mjs --covered and a new 20-name branch first, then continue with non-oncology topics"
 }

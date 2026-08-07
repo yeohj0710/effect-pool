@@ -1,0 +1,28 @@
+{
+  "id": "eravacycline-sepsis-case-pos",
+  "subj": "에라바사이클린",
+  "claim": "에라바사이클린이 항균치료를 중단할 수 없는 패혈증 동반 클로스트리디오이데스 디피실 감염에서 원래 감염과 설사를 함께 호전시킨다",
+  "line": "에라바사이클린 전환 뒤 원래 감염과 설사가 호전됐습니다",
+  "tier": "case",
+  "dir": "pos",
+  "n": 3,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가는 성인의 복잡성 복강내 감염이며 패혈증과 클로스트리디오이데스 디피실 감염 치료 적응증은 아닙니다.",
+  "why": "중증 감염 때문에 항균제를 끊을 수 없는 환자에서 항균제 관련 장 감염을 악화시키지 않는 치료 선택지가 필요합니다.",
+  "saw": "패혈증을 동반한 클로스트리디오이데스 디피실 감염 세 증례에서 기존 항균제를 중단하지 못한 채 정맥 에라바사이클린과 표적 치료를 병용했습니다. 세 명 모두 원래 감염과 설사가 호전됐고 에라바사이클린 관련 이상반응은 없었습니다. 두 명은 재발 없이 90일 추적을 마쳤고 한 명은 관련 없는 합병증으로 사망했습니다.",
+  "limit": "대조군이 없는 세 증례 보고라 자연 경과와 병용 치료의 효과를 분리할 수 없고, 중증 패혈증 전체에 일반화할 수 없습니다.",
+  "against": "한 명은 퇴원 전에 관련 없는 합병증으로 사망했고, 치료 효과를 비교할 수 있는 사망률 자료는 없습니다.",
+  "use": "중증 감염과 클로스트리디오이데스 디피실 감염이 함께 있어 항균제 중단이 어려운 특수 상황의 가설로만 참고합니다.",
+  "effect": "원래 감염·설사 호전",
+  "refs": [
+    { "label": "2026 · Infectious Diseases · 패혈증 동반 클로스트리디오이데스 디피실 감염 증례", "doi": "10.1080/1120009X.2026.2684333", "pmid": "42299829" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=eravacycline, cond=Sepsis Bacterial · 4건 반환",
+    "pubmed": "eravacycline AND sepsis · 479편",
+    "negative": "eravacycline AND sepsis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 471편",
+    "safety": "eravacycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1011편"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "milrinone-vasospasm-pos",
+  "subj": "밀리논",
+  "claim": "정맥 밀리논이 동맥류성 지주막하출혈의 뇌혈관연축 뒤 지연성 뇌허혈 위험을 낮춘다",
+  "line": "중등도·중증 뇌혈관연축 코호트에서 정맥 밀리논 투여군은 지연성 뇌경색과 추가 혈관성형술이 적었습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 230,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가는 급성 비대상성 심부전의 단기 정맥주사 치료이며 뇌혈관연축·지주막하출혈 적응증은 아닙니다.",
+  "why": "지주막하출혈 뒤 뇌혈관연축은 지연성 뇌허혈과 뇌경색을 일으켜 정맥 밀리논의 임상 결과를 비교할 필요가 있습니다.",
+  "saw": "2016~2024년 동맥류성 지주막하출혈 데이터베이스에서 중등도·중증 혈관조영 뇌혈관연축 환자 230명을 분석했고, 63명이 정맥 밀리논을 받았습니다. 기저 특성을 맞춘 비교에서 지연성 뇌경색은 밀리논군 6.3%, 비투여군 24%였고 다변량 보정 오즈비는 0.08(95% CI 0.02–0.42)였습니다. 중증 혈관연축군의 추가 혈관성형술도 5.3% 대 37.5%였습니다.",
+  "limit": "단일 기관 관찰 데이터베이스 연구이며 투여 여부와 치료 시점이 임상 판단에 따라 정해져 잔여 교란을 배제할 수 없습니다.",
+  "against": "230명 중 밀리논 투여자는 63명뿐이고, 대조군과의 비교는 무작위 시험이 아니라 기저 특성 보정에 의존했습니다.",
+  "use": "지주막하출혈 환자의 표준 치료를 대신하지 않는 전문 치료 가설로만 참고하며, 혈압·부정맥·관류를 함께 감시합니다.",
+  "effect": "지연성 뇌경색·추가 혈관성형술 감소",
+  "refs": [
+    { "label": "2026 · World Neurosurgery · 지주막하출혈 뇌혈관연축 코호트", "doi": "10.1016/j.wneu.2026.125081", "pmid": "42190984" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=milrinone, cond=Vasospasm · 4건 반환",
+    "pubmed": "milrinone AND vasospasm · 638편",
+    "negative": "milrinone AND vasospasm AND (no effect OR did not OR failed to OR negative OR no significant difference) · 540편",
+    "safety": "milrinone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 6073편"
+  }
+}

@@ -16138,3 +16138,42 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pitavastatin — Coronary Disease에 듣는다  <!-- 시험 9건 · 논문 177편 -->
 - [x] pitavastatin — Dyslipidemias에 듣는다  <!-- 시험 8건 · 논문 334편 --> — 허가 적응증(2026-08-08)
 - [x] pitavastatin — Hyperlipidemia에 듣는다  <!-- 시험 6건 · 논문 226편 --> — 허가 적응증(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cefepime — Antibiotic Allergy에 듣는다  <!-- 시험 3건 · 논문 80편 --> — 근거 없음(2026-08-08, cefepime AND (allergy OR hypersensitivity))
+- [x] delafloxacin — Pulmonary Infection에 듣는다  <!-- 시험 5건 · 논문 16편 --> — 허가 적응증(2026-08-08)
+- [x] doripenem — Bacterial Infections에 듣는다  <!-- 시험 11건 · 논문 452편 --> — 근거 없음(2026-08-08, doripenem AND bacterial infection)
+- [x] doripenem — Infection에 듣는다  <!-- 시험 4건 · 논문 625편 --> — 근거 없음(2026-08-08, doripenem AND infection)
+- [x] ertapenem — Infections에 듣는다  <!-- 시험 22건 · 논문 2082편 --> — 허가 적응증(2026-08-08)
+- [x] ertapenem — Appendicitis에 듣는다  <!-- 시험 9건 · 논문 50편 --> — 허가 적응증(2026-08-08)
+- [x] ertapenem — Pneumonia에 듣는다  <!-- 시험 5건 · 논문 865편 --> — 허가 적응증(2026-08-08)
+- [x] ertapenem — Bacteremia에 듣는다  <!-- 시험 3건 · 논문 184편 -->
+- [x] eravacycline — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [x] eravacycline — Pulmonary Infection에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [x] plazomicin — Acute Pyelonephritis에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 허가 적응증(2026-08-08)
+- [ ] alvimopan — Cancer에 듣는다  <!-- 시험 7건 · 논문 66편 -->
+- [x] alvimopan — Constipation에 듣는다  <!-- 시험 6건 · 논문 65편 --> — 근거 없음(2026-08-08, alvimopan AND constipation)
+- [x] alvimopan — Bowel Dysfunction에 듣는다  <!-- 시험 6건 · 논문 151편 -->
+- [ ] naloxegol — Cancer에 듣는다  <!-- 시험 4건 · 논문 56편 -->
+- [x] naloxegol — Opioid Use에 듣는다  <!-- 시험 3건 · 논문 164편 --> — 근거 없음(2026-08-08, naloxegol AND (opioid use OR opioid use disorder))
+- [x] pegvisomant — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 59편 --> — 근거 없음(2026-08-08, pegvisomant AND insulin resistance)
+- [x] milrinone — Pulmonary Edema에 듣는다  <!-- 시험 12건 · 논문 51편 --> — 근거 없음(2026-08-08, milrinone AND pulmonary edema)
+- [x] milrinone — Cardiac Output에 듣는다  <!-- 시험 10건 · 논문 473편 -->
+- [x] milrinone — Septic Shock에 듣는다  <!-- 시험 5건 · 논문 51편 -->
+- [x] milrinone — Vasospasm에 듣는다  <!-- 시험 4건 · 논문 129편 -->
+- [x] breathing exercises — Pulmonary Disease에 듣는다  <!-- 시험 10건 · 논문 2237편 --> — 근거 없음(2026-08-08, breathing exercises AND (pulmonary disease OR COPD))
+- [x] breathing exercises — Respiratory에 듣는다  <!-- 시험 8건 · 논문 3224편 -->
+- [x] breathing exercises — Anxiety에 듣는다  <!-- 시험 7건 · 논문 770편 -->
+- [x] breathing exercises — Sleep에 듣는다  <!-- 시험 4건 · 논문 468편 --> — 근거 없음(2026-08-08, "breathing exercises" AND sleep)
+- [x] intermittent hypoxia — Multiple Sclerosis에 듣는다  <!-- 시험 16건 · 논문 13편 -->
+- [x] intermittent hypoxia — Sleep Apnea에 듣는다  <!-- 시험 8건 · 논문 2980편 --> — 근거 없음(2026-08-08, "intermittent hypoxia" AND "sleep apnea")
+- [x] intermittent hypoxia — Stroke에 듣는다  <!-- 시험 6건 · 논문 222편 -->
+- [x] intermittent hypoxia — Hypoxia에 듣는다  <!-- 시험 5건 · 논문 6942편 --> — 근거 없음(2026-08-08, "intermittent hypoxia" AND hypoxia)
