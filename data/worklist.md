@@ -13821,5 +13821,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nutrition education group — Cognitive Function에 듣는다  <!-- 시험 10건 · 논문 1593편 -->
 - [x] caregiver skills workshop — Depression에 듣는다  <!-- 시험 3건 · 논문 378편 -->
 - [x] virtual pain education — Anxiety에 듣는다  <!-- 시험 6건 · 논문 214편 -->
-- [ ] virtual pain education — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 22편 -->
-- [ ] virtual pain education — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] virtual pain education — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 근거 없음(2026-08-06 조회, "virtual pain education" AND "Osteoarthritis")
+- [x] virtual pain education — Fibromyalgia에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] peer support specialist — Mental Health에 듣는다  <!-- 시험 9건 · 논문 716편 --> — 근거 없음(2026-08-06 조회, "peer support specialist" AND "Mental Health")
+- [x] peer support specialist — Suicide Ideation에 듣는다  <!-- 시험 6건 · 논문 17편 -->
+- [x] peer support specialist — Suicide에 듣는다  <!-- 시험 6건 · 논문 57편 -->
+- [x] peer support specialist — Depression에 듣는다  <!-- 시험 4건 · 논문 170편 --> — 근거 없음(2026-08-06 조회, "peer support specialist" AND "Depression")
+- [x] digital fall prevention — Accidental Falls에 듣는다  <!-- 시험 3건 · 논문 193편 --> — 근거 없음(2026-08-06 조회, "digital fall prevention" AND "Accidental Falls")
+- [x] virtual balance training — Parkinson Disease에 듣는다  <!-- 시험 17건 · 논문 116편 --> — 근거 없음(2026-08-06 조회, "virtual balance training" AND "Parkinson Disease")
+- [x] virtual balance training — Balance에 듣는다  <!-- 시험 15건 · 논문 1806편 -->
+- [x] virtual balance training — Rehabilitation에 듣는다  <!-- 시험 13건 · 논문 910편 --> — 근거 없음(2026-08-06 조회, "virtual balance training" AND "Rehabilitation")
+- [x] virtual balance training — Chronic Pain에 듣는다  <!-- 시험 11건 · 논문 22편 -->
+- [x] home-based resistance training — Exercise에 듣는다  <!-- 시험 11건 · 논문 740편 --> — 근거 없음(2026-08-06 조회, "home-based resistance training" AND "Exercise")
+- [x] home-based resistance training — Hip Arthrosis에 듣는다  <!-- 시험 6건 · 논문 22편 --> — 근거 없음(2026-08-06 조회, "home-based resistance training" AND "Hip Arthrosis")
+- [x] home-based resistance training — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 35편 --> — 근거 없음(2026-08-06 조회, "home-based resistance training" AND "Heart Failure")
+- [x] home-based resistance training — Sarcopenia에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [x] community walking group — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 근거 없음(2026-08-06 조회, "community walking group" AND "Lung Cancer")
+- [x] community walking group — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 75편 --> — 근거 없음(2026-08-06 조회, "community walking group" AND "Dietary Habits")
+- [x] community walking group — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 47편 --> — 근거 없음(2026-08-06 조회, "community walking group" AND "Heart Failure")
+- [x] community health navigator — Psoriatic Arthritis에 듣는다  <!-- 시험 5건 · 논문 17편 --> — 근거 없음(2026-08-06 조회, "community health navigator" AND "Psoriatic Arthritis")
+- [x] community health navigator — Asthma에 듣는다  <!-- 시험 4건 · 논문 154편 --> — 근거 없음(2026-08-06 조회, "community health navigator" AND "Asthma")
+- [x] community health navigator — Chronic Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 150편 --> — 근거 없음(2026-08-06 조회, "community health navigator" AND "Chronic Kidney Diseases")
+- [x] community health navigator — Hypertension에 듣는다  <!-- 시험 3건 · 논문 358편 --> — 근거 없음(2026-08-06 조회, "community health navigator" AND "Hypertension")
+- [x] virtual group rehabilitation — Pain에 듣는다  <!-- 시험 33건 · 논문 496편 -->
+- [x] virtual group rehabilitation — Rehabilitation에 듣는다  <!-- 시험 24건 · 논문 4065편 --> — 근거 없음(2026-08-06 조회, "virtual group rehabilitation" AND "Rehabilitation")
+- [x] virtual group rehabilitation — Parkinson Disease에 듣는다  <!-- 시험 17건 · 논문 182편 -->
+- [x] virtual group rehabilitation — Osteoarthritis에 듣는다  <!-- 시험 17건 · 논문 60편 -->
+- [x] virtual anxiety management — Pain에 듣는다  <!-- 시험 62건 · 논문 705편 -->
+- [x] virtual anxiety management — Surgery에 듣는다  <!-- 시험 16건 · 논문 379편 -->
+- [x] virtual anxiety management — Cancer에 듣는다  <!-- 시험 10건 · 논문 205편 -->
+- [x] virtual anxiety management — Fear에 듣는다  <!-- 시험 8건 · 논문 183편 -->
