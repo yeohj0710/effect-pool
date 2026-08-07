@@ -14473,3 +14473,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] healthy cooking — Sleep Health에 듣는다 — 근거 없음(2026-08-07 조회, "healthy cooking" AND "Sleep Health"; ClinicalTrials.gov 직접 개입명 0건, 건강한 조리의 수면 직접 결과 없음)  <!-- 시험 8건 · 논문 29편 -->
 - [x] healthy cooking — Diabetes에 듣는다  <!-- 시험 7건 · 논문 342편 -->
 - [x] healthy cooking — Food Habits에 듣는다  <!-- 시험 6건 · 논문 883편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] paleo diet — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 53편 -->
+- [x] portfolio diet — Diabetes에 듣는다  <!-- 시험 6건 · 논문 101편 -->
+- [x] portfolio diet — Hypercholesterolemia에 듣는다  <!-- 시험 5건 · 논문 18편 -->
+- [x] portfolio diet — Hyperlipidemia에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] MIND diet — Obesity에 듣는다  <!-- 시험 9건 · 논문 394편 -->
+- [x] MIND diet — Diet에 듣는다  <!-- 시험 9건 · 논문 2267편 -->
+- [x] MIND diet — Stress에 듣는다 — 근거 없음(2026-08-07 조회, "MIND diet" AND Stress; 직접 중재 결과 논문 없음)  <!-- 시험 7건 · 논문 282편 -->
+- [x] MIND diet — Dementia에 듣는다  <!-- 시험 6건 · 논문 244편 -->
+- [x] high fiber diet — Diabetes에 듣는다  <!-- 시험 19건 · 논문 2292편 -->
+- [x] high fiber diet — Cancer에 듣는다  <!-- 시험 12건 · 논문 1934편 -->
+- [x] high fiber diet — Dietary Fiber에 듣는다  <!-- 시험 11건 · 논문 9194편 -->
+- [x] high fiber diet — Insulin Tolerance에 듣는다 — 근거 없음(2026-08-07 조회, "high fiber diet" AND "Insulin Tolerance"; 직접 개입 0건)  <!-- 시험 8건 · 논문 338편 -->
+- [x] nutrition literacy — Health Literacy에 듣는다  <!-- 시험 8건 · 논문 3304편 -->
+- [x] nutrition literacy — Obesity에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition literacy" AND Obesity; 직접 개입 0건, 중재 결과 없음)  <!-- 시험 6건 · 논문 431편 -->
+- [x] nutrition literacy — Food Security에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition literacy" AND "Food Security"; 직접 개입 0건)  <!-- 시험 6건 · 논문 137편 -->
+- [x] nutrition literacy — Chronic Kidney Disease에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition literacy" AND "Chronic Kidney Disease"; 직접 영양 문해력 중재 결과 없음)  <!-- 시험 5건 · 논문 60편 -->
+- [x] nutrition label education — Health Literacy에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition label education" AND "Health Literacy"; 직접 개입 0건)  <!-- 시험 4건 · 논문 152편 -->
+- [x] nutrition label education — Diet, Healthy에 듣는다  <!-- 시험 4건 · 논문 278편 -->
+- [x] nutrition label education — Obesity에 듣는다 — 근거 없음(2026-08-07 조회, "nutrition label education" AND Obesity; 직접 개입 0건)  <!-- 시험 3건 · 논문 357편 -->
+- [x] nutrition label education — Food Insecurity에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] parent cooking — Family Health에 듣는다  <!-- 시험 3건 · 논문 341편 -->
+- [x] parent cooking — Mental Health에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [x] healthy recipe intervention — Food Selection에 듣는다  <!-- 시험 5건 · 논문 64편 -->
