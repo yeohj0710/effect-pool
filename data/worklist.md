@@ -14280,7 +14280,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] caregiver education — Advanced Cancer에 듣는다  <!-- 시험 7건 · 논문 847편 --> — 근거 없음(2026-08-07 조회, "caregiver education" AND "Advanced Cancer")
 - [x] caregiver education — Stroke에 듣는다  <!-- 시험 6건 · 논문 1292편 -->
 - [x] caregiver education — Alzheimer Disease에 듣는다  <!-- 시험 5건 · 논문 2028편 -->
-- [ ] caregiver education — Palliative Care에 듣는다  <!-- 시험 4건 · 논문 2701편 -->
+- [x] caregiver education — Palliative Care에 듣는다  <!-- 시험 4건 · 논문 2701편 -->
 - [x] ravulizumab — Thrombotic Microangiopathy에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 4건 · 논문 102편 -->
 - [x] ravulizumab — gMG에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 3건 · 논문 37편 -->
 - [x] ravulizumab — PNH에 듣는다 — 허가 적응증(2026-08-07)  <!-- 시험 3건 · 논문 174편 -->
