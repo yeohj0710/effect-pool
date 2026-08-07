@@ -15160,10 +15160,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fecal microbiota transplantation — Colitis에 듣는다  <!-- 시험 59건 · 논문 1415편 --> — 조회 실패(2026-08-08)
+- [x] fecal microbiota transplantation — Colitis에 듣는다  <!-- 시험 59건 · 논문 1415편 --> — 항목 생성(fecal-microbiota-transplantation-colitis-pos)
 - [x] fecal microbiota transplantation — Irritable Bowel에 듣는다  <!-- 시험 39건 · 논문 391편 --> — 항목 생성(2026-08-08)
-- [ ] fecal microbiota transplantation — Melanoma에 듣는다  <!-- 시험 34건 · 논문 89편 -->
-- [ ] fecal microbiota transplantation — Cancer에 듣는다  <!-- 시험 21건 · 논문 1621편 -->
+- [x] fecal microbiota transplantation — Melanoma에 듣는다  <!-- 시험 34건 · 논문 89편 --> — 항목 생성(fecal-microbiota-transplantation-melanoma-pos)
+- [x] fecal microbiota transplantation — Cancer에 듣는다  <!-- 시험 21건 · 논문 1621편 --> — 항목 생성(fecal-microbiota-transplantation-cancer-null)
 - [x] remote ischemic conditioning — Myocardial Injury에 듣는다  <!-- 시험 17건 · 논문 355편 --> — 항목 생성(2026-08-08)
 - [x] remote ischemic conditioning — Myocardial Infarction에 듣는다  <!-- 시험 11건 · 논문 313편 --> — 항목 생성(2026-08-08)
 - [x] remote ischemic conditioning — Coronary Disease에 듣는다  <!-- 시험 10건 · 논문 94편 --> — 중복(remote-ischemic-conditioning-myocardial-infarction-null, 2026-08-08)
@@ -15171,7 +15171,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] photobiomodulation therapy — Oral Mucositis에 듣는다  <!-- 시험 10건 · 논문 416편 --> — 중복(photobiomodulation-mucositis-open, 2026-08-08)
 - [x] photobiomodulation therapy — Performance에 듣는다  <!-- 시험 7건 · 논문 2875편 --> — 항목 생성(2026-08-08)
 - [x] photobiomodulation therapy — Laser에 듣는다  <!-- 시험 7건 · 논문 9426편 --> — 중복(photobiomodulation-laser-pos, 2026-08-08)
-- [ ] photobiomodulation therapy — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 135편 -->
+- [x] photobiomodulation therapy — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 135편 --> — 항목 생성(photobiomodulation-therapy-breast-cancer-null)
 - [x] auricular vagus nerve stimulation — Stroke에 듣는다  <!-- 시험 25건 · 논문 100편 --> — 항목 생성(2026-08-08)
 - [x] auricular vagus nerve stimulation — Vagus Nerve Stimulation에 듣는다  <!-- 시험 22건 · 논문 1094편 --> — 근거 없음(2026-08-08, "auricular vagus nerve stimulation AND Vagus Nerve Stimulation")
 - [x] auricular vagus nerve stimulation — Autonomic Imbalance에 듣는다  <!-- 시험 13건 · 논문 13편 --> — 중복(vagus-nerve-stimulation-autonomic-diseases-pos, 2026-08-08)
@@ -15224,9 +15224,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dark chocolate — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 145편 --> — 항목 생성(2026-08-08)
 - [x] dark chocolate — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(2026-08-08)
 - [x] glycine — Peri-implantitis에 듣는다  <!-- 시험 6건 · 논문 73편 --> — 근거 없음(2026-08-08, "glycine AND Peri-implantitis")
-- [ ] glycine — Colon Cancer에 듣는다  <!-- 시험 5건 · 논문 451편 -->
+- [x] glycine — Colon Cancer에 듣는다  <!-- 시험 5건 · 논문 451편 --> — 근거 없음(2026-08-08, "glycine AND Colon Cancer")
 - [x] glycine — HIV Infection에 듣는다  <!-- 시험 4건 · 논문 227편 --> — 근거 없음(2026-08-08, "glycine AND HIV Infection")
 - [x] safflower oil — Obesity에 듣는다  <!-- 시험 4건 · 논문 132편 --> — 근거 없음(2026-08-08, "safflower oil AND Obesity")
 - [x] safflower oil — Inflammation에 듣는다  <!-- 시험 4건 · 논문 118편 --> — 근거 없음(2026-08-08, "safflower oil AND Inflammation")
 - [x] safflower oil — Brain Function에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 근거 없음(2026-08-08, "safflower oil AND Brain Function")
 - [x] safflower oil — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 157편 --> — 근거 없음(2026-08-08, "safflower oil AND Cardiovascular Disease")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] green coffee extract — Obesity에 듣는다  <!-- 시험 3건 · 논문 66편 --> — 항목 생성(green-coffee-extract-obesity-pos)
+- [x] sunflower oil — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 325편 --> — 항목 생성(sunflower-oil-cardiovascular-disease-null)
+- [x] sunflower oil — Obesity에 듣는다  <!-- 시험 6건 · 논문 156편 --> — 항목 생성(sunflower-oil-obesity-null)
+- [x] sunflower oil — Diabetes에 듣는다  <!-- 시험 6건 · 논문 117편 --> — 항목 생성(sunflower-oil-diabetes-harm)
+- [x] beetroot extract — Cardiovascular Health에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 항목 생성(beetroot-extract-cardiovascular-health-pos)
+- [x] beetroot extract — Nitrate에 듣는다  <!-- 시험 3건 · 논문 88편 --> — 항목 생성(beetroot-extract-nitrate-pos)
+- [x] beetroot extract — Exercise Performance에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 항목 생성(beetroot-extract-exercise-performance-pos)
+- [x] dance walking — Aging에 듣는다  <!-- 시험 5건 · 논문 101편 --> — 항목 생성(dance-walking-aging-pos)
+- [x] aflibercept — Retinal Degeneration에 듣는다  <!-- 시험 175건 · 논문 2329편 --> — 허가 적응증(2026-08-08)
+- [x] aflibercept — Cancer에 듣는다  <!-- 시험 52건 · 논문 654편 --> — 항목 생성(aflibercept-cancer-pos)
+- [x] aflibercept — Retinal Disease에 듣는다  <!-- 시험 45건 · 논문 2606편 --> — 허가 적응증(2026-08-08)
+- [x] aflibercept — Neovascularization에 듣는다  <!-- 시험 40건 · 논문 2055편 --> — 같은 근거(aflibercept-cancer-pos)
