@@ -16052,7 +16052,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acupuncture — Depressive Disorder에 듣는다  <!-- 시험 12건 · 논문 534편 --> — acupuncture-depressive-disorder-pos (2026-08-08)
 - [x] acupuncture — Hypertension에 듣는다  <!-- 시험 11건 · 논문 938편 --> — acupuncture-hypertension-pos (2026-08-08)
 - [x] acupuncture — Lumbar에 듣는다  <!-- 시험 9건 · 논문 1160편 --> — acupuncture-lumbar-null (2026-08-08)
-- [ ] cocoa — Diabetes에 듣는다  <!-- 시험 12건 · 논문 494편 -->
-- [ ] cocoa — Platelet Dysfunction에 듣는다  <!-- 시험 7건 · 논문 31편 -->
-- [ ] cocoa — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 458편 -->
-- [ ] cocoa — Nonalcoholic Fatty Liver Disease에 듣는다  <!-- 시험 6건 · 논문 34편 -->
+ - [x] cocoa — Diabetes에 듣는다  <!-- 시험 12건 · 논문 494편 -->
+ - [x] cocoa — Platelet Dysfunction에 듣는다  <!-- 시험 7건 · 논문 31편 --> — 근거 없음(2026-08-08, cocoa AND "Platelet Dysfunction"; 직접 임상 결과 논문 없음)
+ - [x] cocoa — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 458편 -->
+ - [x] cocoa — Nonalcoholic Fatty Liver Disease에 듣는다  <!-- 시험 6건 · 논문 34편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+ - [x] allopurinol — Renal Stones에 듣는다  <!-- 시험 5건 · 논문 409편 -->
+ - [x] allopurinol — Obesity에 듣는다  <!-- 시험 4건 · 논문 167편 --> — 근거 없음(2026-08-08, allopurinol AND Obesity; 직접 치료 결과 논문 없음)
+ - [x] allopurinol — Coronary Artery Disease에 듣는다  <!-- 시험 4건 · 논문 117편 -->
+ - [x] aliskiren — Diabetes에 듣는다  <!-- 시험 20건 · 논문 335편 -->
+ - [x] aliskiren — Heart Failure에 듣는다  <!-- 시험 15건 · 논문 195편 -->
+ - [x] aliskiren — Kidney Disease에 듣는다  <!-- 시험 8건 · 논문 325편 -->
+ - [x] amlodipine — Stroke에 듣는다  <!-- 시험 8건 · 논문 414편 -->
+ - [x] amlodipine — Cardiovascular Events에 듣는다  <!-- 시험 8건 · 논문 621편 -->
+ - [x] amlodipine — Graft Failure에 듣는다  <!-- 시험 6건 · 논문 33편 --> — 근거 없음(2026-08-08, amlodipine AND "Graft Failure"; 직접 결과 논문 없음)
+ - [x] amlodipine — Dyslipidemias에 듣는다  <!-- 시험 5건 · 논문 213편 --> — 근거 없음(2026-08-08, amlodipine AND Dyslipidemias; amlodipine 단독 결과 논문 없음)
+ - [x] atenolol — Angina에 듣는다  <!-- 시험 5건 · 논문 456편 --> — 허가 적응증(2026-08-08)
+ - [x] atenolol — Coronary Disease에 듣는다  <!-- 시험 3건 · 논문 559편 -->
+ - [x] atenolol — Cardiac Disease에 듣는다  <!-- 시험 3건 · 논문 2144편 -->
+ - [x] atenolol — Migraine Disorders에 듣는다  <!-- 시험 3건 · 논문 46편 -->
+ - [x] clomipramine — Obsessive Compulsive Disorder에 듣는다  <!-- 시험 5건 · 논문 890편 --> — 허가 적응증(2026-08-08)
