@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 354 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures, and tightened 20 legacy sentences; local build generated 4273 entries and 5923 refs with no new actionable line/effect/known/scale warning; two batch 341 thin-study warnings are truthful and one older dolutegravir English warning remains",
+    "build": "passed; batch 355 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures, and tightened 20 legacy sentences; local build generated 4273 entries and 5923 refs with no new actionable line/effect/known/scale warning; two batch 341 thin-study warnings are truthful and one older dolutegravir English warning remains",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 1,
@@ -67,7 +67,7 @@
   "last_entry_count": 4273,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-    "deployment_state": "batch 349 automatic Git deployment matched the local build at 4273 entries/4278 id fields",
+    "deployment_state": "batch 355 automatic Git deployment matched the local build at 4273 entries/4278 id fields and 5923 refs",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-09",
     "local_entry_count": 4273,
@@ -75,19 +75,24 @@
         "public_entry_count": 4273,
         "public_id_field_count": 4278,
   "counts_match": true,
-    "latest_note": "Batch 349 six-round check returned HTTP 200; automatic Git deployment caught up and public/local counts matched at 4273 entries and 4278 id fields, so vercel --prod was not required.",
+    "latest_note": "Batch 355 six-round check returned HTTP 200; automatic Git deployment caught up and public/local counts matched at 4273 entries, 4278 id fields, and 5923 refs, so vercel --prod was not required.",
     "six_round_check": {
-      "batches": "344-349",
+    "batches": "350-355",
       "http_status": 200,
       "no_effect_or_harm_share": "23%",
       "harm": 127,
       "non_trial": 594,
       "unexpected_benefit_entries": 25,
       "local_entry_count": 4273,
-      "public_entry_count": 4273,
-      "local_id_field_count": 4278,
-      "public_id_field_count": 4278,
-      "automatic_deployment_lag_entries": 0,
+    "public_entry_count": 4273,
+    "local_id_field_count": 4278,
+    "public_id_field_count": 4278,
+    "local_ref_count": 5923,
+    "public_ref_count": 5923,
+    "automatic_deployment_lag_entries": 0,
+    "trial_share": "86.1%",
+    "non_trial_share": "13.9%",
+    "null_harm_share": "23.2%",
       "vercel_prod_required": false,
       "vercel_prod_deployment_id": null
     },
@@ -1554,8 +1559,12 @@
     "batch 354 tightened 20 legacy sentences across CBASP, social-skills training, cognitive-behavioral stress management, insomnia therapy, and psychosis therapy entries; numbers, effects, and sample sizes were preserved",
     "batch 354 build generated 4273 entries and 5923 refs; trial 3679, obs 527, animal 23, lab 11, case 33, no-effect/harm 990 (23%), harm 127, unknown_n 360, known 2, thin 796, line 0, effect 0, scale 0, English 1; no new actionable warning and the two batch 341 thin-study warnings are truthful",
     "batch 354 legacy wording commit c50312c was pushed to origin/main; public remains matched to local at the batch 349 six-round check with 4273 entries/4278 id fields; untracked build-batch283.log and pnpm-lock.yaml were left untouched",
-    "batch 355 next: 30 unchecked topics remain; start with git pull --ff-only and AGENTS.md, keep oncology/failure lines held, continue the legacy wording queue, then run the scheduled six-round deployment check"
+    "batch 355 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; no API research was run",
+    "batch 355 tightened 20 legacy sentences across cognitive-behavioral therapy, cognitive-bias modification, cognitive-control and flexibility training, cognitive processing, reappraisal, and rehabilitation entries; numbers, effects, and sample sizes were preserved",
+    "batch 355 build generated 4273 entries and 5923 refs; trial 3679, obs 527, animal 23, lab 11, case 33, no-effect/harm 990 (23%), harm 127, unknown_n 360, known 2, thin 796, line 0, effect 0, scale 0, English 1; no new actionable warning and the two batch 341 thin-study warnings are truthful",
+    "batch 355 legacy wording commit caf6581 was pushed to origin/main; six-round deployment check returned HTTP 200 and automatic Git deployment matched local/public at 4273 entries/4278 id fields and 5923 refs; vercel --prod was not required; untracked build-batch283.log and pnpm-lock.yaml were left untouched",
+    "batch 356 next: 30 unchecked topics remain; start with git pull --ff-only and AGENTS.md, keep oncology/failure lines held, and continue the legacy wording queue"
   ],
-  "current_batch": "batch 354 committed and pushed as c50312c; 4273 entries/5923 refs, 0 evidence entries, 0 no-evidence closures, 0 duplicates, and 20 legacy sentence edits; 30 unchecked topics remain; public remains matched to local at 4273 entries/4278 id fields",
-  "next_action": "start batch 355 with git pull --ff-only and AGENTS.md; 30 unchecked topics remain, all oncology holds or exhausted lookup failures, continue the legacy wording queue, then run the scheduled six-round deployment check"
+  "current_batch": "batch 355 committed and pushed as caf6581; 4273 entries/5923 refs, 0 evidence entries, 0 no-evidence closures, 0 duplicates, and 20 legacy sentence edits; six-round deployment check passed with public/local matched; 30 unchecked topics remain",
+  "next_action": "start batch 356 with git pull --ff-only and AGENTS.md; 30 unchecked topics remain, all oncology holds or exhausted lookup failures, so continue the legacy wording queue and rebuild"
 }
