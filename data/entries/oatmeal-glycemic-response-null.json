@@ -1,0 +1,33 @@
+{
+  "id": "oatmeal-glycemic-response-null",
+  "subj": "oatmeal",
+  "claim": "제2형 당뇨병에서 인스턴트 오트밀은 고단백 저지방 쉐이크보다 식후 혈당 반응을 낮추지 못했다",
+  "line": "인스턴트 오트밀보다 단백질 쉐이크가 식후 혈당을 낮췄습니다.",
+  "effect": "쉐이크가 오트밀보다 pAUC 낮음(P=.021)",
+  "tier": "trial",
+  "dir": "null",
+  "n": 24,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식품 비교 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "제2형 당뇨병 성인에게 고단백 저지방 당뇨병 맞춤 영양 쉐이크와 같은 열량의 인스턴트 오트밀을 무작위 교차 비교했습니다.",
+  "saw": "제2형 당뇨병 성인 24명이 두 시험일에 두 식사를 각각 받았습니다. 쉐이크는 오트밀보다 glucose pAUC가 낮았고(P=.021), GLP-1 pAUC는 213% 높았으며(P<.001) insulin pAUC도 높았습니다(P=.033).",
+  "limit": "한 끼 식사의 24명 교차시험이라 일반 오트밀·장기 혈당조절·식사 순응도에 일반화할 수 없습니다.",
+  "against": "오트밀 자체의 장기 효과를 비교한 시험이 아니며 단백질 쉐이크가 더 나았다는 결과를 모든 식사에 적용할 수 없습니다.",
+  "use": "제2형 당뇨병에서 식사 대체품의 식후 혈당을 비교할 때 오트밀 대조 신호로만 사용합니다.",
+  "refs": [
+    {
+      "label": "Postprandial glycemic response to a high-protein diabetes-specific nutritional shake compared to isocaloric instant oatmeal 2024 · Front Clin Diabetes Healthc · 무작위 교차시험",
+      "doi": "10.3389/fcdhc.2024.1399410",
+      "pmid": "38903056",
+      "pmc": "PMC11188454"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "oatmeal AND Glycemic Response · 11건, 직접 중재명 5건",
+    "pubmed": "\"oatmeal\" AND \"Glycemic Response\" · 12편",
+    "negative": "\"oatmeal\" AND \"Glycemic Response\" AND (no effect OR did not OR failed to OR negative OR no significant difference) · 9편",
+    "safety": "\"oatmeal\" AND (adverse OR toxicity OR case report OR harm OR overdose OR self-medication) · 74편"
+  }
+}

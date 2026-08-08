@@ -17768,9 +17768,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] proprioceptive exercise — Stroke에 듣는다  <!-- 시험 19건 · 논문 1229편 --> — 항목 생성(2026-08-08)
 - [x] proprioceptive exercise — Knee Injuries에 듣는다  <!-- 시험 14건 · 논문 423편 --> — 항목 생성(2026-08-08)
 - [x] proprioceptive exercise — Cerebral Palsy에 듣는다  <!-- 시험 14건 · 논문 265편 --> — 근거 없음(2026-08-08, "proprioceptive exercise" AND "Cerebral Palsy"; PubMed 직접 결과 0편)
-- [ ] proprioceptive exercise — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 2717편 -->
-- [ ] circuit training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 84편 -->
-- [ ] circuit training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 20편 -->
+- [x] proprioceptive exercise — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 2717편 --> — 항목 생성(2026-08-08)
+- [x] circuit training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 84편 --> — 항목 생성(2026-08-08)
+- [x] circuit training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 20편 --> — 항목 생성(2026-08-08)
 - [ ] circuit training — Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 -->
-- [ ] circuit training — Obesity에 듣는다  <!-- 시험 6건 · 논문 139편 -->
-- [ ] laughter yoga — Self에 듣는다  <!-- 시험 5건 · 논문 100편 -->
+- [x] circuit training — Obesity에 듣는다  <!-- 시험 6건 · 논문 139편 --> — 항목 생성(2026-08-08)
+- [x] laughter yoga — Self에 듣는다  <!-- 시험 5건 · 논문 100편 --> — 항목 생성(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] oatmeal — Atopic Dermatitis에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 항목 생성(2026-08-08)
+- [x] oatmeal — Eczema에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 중복(2026-08-08, oatmeal — Atopic Dermatitis와 같은 콜로이드 오트밀 피부 중재 주제)
+- [x] oatmeal — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 항목 생성(2026-08-08)
+- [x] oatmeal — Glycemic Response에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 항목 생성(2026-08-08)
+- [x] walking — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 2905편 --> — 근거 없음(2026-08-08, "walking" AND "Cognitive Change"; 직접 걷기 중재 결과 없음, PubMed는 관찰·복합운동 중심)
+- [x] walking — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 612편 --> — 근거 없음(2026-08-08, "walking" AND "Coronary Artery Disease"; 직접 걷기 시험은 결과 미보고 등록 또는 관찰 연구)
+- [x] walking — Hip Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 1892편 --> — 항목 생성(2026-08-08)
+- [x] walking — Exercise에 듣는다  <!-- 시험 5건 · 논문 72151편 --> — 근거 없음(2026-08-08, "walking" AND "Exercise"; 직접 걷기 결과는 다른 질환·복합운동 또는 등록 프로토콜)

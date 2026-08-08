@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4120,
+  "entries": 4129,
   "worklist": {
-    "total": 13759,
-    "checked": 13745,
-    "unchecked": 14,
-    "no_evidence_pending": 1578,
+    "total": 13767,
+    "checked": 13758,
+    "unchecked": 9,
+    "no_evidence_pending": 1581,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -16,16 +16,11 @@
       "resistance band exercise — Cancer에 듣는다 (항암 주제 보류)",
       "olive oil — Stomach Cancer에 듣는다 (항암 주제 보류)",
       "green tea — Precancerous Condition에 듣는다 (항암 주제 보류)",
-      "proprioceptive exercise — Muscle Strength에 듣는다",
-      "circuit training — Diabetes에 듣는다",
-      "circuit training — Multiple Sclerosis에 듣는다",
-      "circuit training — Cancer에 듣는다 (항암 주제 보류)",
-      "circuit training — Obesity에 듣는다",
-      "laughter yoga — Self에 듣는다"
+      "circuit training — Cancer에 듣는다 (항암 주제 보류)"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 310 ran two different 20-name non-drug expansion attempts, added 1 candidate on the first attempt and 27 on the second, added 15 evidence entries, closed 3 duplicate topics and 4 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4120 entries and 5720 refs with no new actionable line/effect/known/scale/English warnings; new thin and unknown-n warnings are truthful",
+    "build": "passed with pre-existing warnings; batch 311 ran two different 20-name non-drug food and lifestyle expansion attempts, added 0 candidates on the first attempt and 8 on the second, added 9 evidence entries, closed 1 duplicate and 3 no-evidence topics, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4129 entries and 5730 refs with no new actionable line/effect/known/scale/English warnings; new thin-study warnings are truthful",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -33,33 +28,33 @@
     "unknown_n_warnings": 350,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3558,
+      "trial": 3567,
       "obs": 497,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 968,
+    "no_effect_or_harm": 970,
     "harm": 121,
     "no_effect_or_harm_share": "23%",
     "non_trial": 562,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5720,
-    "thin_warnings": 748
+    "connected_evidence": 5730,
+    "thin_warnings": 753
   },
   "deployment": {
-    "last_entry_count": 4120,
+    "last_entry_count": 4129,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 310 local build has 4120 entries and 4125 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
+    "deployment_state": "batch 311 local build has 4129 entries and 4134 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4120,
-    "local_id_field_count": 4125,
+    "local_entry_count": 4129,
+    "local_id_field_count": 4134,
     "public_entry_count": 4094,
     "public_id_field_count": 4099,
     "counts_match": false,
-    "latest_note": "Batch 310 local build has 4120 entries and 4125 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
+    "latest_note": "Batch 311 local build has 4129 entries and 4134 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
     "six_round_check": {
       "batches": "302-307",
       "http_status": 200,
@@ -332,7 +327,13 @@
     "batch 310 closed dual-task training Multiple Sclerosis and Balance plus perturbation training Falling as duplicates; closed isometric Rotator Cuff Tear, isometric Gluteal Tendinitis, eccentric Sports Level 1, and proprioceptive exercise Cerebral Palsy as no-evidence; 6 new non-oncology topics remain for batch 311",
     "batch 310 tightened 20 legacy sentences from home-blood-pressure-monitoring-cardiovascular-health-null through hope-therapy-stress-dialysis-pos; numbers, effects, and sample sizes were preserved",
     "batch 310 build generated 4120 entries and 5720 refs; trial 3558, obs 497, animal 22, lab 11, case 32, no-effect/harm 968 (23%), harm 121, unknown_n 350, known 2, thin 748; no new actionable line/effect/known/scale/English warning; new thin-study and unknown-n warnings are truthful",
-    "batch 310 deployment remains pending the next six-round check after batch 313: local 4120 entries/4125 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
+    "batch 310 deployment remains pending the next six-round check after batch 313: local 4120 entries/4125 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check",
+    "batch 311 expansion attempt one used 20 fresh food and supplement names and added 0 candidates; attempt two used 20 different food and lifestyle names and added 8 candidates, below 10, so no third expansion was run",
+    "batch 311 processed 13 non-oncology topics: added 9 evidence entries, closed oatmeal Eczema as a duplicate and walking Cognitive Change/Coronary Artery Disease/Exercise as no-evidence, held 9 oncology topics without API research, and skipped 0 approved indications",
+    "batch 311 evidence entries: oatmeal-atopic-dermatitis-pos, oatmeal-diabetes-mellitus-pos, oatmeal-glycemic-response-null, walking-hip-osteoarthritis-pos, proprioceptive-exercise-muscle-strength-null, circuit-training-diabetes-pos, circuit-training-multiple-sclerosis-pos, circuit-training-obesity-pos, laughter-yoga-self-care-pos",
+    "batch 311 tightened 20 legacy sentences from hope-therapy-stress-pos through hydroxychloroquine-hiv-infection-harm; numbers, effects, and sample sizes were preserved",
+    "batch 311 build generated 4129 entries and 5730 refs; trial 3567, obs 497, animal 22, lab 11, case 32, no-effect/harm 970 (23%), harm 121, unknown_n 350, known 2, thin 753; no new actionable line/effect/known/scale/English warning; five new thin-study warnings are truthful",
+    "batch 311 deployment remains pending the next six-round check after batch 313: local 4129 entries/4134 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
   "expansion": {
     "date": "2026-08-08",
@@ -1168,6 +1169,6 @@
     "batch 309 build generated 4105 entries and 5705 refs; trial 3544, obs 496, animal 22, lab 11, case 32, no-effect/harm 963 (23%), harm 119, unknown_n 349, known 2, thin 740; no new actionable line/effect/known/scale/English warning; four truthful thin-study warnings remain for new small human trials",
     "batch 309 public deployment is pending the next six-round check after batch 313: local 4105 entries/4110 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
-  "current_batch": "batch 310 complete; 15 evidence entries, 3 duplicate closures, 4 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4120 entries/4125 id fields, public last verified 4094 entries/4099 id fields; 14 unchecked topics remain",
-  "next_action": "start batch 311; hold the 8 oncology topics, process the 6 new non-oncology topics, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
+  "current_batch": "batch 311 complete; 9 evidence entries, 1 duplicate closure, 3 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local 4129 entries/4134 id fields, public last verified 4094 entries/4099 id fields; 9 unchecked topics remain",
+  "next_action": "start batch 312; hold the 9 oncology topics, do not expand while the queue is oncology-only, and run the next six-round public deployment check after batch 313"
 }
