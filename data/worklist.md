@@ -17046,3 +17046,50 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sustainable diet — Dietary Fibers에 듣는다  <!-- 시험 4건 · 논문 754편 -->
 - [x] sustainable diet — Behavior Change에 듣는다  <!-- 시험 4건 · 논문 1324편 -->
 - [x] sustainable diet — Obesity에 듣는다  <!-- 시험 3건 · 논문 3687편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] low meat diet — Obesity에 듣는다  <!-- 시험 9건 · 논문 729편 -->
+- [x] low meat diet — PreDiabetes에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 근거 없음(2026-08-08 조회, low meat diet AND PreDiabetes; 직접 사람 중재 결과 없음)
+- [x] low meat diet — Overweight에 듣는다  <!-- 시험 5건 · 논문 509편 --> — 근거 없음(2026-08-08 조회, low meat diet AND Overweight; 직접 사람 중재 결과 없음)
+- [x] low meat diet — Hypertension에 듣는다  <!-- 시험 4건 · 논문 308편 --> — 근거 없음(2026-08-08 조회, low meat diet AND Hypertension; 직접 사람 중재 결과 없음)
+- [x] plant rich diet — Diabetes에 듣는다  <!-- 시험 18건 · 논문 2935편 -->
+- [x] plant rich diet — Diet에 듣는다  <!-- 시험 14건 · 논문 20567편 --> — 근거 없음(2026-08-08 조회, plant rich diet AND Diet; 해당 조합의 직접 사람 중재 결과 없음)
+- [ ] plant rich diet — Cancer에 듣는다  <!-- 시험 11건 · 논문 2811편 -->
+- [x] plant rich diet — Kidney Function에 듣는다  <!-- 시험 11건 · 논문 479편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] climate diet — Organic Food에 듣는다  <!-- 시험 3건 · 논문 183편 --> — 근거 없음(2026-08-08 조회, climate diet AND Organic Food; 직접 사람 중재 결과 없음)
+- [x] meat reduction — Lipid Metabolism Disorders에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-08 조회, meat reduction AND Lipid Metabolism Disorders; 직접 사람 중재 결과 없음)
+- [x] red meat reduction — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [x] whole food plant based diet — Obesity에 듣는다  <!-- 시험 4건 · 논문 201편 --> — 근거 없음(2026-08-08 조회, whole food plant based diet AND Obesity; 직접 사람 중재 결과 없음)
+- [x] whole food plant based diet — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 122편 -->
+- [ ] active lifestyle — Cancer에 듣는다  <!-- 시험 6건 · 논문 12235편 -->
+- [x] active lifestyle — Sedentary Lifestyle에 듣는다  <!-- 시험 4건 · 논문 21604편 -->
+- [x] active lifestyle — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 79736편 -->
+- [x] active lifestyle — Stress에 듣는다  <!-- 시험 3건 · 논문 12006편 -->
+- [x] play based exercise — Motor Activity에 듣는다  <!-- 시험 7건 · 논문 2511편 -->
+- [x] play based exercise — Child Obesity에 듣는다  <!-- 시험 6건 · 논문 323편 -->
+- [x] play based exercise — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 79편 -->
+- [ ] play based exercise — Pediatric Cancer에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [x] dance movement — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 198편 -->
+- [x] dance movement — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 1796편 -->
+- [x] dance movement — Pain에 듣는다  <!-- 시험 10건 · 논문 270편 -->
+- [x] dance movement — Dementia에 듣는다  <!-- 시험 8건 · 논문 110편 -->
+- [x] gardening group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 204편 -->
+- [x] gardening group — Stress에 듣는다  <!-- 시험 3건 · 논문 878편 -->
