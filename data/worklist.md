@@ -16737,3 +16737,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] virtual museum — Anxiety에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 항목 생성(virtual-museum-anxiety-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mobile art therapy — Substance Use에 듣는다  <!-- 시험 6건 · 논문 29편 --> — 근거 없음(2026-08-08, mobile art therapy AND Substance Use; 직접 일치 결과 논문 없음)
+- [ ] digital pet therapy — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 877편 -->
+- [x] remote social support — Hypertension에 듣는다  <!-- 시험 3건 · 논문 97편 --> — 근거 없음(2026-08-08, remote social support AND Hypertension; 직접 일치 결과 논문 없음)
+- [x] remote social support — Knowledge Assessment에 듣는다  <!-- 시험 3건 · 논문 287편 --> — 근거 없음(2026-08-08, remote social support AND Knowledge Assessment; 직접 일치 결과 논문 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] smartphone breathing app — Anxiety에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(smartphone-breathing-app-anxiety-open)
+- [x] virtual support group — Pain에 듣는다  <!-- 시험 20건 · 논문 549편 --> — 근거 없음(2026-08-08, virtual support group AND Pain; 직접 일치 결과 논문 없음)
+- [ ] virtual support group — Cancer에 듣는다  <!-- 시험 19건 · 논문 1128편 -->
+- [x] virtual support group — Stress에 듣는다  <!-- 시험 14건 · 논문 642편 --> — 근거 없음(2026-08-08, virtual support group AND Stress; 직접 일치 결과 논문 없음)
+- [x] virtual support group — Education에 듣는다  <!-- 시험 14건 · 논문 3004편 --> — 항목 생성(virtual-support-group-education-open)
+- [x] peer phone support — Drug Use에 듣는다  <!-- 시험 15건 · 논문 283편 --> — 항목 생성(peer-phone-support-drug-use-open)
+- [x] peer phone support — Diabetes에 듣는다  <!-- 시험 14건 · 논문 216편 --> — 항목 생성(peer-phone-support-diabetes-pos)
+- [x] peer phone support — Depression에 듣는다  <!-- 시험 12건 · 논문 331편 --> — 근거 없음(2026-08-08, peer phone support AND Depression; 직접 일치 결과 논문 없음)
+- [ ] peer phone support — Cancer에 듣는다  <!-- 시험 9건 · 논문 344편 -->
+- [x] digital exercise coaching — Obesity에 듣는다  <!-- 시험 8건 · 논문 44편 --> — 근거 없음(2026-08-08, digital exercise coaching AND Obesity; 직접 일치 결과 논문 없음)
+- [x] digital exercise coaching — Pre-diabetes에 듣는다  <!-- 시험 6건 · 논문 9편 --> — 항목 생성(digital-exercise-coaching-prediabetes-open)
+- [x] digital exercise coaching — Prevention에 듣는다  <!-- 시험 6건 · 논문 120편 --> — 항목 생성(digital-exercise-coaching-prevention-pos)

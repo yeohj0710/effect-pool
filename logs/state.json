@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3857,
+  "entries": 3863,
   "worklist": {
-    "total": 13262,
-    "checked": 13253,
-    "unchecked": 9,
-    "no_evidence_pending": 1405,
+    "total": 13278,
+    "checked": 13266,
+    "unchecked": 12,
+    "no_evidence_pending": 1412,
     "next_batch": [
       "positive activity intervention — Cancer",
       "yoga therapy — Cancer",
@@ -16,17 +16,20 @@
       "telephone support — Breast Carcinoma",
       "music listening therapy — Cancer",
       "peer support navigation — Breast Cancer",
-      "smartphone sleep intervention — Cancer"
+      "smartphone sleep intervention — Cancer",
+      "digital pet therapy — Breast Carcinoma",
+      "virtual support group — Cancer",
+      "peer phone support — Cancer"
     ]
   },
   "verification": {
-    "build": "passed; batch 266 used two different 20-name expansion attempts, adding 1 candidate; the new virtual museum Anxiety topic produced 1 evidence entry, 9 oncology topics remained held, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings remain after shortening two legacy lines; existing unknown-n and truthful thin-study warnings remain",
+    "build": "passed with pre-existing warnings; batch 267 used two different 20-name expansion attempts, processed 13 non-oncology topics, added 6 evidence entries, marked 7 no-evidence topics, held 12 oncology topics, and tightened 20 legacy sentences; local build generated 3863 entries and 5443 refs with no new actionable warnings",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3333,
-      "obs": 459,
+      "trial": 3337,
+      "obs": 461,
       "animal": 22,
       "lab": 11,
       "case": 32
@@ -34,23 +37,23 @@
     "no_effect_or_harm": 911,
     "harm": 118,
     "no_effect_or_harm_share": "24%",
-    "non_trial": 524,
+    "non_trial": 526,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5437,
+    "connected_evidence": 5443,
     "thin_warnings": 659
   },
   "deployment": {
-    "last_entry_count": 3857,
+    "last_entry_count": 3863,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_6vunzok5BmqjLimW1Xbnc7zfHoYo",
-    "deployment_state": "batch 266 local build has 3857 entries and 5437 refs; public last verified at 3856 after the six-round check for batches 260-265",
+    "deployment_state": "batch 267 local build has 3863 entries and 5443 refs; public last verified at 3856 after the six-round check for batches 260-265",
     "deployment_url": "https://offlabel-pool-gt4vdmod5-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3857,
+    "local_entry_count": 3863,
     "public_entry_count": 3856,
     "public_id_field_count": 3861,
-    "counts_match": true,
-    "latest_note": "Batch 266 local build: 3857 entries and 5437 refs; public last verified 3856 after the six-round check for batches 260-265.",
+    "counts_match": false,
+    "latest_note": "Batch 267 local build: 3863 entries and 5443 refs; public last verified 3856 after the six-round check for batches 260-265.",
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
@@ -244,10 +247,11 @@
     "batch 262: 10 evidence entries added and 3 no-evidence topics marked; music listening therapy, telehealth group therapy, and xylitol supplied the entries",
     "batch 262: 20 legacy sentences tightened from cognitive-behavioral-therapy-for-insomnia-depression-pos through cognitive-processing-therapy-depression-pos; numbers and effect fields were preserved",
     "batch 262 build passed after shortening 3 legacy lines and removing four xylitol English labels; two truthful thin-study warnings remain for the 30- and 33-person studies; local build is 3825 and public remains 3797 until the six-round check after batch 265",
-    "batch 263 expansion: first 20-name branch added 7 candidates; second different branch added 25 candidates; both branches included at least 5 non-drug names, 30 topics were selected, and 16 unchecked topics remain",
-    "batch 263 processed 23 non-oncology topics; added 14 evidence entries, marked 9 topics as no-evidence, and kept the 7 existing oncology topics held",
-    "batch 263 added antigravity-treadmill-osteoarthritis-pos, four compassion-training entries, saffron-extract-depression-pos, two aerobic-dance entries, two guided-breathing-exercise entries, and four mindfulness-walking entries",
-    "batch 263 tightened 20 legacy sentences from cognitive-processing-therapy-ptsd-pos through cognitive-therapy-for-suicide-prevention-psychosis-null; numbers, effects, and sample sizes were preserved; build passed with one new truthful thin-study warning and no new actionable warnings; local build is 3839 and public remains 3797 until the six-round check after batch 265"
+    "batch 267 expansion branch one used 20 names and added 4 candidates; branch two used a different 20 names and added 12 candidates; both branches included non-drug names and oncology candidates were held",
+    "batch 267 processed 13 non-oncology topics; added 6 evidence entries, marked 7 topics as no-evidence, and held 12 oncology topics without API research",
+    "batch 267 added smartphone-breathing-app-anxiety-open, virtual-support-group-education-open, peer-phone-support-drug-use-open, peer-phone-support-diabetes-pos, digital-exercise-coaching-prediabetes-open, and digital-exercise-coaching-prevention-pos",
+    "batch 267 tightened 20 legacy sentences from compassion-meditation-depression-pos through constraint-induced-movement-therapy-hemiparesis-pos; numbers, effects, and sample sizes were preserved",
+    "batch 267 build generated 3863 entries and 5443 refs; no new actionable warnings appeared, while the existing known and thin-study warnings remain"
   ],
   "expansion": {
     "date": "2026-08-08",
@@ -927,6 +931,6 @@
     "batch 266 processed the 1 new non-oncology topic; added virtual-museum-anxiety-pos, left the 9 oncology topics held and unchecked, and tightened 20 legacy sentences; local build 3857 and public last verified 3856",
     "batch 266 added virtual-museum-anxiety-pos from a randomized hemodialysis anxiety trial; no new actionable warnings remain"
   ],
-  "current_batch": "batch 266 complete locally; 1 evidence entry, 9 oncology topics held; 9 unchecked topics remain; local 3857; public last verified 3856",
-  "next_action": "commit and push batch 266; immediately start batch 267 with git pull --ff-only, read AGENTS.md, expand with non-drug names if needed, and keep oncology holds out of API research"
+  "current_batch": "batch 267 complete locally; 6 evidence entries, 7 no-evidence topics, 12 oncology topics held; 12 unchecked topics remain; local 3863; public last verified 3856",
+  "next_action": "commit and push batch 267; immediately start batch 268 with git pull --ff-only, read AGENTS.md, expand with non-drug names if needed, and keep oncology holds out of API research"
 }
