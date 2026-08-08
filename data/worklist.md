@@ -17125,3 +17125,37 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] active video play — Breast Cancer에 듣는다 — 근거 없음(2026-08-08 조회, active video play AND Breast Cancer; 직접 사람 중재 결과 없음)  <!-- 시험 4건 · 논문 18편 -->
 - [x] active video play — Cognitive Aging에 듣는다 — entries/active-video-play-cognitive-aging-pos.json로 처리(2026-08-08)  <!-- 시험 4건 · 논문 110편 -->
 - [x] active video play — Health Behavior에 듣는다 — entries/active-video-play-health-behavior-pos.json로 처리(2026-08-08)  <!-- 시험 4건 · 논문 1163편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] park exercise — Mental Health에 듣는다 — 근거 있음(2026-08-08, PMID 40909368)  <!-- 시험 4건 · 논문 905편 -->
+- [x] rhythmic walking — Parkinson Disease에 듣는다 — 근거 있음(2026-08-08, PMID 40301366)  <!-- 시험 6건 · 논문 245편 -->
+- [x] rhythmic walking — Traumatic Brain Injury에 듣는다 — 근거 있음(2026-08-08, PMID 33095230)  <!-- 시험 4건 · 논문 12편 -->
+- [x] rhythmic walking — Multiple Sclerosis에 듣는다 — 근거 있음(2026-08-08, PMID 20643882)  <!-- 시험 3건 · 논문 30편 -->
+- [x] rhythmic walking — Cerebral Palsy에 듣는다 — 근거 있음(2026-08-08, PMID 32356332)  <!-- 시험 3건 · 논문 26편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] group percussion — Neck Pain에 듣는다 — 근거 없음(2026-08-08 조회, group percussion AND Neck Pain; 직접 집단 퍼커션 중재 결과 없음)  <!-- 시험 3건 · 논문 11편 -->
+- [x] group percussion — Music Therapy에 듣는다 — 근거 있음(2026-08-08, PMID 41201551)  <!-- 시험 3건 · 논문 20편 -->
+- [x] mindful stretching — Stress에 듣는다 — 근거 있음(2026-08-08, PMID 40614537)  <!-- 시험 6건 · 논문 28편 -->
+- [x] mindful stretching — Pain에 듣는다 — 근거 있음(2026-08-08, PMID 36180155)  <!-- 시험 6건 · 논문 18편 -->
+- [x] mindful stretching — Depression에 듣는다 — 근거 있음(2026-08-08, PMID 41953822)  <!-- 시험 4건 · 논문 14편 -->
+- [x] rhythmic movement — Parkinson Disease에 듣는다 — 중복(2026-08-08, rhythmic walking — Parkinson Disease; 동일 RAS 보행 근거)  <!-- 시험 7건 · 논문 760편 -->
+- [x] rhythmic movement — Multiple Sclerosis에 듣는다 — 중복(2026-08-08, rhythmic walking — Multiple Sclerosis; 동일 RAS 보행 근거)  <!-- 시험 3건 · 논문 80편 -->
+- [x] rhythmic movement — Ankle Sprain에 듣는다 — 근거 없음(2026-08-08 조회, rhythmic movement AND Ankle Sprain; 직접 리듬 운동 중재 결과 없음)  <!-- 시험 3건 · 논문 29편 -->
+- [x] social cooking — Malnutrition에 듣는다 — 근거 없음(2026-08-08 조회, social cooking AND Malnutrition; 직접 사회적 요리 중재 결과 없음)  <!-- 시험 3건 · 논문 70편 -->
