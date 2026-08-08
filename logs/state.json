@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4007,
+  "entries": 4009,
   "worklist": {
-    "total": 13525,
-    "checked": 13525,
+    "total": 13533,
+    "checked": 13533,
     "unchecked": 0,
-    "no_evidence_pending": 1502,
+    "no_evidence_pending": 1505,
     "next_batch": [
 
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 288 added 1 evidence entry, processed 1 topic after two fresh non-drug expansions, and tightened 20 legacy sentences; local build generated 4007 entries and 5590 refs with no new actionable line/effect/known/scale/English warnings; pre-existing warnings remain",
+    "build": "passed with pre-existing warnings; batch 289 added 2 evidence entries, processed 8 topics after two fresh non-drug expansions, closed 3 duplicate/no-evidence topics, and tightened 20 legacy sentences; local build generated 4009 entries and 5592 refs with no new actionable line/effect/known/scale/English warnings; one truthful thin-study warning was added for the new n=30 soy trial",
     "line_warnings": 4,
     "effect_warnings": 1,
     "english_warnings": 3,
-    "scale_warnings": 0,
+    "scale_warnings": 5,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
@@ -29,24 +29,24 @@
     "no_effect_or_harm": 936,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 551,
+    "non_trial": 552,
     "unexpected_benefit_entries": 25,
     "connected_evidence": 5590,
-    "thin_warnings": 701
+    "thin_warnings": 702
   },
   "deployment": {
     "last_entry_count": 3981,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_ARKGnmhLchgAHHzfPEvdssnnfDGj",
-    "deployment_state": "batch 288 local build is 26 entries ahead of the last verified public build; public remains at 3981 until the six-round deployment check after batch 289",
+    "deployment_state": "batch 289 local build is 28 entries ahead of the last verified public build; public remains at 3981 until the six-round deployment check",
     "deployment_url": "https://offlabel-pool-e7jumlf0h-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4007,
-    "local_id_field_count": 4012,
+    "local_entry_count": 4009,
+    "local_id_field_count": 4014,
     "public_entry_count": 3981,
     "public_id_field_count": 3986,
     "counts_match": false,
-    "latest_note": "Batch 288 local build has 4007 entries and 4012 id fields; public remains the last verified 3981-entry build until the six-round check after batch 289.",
+    "latest_note": "Batch 289 local build has 4009 entries and 4014 id fields; public remains the last verified 3981-entry build until the six-round deployment check.",
     "six_round_check": {
       "batches": "278-283",
       "http_status": 200,
@@ -1028,8 +1028,15 @@
     "batch 288 processed 1 non-oncology topic; added 1 evidence entry, closed 0 topics, skipped 0 approved indications, and held 0 oncology topics",
     "batch 288 tightened 20 legacy claims from exergaming-exercise through expressive-writing-psychological; four resulting overlong lines were shortened without changing numbers or effect fields",
     "batch 288 build generated 4007 entries and 5590 refs; trial 3456, obs 486, non-trial 551, no-effect/harm 936 (23%), harm 119, unknown_n 346, known 2, thin 701; no new actionable warning",
-    "batch 288 deployment remains pending the six-round check after batch 289: local 4007 entries/4012 id fields, public 3981/3986"
+    "batch 288 deployment remains pending the six-round check after batch 289: local 4007 entries/4012 id fields, public 3981/3986",
+    "batch 289 expansion attempt one used 20 fresh non-drug activity, environment, and food names and added 4 candidates",
+    "batch 289 expansion attempt two used 20 different non-drug activity, environment, and food names and added 4 candidates; no third expansion was run",
+    "batch 289 processed 8 non-oncology topics; added soy-food-consumption-overweight-open and wheat-consumption-obesity-open, closed 3 duplicate/no-evidence topics, and held 0 approved indications",
+    "batch 289 evidence entries: soy-food-consumption-overweight-open from PMID42451052 and wheat-consumption-obesity-open from PMID35734377",
+    "batch 289 tightened 20 legacy claims from expressive-writing-stress through famotidine-covid-19; numbers, effects, and sample sizes were preserved",
+    "batch 289 build generated 4009 entries and 5592 refs; trial 3457, obs 487, non-trial 552, no-effect/harm 936 (23%), harm 119, unknown_n 346, known 2, thin 702; no new actionable line/effect/known/scale/English warning",
+    "batch 289 deployment check is due after commit/push: local 4009 entries/4014 id fields, public 3981/3986"
   ],
-  "current_batch": "batch 288 complete locally; 1 evidence entry, 0 closures, and 20 legacy sentence edits after two fresh non-drug expansions; local 4007 and public remains 3981; worklist is empty",
-  "next_action": "commit and push batch 288; immediately start batch 289 with git pull --ff-only and AGENTS.md; run expand-worklist --covered and fresh non-drug expansions, then process up to 30 new non-oncology topics; after the batch run the six-round deployment check"
+  "current_batch": "batch 289 complete locally; 2 evidence entries, 3 duplicate/no-evidence closures, and 20 legacy sentence edits after two fresh non-drug expansions; local 4009 and public remains 3981; worklist is empty",
+  "next_action": "commit and push batch 289; run the due six-round deployment check and vercel --prod if public counts differ; then immediately start batch 290 with git pull --ff-only and AGENTS.md"
 }
