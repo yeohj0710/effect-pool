@@ -16543,3 +16543,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] internet-based self-help — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 20편 -->
 - [x] virtual reality biofeedback — Biofeedback에 듣는다  <!-- 시험 3건 · 논문 736편 -->
 - [x] virtual reality biofeedback — Chronic Headache에 듣는다 — 근거 없음(2026-08-08, virtual reality biofeedback AND Chronic Headache; 등록정보만 있고 결과 논문 없음)  <!-- 시험 3건 · 논문 8편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] telephone support — Depression에 듣는다  <!-- 시험 7건 · 논문 5072편 -->
+- [x] telephone support — Obesity에 듣는다  <!-- 시험 7건 · 논문 1884편 -->
+- [x] telephone support — Tobacco Use에 듣는다  <!-- 시험 5건 · 논문 2094편 -->
+- [ ] telephone support — Breast Carcinoma에 듣는다  <!-- 시험 4건 · 논문 1549편 -->
+- [x] peer coaching — Family Health에 듣는다 — 근거 없음(2026-08-08, peer coaching AND Family Health; 직접 결과 없음)  <!-- 시험 18건 · 논문 421편 -->
+- [x] peer coaching — Obesity에 듣는다  <!-- 시험 11건 · 논문 103편 -->
+- [x] peer coaching — Autism Spectrum Disorder에 듣는다 — 근거 없음(2026-08-08, peer coaching AND Autism Spectrum Disorder; 직접 결과 없음)  <!-- 시험 7건 · 논문 43편 -->
+- [x] mindfulness-based childbirth education — Mindfulness에 듣는다  <!-- 시험 4건 · 논문 54편 -->
+- [x] mindfulness-based childbirth education — Family Health에 듣는다 — 근거 없음(2026-08-08, mindfulness-based childbirth education AND Family Health; 직접 결과 없음)  <!-- 시험 4건 · 논문 15편 -->
+- [x] mindfulness-based childbirth education — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 49편 -->
+- [x] propolis mouthwash — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [x] propolis mouthwash — Decay, Dental에 듣는다 — 근거 없음(2026-08-08, propolis mouthwash AND Decay, Dental; 직접 결과 없음)  <!-- 시험 3건 · 논문 22편 -->
