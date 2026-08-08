@@ -18475,3 +18475,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rhythmic auditory cueing — Stroke에 듣는다 — 항목 추가(rhythmic-auditory-cueing-stroke-pos, 2026-08-09)  <!-- 시험 6건 · 논문 58편 -->
 - [x] upper limb robotic training — Spinal Cord Injuries에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 26건·exact InterventionName 1건(NCT04041063)은 ACTIVE_NOT_RECRUITING 등록이고; PubMed exact 0건)  <!-- 시험 5건 · 논문 65편 -->
 - [x] upper limb robotic training — Cerebral Palsy에 듣는다 — 항목 추가(upper-limb-robotic-training-cerebral-palsy-pos, 2026-08-09)  <!-- 시험 4건 · 논문 42편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] home spirometry — Asthma에 듣는다 — 항목 추가(home-spirometry-asthma-pos, 2026-08-09)  <!-- 시험 10건 · 논문 389편 -->
+- [ ] home spirometry — Lung Neoplasms에 듣는다  <!-- 시험 6건 · 논문 12편 -->
+- [x] home spirometry — Apnea, Sleep에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov query.intr=home spirometry&query.cond=Apnea, Sleep → 3건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 5건 · 논문 26편 -->
+- [x] home spirometry — COPD에 듣는다 — 항목 추가(home-spirometry-copd-open, 2026-08-09)  <!-- 시험 3건 · 논문 287편 -->
+- [x] digital inhaler — Chronic Obstructive Airway Disease에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov query.intr=digital inhaler&query.cond=Chronic Obstructive Airway Disease → 11건 반환·InterventionName 직접 일치 1건은 NCT07214337 NOT_YET_RECRUITING; PubMed RCT exact 0편)  <!-- 시험 5건 · 논문 368편 -->
+- [x] group cooking — Diabetes Mellitus에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 68건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 7건 · 논문 200편 -->
+- [ ] group cooking — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 73편 -->
+- [x] group cooking — Overweight에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 115건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 6건 · 논문 342편 -->
+- [x] group cooking — Hypertension에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 31건 반환·InterventionName 직접 일치 0건; PubMed exact 1편(PMID17987695)은 DASH 조리 모임의 개발·수용성 연구로 혈압 결과를 보고하지 않음)  <!-- 시험 4건 · 논문 211편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] smartphone app — Delivery Complication에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 36건 반환·InterventionName 직접 일치 2건; PubMed exact 0편)  <!-- 시험 4건 · 논문 157편 -->
+- [x] smartphone app — Behavior Change에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 210건 반환·InterventionName 직접 일치 6건; PubMed exact 171편 중 직접 smartphone app 행동변화 결과를 확인하지 못함)  <!-- 시험 3건 · 논문 3208편 -->
+- [x] smartphone app — Sleep에 듣는다 — 항목 추가(smartphone-app-sleep-pos, 2026-08-09)  <!-- 시험 3건 · 논문 1238편 -->
+- [x] smartphone app — Depression에 듣는다 — 항목 추가(smartphone-app-depression-pos, smartphone-app-depression-null, 2026-08-09)  <!-- 시험 3건 · 논문 1992편 -->
+- [x] mobile health app — Diabetes에 듣는다 — 항목 추가(mobile-health-app-diabetes-open, 2026-08-09)  <!-- 시험 21건 · 논문 1235편 -->
+- [x] mobile health app — Stress에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 165건 반환·InterventionName 직접 일치 2건; PubMed exact 44편 중 스트레스에 대한 직접 앱 결과를 확인하지 못함)  <!-- 시험 14건 · 논문 1267편 -->
+- [x] mobile health app — Mental Health에 듣는다 — 항목 추가(mobile-health-app-mental-health-pos, 2026-08-09)  <!-- 시험 14건 · 논문 2944편 -->
+- [x] mobile health app — Anxiety에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 136건 반환·InterventionName 직접 일치 2건; PubMed exact 33편 중 직접 불안 중재 결과는 기존 항목과 중복되거나 다른 증상 대상)  <!-- 시험 11건 · 논문 1326편 -->
+- [x] home spirometry monitoring — Asthma에 듣는다 — 항목 추가(home-spirometry-monitoring-asthma-open, 2026-08-09)  <!-- 시험 4건 · 논문 155편 -->
