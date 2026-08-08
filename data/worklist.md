@@ -16491,3 +16491,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] youth peer support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 4254편 -->
 - [x] youth peer support — HIV/AIDS에 듣는다 — 근거 없음(2026-08-08, youth peer support AND HIV/AIDS; 직접 결과 없음)  <!-- 시험 3건 · 논문 926편 -->
 - [x] youth peer support — Minority Health에 듣는다 — 근거 없음(2026-08-08, youth peer support AND Minority Health; 직접 결과 없음)  <!-- 시험 3건 · 논문 477편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] masitinib — Multiple Sclerosis에 듣는다 — 근거 없음(2026-08-08, masitinib AND Multiple Sclerosis; 직접 사람 중재 결과 없음)  <!-- 시험 4건 · 논문 22편 -->
+- [x] masitinib — Mastocytosis에 듣는다 — 근거 없음(2026-08-08, masitinib AND Mastocytosis; 직접 사람 중재 결과 없음)  <!-- 시험 4건 · 논문 37편 -->
+- [x] masitinib — Alzheimer Disease에 듣는다 — 근거 없음(2026-08-08, masitinib AND Alzheimer Disease; 직접 사람 중재 결과 없음)  <!-- 시험 3건 · 논문 33편 -->
+- [x] behavioral sleep coaching — Depression에 듣는다 — 근거 없음(2026-08-08, behavioral sleep coaching AND Depression; 직접 결과 없음)  <!-- 시험 3건 · 논문 145편 -->
+- [x] family art therapy — Substance Use에 듣는다 — 근거 없음(2026-08-08, family art therapy AND Substance Use; 직접 결과 없음)  <!-- 시험 3건 · 논문 171편 -->
+- [x] group nature therapy — Anxiety에 듣는다 — 근거 없음(2026-08-08, group nature therapy AND Anxiety; 직접 결과 없음)  <!-- 시험 6건 · 논문 3159편 -->
+- [x] group nature therapy — Depression에 듣는다 — 근거 없음(2026-08-08, group nature therapy AND Depression; 직접 결과 없음)  <!-- 시험 5건 · 논문 2997편 -->
+- [x] group nature therapy — Virtual Reality에 듣는다 — 근거 없음(2026-08-08, group nature therapy AND Virtual Reality; 직접 결과 없음)  <!-- 시험 4건 · 논문 242편 -->
+- [x] group nature therapy — Heart Failure에 듣는다 — 근거 없음(2026-08-08, group nature therapy AND Heart Failure; 직접 결과 없음)  <!-- 시험 3건 · 논문 754편 -->
+- [x] health literacy coaching — Diabetes에 듣는다 — 근거 없음(2026-08-08, health literacy coaching AND Diabetes; 직접 결과 없음)  <!-- 시험 5건 · 논문 61편 -->
+- [x] online behavioral activation — Anxiety에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Anxiety; 직접 결과 없음)  <!-- 시험 6건 · 논문 2246편 -->
+- [x] online behavioral activation — Mental Health Issue에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Mental Health Issue; 직접 결과 없음)  <!-- 시험 4건 · 논문 422편 -->
+- [x] online behavioral activation — Sleep Disturbance에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Sleep Disturbance; 직접 결과 없음)  <!-- 시험 3건 · 논문 316편 -->
+- [x] online behavioral activation — Stress에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Stress; 직접 결과 없음)  <!-- 시험 3건 · 논문 2619편 -->
+- [x] peer navigator support — Suicide Ideation에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Suicide Ideation; 직접 결과 없음)  <!-- 시험 4건 · 논문 10편 -->
+- [ ] peer navigator support — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 45편 -->
+- [x] peer navigator support — Social Care에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Social Care; 직접 결과 없음)  <!-- 시험 3건 · 논문 1058편 -->
+- [x] peer navigator support — Stress에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Stress; 직접 결과 없음)  <!-- 시험 3건 · 논문 161편 -->
+- [x] sleep education coaching — Stress에 듣는다 — 근거 없음(2026-08-08, sleep education coaching AND Stress; 직접 결과 없음)  <!-- 시험 7건 · 논문 128편 -->
+- [x] sleep education coaching — Blood Pressure에 듣는다 — 근거 없음(2026-08-08, sleep education coaching AND Blood Pressure; 직접 결과 없음)  <!-- 시험 4건 · 논문 17편 -->
+- [x] sleep education coaching — Weight Loss에 듣는다 — 근거 없음(2026-08-08, sleep education coaching AND Weight Loss; 직접 결과 없음)  <!-- 시험 3건 · 논문 26편 -->
