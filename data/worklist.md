@@ -17391,3 +17391,83 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hope therapy — Substance Use에 듣는다  <!-- 시험 3건 · 논문 889편 --> — 근거 없음(2026-08-08 조회, "hope therapy" AND "substance use"; PMID40723658는 HOPE 약어 기반 외상 노출치료)
 - [x] hope therapy — Brain Injury에 듣는다  <!-- 시험 3건 · 논문 637편 --> — 근거 없음(2026-08-08 조회, "hope therapy" AND "brain injury")
 - [ ] hope therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 23359편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] meal replacement — Liver Fibrosis에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-08 조회, "meal replacement" AND "liver fibrosis"; PMID38684277는 결과가 아닌 시험 프로토콜)
+- [x] flaxseed — Blood Glucose에 듣는다  <!-- 시험 3건 · 논문 193편 --> 항목 생성(flaxseed-blood-glucose-pos, 2026-08-08 조회)
+- [x] saffron — Depression에 듣는다  <!-- 시험 3건 · 논문 244편 --> 항목 생성(saffron-depression-pos, saffron-depression-null, 2026-08-08 조회)
+- [ ] bright light therapy — Kidney Carcinoma에 듣는다  <!-- 시험 6건 · 논문 102편 -->
+- [x] bright light therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 5건 · 논문 761편 --> 항목 생성(bright-light-therapy-seasonal-affective-disorder-pos, 2026-08-08 조회)
+- [x] bright light therapy — Light에 듣는다  <!-- 시험 5건 · 논문 35110편 --> — 근거 없음(2026-08-08 조회, "bright light therapy" AND Light; 조건명이 질환·결과로 정의되지 않아 직접 근거 없음)
+- [x] bright light therapy — Concussion, Mild에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 근거 없음(2026-08-08 조회, "bright light therapy" AND concussion; PMID39775195는 결과가 아닌 프로토콜)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] meditation app — Anxiety에 듣는다  <!-- 시험 17건 · 논문 108편 -->
+- [ ] meditation app — Pain에 듣는다  <!-- 시험 10건 · 논문 27편 -->
+- [ ] meditation app — Cancer에 듣는다  <!-- 시험 9건 · 논문 25편 -->
+- [ ] meditation app — Distress에 듣는다  <!-- 시험 9건 · 논문 49편 -->
+- [ ] peer support — Health에 듣는다  <!-- 시험 27건 · 논문 62934편 -->
+- [ ] peer support — Social Skills에 듣는다  <!-- 시험 12건 · 논문 3193편 -->
+- [ ] peer support — Suicide Ideation에 듣는다  <!-- 시험 8건 · 논문 696편 -->
+- [ ] peer support — Physical Injury에 듣는다  <!-- 시험 8건 · 논문 1049편 -->
+- [ ] dance movement — Older Adults에 듣는다  <!-- 시험 8건 · 논문 1049편 -->
+- [ ] dance movement — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 82편 -->
+- [ ] dance movement — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 16편 -->
+- [ ] dance movement — Depression에 듣는다  <!-- 시험 7건 · 논문 204편 -->
+- [ ] singing group — Parkinson에 듣는다  <!-- 시험 3건 · 논문 53편 -->
+- [ ] singing group — Newborn Infant에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [ ] singing group — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 26편 -->
+- [ ] reading group — Pulmonary Consolidation에 듣는다  <!-- 시험 4건 · 논문 21편 -->
+- [ ] reading group — Stroke에 듣는다  <!-- 시험 3건 · 논문 804편 -->
+- [ ] reading group — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [ ] reading group — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 996편 -->
+- [ ] writing therapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 30편 -->
+- [ ] writing therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 1521편 -->
+- [ ] writing therapy — Psychiatric Diagnosis에 듣는다  <!-- 시험 4건 · 논문 5735편 -->
+- [ ] writing therapy — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 942편 -->
+- [ ] tai chi — Obesity에 듣는다  <!-- 시험 6건 · 논문 119편 -->
+- [ ] tai chi — Depression에 듣는다  <!-- 시험 6건 · 논문 596편 -->
+- [ ] tai chi — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 101편 -->
+- [ ] tai chi — Somatic Symptoms에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [ ] resistance band exercise — Cancer에 듣는다  <!-- 시험 14건 · 논문 22편 -->
+- [ ] resistance band exercise — Aging에 듣는다  <!-- 시험 13건 · 논문 79편 -->
+- [ ] resistance band exercise — Diabetes에 듣는다  <!-- 시험 13건 · 논문 26편 -->
+- [ ] resistance band exercise — Physical Fitness에 듣는다  <!-- 시험 10건 · 논문 64편 -->
+- [ ] home cooking — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 461편 -->
+- [ ] olive oil — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 473편 -->
+- [ ] olive oil — Stomach Cancer에 듣는다  <!-- 시험 6건 · 논문 45편 -->
+- [ ] olive oil — Heart Disease에 듣는다  <!-- 시험 6건 · 논문 586편 -->
+- [ ] olive oil — Overweight에 듣는다  <!-- 시험 5건 · 논문 441편 -->
+- [ ] green tea — Inflammation에 듣는다  <!-- 시험 5건 · 논문 2492편 -->
+- [ ] green tea — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 117편 -->
+- [ ] green tea — Diabetic Nephropathy에 듣는다  <!-- 시험 4건 · 논문 72편 -->
+- [ ] green tea — Gingivitis에 듣는다  <!-- 시험 4건 · 논문 185편 -->
+- [ ] walnut — Brain Fog에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] walnut — Satiety에 듣는다  <!-- 시험 4건 · 논문 26편 -->
+- [ ] walnut — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 127편 -->
+- [ ] walnut — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 149편 -->
+- [ ] beetroot juice — Diet, Healthy에 듣는다  <!-- 시험 7건 · 논문 42편 -->
+- [ ] beetroot juice — Diabetes에 듣는다  <!-- 시험 6건 · 논문 32편 -->
+- [ ] beetroot juice — Nitric Oxide에 듣는다  <!-- 시험 5건 · 논문 332편 -->
+- [ ] beetroot juice — Endothelial Dysfunction에 듣는다  <!-- 시험 5건 · 논문 30편 -->
+- [ ] probiotic yogurt — Constipation에 듣는다  <!-- 시험 3건 · 논문 47편 -->
+- [ ] probiotic yogurt — Gastrointestinal Disorder에 듣는다  <!-- 시험 3건 · 논문 187편 -->
+- [ ] protein shake — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 163편 -->
+- [ ] protein shake — Malnutrition에 듣는다  <!-- 시험 4건 · 논문 34편 -->
+- [ ] protein shake — Nutritional and Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
