@@ -1,0 +1,28 @@
+{
+  "id": "music-relaxation-pain-pos",
+  "subj": "music relaxation",
+  "claim": "복부 수술 후 음악 이완이 통증을 줄이는가",
+  "line": "복부 수술 후 음악 이완은 대조군보다 통증을 줄였습니다",
+  "effect": "통증 점수 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 500,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "의약품 허가 적응증이 아닌 음악·이완 중재",
+  "why": "복부 대수술 환자 500명을 음악, 턱 이완, 음악·이완 병용, 대조군으로 무작위 배정해 수술 후 보행과 안정 시 통증을 비교했습니다.",
+  "saw": "세 치료군은 대조군보다 통증이 낮았고 음악군과 이완군도 대부분의 검사에서 통증이 낮았습니다. 병용군은 모든 사후 검사에서 통증이 낮았습니다.",
+  "limit": "수술 후 초기 통증에 대한 연구이고 음악과 턱 이완을 함께 평가해 음악 이완 단독 효과를 완전히 분리하기 어렵습니다.",
+  "against": "보행 직후에는 음악군의 일부 통증 비교가 유의하지 않았습니다.",
+  "use": "수술 후 표준 진통제에 더하는 비약물 보조 중재의 근거로 참고합니다.",
+  "refs": [
+    { "label": "Good 1999 · Pain · randomized controlled trial", "doi": "10.1016/S0304-3959(99)00002-0", "pmid": "10353504" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.intr=music relaxation AND query.cond=Pain · 90건 · InterventionName 완전일치 0건",
+    "pubmed": "\"music relaxation\" AND \"Pain\"[Title/Abstract] · 10건",
+    "negative": "\"music relaxation\" AND \"Pain\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 9건",
+    "safety": "\"music relaxation\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 3건"
+  }
+}

@@ -18061,3 +18061,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tai chi meditation — Sleep Disorders에 듣는다 — 근거 없음(2026-08-09 조회, "tai chi meditation" AND "Sleep Disorders"[Title/Abstract]; ClinicalTrials.gov 5건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 24편 -->
 - [ ] tai chi meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 55편 -->
 - [x] wellness program — Physical Activity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 40941편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] aromatherapy massage — Massage에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 608편 -->
+- [x] indoor walking — Cognitive Performance에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 50편 -->
+- [x] indoor walking — Emotional Well-being에 듣는다 — 근거 없음(2026-08-09 조회, "indoor walking" AND "Cognitive Performance"[Title/Abstract] 및 "Emotional Well-being"[Title/Abstract]; ClinicalTrials.gov 1건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 39편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] aerobic walking — Concussion, Mild에 듣는다 — 근거 없음(2026-08-09 조회, "aerobic walking" AND "Concussion, Mild"[Title/Abstract]; ClinicalTrials.gov 7건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 20건 · 논문 87편 -->
+- [x] aerobic walking — Exercise에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 18건 · 논문 71252편 -->
+- [x] aerobic walking — Diabetes에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 16건 · 논문 2832편 -->
+- [x] aerobic walking — Obesity에 듣는다 — 근거 없음(2026-08-09 조회, "aerobic walking" AND "Obesity"[Title/Abstract]; ClinicalTrials.gov 97건 중 InterventionName 완전일치 0건; PubMed 직접 2건은 동물·복합 중재로 직접 결과 불충분)  <!-- 시험 15건 · 논문 3285편 -->
+- [x] ecological therapy — Suicidal Ideation에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Suicidal Ideation"[Title/Abstract]; ClinicalTrials.gov 16건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 6건 · 논문 74편 -->
+- [x] ecological therapy — Anxiety에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Anxiety"[Title/Abstract]; ClinicalTrials.gov 28건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 514편 -->
+- [x] ecological therapy — Stroke에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Stroke"[Title/Abstract]; ClinicalTrials.gov 8건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 297편 -->
+- [x] ecological therapy — Suicide에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Suicide"[Title/Abstract]; ClinicalTrials.gov 21건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 194편 -->
+- [x] music relaxation — Pain에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 34건 · 논문 407편 -->
+- [ ] music relaxation — Cancer에 듣는다  <!-- 시험 32건 · 논문 182편 -->
+- [x] music relaxation — Stress에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 13건 · 논문 468편 -->
+- [x] music relaxation — Sleep에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 11건 · 논문 171편 -->
+- [x] nature walk intervention — Anxiety에 듣는다 — 근거 없음(2026-08-09 조회, "nature walk intervention" AND "Anxiety"[Title/Abstract]; ClinicalTrials.gov 16건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 160편 -->
+- [x] nature walk intervention — Well-being에 듣는다 — 근거 없음(2026-08-09 조회, "nature walk intervention" AND "Well-being"[Title/Abstract]; ClinicalTrials.gov 34건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 3241편 -->
