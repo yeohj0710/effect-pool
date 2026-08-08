@@ -3,10 +3,10 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 3877,
   "worklist": {
-    "total": 13312,
-    "checked": 13297,
-    "unchecked": 15,
-    "no_evidence_pending": 1427,
+    "total": 13315,
+    "checked": 13299,
+    "unchecked": 16,
+    "no_evidence_pending": 1429,
     "next_batch": [
       "positive activity intervention — Cancer",
       "yoga therapy — Cancer",
@@ -22,11 +22,12 @@
       "peer phone support — Cancer",
       "peer support app — Breast Cancer",
       "online exercise group — Cancer",
-      "guided relaxation group — Lung Cancer"
+      "guided relaxation group — Lung Cancer",
+      "photography therapy — Skin Carcinoma"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 271 used two different 20-name expansion attempts, adding 0 then 1 candidate; 1 duplicate topic was closed, 15 oncology topics were held, and 20 legacy sentences tightened; local build generated 3877 entries and 5457 refs with no new actionable warnings",
+    "build": "passed with pre-existing warnings; batch 272 used two different 20-name expansion attempts, adding 3 then 0 candidates; 2 no-evidence topics were closed, 16 oncology topics were held, and 20 legacy sentences tightened; local build generated 3877 entries and 5457 refs with no new actionable warnings",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
@@ -946,8 +947,13 @@
     "batch 271 closed social prescribing group Mental Health as a duplicate of social-prescribing-depression-open, held 15 oncology topics, and added no new evidence entries",
     "batch 271 tightened 20 legacy sentences from culinary-education-obesity-open through dance-fitness-anxiety-pos; numbers, effects, and sample sizes were preserved",
     "batch 271 build generated 3877 entries and 5457 refs; no new actionable warnings appeared",
-    "six-round check after batches 266-271 measured no-effect/harm share 24%, harm 119, non-trial 528, and unexpected-benefit entries 25; public matched local at 3877 entries and 3882 id fields"
+    "six-round check after batches 266-271 measured no-effect/harm share 24%, harm 119, non-trial 528, and unexpected-benefit entries 25; public matched local at 3877 entries and 3882 id fields",
+    "batch 272 expansion attempt one used 20 behavior, environment, food, and supplement names and added 3 candidates",
+    "batch 272 expansion attempt two used 20 different behavior, environment, food, and supplement names and added 0 candidates; no third expansion was needed",
+    "batch 272 processed 2 non-oncology topics; marked both cocoa bean topics as no-evidence and held 16 oncology topics without API research",
+    "batch 272 tightened 20 legacy sentences from dance-fitness-stress-pos through dance-therapy-motor-activity-open; numbers, effects, and sample sizes were preserved",
+    "batch 272 build generated 3877 entries and 5457 refs; no new actionable warnings appeared"
   ],
-  "current_batch": "batch 271 complete locally; 0 evidence entries, 1 duplicate topic, 15 oncology topics held; 15 unchecked topics remain; local and public both 3877",
-  "next_action": "commit and push batch 271; immediately start batch 272 with git pull --ff-only, read AGENTS.md, keep the 15 oncology holds out of API research, and run the next six-round deployment check after batch 277"
+  "current_batch": "batch 272 complete locally; 0 evidence entries, 2 no-evidence topics, 16 oncology topics held; 16 unchecked topics remain; local and public both 3877",
+  "next_action": "commit and push batch 272; immediately start batch 273 with git pull --ff-only, read AGENTS.md, keep the 16 oncology holds out of API research, and run the next six-round deployment check after batch 277"
 }
