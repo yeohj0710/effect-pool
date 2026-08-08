@@ -17326,3 +17326,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] community rehabilitation — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 2424편 --> — 결과 등록만(2026-08-08 조회, NCT03567239 결과 게시·n=5 확인했지만 PubMed 원문 없음; builder 규칙상 항목 보류)
 - [x] community rehabilitation — Bipolar Disorder에 듣는다  <!-- 시험 4건 · 논문 374편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov community rehabilitation AND Bipolar Disorder · 직접 community rehabilitation 결과 없음; PubMed는 정신질환 일반 재활·고찰 중심)
 - [x] community rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 4건 · 논문 3677편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov community rehabilitation AND Pulmonary Disease · 직접 community rehabilitation 결과 없음; PubMed는 가정·원격 폐재활 연구 중심)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cryotherapy — Pain에 듣는다  <!-- 시험 47건 · 논문 2646편 --> 항목 생성(cryotherapy-pain-pos, 2026-08-08 조회)
+- [x] cryotherapy — Keratosis에 듣는다  <!-- 시험 15건 · 논문 398편 --> 항목 생성(cryotherapy-keratosis-null, 2026-08-08 조회)
+- [x] cryotherapy — Pulpitis에 듣는다  <!-- 시험 15건 · 논문 31편 --> 항목 생성(cryotherapy-pulpitis-pos, 2026-08-08 조회)
+- [ ] cryotherapy — Cervical Cancer에 듣는다  <!-- 시험 14건 · 논문 516편 -->
+- [x] sleep sound intervention — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 38편 --> 항목 생성(sleep-sound-intervention-pregnancy-pos, 2026-08-08 조회)
+- [x] sleep sound intervention — Concussion, Mild에 듣는다  <!-- 시험 3건 · 논문 12편 --> 근거 없음(2026-08-08 조회, sleep sound intervention AND Concussion, Mild; 직접 결과 없음)
+- [x] sleep sound intervention — Preterm Birth에 듣는다  <!-- 시험 3건 · 논문 11편 --> 항목 생성(sleep-sound-intervention-preterm-null, 2026-08-08 조회)
+- [x] coffee consumption — Health에 듣는다  <!-- 시험 4건 · 논문 3817편 --> 항목 생성(coffee-consumption-health-pos, 2026-08-08 조회)
+- [x] coffee consumption — Obesity에 듣는다  <!-- 시험 4건 · 논문 583편 --> 항목 생성(coffee-consumption-obesity-null, 2026-08-08 조회)
+- [x] coffee consumption — Gastrointestinal Motility에 듣는다  <!-- 시험 3건 · 논문 30편 --> 중복(coffee-postoperative-ileus-trial, 2026-08-08 조회)
+- [x] coffee consumption — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 769편 --> 항목 생성(coffee-consumption-cardiovascular-risk-null, 2026-08-08 조회)
