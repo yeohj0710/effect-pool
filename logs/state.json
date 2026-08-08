@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4086,
+  "entries": 4090,
   "worklist": {
-    "total": 13694,
-    "checked": 13686,
+    "total": 13705,
+    "checked": 13697,
     "unchecked": 8,
-    "no_evidence_pending": 1558,
+    "no_evidence_pending": 1565,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -19,15 +19,15 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 304 processed 18 topics, added nature-walk-group-anxiety-null, group-exercise-class-physical-activity-pos, group-exercise-class-exercise-null, bean-diet-obesity-pos, and bean-diet-blood-glucose-null, closed 5 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4086 entries and 5684 refs with no new actionable line/effect/known/scale/English warnings",
-    "line_warnings": 4,
+    "build": "passed with pre-existing warnings; batch 305 processed 11 topics, added art-making-pain-pos, art-making-depression-pos, animal-interaction-pain-pos, and animal-interaction-autism-open, closed 7 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4090 entries and 5688 refs with no new actionable line/effect/known/scale/English warnings; one truthful new thin-study warning and one truthful unknown-n warning remain",
+    "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
     "scale_warnings": 5,
-    "unknown_n_warnings": 348,
+    "unknown_n_warnings": 349,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3526,
+      "trial": 3530,
       "obs": 495,
       "animal": 22,
       "lab": 11,
@@ -39,21 +39,21 @@
     "non_trial": 560,
     "unexpected_benefit_entries": 25,
     "connected_evidence": 5684,
-    "thin_warnings": 733
+    "thin_warnings": 732
   },
   "deployment": {
     "last_entry_count": 4070,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 304 local build is 16 entries ahead of the last verified public build; next six-round deployment check is due after batch 307",
+    "deployment_state": "batch 305 local build is 20 entries ahead of the last verified public build; next six-round deployment check is due after batch 307",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4086,
-    "local_id_field_count": 4091,
+    "local_entry_count": 4090,
+    "local_id_field_count": 4095,
     "public_entry_count": 4070,
     "public_id_field_count": 4075,
-    "counts_match": true,
-    "latest_note": "Six-round check after batches 296-301 matched public/local at 4070 entries and 4075 id fields after dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv; batch 304 local build is now 4086 entries and 4091 id fields pending the next check after batch 307.",
+    "counts_match": false,
+    "latest_note": "Six-round check after batches 296-301 matched public/local at 4070 entries and 4075 id fields after dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv; batch 305 local build is now 4090 entries and 4095 id fields pending the next check after batch 307.",
     "six_round_check": {
       "batches": "296-301",
       "http_status": 200,
@@ -1120,8 +1120,15 @@
     "batch 304 evidence entries: nature-walk-group-anxiety-null, group-exercise-class-physical-activity-pos, group-exercise-class-exercise-null, bean-diet-obesity-pos, and bean-diet-blood-glucose-null",
     "batch 304 tightened 20 legacy sentences from guided-self-help-stress-pos through health-coaching-intervention-diabetes-pos; numbers, effects, and sample sizes were preserved",
     "batch 304 build generated 4086 entries and 5684 refs; trial 3526, obs 495, animal 22, lab 11, case 32, no-effect/harm 959 (23%), harm 119, unknown_n 348, known 2, thin 733; no new actionable line/effect/known/scale/English warning",
-    "batch 304 public deployment is pending the next six-round check after batch 307: local 4086 entries/4091 id fields, public 4070/4075/5684"
+    "batch 304 public deployment is pending the next six-round check after batch 307: local 4086 entries/4091 id fields, public 4070/4075/5684",
+    "batch 305 expansion used one fresh 20-name non-drug branch and added 11 art-making, animal-interaction, and therapy-rabbit candidates; no second expansion was needed because the first attempt added at least 10",
+    "batch 305 processed 11 non-oncology topics: added 4 evidence entries, closed 7 no-evidence topics, held 8 oncology topics without API research, and skipped 0 approved indications",
+    "batch 305 evidence entries: art-making-pain-pos, art-making-depression-pos, animal-interaction-pain-pos, and animal-interaction-autism-open",
+    "batch 305 closed art making Caregiver Stress/Hiv, animal interaction Advanced Cancer/Prevention, and therapy rabbit Bladder Cancer/Acute Myeloid Leukemia/Kidney Transplantation as no-evidence after direct registry and publication checks; dated worklist notes preserve the search terms and rabbit anti-thymocyte globulin false match",
+    "batch 305 tightened 20 legacy sentences from health-coaching-intervention-hypertension-pos through health-literacy-sexual-pos; numbers, effects, and sample sizes were preserved",
+    "batch 305 build generated 4090 entries and 5688 refs; trial 3530, obs 495, animal 22, lab 11, case 32, no-effect/harm 959 (23%), harm 119, unknown_n 349, known 2, thin 732; no new actionable line/effect/known/scale/English warning; one truthful new thin-study warning and one truthful unknown-n warning remain",
+    "batch 305 public deployment remains pending the next six-round check after batch 307: local 4090 entries/4095 id fields, public 4070/4075; public refs last verified at 5658"
   ],
-  "current_batch": "batch 304 complete; 5 evidence entries, 5 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4086, public last verified 4070; 8 unchecked topics remain",
-  "next_action": "commit and push batch 304, then start batch 305; perform the next six-round public deployment check after batch 307"
+  "current_batch": "batch 305 complete; 4 evidence entries, 7 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4090, public last verified 4070; 8 unchecked topics remain",
+  "next_action": "commit and push batch 305, then start batch 306; perform the next six-round public deployment check after batch 307"
 }

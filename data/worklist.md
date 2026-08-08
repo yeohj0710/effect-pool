@@ -17629,3 +17629,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bean diet — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 31편 --> — 근거 없음(2026-08-08 조회, "bean diet" AND "Metabolic Syndrome"; 직접 콩 식단 결과 없음)
 - [x] bean diet — Protein Deposition에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-08 조회, "bean diet" AND "Protein Deposition"; 단백질 대사 연구는 있었지만 직접 단백질 침착 결과 없음)
 - [x] bean diet — Blood Glucose에 듣는다  <!-- 시험 4건 · 논문 174편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] art making — Caregiver Stress에 듣는다  <!-- 시험 6건 · 논문 10편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov art making Caregiver Stress·PubMed art making Caregiver Stress; 직접 미술 만들기 결과 0건)
+- [x] art making — Pain에 듣는다  <!-- 시험 5건 · 논문 262편 -->
+- [x] art making — Hiv에 듣는다  <!-- 시험 4건 · 논문 897편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov art making Hiv·PubMed art making Hiv; 직접 미술 만들기 결과 0건)
+- [x] art making — Depression에 듣는다  <!-- 시험 4건 · 논문 185편 -->
+- [x] animal interaction — Advanced Cancer에 듣는다  <!-- 시험 6건 · 논문 11122편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov animal interaction Advanced Cancer·PubMed animal interaction Advanced Cancer; 직접 동물 상호작용 결과 0건)
+- [x] animal interaction — Prevention에 듣는다  <!-- 시험 6건 · 논문 78139편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov animal interaction Prevention·PubMed animal interaction Prevention; 직접 예방 중재 결과 0건)
+- [x] animal interaction — Pain에 듣는다  <!-- 시험 4건 · 논문 10888편 -->
+- [x] animal interaction — Autism에 듣는다  <!-- 시험 4건 · 논문 3360편 -->
+- [x] therapy rabbit — Bladder Cancer에 듣는다  <!-- 시험 4건 · 논문 142편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov therapy rabbit Bladder Cancer·PubMed therapy rabbit Bladder Cancer; 직접 치료 토끼 결과 0건)
+- [x] therapy rabbit — Acute Myeloid Leukemia에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov therapy rabbit Acute Myeloid Leukemia·PubMed therapy rabbit Acute Myeloid Leukemia; 직접 치료 토끼 결과 0건)
+- [x] therapy rabbit — Kidney Transplantation에 듣는다  <!-- 시험 3건 · 논문 1454편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov therapy rabbit Kidney Transplantation 39건 중 직접 일치 0건·PubMed therapy rabbit Kidney Transplantation; 검색 일치 1건은 rabbit anti-thymocyte globulin)
