@@ -16893,3 +16893,60 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] nature meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 96편 -->
 - [x] nature meditation — Anxiety에 듣는다  <!-- 시험 3건 · 논문 146편 --> — 근거 없음(2026-08-08, nature meditation AND Anxiety; 직접 사람 중재 결과 없음)
 - [x] yellow pea — Obesity에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] balance board — Knee Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 98편 --> — 근거 없음(2026-08-08, balance board AND Knee Osteoarthritis; 직접 사람 중재 결과 없음)
+- [x] balance board — Falls에 듣는다  <!-- 시험 4건 · 논문 430편 -->
+- [x] balance board — ADHD에 듣는다  <!-- 시험 4건 · 논문 46편 --> — 근거 없음(2026-08-08, balance board AND ADHD; 직접 사람 중재 결과 없음)
+- [x] balance board — Down Syndrome에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 근거 없음(2026-08-08, balance board AND Down Syndrome; 직접 사람 중재 결과 없음)
+- [x] robotic gait training — Hemiparesis에 듣는다  <!-- 시험 3건 · 논문 107편 -->
+- [x] robotic gait training — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 83편 -->
+- [x] task-oriented training — Multiple Sclerosis에 듣는다  <!-- 시험 10건 · 논문 57편 -->
+- [x] task-oriented training — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 49편 -->
+- [x] task-oriented training — Rehabilitation에 듣는다  <!-- 시험 5건 · 논문 666편 --> — 근거 없음(2026-08-08, task-oriented training AND Rehabilitation; 직접 질환 중재 결과 없음)
+- [x] task-oriented training — Mirror Therapy에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 근거 없음(2026-08-08, task-oriented training AND Mirror Therapy; 직접 질환 중재 결과 없음)
+- [x] home-based physiotherapy — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 106편 -->
+- [ ] home-based physiotherapy — Cancer에 듣는다  <!-- 시험 6건 · 논문 557편 -->
+- [x] home-based physiotherapy — Exercise에 듣는다  <!-- 시험 5건 · 논문 3596편 -->
+- [x] home-based physiotherapy — Stroke에 듣는다  <!-- 시험 4건 · 논문 326편 -->
+- [x] mirror therapy — Hemiparesis에 듣는다  <!-- 시험 4건 · 논문 145편 -->
+- [x] mirror therapy — Virtual Reality에 듣는다  <!-- 시험 4건 · 논문 172편 -->
+- [x] mirror therapy — Upper Limb Paresis에 듣는다  <!-- 시험 4건 · 논문 67편 -->
+- [x] virtual reality balance training — Parkinson Disease에 듣는다  <!-- 시험 17건 · 논문 106편 -->
+- [x] virtual reality balance training — Balance에 듣는다  <!-- 시험 15건 · 논문 1070편 --> — 근거 없음(2026-08-08, virtual reality balance training AND Balance; 직접 사람 중재 결과 없음)
+- [x] virtual reality balance training — Vestibular Disease에 듣는다  <!-- 시험 11건 · 논문 34편 --> — 근거 없음(2026-08-08, virtual reality balance training AND Vestibular Disease; 직접 사람 중재 결과 없음)
+- [x] virtual reality balance training — Chronic Pain에 듣는다  <!-- 시험 10건 · 논문 19편 --> — 근거 없음(2026-08-08, virtual reality balance training AND Chronic Pain; 직접 사람 중재 결과 없음)
+- [x] telerehabilitation — Rehabilitation에 듣는다  <!-- 시험 19건 · 논문 4115편 --> — 근거 없음(2026-08-08, telerehabilitation AND Rehabilitation; 직접 질환 중재 결과 없음)
+- [x] telerehabilitation — Parkinson Disease에 듣는다  <!-- 시험 17건 · 논문 187편 -->
+- [x] telerehabilitation — COVID-19에 듣는다  <!-- 시험 15건 · 논문 934편 -->
+- [x] telerehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 12건 · 논문 845편 -->
+- [x] exoskeleton training — Cerebral Palsy에 듣는다  <!-- 시험 9건 · 논문 97편 -->
+- [x] exoskeleton training — Nervous System Diseases에 듣는다  <!-- 시험 4건 · 논문 625편 --> — 근거 없음(2026-08-08, exoskeleton training AND Nervous System Diseases; 직접 사람 중재 결과 없음)
+- [x] exoskeleton training — Hemiparesis에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [x] electrical stimulation therapy — Stroke에 듣는다  <!-- 시험 12건 · 논문 8888편 -->
+- [x] electrical stimulation therapy — Radiculopathy Lumbar에 듣는다  <!-- 시험 9건 · 논문 112편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Radiculopathy Lumbar; 직접 사람 중재 결과 없음)
+- [ ] electrical stimulation therapy — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 183편 -->
+- [x] electrical stimulation therapy — Knee Injuries에 듣는다  <!-- 시험 7건 · 논문 370편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Knee Injuries; 직접 사람 중재 결과 없음)
+- [ ] therapeutic ultrasound — Lymphedema Arm에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] low-level laser therapy — Laser Therapy에 듣는다  <!-- 시험 4건 · 논문 11981편 -->
+- [ ] low-level laser therapy — Class II Malocclusion에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [ ] low-level laser therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 3건 · 논문 221편 -->
+- [ ] low-level laser therapy — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 412편 -->
+- [ ] air pollution reduction — Asthma에 듣는다  <!-- 시험 3건 · 논문 639편 -->
+- [ ] air pollution reduction — Cognitive Function에 듣는다  <!-- 시험 3건 · 논문 74편 -->
+- [ ] air pollution reduction — Inflammation에 듣는다  <!-- 시험 3건 · 논문 382편 -->
+- [ ] noise reduction — Anxiety에 듣는다  <!-- 시험 6건 · 논문 222편 -->
+- [ ] noise reduction — Sleep Deprivation에 듣는다  <!-- 시험 3건 · 논문 40편 -->
+- [ ] noise reduction — Drug Use에 듣는다  <!-- 시험 3건 · 논문 909편 -->
+- [ ] home modification — Diabetes에 듣는다  <!-- 시험 9건 · 논문 322편 -->
+- [ ] home modification — Stroke에 듣는다  <!-- 시험 8건 · 논문 202편 -->
+- [ ] home modification — Obesity에 듣는다  <!-- 시험 7건 · 논문 234편 -->
+- [ ] home modification — Hypertension에 듣는다  <!-- 시험 6건 · 논문 313편 -->
