@@ -1,0 +1,28 @@
+{
+  "id": "exercise-counseling-pain-pos",
+  "subj": "exercise counseling",
+  "claim": "운동상담을 반복성 허리통증에 쓴다",
+  "line": "반복성 허리통증에서 운동과 상담 병용은 통증을 줄였지만 비용효과는 없었습니다",
+  "effect": "허리통증 효과크기 0.70",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 219,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "반복성 비특이적 허리통증 여성 보건의료인 219명을 네 군으로 나눈 무작위시험에서 신경근 운동과 허리관리 상담 병용이 12개월 통증을 줄였습니다.",
+  "saw": "병용군은 대조군보다 허리통증 강도가 낮았고 효과크기는 0.70(95% CI 0.23~1.17, P=.006)이었으며 업무 방해 통증도 줄었습니다.",
+  "limit": "여성 보건의료인 대상이고 상담과 운동을 분리한 효과가 아니며 병가 비용효과는 확인되지 않았습니다.",
+  "against": "운동 또는 상담 단독군도 있었지만 병용군에서 12개월 통증 감소가 가장 뚜렷했고 모든 중재군이 비용효과적이지는 않았습니다.",
+  "use": "반복성 허리통증에서 운동 처방에 상담을 더할 때 통증 개선과 비용 한계를 함께 고려합니다.",
+  "refs": [
+    { "label": "Neuromuscular exercise and back care counseling for recurrent low back pain · randomized trial", "pmid": "30558592", "nct": "NCT01465698" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "query.term=AREA[InterventionName]exercise counseling AND AREA[ConditionSearch]Pain → 33건, exact InterventionName 0건",
+    "pubmed": "\"exercise counseling\" AND \"Pain\" → 21건",
+    "negative": "\"exercise counseling\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
+    "safety": "\"exercise counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 76건"
+  }
+}
