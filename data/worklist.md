@@ -16657,15 +16657,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness walking — Stress에 듣는다  <!-- 시험 20건 · 논문 73편 --> — 항목 생성(mindfulness-walking-stress-pos)
 - [x] mindfulness walking — Mental Health에 듣는다  <!-- 시험 13건 · 논문 65편 --> — 항목 생성(mindfulness-walking-mental-health-pos)
 - [x] mindfulness walking — Psychological에 듣는다  <!-- 시험 11건 · 논문 78편 --> — 항목 생성(mindfulness-walking-psychological-pos)
-- [ ] tai chi walking — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 14편 -->
-- [ ] tai chi walking — Falls에 듣는다  <!-- 시험 4건 · 논문 108편 -->
-- [ ] tai chi walking — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] cherry concentrate — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 10편 -->
-- [ ] cherry concentrate — Gout에 듣는다  <!-- 시험 4건 · 논문 17편 -->
-- [ ] cherry concentrate — Hypertension에 듣는다  <!-- 시험 3건 · 논문 16편 -->
-- [ ] erythritol — Periodontitis에 듣는다  <!-- 시험 10건 · 논문 88편 -->
-- [ ] erythritol — Satiation에 듣는다  <!-- 시험 4건 · 논문 9편 -->
-- [ ] erythritol — Periodontal Pocket에 듣는다  <!-- 시험 4건 · 논문 25편 -->
+- [x] tai chi walking — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(tai-chi-walking-type2-diabetes-pos)
+- [x] tai chi walking — Falls에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 중복 항목(tai-chi-falls-pos, 2026-08-08)
+- [x] tai chi walking — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-08, tai chi walking AND Chronic Pain; 직접 중재명 일치 결과 논문 없음)
+- [x] cherry concentrate — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 10편 --> — 중복 항목(tart-cherry-metabolic-syndrome-pos, 2026-08-08)
+- [x] cherry concentrate — Gout에 듣는다  <!-- 시험 4건 · 논문 17편 --> — 중복 항목(tart-cherry-gout-pos, 2026-08-08)
+- [x] cherry concentrate — Hypertension에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 중복 항목(tart-cherry-hypertension-pos, 2026-08-08)
+- [x] erythritol — Periodontitis에 듣는다  <!-- 시험 10건 · 논문 88편 --> — 항목 생성(erythritol-periodontitis-open)
+- [x] erythritol — Satiation에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목 생성(erythritol-satiation-pos)
+- [x] erythritol — Periodontal Pocket에 듣는다  <!-- 시험 4건 · 논문 25편 --> — 항목 생성(erythritol-periodontal-pocket-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -16709,4 +16709,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] writing for wellbeing — Trauma, Psychological에 듣는다  <!-- 시험 3건 · 논문 70편 --> — 근거 없음(2026-08-08, writing for wellbeing AND Trauma, Psychological; 직접 결과 없음)
 - [x] flax lignans — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-08, flax lignans AND Metabolic Syndrome; 사람 리뷰만 확인)
 - [x] grape polyphenols — Elevated Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 97편 --> — 항목 생성(grape-polyphenols-elevated-blood-pressure-pos)
-- [ ] grape polyphenols — Mood Change에 듣는다  <!-- 시험 3건 · 논문 69편 -->
+- [x] grape polyphenols — Mood Change에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 근거 없음(2026-08-08, grape polyphenols AND Mood Change; 직접 결과 논문 없음, NCT06309914 결과 미보고)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] tactile stimulation — Stroke에 듣는다  <!-- 시험 7건 · 논문 336편 --> — 근거 없음(2026-08-08, tactile stimulation AND Stroke; 일치 결과 논문 없음, 등록시험 결과 미보고)
+- [x] tactile stimulation — Cervical Dystonia에 듣는다  <!-- 시험 6건 · 논문 16편 --> — 항목 생성(tactile-stimulation-cervical-dystonia-pos)
+- [x] tactile stimulation — Apnea Neonatal에 듣는다  <!-- 시험 4건 · 논문 27편 --> — 근거 없음(2026-08-08, tactile stimulation AND Apnea Neonatal; 등록시험 결과 미보고)
+- [x] smartphone sleep intervention — Sleep Bruxism에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-08, smartphone sleep intervention AND Sleep Bruxism; 관찰 연구만 확인)
+- [ ] smartphone sleep intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [x] smartphone sleep intervention — Depression in Adolescence에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 근거 없음(2026-08-08, smartphone sleep intervention AND Depression in Adolescence; 일치 결과 논문 없음)
