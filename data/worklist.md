@@ -16950,3 +16950,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] home modification — Stroke에 듣는다  <!-- 시험 8건 · 논문 202편 --> — 근거 없음(2026-08-08, home modification AND Stroke; 직접 사람 중재 결과 없음)
 - [x] home modification — Obesity에 듣는다  <!-- 시험 7건 · 논문 234편 --> — 근거 없음(2026-08-08, home modification AND Obesity; 직접 사람 중재 결과 없음)
 - [x] home modification — Hypertension에 듣는다  <!-- 시험 6건 · 논문 313편 --> — 근거 없음(2026-08-08, home modification AND Hypertension; 직접 사람 중재 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] companion animal — Anal Cancer에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [x] companion animal — Autism에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [x] companion animal — Mental Fatigue에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 근거 없음(2026-08-08 조회, companion animal AND Mental Fatigue; 직접 사람 중재 결과 없음)
+- [x] companion animal — Stress에 듣는다  <!-- 시험 3건 · 논문 1045편 -->
+- [x] cupping therapy — Migraine에 듣는다  <!-- 시험 6건 · 논문 23편 -->
+- [x] telenursing — Self-care에 듣는다  <!-- 시험 4건 · 논문 176편 -->
+- [ ] telenursing — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [x] yoga breathing — Pain에 듣는다  <!-- 시험 64건 · 논문 174편 -->
+- [x] yoga breathing — Stress에 듣는다  <!-- 시험 56건 · 논문 410편 -->
+- [x] yoga breathing — Anxiety에 듣는다  <!-- 시험 34건 · 논문 277편 -->
+- [x] yoga breathing — Depression에 듣는다  <!-- 시험 28건 · 논문 225편 -->
+- [x] workplace exercise — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 1341편 -->
+- [x] workplace exercise — Musculoskeletal Diseases에 듣는다  <!-- 시험 4건 · 논문 365편 -->
