@@ -18346,3 +18346,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] therapeutic drawing — Lung에 듣는다  <!-- 시험 3건 · 논문 385편 -->
 - [x] seaweed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 중복(2026-08-09, 기존 seaweed-metabolic-syndrome-pos)
 - [x] seaweed extract — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 133편 --> — 중복(2026-08-09, 기존 seaweed-glucose-metabolism-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] home-based telerehabilitation — COVID-19에 듣는다  <!-- 시험 6건 · 논문 98편 --> — 중복(2026-08-09, 기존 telerehabilitation-covid-19-pos)
+- [x] home-based telerehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 135편 --> — 중복(2026-08-09, 기존 telerehabilitation-pulmonary-disease-pos)
+- [x] home-based telerehabilitation — Rehabilitation에 듣는다  <!-- 시험 6건 · 논문 736편 --> — 항목 추가(2026-08-09)
+- [x] home-based telerehabilitation — Cognitive Decline에 듣는다  <!-- 시험 4건 · 논문 24편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] digital therapeutic — Depression에 듣는다  <!-- 시험 16건 · 논문 2448편 --> — 중복(2026-08-09, 기존 digital-therapeutics-depression-pos)
+- [x] digital therapeutic — Pain에 듣는다  <!-- 시험 14건 · 논문 17624편 --> — 중복(2026-08-09, 기존 digital-therapeutics-pain-pos)
+- [x] digital therapeutic — Anxiety에 듣는다  <!-- 시험 13건 · 논문 1668편 --> — 중복(2026-08-09, 기존 digital-therapeutics-anxiety-pos)
+- [x] auditory stimulation — PARKINSON DIS에 듣는다  <!-- 시험 14건 · 논문 33편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] auditory stimulation — Schizophrenia에 듣는다  <!-- 시험 10건 · 논문 2245편 --> — 근거 없음(2026-08-09 조회, 완전일치 1건 NCT04783571은 ACTIVE_NOT_RECRUITING; PubMed는 생리·동물 연구 중심으로 직접 치료 결과 없음)
+- [x] auditory stimulation — Epilepsy에 듣는다  <!-- 시험 9건 · 논문 1405편 --> — 항목 추가(2026-08-09)
+- [x] auditory stimulation — Traumatic Coma에 듣는다  <!-- 시험 9건 · 논문 61편 --> — 항목 추가(2026-08-09)
+- [x] vibrotactile stimulation — Stroke에 듣는다  <!-- 시험 3건 · 논문 38편 --> — 항목 추가(2026-08-09)
+- [x] balance board training — Stroke에 듣는다  <!-- 시험 9건 · 논문 144편 --> — 항목 추가(2026-08-09)
+- [x] balance board training — Cerebral Palsy에 듣는다  <!-- 시험 8건 · 논문 19편 --> — 항목 추가(2026-08-09)
+- [x] balance board training — Cognitive Test에 듣는다  <!-- 시험 7건 · 논문 89편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] balance board training — Healthy Young Adults에 듣는다  <!-- 시험 5건 · 논문 66편 --> — 근거 없음(2026-08-09 조회, 완전일치 0건; PubMed PMID35721844는 균형판 단독이 아닌 HD-tDCS와 발 운동 복합시험)
+- [x] biofeedback training — Pain에 듣는다  <!-- 시험 33건 · 논문 962편 --> — 항목 추가(2026-08-09)
+- [x] biofeedback training — Stroke에 듣는다  <!-- 시험 30건 · 논문 589편 --> — 중복(2026-08-09, 기존 biofeedback-stroke-pos)
+- [x] biofeedback training — Stress에 듣는다  <!-- 시험 21건 · 논문 1043편 --> — 중복(2026-08-09, 기존 biofeedback-stress-pos)
+- [x] biofeedback training — Pelvic Floor에 듣는다  <!-- 시험 21건 · 논문 736편 --> — 중복(2026-08-09, 기존 biofeedback-pelvic-floor-pos)
+- [x] photobiomodulation device — Mucositis에 듣는다  <!-- 시험 15건 · 논문 144편 --> — 중복(2026-08-09, 기존 photobiomodulation-mucositis-open)
+- [ ] photobiomodulation device — Cancer에 듣는다  <!-- 시험 13건 · 논문 425편 -->
+- [x] photobiomodulation device — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 41편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] photobiomodulation device — Xerostomia에 듣는다  <!-- 시험 7건 · 논문 24편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] dietary fiber supplement — Gut에 듣는다  <!-- 시험 4건 · 논문 4229편 --> — 근거 없음(2026-08-09 조회, 완전일치 1건 NCT04790422는 등록시험이고 PubMed 직접 결과는 동물·관찰·프로토콜뿐)
+- [x] dietary fiber supplement — Overweight에 듣는다  <!-- 시험 3건 · 논문 783편 --> — 항목 추가(2026-08-09)
+- [x] dietary fiber supplement — Malnutrition (Calorie)에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
+- [x] home stepping program — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 항목 추가(2026-08-09)
+- [x] home stepping program — Stroke에 듣는다  <!-- 시험 4건 · 논문 44편 --> — 항목 추가(2026-08-09)
+- [x] sensory stimulation device — Pain에 듣는다  <!-- 시험 8건 · 논문 957편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 결과는 음성 자극·발성 장애 연구 PMID36653244뿐)
