@@ -1,11 +1,11 @@
 {
   "updated": "2026-08-09",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4182,
+    "entries": 4187,
   "worklist": {
-        "total": 13903,
-        "checked": 13890,
-    "unchecked": 13,
+        "total": 13913,
+        "checked": 13899,
+    "unchecked": 14,
     "no_evidence_pending": 1581,
     "next_batch": [
       "cryotherapy — Cervical Cancer (항암 주제 보류)",
@@ -16,45 +16,50 @@
       "resistance band exercise — Cancer (항암 주제 보류)",
       "olive oil — Stomach Cancer (항암 주제 보류)",
       "green tea — Precancerous Condition (항암 주제 보류)",
-      "circuit training — Cancer (항암 주제 보류)"
+      "circuit training — Cancer (항암 주제 보류)",
+      "water therapy — Lung Cancer (항암 주제 보류)",
+      "photography intervention — Colon Cancer (항암 주제 보류)",
+      "tai chi meditation — Cancer (항암 주제 보류)",
+      "music relaxation — Cancer (항암 주제 보류)",
+      "peer exercise group — Cancer (항암 주제 보류)"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 323 used two different 20-name non-drug branches and added 3 then 14 candidates, added 7 evidence entries, closed 9 topics as no-evidence, held 13 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4182 entries and 5818 refs with no new actionable line/effect/known/scale/English warnings; new thin-study warnings are truthful for the small human studies",
+    "build": "passed with pre-existing warnings; batch 324 used two different 20-name non-drug branches, timed out after partially adding 9 candidates in the first branch, and added 1 candidate in the second; added 5 evidence entries, closed 4 topics as no-evidence, held 14 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4187 entries and 5823 refs with no new actionable line/effect/known/scale/English warnings; the new chronic-pain review has truthful unknown-n and the new small animal-assisted study has a truthful thin-study warning",
     "line_warnings": 14,
     "effect_warnings": 1,
     "english_warnings": 3,
     "scale_warnings": 5,
-        "unknown_n_warnings": 356,
+        "unknown_n_warnings": 357,
     "known_warnings": 2,
     "tier_distribution": {
-            "trial": 3608,
-            "obs": 501,
+            "trial": 3619,
+      "obs": 502,
       "animal": 23,
       "lab": 11,
       "case": 32
     },
-        "no_effect_or_harm": 979,
+        "no_effect_or_harm": 980,
     "harm": 123,
     "no_effect_or_harm_share": "23%",
-        "non_trial": 567,
+        "non_trial": 568,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5811,
+        "connected_evidence": 5823,
         "thin_warnings": 770
   },
   "deployment": {
-        "last_entry_count": 4182,
+    "last_entry_count": 4187,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 323 local build has 4182 entries and 4189 id fields; public remains last verified at 4167 entries and 4172 id fields after the batch 319 six-round check; next six-round check after batch 325",
+        "deployment_state": "batch 324 local build has 4187 entries and 4194 id fields; public remains last verified at 4167 entries and 4172 id fields after the batch 319 six-round check; next six-round check after batch 325",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4182,
-        "local_id_field_count": 4189,
+        "local_entry_count": 4187,
+        "local_id_field_count": 4194,
     "public_entry_count": 4167,
     "public_id_field_count": 4172,
         "counts_match": false,
-        "latest_note": "Batch 323 local build has 4182 entries and 4189 id fields; public remains last verified at 4167 entries and 4172 id fields. Next six-round check is after batch 325.",
+        "latest_note": "Batch 324 local build has 4187 entries and 4194 id fields; public remains last verified at 4167 entries and 4172 id fields. Next six-round check is after batch 325.",
     "six_round_check": {
       "batches": "314-319",
       "http_status": 200,
@@ -1258,8 +1263,15 @@
     "batch 323 closures: indoor walking Emotional Well-being; aerobic walking Concussion, Mild and Obesity; all four ecological therapy topics; and nature walk intervention Anxiety/Well-being had no direct outcome evidence; dated worklist notes preserve search reasons",
     "batch 323 tightened 20 legacy sentences from laughter-yoga-education-pos through levodopa-cocaine-abuse-null; numbers, effects, and sample sizes were preserved",
     "batch 323 build generated 4182 entries and 5818 refs; trial 3615, obs 501, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 356, known 2, thin 770; no new actionable line/effect/known/scale/English warning; new thin-study warnings are truthful for the small human studies",
-    "batch 323 deployment remains pending the next six-round check after batch 325: local 4182 entries/4189 id fields; public last verified at 4167 entries/4172 id fields"
+    "batch 323 deployment remains pending the next six-round check after batch 325: local 4182 entries/4189 id fields; public last verified at 4167 entries/4172 id fields",
+    "batch 324 expansion first used 20 fresh non-drug names but timed out after partially appending 9 candidates; the second different 20-name non-drug branch added 1 candidate; no third expansion was run",
+    "batch 324 processed 9 non-oncology topics: added 5 evidence entries and closed 4 topics as no-evidence; held 14 oncology topics without API research and skipped 0 approved indications",
+    "batch 324 evidence entries: animal-assisted-education-anxiety-pos, singing-intervention-aphasia-pos, singing-intervention-dementia-pos, singing-intervention-depression-pos, and singing-intervention-chronic-pain-open",
+    "batch 324 closures: peer exercise group Physical Activity/Mental Health/Diabetes and rhythmic movement exercise Ankle Sprain had 0 exact registry InterventionName results and 0 direct PubMed results; dated worklist notes preserve search reasons",
+    "batch 324 tightened 20 legacy sentences from lifestyle-counseling-overweight-pos through light-therapy-neck-pain-open; numbers, effects, and sample sizes were preserved",
+    "batch 324 build generated 4187 entries and 5823 refs; trial 3619, obs 502, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 357, known 2, thin 770; no new actionable line/effect/known/scale/English warning; the unknown-n chronic-pain review is truthful",
+    "batch 324 deployment remains pending the next six-round check after batch 325: local 4187 entries/4194 id fields; public last verified at 4167 entries/4172 id fields"
   ],
-    "current_batch": "batch 323 complete; 7 evidence entries, 9 no-evidence closures, 13 oncology topics held, 20 legacy sentence edits; local 4182 entries/4189 id fields, public remains 4167/4172 pending the six-round check after batch 325; 13 unchecked oncology topics remain",
-    "next_action": "start batch 324; read actual state, hold the 13 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
+    "current_batch": "batch 324 complete; 5 evidence entries, 4 no-evidence closures, 14 oncology topics held, 20 legacy sentence edits; local 4187 entries/4194 id fields, public remains 4167/4172 pending the six-round check after batch 325; 14 unchecked oncology topics remain",
+    "next_action": "start batch 325; run git pull --ff-only and read AGENTS.md, process the 14 queued oncology topics only by holding them, expand with fresh non-drug branches because the queue is below 30, then investigate the new non-oncology topics"
 }
