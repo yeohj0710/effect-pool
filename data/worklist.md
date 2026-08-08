@@ -18239,3 +18239,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sedentary behavior reduction — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [ ] sedentary behavior reduction — Cancer에 듣는다  <!-- 시험 3건 · 논문 258편 -->
 - [x] sedentary behavior reduction — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] music engagement — Anxiety에 듣는다  <!-- 시험 6건 · 논문 249편 --> — 항목 추가(2026-08-09)
+- [x] music engagement — Stroke에 듣는다  <!-- 시험 4건 · 논문 88편 --> — 항목 추가(2026-08-09)
+- [x] music engagement — Autism에 듣는다  <!-- 시험 4건 · 논문 111편 --> — 항목 추가(2026-08-09)
+- [x] music engagement — Stress에 듣는다  <!-- 시험 4건 · 논문 264편 --> — 항목 추가(2026-08-09)
+- [x] self massage — Dysmenorrhea에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 항목 추가(2026-08-09)
+- [x] self massage — Cesarean Section에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 1건은 Tecar 치료와 자가 마사지가 함께 들어간 결과 미게시 프로토콜)
+- [x] light physical activity — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 297편 --> — 항목 추가(2026-08-09)
+- [x] light physical activity — Sleep에 듣는다  <!-- 시험 5건 · 논문 2120편 --> — 항목 추가(2026-08-09)
+- [x] light physical activity — Obesity에 듣는다  <!-- 시험 4건 · 논문 1866편 --> — 항목 추가(2026-08-09)
+- [x] light physical activity — Pain에 듣는다  <!-- 시험 4건 · 논문 1449편 --> — 항목 추가(2026-08-09)

@@ -1,0 +1,28 @@
+{
+  "id": "light-physical-activity-cognitive-decline-null",
+  "subj": "light physical activity",
+  "claim": "가벼운 신체활동은 노년 집행기능을 개선하는가",
+  "line": "짧은 가벼운 활동은 노년층 집행기능과 연관되지 않았습니다",
+  "effect": "가벼운 활동 연관 없음",
+  "tier": "obs",
+  "dir": "null",
+  "n": 40,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 행동이라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "노년층 40명이 가속도계로 일상 활동을 측정하고 트레일메이킹 검사로 집행기능을 평가한 단면 연구입니다.",
+  "saw": "중등도 활동과 짧은 중등도 활동은 처리속도·인지 유연성과 연관됐지만 가벼운 활동의 총량과 짧은 활동은 집행기능과 연관되지 않았습니다.",
+  "limit": "표본이 40명인 단면 연구라 활동 강도가 인지기능을 바꿨다고 말할 수 없고 결과를 다른 노년층에 일반화하기 어렵습니다.",
+  "against": "중등도 활동에서만 상관이 관찰됐고 가벼운 활동은 모든 측정 방식에서 유의한 연관이 없었습니다.",
+  "use": "노년층 인지건강에서 가벼운 활동만으로 집행기능 개선을 기대하지 않고 중등도 활동과 함께 평가합니다.",
+  "refs": [
+    { "label": "Moderate intensity intermittent lifestyle physical activity is associated with better executive function in older adults", "pmid": "38835704", "doi": "10.3389/fspor.2024.1393214" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.term=AREA[InterventionName]light physical activity AND AREA[ConditionSearch]Cognitive Decline → 50건, exact InterventionName 0건",
+    "pubmed": "\"light physical activity\" AND \"Cognitive Decline\" → 9건",
+    "negative": "\"light physical activity\" AND \"Cognitive Decline\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
+    "safety": "\"light physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 115건"
+  }
+}

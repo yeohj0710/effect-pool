@@ -1,0 +1,28 @@
+{
+  "id": "music-engagement-anxiety-pos",
+  "subj": "music engagement",
+  "claim": "음악 참여를 청소년 불안 완화에 쓴다",
+  "line": "음악 참여는 청소년 불안을 낮추는 방향을 보였습니다",
+  "effect": "20개 연구 1,912명",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 1912,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "청소년 음악 중재 무작위시험 15편과 준실험 5편, 1,912명을 합친 체계적 문헌고찰입니다.",
+  "saw": "대부분의 연구에서 불안이 낮아졌고 노래·악기·즉흥연주 같은 능동적 음악 참여가 수동적 감상보다 지속적인 감소를 보이는 경향이 있었습니다.",
+  "limit": "음악의 종류·기간·빈도와 불안 측정이 달라 효과의 크기와 지속성을 비교하기 어렵습니다.",
+  "against": "연구 간 중재 설계와 문화적 음악 요소가 달랐고 장기 추적이 부족해 특정 음악 참여 방식의 우월성은 확정되지 않았습니다.",
+  "use": "청소년 불안 지원에서 음악 참여를 보조 중재로 고를 때 능동적 참여와 문화적 적합성을 함께 설계합니다.",
+  "refs": [
+    { "label": "Effect of music on anxiety among adolescents · systematic review", "pmid": "42528843", "doi": "10.3389/fpsyg.2026.1822041" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.term=AREA[InterventionName]music engagement AND AREA[ConditionSearch]Anxiety → 18건, exact InterventionName 0건",
+    "pubmed": "\"music engagement\" AND \"Anxiety\" → 18건",
+    "negative": "\"music engagement\" AND \"Anxiety\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 4건",
+    "safety": "\"music engagement\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 7건"
+  }
+}

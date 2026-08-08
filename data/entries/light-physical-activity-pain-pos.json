@@ -1,0 +1,28 @@
+{
+  "id": "light-physical-activity-pain-pos",
+  "subj": "light physical activity",
+  "claim": "가벼운 신체활동을 노년층 통증 관리에 쓴다",
+  "line": "가벼운 신체활동은 노년층 통증 보고 odds를 11% 낮췄습니다",
+  "effect": "통증 OR 0.89",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 1201,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 행동이라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "가나의 50세 이상 성인 1,201명이 좌식시간·가벼운 활동과 통증을 보고한 인구기반 연구입니다.",
+  "saw": "하루 가벼운 신체활동이 많을수록 통증 보고 odds가 11% 낮았고, 좌식시간이 하루 8시간 이상이면 통증 odds가 2.42배였습니다.",
+  "limit": "자기보고를 사용한 단면 연구라 활동이 통증을 낮췄다고 말할 수 없고, 건강상태·기능제한·우울과 수면이 연관을 매개했습니다.",
+  "against": "다른 전향 연구에서는 직업상 신체활동과 1년 뒤 무릎통증의 유의한 연관이 없었고, 활동 강도에 따른 결과가 일정하지 않았습니다.",
+  "use": "노년층 통증관리에서 오래 앉아 있는 시간을 줄이고 가벼운 활동을 늘리는 목표를 세울 때 관찰 근거로 참고합니다.",
+  "refs": [
+    { "label": "Sedentary time, light physical activity intensity, and pain severity · Ghana study on aging", "pmid": "41231166", "doi": "10.1016/j.jmpt.2025.10.058" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.term=AREA[InterventionName]light physical activity AND AREA[ConditionSearch]Pain → 212건, exact InterventionName 0건",
+    "pubmed": "\"light physical activity\" AND \"Pain\" → 61건",
+    "negative": "\"light physical activity\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 16건",
+    "safety": "\"light physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 115건"
+  }
+}
