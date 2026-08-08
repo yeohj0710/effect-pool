@@ -17584,3 +17584,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep wearable — Stress에 듣는다  <!-- 시험 4건 · 논문 388편 -->
 - [x] sleep wearable — Age Problem에 듣는다  <!-- 시험 4건 · 논문 42편 --> — 근거 없음(2026-08-08 조회, "sleep wearable" AND "Age Problem"; 직접 수면 웨어러블 중재 결과 없음)
 - [x] nigella sativa — Covid19에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] tea consumption — Inflammation에 듣는다  <!-- 시험 3건 · 논문 282편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] social participation intervention — Mental Health에 듣는다  <!-- 시험 7건 · 논문 8100편 -->
+- [x] social participation intervention — Loneliness에 듣는다  <!-- 시험 6건 · 논문 849편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND Loneliness; 직접 사회참여 중재 결과 없음)
+- [x] social participation intervention — Blood Glucose에 듣는다  <!-- 시험 6건 · 논문 230편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND "Blood Glucose"; 직접 사회참여 중재 결과 없음)
+- [x] social participation intervention — Cognitive Frailty에 듣는다  <!-- 시험 5건 · 논문 139편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND "Cognitive Frailty"; 직접 사회참여 중재 결과 없음)
