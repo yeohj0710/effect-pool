@@ -1,0 +1,40 @@
+{
+  "id": "thermal-therapy-lung-neoplasms-open",
+  "subj": "thermal therapy",
+  "claim": "폐 종양에서 multimode thermal therapy의 효과와 안전성을 검증하는 시험이 시작되지 않았거나 진행 중이다",
+  "line": "폐암 온열치료 시험은 모집 전이라 효과를 알 수 없습니다.",
+  "effect": "결과 미확인",
+  "tier": "trial",
+  "dir": "open",
+  "n": 20,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "실험적 비약물 중재이며 폐 종양 치료 허가 적응증이 아닙니다.",
+  "why": "ClinicalTrials.gov에서 폐 종양과 thermal therapy가 직접 일치하는 등록시험을 확인했지만 결과가 없었습니다.",
+  "saw": "NCT06453889는 초기 말초 폐암 10명을 목표로 multimode thermal therapy를 계획했지만 아직 모집 전입니다. NCT07745790은 폐 종양을 포함한 여러 암에서 thermal therapy와 다른 항암 중재를 병용하는 20명 규모 2상 시험으로 아직 모집 전입니다.",
+  "limit": "두 시험 모두 결과가 없고, 두 번째 시험은 thermal therapy 단독 효과를 분리하지 못하는 복합 중재입니다.",
+  "against": "thermal therapy와 폐 종양을 정확히 연결한 사람 결과 논문을 확인하지 못했습니다.",
+  "use": "폐 종양 온열치료는 결과가 공개될 때까지 임상시험 단계의 중재로만 기록합니다.",
+  "refs": [
+    {
+      "label": "Advances in percutaneous lung ablation 2026 · literature review",
+      "doi": "10.21037/cco-25-114",
+      "pmid": "41797458"
+    },
+    {
+      "label": "Multimode thermal therapy for early peripheral lung cancer · not yet recruiting registry",
+      "nct": "NCT06453889"
+    },
+    {
+      "label": "Multimodal thermal therapy with systemic treatment in metastatic cancer · not yet recruiting registry",
+      "nct": "NCT07745790"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "thermal therapy AND Lung Neoplasms · 22건 · exact InterventionName 2건",
+    "pubmed": "thermal therapy AND Lung Neoplasms · 832건; exact phrase title/abstract · 26건",
+    "negative": "thermal therapy AND Lung Neoplasms AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 82건",
+    "safety": "thermal therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 10600건"
+  }
+}
