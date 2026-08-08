@@ -3,16 +3,16 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 4009,
   "worklist": {
-    "total": 13533,
-    "checked": 13533,
+    "total": 13551,
+    "checked": 13551,
     "unchecked": 0,
-    "no_evidence_pending": 1505,
+    "no_evidence_pending": 1513,
     "next_batch": [
 
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 290 added 0 evidence entries because two fresh non-drug expansions returned 0 candidates, and tightened 20 legacy sentences; local build generated 4009 entries and 5592 refs with no new actionable warnings",
+    "build": "passed with pre-existing warnings; batch 291 added 8 evidence entries from 18 non-drug device, rehabilitation, and care topics after two expansion attempts, closed 1 duplicate and 8 no-evidence topics, held 1 registry-results-only topic without a PubMed paper, and tightened 20 legacy sentences; local build generated 4017 entries and 5601 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 4,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -26,27 +26,27 @@
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 936,
+    "no_effect_or_harm": 937,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
     "non_trial": 552,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5592,
-    "thin_warnings": 702
+    "connected_evidence": 5601,
+    "thin_warnings": 708
   },
   "deployment": {
     "last_entry_count": 4009,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_ARKGnmhLchgAHHzfPEvdssnnfDGj",
-    "deployment_state": "six-round check after batches 284-289 passed; automatic Git deployment caught up and public matches the local batch 289 build",
+    "deployment_state": "batch 291 local build is 8 entries ahead of the last verified public build; public remains at 4009 until the six-round deployment check after batch 295",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4009,
-    "local_id_field_count": 4014,
+    "local_entry_count": 4017,
+    "local_id_field_count": 4022,
     "public_entry_count": 4009,
     "public_id_field_count": 4014,
     "counts_match": true,
-    "latest_note": "Batch 289 six-round check returned HTTP 200 and matched the local 4009-entry, 4014-id-field, 5592-ref build; automatic Git deployment caught up and vercel --prod was not required.",
+    "latest_note": "Batch 291 local build has 4017 entries and 4022 id fields; public remains the last verified 4009-entry, 4014-id-field, 5601-ref build until the six-round check after batch 295.",
     "six_round_check": {
       "batches": "284-289",
       "http_status": 200,
@@ -1035,8 +1035,15 @@
     "batch 289 evidence entries: soy-food-consumption-overweight-open from PMID42451052 and wheat-consumption-obesity-open from PMID35734377",
     "batch 289 tightened 20 legacy claims from expressive-writing-stress through famotidine-covid-19; numbers, effects, and sample sizes were preserved",
     "batch 289 build generated 4009 entries and 5592 refs; trial 3457, obs 487, non-trial 552, no-effect/harm 936 (23%), harm 119, unknown_n 346, known 2, thin 702; no new actionable line/effect/known/scale/English warning",
-    "batch 289 deployment check passed: HTTP 200, local/public 4009 entries/4014 id fields/5592 refs; automatic Git deployment caught up and vercel --prod was not required"
+    "batch 289 deployment check passed: HTTP 200, local/public 4009 entries/4014 id fields/5592 refs; automatic Git deployment caught up and vercel --prod was not required",
+    "batch 291 expansion attempt one used 20 fresh non-drug device, rehabilitation, and care names and returned HTTP 500 for all requests",
+    "batch 291 expansion attempt two used 20 different non-drug device, rehabilitation, and care names and added 18 candidates after partial HTTP 500 responses",
+    "batch 291 processed 18 non-oncology topics; added 8 evidence entries, closed 1 duplicate and 8 no-evidence topics, held 1 registry-results-only topic without a PubMed paper, and skipped 0 approved indications",
+    "batch 291 evidence entries: robotic-hand-rehabilitation-hemiplegia-pos, robotic-hand-rehabilitation-motor-function-pos, robotic-hand-rehabilitation-cerebral-palsy-open, speech-therapy-device-stroke-pos, home-rehabilitation-app-knee-null, home-rehabilitation-app-stroke-open, hospital-at-home-infection-open, community-rehabilitation-mental-stress-open",
+    "batch 291 tightened 20 legacy claims from famotidine-sars-cov-2-infection through fermented-foods-inflammation; numbers, effects, and sample sizes were preserved",
+    "batch 291 build generated 4017 entries and 5601 refs; trial 3465, obs 487, non-trial 552, no-effect/harm 937 (23%), harm 119, unknown_n 346, known 2, thin 708; no new actionable warning",
+    "batch 291 deployment remains pending the six-round check after batch 295: local 4017 entries/4022 id fields/5601 refs, public 4009/4014/5592"
   ],
-  "current_batch": "batch 290 complete; two fresh non-drug expansions returned 0 candidates, 0 evidence entries were added, and 20 legacy sentence edits were made; local/public 4009 and worklist is empty",
-  "next_action": "commit and push batch 290; immediately start batch 291 with git pull --ff-only and AGENTS.md, switch to a different fresh non-drug branch after this zero-yield batch"
+  "current_batch": "batch 291 complete; 8 evidence entries, 1 duplicate closure, 8 no-evidence closures, 1 registry-results-only hold, and 20 legacy sentence edits; local 4017 and public last verified 4009; worklist is empty",
+  "next_action": "commit and push batch 291; immediately start batch 292 with git pull --ff-only and AGENTS.md, then use a fresh non-drug branch"
 }

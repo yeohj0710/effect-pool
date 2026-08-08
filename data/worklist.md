@@ -17298,3 +17298,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] wheat consumption — Appetitive Behavior에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-08 조회, PubMed wheat consumption AND Appetitive Behavior · 사람 중재 결과 없음)
 - [x] wheat consumption — Appetite에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 근거 없음(2026-08-08 조회, PubMed wheat consumption AND Appetite · 직접 사람 중재 결과 없음; PMID35915782는 제안된 식욕 효과에 근거가 없다고 결론)
 - [x] wheat consumption — Obesity에 듣는다  <!-- 시험 3건 · 논문 158편 --> — 항목 생성(wheat-consumption-obesity-open, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] robotic hand rehabilitation — Hemiplegia에 듣는다  <!-- 시험 6건 · 논문 52편 --> — 항목 생성(robotic-hand-rehabilitation-hemiplegia-pos, 2026-08-08 조회)
+- [x] robotic hand rehabilitation — Rehabilitation에 듣는다  <!-- 시험 4건 · 논문 1911편 --> — 중복(robotic-hand-rehabilitation-hemiplegia-pos·robotic-hand-rehabilitation-motor-function-pos, 2026-08-08 조회)
+- [x] robotic hand rehabilitation — Motor Function에 듣는다  <!-- 시험 4건 · 논문 840편 --> — 항목 생성(robotic-hand-rehabilitation-motor-function-pos, 2026-08-08 조회)
+- [x] robotic hand rehabilitation — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 48편 --> — 항목 생성(robotic-hand-rehabilitation-cerebral-palsy-open, 2026-08-08 조회)
+- [x] speech therapy device — Stroke에 듣는다  <!-- 시험 8건 · 논문 153편 --> — 항목 생성(speech-therapy-device-stroke-pos, 2026-08-08 조회)
+- [x] speech therapy device — Parkinson Disease에 듣는다  <!-- 시험 5건 · 논문 121편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov speech therapy device AND Parkinson Disease · 직접 기기 결과 없음; PubMed 검색은 음성·자극·기술 고찰 중심)
+- [x] speech therapy device — Genetic Disease에 듣는다  <!-- 시험 3건 · 논문 133편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov speech therapy device AND Genetic Disease · 직접 언어치료기기 결과 없음; PubMed 검색은 유전질환 사례·기기 프로토콜 중심)
+- [x] speech therapy device — Cleft Lip에 듣는다  <!-- 시험 3건 · 논문 110편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov speech therapy device AND Cleft Lip · 직접 결과 없음; EMST 시험은 종료·결과 미게시)
+- [x] home rehabilitation app — Knee에 듣는다  <!-- 시험 4건 · 논문 41편 --> — 항목 생성(home-rehabilitation-app-knee-null, 2026-08-08 조회)
+- [x] home rehabilitation app — Stroke에 듣는다  <!-- 시험 3건 · 논문 65편 --> — 항목 생성(home-rehabilitation-app-stroke-open, 2026-08-08 조회)
+- [x] hospital at home — Home-based Pulmonary Rehabilitation에 듣는다  <!-- 시험 8건 · 논문 511편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov hospital at home AND Home-based Pulmonary Rehabilitation · 직접 hospital-at-home 중재 일치 0건; PubMed는 가정 폐재활 연구 중심)
+- [x] hospital at home — Cancer에 듣는다  <!-- 시험 8건 · 논문 12373편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov hospital at home AND Cancer · 직접 hospital-at-home 중재 일치 0건; PubMed는 병원-가정 전환·mHealth 연구 중심)
+- [x] hospital at home — Infection에 듣는다  <!-- 시험 4건 · 논문 18705편 --> — 항목 생성(hospital-at-home-infection-open, 2026-08-08 조회)
+- [x] hospital at home — Cardiac Arrest에 듣는다  <!-- 시험 4건 · 논문 1332편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov hospital at home AND Cardiac Arrest · 직접 hospital-at-home 중재 일치 0건; PubMed 직접 결과 없음)
+- [x] community rehabilitation — Mental Stress에 듣는다  <!-- 시험 6건 · 논문 2435편 --> — 항목 생성(community-rehabilitation-mental-stress-open, 2026-08-08 조회)
+- [x] community rehabilitation — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 2424편 --> — 결과 등록만(2026-08-08 조회, NCT03567239 결과 게시·n=5 확인했지만 PubMed 원문 없음; builder 규칙상 항목 보류)
+- [x] community rehabilitation — Bipolar Disorder에 듣는다  <!-- 시험 4건 · 논문 374편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov community rehabilitation AND Bipolar Disorder · 직접 community rehabilitation 결과 없음; PubMed는 정신질환 일반 재활·고찰 중심)
+- [x] community rehabilitation — Pulmonary Disease에 듣는다  <!-- 시험 4건 · 논문 3677편 --> — 근거 없음(2026-08-08 조회, ClinicalTrials.gov community rehabilitation AND Pulmonary Disease · 직접 community rehabilitation 결과 없음; PubMed는 가정·원격 폐재활 연구 중심)
