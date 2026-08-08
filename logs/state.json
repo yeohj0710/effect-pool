@@ -12,7 +12,7 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 289 added 2 evidence entries, processed 8 topics after two fresh non-drug expansions, closed 3 duplicate/no-evidence topics, and tightened 20 legacy sentences; local build generated 4009 entries and 5592 refs with no new actionable line/effect/known/scale/English warnings; one truthful thin-study warning was added for the new n=30 soy trial",
+    "build": "passed with pre-existing warnings; batch 290 added 0 evidence entries because two fresh non-drug expansions returned 0 candidates, and tightened 20 legacy sentences; local build generated 4009 entries and 5592 refs with no new actionable warnings",
     "line_warnings": 4,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -1037,6 +1037,6 @@
     "batch 289 build generated 4009 entries and 5592 refs; trial 3457, obs 487, non-trial 552, no-effect/harm 936 (23%), harm 119, unknown_n 346, known 2, thin 702; no new actionable line/effect/known/scale/English warning",
     "batch 289 deployment check passed: HTTP 200, local/public 4009 entries/4014 id fields/5592 refs; automatic Git deployment caught up and vercel --prod was not required"
   ],
-  "current_batch": "batch 289 complete; 2 evidence entries, 3 duplicate/no-evidence closures, 20 legacy sentence edits, and a passing six-round deployment check; local/public 4009 and worklist is empty",
-  "next_action": "commit and push the deployment-check state update; immediately start batch 290 with git pull --ff-only and AGENTS.md"
+  "current_batch": "batch 290 complete; two fresh non-drug expansions returned 0 candidates, 0 evidence entries were added, and 20 legacy sentence edits were made; local/public 4009 and worklist is empty",
+  "next_action": "commit and push batch 290; immediately start batch 291 with git pull --ff-only and AGENTS.md, switch to a different fresh non-drug branch after this zero-yield batch"
 }
