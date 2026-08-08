@@ -17223,3 +17223,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] yogurt intake — Overweight에 듣는다 — entries/yogurt-intake-overweight-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 190편 -->
 - [x] yogurt intake — Gastrointestinal Tolerance에 듣는다 — entries/yogurt-intake-gastrointestinal-tolerance-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 17편 -->
 - [x] yogurt intake — Appetite에 듣는다 — entries/yogurt-intake-appetite-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 105편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] beet consumption — Exercise Training에 듣는다 — 중복(beetroot-juice-exercise-pos, beetroot-extract-exercise-performance-pos)  <!-- 시험 3건 · 논문 129편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] group cycling — Physical Game에 듣는다 — 중복(group-cycling-hypertension-open, PMID36681131)  <!-- 시험 7건 · 논문 73편 -->
+- [x] group cycling — Hypertension에 듣는다  <!-- 시험 6건 · 논문 2321편 -->
+- [x] group cycling — Breast Cancer에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "group cycling AND Breast Cancer"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 6600편 -->
+- [x] group cycling — COPD에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "group cycling AND COPD"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 643편 -->
+- [x] social walking — Dementia에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "social walking AND Dementia"; 직접 사람 결과 없음)  <!-- 시험 5건 · 논문 342편 -->
+- [x] social walking — Depression에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "social walking AND Depression"; 직접 사람 결과 없음)  <!-- 시험 5건 · 논문 826편 -->
+- [x] social walking — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 325편 -->
+- [x] social walking — Autism Spectrum Disorder에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "social walking AND Autism Spectrum Disorder"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 105편 -->
+- [x] yoga walking — Depression에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "yoga walking AND Depression"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 83편 -->
+- [x] yoga walking — Pain에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "yoga walking AND Pain"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 74편 -->
+- [x] yoga walking — Symptoms and Signs에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "yoga walking AND Symptoms and Signs"; 직접 사람 결과 없음)  <!-- 시험 4건 · 논문 73편 -->
+- [x] berry consumption — Inflammation에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "berry consumption AND Inflammation"; 직접 사람 결과 없음)  <!-- 시험 3건 · 논문 847편 -->
+- [x] dairy consumption — Inflammation에 듣는다 — 중복(yogurt-inflammation-null, PMID32870744)  <!-- 시험 6건 · 논문 389편 -->
+- [x] dairy consumption — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 286편 -->
+- [x] dairy consumption — Hypercholesterolemia에 듣는다 — 근거 없음(2026-08-08 조회, ClinicalTrials.gov·PubMed "dairy consumption AND Hypercholesterolemia"; 직접 사람 결과 없음)  <!-- 시험 3건 · 논문 74편 -->

@@ -1,24 +1,27 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4003,
+  "entries": 4006,
   "worklist": {
-    "total": 13508,
-    "checked": 13508,
+    "total": 13524,
+    "checked": 13524,
     "unchecked": 0,
-    "no_evidence_pending": 1492,
+    "no_evidence_pending": 1502,
     "next_batch": [
 
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 286 added 4 evidence entries, closed 9 topics, and tightened 20 legacy sentences after one fresh non-drug expansion; local build generated 4003 entries and 5584 refs with no new actionable line/effect/known/scale/English warnings; three new truthful thin-study warnings remain and one pre-existing unknown-n warning remains",
-    "line_warnings": 0,
+    "build": "passed with pre-existing warnings; batch 287 added 3 evidence entries, closed 13 topics as duplicates or no-evidence, and tightened 20 legacy sentences after two fresh non-drug expansions; local build generated 4006 entries and 5588 refs with no new actionable line/effect/known/scale/English warnings; pre-existing warnings remain",
+    "line_warnings": 4,
+    "effect_warnings": 1,
+    "english_warnings": 3,
+    "scale_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3455,
-      "obs": 483,
+      "trial": 3456,
+      "obs": 485,
       "animal": 22,
       "lab": 11,
       "case": 32
@@ -26,24 +29,24 @@
     "no_effect_or_harm": 936,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 548,
+    "non_trial": 550,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5584,
-    "thin_warnings": 706
+    "connected_evidence": 5588,
+    "thin_warnings": 701
   },
   "deployment": {
     "last_entry_count": 3981,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_ARKGnmhLchgAHHzfPEvdssnnfDGj",
-    "deployment_state": "batch 286 local build is 22 entries ahead of the last verified public build; public remains at 3981 until the six-round deployment check after batch 289",
+    "deployment_state": "batch 287 local build is 25 entries ahead of the last verified public build; public remains at 3981 until the six-round deployment check after batch 289",
     "deployment_url": "https://offlabel-pool-e7jumlf0h-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4003,
-    "local_id_field_count": 4008,
+    "local_entry_count": 4006,
+    "local_id_field_count": 4011,
     "public_entry_count": 3981,
     "public_id_field_count": 3986,
     "counts_match": false,
-    "latest_note": "Batch 286 local build has 4003 entries and 4008 id fields; public remains the last verified 3981-entry build until the six-round check after batch 289.",
+    "latest_note": "Batch 287 local build has 4006 entries and 4011 id fields; public remains the last verified 3981-entry build until the six-round check after batch 289.",
     "six_round_check": {
       "batches": "278-283",
       "http_status": 200,
@@ -1013,8 +1016,14 @@
     "batch 283 closed reading group Language Delay/Anxiety/Dyslexia and active video play Breast Cancer as no-evidence; dated worklist notes preserve the search terms",
     "batch 283 tightened 20 legacy sentences from emotional-freedom-technique-stress through empagliflozin-hypertension; numbers, effects, and sample sizes were preserved",
     "batch 283 build generated 3981 entries and 5562 refs; warning counts were unknown_n 346, thin 688, known 2, effect 0, line/scale/English 0; one truthful thin-study warning remains for n=29",
-    "six-round check after batches 278-283 found public 3973 versus local 3981 with HTTP 200; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3981 entries and 3986 id fields"
+    "six-round check after batches 278-283 found public 3973 versus local 3981 with HTTP 200; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3981 entries and 3986 id fields",
+    "batch 287 expansion attempt one used 20 fresh non-drug food, activity, and environment names and added 1 candidate; attempt two used 20 different names and added 15 candidates; no third expansion was run",
+    "batch 287 evidence entries: group-cycling-hypertension-open from PMID36681131, social-walking-cognitive-decline-open from PMID38412543/NCT05906654/NCT05906667, and dairy-consumption-metabolic-syndrome-open from PMID26433009",
+    "batch 287 closed 3 duplicate topics and 10 no-evidence topics; skipped 0 approved indications and held 0 new oncology topics",
+    "batch 287 tightened 20 legacy claims from exenatide-myocardial-infarction through exergaming-cognitive-decline; numbers, effects, and sample sizes were preserved",
+    "batch 287 build generated 4006 entries and 5588 refs; trial 3456, obs 485, non-trial 550, no-effect/harm 936 (23%), harm 119, unknown_n 346, known 2, thin 701; no new actionable warning",
+    "batch 287 deployment remains pending the six-round check after batch 289: local 4006 entries/4011 id fields, public 3981/3986"
   ],
-  "current_batch": "batch 286 complete locally; 4 evidence entries, 9 duplicate/no-evidence closures, and 20 legacy sentence edits after one fresh non-drug expansion; local 4003 and public remains 3981; worklist is empty",
-  "next_action": "commit and push batch 286; immediately start batch 287 with git pull --ff-only and AGENTS.md; run expand-worklist --covered and fresh non-drug expansions, then process up to 30 new non-oncology topics"
+  "current_batch": "batch 287 complete locally; 3 evidence entries, 13 duplicate/no-evidence closures, and 20 legacy sentence edits after two fresh non-drug expansions; local 4006 and public remains 3981; worklist is empty",
+  "next_action": "commit and push batch 287; immediately start batch 288 with git pull --ff-only and AGENTS.md; run expand-worklist --covered and fresh non-drug expansions, then process up to 30 new non-oncology topics"
 }
