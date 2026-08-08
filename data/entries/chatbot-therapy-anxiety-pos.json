@@ -1,0 +1,29 @@
+{
+  "id": "chatbot-therapy-anxiety-pos",
+  "subj": "챗봇 치료",
+  "claim": "챗봇 치료가 불안 증상을 줄인다",
+  "line": "챗봇 불안 중재 34개 무작위시험에서 불안 증상이 대조군보다 줄었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 7621,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "불안 치료 챗봇은 허가 적응증이 아니며 표준 치료를 대체하지 않습니다.",
+  "why": "무작위시험을 합친 메타분석에서 챗봇 중재가 대조군보다 불안 증상을 낮췄습니다.",
+  "saw": "39개 무작위시험 중 불안 결과를 보고한 34개 시험, 7,621명을 합쳤습니다. 불안 증상 Hedges g는 0.28(95% CI 0.05~0.51)로 챗봇군이 대조군보다 낮았습니다.",
+  "limit": "서로 다른 챗봇과 대상·추적 기간을 합친 평균 효과라 특정 챗봇의 효과나 장기 지속성을 보장하지 않습니다.",
+  "against": "별도 안전성 검토에 포함된 21개 연구는 이상반응 감시가 드물고 위기 대응 수준이 연구마다 달랐다고 지적했습니다.",
+  "use": "불안 증상에 대한 챗봇 연구의 평균 신호를 확인하는 근거로만 참고하며, 안전장치와 사람의 진료 연결을 함께 평가합니다.",
+  "effect": "불안 Hedges g 0.28",
+  "refs": [
+    { "label": "Sohn 2026 · NPJ Digital Medicine · 불안 챗봇 메타분석", "doi": "10.1038/s41746-026-02566-w", "pmid": "41882250", "pmc": "PMC13181040" },
+    { "label": "2026 · Healthcare · 생성형 정신건강 챗봇 안전성 검토", "doi": "10.3390/healthcare14101395", "pmid": "42194487", "pmc": "PMC13205439" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=chatbot therapy, cond=Anxiety · 27건 반환·중재명 일치 6건",
+    "pubmed": "chatbot AND anxiety · 395편",
+    "negative": "chatbot AND anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference) · 278편",
+    "safety": "chatbot AND anxiety AND (adverse OR toxicity OR safety OR harm OR distress) · 95편"
+  }
+}

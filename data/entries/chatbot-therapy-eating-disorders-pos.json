@@ -1,0 +1,29 @@
+{
+  "id": "chatbot-therapy-eating-disorders-pos",
+  "subj": "챗봇 치료",
+  "claim": "챗봇 단회 중재가 섭식장애 치료 대기자의 증상을 줄인다",
+  "line": "섭식장애 치료 대기자에게 챗봇 단회 중재를 했더니 증상과 불안이 3개월까지 줄었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "섭식장애 치료용 챗봇은 허가 적응증이 아니며 표준 치료를 대체하지 않습니다.",
+  "why": "치료를 기다리던 섭식장애 환자를 무작위 배정한 시험에서 30분짜리 챗봇 단회 중재의 단기·중기 신호를 확인했습니다.",
+  "saw": "치료 대기자 60명을 챗봇군 30명과 웹 정보 대조군 30명으로 나눴습니다. 섭식장애 증상(P=.003), 심리사회적 손상(P=.008), 우울(P=.002), 불안(P=.040)이 1·3개월 평가에서 챗봇군에 더 많이 줄었고 효과크기는 Cohen d 0.15~0.53이었습니다.",
+  "limit": "60명 단일시험이고 30분 단회 중재라 장기 치료 효과와 다른 섭식장애 유형·진료 환경에서의 재현성을 확인하지 못했습니다.",
+  "against": "효과크기가 작거나 중간 수준이며 대조군은 치료가 아니라 웹 정보였으므로 챗봇이 전문 치료를 대신한다고 볼 수 없습니다.",
+  "use": "치료 대기 중 초기 지원을 연구한 근거로만 참고하며, 섭식장애 평가와 치료를 사람 의료진에게 연결하는 전제가 필요합니다.",
+  "effect": "섭식장애 증상 P=.003",
+  "refs": [
+    { "label": "2025 · JMIR · ED ESSI 섭식장애 챗봇 무작위시험", "doi": "10.2196/70874", "pmid": "40397933", "pmc": "PMC12138310" },
+    { "label": "2026 · Healthcare · 생성형 정신건강 챗봇 안전성 검토", "doi": "10.3390/healthcare14101395", "pmid": "42194487", "pmc": "PMC13205439" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "intr=chatbot therapy, cond=Eating Disorders · 6건 반환·중재명 일치 3건",
+    "pubmed": "chatbot AND eating disorders · 39편",
+    "negative": "chatbot AND eating disorders AND (no effect OR did not OR failed to OR negative OR no significant difference) · 18편",
+    "safety": "chatbot AND eating disorders AND (adverse OR toxicity OR safety OR harm OR distress) · 8편"
+  }
+}
