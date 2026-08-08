@@ -16614,3 +16614,55 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] xylitol — Mucositis에 듣는다  <!-- 시험 6건 · 논문 61편 -->
 - [x] xylitol — Gingivitis에 듣는다  <!-- 시험 4건 · 논문 77편 -->
 - [x] xylitol — Periodontal Disease에 듣는다  <!-- 시험 4건 · 논문 81편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] antigravity treadmill — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(antigravity-treadmill-osteoarthritis-pos)
+- [x] compassion training — Depression에 듣는다  <!-- 시험 12건 · 논문 1135편 --> — 항목 생성(compassion-training-depression-pos)
+- [x] compassion training — Distress에 듣는다  <!-- 시험 9건 · 논문 1157편 --> — 항목 생성(compassion-training-distress-pos)
+- [x] compassion training — Mindfulness에 듣는다  <!-- 시험 8건 · 논문 1277편 --> — 항목 생성(compassion-training-mindfulness-pos)
+- [x] compassion training — Anxiety에 듣는다  <!-- 시험 7건 · 논문 1280편 --> — 항목 생성(compassion-training-anxiety-pos)
+- [x] saffron extract — Macular Dystrophy에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 근거 없음(2026-08-08, saffron extract AND Macular Dystrophy; 직접 사람 중재 결과 논문 없음)
+- [x] saffron extract — Depression에 듣는다  <!-- 시험 3건 · 논문 107편 --> — 항목 생성(saffron-extract-depression-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] acupressure wristband — Functional Nausea에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-08, acupressure wristband AND Functional Nausea; 해당 질환 직접 결과 없음)
+- [x] aerobic dance — Cognitive Function에 듣는다  <!-- 시험 5건 · 논문 305편 --> — 항목 생성(aerobic-dance-cognitive-function-pos)
+- [x] aerobic dance — Fibromyalgia에 듣는다  <!-- 시험 4건 · 논문 22편 --> — 근거 없음(2026-08-08, aerobic dance AND Fibromyalgia; 직접 결과는 리뷰뿐)
+- [x] aerobic dance — Exercise에 듣는다  <!-- 시험 4건 · 논문 2950편 --> — 근거 없음(2026-08-08, aerobic dance AND Exercise; 특정 질환 직접 결과 없음)
+- [x] aerobic dance — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 40편 --> — 항목 생성(aerobic-dance-diabetes-mellitus-pos)
+- [x] cognitive training games — Schizophrenia에 듣는다  <!-- 시험 17건 · 논문 58편 --> — 근거 없음(2026-08-08, cognitive training games AND Schizophrenia; 직접 결과 논문 없음)
+- [x] cognitive training games — Depression에 듣는다  <!-- 시험 16건 · 논문 95편 --> — 근거 없음(2026-08-08, cognitive training games AND Depression; 직접 결과는 리뷰·분류 연구뿐)
+- [x] cognitive training games — Alzheimer Disease에 듣는다  <!-- 시험 14건 · 논문 66편 --> — 근거 없음(2026-08-08, cognitive training games AND Alzheimer Disease; 직접 결과는 리뷰뿐)
+- [x] cognitive training games — Dementia에 듣는다  <!-- 시험 11건 · 논문 137편 --> — 근거 없음(2026-08-08, cognitive training games AND Dementia; 직접 결과 논문 없음)
+- [x] guided breathing exercise — Anxiety에 듣는다  <!-- 시험 9건 · 논문 81편 --> — 항목 생성(guided-breathing-exercise-anxiety-pos)
+- [x] guided breathing exercise — Stress에 듣는다  <!-- 시험 6건 · 논문 109편 --> — 항목 생성(guided-breathing-exercise-stress-pos)
+- [x] guided breathing exercise — Hypertension에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 근거 없음(2026-08-08, guided breathing exercise AND Hypertension; 직접 결과 논문 없음)
+- [x] mindfulness walking — Depression에 듣는다  <!-- 시험 20건 · 논문 48편 --> — 항목 생성(mindfulness-walking-depression-pos)
+- [x] mindfulness walking — Stress에 듣는다  <!-- 시험 20건 · 논문 73편 --> — 항목 생성(mindfulness-walking-stress-pos)
+- [x] mindfulness walking — Mental Health에 듣는다  <!-- 시험 13건 · 논문 65편 --> — 항목 생성(mindfulness-walking-mental-health-pos)
+- [x] mindfulness walking — Psychological에 듣는다  <!-- 시험 11건 · 논문 78편 --> — 항목 생성(mindfulness-walking-psychological-pos)
+- [ ] tai chi walking — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [ ] tai chi walking — Falls에 듣는다  <!-- 시험 4건 · 논문 108편 -->
+- [ ] tai chi walking — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] cherry concentrate — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 10편 -->
+- [ ] cherry concentrate — Gout에 듣는다  <!-- 시험 4건 · 논문 17편 -->
+- [ ] cherry concentrate — Hypertension에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [ ] erythritol — Periodontitis에 듣는다  <!-- 시험 10건 · 논문 88편 -->
+- [ ] erythritol — Satiation에 듣는다  <!-- 시험 4건 · 논문 9편 -->
+- [ ] erythritol — Periodontal Pocket에 듣는다  <!-- 시험 4건 · 논문 25편 -->
