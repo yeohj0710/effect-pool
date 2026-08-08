@@ -33,14 +33,14 @@
     "last_entry_count": 3698,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_7uX3G8PJyiahYCTuXo5Cu6Yj4uhj",
-    "deployment_state": "batch 247 local build has 3734 entries; public last verified at 3698; six-round deployment check is pending",
+    "deployment_state": "batch 247 six-round check passed; public HTTP 200 matches the 3734-entry local build and 5314 refs",
     "deployment_url": "https://offlabel-pool-fcmz17v16-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
     "local_entry_count": 3734,
-    "public_entry_count": 3698,
-    "public_id_field_count": 3703,
-    "counts_match": false,
-    "latest_note": "Batch 247 local build: 3734 entries and 5314 refs; public remains 3698 until the six-round check after this push.",
+    "public_entry_count": 3734,
+    "public_id_field_count": 3739,
+    "counts_match": true,
+    "latest_note": "Batch 247 six-round check: public HTTP 200 and local/public counts match at 3734 entries (3739 id fields) and 5314 refs; automatic Git deployment succeeded.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
   "last_batch": [
@@ -817,8 +817,9 @@
     "batch 247 added brazikumab-ibd-pos, belatacept-graft-loss-harm, olokizumab-covid-19-pos, chatbot-therapy-smoking-cessation-pos, chatbot-therapy-anxiety-pos, and chatbot-therapy-eating-disorders-pos",
     "batch 247 marked belatacept Type 1 Diabetes as no-evidence; belatacept Renal Transplant and Graft Rejection were marked as approved indications; the three chatbot topics had direct human intervention evidence",
     "batch 247 tightened 20 legacy sentences from behavioral-therapy-for-insomnia-sleep through board-games-health-professional-education; numbers, effects, and evidence levels were preserved",
-    "batch 247 build passed after removing sample-size numbers from two new display lines; one truthful thin-study warning remains for the 23-person smoking cessation feasibility trial; local build is 3734 and public remains 3698 pending the six-round check"
+    "batch 247 build passed after removing sample-size numbers from two new display lines; one truthful thin-study warning remains for the 23-person smoking cessation feasibility trial; local build is 3734 and public matched at 3734 after the six-round check",
+    "six-round check after batches 242-247: no-effect/harm share 24%, harm 117, non-trial 498, unexpected-benefit entries 23; public HTTP 200 and local/public counts match at 3734 entries (3739 id fields) and 5314 refs"
   ],
-  "current_batch": "batch 247 complete locally; 6 evidence entries, 1 no-evidence topic, 2 approved indications, and 6 oncology topics remain; local build 3734; public last verified 3698; six-round check pending",
-  "next_action": "commit and push batch 247; compare the public count with the 3734-entry local build; if it differs, run vercel --prod and record the automatic deployment lag; then start batch 248 immediately"
+  "current_batch": "batch 247 complete; 6 evidence entries, 1 no-evidence topic, 2 approved indications, and 6 oncology topics remain; local/public 3734; six-round check passed",
+  "next_action": "commit the six-round state update, then start batch 248 with git pull --ff-only, AGENTS.md, and the remaining oncology-only queue; expand only when the unchecked count drops below 30"
 }
