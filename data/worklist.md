@@ -18216,26 +18216,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] video exercise program — Diabetes에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 50건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 119편 -->
 - [ ] home exercise video — Lung Cancer에 듣는다  <!-- 시험 14건 · 논문 9편 -->
 - [x] home exercise video — Osteoarthritis에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 37건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 8건 · 논문 40편 -->
-- [ ] home exercise video — Telerehabilitation에 듣는다  <!-- 시험 7건 · 논문 153편 -->
-- [ ] home exercise video — Stroke에 듣는다  <!-- 시험 7건 · 논문 102편 -->
-- [ ] virtual group exercise — Stroke에 듣는다  <!-- 시험 47건 · 논문 265편 -->
+- [x] home exercise video — Telerehabilitation에 듣는다  <!-- 시험 7건 · 논문 153편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
+- [x] home exercise video — Stroke에 듣는다  <!-- 시험 7건 · 논문 102편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 NCT03509363 1건은 결과 미게시 등록시험; PubMed 직접 0건)
+- [x] virtual group exercise — Stroke에 듣는다  <!-- 시험 47건 · 논문 265편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [ ] virtual group exercise — Cancer에 듣는다  <!-- 시험 37건 · 논문 149편 -->
-- [ ] virtual group exercise — OA Knee에 듣는다  <!-- 시험 21건 · 논문 13편 -->
-- [ ] virtual group exercise — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 101편 -->
-- [ ] remote exercise coaching — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [x] virtual group exercise — OA Knee에 듣는다  <!-- 시험 21건 · 논문 13편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
+- [x] virtual group exercise — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 101편 --> — 항목 추가(2026-08-09)
+- [x] remote exercise coaching — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 항목 추가(2026-08-09)
 - [ ] wearable exercise tracker — Neoplasms에 듣는다  <!-- 시험 4건 · 논문 66편 -->
-- [ ] wearable exercise tracker — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 746편 -->
-- [ ] wearable exercise tracker — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 18편 -->
-- [ ] self-guided exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 20편 -->
+- [x] wearable exercise tracker — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 746편 --> — 항목 추가(2026-08-09)
+- [x] wearable exercise tracker — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 항목 추가(2026-08-09)
+- [x] self-guided exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 20편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [ ] self-guided exercise — Cancer에 듣는다  <!-- 시험 5건 · 논문 19편 -->
-- [ ] exercise prescription — Obesity에 듣는다  <!-- 시험 24건 · 논문 17312편 -->
-- [ ] exercise prescription — Heart Failure에 듣는다  <!-- 시험 18건 · 논문 10401편 -->
-- [ ] exercise prescription — Physical Therapy에 듣는다  <!-- 시험 16건 · 논문 130874편 -->
-- [ ] exercise prescription — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 22371편 -->
-- [ ] physical activity counseling — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 862편 -->
-- [ ] physical activity counseling — Pain에 듣는다  <!-- 시험 6건 · 논문 928편 -->
-- [ ] physical activity counseling — Behavior Change에 듣는다  <!-- 시험 4건 · 논문 1858편 -->
-- [ ] physical activity counseling — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 53편 -->
-- [ ] sedentary behavior reduction — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [x] exercise prescription — Obesity에 듣는다  <!-- 시험 24건 · 논문 17312편 --> — 항목 추가(2026-08-09)
+- [x] exercise prescription — Heart Failure에 듣는다  <!-- 시험 18건 · 논문 10401편 --> — 항목 추가(2026-08-09)
+- [x] exercise prescription — Physical Therapy에 듣는다  <!-- 시험 16건 · 논문 130874편 --> — 항목 추가(2026-08-09)
+- [x] exercise prescription — Metabolic Disease에 듣는다  <!-- 시험 15건 · 논문 22371편 --> — 항목 추가(2026-08-09)
+- [x] physical activity counseling — Type 2 Diabetes에 듣는다  <!-- 시험 8건 · 논문 862편 --> — 항목 추가(2026-08-09)
+- [x] physical activity counseling — Pain에 듣는다  <!-- 시험 6건 · 논문 928편 --> — 항목 추가(2026-08-09)
+- [x] physical activity counseling — Behavior Change에 듣는다  <!-- 시험 4건 · 논문 1858편 --> — 항목 추가(2026-08-09)
+- [x] physical activity counseling — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 항목 추가(2026-08-09)
+- [x] sedentary behavior reduction — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [ ] sedentary behavior reduction — Cancer에 듣는다  <!-- 시험 3건 · 논문 258편 -->
-- [ ] sedentary behavior reduction — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 27편 -->
+- [x] sedentary behavior reduction — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)

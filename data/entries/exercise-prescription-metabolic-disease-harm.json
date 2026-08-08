@@ -1,0 +1,28 @@
+{
+  "id": "exercise-prescription-metabolic-disease-harm",
+  "subj": "exercise prescription",
+  "claim": "고강도 운동 처방의 이상반응을 대사질환 안전관리에 쓴다",
+  "line": "고강도 운동 처방은 대사질환에서 이상반응 약 8%와 함께 평가해야 합니다",
+  "effect": "이상반응 약 8%",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 156,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "심혈관·대사질환 환자의 고강도 인터벌운동 급성 안전성을 본 체계적 문헌고찰에서 11개 연구, 156명의 이상반응을 합쳤습니다.",
+  "saw": "13건의 이상반응이 보고되어 약 8%였고, 중등도 운동에 비해 급성 위험이 더 높을 수 있어 안정된 환자와 감독이 필요했습니다.",
+  "limit": "서로 다른 질환과 운동 프로토콜을 합친 고찰이며 사건 수가 적어 특정 대사질환의 개별 위험률로 해석할 수 없습니다.",
+  "against": "대상자는 임상적으로 안정됐고 대부분 중등도 운동 경험이 있어 운동 경험이 없는 환자나 불안정한 환자에게 안전성을 외삽할 수 없습니다.",
+  "use": "대사질환 환자에게 고강도 운동을 처방할 때 안정성 확인과 운동 중·후 감독을 포함한 위험관리 근거로 사용합니다.",
+  "refs": [
+    { "label": "What Doesn't Kill You Makes You Fitter · systematic review of high-intensity interval exercise safety", "pmid": "26157337", "doi": "10.4137/CMC.S26230" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Metabolic Disease → 247건, exact InterventionName 3건",
+    "pubmed": "\"exercise prescription\" AND \"Metabolic Disease\" → 9건",
+    "negative": "\"exercise prescription\" AND \"Metabolic Disease\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0건",
+    "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+  }
+}

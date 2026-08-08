@@ -1,0 +1,29 @@
+{
+  "id": "exercise-prescription-physical-therapy-open",
+  "subj": "exercise prescription",
+  "claim": "운동 처방을 물리치료의 개별화 치료에 쓴다",
+  "line": "물리치료 운동 처방은 환자별 평가와 점진 조절이 핵심입니다",
+  "effect": "개별 처방 원칙",
+  "tier": "obs",
+  "dir": "open",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "물리치료사 실무 논문과 운동 처방 안내서는 근골격계 환자의 생물·심리·사회적 평가에 따라 운동을 선택하고 용량·진행·수정을 반복하는 틀을 제안합니다.",
+  "saw": "FITT-VP 원칙과 환자별 목표를 사용해 유산소·근력·균형·유연성·기능훈련을 구성하고 진행 요인을 따로 조절하도록 설명합니다.",
+  "limit": "실무 지침과 고찰 중심이라 특정 질환이나 운동 처방량의 비교효과를 산출한 단일 시험은 확인하지 못했습니다.",
+  "against": "처방 매개변수의 보고가 일관되지 않아 연구 결과를 실제 치료에 옮길 때 치료 강도와 진행 기준이 불명확할 수 있습니다.",
+  "use": "물리치료 운동계획에서 환자의 기능·증상·환경을 반영해 운동을 고르고 강도와 진행을 기록하는 틀로 참고합니다.",
+  "refs": [
+    { "label": "Exercise prescription: Physiotherapy's most important and least standardized skill · professional practice paper", "pmid": "42561587" },
+    { "label": "A practice guide for physical therapists prescribing physical exercise for older adults", "pmid": "38862112", "doi": "10.1123/japa.2023-0283" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Physical Therapy → 100건, exact InterventionName 5건",
+    "pubmed": "\"exercise prescription\" AND \"Physical Therapy\" → 96건",
+    "negative": "\"exercise prescription\" AND \"Physical Therapy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 11건",
+    "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+  }
+}
