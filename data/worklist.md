@@ -18453,3 +18453,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] tangerine — Hygiene에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 전체 83건·exact InterventionName 0건; PubMed exact 1건은 tangerine을 위험 지표로 본 단면 관찰연구이며 직접 개입 결과가 아님; 부정 결과 0건·안전성 0건)  <!-- 시험 4건 · 논문 196편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] wearable sensor — Heart Failure에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 22건·exact InterventionName 0건; PubMed 25건은 센서로 기능을 측정한 관찰·예측 연구로 직접 치료 결과가 아님)  <!-- 시험 10건 · 논문 213편 -->
+- [x] wearable sensor — Pulmonary Fibrosis에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 3건·exact InterventionName 0건; PubMed exact 0건)  <!-- 시험 6건 · 논문 12편 -->
+- [x] wearable sensor — Surgery에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 25건·exact InterventionName 0건; PubMed 69건은 수술 후 모니터링·센서 연구로 직접 치료 결과가 아님)  <!-- 시험 6건 · 논문 1450편 -->
+- [x] wearable sensor — Stress에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 26건·exact InterventionName 0건; PubMed 210건은 스트레스 측정·예측 연구로 직접 치료 결과가 아님)  <!-- 시험 5건 · 논문 1550편 -->
+- [x] home exercise app — Pain에 듣는다 — 항목 추가(home-exercise-app-pain-pos, 2026-08-09)  <!-- 시험 9건 · 논문 71편 -->
+- [x] exergame training — Mild Cognitive Impairment에 듣는다 — 항목 추가(exergame-training-mild-cognitive-impairment-pos, 2026-08-09)  <!-- 시험 7건 · 논문 79편 -->
+- [x] exergame training — Physical Fitness에 듣는다 — 항목 추가(exergame-training-physical-fitness-pos, 2026-08-09)  <!-- 시험 6건 · 논문 140편 -->
+- [x] exergame training — Cognitive Function에 듣는다 — 항목 추가(exergame-training-cognitive-function-pos, 2026-08-09)  <!-- 시험 5건 · 논문 268편 -->
+- [x] exergame training — Multiple Sclerosis에 듣는다 — 항목 추가(exergame-training-multiple-sclerosis-null, 2026-08-09)  <!-- 시험 4건 · 논문 43편 -->
+- [x] rhythmic auditory cueing — Stroke에 듣는다 — 항목 추가(rhythmic-auditory-cueing-stroke-pos, 2026-08-09)  <!-- 시험 6건 · 논문 58편 -->
+- [x] upper limb robotic training — Spinal Cord Injuries에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 26건·exact InterventionName 1건(NCT04041063)은 ACTIVE_NOT_RECRUITING 등록이고; PubMed exact 0건)  <!-- 시험 5건 · 논문 65편 -->
+- [x] upper limb robotic training — Cerebral Palsy에 듣는다 — 항목 추가(upper-limb-robotic-training-cerebral-palsy-pos, 2026-08-09)  <!-- 시험 4건 · 논문 42편 -->
