@@ -17545,3 +17545,42 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] selenium — Thyroid Nodule에 듣는다  <!-- 시험 5건 · 논문 25편 --> — 근거 없음(2026-08-08 조회, selenium AND "Thyroid Nodule"; 완료된 셀레늄 중재 결과 없음)
 - [x] selenium — Dandruff에 듣는다  <!-- 시험 4건 · 논문 39편 --> — 항목 생성(selenium-dandruff-pos, 2026-08-08 조회)
 - [x] selenium — Inflammation에 듣는다  <!-- 시험 4건 · 논문 2282편 --> — 항목 생성(selenium-inflammation-open, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] egg consumption — Diabetes에 듣는다  <!-- 시험 6건 · 논문 200편 -->
+- [x] egg consumption — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 48편 -->
+- [x] egg consumption — Food Habits에 듣는다  <!-- 시험 5건 · 논문 524편 --> — 근거 없음(2026-08-08 조회, "egg consumption" AND "Food Habits"; 직접 달걀 중재로 음식 습관을 평가한 결과 없음)
+- [x] egg consumption — Zinc Deficiency에 듣는다  <!-- 시험 5건 · 논문 13편 --> — 근거 없음(2026-08-08 조회, "egg consumption" AND "Zinc Deficiency"; 직접 달걀 중재 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] early time-restricted eating — Meal Time에 듣는다  <!-- 시험 12건 · 논문 70편 --> — 근거 없음(2026-08-08 조회, "early time-restricted eating" AND "Meal Time"; NCT07324044는 미모집 프로토콜이고 결과 미게시)
+- [x] early time-restricted eating — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 32편 -->
+- [x] early time-restricted eating — Hypertension에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] phone use reduction — Opioid Use에 듣는다  <!-- 시험 7건 · 논문 232편 --> — 근거 없음(2026-08-08 조회, "phone use reduction" AND "Opioid Use"; 직접 휴대전화 사용 감소 중재 결과 없음)
+- [x] phone use reduction — Cancer에 듣는다  <!-- 시험 6건 · 논문 902편 --> — 근거 없음(2026-08-08 조회, "phone use reduction" AND Cancer; 휴대전화 노출·암 문헌은 있으나 사용 감소 중재 결과 없음)
+- [x] phone use reduction — Depression에 듣는다  <!-- 시험 3건 · 논문 887편 --> — 근거 없음(2026-08-08 조회, "phone use reduction" AND Depression; 직접 휴대전화 사용 감소 중재 결과 없음)
+- [x] phone use reduction — Nicotine Addiction에 듣는다  <!-- 시험 3건 · 논문 110편 --> — 근거 없음(2026-08-08 조회, "phone use reduction" AND "Nicotine Addiction"; 전화·문자 금연 중재는 휴대전화 사용 감소 중재가 아님)
+- [x] sedentary behavior reduction — Health Behavior에 듣는다  <!-- 시험 7건 · 논문 2179편 -->
+- [x] sedentary behavior reduction — Obesity에 듣는다  <!-- 시험 6건 · 논문 895편 -->
+- [x] sedentary behavior reduction — Diabetes에 듣는다  <!-- 시험 5건 · 논문 497편 --> — 근거 없음(2026-08-08 조회, "sedentary behavior reduction" AND Diabetes; 당뇨 위험 관련 관찰연구는 있으나 좌식행동 감소 중재 결과 없음)
+- [x] sedentary behavior reduction — Cardiovascular Diseases에 듣는다  <!-- 시험 4건 · 논문 558편 --> — 근거 없음(2026-08-08 조회, "sedentary behavior reduction" AND "Cardiovascular Diseases"; 확인된 Sit Less 연구는 프로토콜이고 결과 미게시)
+- [x] sleep wearable — Anxiety에 듣는다  <!-- 시험 4건 · 논문 228편 -->
+- [x] sleep wearable — Stress에 듣는다  <!-- 시험 4건 · 논문 388편 -->
+- [x] sleep wearable — Age Problem에 듣는다  <!-- 시험 4건 · 논문 42편 --> — 근거 없음(2026-08-08 조회, "sleep wearable" AND "Age Problem"; 직접 수면 웨어러블 중재 결과 없음)
+- [x] nigella sativa — Covid19에 듣는다  <!-- 시험 3건 · 논문 80편 -->
