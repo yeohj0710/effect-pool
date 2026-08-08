@@ -558,7 +558,7 @@
     "expansion_checkpoint": "batch 327 expansion: first 20-name non-drug attempt added 5 candidates and second different attempt added 51; 30 non-oncology topics were processed, 6 new oncology topics were held, and 42 unchecked topics remain"
   },
   "resume": {
-    "last_committed_batch": "batch 327 pending commit; local build 4203; public last verified 4189 until the six-round check after batch 331",
+    "last_committed_batch": "batch 327 committed and pushed as 54b478a; local build 4203; public last verified 4189 until the six-round check after batch 331",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -1308,6 +1308,6 @@
     "batch 325 build generated 4189 entries and 5825 refs; trial 3620, obs 503, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 357, known 2, thin 770; no new actionable line/effect/known/scale/English warning",
     "batch 325 six-round deployment check passed: HTTP 200; automatic Git deployment caught up and public/local both have 4189 entries/4194 id fields; vercel --prod was not required"
   ],
-  "current_batch": "batch 327 complete locally; 4203 entries/5840 refs, 14 evidence entries, 16 no-evidence closures, 6 new oncology holds, 20 legacy sentence edits; 42 unchecked topics remain; public last verified at 4189 entries/4194 id fields",
-  "next_action": "commit and push batch 327, then update known_items/state; start batch 328 with git pull --ff-only and AGENTS.md, do not retry relaxation breathing class or rhythm walking, hold oncology lines, and process the next 30 non-oncology lines"
+  "current_batch": "batch 327 committed and pushed as 54b478a; 4203 entries/5840 refs, 14 evidence entries, 16 no-evidence closures, 6 new oncology holds, 20 legacy sentence edits; 42 unchecked topics remain; public last verified at 4189 entries/4194 id fields",
+  "next_action": "start batch 328 with git pull --ff-only and AGENTS.md; do not retry relaxation breathing class or rhythm walking, hold oncology lines, and process the next 30 non-oncology lines"
 }
