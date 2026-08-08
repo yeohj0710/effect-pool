@@ -17469,5 +17469,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] probiotic yogurt — Constipation에 듣는다  <!-- 시험 3건 · 논문 47편 --> 항목 생성(probiotic-yogurt-constipation-null, probiotic-yogurt-constipation-pos, 2026-08-08 조회)
 - [x] probiotic yogurt — Gastrointestinal Disorder에 듣는다  <!-- 시험 3건 · 논문 187편 --> — 근거 없음(2026-08-08 조회, "probiotic yogurt" AND gastrointestinal; 직접 일반 위장장애 결과 없음)
 - [x] protein shake — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 163편 --> — 근거 없음(2026-08-08 조회, "protein shake" AND "weight loss"; 직접 단백질 셰이크 결과 없음)
-- [ ] protein shake — Malnutrition에 듣는다  <!-- 시험 4건 · 논문 34편 -->
-- [ ] protein shake — Nutritional and Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] protein shake — Malnutrition에 듣는다  <!-- 시험 4건 · 논문 34편 --> — 항목 생성(protein-shake-malnutrition-pos, 2026-08-08 조회)
+- [x] protein shake — Nutritional and Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 항목 생성(protein-shake-nutritional-and-metabolic-disease-open, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] apple — Atrial Flutter에 듣는다  <!-- 시험 12건 · 논문 18편 --> — 근거 없음(2026-08-08 조회, "apple" AND "Atrial Flutter"; 직접 사과 중재 결과 없음. 확인된 ClinicalTrials.gov 연구는 Apple Watch 연구)
+- [x] apple — Obesity에 듣는다  <!-- 시험 7건 · 논문 508편 --> — 항목 생성(apple-obesity-pos, 2026-08-08 조회)
+- [x] apple — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 1808편 --> — 항목 생성(apple-cardiovascular-disease-pos, 2026-08-08 조회)
+- [x] apple — Diabetes에 듣는다  <!-- 시험 7건 · 논문 864편 --> — 근거 없음(2026-08-08 조회, "apple" AND "Diabetes"; 당뇨병 환자의 직접 사과 중재 결과 없음)
+- [x] banana — Burn에 듣는다  <!-- 시험 3건 · 논문 102편 --> — 항목 생성(banana-burn-null, 2026-08-08 조회)
