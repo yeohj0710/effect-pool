@@ -16284,14 +16284,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] apixaban — Thrombus에 듣는다 — 허가 적응증(2026-08-08)  <!-- 시험 11건 · 논문 2217편 -->
 - [x] apixaban — Cirrhosis에 듣는다  <!-- 시험 9건 · 논문 73편 -->
 - [x] apixaban — Renal Insufficiency에 듣는다 — 근거 없음(2026-08-08, apixaban AND Renal Insufficiency; 신부전 자체 치료 결과 없음)  <!-- 시험 9건 · 논문 293편 -->
-- [ ] grazoprevir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 9건 · 논문 19편 -->
+- [x] grazoprevir — Hepatocellular Carcinoma에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND Hepatocellular Carcinoma; 간세포암 직접 치료 결과 없음)  <!-- 시험 9건 · 논문 19편 -->
 - [x] grazoprevir — HIV에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND HIV; HIV 자체 치료 결과 없음)  <!-- 시험 6건 · 논문 67편 -->
 - [x] grazoprevir — Fibrosis, Liver에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND Fibrosis, Liver; 간섬유화 자체를 대상으로 한 직접 결과 없음)  <!-- 시험 6건 · 논문 104편 -->
 - [x] grazoprevir — Substance Use Disorders에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND Substance Use Disorders; 물질사용장애 자체 치료 결과 없음)  <!-- 시험 4건 · 논문 10편 -->
-- [ ] ropeginterferon alfa-2b — Myelofibrosis에 듣는다  <!-- 시험 8건 · 논문 24편 -->
-- [ ] ropeginterferon alfa-2b — Myeloproliferative Neoplasm에 듣는다  <!-- 시험 5건 · 논문 81편 -->
-- [ ] ropeginterferon alfa-2b — Essential Thrombocythemia에 듣는다  <!-- 시험 4건 · 논문 20편 -->
-- [ ] tirbanibulin — Cell Carcinoma에 듣는다  <!-- 시험 5건 · 논문 53편 -->
+- [x] ropeginterferon alfa-2b — Myelofibrosis에 듣는다  <!-- 시험 8건 · 논문 24편 -->
+- [x] ropeginterferon alfa-2b — Myeloproliferative Neoplasm에 듣는다  <!-- 시험 5건 · 논문 81편 -->
+- [x] ropeginterferon alfa-2b — Essential Thrombocythemia에 듣는다  <!-- 시험 4건 · 논문 20편 -->
+- [x] tirbanibulin — Cell Carcinoma에 듣는다 — 근거 없음(2026-08-08, tirbanibulin AND Cell Carcinoma; 세포암 직접 치료 결과 없음)  <!-- 시험 5건 · 논문 53편 -->
 - [x] digital peer support — Retention in Care에 듣는다 — 근거 없음(2026-08-08, digital peer support AND Retention in Care; 직접 유지율 개입 결과 없음)  <!-- 시험 3건 · 논문 67편 -->
 - [x] digital peer support — Medical Students에 듣는다  <!-- 시험 3건 · 논문 151편 -->
 - [x] parent coaching — Risk Behavior에 듣는다 — 근거 없음(2026-08-08, parent coaching AND Risk Behavior; 직접 위험행동 치료 결과 없음)  <!-- 시험 22건 · 논문 210편 -->
