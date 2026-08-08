@@ -17014,3 +17014,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] therapy dog — Malocclusion에 듣는다  <!-- 시험 10건 · 논문 293편 --> — 근거 없음(2026-08-08 조회, therapy dog AND Malocclusion; 직접 사람 중재 결과 없음)
 - [x] therapy dog — Stress에 듣는다  <!-- 시험 10건 · 논문 99146편 -->
 - [x] therapy dog — Panic Attacks에 듣는다  <!-- 시험 6건 · 논문 279편 --> — 근거 없음(2026-08-08 조회, therapy dog AND Panic Attacks; 직접 사람 중재 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] dance class — Aging에 듣는다  <!-- 시험 9건 · 논문 67편 -->
+- [x] dance class — Diabetes에 듣는다  <!-- 시험 5건 · 논문 8편 -->
+- [x] dance class — Dementia에 듣는다  <!-- 시험 4건 · 논문 15편 -->
+- [ ] body scan — Acute Leukemia에 듣는다  <!-- 시험 36건 · 논문 99편 -->
+- [ ] body scan — Lung Carcinoma에 듣는다  <!-- 시험 19건 · 논문 1378편 -->
+- [ ] body scan — Hepatocellular Carcinoma (HCC)에 듣는다  <!-- 시험 13건 · 논문 135편 -->
+- [ ] body scan — Lymphoma에 듣는다  <!-- 시험 10건 · 논문 1298편 -->
+- [x] active listening — Stress에 듣는다  <!-- 시험 8건 · 논문 1018편 -->
+- [x] active listening — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 212편 --> — 근거 없음(2026-08-08 조회, active listening AND Mindfulness; 직접 사람 중재 결과 없음)
+- [x] active listening — Anxiety에 듣는다  <!-- 시험 5건 · 논문 668편 -->
+- [x] active listening — Mental Health에 듣는다  <!-- 시험 5건 · 논문 1108편 -->
+- [x] telephone coaching — Obesity에 듣는다  <!-- 시험 8건 · 논문 205편 -->
+- [x] telephone coaching — Depression에 듣는다  <!-- 시험 8건 · 논문 208편 -->
+- [ ] telephone coaching — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 39편 -->
+- [x] telephone coaching — Tobacco Use에 듣는다  <!-- 시험 5건 · 논문 62편 -->
+- [ ] music making — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [x] music making — Dementia에 듣는다  <!-- 시험 5건 · 논문 86편 -->
+- [x] music making — Stress에 듣는다  <!-- 시험 4건 · 논문 137편 --> — 근거 없음(2026-08-08 조회, music making AND Stress; 직접 사람 중재 결과 없음)
+- [x] sustainable diet — Nutrition, Healthy에 듣는다  <!-- 시험 4건 · 논문 3992편 -->
+- [x] sustainable diet — Dietary Fibers에 듣는다  <!-- 시험 4건 · 논문 754편 -->
+- [x] sustainable diet — Behavior Change에 듣는다  <!-- 시험 4건 · 논문 1324편 -->
+- [x] sustainable diet — Obesity에 듣는다  <!-- 시험 3건 · 논문 3687편 -->

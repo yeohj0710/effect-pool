@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3927,
+  "entries": 3941,
   "worklist": {
-    "total": 13399,
-    "checked": 13377,
-    "unchecked": 22,
-    "no_evidence_pending": 1457,
+    "total": 13421,
+    "checked": 13393,
+    "unchecked": 28,
+    "no_evidence_pending": 1459,
     "next_batch": [
       "positive activity intervention — Cancer",
       "yoga therapy — Cancer",
@@ -29,41 +29,47 @@
       "electrical stimulation therapy — Lung Cancer",
       "companion animal — Anal Cancer",
       "telenursing — Breast Cancer",
-      "fruit and vegetable intake — Breast Cancer"
+      "fruit and vegetable intake — Breast Cancer",
+      "body scan — Acute Leukemia",
+      "body scan — Lung Carcinoma",
+      "body scan — Hepatocellular Carcinoma (HCC)",
+      "body scan — Lymphoma",
+      "telephone coaching — Breast Carcinoma",
+      "music making — Breast Cancer"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 278 added 2 evidence entries and closed 2 no-evidence topics from a therapy-dog branch; 22 oncology topics remain held; local build generated 3927 entries and 5508 refs with no new actionable line/effect/known/scale warnings",
+    "build": "passed with pre-existing warnings; batch 279 added 14 evidence entries and closed 2 no-evidence topics from a dance, listening, coaching, music, and sustainable-diet branch; 28 oncology topics remain held; local build generated 3941 entries and 5522 refs with no new actionable line/effect/known/scale warnings",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3393,
-      "obs": 469,
+      "trial": 3406,
+      "obs": 470,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 921,
+    "no_effect_or_harm": 924,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 534,
+    "non_trial": 535,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5508,
-    "thin_warnings": 674
+    "connected_evidence": 5522,
+    "thin_warnings": 678
   },
   "deployment": {
-    "last_entry_count": 3927,
+    "last_entry_count": 3941,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_6vunzok5BmqjLimW1Xbnc7zfHoYo",
-    "deployment_state": "batch 278 local build has 3927 entries and 5508 refs; public remains last verified at 3925 entries and 3930 id fields until the next six-round check after batch 283",
+    "deployment_state": "batch 279 local build has 3941 entries and 5522 refs; public remains last verified at 3925 entries and 3930 id fields until the next six-round check after batch 283",
     "deployment_url": "https://offlabel-pool-gt4vdmod5-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3927,
+    "local_entry_count": 3941,
     "public_entry_count": 3925,
     "public_id_field_count": 3930,
     "counts_match": true,
-    "latest_note": "Batch 278 local build has 3927 entries and 5508 refs; public last verified at 3925 entries and 3930 id fields; next six-round check after batch 283.",
+    "latest_note": "Batch 279 local build has 3941 entries and 5522 refs; public last verified at 3925 entries and 3930 id fields; next six-round check after batch 283.",
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
@@ -306,15 +312,15 @@
     ],
     "builtin_added_candidates": 660,
     "latest_run": "2026-08-08",
-    "latest_candidates": 4,
-    "latest_substances_current": ["forest school", "community choir", "group drumming", "nature journaling", "sound bath", "silent reading", "daylight exposure", "walking school bus", "active travel", "green gym", "park run", "drama therapy", "improv theatre", "nature immersion", "nature sketching", "art journaling", "community kitchen", "food co-op", "family gardening", "workplace stretch break"],
-    "latest_substances_previous": ["walking football", "active commuting", "park prescription", "green prescription", "pet ownership", "animal-assisted reading", "therapy dog", "therapeutic horseback riding", "outdoor play", "play streets", "community gardening", "gardening for wellbeing", "digital phenotyping", "ecotherapy", "nature connectedness", "microbreak", "workplace microbreak", "sleep podcast", "walking meeting", "volunteer activity"],
+    "latest_candidates": 22,
+    "latest_substances_current": ["taekwondo", "table tennis", "badminton", "pickleball", "dance class", "expressive arts", "puppet therapy", "body scan", "active listening", "peer tutoring", "telephone coaching", "virtual cooking", "meal sharing", "garden walking", "nature art", "community dance", "music making", "home gardening", "farmers market", "sustainable diet"],
+    "latest_substances_previous": ["forest school", "community choir", "group drumming", "nature journaling", "sound bath", "silent reading", "daylight exposure", "walking school bus", "active travel", "green gym", "park run", "drama therapy", "improv theatre", "nature immersion", "nature sketching", "art journaling", "community kitchen", "food co-op", "family gardening", "workplace stretch break"],
     "latest_substances": ["digital detox", "sleep mask", "earplugs", "silent reading", "community choir", "poetry therapy", "nature journaling", "cold shower", "daylight exposure", "napping intervention", "donidalorsen", "garadacimab", "itepekimab", "vanzacaftor", "ensitrelvir", "pemafibrate", "pegozafermin", "efruxifermin", "zelnecirnon", "litifilimab", "sound bath", "walking meeting", "community gardening", "craft group", "forest school", "sleep education podcast", "relaxation audio", "volunteer intervention", "light box therapy", "nature sketching", "povetacicept", "sibeprenlimab", "rocatinlimab", "efzofitimod", "eplontersen", "tolebrutinib", "brepocitinib", "obexelimab", "otilimab", "leronlimab"],
     "latest_attempts": {
-      "first_candidates": 4,
+      "first_candidates": 22,
       "second_candidates": 0,
       "non_drug_count": 20,
-      "notes": "The first 20-name non-drug attempt added 4 candidates; a different second 20-name non-drug attempt added 0, so no third attempt was run; 4 therapy dog topics were processed and 22 oncology topics remain."
+      "notes": "One 20-name non-drug attempt added 22 candidates; no second attempt was needed; 16 non-oncology topics were processed, 6 oncology topics were held, and 28 unchecked topics remain."
     },
     "added_candidates": 6177,
     "direct_added_candidates": 4042,
@@ -450,7 +456,7 @@
         "non_drug_count": 10
       }
     ],
-    "expansion_checkpoint": "batch 278 expansion: first 20-name non-drug attempt added 4 candidates; second different 20-name non-drug attempt added 0; four therapy dog topics were processed and 22 oncology topics remain"
+    "expansion_checkpoint": "batch 279 expansion: one 20-name non-drug attempt added 22 candidates; 16 non-oncology topics were processed, 6 new oncology topics were held, and 28 unchecked topics remain"
   },
   "resume": {
     "last_committed_batch": "batch 277 committed and pushed as fa815df; local/public build 3925; six-round check passed with 3930 public id fields",
@@ -600,7 +606,7 @@
   "legacy_wording": {
     "fixed_this_batch": 20,
     "remaining": 0,
-    "note": "Batch 278 tightened 20 legacy lines from digital-health-intervention-health through digital-storytelling-intervention-cancer; numbers, effects, and sample sizes were preserved. No legacy line, English, translation-tone, or scale-overlap warnings remain; only truthful thin-study and unknown-n warnings remain."
+    "note": "Batch 279 tightened 20 legacy lines from digital-storytelling-intervention-health through docetaxel-sarcoma; numbers, effects, and sample sizes were preserved. No legacy line, English, translation-tone, or scale-overlap warnings remain; only truthful thin-study and unknown-n warnings remain."
   },
   "history": [
     "batch 113: 18 evidence entries added; 12 no-evidence topics closed; 0 approved indications skipped; 4 unchecked topics remain",
@@ -988,8 +994,14 @@
     "batch 278 expansion attempt one used 20 fresh non-drug names and added 4 therapy dog candidates; a second different 20-name non-drug attempt added 0, so no third attempt was run",
     "batch 278 processed 4 non-oncology therapy dog topics; added therapy-dog-pain-pos and therapy-dog-stress-pos, closed Malocclusion and Panic Attacks as no-evidence, and left 22 oncology topics held",
     "batch 278 tightened 20 legacy sentences from digital-health-intervention-health through digital-storytelling-intervention-cancer; numbers, effects, and sample sizes were preserved",
-    "batch 278 build generated 3927 entries and 5508 refs; warning counts were unknown_n 346, thin 674, known 2, effect 0, line/scale/English 0; one pre-existing unknown-n warning remains for digital-self-management-support-palliative-care-open"
+    "batch 278 build generated 3927 entries and 5508 refs; warning counts were unknown_n 346, thin 674, known 2, effect 0, line/scale/English 0; one pre-existing unknown-n warning remains for digital-self-management-support-palliative-care-open",
+    "batch 279 expansion used one 20-name non-drug branch and added 22 candidates; 16 non-oncology topics were selected, 6 new oncology topics remain held",
+    "batch 279 processed 16 non-oncology topics; added 14 evidence entries and closed 2 topics as no-evidence; no approved indications were added",
+    "batch 279 evidence entries: dance-class-aging-pos, dance-class-diabetes-pos, dance-class-dementia-open, active-listening-stress-null, active-listening-anxiety-pos, active-listening-mental-health-null, telephone-coaching-obesity-open, telephone-coaching-depression-open, telephone-coaching-tobacco-use-open, music-making-dementia-pos, sustainable-diet-nutrition-healthy-open, sustainable-diet-dietary-fibers-null, sustainable-diet-behavior-change-pos, sustainable-diet-obesity-pos",
+    "batch 279 closed active listening Mindfulness and music making Stress as no-evidence after direct human-result checks; body scan Acute Leukemia/Lung Carcinoma/Hepatocellular Carcinoma/Lymphoma, telephone coaching Breast Carcinoma, and music making Breast Cancer remain held without API research",
+    "batch 279 tightened 20 legacy sentences from digital-storytelling-intervention-health through docetaxel-sarcoma; numbers, effects, and sample sizes were preserved",
+    "batch 279 build generated 3941 entries and 5522 refs; warning counts were unknown_n 346, thin 678, known 2, effect 0, line/scale/English 0; five truthful thin-study warnings were added for n=48, n=29, n=44, and n=15 studies"
   ],
-  "current_batch": "batch 278 complete locally; 2 evidence entries, 2 no-evidence topics, and 22 oncology holds; local 3927 and public last verified 3925; 22 unchecked topics remain",
-  "next_action": "commit and push batch 278; immediately start batch 279 with git pull --ff-only and AGENTS.md, expand because 22 topics remain, keep oncology topics out of API research, and use a new non-drug branch"
+  "current_batch": "batch 279 complete locally; 14 evidence entries, 2 no-evidence topics, and 28 oncology holds; local 3941 and public last verified 3925; 28 unchecked topics remain",
+  "next_action": "commit and push batch 279; immediately start batch 280 with git pull --ff-only and AGENTS.md, run --covered and one fresh 20-name non-drug expansion because 28 topics remain, keep all oncology holds out of API research, and process only the resulting non-oncology topics"
 }
