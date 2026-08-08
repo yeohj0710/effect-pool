@@ -17444,30 +17444,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tai chi — Obesity에 듣는다  <!-- 시험 6건 · 논문 119편 --> 항목 생성(tai-chi-obesity-pos, 2026-08-08 조회)
 - [x] tai chi — Depression에 듣는다  <!-- 시험 6건 · 논문 596편 --> 항목 생성(tai-chi-depression-pos, tai-chi-depression-null, 2026-08-08 조회)
 - [x] tai chi — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 101편 --> — 같은 근거(별도 항목 없음; group-tai-chi-heart-failure-pos)(2026-08-08)
-- [ ] tai chi — Somatic Symptoms에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [x] tai chi — Somatic Symptoms에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 근거 없음(2026-08-08 조회, "tai chi" AND "somatic symptoms"; 직접 태극권 결과가 아닌 기공·섬유근육통 문헌만 확인)
 - [ ] resistance band exercise — Cancer에 듣는다  <!-- 시험 14건 · 논문 22편 -->
-- [ ] resistance band exercise — Aging에 듣는다  <!-- 시험 13건 · 논문 79편 -->
-- [ ] resistance band exercise — Diabetes에 듣는다  <!-- 시험 13건 · 논문 26편 -->
-- [ ] resistance band exercise — Physical Fitness에 듣는다  <!-- 시험 10건 · 논문 64편 -->
-- [ ] home cooking — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 461편 -->
-- [ ] olive oil — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 473편 -->
+- [x] resistance band exercise — Aging에 듣는다  <!-- 시험 13건 · 논문 79편 --> — 같은 근거(별도 항목 없음; resistance-bands-aging-pos)(2026-08-08)
+- [x] resistance band exercise — Diabetes에 듣는다  <!-- 시험 13건 · 논문 26편 --> — 같은 근거(별도 항목 없음; resistance-bands-diabetes-pos)(2026-08-08)
+- [x] resistance band exercise — Physical Fitness에 듣는다  <!-- 시험 10건 · 논문 64편 --> — 같은 근거(별도 항목 없음; resistance-training-muscle-pos)(2026-08-08)
+- [x] home cooking — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 461편 --> 항목 생성(home-cooking-diet-habit-pos, 2026-08-08 조회)
+- [x] olive oil — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 473편 --> 항목 생성(olive-oil-pregnancy-pos, 2026-08-08 조회)
 - [ ] olive oil — Stomach Cancer에 듣는다  <!-- 시험 6건 · 논문 45편 -->
-- [ ] olive oil — Heart Disease에 듣는다  <!-- 시험 6건 · 논문 586편 -->
-- [ ] olive oil — Overweight에 듣는다  <!-- 시험 5건 · 논문 441편 -->
-- [ ] green tea — Inflammation에 듣는다  <!-- 시험 5건 · 논문 2492편 -->
+- [x] olive oil — Heart Disease에 듣는다  <!-- 시험 6건 · 논문 586편 --> 항목 생성(olive-oil-heart-disease-pos, 2026-08-08 조회)
+- [x] olive oil — Overweight에 듣는다  <!-- 시험 5건 · 논문 441편 --> — 같은 근거(별도 항목 없음; olive-oil-obesity-open)(2026-08-08)
+- [x] green tea — Inflammation에 듣는다  <!-- 시험 5건 · 논문 2492편 --> — 같은 근거(별도 항목 없음; green-tea-extract-inflammation-pos)(2026-08-08)
 - [ ] green tea — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 117편 -->
-- [ ] green tea — Diabetic Nephropathy에 듣는다  <!-- 시험 4건 · 논문 72편 -->
-- [ ] green tea — Gingivitis에 듣는다  <!-- 시험 4건 · 논문 185편 -->
-- [ ] walnut — Brain Fog에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] walnut — Satiety에 듣는다  <!-- 시험 4건 · 논문 26편 -->
-- [ ] walnut — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 127편 -->
-- [ ] walnut — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 149편 -->
-- [ ] beetroot juice — Diet, Healthy에 듣는다  <!-- 시험 7건 · 논문 42편 -->
-- [ ] beetroot juice — Diabetes에 듣는다  <!-- 시험 6건 · 논문 32편 -->
-- [ ] beetroot juice — Nitric Oxide에 듣는다  <!-- 시험 5건 · 논문 332편 -->
-- [ ] beetroot juice — Endothelial Dysfunction에 듣는다  <!-- 시험 5건 · 논문 30편 -->
-- [ ] probiotic yogurt — Constipation에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] probiotic yogurt — Gastrointestinal Disorder에 듣는다  <!-- 시험 3건 · 논문 187편 -->
-- [ ] protein shake — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 163편 -->
+- [x] green tea — Diabetic Nephropathy에 듣는다  <!-- 시험 4건 · 논문 72편 --> 항목 생성(green-tea-diabetic-nephropathy-pos, 2026-08-08 조회)
+- [x] green tea — Gingivitis에 듣는다  <!-- 시험 4건 · 논문 185편 --> — 같은 근거(별도 항목 없음; green-tea-oral-care-pos)(2026-08-08)
+- [x] walnut — Brain Fog에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 같은 근거(별도 항목 없음; walnut-cognitive-change-null)(2026-08-08)
+- [x] walnut — Satiety에 듣는다  <!-- 시험 4건 · 논문 26편 --> 항목 생성(walnut-satiety-pos, 2026-08-08 조회)
+- [x] walnut — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 127편 --> 항목 생성(walnut-metabolic-syndrome-pos, 2026-08-08 조회)
+- [x] walnut — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 149편 --> — 근거 없음(2026-08-08 조회, walnut AND Diet Habit; 직접 식습관 중재 결과 없음)
+- [x] beetroot juice — Diet, Healthy에 듣는다  <!-- 시험 7건 · 논문 42편 --> — 근거 없음(2026-08-08 조회, "beetroot juice" AND "Diet, Healthy"; 직접 건강식 식단 결과 없음)
+- [x] beetroot juice — Diabetes에 듣는다  <!-- 시험 6건 · 논문 32편 --> 항목 생성(beetroot-juice-diabetes-null, 2026-08-08 조회)
+- [x] beetroot juice — Nitric Oxide에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 같은 근거(별도 항목 없음; beetroot-juice-dietary-nitrate-pos)(2026-08-08)
+- [x] beetroot juice — Endothelial Dysfunction에 듣는다  <!-- 시험 5건 · 논문 30편 --> 항목 생성(beetroot-juice-endothelial-dysfunction-pos, 2026-08-08 조회)
+- [x] probiotic yogurt — Constipation에 듣는다  <!-- 시험 3건 · 논문 47편 --> 항목 생성(probiotic-yogurt-constipation-null, probiotic-yogurt-constipation-pos, 2026-08-08 조회)
+- [x] probiotic yogurt — Gastrointestinal Disorder에 듣는다  <!-- 시험 3건 · 논문 187편 --> — 근거 없음(2026-08-08 조회, "probiotic yogurt" AND gastrointestinal; 직접 일반 위장장애 결과 없음)
+- [x] protein shake — Weight Loss에 듣는다  <!-- 시험 4건 · 논문 163편 --> — 근거 없음(2026-08-08 조회, "protein shake" AND "weight loss"; 직접 단백질 셰이크 결과 없음)
 - [ ] protein shake — Malnutrition에 듣는다  <!-- 시험 4건 · 논문 34편 -->
 - [ ] protein shake — Nutritional and Metabolic Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
