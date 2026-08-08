@@ -1,21 +1,28 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4038,
+  "entries": 4044,
   "worklist": {
-    "total": 13583,
-    "checked": 13579,
-    "unchecked": 4,
-    "no_evidence_pending": 1520,
+    "total": 13636,
+    "checked": 13604,
+    "unchecked": 32,
+    "no_evidence_pending": 1525,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
       "hope therapy — Cancer에 듣는다 (항암 주제 보류)",
-      "bright light therapy — Kidney Carcinoma에 듣는다 (항암 주제 보류)"
+      "bright light therapy — Kidney Carcinoma에 듣는다 (항암 주제 보류)",
+      "meditation app — Cancer에 듣는다 (항암 주제 보류)",
+      "tai chi — Somatic Symptoms에 듣는다",
+      "resistance band exercise — Cancer에 듣는다 (항암 주제 보류)",
+      "resistance band exercise — Aging에 듣는다",
+      "resistance band exercise — Diabetes에 듣는다",
+      "resistance band exercise — Physical Fitness에 듣는다",
+      "home cooking — Diet Habit에 듣는다"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 295 added 4 evidence entries from 6 non-oncology meal-replacement, flaxseed, saffron, and bright-light topics, closed 3 no-evidence topics and held 1 oncology topic without API research, and tightened 20 legacy sentences; local build generated 4038 entries and 5625 refs with no new actionable line/effect/known/scale/English warnings",
+    "build": "passed with pre-existing warnings; batch 296 processed 30 topics, added 6 evidence entries across peer support, singing, reading, and tai chi, closed 5 no-evidence topics and 15 duplicate topics, held 5 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4044 entries and 5631 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 4,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -23,33 +30,33 @@
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3480,
-      "obs": 493,
+      "trial": 3484,
+      "obs": 495,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 945,
+    "no_effect_or_harm": 947,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 558,
+    "non_trial": 560,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5625,
+    "connected_evidence": 5631,
     "thin_warnings": 715
   },
   "deployment": {
     "last_entry_count": 4038,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_FKkLWeBWFKsFVG36bSuGKTo489vR",
-    "deployment_state": "batch 295 six-round check found the Git-triggered public build 4 entries behind local; vercel --prod deployed the local build and the production alias now matches at 4038 entries",
+    "deployment_state": "batch 296 local build is 6 entries ahead of the last verified public build; next six-round deployment check is after batch 301",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4038,
-    "local_id_field_count": 4043,
+    "local_entry_count": 4044,
+    "local_id_field_count": 4049,
     "public_entry_count": 4038,
     "public_id_field_count": 4043,
-    "counts_match": true,
-    "latest_note": "Batch 295 six-round check: HTTP 200; local/public match at 4038 entries and 4043 id fields after vercel --prod deployment dpl_FKkLWeBWFKsFVG36bSuGKTo489vR.",
+    "counts_match": false,
+    "latest_note": "Batch 296 local build has 4044 entries and 4049 id fields; public remains the last verified 4038-entry, 4043-id-field build until the six-round check after batch 301.",
     "six_round_check": {
       "batches": "290-295",
       "http_status": 200,
@@ -282,11 +289,15 @@
     "batch 294 tightened 20 legacy claims from fluconazole-leukemia-null through food-as-medicine-postpartum-depression-pos; numbers, effects, and sample sizes were preserved",
     "batch 294 build generated 4034 entries and 5618 refs; trial 3476, obs 493, non-trial 558, no-effect/harm 944 (23%), harm 119, unknown_n 346, known 2, thin 715; no new actionable line/effect/known/scale/English warning",
     "batch 295 expansion attempt one used 20 fresh non-drug food, light, and activity names and added 7 candidates; 6 non-oncology topics were processed and bright light therapy Kidney Carcinoma remains held",
-    "batch 295 expansion attempt two used 20 different non-drug food, activity, and support names but timed out after 124 seconds without appending candidates; no third attempt was run",
+    "batch 295 expansion attempt two used 20 different non-drug food, activity, and support names; the shell timed out after 124 seconds, but a later worklist check found that 53 candidates had been appended; no third attempt was run",
     "batch 295 added flaxseed-blood-glucose-pos, saffron-depression-pos, saffron-depression-null, and bright-light-therapy-seasonal-affective-disorder-pos; closed meal replacement Liver Fibrosis, bright light therapy Light, and bright light therapy Concussion, Mild as no-evidence",
     "batch 295 tightened 20 legacy claims from food-craving-intervention-obesity-pos through forest-therapy-depression-pos; numbers, effects, and sample sizes were preserved",
     "batch 295 build generated 4038 entries and 5625 refs; trial 3480, obs 493, non-trial 558, no-effect/harm 945 (23%), harm 119, unknown_n 346, known 2, thin 715; no new actionable line/effect/known/scale/English warning",
-    "batch 295 six-round deployment check: HTTP 200; public was 4 entries behind local after the Git push, so vercel --prod deployed dpl_FKkLWeBWFKsFVG36bSuGKTo489vR; local/public now match at 4038 entries, 4043 id fields, and 5625 refs"
+    "batch 295 six-round deployment check: HTTP 200; public was 4 entries behind local after the Git push, so vercel --prod deployed dpl_FKkLWeBWFKsFVG36bSuGKTo489vR; local/public now match at 4038 entries, 4043 id fields, and 5625 refs",
+    "batch 296 processed the first 30 unchecked topics: held cryotherapy Cervical Cancer, museum intervention Pain Cancer, hope therapy Cancer, bright light therapy Kidney Carcinoma, and meditation app Cancer; closed 15 duplicates and 5 no-evidence topics; added 6 evidence entries",
+    "batch 296 evidence entries: peer-support-physical-injury-null, singing-group-newborn-infant-pos, reading-group-cognitive-impairment-open, tai-chi-obesity-pos, tai-chi-depression-null, and tai-chi-depression-pos",
+    "batch 296 tightened 20 legacy claims from forest-therapy-mental-health-disorder-open through futibatinib-breast-cancer-open; numbers, effects, and sample sizes were preserved",
+    "batch 296 build generated 4044 entries and 5631 refs; trial 3484, obs 495, non-trial 560, no-effect/harm 947 (23%), harm 119, unknown_n 346, known 2, thin 715; no new actionable line/effect/known/scale/English warning"
   ],
   "expansion": {
     "date": "2026-08-08",
@@ -1071,6 +1082,6 @@
     "batch 291 build generated 4017 entries and 5601 refs; trial 3465, obs 487, non-trial 552, no-effect/harm 937 (23%), harm 119, unknown_n 346, known 2, thin 708; no new actionable warning",
     "batch 291 deployment remains pending the six-round check after batch 295: local 4017 entries/4022 id fields/5601 refs, public 4009/4014/5592"
   ],
-  "current_batch": "batch 295 complete; 4 evidence entries, 3 no-evidence closures, 1 oncology topic held, 20 legacy sentence edits, one timed-out second expansion, and six-round deployment verification; local/public match at 4038; 4 oncology worklist topics remain unchecked",
-  "next_action": "commit and push the batch 295 deployment-check log with the automatic-deployment lag reason; then start batch 296 with git pull --ff-only and AGENTS.md"
+  "current_batch": "batch 296 complete; 6 evidence entries, 5 no-evidence closures, 15 duplicate closures, 5 oncology topics held, and 20 legacy sentence edits; local 4044 and public last verified 4038; 32 unchecked topics remain",
+  "next_action": "commit and push batch 296; then start batch 297 with git pull --ff-only and AGENTS.md; process the next 30 unchecked topics without expanding because 32 remain"
 }

@@ -17418,32 +17418,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] meditation app — Anxiety에 듣는다  <!-- 시험 17건 · 논문 108편 -->
-- [ ] meditation app — Pain에 듣는다  <!-- 시험 10건 · 논문 27편 -->
+- [x] meditation app — Anxiety에 듣는다  <!-- 시험 17건 · 논문 108편 --> — 같은 근거(별도 항목 없음; meditation-anxiety-depression-pos)(2026-08-08)
+- [x] meditation app — Pain에 듣는다  <!-- 시험 10건 · 논문 27편 --> — 같은 근거(별도 항목 없음; meditation-pain-pos)(2026-08-08)
 - [ ] meditation app — Cancer에 듣는다  <!-- 시험 9건 · 논문 25편 -->
-- [ ] meditation app — Distress에 듣는다  <!-- 시험 9건 · 논문 49편 -->
-- [ ] peer support — Health에 듣는다  <!-- 시험 27건 · 논문 62934편 -->
-- [ ] peer support — Social Skills에 듣는다  <!-- 시험 12건 · 논문 3193편 -->
-- [ ] peer support — Suicide Ideation에 듣는다  <!-- 시험 8건 · 논문 696편 -->
-- [ ] peer support — Physical Injury에 듣는다  <!-- 시험 8건 · 논문 1049편 -->
-- [ ] dance movement — Older Adults에 듣는다  <!-- 시험 8건 · 논문 1049편 -->
-- [ ] dance movement — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 82편 -->
-- [ ] dance movement — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 16편 -->
-- [ ] dance movement — Depression에 듣는다  <!-- 시험 7건 · 논문 204편 -->
-- [ ] singing group — Parkinson에 듣는다  <!-- 시험 3건 · 논문 53편 -->
-- [ ] singing group — Newborn Infant에 듣는다  <!-- 시험 3건 · 논문 42편 -->
-- [ ] singing group — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 26편 -->
-- [ ] reading group — Pulmonary Consolidation에 듣는다  <!-- 시험 4건 · 논문 21편 -->
-- [ ] reading group — Stroke에 듣는다  <!-- 시험 3건 · 논문 804편 -->
-- [ ] reading group — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] reading group — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 996편 -->
-- [ ] writing therapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 30편 -->
-- [ ] writing therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 1521편 -->
-- [ ] writing therapy — Psychiatric Diagnosis에 듣는다  <!-- 시험 4건 · 논문 5735편 -->
-- [ ] writing therapy — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 942편 -->
-- [ ] tai chi — Obesity에 듣는다  <!-- 시험 6건 · 논문 119편 -->
-- [ ] tai chi — Depression에 듣는다  <!-- 시험 6건 · 논문 596편 -->
-- [ ] tai chi — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 101편 -->
+- [x] meditation app — Distress에 듣는다  <!-- 시험 9건 · 논문 49편 --> — 같은 근거(별도 항목 없음; mindfulness-meditation-distress-pos)(2026-08-08)
+- [x] peer support — Health에 듣는다  <!-- 시험 27건 · 논문 62934편 --> — 근거 없음(2026-08-08 조회, "peer support" AND Health; 건강 전반·다른 중재를 섞어 직접 결과를 평가한 근거 없음)
+- [x] peer support — Social Skills에 듣는다  <!-- 시험 12건 · 논문 3193편 --> — 같은 근거(별도 항목 없음; peer-support-group-social-skills-pos)(2026-08-08)
+- [x] peer support — Suicide Ideation에 듣는다  <!-- 시험 8건 · 논문 696편 --> — 같은 근거(별도 항목 없음; peer-support-specialist-suicide-ideation-open)(2026-08-08)
+- [x] peer support — Physical Injury에 듣는다  <!-- 시험 8건 · 논문 1049편 --> 항목 생성(peer-support-physical-injury-null, 2026-08-08 조회)
+- [x] dance movement — Older Adults에 듣는다  <!-- 시험 8건 · 논문 1049편 --> — 같은 근거(별도 항목 없음; dance-movement-therapy-older-adults-pos)(2026-08-08)
+- [x] dance movement — Cognitive Decline에 듣는다  <!-- 시험 8건 · 논문 82편 --> — 같은 근거(별도 항목 없음; dance-movement-therapy-cognitive-decline-pos)(2026-08-08)
+- [x] dance movement — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 16편 --> — 같은 근거(별도 항목 없음; dance-therapy-fibromyalgia-open)(2026-08-08)
+- [x] dance movement — Depression에 듣는다  <!-- 시험 7건 · 논문 204편 --> — 같은 근거(별도 항목 없음; dance-therapy-depression-pos)(2026-08-08)
+- [x] singing group — Parkinson에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 같은 근거(별도 항목 없음; group-singing-parkinson-pos)(2026-08-08)
+- [x] singing group — Newborn Infant에 듣는다  <!-- 시험 3건 · 논문 42편 --> 항목 생성(singing-group-newborn-infant-pos, 2026-08-08 조회)
+- [x] singing group — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 같은 근거(별도 항목 없음; singing-group-dementia-pos)(2026-08-08)
+- [x] reading group — Pulmonary Consolidation에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-08 조회, "reading group" AND "pulmonary consolidation")
+- [x] reading group — Stroke에 듣는다  <!-- 시험 3건 · 논문 804편 --> — 같은 근거(별도 항목 없음; reading-therapy-stroke-open)(2026-08-08)
+- [x] reading group — Cerebral Edema에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(2026-08-08 조회, "reading group" AND "cerebral edema")
+- [x] reading group — Cognitive Impairment에 듣는다  <!-- 시험 3건 · 논문 996편 --> 항목 생성(reading-group-cognitive-impairment-open, 2026-08-08 조회)
+- [x] writing therapy — Bulimia Nervosa에 듣는다  <!-- 시험 5건 · 논문 30편 --> — 근거 없음(2026-08-08 조회, "writing therapy" AND "bulimia nervosa")
+- [x] writing therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 1521편 --> — 같은 근거(별도 항목 없음; expressive-writing-anxiety-pos)(2026-08-08)
+- [x] writing therapy — Psychiatric Diagnosis에 듣는다  <!-- 시험 4건 · 논문 5735편 --> — 같은 근거(별도 항목 없음; therapeutic-writing-psychiatric-diagnosis-pos)(2026-08-08)
+- [x] writing therapy — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 942편 --> — 근거 없음(2026-08-08 조회, "writing therapy" AND "opioid use")
+- [x] tai chi — Obesity에 듣는다  <!-- 시험 6건 · 논문 119편 --> 항목 생성(tai-chi-obesity-pos, 2026-08-08 조회)
+- [x] tai chi — Depression에 듣는다  <!-- 시험 6건 · 논문 596편 --> 항목 생성(tai-chi-depression-pos, tai-chi-depression-null, 2026-08-08 조회)
+- [x] tai chi — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 101편 --> — 같은 근거(별도 항목 없음; group-tai-chi-heart-failure-pos)(2026-08-08)
 - [ ] tai chi — Somatic Symptoms에 듣는다  <!-- 시험 6건 · 논문 8편 -->
 - [ ] resistance band exercise — Cancer에 듣는다  <!-- 시험 14건 · 논문 22편 -->
 - [ ] resistance band exercise — Aging에 듣는다  <!-- 시험 13건 · 논문 79편 -->
