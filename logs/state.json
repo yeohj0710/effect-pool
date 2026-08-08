@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4167,
+    "entries": 4170,
   "worklist": {
-        "total": 13856,
-        "checked": 13847,
+        "total": 13871,
+        "checked": 13862,
     "unchecked": 9,
     "no_evidence_pending": 1581,
     "next_batch": [
@@ -20,7 +20,7 @@
     ]
   },
   "verification": {
-        "build": "passed with pre-existing warnings; batch 320 used two different 20-name non-drug expansion attempts and added 0 then 11 candidates, added 0 evidence entries, closed 11 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build remained 4167 entries and 5803 refs with no new actionable line/effect/known/scale/English warnings",
+        "build": "passed with pre-existing warnings; batch 321 used one changed 20-name food, supplement, device, and behavior branch and added 15 candidates, added 3 evidence entries, closed 12 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4170 entries and 5806 refs with no new actionable line/effect/known/scale/English warnings; two new thin-study warnings are truthful for n=48 and n=40 blueberry trials",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -28,7 +28,7 @@
         "unknown_n_warnings": 357,
     "known_warnings": 2,
     "tier_distribution": {
-            "trial": 3603,
+            "trial": 3606,
             "obs": 499,
       "animal": 22,
       "lab": 11,
@@ -39,22 +39,22 @@
     "no_effect_or_harm_share": "23%",
         "non_trial": 564,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5803,
-        "thin_warnings": 762
+        "connected_evidence": 5806,
+        "thin_warnings": 764
   },
   "deployment": {
-        "last_entry_count": 4167,
+        "last_entry_count": 4170,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 320 local build remains at 4167 entries and 4172 id fields; public remains verified at 4167 entries and 4172 id fields after the batch 319 six-round check; next six-round check after batch 325",
+        "deployment_state": "batch 321 local build has 4170 entries and 4175 id fields; public remains last verified at 4167 entries and 4172 id fields after the batch 319 six-round check; next six-round check after batch 325",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4167,
-        "local_id_field_count": 4172,
+        "local_entry_count": 4170,
+        "local_id_field_count": 4175,
     "public_entry_count": 4167,
     "public_id_field_count": 4172,
     "counts_match": true,
-        "latest_note": "Batch 319 six-round check returned HTTP 200 and matched local at 4167 entries and 4172 id fields; batch 320 did not change the entry count. Next six-round check is after batch 325.",
+        "latest_note": "Batch 321 local build has 4170 entries and 4175 id fields; public remains last verified at 4167 entries and 4172 id fields. Next six-round check is after batch 325.",
     "six_round_check": {
       "batches": "314-319",
       "http_status": 200,
@@ -1237,8 +1237,15 @@
         "batch 320 closures: art making group Anxiety/Pain/Stroke, nutrition cooking class Diabetes/Diet, Healthy/Mental Health/Feeding Behaviors, and dance for older adults Older Adults/Cognitive Decline/Aged/Physical Fitness had 0 exact registry InterventionName and 0 direct PubMed Title/Abstract results",
         "batch 320 tightened 20 legacy sentences from ketamine-major-surgery-null through lactoferrin-anemia-harm; numbers, effects, and sample sizes were preserved",
         "batch 320 build generated 4167 entries and 5803 refs; trial 3603, obs 499, animal 22, lab 11, case 32, no-effect/harm 978 (23%), harm 123, unknown_n 357, known 2, thin 762; no new actionable line/effect/known/scale/English warnings",
-        "batch 320 deployment remains matched after batch 319 six-round check: local/public 4167 entries/4172 id fields; next six-round check after batch 325; if batch 321 also adds 0 entries, change the material branch"
+        "batch 320 deployment remains matched after batch 319 six-round check: local/public 4167 entries/4172 id fields; next six-round check after batch 325; if batch 321 also adds 0 entries, change the material branch",
+        "batch 321 expansion used one changed 20-name food, supplement, device, and behavior branch and added 15 candidates; no second expansion was needed because the first attempt added at least 10",
+        "batch 321 processed 15 non-oncology topics: added 3 evidence entries, closed 12 topics as no-evidence, held 9 oncology topics without API research, and skipped 0 approved indications",
+        "batch 321 evidence entries: blueberry-powder-blood-pressure-pos, blueberry-powder-inflammation-pos, and blueberry-powder-aging-pos",
+        "batch 321 closures: blueberry powder Cognitive Change; home balance exercise Muscle Balance/Parkinson Disease/Stroke/Falls; music breathing Anxiety/Cancer/Stress/Well-being; and sleep story Physical Activity/Hypertension/Dementia had no direct outcome evidence; protocol or indirect records were recorded on worklist lines",
+        "batch 321 tightened 20 legacy sentences from ketamine-major-surgery-null through lactoferrin-anemia-harm; numbers, effects, and sample sizes were preserved",
+        "batch 321 build generated 4170 entries and 5806 refs; trial 3606, obs 499, animal 22, lab 11, case 32, no-effect/harm 978 (23%), harm 123, unknown_n 357, known 2, thin 764; no new actionable line/effect/known/scale/English warnings; two new thin-study warnings are truthful",
+        "batch 321 deployment remains pending the next six-round check after batch 325: local 4170 entries/4175 id fields; public last verified at 4167 entries/4172 id fields"
   ],
-    "current_batch": "batch 320 complete; 0 evidence entries, 11 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local/public 4167 entries/4172 id fields; 9 unchecked oncology topics remain",
-    "next_action": "start batch 321 with a different material branch; read actual state, hold the 9 oncology topics, expand with fresh names, then process the resulting non-oncology topics; if this batch also adds 0 entries, change the branch again"
+    "current_batch": "batch 321 complete; 3 evidence entries, 12 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local 4170 entries/4175 id fields, public remains 4167/4172 pending the six-round check after batch 325; 9 unchecked oncology topics remain",
+    "next_action": "start batch 322; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
 }

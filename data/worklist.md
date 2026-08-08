@@ -18001,3 +18001,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dance for older adults — Cognitive Decline에 듣는다  <!-- 시험 7건 · 논문 132편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Cognitive Decline; ClinicalTrials.gov 21건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
 - [x] dance for older adults — Aged에 듣는다  <!-- 시험 4건 · 논문 2564편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Aged; ClinicalTrials.gov 72건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
 - [x] dance for older adults — Physical Fitness에 듣는다  <!-- 시험 3건 · 논문 314편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Physical Fitness; ClinicalTrials.gov 3건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] blueberry powder — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 16편 -->
+- [x] blueberry powder — Inflammation에 듣는다  <!-- 시험 6건 · 논문 25편 -->
+- [x] blueberry powder — Aging에 듣는다  <!-- 시험 6건 · 논문 18편 -->
+- [x] blueberry powder — Cognitive Change에 듣는다  <!-- 시험 5건 · 논문 8편 --> — 근거 없음(2026-08-08 조회, blueberry powder AND Cognitive Change; ClinicalTrials.gov 2건·InterventionName 정확 일치 1건, PubMed Title/Abstract 직접 문구 0편)
+- [x] home balance exercise — Muscle Balance에 듣는다  <!-- 시험 10건 · 논문 612편 --> — 근거 없음(2026-08-08 조회, home balance exercise AND Muscle Balance; ClinicalTrials.gov 65건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] home balance exercise — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 149편 --> — 근거 없음(2026-08-08 조회, home balance exercise AND Parkinson Disease; ClinicalTrials.gov 55건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] home balance exercise — Stroke에 듣는다  <!-- 시험 8건 · 논문 213편 --> — 근거 없음(2026-08-08 조회, home balance exercise AND Stroke; ClinicalTrials.gov 67건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] home balance exercise — Falls에 듣는다  <!-- 시험 8건 · 논문 792편 --> — 근거 없음(2026-08-08 조회, home balance exercise AND Falls; ClinicalTrials.gov 200건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] music breathing — Anxiety에 듣는다  <!-- 시험 13건 · 논문 242편 --> — 근거 없음(2026-08-08 조회, music breathing AND Anxiety; ClinicalTrials.gov 74건·InterventionName 정확 일치 0건, PubMed 직접 문구 1편은 연구 프로토콜 PMID 37828487)
+- [x] music breathing — Cancer에 듣는다  <!-- 시험 9건 · 논문 59편 --> — 근거 없음(2026-08-08 조회, music breathing AND Cancer; ClinicalTrials.gov 24건·InterventionName 정확 일치 0건, PubMed 직접 문구 1편은 음악 호흡 중재가 아닌 암 대처 연구 PMID 16492644)
+- [x] music breathing — Stress에 듣는다  <!-- 시험 8건 · 논문 168편 --> — 근거 없음(2026-08-08 조회, music breathing AND Stress; ClinicalTrials.gov 39건·InterventionName 정확 일치 1건은 결과 미공개 상태, PubMed PMID 37828487도 연구 프로토콜)
+- [x] music breathing — Well-being에 듣는다  <!-- 시험 6건 · 논문 488편 --> — 근거 없음(2026-08-08 조회, music breathing AND Well-being; ClinicalTrials.gov 48건·InterventionName 정확 일치 1건은 결과 미공개 상태, PubMed PMID 37828487도 연구 프로토콜)
+- [x] sleep story — Physical Activity에 듣는다  <!-- 시험 5건 · 논문 38편 --> — 근거 없음(2026-08-08 조회, sleep story AND Physical Activity; ClinicalTrials.gov 140건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] sleep story — Hypertension에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 근거 없음(2026-08-08 조회, sleep story AND Hypertension; ClinicalTrials.gov 20건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] sleep story — Dementia에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-08 조회, sleep story AND Dementia; ClinicalTrials.gov 20건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
