@@ -1,0 +1,28 @@
+{
+  "id": "wearable-device-heart-failure-open",
+  "subj": "wearable device",
+  "claim": "웨어러블 흉부 패치로 심부전 환자의 운동 중 심박출량 변화를 추적한다",
+  "line": "웨어러블 흉부 패치가 운동 중 심박출량 변화를 추적했습니다.",
+  "effect": "심박출량 변화 추적 가능",
+  "tier": "obs",
+  "dir": "open",
+  "n": 9,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "웨어러블 흉부 패치는 심부전 치료제가 아니라 평가 기기입니다.",
+  "why": "심박출량 평가를 위해 웨어러블 광혈류측정 흉부 패치와 우심도자 검사를 운동 중 비교했습니다.",
+  "saw": "심박출량 보존 심부전 환자 9명이 27쌍의 측정값을 제공했습니다. 패치와 열희석법의 상관은 r=0.774였고, 안정 시부터 20 W 운동까지 변화량의 일치도는 r=0.88이었습니다.",
+  "limit": "단일 기관의 9명 타당성 연구라서 다른 심부전 환자와 기기에 일반화하기 어렵습니다.",
+  "against": "패치와 열희석법의 평균 편향은 -0.72 L/min이었고 95% 일치한계가 넓었습니다.",
+  "use": "심부전 환자의 운동 중 혈역학을 비침습적으로 추적하는 보조 평가에 근거가 있습니다.",
+  "refs": [
+    { "label": "2026 · Scientific Reports · 웨어러블 흉부 패치 심박출량 타당성", "doi": "10.1038/s41598-026-63092-z", "pmid": "42486909", "pmc": "PMC13392229" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "wearable device AND Heart Failure · 75건",
+    "pubmed": "wearable device AND Heart Failure · 500건",
+    "negative": "wearable device AND Heart Failure AND (no effect/did not/failed/negative/no significant difference/null) · 173건",
+    "safety": "wearable device AND Heart Failure AND (adverse/toxicity/safety/harm/distress/side effect) · 91건"
+  }
+}

@@ -16565,3 +16565,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness-based childbirth education — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 49편 -->
 - [x] propolis mouthwash — Gingivitis에 듣는다  <!-- 시험 3건 · 논문 26편 -->
 - [x] propolis mouthwash — Decay, Dental에 듣는다 — 근거 없음(2026-08-08, propolis mouthwash AND Decay, Dental; 직접 결과 없음)  <!-- 시험 3건 · 논문 22편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] wearable device — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 500편 -->
+- [x] wearable device — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 464편 -->
+- [x] wearable device — Stroke에 듣는다 — 근거 없음(2026-08-08, wearable device AND Stroke; 직접 결과 논문 없음)  <!-- 시험 8건 · 논문 1059편 -->
+- [x] wearable device — Motor Activity에 듣는다 — 근거 없음(2026-08-08, wearable device AND Motor Activity; 직접 결과 논문 없음)  <!-- 시험 8건 · 논문 3634편 -->
+- [x] mobile mindfulness — Depression에 듣는다  <!-- 시험 13건 · 논문 353편 -->
+- [x] mobile mindfulness — Distress에 듣는다  <!-- 시험 9건 · 논문 154편 -->
+- [x] mobile mindfulness — Stress에 듣는다  <!-- 시험 9건 · 논문 393편 -->
+- [x] mobile mindfulness — Addiction에 듣는다 — 근거 없음(2026-08-08, mobile mindfulness AND Addiction; 직접 결과 논문 없음)  <!-- 시험 8건 · 논문 60편 -->
+- [x] carnosine — Obesity에 듣는다  <!-- 시험 3건 · 논문 96편 -->
+- [x] citicoline — Glaucoma에 듣는다  <!-- 시험 9건 · 논문 73편 -->
+- [x] citicoline — Cocaine Abuse에 듣는다  <!-- 시험 7건 · 논문 11편 -->
+- [x] citicoline — Bipolar Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [x] citicoline — Traumatic Brain Injury에 듣는다  <!-- 시험 3건 · 논문 66편 -->
+- [x] d-ribose — Ischemic Heart Disease에 듣는다 — 근거 없음(2026-08-08, d-ribose AND Ischemic Heart Disease; 직접 결과 논문 없음)  <!-- 시험 4건 · 논문 397편 -->
+- [x] urolithin a — Healthy Adults에 듣는다  <!-- 시험 3건 · 논문 46편 -->
