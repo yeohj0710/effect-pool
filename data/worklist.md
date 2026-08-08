@@ -17159,3 +17159,44 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rhythmic movement — Multiple Sclerosis에 듣는다 — 중복(2026-08-08, rhythmic walking — Multiple Sclerosis; 동일 RAS 보행 근거)  <!-- 시험 3건 · 논문 80편 -->
 - [x] rhythmic movement — Ankle Sprain에 듣는다 — 근거 없음(2026-08-08 조회, rhythmic movement AND Ankle Sprain; 직접 리듬 운동 중재 결과 없음)  <!-- 시험 3건 · 논문 29편 -->
 - [x] social cooking — Malnutrition에 듣는다 — 근거 없음(2026-08-08 조회, social cooking AND Malnutrition; 직접 사회적 요리 중재 결과 없음)  <!-- 시험 3건 · 논문 70편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] pedometer intervention — Cancer에 듣는다 — entries/pedometer-intervention-cancer-open.json로 처리(2026-08-08)  <!-- 시험 12건 · 논문 169편 -->
+- [x] pedometer intervention — Sedentary에 듣는다 — entries/pedometer-intervention-sedentary-pos.json로 처리(2026-08-08)  <!-- 시험 8건 · 논문 431편 -->
+- [x] pedometer intervention — Obesity에 듣는다 — 중복(2026-08-08, step count — Obesity; 같은 만보기 걸음 목표 근거)  <!-- 시험 5건 · 논문 485편 -->
+- [x] pedometer intervention — Type 2 Diabetes에 듣는다 — entries/pedometer-intervention-type-2-diabetes-null.json로 처리(2026-08-08)  <!-- 시험 5건 · 논문 176편 -->
+- [x] water exercise — Fatigue에 듣는다 — entries/water-exercise-fatigue-pos.json로 처리(2026-08-08)  <!-- 시험 12건 · 논문 1011편 -->
+- [x] water exercise — Obesity에 듣는다 — entries/water-exercise-obesity-null.json로 처리(2026-08-08)  <!-- 시험 11건 · 논문 1006편 -->
+- [x] water exercise — Dehydration에 듣는다 — 근거 없음(2026-08-08 조회, water exercise AND Dehydration; 탈수 치료를 평가한 직접 중재 결과 없음)  <!-- 시험 9건 · 논문 1126편 -->
+- [x] water exercise — Hydrotherapy에 듣는다 — 중복(2026-08-08, aquatic therapy — Hydrotherapy; 같은 수중 재활 중재 근거)  <!-- 시험 5건 · 논문 352편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] journaling therapy — Burnout에 듣는다 — 중복(2026-08-08, journaling — Burnout; 같은 감사 저널 중재 근거)  <!-- 시험 3건 · 논문 16편 -->
+- [x] step counter — Obesity에 듣는다 — 중복(2026-08-08, step count — Obesity; 같은 걸음 목표 근거)  <!-- 시험 3건 · 논문 41편 -->
+- [x] step counter — Physical Activity에 듣는다 — 중복(2026-08-08, pedometer intervention — Sedentary; 같은 걸음 추적 중재 근거)  <!-- 시험 3건 · 논문 262편 -->
+- [x] step counter — Type 2 Diabetes에 듣는다 — 중복(2026-08-08, pedometer intervention — Type 2 Diabetes; 같은 만보기 중재 근거)  <!-- 시험 3건 · 논문 28편 -->
+- [x] virtual gardening — Stress에 듣는다 — 중복(2026-08-08, virtual reality gardening — Stress; 같은 가상 정원 노출 근거)  <!-- 시험 5건 · 논문 23편 -->
+- [x] virtual gardening — Depressive Symptoms에 듣는다 — entries/virtual-gardening-depressive-symptoms-pos.json로 처리(2026-08-08)  <!-- 시험 4건 · 논문 14편 -->
+- [x] bean consumption — Obesity에 듣는다 — 중복(2026-08-08, navy beans — Obesity; 같은 콩 섭취 비만 연구)  <!-- 시험 3건 · 논문 101편 -->
+- [x] bean consumption — Diabetes에 듣는다 — entries/bean-consumption-diabetes-null.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 89편 -->
+- [x] cocoa beverage — Diabetes에 듣는다 — 중복(2026-08-08, cocoa — Diabetes; 같은 코코아 섭취 근거)  <!-- 시험 7건 · 논문 80편 -->
+- [x] cocoa beverage — Nonalcoholic Fatty Liver Disease에 듣는다 — 중복(2026-08-08, cocoa — Nonalcoholic Fatty Liver Disease; 같은 코코아 섭취 근거)  <!-- 시험 6건 · 논문 8편 -->
+- [x] cocoa beverage — Oxidative Stress에 듣는다 — 중복(2026-08-08, cocoa — Oxidative Stress; 같은 코코아 섭취 근거)  <!-- 시험 5건 · 논문 57편 -->
+- [x] vegetable consumption — Aging에 듣는다 — entries/vegetable-consumption-aging-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 1078편 -->
+- [x] vegetable consumption — Diet에 듣는다 — entries/vegetable-consumption-diet-null.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 16743편 -->

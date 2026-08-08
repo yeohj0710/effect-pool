@@ -1,49 +1,49 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3990,
+  "entries": 3999,
   "worklist": {
-    "total": 13474,
-    "checked": 13474,
+    "total": 13495,
+    "checked": 13495,
     "unchecked": 0,
-    "no_evidence_pending": 1489,
+    "no_evidence_pending": 1490,
     "next_batch": [
 
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 284 added 9 evidence entries and closed 5 topics after two fresh non-drug expansions; local build generated 3990 entries and 5571 refs with no new actionable line/effect/known/scale/English warnings; six truthful thin-study warnings remain for small human studies",
+    "build": "passed with pre-existing warnings; batch 285 added 9 evidence entries, closed 12 topics, and tightened 20 legacy sentences after two fresh non-drug expansions; local build generated 3999 entries and 5580 refs with no new actionable line/effect/known/scale/English warnings; nine truthful thin-study warnings remain for small human studies",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3445,
-      "obs": 480,
+      "trial": 3453,
+      "obs": 481,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 932,
+    "no_effect_or_harm": 936,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 545,
+    "non_trial": 546,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5571,
-    "thin_warnings": 694
+    "connected_evidence": 5580,
+    "thin_warnings": 703
   },
   "deployment": {
     "last_entry_count": 3981,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_ARKGnmhLchgAHHzfPEvdssnnfDGj",
-    "deployment_state": "batch 284 local build is 9 entries ahead of the last verified public build; public remains at 3981 until the next six-round deployment check",
+    "deployment_state": "batch 285 local build is 18 entries ahead of the last verified public build; public remains at 3981 until the six-round deployment check after batch 289",
     "deployment_url": "https://offlabel-pool-e7jumlf0h-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3990,
-    "local_id_field_count": 3995,
+    "local_entry_count": 3999,
+    "local_id_field_count": 4004,
     "public_entry_count": 3981,
     "public_id_field_count": 3986,
     "counts_match": false,
-    "latest_note": "Batch 284 local build has 3990 entries and 3995 id fields; public remains the last verified 3981-entry build until the six-round check after batch 289.",
+    "latest_note": "Batch 285 local build has 3999 entries and 4004 id fields; public remains the last verified 3981-entry build until the six-round check after batch 289.",
     "six_round_check": {
       "batches": "278-283",
       "http_status": 200,
@@ -1015,6 +1015,6 @@
     "batch 283 build generated 3981 entries and 5562 refs; warning counts were unknown_n 346, thin 688, known 2, effect 0, line/scale/English 0; one truthful thin-study warning remains for n=29",
     "six-round check after batches 278-283 found public 3973 versus local 3981 with HTTP 200; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3981 entries and 3986 id fields"
   ],
-  "current_batch": "batch 284 complete locally; 9 evidence entries and 5 duplicate/no-evidence closures after two fresh non-drug expansions; local 3990 and public remains 3981; worklist is empty",
-  "next_action": "commit and push batch 284; immediately start batch 285 with git pull --ff-only and AGENTS.md; run expand-worklist --covered and fresh non-drug expansions, then process up to 30 new non-oncology topics"
+  "current_batch": "batch 285 complete locally; 9 evidence entries, 12 duplicate/no-evidence closures, and 20 legacy sentence edits after two fresh non-drug expansions; local 3999 and public remains 3981; worklist is empty",
+  "next_action": "commit and push batch 285; immediately start batch 286 with git pull --ff-only and AGENTS.md; run expand-worklist --covered and fresh non-drug expansions, then process up to 30 new non-oncology topics"
 }
