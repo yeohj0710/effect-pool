@@ -16028,14 +16028,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cilostazol — Cerebrovascular Disease에 듣는다  <!-- 시험 3건 · 논문 540편 --> — cilostazol-cerebrovascular-disease-pos (2026-08-08)
 - [x] clonidine — Critical Illness에 듣는다  <!-- 시험 4건 · 논문 78편 --> — clonidine-critical-illness-pos (2026-08-08)
 - [x] clonidine — Analgesia에 듣는다  <!-- 시험 4건 · 논문 1561편 --> — clonidine-analgesia-pos (2026-08-08)
-- [ ] clonidine — Cancer에 듣는다  <!-- 시험 4건 · 논문 669편 -->
+- [x] clonidine — Cancer에 듣는다 — 근거 없음(2026-08-08, clonidine AND Cancer; 직접 암 치료 결과 없음)  <!-- 시험 4건 · 논문 669편 -->
 - [x] colchicine — Cardiac Disease에 듣는다  <!-- 시험 7건 · 논문 1619편 --> — colchicine-cardiac-disease-null (2026-08-08)
 - [x] colchicine — Inflammatory Markers에 듣는다  <!-- 시험 6건 · 논문 355편 --> — colchicine-inflammatory-markers-pos (2026-08-08)
 - [x] colchicine — Aortic Stenosis에 듣는다  <!-- 시험 6건 · 논문 19편 --> — colchicine-aortic-stenosis-harm (2026-08-08)
 - [x] colchicine — HIV Infection에 듣는다  <!-- 시험 5건 · 논문 34편 --> — colchicine-hiv-infection-null (2026-08-08)
 - [x] desmopressin — Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 3203편 --> — desmopressin-hemorrhage-harm (2026-08-08)
 - [x] desmopressin — Diabetes Insipidus에 듣는다  <!-- 시험 4건 · 논문 1377편 --> — 허가 적응증(2026-08-08)
-- [ ] desmopressin — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 35편 -->
+- [x] desmopressin — Breast Cancer에 듣는다 — 근거 없음(2026-08-08, desmopressin AND Breast Cancer; 수술 전 지혈 연구 외 직접 유방암 치료 결과 없음)  <!-- 시험 3건 · 논문 35편 -->
 - [x] azithromycin — Asthma에 듣는다  <!-- 시험 26건 · 논문 351편 --> — azithromycin-asthma-pos (2026-08-08)
 - [x] azithromycin — Pulmonary Disease에 듣는다  <!-- 시험 24건 · 논문 3128편 --> — azithromycin-pulmonary-disease-pos (2026-08-08)
 - [x] azithromycin — Preterm에 듣는다  <!-- 시험 24건 · 논문 157편 --> — azithromycin-preterm-null (2026-08-08)
@@ -16102,7 +16102,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] food portion control — Bone에 듣는다  <!-- 시험 5건 · 논문 59편 --> — 근거 없음(2026-08-08, "food portion size" AND Bone; 직접 중재 결과 논문 없음)
 - [x] food portion control — High Triglycerides에 듣는다  <!-- 시험 5건 · 논문 37편 --> — 근거 없음(2026-08-08, "food portion size" AND "High Triglycerides"; 직접 중재 결과 논문 없음)
 - [x] water intake — Diabetes에 듣는다  <!-- 시험 14건 · 논문 12169편 --> — 근거 없음(2026-08-08, "water intake" AND Diabetes; 당뇨병 치료 직접 결과 논문 없음)
-- [ ] water intake — Colon Cancer에 듣는다  <!-- 시험 12건 · 논문 1477편 -->
+- [x] water intake — Colon Cancer에 듣는다 — 근거 없음(2026-08-08, water intake AND Colon Cancer; 직접 물 섭취 중재의 대장암 치료 결과 없음)  <!-- 시험 12건 · 논문 1477편 -->
 - [x] water intake — Salt Intake에 듣는다  <!-- 시험 11건 · 논문 4118편 --> — 근거 없음(2026-08-08, "water consumption" AND "Salt Intake"; 직접 중재 결과 논문 없음)
 - [x] water intake — Dehydration에 듣는다  <!-- 시험 10건 · 논문 3054편 -->
 - [x] meal timing — Obesity에 듣는다  <!-- 시험 8건 · 논문 544편 -->
@@ -16110,7 +16110,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meal timing — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 99편 -->
 - [x] meal timing — Sleep에 듣는다  <!-- 시험 3건 · 논문 528편 -->
 - [x] weight loss counseling — Diabetes에 듣는다  <!-- 시험 14건 · 논문 873편 -->
-- [ ] weight loss counseling — Cancer에 듣는다  <!-- 시험 9건 · 논문 662편 -->
+- [x] weight loss counseling — Cancer에 듣는다  <!-- 시험 9건 · 논문 662편 -->
 - [x] weight loss counseling — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 174편 -->
 - [x] weight loss counseling — Liver Diseases에 듣는다  <!-- 시험 6건 · 논문 84편 --> — 근거 없음(2026-08-08, "weight loss counseling" AND "Liver Diseases"; 상담 단독 결과 논문 없음)
 
@@ -16159,10 +16159,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] eravacycline — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 24편 -->
 - [x] eravacycline — Pulmonary Infection에 듣는다  <!-- 시험 3건 · 논문 47편 -->
 - [x] plazomicin — Acute Pyelonephritis에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 허가 적응증(2026-08-08)
-- [ ] alvimopan — Cancer에 듣는다  <!-- 시험 7건 · 논문 66편 -->
+- [x] alvimopan — Cancer에 듣는다 — 근거 없음(2026-08-08, alvimopan AND Cancer; 수술 후 장운동 연구 외 직접 암 치료 결과 없음)  <!-- 시험 7건 · 논문 66편 -->
 - [x] alvimopan — Constipation에 듣는다  <!-- 시험 6건 · 논문 65편 --> — 근거 없음(2026-08-08, alvimopan AND constipation)
 - [x] alvimopan — Bowel Dysfunction에 듣는다  <!-- 시험 6건 · 논문 151편 -->
-- [ ] naloxegol — Cancer에 듣는다  <!-- 시험 4건 · 논문 56편 -->
+- [x] naloxegol — Cancer에 듣는다  <!-- 시험 4건 · 논문 56편 -->
 - [x] naloxegol — Opioid Use에 듣는다  <!-- 시험 3건 · 논문 164편 --> — 근거 없음(2026-08-08, naloxegol AND (opioid use OR opioid use disorder))
 - [x] pegvisomant — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 59편 --> — 근거 없음(2026-08-08, pegvisomant AND insulin resistance)
 - [x] milrinone — Pulmonary Edema에 듣는다  <!-- 시험 12건 · 논문 51편 --> — 근거 없음(2026-08-08, milrinone AND pulmonary edema)
@@ -16258,3 +16258,43 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] apremilast — Vitiligo에 듣는다  <!-- 시험 3건 · 논문 20편 -->
 - [x] apremilast — Hidradenitis Suppurativa에 듣는다  <!-- 시험 3건 · 논문 33편 -->
 - [x] apremilast — COVID-19에 듣는다 — 근거 없음(2026-08-08, apremilast AND COVID-19 치료; 직접 COVID-19 치료 결과 없음)  <!-- 시험 3건 · 논문 38편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] axatilimab — Chronic Graft Vs. Host Disease에 듣는다 — 허가 적응증(2026-08-08)  <!-- 시험 8건 · 논문 24편 -->
+- [x] compassion-focused therapy — Autism에 듣는다 — 근거 없음(2026-08-08, compassion-focused therapy AND Autism; 자폐 당사자 직접 치료 결과 없음)  <!-- 시험 4건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] apixaban — Hemorrhage에 듣는다 — 근거 없음(2026-08-08, apixaban AND Hemorrhage; 직접 출혈 치료 결과 없음)  <!-- 시험 12건 · 논문 4030편 -->
+- [x] apixaban — Thrombus에 듣는다 — 허가 적응증(2026-08-08)  <!-- 시험 11건 · 논문 2217편 -->
+- [x] apixaban — Cirrhosis에 듣는다  <!-- 시험 9건 · 논문 73편 -->
+- [x] apixaban — Renal Insufficiency에 듣는다 — 근거 없음(2026-08-08, apixaban AND Renal Insufficiency; 신부전 자체 치료 결과 없음)  <!-- 시험 9건 · 논문 293편 -->
+- [ ] grazoprevir — Hepatocellular Carcinoma에 듣는다  <!-- 시험 9건 · 논문 19편 -->
+- [x] grazoprevir — HIV에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND HIV; HIV 자체 치료 결과 없음)  <!-- 시험 6건 · 논문 67편 -->
+- [x] grazoprevir — Fibrosis, Liver에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND Fibrosis, Liver; 간섬유화 자체를 대상으로 한 직접 결과 없음)  <!-- 시험 6건 · 논문 104편 -->
+- [x] grazoprevir — Substance Use Disorders에 듣는다 — 근거 없음(2026-08-08, grazoprevir AND Substance Use Disorders; 물질사용장애 자체 치료 결과 없음)  <!-- 시험 4건 · 논문 10편 -->
+- [ ] ropeginterferon alfa-2b — Myelofibrosis에 듣는다  <!-- 시험 8건 · 논문 24편 -->
+- [ ] ropeginterferon alfa-2b — Myeloproliferative Neoplasm에 듣는다  <!-- 시험 5건 · 논문 81편 -->
+- [ ] ropeginterferon alfa-2b — Essential Thrombocythemia에 듣는다  <!-- 시험 4건 · 논문 20편 -->
+- [ ] tirbanibulin — Cell Carcinoma에 듣는다  <!-- 시험 5건 · 논문 53편 -->
+- [x] digital peer support — Retention in Care에 듣는다 — 근거 없음(2026-08-08, digital peer support AND Retention in Care; 직접 유지율 개입 결과 없음)  <!-- 시험 3건 · 논문 67편 -->
+- [x] digital peer support — Medical Students에 듣는다  <!-- 시험 3건 · 논문 151편 -->
+- [x] parent coaching — Risk Behavior에 듣는다 — 근거 없음(2026-08-08, parent coaching AND Risk Behavior; 직접 위험행동 치료 결과 없음)  <!-- 시험 22건 · 논문 210편 -->
+- [x] parent coaching — Obesity에 듣는다  <!-- 시험 14건 · 논문 159편 -->
+- [x] parent coaching — Mental Health에 듣는다  <!-- 시험 12건 · 논문 419편 -->
+- [x] parent coaching — Child Abuse에 듣는다 — 근거 없음(2026-08-08, parent coaching AND Child Abuse; 직접 아동학대 치료 결과 없음)  <!-- 시험 12건 · 논문 97편 -->
