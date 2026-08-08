@@ -16417,7 +16417,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] positive activity intervention — Cancer에 듣는다  <!-- 시험 8건 · 논문 49700편 -->
+- [x] positive activity intervention — Cancer에 듣는다  <!-- 시험 8건 · 논문 49700편 --> — 근거 없음(2026-08-08 조회, positive activity intervention AND Cancer; 직접 사람 중재 결과 없음)
 - [x] positive activity intervention — Depression에 듣는다  <!-- 시험 7건 · 논문 12637편 -->
 - [x] positive activity intervention — Stress에 듣는다 — 근거 없음(2026-08-08, positive activity intervention AND Stress; 직접 결과 없음)  <!-- 시험 6건 · 논문 19005편 -->
 - [x] positive activity intervention — Anxiety에 듣는다  <!-- 시험 5건 · 논문 7797편 -->
@@ -16455,7 +16455,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] parent peer support — Autism에 듣는다 — 근거 없음(2026-08-08, parent peer support AND Autism; 직접 결과 없음)  <!-- 시험 7건 · 논문 304편 -->
 - [x] parent peer support — Substance Use에 듣는다 — 근거 없음(2026-08-08, parent peer support AND Substance Use; 직접 결과 없음)  <!-- 시험 4건 · 논문 1185편 -->
 - [x] parent peer support — Children에 듣는다  <!-- 시험 4건 · 논문 7517편 -->
-- [ ] yoga therapy — Cancer에 듣는다  <!-- 시험 74건 · 논문 1172편 -->
+- [x] yoga therapy — Cancer에 듣는다  <!-- 시험 74건 · 논문 1172편 -->
 - [x] yoga therapy — Stress에 듣는다  <!-- 시험 50건 · 논문 2551편 -->
 - [x] yoga therapy — Anxiety에 듣는다 — 근거 없음(2026-08-08, yoga therapy AND Anxiety; 직접 결과 없음)  <!-- 시험 40건 · 논문 1781편 -->
 - [x] yoga therapy — Depression에 듣는다 — 근거 없음(2026-08-08, yoga therapy AND Depression; 직접 결과 없음)  <!-- 시험 38건 · 논문 1775편 -->
@@ -16475,9 +16475,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] family peer support — Psychosis에 듣는다 — 근거 없음(2026-08-08, family peer support AND Psychosis; 직접 결과 없음)  <!-- 시험 3건 · 논문 171편 -->
 - [x] music engagement therapy — Stroke에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Stroke; 직접 결과 없음)  <!-- 시험 3건 · 논문 64편 -->
 - [x] music engagement therapy — Pain에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Pain; 직접 결과 없음)  <!-- 시험 3건 · 논문 109편 -->
-- [ ] music engagement therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 73편 -->
+- [x] music engagement therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 73편 --> — 근거 없음(2026-08-08 조회, music engagement therapy AND Cancer; 직접 사람 중재 결과 없음)
 - [x] music engagement therapy — Attention에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Attention; 직접 결과 없음)  <!-- 시험 3건 · 논문 167편 -->
-- [ ] online group mindfulness — Cancer에 듣는다  <!-- 시험 14건 · 논문 117편 -->
+- [x] online group mindfulness — Cancer에 듣는다  <!-- 시험 14건 · 논문 117편 -->
 - [x] online group mindfulness — Stress에 듣는다 — 근거 없음(2026-08-08, online group mindfulness AND Stress; 직접 결과 없음)  <!-- 시험 11건 · 논문 532편 -->
 - [x] online group mindfulness — Anxiety에 듣는다 — 근거 없음(2026-08-08, online group mindfulness AND Anxiety; 직접 결과 없음)  <!-- 시험 9건 · 논문 421편 -->
 - [x] peer support mentoring — Mental Health에 듣는다 — 근거 없음(2026-08-08, peer support mentoring AND Mental Health; 직접 결과 없음)  <!-- 시험 10건 · 논문 368편 -->
@@ -16516,7 +16516,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online behavioral activation — Sleep Disturbance에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Sleep Disturbance; 직접 결과 없음)  <!-- 시험 3건 · 논문 316편 -->
 - [x] online behavioral activation — Stress에 듣는다 — 근거 없음(2026-08-08, online behavioral activation AND Stress; 직접 결과 없음)  <!-- 시험 3건 · 논문 2619편 -->
 - [x] peer navigator support — Suicide Ideation에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Suicide Ideation; 직접 결과 없음)  <!-- 시험 4건 · 논문 10편 -->
-- [ ] peer navigator support — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 45편 -->
+- [x] peer navigator support — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 근거 없음(2026-08-08 조회, peer navigator support AND Breast Cancer; 직접 사람 중재 결과 없음)
 - [x] peer navigator support — Social Care에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Social Care; 직접 결과 없음)  <!-- 시험 3건 · 논문 1058편 -->
 - [x] peer navigator support — Stress에 듣는다 — 근거 없음(2026-08-08, peer navigator support AND Stress; 직접 결과 없음)  <!-- 시험 3건 · 논문 161편 -->
 - [x] sleep education coaching — Stress에 듣는다 — 근거 없음(2026-08-08, sleep education coaching AND Stress; 직접 결과 없음)  <!-- 시험 7건 · 논문 128편 -->
@@ -16556,7 +16556,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] telephone support — Depression에 듣는다  <!-- 시험 7건 · 논문 5072편 -->
 - [x] telephone support — Obesity에 듣는다  <!-- 시험 7건 · 논문 1884편 -->
 - [x] telephone support — Tobacco Use에 듣는다  <!-- 시험 5건 · 논문 2094편 -->
-- [ ] telephone support — Breast Carcinoma에 듣는다  <!-- 시험 4건 · 논문 1549편 -->
+- [x] telephone support — Breast Carcinoma에 듣는다  <!-- 시험 4건 · 논문 1549편 -->
 - [x] peer coaching — Family Health에 듣는다 — 근거 없음(2026-08-08, peer coaching AND Family Health; 직접 결과 없음)  <!-- 시험 18건 · 논문 421편 -->
 - [x] peer coaching — Obesity에 듣는다  <!-- 시험 11건 · 논문 103편 -->
 - [x] peer coaching — Autism Spectrum Disorder에 듣는다 — 근거 없음(2026-08-08, peer coaching AND Autism Spectrum Disorder; 직접 결과 없음)  <!-- 시험 7건 · 논문 43편 -->
@@ -16601,7 +16601,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] music listening therapy — Anxiety에 듣는다  <!-- 시험 80건 · 논문 667편 -->
-- [ ] music listening therapy — Cancer에 듣는다  <!-- 시험 50건 · 논문 160편 -->
+- [x] music listening therapy — Cancer에 듣는다  <!-- 시험 50건 · 논문 160편 -->
 - [x] music listening therapy — Dementia에 듣는다  <!-- 시험 25건 · 논문 154편 -->
 - [x] music listening therapy — Stress에 듣는다  <!-- 시험 24건 · 논문 418편 -->
 - [x] telehealth group therapy — Pain에 듣는다  <!-- 시험 5건 · 논문 728편 -->
@@ -16683,7 +16683,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] digital art therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-08, digital art therapy AND Infertility; 직접 사람 중재 결과 없음)
 - [x] peer support navigation — Drug Use에 듣는다  <!-- 시험 8건 · 논문 276편 --> — 항목 생성(peer-support-navigation-drug-use-open)
 - [x] peer support navigation — Mental Health에 듣는다  <!-- 시험 7건 · 논문 515편 --> — 항목 생성(peer-support-navigation-mental-health-pos)
-- [ ] peer support navigation — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 45편 -->
+- [x] peer support navigation — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 45편 --> — 근거 없음(2026-08-08 조회, peer support navigation AND Breast Cancer; 직접 사람 중재 결과 없음)
 - [x] peer support navigation — Social Care에 듣는다  <!-- 시험 4건 · 논문 1058편 --> — 항목 생성(peer-support-navigation-social-care-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -16724,7 +16724,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tactile stimulation — Cervical Dystonia에 듣는다  <!-- 시험 6건 · 논문 16편 --> — 항목 생성(tactile-stimulation-cervical-dystonia-pos)
 - [x] tactile stimulation — Apnea Neonatal에 듣는다  <!-- 시험 4건 · 논문 27편 --> — 근거 없음(2026-08-08, tactile stimulation AND Apnea Neonatal; 등록시험 결과 미보고)
 - [x] smartphone sleep intervention — Sleep Bruxism에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-08, smartphone sleep intervention AND Sleep Bruxism; 관찰 연구만 확인)
-- [ ] smartphone sleep intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [x] smartphone sleep intervention — Cancer에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-08 조회, smartphone sleep intervention AND Cancer; 직접 결과가 보고된 사람 중재 없음)
 - [x] smartphone sleep intervention — Depression in Adolescence에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 근거 없음(2026-08-08, smartphone sleep intervention AND Depression in Adolescence; 일치 결과 논문 없음)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -16748,7 +16748,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] mobile art therapy — Substance Use에 듣는다  <!-- 시험 6건 · 논문 29편 --> — 근거 없음(2026-08-08, mobile art therapy AND Substance Use; 직접 일치 결과 논문 없음)
-- [ ] digital pet therapy — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 877편 -->
+- [x] digital pet therapy — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 877편 --> — 근거 없음(2026-08-08 조회, digital pet therapy AND Breast Carcinoma; 직접 사람 중재 결과 없음)
 - [x] remote social support — Hypertension에 듣는다  <!-- 시험 3건 · 논문 97편 --> — 근거 없음(2026-08-08, remote social support AND Hypertension; 직접 일치 결과 논문 없음)
 - [x] remote social support — Knowledge Assessment에 듣는다  <!-- 시험 3건 · 논문 287편 --> — 근거 없음(2026-08-08, remote social support AND Knowledge Assessment; 직접 일치 결과 논문 없음)
 
@@ -16763,13 +16763,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] smartphone breathing app — Anxiety에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(smartphone-breathing-app-anxiety-open)
 - [x] virtual support group — Pain에 듣는다  <!-- 시험 20건 · 논문 549편 --> — 근거 없음(2026-08-08, virtual support group AND Pain; 직접 일치 결과 논문 없음)
-- [ ] virtual support group — Cancer에 듣는다  <!-- 시험 19건 · 논문 1128편 -->
+- [x] virtual support group — Cancer에 듣는다  <!-- 시험 19건 · 논문 1128편 -->
 - [x] virtual support group — Stress에 듣는다  <!-- 시험 14건 · 논문 642편 --> — 근거 없음(2026-08-08, virtual support group AND Stress; 직접 일치 결과 논문 없음)
 - [x] virtual support group — Education에 듣는다  <!-- 시험 14건 · 논문 3004편 --> — 항목 생성(virtual-support-group-education-open)
 - [x] peer phone support — Drug Use에 듣는다  <!-- 시험 15건 · 논문 283편 --> — 항목 생성(peer-phone-support-drug-use-open)
 - [x] peer phone support — Diabetes에 듣는다  <!-- 시험 14건 · 논문 216편 --> — 항목 생성(peer-phone-support-diabetes-pos)
 - [x] peer phone support — Depression에 듣는다  <!-- 시험 12건 · 논문 331편 --> — 근거 없음(2026-08-08, peer phone support AND Depression; 직접 일치 결과 논문 없음)
-- [ ] peer phone support — Cancer에 듣는다  <!-- 시험 9건 · 논문 344편 -->
+- [x] peer phone support — Cancer에 듣는다  <!-- 시험 9건 · 논문 344편 -->
 - [x] digital exercise coaching — Obesity에 듣는다  <!-- 시험 8건 · 논문 44편 --> — 근거 없음(2026-08-08, digital exercise coaching AND Obesity; 직접 일치 결과 논문 없음)
 - [x] digital exercise coaching — Pre-diabetes에 듣는다  <!-- 시험 6건 · 논문 9편 --> — 항목 생성(digital-exercise-coaching-prediabetes-open)
 - [x] digital exercise coaching — Prevention에 듣는다  <!-- 시험 6건 · 논문 120편 --> — 항목 생성(digital-exercise-coaching-prevention-pos)
@@ -16785,10 +16785,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] peer support app — Mental Stress에 듣는다  <!-- 시험 3건 · 논문 50편 --> — 항목 생성(peer-support-app-mental-stress-pos, peer-support-app-mental-stress-null)
 - [x] peer support app — HIV/AIDS에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(peer-support-app-hiv-aids-open)
-- [ ] peer support app — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 18편 -->
+- [x] peer support app — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 근거 없음(2026-08-08 조회, peer support app AND Breast Cancer; 직접 결과가 보고된 사람 중재 없음)
 - [x] online exercise group — Obesity에 듣는다  <!-- 시험 13건 · 논문 540편 --> — 항목 생성(online-exercise-group-obesity-pos)
 - [x] online exercise group — Motor Activity에 듣는다  <!-- 시험 13건 · 논문 2130편 --> — 항목 생성(online-exercise-group-motor-activity-pos)
-- [ ] online exercise group — Cancer에 듣는다  <!-- 시험 9건 · 논문 543편 -->
+- [x] online exercise group — Cancer에 듣는다  <!-- 시험 9건 · 논문 543편 -->
 - [x] online exercise group — Health Behavior에 듣는다  <!-- 시험 9건 · 논문 1270편 --> — 근거 없음(2026-08-08, online exercise group AND Health Behavior; 직접 일치 결과 논문 없음)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -16831,7 +16831,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] guided relaxation group — Pain에 듣는다  <!-- 시험 15건 · 논문 224편 --> — 항목 생성(guided-relaxation-group-pain-open)
 - [x] guided relaxation group — Anxiety에 듣는다  <!-- 시험 6건 · 논문 231편 --> — 중복 항목(guided-relaxation-anxiety-pos)
 - [x] guided relaxation group — Depression에 듣는다  <!-- 시험 5건 · 논문 139편 --> — 근거 없음(2026-08-08, guided relaxation group AND Depression; 직접 일치 결과 논문 없음)
-- [ ] guided relaxation group — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [x] guided relaxation group — Lung Cancer에 듣는다  <!-- 시험 5건 · 논문 9편 -->
 - [x] online breathing group — Stress에 듣는다  <!-- 시험 4건 · 논문 103편 --> — 근거 없음(2026-08-08, online breathing group AND Stress; 직접 스트레스 결과 논문 없음)
 - [x] online breathing group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 83편 --> — 항목 생성(online-breathing-group-anxiety-pos)
 - [x] online breathing group — Chronic Conditions에 듣는다  <!-- 시험 3건 · 논문 113편 --> — 근거 없음(2026-08-08, online breathing group AND Chronic Conditions; 직접 일치 결과 논문 없음)
@@ -16877,7 +16877,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] photography therapy — Skin Carcinoma에 듣는다  <!-- 시험 3건 · 논문 898편 -->
+- [x] photography therapy — Skin Carcinoma에 듣는다  <!-- 시험 3건 · 논문 898편 --> — 근거 없음(2026-08-08 조회, photography therapy AND Skin Carcinoma; 직접 사람 중재 결과 없음)
 - [x] cocoa bean — Diabetes에 듣는다  <!-- 시험 12건 · 논문 13편 --> — 근거 없음(2026-08-08, cocoa bean AND Diabetes; 직접 사람 중재 결과 없음)
 - [x] cocoa bean — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 근거 없음(2026-08-08, cocoa bean AND Oxidative Stress; 직접 사람 중재 결과 없음)
 
@@ -16890,7 +16890,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nature meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 96편 -->
+- [x] nature meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 96편 --> — 근거 없음(2026-08-08 조회, nature meditation AND Cancer; 직접 사람 중재 결과 없음)
 - [x] nature meditation — Anxiety에 듣는다  <!-- 시험 3건 · 논문 146편 --> — 근거 없음(2026-08-08, nature meditation AND Anxiety; 직접 사람 중재 결과 없음)
 - [x] yellow pea — Obesity에 듣는다  <!-- 시험 3건 · 논문 10편 -->
 
@@ -16914,7 +16914,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] task-oriented training — Rehabilitation에 듣는다  <!-- 시험 5건 · 논문 666편 --> — 근거 없음(2026-08-08, task-oriented training AND Rehabilitation; 직접 질환 중재 결과 없음)
 - [x] task-oriented training — Mirror Therapy에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 근거 없음(2026-08-08, task-oriented training AND Mirror Therapy; 직접 질환 중재 결과 없음)
 - [x] home-based physiotherapy — Multiple Sclerosis에 듣는다  <!-- 시험 6건 · 논문 106편 -->
-- [ ] home-based physiotherapy — Cancer에 듣는다  <!-- 시험 6건 · 논문 557편 -->
+- [x] home-based physiotherapy — Cancer에 듣는다  <!-- 시험 6건 · 논문 557편 -->
 - [x] home-based physiotherapy — Exercise에 듣는다  <!-- 시험 5건 · 논문 3596편 -->
 - [x] home-based physiotherapy — Stroke에 듣는다  <!-- 시험 4건 · 논문 326편 -->
 - [x] mirror therapy — Hemiparesis에 듣는다  <!-- 시험 4건 · 논문 145편 -->
@@ -16933,7 +16933,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] exoskeleton training — Hemiparesis에 듣는다  <!-- 시험 3건 · 논문 89편 -->
 - [x] electrical stimulation therapy — Stroke에 듣는다  <!-- 시험 12건 · 논문 8888편 -->
 - [x] electrical stimulation therapy — Radiculopathy Lumbar에 듣는다  <!-- 시험 9건 · 논문 112편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Radiculopathy Lumbar; 직접 사람 중재 결과 없음)
-- [ ] electrical stimulation therapy — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 183편 -->
+- [x] electrical stimulation therapy — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 183편 -->
 - [x] electrical stimulation therapy — Knee Injuries에 듣는다  <!-- 시험 7건 · 논문 370편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Knee Injuries; 직접 사람 중재 결과 없음)
 - [x] therapeutic ultrasound — Lymphedema Arm에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-08, therapeutic ultrasound AND Lymphedema Arm; 직접 사람 중재 결과 없음)
 - [x] low-level laser therapy — Laser Therapy에 듣는다  <!-- 시험 4건 · 논문 11981편 --> — 근거 없음(2026-08-08, low-level laser therapy AND Laser Therapy; 직접 질환 중재 결과 없음)
@@ -16960,13 +16960,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] companion animal — Anal Cancer에 듣는다  <!-- 시험 5건 · 논문 9편 -->
+- [x] companion animal — Anal Cancer에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 근거 없음(2026-08-08 조회, companion animal AND Anal Cancer; 직접 사람 중재 결과 없음)
 - [x] companion animal — Autism에 듣는다  <!-- 시험 4건 · 논문 60편 -->
 - [x] companion animal — Mental Fatigue에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 근거 없음(2026-08-08 조회, companion animal AND Mental Fatigue; 직접 사람 중재 결과 없음)
 - [x] companion animal — Stress에 듣는다  <!-- 시험 3건 · 논문 1045편 -->
 - [x] cupping therapy — Migraine에 듣는다  <!-- 시험 6건 · 논문 23편 -->
 - [x] telenursing — Self-care에 듣는다  <!-- 시험 4건 · 논문 176편 -->
-- [ ] telenursing — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [x] telenursing — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 8편 -->
 - [x] yoga breathing — Pain에 듣는다  <!-- 시험 64건 · 논문 174편 -->
 - [x] yoga breathing — Stress에 듣는다  <!-- 시험 56건 · 논문 410편 -->
 - [x] yoga breathing — Anxiety에 듣는다  <!-- 시험 34건 · 논문 277편 -->
@@ -16985,7 +16985,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] fruit and vegetable intake — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 182편 -->
 - [x] fruit and vegetable intake — Hypertension에 듣는다  <!-- 시험 3건 · 논문 1356편 -->
-- [ ] fruit and vegetable intake — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 704편 -->
+- [x] fruit and vegetable intake — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 704편 -->
 - [x] fruit and vegetable intake — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 2964편 -->
 - [x] herbal medicine — Neck Pain에 듣는다  <!-- 시험 10건 · 논문 182편 -->
 - [x] herbal medicine — Intervertebral Disc Disorder에 듣는다  <!-- 시험 7건 · 논문 9편 --> — 근거 없음(2026-08-08 조회, herbal medicine AND Intervertebral Disc Disorder; 등록된 복합 한방시험의 직접 결과 없음)
@@ -17027,19 +17027,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dance class — Aging에 듣는다  <!-- 시험 9건 · 논문 67편 -->
 - [x] dance class — Diabetes에 듣는다  <!-- 시험 5건 · 논문 8편 -->
 - [x] dance class — Dementia에 듣는다  <!-- 시험 4건 · 논문 15편 -->
-- [ ] body scan — Acute Leukemia에 듣는다  <!-- 시험 36건 · 논문 99편 -->
-- [ ] body scan — Lung Carcinoma에 듣는다  <!-- 시험 19건 · 논문 1378편 -->
-- [ ] body scan — Hepatocellular Carcinoma (HCC)에 듣는다  <!-- 시험 13건 · 논문 135편 -->
-- [ ] body scan — Lymphoma에 듣는다  <!-- 시험 10건 · 논문 1298편 -->
+- [x] body scan — Acute Leukemia에 듣는다  <!-- 시험 36건 · 논문 99편 --> — 근거 없음(2026-08-08 조회, body scan AND Acute Leukemia; 직접 사람 중재 결과 없음)
+- [x] body scan — Lung Carcinoma에 듣는다  <!-- 시험 19건 · 논문 1378편 --> — 근거 없음(2026-08-08 조회, body scan AND Lung Carcinoma; 직접 사람 중재 결과 없음)
+- [x] body scan — Hepatocellular Carcinoma (HCC)에 듣는다  <!-- 시험 13건 · 논문 135편 --> — 근거 없음(2026-08-08 조회, body scan AND Hepatocellular Carcinoma (HCC); 직접 사람 중재 결과 없음)
+- [x] body scan — Lymphoma에 듣는다  <!-- 시험 10건 · 논문 1298편 --> — 근거 없음(2026-08-08 조회, body scan AND Lymphoma; 직접 사람 중재 결과 없음)
 - [x] active listening — Stress에 듣는다  <!-- 시험 8건 · 논문 1018편 -->
 - [x] active listening — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 212편 --> — 근거 없음(2026-08-08 조회, active listening AND Mindfulness; 직접 사람 중재 결과 없음)
 - [x] active listening — Anxiety에 듣는다  <!-- 시험 5건 · 논문 668편 -->
 - [x] active listening — Mental Health에 듣는다  <!-- 시험 5건 · 논문 1108편 -->
 - [x] telephone coaching — Obesity에 듣는다  <!-- 시험 8건 · 논문 205편 -->
 - [x] telephone coaching — Depression에 듣는다  <!-- 시험 8건 · 논문 208편 -->
-- [ ] telephone coaching — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 39편 -->
+- [x] telephone coaching — Breast Carcinoma에 듣는다  <!-- 시험 6건 · 논문 39편 -->
 - [x] telephone coaching — Tobacco Use에 듣는다  <!-- 시험 5건 · 논문 62편 -->
-- [ ] music making — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 8편 -->
+- [x] music making — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 근거 없음(2026-08-08 조회, music making AND Breast Cancer; 직접 사람 중재 결과 없음)
 - [x] music making — Dementia에 듣는다  <!-- 시험 5건 · 논문 86편 -->
 - [x] music making — Stress에 듣는다  <!-- 시험 4건 · 논문 137편 --> — 근거 없음(2026-08-08 조회, music making AND Stress; 직접 사람 중재 결과 없음)
 - [x] sustainable diet — Nutrition, Healthy에 듣는다  <!-- 시험 4건 · 논문 3992편 -->
@@ -17062,7 +17062,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] low meat diet — Hypertension에 듣는다  <!-- 시험 4건 · 논문 308편 --> — 근거 없음(2026-08-08 조회, low meat diet AND Hypertension; 직접 사람 중재 결과 없음)
 - [x] plant rich diet — Diabetes에 듣는다  <!-- 시험 18건 · 논문 2935편 -->
 - [x] plant rich diet — Diet에 듣는다  <!-- 시험 14건 · 논문 20567편 --> — 근거 없음(2026-08-08 조회, plant rich diet AND Diet; 해당 조합의 직접 사람 중재 결과 없음)
-- [ ] plant rich diet — Cancer에 듣는다  <!-- 시험 11건 · 논문 2811편 -->
+- [x] plant rich diet — Cancer에 듣는다  <!-- 시험 11건 · 논문 2811편 --> — 근거 없음(2026-08-08 조회, plant rich diet AND Cancer; 직접 사람 식단 중재 결과 없음)
 - [x] plant rich diet — Kidney Function에 듣는다  <!-- 시험 11건 · 논문 479편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -17079,7 +17079,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] red meat reduction — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 26편 -->
 - [x] whole food plant based diet — Obesity에 듣는다  <!-- 시험 4건 · 논문 201편 --> — 근거 없음(2026-08-08 조회, whole food plant based diet AND Obesity; 직접 사람 중재 결과 없음)
 - [x] whole food plant based diet — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 122편 -->
-- [ ] active lifestyle — Cancer에 듣는다  <!-- 시험 6건 · 논문 12235편 -->
+- [x] active lifestyle — Cancer에 듣는다  <!-- 시험 6건 · 논문 12235편 -->
 - [x] active lifestyle — Sedentary Lifestyle에 듣는다  <!-- 시험 4건 · 논문 21604편 -->
 - [x] active lifestyle — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 79736편 -->
 - [x] active lifestyle — Stress에 듣는다  <!-- 시험 3건 · 논문 12006편 -->
