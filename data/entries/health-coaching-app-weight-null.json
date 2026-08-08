@@ -1,0 +1,28 @@
+{
+  "id": "health-coaching-app-weight-null",
+  "subj": "health coaching app",
+  "claim": "간호사의 체중을 임상적으로 의미 있게 줄인다",
+  "line": "앱 건강 코칭은 체중을 1.2% 줄였지만 임상적 의미는 없었습니다",
+  "effect": "체중 −1.2%; 임상적 의미 없음",
+  "tier": "obs",
+  "dir": "null",
+  "n": 145,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 디지털 건강 개입이라 의약품 허가 적응증이 아님",
+  "why": "병원 간호사 145명을 대상으로 한 비무작위 두 집단 전후 연구이며 최종 분석에는 61명이 포함됐습니다.",
+  "saw": "최종 분석 61명 중 38명이 체중을 줄였고 중앙값 체중 감소는 1.2%, BMI 감소는 0.35였지만 임상적으로 유의하지 않았습니다.",
+  "limit": "체중과 BMI를 자기보고했고 최종 분석 탈락이 있었으며 무작위 배정이 아닙니다.",
+  "against": "식이 점수 개선은 유의하지 않았고 인센티브 집단과 비인센티브 집단의 차이도 없었습니다.",
+  "use": "앱 건강 코칭의 작은 체중 신호와 임상적 한계를 함께 기록합니다.",
+  "refs": [
+    { "label": "Lim 2022 · JMIR Nursing · 파일럿 중재", "doi": "10.2196/36811", "pmid": "35838811", "pmc": "PMC9338416" }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.intr=health coaching app AND query.cond=Weight · 64건 반환 · InterventionName 완전일치 0건",
+    "pubmed": "\"health coaching app\" AND \"Weight\"[Title/Abstract] · 2건",
+    "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 0건",
+    "safety": "\"health coaching app\" AND (adverse OR toxicity OR harm OR safety OR case report) · 0건"
+  }
+}
