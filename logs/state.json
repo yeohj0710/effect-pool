@@ -3,9 +3,9 @@
   "root": "C:\\dev\\offlabel-pool",
     "entries": 4189,
   "worklist": {
-        "total": 13917,
+        "total": 13918,
         "checked": 13902,
-    "unchecked": 15,
+    "unchecked": 16,
     "no_evidence_pending": 1581,
     "next_batch": [
       "cryotherapy — Cervical Cancer (항암 주제 보류)",
@@ -22,11 +22,12 @@
       "tai chi meditation — Cancer (항암 주제 보류)",
       "music relaxation — Cancer (항암 주제 보류)",
       "peer exercise group — Cancer (항암 주제 보류)",
-      "relaxation breathing class — Stress (조회 실패 2026-08-09)"
+      "relaxation breathing class — Stress (조회 실패 2026-08-09)",
+      "rhythm walking — Stroke (조회 실패 2026-08-09)"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 325 used two different 20-name non-drug branches and added 1 then 3 candidates; added 2 evidence entries, closed 1 topic as no-evidence, left 1 topic unchecked after three PubMed failures, held 14 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4189 entries and 5825 refs with no new actionable line/effect/known/scale/English warnings",
+    "build": "passed with pre-existing warnings; batch 326 used two different 20-name non-drug branches, added no candidates in the first and 1 in the second, and did not run a third; the one new topic remained unchecked after three PubMed failures, 14 oncology topics stayed held, and 20 legacy sentences were tightened; local build generated 4189 entries and 5825 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 14,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -1281,6 +1282,6 @@
     "batch 325 build generated 4189 entries and 5825 refs; trial 3620, obs 503, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 357, known 2, thin 770; no new actionable line/effect/known/scale/English warning",
     "batch 325 six-round deployment check passed: HTTP 200; automatic Git deployment caught up and public/local both have 4189 entries/4194 id fields; vercel --prod was not required"
   ],
-    "current_batch": "batch 325 complete; six-round deployment check passed at HTTP 200 with public/local 4189 entries/4194 id fields; 2 evidence entries, 1 no-evidence closure, 1 PubMed lookup failure left unchecked, 14 oncology topics held, 20 legacy sentence edits; 15 unchecked topics remain",
-    "next_action": "start batch 326 with git pull --ff-only and AGENTS.md; hold the 14 oncology topics, retry relaxation breathing class only under the recorded failure limit, and expand fresh non-drug branches because the queue is below 30"
+    "current_batch": "batch 326 complete; six-round deployment check remains valid at HTTP 200 with public/local 4189 entries/4194 id fields; 0 evidence entries, 0 no-evidence closures, 1 new PubMed lookup failure left unchecked, 14 oncology topics held, 20 legacy sentence edits; 16 unchecked topics remain",
+    "next_action": "start batch 327 with git pull --ff-only and AGENTS.md; do not retry relaxation breathing class or rhythm walking because both exhausted the PubMed failure limit, hold the 14 oncology topics, and expand fresh non-drug branches because the queue is below 30"
 }
