@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4059,
+  "entries": 4063,
   "worklist": {
-    "total": 13641,
-    "checked": 13633,
+    "total": 13647,
+    "checked": 13639,
     "unchecked": 8,
-    "no_evidence_pending": 1532,
+    "no_evidence_pending": 1534,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -19,7 +19,7 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 298 processed 15 topics, added 5 evidence entries across protein shake, apple, and banana, closed 2 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4059 entries and 5647 refs with no new actionable line/effect/known/scale/English warnings",
+    "build": "passed with pre-existing warnings; batch 299 processed 14 topics, added 4 evidence entries across morning exercise and tomato, closed 2 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4063 entries and 5651 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 4,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -27,7 +27,7 @@
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3499,
+      "trial": 3503,
       "obs": 495,
       "animal": 22,
       "lab": 11,
@@ -38,18 +38,18 @@
     "no_effect_or_harm_share": "23%",
     "non_trial": 560,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5647,
-    "thin_warnings": 722
+    "connected_evidence": 5651,
+    "thin_warnings": 724
   },
   "deployment": {
     "last_entry_count": 4038,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_FKkLWeBWFKsFVG36bSuGKTo489vR",
-    "deployment_state": "batch 298 local build is 21 entries ahead of the last verified public build; next six-round deployment check is after batch 301",
+    "deployment_state": "batch 299 local build is 25 entries ahead of the last verified public build; next six-round deployment check is after batch 301",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4059,
-    "local_id_field_count": 4064,
+    "local_entry_count": 4063,
+    "local_id_field_count": 4068,
     "public_entry_count": 4038,
     "public_id_field_count": 4043,
     "counts_match": false,
@@ -303,7 +303,13 @@
     "batch 298 processed 15 topics; added 5 evidence entries, closed 2 no-evidence topics, and held 8 oncology topics without API research",
     "batch 298 evidence entries: protein-shake-malnutrition-pos, protein-shake-nutritional-and-metabolic-disease-open, apple-obesity-pos, apple-cardiovascular-disease-pos, and banana-burn-null",
     "batch 298 tightened 20 legacy claims from ganaxolone-depressive-disorder-pos through garlic-healthy-men-null; numbers, effects, and sample sizes were preserved",
-    "batch 298 build generated 4059 entries and 5647 refs; trial 3499, obs 495, non-trial 560, no-effect/harm 950 (23%), harm 119, unknown_n 346, known 2, thin 722; no new actionable line/effect/known/scale/English warning"
+    "batch 298 build generated 4059 entries and 5647 refs; trial 3499, obs 495, non-trial 560, no-effect/harm 950 (23%), harm 119, unknown_n 346, known 2, thin 722; no new actionable line/effect/known/scale/English warning",
+    "batch 299 expansion attempt one used 20 fresh food and behavioral names and added 3 morning exercise candidates",
+    "batch 299 expansion attempt two used 20 different fresh food and behavioral names and added 3 tomato candidates; no third expansion was run",
+    "batch 299 processed 14 topics; added 4 evidence entries, closed 2 no-evidence topics, and held 8 oncology topics without API research",
+    "batch 299 evidence entries: morning-exercise-energy-intake-open, morning-exercise-circadian-clock-pos, morning-exercise-sedentary-behavior-pos, and tomato-obesity-open",
+    "batch 299 tightened 20 legacy claims from garlic-hypercholesterolemia-null through glutathione-oxidative-stress-null; numbers, effects, and sample sizes were preserved",
+    "batch 299 build generated 4063 entries and 5651 refs; trial 3503, obs 495, non-trial 560, no-effect/harm 950 (23%), harm 119, unknown_n 346, known 2, thin 724; no new actionable line/effect/known/scale/English warning"
   ],
   "expansion": {
     "date": "2026-08-08",
@@ -1088,6 +1094,6 @@
     "batch 291 build generated 4017 entries and 5601 refs; trial 3465, obs 487, non-trial 552, no-effect/harm 937 (23%), harm 119, unknown_n 346, known 2, thin 708; no new actionable warning",
     "batch 291 deployment remains pending the six-round check after batch 295: local 4017 entries/4022 id fields/5601 refs, public 4009/4014/5592"
   ],
-  "current_batch": "batch 298 complete; 5 evidence entries, 2 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4059 and public last verified 4038; 8 unchecked topics remain",
-  "next_action": "commit and push batch 298; then start batch 299 with git pull --ff-only and AGENTS.md; because 8 unchecked oncology topics remain, run --covered and one fresh 20-name non-drug expansion"
+  "current_batch": "batch 299 complete; 4 evidence entries, 2 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4063 and public last verified 4038; 8 unchecked topics remain",
+  "next_action": "commit and push batch 299; then start batch 300 with git pull --ff-only and AGENTS.md; because 8 unchecked oncology topics remain, run --covered and one fresh 20-name non-drug expansion"
 }

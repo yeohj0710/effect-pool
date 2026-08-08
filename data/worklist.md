@@ -17486,3 +17486,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] apple — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 1808편 --> — 항목 생성(apple-cardiovascular-disease-pos, 2026-08-08 조회)
 - [x] apple — Diabetes에 듣는다  <!-- 시험 7건 · 논문 864편 --> — 근거 없음(2026-08-08 조회, "apple" AND "Diabetes"; 당뇨병 환자의 직접 사과 중재 결과 없음)
 - [x] banana — Burn에 듣는다  <!-- 시험 3건 · 논문 102편 --> — 항목 생성(banana-burn-null, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] morning exercise — Energy Intake에 듣는다  <!-- 시험 5건 · 논문 247편 --> — 항목 생성(morning-exercise-energy-intake-open, 2026-08-08 조회)
+- [x] morning exercise — Circadian Clock에 듣는다  <!-- 시험 4건 · 논문 84편 --> — 항목 생성(morning-exercise-circadian-clock-pos, 2026-08-08 조회)
+- [x] morning exercise — Sedentary Behavior에 듣는다  <!-- 시험 3건 · 논문 153편 --> — 항목 생성(morning-exercise-sedentary-behavior-pos, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] tomato — Obesity에 듣는다  <!-- 시험 4건 · 논문 196편 --> — 항목 생성(tomato-obesity-open, 2026-08-08 조회)
+- [x] tomato — Food Intake에 듣는다  <!-- 시험 3건 · 논문 921편 --> — 근거 없음(2026-08-08 조회, tomato AND "Food Intake"; 직접 토마토 중재의 음식 섭취 결과 없음)
+- [x] tomato — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 84편 --> — 근거 없음(2026-08-08 조회, tomato AND "Diabetes Mellitus"; 당뇨병 환자의 직접 토마토 중재 결과 없음)
