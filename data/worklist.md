@@ -16666,3 +16666,47 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] erythritol — Periodontitis에 듣는다  <!-- 시험 10건 · 논문 88편 -->
 - [ ] erythritol — Satiation에 듣는다  <!-- 시험 4건 · 논문 9편 -->
 - [ ] erythritol — Periodontal Pocket에 듣는다  <!-- 시험 4건 · 논문 25편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] backward walking — Knee Arthroplasty에 듣는다  <!-- 시험 8건 · 논문 11편 --> — 근거 없음(2026-08-08, backward walking AND Knee Arthroplasty; 직접 훈련 결과 없음)
+- [x] backward walking — Gait, Hemiplegic에 듣는다  <!-- 시험 4건 · 논문 120편 --> — 항목 생성(backward-walking-gait-hemiplegic-null)
+- [x] backward walking — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 항목 생성(backward-walking-cerebral-palsy-pos)
+- [x] digital art therapy — HIV/AIDS에 듣는다  <!-- 시험 3건 · 논문 165편 --> — 근거 없음(2026-08-08, digital art therapy AND HIV/AIDS; 직접 사람 중재 결과 없음)
+- [x] digital art therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-08, digital art therapy AND Infertility; 직접 사람 중재 결과 없음)
+- [x] peer support navigation — Drug Use에 듣는다  <!-- 시험 8건 · 논문 276편 --> — 항목 생성(peer-support-navigation-drug-use-open)
+- [x] peer support navigation — Mental Health에 듣는다  <!-- 시험 7건 · 논문 515편 --> — 항목 생성(peer-support-navigation-mental-health-pos)
+- [ ] peer support navigation — Breast Cancer에 듣는다  <!-- 시험 5건 · 논문 45편 -->
+- [x] peer support navigation — Social Care에 듣는다  <!-- 시험 4건 · 논문 1058편 --> — 항목 생성(peer-support-navigation-social-care-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] forest walking — Anxiety에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 근거 없음(2026-08-08, forest walking AND Anxiety; 불안 직접 결과 없음)
+- [x] group tai chi — Cognitive Impairment에 듣는다  <!-- 시험 4건 · 논문 118편 --> — 항목 생성(group-tai-chi-cognitive-impairment-open)
+- [x] group tai chi — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 47편 --> — 항목 생성(group-tai-chi-heart-failure-pos)
+- [x] home-based strength training — Sarcopenia에 듣는다  <!-- 시험 5건 · 논문 77편 --> — 항목 생성(home-based-strength-training-sarcopenia-pos)
+- [x] home-based strength training — Exercise에 듣는다  <!-- 시험 5건 · 논문 1259편 --> — 근거 없음(2026-08-08, home-based strength training AND Exercise; 특정 질환 직접 결과 없음)
+- [x] home-based strength training — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 51편 --> — 항목 생성(home-based-strength-training-heart-failure-open)
+- [x] rhythmic exercise — Pain에 듣는다  <!-- 시험 6건 · 논문 269편 --> — 근거 없음(2026-08-08, rhythmic exercise AND Pain; 직접 결과 없음)
+- [x] rhythmic exercise — Virtual Reality에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 근거 없음(2026-08-08, rhythmic exercise AND Virtual Reality; 직접 결과 없음)
+- [x] rhythmic exercise — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 항목 생성(rhythmic-exercise-multiple-sclerosis-pos)
+- [x] rhythmic exercise — Gait, Hemiplegic에 듣는다  <!-- 시험 3건 · 논문 71편 --> — 항목 생성(rhythmic-exercise-gait-hemiplegic-pos)
+- [x] sleep hygiene app — Cognitive Disorder에 듣는다  <!-- 시험 5건 · 논문 12편 --> — 근거 없음(2026-08-08, sleep hygiene app AND Cognitive Disorder; 직접 결과 없음)
+- [x] writing for wellbeing — Trauma, Psychological에 듣는다  <!-- 시험 3건 · 논문 70편 --> — 근거 없음(2026-08-08, writing for wellbeing AND Trauma, Psychological; 직접 결과 없음)
+- [x] flax lignans — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-08, flax lignans AND Metabolic Syndrome; 사람 리뷰만 확인)
+- [x] grape polyphenols — Elevated Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 97편 --> — 항목 생성(grape-polyphenols-elevated-blood-pressure-pos)
+- [ ] grape polyphenols — Mood Change에 듣는다  <!-- 시험 3건 · 논문 69편 -->
