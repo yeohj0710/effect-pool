@@ -1,11 +1,11 @@
 {
   "updated": "2026-08-09",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4187,
+    "entries": 4189,
   "worklist": {
-        "total": 13913,
-        "checked": 13899,
-    "unchecked": 14,
+        "total": 13917,
+        "checked": 13902,
+    "unchecked": 15,
     "no_evidence_pending": 1581,
     "next_batch": [
       "cryotherapy — Cervical Cancer (항암 주제 보류)",
@@ -21,11 +21,12 @@
       "photography intervention — Colon Cancer (항암 주제 보류)",
       "tai chi meditation — Cancer (항암 주제 보류)",
       "music relaxation — Cancer (항암 주제 보류)",
-      "peer exercise group — Cancer (항암 주제 보류)"
+      "peer exercise group — Cancer (항암 주제 보류)",
+      "relaxation breathing class — Stress (조회 실패 2026-08-09)"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 324 used two different 20-name non-drug branches, timed out after partially adding 9 candidates in the first branch, and added 1 candidate in the second; added 5 evidence entries, closed 4 topics as no-evidence, held 14 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4187 entries and 5823 refs with no new actionable line/effect/known/scale/English warnings; the new chronic-pain review has truthful unknown-n and the new small animal-assisted study has a truthful thin-study warning",
+    "build": "passed with pre-existing warnings; batch 325 used two different 20-name non-drug branches and added 1 then 3 candidates; added 2 evidence entries, closed 1 topic as no-evidence, left 1 topic unchecked after three PubMed failures, held 14 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4189 entries and 5825 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 14,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -33,8 +34,8 @@
         "unknown_n_warnings": 357,
     "known_warnings": 2,
     "tier_distribution": {
-            "trial": 3619,
-      "obs": 502,
+            "trial": 3620,
+      "obs": 503,
       "animal": 23,
       "lab": 11,
       "case": 32
@@ -42,24 +43,24 @@
         "no_effect_or_harm": 980,
     "harm": 123,
     "no_effect_or_harm_share": "23%",
-        "non_trial": 568,
+        "non_trial": 569,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5823,
+        "connected_evidence": 5825,
         "thin_warnings": 770
   },
   "deployment": {
-    "last_entry_count": 4187,
+    "last_entry_count": 4189,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 324 local build has 4187 entries and 4194 id fields; public remains last verified at 4167 entries and 4172 id fields after the batch 319 six-round check; next six-round check after batch 325",
+        "deployment_state": "batch 325 local build has 4189 entries and 4196 id fields; public remains last verified at 4167 entries and 4172 id fields after the batch 319 six-round check; six-round check is due now",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4187,
-        "local_id_field_count": 4194,
+        "local_entry_count": 4189,
+        "local_id_field_count": 4196,
     "public_entry_count": 4167,
     "public_id_field_count": 4172,
         "counts_match": false,
-        "latest_note": "Batch 324 local build has 4187 entries and 4194 id fields; public remains last verified at 4167 entries and 4172 id fields. Next six-round check is after batch 325.",
+        "latest_note": "Batch 325 local build has 4189 entries and 4196 id fields; public remains last verified at 4167 entries and 4172 id fields. Six-round check is due now.",
     "six_round_check": {
       "batches": "314-319",
       "http_status": 200,
@@ -1270,8 +1271,16 @@
     "batch 324 closures: peer exercise group Physical Activity/Mental Health/Diabetes and rhythmic movement exercise Ankle Sprain had 0 exact registry InterventionName results and 0 direct PubMed results; dated worklist notes preserve search reasons",
     "batch 324 tightened 20 legacy sentences from lifestyle-counseling-overweight-pos through light-therapy-neck-pain-open; numbers, effects, and sample sizes were preserved",
     "batch 324 build generated 4187 entries and 5823 refs; trial 3619, obs 502, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 357, known 2, thin 770; no new actionable line/effect/known/scale/English warning; the unknown-n chronic-pain review is truthful",
-    "batch 324 deployment remains pending the next six-round check after batch 325: local 4187 entries/4194 id fields; public last verified at 4167 entries/4172 id fields"
+    "batch 324 deployment remains pending the next six-round check after batch 325: local 4187 entries/4194 id fields; public last verified at 4167 entries/4172 id fields",
+    "batch 325 expansion used two different 20-name non-drug branches and added 1 then 3 candidates; no third expansion was run",
+    "batch 325 processed 3 non-oncology topics: added 2 evidence entries, closed 1 topic as no-evidence, left 1 topic unchecked after three PubMed failures, held 14 oncology topics, and skipped 0 approved indications",
+    "batch 325 evidence entries: forest-bathing-session-anxiety-pos and peer-walking-group-physical-activity-pos",
+    "batch 325 closure: mindful walking group Psychological had no reported outcome study; ClinicalTrials.gov exact InterventionName matching returned 0 and PMID38965464 was a protocol",
+    "batch 325 lookup failure: relaxation breathing class Stress remained unchecked after three PubMed failures; the worklist records the date and search term",
+    "batch 325 tightened 20 legacy sentences from light-therapy-parkinson-disease-pos through lithium-tooth-loss-harm; numbers, effects, and sample sizes were preserved",
+    "batch 325 build generated 4189 entries and 5825 refs; trial 3620, obs 503, animal 23, lab 11, case 32, no-effect/harm 980 (23%), harm 124, unknown_n 357, known 2, thin 770; no new actionable line/effect/known/scale/English warning",
+    "batch 325 deployment is pending the six-round check: local 4189 entries/4196 id fields; public last verified at 4167 entries/4172 id fields"
   ],
-    "current_batch": "batch 324 complete; 5 evidence entries, 4 no-evidence closures, 14 oncology topics held, 20 legacy sentence edits; local 4187 entries/4194 id fields, public remains 4167/4172 pending the six-round check after batch 325; 14 unchecked oncology topics remain",
-    "next_action": "start batch 325; run git pull --ff-only and read AGENTS.md, process the 14 queued oncology topics only by holding them, expand with fresh non-drug branches because the queue is below 30, then investigate the new non-oncology topics"
+    "current_batch": "batch 325 complete; 2 evidence entries, 1 no-evidence closure, 1 PubMed lookup failure left unchecked, 14 oncology topics held, 20 legacy sentence edits; local 4189 entries/4196 id fields, public remains 4167/4172 pending the six-round check now; 15 unchecked topics remain",
+    "next_action": "run the six-round public deployment check now; then start batch 326 with git pull --ff-only and AGENTS.md, hold the 14 oncology topics, retry relaxation breathing class only under the recorded failure limit, and expand fresh non-drug branches because the queue is below 30"
 }

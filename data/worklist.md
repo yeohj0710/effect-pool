@@ -18128,3 +18128,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] rhythmic movement exercise — Ankle Sprain에 듣는다 — 근거 없음(2026-08-09 조회, "rhythmic movement exercise" AND "Ankle Sprain"[Title/Abstract]; ClinicalTrials.gov 1건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 20편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mindful walking group — Psychological에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 33건 중 InterventionName 완전일치 0건; PubMed mindful walking group AND Psychological[Title/Abstract] 28건 중 결과 보고 연구 없음, PMID38965464는 프로토콜)  <!-- 시험 9건 · 논문 40편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] forest bathing session — Anxiety에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 80편 -->
+- [x] peer walking group — Physical Activity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 4건 · 논문 330편 -->
+- [ ] relaxation breathing class — Stress에 듣는다 — 조회 실패(2026-08-09, PubMed 3회, "relaxation breathing class" AND "Stress"[Title/Abstract])  <!-- 시험 3건 · 논문 25편 -->
