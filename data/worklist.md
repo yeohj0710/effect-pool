@@ -17609,3 +17609,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] social participation intervention — Loneliness에 듣는다  <!-- 시험 6건 · 논문 849편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND Loneliness; 직접 사회참여 중재 결과 없음)
 - [x] social participation intervention — Blood Glucose에 듣는다  <!-- 시험 6건 · 논문 230편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND "Blood Glucose"; 직접 사회참여 중재 결과 없음)
 - [x] social participation intervention — Cognitive Frailty에 듣는다  <!-- 시험 5건 · 논문 139편 --> — 근거 없음(2026-08-08 조회, "social participation intervention" AND "Cognitive Frailty"; 직접 사회참여 중재 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] nature walk group — Anxiety에 듣는다  <!-- 시험 4건 · 논문 88편 -->
+- [x] group exercise class — Obesity에 듣는다  <!-- 시험 14건 · 논문 917편 --> — 근거 없음(2026-08-08 조회, "group exercise class" AND Obesity; 직접 그룹 운동 수업 결과 없음)
+- [x] group exercise class — Health Behavior에 듣는다  <!-- 시험 9건 · 논문 1447편 --> — 근거 없음(2026-08-08 조회, "group exercise class" AND "Health Behavior"; 완료 등록시험은 결과 미게시이고 직접 논문 없음)
+- [x] group exercise class — Physical Activity에 듣는다  <!-- 시험 8건 · 논문 7905편 -->
+- [x] group exercise class — Exercise에 듣는다  <!-- 시험 8건 · 논문 8359편 -->
+- [x] intergenerational activity — Well Aging에 듣는다  <!-- 시험 3건 · 논문 202편 --> — 근거 없음(2026-08-08 조회, "intergenerational activity" AND "Well Aging"; 직접 세대통합 활동 결과 없음)
+- [x] bean diet — Obesity에 듣는다  <!-- 시험 6건 · 논문 201편 -->
+- [x] bean diet — Metabolic Syndrome에 듣는다  <!-- 시험 5건 · 논문 31편 --> — 근거 없음(2026-08-08 조회, "bean diet" AND "Metabolic Syndrome"; 직접 콩 식단 결과 없음)
+- [x] bean diet — Protein Deposition에 듣는다  <!-- 시험 4건 · 논문 21편 --> — 근거 없음(2026-08-08 조회, "bean diet" AND "Protein Deposition"; 단백질 대사 연구는 있었지만 직접 단백질 침착 결과 없음)
+- [x] bean diet — Blood Glucose에 듣는다  <!-- 시험 4건 · 논문 174편 -->
