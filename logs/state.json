@@ -19,7 +19,7 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 306 processed 5 non-oncology topics, added judo-injury-pos, judo-athletic-performance-pos, judo-child-behavior-null, and drama-intervention-physical-health-pos, closed dance sport Physical Illness as no-evidence, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4094 entries and 5693 refs with no new actionable line/effect/known/scale/English warnings; three truthful thin-study warnings remain for n=16, n=25, and n=45",
+    "build": "passed with pre-existing warnings; batch 307 ran two different 20-name non-drug expansion attempts, added 0 candidates, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4094 entries and 5693 refs with no new actionable line/effect/known/scale/English warnings; existing truthful thin-study warnings remain",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -45,7 +45,7 @@
     "last_entry_count": 4070,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 306 local build is 24 entries ahead of the last verified public build; next six-round deployment check is due after batch 307",
+    "deployment_state": "batch 307 local build is 24 entries ahead of the last verified public build; six-round deployment check is due now",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
     "local_entry_count": 4094,
@@ -53,7 +53,7 @@
     "public_entry_count": 4070,
     "public_id_field_count": 4075,
     "counts_match": false,
-    "latest_note": "Six-round check after batches 296-301 matched public/local at 4070 entries and 4075 id fields after dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv; batch 306 local build is now 4094 entries and 4099 id fields pending the next check after batch 307.",
+    "latest_note": "Six-round check after batches 296-301 matched public/local at 4070 entries and 4075 id fields after dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv; batch 307 local build is now 4094 entries and 4099 id fields, so the six-round public check is due now.",
     "six_round_check": {
       "batches": "296-301",
       "http_status": 200,
@@ -1134,8 +1134,13 @@
     "batch 306 closed dance sport Physical Illness as no-evidence because the only directly matching registry record was a result-less protocol and the PubMed results were protocols or indirect studies; the dated worklist note preserves the search terms",
     "batch 306 tightened 20 legacy sentences from health-mentoring-obesity-pos through high-fiber-diet-dietary-fiber-pos; numbers, effects, and sample sizes were preserved",
     "batch 306 build generated 4094 entries and 5693 refs; trial 3534, obs 495, animal 22, lab 11, case 32, no-effect/harm 960 (23%), harm 119, unknown_n 349, known 2, thin 735; no new actionable line/effect/known/scale/English warning; three truthful thin-study warnings remain for n=16, n=25, and n=45",
-    "batch 306 public deployment remains pending the next six-round check after batch 307: local 4094 entries/4099 id fields, public 4070/4075; public refs last verified at 5658"
+    "batch 306 public deployment remains pending the next six-round check after batch 307: local 4094 entries/4099 id fields, public 4070/4075; public refs last verified at 5658",
+    "batch 307 expansion attempt one used 20 fresh non-drug activity, arts, and food names and added 0 candidates; attempt two used 20 different non-drug activity, arts, and food names and added 0 candidates; no third expansion was run",
+    "batch 307 processed 0 non-oncology topics because both expansions added no candidates; held 8 oncology topics without API research and skipped 0 approved indications",
+    "batch 307 tightened 20 legacy sentences from high-intensity-interval-training-brain-activity-pos through home-based-exercise-heart-failure-pos; numbers, effects, and sample sizes were preserved",
+    "batch 307 build generated 4094 entries and 5693 refs; trial 3534, obs 495, animal 22, lab 11, case 32, no-effect/harm 960 (23%), harm 119, unknown_n 349, known 2, thin 735; no new actionable line/effect/known/scale/English warning",
+    "batch 307 public deployment check is pending immediately after this push: local 4094 entries/4099 id fields, public last verified 4070/4075; deploy manually if the public count remains behind"
   ],
-  "current_batch": "batch 306 complete; 4 evidence entries, 1 no-evidence closure, 8 oncology topics held, and 20 legacy sentence edits; local 4094, public last verified 4070; 8 unchecked topics remain",
-  "next_action": "commit and push batch 306, then start batch 307; perform the next six-round public deployment check after batch 307"
+  "current_batch": "batch 307 complete; 0 evidence entries, 0 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4094, public last verified 4070; 8 unchecked topics remain",
+  "next_action": "commit and push batch 307, then check public/local counts; if they differ, deploy manually, record why, then start batch 308"
 }
