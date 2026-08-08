@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 341 used two different 20-name device, digital-health, food, and activity branches adding 9 then 9 candidates, processed 16 non-oncology topics, added 8 evidence entries, closed 8 no-evidence topics, and tightened 20 legacy sentences; local build generated 4273 entries and 5923 refs with no new actionable line/effect/known/scale warning; two new thin-study warnings are truthful and one older dolutegravir English warning remains",
+    "build": "passed; batch 342 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures, and tightened 20 legacy sentences; local build generated 4273 entries and 5923 refs with no new actionable line/effect/known/scale warning; two batch 341 thin-study warnings are truthful and one older dolutegravir English warning remains",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 1,
@@ -67,7 +67,7 @@
   "last_entry_count": 4256,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-    "deployment_state": "batch 341 local build remains at 4273 entries/4278 id fields; public remains last verified at batch 337 with 4256 entries/4261 id fields until the next six-round check",
+    "deployment_state": "batch 342 local build remains at 4273 entries/4278 id fields; public remains last verified at batch 337 with 4256 entries/4261 id fields until the next six-round check",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-09",
     "local_entry_count": 4273,
@@ -75,7 +75,7 @@
         "public_entry_count": 4256,
         "public_id_field_count": 4261,
   "counts_match": false,
-    "latest_note": "Batch 341 local build remains at 4273 entries and 4278 id fields; public remains last verified at batch 337 with 4256 entries and 4261 id fields; the next six-round check will verify automatic deployment.",
+    "latest_note": "Batch 342 local build remains at 4273 entries and 4278 id fields; public remains last verified at batch 337 with 4256 entries and 4261 id fields; the next six-round check after batch 343 will verify automatic deployment.",
     "six_round_check": {
       "batches": "332-337",
       "http_status": 200,
@@ -658,7 +658,7 @@
   "expansion_checkpoint": "batch 341 expansion: first 20-name device/food branch timed out after appending 9 candidates; second different digital-health/activity/food branch added 9; no third expansion was run; 30 unchecked lines remain, including two new oncology holds"
   },
   "resume": {
-    "last_committed_batch": "batch 341 evidence committed as 15027d2 and legacy wording committed as 7277939; local build 4273 entries/4278 id fields; public last verified at batch 337 with 4256 entries/4261 id fields",
+    "last_committed_batch": "batch 342 legacy wording committed as 4a5c697; local build 4273 entries/4278 id fields; public last verified at batch 337 with 4256 entries/4261 id fields",
     "last_batch": [
       "batch 59: 27 evidence entries added; 3 no-evidence topics closed; 4 unchecked topics remained",
       "expansion after batch 59: 33 candidates added from 20 supplied names, including 10 non-drug options; 37 unchecked topics remain",
@@ -805,7 +805,7 @@
   "legacy_wording": {
     "fixed_this_batch": 20,
     "remaining": 0,
-    "note": "Batch 341 tightened 20 legacy lines across balance training, food, behavioral treatment, biofeedback, and sleep entries; numbers, effects, and sample sizes were preserved. No older line-length, effect, or scale-overlap warnings remain; one older English warning remains for dolutegravir-weight-gain-harm."
+    "note": "Batch 342 tightened 20 legacy lines across blueberry, board-game, botulinum toxin, brain-computer interface, breakfast, breathing, and brief behavioral therapy entries; numbers, effects, and sample sizes were preserved. No older line-length, effect, or scale-overlap warnings remain; one older English warning remains for dolutegravir-weight-gain-harm."
   },
   "history": [
     "batch 113: 18 evidence entries added; 12 no-evidence topics closed; 0 approved indications skipped; 4 unchecked topics remain",
@@ -1502,8 +1502,12 @@
     "batch 341 tightened 20 legacy sentences across balance training, food, behavioral treatment, biofeedback, and sleep entries; numbers, effects, and sample sizes were preserved",
     "batch 341 build generated 4273 entries and 5923 refs; trial 3679, obs 527, animal 23, lab 11, case 33, no-effect/harm 990 (23%), harm 127, unknown_n 360, known 2, thin 796, line 0, effect 0, scale 0, English 1; no new actionable warning and two new thin-study warnings are truthful",
     "batch 341 evidence commit 15027d2 and legacy wording commit 7277939 were pushed to origin/main; public remains last verified at batch337 4256 entries/4261 id fields; untracked build-batch283.log and pnpm-lock.yaml were left untouched",
-    "batch 342 next: 30 unchecked topics remain; start with git pull --ff-only and AGENTS.md, process up to 30 non-oncology lines, hold oncology/failure lines, and continue eligible work"
+    "batch 342 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; no API research was run",
+    "batch 342 tightened 20 legacy sentences across blueberry, board-game, botulinum toxin, brain-computer interface, breakfast, breathing, and brief behavioral therapy entries; numbers, effects, and sample sizes were preserved",
+    "batch 342 build generated 4273 entries and 5923 refs; trial 3679, obs 527, animal 23, lab 11, case 33, no-effect/harm 990 (23%), harm 127, unknown_n 360, known 2, thin 796, line 0, effect 0, scale 0, English 1; no new actionable warning and the two batch 341 thin-study warnings are truthful",
+    "batch 342 legacy wording commit 4a5c697 was pushed to origin/main; public remains last verified at batch337 4256 entries/4261 id fields; untracked build-batch283.log and pnpm-lock.yaml were left untouched",
+    "batch 343 next: 30 unchecked topics remain; start with git pull --ff-only and AGENTS.md, process up to 30 non-oncology lines, hold oncology/failure lines, and run the six-round deployment check"
   ],
-  "current_batch": "batch 341 committed and pushed as 15027d2 and 7277939; 4273 entries/5923 refs, 8 evidence entries, 8 no-evidence closures, 0 duplicates, and 20 legacy sentence edits; 30 unchecked topics remain; public last verified at batch337 4256 entries/4261 id fields",
-  "next_action": "start batch 342 with git pull --ff-only and AGENTS.md; 30 unchecked topics remain, so process up to 30 non-oncology lines, hold oncology/failure lines, then build and commit"
+  "current_batch": "batch 342 committed and pushed as 4a5c697; 4273 entries/5923 refs, 0 evidence entries, 0 no-evidence closures, 0 duplicates, and 20 legacy sentence edits; 30 unchecked topics remain; public last verified at batch337 4256 entries/4261 id fields",
+  "next_action": "start batch 343 with git pull --ff-only and AGENTS.md; 30 unchecked topics remain, so process up to 30 non-oncology lines, hold oncology/failure lines, then build and run the six-round deployment check"
 }
