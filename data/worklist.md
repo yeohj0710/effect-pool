@@ -18026,3 +18026,38 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep story — Physical Activity에 듣는다  <!-- 시험 5건 · 논문 38편 --> — 근거 없음(2026-08-08 조회, sleep story AND Physical Activity; ClinicalTrials.gov 140건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
 - [x] sleep story — Hypertension에 듣는다  <!-- 시험 5건 · 논문 9편 --> — 근거 없음(2026-08-08 조회, sleep story AND Hypertension; ClinicalTrials.gov 20건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
 - [x] sleep story — Dementia에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-08 조회, sleep story AND Dementia; ClinicalTrials.gov 20건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] lifestyle medicine — Obesity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 35건 · 논문 18717편 -->
+- [x] lifestyle medicine — Hypertension에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 18건 · 논문 9400편 -->
+- [x] lifestyle medicine — Cardiovascular Disease에 듣는다 — 근거 없음(2026-08-09 조회, "lifestyle medicine" AND "Cardiovascular Disease"[Title/Abstract]; ClinicalTrials.gov 430건 중 InterventionName 완전일치 4건이나 결과 없음; PubMed 직접 88건은 리뷰·간접 결과뿐)  <!-- 시험 17건 · 논문 19649편 -->
+- [x] lifestyle medicine — Hypercholesterolemia에 듣는다 — 근거 없음(2026-08-09 조회, "lifestyle medicine" AND "Hypercholesterolemia"[Title/Abstract]; ClinicalTrials.gov 16건 중 InterventionName 완전일치 1건이나 결과 없음; PubMed 직접 1건은 심혈관 예방 리뷰)  <!-- 시험 15건 · 논문 896편 -->
+- [ ] water therapy — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 1847편 -->
+- [x] water therapy — Plaque에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 7건 · 논문 1379편 -->
+- [x] water therapy — Insulin Resistance에 듣는다 — 근거 없음(2026-08-09 조회, "water therapy" AND "Insulin Resistance"[Title/Abstract]; ClinicalTrials.gov 222건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 6건 · 논문 1135편 -->
+- [x] water therapy — Diabetes에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 6건 · 논문 6431편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] photography intervention — Colon Cancer에 듣는다  <!-- 시험 11건 · 논문 3295편 -->
+- [x] photography intervention — Retinal Disease에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Retinal Disease"[Title/Abstract]; ClinicalTrials.gov 32건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 8건 · 논문 6342편 -->
+- [x] photography intervention — Age-related Macular Degeneration에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Age-related Macular Degeneration"[Title/Abstract]; ClinicalTrials.gov 12건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 5건 · 논문 1641편 -->
+- [x] photography intervention — Glaucoma에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Glaucoma"[Title/Abstract]; ClinicalTrials.gov 9건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 1575편 -->
+- [x] tai chi meditation — Sleep Disorders에 듣는다 — 근거 없음(2026-08-09 조회, "tai chi meditation" AND "Sleep Disorders"[Title/Abstract]; ClinicalTrials.gov 5건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 24편 -->
+- [ ] tai chi meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 55편 -->
+- [x] wellness program — Physical Activity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 40941편 -->
