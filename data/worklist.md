@@ -17830,3 +17830,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thermal therapy — Lung Neoplasms에 듣는다  <!-- 시험 14건 · 논문 832편 --> — 근거 항목 생성(2026-08-08)
 - [x] thermal therapy — Basal Cell Carcinoma에 듣는다  <!-- 시험 14건 · 논문 41편 --> — 근거 없음(2026-08-08 조회, "thermal therapy" AND "Basal Cell Carcinoma"; exact InterventionName 0건, PubMed 제목·초록 0건)
 - [x] thermal therapy — Ejaculatory Dysfunction에 듣는다  <!-- 시험 12건 · 논문 28편 --> — 근거 항목 생성(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] physical activity — Neck Pain에 듣는다  <!-- 시험 5건 · 논문 4148편 --> — 근거 항목 생성(2026-08-08)
+- [x] physical activity — Stroke에 듣는다  <!-- 시험 4건 · 논문 32709편 --> — 근거 항목 생성(2026-08-08)
+- [x] physical activity — Depression에 듣는다  <!-- 시험 3건 · 논문 43026편 --> — 근거 항목 생성(2026-08-08)
+- [x] physical activity — Type 1 Diabetes에 듣는다  <!-- 시험 3건 · 논문 4469편 --> — 근거 항목 생성(2026-08-08)
+- [x] myofascial release — Headache에 듣는다  <!-- 시험 18건 · 논문 71편 --> — 근거 항목 생성(2026-08-08)
+- [x] myofascial release — Plantar Fascia에 듣는다  <!-- 시험 14건 · 논문 32편 --> — 근거 항목 생성(2026-08-08)
+- [x] myofascial release — Sacroiliac Joint Pain에 듣는다  <!-- 시험 11건 · 논문 8편 --> — 근거 없음(2026-08-08 조회, "myofascial release" AND "Sacroiliac Joint Pain"; ClinicalTrials.gov exact InterventionName 3건 모두 결과 미게시, PubMed 제목·초록 0건)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] physiotherapy — Cerebral Palsy에 듣는다  <!-- 시험 6건 · 논문 4429편 --> — 근거 항목 생성(2026-08-08)
+- [x] physiotherapy — Manual Therapy에 듣는다  <!-- 시험 6건 · 논문 24316편 --> — 근거 항목 생성(2026-08-08)
+- [x] physiotherapy — Meniscus Tear에 듣는다  <!-- 시험 5건 · 논문 258편 --> — 근거 항목 생성(2026-08-08)
+- [x] physiotherapy — Knee Injuries에 듣는다  <!-- 시험 4건 · 논문 4276편 --> — 근거 항목 생성(2026-08-08)

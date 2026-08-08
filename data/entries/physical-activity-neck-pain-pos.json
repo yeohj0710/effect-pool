@@ -1,0 +1,29 @@
+{
+  "id": "physical-activity-neck-pain-pos",
+  "subj": "physical activity",
+  "claim": "신체활동을 목 통증에 쓴다",
+  "line": "만성 목 통증에서 근력운동은 통증·장애를 줄였지만 근거는 낮았습니다",
+  "effect": "목 통증·장애 감소, p<.01",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "사무직 만성 목 통증을 다룬 8개 무작위시험의 메타분석에서 근력운동이 통증과 장애를 줄였습니다.",
+  "saw": "7개 연구에서 목 통증 시각척도가, 5개 연구에서 목 장애지수가 유의하게 감소했고 통증·장애 메타분석도 대조군보다 유리했습니다(p<.01).",
+  "limit": "8개 연구 모두 비뚤림 위험이 높고 근거 확실성이 낮았으며 삶의 질을 본 연구는 1개뿐이었습니다.",
+  "against": "17개 연구의 별도 고찰에서는 근로자 목 통증과 일상 신체활동 사이에 연관성이 없다는 근거가 제한적이었습니다.",
+  "use": "운동 처방을 고려할 때 통증·장애 개선 신호로 참고하되 낮은 확실성을 함께 설명합니다.",
+  "refs": [
+    { "label": "Office workers with chronic neck pain · systematic review and meta-analysis", "pmid": "38219373" },
+    { "label": "Physical activity and neck pain · systematic review", "pmid": "21113635" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Neck Pain → 464건, exact InterventionName 0건",
+    "pubmed": "\"physical activity\" AND \"Neck Pain\" → 419건",
+    "negative": "\"physical activity\" AND \"Neck Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 87건",
+    "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+  }
+}

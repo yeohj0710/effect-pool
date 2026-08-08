@@ -1,0 +1,29 @@
+{
+  "id": "physical-activity-type1-diabetes-null",
+  "subj": "physical activity",
+  "claim": "신체활동을 소아 1형 당뇨 관리에 쓴다",
+  "line": "소아 1형 당뇨에서 신체활동은 HbA1c를 유의하게 낮추지 못했습니다",
+  "effect": "HbA1c MD -0.58, P=.07",
+  "tier": "trial",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "소아 1형 당뇨의 신체활동·영양 중재 무작위시험 18건을 합친 메타분석에서 신체활동의 HbA1c 효과가 유의하지 않았습니다.",
+  "saw": "무치료군과 비교한 HbA1c 평균차는 -0.58(95% CI -1.20~0.05, P=.07)로 유의하지 않았고 연구 수와 질이 부족했습니다.",
+  "limit": "참여자 총수는 초록에 제시되지 않았고 연구 수가 적으며 비뚤림 위험으로 근거 확실성이 낮았습니다.",
+  "against": "혼합 신체활동·영양 중재 1건에서는 혈당 조절 가능성이 보였지만 단독 신체활동의 효과와는 구분됩니다.",
+  "use": "소아 1형 당뇨에서 혈당 조절 효과를 기대해 신체활동만 추가하지 말고 저혈당 위험과 함께 계획합니다.",
+  "refs": [
+    { "label": "Physical activity and nutrition interventions for type 1 diabetes · meta-analysis", "pmid": "35953465" },
+    { "label": "Exercise in adults with type 1 diabetes · review", "pmid": "36316391" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Type 1 Diabetes → 107건, exact InterventionName 3건",
+    "pubmed": "\"physical activity\" AND \"Type 1 Diabetes\" → 1356건",
+    "negative": "\"physical activity\" AND \"Type 1 Diabetes\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 270건",
+    "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+  }
+}

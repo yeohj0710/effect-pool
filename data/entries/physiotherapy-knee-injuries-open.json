@@ -1,0 +1,29 @@
+{
+  "id": "physiotherapy-knee-injuries-open",
+  "subj": "physiotherapy",
+  "claim": "물리치료를 무릎 손상 재활에 쓴다",
+  "line": "무릎 손상 재활에서 일부 물리치료가 근력을 높였지만 근거는 낮았습니다",
+  "effect": "일부 재활의 대퇴사두근 근력 개선",
+  "tier": "trial",
+  "dir": "open",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "전방십자인대·반월상연골 손상 재활 체계적 문헌고찰 22개와 142개 시험을 합친 근거 종합에서 일부 재활 방식이 대퇴사두근 근력을 개선했습니다.",
+  "saw": "신경근 전기자극은 대퇴사두근 근력을 높였고 열린 사슬·닫힌 사슬 운동과 가정·대면 재활은 근력과 자기보고 기능에서 비슷했습니다.",
+  "limit": "대부분 전방십자인대 손상 연구이고 고립된 반월상연골 손상 연구는 없었으며 전반적 근거 수준이 낮았습니다.",
+  "against": "무릎 손상 예방·관리 30개 무작위시험에서는 여러 운동치료가 달리기 손상 위험을 일관되게 줄이지 못했습니다.",
+  "use": "무릎 손상 재활에서 운동 방식과 전달 장소를 고를 때 낮은 확실성의 비교 근거로 참고합니다.",
+  "refs": [
+    { "label": "Rehabilitation after ACL and meniscal injuries · best-evidence synthesis", "pmid": "35768181" },
+    { "label": "Running-related knee injury prevention and management · systematic review", "pmid": "36150753" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Knee Injuries → 37건, exact InterventionName 4건",
+    "pubmed": "\"physiotherapy\" AND \"Knee Injuries\" → 613건",
+    "negative": "\"physiotherapy\" AND \"Knee Injuries\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 115건",
+    "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+  }
+}
