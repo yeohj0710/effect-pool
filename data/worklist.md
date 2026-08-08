@@ -17980,3 +17980,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] relaxing music — Low Back Pain에 듣는다  <!-- 시험 4건 · 논문 8편 -->
 - [x] relaxing music — Depression에 듣는다  <!-- 시험 3건 · 논문 202편 -->
 - [x] community exercise class — Childhood Obesity에 듣는다  <!-- 시험 3건 · 논문 92편 --> — 근거 없음(2026-08-08 조회, community exercise class AND Childhood Obesity; ClinicalTrials.gov 16건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] art making group — Anxiety에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 근거 없음(2026-08-08 조회, art making group AND Anxiety; ClinicalTrials.gov 12건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] art making group — Pain에 듣는다  <!-- 시험 4건 · 논문 63편 --> — 근거 없음(2026-08-08 조회, art making group AND Pain; ClinicalTrials.gov 8건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] art making group — Stroke에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 근거 없음(2026-08-08 조회, art making group AND Stroke; ClinicalTrials.gov 4건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] nutrition cooking class — Diabetes에 듣는다  <!-- 시험 7건 · 논문 44편 --> — 근거 없음(2026-08-08 조회, nutrition cooking class AND Diabetes; ClinicalTrials.gov 20건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] nutrition cooking class — Diet, Healthy에 듣는다  <!-- 시험 4건 · 논문 109편 --> — 근거 없음(2026-08-08 조회, nutrition cooking class AND Diet, Healthy; ClinicalTrials.gov 18건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] nutrition cooking class — Mental Health에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 근거 없음(2026-08-08 조회, nutrition cooking class AND Mental Health; ClinicalTrials.gov 6건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] nutrition cooking class — Feeding Behaviors에 듣는다  <!-- 시험 3건 · 논문 96편 --> — 근거 없음(2026-08-08 조회, nutrition cooking class AND Feeding Behaviors; ClinicalTrials.gov 7건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] dance for older adults — Older Adults에 듣는다  <!-- 시험 7건 · 논문 2728편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Older Adults; ClinicalTrials.gov 70건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] dance for older adults — Cognitive Decline에 듣는다  <!-- 시험 7건 · 논문 132편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Cognitive Decline; ClinicalTrials.gov 21건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] dance for older adults — Aged에 듣는다  <!-- 시험 4건 · 논문 2564편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Aged; ClinicalTrials.gov 72건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] dance for older adults — Physical Fitness에 듣는다  <!-- 시험 3건 · 논문 314편 --> — 근거 없음(2026-08-08 조회, dance for older adults AND Physical Fitness; ClinicalTrials.gov 3건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
