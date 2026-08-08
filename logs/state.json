@@ -42,32 +42,32 @@
     "thin_warnings": 728
   },
   "deployment": {
-    "last_entry_count": 4038,
+    "last_entry_count": 4070,
     "url": "https://offlabel-pool.vercel.app",
-    "deployment_id": "dpl_FKkLWeBWFKsFVG36bSuGKTo489vR",
-    "deployment_state": "batch 301 local build is 32 entries ahead of the last verified public build; six-round deployment check is due after this push",
+    "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
+    "deployment_state": "six-round check after batches 296-301 found automatic Git deployment 3 entries behind; vercel --prod deployed dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv and the production alias now matches the local build",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
     "local_entry_count": 4070,
     "local_id_field_count": 4075,
-    "public_entry_count": 4038,
-    "public_id_field_count": 4043,
-    "counts_match": false,
-    "latest_note": "Batch 297 local build has 4054 entries and 4059 id fields; public remains the last verified 4038-entry, 4043-id-field build until the six-round check after batch 301.",
+    "public_entry_count": 4070,
+    "public_id_field_count": 4075,
+    "counts_match": true,
+    "latest_note": "Six-round check after batches 296-301: automatic Git deployment lagged by 3 entries; vercel --prod deployed dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv and public/local match at 4070 entries and 4075 id fields.",
     "six_round_check": {
-      "batches": "290-295",
+      "batches": "296-301",
       "http_status": 200,
       "no_effect_or_harm_share": "23%",
       "harm": 119,
-      "non_trial": 558,
+      "non_trial": 560,
       "unexpected_benefit_entries": 25,
-      "local_entry_count": 4038,
-      "public_entry_count": 4038,
-      "local_id_field_count": 4043,
-      "public_id_field_count": 4043,
-      "automatic_deployment_lag_entries": 4,
+      "local_entry_count": 4070,
+      "public_entry_count": 4070,
+      "local_id_field_count": 4075,
+      "public_id_field_count": 4075,
+      "automatic_deployment_lag_entries": 3,
       "vercel_prod_required": true,
-      "vercel_prod_deployment_id": "dpl_FKkLWeBWFKsFVG36bSuGKTo489vR"
+      "vercel_prod_deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv"
     },
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs. Batch 295 automatic Git deployment remained 4 entries behind after push; vercel --prod deployed dpl_FKkLWeBWFKsFVG36bSuGKTo489vR and the production alias matched 4038 entries and 4043 id fields."
@@ -1104,6 +1104,6 @@
     "batch 291 build generated 4017 entries and 5601 refs; trial 3465, obs 487, non-trial 552, no-effect/harm 937 (23%), harm 119, unknown_n 346, known 2, thin 708; no new actionable warning",
     "batch 291 deployment remains pending the six-round check after batch 295: local 4017 entries/4022 id fields/5601 refs, public 4009/4014/5592"
   ],
-  "current_batch": "batch 301 complete; 3 evidence entries, 2 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local 4070 and public last verified 4038; 8 unchecked topics remain",
-  "next_action": "commit and push batch 301; then perform the six-round public deployment check before starting batch 302"
+  "current_batch": "batch 301 complete; 3 evidence entries, 2 no-evidence closures, 8 oncology topics held, and 20 legacy sentence edits; local/public match at 4070 after dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv; 8 unchecked topics remain",
+  "next_action": "commit and push the deployment checkpoint explaining the 3-entry Git deployment lag, then start batch 302"
 }
