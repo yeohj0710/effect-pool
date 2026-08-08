@@ -16441,3 +16441,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] guided self-compassion — Burnout에 듣는다  <!-- 시험 4건 · 논문 42편 -->
 - [x] guided self-compassion — Dementia에 듣는다  <!-- 시험 3건 · 논문 9편 -->
 - [x] guided self-compassion — Parent에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] parent peer support — Behavior에 듣는다  <!-- 시험 8건 · 논문 7080편 -->
+- [x] parent peer support — Autism에 듣는다 — 근거 없음(2026-08-08, parent peer support AND Autism; 직접 결과 없음)  <!-- 시험 7건 · 논문 304편 -->
+- [x] parent peer support — Substance Use에 듣는다 — 근거 없음(2026-08-08, parent peer support AND Substance Use; 직접 결과 없음)  <!-- 시험 4건 · 논문 1185편 -->
+- [x] parent peer support — Children에 듣는다  <!-- 시험 4건 · 논문 7517편 -->
+- [ ] yoga therapy — Cancer에 듣는다  <!-- 시험 74건 · 논문 1172편 -->
+- [x] yoga therapy — Stress에 듣는다  <!-- 시험 50건 · 논문 2551편 -->
+- [x] yoga therapy — Anxiety에 듣는다 — 근거 없음(2026-08-08, yoga therapy AND Anxiety; 직접 결과 없음)  <!-- 시험 40건 · 논문 1781편 -->
+- [x] yoga therapy — Depression에 듣는다 — 근거 없음(2026-08-08, yoga therapy AND Depression; 직접 결과 없음)  <!-- 시험 38건 · 논문 1775편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] family peer support — Child에 듣는다 — 근거 없음(2026-08-08, family peer support AND Child; 직접 결과 없음)  <!-- 시험 4건 · 논문 9145편 -->
+- [x] family peer support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 3778편 -->
+- [x] family peer support — Schizophrenia에 듣는다 — 근거 없음(2026-08-08, family peer support AND Schizophrenia; 직접 결과 없음)  <!-- 시험 3건 · 논문 138편 -->
+- [x] family peer support — Psychosis에 듣는다 — 근거 없음(2026-08-08, family peer support AND Psychosis; 직접 결과 없음)  <!-- 시험 3건 · 논문 171편 -->
+- [x] music engagement therapy — Stroke에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Stroke; 직접 결과 없음)  <!-- 시험 3건 · 논문 64편 -->
+- [x] music engagement therapy — Pain에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Pain; 직접 결과 없음)  <!-- 시험 3건 · 논문 109편 -->
+- [ ] music engagement therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 73편 -->
+- [x] music engagement therapy — Attention에 듣는다 — 근거 없음(2026-08-08, music engagement therapy AND Attention; 직접 결과 없음)  <!-- 시험 3건 · 논문 167편 -->
+- [ ] online group mindfulness — Cancer에 듣는다  <!-- 시험 14건 · 논문 117편 -->
+- [x] online group mindfulness — Stress에 듣는다 — 근거 없음(2026-08-08, online group mindfulness AND Stress; 직접 결과 없음)  <!-- 시험 11건 · 논문 532편 -->
+- [x] online group mindfulness — Anxiety에 듣는다 — 근거 없음(2026-08-08, online group mindfulness AND Anxiety; 직접 결과 없음)  <!-- 시험 9건 · 논문 421편 -->
+- [x] peer support mentoring — Mental Health에 듣는다 — 근거 없음(2026-08-08, peer support mentoring AND Mental Health; 직접 결과 없음)  <!-- 시험 10건 · 논문 368편 -->
+- [x] peer support mentoring — HIV에 듣는다 — 근거 없음(2026-08-08, peer support mentoring AND HIV; 직접 결과 없음)  <!-- 시험 8건 · 논문 161편 -->
+- [x] peer support mentoring — Social Care에 듣는다 — 근거 없음(2026-08-08, peer support mentoring AND Social Care; 직접 결과 없음)  <!-- 시험 7건 · 논문 1024편 -->
+- [x] social contact intervention — Depression에 듣는다 — 근거 없음(2026-08-08, social contact intervention AND Depression; 직접 결과 없음)  <!-- 시험 5건 · 논문 2480편 -->
+- [x] social contact intervention — Schizophrenia에 듣는다 — 근거 없음(2026-08-08, social contact intervention AND Schizophrenia; 직접 결과 없음)  <!-- 시험 4건 · 논문 603편 -->
+- [x] social contact intervention — Obesity에 듣는다 — 근거 없음(2026-08-08, social contact intervention AND Obesity; 직접 결과 없음)  <!-- 시험 4건 · 논문 485편 -->
+- [x] social contact intervention — Autism Spectrum Disorder에 듣는다 — 근거 없음(2026-08-08, social contact intervention AND Autism Spectrum Disorder; 직접 결과 없음)  <!-- 시험 4건 · 논문 338편 -->
+- [x] wellbeing intervention — Screening Uptake에 듣는다 — 근거 없음(2026-08-08, wellbeing intervention AND Screening Uptake; 직접 결과 없음)  <!-- 시험 3건 · 논문 397편 -->
+- [x] youth peer support — Mental Health에 듣는다  <!-- 시험 4건 · 논문 4254편 -->
+- [x] youth peer support — HIV/AIDS에 듣는다 — 근거 없음(2026-08-08, youth peer support AND HIV/AIDS; 직접 결과 없음)  <!-- 시험 3건 · 논문 926편 -->
+- [x] youth peer support — Minority Health에 듣는다 — 근거 없음(2026-08-08, youth peer support AND Minority Health; 직접 결과 없음)  <!-- 시험 3건 · 논문 477편 -->
