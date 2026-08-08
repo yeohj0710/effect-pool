@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4105,
+  "entries": 4120,
   "worklist": {
-    "total": 13731,
-    "checked": 13723,
-    "unchecked": 8,
-    "no_evidence_pending": 1630,
+    "total": 13759,
+    "checked": 13745,
+    "unchecked": 14,
+    "no_evidence_pending": 1578,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -15,45 +15,51 @@
       "meditation app — Cancer에 듣는다 (항암 주제 보류)",
       "resistance band exercise — Cancer에 듣는다 (항암 주제 보류)",
       "olive oil — Stomach Cancer에 듣는다 (항암 주제 보류)",
-      "green tea — Precancerous Condition에 듣는다 (항암 주제 보류)"
+      "green tea — Precancerous Condition에 듣는다 (항암 주제 보류)",
+      "proprioceptive exercise — Muscle Strength에 듣는다",
+      "circuit training — Diabetes에 듣는다",
+      "circuit training — Multiple Sclerosis에 듣는다",
+      "circuit training — Cancer에 듣는다 (항암 주제 보류)",
+      "circuit training — Obesity에 듣는다",
+      "laughter yoga — Self에 듣는다"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 309 ran two different 20-name non-drug expansion attempts, added 12 candidates on the second attempt after the first added 0, added 7 evidence entries, closed 5 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4105 entries and 5705 refs with no new actionable line/effect/known/scale/English warnings; four truthful new thin-study warnings remain",
+    "build": "passed with pre-existing warnings; batch 310 ran two different 20-name non-drug expansion attempts, added 1 candidate on the first attempt and 27 on the second, added 15 evidence entries, closed 3 duplicate topics and 4 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4120 entries and 5720 refs with no new actionable line/effect/known/scale/English warnings; new thin and unknown-n warnings are truthful",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
     "scale_warnings": 5,
-    "unknown_n_warnings": 349,
+    "unknown_n_warnings": 350,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3544,
-      "obs": 496,
+      "trial": 3558,
+      "obs": 497,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 963,
-    "harm": 119,
+    "no_effect_or_harm": 968,
+    "harm": 121,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 561,
+    "non_trial": 562,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5705,
-    "thin_warnings": 740
+    "connected_evidence": 5720,
+    "thin_warnings": 748
   },
   "deployment": {
-    "last_entry_count": 4105,
+    "last_entry_count": 4120,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 309 local build has 4105 entries and 4110 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
+    "deployment_state": "batch 310 local build has 4120 entries and 4125 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4105,
-    "local_id_field_count": 4110,
+    "local_entry_count": 4120,
+    "local_id_field_count": 4125,
     "public_entry_count": 4094,
     "public_id_field_count": 4099,
     "counts_match": false,
-    "latest_note": "Batch 309 local build has 4105 entries and 4110 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
+    "latest_note": "Batch 310 local build has 4120 entries and 4125 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
     "six_round_check": {
       "batches": "302-307",
       "http_status": 200,
@@ -319,7 +325,14 @@
     "batch 301 processed 13 topics; added 3 evidence entries, closed pumpkin Obesity and selenium Thyroid Nodule as no-evidence, and held 8 oncology topics without API research",
     "batch 301 evidence entries: selenium-heart-failure-open, selenium-dandruff-pos, and selenium-inflammation-open",
     "batch 301 tightened 20 legacy claims from green-tea-hypertension-pos through group-prenatal-education-pregnancy-pos; numbers, effects, and sample sizes were preserved",
-    "batch 301 build generated 4070 entries and 5658 refs; trial 3510, obs 495, non-trial 560, no-effect/harm 951 (23%), harm 119, unknown_n 346, known 2, thin 728; no new actionable line/effect/known/scale/English warning"
+    "batch 301 build generated 4070 entries and 5658 refs; trial 3510, obs 495, non-trial 560, no-effect/harm 951 (23%), harm 119, unknown_n 346, known 2, thin 728; no new actionable line/effect/known/scale/English warning",
+    "batch 310 expansion attempt one used 20 fresh food and supplement names and added 1 rye-bread candidate; attempt two used 20 different exercise and behavior names and added 27 candidates; no third expansion was run",
+    "batch 310 processed 22 non-oncology topics: added 15 evidence entries, closed 3 duplicates and 4 no-evidence topics, held 8 oncology topics without API research, and skipped 0 approved indications",
+    "batch 310 evidence entries: rye-bread-obesity-null, isometric-exercise-coronary-artery-disease-pos, isometric-exercise-cervical-spondylosis-pos, eccentric-exercise-muscle-damage-harm, eccentric-exercise-neck-pain-harm, eccentric-exercise-acl-injury-pos, dual-task-training-cognitive-decline-pos, dual-task-training-parkinson-disease-null, perturbation-training-fall-pos, perturbation-training-balance-pos, perturbation-training-knee-injury-null, motor-imagery-multiple-sclerosis-pos, motor-imagery-exercise-pos, proprioceptive-exercise-stroke-pos, proprioceptive-exercise-knee-injuries-pos",
+    "batch 310 closed dual-task training Multiple Sclerosis and Balance plus perturbation training Falling as duplicates; closed isometric Rotator Cuff Tear, isometric Gluteal Tendinitis, eccentric Sports Level 1, and proprioceptive exercise Cerebral Palsy as no-evidence; 6 new non-oncology topics remain for batch 311",
+    "batch 310 tightened 20 legacy sentences from home-blood-pressure-monitoring-cardiovascular-health-null through hope-therapy-stress-dialysis-pos; numbers, effects, and sample sizes were preserved",
+    "batch 310 build generated 4120 entries and 5720 refs; trial 3558, obs 497, animal 22, lab 11, case 32, no-effect/harm 968 (23%), harm 121, unknown_n 350, known 2, thin 748; no new actionable line/effect/known/scale/English warning; new thin-study and unknown-n warnings are truthful",
+    "batch 310 deployment remains pending the next six-round check after batch 313: local 4120 entries/4125 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
   "expansion": {
     "date": "2026-08-08",
@@ -1155,6 +1168,6 @@
     "batch 309 build generated 4105 entries and 5705 refs; trial 3544, obs 496, animal 22, lab 11, case 32, no-effect/harm 963 (23%), harm 119, unknown_n 349, known 2, thin 740; no new actionable line/effect/known/scale/English warning; four truthful thin-study warnings remain for new small human trials",
     "batch 309 public deployment is pending the next six-round check after batch 313: local 4105 entries/4110 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
-  "current_batch": "batch 309 complete; 7 evidence entries, 5 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4105 entries/4110 id fields, public last verified 4094 entries/4099 id fields; 8 unchecked topics remain",
-  "next_action": "start batch 310; keep the 8 oncology topics held, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
+  "current_batch": "batch 310 complete; 15 evidence entries, 3 duplicate closures, 4 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4120 entries/4125 id fields, public last verified 4094 entries/4099 id fields; 14 unchecked topics remain",
+  "next_action": "start batch 311; hold the 8 oncology topics, process the 6 new non-oncology topics, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
 }

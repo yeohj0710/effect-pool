@@ -17726,3 +17726,51 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] arabinoxylan — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(2026-08-08)
 - [x] erythritol — Obesity에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 근거 없음(2026-08-08, erythritol AND Obesity; 직접 인체 중재 결과 없음)
 - [x] erythritol — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 근거 없음(2026-08-08, erythritol AND "Type 2 Diabetes Mellitus"; 사람 연구는 혼합 감미료·관찰 또는 전임상)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] rye bread — Obesity에 듣는다  <!-- 시험 4건 · 논문 20편 --> — 항목 생성(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] isometric exercise — Rotator Cuff Tear에 듣는다  <!-- 시험 4건 · 논문 683편 --> — 근거 없음(2026-08-08, "isometric exercise" AND "Rotator Cuff Tear"; 환자 치료 결과가 아닌 건강인 수중 근전도 연구만 확인)
+- [x] isometric exercise — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 17159편 --> — 항목 생성(2026-08-08)
+- [x] isometric exercise — Cervical Spondylosis에 듣는다  <!-- 시험 3건 · 논문 299편 --> — 항목 생성(2026-08-08)
+- [x] isometric exercise — Gluteal Tendinitis에 듣는다  <!-- 시험 3건 · 논문 94편 --> — 근거 없음(2026-08-08, "isometric exercise" AND "Gluteal Tendinitis"; PubMed 직접 결과 0편)
+- [x] eccentric exercise — Muscle Damage에 듣는다  <!-- 시험 30건 · 논문 1571편 --> — 항목 생성(2026-08-08)
+- [x] eccentric exercise — Neck Pain에 듣는다  <!-- 시험 26건 · 논문 21편 --> — 항목 생성(2026-08-08)
+- [x] eccentric exercise — ACL Injury에 듣는다  <!-- 시험 19건 · 논문 112편 --> — 항목 생성(2026-08-08)
+- [x] eccentric exercise — Sports Level 1에 듣는다  <!-- 시험 15건 · 논문 754편 --> — 근거 없음(2026-08-08, "eccentric exercise" AND "Sports Level 1"; 직접 임상 결과 일치 없음)
+- [x] dual-task training — Cognitive Decline에 듣는다  <!-- 시험 22건 · 논문 471편 --> — 항목 생성(2026-08-08)
+- [x] dual-task training — Multiple Sclerosis에 듣는다  <!-- 시험 12건 · 논문 110편 --> — 중복(2026-08-08, 기존 dual-task-training-multiple-sclerosis-pos 항목)
+- [x] dual-task training — Parkinson Disease에 듣는다  <!-- 시험 12건 · 논문 329편 --> — 항목 생성(2026-08-08)
+- [x] dual-task training — Balance에 듣는다  <!-- 시험 11건 · 논문 1036편 --> — 중복(2026-08-08, 기존 dual-task-training-balance-pos 항목)
+- [x] perturbation training — Fall에 듣는다  <!-- 시험 11건 · 논문 376편 --> — 항목 생성(2026-08-08)
+- [x] perturbation training — Balance에 듣는다  <!-- 시험 8건 · 논문 1323편 --> — 항목 생성(2026-08-08)
+- [x] perturbation training — Knee Injury에 듣는다  <!-- 시험 4건 · 논문 113편 --> — 항목 생성(2026-08-08)
+- [x] perturbation training — Falling에 듣는다  <!-- 시험 3건 · 논문 492편 --> — 중복(2026-08-08, perturbation training — Fall과 같은 낙상 주제)
+- [x] motor imagery — Multiple Sclerosis에 듣는다  <!-- 시험 10건 · 논문 60편 --> — 항목 생성(2026-08-08)
+- [x] motor imagery — Exercise에 듣는다  <!-- 시험 10건 · 논문 630편 --> — 항목 생성(2026-08-08)
+- [x] proprioceptive exercise — Stroke에 듣는다  <!-- 시험 19건 · 논문 1229편 --> — 항목 생성(2026-08-08)
+- [x] proprioceptive exercise — Knee Injuries에 듣는다  <!-- 시험 14건 · 논문 423편 --> — 항목 생성(2026-08-08)
+- [x] proprioceptive exercise — Cerebral Palsy에 듣는다  <!-- 시험 14건 · 논문 265편 --> — 근거 없음(2026-08-08, "proprioceptive exercise" AND "Cerebral Palsy"; PubMed 직접 결과 0편)
+- [ ] proprioceptive exercise — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 2717편 -->
+- [ ] circuit training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 84편 -->
+- [ ] circuit training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 20편 -->
+- [ ] circuit training — Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 -->
+- [ ] circuit training — Obesity에 듣는다  <!-- 시험 6건 · 논문 139편 -->
+- [ ] laughter yoga — Self에 듣는다  <!-- 시험 5건 · 논문 100편 -->
