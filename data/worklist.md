@@ -17792,3 +17792,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] walking — Coronary Artery Disease에 듣는다  <!-- 시험 5건 · 논문 612편 --> — 근거 없음(2026-08-08, "walking" AND "Coronary Artery Disease"; 직접 걷기 시험은 결과 미보고 등록 또는 관찰 연구)
 - [x] walking — Hip Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 1892편 --> — 항목 생성(2026-08-08)
 - [x] walking — Exercise에 듣는다  <!-- 시험 5건 · 논문 72151편 --> — 근거 없음(2026-08-08, "walking" AND "Exercise"; 직접 걷기 결과는 다른 질환·복합운동 또는 등록 프로토콜)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] grape consumption — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 근거 항목 생성(2026-08-08)
+- [x] plant sterols — Mild Hypercholesterolemic Subjects에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 근거 항목 생성(2026-08-08)
+- [x] weight lifting — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 39편 --> — 근거 항목 생성(2026-08-08)
+- [x] weight lifting — Obesity에 듣는다  <!-- 시험 3건 · 논문 206편 --> — 근거 항목 생성(2026-08-08)
+- [x] weight lifting — Skeletal Muscle에 듣는다  <!-- 시험 3건 · 논문 2403편 --> — 근거 항목 생성(2026-08-08)
