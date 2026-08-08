@@ -17675,3 +17675,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] judo — Athletic Performance에 듣는다  <!-- 시험 3건 · 논문 779편 -->
 - [x] judo — Child Behavior에 듣는다  <!-- 시험 3건 · 논문 58편 -->
 - [x] drama intervention — Physical Health에 듣는다  <!-- 시험 5건 · 논문 113편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] social dancing — Dementia에 듣는다  <!-- 시험 5건 · 논문 112편 --> — 중복(2026-08-08, 기존 social dance — Dementia 항목)
+- [x] social dancing — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 38편 --> — 중복(2026-08-08, 기존 social dance — Alzheimer Disease 항목)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] music and movement — Pain에 듣는다  <!-- 시험 17건 · 논문 204편 --> — 항목 생성(2026-08-08)
+- [x] music and movement — Parkinson Disease에 듣는다  <!-- 시험 10건 · 논문 232편 --> — 항목 생성(2026-08-08)
+- [x] music and movement — Stroke에 듣는다  <!-- 시험 9건 · 논문 185편 --> — 항목 생성(2026-08-08)
+- [x] music and movement — Anxiety에 듣는다  <!-- 시험 9건 · 논문 184편 --> — 항목 생성(2026-08-08)
+- [x] movement therapy group — Neck Pain에 듣는다  <!-- 시험 4건 · 논문 1029편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Neck Pain; 직접 중재명 일치 결과 없음)
+- [x] movement therapy group — Erb's Palsy에 듣는다  <!-- 시험 4건 · 논문 91편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Erb's Palsy; 직접 중재명 일치 결과 없음)
+- [x] movement therapy group — Stroke에 듣는다  <!-- 시험 3건 · 논문 6823편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Stroke; 직접 중재명 일치 결과 없음)

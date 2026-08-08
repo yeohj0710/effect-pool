@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4094,
+  "entries": 4098,
   "worklist": {
-    "total": 13710,
-    "checked": 13702,
+    "total": 13719,
+    "checked": 13711,
     "unchecked": 8,
-    "no_evidence_pending": 1566,
+    "no_evidence_pending": 1625,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -19,7 +19,7 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 307 ran two different 20-name non-drug expansion attempts, added 0 candidates, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4094 entries and 5693 refs with no new actionable line/effect/known/scale/English warnings; existing truthful thin-study warnings remain",
+    "build": "passed with pre-existing warnings; batch 308 ran two different 20-name non-drug expansion attempts, added 9 candidates, added 4 evidence entries, closed 2 duplicates and 3 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4098 entries and 5697 refs with no new actionable effect/known/scale/English warnings; one truthful new thin-study warning remains for music-and-movement-stroke-pos",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -27,33 +27,33 @@
     "unknown_n_warnings": 349,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3534,
-      "obs": 495,
+      "trial": 3537,
+      "obs": 496,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 960,
+    "no_effect_or_harm": 961,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 560,
+    "non_trial": 561,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5693,
-    "thin_warnings": 735
+    "connected_evidence": 5697,
+    "thin_warnings": 736
   },
   "deployment": {
-    "last_entry_count": 4094,
+    "last_entry_count": 4098,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 307 six-round check passed: automatic Git deployment matched the local build at 4094 entries and 4099 id fields; next check is due after batch 313",
+    "deployment_state": "batch 308 local build has 4098 entries and 4103 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4094,
-    "local_id_field_count": 4099,
+    "local_entry_count": 4098,
+    "local_id_field_count": 4103,
     "public_entry_count": 4094,
     "public_id_field_count": 4099,
-    "counts_match": true,
-    "latest_note": "Six-round check after batches 302-307 returned HTTP 200 and matched public/local at 4094 entries and 4099 id fields; automatic Git deployment caught up, so vercel --prod was not required. Next check is due after batch 313.",
+    "counts_match": false,
+    "latest_note": "Batch 308 local build has 4098 entries and 4103 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
     "six_round_check": {
       "batches": "302-307",
       "http_status": 200,
@@ -1139,8 +1139,15 @@
     "batch 307 processed 0 non-oncology topics because both expansions added no candidates; held 8 oncology topics without API research and skipped 0 approved indications",
     "batch 307 tightened 20 legacy sentences from high-intensity-interval-training-brain-activity-pos through home-based-exercise-heart-failure-pos; numbers, effects, and sample sizes were preserved",
     "batch 307 build generated 4094 entries and 5693 refs; trial 3534, obs 495, animal 22, lab 11, case 32, no-effect/harm 960 (23%), harm 119, unknown_n 349, known 2, thin 735; no new actionable line/effect/known/scale/English warning",
-    "batch 307 public deployment check passed: HTTP 200, public/local both 4094 entries and 4099 id fields; automatic Git deployment caught up, so vercel --prod was not required. Next check after batch 313"
+    "batch 307 public deployment check passed: HTTP 200, public/local both 4094 entries and 4099 id fields; automatic Git deployment caught up, so vercel --prod was not required. Next check after batch 313",
+    "batch 308 expansion attempt one used 20 fresh non-drug food, activity, arts, and community names and added 2 social-dancing candidates; attempt two used 20 different non-drug food, activity, arts, and community names and added 7 music-and-movement and movement-therapy-group candidates; no third expansion was run",
+    "batch 308 processed 9 non-oncology topics: added 4 evidence entries, closed 2 social-dancing duplicates and 3 movement-therapy-group topics as no-evidence, held 8 oncology topics without API research, and skipped 0 approved indications",
+    "batch 308 evidence entries: music-and-movement-pain-null, music-and-movement-parkinson-pos, music-and-movement-stroke-pos, and music-and-movement-anxiety-pos",
+    "batch 308 closed social dancing Dementia and Alzheimer Disease as duplicates of existing social dance entries; movement therapy group Neck Pain, Erb's Palsy, and Stroke had no directly matching intervention-name result after ClinicalTrials.gov and PubMed checks; dated worklist notes preserve the search terms",
+    "batch 308 tightened 20 legacy sentences from home-based-exercise-program-heart-failure-pos through home-blood-pressure-monitoring-blood-pressure-pos; numbers, effects, and sample sizes were preserved",
+    "batch 308 build generated 4098 entries and 5697 refs; trial 3537, obs 496, animal 22, lab 11, case 32, no-effect/harm 961 (23%), harm 119, unknown_n 349, known 2, thin 736; no new actionable effect/known/scale/English warning; one truthful thin-study warning remains for the 33-person music-and-movement-stroke study",
+    "batch 308 public deployment is pending the next six-round check after batch 313: local 4098 entries/4103 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
-  "current_batch": "batch 307 complete; 0 evidence entries, 0 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits, and six-round public check passed; local/public 4094 entries; 8 unchecked topics remain",
-  "next_action": "start batch 308; next six-round public deployment check after batch 313"
+  "current_batch": "batch 308 complete; 4 evidence entries, 2 duplicate closures, 3 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4098 entries/4103 id fields, public last verified 4094 entries/4099 id fields; 8 unchecked topics remain",
+  "next_action": "start batch 309; keep the 8 oncology topics held, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
 }
