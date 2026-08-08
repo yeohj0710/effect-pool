@@ -16836,3 +16836,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] online breathing group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 83편 --> — 항목 생성(online-breathing-group-anxiety-pos)
 - [x] online breathing group — Chronic Conditions에 듣는다  <!-- 시험 3건 · 논문 113편 --> — 근거 없음(2026-08-08, online breathing group AND Chronic Conditions; 직접 일치 결과 논문 없음)
 - [x] digital meditation group — Stress, Psychological에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 항목 생성(digital-meditation-group-stress-psychological-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] online writing group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 186편 --> — 근거 없음(2026-08-08, online writing group AND Anxiety; 직접 일치 결과 논문 없음)
+- [x] online writing group — Stress에 듣는다  <!-- 시험 3건 · 논문 204편 --> — 근거 없음(2026-08-08, online writing group AND Stress; 직접 일치 결과 논문 없음)
+- [x] online writing group — Self-Criticism에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-08, online writing group AND Self-Criticism; 직접 일치 결과 논문 없음)
+- [x] music improvisation group — Anxiety에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 근거 없음(2026-08-08, music improvisation group AND Anxiety; 직접 일치 결과 논문 없음)
+- [x] forest walking group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-08, forest walking group AND Anxiety; 직접 보고 결과 논문 없음)
+- [x] lactoferrin — Anemia에 듣는다  <!-- 시험 22건 · 논문 166편 --> — 항목 생성(lactoferrin-anemia-harm)
+- [x] lactoferrin — Sepsis에 듣는다  <!-- 시험 13건 · 논문 295편 --> — 근거 없음(2026-08-08, lactoferrin AND Sepsis; 직접 인간 중재 결과 논문 없음)
+- [x] lactoferrin — HIV Infection에 듣는다  <!-- 시험 8건 · 논문 115편 --> — 근거 없음(2026-08-08, lactoferrin AND HIV Infection; 직접 인간 중재 결과 논문 없음)
+- [x] phosphatidylcholine — Ulcerative Colitis에 듣는다  <!-- 시험 4건 · 논문 106편 --> — 근거 없음(2026-08-08, phosphatidylcholine AND Ulcerative Colitis; 직접 중재 결과 논문 없음)
+- [x] phosphatidylcholine — Submental Fat에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(phosphatidylcholine-submental-fat-pos)
