@@ -17704,3 +17704,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] movement therapy group — Neck Pain에 듣는다  <!-- 시험 4건 · 논문 1029편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Neck Pain; 직접 중재명 일치 결과 없음)
 - [x] movement therapy group — Erb's Palsy에 듣는다  <!-- 시험 4건 · 논문 91편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Erb's Palsy; 직접 중재명 일치 결과 없음)
 - [x] movement therapy group — Stroke에 듣는다  <!-- 시험 3건 · 논문 6823편 --> — 근거 없음(2026-08-08, "movement therapy group" AND Stroke; 직접 중재명 일치 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] whey hydrolysate — Diabetes에 듣는다  <!-- 시험 3건 · 논문 42편 --> — 항목 생성(2026-08-08)
+- [x] whey hydrolysate — Muscle Health에 듣는다  <!-- 시험 3건 · 논문 39편 --> — 항목 생성(2026-08-08)
+- [x] resistant starch — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 항목 생성(2026-08-08)
+- [x] resistant starch — Inflammatory Bowel Diseases에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-08, "resistant starch" AND "Inflammatory Bowel Diseases"; 직접 인체 결과 없음, NCT05579483 결과 없음)
+- [x] resistant starch — Weight Loss에 듣는다  <!-- 시험 3건 · 논문 93편 --> — 항목 생성(2026-08-08)
+- [x] inulin — Constipation에 듣는다  <!-- 시험 9건 · 논문 81편 --> — 항목 생성(2026-08-08)
+- [x] inulin — Renal Function에 듣는다  <!-- 시험 8건 · 논문 4032편 --> — 근거 없음(2026-08-08, inulin AND "Renal Function"; 이눌린을 중재로 쓴 직접 결과 없음, NCT05136963은 iohexol 검사)
+- [x] inulin — Diet, Healthy에 듣는다  <!-- 시험 7건 · 논문 216편 --> — 항목 생성(2026-08-08)
+- [x] inulin — Healthy Donors에 듣는다  <!-- 시험 6건 · 논문 42편 --> — 근거 없음(2026-08-08, inulin AND "Healthy Donors"; 직접 인체 중재 결과 없음)
+- [x] arabinoxylan — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 생성(2026-08-08)
+- [x] erythritol — Obesity에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 근거 없음(2026-08-08, erythritol AND Obesity; 직접 인체 중재 결과 없음)
+- [x] erythritol — Type 2 Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 근거 없음(2026-08-08, erythritol AND "Type 2 Diabetes Mellitus"; 사람 연구는 혼합 감미료·관찰 또는 전임상)

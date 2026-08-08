@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4098,
+  "entries": 4105,
   "worklist": {
-    "total": 13719,
-    "checked": 13711,
+    "total": 13731,
+    "checked": 13723,
     "unchecked": 8,
-    "no_evidence_pending": 1625,
+    "no_evidence_pending": 1630,
     "next_batch": [
       "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
       "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
@@ -19,7 +19,7 @@
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 308 ran two different 20-name non-drug expansion attempts, added 9 candidates, added 4 evidence entries, closed 2 duplicates and 3 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4098 entries and 5697 refs with no new actionable effect/known/scale/English warnings; one truthful new thin-study warning remains for music-and-movement-stroke-pos",
+    "build": "passed with pre-existing warnings; batch 309 ran two different 20-name non-drug expansion attempts, added 12 candidates on the second attempt after the first added 0, added 7 evidence entries, closed 5 no-evidence topics, held 8 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4105 entries and 5705 refs with no new actionable line/effect/known/scale/English warnings; four truthful new thin-study warnings remain",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -27,33 +27,33 @@
     "unknown_n_warnings": 349,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3537,
+      "trial": 3544,
       "obs": 496,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-    "no_effect_or_harm": 961,
+    "no_effect_or_harm": 963,
     "harm": 119,
     "no_effect_or_harm_share": "23%",
     "non_trial": 561,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5697,
-    "thin_warnings": 736
+    "connected_evidence": 5705,
+    "thin_warnings": 740
   },
   "deployment": {
-    "last_entry_count": 4098,
+    "last_entry_count": 4105,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 308 local build has 4098 entries and 4103 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
+    "deployment_state": "batch 309 local build has 4105 entries and 4110 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4098,
-    "local_id_field_count": 4103,
+    "local_entry_count": 4105,
+    "local_id_field_count": 4110,
     "public_entry_count": 4094,
     "public_id_field_count": 4099,
     "counts_match": false,
-    "latest_note": "Batch 308 local build has 4098 entries and 4103 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
+    "latest_note": "Batch 309 local build has 4105 entries and 4110 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
     "six_round_check": {
       "batches": "302-307",
       "http_status": 200,
@@ -1146,8 +1146,15 @@
     "batch 308 closed social dancing Dementia and Alzheimer Disease as duplicates of existing social dance entries; movement therapy group Neck Pain, Erb's Palsy, and Stroke had no directly matching intervention-name result after ClinicalTrials.gov and PubMed checks; dated worklist notes preserve the search terms",
     "batch 308 tightened 20 legacy sentences from home-based-exercise-program-heart-failure-pos through home-blood-pressure-monitoring-blood-pressure-pos; numbers, effects, and sample sizes were preserved",
     "batch 308 build generated 4098 entries and 5697 refs; trial 3537, obs 496, animal 22, lab 11, case 32, no-effect/harm 961 (23%), harm 119, unknown_n 349, known 2, thin 736; no new actionable effect/known/scale/English warning; one truthful thin-study warning remains for the 33-person music-and-movement-stroke study",
-    "batch 308 public deployment is pending the next six-round check after batch 313: local 4098 entries/4103 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
+    "batch 308 public deployment is pending the next six-round check after batch 313: local 4098 entries/4103 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check",
+    "batch 309 expansion attempt one used 20 fresh non-drug activity, arts, and recreation names and added 0 candidates; attempt two used 20 different non-drug food and dietary-fiber names and added 12 candidates; no third expansion was run",
+    "batch 309 processed 12 non-oncology topics: added 7 evidence entries, closed 5 topics as no-evidence, held 8 oncology topics without API research, and skipped 0 approved indications",
+    "batch 309 evidence entries: whey-hydrolysate-diabetes-null, whey-hydrolysate-muscle-health-pos, resistant-starch-chronic-kidney-diseases-pos, resistant-starch-weight-loss-pos, inulin-constipation-pos, inulin-healthy-diet-pos, and arabinoxylan-metabolic-syndrome-null",
+    "batch 309 closed resistant starch Inflammatory Bowel Diseases, inulin Renal Function, inulin Healthy Donors, and erythritol Obesity/Type 2 Diabetes Mellitus as no-evidence after direct intervention checks; the dated worklist notes preserve the PubMed and registry search reasons",
+    "batch 309 tightened 20 legacy sentences from home-blood-pressure-monitoring-cardiovascular-health-null through hope-therapy-stress-dialysis-pos; numbers, effects, and sample sizes were preserved",
+    "batch 309 build generated 4105 entries and 5705 refs; trial 3544, obs 496, animal 22, lab 11, case 32, no-effect/harm 963 (23%), harm 119, unknown_n 349, known 2, thin 740; no new actionable line/effect/known/scale/English warning; four truthful thin-study warnings remain for new small human trials",
+    "batch 309 public deployment is pending the next six-round check after batch 313: local 4105 entries/4110 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before the scheduled check"
   ],
-  "current_batch": "batch 308 complete; 4 evidence entries, 2 duplicate closures, 3 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4098 entries/4103 id fields, public last verified 4094 entries/4099 id fields; 8 unchecked topics remain",
-  "next_action": "start batch 309; keep the 8 oncology topics held, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
+  "current_batch": "batch 309 complete; 7 evidence entries, 5 no-evidence closures, 8 oncology topics held, 20 legacy sentence edits; local 4105 entries/4110 id fields, public last verified 4094 entries/4099 id fields; 8 unchecked topics remain",
+  "next_action": "start batch 310; keep the 8 oncology topics held, expand only if the unchecked count drops below 30, and run the next six-round public deployment check after batch 313"
 }
