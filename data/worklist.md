@@ -17512,3 +17512,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tomato — Obesity에 듣는다  <!-- 시험 4건 · 논문 196편 --> — 항목 생성(tomato-obesity-open, 2026-08-08 조회)
 - [x] tomato — Food Intake에 듣는다  <!-- 시험 3건 · 논문 921편 --> — 근거 없음(2026-08-08 조회, tomato AND "Food Intake"; 직접 토마토 중재의 음식 섭취 결과 없음)
 - [x] tomato — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 84편 --> — 근거 없음(2026-08-08 조회, tomato AND "Diabetes Mellitus"; 당뇨병 환자의 직접 토마토 중재 결과 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] corn — Diabetes에 듣는다  <!-- 시험 17건 · 논문 969편 --> — 근거 없음(2026-08-08 조회, corn AND Diabetes; 당뇨병 환자의 직접 옥수수 중재 결과 없음)
+- [x] corn — Child에 듣는다  <!-- 시험 12건 · 논문 2091편 --> — 항목 생성(corn-child-open, 2026-08-08 조회)
+- [x] corn — Diet, Healthy에 듣는다  <!-- 시험 8건 · 논문 584편 --> — 근거 없음(2026-08-08 조회, corn AND "Diet, Healthy"; 직접 옥수수 중재의 건강식 식단 결과 없음)
+- [x] corn — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 298편 --> — 근거 없음(2026-08-08 조회, corn AND "Metabolic Syndrome"; 직접 옥수수 중재 결과 없음)
+- [x] potato — Blood Glucose에 듣는다  <!-- 시험 11건 · 논문 458편 --> — 항목 생성(potato-blood-glucose-pos, 2026-08-08 조회)
+- [x] potato — Diabetes에 듣는다  <!-- 시험 9건 · 논문 621편 --> — 항목 생성(potato-diabetes-open, 2026-08-08 조회)
+- [x] potato — Appetite에 듣는다  <!-- 시험 6건 · 논문 157편 --> — 항목 생성(potato-appetite-pos, 2026-08-08 조회)
+- [x] potato — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 12편 --> — 근거 없음(2026-08-08 조회, potato AND "Heart Failure"; 직접 감자 중재의 심부전 결과 없음)
