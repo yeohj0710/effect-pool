@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4156,
+    "entries": 4157,
   "worklist": {
-        "total": 13806,
-        "checked": 13797,
+        "total": 13810,
+        "checked": 13801,
     "unchecked": 9,
     "no_evidence_pending": 1581,
     "next_batch": [
@@ -20,16 +20,16 @@
     ]
   },
   "verification": {
-        "build": "passed with pre-existing warnings; batch 316 used two different 20-name non-drug expansion attempts and added 1 then 0 candidates, added 1 evidence entry, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4156 entries and 5791 refs with no new actionable line/effect/known/scale/English warnings",
+        "build": "passed with pre-existing warnings; batch 317 used two different 20-name non-drug expansion attempts and added 4 then 0 candidates, added 1 evidence entry, closed 3 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4157 entries and 5792 refs with no new actionable line/effect/known/scale/English warnings; one new unknown-n warning is truthful because the PubMed API record did not report participant totals",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
     "scale_warnings": 5,
-        "unknown_n_warnings": 356,
+        "unknown_n_warnings": 357,
     "known_warnings": 2,
     "tier_distribution": {
             "trial": 3594,
-      "obs": 497,
+            "obs": 498,
       "animal": 22,
       "lab": 11,
       "case": 32
@@ -37,24 +37,24 @@
         "no_effect_or_harm": 973,
     "harm": 122,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 562,
+        "non_trial": 563,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5791,
+        "connected_evidence": 5792,
         "thin_warnings": 760
   },
   "deployment": {
-        "last_entry_count": 4156,
+        "last_entry_count": 4157,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 316 local build has 4156 entries and 4161 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; do not run vercel --prod before then",
+        "deployment_state": "batch 317 local build has 4157 entries and 4162 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; do not run vercel --prod before then",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4156,
-        "local_id_field_count": 4161,
+        "local_entry_count": 4157,
+        "local_id_field_count": 4162,
     "public_entry_count": 4141,
     "public_id_field_count": 4146,
     "counts_match": false,
-        "latest_note": "Batch 316 local build has 4156 entries and 4161 id fields; public remains at the verified 4141 entries and 4146 id fields. Six-round check is due after batch 319; do not deploy manually before then.",
+        "latest_note": "Batch 317 local build has 4157 entries and 4162 id fields; public remains at the verified 4141 entries and 4146 id fields. Six-round check is due after batch 319; do not deploy manually before then.",
     "six_round_check": {
       "batches": "308-313",
       "http_status": 200,
@@ -1209,8 +1209,15 @@
         "batch 316 evidence entry: sleep-hygiene-coaching-health-behavior-pos; exact ClinicalTrials.gov InterventionName matching returned 0 direct records, while a 175-person randomized PubMed study supported a positive sleep-coaching signal",
         "batch 316 tightened 20 legacy sentences from interpersonal-psychotherapy-for-adolescents-adolescent-pos through iptacopan-immunoglobulin-a-nephropathy-pos; numbers, effects, and sample sizes were preserved",
         "batch 316 build generated 4156 entries and 5791 refs; trial 3594, obs 497, animal 22, lab 11, case 32, no-effect/harm 973 (23%), harm 122, unknown_n 356, known 2, thin 760; no new actionable line/effect/known/scale/English warning",
-        "batch 316 deployment remains pending the six-round check after batch 319: local 4156 entries/4161 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then"
+        "batch 316 deployment remains pending the six-round check after batch 319: local 4156 entries/4161 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then",
+        "batch 317 expansion first used 20 fresh food and non-drug names and added 4 sleep education group candidates; the second different 20-name food and activity branch added 0 candidates; no third expansion was run",
+        "batch 317 processed 4 non-oncology topics: added 1 evidence entry, closed 3 topics as no-evidence, held 9 oncology topics without API research, and skipped 0 approved indications",
+        "batch 317 evidence entry: sleep-education-group-health-behavior-open; PMID 28220343 was a quasi-experimental Japanese elderly chronic-insomnia study, but the PubMed API record did not report participant totals",
+        "batch 317 closures: sleep education group Cognitive Decline, Stress, and Pain had 0 exact registry InterventionName records and 0 direct PubMed title/abstract matches; dated worklist notes preserve the search terms",
+        "batch 317 tightened 20 legacy sentences from irbesartan-iga-nephropathy-null through isradipine-drug-dependence-open; numbers, effects, and sample sizes were preserved",
+        "batch 317 build generated 4157 entries and 5792 refs; trial 3594, obs 498, animal 22, lab 11, case 32, no-effect/harm 973 (23%), harm 122, unknown_n 357, known 2, thin 760; no new actionable line/effect/known/scale/English warning; one new unknown-n warning is truthful",
+        "batch 317 deployment remains pending the six-round check after batch 319: local 4157 entries/4162 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then"
   ],
-    "current_batch": "batch 316 complete; 1 evidence entry, 9 oncology topics held, 20 legacy sentence edits; local 4156 entries/4161 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
-    "next_action": "start batch 317; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
+    "current_batch": "batch 317 complete; 1 evidence entry, 3 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local 4157 entries/4162 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
+    "next_action": "start batch 318; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
 }
