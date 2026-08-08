@@ -17347,3 +17347,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] coffee consumption — Obesity에 듣는다  <!-- 시험 4건 · 논문 583편 --> 항목 생성(coffee-consumption-obesity-null, 2026-08-08 조회)
 - [x] coffee consumption — Gastrointestinal Motility에 듣는다  <!-- 시험 3건 · 논문 30편 --> 중복(coffee-postoperative-ileus-trial, 2026-08-08 조회)
 - [x] coffee consumption — Cardiovascular Risk에 듣는다  <!-- 시험 3건 · 논문 769편 --> 항목 생성(coffee-consumption-cardiovascular-risk-null, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] plant-based protein — Diabetes에 듣는다  <!-- 시험 5건 · 논문 486편 --> 중복(plant-protein-diabetes-pos, 2026-08-08 조회)
+- [x] plant-based protein — Diet, Healthy에 듣는다  <!-- 시험 5건 · 논문 576편 --> 항목 생성(plant-based-protein-healthy-diet-pos, 2026-08-08 조회)
+- [x] plant-based protein — Dietary Protein에 듣는다  <!-- 시험 4건 · 논문 2435편 --> 항목 생성(plant-based-protein-dietary-protein-null, 2026-08-08 조회)
+- [x] plant-based protein — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 138편 --> 항목 생성(plant-based-protein-insulin-resistance-null, 2026-08-08 조회)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] portion size intervention — Eating Behavior에 듣는다  <!-- 시험 5건 · 논문 429편 --> 항목 생성(portion-size-intervention-eating-behavior-pos, 2026-08-08 조회)
+- [x] portion size intervention — Obesity에 듣는다  <!-- 시험 5건 · 논문 415편 --> 근거 없음(2026-08-08 조회, portion size intervention AND Obesity; 직접 결과 없음)
+- [x] portion size intervention — Healthy Diet에 듣는다  <!-- 시험 4건 · 논문 162편 --> 항목 생성(portion-size-intervention-healthy-diet-null, 2026-08-08 조회)
