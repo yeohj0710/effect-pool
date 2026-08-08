@@ -17942,3 +17942,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] play therapy group — Autism에 듣는다  <!-- 시험 7건 · 논문 391편 --> — 중복(2026-08-08, 기존 play-therapy-autism-spectrum-disorder-pos)
 - [x] play therapy group — Pain에 듣는다  <!-- 시험 7건 · 논문 1748편 --> — 근거 항목 생성(2026-08-08)
 - [x] play therapy group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 1141편 --> — 근거 항목 생성(2026-08-08)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] whole fruit diet — Diet, Healthy에 듣는다  <!-- 시험 4건 · 논문 1670편 --> — 근거 없음(2026-08-08 조회, whole fruit diet AND Diet, Healthy; ClinicalTrials.gov 44건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] whole fruit diet — Body Weight Changes에 듣는다  <!-- 시험 3건 · 논문 247편 --> — 근거 없음(2026-08-08 조회, whole fruit diet AND Body Weight Changes; ClinicalTrials.gov 21건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] whole fruit diet — Diabetes에 듣는다  <!-- 시험 3건 · 논문 804편 --> — 근거 없음(2026-08-08 조회, whole fruit diet AND Diabetes; ClinicalTrials.gov 49건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] whole fruit diet — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 198편 --> — 근거 없음(2026-08-08 조회, whole fruit diet AND Metabolic Syndrome; ClinicalTrials.gov 36건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] healthy cooking group — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 55편 --> — 근거 없음(2026-08-08 조회, healthy cooking group AND Blood Pressure; ClinicalTrials.gov 12건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] healthy cooking group — Diabetes에 듣는다  <!-- 시험 7건 · 논문 131편 --> — 근거 없음(2026-08-08 조회, healthy cooking group AND Diabetes; ClinicalTrials.gov 36건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] healthy cooking group — Sleep Health에 듣는다  <!-- 시험 5건 · 논문 14편 --> — 근거 없음(2026-08-08 조회, healthy cooking group AND Sleep Health; ClinicalTrials.gov 1건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] healthy cooking group — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 232편 --> — 근거 없음(2026-08-08 조회, healthy cooking group AND Physical Activity; ClinicalTrials.gov 30건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] mindful eating group — Binge Eating에 듣는다  <!-- 시험 17건 · 논문 72편 --> — 근거 없음(2026-08-08 조회, mindful eating group AND Binge Eating; ClinicalTrials.gov 3건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] mindful eating group — Psychological에 듣는다  <!-- 시험 13건 · 논문 177편 --> — 근거 없음(2026-08-08 조회, mindful eating group AND Psychological; ClinicalTrials.gov 29건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] mindful eating group — Stress에 듣는다  <!-- 시험 9건 · 논문 114편 --> — 근거 없음(2026-08-08 조회, mindful eating group AND Stress; ClinicalTrials.gov 34건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] mindful eating group — Mental Health에 듣는다  <!-- 시험 8건 · 논문 98편 --> — 근거 없음(2026-08-08 조회, mindful eating group AND Mental Health; ClinicalTrials.gov 19건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] sleep music — Pregnancy에 듣는다  <!-- 시험 7건 · 논문 40편 --> — 근거 없음(2026-08-08 조회, sleep music AND Pregnancy; ClinicalTrials.gov 22건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)
+- [x] relaxing music — Anxiety에 듣는다  <!-- 시험 6건 · 논문 573편 -->
+- [x] relaxing music — Cancer에 듣는다  <!-- 시험 6건 · 논문 182편 -->
+- [x] relaxing music — Low Back Pain에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [x] relaxing music — Depression에 듣는다  <!-- 시험 3건 · 논문 202편 -->
+- [x] community exercise class — Childhood Obesity에 듣는다  <!-- 시험 3건 · 논문 92편 --> — 근거 없음(2026-08-08 조회, community exercise class AND Childhood Obesity; ClinicalTrials.gov 16건·InterventionName 정확 일치 0건, PubMed Title/Abstract 직접 문구 0편)

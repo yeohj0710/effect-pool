@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4163,
+    "entries": 4167,
   "worklist": {
-        "total": 13827,
-        "checked": 13818,
+        "total": 13845,
+        "checked": 13836,
     "unchecked": 9,
     "no_evidence_pending": 1581,
     "next_batch": [
@@ -20,7 +20,7 @@
     ]
   },
   "verification": {
-        "build": "passed with pre-existing warnings; batch 318 used two different 20-name non-drug expansion attempts and added 9 then 8 candidates, added 6 evidence entries, closed 11 topics (5 duplicates and 6 no-evidence), held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4163 entries and 5799 refs with no new actionable line/effect/known/scale/English warnings; two new thin-study warnings are truthful for the 20- and 24-person white-rice trials",
+        "build": "passed with pre-existing warnings; batch 319 used two different 20-name non-drug expansion attempts and added 4 then 14 candidates, added 4 evidence entries, closed 14 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4167 entries and 5803 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -28,33 +28,33 @@
         "unknown_n_warnings": 357,
     "known_warnings": 2,
     "tier_distribution": {
-            "trial": 3599,
+            "trial": 3603,
             "obs": 499,
       "animal": 22,
       "lab": 11,
       "case": 32
     },
-        "no_effect_or_harm": 976,
+        "no_effect_or_harm": 978,
     "harm": 123,
     "no_effect_or_harm_share": "23%",
         "non_trial": 564,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5799,
+        "connected_evidence": 5803,
         "thin_warnings": 762
   },
   "deployment": {
-        "last_entry_count": 4163,
+        "last_entry_count": 4167,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 318 local build has 4163 entries and 4168 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; do not run vercel --prod before then",
+        "deployment_state": "batch 319 local build has 4167 entries and 4172 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; run the scheduled public comparison now",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4163,
-        "local_id_field_count": 4168,
+        "local_entry_count": 4167,
+        "local_id_field_count": 4172,
     "public_entry_count": 4141,
     "public_id_field_count": 4146,
     "counts_match": false,
-        "latest_note": "Batch 318 local build has 4163 entries and 4168 id fields; public remains at the verified 4141 entries and 4146 id fields. Six-round check is due after batch 319; do not deploy manually before then.",
+        "latest_note": "Batch 319 local build has 4167 entries and 4172 id fields; public remains at the verified 4141 entries and 4146 id fields. The six-round check is due now.",
     "six_round_check": {
       "batches": "308-313",
       "http_status": 200,
@@ -1224,8 +1224,15 @@
         "batch 318 no-evidence closures: guided art therapy Pelvis Neoplasms and Adaptive Radiotherapy, social walking Sedentary/Cancer/Diabetes, and guided relaxation audio Depression had no direct intervention-name or title/abstract evidence; dated worklist notes preserve the search terms",
         "batch 318 tightened 20 legacy sentences from isradipine-parkinson-disease-null through ivermectin-sars-cov-infection-null; numbers, effects, and sample sizes were preserved",
         "batch 318 build generated 4163 entries and 5799 refs; trial 3599, obs 499, animal 22, lab 11, case 32, no-effect/harm 976 (23%), harm 123, unknown_n 357, known 2, thin 762; no new actionable line/effect/known/scale/English warnings; two new thin-study warnings are truthful for the 20- and 24-person white-rice trials",
-        "batch 318 deployment remains pending the six-round check after batch 319: local 4163 entries/4168 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then"
+        "batch 318 deployment remains pending the six-round check after batch 319: local 4163 entries/4168 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then",
+        "batch 319 expansion first used 20 fresh non-drug food and activity names and added 4 candidates; the second different 20-name food and activity branch added 14 candidates; no third expansion was run",
+        "batch 319 processed 18 non-oncology topics: added 4 evidence entries, closed 14 topics as no-evidence, held 9 oncology topics without API research, and skipped 0 approved indications",
+        "batch 319 evidence entries: relaxing-music-anxiety-null, relaxing-music-cancer-pos, relaxing-music-low-back-pain-null, and relaxing-music-depression-open",
+        "batch 319 no-evidence closures: whole fruit diet Diet, Healthy/Body Weight Changes/Diabetes/Metabolic Syndrome; healthy cooking group Blood Pressure/Diabetes/Sleep Health/Physical Activity; mindful eating group Binge Eating/Psychological/Stress/Mental Health; sleep music Pregnancy; and community exercise class Childhood Obesity had 0 exact registry InterventionName and 0 direct PubMed Title/Abstract results",
+        "batch 319 tightened 20 legacy sentences from ivermectin-scabies through ixazomib-amyloidosis-open; numbers, effects, and sample sizes were preserved",
+        "batch 319 build generated 4167 entries and 5803 refs; trial 3603, obs 499, animal 22, lab 11, case 32, no-effect/harm 978 (23%), harm 123, unknown_n 357, known 2, thin 762; no new actionable line/effect/known/scale/English warnings",
+        "batch 319 six-round deployment check is due now: local 4167 entries/4172 id fields; public last verified at 4141 entries/4146 id fields; compare HTTP 200 production output and deploy manually only if counts differ"
   ],
-    "current_batch": "batch 318 complete; 6 evidence entries, 11 closures, 9 oncology topics held, 20 legacy sentence edits; local 4163 entries/4168 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
-    "next_action": "start batch 319; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics; run the six-round deployment check after this batch"
+    "current_batch": "batch 319 complete; 4 evidence entries, 14 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local 4167 entries/4172 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
+    "next_action": "run the six-round public comparison now; if counts differ, deploy vercel --prod and verify HTTP 200 and matching counts, then start batch 320"
 }
