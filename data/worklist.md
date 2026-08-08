@@ -16973,3 +16973,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] yoga breathing — Depression에 듣는다  <!-- 시험 28건 · 논문 225편 -->
 - [x] workplace exercise — Health Promotion에 듣는다  <!-- 시험 4건 · 논문 1341편 -->
 - [x] workplace exercise — Musculoskeletal Diseases에 듣는다  <!-- 시험 4건 · 논문 365편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] fruit and vegetable intake — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 182편 -->
+- [x] fruit and vegetable intake — Hypertension에 듣는다  <!-- 시험 3건 · 논문 1356편 -->
+- [ ] fruit and vegetable intake — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 704편 -->
+- [x] fruit and vegetable intake — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 2964편 -->
+- [x] herbal medicine — Neck Pain에 듣는다  <!-- 시험 10건 · 논문 182편 -->
+- [x] herbal medicine — Intervertebral Disc Disorder에 듣는다  <!-- 시험 7건 · 논문 9편 --> — 근거 없음(2026-08-08 조회, herbal medicine AND Intervertebral Disc Disorder; 등록된 복합 한방시험의 직접 결과 없음)
+- [x] herbal medicine — Sciatica에 듣는다  <!-- 시험 5건 · 논문 66편 --> — 근거 없음(2026-08-08 조회, herbal medicine AND Sciatica; 직접 사람 중재 결과 없음)
+- [x] herbal medicine — Food Allergy에 듣는다  <!-- 시험 5건 · 논문 1136편 --> — 근거 없음(2026-08-08 조회, herbal medicine AND Food Allergy; 직접 사람 중재 결과 없음)
+- [x] nut consumption — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 691편 -->
+- [x] nut consumption — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 196편 -->
+- [x] nut consumption — Cognitive Decline에 듣는다  <!-- 시험 4건 · 논문 65편 -->
+- [x] breakfast intervention — Diabetes에 듣는다  <!-- 시험 12건 · 논문 1642편 -->
+- [x] breakfast intervention — Lipid Metabolism에 듣는다  <!-- 시험 5건 · 논문 249편 -->
+- [x] breakfast intervention — Eating Behavior에 듣는다  <!-- 시험 4건 · 논문 2212편 -->
+- [x] breakfast intervention — Weight Loss에 듣는다  <!-- 시험 3건 · 논문 266편 -->
+- [x] food shopping intervention — Obesity에 듣는다  <!-- 시험 4건 · 논문 238편 -->
+- [x] food shopping intervention — Healthy Diet에 듣는다  <!-- 시험 4건 · 논문 292편 -->
