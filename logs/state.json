@@ -1,26 +1,26 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4135,
+  "entries": 4141,
   "worklist": {
-    "total": 13772,
-    "checked": 13763,
+    "total": 13785,
+    "checked": 13776,
     "unchecked": 9,
     "no_evidence_pending": 1581,
     "next_batch": [
-      "cryotherapy — Cervical Cancer에 듣는다 (항암 주제 보류)",
-      "museum intervention — Pain Cancer에 듣는다 (항암 주제 보류)",
-      "hope therapy — Cancer에 듣는다 (항암 주제 보류)",
-      "bright light therapy — Kidney Carcinoma에 듣는다 (항암 주제 보류)",
-      "meditation app — Cancer에 듣는다 (항암 주제 보류)",
-      "resistance band exercise — Cancer에 듣는다 (항암 주제 보류)",
-      "olive oil — Stomach Cancer에 듣는다 (항암 주제 보류)",
-      "green tea — Precancerous Condition에 듣는다 (항암 주제 보류)",
-      "circuit training — Cancer에 듣는다 (항암 주제 보류)"
+      "cryotherapy — Cervical Cancer (항암 주제 보류)",
+      "museum intervention — Pain Cancer (항암 주제 보류)",
+      "hope therapy — Cancer (항암 주제 보류)",
+      "bright light therapy — Kidney Carcinoma (항암 주제 보류)",
+      "meditation app — Cancer (항암 주제 보류)",
+      "resistance band exercise — Cancer (항암 주제 보류)",
+      "olive oil — Stomach Cancer (항암 주제 보류)",
+      "green tea — Precancerous Condition (항암 주제 보류)",
+      "circuit training — Cancer (항암 주제 보류)"
     ]
   },
   "verification": {
-    "build": "passed with pre-existing warnings; batch 312 ran two different 20-name non-drug food and lifestyle expansion attempts, added 5 candidates on the first attempt and 0 on the second, added 6 evidence entries including one harm entry, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4135 entries and 5742 refs with no new actionable line/effect/known/scale/English warnings; four new thin-study warnings are truthful",
+    "build": "passed with pre-existing warnings; batch 313 ran one fresh 20-name non-drug expansion and added 13 candidates, added 6 evidence entries including 3 open or registry-backed entries, closed 7 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4141 entries and 5759 refs with no new actionable line/effect/known/scale/English warnings; two new thin-study warnings are truthful",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -39,39 +39,39 @@
     "no_effect_or_harm_share": "23%",
     "non_trial": 562,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5742,
-    "thin_warnings": 757
+    "connected_evidence": 5759,
+    "thin_warnings": 759
   },
   "deployment": {
-    "last_entry_count": 4135,
+    "last_entry_count": 4141,
     "url": "https://offlabel-pool.vercel.app",
-    "deployment_id": "dpl_D66vE3uhfVXr5j6WKx8GsvN8uuQv",
-    "deployment_state": "batch 312 local build has 4135 entries and 4140 id fields; public remains at the last verified 4094 entries and 4099 id fields until the next six-round check after batch 313",
+    "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
+    "deployment_state": "batch 313 local build has 4141 entries and 4146 id fields; public HTTP 200 now matches after Git deployment lagged 6 entries and vercel --prod deployed dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 4135,
-    "local_id_field_count": 4140,
-    "public_entry_count": 4094,
-    "public_id_field_count": 4099,
-    "counts_match": false,
-    "latest_note": "Batch 312 local build has 4135 entries and 4140 id fields; public remains last verified at 4094 entries and 4099 id fields. Six-round check is due after batch 313; do not deploy manually before that check.",
+    "local_entry_count": 4141,
+    "local_id_field_count": 4146,
+    "public_entry_count": 4141,
+    "public_id_field_count": 4146,
+    "counts_match": true,
+    "latest_note": "Batch 313 six-round check: HTTP 200; Git deployment lagged by 6 entries, so vercel --prod deployed dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ. Public and local now match at 4141 entries and 4146 id fields; next check after batch 319.",
     "six_round_check": {
-      "batches": "302-307",
+      "batches": "308-313",
       "http_status": 200,
       "no_effect_or_harm_share": "23%",
-      "harm": 119,
-      "non_trial": 560,
+      "harm": 122,
+      "non_trial": 562,
       "unexpected_benefit_entries": 25,
-      "local_entry_count": 4094,
-      "public_entry_count": 4094,
-      "local_id_field_count": 4099,
-      "public_id_field_count": 4099,
-      "automatic_deployment_lag_entries": 0,
-      "vercel_prod_required": false,
-      "vercel_prod_deployment_id": null
+      "local_entry_count": 4141,
+      "public_entry_count": 4141,
+      "local_id_field_count": 4146,
+      "public_id_field_count": 4146,
+      "automatic_deployment_lag_entries": 6,
+      "vercel_prod_required": true,
+      "vercel_prod_deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ"
     },
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
-    "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs. Batch 295 automatic Git deployment remained 4 entries behind after push; vercel --prod deployed dpl_FKkLWeBWFKsFVG36bSuGKTo489vR and the production alias matched 4038 entries and 4043 id fields."
+    "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs. Batch 295 automatic Git deployment remained 4 entries behind after push; vercel --prod deployed dpl_FKkLWeBWFKsFVG36bSuGKTo489vR and the production alias matched 4038 entries and 4043 id fields. Batch 313 automatic Git deployment remained 6 entries behind; vercel --prod deployed dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ and the production alias matched local at 4141 entries and 4146 id fields."
   },
   "last_batch": [
     "one 20-name non-drug branch added 45 candidates from self-compassion, breath meditation, plant-based diet, rehabilitation, telehealth, hypnosis, writing, and music names",
@@ -1182,8 +1182,15 @@
     "batch 312 evidence entries: grape-consumption-metabolic-syndrome-pos, plant-sterols-mild-hypercholesterolemia-pos, weight-lifting-type-2-diabetes-pos, weight-lifting-obesity-pos, weight-lifting-obesity-harm, and weight-lifting-skeletal-muscle-pos",
     "batch 312 tightened 20 legacy sentences from hydroxychloroquine-melanoma-null through hypnotherapy-breast-cancer-pos; numbers, effects, and sample sizes were preserved",
     "batch 312 build generated 4135 entries and 5742 refs; trial 3573, obs 497, animal 22, lab 11, case 32, no-effect/harm 971 (23%), harm 122, unknown_n 350, known 2, thin 757; no new actionable line/effect/known/scale/English warning; four new thin-study warnings are truthful",
-    "batch 312 public deployment remains pending the next six-round check after batch 313: local 4135 entries/4140 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before then"
+    "batch 312 public deployment remains pending the next six-round check after batch 313: local 4135 entries/4140 id fields, public last verified at 4094 entries/4099 id fields; do not run vercel --prod before then",
+    "batch 313 expansion used one fresh 20-name non-drug branch and added 13 candidates; no second expansion was needed",
+    "batch 313 processed 13 non-oncology topics: added 6 evidence entries, closed 7 topics as no-evidence, held 9 oncology topics without API research, and skipped 0 approved indications",
+    "batch 313 evidence entries: power-walking-coronary-disease-pos, painting-breast-cancer-pos, painting-childhood-cancers-open, thermal-therapy-pain-open, thermal-therapy-lung-neoplasms-open, and thermal-therapy-ejaculatory-dysfunction-pos",
+    "batch 313 closures: power walking Amputation, Stroke, and Gait Disorders; painting Glioblastoma; drawing Liver Cancer and Interstitial Fibrosis; and thermal therapy Basal Cell Carcinoma; dated worklist notes preserve direct registry and publication search reasons",
+    "batch 313 tightened 20 legacy sentences from hypnotherapy-functional-dyspepsia-open through imlifidase-kidney-transplant-rejection-null; numbers, effects, and sample sizes were preserved; imagery-rehearsal-therapy-nightmares-pos was shortened to clear the new line-length warning",
+    "batch 313 build generated 4141 entries and 5759 refs; trial 3579, obs 497, animal 22, lab 11, case 32, no-effect/harm 971 (23%), harm 122, unknown_n 350, known 2, thin 759; no new actionable line/effect/known/scale/English warning; two new thin-study warnings are truthful",
+    "batch 313 six-round deployment check: HTTP 200; automatic Git deployment lagged 6 entries, so vercel --prod deployed dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ; public/local match at 4141 entries and 4146 id fields; next check after batch 319"
   ],
-  "current_batch": "batch 312 complete; 6 evidence entries including 1 harm entry, 9 oncology topics held, 20 legacy sentence edits; local 4135 entries/4140 id fields, public last verified 4094 entries/4099 id fields; 9 unchecked oncology topics remain",
-  "next_action": "start batch 313; hold the 9 oncology topics, expand with two fresh 20-name non-drug branches because the queue is below 30, then run the six-round public deployment check after this batch"
+  "current_batch": "batch 313 complete; 6 evidence entries, 7 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local/public match at 4141 entries and 4146 id fields after vercel --prod; 9 unchecked oncology topics remain",
+  "next_action": "start batch 314; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
 }
