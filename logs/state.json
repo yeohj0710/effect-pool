@@ -1,22 +1,22 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3787,
+  "entries": 3797,
   "worklist": {
-    "total": 13147,
-    "checked": 13142,
+    "total": 13158,
+    "checked": 13153,
     "unchecked": 5,
-    "no_evidence_pending": 1368,
+    "no_evidence_pending": 1369,
     "next_batch": []
   },
   "verification": {
-    "build": "passed; batch 258 processed 20 non-oncology topics after one expansion attempt; 0 evidence entries were added, 20 no-evidence topics were marked, 1 oncology topic was held, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings appeared; three existing legacy line warnings and truthful thin-study/unknown-n warnings remain",
-    "line_warnings": 3,
+    "build": "passed; batch 259 processed 11 non-oncology topics after one expansion attempt; 10 evidence entries were added, 1 registry-only topic was marked no-evidence, 5 oncology topics remain held, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings appeared; three truthful thin-study warnings and existing unknown-n warnings remain",
+    "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3278,
-      "obs": 444,
+      "trial": 3287,
+      "obs": 445,
       "animal": 22,
       "lab": 11,
       "case": 32
@@ -24,23 +24,23 @@
     "no_effect_or_harm": 902,
     "harm": 118,
     "no_effect_or_harm_share": "24%",
-    "non_trial": 509,
+    "non_trial": 510,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5367,
-    "thin_warnings": 641
+    "connected_evidence": 5377,
+    "thin_warnings": 644
   },
   "deployment": {
     "last_entry_count": 3764,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d",
-    "deployment_state": "batch 258 local build has 3787 entries and 5367 refs; public remains 3764 until the six-round check after batch 259",
+    "deployment_state": "batch 259 local build has 3797 entries and 5377 refs; public remains 3764 until the six-round check after this batch",
     "deployment_url": "https://offlabel-pool-nv1i2yjz7-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
     "local_entry_count": 3774,
     "public_entry_count": 3764,
     "public_id_field_count": 3769,
     "counts_match": false,
-    "latest_note": "Batch 258 local build: 3787 entries and 5367 refs; public remains 3764 until the six-round check after batch 259.",
+    "latest_note": "Batch 259 local build: 3797 entries and 5377 refs; public remains 3764 until the six-round check after this batch.",
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
@@ -876,8 +876,14 @@
     "batch 258 processed 20 non-oncology topics; added 0 evidence entries, marked 20 topics as no-evidence, and held peer navigator support Breast Cancer as an oncology topic",
     "batch 258 found only masitinib reviews/safety papers and no direct human intervention result for the three masitinib topics; the behavioral, peer, sleep, nature, literacy, and art topics also had no direct matched result",
     "batch 258 tightened 20 legacy sentences from cilostazol-atherosclerosis-pos through clomipramine-depression-open; numbers and effect fields were preserved",
-    "batch 258 build passed with no new actionable warnings; local build remains 3787 and public remains 3764 until the six-round check after batch 259"
+    "batch 258 build passed with no new actionable warnings; local build remains 3787 and public remains 3764 until the six-round check after batch 259",
+    "batch 259 expansion used one 20-name branch with at least 5 non-drug options and produced 11 candidates; no second expansion was needed",
+    "batch 259 processed 11 non-oncology topics; added 10 evidence entries, marked 1 registry-only topic as no-evidence, and held the 5 oncology topics",
+    "batch 259 added grief-therapy-depression-pos, grief-therapy-ptsd-open, metacognitive-therapy-psychosis-pos, metacognitive-therapy-schizoaffective-open, metacognitive-therapy-ptsd-pos, metacognitive-therapy-psychological-distress-open, internet-based-self-help-depression-pos, internet-based-self-help-psychological-stress-null, internet-based-self-help-tinnitus-pos, and virtual-reality-biofeedback-biofeedback-null",
+    "batch 259 marked virtual reality biofeedback Chronic Headache as no-evidence because NCT05720819 was registry-only with no matching results paper; no approved indications were added",
+    "batch 259 tightened 20 legacy sentences from clonazepam-pain-pos through clopidogrel-stenosis-open and shortened the three prior legacy line warnings; numbers and effect fields were preserved",
+    "batch 259 build passed after removing the registry-only entry and shortening all new actionable fields; three truthful thin-study warnings remain for the 4-, 5-, and 21-person studies; local build is 3797 and public remains 3764 before the six-round deployment check"
   ],
-  "current_batch": "batch 258 complete locally; 0 evidence entries, 20 no-evidence topics, 5 oncology topics held; 5 unchecked topics remain; local 3787; public last verified 3764",
-  "next_action": "commit and push batch 258; immediately start batch 259 with a fresh non-drug-heavy expansion; perform the six-round deployment check after batch 259"
+  "current_batch": "batch 259 complete locally; 10 evidence entries, 1 no-evidence topic, 5 oncology topics held; 5 unchecked topics remain; local 3797; public last verified 3764",
+  "next_action": "commit and push batch 259; perform the six-round deployment check now, then immediately start batch 260"
 }
