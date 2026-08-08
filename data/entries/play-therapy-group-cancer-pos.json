@@ -1,0 +1,29 @@
+{
+  "id": "play-therapy-group-cancer-pos",
+  "subj": "play therapy group",
+  "claim": "소아암에서 집단·의료 놀이 중재가 불안과 우울 증상을 줄인다",
+  "line": "소아암 놀이 중재가 불안과 우울을 줄였습니다",
+  "effect": "불안·우울 증상 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1541,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "놀이 중재는 허가 의약품이 아닌 행동 중재입니다.",
+  "why": "소아암 환자의 놀이 중재 연구 23건을 합친 체계적 문헌고찰·메타분석입니다.",
+  "saw": "소아암 아동 1541명을 포함한 23개 연구에서 놀이 중재는 불안(SMD -1.84)과 우울 증상(SMD -1.62)을 줄였습니다.",
+  "limit": "의료놀이·집단놀이·온라인놀이 등 중재가 다양하고 연구의 질과 적용 환경이 달라 같은 놀이 방식의 효과로 일반화할 수 없습니다.",
+  "against": "집단놀이는 우울 증상 하위분석에서 가장 큰 신호였지만 모든 연구가 집단놀이를 사용한 것은 아닙니다.",
+  "use": "소아암 치료 중 불안·우울을 낮추는 보조 중재로 기록하며 항암치료를 대체하지 않습니다.",
+  "refs": [
+    { "label": "The impact of different types of play interventions on anxiety and depressive symptoms in children with cancer", "doi": "10.1016/j.pedn.2026.07.022", "pmid": "42480167" },
+    { "label": "The effectiveness of play therapy on depression and anxiety in hospitalized children with cancer", "doi": "10.1007/s00520-024-09144-4", "pmid": "39794648" }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "query.intr=play therapy group AND query.cond=Cancer · 72건 반환, exact InterventionName 0건",
+    "pubmed": "\"play therapy group\" AND \"Cancer\" · 5539편",
+    "negative": "\"play therapy group\" AND \"Cancer\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 1043편",
+    "safety": "\"play therapy group\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") · 4608편"
+  }
+}

@@ -17905,3 +17905,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep education group — Stress에 듣는다  <!-- 시험 10건 · 논문 2122편 --> — 근거 없음(2026-08-08 조회, "sleep education group" AND "Stress"; exact InterventionName 0건, PubMed 제목·초록 0건)
 - [x] sleep education group — Health Behavior에 듣는다  <!-- 시험 6건 · 논문 2658편 --> — 근거 항목 생성(2026-08-08)
 - [x] sleep education group — Pain에 듣는다  <!-- 시험 6건 · 논문 1727편 --> — 근거 없음(2026-08-08 조회, "sleep education group" AND "Pain"; exact InterventionName 0건, PubMed 제목·초록 0건)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] forest bathing group — Anxiety에 듣는다  <!-- 시험 3건 · 논문 256편 --> — 중복(2026-08-08, 기존 forest-bathing-anxiety-pos)
+- [x] guided art therapy — Pelvis Neoplasms에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 근거 없음(2026-08-08 조회, "guided art therapy" AND "Pelvis Neoplasms"; exact InterventionName 0건, PubMed 제목·초록 직접 일치 0건)
+- [x] guided art therapy — Adaptive Radiotherapy에 듣는다  <!-- 시험 3건 · 논문 264편 --> — 근거 없음(2026-08-08 조회, "guided art therapy" AND "Adaptive Radiotherapy"; exact InterventionName 0건, PubMed 제목·초록 직접 일치 0건)
+- [x] social walking — Sedentary에 듣는다  <!-- 시험 3건 · 논문 575편 --> — 근거 없음(2026-08-08 조회, "social walking" AND "Sedentary"; exact InterventionName 0건, 확인된 PMID 34602995는 social interaction과 walking을 분리한 시험)
+- [x] social walking — Cancer에 듣는다  <!-- 시험 3건 · 논문 498편 --> — 근거 없음(2026-08-08 조회, "social walking" AND "Cancer"; exact InterventionName 0건, PubMed 제목·초록 직접 일치 0건)
+- [x] social walking — Diabetes에 듣는다  <!-- 시험 3건 · 논문 417편 --> — 근거 없음(2026-08-08 조회, "social walking" AND "Diabetes"; exact InterventionName 0건, PubMed 제목·초록 직접 일치 0건)
+- [x] guided relaxation audio — Pain에 듣는다  <!-- 시험 6건 · 논문 24편 --> — 중복(2026-08-08, 기존 relaxation-audio-pain-open)
+- [x] guided relaxation audio — Depression에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 근거 없음(2026-08-08 조회, "guided relaxation audio" AND "Depression"; exact InterventionName 0건, PubMed 제목·초록 직접 일치 0건)
+- [x] guided relaxation audio — Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 중복(2026-08-08, 기존 guided-relaxation-cancer-pos)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] white rice — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 226편 --> — 근거 항목 생성(2026-08-08)
+- [x] white rice — Obesity에 듣는다  <!-- 시험 3건 · 논문 265편 --> — 근거 항목 생성(2026-08-08)
+- [x] white rice — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 51편 --> — 근거 항목 생성(2026-08-08)
+- [x] guided imagery audio — Anxiety에 듣는다  <!-- 시험 5건 · 논문 36편 --> — 중복(2026-08-08, 기존 guided-imagery-anxiety-pos)
+- [x] play therapy group — Cancer에 듣는다  <!-- 시험 10건 · 논문 6781편 --> — 근거 항목 생성(2026-08-08)
+- [x] play therapy group — Autism에 듣는다  <!-- 시험 7건 · 논문 391편 --> — 중복(2026-08-08, 기존 play-therapy-autism-spectrum-disorder-pos)
+- [x] play therapy group — Pain에 듣는다  <!-- 시험 7건 · 논문 1748편 --> — 근거 항목 생성(2026-08-08)
+- [x] play therapy group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 1141편 --> — 근거 항목 생성(2026-08-08)
