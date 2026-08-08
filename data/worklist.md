@@ -18315,3 +18315,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cycling group — Stroke에 듣는다  <!-- 시험 5건 · 논문 2141편 --> — 중복(2026-08-09, 기존 cycling-stroke-pos)
 - [x] cycling group — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 254편 --> — 항목 추가(2026-08-09)
 - [x] cycling group — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 958편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 결과는 자전거 운동 중재가 아닌 체력 측정 연구 PMID 18296974)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] home balance video — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 23편 --> — 항목 추가(2026-08-09)
+- [x] home balance video — Aging에 듣는다  <!-- 시험 5건 · 논문 48편 --> — 항목 추가(2026-08-09)
+- [x] home balance video — Stroke에 듣는다  <!-- 시험 4건 · 논문 26편 --> — 중복(2026-08-09, 기존 home-balance-video-aging-open의 동일 TIME at Home 연구)
+- [x] home balance video — Elderly에 듣는다  <!-- 시험 4건 · 논문 222편 --> — 중복(2026-08-09, 기존 home-balance-video-aging-open의 동일 TIME at Home 연구)
+- [x] sleep light device — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 22편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 결과는 수면·활동 관찰연구와 프로토콜뿐)
+- [x] sleep light device — Insomnia에 듣는다  <!-- 시험 3건 · 논문 93편 --> — 항목 추가(2026-08-09)
+- [x] sleep light device — Stress에 듣는다  <!-- 시험 3건 · 논문 93편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 결과는 웨어러블 관찰연구와 스마트폰 제한 연구뿐)
+- [x] sleep light device — Mental Health에 듣는다  <!-- 시험 3건 · 논문 129편 --> — 항목 추가(2026-08-09)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] therapeutic drawing — Lung에 듣는다  <!-- 시험 3건 · 논문 385편 -->
+- [x] seaweed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 중복(2026-08-09, 기존 seaweed-metabolic-syndrome-pos)
+- [x] seaweed extract — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 133편 --> — 중복(2026-08-09, 기존 seaweed-glucose-metabolism-pos)
