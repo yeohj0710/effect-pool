@@ -17200,3 +17200,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cocoa beverage — Oxidative Stress에 듣는다 — 중복(2026-08-08, cocoa — Oxidative Stress; 같은 코코아 섭취 근거)  <!-- 시험 5건 · 논문 57편 -->
 - [x] vegetable consumption — Aging에 듣는다 — entries/vegetable-consumption-aging-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 1078편 -->
 - [x] vegetable consumption — Diet에 듣는다 — entries/vegetable-consumption-diet-null.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 16743편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] laughter exercise — Anxiety에 듣는다 — 중복(2026-08-08, laughter therapy·laughter yoga — Anxiety; 같은 웃음 중재 근거)  <!-- 시험 7건 · 논문 14편 -->
+- [x] laughter exercise — Depression에 듣는다 — 중복(2026-08-08, laughter therapy·laughter yoga — Depression; 같은 웃음 중재 근거)  <!-- 시험 6건 · 논문 30편 -->
+- [x] recreation program — Disability Physical에 듣는다 — 근거 없음(2026-08-08 조회, recreation program AND Disability Physical; 직접 재활 프로그램 결과 없음)  <!-- 시험 3건 · 논문 2028편 -->
+- [x] fruit intake — Hypertension에 듣는다 — 중복(2026-08-08, fruit and vegetable intake — Hypertension; 같은 과일·채소 섭취 근거)  <!-- 시험 4건 · 논문 1709편 -->
+- [x] fruit intake — Chronic Kidney Disease에 듣는다 — 중복(2026-08-08, fruit and vegetable intake — Chronic Kidney Disease; 같은 과일·채소 섭취 근거)  <!-- 시험 4건 · 논문 236편 -->
+- [x] fruit intake — Colon Cancer에 듣는다 — 근거 없음(2026-08-08 조회, fruit intake AND Colon Cancer; 직접 과일 섭취 중재 결과 없음)  <!-- 시험 4건 · 논문 388편 -->
+- [x] fruit intake — Healthy Aging에 듣는다 — entries/fruit-intake-healthy-aging-open.json로 처리(2026-08-08)  <!-- 시험 4건 · 논문 395편 -->
+- [x] whole grain consumption — Healthy Diet에 듣는다 — 중복(2026-08-08, whole grain diet — Healthy Diet; 같은 통곡물 식이 근거)  <!-- 시험 3건 · 논문 814편 -->
+- [x] whole grain consumption — Body Weight Changes에 듣는다 — 중복(2026-08-08, whole grain diet — Overweight; 같은 통곡물 체중 근거)  <!-- 시험 3건 · 논문 135편 -->
+- [x] yogurt intake — Diabetes에 듣는다 — 중복(2026-08-08, yogurt — Diabetes; 같은 요구르트 섭취 근거)  <!-- 시험 6건 · 논문 249편 -->
+- [x] yogurt intake — Overweight에 듣는다 — entries/yogurt-intake-overweight-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 190편 -->
+- [x] yogurt intake — Gastrointestinal Tolerance에 듣는다 — entries/yogurt-intake-gastrointestinal-tolerance-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 17편 -->
+- [x] yogurt intake — Appetite에 듣는다 — entries/yogurt-intake-appetite-open.json로 처리(2026-08-08)  <!-- 시험 3건 · 논문 105편 -->
