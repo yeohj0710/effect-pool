@@ -17086,7 +17086,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] play based exercise — Motor Activity에 듣는다  <!-- 시험 7건 · 논문 2511편 -->
 - [x] play based exercise — Child Obesity에 듣는다  <!-- 시험 6건 · 논문 323편 -->
 - [x] play based exercise — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 79편 -->
-- [ ] play based exercise — Pediatric Cancer에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [x] play based exercise — Pediatric Cancer에 듣는다  <!-- 시험 3건 · 논문 42편 -->
 - [x] dance movement — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 198편 -->
 - [x] dance movement — Motor Activity에 듣는다  <!-- 시험 10건 · 논문 1796편 -->
 - [x] dance movement — Pain에 듣는다  <!-- 시험 10건 · 논문 270편 -->
