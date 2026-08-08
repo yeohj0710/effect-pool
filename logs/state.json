@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-    "entries": 4155,
+    "entries": 4156,
   "worklist": {
-        "total": 13805,
-        "checked": 13796,
+        "total": 13806,
+        "checked": 13797,
     "unchecked": 9,
     "no_evidence_pending": 1581,
     "next_batch": [
@@ -20,7 +20,7 @@
     ]
   },
   "verification": {
-        "build": "passed with pre-existing warnings; batch 315 used two different 20-name non-drug expansion attempts and added 0 then 9 candidates, added 4 evidence entries, closed 5 topics as no-evidence, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4155 entries and 5789 refs with no new actionable line/effect/known/scale/English warnings; one new unknown-n warning and one new thin-study warning are truthful",
+        "build": "passed with pre-existing warnings; batch 316 used two different 20-name non-drug expansion attempts and added 1 then 0 candidates, added 1 evidence entry, held 9 oncology topics without API research, and tightened 20 legacy sentences; local build generated 4156 entries and 5791 refs with no new actionable line/effect/known/scale/English warnings",
     "line_warnings": 3,
     "effect_warnings": 1,
     "english_warnings": 3,
@@ -28,7 +28,7 @@
         "unknown_n_warnings": 356,
     "known_warnings": 2,
     "tier_distribution": {
-            "trial": 3593,
+            "trial": 3594,
       "obs": 497,
       "animal": 22,
       "lab": 11,
@@ -39,22 +39,22 @@
     "no_effect_or_harm_share": "23%",
     "non_trial": 562,
     "unexpected_benefit_entries": 25,
-        "connected_evidence": 5789,
+        "connected_evidence": 5791,
         "thin_warnings": 760
   },
   "deployment": {
-        "last_entry_count": 4155,
+        "last_entry_count": 4156,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_9bKZ2EfCM7VKJLqX52PMcc94k3bJ",
-        "deployment_state": "batch 315 local build has 4155 entries and 4160 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; do not run vercel --prod before then",
+        "deployment_state": "batch 316 local build has 4156 entries and 4161 id fields; public remains at 4141 entries and 4146 id fields until the six-round check after batch 319; do not run vercel --prod before then",
     "deployment_url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-08",
-        "local_entry_count": 4155,
-        "local_id_field_count": 4160,
+        "local_entry_count": 4156,
+        "local_id_field_count": 4161,
     "public_entry_count": 4141,
     "public_id_field_count": 4146,
     "counts_match": false,
-        "latest_note": "Batch 315 local build has 4155 entries and 4160 id fields; public remains at the verified 4141 entries and 4146 id fields. Six-round check is due after batch 319; do not deploy manually before then.",
+        "latest_note": "Batch 316 local build has 4156 entries and 4161 id fields; public remains at the verified 4141 entries and 4146 id fields. Six-round check is due after batch 319; do not deploy manually before then.",
     "six_round_check": {
       "batches": "308-313",
       "http_status": 200,
@@ -1203,8 +1203,14 @@
         "batch 315 closures: vocational rehabilitation Cognitive Impairment, running Cocaine Abuse, and exercise counseling Diabetes/Obesity/Cognitive Impairment; dated worklist notes preserve direct registry and publication search reasons",
         "batch 315 tightened 20 legacy sentences from inositol-infertility-pos through interpersonal-psychotherapy-depressive-symptoms-open; numbers, effects, and sample sizes were preserved",
         "batch 315 build generated 4155 entries and 5789 refs; trial 3593, obs 497, animal 22, lab 11, case 32, no-effect/harm 973 (23%), harm 122, unknown_n 356, known 2, thin 760; no new actionable line/effect/known/scale/English warning; one new unknown-n warning and one new thin-study warning are truthful",
-        "batch 315 deployment remains pending the six-round check after batch 319: local 4155 entries/4160 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then"
+        "batch 315 deployment remains pending the six-round check after batch 319: local 4155 entries/4160 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then",
+        "batch 316 expansion first used 20 fresh food and non-drug names and added 1 sleep hygiene coaching candidate; the second different 20-name food and activity branch added 0 candidates; no third expansion was run",
+        "batch 316 processed 1 non-oncology topic: added 1 evidence entry, held 9 oncology topics without API research, and skipped 0 approved indications",
+        "batch 316 evidence entry: sleep-hygiene-coaching-health-behavior-pos; exact ClinicalTrials.gov InterventionName matching returned 0 direct records, while a 175-person randomized PubMed study supported a positive sleep-coaching signal",
+        "batch 316 tightened 20 legacy sentences from interpersonal-psychotherapy-for-adolescents-adolescent-pos through iptacopan-immunoglobulin-a-nephropathy-pos; numbers, effects, and sample sizes were preserved",
+        "batch 316 build generated 4156 entries and 5791 refs; trial 3594, obs 497, animal 22, lab 11, case 32, no-effect/harm 973 (23%), harm 122, unknown_n 356, known 2, thin 760; no new actionable line/effect/known/scale/English warning",
+        "batch 316 deployment remains pending the six-round check after batch 319: local 4156 entries/4161 id fields, public last verified at 4141 entries/4146 id fields; do not run vercel --prod before then"
   ],
-    "current_batch": "batch 315 complete; 4 evidence entries, 5 no-evidence closures, 9 oncology topics held, 20 legacy sentence edits; local 4155 entries/4160 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
-    "next_action": "start batch 316; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
+    "current_batch": "batch 316 complete; 1 evidence entry, 9 oncology topics held, 20 legacy sentence edits; local 4156 entries/4161 id fields, public remains 4141/4146 pending the six-round check; 9 unchecked oncology topics remain",
+    "next_action": "start batch 317; read actual state, hold the 9 oncology topics, expand with fresh 20-name non-drug branches because the queue is below 30, then process the resulting non-oncology topics"
 }
