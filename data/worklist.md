@@ -16935,18 +16935,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] electrical stimulation therapy — Radiculopathy Lumbar에 듣는다  <!-- 시험 9건 · 논문 112편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Radiculopathy Lumbar; 직접 사람 중재 결과 없음)
 - [ ] electrical stimulation therapy — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 183편 -->
 - [x] electrical stimulation therapy — Knee Injuries에 듣는다  <!-- 시험 7건 · 논문 370편 --> — 근거 없음(2026-08-08, electrical stimulation therapy AND Knee Injuries; 직접 사람 중재 결과 없음)
-- [ ] therapeutic ultrasound — Lymphedema Arm에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] low-level laser therapy — Laser Therapy에 듣는다  <!-- 시험 4건 · 논문 11981편 -->
-- [ ] low-level laser therapy — Class II Malocclusion에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] low-level laser therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 3건 · 논문 221편 -->
-- [ ] low-level laser therapy — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 412편 -->
-- [ ] air pollution reduction — Asthma에 듣는다  <!-- 시험 3건 · 논문 639편 -->
-- [ ] air pollution reduction — Cognitive Function에 듣는다  <!-- 시험 3건 · 논문 74편 -->
-- [ ] air pollution reduction — Inflammation에 듣는다  <!-- 시험 3건 · 논문 382편 -->
-- [ ] noise reduction — Anxiety에 듣는다  <!-- 시험 6건 · 논문 222편 -->
-- [ ] noise reduction — Sleep Deprivation에 듣는다  <!-- 시험 3건 · 논문 40편 -->
-- [ ] noise reduction — Drug Use에 듣는다  <!-- 시험 3건 · 논문 909편 -->
-- [ ] home modification — Diabetes에 듣는다  <!-- 시험 9건 · 논문 322편 -->
-- [ ] home modification — Stroke에 듣는다  <!-- 시험 8건 · 논문 202편 -->
-- [ ] home modification — Obesity에 듣는다  <!-- 시험 7건 · 논문 234편 -->
-- [ ] home modification — Hypertension에 듣는다  <!-- 시험 6건 · 논문 313편 -->
+- [x] therapeutic ultrasound — Lymphedema Arm에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-08, therapeutic ultrasound AND Lymphedema Arm; 직접 사람 중재 결과 없음)
+- [x] low-level laser therapy — Laser Therapy에 듣는다  <!-- 시험 4건 · 논문 11981편 --> — 근거 없음(2026-08-08, low-level laser therapy AND Laser Therapy; 직접 질환 중재 결과 없음)
+- [x] low-level laser therapy — Class II Malocclusion에 듣는다  <!-- 시험 4건 · 논문 12편 -->
+- [x] low-level laser therapy — Temporomandibular Disorder에 듣는다  <!-- 시험 3건 · 논문 221편 -->
+- [x] low-level laser therapy — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 412편 -->
+- [x] air pollution reduction — Asthma에 듣는다  <!-- 시험 3건 · 논문 639편 --> — 근거 없음(2026-08-08, air pollution reduction AND Asthma; 직접 사람 환경 중재 결과 없음)
+- [x] air pollution reduction — Cognitive Function에 듣는다  <!-- 시험 3건 · 논문 74편 -->
+- [x] air pollution reduction — Inflammation에 듣는다  <!-- 시험 3건 · 논문 382편 --> — 근거 없음(2026-08-08, air pollution reduction AND Inflammation; 직접 사람 환경 중재 결과 없음)
+- [x] noise reduction — Anxiety에 듣는다  <!-- 시험 6건 · 논문 222편 -->
+- [x] noise reduction — Sleep Deprivation에 듣는다  <!-- 시험 3건 · 논문 40편 -->
+- [x] noise reduction — Drug Use에 듣는다  <!-- 시험 3건 · 논문 909편 --> — 근거 없음(2026-08-08, noise reduction AND Drug Use; 직접 사람 중재 결과 없음)
+- [x] home modification — Diabetes에 듣는다  <!-- 시험 9건 · 논문 322편 --> — 근거 없음(2026-08-08, home modification AND Diabetes; 직접 사람 중재 결과 없음)
+- [x] home modification — Stroke에 듣는다  <!-- 시험 8건 · 논문 202편 --> — 근거 없음(2026-08-08, home modification AND Stroke; 직접 사람 중재 결과 없음)
+- [x] home modification — Obesity에 듣는다  <!-- 시험 7건 · 논문 234편 --> — 근거 없음(2026-08-08, home modification AND Obesity; 직접 사람 중재 결과 없음)
+- [x] home modification — Hypertension에 듣는다  <!-- 시험 6건 · 논문 313편 --> — 근거 없음(2026-08-08, home modification AND Hypertension; 직접 사람 중재 결과 없음)
