@@ -7692,3 +7692,4 @@
 2026-08-08	batch307-processing	Processed 0 non-oncology topics because both expansions returned no candidates; held 8 oncology topics and added no evidence or no-evidence closures
 2026-08-08	batch307-legacy-sentences	Tightened 20 legacy claims from high-intensity-interval-training-brain-activity-pos through home-based-exercise-heart-failure-pos; numbers, effects, and sample sizes were preserved
 2026-08-08	batch307-build	4094 entries, 5693 refs, 3534 trial/495 obs/22 animal/11 lab/32 case; no-effect/harm 960 (23%), harm 119, unknown_n 349, thin 735, known 2; no new actionable line/effect/known/scale/English warning
+2026-08-08	batch307-deployment	Six-round check after batches 302-307 returned HTTP 200 and matched public/local at 4094 entries and 4099 id fields; automatic Git deployment caught up, vercel --prod was not required; next check after batch 313
