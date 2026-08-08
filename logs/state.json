@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-08",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 3856,
+  "entries": 3857,
   "worklist": {
-    "total": 13261,
-    "checked": 13252,
+    "total": 13262,
+    "checked": 13253,
     "unchecked": 9,
     "no_evidence_pending": 1405,
     "next_batch": [
@@ -20,12 +20,12 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 265 used two different 20-name expansion attempts, adding 6 candidates; 15 non-oncology topics were processed, 5 evidence entries were added, 6 no-evidence topics were marked, 4 duplicates were closed, 9 oncology topics were held, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings remain after shortening two fields; three new truthful thin-study warnings and existing unknown-n warnings remain",
+    "build": "passed; batch 266 used two different 20-name expansion attempts, adding 1 candidate; the new virtual museum Anxiety topic produced 1 evidence entry, 9 oncology topics remained held, and 20 legacy sentences were tightened without changing numbers; no new actionable warnings remain after shortening two legacy lines; existing unknown-n and truthful thin-study warnings remain",
     "line_warnings": 0,
     "unknown_n_warnings": 346,
     "known_warnings": 2,
     "tier_distribution": {
-      "trial": 3332,
+      "trial": 3333,
       "obs": 459,
       "animal": 22,
       "lab": 11,
@@ -36,21 +36,21 @@
     "no_effect_or_harm_share": "24%",
     "non_trial": 524,
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5436,
+    "connected_evidence": 5437,
     "thin_warnings": 659
   },
   "deployment": {
-    "last_entry_count": 3856,
+    "last_entry_count": 3857,
     "url": "https://offlabel-pool.vercel.app",
     "deployment_id": "dpl_6vunzok5BmqjLimW1Xbnc7zfHoYo",
-    "deployment_state": "six-round check after batches 260-265: automatic Git deployment served 3851 entries versus local 3856 with HTTP 200; vercel --prod was required because the automatic deployment lagged by 5 entries; production now matches local at 3856 entries, 3861 id fields, and 5436 refs",
+    "deployment_state": "batch 266 local build has 3857 entries and 5437 refs; public last verified at 3856 after the six-round check for batches 260-265",
     "deployment_url": "https://offlabel-pool-gt4vdmod5-yeohj0710s-projects.vercel.app",
     "checked_at": "2026-08-08",
-    "local_entry_count": 3856,
+    "local_entry_count": 3857,
     "public_entry_count": 3856,
     "public_id_field_count": 3861,
     "counts_match": true,
-    "latest_note": "Six-round check after batches 260-265: automatic Git deployment lagged by 5 entries; vercel --prod aligned production at 3856 entries, 3861 id fields, and 5436 refs.",
+    "latest_note": "Batch 266 local build: 3857 entries and 5437 refs; public last verified 3856 after the six-round check for batches 260-265.",
     "batch_253_note": "Automatic Git deployment lagged by 8 entries (3756 public vs 3764 local, HTTP 200); vercel --prod deployed dpl_6QpFGQforCxh2tcn3mHaejB9Pv6d and the production alias matched 3764 entries / 5344 refs.",
     "note": "Batch 103 local build was deployed with vercel build --prod --yes followed by vercel deploy --prebuilt --prod because the Git-triggered remote node build.mjs could not access the external C:\\dev\\kr-drug-data/permit/manifest.json path. Production alias recheck matched the local 2248-entry build. Batch 106 local build has 2319 entries; public count remains 2248 until the next deployment verification. Batch 107 local build has 2338 entries; public count remains 2248 until the next deployment verification. Batch 108 local build has 2357 entries; public count remains 2248 until the next deployment verification. Batch 109 local build has 2362 entries; public count remains 2248 until the next deployment verification. Batch 109 six-round check deployed the 2362-entry local prebuilt artifact to Production at https://offlabel-pool.vercel.app after the remote build failed on C:\\dev\\kr-drug-data/permit/manifest.json. Batch 110 local build has 2371 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 111 local build has 2391 entries; public remains 2362 until the next six-round deployment verification. Batch 112 local build has 2404 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 113 local build has 2422 entries; public remains 2362 until the next six-round deployment verification. Batch 114 local build has 2428 entries; public remains 2362 until the next six-round deployment verification. Batch 115 local build has 2452 entries; public remains 2362 until the six-round deployment verification. Batch 211 six-round check found public 3456 versus local 3479 with HTTP 200; automatic Git deployment lagged, so vercel --prod was required. Batch 217 six-round check found public 3479 versus local 3511; vercel --prod restored the production alias to the local build because automatic Git deployment again lagged. Batch 223 six-round check found public 3511 versus local 3553; vercel --prod restored the production alias, which returned HTTP 200 and matched local at 3553 entries and 5045 refs. Batch 235 six-round check found public 3634 versus local 3643 with HTTP 200; vercel --prod restored the production alias to the 3643-entry local build, which returned HTTP 200 and matched local at 3643 entries and 5208 refs."
   },
@@ -922,8 +922,11 @@
     "batch 265 added tai-chi-walking-type2-diabetes-pos, erythritol-periodontitis-open, erythritol-satiation-pos, erythritol-periodontal-pocket-null, and tactile-stimulation-cervical-dystonia-pos",
     "batch 265 tightened 20 legacy sentences from colchicine-stroke-null through community-exercise-program-physical-function-open; numbers and effect fields were preserved; build passed with no new actionable warnings and three truthful thin-study warnings",
     "batch 265 local build is 3856 entries and 5436 refs; public remains 3797 pending the six-round check after batches 260-265",
-    "six-round check after batches 260-265: no-effect/harm share 24%, harm 118, non-trial 524, unexpected-benefit entries 25; automatic Git deployment served 3851 versus local 3856 with HTTP 200, so vercel --prod was required; production now matches at 3856 entries (3861 id fields) and 5436 refs"
+    "six-round check after batches 260-265: no-effect/harm share 24%, harm 118, non-trial 524, unexpected-benefit entries 25; automatic Git deployment served 3851 versus local 3856 with HTTP 200, so vercel --prod was required; production now matches at 3856 entries (3861 id fields) and 5436 refs",
+    "batch 266 first expansion used 20 non-drug and food names and added 0 candidates; the second different 20-name attempt added 1 virtual museum candidate, so no third attempt was made",
+    "batch 266 processed the 1 new non-oncology topic; added virtual-museum-anxiety-pos, left the 9 oncology topics held and unchecked, and tightened 20 legacy sentences; local build 3857 and public last verified 3856",
+    "batch 266 added virtual-museum-anxiety-pos from a randomized hemodialysis anxiety trial; no new actionable warnings remain"
   ],
-  "current_batch": "batch 265 complete and six-round deployment check complete; 5 evidence entries, 6 no-evidence topics, 4 duplicates closed, 9 oncology topics held; 9 unchecked topics remain; local and public 3856; production matches",
-  "next_action": "commit and push the batch 265 deployment checkpoint; immediately start batch 266 with git pull --ff-only, read AGENTS.md, expand with non-drug names if needed, and keep oncology holds out of API research"
+  "current_batch": "batch 266 complete locally; 1 evidence entry, 9 oncology topics held; 9 unchecked topics remain; local 3857; public last verified 3856",
+  "next_action": "commit and push batch 266; immediately start batch 267 with git pull --ff-only, read AGENTS.md, expand with non-drug names if needed, and keep oncology holds out of API research"
 }
