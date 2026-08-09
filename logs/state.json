@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 745 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across melatonin, memantine, mental-health first aid/mentalization, meropenem, and metacognitive therapy entries",
+    "build": "passed; batch 746 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across metacognitive therapy/training and metformin entries",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -85,9 +85,9 @@
     "latest_note": "Official six-round HTTP 200 public/local check for 740-745 matched after automatic Git deployment from 0ca3b44d; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 745 data 0ca3b44d; logs checkpoint pending",
-    "last_batch": "batch 745 processed 0 topics, tightened 20 legacy sentences, passed build validation, pushed data commit 0ca3b44d, and passed the official public/local deployment check",
-    "next_batch": "batch 746",
+    "last_committed_batch": "batch 746 data 44443e43; logs checkpoint pending",
+    "last_batch": "batch 746 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit 44443e43",
+    "next_batch": "batch 747",
     "next_six_round_check": "after batch 751",
     "untracked_preserved": [
       "build-batch283.log",
@@ -110,8 +110,9 @@
     "batch 743 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across meal timing, meaning-centered psychotherapy, mebendazole, medication adherence, and meditation entries; data commit 0138e073 was pushed",
     "batch 744 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across meditation, Mediterranean diet, medroxyprogesterone, megestrol, and melatonin entries; data commit af83017c was pushed",
     "batch 745 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across melatonin, memantine, mental-health first aid/mentalization, meropenem, and metacognitive therapy entries; data commit 0ca3b44d was pushed",
+    "batch 746 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across metacognitive therapy/training and metformin entries; data commit 44443e43 was pushed",
     "official six-round check after batches 740-745: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; next check is due after batch 751"
   ],
-  "current_batch": "batch 745 committed and pushed as 0ca3b44d; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 740-745 matches public/local at 4270 entries, 4275 id fields, 5919 refs, and shard 48; 30 unchecked topics remain",
-  "next_action": "start batch 746 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, continue the legacy wording queue, commit and push data then logs; next six-round check is due after batch 751"
+  "current_batch": "batch 746 committed and pushed as 44443e43; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 740-745 remains matched; 30 unchecked topics remain",
+  "next_action": "start batch 747 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, continue the legacy wording queue, commit and push data then logs; next six-round check is due after batch 751"
 }
