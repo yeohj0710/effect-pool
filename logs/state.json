@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 750 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across milrinone, MIND diet, mindful breathing/eating/movement/parenting, and self-compassion entries",
+    "build": "passed; batch 751 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across mindful self-compassion/stretching/walking and mindfulness app/art therapy/childbirth/cognitive therapy entries",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -69,7 +69,7 @@
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-10",
     "six_round_check": {
-      "batches": "740-745",
+      "batches": "746-751",
       "http_status": 200,
       "local_entry_count": 4270,
       "public_entry_count": 4270,
@@ -82,13 +82,13 @@
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false
     },
-    "latest_note": "Official six-round HTTP 200 public/local check for 740-745 matched after automatic Git deployment from 0ca3b44d; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
+      "latest_note": "Official six-round HTTP 200 public/local check for 746-751 matched after automatic Git deployment from a975425c; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 750 data d9d4b034; logs checkpoint pending",
-    "last_batch": "batch 750 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit d9d4b034",
-    "next_batch": "batch 751",
-    "next_six_round_check": "after batch 751",
+    "last_committed_batch": "batch 751 data a975425c; logs checkpoint pending",
+    "last_batch": "batch 751 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit a975425c",
+    "next_batch": "batch 752",
+    "next_six_round_check": "after batch 757",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -115,8 +115,9 @@
     "batch 748 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across methotrexate, methylene blue, methylnaltrexone, methylphenidate, methylprednisolone, metoclopramide, and metoprolol entries; data commit d465b76c was pushed",
     "batch 749 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across metreleptin, metronidazole, metyrapone, micafungin, midazolam, midodrine, mifepristone, millet, and milrinone entries; data commit 54ef0453 was pushed",
     "batch 750 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across milrinone, MIND diet, mindful breathing/eating/movement/parenting, and self-compassion entries; data commit d9d4b034 was pushed",
-    "official six-round check after batches 740-745: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; next check is due after batch 751"
+    "official six-round check after batches 740-745: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; next check is due after batch 751",
+    "official six-round check after batches 746-751: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; next check is due after batch 757"
   ],
-  "current_batch": "batch 750 committed and pushed as d9d4b034; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 740-745 remains matched; 30 unchecked topics remain",
-  "next_action": "start batch 751 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, continue the legacy wording queue, commit and push data then logs; run the official six-round public/local check after batch 751"
+  "current_batch": "batch 751 committed and pushed as a975425c; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 746-751 matched; 30 unchecked topics remain",
+  "next_action": "start batch 752 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, continue the legacy wording queue, commit and push data then logs; next six-round check is due after batch 757"
 }
