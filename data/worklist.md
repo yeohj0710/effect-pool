@@ -1973,7 +1973,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pirfenidone — Systemic Sclerosis에 듣는다 — 신규 항목(pirfenidone-systemic-sclerosis-null)  <!-- 등록 시험 5건 -->
 - [x] pirfenidone — Diabetic Foot Ulcer에 듣는다 — 신규 항목(pirfenidone-diabetic-foot-ulcer-open)  <!-- 등록 시험 5건 -->
 - [x] baricitinib — COVID에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 21건 -->
-- [x] baricitinib — Atopic Dermatitis에 듣는다 — 신규 항목(baricitinib-atopic-dermatitis-open)  <!-- 등록 시험 19건 -->
+- [x] baricitinib — Atopic Dermatitis에 듣는다 — 결과 없음(2026-08-10 조회, ClinicalTrials.gov 등록 시험 19건, 보고된 결과 없음)  <!-- 등록 시험 19건 -->
 - [x] baricitinib — Alopecia에 듣는다 — 허가 적응증(2026-08-04)  <!-- 등록 시험 10건 -->
 - [x] baricitinib — Lupus에 듣는다 — 신규 항목(baricitinib-lupus-null)  <!-- 등록 시험 6건 -->
 - [x] mavacamten — Healthy Participants에 듣는다 — 질환 아님(2026-08-04)  <!-- 등록 시험 4건 -->
