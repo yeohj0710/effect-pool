@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 812 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across sleep-app, sleep coaching/deprivation/education/extension, and sleep-hygiene entries",
+    "build": "passed; batch 813 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across sleep-hygiene, sleep-light/mask/meditation, sleep-position/regularity, and sleep-restriction entries",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -85,9 +85,9 @@
       "latest_note": "Official six-round HTTP 200 public/local check for 806-811 matched after automatic Git deployment from f2af45ef; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 812 data c3b13028; logs checkpoint pending",
-    "last_batch": "batch 812 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit c3b13028; the official public/local six-round check for batches 806-811 remains matched",
-    "next_batch": "batch 813",
+    "last_committed_batch": "batch 813 data 364b7ddf; logs checkpoint pending",
+    "last_batch": "batch 813 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit 364b7ddf; the official public/local six-round check for batches 806-811 remains matched",
+    "next_batch": "batch 814",
     "next_six_round_check": "after batch 817",
     "untracked_preserved": [
       "build-batch283.log",
@@ -189,7 +189,8 @@
     ,"batch 811 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across sirolimus, sit-stand/sit-to-stand, sitagliptin, and sleep-app entries; data commit f2af45ef was pushed"
     ,"official six-round check after batches 806-811: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; vercel --prod was not required; next check is due after batch 817"
     ,"batch 812 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across sleep-app, sleep coaching/deprivation/education/extension, and sleep-hygiene entries; data commit c3b13028 was pushed"
+    ,"batch 813 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across sleep-hygiene, sleep-light/mask/meditation, sleep-position/regularity, and sleep-restriction entries; data commit 364b7ddf was pushed"
   ],
-  "current_batch": "batch 812 committed and pushed as c3b13028; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 806-811 remains matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
-  "next_action": "start batch 813 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after sleep-hygiene-cognitive-disorder-null; commit and push data then logs; perform the next official public/local six-round check after batch 817"
+  "current_batch": "batch 813 committed and pushed as 364b7ddf; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 806-811 remains matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
+  "next_action": "start batch 814 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after sleep-restriction-therapy-menopause-pos; commit and push data then logs; perform the next official public/local six-round check after batch 817"
 }
