@@ -11666,7 +11666,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] l-theanine — Attention Deficit Hyperactivity Disorder에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목 생성(2026-08-06)
 - [x] beta alanine — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 1129편 --> — 항목 생성(2026-08-06)
 - [x] beta alanine — Dietary Supplement에 듣는다  <!-- 시험 3건 · 논문 569편 --> — 근거 없음(2026-08-06 조회, "beta alanine AND Dietary Supplement")
-- [x] collagen peptides — Pain에 듣는다  <!-- 시험 13건 · 논문 1287편 --> — 항목 생성(2026-08-06)
+- [x] collagen peptides — Pain에 듣는다  <!-- 시험 13건 · 논문 1287편 --> — 결과 없음(2026-08-10 조회, PMID42548569는 결과가 아닌 시험계획서)
 - [x] collagen peptides — Muscle Loss에 듣는다  <!-- 시험 9건 · 논문 714편 --> — 근거 없음(2026-08-06 조회, "collagen peptides AND Muscle Loss")
 - [x] collagen peptides — Knee Injuries에 듣는다  <!-- 시험 8건 · 논문 210편 --> — 항목 생성(2026-08-06)
 - [x] collagen peptides — Wound Heal에 듣는다  <!-- 시험 5건 · 논문 6331편 --> — 항목 생성(2026-08-06)
