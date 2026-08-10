@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4440,
+  "entries": 4447,
   "worklist": {
-    "total": 14356,
-    "checked": 14353,
+    "total": 14363,
+    "checked": 14360,
     "unchecked": 3,
     "no_evidence_pending": 1759,
     "next_batch": [
@@ -15,7 +15,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1115 ran one new 20-name expansion set with at least five non-drug names and produced 3 candidates; marked bilastine Urticaria as an approved indication, added app-based mindfulness Depression positive and Stress null evidence entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and kept new line/effect/known/scale warnings at 0; unknown-n and truthful thin-study warnings remain",
+    "build": "passed; batch 1116 ran one new 20-name expansion set with at least five non-drug names and produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and kept new line/effect/known/scale warnings at 0; unknown-n and truthful thin-study warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -24,20 +24,20 @@
     "known_warnings": 2,
     "thin_warnings": 816,
     "tier_distribution": {
-      "trial": 3811,
-      "obs": 558,
+      "trial": 3816,
+      "obs": 559,
       "animal": 23,
       "lab": 11,
-      "case": 37
+      "case": 38
     },
     "no_effect_or_harm": 1026,
-    "harm": 132,
+    "harm": 133,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 629,
+    "non_trial": 631,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6302
+    "connected_evidence": 6314
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -62,9 +62,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check after batch 1111 matched in all 6 rounds at 4424 entries, 6276 refs, shard 48, 4429 id fields, 93/93 detail shards and 4424 detail entries, with identical DATA SHA-256 449d6a99d2e2b553461eafa03320e2f7f9b5f8353ec9e2d8c68306aa7b626747; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1115 data commit 4083b825 and worklist correction 13b06bf0 pushed",
-    "last_batch": "batch 1115 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 3 candidates; marked bilastine Urticaria as an approved indication, added app-based mindfulness Depression positive and Stress null evidence entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and pushed data commit 4083b825 and worklist correction 13b06bf0; build matched at 4440 entries and 6302 refs; next six-round check remains due after batch 1117",
-    "next_batch": "batch 1116",
+    "last_committed_batch": "batch 1116 data/worklist commit 6e061c1e pushed",
+    "last_batch": "batch 1116 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 6e061c1e; build matched at 4447 entries and 6314 refs; next six-round check remains due after batch 1117",
+    "next_batch": "batch 1117",
     "next_six_round_check": "after batch 1117",
     "untracked_preserved": [
       "build-batch283.log",
@@ -517,8 +517,9 @@
     ,"batch 1112 started with two unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 1 then 17 candidates; marked 11 approved indications, added 6 sevoflurane/ropivacaine evidence entries, recorded reformer pilates as a third-attempt ClinicalTrials.gov failure, left the 2 earlier exhausted lookup failures unchecked, and pushed data/worklist commit b05f0c0b; build matched at 4430 entries and 6284 refs; next six-round check remains due after batch 1117"
     ,"batch 1113 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 15 candidates; marked 7 approved indications, added 8 mesalamine/vedolizumab/golimumab/Baduanjin evidence entries, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit e74f80b0; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117"
     ,"batch 1114 started with 3 unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so expansion stopped after the second attempt; left the 3 exhausted lookup failures unchecked, tightened 20 legacy claim sentences without changing numbers, added no evidence entries, and pushed sentence commit d8de6a8e; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117",
-    "batch 1115 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 3 candidates; marked bilastine Urticaria as an approved indication, added app-based mindfulness Depression positive and Stress null evidence entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and pushed data commit 4083b825 and worklist correction 13b06bf0; build matched at 4440 entries and 6302 refs; next six-round check remains due after batch 1117"
+    "batch 1115 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 3 candidates; marked bilastine Urticaria as an approved indication, added app-based mindfulness Depression positive and Stress null evidence entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and pushed data commit 4083b825 and worklist correction 13b06bf0; build matched at 4440 entries and 6302 refs; next six-round check remains due after batch 1117",
+    "batch 1116 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 6e061c1e; build matched at 4447 entries and 6314 refs; next six-round check remains due after batch 1117"
   ],
-  "current_batch": "batch 1115 checkpoint: 4440 entries/6302 refs; added app-based mindfulness Depression positive and Stress null entries, marked bilastine Urticaria approved, and kept new line/effect/known/scale warnings at 0; worklist is 14356 total, 14353 checked, 3 unchecked; data commit 4083b825 and worklist correction 13b06bf0 pushed",
-    "next_action": "start batch 1116 with git pull, count the 3 unchecked lines, and run a new expansion branch with at least five non-drug names"
+  "current_batch": "batch 1116 checkpoint: 4447 entries/6314 refs; added 3 argatroban and 4 time-restricted feeding entries, and kept new line/effect/known/scale warnings at 0; worklist is 14363 total, 14360 checked, 3 unchecked; data/worklist commit 6e061c1e pushed",
+    "next_action": "start batch 1117 with git pull, count the 3 unchecked lines, run a new expansion branch with at least five non-drug names, then perform the due six-round public/local deployment check"
 }
