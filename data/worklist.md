@@ -18645,11 +18645,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fenoldopam — Cardiac Complications에 듣는다  <!-- 시험 3건 · 논문 53편 -->
-- [ ] fluticasone — Pulmonary Disease에 듣는다  <!-- 시험 107건 · 논문 3360편 -->
-- [ ] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 -->
-- [ ] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 -->
-- [ ] fluticasone — Esophagitis에 듣는다  <!-- 시험 15건 · 논문 245편 -->
+- [x] fenoldopam — Cardiac Complications에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 항목 추가(2026-08-10)
+- [x] fluticasone — Pulmonary Disease에 듣는다  <!-- 시험 107건 · 논문 3360편 --> — 항목 추가(2026-08-10)
+- [x] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 --> — 허가 적응증(2026-08-10)
+- [x] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 --> — 허가 적응증(2026-08-10)
+- [x] fluticasone — Esophagitis에 듣는다  <!-- 시험 15건 · 논문 245편 --> — 항목 추가(2026-08-10)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 

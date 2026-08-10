@@ -1,0 +1,31 @@
+{
+  "id": "fenoldopam-cardiac-complications-open",
+  "subj": "fenoldopam",
+  "claim": "심장수술 후 신장 합병증에 페놀도팜을 쓴다",
+  "line": "심장수술 후 페놀도팜은 급성 신손상을 줄였지만 신대체요법과 사망은 줄이지 못했고 저혈압이 늘었다.",
+  "effect": "급성 신손상 감소·신대체요법/사망 차이 없음·저혈압 증가",
+  "tier": "trial",
+  "dir": "open",
+  "n": 1107,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "페놀도팜의 FDA 허가 적응증은 중증 고혈압의 단기 병원 치료이며 심장수술 후 신장 합병증 예방·치료는 허가 적응증이 아니다.",
+  "why": "심장수술 후 급성 신손상은 중요한 합병증이므로 도파민-1 수용체 작용제인 페놀도팜의 신장 보호 효과를 무작위시험과 메타분석에서 확인했다.",
+  "saw": "성인 심장수술 환자 1,107명을 포함한 7개 무작위시험 메타분석에서 페놀도팜은 급성 신손상을 8.3% 대 위약 20.3%로 줄였지만 신대체요법은 14.3% 대 14.0%, 병원 사망은 22.2% 대 21.7%로 차이가 없었다. 저혈압은 25.8% 대 14.7%로 늘었다. 심장수술 후 급성 신손상 환자 667명 무작위시험에서도 신대체요법 20% 대 18%, 30일 사망 23% 대 22%로 차이가 없었고 저혈압은 26% 대 15%로 증가해 무효성 때문에 중단됐다.",
+  "limit": "메타분석에 포함된 시험은 작고 급성 신손상 정의가 서로 달랐으며, 신손상 감소 신호가 환자 중심 결과 개선으로 이어지지 않았다.",
+  "against": "고위험 심장수술 환자 80명 시험에서 페놀도팜은 도파민과 비교해 급성 신부전, 크레아티닌, 입원기간, 사망을 줄이지 못했다.",
+  "use": "심장수술 후 신장 보호 목적으로 routine 사용하지 말고, 연구나 전문의 판단 아래 저혈압 위험과 환자 중심 결과를 함께 평가한다.",
+  "refs": [
+    { "label": "심장수술 페놀도팜 신장보호 7개 무작위시험 메타분석", "doi": "10.1097/SHK.0000000000001313", "pmid": "30601331" },
+    { "label": "심장수술 후 급성 신손상 페놀도팜 무작위시험", "doi": "10.1001/jama.2014.13573", "pmid": "25265449", "nct": "NCT00621790" },
+    { "label": "고위험 심장수술 페놀도팜과 도파민 비교시험", "doi": "10.1161/CIRCULATIONAHA.104.509141", "pmid": "15967861" },
+    { "label": "복잡 심장수술 페놀도팜 위약대조시험", "pmid": "20332738" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "fenoldopam AND Cardiac Complications · 7건 반환, InterventionName 완전일치 5건(NCT02620761, NCT00621790, NCT00982527, NCT00122018, NCT00467181)",
+    "pubmed": "fenoldopam AND Cardiac Complications · 53편",
+    "negative": "fenoldopam AND Cardiac Complications AND (no effect OR did not OR failed OR negative OR no significant difference) · 44편",
+    "safety": "fenoldopam AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 240편"
+  }
+}
