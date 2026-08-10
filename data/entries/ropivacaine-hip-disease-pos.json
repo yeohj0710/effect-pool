@@ -1,0 +1,28 @@
+{
+  "id": "ropivacaine-hip-disease-pos",
+  "subj": "로피바카인 고관절 신경차단",
+  "claim": "고관절 치환술 전 로피바카인 PENG 차단은 척추마취 자세의 통증을 낮추고 진통을 늘린다",
+  "line": "고관절 치환술에서 0.5% PENG 차단은 자세 통증을 낮췄습니다",
+  "effect": "자세 통증 감소와 48시간 진통 지속",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 102,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "로피바카인은 국소·부위마취에 허가됐지만 고관절 질환의 치료 목적 사용은 허가 적응증이 아닙니다",
+  "why": "고관절 질환 수술에서 로피바카인 PENG 차단의 농도와 진통 효과를 확인한 무작위시험을 검토했습니다.",
+  "saw": "고관절 치환술 환자 102명을 대상으로 0.375%와 0.5% 로피바카인 PENG 차단을 비교했습니다. 0.5%군은 척추마취 자세를 잡을 때 통증이 더 낮았고 수술 뒤 48시간까지 진통이 지속됐으며 두 농도 모두 표준 정맥 진통보다 통증과 오피오이드 사용을 줄였습니다. 부작용은 늘지 않았습니다.",
+  "limit": "고관절 치환술 전후의 단기 통증과 자세를 평가한 한 시험이며 만성 고관절 질환의 원인 치료나 장기 기능 개선을 평가하지 않았습니다.",
+  "against": "0.5%와 0.375%의 차이는 제한적이었고 고농도 사용은 운동차단 가능성을 함께 고려해야 합니다.",
+  "use": "고관절 치환술 전후 통증 조절에서 PENG 차단의 단기 신호로 기록하며 고관절 질환 자체의 치료 효과로 확대하지 않습니다.",
+  "refs": [
+    { "label": "Comparison between two different concentrations of ropivacaine in pericapsular nerve group block for patients undergoing total hip arthroplasty: A randomized clinical trial", "doi": "10.1371/journal.pone.0348565", "pmid": "42166434", "pmc": "PMC13193387" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=ropivacaine&query.cond=Hip Disease; total 89, direct 29",
+    "pubmed": "ropivacaine[Title/Abstract] AND Hip Disease[Title/Abstract]; 0; broader hip arthroplasty search found PMID 42166434",
+    "negative": "ropivacaine[Title/Abstract] AND Hip Disease[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 0",
+    "safety": "ropivacaine[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,248"
+  }
+}

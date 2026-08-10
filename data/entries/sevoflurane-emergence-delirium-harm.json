@@ -1,0 +1,28 @@
+{
+  "id": "sevoflurane-emergence-delirium-harm",
+  "subj": "세보플루란과 발현 섬망",
+  "claim": "소아 포경수술에서 세보플루란 마취는 레미마졸람보다 발현 섬망이 많았다",
+  "line": "소아 포경수술 무작위시험에서 발현 섬망은 세보플루란군 36%, 레미마졸람군 12%였습니다",
+  "effect": "발현 섬망 36% 대 12%",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "세보플루란 허가 적응증은 전신마취이며 발현 섬망 예방은 허가 적응증이 아닙니다",
+  "why": "세보플루란 마취 뒤 발현 섬망을 줄일 수 있는지 확인한 소아 무작위시험을 검토했습니다.",
+  "saw": "3–12세 소아 100명을 무작위 배정한 시험에서 발현 섬망은 레미마졸람군 6/50명(12%), 세보플루란군 18/50명(36%)이었습니다. 레미마졸람 대 세보플루란 위험비는 0.33(95% CI 0.14–0.77)이었고 세보플루란군에서 더 많았습니다.",
+  "limit": "단일 수술인 포경수술을 받은 ASA I–II 소아를 대상으로 했고 모든 환자가 음경신경차단을 받았습니다. 성인이나 다른 수술에 같은 위험을 적용할 수 없습니다.",
+  "against": "레미마졸람과 세보플루란을 비교한 한 시험의 결과이며 세보플루란 자체가 모든 소아에서 섬망을 일으킨다는 뜻은 아닙니다.",
+  "use": "세보플루란 소아 마취에서 발현 섬망 위험을 설명할 때 사용하는 안전성 신호로 기록합니다.",
+  "refs": [
+    { "label": "Remimazolam versus Sevoflurane for Paediatric Circumcision: A Randomised Controlled Trial Evaluating Emergence Delirium", "doi": "10.2147/DDDT.S602836", "pmid": "42125219", "pmc": "PMC13159740" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=sevoflurane&query.cond=Emergence Delirium; total 120, direct 21",
+    "pubmed": "sevoflurane[Title/Abstract] AND (emergence delirium OR emergence agitation)[Title/Abstract]; 219",
+    "negative": "sevoflurane[Title/Abstract] AND (emergence delirium OR emergence agitation)[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 76",
+    "safety": "sevoflurane[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,945"
+  }
+}
