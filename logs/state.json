@@ -1,30 +1,15 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4324,
+  "entries": 4327,
   "worklist": {
     "total": 14176,
-    "checked": 14143,
-    "unchecked": 33,
+    "checked": 14148,
+    "unchecked": 28,
     "no_evidence_pending": 1736,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "betahistine — Obesity",
-      "nepafenac — Macular Edema",
-      "nepafenac — Inflammation",
-      "nepafenac — Pain",
-      "nepafenac — Diabetic Retinopathy",
-      "fenoldopam — Cardiac Complications",
-      "fluticasone — Pulmonary Disease",
-      "fluticasone — Rhinitis",
-      "fluticasone — COPD",
-      "fluticasone — Esophagitis",
-      "betahistine — Obesity",
-      "nepafenac — Macular Edema",
-      "nepafenac — Inflammation",
-      "nepafenac — Pain",
-      "nepafenac — Diabetic Retinopathy",
       "fenoldopam — Cardiac Complications",
       "fluticasone — Pulmonary Disease",
       "fluticasone — Rhinitis",
@@ -34,7 +19,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1082 added five evidence entries; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1083 added three evidence entries and closed two approved topics; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -55,8 +40,8 @@
     "non_trial": 613,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
-    "unexpected_benefit_entries": 25,
-    "connected_evidence": 6044
+    "unexpected_benefit_entries": 26,
+    "connected_evidence": 6054
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -81,9 +66,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1081 matched in all 6 rounds at 4319 entries, 6032 refs, shard 48, 4324 id fields, 90/90 detail shards and 4319 detail entries, with identical DATA SHA-256 6895038839e3f2ef54531a7f45a5588a22bd0ff91e606dbe2c85ff7d4accfe87; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1082 bfdb9b72 pushed",
-    "last_batch": "batch 1082 processed five non-drug topics: added storytelling group oral health pos, storytelling group cancer pos, storytelling group nursing care open, storytelling group anxiety pos, and art workshop mild dementia open entries; build passed",
-    "next_batch": "batch 1083",
+    "last_committed_batch": "batch 1083 1817d5d2 pushed; worklist correction 374e4862 pushed",
+    "last_batch": "batch 1083 processed five topics: added betahistine obesity open, nepafenac macular edema open, and nepafenac diabetic retinopathy open entries; marked nepafenac inflammation and pain as approved indications; the macular edema entry records fingolimod-associated macular edema controlled with nepafenac as an unexpected-benefit signal; build passed",
+    "next_batch": "batch 1084",
     "next_six_round_check": "after batch 1087",
     "untracked_preserved": [
       "build-batch283.log",
@@ -500,7 +485,8 @@
     ,"batch 1081 processed 5 non-drug topics: added bath therapy blood pressure open, bath therapy labor pain open, bath therapy cancer pos, bath therapy anxiety open, and thermal bath knee osteoarthritis open entries; data commit 5d15702b was pushed; build matched at 4319 entries and 6032 refs"
     ,"official six-round HTTP 200 public/local check after batch 1081: matched in all 6 rounds at 4319 entries, 6032 refs, shard 48, 4324 id fields, 90/90 detail shards and 4319 detail entries, with identical DATA SHA-256 6895038839e3f2ef54531a7f45a5588a22bd0ff91e606dbe2c85ff7d4accfe87; automatic Git deployment was sufficient and vercel --prod was not required"
     ,"batch 1082 processed 5 non-drug topics: added storytelling group oral health pos, storytelling group cancer pos, storytelling group nursing care open, storytelling group anxiety pos, and art workshop mild dementia open entries; data commit bfdb9b72 was pushed; build matched at 4324 entries and 6044 refs"
+    ,"batch 1083 processed 5 topics: added betahistine obesity open, nepafenac macular edema open, and nepafenac diabetic retinopathy open entries; marked nepafenac inflammation and pain as approved indications; recorded a fingolimod-associated macular edema case controlled with nepafenac as an unexpected-benefit signal; data commit 1817d5d2 and worklist correction 374e4862 were pushed; build matched at 4327 entries and 6054 refs"
   ],
-  "current_batch": "batch 1082 checkpoint: 4324 entries/6044 refs; five non-drug evidence entries added; worklist 14176 total, 14143 checked, 33 unchecked; commit bfdb9b72 pushed. Next six-round public/local check is due after batch 1087.",
-  "next_action": "start batch 1083 without expansion because 33 unchecked topics remain; skip the two lines marked 조회 실패, then process betahistine Obesity, nepafenac Macular Edema, nepafenac Inflammation, nepafenac Pain, and nepafenac Diabetic Retinopathy"
+  "current_batch": "batch 1083 checkpoint: 4327 entries/6054 refs; three evidence entries added, two topics closed by indication rule, and one unexpected-benefit signal recorded; worklist 14176 total, 14148 checked, 28 unchecked; commits 1817d5d2 and 374e4862 pushed. Next six-round public/local check is due after batch 1087.",
+  "next_action": "start batch 1084 without expansion because 28 unchecked topics remain; skip the two lines marked 조회 실패, then process fenoldopam Cardiac Complications, fluticasone Pulmonary Disease, fluticasone Rhinitis, fluticasone COPD, and fluticasone Esophagitis"
 }
