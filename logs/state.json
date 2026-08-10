@@ -4,17 +4,17 @@
   "entries": 4330,
   "worklist": {
     "total": 14188,
-    "checked": 14158,
-    "unchecked": 30,
+    "checked": 14163,
+    "unchecked": 25,
     "no_evidence_pending": 1736,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "cefuroxime — Antibiotic Allergy",
-      "cefuroxime — Drug Allergy",
-      "cefuroxime — Postoperative Pain",
-      "perindopril — Heart Failure",
-      "perindopril — Diabetes"
+      "perindopril — Breast Cancer",
+      "perindopril — Blood Pressure",
+      "ulipristal — Fibroids",
+      "ulipristal — Fibroid",
+      "ulipristal — Leiomyoma"
     ],
     "additional_hold": []
   },
@@ -66,9 +66,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1081 matched in all 6 rounds at 4319 entries, 6032 refs, shard 48, 4324 id fields, 90/90 detail shards and 4319 detail entries, with identical DATA SHA-256 6895038839e3f2ef54531a7f45a5588a22bd0ff91e606dbe2c85ff7d4accfe87; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1085 worklist commit e5ad362d pushed",
-    "last_batch": "batch 1085 processed five topics: marked all three alglucosidase alfa Pompe-disease synonyms and both brinzolamide intraocular-pressure topics as approved indications; expansion ran twice because 23 topics were pending, adding five candidates on the first attempt and seven on the second; no evidence entries were added; build passed",
-    "next_batch": "batch 1086",
+    "last_committed_batch": "batch 1086 f1585e91 pushed",
+    "last_batch": "batch 1086 processed five topics: added cefuroxime antibiotic allergy positive, cefuroxime drug allergy open, perindopril heart failure positive, and perindopril diabetes positive entries; marked cefuroxime postoperative pain as no evidence; the cefuroxime allergy entry documents tolerance after negative testing, while perindopril diabetes evidence came from the 11,140-person ADVANCE combination trial; build passed",
+    "next_batch": "batch 1087",
     "next_six_round_check": "after batch 1087",
     "untracked_preserved": [
       "build-batch283.log",
@@ -488,7 +488,8 @@
     ,"batch 1083 processed 5 topics: added betahistine obesity open, nepafenac macular edema open, and nepafenac diabetic retinopathy open entries; marked nepafenac inflammation and pain as approved indications; recorded a fingolimod-associated macular edema case controlled with nepafenac as an unexpected-benefit signal; data commit 1817d5d2 and worklist correction 374e4862 were pushed; build matched at 4327 entries and 6054 refs"
     ,"batch 1084 processed 5 topics: added fenoldopam cardiac complications open, fluticasone pulmonary disease open, and fluticasone esophagitis positive entries; marked fluticasone rhinitis and COPD as approved indications; fenoldopam renal protection evidence showed increased hypotension without renal-replacement or mortality benefit; data commit 189671c1 was pushed; build matched at 4330 entries and 6065 refs"
     ,"batch 1085 processed 5 topics: marked all three alglucosidase alfa Pompe-disease synonyms and both brinzolamide intraocular-pressure topics as approved indications; expansion ran twice because 23 topics were pending, adding five candidates on the first attempt and seven on the second; no evidence entries were added; worklist commit e5ad362d was pushed; build matched at 4330 entries and 6065 refs"
+    ,"batch 1086 processed 5 topics: added cefuroxime antibiotic allergy positive, cefuroxime drug allergy open, perindopril heart failure positive, and perindopril diabetes positive entries; marked cefuroxime postoperative pain as no evidence; the cefuroxime allergy entry documents tolerance after negative testing, while perindopril diabetes evidence came from the 11,140-person ADVANCE combination trial; data commit f1585e91 was pushed; build matched at 4334 entries and 6073 refs"
   ],
-  "current_batch": "batch 1085 checkpoint: 4330 entries/6065 refs; five topics closed by indication rule, expansion added 12 candidate lines after two attempts, and the worklist is 14188 total, 14158 checked, 30 unchecked; commit e5ad362d pushed. Next six-round public/local check is due after batch 1087.",
-  "next_action": "start batch 1086 without expansion because exactly 30 unchecked topics remain; skip the two lookup failures, then process cefuroxime Antibiotic Allergy, cefuroxime Drug Allergy, cefuroxime Postoperative Pain, perindopril Heart Failure, and perindopril Diabetes"
+  "current_batch": "batch 1086 checkpoint: 4334 entries/6073 refs; four evidence entries added, one topic closed as no evidence, and the worklist is 14188 total, 14163 checked, 25 unchecked; commit f1585e91 pushed. The six-round public/local check is due after batch 1087.",
+  "next_action": "start batch 1087 with expansion because 25 unchecked topics remain; inspect covered materials, add up to 20 new names with at least five non-drug candidates, then skip the two lookup failures and process perindopril Breast Cancer, perindopril Blood Pressure, ulipristal Fibroids, ulipristal Fibroid, and ulipristal Leiomyoma; after the batch perform the six-round public/local deployment check"
 }
