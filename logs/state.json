@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4415,
+  "entries": 4418,
   "worklist": {
-    "total": 14302,
-    "checked": 14300,
+    "total": 14305,
+    "checked": 14303,
     "unchecked": 2,
     "no_evidence_pending": 1758,
     "next_batch": [
@@ -14,7 +14,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1108 ran one new 20-name expansion set with at least five non-drug names, produced 13 candidates, added 5 evidence entries, marked 5 approved indications, closed 3 topics as no evidence including one registry-only study with no results, left 2 exhausted lookup failures unchecked, and tightened 20 legacy sentences; line, translation, effect, known, English, and scale warnings are 0; unknown-n and truthful thin-study warnings remain",
+    "build": "passed; batch 1109 ran two different new 20-name expansion sets with at least five non-drug names each, produced 1 then 2 candidates, added 3 evidence entries, left 2 exhausted lookup failures unchecked, and tightened 20 legacy sentences; line, translation, effect, known, English, and scale warnings are 0; unknown-n and truthful thin-study warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -23,20 +23,20 @@
     "known_warnings": 2,
     "thin_warnings": 813,
     "tier_distribution": {
-      "trial": 3787,
+      "trial": 3790,
       "obs": 558,
       "animal": 23,
       "lab": 11,
       "case": 36
     },
-    "no_effect_or_harm": 1016,
+    "no_effect_or_harm": 1018,
     "harm": 130,
     "no_effect_or_harm_share": "23%",
     "non_trial": 628,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6258
+    "connected_evidence": 6264
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -61,9 +61,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1105 matched in all 6 rounds at 4403 entries, 6237 refs, shard 48, 4408 id fields, 92/92 detail shards and 4403 detail entries, with identical DATA SHA-256 fa913ab9da9789486c845cc7e577ee2af99079273fd770300a32a2b23e50f1b3; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1108 evidence/worklist commit 2715d9db pushed; sentence commit 005994be pushed",
-    "last_batch": "batch 1108 started with two unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 13 candidates; added esmolol pain and sepsis, clevidipine hemorrhage, and nesiritide cardiopulmonary-bypass and renal-dysfunction entries; discarded one registry-only esmolol myocardial-injury draft after the build rejected its result-free recruiting record and closed it as no evidence; marked 5 approved indications and 2 other topics as no evidence, left 2 exhausted lookup failures unchecked, tightened 20 legacy sentences, and pushed evidence/worklist commit 2715d9db and sentence commit 005994be; build matched at 4415 entries and 6258 refs; next six-round check remains due after batch 1111",
-    "next_batch": "batch 1109",
+    "last_committed_batch": "batch 1109 evidence/worklist commit 3a5a5b05 pushed; sentence commit f9e39add pushed",
+    "last_batch": "batch 1109 started with two unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 1 then 2 candidates, so expansion stopped after the second attempt; added fimasartan diabetes, benazepril diabetes, and benazepril renal-alteration null entries, left the 2 exhausted lookup failures unchecked, tightened 20 legacy sentences, and pushed evidence/worklist commit 3a5a5b05 and sentence commit f9e39add; build matched at 4418 entries and 6264 refs; next six-round check remains due after batch 1111",
+    "next_batch": "batch 1110",
     "next_six_round_check": "after batch 1111",
     "untracked_preserved": [
       "build-batch283.log",
@@ -510,7 +510,8 @@
     ,"batch 1106 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so no evidence entries were added; kept the two exhausted lookup failures unchecked and tightened 20 legacy sentences; sentence commit cea54f15 was pushed; build matched at 4403 entries and 6237 refs; next six-round check remains due after batch 1111"
     ,"batch 1107 started with two unchecked lookup failures; the first 20-name expansion set with at least five non-drug names produced 9 candidates, the second produced 0 after 15 ClinicalTrials.gov HTTP 500 failures; retries recovered 4 procainamide candidates; added levosimendan septic shock and myocardial stunning, nefopam shivering, salsalate insulin resistance and inflammation, and procainamide cardiac arrest and acute atrial fibrillation entries; marked 3 approved indications, closed 3 topics as no evidence, tightened 20 legacy sentences, and pushed evidence/worklist commit 91473c5c, sentence commit 0605be19, and warning-fix commit 8dbc5b32; build matched at 4410 entries and 6250 refs; next six-round check remains due after batch 1111"
     ,"batch 1108 started with two unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 13 candidates; added 5 evidence entries, marked 5 approved indications, closed 3 topics as no evidence after rejecting one result-free registry-only draft, tightened 20 legacy sentences, and pushed evidence/worklist commit 2715d9db and sentence commit 005994be; build matched at 4415 entries and 6258 refs; next six-round check remains due after batch 1111"
+    ,"batch 1109 started with two unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 1 then 2 candidates, so expansion stopped after the second attempt; added fimasartan diabetes, benazepril diabetes, and benazepril renal-alteration null entries, tightened 20 legacy sentences, and pushed evidence/worklist commit 3a5a5b05 and sentence commit f9e39add; build matched at 4418 entries and 6264 refs; next six-round check remains due after batch 1111"
   ],
-  "current_batch": "batch 1108 checkpoint: 4415 entries/6258 refs; added 5 evidence entries, marked 5 approved indications, closed 3 topics as no evidence, tightened 20 legacy sentences, and cleared all line/effect/scale warnings; worklist is 14302 total, 14300 checked, 2 unchecked; commits 2715d9db and 005994be pushed",
-    "next_action": "start batch 1109 with git pull, count the 2 unchecked lines, and run a new expansion branch with at least five non-drug names"
+  "current_batch": "batch 1109 checkpoint: 4418 entries/6264 refs; added 3 evidence entries, tightened 20 legacy sentences, and cleared all line/effect/scale warnings; worklist is 14305 total, 14303 checked, 2 unchecked; commits 3a5a5b05 and f9e39add pushed",
+    "next_action": "start batch 1110 with git pull, count the 2 unchecked lines, and run a new expansion branch with at least five non-drug names"
 }
