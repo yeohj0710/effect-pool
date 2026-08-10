@@ -18585,9 +18585,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sapropterin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 171편 --> — 근거 없음(2026-08-10, sapropterin AND Hypertension; ClinicalTrials.gov NCT01456286; PubMed sapropterin AND Hypertension)
 - [x] vaborbactam — Bloodstream Infection에 듣는다  <!-- 시험 4건 · 논문 60편 --> — 항목 추가(2026-08-10)
 - [x] dance therapy group — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 110편 --> — 항목 추가(2026-08-10)
-- [ ] dance therapy group — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 40편 -->
-- [ ] dance therapy group — Depression에 듣는다  <!-- 시험 6건 · 논문 158편 -->
-- [ ] dance therapy group — Older Adults에 듣는다  <!-- 시험 5건 · 논문 487편 -->
+- [x] dance therapy group — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 40편 --> — 항목 추가(2026-08-10)
+- [x] dance therapy group — Depression에 듣는다  <!-- 시험 6건 · 논문 158편 --> — 항목 추가(2026-08-10)
+- [x] dance therapy group — Older Adults에 듣는다  <!-- 시험 5건 · 논문 487편 --> — 항목 추가(2026-08-10)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18598,8 +18598,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 -->
-- [ ] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 -->
+- [x] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 --> — 허가 적응증(2026-08-10)
+- [x] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 --> — 허가 적응증(2026-08-10)
 - [ ] dexlansoprazole — H Pylori Eradication에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [ ] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 -->
 - [ ] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 -->
@@ -18620,3 +18620,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] storytelling group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 328편 -->
 - [ ] storytelling group — Anxiety에 듣는다  <!-- 시험 5건 · 논문 82편 -->
 - [ ] art workshop — Mild Dementia에 듣는다  <!-- 시험 3건 · 논문 36편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] betahistine — Obesity에 듣는다  <!-- 시험 3건 · 논문 25편 -->
+- [ ] nepafenac — Macular Edema에 듣는다  <!-- 시험 18건 · 논문 109편 -->
+- [ ] nepafenac — Inflammation에 듣는다  <!-- 시험 4건 · 논문 72편 -->
+- [ ] nepafenac — Pain에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [ ] nepafenac — Diabetic Retinopathy에 듣는다  <!-- 시험 4건 · 논문 26편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] fenoldopam — Cardiac Complications에 듣는다  <!-- 시험 3건 · 논문 53편 -->
+- [ ] fluticasone — Pulmonary Disease에 듣는다  <!-- 시험 107건 · 논문 3360편 -->
+- [ ] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 -->
+- [ ] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 -->
+- [ ] fluticasone — Esophagitis에 듣는다  <!-- 시험 15건 · 논문 245편 -->
