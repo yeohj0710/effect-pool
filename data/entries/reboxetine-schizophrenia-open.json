@@ -1,0 +1,28 @@
+{
+  "id": "reboxetine-schizophrenia-open",
+  "subj": "reboxetine",
+  "claim": "reboxetine이 조현병의 음성 증상과 항정신병약 체중 증가를 줄이는가",
+  "line": "조현병 음성 증상에 리복세틴 신호가 있었지만 이상치 제거 후 사라졌다.",
+  "effect": "음성 증상 SMD -0.47",
+  "tier": "trial",
+  "dir": "open",
+  "n": 630,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "reboxetine은 우울증에 쓰이는 노르아드레날린 재흡수 억제제지만 조현병은 허가 적응증이 아닙니다.",
+  "why": "무작위 이중맹검 위약대조시험 9개를 합친 메타분석에서 항정신병약에 reboxetine을 추가한 결과를 평가했습니다.",
+  "saw": "630명 분석에서 음성 증상은 reboxetine군이 위약보다 낮았습니다(SMD -0.47, 95% CI -0.87~-0.07). 체중도 평균 3.83kg 줄었지만, 이상치 연구를 제거하면 음성 증상 효과가 사라졌습니다.",
+  "limit": "시험 간 이질성이 높고 음성 증상 결과는 이상치 한 연구에 의존했습니다. 조현병의 전체·양성 증상 개선은 확인되지 않았습니다.",
+  "against": "음성 증상 효과는 민감도 분석에서 사라졌고 구강건조는 reboxetine군에서 더 흔했습니다.",
+  "use": "항정신병약 체중 증가 연구의 보조 후보로만 기록하고 음성 증상 효과를 확정하지 않습니다.",
+  "refs": [
+    { "label": "조현병 보조 reboxetine 무작위시험 메타분석", "doi": "10.1055/a-0914-3260", "pmid": "31207653" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=reboxetine AND query.cond=Schizophrenia; 3건 반환, NCT00409201·NCT01300364 직접 중재 확인",
+    "pubmed": "reboxetine AND Schizophrenia; 40편",
+    "negative": "reboxetine AND Schizophrenia AND (no effect OR no significant difference OR failed OR negative); 17편",
+    "safety": "reboxetine AND (adverse OR toxicity OR harm OR dropout OR case report); 275편"
+  }
+}

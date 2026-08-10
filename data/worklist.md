@@ -18879,3 +18879,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] motivational interviewing — Behavior에 듣는다  <!-- 시험 18건 · 논문 5717편 --> — 중복(2026-08-10, 기존 motivational-interviewing-health-behavior-open)
 - [x] motivational interviewing — Adherence, Patient에 듣는다  <!-- 시험 13건 · 논문 991편 --> — 근거 항목 추가(2026-08-10)
 - [x] motivational interviewing — Opioid Dependence에 듣는다  <!-- 시험 11건 · 논문 113편 --> — 근거 항목 추가(2026-08-10)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] beraprost — Renal Impairment에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov query.intr=beraprost AND query.cond=Renal Impairment 3건·신장기능 약동학/등록 연구, PubMed exact 0편)
+- [x] netarsudil — Ocular Hypertension에 듣는다  <!-- 시험 16건 · 논문 136편 --> — 허가 적응증(2026-08-10)
+- [x] netarsudil — Fuchs Endothelial Dystrophy에 듣는다  <!-- 시험 6건 · 논문 15편 --> — 근거 항목 추가(2026-08-10)
+- [x] ripasudil — Corneal Edema에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 근거 항목 추가(2026-08-10)
+- [x] amisulpride — Schizoaffective Disorder에 듣는다  <!-- 시험 5건 · 논문 234편 --> — 근거 항목 추가(2026-08-10)
+- [x] amisulpride — Nausea and Vomiting, Postoperative에 듣는다  <!-- 시험 5건 · 논문 32편 --> — 허가 적응증(2026-08-10)
+- [x] amisulpride — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 224편 --> — 근거 항목 추가(2026-08-10)
+- [x] amisulpride — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 근거 항목 추가(2026-08-10)
+- [x] forest walk — Anxiety에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 근거 항목 추가(2026-08-10)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sarpogrelate — Peripheral Arterial Disease에 듣는다  <!-- 시험 4건 · 논문 24편 --> — 허가 적응증(2026-08-10)
+- [x] urapidil — Cerebral Hemorrhage에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 항목 추가(2026-08-10)
+- [x] urapidil — Postoperative Pain에 듣는다  <!-- 시험 3건 · 논문 9편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov query.intr=urapidil AND query.cond=Postoperative Pain 2건·직접 중재 1건은 rescue 투여, PubMed 6편은 다른 수술·진통 중재)
+- [x] landiolol — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 165편 --> — 허가 적응증(2026-08-10)
+- [x] landiolol — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 항목 추가(2026-08-10)
+- [x] reboxetine — Depression에 듣는다  <!-- 시험 4건 · 논문 517편 --> — 허가 적응증(2026-08-10)
+- [x] reboxetine — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 40편 --> — 근거 항목 추가(2026-08-10)
