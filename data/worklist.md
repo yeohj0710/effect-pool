@@ -20042,3 +20042,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketone ester — Heart Failure에 듣는다 — 근거 있음(2026-08-11, PMID 38533643·39162035·40243975; NCT05161650·NCT05236335·NCT04633460)  <!-- 시험 12건 · 논문 43편 -->
 - [x] ketone ester — Exercise에 듣는다 — 근거 있음(2026-08-11, PMID 40243975; NCT04633460)  <!-- 시험 9건 · 논문 99편 -->
 - [x] ketone ester — Obesity에 듣는다 — 근거 있음(2026-08-11, PMID 39424350·41391659)  <!-- 시험 9건 · 논문 62편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] rosiglitazone — Insulin Resistance에 듣는다 — 근거 있음(2026-08-11, PMID 38148342·NCT00746174)  <!-- 시험 18건 · 논문 1437편 -->
+- [x] rosiglitazone — Cushing's Disease에 듣는다 — 근거 있음(2026-08-11, PMID 19919817·NCT00612066)  <!-- 시험 13건 · 논문 15편 -->
+- [x] rosiglitazone — Glucose Intolerance에 듣는다 — 근거 있음(2026-08-11, PMID 38148342·NCT00746174)  <!-- 시험 13건 · 논문 109편 -->
+- [x] rosiglitazone — HIV Infections에 듣는다 — 근거 있음(2026-08-11, PMID 27077672·25536669·NCT00130286)  <!-- 시험 10건 · 논문 65편 -->
+- [x] ceftazidime — Infection에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 16건 · 논문 11232편 -->
+- [x] ceftazidime — Urinary Tract Infection에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 9건 · 논문 1039편 -->
+- [x] ceftazidime — Bacterial Keratitis에 듣는다 — 근거 없음(2026-08-11 조회, ceftazidime AND Bacterial Keratitis; 등록정보 NCT05655689는 있지만 결과 논문 없음)  <!-- 시험 9건 · 논문 128편 -->
+- [x] ceftazidime — Cystic Fibrosis에 듣는다 — 근거 있음(2026-08-11, PMID 6352647)  <!-- 시험 8건 · 논문 566편 -->
+- [x] DHEA — Infertility에 듣는다 — 근거 있음(2026-08-11, PMID 20729538)  <!-- 시험 9건 · 논문 631편 -->
+- [x] DHEA — Breast Cancer에 듣는다 — 항암제 주제 제외(2026-08-11)  <!-- 시험 6건 · 논문 890편 -->
+- [x] DHEA — Hypertension, Pulmonary에 듣는다 — 근거 있음(2026-08-11, PMID 42446134·NCT03648385)  <!-- 시험 5건 · 논문 49편 -->
+- [x] DHEA — Menopause에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 5건 · 논문 1538편 -->
+- [x] pregnenolone — Schizophrenia에 듣는다 — 근거 있음(2026-08-11, PMID 26218236·NCT01831986)  <!-- 시험 7건 · 논문 59편 -->
+- [x] pregnenolone — Alcohol Use Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 36445398·39779217·NCT02582905)  <!-- 시험 7건 · 논문 37편 -->
+- [x] pregnenolone — Schizoaffective Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 26218236·NCT01831986)  <!-- 시험 5건 · 논문 12편 -->
+- [x] pregnenolone — Posttraumatic Stress Disorder에 듣는다 — 근거 없음(2026-08-11 조회, pregnenolone AND Posttraumatic Stress Disorder; 완료 NCT03799562 결과 논문과 직접 치료 결과 확인 못함)  <!-- 시험 4건 · 논문 13편 -->
+- [x] tryptophan — Depressive Symptoms에 듣는다 — 근거 없음(2026-08-11 조회, tryptophan AND Depressive Symptoms; 직접 tryptophan 치료시험 확인 못함)  <!-- 시험 5건 · 논문 3714편 -->
+- [x] tryptophan — Solid Tumors에 듣는다 — 항암제 주제 제외(2026-08-11)  <!-- 시험 4건 · 논문 164편 -->
+- [x] tryptophan — Mood에 듣는다 — 근거 없음(2026-08-11 조회, tryptophan AND Mood; tryptophan 고갈·5-HTP 시험은 직접 보충 근거가 아님)  <!-- 시험 3건 · 논문 4508편 -->
+- [x] tryptophan — Parkinson's Disease에 듣는다 — 근거 없음(2026-08-11 조회, tryptophan AND Parkinson's Disease; 직접 tryptophan 치료 결과 확인 못함)  <!-- 시험 3건 · 논문 535편 -->
+- [x] hot water immersion — Hydrotherapy에 듣는다 — 근거 있음(2026-08-11, PMID 38734047)  <!-- 시험 3건 · 논문 54편 -->
+- [x] hot water immersion — Sports Performance에 듣는다 — 근거 없음(2026-08-11 조회, hot water immersion AND Sports Performance; 진행 중 NCT07615478 결과 논문 없음)  <!-- 시험 3건 · 논문 129편 -->
+- [x] hot water immersion — Heat에 듣는다 — 근거 있음(2026-08-11, PMID 42473313)  <!-- 시험 3건 · 논문 1527편 -->
