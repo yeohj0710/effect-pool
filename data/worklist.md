@@ -19598,3 +19598,39 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] whole plant diet — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 139편 --> — 근거 없음(2026-08-11, 식물성 식단 단독 대사증후군 결과 없음)
 - [x] propolis extract — Decay, Dental에 듣는다  <!-- 시험 4건 · 논문 51편 --> — 근거 없음(2026-08-11, 사람 충치 치료 직접 결과 없음)
 - [x] propolis extract — Oral Mucositis에 듣는다  <!-- 시험 3건 · 논문 32편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] extra virgin olive oil — Obesity에 듣는다  <!-- 시험 3건 · 논문 195편 --> — 근거 없음(2026-08-11, extra virgin olive oil AND Obesity; 등록시험은 있으나 결과 논문 없음)
+- [x] extra virgin olive oil — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 60편 --> — 근거 없음(2026-08-11, extra virgin olive oil AND Metabolic Syndrome; 등록시험은 있으나 결과 논문 없음)
+- [x] extra virgin olive oil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 289편 -->
+- [x] tart cherry juice — Inflammation에 듣는다  <!-- 시험 6건 · 논문 47편 -->
+- [x] tart cherry juice — Hypertension에 듣는다  <!-- 시험 4건 · 논문 9편 -->
+- [x] tart cherry juice — Gout에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [x] fisetin — Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 17편 --> — 근거 없음(2026-08-11, fisetin AND Osteoarthritis; 등록시험은 있으나 결과 논문 없음)
+- [x] fisetin — Alzheimer Disease에 듣는다  <!-- 시험 4건 · 논문 66편 --> — 근거 없음(2026-08-11, fisetin AND Alzheimer Disease; 등록시험은 있으나 결과 논문 없음)
+- [x] fisetin — Aging에 듣는다  <!-- 시험 3건 · 논문 200편 --> — 근거 없음(2026-08-11, fisetin AND Aging; 등록시험은 있으나 결과 논문 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] blueberry extract — Aging에 듣는다  <!-- 시험 8건 · 논문 35편 -->
+- [x] blueberry extract — Inflammation에 듣는다  <!-- 시험 7건 · 논문 21편 --> — 근거 없음(2026-08-11, blueberry extract AND Inflammation; 사람 블루베리 분말·통과 추출물의 직접 결과 없음)
+- [x] blueberry extract — Diabetes에 듣는다  <!-- 시험 7건 · 논문 11편 --> — 근거 없음(2026-08-11, blueberry extract AND Diabetes; 사람 주스·빌베리 연구는 있었으나 블루베리 추출물 단독 결과 없음)
+- [x] vitamin k2 — Obesity에 듣는다  <!-- 시험 6건 · 논문 33편 -->
+- [x] vitamin k2 — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 37편 -->
+- [x] vitamin k2 — Vascular Health에 듣는다  <!-- 시험 5건 · 논문 78편 -->
+- [x] hydrolyzed collagen — Nutrition에 듣는다  <!-- 시험 3건 · 논문 148편 --> — 근거 없음(2026-08-11, hydrolyzed collagen AND Nutrition; 등록시험은 있으나 결과 논문 없음)
