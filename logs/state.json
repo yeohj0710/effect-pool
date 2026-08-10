@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 816 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across social skills/support/walking and sodium bicarbonate/nitrite/oxybate/phenylbutyrate/thiosulfate entries",
+    "build": "passed; batch 817 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across sodium thiosulfate/valproate, solriamfetol, solution-focused therapy, somatostatin, sorafenib, sotagliflozin/sotatercept/soticlestat/sotorasib/sotrovimab, sound therapy, and sourdough entries",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -69,7 +69,7 @@
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-10",
     "six_round_check": {
-      "batches": "806-811",
+      "batches": "812-817",
       "http_status": 200,
       "local_entry_count": 4270,
       "public_entry_count": 4270,
@@ -82,13 +82,13 @@
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false
     },
-      "latest_note": "Official six-round HTTP 200 public/local check for 806-811 matched after automatic Git deployment from f2af45ef; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
+      "latest_note": "Official six-round HTTP 200 public/local check for 812-817 matched after automatic Git deployment from a9ad3bf2; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 816 data 2f71a1e5; logs checkpoint pending",
-    "last_batch": "batch 816 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit 2f71a1e5; the official public/local six-round check for batches 806-811 remains matched",
-    "next_batch": "batch 817",
-    "next_six_round_check": "after batch 817",
+    "last_committed_batch": "batch 817 data a9ad3bf2; logs checkpoint pending",
+    "last_batch": "batch 817 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit a9ad3bf2; the official public/local six-round check for batches 812-817 matched",
+    "next_batch": "batch 818",
+    "next_six_round_check": "after batch 823",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -193,7 +193,9 @@
     ,"batch 814 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across sleep sound/timing/wearable, slow breathing, smartphone, smartwatch, Snoezelen, and social-cognition entries; data commit 540eb2ae was pushed"
     ,"batch 815 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across social cognition/connection/dance/engagement, social prescribing, social robots, and ADHD social-skills entries; data commit b4973232 was pushed"
     ,"batch 816 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across social skills/support/walking and sodium bicarbonate/nitrite/oxybate/phenylbutyrate/thiosulfate entries; data commit 2f71a1e5 was pushed"
+    ,"batch 817 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims across sodium thiosulfate/valproate, solriamfetol, solution-focused therapy, somatostatin, sorafenib, sotagliflozin/sotatercept/soticlestat/sotorasib/sotrovimab, sound therapy, and sourdough entries; data commit a9ad3bf2 was pushed"
+    ,"official six-round check after batches 812-817: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; vercel --prod was not required; next check is due after batch 823"
   ],
-  "current_batch": "batch 816 committed and pushed as 2f71a1e5; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 806-811 remains matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
-  "next_action": "start batch 817 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after sodium-thiosulfate-lung-cancer-null; commit and push data then logs; perform the next official public/local six-round check after batch 817"
+  "current_batch": "batch 817 committed and pushed as a9ad3bf2; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 812-817 matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
+  "next_action": "start batch 818 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after sourdough-energy-intake-null; commit and push data then logs; perform the next official public/local six-round check after batch 823"
 }
