@@ -18632,8 +18632,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [ ] betahistine — Obesity에 듣는다  <!-- 시험 3건 · 논문 25편 -->
 - [ ] nepafenac — Macular Edema에 듣는다  <!-- 시험 18건 · 논문 109편 -->
-- [ ] nepafenac — Inflammation에 듣는다  <!-- 시험 4건 · 논문 72편 -->
-- [ ] nepafenac — Pain에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [x] nepafenac — Inflammation에 듣는다  <!-- 시험 4건 · 논문 72편 --> — 허가 적응증(2026-08-10)
+- [x] nepafenac — Pain에 듣는다  <!-- 시험 4건 · 논문 60편 --> — 허가 적응증(2026-08-10)
 - [ ] nepafenac — Diabetic Retinopathy에 듣는다  <!-- 시험 4건 · 논문 26편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)

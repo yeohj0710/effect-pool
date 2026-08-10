@@ -1,0 +1,31 @@
+{
+  "id": "nepafenac-macular-edema-open",
+  "subj": "nepafenac",
+  "claim": "황반부종에 네파페낙을 쓴다",
+  "line": "네파페낙은 일부 수술 후·약물 유발 황반부종을 줄였지만 근거가 섞였다.",
+  "effect": "수술 후 황반부종 감소·약물 유발 증례",
+  "tier": "trial",
+  "dir": "open",
+  "n": 1220,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "네파페낙의 FDA 허가 적응증은 백내장 수술에 따른 통증·염증이며 황반부종 치료는 허가 범위 밖이다.",
+  "why": "수술 후 황반부종 예방·치료시험과 핑골리모드 부작용 황반부종 증례에서 네파페낙의 효과 신호를 확인했다.",
+  "saw": "백내장 수술 후 황반부종 536안의 임상 경과에서 네파페낙을 사용한 19안 중 18안은 2개월 안에 부종이 해소됐다. 당뇨 환자 수술 후 예방을 본 두 3상 무작위시험은 총 1,220명에서 황반부종 발생률이 네파페낙군 4.1%, 대조군 15.9%였다. 핑골리모드로 생긴 황반부종 1건은 약을 중단하지 않고 네파페낙 점안으로 조절됐다.",
+  "limit": "수술 후 예방·발생 후 치료·약물 유발 부종을 함께 묶었고, 핑골리모드 사례는 단일 증례이며 적응증별 용량과 비교군이 다르다.",
+  "against": "핑골리모드 유발 황반부종에는 비교시험이 없고 일부 치료 자료는 비무작위 증례군이라 약물 중단 없이 치료할 수 있다고 일반화할 수 없다.",
+  "use": "황반부종 원인과 시력을 안과에서 확인한 뒤 보조 치료로 평가하고, 원인 약물 중단 여부는 안과·해당 진료과가 함께 결정한다.",
+  "refs": [
+    { "label": "수술 후 낭포황반부종 536안의 네파페낙 임상 경과", "doi": "10.3390/jcm9093034", "pmid": "32967137" },
+    { "label": "핑골리모드 유발 황반부종을 네파페낙으로 조절한 증례", "doi": "10.1186/s12948-020-00119-4", "pmid": "32190009" },
+    { "label": "당뇨 환자 백내장 수술 후 황반부종 예방 네파페낙 3상시험", "doi": "10.1016/j.ophtha.2017.01.036", "pmid": "28268098" },
+    { "label": "수술 후 낭포황반부종 네파페낙 전향적 증례군", "doi": "10.2147/TCRM.S271184", "pmid": "33192068" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "nepafenac AND Macular Edema · 20건 반환, InterventionName 완전일치 5건(NCT00900887, NCT02084576, NCT00801905, NCT00494494, NCT01939691)",
+    "pubmed": "nepafenac AND Macular Edema · 109편",
+    "negative": "nepafenac AND Macular Edema AND (no effect OR did not OR failed OR negative OR no significant difference) · 78편",
+    "safety": "nepafenac AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 116편"
+  }
+}
