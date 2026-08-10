@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 882 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; no data edits were needed because line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 883 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; no data edits were needed because line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -69,7 +69,7 @@
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-10",
     "six_round_check": {
-      "batches": "872-877",
+      "batches": "878-883",
       "http_status": 200,
       "local_entry_count": 4270,
       "public_entry_count": 4270,
@@ -83,13 +83,13 @@
       "vercel_prod_required": false,
       "data_sha256": "c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c"
     },
-      "latest_note": "Official six-round HTTP 200 public/local check for 872-877 matched at 4270 entries, 5919 refs, shard 48, 4275 id fields, updated 2026-08-09, and identical DATA SHA-256 c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c; automatic Git deployment was sufficient and vercel --prod was not required."
+      "latest_note": "Official six-round HTTP 200 public/local check for 878-883 matched at 4270 entries, 5919 refs, shard 48, 4275 id fields, updated 2026-08-09, and identical DATA SHA-256 c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 882 data unchanged; logs checkpoint pending",
-    "last_batch": "batch 882 processed 0 topics, made no data edits because all line/effect/known/scale warnings are 0, passed build validation, and recorded a logs-only checkpoint after the official public/local six-round check for batches 872-877",
-    "next_batch": "batch 883",
-    "next_six_round_check": "after batch 883",
+    "last_committed_batch": "batch 883 data unchanged; logs checkpoint pending",
+    "last_batch": "batch 883 processed 0 topics, made no data edits because all line/effect/known/scale warnings are 0, passed build validation, and completed the official public/local six-round check for batches 878-883",
+    "next_batch": "batch 884",
+    "next_six_round_check": "after batch 889",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -272,7 +272,9 @@
     ,"batch 880 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; build passed with line/translation, effect, known, and scale warnings at 0; no data edits were needed, so this is a logs-only checkpoint"
     ,"batch 881 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; build passed with line/translation, effect, known, and scale warnings at 0; no data edits were needed, so this is a logs-only checkpoint"
     ,"batch 882 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; build passed with line/translation, effect, known, and scale warnings at 0; no data edits were needed, so this is a logs-only checkpoint"
+    ,"batch 883 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; build passed with line/translation, effect, known, and scale warnings at 0; no data edits were needed"
+    ,"official six-round check after batches 878-883: HTTP 200 in all 6 rounds; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48, updated 2026-08-09, and identical DATA SHA-256 c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c; automatic Git deployment was sufficient and vercel --prod was not required"
   ],
-  "current_batch": "batch 882 logs checkpoint prepared; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, 0 line/translation/effect/known/scale warnings, and no data edits; official six-round check for 872-877 matched automatically at HTTP 200 with 4275 id fields and identical DATA SHA-256 c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c; 30 unchecked topics remain",
-  "next_action": "start batch 883 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, rerun the build, then perform the official public/local six-round check after batch 883; commit and push logs"
+  "current_batch": "batch 883 logs checkpoint prepared; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, 0 line/translation/effect/known/scale warnings, and no data edits; official six-round check for 878-883 matched automatically at HTTP 200 with 4275 id fields and identical DATA SHA-256 c82897437e854c939c168ba7fa42b161a3dfe108fab06e9852c3ee95e87aa94c; 30 unchecked topics remain",
+  "next_action": "start batch 884 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, rerun the build, and continue maintenance; commit and push logs or data as applicable; perform the next official public/local six-round check after batch 889"
 }
