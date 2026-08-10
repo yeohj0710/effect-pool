@@ -19985,3 +19985,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tenecteplase — Endovascular Treatment에 듣는다 — 근거 있음(2026-08-11, PMID 40616323·NCT05624190)  <!-- 시험 5건 · 논문 220편 -->
 - [x] protamine — Cardiac Surgery에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 6건 · 논문 1300편 -->
 - [x] protamine — Heart Valve Diseases에 듣는다 — 근거 있음(2026-08-11, PMID 39322039)  <!-- 시험 4건 · 논문 80편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] avatrombopag — Aplastic Anemia에 듣는다 — 근거 있음(2026-08-11, PMID 40617806)  <!-- 시험 8건 · 논문 26편 -->
+- [x] avatrombopag — Liver Failure에 듣는다 — 근거 있음(2026-08-11, PMID 29778606·NCT01972529·NCT01976104)  <!-- 시험 5건 · 논문 10편 -->
+- [x] avatrombopag — Idiopathic Thrombocytopenic Purpura에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 4건 · 논문 79편 -->
+- [x] avatrombopag — Platelet Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 30191972·NCT01438840)  <!-- 시험 3건 · 논문 147편 -->
+- [x] ganciclovir — HIV에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 82건 · 논문 872편 -->
+- [x] ganciclovir — Cytomegalovirus에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 60건 · 논문 6356편 -->
+- [x] ganciclovir — Leukemia에 듣는다 — 항암제 주제 제외(2026-08-11)  <!-- 시험 38건 · 논문 390편 -->
+- [x] ganciclovir — Kidney Diseases에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 24건 · 논문 444편 -->
+- [x] bardoxolone — Chronic Kidney Disease에 듣는다 — 근거 있음(2026-08-11, PMID 36411058·NCT03019185)  <!-- 시험 8건 · 논문 116편 -->
+- [x] bardoxolone — End-Stage Renal Disease에 듣는다 — 근거 없음(2026-08-11, bardoxolone AND End-Stage Renal Disease)  <!-- 시험 6건 · 논문 61편 -->
