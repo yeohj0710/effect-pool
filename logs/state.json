@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-11",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4634,
+  "entries": 4641,
   "worklist": {
-    "total": 14664,
-    "checked": 14661,
+    "total": 14672,
+    "checked": 14669,
     "unchecked": 3,
-    "no_evidence_pending": 1845,
+    "no_evidence_pending": 1846,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
@@ -15,29 +15,29 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1145 added 17 evidence entries across albendazole, praziquantel, clarithromycin, diazoxide, isokinetic exercise, and sprint training, closed 3 direct-no-evidence lines, 2 approved-indication lines, and 1 oncology hold, tightened 20 legacy claim sentences, and pushed data/worklist b61f36e0 plus legacy sentence ebb6a5b0; build matched at 4634 entries and 6553 refs with new line/effect/known/scale/English warnings at 0; truthful small-study and unknown-n warnings remain",
+    "build": "passed; batch 1146 added 7 evidence entries across electric toothbrush and hand grip training, closed 1 direct-no-evidence line, tightened 20 legacy claim sentences, and pushed data/worklist 4aabbf71 plus legacy sentence d729bf88; build matched at 4641 entries and 6560 refs with new line/effect/known/scale/English warnings at 0; truthful small-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 370,
     "known_warnings": 2,
-    "thin_warnings": 859,
+    "thin_warnings": 862,
     "tier_distribution": {
-      "trial": 3987,
+      "trial": 3994,
       "obs": 573,
       "animal": 23,
       "lab": 11,
       "case": 40
     },
-    "no_effect_or_harm": 1071,
+    "no_effect_or_harm": 1072,
     "harm": 140,
     "no_effect_or_harm_share": "23%",
     "non_trial": 647,
-    "trial_share": "86.0%",
-    "non_trial_share": "14.0%",
+    "trial_share": "86.1%",
+    "non_trial_share": "13.9%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6553
+    "connected_evidence": 6560
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -45,7 +45,7 @@
     "six_round_check": {
     "batches": "1136-1141",
       "http_status": 200,
-    "local_entry_count": 4588,
+      "local_entry_count": 4588,
     "public_entry_count": 4588,
     "local_id_field_count": 4588,
     "public_id_field_count": 4588,
@@ -59,12 +59,12 @@
       "vercel_prod_required": false,
     "data_sha256": "3453b1a44ea217eacd5eb7c02b93b3383cf5541f1a6a0268a04fd7b1c2658171"
     },
-    "latest_note": "The latest official six-round HTTP 200 public/local check covered batches 1136-1141 and matched at 4588 entries and 6502 refs with identical DATA SHA-256 3453b1a44ea217eacd5eb7c02b93b3383cf5541f1a6a0268a04fd7b1c2658171; batch 1145 commits b61f36e0 and ebb6a5b0 are pushed, and the next official check is due after batch 1147."
+    "latest_note": "The latest official six-round HTTP 200 public/local check covered batches 1136-1141 and matched at 4588 entries and 6502 refs with identical DATA SHA-256 3453b1a44ea217eacd5eb7c02b93b3383cf5541f1a6a0268a04fd7b1c2658171; batch 1146 commits 4aabbf71 and d729bf88 are pushed, and the next official check is due after batch 1147."
   },
   "resume": {
-    "last_committed_batch": "batch 1145 data/worklist commit b61f36e0 and legacy sentence commit ebb6a5b0 pushed; state checkpoint pending",
-    "last_batch": "batch 1145 started with 3 exhausted lookup failures; the first mixed 20-name expansion with at least eight non-drug names produced 23 candidates, so no second expansion was needed; processed 23 new worklist lines, added 17 evidence entries across albendazole, praziquantel, clarithromycin, diazoxide, isokinetic exercise, and sprint training, closed 3 direct-no-evidence lines, 2 approved-indication lines, and 1 oncology hold, removed 1 registry-only ACL entry after the build rule rejected it, tightened 20 legacy claim sentences, and pushed data/worklist b61f36e0 plus legacy sentence ebb6a5b0; build matched at 4634 entries and 6553 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; the next official six-round public/local deployment check is due after batch 1147",
-    "next_batch": "batch 1146",
+    "last_committed_batch": "batch 1146 data/worklist commit 4aabbf71 and legacy sentence commit d729bf88 pushed; state checkpoint committed separately",
+    "last_batch": "batch 1146 started with 3 exhausted lookup failures; two different 20-name expansions with at least five non-drug names produced 4 then 4 candidates, so expansion stopped after the second attempt; processed 8 new worklist lines, added 7 evidence entries across electric toothbrush and hand grip training, closed 1 direct-no-evidence line, tightened 20 legacy claim sentences, and pushed data/worklist 4aabbf71 plus legacy sentence d729bf88; build matched at 4641 entries and 6560 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; the next official six-round public/local deployment check is due after batch 1147",
+    "next_batch": "batch 1147",
     "next_six_round_check": "after batch 1147",
     "untracked_preserved": [
       "build-batch283.log",
@@ -547,8 +547,9 @@
     "batch 1142 started with 3 exhausted lookup failures; three different 20-name expansions with at least five non-drug options produced 5, 16, and 4 candidates, so expansion stopped after the third allowed attempt; processed 25 new worklist lines, added 19 evidence entries, closed 4 direct-no-evidence lines and 2 oncology holds, tightened 20 legacy claim sentences, and pushed data/worklist 3bcb35b6 plus legacy sentence 3cc90b7f; build matched at 4607 entries and 6526 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next six-round public/local check is due after batch 1147.",
     "batch 1143 started with 3 exhausted lookup failures; two different 20-name expansions with at least five non-drug options produced 8 then 1 candidates, so expansion stopped after the second attempt; processed 9 new worklist lines, added 6 vitamin B1, vitamin B2, and volleyball evidence entries, closed 3 direct-no-evidence lines, tightened 20 legacy claim sentences, and pushed data/worklist f065544f plus legacy sentence 80bec644; build matched at 4613 entries and 6532 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next official six-round public/local check is due after batch 1147.",
     "batch 1144 started with 3 exhausted lookup failures; two different 20-name expansions with at least five non-drug options produced 1 then 9 candidates, so expansion stopped after the second attempt; processed 10 new worklist lines, added 4 diazepam, alprazolam, and perphenazine evidence entries, closed 2 direct-no-evidence lines and 4 approved-indication lines, tightened 20 legacy claim sentences, and pushed data/worklist db9bcf3e plus legacy sentence 51b5ce5e; build matched at 4617 entries and 6536 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next official six-round public/local check is due after batch 1147.",
-    "batch 1145 started with 3 exhausted lookup failures; the first mixed 20-name expansion with at least eight non-drug names produced 23 candidates, so no second expansion was needed; processed 23 new worklist lines, added 17 evidence entries across albendazole, praziquantel, clarithromycin, diazoxide, isokinetic exercise, and sprint training, closed 3 direct-no-evidence lines, 2 approved-indication lines, and 1 oncology hold, removed 1 registry-only ACL entry after the build rule rejected it, tightened 20 legacy claim sentences, and pushed data/worklist b61f36e0 plus legacy sentence ebb6a5b0; build matched at 4634 entries and 6553 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next official six-round public/local check is due after batch 1147."
+    "batch 1145 started with 3 exhausted lookup failures; the first mixed 20-name expansion with at least eight non-drug names produced 23 candidates, so no second expansion was needed; processed 23 new worklist lines, added 17 evidence entries across albendazole, praziquantel, clarithromycin, diazoxide, isokinetic exercise, and sprint training, closed 3 direct-no-evidence lines, 2 approved-indication lines, and 1 oncology hold, removed 1 registry-only ACL entry after the build rule rejected it, tightened 20 legacy claim sentences, and pushed data/worklist b61f36e0 plus legacy sentence ebb6a5b0; build matched at 4634 entries and 6553 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next official six-round public/local check is due after batch 1147.",
+    "batch 1146 started with 3 exhausted lookup failures; two different 20-name expansions with at least five non-drug names produced 4 then 4 candidates, so expansion stopped after the second attempt; processed 8 new worklist lines, added 7 evidence entries across electric toothbrush and hand grip training, closed 1 direct-no-evidence line, tightened 20 legacy claim sentences, and pushed data/worklist 4aabbf71 plus legacy sentence d729bf88; build matched at 4641 entries and 6560 refs with new line/effect/known/scale/English warnings at 0; the 3 exhausted lookup failures remain unchecked; next official six-round public/local check is due after batch 1147."
   ],
-  "current_batch": "batch 1145 checkpoint: 4634 entries/6553 refs; added 17 evidence entries, closed 3 direct-no-evidence lines, 2 approved-indication lines, and 1 oncology hold, tightened 20 legacy claim sentences, kept new line/effect/known/scale/English warnings at 0, and left truthful unknown-n warnings for source-reported missing totals; worklist is 14664 total, 14661 checked, 3 unchecked; commits b61f36e0 and ebb6a5b0 pushed; next official six-round check is due after batch 1147",
-  "next_action": "start batch 1146 with git pull, read AGENTS.md, count the 3 exhausted lookup failures, and continue with a different mixed or food-and-lifestyle expansion branch; gate approvals before research, then build, commit, push, and checkpoint state"
+  "current_batch": "batch 1146 checkpoint: 4641 entries/6560 refs; added 7 evidence entries, closed 1 direct-no-evidence line, tightened 20 legacy claim sentences, kept new line/effect/known/scale/English warnings at 0, and left truthful unknown-n warnings for source-reported missing totals; worklist is 14672 total, 14669 checked, 3 unchecked; commits 4aabbf71 and d729bf88 pushed; next official six-round check is due after batch 1147",
+  "next_action": "start batch 1147 with git pull, read AGENTS.md, count the 3 exhausted lookup failures, run the required six-round public/local deployment check after the batch, then continue with a different mixed or food-and-lifestyle expansion branch; gate approvals before research, build, commit, push, and checkpoint state"
 }
