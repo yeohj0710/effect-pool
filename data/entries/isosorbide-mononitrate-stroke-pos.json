@@ -1,0 +1,30 @@
+{
+  "id": "isosorbide-mononitrate-stroke-pos",
+  "subj": "이소소르비드 모노나이트레이트",
+  "claim": "열공성 뇌졸중 환자에서 이소소르비드 모노나이트레이트가 재발 뇌졸중과 인지장애를 줄인다",
+  "line": "열공성 뇌졸중에서 이소소르비드는 재발 뇌졸중과 인지장애를 줄였다.",
+  "effect": "재발 뇌졸중·인지장애 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 363,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "이소소르비드 모노나이트레이트 허가 적응증은 관상동맥질환에 따른 협심증이며 뇌졸중 예방은 허가 범위 밖",
+  "why": "열공성 뇌졸중 환자를 이소소르비드 모노나이트레이트, 실로스타졸, 병용, 대조군에 무작위 배정한 LACI-2 사람 시험이 있어 trial이다. 이소소르비드군에서 재발 뇌졸중과 인지장애가 줄어 pos로 분류했다.",
+  "saw": "363명이 2×2 요인 무작위시험에 참여했다. 12개월 동안 이소소르비드는 복합 결과 전체를 유의하게 줄이지 못했지만 재발 뇌졸중은 보정 OR 0.23, 인지장애는 보정 OR 0.55로 줄였다. 6개월 분석에서도 복합 사건과 뇌졸중 영향 점수가 개선됐다.",
+  "limit": "공개형 2b상 시험이고 복합 1차 결과는 유의하지 않았다. 재발 뇌졸중과 인지장애 결과는 2차 결과이며 실로스타졸과 병용 효과가 섞일 수 있다.",
+  "against": "12개월 복합 혈관·기능·인지·사망 결과는 유의하게 줄지 않았다. 장기 장애 예방과 사망률 효과는 더 큰 시험이 필요하다.",
+  "use": "열공성 뇌졸중 뒤 이소소르비드의 재발·인지 결과를 확인하는 후속 연구가 필요하다.",
+  "refs": [
+    { "label": "Bath 2023 · JAMA Neurol · LACI-2 무작위시험", "doi": "10.1001/jamaneurol.2023.1526", "pmid": "37222252", "pmc": "PMC10209826", "nct": "NCT03451591" },
+    { "label": "Bath 2026 · JAHA · LACI-2 6개월 결과", "doi": "10.1161/JAHA.125.046235", "pmid": "42535538" },
+    { "label": "Markus 2022 · Stroke · LACI-1 뇌혈관 반응", "doi": "10.1161/STROKEAHA.121.034866", "pmid": "34847709", "pmc": "PMC8700302" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=isosorbide mononitrate AND query.cond=Stroke · 4건, 직접 중재 4건",
+    "pubmed": "isosorbide mononitrate AND Stroke · 43편",
+    "negative": "isosorbide mononitrate AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 38편",
+    "safety": "isosorbide mononitrate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 335편"
+  }
+}
