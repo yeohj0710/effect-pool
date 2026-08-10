@@ -18948,3 +18948,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] tafenoquine — Babesiosis에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 17편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] abacavir — Human Immunodeficiency Virus에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 13건 · 논문 2460편 -->
+- [x] abacavir — Lipodystrophy에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 4건 · 논문 106편 -->
+- [x] abacavir — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=abacavir AND query.cond=Tuberculosis 3건; PubMed exact 55편, HIV/TB 병용 연구만)  <!-- 시험 3건 · 논문 55편 -->
+- [x] lamivudine — Hepatitis에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 68건 · 논문 5808편 -->
+- [x] lamivudine — Chronic Infection에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 28건 · 논문 1821편 -->
+- [x] lamivudine — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=lamivudine AND query.cond=Tuberculosis 30건; PubMed exact 221편, HIV/TB 병용 연구만)  <!-- 시험 12건 · 논문 221편 -->
+- [x] lamivudine — Pregnancy에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 9건 · 논문 660편 -->
+- [x] emtricitabine — Human Immunodeficiency Virus에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 22건 · 논문 4186편 -->
+- [x] emtricitabine — Hepatitis B에 듣는다 — 근거 없음(2026-08-10, CT query.intr=emtricitabine AND query.cond=Hepatitis B 28건; PubMed exact 378편, 단독 치료 자료 없음)  <!-- 시험 16건 · 논문 378편 -->
+- [x] emtricitabine — Medication Adherence에 듣는다 — 근거 없음(2026-08-10, CT query.intr=emtricitabine AND query.cond=Medication Adherence 19건; PubMed exact 369편, 복약순응도 측정 연구만)  <!-- 시험 6건 · 논문 369편 -->
+- [x] emtricitabine — Hormone Therapy에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 6건 · 논문 86편 -->
+- [x] raltegravir — Virus Diseases에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 16건 · 논문 1714편 -->
+- [x] raltegravir — Hepatitis C에 듣는다 — 근거 없음(2026-08-10, CT query.intr=raltegravir AND query.cond=Hepatitis C 18건; PubMed exact 98편, HCV 직접 치료 자료 없음)  <!-- 시험 7건 · 논문 98편 -->
+- [x] raltegravir — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=raltegravir AND query.cond=Tuberculosis 6건; PubMed exact 50편, HIV/TB 병용 연구만)  <!-- 시험 6건 · 논문 50편 -->
+- [x] raltegravir — Fatty Liver에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 6건 · 논문 8편 -->
+- [x] efavirenz — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=efavirenz AND query.cond=Tuberculosis 40건; PubMed exact 371편, HIV/TB 병용 연구만)  <!-- 시험 22건 · 논문 371편 -->
+- [x] efavirenz — Human Immunodeficiency Virus에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 16건 · 논문 5313편 -->
+- [x] efavirenz — AIDS에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 10건 · 논문 2220편 -->
+- [x] efavirenz — Hepatitis C에 듣는다 — 근거 없음(2026-08-10, CT query.intr=efavirenz AND query.cond=Hepatitis C 19건; PubMed exact 152편, HCV 직접 치료 자료 없음)  <!-- 시험 10건 · 논문 152편 -->
+- [x] lopinavir — COVID에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 27건 · 논문 1481편 -->
+- [x] lopinavir — Virus Disease에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 19건 · 논문 3243편 -->
+- [x] lopinavir — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=lopinavir AND query.cond=Tuberculosis 14건; PubMed exact 133편, 약동학·병용 연구만)  <!-- 시험 11건 · 논문 133편 -->
+- [x] lopinavir — Pneumonia에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 8건 · 논문 945편 -->

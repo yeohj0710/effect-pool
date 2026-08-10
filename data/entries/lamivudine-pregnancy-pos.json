@@ -1,0 +1,28 @@
+{
+  "id": "lamivudine-pregnancy-pos",
+  "subj": "lamivudine",
+  "claim": "임신 중 라미부딘이 B형간염 수직감염을 줄이는가",
+  "line": "임신 중 라미부딘은 신생아의 B형간염 수직감염을 줄였다.",
+  "effect": "수직감염 OR 0.16",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2080,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "라미부딘은 만성 B형간염과 HIV 치료에는 허가됐지만 임신 중 수직감염 예방 용도로는 허가되지 않았다.",
+  "why": "임신 중 항바이러스 예방요법으로 신생아 B형간염 수직감염을 줄이는 무작위시험과 비무작위 연구를 체계적으로 검토했다.",
+  "saw": "라미부딘 연구 40건에서 산모 2,080명과 신생아 2,007명을 분석했고, 무작위시험에서 수직감염 감소 OR은 0.16(95% CI 0.10–0.26)이었다. 산모·신생아 안전성 증가는 확인되지 않았다.",
+  "limit": "라미부딘 연구만으로 구성된 단일 대규모 무작위시험이 아니며, WHO 검토는 임신 중 예방약으로 테노포비르를 구체적으로 권고했다.",
+  "against": "연구 간 설계와 예방 시점이 달라 모든 임신부에게 같은 효과를 보장하지 않는다.",
+  "use": "임신 중 B형간염 수직감염 예방에 라미부딘을 임의로 선택하지 말고, 간 전문의와 현재 권고 약제를 우선 검토한다.",
+  "refs": [
+    { "label": "임신 중 B형간염 수직감염 예방 항바이러스 메타분석", "doi": "10.1016/S1473-3099(20)30586-7", "pmid": "32805200" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=lamivudine AND query.cond=Pregnancy; 40건",
+    "pubmed": "lamivudine AND Pregnancy; 660편",
+    "negative": "lamivudine AND Pregnancy AND (no effect OR no significant difference OR failed OR negative); 477편",
+    "safety": "lamivudine AND (adverse OR toxicity OR harm OR case report); 4244편"
+  }
+}
