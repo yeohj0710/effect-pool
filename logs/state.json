@@ -1,39 +1,39 @@
 {
   "updated": "2026-08-11",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4737,
+  "entries": 4739,
   "worklist": {
-    "total": 14809,
-    "checked": 14809,
+    "total": 14810,
+    "checked": 14810,
     "unchecked": 0,
     "no_evidence_pending": 1880,
     "next_batch": [],
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1159 had two different mixed expansions producing 4 then 5 candidates, added 8 evidence entries for brolucizumab, lifitegrast, pegloticase, tanezumab, and outdoor time, marked two approved indications, tightened 20 legacy claim sentences, and pushed data/worklist bbeb5830; build produced 4737 entries and 6693 refs; new line/effect/known/scale/English warnings are 0; truthful small-study warnings remain",
+    "build": "passed; batch 1160 had two different mixed expansions producing 1 then 0 candidates, added positive and null sauna-blood-pressure evidence entries, tightened 20 legacy claim sentences, and pushed data/worklist 1eb56908; build produced 4739 entries and 6698 refs; new line/effect/known/scale/English warnings are 0; truthful small-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 373,
     "known_warnings": 0,
-    "thin_warnings": 893,
+    "thin_warnings": 895,
     "tier_distribution": {
-      "trial": 4077,
+      "trial": 4079,
       "obs": 584,
       "animal": 23,
       "lab": 11,
       "case": 42
     },
-    "no_effect_or_harm": 1094,
+    "no_effect_or_harm": 1095,
     "harm": 144,
     "no_effect_or_harm_share": "23%",
     "non_trial": 660,
     "trial_share": "86.1%",
     "non_trial_share": "13.9%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6693
+    "connected_evidence": 6698
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -557,8 +557,9 @@
     "batch 1156 started with 0 unchecked lines; two different mixed expansions produced 1 then 4 candidates; added 4 evidence entries for mirogabalin and pasireotide, marked two approved pasireotide indications, closed one pasireotide oncology line, tightened 20 legacy claim sentences, and pushed data/worklist 152661b1; build matched at 4717 entries and 6664 refs with new line/effect/known/scale/English warnings at 0; next official six-round public/local check remains due after batch 1159.",
     "batch 1157 started with 0 unchecked lines; two different mixed expansions produced 0 then 5 candidates; added 5 evidence entries for relamorelin and silodosin, tightened 20 legacy claim sentences, and pushed data/worklist e962a3af; build matched at 4722 entries and 6670 refs with new line/effect/known/scale/English warnings at 0; next official six-round public/local check remains due after batch 1159.",
     "batch 1158 started with 0 unchecked lines; two different mixed expansions produced 0 then 10 candidates; added 7 evidence entries for D-cycloserine and nitrous oxide, marked two approved indications, closed ibogaine Drug Dependence as no direct result paper, tightened 20 legacy claim sentences, and pushed data/worklist 6e9a013b; build matched at 4729 entries and 6678 refs with new line/effect/known/scale/English warnings at 0; next official six-round public/local check remains due after batch 1159.",
-    "batch 1159 started with 0 unchecked lines; two different mixed expansions produced 4 then 5 candidates; added 8 evidence entries for brolucizumab, lifitegrast, pegloticase, tanezumab, and outdoor time, marked two approved indications, tightened 20 legacy claim sentences, and pushed data/worklist bbeb5830; build matched at 4737 entries and 6693 refs with new line/effect/known/scale/English warnings at 0; official six-round HTTP 200 public/local check matched all 6 rounds at 4737 entries and 6693 refs with identical DATA SHA-256 97e2399604fba314d4d1afacbe3b4c1bde0ad8a36834392d2da64e3aedb949c4; automatic Git deployment was sufficient and vercel --prod was not required; next check is due after batch 1165."
+    "batch 1159 started with 0 unchecked lines; two different mixed expansions produced 4 then 5 candidates; added 8 evidence entries for brolucizumab, lifitegrast, pegloticase, tanezumab, and outdoor time, marked two approved indications, tightened 20 legacy claim sentences, and pushed data/worklist bbeb5830; build matched at 4737 entries and 6693 refs with new line/effect/known/scale/English warnings at 0; official six-round HTTP 200 public/local check matched all 6 rounds at 4737 entries and 6693 refs with identical DATA SHA-256 97e2399604fba314d4d1afacbe3b4c1bde0ad8a36834392d2da64e3aedb949c4; automatic Git deployment was sufficient and vercel --prod was not required; next check is due after batch 1165.",
+    "batch 1160 started with 0 unchecked lines; two different mixed expansions produced 1 then 0 candidates, so expansion stopped after the second attempt; added positive and null sauna-blood-pressure evidence entries, tightened 20 legacy claim sentences, and pushed data/worklist 1eb56908; build matched at 4739 entries and 6698 refs with new line/effect/known/scale/English warnings at 0; truthful thin-study and unknown-n warnings remain; next official six-round public/local check is due after batch 1165."
   ],
-  "current_batch": "batch 1159 checkpoint: 4737 entries/6693 refs; added 8 evidence entries, tightened 20 legacy claim sentences, kept new line/effect/known/scale/English warnings at 0, and preserved truthful thin-study warnings; worklist is 14809 total, 14809 checked, 0 unchecked; commit bbeb5830 pushed; official six-round public/local check passed; next batch is 1160",
-  "next_action": "start batch 1160 with git pull, read AGENTS.md, count remaining work, expand with a new mixed set when below 30, gate approvals before research, then build, commit, push, update state, and continue looping"
+  "current_batch": "batch 1160 checkpoint: 4739 entries/6698 refs; added positive and null sauna-blood-pressure evidence entries, tightened 20 legacy claim sentences, kept new line/effect/known/scale/English warnings at 0, and preserved truthful thin-study and unknown-n warnings; worklist is 14810 total, 14810 checked, 0 unchecked; commit 1eb56908 pushed; next batch is 1161",
+  "next_action": "start batch 1161 with git pull, read AGENTS.md, count remaining work, expand with a new mixed set when below 30, gate approvals before research, then build, commit, push, update state, and continue looping"
 }
