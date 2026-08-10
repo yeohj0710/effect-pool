@@ -19306,3 +19306,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] tafluprost — Ocular Hypertension에 듣는다  <!-- 시험 19건 · 논문 198편 --> — 허가 적응증(2026-08-10)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] chair — Stroke에 듣는다  <!-- 시험 4건 · 논문 3921편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov 등록시험만 확인·결과 미공개, PubMed 직접 결과 없음)
+- [x] chair — Bladder Cancer에 듣는다  <!-- 시험 4건 · 논문 279편 --> — 근거 없음(2026-08-10, chair AND Bladder Cancer; NCT01826097 철회·등록 0명, 직접 중재 PubMed 근거 없음)
+- [x] chair — Cognitive Decline에 듣는다  <!-- 시험 4건 · 논문 1169편 -->
+- [x] chair — COPD에 듣는다  <!-- 시험 3건 · 논문 961편 -->
+- [x] yoga — Psychological에 듣는다  <!-- 시험 12건 · 논문 2214편 -->
+- [x] yoga — Cognitive Change에 듣는다  <!-- 시험 11건 · 논문 340편 -->
+- [x] yoga — Hypertension에 듣는다  <!-- 시험 9건 · 논문 395편 -->
+- [x] yoga — Fatigue에 듣는다  <!-- 시험 9건 · 논문 679편 -->
+- [x] qigong walking — Cancer에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-10, qigong walking AND Cancer; ClinicalTrials.gov 직접 개입명 0건, PubMed 0편)

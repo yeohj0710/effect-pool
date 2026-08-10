@@ -1,0 +1,29 @@
+{
+  "id": "chair-copd-pos",
+  "subj": "chair",
+  "claim": "chair-based exercise가 COPD 환자의 운동능력과 일부 호흡 지표를 개선한다",
+  "line": "만성폐쇄성폐질환 환자의 의자 운동에서 운동능력과 일부 호흡 지표가 개선됐습니다.",
+  "effect": "6분 보행거리·호흡근력·최대 호기유량 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 64,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "chair-based exercise는 COPD 재활 중재이며 COPD 치료의 허가 적응증을 가진 약물이 아닙니다.",
+  "why": "서기 운동이 어려운 COPD 환자에게 의자 지지 운동이 표준 가정 운동의 대안이 될 수 있는지 비교한 시험입니다.",
+  "saw": "COPD 환자 64명을 표준 운동군 32명과 chair-based exercise군 32명으로 나눠 8주간 운동했습니다. 두 군 모두 호흡곤란, 피로, 불안·우울과 삶의 질이 좋아졌고, chair-based exercise군에서 6분 보행거리·흡기근력·호기근력·최대 호기유량도 유의하게 개선됐습니다.",
+  "limit": "단일 무작위 시험이고 눈가림을 하지 않았으며, 군 간 차이는 최대 호기근력과 최대 호기유량 일부 지표에 국한됐습니다.",
+  "against": "표준 운동군도 증상, 신체활동과 삶의 질이 개선돼 chair-based exercise가 모든 결과에서 더 우월하다고 볼 수 없습니다.",
+  "use": "서기 어려움이나 균형 제한이 있는 COPD 환자의 재활 선택지로 검토하되 호흡기 진료를 대신하지 않습니다.",
+  "refs": [
+    { "label": "Chair-based versus standard home exercise programs in people with COPD: A randomized controlled trial", "pmid": "42143500" },
+    { "label": "Chair-based and Standard Exercise Programs in People With COPD", "nct": "NCT06201299" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=chair · query.cond=COPD: 31건, 직접 개입명 포함 5건",
+    "pubmed": "chair AND COPD[Title/Abstract]: 536편 · chair-based exercise AND chronic obstructive pulmonary disease: 1편",
+    "negative": "chair AND COPD[Title/Abstract] AND (no effect OR did not OR failed to OR negative OR no significant difference): 90편",
+    "safety": "chair AND (adverse OR toxicity OR case report OR overdose OR self-medication): 13592편"
+  }
+}
