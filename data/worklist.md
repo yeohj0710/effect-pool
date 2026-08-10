@@ -20254,3 +20254,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cultural engagement — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1421편 -->
 - [x] drama activity — Physical Health에 듣는다  <!-- 시험 4건 · 논문 61편 --> — 근거 없음(2026-08-11 조회, "drama activity" AND "Physical Health")
 - [x] nature viewing — Stress, Psychological에 듣는다  <!-- 시험 3건 · 논문 348편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] nicotine gum — Tobacco에 듣는다  <!-- 시험 61건 · 논문 919편 --> — 허가 적응증(2026-08-11)
+- [x] nicotine gum — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 31편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] nicotine gum — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 32편 --> — 근거 없음(2026-08-11 조회, "nicotine gum" AND "Schizophrenia"; 조현병 자체 결과를 분리한 원저 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] community participation — Diabetes에 듣는다  <!-- 시험 9건 · 논문 3091편 --> — 근거 없음(2026-08-11 조회, "community participation" AND "Diabetes"; 직접 중재 원저 없음)
+- [x] community participation — Antibiotic Use에 듣는다  <!-- 시험 9건 · 논문 571편 --> — 근거 없음(2026-08-11 조회, "community participation" AND "Antibiotic Use"; 직접 중재 결과 없음)
+- [x] community participation — Social Isolation에 듣는다  <!-- 시험 7건 · 논문 1206편 --> — 근거 없음(2026-08-11 조회, "community participation" AND "Social Isolation"; 직접 중재 결과 없음)
+- [x] community participation — Spinal Cord Injury에 듣는다  <!-- 시험 5건 · 논문 659편 --> — 근거 없음(2026-08-11 조회, "community participation" AND "Spinal Cord Injury"; 직접 중재 결과 없음)
+- [x] sodium butyrate — Alcohol Dependence에 듣는다  <!-- 시험 5건 · 논문 71편 -->
+- [x] sodium butyrate — Myocardial Ischemia에 듣는다  <!-- 시험 4건 · 논문 42편 -->
+- [x] cocoa extract — Diabetes에 듣는다  <!-- 시험 12건 · 논문 73편 -->
+- [x] cocoa extract — Endothelial Function에 듣는다  <!-- 시험 7건 · 논문 51편 -->
+- [x] cocoa extract — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 127편 -->
