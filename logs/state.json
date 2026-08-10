@@ -1,25 +1,25 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4341,
+  "entries": 4345,
   "worklist": {
     "total": 14189,
-    "checked": 14173,
-    "unchecked": 16,
+    "checked": 14178,
+    "unchecked": 11,
     "no_evidence_pending": 1736,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "vorapaxar — Atherosclerosis",
-      "cefpodoxime — Drug Allergy",
-      "cefixime — Syphilis",
-      "cefixime — Drug Use",
-      "pivmecillinam — Infection"
+      "ospemifene — Vaginal Dryness",
+      "trospium — Overactive Bladder",
+      "trospium — Incontinence",
+      "eszopiclone — Sleep",
+      "eszopiclone — Sleep Initiation and Maintenance Disorders"
     ],
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1088 added three evidence entries and closed velpatasvir HCV and vorapaxar Peripheral Artery Disease by indication rule; new line, translation, effect, known, and scale warnings are 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1089 added four evidence entries and closed cefixime Drug Use as no evidence; new line, translation, effect, known, and scale warnings are 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -41,7 +41,7 @@
     "trial_share": "85.7%",
     "non_trial_share": "14.3%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6099
+    "connected_evidence": 6111
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -66,9 +66,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1087 matched in all 6 rounds at 4338 entries, 6085 refs, shard 48, 4343 id fields, 91/91 detail shards and 4338 detail entries, with identical DATA SHA-256 718b2c6266a00c3a5e802a86b5397a237e117fb74cef89711d9cf9f3191518c3; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1088 f6e0afae pushed",
-    "last_batch": "batch 1088 processed five topics: added ulipristal Infertility, velpatasvir Injection Drug Use, and velpatasvir Kidney Transplantation evidence entries; marked velpatasvir HCV and vorapaxar Peripheral Artery Disease as approved indications; expansion ran twice because 21 topics were pending but added no candidates after ClinicalTrials.gov results were all approved or below the evidence threshold; build passed",
-    "next_batch": "batch 1089",
+    "last_committed_batch": "batch 1089 6b953d79 pushed; worklist correction 46511f1b pushed",
+    "last_batch": "batch 1089 processed five topics: added vorapaxar Atherosclerosis, cefpodoxime Drug Allergy, cefixime Syphilis, and pivmecillinam Infection evidence entries; marked cefixime Drug Use as no evidence with the search terms recorded; build passed after correcting four missing worklist completion marks",
+    "next_batch": "batch 1090",
     "next_six_round_check": "after batch 1093",
     "untracked_preserved": [
       "build-batch283.log",
@@ -492,7 +492,8 @@
     ,"batch 1087 processed five topics: added perindopril Breast Cancer, ulipristal Fibroids, ulipristal Fibroid, and ulipristal Leiomyoma evidence entries; marked perindopril Blood Pressure as an approved indication; expansion ran twice because 25 topics were pending, adding one candidate after ClinicalTrials.gov 500 failures; data commit bced82ec was pushed; build matched at 4338 entries and 6085 refs"
     ,"official six-round HTTP 200 public/local check after batch 1087: matched in all 6 rounds at 4338 entries, 6085 refs, shard 48, 4343 id fields, 91/91 detail shards and 4338 detail entries, with identical DATA SHA-256 718b2c6266a00c3a5e802a86b5397a237e117fb74cef89711d9cf9f3191518c3; automatic Git deployment was sufficient and vercel --prod was not required"
     ,"batch 1088 processed five topics: added ulipristal Infertility, velpatasvir Injection Drug Use, and velpatasvir Kidney Transplantation evidence entries; marked velpatasvir HCV and vorapaxar Peripheral Artery Disease as approved indications; expansion ran twice because 21 topics were pending but added no candidates; data commit f6e0afae was pushed; build matched at 4341 entries and 6099 refs"
+    ,"batch 1089 processed five topics: added vorapaxar Atherosclerosis, cefpodoxime Drug Allergy, cefixime Syphilis, and pivmecillinam Infection evidence entries; marked cefixime Drug Use as no evidence; data commit 6b953d79 and worklist correction 46511f1b were pushed; build matched at 4345 entries and 6111 refs"
   ],
-  "current_batch": "batch 1088 checkpoint: 4341 entries/6099 refs; three evidence entries added, velpatasvir HCV and vorapaxar Peripheral Artery Disease closed by approved-indication rule, and the worklist is 14189 total, 14173 checked, 16 unchecked; expansion ran twice with zero candidates; commit f6e0afae pushed; six-round public/local check is due after batch 1093.",
-  "next_action": "start batch 1089 without expansion because 16 unchecked topics remain; skip the two exhausted lookup failures, then process vorapaxar Atherosclerosis and the next eligible topics after approval gating; build, commit, push, and update state"
+  "current_batch": "batch 1089 checkpoint: 4345 entries/6111 refs; four evidence entries added, cefixime Drug Use closed as no evidence, and the worklist is 14189 total, 14178 checked, 11 unchecked; data commit 6b953d79 and worklist correction 46511f1b pushed; six-round public/local check is due after batch 1093.",
+  "next_action": "start batch 1090 without expansion because 11 unchecked topics remain; skip the two exhausted lookup failures, then process ospemifene Vaginal Dryness, trospium Overactive Bladder, trospium Incontinence, eszopiclone Sleep, and eszopiclone Sleep Initiation and Maintenance Disorders after approval gating; build, commit, push, and update state"
 }
