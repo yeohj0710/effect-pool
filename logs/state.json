@@ -41,31 +41,31 @@
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
-    "checked_at": "2026-08-10",
+    "checked_at": "2026-08-11",
     "six_round_check": {
-      "batches": "1123",
+      "batches": "1124-1129",
       "http_status": 200,
-      "local_entry_count": 4502,
-      "public_entry_count": 4502,
-      "local_id_field_count": 4507,
-      "public_id_field_count": 4507,
-      "local_ref_count": 6381,
-      "public_ref_count": 6381,
+      "local_entry_count": 4521,
+      "public_entry_count": 4521,
+      "local_id_field_count": 4521,
+      "public_id_field_count": 4521,
+      "local_ref_count": 6412,
+      "public_ref_count": 6412,
       "shard": 48,
-      "detail_shards_ok": "94/94",
-      "detail_entry_count": 4502,
+      "detail_shards_ok": "95/95",
+      "detail_entry_count": 4521,
       "counts_match": true,
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false,
-      "data_sha256": "9504f0a5a105f4648c70b6dbfbac622f23884f74e61cf1b16e3cc59ae05b5ea9"
+      "data_sha256": "71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176"
     },
-    "latest_note": "Official six-round HTTP 200 public/local check after batch 1123 matched in all 6 rounds at 4502 entries, 6381 refs, shard 48, 4507 id fields, 94/94 detail shards and 4502 detail entries, with identical DATA SHA-256 9504f0a5a105f4648c70b6dbfbac622f23884f74e61cf1b16e3cc59ae05b5ea9; automatic Git deployment was sufficient and vercel --prod was not required."
+    "latest_note": "Official six-round HTTP 200 public/local check after batches 1124-1129 matched in all 6 rounds at 4521 entries, 6412 refs, shard 48, 4521 id fields, 95/95 detail shards and 4521 detail entries, with identical DATA SHA-256 71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1128 data/worklist/legacy commit 8870b96e pushed; state checkpoint pending",
-    "last_batch": "batch 1128 started with 3 unchecked lookup failures; two different expansion sets produced 4 then 9 candidates; added 7 retinal, cystic-fibrosis, renal, sepsis, and group-gardening evidence entries, marked 4 approved indications, closed 1 oncology hold, and tightened 20 legacy claim sentences; build passed at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0",
-    "next_batch": "batch 1129",
-    "next_six_round_check": "after batch 1129",
+    "last_committed_batch": "batch 1129 legacy sentence commit 75d96fb5 pushed; six-round deployment check complete; state checkpoint pending",
+    "last_batch": "batch 1129 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 75d96fb5; build remained at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0",
+    "next_batch": "batch 1130",
+    "next_six_round_check": "after batch 1135",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -530,8 +530,9 @@
     "batch 1125 started with 3 unchecked lookup failures; the first different 20-name expansion set produced 0 candidates and the second produced 1 photography group Breast Cancer candidate; closed that oncology topic without investigation, tightened 20 legacy claim sentences, and pushed 9cc5a640; build matched at 4512 entries and 6395 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check remains due after batch 1129.",
     "batch 1126 started with 3 unchecked lookup failures; the first different 20-name expansion set added 2 gardening social group candidates, and added anxiety-positive and stress-null evidence entries; tightened 20 legacy claim sentences and pushed 8ccbb402; build matched at 4514 entries and 6398 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check remains due after batch 1129.",
     "batch 1127 started with 3 unchecked lookup failures; two different expansion sets produced 0 then 5 candidates; closed 4 direct-no-evidence active-play/social-cooking lines and 1 oncology active-play line, tightened 20 legacy claim sentences, and pushed 5b453689; build remained at 4514 entries and 6398 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check remains due after batch 1129.",
-    "batch 1128 started with 3 unchecked lookup failures; two different expansion sets produced 4 then 9 candidates; added 7 retinal, cystic-fibrosis, renal, sepsis, and group-gardening evidence entries, marked 4 approved indications, closed 1 oncology hold, tightened 20 legacy claim sentences, and pushed 8870b96e; build matched at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check is due after batch 1129."
+    "batch 1128 started with 3 unchecked lookup failures; two different expansion sets produced 4 then 9 candidates; added 7 retinal, cystic-fibrosis, renal, sepsis, and group-gardening evidence entries, marked 4 approved indications, closed 1 oncology hold, tightened 20 legacy claim sentences, and pushed 8870b96e; build matched at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check is due after batch 1129.",
+    "batch 1129 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 75d96fb5; build remained at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0; official six-round HTTP 200 public/local check matched in all 6 rounds with 95/95 detail shards and identical DATA SHA-256 71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176; next check is due after batch 1135."
   ],
-  "current_batch": "batch 1128 checkpoint: 4521 entries/6412 refs; added 7 evidence entries, closed 5 candidates with approved/oncology reasons, tightened 20 legacy claim sentences, and kept new line/effect/known/scale/English warnings at 0; worklist is 14480 total, 14477 checked, 3 unchecked; commit 8870b96e pushed; official six-round public/local check is due after batch 1129",
-  "next_action": "start batch 1129 with git pull, read AGENTS.md, count the 3 unchecked lookup failures, run a new expansion branch with at least five non-drug names, and investigate available off-label candidates; after the batch perform the official six-round public/local deployment check"
+  "current_batch": "batch 1129 checkpoint: 4521 entries/6412 refs; added no evidence entries because two different expansion sets produced 0 candidates, tightened 20 legacy claim sentences, and kept new line/effect/known/scale/English warnings at 0; worklist is 14480 total, 14477 checked, 3 unchecked; commit 75d96fb5 pushed; official six-round check matched 4521 public/local entries, 6412 refs, 95/95 detail shards, and identical DATA SHA-256 71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176",
+  "next_action": "start batch 1130 with git pull, read AGENTS.md, count the 3 exhausted lookup failures, run a new expansion branch with at least five non-drug names, and investigate available off-label candidates"
 }
