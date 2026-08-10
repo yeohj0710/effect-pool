@@ -3,8 +3,8 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 4349,
   "worklist": {
-    "total": 14189,
-    "checked": 14187,
+    "total": 14190,
+    "checked": 14188,
     "unchecked": 2,
     "no_evidence_pending": 1736,
     "next_batch": [
@@ -61,9 +61,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1087 matched in all 6 rounds at 4338 entries, 6085 refs, shard 48, 4343 id fields, 91/91 detail shards and 4338 detail entries, with identical DATA SHA-256 718b2c6266a00c3a5e802a86b5397a237e117fb74cef89711d9cf9f3191518c3; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1091 caf4e330 pushed; legacy warning fix a3385643 pushed",
-    "last_batch": "batch 1091 processed four topics: added eszopiclone Schizophrenia, eszopiclone Anxiety, and dofetilide Long QT Syndrome evidence entries; marked iloperidone Bipolar Disorder as an approved indication under the current FDA label; shortened seven legacy line/effect warnings without changing numbers; build passed",
-    "next_batch": "batch 1092",
+    "last_committed_batch": "batch 1092 worklist commit e3582447 pushed",
+    "last_batch": "batch 1092 started with two unchecked lookup failures; expansion ran twice with 20 new names each, adding one gemigliptin Fasting candidate on the first attempt and no candidates on the second; the gemigliptin studies were food-effect or bioequivalence studies rather than a therapeutic fasting indication, so the line was closed as no evidence; no evidence entries were added; build passed",
+    "next_batch": "batch 1093",
     "next_six_round_check": "after batch 1093",
     "untracked_preserved": [
       "build-batch283.log",
@@ -490,7 +490,8 @@
     ,"batch 1089 processed five topics: added vorapaxar Atherosclerosis, cefpodoxime Drug Allergy, cefixime Syphilis, and pivmecillinam Infection evidence entries; marked cefixime Drug Use as no evidence; data commit 6b953d79 and worklist correction 46511f1b were pushed; build matched at 4345 entries and 6111 refs"
     ,"batch 1090 processed five topics: added ospemifene Vaginal Dryness evidence; marked trospium Overactive Bladder, trospium Incontinence, eszopiclone Sleep, and eszopiclone Sleep Initiation and Maintenance Disorders as approved indications; data commit 1e815f4e and worklist correction 1d195454 were pushed; build matched at 4346 entries and 6115 refs"
     ,"batch 1091 processed four topics: added eszopiclone Schizophrenia, eszopiclone Anxiety, and dofetilide Long QT Syndrome evidence entries; marked iloperidone Bipolar Disorder as an approved indication under the current FDA label; data commit caf4e330 and legacy warning fix a3385643 were pushed; build matched at 4349 entries and 6127 refs"
+    ,"batch 1092 started with two unchecked lookup failures; expansion ran twice, added one gemigliptin Fasting candidate, then closed it as no evidence because the studies were food-effect or bioequivalence only; worklist commit e3582447 was pushed; build matched at 4349 entries and 6127 refs"
   ],
-  "current_batch": "batch 1091 checkpoint: 4349 entries/6127 refs; three evidence entries added, iloperidone Bipolar Disorder closed by current approved-indication rule, and the worklist is 14189 total, 14187 checked, 2 unchecked; seven legacy line/effect warnings were fixed; commits caf4e330 and a3385643 pushed; six-round public/local check is due after batch 1093.",
-  "next_action": "start batch 1092 with expansion because 2 unchecked topics remain; inspect covered materials, add up to 20 new names with at least five non-drug candidates, then process the next eligible topics after the two exhausted lookup failures; build, commit, push, and update state"
+  "current_batch": "batch 1092 checkpoint: 4349 entries/6127 refs; no evidence entries added, one food-effect candidate closed as no evidence, and the worklist is 14190 total, 14188 checked, 2 unchecked; expansion ran twice; worklist commit e3582447 pushed; six-round public/local check is due after batch 1093.",
+  "next_action": "start batch 1093 with expansion because 2 unchecked lookup failures remain; use two new 20-name sets with at least five non-drug candidates, skip the exhausted failures, then perform the due six-round public/local deployment check and update state"
 }
