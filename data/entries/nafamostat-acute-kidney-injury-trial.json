@@ -1,0 +1,29 @@
+{
+  "id": "nafamostat-acute-kidney-injury-trial",
+  "subj": "nafamostat",
+  "claim": "패혈증성 급성 신손상에서 나파모스타트가 지속적 신대체요법 필터 수명을 늘린다",
+  "line": "나파모스타트는 패혈증성 급성 신손상 환자의 신대체요법 필터 수명을 늘렸습니다.",
+  "effect": "첫 필터 수명 증가",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 40,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "급성 신손상 치료나 지속적 신대체요법 항응고는 나파모스타트의 허가 적응증이 아닙니다.",
+  "why": "패혈증과 신기능 장애로 지속적 신대체요법이 필요했던 환자를 나파모스타트 항응고와 구연산 항응고에 배정한 전향적 무작위시험입니다.",
+  "saw": "분석된 40명에서 첫 필터 수명은 나파모스타트군 60.2시간, 구연산군 59.07시간이었고 중환자실 재원 기간은 다르지 않았습니다.",
+  "limit": "42명 등록 뒤 40명만 분석한 단일 시험이며 필터 수명과 단기 지표를 본 연구입니다. 생존이나 신장 회복을 입증하지 않았습니다.",
+  "against": "7개 후향 코호트 메타분석에서는 나파모스타트와 헤파린의 필터 수명 차이가 유의하지 않았습니다.",
+  "use": "급성 신손상 환자의 지속적 신대체요법에서 항응고 선택지로 검토할 수 있는 제한된 신호로 기록합니다.",
+  "refs": [
+    { "label": "패혈증성 급성 신손상 지속적 신대체요법 무작위시험", "doi": "10.1515/med-2025-1369", "pmid": "41737413" },
+    { "label": "지속적 신대체요법 나파모스타트 대 헤파린 메타분석", "doi": "10.3389/fmed.2026.1713412", "pmid": "41783064" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "intr=nafamostat · cond=Acute Kidney Injury → 6건 반환, 6건 모두 개입명에 nafamostat 포함",
+    "pubmed": "nafamostat AND Acute Kidney Injury → 46편",
+    "negative": "nafamostat AND Acute Kidney Injury AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 37편",
+    "safety": "nafamostat AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 371편"
+  }
+}
