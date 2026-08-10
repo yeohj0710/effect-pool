@@ -1,0 +1,30 @@
+{
+  "id": "perindopril-heart-failure-pos",
+  "subj": "perindopril",
+  "claim": "심부전에 페린도프릴을 쓴다",
+  "line": "만성 심부전에서 페린도프릴은 운동능력과 기능등급을 개선했지만 근거가 오래됐다.",
+  "effect": "운동능력·NYHA 기능등급·심부전 중증도 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 125,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "미국 FDA ACEON 허가사항은 본태성 고혈압과 안정형 관상동맥질환이며 심부전 치료는 미국 허가 적응증에 포함되지 않는다.",
+  "why": "ACE 억제제인 페린도프릴이 이뇨제를 복용하는 만성 심부전 환자의 운동능력과 기능상태를 개선하는지 위약대조시험과 기존 임상자료에서 확인했다.",
+  "saw": "경증·중등도 NYHA II·III 만성 심부전 환자 125명을 이뇨제 기반 치료에 페린도프릴 2mg 또는 위약으로 3개월 무작위 배정했다. 페린도프릴군은 위약군보다 자전거 운동시간이 111초 대 16초, 트레드밀 운동시간이 171초 대 36초 더 늘었고 NYHA 기능등급과 심부전 중증도 점수도 개선됐다. 별도 103명 3개월 위약대조시험에서는 급성 심부전이 위약군 3건, 페린도프릴군 0건이었다.",
+  "limit": "시험은 3개월이고 오래된 소규모 연구이며 현대 심부전 표준치료와 비교하지 않았다. 103명 자료의 급성 심부전 차이는 이차 결과로 해석해야 한다.",
+  "against": "심부전 치료에서 페린도프릴의 근거는 소규모 초기 시험과 리뷰에 의존하고, 저혈압·신기능 악화·고칼륨혈증 위험을 무시할 수 없다.",
+  "use": "표준 심부전 치료를 대체하지 말고 심장 전문의가 혈압·신기능·칼륨을 확인하며 허가 밖 사용 여부를 결정한다.",
+  "refs": [
+    { "label": "경증·중등도 만성 심부전 페린도프릴 125명 위약대조시험", "doi": "10.1016/0002-8703(93)90933-z", "pmid": "8166887" },
+    { "label": "만성 심부전 페린도프릴 103명 다기관 위약대조시험", "pmid": "2691130" },
+    { "label": "심부전 페린도프릴 임상자료 종합 리뷰", "doi": "10.1016/S0002-9149(01)01918-X", "pmid": "11591357" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "perindopril AND Heart Failure · 22건 반환, InterventionName 완전일치 4건(NCT06341101, NCT04342351, NCT01583114, NCT05535595)",
+    "pubmed": "perindopril AND Heart Failure · 375편",
+    "negative": "perindopril AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 315편",
+    "safety": "perindopril AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 612편"
+  }
+}

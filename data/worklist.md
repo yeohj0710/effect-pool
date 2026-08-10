@@ -18665,11 +18665,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 --> — 허가 적응증(2026-08-10)
 - [x] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 --> — 허가 적응증(2026-08-10)
 - [x] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 --> — 허가 적응증(2026-08-10)
-- [ ] cefuroxime — Antibiotic Allergy에 듣는다  <!-- 시험 6건 · 논문 225편 -->
-- [ ] cefuroxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 182편 -->
-- [ ] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 -->
-- [ ] perindopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 375편 -->
-- [ ] perindopril — Diabetes에 듣는다  <!-- 시험 5건 · 논문 452편 -->
+- [x] cefuroxime — Antibiotic Allergy에 듣는다  <!-- 시험 6건 · 논문 225편 --> — 항목 추가(2026-08-10)
+- [x] cefuroxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 182편 --> — 항목 추가(2026-08-10)
+- [x] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov cefuroxime AND Postoperative Pain; PubMed cefuroxime AND Postoperative Pain)
+- [x] perindopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 375편 --> — 항목 추가(2026-08-10)
+- [x] perindopril — Diabetes에 듣는다  <!-- 시험 5건 · 논문 452편 --> — 항목 추가(2026-08-10)
 - [ ] perindopril — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 -->
 - [ ] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 -->
 - [ ] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 -->
