@@ -18822,3 +18822,37 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] asenapine — Bipolar Disorder에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 18건 · 논문 223편 -->
 - [x] asenapine — Schizoaffective Disorder에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 54편 -->
 - [x] carisbamate — Lennox Gastaut Syndrome에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] ataluren — Cystic Fibrosis에 듣는다  <!-- 시험 9건 · 논문 79편 -->
+- [x] ataluren — Genetic Diseases, Inborn에 듣는다  <!-- 시험 6건 · 논문 208편 -->
+- [x] ataluren — Neuromuscular Diseases에 듣는다  <!-- 시험 3건 · 논문 124편 -->
+- [x] ataluren — Nervous System Diseases에 듣는다  <!-- 시험 3건 · 논문 136편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] pramlintide — Obesity에 듣는다  <!-- 시험 11건 · 논문 112편 -->
+- [x] pramlintide — Overweight에 듣는다  <!-- 시험 4건 · 논문 70편 -->
+- [x] phentermine — Weight Loss에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 4건 · 논문 595편 -->
+- [x] phentermine — Drug Abuse에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov 직접 확인, phentermine AND Drug Abuse)  <!-- 시험 4건 · 논문 120편 -->
+- [x] phentermine — Bariatric Surgery에 듣는다  <!-- 시험 4건 · 논문 128편 -->
+- [x] phentermine — Diabetes에 듣는다  <!-- 시험 4건 · 논문 275편 -->
+- [x] cinacalcet — Kidney Disease에 듣는다  <!-- 시험 22건 · 논문 951편 -->
+- [x] cinacalcet — Renal Transplant에 듣는다  <!-- 시험 12건 · 논문 299편 -->
+- [x] cinacalcet — Hypercalcemia에 듣는다  <!-- 시험 3건 · 논문 500편 -->
+- [x] cinacalcet — Parathyroid Adenoma에 듣는다  <!-- 시험 3건 · 논문 125편 -->
