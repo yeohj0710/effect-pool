@@ -1,0 +1,28 @@
+{
+  "id": "amoxicillin-sinusitis-pos",
+  "subj": "amoxicillin",
+  "claim": "소아 급성 부비동염에 amoxicillin-clavulanate를 써서 증상 회복을 앞당긴다",
+  "line": "소아 급성 부비동염 4제요법이 위약보다 회복을 앞당겼다.",
+  "effect": "증상 회복 7일 vs 9일",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 510,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "이 저장소의 amoxicillin 허가 목록에는 급성 부비동염이 없다.",
+  "why": "임상 기준으로 진단한 소아 급성 부비동염 환자를 amoxicillin-clavulanate와 위약에 무작위 배정했다.",
+  "saw": "2~11세 510명이 분석됐다. 항생제군 증상 점수는 9.04로 위약군 10.60보다 낮았고 증상 회복 중앙값은 7일 대 9일이었다. 비인두 병원체가 없으면 이득이 더 작았다.",
+  "limit": "amoxicillin 단독이 아니라 clavulanate 병용이며 소아 급성 부비동염에 한정된 결과다.",
+  "against": "비인두 병원체가 검출되지 않은 소아에서는 치료 이득이 작았다.",
+  "use": "소아 급성 부비동염에서 amoxicillin-clavulanate의 제한적 이득과 대상 선별 근거로 사용한다.",
+  "refs": [
+    { "label": "Shaikh 2023 · JAMA · randomized clinical trial", "doi": "10.1001/jama.2023.10854", "pmid": "37490085", "pmc": "PMC10370259", "nct": "NCT02554383" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "amoxicillin AND Sinusitis; 32건",
+    "pubmed": "amoxicillin AND Sinusitis; 674건",
+    "negative": "amoxicillin AND Sinusitis AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 367건",
+    "safety": "amoxicillin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 6,777건"
+  }
+}

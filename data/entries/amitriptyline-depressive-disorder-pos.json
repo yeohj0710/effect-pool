@@ -1,0 +1,28 @@
+{
+  "id": "amitriptyline-depressive-disorder-pos",
+  "subj": "amitriptyline",
+  "claim": "주요우울장애에 amitriptyline을 써서 급성 우울 증상을 개선한다",
+  "line": "항우울제 메타분석에서 우울 반응이 위약보다 높았다.",
+  "effect": "반응 OR 2.13 vs 위약",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 116477,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "주요우울장애는 이 저장소의 amitriptyline 허가 적응증 목록에 없다.",
+  "why": "성인 주요우울장애의 이중맹검 무작위시험을 묶은 네트워크 메타분석에서 amitriptyline의 위약 대비 반응을 확인했다.",
+  "saw": "522개 시험 116,477명을 분석했다. amitriptyline의 위약 대비 반응 OR은 2.13(95% CrI 1.89~2.41)이었지만 중단률은 일부 항우울제보다 높았다.",
+  "limit": "오래된 시험을 재분석한 네트워크 메타분석이며 amitriptyline 단독 시험의 결과와 위험도가 섞여 있다.",
+  "against": "근거 확실성이 중등도에서 매우 낮았고 amitriptyline은 수용성에서 불리한 편이었다.",
+  "use": "주요우울장애에서 amitriptyline의 효능과 중단 위험을 함께 보여주는 비교 근거로 사용한다.",
+  "refs": [
+    { "label": "Cipriani 2026 · Focus · network meta-analysis", "doi": "10.1176/appi.focus.26024115", "pmid": "42538894" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "amitriptyline AND Depressive Disorder; 16건",
+    "pubmed": "amitriptyline AND Depressive Disorder; 1,447건",
+    "negative": "amitriptyline AND Depressive Disorder AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 976건",
+    "safety": "amitriptyline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 3,343건"
+  }
+}

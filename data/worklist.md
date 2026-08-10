@@ -19201,3 +19201,44 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness-based eating — Eating Behavior에 듣는다  <!-- 시험 7건 · 논문 120편 -->
 - [x] mindfulness-based eating — Mindfulness에 듣는다  <!-- 시험 5건 · 논문 239편 -->
 - [x] mindfulness-based eating — Anxiety에 듣는다  <!-- 시험 5건 · 논문 54편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] acamprosate — Fragile X Syndrome에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [x] amitriptyline — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 1447편 -->
+- [x] amitriptyline — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [x] amoxicillin — Peptic Ulcer에 듣는다  <!-- 시험 19건 · 논문 1452편 -->
+- [x] amoxicillin — Gastritis에 듣는다  <!-- 시험 17건 · 논문 1033편 -->
+- [x] amoxicillin — Antibiotic에 듣는다  <!-- 시험 16건 · 논문 25554편 -->
+- [x] amoxicillin — Sinusitis에 듣는다  <!-- 시험 15건 · 논문 674편 -->
+- [x] acoustic stimulation — Sleep에 듣는다  <!-- 시험 7건 · 논문 1308편 -->
+- [x] acoustic stimulation — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 319편 -->
+- [x] active listening — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 375편 -->
+- [x] active listening — Cognitive Change에 듣는다  <!-- 시험 4건 · 논문 1429편 -->
+- [x] active listening — Parkinson에 듣는다  <!-- 시험 4건 · 논문 185편 -->
+- [x] active listening — Well-Being에 듣는다  <!-- 시험 4건 · 논문 8867편 -->
+- [x] active transport — Stroke에 듣는다  <!-- 시험 7건 · 논문 391편 --> — 근거 없음(2026-08-10, ("active commuting" OR "active transport" OR "active travel") AND stroke; 직접 임상 근거 없음)
+- [x] active transport — Cancer에 듣는다  <!-- 시험 6건 · 논문 9708편 --> — 근거 없음(2026-08-10, ("active commuting" OR "active transport" OR "active travel") AND cancer; 직접 임상 근거 없음)
+- [x] active transport — Anxiety에 듣는다  <!-- 시험 4건 · 논문 149편 -->
+- [x] active transport — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 95편 --> — 근거 없음(2026-08-10, ("active commuting" OR "active transport" OR "active travel") AND schizophrenia; 직접 임상 근거 없음)
+- [x] almond — Pain에 듣는다  <!-- 시험 7건 · 논문 137편 --> — 근거 없음(2026-08-10, (almond OR "almond oil") AND pain AND (randomized OR trial); 아몬드 자체의 통증 결과 없음)
+- [x] almond — Anxiety에 듣는다  <!-- 시험 6건 · 논문 51편 -->
+- [x] almond — Metabolic Stress에 듣는다  <!-- 시험 6건 · 논문 156편 --> — 근거 없음(2026-08-10, almond AND "Metabolic Stress" AND (randomized OR trial); 직접 사람 결과 없음)
+- [x] almond — Skin에 듣는다  <!-- 시험 6건 · 논문 313편 -->
+- [x] animal assisted activity — Dementia에 듣는다  <!-- 시험 3건 · 논문 354편 --> — 중복(기존 항목 animal-assisted-activity-dementia-pos)
+- [x] animal assisted activity — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 127편 -->
+- [x] animal assisted activity — Depression에 듣는다  <!-- 시험 3건 · 논문 533편 -->
+- [x] animal interaction — Depression에 듣는다  <!-- 시험 3건 · 논문 13229편 -->
+- [x] aquatic exercise — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 2947편 -->
+- [x] aquatic exercise — Acquired Brain Injury에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [x] aromatherapy — Stress에 듣는다  <!-- 시험 10건 · 논문 417편 -->
+- [x] aromatherapy — Sleep에 듣는다  <!-- 시험 10건 · 논문 341편 -->
+- [x] aromatherapy — Birth Satisfaction에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 근거 없음(2026-08-10, aromatherapy AND (labor OR labour OR birth) AND (randomized OR trial); 출산 만족도 직접 결과 없음)
+- [x] aromatherapy — Fatigue에 듣는다  <!-- 시험 5건 · 논문 122편 -->
