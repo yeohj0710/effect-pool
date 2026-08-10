@@ -19737,3 +19737,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] singing — Mental Health에 듣는다  <!-- 시험 6건 · 논문 274편 -->
 - [x] singing — Aphasia에 듣는다  <!-- 시험 5건 · 논문 77편 -->
 - [x] singing — Dementia에 듣는다  <!-- 시험 4건 · 논문 195편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] vitamin B1 — Septic Shock에 듣는다  <!-- 시험 15건 · 논문 209편 -->
+- [x] vitamin B1 — Mineral Deficiency에 듣는다 — 근거 없음(2026-08-11, vitamin B1 AND Mineral Deficiency[Title/Abstract]; 직접 사람 보충시험에서 미네랄 결핍 치료 효과를 확인하지 못함)  <!-- 시험 8건 · 논문 243편 -->
+- [x] vitamin B1 — Chronic Pain에 듣는다  <!-- 시험 8건 · 논문 68편 -->
+- [x] vitamin B1 — HIV에 듣는다  <!-- 시험 6건 · 논문 79편 -->
+- [x] vitamin B2 — Anemia에 듣는다  <!-- 시험 4건 · 논문 362편 -->
+- [x] vitamin B2 — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 711편 -->
+- [x] vitamin B2 — Mineral Deficiency에 듣는다 — 근거 없음(2026-08-11, vitamin B2 AND Mineral Deficiency[Title/Abstract]; 직접 사람 보충시험에서 미네랄 결핍 치료 효과를 확인하지 못함)  <!-- 시험 4건 · 논문 259편 -->
+- [x] vitamin B2 — Chronic Pain에 듣는다 — 근거 없음(2026-08-11, riboflavin AND chronic pain[Title/Abstract]; 직접 사람 보충시험의 만성 통증 치료 효과를 확인하지 못함)  <!-- 시험 3건 · 논문 24편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] volleyball — Physical Fitness에 듣는다  <!-- 시험 4건 · 논문 274편 -->
