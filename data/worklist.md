@@ -18856,3 +18856,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cinacalcet — Renal Transplant에 듣는다  <!-- 시험 12건 · 논문 299편 -->
 - [x] cinacalcet — Hypercalcemia에 듣는다  <!-- 시험 3건 · 논문 500편 -->
 - [x] cinacalcet — Parathyroid Adenoma에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] online peer support — Health Behavior에 듣는다  <!-- 시험 5건 · 논문 1113편 --> — 근거 항목 추가(2026-08-10)
+- [x] online peer support — Obesity에 듣는다  <!-- 시험 4건 · 논문 142편 --> — 근거 항목 추가(2026-08-10)
+- [x] online peer support — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 465편 --> — 근거 항목 추가(2026-08-10)
+- [x] online peer support — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 119편 --> — 근거 항목 추가(2026-08-10)
+- [x] aquatic therapy — Exercise Therapy에 듣는다  <!-- 시험 3건 · 논문 842편 --> — 근거 항목 추가(2026-08-10)
+- [x] biofeedback — Fecal Incontinence에 듣는다  <!-- 시험 35건 · 논문 787편 --> — 근거 항목 추가(2026-08-10)
+- [x] biofeedback — Arm Injuries에 듣는다  <!-- 시험 14건 · 논문 45편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov query.intr=biofeedback AND query.cond=Arm Injuries 14건·직접 중재 확인 부족, PubMed biofeedback AND Arm Injuries 2편은 반복손상·상완신경총 사례)
+- [x] biofeedback — Colon Cancer에 듣는다  <!-- 시험 13건 · 논문 26편 --> — 근거 항목 추가(2026-08-10)
+- [x] biofeedback — Pelvic Floor; Weak에 듣는다  <!-- 시험 11건 · 논문 16편 --> — 중복(2026-08-10, 기존 biofeedback-pelvic-floor-pos)
+- [x] motivational interviewing — Drug Abuse에 듣는다  <!-- 시험 35건 · 논문 1597편 --> — 중복(2026-08-10, 기존 motivational-interviewing-substance-use-pos)
+- [x] motivational interviewing — Behavior에 듣는다  <!-- 시험 18건 · 논문 5717편 --> — 중복(2026-08-10, 기존 motivational-interviewing-health-behavior-open)
+- [x] motivational interviewing — Adherence, Patient에 듣는다  <!-- 시험 13건 · 논문 991편 --> — 근거 항목 추가(2026-08-10)
+- [x] motivational interviewing — Opioid Dependence에 듣는다  <!-- 시험 11건 · 논문 113편 --> — 근거 항목 추가(2026-08-10)

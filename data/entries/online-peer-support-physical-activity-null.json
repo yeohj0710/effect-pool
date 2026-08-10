@@ -1,0 +1,28 @@
+{
+  "id": "online-peer-support-physical-activity-null",
+  "subj": "online peer support",
+  "claim": "온라인 동료지원이 신체활동을 늘리는가",
+  "line": "신체활동에 온라인 동료지원을 더해도 18개월 추가 효과가 없었습니다.",
+  "effect": "추가 효과 없음(p=0.97)",
+  "tier": "trial",
+  "dir": "null",
+  "n": 183,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "온라인 동료지원은 신체활동의 의약품 허가 적응증이 아닌 비약물 중재입니다.",
+  "why": "ONWARDS 무작위시험에서 활동량계·모바일 앱군, 온라인 운동 추가군, 온라인 사회관계망 동료지원 추가군을 비교했습니다.",
+  "saw": "비활동 성인 183명을 18개월 추적했습니다. 세 군의 중등도 이상 신체활동은 하루 평균 69.7분에서 60.2분으로 줄었고, 온라인 운동과 동료지원 추가에 따른 집단×시간 상호작용은 없었습니다(p=0.97).",
+  "limit": "참가자는 등록 당시 자기보고상 비활동이었지만 실제 기저 활동량은 하루 69.7분으로 높았고, 동료지원의 독립 효과만 비교한 설계가 아닙니다.",
+  "against": "활동량계·앱군에 온라인 운동과 동료지원을 추가해도 중등도 이상 신체활동, 가벼운 활동, 총 활동량의 추가 개선이 없었습니다.",
+  "use": "온라인 동료지원이 신체활동을 자동으로 더 늘린다고 가정하지 말고 장기 활동량을 직접 측정합니다.",
+  "refs": [
+    { "label": "ONWARDS 온라인 신체활동 중재 무작위시험", "doi": "10.1136/bmjsem-2023-001816", "pmid": "40546750", "pmc": "PMC12182207", "nct": "NCT04526444" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=online peer support AND query.cond=Physical Activity; 24건 반환, NCT04526444에 social-media peer support 포함",
+    "pubmed": "\"online peer support\" AND \"Physical Activity\"; 7편",
+    "negative": "\"online peer support\" AND (no effect OR did not OR failed OR negative OR no significant difference); 58편",
+    "safety": "\"online peer support\" AND (adverse OR harm OR dropout OR distress OR burden); 66편"
+  }
+}
