@@ -18054,12 +18054,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] photography intervention — Colon Cancer에 듣는다  <!-- 시험 11건 · 논문 3295편 -->
+- [x] photography intervention — Colon Cancer에 듣는다 — 근거 없음(2026-08-10, "photography intervention"[Title/Abstract] AND "Colon Cancer"[Title/Abstract] 직접 0편; ClinicalTrials.gov 14건 중 InterventionName 완전일치 0건)  <!-- 시험 11건 · 논문 3295편 -->
 - [x] photography intervention — Retinal Disease에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Retinal Disease"[Title/Abstract]; ClinicalTrials.gov 32건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 8건 · 논문 6342편 -->
 - [x] photography intervention — Age-related Macular Degeneration에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Age-related Macular Degeneration"[Title/Abstract]; ClinicalTrials.gov 12건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 5건 · 논문 1641편 -->
 - [x] photography intervention — Glaucoma에 듣는다 — 근거 없음(2026-08-09 조회, "photography intervention" AND "Glaucoma"[Title/Abstract]; ClinicalTrials.gov 9건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 1575편 -->
 - [x] tai chi meditation — Sleep Disorders에 듣는다 — 근거 없음(2026-08-09 조회, "tai chi meditation" AND "Sleep Disorders"[Title/Abstract]; ClinicalTrials.gov 5건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 24편 -->
-- [ ] tai chi meditation — Cancer에 듣는다  <!-- 시험 3건 · 논문 55편 -->
+- [x] tai chi meditation — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 55편 -->
 - [x] wellness program — Physical Activity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 40941편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18093,7 +18093,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ecological therapy — Stroke에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Stroke"[Title/Abstract]; ClinicalTrials.gov 8건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 297편 -->
 - [x] ecological therapy — Suicide에 듣는다 — 근거 없음(2026-08-09 조회, "ecological therapy" AND "Suicide"[Title/Abstract]; ClinicalTrials.gov 21건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 194편 -->
 - [x] music relaxation — Pain에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 34건 · 논문 407편 -->
-- [ ] music relaxation — Cancer에 듣는다  <!-- 시험 32건 · 논문 182편 -->
+- [x] music relaxation — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 32건 · 논문 182편 -->
 - [x] music relaxation — Stress에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 13건 · 논문 468편 -->
 - [x] music relaxation — Sleep에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 11건 · 논문 171편 -->
 - [x] nature walk intervention — Anxiety에 듣는다 — 근거 없음(2026-08-09 조회, "nature walk intervention" AND "Anxiety"[Title/Abstract]; ClinicalTrials.gov 16건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 160편 -->
@@ -18110,7 +18110,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] animal assisted education — Anxiety에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 4건 · 논문 105편 -->
 - [x] peer exercise group — Physical Activity에 듣는다 — 근거 없음(2026-08-09 조회, "peer exercise group" AND "Physical Activity"[Title/Abstract]; ClinicalTrials.gov 165건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 10건 · 논문 4007편 -->
-- [ ] peer exercise group — Cancer에 듣는다  <!-- 시험 10건 · 논문 405편 -->
+- [x] peer exercise group — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 10건 · 논문 405편 -->
 - [x] peer exercise group — Mental Health에 듣는다 — 근거 없음(2026-08-09 조회, "peer exercise group" AND "Mental Health"[Title/Abstract]; ClinicalTrials.gov 58건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 9건 · 논문 581편 -->
 - [x] peer exercise group — Diabetes에 듣는다 — 근거 없음(2026-08-09 조회, "peer exercise group" AND "Diabetes"[Title/Abstract]; ClinicalTrials.gov 58건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 7건 · 논문 353편 -->
 - [x] singing intervention — Aphasia에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 4건 · 논문 41편 -->
@@ -18198,7 +18198,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] workplace wellness program — Work Performance에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 5건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 3건 · 논문 336편 -->
 - [x] health coaching app — Diabetes에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 45건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 14건 · 논문 145편 -->
 - [x] health coaching app — Pain에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 21건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 7건 · 논문 71편 -->
-- [ ] health coaching app — Breast Neoplasms에 듣는다  <!-- 시험 7건 · 논문 17편 -->
+- [x] health coaching app — Breast Neoplasms에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 17편 -->
 - [x] health coaching app — Weight에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 6건 · 논문 187편 -->
 - [x] online mindfulness training — Stress에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 7건 · 논문 478편 -->
 - [ ] online mindfulness training — Cancer에 듣는다  <!-- 시험 7건 · 논문 84편 -->
@@ -18513,3 +18513,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mobile health app — Mental Health에 듣는다 — 항목 추가(mobile-health-app-mental-health-pos, 2026-08-09)  <!-- 시험 14건 · 논문 2944편 -->
 - [x] mobile health app — Anxiety에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 136건 반환·InterventionName 직접 일치 2건; PubMed exact 33편 중 직접 불안 중재 결과는 기존 항목과 중복되거나 다른 증상 대상)  <!-- 시험 11건 · 논문 1326편 -->
 - [x] home spirometry monitoring — Asthma에 듣는다 — 항목 추가(home-spirometry-monitoring-asthma-open, 2026-08-09)  <!-- 시험 4건 · 논문 155편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] voglibose — Impaired Glucose Tolerance에 듣는다  <!-- 시험 3건 · 논문 34편 -->
+- [ ] near-infrared light — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 93편 -->
+- [ ] near-infrared light — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 39편 -->
+- [ ] near-infrared light — Optical Imaging에 듣는다  <!-- 시험 3건 · 논문 4640편 -->
