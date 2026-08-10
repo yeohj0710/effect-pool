@@ -18525,8 +18525,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] voglibose — Impaired Glucose Tolerance에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 3건 · 논문 34편 -->
 - [x] near-infrared light — Brain Injuries에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 93편 -->
-- [ ] near-infrared light — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 39편 -->
-- [ ] near-infrared light — Optical Imaging에 듣는다  <!-- 시험 3건 · 논문 4640편 -->
+- [x] near-infrared light — Depressive Disorder에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 4건 · 논문 39편 -->
+- [x] near-infrared light — Optical Imaging에 듣는다 — 근거 없음(2026-08-10, "near-infrared light"[Title/Abstract] AND "Optical Imaging"[Title/Abstract]는 영상 연구 116편이며 치료 효능 근거 없음; ClinicalTrials.gov 6건 중 InterventionName 완전일치 0건)  <!-- 시험 3건 · 논문 4640편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18537,9 +18537,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] massage chair — Anxiety에 듣는다  <!-- 시험 5건 · 논문 24편 -->
-- [ ] massage chair — Cancer에 듣는다  <!-- 시험 5건 · 논문 18편 -->
-- [ ] massage chair — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 10편 -->
+- [x] massage chair — Anxiety에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 24편 -->
+- [x] massage chair — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 18편 -->
+- [x] massage chair — Pregnancy에 듣는다 — 근거 없음(2026-08-10, "massage chair"[Title/Abstract] AND "Pregnancy"[Title/Abstract] 0편; ClinicalTrials.gov 2건 중 InterventionName 완전일치 0건)  <!-- 시험 5건 · 논문 10편 -->
 - [ ] massage chair — Fatigue에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18588,3 +18588,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] dance therapy group — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 40편 -->
 - [ ] dance therapy group — Depression에 듣는다  <!-- 시험 6건 · 논문 158편 -->
 - [ ] dance therapy group — Older Adults에 듣는다  <!-- 시험 5건 · 논문 487편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 -->
+- [ ] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 -->
+- [ ] dexlansoprazole — H Pylori Eradication에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [ ] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 -->
+- [ ] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 -->
+- [ ] rabeprazole — Healthy Adults에 듣는다  <!-- 시험 7건 · 논문 131편 -->
+- [ ] rabeprazole — Cancer에 듣는다  <!-- 시험 7건 · 논문 148편 -->
+- [ ] mosapride — Constipation에 듣는다  <!-- 시험 4건 · 논문 71편 -->
+- [ ] mosapride — Bowel Ileus에 듣는다  <!-- 시험 4건 · 논문 16편 -->
+- [ ] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 -->
+- [ ] tegaserod — Dyspepsia에 듣는다  <!-- 시험 7건 · 논문 36편 -->
+- [ ] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 -->
+- [ ] bath therapy — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 877편 -->
+- [ ] bath therapy — Labor Pain에 듣는다  <!-- 시험 7건 · 논문 52편 -->
+- [ ] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 -->
+- [ ] bath therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 492편 -->
+- [ ] thermal bath — Knee Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] storytelling group — Oral Health에 듣는다  <!-- 시험 7건 · 논문 36편 -->
+- [ ] storytelling group — Cancer에 듣는다  <!-- 시험 6건 · 논문 129편 -->
+- [ ] storytelling group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 328편 -->
+- [ ] storytelling group — Anxiety에 듣는다  <!-- 시험 5건 · 논문 82편 -->
+- [ ] art workshop — Mild Dementia에 듣는다  <!-- 시험 3건 · 논문 36편 -->
