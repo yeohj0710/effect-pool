@@ -20286,3 +20286,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cocoa extract — Diabetes에 듣는다  <!-- 시험 12건 · 논문 73편 -->
 - [x] cocoa extract — Endothelial Function에 듣는다  <!-- 시험 7건 · 논문 51편 -->
 - [x] cocoa extract — Oxidative Stress에 듣는다  <!-- 시험 6건 · 논문 127편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] continuous glucose monitoring — Hypoglycemia에 듣는다  <!-- 시험 19건 · 논문 4427편 -->
+- [x] continuous glucose monitoring — Glucose Control에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 14건 · 논문 6371편 -->
+- [x] continuous glucose monitoring — Hyperglycemia에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 10건 · 논문 2430편 -->
+- [x] continuous glucose monitoring — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 746편 -->
+- [x] robotic exoskeleton — Brain Injuries에 듣는다  <!-- 시험 12건 · 논문 77편 -->
+- [x] robotic exoskeleton — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 148편 -->
+- [x] robotic exoskeleton — Rehabilitation에 듣는다  <!-- 시험 4건 · 논문 2138편 -->
+- [x] robotic exoskeleton — Thoracic Surgery에 듣는다 — 근거 없음(2026-08-11 조회, "robotic exoskeleton" AND "Thoracic Surgery"; 등록·프로토콜만 있고 결과 원저 없음)  <!-- 시험 3건 · 논문 8편 -->
+- [x] hearing aid — Cognitive Decline에 듣는다  <!-- 시험 13건 · 논문 355편 -->
+- [x] hearing aid — Deafness에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 12건 · 논문 8256편 -->
+- [x] hearing aid — Auditory Perception에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 7건 · 논문 12100편 -->
+- [x] hearing aid — Presbycusis에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 5건 · 논문 402편 -->
+- [x] activity monitor — Obesity에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Obesity"; 직접 결과 원저 없음)  <!-- 시험 12건 · 논문 1023편 -->
+- [x] activity monitor — Pre-diabetes에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Pre-diabetes"; PubMed 직접 결과 0편)  <!-- 시험 10건 · 논문 116편 -->
+- [x] activity monitor — Kidney Failure에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Kidney Failure"; 직접 결과 원저 없음)  <!-- 시험 8건 · 논문 150편 -->
+- [x] activity monitor — Multiple Myeloma에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 6건 · 논문 50편 -->
+- [x] art class — Personality Type에 듣는다 — 근거 없음(2026-08-11 조회, "art class" AND "Personality Type"; 직접 결과 원저 없음)  <!-- 시험 5건 · 논문 177편 -->
+- [x] art class — Cognitive Impairment에 듣는다 — 근거 없음(2026-08-11 조회, "art class" AND "Cognitive Impairment"; 직접 결과 원저 없음)  <!-- 시험 3건 · 논문 84편 -->
