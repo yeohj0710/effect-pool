@@ -1,20 +1,15 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4296,
+  "entries": 4301,
   "worklist": {
     "total": 14145,
-    "checked": 14108,
-    "unchecked": 37,
+    "checked": 14113,
+    "unchecked": 32,
     "no_evidence_pending": 1735,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "solifenacin — Ureteral Stent",
-      "lumacaftor — Diabetes",
-      "music imagery — Pain",
-      "music imagery — Anxiety",
-      "music imagery — Stress",
       "nitisinone — Alkaptonuria",
       "sapropterin — Phenylketonurias",
       "sapropterin — Hypertension",
@@ -49,29 +44,29 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1075 added three evidence entries and marked two solifenacin topics as approved indications; public/local six-round check matched; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1076 added five evidence entries; public/local deployment check remains due after batch 1081; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 359,
     "known_warnings": 2,
-    "thin_warnings": 801,
+    "thin_warnings": 802,
     "tier_distribution": {
-      "trial": 3693,
-      "obs": 536,
+      "trial": 3696,
+      "obs": 538,
       "animal": 23,
       "lab": 11,
       "case": 33
     },
-    "no_effect_or_harm": 994,
+    "no_effect_or_harm": 997,
     "harm": 128,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 603,
-    "trial_share": "86.0%",
-    "non_trial_share": "14.0%",
+    "non_trial": 605,
+    "trial_share": "85.9%",
+    "non_trial_share": "14.1%",
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5964
+    "connected_evidence": 5977
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -96,9 +91,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for 1070-1075 matched in all 6 rounds at 4296 entries, 5964 refs, shard 48, 4301 id fields, 90/90 detail shards and 4296 detail entries, with identical DATA SHA-256 2664d17d3ff09c7b612fe13cb6aca8c49d54d2519e4aa9c9d8d59b620c74b132; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1075 d0981261 pushed",
-    "last_batch": "batch 1075 processed 5 topics: added massage chair fatigue open, ocriplasmin vitrectomy open, and solifenacin prostatic hyperplasia open entries; marked solifenacin urinary urge and incontinence as approved indications; build passed; six-round public/local check matched",
-    "next_batch": "batch 1076",
+    "last_committed_batch": "batch 1076 c6afdffa pushed",
+    "last_batch": "batch 1076 processed 5 topics: added solifenacin ureteral stent pos, lumacaftor diabetes null, music imagery pain open, music imagery anxiety null, and music imagery stress null entries; build passed",
+    "next_batch": "batch 1077",
     "next_six_round_check": "after batch 1081",
     "untracked_preserved": [
       "build-batch283.log",
@@ -507,7 +502,8 @@
     ,"batch 1074 processed 5 topics: added near-infrared light depressive disorder null, massage chair anxiety open, and massage chair cancer null entries; closed near-infrared light optical imaging and massage chair pregnancy as no evidence; one expansion attempt added 22 pending lines; data commit c1cdffd5 was pushed; build matched at 4293 entries and 5957 refs"
     ,"batch 1075 processed 5 topics: added massage chair fatigue open, ocriplasmin vitrectomy open, and solifenacin prostatic hyperplasia open entries; marked solifenacin urinary urge and incontinence as approved indications; data commit d0981261 was pushed; build matched at 4296 entries and 5964 refs"
     ,"official six-round check after batches 1070-1075: HTTP 200 in all 6 rounds; public/local matched at 4296 entries, 4301 id fields, 5964 refs, shard 48, 90/90 detail shards and 4296 detail entries, with identical DATA SHA-256 2664d17d3ff09c7b612fe13cb6aca8c49d54d2519e4aa9c9d8d59b620c74b132; automatic Git deployment was sufficient and vercel --prod was not required"
+    ,"batch 1076 processed 5 topics: added solifenacin ureteral stent pos, lumacaftor diabetes null, music imagery pain open, music imagery anxiety null, and music imagery stress null entries; data commit c6afdffa was pushed; build matched at 4301 entries and 5977 refs"
   ],
-  "current_batch": "batch 1075 checkpoint: 4296 entries/5964 refs, 3 evidence entries, 2 approved-indication closures; worklist 14145 total, 14108 checked, 37 unchecked; commit d0981261 pushed. Six-round public/local check matched at 4296 entries and 5964 refs; next check is due after batch 1081.",
-  "next_action": "start batch 1076 with the next five eligible topics, skipping the two lines marked 조회 실패; 37 unchecked topics remain, so do not expand the worklist"
+  "current_batch": "batch 1076 checkpoint: 4301 entries/5977 refs, 5 evidence entries; worklist 14145 total, 14113 checked, 32 unchecked; commit c6afdffa pushed. Next six-round public/local check is due after batch 1081.",
+  "next_action": "start batch 1077 with the next five eligible topics, skipping the two lines marked 조회 실패; 32 unchecked topics remain, so do not expand the worklist"
 }
