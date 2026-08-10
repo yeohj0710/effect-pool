@@ -19242,3 +19242,37 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aromatherapy — Sleep에 듣는다  <!-- 시험 10건 · 논문 341편 -->
 - [x] aromatherapy — Birth Satisfaction에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 근거 없음(2026-08-10, aromatherapy AND (labor OR labour OR birth) AND (randomized OR trial); 출산 만족도 직접 결과 없음)
 - [x] aromatherapy — Fatigue에 듣는다  <!-- 시험 5건 · 논문 122편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] apixaban — Anticoagulation에 듣는다  <!-- 시험 8건 · 논문 6705편 -->
+- [x] apixaban — Anticoagulants에 듣는다  <!-- 시험 7건 · 논문 6705편 -->
+- [x] apixaban — Portal Hypertension에 듣는다  <!-- 시험 6건 · 논문 11편 -->
+- [x] apixaban — Acute Coronary Syndrome에 듣는다  <!-- 시험 6건 · 논문 239편 -->
+- [x] bupropion — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 76편 -->
+- [x] bupropion — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 109편 -->
+- [x] carvedilol — Diastolic Dysfunction에 듣는다  <!-- 시험 5건 · 논문 228편 -->
+- [x] carvedilol — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 2684편 --> — 근거 없음(2026-08-10, carvedilol AND Cardiovascular Disease; 카베딜롤 단독 비허가 목표를 분리할 직접 결과 없음)
+- [x] carvedilol — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 18편 --> — 항암 관련 주제 제외(2026-08-10)
+- [x] colchicine — Diabetes에 듣는다  <!-- 시험 5건 · 논문 379편 -->
+- [x] colchicine — Lung Fibrosis에 듣는다  <!-- 시험 5건 · 논문 103편 -->
+- [x] colchicine — Intracerebral Hemorrhage에 듣는다  <!-- 시험 5건 · 논문 12편 -->
+- [x] colchicine — Pleural Effusion에 듣는다  <!-- 시험 4건 · 논문 115편 -->
+- [x] adaptive physical activity — Heart Failure에 듣는다  <!-- 시험 5건 · 논문 1082편 --> — 근거 없음(2026-08-10, adaptive physical activity AND Heart Failure; 등록시험 결과 논문 없음)
+- [x] adaptive physical activity — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 384편 -->
+- [x] adaptive physical activity — Parkinson Disease에 듣는다  <!-- 시험 4건 · 논문 465편 --> — 근거 없음(2026-08-10, adaptive physical activity AND Parkinson Disease; 등록시험 결과 논문 없음)
+- [x] adaptive physical activity — Anxiety에 듣는다  <!-- 시험 4건 · 논문 1787편 -->
+- [x] art making — Stroke에 듣는다  <!-- 시험 3건 · 논문 180편 -->
+- [x] art making — Mother-Child Relations에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-10, art making AND Mother-Child Relations; 등록시험 결과 논문 없음)
+- [x] art making — Sleep Disturbance에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-10, art making AND Sleep Disturbance; 등록시험 결과 논문 없음)
+- [x] art making — Military Family에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-10, art making AND Military Family; 등록시험 결과 논문 없음)
+- [x] balance board — Children, Adult에 듣는다  <!-- 시험 3건 · 논문 262편 --> — 근거 없음(2026-08-10, balance board AND Children, Adult; 등록시험 결과 논문 없음)
+- [x] balance board — Physical Fitness에 듣는다  <!-- 시험 3건 · 논문 122편 -->
+- [x] balance board — Fall Risk에 듣는다  <!-- 시험 3건 · 논문 194편 -->
