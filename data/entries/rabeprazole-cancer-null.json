@@ -1,0 +1,31 @@
+{
+  "id": "rabeprazole-cancer-null",
+  "subj": "rabeprazole",
+  "claim": "암에 라베프라졸을 쓴다",
+  "line": "암 환자에서 라베프라졸의 치료효과는 입증되지 않았고 신호가 엇갈렸다.",
+  "effect": "치료효과 미입증·신호 혼재",
+  "tier": "obs",
+  "dir": "null",
+  "n": 235368,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "라베프라졸의 FDA 허가 적응증은 위산 관련 질환과 헬리코박터 파일로리 제균이며 암 치료는 포함하지 않는다.",
+  "why": "암 환자의 라베프라졸 사용과 생존을 본 관찰연구, 암 환자 PPI 사용과 사망률을 본 비교연구, 전임상 항암 연구를 함께 확인했다.",
+  "saw": "프랑스 유방암 코호트 235,368명에서 라베프라졸 사용은 생존과 양의 연관을 보였지만 가설 생성 연구였다. 암 환자 PPI 코호트에서는 비사용자 대비 사망 위험이 높았고 HR은 2.34~2.72였으며 H2 차단제 대비 HR은 1.51이었다. 대장암 후향분석은 라베프라졸이 이리노테칸 내성과 연관될 수 있다고 제시했고 세포·동물 연구는 항암 신호를 보고했다.",
+  "limit": "관찰연구는 적응증·질환 중증도·병용약의 교란을 피하기 어렵고 PPI 계열 결과에서 라베프라졸 단독효과를 분리할 수 없으며 전임상 결과는 사람에게 바로 적용할 수 없다.",
+  "against": "PPI 사용 암 환자의 사망률 증가와 이리노테칸 치료 내성 신호가 보고됐고 라베프라졸의 항암 무작위시험은 확인하지 못했다.",
+  "use": "라베프라졸을 항암제로 사용하지 말고 허가된 위산 관련 적응증이 있을 때만 사용하며 암 치료효과로 해석하지 않는다.",
+  "refs": [
+    { "label": "유방암 약물 사용과 생존 전국 코호트", "doi": "10.1038/s41467-024-47002-3", "pmid": "38580683", "pmc": "PMC10997660" },
+    { "label": "암 환자 PPI 사용과 전체 사망률 비교 코호트", "doi": "10.5306/wjco.v16.i1.99240", "pmid": "39867734", "pmc": "PMC11528898" },
+    { "label": "라베프라졸과 이리노테칸 치료 내성 후향·전임상 연구", "doi": "10.1371/journal.pone.0228002", "pmid": "32764831", "pmc": "PMC7413750" },
+    { "label": "PPI와 췌장암 위험 메타분석", "doi": "10.1080/14740338.2020.1715939", "pmid": "31928106" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "rabeprazole AND Cancer · 26건 반환, InterventionName 완전일치 8건(NCT05407675, NCT00844675, NCT05930119, NCT05571787, NCT02638584, NCT04944771, NCT06899061, NCT04697186)",
+    "pubmed": "rabeprazole AND Cancer · 148편",
+    "negative": "rabeprazole AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 119편",
+    "safety": "rabeprazole AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 614편"
+  }
+}

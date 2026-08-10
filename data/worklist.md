@@ -18600,11 +18600,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 --> — 허가 적응증(2026-08-10)
 - [x] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 --> — 허가 적응증(2026-08-10)
-- [ ] dexlansoprazole — H Pylori Eradication에 듣는다  <!-- 시험 3건 · 논문 15편 -->
-- [ ] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 -->
-- [ ] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 -->
-- [ ] rabeprazole — Healthy Adults에 듣는다  <!-- 시험 7건 · 논문 131편 -->
-- [ ] rabeprazole — Cancer에 듣는다  <!-- 시험 7건 · 논문 148편 -->
+- [x] dexlansoprazole — H Pylori Eradication에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 추가(2026-08-10)
+- [x] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 --> — 허가 적응증(2026-08-10)
+- [x] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 --> — 항목 추가(2026-08-10)
+- [x] rabeprazole — Healthy Adults에 듣는다  <!-- 시험 7건 · 논문 131편 --> — 항목 추가(2026-08-10)
+- [x] rabeprazole — Cancer에 듣는다  <!-- 시험 7건 · 논문 148편 --> — 항목 추가(2026-08-10)
 - [ ] mosapride — Constipation에 듣는다  <!-- 시험 4건 · 논문 71편 -->
 - [ ] mosapride — Bowel Ileus에 듣는다  <!-- 시험 4건 · 논문 16편 -->
 - [ ] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 -->
