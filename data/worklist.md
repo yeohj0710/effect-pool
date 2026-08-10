@@ -18670,11 +18670,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov cefuroxime AND Postoperative Pain; PubMed cefuroxime AND Postoperative Pain)
 - [x] perindopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 375편 --> — 항목 추가(2026-08-10)
 - [x] perindopril — Diabetes에 듣는다  <!-- 시험 5건 · 논문 452편 --> — 항목 추가(2026-08-10)
-- [ ] perindopril — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 -->
-- [ ] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 -->
-- [ ] ulipristal — Fibroid에 듣는다  <!-- 시험 8건 · 논문 350편 -->
-- [ ] ulipristal — Leiomyoma에 듣는다  <!-- 시험 7건 · 논문 303편 -->
+- [x] perindopril — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 항목 추가(2026-08-10)
+- [x] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 --> — 허가 적응증(2026-08-10)
+- [x] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 --> — 항목 추가(2026-08-10)
+- [x] ulipristal — Fibroid에 듣는다  <!-- 시험 8건 · 논문 350편 --> — 항목 추가(2026-08-10)
+- [x] ulipristal — Leiomyoma에 듣는다  <!-- 시험 7건 · 논문 303편 --> — 항목 추가(2026-08-10)
 - [ ] ulipristal — Infertility에 듣는다  <!-- 시험 5건 · 논문 41편 -->
 - [ ] velpatasvir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 52편 -->
 - [ ] velpatasvir — HCV에 듣는다  <!-- 시험 3건 · 논문 623편 -->
@@ -18713,3 +18713,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] eszopiclone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 12편 -->
 - [ ] eszopiclone — Anxiety에 듣는다  <!-- 시험 3건 · 논문 44편 -->
 - [ ] dofetilide — Long QT Syndrome에 듣는다  <!-- 시험 5건 · 논문 207편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] iloperidone — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 31편 -->

@@ -1,0 +1,30 @@
+{
+  "id": "perindopril-breast-cancer-open",
+  "subj": "perindopril",
+  "claim": "유방암 치료 중 심독성에 페린도프릴을 쓴다",
+  "line": "트라스투주맙 치료 중 페린도프릴은 심장기능 저하를 줄였지만 일차 결과는 실패했다.",
+  "effect": "LVEF 저하 완화·일차 재형성 결과 없음",
+  "tier": "trial",
+  "dir": "open",
+  "n": 94,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "미국 FDA ACEON 허가사항은 본태성 고혈압과 안정형 관상동맥질환이며 유방암 치료 관련 심독성 예방은 허가 적응증이 아니다.",
+  "why": "트라스투주맙과 안트라사이클린의 심장 부작용을 줄이려는 심장종양학 연구에서 심부전 약제인 페린도프릴의 예방 신호를 확인했다.",
+  "saw": "HER2 양성 초기 유방암 환자 94명을 페린도프릴 33명, 비소프롤롤 31명, 위약 30명으로 무작위 배정한 MANTICORE 분석에서 트라스투주맙 17주 뒤 좌심실 박출률 감소는 페린도프릴 -3%, 위약 -5%였지만 일차 결과인 좌심실 확장기말 용적 변화는 페린도프릴 +7, 위약 +4mL/m²로 차이가 없었다. 별도 생쥐 81마리 모델에서는 페린도프릴이 독소루비신·트라스투주맙 병용으로 인한 박출률 저하를 37%에서 62%로 일부 보존했고, 유방암 동물모델에서는 종양 성장과 혈관신생을 억제했다.",
+  "limit": "사람 시험의 일차 평가변수는 실패했고 이차 박출률 분석은 94명 규모다. 동물 종양 억제 결과를 사람의 유방암 치료 효과로 일반화할 수 없다.",
+  "against": "페린도프릴은 일차 심실 재형성을 예방하지 못했으며 심독성 예방 효과는 비소프롤롤과 비교해 일관되지 않았다.",
+  "use": "표준 유방암 치료를 대체하지 말고 심장종양 전문의가 기저 심혈관 위험과 혈압·신기능을 확인하며 심독성 예방을 결정한다.",
+  "refs": [
+    { "label": "MANTICORE 유방암 트라스투주맙 심독성 예방 무작위시험", "doi": "10.1200/JCO.2016.68.7830", "pmid": "27893331", "nct": "NCT01016886" },
+    { "label": "MANTICORE 심장 MRI·심장대사 94명 이차 분석", "doi": "10.1093/ehjcvp/pvab016", "pmid": "33605416" },
+    { "label": "유방암 동물모델 페린도프릴 종양 성장·혈관신생 연구", "doi": "10.2174/1871520616666160817143141", "pmid": "27539314" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "perindopril AND Breast Cancer · 2건 반환, InterventionName 완전일치 0건; MANTICORE NCT01016886은 PubMed 원문에서 확인",
+    "pubmed": "perindopril AND Breast Cancer · 13편",
+    "negative": "perindopril AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 9편",
+    "safety": "perindopril AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 612편"
+  }
+}
