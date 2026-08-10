@@ -18201,7 +18201,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] health coaching app — Breast Neoplasms에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 17편 -->
 - [x] health coaching app — Weight에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 6건 · 논문 187편 -->
 - [x] online mindfulness training — Stress에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 7건 · 논문 478편 -->
-- [ ] online mindfulness training — Cancer에 듣는다  <!-- 시험 7건 · 논문 84편 -->
+- [x] online mindfulness training — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 84편 -->
 - [x] online mindfulness training — Cognitive Disorder에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 27건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 5건 · 논문 60편 -->
 - [x] online mindfulness training — Mental Health에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 5건 · 논문 481편 -->
 - [x] mobile mindfulness intervention — Depression에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 8건 · 논문 340편 -->
@@ -18214,20 +18214,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] video exercise program — Obesity에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 115건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 219편 -->
 - [x] video exercise program — Exercise에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 4건 · 논문 3069편 -->
 - [x] video exercise program — Diabetes에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 50건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 4건 · 논문 119편 -->
-- [ ] home exercise video — Lung Cancer에 듣는다  <!-- 시험 14건 · 논문 9편 -->
+- [x] home exercise video — Lung Cancer에 듣는다 — 근거 없음(2026-08-10, "home exercise video"[Title/Abstract] AND "Lung Cancer"[Title/Abstract] 직접 0편; "video-based home exercise" AND "lung cancer" 직접 0편; ClinicalTrials.gov 14건 중 InterventionName 완전일치 0건)  <!-- 시험 14건 · 논문 9편 -->
 - [x] home exercise video — Osteoarthritis에 듣는다 — 근거 없음(2026-08-09 조회, ClinicalTrials.gov 37건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 8건 · 논문 40편 -->
 - [x] home exercise video — Telerehabilitation에 듣는다  <!-- 시험 7건 · 논문 153편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [x] home exercise video — Stroke에 듣는다  <!-- 시험 7건 · 논문 102편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 NCT03509363 1건은 결과 미게시 등록시험; PubMed 직접 0건)
 - [x] virtual group exercise — Stroke에 듣는다  <!-- 시험 47건 · 논문 265편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
-- [ ] virtual group exercise — Cancer에 듣는다  <!-- 시험 37건 · 논문 149편 -->
+- [x] virtual group exercise — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 37건 · 논문 149편 -->
 - [x] virtual group exercise — OA Knee에 듣는다  <!-- 시험 21건 · 논문 13편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 - [x] virtual group exercise — Parkinson Disease에 듣는다  <!-- 시험 15건 · 논문 101편 --> — 항목 추가(2026-08-09)
 - [x] remote exercise coaching — Pregnancy에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 항목 추가(2026-08-09)
-- [ ] wearable exercise tracker — Neoplasms에 듣는다  <!-- 시험 4건 · 논문 66편 -->
+- [x] wearable exercise tracker — Neoplasms에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 4건 · 논문 66편 -->
 - [x] wearable exercise tracker — Physical Activity에 듣는다  <!-- 시험 3건 · 논문 746편 --> — 항목 추가(2026-08-09)
 - [x] wearable exercise tracker — Type 2 Diabetes에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 항목 추가(2026-08-09)
 - [x] self-guided exercise — Obesity에 듣는다  <!-- 시험 6건 · 논문 20편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
-- [ ] self-guided exercise — Cancer에 듣는다  <!-- 시험 5건 · 논문 19편 -->
+- [x] self-guided exercise — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 19편 -->
 - [x] exercise prescription — Obesity에 듣는다  <!-- 시험 24건 · 논문 17312편 --> — 항목 추가(2026-08-09)
 - [x] exercise prescription — Heart Failure에 듣는다  <!-- 시험 18건 · 논문 10401편 --> — 항목 추가(2026-08-09)
 - [x] exercise prescription — Physical Therapy에 듣는다  <!-- 시험 16건 · 논문 130874편 --> — 항목 추가(2026-08-09)
@@ -18527,3 +18527,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] near-infrared light — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 93편 -->
 - [ ] near-infrared light — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 39편 -->
 - [ ] near-infrared light — Optical Imaging에 듣는다  <!-- 시험 3건 · 논문 4640편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] massage chair — Anxiety에 듣는다  <!-- 시험 5건 · 논문 24편 -->
+- [ ] massage chair — Cancer에 듣는다  <!-- 시험 5건 · 논문 18편 -->
+- [ ] massage chair — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 10편 -->
+- [ ] massage chair — Fatigue에 듣는다  <!-- 시험 3건 · 논문 13편 -->
