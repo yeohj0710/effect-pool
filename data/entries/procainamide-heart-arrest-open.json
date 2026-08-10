@@ -1,0 +1,29 @@
+{
+  "id": "procainamide-heart-arrest-open",
+  "subj": "프로카인아마이드",
+  "claim": "쇼크 가능한 병원 밖 심정지의 항부정맥 치료에 프로카인아마이드를 쓴다",
+  "line": "병원 밖 심정지 관찰자료에서 프로카인아마이드의 생존 이득은 불명확했습니다.",
+  "effect": "ROSC·생존 차이 없음",
+  "tier": "obs",
+  "dir": "open",
+  "n": 51,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "프로카인아마이드 허가사항은 생명을 위협하는 심실성 부정맥이며 병원 밖 심정지의 일반 항부정맥 치료는 포함하지 않습니다.",
+  "why": "쇼크 가능한 병원 밖 심정지에서 프로카인아마이드는 제한적으로 사용돼 왔지만 비교 자료가 적어 아미오다론·리도카인과 응급 결과를 비교했습니다.",
+  "saw": "Resuscitation Outcomes Consortium 자료에서 항부정맥제를 받은 병원 밖 심정지 3087건 중 프로카인아마이드만 받은 환자는 51명이었습니다. 성향점수 분석에서 아미오다론과 비교한 병원 전 자발순환회복, 응급실 자발순환회복, 퇴원 생존은 유의한 차이가 없었고, 리도카인과 비교한 결과도 유사했습니다.",
+  "limit": "무작위 배정이 아닌 관찰자료이고 프로카인아마이드 사용자가 적어 선택 편향과 잔여 교란을 배제할 수 없습니다.",
+  "against": "다변량 분석에서는 아미오다론이 프로카인아마이드보다 병원 전 자발순환회복이 낮았지만 성향점수 분석에서는 차이가 없어 결과가 일관되지 않았습니다.",
+  "use": "병원 밖 심정지의 표준 항부정맥제로 해석하지 않으며, 제한된 관찰 신호를 응급의학 연구 가설로만 기록합니다.",
+  "refs": [
+    { "label": "ROC 병원 밖 심정지 프로카인아마이드 관찰연구", "doi": "10.1016/j.ajem.2022.02.031", "pmid": "35325787" },
+    { "label": "CASCADE 심정지 항부정맥 비교시험", "nct": "NCT00000464" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=procainamide AND query.cond=Heart Arrest · 2건, 프로카인아마이드 직접 중재 2건",
+    "pubmed": "procainamide AND Heart Arrest · 152편",
+    "negative": "procainamide AND Heart Arrest AND (no effect OR negative OR failed OR no significant difference) · 85편",
+    "safety": "procainamide AND Heart Arrest AND (adverse OR toxicity OR case report OR overdose) · 41편"
+  }
+}

@@ -18981,3 +18981,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lopinavir — Virus Disease에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 19건 · 논문 3243편 -->
 - [x] lopinavir — Tuberculosis에 듣는다 — 근거 없음(2026-08-10, CT query.intr=lopinavir AND query.cond=Tuberculosis 14건; PubMed exact 133편, 약동학·병용 연구만)  <!-- 시험 11건 · 논문 133편 -->
 - [x] lopinavir — Pneumonia에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 8건 · 논문 945편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] levosimendan — Cardiac Event에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov 2건·직접 중재 2건; PubMed 1297편, 심장사건 치료결과 직접 확인 안 됨)  <!-- 시험 14건 · 논문 1297편 -->
+- [x] levosimendan — Septic Shock에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 12건 · 논문 123편 -->
+- [x] levosimendan — Diastolic Dysfunction에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov 1건·직접 중재 1건; PubMed 119편, NCT01188369 종료 후 결과 논문 확인 안 됨)  <!-- 시험 9건 · 논문 119편 -->
+- [x] levosimendan — Myocardial Stunning에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 6건 · 논문 46편 -->
+- [x] nefopam — Analgesia에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 4건 · 논문 188편 -->
+- [x] nefopam — Shivering에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 41편 -->
+- [x] gemfibrozil — Drug-Drug Interaction에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov 18건·직접 중재 17건; PubMed 362편, 건강한 참가자의 약동학 상호작용 연구만 확인)  <!-- 시험 3건 · 논문 362편 -->
+- [x] salsalate — Insulin Resistant에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 6건 · 논문 38편 -->
+- [x] salsalate — Inflammation에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 72편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] procainamide — Heart Arrest에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 152편 -->
+- [x] procainamide — Wide QRS Tachycardia에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 5건 · 논문 23편 -->
+- [x] procainamide — Arrhythmia에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 4건 · 논문 2627편 -->
+- [x] procainamide — Cardiovascular Diseases에 듣는다 — 근거 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 2409편 -->

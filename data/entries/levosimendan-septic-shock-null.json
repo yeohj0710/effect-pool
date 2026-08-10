@@ -1,0 +1,29 @@
+{
+  "id": "levosimendan-septic-shock-null",
+  "subj": "레보시멘단",
+  "claim": "패혈성 쇼크의 지속 저관류에 레보시멘단을 추가해 사망률을 낮추는가",
+  "line": "패혈성 쇼크에서 레보시멘단은 심장기능과 젖산을 개선했지만 28일 사망률은 낮추지 못했습니다.",
+  "effect": "사망 OR 0.93; 젖산·심장기능 개선",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1044,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "레보시멘단의 허가 범위는 급성으로 악화한 중증 심부전의 단기 수축력 보조이며 패혈성 쇼크는 포함하지 않습니다.",
+  "why": "패혈성 쇼크에서 표준 수액과 혈관수축제에도 저관류가 남을 때 레보시멘단을 다른 수축력 보조제와 비교한 무작위시험을 합쳤습니다.",
+  "saw": "무작위시험 11건, 1044명을 합친 메타분석에서 레보시멘단은 28일 사망률을 낮추지 못했습니다(34.9% 대 36.2%; OR 0.93, 95% CI 0.72–1.20). 심장기능과 혈청 젖산은 개선됐지만 이상반응은 더 많아 보였고, 순차분석은 사망률 결론에 필요한 정보량이 부족하다고 판단했습니다.",
+  "limit": "시험마다 비교 약제와 패혈성 심근병증 기준이 달랐고, 심장기능·젖산은 사망률을 대신할 수 없는 대리지표입니다.",
+  "against": "2025년 다른 메타분석은 입원 사망률 감소를 보고했지만 순차분석에서 확정적 결론에 이르지 못해 전체 생존 이득은 일관되지 않습니다.",
+  "use": "패혈성 쇼크의 표준 수축력 보조제로 확대하지 않으며, 전문 중환자의학 판단과 임상시험 맥락에서 혈역학 신호와 저혈압을 함께 감시합니다.",
+  "refs": [
+    { "label": "레보시멘단 대 도부타민 패혈성 쇼크 메타분석", "doi": "10.1097/MEJ.0000000000001105", "pmid": "38015719" },
+    { "label": "레보시멘단 대 도부타민 패혈성 쇼크 순차분석", "doi": "10.3390/jcm14155496", "pmid": "40807117" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=levosimendan AND query.cond=Septic Shock · 6건, 레보시멘단 직접 중재 5건",
+    "pubmed": "levosimendan AND Septic Shock · 123편",
+    "negative": "levosimendan AND Septic Shock AND (no effect OR negative OR failed OR no significant difference) · 93편",
+    "safety": "levosimendan AND Septic Shock AND (adverse OR toxicity OR case report OR overdose) · 26편"
+  }
+}

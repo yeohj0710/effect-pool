@@ -1,0 +1,28 @@
+{
+  "id": "levosimendan-myocardial-stunning-pos",
+  "subj": "레보시멘단",
+  "claim": "경피적 관상동맥중재술 후 심근 기절과 심부전에 레보시멘단을 쓴다",
+  "line": "PCI 후 STEMI 심부전에서 레보시멘단은 수축을 개선했지만 저혈압이 많았습니다.",
+  "effect": "WMSI P=.031; 저혈압 67%/36%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 61,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "레보시멘단의 허가 범위는 급성으로 악화한 중증 심부전의 단기 수축력 보조이며 PCI 후 심근 기절은 포함하지 않습니다.",
+  "why": "허혈성 심근이 재관류된 뒤 수축력이 떨어지는 심근 기절에 칼슘 감작제 레보시멘단이 회복을 돕는지 위약과 비교한 무작위시험입니다.",
+  "saw": "일차 PCI를 받은 STEMI 환자 중 48시간 안에 증상성 심부전이 생긴 61명을 레보시멘단과 위약에 무작위 배정했습니다. 5일 벽운동점수는 레보시멘단군에서 1.94에서 1.66으로, 위약군에서 1.99에서 1.83으로 변해 군 간 개선 차이가 있었습니다(P=.031). 주입 중 저혈압은 레보시멘단군 67%, 위약군 36%였습니다.",
+  "limit": "소규모 단일시험이고 PCI 후 심부전 환자에 한정됐으며, 6개월 임상사건과 경색 크기는 군 간 차이가 없었습니다.",
+  "against": "레보시멘단군에서 저혈압이 더 흔했고 혈관수축제 사용, NT-proBNP, 부정맥, 새 임상사건에는 유의한 차이가 없었습니다.",
+  "use": "PCI 후 심부전과 심근 기절에서 수축력 회복 신호로만 기록하며 저혈압 위험을 감안해 전문 심장중환자 진료 또는 연구에서 검토합니다.",
+  "refs": [
+    { "label": "LEAF 무작위시험 · STEMI 후 급성 심부전", "doi": "10.1093/eurjhf/hfs215", "pmid": "23288914" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=levosimendan AND query.cond=Myocardial Stunning · 1건, 레보시멘단 직접 중재 1건",
+    "pubmed": "levosimendan AND Myocardial Stunning · 46편",
+    "negative": "levosimendan AND Myocardial Stunning AND (no effect OR negative OR failed OR no significant difference) · 39편",
+    "safety": "levosimendan AND Myocardial Stunning AND (adverse OR toxicity OR case report OR overdose) · 9편"
+  }
+}
