@@ -1,0 +1,31 @@
+{
+  "id": "solanezumab-alzheimers-disease-null",
+  "subj": "솔라네주맙",
+  "claim": "알츠하이머병에 솔라네주맙을 쓴다",
+  "line": "알츠하이머병에서 솔라네주맙은 인지 저하를 늦추지 못했다.",
+  "effect": "ADAS-cog 차이 -0.80·p=.10",
+  "tier": "trial",
+  "dir": "null",
+  "n": 2129,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "솔라네주맙은 FDA 허가 적응증을 찾지 못했으며 알츠하이머병 치료제로 승인되지 않았다.",
+  "why": "경증 치매 알츠하이머병 환자 2,129명을 대상으로 한 EXPEDITION3 3상 시험에서 인지 저하를 위약보다 유의하게 늦추는지 확인했다.",
+  "saw": "80주 ADAS-cog14 변화는 솔라네주맙 6.65점, 위약 7.44점으로 차이 -0.80, 95% CI -1.73~0.14, p=.10이었다. EXPEDITION1·2도 인지·기능 1차평가변수를 충족하지 못했고, A4 시험도 240주 인지 저하를 늦추지 못했다.",
+  "limit": "저용량 3상 자료를 합친 메타분석은 진행 지연 신호를 보고했지만 개별 3상 시험은 음성이었고, 임상적 유익성은 일관되게 확인되지 않았다.",
+  "against": "EXPEDITION3의 인지 1차평가변수가 유의하지 않았으며, 우성 유전 알츠하이머병 DIAN-TU에서도 솔라네주맙은 인지 저하를 늦추지 못했다.",
+  "use": "솔라네주맙을 알츠하이머병 치료제로 사용하지 말고 임상시험의 음성 결과로 기록한다.",
+  "refs": [
+    { "label": "경증 알츠하이머병 EXPEDITION3 3상 시험", "doi": "10.1056/NEJMoa1705971", "pmid": "29365294", "nct": "NCT01900665" },
+    { "label": "경증·중등도 알츠하이머병 EXPEDITION1·2 3상 시험", "doi": "10.1056/NEJMoa1312889", "pmid": "24450890", "nct": "NCT00905372" },
+    { "label": "우성 유전 알츠하이머병 DIAN-TU 시험", "doi": "10.1038/s41591-021-01369-8", "pmid": "34155411", "nct": "NCT01760005" },
+    { "label": "전임상 알츠하이머병 A4 3상 시험", "doi": "10.1056/NEJMoa2305032", "pmid": "37458272", "nct": "NCT02008357" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "solanezumab AND Alzheimers Disease 총 12건 반환, 직접 확인 9건",
+    "pubmed": "solanezumab AND (Alzheimer Disease OR Alzheimer*) 236편",
+    "negative": "solanezumab AND (Alzheimer Disease OR Alzheimer*) AND (no effect OR did not OR failed OR negative OR no significant difference) 69편",
+    "safety": "solanezumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 33편"
+  }
+}
