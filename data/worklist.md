@@ -18615,11 +18615,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 --> — 항목 추가(2026-08-10)
 - [x] bath therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 492편 --> — 항목 추가(2026-08-10)
 - [x] thermal bath — Knee Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 추가(2026-08-10)
-- [ ] storytelling group — Oral Health에 듣는다  <!-- 시험 7건 · 논문 36편 -->
-- [ ] storytelling group — Cancer에 듣는다  <!-- 시험 6건 · 논문 129편 -->
-- [ ] storytelling group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 328편 -->
-- [ ] storytelling group — Anxiety에 듣는다  <!-- 시험 5건 · 논문 82편 -->
-- [ ] art workshop — Mild Dementia에 듣는다  <!-- 시험 3건 · 논문 36편 -->
+- [x] storytelling group — Oral Health에 듣는다  <!-- 시험 7건 · 논문 36편 --> — 항목 추가(2026-08-10)
+- [x] storytelling group — Cancer에 듣는다  <!-- 시험 6건 · 논문 129편 --> — 항목 추가(2026-08-10)
+- [x] storytelling group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 328편 --> — 항목 추가(2026-08-10)
+- [x] storytelling group — Anxiety에 듣는다  <!-- 시험 5건 · 논문 82편 --> — 항목 추가(2026-08-10)
+- [x] art workshop — Mild Dementia에 듣는다  <!-- 시험 3건 · 논문 36편 --> — 항목 추가(2026-08-10)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
