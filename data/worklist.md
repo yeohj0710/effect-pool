@@ -19169,5 +19169,5 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] bilastine — Urticaria에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 8건 · 논문 106편 -->
-- [ ] app-based mindfulness — Depression에 듣는다  <!-- 시험 3건 · 논문 76편 -->
-- [ ] app-based mindfulness — Stress에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [x] app-based mindfulness — Depression에 듣는다  <!-- 시험 3건 · 논문 76편 -->
+- [x] app-based mindfulness — Stress에 듣는다  <!-- 시험 3건 · 논문 89편 -->
