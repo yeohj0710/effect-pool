@@ -1,20 +1,15 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4303,
+  "entries": 4306,
   "worklist": {
-    "total": 14145,
-    "checked": 14118,
-    "unchecked": 27,
+    "total": 14155,
+    "checked": 14123,
+    "unchecked": 32,
     "no_evidence_pending": 1736,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "dance therapy group — Breast Cancer",
-      "dance therapy group — Depression",
-      "dance therapy group — Older Adults",
-      "dexlansoprazole — Esophagitis, Peptic",
-      "dexlansoprazole — Heartburn",
       "dexlansoprazole — H Pylori Eradication",
       "rabeprazole — H.Pylori",
       "rabeprazole — Gastric Ulcer",
@@ -34,12 +29,22 @@
       "storytelling group — Cancer",
       "storytelling group — Nursing Care",
       "storytelling group — Anxiety",
-      "art workshop — Mild Dementia"
+      "art workshop — Mild Dementia",
+      "betahistine — Obesity",
+      "nepafenac — Macular Edema",
+      "nepafenac — Inflammation",
+      "nepafenac — Pain",
+      "nepafenac — Diabetic Retinopathy",
+      "fenoldopam — Cardiac Complications",
+      "fluticasone — Pulmonary Disease",
+      "fluticasone — Rhinitis",
+      "fluticasone — COPD",
+      "fluticasone — Esophagitis"
     ],
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1077 added two evidence entries and closed three topics by indication/no-evidence rules; public/local deployment check remains due after batch 1081; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1078 added three evidence entries and closed two approved topics; worklist expansion added ten pending lines after two attempts; public/local deployment check remains due after batch 1081; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -48,7 +53,7 @@
     "known_warnings": 2,
     "thin_warnings": 802,
     "tier_distribution": {
-      "trial": 3697,
+      "trial": 3700,
       "obs": 539,
       "animal": 23,
       "lab": 11,
@@ -61,7 +66,7 @@
     "trial_share": "85.9%",
     "non_trial_share": "14.1%",
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5983
+    "connected_evidence": 5992
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -86,9 +91,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for 1070-1075 matched in all 6 rounds at 4296 entries, 5964 refs, shard 48, 4301 id fields, 90/90 detail shards and 4296 detail entries, with identical DATA SHA-256 2664d17d3ff09c7b612fe13cb6aca8c49d54d2519e4aa9c9d8d59b620c74b132; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1077 a49a5ff1 pushed",
-    "last_batch": "batch 1077 processed 5 topics: marked nitisinone alkaptonuria and sapropterin phenylketonurias as approved indications, closed sapropterin hypertension as no evidence, and added vaborbactam bloodstream infection open plus dance therapy group Parkinson open entries; build passed",
-    "next_batch": "batch 1078",
+    "last_committed_batch": "batch 1078 e561f5a5 pushed",
+    "last_batch": "batch 1078 processed 5 topics: added dance therapy group breast cancer, depression, and older adults open entries, marked dexlansoprazole esophagitis peptic and heartburn as approved indications, and expanded the worklist by ten lines after two attempts; build passed",
+    "next_batch": "batch 1079",
     "next_six_round_check": "after batch 1081",
     "untracked_preserved": [
       "build-batch283.log",
@@ -499,7 +504,8 @@
     ,"official six-round check after batches 1070-1075: HTTP 200 in all 6 rounds; public/local matched at 4296 entries, 4301 id fields, 5964 refs, shard 48, 90/90 detail shards and 4296 detail entries, with identical DATA SHA-256 2664d17d3ff09c7b612fe13cb6aca8c49d54d2519e4aa9c9d8d59b620c74b132; automatic Git deployment was sufficient and vercel --prod was not required"
     ,"batch 1076 processed 5 topics: added solifenacin ureteral stent pos, lumacaftor diabetes null, music imagery pain open, music imagery anxiety null, and music imagery stress null entries; data commit c6afdffa was pushed; build matched at 4301 entries and 5977 refs"
     ,"batch 1077 processed 5 topics: marked nitisinone alkaptonuria and sapropterin phenylketonurias as approved indications, closed sapropterin hypertension as no evidence, and added vaborbactam bloodstream infection open plus dance therapy group Parkinson open entries; data commit a49a5ff1 was pushed; build matched at 4303 entries and 5983 refs"
+    ,"batch 1078 processed 5 topics: added dance therapy group breast cancer, depression, and older adults open entries, marked dexlansoprazole esophagitis peptic and heartburn as approved indications, and expanded the worklist by ten lines after two attempts; data commit e561f5a5 was pushed; build matched at 4306 entries and 5992 refs"
   ],
-  "current_batch": "batch 1077 checkpoint: 4303 entries/5983 refs, 2 evidence entries and 3 topics closed by indication/no-evidence rules; worklist 14145 total, 14118 checked, 27 unchecked; commit a49a5ff1 pushed. Next six-round public/local check is due after batch 1081.",
-  "next_action": "start batch 1078 by running worklist expansion first because 27 unchecked topics remain; skip the two lines marked 조회 실패, then process the next five eligible topics"
+  "current_batch": "batch 1078 checkpoint: 4306 entries/5992 refs, 3 evidence entries and 2 topics closed by indication rules; worklist 14155 total, 14123 checked, 32 unchecked; worklist expansion added ten lines after two attempts; commit e561f5a5 pushed. Next six-round public/local check is due after batch 1081.",
+  "next_action": "start batch 1079 without expansion because 32 unchecked topics remain; skip the two lines marked 조회 실패, then process dexlansoprazole H Pylori Eradication, rabeprazole H.Pylori, rabeprazole Gastric Ulcer, rabeprazole Healthy Adults, and rabeprazole Cancer"
 }
