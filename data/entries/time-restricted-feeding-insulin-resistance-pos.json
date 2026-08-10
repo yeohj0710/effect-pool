@@ -1,0 +1,29 @@
+{
+  "id": "time-restricted-feeding-insulin-resistance-pos",
+  "subj": "time-restricted feeding",
+  "claim": "다낭성 난소 증후군 여성에서 시간 제한 식사가 인슐린 저항성을 낮췄다",
+  "line": "다낭성 난소 증후군에서 시간 제한 식사가 인슐린 저항성을 낮췄다.",
+  "effect": "HOMA-IR MD -0.58",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 216,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "시간 제한 식사는 비약물 식사 중재라 의약품 허가 적응증이 없다.",
+  "why": "다낭성 난소 증후군 여성의 시간 제한 식사 무작위시험을 합친 체계적 문헌고찰·메타분석입니다.",
+  "saw": "무작위시험 4개, 총 216명을 합쳤습니다. 시간 제한 식사는 칼로리 제한 또는 자유 식사와 비교해 HOMA-IR을 -0.58(95% CI -0.87~-0.30) 낮추고 QUICKI를 0.08 높였으며 HDL도 1.97mg/dL 높였습니다. 연구별 중재와 표본은 작고 서로 달랐습니다.",
+  "limit": "네 개 무작위시험만 포함했고 표본이 작으며 중재와 대조군이 이질적입니다. 결과는 다낭성 난소 증후군 여성에 한정됩니다.",
+  "against": "메타분석의 인슐린 저항성 개선은 다낭성 난소 증후군이라는 특정 집단의 결과라 다른 비만·대사질환 성인에게 일반화할 수 없습니다.",
+  "use": "다낭성 난소 증후군 여성의 인슐린 저항성 개선을 위한 식사 중재 후보로 기록하지만, 장기 대규모 시험이 필요합니다.",
+  "refs": [
+    { "label": "Hamsho 2026 · Nutrients · 체계적 문헌고찰·메타분석", "doi": "10.3390/nu18132096", "pmid": "42451100" },
+    { "label": "Aminian 2026 · European Journal of Nutrition · 무작위시험", "doi": "10.1007/s00394-026-04034-3", "pmid": "42371138" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "time-restricted feeding AND Insulin Resistance; 18건 반환",
+    "pubmed": "time-restricted feeding AND Insulin Resistance; 578건",
+    "negative": "time-restricted feeding AND Insulin Resistance AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference); 464건",
+    "safety": "time-restricted feeding AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 919건"
+  }
+}

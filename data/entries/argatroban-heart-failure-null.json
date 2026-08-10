@@ -1,0 +1,28 @@
+{
+  "id": "argatroban-heart-failure-null",
+  "subj": "아가트로반",
+  "claim": "LVAD를 이식한 헤파린 유발 혈소판감소증 심부전 환자에서 아가트로반은 대체 항응고제로 쓰였지만 심부전 치료 효과는 평가되지 않았다",
+  "line": "LVAD 이식 뒤 HIT 심부전 환자에게 아가트로반을 썼다.",
+  "effect": "혈소판 회복; 심부전 효과 미평가",
+  "tier": "case",
+  "dir": "null",
+  "n": 3,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아가트로반은 헤파린 유발 혈소판감소증 항응고에 허가됐지만 심부전 치료는 허가 적응증이 아니다.",
+  "why": "HeartMate 3 좌심실 보조장치 이식 뒤 헤파린 유발 혈소판감소증이 생긴 심부전 환자에서 아가트로반을 대체 항응고제로 사용한 증례군입니다.",
+  "saw": "세 환자 모두 아가트로반으로 관리했고, 두 명은 아세노쿠마롤로 전환해 퇴원했습니다. 세 번째 환자는 인공호흡기 관련 폐렴과 패혈성 쇼크, 천자·기관절개 부위의 가벼운 출혈을 겪은 뒤 수술 후 사망했습니다.",
+  "limit": "증례군이며 심부전의 수축력, 증상, 입원, 생존에 대한 비교 결과가 없습니다. LVAD 자체의 혈전·출혈 위험과 아가트로반 효과를 분리하기도 어렵습니다.",
+  "against": "검색한 원저와 고찰은 심부전 자체를 치료한 결과가 아니라 LVAD 환자의 HIT 항응고 대체를 다뤘습니다.",
+  "use": "심부전 치료제가 아니라 LVAD 이식 뒤 HIT가 생겼을 때의 대체 항응고 사례로 기록합니다.",
+  "refs": [
+    { "label": "Palacios-Castelló 2026 · Transplantation Proceedings · 증례군", "doi": "10.1016/j.transproceed.2026.01.020", "pmid": "41654428" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "argatroban AND Heart Failure; 1건 반환",
+    "pubmed": "argatroban AND Heart Failure; 49건",
+    "negative": "argatroban AND Heart Failure AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference); 41건",
+    "safety": "argatroban AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 899건"
+  }
+}

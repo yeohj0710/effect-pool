@@ -1,0 +1,29 @@
+{
+  "id": "argatroban-stroke-harm",
+  "subj": "아가트로반",
+  "claim": "급성 허혈성 뇌졸중 혈전용해에 아가트로반을 추가해도 기능이 좋아지지 않고 사망이 늘었다",
+  "line": "혈전용해에 아가트로반을 더해도 급성 뇌졸중 기능은 좋아지지 않았다.",
+  "effect": "기능 개선 없음; 사망 증가",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 28,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아가트로반은 헤파린 유발 혈소판감소증 항응고에 허가됐지만 급성 뇌졸중은 허가 적응증이 아니다.",
+  "why": "정맥 혈전용해를 받은 급성 허혈성 뇌졸중 환자에서 아가트로반을 추가한 3군 무작위 3상 시험의 하위 분석입니다.",
+  "saw": "MOST 시험의 정맥 혈전용해 단독 코호트 260명 중 위약군은 118명, 아가트로반군은 28명이었습니다. 90일 utility-weighted mRS 평균은 아가트로반 5.5, 위약 7.4였고 아가트로반이 우월할 확률은 1%였습니다. 2차 결과도 개선되지 않았으며 사망은 아가트로반 14.3%, 위약 3.4%였습니다(P=.03).",
+  "limit": "아가트로반 하위군이 28명뿐이고, 효능 부족으로 시험이 중단됐습니다. 혈전용해 후 아가트로반 추가라는 특정 상황의 결과입니다.",
+  "against": "급성 뇌졸중 무작위시험 5개를 합친 네트워크 메타분석에서도 아가트로반은 양호한 기능 결과 비율을 유의하게 높이지 않았습니다.",
+  "use": "급성 허혈성 뇌졸중 혈전용해 뒤 기능 개선 목적으로 아가트로반을 추가하지 않는 근거로 기록합니다.",
+  "refs": [
+    { "label": "Roy 2025 · Neurology · MOST 무작위시험 하위 분석", "doi": "10.1212/WNL.0000000000214228", "pmid": "41071964" },
+    { "label": "2026 · BMC Neurology · 무작위시험 네트워크 메타분석", "doi": "10.1186/s12883-026-05081-3", "pmid": "42350977" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "argatroban AND Stroke; 9건 반환",
+    "pubmed": "argatroban AND Stroke; 236건",
+    "negative": "argatroban AND Stroke AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference); 161건",
+    "safety": "argatroban AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 899건"
+  }
+}
