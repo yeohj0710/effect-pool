@@ -1,0 +1,29 @@
+{
+  "id": "baduanjin-cancer-pos",
+  "subj": "Baduanjin 암 환자",
+  "claim": "유방암 환자에서 Baduanjin 운동은 삶의 질을 높이고 불안과 우울을 낮췄다",
+  "line": "유방암 환자의 삶의 질과 불안을 개선했습니다",
+  "effect": "삶의 질 SMD 0.83",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 537,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "Baduanjin은 암 치료제가 아니며 유방암 환자의 보조 운동 사용은 허가 적응증 개념이 적용되지 않습니다",
+  "why": "암 환자에게 Baduanjin 운동을 보조요법으로 시행한 무작위시험과 메타분석을 검토했습니다.",
+  "saw": "유방암 환자 537명을 포함한 7개 무작위시험 메타분석에서 Baduanjin은 대조군보다 전체 삶의 질을 높였고 SMD는 0.83(95% CI 0.58–1.08)이었습니다. 불안은 SMD -0.60, 우울은 -0.70으로 줄었고 보고된 이상반응은 없었습니다.",
+  "limit": "유방암 환자의 삶의 질·정신건강을 평가한 운동 연구이며 종양 크기, 재발, 생존을 평가한 암 치료시험이 아닙니다. 운동 방식과 대조군이 연구마다 달랐습니다.",
+  "against": "메타분석은 주관적 삶의 질과 불안·우울 지표에 집중했고 종양학적 결과나 장기 안전성을 확인하지 않았습니다.",
+  "use": "유방암 치료 중 삶의 질과 정서 증상을 위한 보조 운동 신호로 기록하며 항암치료를 대신하지 않습니다.",
+  "refs": [
+    { "label": "Baduanjin exercise for patients with breast cancer: A systematic review and meta-analysis", "doi": "10.1016/j.ctim.2022.102886", "pmid": "36122861" },
+    { "label": "Clinical Effects of Baduanjin Qigong Exercise on Cancer Patients: A Systematic Review and Meta-Analysis on Randomized Controlled Trials", "doi": "10.1155/2021/6651238", "pmid": "33880125", "pmc": "PMC8049783" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=Baduanjin&query.cond=Cancer; total 11, direct 9",
+    "pubmed": "Baduanjin[Title/Abstract] AND Cancer[Title/Abstract]; 58",
+    "negative": "Baduanjin[Title/Abstract] AND Cancer[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 9",
+    "safety": "Baduanjin[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 109"
+  }
+}

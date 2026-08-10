@@ -1,0 +1,29 @@
+{
+  "id": "golimumab-spondyloarthritis-pos",
+  "subj": "골리무맙 SpA",
+  "claim": "축성 척추관절염에서 골리무맙은 질병활성과 요통을 낮추고 임상 반응률을 높였다",
+  "line": "질병활성과 요통을 낮추고 반응률을 높였습니다",
+  "effect": "ASAS20·ASAS40 반응 증가",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 6363,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "골리무맙은 일부 국가에서 강직성 척추염과 비방사선학적 축성 척추관절염에 허가됐지만 이 일반 주제는 허가 문구보다 넓습니다",
+  "why": "축성 척추관절염에서 골리무맙의 무작위시험 결과를 합친 메타분석과 임상시험 검토를 확인했습니다.",
+  "saw": "9개 무작위시험 6,363명 메타분석에서 골리무맙은 위약보다 BASFI·BASMI·BASDAI·총 요통을 낮추고 ASAS20·ASAS40·부분 관해 반응률을 높였습니다. 100mg은 50mg보다 일부 효능이 좋았지만 중대한 이상반응도 늘었습니다.",
+  "limit": "분석 대상은 주로 강직성 척추염과 축성 척추관절염이며 모든 말초 척추관절염에 결과를 일반화할 수 없습니다. 연구 대부분이 2019년 이전 자료입니다.",
+  "against": "고용량의 효능 신호와 함께 중대한 이상반응이 늘었고 장기 구조 진행과 모든 척추관절염 아형의 효과는 확정되지 않았습니다.",
+  "use": "축성 척추관절염의 질병활성·통증 조절 근거로 기록하되 용량별 중대한 이상반응을 함께 고려합니다.",
+  "refs": [
+    { "label": "Patients with ankylosing spondylitis treatment by golimumab: a systematic review and meta-analysis", "doi": "10.1007/s00586-020-06466-9", "pmid": "32447529" },
+    { "label": "Golimumab in radiographic and nonradiographic axial spondyloarthritis: a review of clinical trials", "doi": "10.2147/DDDT.S107587", "pmid": "27445459", "pmc": "PMC4936813" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=golimumab&query.cond=Spondyloarthritis; total 50, direct 28",
+    "pubmed": "golimumab[Title/Abstract] AND Spondyloarthritis[Title/Abstract]; 157",
+    "negative": "golimumab[Title/Abstract] AND Spondyloarthritis[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 30",
+    "safety": "golimumab[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 760"
+  }
+}

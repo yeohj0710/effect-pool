@@ -19133,3 +19133,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] palonosetron — Neoplasms에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 5건 · 논문 327편 -->
 - [x] ramosetron — Cancer에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 7건 · 논문 70편 -->
 - [x] ramosetron — Irritable Bowel Syndrome에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 3건 · 논문 74편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] mesalamine — Irritable Bowel Syndrome에 듣는다  <!-- 시험 9건 · 논문 93편 -->
+- [x] vedolizumab — Crohn Disease에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 54건 · 논문 1428편 -->
+- [x] vedolizumab — Melanoma에 듣는다  <!-- 시험 27건 · 논문 45편 -->
+- [x] vedolizumab — Cancer에 듣는다  <!-- 시험 18건 · 논문 275편 -->
+- [x] certolizumab pegol — Crohn Disease에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 28건 · 논문 389편 -->
+- [x] certolizumab pegol — Psoriasis에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 17건 · 논문 302편 -->
+- [x] certolizumab pegol — Nr-axSpA에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 8건 · 논문 44편 -->
+- [x] certolizumab pegol — Ankylosing Spondylitis에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 5건 · 논문 141편 -->
+- [x] golimumab — Colitis에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 28건 · 논문 478편 -->
+- [x] golimumab — Ankylosing Spondylitis에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 10건 · 논문 318편 -->
+- [x] golimumab — Spondyloarthritis에 듣는다  <!-- 시험 6건 · 논문 459편 -->
+- [x] Baduanjin — Cancer에 듣는다  <!-- 시험 7건 · 논문 64편 -->
+- [x] Baduanjin — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 47편 -->
+- [x] Baduanjin — Exercise에 듣는다  <!-- 시험 5건 · 논문 498편 -->
+- [x] Baduanjin — Anxiety Symptoms에 듣는다  <!-- 시험 4건 · 논문 46편 -->

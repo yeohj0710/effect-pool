@@ -1,0 +1,30 @@
+{
+  "id": "mesalamine-irritable-bowel-syndrome-null",
+  "subj": "메살라진 과민성장증후군",
+  "claim": "과민성장증후군에서 메살라진은 전체 증상에 작은 신호를 보였지만 복통과 배변을 개선하지 않았다",
+  "line": "전체 증상은 조금 줄었지만 복통·배변은 낫지 않았습니다",
+  "effect": "전체 증상 RR 0.86, NNT 10",
+  "tier": "trial",
+  "dir": "null",
+  "n": 820,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "메살라진 허가 적응증은 궤양성 대장염이며 과민성장증후군은 허가 밖입니다",
+  "why": "과민성장증후군에서 장 염증을 낮추려는 메살라진의 효과를 평가한 무작위시험과 메타분석을 검토했습니다.",
+  "saw": "8개 무작위시험 820명 메타분석에서 메살라진은 위약보다 전체 IBS 증상이 호전되지 않을 위험을 낮췄고 RR은 0.86(95% CI 0.79–0.95), NNT는 10이었습니다. 복통과 배변 빈도에는 유의한 효과가 없었고 근거 수준은 낮았습니다. 181명 다기관 시험의 일차 평가변수도 메살라진 36% 대 위약 30%(p=0.40)로 유의하지 않았습니다.",
+  "limit": "메타분석의 근거 수준이 낮고 시험별 용량·기간·IBS 아형이 달랐습니다. 일차 평가변수와 복통 결과가 음성이어서 일반적인 IBS 치료 효과로 확대할 수 없습니다.",
+  "against": "2022년 다기관 무작위시험과 과거 185명 3상 시험에서 일차 통증·불편감 결과가 위약보다 유의하게 낫지 않았습니다.",
+  "use": "설사형 IBS의 전체 증상에 작은 신호가 있지만 표준 치료를 대신하지 않는 혼합 근거로 기록합니다.",
+  "refs": [
+    { "label": "Systematic Review and Meta-analysis: Efficacy of Mesalamine in Irritable Bowel Syndrome", "doi": "10.1016/j.cgh.2023.02.014", "pmid": "36858143" },
+    { "label": "Randomised clinical trial and meta-analysis: mesalazine treatment in irritable bowel syndrome", "doi": "10.1111/apt.17182", "pmid": "35942522", "pmc": "PMC9543538" },
+    { "label": "Randomised controlled trial of mesalazine in IBS", "doi": "10.1136/gutjnl-2014-308188", "pmid": "25533646", "pmc": "PMC4717362" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=mesalamine&query.cond=Irritable Bowel Syndrome; total 8, direct 3",
+    "pubmed": "mesalamine[Title/Abstract] AND Irritable Bowel Syndrome[Title/Abstract]; 21",
+    "negative": "mesalamine[Title/Abstract] AND Irritable Bowel Syndrome[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 4",
+    "safety": "mesalamine[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 595"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "vedolizumab-cancer-pos",
+  "subj": "베돌리주맙 암 환자",
+  "claim": "동종 조혈모세포이식 환자에서 베돌리주맙은 하부 위장관 급성 GVHD를 예방했다",
+  "line": "이식 뒤 하부 위장관 GVHD를 줄였습니다",
+  "effect": "180일 무사건 생존 85.5% 대 70.9%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 343,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "베돌리주맙 허가 적응증은 궤양성 대장염과 크론병이며 이식 뒤 GVHD 예방은 허가 밖입니다",
+  "why": "혈액암 등으로 동종 조혈모세포이식을 받은 환자에서 베돌리주맙을 GVHD 예방에 추가한 3상 시험을 검토했습니다.",
+  "saw": "343명을 무작위 배정한 이중눈가림 3상 시험에서 180일 하부 위장관 급성 GVHD 없는 생존은 베돌리주맙군 85.5%, 위약군 70.9%였고 위험비는 0.45(95% CI 0.27–0.73, p<0.001)였습니다. 재발 없는 생존과 중증 GVHD 없는 생존도 개선됐지만 전체 생존과 비재발 사망률은 다르지 않았습니다.",
+  "limit": "코로나19 유행 중 조기 등록 종료된 이식 예방시험이며 베돌리주맙을 암 자체의 치료제로 평가하지 않았습니다. 이식 환자의 면역억제 환경에 한정된 결과입니다.",
+  "against": "전체 생존과 비재발 사망률에는 유의한 차이가 없었고 하부 위장관 GVHD 예방 효과가 암 종양 반응으로 이어졌다는 결과는 없습니다.",
+  "use": "동종 조혈모세포이식 환자의 하부 위장관 GVHD 예방 후보로 기록하며 암 치료 효과로 해석하지 않습니다.",
+  "refs": [
+    { "label": "Vedolizumab for the prevention of intestinal acute GVHD after allogeneic hematopoietic stem cell transplantation: a randomized phase 3 trial", "doi": "10.1038/s41591-024-03016-4", "pmid": "38844797", "pmc": "PMC11333288" },
+    { "label": "NCT05515029", "nct": "NCT05515029" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=vedolizumab&query.cond=Cancer; total 19, direct 10",
+    "pubmed": "vedolizumab[Title/Abstract] AND Cancer[Title/Abstract]; 122",
+    "negative": "vedolizumab[Title/Abstract] AND Cancer[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 20",
+    "safety": "vedolizumab[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 1,084"
+  }
+}
