@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4447,
+  "entries": 4450,
   "worklist": {
-    "total": 14363,
-    "checked": 14360,
+    "total": 14366,
+    "checked": 14363,
     "unchecked": 3,
     "no_evidence_pending": 1759,
     "next_batch": [
@@ -15,7 +15,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1116 ran one new 20-name expansion set with at least five non-drug names and produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and kept new line/effect/known/scale warnings at 0; unknown-n and truthful thin-study warnings remain",
+    "build": "passed; batch 1117 ran one new 20-name expansion set with at least five non-drug names and produced 3 mindfulness-based eating candidates; added Eating Behavior positive, Mindfulness positive, and Anxiety null entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and kept new line/effect/known/scale warnings at 0; unknown-n and truthful thin-study warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -24,48 +24,48 @@
     "known_warnings": 2,
     "thin_warnings": 816,
     "tier_distribution": {
-      "trial": 3816,
+      "trial": 3819,
       "obs": 559,
       "animal": 23,
       "lab": 11,
       "case": 38
     },
-    "no_effect_or_harm": 1026,
+    "no_effect_or_harm": 1031,
     "harm": 133,
     "no_effect_or_harm_share": "23%",
     "non_trial": 631,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6314
+    "connected_evidence": 6318
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-10",
     "six_round_check": {
-      "batches": "1111",
+      "batches": "1117",
       "http_status": 200,
-      "local_entry_count": 4424,
-      "public_entry_count": 4424,
-      "local_id_field_count": 4429,
-      "public_id_field_count": 4429,
-      "local_ref_count": 6276,
-      "public_ref_count": 6276,
+      "local_entry_count": 4450,
+      "public_entry_count": 4450,
+      "local_id_field_count": 4455,
+      "public_id_field_count": 4455,
+      "local_ref_count": 6318,
+      "public_ref_count": 6318,
       "shard": 48,
       "detail_shards_ok": "93/93",
-      "detail_entry_count": 4424,
+      "detail_entry_count": 4450,
       "counts_match": true,
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false,
-      "data_sha256": "449d6a99d2e2b553461eafa03320e2f7f9b5f8353ec9e2d8c68306aa7b626747"
+      "data_sha256": "de2c68c47f36053cb08a4c877fb9550130c83b42a42d6874d7896ad2c7128c71"
     },
-       "latest_note": "Official six-round HTTP 200 public/local check after batch 1111 matched in all 6 rounds at 4424 entries, 6276 refs, shard 48, 4429 id fields, 93/93 detail shards and 4424 detail entries, with identical DATA SHA-256 449d6a99d2e2b553461eafa03320e2f7f9b5f8353ec9e2d8c68306aa7b626747; automatic Git deployment was sufficient and vercel --prod was not required."
+    "latest_note": "Official six-round HTTP 200 public/local check after batch 1117 matched in all 6 rounds at 4450 entries, 6318 refs, shard 48, 4455 id fields, 93/93 detail shards and 4450 detail entries, with identical DATA SHA-256 de2c68c47f36053cb08a4c877fb9550130c83b42a42d6874d7896ad2c7128c71; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1116 data/worklist commit 6e061c1e pushed",
-    "last_batch": "batch 1116 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 6e061c1e; build matched at 4447 entries and 6314 refs; next six-round check remains due after batch 1117",
-    "next_batch": "batch 1117",
-    "next_six_round_check": "after batch 1117",
+    "last_committed_batch": "batch 1117 data/worklist commit 275c21e4 pushed; six-round public/local check matched",
+    "last_batch": "batch 1117 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 3 mindfulness-based eating candidates; added Eating Behavior positive, Mindfulness positive, and Anxiety null entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 275c21e4; build matched at 4450 entries and 6318 refs; six-round public/local check matched at 4450 entries, 6318 refs, 4455 id fields, and 93/93 detail shards",
+    "next_batch": "batch 1118",
+    "next_six_round_check": "after batch 1123",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -518,8 +518,9 @@
     ,"batch 1113 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 15 candidates; marked 7 approved indications, added 8 mesalamine/vedolizumab/golimumab/Baduanjin evidence entries, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit e74f80b0; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117"
     ,"batch 1114 started with 3 unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so expansion stopped after the second attempt; left the 3 exhausted lookup failures unchecked, tightened 20 legacy claim sentences without changing numbers, added no evidence entries, and pushed sentence commit d8de6a8e; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117",
     "batch 1115 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 3 candidates; marked bilastine Urticaria as an approved indication, added app-based mindfulness Depression positive and Stress null evidence entries, closed all 3 new candidates, left the 3 exhausted lookup failures unchecked, and pushed data commit 4083b825 and worklist correction 13b06bf0; build matched at 4440 entries and 6302 refs; next six-round check remains due after batch 1117",
-    "batch 1116 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 6e061c1e; build matched at 4447 entries and 6314 refs; next six-round check remains due after batch 1117"
+    "batch 1116 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 7 candidates; added 3 argatroban Stroke/Heart Failure/Coronary Artery Disease entries and 4 time-restricted feeding Feeding Behavior/Fasting/Metabolic Health/Insulin Resistance entries, closed all 7 candidates, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit 6e061c1e; build matched at 4447 entries and 6314 refs; next six-round check remains due after batch 1117",
+    "batch 1117 six-round check: all 6 public/local rounds returned HTTP 200 with 93/93 detail shards; entries 4450, refs 6318, id fields 4455, detail entries 4450, DATA SHA-256 de2c68c47f36053cb08a4c877fb9550130c83b42a42d6874d7896ad2c7128c71; automatic Git deployment was sufficient, so vercel --prod was not required."
   ],
-  "current_batch": "batch 1116 checkpoint: 4447 entries/6314 refs; added 3 argatroban and 4 time-restricted feeding entries, and kept new line/effect/known/scale warnings at 0; worklist is 14363 total, 14360 checked, 3 unchecked; data/worklist commit 6e061c1e pushed",
-    "next_action": "start batch 1117 with git pull, count the 3 unchecked lines, run a new expansion branch with at least five non-drug names, then perform the due six-round public/local deployment check"
+  "current_batch": "batch 1117 checkpoint: 4450 entries/6318 refs; added 2 positive and 1 null mindfulness-based eating entries, and kept new line/effect/known/scale warnings at 0; worklist is 14366 total, 14363 checked, 3 unchecked; data/worklist commit 275c21e4 pushed; six-round public/local check matched",
+  "next_action": "start batch 1118 with git pull, read AGENTS.md, count the 3 unchecked lines, run a new expansion branch with at least five non-drug names, and investigate available off-label candidates"
 }
