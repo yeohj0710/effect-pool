@@ -1,0 +1,30 @@
+{
+  "id": "bath-therapy-blood-pressure-open",
+  "subj": "bath therapy",
+  "claim": "혈압 조절에 목욕 치료를 쓴다",
+  "line": "목욕 직후 혈압은 내려갔지만, 뜨거운 물에 들어가는 동안 수축기 혈압은 올랐다.",
+  "effect": "목욕 직후 혈압 감소·입욕 중 상승",
+  "tier": "obs",
+  "dir": "open",
+  "n": 1479,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "목욕 치료는 고혈압의 허가 치료가 아니라 비약물 생활 중재이다.",
+  "why": "목욕 전후 혈압과 실제 생활에서 입욕 중 나타나는 혈역학 변화를 함께 비교했다.",
+  "saw": "치료 중인 고혈압 환자 28명은 40.6°C 온탕 뒤 중심 수축기 혈압이 13.0 mmHg, 상완 수축기 혈압이 8.5 mmHg 내려갔지만 밤 시간 혈압은 목욕일과 비목욕일에 달라지지 않았다. 만성 관절질환 환자 169명의 2주 유황 머드욕 관찰연구에서는 고혈압군의 혈압이 낮아졌고 이상반응은 보고되지 않았다. 반면 지역사회 노인 1,479명 연구에서는 피부 온도가 1°C 오를 때 입욕 중 수축기 혈압이 2.41 mmHg, 맥박이 2.99회/분 올랐다.",
+  "limit": "서로 다른 온도·욕법·측정 시점을 사용한 관찰자료라 장기 혈압 조절 효과와 안전한 입욕 조건을 확정할 수 없다.",
+  "against": "대규모 실제 생활 연구에서는 뜨거운 물에 들어가는 동안 혈압과 맥박이 올랐고, 소규모 연구에서는 밤 시간 혈압 변화가 없었다.",
+  "use": "고혈압 치료를 목욕으로 대체하지 말고, 어지럼·심혈관 질환·고령자의 입욕 위험을 고려해 온도와 시간을 보수적으로 정한다.",
+  "refs": [
+    { "label": "실제 생활에서 뜨거운 물 입욕 중 혈압을 본 노인 연구", "doi": "10.1265/ehpm.23-00320", "pmid": "38447972" },
+    { "label": "고혈압 환자의 뜨거운 물 목욕 뒤 중심 혈압 연구", "doi": "10.1097/MBP.0000000000000167", "pmid": "26657048" },
+    { "label": "관절질환 환자의 유황 머드욕과 혈압 관찰연구", "doi": "10.7417/CT.2015.1861", "pmid": "26378750" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "bath therapy AND Blood Pressure · 12건 반환, InterventionName 완전일치 0건",
+    "pubmed": "bath therapy AND Blood Pressure · 877편",
+    "negative": "bath therapy AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) · 669편",
+    "safety": "bath therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 4340편"
+  }
+}

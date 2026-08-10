@@ -18610,11 +18610,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 항목 추가(2026-08-10)
 - [x] tegaserod — Dyspepsia에 듣는다  <!-- 시험 7건 · 논문 36편 --> — 항목 추가(2026-08-10)
 - [x] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 --> — 허가 적응증(2026-08-10)
-- [ ] bath therapy — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 877편 -->
-- [ ] bath therapy — Labor Pain에 듣는다  <!-- 시험 7건 · 논문 52편 -->
-- [ ] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 -->
-- [ ] bath therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 492편 -->
-- [ ] thermal bath — Knee Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] bath therapy — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 877편 --> — 항목 추가(2026-08-10)
+- [x] bath therapy — Labor Pain에 듣는다  <!-- 시험 7건 · 논문 52편 --> — 항목 추가(2026-08-10)
+- [x] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 --> — 항목 추가(2026-08-10)
+- [x] bath therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 492편 --> — 항목 추가(2026-08-10)
+- [x] thermal bath — Knee Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 추가(2026-08-10)
 - [ ] storytelling group — Oral Health에 듣는다  <!-- 시험 7건 · 논문 36편 -->
 - [ ] storytelling group — Cancer에 듣는다  <!-- 시험 6건 · 논문 129편 -->
 - [ ] storytelling group — Nursing Care에 듣는다  <!-- 시험 6건 · 논문 328편 -->
