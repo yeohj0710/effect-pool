@@ -1,0 +1,28 @@
+{
+  "id": "digital-biomarker-alzheimer-disease-pos",
+  "subj": "digital biomarker",
+  "claim": "음성 기반 디지털 지표로 알츠하이머병과 전두측두엽 변성을 구분한다",
+  "line": "음성 기반 디지털 지표는 알츠하이머병과 전두측두엽 변성을 구분했다.",
+  "effect": "병리 구분 AUC 0.986",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 172,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "음성 기반 디지털 지표는 진단 보조 기술이며 허가 약물 적응증이 아니다.",
+  "why": "바이오마커로 병리를 확인한 알츠하이머병·전두측두엽 변성 환자와 대조군의 표준 음성 과제를 분석한 전향 연구다.",
+  "saw": "참가자 172명 중 환자 108명과 대조군 64명에서 음성 모델의 병리 구분 평균 AUC가 0.986이었다.",
+  "limit": "단일 기관의 바이오마커 확인 코호트라 외부 검증과 실제 진료 적용 성능이 아직 부족하다.",
+  "against": "음성 지표가 병리를 구분해도 환자의 인지 기능이나 치료 결과를 개선하는지는 평가하지 않았다.",
+  "use": "알츠하이머병 조기 감별에서 음성 디지털 지표를 기존 바이오마커의 보조 도구로 평가할 근거로 기록한다.",
+  "refs": [
+    { "label": "Speech-based digital biomarkers for early etiological stratification of Alzheimer's disease and frontotemporal degeneration", "pmid": "42000570" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"digital biomarker\" AND \"Alzheimer Disease\" 검색 10건",
+    "pubmed": "\"digital biomarker\" AND \"Alzheimer Disease\" 검색 39건; PMID 42000570 직접 전향 연구",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 19건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+  }
+}
