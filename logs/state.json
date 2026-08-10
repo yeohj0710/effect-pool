@@ -1,12 +1,12 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4403,
+  "entries": 4410,
   "worklist": {
-    "total": 14276,
-    "checked": 14274,
+    "total": 14289,
+    "checked": 14287,
     "unchecked": 2,
-    "no_evidence_pending": 1753,
+    "no_evidence_pending": 1756,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)"
@@ -14,7 +14,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1106 ran two new 20-name expansion sets with at least five non-drug names each, added no evidence entries because all candidates were approved indications or had no candidate after filtering, left 2 exhausted lookup failures unchecked, and tightened 20 legacy sentences; line, translation, effect, known, English, and scale warnings are 0; unknown-n warnings remain",
+    "build": "passed; batch 1107 ran two new 20-name expansion sets with at least five non-drug names each, recovered a procainamide set after two ClinicalTrials.gov retries, added 7 evidence entries, marked 3 approved indications, closed 3 topics as no evidence, left 2 exhausted lookup failures unchecked, and tightened 20 legacy sentences; line, translation, effect, known, English, and scale warnings are 0; unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -23,20 +23,20 @@
     "known_warnings": 2,
     "thin_warnings": 812,
     "tier_distribution": {
-      "trial": 3776,
-      "obs": 557,
+      "trial": 3782,
+      "obs": 558,
       "animal": 23,
       "lab": 11,
       "case": 36
     },
-    "no_effect_or_harm": 1012,
+    "no_effect_or_harm": 1016,
     "harm": 130,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 627,
+    "non_trial": 628,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6237
+    "connected_evidence": 6250
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -61,9 +61,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1105 matched in all 6 rounds at 4403 entries, 6237 refs, shard 48, 4408 id fields, 92/92 detail shards and 4403 detail entries, with identical DATA SHA-256 fa913ab9da9789486c845cc7e577ee2af99079273fd770300a32a2b23e50f1b3; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1106 sentence-polish commit cea54f15 pushed; data/worklist remains at batch 1105 commit 4bf30a70",
-    "last_batch": "batch 1106 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so no new evidence entries were added; the two exhausted lookup failures stayed unchecked and 20 legacy sentences were tightened; build matched at 4403 entries and 6237 refs; sentence commit cea54f15 was pushed",
-    "next_batch": "batch 1107",
+    "last_committed_batch": "batch 1107 warning-fix commit 8dbc5b32 pushed; evidence/worklist commit 91473c5c and sentence commit 0605be19 pushed",
+    "last_batch": "batch 1107 started with two unchecked lookup failures; the first 20-name expansion set with at least five non-drug names produced 9 candidates, the second produced 0 after 15 ClinicalTrials.gov HTTP 500 failures; one retry recovered most topics and a final retry recovered 4 procainamide candidates; added 7 evidence entries, marked 3 approved indications, closed 3 topics as no evidence, kept the 2 exhausted lookup failures unchecked, tightened 20 legacy sentences, cleared all line/effect/scale warnings, and built 4410 entries with 6250 refs",
+    "next_batch": "batch 1108",
     "next_six_round_check": "after batch 1111",
     "untracked_preserved": [
       "build-batch283.log",
@@ -508,7 +508,8 @@
     ,"batch 1105 started with two unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 23 candidates, added 6 evidence entries, marked 4 approved indications, closed 9 topics as no evidence, tightened 20 legacy sentences, and pushed data/worklist commit 4bf30a70; build matched at 4403 entries and 6237 refs; six-round public/local check is due now"
     ,"official six-round HTTP 200 public/local check after batch 1105: matched in all 6 rounds at 4403 entries, 6237 refs, shard 48, 4408 id fields, 92/92 detail shards and 4403 detail entries, with identical DATA SHA-256 fa913ab9da9789486c845cc7e577ee2af99079273fd770300a32a2b23e50f1b3; automatic Git deployment was sufficient and vercel --prod was not required; next check is due after batch 1111"
     ,"batch 1106 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so no evidence entries were added; kept the two exhausted lookup failures unchecked and tightened 20 legacy sentences; sentence commit cea54f15 was pushed; build matched at 4403 entries and 6237 refs; next six-round check remains due after batch 1111"
+    ,"batch 1107 started with two unchecked lookup failures; the first 20-name expansion set with at least five non-drug names produced 9 candidates, the second produced 0 after 15 ClinicalTrials.gov HTTP 500 failures; retries recovered 4 procainamide candidates; added levosimendan septic shock and myocardial stunning, nefopam shivering, salsalate insulin resistance and inflammation, and procainamide cardiac arrest and acute atrial fibrillation entries; marked 3 approved indications, closed 3 topics as no evidence, tightened 20 legacy sentences, and pushed evidence/worklist commit 91473c5c, sentence commit 0605be19, and warning-fix commit 8dbc5b32; build matched at 4410 entries and 6250 refs; next six-round check remains due after batch 1111"
   ],
-  "current_batch": "batch 1106 checkpoint: 4403 entries/6237 refs; two expansion sets produced no candidates; kept 2 exhausted lookup failures unchecked; tightened 20 legacy sentences; worklist is 14276 total, 14274 checked, 2 unchecked; sentence commit cea54f15 pushed",
-    "next_action": "start batch 1107 with git pull, count the 2 unchecked lines, and run a different expansion branch with at least five non-drug names"
+  "current_batch": "batch 1107 checkpoint: 4410 entries/6250 refs; added 7 evidence entries, marked 3 approved indications, closed 3 topics as no evidence, tightened 20 legacy sentences, and cleared all line/effect/scale warnings; worklist is 14289 total, 14287 checked, 2 unchecked; warning-fix commit 8dbc5b32 pushed",
+    "next_action": "start batch 1108 with git pull, count the 2 unchecked lines, and run a new expansion branch with at least five non-drug names"
 }
