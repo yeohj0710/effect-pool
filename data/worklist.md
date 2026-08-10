@@ -19526,15 +19526,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] chiropractic care — Migraine에 듣는다  <!-- 시험 7건 · 논문 62편 -->
+- [x] chiropractic care — Migraine에 듣는다  <!-- 시험 7건 · 논문 62편 -->
 - [x] chiropractic care — Cancer에 듣는다  <!-- 시험 4건 · 논문 155편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
-- [ ] chiropractic care — Neck Disorder에 듣는다  <!-- 시험 3건 · 논문 181편 -->
+- [x] chiropractic care — Neck Disorder에 듣는다  <!-- 시험 3건 · 논문 181편 -->
 - [x] essential oil — Skin Cancer에 듣는다  <!-- 시험 16건 · 논문 216편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
-- [ ] essential oil — Pain에 듣는다  <!-- 시험 15건 · 논문 1088편 -->
-- [ ] essential oil — Gingivitis에 듣는다  <!-- 시험 14건 · 논문 251편 -->
+- [x] essential oil — Pain에 듣는다  <!-- 시험 15건 · 논문 1088편 -->
+- [x] essential oil — Gingivitis에 듣는다  <!-- 시험 14건 · 논문 251편 -->
 - [x] essential oil — Breast Carcinoma에 듣는다  <!-- 시험 14건 · 논문 226편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
 - [x] ginseng extract — Blood Pressure에 듣는다  <!-- 시험 9건 · 논문 170편 --> — 중복(2026-08-11, ginseng extract — Hypertension과 같은 혈압 주제)
-- [ ] ginseng extract — Fatigue에 듣는다  <!-- 시험 8건 · 논문 149편 -->
-- [ ] ginseng extract — Diabetes에 듣는다  <!-- 시험 8건 · 논문 338편 -->
-- [ ] ginseng extract — Hypertension에 듣는다  <!-- 시험 7건 · 논문 83편 -->
-- [ ] korean red ginseng — Diabetes에 듣는다  <!-- 시험 3건 · 논문 665편 -->
+- [x] ginseng extract — Fatigue에 듣는다  <!-- 시험 8건 · 논문 149편 -->
+- [x] ginseng extract — Diabetes에 듣는다  <!-- 시험 8건 · 논문 338편 -->
+- [x] ginseng extract — Hypertension에 듣는다  <!-- 시험 7건 · 논문 83편 -->
+- [x] korean red ginseng — Diabetes에 듣는다  <!-- 시험 3건 · 논문 665편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] avocado — Dietary Habits에 듣는다  <!-- 시험 3건 · 논문 83편 -->
+- [x] avocado oil — High Cholesterol에 듣는다  <!-- 시험 5건 · 논문 21편 --> — 근거 없음(2026-08-11, 대조군 없는 사전-사후 연구와 총론만 확인)
+- [x] dairy consumption — Healthy Adult Women에 듣는다  <!-- 시험 3건 · 논문 348편 --> — 근거 없음(2026-08-11, 직접 유제품 중재 결과 없음)
+- [x] dairy consumption — Diabetes에 듣는다  <!-- 시험 3건 · 논문 944편 --> — 근거 없음(2026-08-11, 유제품 섭취 단독 당뇨 중재 결과 없음)
+- [x] dairy consumption — Muscle Damage에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] egg consumption — Cardiovascular Disease에 듣는다  <!-- 시험 4건 · 논문 300편 --> — 근거 없음(2026-08-11, 난황 성분·관찰연구는 확인했지만 심혈관 중재 결과 없음)
+- [x] egg consumption — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 128편 --> — 근거 없음(2026-08-11, 임신 결과를 달걀 섭취에 무작위 배정한 직접 결과 없음)
+- [x] egg consumption — Child Development에 듣는다  <!-- 시험 4건 · 논문 143편 --> — 근거 없음(2026-08-11, 아동 발달 결과를 달걀 섭취에 무작위 배정한 직접 결과 없음)
+- [x] egg consumption — Vitamin E에 듣는다  <!-- 시험 4건 · 논문 47편 --> — 근거 없음(2026-08-11, 사람 결과가 아닌 동물·축산 연구만 확인)
+- [x] fruit intake — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 4059편 --> — 근거 없음(2026-08-11, 과일 섭취 단독 심혈관 중재 결과 없음)
+- [x] garlic — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 63편 -->
+- [x] garlic extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 20편 -->
+- [x] ginger — Back Pain에 듣는다  <!-- 시험 5건 · 논문 17편 -->
+- [x] ginger — Irritable Bowel Syndrome에 듣는다  <!-- 시험 4건 · 논문 33편 -->
+- [x] ginger — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 68편 -->
+- [x] ginger — Xerostomia에 듣는다  <!-- 시험 3건 · 논문 10편 -->
+- [x] ginkgo biloba — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 161편 -->
+- [x] ginkgo biloba — Working Memory에 듣는다  <!-- 시험 4건 · 논문 71편 -->
+- [x] ginkgo biloba — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 40편 --> — 근거 없음(2026-08-11, 조현병 직접 Ginkgo 결과 없음; 다른 항정신병 보조 문헌만 확인)
+- [x] ginkgo biloba — Hearing Loss에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-11, 청력 회복이 아닌 이명 결과만 확인)
+- [x] high fiber diet — Blood Glucose에 듣는다  <!-- 시험 9건 · 논문 1658편 -->
+- [x] high fiber diet — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 1796편 -->
+- [x] high fiber diet — Metabolic Syndrome에 듣는다  <!-- 시험 6건 · 논문 544편 -->
+- [x] high fiber diet — Microbiome에 듣는다  <!-- 시험 6건 · 논문 1936편 -->
+- [x] green tea — Oxidative Stress에 듣는다  <!-- 시험 3건 · 논문 2838편 --> — 근거 없음(2026-08-11, 사람의 녹차 단독 산화스트레스 임상 결과 없음)
+- [x] green tea — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 409편 -->
+- [x] green tea — Prostatic Neoplasms에 듣는다  <!-- 시험 3건 · 논문 347편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
