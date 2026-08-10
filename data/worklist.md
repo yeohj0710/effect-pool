@@ -18565,11 +18565,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] solifenacin — Urinary Urge에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 28건 · 논문 117편 -->
 - [x] solifenacin — Incontinence에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 20건 · 논문 378편 -->
 - [x] solifenacin — Prostatic Hyperplasia에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 13건 · 논문 76편 -->
-- [ ] solifenacin — Ureteral Stent에 듣는다  <!-- 시험 8건 · 논문 33편 -->
-- [ ] lumacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] music imagery — Pain에 듣는다  <!-- 시험 11건 · 논문 112편 -->
-- [ ] music imagery — Anxiety에 듣는다  <!-- 시험 7건 · 논문 116편 -->
-- [ ] music imagery — Stress에 듣는다  <!-- 시험 7건 · 논문 86편 -->
+- [x] solifenacin — Ureteral Stent에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 8건 · 논문 33편 -->
+- [x] lumacaftor — Diabetes에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 23편 -->
+- [x] music imagery — Pain에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 11건 · 논문 112편 -->
+- [x] music imagery — Anxiety에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 116편 -->
+- [x] music imagery — Stress에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 86편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
