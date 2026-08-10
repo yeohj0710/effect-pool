@@ -18605,11 +18605,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 --> — 항목 추가(2026-08-10)
 - [x] rabeprazole — Healthy Adults에 듣는다  <!-- 시험 7건 · 논문 131편 --> — 항목 추가(2026-08-10)
 - [x] rabeprazole — Cancer에 듣는다  <!-- 시험 7건 · 논문 148편 --> — 항목 추가(2026-08-10)
-- [ ] mosapride — Constipation에 듣는다  <!-- 시험 4건 · 논문 71편 -->
-- [ ] mosapride — Bowel Ileus에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 -->
-- [ ] tegaserod — Dyspepsia에 듣는다  <!-- 시험 7건 · 논문 36편 -->
-- [ ] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 -->
+- [x] mosapride — Constipation에 듣는다  <!-- 시험 4건 · 논문 71편 --> — 항목 추가(2026-08-10)
+- [x] mosapride — Bowel Ileus에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 항목 추가(2026-08-10)
+- [x] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 항목 추가(2026-08-10)
+- [x] tegaserod — Dyspepsia에 듣는다  <!-- 시험 7건 · 논문 36편 --> — 항목 추가(2026-08-10)
+- [x] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 --> — 허가 적응증(2026-08-10)
 - [ ] bath therapy — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 877편 -->
 - [ ] bath therapy — Labor Pain에 듣는다  <!-- 시험 7건 · 논문 52편 -->
 - [ ] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 -->
@@ -18650,3 +18650,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 -->
 - [ ] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 -->
 - [ ] fluticasone — Esophagitis에 듣는다  <!-- 시험 15건 · 논문 245편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] alglucosidase alfa — Glycogen Storage Disease에 듣는다  <!-- 시험 16건 · 논문 469편 -->
+- [ ] alglucosidase alfa — Acid Maltase Deficiency에 듣는다  <!-- 시험 9건 · 논문 455편 -->
+- [ ] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 -->
+- [ ] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 -->
+- [ ] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 -->
+- [ ] cefuroxime — Antibiotic Allergy에 듣는다  <!-- 시험 6건 · 논문 225편 -->
+- [ ] cefuroxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 182편 -->
+- [ ] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [ ] perindopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 375편 -->
+- [ ] perindopril — Diabetes에 듣는다  <!-- 시험 5건 · 논문 452편 -->
+- [ ] perindopril — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+- [ ] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 -->
+- [ ] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 -->
+- [ ] ulipristal — Fibroid에 듣는다  <!-- 시험 8건 · 논문 350편 -->
+- [ ] ulipristal — Leiomyoma에 듣는다  <!-- 시험 7건 · 논문 303편 -->
+- [ ] ulipristal — Infertility에 듣는다  <!-- 시험 5건 · 논문 41편 -->
+- [ ] velpatasvir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 52편 -->
+- [ ] velpatasvir — HCV에 듣는다  <!-- 시험 3건 · 논문 623편 -->
+- [ ] velpatasvir — Kidney Transplantation에 듣는다  <!-- 시험 3건 · 논문 22편 -->
+- [ ] vorapaxar — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 88편 -->
+- [ ] vorapaxar — Atherosclerosis에 듣는다  <!-- 시험 4건 · 논문 77편 -->
