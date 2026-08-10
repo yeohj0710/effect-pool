@@ -19796,3 +19796,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] alprazolam — Opioid Abuse에 듣는다  <!-- 시험 5건 · 논문 95편 -->
 - [x] alprazolam — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 44편 -->
 - [x] perphenazine — Dementia에 듣는다  <!-- 시험 3건 · 논문 33편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] albendazole — Helminthiasis에 듣는다  <!-- 시험 21건 · 논문 5757편 -->
+- [x] albendazole — Filariasis에 듣는다  <!-- 시험 20건 · 논문 700편 -->
+- [x] albendazole — Infection에 듣는다 — 근거 없음(2026-08-11, ClinicalTrials.gov albendazole AND Infection; PubMed albendazole AND Infection)  <!-- 시험 16건 · 논문 7140편 -->
+- [x] albendazole — Trichuriasis에 듣는다  <!-- 시험 10건 · 논문 260편 -->
+- [x] praziquantel — Schistosoma Mansoni에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 8건 · 논문 2068편 -->
+- [x] praziquantel — Malaria에 듣는다  <!-- 시험 5건 · 논문 261편 -->
+- [x] praziquantel — HIV에 듣는다  <!-- 시험 5건 · 논문 118편 -->
+- [x] praziquantel — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 5694편 -->
+- [x] clarithromycin — Myeloma에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 32건 · 논문 64편 -->
+- [x] clarithromycin — Gastritis에 듣는다  <!-- 시험 19건 · 논문 986편 -->
+- [x] clarithromycin — HIV Infections에 듣는다 — 근거 없음(2026-08-11, ClinicalTrials.gov clarithromycin AND HIV Infections; PubMed clarithromycin AND HIV Infections)  <!-- 시험 18건 · 논문 483편 -->
+- [x] clarithromycin — Mycobacterium Avium Complex에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 18건 · 논문 870편 -->
+- [x] diazoxide — Type 1 Diabetes에 듣는다  <!-- 시험 8건 · 논문 40편 -->
+- [x] diazoxide — Glucose, High Blood에 듣는다  <!-- 시험 6건 · 논문 145편 -->
+- [x] diazoxide — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 101편 -->
+- [x] isokinetic exercise — Stroke에 듣는다  <!-- 시험 6건 · 논문 124편 -->
+- [x] isokinetic exercise — Low Back Pain에 듣는다  <!-- 시험 5건 · 논문 107편 -->
+- [x] isokinetic exercise — Knee Osteoarthritis에 듣는다  <!-- 시험 5건 · 논문 223편 -->
+- [x] isokinetic exercise — Anterior Cruciate Ligament Injury에 듣는다 — 근거 없음(2026-08-11, ClinicalTrials.gov NCT02961543 완료 등록정보만 확인; PubMed isokinetic exercise AND Anterior Cruciate Ligament Injury)  <!-- 시험 4건 · 논문 325편 -->
+- [x] sprint training — Obesity에 듣는다  <!-- 시험 5건 · 논문 196편 -->
+- [x] sprint training — Physical Inactivity에 듣는다  <!-- 시험 4건 · 논문 95편 -->
+- [x] sprint training — Cardiovascular Fitness에 듣는다  <!-- 시험 3건 · 논문 120편 -->
+- [x] sprint training — Hypoxia에 듣는다  <!-- 시험 3건 · 논문 223편 -->
