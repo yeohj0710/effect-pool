@@ -20115,3 +20115,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] silodosin — Stone, Urinary에 듣는다 — 근거 있음(2026-08-11, PMID 31873859)  <!-- 시험 6건 · 논문 65편 -->
 - [x] silodosin — Kidney Stones에 듣는다 — 근거 있음(2026-08-11, PMID 27080916)  <!-- 시험 4건 · 논문 18편 -->
 - [x] silodosin — Tamsulosin에 듣는다 — 근거 있음(2026-08-11, PMID 30025399)  <!-- 시험 3건 · 논문 218편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] dextromethorphan-bupropion — Major Depressive Disorder에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 3건 · 논문 37편 -->
+- [x] d-cycloserine — Obsessive-Compulsive Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 32789516)  <!-- 시험 10건 · 논문 70편 -->
+- [x] d-cycloserine — Pain에 듣는다 — 근거 있음(2026-08-11, PMID 27852965)  <!-- 시험 9건 · 논문 46편 -->
+- [x] d-cycloserine — Posttraumatic Stress Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 35896533)  <!-- 시험 9건 · 논문 97편 -->
+- [x] d-cycloserine — Major Depression에 듣는다 — 근거 있음(2026-08-11, PMID 31421635)  <!-- 시험 8건 · 논문 55편 -->
+- [x] ibogaine — Drug Dependence에 듣는다 — 근거 없음(2026-08-11 조회, ibogaine AND Drug Dependence; 완료 NCT04003948·NCT03380728의 직접 치료결과 논문 확인 못함)  <!-- 시험 3건 · 논문 212편 -->
+- [x] nitrous oxide — Opioid-Related Disorders에 듣는다 — 근거 있음(2026-08-11, PMID 4003611)  <!-- 시험 20건 · 논문 26편 -->
+- [x] nitrous oxide — Major Surgery에 듣는다 — 근거 있음(2026-08-11, PMID 25142708)  <!-- 시험 17건 · 논문 417편 -->
+- [x] nitrous oxide — Anesthesia에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 14건 · 논문 12070편 -->
+- [x] nitrous oxide — Anxiety에 듣는다 — 근거 있음(2026-08-11, PMID 37020767)  <!-- 시험 14건 · 논문 633편 -->
