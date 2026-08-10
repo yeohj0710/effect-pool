@@ -18710,9 +18710,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] trospium — Incontinence에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 6건 · 논문 154편 -->
 - [x] eszopiclone — Sleep에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 20건 · 논문 299편 -->
 - [x] eszopiclone — Sleep Initiation and Maintenance Disorders에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 4건 · 논문 163편 -->
-- [ ] eszopiclone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 12편 -->
-- [ ] eszopiclone — Anxiety에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] dofetilide — Long QT Syndrome에 듣는다  <!-- 시험 5건 · 논문 207편 -->
+- [x] eszopiclone — Schizophrenia에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 12편 -->
+- [x] eszopiclone — Anxiety에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 44편 -->
+- [x] dofetilide — Long QT Syndrome에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 207편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18723,4 +18723,4 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] iloperidone — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 31편 -->
+- [x] iloperidone — Bipolar Disorder에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 6건 · 논문 31편 -->
