@@ -18540,7 +18540,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] massage chair — Anxiety에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 24편 -->
 - [x] massage chair — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 18편 -->
 - [x] massage chair — Pregnancy에 듣는다 — 근거 없음(2026-08-10, "massage chair"[Title/Abstract] AND "Pregnancy"[Title/Abstract] 0편; ClinicalTrials.gov 2건 중 InterventionName 완전일치 0건)  <!-- 시험 5건 · 논문 10편 -->
-- [ ] massage chair — Fatigue에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] massage chair — Fatigue에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 13편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18551,7 +18551,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ocriplasmin — Vitrectomy에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+- [x] ocriplasmin — Vitrectomy에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 125편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18562,9 +18562,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] solifenacin — Urinary Urge에 듣는다  <!-- 시험 28건 · 논문 117편 -->
-- [ ] solifenacin — Incontinence에 듣는다  <!-- 시험 20건 · 논문 378편 -->
-- [ ] solifenacin — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 76편 -->
+- [x] solifenacin — Urinary Urge에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 28건 · 논문 117편 -->
+- [x] solifenacin — Incontinence에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 20건 · 논문 378편 -->
+- [x] solifenacin — Prostatic Hyperplasia에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 13건 · 논문 76편 -->
 - [ ] solifenacin — Ureteral Stent에 듣는다  <!-- 시험 8건 · 논문 33편 -->
 - [ ] lumacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 23편 -->
 - [ ] music imagery — Pain에 듣는다  <!-- 시험 11건 · 논문 112편 -->
