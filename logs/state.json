@@ -41,7 +41,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 828 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across terbutaline, teriparatide, terlipressin, tesamorelin, text-message interventions/reminders, text-messaging interventions, and thalidomide entries",
+    "build": "passed; batch 829 had no eligible topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; 20 legacy claims were tightened across thalidomide and therapeutic exercise/gardening/massage/play/touch entries",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -69,7 +69,7 @@
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-10",
     "six_round_check": {
-      "batches": "818-823",
+      "batches": "824-829",
       "http_status": 200,
       "local_entry_count": 4270,
       "public_entry_count": 4270,
@@ -82,13 +82,13 @@
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false
     },
-      "latest_note": "Official six-round HTTP 200 public/local check for 818-823 matched after automatic Git deployment from cf04a96d; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
+      "latest_note": "Official six-round HTTP 200 public/local check for 824-829 matched after automatic Git deployment from 9cba30a8; both sides had 4270 entries, 5919 refs, shard 48, and 4275 id fields; vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 828 data 216a148b; logs checkpoint pending",
-    "last_batch": "batch 828 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit 216a148b; the official public/local six-round check for batches 818-823 remains matched",
-    "next_batch": "batch 829",
-    "next_six_round_check": "after batch 829",
+    "last_committed_batch": "batch 829 data 9cba30a8; logs checkpoint pending",
+    "last_batch": "batch 829 processed 0 topics, tightened 20 legacy sentences, passed build validation, and pushed data commit 9cba30a8; the official public/local six-round check for batches 824-829 matched",
+    "next_batch": "batch 830",
+    "next_six_round_check": "after batch 835",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -207,7 +207,9 @@
     ,"batch 826 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; tightened 20 legacy claims across telehealth group therapy, telemonitoring, telenursing, telephone coaching/counseling/health coaching/support, and telepsychiatry entries; data commit 429a072d was pushed"
     ,"batch 827 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; tightened 20 legacy claims across telerehabilitation, telmisartan, telotristat, ten-thousand steps, tenofovir, and tepotinib entries; data commit 4c5bc35f was pushed"
     ,"batch 828 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; tightened 20 legacy claims across terbutaline, teriparatide, terlipressin, tesamorelin, text-message interventions/reminders, text-messaging interventions, and thalidomide entries; data commit 216a148b was pushed"
+    ,"batch 829 processed 0 topics because all 30 unchecked lines are oncology holds or exhausted lookup failures; tightened 20 legacy claims across thalidomide and therapeutic exercise/gardening/massage/play/touch entries; data commit 9cba30a8 was pushed"
+    ,"official six-round check after batches 824-829: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48; automatic Git deployment was sufficient; vercel --prod was not required; next check is due after batch 835"
   ],
-  "current_batch": "batch 828 committed and pushed as 216a148b; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 818-823 remains matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
-  "next_action": "start batch 829 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after thalidomide-esophageal-carcinoma-null; commit and push data then logs; perform the next official public/local six-round check after batch 829"
+  "current_batch": "batch 829 committed and pushed as 9cba30a8; 4270 entries/5919 refs, 0 evidence entries, 0 no-evidence closures, and 20 legacy sentence edits; official six-round check for 824-829 matched at HTTP 200 with 4275 id fields; 30 unchecked topics remain",
+  "next_action": "start batch 830 with git pull --ff-only and AGENTS.md; keep oncology/failure lines held, tighten the next 20 legacy sentences after therapeutic-touch-anxiety-pos; commit and push data then logs; perform the next official public/local six-round check after batch 835"
 }
