@@ -1,0 +1,28 @@
+{
+  "id": "artificial-intelligence-heart-failure-pos",
+  "subj": "artificial intelligence",
+  "claim": "인공지능 심전도가 낮은 박출률 심부전의 진단을 높인다",
+  "line": "일차진료에서 인공지능 심전도는 낮은 박출률 진단을 늘렸다.",
+  "effect": "진단 2.1% 대 1.6%·OR1.32",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 22641,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "인공지능 심전도는 진단 보조 기기 중재이며 낮은 박출률 심부전 조기진단은 일반적인 허가 적응증이 아닙니다",
+  "why": "심부전 병력이 없는 성인 22641명을 인공지능 심전도 결과를 볼 수 있는 일차진료군과 일반 진료군에 군집 무작위 배정했습니다",
+  "saw": "90일 내 낮은 박출률 진단이 인공지능군 2.1%, 대조군 1.6%였고 오즈비는 1.32였습니다",
+  "limit": "진단 증가를 본 실용적 군집시험이며 생존, 입원, 삶의 질 같은 환자 결과는 평가하지 않았습니다",
+  "against": "전체 환자에서 심초음파 사용률은 두 군이 비슷해 진단 증가가 검사 이용 증가로 일관되게 이어지지는 않았습니다",
+  "use": "무증상 또는 미진단 심부전 위험을 일차진료에서 선별할 때 인공지능 심전도의 진단 신호로 기록합니다",
+  "refs": [
+    { "label": "Artificial intelligence-enabled electrocardiograms for identification of patients with low ejection fraction: a pragmatic, randomized clinical trial", "pmid": "33958795", "nct": "NCT04000087" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "artificial intelligence AND Heart Failure 반환 100건; 심전도 인공지능 중재명을 대조",
+    "pubmed": "artificial intelligence AND Heart Failure 검색 1947건; PMID 33958795 직접 무작위 시험 확인",
+    "negative": "artificial intelligence AND Heart Failure AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 679건",
+    "safety": "artificial intelligence AND Heart Failure AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 332건"
+  }
+}

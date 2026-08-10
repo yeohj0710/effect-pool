@@ -1,0 +1,28 @@
+{
+  "id": "telemedicine-hypertension-pos",
+  "subj": "telemedicine",
+  "claim": "원격의료가 조절되지 않는 고혈압을 개선한다",
+  "line": "조절되지 않는 고혈압에서 원격 혈압관리는 수축기 혈압을 3.4mmHg 더 낮췄다.",
+  "effect": "수축기 혈압 -3.4mmHg",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 622,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "원격의료는 진료 전달 방식이며 조절되지 않는 고혈압의 디지털 자기관리 중재는 허가 적응증이 아닙니다",
+  "why": "조절되지 않는 고혈압 환자 622명을 디지털 자기관리와 일반 진료에 무작위 배정한 영국 76개 일차진료기관 시험입니다",
+  "saw": "1년 뒤 수축기 혈압은 디지털군에서 일반 진료군보다 3.4mmHg 더 낮았고 이완기 혈압 차이는 0.5mmHg였습니다",
+  "limit": "인터넷 사용이 가능하고 치료 중인 고혈압 환자에 한정되며 디지털 접근성이 낮은 사람에게 일반화하기 어렵습니다",
+  "against": "이완기 혈압 차이는 뚜렷하지 않았고 이상반응은 두 군에서 비슷했습니다",
+  "use": "조절되지 않는 고혈압에서 자기 측정과 원격 피드백을 검토할 때 참고하는 무작위 근거로 기록합니다",
+  "refs": [
+    { "label": "Home and Online Management and Evaluation of Blood Pressure using a digital intervention in poorly controlled hypertension: randomised controlled trial", "pmid": "33468518" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "telemedicine AND Hypertension 반환 100건; 중재명과 대상 조건을 대조",
+    "pubmed": "telemedicine AND Hypertension 검색 1902건; PMID 33468518 직접 무작위 시험 확인",
+    "negative": "telemedicine AND Hypertension AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 1041건",
+    "safety": "telemedicine AND Hypertension AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 295건"
+  }
+}
