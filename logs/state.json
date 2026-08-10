@@ -15,7 +15,7 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1113 ran one new 20-name expansion set with at least five non-drug names and produced 15 candidates; marked 7 approved indications, added 8 evidence entries for mesalamine, vedolizumab, golimumab, and Baduanjin, and left the 3 exhausted lookup failures unchecked; line, translation, effect, known, English, and scale warnings are 0; unknown-n and truthful thin-study warnings remain",
+    "build": "passed; batch 1114 ran two different new 20-name expansion sets with at least five non-drug names each and produced 0 candidates; left the 3 exhausted lookup failures unchecked, tightened 20 legacy claim sentences without changing numbers, and added no evidence entries; line, translation, effect, known, English, and scale warnings are 0; unknown-n and truthful thin-study warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -62,9 +62,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check after batch 1111 matched in all 6 rounds at 4424 entries, 6276 refs, shard 48, 4429 id fields, 93/93 detail shards and 4424 detail entries, with identical DATA SHA-256 449d6a99d2e2b553461eafa03320e2f7f9b5f8353ec9e2d8c68306aa7b626747; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1113 data/worklist commit e74f80b0 pushed",
-    "last_batch": "batch 1113 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 15 candidates; marked 7 approved indications, added 8 mesalamine/vedolizumab/golimumab/Baduanjin evidence entries, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit e74f80b0; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117",
-    "next_batch": "batch 1114",
+    "last_committed_batch": "batch 1114 sentence commit d8de6a8e pushed",
+    "last_batch": "batch 1114 started with 3 unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so expansion stopped after the second attempt; left the 3 exhausted lookup failures unchecked, tightened 20 legacy claim sentences without changing numbers, added no evidence entries, and pushed sentence commit d8de6a8e; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117",
+    "next_batch": "batch 1115",
     "next_six_round_check": "after batch 1117",
     "untracked_preserved": [
       "build-batch283.log",
@@ -516,7 +516,8 @@
     ,"batch 1111 started with two unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 7 then 8 candidates; added 6 evidence entries, marked 8 approved indications, closed 1 topic as no evidence, left 2 exhausted lookup failures unchecked, tightened 20 legacy sentences, and pushed evidence/worklist commit 7fc003a6 and sentence commit 1a82f0b8; build matched at 4424 entries and 6276 refs; official six-round HTTP 200 public/local check matched in all 6 rounds with identical DATA SHA-256 449d6a99d2e2b553461eafa03320e2f7f9b5f8353ec9e2d8c68306aa7b626747; next six-round check is due after batch 1117"
     ,"batch 1112 started with two unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 1 then 17 candidates; marked 11 approved indications, added 6 sevoflurane/ropivacaine evidence entries, recorded reformer pilates as a third-attempt ClinicalTrials.gov failure, left the 2 earlier exhausted lookup failures unchecked, and pushed data/worklist commit b05f0c0b; build matched at 4430 entries and 6284 refs; next six-round check remains due after batch 1117"
     ,"batch 1113 started with 3 unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 15 candidates; marked 7 approved indications, added 8 mesalamine/vedolizumab/golimumab/Baduanjin evidence entries, left the 3 exhausted lookup failures unchecked, and pushed data/worklist commit e74f80b0; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117"
+    ,"batch 1114 started with 3 unchecked lookup failures; two different new 20-name expansion sets with at least five non-drug names each produced 0 candidates, so expansion stopped after the second attempt; left the 3 exhausted lookup failures unchecked, tightened 20 legacy claim sentences without changing numbers, added no evidence entries, and pushed sentence commit d8de6a8e; build matched at 4438 entries and 6298 refs; next six-round check remains due after batch 1117"
   ],
-  "current_batch": "batch 1113 checkpoint: 4438 entries/6298 refs; added 8 mesalamine/vedolizumab/golimumab/Baduanjin evidence entries, marked 7 approved indications, and kept all line/effect/scale warnings at 0; worklist is 14353 total, 14350 checked, 3 unchecked; data/worklist commit e74f80b0 pushed",
-    "next_action": "start batch 1114 with git pull, count the 3 unchecked lines, and run a new expansion branch with at least five non-drug names"
+  "current_batch": "batch 1114 checkpoint: 4438 entries/6298 refs; two new expansion sets produced no candidates, 20 legacy claim sentences were tightened without changing numbers, and all line/effect/scale warnings stayed at 0; worklist is 14353 total, 14350 checked, 3 unchecked; sentence commit d8de6a8e pushed",
+    "next_action": "start batch 1115 with git pull, count the 3 unchecked lines, and run a new expansion branch with at least five non-drug names"
 }
