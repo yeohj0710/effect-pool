@@ -19682,3 +19682,58 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] choline — Alcohol Use Disorder에 듣는다  <!-- 시험 11건 · 논문 359편 -->
 - [x] choline — Cognitive Function에 듣는다  <!-- 시험 8건 · 논문 1981편 -->
 - [x] marine collagen — Hair Health에 듣는다  <!-- 시험 4건 · 논문 13편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] chromium picolinate — Obesity에 듣는다  <!-- 시험 5건 · 논문 69편 -->
+- [x] chromium picolinate — Impaired Fasting Glucose에 듣는다  <!-- 시험 4건 · 논문 8편 -->
+- [x] chromium picolinate — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 30편 -->
+- [x] echinacea — Infections에 듣는다  <!-- 시험 7건 · 논문 452편 -->
+- [x] echinacea — Common Cold에 듣는다  <!-- 시험 4건 · 논문 166편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] vitamin A — Osteoporosis에 듣는다  <!-- 시험 16건 · 논문 268편 -->
+- [x] vitamin A — Diabetes에 듣는다 — 근거 없음(2026-08-11, vitamin A AND Diabetes[Title/Abstract]; 직접 사람 보충시험의 당뇨 치료 효과를 확인하지 못함)  <!-- 시험 11건 · 논문 1290편 -->
+- [x] vitamin A — Obesity에 듣는다 — 근거 없음(2026-08-11, vitamin A AND Obesity[Title/Abstract]; 사람 체중감량 중재의 직접 결과를 확인하지 못함)  <!-- 시험 10건 · 논문 1313편 -->
+- [x] vitamin A — Pregnancy에 듣는다  <!-- 시험 7건 · 논문 4000편 -->
+- [x] vitamin B6 — HIV Infection에 듣는다 — 근거 없음(2026-08-11, vitamin B6 AND HIV[Title/Abstract]; HIV 자체의 임상 결과를 평가한 직접 보충시험을 확인하지 못함)  <!-- 시험 9건 · 논문 78편 -->
+- [x] vitamin B6 — Cancer에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 8건 · 논문 1685편 -->
+- [x] vitamin B6 — Cardiovascular Disease에 듣는다  <!-- 시험 7건 · 논문 1917편 -->
+- [x] vitamin B6 — Cerebral Infarction에 듣는다  <!-- 시험 7건 · 논문 26편 -->
+- [x] peppermint oil — Irritable Bowel Syndrome에 듣는다  <!-- 시험 7건 · 논문 158편 -->
+- [x] peppermint oil — Cancer에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 4건 · 논문 41편 -->
+- [x] basketball — Physical Fitness에 듣는다  <!-- 시험 4건 · 논문 595편 -->
+- [x] basketball — Metabolic Stress에 듣는다  <!-- 시험 3건 · 논문 103편 -->
+- [x] soccer — Bone Density에 듣는다  <!-- 시험 4건 · 논문 223편 -->
+- [x] soccer — Diabetes에 듣는다  <!-- 시험 3건 · 논문 105편 -->
+- [x] soccer — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
+- [x] soccer — Trauma, Head에 듣는다 — 근거 없음(2026-08-11, soccer AND "Trauma, Head"[Title/Abstract]; 직접 두부 외상 임상 결과를 확인하지 못함)  <!-- 시험 3건 · 논문 1195편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] L-ornithine — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 471편 -->
+- [x] singing — Mental Health에 듣는다  <!-- 시험 6건 · 논문 274편 -->
+- [x] singing — Aphasia에 듣는다  <!-- 시험 5건 · 논문 77편 -->
+- [x] singing — Dementia에 듣는다  <!-- 시험 4건 · 논문 195편 -->
