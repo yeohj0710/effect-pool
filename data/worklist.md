@@ -18398,7 +18398,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] blue light filter — Sleep에 듣는다 — 항목 추가(blue-light-filter-sleep-pos, 2026-08-09)  <!-- 시험 3건 · 논문 64편 -->
 - [x] gardening program — Dietary Habits에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov exact InterventionName 0건, PubMed exact 0건)  <!-- 시험 3건 · 논문 189편 -->
-- [ ] pet fish therapy — Lymphoma에 듣는다  <!-- 시험 4건 · 논문 22편 -->
+- [x] pet fish therapy — Lymphoma에 듣는다 — 근거 없음(2026-08-10, "pet fish therapy"[Title/Abstract] AND "Lymphoma"[Title/Abstract] 직접 0편; ClinicalTrials.gov 3건 중 InterventionName 완전일치 0건)  <!-- 시험 4건 · 논문 22편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18486,12 +18486,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] home spirometry — Asthma에 듣는다 — 항목 추가(home-spirometry-asthma-pos, 2026-08-09)  <!-- 시험 10건 · 논문 389편 -->
-- [ ] home spirometry — Lung Neoplasms에 듣는다  <!-- 시험 6건 · 논문 12편 -->
+- [x] home spirometry — Lung Neoplasms에 듣는다 — 근거 없음(2026-08-10, "home spirometry"[Title/Abstract] AND "Lung Neoplasms"[Title/Abstract] 직접 0편; ClinicalTrials.gov 4건 중 InterventionName 완전일치 1건)  <!-- 시험 6건 · 논문 12편 -->
 - [x] home spirometry — Apnea, Sleep에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov query.intr=home spirometry&query.cond=Apnea, Sleep → 3건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 5건 · 논문 26편 -->
 - [x] home spirometry — COPD에 듣는다 — 항목 추가(home-spirometry-copd-open, 2026-08-09)  <!-- 시험 3건 · 논문 287편 -->
 - [x] digital inhaler — Chronic Obstructive Airway Disease에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov query.intr=digital inhaler&query.cond=Chronic Obstructive Airway Disease → 11건 반환·InterventionName 직접 일치 1건은 NCT07214337 NOT_YET_RECRUITING; PubMed RCT exact 0편)  <!-- 시험 5건 · 논문 368편 -->
 - [x] group cooking — Diabetes Mellitus에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 68건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 7건 · 논문 200편 -->
-- [ ] group cooking — Breast Cancer에 듣는다  <!-- 시험 7건 · 논문 73편 -->
+- [x] group cooking — Breast Cancer에 듣는다 — 근거 없음(2026-08-10, "group cooking"[Title/Abstract] AND "Breast Cancer"[Title/Abstract] 직접 0편; ClinicalTrials.gov 12건 중 InterventionName 완전일치 0건)  <!-- 시험 7건 · 논문 73편 -->
 - [x] group cooking — Overweight에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 115건 반환·InterventionName 직접 일치 0건; PubMed exact 0편)  <!-- 시험 6건 · 논문 342편 -->
 - [x] group cooking — Hypertension에 듣는다 — 근거 없음(2026-08-09, ClinicalTrials.gov 31건 반환·InterventionName 직접 일치 0건; PubMed exact 1편(PMID17987695)은 DASH 조리 모임의 개발·수용성 연구로 혈압 결과를 보고하지 않음)  <!-- 시험 4건 · 논문 211편 -->
 
@@ -18523,8 +18523,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] voglibose — Impaired Glucose Tolerance에 듣는다  <!-- 시험 3건 · 논문 34편 -->
-- [ ] near-infrared light — Brain Injuries에 듣는다  <!-- 시험 5건 · 논문 93편 -->
+- [x] voglibose — Impaired Glucose Tolerance에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 3건 · 논문 34편 -->
+- [x] near-infrared light — Brain Injuries에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 93편 -->
 - [ ] near-infrared light — Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 39편 -->
 - [ ] near-infrared light — Optical Imaging에 듣는다  <!-- 시험 3건 · 논문 4640편 -->
 
@@ -18570,3 +18570,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] music imagery — Pain에 듣는다  <!-- 시험 11건 · 논문 112편 -->
 - [ ] music imagery — Anxiety에 듣는다  <!-- 시험 7건 · 논문 116편 -->
 - [ ] music imagery — Stress에 듣는다  <!-- 시험 7건 · 논문 86편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] nitisinone — Alkaptonuria에 듣는다  <!-- 시험 4건 · 논문 138편 -->
+- [ ] sapropterin — Phenylketonurias에 듣는다  <!-- 시험 5건 · 논문 653편 -->
+- [ ] sapropterin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 171편 -->
+- [ ] vaborbactam — Bloodstream Infection에 듣는다  <!-- 시험 4건 · 논문 60편 -->
+- [ ] dance therapy group — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 110편 -->
+- [ ] dance therapy group — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 40편 -->
+- [ ] dance therapy group — Depression에 듣는다  <!-- 시험 6건 · 논문 158편 -->
+- [ ] dance therapy group — Older Adults에 듣는다  <!-- 시험 5건 · 논문 487편 -->
