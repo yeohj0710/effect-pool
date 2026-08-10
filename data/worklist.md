@@ -19575,3 +19575,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] green tea — Oxidative Stress에 듣는다  <!-- 시험 3건 · 논문 2838편 --> — 근거 없음(2026-08-11, 사람의 녹차 단독 산화스트레스 임상 결과 없음)
 - [x] green tea — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 409편 -->
 - [x] green tea — Prostatic Neoplasms에 듣는다  <!-- 시험 3건 · 논문 347편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] fruit and vegetable diet — Cardiovascular Disease에 듣는다  <!-- 시험 8건 · 논문 3776편 -->
+- [x] fruit and vegetable diet — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1550편 --> — 근거 없음(2026-08-11, DASH·원예 복합 연구는 있었으나 과일·채소 단독 혈압 결과 없음)
+- [x] fruit and vegetable diet — Kidney Transplant에 듣는다  <!-- 시험 7건 · 논문 52편 -->
+- [x] fruit and vegetable diet — Food Security에 듣는다  <!-- 시험 6건 · 논문 604편 -->
+- [x] nut intake — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 271편 --> — 근거 없음(2026-08-11, 견과류 단독 당뇨 중재 결과 없음)
+- [x] nut intake — Chronic Kidney Diseases에 듣는다  <!-- 시험 5건 · 논문 45편 --> — 근거 없음(2026-08-11, 견과류 단독 신장질환 중재 결과 없음)
+- [x] nut intake — Overweight에 듣는다  <!-- 시험 3건 · 논문 370편 -->
+- [x] nut intake — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 근거 없음(2026-08-11, 견과류 단독 혈당 대조 결과 없음)
+- [x] whole plant diet — Obesity에 듣는다  <!-- 시험 4건 · 논문 618편 -->
+- [x] whole plant diet — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 305편 -->
+- [x] whole plant diet — Metabolic Syndrome에 듣는다  <!-- 시험 4건 · 논문 139편 --> — 근거 없음(2026-08-11, 식물성 식단 단독 대사증후군 결과 없음)
+- [x] propolis extract — Decay, Dental에 듣는다  <!-- 시험 4건 · 논문 51편 --> — 근거 없음(2026-08-11, 사람 충치 치료 직접 결과 없음)
+- [x] propolis extract — Oral Mucositis에 듣는다  <!-- 시험 3건 · 논문 32편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
