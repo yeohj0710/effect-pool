@@ -1,0 +1,31 @@
+{
+  "id": "istaroxime-cardiogenic-shock-pos",
+  "subj": "이스타록심",
+  "claim": "심인성 쇼크 전단계에 이스타록심을 쓴다",
+  "line": "심인성 쇼크 전단계에서 이스타록심은 혈압과 심박출량을 높였지만 임상 결과 자료는 작다.",
+  "effect": "SBP AUC↑·CO +0.66 L/min",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 90,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "이스타록심은 FDA 허가 라벨을 찾지 못했으며 심인성 쇼크 적응증은 허가되지 않았습니다.",
+  "why": "급성 심부전 관련 SCAI B단계 심인성 쇼크 전단계 환자를 대상으로 이스타록심과 위약을 비교한 소규모 무작위시험들이 혈역학 신호를 보였습니다.",
+  "saw": "2022년 60명 시험에서 24시간 투여 후 6시간 SBP AUC는 53.1 대 30.9 mmHg·h였고, 2025년 90명 시험에서는 SBP AUC 62.0 대 36.4 mmHg·h, 심박출량 +0.66 L/min, 폐모세혈관쐐기압 -3.8 mmHg였습니다.",
+  "limit": "대상은 쇼크가 확립되기 전 단계였고, 시험 규모가 작으며 사망·재입원 같은 환자중심 결과를 확인하지 않았습니다. 1.5 μg/kg/min군에서는 심각한 이상반응이 5건으로 1.0 μg/kg/min군 1건보다 많았습니다.",
+  "against": "1.5 μg/kg/min군은 위약보다 5일까지 심부전 악화 사건이 많았고 30일 생존 퇴원일수가 적었습니다. 긍정 결과는 낮은 용량군과 혈역학 지표에 집중됐습니다.",
+  "use": "확립된 심인성 쇼크 치료를 대신하지 않는 초기 혈역학 신호로 기록합니다.",
+  "refs": [
+    { "label": "SEISMiC 심인성 쇼크 전단계 시험", "doi": "10.1002/ejhf.2629", "pmid": "35867804", "nct": "NCT04325035" },
+    { "label": "이스타록심 용량별 심인성 쇼크 전단계 분석", "doi": "10.1016/j.cardfail.2023.03.020", "pmid": "37075941", "nct": "NCT04325035" },
+    { "label": "60시간 이스타록심 심인성 쇼크 전단계 시험", "doi": "10.1016/j.healun.2025.05.013", "pmid": "40451596", "nct": "NCT05975021" },
+    { "label": "이스타록심 급성 심부전·초기 심인성 쇼크 최신 검토", "doi": "10.3390/ijms27135779", "pmid": "42450052", "nct": "NCT07583446" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "istaroxime AND Cardiogenic Shock → 3건 반환, 직접 확인 3건",
+    "pubmed": "istaroxime AND (\"cardiogenic shock\" OR \"pre-cardiogenic shock\") → 12편",
+    "negative": "istaroxime AND (\"cardiogenic shock\" OR \"pre-cardiogenic shock\") AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 1편",
+    "safety": "istaroxime AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27편"
+  }
+}

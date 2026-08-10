@@ -1,0 +1,31 @@
+{
+  "id": "lixivaptan-hyponatremia-pos",
+  "subj": "릭시밥탄",
+  "claim": "저나트륨혈증에 릭시밥탄을 쓴다",
+  "line": "저나트륨혈증에서 릭시밥탄은 혈청 나트륨을 올렸지만 투약을 끊으면 다시 떨어졌다.",
+  "effect": "7일 나트륨 +3.2 mmol/L",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 206,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "릭시밥탄의 FDA 허가 라벨을 찾지 못했으며 저나트륨혈증 적응증은 허가되지 않았습니다.",
+  "why": "유 euvolemic 저나트륨혈증 입원·외래 환자를 대상으로 릭시밥탄과 위약을 비교한 두 3상 무작위시험에서 혈청 나트륨 교정 신호가 확인됐습니다.",
+  "saw": "외래 HARMONY 시험 206명에서 7일 나트륨 변화는 릭시밥탄 3.2 대 위약 0.8 mmol/L였고, 정상화율은 39.4% 대 12.2%였습니다. 입원 LIBRA 시험 106명에서도 7일 변화가 6.7 대 4.5 mmol/L였습니다.",
+  "limit": "주요 결과가 혈청 나트륨이라는 대리지표였고 사망·재입원 이득은 확인하지 않았습니다. 갈증과 다뇨가 더 흔했으며, 투약을 중단하면 7일 안에 나트륨이 기저치에 가까워졌습니다.",
+  "against": "저나트륨혈증 교정 효과가 치료 중에만 유지됐고, 릭시밥탄 자료를 정리한 비평은 단기 나트륨 수치와 환자중심 결과를 구분해야 한다고 지적했습니다.",
+  "use": "원인 치료와 표준 수액 관리를 대신하지 않는 나트륨 교정 근거로 기록합니다.",
+  "refs": [
+    { "label": "HARMONY 외래 저나트륨혈증 3상시험", "doi": "10.1038/ki.2012.274", "pmid": "22932122", "nct": "NCT00660959" },
+    { "label": "LIBRA 입원 저나트륨혈증 3상시험", "doi": "10.1038/ki.2012.275", "pmid": "22932119", "nct": "NCT00876798" },
+    { "label": "릭시밥탄 저나트륨혈증 근거 검토", "doi": "10.2147/CE.S36744", "pmid": "23874242" },
+    { "label": "릭시밥탄 수치 자료에 대한 비평", "doi": "10.1001/jama.2012.54515", "pmid": "23232892" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "lixivaptan AND Hyponatremia → 5건 반환, 직접 확인 4건",
+    "pubmed": "lixivaptan AND hyponatremia → 78편",
+    "negative": "lixivaptan AND hyponatremia AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 6편",
+    "safety": "lixivaptan AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 27편"
+  }
+}

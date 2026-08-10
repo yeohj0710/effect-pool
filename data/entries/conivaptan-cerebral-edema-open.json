@@ -1,0 +1,31 @@
+{
+  "id": "conivaptan-cerebral-edema-open",
+  "subj": "코니밥탄",
+  "claim": "뇌부종에 코니밥탄을 쓴다",
+  "line": "뇌출혈 부종에서 코니밥탄은 감소 신호를 보였지만 효능은 입증하지 못했다.",
+  "effect": "ICP 감소 1례·대조 없음",
+  "tier": "trial",
+  "dir": "open",
+  "n": 7,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "코니밥탄의 FDA 허가 적응증은 입원 환자의 euvolemic·hypervolemic 저나트륨혈증이며 뇌부종 치료는 포함하지 않습니다.",
+  "why": "뇌내출혈 환자 7명을 대상으로 한 단일기관 공개 1상 시험은 안전성과 내약성을 확인했고, 별도 증례 보고에서 코니밥탄 투여 뒤 두개내압과 부종이 줄었습니다.",
+  "saw": "7명 시험에서 코니밥탄 20 mg을 12시간마다 2일 투여했을 때 나트륨은 유의하게 올랐고 심장·신장 기능 변화는 없었으며, 저자들은 효능 시험을 지지하는 자료로 해석했습니다. 1명 증례에서는 기존 치료에 반응하지 않던 뇌부종 뒤 투여 후 임상·영상 호전이 보고됐습니다.",
+  "limit": "7명 시험은 대조군 없는 안전성·내약성 연구라 부종 감소 효과를 검증하지 않았고, 증례에는 표준 뇌부종 치료가 함께 시행돼 코니밥탄의 기여를 분리할 수 없습니다.",
+  "against": "사람 시험에서 뇌부종 효능의 대조 비교는 없었습니다. 지지 자료의 상당 부분은 동물 뇌졸중 연구여서 사람 치료 효과로 바로 옮길 수 없습니다.",
+  "use": "표준 뇌부종 치료를 대신하지 않는 초기 연구 신호로 기록합니다.",
+  "refs": [
+    { "label": "뇌내출혈 코니밥탄 안전성·내약성 1상", "doi": "10.1007/s40261-020-00911-9", "pmid": "32253717", "nct": "NCT03000283" },
+    { "label": "뇌졸중 관련 난치성 뇌부종 코니밥탄 증례", "doi": "10.1186/s12883-014-0213-0", "pmid": "25403760" },
+    { "label": "외상성 뇌손상 환자 코니밥탄 투여 후 두개내압 증례", "doi": "10.1007/s12028-010-9366-x", "pmid": "20440600" },
+    { "label": "실험 뇌졸중 코니밥탄 뇌부종 연구", "doi": "10.1371/journal.pone.0136121", "pmid": "26275173" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "conivaptan AND Cerebral Edema → 2건 반환, 직접 확인 2건",
+    "pubmed": "conivaptan AND (\"cerebral edema\" OR \"cerebral oedema\" OR stroke) → 22편",
+    "negative": "conivaptan AND (\"cerebral edema\" OR \"cerebral oedema\" OR stroke) AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 4편",
+    "safety": "conivaptan AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 79편"
+  }
+}
