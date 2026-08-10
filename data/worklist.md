@@ -17339,7 +17339,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cryotherapy — Pain에 듣는다  <!-- 시험 47건 · 논문 2646편 --> 항목 생성(cryotherapy-pain-pos, 2026-08-08 조회)
 - [x] cryotherapy — Keratosis에 듣는다  <!-- 시험 15건 · 논문 398편 --> 항목 생성(cryotherapy-keratosis-null, 2026-08-08 조회)
 - [x] cryotherapy — Pulpitis에 듣는다  <!-- 시험 15건 · 논문 31편 --> 항목 생성(cryotherapy-pulpitis-pos, 2026-08-08 조회)
-- [ ] cryotherapy — Cervical Cancer에 듣는다  <!-- 시험 14건 · 논문 516편 -->
+- [x] cryotherapy — Cervical Cancer에 듣는다  <!-- 시험 14건 · 논문 516편 -->
 - [x] sleep sound intervention — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 38편 --> 항목 생성(sleep-sound-intervention-pregnancy-pos, 2026-08-08 조회)
 - [x] sleep sound intervention — Concussion, Mild에 듣는다  <!-- 시험 3건 · 논문 12편 --> 근거 없음(2026-08-08 조회, sleep sound intervention AND Concussion, Mild; 직접 결과 없음)
 - [x] sleep sound intervention — Preterm Birth에 듣는다  <!-- 시험 3건 · 논문 11편 --> 항목 생성(sleep-sound-intervention-preterm-null, 2026-08-08 조회)
@@ -17386,11 +17386,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] vegetable prescription — Food Supply에 듣는다  <!-- 시험 3건 · 논문 75편 --> 항목 생성(vegetable-prescription-food-supply-pos, 2026-08-08 조회)
 - [x] museum intervention — Social Isolation에 듣는다  <!-- 시험 3건 · 논문 54편 --> 항목 생성(museum-intervention-social-isolation-open, 2026-08-08 조회)
-- [ ] museum intervention — Pain Cancer에 듣는다  <!-- 시험 3건 · 논문 9편 -->
+- [x] museum intervention — Pain Cancer에 듣는다  <!-- 시험 3건 · 논문 9편 -->
 - [x] hope therapy — Stress에 듣는다  <!-- 시험 7건 · 논문 2579편 --> 항목 생성(hope-therapy-stress-pos, hope-therapy-stress-dialysis-pos, 2026-08-08 조회)
 - [x] hope therapy — Substance Use에 듣는다  <!-- 시험 3건 · 논문 889편 --> — 근거 없음(2026-08-08 조회, "hope therapy" AND "substance use"; PMID40723658는 HOPE 약어 기반 외상 노출치료)
 - [x] hope therapy — Brain Injury에 듣는다  <!-- 시험 3건 · 논문 637편 --> — 근거 없음(2026-08-08 조회, "hope therapy" AND "brain injury")
-- [ ] hope therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 23359편 -->
+- [x] hope therapy — Cancer에 듣는다  <!-- 시험 3건 · 논문 23359편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -17404,7 +17404,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] meal replacement — Liver Fibrosis에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 근거 없음(2026-08-08 조회, "meal replacement" AND "liver fibrosis"; PMID38684277는 결과가 아닌 시험 프로토콜)
 - [x] flaxseed — Blood Glucose에 듣는다  <!-- 시험 3건 · 논문 193편 --> 항목 생성(flaxseed-blood-glucose-pos, 2026-08-08 조회)
 - [x] saffron — Depression에 듣는다  <!-- 시험 3건 · 논문 244편 --> 항목 생성(saffron-depression-pos, saffron-depression-null, 2026-08-08 조회)
-- [ ] bright light therapy — Kidney Carcinoma에 듣는다  <!-- 시험 6건 · 논문 102편 -->
+- [x] bright light therapy — Kidney Carcinoma에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov intr=bright light therapy·cond=Kidney Carcinoma 중재명 일치 0건; PubMed "bright light therapy"[Title/Abstract] AND ("kidney carcinoma"[Title/Abstract] OR "renal cell carcinoma"[Title/Abstract]) 0편)  <!-- 시험 6건 · 논문 102편 -->
 - [x] bright light therapy — Seasonal Affective Disorder에 듣는다  <!-- 시험 5건 · 논문 761편 --> 항목 생성(bright-light-therapy-seasonal-affective-disorder-pos, 2026-08-08 조회)
 - [x] bright light therapy — Light에 듣는다  <!-- 시험 5건 · 논문 35110편 --> — 근거 없음(2026-08-08 조회, "bright light therapy" AND Light; 조건명이 질환·결과로 정의되지 않아 직접 근거 없음)
 - [x] bright light therapy — Concussion, Mild에 듣는다  <!-- 시험 5건 · 논문 22편 --> — 근거 없음(2026-08-08 조회, "bright light therapy" AND concussion; PMID39775195는 결과가 아닌 프로토콜)
@@ -17420,7 +17420,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] meditation app — Anxiety에 듣는다  <!-- 시험 17건 · 논문 108편 --> — 같은 근거(별도 항목 없음; meditation-anxiety-depression-pos)(2026-08-08)
 - [x] meditation app — Pain에 듣는다  <!-- 시험 10건 · 논문 27편 --> — 같은 근거(별도 항목 없음; meditation-pain-pos)(2026-08-08)
-- [ ] meditation app — Cancer에 듣는다  <!-- 시험 9건 · 논문 25편 -->
+- [x] meditation app — Cancer에 듣는다  <!-- 시험 9건 · 논문 25편 -->
 - [x] meditation app — Distress에 듣는다  <!-- 시험 9건 · 논문 49편 --> — 같은 근거(별도 항목 없음; mindfulness-meditation-distress-pos)(2026-08-08)
 - [x] peer support — Health에 듣는다  <!-- 시험 27건 · 논문 62934편 --> — 근거 없음(2026-08-08 조회, "peer support" AND Health; 건강 전반·다른 중재를 섞어 직접 결과를 평가한 근거 없음)
 - [x] peer support — Social Skills에 듣는다  <!-- 시험 12건 · 논문 3193편 --> — 같은 근거(별도 항목 없음; peer-support-group-social-skills-pos)(2026-08-08)
