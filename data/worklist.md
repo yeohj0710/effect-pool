@@ -19634,3 +19634,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] vitamin k2 — Insulin Resistance에 듣는다  <!-- 시험 6건 · 논문 37편 -->
 - [x] vitamin k2 — Vascular Health에 듣는다  <!-- 시험 5건 · 논문 78편 -->
 - [x] hydrolyzed collagen — Nutrition에 듣는다  <!-- 시험 3건 · 논문 148편 --> — 근거 없음(2026-08-11, hydrolyzed collagen AND Nutrition; 등록시험은 있으나 결과 논문 없음)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] glutamine — Sickle Cell Anemia에 듣는다  <!-- 시험 16건 · 논문 150편 --> — 허가 적응증(2026-08-11)
+- [x] glutamine — Colorectal Tumors에 듣는다  <!-- 시험 14건 · 논문 490편 --> — 근거 없음(2026-08-11, glutamine AND Colorectal Tumors; 항암 주제 조사 제외)
+- [x] glutamine — Mucositis에 듣는다  <!-- 시험 11건 · 논문 1993편 --> — 근거 없음(2026-08-11, glutamine AND Mucositis; 확인된 직접시험이 항암·방사선 점막염이라 조사 제외)
+- [x] glutamine — Sepsis에 듣는다  <!-- 시험 7건 · 논문 629편 -->
+- [x] hyaluronic acid — Gingival Recession에 듣는다  <!-- 시험 15건 · 논문 55편 -->
+- [x] hyaluronic acid — Aging에 듣는다  <!-- 시험 15건 · 논문 2684편 -->
+- [x] hyaluronic acid — Periodontitis에 듣는다  <!-- 시험 14건 · 논문 509편 -->
+- [x] hyaluronic acid — Wound Heal에 듣는다  <!-- 시험 10건 · 논문 3531편 --> — 근거 없음(2026-08-11, hyaluronic acid AND Wound Heal; 등록·전임상 연구는 있으나 직접 사람 결과 논문 없음)

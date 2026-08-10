@@ -1,0 +1,29 @@
+{
+  "id": "glutamine-sepsis-harm",
+  "subj": "glutamine",
+  "claim": "다장기부전 중환자 1,223명을 대상으로 한 무작위시험에서 고용량 글루타민은 사망을 줄이지 못했고 사망 증가와 연관됐다.",
+  "line": "다장기부전 중환자에서 글루타민 보충은 임상 결과를 개선하지 못했고 사망이 늘었다.",
+  "effect": "사망 증가; OR 1.28",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 1223,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "글루타민은 겸상적혈구병에 허가되었지만 패혈증·다장기부전은 허가 적응증이 아니다.",
+  "why": "기계환기를 받는 다장기부전 중환자에서 글루타민과 위약을 비교한 대규모 무작위시험이다.",
+  "saw": "40개 중환자실의 성인 1,223명이 글루타민, 항산화제, 병용 또는 위약을 받았다. 글루타민군의 28일 사망률은 32.4%로 비투여군 27.2%보다 높았고 조정 오즈비는 1.28이었다. 입원 중 사망과 6개월 사망도 더 높았다.",
+  "limit": "다장기부전과 기계환기를 받는 중환자에게 고용량을 조기에 투여한 결과라 일반적인 영양 보충에 그대로 적용할 수 없다.",
+  "against": "글루타민은 장기부전이나 감염 합병증을 줄이지 못했고 유익한 하위군도 확인되지 않았다.",
+  "use": "패혈증·다장기부전 중환자에서 글루타민을 치료 보충제로 사용하지 않도록 위험 근거로 기록한다.",
+  "refs": [
+    { "label": "중환자 글루타민·항산화제 무작위시험", "doi": "10.1056/NEJMoa1212722", "pmid": "23594003", "nct": "NCT00133978" },
+    { "label": "중환자 글루타민 사후분석", "doi": "10.1177/0148607114529994", "pmid": "24803474", "pmc": "PMC6800175" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "glutamine AND Sepsis · 10건",
+    "pubmed": "glutamine AND Sepsis · 629건",
+    "negative": "glutamine AND (no effect OR did not OR failed to OR negative OR no significant difference) · 27963건",
+    "safety": "glutamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 5373건"
+  }
+}
