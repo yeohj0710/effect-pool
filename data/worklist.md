@@ -18237,7 +18237,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] physical activity counseling — Behavior Change에 듣는다  <!-- 시험 4건 · 논문 1858편 --> — 항목 추가(2026-08-09)
 - [x] physical activity counseling — Multiple Sclerosis에 듣는다  <!-- 시험 4건 · 논문 53편 --> — 항목 추가(2026-08-09)
 - [x] sedentary behavior reduction — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
-- [ ] sedentary behavior reduction — Cancer에 듣는다  <!-- 시험 3건 · 논문 258편 -->
+- [x] sedentary behavior reduction — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 258편 -->
 - [x] sedentary behavior reduction — Cognitive Decline에 듣는다  <!-- 시험 3건 · 논문 27편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 0건)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18299,7 +18299,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] music therapy group — Pain에 듣는다  <!-- 시험 88건 · 논문 959편 --> — 항목 추가(2026-08-09)
 - [x] music therapy group — Dementia에 듣는다  <!-- 시험 32건 · 논문 421편 --> — 항목 추가(2026-08-09)
 - [x] music therapy group — Stress에 듣는다  <!-- 시험 26건 · 논문 701편 --> — 항목 추가(2026-08-09)
-- [ ] music therapy group — Cancer에 듣는다  <!-- 시험 25건 · 논문 410편 -->
+- [x] music therapy group — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 25건 · 논문 410편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18310,7 +18310,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] art therapy app — Cancer에 듣는다  <!-- 시험 3건 · 논문 19편 -->
+- [x] art therapy app — Cancer에 듣는다 — 근거 없음(2026-08-10, "art therapy app"[Title/Abstract] AND "Cancer"[Title/Abstract] 직접 0편; ClinicalTrials.gov 3건 중 InterventionName 완전일치 0건)  <!-- 시험 3건 · 논문 19편 -->
 - [x] cycling group — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 533편 --> — 항목 추가(2026-08-09)
 - [x] cycling group — Stroke에 듣는다  <!-- 시험 5건 · 논문 2141편 --> — 중복(2026-08-09, 기존 cycling-stroke-pos)
 - [x] cycling group — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 254편 --> — 항목 추가(2026-08-09)
@@ -18343,7 +18343,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] therapeutic drawing — Lung에 듣는다  <!-- 시험 3건 · 논문 385편 -->
+- [x] therapeutic drawing — Lung에 듣는다 — 근거 없음(2026-08-10, "therapeutic drawing"[Title/Abstract] AND "Lung"[Title/Abstract] 직접 0편; ClinicalTrials.gov 72건 중 InterventionName 완전일치 0건)  <!-- 시험 3건 · 논문 385편 -->
 - [x] seaweed extract — Metabolic Syndrome에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 중복(2026-08-09, 기존 seaweed-metabolic-syndrome-pos)
 - [x] seaweed extract — Glucose Metabolism에 듣는다  <!-- 시험 3건 · 논문 133편 --> — 중복(2026-08-09, 기존 seaweed-glucose-metabolism-pos)
 
@@ -18377,7 +18377,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] biofeedback training — Stress에 듣는다  <!-- 시험 21건 · 논문 1043편 --> — 중복(2026-08-09, 기존 biofeedback-stress-pos)
 - [x] biofeedback training — Pelvic Floor에 듣는다  <!-- 시험 21건 · 논문 736편 --> — 중복(2026-08-09, 기존 biofeedback-pelvic-floor-pos)
 - [x] photobiomodulation device — Mucositis에 듣는다  <!-- 시험 15건 · 논문 144편 --> — 중복(2026-08-09, 기존 photobiomodulation-mucositis-open)
-- [ ] photobiomodulation device — Cancer에 듣는다  <!-- 시험 13건 · 논문 425편 -->
+- [x] photobiomodulation device — Cancer에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 13건 · 논문 425편 -->
 - [x] photobiomodulation device — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 41편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
 - [x] photobiomodulation device — Xerostomia에 듣는다  <!-- 시험 7건 · 논문 24편 --> — 근거 없음(2026-08-09 조회, ClinicalTrials.gov InterventionName 완전일치 0건; PubMed 직접 검색 0건)
 - [x] dietary fiber supplement — Gut에 듣는다  <!-- 시험 4건 · 논문 4229편 --> — 근거 없음(2026-08-09 조회, 완전일치 1건 NCT04790422는 등록시험이고 PubMed 직접 결과는 동물·관찰·프로토콜뿐)
@@ -18541,3 +18541,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] massage chair — Cancer에 듣는다  <!-- 시험 5건 · 논문 18편 -->
 - [ ] massage chair — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 10편 -->
 - [ ] massage chair — Fatigue에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] ocriplasmin — Vitrectomy에 듣는다  <!-- 시험 3건 · 논문 125편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] solifenacin — Urinary Urge에 듣는다  <!-- 시험 28건 · 논문 117편 -->
+- [ ] solifenacin — Incontinence에 듣는다  <!-- 시험 20건 · 논문 378편 -->
+- [ ] solifenacin — Prostatic Hyperplasia에 듣는다  <!-- 시험 13건 · 논문 76편 -->
+- [ ] solifenacin — Ureteral Stent에 듣는다  <!-- 시험 8건 · 논문 33편 -->
+- [ ] lumacaftor — Diabetes에 듣는다  <!-- 시험 3건 · 논문 23편 -->
+- [ ] music imagery — Pain에 듣는다  <!-- 시험 11건 · 논문 112편 -->
+- [ ] music imagery — Anxiety에 듣는다  <!-- 시험 7건 · 논문 116편 -->
+- [ ] music imagery — Stress에 듣는다  <!-- 시험 7건 · 논문 86편 -->
