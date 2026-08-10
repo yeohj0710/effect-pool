@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4397,
+  "entries": 4403,
   "worklist": {
-    "total": 14253,
-    "checked": 14251,
+    "total": 14276,
+    "checked": 14274,
     "unchecked": 2,
     "no_evidence_pending": 1744,
     "next_batch": [
@@ -14,29 +14,29 @@
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1104 ran two new 20-name expansion sets with at least five non-drug names each, added one tafenoquine babesiosis case entry, tightened 20 legacy sentences, and left 2 exhausted lookup failures unchecked; line, translation, effect, known, English, and scale warnings are 0; unknown-n warnings remain",
+    "build": "passed; batch 1105 ran one new 20-name expansion set with at least five non-drug names, added 6 evidence entries, marked 4 approved indications, closed 9 topics as no evidence, tightened 20 legacy sentences, and left 2 exhausted lookup failures unchecked; line, translation, effect, known, English, and scale warnings are 0; unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 359,
     "known_warnings": 2,
-    "thin_warnings": 811,
+    "thin_warnings": 812,
     "tier_distribution": {
-      "trial": 3771,
-      "obs": 556,
+      "trial": 3776,
+      "obs": 557,
       "animal": 23,
       "lab": 11,
       "case": 36
     },
-    "no_effect_or_harm": 1010,
+    "no_effect_or_harm": 1012,
     "harm": 130,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 626,
+    "non_trial": 627,
     "trial_share": "85.8%",
     "non_trial_share": "14.2%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6231
+    "connected_evidence": 6237
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -61,9 +61,9 @@
        "latest_note": "Official six-round HTTP 200 public/local check for batch 1099 matched in all 6 rounds at 4377 entries, 6210 refs, shard 48, 4382 id fields, 92/92 detail shards and 4377 detail entries, with identical DATA SHA-256 5102d3dcb4732f822e92599e3c000daf1bf3e6e5167a7868e978753774cc4011; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1104 data/worklist commit 51113769 pushed; state checkpoint committed in this follow-up",
-    "last_batch": "batch 1104 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced no candidates on the first set and one tafenoquine babesiosis candidate on the second; added one case entry, tightened 20 legacy sentences, and pushed data/worklist commit 51113769; build matched at 4397 entries and 6231 refs",
-    "next_batch": "batch 1105",
+    "last_committed_batch": "batch 1105 data/worklist commit 4bf30a70 pushed; state checkpoint committed in this follow-up",
+    "last_batch": "batch 1105 started with two unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 23 candidates, added 6 evidence entries, marked 4 approved indications, closed 9 topics as no evidence, tightened 20 legacy sentences, and pushed data/worklist commit 4bf30a70; build matched at 4403 entries and 6237 refs",
+    "next_batch": "batch 1106",
     "next_six_round_check": "after batch 1105",
     "untracked_preserved": [
       "build-batch283.log",
@@ -505,7 +505,8 @@
     ,"batch 1102 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced 9 candidates on the first set and 7 on the second; marked 5 approved indications, added 9 evidence entries, closed 2 topics as no evidence, tightened 20 legacy sentences, and pushed data/worklist commit 48541477; build matched at 4395 entries and 6229 refs; next six-round check is due after batch 1105"
     ,"batch 1103 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced one candidate each; marked avalglucosidase alfa glycogen storage disease type II as approved, added one eluxadoline diarrhea evidence entry, tightened 20 legacy sentences, and pushed data/worklist commit 99c54119; build matched at 4396 entries and 6230 refs; next six-round check is due after batch 1105"
     ,"batch 1104 started with two unchecked lookup failures; two new 20-name expansion sets with at least five non-drug names each produced no candidates on the first set and one tafenoquine babesiosis candidate on the second; added one case entry, tightened 20 legacy sentences, and pushed data/worklist commit 51113769; build matched at 4397 entries and 6231 refs; next six-round check is due after batch 1105"
+    ,"batch 1105 started with two unchecked lookup failures; one new 20-name expansion set with at least five non-drug names produced 23 candidates, added 6 evidence entries, marked 4 approved indications, closed 9 topics as no evidence, tightened 20 legacy sentences, and pushed data/worklist commit 4bf30a70; build matched at 4403 entries and 6237 refs; six-round public/local check is due now"
   ],
-  "current_batch": "batch 1104 checkpoint: 4397 entries/6231 refs; added one tafenoquine babesiosis case entry; tightened 20 legacy sentences; worklist is 14253 total, 14251 checked, 2 unchecked; expansion ran twice; data/worklist commit 51113769 pushed; next six-round public/local check is due after batch 1105",
-    "next_action": "start batch 1105 with expansion because 2 unchecked lookup failures remain; use two new 20-name sets with at least five non-drug names, skip the exhausted failures, process any candidates, then build, commit, push, and update state; run the six-round public/local check after this batch"
+  "current_batch": "batch 1105 checkpoint: 4403 entries/6237 refs; added abacavir lipodystrophy, lamivudine pregnancy, emtricitabine hormone therapy, raltegravir fatty liver, and two lopinavir COVID null entries; marked four approved indications; closed nine topics as no evidence; tightened 20 legacy sentences; worklist is 14276 total, 14274 checked, 2 unchecked; expansion ran once; data/worklist commit 4bf30a70 pushed; six-round public/local check is due now",
+    "next_action": "run the six-round public/local deployment check now; after it, update state, commit, push, and start batch 1106 with expansion because 2 unchecked lookup failures remain"
 }
