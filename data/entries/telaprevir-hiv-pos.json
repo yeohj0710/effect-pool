@@ -1,0 +1,29 @@
+{
+  "id": "telaprevir-hiv-pos",
+  "subj": "telaprevir",
+  "claim": "HIV와 HCV에 함께 감염된 사람의 HCV 치료에 텔라프레비르를 포함한 삼제요법을 사용한다",
+  "line": "HIV/HCV 동시감염에서 텔라프레비르 삼제요법의 SVR12는 67.7%였다",
+  "effect": "SVR12 67.7%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 58,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 HCV 치료이며 HIV/HCV 동시감염 환자에서의 텔라프레비르 사용은 별도 허가 적응증으로 분류하지 않았습니다.",
+  "why": "HIV/HCV 동시감염에서는 항레트로바이러스 약물과의 상호작용 및 간질환 중증도가 치료 결과에 영향을 줄 수 있어 실제 진료 근거를 확인했습니다.",
+  "saw": "마드리드 4개 병원의 HIV/HCV 유전자형 1형 환자 58명이 텔라프레비르·페그인터페론·리바비린을 받았습니다. 60주 추적이 가능한 31명 중 SVR12는 21명(67.7%), 72주 추적이 가능한 28명 중 SVR24는 17명(60.7%)이었습니다. 5명(8.6%)은 독성 때문에 치료를 중단했습니다.",
+  "limit": "무작위 대조군이 없는 실제 진료 관찰 연구이고 추적 가능 환자가 줄어들어 탈락과 선택 편향이 있습니다.",
+  "against": "치료를 중단한 5명 중 2명에서 텔라프레비르 관련 발진이 있었고 모든 환자에게 치료 중 빈혈이 관찰됐습니다.",
+  "use": "HIV/HCV 동시감염에 텔라프레비르를 임의로 추가하지 말고 항레트로바이러스 약물 상호작용, 간경변 정도, 빈혈과 발진을 함께 확인하는 연구 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Efficacy and tolerability of telaprevir-based triple therapy in HIV/HCV-coinfected patients", "pmid": "25394137" },
+    { "label": "Telaprevir Open-Label Study in Co-Infected Patients", "nct": "NCT01597895" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "telaprevir AND HIV · 13건",
+    "pubmed": "telaprevir AND HIV · 220편",
+    "negative": "telaprevir AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) · 170편",
+    "safety": "telaprevir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 670편"
+  }
+}

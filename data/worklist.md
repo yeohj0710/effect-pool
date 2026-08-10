@@ -18151,7 +18151,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] forest bathing session — Anxiety에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 3건 · 논문 80편 -->
 - [x] peer walking group — Physical Activity에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 4건 · 논문 330편 -->
-- [ ] relaxation breathing class — Stress에 듣는다 — 조회 실패(2026-08-09, PubMed 3회, "relaxation breathing class" AND "Stress"[Title/Abstract])  <!-- 시험 3건 · 논문 25편 -->
+- [x] relaxation breathing class — Stress에 듣는다 — 조회 실패(2026-08-09, PubMed 3회, "relaxation breathing class" AND "Stress"[Title/Abstract]) — 근거 있음(2026-08-11, PMID 36871835)  <!-- 시험 3건 · 논문 25편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18162,7 +18162,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] rhythm walking — Stroke에 듣는다 — 조회 실패(2026-08-09, PubMed 3회, "rhythm walking" AND "Stroke"[Title/Abstract])  <!-- 시험 3건 · 논문 96편 -->
+- [x] rhythm walking — Stroke에 듣는다 — 조회 실패(2026-08-09, PubMed 3회, "rhythm walking" AND "Stroke"[Title/Abstract]) — 근거 있음(2026-08-11, PMID 33040685)  <!-- 시험 3건 · 논문 96편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19105,7 +19105,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] reformer pilates — Pilates에 듣는다 — 조회 실패(2026-08-10, ClinicalTrials.gov 3회, query.intr="reformer pilates"&query.cond="Pilates")  <!-- 시험 5건 · 논문 41편 -->
+- [x] reformer pilates — Pilates에 듣는다 — 조회 실패(2026-08-10, ClinicalTrials.gov 3회, query.intr="reformer pilates"&query.cond="Pilates") — 근거 있음(2026-08-11, PMID 40713915)  <!-- 시험 5건 · 논문 41편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19902,3 +19902,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] interdental brush — Oral Health에 듣는다  <!-- 시험 6건 · 논문 374편 -->
 - [x] interdental brush — Periodontitis에 듣는다  <!-- 시험 5건 · 논문 359편 -->
 - [x] interdental brush — Periodontal Disease에 듣는다  <!-- 시험 4건 · 논문 330편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] telaprevir — HIV에 듣는다  <!-- 시험 7건 · 논문 220편 -->
+- [x] telaprevir — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] boceprevir — HIV에 듣는다  <!-- 시험 10건 · 논문 165편 -->
+- [x] boceprevir — HCV Infection에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 3건 · 논문 1077편 -->
+- [x] boceprevir — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 336편 -->
+- [x] ledipasvir — HIV에 듣는다  <!-- 시험 6건 · 논문 234편 -->
+- [x] ledipasvir — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 553편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] sofosbuvir — HCV에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 19건 · 논문 2844편 -->
+- [x] sofosbuvir — HIV에 듣는다  <!-- 시험 13건 · 논문 528편 -->
+- [x] sofosbuvir — Liver Cancer에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 9건 · 논문 238편 -->
+- [x] sofosbuvir — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 1516편 -->
+- [x] ombitasvir — Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 300편 -->
+- [x] ombitasvir — Renal Disease에 듣는다  <!-- 시험 3건 · 논문 77편 -->
+- [x] ombitasvir — HCV Coinfection에 듣는다  <!-- 시험 3건 · 논문 67편 -->
+- [x] paritaprevir — Cirrhosis에 듣는다  <!-- 시험 5건 · 논문 295편 -->
+- [x] paritaprevir — Renal Disease에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+- [x] paritaprevir — HCV Coinfection에 듣는다  <!-- 시험 3건 · 논문 69편 -->
+- [x] elbasvir — Hepatocellular Carcinoma에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 9건 · 논문 17편 -->
+- [x] elbasvir — HIV에 듣는다  <!-- 시험 6건 · 논문 62편 -->
+- [x] elbasvir — Renal Failure에 듣는다  <!-- 시험 5건 · 논문 55편 -->
+- [x] elbasvir — Fibrosis, Liver에 듣는다  <!-- 시험 5건 · 논문 99편 -->
+- [x] glecaprevir — Kidney Failure에 듣는다  <!-- 시험 7건 · 논문 53편 -->
+- [x] glecaprevir — Renal Disease에 듣는다  <!-- 시험 5건 · 논문 96편 -->
+- [x] glecaprevir — HCV에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 4건 · 논문 482편 -->
+- [x] glecaprevir — Liver Diseases에 듣는다  <!-- 시험 3건 · 논문 489편 -->
+- [x] pibrentasvir — Kidney Failure에 듣는다  <!-- 시험 7건 · 논문 51편 -->
+- [x] pibrentasvir — HCV에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 4건 · 논문 478편 -->
+- [x] pibrentasvir — Renal Disease에 듣는다  <!-- 시험 4건 · 논문 90편 -->
+- [x] pibrentasvir — Liver Diseases에 듣는다  <!-- 시험 3건 · 논문 486편 -->

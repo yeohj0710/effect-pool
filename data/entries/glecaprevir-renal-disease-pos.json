@@ -1,0 +1,28 @@
+{
+  "id": "glecaprevir-renal-disease-pos",
+  "subj": "glecaprevir",
+  "claim": "사구체여과율이 30mL/min 이하인 만성 신장질환 HCV 환자에게 글레카프레비르·피브렌타스비르를 사용한다",
+  "line": "eGFR≤30 HCV 글레카프레비르 요법 SVR12 100%",
+  "effect": "SVR12 100%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 33,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 HCV 치료이며 사구체여과율 30mL/min 이하의 만성 신장질환에서의 글레카프레비르 사용은 별도 허가 적응증으로 분류하지 않았습니다.",
+  "why": "임상시험 외 실제 진료에서도 신기능이 크게 떨어진 환자의 글레카프레비르 효과와 안전성이 유지되는지 확인했습니다.",
+  "saw": "독일 HCV 등록자료에서 사구체여과율 30mL/min 이하인 환자 93명 중 글레카프레비르·피브렌타스비르를 받은 33명의 SVR12는 100%였습니다. 이 집단에는 간경변 12.9%가 포함됐고 피로, 두통, 복부 불편, 관절통이 흔한 이상반응이었습니다.",
+  "limit": "등록자료의 글레카프레비르·피브렌타스비르군이 33명으로 작고 무작위 비교가 없습니다.",
+  "against": "신장질환 환자에서 당뇨병, 고혈압, 관상동맥질환이 흔해 치료 결과와 이상반응에 영향을 줄 수 있습니다.",
+  "use": "신기능이 크게 떨어진 HCV 환자에서 글레카프레비르를 검토할 때는 실제 신기능과 동반질환, 간경변을 함께 평가합니다.",
+  "refs": [
+    { "label": "Hepatitis C therapy with grazoprevir/elbasvir and glecaprevir/pibrentasvir in advanced chronic kidney disease", "pmid": "32956186", "doi": "10.1097/MEG.0000000000001923" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "glecaprevir AND Renal Disease · 18건",
+    "pubmed": "glecaprevir AND Renal Disease · 96편",
+    "negative": "glecaprevir AND Renal Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) · 82편",
+    "safety": "glecaprevir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 284편"
+  }
+}

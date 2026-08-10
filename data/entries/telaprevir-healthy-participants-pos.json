@@ -1,0 +1,29 @@
+{
+  "id": "telaprevir-healthy-participants-pos",
+  "subj": "telaprevir",
+  "claim": "건강한 성인에서 텔라프레비르의 약동학과 음식 영향을 평가한다",
+  "line": "식후 텔라프레비르 노출 증가, 이상반응은 경미",
+  "effect": "식후 Cmax/AUC 4.92/4.81배",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 26,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "텔라프레비르의 허가사항은 HCV 유전자형 1형 치료이며 건강한 성인의 약동학 평가는 허가 적응증이 아닙니다.",
+  "why": "건강한 성인 약동학 시험은 질환 치료 효과가 아니라 투여 조건에 따른 약물 노출과 내약성을 확인합니다.",
+  "saw": "건강한 한국 남성 26명이 단회 500·750·1,250mg 또는 반복 750mg을 받았습니다. 식후 단회 투여는 공복보다 Cmax가 4.92배, AUC0-24가 4.81배 높았고, 반복 투여 뒤 Cmax와 8시간 AUC는 약 2.41배 증가했습니다. 이상반응은 모두 경미했고 중단은 없었습니다.",
+  "limit": "건강한 남성을 대상으로 한 소규모 약동학 시험이라 HCV 환자의 바이러스 반응이나 임상 이득을 평가하지 않았습니다.",
+  "against": "음식이 약물 노출을 크게 높였으므로 실제 환자에게 음식 섭취와 무관하게 투여할 수 있다는 근거는 아닙니다.",
+  "use": "건강한 성인 약동학 자료는 질환 치료 효과로 해석하지 말고 식사 조건과 내약성 연구의 참고값으로만 사용합니다.",
+  "refs": [
+    { "label": "Pharmacokinetic characteristics of telaprevir in healthy Korean male subjects", "pmid": "29750017", "doi": "10.2147/DDDT.S148117" },
+    { "label": "Drug-Drug Interaction Study of Telaprevir in Healthy Volunteers", "nct": "NCT00973388" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "telaprevir AND Healthy Participants · 13건",
+    "pubmed": "telaprevir AND Healthy Participants · 15편",
+    "negative": "telaprevir AND Healthy Participants AND (no effect OR did not OR failed to OR negative OR no significant difference) · 14편",
+    "safety": "telaprevir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 670편"
+  }
+}
