@@ -17445,17 +17445,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tai chi — Depression에 듣는다  <!-- 시험 6건 · 논문 596편 --> 항목 생성(tai-chi-depression-pos, tai-chi-depression-null, 2026-08-08 조회)
 - [x] tai chi — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 101편 --> — 같은 근거(별도 항목 없음; group-tai-chi-heart-failure-pos)(2026-08-08)
 - [x] tai chi — Somatic Symptoms에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 근거 없음(2026-08-08 조회, "tai chi" AND "somatic symptoms"; 직접 태극권 결과가 아닌 기공·섬유근육통 문헌만 확인)
-- [ ] resistance band exercise — Cancer에 듣는다  <!-- 시험 14건 · 논문 22편 -->
+- [x] resistance band exercise — Cancer에 듣는다  <!-- 시험 14건 · 논문 22편 -->
 - [x] resistance band exercise — Aging에 듣는다  <!-- 시험 13건 · 논문 79편 --> — 같은 근거(별도 항목 없음; resistance-bands-aging-pos)(2026-08-08)
 - [x] resistance band exercise — Diabetes에 듣는다  <!-- 시험 13건 · 논문 26편 --> — 같은 근거(별도 항목 없음; resistance-bands-diabetes-pos)(2026-08-08)
 - [x] resistance band exercise — Physical Fitness에 듣는다  <!-- 시험 10건 · 논문 64편 --> — 같은 근거(별도 항목 없음; resistance-training-muscle-pos)(2026-08-08)
 - [x] home cooking — Diet Habit에 듣는다  <!-- 시험 3건 · 논문 461편 --> 항목 생성(home-cooking-diet-habit-pos, 2026-08-08 조회)
 - [x] olive oil — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 473편 --> 항목 생성(olive-oil-pregnancy-pos, 2026-08-08 조회)
-- [ ] olive oil — Stomach Cancer에 듣는다  <!-- 시험 6건 · 논문 45편 -->
+- [x] olive oil — Stomach Cancer에 듣는다  <!-- 시험 6건 · 논문 45편 -->
 - [x] olive oil — Heart Disease에 듣는다  <!-- 시험 6건 · 논문 586편 --> 항목 생성(olive-oil-heart-disease-pos, 2026-08-08 조회)
 - [x] olive oil — Overweight에 듣는다  <!-- 시험 5건 · 논문 441편 --> — 같은 근거(별도 항목 없음; olive-oil-obesity-open)(2026-08-08)
 - [x] green tea — Inflammation에 듣는다  <!-- 시험 5건 · 논문 2492편 --> — 같은 근거(별도 항목 없음; green-tea-extract-inflammation-pos)(2026-08-08)
-- [ ] green tea — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 117편 -->
+- [x] green tea — Precancerous Condition에 듣는다  <!-- 시험 4건 · 논문 117편 -->
 - [x] green tea — Diabetic Nephropathy에 듣는다  <!-- 시험 4건 · 논문 72편 --> 항목 생성(green-tea-diabetic-nephropathy-pos, 2026-08-08 조회)
 - [x] green tea — Gingivitis에 듣는다  <!-- 시험 4건 · 논문 185편 --> — 같은 근거(별도 항목 없음; green-tea-oral-care-pos)(2026-08-08)
 - [x] walnut — Brain Fog에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 같은 근거(별도 항목 없음; walnut-cognitive-change-null)(2026-08-08)
@@ -17771,7 +17771,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] proprioceptive exercise — Muscle Strength에 듣는다  <!-- 시험 11건 · 논문 2717편 --> — 항목 생성(2026-08-08)
 - [x] circuit training — Diabetes에 듣는다  <!-- 시험 8건 · 논문 84편 --> — 항목 생성(2026-08-08)
 - [x] circuit training — Multiple Sclerosis에 듣는다  <!-- 시험 7건 · 논문 20편 --> — 항목 생성(2026-08-08)
-- [ ] circuit training — Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 -->
+- [x] circuit training — Cancer에 듣는다  <!-- 시험 7건 · 논문 102편 -->
 - [x] circuit training — Obesity에 듣는다  <!-- 시험 6건 · 논문 139편 --> — 항목 생성(2026-08-08)
 - [x] laughter yoga — Self에 듣는다  <!-- 시험 5건 · 논문 100편 --> — 항목 생성(2026-08-08)
 
@@ -18040,7 +18040,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lifestyle medicine — Hypertension에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 18건 · 논문 9400편 -->
 - [x] lifestyle medicine — Cardiovascular Disease에 듣는다 — 근거 없음(2026-08-09 조회, "lifestyle medicine" AND "Cardiovascular Disease"[Title/Abstract]; ClinicalTrials.gov 430건 중 InterventionName 완전일치 4건이나 결과 없음; PubMed 직접 88건은 리뷰·간접 결과뿐)  <!-- 시험 17건 · 논문 19649편 -->
 - [x] lifestyle medicine — Hypercholesterolemia에 듣는다 — 근거 없음(2026-08-09 조회, "lifestyle medicine" AND "Hypercholesterolemia"[Title/Abstract]; ClinicalTrials.gov 16건 중 InterventionName 완전일치 1건이나 결과 없음; PubMed 직접 1건은 심혈관 예방 리뷰)  <!-- 시험 15건 · 논문 896편 -->
-- [ ] water therapy — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 1847편 -->
+- [x] water therapy — Lung Cancer에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov intr=water therapy·cond=Lung Cancer 중재명 일치 0건; PubMed "water therapy"[Title/Abstract] AND ("lung cancer"[Title/Abstract] OR "lung neoplasms"[Title/Abstract]) 0편; water-based therapy·hydrotherapy 같은 검색도 0편)  <!-- 시험 9건 · 논문 1847편 -->
 - [x] water therapy — Plaque에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 7건 · 논문 1379편 -->
 - [x] water therapy — Insulin Resistance에 듣는다 — 근거 없음(2026-08-09 조회, "water therapy" AND "Insulin Resistance"[Title/Abstract]; ClinicalTrials.gov 222건 중 InterventionName 완전일치 0건; PubMed 직접 0건)  <!-- 시험 6건 · 논문 1135편 -->
 - [x] water therapy — Diabetes에 듣는다 — 항목 추가(2026-08-09)  <!-- 시험 6건 · 논문 6431편 -->
