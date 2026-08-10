@@ -18675,11 +18675,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 --> — 항목 추가(2026-08-10)
 - [x] ulipristal — Fibroid에 듣는다  <!-- 시험 8건 · 논문 350편 --> — 항목 추가(2026-08-10)
 - [x] ulipristal — Leiomyoma에 듣는다  <!-- 시험 7건 · 논문 303편 --> — 항목 추가(2026-08-10)
-- [ ] ulipristal — Infertility에 듣는다  <!-- 시험 5건 · 논문 41편 -->
-- [ ] velpatasvir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 52편 -->
-- [ ] velpatasvir — HCV에 듣는다  <!-- 시험 3건 · 논문 623편 -->
-- [ ] velpatasvir — Kidney Transplantation에 듣는다  <!-- 시험 3건 · 논문 22편 -->
-- [ ] vorapaxar — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 88편 -->
+- [x] ulipristal — Infertility에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 41편 -->
+- [x] velpatasvir — Injection Drug Use에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 52편 -->
+- [x] velpatasvir — HCV에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 3건 · 논문 623편 -->
+- [x] velpatasvir — Kidney Transplantation에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 22편 -->
+- [x] vorapaxar — Peripheral Artery Disease에 듣는다 — 허가 적응증(2026-08-10)  <!-- 시험 5건 · 논문 88편 -->
 - [ ] vorapaxar — Atherosclerosis에 듣는다  <!-- 시험 4건 · 논문 77편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
