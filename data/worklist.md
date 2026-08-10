@@ -18660,11 +18660,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] alglucosidase alfa — Glycogen Storage Disease에 듣는다  <!-- 시험 16건 · 논문 469편 -->
-- [ ] alglucosidase alfa — Acid Maltase Deficiency에 듣는다  <!-- 시험 9건 · 논문 455편 -->
-- [ ] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 -->
-- [ ] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 -->
-- [ ] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 -->
+- [x] alglucosidase alfa — Glycogen Storage Disease에 듣는다  <!-- 시험 16건 · 논문 469편 --> — 허가 적응증(2026-08-10)
+- [x] alglucosidase alfa — Acid Maltase Deficiency에 듣는다  <!-- 시험 9건 · 논문 455편 --> — 허가 적응증(2026-08-10)
+- [x] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 --> — 허가 적응증(2026-08-10)
+- [x] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 --> — 허가 적응증(2026-08-10)
+- [x] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 --> — 허가 적응증(2026-08-10)
 - [ ] cefuroxime — Antibiotic Allergy에 듣는다  <!-- 시험 6건 · 논문 225편 -->
 - [ ] cefuroxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 182편 -->
 - [ ] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 -->
@@ -18681,3 +18681,35 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] velpatasvir — Kidney Transplantation에 듣는다  <!-- 시험 3건 · 논문 22편 -->
 - [ ] vorapaxar — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 88편 -->
 - [ ] vorapaxar — Atherosclerosis에 듣는다  <!-- 시험 4건 · 논문 77편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] cefpodoxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 16편 -->
+- [ ] cefixime — Syphilis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
+- [ ] cefixime — Drug Use에 듣는다  <!-- 시험 5건 · 논문 1924편 -->
+- [ ] pivmecillinam — Infection에 듣는다  <!-- 시험 6건 · 논문 368편 -->
+- [ ] ospemifene — Vaginal Dryness에 듣는다  <!-- 시험 7건 · 논문 55편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [ ] trospium — Overactive Bladder에 듣는다  <!-- 시험 12건 · 논문 252편 -->
+- [ ] trospium — Incontinence에 듣는다  <!-- 시험 6건 · 논문 154편 -->
+- [ ] eszopiclone — Sleep에 듣는다  <!-- 시험 20건 · 논문 299편 -->
+- [ ] eszopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 4건 · 논문 163편 -->
+- [ ] eszopiclone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 12편 -->
+- [ ] eszopiclone — Anxiety에 듣는다  <!-- 시험 3건 · 논문 44편 -->
+- [ ] dofetilide — Long QT Syndrome에 듣는다  <!-- 시험 5건 · 논문 207편 -->
