@@ -18580,11 +18580,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nitisinone — Alkaptonuria에 듣는다  <!-- 시험 4건 · 논문 138편 -->
-- [ ] sapropterin — Phenylketonurias에 듣는다  <!-- 시험 5건 · 논문 653편 -->
-- [ ] sapropterin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 171편 -->
-- [ ] vaborbactam — Bloodstream Infection에 듣는다  <!-- 시험 4건 · 논문 60편 -->
-- [ ] dance therapy group — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 110편 -->
+- [x] nitisinone — Alkaptonuria에 듣는다  <!-- 시험 4건 · 논문 138편 --> — 허가 적응증(2026-08-10)
+- [x] sapropterin — Phenylketonurias에 듣는다  <!-- 시험 5건 · 논문 653편 --> — 허가 적응증(2026-08-10)
+- [x] sapropterin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 171편 --> — 근거 없음(2026-08-10, sapropterin AND Hypertension; ClinicalTrials.gov NCT01456286; PubMed sapropterin AND Hypertension)
+- [x] vaborbactam — Bloodstream Infection에 듣는다  <!-- 시험 4건 · 논문 60편 --> — 항목 추가(2026-08-10)
+- [x] dance therapy group — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 110편 --> — 항목 추가(2026-08-10)
 - [ ] dance therapy group — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 40편 -->
 - [ ] dance therapy group — Depression에 듣는다  <!-- 시험 6건 · 논문 158편 -->
 - [ ] dance therapy group — Older Adults에 듣는다  <!-- 시험 5건 · 논문 487편 -->
