@@ -1,20 +1,15 @@
 {
   "updated": "2026-08-10",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4282,
+  "entries": 4286,
   "worklist": {
-    "total": 14102,
-    "checked": 14083,
-    "unchecked": 19,
-    "no_evidence_pending": 1727,
+    "total": 14106,
+    "checked": 14088,
+    "unchecked": 18,
+    "no_evidence_pending": 1728,
     "next_batch": [
       "relaxation breathing class — Stress (lookup failed 2026-08-09)",
       "rhythm walking — Stroke (lookup failed 2026-08-09)",
-      "online mindfulness training — Cancer",
-      "home exercise video — Lung Cancer",
-      "virtual group exercise — Cancer",
-      "wearable exercise tracker — Neoplasms",
-      "self-guided exercise — Cancer",
       "sedentary behavior reduction — Cancer",
       "music therapy group — Cancer",
       "art therapy app — Cancer",
@@ -26,22 +21,26 @@
       "voglibose — Impaired Glucose Tolerance",
       "near-infrared light — Brain Injuries",
       "near-infrared light — Depressive Disorder",
-      "near-infrared light — Optical Imaging"
+      "near-infrared light — Optical Imaging",
+      "massage chair — Anxiety",
+      "massage chair — Cancer",
+      "massage chair — Pregnancy",
+      "massage chair — Fatigue"
     ],
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1070 added four evidence entries and closed one no-evidence topic; expansion added four pending lines after two attempts; line/translation, effect, known, and scale warnings remain 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1071 added four evidence entries and closed one no-evidence topic; expansion added four massage-chair lines after two attempts; line/translation, effect, known, and scale warnings remain 0; one new truthful thin-study warning and existing unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 359,
     "known_warnings": 2,
-    "thin_warnings": 797,
+    "thin_warnings": 798,
     "tier_distribution": {
-      "trial": 3685,
-      "obs": 530,
+      "trial": 3686,
+      "obs": 533,
       "animal": 23,
       "lab": 11,
       "case": 33
@@ -49,11 +48,11 @@
     "no_effect_or_harm": 992,
     "harm": 128,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 597,
-    "trial_share": "86.1%",
-    "non_trial_share": "13.9%",
+    "non_trial": 600,
+    "trial_share": "86.0%",
+    "non_trial_share": "14.0%",
     "unexpected_benefit_entries": 25,
-    "connected_evidence": 5942
+    "connected_evidence": 5947
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -483,7 +482,8 @@
      ,"batch 1068 processed 5 topics: added four evidence entries and closed bright light therapy–kidney carcinoma as no evidence; commit c28db698 and checkpoint 9b023733 were pushed"
      ,"batch 1069 processed 5 topics: added four evidence entries and closed water therapy–lung cancer as no evidence; commit b1b1ecbe was pushed; six-round public/local check matched at 4278 entries and 5937 refs"
      ,"batch 1070 processed 5 topics: added tai chi meditation breast cancer pos, music relaxation cancer pos, peer exercise group cancer open, and health coaching app breast cancer pos entries; closed photography intervention colon cancer as no evidence; worklist expansion added four pending lines after two attempts; data commit 7fecdd59 was pushed; build matched at 4282 entries and 5942 refs"
+     ,"batch 1071 processed 5 topics: added online mindfulness training cancer pos, virtual group exercise cancer open, wearable exercise tracker neoplasms open, and self-guided exercise cancer pos entries; closed home exercise video lung cancer as no evidence; worklist expansion added four massage-chair lines after two attempts; data commit fc9cf399 was pushed; build matched at 4286 entries and 5947 refs"
   ],
-   "current_batch": "batch 1070 checkpoint: 4282 entries/5942 refs, 4 evidence entries and 1 no-evidence closure; worklist 14102 total, 14083 checked, 19 unchecked; commit 7fecdd59 pushed. Next six-round public/local check is due after batch 1075.",
-   "next_action": "start batch 1071 with the next five eligible topics, skipping the two lines marked 조회 실패; if pending drops below 30, expansion has already been attempted twice this cycle, so process the remaining lines and expand again only in the next cycle"
+   "current_batch": "batch 1071 checkpoint: 4286 entries/5947 refs, 4 evidence entries and 1 no-evidence closure; worklist 14106 total, 14088 checked, 18 unchecked; expansion added four massage-chair lines after two attempts; commit fc9cf399 pushed. Next six-round public/local check is due after batch 1075.",
+   "next_action": "start batch 1072 with the next five eligible topics, skipping the two lines marked 조회 실패; because 18 unchecked topics remain, run --covered and two new 20-name expansion attempts before processing the next five"
 }
