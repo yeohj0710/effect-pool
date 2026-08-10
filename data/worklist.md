@@ -18695,7 +18695,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cefixime — Syphilis에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 34편 -->
 - [x] cefixime — Drug Use에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov cefixime AND Drug Use; PubMed cefixime AND Drug Use)  <!-- 시험 5건 · 논문 1924편 -->
 - [x] pivmecillinam — Infection에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 6건 · 논문 368편 -->
-- [ ] ospemifene — Vaginal Dryness에 듣는다  <!-- 시험 7건 · 논문 55편 -->
+- [x] ospemifene — Vaginal Dryness에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 7건 · 논문 55편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
