@@ -1,0 +1,29 @@
+{
+  "id": "esmolol-sepsis-pos",
+  "subj": "에스몰롤",
+  "claim": "지속 빈맥을 동반한 패혈성 쇼크의 심박수 조절에 에스몰롤을 쓴다",
+  "line": "패혈성 쇼크의 지속 빈맥에서 에스몰롤은 심박수와 28일 사망률을 낮추는 신호를 보였습니다.",
+  "effect": "사망 OR 0.33; 심박수 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 314,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "에스몰롤 허가사항은 단기 심박수·혈압 조절이며 패혈성 쇼크의 지속 빈맥은 포함하지 않습니다.",
+  "why": "혈관수축제와 수액 치료 뒤에도 빈맥이 남는 패혈성 쇼크에서 심박수를 낮추면 산소 수요와 심장 부담을 줄일 수 있는지 무작위시험을 합쳤습니다.",
+  "saw": "성인 패혈성 쇼크 무작위시험 3건, 314명을 합친 메타분석에서 에스몰롤은 28일 사망률을 낮추는 연관을 보였습니다(OR 0.33, 95% CI 0.20–0.53). 24시간 심박수는 8.50회/분, 48시간에는 16.60회/분 더 낮았고 평균동맥압 차이는 없었습니다.",
+  "limit": "무작위시험 수가 3건뿐이고 환자 선택과 빈맥 치료 시점이 달라 결과의 일반화와 인과 해석에 위험이 있습니다.",
+  "against": "포함 시험은 임상적으로 중요한 젖산 차이를 보고하지 않았고, 메타분석도 더 큰 고품질 무작위시험이 필요하다고 판단했습니다.",
+  "use": "패혈성 쇼크의 표준 심박수 치료로 확정하지 않으며, 지속 빈맥 환자에서 관류·혈압·서맥 위험을 감시하는 연구 수준의 선택지로 기록합니다.",
+  "refs": [
+    { "label": "패혈성 쇼크 에스몰롤 무작위시험 메타분석", "doi": "10.1186/s13643-026-03260-4", "pmid": "42444017" },
+    { "label": "패혈성 쇼크 지속 빈맥 에스몰롤 연구", "nct": "NCT01231698" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "query.intr=esmolol AND query.cond=Sepsis · 16건, 에스몰롤 직접 중재 16건",
+    "pubmed": "esmolol AND Sepsis · 126편",
+    "negative": "esmolol AND Sepsis AND (no effect OR negative OR failed OR no significant difference) · 106편",
+    "safety": "esmolol AND Sepsis AND (adverse OR toxicity OR case report OR overdose) · 26편"
+  }
+}
