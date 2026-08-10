@@ -1,0 +1,28 @@
+{
+  "id": "behavioral-nudges-opioid-use-null",
+  "subj": "behavioral nudges",
+  "claim": "수술 퇴원 처방의 기본값 넛지가 오피오이드 처방량을 줄이는지 평가한다",
+  "line": "수술 퇴원 처방 기본값 넛지는 전체 오피오이드 처방량을 줄이지 못했다.",
+  "effect": "전체 MME 차이 없음; 수용자 감소",
+  "tier": "trial",
+  "dir": "null",
+  "n": 663,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "행동 넛지는 비약물 개입이며 오피오이드 처방 기본값은 허가 약물 적응증이 아니다.",
+  "why": "수술 퇴원 처방 화면의 오피오이드 기본값을 바꾼 무작위 임상시험에서 663건의 수술 처방을 분석했다.",
+  "saw": "전체 분석에서 처방량 차이는 2.4 MME로 유의하지 않았지만 기본값을 수용한 처방자는 자유 입력보다 22.5 MME 적게 처방했다.",
+  "limit": "의료진 118명을 무작위 배정했고 중재군에서도 기본값을 실제로 사용한 처방은 21%에 그쳤다.",
+  "against": "1차 분석은 실패했지만 기본값을 받아들인 하위군에서 오피오이드 처방 감소 신호가 나타났다.",
+  "use": "오피오이드 안전성에서 전체 효과와 실제 수용자 하위군 효과를 나누어 평가할 근거로 기록한다.",
+  "refs": [
+    { "label": "Prescription Default Nudges for Opioid Reduction after Major Surgery (NORMS)", "pmid": "41199437" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"behavioral nudges\" AND \"Opioid Use\" 검색 3건",
+    "pubmed": "\"behavioral nudges\" AND \"Opioid Use\" 검색 1건; PMID 41199437 직접 무작위 연구",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
+  }
+}

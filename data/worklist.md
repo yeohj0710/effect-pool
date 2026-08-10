@@ -20366,3 +20366,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual hospital — Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 15건 · 논문 7070편 -->
 - [x] virtual hospital — Stroke에 듣는다  <!-- 시험 10건 · 논문 1326편 -->
 - [x] remote triage — Coronary Heart Disease에 듣는다 — 근거 없음(2026-08-11 조회, "remote triage" AND "Coronary Heart Disease"; 직접 결과 0편)  <!-- 시험 3건 · 논문 9편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] virtual emergency department — Pain에 듣는다 — 근거 없음(2026-08-11 조회, "virtual emergency department" AND "Pain"; 환자 통증 결과 원저 없음)  <!-- 시험 10건 · 논문 285편 -->
+- [x] virtual emergency department — Medical Education에 듣는다  <!-- 시험 5건 · 논문 960편 -->
+- [x] virtual emergency department — Fear에 듣는다 — 근거 없음(2026-08-11 조회, "virtual emergency department" AND "Fear"; 직접 결과 0편)  <!-- 시험 4건 · 논문 53편 -->
+- [x] virtual emergency department — Child에 듣는다  <!-- 시험 4건 · 논문 599편 -->
+- [x] remote physiologic monitoring — Type 1 Diabetes에 듣는다 — 근거 없음(2026-08-11 조회, "remote physiologic monitoring" AND "Type 1 Diabetes"; 직접 결과 0편)  <!-- 시험 7건 · 논문 169편 -->
+- [x] remote physiologic monitoring — Hypertension에 듣는다  <!-- 시험 3건 · 논문 290편 -->
+- [x] wearable ECG — Sinus Rhythm에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov 등록정보만 있고 결과 논문 없음)  <!-- 시험 7건 · 논문 105편 -->
+- [x] wearable ECG — Emotional Stress에 듣는다 — 근거 없음(2026-08-11 조회, "wearable ECG" AND "Emotional Stress"; 환자 결과 원저 없음)  <!-- 시험 4건 · 논문 87편 -->
+- [x] wearable ECG — Stroke에 듣는다  <!-- 시험 3건 · 논문 205편 -->
+- [x] wearable ECG — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 65편 -->
+- [x] wearable blood pressure monitor — Hypertension에 듣는다  <!-- 시험 3건 · 논문 90편 -->
+- [x] fitness tracker — Physical Activity에 듣는다  <!-- 시험 6건 · 논문 1569편 -->
+- [x] fitness tracker — Type 1 Diabetes에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov 등록정보만 있고 결과 논문 없음)  <!-- 시험 4건 · 논문 9편 -->
+- [x] step goal — Obesity에 듣는다  <!-- 시험 9건 · 논문 329편 -->
+- [x] step goal — Alcohol Abuse에 듣는다 — 근거 없음(2026-08-11 조회, "step goal" AND "Alcohol Abuse"; 직접 결과 0편)  <!-- 시험 8건 · 논문 106편 -->
+- [x] step goal — Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 7건 · 논문 1838편 -->
+- [x] step goal — Chronic Pain에 듣는다  <!-- 시험 6건 · 논문 137편 -->
+- [x] behavioral nudges — Opioid Use에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov 등록정보만 있고 결과 논문 없음)  <!-- 시험 3건 · 논문 49편 -->
