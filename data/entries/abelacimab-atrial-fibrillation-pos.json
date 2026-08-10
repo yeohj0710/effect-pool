@@ -1,0 +1,31 @@
+{
+  "id": "abelacimab-atrial-fibrillation-pos",
+  "subj": "아벨라시맙",
+  "claim": "심방세동에 아벨라시맙을 쓴다",
+  "line": "심방세동에서 아벨라시맙은 리바록사반보다 출혈을 줄였지만 뇌졸중 예방 효과는 아직 확정되지 않았다.",
+  "effect": "주요 출혈 HR 0.31~0.38",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1287,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아벨라시맙은 FDA 허가 라벨을 찾지 못했으며 심방세동 적응증은 허가되지 않았습니다.",
+  "why": "중등도 이상 뇌졸중 위험의 심방세동 환자 1,287명을 대상으로 월 1회 아벨라시맙과 매일 리바록사반을 비교한 무작위 2b상 시험에서 주요 또는 임상적으로 유의한 비주요 출혈이 줄었습니다.",
+  "saw": "아벨라시맙 150 mg군의 출혈은 3.2건, 90 mg군은 2.6건, 리바록사반은 8.4건/100인년이었고, 리바록사반 대비 위험비는 각각 0.38과 0.31이었습니다. 출혈 차이가 예상보다 커 독립 자료모니터링위원회 권고로 시험을 조기 중단했습니다.",
+  "limit": "주요 평가변수는 출혈이었고 뇌졸중 예방 효능과 장기 유익-위해 균형은 확정하지 않았습니다. 진행 중인 3상시험 결과가 필요하며, 시험 중단으로 효능 비교의 불확실성이 남았습니다.",
+  "against": "신장 기능별 분석도 출혈 감소는 일관됐지만 저자들은 심방세동 뇌졸중 예방 효능을 규명하려면 더 큰 시험이 필요하다고 했습니다.",
+  "use": "출혈을 줄이는 안전성 신호로 기록하며 확립된 경구 항응고제를 대체하는 치료로 단정하지 않습니다.",
+  "refs": [
+    { "label": "AZALEA-TIMI 71 심방세동 무작위시험", "doi": "10.1056/NEJMoa2406674", "pmid": "39842011", "nct": "NCT04755283" },
+    { "label": "신장 기능별 아벨라시맙 출혈 분석", "doi": "10.1001/jamacardio.2025.3393", "pmid": "40888686", "nct": "NCT04755283" },
+    { "label": "항혈소판제 병용 심방세동 분석", "doi": "10.1161/CIRCULATIONAHA.125.074037", "pmid": "40546068", "nct": "NCT04755283" },
+    { "label": "고령 심방세동 환자 사전 분석", "doi": "10.1001/jamacardio.2025.5418", "pmid": "41637102", "nct": "NCT04755283" }
+  ],
+  "queried": {
+    "date": "2026-08-10",
+    "ctgov": "abelacimab AND Atrial Fibrillation (AF) → 3건 반환, 직접 확인 3건",
+    "pubmed": "abelacimab AND (\"atrial fibrillation\" OR AF) → 32편",
+    "negative": "abelacimab AND (\"atrial fibrillation\" OR AF) AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0편",
+    "safety": "abelacimab AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 20편"
+  }
+}
