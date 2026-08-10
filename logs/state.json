@@ -3,8 +3,8 @@
   "root": "C:\\dev\\offlabel-pool",
   "entries": 4523,
   "worklist": {
-    "total": 14484,
-    "checked": 14481,
+    "total": 14490,
+    "checked": 14487,
     "unchecked": 3,
     "no_evidence_pending": 1793,
     "next_batch": [
@@ -62,9 +62,9 @@
     "latest_note": "Official six-round HTTP 200 public/local check after batches 1124-1129 matched in all 6 rounds at 4521 entries, 6412 refs, shard 48, 4521 id fields, 95/95 detail shards and 4521 detail entries, with identical DATA SHA-256 71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176; automatic Git deployment was sufficient and vercel --prod was not required."
   },
   "resume": {
-    "last_committed_batch": "batch 1131 legacy sentence commit 181591e0 pushed; state checkpoint pending",
-    "last_batch": "batch 1131 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 181591e0; build remained at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0",
-    "next_batch": "batch 1132",
+    "last_committed_batch": "batch 1132 data/worklist/legacy commit 469db3bb pushed; state checkpoint pending",
+    "last_batch": "batch 1132 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 6 candidates; marked all 6 respiratory candidates as approved indications, tightened 20 legacy claim sentences, and pushed 469db3bb; build remained at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0; this was the second consecutive no-entry batch, so the next expansion branch changes to food and lifestyle topics",
+    "next_batch": "batch 1133",
     "next_six_round_check": "after batch 1135",
     "untracked_preserved": [
       "build-batch283.log",
@@ -533,8 +533,9 @@
     "batch 1128 started with 3 unchecked lookup failures; two different expansion sets produced 4 then 9 candidates; added 7 retinal, cystic-fibrosis, renal, sepsis, and group-gardening evidence entries, marked 4 approved indications, closed 1 oncology hold, tightened 20 legacy claim sentences, and pushed 8870b96e; build matched at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0; next six-round public/local check is due after batch 1129.",
     "batch 1129 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 75d96fb5; build remained at 4521 entries and 6412 refs with new line/effect/known/scale/English warnings at 0; official six-round HTTP 200 public/local check matched in all 6 rounds with 95/95 detail shards and identical DATA SHA-256 71bb6164257b1567b4b7f2d5304884a09816478a74f866cb17635a1ed28d0176; next check is due after batch 1135.",
     "batch 1130 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 4 candidates; added 2 music-and-nature pain/patient-care evidence entries, closed 2 oncology lines, tightened 20 legacy claim sentences, and pushed ef3b1dcf; build matched at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0; next six-round check remains due after batch 1135.",
-    "batch 1131 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 181591e0; build remained at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0; next six-round check remains due after batch 1135."
+    "batch 1131 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 0 candidates, so expansion stopped; left the 3 lookup-failure lines unchecked, tightened 20 legacy claim sentences, and pushed 181591e0; build remained at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0; next six-round check remains due after batch 1135.",
+    "batch 1132 started with 3 exhausted lookup failures; two different 20-name expansion sets produced 0 then 6 candidates; marked all 6 respiratory candidates as approved indications, tightened 20 legacy claim sentences, and pushed 469db3bb; build remained at 4523 entries and 6417 refs with new line/effect/known/scale/English warnings at 0; this was the second consecutive no-entry batch, so the next expansion branch changes to food and lifestyle topics."
   ],
-  "current_batch": "batch 1131 checkpoint: 4523 entries/6417 refs; added no evidence entries because two different expansion sets produced 0 candidates, tightened 20 legacy claim sentences, and kept new line/effect/known/scale/English warnings at 0; worklist is 14484 total, 14481 checked, 3 unchecked; commit 181591e0 pushed; next six-round check remains due after batch 1135",
-  "next_action": "start batch 1132 with git pull, read AGENTS.md, count the 3 exhausted lookup failures, run a new expansion branch with at least five non-drug names, and investigate available off-label candidates"
+  "current_batch": "batch 1132 checkpoint: 4523 entries/6417 refs; added no evidence entries because all 6 candidates were approved indications, tightened 20 legacy claim sentences, and kept new line/effect/known/scale/English warnings at 0; worklist is 14490 total, 14487 checked, 3 unchecked; commit 469db3bb pushed; two consecutive no-entry batches changed the next expansion branch to food and lifestyle topics; next six-round check remains due after batch 1135",
+  "next_action": "start batch 1133 with git pull, read AGENTS.md, count the 3 exhausted lookup failures, run a new expansion branch dominated by food and lifestyle names with at least five non-drug options, and investigate available off-label candidates"
 }
