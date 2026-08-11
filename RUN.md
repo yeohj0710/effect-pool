@@ -1,18 +1,7 @@
 # 조사 돌리는 법
 
-## 새 세션을 열기 전에 한 번
-
-돌던 Codex 세션을 먼저 끄고, 폴더 이름을 저장소 이름에 맞춘다.
-2026-08-11 에 저장소를 `offlabel-pool` 에서 `effect-pool` 로 옮겼는데, 그때 Codex 가
-폴더를 잡고 있어서 폴더 이름만 못 바꿨다. 아래 프롬프트가 새 경로를 쓴다.
-
-```powershell
-Rename-Item C:\dev\offlabel-pool C:\dev\effect-pool
-```
-
-이미 `C:\dev\effect-pool` 이면 넘어가면 된다.
-
----
+2026-08-11 에 `offlabel-pool` 에서 `effect-pool` 로 옮겼다. 폴더·저장소·Vercel 프로젝트가
+모두 새 이름이다. `C:\dev\loop-status.mjs` 와 링크판(`C:\dev\dev-hub`)도 새 이름을 본다.
 
 Codex goal 모드에 아래 프롬프트를 그대로 넣는다. 한 달 이상 혼자 돈다.
 
