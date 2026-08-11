@@ -2098,34 +2098,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 --> — 신규 항목(azithromycin-infection-null)
-- [ ] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
+- [x] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 --> — 신규 항목(azithromycin-pneumonia-pos)
 - [x] azithromycin — COVID에 듣는다 — 신규 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
 - [x] azithromycin — Malaria에 듣는다 — 신규 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->
 - [x] rifaximin — Hepatic Cirrhosis에 듣는다 — 신규 항목(rifaximin-hepatic-cirrhosis-open)  <!-- 등록 시험 40건 -->
 - [x] rifaximin — Small Bowel Disease에 듣는다 — 신규 항목(rifaximin-small-bowel-disease-open)  <!-- 등록 시험 28건 -->
 - [x] rifaximin — Rectal Cancer에 듣는다 — 신규 항목(rifaximin-rectal-cancer-open)  <!-- 등록 시험 23건 -->
-- [ ] rifaximin — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] clomiphene — Polycystic Ovary에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] rifaximin — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 신규 항목(rifaximin-diarrhea-pos)
+- [x] clomiphene — Polycystic Ovary에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 신규 항목(clomiphene-polycystic-ovary-null)
 - [x] clomiphene — Hypogonadism에 듣는다 — 신규 항목(clomiphene-hypogonadism-open)  <!-- 등록 시험 11건 -->
-- [ ] clomiphene — Anovulation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] clomiphene — Ovulation Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] clomiphene — Anovulation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 신규 항목(clomiphene-anovulation-null)
+- [x] clomiphene — Ovulation Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(clomiphene-ovulation-disorder-null)
 - [x] valproic acid — Nasopharyngeal Carcinoma에 듣는다 — 신규 항목(valproic-acid-nasopharyngeal-carcinoma-open)  <!-- 등록 시험 19건 -->
 - [x] valproic acid — Thyroid Neoplasm에 듣는다 — 신규 항목(valproic-acid-thyroid-neoplasm-open)  <!-- 등록 시험 14건 -->
-- [ ] valproic acid — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] valproic acid — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 신규 항목(valproic-acid-epilepsy-pos)
 - [x] valproic acid — Stage IV Pharyngeal Cancer에 듣는다 — 신규 항목(valproic-acid-stage-iv-pharyngeal-cancer-open)  <!-- 등록 시험 13건 -->
-- [ ] lamotrigine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] lamotrigine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 신규 항목(lamotrigine-bipolar-disorder-pos)
 - [x] lamotrigine — Depression에 듣는다 — 신규 항목(lamotrigine-depression-open)  <!-- 등록 시험 12건 -->
 - [x] lamotrigine — Vertigo, Aural에 듣는다 — 신규 항목(lamotrigine-vertigo-aural-open)  <!-- 등록 시험 7건 -->
 - [x] lamotrigine — Schizophrenia에 듣는다 — 신규 항목(lamotrigine-schizophrenia-open)  <!-- 등록 시험 4건 -->
 - [x] disulfiram — Glioblastoma에 듣는다 — 신규 항목(disulfiram-glioblastoma-open)  <!-- 등록 시험 9건 -->
-- [ ] disulfiram — Alcohol Disorders에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] disulfiram — Alcohol Disorders에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(disulfiram-alcohol-disorders-pos)
 - [x] disulfiram — Cancer에 듣는다 — 신규 항목(disulfiram-cancer-open)  <!-- 등록 시험 7건 -->
 - [x] disulfiram — HIV에 듣는다 — 신규 항목(disulfiram-hiv-open)  <!-- 등록 시험 5건 -->
 - [x] hydroxyzine — Effect of Drug에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 3건 -->
 - [x] amiodarone — Wide QRS Tachycardia에 듣는다 — 신규 항목(amiodarone-wide-qrs-tachycardia-open)  <!-- 등록 시험 20건 -->
 - [x] amiodarone — Cardiac Arrest에 듣는다 — 신규 항목(amiodarone-cardiac-arrest-null)  <!-- 등록 시험 18건 -->
 - [x] amiodarone — Heart Arrest에 듣는다 — 신규 항목(amiodarone-heart-arrest-open)  <!-- 등록 시험 13건 -->
-- [ ] amiodarone — Arrhythmia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] amiodarone — Arrhythmia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 신규 항목(amiodarone-arrhythmia-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2136,7 +2136,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] carvedilol — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] carvedilol — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 신규 항목(carvedilol-heart-failure-pos)
 - [x] carvedilol — Cirrhosis에 듣는다 — 신규 항목(carvedilol-cirrhosis-open)  <!-- 등록 시험 34건 -->
 - [x] carvedilol — Varix, Esophageal에 듣는다 — 신규 항목(carvedilol-esophageal-varix-open)  <!-- 등록 시험 15건 -->
 - [x] carvedilol — Cancer에 듣는다 — 신규 항목(carvedilol-cancer-open)  <!-- 등록 시험 12건 -->

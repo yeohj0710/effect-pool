@@ -1,0 +1,27 @@
+{
+  "id": "carvedilol-heart-failure-pos",
+  "subj": "카르베딜롤",
+  "claim": "중증 만성 심부전에서 카르베딜롤은 초기 치료 8주에도 위약보다 사망과 입원 위험이 낮았습니다.",
+  "line": "중증 만성 심부전에서 카르베딜롤은 초기 8주 사망과 입원을 줄였습니다.",
+  "effect": "초기 사망 19명 대 25명",
+  "vs": "COPERNICUS 2,289명에서 초기 8주 사망은 카르베딜롤 19명, 위약 25명이었고 HR 0.75였습니다. 사망 또는 입원은 134명 대 153명으로 HR 0.85였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2289,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "카르베딜롤은 박출률 저하 심부전 치료에 쓰이는 베타차단제지만 초기 투여는 임상적으로 안정된 환자에서 시작해야 합니다.",
+  "why": "중증 만성 심부전과 좌심실 박출률 25% 미만인 환자 2,289명을 카르베딜롤 또는 위약에 무작위 배정한 COPERNICUS 시험입니다.",
+  "saw": "초기 8주 사망은 카르베딜롤 19명, 위약 25명이었고 사망·입원·영구 중단 복합 결과도 카르베딜롤군이 적었습니다.",
+  "limit": "임상적으로 혈액량이 안정된 중증 심부전 환자를 대상으로 했으며 급성 악화나 체액 과부하 환자에게 바로 적용할 수 없습니다.",
+  "against": "반대 검색 1,357편. 서맥, 저혈압, 체액 저류와 초기 심부전 악화를 확인해야 합니다.",
+  "use": "안정된 중증 심부전에서 카르베딜롤을 저용량으로 시작할 때의 초기 안전성·효과 근거를 설명할 때 사용합니다.",
+  "refs": [{ "label": "2003 · JAMA · COPERNICUS 중증 심부전 카르베딜롤 초기 치료 무작위시험", "pmid": "12585949" }, { "label": "2001 · COPERNICUS 중증 심부전 이환율 결과", "pmid": "12390947" }],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "AREA[InterventionName]carvedilol AREA[ConditionSearch]heart failure → 44건 반환",
+    "pubmed": "carvedilol AND heart failure → 1,840건",
+    "negative": "carvedilol AND heart failure AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,357건",
+    "safety": "carvedilol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,274건"
+  }
+}
