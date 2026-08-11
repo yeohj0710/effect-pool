@@ -1,0 +1,25 @@
+{
+  "id": "lactoferrin-nosocomial-infections-null",
+  "subj": "락토페린",
+  "claim": "락토페린은 미숙아·중환자의 원내감염을 확실히 줄인다고 보기 어렵습니다",
+  "line": "대규모 미숙아 무작위시험에서 락토페린은 후기 발병 감염을 줄이지 못했습니다",
+  "effect": "후기 발병 감염 조정 RR 0.95",
+  "vs": "미숙아 2,182명 RCT에서 락토페린군 316/1,093명(29%) vs 대조군 334/1,089명(31%), 조정 RR 0.95(95% CI 0.86~1.04)",
+  "tier": "trial",
+  "dir": "null",
+  "n": 2182,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "락토페린은 식이 보충 단백질이며 원내감염 예방의 표준 치료제가 아닙니다.",
+  "why": "미숙아와 기계환기 중환자를 대상으로 한 무작위시험에서 원내감염 예방 효과를 확인했습니다.",
+  "saw": "미숙아 대규모 RCT에서는 후기 발병 감염이 락토페린군 29%, 대조군 31%였고 RR 0.95로 유의한 차이가 없었습니다. 중환자 PREVAIL 시험에서도 환자당 원내감염 수가 락토페린 0.3건, 위약 0.4건으로 차이가 없었습니다. 이전 9개 RCT 메타분석은 배양 양성 후기 발병 패혈증 RR 0.47을 보고해 연구 간 결과가 엇갈립니다.",
+  "limit": "미숙아와 성인 중환자 연구의 대상·용량·투여 경로가 다르고, 메타분석에는 소규모 연구가 포함되어 결과를 일반화하기 어렵습니다.",
+  "against": "대규모 미숙아 RCT와 성인 중환자 RCT에서 일관된 예방 효과가 확인되지 않았습니다.",
+  "use": "원내감염 예방 목적으로 락토페린을 추가할지는 대상군과 기존 예방 전략을 함께 검토해야 합니다.",
+  "refs": [
+    { "label": "미숙아 enteral lactoferrin 대규모 무작위시험", "pmid": "30635141", "nct": "NCT00854633" },
+    { "label": "중환자 PREVAIL lactoferrin 무작위시험", "pmid": "30015668", "nct": "NCT01996579" },
+    { "label": "미숙아 lactoferrin 패혈증 메타분석", "pmid": "30170397" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "lactoferrin AND Nosocomial Infections; 76건 반환·실제 개입명 일치 3건", "pubmed": "lactoferrin AND Nosocomial Infections; 76편", "negative": "lactoferrin AND Nosocomial Infections AND (no effect OR did not OR failed OR negative OR no significant difference); 52편", "safety": "lactoferrin AND (adverse OR toxicity OR case report OR overdose OR self-medication); 1,160편" }
+}

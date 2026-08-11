@@ -603,41 +603,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] verapamil — Atrial Fibrillation에 듣는다 — 기존 항목(verapamil-atrial-fibrillation-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Hypertension에 듣는다 — 기존 항목(verapamil-hypertension-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 — 기존 항목(acetazolamide-heart-failure-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 20건 -->
-- [ ] acetazolamide — Altitude Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
+- [x] acetazolamide — Altitude Sickness에 듣는다 — 기존 항목(acetazolamide-altitude-sickness-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
 - [x] dapsone — Stroke에 듣는다 — 기존 항목(dapsone-stroke)  <!-- 등록 시험 6건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 169건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 122건 -->
+- [x] methotrexate — Lymphoma에 듣는다 — 기존 항목(methotrexate-lymphoma-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 169건 -->
+- [x] methotrexate — Arthritis에 듣는다 — 기존 항목(methotrexate-arthritis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 122건 -->
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 55건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 — 기존 항목(methotrexate-cancer-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] hydroxyurea — Cancer에 듣는다 — 기존 항목(hydroxyurea-cancer-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] hydroxyurea — Leukemia에 듣는다 — 기존 항목(hydroxyurea-leukemia-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 112건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 59건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 43건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 — 기존 항목(isotretinoin-acne-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 22건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 — 기존 항목(tamoxifen-ductal-carcinoma-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
 - [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
@@ -21066,24 +21066,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] st john's wort — Depression에 듣는다  <!-- 시험 6건 · 논문 1043편 -->
 - [x] beta-glucan — Obesity에 듣는다  <!-- 시험 4건 · 논문 261편 -->
 - [x] beta-glucan — Neuroblastoma에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] beta-glucan — Cold에 듣는다  <!-- 시험 3건 · 논문 230편 -->
+- [x] beta-glucan — Cold에 듣는다 — 기존 항목(beta-glucan-cold-pos)  <!-- 시험 3건 · 논문 230편 -->
 - [x] inositol — Polycystic Ovary Syndrome에 듣는다 — 기존 항목(inositol-pcos-pos)  <!-- 시험 42건 · 논문 449편 -->
 - [x] inositol — Insulin에 듣는다  <!-- 시험 7건 · 논문 2535편 -->
 - [x] inositol — Infant, Newborn에 듣는다  <!-- 시험 6건 · 논문 269편 -->
 - [x] inositol — Menstrual Pattern에 듣는다  <!-- 시험 4건 · 논문 11편 -->
 - [x] lactoferrin — Carcinoma, Renal Cell에 듣는다  <!-- 시험 20건 · 논문 11편 -->
 - [x] lactoferrin — Low Ferritin에 듣는다  <!-- 시험 7건 · 논문 44편 -->
-- [ ] lactoferrin — Nosocomial Infections에 듣는다  <!-- 시험 6건 · 논문 76편 -->
-- [ ] bromelain — Covid-19에 듣는다  <!-- 시험 4건 · 논문 27편 -->
-- [ ] boswellia — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 55편 -->
-- [ ] rhodiola — Exercise Performance에 듣는다  <!-- 시험 3건 · 논문 51편 -->
-- [ ] propolis — Oral Ulcer에 듣는다  <!-- 시험 17건 · 논문 20편 -->
-- [ ] propolis — Pulpitis에 듣는다  <!-- 시험 4건 · 논문 9편 -->
-- [ ] chondroitin — Knee Injuries에 듣는다  <!-- 시험 34건 · 논문 58편 -->
-- [ ] chondroitin — Renal Cancer에 듣는다  <!-- 시험 3건 · 논문 44편 -->
-- [ ] alpha-lipoic acid — Oxidative Stress에 듣는다  <!-- 시험 4건 · 논문 1821편 -->
-- [ ] alpha-lipoic acid — Nephrotoxicity에 듣는다  <!-- 시험 3건 · 논문 53편 -->
-- [ ] phosphatidylserine — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 64편 -->
+- [x] lactoferrin — Nosocomial Infections에 듣는다 — lactoferrin-nosocomial-infections-null  <!-- 시험 6건 · 논문 76편 -->
+- [x] bromelain — Covid-19에 듣는다 — bromelain-covid-19-open  <!-- 시험 4건 · 논문 27편 -->
+- [x] boswellia — Chronic Pain에 듣는다 — boswellia-chronic-pain-open  <!-- 시험 5건 · 논문 55편 -->
+- [x] rhodiola — Exercise Performance에 듣는다 — rhodiola-exercise-performance-pos  <!-- 시험 3건 · 논문 51편 -->
+- [x] propolis — Oral Ulcer에 듣는다 — propolis-oral-ulcer-pos  <!-- 시험 17건 · 논문 20편 -->
+- [x] propolis — Pulpitis에 듣는다 — propolis-pulpitis-open  <!-- 시험 4건 · 논문 9편 -->
+- [x] chondroitin — Knee Injuries에 듣는다 — chondroitin-knee-injuries-open  <!-- 시험 34건 · 논문 58편 -->
+- [x] chondroitin — Renal Cancer에 듣는다 — chondroitin-renal-cancer-open  <!-- 시험 3건 · 논문 44편 -->
+- [x] alpha-lipoic acid — Oxidative Stress에 듣는다 — alpha-lipoic-acid-oxidative-stress-open  <!-- 시험 4건 · 논문 1821편 -->
+- [x] alpha-lipoic acid — Nephrotoxicity에 듣는다 — alpha-lipoic-acid-nephrotoxicity-open  <!-- 시험 3건 · 논문 53편 -->
+- [x] phosphatidylserine — Cognitive Change에 듣는다 — phosphatidylserine-cognitive-change-open  <!-- 시험 15건 · 논문 64편 -->
 - [x] green tea — Cancer에 듣는다  <!-- 시험 44건 · 논문 7585편 -->
 - [x] green tea — Eye Health에 듣는다  <!-- 시험 5건 · 논문 134편 -->
 - [x] green tea — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 3015편 -->
@@ -21113,10 +21113,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] honey — Pain에 듣는다  <!-- 시험 4건 · 논문 463편 -->
 - [x] cinnamon — Diabetes에 듣는다  <!-- 시험 13건 · 논문 465편 -->
 - [x] apple cider vinegar — Diabetes에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] sodium reduction — Kidney Cancer에 듣는다  <!-- 시험 24건 · 논문 225편 -->
+- [x] sodium reduction — Kidney Cancer에 듣는다 — sodium-reduction-kidney-cancer-open  <!-- 시험 24건 · 논문 225편 -->
 - [x] sodium reduction — Heart Failure에 듣는다  <!-- 시험 22건 · 논문 2947편 -->
 - [x] sodium reduction — Hypertension에 듣는다  <!-- 시험 19건 · 논문 6118편 -->
-- [ ] sodium reduction — Lymphoma에 듣는다  <!-- 시험 15건 · 논문 120편 -->
+- [x] sodium reduction — Lymphoma에 듣는다 — sodium-reduction-lymphoma-open  <!-- 시험 15건 · 논문 120편 -->
 - [x] intermittent fasting — Obesity에 듣는다  <!-- 시험 34건 · 논문 1117편 -->
 - [x] intermittent fasting — Cardiometabolic Risk에 듣는다  <!-- 시험 3건 · 논문 173편 -->
 - [x] intermittent fasting — Metabolism에 듣는다  <!-- 시험 3건 · 논문 2443편 -->
@@ -21125,13 +21125,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] time restricted eating — Cancer에 듣는다  <!-- 시험 32건 · 논문 526편 -->
 - [x] time restricted eating — Metabolic Health에 듣는다  <!-- 시험 29건 · 논문 1763편 -->
 - [x] low FODMAP diet — Irritable Bowel Disease에 듣는다  <!-- 시험 62건 · 논문 741편 -->
-- [ ] low FODMAP diet — Diet Modification에 듣는다  <!-- 시험 4건 · 논문 654편 -->
-- [ ] low FODMAP diet — Diet, Gluten-Free에 듣는다  <!-- 시험 3건 · 논문 147편 -->
-- [ ] low FODMAP diet — Ulcerative Colitis에 듣는다  <!-- 시험 3건 · 논문 61편 -->
+- [x] low FODMAP diet — Diet Modification에 듣는다 — low-fodmap-diet-diet-modification-null  <!-- 시험 4건 · 논문 654편 -->
+- [x] low FODMAP diet — Diet, Gluten-Free에 듣는다 — low-fodmap-diet-diet-gluten-free-pos  <!-- 시험 3건 · 논문 147편 -->
+- [x] low FODMAP diet — Ulcerative Colitis에 듣는다 — low-fodmap-diet-ulcerative-colitis-open  <!-- 시험 3건 · 논문 61편 -->
 - [x] DASH diet — Hypertension에 듣는다  <!-- 시험 37건 · 논문 2210편 -->
-- [ ] DASH diet — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 192편 -->
-- [ ] DASH diet — Cardiovascular Disease에 듣는다  <!-- 시험 10건 · 논문 1317편 -->
-- [ ] DASH diet — Diet에 듣는다  <!-- 시험 7건 · 논문 2631편 -->
+- [x] DASH diet — Metabolic Syndrome에 듣는다 — dash-diet-metabolic-syndrome-pos  <!-- 시험 10건 · 논문 192편 -->
+- [x] DASH diet — Cardiovascular Disease에 듣는다 — dash-diet-cardiovascular-disease-pos  <!-- 시험 10건 · 논문 1317편 -->
+- [x] DASH diet — Diet에 듣는다 — dash-diet-diet-pos  <!-- 시험 7건 · 논문 2631편 -->
 - [ ] gluten free diet — Celiac Sprue에 듣는다  <!-- 시험 59건 · 논문 6828편 -->
 - [ ] gluten free diet — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 366편 -->
 - [ ] gluten free diet — Diabetes에 듣는다  <!-- 시험 11건 · 논문 554편 -->

@@ -1,0 +1,24 @@
+{
+  "id": "dash-diet-cardiovascular-disease-pos",
+  "subj": "DASH 식단",
+  "claim": "DASH 식단을 잘 지키는 사람은 심부전·고혈압·제2형 당뇨병 위험이 낮았습니다",
+  "line": "UK Biobank 코호트에서 DASH 식단 준수도가 높은 군의 심부전 관련 위험이 낮았습니다",
+  "effect": "심부전 발생·심부전 사망 복합 aHR 0.89",
+  "vs": "UK Biobank 124,777명 코호트에서 DASH 준수도 최고군 vs 최저군의 심부전 발생·심부전 사망 복합 aHR은 0.89(95% CI 0.79~1.00), 고혈압 aHR 0.91, 제2형 당뇨병 aHR 0.82였습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 124777,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "DASH 식단은 생활습관 중재이며 심혈관질환의 처방 치료를 대체하지 않습니다.",
+  "why": "대규모 전향 코호트에서 DASH 식단 준수도와 심부전·심혈관 위험요인의 관계를 확인했습니다.",
+  "saw": "평균 12년 추적한 124,777명에서 심부전 사건 2,931건과 심부전 사망 441건이 발생했습니다. 사회인구학적 요인과 동반질환을 보정한 뒤 DASH 준수도 최고군의 심부전 복합 위험은 최저군보다 낮았고 고혈압과 제2형 당뇨병 위험도 낮았습니다.",
+  "limit": "무작위 식단 배정이 아닌 관찰 코호트이므로 건강행동과 식단 준수의 영향을 완전히 분리할 수 없습니다.",
+  "against": "관찰연구의 연관성만으로 DASH 식단이 심혈관 사건을 직접 예방한다고 단정할 수 없습니다.",
+  "use": "심혈관 위험을 줄이려면 DASH 식단과 혈압·지질·혈당 관리, 운동을 함께 조정합니다.",
+  "refs": [
+    { "label": "UK Biobank DASH 식단과 심부전 코호트", "pmid": "42575672" },
+    { "label": "DASH4D 식단 무작위시험 등록", "nct": "NCT04286555" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "DASH diet AND Cardiovascular Disease; 1,317건 반환·실제 개입명 일치 26건", "pubmed": "DASH diet AND Cardiovascular Disease; 1,317편", "negative": "DASH diet AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference); 854편", "safety": "DASH diet AND (adverse OR toxicity OR case report OR overdose OR self-medication); 334편" }
+}
