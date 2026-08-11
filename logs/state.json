@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5456,
-  "subjects": 2163,
-  "refs": 7784,
+  "entries": 5466,
+  "subjects": 2165,
+  "refs": 7794,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,30 +25,30 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2034
+    "rx": 2044
   },
-  "tiers": { "trial": 4638, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3213, "null": 1071, "open": 1021, "harm": 151 },
+  "tiers": { "trial": 4648, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3213, "null": 1079, "open": 1021, "harm": 153 },
   "worklist": {
     "total": 15542,
-    "checked": 13206,
-    "unchecked": 2336,
+    "checked": 13216,
+    "unchecked": 2326,
     "no_evidence_pending": 2059,
-    "note": "batch 1240에서 처방 주제 10개에 새 근거 항목 8개와 기존 연결 2개를 처리했다. 다음 미처리 줄은 2300번 linezolid — Pneumonia에 듣는다이며 2,336개가 남았다."
+    "note": "batch 1241에서 처방 주제 10개에 새 근거 항목 10개를 처리했다. 다음 미처리 줄은 2318번 gentamicin — Pneumonia에 듣는다이며 2,326개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4067,
+    "vs_missing": 4057,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (2,034건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,222건). 목표는 33% 위",
-    "vs_share": "7.2% (395건)",
+    "rx_share": "37% (2,044건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,232건). 목표는 33% 위",
+    "vs_share": "7.4% (405건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.1% (4,638건)",
+    "trial_share": "85.0% (4,648건)",
     "non_trial_share": "15.0% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1241 starts after batch 1240; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2300: linezolid — Pneumonia에 듣는다; 2,336 unchecked remain.",
+  "next": "batch 1242 starts after batch 1241; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2318: gentamicin — Pneumonia에 듣는다; 2,326 unchecked remain.",
   "last_batch": {
-    "id": "1240",
-    "commit": "527732fe",
+    "id": "1241",
+    "commit": "3e8dbdb8",
     "pushed": true,
     "processed_topics": 10,
     "new_entries": 8,
     "existing_links": 2,
     "no_evidence_rejects": 0,
-    "build": "5456 entries · 7784 refs · 4638 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "candesartan—Heart Failure, irbesartan—Kidney Disease, ceftriaxone—Infections·Infection·Sepsis, vancomycin—Infections·Pneumonia·Sepsis를 새로 추가하고 amlodipine—Blood Pressure·Coronary Disease 기존 항목을 연결했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 칸데사르탄 심부전, 이르베사르탄 신장질환, 세프트리악손 감염·패혈증, 반코마이신 감염·폐렴·패혈증 근거를 새 항목으로 기록하고 기존 암로디핀 혈압·관상동맥질환 항목을 연결했다.",
+    "build": "5466 entries · 7794 refs · 4648 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "linezolid—Pneumonia·Infection, meropenem—Infection·Infections, cefepime—Neutropenia·Pneumonia, piperacillin—Infection·Pneumonia, gentamicin—Sepsis·Infections를 새로 추가했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 리네졸리드 폐렴·감염, 메로페넴 감염, 세페핌 호중구감소·폐렴, 피페라실린 감염·폐렴, 겐타마이신 패혈증·감염 근거를 새 항목으로 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
