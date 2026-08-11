@@ -638,14 +638,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
 - [x] tamoxifen — Ductal Carcinoma에 듣는다 — 기존 항목(tamoxifen-ductal-carcinoma-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 — 기존 항목(allopurinol-gout-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 — 기존 항목(allopurinol-kidney-stones-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -668,10 +668,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
-- [ ] ibuprofen — Analgesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
-- [ ] ibuprofen — Fever에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 -->
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다 — 신규 항목(ibuprofen-patent-ductus-arteriosus-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
+- [x] ibuprofen — Analgesia에 듣는다 — 신규 항목(ibuprofen-analgesia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
+- [x] ibuprofen — Fever에 듣는다 — 신규 항목(ibuprofen-fever-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] ibuprofen — Osteoarthritis에 듣는다 — 신규 항목(ibuprofen-osteoarthritis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 -->
 - [x] curcumin — Acute Kidney Injury에 듣는다 — 기존 항목(curcumin-acute-kidney-injury-null)  <!-- 등록 시험 12건 -->
 - [x] curcumin — Pre-diabetes에 듣는다  <!-- 등록 시험 12건 -->
 - [x] curcumin — Ulcerative Colitis에 듣는다  <!-- 등록 시험 10건 -->
@@ -698,8 +698,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary Syndrom에 듣는다 — 기존 항목(metformin-pcos-ovulation)  <!-- 등록 시험 40건 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 21건 -->
 - [x] metformin — Acute Lymphoblastic Leukemia에 듣는다 — 기존 항목(metformin-acute-lymphoblastic-leukemia-null)  <!-- 등록 시험 19건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
 - [x] aspirin — Cancer에 듣는다 — 기존 항목(aspirin-cancer-null)  <!-- 등록 시험 33건 -->
 - [ ] aspirin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 -->
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
@@ -21132,27 +21132,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] DASH diet — Metabolic Syndrome에 듣는다 — dash-diet-metabolic-syndrome-pos  <!-- 시험 10건 · 논문 192편 -->
 - [x] DASH diet — Cardiovascular Disease에 듣는다 — dash-diet-cardiovascular-disease-pos  <!-- 시험 10건 · 논문 1317편 -->
 - [x] DASH diet — Diet에 듣는다 — dash-diet-diet-pos  <!-- 시험 7건 · 논문 2631편 -->
-- [ ] gluten free diet — Celiac Sprue에 듣는다  <!-- 시험 59건 · 논문 6828편 -->
-- [ ] gluten free diet — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 366편 -->
-- [ ] gluten free diet — Diabetes에 듣는다  <!-- 시험 11건 · 논문 554편 -->
-- [ ] gluten free diet — Autism에 듣는다  <!-- 시험 9건 · 논문 170편 -->
+- [x] gluten free diet — Celiac Sprue에 듣는다 — 신규 항목(gluten-free-diet-celiac-sprue-open)  <!-- 시험 59건 · 논문 6828편 -->
+- [x] gluten free diet — Irritable Bowel Syndrome에 듣는다 — 신규 항목(gluten-free-diet-irritable-bowel-syndrome-open)  <!-- 시험 11건 · 논문 366편 -->
+- [x] gluten free diet — Diabetes에 듣는다 — 신규 항목(gluten-free-diet-diabetes-pos)  <!-- 시험 11건 · 논문 554편 -->
+- [x] gluten free diet — Autism에 듣는다 — 신규 항목(gluten-free-diet-autism-open)  <!-- 시험 9건 · 논문 170편 -->
 - [x] chewing gum — Ileus에 듣는다  <!-- 시험 30건 · 논문 174편 -->
-- [ ] chewing gum — Dental Caries에 듣는다  <!-- 시험 10건 · 논문 487편 -->
-- [ ] chewing gum — Pain에 듣는다  <!-- 시험 8건 · 논문 273편 -->
+- [x] chewing gum — Dental Caries에 듣는다 — 신규 항목(chewing-gum-dental-caries-open)  <!-- 시험 10건 · 논문 487편 -->
+- [x] chewing gum — Pain에 듣는다 — 신규 항목(chewing-gum-pain-pos)  <!-- 시험 8건 · 논문 273편 -->
 - [x] water intake — Obesity에 듣는다  <!-- 시험 33건 · 논문 10374편 -->
-- [ ] water intake — Blood Glucose에 듣는다  <!-- 시험 13건 · 논문 6837편 -->
-- [ ] water intake — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 2058편 -->
-- [ ] water intake — Energy Intake에 듣는다  <!-- 시험 7건 · 논문 8293편 -->
-- [ ] brisk walking — Hypertension에 듣는다  <!-- 시험 3건 · 논문 80편 -->
-- [ ] brisk walking — Obesity에 듣는다  <!-- 시험 3건 · 논문 136편 -->
-- [ ] resistance band training — Sarcopenia에 듣는다  <!-- 시험 18건 · 논문 39편 -->
-- [ ] resistance band training — Obesity에 듣는다  <!-- 시험 12건 · 논문 27편 -->
-- [ ] resistance band training — Diabetes에 듣는다  <!-- 시험 12건 · 논문 29편 -->
-- [ ] resistance band training — Cancer에 듣는다  <!-- 시험 11건 · 논문 43편 -->
-- [ ] high intensity interval training — Exercise에 듣는다  <!-- 시험 43건 · 논문 6686편 -->
-- [ ] high intensity interval training — Cancer에 듣는다  <!-- 시험 39건 · 논문 388편 -->
-- [ ] high intensity interval training — Diabetes에 듣는다  <!-- 시험 38건 · 논문 700편 -->
-- [ ] high intensity interval training — Obesity에 듣는다  <!-- 시험 37건 · 논문 940편 -->
+- [x] water intake — Blood Glucose에 듣는다 — 신규 항목(water-intake-blood-glucose-pos)  <!-- 시험 13건 · 논문 6837편 -->
+- [x] water intake — Breast Cancer에 듣는다 — 신규 항목(water-intake-breast-cancer-open)  <!-- 시험 11건 · 논문 2058편 -->
+- [x] water intake — Energy Intake에 듣는다 — 신규 항목(water-intake-energy-intake-open)  <!-- 시험 7건 · 논문 8293편 -->
+- [x] brisk walking — Hypertension에 듣는다 — 신규 항목(brisk-walking-hypertension-pos)  <!-- 시험 3건 · 논문 80편 -->
+- [x] brisk walking — Obesity에 듣는다 — 신규 항목(brisk-walking-obesity-open)  <!-- 시험 3건 · 논문 136편 -->
+- [x] resistance band training — Sarcopenia에 듣는다 — 신규 항목(resistance-band-training-sarcopenia-pos)  <!-- 시험 18건 · 논문 39편 -->
+- [x] resistance band training — Obesity에 듣는다 — 기존 항목(resistance-bands-obesity-null)  <!-- 시험 12건 · 논문 27편 -->
+- [x] resistance band training — Diabetes에 듣는다 — 기존 항목(resistance-bands-diabetes-pos)  <!-- 시험 12건 · 논문 29편 -->
+- [x] resistance band training — Cancer에 듣는다 — 신규 항목(resistance-band-training-cancer-open)  <!-- 시험 11건 · 논문 43편 -->
+- [x] high intensity interval training — Exercise에 듣는다 — 신규 항목(high-intensity-interval-training-exercise-pos)  <!-- 시험 43건 · 논문 6686편 -->
+- [x] high intensity interval training — Cancer에 듣는다 — 신규 항목(high-intensity-interval-training-cancer-pos)  <!-- 시험 39건 · 논문 388편 -->
+- [x] high intensity interval training — Diabetes에 듣는다 — 신규 항목(high-intensity-interval-training-diabetes-null)  <!-- 시험 38건 · 논문 700편 -->
+- [x] high intensity interval training — Obesity에 듣는다 — 기존 항목(high-intensity-interval-training-obesity-pos)  <!-- 시험 37건 · 논문 940편 -->
 - [x] swimming — Sport Performance에 듣는다  <!-- 시험 7건 · 논문 3904편 -->
 - [x] pilates — Pain에 듣는다  <!-- 시험 82건 · 논문 453편 -->
 - [x] pilates — Pregnancy에 듣는다  <!-- 시험 9건 · 논문 66편 -->
@@ -21160,7 +21160,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pilates — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 24편 -->
 - [x] stretching exercise — Muscle Cramp에 듣는다  <!-- 시험 9건 · 논문 41편 -->
 - [x] stretching exercise — Exercise에 듣는다  <!-- 시험 8건 · 논문 9288편 -->
-- [ ] stretching exercise — Physical Fitness에 듣는다  <!-- 시험 8건 · 논문 599편 -->
+- [x] stretching exercise — Physical Fitness에 듣는다 — 신규 항목(stretching-exercise-physical-fitness-pos)  <!-- 시험 8건 · 논문 599편 -->
 - [x] stretching exercise — Knee Valgus에 듣는다  <!-- 시험 5건 · 논문 20편 -->
 - [x] balance training — Stroke에 듣는다  <!-- 시험 19건 · 논문 3029편 -->
 - [x] balance training — Fall에 듣는다  <!-- 시험 11건 · 논문 2830편 -->

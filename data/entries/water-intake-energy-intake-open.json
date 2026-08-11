@@ -1,0 +1,30 @@
+{
+  "id": "water-intake-energy-intake-open",
+  "subj": "물 섭취",
+  "claim": "물 섭취가 에너지 섭취를 줄인다",
+  "line": "식전 물은 에너지 섭취를 낮췄지만 식사 중 물은 반대 연관을 보였습니다.",
+  "effect": "식전 물↓·식사 중 물↑",
+  "vs": "식전 물 1L/일 40명 vs 식사 중 물 86명 교차분석; 결과 방향 혼합",
+  "tier": "trial",
+  "dir": "open",
+  "n": 86,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "물 섭취와 식사량의 관계는 섭취 시점과 연구 설계에 따라 달라집니다.",
+  "why": "식전 물 섭취 무작위시험과 식사 중 물 섭취를 분석한 두 교차 연구를 비교했습니다.",
+  "saw": "제2형 당뇨병 환자에서는 식전 물 섭취가 에너지 섭취를 낮췄지만 86명 교차분석에서는 물 섭취량이 많을수록 음식 섭취도 많았습니다.",
+  "limit": "서로 다른 대상과 설계의 연구를 단순 합산할 수 없고 식사 중 물 섭취 결과는 연관성입니다.",
+  "against": "물을 많이 마시면 항상 식사량이 줄어든다고 말할 수 없습니다.",
+  "use": "체중 조절에서는 물 섭취를 식사 구성과 섭취 시점의 맥락에서 평가합니다.",
+  "refs": [
+    { "label": "식사 중 물 섭취와 음식 섭취 2개 교차 연구 분석", "pmid": "42342079", "doi": "10.1016/j.appet.2026.108698" },
+    { "label": "제2형 당뇨병 식전 물 섭취 무작위시험", "pmid": "34178828", "doi": "10.1007/s40200-020-00724-9" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "water intake AND Energy Intake; 51건",
+    "pubmed": "water intake AND Energy Intake; 8,293편",
+    "negative": "water intake AND Energy Intake AND (no effect OR did not OR failed OR negative OR no significant difference); 5,282편",
+    "safety": "water intake AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication); 61,400편"
+  }
+}

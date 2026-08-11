@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5252,
+  "entries": 5273,
   "subjects": 2118,
-  "refs": 7491,
+  "refs": 7517,
   "kinds": {
-    "otc": 95,
+    "otc": 99,
     "supp": 359,
-    "food": 455,
-    "move": 596,
+    "food": 464,
+    "move": 604,
     "life": 1158,
     "care": 654,
     "rx": 1935
   },
-  "tiers": { "trial": 4439, "obs": 719, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3089, "null": 1039, "open": 977, "harm": 147 },
+  "tiers": { "trial": 4460, "obs": 719, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3099, "null": 1040, "open": 987, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12641,
-    "unchecked": 2901,
+    "checked": 12671,
+    "unchecked": 2871,
     "no_evidence_pending": 1998,
-    "note": "batch 1203에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 19개를 만들고 기존 항목 11개를 연결했다. 다음 미처리 줄은 641번 raloxifene — Breast Cancer에 듣는다이며 2,901개가 남았다."
+    "note": "batch 1204에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 21개를 만들고 기존 항목 9개를 연결했다. 다음 미처리 줄은 704번 aspirin — Cardiovascular Disease에 듣는다이며 2,871개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "17% (약국약·보충제·음식 909건). 목표는 25%",
+    "over_counter_share": "17% (약국약·보충제·음식 922건). 목표는 25%",
     "rx_share": "37% (1,935건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,186건). 목표는 33% 위",
-    "vs_share": "3.8% (200건)",
+    "no_effect_or_harm_share": "23% (1,187건). 목표는 33% 위",
+    "vs_share": "4.2% (221건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.5% (4,439건)",
+    "trial_share": "84.6% (4,460건)",
     "non_trial_share": "15.5% (813건)",
-    "build_warnings": { "unknown_n": 424, "thin_study": 952 }
+    "build_warnings": { "unknown_n": 426, "thin_study": 955 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,16 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1204 starts after batch 1203; pull and read AGENTS.md first. Resume at worklist line 641: raloxifene — Breast Cancer에 듣는다; 2,901 unchecked remain.",
+  "next": "batch 1205 starts after batch 1204; pull and read AGENTS.md first. Resume at worklist line 704: aspirin — Cardiovascular Disease에 듣는다; 2,871 unchecked remain.",
   "last_batch": {
-    "id": "1203",
-    "commit": "4e14fe64",
+    "id": "1204",
+    "commit": "PENDING_CONTENT_COMMIT",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 19,
-    "existing_links": 11,
-    "build": "5252 entries · 7491 refs · 4439 trial · 719 obs · 30 animal · 17 lab · 47 case",
-    "research": "ClinicalTrials.gov와 PubMed로 락토페린·원내감염, 브로멜라인·COVID-19, 보스웰리아·만성통증, 홍경천·운동수행, 프로폴리스·구내염·치수염, 콘드로이틴·무릎손상·신장암, 알파리포산·산화스트레스·신독성, 포스파티딜세린·인지변화, 나트륨 제한·신장암·림프종, 저FODMAP·식이·무글루텐·궤양성대장염, DASH·대사증후군·심혈관질환·식이의 비처방 주제 20개를 확인했다. 수치가 있는 락토페린 원내감염, 홍경천, 프로폴리스 구내염, 저FODMAP 식이, DASH 항목은 대조 수치 또는 상대효과를 반영했고, 동물·세포·복합중재·직접 결과가 없는 항목은 open으로 남겼다. 베타글루칸 감기와 verapamil·acetazolamide·methotrexate·hydroxyurea·isotretinoin·tamoxifen의 처방 주제 10개는 기존 항목에 연결했다.",
+    "new_entries": 21,
+    "existing_links": 9,
+    "build": "5273 entries · 7517 refs · 4460 trial · 719 obs · 30 animal · 17 lab · 47 case",
+    "research": "ClinicalTrials.gov와 PubMed로 무글루텐 식단 4개, 껌 2개, 물 섭취 3개, 빠르게 걷기 2개, 탄력밴드 운동 2개, 고강도 인터벌 운동 4개, 스트레칭 운동 1개의 비처방 주제와 이부프로펜 4개, 기존 raloxifene·allopurinol·aspirin 6개의 처방 주제를 확인했다. 수치가 있는 혈당·고혈압·통증·골관절염·운동능력 항목은 대조 수치 또는 상대효과를 반영했고, 복합중재·직접 결과가 혼합된 항목은 open 또는 null로 남겼다. raloxifene·allopurinol·aspirin 주제 6개와 탄력밴드 운동 2개, 고강도 인터벌 운동 비만 1개는 기존 항목에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,

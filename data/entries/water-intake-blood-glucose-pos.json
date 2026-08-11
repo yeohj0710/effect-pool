@@ -1,0 +1,29 @@
+{
+  "id": "water-intake-blood-glucose-pos",
+  "subj": "물 섭취",
+  "claim": "물 섭취가 혈당을 낮춘다",
+  "line": "제2형 당뇨병 시험에서 식전 물 1L 섭취는 공복혈당을 낮췄습니다.",
+  "effect": "공복혈당 p<.0001",
+  "vs": "식전 물 1L/일 20명 vs 물 섭취 없음 20명; 공복혈당 p<.0001",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 40,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "물 섭취량은 혈당 관리의 보조 생활 습관으로 평가할 수 있습니다.",
+  "why": "제2형 당뇨병 환자 40명을 식전 물 섭취군과 무섭취군에 무작위 배정한 8주 시험을 확인했습니다.",
+  "saw": "식전 물 섭취군에서 공복혈당과 중성지방, LDL-C, 코펩틴이 유의하게 낮았습니다.",
+  "limit": "표본이 작고 식전 1L라는 특정 처방을 사용했으므로 모든 물 섭취량에 적용할 수 없습니다.",
+  "against": "물 섭취가 당뇨병 약물이나 식사 조절을 대신한다는 근거는 없습니다.",
+  "use": "당뇨병 환자는 탈수와 과도한 수분 섭취를 피하며 개인 상태에 맞는 수분량을 정합니다.",
+  "refs": [
+    { "label": "제2형 당뇨병 식전 물 섭취 무작위시험", "pmid": "34178828", "doi": "10.1007/s40200-020-00724-9", "pmc": "PMC8212309" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "water intake AND Blood Glucose; 52건",
+    "pubmed": "water intake AND Blood Glucose; 6,837편",
+    "negative": "water intake AND Blood Glucose AND (no effect OR did not OR failed OR negative OR no significant difference); 5,265편",
+    "safety": "water intake AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication); 61,400편"
+  }
+}
