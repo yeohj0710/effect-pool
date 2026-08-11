@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5330,
-  "subjects": 2131,
-  "refs": 7612,
+  "entries": 5346,
+  "subjects": 2137,
+  "refs": 7638,
   "kinds": {
-    "otc": 99,
-    "supp": 359,
+    "otc": 100,
+    "supp": 364,
     "food": 464,
     "move": 621,
-    "life": 1187,
-    "care": 666,
-    "rx": 1934
+    "life": 1190,
+    "care": 675,
+    "rx": 1932
   },
-  "tiers": { "trial": 4515, "obs": 721, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3119, "null": 1052, "open": 1011, "harm": 148 },
+  "tiers": { "trial": 4531, "obs": 721, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3130, "null": 1055, "open": 1013, "harm": 148 },
   "worklist": {
     "total": 15542,
-    "checked": 12880,
-    "unchecked": 2662,
+    "checked": 12910,
+    "unchecked": 2632,
     "no_evidence_pending": 1997,
-    "note": "batch 1211에서 처방 주제 30개를 처리했고 모두 기존 항목에 연결했다. 다음 미처리 줄은 1266번 dapagliflozin — Kidney Diseases에 듣는다이며 2,662개가 남았다."
+    "note": "batch 1212에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 16개와 기존 항목 연결 14개를 반영했다. 다음 미처리 줄은 1303번 bupropion — Depression에 듣는다이며 2,632개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "17% (약국약·보충제·음식 922건). 목표는 25%",
-    "rx_share": "36% (1,933건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,200건). 목표는 33% 위",
-    "vs_share": "5.0% (269건)",
+    "over_counter_share": "17% (약국약·보충제·음식 928건). 목표는 25%",
+    "rx_share": "36% (1,932건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,203건). 목표는 33% 위",
+    "vs_share": "5.0% (285건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.7% (4,515건)",
+    "trial_share": "84.7% (4,531건)",
     "non_trial_share": "15.3% (815건)",
-    "build_warnings": { "unknown_n": 447, "thin_study": 962 }
+    "build_warnings": { "unknown_n": 448, "thin_study": 964 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,17 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1212 starts after batch 1211; pull and read AGENTS.md first. Resume at worklist line 1266: dapagliflozin — Kidney Diseases에 듣는다; 2,662 unchecked remain.",
+  "next": "batch 1213 starts after batch 1212; pull and read AGENTS.md first. Resume at worklist line 1303: bupropion — Depression에 듣는다; 2,632 unchecked remain.",
   "last_batch": {
-    "id": "1211",
-    "commit": "bf9a89a6",
+    "id": "1212",
+    "commit": "7faefa26",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 0,
-    "existing_links": 30,
-    "build": "5330 entries · 7612 refs · 4515 trial · 721 obs · 30 animal · 17 lab · 47 case",
+    "new_entries": 16,
+    "existing_links": 14,
+    "build": "5346 entries · 7638 refs · 4531 trial · 721 obs · 30 animal · 17 lab · 47 case",
     "research": "아세타졸아미드 2개, 메토트렉세이트 3개, 하이드록시우레아 2개, 이소트레티노인, 타목시펜, 랄록시펜, 알로푸리놀 3개, 아스피린 3개, 프로프라놀롤, 날트렉손, 아미트립틸린, 토피라메이트 2개, 트라조돈 2개, 쿠에티아핀 2개, 스피로놀락톤, 독시사이클린 2개, 콜히친, 다파글리플로진을 기존 근거 항목에 연결했다.",
+    "research_batch": "비처방 20개를 우선 처리했다. 새 근거는 비타민 B12·발레리안·척수 자극 2개·L-글루타민·L-카르니틴·셀레늄·간헐적 공기압박·마사지·척추 조작·경피 전기신경 자극 2개·적색광 2개·캡사이신·라벤더이며, 기존 ginkgo biloba 2개·라벤더 스트레스·셀레늄 암 항목을 연결했다. 처방 10개는 기존 다파글리플로진·세마글루타이드·케타민·프라조신·탈리도마이드·발라시클로버·미녹시딜·부프로피온 항목에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
