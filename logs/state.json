@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5154,
-  "subjects": 2103,
-  "refs": 7296,
+  "entries": 5174,
+  "subjects": 2105,
+  "refs": 7336,
   "kinds": {
-    "otc": 80,
-    "supp": 285,
+    "otc": 87,
+    "supp": 298,
     "food": 447,
     "move": 596,
     "life": 1158,
     "care": 654,
     "rx": 1926
   },
-  "tiers": { "trial": 4405, "obs": 665, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 3067, "null": 1031, "open": 909, "harm": 147 },
+  "tiers": { "trial": 4410, "obs": 679, "animal": 26, "lab": 13, "case": 46 },
+  "dirs": { "pos": 3072, "null": 1032, "open": 923, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12491,
-    "unchecked": 3051,
+    "checked": 12521,
+    "unchecked": 3021,
     "no_evidence_pending": 1998,
-    "note": "batch 1198에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 28개를 만들고 기존 항목 2개를 연결했다. 다음 미처리 줄은 473번 quetiapine — Bipolar에 듣는다이다."
+    "note": "batch 1199에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 20개를 만들고 기존 항목 10개를 연결했다. 다음 미처리 줄은 499번 ketamine — Anesthesia에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "16% (약국약·보충제·음식 812건). 목표는 25%",
-    "rx_share": "38% (1,934건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,178건). 목표는 33% 위",
-    "vs_share": "3.3% (170건)",
+    "over_counter_share": "16% (약국약·보충제·음식 832건). 목표는 25%",
+    "rx_share": "37% (1,934건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,179건). 목표는 33% 위",
+    "vs_share": "3.4% (176건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.5% (4,405건)",
-    "non_trial_share": "14.5% (749건)",
-    "build_warnings": { "unknown_n": 420, "thin_study": 947 }
+    "trial_share": "85.2% (4,410건)",
+    "non_trial_share": "14.8% (764건)",
+    "build_warnings": { "unknown_n": 422, "thin_study": 947 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,16 @@
     "checked_at": "2026-08-11",
     "note": "batch 1195 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1199 starts after batch 1198; pull and read AGENTS.md first. Resume at worklist line 473: quetiapine — Bipolar에 듣는다; 3,051 unchecked remain.",
+  "next": "batch 1200 starts after batch 1199; pull and read AGENTS.md first. Resume at worklist line 499: ketamine — Anesthesia에 듣는다; 3,021 unchecked remain.",
   "last_batch": {
-    "id": "1198",
-    "commit": "a050e4a1",
-    "pushed": true,
+    "id": "1199",
+    "commit": "PENDING",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 28,
-    "existing_links": 2,
-    "build": "5154 entries · 7296 refs · 4405 trial · 665 obs · 25 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 아세트아미노펜-다발외상, 나프록센-소화성궤양, 세티리진-천식·피부염, 슈도에페드린-비염·부비동염, 파모티딘-암·감염, 로페라미드-고형암, 비사코딜-대장암·대장내시경, 벤조일퍼옥사이드-감염, 살리실산-사마귀·기미, 클로트리마졸-질칸디다증, 하이드로코르티손 크림-아토피, 니코틴 대체요법-흡연, 인공눈물-안구손상, 비타민 D-골다공증, 오메가3-고중성지방혈증, 티르제파타이드-당뇨·과체중, 메틸페니데이트-ADHD, 룩솔리티닙-이식편대숙주병, 날트렉손-알코올중독, 아미트리프틸린-우울증, 토피라메이트-발작, 트라조돈-주요우울장애의 30개 주제를 확인했다. 신규 28개를 만들고 기존 토피라메이트-간질·트라조돈-우울증 항목 2개를 연결했으며, 직접 숫자를 확인하지 못한 결과는 open 또는 null로 남겼다.",
+    "new_entries": 20,
+    "existing_links": 10,
+    "build": "5174 entries · 7336 refs · 4410 trial · 679 obs · 26 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 디펜히드라민-폐암·신장질환, 니코틴 대체요법-담배·폐암, 인공눈물-당뇨성 안질환, 캡사이신 크림-통증·중추 감작, 비타민 D-유방암·신장질환·스트레스, 비타민 C-암·화상 쇼크·심부전·빈혈, 아연-설사·감염, 마그네슘-수면 건강·당뇨병, 오메가3-암·당뇨병의 비처방 주제 20개를 확인했다. 신규 20개를 만들고 기존 쿠에티아핀-양극성장애·주요우울증, 스피로놀락톤-고혈압, 독시사이클린-여드름·매독, 콜히친-통풍, 다파글리플로진-심부전·신장질환, 세마글루타이드-비만·과체중 항목 10개를 연결했다. 직접 비교 수치가 없는 조합은 open으로 남겼고, 동물시험과 메타분석의 표본수는 확인된 범위만 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,

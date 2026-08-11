@@ -1,0 +1,24 @@
+{
+  "id": "vitamin-d-breast-cancer-null",
+  "subj": "비타민 D",
+  "claim": "비타민 D가 유방암을 예방한다",
+  "line": "비타민 D 보충은 VITAL 시험에서 유방암 발생을 줄이지 않았습니다.",
+  "effect": "유방암 HR 1.02",
+  "vs": "VITAL 25,871명에서 비타민 D군 유방암 HR 1.02 (95% CI 0.79~1.31; 대조군 대비)",
+  "tier": "trial",
+  "dir": "null",
+  "known": "off",
+  "knownWhy": "비타민 D는 보충제이며 유방암 예방약으로 허가된 성분은 아닙니다",
+  "why": "비타민 D와 유방암의 ClinicalTrials.gov·PubMed 결과를 확인했습니다",
+  "saw": "VITAL 무작위 위약대조시험 25,871명에서 유방암은 비타민 D군과 위약군 사이에 유의한 차이가 없었습니다",
+  "limit": "참가자는 비타민 D 결핍이나 골감소를 기준으로 모집하지 않았고 유방암 하위 결과의 신뢰구간이 넓습니다",
+  "against": "고칼슘혈증과 신장결석 위험을 확인하고 암 검진을 보충제로 대체하지 않습니다",
+  "use": "비타민 D의 유방암 예방 주장을 대조군 결과와 함께 설명합니다",
+  "n": 25871,
+  "synth": "single",
+  "refs": [
+    { "label": "VITAL 비타민 D·암 예방 무작위시험", "pmid": "30415629", "nct": "NCT01169259" },
+    { "label": "ClinicalTrials.gov vitamin D·Breast Cancer 검색", "nct": "NCT04147767" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=vitamin D AND query.cond=Breast Cancer; 79건, NCT04147767 등 확인", "pubmed": "vitamin D AND Breast Cancer; 1,730건", "negative": "vitamin D AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "vitamin D AND (adverse OR toxicity OR hypercalcemia OR kidney stone OR case report); 검색 결과 확인" }
+}

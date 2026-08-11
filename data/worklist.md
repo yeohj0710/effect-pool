@@ -470,28 +470,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] trazodone — Depression에 듣는다 — 기존 항목(trazodone-depression-pos) <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] quetiapine — Bipolar에 듣는다 — 기존 항목(quetiapine-bipolar-pos) <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] quetiapine — Major Depression에 듣는다 — 기존 항목(quetiapine-major-depression-pos) <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] spironolactone — Hypertension에 듣는다 — 기존 항목(spironolactone-hypertension-pos) <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Acne에 듣는다 — 기존 항목(doxycycline-acne-pos) <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Syphilis에 듣는다 — 기존 항목(doxycycline-syphilis-pos) <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] colchicine — Gout에 듣는다 — 기존 항목(colchicine-gout-pos) <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 — 기존 항목(dapagliflozin-heart-failure-pos) <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 기존 항목(dapagliflozin-kidney-diseases-pos) <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 204건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Obesity에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss) <!-- 등록 시험 204건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Overweight에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss) <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
@@ -20966,8 +20966,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cetirizine — Rhinitis에 듣는다  <!-- 시험 44건 · 논문 611편 -->
 - [x] cetirizine — Asthma에 듣는다  <!-- 시험 3건 · 논문 328편 -->
 - [x] cetirizine — Dermatitis에 듣는다  <!-- 시험 3건 · 논문 197편 -->
-- [ ] diphenhydramine — Lung Cancer에 듣는다  <!-- 시험 42건 · 논문 56편 -->
-- [ ] diphenhydramine — Kidney Disease에 듣는다  <!-- 시험 9건 · 논문 56편 -->
+- [x] diphenhydramine — Lung Cancer에 듣는다  <!-- 시험 42건 · 논문 56편 -->
+- [x] diphenhydramine — Kidney Disease에 듣는다  <!-- 시험 9건 · 논문 56편 -->
 - [x] pseudoephedrine — Rhinitis에 듣는다  <!-- 시험 15건 · 논문 174편 -->
 - [x] pseudoephedrine — Sinusitis에 듣는다  <!-- 시험 4건 · 논문 24편 -->
 - [x] pseudoephedrine — Common Cold에 듣는다  <!-- 시험 4건 · 논문 121편 -->
@@ -20994,32 +20994,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clotrimazole — Vaginal Candida에 듣는다  <!-- 시험 3건 · 논문 495편 -->
 - [x] hydrocortisone cream — Atopic에 듣는다  <!-- 시험 9건 · 논문 106편 -->
 - [x] nicotine replacement therapy — Smoking에 듣는다  <!-- 시험 274건 · 논문 4140편 -->
-- [ ] nicotine replacement therapy — Tobacco에 듣는다  <!-- 시험 103건 · 논문 3200편 -->
-- [ ] nicotine replacement therapy — Lung Cancer에 듣는다  <!-- 시험 74건 · 논문 130편 -->
+- [x] nicotine replacement therapy — Tobacco에 듣는다  <!-- 시험 103건 · 논문 3200편 -->
+- [x] nicotine replacement therapy — Lung Cancer에 듣는다  <!-- 시험 74건 · 논문 130편 -->
 - [x] artificial tears — Ocular Injury에 듣는다  <!-- 시험 9건 · 논문 110편 -->
-- [ ] artificial tears — Diabetic Oculopathy에 듣는다  <!-- 시험 7건 · 논문 56편 -->
+- [x] artificial tears — Diabetic Oculopathy에 듣는다  <!-- 시험 7건 · 논문 56편 -->
 - [ ] orlistat — Obesity에 듣는다  <!-- 시험 35건 · 논문 2063편 -->
 - [ ] orlistat — Endometrial Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 -->
-- [ ] capsaicin cream — Pain에 듣는다  <!-- 시험 16건 · 논문 280편 -->
-- [ ] capsaicin cream — Central Sensitisation에 듣는다  <!-- 시험 3건 · 논문 15편 -->
+- [x] capsaicin cream — Pain에 듣는다  <!-- 시험 16건 · 논문 280편 -->
+- [x] capsaicin cream — Central Sensitisation에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] vitamin D — Osteoporosis에 듣는다  <!-- 시험 34건 · 논문 12585편 -->
-- [ ] vitamin D — Breast Cancer에 듣는다  <!-- 시험 29건 · 논문 2428편 -->
-- [ ] vitamin D — Kidney Diseases에 듣는다  <!-- 시험 18건 · 논문 10245편 -->
-- [ ] vitamin D — Stress에 듣는다  <!-- 시험 11건 · 논문 3789편 -->
-- [ ] vitamin C — Cancer에 듣는다  <!-- 시험 19건 · 논문 8019편 -->
-- [ ] vitamin C — Burn Shock에 듣는다  <!-- 시험 14건 · 논문 33편 -->
-- [ ] vitamin C — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 270편 -->
-- [ ] vitamin C — Anemia에 듣는다  <!-- 시험 13건 · 논문 1579편 -->
+- [x] vitamin D — Breast Cancer에 듣는다  <!-- 시험 29건 · 논문 2428편 -->
+- [x] vitamin D — Kidney Diseases에 듣는다  <!-- 시험 18건 · 논문 10245편 -->
+- [x] vitamin D — Stress에 듣는다  <!-- 시험 11건 · 논문 3789편 -->
+- [x] vitamin C — Cancer에 듣는다  <!-- 시험 19건 · 논문 8019편 -->
+- [x] vitamin C — Burn Shock에 듣는다  <!-- 시험 14건 · 논문 33편 -->
+- [x] vitamin C — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 270편 -->
+- [x] vitamin C — Anemia에 듣는다  <!-- 시험 13건 · 논문 1579편 -->
 - [ ] vitamin K2 — Aortic Valve Disease에 듣는다  <!-- 시험 7건 · 논문 13편 -->
 - [ ] vitamin K2 — Kidney Diseases에 듣는다  <!-- 시험 5건 · 논문 76편 -->
 - [ ] vitamin K2 — Thrombosis에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] zinc supplementation — Diarrhea에 듣는다  <!-- 시험 17건 · 논문 656편 -->
-- [ ] zinc supplementation — Infection에 듣는다  <!-- 시험 11건 · 논문 1292편 -->
+- [x] zinc supplementation — Diarrhea에 듣는다  <!-- 시험 17건 · 논문 656편 -->
+- [x] zinc supplementation — Infection에 듣는다  <!-- 시험 11건 · 논문 1292편 -->
 - [ ] zinc supplementation — HIV에 듣는다  <!-- 시험 8건 · 논문 156편 -->
 - [ ] zinc supplementation — Pneumonia에 듣는다  <!-- 시험 6건 · 논문 303편 -->
 - [ ] magnesium supplementation — Healthy Adult에 듣는다  <!-- 시험 8건 · 논문 232편 -->
-- [ ] magnesium supplementation — Sleep Health에 듣는다  <!-- 시험 7건 · 논문 39편 -->
-- [ ] magnesium supplementation — Diabetes에 듣는다  <!-- 시험 7건 · 논문 504편 -->
+- [x] magnesium supplementation — Sleep Health에 듣는다  <!-- 시험 7건 · 논문 39편 -->
+- [x] magnesium supplementation — Diabetes에 듣는다  <!-- 시험 7건 · 논문 504편 -->
 - [ ] magnesium supplementation — Protein Deficiency에 듣는다  <!-- 시험 5건 · 논문 160편 -->
 - [ ] iron supplementation — Anemia에 듣는다  <!-- 시험 63건 · 논문 5890편 -->
 - [ ] iron supplementation — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 322편 -->
@@ -21029,8 +21029,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] selenium — Sepsis에 듣는다  <!-- 시험 4건 · 논문 231편 -->
 - [ ] selenium — Breast Neoplasms에 듣는다  <!-- 시험 4건 · 논문 590편 -->
 - [ ] selenium — HIV에 듣는다  <!-- 시험 4건 · 논문 340편 -->
-- [ ] omega-3 fatty acids — Cancer에 듣는다  <!-- 시험 41건 · 논문 4502편 -->
-- [ ] omega-3 fatty acids — Diabetes에 듣는다  <!-- 시험 19건 · 논문 3224편 -->
+- [x] omega-3 fatty acids — Cancer에 듣는다  <!-- 시험 41건 · 논문 4502편 -->
+- [x] omega-3 fatty acids — Diabetes에 듣는다  <!-- 시험 19건 · 논문 3224편 -->
 - [x] omega-3 fatty acids — Hypertriglyceridemia에 듣는다  <!-- 시험 16건 · 논문 914편 -->
 - [ ] omega-3 fatty acids — Depression에 듣는다  <!-- 시험 11건 · 논문 1706편 -->
 - [ ] probiotics — Diarrhea에 듣는다  <!-- 시험 9건 · 논문 3974편 -->

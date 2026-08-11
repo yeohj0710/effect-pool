@@ -1,0 +1,24 @@
+{
+  "id": "zinc-supplementation-diarrhea-pos",
+  "subj": "아연",
+  "claim": "아연 보충이 소아 설사를 줄인다",
+  "line": "아연 보충은 소아 급성·지속성 설사의 회복을 높이고 기간을 줄였습니다.",
+  "effect": "설사 기간 MD -13.27시간",
+  "vs": "아연군 설사 회복 RR 1.07, 기간 MD -13.27시간 (대조군 대비)",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "아연은 보충제이며 설사 원인별 치료를 모두 대체하는 약은 아닙니다",
+  "why": "아연 보충과 설사의 ClinicalTrials.gov·PubMed 결과를 확인했습니다",
+  "saw": "38개 무작위시험 체계적 문헌고찰에서 급성 설사 회복 RR은 1.07, 설사 기간 차이는 -13.27시간이었습니다. 지속성 설사 회복 RR은 1.75였습니다",
+  "limit": "소아 연령·영양상태·아연 용량이 달랐고 구토는 아연군에서 더 많았습니다",
+  "against": "구토와 과량 복용을 확인하고 탈수·혈변·고열이 있으면 수액과 진료를 우선합니다",
+  "use": "소아 설사에서 아연 보충의 대조군 대비 효과를 설명합니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "소아 급성·지속성 설사 아연 보충 메타분석", "pmid": "39641338" },
+    { "label": "ClinicalTrials.gov zinc supplementation·Diarrhea 검색", "nct": "NCT06540209" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=zinc supplementation AND query.cond=Diarrhea; 26건, NCT06540209 등 확인", "pubmed": "zinc supplementation AND Diarrhea; 369건", "negative": "zinc supplementation AND Diarrhea AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "zinc supplementation AND (adverse OR toxicity OR vomiting OR overdose OR case report); 검색 결과 확인" }
+}

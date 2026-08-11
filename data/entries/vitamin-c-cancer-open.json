@@ -1,0 +1,23 @@
+{
+  "id": "vitamin-c-cancer-open",
+  "subj": "비타민 C",
+  "claim": "비타민 C가 암을 치료한다",
+  "line": "비타민 C와 암 연구는 많지만 암 치료효과를 확정할 직접 비교 수치는 확인되지 않았습니다.",
+  "effect": "암 치료 근거 진행 중",
+  "tier": "obs",
+  "dir": "open",
+  "known": "off",
+  "knownWhy": "비타민 C는 보충제이며 암 치료제로 허가된 성분은 아닙니다",
+  "why": "비타민 C와 암의 ClinicalTrials.gov·PubMed 결과를 검색했습니다",
+  "saw": "고용량 정맥 비타민 C, 보조요법, 전임상 연구가 섞여 있어 암종별 단독 항암효과를 분리하지 못했습니다",
+  "limit": "경구 보충제와 정맥 고용량 치료를 같은 개입으로 볼 수 없고 암종·병용요법이 다릅니다",
+  "against": "검증된 암 치료를 비타민 C로 대체하지 말고 신장기능과 약물 상호작용을 확인해야 합니다",
+  "use": "암에서 비타민 C 관련 임상시험의 직접 결과 공개 여부를 추적합니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "미량영양소 보충과 심혈관 위험 메타분석(암 직접효과 아님)", "pmid": "36480969" },
+    { "label": "ClinicalTrials.gov vitamin C·Cancer 검색", "nct": "NCT04877587" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=vitamin C AND query.cond=Cancer; 203건, NCT04877587 등 확인", "pubmed": "vitamin C AND Cancer; 3,455건", "negative": "vitamin C AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "vitamin C AND (adverse OR toxicity OR kidney stone OR hemolysis OR case report); 검색 결과 확인" }
+}

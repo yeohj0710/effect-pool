@@ -1,0 +1,24 @@
+{
+  "id": "magnesium-supplementation-diabetes-pos",
+  "subj": "마그네슘",
+  "claim": "마그네슘 보충이 당뇨병의 혈당을 낮춘다",
+  "line": "마그네슘 보충은 당뇨병 환자의 공복혈당을 낮췄습니다.",
+  "effect": "공복혈당 SMD -0.40",
+  "vs": "마그네슘군 336명 vs 위약군 334명에서 공복혈당 SMD -0.40 (대조군 대비)",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "마그네슘은 보충제이며 당뇨병 표준치료를 대체하지 않습니다",
+  "why": "마그네슘 보충과 당뇨병의 ClinicalTrials.gov·PubMed 결과를 확인했습니다",
+  "saw": "이중맹검 무작위시험 18개 메타분석에서 당뇨병 환자의 마그네슘군 336명과 위약군 334명을 비교했고 공복혈당 SMD는 -0.40이었습니다",
+  "limit": "시험 기간과 마그네슘 제제가 달랐고 연구 간 이질성이 컸습니다",
+  "against": "설사·복통과 신장기능 저하에서의 축적 위험을 확인하고 혈당약을 임의로 줄이지 않습니다",
+  "use": "당뇨병에서 마그네슘 보충의 혈당 효과를 대조군과 함께 설명합니다",
+  "n": 670,
+  "synth": "meta",
+  "refs": [
+    { "label": "당뇨병·고위험군 마그네슘 보충 메타분석", "pmid": "27530471" },
+    { "label": "ClinicalTrials.gov magnesium supplementation·Diabetes 검색", "nct": "NCT04636411" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=magnesium supplementation AND query.cond=Diabetes; 19건, NCT04636411 등 확인", "pubmed": "magnesium supplementation AND Diabetes; 206건", "negative": "magnesium supplementation AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "magnesium supplementation AND (adverse OR toxicity OR diarrhea OR kidney failure OR case report); 검색 결과 확인" }
+}

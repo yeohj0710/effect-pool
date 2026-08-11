@@ -1,0 +1,23 @@
+{
+  "id": "zinc-supplementation-infection-open",
+  "subj": "아연",
+  "claim": "아연 보충이 감염을 치료한다",
+  "line": "아연과 감염 관련 연구는 많지만 감염 전체의 치료효과를 확정할 단일 수치는 확인되지 않았습니다.",
+  "effect": "감염 치료 근거 진행 중",
+  "tier": "obs",
+  "dir": "open",
+  "known": "off",
+  "knownWhy": "아연은 보충제이며 감염 원인별 항균치료를 대체하지 않습니다",
+  "why": "아연 보충과 감염의 ClinicalTrials.gov·PubMed 결과를 검색했습니다",
+  "saw": "호흡기 감염·감기·소아 영양상태별 연구가 섞여 있어 감염 전체에 대한 아연 단독 효과를 분리하지 못했습니다",
+  "limit": "감염 종류와 결핍 여부에 따라 효과가 달라 일반 감염 치료제로 확대할 수 없습니다",
+  "against": "항생제·항바이러스제 등 원인 치료를 아연으로 대체하지 않고 구리 결핍과 위장 증상을 확인합니다",
+  "use": "감염 종류별 아연 보충 직접결과를 추가 확인할 항목입니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "아연·감기 무작위시험 고찰(감염 전체 효과 아님)", "pmid": "32342851" },
+    { "label": "ClinicalTrials.gov zinc supplementation·Infection 검색", "nct": "NCT00536133" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=zinc supplementation AND query.cond=Infection; 60건, NCT00536133 등 확인", "pubmed": "zinc supplementation AND Infection; 297건", "negative": "zinc supplementation AND Infection AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "zinc supplementation AND (adverse OR toxicity OR vomiting OR overdose OR case report); 검색 결과 확인" }
+}
