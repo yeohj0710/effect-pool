@@ -1718,7 +1718,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
 - [x] rosuvastatin — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 72건 --> — 새 항목(rosuvastatin-hypercholesterolemia-pos)
 - [x] rosuvastatin — Diabetes에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] rosuvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] rosuvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 기존 항목(rosuvastatin-dyslipidemia-pos)
 - [x] rosuvastatin — Hypertension에 듣는다  <!-- 등록 시험 30건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -1734,15 +1734,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary Syndrom에 듣는다  <!-- 등록 시험 40건 -->
 - [x] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 21건 -->
 - [x] metformin — Acute Lymphoblastic Leukemia에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(aspirin-stroke-pos)
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cancer에 듣는다  <!-- 등록 시험 33건 -->
 - [x] aspirin — Cardiovascular Disease에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — 기존 항목(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
 - [x] propranolol — Prostate Carcinoma에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Substance Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
@@ -1752,15 +1752,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Nausea에 듣는다  <!-- 등록 시험 18건 -->
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 기존 항목(amitriptyline-depression-open)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 --> — 기존 항목(trazodone-depression-pos)
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
 - [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
