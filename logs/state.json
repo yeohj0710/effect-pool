@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5440,
-  "subjects": 2159,
-  "refs": 7768,
+  "entries": 5448,
+  "subjects": 2163,
+  "refs": 7776,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2008
+    "rx": 2026
   },
-  "tiers": { "trial": 4622, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3204, "null": 1065, "open": 1021, "harm": 150 },
+  "tiers": { "trial": 4630, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3211, "null": 1066, "open": 1021, "harm": 150 },
   "worklist": {
     "total": 15542,
-    "checked": 13186,
-    "unchecked": 2356,
+    "checked": 13196,
+    "unchecked": 2346,
     "no_evidence_pending": 2059,
-    "note": "batch 1238에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2222번 dabigatran — Thrombosis에 듣는다이며 2,356개가 남았다."
+    "note": "batch 1239에서 처방 주제 10개에 새 근거 항목 8개와 기존 연결 2개를 처리했다. 다음 미처리 줄은 2265번 candesartan — Heart Failure에 듣는다이며 2,346개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,11 +44,11 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (2,008건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,215건). 목표는 33% 위",
-    "vs_share": "7.0% (379건)",
+    "rx_share": "37% (2,026건). 줄어야 한다",
+    "no_effect_or_harm_share": "22% (1,216건). 목표는 33% 위",
+    "vs_share": "7.1% (387건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.0% (4,622건)",
+    "trial_share": "85.0% (4,630건)",
     "non_trial_share": "15.0% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1239 starts after batch 1238; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2222: dabigatran — Thrombosis에 듣는다; 2,356 unchecked remain.",
+  "next": "batch 1240 starts after batch 1239; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2265: candesartan — Heart Failure에 듣는다; 2,346 unchecked remain.",
   "last_batch": {
-    "id": "1238",
-    "commit": "3a34d0b6",
-    "pushed": true,
+    "id": "1239",
+    "commit": "09968b9c",
+    "pushed": false,
     "processed_topics": 10,
-    "new_entries": 10,
-    "existing_links": 0,
+    "new_entries": 8,
+    "existing_links": 2,
     "no_evidence_rejects": 0,
-    "build": "5440 entries · 7768 refs · 4622 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "apixaban—Embolism·Stroke, rivaroxaban—Thrombosis·Coronary Disease·Embolism, warfarin—Thromboembolism·Embolism·Thrombosis, dabigatran—Thromboembolism·Stroke를 새로 추가했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 아픽사반 색전증·뇌졸중, 리바록사반 혈전증·관상동맥질환·색전증, 와파린 혈전색전증·색전증·혈전증, 다비가트란 혈전색전증·뇌졸중 근거를 새 항목으로 기록했다.",
+    "build": "5448 entries · 7776 refs · 4630 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "dabigatran—Thrombosis, fondaparinux—Pulmonary Embolism·Thrombosis, dalteparin—Cancer·Surgery, ticagrelor—Infarction·Stroke, prasugrel—Infarction을 새로 추가하고 losartan—Nephropathy·valsartan—Heart Failure 기존 항목을 연결했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 다비가트란 혈전증, 폰다파리눅스 폐색전증·혈전증, 달테파린 암·수술, 티카그렐러 심근경색·뇌졸중, 프라수그렐 심근경색 근거를 새 항목으로 기록하고 기존 로사르탄·발사르탄 항목을 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
