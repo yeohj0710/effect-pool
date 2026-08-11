@@ -2297,23 +2297,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] vancomycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->  → 신규 근거(vancomycin-pneumonia-harm)
 - [x] vancomycin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->  → 신규 근거(vancomycin-sepsis-null)
 - [x] linezolid — HIV Infections에 듣는다 — 새 항목(linezolid-hiv-infections-null)  <!-- 등록 시험 59건 -->
-- [ ] linezolid — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
-- [ ] linezolid — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] linezolid — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->  → 신규 근거(linezolid-pneumonia-null)
+- [x] linezolid — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->  → 신규 근거(linezolid-infection-null)
 - [x] linezolid — Pulmonary TB에 듣는다 — 새 항목(linezolid-pulmonary-tb-open)  <!-- 등록 시험 9건 -->
-- [ ] meropenem — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
-- [ ] meropenem — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
+- [x] meropenem — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->  → 신규 근거(meropenem-infection-null)
+- [x] meropenem — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->  → 신규 근거(meropenem-infections-null)
 - [x] meropenem — Sepsis에 듣는다 — 새 항목(meropenem-sepsis-null)  <!-- 등록 시험 18건 -->
 - [x] meropenem — Pyelonephritis에 듣는다 — 새 항목(meropenem-pyelonephritis-open)  <!-- 등록 시험 11건 -->
 - [x] cefepime — Lymphoma에 듣는다 — 새 항목(cefepime-lymphoma-open)  <!-- 등록 시험 18건 -->
 - [x] cefepime — Leukemia에 듣는다 — 새 항목(cefepime-leukemia-open)  <!-- 등록 시험 11건 -->
-- [ ] cefepime — Neutropenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] cefepime — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] piperacillin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] cefepime — Neutropenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->  → 신규 근거(cefepime-neutropenia-null)
+- [x] cefepime — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->  → 신규 근거(cefepime-pneumonia-null)
+- [x] piperacillin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->  → 신규 근거(piperacillin-infection-harm)
 - [x] piperacillin — Sepsis에 듣는다 — 새 항목(piperacillin-sepsis-harm)  <!-- 등록 시험 18건 -->
-- [ ] piperacillin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] piperacillin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->  → 신규 근거(piperacillin-pneumonia-null)
 - [x] piperacillin — Febrile에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 10건 -->
-- [ ] gentamicin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] gentamicin — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
+- [x] gentamicin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->  → 신규 근거(gentamicin-sepsis-harm)
+- [x] gentamicin — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->  → 신규 근거(gentamicin-infections-null)
 - [x] gentamicin — Diabetic Foot Ulcer에 듣는다 — 새 항목(gentamicin-diabetic-foot-ulcer-null)  <!-- 등록 시험 7건 -->
 - [ ] gentamicin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
 
