@@ -15,42 +15,42 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5015,
-  "subjects": 2072,
-  "refs": 7058,
+  "entries": 5042,
+  "subjects": 2080,
+  "refs": 7095,
   "kinds": {
     "otc": 41,
     "supp": 283,
-    "food": 421,
-    "move": 586,
-    "life": 1156,
-    "care": 636,
-    "rx": 1892
+    "food": 426,
+    "move": 592,
+    "life": 1158,
+    "care": 641,
+    "rx": 1901
   },
-  "tiers": { "trial": 4294, "obs": 637, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 2997, "null": 1007, "open": 864, "harm": 147 },
+  "tiers": { "trial": 4320, "obs": 638, "animal": 25, "lab": 13, "case": 46 },
+  "dirs": { "pos": 3015, "null": 1011, "open": 869, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12341,
-    "unchecked": 3201,
+    "checked": 12371,
+    "unchecked": 3171,
     "no_evidence_pending": 1998,
-    "note": "이번 바퀴는 비처방 20개와 처방 10개를 새 항목으로 기록하고, 기존 항목 20개의 대조 숫자와 영어 주제 20종을 보강했다. 다음 미처리 줄은 bupropion — Depression에 듣는다이다."
+    "note": "이번 바퀴는 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 27개를 만들고 기존 항목 3개를 연결했다. 다음 미처리 줄은 294번 finasteride — Prostatic Hyperplasia에 듣는다이다."
   },
   "backlog": {
-    "vs_missing": 4076,
+    "vs_missing": 4075,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1115,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "15% (약국약·보충제·음식 745건). 목표는 25%",
-    "rx_share": "38% (1,892건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,154건). 목표는 33% 위",
-    "vs_share": "1.5% (75건)",
+    "over_counter_share": "15% (약국약·보충제·음식 750건). 목표는 25%",
+    "rx_share": "38% (1,901건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,158건). 목표는 33% 위",
+    "vs_share": "1.9% (98건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.6% (4,268건)",
-    "non_trial_share": "14.4% (717건)",
-    "build_warnings": { "unknown_n": 386, "thin_study": 945 }
+    "trial_share": "85.7% (4,320건)",
+    "non_trial_share": "14.3% (722건)",
+    "build_warnings": { "unknown_n": 395, "thin_study": 945 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,19 +58,19 @@
     "checked_at": "2026-08-11",
     "note": "푸시하면 Vercel 이 알아서 빌드한다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1194 starts after batch 1193; pull and read AGENTS.md first. Resume at the next unchecked worklist line after the 30 topics marked in batch 1193; 3,201 unchecked remain.",
+  "next": "batch 1195 starts after batch 1194; pull and read AGENTS.md first. Resume at worklist line 294: finasteride — Prostatic Hyperplasia에 듣는다; 3,171 unchecked remain.",
   "last_batch": {
-    "id": "1193",
-    "commit": "fb214a68",
+    "id": "1194",
+    "commit": "PENDING_BATCH_COMMIT",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 30,
-    "existing_links": 0,
-    "build": "5015 entries · 7058 refs · 4294 trial · 637 obs · 25 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 녹차·다크 초콜릿·블루베리·석류 주스·요구르트·케피어·보리·올리브오일·꿀·간헐적 단식·물 섭취·필라테스·스트레칭·카페인·은행잎·자기·미주신경 자극 및 세마글루타이드·케타민·프라조신·탈리도마이드·발라시클로버·미녹시딜·부프로피온·실데나필·비마토프로스트의 30개 주제를 확인했다. 숫자 결과가 없는 보리 등록시험은 open으로 남겼다.",
+    "new_entries": 27,
+    "existing_links": 3,
+    "build": "5042 entries · 7095 refs · 4320 trial · 638 obs · 25 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 녹차-눈 건강·블루베리-노화·요구르트-골다공증·장내 정착·올리브오일-혈액투석·간헐적 단식-대사·수영-경기력·필라테스-임신·유방암·스트레칭-운동·균형훈련-뇌졸중·낙상·발목 손상·연속혈당측정-당뇨·부항·건침·압박스타킹·폼롤링·노래-파킨슨·마사지 및 비마토프로스트-저성장·보툴리눔 독소-방광·경직·미간주름·둘록세틴-통증·우울증·섬유근육통·클로니딘-고혈압·피나스테리드-탈모의 30개 주제를 확인했다. 숫자가 없는 등록시험 5건은 PubMed 배경 문헌과 함께 open으로 남겼다.",
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 20,
-    "legacy_subject_renames": 20,
+    "legacy_vs_filled": 1,
+    "legacy_subject_renames": 0,
     "next_official_deployment_check": "after batch 1195"
   }
 }
