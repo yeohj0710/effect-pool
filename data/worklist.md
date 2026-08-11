@@ -20581,3 +20581,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] goat milk — Child Development에 듣는다  <!-- 시험 6건 · 논문 48편 -->
 - [x] goat milk — Milk Intolerance에 듣는다  <!-- 시험 4건 · 논문 29편 -->
 - [x] goat milk — Growth에 듣는다  <!-- 시험 3건 · 논문 972편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] balance sensor — Assessment에 듣는다  <!-- 시험 4건 · 논문 2151편 -->
+- [x] balance sensor — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 330편 --> — 근거 없음(2026-08-11 조회, "balance sensor" AND "Parkinson Disease")
+- [x] balance sensor — Fall에 듣는다  <!-- 시험 3건 · 논문 443편 -->
+- [x] balance sensor — Brain Injury에 듣는다  <!-- 시험 3건 · 논문 112편 --> — 근거 없음(2026-08-11 조회, "balance sensor" AND "Brain Injury")
+- [x] motion sensor — Parkinson에 듣는다  <!-- 시험 5건 · 논문 477편 -->
+- [x] motion sensor — Sleep Disorders에 듣는다  <!-- 시험 4건 · 논문 72편 -->
+- [x] motion sensor — Sport Injury에 듣는다  <!-- 시험 4건 · 논문 623편 --> — 근거 없음(2026-08-11 조회, "motion sensor" AND "Sport Injury")
+- [x] motion sensor — Knee Arthropathy에 듣는다  <!-- 시험 3건 · 논문 265편 --> — 근거 없음(2026-08-11 조회, "motion sensor" AND "Knee Arthropathy")
+- [x] robotic arm — Cancer에 듣는다  <!-- 시험 49건 · 논문 996편 --> — 항암 주제 제외(2026-08-11)
+- [x] robotic arm — Knee Disease에 듣는다  <!-- 시험 16건 · 논문 32편 --> — 등록시험 결과 대기(2026-08-11, NCT03106558·NCT02058069)
+- [x] voice therapy — Vocal Fatigue에 듣는다  <!-- 시험 13건 · 논문 8744편 -->
+- [x] voice therapy — Vocal Fold Polyp에 듣는다  <!-- 시험 7건 · 논문 311편 -->
+- [x] voice therapy — Laryngeal Carcinoma에 듣는다  <!-- 시험 7건 · 논문 1120편 --> — 항암 주제 제외(2026-08-11)
+- [x] biofeedback wearable — Chronic Pain에 듣는다  <!-- 시험 3건 · 논문 16편 -->
+- [x] speech therapy app — Aphasia에 듣는다  <!-- 시험 4건 · 논문 31편 -->
+- [x] speech therapy app — Hearing Loss에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-11 조회, "speech therapy app" AND "Hearing Loss")
