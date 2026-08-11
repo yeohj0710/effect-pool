@@ -1,0 +1,28 @@
+{
+  "id": "ai-chatbot-depression-pos",
+  "subj": "AI chatbot",
+  "claim": "생성형 AI 챗봇을 우울 증상에 쓴다",
+  "line": "AI 챗봇군은 대조군보다 PHQ-9 우울점수가 낮아졌습니다",
+  "effect": "PHQ-9 d -0.47·-0.44",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 185,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "생성형 AI 챗봇의 우울 증상 사용은 허가 적응증이 아닌 실험적 사용입니다",
+  "why": "성인 185명을 세 군에 무작위 배정해 생성형 AI 치료 챗봇, 일반 ChatGPT, 평가만 한 대조군을 비교한 시험입니다",
+  "saw": "적격자 147명 중 AI 치료군 44명, ChatGPT군 60명, 대조군 43명이 3주간 참여했습니다. 두 챗봇군의 PHQ-9가 대조군보다 유의하게 낮아졌고 AI 치료군과 ChatGPT군 사이 차이는 없었습니다",
+  "limit": "적격자 중 완주율이 낮았고 온라인 자기보고와 3주 추적에 의존했습니다. 불안·웰빙 등 다른 결과는 유의한 차이가 없었습니다",
+  "against": "구조화된 AI 치료 챗봇이 일반 ChatGPT보다 우울·불안 결과를 더 좋게 만들지는 못했습니다",
+  "use": "챗봇의 우울 증상 신호는 짧은 보조 중재 결과로 보고 장기 치료 효과와 구분합니다",
+  "refs": [
+    { "label": "완전 자동화 모바일 치료와 일반 챗봇 · 무작위 실행가능성 시험", "doi": "10.2196/82642", "pmid": "42018980" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"AI chatbot\" AND \"Depression\" → 17건 반환, intervention 이름 대조 통과 1건",
+    "pubmed": "\"AI chatbot\" AND \"Depression\" → 17건, PMID 42018980 직접 무작위 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 7건",
+    "safety": "\"AI chatbot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 16건"
+  }
+}

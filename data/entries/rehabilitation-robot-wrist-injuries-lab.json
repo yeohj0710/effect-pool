@@ -1,0 +1,28 @@
+{
+  "id": "rehabilitation-robot-wrist-injuries-lab",
+  "subj": "rehabilitation robot",
+  "claim": "손목 재활 로봇을 손목 손상 운동에 쓴다",
+  "line": "손목 재활 로봇이 근전위로 환자 운동을 보조하도록 개발됐습니다",
+  "effect": "장치 개발 결과",
+  "tier": "lab",
+  "dir": "open",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "손목 재활 로봇은 허가 적응증이 아닌 실험적 기기 사용입니다",
+  "why": "손목 손상 환자를 위한 로봇 장치의 설계·개발 논문은 있지만 환자에게 시행한 효능 결과는 보고하지 않았습니다",
+  "saw": "연구진은 근전위로 환자의 운동 의도를 감지하고 손목 운동을 보조하는 소형 로봇과 양손 거울훈련 시스템을 개발했습니다",
+  "limit": "장치 개발 논문이라 사람 수와 임상 기능 결과가 없습니다. 손목 손상 회복 효과를 판단할 수 없습니다",
+  "against": "손목 손상 환자를 대상으로 한 무작위시험이나 임상 결과는 찾지 못했습니다",
+  "use": "장치 가능성과 환자 기능 회복 근거를 따로 기록합니다",
+  "refs": [
+    { "label": "Research and development of compact wrist rehabilitation robot system · 장치 개발", "doi": "10.3233/BME-130792", "pmid": "24211891" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"rehabilitation robot\" AND \"Wrist Injuries\" → 1건 반환, intervention 이름 대조 통과 0건",
+    "pubmed": "\"rehabilitation robot\" AND \"Wrist Injuries\" → 1건, PMID 24211891 장치 개발",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
+    "safety": "\"rehabilitation robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 18건"
+  }
+}
