@@ -31,10 +31,10 @@
   "dirs": { "pos": 3144, "null": 1056, "open": 1019, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 13046,
-    "unchecked": 2496,
+    "checked": 13056,
+    "unchecked": 2486,
     "no_evidence_pending": 1991,
-    "note": "batch 1224에서 처방 주제 10개를 기존 3개 항목에 연결하고 새 근거 7개를 추가했다. 다음 미처리 줄은 1721번 rosuvastatin — Dyslipidemia에 듣는다이며 2,496개가 남았다."
+    "note": "batch 1225에서 처방 주제 10개를 기존 근거 항목에 연결했다. 다음 미처리 줄은 1765번 quetiapine — Bipolar에 듣는다이며 2,486개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1225 starts after batch 1224; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 1721: rosuvastatin — Dyslipidemia에 듣는다; 2,496 unchecked remain.",
+  "next": "batch 1226 starts after batch 1225; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 1765: quetiapine — Bipolar에 듣는다; 2,486 unchecked remain.",
   "last_batch": {
-    "id": "1224",
-    "commit": "41317d00",
+    "id": "1225",
+    "commit": "a7fa5ece",
     "pushed": true,
     "processed_topics": 10,
     "new_entries": 7,
     "existing_links": 3,
     "no_evidence_rejects": 0,
     "build": "5368 entries · 7674 refs · 4551 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "raloxifene—Breast Cancer, allopurinol—Gout·Lymphoma·Kidney Stones를 기존 근거 항목에 연결하고, venlafaxine—Depressive Episode·Anxiety, clopidogrel—Stroke·Infarction, valsartan—Heart Failure, rosuvastatin—Hypercholesterolemia·Dyslipidemia 근거를 추가했다.",
-    "research_batch": "처방 주제 10개 중 기존 항목 3개를 연결하고 새 항목 7개를 작성했다. 새 항목은 ClinicalTrials.gov와 PubMed 조회, 음성 결과 검색, 안전성 검색을 기록했으며 숫자 비교 결과를 넣었다. 비처방 주제는 남아 있지 않았다.",
+    "research": "rosuvastatin—Dyslipidemia, aspirin—Stroke·Brain Infarction, propranolol—Migraine, naltrexone—Alcoholism, amitriptyline—Depression, topiramate—Epilepsy·Seizures, trazodone—Depression·Major Depressive Disorder를 기존 근거 항목에 연결했다. 각 기존 항목의 ClinicalTrials.gov·PubMed 조회 기록을 유지했다.",
+    "research_batch": "처방 주제 10개를 새 파일 없이 기존 rosuvastatin·aspirin 2개·propranolol·naltrexone·amitriptyline·topiramate 2개·trazodone 2개 근거 항목에 연결했다. 비처방 주제는 남아 있지 않았다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
