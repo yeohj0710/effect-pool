@@ -1,0 +1,23 @@
+{
+  "id": "ginseng-breast-cancer-open",
+  "subj": "인삼",
+  "claim": "인삼이 유방암을 치료한다",
+  "line": "인삼과 유방암 연구는 있지만 사람 항암효과의 직접 수치는 확인되지 않았습니다.",
+  "effect": "유방암 치료 근거 미확인",
+  "tier": "obs",
+  "dir": "open",
+  "known": "off",
+  "knownWhy": "인삼은 보충제이며 유방암 치료제를 대체하지 않습니다",
+  "why": "인삼과 유방암의 ClinicalTrials.gov·PubMed 결과를 검색했습니다",
+  "saw": "증상·피로·보조요법·전임상 연구가 섞여 있어 인삼 단독 항암효과를 분리하지 못했습니다",
+  "limit": "인삼 종류와 추출물, 항암제 병용이 달라 생존효과로 일반화할 수 없습니다",
+  "against": "항암치료와 호르몬치료를 인삼으로 대체하지 말고 약물상호작용을 확인합니다",
+  "use": "유방암에서 인삼 관련 임상시험의 직접 결과 공개 여부를 추적합니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "인삼·유방암 검색 문헌(직접 항암효과 미확인)", "pmid": "42190415" },
+    { "label": "ClinicalTrials.gov ginseng·Breast Cancer 검색", "nct": "NCT03730298" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=ginseng AND query.cond=Breast Cancer; 7건, NCT03730298 등 확인", "pubmed": "ginseng AND Breast Cancer; 184건", "negative": "ginseng AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "ginseng AND (adverse OR toxicity OR bleeding OR case report); 검색 결과 확인" }
+}

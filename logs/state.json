@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5194,
+  "entries": 5215,
   "subjects": 2108,
-  "refs": 7376,
+  "refs": 7418,
   "kinds": {
     "otc": 95,
-    "supp": 310,
+    "supp": 330,
     "food": 447,
     "move": 596,
     "life": 1158,
     "care": 654,
-    "rx": 1926
+    "rx": 1935
   },
-  "tiers": { "trial": 4417, "obs": 691, "animal": 26, "lab": 14, "case": 46 },
-  "dirs": { "pos": 3076, "null": 1036, "open": 935, "harm": 147 },
+  "tiers": { "trial": 4420, "obs": 709, "animal": 26, "lab": 14, "case": 46 },
+  "dirs": { "pos": 3079, "null": 1036, "open": 953, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12551,
-    "unchecked": 2991,
+    "checked": 12581,
+    "unchecked": 2961,
     "no_evidence_pending": 1998,
-    "note": "batch 1200에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 20개를 만들고 기존 항목 10개를 연결했다. 다음 미처리 줄은 541번 duloxetine — Pain에 듣는다이다."
+    "note": "batch 1201에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 21개를 만들고 기존 항목 9개를 연결했다. 다음 미처리 줄은 572번 ondansetron — Anesthesia에 듣는다이며 2,961개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,13 +43,13 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "16% (약국약·보충제·음식 852건). 목표는 25%",
-    "rx_share": "37% (1,934건). 줄어야 한다",
+    "over_counter_share": "17% (약국약·보충제·음식 872건). 목표는 25%",
+    "rx_share": "37% (1,935건). 줄어야 한다",
     "no_effect_or_harm_share": "23% (1,183건). 목표는 33% 위",
-    "vs_share": "3.5% (184건)",
+    "vs_share": "3.6% (187건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.0% (4,417건)",
-    "non_trial_share": "15.0% (777건)",
+    "trial_share": "84.8% (4,420건)",
+    "non_trial_share": "15.2% (795건)",
     "build_warnings": { "unknown_n": 424, "thin_study": 947 }
   },
   "deployment": {
@@ -58,16 +58,14 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1201 starts after batch 1200; pull and read AGENTS.md first. Resume at worklist line 541: duloxetine — Pain에 듣는다; 2,991 unchecked remain.",
+  "next": "batch 1202 starts after batch 1201; pull and read AGENTS.md first. Resume at worklist line 572: ondansetron — Anesthesia에 듣는다; 2,961 unchecked remain.",
   "last_batch": {
-    "id": "1200",
-    "commit": "4d242e8e",
-    "pushed": true,
+    "id": "1201",
+    "commit": "PENDING",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 20,
-    "existing_links": 10,
-    "build": "5194 entries · 7376 refs · 4417 trial · 691 obs · 26 animal · 14 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 비사코딜-장마비, 락툴로오스-간성뇌증·대장내시경·장내 세균총·문맥고혈압, 살리실산-급성관상동맥증후군, 오를리스타트-비만·자궁내막암, 비타민 K2-대동맥판막질환·신장질환·혈전, 아연-HIV·폐렴, 마그네슘-건강한 성인·단백질 결핍, 철분-빈혈·심부전·체중감량·임신, 셀레늄-패혈증의 비처방 주제 20개를 확인했다. 신규 20개를 만들고 기존 케타민-마취, 프라조신-고혈압, 부프로피온-주요우울증·담배 사용·우울증, 실데나필-발기부전, 비마토프로스트-안구고혈압, 보툴리눔 독소-방광질환·경직·미간주름 항목 10개를 연결했다. 직접 비교 수치가 없는 조합은 open으로 남겼고, 세포실험은 lab, 사람 표본수를 확인하지 못한 메타분석은 n을 비워 두었다.",
+    "build": "5215 entries · 7418 refs · 4420 trial · 709 obs · 26 animal · 14 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 오메가3-우울증, 프로바이오틱스-설사·체중감량·영아영양·1형 당뇨병, 콜라겐 펩타이드-피부·통증·근손실·무릎손상, 글루코사민-골관절염, 커큐민-대장암·건강한 성인·인지저하·과민성장증후군, 인삼-유방암·스트레스·약물흡수, 은행잎 추출물-인지 변화, 코엔자임Q10-우울증·급성신장손상 비처방 주제 20개를 확인했다. 콜라겐 피부, 은행잎 인지 변화, 둘록세틴 골관절염에서 직접 수치가 있는 시험·메타분석을 반영했고, 나머지는 직접 비교군 수치가 없어 open으로 남겼다. 처방 주제 10개 중 새로 만든 둘록세틴 골관절염을 제외한 9개는 기존 항목에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
