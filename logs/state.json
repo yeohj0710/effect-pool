@@ -1,67 +1,67 @@
 {
   "updated": "2026-08-11",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4814,
+  "entries": 4825,
   "worklist": {
-    "total": 14966,
-    "checked": 14966,
+    "total": 14982,
+    "checked": 14982,
     "unchecked": 0,
-    "no_evidence_pending": 1953,
+    "no_evidence_pending": 1958,
     "next_batch": [],
     "additional_hold": []
   },
   "verification": {
-    "build": "passed; batch 1176 produced 20 candidates on the first mixed expansion, processed 20 lines, added 11 evidence entries for virtual patient, robotic pet, wearable sleep monitor, home monitoring, and virtual reality headset, closed 10 oncology or direct-no-evidence lines, tightened 20 legacy sentences, and pushed data bc059f60 plus legacy c091ee9d; build matched at 4814 entries and 6777 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1177 produced 16 candidates on the first non-drug expansion, processed 16 lines, added 11 evidence entries for smart home, head-mounted display, virtual avatar, home telemonitoring, and remote blood pressure monitoring, closed 5 direct-no-evidence lines, tightened 20 legacy sentences, and pushed data dcbcfbf8 plus legacy 25af06af; build matched at 4825 entries and 6788 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 376,
     "known_warnings": 0,
-    "thin_warnings": 899,
+    "thin_warnings": 900,
     "tier_distribution": {
-      "trial": 4126,
-      "obs": 608,
+      "trial": 4132,
+      "obs": 612,
       "animal": 25,
       "lab": 12,
-      "case": 43
+      "case": 44
     },
-    "no_effect_or_harm": 1107,
+    "no_effect_or_harm": 1108,
     "harm": 144,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 688,
-    "trial_share": "85.7%",
-    "non_trial_share": "14.3%",
+    "non_trial": 693,
+    "trial_share": "85.6%",
+    "non_trial_share": "14.4%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6777
+    "connected_evidence": 6788
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
     "checked_at": "2026-08-11",
     "six_round_check": {
-    "batches": "1171",
+    "batches": "1177",
       "http_status": 200,
-      "local_entry_count": 4775,
-    "public_entry_count": 4775,
-    "local_id_field_count": 4775,
-    "public_id_field_count": 4775,
-    "local_ref_count": 6736,
-    "public_ref_count": 6736,
+      "local_entry_count": 4825,
+    "public_entry_count": 4825,
+    "local_id_field_count": 4825,
+    "public_id_field_count": 4825,
+    "local_ref_count": 6788,
+    "public_ref_count": 6788,
       "shard": 48,
-    "detail_shards_ok": "single index DATA verified",
-      "detail_entry_count": 4775,
+    "detail_shards_ok": "101 detail shards verified in all 6 rounds",
+      "detail_entry_count": 4825,
       "counts_match": true,
       "automatic_deployment_lag_entries": 0,
       "vercel_prod_required": false,
-    "data_sha256": "972ead6e82dd15634b0c9e5cfbda83fb463f151076c36719e5e6b3243c050324"
+    "data_sha256": "b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa"
     },
-    "latest_note": "The official six-round HTTP 200 public/local check after batch 1171 matched in all 6 rounds at 4775 entries, 4775 id fields, 6736 refs, shard 48, and 4775 detail entries with identical DATA SHA-256 972ead6e82dd15634b0c9e5cfbda83fb463f151076c36719e5e6b3243c050324; automatic Git deployment was sufficient, so vercel --prod was not required; the next official check is due after batch 1177."
+    "latest_note": "The official six-round HTTP 200 public/local check after batch 1177 matched in all 6 rounds at 4825 entries, 4825 id fields, 6788 refs, shard 48, and 4825 detail entries with identical DATA SHA-256 b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa; 101 detail shards were verified per round; automatic Git deployment was sufficient, so vercel --prod was not required; the next official check is due after batch 1183."
   },
   "resume": {
-    "last_committed_batch": "batch 1176 data in commit bc059f60 and legacy sentences in c091ee9d pushed; state checkpoint follows",
-    "last_batch": "batch 1176 started with 0 unchecked lines; the first mixed expansion produced 20 candidates, so no second expansion was needed; processed 20 lines, closed 10 oncology or direct-no-evidence lines, added 11 evidence entries for virtual patient, robotic pet, wearable sleep monitor, home monitoring, and virtual reality headset, tightened 20 legacy sentences, and pushed data bc059f60 plus legacy c091ee9d; build matched at 4814 entries and 6777 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177",
-    "next_batch": "batch 1177",
-    "next_six_round_check": "after batch 1177",
+    "last_committed_batch": "batch 1177 data in commit dcbcfbf8 and legacy sentences in 25af06af pushed; state checkpoint follows",
+    "last_batch": "batch 1177 started with 0 unchecked lines; the first non-drug expansion produced 16 candidates, so no second expansion was needed; processed 16 lines, closed 5 direct-no-evidence lines, added 11 evidence entries for smart home, head-mounted display, virtual avatar, home telemonitoring, and remote blood pressure monitoring, tightened 20 legacy sentences, and pushed data dcbcfbf8 plus legacy 25af06af; build matched at 4825 entries and 6788 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the official six-round public/local check matched all 6 rounds with identical DATA SHA-256 b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa; the next official check is due after batch 1183",
+    "next_batch": "batch 1178",
+    "next_six_round_check": "after batch 1183",
     "untracked_preserved": [
       "build-batch283.log",
       "build-batch410.log",
@@ -575,8 +575,9 @@
     "batch 1173 started with 0 unchecked lines; the first mixed expansion produced 18 candidates, so no second expansion was needed; processed 18 lines, closed 9 no-evidence or oncology lines including 3 registry-only topics, added 12 evidence entries for virtual emergency department, remote physiologic monitoring, wearable ECG, wearable blood pressure monitor, fitness tracker, step goal, and behavioral nudges, tightened 20 legacy sentences, and pushed d7c89ca4; build matched at 4791 entries and 6752 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177.",
     "batch 1174 started with 0 unchecked lines; the first mixed expansion produced 20 candidates, so no second expansion was needed; processed 20 lines, closed 14 no-evidence or oncology lines, added 6 evidence entries for robotic surgery, air quality intervention, digital biomarker, and virtual nurse, and pushed 469ecbe1; the deferred 20 legacy sentence edits were completed in batch 1175; build matched at 4797 entries and 6758 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177.",
     "batch 1175 started with 0 unchecked lines; the first mixed expansion produced 17 candidates, so no second expansion was needed; processed 17 lines, closed 12 no-evidence or oncology lines, added 6 evidence entries for augmented reality and virtual human, completed the deferred 20 legacy sentence edits, and pushed 584cdb01; build matched at 4803 entries and 6765 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177.",
-    "batch 1176 started with 0 unchecked lines; the first mixed expansion produced 20 candidates, so no second expansion was needed; processed 20 lines, closed 10 oncology or direct-no-evidence lines, added 11 evidence entries for virtual patient, robotic pet, wearable sleep monitor, home monitoring, and virtual reality headset, tightened 20 legacy sentences, and pushed data bc059f60 plus legacy c091ee9d; build matched at 4814 entries and 6777 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177."
+    "batch 1176 started with 0 unchecked lines; the first mixed expansion produced 20 candidates, so no second expansion was needed; processed 20 lines, closed 10 oncology or direct-no-evidence lines, added 11 evidence entries for virtual patient, robotic pet, wearable sleep monitor, home monitoring, and virtual reality headset, tightened 20 legacy sentences, and pushed data bc059f60 plus legacy c091ee9d; build matched at 4814 entries and 6777 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177.",
+    "batch 1177 started with 0 unchecked lines; the first non-drug expansion produced 16 candidates, so no second expansion was needed; processed 16 lines, closed 5 direct-no-evidence lines, added 11 evidence entries for smart home, head-mounted display, virtual avatar, home telemonitoring, and remote blood pressure monitoring, tightened 20 legacy sentences, and pushed data dcbcfbf8 plus legacy 25af06af; build matched at 4825 entries and 6788 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the official six-round public/local check matched all 6 rounds with identical DATA SHA-256 b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa; automatic Git deployment was sufficient and vercel --prod was not required; next official check is due after batch 1183."
   ],
-  "current_batch": "batch 1176 checkpoint: 4814 entries/6777 refs; the first mixed expansion produced 20 candidates, so no second expansion was needed; 10 oncology or direct-no-evidence lines were closed, 11 evidence entries were added, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 14966 total, 14966 checked, 0 unchecked; data commit bc059f60 and legacy commit c091ee9d pushed; next batch is 1177",
-  "next_action": "start batch 1177 with git pull, read AGENTS.md, count remaining work, expand with a mixed branch when below 30, gate approvals before research, then build, commit, push, update state, and continue looping; next official six-round public/local check is due after batch 1177"
+  "current_batch": "batch 1177 checkpoint: 4825 entries/6788 refs; the first non-drug expansion produced 16 candidates, so no second expansion was needed; 5 direct-no-evidence lines were closed, 11 evidence entries were added, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 14982 total, 14982 checked, 0 unchecked; data commit dcbcfbf8 and legacy commit 25af06af pushed; the official six-round public/local check matched all 6 rounds; next batch is 1178",
+  "next_action": "start batch 1178 with git pull, read AGENTS.md, count remaining work, expand with a mixed branch when below 30, gate approvals before research, then build, commit, push, update state, and continue looping; next official six-round public/local check is due after batch 1183"
 }
