@@ -20424,3 +20424,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual nurse — Nursing에 듣는다  <!-- 시험 10건 · 논문 2387편 -->
 - [x] online volunteering — Cardiac Arrest에 듣는다 — 근거 없음(2026-08-11 조회, 직접 결과 0편)  <!-- 시험 3건 · 논문 31편 -->
 - [x] online volunteering — Social Isolation에 듣는다 — 근거 없음(2026-08-11 조회, 직접 결과 0편)  <!-- 시험 3건 · 논문 58편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] augmented reality — Cancer에 듣는다  <!-- 시험 12건 · 논문 956편 --> — 허가 적응증(2026-08-11)
+- [x] augmented reality — Pain에 듣는다  <!-- 시험 12건 · 논문 348편 -->
+- [x] augmented reality — Anxiety에 듣는다  <!-- 시험 11건 · 논문 200편 -->
+- [x] augmented reality — Education에 듣는다  <!-- 시험 11건 · 논문 2566편 -->
+- [x] mixed reality — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Cerebral Palsy")
+- [x] mixed reality — Education에 듣는다  <!-- 시험 4건 · 논문 3588편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Education")
+- [x] mixed reality — Kidney Tumor에 듣는다  <!-- 시험 4건 · 논문 65편 --> — 허가 적응증(2026-08-11)
+- [x] mixed reality — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Multiple Sclerosis")
+- [x] virtual human — Pain에 듣는다  <!-- 시험 7건 · 논문 3739편 -->
+- [x] virtual human — Frail Elderly에 듣는다  <!-- 시험 5건 · 논문 74편 --> — 근거 없음(2026-08-11 조회, "virtual human" AND "Frail Elderly")
+- [x] virtual human — Stroke에 듣는다  <!-- 시험 4건 · 논문 2484편 --> — 근거 없음(2026-08-11 조회, "virtual human" AND "Stroke")
+- [x] virtual human — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 5199편 -->
+- [x] care robot — Spinal Cord Injuries에 듣는다  <!-- 시험 5건 · 논문 91편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Spinal Cord Injuries")
+- [x] care robot — Prostate Cancer에 듣는다  <!-- 시험 4건 · 논문 875편 --> — 허가 적응증(2026-08-11)
+- [x] care robot — Gait, Hemiplegic에 듣는다  <!-- 시험 4건 · 논문 81편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Gait, Hemiplegic")
+- [x] care robot — Urinary Infections에 듣는다  <!-- 시험 3건 · 논문 126편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Urinary Infections")
+- [x] rest breaks — Work Related Stress에 듣는다  <!-- 시험 4건 · 논문 111편 --> — 근거 없음(2026-08-11 조회, "rest breaks" AND "Work Related Stress")
