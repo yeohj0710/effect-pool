@@ -2182,20 +2182,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] prednisolone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — 신규 항목(prednisolone-cancer-null)
 - [x] prednisolone — Pain에 듣는다  <!-- 등록 시험 25건 -->
 - [x] prednisolone — Myeloma에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] dexamethasone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 85건 -->
+- [x] dexamethasone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 85건 --> — 신규 항목(dexamethasone-leukemia-null)
 - [x] dexamethasone — Pain에 듣는다  <!-- 등록 시험 81건 -->
-- [ ] dexamethasone — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 64건 -->
-- [ ] dexamethasone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 -->
-- [ ] hydrocortisone — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
-- [ ] hydrocortisone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
-- [ ] hydrocortisone — Adrenal Insufficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
+- [x] dexamethasone — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 64건 --> — 신규 항목(dexamethasone-lymphoma-open)
+- [x] dexamethasone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 --> — 신규 항목(dexamethasone-cancer-harm)
+- [x] hydrocortisone — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 신규 항목(hydrocortisone-lymphoma-open)
+- [x] hydrocortisone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 신규 항목(hydrocortisone-cancer-pos)
+- [x] hydrocortisone — Adrenal Insufficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 --> — 신규 항목(hydrocortisone-adrenal-insufficiency-pos)
 - [x] hydrocortisone — Shock에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] enoxaparin — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 -->
-- [ ] enoxaparin — Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] enoxaparin — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 --> — 신규 항목(enoxaparin-thrombosis-pos)
+- [x] enoxaparin — Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 신규 항목(enoxaparin-embolism-pos)
 - [x] enoxaparin — Cancer에 듣는다  <!-- 등록 시험 26건 -->
 - [x] enoxaparin — COVID에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] apixaban — Thromboembolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 77건 -->
-- [ ] apixaban — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] apixaban — Thromboembolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 77건 --> — 신규 항목(apixaban-thromboembolism-pos)
+- [x] apixaban — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — 신규 항목(apixaban-thrombosis-pos)
 - [ ] apixaban — Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [ ] apixaban — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 -->
 - [x] rivaroxaban — Atrial Flutter에 듣는다  <!-- 등록 시험 118건 -->
