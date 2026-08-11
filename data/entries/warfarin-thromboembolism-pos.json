@@ -1,0 +1,27 @@
+{
+  "id": "warfarin-thromboembolism-pos",
+  "subj": "와파린",
+  "claim": "정맥혈전색전증 치료를 마친 환자에서 저강도 와파린은 위약보다 재발 VTE를 줄였습니다.",
+  "line": "저강도 와파린은 VTE 치료 후 재발을 줄였습니다.",
+  "effect": "재발 VTE 2.6 대 7.2건/100인년",
+  "vs": "508명 시험에서 저강도 와파린 255명은 위약 253명보다 재발 VTE가 2.6 대 7.2건/100인년(HR 0.36)으로 적었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 508,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "와파린은 정맥혈전증·폐색전증의 치료와 재발 예방에 허가된 비타민 K 길항제입니다.",
+  "why": "정맥혈전색전증 치료를 마친 환자 508명을 저강도 와파린 또는 위약에 무작위 배정한 재발 예방시험입니다.",
+  "saw": "저강도 와파린은 위약보다 재발 VTE를 줄였습니다.",
+  "limit": "저강도 용량의 재발 예방시험이며 표준 INR 목표와 직접 같은 치료로 해석할 수 없습니다.",
+  "against": "출혈, 약물·음식 상호작용, 간기능과 INR 변동을 지속해서 확인해야 합니다.",
+  "use": "초기 VTE 치료 후 재발 예방에서 와파린의 효과를 설명할 때 사용합니다.",
+  "refs": [{ "label": "2003 · 정맥혈전색전증 재발 예방 저강도 와파린", "pmid": "12601075" }],
+  "queried": {
+    "date": "2026-08-12",
+    "ctgov": "warfarin AND Thromboembolism → 112건 반환",
+    "pubmed": "warfarin AND Thromboembolism → 8,801건",
+    "negative": "warfarin AND Thromboembolism AND (no effect OR did not OR failed OR negative OR no significant difference) → 5,778건",
+    "safety": "warfarin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 18,001건"
+  }
+}
