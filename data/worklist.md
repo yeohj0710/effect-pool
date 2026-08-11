@@ -1762,24 +1762,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 새 항목(doxycycline-rosacea-pos)
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — 기존 항목(doxycycline-syphilis-pos)
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — 새 항목(doxycycline-periodontitis-pos)
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — 기존 항목(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — 기존 항목(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — 기존 항목(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 204건 -->
