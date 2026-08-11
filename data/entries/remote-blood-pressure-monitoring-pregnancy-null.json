@@ -1,0 +1,28 @@
+{
+  "id": "remote-blood-pressure-monitoring-pregnancy-null",
+  "subj": "remote blood pressure monitoring",
+  "claim": "고위험 임신 원격 혈압 측정이 주산기 결과를 바꾸지는 않지만 외래 방문을 줄인다",
+    "line": "주산기 결과 차이는 없었습니다",
+  "effect": "주산기 HR 1.0; 방문 p<.01",
+  "tier": "trial",
+  "dir": "null",
+  "n": 270,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "임신 원격 혈압 측정은 고위험 임신 관리의 허가 적응증이 아닌 모니터링 중재입니다",
+  "why": "전자 혈압계와 스마트폰 앱을 사용한 임신부 270명을 병원 방문군과 무작위 비교한 비열등성 시험입니다",
+  "saw": "고위험 임신부 270명 중 132명이 원격 혈압 측정을, 138명이 통상 외래 방문을 받았습니다. 주산기 복합 결과는 같았고 원격군은 외래 방문과 계획 입원이 더 적었습니다",
+  "limit": "비열등성 시험이라 주산기 결과의 개선을 검증한 연구가 아니며 원격군에서 항고혈압제 처방은 더 많았습니다",
+  "against": "주산기 복합 결과와 다른 태아·산모 결과에는 군 간 차이가 없었습니다",
+  "use": "임신 원격 혈압 관리에서 안전성, 외래 이용, 약 처방을 분리해 기록합니다",
+  "refs": [
+    { "label": "A randomized controlled trial comparing remote blood pressure monitoring with office-based blood pressure monitoring for women at high risk of preeclampsia · 비열등성 무작위시험", "pmid": "42025715" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"remote blood pressure monitoring\" AND \"Pregnancy\" → 17건",
+    "pubmed": "\"remote blood pressure monitoring\" AND \"Pregnancy\" → 45건, PMID 42025715 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 21건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 9건"
+  }
+}

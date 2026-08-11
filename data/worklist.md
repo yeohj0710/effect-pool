@@ -20481,3 +20481,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality headset — Cancer에 듣는다  <!-- 시험 32건 · 논문 69편 --> — 항암 주제 제외(2026-08-11)
 - [x] virtual reality headset — Stress에 듣는다  <!-- 시험 21건 · 논문 74편 -->
 - [x] virtual reality headset — Education에 듣는다  <!-- 시험 18건 · 논문 364편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] smart home — Stroke에 듣는다  <!-- 시험 7건 · 논문 92편 -->
+- [x] smart home — HIV에 듣는다  <!-- 시험 5건 · 논문 21편 -->
+- [x] smart home — Sleep에 듣는다  <!-- 시험 5건 · 논문 187편 --> — 근거 없음(2026-08-11 조회, "smart home" AND "Sleep")
+- [x] sleep ring — Depression에 듣는다  <!-- 시험 3건 · 논문 86편 --> — 근거 없음(2026-08-11 조회, "sleep ring" AND "Depression")
+- [x] sleep ring — Pain에 듣는다  <!-- 시험 3건 · 논문 71편 --> — 근거 없음(2026-08-11 조회, "sleep ring" AND "Pain")
+- [x] head-mounted display — Stroke에 듣는다  <!-- 시험 3건 · 논문 67편 -->
+- [x] virtual avatar — Stroke에 듣는다  <!-- 시험 9건 · 논문 43편 -->
+- [x] virtual avatar — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 65편 -->
+- [x] home telemonitoring — Hypertension에 듣는다  <!-- 시험 11건 · 논문 251편 -->
+- [x] home telemonitoring — Diabetes에 듣는다  <!-- 시험 7건 · 논문 158편 -->
+- [x] home telemonitoring — Stroke에 듣는다  <!-- 시험 5건 · 논문 66편 -->
+- [x] home telemonitoring — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 4건 · 논문 154편 -->
+- [x] remote blood pressure monitoring — Heart Failure에 듣는다  <!-- 시험 21건 · 논문 193편 --> — 근거 없음(2026-08-11 조회, "remote blood pressure monitoring" AND "Heart Failure")
+- [x] remote blood pressure monitoring — Diabetes에 듣는다  <!-- 시험 14건 · 논문 167편 --> — 근거 없음(2026-08-11 조회, "remote blood pressure monitoring" AND "Diabetes")
+- [x] remote blood pressure monitoring — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 156편 -->
+- [x] remote blood pressure monitoring — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 1297편 -->

@@ -1,0 +1,28 @@
+{
+  "id": "remote-blood-pressure-monitoring-blood-pressure-pos",
+  "subj": "remote blood pressure monitoring",
+  "claim": "원격 혈압 모니터가 표준 혈압계와 허용 범위 안에서 일치한다",
+    "line": "표준 혈압계와 일치했습니다",
+  "effect": "수축기 차이 2.20mmHg",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 79,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "원격 혈압 기기 검증은 고혈압 치료의 허가 적응증이 아닌 측정 기기 평가입니다",
+  "why": "일반인 79명이 원격 혈압 기기와 수은 혈압계로 혈압을 측정한 기기 검증 연구입니다",
+  "saw": "검사 대상 90명 중 79명을 분석했습니다. Ideal Life BP Manager와 수은 혈압계의 평균 차이는 수축기 2.20mmHg, 이완기 1.49mmHg였고 국제 검증 기준을 충족했습니다",
+  "limit": "일반 인구 검증 연구라서 실제 원격 관리가 혈압이나 임상 결과를 개선하는지는 보여주지 않습니다",
+  "against": "수축기 측정값의 일치 한계는 -12.0~16.9mmHg로 개인별 차이가 남았습니다",
+  "use": "원격 혈압 기기에서 측정 정확도와 임상 관리 효과를 구분해 기록합니다",
+  "refs": [
+    { "label": "Validation of a Remote Monitoring Blood Pressure Device in a General Population Cohort · 기기 검증 연구", "pmid": "42319898" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"remote blood pressure monitoring\" AND \"Blood Pressure\" → 31건",
+    "pubmed": "\"remote blood pressure monitoring\" AND \"Blood Pressure\" → 95건, PMID 42319898 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 48건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 18건"
+  }
+}
