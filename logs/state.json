@@ -1,10 +1,10 @@
 {
   "updated": "2026-08-11",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4934,
+  "entries": 4940,
   "worklist": {
-    "total": 15181,
-    "checked": 15181,
+    "total": 15187,
+    "checked": 15187,
     "unchecked": 0,
     "no_evidence_pending": 2012,
     "next_batch": [],
@@ -14,7 +14,7 @@
     ]
   },
   "verification": {
-    "build": "passed; batch 1186 produced 0 candidates in the first expansion and 16 in a different supplement and non-drug expansion, processed 16 topics, added 6 evidence entries, closed 5 direct-no-evidence or oncology lines, left 5 registry-only or no-direct-result lines pending, tightened 20 legacy sentences, and pushed 6b2ec6a5; build matched at 4934 entries and 6925 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1187 produced 3 candidates in the first expansion and 3 in a different supplement and non-drug expansion, processed all 6 topics after stopping expansion below 10 candidates, added 6 evidence entries for colostrum, bee venom, and tea polyphenols, tightened 20 legacy sentences, and pushed 763a1dca; build matched at 4940 entries and 6934 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
@@ -23,20 +23,20 @@
     "known_warnings": 0,
     "thin_warnings": 932,
     "tier_distribution": {
-      "trial": 4219,
+      "trial": 4225,
       "obs": 631,
       "animal": 25,
       "lab": 13,
       "case": 46
     },
-    "no_effect_or_harm": 1136,
+    "no_effect_or_harm": 1138,
     "harm": 147,
     "no_effect_or_harm_share": "23%",
     "non_trial": 715,
     "trial_share": "85.5%",
     "non_trial_share": "14.5%",
     "unexpected_benefit_entries": 33,
-    "connected_evidence": 6925
+    "connected_evidence": 6934
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -61,9 +61,9 @@
     "latest_note": "The official six-round HTTP 200 public/local check after batch 1183 matched in all 6 rounds at 4905 entries, 4905 id fields, 6875 refs, shard 48, and 4905 detail entries with identical DATA SHA-256 c0eb99b20360a65d3ba1f18c1450827184eb5eae92dd8c8dd0008856affec889; 103 detail shards were verified per round. Automatic deployment included the 17 new entries but lagged the 20 legacy sentence edits, so vercel --prod was required; the next official check is due after batch 1189."
   },
   "resume": {
-    "last_committed_batch": "batch 1186 data and legacy sentences in commit 6b2ec6a5 pushed; state checkpoint follows",
-    "last_batch": "batch 1186 started with 0 unchecked lines; the first expansion produced 0 candidates and a different second expansion produced 16, processed 16 topics, added 6 evidence entries for cannabis, LSD, kava, and sleep, closed 5 direct-no-evidence or oncology lines, left 5 registry-only or no-direct-result lines pending, tightened 20 legacy sentences, and pushed 6b2ec6a5; build matched at 4934 entries and 6925 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all worklist lines are checked; the next official six-round public/local check is due after batch 1189",
-    "next_batch": "batch 1187",
+    "last_committed_batch": "batch 1187 data and legacy sentences in commit 763a1dca pushed; state checkpoint follows",
+    "last_batch": "batch 1187 started with 0 unchecked lines; the first supplement and non-drug expansion produced 3 candidates and a different second expansion produced 3, so expansion stopped after the second attempt; processed all 6 topics, added 6 evidence entries for colostrum, bee venom, and tea polyphenols, tightened 20 legacy sentences, and pushed 763a1dca; build matched at 4940 entries and 6934 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all worklist lines are checked; the next official six-round public/local check is due after batch 1189",
+    "next_batch": "batch 1188",
     "next_six_round_check": "after batch 1189",
     "untracked_preserved": [
       "build-batch283.log",
@@ -73,6 +73,7 @@
     ]
   },
   "history": [
+    "batch 1187 started with 0 unchecked lines; the first supplement and non-drug expansion produced 3 candidates and a different second expansion produced 3, so expansion stopped after the second attempt; processed all 6 topics, added 6 evidence entries for colostrum, bee venom, and tea polyphenols, tightened 20 legacy sentences, and pushed 763a1dca; build matched at 4940 entries and 6934 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all 15187 worklist lines are checked; next official six-round public/local check is due after batch 1189.",
     "batch 1186 started with 0 unchecked lines; the first supplement and non-drug expansion produced 0 candidates and a different second expansion produced 16, processed 16 topics, added 6 evidence entries for cannabis, LSD, kava, and sleep, closed 5 direct-no-evidence or oncology lines, left 5 registry-only or no-direct-result lines pending, tightened 20 legacy sentences, and pushed 6b2ec6a5; build matched at 4934 entries and 6925 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all 15181 worklist lines are checked; next official six-round public/local check is due after batch 1189.",
     "batch 728-733 official six-round check: HTTP 200; public/local matched at 4270 entries, 4275 id fields, 5919 refs, shard 48",
     "batch 734 processed 0 topics because all 30 unchecked lines were oncology holds or exhausted lookup failures; tightened 20 legacy claims; data commit 97226b68 was pushed",
@@ -590,6 +591,6 @@
     "batch 1184 started with 5 unchecked lines; one mixed supplement and non-drug expansion produced 14 candidates, processed 19 topics, added 14 evidence entries for quercetin, capsaicin, L-arginine, ginkgo biloba, krill oil, and beta-alanine, closed 3 registry-only topics as result-pending and 2 approved indications, recorded the capsaicin cough side-effect-as-benefit signal, tightened 20 legacy sentences, and pushed 4d9586b6; build matched at 4919 entries and 6898 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all 15148 worklist lines are checked; next official check is due after batch 1189.",
     "batch 1185 started with 0 unchecked lines; the first expansion produced 0 candidates and a different second expansion produced 17, processed 17 topics, added 9 evidence entries for MSM, probiotics, laughter, and intermittent pneumatic compression, closed 2 direct-no-evidence lines, linked 5 existing entries, marked 1 device indication as approved, tightened 20 legacy sentences, and pushed 4560322f; build matched at 4928 entries and 6915 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; all 15165 worklist lines are checked; next official check is due after batch 1189."
   ],
-  "current_batch": "batch 1186 checkpoint: 4934 entries/6925 refs; the first expansion produced 0 candidates and a different second expansion produced 16, 16 topics were processed, 5 direct-no-evidence or oncology lines were closed, 5 registry-only or no-direct-result lines were left pending, 6 evidence entries were added, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 15181 total, 15181 checked, 0 unchecked; data and legacy commit 6b2ec6a5 pushed; next batch is 1187",
-  "next_action": "start batch 1187 with git pull, read AGENTS.md, count remaining work, expand the worklist because unchecked lines are below 30, gate approvals before research, then build, commit, push, update state, and continue looping; the next official six-round public/local check is due after batch 1189"
+  "current_batch": "batch 1187 checkpoint: 4940 entries/6934 refs; the first expansion produced 3 candidates and a different second expansion produced 3, so expansion stopped after the second attempt, 6 topics were processed, 6 evidence entries were added, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 15187 total, 15187 checked, 0 unchecked; data and legacy commit 763a1dca pushed; next batch is 1188",
+  "next_action": "start batch 1188 with git pull, read AGENTS.md, count remaining work, expand the worklist because unchecked lines are below 30, gate approvals before research, then build, commit, push, update state, and continue looping; the next official six-round public/local check is due after batch 1189"
 }
