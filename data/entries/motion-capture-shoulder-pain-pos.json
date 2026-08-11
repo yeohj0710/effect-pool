@@ -1,0 +1,28 @@
+{
+  "id": "motion-capture-shoulder-pain-pos",
+  "subj": "motion capture",
+  "claim": "동작 포착을 어깨 통증의 움직임 평가에 쓴다",
+  "line": "동작 포착은 만성 어깨 통증 환자의 견갑골 움직임 차이를 잡아냈습니다",
+  "effect": "통증군 12명·대조 12명",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 24,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "동작 포착 기반 어깨 통증 평가는 허가 적응증이 아닌 관찰 연구입니다",
+  "why": "만성 어깨 통증이 있는 오버헤드 운동선수와 대조군의 견갑골 움직임을 동작 포착으로 비교한 관찰 연구입니다",
+  "saw": "운동선수 24명을 통증군 12명과 대조군 12명으로 나눠 손 위치별 팔굽혀펴기 중 3면 견갑골 운동학을 Vicon 시스템으로 측정했습니다. 통증군의 움직임 변화가 제한적이었습니다",
+  "limit": "젊은 남성 운동선수만 포함했고 동작 차이가 통증을 일으키는지 확인하지 않았습니다",
+  "against": "손 위치와 팔꿈치 폄 조건 자체가 견갑골 지표를 바꿔 통증의 독립 효과는 제한적으로 해석해야 합니다",
+  "use": "어깨 통증 평가에서 동작 포착 수치와 통증 원인을 구분합니다",
+  "refs": [
+    { "label": "Scapular kinematics in overhead athletes with chronic shoulder pain · 관찰 연구", "pmid": "40836243" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"motion capture\" AND \"Shoulder Pain\" → 4건 반환, intervention 이름 대조 통과 1건",
+    "pubmed": "\"motion capture\" AND \"Shoulder Pain\" → 27건, PMID 40836243 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 7건",
+    "safety": "\"motion capture\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 175건"
+  }
+}

@@ -20532,3 +20532,52 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fermented milk — Healthy Mothers에 듣는다  <!-- 시험 7건 · 논문 21편 --> — 근거 없음(2026-08-11 조회, "fermented milk" AND "Healthy Mothers")
 - [x] fermented milk — Constipation에 듣는다  <!-- 시험 6건 · 논문 77편 -->
 - [x] fermented milk — Hypercholesterolemia에 듣는다  <!-- 시험 3건 · 논문 58편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] blue light blocking glasses — Sleep에 듣는다  <!-- 시험 7건 · 논문 69편 --> — 근거 없음(2026-08-11 조회, "blue light blocking glasses" AND "Sleep")
+- [x] robotic wheelchair — Tetraplegia에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 근거 없음(2026-08-11 조회, "robotic wheelchair" AND "Tetraplegia")
+- [x] knee brace — Gait에 듣는다  <!-- 시험 5건 · 논문 459편 -->
+- [x] knee brace — Stroke에 듣는다  <!-- 시험 4건 · 논문 20편 -->
+- [x] knee brace — Nerve Pain에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 근거 없음(2026-08-11 조회, "knee brace" AND "Nerve Pain")
+- [x] knee brace — Spinal Cord Injuries에 듣는다  <!-- 시험 4건 · 논문 36편 --> — 근거 없음(2026-08-11 조회, "knee brace" AND "Spinal Cord Injuries")
+- [x] ankle brace — Stroke에 듣는다  <!-- 시험 11건 · 논문 39편 -->
+- [x] ankle brace — Gait에 듣는다  <!-- 시험 6건 · 논문 343편 -->
+- [x] ankle brace — Foot Drop에 듣는다  <!-- 시험 5건 · 논문 49편 -->
+- [x] assistive robot — Stroke에 듣는다  <!-- 시험 3건 · 논문 2567편 -->
+- [x] motion capture — Parkinson에 듣는다  <!-- 시험 4건 · 논문 283편 -->
+- [x] motion capture — Femoracetabular Impingement에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [x] motion capture — Shoulder Pain에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [x] motion capture — Sport Injury에 듣는다  <!-- 시험 3건 · 논문 1206편 -->
+- [x] inertial sensor — Gait에 듣는다  <!-- 시험 3건 · 논문 2392편 -->
+- [x] inertial sensor — Parkinson에 듣는다  <!-- 시험 3건 · 논문 574편 -->
+- [x] goat milk — Child Development에 듣는다  <!-- 시험 6건 · 논문 48편 -->
+- [x] goat milk — Milk Intolerance에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [x] goat milk — Growth에 듣는다  <!-- 시험 3건 · 논문 972편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] assistive robot — Stroke에 듣는다  <!-- 시험 3건 · 논문 2567편 -->
+- [x] motion capture — Parkinson에 듣는다  <!-- 시험 4건 · 논문 283편 -->
+- [x] motion capture — Femoracetabular Impingement에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [x] motion capture — Shoulder Pain에 듣는다  <!-- 시험 3건 · 논문 89편 -->
+- [x] motion capture — Sport Injury에 듣는다  <!-- 시험 3건 · 논문 1206편 -->
+- [x] inertial sensor — Gait에 듣는다  <!-- 시험 3건 · 논문 2392편 -->
+- [x] inertial sensor — Parkinson에 듣는다  <!-- 시험 3건 · 논문 574편 -->
+- [x] goat milk — Child Development에 듣는다  <!-- 시험 6건 · 논문 48편 -->
+- [x] goat milk — Milk Intolerance에 듣는다  <!-- 시험 4건 · 논문 29편 -->
+- [x] goat milk — Growth에 듣는다  <!-- 시험 3건 · 논문 972편 -->

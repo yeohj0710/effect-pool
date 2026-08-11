@@ -1,0 +1,28 @@
+{
+  "id": "ankle-brace-gait-pos",
+  "subj": "ankle brace",
+  "claim": "발목 보조기를 보행장애에 쓴다",
+  "line": "발목 보조기는 만성 발목 불안정성 환자의 이중과제 보행을 빠르게 했습니다",
+  "effect": "이중과제 보행속도 P=.027",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "발목 보조기의 보행 개선은 허가 적응증이 아닌 실험적 기기 사용입니다",
+  "why": "만성 외측 발목 불안정성 환자와 건강 대조군 60명의 보행을 보조기·테이핑 조건에서 관찰한 연구입니다",
+  "saw": "60명이 맨발, 테이핑, 발목 보조기 조건에서 단일과제·인지 이중과제 보행을 했습니다. 발목 보조기는 환자군의 이중과제 보행속도를 높였습니다",
+  "limit": "무작위 치료시험이 아닌 자기통제 전후 관찰이고 만성 발목 불안정성에 한정됩니다",
+  "against": "단일과제에서는 테이핑의 보행속도 효과가 더 뚜렷했고 건강 대조군에서도 맨발 보행의 과제 정확도가 낮았습니다",
+  "use": "발목 보조기는 불안정성 환자의 단일·이중과제 보행을 나눠 평가합니다",
+  "refs": [
+    { "label": "External ankle support and dual-task gait in chronic ankle instability · 관찰 연구", "doi": "10.1186/s13102-025-01215-1", "pmid": "40597403" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"ankle brace\" AND \"Gait\" → 60건 반환, intervention 이름 대조 통과 3건",
+    "pubmed": "\"ankle brace\" AND \"Gait\" → 24건, PMID 40597403 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 4건",
+    "safety": "\"ankle brace\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 23건"
+  }
+}

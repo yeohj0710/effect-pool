@@ -1,0 +1,28 @@
+{
+  "id": "inertial-sensor-gait-pos",
+  "subj": "inertial sensor",
+  "claim": "관성 센서를 뇌졸중 후 보행 측정에 쓴다",
+  "line": "관성 센서는 뇌졸중 후 보행속도와 보폭을 안정적으로 측정했습니다",
+  "effect": "16개 연구·300명, ICC 0.85~0.98",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 300,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "관성 센서 보행 측정은 뇌졸중 진단·치료의 허가 적응증이 아닌 평가 기술입니다",
+  "why": "뇌졸중 후 성인의 보행 시공간 지표를 관성 센서 웨어러블로 측정한 16개 연구 300명의 체계적 문헌고찰입니다",
+  "saw": "보행속도·분당 걸음 수·보폭은 기준 시스템과 일치도가 좋거나 매우 좋았고 보행속도 ICC는 0.85~0.98이었습니다. 검사 재검사 신뢰도도 높았습니다",
+  "limit": "측정 타당도와 신뢰도에 대한 검토라 센서가 보행 자체를 개선한다는 근거는 아닙니다",
+  "against": "시간 지표와 보행 비대칭은 공간 지표보다 일치도가 낮을 수 있어 모든 보행 지표를 같은 무게로 해석할 수 없습니다",
+  "use": "관성 센서는 재활 중 보행 변화를 측정하는 도구로 사용하고 치료 효과와 구분합니다",
+  "refs": [
+    { "label": "Inertial sensor wearables after stroke · 체계적 문헌고찰", "doi": "10.3390/brainsci16070662", "pmid": "42512437" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"inertial sensor\" AND \"Gait\" → 44건 반환, intervention 이름 대조 통과 2건",
+    "pubmed": "\"inertial sensor\" AND \"Gait\" → 665건, PMID 42512437 직접 검토 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 84건",
+    "safety": "\"inertial sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 30건"
+  }
+}

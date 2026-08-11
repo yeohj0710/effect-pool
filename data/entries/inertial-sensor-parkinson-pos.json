@@ -1,0 +1,28 @@
+{
+  "id": "inertial-sensor-parkinson-pos",
+  "subj": "inertial sensor",
+  "claim": "관성 센서를 파킨슨병 회전 동작 평가에 쓴다",
+  "line": "관성 센서 회전 지표가 파킨슨병의 운동 예비력을 반영했습니다",
+  "effect": "파킨슨병 45명·대조 40명",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 85,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "관성 센서 회전 평가는 파킨슨병 진료의 허가 적응증이 아닌 관찰 평가입니다",
+  "why": "약물치료 전 파킨슨병 환자와 건강 대조군의 회전 동작을 이동형 관성 센서로 측정한 관찰 연구입니다",
+  "saw": "파킨슨병 45명과 건강인 40명이 Timed Up and Go를 했습니다. 운동 예비력이 높은 파킨슨병 환자는 자기선택·빠른 속도에서 회전 시간이 짧고 각속도가 높았습니다",
+  "limit": "운동 예비력과 센서 지표의 연관성을 본 단면 연구라 센서가 운동을 개선했다고 볼 수 없습니다",
+  "against": "운동 예비력 집단 사이의 임상 중증도 차이는 없었고 센서 지표가 장기 예후를 예측하는지는 확인하지 않았습니다",
+  "use": "관성 센서는 파킨슨병의 미세한 회전 동작을 추적하는 측정 도구로 사용합니다",
+  "refs": [
+    { "label": "Wearable inertial sensor turning performance in Parkinson's disease · 관찰 연구", "doi": "10.3390/s26092594", "pmid": "42122316" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"inertial sensor\" AND \"Parkinson\" → 24건 반환, intervention 이름 대조 통과 0건",
+    "pubmed": "\"inertial sensor\" AND \"Parkinson\" → 119건, PMID 42122316 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 11건",
+    "safety": "\"inertial sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 30건"
+  }
+}

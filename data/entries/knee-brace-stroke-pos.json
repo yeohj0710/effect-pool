@@ -1,0 +1,28 @@
+{
+  "id": "knee-brace-stroke-pos",
+  "subj": "knee brace",
+  "claim": "무릎 보조기를 뇌졸중 후 보행에 쓴다",
+  "line": "무릎 보조기를 더한 보행훈련이 뇌졸중 보행을 개선했습니다",
+  "effect": "TLA 변화 14.6° 대 5.0°",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 34,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "무릎 보조기의 뇌졸중 보행 사용은 허가 적응증이 아닌 실험적 재활입니다",
+  "why": "뇌졸중 후 환자 34명을 무릎 보조기 보행훈련과 보조기 없는 훈련에 무작위 배정한 시험입니다",
+  "saw": "3주 보행훈련 뒤 무릎 보조기군 14명과 대조군 15명이 분석됐습니다. 무릎 보조기군은 훈련 전후 후행 다리 각도 변화가 더 컸습니다",
+  "limit": "34명 중 29명만 완료했고 3주 결과만 확인했습니다. 후행 다리 각도가 장기 보행 독립성을 뜻하지는 않습니다",
+  "against": "무릎 보조기 없이도 후행 다리 각도가 좋아져 보조기 자체와 보행훈련 효과를 완전히 나누기 어렵습니다",
+  "use": "뇌졸중 보행훈련의 단기 각도 변화를 기록하고 장기 기능 결과와 구분합니다",
+  "refs": [
+    { "label": "Knee orthosis training after stroke · 무작위 대조시험", "doi": "10.3233/NRE-230372", "pmid": "38669489" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"knee brace\" AND \"Stroke\" → 13건 반환, intervention 이름 대조 통과 1건",
+    "pubmed": "\"knee brace\" AND \"Stroke\" → 6건, PMID 38669489 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 2건",
+    "safety": "\"knee brace\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 85건"
+  }
+}
