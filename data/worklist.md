@@ -1887,15 +1887,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
 - [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
 - [x] atorvastatin — Coronary Artery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 81건 --> — 기존 항목(atorvastatin-coronary-artery-null)
-- [ ] atorvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 --> — 기존 항목(atorvastatin-dyslipidemia-pos)
+- [x] atorvastatin — Hyperlipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 --> — 기존 항목(atorvastatin-hyperlipidemia-pos)
 - [x] atorvastatin — Diabetes에 듣는다 — 신규 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 35건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
@@ -1904,17 +1904,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
 - [x] acetazolamide — Heart Failure에 듣는다 — 신규 항목(acetazolamide-heart-failure-open)  <!-- 등록 시험 31건 -->
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 20건 -->
-- [ ] acetazolamide — Altitude Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
+- [x] acetazolamide — Altitude Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 기존 항목(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
 - [x] dapsone — Stroke에 듣는다 — 기존 항목(dapsone-stroke)  <!-- 등록 시험 6건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 169건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 122건 -->
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 169건 --> — 기존 항목(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 122건 --> — 기존 항목(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 55건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 --> — 기존 항목(methotrexate-cancer-open)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — 기존 항목(hydroxyurea-cancer-open)
 - [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
