@@ -336,32 +336,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
 - [x] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] acetazolamide — Altitude Sickness에 듣는다  <!-- 등록 시험 16건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Altitude Sickness에 듣는다  <!-- 등록 시험 16건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] dapsone — Stroke에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 169건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
-- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
@@ -20297,17 +20297,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] continuous glucose monitoring — Hypoglycemia에 듣는다  <!-- 시험 19건 · 논문 4427편 -->
-- [ ] continuous glucose monitoring — Glucose Control에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 14건 · 논문 6371편 -->
-- [ ] continuous glucose monitoring — Hyperglycemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 10건 · 논문 2430편 -->
+- [x] continuous glucose monitoring — Glucose Control에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 14건 · 논문 6371편 -->
+- [x] continuous glucose monitoring — Hyperglycemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 10건 · 논문 2430편 -->
 - [x] continuous glucose monitoring — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 746편 -->
 - [x] robotic exoskeleton — Brain Injuries에 듣는다  <!-- 시험 12건 · 논문 77편 -->
 - [x] robotic exoskeleton — Cerebral Palsy에 듣는다  <!-- 시험 5건 · 논문 148편 -->
 - [x] robotic exoskeleton — Rehabilitation에 듣는다  <!-- 시험 4건 · 논문 2138편 -->
 - [x] robotic exoskeleton — Thoracic Surgery에 듣는다 — 근거 없음(2026-08-11 조회, "robotic exoskeleton" AND "Thoracic Surgery"; 등록·프로토콜만 있고 결과 원저 없음)  <!-- 시험 3건 · 논문 8편 -->
 - [x] hearing aid — Cognitive Decline에 듣는다  <!-- 시험 13건 · 논문 355편 -->
-- [ ] hearing aid — Deafness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 12건 · 논문 8256편 -->
-- [ ] hearing aid — Auditory Perception에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 12100편 -->
-- [ ] hearing aid — Presbycusis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 402편 -->
+- [x] hearing aid — Deafness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 12건 · 논문 8256편 -->
+- [x] hearing aid — Auditory Perception에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 12100편 -->
+- [x] hearing aid — Presbycusis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 402편 -->
 - [x] activity monitor — Obesity에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Obesity"; 직접 결과 원저 없음)  <!-- 시험 12건 · 논문 1023편 -->
 - [x] activity monitor — Pre-diabetes에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Pre-diabetes"; PubMed 직접 결과 0편)  <!-- 시험 10건 · 논문 116편 -->
 - [x] activity monitor — Kidney Failure에 듣는다 — 근거 없음(2026-08-11 조회, "activity monitor" AND "Kidney Failure"; 직접 결과 원저 없음)  <!-- 시험 8건 · 논문 150편 -->
@@ -21090,7 +21090,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dark chocolate — Hypertension에 듣는다  <!-- 시험 9건 · 논문 54편 -->
 - [x] blueberry — Aging에 듣는다  <!-- 시험 8건 · 논문 263편 -->
 - [x] blueberry — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 50편 -->
-- [ ] blueberry — Gut Bacteria에 듣는다  <!-- 시험 5건 · 논문 72편 -->
+- [x] blueberry — Gut Bacteria에 듣는다  <!-- 시험 5건 · 논문 72편 -->
 - [x] pomegranate juice — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 33편 -->
 - [x] yogurt — Obesity에 듣는다  <!-- 시험 13건 · 논문 510편 -->
 - [x] yogurt — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 87편 -->
@@ -21098,10 +21098,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] kefir — Gut Microbiome에 듣는다  <!-- 시험 5건 · 논문 120편 -->
 - [x] oatmeal — Obesity에 듣는다  <!-- 시험 4건 · 논문 38편 -->
 - [x] barley — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 81편 -->
-- [ ] avocado — Obesity에 듣는다  <!-- 시험 9건 · 논문 145편 -->
-- [ ] avocado — Triglycerides에 듣는다  <!-- 시험 3건 · 논문 80편 -->
-- [ ] walnuts — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 548편 -->
-- [ ] walnuts — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 91편 -->
+- [x] avocado — Obesity에 듣는다  <!-- 시험 9건 · 논문 145편 -->
+- [x] avocado — Triglycerides에 듣는다  <!-- 시험 3건 · 논문 80편 -->
+- [x] walnuts — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 548편 -->
+- [x] walnuts — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 91편 -->
 - [x] walnuts — Obesity에 듣는다  <!-- 시험 5건 · 논문 458편 -->
 - [x] walnuts — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
 - [x] olive oil — Cardiovascular Disease에 듣는다  <!-- 시험 18건 · 논문 1739편 -->
@@ -21109,13 +21109,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] olive oil — Asthma에 듣는다  <!-- 시험 4건 · 논문 72편 -->
 - [x] seaweed — Iodine Deficiency에 듣는다  <!-- 시험 5건 · 논문 64편 -->
 - [x] honey — Wound Heal에 듣는다  <!-- 시험 17건 · 논문 969편 -->
-- [ ] honey — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 30편 -->
-- [ ] honey — Pain에 듣는다  <!-- 시험 4건 · 논문 463편 -->
-- [ ] cinnamon — Diabetes에 듣는다  <!-- 시험 13건 · 논문 465편 -->
-- [ ] apple cider vinegar — Diabetes에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [x] honey — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 30편 -->
+- [x] honey — Pain에 듣는다  <!-- 시험 4건 · 논문 463편 -->
+- [x] cinnamon — Diabetes에 듣는다  <!-- 시험 13건 · 논문 465편 -->
+- [x] apple cider vinegar — Diabetes에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 - [ ] sodium reduction — Kidney Cancer에 듣는다  <!-- 시험 24건 · 논문 225편 -->
-- [ ] sodium reduction — Heart Failure에 듣는다  <!-- 시험 22건 · 논문 2947편 -->
-- [ ] sodium reduction — Hypertension에 듣는다  <!-- 시험 19건 · 논문 6118편 -->
+- [x] sodium reduction — Heart Failure에 듣는다  <!-- 시험 22건 · 논문 2947편 -->
+- [x] sodium reduction — Hypertension에 듣는다  <!-- 시험 19건 · 논문 6118편 -->
 - [ ] sodium reduction — Lymphoma에 듣는다  <!-- 시험 15건 · 논문 120편 -->
 - [x] intermittent fasting — Obesity에 듣는다  <!-- 시험 34건 · 논문 1117편 -->
 - [x] intermittent fasting — Cardiometabolic Risk에 듣는다  <!-- 시험 3건 · 논문 173편 -->
@@ -21123,12 +21123,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] time restricted eating — Obesity에 듣는다  <!-- 시험 82건 · 논문 1575편 -->
 - [x] time restricted eating — Diabetes에 듣는다  <!-- 시험 32건 · 논문 1113편 -->
 - [x] time restricted eating — Cancer에 듣는다  <!-- 시험 32건 · 논문 526편 -->
-- [ ] time restricted eating — Metabolic Health에 듣는다  <!-- 시험 29건 · 논문 1763편 -->
-- [ ] low FODMAP diet — Irritable Bowel Disease에 듣는다  <!-- 시험 62건 · 논문 741편 -->
+- [x] time restricted eating — Metabolic Health에 듣는다  <!-- 시험 29건 · 논문 1763편 -->
+- [x] low FODMAP diet — Irritable Bowel Disease에 듣는다  <!-- 시험 62건 · 논문 741편 -->
 - [ ] low FODMAP diet — Diet Modification에 듣는다  <!-- 시험 4건 · 논문 654편 -->
 - [ ] low FODMAP diet — Diet, Gluten-Free에 듣는다  <!-- 시험 3건 · 논문 147편 -->
 - [ ] low FODMAP diet — Ulcerative Colitis에 듣는다  <!-- 시험 3건 · 논문 61편 -->
-- [ ] DASH diet — Hypertension에 듣는다  <!-- 시험 37건 · 논문 2210편 -->
+- [x] DASH diet — Hypertension에 듣는다  <!-- 시험 37건 · 논문 2210편 -->
 - [ ] DASH diet — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 192편 -->
 - [ ] DASH diet — Cardiovascular Disease에 듣는다  <!-- 시험 10건 · 논문 1317편 -->
 - [ ] DASH diet — Diet에 듣는다  <!-- 시험 7건 · 논문 2631편 -->
@@ -21136,7 +21136,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] gluten free diet — Irritable Bowel Syndrome에 듣는다  <!-- 시험 11건 · 논문 366편 -->
 - [ ] gluten free diet — Diabetes에 듣는다  <!-- 시험 11건 · 논문 554편 -->
 - [ ] gluten free diet — Autism에 듣는다  <!-- 시험 9건 · 논문 170편 -->
-- [ ] chewing gum — Ileus에 듣는다  <!-- 시험 30건 · 논문 174편 -->
+- [x] chewing gum — Ileus에 듣는다  <!-- 시험 30건 · 논문 174편 -->
 - [ ] chewing gum — Dental Caries에 듣는다  <!-- 시험 10건 · 논문 487편 -->
 - [ ] chewing gum — Pain에 듣는다  <!-- 시험 8건 · 논문 273편 -->
 - [x] water intake — Obesity에 듣는다  <!-- 시험 33건 · 논문 10374편 -->

@@ -1,0 +1,25 @@
+{
+  "id": "dash-diet-hypertension-pos",
+  "subj": "DASH 식단",
+  "claim": "DASH 식단이 혈압을 낮춘다",
+  "line": "DASH 식단은 대조 식단보다 성인의 수축기·이완기 혈압을 낮췄습니다",
+  "effect": "수축기 혈압 3.2 mmHg 감소",
+  "vs": "성인 30개 RCT 5,545명에서 DASH 식단은 대조 식단보다 수축기 혈압을 3.2 mmHg, 이완기 혈압을 2.5 mmHg 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "DASH 식단은 식이 중재이며 고혈압 치료제로 허가된 의약품이 아님",
+  "why": "고혈압 유무와 관계없이 성인에서 DASH 식단과 대조 식단을 비교한 무작위시험 메타분석입니다",
+  "saw": "30개 RCT에서 수축기·이완기 혈압이 모두 낮아졌고 고혈압 유무에 따라 방향이 바뀌지 않았습니다",
+  "limit": "식단 구성과 나트륨 섭취량이 연구마다 달랐고 평균 혈압 변화가 장기 심혈관 사건 감소를 직접 보여주지는 않습니다",
+  "against": "효과 크기는 평균값이며 식단 순응도와 나트륨 섭취가 실제 결과를 바꿀 수 있습니다",
+  "use": "DASH 식단의 혈압 감소 근거를 설명할 때 사용합니다",
+  "n": 5545,
+  "synth": "meta",
+  "refs": [
+    { "label": "Filippou 2020 · DASH 식단과 혈압 RCT 메타분석", "doi": "10.1093/advances/nmaa041", "pmid": "32330233" },
+    { "label": "DASH-Sodium 2001 · 나트륨과 DASH 무작위시험", "doi": "10.1056/NEJM200101043440101", "pmid": "11136953" },
+    { "label": "ClinicalTrials.gov · DASH 식단과 고혈압 연구", "nct": "NCT01689844" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=DASH diet AND condition=Hypertension; 113건 반환·실제 DASH 53건 (NCT04286555 등)", "pubmed": "(DASH diet OR DASH) AND Hypertension; 2,057편", "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference); 355편", "safety": "같은 검색어 AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 258편" }
+}

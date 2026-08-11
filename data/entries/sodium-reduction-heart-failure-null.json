@@ -1,0 +1,24 @@
+{
+  "id": "sodium-reduction-heart-failure-null",
+  "subj": "소금 줄이기",
+  "claim": "심부전에서 소금 줄이기가 사망과 입원을 줄인다",
+  "line": "심부전 무작위시험에서 소금 줄이기는 사망·입원을 줄이지 못했습니다",
+  "effect": "사망·입원 복합 OR 0.88",
+  "vs": "심부전 소금 제한 17개 RCT에서 중재군 834명과 대조군 871명을 비교했을 때 사망·입원 복합 OR은 0.88 (95% CI 0.63~1.23)이었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "known": "off",
+  "knownWhy": "소금 줄이기는 식이 중재이며 심부전 치료제로 허가된 의약품이 아님",
+  "why": "심부전 환자에서 식이 나트륨 제한과 제한하지 않은 식사를 비교한 무작위시험 메타분석입니다",
+  "saw": "사망·입원·사망과 입원의 복합 결과에서 통계적으로 유의한 감소가 없었고 삶의 질 연구 결과는 엇갈렸습니다",
+  "limit": "식이 목표량과 수분 제한 병용 여부가 연구마다 달랐고 실제 섭취량 확인도 일관되지 않았습니다",
+  "against": "일부 시험에서 증상과 삶의 질이 좋아졌지만 사망·입원 감소와 같은 임상 사건 근거는 확인되지 않았습니다",
+  "use": "심부전에서 소금 제한을 임상 사건 감소로 단정할 수 없다는 근거로 사용합니다",
+  "n": 1705,
+  "synth": "meta",
+  "refs": [
+    { "label": "Colin-Ramirez 2023 · 심부전 나트륨 제한 RCT 메타분석", "doi": "10.1161/CIRCHEARTFAILURE.122.009879", "pmid": "36373551" },
+    { "label": "Ezekowitz 2022 · SODIUM-HF 무작위시험", "doi": "10.1016/S0140-6736(22)00369-5", "pmid": "35381194", "nct": "NCT02012179" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=sodium reduction AND condition=Heart Failure; 106건 반환·실제 소금·나트륨 제한 1건 (NCT01733017)", "pubmed": "(sodium reduction OR salt reduction OR sodium restriction) AND Heart Failure; 258편", "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference); 34편", "safety": "같은 검색어 AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 63편" }
+}

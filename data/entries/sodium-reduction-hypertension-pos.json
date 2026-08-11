@@ -1,0 +1,24 @@
+{
+  "id": "sodium-reduction-hypertension-pos",
+  "subj": "소금 줄이기",
+  "claim": "소금 줄이기가 혈압을 낮춘다",
+  "line": "식이 나트륨을 줄이면 수축기·이완기 혈압이 낮아졌습니다",
+  "effect": "수축기 혈압 4.26 mmHg 감소",
+  "vs": "성인 133개 무작위시험 12,197명에서 평소 식사보다 나트륨을 줄이면 수축기 혈압은 4.26 mmHg, 이완기 혈압은 2.07 mmHg 낮아졌습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "소금 줄이기는 식이 중재이며 고혈압 치료제로 허가된 의약품이 아님",
+  "why": "식이 나트륨 섭취량을 낮춘 무작위시험을 용량과 기간별로 합친 메타분석입니다",
+  "saw": "나트륨을 줄인 군에서 수축기·이완기 혈압이 유의하게 낮아졌고 나트륨 감소량이 클수록 수축기 혈압 감소가 컸습니다",
+  "limit": "연구마다 기저 혈압과 제한 기간이 달랐고 장기 심혈관 사건을 직접 측정한 분석은 아닙니다",
+  "against": "혈압 감소가 모든 사람에게 같은 크기로 나타난다는 뜻이 아니며 식단을 장기간 유지하기 어렵습니다",
+  "use": "소금 섭취 감소의 혈압 효과를 설명하는 무작위시험 근거로 사용합니다",
+  "n": 12197,
+  "synth": "meta",
+  "refs": [
+    { "label": "Huang 2020 · 식이 나트륨 감소 용량·기간 메타분석", "doi": "10.1136/bmj.m315", "pmid": "32094151" },
+    { "label": "ClinicalTrials.gov · 성인 소금 줄이기 교육 연구", "nct": "NCT03830021" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=sodium reduction AND condition=Hypertension; 77건 반환·실제 소금·나트륨 제한 4건 (NCT03830021 등)", "pubmed": "(sodium reduction OR salt reduction OR sodium restriction) AND Hypertension; 1,811편", "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference); 296편", "safety": "같은 검색어 AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 409편" }
+}

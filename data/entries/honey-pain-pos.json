@@ -1,0 +1,24 @@
+{
+  "id": "honey-pain-pos",
+  "subj": "꿀",
+  "claim": "꿀이 상처 통증을 줄인다",
+  "line": "산과적 상처에 바른 꿀은 중기 통증과 진통제 사용을 줄였습니다",
+  "effect": "중기 통증 SMD -0.54",
+  "vs": "산과적 상처 5개 RCT 353명 메타분석에서 꿀은 위약보다 중기 통증을 SMD 0.54 낮추고 진통제 사용 오즈비를 0.26으로 낮췄지만 최종 상처 치유 차이는 없었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "꿀은 식품이며 통증 치료제로 허가된 의약품이 아님",
+  "why": "산과적 상처에 꿀을 바른 무작위시험을 위약과 비교한 체계적 문헌고찰·메타분석입니다",
+  "saw": "꿀군에서 중기 통증과 진통제 사용이 줄었지만 최종 상처 치유는 위약과 다르지 않았습니다",
+  "limit": "상처 종류와 꿀 사용법이 연구마다 달랐고 결과가 산과적 상처에 한정됩니다",
+  "against": "꿀이 모든 통증을 줄인다는 근거가 아니며 최종 치유에는 유의한 차이가 없었습니다",
+  "use": "특정 상처의 보조 중재에서 보고된 통증 변화 근거로 사용합니다",
+  "n": 353,
+  "synth": "meta",
+  "refs": [
+    { "label": "Ferraz Barbosa 2024 · 산과적 상처 꿀과 통증 RCT 메타분석", "doi": "10.3390/nu16020185", "pmid": "38257078", "pmc": "PMC10820177" },
+    { "label": "ClinicalTrials.gov · 편도절제술 후 꿀 보조요법 연구", "nct": "NCT03931395" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=honey AND condition=Pain; 13건 반환·실제 꿀 12건 (NCT03931395 등)", "pubmed": "honey AND Pain; 463편", "negative": "honey AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference); 79편", "safety": "honey AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 154편" }
+}

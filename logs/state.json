@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5071,
-  "subjects": 2086,
-  "refs": 7131,
+  "entries": 5098,
+  "subjects": 2089,
+  "refs": 7182,
   "kinds": {
     "otc": 41,
     "supp": 283,
-    "food": 434,
+    "food": 447,
     "move": 596,
     "life": 1158,
-    "care": 649,
-    "rx": 1910
+    "care": 654,
+    "rx": 1919
   },
-  "tiers": { "trial": 4349, "obs": 638, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 3029, "null": 1019, "open": 876, "harm": 147 },
+  "tiers": { "trial": 4376, "obs": 638, "animal": 25, "lab": 13, "case": 46 },
+  "dirs": { "pos": 3046, "null": 1027, "open": 878, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12401,
-    "unchecked": 3141,
+    "checked": 12431,
+    "unchecked": 3111,
     "no_evidence_pending": 1998,
-    "note": "이번 바퀴는 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 29개를 만들고 기존 항목 1개를 연결했다. 다음 미처리 줄은 339번 atorvastatin — Hyperlipidemia에 듣는다이다."
+    "note": "batch 1196에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 27개를 만들고 기존 항목 3개를 연결했다. 다음 미처리 줄은 365번 hydroxyurea — Cancer에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "15% (약국약·보충제·음식 758건). 목표는 25%",
-    "rx_share": "38% (1,910건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,166건). 목표는 33% 위",
-    "vs_share": "2.4% (120건)",
+    "over_counter_share": "15% (약국약·보충제·음식 771건). 목표는 25%",
+    "rx_share": "38% (1,919건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,174건). 목표는 33% 위",
+    "vs_share": "2.8% (145건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.8% (4,349건)",
+    "trial_share": "85.8% (4,376건)",
     "non_trial_share": "14.2% (722건)",
-    "build_warnings": { "unknown_n": 409, "thin_study": 945 }
+    "build_warnings": { "unknown_n": 414, "thin_study": 947 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,16 @@
     "checked_at": "2026-08-11",
     "note": "batch 1195 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1196 starts after batch 1195; pull and read AGENTS.md first. Resume at worklist line 339: atorvastatin — Hyperlipidemia에 듣는다; 3,141 unchecked remain.",
+  "next": "batch 1197 starts after batch 1196; pull and read AGENTS.md first. Resume at worklist line 365: hydroxyurea — Cancer에 듣는다; 3,111 unchecked remain.",
   "last_batch": {
-    "id": "1195",
-    "commit": "98f4e835",
-    "pushed": true,
+    "id": "1196",
+    "commit": "PENDING",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 29,
-    "existing_links": 1,
-    "build": "5071 entries · 7131 refs · 4349 trial · 638 obs · 25 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 오트밀-비만·호두-비만·대장암·올리브오일-천식·해조류-요오드결핍·시간 제한 식사-비만·당뇨·암·스트레칭-무릎 외반·균형훈련-뇌허혈·흡기근훈련-근육약화·폐질환·향기요법-불안·음악치료·두통·건침-뇌졸중·키네시올로지 테이핑-통증·경기력·마사지-피로·연속혈당측정-중환자 및 피나스테리드-전립선비대증·모다피닐-수면무호흡·기면증·바클로펜-경직·온단세트론-마취·메만틴-치매·시롤리무스-신장이식·몬테루카스트-비염·아토르바스타틴-관상동맥질환·이상지질혈증의 30개 주제를 확인했다. 숫자가 없는 등록시험 7건은 PubMed 배경 문헌과 함께 open으로 남겼다.",
+    "new_entries": 27,
+    "existing_links": 3,
+    "build": "5098 entries · 7182 refs · 4376 trial · 638 obs · 25 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 연속 혈당 측정-혈당 조절·고혈당, 보청기-난청·청각 지각·노인성 난청, 블루베리-장내 세균, 아보카도-비만·중성지방, 호두-심혈관 건강·인지 저하, 꿀-구강건조·통증, 계피-당뇨, 사과식초-당뇨, 소금 줄이기-심부전·고혈압, 시간 제한 식사-대사 건강, 저FODMAP 식단-염증성 장질환, DASH 식단-고혈압, 껌-장폐색, 아토르바스타틴-이상지질혈증·당뇨, 로사르탄-신장병증, 베라파밀-심방세동·고혈압, 아세타졸아미드-심부전·고산병, 메토트렉세이트-림프종·관절염·암의 30개 주제를 확인했다. 숫자가 없는 결과는 open 또는 null로 남겼고, 사람 수가 원문에 없는 메타분석은 n:null로 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,

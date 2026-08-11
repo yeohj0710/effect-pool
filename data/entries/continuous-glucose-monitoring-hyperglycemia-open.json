@@ -1,0 +1,23 @@
+{
+  "id": "continuous-glucose-monitoring-hyperglycemia-open",
+  "subj": "연속 혈당 측정",
+  "claim": "연속 혈당 측정이 고혈당 시간을 줄인다",
+  "line": "연속 혈당 측정의 고혈당 시간 감소 신호는 있지만 직접 대조 결과는 제한적입니다",
+  "effect": "결과 해석 제한",
+  "tier": "trial",
+  "dir": "open",
+  "known": "label",
+  "knownWhy": "당뇨병 혈당을 추적하는 의료기기",
+  "why": "고혈당 성인에서 연속 혈당 측정을 사용한 등록시험과 결과 논문을 확인했습니다",
+  "saw": "72명 연구에서 연속 혈당 측정 단독군의 180 mg/dL 초과 시간은 시작 시 55%에서 3개월 27%로 줄었고, 기록 앱 병용군은 53%에서 30%로 줄었습니다",
+  "limit": "두 군 모두 연속 혈당 측정을 사용해 일반 혈당측정 대조군과의 차이를 확인할 수 없습니다",
+  "against": "고혈당 시간이 줄어든 변화가 연속 혈당 측정 자체와 식사·생활습관 변화 중 무엇 때문인지 분리되지 않았습니다",
+  "use": "고혈당 시간 감소 신호와 직접 대조 근거의 공백을 함께 표시합니다",
+  "n": 72,
+  "synth": "single",
+  "refs": [
+    { "label": "Martens 2025 · 비인슐린 제2형 당뇨병 연속 혈당 측정 무작위시험", "doi": "10.1089/dia.2024.0579", "pmid": "39757879" },
+    { "label": "ClinicalTrials.gov · 중환자 연속 혈당 측정 정확도·혈당조절 연구", "nct": "NCT04910841" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=continuous glucose monitoring AND condition=Hyperglycemia; 135건 반환·실제 연속 혈당 측정 37건 (NCT04910841 등)", "pubmed": "continuous glucose monitoring AND Hyperglycemia; 2,430편", "negative": "continuous glucose monitoring AND Hyperglycemia AND (no effect OR did not OR failed OR negative OR no significant difference); 485편", "safety": "continuous glucose monitoring AND Hyperglycemia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 551편" }
+}

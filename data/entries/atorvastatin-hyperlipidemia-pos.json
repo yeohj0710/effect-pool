@@ -1,0 +1,24 @@
+{
+  "id": "atorvastatin-hyperlipidemia-pos",
+  "subj": "아토르바스타틴",
+  "claim": "아토르바스타틴이 고지혈증의 LDL 콜레스테롤을 낮춘다",
+  "line": "아토르바스타틴은 고지혈증에서 LDL 콜레스테롤을 낮췄습니다",
+  "effect": "LDL-C 감소",
+  "vs": "고지혈증 성인 2,431명 RCT에서 로수바스타틴 10~80 mg은 아토르바스타틴 10~80 mg보다 LDL-C를 평균 8.2% 더 낮췄고 아토르바스타틴군의 LDL 목표 달성률은 69~85%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "고지혈증과 심혈관 위험 감소에 사용하는 지질저하제",
+  "why": "고지혈증 성인에서 아토르바스타틴을 다른 스타틴과 비교한 무작위시험입니다",
+  "saw": "아토르바스타틴 10~80 mg은 LDL-C 목표 달성에 효과가 있었지만 같은 용량 범위의 로수바스타틴보다 평균 LDL-C 감소 폭은 작았습니다",
+  "limit": "6주 단기 비교시험이며 스타틴 용량과 기저 LDL-C가 달라 심혈관 사건 감소를 직접 비교한 결과가 아닙니다",
+  "against": "로수바스타틴이 평균 LDL-C를 더 낮췄다는 결과는 아토르바스타틴이 효과가 없다는 뜻이 아니라 상대적인 용량 효능 차이입니다",
+  "use": "고지혈증에서 아토르바스타틴의 LDL-C 감소와 다른 스타틴과의 상대 효과를 설명하는 근거로 사용합니다",
+  "n": 2431,
+  "synth": "single",
+  "refs": [
+    { "label": "Jones 2003 · STELLAR 스타틴 용량 비교 RCT", "doi": "10.1016/S0002-9149(03)00530-7", "pmid": "12860216" },
+    { "label": "ClinicalTrials.gov · 로수바스타틴과 아토르바스타틴 고지혈증 비교", "nct": "NCT00683618" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=atorvastatin AND condition=Hyperlipidemia; 279건 반환·실제 아토르바스타틴 80건 (NCT00827606 등)", "pubmed": "atorvastatin AND Hyperlipidemia; 2,464편", "negative": "atorvastatin AND Hyperlipidemia AND (no effect OR did not OR failed OR negative OR no significant difference); 468편", "safety": "atorvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 819편" }
+}

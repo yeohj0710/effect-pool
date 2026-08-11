@@ -1,0 +1,24 @@
+{
+  "id": "cinnamon-diabetes-pos",
+  "subj": "계피",
+  "claim": "계피가 제2형 당뇨병의 혈당을 낮춘다",
+  "line": "계피 보충은 제2형 당뇨병의 공복혈당과 HbA1c를 낮췄습니다",
+  "effect": "HbA1c SMD -0.67",
+  "vs": "제2형 당뇨병 계피 보충 24개 RCT 메타분석에서 대조군보다 공복혈당 SMD는 -1.32, 인슐린저항성 SMD는 -1.32, HbA1c SMD는 -0.67이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "계피는 식품이며 당뇨병 치료제로 허가된 의약품이 아님",
+  "why": "제2형 당뇨병 환자의 계피 보충과 대조군을 비교한 무작위시험 메타분석입니다",
+  "saw": "24개 RCT에서 공복혈당·인슐린저항성·HbA1c가 대조군보다 낮아졌지만 혈청 인슐린은 유의하게 달라지지 않았습니다",
+  "limit": "연구별 계피 제형과 용량이 달랐고 효과크기 이질성이 있어 보충제를 당뇨병 약처럼 해석할 수 없습니다",
+  "against": "혈당 지표의 표준화 효과크기가 실제 임상에서 의미하는 절대 변화량으로 바로 환산되지 않습니다",
+  "use": "계피 보충의 혈당 지표 연구 신호로 사용하며 처방 치료의 대체 근거로 쓰지 않습니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "Moridpour 2024 · 계피 보충과 혈당 RCT 메타분석", "doi": "10.1002/ptr.8026", "pmid": "37818728" },
+    { "label": "ClinicalTrials.gov · 계피와 제2형 당뇨병 혈당 연구", "nct": "NCT00237640" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=cinnamon AND condition=Diabetes; 30건 반환·실제 계피 19건 (NCT01350284 등)", "pubmed": "cinnamon AND Diabetes; 465편", "negative": "cinnamon AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 75편", "safety": "cinnamon AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 67편" }
+}

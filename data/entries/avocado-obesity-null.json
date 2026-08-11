@@ -1,0 +1,24 @@
+{
+  "id": "avocado-obesity-null",
+  "subj": "아보카도",
+  "claim": "아보카도가 비만 성인의 체중을 줄인다",
+  "line": "아보카도 섭취는 대조 식단보다 체중을 줄이지 않았습니다",
+  "effect": "체중 SMD 0.09",
+  "vs": "과체중·비만 성인 8개 RCT 657명에서 아보카도 식단은 대조군보다 체중·BMI·체지방을 유의하게 줄이지 않았고 체중·체성분 SMD는 0.09 (95% CI 0.06~0.25)였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "known": "off",
+  "knownWhy": "아보카도는 식품이며 비만 치료제로 허가된 의약품이 아님",
+  "why": "과체중 성인에서 아보카도 섭취와 대조 식단을 비교한 무작위시험 메타분석입니다",
+  "saw": "8개 RCT에서 체중·BMI·체지방률·내장지방에 유의한 차이가 없었습니다",
+  "limit": "연구 수가 8개로 적고 아보카도를 더한 식단과 대체한 식단의 구성이 달랐습니다",
+  "against": "일부 대사 지표와 지질에는 이득 신호가 있었지만 체중 감소 근거로는 충분하지 않습니다",
+  "use": "아보카도를 먹으면 체중이 줄어든다는 주장에는 무효과 근거로 사용합니다",
+  "n": 657,
+  "synth": "meta",
+  "refs": [
+    { "label": "Conceição 2022 · 아보카도와 체중감량 RCT 메타분석", "doi": "10.1016/j.nutres.2022.03.005", "pmid": "35405602" },
+    { "label": "ClinicalTrials.gov · 아보카도와 비만 PATH 연구", "nct": "NCT02740439" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=avocado AND condition=Obesity; 16건 반환·실제 아보카도 7건 (NCT02740439 등)", "pubmed": "avocado AND Obesity; 145편", "negative": "avocado AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference); 33편", "safety": "avocado AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 11편" }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "methotrexate-arthritis-pos",
+  "subj": "메토트렉세이트",
+  "claim": "메토트렉세이트가 류마티스관절염의 활동성을 낮춘다",
+  "line": "류마티스관절염에서 메토트렉세이트는 위약보다 임상 반응을 높였습니다",
+  "effect": "ACR50 반응 RR 3.0",
+  "vs": "류마티스관절염 메토트렉세이트 위약대조 7개 시험 732명에서 52주 ACR50 반응은 위약보다 RR 3.0 (95% CI 1.5~6.0), NNT 7이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "류마티스관절염의 질병조절항류마티스약",
+  "why": "류마티스관절염 환자의 메토트렉세이트 단독요법과 위약을 비교한 Cochrane 체계적 문헌고찰입니다",
+  "saw": "메토트렉세이트는 ACR50 반응과 신체 기능을 개선했고 관절 미란 진행도 위약보다 적었지만 이상반응으로 중단할 가능성은 높았습니다",
+  "limit": "대부분 기존 치료에 실패한 환자였고 추적 기간은 12~52주로 장기 안전성과 지속 효과를 충분히 보여주지 못했습니다",
+  "against": "메토트렉세이트군의 이상반응 중단 오즈비가 3.47이었고 모든 환자가 같은 반응을 보이지 않습니다",
+  "use": "류마티스관절염에서 메토트렉세이트의 질병조절 효과와 이상반응 균형을 설명하는 근거로 사용합니다",
+  "n": 732,
+  "synth": "meta",
+  "refs": [
+    { "label": "Lopez-Olivo 2014 · 메토트렉세이트 류마티스관절염 Cochrane 고찰", "doi": "10.1002/14651858.CD000957.pub2", "pmid": "24916606" },
+    { "label": "ClinicalTrials.gov · 류마티스관절염 메토트렉세이트 비교시험", "nct": "NCT00195494" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=methotrexate AND condition=Arthritis; 794건 반환·실제 메토트렉세이트 40건 (NCT07089381 등)", "pubmed": "methotrexate AND Arthritis; 15,738편", "negative": "methotrexate AND Arthritis AND (no effect OR did not OR failed OR negative OR no significant difference); 2,692편", "safety": "methotrexate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 6,862편" }
+}

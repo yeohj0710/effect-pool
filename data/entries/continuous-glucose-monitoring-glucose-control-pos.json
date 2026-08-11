@@ -1,0 +1,24 @@
+{
+  "id": "continuous-glucose-monitoring-glucose-control-pos",
+  "subj": "연속 혈당 측정",
+  "claim": "연속 혈당 측정이 제2형 당뇨병의 혈당 조절을 개선한다",
+  "line": "연속 혈당 측정은 제2형 당뇨병의 HbA1c를 소폭 낮췄습니다",
+  "effect": "HbA1c 약 0.32% 감소",
+  "vs": "제2형 당뇨병 성인 14개 RCT 1,647명에서 연속 혈당 측정은 자가혈당측정보다 HbA1c를 약 0.32% 낮췄습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "당뇨병 혈당을 추적하는 의료기기",
+  "why": "제2형 당뇨병 성인을 대상으로 연속 혈당 측정과 자가혈당측정을 비교한 무작위시험 메타분석입니다",
+  "saw": "14개 무작위시험에서 실시간형과 플래시형 연속 혈당 측정 모두 HbA1c를 유의하게 낮췄습니다",
+  "limit": "대부분의 시험이 짧았고 입원·응급실 이용·이상반응 같은 임상 결과를 보고한 연구는 적었습니다",
+  "against": "HbA1c 감소 폭은 작았고 장기적인 합병증 감소는 확인되지 않았습니다",
+  "use": "연속 혈당 측정의 단기 혈당 지표 개선 근거로 사용하며 장기 예후 개선으로 확대하지 않습니다",
+  "n": 1647,
+  "synth": "meta",
+  "refs": [
+    { "label": "Uhl 2024 · 제2형 당뇨병 연속 혈당 측정 RCT 메타분석", "doi": "10.1210/clinem/dgad652", "pmid": "37987208" },
+    { "label": "ClinicalTrials.gov · 중환자 연속 혈당 측정 등록시험", "nct": "NCT01799512" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "intervention=continuous glucose monitoring AND condition=Glucose Control; 371건 반환·실제 연속 혈당 측정 32건 (NCT02705053 등)", "pubmed": "continuous glucose monitoring AND Glucose Control; 1,022편", "negative": "continuous glucose monitoring AND Glucose Control AND (no effect OR did not OR failed OR negative OR no significant difference); 162편", "safety": "continuous glucose monitoring AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 186편" }
+}
