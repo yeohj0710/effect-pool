@@ -1,0 +1,26 @@
+{
+  "id": "hydration-pancreatitis-pos",
+  "subj": "hydration",
+  "claim": "ERCP 전 적극적 수화가 시술 후 췌장염을 줄인다",
+  "line": "ERCP 전 적극적 수화 후 시술 후 췌장염이 줄었습니다.",
+  "effect": "췌장염 22.2%→6.3%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 126,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "ERCP 전 적극적 수화는 시술 후 췌장염 예방의 허가 적응증이 아닌 수액 중재입니다.",
+  "why": "첫 ERCP를 받은 환자 126명을 표준 수화군과 젖산 링거액 적극적 수화군에 무작위 배정한 두 기관 시험입니다.",
+  "saw": "시술 후 췌장염은 표준 수화군 22.2%, 적극적 수화군 6.3%였습니다. 적극적 수화군에서 고아밀라아제혈증, 통증 점수, 입원 기간도 줄었습니다.",
+  "limit": "수액 과부하 위험이 없는 선별된 환자에서 시행한 ERCP 전후 특정 수액 요법입니다. 모든 환자에게 적용할 수 있는지는 모릅니다.",
+  "against": "수액 과부하 위험이 있는 환자는 이 시험의 대상이 아니었습니다.",
+  "use": "ERCP 후 췌장염 예방에서 특정 수액 요법이 보인 무작위시험 신호로 기록합니다.",
+  "refs": [{ "label": "ERCP 후 췌장염 예방 적극적 수화 무작위시험", "pmid": "42437262" }],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "intr=hydration · cond=Pancreatitis → 18건 반환, 개입명 대조 6건",
+    "pubmed": "hydration AND Pancreatitis → 239편, PMID 42437262 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 44편",
+    "safety": "hydration AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 7075편"
+  }
+}
