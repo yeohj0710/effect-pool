@@ -20877,3 +20877,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] leucine — Protein에 듣는다  <!-- 시험 6건 · 논문 78800편 --> — 항목 생성(leucine-protein-null, 2026-08-11)
 - [x] beta-hydroxy-beta-methylbutyrate — Muscle Damage에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 항목 생성(hmb-muscle-damage-pos, 2026-08-11)
 - [x] 5-methyltetrahydrofolate — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 282편 --> — 항목 생성(5-methyltetrahydrofolate-pregnancy-pos, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] plant sterol — Hyperlipidemias에 듣는다  <!-- 시험 7건 · 논문 1111편 --> — 항목 생성(plant-sterol-hyperlipidemias-pos, 2026-08-11)
+- [x] plant sterol — Dyslipidemias에 듣는다  <!-- 시험 6건 · 논문 1180편 --> — 항목 생성(plant-sterol-dyslipidemias-pos, 2026-08-11)
+- [x] plant sterol — Mild Hypercholesterolemic Subjects에 듣는다  <!-- 시험 6건 · 논문 10편 --> — 항목 생성(plant-sterol-mild-hypercholesterolemic-subjects-pos, 2026-08-11)
