@@ -1312,7 +1312,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
 - [x] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(botulinum-toxin-bladder-pos)
 - [x] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(botulinum-toxin-spasticity-pos)
-- [x] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 --> — 기존 항목(botulinum-toxin-frown-lines-pos)
+- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [x] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 --> — 기존 항목(duloxetine-pain-pos)
 - [x] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(duloxetine-depression-pos)
