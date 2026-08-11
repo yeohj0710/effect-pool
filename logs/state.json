@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5448,
+  "entries": 5456,
   "subjects": 2163,
-  "refs": 7776,
+  "refs": 7784,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,30 +25,30 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2026
+    "rx": 2034
   },
-  "tiers": { "trial": 4630, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3211, "null": 1066, "open": 1021, "harm": 150 },
+  "tiers": { "trial": 4638, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3213, "null": 1071, "open": 1021, "harm": 151 },
   "worklist": {
     "total": 15542,
-    "checked": 13196,
-    "unchecked": 2346,
+    "checked": 13206,
+    "unchecked": 2336,
     "no_evidence_pending": 2059,
-    "note": "batch 1239에서 처방 주제 10개에 새 근거 항목 8개와 기존 연결 2개를 처리했다. 다음 미처리 줄은 2265번 candesartan — Heart Failure에 듣는다이며 2,346개가 남았다."
+    "note": "batch 1240에서 처방 주제 10개에 새 근거 항목 8개와 기존 연결 2개를 처리했다. 다음 미처리 줄은 2300번 linezolid — Pneumonia에 듣는다이며 2,336개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4075,
+    "vs_missing": 4067,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (2,026건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,216건). 목표는 33% 위",
-    "vs_share": "7.1% (387건)",
+    "rx_share": "37% (2,034건). 줄어야 한다",
+    "no_effect_or_harm_share": "22% (1,222건). 목표는 33% 위",
+    "vs_share": "7.2% (395건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.0% (4,630건)",
+    "trial_share": "85.1% (4,638건)",
     "non_trial_share": "15.0% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1240 starts after batch 1239; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2265: candesartan — Heart Failure에 듣는다; 2,346 unchecked remain.",
+  "next": "batch 1241 starts after batch 1240; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2300: linezolid — Pneumonia에 듣는다; 2,336 unchecked remain.",
   "last_batch": {
-    "id": "1239",
-    "commit": "09968b9c",
+    "id": "1240",
+    "commit": "527732fe",
     "pushed": true,
     "processed_topics": 10,
     "new_entries": 8,
     "existing_links": 2,
     "no_evidence_rejects": 0,
-    "build": "5448 entries · 7776 refs · 4630 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "dabigatran—Thrombosis, fondaparinux—Pulmonary Embolism·Thrombosis, dalteparin—Cancer·Surgery, ticagrelor—Infarction·Stroke, prasugrel—Infarction을 새로 추가하고 losartan—Nephropathy·valsartan—Heart Failure 기존 항목을 연결했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 다비가트란 혈전증, 폰다파리눅스 폐색전증·혈전증, 달테파린 암·수술, 티카그렐러 심근경색·뇌졸중, 프라수그렐 심근경색 근거를 새 항목으로 기록하고 기존 로사르탄·발사르탄 항목을 연결했다.",
+    "build": "5456 entries · 7784 refs · 4638 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "candesartan—Heart Failure, irbesartan—Kidney Disease, ceftriaxone—Infections·Infection·Sepsis, vancomycin—Infections·Pneumonia·Sepsis를 새로 추가하고 amlodipine—Blood Pressure·Coronary Disease 기존 항목을 연결했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 칸데사르탄 심부전, 이르베사르탄 신장질환, 세프트리악손 감염·패혈증, 반코마이신 감염·폐렴·패혈증 근거를 새 항목으로 기록하고 기존 암로디핀 혈압·관상동맥질환 항목을 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
