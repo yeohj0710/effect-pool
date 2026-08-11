@@ -569,9 +569,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ondansetron — Lymphoma에 듣는다 — 기존 항목(ondansetron-lymphoma)  <!-- 등록 시험 71건 -->
 - [x] ondansetron — Cancer에 듣는다 — 기존 항목(ondansetron-cancer-null)  <!-- 등록 시험 33건 -->
 - [x] ondansetron — Leukemia에 듣는다 — 기존 항목(ondansetron-leukemia-null)  <!-- 등록 시험 28건 -->
-- [ ] ondansetron — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] ondansetron — Anesthesia에 듣는다 — 기존 항목(ondansetron-anesthesia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
 - [x] memantine — Autism에 듣는다 — 기존 항목(memantine-autism-null)  <!-- 등록 시험 19건 -->
-- [ ] memantine — Dementia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] memantine — Dementia에 듣는다 — 기존 항목(memantine-dementia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
 - [x] memantine — Chemo-brain에 듣는다 — 기존 항목(memantine-chemo-brain-open)  <!-- 등록 시험 18건 -->
 - [x] memantine — Cognitive Change에 듣는다 — 기존 항목(memantine-cognitive-change-open)  <!-- 등록 시험 17건 -->
 - [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다 — 기존 항목(lithium-stage-iv-mantle-cell-lymphoma-null)  <!-- 등록 시험 36건 -->
@@ -588,21 +588,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Kidney Cancer에 듣는다 — 기존 항목(sirolimus-kidney-cancer-open)  <!-- 등록 시험 54건 -->
 - [x] rapamycin — Coronary Disease에 듣는다 — 기존 항목(sirolimus-coronary-disease)  <!-- 등록 시험 9건 -->
 - [x] rapamycin — Endometrial Carcinoma에 듣는다 — 기존 항목(rapamycin-endometrial-carcinoma-open)  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Kidney Transplant에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] rapamycin — Kidney Transplant에 듣는다 — 기존 항목(sirolimus-kidney-transplant-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
 - [x] rapamycin — Malignant Melanoma에 듣는다 — 기존 항목(rapamycin-malignant-melanoma-open)  <!-- 등록 시험 7건 -->
-- [ ] montelukast — Rhinitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] montelukast — Rhinitis에 듣는다 — 기존 항목(montelukast-rhinitis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] montelukast — Bronchiolitis에 듣는다 — 기존 항목(montelukast-bronchiolitis-null)  <!-- 등록 시험 13건 -->
 - [x] montelukast — Multiple Myeloma에 듣는다 — 기존 항목(montelukast-multiple-myeloma)  <!-- 등록 시험 10건 -->
 - [x] montelukast — Lung Diseases에 듣는다 — 기존 항목(montelukast-lung-diseases)  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Artery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 81건 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
-- [ ] atorvastatin — Hyperlipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
-- [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] atorvastatin — Coronary Artery에 듣는다 — 기존 항목(atorvastatin-coronary-artery-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 81건 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다 — 기존 항목(atorvastatin-dyslipidemia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
+- [x] atorvastatin — Hyperlipidemia에 듣는다 — 기존 항목(atorvastatin-hyperlipidemia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
+- [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 — 기존 항목(losartan-nephropathy-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 — 기존 항목(verapamil-atrial-fibrillation-null) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
 - [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
@@ -21052,27 +21052,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ginkgo biloba — Cognitive Change에 듣는다  <!-- 시험 16건 · 논문 151편 -->
 - [x] coenzyme Q10 — Depression에 듣는다  <!-- 시험 4건 · 논문 274편 -->
 - [x] coenzyme Q10 — Acute Kidney Injury에 듣는다  <!-- 시험 4건 · 논문 43편 -->
-- [ ] lutein — Macular Hole에 듣는다  <!-- 시험 19건 · 논문 9편 -->
-- [ ] lutein — Diet, Healthy에 듣는다  <!-- 시험 3건 · 논문 265편 -->
-- [ ] l-arginine — Hypertension에 듣는다  <!-- 시험 11건 · 논문 8048편 -->
-- [ ] l-arginine — Erectile Dysfunction에 듣는다  <!-- 시험 5건 · 논문 341편 -->
-- [ ] l-arginine — Physiology에 듣는다  <!-- 시험 4건 · 논문 123916편 -->
-- [ ] taurine — Cognitive Decline에 듣는다  <!-- 시험 13건 · 논문 127편 -->
-- [ ] taurine — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] taurine — Gastric Cancer에 듣는다  <!-- 시험 3건 · 논문 69편 -->
-- [ ] taurine — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 246편 -->
-- [ ] ashwagandha — Stress에 듣는다  <!-- 시험 9건 · 논문 535편 -->
-- [ ] saw palmetto — Prostatic Hyperplasia에 듣는다  <!-- 시험 4건 · 논문 422편 -->
-- [ ] st john's wort — Depression에 듣는다  <!-- 시험 6건 · 논문 1043편 -->
-- [ ] beta-glucan — Obesity에 듣는다  <!-- 시험 4건 · 논문 261편 -->
-- [ ] beta-glucan — Neuroblastoma에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] lutein — Macular Hole에 듣는다  <!-- 시험 19건 · 논문 9편 -->
+- [x] lutein — Diet, Healthy에 듣는다  <!-- 시험 3건 · 논문 265편 -->
+- [x] l-arginine — Hypertension에 듣는다 — 기존 항목(arginine-hypertension-pos)  <!-- 시험 11건 · 논문 8048편 -->
+- [x] l-arginine — Erectile Dysfunction에 듣는다  <!-- 시험 5건 · 논문 341편 -->
+- [x] l-arginine — Physiology에 듣는다  <!-- 시험 4건 · 논문 123916편 -->
+- [x] taurine — Cognitive Decline에 듣는다  <!-- 시험 13건 · 논문 127편 -->
+- [x] taurine — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 21편 -->
+- [x] taurine — Gastric Cancer에 듣는다  <!-- 시험 3건 · 논문 69편 -->
+- [x] taurine — Insulin Resistance에 듣는다  <!-- 시험 3건 · 논문 246편 -->
+- [x] ashwagandha — Stress에 듣는다  <!-- 시험 9건 · 논문 535편 -->
+- [x] saw palmetto — Prostatic Hyperplasia에 듣는다  <!-- 시험 4건 · 논문 422편 -->
+- [x] st john's wort — Depression에 듣는다  <!-- 시험 6건 · 논문 1043편 -->
+- [x] beta-glucan — Obesity에 듣는다  <!-- 시험 4건 · 논문 261편 -->
+- [x] beta-glucan — Neuroblastoma에 듣는다  <!-- 시험 3건 · 논문 17편 -->
 - [ ] beta-glucan — Cold에 듣는다  <!-- 시험 3건 · 논문 230편 -->
-- [ ] inositol — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 42건 · 논문 449편 -->
-- [ ] inositol — Insulin에 듣는다  <!-- 시험 7건 · 논문 2535편 -->
-- [ ] inositol — Infant, Newborn에 듣는다  <!-- 시험 6건 · 논문 269편 -->
-- [ ] inositol — Menstrual Pattern에 듣는다  <!-- 시험 4건 · 논문 11편 -->
-- [ ] lactoferrin — Carcinoma, Renal Cell에 듣는다  <!-- 시험 20건 · 논문 11편 -->
-- [ ] lactoferrin — Low Ferritin에 듣는다  <!-- 시험 7건 · 논문 44편 -->
+- [x] inositol — Polycystic Ovary Syndrome에 듣는다 — 기존 항목(inositol-pcos-pos)  <!-- 시험 42건 · 논문 449편 -->
+- [x] inositol — Insulin에 듣는다  <!-- 시험 7건 · 논문 2535편 -->
+- [x] inositol — Infant, Newborn에 듣는다  <!-- 시험 6건 · 논문 269편 -->
+- [x] inositol — Menstrual Pattern에 듣는다  <!-- 시험 4건 · 논문 11편 -->
+- [x] lactoferrin — Carcinoma, Renal Cell에 듣는다  <!-- 시험 20건 · 논문 11편 -->
+- [x] lactoferrin — Low Ferritin에 듣는다  <!-- 시험 7건 · 논문 44편 -->
 - [ ] lactoferrin — Nosocomial Infections에 듣는다  <!-- 시험 6건 · 논문 76편 -->
 - [ ] bromelain — Covid-19에 듣는다  <!-- 시험 4건 · 논문 27편 -->
 - [ ] boswellia — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 55편 -->
