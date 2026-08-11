@@ -20890,3 +20890,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] plant sterol — Hyperlipidemias에 듣는다  <!-- 시험 7건 · 논문 1111편 --> — 항목 생성(plant-sterol-hyperlipidemias-pos, 2026-08-11)
 - [x] plant sterol — Dyslipidemias에 듣는다  <!-- 시험 6건 · 논문 1180편 --> — 항목 생성(plant-sterol-dyslipidemias-pos, 2026-08-11)
 - [x] plant sterol — Mild Hypercholesterolemic Subjects에 듣는다  <!-- 시험 6건 · 논문 10편 --> — 항목 생성(plant-sterol-mild-hypercholesterolemic-subjects-pos, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] astragalus — Stroke에 듣는다  <!-- 시험 3건 · 논문 119편 --> — 기존 항목(astragalus-stroke-pos)
+- [x] astragalus — Alzheimer Disease에 듣는다  <!-- 시험 3건 · 논문 56편 --> — 등록시험 결과 대기(2026-08-11 조회, astragalus AND Alzheimer Disease; ClinicalTrials.gov 물질 일치 3건, 사람 결과 논문 확인 못함)
+- [x] GABA — Opioid Use에 듣는다  <!-- 시험 35건 · 논문 4658편 --> — 근거 없음(2026-08-11 조회, GABA AND Opioid Use; ClinicalTrials.gov 물질 일치 40건, GABA 자체 중재 결과 없음)
+- [x] GABA — Neuropathy에 듣는다  <!-- 시험 31건 · 논문 1076편 --> — 근거 없음(2026-08-11 조회, GABA AND Neuropathy; ClinicalTrials.gov 물질 일치 76건, GABA 자체 중재 결과 없음)
+- [x] GABA — Cancer에 듣는다  <!-- 시험 30건 · 논문 3737편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] GABA — Fibromyalgia에 듣는다  <!-- 시험 27건 · 논문 361편 --> — 근거 없음(2026-08-11 조회, GABA AND Fibromyalgia; ClinicalTrials.gov 물질 일치 52건, GABA 자체 중재 결과 없음)
+- [x] l-lysine — Recurrent Meningioma에 듣는다  <!-- 시험 14건 · 논문 11편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] breathing therapy — Heart Rate에 듣는다  <!-- 시험 5건 · 논문 13629편 --> — 기존 항목(breathing-therapy-heart-rate-null)
+- [x] breathing therapy — Anxiety에 듣는다  <!-- 시험 4건 · 논문 3515편 --> — 기존 항목(breathing-therapy-anxiety-pos)
+- [x] breathing therapy — Neck Pain에 듣는다  <!-- 시험 4건 · 논문 524편 --> — 기존 항목(breathing-therapy-neck-pain-null)
+- [x] breathing therapy — Long COVID에 듣는다  <!-- 시험 4건 · 논문 682편 --> — 기존 항목(breathing-therapy-long-covid-null)
+- [x] light therapy glasses — Myopia에 듣는다  <!-- 시험 14건 · 논문 87편 --> — 기존 항목(light-therapy-glasses-myopia-null)
+- [x] light therapy glasses — Depression에 듣는다  <!-- 시험 8건 · 논문 35편 --> — 기존 항목(light-therapy-glasses-depression-obs)
+- [x] light therapy glasses — Fatigue에 듣는다  <!-- 시험 7건 · 논문 21편 --> — 기존 항목(light-therapy-glasses-fatigue-pos)
