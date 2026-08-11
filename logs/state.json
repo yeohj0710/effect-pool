@@ -1,29 +1,30 @@
 {
   "updated": "2026-08-11",
   "root": "C:\\dev\\offlabel-pool",
-  "entries": 4849,
+  "entries": 4857,
   "worklist": {
-    "total": 15026,
-    "checked": 15026,
+    "total": 15042,
+    "checked": 15042,
     "unchecked": 0,
-    "no_evidence_pending": 1966,
+    "no_evidence_pending": 1971,
     "next_batch": [],
     "additional_hold": [
-      "robotic glove — Spastic: registry-only result pending for NCT07482631 and NCT07249866"
+      "robotic glove — Spastic: registry-only result pending for NCT07482631 and NCT07249866",
+      "robotic arm — Knee Disease: registry-only result pending for NCT03106558 and NCT02058069"
     ]
   },
   "verification": {
-    "build": "passed; batch 1179 produced 9 candidates on the first mixed expansion and 10 on the second, processed 19 unique topics while preserving 10 duplicate worklist lines, added 15 evidence entries for knee and ankle braces, an assistive robot, motion capture, inertial sensors, and goat milk, closed 4 direct-no-evidence lines, tightened 20 legacy sentences, and pushed data 0878f819 plus legacy aa2317dc; build matched at 4849 entries and 6816 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
+    "build": "passed; batch 1180 produced 16 candidates from one mixed expansion, processed 14 non-oncology topics while holding 2 oncology topics out, added 8 evidence entries for balance sensors, motion sensors, voice therapy, wearable biofeedback, and a speech therapy app, closed 5 direct-no-evidence lines, recorded 1 registry-only result as pending, tightened 20 legacy sentences, and pushed data 807f18d4 plus legacy 10452904; build matched at 4857 entries and 6824 refs; new line/effect/known/scale/English/translation warnings are 0; truthful thin-study and unknown-n warnings remain",
     "line_warnings": 0,
     "effect_warnings": 0,
     "english_warnings": 0,
     "scale_warnings": 0,
     "unknown_n_warnings": 373,
     "known_warnings": 0,
-    "thin_warnings": 903,
+    "thin_warnings": 906,
     "tier_distribution": {
-      "trial": 4143,
-      "obs": 622,
+      "trial": 4147,
+      "obs": 626,
       "animal": 25,
       "lab": 13,
       "case": 46
@@ -31,11 +32,11 @@
     "no_effect_or_harm": 1113,
     "harm": 144,
     "no_effect_or_harm_share": "23%",
-    "non_trial": 706,
+    "non_trial": 710,
     "trial_share": "85.4%",
     "non_trial_share": "14.6%",
     "unexpected_benefit_entries": 27,
-    "connected_evidence": 6816
+    "connected_evidence": 6824
   },
   "deployment": {
     "url": "https://offlabel-pool.vercel.app",
@@ -60,9 +61,9 @@
     "latest_note": "The official six-round HTTP 200 public/local check after batch 1177 matched in all 6 rounds at 4825 entries, 4825 id fields, 6788 refs, shard 48, and 4825 detail entries with identical DATA SHA-256 b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa; 101 detail shards were verified per round; automatic Git deployment was sufficient, so vercel --prod was not required; the next official check is due after batch 1183."
   },
   "resume": {
-    "last_committed_batch": "batch 1179 data in commit 0878f819 and legacy sentences in aa2317dc pushed; state checkpoint follows",
-    "last_batch": "batch 1179 started with 0 unchecked lines; the first mixed expansion produced 9 candidates and the second produced 10, so expansion stopped after the second attempt; processed 19 unique topics while preserving 10 duplicate worklist lines, added 15 evidence entries for knee and ankle braces, an assistive robot, motion capture, inertial sensors, and goat milk, closed 4 direct-no-evidence lines, tightened 20 legacy sentences, and pushed data 0878f819 plus legacy aa2317dc; build matched at 4849 entries and 6816 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1183",
-    "next_batch": "batch 1180",
+    "last_committed_batch": "batch 1180 data in commit 807f18d4 and legacy sentences in 10452904 pushed; state checkpoint follows",
+    "last_batch": "batch 1180 started with 0 unchecked lines; one mixed expansion produced 16 candidates, processed 14 non-oncology topics while holding 2 oncology topics out, added 8 evidence entries, closed 5 direct-no-evidence lines, recorded 1 registry-only result as pending, tightened 20 legacy sentences, and pushed data 807f18d4 plus legacy 10452904; build matched at 4857 entries and 6824 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1183",
+    "next_batch": "batch 1181",
     "next_six_round_check": "after batch 1183",
     "untracked_preserved": [
       "build-batch283.log",
@@ -580,8 +581,9 @@
     "batch 1176 started with 0 unchecked lines; the first mixed expansion produced 20 candidates, so no second expansion was needed; processed 20 lines, closed 10 oncology or direct-no-evidence lines, added 11 evidence entries for virtual patient, robotic pet, wearable sleep monitor, home monitoring, and virtual reality headset, tightened 20 legacy sentences, and pushed data bc059f60 plus legacy c091ee9d; build matched at 4814 entries and 6777 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1177.",
     "batch 1177 started with 0 unchecked lines; the first non-drug expansion produced 16 candidates, so no second expansion was needed; processed 16 lines, closed 5 direct-no-evidence lines, added 11 evidence entries for smart home, head-mounted display, virtual avatar, home telemonitoring, and remote blood pressure monitoring, tightened 20 legacy sentences, and pushed data dcbcfbf8 plus legacy 25af06af; build matched at 4825 entries and 6788 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the official six-round public/local check matched all 6 rounds with identical DATA SHA-256 b7b40bb08d5810e59ab3d4e528f50459baa2be46d2102a3188102380e600ecaa; automatic Git deployment was sufficient and vercel --prod was not required; next official check is due after batch 1183.",
     "batch 1178 started with 0 unchecked lines; the first mixed expansion produced 15 candidates, so no second expansion was needed; processed 15 lines, added 9 evidence entries for AI chatbot, rehabilitation robot, and fermented milk, closed 4 direct-no-evidence lines, marked 1 oncology hold, recorded 1 registry-only result as pending without creating an entry, tightened 20 legacy sentences, and pushed data 77235ba8 plus legacy 4ab054e9; build matched at 4834 entries and 6801 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; the next official six-round public/local check is due after batch 1183.",
-    "batch 1179 started with 0 unchecked lines; the first mixed expansion produced 9 candidates and the second produced 10, so expansion stopped after the second attempt; processed 19 unique topics while preserving 10 duplicate worklist lines, added 15 evidence entries for knee and ankle braces, an assistive robot, motion capture, inertial sensors, and goat milk, closed 4 direct-no-evidence lines, tightened 20 legacy sentences, and pushed data 0878f819 plus legacy aa2317dc; build matched at 4849 entries and 6816 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; next official check is due after batch 1183."
+    "batch 1179 started with 0 unchecked lines; the first mixed expansion produced 9 candidates and the second produced 10, so expansion stopped after the second attempt; processed 19 unique topics while preserving 10 duplicate worklist lines, added 15 evidence entries for knee and ankle braces, an assistive robot, motion capture, inertial sensors, and goat milk, closed 4 direct-no-evidence lines, tightened 20 legacy sentences, and pushed data 0878f819 plus legacy aa2317dc; build matched at 4849 entries and 6816 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; next official check is due after batch 1183.",
+    "batch 1180 started with 0 unchecked lines; one mixed expansion produced 16 candidates, processed 14 non-oncology topics while holding 2 oncology topics out, added 8 evidence entries for balance sensors, motion sensors, voice therapy, wearable biofeedback, and a speech therapy app, closed 5 direct-no-evidence lines, recorded 1 registry-only result as pending, tightened 20 legacy sentences, and pushed data 807f18d4 plus legacy 10452904; build matched at 4857 entries and 6824 refs with new line/effect/known/scale/English/translation warnings at 0; truthful thin-study and unknown-n warnings remain; next official check is due after batch 1183."
   ],
-  "current_batch": "batch 1179 checkpoint: 4849 entries/6816 refs; the first mixed expansion produced 9 candidates and the second produced 10, so expansion stopped after the second attempt; 4 direct-no-evidence lines were closed, 15 evidence entries were added, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 15026 total, 15026 checked, 0 unchecked; data commit 0878f819 and legacy commit aa2317dc pushed; next batch is 1180",
-  "next_action": "start batch 1180 with git pull, read AGENTS.md, count remaining work, expand with a mixed branch when below 30, gate approvals before research, then build, commit, push, update state, and continue looping; next official six-round public/local check is due after batch 1183"
+  "current_batch": "batch 1180 checkpoint: 4857 entries/6824 refs; one mixed expansion produced 16 candidates, 14 non-oncology topics were researched, 2 oncology topics were held out, 5 direct-no-evidence lines were closed, 8 evidence entries were added, 1 registry-only result was recorded as pending, 20 legacy sentences were tightened, new line/effect/known/scale/English/translation warnings stayed at 0, and truthful thin-study and unknown-n warnings remain; worklist is 15042 total, 15042 checked, 0 unchecked; data commit 807f18d4 and legacy commit 10452904 pushed; next batch is 1181",
+  "next_action": "start batch 1181 with git pull, read AGENTS.md, count remaining work, expand with a mixed branch when below 30, gate approvals before research, then build, commit, push, update state, and continue looping; next official six-round public/local check is due after batch 1183"
 }
