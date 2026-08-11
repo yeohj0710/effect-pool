@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-11",
-  "root": "C:\\dev\\effect-pool",
+  "root": "C:\\dev\\offlabel-pool",
   "goal": "무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 모은다. 약국약·보충제·음식·운동·생활·시술기기를 처방약보다 먼저 늘린다.",
   "pivot": {
     "date": "2026-08-11",
@@ -15,38 +15,42 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 4967,
-  "subjects": 2062,
-  "refs": 6976,
+  "entries": 4985,
+  "subjects": 2068,
+  "refs": 7009,
   "kinds": {
     "otc": 40,
-    "supp": 276,
-    "food": 408,
+    "supp": 280,
+    "food": 411,
     "move": 583,
-    "life": 1153,
+    "life": 1154,
     "care": 634,
-    "rx": 1873
+    "rx": 1883
   },
-  "tiers": { "trial": 4250, "obs": 633, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 2957, "null": 1000, "open": 863, "harm": 147 },
+  "tiers": { "trial": 4268, "obs": 633, "animal": 25, "lab": 13, "case": 46 },
+  "dirs": { "pos": 2973, "null": 1002, "open": 863, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12281,
-    "unchecked": 3261,
-    "note": "3,261개 중 2,948개는 옛 규칙이 허가 적응증이라고 뺐던 줄이다. 시험 수와 논문 수를 이미 확인해둔 줄이라 새로 뽑는 것보다 낫다. 나머지 313개는 2026-08-11 에 약이 아닌 씨앗 130개로 뽑았다."
+    "checked": 12311,
+    "unchecked": 3231,
+    "no_evidence_pending": 1998,
+    "note": "이번 바퀴는 옛 규칙으로 남은 줄 20개를 처리했다. 허가 적응증도 버리지 않고 기존 항목 연결 또는 새 숫자 항목으로 기록했다. 다음 미처리 줄은 semaglutide — Weight Loss에 듣는다이다."
   },
   "backlog": {
-    "vs_missing": 4104,
-    "vs_note": "개입군 대 대조군 숫자가 없는 옛 항목. 한 바퀴에 20건씩. 새 조사가 아니라 이미 걸어둔 refs 를 다시 읽는 일이다",
-    "english_subjects": 1135,
+    "vs_missing": 4959,
+    "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
+    "english_subjects": 1169,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "15% (약국약·보충제·음식 724건). 목표는 25%",
-    "rx_share": "38% (1,873건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,147건). 목표는 33% 위",
-    "vs_share": "0% (8건)",
-    "unexpected_benefit_entries": 13
+    "over_counter_share": "15% (약국약·보충제·음식 731건). 목표는 25%",
+    "rx_share": "38% (1,883건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,149건). 목표는 33% 위",
+    "vs_share": "0.5% (26건)",
+    "unexpected_benefit_entries": 13,
+    "trial_share": "85.6% (4,268건)",
+    "non_trial_share": "14.4% (717건)",
+    "build_warnings": { "unknown_n": 383, "thin_study": 944 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -54,5 +58,17 @@
     "checked_at": "2026-08-11",
     "note": "푸시하면 Vercel 이 알아서 빌드한다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "worklist 에서 '옛 규칙이 허가 적응증이라고 뺐던 줄' 주석이 붙은 줄부터 30개씩 골라라. 그중 20개는 약이 아닌 갈래에서 고른다. 매 바퀴 옛 항목 vs 20건과 영문 주어 20종을 같이 던다."
+  "next": "batch 1193 시작 전에 git pull하고 AGENTS.md를 읽는다. 미처리 3,231개라 확장하지 않고 semaglutide — Weight Loss부터 30개를 고른다.",
+  "last_batch": {
+    "id": "1192",
+    "commit": "0b7bee61",
+    "pushed": true,
+    "processed_topics": 30,
+    "new_entries": 10,
+    "existing_links": 10,
+    "build": "4985 entries · 7009 refs · 4268 trial · 633 obs · 25 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed를 사용해 topiramate, trazodone, quetiapine, spironolactone, doxycycline, colchicine, dapagliflozin의 12개 주제를 확인했다. 허가 적응증도 수치가 있으면 남겼다.",
+    "legacy_sentence_edits": 20,
+    "next_official_deployment_check": "after batch 1195"
+  }
 }
