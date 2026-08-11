@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "root": "C:\\dev\\effect-pool",
   "goal": "무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 모은다. 약국약·보충제·음식·운동·생활·시술기기를 처방약보다 먼저 늘린다.",
   "pivot": {
@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5430,
-  "subjects": 2156,
-  "refs": 7758,
+  "entries": 5440,
+  "subjects": 2159,
+  "refs": 7768,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -27,14 +27,14 @@
     "care": 682,
     "rx": 2008
   },
-  "tiers": { "trial": 4612, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3195, "null": 1064, "open": 1021, "harm": 150 },
+  "tiers": { "trial": 4622, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3204, "null": 1065, "open": 1021, "harm": 150 },
   "worklist": {
     "total": 15542,
-    "checked": 13176,
-    "unchecked": 2366,
+    "checked": 13186,
+    "unchecked": 2356,
     "no_evidence_pending": 2059,
-    "note": "batch 1237에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2199번 apixaban — Embolism에 듣는다이며 2,366개가 남았다."
+    "note": "batch 1238에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2222번 dabigatran — Thrombosis에 듣는다이며 2,356개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -45,11 +45,11 @@
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
     "rx_share": "37% (2,008건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,214건). 목표는 33% 위",
-    "vs_share": "6.8% (369건)",
+    "no_effect_or_harm_share": "22% (1,215건). 목표는 33% 위",
+    "vs_share": "7.0% (379건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.9% (4,612건)",
-    "non_trial_share": "15.1% (818건)",
+    "trial_share": "85.0% (4,622건)",
+    "non_trial_share": "15.0% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
   "deployment": {
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1238 starts after batch 1237; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2199: apixaban — Embolism에 듣는다; 2,366 unchecked remain.",
+  "next": "batch 1239 starts after batch 1238; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2222: dabigatran — Thrombosis에 듣는다; 2,356 unchecked remain.",
   "last_batch": {
-    "id": "1237",
-    "commit": "debf6c64",
-    "pushed": true,
+    "id": "1238",
+    "commit": "3a34d0b6",
+    "pushed": false,
     "processed_topics": 10,
     "new_entries": 10,
     "existing_links": 0,
     "no_evidence_rejects": 0,
-    "build": "5430 entries · 7758 refs · 4612 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "dexamethasone—Leukemia·Lymphoma·Cancer, hydrocortisone—Lymphoma·Cancer·Adrenal Insufficiency, enoxaparin—Thrombosis·Embolism, apixaban—Thromboembolism·Thrombosis를 새로 추가했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 덱사메타손 백혈병·림프종·암, 하이드로코르티손 림프종·암·부신기능부전, 에녹사파린 혈전증·색전증, 아픽사반 혈전색전증·혈전증 근거를 새 항목으로 기록했다.",
+    "build": "5440 entries · 7768 refs · 4622 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "apixaban—Embolism·Stroke, rivaroxaban—Thrombosis·Coronary Disease·Embolism, warfarin—Thromboembolism·Embolism·Thrombosis, dabigatran—Thromboembolism·Stroke를 새로 추가했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 아픽사반 색전증·뇌졸중, 리바록사반 혈전증·관상동맥질환·색전증, 와파린 혈전색전증·색전증·혈전증, 다비가트란 혈전색전증·뇌졸중 근거를 새 항목으로 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
