@@ -1,0 +1,31 @@
+{
+  "id": "baricitinib-covid-pos",
+  "subj": "바리시티닙",
+  "claim": "바리시티닙이 입원 코로나19의 사망을 줄인다",
+  "line": "입원 코로나19에서 바리시티닙은 표준치료보다 28일 사망률이 낮았습니다.",
+  "effect": "28일 사망 8% 대 13%, HR 0.57",
+  "vs": "COV-BARRIER 1,525명에서 표준치료에 바리시티닙을 더한 군의 28일 사망은 62/764명(8%) 대 위약 100/761명(13%)으로 HR 0.57 (95% CI 0.41~0.78)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1525,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "산소·인공호흡이 필요한 입원 코로나19 치료가 허가 적응증입니다.",
+  "why": "입원 코로나19 성인에게 표준치료와 함께 바리시티닙 4mg 또는 위약을 최대 14일 투여한 COV-BARRIER 3상 무작위 이중눈가림시험입니다.",
+  "saw": "28일 질병 진행 복합 결과는 바리시티닙 27.8%, 위약 30.5%로 유의하지 않았지만, 28일 사망은 8% 대 13%였습니다. 중대한 이상반응은 110/750명(15%) 대 135/752명(18%), 중대한 감염은 9% 대 10%, 정맥혈전색전은 3% 대 3%였습니다.",
+  "limit": "입원 환자와 당시 표준치료를 받은 환자의 결과이며, 대부분 덱사메타손을 사용했습니다. 외래 초기 코로나19나 다른 변이·치료 환경에 같은 효과를 적용할 수 없습니다.",
+  "against": "전체 질병 진행 복합 결과는 위약보다 유의하게 낮지 않았고, 중증·위중증 환자만 포함한 별도 시험에서는 효과 추정의 불확실성이 남았습니다.",
+  "use": "산소가 필요한 입원 코로나19의 사망 감소 근거로 사용하되, 표준치료와 혈전·감염 위험을 함께 검토합니다.",
+  "refs": [
+    { "label": "2021 · Lancet Respir Med · COV-BARRIER 입원 코로나19 3상 무작위시험", "pmid": "34480861", "nct": "NCT04421027" },
+    { "label": "2022 · Lancet Respir Med · 기계환기·ECMO 중환자 탐색시험", "pmid": "35123660" },
+    { "label": "2022 · Lancet · RECOVERY 입원 코로나19 시험", "pmid": "35908569" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=baricitinib AND query.cond=COVID-19 → 30건 반환; NCT04421027에서 baricitinib·placebo 중재명 확인",
+    "pubmed": "baricitinib AND COVID-19 → 580건",
+    "negative": "baricitinib AND COVID-19 AND (no effect OR did not OR failed OR negative OR no significant difference) → 355건",
+    "safety": "baricitinib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,065건"
+  }
+}
