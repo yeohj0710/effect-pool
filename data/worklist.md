@@ -701,12 +701,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
 - [x] aspirin — Cancer에 듣는다 — 기존 항목(aspirin-cancer-null)  <!-- 등록 시험 33건 -->
-- [ ] aspirin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] aspirin — Cardiovascular Disease에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 -->
+- [x] propranolol — Migraine에 듣는다 — 기존 항목(propranolol-migraine-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-traumatic-stress-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
 - [x] propranolol — Prostate Carcinoma에 듣는다 — 기존 항목(propranolol-prostate-carcinoma-null)  <!-- 등록 시험 23건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 — 기존 항목(naltrexone-alcoholism-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
 - [x] naltrexone — Substance Use에 듣는다 — 기존 항목(naltrexone-substance-use)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -716,18 +716,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 등록 시험 18건 -->
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Depression에 듣는다 — 기존 항목(amitriptyline-depression-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 — 기존 항목(topiramate-epilepsy-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 — 기존 항목(topiramate-seizures-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] trazodone — Depression에 듣는다 — 기존 항목(trazodone-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 — 기존 항목(trazodone-major-depressive-disorder-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Bipolar에 듣는다 — 기존 항목(quetiapine-bipolar-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
+- [x] quetiapine — Major Depression에 듣는다 — 기존 항목(quetiapine-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
 - [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
@@ -21168,26 +21168,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] balance training — Brain Ischemia에 듣는다  <!-- 시험 6건 · 논문 177편 -->
 - [x] inspiratory muscle training — Muscle Weakness에 듣는다  <!-- 시험 34건 · 논문 322편 -->
 - [x] inspiratory muscle training — Pulmonary Disease에 듣는다  <!-- 시험 32건 · 논문 936편 -->
-- [ ] inspiratory muscle training — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 201편 -->
-- [ ] inspiratory muscle training — Exercise에 듣는다  <!-- 시험 10건 · 논문 2073편 -->
-- [ ] pelvic floor muscle training — Incontinence에 듣는다  <!-- 시험 187건 · 논문 2228편 -->
-- [ ] pelvic floor muscle training — Rectal Cancer에 듣는다  <!-- 시험 21건 · 논문 34편 -->
-- [ ] pelvic floor muscle training — Prostatectomy에 듣는다  <!-- 시험 17건 · 논문 249편 -->
-- [ ] pelvic floor muscle training — Bladder Control에 듣는다  <!-- 시험 15건 · 논문 247편 -->
-- [ ] eccentric exercise — Tendinopathy에 듣는다  <!-- 시험 40건 · 논문 573편 -->
-- [ ] eccentric exercise — Epicondylitis에 듣는다  <!-- 시험 14건 · 논문 91편 -->
-- [ ] eccentric exercise — Exercise에 듣는다  <!-- 시험 11건 · 논문 6637편 -->
-- [ ] eccentric exercise — COPD에 듣는다  <!-- 시험 10건 · 논문 40편 -->
-- [ ] aquatic exercise — Knee에 듣는다  <!-- 시험 13건 · 논문 230편 -->
-- [ ] aquatic exercise — Hypertension에 듣는다  <!-- 시험 3건 · 논문 36편 -->
-- [ ] sleep hygiene education — Insomnia에 듣는다  <!-- 시험 113건 · 논문 759편 -->
-- [ ] sleep hygiene education — Pain에 듣는다  <!-- 시험 12건 · 논문 224편 -->
-- [ ] sleep hygiene education — Cognitive Aging에 듣는다  <!-- 시험 12건 · 논문 74편 -->
-- [ ] sleep hygiene education — Depression에 듣는다  <!-- 시험 10건 · 논문 764편 -->
-- [ ] mindfulness meditation — Stress에 듣는다  <!-- 시험 90건 · 논문 8062편 -->
-- [ ] mindfulness meditation — Concussion Mild에 듣는다  <!-- 시험 15건 · 논문 34편 -->
-- [ ] mindfulness meditation — Drug Use에 듣는다  <!-- 시험 13건 · 논문 857편 -->
-- [ ] mindfulness meditation — Diabetes에 듣는다  <!-- 시험 13건 · 논문 402편 -->
+- [x] inspiratory muscle training — Heart Failure에 듣는다 — 신규 항목(inspiratory-muscle-training-heart-failure-pos)  <!-- 시험 25건 · 논문 201편 -->
+- [x] inspiratory muscle training — Exercise에 듣는다 — 신규 항목(inspiratory-muscle-training-exercise-open)  <!-- 시험 10건 · 논문 2073편 -->
+- [x] pelvic floor muscle training — Incontinence에 듣는다 — 신규 항목(pelvic-floor-muscle-training-incontinence-pos)  <!-- 시험 187건 · 논문 2228편 -->
+- [x] pelvic floor muscle training — Rectal Cancer에 듣는다 — 신규 항목(pelvic-floor-muscle-training-rectal-cancer-pos)  <!-- 시험 21건 · 논문 34편 -->
+- [x] pelvic floor muscle training — Prostatectomy에 듣는다 — 신규 항목(pelvic-floor-muscle-training-prostatectomy-pos)  <!-- 시험 17건 · 논문 249편 -->
+- [x] pelvic floor muscle training — Bladder Control에 듣는다 — 신규 항목(pelvic-floor-muscle-training-bladder-control-null)  <!-- 시험 15건 · 논문 247편 -->
+- [x] eccentric exercise — Tendinopathy에 듣는다 — 신규 항목(eccentric-exercise-tendinopathy-open)  <!-- 시험 40건 · 논문 573편 -->
+- [x] eccentric exercise — Epicondylitis에 듣는다 — 신규 항목(eccentric-exercise-epicondylitis-open)  <!-- 시험 14건 · 논문 91편 -->
+- [x] eccentric exercise — Exercise에 듣는다 — 신규 항목(eccentric-exercise-exercise-open)  <!-- 시험 11건 · 논문 6637편 -->
+- [x] eccentric exercise — COPD에 듣는다 — 신규 항목(eccentric-exercise-copd-pos)  <!-- 시험 10건 · 논문 40편 -->
+- [x] aquatic exercise — Knee에 듣는다 — 신규 항목(aquatic-exercise-knee-pos)  <!-- 시험 13건 · 논문 230편 -->
+- [x] aquatic exercise — Hypertension에 듣는다 — 신규 항목(aquatic-exercise-hypertension-open)  <!-- 시험 3건 · 논문 36편 -->
+- [x] sleep hygiene education — Insomnia에 듣는다 — 신규 항목(sleep-hygiene-education-insomnia-open)  <!-- 시험 113건 · 논문 759편 -->
+- [x] sleep hygiene education — Pain에 듣는다 — 신규 항목(sleep-hygiene-education-pain-open)  <!-- 시험 12건 · 논문 224편 -->
+- [x] sleep hygiene education — Cognitive Aging에 듣는다 — 신규 항목(sleep-hygiene-education-cognitive-aging-open)  <!-- 시험 12건 · 논문 74편 -->
+- [x] sleep hygiene education — Depression에 듣는다 — 신규 항목(sleep-hygiene-education-depression-open)  <!-- 시험 10건 · 논문 764편 -->
+- [x] mindfulness meditation — Stress에 듣는다 — 신규 항목(mindfulness-meditation-stress-open)  <!-- 시험 90건 · 논문 8062편 -->
+- [x] mindfulness meditation — Concussion Mild에 듣는다 — 신규 항목(mindfulness-meditation-concussion-mild-open)  <!-- 시험 15건 · 논문 34편 -->
+- [x] mindfulness meditation — Drug Use에 듣는다 — 신규 항목(mindfulness-meditation-drug-use-open)  <!-- 시험 13건 · 논문 857편 -->
+- [x] mindfulness meditation — Diabetes에 듣는다 — 신규 항목(mindfulness-meditation-diabetes-open)  <!-- 시험 13건 · 논문 402편 -->
 - [ ] expressive writing — Cancer에 듣는다  <!-- 시험 19건 · 논문 150편 -->
 - [ ] expressive writing — Eating Disorders에 듣는다  <!-- 시험 7건 · 논문 17편 -->
 - [ ] expressive writing — Body Image에 듣는다  <!-- 시험 4건 · 논문 29편 -->
