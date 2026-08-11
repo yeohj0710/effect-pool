@@ -1312,7 +1312,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
 - [x] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(botulinum-toxin-bladder-pos)
 - [x] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(botulinum-toxin-spasticity-pos)
-- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 --> — 기존 항목(botulinum-toxin-frown-lines-pos)
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [x] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 --> — 기존 항목(duloxetine-pain-pos)
 - [x] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(duloxetine-depression-pos)
@@ -1574,20 +1574,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(botulinum-toxin-spasticity-pos)
 - [x] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 --> — 기존 항목(botulinum-toxin-frown-lines-pos)
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
-- [ ] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 -->
-- [ ] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 --> — 기존 항목(duloxetine-pain-pos)
+- [x] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(duloxetine-depression-pos)
 - [x] duloxetine — Osteoarthritis에 듣는다 — 기존 항목(duloxetine-knee-osteoarthritis)  <!-- 등록 시험 24건 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 기존 항목(duloxetine-fibromyalgia-pos)
 - [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 등록 시험 9건 -->
 - [x] dextromethorphan — Solid Tumor에 듣는다 — 기존 항목(dextromethorphan-solid-tumor-null)  <!-- 등록 시험 7건 -->
 - [x] dextromethorphan — Alzheimer Disease에 듣는다 — 기존 항목(dextromethorphan-alzheimer)  <!-- 등록 시험 6건 -->
 - [x] dextromethorphan — Depression에 듣는다 — 기존 항목(dextromethorphan-bupropion-depression)  <!-- 등록 시험 6건 -->
 - [x] clonidine — Opioid Use에 듣는다 — 기존 항목(clonidine-opioid-use)  <!-- 등록 시험 14건 -->
-- [ ] clonidine — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] clonidine — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 기존 항목(clonidine-hypertension-null)
 - [x] clonidine — Anesthesia에 듣는다 — 기존 항목(clonidine-anesthesia)  <!-- 등록 시험 13건 -->
 - [x] clonidine — Osteoarthritis에 듣는다 — 기존 항목(clonidine-osteoarthritis-null)  <!-- 등록 시험 12건 -->
-- [ ] finasteride — Alopecia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] finasteride — Alopecia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 기존 항목(finasteride-alopecia-pos)
+- [x] finasteride — Prostatic Hyperplasia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 기존 항목(finasteride-prostatic-hyperplasia-pos)
 - [x] finasteride — Spinal Cord Injury에 듣는다 — 기존 항목(finasteride-spinal-cord-injury)  <!-- 등록 시험 10건 -->
 - [x] finasteride — Trauma, Nervous System에 듣는다 — 기존 항목(finasteride-trauma-nervous-system-open)  <!-- 등록 시험 7건 -->
 - [x] melatonin — Pain에 듣는다 — 기존 항목(melatonin-pain-null)  <!-- 등록 시험 32건 -->
@@ -1595,11 +1595,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] melatonin — Cancer에 듣는다 — 기존 항목(melatonin-cancer-null)  <!-- 등록 시험 27건 -->
 - [x] melatonin — Anxiety에 듣는다 — 기존 항목(melatonin-anxiety)  <!-- 등록 시험 24건 -->
 - [x] modafinil — Fatigue에 듣는다 — 기존 항목(modafinil-fatigue-null)  <!-- 등록 시험 29건 -->
-- [ ] modafinil — Sleep Apnea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
-- [ ] modafinil — Narcolepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] modafinil — Sleep Apnea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 기존 항목(modafinil-sleep-apnea-pos)
+- [x] modafinil — Narcolepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(modafinil-narcolepsy-pos)
 - [x] modafinil — Schizophrenia에 듣는다 — 기존 항목(modafinil-schizophrenia-null)  <!-- 등록 시험 13건 -->
 - [x] baclofen — Pain에 듣는다 — 기존 항목(baclofen-pain-null)  <!-- 등록 시험 14건 -->
-- [ ] baclofen — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] baclofen — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — 기존 항목(baclofen-spasticity-pos)
 - [x] baclofen — Cerebral Palsy에 듣는다 — 기존 항목(baclofen-cerebral-palsy)  <!-- 등록 시험 9건 -->
 - [x] baclofen — Alcoholism에 듣는다 — 기존 항목(baclofen-alcoholism-null)  <!-- 등록 시험 7건 -->
 - [x] ondansetron — Lymphoma에 듣는다 — 기존 항목(ondansetron-lymphoma)  <!-- 등록 시험 71건 -->
