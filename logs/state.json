@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5411,
-  "subjects": 2150,
-  "refs": 7739,
+  "entries": 5420,
+  "subjects": 2153,
+  "refs": 7748,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 1989
+    "rx": 1998
   },
-  "tiers": { "trial": 4594, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3183, "null": 1060, "open": 1019, "harm": 149 },
+  "tiers": { "trial": 4603, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3189, "null": 1063, "open": 1019, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 13156,
-    "unchecked": 2386,
+    "checked": 13166,
+    "unchecked": 2376,
     "no_evidence_pending": 2059,
-    "note": "batch 1235에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2147번 levetiracetam — Seizures에 듣는다이며 2,386개가 남았다."
+    "note": "batch 1236에서 처방 주제 10개를 처리해 새 근거 항목 9개와 기존 항목 연결 1개를 반영했다. 다음 미처리 줄은 dexamethasone — Leukemia에 듣는다이며 2,376개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,13 +44,13 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (1,989건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,209건). 목표는 33% 위",
-    "vs_share": "6.5% (350건)",
+    "rx_share": "37% (1,998건). 줄어야 한다",
+    "no_effect_or_harm_share": "22% (1,212건). 목표는 33% 위",
+    "vs_share": "6.6% (359건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.9% (4,594건)",
+    "trial_share": "84.9% (4,603건)",
     "non_trial_share": "15.1% (817건)",
-    "build_warnings": { "unknown_n": 449, "thin_study": 966 }
+    "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1236 starts after batch 1235; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2147: levetiracetam — Seizures에 듣는다; 2,386 unchecked remain.",
+  "next": "batch 1237 starts after batch 1236; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at the first unchecked worklist row: dexamethasone — Leukemia에 듣는다; 2,376 unchecked remain.",
   "last_batch": {
-    "id": "1235",
-    "commit": "b4d8a16b",
-    "pushed": true,
+    "id": "1236",
+    "commit": "092a13ac",
+    "pushed": false,
     "processed_topics": 10,
-    "new_entries": 10,
-    "existing_links": 0,
+    "new_entries": 9,
+    "existing_links": 1,
     "no_evidence_rejects": 0,
-    "build": "5411 entries · 7739 refs · 4594 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "azithromycin—Pneumonia, rifaximin—Diarrhea, clomiphene—Polycystic Ovary·Anovulation·Ovulation Disorder, valproic acid—Epilepsy, lamotrigine—Bipolar Disorder, disulfiram—Alcohol Disorders, amiodarone—Arrhythmia, carvedilol—Heart Failure를 새로 추가했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 아지트로마이신 폐렴, 리팍시민 설사, 클로미펜 다낭성난소·배란장애, 발프로산 뇌전증, 라모트리진 양극성 장애, 디설피람 알코올 의존, 아미오다론 부정맥, 카르베딜롤 심부전 근거를 새 항목으로 기록했다.",
+    "build": "5420 entries · 7748 refs · 4603 trial · 723 obs · 30 animal · 17 lab · 47 case",
+    "research": "levetiracetam—Seizures, diltiazem—Hypertension·Stable Angina, indomethacin—Patent Ductus Arteriosus·Pain, furosemide—Hypertension·Fluid Overload, prednisolone—Leukemia·Cancer를 새로 추가하고 furosemide—Renal Impairment 기존 항목을 연결했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 레비티라세탐 뇌전증, 딜티아젬 고혈압·안정형 협심증, 인도메타신 동맥관개존증·통증, 푸로세미드 고혈압·체액 과다, 프레드니솔론 백혈병·암 근거를 새 항목으로 기록했고 푸로세미드 신기능장애는 기존 근거에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
