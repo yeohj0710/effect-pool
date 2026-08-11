@@ -20832,3 +20832,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bee venom — Osteoarthritis에 듣는다 — 항목 생성(bee-venom-osteoarthritis-pos, 2026-08-11)  <!-- 시험 5건 · 논문 22편 -->
 - [x] tea polyphenols — Diabetes에 듣는다 — 항목 생성(tea-polyphenols-diabetes-pos, 2026-08-11)  <!-- 시험 4건 · 논문 474편 -->
 - [x] tea polyphenols — Oral Mucositis에 듣는다 — 항목 생성(tea-polyphenols-oral-mucositis-null, 2026-08-11)  <!-- 시험 3건 · 논문 8편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] l-glutamine — Sickle Cell Anemia에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 6건 · 논문 150편 -->
+- [x] l-glutamine — Coronary Artery Bypass에 듣는다 — 항목 생성(l-glutamine-cabg-pos, 2026-08-11)  <!-- 시험 4건 · 논문 28편 -->
+- [x] l-glutamine — Clostridium Difficile Diarrhea에 듣는다 — 등록시험 결과 대기(2026-08-11 조회, l-glutamine AND Clostridium Difficile Diarrhea; ClinicalTrials.gov intervention 일치 2건, 직접 결과 논문 확인 못함)  <!-- 시험 4건 · 논문 9편 -->
+- [x] l-glutamine — Diarrhea에 듣는다 — 항목 생성(l-glutamine-diarrhea-pos, 2026-08-11)  <!-- 시험 4건 · 논문 355편 -->
+- [x] l-carnitine — Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 8건 · 논문 1913편 -->
+- [x] l-carnitine — HIV에 듣는다 — 항목 생성(l-carnitine-hiv-null, 2026-08-11)  <!-- 시험 7건 · 논문 154편 -->
+- [x] l-carnitine — Muscle Loss에 듣는다 — 항목 생성(l-carnitine-muscle-loss-pos, 2026-08-11)  <!-- 시험 7건 · 논문 323편 -->
+- [x] l-carnitine — Hemodialysis에 듣는다 — 허가 적응증(2026-08-11)  <!-- 시험 7건 · 논문 599편 -->
+- [x] tocotrienol — Stroke에 듣는다 — 항목 생성(tocotrienol-stroke-pos, 2026-08-11)  <!-- 시험 4건 · 논문 31편 -->
+- [x] tocotrienol — Obesity에 듣는다 — 항목 생성(tocotrienol-obesity-null, 2026-08-11)  <!-- 시험 3건 · 논문 77편 -->
+- [x] pectin — Nonalcoholic Fatty Liver Disease에 듣는다 — 등록시험 결과 대기(2026-08-11 조회, pectin AND Nonalcoholic Fatty Liver Disease; NCT07093346 결과 논문 확인 못함)  <!-- 시험 6건 · 논문 20편 -->
+- [x] pectin — Inflammatory Bowel Disease에 듣는다 — 항목 생성(pectin-inflammatory-bowel-disease-pos, 2026-08-11)  <!-- 시험 5건 · 논문 143편 -->
+- [x] pectin — Gastric Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 3건 · 논문 45편 -->
+- [x] pectin — Constipation에 듣는다 — 항목 생성(pectin-constipation-pos, 2026-08-11)  <!-- 시험 3건 · 논문 52편 -->
