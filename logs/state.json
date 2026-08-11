@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5126,
-  "subjects": 2097,
-  "refs": 7240,
+  "entries": 5154,
+  "subjects": 2103,
+  "refs": 7296,
   "kinds": {
-    "otc": 41,
-    "supp": 283,
+    "otc": 80,
+    "supp": 285,
     "food": 447,
     "move": 596,
     "life": 1158,
     "care": 654,
     "rx": 1926
   },
-  "tiers": { "trial": 4399, "obs": 643, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 3062, "null": 1030, "open": 887, "harm": 147 },
+  "tiers": { "trial": 4405, "obs": 665, "animal": 25, "lab": 13, "case": 46 },
+  "dirs": { "pos": 3067, "null": 1031, "open": 909, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12461,
-    "unchecked": 3081,
+    "checked": 12491,
+    "unchecked": 3051,
     "no_evidence_pending": 1998,
-    "note": "batch 1197에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 28개를 만들고 기존 항목 2개를 연결했다. 다음 미처리 줄은 419번 tirzepatide — Diabetes에 듣는다이다."
+    "note": "batch 1198에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 28개를 만들고 기존 항목 2개를 연결했다. 다음 미처리 줄은 473번 quetiapine — Bipolar에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,13 +43,13 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "15% (약국약·보충제·음식 792건). 목표는 25%",
-    "rx_share": "38% (1,926건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,177건). 목표는 33% 위",
-    "vs_share": "3.2% (164건)",
+    "over_counter_share": "16% (약국약·보충제·음식 812건). 목표는 25%",
+    "rx_share": "38% (1,934건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,178건). 목표는 33% 위",
+    "vs_share": "3.3% (170건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.8% (4,399건)",
-    "non_trial_share": "14.2% (722건)",
+    "trial_share": "85.5% (4,405건)",
+    "non_trial_share": "14.5% (749건)",
     "build_warnings": { "unknown_n": 420, "thin_study": 947 }
   },
   "deployment": {
@@ -58,16 +58,16 @@
     "checked_at": "2026-08-11",
     "note": "batch 1195 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1198 starts after batch 1197; pull and read AGENTS.md first. Resume at worklist line 419: tirzepatide — Diabetes에 듣는다; 3,081 unchecked remain.",
+  "next": "batch 1199 starts after batch 1198; pull and read AGENTS.md first. Resume at worklist line 473: quetiapine — Bipolar에 듣는다; 3,051 unchecked remain.",
   "last_batch": {
-    "id": "1197",
-    "commit": "c50129e7",
-    "pushed": true,
+    "id": "1198",
+    "commit": "PENDING",
+    "pushed": false,
     "processed_topics": 30,
     "new_entries": 28,
     "existing_links": 2,
-    "build": "5126 entries · 7240 refs · 4399 trial · 643 obs · 25 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 아세트아미노펜-통증·골절·발열, 이부프로펜-통증·사랑니·수술, 나프록센-통증·오피오이드 사용·구강암, 로라타딘·세티리진-비염, 슈도에페드린-감기, 파모티딘-속쓰림, 로페라미드-암, 비사코딜-변비, 벤조일퍼옥사이드·살리실산-여드름, 클로트리마졸-칸디다증, 니코틴 껌-담배, 캡사이신-당뇨발, 하이드록시우레아-암·백혈병, 이소트레티노인-여드름, 타목시펜-관상피내암, 랄록시펜-유방암, 알로푸리놀-통풍·림프종·신장결석, 엠파글리플로진-심부전, 카나글리플로진-심혈관 위험의 30개 주제를 확인했다. 신규 28개를 만들고 기존 알로푸리놀-림프종·랄록시펜-유방암 항목 2개를 연결했으며, 숫자가 없는 결과는 open 또는 null로 남겼다.",
+    "build": "5154 entries · 7296 refs · 4405 trial · 665 obs · 25 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 아세트아미노펜-다발외상, 나프록센-소화성궤양, 세티리진-천식·피부염, 슈도에페드린-비염·부비동염, 파모티딘-암·감염, 로페라미드-고형암, 비사코딜-대장암·대장내시경, 벤조일퍼옥사이드-감염, 살리실산-사마귀·기미, 클로트리마졸-질칸디다증, 하이드로코르티손 크림-아토피, 니코틴 대체요법-흡연, 인공눈물-안구손상, 비타민 D-골다공증, 오메가3-고중성지방혈증, 티르제파타이드-당뇨·과체중, 메틸페니데이트-ADHD, 룩솔리티닙-이식편대숙주병, 날트렉손-알코올중독, 아미트리프틸린-우울증, 토피라메이트-발작, 트라조돈-주요우울장애의 30개 주제를 확인했다. 신규 28개를 만들고 기존 토피라메이트-간질·트라조돈-우울증 항목 2개를 연결했으며, 직접 숫자를 확인하지 못한 결과는 open 또는 null로 남겼다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
