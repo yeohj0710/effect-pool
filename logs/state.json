@@ -15,42 +15,42 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5466,
-  "subjects": 2165,
-  "refs": 7794,
+  "entries": 5475,
+  "subjects": 2166,
+  "refs": 7803,
   "kinds": {
     "otc": 100,
     "supp": 365,
-    "food": 464,
+    "food": 462,
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2044
+    "rx": 2055
   },
-  "tiers": { "trial": 4648, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3213, "null": 1079, "open": 1021, "harm": 153 },
+  "tiers": { "trial": 4657, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3218, "null": 1082, "open": 1021, "harm": 154 },
   "worklist": {
     "total": 15542,
-    "checked": 13216,
-    "unchecked": 2326,
+    "checked": 13226,
+    "unchecked": 2316,
     "no_evidence_pending": 2059,
-    "note": "batch 1241에서 처방 주제 10개에 새 근거 항목 10개를 처리했다. 다음 미처리 줄은 2318번 gentamicin — Pneumonia에 듣는다이며 2,326개가 남았다."
+    "note": "batch 1242에서 처방 주제 10개에 새 근거 항목 9개와 기존 연결 1개를 처리했다. 다음 미처리 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,316개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4057,
+    "vs_missing": 4048,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (2,044건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,232건). 목표는 33% 위",
-    "vs_share": "7.4% (405건)",
+    "rx_share": "38% (2,055건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,236건). 목표는 33% 위",
+    "vs_share": "7.6% (414건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.0% (4,648건)",
+    "trial_share": "85.1% (4,657건)",
     "non_trial_share": "15.0% (818건)",
-    "build_warnings": { "unknown_n": 449, "thin_study": 968 }
+    "build_warnings": { "unknown_n": 449, "thin_study": 970 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1242 starts after batch 1241; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2318: gentamicin — Pneumonia에 듣는다; 2,326 unchecked remain.",
+  "next": "batch 1243 starts after batch 1242; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,316 unchecked remain.",
   "last_batch": {
-    "id": "1241",
-    "commit": "3e8dbdb8",
+    "id": "1242",
+    "commit": "4bf0a109",
     "pushed": true,
     "processed_topics": 10,
-    "new_entries": 8,
-    "existing_links": 2,
+    "new_entries": 9,
+    "existing_links": 1,
     "no_evidence_rejects": 0,
-    "build": "5466 entries · 7794 refs · 4648 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "linezolid—Pneumonia·Infection, meropenem—Infection·Infections, cefepime—Neutropenia·Pneumonia, piperacillin—Infection·Pneumonia, gentamicin—Sepsis·Infections를 새로 추가했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 리네졸리드 폐렴·감염, 메로페넴 감염, 세페핌 호중구감소·폐렴, 피페라실린 감염·폐렴, 겐타마이신 패혈증·감염 근거를 새 항목으로 기록했다.",
+    "build": "5475 entries · 7803 refs · 4657 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "gentamicin—Pneumonia, fluconazole—Meningitis·Infection, voriconazole—Aspergillosis·Candidiasis, posaconazole—Leukemia·Myelodysplastic Syndrome, caspofungin—Infection·Candidiasis를 새로 추가하고 posaconazole—Aspergillosis 기존 항목을 연결했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 겐타마이신 폐렴, 플루코나졸 수막염·감염, 보리코나졸 아스페르길루스증·칸디다증, 포사코나졸 백혈병·골수형성이상증후군, 카스포펀진 감염·칸디다증 근거를 새 항목으로 기록하고 기존 포사코나졸 아스페르길루스증 항목을 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
