@@ -1,0 +1,29 @@
+{
+  "id": "transcutaneous-electrical-nerve-stimulation-pain-pos",
+  "subj": "경피 전기신경 자극",
+  "claim": "정형외과 수술 후 급성 통증을 줄이고 오피오이드 사용을 줄인다",
+  "line": "경피 전기신경 자극은 정형외과 수술 후 통증과 오피오이드 사용을 줄였습니다.",
+  "effect": "72시간 운동 통증 평균차 -1.52",
+  "vs": "정형외과 수술 후 13개 무작위시험 849명 메타분석에서 TENS는 대조군보다 24·48·72시간 안정 시 통증을 각각 평균 0.95·0.81·1.01점, 운동 시 통증을 1.22·1.02·1.52점 줄였습니다. 24시간 오피오이드 사용 표준화 평균차는 -1.33이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 849,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "경피 전기신경 자극은 수술 후 통증을 보조하는 비약물 기기 중재입니다.",
+  "why": "정형외과 수술 환자의 수술 후 통증과 오피오이드 사용을 TENS와 대조군으로 비교한 무작위시험 메타분석입니다.",
+  "saw": "13개 시험 849명에서 TENS는 수술 후 72시간까지 안정 시·운동 시 통증을 낮추고 24·48시간 오피오이드 사용을 줄였습니다. 수술 후 오심·구토도 RR 0.50(95% CI 0.30~0.85)이었습니다.",
+  "limit": "수술 종류와 자극 매개변수가 달랐고, 환자 조절 진통제를 함께 쓴 하위군에서는 24시간 안정 시 통증 차이가 유의하지 않았습니다.",
+  "against": "TENS는 모든 수술 환경에서 같은 효과를 보장하지 않으며 표준 진통제와 재활을 대체하지 않습니다.",
+  "use": "정형외과 수술 뒤 표준 진통제에 더하는 보조기기로 통증·오피오이드·오심 결과를 함께 설명합니다.",
+  "refs": [
+    { "label": "정형외과 수술 후 TENS 통증 메타분석", "pmid": "41211915" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=transcutaneous electrical nerve stimulation AND query.cond=Pain; NCT02205970 등 확인했지만 직접 정형외과 수술 메타분석과 일치하는 등록 결과는 확인하지 못했습니다.",
+    "pubmed": "transcutaneous electrical nerve stimulation AND pain; 6,116건, PMID 41211915 직접 메타분석",
+    "negative": "transcutaneous electrical nerve stimulation AND pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 4,539건",
+    "safety": "transcutaneous electrical nerve stimulation AND pain AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 1,572건"
+  }
+}

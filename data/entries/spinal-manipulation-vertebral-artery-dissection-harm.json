@@ -1,0 +1,29 @@
+{
+  "id": "spinal-manipulation-vertebral-artery-dissection-harm",
+  "subj": "척추 조작",
+  "claim": "경추 조작 전 척추동맥 박리 위험을 설명한다",
+  "line": "경추 조작과 척추동맥 박리의 연관성은 비교군에 따라 달랐습니다.",
+  "effect": "뇌졸중 대조군 대비 OR 2.53",
+  "vs": "미국 성인 보험자료에서 척추동맥 박리 2,337건을 포함한 관찰연구는 뇌졸중 대조군 대비 직전 1주 경추 조작 노출이 의학적 평가·관리보다 2.53배 많았습니다(95% CI 1.71~3.68).",
+  "tier": "obs",
+  "dir": "harm",
+  "n": 5253,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "경추 조작은 드물지만 중대한 혈관성 이상사건 우려가 있는 수기 중재입니다.",
+  "why": "미국 성인 보험자료의 척추동맥·경동맥 박리 환자와 인구·뇌졸중 대조군을 비교한 환자-대조 및 case-crossover 연구입니다.",
+  "saw": "척추동맥 박리 2,337건과 경동맥 박리 2,916건을 분석했습니다. 뇌졸중 대조군과 비교하면 직전 1주 경추 조작이 의학적 평가·관리보다 2.53배 많았지만, 인구 대조군과 case-crossover 비교에서는 반대 방향 결과도 나왔습니다.",
+  "limit": "관찰자료라 경추 조작이 박리를 일으켰는지, 박리 초기 증상이 환자를 조작치료로 이끌었는지 구분하기 어렵습니다. 전체 박리 위험은 매우 낮았습니다.",
+  "against": "인구 대조군과 동일 환자의 6~7개월 전 노출을 비교한 분석에서는 의학적 평가·관리가 더 흔했습니다.",
+  "use": "목 조작을 고려할 때 갑작스러운 목·두통과 신경학적 증상을 먼저 평가하고, 연관성의 불확실성과 드문 중대 위험을 설명합니다.",
+  "refs": [
+    { "label": "미국 성인 경추 조작과 경부동맥 박리 연관성 관찰연구", "pmid": "37422607", "nct": "NCT01205490" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=spinal manipulation AND query.cond=Vertebral Artery Dissection; NCT01205490 확인",
+    "pubmed": "spinal manipulation AND vertebral artery dissection; 153건, PMID 37422607 직접 관찰연구",
+    "negative": "spinal manipulation AND vertebral artery dissection AND (no effect OR did not OR failed to OR negative OR no significant difference); 90건",
+    "safety": "spinal manipulation AND vertebral artery dissection AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 100건"
+  }
+}

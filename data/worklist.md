@@ -1300,24 +1300,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [x] bupropion — Major Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos)
 - [x] bupropion — Tobacco Use에 듣는다 — 기존 항목(bupropion-tobacco-use-pos)
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(sildenafil-impotence-pos)
+- [x] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 --> — 기존 항목(bimatoprost-ocular-hypertension-pos)
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 기존 항목(bimatoprost-hypotrichosis-pos)
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(botulinum-toxin-bladder-pos)
+- [x] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(botulinum-toxin-spasticity-pos)
+- [x] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 --> — 기존 항목(botulinum-toxin-frown-lines-pos)
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
-- [ ] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 -->
-- [ ] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 --> — 기존 항목(duloxetine-pain-pos)
+- [x] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(duloxetine-depression-pos)
 - [x] duloxetine — Osteoarthritis에 듣는다 — 기존 항목(duloxetine-knee-osteoarthritis)  <!-- 등록 시험 24건 -->
-- [ ] duloxetine — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] duloxetine — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 기존 항목(duloxetine-fibromyalgia-pos)
 - [x] dextromethorphan — Pain에 듣는다 — 기존 항목(dextromethorphan-pain)  <!-- 등록 시험 9건 -->
 - [x] dextromethorphan — Solid Tumor에 듣는다 — 기존 항목(dextromethorphan-solid-tumor-null)  <!-- 등록 시험 7건 -->
 - [x] dextromethorphan — Alzheimer Disease에 듣는다 — 기존 항목(dextromethorphan-alzheimer)  <!-- 등록 시험 6건 -->
@@ -11588,7 +11588,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] caffeine — Placebo에 듣는다  <!-- 시험 15건 · 논문 2678편 --> — 근거 없음(2026-08-06 조회, caffeine AND Placebo)
 - [x] caffeine — Sleep에 듣는다  <!-- 시험 12건 · 논문 2247편 -->
 - [x] caffeine — Migraine에 듣는다  <!-- 시험 12건 · 논문 568편 -->
-- [ ] folic acid — Anemia에 듣는다  <!-- 시험 11건 · 논문 6084편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] folic acid — Anemia에 듣는다  <!-- 시험 11건 · 논문 6084편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거 없음(2026-08-11 조회, 철·엽산 복합제에 프로바이오틱을 더한 연구는 있었지만 엽산 단독 빈혈 비교 결과를 확인하지 못함)
 - [x] folic acid — Breast Cancer에 듣는다  <!-- 시험 8건 · 논문 1839편 --> — 근거 없음(2026-08-06 조회, folic acid AND Breast Cancer)
 - [x] folic acid — Lymphoma, B-Cell에 듣는다  <!-- 시험 7건 · 논문 296편 --> — 근거 없음(2026-08-06 조회, folic acid AND Lymphoma, B-Cell)
 - [x] folic acid — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 6건 · 논문 115편 --> — 근거 없음(2026-08-06 조회, folic acid AND Polycystic Ovary Syndrome)
@@ -11616,7 +11616,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 --> — 항목 생성(2026-08-06)
 - [x] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(2026-08-06)
-- [ ] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존 항목(levocarnitine-renal-dialysis-pos)
 - [x] carnitine — Peripheral Arterial Disease에 듣는다  <!-- 시험 10건 · 논문 91편 --> — 항목 생성(2026-08-06)
 - [x] carnitine — Fatigue에 듣는다  <!-- 시험 9건 · 논문 392편 --> — 항목 생성(2026-08-06)
 - [x] carnitine — Heart Failure에 듣는다  <!-- 시험 9건 · 논문 585편 --> — 근거 없음(2026-08-06 조회, "carnitine AND Heart Failure")
@@ -12136,8 +12136,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spinal cord stimulation — Diabetic Neuropathy에 듣는다 — 새 항목(spinal-cord-stimulation-diabetic-neuropathy-pos)
 - [x] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다 — 새 항목(spinal-cord-stimulation-failed-back-surgery-syndrome-pos)
 - [x] spinal cord stimulation — Parkinson Disease에 듣는다  <!-- 시험 14건 · 논문 328편 --> — 항목 생성(2026-08-06)
-- [ ] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(deep-brain-stimulation-tremor-open)
+- [x] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(deep-brain-stimulation-dystonia-pos)
 - [x] deep brain stimulation — Compulsive Shopping에 듣는다 — 근거 없음(2026-08-06, "deep brain stimulation" AND "Compulsive Shopping" AND human intervention)  <!-- 시험 26건 · 논문 8편 -->
 - [x] deep brain stimulation — Major Depression에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 16건 · 논문 759편 -->
 - [x] motor imagery — Stroke에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 41건 · 논문 932편 -->
@@ -12708,7 +12708,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] breathing exercise — Anxiety에 듣는다  <!-- 시험 8건 · 논문 1009편 --> — 항목 생성(breathing-exercise-anxiety-pos)
 - [x] breathing exercise — Lung Surgery에 듣는다  <!-- 시험 7건 · 논문 588편 --> — 항목 생성(breathing-exercise-lung-surgery-pos)
 - [x] blue light therapy — Sleep에 듣는다  <!-- 시험 16건 · 논문 1196편 --> — 항목 생성(blue-light-therapy-sleep-pos)
-- [ ] blue light therapy — Actinic Keratosis에 듣는다  <!-- 시험 13건 · 논문 962편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] blue light therapy — Actinic Keratosis에 듣는다  <!-- 시험 13건 · 논문 962편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거 없음(2026-08-11 조회, 광역학치료 연구는 있었지만 청색광 단독 중재 결과를 확인하지 못함)
 - [x] blue light therapy — Wound Infection에 듣는다  <!-- 시험 10건 · 논문 747편 --> — 항목 생성(blue-light-therapy-wound-infection-animal-pos)
 - [x] blue light therapy — Bipolar에 듣는다  <!-- 시험 9건 · 논문 242편 --> — 항목 생성(blue-light-therapy-bipolar-null)
 
@@ -20434,20 +20434,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] augmented reality — Cancer에 듣는다  <!-- 시험 12건 · 논문 956편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] augmented reality — Cancer에 듣는다  <!-- 시험 12건 · 논문 956편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> — 새 항목(augmented-reality-cancer-pos)
 - [x] augmented reality — Pain에 듣는다  <!-- 시험 12건 · 논문 348편 -->
 - [x] augmented reality — Anxiety에 듣는다  <!-- 시험 11건 · 논문 200편 -->
 - [x] augmented reality — Education에 듣는다  <!-- 시험 11건 · 논문 2566편 -->
 - [x] mixed reality — Cerebral Palsy에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Cerebral Palsy")
 - [x] mixed reality — Education에 듣는다  <!-- 시험 4건 · 논문 3588편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Education")
-- [ ] mixed reality — Kidney Tumor에 듣는다  <!-- 시험 4건 · 논문 65편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] mixed reality — Kidney Tumor에 듣는다  <!-- 시험 4건 · 논문 65편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> — 새 항목(mixed-reality-kidney-tumor-pos)
 - [x] mixed reality — Multiple Sclerosis에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 근거 없음(2026-08-11 조회, "mixed reality" AND "Multiple Sclerosis")
 - [x] virtual human — Pain에 듣는다  <!-- 시험 7건 · 논문 3739편 -->
 - [x] virtual human — Frail Elderly에 듣는다  <!-- 시험 5건 · 논문 74편 --> — 근거 없음(2026-08-11 조회, "virtual human" AND "Frail Elderly")
 - [x] virtual human — Stroke에 듣는다  <!-- 시험 4건 · 논문 2484편 --> — 근거 없음(2026-08-11 조회, "virtual human" AND "Stroke")
 - [x] virtual human — Physical Activity에 듣는다  <!-- 시험 4건 · 논문 5199편 -->
 - [x] care robot — Spinal Cord Injuries에 듣는다  <!-- 시험 5건 · 논문 91편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Spinal Cord Injuries")
-- [ ] care robot — Prostate Cancer에 듣는다  <!-- 시험 4건 · 논문 875편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] care robot — Prostate Cancer에 듣는다  <!-- 시험 4건 · 논문 875편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> — 근거 없음(2026-08-11 조회, 로봇 보조 전립선절제술은 확인했지만 돌봄 로봇의 전립선암 직접 비교 결과는 확인하지 못함)
 - [x] care robot — Gait, Hemiplegic에 듣는다  <!-- 시험 4건 · 논문 81편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Gait, Hemiplegic")
 - [x] care robot — Urinary Infections에 듣는다  <!-- 시험 3건 · 논문 126편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Urinary Infections")
 - [x] rest breaks — Work Related Stress에 듣는다  <!-- 시험 4건 · 논문 111편 --> — 근거 없음(2026-08-11 조회, "rest breaks" AND "Work Related Stress")
@@ -21027,7 +21027,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] iron supplementation — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 2729편 -->
 - [x] selenium — Cancer에 듣는다 — 기존 항목(selenium-cancer-null)
 - [x] selenium — Sepsis에 듣는다  <!-- 시험 4건 · 논문 231편 -->
-- [ ] selenium — Breast Neoplasms에 듣는다  <!-- 시험 4건 · 논문 590편 -->
+- [x] selenium — Breast Neoplasms에 듣는다  <!-- 시험 4건 · 논문 590편 --> — 새 항목(selenium-breast-lymphedema-pos; 유방암 관련 림프부종 연구로 종양 치료 효과가 아님)
 - [x] selenium — HIV에 듣는다 — 새 항목(selenium-hiv-null)
 - [x] omega-3 fatty acids — Cancer에 듣는다  <!-- 시험 41건 · 논문 4502편 -->
 - [x] omega-3 fatty acids — Diabetes에 듣는다  <!-- 시험 19건 · 논문 3224편 -->
@@ -21223,16 +21223,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] massage therapy — Leukemia에 듣는다 — 새 항목(massage-therapy-leukemia-pos)
 - [x] massage therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 669편 -->
 - [x] spinal manipulation — Pain에 듣는다 — 새 항목(spinal-manipulation-pain-open)
-- [ ] spinal manipulation — Vertebral Artery Dissection에 듣는다  <!-- 시험 3건 · 논문 125편 -->
-- [ ] spinal manipulation — Musculoskeletal Diseases에 듣는다  <!-- 시험 3건 · 논문 1338편 -->
-- [ ] transcutaneous electrical nerve stimulation — Pain에 듣는다  <!-- 시험 58건 · 논문 6116편 -->
+- [x] spinal manipulation — Vertebral Artery Dissection에 듣는다  <!-- 시험 3건 · 논문 125편 --> — 새 항목(spinal-manipulation-vertebral-artery-dissection-harm)
+- [x] spinal manipulation — Musculoskeletal Diseases에 듣는다  <!-- 시험 3건 · 논문 1338편 --> — 새 항목(spinal-manipulation-musculoskeletal-diseases-open)
+- [x] transcutaneous electrical nerve stimulation — Pain에 듣는다  <!-- 시험 58건 · 논문 6116편 --> — 새 항목(transcutaneous-electrical-nerve-stimulation-pain-pos)
 - [x] transcutaneous electrical nerve stimulation — Spinal Cord Injury에 듣는다 — 새 항목(transcutaneous-electrical-nerve-stimulation-spinal-cord-injury-pos)
-- [ ] transcutaneous electrical nerve stimulation — Autonomic Diseases에 듣는다  <!-- 시험 12건 · 논문 175편 -->
+- [x] transcutaneous electrical nerve stimulation — Autonomic Diseases에 듣는다  <!-- 시험 12건 · 논문 175편 --> — 근거 없음(2026-08-11 조회, 척수자극·귀 미주신경자극 연구는 있었지만 경피 전기신경 자극의 자율신경질환 직접 비교 결과를 확인하지 못함)
 - [x] transcutaneous electrical nerve stimulation — Knee Osteoarthritis에 듣는다 — 새 항목(transcutaneous-electrical-nerve-stimulation-knee-osteoarthritis-pos)
 - [x] red light therapy — Myopia에 듣는다 — 새 항목(red-light-therapy-myopia-pos)
 - [x] red light therapy — Depressive Disorder에 듣는다 — 새 항목(red-light-therapy-depressive-disorder-null)
-- [ ] red light therapy — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 29편 -->
-- [ ] red light therapy — Traumatic Brain Injury에 듣는다  <!-- 시험 5건 · 논문 67편 -->
+- [x] red light therapy — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 근거 없음(2026-08-11 조회, 말초동맥질환의 약물·광역학 연구는 있었지만 적색광 치료 직접 비교 결과를 확인하지 못함)
+- [x] red light therapy — Traumatic Brain Injury에 듣는다  <!-- 시험 5건 · 논문 67편 --> — 근거 없음(2026-08-11 조회, 적색 LED TBI 시험은 프로토콜이거나 동물·비교 불충분 자료였고 사람 결과를 확인하지 못함)
 - [x] whole body vibration — Cancer에 듣는다 — 신규 항목(whole-body-vibration-cancer-pos)  <!-- 시험 29건 · 논문 54편 -->
 - [x] whole body vibration — Stroke에 듣는다 — 신규 항목(whole-body-vibration-stroke-pos)  <!-- 시험 14건 · 논문 119편 -->
 - [x] whole body vibration — Pain에 듣는다 — 신규 항목(whole-body-vibration-pain-null)  <!-- 시험 11건 · 논문 486편 -->
