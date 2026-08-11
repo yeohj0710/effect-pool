@@ -20684,3 +20684,48 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mct oil — Obesity에 듣는다  <!-- 시험 3건 · 논문 41편 -->
 - [x] mct oil — Fatty Acid Oxidation Disorder에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 근거 없음(2026-08-11 조회, "mct oil" AND "Fatty Acid Oxidation Disorder")
 - [x] mct oil — Liver Tumor에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 항암 주제 제외(2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cold exposure — Healthy (Controls)에 듣는다  <!-- 시험 4건 · 논문 426편 --> — 근거 없음(2026-08-11 조회, "cold exposure" AND "Healthy (Controls)"; intervention 일치 0건, 직접 사람 결과 확인 못함)
+- [x] cold exposure — Brown Fat에 듣는다  <!-- 시험 3건 · 논문 1944편 --> — 항목 생성(cold-exposure-brown-fat-pos, 2026-08-11)
+- [x] cold exposure — Cryotherapy Effect에 듣는다  <!-- 시험 3건 · 논문 231편 --> — 근거 없음(2026-08-11 조회, "cold exposure" AND "Cryotherapy Effect"; PubMed 0편, intervention 일치 0건)
+- [x] cold exposure — Hypothermia에 듣는다  <!-- 시험 3건 · 논문 1128편 --> — 근거 없음(2026-08-11 조회, "cold exposure" AND "Hypothermia"; 직접 저체온증 치료 결과 확인 못함)
+- [x] laughter yoga — Resilience에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 항목 생성(laughter-yoga-resilience-pos, 2026-08-11)
+- [x] mindful eating — Anxiety에 듣는다  <!-- 시험 7건 · 논문 205편 --> — 항목 생성(mindful-eating-anxiety-pos, 2026-08-11)
+- [x] mindful eating — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 180편 --> — 항목 생성(mindful-eating-weight-loss-null, 2026-08-11)
+- [x] mindful eating — Depression에 듣는다  <!-- 시험 6건 · 논문 239편 --> — 항목 생성(mindful-eating-depression-pos, 2026-08-11)
+- [x] mindful eating — Bulimia Nervosa에 듣는다  <!-- 시험 6건 · 논문 42편 --> — 근거 없음(2026-08-11 조회, mindful eating AND bulimia; 관련 폭식 연구는 있었지만 신경성 폭식증 직접 중재 결과 확인 못함)
+- [x] progressive muscle relaxation — Emotional Problem에 듣는다  <!-- 시험 5건 · 논문 44편 --> — 근거 없음(2026-08-11 조회, "progressive muscle relaxation" AND "Emotional Problem"; PubMed 0편, intervention 일치 0건)
+- [x] progressive muscle relaxation — Palliative Care에 듣는다  <!-- 시험 5건 · 논문 26편 --> — 항목 생성(progressive-muscle-relaxation-palliative-care-pos, 2026-08-11)
+- [x] progressive muscle relaxation — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 14편 --> — 항목 생성(progressive-muscle-relaxation-type-2-diabetes-pos, 2026-08-11)
+- [x] singing — Physical Function에 듣는다  <!-- 시험 5건 · 논문 338편 --> — 항목 생성(singing-physical-function-pos, 2026-08-11)
+- [x] singing — Chronic Pain에 듣는다  <!-- 시험 5건 · 논문 24편 --> — 항목 생성(singing-chronic-pain-pos, 2026-08-11)
+- [x] singing — Depression에 듣는다  <!-- 시험 4건 · 논문 197편 --> — 항목 생성(singing-depression-pos, 2026-08-11)
+- [x] sleep hygiene — Cognitive Aging에 듣는다  <!-- 시험 12건 · 논문 206편 --> — 근거 없음(2026-08-11 조회, "sleep hygiene" AND "Cognitive Aging"; 직접 수면위생 중재 결과 확인 못함)
+- [x] sleep hygiene — Child Behavior에 듣는다  <!-- 시험 5건 · 논문 388편 --> — 근거 없음(2026-08-11 조회, "sleep hygiene" AND "Child Behavior"; 직접 수면위생 중재 결과 확인 못함)
+- [x] sleep hygiene — Delirium에 듣는다  <!-- 시험 5건 · 논문 111편 --> — 항목 생성(sleep-hygiene-delirium-pos, 2026-08-11)
+- [x] stretching — Exercise에 듣는다  <!-- 시험 8건 · 논문 9288편 --> — 근거 없음(2026-08-11 조회, stretching AND Exercise; 스트레칭이 운동 능력을 높인다는 직접 결과 확인 못함)
+- [x] stretching — Physical Fitness에 듣는다  <!-- 시험 8건 · 논문 684편 --> — 근거 없음(2026-08-11 조회, stretching AND "Physical Fitness"; 스트레칭 단독의 체력 결과 확인 못함)
+- [x] stretching — Muscle Cramp에 듣는다  <!-- 시험 7건 · 논문 75편 --> — 항목 생성(stretching-muscle-cramp-pos, 2026-08-11)
+- [x] stretching — Knee Valgus에 듣는다  <!-- 시험 5건 · 논문 51편 --> — 항목 생성(stretching-knee-valgus-pos, 2026-08-11)
+- [x] telephone support — Anxiety에 듣는다  <!-- 시험 6건 · 논문 3255편 --> — 근거 없음(2026-08-11 조회, "telephone support" AND Anxiety; 전화 지원이 불안을 직접 줄인 결과 확인 못함)
+- [x] telephone support — Tobacco Smoking에 듣는다  <!-- 시험 5건 · 논문 1798편 --> — 항목 생성(telephone-support-tobacco-smoking-pos, 2026-08-11)
+- [x] telephone support — Solid Tumor에 듣는다  <!-- 시험 4건 · 논문 66편 --> — 항암 주제 제외(2026-08-11)
+- [x] telephone support — Caregiver에 듣는다  <!-- 시험 4건 · 논문 2832편 --> — 항목 생성(telephone-support-caregiver-null, 2026-08-11)
+- [x] ginger — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 45편 --> — 항목 생성(ginger-dyspepsia-null, 2026-08-11)
+- [x] ginger — Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 1892편 --> — 항암 주제 제외(2026-08-11)
+- [x] honey — Infection에 듣는다  <!-- 시험 8건 · 논문 3237편 --> — 항목 생성(honey-infection-null, 2026-08-11)
+- [x] honey — Diabetes에 듣는다  <!-- 시험 6건 · 논문 544편 --> — 근거 없음(2026-08-11 조회, honey AND Diabetes; 당뇨병 자체의 직접 결과 확인 못함)
+- [ ] honey — Pressure Sore에 듣는다  <!-- 시험 6건 · 논문 43편 -->
+- [ ] quercetin — SARS-CoV 2에 듣는다  <!-- 시험 4건 · 논문 363편 -->
+- [ ] quercetin — Obesity에 듣는다  <!-- 시험 3건 · 논문 722편 -->
+- [ ] quercetin — Cardiovascular에 듣는다  <!-- 시험 3건 · 논문 2041편 -->
+- [ ] quercetin — Reflux에 듣는다  <!-- 시험 3건 · 논문 60편 -->
