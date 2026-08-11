@@ -362,30 +362,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 122건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 55건 -->
 - [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 50건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 112건 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 59건 -->
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 43건 -->
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 22건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
@@ -408,14 +408,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] empagliflozin — Kidney Stone에 듣는다  <!-- 등록 시험 57건 -->
 - [x] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 -->
 - [x] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 -->
 - [x] canagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 10건 --> — 근거 없음(2026-08-04 조회, canagliflozin AND Lung Cancer; ClinicalTrials.gov 1건 반환·InterventionName 대조 후 결과 논문 없음, PubMed 16건)
 - [x] canagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 5건 -->
 - [x] canagliflozin — Obesity에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] canagliflozin — Cardiovascular Risk에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] canagliflozin — Cardiovascular Risk에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] tirzepatide — Diabetes에 듣는다  <!-- 등록 시험 70건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] tirzepatide — Overweight에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] tirzepatide — Breast Cancer에 듣는다  <!-- 등록 시험 17건 -->
@@ -20264,7 +20264,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nicotine gum — Tobacco에 듣는다  <!-- 시험 61건 · 논문 919편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] nicotine gum — Tobacco에 듣는다  <!-- 시험 61건 · 논문 919편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
 - [x] nicotine gum — Lung Cancer에 듣는다  <!-- 시험 10건 · 논문 31편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
 - [x] nicotine gum — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 32편 --> — 근거 없음(2026-08-11 조회, "nicotine gum" AND "Schizophrenia"; 조현병 자체 결과를 분리한 원저 없음)
 
@@ -20739,7 +20739,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] capsaicin — Diabetic Foot에 듣는다  <!-- 시험 14건 · 논문 27편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] capsaicin — Diabetic Foot에 듣는다  <!-- 시험 14건 · 논문 27편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
 - [x] capsaicin — Peripheral Nervous System Disease에 듣는다  <!-- 시험 11건 · 논문 1033편 --> — 등록시험 결과 대기(2026-08-11 조회, capsaicin AND Peripheral Nervous System Disease; ClinicalTrials.gov 물질 일치 39건, PubMed 0편)
 - [x] capsaicin — Cough에 듣는다  <!-- 시험 11건 · 논문 889편 --> — 항목 생성(capsaicin-cough-pos, 2026-08-11)
 - [ ] capsaicin — Neuralgia에 듣는다  <!-- 시험 8건 · 논문 696편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
@@ -20951,46 +20951,46 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 **허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
 있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
 
-- [ ] acetaminophen — Pain에 듣는다  <!-- 시험 131건 · 논문 11301편 -->
-- [ ] acetaminophen — Fracture에 듣는다  <!-- 시험 14건 · 논문 393편 -->
-- [ ] acetaminophen — Fever에 듣는다  <!-- 시험 12건 · 논문 2062편 -->
+- [x] acetaminophen — Pain에 듣는다  <!-- 시험 131건 · 논문 11301편 -->
+- [x] acetaminophen — Fracture에 듣는다  <!-- 시험 14건 · 논문 393편 -->
+- [x] acetaminophen — Fever에 듣는다  <!-- 시험 12건 · 논문 2062편 -->
 - [ ] acetaminophen — Multiple Trauma에 듣는다  <!-- 시험 9건 · 논문 51편 -->
-- [ ] ibuprofen — Pain에 듣는다  <!-- 시험 212건 · 논문 4439편 -->
-- [ ] ibuprofen — Third Molar에 듣는다  <!-- 시험 15건 · 논문 230편 -->
-- [ ] ibuprofen — Surgery에 듣는다  <!-- 시험 14건 · 논문 2603편 -->
-- [ ] naproxen — Pain에 듣는다  <!-- 시험 89건 · 논문 1738편 -->
-- [ ] naproxen — Opioid Use에 듣는다  <!-- 시험 9건 · 논문 271편 -->
-- [ ] naproxen — Oral Cancer에 듣는다  <!-- 시험 8건 · 논문 32편 -->
+- [x] ibuprofen — Pain에 듣는다  <!-- 시험 212건 · 논문 4439편 -->
+- [x] ibuprofen — Third Molar에 듣는다  <!-- 시험 15건 · 논문 230편 -->
+- [x] ibuprofen — Surgery에 듣는다  <!-- 시험 14건 · 논문 2603편 -->
+- [x] naproxen — Pain에 듣는다  <!-- 시험 89건 · 논문 1738편 -->
+- [x] naproxen — Opioid Use에 듣는다  <!-- 시험 9건 · 논문 271편 -->
+- [x] naproxen — Oral Cancer에 듣는다  <!-- 시험 8건 · 논문 32편 -->
 - [ ] naproxen — Peptic Ulcer에 듣는다  <!-- 시험 7건 · 논문 250편 -->
-- [ ] loratadine — Rhinitis에 듣는다  <!-- 시험 39건 · 논문 632편 -->
-- [ ] cetirizine — Rhinitis에 듣는다  <!-- 시험 44건 · 논문 611편 -->
+- [x] loratadine — Rhinitis에 듣는다  <!-- 시험 39건 · 논문 632편 -->
+- [x] cetirizine — Rhinitis에 듣는다  <!-- 시험 44건 · 논문 611편 -->
 - [ ] cetirizine — Asthma에 듣는다  <!-- 시험 3건 · 논문 328편 -->
 - [ ] cetirizine — Dermatitis에 듣는다  <!-- 시험 3건 · 논문 197편 -->
 - [ ] diphenhydramine — Lung Cancer에 듣는다  <!-- 시험 42건 · 논문 56편 -->
 - [ ] diphenhydramine — Kidney Disease에 듣는다  <!-- 시험 9건 · 논문 56편 -->
 - [ ] pseudoephedrine — Rhinitis에 듣는다  <!-- 시험 15건 · 논문 174편 -->
 - [ ] pseudoephedrine — Sinusitis에 듣는다  <!-- 시험 4건 · 논문 24편 -->
-- [ ] pseudoephedrine — Common Cold에 듣는다  <!-- 시험 4건 · 논문 121편 -->
+- [x] pseudoephedrine — Common Cold에 듣는다  <!-- 시험 4건 · 논문 121편 -->
 - [ ] famotidine — Cancer에 듣는다  <!-- 시험 33건 · 논문 211편 -->
 - [ ] famotidine — Infection에 듣는다  <!-- 시험 5건 · 논문 313편 -->
-- [ ] famotidine — Heartburn에 듣는다  <!-- 시험 3건 · 논문 158편 -->
-- [ ] loperamide — Cancer에 듣는다  <!-- 시험 37건 · 논문 354편 -->
+- [x] famotidine — Heartburn에 듣는다  <!-- 시험 3건 · 논문 158편 -->
+- [x] loperamide — Cancer에 듣는다  <!-- 시험 37건 · 논문 354편 -->
 - [ ] loperamide — Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 19편 -->
 - [ ] bisacodyl — Bowel Cancer에 듣는다  <!-- 시험 21건 · 논문 64편 -->
 - [ ] bisacodyl — Colonoscopy에 듣는다  <!-- 시험 20건 · 논문 213편 -->
-- [ ] bisacodyl — Constipation에 듣는다  <!-- 시험 14건 · 논문 226편 -->
+- [x] bisacodyl — Constipation에 듣는다  <!-- 시험 14건 · 논문 226편 -->
 - [ ] bisacodyl — Ileus에 듣는다  <!-- 시험 3건 · 논문 14편 -->
 - [ ] lactulose — Hepatic Encephalopathy에 듣는다  <!-- 시험 51건 · 논문 998편 -->
 - [ ] lactulose — Colonoscopy에 듣는다  <!-- 시험 7건 · 논문 53편 -->
 - [ ] lactulose — Intestinal Flora에 듣는다  <!-- 시험 5건 · 논문 299편 -->
 - [ ] lactulose — Portal Hypertension에 듣는다  <!-- 시험 4건 · 논문 137편 -->
-- [ ] benzoyl peroxide — Acne에 듣는다  <!-- 시험 80건 · 논문 1129편 -->
+- [x] benzoyl peroxide — Acne에 듣는다  <!-- 시험 80건 · 논문 1129편 -->
 - [ ] benzoyl peroxide — Infection에 듣는다  <!-- 시험 4건 · 논문 204편 -->
-- [ ] salicylic acid — Acne에 듣는다  <!-- 시험 11건 · 논문 281편 -->
+- [x] salicylic acid — Acne에 듣는다  <!-- 시험 11건 · 논문 281편 -->
 - [ ] salicylic acid — Warts에 듣는다  <!-- 시험 5건 · 논문 228편 -->
 - [ ] salicylic acid — Acute Coronary Syndrome에 듣는다  <!-- 시험 4건 · 논문 31편 -->
 - [ ] salicylic acid — Melasma에 듣는다  <!-- 시험 3건 · 논문 31편 -->
-- [ ] clotrimazole — Candidiasis에 듣는다  <!-- 시험 15건 · 논문 841편 -->
+- [x] clotrimazole — Candidiasis에 듣는다  <!-- 시험 15건 · 논문 841편 -->
 - [ ] clotrimazole — Vaginal Candida에 듣는다  <!-- 시험 3건 · 논문 495편 -->
 - [ ] hydrocortisone cream — Atopic에 듣는다  <!-- 시험 9건 · 논문 106편 -->
 - [ ] nicotine replacement therapy — Smoking에 듣는다  <!-- 시험 274건 · 논문 4140편 -->

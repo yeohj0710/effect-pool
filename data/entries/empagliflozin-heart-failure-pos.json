@@ -1,0 +1,24 @@
+{
+  "id": "empagliflozin-heart-failure-pos",
+  "subj": "엠파글리플로진",
+  "claim": "엠파글리플로진이 심부전 결과를 개선한다",
+  "line": "심부전에서 엠파글리플로진은 심혈관 사망 또는 심부전 입원을 줄였습니다.",
+  "effect": "복합 결과 HR 0.79",
+  "vs": "박출률 40% 초과 심부전 5,988명 시험에서 복합 결과는 엠파글리플로진군 13.8% 대 위약군 17.1%였고 HR 0.79(95% CI 0.69~0.90)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "심부전 입원 위험 감소를 포함해 허가된 SGLT2 억제제",
+  "why": "EMPEROR-Preserved 무작위시험에서 엠파글리플로진과 위약의 심부전 결과를 확인했습니다",
+  "saw": "효과는 심부전 입원 감소가 주로 이끌었고 당뇨 유무와 관계없이 일관됐습니다",
+  "limit": "생식기·요로 감염과 저혈압이 엠파글리플로진군에서 더 흔했습니다",
+  "against": "탈수·신장 기능·감염 위험을 확인하며 표준 심부전 치료와 함께 처방합니다",
+  "use": "박출률 보존 심부전의 입원 위험 감소 근거로 기록합니다",
+  "n": 5988,
+  "synth": "single",
+  "refs": [
+    { "label": "EMPEROR-Preserved 엠파글리플로진 심부전 시험", "pmid": "34449189", "nct": "NCT03057951" },
+    { "label": "ClinicalTrials.gov empagliflozin·Heart Failure 검색", "nct": "NCT03057951" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=empagliflozin AND query.cond=Heart Failure; 100건 페이지 반환 상한, NCT03057951 등 확인", "pubmed": "empagliflozin AND Heart Failure; 1,600건", "negative": "empagliflozin AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "empagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 검색 결과 확인" }
+}

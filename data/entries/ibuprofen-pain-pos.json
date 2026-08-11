@@ -1,0 +1,24 @@
+{
+  "id": "ibuprofen-pain-pos",
+  "subj": "이부프로펜",
+  "claim": "이부프로펜이 통증을 줄인다",
+  "line": "급성 발치 통증에서 이부프로펜 400mg은 위약보다 통증 완화가 컸습니다.",
+  "effect": "통증 완화 MD 1.31",
+  "vs": "성인 발치 82개 무작위시험에서 이부프로펜 400mg은 위약보다 6시간 통증 완화가 1.31점(95% CI 1.17~1.45) 컸습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "일반의약품 진통·소염제로 허가된 성분",
+  "why": "성인 발치 후 급성 통증 네트워크 메타분석에서 이부프로펜과 위약의 6시간 통증 완화 차이를 확인했습니다",
+  "saw": "이부프로펜 400mg은 오피오이드 단독보다 통증 결과가 좋았고 위약보다 효과가 컸습니다",
+  "limit": "발치 통증의 단회 또는 단기 결과이며 만성 통증 치료 근거는 아닙니다",
+  "against": "위장관·신장 위험과 다른 NSAID 중복 복용을 확인해야 합니다",
+  "use": "급성 치과 통증에서 확인된 비처방 진통 근거로 기록합니다",
+  "n": 9095,
+  "synth": "meta",
+  "refs": [
+    { "label": "성인 발치 후 급성 통증 네트워크 메타분석", "pmid": "36631957" },
+    { "label": "ClinicalTrials.gov ibuprofen·Pain 검색", "nct": "NCT01330459" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=ibuprofen AND query.cond=Pain; 100건 페이지 반환 상한, NCT01330459 등 확인", "pubmed": "ibuprofen AND Pain; 4,439건", "negative": "ibuprofen AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "ibuprofen AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 검색 결과 확인" }
+}

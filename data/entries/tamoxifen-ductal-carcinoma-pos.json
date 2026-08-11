@@ -1,0 +1,24 @@
+{
+  "id": "tamoxifen-ductal-carcinoma-pos",
+  "subj": "타목시펜",
+  "claim": "수술 후 타목시펜이 관상피내암 재발을 줄인다",
+  "line": "관상피내암 수술 후 타목시펜은 같은 쪽 관상피내암 재발을 줄였습니다.",
+  "effect": "동측 DCIS 재발 HR 0.75",
+  "vs": "관상피내암 수술 후 2개 무작위시험 3,375명에서 타목시펜은 대조군보다 동측 DCIS 재발 HR 0.75(95% CI 0.61~0.92), 반대쪽 DCIS RR 0.50(0.28~0.87)이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "수술 후 관상피내암 재발 위험 감소에 허가된 처방 선택지",
+  "why": "관상피내암 절제 후 타목시펜을 대조군과 비교한 두 무작위시험의 Cochrane 메타분석을 확인했습니다",
+  "saw": "타목시펜은 동측·반대쪽 DCIS와 반대쪽 침윤암을 줄였지만 전체 사망률은 줄이지 않았습니다",
+  "limit": "수술·방사선치료와 호르몬 수용체 상태가 시험마다 달랐습니다",
+  "against": "자궁내막암·혈전 등 처방 위험을 개인별로 상담해야 합니다",
+  "use": "관상피내암 수술 후 재발 감소 근거로 기록하며 생존 개선으로 과장하지 않습니다",
+  "n": 3375,
+  "synth": "meta",
+  "refs": [
+    { "label": "관상피내암 수술 후 타목시펜 Cochrane 메타분석", "pmid": "25023044" },
+    { "label": "ClinicalTrials.gov tamoxifen·Ductal Carcinoma 검색", "nct": "NCT00290654" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=tamoxifen AND query.cond=Ductal Carcinoma; 43건, NCT00290654 등 확인", "pubmed": "tamoxifen AND Ductal Carcinoma; 1,127건", "negative": "tamoxifen AND Ductal Carcinoma AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "tamoxifen AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 검색 결과 확인" }
+}

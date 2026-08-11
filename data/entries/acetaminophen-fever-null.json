@@ -1,0 +1,24 @@
+{
+  "id": "acetaminophen-fever-null",
+  "subj": "아세트아미노펜",
+  "claim": "아세트아미노펜이 소아 발열을 낮춘다",
+  "line": "소아 발열에서 아세트아미노펜 단독은 병용요법보다 해열 효과가 낮았습니다.",
+  "effect": "단독 해열 효과 비교",
+  "vs": "31개 시험 5,009명 네트워크 분석에서 아세트아미노펜 단독 대비 병용요법의 4시간 해열 OR은 0.19(0.09~0.42), 고용량 이부프로펜은 0.98(0.63~1.59)였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "known": "label",
+  "knownWhy": "일반의약품 진통·해열제로 허가된 성분",
+  "why": "소아 발열에서 아세트아미노펜 단독·이부프로펜·교대·병용을 비교한 네트워크 메타분석을 확인했습니다",
+  "saw": "병용·교대요법은 아세트아미노펜 단독보다 4시간 해열 가능성이 높았지만 이부프로펜 고용량과는 비슷했습니다",
+  "limit": "효과와 안전성을 투여 후 6시간까지만 평가했습니다",
+  "against": "교대·병용은 투여 오류와 과량 복용 위험을 높일 수 있습니다",
+  "use": "소아 발열에서 단독과 병용의 차이를 보여주는 비교 근거로 기록합니다",
+  "n": 5009,
+  "synth": "meta",
+  "refs": [
+    { "label": "소아 발열 아세트아미노펜·이부프로펜 네트워크 메타분석", "pmid": "39318339" },
+    { "label": "ClinicalTrials.gov acetaminophen·Fever 검색", "nct": "NCT03947671" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=acetaminophen AND query.cond=Fever; 60건, NCT03947671 등 확인", "pubmed": "acetaminophen AND Fever; 2,062건", "negative": "acetaminophen AND Fever AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "acetaminophen AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 검색 결과 확인" }
+}
