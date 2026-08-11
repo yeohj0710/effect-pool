@@ -20806,3 +20806,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 3214편 --> — 등록시험 결과 대기(2026-08-11 조회, sleep AND Pregnancy Related; ClinicalTrials.gov 물질 일치 12건, 직접 중재 결과 논문 확인 못함)
 - [x] sleep — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 2904편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
 - [x] sleep — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 941편 --> — 항목 생성(sleep-type-1-diabetes-pos, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] colostrum — Necrotizing Enterocolitis에 듣는다 — 항목 생성(colostrum-necrotizing-enterocolitis-pos, 2026-08-11)  <!-- 시험 5건 · 논문 173편 -->
+- [x] colostrum — Sepsis에 듣는다 — 항목 생성(colostrum-sepsis-pos, 2026-08-11)  <!-- 시험 5건 · 논문 191편 -->
+- [x] colostrum — Premature에 듣는다 — 항목 생성(colostrum-premature-null, 2026-08-11)  <!-- 시험 5건 · 논문 493편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] bee venom — Osteoarthritis에 듣는다 — 항목 생성(bee-venom-osteoarthritis-pos, 2026-08-11)  <!-- 시험 5건 · 논문 22편 -->
+- [x] tea polyphenols — Diabetes에 듣는다 — 항목 생성(tea-polyphenols-diabetes-pos, 2026-08-11)  <!-- 시험 4건 · 논문 474편 -->
+- [x] tea polyphenols — Oral Mucositis에 듣는다 — 항목 생성(tea-polyphenols-oral-mucositis-null, 2026-08-11)  <!-- 시험 3건 · 논문 8편 -->
