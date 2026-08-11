@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5391,
-  "subjects": 2138,
-  "refs": 7713,
+  "entries": 5401,
+  "subjects": 2148,
+  "refs": 7727,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 1969
+    "rx": 1979
   },
-  "tiers": { "trial": 4574, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3167, "null": 1056, "open": 1019, "harm": 149 },
+  "tiers": { "trial": 4584, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3176, "null": 1057, "open": 1019, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 13136,
-    "unchecked": 2406,
+    "checked": 13146,
+    "unchecked": 2396,
     "no_evidence_pending": 2059,
-    "note": "batch 1233에서 처방 주제 1개를 기존 근거 항목에 연결하고 새 근거 9개를 추가했다. 다음 미처리 줄은 2058번 omalizumab — Urticaria에 듣는다이며 2,406개가 남았다."
+    "note": "batch 1234에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2101번 azithromycin — Pneumonia에 듣는다이며 2,396개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,11 +44,11 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (1,969건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,205건). 목표는 33% 위",
-    "vs_share": "6.1% (330건)",
+    "rx_share": "37% (1,979건). 줄어야 한다",
+    "no_effect_or_harm_share": "22% (1,206건). 목표는 33% 위",
+    "vs_share": "6.3% (340건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.9% (4,574건)",
+    "trial_share": "84.9% (4,584건)",
     "non_trial_share": "15.1% (817건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 966 }
   },
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1234 starts after batch 1233; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2058: omalizumab — Urticaria에 듣는다; 2,406 unchecked remain.",
+  "next": "batch 1235 starts after batch 1234; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2101: azithromycin — Pneumonia에 듣는다; 2,396 unchecked remain.",
   "last_batch": {
-    "id": "1233",
-    "commit": "7c149e13",
-    "pushed": true,
+    "id": "1234",
+    "commit": "33f0349f",
+    "pushed": false,
     "processed_topics": 10,
-    "new_entries": 9,
-    "existing_links": 1,
+    "new_entries": 10,
+    "existing_links": 0,
     "no_evidence_rejects": 0,
-    "build": "5391 entries · 7713 refs · 4574 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "liraglutide—Overweight를 기존 근거 항목에 연결하고 liraglutide—Cardiovascular Disease, ezetimibe—Coronary Disease·Dyslipidemia, dupilumab—Asthma·Nasal Polyps·Eczema, mepolizumab—Nasal Polyps·Hypereosinophilic Syndrome·Churg-Strauss Syndrome을 새로 추가했다.",
-    "research_batch": "처방 주제 10개를 처리했다. 리라글루티드 과체중은 기존 비만 근거 항목에 연결했고, 나머지 9개는 ClinicalTrials.gov·PubMed·반대·안전성 검색을 거쳐 새 항목으로 추가했다. 기존 리라글루티드 비만·에플레레논 심부전·리툭시맙 백혈병·류마티스관절염 항목의 대조 표현도 좁게 보완했다.",
+    "build": "5401 entries · 7727 refs · 4584 trial · 723 obs · 30 animal · 17 lab · 47 case",
+    "research": "omalizumab—Urticaria·Food Allergy·Nasal Polyps, tezepelumab—Chronic Rhinosinusitis With Nasal Polyps, benralizumab—Hypereosinophilia, lebrikizumab—Eczema, roflumilast—COPD·Psoriasis·Dermatitis, azithromycin—Infection을 새로 추가했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 오말리주맙 두드러기·다중 식품 알레르기·비강 폴립, 테제펠루맙 비강 폴립, 벤랄리주맙 호산구 과다증후군, 레브리키주맙 아토피피부염, 로플루밀라스트 COPD·건선·피부염, 아지트로마이신 입원 COVID-19 감염 근거를 새 항목으로 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 1,
     "legacy_subject_renames": 0,
