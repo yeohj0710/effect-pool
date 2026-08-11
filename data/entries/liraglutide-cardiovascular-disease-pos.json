@@ -1,0 +1,29 @@
+{
+  "id": "liraglutide-cardiovascular-disease-pos",
+  "subj": "리라글루티드",
+  "claim": "리라글루티드가 심혈관 위험이 높은 제2형 당뇨병 성인의 주요 심혈관 사건을 줄인다",
+  "line": "심혈관 위험이 높은 제2형 당뇨병에서 리라글루티드는 위약보다 주요 심혈관 사건이 적었습니다.",
+  "effect": "주요 심혈관 사건 13.0% 대 14.9%",
+  "vs": "LEADER 9,340명에서 주요 심혈관 사건은 리라글루티드 608/4,668명(13.0%) 대 위약 694/4,672명(14.9%), HR 0.87이었고 심혈관 사망은 4.7% 대 6.0%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 9340,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "제2형 당뇨병 환자의 심혈관 위험 감소 치료가 허가 적응증입니다.",
+  "why": "심혈관질환이 있거나 심혈관 위험이 높은 제2형 당뇨병 성인 9,340명을 표준치료에 리라글루티드 또는 위약을 더하는 방식으로 무작위 배정한 LEADER 시험입니다.",
+  "saw": "주요 심혈관 사건은 리라글루티드 13.0%, 위약 14.9%였고 심혈관 사망은 4.7% 대 6.0%, 전체 사망은 8.2% 대 9.6%였습니다.",
+  "limit": "심혈관 위험이 높은 제2형 당뇨병 환자의 중앙 3.8년 추적 결과입니다. 제2형 당뇨병이 없거나 심혈관 위험이 낮은 사람에게 같은 효과를 적용할 수 없습니다.",
+  "against": "위장관 이상반응으로 치료를 중단하는 환자가 있었고, 리라글루티드가 모든 심혈관 결과를 유의하게 줄인 것은 아닙니다.",
+  "use": "심혈관 위험이 높은 제2형 당뇨병에서 표준치료에 더할 때의 심혈관 사건 감소 근거로 사용하고, 위장관 증상과 신장 기능을 함께 확인합니다.",
+  "refs": [
+    { "label": "2016 · NEJM · LEADER 리라글루티드 심혈관 결과 무작위시험", "pmid": "27295427", "nct": "NCT01179048" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=liraglutide AND query.cond=cardiovascular disease → 36건 반환; NCT01179048에서 liraglutide·placebo 중재명 확인",
+    "pubmed": "liraglutide AND cardiovascular disease → 1,101건",
+    "negative": "liraglutide AND cardiovascular disease AND (no effect OR did not OR failed OR negative OR no significant difference) → 918건",
+    "safety": "liraglutide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,017건"
+  }
+}

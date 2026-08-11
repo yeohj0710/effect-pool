@@ -2031,12 +2031,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sarilumab — SARS에 듣는다 — 신규 항목(sarilumab-sars-null)  <!-- 등록 시험 3건 -->
 - [x] liraglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 107건 --> — 기존 항목(liraglutide-obesity-pos)
 - [x] liraglutide — Metabolism Disorder, Lipid에 듣는다 — 신규 항목(liraglutide-metabolism-disorder-lipid-open)  <!-- 등록 시험 20건 -->
-- [ ] liraglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
-- [ ] liraglutide — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] ezetimibe — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 56건 -->
+- [x] liraglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 기존 항목(liraglutide-obesity-pos)
+- [x] liraglutide — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(liraglutide-cardiovascular-disease-pos)
+- [x] ezetimibe — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 56건 --> — 신규 항목(ezetimibe-coronary-disease-pos)
 - [x] ezetimibe — Diabetes에 듣는다 — 신규 항목(ezetimibe-diabetes-open)  <!-- 등록 시험 33건 -->
 - [x] ezetimibe — Atherosclerosis에 듣는다 — 신규 항목(ezetimibe-atherosclerosis-open)  <!-- 등록 시험 26건 -->
-- [ ] ezetimibe — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
+- [x] ezetimibe — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 신규 항목(ezetimibe-dyslipidemia-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2047,14 +2047,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dupilumab — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
-- [ ] dupilumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 -->
+- [x] dupilumab — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 --> — 신규 항목(dupilumab-asthma-pos)
+- [x] dupilumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 --> — 신규 항목(dupilumab-nasal-polyps-pos)
 - [x] dupilumab — Eosinophilic Gastritis에 듣는다 — 신규 항목(dupilumab-eosinophilic-gastritis-open)  <!-- 등록 시험 20건 -->
-- [ ] dupilumab — Eczema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] mepolizumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
+- [x] dupilumab — Eczema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 --> — 신규 항목(dupilumab-eczema-pos)
+- [x] mepolizumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 신규 항목(mepolizumab-nasal-polyps-pos)
 - [x] mepolizumab — Eosinophilic Fasciitis에 듣는다 — 신규 항목(mepolizumab-eosinophilic-fasciitis-null)  <!-- 등록 시험 15건 -->
-- [ ] mepolizumab — Hypereosinophilic Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
-- [ ] mepolizumab — Churg-Strauss Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] mepolizumab — Hypereosinophilic Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 신규 항목(mepolizumab-hypereosinophilic-syndrome-pos)
+- [x] mepolizumab — Churg-Strauss Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — 신규 항목(mepolizumab-churg-strauss-syndrome-pos)
 - [ ] omalizumab — Urticaria에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
 - [ ] omalizumab — Allergy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
 - [x] omalizumab — Rhinitis에 듣는다 — 신규 항목(omalizumab-rhinitis-open)  <!-- 등록 시험 14건 -->

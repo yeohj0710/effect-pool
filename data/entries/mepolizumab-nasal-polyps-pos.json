@@ -1,0 +1,29 @@
+{
+  "id": "mepolizumab-nasal-polyps-pos",
+  "subj": "메폴리주맙",
+  "claim": "메폴리주맙이 수술이 필요한 중증 만성 비부비동염의 비용종과 코막힘을 줄인다",
+  "line": "중증 비용종에서 메폴리주맙은 52주 비용종 점수를 개선했습니다.",
+  "effect": "52주 비용종 점수 차이 −0.73점",
+  "vs": "SYNAPSE 407명에서 52주 내시경 비용종 점수의 메폴리주맙 대 위약 조정 중앙값 차이는 −0.73점, 코막힘 VAS 차이는 −3.14점으로 위약보다 개선됐습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 407,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "성인 중증 만성 비부비동염과 비용종에서 기존 치료에 더하는 치료가 허가 적응증입니다.",
+  "why": "기존 치료에도 재발하고 재수술 대상인 중증 양측 비용종 성인 407명을 표준치료에 메폴리주맙 100mg 또는 위약을 더하는 방식으로 52주 무작위 배정한 SYNAPSE 3상시험입니다.",
+  "saw": "52주 비용종 점수 차이는 메폴리주맙 대 위약 −0.73점, 코막힘 VAS 차이는 −3.14점이었고, 치료 관련 이상반응은 15% 대 9%, 중대한 이상반응은 두 군 모두 6%였습니다.",
+  "limit": "재수술 대상인 재발성 중증 비용종과 비강 표준치료를 병용한 52주 결과입니다. 수술 대상이 아닌 경증 비용종에 같은 효과를 적용할 수 없습니다.",
+  "against": "치료 관련 이상반응이 메폴리주맙 15% 대 위약 9%였고, 52주 뒤 비용종 재발과 추가 수술 위험은 계속 평가해야 합니다.",
+  "use": "표준치료에도 재발해 재수술을 고려하는 중증 비용종의 크기·코막힘 감소 근거로 사용하고, 주사 반응과 감염·수술 필요성을 함께 확인합니다.",
+  "refs": [
+    { "label": "2021 · Lancet Respir Med · SYNAPSE 메폴리주맙 비용종 3상시험", "pmid": "33872587", "nct": "NCT03085797" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=mepolizumab AND query.cond=nasal polyps → 22건 반환; NCT03085797에서 mepolizumab·placebo 중재명 확인",
+    "pubmed": "mepolizumab AND nasal polyps → 364건",
+    "negative": "mepolizumab AND nasal polyps AND (no effect OR did not OR failed OR negative OR no significant difference) → 238건",
+    "safety": "mepolizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 825건"
+  }
+}
