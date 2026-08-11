@@ -20645,3 +20645,42 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gardening — Mental Health에 듣는다  <!-- 시험 5건 · 논문 1268편 -->
 - [x] gardening — Stress에 듣는다  <!-- 시험 3건 · 논문 4670편 -->
 - [x] sleep extension — Child Behavior에 듣는다  <!-- 시험 3건 · 논문 56편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] intermittent fasting — Pancreatitis에 듣는다  <!-- 시험 4건 · 논문 103편 --> — 근거 없음(2026-08-11 조회, "intermittent fasting" AND "Pancreatitis")
+- [x] intermittent fasting — Insulin Secretion에 듣는다  <!-- 시험 3건 · 논문 66편 --> — 근거 없음(2026-08-11 조회, "intermittent fasting" AND "Insulin Secretion")
+- [x] intermittent fasting — Crohn Disease에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-11 조회, "intermittent fasting" AND "Crohn Disease")
+- [x] psyllium — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 78편 -->
+- [x] sleep restriction — Depression에 듣는다  <!-- 시험 7건 · 논문 1202편 --> — 근거 없음(2026-08-11 조회, "sleep restriction" AND "Depression")
+- [x] sleep restriction — Hypertension에 듣는다  <!-- 시험 5건 · 논문 533편 --> — 근거 없음(2026-08-11 조회, "sleep restriction" AND "Hypertension")
+- [x] sleep restriction — Metabolic Disease에 듣는다  <!-- 시험 5건 · 논문 735편 --> — 근거 없음(2026-08-11 조회, "sleep restriction" AND "Metabolic Disease")
+- [x] sleep restriction — Alcohol Dependence에 듣는다  <!-- 시험 5건 · 논문 27편 --> — 근거 없음(2026-08-11 조회, "sleep restriction" AND "Alcohol Dependence")
+- [x] breathing meditation — Addiction에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 근거 없음(2026-08-11 조회, "breathing meditation" AND "Addiction")
+- [x] resistance training — Health에 듣는다  <!-- 시험 7건 · 논문 25053편 --> — 근거 없음(2026-08-11 조회, "resistance training" AND "Health")
+- [x] resistance training — Knee Surgery에 듣는다  <!-- 시험 7건 · 논문 373편 -->
+- [x] resistance training — Hypertrophy에 듣는다  <!-- 시험 6건 · 논문 2505편 -->
+- [x] resistance training — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 762편 -->
+- [x] turmeric — Mood Change에 듣는다  <!-- 시험 4건 · 논문 64편 --> — 근거 없음(2026-08-11 조회, "turmeric" AND "Mood Change")
+- [x] turmeric — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 129편 --> — 항암 주제 제외(2026-08-11)
+- [x] turmeric — Pain에 듣는다  <!-- 시험 3건 · 논문 395편 -->
+- [x] turmeric — Safety Issues에 듣는다  <!-- 시험 3건 · 논문 64편 --> — 근거 없음(2026-08-11 조회, "turmeric" AND "Safety Issues")
+- [x] pomegranate — Aging에 듣는다  <!-- 시험 5건 · 논문 138편 -->
+- [x] pomegranate — Gingival Health에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-11 조회, "pomegranate" AND "Gingival Health")
+- [x] pomegranate — Male Infertility에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 근거 없음(2026-08-11 조회, "pomegranate" AND "Male Infertility")
+- [x] black seed — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 17편 -->
+- [x] beetroot — Cardiovascular Health에 듣는다  <!-- 시험 12건 · 논문 152편 -->
+- [x] beetroot — Dietary Nitrate에 듣는다  <!-- 시험 11건 · 논문 609편 -->
+- [x] beetroot — Exercise에 듣는다  <!-- 시험 11건 · 논문 513편 -->
+- [x] beetroot — Aging에 듣는다  <!-- 시험 10건 · 논문 88편 -->
+- [x] mct oil — Alzheimer Disease에 듣는다  <!-- 시험 4건 · 논문 17편 --> — 근거 없음(2026-08-11 조회, "mct oil" AND "Alzheimer Disease")
+- [x] mct oil — Obesity에 듣는다  <!-- 시험 3건 · 논문 41편 -->
+- [x] mct oil — Fatty Acid Oxidation Disorder에 듣는다  <!-- 시험 3건 · 논문 30편 --> — 근거 없음(2026-08-11 조회, "mct oil" AND "Fatty Acid Oxidation Disorder")
+- [x] mct oil — Liver Tumor에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 항암 주제 제외(2026-08-11)
