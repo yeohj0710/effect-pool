@@ -1,0 +1,24 @@
+{
+  "id": "orlistat-endometrial-cancer-pos",
+  "subj": "오를리스타트",
+  "claim": "오를리스타트가 자궁내막암 세포 증식을 억제한다",
+  "line": "오를리스타트는 자궁내막암 세포주에서 증식을 억제했습니다.",
+  "effect": "세포 증식 57~61% 억제",
+  "vs": "오를리스타트 500μM에서 ECC-1 증식 61%, KLE 57% 억제 (대조군 대비)",
+  "tier": "lab",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "오를리스타트는 체중관리 성분이며 자궁내막암 치료제로 허가된 성분은 아닙니다",
+  "why": "오를리스타트와 자궁내막암의 ClinicalTrials.gov·PubMed 결과를 확인했습니다",
+  "saw": "두 자궁내막암 세포주 ECC-1과 KLE에서 500μM 오를리스타트가 세포 증식을 각각 61%와 57% 억제했습니다",
+  "limit": "세포배양 고농도 결과이며 사람 종양에서의 치료효과나 안전성을 보여 주지 않습니다",
+  "against": "오를리스타트를 항암제로 복용하지 말고 표준 자궁내막암 치료를 받아야 합니다",
+  "use": "오를리스타트의 자궁내막암 전임상 신호를 사람 근거와 구분해 기록합니다",
+  "n": 2,
+  "synth": "single",
+  "refs": [
+    { "label": "자궁내막암 세포주 오를리스타트 실험", "pmid": "27188391" },
+    { "label": "ClinicalTrials.gov orlistat·Endometrial Cancer 검색", "nct": "NCT07714070" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=orlistat AND query.cond=Endometrial Cancer; 2건, NCT07714070 등 확인", "pubmed": "orlistat AND Endometrial Cancer; 4건", "negative": "orlistat AND Endometrial Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "orlistat AND (adverse OR toxicity OR liver OR kidney stone OR case report); 검색 결과 확인" }
+}

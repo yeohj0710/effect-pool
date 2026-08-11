@@ -1,0 +1,23 @@
+{
+  "id": "zinc-supplementation-pneumonia-open",
+  "subj": "아연",
+  "claim": "아연 보충이 폐렴을 치료한다",
+  "line": "아연과 폐렴 연구는 있지만 폐렴 치료효과의 직접 비교 수치는 확인되지 않았습니다.",
+  "effect": "폐렴 치료 근거 미확인",
+  "tier": "obs",
+  "dir": "open",
+  "known": "off",
+  "knownWhy": "아연은 보충제이며 폐렴의 항균치료와 산소치료를 대체하지 않습니다",
+  "why": "아연 보충과 폐렴의 ClinicalTrials.gov·PubMed 결과를 검색했습니다",
+  "saw": "소아 급성 호흡기 감염 영양중재 고찰과 등록시험은 확인했지만 아연 단독 폐렴 치료 결과를 분리하지 못했습니다",
+  "limit": "폐렴 원인·연령·영양상태·항생제 병용이 달라 하나의 효과로 합치기 어렵습니다",
+  "against": "호흡곤란·청색증·의식저하가 있으면 아연보다 즉시 진료와 표준치료가 우선입니다",
+  "use": "폐렴에서 아연 보충 직접시험 결과를 추가 확인합니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "소아 급성 호흡기 감염 영양중재 고찰(아연 하위군 직접수치 미확인)", "pmid": "38174413" },
+    { "label": "ClinicalTrials.gov zinc supplementation·Pneumonia 검색", "nct": "NCT04323228" }
+  ],
+  "queried": { "date": "2026-08-11", "ctgov": "query.intr=zinc supplementation AND query.cond=Pneumonia; 18건, NCT04323228 등 확인", "pubmed": "zinc supplementation AND Pneumonia; 129건", "negative": "zinc supplementation AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference); 검색 결과 확인", "safety": "zinc supplementation AND (adverse OR toxicity OR vomiting OR overdose OR case report); 검색 결과 확인" }
+}

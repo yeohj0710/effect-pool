@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5174,
-  "subjects": 2105,
-  "refs": 7336,
+  "entries": 5194,
+  "subjects": 2108,
+  "refs": 7376,
   "kinds": {
-    "otc": 87,
-    "supp": 298,
+    "otc": 95,
+    "supp": 310,
     "food": 447,
     "move": 596,
     "life": 1158,
     "care": 654,
     "rx": 1926
   },
-  "tiers": { "trial": 4410, "obs": 679, "animal": 26, "lab": 13, "case": 46 },
-  "dirs": { "pos": 3072, "null": 1032, "open": 923, "harm": 147 },
+  "tiers": { "trial": 4417, "obs": 691, "animal": 26, "lab": 14, "case": 46 },
+  "dirs": { "pos": 3076, "null": 1036, "open": 935, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12521,
-    "unchecked": 3021,
+    "checked": 12551,
+    "unchecked": 2991,
     "no_evidence_pending": 1998,
-    "note": "batch 1199에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 20개를 만들고 기존 항목 10개를 연결했다. 다음 미처리 줄은 499번 ketamine — Anesthesia에 듣는다이다."
+    "note": "batch 1200에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 20개를 만들고 기존 항목 10개를 연결했다. 다음 미처리 줄은 541번 duloxetine — Pain에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "16% (약국약·보충제·음식 832건). 목표는 25%",
+    "over_counter_share": "16% (약국약·보충제·음식 852건). 목표는 25%",
     "rx_share": "37% (1,934건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,179건). 목표는 33% 위",
-    "vs_share": "3.4% (176건)",
+    "no_effect_or_harm_share": "23% (1,183건). 목표는 33% 위",
+    "vs_share": "3.5% (184건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.2% (4,410건)",
-    "non_trial_share": "14.8% (764건)",
-    "build_warnings": { "unknown_n": 422, "thin_study": 947 }
+    "trial_share": "85.0% (4,417건)",
+    "non_trial_share": "15.0% (777건)",
+    "build_warnings": { "unknown_n": 424, "thin_study": 947 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,16 @@
     "checked_at": "2026-08-11",
     "note": "batch 1195 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1200 starts after batch 1199; pull and read AGENTS.md first. Resume at worklist line 499: ketamine — Anesthesia에 듣는다; 3,021 unchecked remain.",
+  "next": "batch 1201 starts after batch 1200; pull and read AGENTS.md first. Resume at worklist line 541: duloxetine — Pain에 듣는다; 2,991 unchecked remain.",
   "last_batch": {
-    "id": "1199",
-    "commit": "02543c7b",
-    "pushed": true,
+    "id": "1200",
+    "commit": "PENDING",
+    "pushed": false,
     "processed_topics": 30,
     "new_entries": 20,
     "existing_links": 10,
-    "build": "5174 entries · 7336 refs · 4410 trial · 679 obs · 26 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 디펜히드라민-폐암·신장질환, 니코틴 대체요법-담배·폐암, 인공눈물-당뇨성 안질환, 캡사이신 크림-통증·중추 감작, 비타민 D-유방암·신장질환·스트레스, 비타민 C-암·화상 쇼크·심부전·빈혈, 아연-설사·감염, 마그네슘-수면 건강·당뇨병, 오메가3-암·당뇨병의 비처방 주제 20개를 확인했다. 신규 20개를 만들고 기존 쿠에티아핀-양극성장애·주요우울증, 스피로놀락톤-고혈압, 독시사이클린-여드름·매독, 콜히친-통풍, 다파글리플로진-심부전·신장질환, 세마글루타이드-비만·과체중 항목 10개를 연결했다. 직접 비교 수치가 없는 조합은 open으로 남겼고, 동물시험과 메타분석의 표본수는 확인된 범위만 기록했다.",
+    "build": "5194 entries · 7376 refs · 4417 trial · 691 obs · 26 animal · 14 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 비사코딜-장마비, 락툴로오스-간성뇌증·대장내시경·장내 세균총·문맥고혈압, 살리실산-급성관상동맥증후군, 오를리스타트-비만·자궁내막암, 비타민 K2-대동맥판막질환·신장질환·혈전, 아연-HIV·폐렴, 마그네슘-건강한 성인·단백질 결핍, 철분-빈혈·심부전·체중감량·임신, 셀레늄-패혈증의 비처방 주제 20개를 확인했다. 신규 20개를 만들고 기존 케타민-마취, 프라조신-고혈압, 부프로피온-주요우울증·담배 사용·우울증, 실데나필-발기부전, 비마토프로스트-안구고혈압, 보툴리눔 독소-방광질환·경직·미간주름 항목 10개를 연결했다. 직접 비교 수치가 없는 조합은 open으로 남겼고, 세포실험은 lab, 사람 표본수를 확인하지 못한 메타분석은 n을 비워 두었다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,

@@ -496,11 +496,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
 - [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 기존 항목(ketamine-anesthesia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 기존 항목(prazosin-hypertension-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -522,21 +522,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 — 기존 항목(minoxidil-androgenetic-alopecia)  <!-- 등록 시험 6건 -->
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
+- [x] bupropion — Tobacco Use에 듣는다 — 기존 항목(bupropion-tobacco-use-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
+- [x] bupropion — Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
+- [x] sildenafil — Impotence에 듣는다 — 기존 항목(sildenafil-impotence-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] bimatoprost — Ocular Hypertension에 듣는다 — 기존 항목(bimatoprost-ocular-hypertension-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [x] bimatoprost — Hypotrichosis에 듣는다 — 기존 항목(bimatoprost-eyelash-hypotrichosis)  <!-- 등록 시험 14건 -->
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 — 기존 항목(botulinum-toxin-bladder-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 기존 항목(botulinum-toxin-spasticity-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] botulinum toxin — Frown Lines에 듣는다 — 기존 항목(botulinum-toxin-frown-lines-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [ ] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 -->
 - [ ] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
@@ -20979,16 +20979,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bisacodyl — Bowel Cancer에 듣는다  <!-- 시험 21건 · 논문 64편 -->
 - [x] bisacodyl — Colonoscopy에 듣는다  <!-- 시험 20건 · 논문 213편 -->
 - [x] bisacodyl — Constipation에 듣는다  <!-- 시험 14건 · 논문 226편 -->
-- [ ] bisacodyl — Ileus에 듣는다  <!-- 시험 3건 · 논문 14편 -->
-- [ ] lactulose — Hepatic Encephalopathy에 듣는다  <!-- 시험 51건 · 논문 998편 -->
-- [ ] lactulose — Colonoscopy에 듣는다  <!-- 시험 7건 · 논문 53편 -->
-- [ ] lactulose — Intestinal Flora에 듣는다  <!-- 시험 5건 · 논문 299편 -->
-- [ ] lactulose — Portal Hypertension에 듣는다  <!-- 시험 4건 · 논문 137편 -->
+- [x] bisacodyl — Ileus에 듣는다  <!-- 시험 3건 · 논문 14편 -->
+- [x] lactulose — Hepatic Encephalopathy에 듣는다  <!-- 시험 51건 · 논문 998편 -->
+- [x] lactulose — Colonoscopy에 듣는다  <!-- 시험 7건 · 논문 53편 -->
+- [x] lactulose — Intestinal Flora에 듣는다  <!-- 시험 5건 · 논문 299편 -->
+- [x] lactulose — Portal Hypertension에 듣는다  <!-- 시험 4건 · 논문 137편 -->
 - [x] benzoyl peroxide — Acne에 듣는다  <!-- 시험 80건 · 논문 1129편 -->
 - [x] benzoyl peroxide — Infection에 듣는다  <!-- 시험 4건 · 논문 204편 -->
 - [x] salicylic acid — Acne에 듣는다  <!-- 시험 11건 · 논문 281편 -->
 - [x] salicylic acid — Warts에 듣는다  <!-- 시험 5건 · 논문 228편 -->
-- [ ] salicylic acid — Acute Coronary Syndrome에 듣는다  <!-- 시험 4건 · 논문 31편 -->
+- [x] salicylic acid — Acute Coronary Syndrome에 듣는다  <!-- 시험 4건 · 논문 31편 -->
 - [x] salicylic acid — Melasma에 듣는다  <!-- 시험 3건 · 논문 31편 -->
 - [x] clotrimazole — Candidiasis에 듣는다  <!-- 시험 15건 · 논문 841편 -->
 - [x] clotrimazole — Vaginal Candida에 듣는다  <!-- 시험 3건 · 논문 495편 -->
@@ -20998,8 +20998,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nicotine replacement therapy — Lung Cancer에 듣는다  <!-- 시험 74건 · 논문 130편 -->
 - [x] artificial tears — Ocular Injury에 듣는다  <!-- 시험 9건 · 논문 110편 -->
 - [x] artificial tears — Diabetic Oculopathy에 듣는다  <!-- 시험 7건 · 논문 56편 -->
-- [ ] orlistat — Obesity에 듣는다  <!-- 시험 35건 · 논문 2063편 -->
-- [ ] orlistat — Endometrial Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 -->
+- [x] orlistat — Obesity에 듣는다  <!-- 시험 35건 · 논문 2063편 -->
+- [x] orlistat — Endometrial Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 -->
 - [x] capsaicin cream — Pain에 듣는다  <!-- 시험 16건 · 논문 280편 -->
 - [x] capsaicin cream — Central Sensitisation에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] vitamin D — Osteoporosis에 듣는다  <!-- 시험 34건 · 논문 12585편 -->
@@ -21010,23 +21010,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] vitamin C — Burn Shock에 듣는다  <!-- 시험 14건 · 논문 33편 -->
 - [x] vitamin C — Heart Failure에 듣는다  <!-- 시험 14건 · 논문 270편 -->
 - [x] vitamin C — Anemia에 듣는다  <!-- 시험 13건 · 논문 1579편 -->
-- [ ] vitamin K2 — Aortic Valve Disease에 듣는다  <!-- 시험 7건 · 논문 13편 -->
-- [ ] vitamin K2 — Kidney Diseases에 듣는다  <!-- 시험 5건 · 논문 76편 -->
-- [ ] vitamin K2 — Thrombosis에 듣는다  <!-- 시험 4건 · 논문 24편 -->
+- [x] vitamin K2 — Aortic Valve Disease에 듣는다  <!-- 시험 7건 · 논문 13편 -->
+- [x] vitamin K2 — Kidney Diseases에 듣는다  <!-- 시험 5건 · 논문 76편 -->
+- [x] vitamin K2 — Thrombosis에 듣는다  <!-- 시험 4건 · 논문 24편 -->
 - [x] zinc supplementation — Diarrhea에 듣는다  <!-- 시험 17건 · 논문 656편 -->
 - [x] zinc supplementation — Infection에 듣는다  <!-- 시험 11건 · 논문 1292편 -->
-- [ ] zinc supplementation — HIV에 듣는다  <!-- 시험 8건 · 논문 156편 -->
-- [ ] zinc supplementation — Pneumonia에 듣는다  <!-- 시험 6건 · 논문 303편 -->
-- [ ] magnesium supplementation — Healthy Adult에 듣는다  <!-- 시험 8건 · 논문 232편 -->
+- [x] zinc supplementation — HIV에 듣는다  <!-- 시험 8건 · 논문 156편 -->
+- [x] zinc supplementation — Pneumonia에 듣는다  <!-- 시험 6건 · 논문 303편 -->
+- [x] magnesium supplementation — Healthy Adult에 듣는다  <!-- 시험 8건 · 논문 232편 -->
 - [x] magnesium supplementation — Sleep Health에 듣는다  <!-- 시험 7건 · 논문 39편 -->
 - [x] magnesium supplementation — Diabetes에 듣는다  <!-- 시험 7건 · 논문 504편 -->
-- [ ] magnesium supplementation — Protein Deficiency에 듣는다  <!-- 시험 5건 · 논문 160편 -->
-- [ ] iron supplementation — Anemia에 듣는다  <!-- 시험 63건 · 논문 5890편 -->
-- [ ] iron supplementation — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 322편 -->
-- [ ] iron supplementation — Weight Loss에 듣는다  <!-- 시험 12건 · 논문 270편 -->
-- [ ] iron supplementation — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 2729편 -->
+- [x] magnesium supplementation — Protein Deficiency에 듣는다  <!-- 시험 5건 · 논문 160편 -->
+- [x] iron supplementation — Anemia에 듣는다  <!-- 시험 63건 · 논문 5890편 -->
+- [x] iron supplementation — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 322편 -->
+- [x] iron supplementation — Weight Loss에 듣는다  <!-- 시험 12건 · 논문 270편 -->
+- [x] iron supplementation — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 2729편 -->
 - [ ] selenium — Cancer에 듣는다  <!-- 시험 23건 · 논문 7554편 -->
-- [ ] selenium — Sepsis에 듣는다  <!-- 시험 4건 · 논문 231편 -->
+- [x] selenium — Sepsis에 듣는다  <!-- 시험 4건 · 논문 231편 -->
 - [ ] selenium — Breast Neoplasms에 듣는다  <!-- 시험 4건 · 논문 590편 -->
 - [ ] selenium — HIV에 듣는다  <!-- 시험 4건 · 논문 340편 -->
 - [x] omega-3 fatty acids — Cancer에 듣는다  <!-- 시험 41건 · 논문 4502편 -->
