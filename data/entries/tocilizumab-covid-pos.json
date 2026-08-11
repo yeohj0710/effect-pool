@@ -1,0 +1,30 @@
+{
+  "id": "tocilizumab-covid-pos",
+  "subj": "토실리주맙",
+  "claim": "토실리주맙이 저산소증·전신염증을 동반한 입원 코로나19의 사망을 줄인다",
+  "line": "저산소증과 전신염증이 있는 입원 코로나19에서 토실리주맙은 표준치료보다 28일 사망률이 낮았습니다.",
+  "effect": "28일 사망 31% 대 35%",
+  "vs": "RECOVERY 4,116명에서 28일 사망은 토실리주맙 621/2,022명(31%) 대 표준치료 729/2,094명(35%), RR 0.85였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 4116,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "산소가 필요하고 염증이 높은 입원 코로나19 치료가 허가 적응증입니다.",
+  "why": "저산소증과 CRP 75mg/L 이상 전신염증을 가진 입원 코로나19 성인 4,116명을 토실리주맙+표준치료 또는 표준치료에 무작위 배정한 RECOVERY 시험입니다.",
+  "saw": "28일 사망은 토실리주맙 31%, 표준치료 35%였고, 퇴원도 57% 대 50%로 많았습니다. 기계환기를 받지 않던 환자의 기계환기 또는 사망 복합 결과도 35% 대 42%였습니다.",
+  "limit": "저산소증·전신염증을 보인 입원 환자와 당시 표준치료, 대부분 전신 스테로이드 병용의 결과입니다. 외래 코로나19나 염증이 낮은 환자에게 같은 효과를 적용할 수 없습니다.",
+  "against": "COVACTA 이중눈가림시험에서는 28일 사망이 토실리주맙 19.7% 대 위약 19.4%로 유의한 차이가 없어 모든 중증도에서 효과가 일관되지는 않았습니다.",
+  "use": "저산소증과 전신염증을 동반한 입원 코로나19에서 스테로이드 보조 치료의 사망 감소 근거로 사용하되, 감염과 간·혈액검사를 확인합니다.",
+  "refs": [
+    { "label": "2021 · Lancet · RECOVERY 입원 코로나19 토실리주맙 시험", "pmid": "33933206", "nct": "NCT04381936" },
+    { "label": "2021 · NEJM · COVACTA 토실리주맙 대 위약 시험", "pmid": "33631066", "nct": "NCT04320615" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=tocilizumab AND query.cond=COVID-19 → 86건 반환; NCT04381936에서 tocilizumab·usual care 중재명 확인",
+    "pubmed": "tocilizumab AND COVID-19 → 2,438건",
+    "negative": "tocilizumab AND COVID-19 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,254건",
+    "safety": "tocilizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,911건"
+  }
+}

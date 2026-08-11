@@ -1,0 +1,30 @@
+{
+  "id": "rituximab-leukemia-pos",
+  "subj": "리툭시맙",
+  "claim": "리툭시맙이 만성 림프구성 백혈병의 치료 반응을 높인다",
+  "line": "만성 림프구성 백혈병에서 리툭시맙 병용은 FC 단독보다 반응률이 높았습니다.",
+  "effect": "ORR 95% 대 88%",
+  "vs": "CLL8 817명에서 리툭시맙 포함 FCR의 전체 반응률은 95.1% 대 FC 88.4%, 완전관해는 44.1% 대 21.8%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 817,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "CD20 양성 만성 림프구성 백혈병에서 플루다라빈·시클로포스파미드 병용 치료가 허가 적응증입니다.",
+  "why": "치료가 필요한 CD20 양성 만성 림프구성 백혈병 환자 817명을 리툭시맙·플루다라빈·시클로포스파미드(FCR) 또는 플루다라빈·시클로포스파미드(FC)에 무작위 배정한 CLL8 3상시험입니다.",
+  "saw": "FCR은 FC보다 전체 반응률과 완전관해율이 높았고, 6년 전체생존도 69% 대 62%였습니다. FCR에서 3·4등급 혈액학적 독성이 더 흔했습니다.",
+  "limit": "신체 상태가 좋은 치료 경험이 없는 CLL 환자와 복합 화학면역요법의 결과입니다. 고령·고위험 유전형과 단독 리툭시맙 효과로 확대할 수 없습니다.",
+  "against": "FCR은 FC보다 중증 혈액학적 독성이 많았고, 현재 표적치료가 가능한 환자에게 같은 치료 순서를 적용할 수 없습니다.",
+  "use": "치료가 필요한 적합한 CLL에서 리툭시맙 병용의 반응·생존 근거로 사용하되, 혈액독성과 감염 위험을 함께 평가합니다.",
+  "refs": [
+    { "label": "2010 · Lancet · CLL8 FCR 대 FC 무작위 3상시험", "pmid": "20888994" },
+    { "label": "2016 · CLL 리툭시맙 병용 근거 검토", "nct": "NCT00275054" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=rituximab AND query.cond=leukemia → 520건 반환; CLL·rituximab 중재 시험을 대조",
+    "pubmed": "rituximab AND leukemia → 3,574건",
+    "negative": "rituximab AND leukemia AND (no effect OR did not OR failed OR negative OR no significant difference) → 2,153건",
+    "safety": "rituximab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 20,711건"
+  }
+}

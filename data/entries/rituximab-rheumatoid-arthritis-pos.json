@@ -1,0 +1,29 @@
+{
+  "id": "rituximab-rheumatoid-arthritis-pos",
+  "subj": "리툭시맙",
+  "claim": "리툭시맙이 TNF 억제제에 반응하지 않는 류마티스관절염의 임상 반응을 높인다",
+  "line": "TNF 억제제 실패 류마티스관절염에서 리툭시맙은 위약보다 ACR20 반응이 높았습니다.",
+  "effect": "ACR20 51% 대 18%",
+  "vs": "REFLEX 520명에서 24주 ACR20은 리툭시맙+메토트렉세이트 51% 대 위약+메토트렉세이트 18%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 520,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "TNF 억제제에 반응이 부족한 중등도·중증 류마티스관절염 치료가 허가 적응증입니다.",
+  "why": "하나 이상의 TNF 억제제에 반응이 부족한 활동성 류마티스관절염 환자 520명을 리툭시맙 또는 위약에 메토트렉세이트와 함께 무작위 배정한 REFLEX 3상시험입니다.",
+  "saw": "24주 ACR20·ACR50·ACR70은 리툭시맙군 51%·27%·12%, 위약군 18%·5%·1%였습니다. 대부분의 이상반응은 첫 주입 때 경증·중등도로 나타났습니다.",
+  "limit": "TNF 억제제 실패 환자와 24주 결과에 초점을 맞췄습니다. 다른 생물학적 제제 경험, 장기 감염, 저감마글로불린혈증에 같은 효과를 적용할 수 없습니다.",
+  "against": "중대한 감염 발생률은 리툭시맙 5.2 대 위약 3.7/100인년으로 보고됐고, 주입 관련 반응과 면역글로불린 감소를 감시해야 합니다.",
+  "use": "TNF 억제제 실패 류마티스관절염의 단기 ACR 반응 근거로 사용하되, 주입 반응·감염·면역글로불린을 확인합니다.",
+  "refs": [
+    { "label": "2006 · Arthritis Rheum · REFLEX 리툭시맙 류마티스관절염 3상시험", "pmid": "16947627" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=rituximab AND query.cond=rheumatoid arthritis → 126건 반환; REFLEX 계열에서 rituximab·placebo 중재명 확인",
+    "pubmed": "rituximab AND rheumatoid arthritis → 2,774건",
+    "negative": "rituximab AND rheumatoid arthritis AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,741건",
+    "safety": "rituximab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 20,711건"
+  }
+}

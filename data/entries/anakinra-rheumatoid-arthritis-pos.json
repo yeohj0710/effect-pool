@@ -1,0 +1,30 @@
+{
+  "id": "anakinra-rheumatoid-arthritis-pos",
+  "subj": "아나킨라",
+  "claim": "아나킨라가 류마티스관절염의 임상 반응을 높인다",
+  "line": "류마티스관절염에서 아나킨라는 메토트렉세이트 단독보다 ACR20 반응이 높았습니다.",
+  "effect": "ACR20 46% 대 19%",
+  "vs": "류마티스관절염 419명 무작위시험에서 아나킨라 1.0mg/kg+메토트렉세이트 ACR20은 위약+메토트렉세이트보다 높아 46% 대 19%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 419,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "류마티스관절염 치료가 허가 적응증입니다.",
+  "why": "메토트렉세이트를 복용 중인 활동성 류마티스관절염 환자 419명을 아나킨라 용량군과 위약군으로 무작위 배정한 24주 이중눈가림시험입니다.",
+  "saw": "12주 ACR20 반응은 아나킨라 1.0mg/kg 46%, 2.0mg/kg 38%, 위약 19%였고 24주에도 결과가 유지됐습니다. 주사부위 반응이 가장 흔한 이상반응이었습니다.",
+  "limit": "메토트렉세이트 병용시험이며, 생물학적 제제에 대한 장기 비교와 중증 감염 위험을 충분히 평가한 연구는 아닙니다.",
+  "against": "대규모 안전성 연구에서 중대한 감염은 아나킨라 2.1% 대 위약 0.4%로 더 많았고, 주사부위 반응으로 중단한 환자도 있었습니다.",
+  "use": "메토트렉세이트에 반응이 부족한 류마티스관절염의 단기 ACR20 근거로 사용하되, 감염과 주사부위 반응을 함께 확인합니다.",
+  "refs": [
+    { "label": "2002 · Arthritis Rheum · 아나킨라+메토트렉세이트 류마티스관절염 무작위시험", "pmid": "11920396" },
+    { "label": "2003 · Arthritis Rheum · 아나킨라 대 위약 대규모 안전성시험", "pmid": "12687534" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=anakinra AND query.cond=rheumatoid arthritis → 20건 반환; 아나킨라 중재명과 류마티스관절염 조건을 대조",
+    "pubmed": "anakinra AND rheumatoid arthritis → 885건",
+    "negative": "anakinra AND rheumatoid arthritis AND (no effect OR did not OR failed OR negative OR no significant difference) → 559건",
+    "safety": "anakinra AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,345건"
+  }
+}

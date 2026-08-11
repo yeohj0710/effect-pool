@@ -1987,25 +1987,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] empagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 89건 -->
+- [x] empagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 89건 --> — 기존 항목(empagliflozin-heart-failure-pos)
 - [x] empagliflozin — Kidney Stone에 듣는다 — 신규 항목(empagliflozin-kidney-stone-open)  <!-- 등록 시험 57건 -->
 - [x] empagliflozin — Fatty Liver에 듣는다 — 신규 항목(empagliflozin-fatty-liver-open)  <!-- 등록 시험 25건 -->
 - [x] empagliflozin — Hypertension에 듣는다 — 신규 항목(empagliflozin-hypertension-open)  <!-- 등록 시험 16건 -->
 - [x] tofacitinib — Alopecia Areata에 듣는다 — 신규 항목(tofacitinib-alopecia-areata-open)  <!-- 등록 시험 23건 -->
-- [ ] tofacitinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 -->
+- [x] tofacitinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 --> — 기존 항목(tofacitinib-ulcerative-colitis-pos)
 - [x] tofacitinib — Psoriasis에 듣는다 — 신규 항목(tofacitinib-psoriasis-open)  <!-- 등록 시험 10건 -->
 - [x] tofacitinib — Cutaneous Lupus에 듣는다 — 신규 항목(tofacitinib-cutaneous-lupus-open)  <!-- 등록 시험 8건 -->
 - [x] anakinra — COVID-19에 듣는다 — 신규 항목(anakinra-covid-19-null)  <!-- 등록 시험 14건 -->
-- [ ] anakinra — Rheumatoid Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] anakinra — Rheumatoid Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 기존 항목(anakinra-rheumatoid-arthritis-pos)
 - [x] anakinra — Heart Failure에 듣는다 — 신규 항목(anakinra-heart-failure-null)  <!-- 등록 시험 12건 -->
 - [x] anakinra — Type 1 Diabetes에 듣는다 — 신규 항목(anakinra-type-1-diabetes-null)  <!-- 등록 시험 10건 -->
-- [ ] ustekinumab — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 -->
-- [ ] ustekinumab — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
-- [ ] ustekinumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] ustekinumab — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 --> — 기존 항목(ustekinumab-psoriasis-pos)
+- [x] ustekinumab — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 기존 항목(ustekinumab-colitis-pos)
+- [x] ustekinumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — 기존 항목(ustekinumab-psoriatic-arthritis-pos)
 - [x] ustekinumab — Stricture; Bowel에 듣는다 — 신규 항목(ustekinumab-bowel-stricture-open)  <!-- 등록 시험 15건 -->
-- [ ] rituximab — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 141건 -->
+- [x] rituximab — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 141건 --> — 기존 항목(rituximab-leukemia-pos)
 - [x] rituximab — Multiple Myeloma에 듣는다 — 신규 항목(rituximab-multiple-myeloma-open)  <!-- 등록 시험 28건 -->
-- [ ] rituximab — Rheumatoid Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 -->
+- [x] rituximab — Rheumatoid Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 17건 --> — 기존 항목(rituximab-rheumatoid-arthritis-pos)
 - [x] rituximab — Waldenstrom Macroglobulinemia에 듣는다 — 신규 항목(rituximab-waldenstrom-macroglobulinemia-open)  <!-- 등록 시험 15건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -2023,13 +2023,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] canakinumab — Type 1 Diabetes에 듣는다 — 신규 항목(canakinumab-type-1-diabetes-null)  <!-- 등록 시험 6건 -->
 - [x] tocilizumab — Cancer에 듣는다 — 신규 항목(tocilizumab-cancer-open)  <!-- 등록 시험 61건 -->
 - [x] tocilizumab — Lymphoma에 듣는다 — 신규 항목(tocilizumab-lymphoma-null)  <!-- 등록 시험 46건 -->
-- [ ] tocilizumab — COVID에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] tocilizumab — COVID에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — 기존 항목(tocilizumab-covid-pos)
 - [x] tocilizumab — Takayasu Arteritis에 듣는다 — 신규 항목(tocilizumab-takayasu-arteritis-open)  <!-- 등록 시험 23건 -->
 - [x] sarilumab — Cancer에 듣는다 — 신규 항목(sarilumab-cancer-open)  <!-- 등록 시험 22건 -->
 - [x] sarilumab — COVID에 듣는다 — 신규 항목(sarilumab-covid-null)  <!-- 등록 시험 8건 -->
 - [x] sarilumab — Corona Virus Infection에 듣는다 — 신규 항목(sarilumab-corona-virus-infection-null)  <!-- 등록 시험 3건 -->
 - [x] sarilumab — SARS에 듣는다 — 신규 항목(sarilumab-sars-null)  <!-- 등록 시험 3건 -->
-- [ ] liraglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 107건 -->
+- [x] liraglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 107건 --> — 기존 항목(liraglutide-obesity-pos)
 - [x] liraglutide — Metabolism Disorder, Lipid에 듣는다 — 신규 항목(liraglutide-metabolism-disorder-lipid-open)  <!-- 등록 시험 20건 -->
 - [ ] liraglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
 - [ ] liraglutide — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
