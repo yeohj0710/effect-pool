@@ -20451,3 +20451,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] care robot — Gait, Hemiplegic에 듣는다  <!-- 시험 4건 · 논문 81편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Gait, Hemiplegic")
 - [x] care robot — Urinary Infections에 듣는다  <!-- 시험 3건 · 논문 126편 --> — 근거 없음(2026-08-11 조회, "care robot" AND "Urinary Infections")
 - [x] rest breaks — Work Related Stress에 듣는다  <!-- 시험 4건 · 논문 111편 --> — 근거 없음(2026-08-11 조회, "rest breaks" AND "Work Related Stress")
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] conversational agent — Cancer에 듣는다  <!-- 시험 3건 · 논문 239편 --> — 항암 주제 제외(2026-08-11)
+- [x] virtual patient — Anxiety에 듣는다  <!-- 시험 64건 · 논문 2567편 -->
+- [x] virtual patient — Cancer에 듣는다  <!-- 시험 39건 · 논문 8498편 --> — 항암 주제 제외(2026-08-11)
+- [x] virtual patient — Stroke에 듣는다  <!-- 시험 34건 · 논문 2168편 -->
+- [x] virtual patient — Cognitive Change에 듣는다  <!-- 시험 14건 · 논문 627편 --> — 근거 없음(2026-08-11 조회, "virtual patient" AND "Cognitive Change")
+- [x] robotic pet — Lung Diseases에 듣는다  <!-- 시험 5건 · 논문 28편 --> — 근거 없음(2026-08-11 조회, "robotic pet" AND "Lung Diseases")
+- [x] robotic pet — Pain에 듣는다  <!-- 시험 3건 · 논문 35편 -->
+- [x] smartphone coaching — Depressive Symptoms에 듣는다  <!-- 시험 4건 · 논문 71편 --> — 근거 없음(2026-08-11 조회, "smartphone coaching" AND "Depressive Symptoms")
+- [x] artificial pancreas — IPMN, Pancreatic에 듣는다  <!-- 시험 12건 · 논문 29편 --> — 항암 주제 제외(2026-08-11)
+- [x] wearable sleep monitor — Sleep에 듣는다  <!-- 시험 4건 · 논문 1921편 -->
+- [x] wearable sleep monitor — Cancer에 듣는다  <!-- 시험 3건 · 논문 93편 --> — 항암 주제 제외(2026-08-11)
+- [x] wearable sleep monitor — Coronary Heart Disease에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(2026-08-11 조회, "wearable sleep monitor" AND "Coronary Heart Disease")
+- [x] home monitoring — Hypertension에 듣는다  <!-- 시험 26건 · 논문 4288편 -->
+- [x] home monitoring — Heart Block에 듣는다  <!-- 시험 10건 · 논문 91편 -->
+- [x] home monitoring — Sleep Apnea에 듣는다  <!-- 시험 10건 · 논문 1242편 -->
+- [x] home monitoring — Cancer에 듣는다  <!-- 시험 9건 · 논문 1979편 --> — 항암 주제 제외(2026-08-11)
+- [x] virtual reality headset — Anxiety에 듣는다  <!-- 시험 149건 · 논문 194편 -->
+- [x] virtual reality headset — Cancer에 듣는다  <!-- 시험 32건 · 논문 69편 --> — 항암 주제 제외(2026-08-11)
+- [x] virtual reality headset — Stress에 듣는다  <!-- 시험 21건 · 논문 74편 -->
+- [x] virtual reality headset — Education에 듣는다  <!-- 시험 18건 · 논문 364편 -->

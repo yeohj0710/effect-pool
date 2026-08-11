@@ -1,0 +1,28 @@
+{
+  "id": "home-monitoring-sleep-apnea-pos",
+  "subj": "home monitoring",
+  "claim": "매트리스 센서가 CPAP 사용 중 수면과 호흡 사건을 함께 측정한다",
+  "line": "매트리스 센서는 CPAP보다 수면시간을 길게, 무호흡지수를 높게 기록했습니다",
+  "effect": "AHI 11.3 대 2.0회/시간",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 75,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가정용 수면 모니터링은 수면무호흡증 치료의 허가 적응증이 아닌 측정 중재입니다",
+  "why": "폐쇄성 수면무호흡증 환자 75명이 가정용 매트리스 센서와 CPAP 자료를 비교한 관찰 연구입니다",
+  "saw": "75명이 480일 밤 동안 Withings Sleep Analyzer와 CPAP를 함께 사용했습니다. 센서는 CPAP 사용 시간보다 총 수면시간을 길게 기록했고 잔여 무호흡지수보다 높은 무호흡지수를 기록했습니다",
+  "limit": "치료 효과가 아니라 센서와 CPAP 측정값의 차이를 본 연구입니다. 동시 수면다원검사 비교는 14명뿐입니다",
+  "against": "동시 수면다원검사 14명에서는 센서의 무호흡지수가 수면다원검사와 가까웠습니다",
+  "use": "가정 모니터링에서 기기별 수면시간과 무호흡지수의 정의 차이를 기록합니다",
+  "refs": [
+    { "label": "Comparison of under-mattress sensor and CPAP data for home monitoring in obstructive sleep apnea · 관찰 연구", "pmid": "42329516" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"home monitoring\" AND \"Sleep Apnea\" → 18건",
+    "pubmed": "\"home monitoring\" AND \"Sleep Apnea\" → 184건, PMID 42329516 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 63건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 7건"
+  }
+}

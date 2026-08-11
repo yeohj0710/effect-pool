@@ -1,0 +1,28 @@
+{
+  "id": "virtual-patient-stroke-pos",
+  "subj": "virtual patient",
+  "claim": "가상 환자 시뮬레이션이 간호학생의 급성 뇌졸중 관리 점수를 높인다",
+  "line": "가상 환자 시뮬레이션이 간호학생의 급성 뇌졸중 관리 점수를 높였습니다",
+  "effect": "ASMaQ p=.020; ASM p=.003",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 64,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가상 환자 시뮬레이션은 뇌졸중 교육의 비약물 중재이며 치료 적응증이 아닙니다",
+  "why": "간호학생 64명을 가상 환자 시뮬레이션과 사례 기반 학습에 배정해 급성 뇌졸중 관리 능력을 비교한 사람 시험입니다",
+  "saw": "학생 64명을 두 군에 나눠 사전·사후·추적 평가를 했습니다. 두 방법 모두 이론 지식을 높였고 가상 환자군은 급성 뇌졸중 관리 질문지 ASMaQ 총점과 ASM 하위점수가 더 크게 올랐습니다",
+  "limit": "비교 대상이 사례 기반 학습이고 학생 대상 연구라서 실제 뇌졸중 환자의 치료 결과를 보여주지 않습니다",
+  "against": "전체 지식 점수의 군 간 차이는 없었고 시간×군 상호작용도 유의하지 않았습니다",
+  "use": "가상 환자 교육에서 지식 점수와 실제 관리 절차 점수를 구분해 기록합니다",
+  "refs": [
+    { "label": "Nursing Students' Knowledge, Management Skills, and Recognition of Acute Stroke Symptoms · 준실험 연구", "pmid": "42367004" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"virtual patient\" AND \"Stroke\" → 6건",
+    "pubmed": "\"virtual patient\" AND \"Stroke\" → 25건, PMID 42367004 직접 결과",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 15건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 3건"
+  }
+}
