@@ -1,0 +1,32 @@
+{
+  "id": "venlafaxine-depressive-episode-pos",
+  "subj": "벤라팍신",
+  "claim": "벤라팍신이 주요우울장애의 관해를 돕는다",
+  "line": "벤라팍신은 주요우울장애에서 위약보다 관해율이 높았습니다.",
+  "effect": "관해 45% 대 위약 25%",
+  "vs": "주요우울장애 8개 이중눈가림 무작위시험 2,045명에서 관해는 벤라팍신군 382/851명(45%) 대 위약군 110/446명(25%)으로 위약군보다 높았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2045,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "주요우울장애 치료가 허가 적응증입니다.",
+  "why": "주요우울장애 환자를 대상으로 벤라팍신과 선택적 세로토닌 재흡수 억제제 또는 위약을 비교한 무작위시험 자료를 합친 메타분석입니다.",
+  "saw": "8개 이중눈가림 무작위시험 2,045명에서 벤라팍신군 관해율은 45%, 위약군은 25%였습니다. 벤라팍신과 선택적 세로토닌 재흡수 억제제의 비교도 포함되어 있어 위약 비교만으로 전체 결과를 해석하면 안 됩니다.",
+  "limit": "위약 비교는 4개 시험에 포함됐고, 대부분 단기 치료 결과입니다. 장기 재발 예방과 치료저항성 우울증에 같은 크기의 효과를 적용할 수 없습니다.",
+  "against": "성인 주요우울장애 무작위시험 메타분석에서 벤라팍신은 위약보다 중대한 이상반응 위험이 높았습니다(RR 2.66, 95% CI 1.67~4.25).",
+  "use": "주요우울장애의 단기 관해 비교근거로 사용하고, 이상반응과 장기 효과의 불확실성을 함께 표시합니다.",
+  "refs": [
+    { "label": "2001 · Br J Psychiatry · 벤라팍신·SSRI·위약의 우울증 관해율 메타분석", "pmid": "11230034" },
+    { "label": "2009 · Pharmacopsychiatry · 주요우울장애에서 벤라팍신 비교 메타분석", "pmid": "19165525" },
+    { "label": "2024 · 벤라팍신 주요우울장애 무작위시험 이상반응 메타분석", "pmid": "39440379" },
+    { "label": "ClinicalTrials.gov · 폐경 후 여성 주요우울장애의 벤라팍신 대 플루옥세틴 시험", "nct": "NCT01824433" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=venlafaxine AND query.cond=Depressive Disorder → 177건 반환; NCT01824433에서 venlafaxine 중재명 확인",
+    "pubmed": "venlafaxine AND Depressive Disorder → 1,865건",
+    "negative": "venlafaxine AND Depressive Disorder AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,442건",
+    "safety": "venlafaxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,678건"
+  }
+}

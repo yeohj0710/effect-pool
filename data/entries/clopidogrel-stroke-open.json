@@ -1,0 +1,31 @@
+{
+  "id": "clopidogrel-stroke-open",
+  "subj": "클로피도그렐",
+  "claim": "클로피도그렐이 허혈성 뇌졸중 뒤 혈관 사건을 줄인다",
+  "line": "CAPRIE 뇌졸중 하위군에서 클로피도그렐의 이득은 통계적으로 확정되지 않았습니다.",
+  "effect": "복합 사건 RRR 7.3%·95% CI −5.7~18.7",
+  "vs": "CAPRIE 최근 허혈성 뇌졸중 하위군의 복합 사건은 클로피도그렐 433/6,054 person-years, 아스피린 461/5,979 person-years였고 RRR은 7.3%(95% CI −5.7~18.7)였습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 19185,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "최근 뇌졸중 환자의 혈전성 사건 예방이 허가 적응증입니다.",
+  "why": "CAPRIE는 최근 허혈성 뇌졸중, 심근경색 또는 말초동맥질환 환자에서 클로피도그렐과 아스피린을 무작위 비교했습니다.",
+  "saw": "전체 19,185명에서 허혈성 뇌졸중·심근경색·혈관성 사망 복합 결과의 연간 위험은 클로피도그렐 5.32%, 아스피린 5.83%였지만, 최근 허혈성 뇌졸중 하위군의 차이는 통계적으로 유의하지 않았습니다.",
+  "limit": "뇌졸중 하위군 결과는 복합 혈관 사건이고, person-years 분모를 사용했습니다. 급성 뇌졸중 치료나 모든 뇌졸중 유형에 일반화할 수 없습니다.",
+  "against": "뇌졸중 하위군의 95% 신뢰구간이 효과 없음과 해로움을 모두 포함해 아스피린보다 우월하다고 확정할 수 없습니다.",
+  "use": "최근 허혈성 뇌졸중 뒤 2차 예방에서 클로피도그렐과 아스피린의 비교근거로 사용하되 하위군 불확실성을 남깁니다.",
+  "refs": [
+    { "label": "1996 · Lancet · CAPRIE 클로피도그렐 대 아스피린 무작위시험", "pmid": "8918275" },
+    { "label": "2000 · JAMA · 뇌졸중·심근경색·말초동맥질환 하위군 결과표", "pmid": "10625025" },
+    { "label": "ClinicalTrials.gov · PRoFESS 뇌졸중 2차 예방시험", "nct": "NCT00153062" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=clopidogrel AND query.cond=Stroke → 228건 반환; NCT00153062 등에서 clopidogrel 중재명 확인",
+    "pubmed": "clopidogrel AND Stroke → 4,609건",
+    "negative": "clopidogrel AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) → 3,267건",
+    "safety": "clopidogrel AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9,415건"
+  }
+}

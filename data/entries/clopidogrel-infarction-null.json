@@ -1,0 +1,31 @@
+{
+  "id": "clopidogrel-infarction-null",
+  "subj": "클로피도그렐",
+  "claim": "클로피도그렐이 최근 심근경색 뒤 혈관 사건을 줄인다",
+  "line": "CAPRIE 심근경색 하위군에서 클로피도그렐은 아스피린보다 복합 사건을 줄이지 못했습니다.",
+  "effect": "복합 사건 RRR −3.7%·95% CI −22.1~12.0",
+  "vs": "CAPRIE 최근 심근경색 하위군의 복합 사건은 클로피도그렐 291/5,787 person-years, 아스피린 283/5,843 person-years였고 RRR은 −3.7%(95% CI −22.1~12.0)였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 19185,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "최근 심근경색 환자의 혈전성 사건 예방이 허가 적응증입니다.",
+  "why": "CAPRIE는 최근 심근경색 환자를 포함한 죽상경화성 혈관질환 환자에서 클로피도그렐과 아스피린을 무작위 비교했습니다.",
+  "saw": "전체 19,185명 CAPRIE에서 복합 혈관 사건은 클로피도그렐 5.32%, 아스피린 5.83%였지만 최근 심근경색 하위군에서는 클로피도그렐의 사건률이 더 낮지 않았습니다.",
+  "limit": "심근경색 하위군 결과는 허혈성 뇌졸중·심근경색·혈관성 사망 복합 결과이며 person-years 분모를 사용했습니다. 급성 심근경색의 재관류 치료 효과를 평가한 시험이 아닙니다.",
+  "against": "심근경색 하위군의 RRR은 음수였고 95% 신뢰구간이 넓어 클로피도그렐의 우월성을 지지하지 않습니다.",
+  "use": "최근 심근경색 뒤 장기 혈관 사건 예방에서 아스피린과 비교한 하위군 결과로 사용하며 급성기 치료효과로 확대하지 않습니다.",
+  "refs": [
+    { "label": "1996 · Lancet · CAPRIE 클로피도그렐 대 아스피린 무작위시험", "pmid": "8918275" },
+    { "label": "2000 · JAMA · 뇌졸중·심근경색·말초동맥질환 하위군 결과표", "pmid": "10625025" },
+    { "label": "ClinicalTrials.gov · 급성관상동맥증후군의 클로피도그렐 비교시험", "nct": "NCT00335452" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=clopidogrel AND query.cond=Myocardial Infarction → 181건 반환; NCT00335452 등에서 clopidogrel 중재명 확인",
+    "pubmed": "clopidogrel AND Myocardial Infarction → 5,337건",
+    "negative": "clopidogrel AND Myocardial Infarction AND (no effect OR did not OR failed OR negative OR no significant difference) → 3,756건",
+    "safety": "clopidogrel AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9,415건"
+  }
+}

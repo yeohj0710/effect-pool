@@ -1,0 +1,31 @@
+{
+  "id": "venlafaxine-anxiety-pos",
+  "subj": "벤라팍신",
+  "claim": "벤라팍신이 범불안장애 증상을 줄인다",
+  "line": "벤라팍신 서방형은 범불안장애에서 위약보다 불안 증상을 줄였습니다.",
+  "effect": "HAM-A MD 3.31·반응 OR 1.83",
+  "vs": "범불안장애 14개 단기 무작위시험 3,622명에서 벤라팍신 서방형은 위약보다 HAM-A 개선 MD 3.31(95% CI 1.44~5.18), 반응 OR 1.83(1.58~2.12)을 보였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 3622,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "범불안장애 치료가 허가 적응증입니다.",
+  "why": "우울증이 동반되지 않은 성인 범불안장애에서 벤라팍신 서방형과 위약을 비교한 단기 이중눈가림 무작위시험을 합친 메타분석입니다.",
+  "saw": "14개 시험 3,622명에서 벤라팍신 서방형군은 위약군보다 HAM-A 점수와 반응률이 개선됐고, 관해 OR도 2.55(95% CI 1.36~4.78)였습니다.",
+  "limit": "시험 기간은 6~10주였고 용량과 시험별 위험도가 달랐습니다. 소아, 우울증 동반 환자, 장기 재발 예방으로 일반화할 수 없습니다.",
+  "against": "이상반응으로 치료를 중단한 비율은 벤라팍신 서방형에서 위약보다 높았습니다(OR 2.80, 95% CI 2.21~3.54).",
+  "use": "성인 범불안장애의 단기 약물치료 비교근거로 사용하며 이상반응과 장기 효과를 따로 설명합니다.",
+  "refs": [
+    { "label": "2017 · PLOS One · 우울증 없는 성인 범불안장애의 벤라팍신 서방형 메타분석", "pmid": "28982121", "pmc": "PMC5628888" },
+    { "label": "2000 · Arch Gen Psychiatry · 범불안장애 벤라팍신 서방형 위약대조시험", "pmid": "10831478" },
+    { "label": "ClinicalTrials.gov · 범불안장애의 프레가발린·벤라팍신·위약 비교시험", "nct": "NCT00151450" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=venlafaxine AND query.cond=Anxiety → 33건 반환; NCT00151450에서 venlafaxine XR 중재명 확인",
+    "pubmed": "venlafaxine AND Anxiety → 881건",
+    "negative": "venlafaxine AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 709건",
+    "safety": "venlafaxine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,678건"
+  }
+}

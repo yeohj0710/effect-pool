@@ -1674,14 +1674,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
 - [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 기존 항목(tamoxifen-ductal-carcinoma-pos)
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 기존 항목(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — 기존 항목(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — 기존 항목(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -1704,19 +1704,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] venlafaxine — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 58건 -->
+- [x] venlafaxine — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 58건 --> — 새 항목(venlafaxine-depressive-episode-pos)
 - [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] venlafaxine — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] venlafaxine — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — 새 항목(venlafaxine-anxiety-pos)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] clopidogrel — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
-- [ ] clopidogrel — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 58건 -->
+- [x] clopidogrel — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — 새 항목(clopidogrel-stroke-open)
+- [x] clopidogrel — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 58건 --> — 새 항목(clopidogrel-infarction-null)
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 24건 -->
 - [x] clopidogrel — Stenosis에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] valsartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 109건 -->
+- [x] valsartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 109건 --> — 새 항목(valsartan-heart-failure-pos)
 - [x] valsartan — Diabetes에 듣는다 — 조사 완료(2026-08-04)  <!-- 등록 시험 25건 -->
 - [x] valsartan — Nephropathy에 듣는다  <!-- 등록 시험 15건 -->
 - [x] valsartan — Kidney Disease에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] rosuvastatin — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 72건 -->
+- [x] rosuvastatin — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 72건 --> — 새 항목(rosuvastatin-hypercholesterolemia-pos)
 - [x] rosuvastatin — Diabetes에 듣는다  <!-- 등록 시험 41건 -->
 - [ ] rosuvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
 - [x] rosuvastatin — Hypertension에 듣는다  <!-- 등록 시험 30건 -->

@@ -1,0 +1,31 @@
+{
+  "id": "rosuvastatin-hypercholesterolemia-pos",
+  "subj": "로수바스타틴",
+  "claim": "로수바스타틴이 고콜레스테롤혈증의 LDL 콜레스테롤을 낮춘다",
+  "line": "고콜레스테롤혈증에서 로수바스타틴은 다른 스타틴보다 LDL을 더 낮췄습니다.",
+  "effect": "LDL 46~55% 감소",
+  "vs": "STELLAR 2,431명 고콜레스테롤혈증 무작위시험에서 로수바스타틴 10~40mg은 LDL 콜레스테롤을 46~55% 낮춰 아토르바스타틴 10~80mg의 37~51%보다 컸습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2431,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "고콜레스테롤혈증 치료가 허가 적응증입니다.",
+  "why": "STELLAR는 LDL 콜레스테롤이 높은 성인을 대상으로 로수바스타틴과 아토르바스타틴·심바스타틴·프라바스타틴을 용량별 무작위 비교했습니다.",
+  "saw": "2,431명에서 로수바스타틴 10~40mg의 LDL 감소율은 46~55%였고, 비교 스타틴보다 용량별 LDL 감소가 컸습니다.",
+  "limit": "6주 지질 대리결과를 비교한 시험이며 심혈관 사건이나 사망을 평가하지 않았습니다. 80mg 용량은 현재 일반적인 사용량과 다를 수 있습니다.",
+  "against": "활성 대조군 비교이고 장기 심혈관 결과를 보여주지 않아 LDL 감소를 곧바로 심혈관 사건 감소로 해석할 수 없습니다.",
+  "use": "고콜레스테롤혈증에서 용량별 LDL 저하 비교근거로 사용하고 장기 임상 결과와 구분합니다.",
+  "refs": [
+    { "label": "2003 · Am J Cardiol · STELLAR 로수바스타틴·다른 스타틴 용량 비교시험", "pmid": "12860216" },
+    { "label": "2001 · Am J Cardiol · 고콜레스테롤혈증 로수바스타틴 용량반응·위약 비교", "pmid": "11524058" },
+    { "label": "ClinicalTrials.gov · 고위험 고콜레스테롤혈증의 로수바스타틴 대 아토르바스타틴 시험", "nct": "NCT00683618" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=rosuvastatin AND query.cond=Hypercholesterolemia → 150건 반환; NCT00683618에서 rosuvastatin 중재명 확인",
+    "pubmed": "rosuvastatin AND Hypercholesterolemia → 783건",
+    "negative": "rosuvastatin AND Hypercholesterolemia AND (no effect OR did not OR failed OR negative OR no significant difference) → 639건",
+    "safety": "rosuvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,913건"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rosuvastatin-dyslipidemia-pos",
+  "subj": "로수바스타틴",
+  "claim": "로수바스타틴이 이상지질혈증의 LDL 콜레스테롤을 낮춘다",
+  "line": "이상지질혈증에서 로수바스타틴은 아토르바스타틴보다 LDL 목표 도달률이 높았습니다.",
+  "effect": "LDL 목표 80% 대 59%",
+  "vs": "이상지질혈증·대사증후군 무작위시험 318명에서 12주 LDL 100mg/dL 미만 도달률은 로수바스타틴 80%로 아토르바스타틴보다 높았습니다(59%)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 318,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "이상지질혈증 치료가 허가 적응증입니다.",
+  "why": "대사증후군을 동반한 이상지질혈증 환자에서 로수바스타틴, 아토르바스타틴, 위약을 비교한 이중눈가림 무작위시험입니다.",
+  "saw": "318명에서 6주·12주 지질 지표를 비교했고, 12주 LDL 콜레스테롤 100mg/dL 미만 도달률은 로수바스타틴 80%, 아토르바스타틴 59%였습니다.",
+  "limit": "대사증후군 환자의 단일 12주 시험이며 LDL 대리결과입니다. 심혈관 사건, 사망, 일반 이상지질혈증 전체로 확대할 수 없습니다.",
+  "against": "LDL 입자농도 목표 도달률은 로수바스타틴 27%, 아토르바스타틴 19%로 차이가 유의하지 않았습니다(P=0.07).",
+  "use": "대사증후군을 동반한 이상지질혈증의 단기 지질 지표 비교근거로 사용하며 임상 사건 효과와 구분합니다.",
+  "refs": [
+    { "label": "2009 · Diabetes Care · 대사증후군 이상지질혈증의 로수바스타틴·아토르바스타틴 무작위시험", "pmid": "19265025", "pmc": "PMC2681027" },
+    { "label": "ClinicalTrials.gov · rosuvastatin과 Dyslipidemia 검색 결과의 중재명 대조", "nct": "NCT00654446" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=rosuvastatin AND query.cond=Dyslipidemia → 291건 반환; NCT00654446에서 rosuvastatin 중재명 확인",
+    "pubmed": "rosuvastatin AND Dyslipidemia → 1,341건",
+    "negative": "rosuvastatin AND Dyslipidemia AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,079건",
+    "safety": "rosuvastatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,913건"
+  }
+}
