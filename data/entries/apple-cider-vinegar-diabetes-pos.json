@@ -1,0 +1,31 @@
+{
+  "id": "apple-cider-vinegar-diabetes-pos",
+  "subj": "사과식초",
+  "claim": "제2형 당뇨병의 혈당에 사과식초를 쓴다",
+  "line": "제2형 당뇨병에서 사과식초는 공복혈당과 HbA1c를 낮추는 방향이었습니다.",
+  "effect": "FBG·HbA1c 감소",
+  "vs": "사과식초 9개 연구 10개 arm에서 공복혈당은 -7.97 mg/dL, HbA1c는 -0.50이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "사과식초는 제2형 당뇨병 치료제로 허가된 의약품이 아닌 식품입니다.",
+  "why": "사과식초만 사용한 무작위 임상시험을 합친 메타분석과 제2형 당뇨병 허브 네트워크 메타분석에서 혈당 결과를 확인했습니다.",
+  "saw": "사과식초 9개 연구 10개 arm 메타분석에서 공복혈당은 7.97 mg/dL, HbA1c는 0.50 낮아졌고 총콜레스테롤도 6.06 mg/dL 낮아졌습니다. LDL, HDL, 인슐린, HOMA-IR은 유의한 변화가 없었습니다.",
+  "limit": "HbA1c 분석의 이질성이 높았고 건강한 참가자 하위군에서는 공복혈당이 오히려 증가했습니다.",
+  "against": "LDL·HDL·인슐린·HOMA-IR은 유의하게 바뀌지 않았고 식품을 당뇨병 약물처럼 사용할 근거는 아닙니다.",
+  "use": "제2형 당뇨병의 식이 연구 신호로 기록하며 혈당강하제와 식사·운동 치료를 대체하지 않습니다.",
+  "refs": [
+    { "label": "Apple cider vinegar on lipid and glycemic parameters: meta-analysis", "doi": "10.1186/s12906-021-03351-w", "pmid": "34187442", "pmc": "PMC8243436" },
+    { "label": "Six herbs for glycemic status: network meta-analysis", "doi": "10.1016/j.dsx.2023.102826", "pmid": "37451111" },
+    { "label": "Apple cider vinegar and body composition: meta-analysis", "doi": "10.3390/nu17183000", "pmid": "41010525", "pmc": "PMC12472926" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "apple cider vinegar AND Diabetes: 7건, intervention 직접 일치 5건(NCT07549373·NCT05802121·NCT03593135·NCT07493707·NCT05759442)",
+    "pubmed": "apple cider vinegar AND Diabetes: 13편; randomized human: 3편",
+    "negative": "apple cider vinegar AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference): 12편",
+    "safety": "apple cider vinegar AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 33편"
+  }
+}
