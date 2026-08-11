@@ -1,0 +1,31 @@
+{
+  "id": "topiramate-epilepsy-pos",
+  "subj": "토피라메이트",
+  "claim": "토피라메이트가 난치성 국소 간질의 발작을 줄인다",
+  "line": "난치성 국소 간질에서 혈중 농도 중간군의 발작 중앙값 감소가 낮은 농도군보다 컸습니다",
+  "effect": "발작 중앙값 -85% vs -39%",
+  "vs": "혈중 농도 중간군 vs 낮은 농도군; 65명 무작위 시험에서 발작 중앙값 감소가 85% 대 39%였습니다(p=.03)",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "간질 발작 조절 허가",
+  "why": "난치성 국소 간질 환자에게 토피라메이트를 보조요법으로 투여한 무작위 시험입니다",
+  "saw": "65명이 세 혈중 농도군으로 무작위 배정됐고, 중간 농도군의 발작 감소 중앙값은 85%, 낮은 농도군은 39%였습니다",
+  "limit": "중간 농도군이 65명 전체 중 일부였고, 고농도군에서는 효능이 더 늘지 않았으며 중추신경계 이상반응이 많았습니다",
+  "against": "간질 무작위 문헌 295건 중 장기 비교시험인 SANAD에서는 발프로산이 토피라메이트보다 치료 실패까지 시간이 길었습니다(HR 1.57)",
+  "use": "처방 중인 간질 치료의 용량·효과를 설명할 때 참고하되, 혈중 농도를 임의로 조절하지 않습니다",
+  "n": 65,
+  "synth": "single",
+  "refs": [
+    { "label": "Ben-Menachem 2003 · Neurology · 난치성 국소 간질 농도 비교시험", "pmid": "14610122" },
+    { "label": "Marson 2007 · Lancet · SANAD 간질 비교시험", "pmid": "17382827" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=topiramate&query.cond=Epilepsy; 총 60건, intervention exact 41건; NCT00230698 등",
+    "pubmed": "topiramate AND Epilepsy 2,326건",
+    "randomized": "topiramate Epilepsy randomized human 295건",
+    "negative": "topiramate AND Epilepsy AND (no effect OR did not OR failed OR negative OR no significant difference) 1,841건",
+    "safety": "topiramate AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 3,420건"
+  }
+}
