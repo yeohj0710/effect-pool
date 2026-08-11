@@ -20753,3 +20753,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] krill oil — Osteoarthritis, Knee에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 생성(krill-oil-osteoarthritis-knee-null, 2026-08-11)
 - [x] beta-alanine — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 1130편 --> — 항목 생성(beta-alanine-muscle-function-null, 2026-08-11)
 - [x] beta-alanine — Dietary Supplement에 듣는다  <!-- 시험 3건 · 논문 569편 --> — 항목 생성(beta-alanine-dietary-supplement-harm, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] MSM — Skin Redness에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 근거 없음(2026-08-11 조회, MSM AND Skin Redness; ClinicalTrials.gov 물질 일치 2건, PubMed 12편 중 MSM 단독 결과 없음)
+- [x] MSM — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 항목 생성(msm-osteoarthritis-pos, 2026-08-11)
+- [x] sage — Caries,Dental에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-11 조회, sage AND Caries,Dental; ClinicalTrials.gov 물질 일치 1건, PubMed 13편 중 직접 결과 없음)
+- [x] soy isoflavone — Osteoporosis에 듣는다  <!-- 시험 11건 · 논문 339편 --> — 기존 항목(soy-isoflavones-osteoporosis-pos)
+- [x] soy isoflavone — Cardiovascular Risk에 듣는다  <!-- 시험 7건 · 논문 279편 --> — 기존 항목(soy-isoflavones-cardiovascular-risk-pos)
+- [x] probiotics — Obesity에 듣는다  <!-- 시험 7건 · 논문 3352편 --> — 항목 생성(probiotics-obesity-pos, 2026-08-11)
+- [x] probiotics — Constipation에 듣는다  <!-- 시험 6건 · 논문 1166편 --> — 항목 생성(probiotics-constipation-pos, 2026-08-11)
+- [x] probiotics — Liver Fibrosis에 듣는다  <!-- 시험 6건 · 논문 694편 --> — 항목 생성(probiotics-liver-fibrosis-null, 2026-08-11)
+- [x] probiotics — Oral Health에 듣는다  <!-- 시험 6건 · 논문 3499편 --> — 항목 생성(probiotics-oral-health-pos, 2026-08-11)
+- [x] laughter — Aging Well에 듣는다  <!-- 시험 16건 · 논문 29편 --> — 항목 생성(laughter-aging-well-pos, 2026-08-11)
+- [x] laughter — Anxiety에 듣는다  <!-- 시험 12건 · 논문 217편 --> — 기존 항목(laughter-intervention-anxiety-pos)
+- [x] laughter — Mental Health에 듣는다  <!-- 시험 11건 · 논문 188편 --> — 기존 항목(laughter-mental-meta-pos)
+- [x] laughter — Burnout에 듣는다  <!-- 시험 8건 · 논문 31편 --> — 기존 항목(laughter-intervention-burnout-pos)
+- [x] intermittent pneumatic compression — Lymphedema에 듣는다  <!-- 시험 7건 · 논문 186편 --> — 허가 적응증(2026-08-11)
+- [x] intermittent pneumatic compression — Arterial Ulcers에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 항목 생성(intermittent-pneumatic-compression-arterial-ulcers-pos, 2026-08-11)
+- [x] intermittent pneumatic compression — Lipedema에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 항목 생성(intermittent-pneumatic-compression-lipedema-null, 2026-08-11)
+- [x] intermittent pneumatic compression — Physical Therapy에 듣는다  <!-- 시험 4건 · 논문 223편 --> — 항목 생성(intermittent-pneumatic-compression-physical-therapy-null, 2026-08-11)
