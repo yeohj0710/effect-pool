@@ -31,10 +31,10 @@
   "dirs": { "pos": 3119, "null": 1052, "open": 1011, "harm": 148 },
   "worklist": {
     "total": 15542,
-    "checked": 12790,
-    "unchecked": 2752,
+    "checked": 12820,
+    "unchecked": 2722,
     "no_evidence_pending": 1997,
-    "note": "batch 1208에서 처방 주제 30개를 처리했다. 새 항목 1개를 만들고 기존 항목 29개를 연결했다. 다음 미처리 줄은 897번 raloxifene — Breast Cancer에 듣는다이며 2,752개가 남았다."
+    "note": "batch 1209에서 처방 주제 30개를 처리했고 모두 기존 항목에 연결했다. 다음 미처리 줄은 1039번 minoxidil — Baldness에 듣는다이며 2,722개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -58,16 +58,17 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1209 starts after batch 1208; pull and read AGENTS.md first. Resume at worklist line 897: raloxifene — Breast Cancer에 듣는다; 2,752 unchecked remain.",
+  "next": "batch 1210 starts after batch 1209; pull and read AGENTS.md first. Resume at worklist line 1039: minoxidil — Baldness에 듣는다; 2,722 unchecked remain.",
   "last_batch": {
-    "id": "1208",
-    "commit": "053a78cb",
+    "id": "1209",
+    "commit": "a5275baf",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 1,
-    "existing_links": 29,
+    "processed_topics": 30,
+    "new_entries": 0,
+    "existing_links": 30,
     "build": "5330 entries · 7612 refs · 4515 trial · 721 obs · 30 animal · 17 lab · 47 case",
-    "research": "ClinicalTrials.gov와 PubMed로 신장이식 라파마이신 주제를 확인했다. 1,645명 무작위시험에서 저용량 시롤리무스의 급성 거부반응은 표준 사이클로스포린보다 낮지 않았고 이식편 생존은 같아 null로 기록했다. 나머지 29개 처방 주제는 기존 항목에 정확히 연결했다.",
+    "research": "랄록시펜·알로푸리놀·오메가3·아스피린·프로프라놀롤·날트렉손·아미트립틸린·토피라메이트·트라조돈·쿠에티아핀·스피로놀락톤·독시사이클린·콜히친·다파글리플로진·세마글루타이드·케타민·프라조신·탈리도마이드·발라시클로버 30개 처방 주제를 기존 근거 항목에 연결했다. 세마글루타이드 과체중은 중복 파일을 만들지 않고 기존 체중감량 항목을 재사용했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
