@@ -1263,22 +1263,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
 - [x] dapagliflozin — Heart Failure에 듣는다 — 기존 항목(dapagliflozin-heart-failure-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 기존 항목(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 204건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] semaglutide — Obesity에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 — 기존 항목(semaglutide-weight-loss-pos)
 - [x] semaglutide — Weight Loss에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
 - [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 기존 항목(ketamine-anesthesia-pos)
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 기존 항목(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-pos)
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
@@ -1292,14 +1292,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 — 기존 항목(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
+- [x] bupropion — Major Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 — 기존 항목(bupropion-tobacco-use-pos)
 - [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
@@ -11597,7 +11597,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] calcium — Gastric Adenocarcinoma에 듣는다  <!-- 시험 10건 · 논문 284편 --> — 근거 없음(2026-08-06 조회, calcium AND Gastric Adenocarcinoma)
 - [x] calcium — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 2550편 --> — 근거 없음(2026-08-06 조회, calcium AND Lymphoma)
 - [x] vitamin b12 — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 230편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND Lung Cancer)
-- [ ] vitamin b12 — Anemia에 듣는다  <!-- 시험 15건 · 논문 7641편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] vitamin b12 — Anemia에 듣는다 — 새 항목(vitamin-b12-anemia-null)
 - [x] vitamin b12 — B-cell Lymphoma에 듣는다  <!-- 시험 11건 · 논문 42편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND B-cell Lymphoma)
 - [x] vitamin b12 — Zinc Deficiency에 듣는다  <!-- 시험 10건 · 논문 815편 --> — 근거 없음(2026-08-06 조회, vitamin b12 AND Zinc Deficiency)
 - [x] vitamin k — Thrombosis에 듣는다  <!-- 시험 13건 · 논문 4695편 --> — 근거 없음(2026-08-06 조회, vitamin k AND Thrombosis)
@@ -11713,7 +11713,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] exercise bike — Heart Rate에 듣는다  <!-- 시험 25건 · 논문 2210편 --> — 항목 생성(2026-08-06)
 - [x] exercise bike — Pulmonary Hypertension에 듣는다  <!-- 시험 21건 · 논문 19편 --> — 항목 생성(2026-08-06)
 - [x] light deprivation — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 --> — 항목 생성(2026-08-06)
-- [ ] ginkgo biloba — Alzheimer’s에 듣는다  <!-- 시험 8건 · 논문 592편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ginkgo biloba — Alzheimer’s에 듣는다 — 기존 항목(ginkgo-biloba-dementia-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -11724,7 +11724,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ginkgo biloba — Alzheimer's에 듣는다  <!-- 시험 8건 · 논문 592편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ginkgo biloba — Alzheimer's에 듣는다 — 기존 항목(ginkgo-biloba-dementia-null)
 - [x] ginkgo biloba — Ischemic Stroke에 듣는다  <!-- 시험 7건 · 논문 119편 --> — 항목 생성(2026-08-06)
 - [x] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] ginkgo biloba — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 137편 --> — 항목 생성(2026-08-06)
@@ -11738,11 +11738,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] citrulline — Aging에 듣는다  <!-- 시험 4건 · 논문 414편 --> — 근거 없음(2026-08-06 조회, "citrulline AND Aging")
 - [x] turmeric — Cognitive Change에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(2026-08-06 조회, "turmeric AND Cognitive Change")
 - [x] turmeric — Inflammation에 듣는다  <!-- 시험 3건 · 논문 1440편 --> — 항목 생성(2026-08-06)
-- [ ] valerian — Sleep에 듣는다  <!-- 시험 5건 · 논문 272편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] valerian — Sleep에 듣는다 — 새 항목(valerian-sleep-pos)
 - [x] lavender — Pain에 듣는다  <!-- 시험 25건 · 논문 358편 --> — 항목 생성(2026-08-06)
 - [x] lavender — Aromatherapy에 듣는다  <!-- 시험 15건 · 논문 567편 --> — 항목 생성(2026-08-06)
-- [ ] lavender — Stress에 듣는다  <!-- 시험 9건 · 논문 465편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] lavender — Sleep에 듣는다  <!-- 시험 9건 · 논문 231편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] lavender — Stress에 듣는다 — 기존 항목(lavender-aromatherapy-pos)
+- [x] lavender — Sleep에 듣는다 — 새 항목(lavender-sleep-pos)
 - [x] glucosamine — Back Pain에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 항목 생성(2026-08-06)
 - [x] glucosamine — Obesity에 듣는다  <!-- 시험 3건 · 논문 222편 --> — 근거 없음(2026-08-06 조회, "glucosamine AND Obesity")
 - [x] chondroitin — Joint Pain에 듣는다  <!-- 시험 8건 · 논문 299편 --> — 항목 생성(2026-08-06)
@@ -12133,8 +12133,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] constraint-induced movement therapy — Hemiparesis에 듣는다  <!-- 시험 6건 · 논문 230편 --> — 항목 생성(2026-08-06)
 - [x] constraint-induced movement therapy — Hemiplegia에 듣는다  <!-- 시험 6건 · 논문 214편 --> — 항목 생성(2026-08-06)
 - [x] spinal cord stimulation — Stroke에 듣는다  <!-- 시험 16건 · 논문 837편 --> — 항목 생성(2026-08-06)
-- [ ] spinal cord stimulation — Diabetic Neuropathy에 듣는다  <!-- 시험 16건 · 논문 282편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다  <!-- 시험 14건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] spinal cord stimulation — Diabetic Neuropathy에 듣는다 — 새 항목(spinal-cord-stimulation-diabetic-neuropathy-pos)
+- [x] spinal cord stimulation — Failed Back Surgery Syndrome에 듣는다 — 새 항목(spinal-cord-stimulation-failed-back-surgery-syndrome-pos)
 - [x] spinal cord stimulation — Parkinson Disease에 듣는다  <!-- 시험 14건 · 논문 328편 --> — 항목 생성(2026-08-06)
 - [ ] deep brain stimulation — Tremor에 듣는다  <!-- 시험 34건 · 논문 3079편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [ ] deep brain stimulation — Dystonia에 듣는다  <!-- 시험 32건 · 논문 2653편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
@@ -20742,7 +20742,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] capsaicin — Diabetic Foot에 듣는다  <!-- 시험 14건 · 논문 27편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
 - [x] capsaicin — Peripheral Nervous System Disease에 듣는다  <!-- 시험 11건 · 논문 1033편 --> — 등록시험 결과 대기(2026-08-11 조회, capsaicin AND Peripheral Nervous System Disease; ClinicalTrials.gov 물질 일치 39건, PubMed 0편)
 - [x] capsaicin — Cough에 듣는다  <!-- 시험 11건 · 논문 889편 --> — 항목 생성(capsaicin-cough-pos, 2026-08-11)
-- [ ] capsaicin — Neuralgia에 듣는다  <!-- 시험 8건 · 논문 696편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] capsaicin — Neuralgia에 듣는다 — 새 항목(capsaicin-neuralgia-pos)
 - [x] l-arginine — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 15806편 --> — 항목 생성(l-arginine-cardiovascular-pos, 2026-08-11)
 - [x] l-arginine — Vascular Function에 듣는다  <!-- 시험 7건 · 논문 20957편 --> — 항목 생성(l-arginine-vascular-function-null, 2026-08-11)
 - [x] l-arginine — Diabetes에 듣는다  <!-- 시험 6건 · 논문 8693편 --> — 항목 생성(l-arginine-diabetes-pos, 2026-08-11)
@@ -20776,7 +20776,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] laughter — Anxiety에 듣는다  <!-- 시험 12건 · 논문 217편 --> — 기존 항목(laughter-intervention-anxiety-pos)
 - [x] laughter — Mental Health에 듣는다  <!-- 시험 11건 · 논문 188편 --> — 기존 항목(laughter-mental-meta-pos)
 - [x] laughter — Burnout에 듣는다  <!-- 시험 8건 · 논문 31편 --> — 기존 항목(laughter-intervention-burnout-pos)
-- [ ] intermittent pneumatic compression — Lymphedema에 듣는다  <!-- 시험 7건 · 논문 186편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] intermittent pneumatic compression — Lymphedema에 듣는다 — 새 항목(intermittent-pneumatic-compression-lymphedema-pos)
 - [x] intermittent pneumatic compression — Arterial Ulcers에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 항목 생성(intermittent-pneumatic-compression-arterial-ulcers-pos, 2026-08-11)
 - [x] intermittent pneumatic compression — Lipedema에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 항목 생성(intermittent-pneumatic-compression-lipedema-null, 2026-08-11)
 - [x] intermittent pneumatic compression — Physical Therapy에 듣는다  <!-- 시험 4건 · 논문 223편 --> — 항목 생성(intermittent-pneumatic-compression-physical-therapy-null, 2026-08-11)
@@ -20842,14 +20842,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] l-glutamine — Sickle Cell Anemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 6건 · 논문 150편 -->
+- [x] l-glutamine — Sickle Cell Anemia에 듣는다 — 새 항목(l-glutamine-sickle-cell-anemia-pos)
 - [x] l-glutamine — Coronary Artery Bypass에 듣는다 — 항목 생성(l-glutamine-cabg-pos, 2026-08-11)  <!-- 시험 4건 · 논문 28편 -->
 - [x] l-glutamine — Clostridium Difficile Diarrhea에 듣는다 — 등록시험 결과 대기(2026-08-11 조회, l-glutamine AND Clostridium Difficile Diarrhea; ClinicalTrials.gov intervention 일치 2건, 직접 결과 논문 확인 못함)  <!-- 시험 4건 · 논문 9편 -->
 - [x] l-glutamine — Diarrhea에 듣는다 — 항목 생성(l-glutamine-diarrhea-pos, 2026-08-11)  <!-- 시험 4건 · 논문 355편 -->
 - [x] l-carnitine — Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 8건 · 논문 1913편 -->
 - [x] l-carnitine — HIV에 듣는다 — 항목 생성(l-carnitine-hiv-null, 2026-08-11)  <!-- 시험 7건 · 논문 154편 -->
 - [x] l-carnitine — Muscle Loss에 듣는다 — 항목 생성(l-carnitine-muscle-loss-pos, 2026-08-11)  <!-- 시험 7건 · 논문 323편 -->
-- [ ] l-carnitine — Hemodialysis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 599편 -->
+- [x] l-carnitine — Hemodialysis에 듣는다 — 새 항목(l-carnitine-hemodialysis-open)
 - [x] tocotrienol — Stroke에 듣는다 — 항목 생성(tocotrienol-stroke-pos, 2026-08-11)  <!-- 시험 4건 · 논문 31편 -->
 - [x] tocotrienol — Obesity에 듣는다 — 항목 생성(tocotrienol-obesity-null, 2026-08-11)  <!-- 시험 3건 · 논문 77편 -->
 - [x] pectin — Nonalcoholic Fatty Liver Disease에 듣는다 — 등록시험 결과 대기(2026-08-11 조회, pectin AND Nonalcoholic Fatty Liver Disease; NCT07093346 결과 논문 확인 못함)  <!-- 시험 6건 · 논문 20편 -->
@@ -21025,10 +21025,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] iron supplementation — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 322편 -->
 - [x] iron supplementation — Weight Loss에 듣는다  <!-- 시험 12건 · 논문 270편 -->
 - [x] iron supplementation — Pregnancy에 듣는다  <!-- 시험 10건 · 논문 2729편 -->
-- [ ] selenium — Cancer에 듣는다  <!-- 시험 23건 · 논문 7554편 -->
+- [x] selenium — Cancer에 듣는다 — 기존 항목(selenium-cancer-null)
 - [x] selenium — Sepsis에 듣는다  <!-- 시험 4건 · 논문 231편 -->
 - [ ] selenium — Breast Neoplasms에 듣는다  <!-- 시험 4건 · 논문 590편 -->
-- [ ] selenium — HIV에 듣는다  <!-- 시험 4건 · 논문 340편 -->
+- [x] selenium — HIV에 듣는다 — 새 항목(selenium-hiv-null)
 - [x] omega-3 fatty acids — Cancer에 듣는다  <!-- 시험 41건 · 논문 4502편 -->
 - [x] omega-3 fatty acids — Diabetes에 듣는다  <!-- 시험 19건 · 논문 3224편 -->
 - [x] omega-3 fatty acids — Hypertriglyceridemia에 듣는다  <!-- 시험 16건 · 논문 914편 -->
@@ -21220,17 +21220,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] foam rolling — Muscle Tone에 듣는다 — 신규 항목(foam-rolling-muscle-tone-pos)  <!-- 시험 14건 · 논문 10편 -->
 - [x] foam rolling — Recovery에 듣는다  <!-- 시험 3건 · 논문 104편 -->
 - [x] massage therapy — Pain에 듣는다  <!-- 시험 70건 · 논문 4753편 -->
-- [ ] massage therapy — Leukemia에 듣는다  <!-- 시험 31건 · 논문 31편 -->
+- [x] massage therapy — Leukemia에 듣는다 — 새 항목(massage-therapy-leukemia-pos)
 - [x] massage therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 669편 -->
-- [ ] spinal manipulation — Pain에 듣는다  <!-- 시험 89건 · 논문 3037편 -->
+- [x] spinal manipulation — Pain에 듣는다 — 새 항목(spinal-manipulation-pain-open)
 - [ ] spinal manipulation — Vertebral Artery Dissection에 듣는다  <!-- 시험 3건 · 논문 125편 -->
 - [ ] spinal manipulation — Musculoskeletal Diseases에 듣는다  <!-- 시험 3건 · 논문 1338편 -->
 - [ ] transcutaneous electrical nerve stimulation — Pain에 듣는다  <!-- 시험 58건 · 논문 6116편 -->
-- [ ] transcutaneous electrical nerve stimulation — Spinal Cord Injury에 듣는다  <!-- 시험 12건 · 논문 565편 -->
+- [x] transcutaneous electrical nerve stimulation — Spinal Cord Injury에 듣는다 — 새 항목(transcutaneous-electrical-nerve-stimulation-spinal-cord-injury-pos)
 - [ ] transcutaneous electrical nerve stimulation — Autonomic Diseases에 듣는다  <!-- 시험 12건 · 논문 175편 -->
-- [ ] transcutaneous electrical nerve stimulation — Knee Osteoarthritis에 듣는다  <!-- 시험 11건 · 논문 332편 -->
-- [ ] red light therapy — Myopia에 듣는다  <!-- 시험 33건 · 논문 190편 -->
-- [ ] red light therapy — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 89편 -->
+- [x] transcutaneous electrical nerve stimulation — Knee Osteoarthritis에 듣는다 — 새 항목(transcutaneous-electrical-nerve-stimulation-knee-osteoarthritis-pos)
+- [x] red light therapy — Myopia에 듣는다 — 새 항목(red-light-therapy-myopia-pos)
+- [x] red light therapy — Depressive Disorder에 듣는다 — 새 항목(red-light-therapy-depressive-disorder-null)
 - [ ] red light therapy — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 29편 -->
 - [ ] red light therapy — Traumatic Brain Injury에 듣는다  <!-- 시험 5건 · 논문 67편 -->
 - [x] whole body vibration — Cancer에 듣는다 — 신규 항목(whole-body-vibration-cancer-pos)  <!-- 시험 29건 · 논문 54편 -->

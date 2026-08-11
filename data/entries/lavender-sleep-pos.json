@@ -1,0 +1,30 @@
+{
+  "id": "lavender-sleep-pos",
+  "subj": "라벤더",
+  "claim": "불면 증상을 개선한다",
+  "line": "라벤더를 포함한 흡입 아로마테라피는 수면 문제를 대조군보다 개선했지만 연구별 조건이 달랐습니다.",
+  "effect": "수면 효과크기 SMD -1.63",
+  "vs": "불면증 아로마테라피 무작위시험 14개 1,043명에서 중재군과 대조군의 수면 효과크기는 SMD -1.63(95% CI -2.20~-1.04)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1043,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "라벤더 흡입은 수면 보조에 쓰이는 생활·아로마 중재입니다.",
+  "why": "불면증 아로마테라피 무작위시험 14개를 합친 메타분석에서 라벤더를 포함한 흡입 중재를 대조군과 비교했습니다.",
+  "saw": "1,043명에서 아로마테라피는 수면 문제를 개선했고, 단일 라벤더 아로마를 포함한 하위분석도 긍정적이었습니다. 연구마다 오일·대조군·기간·수면 척도가 달랐습니다.",
+  "limit": "전체 아로마테라피 결과이며 라벤더 단독 효과와 흡입 순응도를 분리하기 어렵습니다.",
+  "against": "발레리안·라벤더 조합과 수면 연구는 제품별 결과가 달라 표준 용량을 정할 수 없습니다.",
+  "use": "불면에서 수면 위생과 원인 평가에 더하는 보조 생활 중재로만 기록합니다.",
+  "refs": [
+    { "label": "불면증 아로마테라피 무작위시험 메타분석", "pmid": "39615005", "registry": "CRD42023454070" },
+    { "label": "노인 수면 아로마테라피 메타분석", "pmid": "39654196", "nct": "NCT05194618" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=lavender AND query.cond=Sleep; NCT05194618·NCT05692700 등 확인",
+    "pubmed": "lavender AND sleep; 231건, PMID 39615005·39654196 직접 결과",
+    "negative": "lavender AND sleep AND (no effect OR did not OR failed OR negative OR no significant difference); 201건",
+    "safety": "lavender AND sleep AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 58건"
+  }
+}

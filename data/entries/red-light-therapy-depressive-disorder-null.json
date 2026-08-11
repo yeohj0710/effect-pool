@@ -1,0 +1,30 @@
+{
+  "id": "red-light-therapy-depressive-disorder-null",
+  "subj": "적색광 치료",
+  "claim": "우울장애를 개선한다",
+  "line": "저강도 경두개 적색광은 우울 점수를 낮추지 못했습니다.",
+  "effect": "저용량 치료 효과 없음",
+  "vs": "MDD 49명에서 저선량 경두개 광생체조절과 가짜치료의 HDRS-17 변화는 유의한 차이가 없었습니다(t=-.319, p=.751; QIDS-C p=.620).",
+  "tier": "trial",
+  "dir": "null",
+  "n": 49,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "경두개 적색·근적외선은 우울장애에 연구 중인 비약물 광기기 중재입니다.",
+  "why": "주요우울장애 환자를 저선량 경두개 광생체조절과 가짜치료에 무작위 배정한 이중눈가림 시험입니다.",
+  "saw": "49명을 6주 치료에 배정했고, 저선량 적색·근적외선은 HDRS-17과 QIDS-C에서 가짜치료보다 우울 점수를 유의하게 낮추지 못했습니다.",
+  "limit": "용량이 낮은 단기 시험이며 더 높은 선량·긴 치료 기간과 다른 광생체조절 방식의 결과는 별도로 확인해야 합니다.",
+  "against": "다른 소규모 시험과 비무작위 연구는 긍정적 신호를 보고해 용량과 치료 조건의 영향을 배제할 수 없습니다.",
+  "use": "우울장애에서 적색광을 표준 치료로 대체하지 않도록 현재의 null 결과를 설명합니다.",
+  "refs": [
+    { "label": "주요우울장애 저선량 경두개 광생체조절 위약시험", "pmid": "35950904", "nct": "NCT02959307" },
+    { "label": "주요우울장애 경두개 광생체조절 항우울 효과 예비시험", "pmid": "30346890" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=photobiomodulation AND query.cond=Depressive Disorder; NCT02959307·NCT04579185 등 확인",
+    "pubmed": "transcranial photobiomodulation AND depression; 88건, PMID 35950904 직접 결과",
+    "negative": "transcranial photobiomodulation AND depression AND (no effect OR did not OR failed OR negative OR no significant difference); 72건",
+    "safety": "transcranial photobiomodulation AND depression AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 72건"
+  }
+}

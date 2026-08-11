@@ -1,0 +1,30 @@
+{
+  "id": "l-carnitine-hemodialysis-open",
+  "subj": "L-카르니틴",
+  "claim": "혈액투석 환자의 빈혈과 삶의 질을 개선한다",
+  "line": "L-카르니틴은 혈액투석 환자의 헤모글로빈 지표를 조금 개선할 수 있지만 전체 효과는 불확실합니다.",
+  "effect": "헤모글로빈 평균차 +0.46 g/dL",
+  "vs": "52개 무작위시험 3,398명에서 헤모글로빈은 L-카르니틴군이 대조군보다 평균 0.46 g/dL 높았지만 연구 간 이질성이 컸습니다(I²=86%).",
+  "tier": "trial",
+  "dir": "open",
+  "n": 3398,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "L-카르니틴은 투석 관련 결핍과 일부 빈혈 상황에 쓰이는 보충 성분입니다.",
+  "why": "투석 환자에서 L-카르니틴과 위약·표준치료를 비교한 무작위시험 52개를 검토한 코크란 문헌고찰입니다.",
+  "saw": "무작위 참여자 3,398명에서 헤모글로빈은 평균 0.46 g/dL, 헤마토크릿은 1.78% 높았지만 삶의 질·피로·이상반응에는 작거나 불확실한 차이가 있었습니다.",
+  "limit": "대부분 연구의 비뚤림 위험이 불명확하거나 높고, 용량·투여 경로·대조군이 달랐습니다.",
+  "against": "코크란 결론은 투석 관련 카르니틴 결핍 치료를 일반적으로 지지하기에는 근거가 부족하다는 것입니다.",
+  "use": "혈액투석 환자에서 빈혈 지표의 작은 변화와 임상적 불확실성을 함께 설명합니다.",
+  "refs": [
+    { "label": "투석 환자 카르니틴 보충 코크란 검토", "pmid": "36472884" },
+    { "label": "혈액투석 소아 L-카르니틴 위약시험", "pmid": "34740538", "nct": "NCT01278693" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=L-carnitine AND query.cond=Hemodialysis; NCT00322322·NCT01278693 등 확인",
+    "pubmed": "L-carnitine AND hemodialysis; 599건, PMID 36472884 직접 결과",
+    "negative": "L-carnitine AND hemodialysis AND (no effect OR did not OR failed OR negative OR no significant difference); 432건",
+    "safety": "L-carnitine AND hemodialysis AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 274건"
+  }
+}

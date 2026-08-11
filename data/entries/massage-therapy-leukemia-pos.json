@@ -1,0 +1,30 @@
+{
+  "id": "massage-therapy-leukemia-pos",
+  "subj": "마사지",
+  "claim": "급성 백혈병 환자의 통증과 피로를 줄인다",
+  "line": "가벼운 마사지와 느린 등 마사지는 항암치료 중 급성 백혈병 환자의 통증·피로·수면 문제를 줄였습니다.",
+  "effect": "통증·피로 감소",
+  "vs": "느린 등 마사지 무작위시험 60명에서 마사지군 30명과 일반 간호군 30명을 4주 비교했고, 통증·피로·수면 문제가 시간에 따라 더 줄었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 60,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "마사지는 항암치료 중 증상 완화에 쓰는 비약물 돌봄 중재입니다.",
+  "why": "항암치료 중인 급성 백혈병 성인 60명을 느린 등 마사지와 일반 간호에 무작위 배정한 시험입니다.",
+  "saw": "마사지군은 4주 동안 주 3회 10분씩 느린 등 마사지를 받았고, 통증·피로·수면 문제와 PSQI 수면 점수가 일반 간호군보다 시간에 따라 개선됐습니다.",
+  "limit": "작은 단일 연구이며 마사지 제공자와 참가자의 눈가림이 어렵고, 통증·피로의 자기보고 영향을 받습니다.",
+  "against": "혈소판 감소·피부 손상·감염 위험이 있는 환자에게 강한 마사지를 적용하면 안 됩니다.",
+  "use": "백혈병 증상 완화에서 안전한 강도와 혈액검사 상태를 확인한 보조 돌봄으로만 기록합니다.",
+  "refs": [
+    { "label": "급성 백혈병 환자 느린 등 마사지 무작위시험", "pmid": "26925992" },
+    { "label": "급성 백혈병 통증·피로 마사지 비교시험", "pmid": "34077243", "nct": "NCT04185428" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=massage therapy AND query.cond=Leukemia; NCT06095726·NCT04185428 등 확인",
+    "pubmed": "massage therapy AND leukemia; 31건, PMID 26925992·34077243 직접 결과",
+    "negative": "massage therapy AND leukemia AND (no effect OR did not OR failed OR negative OR no significant difference); 19건",
+    "safety": "massage therapy AND leukemia AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 7건"
+  }
+}

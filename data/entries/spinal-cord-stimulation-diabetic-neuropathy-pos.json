@@ -1,0 +1,30 @@
+{
+  "id": "spinal-cord-stimulation-diabetic-neuropathy-pos",
+  "subj": "척수 자극",
+  "claim": "당뇨병성 신경병증 통증을 줄인다",
+  "line": "10kHz 척수 자극은 난치성 당뇨병성 신경병증 통증 반응을 일반 치료보다 늘렸습니다.",
+  "effect": "통증 반응 79% 대 5%",
+  "vs": "6개월 통증 50% 이상 감소·신경학적 악화 없음: 10kHz 척수 자극+일반 치료 75/95명(79%) 대 일반 치료 5/94명(5%), 차이 73.6% (p<.001).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 216,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "척수 자극은 당뇨병성 신경병증 통증에 쓰인 비약물 기기 중재입니다.",
+  "why": "난치성 당뇨병성 신경병증 환자 216명을 10kHz 척수 자극+일반 치료와 일반 치료에 무작위 배정한 다기관 시험입니다.",
+  "saw": "6개월 분석에서 10kHz 척수 자극군 95명 중 75명, 일반 치료군 94명 중 5명이 통증 50% 이상 감소와 신경학적 악화 없음 기준을 충족했습니다. 기기 감염으로 2명이 제거 수술을 받았습니다.",
+  "limit": "공개시험이고 6개월 뒤 교차가 허용됐으며 이식 시술의 감염·재수술 위험이 있습니다.",
+  "against": "장기 추적은 초기 대조군이 교차한 뒤의 결과라 무작위 대조 비교가 유지되지 않습니다.",
+  "use": "약물에 반응하지 않는 당뇨병성 신경병증에서 전문 통증·재활 평가가 필요한 기기 치료 신호로 기록합니다.",
+  "refs": [
+    { "label": "SENZA-PDN 10kHz 척수 자극 무작위시험", "pmid": "33818600", "nct": "NCT03228420" },
+    { "label": "SENZA-PDN 24개월 추적", "pmid": "37536514", "nct": "NCT03228420" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=spinal cord stimulation AND query.cond=Diabetic Neuropathy; NCT00802022·NCT03228420 등 확인",
+    "pubmed": "spinal cord stimulation AND diabetic neuropathy; 284건, PMID 33818600 직접 결과",
+    "negative": "spinal cord stimulation AND diabetic neuropathy AND (no effect OR did not OR failed OR negative OR no significant difference); 168건",
+    "safety": "spinal cord stimulation AND diabetic neuropathy AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 72건"
+  }
+}

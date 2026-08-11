@@ -1,0 +1,29 @@
+{
+  "id": "red-light-therapy-myopia-pos",
+  "subj": "적색광 치료",
+  "claim": "어린이·청소년의 근시 진행을 늦춘다",
+  "line": "저강도 적색광은 어린이 근시 진행을 늦췄습니다.",
+  "effect": "안축장 평균차 -0.26mm",
+  "vs": "18개 논문 2,438명에서 저강도 적색광은 대조군보다 안축장 증가를 0.26mm 줄였고(95% CI -0.34~-0.18), 굴절도 차이는 +0.60D였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2438,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "저강도 적색광은 근시 진행에 연구된 비약물 광기기 중재입니다.",
+  "why": "소아·청소년 근시에서 저강도 적색광 무작위시험을 합친 체계적 문헌고찰·메타분석입니다.",
+  "saw": "18개 논문 2,438명에서 적색광군의 안축장 증가와 굴절도 진행이 대조군보다 작았습니다. 통합 분석의 이질성은 매우 높았습니다(I²>97%).",
+  "limit": "치료 중단 뒤 지속 효과와 장기 안전성, 지역·인종별 재현성이 아직 충분히 확인되지 않았습니다.",
+  "against": "높은 이질성 때문에 모든 적색광 장치와 치료 시간표에 같은 효과를 적용할 수 없습니다.",
+  "use": "소아 근시에서 안과 추적을 대체하지 않는 연구 기반 보조 중재로만 설명합니다.",
+  "refs": [
+    { "label": "소아 근시 저강도 적색광 메타분석", "pmid": "42509940", "nct": "NCT05203432" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=red light therapy AND query.cond=Myopia; NCT05881655·NCT05203432 등 확인",
+    "pubmed": "low-level red light AND myopia; 140건, PMID 42509940 직접 결과",
+    "negative": "low-level red light AND myopia AND (no effect OR did not OR failed OR negative OR no significant difference); 117건",
+    "safety": "low-level red light AND myopia AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 41건"
+  }
+}

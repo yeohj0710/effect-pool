@@ -1,0 +1,30 @@
+{
+  "id": "intermittent-pneumatic-compression-lymphedema-pos",
+  "subj": "간헐적 공기압박",
+  "claim": "유방암 수술 뒤 림프부종 발생을 줄인다",
+  "line": "간헐적 공기압박은 유방암 수술 뒤 림프부종 발생을 줄였습니다.",
+  "effect": "림프부종 발생 위험비 0.36",
+  "vs": "14개 무작위시험 1,397명에서 간헐적 공기압박은 대조군보다 유방암 관련 림프부종 발생을 줄였습니다(RR 0.36, 95% CI 0.22–0.58).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1397,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "간헐적 공기압박은 림프부종에 쓰는 기기 중재입니다.",
+  "why": "유방암 수술 뒤 림프부종 예방·치료에서 간헐적 공기압박과 대조군을 비교한 무작위시험 14개를 합친 메타분석입니다.",
+  "saw": "간헐적 공기압박은 림프부종 발생 위험을 줄였고, 영향을 받은 팔의 신전 기능도 개선했습니다. 만성 림프부종의 주관적 증상에는 일관된 차이가 없었습니다.",
+  "limit": "기기 압력·치료 기간·기본 복합 decongestive therapy가 달랐고, 메타분석의 이질성이 큽니다.",
+  "against": "기존 림프부종 치료를 대체할 수 있는지와 장기 재발 예방 효과는 확정되지 않았습니다.",
+  "use": "유방암 수술 뒤 림프부종 예방에서 압박기기를 고려할 때 효과와 한계를 함께 설명합니다.",
+  "refs": [
+    { "label": "유방암 관련 림프부종 간헐적 공기압박 메타분석", "pmid": "41272206", "nct": "NCT06495034" },
+    { "label": "하지 림프부종 공기압박 무작위시험 체계적 검토", "pmid": "41997536" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=intermittent pneumatic compression AND query.cond=Lymphedema; NCT06495034·NCT05456568 등 확인",
+    "pubmed": "intermittent pneumatic compression AND lymphedema; 186건, PMID 41272206 직접 결과",
+    "negative": "intermittent pneumatic compression AND lymphedema AND (no effect OR did not OR failed OR negative OR no significant difference); 132건",
+    "safety": "intermittent pneumatic compression AND lymphedema AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 132건"
+  }
+}
