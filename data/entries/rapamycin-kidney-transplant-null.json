@@ -1,0 +1,31 @@
+{
+  "id": "rapamycin-kidney-transplant-null",
+  "subj": "라파마이신",
+  "claim": "신장이식 후 라파마이신 기반 면역억제가 다른 면역억제보다 우월한지는 확실하지 않다",
+  "line": "신장이식 후 저용량 시롤리무스는 표준 사이클로스포린보다 급성 거부반응이 적지 않았습니다.",
+  "effect": "급성 거부반응 37.2% vs 25.8%",
+  "vs": "저용량 시롤리무스 급성 거부반응 37.2% vs 표준 사이클로스포린 25.8%, 이식편 생존 89.3% vs 89.3%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1645,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "라파마이신(시롤리무스)은 신장이식 환자의 장기 거부반응 예방에 허가되어 있습니다.",
+  "why": "신장이식 수혜자를 표준 용량 사이클로스포린, 저용량 사이클로스포린, 저용량 타크로리무스, 저용량 시롤리무스 기반 면역억제에 무작위 배정했습니다.",
+  "saw": "1,645명 무작위시험에서 저용량 시롤리무스군의 생검확인 급성 거부반응은 37.2%로 표준 사이클로스포린군 25.8%보다 높았고, 이식편 생존은 두 군 모두 89.3%였습니다.",
+  "limit": "네 가지 면역억제 전략을 비교한 시험이라 시롤리무스 단독 효과를 분리하기 어렵고, 초기 치료와 기존 치료에서 전환한 결과가 다를 수 있습니다.",
+  "against": "저용량 시롤리무스군은 심각한 이상반응이 53.2%로 다른 군의 43.4~44.3%보다 많았고, 백혈구감소·혈소판감소·빈혈과 대사 이상을 함께 봐야 합니다.",
+  "use": "신장이식 면역억제 선택에서 시롤리무스가 모든 환자에게 우월하지 않으며 이식팀의 위험평가가 필요함을 설명합니다.",
+  "refs": [
+    { "label": "신장이식 칼시뉴린 억제제 감량 무작위시험", "pmid": "18094377" },
+    { "label": "신장이식 mTOR 억제제 무작위시험 체계적 문헌고찰·메타분석", "pmid": "16699448", "nct": "NCT00896012" },
+    { "label": "신장이식 시롤리무스 악성종양·생존 개별환자 메타분석", "pmid": "25422259" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=rapamycin&query.cond=Kidney Transplant · 총 107건 검색, NCT00896012·NCT01014234 등 라파마이신 개입 확인",
+    "pubmed": "rapamycin AND Kidney Transplant · 1,110편",
+    "negative": "rapamycin AND Kidney Transplant AND (no effect OR did not OR failed OR negative OR no significant difference) · 885편",
+    "safety": "rapamycin AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) · 15,895편"
+  }
+}
