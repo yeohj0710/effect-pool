@@ -8,7 +8,6 @@
 // 뽑는 방법
 //   1. 물질로 등록된 시험을 받는다
 //   2. InterventionName 에 그 물질이 실제로 있는 건만 남긴다 (동의어 확장 방어)
-//   3. 질환별로 세고, 가장 많은 하나는 버린다 — 대개 허가 적응증이다
 //   4. 시험이 MIN_TRIALS 건 이상 붙은 질환만 후보로 삼는다
 //   5. 이미 worklist 나 entries 에 있는 조합은 뺀다
 
@@ -27,18 +26,46 @@ const PAGE = 200;
 const PAGES = 4;           // 한 물질당 최대 몇 장까지 넘겨볼지 (표본 쏠림 방지)
 const MERGE = 0.5;         // 이 이상 겹치면 같은 병으로 본다
 
-// 허가 밖 사용이 넓다고 알려진 물질들. 다 쓰면 --seed 를 늘리거나 인자로 넘겨라.
+// 사람들이 실제로 사서 먹고 해보는 것들. 처방약은 이미 목록의 절반 가까이 차 있어서
+// 씨앗에서 뺐다. 처방약을 뽑고 싶으면 인자로 이름을 직접 넘겨라.
+// ClinicalTrials.gov 에 개입 이름으로 등록된 말이어야 한다. 지어낸 말은 0건이 돌아온다.
 const SEED = [
-  "metformin", "aspirin", "propranolol", "naltrexone", "gabapentin", "amitriptyline",
-  "topiramate", "trazodone", "quetiapine", "spironolactone", "doxycycline", "colchicine",
-  "dapagliflozin", "semaglutide", "ketamine", "prazosin", "thalidomide", "ivermectin",
-  "hydroxychloroquine", "valacyclovir", "minoxidil", "bupropion", "sildenafil",
-  "bimatoprost", "botulinum toxin", "duloxetine", "dextromethorphan", "clonidine",
-  "finasteride", "melatonin", "modafinil", "baclofen", "ondansetron", "memantine",
-  "lithium", "pentoxifylline", "sirolimus", "rapamycin", "montelukast", "cimetidine",
-  "atorvastatin", "losartan", "verapamil", "amantadine", "acetazolamide", "dapsone",
-  "methotrexate", "hydroxyurea", "tranexamic acid", "isotretinoin", "tamoxifen",
-  "raloxifene", "allopurinol", "n-acetylcysteine", "creatine", "berberine",
+  // 약국에서 그냥 사는 약
+  "acetaminophen", "ibuprofen", "naproxen", "loratadine", "cetirizine", "diphenhydramine",
+  "pseudoephedrine", "famotidine", "loperamide", "bisacodyl", "lactulose",
+  "benzoyl peroxide", "salicylic acid", "clotrimazole", "hydrocortisone cream",
+  "nicotine replacement therapy", "artificial tears", "orlistat", "capsaicin cream",
+  // 보충제
+  "vitamin D", "vitamin C", "vitamin K2", "zinc supplementation", "magnesium supplementation",
+  "iron supplementation", "selenium", "omega-3 fatty acids", "probiotics", "collagen peptide",
+  "glucosamine", "curcumin", "ginseng", "ginkgo biloba", "milk thistle", "coenzyme Q10",
+  "lutein", "l-arginine", "taurine", "ashwagandha", "saw palmetto", "valerian",
+  "st john's wort", "beta-glucan", "inositol", "lactoferrin", "spirulina", "bromelain",
+  "boswellia", "rhodiola", "elderberry", "echinacea", "propolis", "chondroitin",
+  "alpha-lipoic acid", "phosphatidylserine", "nattokinase",
+  // 음식
+  "green tea", "dark chocolate", "blueberry", "pomegranate juice", "tart cherry juice",
+  "kimchi", "yogurt", "kefir", "oatmeal", "barley", "quinoa", "avocado", "walnuts",
+  "pistachio", "olive oil", "seaweed", "honey", "cinnamon", "apple cider vinegar",
+  "sodium reduction", "intermittent fasting", "time restricted eating", "low FODMAP diet",
+  "DASH diet", "gluten free diet", "chewing gum", "water intake",
+  // 몸 쓰기
+  "brisk walking", "stair climbing", "resistance band training", "bodyweight exercise",
+  "high intensity interval training", "swimming", "pilates", "stretching exercise",
+  "balance training", "inspiratory muscle training", "pelvic floor muscle training",
+  "eccentric exercise", "aquatic exercise",
+  // 생활·마음
+  "sleep hygiene education", "mindfulness meditation", "gratitude journaling",
+  "expressive writing", "digital detox", "social media reduction", "forest bathing",
+  "sauna bathing", "cold water immersion", "power nap", "bright light exposure",
+  "music listening", "aromatherapy", "volunteering", "singing",
+  // 시술·기기
+  "cupping therapy", "dry needling", "kinesiology taping", "compression stockings",
+  "foam rolling", "massage therapy", "spinal manipulation",
+  "transcutaneous electrical nerve stimulation", "red light therapy",
+  "whole body vibration", "continuous glucose monitoring", "weighted blanket",
+  "nasal irrigation", "oral irrigator", "blue light blocking glasses", "air purifier",
+  "humidifier", "knee brace",
 ];
 
 const args = process.argv.slice(2);
@@ -199,11 +226,11 @@ for (const drug of targets) {
     const groups = collapse([...counts.entries()].sort((a, b) => b[1] - a[1]));
     if (!groups.length) { report.push(`  ${drug.padEnd(22)} 질환으로 볼 조건이 없음. 건너뜀`); continue; }
 
-    // 가장 많은 하나는 허가 적응증으로 본다. 표기만 다른 같은 병도 같이 걷어낸다
-    const onLabel = groups[0];
-    const picks = groups.slice(1)
+    // 제일 많이 시험한 조합도 이제 후보다. 허가 적응증이어도 "얼마나 듣나"는 물어볼 값어치가
+    // 있고, 커피나 걷기 같은 것은 애초에 허가라는 개념이 없다. 옛 규칙이 여기서 제일 굵은
+    // 줄기를 잘라내고 있었다.
+    const picks = groups
       .filter((g) => g.n >= MIN_TRIALS)
-      .filter((g) => overlap(g.key, onLabel.key) < 0.4)
       .filter((g) => !claims.has((drug + g.name).toLowerCase().replace(/\s+/g, "")))
       .filter((g) => !pairs.has(pairKey(drug, g.name)))
       .slice(0, MAX_PER_DRUG);
@@ -219,7 +246,7 @@ for (const drug of targets) {
     }
 
     report.push(`  ${drug.padEnd(22)} 반환 ${String(total).padStart(4)} · 대조 통과 ${String(kept).padStart(3)}`
-      + ` · 허가로 본 것 "${onLabel.name}" · 후보 ${solid.length}`
+      + ` · 후보 ${solid.length}`
       + (dropped ? ` (논문 부족으로 ${dropped}개 뺌)` : ""));
 
     for (const g of solid) {
@@ -242,12 +269,11 @@ if (!lines.length) process.exit(0);
 
 if (WRITE) {
   const stamp = new Date;
-  const header = `\n## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)\n\n`
+  const header = `\n## 자동 추출 — 후보\n\n`
     + `ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.\n`
     + `주석의 숫자는 그 조합에 등록된 시험 수입니다.\n\n`
-    + `**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은\n`
-    + `오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는\n`
-    + `조합이면 항목을 만들지 말고 줄 끝에 \`— 허가 적응증(날짜)\` 을 붙여 넘어가라.\n\n`;
+    + `**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가\n`
+    + `있으면 항목이 됩니다. \`known\` 에 \`label\` 이라고 적으면 됩니다.\n\n`;
   writeFileSync(WL, readFileSync(WL, "utf8") + header + lines.join("\n") + "\n", "utf8");
   console.log(`worklist.md 에 덧붙였습니다.`);
 } else {

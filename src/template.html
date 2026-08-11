@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>오프라벨과 부수 효과 목록</title>
-<meta name="description" content="약이든 아니든, 어디까지 확인했는지를 같은 자로 재서 한 줄씩 적은 목록. 웰니스박스 연구자료.">
+<title>무엇이 얼마나 달라지나</title>
+<meta name="description" content="약도 있고 음식·운동·잠·앱도 있습니다. 무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 숫자로 적었습니다. 웰니스박스 연구자료.">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/icon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
@@ -13,8 +13,8 @@
 <meta name="theme-color" content="#ffffff">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="오프라벨과 부수 효과 목록">
-<meta property="og:description" content="약이든 아니든, 어디까지 확인했는지를 같은 자로 재서 한 줄씩 적었습니다.">
+<meta property="og:title" content="무엇이 얼마나 달라지나">
+<meta property="og:description" content="약도 있고 음식·운동·잠·앱도 있습니다. 무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 숫자로 적었습니다.">
 <meta property="og:image" content="/logo.png">
 <meta property="og:site_name" content="웰니스박스">
 <meta name="twitter:card" content="summary">
@@ -236,6 +236,7 @@
     .row .side{ grid-area:1/3; gap:.35rem; }
     .row .size{ font-size:11px; }
     .row .known{ font-size:10px; padding:.1rem .3rem; }
+    .row .kind{ display:none; }          /* 좁은 화면에서는 칩으로만 가른다 */
     .row .tag{ grid-area:1/4; font-size:11px; }
     .row .txt{
       grid-area:2/2/3/5; white-space:normal; font-size:13.5px; line-height:1.5;
@@ -251,6 +252,13 @@
     flex:none; font-size:10.5px; font-weight:600; letter-spacing:.02em;
     padding:.12rem .38rem; border-radius:4px;
     background:var(--accent-soft); color:var(--accent);
+  }
+
+  /* 무엇의 갈래인지. 색을 갈래마다 다르게 주면 눈금 색과 싸운다. 전부 무채색 하나로 둔다 */
+  .kind{
+    flex:none; font-size:10.5px; font-weight:600; letter-spacing:.02em;
+    padding:.12rem .4rem; border-radius:4px;
+    background:var(--bg); color:var(--ink-3); border:1px solid var(--line);
   }
 
   /* 규모 — 36명 단일 시험과 6만 명 메타분석은 눈금이 같아도 무게가 다르다 */
@@ -456,8 +464,8 @@
 
   <header class="mast">
     <p class="cat">근거 풀</p>
-    <h1>오프라벨과 부수 효과 목록</h1>
-    <p>약이든 아니든, 어디까지 확인했는지를 같은 자로 재서 한 줄씩 적었습니다.</p>
+    <h1>무엇이 얼마나 달라지나</h1>
+    <p>약도 있고 음식·운동·잠·앱도 있습니다. 무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 숫자로 적었습니다.</p>
   </header>
 
   <div class="stats" id="stats"></div>
@@ -474,12 +482,14 @@
   </div>
 
   <div class="tools">
-    <input class="search" id="q" type="search" placeholder="물질 이름이나 내용으로 찾기" aria-label="목록에서 찾기">
+    <input class="search" id="q" type="search" placeholder="이름이나 내용으로 찾기 — 커피, 걷기, 수면, 아연" aria-label="목록에서 찾기">
+    <div class="chips" id="kinds" role="group" aria-label="갈래로 거르기"></div>
     <div class="chips" id="chips" role="group" aria-label="결과로 거르기"></div>
     <div class="views" id="views" role="group" aria-label="묶는 기준">
       <button class="view" type="button" data-v="top" aria-pressed="true">눈여겨볼 것</button>
       <button class="view" type="button" data-v="tier" aria-pressed="false">확인 수준</button>
-      <button class="view" type="button" data-v="subj" aria-pressed="false">물질</button>
+      <button class="view" type="button" data-v="kind" aria-pressed="false">갈래</button>
+      <button class="view" type="button" data-v="subj" aria-pressed="false">이름</button>
     </div>
     <span class="hits" id="hits" aria-live="polite"></span>
   </div>
@@ -535,6 +545,14 @@ const DIR = {
   null: { t:'효과 없음',   d:'효과가 없었거나 보정하니 연관이 사라졌습니다' },
   harm: { t:'해로운 쪽',   d:'해로운 쪽 신호가 나왔습니다' }
 };
+/* 무엇의 갈래인지 — 약인지 음식인지 운동인지 잠인지.
+   이걸 안 보여주면 목록이 통째로 약 이야기처럼 보인다. 실제로는 절반이 넘게 약이 아니다. */
+const KIND = Object.fromEntries((DATA.kinds || []).map(k => [k.id, k]));
+function kindTag(e){
+  const k = KIND[e.kind];
+  return k ? '<span class="kind" title="' + esc(k.gloss) + '">' + esc(k.name) + '</span>' : '';
+}
+
 const LOGK = { date:'조회일', ctgov:'임상시험 등록', pubmed:'논문', negative:'반대쪽', safety:'안전성' };
 const REF = {
   doi:  { t:'DOI',       u:v => 'https://doi.org/' + v },
@@ -554,10 +572,10 @@ function meter(tier, dir){
   return h + '</span>';
 }
 
-/* 이미 그 용도로 허가받았는지. 오프라벨 목록에서 제일 먼저 갈라야 하는 것이다.
-   실데나필-발기부전처럼 허가 안에 있는 얘기가 섞여 있으면 그렇다고 적어준다. */
+/* 약이면 이 용도로 허가받았는지. 허가받은 용도인지 아닌지에 따라 읽는 법이 다르다.
+   약이 아닌 항목에는 해당하지 않아서 비어 있다. */
 const KNOWN = {
-  label:    { t: '허가',   d: '이 용도로 허가받았습니다. 오프라벨이 아닙니다' },
+  label:    { t: '허가',   d: '이 용도로 허가받았습니다' },
   standard: { t: '표준',   d: '허가는 없지만 진료지침에 실린 표준 요법입니다' },
   off:      { t: '허가 밖', d: '허가 밖이고 표준 요법도 아닙니다' },
 };
@@ -566,7 +584,7 @@ function knownTag(e){
   return k && e.known !== 'off'
     ? '<span class="known" title="' + k.d + '">' + k.t + '</span>' : '';
 }
-// 펼쳤을 때는 판정 근거까지 적는다. 왜 오프라벨이 아닌지 읽는 사람이 알아야 한다.
+// 펼쳤을 때는 판정 근거까지 적는다.
 function knownBlock(e, x){
   const k = KNOWN[e.known];
   if (!k) return '';
@@ -588,11 +606,11 @@ function sizeTag(e){
 }
 
 /* ── 숫자 요약 ── */
-const nTrial = DATA.entries.filter(e => e.tier === 'trial').length;
+const nNonRx = DATA.entries.filter(e => e.kind !== 'rx').length;
 const nOff = DATA.entries.filter(e => e.dir === 'null' || e.dir === 'harm').length;
 document.getElementById('stats').innerHTML =
   '<div class="stat"><div class="v">' + DATA.entries.length + '</div><div class="k">모은 항목</div></div>' +
-  '<div class="stat hi"><div class="v">' + nTrial + '</div><div class="k">사람한테 직접 써본 것</div></div>' +
+  '<div class="stat hi"><div class="v">' + nNonRx + '</div><div class="k">처방약이 아닌 것</div></div>' +
   '<div class="stat"><div class="v">' + nOff + '</div><div class="k">효과 없음 · 해로운 쪽</div></div>' +
   '<div class="stat"><div class="v">' + (DATA.refs ?? 0) +
   '</div><div class="k">연결된 근거 자료</div></div>';
@@ -606,7 +624,7 @@ document.getElementById('key-dir').innerHTML = Object.entries(DIR).map(([k, v]) 
   '<li>' + meter('trial', k) + '<b>' + v.t + '</b></li>').join('');
 
 /* ── 거르개 ── */
-let filter = 'all', query = '', view = 'top';
+let filter = 'all', kindFilter = 'all', query = '', view = 'top';
 const chipDefs = [['all', '전체']].concat(Object.entries(DIR).map(([k, v]) => [k, v.t]));
 const chipsEl = document.getElementById('chips');
 chipsEl.innerHTML = chipDefs.map(([k, label]) => {
@@ -614,6 +632,23 @@ chipsEl.innerHTML = chipDefs.map(([k, label]) => {
   return '<button class="chip" type="button" data-k="' + k + '" aria-pressed="' + (k === 'all') + '">' +
          label + '<span class="c n">' + c + '</span></button>';
 }).join('');
+const kindsEl = document.getElementById('kinds');
+kindsEl.innerHTML = [['all', '전체']].concat((DATA.kinds || []).map(k => [k.id, k.name]))
+  .map(([k, label]) => {
+    const c = k === 'all' ? DATA.entries.length : DATA.entries.filter(e => e.kind === k).length;
+    return '<button class="chip" type="button" data-k="' + k + '" aria-pressed="' + (k === 'all') + '">' +
+           label + '<span class="c n">' + c + '</span></button>';
+  }).join('');
+function setKind(k){
+  kindFilter = k;
+  kindsEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c.dataset.k === k)));
+}
+kindsEl.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  setKind(b.dataset.k);
+  render(); syncUrl();
+});
+
 const qEl = document.getElementById('q');
 const hitsEl = document.getElementById('hits');
 
@@ -621,6 +656,7 @@ const hitsEl = document.getElementById('hits');
 function syncUrl(replace){
   const p = new URLSearchParams();
   if (filter !== 'all') p.set('d', filter);
+  if (kindFilter !== 'all') p.set('k', kindFilter);
   if (query) p.set('q', query);
   if (view !== 'top') p.set('v', view);
   const url = location.pathname + (p.toString() ? '?' + p : '') + location.hash;
@@ -676,9 +712,10 @@ function paint(){
   const q = query.toLowerCase();
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
+    (kindFilter === 'all' || e.kind === kindFilter) &&
     (!q || (e.subj + e.line + e.claim + (e.effect || '')).toLowerCase().includes(q)));
 
-  hitsEl.textContent = (query || filter !== 'all')
+  hitsEl.textContent = (query || filter !== 'all' || kindFilter !== 'all')
     ? hits.length + '건' : '';
 
   if (!hits.length){
@@ -688,7 +725,8 @@ function paint(){
 
   groupsEl.innerHTML = '';
   groupsEl.dataset.view = view;
-  const draw = view === 'subj' ? bySubject(hits)
+  const draw = view === 'kind' ? byKind(hits)
+             : view === 'subj' ? bySubject(hits)
              : view === 'tier' ? byTier(hits)
              : byScore(hits);
   draw.forEach(drawGroup);
@@ -700,6 +738,15 @@ function byScore(hits){
   return [{ items: hits, head:
     '<h2>눈여겨볼 것부터</h2>'
     + '<span class="gloss">해로운 쪽 · 효과가 큰 것 · 근거가 두꺼운 것 순서</span>' }];
+}
+
+/* 갈래로 묶기 — 오늘 해볼 수 있는 것부터 찾을 때. 처방약을 맨 뒤에 둔 이유가 이것이다 */
+function byKind(hits){
+  return (DATA.kinds || []).map(k => ({
+    items: hits.filter(e => e.kind === k.id),
+    head: '<span class="step n">' + hits.filter(e => e.kind === k.id).length + '</span>'
+        + '<h2>' + esc(k.name) + '</h2><span class="gloss">' + esc(k.gloss) + '</span>',
+  })).filter(g => g.items.length);
 }
 
 /* 확인 수준으로 묶기 — 무엇이 얼마나 확인됐는지 훑을 때 */
@@ -757,7 +804,7 @@ function drawGroup(g){
       meter(item.tier, item.dir) +
       '<span class="subj">' + esc(g.hideSubj ? '' : item.subj) + '</span>' +
       '<span class="txt">' + eff + esc(item.line) + '</span>' +
-      '<span class="side">' + knownTag(item) + sizeTag(item) + '</span>' +
+      '<span class="side">' + kindTag(item) + knownTag(item) + sizeTag(item) + '</span>' +
       '<span class="tag ' + item.dir + '">' + d.t + '</span>';
     btn.setAttribute('aria-label', item.subj + ' — ' + item.line + '. ' + tier.name + ', ' + d.t + '. 자세히 보기');
     btn.addEventListener('click', () => open(item, tier, btn));
@@ -841,7 +888,8 @@ function open(item, tier, trigger){
   if (location.hash !== '#' + item.id) history.pushState(null, '', '#' + item.id);
   const d = DIR[item.dir];
   document.getElementById('s-meter').innerHTML = meter(item.tier, item.dir);
-  document.getElementById('s-tier').textContent = tier.name + ' · ' + d.t;
+  document.getElementById('s-tier').textContent =
+    ((KIND[item.kind] || {}).name ? KIND[item.kind].name + ' · ' : '') + tier.name + ' · ' + d.t;
   document.getElementById('s-title').textContent = item.subj + ' — ' + item.line;
   document.getElementById('s-claim').textContent = '도는 주장 — ' + item.claim;
 
@@ -876,8 +924,13 @@ function open(item, tier, trigger){
     const log = Object.entries(x.queried || {})
       .map(([k, v]) => '<li><b>' + (LOGK[k] || k) + '</b> · ' + esc(v) + '</li>').join('');
     const noAgainst = /찾아봤지만 없었/.test(x.against || '');
+    // 개입군과 대조군이 몇 대 몇이었나. 이 목록이 대답하려는 것이 이 한 줄이다.
+    const vsBlock = x.vs
+      ? '<h4>얼마나 갈렸나</h4><p class="lead">' + esc(x.vs) + '</p>'
+      : '<h4>얼마나 갈렸나</h4><p class="warn">두 군을 숫자로 옮겨 적지 못했습니다. 원문을 보세요.</p>';
 
     body.innerHTML =
+      vsBlock +
       knownBlock(item, x) +
     '<h4>근거 무게</h4><p' + (thin ? ' class="warn"' : '') + '>' + esc(weight) + '</p>' +
       '<h4>왜 이 칸인가</h4><p class="lead">' + esc(x.why) + '</p>' +
@@ -927,7 +980,9 @@ function applyUrl(scroll){
   // DIR 에 "null"(효과 없음) 키가 있고 get() 도 없으면 null 을 준다. 문자열로 받아서 갈라야 한다.
   const d = p.get('d') ?? '', q = p.get('q') ?? '';
   setChip(Object.prototype.hasOwnProperty.call(DIR, d) ? d : 'all');
-  setView(['subj','tier'].includes(p.get('v')) ? p.get('v') : 'top');
+  const k = p.get('k') ?? '';
+  setKind(KIND[k] ? k : 'all');
+  setView(['subj','tier','kind'].includes(p.get('v')) ? p.get('v') : 'top');
   query = q; qEl.value = q;
   paint();
   const id = decodeURIComponent(location.hash.slice(1));

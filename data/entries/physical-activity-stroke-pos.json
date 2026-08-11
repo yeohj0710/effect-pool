@@ -1,30 +1,39 @@
 {
-  "id": "physical-activity-stroke-pos",
-  "subj": "physical activity",
-  "claim": "신체활동을 뇌졸중 후 인지 회복에 쓴다",
-  "line": "뇌졸중 후 신체활동은 인지기능을 높였지만 장기 지속은 과제입니다",
-  "effect": "다중운동 인지 SMD -5.58",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1408,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "뇌졸중 환자 1,408명이 참여한 26개 무작위시험 네트워크 메타분석에서 신체활동 중재가 인지기능을 개선했습니다.",
-  "saw": "통상 진료와 비교해 다중운동의 인지기능 표준화 평균차는 -5.58(95% CI -8.00~-3.16), 유산소운동은 -4.22(-7.04~-1.41)였습니다.",
-  "limit": "중재 간 간접 비교이고 규칙적인 신체활동을 오래 지속하는 방법은 아직 과제입니다.",
-  "against": "등록된 직접 신체활동 시험 8건 중 결과가 게시된 시험은 1건이었고, 일부 연구는 인지기능이 아닌 예방·기능 결과를 봤습니다.",
-  "use": "뇌졸중 후 인지 재활에서 운동 유형을 고를 때 보조 근거로 참고합니다.",
-  "refs": [
-    { "label": "Post-stroke cognitive recovery · systematic review and network meta-analysis", "pmid": "40959502" },
-    { "label": "Adapted physical activity and stroke · systematic review", "pmid": "29072029" },
-    { "label": "Physical Activity Immediately After Acute Cerebral Ischemia · completed registry", "nct": "NCT01560520" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Stroke → 471건, exact InterventionName 8건",
-    "pubmed": "\"physical activity\" AND \"Stroke\" → 5701건",
-    "negative": "\"physical activity\" AND \"Stroke\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 974건",
-    "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+ "id": "physical-activity-stroke-pos",
+ "subj": "신체활동",
+ "claim": "신체활동을 뇌졸중 후 인지 회복에 쓴다",
+ "line": "뇌졸중 후 신체활동은 인지기능을 높였지만 장기 지속은 과제입니다",
+ "effect": "다중운동 인지 SMD -5.58",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1408,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "뇌졸중 환자 1,408명이 참여한 26개 무작위시험 네트워크 메타분석에서 신체활동 중재가 인지기능을 개선했습니다.",
+ "saw": "통상 진료와 비교해 다중운동의 인지기능 표준화 평균차는 -5.58(95% CI -8.00~-3.16), 유산소운동은 -4.22(-7.04~-1.41)였습니다.",
+ "limit": "중재 간 간접 비교이고 규칙적인 신체활동을 오래 지속하는 방법은 아직 과제입니다.",
+ "against": "등록된 직접 신체활동 시험 8건 중 결과가 게시된 시험은 1건이었고, 일부 연구는 인지기능이 아닌 예방·기능 결과를 봤습니다.",
+ "use": "뇌졸중 후 인지 재활에서 운동 유형을 고를 때 보조 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "Post-stroke cognitive recovery · systematic review and network meta-analysis",
+   "pmid": "40959502"
+  },
+  {
+   "label": "Adapted physical activity and stroke · systematic review",
+   "pmid": "29072029"
+  },
+  {
+   "label": "Physical Activity Immediately After Acute Cerebral Ischemia · completed registry",
+   "nct": "NCT01560520"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Stroke → 471건, exact InterventionName 8건",
+  "pubmed": "\"physical activity\" AND \"Stroke\" → 5701건",
+  "negative": "\"physical activity\" AND \"Stroke\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 974건",
+  "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+ }
 }

@@ -29,10 +29,16 @@ if (
 
 const meta = JSON.parse(readFileSync(join(dataDir, "meta.json"), "utf8"));
 
+// 갈래는 주어에 딸린 성질이라 항목마다 적지 않고 주어별로 한 줄씩 모아둔다.
+// 항목이 kind 를 직접 적었으면 그게 이긴다 — 같은 이름이 갈래가 갈리는 드문 경우용이다.
+const kindMap = JSON.parse(readFileSync(join(dataDir, "kinds.json"), "utf8"));
+
 const files = readdirSync(entryDir).filter((f) => f.endsWith(".json")).sort();
 let entries = [];
 const errors = [];
 const warnings = [];
+const vsBacklog = [];   // vs 를 요구하기 전에 만든 항목들. 한 바퀴에 조금씩 채운다
+const engSubjects = new Map();   // 주어가 아직 영문인 것. 주어 하나를 고치면 항목 여럿이 같이 낫는다
 
 // 허가원문 대조는 사람이 판정을 다시 볼 후보만 알려준다. known/knownWhy를
 // 자동으로 바꾸면 사람이 확인한 판정을 덮어쓰므로, 빌드 경고만 추가한다.
@@ -72,7 +78,13 @@ for (const f of files) {
 
 const TIERS = new Set(meta.tiers.map((t) => t.id));
 const STEP = Object.fromEntries(meta.tiers.map((t) => [t.id, t.step]));
+const KINDS = new Set(meta.kinds.map((k) => k.id));
 const DIRS = new Set(["pos", "open", "null", "harm"]);
+
+// 개입군과 대조군이 얼마나 갈렸는지를 숫자로 요구하기 시작한 날.
+// 그 전 항목까지 한꺼번에 세우면 5천 건이 전부 빌드를 막는다. 옛것은 경고로 두고
+// 한 바퀴에 조금씩 채운다.
+const VS_FROM = "2026-08-12";
 const REQUIRED = ["id", "subj", "claim", "line", "tier", "dir",
                   "why", "saw", "limit", "against", "use", "refs", "queried"];
 const REF_IDS = ["doi", "pmid", "pmc", "nct"];
@@ -94,6 +106,26 @@ entries.forEach((e, i) => {
   });
   if (!TIERS.has(e.tier)) errors.push(`${at} — tier 값이 이상함: ${e.tier}`);
   if (!DIRS.has(e.dir)) errors.push(`${at} — dir 값이 이상함: ${e.dir}`);
+
+  // 무엇의 갈래인지 — 약국약·보충제·음식·운동·생활·시술기기·처방약.
+  // 이게 없으면 화면에서 거를 수가 없고, 목록이 다시 약 이야기로만 보인다.
+  e.kind = e.kind ?? kindMap[e.subj] ?? null;
+  if (!e.kind) {
+    errors.push(`${at} — 주어 "${e.subj}" 의 갈래를 모릅니다. data/kinds.json 에 한 줄 적으세요` +
+                ` (otc·supp·food·move·life·care·rx 중 하나)`);
+  } else if (!KINDS.has(e.kind)) {
+    errors.push(`${at} — kind 값이 이상함: ${e.kind}`);
+  }
+
+  // 얼마나 갈렸나. 개입군과 대조군 숫자가 이 목록의 본론이다.
+  // "좋아졌다"만 적힌 줄은 읽어도 남는 게 없다.
+  // 새 항목은 빌드를 세우고, VS_FROM 전에 만든 것은 밀린 일감으로 세기만 한다.
+  // 4천 건을 한 줄씩 경고하면 정작 봐야 할 경고가 묻힌다.
+  if (e.dir !== "open" && !/\d/.test(e.vs || "")) {
+    if ((e.queried?.date ?? "") >= VS_FROM) {
+      errors.push(`${at} — 개입군과 대조군이 얼마나 갈렸는지가 없습니다. vs 에 숫자로 적으세요`);
+    } else vsBacklog.push(e.id ?? files[i]);
+  }
 
   // 파일명과 id 가 다르면 나중에 찾지 못한다
   if (e.id && files[i] !== `${e.id}.json`) {
@@ -166,6 +198,14 @@ entries.forEach((e, i) => {
   const eng = (e.line || "").match(/[a-z][a-z-]{4,}/g);
   if (eng) warnings.push(`${at} — 한 줄에 영문이 남아 있습니다: ${eng.join(", ")}`);
 
+  // 주어도 마찬가지다. 화면 맨 앞에 서는 글자라 여기 영문이 남으면 제일 크게 걸린다.
+  // 대문자 약어(EGCG·HMB·CPAP)는 한국어로 옮길 말이 없으니 그대로 둔다.
+  if (/[a-z][a-z-]{3,}/.test(e.subj || "")) {
+    if ((e.queried?.date ?? "") >= VS_FROM) {
+      errors.push(`${at} — 주어 "${e.subj}" 가 영문입니다. 읽는 사람이 쓰는 말로 옮기세요`);
+    } else engSubjects.set(e.subj, (engSubjects.get(e.subj) ?? 0) + 1);
+  }
+
   // 규모는 오른쪽 태그가 이미 보여준다. 문장에 또 쓰면 길어지기만 한다
   if (e.n && (e.line || "").includes(e.n.toLocaleString("ko-KR"))) {
     warnings.push(`${at} — 규모 숫자가 태그와 겹칩니다. 문장에서는 빼세요`);
@@ -221,6 +261,37 @@ if (entries.length >= 6 && ratio < 1 / 3) {
   );
 }
 
+// 개입군 대 대조군 숫자가 밀린 만큼. 한 줄로만 말한다.
+if (vsBacklog.length) {
+  warnings.push(
+    `개입군 대 대조군 숫자(vs)가 없는 옛 항목 ${vsBacklog.length}건. 한 바퀴에 20건씩 채우세요. ` +
+    `맨 앞: ${vsBacklog.slice(0, 6).join(", ")}`
+  );
+}
+
+// 영문 주어가 얼마나 남았나. 주어 하나를 옮기면 그 이름을 쓰는 항목이 다 같이 낫는다.
+if (engSubjects.size) {
+  const top = [...engSubjects].sort((a, b) => b[1] - a[1]).slice(0, 8)
+    .map(([s, c]) => `${s}(${c})`).join(", ");
+  warnings.push(
+    `주어가 아직 영문인 것 ${engSubjects.size}종 · ${[...engSubjects.values()].reduce((a, b) => a + b, 0)}건. ` +
+    `한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮기세요. 항목 많은 것부터: ${top}`
+  );
+}
+
+// 갈래 쏠림 — 사람들이 실제로 사서 먹고 해보는 쪽이 얇으면 이 목록은 쓸 데가 없다.
+// 처방약은 어차피 의사가 정한다. 약국약·보충제·음식이 넷 중 하나는 돼야 한다.
+const kindCount = Object.fromEntries(meta.kinds.map((k) => [k.id, 0]));
+entries.forEach((e) => { if (e.kind in kindCount) kindCount[e.kind]++; });
+const overCounter = kindCount.otc + kindCount.supp + kindCount.food;
+const overShare = entries.length ? overCounter / entries.length : 0;
+if (entries.length >= 100 && overShare < 0.25) {
+  warnings.push(
+    `약국약·보충제·음식이 ${overCounter}/${entries.length} (${Math.round(overShare * 100)}%). ` +
+    `처방약 ${kindCount.rx}건에 견줘 얇습니다. 다음 일감을 그쪽에서 뽑으세요.`
+  );
+}
+
 // 순위를 매긴 뒤에야 알 수 있는 것(위쪽 항목의 허가 여부)이 있어서 여기서 바로 안 세운다.
 function report() {
   warnings.forEach((w) => console.warn("주의  " + w));
@@ -252,26 +323,28 @@ function magnitude(e) {
   return 0;
 }
 
-// 허가 밖에서 쓴다는 게 이 목록의 본론이다. claim 이 "무엇을 어디에 쓴다" 꼴이면 그 얘기다.
+// 원래 쓰던 데가 아닌 곳에 쓴 얘기. 여전히 읽을 값어치가 있지만 이제 본론은 아니다.
 const REPURPOSE = /(을|를)\s*[^,]{2,24}에\s*(쓴다|듣는다)|부작용을|대신 쓴다/;
 // 부작용이 효능이 된 것. "이게 이런 효능이 있었어?" 하는 얘기라 제일 위에 와야 한다.
 const SIDE_TURNED = /부작용을?\s*[^,]{0,20}(로|으로|에)\s*(쓴다|씀|바꿔|치료)|부작용이\s*[^,]{0,16}(가|이)\s*(된|됐)/;
 
-// 이미 그 용도로 허가받았으면 오프라벨이 아니다. 실데나필-발기부전, 미녹시딜-탈모처럼
-// 다 아는 얘기가 효과 크기만으로 맨 위를 먹는 것을 막는다.
-const KNOWN = { label: -46, standard: -24, off: 8 };
+// 이미 그 용도로 허가받았어도 버리지 않는다. "얼마나 달라지나"를 묻는 목록이라
+// 허가받은 것도 답이 된다. 다만 다 아는 얘기가 맨 위를 먹지는 않게 조금만 내린다.
+const KNOWN = { label: -12, standard: -6, off: 2 };
 
 function interest(e) {
   let s = 0;
-  if (e.dir === "harm") s += 28;             // 다칠 수 있는 얘기는 위로
-  else if (e.dir === "pos") s += 22;
-  else if (e.dir === "null") s += 13;        // 통념이 깨지는 것도 읽을 값어치가 있다
+  if (e.dir === "harm") s += 26;             // 다칠 수 있는 얘기는 위로
+  else if (e.dir === "pos") s += 20;
+  else if (e.dir === "null") s += 14;        // 통념이 깨지는 것도 읽을 값어치가 있다
   else s += 2;                               // 진행 중은 아직 할 말이 없다
 
-  if (e.effect) s += 9;
-  else if (NUMRE.test(e.line)) s += 5;
+  // 개입군과 대조군이 몇 대 몇이었는지 적힌 항목이 이 목록의 본론이다
+  if (e.vs && /\d/.test(e.vs)) s += 12;
+  if (e.effect) s += 8;
+  else if (NUMRE.test(e.line)) s += 4;
   s += magnitude(e);                         // 얼마나 크게 달라졌나
-  if (REPURPOSE.test(e.claim ?? "")) s += 18;
+  if (REPURPOSE.test(e.claim ?? "")) s += 6;
   if (SIDE_TURNED.test(e.claim ?? "")) s += 14;
   s += KNOWN[e.known] ?? 0;                  // 미판정은 깎지도 올리지도 않는다
 
@@ -289,25 +362,38 @@ entries.forEach((e) => {
 });
 entries.sort((a, b) => (b.score - a.score) || ((b.n ?? -1) - (a.n ?? -1)) || a.id.localeCompare(b.id));
 
-// 위에 서는 항목은 허가 여부를 반드시 알아야 한다. 허가 안에 있는 얘기가 맨 위에 오면
-// 오프라벨 목록이라는 말이 무색해진다. 위쪽 80건은 판정을 요구한다.
+// 위에 서는 항목부터 채워라. 맨 위 80건은 두 가지를 요구한다.
+//   약이면 허가 여부 — 허가받은 용도인지 아닌지에 따라 읽는 법이 다르다
+//   무엇이든 개입군 대 대조군 숫자 — 맨 위에 "좋아졌다"만 있으면 목록이 헐렁해진다
 entries.slice(0, 80).forEach((e, i) => {
-  if (!e.known) warnings.push(`${e.id} — 위쪽 ${i + 1}번인데 허가 여부가 없습니다. known 을 채우세요`);
+  if (["rx", "otc"].includes(e.kind) && !e.known) {
+    warnings.push(`${e.id} — 위쪽 ${i + 1}번 약인데 허가 여부가 없습니다. known 을 채우세요`);
+  }
+  if (e.dir !== "open" && !/\d/.test(e.vs || "")) {
+    warnings.push(`${e.id} — 위쪽 ${i + 1}번인데 개입군 대 대조군 숫자가 없습니다. vs 를 채우세요`);
+  }
 });
 report();
 
 // 점수만으로 세우면 한 물질이 위쪽을 통째로 먹는다 — 실데나필 두 줄이 1·2등으로 붙는 식이다.
-// 점수를 건드리지 않고 자리만 바꿔서, 같은 물질 사이를 벌린다.
-function spread(list, gap = 4, look = 30) {
-  const out = [], rest = list.slice(), recent = [];
+// 갈래도 마찬가지여서, 그냥 두면 처방약이 첫 화면을 다 덮는다. 약 이야기만 있는 목록으로
+// 보이는 게 그래서다. 점수는 건드리지 않고 자리만 바꿔서 물질과 갈래를 둘 다 벌린다.
+function spread(list, gap = 4, look = 40, kindGap = 2) {
+  const out = [], rest = list.slice(), recent = [], recentKind = [];
+  const take = (i) => {
+    const picked = rest.splice(i, 1)[0];
+    out.push(picked);
+    recent.push(picked.subj);       if (recent.length > gap) recent.shift();
+    recentKind.push(picked.kind);   if (recentKind.length > kindGap) recentKind.shift();
+  };
   while (rest.length) {
     const limit = Math.min(look, rest.length);
     let i = 0;
+    while (i < limit && (recent.includes(rest[i].subj) || recentKind.includes(rest[i].kind))) i++;
+    if (i < limit) { take(i); continue; }
+    i = 0;                                   // 갈래까지는 못 피하겠으면 물질만 피한다
     while (i < limit && recent.includes(rest[i].subj)) i++;
-    if (i >= limit) i = 0;                   // 멀리 봐도 다른 물질이 없으면 그냥 순서대로
-    out.push(rest.splice(i, 1)[0]);
-    recent.push(out[out.length - 1].subj);
-    if (recent.length > gap) recent.shift();
+    take(i >= limit ? 0 : i);                // 멀리 봐도 없으면 그냥 순서대로
   }
   return out;
 }
@@ -317,8 +403,8 @@ const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
 
 // 목록에 필요한 것만 HTML 에 넣는다. 펼쳤을 때 쓰는 긴 글은 따로 뺀다.
 // 473건이면 상세까지 인라인할 때 950KB 인데, 그중 대부분은 아무도 안 펼치는 글이다.
-const LIST = ["id", "subj", "claim", "line", "effect", "tier", "dir", "n", "synth", "known", "score"];
-const DETAIL = ["why", "saw", "limit", "against", "use", "knownWhy", "refs", "queried"];
+const LIST = ["id", "subj", "claim", "line", "effect", "kind", "tier", "dir", "n", "synth", "known", "score"];
+const DETAIL = ["vs", "why", "saw", "limit", "against", "use", "knownWhy", "refs", "queried"];
 const SHARD = 48;   // 상세 묶음 하나에 담을 항목 수. 화면 하나를 덮고도 남는 크기다
 
 const list = entries.map((e) => Object.fromEntries(LIST.filter((k) => e[k] != null).map((k) => [k, e[k]])));
@@ -330,7 +416,8 @@ const refTotal = entries.reduce((a, e) => a + e.refs.length, 0);
 
 writeFileSync(join(outDir, "index.html"),
   tpl.replace("__ENTRIES__",
-    JSON.stringify({ updated, tiers: meta.tiers, shard: SHARD, refs: refTotal, entries: list })), "utf8");
+    JSON.stringify({ updated, tiers: meta.tiers, kinds: meta.kinds,
+                     shard: SHARD, refs: refTotal, entries: list })), "utf8");
 
 // 상세는 순위 순으로 잘라서 묶음 파일로 낸다.
 // 통짜로 내면 항목 하나 펼치려고 640건 상세를 다 받는다 — 1.1MB 다.
@@ -360,8 +447,13 @@ const byTier = meta.tiers
   .join(" · ");
 const refCount = entries.reduce((a, e) => a + e.refs.length, 0);
 
+const byKind = meta.kinds.map((k) => `${k.name} ${kindCount[k.id]}`).join(" · ");
+const withVs = entries.filter((e) => /\d/.test(e.vs || "")).length;
+
 console.log(`site/index.html 만들었습니다 — ${entries.length}건 (${byTier})`);
+console.log(`갈래 ${byKind}`);
 console.log(`효과 없음·해로운 쪽 ${off}건 (${Math.round(ratio * 100)}%) · 연결된 근거 자료 ${refCount}건`);
+console.log(`개입군 대 대조군 숫자가 있는 항목 ${withVs}건 (${Math.round(withVs / entries.length * 100)}%)`);
 
 const wl = join(dataDir, "worklist.md");
 if (existsSync(wl)) {

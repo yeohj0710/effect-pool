@@ -1,29 +1,35 @@
 {
-  "id": "physical-activity-depression-pos",
-  "subj": "physical activity",
-  "claim": "신체활동을 우울 증상에 쓴다",
-  "line": "성인 신체활동은 우울 증상을 중간 정도 줄였습니다",
-  "effect": "우울 증상 효과크기 -0.43",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 128119,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "성인 신체활동을 늘린 무작위시험 1,039건과 128,119명이 포함된 97개 체계적 문헌고찰의 개요에서 우울 증상이 줄었습니다.",
-  "saw": "통상 진료와 비교한 우울 증상 효과크기 중앙값은 -0.43(IQR -0.66~-0.27)이었고 강도가 높을수록 개선이 컸습니다.",
-  "limit": "포함된 고찰 77개가 방법론적으로 매우 낮은 평가를 받았고 장기 중재에서 효과가 줄었습니다.",
-  "against": "중재 효과를 본 고찰에서도 연구 질과 지속 기간에 따라 효과 크기가 달랐습니다.",
-  "use": "우울 증상 관리에서 신체활동을 치료 계획의 한 요소로 제시할 때 참고합니다.",
-  "refs": [
-    { "label": "Physical activity interventions for depression · overview of systematic reviews", "pmid": "36796860" },
-    { "label": "Physical activity for depression and anxiety · meta-meta-analysis", "pmid": "25739893" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Depression → 403건, exact InterventionName 17건",
-    "pubmed": "\"physical activity\" AND \"Depression\" → 13323건",
-    "negative": "\"physical activity\" AND \"Depression\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3460건",
-    "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+ "id": "physical-activity-depression-pos",
+ "subj": "신체활동",
+ "claim": "신체활동을 우울 증상에 쓴다",
+ "line": "성인 신체활동은 우울 증상을 중간 정도 줄였습니다",
+ "effect": "우울 증상 효과크기 -0.43",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 128119,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "성인 신체활동을 늘린 무작위시험 1,039건과 128,119명이 포함된 97개 체계적 문헌고찰의 개요에서 우울 증상이 줄었습니다.",
+ "saw": "통상 진료와 비교한 우울 증상 효과크기 중앙값은 -0.43(IQR -0.66~-0.27)이었고 강도가 높을수록 개선이 컸습니다.",
+ "limit": "포함된 고찰 77개가 방법론적으로 매우 낮은 평가를 받았고 장기 중재에서 효과가 줄었습니다.",
+ "against": "중재 효과를 본 고찰에서도 연구 질과 지속 기간에 따라 효과 크기가 달랐습니다.",
+ "use": "우울 증상 관리에서 신체활동을 치료 계획의 한 요소로 제시할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "Physical activity interventions for depression · overview of systematic reviews",
+   "pmid": "36796860"
+  },
+  {
+   "label": "Physical activity for depression and anxiety · meta-meta-analysis",
+   "pmid": "25739893"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Depression → 403건, exact InterventionName 17건",
+  "pubmed": "\"physical activity\" AND \"Depression\" → 13323건",
+  "negative": "\"physical activity\" AND \"Depression\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3460건",
+  "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
+ }
 }

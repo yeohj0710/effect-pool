@@ -1,29 +1,35 @@
 {
-  "id": "myofascial-release-headache-pos",
-  "subj": "myofascial release",
-  "claim": "근막이완을 두통에 쓴다",
-  "line": "긴장형·경추성 두통 환자에게 근막이완은 통증과 장애를 줄였습니다",
-  "effect": "통증 SMD -2.01, 장애 -1.30",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "근막이완의 두통 치료 체계적 문헌고찰·메타분석에서 긴장형·경추성 두통의 통증과 장애가 줄었습니다.",
-  "saw": "전체 통증 표준화 평균차는 -2.01(95% CI -2.98~-1.03), 장애는 -1.30(-1.82~-0.79)이었고 긴장형·경추성 두통에서 유의했습니다.",
-  "limit": "참여자 총수는 초록에 없고 연구 간 이질성이 높았으며 편두통 통증 결과는 일관되지 않았습니다.",
-  "against": "45명 무작위시험에서는 근막이완보다 조작치료가 두통 빈도·중증도와 압통역치에서 더 나았습니다.",
-  "use": "긴장형·경추성 두통의 보조적 비약물 치료를 고를 때 참고합니다.",
-  "refs": [
-    { "label": "Myofascial release for headache · systematic review and meta-analysis", "pmid": "38585645" },
-    { "label": "Myofascial release versus manipulation in tension-type headache · randomized trial", "pmid": "33517104" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]myofascial release AND AREA[ConditionSearch]Headache → 17건, exact InterventionName 1건",
-    "pubmed": "\"myofascial release\" AND \"Headache\" → 26건",
-    "negative": "\"myofascial release\" AND \"Headache\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
-    "safety": "\"myofascial release\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 144건"
+ "id": "myofascial-release-headache-pos",
+ "subj": "근막이완",
+ "claim": "근막이완을 두통에 쓴다",
+ "line": "긴장형·경추성 두통 환자에게 근막이완은 통증과 장애를 줄였습니다",
+ "effect": "통증 SMD -2.01, 장애 -1.30",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "근막이완의 두통 치료 체계적 문헌고찰·메타분석에서 긴장형·경추성 두통의 통증과 장애가 줄었습니다.",
+ "saw": "전체 통증 표준화 평균차는 -2.01(95% CI -2.98~-1.03), 장애는 -1.30(-1.82~-0.79)이었고 긴장형·경추성 두통에서 유의했습니다.",
+ "limit": "참여자 총수는 초록에 없고 연구 간 이질성이 높았으며 편두통 통증 결과는 일관되지 않았습니다.",
+ "against": "45명 무작위시험에서는 근막이완보다 조작치료가 두통 빈도·중증도와 압통역치에서 더 나았습니다.",
+ "use": "긴장형·경추성 두통의 보조적 비약물 치료를 고를 때 참고합니다.",
+ "refs": [
+  {
+   "label": "Myofascial release for headache · systematic review and meta-analysis",
+   "pmid": "38585645"
+  },
+  {
+   "label": "Myofascial release versus manipulation in tension-type headache · randomized trial",
+   "pmid": "33517104"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]myofascial release AND AREA[ConditionSearch]Headache → 17건, exact InterventionName 1건",
+  "pubmed": "\"myofascial release\" AND \"Headache\" → 26건",
+  "negative": "\"myofascial release\" AND \"Headache\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
+  "safety": "\"myofascial release\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 144건"
+ }
 }

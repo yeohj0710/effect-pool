@@ -20914,3 +20914,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] light therapy glasses — Myopia에 듣는다  <!-- 시험 14건 · 논문 87편 --> — 기존 항목(light-therapy-glasses-myopia-null)
 - [x] light therapy glasses — Depression에 듣는다  <!-- 시험 8건 · 논문 35편 --> — 기존 항목(light-therapy-glasses-depression-obs)
 - [x] light therapy glasses — Fatigue에 듣는다  <!-- 시험 7건 · 논문 21편 --> — 기존 항목(light-therapy-glasses-fatigue-pos)
+
+## 자동 추출 — 후보
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
+있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
+
+- [ ] pollen extract — Allergic Asthma에 듣는다  <!-- 시험 22건 · 논문 863편 -->
+- [ ] pollen extract — Allergy에 듣는다  <!-- 시험 6건 · 논문 3606편 -->
+- [ ] community gardening — Cancer에 듣는다  <!-- 시험 3건 · 논문 203편 -->
+- [ ] gardening therapy — Stress에 듣는다  <!-- 시험 3건 · 논문 140편 -->
+
+## 자동 추출 — 후보
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
+있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
+
+- [ ] peanut butter — Food Allergy에 듣는다  <!-- 시험 5건 · 논문 74편 -->
+- [ ] fermented soy — Gut Microbiome에 듣는다  <!-- 시험 4건 · 논문 90편 -->
+- [ ] sesame seed — Food Allergy에 듣는다  <!-- 시험 3건 · 논문 137편 -->
+- [ ] apple cider vinegar — Diabetes에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] black cumin — Osteoarthritis에 듣는다  <!-- 시험 3건 · 논문 13편 -->
+- [ ] cranberry extract — Bacteriuria에 듣는다  <!-- 시험 5건 · 논문 22편 -->
