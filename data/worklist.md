@@ -2315,7 +2315,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gentamicin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->  → 신규 근거(gentamicin-sepsis-harm)
 - [x] gentamicin — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->  → 신규 근거(gentamicin-infections-null)
 - [x] gentamicin — Diabetic Foot Ulcer에 듣는다 — 새 항목(gentamicin-diabetic-foot-ulcer-null)  <!-- 등록 시험 7건 -->
-- [ ] gentamicin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] gentamicin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->  → 신규 근거(gentamicin-pneumonia-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2327,23 +2327,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] fluconazole — Hiv에 듣는다 — 새 항목(fluconazole-hiv-open)  <!-- 등록 시험 54건 -->
-- [ ] fluconazole — Meningitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] fluconazole — Meningitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->  → 신규 근거(fluconazole-meningitis-harm)
 - [x] fluconazole — Leukemia에 듣는다 — 새 항목(fluconazole-leukemia-null)  <!-- 등록 시험 30건 -->
-- [ ] fluconazole — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] fluconazole — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->  → 신규 근거(fluconazole-infection-null)
 - [x] itraconazole — Cancer에 듣는다  <!-- 등록 시험 45건 -->
 - [x] itraconazole — Solid Tumor에 듣는다  <!-- 등록 시험 23건 -->
 - [x] itraconazole — HIV Infection에 듣는다  <!-- 등록 시험 19건 -->
 - [x] itraconazole — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] voriconazole — Aspergillosis에 듣는다  <!-- 등록 시험 33건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] voriconazole — Candidiasis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] voriconazole — Aspergillosis에 듣는다  <!-- 등록 시험 33건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(voriconazole-aspergillosis-pos)
+- [x] voriconazole — Candidiasis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(voriconazole-candidiasis-pos)
 - [x] voriconazole — Leukemia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] voriconazole — HIV/AIDS에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] posaconazole — Leukemia에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] posaconazole — Leukemia에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(posaconazole-leukemia-pos)
 - [x] posaconazole — Mycoses에 듣는다  <!-- 등록 시험 10건 -->
-- [ ] posaconazole — Aspergillosis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] caspofungin — Candidiasis에 듣는다  <!-- 등록 시험 21건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] posaconazole — Aspergillosis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 기존 근거(posaconazole-mycoses-pos)
+- [x] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(posaconazole-myelodysplastic-syndrome-pos)
+- [x] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(caspofungin-infection-pos)
+- [x] caspofungin — Candidiasis에 듣는다  <!-- 등록 시험 21건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(caspofungin-candidiasis-null)
 - [ ] caspofungin — Aspergillosis에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] caspofungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] micafungin — Fungal Disease에 듣는다  <!-- 등록 시험 8건 -->
