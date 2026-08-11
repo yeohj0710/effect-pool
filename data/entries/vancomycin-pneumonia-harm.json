@@ -1,0 +1,29 @@
+{
+  "id": "vancomycin-pneumonia-harm",
+  "subj": "반코마이신",
+  "claim": "반코마이신이 MRSA 병원획득 폐렴을 치료한다",
+  "line": "MRSA 병원획득 폐렴에서 반코마이신의 임상 성공률은 리네졸리드보다 낮았습니다.",
+  "effect": "치료성공 46.6% 대 57.6%",
+  "vs": "MRSA 병원획득 폐렴 1,184명에서 임상 성공률은 개입군 46.6%(81/174), 대조군 57.6%(95/165)로 차이는 11.0%p였습니다(반코마이신 대 리네졸리드). 신독성은 18.2% 대 8.4%였습니다.",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 1184,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "반코마이신은 감수성 그람양성균의 중증 하기도 감염을 포함한 감염 치료에 허가된 글리코펩타이드 항생제입니다.",
+  "why": "MRSA 병원획득 또는 의료관련 폐렴 성인을 리네졸리드 또는 용량 최적화 반코마이신에 무작위 배정한 이중눈가림 다기관 시험입니다.",
+  "saw": "PP군의 치료 종료 임상 성공률은 반코마이신 46.6%, 리네졸리드 57.6%였고 P=.042였습니다. 60일 전체 사망률은 17.0% 대 15.7%로 비슷했으며 신독성은 반코마이신에서 더 흔했습니다.",
+  "limit": "주요 성공률은 PP군 결과이고 MRSA 병원획득 폐렴에 한정됩니다. 전체 치료군이나 다른 원인균 폐렴에 그대로 적용할 수 없습니다.",
+  "against": "사망률은 두 군이 비슷했고, 치료 성공 차이는 평가 가능한 PP군에서 관찰됐습니다. 반대 검색 3,586건과 안전성 검색 12,817건을 확인했습니다.",
+  "use": "MRSA 병원획득 폐렴에서 용량 최적화 반코마이신과 리네졸리드를 비교한 임상 성공률·신독성 근거로 사용합니다.",
+  "refs": [
+    { "label": "2012 · MRSA 병원획득 폐렴 linezolid·반코마이신 무작위시험", "pmid": "22247123" }
+  ],
+  "queried": {
+    "date": "2026-08-12",
+    "ctgov": "vancomycin AND Pneumonia → 84건 반환",
+    "pubmed": "vancomycin AND Pneumonia → 4,677건",
+    "negative": "vancomycin AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference OR null) → 3,586건",
+    "safety": "vancomycin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 12,817건"
+  }
+}

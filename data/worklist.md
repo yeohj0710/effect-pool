@@ -2262,17 +2262,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valsartan — Diabetes에 듣는다 — 기존 항목(valsartan-diabetes-null)  <!-- 등록 시험 25건 -->
 - [x] valsartan — Nephropathy에 듣는다 — 기존 항목(valsartan-nephropathy-open)  <!-- 등록 시험 15건 -->
 - [x] valsartan — Kidney Disease에 듣는다 — 기존 항목(valsartan-kidney-disease-null)  <!-- 등록 시험 13건 -->
-- [ ] candesartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] candesartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->  → 신규 근거(candesartan-heart-failure-pos)
 - [x] candesartan — Migraine에 듣는다 — 새 항목(candesartan-migraine-pos)  <!-- 등록 시험 8건 -->
 - [x] candesartan — Diabetes에 듣는다 — 새 항목(candesartan-diabetes-null)  <!-- 등록 시험 7건 -->
 - [x] candesartan — Obesity에 듣는다 — 새 항목(candesartan-obesity-open)  <!-- 등록 시험 6건 -->
-- [ ] irbesartan — Kidney Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
+- [x] irbesartan — Kidney Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->  → 신규 근거(irbesartan-kidney-disease-pos)
 - [x] irbesartan — IgA Nephropathy에 듣는다 — 새 항목(irbesartan-iga-nephropathy-null)  <!-- 등록 시험 8건 -->
 - [x] irbesartan — Obesity에 듣는다 — 새 항목(irbesartan-obesity-null)  <!-- 등록 시험 6건 -->
 - [x] irbesartan — Left Atrial Volume에 듣는다 — 새 항목(irbesartan-left-atrial-volume-pos)  <!-- 등록 시험 5건 -->
 - [x] amlodipine — Diabetes에 듣는다 — 기존 항목(amlodipine-diabetes-open)  <!-- 등록 시험 24건 -->
-- [ ] amlodipine — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] amlodipine — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] amlodipine — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->  → 기존 근거(amlodipine-blood-pressure-pos)
+- [x] amlodipine — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->  → 기존 근거(amlodipine-coronary-disease-open)
 - [x] amlodipine — Hyperlipidemia에 듣는다 — 기존 항목(amlodipine-hyperlipidemia-open)  <!-- 등록 시험 12건 -->
 - [x] nifedipine — Preterm Labor에 듣는다 — 새 항목(nifedipine-preterm-labor-pos)  <!-- 등록 시험 36건 -->
 - [x] nifedipine — Preeclampsia에 듣는다 — 새 항목(nifedipine-preeclampsia-pos)  <!-- 등록 시험 14건 -->
@@ -2288,14 +2288,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ceftriaxone — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
-- [ ] ceftriaxone — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] ceftriaxone — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 11건 -->
+- [x] ceftriaxone — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->  → 신규 근거(ceftriaxone-infections-null)
+- [x] ceftriaxone — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->  → 신규 근거(ceftriaxone-infection-null)
+- [x] ceftriaxone — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 11건 -->  → 신규 근거(ceftriaxone-sepsis-null)
 - [x] ceftriaxone — Lyme Disease에 듣는다 — 새 항목(ceftriaxone-lyme-disease-open)  <!-- 등록 시험 10건 -->
-- [ ] vancomycin — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 76건 -->
+- [x] vancomycin — Infections에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 76건 -->  → 신규 근거(vancomycin-infections-null)
 - [x] vancomycin — Implant Site Infection에 듣는다 — 새 항목(vancomycin-implant-site-infection-null)  <!-- 등록 시험 29건 -->
-- [ ] vancomycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
-- [ ] vancomycin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
+- [x] vancomycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->  → 신규 근거(vancomycin-pneumonia-harm)
+- [x] vancomycin — Sepsis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->  → 신규 근거(vancomycin-sepsis-null)
 - [x] linezolid — HIV Infections에 듣는다 — 새 항목(linezolid-hiv-infections-null)  <!-- 등록 시험 59건 -->
 - [ ] linezolid — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
 - [ ] linezolid — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
