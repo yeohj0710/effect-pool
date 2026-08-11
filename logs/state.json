@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5420,
-  "subjects": 2153,
-  "refs": 7748,
+  "entries": 5430,
+  "subjects": 2156,
+  "refs": 7758,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 1998
+    "rx": 2008
   },
-  "tiers": { "trial": 4603, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3189, "null": 1063, "open": 1019, "harm": 149 },
+  "tiers": { "trial": 4612, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3195, "null": 1064, "open": 1021, "harm": 150 },
   "worklist": {
     "total": 15542,
-    "checked": 13166,
-    "unchecked": 2376,
+    "checked": 13176,
+    "unchecked": 2366,
     "no_evidence_pending": 2059,
-    "note": "batch 1236에서 처방 주제 10개를 처리해 새 근거 항목 9개와 기존 항목 연결 1개를 반영했다. 다음 미처리 줄은 dexamethasone — Leukemia에 듣는다이며 2,376개가 남았다."
+    "note": "batch 1237에서 처방 주제 10개에 새 근거 항목 10개를 추가했다. 다음 미처리 줄은 2199번 apixaban — Embolism에 듣는다이며 2,366개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,12 +44,12 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "37% (1,998건). 줄어야 한다",
-    "no_effect_or_harm_share": "22% (1,212건). 목표는 33% 위",
-    "vs_share": "6.6% (359건)",
+    "rx_share": "37% (2,008건). 줄어야 한다",
+    "no_effect_or_harm_share": "22% (1,214건). 목표는 33% 위",
+    "vs_share": "6.8% (369건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.9% (4,603건)",
-    "non_trial_share": "15.1% (817건)",
+    "trial_share": "84.9% (4,612건)",
+    "non_trial_share": "15.1% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 968 }
   },
   "deployment": {
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1237 starts after batch 1236; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at the first unchecked worklist row: dexamethasone — Leukemia에 듣는다; 2,376 unchecked remain.",
+  "next": "batch 1238 starts after batch 1237; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2199: apixaban — Embolism에 듣는다; 2,366 unchecked remain.",
   "last_batch": {
-    "id": "1236",
-    "commit": "092a13ac",
-    "pushed": true,
+    "id": "1237",
+    "commit": "debf6c64",
+    "pushed": false,
     "processed_topics": 10,
-    "new_entries": 9,
-    "existing_links": 1,
+    "new_entries": 10,
+    "existing_links": 0,
     "no_evidence_rejects": 0,
-    "build": "5420 entries · 7748 refs · 4603 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "levetiracetam—Seizures, diltiazem—Hypertension·Stable Angina, indomethacin—Patent Ductus Arteriosus·Pain, furosemide—Hypertension·Fluid Overload, prednisolone—Leukemia·Cancer를 새로 추가하고 furosemide—Renal Impairment 기존 항목을 연결했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 레비티라세탐 뇌전증, 딜티아젬 고혈압·안정형 협심증, 인도메타신 동맥관개존증·통증, 푸로세미드 고혈압·체액 과다, 프레드니솔론 백혈병·암 근거를 새 항목으로 기록했고 푸로세미드 신기능장애는 기존 근거에 연결했다.",
+    "build": "5430 entries · 7758 refs · 4612 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "dexamethasone—Leukemia·Lymphoma·Cancer, hydrocortisone—Lymphoma·Cancer·Adrenal Insufficiency, enoxaparin—Thrombosis·Embolism, apixaban—Thromboembolism·Thrombosis를 새로 추가했다.",
+    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 덱사메타손 백혈병·림프종·암, 하이드로코르티손 림프종·암·부신기능부전, 에녹사파린 혈전증·색전증, 아픽사반 혈전색전증·혈전증 근거를 새 항목으로 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
