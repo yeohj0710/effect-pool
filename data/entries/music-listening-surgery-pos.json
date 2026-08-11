@@ -1,0 +1,30 @@
+{
+  "id": "music-listening-surgery-pos",
+  "subj": "음악 듣기",
+  "claim": "수술 관련 통증과 불안을 줄인다",
+  "line": "침습적 심혈관 시술 메타분석에서 음악 듣기는 통증과 불안을 줄였습니다.",
+  "effect": "통증 SMD −0.78; 불안 −0.86",
+  "vs": "21개 연구 2,141명; 음악 듣기 vs 대조 통증 SMD −0.78, 불안 −0.86",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2141,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "음악 듣기는 비약물 보조 중재이며 수술 통증 치료의 허가 적응증이 아닙니다.",
+  "why": "침습적 심혈관 시술 전후 음악 듣기를 대조군과 비교한 21개 연구 메타분석입니다.",
+  "saw": "음악 듣기는 시술 후 통증 SMD −0.78, 불안 −0.86, 심박수 −3.38회/분, 수축기혈압 −5.89mmHg였습니다.",
+  "limit": "시술 종류와 음악 선택이 달랐고 이완기혈압·호흡수는 유의하게 개선되지 않았습니다.",
+  "against": "음악 듣기가 마취·진통·수술 후 관찰을 대신한다는 근거는 아닙니다.",
+  "use": "시술팀 허용 범위에서 보조 음악을 사용하고 통증 점수와 표준 진통을 함께 관리합니다.",
+  "refs": [
+    { "label": "침습적 심혈관 시술 음악 듣기 메타분석", "pmid": "39866216" },
+    { "label": "수술 전 음악 중재 체계적 문헌고찰", "pmid": "23740695" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "music listening AND surgery; 78건",
+    "pubmed": "music listening AND surgery; 1,218편",
+    "negative": "music listening AND surgery AND (no effect OR no significant difference OR null OR harm OR adverse); 796편",
+    "safety": "music listening AND surgery AND (adverse OR safety OR toxicity OR harm OR case report OR overdose); 205편"
+  }
+}

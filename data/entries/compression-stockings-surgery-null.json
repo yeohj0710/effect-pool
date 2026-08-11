@@ -1,0 +1,30 @@
+{
+  "id": "compression-stockings-surgery-null",
+  "subj": "압박스타킹",
+  "claim": "수술 입원자의 약물 예방에 더해도 혈전 예방 이득이 추가되지 않았다",
+  "line": "수술 환자 메타분석에서 압박스타킹 추가는 혈전 예방 이득을 늘리지 않았습니다.",
+  "effect": "DVT RR 0.85; 추가 이득 불확실",
+  "vs": "수술 환자 2,653명 직접 비교; 압박스타킹+약물 vs 약물 DVT RR 0.85(95%CI 0.54~1.36)",
+  "tier": "trial",
+  "dir": "null",
+  "n": 14108,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "수술 환자 혈전 예방에서 압박스타킹은 일부 지침에 포함된 표준 보조법입니다.",
+  "why": "수술 입원자의 약물 혈전예방에 압박스타킹을 추가한 무작위시험 메타분석입니다.",
+  "saw": "직접 비교 2,653명에서 DVT 위험비는 0.85였고 신뢰구간이 1을 포함했습니다. 통합 시험군 14,108명에서도 추가 이득이 확실하지 않았습니다.",
+  "limit": "수술 종류·약물 예방·스타킹 순응도가 달랐고 피부 합병증과 비용 부담이 보고됐습니다.",
+  "against": "압박스타킹이 모든 수술에서 무용하거나 의사가 처방한 혈전 예방을 중단해야 한다는 뜻은 아닙니다.",
+  "use": "수술 종류와 혈전·피부 위험을 의료진과 확인해 적용 여부를 정합니다.",
+  "refs": [
+    { "label": "수술 환자 압박스타킹 추가 혈전예방 메타분석", "pmid": "37753655" },
+    { "label": "중환자 혈전예방 네트워크 메타분석", "pmid": "34419428" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "compression stockings AND surgery; 34건",
+    "pubmed": "compression stockings AND surgery; 1,532편",
+    "negative": "compression stockings AND surgery AND (no effect OR no significant difference OR null OR harm OR adverse); 952편",
+    "safety": "compression stockings AND surgery AND (adverse OR safety OR toxicity OR harm OR case report OR overdose); 559편"
+  }
+}

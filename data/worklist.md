@@ -730,33 +730,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] quetiapine — Major Depression에 듣는다 — 기존 항목(quetiapine-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 — 기존 항목(spironolactone-hypertension-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-kidney-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Acne에 듣는다 — 기존 항목(doxycycline-acne-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 — 기존 항목(doxycycline-syphilis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 — 기존 항목(colchicine-gout-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 — 기존 항목(dapagliflozin-heart-failure-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
+- [x] dapagliflozin — Kidney Diseases에 듣는다 — 기존 항목(dapagliflozin-kidney-diseases-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 204건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] semaglutide — Obesity에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 204건 -->
+- [x] semaglutide — Overweight에 듣는다 — 기존 항목(semaglutide-weight-loss-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] semaglutide — Weight Loss에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
 - [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] ketamine — Anesthesia에 듣는다 — 기존 항목(ketamine-anesthesia-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 29건 -->
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 — 기존 항목(prazosin-hypertension-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -21188,36 +21188,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness meditation — Concussion Mild에 듣는다 — 신규 항목(mindfulness-meditation-concussion-mild-open)  <!-- 시험 15건 · 논문 34편 -->
 - [x] mindfulness meditation — Drug Use에 듣는다 — 신규 항목(mindfulness-meditation-drug-use-open)  <!-- 시험 13건 · 논문 857편 -->
 - [x] mindfulness meditation — Diabetes에 듣는다 — 신규 항목(mindfulness-meditation-diabetes-open)  <!-- 시험 13건 · 논문 402편 -->
-- [ ] expressive writing — Cancer에 듣는다  <!-- 시험 19건 · 논문 150편 -->
-- [ ] expressive writing — Eating Disorders에 듣는다  <!-- 시험 7건 · 논문 17편 -->
-- [ ] expressive writing — Body Image에 듣는다  <!-- 시험 4건 · 논문 29편 -->
-- [ ] social media reduction — Anxiety에 듣는다  <!-- 시험 3건 · 논문 212편 -->
-- [ ] forest bathing — Stress에 듣는다  <!-- 시험 5건 · 논문 1073편 -->
-- [ ] sauna bathing — Depression에 듣는다  <!-- 시험 6건 · 논문 11편 -->
-- [ ] cold water immersion — Pain에 듣는다  <!-- 시험 8건 · 논문 555편 -->
-- [ ] power nap — Sleep에 듣는다  <!-- 시험 3건 · 논문 170편 -->
-- [ ] bright light exposure — Sleep에 듣는다  <!-- 시험 16건 · 논문 607편 -->
-- [ ] bright light exposure — Depression에 듣는다  <!-- 시험 10건 · 논문 237편 -->
-- [ ] bright light exposure — Circadian Rhythm에 듣는다  <!-- 시험 6건 · 논문 579편 -->
-- [ ] bright light exposure — Cancer에 듣는다  <!-- 시험 5건 · 논문 112편 -->
-- [ ] music listening — Anxiety에 듣는다  <!-- 시험 136건 · 논문 890편 -->
-- [ ] music listening — Sleep에 듣는다  <!-- 시험 25건 · 논문 324편 -->
-- [ ] music listening — Impairment에 듣는다  <!-- 시험 24건 · 논문 952편 -->
-- [ ] music listening — Surgery에 듣는다  <!-- 시험 22건 · 논문 1218편 -->
+- [x] expressive writing — Cancer에 듣는다 — 신규 항목(expressive-writing-cancer-open)  <!-- 시험 19건 · 논문 150편 -->
+- [x] expressive writing — Eating Disorders에 듣는다 — 신규 항목(expressive-writing-eating-disorders-pos)  <!-- 시험 7건 · 논문 17편 -->
+- [x] expressive writing — Body Image에 듣는다 — 신규 항목(expressive-writing-body-image-open)  <!-- 시험 4건 · 논문 29편 -->
+- [x] social media reduction — Anxiety에 듣는다 — 신규 항목(social-media-reduction-anxiety-null)  <!-- 시험 3건 · 논문 212편 -->
+- [x] forest bathing — Stress에 듣는다 — 신규 항목(forest-bathing-stress-pos)  <!-- 시험 5건 · 논문 1073편 -->
+- [x] sauna bathing — Depression에 듣는다 — 신규 항목(sauna-bathing-depression-open)  <!-- 시험 6건 · 논문 11편 -->
+- [x] cold water immersion — Pain에 듣는다 — 신규 항목(cold-water-immersion-pain-open)  <!-- 시험 8건 · 논문 555편 -->
+- [x] power nap — Sleep에 듣는다 — 신규 항목(power-nap-sleep-open)  <!-- 시험 3건 · 논문 170편 -->
+- [x] bright light exposure — Sleep에 듣는다 — 신규 항목(bright-light-exposure-sleep-pos)  <!-- 시험 16건 · 논문 607편 -->
+- [x] bright light exposure — Depression에 듣는다 — 신규 항목(bright-light-exposure-depression-pos)  <!-- 시험 10건 · 논문 237편 -->
+- [x] bright light exposure — Circadian Rhythm에 듣는다 — 신규 항목(bright-light-exposure-circadian-rhythm-open)  <!-- 시험 6건 · 논문 579편 -->
+- [x] bright light exposure — Cancer에 듣는다 — 신규 항목(bright-light-exposure-cancer-pos)  <!-- 시험 5건 · 논문 112편 -->
+- [x] music listening — Anxiety에 듣는다 — 신규 항목(music-listening-anxiety-open)  <!-- 시험 136건 · 논문 890편 -->
+- [x] music listening — Sleep에 듣는다 — 신규 항목(music-listening-sleep-pos)  <!-- 시험 25건 · 논문 324편 -->
+- [x] music listening — Impairment에 듣는다 — 신규 항목(music-listening-impairment-pos)  <!-- 시험 24건 · 논문 952편 -->
+- [x] music listening — Surgery에 듣는다 — 신규 항목(music-listening-surgery-pos)  <!-- 시험 22건 · 논문 1218편 -->
 - [x] aromatherapy — Anxiety에 듣는다  <!-- 시험 47건 · 논문 661편 -->
 - [x] aromatherapy — Music Therapy에 듣는다  <!-- 시험 4건 · 논문 229편 -->
 - [x] aromatherapy — Headache에 듣는다  <!-- 시험 4건 · 논문 35편 -->
 - [x] singing — Parkinson에 듣는다  <!-- 시험 6건 · 논문 101편 -->
-- [ ] singing — COPD에 듣는다  <!-- 시험 3건 · 논문 71편 -->
+- [x] singing — COPD에 듣는다 — 신규 항목(singing-copd-null)  <!-- 시험 3건 · 논문 71편 -->
 - [x] cupping therapy — Pain에 듣는다  <!-- 시험 45건 · 논문 358편 -->
 - [x] dry needling — Pain에 듣는다  <!-- 시험 282건 · 논문 1116편 -->
 - [x] dry needling — Stroke에 듣는다  <!-- 시험 13건 · 논문 64편 -->
 - [x] kinesiology taping — Pain에 듣는다  <!-- 시험 12건 · 논문 142편 -->
 - [x] kinesiology taping — Performance에 듣는다  <!-- 시험 4건 · 논문 141편 -->
-- [ ] kinesiology taping — Muscle Fatigue에 듣는다  <!-- 시험 4건 · 논문 14편 -->
+- [x] kinesiology taping — Muscle Fatigue에 듣는다 — 신규 항목(kinesiology-taping-muscle-fatigue-pos)  <!-- 시험 4건 · 논문 14편 -->
 - [x] compression stockings — Venous Ulcer에 듣는다  <!-- 시험 43건 · 논문 464편 -->
-- [ ] compression stockings — Surgery에 듣는다  <!-- 시험 3건 · 논문 1532편 -->
-- [ ] foam rolling — Muscle Tone에 듣는다  <!-- 시험 14건 · 논문 10편 -->
+- [x] compression stockings — Surgery에 듣는다 — 신규 항목(compression-stockings-surgery-null)  <!-- 시험 3건 · 논문 1532편 -->
+- [x] foam rolling — Muscle Tone에 듣는다 — 신규 항목(foam-rolling-muscle-tone-pos)  <!-- 시험 14건 · 논문 10편 -->
 - [x] foam rolling — Recovery에 듣는다  <!-- 시험 3건 · 논문 104편 -->
 - [x] massage therapy — Pain에 듣는다  <!-- 시험 70건 · 논문 4753편 -->
 - [ ] massage therapy — Leukemia에 듣는다  <!-- 시험 31건 · 논문 31편 -->
