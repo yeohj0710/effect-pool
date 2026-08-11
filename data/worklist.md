@@ -2219,24 +2219,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dabigatran — Thromboembolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 신규 항목(dabigatran-thromboembolism-pos)
 - [x] dabigatran — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 신규 항목(dabigatran-stroke-pos)
 - [x] dabigatran — Coronary Disease에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] dabigatran — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] fondaparinux — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 11건 -->
-- [ ] fondaparinux — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] dabigatran — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 신규 항목(dabigatran-thrombosis-pos)
+- [x] fondaparinux — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 11건 --> — 신규 항목(fondaparinux-pulmonary-embolism-pos)
+- [x] fondaparinux — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(fondaparinux-thrombosis-pos)
 - [x] fondaparinux — Cancer에 듣는다  <!-- 등록 시험 7건 -->
 - [x] fondaparinux — Coronary Disease에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] dalteparin — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 21건 -->
+- [x] dalteparin — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 21건 --> — 신규 항목(dalteparin-cancer-pos)
 - [x] dalteparin — Thrombosis에 듣는다  <!-- 등록 시험 19건 -->
 - [x] dalteparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dalteparin — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] dalteparin — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — 신규 항목(dalteparin-surgery-pos)
 - [x] tinzaparin — Thrombosis에 듣는다  <!-- 등록 시험 12건 -->
 - [x] tinzaparin — Cancer에 듣는다  <!-- 등록 시험 9건 -->
 - [x] tinzaparin — Pulmonary Embolism에 듣는다  <!-- 등록 시험 6건 -->
 - [x] tinzaparin — Bleeding에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 4건 -->
-- [ ] ticagrelor — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 90건 -->
-- [ ] ticagrelor — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] ticagrelor — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 90건 --> — 신규 항목(ticagrelor-infarction-pos)
+- [x] ticagrelor — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — 신규 항목(ticagrelor-stroke-null)
 - [x] ticagrelor — Platelet Function에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 23건 -->
 - [x] ticagrelor — Stable Angina에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] prasugrel — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 27건 -->
+- [x] prasugrel — Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 27건 --> — 신규 항목(prasugrel-infarction-pos)
 - [x] prasugrel — Platelet Function에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 9건 -->
 - [x] prasugrel — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 -->
 - [x] prasugrel — Diabetes에 듣는다  <!-- 등록 시험 6건 -->
@@ -2255,10 +2255,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoprolol — Myocardial Ischemia에 듣는다 — 기존 항목(metoprolol-myocardial-ischemia-pos)  <!-- 등록 시험 14건 -->
 - [x] metoprolol — Cardiomyopathy에 듣는다 — 기존 항목(metoprolol-cardiomyopathy-pos)  <!-- 등록 시험 13건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] valsartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 109건 -->
+- [x] valsartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 109건 --> — 기존 항목(valsartan-heart-failure-pos)
 - [x] valsartan — Diabetes에 듣는다 — 기존 항목(valsartan-diabetes-null)  <!-- 등록 시험 25건 -->
 - [x] valsartan — Nephropathy에 듣는다 — 기존 항목(valsartan-nephropathy-open)  <!-- 등록 시험 15건 -->
 - [x] valsartan — Kidney Disease에 듣는다 — 기존 항목(valsartan-kidney-disease-null)  <!-- 등록 시험 13건 -->
