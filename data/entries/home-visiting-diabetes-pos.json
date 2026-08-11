@@ -1,28 +1,32 @@
 {
-  "id": "home-visiting-diabetes-pos",
-  "subj": "home visiting",
-  "claim": "지역사회 보건요원의 가정 방문이 당뇨병 환자의 HbA1c를 낮춘다",
-  "line": "지역사회 보건요원 방문은 당뇨병 HbA1c를 낮췄습니다",
-  "effect": "HbA1c 0.53% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 268,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 방문은 의약품 허가 적응증이 아닌 당뇨병 관리 중재다",
-  "why": "지역사회 보건요원이 가정 방문으로 제공한 당뇨병 자기관리 중재의 군집 무작위시험에서 HbA1c가 낮아졌다.",
-  "saw": "참가자 268명 중 보건요원군 104명과 대조군 164명을 비교했다. 중재군의 평균 HbA1c가 0.53% 감소했고 비용효과적이었다.",
-  "limit": "군집 무작위시험이며 중재 지역과 보건요원 훈련이 달라 다른 환경에서 효과가 달라질 수 있다.",
-  "against": "모든 당뇨병 환자에게 동일한 효과가 나타나는지와 장기 합병증 감소는 확인되지 않았다.",
-  "use": "의료 접근성이 낮은 당뇨병 환자의 자기관리 지원에 지역사회 보건요원 방문을 평가할 때 참고한다.",
-  "refs": [
-    { "label": "Diabetes Care and Support Through Community Health Worker Home Visits 2019 · Human Resources for Health", "doi": "10.1186/s12960-019-0356-6", "pmid": "30836964" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=home visiting AND condition=Diabetes; 84건 반환, 중재명 일치 0건",
-    "pubmed": "home visiting AND Diabetes; 241건",
-    "negative": "home visiting AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 106건",
-    "safety": "home visiting AND (adverse OR toxicity OR case report OR harm OR dropout); 36건"
+ "id": "home-visiting-diabetes-pos",
+ "subj": "가정방문",
+ "claim": "지역사회 보건요원의 가정 방문이 당뇨병 환자의 HbA1c를 낮춘다",
+ "line": "지역사회 보건요원 방문은 당뇨병 HbA1c를 낮췄습니다",
+ "effect": "HbA1c 0.53% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 268,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 방문은 의약품 허가 적응증이 아닌 당뇨병 관리 중재다",
+ "why": "지역사회 보건요원이 가정 방문으로 제공한 당뇨병 자기관리 중재의 군집 무작위시험에서 HbA1c가 낮아졌다.",
+ "saw": "참가자 268명 중 보건요원군 104명과 대조군 164명을 비교했다. 중재군의 평균 HbA1c가 0.53% 감소했고 비용효과적이었다.",
+ "limit": "군집 무작위시험이며 중재 지역과 보건요원 훈련이 달라 다른 환경에서 효과가 달라질 수 있다.",
+ "against": "모든 당뇨병 환자에게 동일한 효과가 나타나는지와 장기 합병증 감소는 확인되지 않았다.",
+ "use": "의료 접근성이 낮은 당뇨병 환자의 자기관리 지원에 지역사회 보건요원 방문을 평가할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Diabetes Care and Support Through Community Health Worker Home Visits 2019 · Human Resources for Health",
+   "doi": "10.1186/s12960-019-0356-6",
+   "pmid": "30836964"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=home visiting AND condition=Diabetes; 84건 반환, 중재명 일치 0건",
+  "pubmed": "home visiting AND Diabetes; 241건",
+  "negative": "home visiting AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 106건",
+  "safety": "home visiting AND (adverse OR toxicity OR case report OR harm OR dropout); 36건"
+ }
 }

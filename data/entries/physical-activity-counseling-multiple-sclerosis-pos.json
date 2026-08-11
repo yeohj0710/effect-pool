@@ -1,30 +1,42 @@
 {
-  "id": "physical-activity-counseling-multiple-sclerosis-pos",
-  "subj": "physical activity counseling",
-  "claim": "신체활동 상담을 다발성경화증 우울·피로에 쓴다",
-  "line": "다발성경화증 전화 상담은 우울을 줄였습니다",
-  "effect": "우울 증상 d -0.72",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 92,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "우울증 또는 기분저하가 있는 다발성경화증 성인 92명을 전화 동기면담 기반 신체활동 상담군과 대기자 대조군으로 나눈 무작위시험입니다.",
-  "saw": "12주 상담은 우울 증상을 줄였고 긍정정서와 신체활동 변화가 효과를 매개했으며, 별도 64명 시험에서는 피로와 우울도 줄었습니다.",
-  "limit": "주요 표본은 우울 증상이 있는 다발성경화증 환자이고 자기보고 활동량과 대기자 대조군을 사용해 일반적인 다발성경화증 재활로 확대하기 어렵습니다.",
-  "against": "첫 시험의 우울 반응률 차이는 유의하지 않았고 신체활동 증가가 우울 중증도 변화를 직접 매개하지는 않았습니다.",
-  "use": "다발성경화증에서 우울·피로와 낮은 활동량이 함께 있을 때 전화 상담형 운동 중재를 보조 선택지로 검토합니다.",
-  "refs": [
-    { "label": "Telephone-based physical activity counseling for major depression in people with multiple sclerosis · randomized trial", "pmid": "23379265", "doi": "10.1037/a0031242" },
-    { "label": "Affective mediators of a physical activity intervention for depression in multiple sclerosis", "pmid": "24611925", "doi": "10.1037/a0035287" },
-    { "label": "Improving fatigue and depression in individuals with multiple sclerosis using telephone-administered physical activity counseling", "pmid": "26913621", "doi": "10.1037/ccp0000086" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Multiple Sclerosis → 20건, exact InterventionName 1건",
-    "pubmed": "\"physical activity counseling\" AND \"Multiple Sclerosis\" → 5건",
-    "negative": "\"physical activity counseling\" AND \"Multiple Sclerosis\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
-    "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ "id": "physical-activity-counseling-multiple-sclerosis-pos",
+ "subj": "신체활동상담",
+ "claim": "신체활동 상담을 다발성경화증 우울·피로에 쓴다",
+ "line": "다발성경화증 전화 상담은 우울을 줄였습니다",
+ "effect": "우울 증상 d -0.72",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 92,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "우울증 또는 기분저하가 있는 다발성경화증 성인 92명을 전화 동기면담 기반 신체활동 상담군과 대기자 대조군으로 나눈 무작위시험입니다.",
+ "saw": "12주 상담은 우울 증상을 줄였고 긍정정서와 신체활동 변화가 효과를 매개했으며, 별도 64명 시험에서는 피로와 우울도 줄었습니다.",
+ "limit": "주요 표본은 우울 증상이 있는 다발성경화증 환자이고 자기보고 활동량과 대기자 대조군을 사용해 일반적인 다발성경화증 재활로 확대하기 어렵습니다.",
+ "against": "첫 시험의 우울 반응률 차이는 유의하지 않았고 신체활동 증가가 우울 중증도 변화를 직접 매개하지는 않았습니다.",
+ "use": "다발성경화증에서 우울·피로와 낮은 활동량이 함께 있을 때 전화 상담형 운동 중재를 보조 선택지로 검토합니다.",
+ "refs": [
+  {
+   "label": "Telephone-based physical activity counseling for major depression in people with multiple sclerosis · randomized trial",
+   "pmid": "23379265",
+   "doi": "10.1037/a0031242"
+  },
+  {
+   "label": "Affective mediators of a physical activity intervention for depression in multiple sclerosis",
+   "pmid": "24611925",
+   "doi": "10.1037/a0035287"
+  },
+  {
+   "label": "Improving fatigue and depression in individuals with multiple sclerosis using telephone-administered physical activity counseling",
+   "pmid": "26913621",
+   "doi": "10.1037/ccp0000086"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Multiple Sclerosis → 20건, exact InterventionName 1건",
+  "pubmed": "\"physical activity counseling\" AND \"Multiple Sclerosis\" → 5건",
+  "negative": "\"physical activity counseling\" AND \"Multiple Sclerosis\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
+  "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ }
 }

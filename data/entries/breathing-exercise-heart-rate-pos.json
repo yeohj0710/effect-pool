@@ -1,26 +1,32 @@
 {
-  "id": "breathing-exercise-heart-rate-pos",
-  "subj": "breathing exercise",
-  "claim": "호흡 운동이 관상동맥경련 여성의 심박변이도를 높인다",
-  "line": "관상동맥경련 여성은 호흡 운동 직후 심박변이도가 높아졌습니다.",
-  "effect": "심박변이도 18.59→34.93 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 102,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "호흡 운동은 관상동맥경련의 심박변이도 개선에 허가된 적응증이 아닌 생활습관 중재입니다.",
-  "why": "관상동맥경련 여성 117명이 4주 대조 기간 뒤 4주 호흡 운동 앱을 사용한 다기관 교차시험에서 102명이 완료했습니다.",
-  "saw": "호흡 이완 운동 직후 심박변이도 RMSSD 중앙값이 18.59ms에서 34.93ms로 올랐습니다. 그러나 협심증 증상, 삶의 질, 지각 스트레스는 유의하게 좋아지지 않았습니다.",
-  "limit": "단일 순서 교차시험이고 앱과 생체신호 피드백을 함께 사용했습니다. 심장 증상이라는 일차 평가변수는 개선되지 않았습니다.",
-  "against": "호흡 운동 앱은 협심증 증상을 유의하게 줄이지 못했습니다.",
-  "use": "일차 평가변수는 실패했지만 호흡 직후 심박변이도에서 나타난 별도 신호로 기록합니다.",
-  "refs": [{ "label": "관상동맥경련 여성 호흡 기반 스트레스 관리 앱 시험", "pmid": "42517514", "nct": "NCT06171893" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=breathing exercise · cond=Heart Rate → 98건 반환, 개입명 대조 11건",
-    "pubmed": "\"breathing exercise\" AND \"Heart Rate\" → 108편, PMID 42517514 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 23편",
-    "safety": "\"breathing exercise\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 63편"
+ "id": "breathing-exercise-heart-rate-pos",
+ "subj": "호흡운동",
+ "claim": "호흡 운동이 관상동맥경련 여성의 심박변이도를 높인다",
+ "line": "관상동맥경련 여성은 호흡 운동 직후 심박변이도가 높아졌습니다.",
+ "effect": "심박변이도 18.59→34.93 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 102,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "호흡 운동은 관상동맥경련의 심박변이도 개선에 허가된 적응증이 아닌 생활습관 중재입니다.",
+ "why": "관상동맥경련 여성 117명이 4주 대조 기간 뒤 4주 호흡 운동 앱을 사용한 다기관 교차시험에서 102명이 완료했습니다.",
+ "saw": "호흡 이완 운동 직후 심박변이도 RMSSD 중앙값이 18.59ms에서 34.93ms로 올랐습니다. 그러나 협심증 증상, 삶의 질, 지각 스트레스는 유의하게 좋아지지 않았습니다.",
+ "limit": "단일 순서 교차시험이고 앱과 생체신호 피드백을 함께 사용했습니다. 심장 증상이라는 일차 평가변수는 개선되지 않았습니다.",
+ "against": "호흡 운동 앱은 협심증 증상을 유의하게 줄이지 못했습니다.",
+ "use": "일차 평가변수는 실패했지만 호흡 직후 심박변이도에서 나타난 별도 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "관상동맥경련 여성 호흡 기반 스트레스 관리 앱 시험",
+   "pmid": "42517514",
+   "nct": "NCT06171893"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=breathing exercise · cond=Heart Rate → 98건 반환, 개입명 대조 11건",
+  "pubmed": "\"breathing exercise\" AND \"Heart Rate\" → 108편, PMID 42517514 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 23편",
+  "safety": "\"breathing exercise\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 63편"
+ }
 }

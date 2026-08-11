@@ -1,0 +1,30 @@
+{
+  "id": "thalidomide-cancer-pos",
+  "subj": "탈리도마이드",
+  "claim": "탈리도마이드가 암 방사선치료 뒤 뇌손상을 줄인다",
+    "line": "방사선치료 뒤 뇌손상 단일군 시험에서 27명(46.6%)의 뇌부종이 25% 이상 줄었습니다",
+  "effect": "뇌부종 반응 46.6%",
+  "vs": "대조군 없는 단일군 58명에서 27명(46.6%)이 뇌부종 부피를 25% 이상 줄였고, 임상 호전은 25명(43.1%)이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "다발골수종 치료 허가, 방사선 뇌손상은 별도 시험",
+  "why": "기존 치료에 반응하지 않거나 금기가 있는 방사선 유발 뇌손상 환자를 대상으로 한 2상 단일군 시험입니다",
+  "saw": "58명이 참여했고 인지점수 개선은 36명(62.1%)에서 관찰됐습니다",
+  "limit": "대조군이 없고 두경부암 방사선치료 뒤 뇌손상이라는 특정 환자군이라 일반 암 치료 효과가 아닙니다",
+  "against": "대조군과 자연 경과를 비교하지 못해 뇌부종 감소를 탈리도마이드의 단독 효과로 확정할 수 없습니다",
+  "use": "탈리도마이드의 암 관련 새로운 신호를 단일군 반응률과 대조군 부재로 함께 표시합니다",
+  "n": 58,
+  "synth": "single",
+  "refs": [
+    { "label": "Cheng 2023 · Science Translational Medicine · 방사선 뇌손상 2상", "doi": "10.1126/scitranslmed.abm6543", "pmid": "36812346", "nct": "NCT03208413" },
+    { "label": "Govindarajan 2002 · Oncology · 전이성 대장암 병용 예비자료", "pmid": "12014864" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=thalidomide&query.cond=Cancer; 총 340건, intervention exact 89건; NCT00871013 등",
+    "pubmed": "thalidomide AND cancer → 6,729건",
+    "negative": "thalidomide AND cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 4,447건",
+    "safety": "thalidomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 7,171건"
+  }
+}

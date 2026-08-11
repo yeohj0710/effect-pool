@@ -1,0 +1,30 @@
+{
+  "id": "prazosin-hypertension-pos",
+  "subj": "프라조신",
+  "claim": "프라조신이 고혈압을 낮춘다",
+    "line": "고혈압 비교시험에서 프라조신의 혈압 반응률은 단독요법 64.0%였습니다",
+  "effect": "반응 64.0% vs 64.1%",
+  "vs": "경증·중등도 고혈압 단독요법에서 프라조신 115명 vs 우라피딜 107명의 혈압 반응률은 64.0% 대 64.1%였고, 이뇨제 병용은 65.0% 대 66.7%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "고혈압 치료 허가",
+  "why": "고혈압 외래환자를 프라조신 또는 비교 약물에 무작위 배정한 다기관 이중눈가림 비교시험입니다",
+  "saw": "전체 412명이 참여했고 단독·병용요법 모두 치료 뒤 혈압이 유의하게 내려갔습니다",
+  "limit": "오래된 비교시험이며 위약 대비 효과보다 다른 알파차단제와의 반응률 비교가 중심입니다",
+  "against": "프라조신과 우라피딜의 반응률 차이는 단독·병용요법 모두 유의하지 않았습니다",
+  "use": "프라조신의 고혈압 반응률과 비교 약물 대비 비슷했던 결과를 함께 보여줍니다",
+  "n": 412,
+  "synth": "single",
+  "refs": [
+    { "label": "Kaneko 1988 · Drugs · 프라조신 비교시험", "doi": "10.2165/00003495-198800356-00021", "pmid": "3042355" },
+    { "label": "Torvik 1986 · British Journal of Clinical Pharmacology · 프라조신·위약 비교", "doi": "10.1111/j.1365-2125.1986.tb02856.x", "pmid": "2939870", "pmc": "PMC1400760" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=prazosin&query.cond=Hypertension; 총 25건, intervention exact 5건; NCT04967443 등",
+    "pubmed": "prazosin AND hypertension → 2,690건",
+    "negative": "prazosin AND hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2,240건",
+    "safety": "prazosin AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 1,914건"
+  }
+}

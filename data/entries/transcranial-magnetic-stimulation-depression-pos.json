@@ -1,0 +1,30 @@
+{
+  "id": "transcranial-magnetic-stimulation-depression-pos",
+  "subj": "경두개 자기자극",
+  "claim": "경두개 자기자극이 우울증을 줄인다",
+    "line": "우울증 가짜자극 대조시험에서 실제 자기자극 반응률은 29.3%, 가짜자극은 10.4%였습니다",
+  "effect": "반응 29.3% vs 10.4%",
+  "vs": "우울증 29개 이중눈가림 RCT 1,371명에서 고주파 자기자극 반응률은 29.3% vs 가짜자극 10.4%, 관해율은 18.6% vs 5.0%였고 두 결과의 OR은 3.3이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "우울증 치료용 자기자극 기기 허가",
+  "why": "우울증 환자를 실제 고주파 자기자극과 가짜자극에 무작위 배정한 시험을 합친 메타분석입니다",
+  "saw": "약 13회 자극 뒤 반응·관해를 판정했고 중도탈락률은 두 군에서 비슷했습니다",
+  "limit": "자극 위치·횟수·우울증 중증도가 연구마다 달라 효과 크기가 단일 치료법의 값은 아닙니다",
+  "against": "네트워크 메타분석에서는 자극 방식별 반응 OR가 2.65~6.02로 달라 최적 방식이 하나로 정해지지 않았습니다",
+  "use": "우울증 자기자극의 반응률과 가짜자극 대비 차이를 자극 방식별 불확실성과 함께 보여줍니다",
+  "n": 1371,
+  "synth": "meta",
+  "refs": [
+    { "label": "Berlim 2014 · Psychological Medicine · 고주파 rTMS 메타분석", "doi": "10.1017/S0033291713000512", "pmid": "23507264" },
+    { "label": "Mutz 2019 · BMJ · 뇌자극 네트워크 메타분석", "doi": "10.1136/bmj.l1079", "pmid": "30917990", "pmc": "PMC6435996" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=transcranial magnetic stimulation&query.cond=Depression; 총 531건, intervention exact 41건; NCT06357104 등",
+    "pubmed": "transcranial magnetic stimulation AND depression → 5,248건",
+    "negative": "transcranial magnetic stimulation AND depression AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3,860건",
+    "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 3,416건"
+  }
+}

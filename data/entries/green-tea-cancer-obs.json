@@ -1,0 +1,29 @@
+{
+  "id": "green-tea-cancer-obs",
+  "subj": "녹차 추출물",
+  "claim": "녹차 섭취가 식도암 위험을 낮춘다",
+  "line": "20개 관찰연구에서 녹차 섭취군의 식도암 위험이 비교군보다 낮았습니다",
+  "effect": "식도암 RR 0.65",
+  "vs": "녹차 섭취군과 비교군을 나눈 20개 관찰연구에서 식도암 위험의 통합 RR은 0.65 (95% CI 0.57~0.73)였습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "식품이라 암 예방은 의약품 허가 적응증이 아님",
+  "why": "녹차 섭취와 식도암 위험을 비교한 관찰연구 메타분석입니다",
+  "saw": "20개 연구를 합쳤고 전체 RR은 0.65였지만 연구 간 이질성 I²가 75.3%였습니다",
+  "limit": "무작위시험이 아니며 지역·성별·연구 질에 따라 효과 크기가 달랐습니다",
+  "against": "반대 검색에서 암종별 결과가 일관되지 않았고, 식도암 자료만으로 다른 암까지 넓힐 수 없습니다",
+  "use": "녹차와 암 위험의 관찰 연관성을 보여줄 때 높은 이질성과 인과 불확실성을 함께 적습니다",
+  "n": null,
+  "synth": "meta",
+  "refs": [
+    { "label": "Yi 2020 · Nutrition and Cancer · 식도암 메타분석", "doi": "10.1080/01635581.2019.1636101", "pmid": "31274008" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=green tea&query.cond=Cancer; 총 148건, intervention exact 28건; NCT00459407 등",
+    "pubmed": "green tea AND cancer → 7,585건",
+    "negative": "green tea AND cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5,775건",
+    "safety": "green tea AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 8,922건"
+  }
+}

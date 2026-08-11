@@ -1,20 +1,32 @@
 {
-  "id": "colchicine-inflammatory-markers-pos",
-  "subj": "colchicine",
-  "claim": "colchicine을 급성 심부전의 염증 표지 감소에 쓴다",
-  "line": "급성 심부전에서 콜히친은 염증 표지 감소 신호를 보였다.",
-  "effect": "CRP 비 0.60 · IL-6 비 0.72",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 278,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "급성 심부전의 염증 표지 감소는 colchicine의 허가 적응증이 아니다",
-  "why": "COLICA 시험에서 급성 심부전 환자의 염증 활성화를 colchicine과 위약으로 비교했다",
-  "saw": "278명에서 CRP 변화율 비 0.60(P<.001), IL-6 변화율 비 0.72(P=.019)였다",
-  "limit": "염증 표지의 개선이 심부전 사건 감소로 이어졌는지는 확인하지 못했다",
-  "against": "NT-proBNP 감소율과 새 심부전 악화는 위약과 다르지 않았다",
-  "use": "부작용과 구분해 염증 표지 감소라는 별도 신호로 기록합니다.",
-  "refs": [{ "label": "2024 · COLICA 급성 심부전 무작위시험", "doi": "10.1093/eurheartj/ehae538", "pmid": "39211951" }],
-  "queried": { "date": "2026-08-08", "ctgov": "colchicine AND Inflammatory Markers; 4건", "pubmed": "colchicine AND inflammatory markers; COLICA 결과 확인", "negative": "colchicine AND inflammatory markers AND no effect; NT-proBNP 결과 확인", "safety": "colchicine AND inflammatory markers AND adverse; 설사 보고 확인" }
+ "id": "colchicine-inflammatory-markers-pos",
+ "subj": "콜히친",
+ "claim": "colchicine을 급성 심부전의 염증 표지 감소에 쓴다",
+ "line": "급성 심부전에서 콜히친은 염증 표지 감소 신호를 보였다.",
+ "effect": "CRP 비 0.60 · IL-6 비 0.72",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 278,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "급성 심부전의 염증 표지 감소는 colchicine의 허가 적응증이 아니다",
+ "why": "COLICA 시험에서 급성 심부전 환자의 염증 활성화를 colchicine과 위약으로 비교했다",
+ "saw": "278명에서 CRP 변화율 비 0.60(P<.001), IL-6 변화율 비 0.72(P=.019)였다",
+ "limit": "염증 표지의 개선이 심부전 사건 감소로 이어졌는지는 확인하지 못했다",
+ "against": "NT-proBNP 감소율과 새 심부전 악화는 위약과 다르지 않았다",
+ "use": "부작용과 구분해 염증 표지 감소라는 별도 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "2024 · COLICA 급성 심부전 무작위시험",
+   "doi": "10.1093/eurheartj/ehae538",
+   "pmid": "39211951"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "colchicine AND Inflammatory Markers; 4건",
+  "pubmed": "colchicine AND inflammatory markers; COLICA 결과 확인",
+  "negative": "colchicine AND inflammatory markers AND no effect; NT-proBNP 결과 확인",
+  "safety": "colchicine AND inflammatory markers AND adverse; 설사 보고 확인"
+ }
 }

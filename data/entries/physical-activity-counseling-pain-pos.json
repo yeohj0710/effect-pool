@@ -1,28 +1,31 @@
 {
-  "id": "physical-activity-counseling-pain-pos",
-  "subj": "physical activity counseling",
-  "claim": "신체활동 상담을 염증성 관절염 통증에 쓴다",
-  "line": "신체활동 상담은 염증성 관절염 통증을 8주에 줄였습니다",
-  "effect": "통증 차이 -2.45점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 118,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "류마티스관절염 또는 전신홍반루푸스 환자 118명이 물리치료사 교육·상담, Fitbit, 웹 피드백과 전화 추적을 받는 즉시군 또는 지연군에 참여한 무작위시험입니다.",
-  "saw": "중재군의 중등도 이상 신체활동은 하루 9.4분 차이였고 통증은 -2.45점으로 유의하게 개선됐으며 류마티스관절염 하위군 효과가 더 컸습니다.",
-  "limit": "류마티스관절염과 루푸스를 합쳤고 신체활동 증가는 전체군에서 유의하지 않아 질환별 효과가 다를 수 있습니다.",
-  "against": "중등도 이상 활동의 전체군 차이는 유의하지 않았고 피로·기분·자기관리 결과도 대부분 통계적으로 유의하지 않았습니다.",
-  "use": "염증성 관절염의 통증관리에서 상담과 활동추적을 병용할 때 통증 신호와 질환별 불확실성을 함께 고려합니다.",
-  "refs": [
-    { "label": "Efficacy of a physical activity counseling program with use of a wearable tracker in inflammatory arthritis · randomized controlled trial", "pmid": "32248626" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Pain → 293건, exact InterventionName 1건",
-    "pubmed": "\"physical activity counseling\" AND \"Pain\" → 20건",
-    "negative": "\"physical activity counseling\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
-    "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ "id": "physical-activity-counseling-pain-pos",
+ "subj": "신체활동상담",
+ "claim": "신체활동 상담을 염증성 관절염 통증에 쓴다",
+ "line": "신체활동 상담은 염증성 관절염 통증을 8주에 줄였습니다",
+ "effect": "통증 차이 -2.45점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 118,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "류마티스관절염 또는 전신홍반루푸스 환자 118명이 물리치료사 교육·상담, Fitbit, 웹 피드백과 전화 추적을 받는 즉시군 또는 지연군에 참여한 무작위시험입니다.",
+ "saw": "중재군의 중등도 이상 신체활동은 하루 9.4분 차이였고 통증은 -2.45점으로 유의하게 개선됐으며 류마티스관절염 하위군 효과가 더 컸습니다.",
+ "limit": "류마티스관절염과 루푸스를 합쳤고 신체활동 증가는 전체군에서 유의하지 않아 질환별 효과가 다를 수 있습니다.",
+ "against": "중등도 이상 활동의 전체군 차이는 유의하지 않았고 피로·기분·자기관리 결과도 대부분 통계적으로 유의하지 않았습니다.",
+ "use": "염증성 관절염의 통증관리에서 상담과 활동추적을 병용할 때 통증 신호와 질환별 불확실성을 함께 고려합니다.",
+ "refs": [
+  {
+   "label": "Efficacy of a physical activity counseling program with use of a wearable tracker in inflammatory arthritis · randomized controlled trial",
+   "pmid": "32248626"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Pain → 293건, exact InterventionName 1건",
+  "pubmed": "\"physical activity counseling\" AND \"Pain\" → 20건",
+  "negative": "\"physical activity counseling\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
+  "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ }
 }

@@ -1,26 +1,32 @@
 {
-  "id": "flaxseed-insulin-pos",
-  "subj": "flaxseed",
-  "claim": "식이섬유·아마씨 식품 보충이 제2형 당뇨병의 인슐린저항성을 개선하는지 평가한다",
-  "line": "제2형 당뇨병에서 식이섬유와 아마씨 중재 뒤 인슐린저항성이 개선됐다.",
-  "effect": "인슐린저항성 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 641,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "아마씨는 허가 적응증이 없는 식품 성분이다",
-  "why": "제2형 당뇨병 인슐린저항성에 아마씨를 포함한 수용성·혼합 식이섬유 중재를 적용한 시험들을 종합했다",
-  "saw": "13개 무작위시험 641명에서 HOMA-IR과 관련 지표가 좋아졌고 일부 시험에서 공복혈당, HbA1c, LDL, 체중도 개선됐다",
-  "limit": "식이섬유 종류·용량·기간이 달라 아마씨 단독 효과를 분리할 수 없고 장기 자료가 부족하다",
-  "against": "모든 결과가 아마씨에 의한 것이라고 볼 수 없다",
-  "use": "아마씨를 포함한 식이섬유 중재의 인슐린저항성 근거 범위를 표시하는 데 쓴다",
-  "refs": [{ "label": "제2형 당뇨병 식이섬유 인슐린저항성 체계적 문헌고찰", "doi": "10.4103/jehp.jehp_880_25", "pmid": "41788957" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=flaxseed · cond=Insulin 16건, 일치 16건",
-    "pubmed": "flaxseed AND Insulin 208건",
-    "negative": "flaxseed AND Insulin AND (no effect OR did not OR failed OR negative OR no significant difference) 190건",
-    "safety": "flaxseed AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 707건"
+ "id": "flaxseed-insulin-pos",
+ "subj": "아마씨",
+ "claim": "식이섬유·아마씨 식품 보충이 제2형 당뇨병의 인슐린저항성을 개선하는지 평가한다",
+ "line": "제2형 당뇨병에서 식이섬유와 아마씨 중재 뒤 인슐린저항성이 개선됐다.",
+ "effect": "인슐린저항성 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 641,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "아마씨는 허가 적응증이 없는 식품 성분이다",
+ "why": "제2형 당뇨병 인슐린저항성에 아마씨를 포함한 수용성·혼합 식이섬유 중재를 적용한 시험들을 종합했다",
+ "saw": "13개 무작위시험 641명에서 HOMA-IR과 관련 지표가 좋아졌고 일부 시험에서 공복혈당, HbA1c, LDL, 체중도 개선됐다",
+ "limit": "식이섬유 종류·용량·기간이 달라 아마씨 단독 효과를 분리할 수 없고 장기 자료가 부족하다",
+ "against": "모든 결과가 아마씨에 의한 것이라고 볼 수 없다",
+ "use": "아마씨를 포함한 식이섬유 중재의 인슐린저항성 근거 범위를 표시하는 데 쓴다",
+ "refs": [
+  {
+   "label": "제2형 당뇨병 식이섬유 인슐린저항성 체계적 문헌고찰",
+   "doi": "10.4103/jehp.jehp_880_25",
+   "pmid": "41788957"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=flaxseed · cond=Insulin 16건, 일치 16건",
+  "pubmed": "flaxseed AND Insulin 208건",
+  "negative": "flaxseed AND Insulin AND (no effect OR did not OR failed OR negative OR no significant difference) 190건",
+  "safety": "flaxseed AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 707건"
+ }
 }

@@ -1,20 +1,33 @@
 {
-  "id": "acupuncture-hypertension-pos",
-  "subj": "acupuncture",
-  "claim": "acupuncture을 고혈압의 혈압 감소에 쓴다",
-  "line": "원발성 고혈압 환자에서 침술은 수축기·이완기 혈압을 낮췄다.",
+ "id": "acupuncture-hypertension-pos",
+ "subj": "침술",
+ "claim": "acupuncture을 고혈압의 혈압 감소에 쓴다",
+ "line": "원발성 고혈압 환자에서 침술은 수축기·이완기 혈압을 낮췄다.",
   "effect": "혈압 -6.73/-6.59mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 812,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "고혈압 치료는 acupuncture의 허가 적응증이 아니다",
-  "why": "2015~2024년 원발성 고혈압 무작위시험을 체계적으로 합쳤다",
-  "saw": "무작위시험 7건 812명에서 수축기 혈압 MD -6.73mmHg, 이완기 혈압 MD -6.59mmHg였다",
-  "limit": "수축기 I² 73.3%, 이완기 I² 90.9%로 이질성이 높고 이상반응 보고가 제한적이었다",
-  "against": "포함 연구 수가 적고 침술 방식별 하위군도 작았다",
-  "use": "혈압 감소의 탐색적 신호로 기록하며 항고혈압제 대체로 사용하지 않는다",
-  "refs": [{ "label": "2026 · 원발성 고혈압 acupuncture 메타분석", "doi": "10.1080/08037051.2026.2654103", "pmid": "41919743" }],
-  "queried": { "date": "2026-08-08", "ctgov": "acupuncture AND Hypertension; 27건 반환", "pubmed": "acupuncture AND hypertension; 무작위시험 메타분석 확인", "negative": "acupuncture AND hypertension AND heterogeneity; 높은 이질성 확인", "safety": "acupuncture AND hypertension AND adverse; 이상반응 보고 제한 확인" }
+  "vs": "침술군 수축기·이완기 혈압은 각각 6.73·6.59mmHg 낮았다 (대조군 대비)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 812,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "고혈압 치료는 acupuncture의 허가 적응증이 아니다",
+ "why": "2015~2024년 원발성 고혈압 무작위시험을 체계적으로 합쳤다",
+ "saw": "무작위시험 7건 812명에서 수축기 혈압 MD -6.73mmHg, 이완기 혈압 MD -6.59mmHg였다",
+ "limit": "수축기 I² 73.3%, 이완기 I² 90.9%로 이질성이 높고 이상반응 보고가 제한적이었다",
+ "against": "포함 연구 수가 적고 침술 방식별 하위군도 작았다",
+ "use": "혈압 감소의 탐색적 신호로 기록하며 항고혈압제 대체로 사용하지 않는다",
+ "refs": [
+  {
+   "label": "2026 · 원발성 고혈압 acupuncture 메타분석",
+   "doi": "10.1080/08037051.2026.2654103",
+   "pmid": "41919743"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "acupuncture AND Hypertension; 27건 반환",
+  "pubmed": "acupuncture AND hypertension; 무작위시험 메타분석 확인",
+  "negative": "acupuncture AND hypertension AND heterogeneity; 높은 이질성 확인",
+  "safety": "acupuncture AND hypertension AND adverse; 이상반응 보고 제한 확인"
+ }
 }

@@ -1,20 +1,32 @@
 {
-  "id": "colchicine-aortic-stenosis-harm",
-  "subj": "colchicine",
-  "claim": "colchicine을 TAVR 뒤 부정맥 예방에 쓰면 복합 사건은 줄지만 뇌졸중이 늘 수 있다",
-  "line": "TAVR 뒤 콜히친은 복합 사건을 줄였지만 뇌졸중이 늘어 시험이 중단됐다.",
-  "effect": "복합 사건 10% 대 25%",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 120,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "TAVR 뒤 부정맥 예방은 colchicine의 허가 적응증이 아니다",
-  "why": "대동맥판막협착증으로 TAVR을 받은 환자에서 colchicine과 위약을 비교한 이중눈가림 무작위시험이다",
-  "saw": "120명에서 30일 복합 사건은 colchicine 10%, 위약 25%였지만 뇌졸중은 8.3% 대 0%로 시험이 중단됐다",
-  "limit": "단일 기관 120명 시험이며 사전 중간분석에서 조기 중단됐다",
-  "against": "주요 복합 결과의 감소가 뇌졸중 위험 증가와 함께 관찰됐다",
-  "use": "colchicine의 잠재적 심장 이득보다 TAVR 뒤 뇌졸중 신호를 우선 기록합니다",
-  "refs": [{ "label": "2025 · TAVR 뒤 colchicine 이중눈가림 무작위시험", "doi": "10.1038/s41467-025-61916-6", "pmid": "40659682" }],
-  "queried": { "date": "2026-08-08", "ctgov": "colchicine AND Aortic Stenosis; 3건", "pubmed": "colchicine AND aortic stenosis; 무작위시험 확인", "negative": "colchicine AND aortic stenosis AND no effect; 복합 결과 확인", "safety": "colchicine AND aortic stenosis AND stroke; 뇌졸중 증가로 조기 중단 확인" }
+ "id": "colchicine-aortic-stenosis-harm",
+ "subj": "콜히친",
+ "claim": "colchicine을 TAVR 뒤 부정맥 예방에 쓰면 복합 사건은 줄지만 뇌졸중이 늘 수 있다",
+ "line": "TAVR 뒤 콜히친은 복합 사건을 줄였지만 뇌졸중이 늘어 시험이 중단됐다.",
+ "effect": "복합 사건 10% 대 25%",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 120,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "TAVR 뒤 부정맥 예방은 colchicine의 허가 적응증이 아니다",
+ "why": "대동맥판막협착증으로 TAVR을 받은 환자에서 colchicine과 위약을 비교한 이중눈가림 무작위시험이다",
+ "saw": "120명에서 30일 복합 사건은 colchicine 10%, 위약 25%였지만 뇌졸중은 8.3% 대 0%로 시험이 중단됐다",
+ "limit": "단일 기관 120명 시험이며 사전 중간분석에서 조기 중단됐다",
+ "against": "주요 복합 결과의 감소가 뇌졸중 위험 증가와 함께 관찰됐다",
+ "use": "colchicine의 잠재적 심장 이득보다 TAVR 뒤 뇌졸중 신호를 우선 기록합니다",
+ "refs": [
+  {
+   "label": "2025 · TAVR 뒤 colchicine 이중눈가림 무작위시험",
+   "doi": "10.1038/s41467-025-61916-6",
+   "pmid": "40659682"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "colchicine AND Aortic Stenosis; 3건",
+  "pubmed": "colchicine AND aortic stenosis; 무작위시험 확인",
+  "negative": "colchicine AND aortic stenosis AND no effect; 복합 결과 확인",
+  "safety": "colchicine AND aortic stenosis AND stroke; 뇌졸중 증가로 조기 중단 확인"
+ }
 }

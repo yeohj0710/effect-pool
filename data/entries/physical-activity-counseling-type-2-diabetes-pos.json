@@ -1,28 +1,33 @@
 {
-  "id": "physical-activity-counseling-type-2-diabetes-pos",
-  "subj": "physical activity counseling",
-  "claim": "신체활동 상담을 제2형 당뇨병 관리에 쓴다",
-  "line": "12주 HbA1c는 낮았지만 26주에는 차이가 없었습니다",
-  "effect": "12주 HbA1c -0.49~-1.04%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 269,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 상담·앱 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "제2형 당뇨병 환자 269명을 일반관리, 모바일 자기관리, 의사 피드백을 포함한 모바일 자기관리군으로 나눈 26주 무작위시험입니다.",
-  "saw": "12주 HbA1c 평균 변화는 일반관리 -0.49%, 모바일군 -0.86%, 의사 피드백군 -1.04%였지만 26주에는 군 간 차이가 없었습니다.",
-  "limit": "앱에는 혈당 자가측정·식사·신체활동 상담이 함께 들어가 운동상담 단독 효과를 분리할 수 없습니다.",
-  "against": "모든 군에서 HbA1c가 낮아졌고 26주 효과가 유지되지 않아 단기 혈당 변화 이상으로 일반화하기 어렵습니다.",
-  "use": "제2형 당뇨병 신체활동 상담앱을 설계할 때 단기 혈당효과와 장기 유지 한계를 함께 설명합니다.",
-  "refs": [
-    { "label": "Efficacy of personalized diabetes self-care using an electronic medical record-integrated mobile app · randomized controlled trial", "pmid": "35900817", "doi": "10.2196/30791", "pmc": "PMC8817215" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Type 2 Diabetes → 239건, exact InterventionName 2건",
-    "pubmed": "\"physical activity counseling\" AND \"Type 2 Diabetes\" → 23건",
-    "negative": "\"physical activity counseling\" AND \"Type 2 Diabetes\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
-    "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ "id": "physical-activity-counseling-type-2-diabetes-pos",
+ "subj": "신체활동상담",
+ "claim": "신체활동 상담을 제2형 당뇨병 관리에 쓴다",
+ "line": "12주 HbA1c는 낮았지만 26주에는 차이가 없었습니다",
+ "effect": "12주 HbA1c -0.49~-1.04%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 269,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 상담·앱 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "제2형 당뇨병 환자 269명을 일반관리, 모바일 자기관리, 의사 피드백을 포함한 모바일 자기관리군으로 나눈 26주 무작위시험입니다.",
+ "saw": "12주 HbA1c 평균 변화는 일반관리 -0.49%, 모바일군 -0.86%, 의사 피드백군 -1.04%였지만 26주에는 군 간 차이가 없었습니다.",
+ "limit": "앱에는 혈당 자가측정·식사·신체활동 상담이 함께 들어가 운동상담 단독 효과를 분리할 수 없습니다.",
+ "against": "모든 군에서 HbA1c가 낮아졌고 26주 효과가 유지되지 않아 단기 혈당 변화 이상으로 일반화하기 어렵습니다.",
+ "use": "제2형 당뇨병 신체활동 상담앱을 설계할 때 단기 혈당효과와 장기 유지 한계를 함께 설명합니다.",
+ "refs": [
+  {
+   "label": "Efficacy of personalized diabetes self-care using an electronic medical record-integrated mobile app · randomized controlled trial",
+   "pmid": "35900817",
+   "doi": "10.2196/30791",
+   "pmc": "PMC8817215"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]physical activity counseling AND AREA[ConditionSearch]Type 2 Diabetes → 239건, exact InterventionName 2건",
+  "pubmed": "\"physical activity counseling\" AND \"Type 2 Diabetes\" → 23건",
+  "negative": "\"physical activity counseling\" AND \"Type 2 Diabetes\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
+  "safety": "\"physical activity counseling\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 23건"
+ }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "ketamine-anesthesia-pos",
+  "subj": "케타민",
+  "claim": "케타민이 기관삽관 마취 사망을 줄인다",
+    "line": "중환자 기관삽관 시험에서 케타민은 에토미데이트보다 사망을 줄이지 못했고 심혈관 허탈은 더 많았습니다",
+  "effect": "사망 28.1% vs 29.1%",
+  "vs": "기관삽관 중환자 2,365명에서 케타민 1,173명 중 28일 사망은 28.1%, 에토미데이트 1,186명은 29.1%였고 심혈관 허탈은 22.1% vs 17.0%였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "known": "label",
+  "knownWhy": "마취 유도 허가",
+  "why": "기관삽관이 필요한 중환자를 케타민과 에토미데이트에 무작위 배정한 다기관 시험입니다",
+  "saw": "28일 사망 위험차이는 -0.8%p로 유의하지 않았고 심혈관 허탈은 케타민군에서 5.1%p 더 많았습니다",
+  "limit": "중환자 기관삽관이라는 특정 상황의 결과라 일반 수술 마취의 효과로 넓힐 수 없습니다",
+  "against": "케타민의 사망 감소 우월성은 확인되지 않았고 기관삽관 중 심혈관 허탈은 오히려 증가했습니다",
+  "use": "케타민 마취의 사망 결과와 심혈관 안전성 결과가 서로 달랐다는 점을 함께 보여줍니다",
+  "n": 2365,
+  "synth": "single",
+  "refs": [
+    { "label": "Casey 2026 · New England Journal of Medicine · 기관삽관 RCT", "doi": "10.1056/NEJMoa2511420", "pmid": "41369227", "pmc": "PMC12711137", "nct": "NCT05277896" },
+    { "label": "Hayes 2021 · Anesthesia and Analgesia · 소아 진정 메타분석", "doi": "10.1213/ANE.0000000000004967", "pmid": "32665470" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=ketamine&query.cond=Anesthesia; 총 395건, intervention exact 64건; NCT03414879 등",
+    "pubmed": "ketamine AND anesthesia → 11,120건",
+    "negative": "ketamine AND anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 8,381건",
+    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 9,375건"
+  }
+}

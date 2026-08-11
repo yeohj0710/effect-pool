@@ -1,0 +1,29 @@
+{
+  "id": "bupropion-tobacco-use-pos",
+  "subj": "부프로피온",
+  "claim": "부프로피온이 금연 성공률을 높인다",
+    "line": "금연 메타분석에서 부프로피온의 장기 금연 오즈비는 위약 대비 2.07이었습니다",
+  "effect": "금연 OR 2.07",
+  "vs": "금연 69개 RCT 32,908명 메타분석에서 부프로피온과 위약의 생화학 검증 금연을 비교한 OR은 2.07 (95% CrI 1.73~2.55)이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "금연 보조 허가",
+  "why": "금연 약물 7종의 위약 대조 무작위시험을 비교한 네트워크 메타분석입니다",
+  "saw": "6개월·12개월 생화학 검증 금연을 봤고 부프로피온은 위약보다 효과가 컸습니다",
+  "limit": "연구마다 금연 확인 시점과 상담 지원이 달랐고 오즈비가 개인의 절대 성공률을 뜻하지는 않습니다",
+  "against": "바레니클린은 부프로피온보다 금연 오즈비가 2.18로 높았고 약물별 이상반응 부담은 달랐습니다",
+  "use": "부프로피온의 금연 효과를 위약·다른 금연약과 비교한 상대값으로 보여줍니다",
+  "n": 32908,
+  "synth": "meta",
+  "refs": [
+    { "label": "Eisenberg 2008 · CMAJ · 금연 약물 메타분석", "doi": "10.1503/cmaj.070256", "pmid": "18625984", "pmc": "PMC2443223" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=bupropion&query.cond=Tobacco Use; 총 98건, intervention exact 71건; NCT01390246 등",
+    "pubmed": "bupropion AND tobacco use → 1,391건",
+    "negative": "bupropion AND tobacco use AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,048건",
+    "safety": "bupropion AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 2,714건"
+  }
+}

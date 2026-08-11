@@ -1,0 +1,29 @@
+{
+  "id": "olive-oil-cardiovascular-disease-obs",
+  "subj": "올리브오일",
+  "claim": "올리브오일이 심혈관질환 위험을 낮춘다",
+  "line": "전향 코호트와 한 무작위시험을 합치면 올리브오일 섭취량이 많을수록 심혈관질환 위험이 16% 낮았습니다",
+  "effect": "심혈관질환 RR 0.84",
+  "vs": "올리브오일 섭취량이 하루 25g 더 많은 군과 비교군을 합친 806,203명 자료에서 심혈관질환 RR은 0.84 (16% 낮음), 2형당뇨 RR은 0.78이었습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "식품이라 심혈관질환 예방은 의약품 허가 적응증이 아님",
+  "why": "올리브오일 섭취량과 심혈관질환 위험을 본 전향 코호트 중심 메타분석입니다",
+  "saw": "36개 연구 중 27개를 정량 합성했고 심혈관질환 분석에는 49,223건의 사건이 포함됐습니다",
+  "limit": "대부분 관찰연구라 식단 전체와 생활습관의 영향을 완전히 분리할 수 없습니다",
+  "against": "같은 분석에서 암 위험은 RR 0.94로 유의한 차이가 없었고 결과별 이질성도 있었습니다",
+  "use": "올리브오일과 심혈관질환의 연관성을 설명할 때 인과가 아닌 섭취량 비교 자료임을 표시합니다",
+  "n": 806203,
+  "synth": "meta",
+  "refs": [
+    { "label": "Martínez-González 2022 · Clinical Nutrition · 올리브오일 결과별 메타분석", "doi": "10.1016/j.clnu.2022.10.001", "pmid": "36343558" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=olive oil&query.cond=Cardiovascular Disease; 총 107건, intervention exact 32건; NCT02831803 등",
+    "pubmed": "olive oil AND cardiovascular disease → 1,739건",
+    "negative": "olive oil AND cardiovascular disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,369건",
+    "safety": "olive oil AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 2,981건"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "bupropion-major-depression-pos",
+  "subj": "부프로피온",
+  "claim": "부프로피온이 주요우울장애를 줄인다",
+  "line": "주요우울장애 7개 무작위시험에서 부프로피온 반응률은 62%, 위약은 51%였습니다",
+  "effect": "반응 62% vs 51%",
+  "vs": "주요우울장애 7개 이중눈가림 RCT에서 부프로피온 반응률 62%·관해율 47% vs 위약 51%·36%였고, 두 활성약의 반응률은 비슷했습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "주요우울장애 치료 허가",
+  "why": "주요우울장애 환자를 부프로피온·SSRI·위약에 무작위 배정한 원자료 메타분석입니다",
+  "saw": "부프로피온군 732명과 위약이 포함된 4개 시험 512명을 분석했고 SSRI보다 성기능 부작용이 적었습니다",
+  "limit": "위약 비교 자료는 7개 시험 전체가 아니라 그중 4개이며 연구별 약물·탈락 처리가 달랐습니다",
+  "against": "부프로피온과 SSRI의 반응·관해율은 비슷했고 성기능 외 효과 우월성은 확인되지 않았습니다",
+  "use": "부프로피온의 우울증 반응률과 위약 대비 차이, SSRI와 비슷했던 효과를 함께 보여줍니다",
+  "n": 732,
+  "synth": "meta",
+  "refs": [
+    { "label": "Thase 2005 · Journal of Clinical Psychiatry · 원자료 메타분석", "doi": "10.4088/jcp.v66n0803", "pmid": "16086611" },
+    { "label": "Clayton 2006 · Journal of Clinical Psychiatry · 부프로피온·에스시탈로프람 RCT", "doi": "10.4088/jcp.v67n0507", "pmid": "16841623" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=bupropion&query.cond=Major Depression; 총 93건, intervention exact 64건; NCT02238977 등",
+    "pubmed": "bupropion AND major depression → 846건",
+    "negative": "bupropion AND major depression AND (no effect OR did not OR failed to OR negative OR no significant difference) → 662건",
+    "safety": "bupropion AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 2,714건"
+  }
+}

@@ -1,20 +1,33 @@
 {
-  "id": "apixaban-aortic-stenosis-open",
-  "subj": "apixaban",
-  "claim": "대동맥판막 치환 뒤 아픽사반이 무증상 판막혈전은 줄였지만 임상 이득은 확정되지 않았다",
-  "line": "대동맥판막 치환 후 아픽사반은 무증상 판막혈전 위험을 낮췄다.",
-  "effect": "판막혈전 OR 0.51",
-  "tier": "trial",
-  "dir": "open",
-  "n": 762,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "아픽사반은 대동맥판막 협착 자체 치료의 허가 적응증이 아니다",
-  "why": "대동맥판막 협착으로 경피적 판막치환술을 받은 환자에서 아픽사반과 표준치료의 판막혈전을 영상으로 비교했다.",
-  "saw": "영상 분석 762명에서 3개월 무증상 폐쇄성 판막혈전은 아픽사반 8.9%, 표준치료 13.0%였다. 항혈소판제와 비교한 OR은 0.51이었지만 비타민K 길항제와는 우월하지 않았다.",
-  "limit": "영상 하위분석이며 임상 사건 검정력이 없고 아픽사반군에서 비심혈관 사망이 더 많았다.",
-  "against": "판막혈전 영상 개선을 생존·뇌졸중 개선으로 해석할 수 없다.",
-  "use": "판막치환 뒤 무증상 판막혈전 영상 결과를 해석할 때 참고할 제한적 근거로 기록한다.",
-  "refs": [{ "label": "Collet 2022 · JACC: Cardiovascular Interventions · 무작위시험 하위분석", "doi": "10.1016/j.jcin.2022.07.014", "pmid": "36137682", "nct": "NCT02664649" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=apixaban, cond=Aortic Stenosis · 5건", "pubmed": "apixaban AND Aortic Stenosis · 30편", "negative": "apixaban AND Aortic Stenosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 22편", "safety": "apixaban AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 3794편" }
+ "id": "apixaban-aortic-stenosis-open",
+ "subj": "아픽사반",
+ "claim": "대동맥판막 치환 뒤 아픽사반이 무증상 판막혈전은 줄였지만 임상 이득은 확정되지 않았다",
+ "line": "대동맥판막 치환 후 아픽사반은 무증상 판막혈전 위험을 낮췄다.",
+ "effect": "판막혈전 OR 0.51",
+ "tier": "trial",
+ "dir": "open",
+ "n": 762,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아픽사반은 대동맥판막 협착 자체 치료의 허가 적응증이 아니다",
+ "why": "대동맥판막 협착으로 경피적 판막치환술을 받은 환자에서 아픽사반과 표준치료의 판막혈전을 영상으로 비교했다.",
+ "saw": "영상 분석 762명에서 3개월 무증상 폐쇄성 판막혈전은 아픽사반 8.9%, 표준치료 13.0%였다. 항혈소판제와 비교한 OR은 0.51이었지만 비타민K 길항제와는 우월하지 않았다.",
+ "limit": "영상 하위분석이며 임상 사건 검정력이 없고 아픽사반군에서 비심혈관 사망이 더 많았다.",
+ "against": "판막혈전 영상 개선을 생존·뇌졸중 개선으로 해석할 수 없다.",
+ "use": "판막치환 뒤 무증상 판막혈전 영상 결과를 해석할 때 참고할 제한적 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Collet 2022 · JACC: Cardiovascular Interventions · 무작위시험 하위분석",
+   "doi": "10.1016/j.jcin.2022.07.014",
+   "pmid": "36137682",
+   "nct": "NCT02664649"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=apixaban, cond=Aortic Stenosis · 5건",
+  "pubmed": "apixaban AND Aortic Stenosis · 30편",
+  "negative": "apixaban AND Aortic Stenosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 22편",
+  "safety": "apixaban AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 3794편"
+ }
 }

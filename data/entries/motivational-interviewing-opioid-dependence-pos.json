@@ -1,28 +1,32 @@
 {
-  "id": "motivational-interviewing-opioid-dependence-pos",
-  "subj": "motivational interviewing",
-  "claim": "동기면담이 오피오이드 의존 환자의 메타돈 치료 순응도를 높이는가",
-  "line": "오피오이드 의존 환자의 6개월 메타돈 순응도가 높아졌습니다.",
-  "effect": "완전 순응 RR 1.36",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 450,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "동기면담은 오피오이드 의존의 의약품 허가 적응증이 아닌 순응 지원 상담 중재입니다.",
-  "why": "베트남 세 클리닉에서 메타돈 유지치료를 받는 오피오이드 의존 환자를 통상 치료, 문자 알림, 동기면담군으로 무작위 배정했습니다.",
-  "saw": "450명이 참여했고 6개월 뒤 동기면담군의 완전 순응도가 대조군보다 높았습니다(RR=1.36, 95% CI 1.09–1.69). 문자 알림군도 3개월과 6개월 완전 순응도가 높았습니다.",
-  "limit": "단일 국가의 메타돈 유지치료 환자를 대상으로 했고, 순응도는 개선했지만 오피오이드 사용량·재발·과량복용을 줄였다는 시험은 아닙니다.",
-  "against": "문자 알림도 완전 순응도를 개선했고, 동기면담이 메타돈 치료 자체보다 우월한지 또는 오피오이드 사용 결과를 바꾸는지는 확인되지 않았습니다.",
-  "use": "오피오이드 의존 치료에서 동기면담을 재발 치료가 아니라 메타돈 순응 지원으로 설명합니다.",
-  "refs": [
-    { "label": "베트남 메타돈 치료 순응도 동기면담 무작위시험", "doi": "10.1093/pubmed/fdaf009", "pmid": "39870593" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=motivational interviewing AND query.cond=Opioid Dependence; 11건 반환",
-    "pubmed": "\"motivational interviewing\" AND \"Opioid Dependence\"; 18편",
-    "negative": "\"motivational interviewing\" AND (no effect OR did not OR failed OR negative OR no significant difference); 1429편",
-    "safety": "\"motivational interviewing\" AND (adverse OR harm OR dropout OR distress); 798편"
+ "id": "motivational-interviewing-opioid-dependence-pos",
+ "subj": "동기강화면담",
+ "claim": "동기면담이 오피오이드 의존 환자의 메타돈 치료 순응도를 높이는가",
+ "line": "오피오이드 의존 환자의 6개월 메타돈 순응도가 높아졌습니다.",
+ "effect": "완전 순응 RR 1.36",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 450,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "동기면담은 오피오이드 의존의 의약품 허가 적응증이 아닌 순응 지원 상담 중재입니다.",
+ "why": "베트남 세 클리닉에서 메타돈 유지치료를 받는 오피오이드 의존 환자를 통상 치료, 문자 알림, 동기면담군으로 무작위 배정했습니다.",
+ "saw": "450명이 참여했고 6개월 뒤 동기면담군의 완전 순응도가 대조군보다 높았습니다(RR=1.36, 95% CI 1.09–1.69). 문자 알림군도 3개월과 6개월 완전 순응도가 높았습니다.",
+ "limit": "단일 국가의 메타돈 유지치료 환자를 대상으로 했고, 순응도는 개선했지만 오피오이드 사용량·재발·과량복용을 줄였다는 시험은 아닙니다.",
+ "against": "문자 알림도 완전 순응도를 개선했고, 동기면담이 메타돈 치료 자체보다 우월한지 또는 오피오이드 사용 결과를 바꾸는지는 확인되지 않았습니다.",
+ "use": "오피오이드 의존 치료에서 동기면담을 재발 치료가 아니라 메타돈 순응 지원으로 설명합니다.",
+ "refs": [
+  {
+   "label": "베트남 메타돈 치료 순응도 동기면담 무작위시험",
+   "doi": "10.1093/pubmed/fdaf009",
+   "pmid": "39870593"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=motivational interviewing AND query.cond=Opioid Dependence; 11건 반환",
+  "pubmed": "\"motivational interviewing\" AND \"Opioid Dependence\"; 18편",
+  "negative": "\"motivational interviewing\" AND (no effect OR did not OR failed OR negative OR no significant difference); 1429편",
+  "safety": "\"motivational interviewing\" AND (adverse OR harm OR dropout OR distress); 798편"
+ }
 }

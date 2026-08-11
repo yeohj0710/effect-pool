@@ -1,0 +1,29 @@
+{
+  "id": "caffeine-apnea-pos",
+  "subj": "카페인",
+  "claim": "카페인이 미숙아 무호흡을 줄인다",
+    "line": "미숙아 메타분석에서 카페인은 무호흡 위험을 41% 줄였습니다",
+  "effect": "무호흡 RR 0.59",
+  "vs": "미숙아 15개 시험 3,530명에서 카페인과 위약·무처치군을 비교한 무호흡 위험비는 0.59 (95% CI 0.46~0.75)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "미숙아 무호흡 치료 허가",
+  "why": "미숙아를 카페인과 위약·무처치에 무작위 배정한 시험을 합친 메타분석입니다",
+  "saw": "15개 연구 3,530명을 합쳤고 기관지폐이형성증도 위험비 0.77로 줄었지만 무호흡 근거 확실성은 매우 낮았습니다",
+  "limit": "카페인 용량과 연구 시점이 달랐고 장기 신경인지 효과는 확인되지 않았습니다",
+  "against": "신경인지 장애는 영유아기에 줄지 않았고 최적 용량은 아직 정해지지 않았습니다",
+  "use": "미숙아 무호흡에서 확인된 효과와 장기 결과의 불확실성을 분리해 보여줍니다",
+  "n": 3530,
+  "synth": "meta",
+  "refs": [
+    { "label": "Oliphant 2024 · Journal of Perinatology · 카페인 메타분석", "doi": "10.1038/s41372-024-01939-x", "pmid": "38553606", "pmc": "PMC11161406" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=caffeine&query.cond=Apnea; 총 39건, intervention exact 27건; NCT00310323 등",
+    "pubmed": "caffeine AND apnea → 833건",
+    "negative": "caffeine AND apnea AND (no effect OR did not OR failed to OR negative OR no significant difference) → 545건",
+    "safety": "caffeine AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 8,569건"
+  }
+}

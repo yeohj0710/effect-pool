@@ -1,26 +1,32 @@
 {
-  "id": "flaxseed-diabetes-pos",
-  "subj": "flaxseed",
-  "claim": "아마씨유와 고용량 비타민 D3 병용이 고령 제2형 당뇨병 환자의 염증과 대사 지표를 개선하는지 평가한다",
-  "line": "고령 제2형 당뇨병에서 아마씨유를 병용한 뒤 염증·대사 지표가 개선됐다.",
-  "effect": "염증·대사 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 104,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "아마씨는 허가 적응증이 없는 식품 성분이다",
-  "why": "제2형 당뇨병 고령자에게 아마씨유 500mg을 하루 세 번과 비타민 D3를 8주 병용했다",
-  "saw": "104명 중 102명이 완료했고 hs-CRP 차이는 -0.98μg/mL였으며 체중 -1.73kg, 공복혈당 -22.83mg/dL, HOMA-IR -1.31이 관찰됐다",
-  "limit": "아마씨유 단독 효과를 분리할 수 없고 대사 결과 일부는 탐색적 분석이었다",
-  "against": "고용량 비타민 D3 병용 결과를 아마씨 단독 효과로 해석할 수 없다",
-  "use": "제2형 당뇨병에서 아마씨유 병용의 염증·대사 신호를 기록하는 데 쓴다",
-  "refs": [{ "label": "고령 제2형 당뇨병 아마씨유·비타민 D3 무작위시험", "doi": "10.1155/jnme/8892400", "pmid": "42529699" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=flaxseed · cond=Diabetes 12건, 일치 12건",
-    "pubmed": "flaxseed AND Diabetes 309건",
-    "negative": "flaxseed AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 251건",
-    "safety": "flaxseed AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 707건"
+ "id": "flaxseed-diabetes-pos",
+ "subj": "아마씨",
+ "claim": "아마씨유와 고용량 비타민 D3 병용이 고령 제2형 당뇨병 환자의 염증과 대사 지표를 개선하는지 평가한다",
+ "line": "고령 제2형 당뇨병에서 아마씨유를 병용한 뒤 염증·대사 지표가 개선됐다.",
+ "effect": "염증·대사 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 104,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아마씨는 허가 적응증이 없는 식품 성분이다",
+ "why": "제2형 당뇨병 고령자에게 아마씨유 500mg을 하루 세 번과 비타민 D3를 8주 병용했다",
+ "saw": "104명 중 102명이 완료했고 hs-CRP 차이는 -0.98μg/mL였으며 체중 -1.73kg, 공복혈당 -22.83mg/dL, HOMA-IR -1.31이 관찰됐다",
+ "limit": "아마씨유 단독 효과를 분리할 수 없고 대사 결과 일부는 탐색적 분석이었다",
+ "against": "고용량 비타민 D3 병용 결과를 아마씨 단독 효과로 해석할 수 없다",
+ "use": "제2형 당뇨병에서 아마씨유 병용의 염증·대사 신호를 기록하는 데 쓴다",
+ "refs": [
+  {
+   "label": "고령 제2형 당뇨병 아마씨유·비타민 D3 무작위시험",
+   "doi": "10.1155/jnme/8892400",
+   "pmid": "42529699"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=flaxseed · cond=Diabetes 12건, 일치 12건",
+  "pubmed": "flaxseed AND Diabetes 309건",
+  "negative": "flaxseed AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 251건",
+  "safety": "flaxseed AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 707건"
+ }
 }

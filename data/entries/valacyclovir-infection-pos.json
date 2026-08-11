@@ -1,0 +1,29 @@
+{
+  "id": "valacyclovir-infection-pos",
+  "subj": "발라시클로버",
+  "claim": "발라시클로버가 산모 감염 뒤 태아 CMV 전파를 줄인다",
+    "line": "산모 CMV 감염 임신 메타분석에서 발라시클로버의 선천성 CMV 감염 OR은 0.37이었습니다",
+  "effect": "선천성 CMV OR 0.37",
+  "vs": "산모 CMV 감염 임신 8개 연구 620명에서 발라시클로버 치료군과 비치료군을 비교한 선천성 CMV 감염 OR은 0.37 (95% CI 0.21~0.64)였습니다",
+  "tier": "obs",
+  "dir": "pos",
+  "known": "label",
+  "knownWhy": "헤르페스·대상포진 치료 허가",
+  "why": "산모 CMV 감염 임신에서 발라시클로버 치료와 비치료 결과를 합친 체계적 문헌고찰입니다",
+  "saw": "첫 삼분기 감염 하위군 OR은 0.34였고, 치료받은 임산부의 전체 이상반응은 3.17%였습니다",
+  "limit": "근거 확실성이 매우 낮고 포함 연구의 설계와 감염 시점이 달랐습니다",
+  "against": "무증상 선천성 CMV 감염은 치료군에서 OR 2.98로 오히려 높았고, 신생아 증상 차이는 유의하지 않았습니다",
+  "use": "CMV 수직전파 감소 신호와 무증상 감염·근거 확실성의 반대 결과를 함께 보여줍니다",
+  "n": 620,
+  "synth": "meta",
+  "refs": [
+    { "label": "D’Antonio 2023 · Ultrasound in Obstetrics and Gynecology · 발라시클로버 메타분석", "doi": "10.1002/uog.26136", "pmid": "36484439" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=valacyclovir&query.cond=Infection; 총 85건, intervention exact 63건; NCT01176409 등",
+    "pubmed": "valacyclovir AND infection → 1,624건",
+    "negative": "valacyclovir AND infection AND (no effect OR did not OR failed to OR negative OR no significant difference) → 935건",
+    "safety": "valacyclovir AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 1,075건"
+  }
+}

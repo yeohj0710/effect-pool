@@ -1,20 +1,33 @@
 {
-  "id": "acupuncture-nausea-pos",
-  "subj": "acupuncture",
-  "claim": "임신 오심·구토에서 침 치료를 더하면 증상과 치료 실패율이 줄었다",
-  "line": "침 치료를 받은 임신 오심·구토 환자는 치료 실패가 적었다.",
+ "id": "acupuncture-nausea-pos",
+ "subj": "침술",
+ "claim": "임신 오심·구토에서 침 치료를 더하면 증상과 치료 실패율이 줄었다",
+ "line": "침 치료를 받은 임신 오심·구토 환자는 치료 실패가 적었다.",
   "effect": "치료 실패 RR 0.27",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2390,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "침 치료는 임신 오심·구토 치료의 허가 적응증이 아니다",
-  "why": "임신 오심·구토에서 침과 서양의학 치료를 비교한 무작위시험 24편을 체계적으로 검토했다.",
-  "saw": "무작위시험 24편, 임신부 2390명을 포함했다. 침과 서양의학 병용은 서양의학 단독보다 PUQE 점수 MD -1.95, 치료 실패율 RR 0.27이었다.",
-  "limit": "PUQE 점수 분석의 이질성이 높았고 연구별 침 방식과 비교 약제가 달랐다.",
-  "against": "침이 항구토제나 수액을 대체한다는 근거는 아니며 임신 중 원인과 탈수 정도를 함께 평가해야 한다.",
-  "use": "임신 오심·구토의 보조요법으로 침을 검토할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Wang 2024 · Complementary Therapies in Medicine · 메타분석", "doi": "10.1016/j.ctim.2024.103079", "pmid": "39214380" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=acupuncture, cond=Nausea · 67건", "pubmed": "acupuncture AND Nausea · 1263편", "negative": "acupuncture AND Nausea AND (no effect OR did not OR failed OR negative OR no significant difference) · 1048편", "safety": "acupuncture AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 10991편" }
+  "vs": "침술군의 임신 오심·구토 치료 실패 RR 0.27 (대조군 대비)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2390,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "침 치료는 임신 오심·구토 치료의 허가 적응증이 아니다",
+ "why": "임신 오심·구토에서 침과 서양의학 치료를 비교한 무작위시험 24편을 체계적으로 검토했다.",
+ "saw": "무작위시험 24편, 임신부 2390명을 포함했다. 침과 서양의학 병용은 서양의학 단독보다 PUQE 점수 MD -1.95, 치료 실패율 RR 0.27이었다.",
+ "limit": "PUQE 점수 분석의 이질성이 높았고 연구별 침 방식과 비교 약제가 달랐다.",
+ "against": "침이 항구토제나 수액을 대체한다는 근거는 아니며 임신 중 원인과 탈수 정도를 함께 평가해야 한다.",
+ "use": "임신 오심·구토의 보조요법으로 침을 검토할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Wang 2024 · Complementary Therapies in Medicine · 메타분석",
+   "doi": "10.1016/j.ctim.2024.103079",
+   "pmid": "39214380"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=acupuncture, cond=Nausea · 67건",
+  "pubmed": "acupuncture AND Nausea · 1263편",
+  "negative": "acupuncture AND Nausea AND (no effect OR did not OR failed OR negative OR no significant difference) · 1048편",
+  "safety": "acupuncture AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 10991편"
+ }
 }

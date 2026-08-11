@@ -1,26 +1,32 @@
 {
-  "id": "ginger-stress-pos",
-  "subj": "ginger",
-  "claim": "생강은 산화스트레스 표지를 개선할 가능성이 있다",
-  "line": "생강은 산화스트레스 표지 개선 신호를 보였다.",
-  "effect": "산화스트레스 표지 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
-  "why": "성인 생강 보충의 염증·산화스트레스 바이오마커 메타분석을 확인했다",
-  "saw": "29개 무작위시험에서 CRP·TNF-α·IL-6·총항산화능·MDA·SOD를 합쳤다",
-  "limit": "연구마다 대상 질환과 생강 제제가 달라 효과의 일관성이 낮다",
-  "against": "메타분석에서 연구 간 이질성이 높아 결과를 조심해서 해석해야 했다",
-  "use": "산화스트레스 표지의 개선 신호를 기록했지만 임상 결과는 아니다",
-  "refs": [{ "label": "생강 29개 무작위시험 염증·산화스트레스 메타분석", "doi": "10.1007/s10787-025-01994-6", "pmid": "41123858" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=ginger · cond=Stress 5건 반환, 물질 일치 5건",
-    "pubmed": "ginger AND Stress 820건",
-    "negative": "ginger AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) 711건",
-    "safety": "ginger AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1443건"
+ "id": "ginger-stress-pos",
+ "subj": "생강",
+ "claim": "생강은 산화스트레스 표지를 개선할 가능성이 있다",
+ "line": "생강은 산화스트레스 표지 개선 신호를 보였다.",
+ "effect": "산화스트레스 표지 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+ "why": "성인 생강 보충의 염증·산화스트레스 바이오마커 메타분석을 확인했다",
+ "saw": "29개 무작위시험에서 CRP·TNF-α·IL-6·총항산화능·MDA·SOD를 합쳤다",
+ "limit": "연구마다 대상 질환과 생강 제제가 달라 효과의 일관성이 낮다",
+ "against": "메타분석에서 연구 간 이질성이 높아 결과를 조심해서 해석해야 했다",
+ "use": "산화스트레스 표지의 개선 신호를 기록했지만 임상 결과는 아니다",
+ "refs": [
+  {
+   "label": "생강 29개 무작위시험 염증·산화스트레스 메타분석",
+   "doi": "10.1007/s10787-025-01994-6",
+   "pmid": "41123858"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=ginger · cond=Stress 5건 반환, 물질 일치 5건",
+  "pubmed": "ginger AND Stress 820건",
+  "negative": "ginger AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) 711건",
+  "safety": "ginger AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1443건"
+ }
 }

@@ -1,29 +1,39 @@
 {
-  "id": "community-health-worker-covid-19-pos",
-  "subj": "community health worker",
-  "claim": "보건인력이 코로나19 예방접종 접근성을 높인다",
-  "line": "뉴욕 75개 지역에서 백신 접종률은 44%에서 76%로 상승했다.",
-  "effect": "접종률 44%→76%·75지역",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 4200000,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "community health worker는 코로나19 예방접종 허가요법이 아니라 지역사회 접근성 개입입니다",
-  "why": "코로나19 유행에서 보건인력의 정보 전달과 예방접종 접근성 개선 결과를 확인합니다",
-  "saw": "뉴욕시 보건부와 지역단체가 75개 우편번호 지역에서 보건인력 outreach를 시행했습니다. 4.2 million명의 흑인·라틴계 주민을 대상으로 1년간 접종률이 44%에서 76%로 올랐고, 보건인력은 백신 정보를 1,800만 회 전달했습니다. 별도 체계적 문헌고찰은 18편의 논문에서 19개 프로그램을 확인했습니다.",
-  "limit": "지역 단위 관찰 연구라 무작위 배정이 아니며 보건인력 활동만의 효과와 지역단체 활동을 분리할 수 없습니다.",
-  "against": "고강도 outreach 지역은 시작 시점 접종률이 44%로 저강도 지역의 59%보다 낮아 기저 차이와 선택 편향을 고려해야 합니다.",
-  "use": "코로나19 유행에서 보건인력이 신뢰를 바탕으로 백신 정보와 접종 접근성을 높인 근거로 기록합니다.",
-  "refs": [
-    { "label": "Towe 2025 · 뉴욕 보건인력 코로나19 백신 접종 관찰 연구", "doi": "10.2105/AJPH.2025.308039", "pmid": "40146972", "pmc": "PMC12080442" },
-    { "label": "Haldane 2024 · 코로나19 정보·서비스 전달 체계적 문헌고찰", "doi": "10.1186/s12913-024-11165-y", "pmid": "38849842", "pmc": "PMC11161953" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=community health worker AND condition=COVID-19; 51건 반환",
-    "pubmed": "community health worker AND COVID-19; 4,690편",
-    "negative": "community health worker AND COVID-19 AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
-    "safety": "community health worker AND (adverse OR toxicity OR case report OR harm); 결과 없음"
+ "id": "community-health-worker-covid-19-pos",
+ "subj": "지역사회 보건인력",
+ "claim": "보건인력이 코로나19 예방접종 접근성을 높인다",
+ "line": "뉴욕 75개 지역에서 백신 접종률은 44%에서 76%로 상승했다.",
+ "effect": "접종률 44%→76%·75지역",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 4200000,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "community health worker는 코로나19 예방접종 허가요법이 아니라 지역사회 접근성 개입입니다",
+ "why": "코로나19 유행에서 보건인력의 정보 전달과 예방접종 접근성 개선 결과를 확인합니다",
+ "saw": "뉴욕시 보건부와 지역단체가 75개 우편번호 지역에서 보건인력 outreach를 시행했습니다. 4.2 million명의 흑인·라틴계 주민을 대상으로 1년간 접종률이 44%에서 76%로 올랐고, 보건인력은 백신 정보를 1,800만 회 전달했습니다. 별도 체계적 문헌고찰은 18편의 논문에서 19개 프로그램을 확인했습니다.",
+ "limit": "지역 단위 관찰 연구라 무작위 배정이 아니며 보건인력 활동만의 효과와 지역단체 활동을 분리할 수 없습니다.",
+ "against": "고강도 outreach 지역은 시작 시점 접종률이 44%로 저강도 지역의 59%보다 낮아 기저 차이와 선택 편향을 고려해야 합니다.",
+ "use": "코로나19 유행에서 보건인력이 신뢰를 바탕으로 백신 정보와 접종 접근성을 높인 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Towe 2025 · 뉴욕 보건인력 코로나19 백신 접종 관찰 연구",
+   "doi": "10.2105/AJPH.2025.308039",
+   "pmid": "40146972",
+   "pmc": "PMC12080442"
+  },
+  {
+   "label": "Haldane 2024 · 코로나19 정보·서비스 전달 체계적 문헌고찰",
+   "doi": "10.1186/s12913-024-11165-y",
+   "pmid": "38849842",
+   "pmc": "PMC11161953"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=community health worker AND condition=COVID-19; 51건 반환",
+  "pubmed": "community health worker AND COVID-19; 4,690편",
+  "negative": "community health worker AND COVID-19 AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
+  "safety": "community health worker AND (adverse OR toxicity OR case report OR harm); 결과 없음"
+ }
 }

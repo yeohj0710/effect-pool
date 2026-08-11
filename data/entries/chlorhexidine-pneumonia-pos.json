@@ -1,28 +1,32 @@
 {
-  "id": "chlorhexidine-pneumonia-pos",
-  "subj": "chlorhexidine",
-  "claim": "기계환기 환자에서 구강 클로르헥시딘이 인공호흡기 관련 폐렴 발생을 줄였지만 사망 효과는 불확실했다",
-  "line": "구강 클로르헥시딘은 인공호흡기 관련 폐렴을 줄였지만 사망 효과는 불확실했다.",
-  "effect": "폐렴 RR 0.73",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1233,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "클로르헥시딘 구강 세정은 구강 위생에는 쓰이지만 폐렴 치료제로 허가된 약물이 아니다.",
-  "why": "기계환기 48시간 이상 환자를 대상으로 한 무작위 임상시험 10건, 1233명의 메타분석에서 인공호흡기 관련 폐렴을 평가했습니다.",
-  "saw": "구강 클로르헥시딘은 인공호흡기 관련 폐렴 발생을 RR 0.73으로 줄였지만 전체 사망률 효과는 결론을 낼 수 없었다.",
-  "limit": "사망률 근거의 질이 매우 낮고 농도·투여 방식과 중환자실 기본 구강 관리가 달랐다.",
-  "against": "클로르헥시딘이 이미 발생한 폐렴을 치료하거나 사망을 줄인다고 볼 수 없다.",
-  "use": "인공호흡기 환자 예방 묶음에서 클로르헥시딘의 이득과 농도별 안전성 근거를 함께 검토합니다.",
-  "refs": [
-    { "label": "Cruz 2023 · Medicina Intensiva · 무작위시험 메타분석", "doi": "10.1016/j.medine.2022.11.002", "pmid": "36464582" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "chlorhexidine AND Pneumonia · 70건",
-    "pubmed": "chlorhexidine AND Pneumonia · 734건",
-    "negative": "chlorhexidine AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference) · 581건",
-    "safety": "chlorhexidine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 4092건"
+ "id": "chlorhexidine-pneumonia-pos",
+ "subj": "클로르헥시딘",
+ "claim": "기계환기 환자에서 구강 클로르헥시딘이 인공호흡기 관련 폐렴 발생을 줄였지만 사망 효과는 불확실했다",
+ "line": "구강 클로르헥시딘은 인공호흡기 관련 폐렴을 줄였지만 사망 효과는 불확실했다.",
+ "effect": "폐렴 RR 0.73",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1233,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "클로르헥시딘 구강 세정은 구강 위생에는 쓰이지만 폐렴 치료제로 허가된 약물이 아니다.",
+ "why": "기계환기 48시간 이상 환자를 대상으로 한 무작위 임상시험 10건, 1233명의 메타분석에서 인공호흡기 관련 폐렴을 평가했습니다.",
+ "saw": "구강 클로르헥시딘은 인공호흡기 관련 폐렴 발생을 RR 0.73으로 줄였지만 전체 사망률 효과는 결론을 낼 수 없었다.",
+ "limit": "사망률 근거의 질이 매우 낮고 농도·투여 방식과 중환자실 기본 구강 관리가 달랐다.",
+ "against": "클로르헥시딘이 이미 발생한 폐렴을 치료하거나 사망을 줄인다고 볼 수 없다.",
+ "use": "인공호흡기 환자 예방 묶음에서 클로르헥시딘의 이득과 농도별 안전성 근거를 함께 검토합니다.",
+ "refs": [
+  {
+   "label": "Cruz 2023 · Medicina Intensiva · 무작위시험 메타분석",
+   "doi": "10.1016/j.medine.2022.11.002",
+   "pmid": "36464582"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "chlorhexidine AND Pneumonia · 70건",
+  "pubmed": "chlorhexidine AND Pneumonia · 734건",
+  "negative": "chlorhexidine AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference) · 581건",
+  "safety": "chlorhexidine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 4092건"
+ }
 }

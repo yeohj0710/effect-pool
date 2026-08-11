@@ -1,0 +1,30 @@
+{
+  "id": "dark-chocolate-hypertension-pos",
+  "subj": "다크 초콜릿",
+  "claim": "다크 초콜릿이 고혈압을 낮춘다",
+  "line": "플라바놀 코코아를 먹은 고혈압군에서 수축기혈압이 대조군보다 4.5mmHg 낮았습니다",
+  "effect": "수축기혈압 4.5mmHg↓",
+  "vs": "플라바놀 코코아 10개 무작위시험 297명과 대조군을 비교한 메타분석에서 수축기혈압은 4.5mmHg, 이완기혈압은 2.5mmHg 낮았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "known": "off",
+  "knownWhy": "식품이라 고혈압 치료는 의약품 허가 적응증이 아님",
+  "why": "코코아·다크 초콜릿을 대조군과 비교한 무작위시험 메타분석입니다",
+  "saw": "10개 시험 297명을 합쳤고 치료기간은 연구마다 달랐습니다. 고혈압·전고혈압군에서 효과가 컸습니다",
+  "limit": "시험 수와 표본이 작고 제품의 플라바놀 함량이 달라 장기 효과를 알기 어렵습니다",
+  "against": "정상혈압군에서는 수축기·이완기혈압 감소가 유의하지 않았습니다",
+  "use": "다크 초콜릿의 혈압 연구를 소개할 때 고혈압군과 정상혈압군의 차이를 함께 보여줍니다",
+  "n": 297,
+  "synth": "meta",
+  "refs": [
+    { "label": "Desch 2010 · American Journal of Hypertension · 코코아 메타분석", "doi": "10.1038/ajh.2009.213", "pmid": "19910929" },
+    { "label": "Ried 2010 · BMC Medicine · 혈압 메타분석", "doi": "10.1186/1741-7015-8-39", "pmid": "20584271", "pmc": "PMC2908554" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=dark chocolate&query.cond=Hypertension; 총 12건, intervention exact 9건; NCT00421499 등",
+    "pubmed": "dark chocolate AND hypertension → 54건",
+    "negative": "dark chocolate AND hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 45건",
+    "safety": "dark chocolate AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 98건"
+  }
+}

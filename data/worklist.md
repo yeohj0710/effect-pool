@@ -232,17 +232,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 204건 -->
 - [x] semaglutide — Overweight에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 90건 -->
 - [x] ketamine — Major Depression에 듣는다 — 기존 항목(ketamine-treatment-resistant-depression)  <!-- 등록 시험 78건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 29건 -->
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
@@ -256,21 +256,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
 - [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
 - [x] bimatoprost — Cataract에 듣는다  <!-- 등록 시험 5건 -->
@@ -11584,7 +11584,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] caffeine — Apnea에 듣는다  <!-- 시험 18건 · 논문 833편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] caffeine — Apnea에 듣는다  <!-- 시험 18건 · 논문 833편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] caffeine — Placebo에 듣는다  <!-- 시험 15건 · 논문 2678편 --> — 근거 없음(2026-08-06 조회, caffeine AND Placebo)
 - [x] caffeine — Sleep에 듣는다  <!-- 시험 12건 · 논문 2247편 -->
 - [x] caffeine — Migraine에 듣는다  <!-- 시험 12건 · 논문 568편 -->
@@ -11726,7 +11726,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [ ] ginkgo biloba — Alzheimer's에 듣는다  <!-- 시험 8건 · 논문 592편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] ginkgo biloba — Ischemic Stroke에 듣는다  <!-- 시험 7건 · 논문 119편 --> — 항목 생성(2026-08-06)
-- [ ] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ginkgo biloba — Dementia에 듣는다  <!-- 시험 5건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] ginkgo biloba — Tinnitus에 듣는다  <!-- 시험 5건 · 논문 137편 --> — 항목 생성(2026-08-06)
 - [x] phosphatidylserine — ADHD에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 항목 생성(2026-08-06)
 - [x] HMB — Sarcopenia에 듣는다  <!-- 시험 9건 · 논문 120편 --> — 항목 생성(2026-08-06)
@@ -12071,14 +12071,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hyperbaric oxygen therapy — Post-Concussion Syndrome에 듣는다  <!-- 시험 20건 · 논문 64편 --> — 항목 생성(2026-08-06)
 - [x] hyperbaric oxygen therapy — Cancer에 듣는다  <!-- 시험 15건 · 논문 1933편 --> — 항목 생성(2026-08-06)
 - [x] hyperbaric oxygen therapy — Stroke에 듣는다  <!-- 시험 15건 · 논문 582편 --> — 항목 생성(2026-08-06)
-- [ ] transcranial magnetic stimulation — Depression에 듣는다  <!-- 시험 49건 · 논문 5240편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] transcranial magnetic stimulation — Depression에 듣는다  <!-- 시험 49건 · 논문 5240편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] transcranial magnetic stimulation — Stroke에 듣는다  <!-- 시험 32건 · 논문 3725편 --> — 항목 생성(2026-08-06)
 - [x] transcranial magnetic stimulation — Pain에 듣는다  <!-- 시험 28건 · 논문 2077편 --> — 항목 생성(2026-08-06)
 - [x] transcranial magnetic stimulation — Schizophrenia에 듣는다  <!-- 시험 19건 · 논문 1025편 --> — 항목 생성(2026-08-06)
 - [x] vagus nerve stimulation — Pain에 듣는다  <!-- 시험 41건 · 논문 863편 --> — 항목 생성(2026-08-06)
 - [x] vagus nerve stimulation — Autonomic Diseases에 듣는다  <!-- 시험 23건 · 논문 290편 --> — 항목 생성(2026-08-06)
 - [x] vagus nerve stimulation — Burn Injury에 듣는다  <!-- 시험 21건 · 논문 47편 --> — 근거 없음(2026-08-06 조회, "vagus nerve stimulation burn injury human intervention")
-- [ ] vagus nerve stimulation — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 2517편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] vagus nerve stimulation — Epilepsy에 듣는다  <!-- 시험 19건 · 논문 2517편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] neurofeedback — Pain에 듣는다  <!-- 시험 25건 · 논문 229편 --> — 항목 생성(2026-08-06)
 - [x] neurofeedback — Opioid Use에 듣는다  <!-- 시험 25건 · 논문 18편 --> — 항목 생성(2026-08-06)
 - [x] neurofeedback — Cognitive Change에 듣는다  <!-- 시험 21건 · 논문 490편 --> — 항목 생성(2026-08-06)
@@ -21084,31 +21084,31 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] alpha-lipoic acid — Oxidative Stress에 듣는다  <!-- 시험 4건 · 논문 1821편 -->
 - [ ] alpha-lipoic acid — Nephrotoxicity에 듣는다  <!-- 시험 3건 · 논문 53편 -->
 - [ ] phosphatidylserine — Cognitive Change에 듣는다  <!-- 시험 15건 · 논문 64편 -->
-- [ ] green tea — Cancer에 듣는다  <!-- 시험 44건 · 논문 7585편 -->
+- [x] green tea — Cancer에 듣는다  <!-- 시험 44건 · 논문 7585편 -->
 - [ ] green tea — Eye Health에 듣는다  <!-- 시험 5건 · 논문 134편 -->
-- [ ] green tea — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 3015편 -->
-- [ ] dark chocolate — Hypertension에 듣는다  <!-- 시험 9건 · 논문 54편 -->
+- [x] green tea — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 3015편 -->
+- [x] dark chocolate — Hypertension에 듣는다  <!-- 시험 9건 · 논문 54편 -->
 - [ ] blueberry — Aging에 듣는다  <!-- 시험 8건 · 논문 263편 -->
-- [ ] blueberry — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 50편 -->
+- [x] blueberry — Cognitive Change에 듣는다  <!-- 시험 6건 · 논문 50편 -->
 - [ ] blueberry — Gut Bacteria에 듣는다  <!-- 시험 5건 · 논문 72편 -->
-- [ ] pomegranate juice — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 33편 -->
-- [ ] yogurt — Obesity에 듣는다  <!-- 시험 13건 · 논문 510편 -->
+- [x] pomegranate juice — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 33편 -->
+- [x] yogurt — Obesity에 듣는다  <!-- 시험 13건 · 논문 510편 -->
 - [ ] yogurt — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 87편 -->
 - [ ] yogurt — Colonization에 듣는다  <!-- 시험 5건 · 논문 88편 -->
-- [ ] kefir — Gut Microbiome에 듣는다  <!-- 시험 5건 · 논문 120편 -->
+- [x] kefir — Gut Microbiome에 듣는다  <!-- 시험 5건 · 논문 120편 -->
 - [ ] oatmeal — Obesity에 듣는다  <!-- 시험 4건 · 논문 38편 -->
-- [ ] barley — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 81편 -->
+- [x] barley — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 81편 -->
 - [ ] avocado — Obesity에 듣는다  <!-- 시험 9건 · 논문 145편 -->
 - [ ] avocado — Triglycerides에 듣는다  <!-- 시험 3건 · 논문 80편 -->
 - [ ] walnuts — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 548편 -->
 - [ ] walnuts — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 91편 -->
 - [ ] walnuts — Obesity에 듣는다  <!-- 시험 5건 · 논문 458편 -->
 - [ ] walnuts — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
-- [ ] olive oil — Cardiovascular Disease에 듣는다  <!-- 시험 18건 · 논문 1739편 -->
+- [x] olive oil — Cardiovascular Disease에 듣는다  <!-- 시험 18건 · 논문 1739편 -->
 - [ ] olive oil — Hemodialysis에 듣는다  <!-- 시험 5건 · 논문 36편 -->
 - [ ] olive oil — Asthma에 듣는다  <!-- 시험 4건 · 논문 72편 -->
 - [ ] seaweed — Iodine Deficiency에 듣는다  <!-- 시험 5건 · 논문 64편 -->
-- [ ] honey — Wound Heal에 듣는다  <!-- 시험 17건 · 논문 969편 -->
+- [x] honey — Wound Heal에 듣는다  <!-- 시험 17건 · 논문 969편 -->
 - [ ] honey — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 30편 -->
 - [ ] honey — Pain에 듣는다  <!-- 시험 4건 · 논문 463편 -->
 - [ ] cinnamon — Diabetes에 듣는다  <!-- 시험 13건 · 논문 465편 -->
@@ -21117,8 +21117,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] sodium reduction — Heart Failure에 듣는다  <!-- 시험 22건 · 논문 2947편 -->
 - [ ] sodium reduction — Hypertension에 듣는다  <!-- 시험 19건 · 논문 6118편 -->
 - [ ] sodium reduction — Lymphoma에 듣는다  <!-- 시험 15건 · 논문 120편 -->
-- [ ] intermittent fasting — Obesity에 듣는다  <!-- 시험 34건 · 논문 1117편 -->
-- [ ] intermittent fasting — Cardiometabolic Risk에 듣는다  <!-- 시험 3건 · 논문 173편 -->
+- [x] intermittent fasting — Obesity에 듣는다  <!-- 시험 34건 · 논문 1117편 -->
+- [x] intermittent fasting — Cardiometabolic Risk에 듣는다  <!-- 시험 3건 · 논문 173편 -->
 - [ ] intermittent fasting — Metabolism에 듣는다  <!-- 시험 3건 · 논문 2443편 -->
 - [ ] time restricted eating — Obesity에 듣는다  <!-- 시험 82건 · 논문 1575편 -->
 - [ ] time restricted eating — Diabetes에 듣는다  <!-- 시험 32건 · 논문 1113편 -->
@@ -21139,7 +21139,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] chewing gum — Ileus에 듣는다  <!-- 시험 30건 · 논문 174편 -->
 - [ ] chewing gum — Dental Caries에 듣는다  <!-- 시험 10건 · 논문 487편 -->
 - [ ] chewing gum — Pain에 듣는다  <!-- 시험 8건 · 논문 273편 -->
-- [ ] water intake — Obesity에 듣는다  <!-- 시험 33건 · 논문 10374편 -->
+- [x] water intake — Obesity에 듣는다  <!-- 시험 33건 · 논문 10374편 -->
 - [ ] water intake — Blood Glucose에 듣는다  <!-- 시험 13건 · 논문 6837편 -->
 - [ ] water intake — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 2058편 -->
 - [ ] water intake — Energy Intake에 듣는다  <!-- 시험 7건 · 논문 8293편 -->
@@ -21154,11 +21154,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] high intensity interval training — Diabetes에 듣는다  <!-- 시험 38건 · 논문 700편 -->
 - [ ] high intensity interval training — Obesity에 듣는다  <!-- 시험 37건 · 논문 940편 -->
 - [ ] swimming — Sport Performance에 듣는다  <!-- 시험 7건 · 논문 3904편 -->
-- [ ] pilates — Pain에 듣는다  <!-- 시험 82건 · 논문 453편 -->
+- [x] pilates — Pain에 듣는다  <!-- 시험 82건 · 논문 453편 -->
 - [ ] pilates — Pregnancy에 듣는다  <!-- 시험 9건 · 논문 66편 -->
 - [ ] pilates — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 51편 -->
-- [ ] pilates — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 24편 -->
-- [ ] stretching exercise — Muscle Cramp에 듣는다  <!-- 시험 9건 · 논문 41편 -->
+- [x] pilates — Parkinson Disease에 듣는다  <!-- 시험 8건 · 논문 24편 -->
+- [x] stretching exercise — Muscle Cramp에 듣는다  <!-- 시험 9건 · 논문 41편 -->
 - [ ] stretching exercise — Exercise에 듣는다  <!-- 시험 8건 · 논문 9288편 -->
 - [ ] stretching exercise — Physical Fitness에 듣는다  <!-- 시험 8건 · 논문 599편 -->
 - [ ] stretching exercise — Knee Valgus에 듣는다  <!-- 시험 5건 · 논문 20편 -->
