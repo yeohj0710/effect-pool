@@ -1482,11 +1482,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cancer에 듣는다 — 기존 항목(aspirin-cancer-null)  <!-- 등록 시험 33건 -->
 - [x] aspirin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 --> — 기존 항목(aspirin-cardiovascular-disease-pos)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — 기존 항목(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-traumatic-stress-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
 - [x] propranolol — Prostate Carcinoma에 듣는다 — 기존 항목(propranolol-prostate-carcinoma-null)  <!-- 등록 시험 23건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Substance Use에 듣는다 — 기존 항목(naltrexone-substance-use)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -1496,21 +1496,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] gabapentin — Nausea에 듣는다 — 기존 항목(gabapentin-nausea)  <!-- 등록 시험 18건 -->
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
-- [ ] amitriptyline — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] amitriptyline — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 기존 항목(amitriptyline-depression-open)
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 9건 --> — 기존 항목(trazodone-depression-pos)
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
