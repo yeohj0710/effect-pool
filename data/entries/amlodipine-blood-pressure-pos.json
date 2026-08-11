@@ -1,0 +1,27 @@
+{
+  "id": "amlodipine-blood-pressure-pos",
+  "subj": "암로디핀",
+  "claim": "암로디핀이 심박출률 보존 심부전 고혈압의 수축기 혈압을 낮춘다",
+  "line": "심박출률 보존 심부전과 고혈압 환자에서 암로디핀은 메토프롤롤보다 가정 수축기 혈압을 낮췄습니다.",
+  "effect": "가정 수축기 혈압 −4 mmHg",
+  "vs": "심박출률 보존 심부전 동반 고혈압 환자 50명의 무작위 교차시험에서 암로디핀은 메토프롤롤보다 가정 수축기 혈압을 4 mmHg 낮췄습니다(95% CI −7~−1).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 50,
+  "synth": "single",
+  "why": "심박출률 보존 심부전과 고혈압이 있는 성인에서 암로디핀과 메토프롤롤을 무작위 교차 비교한 시험입니다.",
+  "saw": "50명에서 4주씩 암로디핀 5~10mg과 메토프롤롤 서방형 100~200mg을 비교했고, 암로디핀의 가정 수축기 혈압이 4 mmHg 낮았습니다. 이상반응 빈도와 중증도는 비슷했습니다.",
+  "limit": "50명·4주 교차시험이며 심박출률 보존 심부전 환자에 한정됩니다. 일반 고혈압 환자의 장기 혈압·심혈관 사건 결과로 일반화할 수 없습니다.",
+  "against": "혈압 외 심장 구조·기능 일부 지표에서는 유의한 차이가 없었고 장기 예후는 평가하지 않았습니다.",
+  "use": "심박출률 보존 심부전이 있는 고혈압에서 암로디핀과 베타차단제의 단기 혈압 차이를 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "2025 · Circulation · 심박출률 보존 심부전 고혈압 암로디핀·베타차단제 무작위 교차시험", "pmid": "42137945", "nct": "NCT04434664" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.term=amlodipine AND hypertension → 589건 반환; NCT04434664 확인",
+    "pubmed": "amlodipine AND hypertension AND (randomized OR placebo) AND (meta-analysis OR systematic review) → 80건",
+    "negative": "amlodipine AND hypertension AND (no effect OR did not OR failed OR negative OR no significant difference OR null) → 3,479건",
+    "safety": "amlodipine AND hypertension AND (adverse OR safety OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,798건"
+  }
+}

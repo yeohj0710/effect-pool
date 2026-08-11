@@ -1421,7 +1421,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — 기존 항목(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — 기존 항목(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -1444,16 +1444,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 새 항목(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-open)  <!-- 등록 시험 14건 -->
 - [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-open)  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 새 항목(fluoxetine-obsessive-compulsive-disorder-open)
 - [x] pioglitazone — Insulin Resistance에 듣는다 — 기존 항목(pioglitazone-insulin-resistance-open)  <!-- 등록 시험 29건 -->
 - [x] pioglitazone — Liver에 듣는다 — 기존 항목(pioglitazone-liver-open)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Lung Cancer에 듣는다 — 기존 항목(pioglitazone-lung-cancer-null)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Metabolic Syndrome에 듣는다 — 기존 항목(pioglitazone-metabolic-syndrome-pos)  <!-- 등록 시험 18건 -->
-- [ ] celecoxib — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 73건 -->
-- [ ] celecoxib — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 65건 -->
+- [x] celecoxib — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 73건 --> — 새 항목(celecoxib-pain-pos)
+- [x] celecoxib — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 65건 --> — 새 항목(celecoxib-osteoarthritis-open)
 - [x] celecoxib — Colon Carcinoma에 듣는다 — 기존 항목(celecoxib-colon-carcinoma-open)  <!-- 등록 시험 62건 -->
 - [x] celecoxib — COVID-19에 듣는다 — 기존 항목(celecoxib-covid-19-null)  <!-- 등록 시험 17건 -->
 - [x] metoprolol — Heart Rate에 듣는다 — 기존 항목(metoprolol-heart-rate-pos)  <!-- 등록 시험 38건 -->
@@ -1461,8 +1461,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoprolol — Myocardial Ischemia에 듣는다 — 기존 항목(metoprolol-myocardial-ischemia-pos)  <!-- 등록 시험 14건 -->
 - [x] metoprolol — Cardiomyopathy에 듣는다 — 기존 항목(metoprolol-cardiomyopathy-pos)  <!-- 등록 시험 13건 -->
 - [x] amlodipine — Diabetes에 듣는다 — 기존 항목(amlodipine-diabetes-open)  <!-- 등록 시험 24건 -->
-- [ ] amlodipine — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] amlodipine — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] amlodipine — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 새 항목(amlodipine-blood-pressure-pos)
+- [x] amlodipine — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 새 항목(amlodipine-coronary-disease-open)
 - [x] amlodipine — Hyperlipidemia에 듣는다 — 기존 항목(amlodipine-hyperlipidemia-open)  <!-- 등록 시험 12건 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -1478,10 +1478,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary Syndrom에 듣는다 — 기존 항목(metformin-pcos-ovulation)  <!-- 등록 시험 40건 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 21건 -->
 - [x] metformin — Acute Lymphoblastic Leukemia에 듣는다 — 기존 항목(metformin-acute-lymphoblastic-leukemia-null)  <!-- 등록 시험 19건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(aspirin-stroke-pos)
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cancer에 듣는다 — 기존 항목(aspirin-cancer-null)  <!-- 등록 시험 33건 -->
-- [ ] aspirin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 -->
+- [x] aspirin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 24건 --> — 기존 항목(aspirin-cardiovascular-disease-pos)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-traumatic-stress-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
