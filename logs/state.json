@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5354,
+  "entries": 5355,
   "subjects": 2138,
-  "refs": 7646,
+  "refs": 7647,
   "kinds": {
     "otc": 100,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 1932
+    "rx": 1933
   },
-  "tiers": { "trial": 4537, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3135, "null": 1055, "open": 1015, "harm": 149 },
+  "tiers": { "trial": 4538, "obs": 723, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3136, "null": 1055, "open": 1015, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 12935,
-    "unchecked": 2607,
+    "checked": 12946,
+    "unchecked": 2596,
     "no_evidence_pending": 1991,
-    "note": "batch 1213에서 비처방 주제 15개와 처방 주제 10개를 처리했다. 새 항목 8개, 기존 항목 연결 11개, 직접 근거 부족 6개를 반영했다. 다음 미처리 줄은 1326번 clonidine — Hypertension에 듣는다이며 2,607개가 남았다."
+    "note": "batch 1214에서 비처방 주제 1개와 처방 주제 10개를 처리했다. 새 항목 1개와 기존 항목 연결 10개를 반영했다. 다음 미처리 줄은 1329번 finasteride — Alopecia에 듣는다이며 2,596개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,11 +44,11 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
-    "rx_share": "36% (1,932건). 줄어야 한다",
+    "rx_share": "36% (1,933건). 줄어야 한다",
     "no_effect_or_harm_share": "22% (1,204건). 목표는 33% 위",
-    "vs_share": "5.5% (293건)",
+    "vs_share": "5.5% (294건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.7% (4,537건)",
+    "trial_share": "84.7% (4,538건)",
     "non_trial_share": "15.3% (817건)",
     "build_warnings": { "unknown_n": 448, "thin_study": 966 }
   },
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1214 starts after batch 1213; pull and read AGENTS.md first. Resume at worklist line 1326: clonidine — Hypertension에 듣는다; 2,607 unchecked remain.",
+  "next": "batch 1215 starts after batch 1214; pull and read AGENTS.md first. Resume at worklist line 1329: finasteride — Alopecia에 듣는다; 2,596 unchecked remain.",
   "last_batch": {
-    "id": "1213",
-    "commit": "307763d5",
+    "id": "1214",
+    "commit": "e1ef6e7c",
     "pushed": true,
-    "processed_topics": 25,
-    "new_entries": 8,
-    "existing_links": 11,
-    "no_evidence_rejects": 6,
-    "build": "5354 entries · 7646 refs · 4537 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "뇌심부자극술 2개, 증강현실·혼합현실 2개, 셀레늄, 척추 조작 2개, 경피 전기신경 자극을 새 근거 항목으로 추가했다. 엽산·청색광·돌봄 로봇·자율신경 TENS·말초동맥 적색광·외상성 뇌손상 적색광은 직접 비교 근거 부족으로 기록했고, 카르니틴 투석은 기존 레보카르니틴 항목에 연결했다.",
-    "research_batch": "비처방 15개를 모두 처리했다. 새 근거는 뇌심부자극술 2개·증강현실·혼합현실·셀레늄·척추 조작 2개·경피 전기신경 자극이며, carnitine—Renal Dialysis는 levocarnitine-renal-dialysis-pos에 연결했다. 처방 10개는 bupropion·sildenafil·bimatoprost 2개·botulinum toxin 3개·duloxetine 3개 기존 항목에 연결했다. 6개 주제는 개입·질환 불일치 또는 직접 비교 결과 부족으로 근거 없음 처리했다.",
+    "processed_topics": 11,
+    "new_entries": 1,
+    "existing_links": 10,
+    "no_evidence_rejects": 0,
+    "build": "5355 entries · 7647 refs · 4538 trial · 723 obs · 30 animal · 17 lab · 47 case",
+    "research": "DHEA—Menopause는 질내 DHEA 1,611명 메타분석으로 새 항목을 추가했고, glutamine—Sickle Cell Anemia는 기존 L-글루타민 항목에 연결했다. 처방 9개는 clonidine·atorvastatin 4개·losartan·acetazolamide·allopurinol 2개 기존 항목에 연결했다.",
+    "research_batch": "비처방 주제는 glutamine—Sickle Cell Anemia 1개를 기존 l-glutamine-sickle-cell-anemia-pos에 연결했다. DHEA—Menopause는 질내 DHEA 무작위시험 메타분석을 새로 기록했고, 처방 9개는 기존 근거 항목에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
