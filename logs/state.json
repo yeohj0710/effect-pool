@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5313,
-  "subjects": 2126,
-  "refs": 7580,
+  "entries": 5329,
+  "subjects": 2131,
+  "refs": 7609,
   "kinds": {
     "otc": 99,
     "supp": 359,
     "food": 464,
-    "move": 617,
-    "life": 1184,
-    "care": 656,
-    "rx": 1934
+    "move": 621,
+    "life": 1187,
+    "care": 666,
+    "rx": 1933
   },
-  "tiers": { "trial": 4500, "obs": 719, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3115, "null": 1044, "open": 1007, "harm": 147 },
+  "tiers": { "trial": 4514, "obs": 721, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3119, "null": 1051, "open": 1011, "harm": 148 },
   "worklist": {
     "total": 15542,
-    "checked": 12731,
-    "unchecked": 2811,
-    "no_evidence_pending": 1999,
-    "note": "batch 1206에서 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 20개를 만들고 기존 항목 10개를 연결했다. 다음 미처리 줄은 779번 minoxidil — Baldness에 듣는다이며 2,811개가 남았다."
+    "checked": 12760,
+    "unchecked": 2782,
+    "no_evidence_pending": 1997,
+    "note": "batch 1207에서 비처방 주제 19개와 처방 주제 10개를 처리했다. 새 항목 16개를 만들고 기존 항목 11개를 연결했으며 직접 근거가 없는 2개는 판정 사유를 기록했다. 다음 미처리 줄은 797번 duloxetine — Pain에 듣는다이며 2,782개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -44,13 +44,13 @@
   },
   "checkpoints": {
     "over_counter_share": "17% (약국약·보충제·음식 922건). 목표는 25%",
-    "rx_share": "36% (1,934건). 줄어야 한다",
+    "rx_share": "36% (1,933건). 줄어야 한다",
     "no_effect_or_harm_share": "22% (1,191건). 목표는 33% 위",
-    "vs_share": "4.8% (256건)",
+    "vs_share": "5.0% (268건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "84.7% (4,500건)",
-    "non_trial_share": "15.3% (813건)",
-    "build_warnings": { "unknown_n": 443, "thin_study": 959 }
+    "trial_share": "84.7% (4,514건)",
+    "non_trial_share": "15.3% (815건)",
+    "build_warnings": { "unknown_n": 447, "thin_study": 962 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,16 +58,15 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1207 starts after batch 1206; pull and read AGENTS.md first. Resume at worklist line 779: minoxidil — Baldness에 듣는다; 2,811 unchecked remain.",
+  "next": "batch 1208 starts after batch 1207; pull and read AGENTS.md first. Resume at worklist line 797: duloxetine — Pain에 듣는다; 2,782 unchecked remain.",
   "last_batch": {
-    "id": "1206",
-    "commit": "5ecdfb88",
+    "id": "1207",
+    "commit": "4151a382",
     "pushed": true,
-    "processed_topics": 30,
-    "new_entries": 20,
-    "existing_links": 10,
-    "build": "5313 entries · 7580 refs · 4500 trial · 719 obs · 30 animal · 17 lab · 47 case",
-    "research": "ClinicalTrials.gov와 PubMed로 표현적 글쓰기 3개, 소셜 미디어 줄이기 1개, 삼림욕·사우나·냉수 침수·낮잠 각 1개, 밝은 빛 노출 4개, 음악 듣기 4개, 노래 부르기·키네시올로지 테이핑·압박스타킹·폼롤링 각 1개의 비처방 주제를 확인했다. 섭식장애 표현적 글쓰기, 삼림욕, 우울·암의 밝은 빛 노출, 고령자 수면·수술 음악 듣기는 비교 수치를 반영했다. 암·신체상 글쓰기, 소셜 미디어 중단, 사우나·냉수·낮잠·일주기 빛 노출, 심장 시술 음악 듣기는 직접 효과가 분리되지 않거나 단일군·혼합 결과라 open으로 남겼다. 삼림욕의 기존 갈래를 rx에서 life로 바로잡았다. 스피로놀락톤·독시사이클린·콜히친·다파글리플로진·세마글루타이드·케타민·프라조신 10개 처방 주제는 기존 항목에 연결했다.",
+    "new_entries": 16,
+    "existing_links": 11,
+    "build": "5329 entries · 7609 refs · 4514 trial · 721 obs · 30 animal · 17 lab · 47 case",
+    "research": "ClinicalTrials.gov와 PubMed로 전신 진동 4개, 연속 혈당 측정 2개, 중량 담요·비강 세척 각 3개, 구강 세정기·청색광 차단·공기청정기 각 1~2개, 가습기·무릎 보조기 각 1개의 비처방 주제를 확인했다. 비교 수치가 있는 항목은 전신 진동의 항암치료 유발 신경병증·뇌졸중 경직, 비강 세척, 무릎 보조기 불사용 근육 손실 등에 수치를 넣었다. 표본 수나 효과크기가 초록에 없거나 관찰자료뿐인 주제는 open으로 남겼고, 무효·혼재 결과는 null로 기록했다. 급성 심부전 가습기와 발목 손상 무릎 보조기는 직접 결과가 없어 worklist에 판정 사유만 남겼다. 가습기의 잘못된 rx 갈래를 care로 바로잡고 새 기기·자가관리 갈래를 추가했다. 미녹시딜·부프로피온·실데나필·비마토프로스트·보툴리눔 독소 10개 처방 주제는 기존 항목에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
