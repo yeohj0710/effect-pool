@@ -1552,27 +1552,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — 기존 항목(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — 기존 항목(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(sildenafil-impotence-pos)
+- [x] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 --> — 기존 항목(bimatoprost-ocular-hypertension-pos)
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 기존 항목(bimatoprost-hypotrichosis-pos)
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — 기존 항목(botulinum-toxin-bladder-pos)
+- [x] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — 기존 항목(botulinum-toxin-spasticity-pos)
+- [x] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 --> — 기존 항목(botulinum-toxin-frown-lines-pos)
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [ ] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 -->
 - [ ] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
