@@ -31,10 +31,10 @@
   "dirs": { "pos": 3139, "null": 1055, "open": 1018, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 12976,
-    "unchecked": 2566,
+    "checked": 12986,
+    "unchecked": 2556,
     "no_evidence_pending": 1991,
-    "note": "batch 1217에서 처방 주제 10개를 처리했다. 새 항목 6개와 기존 항목 연결 4개를 추가했다. 다음 미처리 줄은 1485번 propranolol — Migraine에 듣는다이며 2,566개가 남았다."
+    "note": "batch 1218에서 처방 주제 10개를 기존 근거 항목에 연결했다. 다음 미처리 줄은 1517번 doxycycline — Acne에 듣는다이며 2,556개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1218 starts after batch 1217; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 1485: propranolol — Migraine에 듣는다; 2,566 unchecked remain.",
+  "next": "batch 1219 starts after batch 1218; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 1517: doxycycline — Acne에 듣는다; 2,556 unchecked remain.",
   "last_batch": {
-    "id": "1217",
-    "commit": "a8f9beff",
+    "id": "1218",
+    "commit": "69d5911b",
     "pushed": true,
     "processed_topics": 10,
-    "new_entries": 6,
-    "existing_links": 4,
+    "new_entries": 0,
+    "existing_links": 10,
     "no_evidence_rejects": 0,
     "build": "5361 entries · 7653 refs · 4544 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "fluoxetine—Depressive Disorder, Obsessive-Compulsive Disorder; celecoxib—Pain, Osteoarthritis; amlodipine—Blood Pressure, Coronary Disease는 ClinicalTrials.gov와 PubMed를 확인해 새 항목으로 작성했고, allopurinol—Kidney Stones와 aspirin—Stroke·Brain Infarction·Cardiovascular Disease는 기존 근거 항목에 연결했다.",
-    "research_batch": "처방 주제 10개를 처리했다. 소아·청소년 플루옥세틴 우울장애는 MD −2.43, 플루옥세틴 강박장애는 188명 신호, 셀레콕시브 수술 뒤 통증은 VAS MD −0.72·−1.51·−1.30, 셀레콕시브 골관절염은 JOINS와 비교해 효과크기 미상, 암로디핀 혈압은 50명에서 수축기 혈압 −4 mmHg, 암로디핀 심근경색은 연구별 HR 0.77~0.98로 기록했다. 새 항목 6개와 기존 항목 연결 4개이며 비처방 주제는 남아 있지 않았다.",
+    "research": "propranolol—Migraine, naltrexone—Alcoholism, amitriptyline—Depression, topiramate—Epilepsy·Seizures, trazodone—Depression·Major Depressive Disorder, quetiapine—Bipolar·Major Depression, spironolactone—Hypertension을 기존 근거 항목에 연결했다. 각 기존 항목의 ClinicalTrials.gov·PubMed 조회 기록을 유지했다.",
+    "research_batch": "처방 주제 10개를 새 파일 없이 기존 propranolol·naltrexone·amitriptyline·topiramate 2개·trazodone 2개·quetiapine 2개·spironolactone 근거 항목에 연결했다. 비처방 주제는 남아 있지 않았다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
