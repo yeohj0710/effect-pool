@@ -20856,3 +20856,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pectin — Inflammatory Bowel Disease에 듣는다 — 항목 생성(pectin-inflammatory-bowel-disease-pos, 2026-08-11)  <!-- 시험 5건 · 논문 143편 -->
 - [x] pectin — Gastric Cancer에 듣는다 — 근거 없음(2026-08-11, 항암 주제 조사 제외)  <!-- 시험 3건 · 논문 45편 -->
 - [x] pectin — Constipation에 듣는다 — 항목 생성(pectin-constipation-pos, 2026-08-11)  <!-- 시험 3건 · 논문 52편 -->
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] s-adenosylmethionine — Liver Injury에 듣는다  <!-- 시험 3건 · 논문 317편 --> — 항목 생성(s-adenosylmethionine-liver-injury-null, 2026-08-11)
+- [x] EGCG — Obesity에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 항목 생성(egcg-obesity-pos, 2026-08-11)
+- [x] EGCG — Fibrosis; Skin에 듣는다  <!-- 시험 5건 · 논문 11편 --> — 항목 생성(egcg-fibrosis-skin-pos, 2026-08-11)
+- [x] EGCG — Colon Cancer에 듣는다  <!-- 시험 5건 · 논문 196편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] EGCG — Dermatitis에 듣는다  <!-- 시험 5건 · 논문 38편 --> — 항목 생성(egcg-dermatitis-pos, 2026-08-11)
+- [x] leucine — Sarcopenia에 듣는다  <!-- 시험 10건 · 논문 422편 --> — 항목 생성(leucine-sarcopenia-null, 2026-08-11)
+- [x] leucine — Obesity에 듣는다  <!-- 시험 7건 · 논문 1368편 --> — 등록시험 결과 대기(2026-08-11 조회, leucine AND Obesity; ClinicalTrials.gov 물질 일치 10건, 직접 류신 보충 결과 논문 확인 못함)
+- [x] leucine — Cancer에 듣는다  <!-- 시험 7건 · 논문 14261편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] leucine — Protein에 듣는다  <!-- 시험 6건 · 논문 78800편 --> — 항목 생성(leucine-protein-null, 2026-08-11)
+- [x] beta-hydroxy-beta-methylbutyrate — Muscle Damage에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 항목 생성(hmb-muscle-damage-pos, 2026-08-11)
+- [x] 5-methyltetrahydrofolate — Pregnancy에 듣는다  <!-- 시험 4건 · 논문 282편 --> — 항목 생성(5-methyltetrahydrofolate-pregnancy-pos, 2026-08-11)
