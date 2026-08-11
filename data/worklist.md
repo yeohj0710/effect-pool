@@ -20724,8 +20724,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ginger — Chemotherapy에 듣는다  <!-- 시험 3건 · 논문 1892편 --> — 항암 주제 제외(2026-08-11)
 - [x] honey — Infection에 듣는다  <!-- 시험 8건 · 논문 3237편 --> — 항목 생성(honey-infection-null, 2026-08-11)
 - [x] honey — Diabetes에 듣는다  <!-- 시험 6건 · 논문 544편 --> — 근거 없음(2026-08-11 조회, honey AND Diabetes; 당뇨병 자체의 직접 결과 확인 못함)
-- [ ] honey — Pressure Sore에 듣는다  <!-- 시험 6건 · 논문 43편 -->
-- [ ] quercetin — SARS-CoV 2에 듣는다  <!-- 시험 4건 · 논문 363편 -->
-- [ ] quercetin — Obesity에 듣는다  <!-- 시험 3건 · 논문 722편 -->
-- [ ] quercetin — Cardiovascular에 듣는다  <!-- 시험 3건 · 논문 2041편 -->
-- [ ] quercetin — Reflux에 듣는다  <!-- 시험 3건 · 논문 60편 -->
+- [x] honey — Pressure Sore에 듣는다  <!-- 시험 6건 · 논문 43편 --> — 등록시험 결과 대기(2026-08-11 조회, honey AND Pressure Sore; ClinicalTrials.gov 물질 일치 3건, PubMed 0편)
+- [x] quercetin — SARS-CoV 2에 듣는다  <!-- 시험 4건 · 논문 363편 --> — 항목 생성(quercetin-sars-cov-2-pos, 2026-08-11)
+- [x] quercetin — Obesity에 듣는다  <!-- 시험 3건 · 논문 722편 --> — 항목 생성(quercetin-obesity-null, 2026-08-11)
+- [x] quercetin — Cardiovascular에 듣는다  <!-- 시험 3건 · 논문 2041편 --> — 항목 생성(quercetin-cardiovascular-pos, 2026-08-11)
+- [x] quercetin — Reflux에 듣는다  <!-- 시험 3건 · 논문 60편 --> — 항목 생성(quercetin-reflux-null, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] capsaicin — Diabetic Foot에 듣는다  <!-- 시험 14건 · 논문 27편 --> — 허가 적응증(2026-08-11)
+- [x] capsaicin — Peripheral Nervous System Disease에 듣는다  <!-- 시험 11건 · 논문 1033편 --> — 등록시험 결과 대기(2026-08-11 조회, capsaicin AND Peripheral Nervous System Disease; ClinicalTrials.gov 물질 일치 39건, PubMed 0편)
+- [x] capsaicin — Cough에 듣는다  <!-- 시험 11건 · 논문 889편 --> — 항목 생성(capsaicin-cough-pos, 2026-08-11)
+- [x] capsaicin — Neuralgia에 듣는다  <!-- 시험 8건 · 논문 696편 --> — 허가 적응증(2026-08-11)
+- [x] l-arginine — Cardiovascular Disease에 듣는다  <!-- 시험 9건 · 논문 15806편 --> — 항목 생성(l-arginine-cardiovascular-pos, 2026-08-11)
+- [x] l-arginine — Vascular Function에 듣는다  <!-- 시험 7건 · 논문 20957편 --> — 항목 생성(l-arginine-vascular-function-null, 2026-08-11)
+- [x] l-arginine — Diabetes에 듣는다  <!-- 시험 6건 · 논문 8693편 --> — 항목 생성(l-arginine-diabetes-pos, 2026-08-11)
+- [x] l-arginine — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1881편 --> — 항목 생성(l-arginine-heart-failure-pos, 2026-08-11)
+- [x] ginkgo biloba — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 68편 --> — 항목 생성(ginkgo-biloba-glaucoma-null, 2026-08-11)
+- [x] ginkgo biloba — Cognition에 듣는다  <!-- 시험 3건 · 논문 748편 --> — 항목 생성(ginkgo-biloba-cognition-pos, 2026-08-11)
+- [x] krill oil — Obesity, Metabolic에 듣는다  <!-- 시험 3건 · 논문 33편 --> — 등록시험 결과 대기(2026-08-11 조회, krill oil AND Obesity, Metabolic; ClinicalTrials.gov 물질 일치 2건, PubMed 0편)
+- [x] krill oil — Osteoarthritis, Knee에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 항목 생성(krill-oil-osteoarthritis-knee-null, 2026-08-11)
+- [x] beta-alanine — Muscle Function에 듣는다  <!-- 시험 3건 · 논문 1130편 --> — 항목 생성(beta-alanine-muscle-function-null, 2026-08-11)
+- [x] beta-alanine — Dietary Supplement에 듣는다  <!-- 시험 3건 · 논문 569편 --> — 항목 생성(beta-alanine-dietary-supplement-harm, 2026-08-11)
