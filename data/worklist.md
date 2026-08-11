@@ -2144,21 +2144,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydrochlorothiazide — Heart Arrest에 듣는다 — 신규 항목(hydrochlorothiazide-heart-arrest-open)  <!-- 등록 시험 14건 -->
 - [x] hydrochlorothiazide — Kidney Stone에 듣는다 — 신규 항목(hydrochlorothiazide-kidney-stone-null)  <!-- 등록 시험 12건 -->
 - [x] hydrochlorothiazide — Metabolic Syndrome에 듣는다 — 신규 항목(hydrochlorothiazide-metabolic-syndrome-open)  <!-- 등록 시험 8건 -->
-- [ ] levetiracetam — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] levetiracetam — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 신규 항목(levetiracetam-seizures-null)
 - [x] levetiracetam — Brain Tumor에 듣는다 — 신규 항목(levetiracetam-brain-tumor-open)  <!-- 등록 시험 22건 -->
 - [x] levetiracetam — Status Epilepticus에 듣는다 — 신규 항목(levetiracetam-status-epilepticus-open)  <!-- 등록 시험 17건 -->
 - [x] levetiracetam — Alzheimer Disease에 듣는다 — 신규 항목(levetiracetam-alzheimer-disease-open)  <!-- 등록 시험 14건 -->
 - [x] diltiazem — Coronary Disease에 듣는다 — 신규 항목(diltiazem-coronary-disease-open)  <!-- 등록 시험 9건 -->
-- [ ] diltiazem — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] diltiazem — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(diltiazem-hypertension-pos)
 - [x] diltiazem — Anal Fissure에 듣는다 — 신규 항목(diltiazem-anal-fissure-open)  <!-- 등록 시험 7건 -->
-- [ ] diltiazem — Stable Angina에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] diltiazem — Stable Angina에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 신규 항목(diltiazem-stable-angina-pos)
 - [x] probenecid — Interaction에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 6건 -->
 - [x] probenecid — Cytomegalovirus Retinitis에 듣는다 — 신규 항목(probenecid-cytomegalovirus-retinitis-open)  <!-- 등록 시험 5건 -->
 - [x] probenecid — Diabetes에 듣는다 — 신규 항목(probenecid-diabetes-open)  <!-- 등록 시험 4건 -->
 - [x] probenecid — Obesity에 듣는다 — 신규 항목(probenecid-obesity-open)  <!-- 등록 시험 3건 -->
-- [ ] indomethacin — Patent Ductus Arteriosus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] indomethacin — Patent Ductus Arteriosus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — 신규 항목(indomethacin-patent-ductus-arteriosus-pos)
 - [x] indomethacin — Preterm Labor에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] indomethacin — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] indomethacin — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 신규 항목(indomethacin-pain-pos)
 - [x] indomethacin — Carcinoma In Situ에 듣는다  <!-- 등록 시험 6건 -->
 - [x] hydralazine — Heart Failure에 듣는다  <!-- 등록 시험 10건 -->
 - [x] hydralazine — Lung Cancer에 듣는다  <!-- 등록 시험 8건 -->
@@ -2175,11 +2175,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 -->
-- [ ] furosemide — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] furosemide — Fluid Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
-- [ ] furosemide — Renal Impairment에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
-- [ ] prednisolone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
-- [ ] prednisolone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] furosemide — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 신규 항목(furosemide-hypertension-pos)
+- [x] furosemide — Fluid Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — 신규 항목(furosemide-fluid-overload-pos)
+- [x] furosemide — Renal Impairment에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — 기존 항목(furosemide-renal-impairment-null)
+- [x] prednisolone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 신규 항목(prednisolone-leukemia-null)
+- [x] prednisolone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — 신규 항목(prednisolone-cancer-null)
 - [x] prednisolone — Pain에 듣는다  <!-- 등록 시험 25건 -->
 - [x] prednisolone — Myeloma에 듣는다  <!-- 등록 시험 24건 -->
 - [ ] dexamethasone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 85건 -->
