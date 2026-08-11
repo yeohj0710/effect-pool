@@ -31,10 +31,10 @@
   "dirs": { "pos": 3136, "null": 1055, "open": 1015, "harm": 149 },
   "worklist": {
     "total": 15542,
-    "checked": 12946,
-    "unchecked": 2596,
+    "checked": 12956,
+    "unchecked": 2586,
     "no_evidence_pending": 1991,
-    "note": "batch 1214에서 비처방 주제 1개와 처방 주제 10개를 처리했다. 새 항목 1개와 기존 항목 연결 10개를 반영했다. 다음 미처리 줄은 1329번 finasteride — Alopecia에 듣는다이며 2,596개가 남았다."
+    "note": "batch 1215에서 처방 주제 10개를 기존 항목에 연결했다. 새 항목은 없었다. 다음 미처리 줄은 1382번 verapamil — Hypertension에 듣는다이며 2,586개가 남았다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1215 starts after batch 1214; pull and read AGENTS.md first. Resume at worklist line 1329: finasteride — Alopecia에 듣는다; 2,596 unchecked remain.",
+  "next": "batch 1216 starts after batch 1215; pull and read AGENTS.md first. Resume at worklist line 1382: verapamil — Hypertension에 듣는다; 2,586 unchecked remain.",
   "last_batch": {
-    "id": "1214",
-    "commit": "e1ef6e7c",
+    "id": "1215",
+    "commit": "cd38efd6",
     "pushed": true,
-    "processed_topics": 11,
-    "new_entries": 1,
+    "processed_topics": 10,
+    "new_entries": 0,
     "existing_links": 10,
     "no_evidence_rejects": 0,
     "build": "5355 entries · 7647 refs · 4538 trial · 723 obs · 30 animal · 17 lab · 47 case",
-    "research": "DHEA—Menopause는 질내 DHEA 1,611명 메타분석으로 새 항목을 추가했고, glutamine—Sickle Cell Anemia는 기존 L-글루타민 항목에 연결했다. 처방 9개는 clonidine·atorvastatin 4개·losartan·acetazolamide·allopurinol 2개 기존 항목에 연결했다.",
-    "research_batch": "비처방 주제는 glutamine—Sickle Cell Anemia 1개를 기존 l-glutamine-sickle-cell-anemia-pos에 연결했다. DHEA—Menopause는 질내 DHEA 무작위시험 메타분석을 새로 기록했고, 처방 9개는 기존 근거 항목에 연결했다.",
+    "research": "finasteride 2개, modafinil 2개, baclofen, ondansetron, memantine, rapamycin, montelukast, verapamil을 기존 근거 항목에 연결했다.",
+    "research_batch": "처방 주제 10개를 기존 finasteride 2개·modafinil 2개·baclofen·ondansetron·memantine·rapamycin·montelukast·verapamil 항목에 연결했다. 비처방 주제는 남아 있지 않아 새 항목을 만들지 않았다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
