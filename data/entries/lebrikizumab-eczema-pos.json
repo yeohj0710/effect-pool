@@ -1,0 +1,30 @@
+{
+  "id": "lebrikizumab-eczema-pos",
+  "subj": "레브리키주맙",
+  "claim": "레브리키주맙이 중등도·중증 아토피피부염의 피부 중증도를 낮춘다",
+  "line": "중등도·중증 아토피피부염에서 레브리키주맙은 위약보다 IGA 성공률을 높였습니다.",
+  "effect": "IGA 성공 43.1% 대 12.7%",
+  "vs": "ADvocate1 424명에서 16주 IGA 성공은 레브리키주맙 43.1%로 위약 12.7%보다 높았고 EASI-75는 58.8% 대 16.2%였으며, ADvocate2에서는 IGA 성공 33.2% 대 10.8%, EASI-75 52.1% 대 18.1%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 851,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "레브리키주맙은 여러 국가에서 중등도·중증 아토피피부염 치료제로 허가된 IL-13 표적 생물학적 제제입니다.",
+  "why": "중등도·중증 아토피피부염 청소년·성인 851명을 포함한 ADvocate1·2 3상시험에서 레브리키주맙 단독치료를 위약과 비교했습니다.",
+  "saw": "두 시험 모두 16주 IGA 성공과 EASI-75가 레브리키주맙에서 위약보다 높았고, 결막염은 레브리키주맙에서 더 흔했습니다.",
+  "limit": "16주 유도기간의 단독치료 결과이며, 장기 유지요법과 국소치료 병용 결과를 같은 수치로 해석할 수 없습니다.",
+  "against": "결막염과 주사 관련 이상반응을 확인하고, 감염·안과 증상이 생기면 진료를 받습니다.",
+  "use": "국소치료로 충분히 조절되지 않는 중등도·중증 아토피피부염의 피부 중증도 감소 근거로 검토합니다.",
+  "refs": [
+    { "label": "2023 · NEJM · ADvocate1·2 레브리키주맙 아토피피부염 3상시험", "pmid": "36920778", "nct": "NCT04146363" },
+    { "label": "2023 · NEJM · ADvocate2 레브리키주맙 아토피피부염 3상시험", "nct": "NCT04178967" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=lebrikizumab AND query.cond=eczema → 25건 반환; NCT04146363·NCT04178967에서 lebrikizumab·placebo 중재명 확인",
+    "pubmed": "lebrikizumab AND eczema → 105건",
+    "negative": "lebrikizumab AND eczema AND (no effect OR did not OR failed OR negative OR no significant difference) → 58건",
+    "safety": "lebrikizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 113건"
+  }
+}

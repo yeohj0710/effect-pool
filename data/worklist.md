@@ -2055,16 +2055,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mepolizumab — Eosinophilic Fasciitis에 듣는다 — 신규 항목(mepolizumab-eosinophilic-fasciitis-null)  <!-- 등록 시험 15건 -->
 - [x] mepolizumab — Hypereosinophilic Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 신규 항목(mepolizumab-hypereosinophilic-syndrome-pos)
 - [x] mepolizumab — Churg-Strauss Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — 신규 항목(mepolizumab-churg-strauss-syndrome-pos)
-- [ ] omalizumab — Urticaria에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
-- [ ] omalizumab — Allergy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] omalizumab — Urticaria에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — 신규 항목(omalizumab-urticaria-pos)
+- [x] omalizumab — Allergy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — 신규 항목(omalizumab-food-allergy-pos)
 - [x] omalizumab — Rhinitis에 듣는다 — 신규 항목(omalizumab-rhinitis-open)  <!-- 등록 시험 14건 -->
-- [ ] omalizumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] omalizumab — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 신규 항목(omalizumab-nasal-polyps-pos)
 - [x] tezepelumab — COPD에 듣는다 — 신규 항목(tezepelumab-copd-null)  <!-- 등록 시험 7건 -->
-- [ ] tezepelumab — Chronic Rhinosinusitis With Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] tezepelumab — Chronic Rhinosinusitis With Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — 신규 항목(tezepelumab-nasal-polyps-pos)
 - [x] benralizumab — Eosinophilic Gastritis에 듣는다 — 신규 항목(benralizumab-eosinophilic-gastritis-null)  <!-- 등록 시험 11건 -->
 - [x] benralizumab — Nasal Polyps에 듣는다 — 신규 항목(benralizumab-nasal-polyps-null)  <!-- 등록 시험 7건 -->
 - [x] benralizumab — Chronic Obstructive Pulmonary Disease에 듣는다 — 신규 항목(benralizumab-copd-null)  <!-- 등록 시험 7건 -->
-- [ ] benralizumab — Hypereosinophilia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 3건 -->
+- [x] benralizumab — Hypereosinophilia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 3건 --> — 신규 항목(benralizumab-hypereosinophilic-syndrome-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -2076,12 +2076,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] lebrikizumab — Asthma에 듣는다 — 신규 항목(lebrikizumab-asthma-null)  <!-- 등록 시험 12건 -->
-- [ ] lebrikizumab — Eczema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 -->
+- [x] lebrikizumab — Eczema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 7건 --> — 신규 항목(lebrikizumab-eczema-pos)
 - [x] tralokinumab — Asthma에 듣는다 — 신규 항목(tralokinumab-asthma-null)  <!-- 등록 시험 8건 -->
 - [x] reslizumab — Eosinophilic Bronchitis에 듣는다 — 신규 항목(reslizumab-eosinophilic-bronchitis-open)  <!-- 등록 시험 3건 -->
-- [ ] roflumilast — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] roflumilast — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] roflumilast — Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] roflumilast — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 신규 항목(roflumilast-copd-pos)
+- [x] roflumilast — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 신규 항목(roflumilast-psoriasis-pos)
+- [x] roflumilast — Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 신규 항목(roflumilast-dermatitis-pos)
 - [x] roflumilast — Asthma에 듣는다 — 신규 항목(roflumilast-asthma-open)  <!-- 등록 시험 10건 -->
 - [x] apremilast — Psoriatic Nail에 듣는다 — 신규 항목(apremilast-psoriatic-nail-open)  <!-- 등록 시험 27건 -->
 - [x] apremilast — Atopic Dermatitis에 듣는다 — 신규 항목(apremilast-atopic-dermatitis-open)  <!-- 등록 시험 9건 -->
@@ -2097,7 +2097,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 -->
+- [x] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 --> — 신규 항목(azithromycin-infection-null)
 - [ ] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
 - [x] azithromycin — COVID에 듣는다 — 신규 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
 - [x] azithromycin — Malaria에 듣는다 — 신규 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->

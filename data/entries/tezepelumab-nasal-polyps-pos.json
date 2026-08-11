@@ -1,0 +1,29 @@
+{
+  "id": "tezepelumab-nasal-polyps-pos",
+  "subj": "테제펠루맙",
+  "claim": "테제펠루맙이 중증 만성 비부비동염의 비용과 코막힘, 수술 필요를 줄인다",
+  "line": "중증 비강 폴립에서 테제펠루맙은 위약보다 비용과 코막힘을 줄였습니다.",
+  "effect": "비용 −2.07; 코막힘 −1.03",
+  "vs": "WAYPOINT 408명에서 52주 비용 점수는 테제펠루맙이 위약보다 2.07점, 코막힘은 1.03점 더 낮았고, 비강 폴립 수술은 0.5% 대 22.1%, 전신 글루코코르티코이드 사용은 5.2% 대 18.3%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 408,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "테제펠루맙의 비강 폴립 적응증은 이 자료 시점에 허가된 표준 적응증이 아니며 임상시험 근거입니다.",
+  "why": "중증·조절되지 않는 만성 비부비동염과 비강 폴립 성인 408명을 테제펠루맙 210mg 또는 위약에 52주 무작위 배정한 WAYPOINT 3상시험입니다.",
+  "saw": "52주 총 비용 점수와 코막힘 점수, 비강 폴립 수술·전신 글루코코르티코이드 사용이 테제펠루맙에서 위약보다 낮았습니다.",
+  "limit": "중증·조절되지 않는 비강 폴립 환자와 표준치료 병용 조건의 52주 결과이며, 경증 비부비동염에 같은 효과를 적용할 수 없습니다.",
+  "against": "감염, 과민반응과 주사 관련 이상반응을 확인하고, 허가된 적응증 밖 사용은 전문의와 임상근거를 따로 검토해야 합니다.",
+  "use": "표준치료에도 조절되지 않는 중증 비강 폴립에서 수술·전신 스테로이드 사용을 줄일 가능성을 평가할 때 참고합니다.",
+  "refs": [
+    { "label": "2025 · NEJM · WAYPOINT 테제펠루맙 비강 폴립 3상시험", "pmid": "40106374", "nct": "NCT04851964" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=tezepelumab AND query.cond=chronic rhinosinusitis with nasal polyps → 5건 반환; NCT04851964에서 tezepelumab·placebo 중재명 확인",
+    "pubmed": "tezepelumab AND chronic rhinosinusitis with nasal polyps → 79건",
+    "negative": "tezepelumab AND chronic rhinosinusitis with nasal polyps AND (no effect OR did not OR failed OR negative OR no significant difference) → 50건",
+    "safety": "tezepelumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 150건"
+  }
+}

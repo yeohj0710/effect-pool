@@ -1,0 +1,29 @@
+{
+  "id": "omalizumab-food-allergy-pos",
+  "subj": "오말리주맙",
+  "claim": "오말리주맙이 여러 식품 알레르기에서 반응을 일으키는 섭취량을 높인다",
+  "line": "여러 식품 알레르기가 있는 소아·청소년에서 오말리주맙은 위약보다 땅콩 단백질 반응 역치를 높였습니다.",
+  "effect": "땅콩 역치 67% 대 7%",
+  "vs": "OUtMATCH 177명에서 오말리주맙군은 땅콩 단백질 600mg 이상을 증상 제한 없이 섭취한 비율이 67%로 위약 7%보다 높았고, 캐슈 41% 대 3%, 우유 66% 대 10%, 달걀 67% 대 0%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 177,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "미국에서는 오말리주맙이 2024년 식품 알레르기 반응 위험 감소 적응증을 추가했습니다.",
+  "why": "땅콩과 두 가지 이상 식품에 알레르기가 있는 1~17세 소아·청소년 분석군 177명을 오말리주맙 또는 위약에 무작위 배정한 OUtMATCH 1단계 시험입니다.",
+  "saw": "땅콩 600mg 이상 무증상 섭취는 오말리주맙 67%, 위약 7%였고, 캐슈·우유·달걀의 1,000mg 이상 섭취도 오말리주맙군에서 더 흔했습니다.",
+  "limit": "16~20주 치료 뒤 식품 유발시험 결과이며, 아나필락시스가 이미 발생한 환자의 모든 우발 노출을 막는다는 뜻은 아닙니다.",
+  "against": "주사부위 반응은 오말리주맙군에서 더 많았고, 치료 중에도 알레르기 유발 식품 회피와 응급대응 계획이 필요합니다.",
+  "use": "다중 식품 알레르기에서 우발 노출 시 반응 역치를 높이는 보조 근거로 검토하되, 알레르기 전문의의 유발시험·응급계획과 함께 사용합니다.",
+  "refs": [
+    { "label": "2024 · NEJM · OUtMATCH 다중 식품 알레르기 오말리주맙 무작위시험", "pmid": "38407394", "nct": "NCT03881696" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=omalizumab AND query.cond=food allergy → 27건 반환; NCT03881696에서 omalizumab·placebo 중재명 확인",
+    "pubmed": "omalizumab AND food allergy → 514건",
+    "negative": "omalizumab AND food allergy AND (no effect OR did not OR failed OR negative OR no significant difference) → 321건",
+    "safety": "omalizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,827건"
+  }
+}

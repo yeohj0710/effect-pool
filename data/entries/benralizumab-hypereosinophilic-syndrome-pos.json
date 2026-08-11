@@ -1,0 +1,29 @@
+{
+  "id": "benralizumab-hypereosinophilic-syndrome-pos",
+  "subj": "벤라리주맙",
+  "claim": "벤라리주맙이 호산구 과다증후군의 첫 악화 위험을 줄인다",
+  "line": "호산구 과다증후군에서 벤라리주맙은 위약보다 첫 악화까지 시간을 늦췄습니다.",
+  "effect": "첫 악화 HR 0.35",
+  "vs": "NATRON 133명에서 벤라리주맙의 첫 호산구 과다증후군 악화 위험은 위약보다 65% 낮았고 HR 0.35였으며, 이상반응은 64.2% 대 66.7%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 133,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "2026년 현재 벤라리주맙의 호산구 과다증후군 적응증 근거가 허가사항에 반영되어 있습니다.",
+  "why": "기존 안정 치료를 받는 FIP1L1::PDGFRA 음성 호산구 과다증후군 환자 133명을 벤라리주맙 30mg 4주 간격 또는 위약에 24주 무작위 배정한 NATRON 3상시험입니다.",
+  "saw": "첫 악화 위험 HR은 0.35였고, 벤라리주맙과 위약의 이상반응 발생률은 각각 64.2%와 66.7%였습니다.",
+  "limit": "기존 배경치료에 추가한 FIP1L1::PDGFRA 음성 환자의 24주 결과이며, 모든 호산구 증가 원인에 적용할 수 없습니다.",
+  "against": "감염·과민반응과 호산구 감소에 따른 임상상 변화를 확인하고, 기존 면역억제 치료를 임의로 줄이지 않습니다.",
+  "use": "기존 치료에도 악화하는 호산구 과다증후군에서 첫 악화 지연 근거로 검토합니다.",
+  "refs": [
+    { "label": "2026 · Nature Medicine · NATRON 벤라리주맙 호산구 과다증후군 3상시험", "pmid": "41917160", "nct": "NCT04191304" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=benralizumab AND query.cond=hypereosinophilic syndrome → 17건 반환; NCT04191304에서 benralizumab·placebo 중재명 확인",
+    "pubmed": "benralizumab AND hypereosinophilic syndrome → 141건",
+    "negative": "benralizumab AND hypereosinophilic syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) → 91건",
+    "safety": "benralizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 449건"
+  }
+}

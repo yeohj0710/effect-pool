@@ -1,0 +1,30 @@
+{
+  "id": "omalizumab-nasal-polyps-pos",
+  "subj": "오말리주맙",
+  "claim": "오말리주맙이 중증 만성 비부비동염의 비용 크기와 코막힘을 줄인다",
+  "line": "비강 폴립을 동반한 중증 만성 비부비동염에서 오말리주맙은 위약보다 비용 점수와 코막힘을 낮췄습니다.",
+  "effect": "비용 점수 −1.08·−0.90",
+  "vs": "POLYP1·2 265명에서 24주 총 비용 점수 변화는 오말리주맙이 −1.08과 −0.90으로 위약 0.06과 −0.31보다 더 낮았고, 코막힘 점수도 −0.89와 −0.70 대 −0.35와 −0.20이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 265,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "중증 천식과 비강 폴립을 동반한 만성 비부비동염의 추가 유지치료로 허가된 적응증입니다.",
+  "why": "비강 폴립을 동반한 중증 만성 비부비동염 성인 265명을 포함한 POLYP1·2 3상시험에서 오말리주맙을 표준치료에 추가해 위약과 비교했습니다.",
+  "saw": "24주 비용 점수와 코막힘 점수가 두 시험 모두 오말리주맙에서 위약보다 더 크게 감소했습니다.",
+  "limit": "24주 결과이며 모든 만성 비부비동염이나 수술 후 재발을 막는 효과로 일반화할 수 없습니다.",
+  "against": "주사부위 반응과 과민반응을 확인하고, 코르티코스테로이드·수술 등 표준치료를 임의로 중단하지 않습니다.",
+  "use": "표준 비강치료에도 조절되지 않는 비강 폴립 동반 만성 비부비동염에서 추가치료 근거로 검토합니다.",
+  "refs": [
+    { "label": "2020 · NEJM · POLYP1·2 오말리주맙 비강 폴립 무작위시험", "pmid": "32524991", "nct": "NCT03280550" },
+    { "label": "2020 · NEJM · POLYP2 오말리주맙 비강 폴립 무작위시험", "nct": "NCT03280537" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=omalizumab AND query.cond=nasal polyps → 10건 반환; NCT03280550·NCT03280537에서 중재명 확인",
+    "pubmed": "omalizumab AND nasal polyps → 317건",
+    "negative": "omalizumab AND nasal polyps AND (no effect OR did not OR failed OR negative OR no significant difference) → 201건",
+    "safety": "omalizumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,827건"
+  }
+}
