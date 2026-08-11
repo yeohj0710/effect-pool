@@ -20780,3 +20780,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] intermittent pneumatic compression — Arterial Ulcers에 듣는다  <!-- 시험 5건 · 논문 29편 --> — 항목 생성(intermittent-pneumatic-compression-arterial-ulcers-pos, 2026-08-11)
 - [x] intermittent pneumatic compression — Lipedema에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 항목 생성(intermittent-pneumatic-compression-lipedema-null, 2026-08-11)
 - [x] intermittent pneumatic compression — Physical Therapy에 듣는다  <!-- 시험 4건 · 논문 223편 --> — 항목 생성(intermittent-pneumatic-compression-physical-therapy-null, 2026-08-11)
+
+## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이 섞여 있습니다.** 시험 수로는 허가 여부를 못 가립니다 — 이미 허가된 적응증은
+오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
+조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
+
+- [x] cannabis — Opioid Use에 듣는다  <!-- 시험 13건 · 논문 3833편 --> — 등록시험 결과 대기(2026-08-11 조회, cannabis AND Opioid Use; ClinicalTrials.gov 물질 일치 10건, 직접 결과 논문 확인 못함)
+- [x] cannabis — Cancer에 듣는다  <!-- 시험 10건 · 논문 2689편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] cannabis — Driving Impaired에 듣는다  <!-- 시험 8건 · 논문 572편 --> — 항목 생성(cannabis-driving-impaired-harm, 2026-08-11)
+- [x] cannabis — Marijuana에 듣는다  <!-- 시험 8건 · 논문 42762편 --> — 근거 없음(2026-08-11 조회, Marijuana는 cannabis와 같은 물질명이고 치료 대상이 아님)
+- [x] tetrahydrocannabinol — Cannabis에 듣는다  <!-- 시험 9건 · 논문 7613편 --> — 근거 없음(2026-08-11 조회, Cannabis는 tetrahydrocannabinol과 겹치는 물질명이고 치료 대상이 아님)
+- [x] tetrahydrocannabinol — Marijuana에 듣는다  <!-- 시험 4건 · 논문 8723편 --> — 근거 없음(2026-08-11 조회, Marijuana는 tetrahydrocannabinol과 겹치는 물질명이고 치료 대상이 아님)
+- [x] tetrahydrocannabinol — Stress에 듣는다  <!-- 시험 4건 · 논문 608편 --> — 등록시험 결과 대기(2026-08-11 조회, tetrahydrocannabinol AND Stress; ClinicalTrials.gov 물질 일치 4건, 직접 결과 논문 확인 못함)
+- [x] LSD — Anxiety에 듣는다  <!-- 시험 4건 · 논문 437편 --> — 항목 생성(lsd-anxiety-pos, 2026-08-11)
+- [x] kratom — Opioid Use에 듣는다  <!-- 시험 3건 · 논문 519편 --> — 등록시험 결과 대기(2026-08-11 조회, kratom AND Opioid Use; ClinicalTrials.gov 물질 일치 1건, 직접 무작위 결과 논문 없음)
+- [x] kava — Anxiety에 듣는다  <!-- 시험 5건 · 논문 238편 --> — 항목 생성(kava-anxiety-harm, 2026-08-11)
+- [x] kava — Sleep에 듣는다  <!-- 시험 3건 · 논문 54편 --> — 항목 생성(kava-sleep-null, 2026-08-11)
+- [x] kava — Smoking에 듣는다  <!-- 시험 3건 · 논문 47편 --> — 등록시험 결과 대기(2026-08-11 조회, kava AND Smoking; ClinicalTrials.gov 물질 일치 3건, NCT05814055는 연구계획 논문만 확인)
+- [x] sleep — Depression에 듣는다  <!-- 시험 8건 · 논문 49806편 --> — 항목 생성(sleep-depression-pos, 2026-08-11)
+- [x] sleep — Pregnancy Related에 듣는다  <!-- 시험 4건 · 논문 3214편 --> — 등록시험 결과 대기(2026-08-11 조회, sleep AND Pregnancy Related; ClinicalTrials.gov 물질 일치 12건, 직접 중재 결과 논문 확인 못함)
+- [x] sleep — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 2904편 --> — 근거 없음(2026-08-11, 항암 주제 조사 제외)
+- [x] sleep — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 941편 --> — 항목 생성(sleep-type-1-diabetes-pos, 2026-08-11)
