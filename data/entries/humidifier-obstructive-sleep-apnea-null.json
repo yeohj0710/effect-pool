@@ -1,0 +1,31 @@
+{
+  "id": "humidifier-obstructive-sleep-apnea-null",
+  "subj": "가습기",
+  "claim": "폐쇄성 수면무호흡에서 양압기에 가습기를 더해도 사용시간 개선은 확실하지 않다",
+  "line": "양압기 가습은 폐쇄성 수면무호흡 환자의 양압기 사용시간과 주간 졸림을 유의하게 개선하지 못했습니다.",
+  "effect": "양압기 사용시간 WMD 13.28·유의하지 않음",
+  "vs": "9개 RCT 메타분석에서 가열 가습 대 비가습 양압기 사용시간 WMD 13.28(95% CI -5.85~32.41), p=0.17",
+  "tier": "trial",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "가습기는 폐쇄성 수면무호흡 치료 자체가 아니라 양압기 회로의 보조기기입니다.",
+  "why": "폐쇄성 수면무호흡 환자의 양압기에 가열 가습을 추가한 무작위시험을 양압기 사용시간과 주간 졸림으로 합쳤습니다.",
+  "saw": "9개 무작위시험 메타분석에서 가열 가습은 양압기 사용시간과 Epworth 졸림 점수를 유의하게 개선하지 못했습니다. 코·입 건조 같은 상기도 증상은 줄일 수 있었습니다.",
+  "limit": "메타분석 초록에서 전체 참가자 수를 확인하지 못했고, 증상 유무와 양압기 종류에 따라 결과가 달랐습니다.",
+  "against": "가습기는 양압기 치료를 대신하지 않으며, 마스크 누출·압력·순응도 문제의 원인을 모두 해결하지는 않습니다.",
+  "use": "양압기 사용 불편을 다룰 때 가습기의 증상 완화 가능성과 사용시간 효과를 구분합니다.",
+  "refs": [
+    { "label": "폐쇄성 수면무호흡 양압기 가열 가습 메타분석", "pmid": "30517168" },
+    { "label": "양압기 사용 개선을 위한 가습 코크란 문헌고찰", "pmid": "31792939" },
+    { "label": "가습 유무 양압기 무작위 교차시험", "pmid": "30938064" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=humidifier&query.cond=Obstructive Sleep Apnea · 총 18건 검색, 양압기 가습 관련 개입을 별도 확인",
+    "pubmed": "humidifier AND obstructive sleep apnea · 97편",
+    "negative": "humidifier AND obstructive sleep apnea AND (no effect OR did not OR failed OR negative OR no significant difference) · 68편",
+    "safety": "humidifier AND (adverse OR toxicity OR case report OR self-medication) · 31편"
+  }
+}

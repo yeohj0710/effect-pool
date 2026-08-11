@@ -1,0 +1,30 @@
+{
+  "id": "weighted-blanket-sleep-null",
+  "subj": "중량 담요",
+  "claim": "수면 개선을 위해 중량 담요를 사용할 수 있는지는 아직 확실하지 않다",
+  "line": "중량 담요의 불면 중증도 개선은 전체 메타분석에서 유의하지 않았습니다.",
+  "effect": "불면 중증도 MD -1.92·유의하지 않음",
+  "vs": "3개 연구에서 중량 담요의 불면 중증도 지수 MD -1.92(95% CI -3.92~0.09), p=0.06",
+  "tier": "trial",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "중량 담요는 불면증 치료의 의약품 허가 적응증이 아닙니다.",
+  "why": "정신건강 문제 또는 수면 문제 환자에서 중량 담요와 대조 조건을 비교한 무작위시험을 합쳤습니다.",
+  "saw": "무작위시험 메타분석에서 불면 중증도 전체 추정치는 유의하지 않았지만, 동질적인 두 연구만 남긴 민감도 분석에서는 ISI가 MD -2.78로 낮아졌습니다.",
+  "limit": "연구 수와 표본이 적고 대상 질환·담요 무게·대조 조건이 달랐으며, 민감도 분석은 전체 결과가 아닙니다.",
+  "against": "중량 담요가 불면증 표준치료를 대체하거나 모든 수면 문제를 해결한다는 근거는 없습니다.",
+  "use": "수면 보조도구를 검토할 때 제한적이고 혼재된 근거를 설명하는 데 사용합니다.",
+  "refs": [
+    { "label": "정신건강 문제 중량 담요 무작위시험 체계적 문헌고찰·메타분석", "pmid": "39447684" },
+    { "label": "중량 담요 사용 체계적 문헌고찰", "pmid": "32204779" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=weighted blanket&query.cond=Sleep · 총 15건 검색, NCT07309016 등 중량 담요 개입 확인",
+    "pubmed": "weighted blanket AND sleep · 59편",
+    "negative": "weighted blanket AND sleep AND (no effect OR did not OR failed OR negative OR no significant difference) · 40편",
+    "safety": "weighted blanket AND (adverse OR toxicity OR case report OR self-medication) · 11편"
+  }
+}

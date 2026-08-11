@@ -1,0 +1,30 @@
+{
+  "id": "whole-body-vibration-stroke-pos",
+  "subj": "전신 진동",
+  "claim": "뇌졸중 후 전신 진동 운동이 경직을 줄일 수 있다",
+  "line": "뇌졸중 재활에 전신 진동을 더하면 대조군보다 경직 점수가 낮았습니다.",
+  "effect": "경직 SMD -0.58",
+  "vs": "11개 RCT 475명에서 전신 진동+재활군의 경직 SMD는 대조군 대비 -0.58(95% CI -0.98~-0.19)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 475,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "전신 진동은 뇌졸중 후 경직 치료의 허가 적응증이 아닙니다.",
+  "why": "뇌졸중 후 경직 환자에서 전신 진동을 일반 재활 또는 대조 중재와 비교한 무작위시험을 합쳤습니다.",
+  "saw": "11개 무작위시험 475명에서 20Hz 미만 전신 진동을 일반 재활에 추가했을 때 경직이 줄었고, 심각한 이상반응은 보고되지 않았습니다.",
+  "limit": "진동 주파수·시간과 병행 재활이 연구마다 달랐고, 경직 점수 감소가 장기 기능 회복을 보장하지는 않습니다.",
+  "against": "근거의 질이 중간 수준이며 연령, 발병 시기, 적용 부위에 따라 효과가 달라질 수 있습니다.",
+  "use": "뇌졸중 재활에서 전신 진동을 일반 재활의 보조 중재로 검토할 때 사용합니다.",
+  "refs": [
+    { "label": "뇌졸중 후 전신 진동 경직 체계적 문헌고찰·메타분석", "pmid": "36779051" },
+    { "label": "뇌졸중 진동치료 상지 기능 체계적 문헌고찰·메타분석", "pmid": "39707380", "nct": "NCT01822704" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=whole body vibration&query.cond=Stroke · 총 22건 검색, NCT01822704 등 전신 진동 개입 확인",
+    "pubmed": "whole body vibration AND stroke · 119편",
+    "negative": "whole body vibration AND stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 108편",
+    "safety": "whole body vibration AND (adverse OR toxicity OR case report OR self-medication) · 17편"
+  }
+}

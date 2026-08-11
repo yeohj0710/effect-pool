@@ -1,0 +1,29 @@
+{
+  "id": "continuous-glucose-monitoring-renal-failure-open",
+  "subj": "연속 혈당 측정",
+  "claim": "신장 기능이 떨어진 당뇨병 환자에서 연속 혈당 측정은 혈당 감시에 사용할 수 있다",
+  "line": "신장병 당뇨병에서 CGM 정확도는 높았지만 치료 효과는 확인하지 못했습니다.",
+  "effect": "CGM-손끝 혈당 상관 r=0.91",
+  "tier": "obs",
+  "dir": "open",
+  "n": 52,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "연속 혈당 측정은 신부전 치료의 허가 적응증이 아니라 혈당 측정 기기입니다.",
+  "why": "당뇨병과 만성콩팥병으로 입원한 환자에서 덱스콤 G6 값을 검증된 현장 혈당 측정값과 짝지어 비교했습니다.",
+  "saw": "52명에서 1,603쌍의 혈당값을 분석했습니다. CGM과 현장 혈당의 상관은 r=0.91이었고 전체 평균절대상대오차는 17.0%, eGFR 30 미만군은 13.5%였습니다.",
+  "limit": "급성신손상·활동성 사구체신염·중환자·혈액투석 환자는 제외한 관찰연구이며, 신부전 치료 결과나 저혈당 예방 효과를 입증하지 않았습니다.",
+  "against": "신장 기능 단계와 입원 상태에 따라 정확도가 달라질 수 있어 기기값을 임상 판단과 별도로 사용하면 안 됩니다.",
+  "use": "만성콩팥병 당뇨병 환자의 연속 혈당 감시 가능성을 설명할 때 정확도 자료로 사용합니다.",
+  "refs": [
+    { "label": "당뇨병·만성콩팥병 입원 환자 Dexcom G6 정확도 관찰연구", "pmid": "41693442" },
+    { "label": "혈액투석 제2형 당뇨병 실시간 CGM 대 표준 혈당측정 시험 등록", "nct": "NCT04473430" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=continuous glucose monitoring&query.cond=Renal Failure · 총 29건 검색, NCT04473430·NCT04776811 등 CGM 개입 확인",
+    "pubmed": "continuous glucose monitoring AND renal failure · 202편",
+    "negative": "continuous glucose monitoring AND renal failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 121편",
+    "safety": "continuous glucose monitoring AND (adverse OR toxicity OR case report OR self-medication) · 73편"
+  }
+}

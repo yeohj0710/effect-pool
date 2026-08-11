@@ -1,0 +1,30 @@
+{
+  "id": "nasal-irrigation-sinusitis-pos",
+  "subj": "비강 세척",
+  "claim": "부비동염에서 고장성 비강 세척이 코 증상을 줄일 수 있다",
+  "line": "고장성 비강 세척은 등장성 세척보다 부비동염 증상 점수를 낮췄습니다.",
+  "effect": "증상 SMD -0.37",
+  "vs": "부비동염 하위군에서 고장성 대 등장성 비강 세척 증상 SMD -0.37(95% CI -0.58~-0.15)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 740,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비강 세척은 부비동염 치료의 의약품 허가 적응증이 아닌 보조관리 기법입니다.",
+  "why": "비염과 부비동염 환자에서 고장성 식염수와 등장성 식염수 비강 세척을 비교한 무작위시험을 합쳤습니다.",
+  "saw": "9개 연구 740명에서 고장성 세척은 전체 코 증상을 개선했고, 부비동염 하위군에서 SMD -0.37의 차이가 있었습니다.",
+  "limit": "질환 유형과 세척 농도·용량이 연구마다 달랐고, SNOT-20 삶의 질 개선은 유의하지 않았습니다.",
+  "against": "고장성 세척은 가벼운 자극·이상반응이 더 많아 농도와 사용법을 맞춰야 합니다.",
+  "use": "부비동염 보조관리에서 세척의 증상 효과와 삶의 질 근거를 구분해 설명합니다.",
+  "refs": [
+    { "label": "고장성 대 등장성 비강 세척 체계적 문헌고찰·메타분석", "pmid": "29774747", "nct": "NCT03584178" },
+    { "label": "만성 비부비동염 부데소니드 비강 세척 메타분석", "pmid": "39729039" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=nasal irrigation&query.cond=Sinusitis · 총 44건 검색, NCT01129765·NCT03584178 등 세척 개입 확인",
+    "pubmed": "nasal irrigation AND sinusitis · 1,094편",
+    "negative": "nasal irrigation AND sinusitis AND (no effect OR did not OR failed OR negative OR no significant difference) · 650편",
+    "safety": "nasal irrigation AND (adverse OR toxicity OR case report OR self-medication) · 252편"
+  }
+}

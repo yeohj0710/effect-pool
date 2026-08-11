@@ -1,0 +1,28 @@
+{
+  "id": "continuous-glucose-monitoring-insulin-resistance-open",
+  "subj": "연속 혈당 측정",
+  "claim": "연속 혈당 측정 지표가 제1형 당뇨병의 인슐린 저항성 정도를 보여줄 수 있다",
+  "line": "CGM의 혈당 범위 초과는 저항성이 높은 군에서 더 많았지만 치료 효과는 모릅니다.",
+  "effect": "혈당 범위 초과 39% vs 33%",
+  "tier": "obs",
+  "dir": "open",
+  "n": 287,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "연속 혈당 측정은 인슐린 저항성 치료의 허가 적응증이 아니라 측정 기기입니다.",
+  "why": "제1형 당뇨병에서 추정 포도당 처분율 또는 고인슐린-정상혈당 클램프로 인슐린 저항성을 평가하고 28일 연속 혈당 지표와 비교했습니다.",
+  "saw": "287명 관찰자료에서 인슐린 저항성이 가장 높은 군의 혈당 범위 초과 시간은 39%였고 가장 낮은 군은 33%였습니다.",
+  "limit": "후향적 관찰 분석이라 연속 혈당 측정이 인슐린 저항성을 개선한다고 볼 수 없고, 혈당 지표와 저항성의 연관성만 확인했습니다.",
+  "against": "측정값은 인슐린 용량, 식사, 활동량과 함께 해석해야 하며 인슐린 저항성 치료를 기기 사용만으로 대체할 수 없습니다.",
+  "use": "연속 혈당 자료를 인슐린 저항성 평가와 연결할 때 탐색적 관찰 근거로 사용합니다.",
+  "refs": [
+    { "label": "제1형 당뇨병 인슐린 저항성과 CGM 지표 관찰분석", "pmid": "38198792", "nct": "NCT04664036" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=continuous glucose monitoring&query.cond=Insulin Resistance · 총 85건 검색, NCT00186004 등 CGM 개입 확인",
+    "pubmed": "continuous glucose monitoring AND insulin resistance · 521편",
+    "negative": "continuous glucose monitoring AND insulin resistance AND (no effect OR did not OR failed OR negative OR no significant difference) · 320편",
+    "safety": "continuous glucose monitoring AND (adverse OR toxicity OR case report OR self-medication) · 126편"
+  }
+}

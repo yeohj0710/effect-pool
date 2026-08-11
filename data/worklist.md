@@ -776,23 +776,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 — 기존 항목(minoxidil-baldness-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
+- [x] bupropion — Tobacco Use에 듣는다 — 기존 항목(bupropion-tobacco-use-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
+- [x] bupropion — Depression에 듣는다 — 기존 항목(bupropion-major-depression-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
+- [x] sildenafil — Impotence에 듣는다 — 기존 항목(sildenafil-impotence-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] bimatoprost — Ocular Hypertension에 듣는다 — 기존 항목(bimatoprost-ocular-hypertension-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
-- [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
+- [x] bimatoprost — Hypotrichosis에 듣는다 — 기존 항목(bimatoprost-hypotrichosis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
 - [x] bimatoprost — Cataract에 듣는다 — 기존 항목(bimatoprost-cataract)  <!-- 등록 시험 5건 -->
-- [ ] botulinum toxin — Bladder Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] botulinum toxin — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
-- [ ] botulinum toxin — Frown Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
+- [x] botulinum toxin — Bladder Disease에 듣는다 — 기존 항목(botulinum-toxin-bladder-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
+- [x] botulinum toxin — Spasticity에 듣는다 — 기존 항목(botulinum-toxin-spasticity-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] botulinum toxin — Frown Lines에 듣는다 — 기존 항목(botulinum-toxin-frown-lines-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 43건 -->
 - [x] botulinum toxin — Stroke에 듣는다 — 기존 항목(botulinum-toxin-stroke)  <!-- 등록 시험 32건 -->
 - [ ] duloxetine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 79건 -->
 - [ ] duloxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
@@ -21233,24 +21233,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] red light therapy — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 89편 -->
 - [ ] red light therapy — Peripheral Artery Disease에 듣는다  <!-- 시험 5건 · 논문 29편 -->
 - [ ] red light therapy — Traumatic Brain Injury에 듣는다  <!-- 시험 5건 · 논문 67편 -->
-- [ ] whole body vibration — Cancer에 듣는다  <!-- 시험 29건 · 논문 54편 -->
-- [ ] whole body vibration — Stroke에 듣는다  <!-- 시험 14건 · 논문 119편 -->
-- [ ] whole body vibration — Pain에 듣는다  <!-- 시험 11건 · 논문 486편 -->
-- [ ] whole body vibration — Osteoporosis에 듣는다  <!-- 시험 10건 · 논문 201편 -->
+- [x] whole body vibration — Cancer에 듣는다 — 신규 항목(whole-body-vibration-cancer-pos)  <!-- 시험 29건 · 논문 54편 -->
+- [x] whole body vibration — Stroke에 듣는다 — 신규 항목(whole-body-vibration-stroke-pos)  <!-- 시험 14건 · 논문 119편 -->
+- [x] whole body vibration — Pain에 듣는다 — 신규 항목(whole-body-vibration-pain-null)  <!-- 시험 11건 · 논문 486편 -->
+- [x] whole body vibration — Osteoporosis에 듣는다 — 신규 항목(whole-body-vibration-osteoporosis-open)  <!-- 시험 10건 · 논문 201편 -->
 - [x] continuous glucose monitoring — Diabetes에 듣는다  <!-- 시험 183건 · 논문 11339편 -->
 - [x] continuous glucose monitoring — Critical Illness에 듣는다  <!-- 시험 6건 · 논문 199편 -->
-- [ ] continuous glucose monitoring — Insulin Resistance에 듣는다  <!-- 시험 5건 · 논문 520편 -->
-- [ ] continuous glucose monitoring — Renal Failure에 듣는다  <!-- 시험 5건 · 논문 202편 -->
-- [ ] weighted blanket — Sleep에 듣는다  <!-- 시험 9건 · 논문 59편 -->
-- [ ] weighted blanket — Adhd에 듣는다  <!-- 시험 6건 · 논문 19편 -->
-- [ ] nasal irrigation — Rhinosinusitis에 듣는다  <!-- 시험 21건 · 논문 765편 -->
-- [ ] nasal irrigation — Chronic Rhinitis에 듣는다  <!-- 시험 16건 · 논문 667편 -->
-- [ ] nasal irrigation — Sinusitis에 듣는다  <!-- 시험 12건 · 논문 1094편 -->
-- [ ] oral irrigator — Gingivitis에 듣는다  <!-- 시험 5건 · 논문 432편 -->
-- [ ] blue light blocking glasses — Bipolar에 듣는다  <!-- 시험 9건 · 논문 15편 -->
-- [ ] air purifier — Asthma에 듣는다  <!-- 시험 10건 · 논문 238편 -->
-- [ ] air purifier — Respiratory Health에 듣는다  <!-- 시험 5건 · 논문 550편 -->
-- [ ] humidifier — Obstructive Sleep Apnea에 듣는다  <!-- 시험 8건 · 논문 97편 -->
-- [ ] humidifier — Acute Heart Failure에 듣는다  <!-- 시험 3건 · 논문 25편 -->
-- [ ] knee brace — Ankle Injuries에 듣는다  <!-- 시험 7건 · 논문 164편 -->
-- [ ] knee brace — Muscle Atrophy에 듣는다  <!-- 시험 3건 · 논문 42편 -->
+- [x] continuous glucose monitoring — Insulin Resistance에 듣는다 — 신규 항목(continuous-glucose-monitoring-insulin-resistance-open)  <!-- 시험 5건 · 논문 520편 -->
+- [x] continuous glucose monitoring — Renal Failure에 듣는다 — 신규 항목(continuous-glucose-monitoring-renal-failure-open)  <!-- 시험 5건 · 논문 202편 -->
+- [x] weighted blanket — Sleep에 듣는다 — 신규 항목(weighted-blanket-sleep-null)  <!-- 시험 9건 · 논문 59편 -->
+- [x] weighted blanket — Adhd에 듣는다 — 기존 항목(weighted-blanket-adhd-pos)  <!-- 시험 6건 · 논문 19편 -->
+- [x] nasal irrigation — Rhinosinusitis에 듣는다 — 신규 항목(nasal-irrigation-rhinosinusitis-pos)  <!-- 시험 21건 · 논문 765편 -->
+- [x] nasal irrigation — Chronic Rhinitis에 듣는다 — 신규 항목(nasal-irrigation-chronic-rhinitis-open)  <!-- 시험 16건 · 논문 667편 -->
+- [x] nasal irrigation — Sinusitis에 듣는다 — 신규 항목(nasal-irrigation-sinusitis-pos)  <!-- 시험 12건 · 논문 1094편 -->
+- [x] oral irrigator — Gingivitis에 듣는다 — 신규 항목(oral-irrigator-gingivitis-null)  <!-- 시험 5건 · 논문 432편 -->
+- [x] blue light blocking glasses — Bipolar에 듣는다 — 신규 항목(blue-light-blocking-glasses-bipolar-null)  <!-- 시험 9건 · 논문 15편 -->
+- [x] air purifier — Asthma에 듣는다 — 신규 항목(air-purifier-asthma-null)  <!-- 시험 10건 · 논문 238편 -->
+- [x] air purifier — Respiratory Health에 듣는다 — 신규 항목(air-purifier-respiratory-health-null)  <!-- 시험 5건 · 논문 550편 -->
+- [x] humidifier — Obstructive Sleep Apnea에 듣는다 — 신규 항목(humidifier-obstructive-sleep-apnea-null)  <!-- 시험 8건 · 논문 97편 -->
+- [x] humidifier — Acute Heart Failure에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov NCT00221819는 종료됐지만 결과가 없고 PubMed는 가습기 단독 치료 결과가 아닌 고유량 비강캐뉼라·복합기기 문헌임)  <!-- 시험 3건 · 논문 25편 -->
+- [x] knee brace — Ankle Injuries에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov 검색 결과는 발목 보조기·탄소섬유 보조기였고 무릎 보조기 직접 결과를 확인하지 못함)  <!-- 시험 7건 · 논문 164편 -->
+- [x] knee brace — Muscle Atrophy에 듣는다 — 신규 항목(knee-brace-muscle-atrophy-harm)  <!-- 시험 3건 · 논문 42편 -->

@@ -1,0 +1,30 @@
+{
+  "id": "air-purifier-respiratory-health-null",
+  "subj": "공기청정기",
+  "claim": "공기청정기가 호흡기 바이러스 노출을 줄이는지는 확실하지 않다",
+  "line": "HEPA 공기청정기는 고도 바이러스 노출을 유의하게 줄이지 못했습니다.",
+  "effect": "고도 바이러스 노출 OR 0.50·유의하지 않음",
+  "vs": "200개 교실 군집시험에서 고도 바이러스 노출 OR 0.50(95% CI 0.08~3.25, p=0.46), 바이러스 다양성 β -1.02",
+  "tier": "trial",
+  "dir": "null",
+  "n": 200,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "공기청정기는 호흡기 감염 치료나 예방의 허가 적응증이 아닌 환경관리 기기입니다.",
+  "why": "실제 HEPA 공기청정기와 가짜 공기청정기를 초등학교 교실에 배치한 군집 무작위시험의 호흡기 바이러스 노출 분석입니다.",
+  "saw": "200개 교실에서 532개 공기 시료를 분석했습니다. HEPA군은 고도 바이러스 노출 odds가 낮은 방향이었지만 유의하지 않았고, 검출된 바이러스 종류 수는 β -1.02로 감소했습니다.",
+  "limit": "교실 단위의 환경 노출 분석이며 개인의 감염·증상·입원 결과를 직접 측정하지 않았습니다.",
+  "against": "공기청정기가 호흡기 감염을 예방하거나 치료한다고 해석할 수 없으며 환기와 감염관리 대책을 대신하지 않습니다.",
+  "use": "공기청정기의 호흡기 환경 효과를 설명할 때 노출 지표와 임상 건강결과를 구분합니다.",
+  "refs": [
+    { "label": "초등학교 교실 HEPA 공기청정기 호흡기 바이러스 노출 군집시험 분석", "pmid": "41071551", "nct": "NCT02240134" },
+    { "label": "공기청정기 등 개인 보호수단 심폐건강 체계적 문헌고찰·메타분석", "pmid": "36940818" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=air purifier&query.cond=Respiratory Health · 총 11건 검색, NCT02240134 등 공기여과 개입 확인",
+    "pubmed": "air purifier AND respiratory health · 550편",
+    "negative": "air purifier AND respiratory health AND (no effect OR did not OR failed OR negative OR no significant difference) · 374편",
+    "safety": "air purifier AND (adverse OR toxicity OR case report OR self-medication) · 301편"
+  }
+}

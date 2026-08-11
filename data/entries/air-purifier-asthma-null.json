@@ -1,0 +1,30 @@
+{
+  "id": "air-purifier-asthma-null",
+  "subj": "공기청정기",
+  "claim": "천식에서 공기청정기가 실내 오염을 줄여도 천식 조절 개선은 확실하지 않다",
+  "line": "공기청정기는 오염을 낮췄지만 천식 조절은 좋아지지 않았습니다.",
+  "effect": "천식 조절 차이 없음",
+  "vs": "성인 천식 50명 RCT에서 공기청정기와 가짜 필터 사이 천식조절·삶의 질·폐기능의 군 간 차이가 없었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 50,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "공기청정기는 천식 치료의 허가 적응증이 아닌 환경관리 기기입니다.",
+  "why": "성인 천식 환자를 실제 HEPA 필터와 가짜 필터에 무작위 배정해 78주 동안 비교했습니다.",
+  "saw": "50명 시험에서 공기 오염 수준은 유의하게 낮아졌지만 천식조절설문, 천식 삶의 질, 폐기능의 군 간 변화는 유의하지 않았습니다.",
+  "limit": "코로나19로 폐기능과 염증 평가가 제한됐고 단일기관 소규모 시험입니다.",
+  "against": "실내 공기질 개선이 천식 증상이나 약물 필요량 감소로 이어진다고 단정할 수 없습니다.",
+  "use": "천식 환자의 환경관리를 설명할 때 공기 오염 감소와 임상 증상 개선을 구분합니다.",
+  "refs": [
+    { "label": "Dyson 공기청정기 성인 천식 이중맹검 RCT", "pmid": "36288782", "nct": "NCT04729530" },
+    { "label": "공기청정기 등 개인 보호수단 심폐건강 체계적 문헌고찰·메타분석", "pmid": "36940818" }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "query.intr=air purifier&query.cond=Asthma · 총 15건 검색, NCT01913795 등 공기청정기 개입 확인",
+    "pubmed": "air purifier AND asthma · 238편",
+    "negative": "air purifier AND asthma AND (no effect OR did not OR failed OR negative OR no significant difference) · 169편",
+    "safety": "air purifier AND (adverse OR toxicity OR case report OR self-medication) · 105편"
+  }
+}
