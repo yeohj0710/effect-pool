@@ -291,7 +291,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clonidine — Anesthesia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] clonidine — Osteoarthritis에 듣는다  <!-- 등록 시험 12건 -->
 - [x] finasteride — Alopecia에 듣는다  <!-- 등록 시험 16건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] finasteride — Prostatic Hyperplasia에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] finasteride — Spinal Cord Injury에 듣는다  <!-- 등록 시험 10건 -->
 - [x] finasteride — Trauma, Nervous System에 듣는다  <!-- 등록 시험 7건 -->
 - [x] melatonin — Pain에 듣는다  <!-- 등록 시험 32건 -->
@@ -299,19 +299,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] melatonin — Cancer에 듣는다  <!-- 등록 시험 27건 -->
 - [x] melatonin — Anxiety에 듣는다  <!-- 등록 시험 24건 -->
 - [x] modafinil — Fatigue에 듣는다  <!-- 등록 시험 29건 -->
-- [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] baclofen — Pain에 듣는다  <!-- 등록 시험 14건 -->
-- [ ] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] baclofen — Spasticity에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] baclofen — Cerebral Palsy에 듣는다  <!-- 등록 시험 9건 -->
 - [x] baclofen — Alcoholism에 듣는다  <!-- 등록 시험 7건 -->
 - [x] ondansetron — Lymphoma에 듣는다  <!-- 등록 시험 71건 -->
 - [x] ondansetron — Cancer에 듣는다  <!-- 등록 시험 33건 -->
 - [x] ondansetron — Leukemia에 듣는다  <!-- 등록 시험 28건 -->
-- [ ] ondansetron — Anesthesia에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ondansetron — Anesthesia에 듣는다  <!-- 기존 항목 ondansetron-anesthesia-pos · 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] memantine — Autism에 듣는다  <!-- 등록 시험 19건 -->
-- [ ] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] memantine — Dementia에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] memantine — Chemo-brain에 듣는다  <!-- 등록 시험 18건 -->
 - [x] memantine — Cognitive Change에 듣는다  <!-- 등록 시험 17건 -->
 - [x] lithium — Stage IV Mantle Cell Lymphoma에 듣는다  <!-- 등록 시험 36건 -->
@@ -328,14 +328,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Kidney Cancer에 듣는다  <!-- 등록 시험 54건 -->
 - [x] rapamycin — Coronary Disease에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(sirolimus-coronary-disease)
 - [x] rapamycin — Endometrial Carcinoma에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] rapamycin — Kidney Transplant에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] rapamycin — Malignant Melanoma에 듣는다  <!-- 등록 시험 7건 --> — 근거 없음(2026-08-04 조회, rapamycin AND Malignant Melanoma; ClinicalTrials.gov 20건 반환·RAPA-201 세포치료/비특이 암시험 제외 시 직접 약물시험 0건, PubMed 600건)
-- [ ] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] montelukast — Rhinitis에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] montelukast — Bronchiolitis에 듣는다  <!-- 등록 시험 13건 -->
 - [x] montelukast — Multiple Myeloma에 듣는다  <!-- 등록 시험 10건 -->
 - [x] montelukast — Lung Diseases에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] atorvastatin — Coronary Artery에 듣는다  <!-- 등록 시험 81건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] atorvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 37건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] atorvastatin — Hyperlipidemia에 듣는다  <!-- 등록 시험 36건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
@@ -21096,18 +21096,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] yogurt — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 87편 -->
 - [x] yogurt — Colonization에 듣는다  <!-- 시험 5건 · 논문 88편 -->
 - [x] kefir — Gut Microbiome에 듣는다  <!-- 시험 5건 · 논문 120편 -->
-- [ ] oatmeal — Obesity에 듣는다  <!-- 시험 4건 · 논문 38편 -->
+- [x] oatmeal — Obesity에 듣는다  <!-- 시험 4건 · 논문 38편 -->
 - [x] barley — Type 2 Diabetes에 듣는다  <!-- 시험 6건 · 논문 81편 -->
 - [ ] avocado — Obesity에 듣는다  <!-- 시험 9건 · 논문 145편 -->
 - [ ] avocado — Triglycerides에 듣는다  <!-- 시험 3건 · 논문 80편 -->
 - [ ] walnuts — Cardiovascular Health에 듣는다  <!-- 시험 6건 · 논문 548편 -->
 - [ ] walnuts — Cognitive Decline에 듣는다  <!-- 시험 5건 · 논문 91편 -->
-- [ ] walnuts — Obesity에 듣는다  <!-- 시험 5건 · 논문 458편 -->
-- [ ] walnuts — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
+- [x] walnuts — Obesity에 듣는다  <!-- 시험 5건 · 논문 458편 -->
+- [x] walnuts — Colon Cancer에 듣는다  <!-- 시험 4건 · 논문 89편 -->
 - [x] olive oil — Cardiovascular Disease에 듣는다  <!-- 시험 18건 · 논문 1739편 -->
 - [x] olive oil — Hemodialysis에 듣는다  <!-- 시험 5건 · 논문 36편 -->
-- [ ] olive oil — Asthma에 듣는다  <!-- 시험 4건 · 논문 72편 -->
-- [ ] seaweed — Iodine Deficiency에 듣는다  <!-- 시험 5건 · 논문 64편 -->
+- [x] olive oil — Asthma에 듣는다  <!-- 시험 4건 · 논문 72편 -->
+- [x] seaweed — Iodine Deficiency에 듣는다  <!-- 시험 5건 · 논문 64편 -->
 - [x] honey — Wound Heal에 듣는다  <!-- 시험 17건 · 논문 969편 -->
 - [ ] honey — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 30편 -->
 - [ ] honey — Pain에 듣는다  <!-- 시험 4건 · 논문 463편 -->
@@ -21120,9 +21120,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] intermittent fasting — Obesity에 듣는다  <!-- 시험 34건 · 논문 1117편 -->
 - [x] intermittent fasting — Cardiometabolic Risk에 듣는다  <!-- 시험 3건 · 논문 173편 -->
 - [x] intermittent fasting — Metabolism에 듣는다  <!-- 시험 3건 · 논문 2443편 -->
-- [ ] time restricted eating — Obesity에 듣는다  <!-- 시험 82건 · 논문 1575편 -->
-- [ ] time restricted eating — Diabetes에 듣는다  <!-- 시험 32건 · 논문 1113편 -->
-- [ ] time restricted eating — Cancer에 듣는다  <!-- 시험 32건 · 논문 526편 -->
+- [x] time restricted eating — Obesity에 듣는다  <!-- 시험 82건 · 논문 1575편 -->
+- [x] time restricted eating — Diabetes에 듣는다  <!-- 시험 32건 · 논문 1113편 -->
+- [x] time restricted eating — Cancer에 듣는다  <!-- 시험 32건 · 논문 526편 -->
 - [ ] time restricted eating — Metabolic Health에 듣는다  <!-- 시험 29건 · 논문 1763편 -->
 - [ ] low FODMAP diet — Irritable Bowel Disease에 듣는다  <!-- 시험 62건 · 논문 741편 -->
 - [ ] low FODMAP diet — Diet Modification에 듣는다  <!-- 시험 4건 · 논문 654편 -->
@@ -21161,13 +21161,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] stretching exercise — Muscle Cramp에 듣는다  <!-- 시험 9건 · 논문 41편 -->
 - [x] stretching exercise — Exercise에 듣는다  <!-- 시험 8건 · 논문 9288편 -->
 - [ ] stretching exercise — Physical Fitness에 듣는다  <!-- 시험 8건 · 논문 599편 -->
-- [ ] stretching exercise — Knee Valgus에 듣는다  <!-- 시험 5건 · 논문 20편 -->
+- [x] stretching exercise — Knee Valgus에 듣는다  <!-- 시험 5건 · 논문 20편 -->
 - [x] balance training — Stroke에 듣는다  <!-- 시험 19건 · 논문 3029편 -->
 - [x] balance training — Fall에 듣는다  <!-- 시험 11건 · 논문 2830편 -->
 - [x] balance training — Ankle Injury에 듣는다  <!-- 시험 8건 · 논문 697편 -->
-- [ ] balance training — Brain Ischemia에 듣는다  <!-- 시험 6건 · 논문 177편 -->
-- [ ] inspiratory muscle training — Muscle Weakness에 듣는다  <!-- 시험 34건 · 논문 322편 -->
-- [ ] inspiratory muscle training — Pulmonary Disease에 듣는다  <!-- 시험 32건 · 논문 936편 -->
+- [x] balance training — Brain Ischemia에 듣는다  <!-- 시험 6건 · 논문 177편 -->
+- [x] inspiratory muscle training — Muscle Weakness에 듣는다  <!-- 시험 34건 · 논문 322편 -->
+- [x] inspiratory muscle training — Pulmonary Disease에 듣는다  <!-- 시험 32건 · 논문 936편 -->
 - [ ] inspiratory muscle training — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 201편 -->
 - [ ] inspiratory muscle training — Exercise에 듣는다  <!-- 시험 10건 · 논문 2073편 -->
 - [ ] pelvic floor muscle training — Incontinence에 듣는다  <!-- 시험 187건 · 논문 2228편 -->
@@ -21204,16 +21204,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] music listening — Sleep에 듣는다  <!-- 시험 25건 · 논문 324편 -->
 - [ ] music listening — Impairment에 듣는다  <!-- 시험 24건 · 논문 952편 -->
 - [ ] music listening — Surgery에 듣는다  <!-- 시험 22건 · 논문 1218편 -->
-- [ ] aromatherapy — Anxiety에 듣는다  <!-- 시험 47건 · 논문 661편 -->
-- [ ] aromatherapy — Music Therapy에 듣는다  <!-- 시험 4건 · 논문 229편 -->
-- [ ] aromatherapy — Headache에 듣는다  <!-- 시험 4건 · 논문 35편 -->
+- [x] aromatherapy — Anxiety에 듣는다  <!-- 시험 47건 · 논문 661편 -->
+- [x] aromatherapy — Music Therapy에 듣는다  <!-- 시험 4건 · 논문 229편 -->
+- [x] aromatherapy — Headache에 듣는다  <!-- 시험 4건 · 논문 35편 -->
 - [x] singing — Parkinson에 듣는다  <!-- 시험 6건 · 논문 101편 -->
 - [ ] singing — COPD에 듣는다  <!-- 시험 3건 · 논문 71편 -->
 - [x] cupping therapy — Pain에 듣는다  <!-- 시험 45건 · 논문 358편 -->
 - [x] dry needling — Pain에 듣는다  <!-- 시험 282건 · 논문 1116편 -->
-- [ ] dry needling — Stroke에 듣는다  <!-- 시험 13건 · 논문 64편 -->
-- [ ] kinesiology taping — Pain에 듣는다  <!-- 시험 12건 · 논문 142편 -->
-- [ ] kinesiology taping — Performance에 듣는다  <!-- 시험 4건 · 논문 141편 -->
+- [x] dry needling — Stroke에 듣는다  <!-- 시험 13건 · 논문 64편 -->
+- [x] kinesiology taping — Pain에 듣는다  <!-- 시험 12건 · 논문 142편 -->
+- [x] kinesiology taping — Performance에 듣는다  <!-- 시험 4건 · 논문 141편 -->
 - [ ] kinesiology taping — Muscle Fatigue에 듣는다  <!-- 시험 4건 · 논문 14편 -->
 - [x] compression stockings — Venous Ulcer에 듣는다  <!-- 시험 43건 · 논문 464편 -->
 - [ ] compression stockings — Surgery에 듣는다  <!-- 시험 3건 · 논문 1532편 -->
@@ -21221,7 +21221,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] foam rolling — Recovery에 듣는다  <!-- 시험 3건 · 논문 104편 -->
 - [x] massage therapy — Pain에 듣는다  <!-- 시험 70건 · 논문 4753편 -->
 - [ ] massage therapy — Leukemia에 듣는다  <!-- 시험 31건 · 논문 31편 -->
-- [ ] massage therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 669편 -->
+- [x] massage therapy — Fatigue에 듣는다  <!-- 시험 11건 · 논문 669편 -->
 - [ ] spinal manipulation — Pain에 듣는다  <!-- 시험 89건 · 논문 3037편 -->
 - [ ] spinal manipulation — Vertebral Artery Dissection에 듣는다  <!-- 시험 3건 · 논문 125편 -->
 - [ ] spinal manipulation — Musculoskeletal Diseases에 듣는다  <!-- 시험 3건 · 논문 1338편 -->
@@ -21238,7 +21238,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] whole body vibration — Pain에 듣는다  <!-- 시험 11건 · 논문 486편 -->
 - [ ] whole body vibration — Osteoporosis에 듣는다  <!-- 시험 10건 · 논문 201편 -->
 - [x] continuous glucose monitoring — Diabetes에 듣는다  <!-- 시험 183건 · 논문 11339편 -->
-- [ ] continuous glucose monitoring — Critical Illness에 듣는다  <!-- 시험 6건 · 논문 199편 -->
+- [x] continuous glucose monitoring — Critical Illness에 듣는다  <!-- 시험 6건 · 논문 199편 -->
 - [ ] continuous glucose monitoring — Insulin Resistance에 듣는다  <!-- 시험 5건 · 논문 520편 -->
 - [ ] continuous glucose monitoring — Renal Failure에 듣는다  <!-- 시험 5건 · 논문 202편 -->
 - [ ] weighted blanket — Sleep에 듣는다  <!-- 시험 9건 · 논문 59편 -->

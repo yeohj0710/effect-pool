@@ -15,26 +15,26 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5042,
-  "subjects": 2080,
-  "refs": 7095,
+  "entries": 5071,
+  "subjects": 2086,
+  "refs": 7131,
   "kinds": {
     "otc": 41,
     "supp": 283,
-    "food": 426,
-    "move": 592,
+    "food": 434,
+    "move": 596,
     "life": 1158,
-    "care": 641,
-    "rx": 1901
+    "care": 649,
+    "rx": 1910
   },
-  "tiers": { "trial": 4320, "obs": 638, "animal": 25, "lab": 13, "case": 46 },
-  "dirs": { "pos": 3015, "null": 1011, "open": 869, "harm": 147 },
+  "tiers": { "trial": 4349, "obs": 638, "animal": 25, "lab": 13, "case": 46 },
+  "dirs": { "pos": 3029, "null": 1019, "open": 876, "harm": 147 },
   "worklist": {
     "total": 15542,
-    "checked": 12371,
-    "unchecked": 3171,
+    "checked": 12401,
+    "unchecked": 3141,
     "no_evidence_pending": 1998,
-    "note": "이번 바퀴는 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 27개를 만들고 기존 항목 3개를 연결했다. 다음 미처리 줄은 294번 finasteride — Prostatic Hyperplasia에 듣는다이다."
+    "note": "이번 바퀴는 비처방 주제 20개와 처방 주제 10개를 처리했다. 새 항목 29개를 만들고 기존 항목 1개를 연결했다. 다음 미처리 줄은 339번 atorvastatin — Hyperlipidemia에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4075,
@@ -43,14 +43,14 @@
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "15% (약국약·보충제·음식 750건). 목표는 25%",
-    "rx_share": "38% (1,901건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,158건). 목표는 33% 위",
-    "vs_share": "1.9% (98건)",
+    "over_counter_share": "15% (약국약·보충제·음식 758건). 목표는 25%",
+    "rx_share": "38% (1,910건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,166건). 목표는 33% 위",
+    "vs_share": "2.4% (120건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.7% (4,320건)",
-    "non_trial_share": "14.3% (722건)",
-    "build_warnings": { "unknown_n": 395, "thin_study": 945 }
+    "trial_share": "85.8% (4,349건)",
+    "non_trial_share": "14.2% (722건)",
+    "build_warnings": { "unknown_n": 409, "thin_study": 945 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,18 +58,18 @@
     "checked_at": "2026-08-11",
     "note": "푸시하면 Vercel 이 알아서 빌드한다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1195 starts after batch 1194; pull and read AGENTS.md first. Resume at worklist line 294: finasteride — Prostatic Hyperplasia에 듣는다; 3,171 unchecked remain.",
+  "next": "batch 1196 starts after batch 1195; pull and read AGENTS.md first. Resume at worklist line 339: atorvastatin — Hyperlipidemia에 듣는다; 3,141 unchecked remain.",
   "last_batch": {
-    "id": "1194",
-    "commit": "4789d25f",
+    "id": "1195",
+    "commit": "PENDING_BATCH_COMMIT",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 27,
-    "existing_links": 3,
-    "build": "5042 entries · 7095 refs · 4320 trial · 638 obs · 25 animal · 13 lab · 46 case",
-    "research": "ClinicalTrials.gov와 PubMed로 녹차-눈 건강·블루베리-노화·요구르트-골다공증·장내 정착·올리브오일-혈액투석·간헐적 단식-대사·수영-경기력·필라테스-임신·유방암·스트레칭-운동·균형훈련-뇌졸중·낙상·발목 손상·연속혈당측정-당뇨·부항·건침·압박스타킹·폼롤링·노래-파킨슨·마사지 및 비마토프로스트-저성장·보툴리눔 독소-방광·경직·미간주름·둘록세틴-통증·우울증·섬유근육통·클로니딘-고혈압·피나스테리드-탈모의 30개 주제를 확인했다. 숫자가 없는 등록시험 5건은 PubMed 배경 문헌과 함께 open으로 남겼다.",
+    "new_entries": 29,
+    "existing_links": 1,
+    "build": "5071 entries · 7131 refs · 4349 trial · 638 obs · 25 animal · 13 lab · 46 case",
+    "research": "ClinicalTrials.gov와 PubMed로 오트밀-비만·호두-비만·대장암·올리브오일-천식·해조류-요오드결핍·시간 제한 식사-비만·당뇨·암·스트레칭-무릎 외반·균형훈련-뇌허혈·흡기근훈련-근육약화·폐질환·향기요법-불안·음악치료·두통·건침-뇌졸중·키네시올로지 테이핑-통증·경기력·마사지-피로·연속혈당측정-중환자 및 피나스테리드-전립선비대증·모다피닐-수면무호흡·기면증·바클로펜-경직·온단세트론-마취·메만틴-치매·시롤리무스-신장이식·몬테루카스트-비염·아토르바스타틴-관상동맥질환·이상지질혈증의 30개 주제를 확인했다. 숫자가 없는 등록시험 7건은 PubMed 배경 문헌과 함께 open으로 남겼다.",
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 1,
+    "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
     "next_official_deployment_check": "after batch 1195"
   }
