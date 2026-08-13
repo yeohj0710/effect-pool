@@ -10055,7 +10055,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nitroprusside — Vasoconstriction에 듣는다 — 근거 없음(2026-08-06 조회, nitroprusside AND vasoconstriction; 직접 투여 결과 없음)  <!-- 시험 5건 · 논문 1915편 -->
 - [x] nitroprusside — Vasodilation에 듣는다 — 허가·표준 혈관확장 용도(2026-08-06)  <!-- 시험 5건 · 논문 17057편 -->
 - [x] phentolamine — Anesthesia, Local에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 99편 --> — 항목 생성(phentolamine-local-anesthesia-pos)
-- [ ] phentolamine — Mydriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 23편 -->
+- [x] phentolamine — Mydriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 23편 --> — 항목 생성(phentolamine-mydriasis-pos)
 - [x] phentolamine — Dilation에 듣는다 — 근거 없음(2026-08-06 조회, phentolamine AND dilation; 직접 확장 치료 결과 없음)  <!-- 시험 4건 · 논문 331편 -->
 - [x] phentolamine — Vasodilation에 듣는다 — 항목 생성(phentolamine-vasodilation-pos)(2026-08-06)  <!-- 시험 3건 · 논문 6614편 -->
 - [x] somatostatin — Cirrhosis에 듣는다 — 같은 근거(별도 항목 없음; somatostatin-esophageal-varices-null)(2026-08-06)  <!-- 시험 15건 · 논문 565편 -->
@@ -10063,18 +10063,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] somatostatin — Acromegaly에 듣는다 — 허가·표준 소마토스타틴 유사체 용도(2026-08-06)  <!-- 시험 4건 · 논문 2349편 -->
 - [x] somatostatin — Esophageal Varices에 듣는다 — 항목 생성(somatostatin-esophageal-varices-null)(2026-08-06)  <!-- 시험 4건 · 논문 376편 -->
 - [x] terlipressin — Septic Shock에 듣는다 — 항목 생성(terlipressin-septic-shock-null)(2026-08-06)  <!-- 시험 18건 · 논문 164편 -->
-- [ ] terlipressin — Hepatorenal Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 528편 -->
+- [x] terlipressin — Hepatorenal Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 528편 --> — 항목 생성(terlipressin-hepatorenal-syndrome-pos)
 - [x] terlipressin — Liver Failure에 듣는다 — 근거 없음(2026-08-06 조회, terlipressin AND liver failure; 간 기능 회복 직접 결과 없음)  <!-- 시험 12건 · 논문 283편 -->
 - [x] terlipressin — Hemorrhage에 듣는다 — 허가·표준 정맥류 출혈 용도(일부 국가, 2026-08-06)  <!-- 시험 11건 · 논문 720편 -->
 - [x] urokinase — Empyema에 듣는다 — 항목 생성(urokinase-empyema-pos)(2026-08-06)  <!-- 시험 5건 · 논문 167편 -->
 - [x] urokinase — Cerebral Hemorrhage에 듣는다 — 항목 생성(urokinase-cerebral-hemorrhage-null)(2026-08-06)  <!-- 시험 4건 · 논문 414편 -->
 - [x] urokinase — Diabetic Foot에 듣는다 — 항목 생성(urokinase-diabetic-foot-pos)(2026-08-06)  <!-- 시험 3건 · 논문 15편 -->
-- [ ] urokinase — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 800편 -->
+- [x] urokinase — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 800편 --> — 항목 생성(urokinase-pulmonary-embolism-null)
 - [x] vasopressin — Heart Arrest에 듣는다 — 항목 생성(vasopressin-heart-arrest-null)(2026-08-06)  <!-- 시험 14건 · 논문 419편 -->
 - [x] vasopressin — Acute Lung Injury에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND acute lung injury; 치료 결과 직접 근거 없음)  <!-- 시험 6건 · 논문 39편 -->
 - [x] vasopressin — Hypertension에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND hypertension; 고혈압 치료 결과 직접 근거 없음)  <!-- 시험 5건 · 논문 3668편 -->
 - [x] vasopressin — Burn Surgery에 듣는다 — 근거 없음(2026-08-06 조회, vasopressin AND burn surgery; 등록시험 결과 논문 없음)  <!-- 시험 5건 · 논문 68편 -->
-- [ ] calcitonin — Osteoporosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 2753편 -->
+- [x] calcitonin — Osteoporosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 2753편 --> — 항목 생성(calcitonin-osteoporosis-pos)
 - [x] calcitonin — Infection에 듣는다 — 근거 없음(2026-08-06 조회, calcitonin AND infection; procalcitonin 검색 오인 제외, 직접 치료 결과 없음)  <!-- 시험 9건 · 논문 5844편 -->
 - [x] calcitonin — Sepsis에 듣는다 — 근거 없음(2026-08-06 조회, calcitonin AND sepsis; procalcitonin 검색 오인 제외, 직접 치료 결과 없음)  <!-- 시험 6건 · 논문 2638편 -->
 - [x] calcitonin — Osteoarthritis에 듣는다 — 항목 생성(calcitonin-osteoarthritis-pos)(2026-08-06)  <!-- 시험 5건 · 논문 332편 -->
@@ -10120,30 +10120,30 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acupuncture — Postoperative Ileus에 듣는다 — 항목 생성(acupuncture-postoperative-ileus-pos)(2026-08-06)  <!-- 시험 16건 · 논문 87편 -->
 - [x] ambrisentan — Systemic Sclerosis에 듣는다 — 항목 생성(ambrisentan-systemic-sclerosis-pos)(2026-08-06)  <!-- 시험 5건 · 논문 38편 -->
 - [x] ambrisentan — Cirrhosis에 듣는다 — 근거 없음(2026-08-06 조회, ambrisentan AND cirrhosis; 등록시험·직접 치료결과 없음)  <!-- 시험 3건 · 논문 47편 -->
-- [ ] ciclopirox — Tinea Pedis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 39편 -->
+- [x] ciclopirox — Tinea Pedis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 39편 --> — 항목 생성(ciclopirox-tinea-pedis-pos)
 - [x] clindamycin — Infection에 듣는다 — 허가·표준 항균 용도(2026-08-06)  <!-- 시험 33건 · 논문 11931편 -->
-- [ ] clindamycin — Bacterial Vaginosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 24건 · 논문 333편 -->
+- [x] clindamycin — Bacterial Vaginosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 24건 · 논문 333편 --> — 항목 생성(clindamycin-bacterial-vaginosis-pos)
 - [x] clindamycin — Infections에 듣는다 — 허가·표준 항균 용도(2026-08-06)  <!-- 시험 12건 · 논문 11931편 -->
 - [x] clindamycin — Abscess에 듣는다 — 허가·표준 피부·연조직 감염 용도(2026-08-06)  <!-- 시험 8건 · 논문 1312편 -->
-- [ ] deferiprone — Thalassemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 766편 -->
-- [ ] deferiprone — Anemia, Cooley's에 듣는다 — 허가 적응증(지중해빈혈, 2026-08-06)  <!-- 시험 10건 · 논문 452편 -->
+- [x] deferiprone — Thalassemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 766편 --> — 항목 생성(deferiprone-thalassemia-null)
+- [x] deferiprone — Anemia, Cooley's에 듣는다 — 허가 적응증(지중해빈혈, 2026-08-06)  <!-- 시험 10건 · 논문 452편 --> — 항목 생성(deferiprone-anemia-cooleys-null)
 - [x] deferiprone — Sickle Cell Disease에 듣는다 — 허가·표준 철 과부하 치료(2026-08-06)  <!-- 시험 3건 · 논문 65편 -->
 - [x] deferiprone — Pantothenate Kinase-Associated Neurodegeneration에 듣는다 — 항목 생성(deferiprone-pkan-null)(2026-08-06)  <!-- 시험 3건 · 논문 21편 -->
-- [ ] elagolix — Uterine Fibroids에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 57편 -->
-- [ ] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] elagolix — Uterine Fibroids에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 57편 --> — 항목 생성(elagolix-uterine-fibroids-pos)
+- [x] elagolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 5건 · 논문 47편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(elagolix-heavy-menstrual-bleeding-pos)
 - [x] elagolix — Infertility에 듣는다  <!-- 시험 4건 · 논문 31편 --> — 항목 생성(elagolix-infertility-pos)
-- [ ] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] luspatercept — Thalassemia에 듣는다  <!-- 시험 14건 · 논문 125편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] luspatercept — Anemia에 듣는다  <!-- 시험 16건 · 논문 231편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(luspatercept-anemia-pos)
+- [x] luspatercept — Thalassemia에 듣는다  <!-- 시험 14건 · 논문 125편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(luspatercept-thalassemia-pos)
 - [x] luspatercept — Myelofibrosis (MF)에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 항목 생성(luspatercept-myelofibrosis-pos)
 - [x] luspatercept — Acute Leukemia에 듣는다  <!-- 시험 5건 · 논문 50편 --> — 근거 없음(2026-08-06, luspatercept AND Acute Leukemia)
 - [x] omadacycline — Bone Infection에 듣는다  <!-- 시험 6건 · 논문 16편 --> — 근거 없음(2026-08-06, omadacycline AND Bone Infection)
-- [ ] ravulizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] ravulizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 5건 · 논문 71편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] ravulizumab — aHUS에 듣는다  <!-- 시험 5건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] teprotumumab — Graves Disease에 듣는다  <!-- 시험 5건 · 논문 351편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ravulizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(ravulizumab-myasthenia-gravis-pos)
+- [x] ravulizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 5건 · 논문 71편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(ravulizumab-neuromyelitis-optica-pos)
+- [x] ravulizumab — aHUS에 듣는다  <!-- 시험 5건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거 없음(2026-08-13 조회, ClinicalTrials.gov/PubMed 확인 연구가 단일군이라 직접 비교 숫자효과 없음)
+- [x] teprotumumab — Graves Disease에 듣는다  <!-- 시험 5건 · 논문 351편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(teprotumumab-graves-disease-pos)
 - [x] voclosporin — Psoriasis에 듣는다  <!-- 시험 3건 · 논문 17편 --> — 항목 생성(voclosporin-psoriasis-pos)
-- [ ] voclosporin — Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] abrocitinib — Eczema에 듣는다  <!-- 시험 3건 · 논문 173편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] voclosporin — Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(voclosporin-kidney-diseases-pos)
+- [x] abrocitinib — Eczema에 듣는다  <!-- 시험 3건 · 논문 173편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(abrocitinib-eczema-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -10199,28 +10199,28 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] repaglinide — Drug-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 근거 없음(2026-08-06, repaglinide AND Drug-drug Interaction)
 - [x] glimepiride — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 281편 --> — 항목 생성(glimepiride-cardiovascular-disease-null)
 - [x] glimepiride — Chronic Heart Failure에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 항목 생성(glimepiride-chronic-heart-failure-pos)
-- [ ] glimepiride — Diabetic Patients에 듣는다  <!-- 시험 3건 · 논문 1018편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] finerenone — Diabetes에 듣는다  <!-- 시험 31건 · 논문 798편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] finerenone — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 520편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] glimepiride — Diabetic Patients에 듣는다  <!-- 시험 3건 · 논문 1018편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(glimepiride-diabetic-patients-null)
+- [x] finerenone — Diabetes에 듣는다  <!-- 시험 31건 · 논문 798편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(finerenone-diabetes-pos)
+- [x] finerenone — Heart Failure에 듣는다  <!-- 시험 25건 · 논문 520편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(finerenone-heart-failure-pos)
 - [x] finerenone — IgA Nephropathy에 듣는다  <!-- 시험 11건 · 논문 20편 --> — 항목 생성(finerenone-iga-nephropathy-pos)
 - [x] finerenone — Primary Aldosteronism에 듣는다  <!-- 시험 6건 · 논문 22편 --> — 항목 생성(finerenone-primary-aldosteronism-null)
-- [ ] evolocumab — Hypercholesterolemia에 듣는다  <!-- 시험 29건 · 논문 645편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] evolocumab — Hyperlipidemia에 듣는다  <!-- 시험 17건 · 논문 546편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] evolocumab — Cardiovascular Disease에 듣는다  <!-- 시험 15건 · 논문 1014편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] alirocumab — Cardiovascular Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 591편 -->
+- [x] evolocumab — Hypercholesterolemia에 듣는다  <!-- 시험 29건 · 논문 645편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(evolocumab-hypercholesterolemia-pos)
+- [x] evolocumab — Hyperlipidemia에 듣는다  <!-- 시험 17건 · 논문 546편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(evolocumab-hyperlipidemia-pos)
+- [x] evolocumab — Cardiovascular Disease에 듣는다  <!-- 시험 15건 · 논문 1014편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(evolocumab-cardiovascular-disease-pos)
+- [x] evolocumab — Dyslipidemia에 듣는다  <!-- 시험 12건 · 논문 690편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(evolocumab-dyslipidemia-pos)
+- [x] alirocumab — Coronary Vessel에 듣는다  <!-- 시험 11건 · 논문 20편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(alirocumab-coronary-vessel-pos)
+- [x] alirocumab — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 277편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(alirocumab-atherosclerosis-pos)
+- [x] alirocumab — Cardiovascular Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 591편 --> — 항목 생성(alirocumab-cardiovascular-diseases-pos)
 - [x] alirocumab — Atheroma; Myocardial에 듣는다 — 항목 생성(alirocumab-atheroma-myocardial-pos)  <!-- 시험 7건 · 논문 13편 -->
 - [x] inclisiran — Plaque, Atherosclerotic에 듣는다 — 항목 생성(inclisiran-plaque-atherosclerotic-null)  <!-- 시험 20건 · 논문 22편 -->
 - [x] inclisiran — Coronary Heart Disease에 듣는다 — 항목 생성(inclisiran-coronary-heart-disease-pos)  <!-- 시험 8건 · 논문 95편 -->
-- [ ] inclisiran — LDL-cholesterol에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 464편 -->
+- [x] inclisiran — LDL-cholesterol에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 464편 --> — 항목 생성(inclisiran-ldl-cholesterol-pos)
 - [x] inclisiran — ASCVD에 듣는다 — 항목 생성(inclisiran-ascvd-null)  <!-- 시험 3건 · 논문 153편 -->
 - [x] belimumab — Rheumatoid Arthritis에 듣는다 — 항목 생성(belimumab-rheumatoid-arthritis-null)  <!-- 시험 4건 · 논문 121편 -->
 - [x] belimumab — Membranous Nephropathy에 듣는다 — 항목 생성(belimumab-membranous-nephropathy-pos)  <!-- 시험 3건 · 논문 13편 -->
 - [x] belimumab — Vasculitis에 듣는다 — 항목 생성(belimumab-vasculitis-pos)  <!-- 시험 3건 · 논문 90편 -->
 - [x] belimumab — Sjogren's Syndrome에 듣는다 — 항목 생성(belimumab-sjogren-s-syndrome-pos)  <!-- 시험 3건 · 논문 57편 -->
-- [ ] guselkumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 19건 · 논문 253편 -->
+- [x] guselkumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 19건 · 논문 253편 --> — 항목 생성(guselkumab-psoriatic-arthritis-pos)
 - [ ] guselkumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 104편 -->
 - [ ] guselkumab — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 100편 -->
 - [ ] risankizumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 20건 · 논문 239편 -->
