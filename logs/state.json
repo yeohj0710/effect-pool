@@ -3,7 +3,7 @@
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 6222,
-  "subjects": 2413,
+  "subjects": 2411,
   "refs": 8596,
   "kinds": {
     "otc": 124,
@@ -32,18 +32,18 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1287 did not consume worklist rows; it backfilled numeric comparisons for 23 existing non-prescription entries from the legacy vs-missing backlog."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1288 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
   },
   "backlog": {
-    "vs_missing": 3889,
-    "english_subjects": 1116,
+    "vs_missing": 3859,
+    "english_subjects": 1103,
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "21.7% (1,350 entries)",
+    "vs_share": "22.2% (1,380 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,30 +57,32 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1288 starts after batch 1287. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1287 scanned the legacy non-prescription vs-missing backlog after pilates-exercise-pos and backfilled 23 existing entries; the next eligible scan point is telephone-support-caregiver-null. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1289 starts after batch 1288. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1288 scanned the legacy non-prescription vs-missing backlog after telephone-support-caregiver-null and backfilled 30 existing entries; it also translated 13 shared English subjects across 45 entries and preserved their categories. The next eligible scan point is treadmill-training-parkinson-pos. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1287",
-    "commit": "ee6fb004",
+    "id": "1288",
+    "commit": "643aa0ec",
     "pushed": true,
-    "processed_topics": 23,
+    "processed_topics": 30,
     "new_entries": 0,
-    "existing_links": 23,
+    "existing_links": 30,
     "no_evidence_rejects": 0,
-    "non_prescription_topics_available": 23,
-    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1350 numeric comparison entries; worklist 15542/15542",
-    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 23 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 28419855, 37351038, 31191838, 22797645, 33599773, 38530311, 32003520, 42091122, 34607184, 42263407, 38072635, 36251294, 39324877, 39489144, 36037752, 35579532, 39406459, 40394535, 28768493, 36223875, 37022680, 38755142, 34836211, 42043864, 35194698, and 40472026; ClinicalTrials.gov identifiers NCT02006498, NCT03956004, NCT04416841, NCT02327858, and NCT04810650. Duplicate PMIDs were reused only for closely related topics. No entries were rejected, no sample sizes were inferred, and no new claims were fabricated.",
+    "non_prescription_topics_available": 30,
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1380 numeric comparison entries; worklist 15542/15542",
+    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 36198459, 34188484, 31132909, 37982411, 41065729, 28985325, 36658577, 24505411, 27207211, 42479583, 42024386, 35704124, 39110436, 42475850, 34535411, 25201095, 42451100, 42371138, 42229885, 32986097, 40433613, 40252663, 39527055, 39320286, 40711757, 30452892, 36606456, 28768327, 40226747, 32161730, and 36357586; ClinicalTrials.gov identifiers NCT06415188, NCT02396394, NCT04919590, NCT02863094, NCT01243606, and NCT02427997. Duplicate PMIDs were reused only for closely related topics. No entries were rejected, no sample sizes were inferred, and no new claims were fabricated.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 23,
+    "legacy_vs_filled": 30,
+    "subject_names_renamed": 13,
+    "subject_entries_renamed": 45,
     "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 1021,
     "remaining_expected_unknown_n_warnings": 455,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1288",
+    "next_batch": "1289",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing scan after pilates-exercise-pos; next eligible candidate telephone-support-caregiver-null; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing scan after telephone-support-caregiver-null; next eligible candidate treadmill-training-parkinson-pos; worklist exhausted",
     "unchecked": 0
   }
 }
