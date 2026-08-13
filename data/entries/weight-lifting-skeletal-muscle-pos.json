@@ -1,33 +1,34 @@
 {
-  "id": "weight-lifting-skeletal-muscle-pos",
-  "subj": "weight lifting",
-  "claim": "유방암 생존자에서 점진적 weight lifting은 사지 골격근량 감소를 늦춘다",
-  "line": "유방암 생존자의 점진적 웨이트 운동은 근육량 감소를 늦췄습니다",
-  "effect": "사지 골격근량 감소·근력 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 295,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
-  "why": "비전이성 유방암 생존자 295명을 대상으로 주 2회 점진적 weight lifting과 표준 관리를 12개월 비교한 단일맹검 무작위시험이 있었습니다.",
-  "saw": "12개월 뒤 weight lifting군의 상대적 사지 골격근량 감소는 -0.01±0.02kg/m²로 표준 관리군 -0.08±0.03kg/m²보다 작았고(P=.041), 절대량 감소도 -0.02±0.06kg 대 -0.22±0.07kg으로 작았습니다(P=.038). 상·하지 근력은 증가했고 weight lifting 관련 중대한 이상반응은 없었습니다.",
-  "limit": "유방암 생존자를 대상으로 한 사후 분석이며, 체질량·체지방 등 다른 체성분 지표는 달라지지 않았습니다. 건강한 성인이나 다른 암 생존자에게 그대로 일반화하기 어렵습니다.",
-  "against": "BMI·전체 체중·체지방률·지방량은 표준 관리와 차이가 없었습니다.",
-  "use": "유방암 치료 후 근육량 감소를 걱정하는 사람의 점진적 근력운동 상담에서 참고하되, 치료팀과 림프부종·수술 부위 상태를 함께 확인합니다.",
-  "refs": [
-    {
-      "label": "Weight lifting and appendicular skeletal muscle mass among breast cancer survivors 2015 · Breast Cancer Res Treat · randomized controlled trial",
-      "doi": "10.1007/s10549-015-3409-0",
-      "pmid": "25935584",
-      "pmc": "PMC4596259"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "weight lifting AND Skeletal Muscle · 5건 · exact InterventionName 0건",
-    "pubmed": "weight lifting AND Skeletal Muscle · 2403건",
-    "negative": "weight lifting AND Skeletal Muscle AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 471건",
-    "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
+ "id": "weight-lifting-skeletal-muscle-pos",
+ "subj": "저항운동",
+ "claim": "유방암 생존자에서 점진적 weight lifting은 사지 골격근량 감소를 늦춘다",
+ "line": "유방암 생존자의 점진적 웨이트 운동은 근육량 감소를 늦췄습니다",
+ "effect": "사지 골격근량 감소·근력 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 295,
+ "vs": "사지 근육량 감소 -0.01±0.02 vs -0.08±0.03kg/m²; 절대량 -0.02±0.06 vs -0.22±0.07kg (저항운동 vs 표준관리)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
+ "why": "비전이성 유방암 생존자 295명을 대상으로 주 2회 점진적 weight lifting과 표준 관리를 12개월 비교한 단일맹검 무작위시험이 있었습니다.",
+ "saw": "12개월 뒤 weight lifting군의 상대적 사지 골격근량 감소는 -0.01±0.02kg/m²로 표준 관리군 -0.08±0.03kg/m²보다 작았고(P=.041), 절대량 감소도 -0.02±0.06kg 대 -0.22±0.07kg으로 작았습니다(P=.038). 상·하지 근력은 증가했고 weight lifting 관련 중대한 이상반응은 없었습니다.",
+ "limit": "유방암 생존자를 대상으로 한 사후 분석이며, 체질량·체지방 등 다른 체성분 지표는 달라지지 않았습니다. 건강한 성인이나 다른 암 생존자에게 그대로 일반화하기 어렵습니다.",
+ "against": "BMI·전체 체중·체지방률·지방량은 표준 관리와 차이가 없었습니다.",
+ "use": "유방암 치료 후 근육량 감소를 걱정하는 사람의 점진적 근력운동 상담에서 참고하되, 치료팀과 림프부종·수술 부위 상태를 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "Weight lifting and appendicular skeletal muscle mass among breast cancer survivors 2015 · Breast Cancer Res Treat · randomized controlled trial",
+   "doi": "10.1007/s10549-015-3409-0",
+   "pmid": "25935584",
+   "pmc": "PMC4596259"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "weight lifting AND Skeletal Muscle · 5건 · exact InterventionName 0건",
+  "pubmed": "weight lifting AND Skeletal Muscle · 2403건",
+  "negative": "weight lifting AND Skeletal Muscle AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 471건",
+  "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
+ }
 }

@@ -1,44 +1,45 @@
 {
-  "id": "weight-lifting-type-2-diabetes-pos",
-  "subj": "weight lifting",
-  "claim": "제2형 당뇨병에서 weight lifting에 가까운 저항운동은 공복혈당과 근육량을 개선한다",
-  "line": "제2형 당뇨병에서 저항운동은 공복혈당과 근육량을 개선했습니다",
-  "effect": "공복혈당·인슐린 감소; 제지방 +3.5%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 18,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
-  "why": "ClinicalTrials.gov에서 exact intervention name weight lifting과 제2형 당뇨병의 직접 결과는 확인되지 않았지만, PubMed에서 weight lifting의 임상적 형태인 저항운동 시험을 확인했습니다.",
-  "saw": "비만 제2형 당뇨병 남성 18명이 10주 저항운동 또는 비운동 대조군에 배정됐습니다. 저항운동군에서 공복혈당과 인슐린이 감소했고 제지방은 3.5% 증가했으며 근력·근지구력은 25~52% 증가했습니다. 25명 RAED2 무작위시험에서는 저항운동과 유산소운동이 장기 HbA1c를 비슷하게 낮췄지만 단회 운동 뒤 저혈당 신호는 유산소운동에서 더 컸습니다.",
-  "limit": "주요 연구가 18명으로 작고, 저항운동을 weight lifting의 대리지표로 사용했습니다. 운동 강도와 기간이 일반적인 weight lifting과 다를 수 있습니다.",
-  "against": "2시간 경구당부하 뒤 포도당·인슐린은 변하지 않았고, 모든 혈당 결과가 운동 종류에 따라 같지는 않았습니다.",
-  "use": "제2형 당뇨병 운동상담에서 저항운동의 혈당·근육 근거로 참고하고 저혈당 위험과 개인별 운동계획을 함께 확인합니다.",
-  "refs": [
-    {
-      "label": "Resistance training in obese men with type 2 diabetes 2003 · Int J Sports Med · randomized trial",
-      "doi": "10.1055/s-2003-41173",
-      "pmid": "12905089"
-    },
-    {
-      "label": "Aerobic versus resistance exercise in type 2 diabetes 2012 · PLoS One · RAED2 randomized trial",
-      "doi": "10.1371/journal.pone.0049937",
-      "pmid": "23227155",
-      "pmc": "PMC3515569",
-      "nct": "NCT01182948"
-    },
-    {
-      "label": "Resistance training and skeletal muscle cytokine expression in type 2 diabetes 2006 · Int J Immunopathol Pharmacol · randomized trial",
-      "doi": "10.1177/039463200601900404",
-      "pmid": "17166396"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "weight lifting AND Type 2 Diabetes · 11건 · exact InterventionName 0건",
-    "pubmed": "weight lifting AND Type 2 Diabetes · 39건",
-    "negative": "weight lifting AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 8건",
-    "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
+ "id": "weight-lifting-type-2-diabetes-pos",
+ "subj": "저항운동",
+ "claim": "제2형 당뇨병에서 weight lifting에 가까운 저항운동은 공복혈당과 근육량을 개선한다",
+ "line": "제2형 당뇨병에서 저항운동은 공복혈당과 근육량을 개선했습니다",
+ "effect": "공복혈당·인슐린 감소; 제지방 +3.5%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 18,
+ "vs": "제지방 +3.5%, 근력·근지구력 +25~52% (저항운동 vs 비운동 대조)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
+ "why": "ClinicalTrials.gov에서 exact intervention name weight lifting과 제2형 당뇨병의 직접 결과는 확인되지 않았지만, PubMed에서 weight lifting의 임상적 형태인 저항운동 시험을 확인했습니다.",
+ "saw": "비만 제2형 당뇨병 남성 18명이 10주 저항운동 또는 비운동 대조군에 배정됐습니다. 저항운동군에서 공복혈당과 인슐린이 감소했고 제지방은 3.5% 증가했으며 근력·근지구력은 25~52% 증가했습니다. 25명 RAED2 무작위시험에서는 저항운동과 유산소운동이 장기 HbA1c를 비슷하게 낮췄지만 단회 운동 뒤 저혈당 신호는 유산소운동에서 더 컸습니다.",
+ "limit": "주요 연구가 18명으로 작고, 저항운동을 weight lifting의 대리지표로 사용했습니다. 운동 강도와 기간이 일반적인 weight lifting과 다를 수 있습니다.",
+ "against": "2시간 경구당부하 뒤 포도당·인슐린은 변하지 않았고, 모든 혈당 결과가 운동 종류에 따라 같지는 않았습니다.",
+ "use": "제2형 당뇨병 운동상담에서 저항운동의 혈당·근육 근거로 참고하고 저혈당 위험과 개인별 운동계획을 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "Resistance training in obese men with type 2 diabetes 2003 · Int J Sports Med · randomized trial",
+   "doi": "10.1055/s-2003-41173",
+   "pmid": "12905089"
+  },
+  {
+   "label": "Aerobic versus resistance exercise in type 2 diabetes 2012 · PLoS One · RAED2 randomized trial",
+   "doi": "10.1371/journal.pone.0049937",
+   "pmid": "23227155",
+   "pmc": "PMC3515569",
+   "nct": "NCT01182948"
+  },
+  {
+   "label": "Resistance training and skeletal muscle cytokine expression in type 2 diabetes 2006 · Int J Immunopathol Pharmacol · randomized trial",
+   "doi": "10.1177/039463200601900404",
+   "pmid": "17166396"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "weight lifting AND Type 2 Diabetes · 11건 · exact InterventionName 0건",
+  "pubmed": "weight lifting AND Type 2 Diabetes · 39건",
+  "negative": "weight lifting AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 8건",
+  "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
+ }
 }

@@ -1,28 +1,32 @@
 {
-  "id": "yoga-hypertension-pos",
-  "subj": "yoga",
-  "claim": "yoga가 고혈압 환자의 수축기·이완기 혈압을 낮춘다",
-  "line": "고혈압 yoga 분석에서 혈압이 낮아졌지만 근거 확실성은 매우 낮았습니다.",
-  "effect": "SBP -7.95·DBP -4.93mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2283,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "yoga는 비약물 생활습관 중재이며 고혈압 치료의 허가 적응증을 가진 약물이 아닙니다.",
-  "why": "고혈압 또는 전고혈압 성인을 대상으로 한 무작위시험을 종합해 yoga와 대조 중재의 혈압 변화를 비교했습니다.",
-  "saw": "30개 무작위시험, 2283명이 포함됐습니다. 대기 대조군과 비교할 때 수축기 혈압은 7.95mmHg, 이완기 혈압은 4.93mmHg 낮았지만 근거 확실성은 매우 낮았습니다.",
-  "limit": "연구 간 이질성이 높고 근거 확실성이 매우 낮아 yoga의 종류와 용량에 따른 효과를 확정할 수 없습니다.",
-  "against": "활성 대조군과 비교한 수축기 혈압 차이는 유의하지 않았고, 일부 연구는 비뚤림 위험이 있었습니다.",
-  "use": "처방 치료와 함께 가능한 생활습관 보조 활동으로만 검토하고 혈압약을 임의로 중단하지 않습니다.",
-  "refs": [
-    { "label": "A systematic review and meta-analysis of yoga for arterial hypertension", "pmid": "40367243" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=yoga · query.cond=Hypertension: 42건, 직접 개입명 포함 23건",
-    "pubmed": "yoga AND Hypertension[Title/Abstract]: 339편",
-    "negative": "yoga AND Hypertension[Title/Abstract] AND (no effect OR did not OR failed to OR negative OR no significant difference): 50편",
-    "safety": "yoga AND (adverse OR toxicity OR case report OR overdose OR self-medication): 1070편"
+ "id": "yoga-hypertension-pos",
+ "subj": "요가",
+ "claim": "yoga가 고혈압 환자의 수축기·이완기 혈압을 낮춘다",
+ "line": "고혈압 yoga 분석에서 혈압이 낮아졌지만 근거 확실성은 매우 낮았습니다.",
+ "effect": "SBP -7.95·DBP -4.93mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2283,
+ "vs": "SBP -7.95, DBP -4.93mmHg (요가 vs 대기 대조; 30개 시험 2,283명)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "yoga는 비약물 생활습관 중재이며 고혈압 치료의 허가 적응증을 가진 약물이 아닙니다.",
+ "why": "고혈압 또는 전고혈압 성인을 대상으로 한 무작위시험을 종합해 yoga와 대조 중재의 혈압 변화를 비교했습니다.",
+ "saw": "30개 무작위시험, 2283명이 포함됐습니다. 대기 대조군과 비교할 때 수축기 혈압은 7.95mmHg, 이완기 혈압은 4.93mmHg 낮았지만 근거 확실성은 매우 낮았습니다.",
+ "limit": "연구 간 이질성이 높고 근거 확실성이 매우 낮아 yoga의 종류와 용량에 따른 효과를 확정할 수 없습니다.",
+ "against": "활성 대조군과 비교한 수축기 혈압 차이는 유의하지 않았고, 일부 연구는 비뚤림 위험이 있었습니다.",
+ "use": "처방 치료와 함께 가능한 생활습관 보조 활동으로만 검토하고 혈압약을 임의로 중단하지 않습니다.",
+ "refs": [
+  {
+   "label": "A systematic review and meta-analysis of yoga for arterial hypertension",
+   "pmid": "40367243"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=yoga · query.cond=Hypertension: 42건, 직접 개입명 포함 23건",
+  "pubmed": "yoga AND Hypertension[Title/Abstract]: 339편",
+  "negative": "yoga AND Hypertension[Title/Abstract] AND (no effect OR did not OR failed to OR negative OR no significant difference): 50편",
+  "safety": "yoga AND (adverse OR toxicity OR case report OR overdose OR self-medication): 1070편"
+ }
 }

@@ -1,20 +1,33 @@
 {
-  "id": "workplace-wellness-intervention-anxiety-pos",
-  "subj": "workplace wellness intervention",
-  "claim": "직장 건강증진 프로그램을 제공하면 직원의 불안 증상이 줄 수 있다",
-  "line": "직장 건강증진 프로그램은 불안을 조금 줄였습니다",
-  "effect": "22개 연구, 불안 SMD 0.29",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3409,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "직장 건강증진은 의약품이 아닌 직장 정신건강·생활습관 중재입니다",
-  "why": "직장 건강증진 중재가 직원의 우울·불안 증상에 미치는 효과를 메타분석했습니다",
-  "saw": "22개 연구, 중재 후 직원 3,409명을 포함했고 17개 연구 20개 비교를 메타분석했습니다. 불안 증상 SMD는 0.29, 우울 증상 SMD는 0.28로 작지만 긍정적이었습니다",
-  "limit": "1997~2007년 연구를 포함했고 중재가 다양하며 복합 정신건강 결과에서는 효과가 없었습니다",
-  "against": "직장 건강증진의 불안 개선 효과는 작고 중증 불안장애의 진료를 대신하지 않습니다",
-  "use": "직원 불안 지원에 건강증진을 보조로 제공하고 증상이 지속되면 비밀보장된 전문상담으로 연결합니다",
-  "refs": [{ "label": "Meta-analysis of the effects of health promotion intervention in the workplace on depression and anxiety symptoms 2009 · Scandinavian Journal of Work, Environment and Health", "doi": "10.5271/sjweh.1295", "pmid": "19065280" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=workplace wellness intervention AND condition=Anxiety; 23건 반환, 중재명 일치 0건", "pubmed": "workplace wellness intervention AND Anxiety; 1,857편", "negative": "workplace wellness intervention AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,064편", "safety": "workplace wellness intervention AND Anxiety AND (adverse OR toxicity OR case report OR harm OR dropout); 229편" }
+ "id": "workplace-wellness-intervention-anxiety-pos",
+ "subj": "직장 웰니스 중재",
+ "claim": "직장 건강증진 프로그램을 제공하면 직원의 불안 증상이 줄 수 있다",
+ "line": "직장 건강증진 프로그램은 불안을 조금 줄였습니다",
+ "effect": "22개 연구, 불안 SMD 0.29",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3409,
+ "vs": "불안 SMD 0.29, 우울 SMD 0.28 (직장 웰니스 중재 vs 비중재; 22개 연구 3,409명)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "직장 건강증진은 의약품이 아닌 직장 정신건강·생활습관 중재입니다",
+ "why": "직장 건강증진 중재가 직원의 우울·불안 증상에 미치는 효과를 메타분석했습니다",
+ "saw": "22개 연구, 중재 후 직원 3,409명을 포함했고 17개 연구 20개 비교를 메타분석했습니다. 불안 증상 SMD는 0.29, 우울 증상 SMD는 0.28로 작지만 긍정적이었습니다",
+ "limit": "1997~2007년 연구를 포함했고 중재가 다양하며 복합 정신건강 결과에서는 효과가 없었습니다",
+ "against": "직장 건강증진의 불안 개선 효과는 작고 중증 불안장애의 진료를 대신하지 않습니다",
+ "use": "직원 불안 지원에 건강증진을 보조로 제공하고 증상이 지속되면 비밀보장된 전문상담으로 연결합니다",
+ "refs": [
+  {
+   "label": "Meta-analysis of the effects of health promotion intervention in the workplace on depression and anxiety symptoms 2009 · Scandinavian Journal of Work, Environment and Health",
+   "doi": "10.5271/sjweh.1295",
+   "pmid": "19065280"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=workplace wellness intervention AND condition=Anxiety; 23건 반환, 중재명 일치 0건",
+  "pubmed": "workplace wellness intervention AND Anxiety; 1,857편",
+  "negative": "workplace wellness intervention AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,064편",
+  "safety": "workplace wellness intervention AND Anxiety AND (adverse OR toxicity OR case report OR harm OR dropout); 229편"
+ }
 }

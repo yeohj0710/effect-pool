@@ -1,28 +1,33 @@
 {
-  "id": "workplace-exercise-health-promotion-pos",
-  "subj": "workplace exercise",
-  "claim": "직장 운동이 병원 직원의 신체·정신 건강을 개선한다",
-  "line": "직장 운동은 병원 직원의 체력과 활력, 만족도를 높였습니다",
-  "effect": "활력 +41%; 만족도 +21%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 50,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "직장 운동은 의약품이 아닌 비약물 중재입니다.",
-  "why": "병원에서 근무하는 보건의료인 50명을 6주간 매일 의자 기반 운동을 하는 군과 대조군에 무작위 배정한 시험입니다.",
-  "saw": "운동군은 제지방량·호흡 기능, 유연성·균형, 상·하지 근력이 좋아졌고 주관적 활력은 41.3%, 삶의 만족도는 21.5% 높아졌습니다. 혈압은 3.5~5.5% 낮아졌습니다.",
-  "limit": "표본이 50명이고 운동군의 즐거움과 순응도를 함께 평가한 단일 병원 시험입니다.",
-  "against": "대조군에서는 주요 건강·기능 지표가 변하지 않았지만 장기 지속 효과는 평가하지 않았습니다.",
-  "use": "병원 직원 건강증진에서 근무 중 직장 운동의 단기 효과를 설명하는 근거로 사용합니다.",
-  "refs": [
-    { "label": "Gerodimos 2022 · International Archives of Occupational and Environmental Health · randomized controlled study", "doi": "10.1007/s00420-022-01856-6", "pmid": "35316372" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "workplace exercise AND Health Promotion · 28건 반환, intervention 직접 대조 1건(NCT07269834)",
-    "pubmed": "workplace exercise AND Health Promotion · 1341건",
-    "negative": "workplace exercise AND Health Promotion AND (no effect OR did not OR failed to OR negative OR no significant difference) · 839건",
-    "safety": "workplace exercise AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 279건"
+ "id": "workplace-exercise-health-promotion-pos",
+ "subj": "직장 운동",
+ "claim": "직장 운동이 병원 직원의 신체·정신 건강을 개선한다",
+ "line": "직장 운동은 병원 직원의 체력과 활력, 만족도를 높였습니다",
+ "effect": "활력 +41%; 만족도 +21%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 50,
+ "vs": "활력 +41.3%, 삶의 만족도 +21.5%, 혈압 -3.5~5.5% (직장 운동 vs 대조)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "직장 운동은 의약품이 아닌 비약물 중재입니다.",
+ "why": "병원에서 근무하는 보건의료인 50명을 6주간 매일 의자 기반 운동을 하는 군과 대조군에 무작위 배정한 시험입니다.",
+ "saw": "운동군은 제지방량·호흡 기능, 유연성·균형, 상·하지 근력이 좋아졌고 주관적 활력은 41.3%, 삶의 만족도는 21.5% 높아졌습니다. 혈압은 3.5~5.5% 낮아졌습니다.",
+ "limit": "표본이 50명이고 운동군의 즐거움과 순응도를 함께 평가한 단일 병원 시험입니다.",
+ "against": "대조군에서는 주요 건강·기능 지표가 변하지 않았지만 장기 지속 효과는 평가하지 않았습니다.",
+ "use": "병원 직원 건강증진에서 근무 중 직장 운동의 단기 효과를 설명하는 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "Gerodimos 2022 · International Archives of Occupational and Environmental Health · randomized controlled study",
+   "doi": "10.1007/s00420-022-01856-6",
+   "pmid": "35316372"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "workplace exercise AND Health Promotion · 28건 반환, intervention 직접 대조 1건(NCT07269834)",
+  "pubmed": "workplace exercise AND Health Promotion · 1341건",
+  "negative": "workplace exercise AND Health Promotion AND (no effect OR did not OR failed to OR negative OR no significant difference) · 839건",
+  "safety": "workplace exercise AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 279건"
+ }
 }

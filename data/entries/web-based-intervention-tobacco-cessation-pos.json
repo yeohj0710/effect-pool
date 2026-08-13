@@ -1,28 +1,34 @@
 {
-  "id": "web-based-intervention-tobacco-cessation-pos",
-  "subj": "web-based intervention",
-  "claim": "인터넷 금연 개입이 성인 흡연자의 금연을 도울 수 있다",
-  "line": "인터넷 금연 중재는 성인의 금연 가능성을 높였습니다",
-  "effect": "대기군 대비 금연 RR 1.60",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 98530,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 인터넷 중재이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "성인 흡연자의 금연을 위한 인터넷 중재 무작위시험 40편을 체계적으로 통합했습니다.",
-  "saw": "40편 98,530명이 포함됐고 인터넷 중재는 대기·평가만 한 대조군보다 금연 효과가 컸습니다.",
-  "limit": "인터넷 중재 유형이 다양했고 대면·전화상담과 비교하면 유의한 차이가 일정하지 않았습니다.",
-  "against": "인쇄물과 비교한 상호작용형 인터넷 중재는 금연 효과가 더 좋았지만 정적 자료는 차이가 없었습니다.",
-  "use": "성인 금연 지원에서 대면 접근이 어려울 때 상호작용형 인터넷 중재를 검토합니다.",
-  "refs": [
-    { "label": "성인 인터넷 금연 중재 메타분석", "doi": "10.2147/SAR.S101660", "pmid": "27274333", "pmc": "PMC4876804" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=web-based intervention AND condition=Tobacco Cessation; 48건",
-    "pubmed": "web-based intervention AND Tobacco Cessation; 289건",
-    "negative": "web-based intervention AND Tobacco Cessation AND (no effect OR did not OR failed OR negative OR no significant difference); 64건",
-    "safety": "web-based intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 3374건"
+ "id": "web-based-intervention-tobacco-cessation-pos",
+ "subj": "웹 중재",
+ "claim": "인터넷 금연 개입이 성인 흡연자의 금연을 도울 수 있다",
+ "line": "인터넷 금연 중재는 성인의 금연 가능성을 높였습니다",
+ "effect": "대기군 대비 금연 RR 1.60",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 98530,
+ "vs": "금연 RR 1.60 (인터넷 중재 vs 대기·평가 대조; 40편 98,530명)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 인터넷 중재이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "성인 흡연자의 금연을 위한 인터넷 중재 무작위시험 40편을 체계적으로 통합했습니다.",
+ "saw": "40편 98,530명이 포함됐고 인터넷 중재는 대기·평가만 한 대조군보다 금연 효과가 컸습니다.",
+ "limit": "인터넷 중재 유형이 다양했고 대면·전화상담과 비교하면 유의한 차이가 일정하지 않았습니다.",
+ "against": "인쇄물과 비교한 상호작용형 인터넷 중재는 금연 효과가 더 좋았지만 정적 자료는 차이가 없었습니다.",
+ "use": "성인 금연 지원에서 대면 접근이 어려울 때 상호작용형 인터넷 중재를 검토합니다.",
+ "refs": [
+  {
+   "label": "성인 인터넷 금연 중재 메타분석",
+   "doi": "10.2147/SAR.S101660",
+   "pmid": "27274333",
+   "pmc": "PMC4876804"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=web-based intervention AND condition=Tobacco Cessation; 48건",
+  "pubmed": "web-based intervention AND Tobacco Cessation; 289건",
+  "negative": "web-based intervention AND Tobacco Cessation AND (no effect OR did not OR failed OR negative OR no significant difference); 64건",
+  "safety": "web-based intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 3374건"
+ }
 }
