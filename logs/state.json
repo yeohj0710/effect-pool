@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6182,
-  "subjects": 2388,
-  "refs": 8555,
+  "entries": 6212,
+  "subjects": 2407,
+  "refs": 8586,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2738
+    "rx": 2768
   },
   "tiers": {
-    "trial": 5358,
+    "trial": 5388,
     "obs": 729,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3752,
-    "null": 1227,
+    "pos": 3774,
+    "null": 1235,
     "open": 1038,
     "harm": 165
   },
   "worklist": {
     "total": 15542,
-    "checked": 15502,
-    "unchecked": 40,
+    "checked": 15532,
+    "unchecked": 10,
     "no_evidence_pending": 2058,
-    "note": "Batch 1279 checked 30 unique prescription topics from worklist lines 19120-19472. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. No identifiable non-prescription topic was available in this queue segment. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
+    "note": "Batch 1280 checked 30 unique prescription topics from worklist lines 19473-20027. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. No identifiable non-prescription topic was available in this queue segment. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.4% (951 entries)",
-    "rx_share": "44.3% (2,738 entries)",
-    "no_effect_or_harm_share": "22.5% (1,392 entries)",
-    "vs_share": "18.4% (1,138 entries)",
+    "over_counter_share": "15.3% (951 entries)",
+    "rx_share": "44.5% (2,768 entries)",
+    "no_effect_or_harm_share": "22.5% (1,400 entries)",
+    "vs_share": "18.8% (1,168 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.7% (5,358 entries)",
+    "trial_share": "86.7% (5,388 entries)",
     "non_trial_share": "13.3% (824 entries)",
     "build_warnings": {
       "unknown_n": 743,
-      "thin_study": 1201,
+      "thin_study": 1207,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1280 starts after batch 1279. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 19473: umeclidinium — Asthma. 40 unchecked rows remain.",
+  "next": "Batch 1281 starts after batch 1280. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 20028: olopatadine ? Rhinitis. 10 unchecked rows remain.",
   "last_batch": {
-    "id": "1279",
-    "commit": "5ea63546",
+    "id": "1280",
+    "commit": "ce354916",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 30,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6182 entries; 8555 refs; 5358 trial; 729 obs; 31 animal; 17 lab; 47 case; 1138 numeric comparison entries; worklist 15502/15542",
-    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 23120519, 10522581, 25146009, 19843807, 19135415, 20026457, 24315882, 23964933, 17634458, 24013647, 23735746, 18975305, 27599913, 29906601, 26822022, 22310086, 29696684, 28704254, 26565927, 34800400, 32334605, 28712537, and 32368027; CIMPASI-1 psoriasis used DOI 10.1016/j.jaad.2018.04.012 and NCT02326298. The reused PMIDs were 19135415 for four palonosetron topics, 25146009 for two mepivacaine topics, 24013647 for two certolizumab topics, and 29696684 for two fostamatinib topics. Ramosetron IBS-D used PMID24315882; miglustat NPC used observational PMID32334605. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
-    "new_entry_vs_warnings_fixed": 27,
+    "build": "6212 entries; 8586 refs; 5388 trial; 729 obs; 31 animal; 17 lab; 47 case; 1168 numeric comparison entries; worklist 15532/15542",
+    "research": "ClinicalTrials.gov/PubMed evidence was checked for all 30 topics. New evidence used PMIDs 32918892, 27730198, 33898609, 29872288, 33445205, 7009593, 11547716, 3282478, 28619227, 10762562, 21449783, 23607594, 29365309, 17124018, 41910345, 18815396, 36727510, 28952914, 30206011, 30191972, 8394858, 11429021, 10984368, 26575524, 23467551, 23352226, 25829298, and 23819698. ClinicalTrials.gov registrations were retained where available: NCT02924688, NCT02236611, NCT00705432, NCT01497366, NCT02604017, NCT04790370, NCT00153036, NCT02388061, NCT01438840, NCT01386125, NCT01053988, and NCT00452400. Reused PMIDs covered the two umeclidinium topics, three glycopyrronium topics, two diazepam topics, two glecaprevir/pibrentasvir topics, two ganciclovir topics, and the other treatment-combination evidence. Every processed topic had a numeric intervention-versus-control result or valid relative effect; no topic was rejected.",
+    "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1201,
+    "remaining_expected_thin_warnings": 1207,
     "remaining_expected_unknown_n_warnings": 743,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1280",
-    "worklist_line": 19473,
-    "topic": "umeclidinium — Asthma",
-    "unchecked": 40
+    "next_batch": "1281",
+    "worklist_line": 20028,
+    "topic": "olopatadine ? Rhinitis",
+    "unchecked": 10
   }
 }
