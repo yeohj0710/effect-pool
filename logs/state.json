@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5682,
-  "subjects": 2191,
-  "refs": 8043,
+  "entries": 5712,
+  "subjects": 2196,
+  "refs": 8073,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2242
+    "rx": 2272
   },
   "tiers": {
-    "trial": 4861,
+    "trial": 4891,
     "obs": 727,
     "animal": 30,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3352,
-    "null": 1133,
+    "pos": 3372,
+    "null": 1143,
     "open": 1037,
     "harm": 160
   },
   "worklist": {
     "total": 15542,
-    "checked": 14932,
-    "unchecked": 610,
+    "checked": 14962,
+    "unchecked": 580,
     "no_evidence_pending": 2009,
-    "note": "Batch 1260 checked 21 unique prescription topics from line 8704. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 21; existing links: 0; no-evidence rejects: 0."
+    "note": "Batch 1261 checked 30 unique prescription topics from line 8805. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 30; existing links: 0; no-evidence rejects: 0."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -41,44 +41,44 @@
   },
   "checkpoints": {
     "over_counter_share": "16.7% (947 entries)",
-    "rx_share": "39.5% (2,242 entries)",
-    "no_effect_or_harm_share": "22.8% (1,293 entries)",
-    "vs_share": "11.2% (638 entries)",
+    "rx_share": "39.8% (2,272 entries)",
+    "no_effect_or_harm_share": "22.8% (1,303 entries)",
+    "vs_share": "11.7% (668 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.6% (4,861 entries)",
+    "trial_share": "85.6% (4,891 entries)",
     "non_trial_share": "14.4% (821 entries)",
     "build_warnings": {
       "unknown_n": 449,
-      "thin_study": 982,
-      "targeted_batch_warnings": 8
+      "thin_study": 983,
+      "targeted_batch_warnings": 9
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1261 starts after batch 1260. Prioritize non-prescription topics first; none were identifiable in the remaining queue for batch 1260. Resume at worklist line 8805: budesonide — Colitis. 610 unchecked rows remain.",
+  "next": "Batch 1262 starts after batch 1261. Prioritize non-prescription topics first; none were identifiable in the remaining queue for batch 1261. Resume at worklist line 8890: doxepin — Insomnia. 580 unchecked rows remain.",
   "last_batch": {
-    "id": "1260",
-    "commit": "30187d7e",
-    "pushed": true,
-    "processed_topics": 21,
-    "new_entries": 21,
+    "id": "1261",
+    "commit": "c93e8689",
+    "pushed": false,
+    "processed_topics": 30,
+    "new_entries": 30,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "5682 entries; 8043 refs; 4861 trial; 727 obs; 30 animal; 17 lab; 47 case; 638 numeric comparison entries; worklist 14932/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 21 topics with exact intervention-name checks on returned records. New evidence used PMIDs 34635802, 12526069, 11454075, 17355735, 39758228, 34763338, 33715994, 27263325, 11586012, 17803013, 15264506, 31537420, 37087864, 7033351, 30326124, 23248080, 19472126, 11879129, 22529265, and 24552317. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. No topic was rejected for lack of a verifiable numeric result.",
-    "legacy_sentence_edits": 0,
+    "build": "5712 entries; 8073 refs; 4891 trial; 727 obs; 30 animal; 17 lab; 47 case; 668 numeric comparison entries; worklist 14962/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 12360457, 32393099, 33434956, 36084276, 10793106, 34774221, 24385534, 34642179, 30975196, 26014092, 18405787, 21783417, 17452677, 35985780, 19537837, 18258423, 31015757, 39376062, 22419289, 2115976, 32203691, 7970014, 15302476, 37924855, 25919527, 27116918, 20824837, 38436495, and 30097390. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. No topic was rejected for lack of a verifiable numeric result.",
+    "legacy_sentence_edits": 3,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 2,
+    "targeted_batch_warnings_fixed": 3,
+    "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1261",
-    "worklist_line": 8805,
-    "topic": "budesonide — Colitis",
-    "unchecked": 610
+    "next_batch": "1262",
+    "worklist_line": 8890,
+    "topic": "doxepin — Insomnia",
+    "unchecked": 580
   }
 }
