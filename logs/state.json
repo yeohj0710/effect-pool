@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6062,
-  "subjects": 2323,
-  "refs": 8425,
+  "entries": 6092,
+  "subjects": 2334,
+  "refs": 8455,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2618
+    "rx": 2648
   },
   "tiers": {
-    "trial": 5239,
+    "trial": 5269,
     "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3660,
-    "null": 1201,
+    "pos": 3682,
+    "null": 1208,
     "open": 1038,
-    "harm": 163
+    "harm": 164
   },
   "worklist": {
     "total": 15542,
-    "checked": 15382,
-    "unchecked": 160,
+    "checked": 15412,
+    "unchecked": 130,
     "no_evidence_pending": 2058,
-    "note": "Batch 1275 checked 30 unique prescription topics from worklist lines 14286-15853. New evidence entries: 28; existing links: 2; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
+    "note": "Batch 1276 checked 30 unique prescription topics from worklist lines 15856-16284. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.7% (951 entries)",
-    "rx_share": "43.2% (2,618 entries)",
-    "no_effect_or_harm_share": "22.5% (1,364 entries)",
-    "vs_share": "16.8% (1,018 entries)",
+    "over_counter_share": "15.6% (951 entries)",
+    "rx_share": "43.5% (2,648 entries)",
+    "no_effect_or_harm_share": "22.5% (1,372 entries)",
+    "vs_share": "17.2% (1,048 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.4% (5,239 entries)",
-    "non_trial_share": "13.6% (823 entries)",
+    "trial_share": "86.5% (5,269 entries)",
+    "non_trial_share": "13.5% (823 entries)",
     "build_warnings": {
       "unknown_n": 743,
-      "thin_study": 1192,
+      "thin_study": 1201,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1276 starts after batch 1275. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 15856: maraviroc — AIDS에 듣는다. 160 unchecked rows remain.",
+  "next": "Batch 1277 starts after batch 1276. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 16344: ceftobiprole — Pneumonia에 듣는다. 130 unchecked rows remain.",
   "last_batch": {
-    "id": "1275",
-    "commit": "0af38314",
+    "id": "1276",
+    "commit": "33a0089a",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 28,
-    "existing_links": 2,
+    "new_entries": 30,
+    "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6062 entries; 8425 refs; 5239 trial; 728 obs; 31 animal; 17 lab; 47 case; 1018 numeric comparison entries; worklist 15382/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 30510080, 38461841, 35429480, 20647200, 21795446, 23060426, 23152839, 24013058, 16316359, 20016142, 38493933, 33077895, 32757523, 26784000, 37921461, 28097356, 29113731, 34032663, 31340089, 33732977, 33913637, 33596356, 28093483, 17617272, 17617270, and 17617271. Existing links reused remimazolam-sedation-null for Endoscopy and the new darunavir-aids-virus-pos entry for AIDS. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "build": "6092 entries; 8455 refs; 5269 trial; 728 obs; 31 animal; 17 lab; 47 case; 1048 numeric comparison entries; worklist 15412/15542",
+    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 32040959, 32130809, 36053506, 11089822, 21626284, 8918275, 2572323, 2195006, 39389071, 19420195, 33058795, 33058798, 36041016, 18990531, 23145952, 32891418, 31988972, 12560782, 12501873, 29378708, 28691557, 34706967, 39292927, and 34279598. The ZeNIX PMID36053506 result was reused for bedaquiline MDR-TB and pretomanid XDR-TB, the APEKS-NP PMID33058798 result for cefiderocol nosocomial infection and ventilator-associated pneumonia, the PMID32891418 result for three pitavastatin dyslipidemia topics, the PMID12560782 result for ertapenem infections and appendicitis, and the PMID34706967 result for belatacept renal transplant and graft rejection. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 5,
+    "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 2,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1276",
-    "worklist_line": 15856,
-    "topic": "maraviroc — AIDS에 듣는다",
-    "unchecked": 160
+    "next_batch": "1277",
+    "worklist_line": 16344,
+    "topic": "ceftobiprole — Pneumonia에 듣는다",
+    "unchecked": 130
   }
 }
