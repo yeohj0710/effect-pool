@@ -6412,8 +6412,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] paroxetine — Anxiety Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 26건 --> — 기존 항목(paroxetine-anxiety-disorder-pos)
 - [x] paroxetine — Posttraumatic Stress Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 --> — 기존 항목(paroxetine-ptsd-pos)
 - [x] paroxetine — Panic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 14건 --> — 기존 항목(paroxetine-panic-disorder-pos)
-- [ ] escitalopram — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 112건 -->
-- [ ] escitalopram — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 37건 -->
+- [x] escitalopram — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 112건 --> — 기존 항목(escitalopram-depression-pos)
+- [x] escitalopram — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 37건 --> — 기존 항목(escitalopram-anxiety-pos)
 - [x] escitalopram — Cancer에 듣는다 — 기존 항목(escitalopram-cancer-pos)  <!-- 등록 시험 14건 -->
 - [x] escitalopram — Insomnia에 듣는다 — 기존 항목(escitalopram-insomnia-open)  <!-- 등록 시험 7건 -->
 - [x] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — ?? ??(fluoxetine-depressive-disorder-pos)
@@ -6871,7 +6871,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 44건 · 논문 1785편 -->
 - [x] rifaximin — Hepatic Cirrhosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 40건 · 논문 570편 -->
 - [x] rifaximin — Small Bowel Disease에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 28건 · 논문 114편 -->
-- [ ] rifaximin — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 482편 -->
+- [x] rifaximin — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 482편 --> — 기존 항목(rifaximin-diarrhea-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -6951,7 +6951,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ivermectin — Covid19에 듣는다  <!-- 시험 39건 · 논문 789편 --> — 이미 수록됨(2026-08-05)
 - [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 시험 29건 · 논문 271편 --> — 이미 수록됨(2026-08-05)
 - [x] ivermectin — Scabies에 듣는다  <!-- 시험 19건 · 논문 868편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ivermectin-scabies)
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 시험 18건 · 논문 655편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ivermectin-lymphatic-filariasis)
 - [x] hydroxychloroquine — Cancer에 듣는다  <!-- 시험 112건 · 논문 1113편 --> — 이미 수록됨(2026-08-05)
 - [x] hydroxychloroquine — Coronavirus에 듣는다  <!-- 시험 74건 · 논문 3196편 --> — 이미 수록됨(2026-08-05)
 - [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 시험 42건 · 논문 137편 --> — 이미 수록됨(2026-08-05)
@@ -7108,8 +7108,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fluvoxamine — COVID-19에 듣는다  <!-- 시험 8건 · 논문 195편 --> — 이미 수록됨(2026-08-05)
 - [x] fluvoxamine — Anxiety Disorders에 듣는다  <!-- 시험 7건 · 논문 691편 --> — 이미 수록됨(2026-08-05)
 - [x] fluvoxamine — Covid19에 듣는다  <!-- 시험 6건 · 논문 190편 --> — 이미 수록됨(2026-08-05)
-- [ ] escitalopram — Depression에 듣는다  <!-- 시험 112건 · 논문 2549편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] escitalopram — Anxiety에 듣는다  <!-- 시험 37건 · 논문 887편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] escitalopram — Depression에 듣는다  <!-- 시험 112건 · 논문 2549편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(escitalopram-depression-pos)
+- [x] escitalopram — Anxiety에 듣는다  <!-- 시험 37건 · 논문 887편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(escitalopram-anxiety-pos)
 - [x] escitalopram — Cancer에 듣는다  <!-- 시험 14건 · 논문 134편 --> — 이미 수록됨(2026-08-05)
 - [x] escitalopram — Insomnia에 듣는다  <!-- 시험 7건 · 논문 117편 --> — 이미 수록됨(2026-08-05)
 - [x] ziprasidone — Bipolar Mania에 듣는다  <!-- 시험 37건 · 논문 139편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(ziprasidone-bipolar-mania-pos)
@@ -7165,11 +7165,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] warfarin — Thromboembolism에 듣는다  <!-- 시험 70건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-thromboembolism-pos)
-- [ ] warfarin — Heart Defect에 듣는다  <!-- 시험 49건 · 논문 364편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] warfarin — Heart Defect에 듣는다  <!-- 시험 49건 · 논문 364편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(warfarin-heart-defect-open)
 - [x] warfarin — Embolism에 듣는다  <!-- 시험 47건 · 논문 5435편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-embolism-pos)
 - [x] warfarin — Thrombosis에 듣는다  <!-- 시험 41건 · 논문 9143편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-thrombosis-null)
-- [ ] clopidogrel — Stroke에 듣는다  <!-- 시험 72건 · 논문 4606편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 시험 69건 · 논문 460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] clopidogrel — Stroke에 듣는다  <!-- 시험 72건 · 논문 4606편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(clopidogrel-stroke-open)
+- [x] clopidogrel — Brain Infarction에 듣는다  <!-- 시험 69건 · 논문 460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(clopidogrel-stroke-open)
 - [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 시험 22건 · 논문 960편 --> — 이미 수록됨(2026-08-05)
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 시험 20건 · 논문 6343편 --> — 이미 수록됨(2026-08-05)
 - [x] metoprolol — Heart Rate에 듣는다  <!-- 시험 38건 · 논문 2384편 --> — 이미 수록됨(2026-08-05)
@@ -7202,18 +7202,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] levothyroxine — Thyroid에 듣는다  <!-- 시험 27건 · 논문 46065편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] levothyroxine — Thyroid에 듣는다  <!-- 시험 27건 · 논문 46065편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(levothyroxine-subclinical-hypothyroidism-null)
 - [x] levothyroxine — Pregnancy에 듣는다  <!-- 시험 8건 · 논문 6467편 -->
 - [x] levothyroxine — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 745편 -->
 - [x] levothyroxine — Subclinical hypothyroïdism에 듣는다  <!-- 시험 4건 · 논문 3112편 -->
-- [ ] amoxicillin — Pneumonia에 듣는다  <!-- 시험 36건 · 논문 3637편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] amoxicillin — Infections에 듣는다  <!-- 시험 22건 · 논문 19631편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amoxicillin — Pneumonia에 듣는다  <!-- 시험 36건 · 논문 3637편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(amoxicillin-pneumonia-null)
+- [x] amoxicillin — Infections에 듣는다  <!-- 시험 22건 · 논문 19631편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(amoxicillin-antibiotic-null)
 - [x] amoxicillin — Periodontitis에 듣는다  <!-- 시험 21건 · 논문 866편 -->
 - [x] azithromycin — Infection에 듣는다  <!-- 시험 46건 · 논문 11046편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(azithromycin-infection-null)
 - [x] azithromycin — Pneumonia에 듣는다  <!-- 시험 45건 · 논문 3283편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(azithromycin-pneumonia-pos)
 - [x] azithromycin — Malaria에 듣는다  <!-- 시험 29건 · 논문 335편 -->
 - [x] ketorolac — Knee Injuries에 듣는다  <!-- 시험 38건 · 논문 15편 -->
-- [ ] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(ketorolac-cataract-null)
 - [x] ketorolac — Renal Colic에 듣는다  <!-- 시험 16건 · 논문 83편 -->
 - [x] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ????? ??? ? ?? ??)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 시험 15건 · 논문 339편 --> — 이미 수록됨(2026-08-05)
@@ -7906,15 +7906,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Peripheral Arterial Disease에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-pos)(2026-08-05)  <!-- 시험 14건 · 논문 1131편 -->
 - [x] aspirin — Atherosclerosis에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-pos)(2026-08-05)  <!-- 시험 13건 · 논문 2623편 -->
 - [x] aspirin — Platelet Function에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 13건 · 논문 12314편 -->
-- [ ] propranolol — Hemangioma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 1776편 -->
+- [x] propranolol — Hemangioma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 1776편 --> — 기존 항목(propranolol-infantile-hemangioma)
 - [x] propranolol — Self-injury에 듣는다  <!-- 시험 18건 · 논문 79편 -->
 - [x] propranolol — Esophageal Varices에 듣는다  <!-- 시험 18건 · 논문 541편 -->
-- [ ] propranolol — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 17건 · 논문 5273편 -->
+- [x] propranolol — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 17건 · 논문 5273편 --> — 새 항목(propranolol-hypertension-null)
 - [x] naltrexone — HIV에 듣는다  <!-- 시험 18건 · 논문 220편 -->
 - [x] naltrexone — Binge Eating에 듣는다  <!-- 시험 18건 · 논문 89편 -->
 - [x] naltrexone — Smoking에 듣는다  <!-- 시험 14건 · 논문 214편 -->
 - [x] naltrexone — Depression에 듣는다  <!-- 시험 11건 · 논문 758편 -->
-- [ ] gabapentin — Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1391편 -->
+- [x] gabapentin — Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1391편 --> — 새 항목(gabapentin-neuralgia-pos)
 - [x] gabapentin — Hot Flashes에 듣는다  <!-- 시험 14건 · 논문 187편 -->
 - [x] gabapentin — Insomnia에 듣는다  <!-- 시험 12건 · 논문 139편 -->
 - [x] amitriptyline — Peripheral Neuropathy에 듣는다  <!-- 시험 4건 · 논문 611편 -->
@@ -7922,23 +7922,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Interstitial Cystitis에 듣는다  <!-- 시험 3건 · 논문 82편 -->
 - [x] amitriptyline — Laryngeal Diseases에 듣는다  <!-- 시험 3건 · 논문 13편 -->
 - [x] topiramate — Diabetes에 듣는다  <!-- 시험 16건 · 논문 376편 -->
-- [ ] topiramate — Headache에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 955편 -->
+- [x] topiramate — Headache에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 955편 --> — 기존 항목(topiramate-migraine-prevention)
 - [x] topiramate — Bipolar Disorder에 듣는다  <!-- 시험 13건 · 논문 302편 -->
 - [x] topiramate — Alcoholism에 듣는다 — 기존 항목(topiramate-alcohol-abuse)(2026-08-05)  <!-- 시험 12건 · 논문 271편 -->
 - [x] trazodone — Mild Cognitive Impairment에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 35편 -->
 - [x] trazodone — Wounds and Injury에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 39편 -->
 - [x] trazodone — Pain에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 3건 · 논문 161편 -->
 - [x] trazodone — Bioavailability에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 3건 · 논문 22편 -->
-- [ ] quetiapine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 1579편 -->
-- [ ] quetiapine — Psychotic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 998편 -->
+- [x] quetiapine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 1579편 --> — 기존 항목(quetiapine-major-depression-pos)
+- [x] quetiapine — Psychotic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 998편 --> — 기존 항목(quetiapine-schizoaffective-null)
 - [x] quetiapine — Delirium에 듣는다  <!-- 시험 16건 · 논문 285편 -->
 - [x] quetiapine — Alcohol Abuse에 듣는다  <!-- 시험 15건 · 논문 116편 -->
 - [x] spironolactone — Diabetes에 듣는다  <!-- 시험 11건 · 논문 962편 -->
 - [x] spironolactone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 9건 · 논문 238편 -->
-- [ ] spironolactone — Aldosteronism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 4291편 -->
+- [x] spironolactone — Aldosteronism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 4291편 --> — 새 항목(spironolactone-aldosteronism-open)
 - [x] spironolactone — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 199편 -->
-- [ ] doxycycline — Lyme Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 848편 -->
-- [ ] doxycycline — Chlamydia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1187편 -->
+- [x] doxycycline — Lyme Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 848편 --> — 새 항목(doxycycline-lyme-disease-open)
+- [x] doxycycline — Chlamydia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1187편 --> — 새 항목(doxycycline-chlamydia-open)
 - [ ] doxycycline — Erythema Migrans에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 247편 -->
 - [ ] doxycycline — Sexually Transmitted Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1515편 -->
 - [x] colchicine — Heart Attack에 듣는다 — 기존 항목(colchicine-post-mi-null)(2026-08-05)  <!-- 시험 19건 · 논문 520편 -->

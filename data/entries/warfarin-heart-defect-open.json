@@ -1,0 +1,30 @@
+{
+  "id": "warfarin-heart-defect-open",
+  "subj": "와파린",
+  "claim": "판막성 심장질환을 동반한 심방세동에서 와파린과 직접경구항응고제의 효과 차이는 확정적이지 않다",
+  "line": "판막성 심장질환을 동반한 심방세동에서 직접경구항응고제와 와파린의 효과 차이는 확정적이지 않았습니다.",
+  "effect": "뇌졸중·전신색전 RR 0.78",
+  "vs": "판막성 심장질환을 동반한 심방세동 RCT 메타분석 6건, 13,850명에서 직접경구항응고제는 와파린보다 뇌졸중·전신색전 RR 0.78(95% CI 0.66~0.91), 두개내출혈 RR 0.51(0.33~0.79), 주요출혈 RR 0.77(0.58~1.02)였습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 13850,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "판막성 심방세동의 혈전색전 예방에 사용하는 항응고제입니다.",
+  "why": "판막성 심장질환을 동반한 심방세동 환자에서 직접경구항응고제와 와파린을 비교한 무작위시험 메타분석입니다.",
+  "saw": "직접경구항응고제군은 와파린군보다 뇌졸중·전신색전과 두개내출혈이 적었고, 주요출혈 차이는 통계적으로 확정되지 않았습니다.",
+  "limit": "기계판막과 중증 승모판협착 환자가 일부 원시험에서 제외됐고, 판막질환 유형별 결과가 다를 수 있습니다.",
+  "against": "관찰자료에서는 직접경구항응고제가 와파린보다 혈전색전은 많고 주요출혈은 적게 나타난 결과도 있어 무작위 근거와 구분해야 합니다.",
+  "use": "심장 판막질환을 동반한 심방세동에서 와파린과 대체 항응고제의 상대효과와 적용 범위를 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "Romoli 2019 · Journal of the American Heart Association · 판막성 심장질환 심방세동 항응고제 메타분석", "pmid": "31055767" },
+    { "label": "Renda 2017 · Circulation · 판막성 심장질환 심방세동 DOAC 대 와파린 메타분석", "pmid": "28720644" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=warfarin&query.cond=Heart Defect → 2건 반환, InterventionName에 warfarin 포함 1건",
+    "pubmed": "warfarin AND (heart defect OR congenital heart disease OR valvular heart disease) → 1,720건",
+    "negative": "warfarin AND (heart defect OR congenital heart disease OR valvular heart disease) AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,003건",
+    "safety": "warfarin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 18,003건"
+  }
+}

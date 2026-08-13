@@ -1,0 +1,29 @@
+{
+  "id": "gabapentin-neuralgia-pos",
+  "subj": "가바펜틴",
+  "claim": "대상포진후 신경통에서 가바펜틴이 위약보다 통증 완화율을 높인다",
+  "line": "대상포진후 신경통에서 가바펜틴은 위약보다 통증 완화율을 높였습니다.",
+  "effect": "통증 완화 RR 1.8",
+  "vs": "신경병증성 통증 메타분석 8개 연구 2,260명에서 가바펜틴 1,200mg 이상군의 50% 이상 통증 완화는 32%, 위약은 17%였고 RR은 1.8(95% CI 1.5~2.1), NNT는 6.7이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2260,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "대상포진후 신경통을 포함한 신경병증성 통증에 사용하는 약입니다.",
+  "why": "대상포진후 신경통을 포함한 신경병증성 통증의 무작위 이중맹검시험을 종합해 가바펜틴과 위약의 통증 완화를 비교한 메타분석입니다.",
+  "saw": "가바펜틴군에서 50% 이상 통증 완화와 중등도 통증 완화가 위약군보다 많았습니다.",
+  "limit": "대상포진후 신경통과 당뇨병성 신경병증에 근거가 집중됐고 모든 신경통에 같은 효과를 적용할 수 없습니다.",
+  "against": "가바펜틴은 어지럼, 졸림, 말초부종과 중단을 늘렸고 치료받은 사람 절반 이상은 의미 있는 통증 완화에 도달하지 못했습니다.",
+  "use": "대상포진후 신경통에서 기대할 수 있는 통증 완화율과 이상반응을 함께 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "Finnerup 2015 · The Lancet Neurology · 성인 신경병증성 통증 약물치료 메타분석", "pmid": "25575710" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=gabapentin&query.cond=Neuralgia → 59건 반환, InterventionName에 gabapentin 포함 41건",
+    "pubmed": "gabapentin AND neuralgia → 1,392건",
+    "negative": "gabapentin AND neuralgia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,021건",
+    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,451건"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "doxycycline-chlamydia-open",
+  "subj": "독시사이클린",
+  "claim": "고위험군에서 독시사이클린 노출 후 예방은 클라미디아 발생을 줄일 수 있지만 여성 결과는 불확실하다",
+  "line": "고위험군에서 독시사이클린 예방은 클라미디아를 줄였지만 여성 결과는 불확실했습니다.",
+  "effect": "클라미디아 RR 0.19",
+  "vs": "무작위시험 메타분석 1,766명에서 남성·트랜스젠더 여성의 독시사이클린 노출 후 예방은 클라미디아 RR 0.19(95% CI 0.08~0.44)였지만, 케냐 여성시험에서는 RR 0.73(0.47~1.13)이었습니다.",
+  "tier": "trial",
+  "dir": "open",
+  "n": 1766,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "성매개감염 예방에 대한 사용은 집단과 노출 상황에 따라 별도 근거가 필요합니다.",
+  "why": "성매개감염 고위험군을 대상으로 독시사이클린 노출 후 예방과 표준관리를 비교한 무작위시험과 메타분석입니다.",
+  "saw": "남성·트랜스젠더 여성 시험에서는 클라미디아 발생이 크게 줄었지만, 케냐 여성시험에서는 통계적으로 유의한 차이가 없었습니다.",
+  "limit": "효과가 확인된 집단과 여성 시험의 결과가 달랐고 항생제 내성·장내미생물 영향·임신 가능성을 함께 고려해야 합니다.",
+  "against": "여성 무작위시험의 클라미디아 RR 신뢰구간이 효과 없음과 일치했고, 모든 사람에게 예방요법을 일반화할 수 없습니다.",
+  "use": "독시사이클린 예방요법의 집단별 클라미디아 효과와 불확실성을 함께 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "Luetkemeyer 2023 · New England Journal of Medicine · 성매개감염 독시사이클린 노출 후 예방 무작위시험", "pmid": "37018493" },
+    { "label": "Sana 2024 · Sexually Transmitted Infections · 독시사이클린 예방 메타분석", "pmid": "39122208" },
+    { "label": "Stewart 2023 · New England Journal of Medicine · 케냐 여성 독시사이클린 예방시험", "pmid": "38118022" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=doxycycline&query.cond=Chlamydia → 25건 반환, InterventionName에 doxycycline 포함 21건",
+    "pubmed": "doxycycline AND chlamydia → 1,190건",
+    "negative": "doxycycline AND chlamydia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 707건",
+    "safety": "doxycycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 7,551건"
+  }
+}
