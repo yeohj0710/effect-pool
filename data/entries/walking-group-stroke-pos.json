@@ -1,20 +1,34 @@
 {
-  "id": "walking-group-stroke-pos",
-  "subj": "walking group",
-  "claim": "만성 뇌졸중 환자의 걷기·걸음 피드백이 하루 걸음 수를 늘렸다",
-  "line": "뇌졸중 후 걸음 피드백은 하루 걸음 수를 늘렸습니다",
-  "effect": "하루 걸음 수 +1542보",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 250,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "걷기 모임은 뇌졸중 재활의 허가 적응증이 아니다",
-  "why": "만성 뇌졸중 환자에게 고강도 걷기와 걸음 모니터링을 비교한 다기관 무작위시험이다.",
-  "saw": "환자 250명을 12주 배정했다. 걸음 모니터링과 목표 설정군은 하루 걸음 수가 1542보 늘었고, 걷기와 모니터링 병합군은 1307보 늘었다.",
-  "limit": "보조 없이 걷는 만성 뇌졸중 환자만 포함해 중증 환자에게 일반화할 수 없다.",
-  "against": "고강도 걷기만 한 군은 걸음 수가 유의하게 늘지 않았다.",
-  "use": "뇌졸중 뒤 걷기 모임에 걸음 피드백과 목표 설정을 더할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Moore 2024 · Stroke · 무작위시험", "doi": "10.1161/STROKEAHA.123.044596", "pmid": "38134254", "nct": "NCT02835313" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=walking group, cond=Stroke · 413건", "pubmed": "walking group AND Stroke · 3722편", "negative": "walking group AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 2673편", "safety": "walking group AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 5128편" }
+ "id": "walking-group-stroke-pos",
+ "subj": "걷기 모임",
+ "claim": "만성 뇌졸중 환자의 걷기·걸음 피드백이 하루 걸음 수를 늘렸다",
+ "line": "뇌졸중 후 걸음 피드백은 하루 걸음 수를 늘렸습니다",
+ "effect": "하루 걸음 수 +1542보",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 250,
+ "vs": "하루 걸음 수 +1542 vs +1307보 (걸음 모니터링·목표 vs 걷기·모니터링)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "걷기 모임은 뇌졸중 재활의 허가 적응증이 아니다",
+ "why": "만성 뇌졸중 환자에게 고강도 걷기와 걸음 모니터링을 비교한 다기관 무작위시험이다.",
+ "saw": "환자 250명을 12주 배정했다. 걸음 모니터링과 목표 설정군은 하루 걸음 수가 1542보 늘었고, 걷기와 모니터링 병합군은 1307보 늘었다.",
+ "limit": "보조 없이 걷는 만성 뇌졸중 환자만 포함해 중증 환자에게 일반화할 수 없다.",
+ "against": "고강도 걷기만 한 군은 걸음 수가 유의하게 늘지 않았다.",
+ "use": "뇌졸중 뒤 걷기 모임에 걸음 피드백과 목표 설정을 더할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Moore 2024 · Stroke · 무작위시험",
+   "doi": "10.1161/STROKEAHA.123.044596",
+   "pmid": "38134254",
+   "nct": "NCT02835313"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=walking group, cond=Stroke · 413건",
+  "pubmed": "walking group AND Stroke · 3722편",
+  "negative": "walking group AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 2673편",
+  "safety": "walking group AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 5128편"
+ }
 }

@@ -1,28 +1,33 @@
 {
-  "id": "vitamin-b1-chronic-pain-pos",
-  "subj": "vitamin B1",
-  "claim": "만성 요통에서 B1·B6·B12 주사 보조요법은 NSAID 단독보다 28일 통증 반응을 높였다.",
-  "line": "만성 요통에서 B1·B6·B12 주사 보조요법은 NSAID 단독보다 통증 반응을 높였다.",
-  "effect": "NRS 30% 반응 84% 대 64%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 163,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "만성 요통 치료 적응증으로 허가된 비타민 B1이 아님",
-  "why": "만성 기계적 요통에서 B군 비타민 주사 보조요법이 표준 치료의 통증 반응을 높이는지 평가했다.",
-  "saw": "페루 6개 기관의 무작위 이중눈가림 3상 시험에서 B1·B6·B12 주사와 NSAID를 병용했다.",
-  "limit": "B1 단독 효과를 분리할 수 없고 NSAID와 병용했으며 추적기간은 28일이었다.",
-  "against": "치료군에서 이상반응이 더 많았지만 중대한 이상반응 차이는 없었다.",
-  "use": "만성 요통에서 B군 복합 주사와 NSAID를 함께 쓰는 단기 보조요법의 근거로 사용한다.",
-  "refs": [
-    { "label": "만성 요통 B군 주사 무작위 임상시험", "doi": "10.1016/j.medcli.2025.107307", "pmid": "41604864" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "vitamin B1 AND Chronic Pain · 8건",
-    "pubmed": "thiamine AND chronic pain · 60건",
-    "negative": "thiamine AND chronic pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 36건",
-    "safety": "thiamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2504건"
+ "id": "vitamin-b1-chronic-pain-pos",
+ "subj": "비타민 B1",
+ "claim": "만성 요통에서 B1·B6·B12 주사 보조요법은 NSAID 단독보다 28일 통증 반응을 높였다.",
+ "line": "만성 요통에서 B1·B6·B12 주사 보조요법은 NSAID 단독보다 통증 반응을 높였다.",
+ "effect": "NRS 30% 반응 84% 대 64%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 163,
+ "vs": "NRS 30% 반응 84% vs 64% (B1·B6·B12+NSAID vs NSAID)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "만성 요통 치료 적응증으로 허가된 비타민 B1이 아님",
+ "why": "만성 기계적 요통에서 B군 비타민 주사 보조요법이 표준 치료의 통증 반응을 높이는지 평가했다.",
+ "saw": "페루 6개 기관의 무작위 이중눈가림 3상 시험에서 B1·B6·B12 주사와 NSAID를 병용했다.",
+ "limit": "B1 단독 효과를 분리할 수 없고 NSAID와 병용했으며 추적기간은 28일이었다.",
+ "against": "치료군에서 이상반응이 더 많았지만 중대한 이상반응 차이는 없었다.",
+ "use": "만성 요통에서 B군 복합 주사와 NSAID를 함께 쓰는 단기 보조요법의 근거로 사용한다.",
+ "refs": [
+  {
+   "label": "만성 요통 B군 주사 무작위 임상시험",
+   "doi": "10.1016/j.medcli.2025.107307",
+   "pmid": "41604864"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "vitamin B1 AND Chronic Pain · 8건",
+  "pubmed": "thiamine AND chronic pain · 60건",
+  "negative": "thiamine AND chronic pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 36건",
+  "safety": "thiamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2504건"
+ }
 }

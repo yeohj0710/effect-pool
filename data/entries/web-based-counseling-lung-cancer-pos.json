@@ -1,28 +1,33 @@
 {
-  "id": "web-based-counseling-lung-cancer-pos",
-  "subj": "web-based counseling",
-  "claim": "웹 기반 수용전념치료 상담이 폐암 환자의 삶의 질과 불안·우울을 개선한다",
-  "line": "폐암 대상 웹 상담은 삶의 질과 불안, 우울을 개선했습니다",
-  "effect": "삶의 질 MD 15.10, 우울 MD -2.11",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 101,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "웹 기반 수용전념치료는 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "폐암 환자 101명을 usual care와 7주 웹 기반 수용전념치료에 무작위 배정한 시험에서 삶의 질과 심리 지표를 비교했다.",
-  "saw": "중재군은 대조군보다 삶의 질이 15.10점 높았고, 불안은 MD -1.27, 우울은 MD -2.11, 수면장애는 MD -1.85였다. 중도탈락률은 13.86%였다.",
-  "limit": "단일 병원의 실행 가능성 시험이며, 피로 개선은 통계적으로 유의하지 않았다.",
-  "against": "피로는 대조군과 유의한 차이가 없었다(MD -2.02, 95% 신뢰구간 -9.02~4.98).",
-  "use": "폐암 환자의 심리 증상과 삶의 질을 다루는 상담에 웹 기반 수용전념치료를 보조 수단으로 검토한다.",
-  "refs": [
-    { "label": "Web-Based Acceptance and Commitment Therapy in Lung Cancer 2025 · Psycho-Oncology", "doi": "10.1002/pon.70045", "pmid": "39681977" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=web-based counseling AND condition=Lung Cancer; 6건 반환, 중재명 일치 0건",
-    "pubmed": "web-based counseling AND Lung Cancer; 23건",
-    "negative": "web-based counseling AND Lung Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 19건",
-    "safety": "web-based counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 5건"
+ "id": "web-based-counseling-lung-cancer-pos",
+ "subj": "웹 상담",
+ "claim": "웹 기반 수용전념치료 상담이 폐암 환자의 삶의 질과 불안·우울을 개선한다",
+ "line": "폐암 대상 웹 상담은 삶의 질과 불안, 우울을 개선했습니다",
+ "effect": "삶의 질 MD 15.10, 우울 MD -2.11",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 101,
+ "vs": "삶의 질 MD +15.10, 불안 MD -1.27, 우울 MD -2.11, 수면장애 MD -1.85 (웹 상담 vs 대조)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "웹 기반 수용전념치료는 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "폐암 환자 101명을 usual care와 7주 웹 기반 수용전념치료에 무작위 배정한 시험에서 삶의 질과 심리 지표를 비교했다.",
+ "saw": "중재군은 대조군보다 삶의 질이 15.10점 높았고, 불안은 MD -1.27, 우울은 MD -2.11, 수면장애는 MD -1.85였다. 중도탈락률은 13.86%였다.",
+ "limit": "단일 병원의 실행 가능성 시험이며, 피로 개선은 통계적으로 유의하지 않았다.",
+ "against": "피로는 대조군과 유의한 차이가 없었다(MD -2.02, 95% 신뢰구간 -9.02~4.98).",
+ "use": "폐암 환자의 심리 증상과 삶의 질을 다루는 상담에 웹 기반 수용전념치료를 보조 수단으로 검토한다.",
+ "refs": [
+  {
+   "label": "Web-Based Acceptance and Commitment Therapy in Lung Cancer 2025 · Psycho-Oncology",
+   "doi": "10.1002/pon.70045",
+   "pmid": "39681977"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=web-based counseling AND condition=Lung Cancer; 6건 반환, 중재명 일치 0건",
+  "pubmed": "web-based counseling AND Lung Cancer; 23건",
+  "negative": "web-based counseling AND Lung Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 19건",
+  "safety": "web-based counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 5건"
+ }
 }

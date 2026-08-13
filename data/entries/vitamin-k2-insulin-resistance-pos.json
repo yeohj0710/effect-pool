@@ -1,29 +1,40 @@
 {
-  "id": "vitamin-k2-insulin-resistance-pos",
-  "subj": "vitamin k2",
-  "claim": "비타민 K 무작위시험 8건의 메타분석에서 공복혈당, 당화혈색소, HOMA-IR이 감소했지만 연구 수와 질이 제한적이었다.",
-  "line": "비타민 K는 혈당과 인슐린 저항성을 낮췄지만 근거가 제한적이다.",
-  "effect": "FBG·HbA1c·HOMA-IR 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비타민 K2는 보충제이며 인슐린 저항성 치료의 허가 적응증이 아니다.",
-  "why": "당뇨병 전단계와 제2형 당뇨병 환자를 포함한 무작위시험을 합쳐 비타민 K가 혈당 지표에 미치는 효과를 평가했다.",
-  "saw": "8개 무작위시험의 메타분석에서 공복혈당 SMD는 −0.22, HbA1c 평균차는 −1.00%, HOMA-IR 평균차는 −0.63이었다. 저용량 K2는 HbA1c, K1은 HOMA-IR 감소와 연관됐다.",
-  "limit": "총 대상자 수가 초록에 제시되지 않았고 포함 시험 수가 8건이며 연구 질이 중간 수준이다.",
-  "against": "인슐린과 HOMA-β는 유의하게 변하지 않았고 비타민 K의 종류와 용량이 시험마다 달랐다.",
-  "use": "인슐린 저항성에서 비타민 K2를 확정 치료가 아닌 추가 연구 후보로 설명할 때 사용한다.",
-  "refs": [
-    { "label": "당뇨병 전단계·제2형 당뇨병 비타민 K 무작위시험 메타분석", "doi": "10.3390/nu18020269", "pmid": "41599883", "pmc": "PMC12845305" },
-    { "label": "비타민 K 심혈관 위험 표지 메타분석", "doi": "10.1017/jns.2023.106", "pmid": "38282652", "pmc": "PMC10808880" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "vitamin k2 AND Insulin Resistance · 5건",
-    "pubmed": "vitamin k2 AND Insulin Resistance · 37건",
-    "negative": "vitamin k2 AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3056건",
-    "safety": "vitamin k2 AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 323건"
+ "id": "vitamin-k2-insulin-resistance-pos",
+ "subj": "비타민 K2",
+ "claim": "비타민 K 무작위시험 8건의 메타분석에서 공복혈당, 당화혈색소, HOMA-IR이 감소했지만 연구 수와 질이 제한적이었다.",
+ "line": "비타민 K는 혈당과 인슐린 저항성을 낮췄지만 근거가 제한적이다.",
+ "effect": "FBG·HbA1c·HOMA-IR 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "vs": "공복혈당 SMD -0.22, HbA1c MD -1.00%p, HOMA-IR MD -0.63 (비타민 K 보충 vs 대조)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비타민 K2는 보충제이며 인슐린 저항성 치료의 허가 적응증이 아니다.",
+ "why": "당뇨병 전단계와 제2형 당뇨병 환자를 포함한 무작위시험을 합쳐 비타민 K가 혈당 지표에 미치는 효과를 평가했다.",
+ "saw": "8개 무작위시험의 메타분석에서 공복혈당 SMD는 −0.22, HbA1c 평균차는 −1.00%, HOMA-IR 평균차는 −0.63이었다. 저용량 K2는 HbA1c, K1은 HOMA-IR 감소와 연관됐다.",
+ "limit": "총 대상자 수가 초록에 제시되지 않았고 포함 시험 수가 8건이며 연구 질이 중간 수준이다.",
+ "against": "인슐린과 HOMA-β는 유의하게 변하지 않았고 비타민 K의 종류와 용량이 시험마다 달랐다.",
+ "use": "인슐린 저항성에서 비타민 K2를 확정 치료가 아닌 추가 연구 후보로 설명할 때 사용한다.",
+ "refs": [
+  {
+   "label": "당뇨병 전단계·제2형 당뇨병 비타민 K 무작위시험 메타분석",
+   "doi": "10.3390/nu18020269",
+   "pmid": "41599883",
+   "pmc": "PMC12845305"
+  },
+  {
+   "label": "비타민 K 심혈관 위험 표지 메타분석",
+   "doi": "10.1017/jns.2023.106",
+   "pmid": "38282652",
+   "pmc": "PMC10808880"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "vitamin k2 AND Insulin Resistance · 5건",
+  "pubmed": "vitamin k2 AND Insulin Resistance · 37건",
+  "negative": "vitamin k2 AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3056건",
+  "safety": "vitamin k2 AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 323건"
+ }
 }

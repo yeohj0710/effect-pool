@@ -1,29 +1,35 @@
 {
-  "id": "vocational-rehabilitation-schizophrenia-pos",
-  "subj": "vocational rehabilitation",
-  "claim": "직업재활을 조현병 인지·음성 증상에 쓴다",
-  "line": "조현병 직업재활은 인지와 음성 증상, 삶의 질을 개선했습니다",
-  "effect": "인지·음성 증상·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 112,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활이라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "관해 상태 조현병 환자 112명을 직업재활 즉시 참여군 57명과 대기군 55명으로 나눈 6개월 무작위 위약대조시험에서 인지기능·음성 증상·삶의 질이 개선됐습니다.",
-  "saw": "직업재활군은 실행기능·개념 형성·전환·억제조절·판단 관련 인지검사와 음성 증상, 삶의 질에서 대조군보다 유의하게 좋아졌습니다.",
-  "limit": "단일 6개월 시험이고 직업재활 프로그램 참여를 원한 안정된 관해 환자라 급성기나 비선택 환자에게 일반화하기 어렵습니다.",
-  "against": "11개 무작위시험 고찰에서도 지원고용·개별배치군의 경쟁고용률은 일반 직업재활보다 높았지만 연구 수는 적었습니다.",
-  "use": "조현병 재활에서 취업 지원과 인지·음성 증상 회복을 함께 목표로 잡을 때 참고합니다.",
-  "refs": [
-    { "label": "Vocational rehabilitation improves cognition and negative symptoms in schizophrenia · randomized trial", "pmid": "20800453" },
-    { "label": "Vocational rehabilitation in schizophrenia · review and meta-analysis", "pmid": "12972854" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]vocational rehabilitation AND AREA[ConditionSearch]Schizophrenia → 4건, exact InterventionName 0건",
-    "pubmed": "\"vocational rehabilitation\" AND \"Schizophrenia\" → 613건",
-    "negative": "\"vocational rehabilitation\" AND \"Schizophrenia\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 128건",
-    "safety": "\"vocational rehabilitation\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 792건"
+ "id": "vocational-rehabilitation-schizophrenia-pos",
+ "subj": "직업 재활",
+ "claim": "직업재활을 조현병 인지·음성 증상에 쓴다",
+ "line": "조현병 직업재활은 인지와 음성 증상, 삶의 질을 개선했습니다",
+ "effect": "인지·음성 증상·삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 112,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활이라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "관해 상태 조현병 환자 112명을 직업재활 즉시 참여군 57명과 대기군 55명으로 나눈 6개월 무작위 위약대조시험에서 인지기능·음성 증상·삶의 질이 개선됐습니다.",
+ "saw": "직업재활군은 실행기능·개념 형성·전환·억제조절·판단 관련 인지검사와 음성 증상, 삶의 질에서 대조군보다 유의하게 좋아졌습니다.",
+ "limit": "단일 6개월 시험이고 직업재활 프로그램 참여를 원한 안정된 관해 환자라 급성기나 비선택 환자에게 일반화하기 어렵습니다.",
+ "against": "11개 무작위시험 고찰에서도 지원고용·개별배치군의 경쟁고용률은 일반 직업재활보다 높았지만 연구 수는 적었습니다.",
+ "use": "조현병 재활에서 취업 지원과 인지·음성 증상 회복을 함께 목표로 잡을 때 참고합니다.",
+ "refs": [
+  {
+   "label": "Vocational rehabilitation improves cognition and negative symptoms in schizophrenia · randomized trial",
+   "pmid": "20800453"
+  },
+  {
+   "label": "Vocational rehabilitation in schizophrenia · review and meta-analysis",
+   "pmid": "12972854"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]vocational rehabilitation AND AREA[ConditionSearch]Schizophrenia → 4건, exact InterventionName 0건",
+  "pubmed": "\"vocational rehabilitation\" AND \"Schizophrenia\" → 613건",
+  "negative": "\"vocational rehabilitation\" AND \"Schizophrenia\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 128건",
+  "safety": "\"vocational rehabilitation\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 792건"
+ }
 }

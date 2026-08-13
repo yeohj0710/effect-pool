@@ -1,29 +1,36 @@
 {
-  "id": "vocational-rehabilitation-anxiety-disorder-null",
-  "subj": "vocational rehabilitation",
-  "claim": "직업재활을 불안장애 업무능력에 쓴다",
-  "line": "불안·우울 재활은 업무능력을 높였지만 운동보다 우월하지 않았습니다",
-  "effect": "업무능력 군간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 42,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활이라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "우울 또는 불안장애가 있는 근로자 42명을 업무지향 재활군 21명과 신체활동군 21명으로 나눈 8주 예비 무작위시험에서 두 군 모두 업무능력이 좋아졌지만 군간 차이는 없었습니다.",
-  "saw": "업무능력 지수 평균 변화는 업무지향 재활 3.6점, 신체활동 3.9점이었고 우울·불안·기능 점수도 군간 차이가 없었습니다.",
-  "limit": "42명 예비시험이며 치료대조군이 없어 직업재활의 자연경과 대비 효과를 분리하지 못했습니다.",
-  "against": "젊은 정신건강 문제 환자 111명의 개별배치·지원고용 관찰연구에서는 45.9%가 경쟁고용 또는 유급 인턴을 얻었습니다.",
-  "use": "불안장애의 업무 복귀에서 직업재활을 고려하되 운동보다 우월하다고 단정하지 않습니다.",
-  "refs": [
-    { "label": "Work-directed rehabilitation versus physical activity in common mental disorders · pilot randomized trial", "pmid": "31608676" },
-    { "label": "Individual placement and support for young adults · one-year outcomes", "pmid": "37589696" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]vocational rehabilitation AND AREA[ConditionSearch]Anxiety Disorder → 2건, exact InterventionName 0건",
-    "pubmed": "\"vocational rehabilitation\" AND \"Anxiety Disorder\" → 8건",
-    "negative": "\"vocational rehabilitation\" AND \"Anxiety Disorder\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
-    "safety": "\"vocational rehabilitation\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 792건"
+ "id": "vocational-rehabilitation-anxiety-disorder-null",
+ "subj": "직업 재활",
+ "claim": "직업재활을 불안장애 업무능력에 쓴다",
+ "line": "불안·우울 재활은 업무능력을 높였지만 운동보다 우월하지 않았습니다",
+ "effect": "업무능력 군간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 42,
+ "vs": "업무능력 평균 변화 3.6 vs 3.9점 (업무지향 재활 vs 신체활동)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활이라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "우울 또는 불안장애가 있는 근로자 42명을 업무지향 재활군 21명과 신체활동군 21명으로 나눈 8주 예비 무작위시험에서 두 군 모두 업무능력이 좋아졌지만 군간 차이는 없었습니다.",
+ "saw": "업무능력 지수 평균 변화는 업무지향 재활 3.6점, 신체활동 3.9점이었고 우울·불안·기능 점수도 군간 차이가 없었습니다.",
+ "limit": "42명 예비시험이며 치료대조군이 없어 직업재활의 자연경과 대비 효과를 분리하지 못했습니다.",
+ "against": "젊은 정신건강 문제 환자 111명의 개별배치·지원고용 관찰연구에서는 45.9%가 경쟁고용 또는 유급 인턴을 얻었습니다.",
+ "use": "불안장애의 업무 복귀에서 직업재활을 고려하되 운동보다 우월하다고 단정하지 않습니다.",
+ "refs": [
+  {
+   "label": "Work-directed rehabilitation versus physical activity in common mental disorders · pilot randomized trial",
+   "pmid": "31608676"
+  },
+  {
+   "label": "Individual placement and support for young adults · one-year outcomes",
+   "pmid": "37589696"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]vocational rehabilitation AND AREA[ConditionSearch]Anxiety Disorder → 2건, exact InterventionName 0건",
+  "pubmed": "\"vocational rehabilitation\" AND \"Anxiety Disorder\" → 8건",
+  "negative": "\"vocational rehabilitation\" AND \"Anxiety Disorder\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
+  "safety": "\"vocational rehabilitation\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 792건"
+ }
 }

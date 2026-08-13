@@ -1,28 +1,32 @@
 {
-  "id": "web-based-counseling-brca1-mutation-pos",
-  "subj": "web-based counseling",
-  "claim": "웹 기반 유방암 위험 평가가 BRCA1 검사 상담으로 이어질 위험군을 찾는다",
-  "line": "웹 상담 도구로 BRCA1 변이 위험을 평가했습니다",
-  "effect": "등록자 118명이 위험 평가를 완료",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 118,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "웹 기반 유전 위험 상담은 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "일차진료에서 환자 포털로 웹 기반 유방암 위험 평가와 의사결정 도구를 제공하자 BRCA1/2 유전상담·검사가 필요한 위험군을 확인하는 데 사용됐다.",
-  "saw": "448명에게 초대장을 보냈고 125명이 등록했으며, 등록자 118명(94.4%)이 평가를 완료했다. 21명이 평균 이상 위험으로 분류됐고 환자와 의사는 도구가 사용하기 쉽고 의사결정을 돕는다고 평가했다.",
-  "limit": "무작위 대조군이 없는 단면 연구이며, 도구 사용이 실제 유전상담·검사 완료로 이어졌는지는 확인하지 않았다.",
-  "against": "기존 기록과 웹 평가에서 평균 이상 위험으로 겹친 사람은 7명뿐이었다.",
-  "use": "BRCA1/2 위험 평가가 필요한 사람을 일차진료에서 선별하는 환자 포털 도구로 검토한다.",
-  "refs": [
-    { "label": "Online Breast Cancer Risk Assessment and Patient Decision Aid 2020 · Journal of Women's Health", "doi": "10.1089/jwh.2019.8143", "pmid": "32159424" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=web-based counseling AND condition=BRCA1 Mutation; 4건 반환, 중재명 일치 1건",
-    "pubmed": "web-based counseling AND BRCA1 Mutation; 15건",
-    "negative": "web-based counseling AND BRCA1 Mutation AND (no effect OR did not OR failed to OR negative OR no significant difference); 8건",
-    "safety": "web-based counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 1건"
+ "id": "web-based-counseling-brca1-mutation-pos",
+ "subj": "웹 상담",
+ "claim": "웹 기반 유방암 위험 평가가 BRCA1 검사 상담으로 이어질 위험군을 찾는다",
+ "line": "웹 상담 도구로 BRCA1 변이 위험을 평가했습니다",
+ "effect": "등록자 118명이 위험 평가를 완료",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 118,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "웹 기반 유전 위험 상담은 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "일차진료에서 환자 포털로 웹 기반 유방암 위험 평가와 의사결정 도구를 제공하자 BRCA1/2 유전상담·검사가 필요한 위험군을 확인하는 데 사용됐다.",
+ "saw": "448명에게 초대장을 보냈고 125명이 등록했으며, 등록자 118명(94.4%)이 평가를 완료했다. 21명이 평균 이상 위험으로 분류됐고 환자와 의사는 도구가 사용하기 쉽고 의사결정을 돕는다고 평가했다.",
+ "limit": "무작위 대조군이 없는 단면 연구이며, 도구 사용이 실제 유전상담·검사 완료로 이어졌는지는 확인하지 않았다.",
+ "against": "기존 기록과 웹 평가에서 평균 이상 위험으로 겹친 사람은 7명뿐이었다.",
+ "use": "BRCA1/2 위험 평가가 필요한 사람을 일차진료에서 선별하는 환자 포털 도구로 검토한다.",
+ "refs": [
+  {
+   "label": "Online Breast Cancer Risk Assessment and Patient Decision Aid 2020 · Journal of Women's Health",
+   "doi": "10.1089/jwh.2019.8143",
+   "pmid": "32159424"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=web-based counseling AND condition=BRCA1 Mutation; 4건 반환, 중재명 일치 1건",
+  "pubmed": "web-based counseling AND BRCA1 Mutation; 15건",
+  "negative": "web-based counseling AND BRCA1 Mutation AND (no effect OR did not OR failed to OR negative OR no significant difference); 8건",
+  "safety": "web-based counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 1건"
+ }
 }
