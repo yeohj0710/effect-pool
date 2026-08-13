@@ -32,18 +32,18 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1297 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 23 comparison results, screened 7 nonqualifying topics, and leaves berberine-prediabetes-pos as the exact next unprocessed candidate."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1298 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 23 comparison results, screened 7 nonqualifying topics, and leaves blueberry-diabetes-pos as the exact next unprocessed candidate."
   },
   "backlog": {
-    "vs_missing": 3617,
-    "english_subjects": 1006,
+    "vs_missing": 3594,
+    "english_subjects": 995,
     "note": "Legacy backlog remains; process it in safe batches. vs_missing is the current pre-2026-08-12 non-open entry count without numeric vs data. english_subjects is the current distinct entry-subject count containing untranslated lowercase English words."
   },
   "checkpoints": {
-    "over_counter_share": "15.3% (951 entries)",
-    "rx_share": "44.6% (2,778 entries)",
+    "over_counter_share": "15.3% (954 entries)",
+    "rx_share": "44.6% (2,775 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "26.0% (1,622 entries)",
+    "vs_share": "26.4% (1,645 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,10 +57,10 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1298 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate berberine-prediabetes-pos. Batch 1297 processed 30 existing non-prescription topics, filled 23 numeric intervention-versus-control results or valid relative effects from PubMed records and one PubMed-linked PMC full text, screened 7 nonqualifying topics, and translated 7 shared English subjects across 21 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1299 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate blueberry-diabetes-pos. Batch 1298 processed 30 existing non-prescription topics, filled 23 numeric intervention-versus-control results or valid relative effects from PubMed records, corrected beta-glucan's supplement category, screened 7 nonqualifying topics, and translated 11 shared English subjects across 22 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1297",
-    "commit": "a7c72757",
+    "id": "1298",
+    "commit": "f98cabee",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
@@ -68,22 +68,23 @@
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
     "screened_nonqualifying_topics": 7,
-    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1622 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed PMIDs 36322882,17184887,32162956,41444911,40722069,42492146,39260982,19515291,35636762,32960649,33411338,39987779,39120902,26054060,41199437,29510791,40449065,39509914,25257365,36941490,37679692; the full text for PMID 37679692 was checked through its PubMed-linked PMC record. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records and the linked PMC full text. Seven topics were screened out because the cited record was a single-group pre-post study or did not report a qualifying numeric comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
+    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1645 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed PMIDs 37679692,37069570,35037116,33812218,37766731,35977911,39064783,42516266,42384726,8127329,8901854,31573387,30380356,36011825,30073406,32619206,41718606,27882777,33109777,37980530,41998557,42545945,37247514,33021111,25638678,25811286,32460873,36150238,41421618,23946702,31967375,29101797,37302816,38461462,31890092,42558005,40229974,36972800; PubMed-linked ClinicalTrials.gov identifiers cited in these records include NCT05334121,NCT02770417,NCT03548155,NCT05206747,NCT02698800,NCT04084457. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records. Seven topics were screened out because the cited record was preclinical, single-group pre-post, or did not report a qualifying numeric comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 23,
-    "subject_names_renamed": 7,
-    "subject_entries_renamed": 21,
-    "targeted_batch_warnings_fixed": 10,
+    "subject_names_renamed": 11,
+    "subject_entries_renamed": 22,
+    "targeted_batch_warnings_fixed": 4,
+    "build_errors_fixed": 2,
     "remaining_expected_thin_warnings": 1022,
     "remaining_expected_unknown_n_warnings": 454,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1298",
+    "next_batch": "1299",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing backlog after batch1297 sequential window; exact next unprocessed candidate berberine-prediabetes-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing backlog after batch1298 sequential window; exact next unprocessed candidate blueberry-diabetes-pos; worklist exhausted",
     "unchecked": 0
   }
 }
