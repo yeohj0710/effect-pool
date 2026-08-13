@@ -1,0 +1,29 @@
+{
+  "id": "lisinopril-heart-failure-harm",
+  "subj": "리시노프릴",
+  "claim": "고혈압 환자의 심부전 예방에 리시노프릴을 쓰는가",
+  "line": "고혈압 환자에서 심부전 발생은 클로르탈리돈보다 많았습니다",
+  "effect": "심부전 RR 1.19",
+  "vs": "ALLHAT에서 리시노프릴 9,054명 vs 클로르탈리돈 15,255명; 6년 심부전 8.7% vs 7.7%, RR 1.19(95% CI 1.07~1.31)",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 33357,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "심부전 치료에는 허가됐지만 고혈압에서 심부전 예방은 별도 적응증이 아닙니다.",
+  "why": "ACE 억제제가 혈압과 심장 부담을 낮춰 심부전 발생도 줄일 수 있다는 가설을 검토한 결과입니다.",
+  "saw": "고위험 고혈압 환자 33,357명을 무작위 배정한 ALLHAT에서 리시노프릴과 클로르탈리돈의 심혈관 결과를 비교했습니다.",
+  "limit": "대상자는 이미 고혈압과 심혈관 위험요인을 가진 고령층이었고, 리시노프릴의 심부전 치료 효과를 평가한 시험은 아닙니다.",
+  "against": "주요 관상동맥질환 결과와 전체 사망률은 두 군에서 유의한 차이가 없었습니다.",
+  "use": "고혈압 환자의 심부전 예방 목적으로 리시노프릴을 임의 선택하지 말고, 혈압과 심혈관 위험을 함께 평가합니다.",
+  "refs": [
+    { "label": "ALLHAT 2002 · JAMA · 리시노프릴 대 클로르탈리돈 무작위시험", "pmid": "12479763", "nct": "NCT00000542" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "intr=lisinopril · cond=Heart Failure · 14건 반환, InterventionName 일치 5건",
+    "pubmed": "lisinopril AND Heart Failure · 501편",
+    "negative": "lisinopril AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 390편",
+    "safety": "lisinopril AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1261편"
+  }
+}
