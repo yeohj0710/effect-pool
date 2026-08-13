@@ -16341,7 +16341,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ceftobiprole — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 7건 · 논문 180편 -->
+- [x] ceftobiprole — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 7건 · 논문 180편 --> <!-- batch 1277; PMID 40554538 -->
 - [x] prolonged exposure therapy — PTSD에 듣는다  <!-- 시험 46건 · 논문 1126편 -->
 - [x] prolonged exposure therapy — Substance Use에 듣는다  <!-- 시험 16건 · 논문 403편 -->
 - [x] prolonged exposure therapy — Moral Injury에 듣는다 — 근거 없음(2026-08-08, prolonged exposure therapy AND Moral Injury; 직접 치료 결과 없음)  <!-- 시험 6건 · 논문 973편 -->
@@ -16396,7 +16396,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] crofelemer — HIV/AIDS에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 5건 · 논문 11편 -->
+- [x] crofelemer — HIV/AIDS에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 5건 · 논문 11편 --> <!-- batch 1277; PMID 24334179 -->
 - [x] smartphone mindfulness — Major Depressive Disorder에 듣는다 — 근거 없음(2026-08-08, smartphone mindfulness AND Major Depressive Disorder; 직접 결과 없음)  <!-- 시험 4건 · 논문 8편 -->
 - [x] smartphone mindfulness — Stress에 듣는다  <!-- 시험 4건 · 논문 187편 -->
 - [x] smartphone mindfulness — Depression에 듣는다 — 근거 없음(2026-08-08, smartphone mindfulness AND Depression; 직접 결과 없음)  <!-- 시험 3건 · 논문 146편 -->
@@ -18523,7 +18523,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] voglibose — Impaired Glucose Tolerance에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 34편 -->
+- [x] voglibose — Impaired Glucose Tolerance에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 34편 --> <!-- batch 1277; PMID 19395079 -->
 - [x] near-infrared light — Brain Injuries에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 93편 -->
 - [x] near-infrared light — Depressive Disorder에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 4건 · 논문 39편 -->
 - [x] near-infrared light — Optical Imaging에 듣는다 — 근거 없음(2026-08-10, "near-infrared light"[Title/Abstract] AND "Optical Imaging"[Title/Abstract]는 영상 연구 116편이며 치료 효능 근거 없음; ClinicalTrials.gov 6건 중 InterventionName 완전일치 0건)  <!-- 시험 3건 · 논문 4640편 -->
@@ -18562,8 +18562,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] solifenacin — Urinary Urge에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 117편 -->
-- [ ] solifenacin — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 20건 · 논문 378편 -->
+- [x] solifenacin — Urinary Urge에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 117편 --> <!-- batch 1277; PMID 18990175 -->
+- [x] solifenacin — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 20건 · 논문 378편 --> <!-- batch 1277; PMID 14764127 -->
 - [x] solifenacin — Prostatic Hyperplasia에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 13건 · 논문 76편 -->
 - [x] solifenacin — Ureteral Stent에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 8건 · 논문 33편 -->
 - [x] lumacaftor — Diabetes에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 23편 -->
@@ -18580,8 +18580,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nitisinone — Alkaptonuria에 듣는다  <!-- 시험 4건 · 논문 138편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] sapropterin — Phenylketonurias에 듣는다  <!-- 시험 5건 · 논문 653편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] nitisinone — Alkaptonuria에 듣는다  <!-- 시험 4건 · 논문 138편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 32822600 -->
+- [x] sapropterin — Phenylketonurias에 듣는다  <!-- 시험 5건 · 논문 653편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 19261295 -->
 - [x] sapropterin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 171편 --> — 근거 없음(2026-08-10, sapropterin AND Hypertension; ClinicalTrials.gov NCT01456286; PubMed sapropterin AND Hypertension)
 - [x] vaborbactam — Bloodstream Infection에 듣는다  <!-- 시험 4건 · 논문 60편 --> — 항목 추가(2026-08-10)
 - [x] dance therapy group — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 110편 --> — 항목 추가(2026-08-10)
@@ -18598,10 +18598,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] dexlansoprazole — Esophagitis, Peptic에 듣는다  <!-- 시험 10건 · 논문 10편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 19183157 -->
+- [x] dexlansoprazole — Heartburn에 듣는다  <!-- 시험 3건 · 논문 76편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 19392864 -->
 - [x] dexlansoprazole — H Pylori Eradication에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 항목 추가(2026-08-10)
-- [ ] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] rabeprazole — H.Pylori에 듣는다  <!-- 시험 43건 · 논문 561편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 21811161 -->
 - [x] rabeprazole — Gastric Ulcer에 듣는다  <!-- 시험 13건 · 논문 340편 --> — 항목 추가(2026-08-10)
 - [x] rabeprazole — Healthy Adults에 듣는다  <!-- 시험 7건 · 논문 131편 --> — 항목 추가(2026-08-10)
 - [x] rabeprazole — Cancer에 듣는다  <!-- 시험 7건 · 논문 148편 --> — 항목 추가(2026-08-10)
@@ -18609,7 +18609,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mosapride — Bowel Ileus에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 항목 추가(2026-08-10)
 - [x] mosapride — Gastric Cancer에 듣는다  <!-- 시험 4건 · 논문 10편 --> — 항목 추가(2026-08-10)
 - [x] tegaserod — Dyspepsia에 듣는다  <!-- 시험 7건 · 논문 36편 --> — 항목 추가(2026-08-10)
-- [ ] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] simeprevir — HCV에 듣는다  <!-- 시험 3건 · 논문 664편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 24727123 -->
 - [x] bath therapy — Blood Pressure에 듣는다  <!-- 시험 7건 · 논문 877편 --> — 항목 추가(2026-08-10)
 - [x] bath therapy — Labor Pain에 듣는다  <!-- 시험 7건 · 논문 52편 --> — 항목 추가(2026-08-10)
 - [x] bath therapy — Cancer에 듣는다  <!-- 시험 5건 · 논문 1730편 --> — 항목 추가(2026-08-10)
@@ -18632,8 +18632,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] betahistine — Obesity에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 항목 추가(2026-08-10)
 - [x] nepafenac — Macular Edema에 듣는다  <!-- 시험 18건 · 논문 109편 --> — 항목 추가(2026-08-10)
-- [ ] nepafenac — Inflammation에 듣는다  <!-- 시험 4건 · 논문 72편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] nepafenac — Pain에 듣는다  <!-- 시험 4건 · 논문 60편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] nepafenac — Inflammation에 듣는다  <!-- 시험 4건 · 논문 72편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 24345529 -->
+- [x] nepafenac — Pain에 듣는다  <!-- 시험 4건 · 논문 60편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 31221565 -->
 - [x] nepafenac — Diabetic Retinopathy에 듣는다  <!-- 시험 4건 · 논문 26편 --> — 항목 추가(2026-08-10)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18647,8 +18647,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] fenoldopam — Cardiac Complications에 듣는다  <!-- 시험 3건 · 논문 53편 --> — 항목 추가(2026-08-10)
 - [x] fluticasone — Pulmonary Disease에 듣는다  <!-- 시험 107건 · 논문 3360편 --> — 항목 추가(2026-08-10)
-- [ ] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] fluticasone — Rhinitis에 듣는다  <!-- 시험 95건 · 논문 789편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 33007780 -->
+- [x] fluticasone — COPD에 듣는다  <!-- 시험 17건 · 논문 1252편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 27181606 -->
 - [x] fluticasone — Esophagitis에 듣는다  <!-- 시험 15건 · 논문 245편 --> — 항목 추가(2026-08-10)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18660,26 +18660,26 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] alglucosidase alfa — Glycogen Storage Disease에 듣는다  <!-- 시험 16건 · 논문 469편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] alglucosidase alfa — Acid Maltase Deficiency에 듣는다  <!-- 시험 9건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
-- [ ] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] alglucosidase alfa — Glycogen Storage Disease에 듣는다  <!-- 시험 16건 · 논문 469편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 34800399 -->
+- [x] alglucosidase alfa — Acid Maltase Deficiency에 듣는다  <!-- 시험 9건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 34800399 -->
+- [x] alglucosidase alfa — Glycogenosis 2에 듣는다  <!-- 시험 5건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 34800399 -->
+- [x] brinzolamide — Ocular Hypertension에 듣는다  <!-- 시험 39건 · 논문 294편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 25430900 -->
+- [x] brinzolamide — Intraocular Pressure에 듣는다  <!-- 시험 3건 · 논문 307편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 25430900 -->
 - [x] cefuroxime — Antibiotic Allergy에 듣는다  <!-- 시험 6건 · 논문 225편 --> — 항목 추가(2026-08-10)
 - [x] cefuroxime — Drug Allergy에 듣는다  <!-- 시험 5건 · 논문 182편 --> — 항목 추가(2026-08-10)
 - [x] cefuroxime — Postoperative Pain에 듣는다  <!-- 시험 4건 · 논문 35편 --> — 근거 없음(2026-08-10, ClinicalTrials.gov cefuroxime AND Postoperative Pain; PubMed cefuroxime AND Postoperative Pain)
 - [x] perindopril — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 375편 --> — 항목 추가(2026-08-10)
 - [x] perindopril — Diabetes에 듣는다  <!-- 시험 5건 · 논문 452편 --> — 항목 추가(2026-08-10)
 - [x] perindopril — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 13편 --> — 항목 추가(2026-08-10)
-- [ ] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] perindopril — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 1371편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1277; PMID 11589932 -->
 - [x] ulipristal — Fibroids에 듣는다  <!-- 시험 9건 · 논문 350편 --> — 항목 추가(2026-08-10)
 - [x] ulipristal — Fibroid에 듣는다  <!-- 시험 8건 · 논문 350편 --> — 항목 추가(2026-08-10)
 - [x] ulipristal — Leiomyoma에 듣는다  <!-- 시험 7건 · 논문 303편 --> — 항목 추가(2026-08-10)
 - [x] ulipristal — Infertility에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 41편 -->
 - [x] velpatasvir — Injection Drug Use에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 52편 -->
-- [ ] velpatasvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 623편 -->
+- [x] velpatasvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 623편 --> <!-- batch 1277; PMID 26575258 -->
 - [x] velpatasvir — Kidney Transplantation에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 22편 -->
-- [ ] vorapaxar — Peripheral Artery Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 88편 -->
+- [x] vorapaxar — Peripheral Artery Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 88편 --> <!-- batch 1277; PMID 23501976 -->
 - [x] vorapaxar — Atherosclerosis에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 4건 · 논문 77편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -18706,10 +18706,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] trospium — Overactive Bladder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 12건 · 논문 252편 -->
-- [ ] trospium — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 154편 -->
-- [ ] eszopiclone — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 20건 · 논문 299편 -->
-- [ ] eszopiclone — Sleep Initiation and Maintenance Disorders에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 4건 · 논문 163편 -->
+- [x] trospium — Overactive Bladder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 12건 · 논문 252편 --> <!-- batch 1277; PMID 18342185 -->
+- [x] trospium — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 154편 --> <!-- batch 1277; PMID 20109997 -->
+- [x] eszopiclone — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 20건 · 논문 299편 --> <!-- batch 1277; PMID 23063301 -->
+- [x] eszopiclone — Sleep Initiation and Maintenance Disorders에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 4건 · 논문 163편 --> <!-- batch 1277; PMID 23063301 -->
 - [x] eszopiclone — Schizophrenia에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 12편 -->
 - [x] eszopiclone — Anxiety에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 44편 -->
 - [x] dofetilide — Long QT Syndrome에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 5건 · 논문 207편 -->
@@ -18723,7 +18723,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] iloperidone — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 31편 -->
+- [x] iloperidone — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 31편 --> <!-- batch 1277; PMID 38236020 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -18819,7 +18819,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] asenapine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 18건 · 논문 223편 -->
+- [x] asenapine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 18건 · 논문 223편 --> <!-- batch 1277; PMID 20096936 -->
 - [x] asenapine — Schizoaffective Disorder에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 54편 -->
 - [x] carisbamate — Lennox Gastaut Syndrome에 듣는다 — 항목 추가(2026-08-10)  <!-- 시험 3건 · 논문 9편 -->
 
@@ -18848,7 +18848,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] pramlintide — Obesity에 듣는다  <!-- 시험 11건 · 논문 112편 -->
 - [x] pramlintide — Overweight에 듣는다  <!-- 시험 4건 · 논문 70편 -->
-- [ ] phentermine — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 4건 · 논문 595편 -->
+- [x] phentermine — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 4건 · 논문 595편 --> <!-- batch 1277; PMID 21481449 -->
 - [x] phentermine — Drug Abuse에 듣는다 — 근거 없음(2026-08-10, ClinicalTrials.gov 직접 확인, phentermine AND Drug Abuse)  <!-- 시험 4건 · 논문 120편 -->
 - [x] phentermine — Bariatric Surgery에 듣는다  <!-- 시험 4건 · 논문 128편 -->
 - [x] phentermine — Diabetes에 듣는다  <!-- 시험 4건 · 논문 275편 -->
