@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5529,
+  "entries": 5537,
   "subjects": 2170,
-  "refs": 7879,
+  "refs": 7891,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -25,16 +25,16 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2089
+    "rx": 2097
   },
-  "tiers": { "trial": 4711, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3255, "null": 1097, "open": 1021, "harm": 156 },
+  "tiers": { "trial": 4718, "obs": 725, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3256, "null": 1100, "open": 1025, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 14749,
-    "unchecked": 793,
+    "checked": 14771,
+    "unchecked": 771,
     "no_evidence_pending": 2059,
-    "note": "batch 1251에서 첫 미체크 구간부터 고유 주제 20개를 처리했다. 남은 미체크 목록에서 비처방 주제는 확인되지 않아 의료·처방 주제를 우선 조사했다. 기존 항목 11개를 연결하고 신규 항목 9개를 만들었으며, 근거 없음으로 버린 주제는 0개다. 선택한 주제의 중복 행 35개를 모두 체크해 첫 미체크 줄은 6415번 escitalopram — Depression에 듣는다이고 793개가 남았다."
+    "note": "batch 1252에서 첫 미체크 구간부터 고유 주제 20개를 처리했다. 남은 771개 미체크 행을 다시 분류했지만 비처방 주제는 확인되지 않아 의료·처방 주제를 우선 조사했다. 기존 항목 12개를 연결하고 신규 항목 8개를 만들었으며, 근거 없음으로 버린 주제는 0개다. 선택한 주제의 중복 행을 포함해 22개 행을 체크했으며 첫 미체크 줄은 7942번 doxycycline — Erythema Migrans에 듣는다이다."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -44,12 +44,12 @@
   },
   "checkpoints": {
     "over_counter_share": "17.1% (약국약·보충제·음식 947건). 목표는 25%",
-    "rx_share": "37.8% (2,089건). 줄어야 한다",
-    "no_effect_or_harm_share": "22.7% (1,253건). 목표는 33% 위",
-    "vs_share": "8.8% (485건)",
+    "rx_share": "37.9% (2,097건). 줄어야 한다",
+    "no_effect_or_harm_share": "22.7% (1,256건). 목표는 33% 위",
+    "vs_share": "8.9% (493건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.2% (4,711건)",
-    "non_trial_share": "14.8% (818건)",
+    "trial_share": "85.2% (4,718건)",
+    "non_trial_share": "14.8% (819건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 973 }
   },
   "deployment": {
@@ -58,22 +58,22 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1252 starts after batch 1251; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics. No identifiable non-prescription topics were available in the remaining unchecked queue at batch 1251; continue scanning from the first unchecked line. Resume at worklist line 6415: escitalopram — Depression에 듣는다; 793 unchecked rows remain.",
+  "next": "batch 1253 starts after batch 1252; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics. No identifiable non-prescription topics were available in the remaining unchecked queue at batch 1252; continue scanning from worklist line 7942: doxycycline — Erythema Migrans에 듣는다. 771 unchecked rows remain.",
   "last_batch": {
-    "id": "1251",
-    "commit": "6377ccfa",
+    "id": "1252",
+    "commit": "cd226714",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 9,
-    "existing_links": 11,
+    "new_entries": 8,
+    "existing_links": 12,
     "no_evidence_rejects": 0,
-    "build": "5529 entries · 7879 refs · 4711 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "루라시돈·지프라시돈·올란자핀·리도카인·리스페리돈·도네페질·리바스티그민·프라미펙솔 신규 항목은 PubMed RCT·메타분석 초록의 수치와 ClinicalTrials.gov v2 등록 개입명을 대조했다. 케타민·트라넥삼산 기존 항목은 각각 PMID31743533·HALT-IT PMID32563378의 개입군 대 대조군 수치를 보강했다. 둘록세틴·아토르바스타틴·칸데사르탄·이버멕틴·플루복사민·파록세틴 기존 항목은 수치가 있는 근거를 연결했다.",
-    "research_batch": "20개 고유 주제 중 기존 항목 11개를 연결하고 신규 항목 9개를 추가했다. 남은 미체크 목록에서 식품·보충제·운동·생활·시술·일반의약품 주제를 확인하지 못해 처방·의료 주제를 처리했다. 신규 9개와 보강한 기존 2개는 모두 개입군 대 대조군 수치를 기록했다. 근거 없음 주제는 0개이며 중복 worklist 행 35개를 체크했다.",
+    "build": "5537 entries · 7891 refs · 4718 trial · 725 obs · 30 animal · 17 lab · 47 case",
+    "research": "escitalopram·rifaximin·ivermectin·clopidogrel·levothyroxine·propranolol·topiramate·quetiapine·amoxicillin 감염 주제는 기존 항목의 수치 근거를 연결했다. ClinicalTrials.gov v2에서 20개 주제의 등록 수와 개입명 일치를 확인했고, PubMed E-utils에서 각 주제의 본 검색·반대 검색·안전성 검색을 확인했다. 신규 8개는 PubMed PMID 31055767·34726708·34383010·3880995·25575710·39824204·18567539·37018493·39122208·38118022의 수치 결과와 ClinicalTrials.gov 등록 결과를 대조해 작성했다.",
+    "research_batch": "20개 고유 주제 중 기존 항목 12개를 연결하고 신규 항목 8개를 추가했다. 남은 미체크 목록에서 식품·보충제·운동·생활·시술·일반의약품 주제를 확인하지 못해 처방·의료 주제를 처리했다. 신규 8개 모두 개입군 대 대조군 수치 또는 RR·CI를 기록했고, 근거 없음 주제는 0개다. 선택 주제의 중복 행을 포함해 worklist 22개 행을 체크했다.",
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 2,
+    "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
-    "targeted_batch_warnings_fixed": 10,
+    "targeted_batch_warnings_fixed": 4,
     "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
