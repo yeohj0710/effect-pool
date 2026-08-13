@@ -1,0 +1,29 @@
+{
+  "id": "lenalidomide-myelodysplastic-syndrome-pos",
+  "subj": "레날리도마이드",
+  "claim": "저위험 골수형성이상증후군에서 레날리도마이드는 5q 결실 환자의 혈액학적 반응과 생존을 개선했습니다.",
+  "line": "저위험 골수형성이상증후군에서 레날리도마이드는 혈액학적 반응을 높였습니다.",
+  "effect": "혈액학적 개선 58%",
+  "vs": "골수형성이상증후군 17개 연구 2,160명 메타분석에서 레날리도마이드의 적혈구 수혈 독립 반응률은 58%(95% CI 43~74%)였고 5q 결실군 생존 HR은 0.62(0.47~0.83)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2160,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "레날리도마이드는 5q 결실을 포함한 일부 골수형성이상증후군에 쓰는 처방 면역조절제입니다.",
+  "why": "저위험 골수형성이상증후군에서 레날리도마이드 연구를 종합한 메타분석을 확인했습니다.",
+  "saw": "레날리도마이드는 수혈 독립과 세포유전학적 반응을 보였고 5q 결실군 생존도 개선했습니다.",
+  "limit": "다수 연구가 단일군이라 대조군 대비 효과를 직접 추정할 수 없고 5q 결실 하위군에 결과가 집중됩니다.",
+  "against": "중성구감소증, 혈소판감소증, 혈전, 설사와 발진을 확인해야 합니다.",
+  "use": "저위험 골수형성이상증후군의 5q 결실 관련 치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Lenalidomide efficacy and safety in lower-risk myelodysplastic syndromes meta-analysis", "pmid": "27824902" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=lenalidomide AND query.cond=Myelodysplastic Syndrome; 75건",
+    "pubmed": "lenalidomide AND Myelodysplastic Syndrome; 825건",
+    "negative": "lenalidomide AND Myelodysplastic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference); 445건",
+    "safety": "lenalidomide AND (adverse OR toxicity OR safety OR tolerability); 3413건"
+  }
+}

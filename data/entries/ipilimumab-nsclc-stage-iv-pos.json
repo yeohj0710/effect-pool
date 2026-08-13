@@ -1,0 +1,29 @@
+{
+  "id": "ipilimumab-nsclc-stage-iv-pos",
+  "subj": "이필리무맙",
+  "claim": "진행성 비소세포폐암에서 니볼루맙·이필리무맙과 짧은 화학요법 병용은 화학요법보다 생존을 개선합니다.",
+  "line": "IV기 비소세포폐암에서 이필리무맙 병용은 화학요법보다 생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.66",
+  "vs": "진행성 비소세포폐암 719명 무작위시험에서 니볼루맙·이필리무맙·2주기 화학요법의 전체 생존은 15.6개월 대 화학요법 10.9개월(HR 0.66, 95% CI 0.55~0.80)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 719,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "이필리무맙은 니볼루맙과 함께 일부 진행성 비소세포폐암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 비소세포폐암에서 이필리무맙 병용과 화학요법을 비교한 무작위시험을 확인했습니다.",
+  "saw": "이필리무맙 포함 병용요법은 전체 생존을 개선했습니다.",
+  "limit": "니볼루맙과 화학요법을 함께 사용한 결과라 이필리무맙 단독 효과가 아닙니다.",
+  "against": "면역매개성 폐렴, 대장염, 간염과 화학요법 독성을 함께 확인해야 합니다.",
+  "use": "진행성 비소세포폐암의 면역 병용요법 근거로만 사용합니다.",
+  "refs": [
+    { "label": "CheckMate 9LA nivolumab plus ipilimumab and limited chemotherapy in NSCLC", "pmid": "33476593" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ipilimumab AND query.cond=NSCLC Stage IV; 48건",
+    "pubmed": "ipilimumab AND NSCLC Stage IV; 67건",
+    "negative": "ipilimumab AND NSCLC Stage IV AND (no effect OR did not OR failed OR negative OR no significant difference); 51건",
+    "safety": "ipilimumab AND (adverse OR toxicity OR safety OR tolerability); 0건"
+  }
+}

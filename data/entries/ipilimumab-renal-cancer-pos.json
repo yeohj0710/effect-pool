@@ -1,0 +1,29 @@
+{
+  "id": "ipilimumab-renal-cancer-pos",
+  "subj": "이필리무맙",
+  "claim": "진행성 신세포암에서 니볼루맙·이필리무맙 병용은 수니티닙보다 생존과 반응을 개선합니다.",
+  "line": "진행성 신세포암에서 이필리무맙 병용은 수니티닙보다 생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.72",
+  "vs": "진행성 신세포암 1,096명 무작위시험 장기 추적에서 니볼루맙·이필리무맙의 전체 생존 HR은 수니티닙 대비 0.72(95% CI 0.62~0.83), 반응률은 39.5% 대 33.0%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1096,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "이필리무맙은 니볼루맙과 함께 진행성 신세포암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 신세포암에서 니볼루맙·이필리무맙과 수니티닙을 비교한 무작위시험을 확인했습니다.",
+  "saw": "병용요법은 수니티닙보다 생존과 반응률을 개선했습니다.",
+  "limit": "이필리무맙 단독 효과가 아닌 니볼루맙과의 병용 결과입니다.",
+  "against": "면역매개성 신염, 간염, 대장염, 내분비 이상과 병용 독성을 확인해야 합니다.",
+  "use": "진행성 신세포암의 면역 병용요법 근거로만 사용합니다.",
+  "refs": [
+    { "label": "CheckMate 214 nivolumab plus ipilimumab in advanced renal cell carcinoma", "pmid": "39098455" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ipilimumab AND query.cond=Renal Cancer; 115건",
+    "pubmed": "ipilimumab AND Renal Cancer; 1000건",
+    "negative": "ipilimumab AND Renal Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 644건",
+    "safety": "ipilimumab AND (adverse OR toxicity OR safety OR tolerability); 0건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "durvalumab-nsclc-stage-ii-pos",
+  "subj": "더발루맙",
+  "claim": "절제 불가능 국소 진행성 비소세포폐암에서 더발루맙은 화학방사선요법 후 무진행생존을 개선합니다.",
+  "line": "국소 진행성 비소세포폐암에서 더발루맙은 무진행생존을 연장했습니다.",
+  "effect": "무진행생존 HR 0.52",
+  "vs": "국소 진행성 비소세포폐암 713명 무작위시험에서 화학방사선요법 후 더발루맙의 무진행생존 중앙값은 16.8개월 대 위약 5.6개월(HR 0.52, 95% CI 0.42~0.65)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 713,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "더발루맙은 국소 진행성 비소세포폐암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "화학방사선요법 후 국소 진행성 비소세포폐암에서 더발루맙과 위약을 비교한 무작위시험을 확인했습니다.",
+  "saw": "더발루맙은 위약보다 무진행생존을 연장했습니다.",
+  "limit": "PACIFIC 시험은 주로 III기 환자에 대한 결과라 worklist의 II기 표기에 그대로 일반화하지 않습니다.",
+  "against": "폐렴, 방사선 폐렴과 면역매개성 폐렴 등 호흡기 독성을 확인해야 합니다.",
+  "use": "화학방사선요법 후 절제 불가능 국소 진행성 비소세포폐암의 유지치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "PACIFIC durvalumab after chemoradiotherapy in stage III NSCLC", "pmid": "28885881" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=durvalumab AND query.cond=NSCLC Stage II; 89건",
+    "pubmed": "durvalumab AND NSCLC Stage II; 122건",
+    "negative": "durvalumab AND NSCLC Stage II AND (no effect OR did not OR failed OR negative OR no significant difference); 70건",
+    "safety": "durvalumab AND (adverse OR toxicity OR safety OR tolerability); 0건"
+  }
+}

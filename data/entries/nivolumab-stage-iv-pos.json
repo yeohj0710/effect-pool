@@ -1,0 +1,29 @@
+{
+  "id": "nivolumab-stage-iv-pos",
+  "subj": "니볼루맙",
+  "claim": "전이성 비소세포폐암에서 니볼루맙·이필리무맙 병용은 화학요법보다 생존을 늘립니다.",
+  "line": "IV기 비소세포폐암에서 니볼루맙 병용은 화학요법보다 생존을 늘렸습니다.",
+  "effect": "전체 생존 17.1개월",
+  "vs": "IV기 비소세포폐암 1,739명 무작위시험에서 전체 생존은 니볼루맙·이필리무맙 17.1개월 vs 화학요법 13.9개월, 2년 생존은 40.0% 대 32.8%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1739,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "니볼루맙은 전이성 비소세포폐암을 포함한 일부 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "IV기 비소세포폐암에서 니볼루맙·이필리무맙 병용과 화학요법을 비교한 무작위시험을 확인했습니다.",
+  "saw": "니볼루맙·이필리무맙 병용은 화학요법보다 전체 생존을 연장했습니다.",
+  "limit": "이필리무맙 병용요법 결과라 니볼루맙 단독 효과가 아니며 PD-L1 하위군 분석입니다.",
+  "against": "면역매개성 장기 이상과 병용요법 독성을 함께 확인해야 합니다.",
+  "use": "전이성 비소세포폐암의 면역 병용요법 근거로만 사용합니다.",
+  "refs": [
+    { "label": "CheckMate 227 nivolumab plus ipilimumab in advanced NSCLC", "pmid": "31562796" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=nivolumab AND query.cond=Stage IV; 272건",
+    "pubmed": "nivolumab AND Stage IV; 690건",
+    "negative": "nivolumab AND Stage IV AND (no effect OR did not OR failed OR negative OR no significant difference); 457건",
+    "safety": "nivolumab AND (adverse OR toxicity OR safety OR tolerability); 7822건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "lenalidomide-myeloma-pos",
+  "subj": "레날리도마이드",
+  "claim": "다발골수종 자가조혈모세포이식 후 레날리도마이드 유지요법은 관찰 또는 위약보다 무진행생존을 개선합니다.",
+  "line": "다발골수종 이식 후 레날리도마이드 유지요법은 무진행생존을 늘렸습니다.",
+  "effect": "무진행생존 HR 0.39",
+  "vs": "다발골수종 유지요법 네트워크 메타분석 11개 시험 5,073명에서 레날리도마이드 기반 유지요법의 무진행생존 HR은 대 관찰·위약 0.39(95% CrI 0.28~0.53)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 5073,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "레날리도마이드는 다발골수종 치료와 이식 후 유지요법에 쓰는 처방 면역조절제입니다.",
+  "why": "다발골수종 유지요법의 무작위시험을 종합한 네트워크 메타분석을 확인했습니다.",
+  "saw": "레날리도마이드 유지요법은 무진행생존에서 가장 효과적인 선택지로 분석되었습니다.",
+  "limit": "네트워크 간접 비교이며 유지요법 연구의 이식 여부와 대조군이 달랐습니다.",
+  "against": "호중구감소증, 혈전, 감염과 이차 원발암 위험을 확인해야 합니다.",
+  "use": "다발골수종 유지요법 선택지 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Maintenance treatment and survival in myeloma network meta-analysis", "pmid": "30098165" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=lenalidomide AND query.cond=Myeloma; 626건",
+    "pubmed": "lenalidomide AND Myeloma; 4554건",
+    "negative": "lenalidomide AND Myeloma AND (no effect OR did not OR failed OR negative OR no significant difference); 2957건",
+    "safety": "lenalidomide AND (adverse OR toxicity OR safety OR tolerability); 3413건"
+  }
+}

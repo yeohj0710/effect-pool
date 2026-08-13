@@ -1,0 +1,29 @@
+{
+  "id": "ipilimumab-tumor-null",
+  "subj": "이필리무맙",
+  "claim": "이필리무맙 포함 니볼루맙 요법은 진행성 간세포암에서 용량별 반응률 차이가 크지 않았습니다.",
+  "line": "진행성 간세포암 무작위시험에서 이필리무맙 포함 요법의 반응률은 비슷했습니다.",
+  "effect": "객관적 반응률 27~32%",
+  "vs": "진행성 간세포암 148명 무작위시험에서 객관적 반응률은 이필리무맙 포함 용량군 32% vs 27% vs 29%였습니다(각 49명, 49명, 48명).",
+  "tier": "trial",
+  "dir": "null",
+  "n": 148,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "이필리무맙은 니볼루맙과 함께 일부 진행성 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 간세포암에서 이필리무맙·니볼루맙 용량군을 비교한 무작위 임상시험을 확인했습니다.",
+  "saw": "세 용량군의 객관적 반응률은 27~32%로 겹치는 범위였습니다.",
+  "limit": "표준치료 대조군이 없는 용량 비교 시험이며 간세포암 결과를 모든 종양으로 일반화할 수 없습니다.",
+  "against": "면역매개성 간염, 대장염, 폐렴과 치료 관련 사망을 확인해야 합니다.",
+  "use": "진행성 간세포암의 이필리무맙·니볼루맙 용량 탐색 근거로만 사용합니다.",
+  "refs": [
+    { "label": "CheckMate 040 randomized nivolumab plus ipilimumab study in hepatocellular carcinoma", "pmid": "33001135" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ipilimumab AND query.cond=Tumor; 915건",
+    "pubmed": "ipilimumab AND Tumor; 5934건",
+    "negative": "ipilimumab AND Tumor AND (no effect OR did not OR failed OR negative OR no significant difference); 3827건",
+    "safety": "ipilimumab AND (adverse OR toxicity OR safety OR tolerability); 4426건"
+  }
+}

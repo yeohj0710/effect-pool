@@ -1,0 +1,29 @@
+{
+  "id": "durvalumab-cancer-pos",
+  "subj": "더발루맙",
+  "claim": "진행성 담도암에서 더발루맙 병용은 화학요법보다 생존을 개선합니다.",
+  "line": "진행성 담도암에서 더발루맙 병용은 화학요법보다 생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.80",
+  "vs": "진행성 담도암 685명 무작위시험에서 더발루맙·젬시타빈·시스플라틴의 전체 생존 HR은 위약 병용 대비 0.80(95% CI 0.66~0.97), 24개월 생존은 24.9% 대 10.4%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 685,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "더발루맙은 일부 진행성 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 담도암에서 더발루맙 병용과 위약 병용을 비교한 무작위시험을 확인했습니다.",
+  "saw": "더발루맙 병용은 전체 생존과 무진행생존을 개선했습니다.",
+  "limit": "젬시타빈·시스플라틴과 병용한 진행성 담도암 결과이며 단독요법 효과가 아닙니다.",
+  "against": "면역매개성 장기 이상과 화학요법 독성을 함께 확인해야 합니다.",
+  "use": "진행성 담도암의 화학요법 병용 근거로만 사용합니다.",
+  "refs": [
+    { "label": "TOPAZ-1 durvalumab plus chemotherapy in advanced biliary tract cancer", "pmid": "38319896" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=durvalumab AND query.cond=Cancer; 864건",
+    "pubmed": "durvalumab AND Cancer; 2938건",
+    "negative": "durvalumab AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 1662건",
+    "safety": "durvalumab AND (adverse OR toxicity OR safety OR tolerability); 1780건"
+  }
+}

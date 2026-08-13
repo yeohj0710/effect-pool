@@ -1,0 +1,29 @@
+{
+  "id": "atezolizumab-adenocarcinoma-lung-pos",
+  "subj": "아테졸리주맙",
+  "claim": "전이성 비편평 비소세포폐암에서 아테졸리주맙 병용은 화학요법보다 생존을 개선합니다.",
+  "line": "전이성 비편평 폐암에서 아테졸리주맙 병용은 화학요법보다 생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.79",
+  "vs": "전이성 비편평 비소세포폐암 724명 무작위시험에서 아테졸리주맙·화학요법의 전체 생존은 18.6개월 대 화학요법 13.9개월(HR 0.79, 95% CI 0.64~0.98)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 724,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아테졸리주맙은 비소세포폐암을 포함한 일부 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "전이성 비편평 비소세포폐암에서 아테졸리주맙·화학요법과 화학요법을 비교한 무작위시험을 확인했습니다.",
+  "saw": "아테졸리주맙 병용은 전체 생존과 무진행생존을 개선했습니다.",
+  "limit": "EGFR·ALK 변이가 없는 전이성 비편평 비소세포폐암에 한정된 병용요법 결과입니다.",
+  "against": "면역매개성 장기 이상과 백금·탁산 화학요법 독성을 함께 확인해야 합니다.",
+  "use": "전이성 비편평 비소세포폐암의 1차 병용치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "IMpower130 atezolizumab plus chemotherapy in metastatic nonsquamous NSCLC", "pmid": "31122901" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=atezolizumab AND query.cond=Adenocarcinoma Lung; 39건",
+    "pubmed": "atezolizumab AND Adenocarcinoma Lung; 150건",
+    "negative": "atezolizumab AND Adenocarcinoma Lung AND (no effect OR did not OR failed OR negative OR no significant difference); 92건",
+    "safety": "atezolizumab AND (adverse OR toxicity OR safety OR tolerability); 2652건"
+  }
+}

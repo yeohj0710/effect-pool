@@ -1,0 +1,29 @@
+{
+  "id": "adagrasib-nsclc-pos",
+  "subj": "아다그라십",
+  "claim": "이전 치료를 받은 KRAS G12C 변이 비소세포폐암에서 아다그라십은 도세탁셀보다 무진행생존을 개선합니다.",
+  "line": "KRAS G12C 비소세포폐암에서 아다그라십은 도세탁셀보다 무진행생존을 늘렸습니다.",
+  "effect": "무진행생존 HR 0.58",
+  "vs": "KRAS G12C 변이 비소세포폐암 453명 무작위시험에서 아다그라십의 무진행생존은 5.5개월 대 도세탁셀 3.8개월(HR 0.58, 95% CI 0.45~0.76)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 453,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아다그라십은 KRAS G12C 변이 비소세포폐암에 쓰는 처방 표적항암제입니다.",
+  "why": "이전 치료를 받은 KRAS G12C 변이 비소세포폐암에서 아다그라십과 도세탁셀을 비교한 무작위시험을 확인했습니다.",
+  "saw": "아다그라십은 도세탁셀보다 무진행생존을 개선했습니다.",
+  "limit": "이전 치료 후 진행한 KRAS G12C 변이 비소세포폐암에 한정된 결과입니다.",
+  "against": "위장관 독성, 간효소 상승, QT 연장과 약물상호작용을 확인해야 합니다.",
+  "use": "이전 치료 후 KRAS G12C 변이 비소세포폐암의 표적치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "KRYSTAL-12 adagrasib versus docetaxel in KRAS G12C NSCLC", "pmid": "40783289" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=adagrasib AND query.cond=NSCLC; 23건",
+    "pubmed": "adagrasib AND NSCLC; 189건",
+    "negative": "adagrasib AND NSCLC AND (no effect OR did not OR failed OR negative OR no significant difference); 93건",
+    "safety": "adagrasib AND (adverse OR toxicity OR safety OR tolerability); 112건"
+  }
+}

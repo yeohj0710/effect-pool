@@ -1,0 +1,29 @@
+{
+  "id": "osimertinib-egfr-pos",
+  "subj": "오시머티닙",
+  "claim": "EGFR 변이 진행성 비소세포폐암에서 오시머티닙은 기존 EGFR 티로신키나제억제제보다 무진행생존을 개선합니다.",
+  "line": "EGFR 변이 폐암에서 오시머티닙은 기존 EGFR 억제제보다 무진행생존을 늘렸습니다.",
+  "effect": "무진행생존 HR 0.46",
+  "vs": "EGFR 변이 진행성 비소세포폐암 556명 무작위시험에서 오시머티닙의 무진행생존은 18.9개월 대 기존 EGFR 억제제 10.2개월(HR 0.46, 95% CI 0.37~0.57)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 556,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "오시머티닙은 EGFR 변이 비소세포폐암에 쓰는 처방 표적항암제입니다.",
+  "why": "EGFR 변이 진행성 비소세포폐암에서 오시머티닙과 기존 EGFR 억제제를 비교한 무작위시험을 확인했습니다.",
+  "saw": "오시머티닙은 기존 EGFR 억제제보다 무진행생존을 연장했습니다.",
+  "limit": "EGFR 변이 진행성 비소세포폐암에 한정된 1차 치료 결과입니다.",
+  "against": "간질성 폐질환, QT 연장, 심기능 저하와 피부·설사 이상반응을 확인해야 합니다.",
+  "use": "EGFR 변이 진행성 비소세포폐암의 1차 표적치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "FLAURA osimertinib in untreated EGFR-mutated advanced NSCLC", "pmid": "29151359" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=osimertinib AND query.cond=EGFR; 307건",
+    "pubmed": "osimertinib AND EGFR; 3923건",
+    "negative": "osimertinib AND EGFR AND (no effect OR did not OR failed OR negative OR no significant difference); 2185건",
+    "safety": "osimertinib AND (adverse OR toxicity OR safety OR tolerability); 1477건"
+  }
+}

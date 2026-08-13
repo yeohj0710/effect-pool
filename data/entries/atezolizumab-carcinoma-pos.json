@@ -1,0 +1,29 @@
+{
+  "id": "atezolizumab-carcinoma-pos",
+  "subj": "아테졸리주맙",
+  "claim": "이전에 치료받은 비소세포폐암에서 아테졸리주맙은 도세탁셀보다 생존을 개선합니다.",
+  "line": "치료 경험이 있는 비소세포폐암에서 아테졸리주맙은 도세탁셀보다 생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.73",
+  "vs": "비소세포폐암 1,225명 OAK 무작위시험에서 아테졸리주맙의 전체 생존은 13.8개월 대 도세탁셀 9.6개월(HR 0.73, 95% CI 0.62~0.87)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1225,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아테졸리주맙은 비소세포폐암을 포함한 일부 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "치료 경험이 있는 비소세포폐암에서 아테졸리주맙과 도세탁셀을 비교한 무작위시험을 확인했습니다.",
+  "saw": "아테졸리주맙은 도세탁셀보다 전체 생존을 연장했습니다.",
+  "limit": "비소세포폐암에 한정된 2차 치료 결과이며 종양 조직형별 효과가 다를 수 있습니다.",
+  "against": "면역매개성 폐렴, 간염, 대장염과 주입 관련 반응을 확인해야 합니다.",
+  "use": "이전 치료 후 진행한 비소세포폐암의 치료 선택지 근거로만 사용합니다.",
+  "refs": [
+    { "label": "OAK atezolizumab versus docetaxel in non-small-cell lung cancer", "pmid": "27979383" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=atezolizumab AND query.cond=Carcinoma; 561건",
+    "pubmed": "atezolizumab AND Carcinoma; 3345건",
+    "negative": "atezolizumab AND Carcinoma AND (no effect OR did not OR failed OR negative OR no significant difference); 1819건",
+    "safety": "atezolizumab AND (adverse OR toxicity OR safety OR tolerability); 2652건"
+  }
+}
