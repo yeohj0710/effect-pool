@@ -1,0 +1,21 @@
+{
+  "id": "etravirine-human-immunodeficiency-virus-pos",
+  "subj": "에트라비린",
+  "claim": "치료 경험이 있고 내성이 있는 HIV 감염인에서 에트라비린은 위약보다 24주 바이러스 억제를 늘렸습니다.",
+  "line": "HIV RNA <50 copies/mL 56%·62% vs 39%·44%",
+  "effect": "DUET-1·2 반응 차이 +17%p·+18%p",
+  "vs": "DUET-1·2 무작위 위약대조시험에서 에트라비린 608명과 위약을 비교했습니다. 24주 HIV RNA 50 copies/mL 미만은 DUET-1 56% vs 39%, DUET-2 62% vs 44%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1203,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "에트라비린은 특정 치료 경험 HIV 감염인의 병용요법에 사용되는 비뉴클레오시드 역전사효소 억제제입니다.",
+  "why": "내성 HIV 감염인을 대상으로 에트라비린과 위약을 최적화 배경요법에 추가한 두 3상 무작위시험입니다.",
+  "saw": "에트라비린군에서 24주 바이러스 억제가 위약군보다 높았습니다.",
+  "limit": "다루나비르·리토나비르와 배경요법을 모두 병용한 치료 경험 환자군의 결과입니다.",
+  "against": "발진, 설사와 약물상호작용, 내성 장벽을 함께 고려해야 합니다.",
+  "use": "내성 치료 경험 HIV 감염인의 병용요법 선택을 검토할 때 참고합니다.",
+  "refs": [{ "label": "DUET-1 에트라비린 HIV 3상 무작위 위약대조시험", "pmid": "17617270", "nct": "NCT00254046" }, { "label": "DUET-2 에트라비린 HIV 3상 무작위 위약대조시험", "pmid": "17617271", "nct": "NCT00255099" }],
+  "queried": { "date": "2026-08-13", "ctgov": "query.intr=etravirine; exact intervention-name match 확인", "pubmed": "etravirine AND human immunodeficiency virus; PMID 17617270·17617271 확인", "negative": "etravirine AND HIV AND (no effect OR failed OR negative) 확인", "safety": "etravirine AND (adverse OR toxicity OR rash) 확인" }
+}

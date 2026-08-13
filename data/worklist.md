@@ -14283,7 +14283,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] caregiver education — Palliative Care에 듣는다  <!-- 시험 4건 · 논문 2701편 -->
 - [x] ravulizumab — Thrombotic Microangiopathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->  <!-- 시험 4건 · 논문 102편 --> — no eligible direct numeric comparator in verified ClinicalTrials.gov/PubMed evidence
 - [x] ravulizumab — gMG에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->  <!-- 시험 3건 · 논문 37편 --> — linked existing entry ravulizumab-myasthenia-gravis-pos
-- [ ] ravulizumab — PNH에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->  <!-- 시험 3건 · 논문 174편 -->
+- [x] ravulizumab — PNH에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->  <!-- 시험 3건 · 논문 174편 --> (batch 1275; evidence-new PMID30510080)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15248,9 +15248,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] beetroot extract — Nitrate에 듣는다  <!-- 시험 3건 · 논문 88편 --> — 항목 생성(beetroot-extract-nitrate-pos)
 - [x] beetroot extract — Exercise Performance에 듣는다  <!-- 시험 3건 · 논문 41편 --> — 항목 생성(beetroot-extract-exercise-performance-pos)
 - [x] dance walking — Aging에 듣는다  <!-- 시험 5건 · 논문 101편 --> — 항목 생성(dance-walking-aging-pos)
-- [ ] aflibercept — Retinal Degeneration에 듣는다  <!-- 시험 175건 · 논문 2329편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] aflibercept — Retinal Degeneration에 듣는다  <!-- 시험 175건 · 논문 2329편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID38461841)
 - [x] aflibercept — Cancer에 듣는다  <!-- 시험 52건 · 논문 654편 --> — 항목 생성(aflibercept-cancer-pos)
-- [ ] aflibercept — Retinal Disease에 듣는다  <!-- 시험 45건 · 논문 2606편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] aflibercept — Retinal Disease에 듣는다  <!-- 시험 45건 · 논문 2606편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID38461841)
 - [x] aflibercept — Neovascularization에 듣는다  <!-- 시험 40건 · 논문 2055편 --> — 같은 근거(aflibercept-cancer-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -15286,7 +15286,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tai chi — Fall에 듣는다  <!-- 시험 6건 · 논문 321편 --> — 같은 근거(tai-chi-falls-pos, 2026-08-08)
 - [x] ganaxolone — Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(ganaxolone-depressive-disorder-pos, 2026-08-08)
 - [x] ganaxolone — Epilepsies, Partial에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 근거 없음(2026-08-08, "ganaxolone AND Epilepsies, Partial")
-- [ ] ganaxolone — CDKL5 Disorder에 듣는다  <!-- 시험 3건 · 논문 20편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] ganaxolone — CDKL5 Disorder에 듣는다  <!-- 시험 3건 · 논문 20편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID35429480)
 - [x] ganaxolone — Postpartum에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목 생성(ganaxolone-postpartum-null, 2026-08-08)
 - [x] pimavanserin — Insomnia에 듣는다  <!-- 시험 3건 · 논문 18편 --> — 항목 생성(pimavanserin-insomnia-open, 2026-08-08)
 - [x] pimavanserin — Neurodegenerative Diseases에 듣는다  <!-- 시험 3건 · 논문 176편 --> — 항목 생성(pimavanserin-neurodegenerative-diseases-pos, 2026-08-08)
@@ -15376,7 +15376,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness retreat — Burnout에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 항목(mindfulness-retreat-burnout-pos, 2026-08-08)
 - [x] mindfulness retreat — Drug Use에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 근거 없음(2026-08-08, "mindfulness retreat AND Drug Use")
 - [x] remimazolam — Propofol에 듣는다  <!-- 시험 12건 · 논문 641편 --> — 같은 근거(remimazolam-surgery-pos, 2026-08-08)
-- [ ] remimazolam — Endoscopy에 듣는다  <!-- 시험 12건 · 논문 271편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] remimazolam — Endoscopy에 듣는다  <!-- 시험 12건 · 논문 271편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; linked remimazolam-sedation-null PMID38039392)
 - [x] remimazolam — Drug Effect에 듣는다  <!-- 시험 10건 · 논문 499편 --> — 같은 근거(remimazolam-surgery-pos, 2026-08-08)
 - [x] remimazolam — Orthopedic Surgery에 듣는다  <!-- 시험 9건 · 논문 32편 --> — 항목(remimazolam-orthopedic-surgery-pos, 2026-08-08)
 
@@ -15433,17 +15433,17 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] reading intervention — Obesity에 듣는다  <!-- 시험 5건 · 논문 1088편 --> — 근거 없음(2026-08-08, "reading intervention AND Obesity")
 - [x] reading intervention — Aphasia, Acquired에 듣는다  <!-- 시험 3건 · 논문 385편 --> — 같은 근거(reading-therapy-aphasia-pos, 2026-08-08)
 - [x] lorcaserin — Opioid Use에 듣는다  <!-- 시험 15건 · 논문 26편 --> — 항목(lorcaserin-opioid-use-null, 2026-08-08)
-- [ ] lorcaserin — Obesity에 듣는다  <!-- 시험 14건 · 논문 432편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] lorcaserin — Obesity에 듣는다  <!-- 시험 14건 · 논문 432편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID20647200/21795446)
 - [x] lorcaserin — Weight Gain에 듣는다  <!-- 시험 5건 · 논문 48편 --> — 근거 없음(2026-08-08, "lorcaserin AND Weight Gain")
-- [ ] lorcaserin — Overweight에 듣는다  <!-- 시험 4건 · 논문 334편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] mipomersen — Metabolism, Inborn Errors에 듣는다  <!-- 시험 13건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] mipomersen — Metabolic Diseases에 듣는다  <!-- 시험 10건 · 논문 178편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] mipomersen — Hyperlipidemias에 듣는다  <!-- 시험 5건 · 논문 158편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] mipomersen — Dyslipidemias에 듣는다  <!-- 시험 5건 · 논문 179편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] paricalcitol — Kidney Failure에 듣는다  <!-- 시험 31건 · 논문 335편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] paricalcitol — Hyperparathyroidism에 듣는다  <!-- 시험 29건 · 논문 367편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] lorcaserin — Overweight에 듣는다  <!-- 시험 4건 · 논문 334편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID20647200/21795446)
+- [x] mipomersen — Metabolism, Inborn Errors에 듣는다  <!-- 시험 13건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID23060426/23152839/24013058)
+- [x] mipomersen — Metabolic Diseases에 듣는다  <!-- 시험 10건 · 논문 178편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID23060426/23152839/24013058)
+- [x] mipomersen — Hyperlipidemias에 듣는다  <!-- 시험 5건 · 논문 158편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID23060426/23152839/24013058)
+- [x] mipomersen — Dyslipidemias에 듣는다  <!-- 시험 5건 · 논문 179편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID23060426/23152839/24013058)
+- [x] paricalcitol — Kidney Failure에 듣는다  <!-- 시험 31건 · 논문 335편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID16316359/17914251)
+- [x] paricalcitol — Hyperparathyroidism에 듣는다  <!-- 시험 29건 · 논문 367편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID16316359/17914251)
 - [x] paricalcitol — Renal Transplant에 듣는다  <!-- 시험 15건 · 논문 77편 --> — 항목(paricalcitol-renal-transplant-open, 2026-08-08)
-- [ ] paricalcitol — Hemodialysis에 듣는다  <!-- 시험 6건 · 논문 289편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] paricalcitol — Hemodialysis에 듣는다  <!-- 시험 6건 · 논문 289편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID16316359/17914251)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15468,7 +15468,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] rilzabrutinib — Autoimmune Disorder에 듣는다  <!-- 시험 3건 · 논문 41편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] rilzabrutinib — Autoimmune Disorder에 듣는다  <!-- 시험 3건 · 논문 41편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID38493933)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15493,7 +15493,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] elamipretide — Barth Syndrome에 듣는다  <!-- 시험 3건 · 논문 30편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] elamipretide — Barth Syndrome에 듣는다  <!-- 시험 3건 · 논문 30편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID33077895)
 - [x] elamipretide — Heart Failure에 듣는다  <!-- 시험 3건 · 논문 49편 --> — 항목(elamipretide-heart-failure-null, 2026-08-08)
 - [x] elamipretide — Age-Related Macular Degeneration에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 항목(elamipretide-age-related-macular-degeneration-pos, 2026-08-08)
 - [x] morning bright light — Breast Cancer에 듣는다  <!-- 시험 4건 · 논문 9편 --> — 항목(morning-bright-light-breast-cancer-pos, 2026-08-08)
@@ -15521,10 +15521,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] ofatumumab — Lymphoma에 듣는다  <!-- 시험 71건 · 논문 234편 --> — 항목(ofatumumab-lymphoma-open, 2026-08-08)
-- [ ] ofatumumab — Multiple Sclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 45건 · 논문 374편 -->
+- [x] ofatumumab — Multiple Sclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 45건 · 논문 374편 --> (batch 1275; evidence-new PMID32757523/26784000)
 - [x] ofatumumab — Arthritis, Rheumatoid에 듣는다  <!-- 시험 4건 · 논문 32편 --> — 항목(ofatumumab-rheumatoid-arthritis-pos, 2026-08-08)
-- [ ] ofatumumab — CLL에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 4건 · 논문 236편 -->
-- [ ] sparsentan — Focal Segmental Glomerulosclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 4건 · 논문 44편 -->
+- [x] ofatumumab — CLL에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 4건 · 논문 236편 --> (batch 1275; evidence-new PMID32757523/26784000)
+- [x] sparsentan — Focal Segmental Glomerulosclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->  <!-- 시험 4건 · 논문 44편 --> (batch 1275; evidence-new PMID37921461)
 - [x] sparsentan — Kidney Diseases에 듣는다  <!-- 시험 4건 · 논문 73편 --> — 항목(sparsentan-kidney-diseases-pos, 2026-08-08)
 - [x] sparsentan — IgA Vasculitis에 듣는다  <!-- 시험 4건 · 논문 8편 --> — 항목(sparsentan-iga-vasculitis-open, 2026-08-08)
 - [x] sparsentan — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 74편 --> — 항목(sparsentan-proteinuria-pos, 2026-08-08)
@@ -15667,7 +15667,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] produce box — Obesity에 듣는다  <!-- 시험 3건 · 논문 374편 --> — 항목(produce-box-obesity-open, 2026-08-08)
 - [x] produce box — Pre-diabetes에 듣는다  <!-- 시험 3건 · 논문 32편 --> — 근거 없음(2026-08-08, ClinicalTrials.gov 직접 결과 미확인; PubMed 직접 결과 없음)
 - [x] sleep position therapy — Neck Pain에 듣는다  <!-- 시험 3건 · 논문 47편 --> — 항목(sleep-position-therapy-neck-pain-pos, 2026-08-08)
-- [ ] etelcalcetide — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 91편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] etelcalcetide — Chronic Kidney Disease에 듣는다  <!-- 시험 4건 · 논문 91편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID28097356)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15706,7 +15706,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] air quality monitoring — Health Behavior에 듣는다  <!-- 시험 3건 · 논문 707편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Health Behavior; ClinicalTrials.gov 직접 결과 미확인)
 - [x] air quality monitoring — Asthma에 듣는다  <!-- 시험 3건 · 논문 1475편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Asthma; ClinicalTrials.gov 직접 결과 미확인)
 - [x] air quality monitoring — Cholesterol에 듣는다  <!-- 시험 3건 · 논문 87편 --> — 근거 없음(2026-08-08, PubMed: air quality monitoring AND Cholesterol; ClinicalTrials.gov 직접 결과 미확인)
-- [ ] fexinidazole — Sleeping Sickness에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] fexinidazole — Sleeping Sickness에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID29113731)
 - [x] fexinidazole — Chagas Disease에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 항목(fexinidazole-chagas-disease-open, 2026-08-08)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -15718,7 +15718,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sugammadex — Anesthesia에 듣는다  <!-- 시험 63건 · 논문 1275편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] sugammadex — Anesthesia에 듣는다  <!-- 시험 63건 · 논문 1275편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID34032663)
 - [x] sugammadex — Postoperative Pain에 듣는다  <!-- 시험 25건 · 논문 190편 --> — 항목(sugammadex-postoperative-pain-null, 2026-08-08)
 - [x] sugammadex — Surgery에 듣는다  <!-- 시험 23건 · 논문 1077편 --> — 항목(sugammadex-surgery-pos, 2026-08-08)
 - [x] sugammadex — Surgical Conditions에 듣는다  <!-- 시험 8건 · 논문 199편 --> — 항목(sugammadex-surgical-conditions-null, 2026-08-08)
@@ -15766,11 +15766,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydration intervention — Renal Insufficiency에 듣는다  <!-- 시험 6건 · 논문 1021편 --> — 항목(hydration-intervention-renal-insufficiency-null, 2026-08-08)
 - [x] hydration intervention — Obesity Prevention에 듣는다  <!-- 시험 3건 · 논문 107편 --> — 항목(hydration-intervention-obesity-prevention-open, 2026-08-08)
 - [x] hydration intervention — Health Behavior에 듣는다  <!-- 시험 3건 · 논문 612편 --> — 항목(hydration-intervention-health-behavior-pos, 2026-08-08)
-- [ ] roxadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 12건 · 논문 309편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] roxadustat — Renal Anaemia에 듣는다  <!-- 시험 6건 · 논문 311편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] roxadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 12건 · 논문 309편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID31340089/33732977)
+- [x] roxadustat — Renal Anaemia에 듣는다  <!-- 시험 6건 · 논문 311편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID31340089/33732977)
 - [x] roxadustat — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(roxadustat-myelodysplastic-syndromes-null, 2026-08-08)
 - [x] roxadustat — Diabetes Complications에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 항목(roxadustat-diabetes-complications-pos, 2026-08-08)
-- [ ] vadadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 10건 · 논문 84편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] vadadustat — Chronic Kidney Disease에 듣는다  <!-- 시험 10건 · 논문 84편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID33913637)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15801,7 +15801,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] financial planning education — Literacy에 듣는다  <!-- 시험 3건 · 논문 807편 --> — 근거 없음(2026-08-08, PubMed: financial literacy education nursing students anxiety; ClinicalTrials.gov: NCT07092956 결과 보고 미확인)
 - [x] financial planning education — Impaired Driving에 듣는다  <!-- 시험 3건 · 논문 25편 --> — 근거 없음(2026-08-08, PubMed: financial planning education AND impaired driving; ClinicalTrials.gov: NCT05469477 금융 인센티브로 중재명 불일치)
 - [x] ibrexafungerp — Candida Infection에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 항목(ibrexafungerp-candida-infection-open, 2026-08-08)
-- [ ] avacopan — ANCA-Associated Vasculitis에 듣는다  <!-- 시험 3건 · 논문 245편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] avacopan — ANCA-Associated Vasculitis에 듣는다  <!-- 시험 3건 · 논문 245편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID33596356)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -15842,15 +15842,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] community resilience — Resilience에 듣는다  <!-- 시험 5건 · 논문 23452편 --> — 근거 없음(2026-08-08, community resilience Resilience; ClinicalTrials.gov NCT06771167 모집 중·결과 논문 없음)
 - [x] community resilience — Child Development에 듣는다  <!-- 시험 3건 · 논문 1185편 --> — community-resilience-child-development-pos (2026-08-08)
 - [x] community resilience — Disaster에 듣는다  <!-- 시험 3건 · 논문 2781편 --> — community-resilience-disaster-pos (2026-08-08)
-- [ ] atazanavir — Human Immunodeficiency Virus에 듣는다  <!-- 시험 10건 · 논문 1930편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] atazanavir — Human Immunodeficiency Virus에 듣는다  <!-- 시험 10건 · 논문 1930편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID28093483)
 - [x] atazanavir — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 98편 --> — atazanavir-hepatitis-c-null (2026-08-08)
 - [x] atazanavir — Endothelial Dysfunction에 듣는다  <!-- 시험 4건 · 논문 15편 --> — atazanavir-endothelial-dysfunction-pos (2026-08-08)
 - [x] atazanavir — Tuberculosis에 듣는다  <!-- 시험 3건 · 논문 34편 --> — atazanavir-tuberculosis-null (2026-08-08)
-- [ ] darunavir — AIDS Virus에 듣는다  <!-- 시험 17건 · 논문 2001편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
-- [ ] darunavir — AIDS에 듣는다  <!-- 시험 3건 · 논문 759편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] darunavir — AIDS Virus에 듣는다  <!-- 시험 17건 · 논문 2001편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID17617272; AIDS topic linked)
+- [x] darunavir — AIDS에 듣는다  <!-- 시험 3건 · 논문 759편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID17617272; AIDS topic linked)
 - [x] darunavir — Hepatitis C에 듣는다  <!-- 시험 3건 · 논문 74편 --> — darunavir-hepatitis-c-null (2026-08-08)
 - [x] darunavir — Patient Compliance에 듣는다  <!-- 시험 3건 · 논문 46편 --> — darunavir-patient-compliance-pos (2026-08-08)
-- [ ] etravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 6건 · 논문 836편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->
+- [x] etravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 6건 · 논문 836편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 --> (batch 1275; evidence-new PMID17617270/17617271)
 - [x] etravirine — Hepatitis B에 듣는다  <!-- 시험 3건 · 논문 19편 --> — etravirine-hepatitis-b-null (2026-08-08)
 - [x] maraviroc — Virus Diseases에 듣는다  <!-- 시험 13건 · 논문 842편 --> — maraviroc-virus-diseases-pos (2026-08-08)
 - [ ] maraviroc — AIDS에 듣는다  <!-- 시험 7건 · 논문 412편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-08 -->

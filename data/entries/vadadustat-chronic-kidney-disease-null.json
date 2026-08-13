@@ -1,0 +1,21 @@
+{
+  "id": "vadadustat-chronic-kidney-disease-null",
+  "subj": "바다두스타트",
+  "claim": "투석하지 않는 만성 신장질환 빈혈에서 바다두스타트는 다베포에틴 알파보다 헤모글로빈 효과에서 비열등했지만 심혈관 안전성 비열등성은 충족하지 못했습니다.",
+  "line": "헤모글로빈 차이 +0.05·-0.01g/dL; MACE HR 1.17",
+  "effect": "MACE HR 1.17",
+  "vs": "두 3상 무작위 활성대조시험에서 투석 전 CKD 빈혈 3476명을 분석했습니다. 헤모글로빈 변화 차이는 +0.05와 -0.01g/dL로 비열등했지만, MACE 위험비는 1.17(95% CI 1.01-1.36)로 안전성 비열등성 기준을 넘었습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3476,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "바다두스타트는 헤모글로빈 효능은 확인됐지만 투석 전 CKD에서 심혈관 안전성 문제가 제기된 약물입니다.",
+  "why": "바다두스타트와 다베포에틴 알파를 비교한 두 3상 무작위 비열등성 시험의 통합 결과입니다.",
+  "saw": "헤모글로빈 조절은 비열등했지만 주요 심혈관 사건 비열등성은 충족하지 못했습니다.",
+  "limit": "안전성 결과는 투석 전 환자군에 해당하며 다른 CKD 단계에 자동 적용할 수 없습니다.",
+  "against": "사망, 심근경색, 뇌졸중과 심부전·혈전색전 사건 위험을 우선 고려해야 합니다.",
+  "use": "만성 신장질환 빈혈에서 바다두스타트의 효능과 심혈관 안전성을 함께 검토할 때 참고합니다.",
+  "refs": [{ "label": "PRO2TECT 바다두스타트 대 다베포에틴 알파 투석 전 CKD 3상시험", "pmid": "33913637", "nct": "NCT02648347" }],
+  "queried": { "date": "2026-08-13", "ctgov": "query.intr=vadadustat; exact intervention-name match 확인", "pubmed": "vadadustat AND chronic kidney disease; PMID 33913637 확인", "negative": "vadadustat AND chronic kidney disease AND (no effect OR failed OR negative) 확인", "safety": "vadadustat AND (adverse OR toxicity OR cardiovascular) 확인" }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "darunavir-aids-virus-pos",
+  "subj": "다루나비르",
+  "claim": "치료 경험이 있는 HIV 감염인에서 다루나비르·리토나비르는 로피나비르·리토나비르보다 48주 바이러스 억제율이 높았습니다.",
+  "line": "HIV RNA <400 copies/mL 77% vs 68%",
+  "effect": "바이러스 억제 차이 +9%p",
+  "vs": "TITAN 3상 무작위시험 595명에서 다루나비르·리토나비르와 로피나비르·리토나비르를 비교했습니다. 48주 HIV RNA 400 copies/mL 미만은 77%(220/286) vs 68%(199/293)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 595,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "다루나비르는 HIV 감염 치료에 사용되는 프로테아제 억제제이며 병용요법이 필요합니다.",
+  "why": "로피나비르 경험이 없는 치료 경험 HIV 감염인을 무작위 배정한 3상 활성대조시험입니다.",
+  "saw": "다루나비르군에서 48주 바이러스 억제율이 높고 바이러스학적 실패와 내성 돌연변이가 적었습니다.",
+  "limit": "최적화 배경요법이 함께 사용됐고 공개시험이므로 모든 HIV 치료 상황에 직접 일반화할 수 없습니다.",
+  "against": "약물상호작용, 위장관 이상반응과 단백분해효소 억제제 내성을 관찰해야 합니다.",
+  "use": "치료 경험 HIV 감염인의 프로테아제 억제제 선택을 검토할 때 참고합니다.",
+  "refs": [{ "label": "TITAN 다루나비르·리토나비르 대 로피나비르·리토나비르 HIV 3상시험", "pmid": "17617272", "nct": "NCT00110877" }],
+  "queried": { "date": "2026-08-13", "ctgov": "query.intr=darunavir; exact intervention-name match 확인", "pubmed": "darunavir AND AIDS virus; PMID 17617272 확인", "negative": "darunavir AND AIDS virus AND (no effect OR failed OR negative) 확인", "safety": "darunavir AND (adverse OR toxicity OR rash) 확인" }
+}

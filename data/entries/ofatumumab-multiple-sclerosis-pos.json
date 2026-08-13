@@ -1,0 +1,21 @@
+{
+  "id": "ofatumumab-multiple-sclerosis-pos",
+  "subj": "오파투무맙",
+  "claim": "재발성 다발경화증에서 오파투무맙은 테리플루노미드보다 연간 재발률을 낮췄습니다.",
+  "line": "연간 재발률 0.11·0.10 vs 0.22·0.25",
+  "effect": "재발률 차이 -0.11·-0.15회",
+  "vs": "ASCLEPIOS I·II 3상시험 1882명에서 오파투무맙과 테리플루노미드를 비교했습니다. 연간 재발률은 두 시험에서 각각 0.11 vs 0.22, 0.10 vs 0.25회였습니다(p<0.001).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1882,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "오파투무맙은 재발성 다발경화증의 질병수정치료제로 허가된 항-CD20 항체입니다.",
+  "why": "재발성 다발경화증 환자를 오파투무맙과 테리플루노미드에 무작위 배정한 두 3상 이중눈가림 시험입니다.",
+  "saw": "오파투무맙군의 연간 재발률과 장애 악화가 대조군보다 낮았습니다.",
+  "limit": "테리플루노미드와의 비교이며 다른 질병수정치료제와의 직접 비교는 아닙니다.",
+  "against": "감염, 주사 관련 반응, 면역글로불린 저하를 관찰해야 합니다.",
+  "use": "재발성 다발경화증의 항-CD20 치료 선택을 검토할 때 참고합니다.",
+  "refs": [{ "label": "ASCLEPIOS I·II 오파투무맙 대 테리플루노미드 3상시험", "pmid": "32757523", "nct": "NCT02792218" }],
+  "queried": { "date": "2026-08-13", "ctgov": "query.intr=ofatumumab; exact intervention-name match 확인", "pubmed": "ofatumumab AND multiple sclerosis; PMID 32757523 확인", "negative": "ofatumumab AND multiple sclerosis AND (no effect OR failed OR negative) 확인", "safety": "ofatumumab AND (adverse OR toxicity OR infection) 확인" }
+}

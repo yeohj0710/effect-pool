@@ -1,0 +1,21 @@
+{
+  "id": "paricalcitol-hemodialysis-pos",
+  "subj": "파리칼시톨",
+  "claim": "이차성 부갑상선기능항진증 혈액투석 환자에서 파리칼시톨은 칼시트리올보다 장내 칼슘 흡수를 낮췄습니다.",
+  "line": "분획 칼슘 흡수 0.135 vs 0.158",
+  "effect": "칼슘 흡수 약 14% 낮음",
+  "vs": "유지 혈액투석 환자 22명 무작위 교차시험에서 파리칼시톨과 칼시트리올을 비교했습니다. 분획 장내 칼슘 흡수는 0.135 vs 0.158이었고 파리칼시톨에서 약 14% 낮았습니다(p=0.022).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 22,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "파리칼시톨은 혈액투석 환자의 이차성 부갑상선기능항진증에 사용되는 비타민 D 유사체입니다.",
+  "why": "이차성 부갑상선기능항진증이 있는 유지 혈액투석 환자를 파리칼시톨과 칼시트리올에 무작위 배정한 이중눈가림 교차시험입니다.",
+  "saw": "파리칼시톨에서 칼시트리올보다 장내 칼슘 흡수가 낮았고 PTH와 혈청 칼슘·인은 유의한 차이가 없었습니다.",
+  "limit": "표본이 22명인 소규모 교차시험이며 주요 신장 임상결과를 평가하지 않았습니다.",
+  "against": "칼슘·인 대사, PTH와 혈관 석회화 위험을 함께 확인해야 합니다.",
+  "use": "혈액투석 환자의 비타민 D 유사체 선택을 검토할 때 참고합니다.",
+  "refs": [{ "label": "혈액투석 파리칼시톨 대 칼시트리올 칼슘 흡수 무작위시험", "pmid": "20016142" }],
+  "queried": { "date": "2026-08-13", "ctgov": "query.intr=paricalcitol; exact intervention-name match 확인", "pubmed": "paricalcitol AND hemodialysis; PMID 20016142 확인", "negative": "paricalcitol AND hemodialysis AND (no effect OR failed OR negative) 확인", "safety": "paricalcitol AND (adverse OR hypercalcemia OR hyperphosphatemia) 확인" }
+}
