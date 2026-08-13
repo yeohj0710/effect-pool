@@ -1,0 +1,29 @@
+{
+  "id": "moxifloxacin-conjunctivitis-pos",
+  "subj": "목시플록사신",
+  "claim": "세균성 결막염이 의심되는 소아에서 목시플록사신 점안은 임상 회복을 앞당겼다",
+  "line": "소아 결막염에서 목시플록사신 점안은 무치료보다 회복이 빨랐다.",
+  "effect": "임상 회복 3.8일 vs 5.7일",
+  "vs": "소아 결막염 88명 무작위시험에서 목시플록사신 점안군의 임상 회복까지 걸린 시간은 3.8일, 무치료군은 5.7일로 차이는 -1.9일(95% CI -3.7~-0.1)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 88,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "목시플록사신 점안액은 세균성 결막염에 사용하는 처방 항균제입니다.",
+  "why": "소아 결막염 환자를 목시플록사신, 위약, 무치료군으로 나눈 무작위시험의 직접 결과입니다.",
+  "saw": "목시플록사신군 30명, 위약군 27명, 무치료군 31명이 배정됐고 목시플록사신군은 무치료군보다 회복이 1.9일 빨랐습니다.",
+  "limit": "표본이 작고 소아 대상이며 일부 결과는 무치료군과의 비교입니다. 모든 결막염 원인에 같은 효과를 적용할 수 없습니다.",
+  "against": "항생제 점안이 필요한 세균성 결막염인지 바이러스성 결막염인지 이 시험만으로 구분할 수 없습니다.",
+  "use": "소아 세균성 결막염에서 점안 항균제의 회복 시점을 설명할 때 참고합니다.",
+  "refs": [
+    { "label": "소아 급성 결막염에서 국소 항생제와 무치료를 비교한 무작위시험", "pmid": "36194412" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=moxifloxacin&query.cond=Conjunctivitis; 반환 기록의 InterventionName을 대조함",
+    "pubmed": "moxifloxacin AND Conjunctivitis — 134건",
+    "negative": "moxifloxacin AND Conjunctivitis AND (no effect OR did not OR failed OR negative OR no significant difference) — 확인함",
+    "safety": "moxifloxacin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) — 확인함"
+  }
+}

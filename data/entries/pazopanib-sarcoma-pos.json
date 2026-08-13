@@ -1,0 +1,29 @@
+{
+  "id": "pazopanib-sarcoma-pos",
+  "subj": "파조파닙",
+  "claim": "표준 화학요법 후 전이성 비지방육종 연조직육종에서 파조파닙은 위약보다 무진행생존을 늘렸다",
+  "line": "전이성 비지방육종에서 파조파닙은 위약보다 무진행생존을 늘렸다.",
+  "effect": "무진행생존 중앙값 4.6개월 vs 1.6개월",
+  "vs": "표준 화학요법 후 전이성 비지방육종 연조직육종 369명 무작위시험에서 파조파닙의 무진행생존 중앙값은 4.6개월, 위약은 1.6개월(HR 0.31, 95% CI 0.24~0.40)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 369,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "파조파닙은 이전 화학요법을 받은 진행성 연조직육종에 사용하는 처방 표적항암제입니다.",
+  "why": "표준 화학요법 후 전이성 비지방육종 연조직육종 환자를 파조파닙과 위약에 2:1로 무작위 배정한 3상 직접 비교시험입니다.",
+  "saw": "파조파닙 246명과 위약 123명을 비교했고 무진행생존 중앙값은 4.6개월 대 1.6개월이었습니다.",
+  "limit": "지방육종은 제외된 시험이며 전체 생존은 유의하게 개선되지 않았습니다(HR 0.86, 95% CI 0.67~1.11).",
+  "against": "설사, 피로, 구역, 체중 감소, 고혈압이 파조파닙군에서 더 흔했으므로 독성을 함께 고려해야 합니다.",
+  "use": "표준 화학요법 후 진행한 비지방육종 연조직육종의 치료 선택을 설명할 때 참고합니다.",
+  "refs": [
+    { "label": "전이성 비지방육종 연조직육종에서 파조파닙을 평가한 PALETTE 3상 시험", "pmid": "22595799", "nct": "NCT00753688" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=pazopanib&query.cond=Sarcoma; 반환 기록의 InterventionName을 대조함",
+    "pubmed": "pazopanib AND Sarcoma — 706건",
+    "negative": "pazopanib AND Sarcoma AND (no effect OR did not OR failed OR negative OR no significant difference) — 확인함",
+    "safety": "pazopanib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) — 확인함"
+  }
+}

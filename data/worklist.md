@@ -9310,10 +9310,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] moxifloxacin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 24건 · 논문 1200편 -->
-- [ ] moxifloxacin — Conjunctivitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 134편 -->
+- [x] moxifloxacin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 24건 · 논문 1200편 --> — 항목 생성(moxifloxacin-pneumonia-null)
+- [x] moxifloxacin — Conjunctivitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 134편 --> — 항목 생성(moxifloxacin-conjunctivitis-pos)
 - [x] moxifloxacin — Healthy Male에 듣는다  <!-- 시험 21건 · 논문 385편 -->
-- [ ] moxifloxacin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 21건 · 논문 5315편 -->
+- [x] moxifloxacin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 21건 · 논문 5315편 --> — 근거 없음(2026-08-13 조회, 넓은 감염 범주라 단일 비교 효과를 일반화할 수 없어 제외)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9331,25 +9331,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] naproxen — Migraine에 듣는다  <!-- 시험 33건 · 논문 243편 -->
 - [x] naproxen — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1469편 --> — 새 항목(naproxen-arthritis-null)
 - [x] naproxen — Dysmenorrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 169편 --> — 새 항목(naproxen-dysmenorrhea-pos)
-- [ ] remdesivir — Covid19에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 4484편 -->
-- [ ] remdesivir — SARS-CoV-2에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 3561편 -->
-- [ ] remdesivir — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2507편 -->
+- [x] remdesivir — Covid19에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 4484편 --> — 항목 생성(remdesivir-covid19-pos)
+- [x] remdesivir — SARS-CoV-2에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 3561편 --> — 항목 생성(remdesivir-sars-cov-2-pos)
+- [x] remdesivir — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2507편 --> — 항목 생성(remdesivir-pneumonia-pos)
 - [x] remdesivir — Ebola Virus에 듣는다  <!-- 시험 4건 · 논문 110편 -->
-- [ ] ritonavir — Hepatitis C에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 79건 · 논문 849편 -->
-- [ ] ritonavir — COVID에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 51건 · 논문 2686편 -->
-- [ ] ritonavir — HCV Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 50건 · 논문 875편 -->
+- [x] ritonavir — Hepatitis C에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 79건 · 논문 849편 --> — 근거 없음(2026-08-13 조회, 확인된 근거가 리토나비르 포함 복합요법뿐이라 단일 성분 효과로 기록하지 않음)
+- [x] ritonavir — COVID에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 51건 · 논문 2686편 --> — 근거 없음(2026-08-13 조회, 확인된 근거가 리토나비르 포함 복합요법뿐이라 단일 성분 효과로 기록하지 않음)
+- [x] ritonavir — HCV Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 50건 · 논문 875편 --> — 근거 없음(2026-08-13 조회, 확인된 근거가 리토나비르 포함 복합요법뿐이라 단일 성분 효과로 기록하지 않음)
 - [x] ritonavir — Healthy Participant에 듣는다 — 치료 결과 없는 약동학 연구라 제외(2026-08-05)  <!-- 시험 11건 · 논문 299편 -->
 - [x] methylnaltrexone — Healthy Males에 듣는다 — 치료 결과 없는 약동학·안전성 연구라 제외(2026-08-05)  <!-- 시험 7건 · 논문 19편 -->
 - [x] methylnaltrexone — Postoperative Ileus에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] erenumab — Headache에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 532편 -->
+- [x] erenumab — Headache에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 532편 --> — 항목 생성(erenumab-headache-pos)
 - [x] erenumab — Facial Pain에 듣는다  <!-- 시험 3건 · 논문 13편 -->
-- [ ] upadacitinib — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 28건 · 논문 596편 -->
-- [ ] upadacitinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 393편 -->
-- [ ] upadacitinib — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 320편 -->
-- [ ] upadacitinib — Inflammatory Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 695편 -->
-- [ ] valbenazine — Schizophrenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 41편 -->
+- [x] upadacitinib — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 28건 · 논문 596편 --> — 항목 생성(upadacitinib-atopic-dermatitis-pos)
+- [x] upadacitinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 393편 --> — 항목 생성(upadacitinib-ulcerative-colitis-pos)
+- [x] upadacitinib — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 320편 --> — 항목 생성(upadacitinib-crohn-disease-pos)
+- [x] upadacitinib — Inflammatory Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 695편 --> — 근거 없음(2026-08-13 조회, 여러 염증질환을 하나의 효과로 일반화할 수 없어 제외)
+- [x] valbenazine — Schizophrenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 41편 --> — 근거 없음(2026-08-13 조회, 유효한 중재군·대조군 수치가 있는 직접 비교를 확인하지 못해 제외)
 - [x] valbenazine — Tourette Syndrome에 듣는다  <!-- 시험 4건 · 논문 16편 -->
-- [ ] valbenazine — Chorea, Huntington에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 38편 -->
+- [x] valbenazine — Chorea, Huntington에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 38편 --> — 항목 생성(valbenazine-chorea-huntington-pos)
 - [x] zileuton — Lung Cancer에 듣는다  <!-- 시험 4건 · 논문 19편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -9362,41 +9362,41 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] acitretin — Skin Rash에 듣는다  <!-- 시험 3건 · 논문 40편 -->
-- [ ] baloxavir — Infection Viral에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 445편 -->
-- [ ] captopril — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1878편 -->
-- [ ] captopril — Type 1 Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 135편 -->
+- [x] baloxavir — Infection Viral에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 445편 --> — 항목 생성(baloxavir-infection-viral-pos)
+- [x] captopril — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1878편 --> — 항목 생성(captopril-heart-failure-null)
+- [x] captopril — Type 1 Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 135편 --> — 항목 생성(captopril-type-1-diabetes-pos)
 - [x] captopril — Primary Aldosteronism에 듣는다 — 진단용 captopril challenge 연구라 치료 항목 제외(2026-08-05)  <!-- 시험 4건 · 논문 331편 -->
 - [x] captopril — Kidney Insufficiency에 듣는다 — 치료 결과 없는 신장생리·진단 연구라 제외(2026-08-05)  <!-- 시험 3건 · 논문 573편 -->
 - [x] dabrafenib — Cancer에 듣는다  <!-- 시험 47건 · 논문 2081편 -->
-- [ ] dabrafenib — Lung Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 38건 · 논문 163편 -->
+- [x] dabrafenib — Lung Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 38건 · 논문 163편 --> — 근거 없음(2026-08-13 조회, 확인된 폐암 연구가 단일군 중심이라 개입군·대조군 수치 비교를 만들 수 없어 제외)
 - [x] dabrafenib — Neoplasm에 듣는다 — 기존 dabrafenib-cancer-pos로 처리(2026-08-05)  <!-- 시험 34건 · 논문 1612편 -->
 - [x] dabrafenib — Lymphoma에 듣는다 — 기존 혼합 BRAF 변이 종양 항목으로 처리(2026-08-05)  <!-- 시험 24건 · 논문 37편 -->
-- [ ] daridorexant — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 142편 -->
+- [x] daridorexant — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 142편 --> — 항목 생성(daridorexant-sleep-pos)
 - [x] daridorexant — Cognitive Functioning에 듣는다 — 치료 결과 없는 인지 안전성 연구라 제외(2026-08-05)  <!-- 시험 3건 · 논문 19편 -->
 - [x] delamanid — HIV에 듣는다 — HIV 치료가 아닌 결핵 동반·약동학 연구라 제외(2026-08-05)  <!-- 시험 8건 · 논문 122편 -->
-- [ ] delamanid — Pulmonary TB에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 187편 -->
+- [x] delamanid — Pulmonary TB에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 187편 --> — 항목 생성(delamanid-pulmonary-tb-pos)
 - [x] fosaprepitant — Breast Cancer에 듣는다 — 항암화학요법 구역·구토 예방 허가 용도(2026-08-05)  <!-- 시험 12건 · 논문 28편 -->
-- [ ] lemborexant — Insomnia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 214편 -->
+- [x] lemborexant — Insomnia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 214편 --> — 항목 생성(lemborexant-insomnia-pos)
 - [x] lemborexant — Delirium에 듣는다  <!-- 시험 3건 · 논문 23편 -->
-- [ ] milnacipran — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 177편 -->
+- [x] milnacipran — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 177편 --> — 항목 생성(milnacipran-major-depressive-disorder-null)
 - [x] milnacipran — Chronic Pain에 듣는다 — 섬유근육통 허가·표준 용도와 중복(2026-08-05)  <!-- 시험 9건 · 논문 157편 -->
-- [ ] milnacipran — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 412편 -->
-- [ ] obinutuzumab — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 155건 · 논문 637편 -->
+- [x] milnacipran — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 412편 --> — 항목 생성(milnacipran-depression-null)
+- [x] obinutuzumab — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 155건 · 논문 637편 --> — 항목 생성(obinutuzumab-leukemia-pos)
 - [x] obinutuzumab — Cancer에 듣는다 — B세포 혈액암 허가 용도와 중복(2026-08-05)  <!-- 시험 21건 · 논문 945편 -->
 - [x] obinutuzumab — Lupus Nephritis에 듣는다  <!-- 시험 11건 · 논문 92편 -->
 - [x] obinutuzumab — B-Cell에 듣는다 — B세포 혈액암 허가 용도와 중복(2026-08-05)  <!-- 시험 10건 · 논문 870편 -->
 - [x] pazopanib — Breast Carcinoma에 듣는다  <!-- 시험 121건 · 논문 71편 -->
-- [ ] pazopanib — Sarcoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 87건 · 논문 705편 -->
+- [x] pazopanib — Sarcoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 87건 · 논문 705편 --> — 항목 생성(pazopanib-sarcoma-pos)
 - [x] pazopanib — Solid Tumor에 듣는다  <!-- 시험 36건 · 논문 225편 -->
 - [x] pazopanib — Leiomyosarcoma에 듣는다 — 연조직육종 허가 범위와 중복(2026-08-05)  <!-- 시험 23건 · 논문 112편 -->
-- [ ] pitolisant — Narcolepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 154편 -->
+- [x] pitolisant — Narcolepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 154편 --> — 항목 생성(pitolisant-narcolepsy-pos)
 - [x] pitolisant — Prader-Willi Syndrome에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] remifentanil — Pain에 듣는다  <!-- 시험 70건 · 논문 3158편 -->
-- [ ] remifentanil — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 27건 · 논문 4974편 -->
+- [x] remifentanil — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 27건 · 논문 4974편 --> — 항목 생성(remifentanil-surgery-pos)
 - [x] remifentanil — Postoperative에 듣는다 — 기존 remifentanil-pain-null로 처리(2026-08-05)  <!-- 시험 24건 · 논문 2805편 -->
 - [x] remifentanil — Sedation에 듣는다  <!-- 시험 20건 · 논문 1309편 -->
 - [x] romiplostim — Aplastic Anemia에 듣는다  <!-- 시험 18건 · 논문 78편 -->
-- [ ] romiplostim — Thrombocytopenic Purpura에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 514편 -->
+- [x] romiplostim — Thrombocytopenic Purpura에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 514편 --> — 항목 생성(romiplostim-thrombocytopenic-purpura-pos)
 - [x] romiplostim — Cancer에 듣는다  <!-- 시험 14건 · 논문 243편 -->
 - [x] romiplostim — Myelodysplastic Syndromes에 듣는다  <!-- 시험 8건 · 논문 66편 -->
 - [ ] selpercatinib — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 542편 -->

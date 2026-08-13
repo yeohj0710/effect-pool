@@ -1,0 +1,29 @@
+{
+  "id": "remifentanil-surgery-pos",
+  "subj": "레미펜타닐",
+  "claim": "제왕절개 전신마취에서 레미펜타닐은 기관삽관과 수술에 따른 산모 혈압 상승을 줄였다",
+  "line": "제왕절개 전신마취에서 레미펜타닐은 위약보다 산모 혈압을 낮췄다.",
+  "effect": "최고 수축기혈압 차이 -29.98mmHg",
+  "vs": "제왕절개 수술 5개 무작위시험 186명 메타분석에서 레미펜타닐군의 최고 수축기혈압은 위약군보다 29.98mmHg 낮았고(95% CI -50.90~-9.07), 최저 수축기혈압도 12.46mmHg 낮았습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 186,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "레미펜타닐은 수술 중 마취·진통에 사용하는 처방 마약성 진통제입니다.",
+  "why": "제왕절개 전신마취에서 레미펜타닐과 위약을 비교한 무작위시험을 합친 메타분석으로 산모 혈압 결과를 확인했습니다.",
+  "saw": "5개 연구 186명에서 레미펜타닐은 기관삽관·수술에 따른 최고와 최저 수축기혈압을 위약보다 낮췄습니다.",
+  "limit": "제왕절개 전신마취라는 특정 상황의 혈역학 결과이며, 신생아 기도 보조나 Apgar 점수에는 차이가 없었습니다.",
+  "against": "레미펜타닐은 호흡억제와 신생아 영향 가능성이 있어 산모 혈압 결과만으로 안전하다고 판단하지 않습니다.",
+  "use": "제왕절개 전신마취에서 레미펜타닐의 혈역학적 효과를 설명할 때 참고합니다.",
+  "refs": [
+    { "label": "제왕절개 전신마취에서 레미펜타닐과 위약을 비교한 무작위시험 메타분석", "pmid": "22724620" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=remifentanil&query.cond=Surgery; 반환 기록의 InterventionName을 대조함",
+    "pubmed": "remifentanil AND Surgery — 4977건",
+    "negative": "remifentanil AND Surgery AND (no effect OR did not OR failed OR negative OR no significant difference) — 확인함",
+    "safety": "remifentanil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) — 확인함"
+  }
+}

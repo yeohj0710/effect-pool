@@ -1,0 +1,29 @@
+{
+  "id": "obinutuzumab-leukemia-pos",
+  "subj": "오비누투주맙",
+  "claim": "치료 경험이 없는 만성림프구성백혈병에서 오비누투주맙과 클로람부실 병용은 클로람부실 단독보다 무진행생존을 늘렸다",
+  "line": "만성림프구성백혈병에서 오비누투주맙 병용은 클로람부실 단독보다 무진행생존이 길었다.",
+  "effect": "무진행생존 중앙값 26.7개월 vs 11.1개월",
+  "vs": "치료 경험이 없는 만성림프구성백혈병 781명 무작위시험에서 오비누투주맙+클로람부실의 무진행생존 중앙값은 26.7개월, 클로람부실 단독은 11.1개월(HR 0.18)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 781,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "오비누투주맙은 일부 만성림프구성백혈병 치료에서 병용하는 처방 항체 치료제입니다.",
+  "why": "오비누투주맙을 클로람부실에 추가한 병용요법과 클로람부실 단독을 직접 비교한 3군 무작위시험입니다.",
+  "saw": "오비누투주맙+클로람부실군은 클로람부실 단독보다 무진행생존 중앙값이 15.6개월 길었고 완전반응률도 리툭시맙+클로람부실군보다 높았습니다.",
+  "limit": "효과는 오비누투주맙 단독이 아니라 클로람부실 병용요법에 대한 결과입니다. 고령·동반질환 환자군의 시험입니다.",
+  "against": "오비누투주맙 병용군에서 주입 관련 반응과 호중구감소증이 더 흔했으므로 병용요법의 위해를 함께 검토해야 합니다.",
+  "use": "동반질환이 있는 치료 경험 없는 만성림프구성백혈병에서 오비누투주맙 병용요법의 효과를 설명할 때 참고합니다.",
+  "refs": [
+    { "label": "만성림프구성백혈병에서 오비누투주맙+클로람부실을 평가한 CLL11 시험", "pmid": "24401022", "nct": "NCT01010061" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=obinutuzumab&query.cond=Leukemia; 반환 기록의 InterventionName을 대조함",
+    "pubmed": "obinutuzumab AND Leukemia — 638건",
+    "negative": "obinutuzumab AND Leukemia AND (no effect OR did not OR failed OR negative OR no significant difference) — 확인함",
+    "safety": "obinutuzumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) — 확인함"
+  }
+}
