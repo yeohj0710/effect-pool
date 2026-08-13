@@ -32,24 +32,24 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1293 backfilled numeric comparisons for 30 existing non-prescription topics from an out-of-order legacy vs-missing window; the exact next unprocessed candidate remains acceptance-commitment-therapy-diabetes-pos."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1294 processed the first 30 non-prescription topics in the legacy vs-missing window, filled 21 comparison results, screened 9 nonqualifying topics, and leaves animal-interaction-depression-pos as the exact next unprocessed candidate."
   },
   "backlog": {
-    "vs_missing": 3709,
-    "english_subjects": 1036,
+    "vs_missing": 3688,
+    "english_subjects": 1031,
     "note": "Legacy backlog remains; process it in safe batches. vs_missing is the current pre-2026-08-12 non-open entry count without numeric vs data. english_subjects is the current distinct entry-subject count containing untranslated lowercase English words."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "24.6% (1,530 entries)",
+    "vs_share": "24.9% (1,551 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
     "build_warnings": {
-      "unknown_n": 455,
-      "thin_study": 1021,
+      "unknown_n": 454,
+      "thin_study": 1022,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,33 +57,33 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1294 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate acceptance-commitment-therapy-diabetes-pos. Batch 1293 processed 30 existing non-prescription topics from an out-of-order candidate window, added numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, translated 9 shared English subjects across 13 entries, and added five supplemental PubMed links. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1295 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate animal-interaction-depression-pos. Batch 1294 processed 30 existing non-prescription topics, filled 21 numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, screened 9 nonqualifying topics, and translated 5 shared English subjects across 11 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1293",
-    "commit": "d2653aba",
+    "id": "1294",
+    "commit": "7f9d7c1f",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "screened_nonqualifying_topics": 0,
-    "build": "6222 entries; 8606 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1530 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed PMIDs 39514264,22563639,41032959,29198932,22965186,42358682,39160496,39555482,34087850,35411694,40489401,33523004,38451843,34076949,38440785,40778279,42463057,34201139,38351580,33958795,31098750,33682036,19678849,19482214,33795180,39357550,36122861,33880125,40678632,33143442,27273067,36367708,32058675,32734732,39002330,35224526,31296113,41152799,42352653,37405189,34004390; ClinicalTrials.gov-linked NCTs NCT03655132,NCT03965897,NCT04000087,NCT04203238,NCT03313453,NCT00773370,NCT06826352. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable records. Five supplemental PubMed links were added for neuropathy, cancer exercise, pre-diabetes exercise, almond weight measures, and clean-air cognitive outcomes. No sample sizes were inferred; source totals that were not stated remain unknown.",
+    "screened_nonqualifying_topics": 9,
+    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1551 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed PMIDs 42462206,40225443,39098085,33893999,34121062,37220880,31785586,32041331,37143014,32616402,36288782,28237065,36963852,36732571,32819740,27155968,30221438,38895710,37751186,33582447,36881697; ClinicalTrials.gov-linked NCTs NCT04729530,NCT04769726,NCT02008630,NCT03765099. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records and ClinicalTrials.gov-linked records. Nine topics were screened out because the cited record was single-arm, a case report, observational without a usable comparison, or lacked a qualifying comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 30,
-    "subject_names_renamed": 9,
-    "subject_entries_renamed": 13,
+    "legacy_vs_filled": 21,
+    "subject_names_renamed": 5,
+    "subject_entries_renamed": 11,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1021,
-    "remaining_expected_unknown_n_warnings": 455,
+    "remaining_expected_thin_warnings": 1022,
+    "remaining_expected_unknown_n_warnings": 454,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1294",
+    "next_batch": "1295",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing backlog after batch1293 out-of-order window; exact next unprocessed candidate acceptance-commitment-therapy-diabetes-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing backlog after batch1294 sequential window; exact next unprocessed candidate animal-interaction-depression-pos; worklist exhausted",
     "unchecked": 0
   }
 }
