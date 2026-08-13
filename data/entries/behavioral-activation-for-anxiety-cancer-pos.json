@@ -1,20 +1,33 @@
 {
-  "id": "behavioral-activation-for-anxiety-cancer-pos",
-  "subj": "behavioral activation for anxiety",
-  "claim": "유방암 생존자의 암 재발 두려움에 행동 활성화 앱을 포함한 스마트폰 심리치료를 사용하면 두려움이 줄 수 있다",
-  "line": "유방암 환자의 재발 두려움은 행동활성화 후 줄었다.",
-  "effect": "447명, 재발 두려움 차이 -1.39점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 447,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "행동 활성화 앱은 의약품이 아닌 디지털 심리중재입니다",
-  "why": "질병이 없는 20~49세 유방암 생존자 447명을 스마트폰 문제해결치료·행동 활성화 앱과 대기목록으로 무작위 배정했습니다",
-  "saw": "중재군 223명, 대조군 224명이 배정됐고 444명의 8주 결과를 분석했습니다. 암 재발 염려 척도 차이는 -1.39점, 재발 두려움 목록 차이는 -1.65점으로 중재군이 더 좋아졌습니다",
-  "limit": "행동 활성화 앱과 문제해결치료를 함께 사용해 각 요소의 효과를 분리할 수 없고 24주에는 8주 대비 대부분 차이가 유의하지 않았습니다",
-  "against": "스마트폰 심리치료가 암 재발을 줄이거나 감시 진료를 대신한다는 근거는 아닙니다",
-  "use": "유방암 생존자의 재발 두려움 보조치료로 앱을 제안할 수 있지만 증상 지속·악화 시 정신건강 전문치료를 연결합니다",
-  "refs": [{ "label": "Smartphone Psychotherapy Reduces Fear of Cancer Recurrence Among Breast Cancer Survivors 2023 · Journal of Clinical Oncology", "doi": "10.1200/JCO.22.00699", "pmid": "36322882" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=behavioral activation for anxiety AND condition=Cancer; 15건 반환, 중재명 일치 0건", "pubmed": "behavioral activation for anxiety AND Cancer; 3,164편", "negative": "behavioral activation for anxiety AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,106편", "safety": "behavioral activation for anxiety AND Cancer AND (adverse OR toxicity OR case report OR harm OR dropout); 629편" }
+ "id": "behavioral-activation-for-anxiety-cancer-pos",
+ "subj": "행동 활성화",
+ "claim": "유방암 생존자의 암 재발 두려움에 행동 활성화 앱을 포함한 스마트폰 심리치료를 사용하면 두려움이 줄 수 있다",
+ "line": "유방암 환자의 재발 두려움은 행동활성화 후 줄었다.",
+ "effect": "447명, 재발 두려움 차이 -1.39점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 447,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "행동 활성화 앱은 의약품이 아닌 디지털 심리중재입니다",
+ "why": "질병이 없는 20~49세 유방암 생존자 447명을 스마트폰 문제해결치료·행동 활성화 앱과 대기목록으로 무작위 배정했습니다",
+ "saw": "중재군 223명, 대조군 224명이 배정됐고 444명의 8주 결과를 분석했습니다. 암 재발 염려 척도 차이는 -1.39점, 재발 두려움 목록 차이는 -1.65점으로 중재군이 더 좋아졌습니다",
+ "limit": "행동 활성화 앱과 문제해결치료를 함께 사용해 각 요소의 효과를 분리할 수 없고 24주에는 8주 대비 대부분 차이가 유의하지 않았습니다",
+ "against": "스마트폰 심리치료가 암 재발을 줄이거나 감시 진료를 대신한다는 근거는 아닙니다",
+ "use": "유방암 생존자의 재발 두려움 보조치료로 앱을 제안할 수 있지만 증상 지속·악화 시 정신건강 전문치료를 연결합니다",
+ "refs": [
+  {
+   "label": "Smartphone Psychotherapy Reduces Fear of Cancer Recurrence Among Breast Cancer Survivors 2023 · Journal of Clinical Oncology",
+   "doi": "10.1200/JCO.22.00699",
+   "pmid": "36322882"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=behavioral activation for anxiety AND condition=Cancer; 15건 반환, 중재명 일치 0건",
+  "pubmed": "behavioral activation for anxiety AND Cancer; 3,164편 · 2026-08-14 PubMed 초록 직접 확인: PMID 36322882",
+  "negative": "behavioral activation for anxiety AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,106편",
+  "safety": "behavioral activation for anxiety AND Cancer AND (adverse OR toxicity OR case report OR harm OR dropout); 629편"
+ },
+ "vs": "행동 활성화 앱+문제해결치료군 223명 대 대기목록 대조군 224명: 8주 암 재발 두려움 점수 군간 차이 -1.39점(95% CI -1.93~-0.85,P<.001), FCRI-SF -1.65점(95% CI -2.41~-0.89,P<.001), 우울 -0.49점(95% CI -0.98~0,P<.05)"
 }

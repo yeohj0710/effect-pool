@@ -1,28 +1,32 @@
 {
-  "id": "behavioral-insomnia-treatment-sleep-pos",
-  "subj": "behavioral insomnia treatment",
-  "claim": "행동 불면 치료를 만성 불면의 수면 효율 개선에 쓴다",
-  "line": "만성 불면에서 행동치료 후 수면 효율이 높아졌다.",
-  "effect": "입면·야간 각성·수면 효율 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1162,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "행동 불면 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "만성 불면 성인에서 인지치료·자극 조절·수면 제한·수면 위생을 포함한 CBT-I가 대조군보다 야간 수면을 개선하는지 종합했습니다.",
-  "saw": "20개 무작위시험의 1,162명을 포함했습니다. 치료 후 입면 잠복기는 19.03분, 잠든 뒤 깨어 있는 시간은 26.00분 줄었고 수면 효율은 9.91%p 높아졌습니다.",
-  "limit": "복합 CBT-I의 효과라 행동 치료 구성 요소 하나의 효과는 분리하지 못했습니다.",
-  "against": "총 수면 시간 개선의 95% 신뢰구간은 0을 포함했고 장기 추정의 정확도는 제한적이었습니다.",
-  "use": "만성 불면에 약물 대신 구조화된 행동 치료를 우선 고려하는 근거",
-  "refs": [
-    { "label": "Trauer 2015 · Annals of Internal Medicine · 체계적 문헌고찰·메타분석", "pmid": "26054060" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=behavioral insomnia treatment AND condition=Sleep; 786건 반환, 중재명 대조 후 0건",
-    "pubmed": "behavioral insomnia treatment AND Sleep; 9,436건",
-    "negative": "behavioral insomnia treatment AND Sleep AND (no effect OR did not OR failed to OR negative OR no significant difference); 6,136건",
-    "safety": "behavioral insomnia treatment AND (adverse OR toxicity OR case report OR harm OR dropout); 2,093건"
+ "id": "behavioral-insomnia-treatment-sleep-pos",
+ "subj": "행동 수면치료",
+ "claim": "행동 불면 치료를 만성 불면의 수면 효율 개선에 쓴다",
+ "line": "만성 불면에서 행동치료 후 수면 효율이 높아졌다.",
+ "effect": "입면·야간 각성·수면 효율 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1162,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "행동 불면 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "만성 불면 성인에서 인지치료·자극 조절·수면 제한·수면 위생을 포함한 CBT-I가 대조군보다 야간 수면을 개선하는지 종합했습니다.",
+ "saw": "20개 무작위시험의 1,162명을 포함했습니다. 치료 후 입면 잠복기는 19.03분, 잠든 뒤 깨어 있는 시간은 26.00분 줄었고 수면 효율은 9.91%p 높아졌습니다.",
+ "limit": "복합 CBT-I의 효과라 행동 치료 구성 요소 하나의 효과는 분리하지 못했습니다.",
+ "against": "총 수면 시간 개선의 95% 신뢰구간은 0을 포함했고 장기 추정의 정확도는 제한적이었습니다.",
+ "use": "만성 불면에 약물 대신 구조화된 행동 치료를 우선 고려하는 근거",
+ "refs": [
+  {
+   "label": "Trauer 2015 · Annals of Internal Medicine · 체계적 문헌고찰·메타분석",
+   "pmid": "26054060"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=behavioral insomnia treatment AND condition=Sleep; 786건 반환, 중재명 대조 후 0건",
+  "pubmed": "behavioral insomnia treatment AND Sleep; 9,436건 · 2026-08-14 PubMed 초록 직접 확인: PMID 26054060",
+  "negative": "behavioral insomnia treatment AND Sleep AND (no effect OR did not OR failed to OR negative OR no significant difference); 6,136건",
+  "safety": "behavioral insomnia treatment AND (adverse OR toxicity OR case report OR harm OR dropout); 2,093건"
+ },
+ "vs": "CBT-I군 대비 비활성 대조군: 20개 무작위시험·1,162명에서 수면잠복기 -19.03분(95% CI -23.93~-14.12), 입면 후 각성 -26.00분(95% CI -36.52~-15.48), 수면효율 +9.91%(95% CI 8.09~11.73)"
 }

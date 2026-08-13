@@ -1,30 +1,31 @@
 {
-  "id": "berberine-dyslipidemias-pos",
-  "subj": "베르베린",
-  "claim": "베르베린은 성인 이상지질혈증에서 LDL 콜레스테롤·중성지방을 낮추는가",
-  "line": "성인 이상지질혈증에서 베르베린은 LDL 콜레스테롤과 중성지방을 낮췄다.",
-  "effect": "LDL −0.46 mmol/L",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1788,
-  "synth": "meta",
-  "why": "성인 이상지질혈증에서 베르베린과 위약을 비교한 무작위시험을 합쳐 혈중 지질과 이상반응을 평가한 메타분석입니다.",
-  "saw": "무작위시험 18개, 성인 1,788명을 합쳤습니다. LDL은 0.46mmol/L, 총콜레스테롤은 0.48mmol/L, 중성지방은 0.34mmol/L 낮아졌고 HDL은 0.06mmol/L 높아졌습니다. 심각한 이상반응은 보고되지 않았습니다.",
-  "limit": "대부분 중국 본토와 홍콩의 단기간 연구이며 임상 사건을 평가하지 않았습니다. 위장관 이상반응은 베르베린군에서 더 잦은 경향이 있었습니다.",
-  "against": "HDL 증가는 작았고 성별에 따라 방향이 달랐으며, 이상지질혈증의 심혈관 사건 감소는 평가하지 않았습니다.",
-  "use": "베르베린이 혈중 지질을 낮추는 평균 크기와 단기 안전성 신호를 보여주는 종합 근거입니다.",
-  "refs": [
-    {
-      "label": "Blais 2023 · Drugs · 성인 이상지질혈증 베르베린 위약시험 메타분석",
-      "doi": "10.1007/s40265-023-01841-4",
-      "pmid": "36941490"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "query.intr=berberine&query.cond=Dyslipidemias 반환 16건, InterventionName 정확 일치 4건",
-    "pubmed": "berberine dyslipidemias 반환 253건",
-    "negative": "berberine dyslipidemias AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 226건",
-    "safety": "berberine dyslipidemias AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 95건"
+ "id": "berberine-dyslipidemias-pos",
+ "subj": "베르베린",
+ "claim": "베르베린은 성인 이상지질혈증에서 LDL 콜레스테롤·중성지방을 낮추는가",
+ "line": "성인 이상지질혈증에서 베르베린은 LDL 콜레스테롤과 중성지방을 낮췄다.",
+ "effect": "LDL −0.46 mmol/L",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1788,
+ "synth": "meta",
+ "why": "성인 이상지질혈증에서 베르베린과 위약을 비교한 무작위시험을 합쳐 혈중 지질과 이상반응을 평가한 메타분석입니다.",
+ "saw": "무작위시험 18개, 성인 1,788명을 합쳤습니다. LDL은 0.46mmol/L, 총콜레스테롤은 0.48mmol/L, 중성지방은 0.34mmol/L 낮아졌고 HDL은 0.06mmol/L 높아졌습니다. 심각한 이상반응은 보고되지 않았습니다.",
+ "limit": "대부분 중국 본토와 홍콩의 단기간 연구이며 임상 사건을 평가하지 않았습니다. 위장관 이상반응은 베르베린군에서 더 잦은 경향이 있었습니다.",
+ "against": "HDL 증가는 작았고 성별에 따라 방향이 달랐으며, 이상지질혈증의 심혈관 사건 감소는 평가하지 않았습니다.",
+ "use": "베르베린이 혈중 지질을 낮추는 평균 크기와 단기 안전성 신호를 보여주는 종합 근거입니다.",
+ "refs": [
+  {
+   "label": "Blais 2023 · Drugs · 성인 이상지질혈증 베르베린 위약시험 메타분석",
+   "doi": "10.1007/s40265-023-01841-4",
+   "pmid": "36941490"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=berberine&query.cond=Dyslipidemias 반환 16건, InterventionName 정확 일치 4건",
+  "pubmed": "berberine dyslipidemias 반환 253건 · 2026-08-14 PubMed 초록 직접 확인: PMID 36941490",
+  "negative": "berberine dyslipidemias AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 226건",
+  "safety": "berberine dyslipidemias AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 95건"
+ },
+ "vs": "베르베린군 대비 위약군: 18개 연구·1,788명, LDL -0.46mmol/L(95% CI -0.62~-0.30; 14개·1,447명), 총콜레스테롤 -0.48(-0.63~-0.33; 17개·1,637명), 중성지방 -0.34(-0.46~-0.23; 18개·1,661명), HDL +0.06(0.00~0.11; 15개·1,471명)"
 }
