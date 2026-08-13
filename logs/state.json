@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5508,
-  "subjects": 2169,
-  "refs": 7841,
+  "entries": 5520,
+  "subjects": 2170,
+  "refs": 7862,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -25,31 +25,31 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2068
+    "rx": 2080
   },
-  "tiers": { "trial": 4690, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3237, "null": 1094, "open": 1021, "harm": 156 },
+  "tiers": { "trial": 4702, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3246, "null": 1097, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 14694,
-    "unchecked": 848,
+    "checked": 14714,
+    "unchecked": 828,
     "no_evidence_pending": 2059,
-    "note": "batch 1249에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 기존 연결 16개와 대조군 비교를 확인하지 못한 주제 4개를 기록했고 중복 표기까지 worklist 48줄을 체크했다. 현재 미체크 목록의 첫 줄은 4821번 furosemide — Renal Impairment에 듣는다이며 848개가 남았다."
+    "note": "batch 1250에서 재개 지점부터 20개 주제를 처리했다. 기존 항목 8개를 연결하고 신규 항목 12개를 만들었으며, 근거 없음으로 버린 주제는 0개다. 현재 미체크 목록의 첫 줄은 5346번 lurasidone — Bipolar I에 듣는다이며 828개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4064,
+    "vs_missing": 4060,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
     "over_counter_share": "17.2% (약국약·보충제·음식 947건). 목표는 25%",
-    "rx_share": "38% (2,068건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,250건). 목표는 33% 위",
-    "vs_share": "8.3% (458건)",
+    "rx_share": "38% (2,080건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,253건). 목표는 33% 위",
+    "vs_share": "8.6% (474건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.2% (4,690건)",
-    "non_trial_share": "14.9% (818건)",
+    "trial_share": "85.2% (4,702건)",
+    "non_trial_share": "14.8% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 973 }
   },
   "deployment": {
@@ -58,22 +58,22 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1250 starts after batch 1249; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1249 processed the first 20 topics from the resume point. Resume at worklist line 4821: furosemide — Renal Impairment에 듣는다; 848 unchecked rows remain.",
+  "next": "batch 1251 starts after batch 1250; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. Resume at worklist line 5346: lurasidone — Bipolar I에 듣는다; 828 unchecked rows remain.",
   "last_batch": {
-    "id": "1249",
-    "commit": "c2624990",
+    "id": "1250",
+    "commit": "30fc2d21",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 0,
-    "existing_links": 16,
-    "no_evidence_rejects": 4,
-    "build": "5508 entries · 7841 refs · 4690 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "오메프라졸—위산, 아지트로마이신—감염·폐렴, 플루옥세틴—우울장애, 카르베딜롤—심부전, 심바스타틴—당뇨, 에플레레논—심부전, 엠파글리플로진—심부전, 리라글루티드—비만·심혈관질환, 벤라팍신—우울 삽화·불안, 암로디핀—혈압·관상동맥질환, 푸로세미드—고혈압·체액 과다 기존 항목을 연결했다. 오메프라졸 위산과 심바스타틴 당뇨는 PubMed 군별 수치로 vs를 보강했고, 플루옥세틴 강박장애·오메프라졸 GERD·심바스타틴 이상지질혈증·리라글루티드 과체중은 적절한 비교 수치가 없어 근거 없음으로 표시했다.",
-    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 항목은 만들지 않았고, 수치 비교가 있는 기존 16개를 중복 생성 없이 worklist에 연결했다. 4개는 대조군 비교 수치 또는 통합 효과크기를 확인하지 못해 근거 없음으로 기록했다. 오메프라졸·심바스타틴 기존 항목의 vs 수치를 보강하고 플루옥세틴 문구 길이 경고 2건을 수정했다.",
-    "legacy_sentence_edits": 1,
-    "legacy_vs_filled": 2,
+    "new_entries": 12,
+    "existing_links": 8,
+    "no_evidence_rejects": 0,
+    "build": "5520 entries · 7862 refs · 4702 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "푸로세미드·이버멕틴·파록세틴·클로피도그렐·발프로산·둘록세틴 기존 항목을 PubMed 수치로 점검했다. 카리프라진은 조현병·주요우울장애 보조치료·양극성 우울증·조증, 옥시토신은 유도분만, 플루복사민은 강박장애, 세르트랄린은 일차의료 우울 증상, 파록세틴은 우울증·범불안장애·공황장애, 에스시탈로프람은 우울증·불안장애에 대해 ClinicalTrials.gov와 PubMed를 대조했다.",
+    "research_batch": "20개 주제 중 기존 항목 8개를 연결하고 수치가 부족하지 않은 12개 신규 항목을 추가했다. 신규 항목은 모두 2026-08-13 조회일과 ClinicalTrials.gov 물질명 대조, PubMed 검색·반대 결과·안전성 검색을 기록했다. 새 항목과 기존 항목의 vs를 모두 숫자로 채웠고, 근거 없음 주제는 없었다.",
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 4,
     "legacy_subject_renames": 0,
-    "targeted_batch_warnings_fixed": 2,
+    "targeted_batch_warnings_fixed": 4,
     "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
