@@ -31,13 +31,13 @@
   "dirs": { "pos": 3230, "null": 1091, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 13797,
-    "unchecked": 1745,
+    "checked": 14219,
+    "unchecked": 1323,
     "no_evidence_pending": 2059,
-    "note": "batch 1245에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 새 근거 3개, 기존 연결 16개, 대조군 없는 단일군 판정 1개를 기록했고 중복 표기까지 worklist 287줄을 체크했다. 현재 미체크 목록의 첫 줄은 2483번 bimatoprost — Ocular Hypertension에 듣는다이며 1,745개가 남았다."
+    "note": "batch 1246에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 기존 근거 항목 20개를 연결했고, 중복 표기까지 worklist 422줄을 체크했다. 현재 미체크 목록의 첫 줄은 2552번 losartan — Nephropathy에 듣는다이며 1,323개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4071,
+    "vs_missing": 4069,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
@@ -46,7 +46,7 @@
     "over_counter_share": "17.2% (약국약·보충제·음식 947건). 목표는 25%",
     "rx_share": "38% (2,058건). 줄어야 한다",
     "no_effect_or_harm_share": "23% (1,247건). 목표는 33% 위",
-    "vs_share": "8.0% (441건)",
+    "vs_share": "8.1% (443건)",
     "unexpected_benefit_entries": 13,
     "trial_share": "85.1% (4,680건)",
     "non_trial_share": "14.9% (818건)",
@@ -58,22 +58,22 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1246 starts after batch 1245; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1245 processed the first 20 topics from the resume point. Resume at worklist line 2483: bimatoprost — Ocular Hypertension에 듣는다; 1,745 unchecked rows remain.",
+  "next": "batch 1247 starts after batch 1246; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1246 processed the first 20 topics from the resume point. Resume at worklist line 2552: losartan — Nephropathy에 듣는다; 1,323 unchecked rows remain.",
   "last_batch": {
-    "id": "1245",
-    "commit": "23c66257",
+    "id": "1246",
+    "commit": "f1a13d59",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 3,
-    "existing_links": 16,
-    "no_evidence_rejects": 1,
+    "new_entries": 0,
+    "existing_links": 20,
+    "no_evidence_rejects": 0,
     "build": "5498 entries · 7830 refs · 4680 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "카스포펀진—만성 폐 아스페르길루스증·칸디다혈증, 이사부코나졸—만성 폐 아스페르길루스증을 ClinicalTrials.gov와 PubMed 초록의 무작위 비교 수치로 새로 기록했다. 미카펀진—칸디다혈증, 아니둘라펀진—칸디다혈증, 아미트립틸린—주요우울장애, 독시사이클린—매독, 콜히친—통풍, 다파글리플로진—심부전·신장질환, 세마글루타이드—비만·과체중, 케타민—마취, 프라조신—고혈압, 부프로피온—주요우울장애·금연·우울증, 실데나필—발기부전, 탈리도마이드—암 기존 항목을 연결했다. 이사부코나졸—털곰팡이증은 대조군 없는 단일군 연구만 확인돼 근거 없음으로 표시했다.",
-    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 3개는 ClinicalTrials.gov 개입명 정확 일치 건수와 PubMed 초록의 개입군·대조군 수치를 기록했다. 기존 16개는 중복 항목을 만들지 않고 worklist에 연결했고, 1개는 대조군 비교를 확인하지 못해 거절했다. 아미트립틸린 주어를 한국어로 바꾸고 아미트립틸린·탈리도마이드 기존 항목의 vs 수치를 보강했다.",
+    "research": "비마토프로스트—고안압·속눈썹 저성장, 보툴리눔독소—경직·과민성 방광·미간 주름·뇌성마비, 둘록세틴—통증·우울증·섬유근육통, 클로니딘—고혈압, 피나스테리드—탈모·전립샘비대증, 모다피닐—수면무호흡·기면증, 바클로펜—경직, 온단세트론—마취, 메만틴—치매, 몬테루카스트—비염, 아토르바스타틴—관상동맥질환·이상지질혈증 기존 항목을 연결했다. 보툴리눔독소-뇌성마비와 온단세트론-마취 항목은 PubMed 초록의 대조군 수치로 vs를 보강했다.",
+    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 항목은 만들지 않았고, ClinicalTrials.gov·PubMed 근거와 수치 비교가 있는 기존 20개 항목만 worklist에 연결했다. 보툴리눔독소-뇌성마비는 381명 무작위시험의 MAS −1.06·−1.01 대 위약 −0.80과 61명 보행시험 차이 −0.27 J/kg/m를 기록했다. 온단세트론-마취는 1,166명 메타분석의 저혈압 RR 0.62를 기록했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 2,
-    "legacy_subject_renames": 1,
-    "targeted_batch_warnings_fixed": 1,
+    "legacy_subject_renames": 0,
+    "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
