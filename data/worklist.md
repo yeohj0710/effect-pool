@@ -8289,9 +8289,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thalidomide — Melanoma에 듣는다  <!-- 시험 14건 · 논문 107편 -->
 - [x] thalidomide — Sarcoma에 듣는다  <!-- 시험 12건 · 논문 149편 -->
 - [x] thalidomide — Vascular Malformation에 듣는다  <!-- 시험 6건 · 논문 110편 -->
-- [ ] ivermectin — Head Lice에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 133편 -->
+- [x] ivermectin — Head Lice에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 133편 --> — 새 항목(ivermectin-head-lice-pos)
 - [x] ivermectin — Sars-CoV2에 듣는다 — 이미 반영(코로나19 입원)(2026-08-05)  <!-- 시험 9건 · 논문 23편 -->
-- [ ] ivermectin — Strongyloidiasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 670편 -->
+- [x] ivermectin — Strongyloidiasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 670편 --> — 새 항목(ivermectin-strongyloidiasis-pos)
 - [x] ivermectin — Trichuriasis에 듣는다  <!-- 시험 6건 · 논문 90편 -->
 - [x] hydroxychloroquine — Pregnancy Related에 듣는다  <!-- 시험 13건 · 논문 176편 -->
 - [x] hydroxychloroquine — Respiratory Failure에 듣는다 — 이미 반영(코로나19 입원)(2026-08-05)  <!-- 시험 12건 · 논문 309편 -->
@@ -8304,8 +8304,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sildenafil — Female Sexual Health에 듣는다  <!-- 시험 7건 · 논문 101편 -->
 - [x] sildenafil — Lung Diseases에 듣는다  <!-- 시험 7건 · 논문 1827편 -->
 - [x] sildenafil — Neonatal Asphyxia에 듣는다  <!-- 시험 6건 · 논문 12편 -->
-- [ ] botulinum toxin — Blepharospasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 1124편 -->
-- [ ] botulinum toxin — Lateral Canthal Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 52편 -->
+- [x] botulinum toxin — Blepharospasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 1124편 --> — 새 항목(botulinum-toxin-blepharospasm-pos)
+- [x] botulinum toxin — Lateral Canthal Lines에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 52편 --> — 새 항목(botulinum-toxin-lateral-canthal-lines-pos)
 - [x] botulinum toxin — Temporomandibular Disorder에 듣는다  <!-- 시험 13건 · 논문 267편 -->
 - [x] botulinum toxin — Aging에 듣는다 — 항목 아님(질환·결과 범위 불명확)(2026-08-05)  <!-- 시험 12건 · 논문 1587편 -->
 - [x] duloxetine — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 69편 -->
@@ -8328,7 +8328,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] baclofen — GERD에 듣는다  <!-- 시험 3건 · 논문 157편 -->
 - [x] ondansetron — Alcohol Abuse에 듣는다  <!-- 시험 13건 · 논문 109편 -->
 - [x] ondansetron — Laparoscopic에 듣는다 — 이미 반영(수술 뒤 오심)(2026-08-05)  <!-- 시험 11건 · 논문 256편 -->
-- [ ] ondansetron — Breast Neoplasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 132편 -->
+- [x] ondansetron — Breast Neoplasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 132편 --> — 새 항목(ondansetron-breast-neoplasm-pos)
 - [x] memantine — Pain에 듣는다  <!-- 시험 6건 · 논문 263편 -->
 - [x] memantine — Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 119편 -->
 - [x] lithium — Caries에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 9건 · 논문 136편 -->
@@ -8346,12 +8346,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] montelukast — Respiratory Disorders에 듣는다 — 이미 반영(만성폐쇄성폐질환)(2026-08-05)  <!-- 시험 5건 · 논문 270편 -->
 - [x] montelukast — SARS-CoV-2에 듣는다  <!-- 시험 5건 · 논문 48편 -->
 - [x] montelukast — Covid19에 듣는다  <!-- 시험 4건 · 논문 69편 -->
-- [ ] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] atorvastatin — Stroke에 듣는다  <!-- 시험 20건 · 논문 1002편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(atorvastatin-stroke-pos)
 - [x] atorvastatin — Heart Failure에 듣는다  <!-- 시험 16건 · 논문 345편 -->
 - [x] losartan — Renal Injury에 듣는다  <!-- 시험 10건 · 논문 414편 -->
 - [x] losartan — Marfan Syndrome에 듣는다  <!-- 시험 8건 · 논문 154편 -->
-- [ ] losartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 4276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] verapamil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 7523편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] losartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 4276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(losartan-blood-pressure-open)
+- [x] verapamil — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 7523편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 이미 반영(verapamil-hypertension-null)
 - [x] verapamil — Keloid에 듣는다  <!-- 시험 3건 · 논문 80편 -->
 - [x] amantadine — Cancer에 듣는다  <!-- 시험 3건 · 논문 317편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=amantadine&cond=Cancer → 직접 항암시험 0건; PubMed amantadine AND Cancer → 317건은 바이오마커·통증 연구 중심)
 - [x] amantadine — Fatigue에 듣는다  <!-- 시험 3건 · 논문 176편 -->
@@ -8360,7 +8360,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetazolamide — Chronic Pain에 듣는다  <!-- 시험 4건 · 논문 23편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=acetazolamide&cond=Chronic Pain → 통증 치료시험 0건; PubMed acetazolamide AND Chronic Pain → 23건은 수면무호흡·검사 연구 중심)
 - [x] acetazolamide — Cognitive Function에 듣는다  <!-- 시험 4건 · 논문 87편 -->
 - [x] acetazolamide — Sickle Cell Disease에 듣는다  <!-- 시험 3건 · 논문 30편 -->
-- [ ] acetazolamide — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 981편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] acetazolamide — Glaucoma에 듣는다  <!-- 시험 3건 · 논문 981편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(acetazolamide-glaucoma-pos)
 - [x] methotrexate — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 2443편 -->
 - [x] methotrexate — Myeloproliferative Diseases에 듣는다  <!-- 시험 9건 · 논문 41편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=methotrexate&cond=Myeloproliferative Diseases → MPN 치료시험 0건; PubMed methotrexate AND Myeloproliferative Diseases → 41건은 이식·GVHD 예방 연구 중심)
 - [x] methotrexate — Sarcoma에 듣는다  <!-- 시험 8건 · 논문 2139편 -->
@@ -8374,7 +8374,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tranexamic acid — ACL Tears에 듣는다  <!-- 시험 13건 · 논문 15편 -->
 - [x] isotretinoin — Brain Tumor에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 - [x] tamoxifen — Hot Flashes에 듣는다  <!-- 시험 4건 · 논문 420편 -->
-- [ ] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] tamoxifen — Malignant Neoplasm에 듣는다  <!-- 시험 4건 · 논문 20570편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(tamoxifen-malignant-neoplasm-pos)
 - [x] tamoxifen — Bipolar Disorder에 듣는다  <!-- 시험 3건 · 논문 81편 -->
 - [x] allopurinol — Diabetes에 듣는다  <!-- 시험 9건 · 논문 521편 -->
 - [x] allopurinol — Mania에 듣는다  <!-- 시험 6건 · 논문 19편 -->
@@ -8404,21 +8404,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cyproheptadine — Brain Tumor에 듣는다  <!-- 시험 3건 · 논문 44편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=cyproheptadine&cond=Brain Tumor → 직접 뇌종양 치료시험 0건; PubMed cyproheptadine AND Brain Tumor → 44건은 암성 악액질·세포 연구 중심)
 - [x] daratumumab — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 370편 -->
 - [x] daratumumab — Myeloid Leukemia에 듣는다  <!-- 시험 38건 · 논문 41편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=daratumumab&cond=Myeloid Leukemia → 직접시험은 종료·중단 또는 등록만 있고 결과 논문 없음; PubMed daratumumab AND Myeloid Leukemia → 41건은 다발골수종·리뷰 중심)
-- [ ] daratumumab — Amyloidosis에 듣는다  <!-- 시험 27건 · 논문 326편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] daratumumab — Cancer에 듣는다  <!-- 시험 17건 · 논문 1967편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] daratumumab — Amyloidosis에 듣는다  <!-- 시험 27건 · 논문 326편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(daratumumab-amyloidosis-pos)
+- [x] daratumumab — Cancer에 듣는다  <!-- 시험 17건 · 논문 1967편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(daratumumab-cancer-pos)
 - [x] dexmedetomidine — Anesthesia에 듣는다  <!-- 시험 98건 · 논문 6216편 -->
-- [ ] dexmedetomidine — Sedation에 듣는다  <!-- 시험 65건 · 논문 4552편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] dexmedetomidine — Sedation에 듣는다  <!-- 시험 65건 · 논문 4552편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(dexmedetomidine-sedation-open)
 - [x] dexmedetomidine — Surgery에 듣는다  <!-- 시험 41건 · 논문 6215편 -->
 - [x] dexmedetomidine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 2625편 -->
-- [ ] etanercept — Psoriasis에 듣는다  <!-- 시험 83건 · 논문 2814편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] etanercept — Psoriasis에 듣는다  <!-- 시험 83건 · 논문 2814편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(etanercept-psoriasis-pos)
+- [x] etanercept — Spondylitis에 듣는다  <!-- 시험 37건 · 논문 1805편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(etanercept-spondylitis-pos)
 - [x] etanercept — Leukemia에 듣는다  <!-- 시험 16건 · 논문 75편 -->
 - [x] etanercept — Type 1 Diabetes에 듣는다  <!-- 시험 13건 · 논문 44편 -->
-- [ ] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] everolimus — Coronary Disease에 듣는다  <!-- 시험 92건 · 논문 1799편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-coronary-disease-null)
+- [x] everolimus — Solid Tumors에 듣는다  <!-- 시험 80건 · 논문 339편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-solid-tumors-pos)
+- [x] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-kidney-failure-open)
+- [x] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-carcinoma-open)
+- [x] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(filgrastim-leukemia-pos)
 - [ ] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
