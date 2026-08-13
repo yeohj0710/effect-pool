@@ -1,29 +1,33 @@
 {
-  "id": "augmented-reality-cancer-pos",
-  "subj": "augmented reality",
-  "claim": "초기 폐암 의심 결절의 수술 전 위치 표시를 돕는다",
-  "line": "증강현실 위치 표시는 방사선 노출과 사전 통증을 줄였습니다.",
-  "effect": "절제 성공 98.5% 대 99.3%",
-  "vs": "초기 폐암 의심 결절 270명 무작위 비열등성 분석에서 증강현실군의 성공적 아전절제는 132/134명(98.5%), CT 유도군은 135/136명(99.3%)이었습니다. 방사선량 중앙값은 456.50 대 1,260.11 mGy·cm, 사전 통증은 0 대 5점이었습니다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 270,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "증강현실 유도 결절 위치 표시는 수술 지원 기기 중재이며 폐암 치료 자체를 대체하지 않습니다.",
-  "why": "CT에서 초기 폐암이 의심된 폐결절 환자를 증강현실 유도 단회 위치 표시와 표준 CT 유도 다회 위치 표시로 비교한 다기관 무작위 비열등성 시험입니다.",
-  "saw": "270명 분석에서 R0 절제와 여유 절제면을 포함한 성공률은 증강현실 98.5%, CT 99.3%로 비열등 기준을 충족했습니다. 증강현실군은 방사선 노출, 사전 통증, 천자 시간, 위치 표시부터 절개까지의 시간이 더 짧았습니다.",
-  "limit": "폐암 확진 전 수술 전 위치 표시 시험이며 단일 국가의 5개 기관에서 시행됐습니다. 장기 종양학 결과는 평가하지 않았습니다.",
-  "against": "CT 유도군의 절제 성공률이 수치상 더 높았고, 증강현실의 장기 비용·운영자 숙련도·재현성은 더 확인해야 합니다.",
-  "use": "폐결절 아전절제 전 위치 표시 방법을 선택할 때 절제 성공률과 방사선·통증·시술 시간의 차이를 함께 설명합니다.",
-  "refs": [
-    { "label": "초기 폐암 의심 결절 증강현실 위치 표시 무작위 비열등성 시험", "pmid": "42418181", "nct": "NCT06548451" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "query.intr=augmented reality AND query.cond=Cancer; NCT06548451 직접 결과",
-    "pubmed": "augmented reality AND cancer; 503건, PMID 42418181 직접 무작위시험",
-    "negative": "augmented reality AND cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 339건",
-    "safety": "augmented reality AND cancer AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 121건"
+ "id": "augmented-reality-cancer-pos",
+ "subj": "증강현실",
+ "claim": "초기 폐암 의심 결절의 수술 전 위치 표시를 돕는다",
+ "line": "증강현실 위치 표시는 방사선 노출과 사전 통증을 줄였습니다.",
+ "effect": "절제 성공 98.5% 대 99.3%",
+ "vs": "초기 폐암 의심 결절 270명 무작위 비열등성 분석에서 증강현실군의 성공적 아전절제는 132/134명(98.5%), CT 유도군은 135/136명(99.3%)이었습니다. 방사선량 중앙값은 456.50 대 1,260.11 mGy·cm, 사전 통증은 0 대 5점이었습니다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 270,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "증강현실 유도 결절 위치 표시는 수술 지원 기기 중재이며 폐암 치료 자체를 대체하지 않습니다.",
+ "why": "CT에서 초기 폐암이 의심된 폐결절 환자를 증강현실 유도 단회 위치 표시와 표준 CT 유도 다회 위치 표시로 비교한 다기관 무작위 비열등성 시험입니다.",
+ "saw": "270명 분석에서 R0 절제와 여유 절제면을 포함한 성공률은 증강현실 98.5%, CT 99.3%로 비열등 기준을 충족했습니다. 증강현실군은 방사선 노출, 사전 통증, 천자 시간, 위치 표시부터 절개까지의 시간이 더 짧았습니다.",
+ "limit": "폐암 확진 전 수술 전 위치 표시 시험이며 단일 국가의 5개 기관에서 시행됐습니다. 장기 종양학 결과는 평가하지 않았습니다.",
+ "against": "CT 유도군의 절제 성공률이 수치상 더 높았고, 증강현실의 장기 비용·운영자 숙련도·재현성은 더 확인해야 합니다.",
+ "use": "폐결절 아전절제 전 위치 표시 방법을 선택할 때 절제 성공률과 방사선·통증·시술 시간의 차이를 함께 설명합니다.",
+ "refs": [
+  {
+   "label": "초기 폐암 의심 결절 증강현실 위치 표시 무작위 비열등성 시험",
+   "pmid": "42418181",
+   "nct": "NCT06548451"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "query.intr=augmented reality AND query.cond=Cancer; NCT06548451 직접 결과",
+  "pubmed": "augmented reality AND cancer; 503건, PMID 42418181 직접 무작위시험",
+  "negative": "augmented reality AND cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 339건",
+  "safety": "augmented reality AND cancer AND (adverse OR toxicity OR burn OR infection OR case report OR harm); 121건"
+ }
 }

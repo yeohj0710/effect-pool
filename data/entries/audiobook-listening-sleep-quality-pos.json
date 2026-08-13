@@ -1,28 +1,32 @@
 {
-  "id": "audiobook-listening-sleep-quality-pos",
-  "subj": "audiobook listening",
-  "claim": "오디오북 듣기가 중환자실 환자의 수면의 질을 개선한다",
-  "line": "중환자실 환자에게 오디오북을 들려주자 수면의 질이 개선되었다.",
-  "effect": "수면 점수 P<0.001",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 56,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "청각 중재이며 중환자실 수면장애 치료의 허가 적응증은 아닙니다.",
-  "why": "내과계 중환자실 환자 56명을 중재군과 표준 간호군으로 나눈 준실험에서 하루 동안 녹음된 이야기를 들려주고 수면을 비교했습니다.",
-  "saw": "오디오북군의 수면의 질이 유의하게 좋아졌고(P<0.001), 맥박과 혈압도 군·시간 상호작용에서 차이가 났습니다. 체온과 호흡수는 변하지 않았습니다.",
-  "limit": "56명 규모의 단일 중환자실 준실험이며 오디오북을 한 번 들은 뒤의 단기 결과입니다.",
-  "against": "재원 기간이나 회복 같은 임상 결과는 평가하지 않았고 무작위 배정도 아니었습니다.",
-  "use": "중환자실의 환경 스트레스를 줄이는 저비용 보조 활동으로 검토합니다.",
-  "refs": [
-    { "label": "The effect of audiobooks on sleep quality and vital signs in intensive care patients", "pmid": "37797438" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=audiobook listening AND query.cond=Sleep Quality · 2건 반환, exact InterventionName 0건",
-    "pubmed": "\"audiobook listening\" AND \"Sleep Quality\" · 1건",
-    "negative": "\"audiobook listening\" AND \"Sleep Quality\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
-    "safety": "\"audiobook listening\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 1건"
+ "id": "audiobook-listening-sleep-quality-pos",
+ "subj": "오디오북 듣기",
+ "claim": "오디오북 듣기가 중환자실 환자의 수면의 질을 개선한다",
+ "line": "중환자실 환자에게 오디오북을 들려주자 수면의 질이 개선되었다.",
+ "effect": "수면 점수 P<0.001",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 56,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "청각 중재이며 중환자실 수면장애 치료의 허가 적응증은 아닙니다.",
+ "why": "내과계 중환자실 환자 56명을 중재군과 표준 간호군으로 나눈 준실험에서 하루 동안 녹음된 이야기를 들려주고 수면을 비교했습니다.",
+ "saw": "오디오북군의 수면의 질이 유의하게 좋아졌고(P<0.001), 맥박과 혈압도 군·시간 상호작용에서 차이가 났습니다. 체온과 호흡수는 변하지 않았습니다.",
+ "limit": "56명 규모의 단일 중환자실 준실험이며 오디오북을 한 번 들은 뒤의 단기 결과입니다.",
+ "against": "재원 기간이나 회복 같은 임상 결과는 평가하지 않았고 무작위 배정도 아니었습니다.",
+ "use": "중환자실의 환경 스트레스를 줄이는 저비용 보조 활동으로 검토합니다.",
+ "refs": [
+  {
+   "label": "The effect of audiobooks on sleep quality and vital signs in intensive care patients",
+   "pmid": "37797438"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=audiobook listening AND query.cond=Sleep Quality · 2건 반환, exact InterventionName 0건",
+  "pubmed": "\"audiobook listening\" AND \"Sleep Quality\" · 1건 · 2026-08-14 PubMed 초록 직접 확인: PMID 37797438",
+  "negative": "\"audiobook listening\" AND \"Sleep Quality\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
+  "safety": "\"audiobook listening\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 1건"
+ },
+ "vs": "오디오북 듣기 vs 표준 돌봄(n=56): 수면의 질과 맥박·혈압의 군×시간 상호작용 P<.001; 체온·호흡수는 차이 없음"
 }

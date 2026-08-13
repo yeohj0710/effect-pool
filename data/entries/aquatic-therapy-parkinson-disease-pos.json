@@ -1,20 +1,33 @@
 {
-  "id": "aquatic-therapy-parkinson-disease-pos",
-  "subj": "aquatic therapy",
-  "claim": "소규모 단일 연구에서 파킨슨병 수중 아이치 치료의 통증·균형 개선 신호가 관찰됐다",
-  "line": "파킨슨병에서 수중치료 후 통증·균형·일상 기능이 개선됐습니다.",
-  "effect": "통증·균형·일상기능 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 30,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "파킨슨병 치료는 수중 아이치의 허가 적응증이 아니다.",
-  "why": "경증·중등도 파킨슨병에서 10주 수중 아이치와 지상 치료를 비교한 단일눈가림 무작위시험이다.",
-  "saw": "파킨슨병 환자 30명을 수중 아이치군 15명과 지상 치료군 15명으로 나눴다. 수중 아이치군에서 통증, Tinetti 균형검사, 일상생활과 운동 증상이 지상 치료보다 개선됐다.",
-  "limit": "사람 30명의 소규모 연구이고 10주 추적이라 장기 효과를 알 수 없다.",
-  "against": "일부 통증 개선은 지상 치료군에서도 나타났고 모든 운동·기분 영역이 좋아진 것은 아니다.",
-  "use": "경증·중등도 파킨슨병의 통증·균형 재활을 설계할 때 수중 치료 신호로 기록한다.",
-  "refs": [{ "label": "European Journal of Physical and Rehabilitation Medicine · 무작위시험", "doi": "10.23736/S1973-9087.17.04647-0", "pmid": "28627861" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=aquatic therapy, cond=Parkinson Disease · 10건", "pubmed": "aquatic therapy AND Parkinson Disease · 91편", "negative": "aquatic therapy AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 76편", "safety": "aquatic therapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 873편" }
+ "id": "aquatic-therapy-parkinson-disease-pos",
+ "subj": "수중치료",
+ "claim": "소규모 단일 연구에서 파킨슨병 수중 아이치 치료의 통증·균형 개선 신호가 관찰됐다",
+ "line": "파킨슨병에서 수중치료 후 통증·균형·일상 기능이 개선됐습니다.",
+ "effect": "통증·균형·일상기능 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "파킨슨병 치료는 수중 아이치의 허가 적응증이 아니다.",
+ "why": "경증·중등도 파킨슨병에서 10주 수중 아이치와 지상 치료를 비교한 단일눈가림 무작위시험이다.",
+ "saw": "파킨슨병 환자 30명을 수중 아이치군 15명과 지상 치료군 15명으로 나눴다. 수중 아이치군에서 통증, Tinetti 균형검사, 일상생활과 운동 증상이 지상 치료보다 개선됐다.",
+ "limit": "사람 30명의 소규모 연구이고 10주 추적이라 장기 효과를 알 수 없다.",
+ "against": "일부 통증 개선은 지상 치료군에서도 나타났고 모든 운동·기분 영역이 좋아진 것은 아니다.",
+ "use": "경증·중등도 파킨슨병의 통증·균형 재활을 설계할 때 수중 치료 신호로 기록한다.",
+ "refs": [
+  {
+   "label": "European Journal of Physical and Rehabilitation Medicine · 무작위시험",
+   "doi": "10.23736/S1973-9087.17.04647-0",
+   "pmid": "28627861"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=aquatic therapy, cond=Parkinson Disease · 10건",
+  "pubmed": "aquatic therapy AND Parkinson Disease · 91편 · 2026-08-14 PubMed 초록 직접 확인: PMID 28627861",
+  "negative": "aquatic therapy AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 76편",
+  "safety": "aquatic therapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 873편"
+ },
+ "vs": "수중 아이치 15명 vs 지상 치료 15명: 통증 F=26.89,P<.001, Tinetti F=21.57,P<.001; 군 간 차이 P<.05, 대조군 통증도 F=8.3,P=.004로 감소"
 }

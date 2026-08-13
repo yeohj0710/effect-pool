@@ -1,28 +1,32 @@
 {
-  "id": "ankle-brace-foot-drop-null",
-  "subj": "ankle brace",
-  "claim": "발목 보조기를 발처짐에 쓴다",
-  "line": "발처짐에서 외측 발목 보조기는 다른 보조 장치보다 덜 개선했습니다",
-  "effect": "보행점수 변화 -2.2°",
-  "tier": "case",
-  "dir": "null",
-  "n": 1,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "외측 발목 보조기의 발처짐 사용은 허가 적응증이 아닌 사례 기반 사용입니다",
-  "why": "발처짐이 있는 뇌졸중 후 편마비 환자 한 명에게 외측 발목 보조기, 전기자극, 발처짐 커프를 비교한 사례입니다",
-  "saw": "외측 발목 보조기는 발끝 처짐을 줄였지만 보행 프로파일의 임상적으로 유의한 개선은 없었습니다. 전기자극과 발처짐 커프의 개선 폭이 더 컸습니다",
-  "limit": "한 명의 사례이고 단기 보행 지표만 측정했습니다. 다른 원인의 발처짐에 일반화할 수 없습니다",
-  "against": "전기자극과 발처짐 커프는 맨발보다 보행 프로파일을 임상적으로 개선했습니다",
-  "use": "발처짐 장치 선택은 보행 분석과 환자별 기능 목표를 함께 봅니다",
-  "refs": [
-    { "label": "3D motion analysis for dropfoot treatment planning · 증례·음성 결과", "doi": "10.1093/ptj/pzab003", "pmid": "33444441" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"ankle brace\" AND \"Foot Drop\" → 15건 반환, intervention 이름 대조 통과 0건",
-    "pubmed": "\"ankle brace\" AND \"Foot Drop\" → 1건, PMID 33444441 직접 증례 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1건",
-    "safety": "\"ankle brace\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 23건"
+ "id": "ankle-brace-foot-drop-null",
+ "subj": "발목 보조기",
+ "claim": "발목 보조기를 발처짐에 쓴다",
+ "line": "발처짐에서 외측 발목 보조기는 다른 보조 장치보다 덜 개선했습니다",
+ "effect": "보행점수 변화 -2.2°",
+ "tier": "case",
+ "dir": "null",
+ "n": 1,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "외측 발목 보조기의 발처짐 사용은 허가 적응증이 아닌 사례 기반 사용입니다",
+ "why": "발처짐이 있는 뇌졸중 후 편마비 환자 한 명에게 외측 발목 보조기, 전기자극, 발처짐 커프를 비교한 사례입니다",
+ "saw": "외측 발목 보조기는 발끝 처짐을 줄였지만 보행 프로파일의 임상적으로 유의한 개선은 없었습니다. 전기자극과 발처짐 커프의 개선 폭이 더 컸습니다",
+ "limit": "한 명의 사례이고 단기 보행 지표만 측정했습니다. 다른 원인의 발처짐에 일반화할 수 없습니다",
+ "against": "전기자극과 발처짐 커프는 맨발보다 보행 프로파일을 임상적으로 개선했습니다",
+ "use": "발처짐 장치 선택은 보행 분석과 환자별 기능 목표를 함께 봅니다",
+ "refs": [
+  {
+   "label": "3D motion analysis for dropfoot treatment planning · 증례·음성 결과",
+   "doi": "10.1093/ptj/pzab003",
+   "pmid": "33444441"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"ankle brace\" AND \"Foot Drop\" → 15건 반환, intervention 이름 대조 통과 0건",
+  "pubmed": "\"ankle brace\" AND \"Foot Drop\" → 1건, PMID 33444441 직접 증례 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1건",
+  "safety": "\"ankle brace\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 23건"
+ }
 }
