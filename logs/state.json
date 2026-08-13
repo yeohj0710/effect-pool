@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5987,
-  "subjects": 2280,
-  "refs": 8349,
+  "entries": 6011,
+  "subjects": 2289,
+  "refs": 8373,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,44 +12,44 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2543
+    "rx": 2567
   },
   "tiers": {
-    "trial": 5164,
+    "trial": 5188,
     "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3593,
-    "null": 1193,
+    "pos": 3614,
+    "null": 1196,
     "open": 1038,
     "harm": 163
   },
   "worklist": {
     "total": 15542,
-    "checked": 15292,
-    "unchecked": 250,
-    "no_evidence_pending": 2051,
-    "note": "Batch 1272 checked 30 unique topics from worklist lines 11255-12418, including one identifiable non-prescription topic. New evidence entries: 15; existing links: 13; no-evidence rejects: 2 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
+    "checked": 15322,
+    "unchecked": 220,
+    "no_evidence_pending": 2055,
+    "note": "Batch 1273 checked 30 unique prescription topics from worklist lines 12419-12862. New evidence entries: 24; existing links: 2; no-evidence rejects: 4 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
   },
   "backlog": {
-    "vs_missing": 4035,
+    "vs_missing": 4058,
     "english_subjects": 1116,
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.9% (951 entries)",
-    "rx_share": "42.5% (2,543 entries)",
-    "no_effect_or_harm_share": "22.7% (1,356 entries)",
-    "vs_share": "15.8% (943 entries)",
+    "over_counter_share": "15.8% (951 entries)",
+    "rx_share": "42.7% (2,567 entries)",
+    "no_effect_or_harm_share": "22.6% (1,359 entries)",
+    "vs_share": "16.1% (967 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.3% (5,164 entries)",
+    "trial_share": "86.3% (5,188 entries)",
     "non_trial_share": "13.7% (823 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 1002,
+      "thin_study": 1003,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1273 starts after batch 1272. Prioritize non-prescription topics first; one identifiable non-prescription topic was processed in this queue segment. Resume at worklist line 12419: telitacicept — Myasthenia Gravis. 250 unchecked rows remain.",
+  "next": "Batch 1274 starts after batch 1273. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 12863: ublituximab — Multiple Sclerosis에 듣는다. 220 unchecked rows remain.",
   "last_batch": {
-    "id": "1272",
-    "commit": "33a73b63",
+    "id": "1273",
+    "commit": "d21a0c25",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 15,
-    "existing_links": 13,
-    "no_evidence_rejects": 2,
-    "non_prescription_topics_available": 1,
-    "build": "5987 entries; 8349 refs; 5164 trial; 728 obs; 31 animal; 17 lab; 47 case; 943 numeric comparison entries; worklist 15292/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 34936076, 36516076, 26864092, 18444532, 14633817, 32158190, 7798508, 23347435, 23347400, 37497207, 16197669, 19367054, 29972757, 34090625, and 36938094. Existing links reused allopurinol-hyperuricemia-null, celecoxib-osteoarthritis-open, fenofibrate-hyperlipidemia-pos, finerenone-proteinuria-open, liraglutide-obesity-pos, bempedoic-acid-hypercholesterolaemia-pos, canagliflozin-renal-insufficiency-pos, valproic-acid-epilepsy-pos, atenolol-cardiac-disease-null, atenolol-coronary-disease-null, maralixibat-cholestatic-liver-disease-pos, and acoramidis-cardiomyopathies-pos. New entries have Korean subjects, prescription or OTC mappings, and numeric intervention-versus-control results or valid relative effects. Two topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect.",
-    "new_entry_vs_warnings_fixed": 6,
+    "new_entries": 24,
+    "existing_links": 2,
+    "no_evidence_rejects": 4,
+    "non_prescription_topics_available": 0,
+    "build": "6011 entries; 8373 refs; 5188 trial; 728 obs; 31 animal; 17 lab; 47 case; 967 numeric comparison entries; worklist 15322/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 38726639, 33449816, 31050279, 29066163, 31702883, 29211658, 29972753, 38587247, 33549193, 38795716, 36649967, 38039392, 39225259, 31740348, 33596357, 35717987, 37666383, 27676118, 38552841, 37888917, 30079778, 35417638, and 32333898. Existing links reused bazedoxifene-menopause-pos for the postmenopause topic and atacicept-iga-nephropathy-pos for the Berger disease topic. Four topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 3,
+    "remaining_expected_thin_warnings": 1,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1273",
-    "worklist_line": 12419,
-    "topic": "telitacicept — Myasthenia Gravis",
-    "unchecked": 250
+    "next_batch": "1274",
+    "worklist_line": 12863,
+    "topic": "ublituximab — Multiple Sclerosis에 듣는다",
+    "unchecked": 220
   }
 }
