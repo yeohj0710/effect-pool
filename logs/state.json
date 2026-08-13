@@ -32,10 +32,10 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1282 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1283 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
   },
   "backlog": {
-    "vs_missing": 4028,
+    "vs_missing": 3998,
     "english_subjects": 1116,
     "note": "Legacy backlog remains; process it in safe batches."
   },
@@ -43,7 +43,7 @@
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "19.4% (1,208 entries)",
+    "vs_share": "19.9% (1,238 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,18 +57,18 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1283 starts after batch 1282. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Prioritize non-prescription legacy work; resume at acceptance-and-commitment-coaching-chronic-pain-pos. Unprocessed prescription legacy entries remain ahead of it in file order; no unchecked worklist rows remain.",
+  "next": "Batch 1284 starts after batch 1283. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Prioritize non-prescription legacy work; resume at active-listening-cognitive-change-pos. Unprocessed prescription legacy entries remain ahead of it in file order; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1282",
-    "commit": "94ce2347",
+    "id": "1283",
+    "commit": "74392438",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1208 numeric comparison entries; worklist 15542/15542",
-    "research": "Existing PubMed evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 37649241, 37438496, 38250124, 38592388, 41381439, 35714120, 35085025, 34049475, 24050593, 33857615, 37872373, 26088658, 33582447, 40797000, 34994794, 27007113, 40794532, 37604396, 27403876, 22137067, 34967840, 36480969, 39083548, 35984871, 33423540, 33860685, 15998890, 32534647, 39824200, 40067142, 12621132, 32747412, 33795180, 39069465, 42301320, 42523624, 32138802, 34264703, 16881773, 39836656, and 38781520. ClinicalTrials.gov identifiers retained where present included NCT05430685 and NCT00565708. No entries were rejected or newly fabricated.",
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1238 numeric comparison entries; worklist 15542/15542",
+    "research": "Existing PubMed evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 36873226, 39264631, 31794566, 9183235, 37701541, 38429794, 41543854, 28478782, 39536276, 37009042, 28092345, 26606319, 37501067, 37718775, 32212422, 35843501, 33141943, 36624160, 19228852, 18981029, 22336631, 34954832, 41882250, 42194487, 35294962, 40146972, 34468722, 29167102, 28031317, 34319429, 28490552, 33570108, 35721823, 37470901, 38970591, and 36534317. No entries were rejected or newly fabricated.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 30,
@@ -78,9 +78,9 @@
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1283",
+    "next_batch": "1284",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing entry acceptance-and-commitment-coaching-chronic-pain-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing entry active-listening-cognitive-change-pos; worklist exhausted",
     "unchecked": 0
   }
 }
