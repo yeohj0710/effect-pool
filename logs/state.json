@@ -32,18 +32,18 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1298 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 23 comparison results, screened 7 nonqualifying topics, and leaves blueberry-diabetes-pos as the exact next unprocessed candidate."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1299 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 20 comparison results, screened 10 nonqualifying topics, and leaves breathing-exercise-stress-null as the exact next unprocessed candidate."
   },
   "backlog": {
-    "vs_missing": 3594,
-    "english_subjects": 995,
+    "vs_missing": 3574,
+    "english_subjects": 987,
     "note": "Legacy backlog remains; process it in safe batches. vs_missing is the current pre-2026-08-12 non-open entry count without numeric vs data. english_subjects is the current distinct entry-subject count containing untranslated lowercase English words."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (954 entries)",
     "rx_share": "44.6% (2,775 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "26.4% (1,645 entries)",
+    "vs_share": "26.8% (1,665 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,34 +57,34 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1299 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate blueberry-diabetes-pos. Batch 1298 processed 30 existing non-prescription topics, filled 23 numeric intervention-versus-control results or valid relative effects from PubMed records, corrected beta-glucan's supplement category, screened 7 nonqualifying topics, and translated 11 shared English subjects across 22 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1300 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate breathing-exercise-stress-null. Batch 1299 processed 30 existing non-prescription topics, filled 20 numeric intervention-versus-control results or valid relative effects from PubMed records, screened 10 nonqualifying topics, and translated 8 shared English subjects across 19 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1298",
-    "commit": "f98cabee",
+    "id": "1299",
+    "commit": "4a1dd961",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "screened_nonqualifying_topics": 7,
-    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1645 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed PMIDs 37679692,37069570,35037116,33812218,37766731,35977911,39064783,42516266,42384726,8127329,8901854,31573387,30380356,36011825,30073406,32619206,41718606,27882777,33109777,37980530,41998557,42545945,37247514,33021111,25638678,25811286,32460873,36150238,41421618,23946702,31967375,29101797,37302816,38461462,31890092,42558005,40229974,36972800; PubMed-linked ClinicalTrials.gov identifiers cited in these records include NCT05334121,NCT02770417,NCT03548155,NCT05206747,NCT02698800,NCT04084457. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records. Seven topics were screened out because the cited record was preclinical, single-group pre-post, or did not report a qualifying numeric comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
+    "screened_nonqualifying_topics": 10,
+    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1665 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed PMIDs 35282984,36972800,38674870,33693835,36066009,25578927,28059417,33543787,23543543,30820242,23327643,27283365,40860007,34781272,37225984,28363483,41578008,39587799,41667211,35340783,34784592,36611488,16053121,36480101,40128609,42517514,28626302,37150427,39477355,42193655,42266207,39794689. PubMed-linked ClinicalTrials.gov identifiers cited in these records include NCT04084457,NCT03467503,NCT01515098,NCT04518605,NCT03772067,NCT05492929,NCT06171893,NCT00912041. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records. Ten topics were screened out because the cited record was preclinical, single-group or single-participant, or did not report a qualifying numeric comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 23,
-    "subject_names_renamed": 11,
-    "subject_entries_renamed": 22,
-    "targeted_batch_warnings_fixed": 4,
-    "build_errors_fixed": 2,
+    "legacy_vs_filled": 20,
+    "subject_names_renamed": 8,
+    "subject_entries_renamed": 19,
+    "targeted_batch_warnings_fixed": 5,
+    "build_errors_fixed": 0,
     "remaining_expected_thin_warnings": 1022,
     "remaining_expected_unknown_n_warnings": 454,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1299",
+    "next_batch": "1300",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing backlog after batch1298 sequential window; exact next unprocessed candidate blueberry-diabetes-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing backlog after batch1299 sequential window; exact next unprocessed candidate breathing-exercise-stress-null; worklist exhausted",
     "unchecked": 0
   }
 }
