@@ -1,28 +1,33 @@
 {
-  "id": "digital-cognitive-behavioral-therapy-depression-null",
-  "subj": "digital cognitive behavioral therapy",
-  "claim": "원격 디지털 CBT는 저강도 웹 지원보다 우울 증상을 더 낮추지 못한다",
-  "line": "우울증에서 웹 지원보다 낫지 않았습니다.",
-  "effect": "iCBT 군간차 없음",
-  "tier": "trial",
-  "dir": "null",
+ "id": "digital-cognitive-behavioral-therapy-depression-null",
+ "subj": "디지털 인지행동치료",
+ "claim": "원격 디지털 CBT는 저강도 웹 지원보다 우울 증상을 더 낮추지 못한다",
+ "line": "우울증에서 웹 지원보다 낫지 않았습니다.",
+ "effect": "iCBT 군간차 없음",
+ "tier": "trial",
+ "dir": "null",
   "n": 97,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "디지털 인지행동치료는 의약품 허가 적응증이 아닌 심리 중재다",
-  "why": "코로나19 시기 원격 웹 기반 우울 중재 3군 무작위시험에서 인터넷 CBT와 대조 웹 프로그램 모두 우울 증상을 낮췄지만 군간 우월성은 없었다.",
-  "saw": "참가자 97명을 MBCT-R 37명, iCBT 41명, 대조 19명으로 배정했다. iCBT군 우울 점수는 감소했지만 대조군보다 유의하게 더 큰 감소는 없었다.",
-  "limit": "중재 완료율이 MBCT-R 30%, iCBT 24%로 낮았고 코로나19 시기 단일 안전망 병원 연구다.",
-  "against": "저강도 웹 기반 대조 프로그램도 우울 증상을 줄여 추가 디지털 CBT의 우월성이 확인되지 않았다.",
-  "use": "디지털 CBT의 효과를 평가할 때 대조군의 저강도 웹 지원과 완료율을 함께 고려한다.",
-  "refs": [
-    { "label": "Remotely Delivered and Web-Based Interventions for Depression During COVID-19 2026 · Journal of Medical Internet Research", "doi": "10.2196/88388", "pmid": "42551008" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=digital cognitive behavioral therapy AND condition=Depression; 146건 반환, 중재명 일치 2건",
-    "pubmed": "digital cognitive behavioral therapy AND Depression; 1142건",
-    "negative": "digital cognitive behavioral therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 923건",
-    "safety": "digital cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 186건"
+  "vs": "iCBT 41명 대비 저강도 대조 19명: 우울 증상 -12.7점 대 -15.2점; 군 간 우월성 없음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "디지털 인지행동치료는 의약품 허가 적응증이 아닌 심리 중재다",
+ "why": "코로나19 시기 원격 웹 기반 우울 중재 3군 무작위시험에서 인터넷 CBT와 대조 웹 프로그램 모두 우울 증상을 낮췄지만 군간 우월성은 없었다.",
+ "saw": "참가자 97명을 MBCT-R 37명, iCBT 41명, 대조 19명으로 배정했다. iCBT군 우울 점수는 감소했지만 대조군보다 유의하게 더 큰 감소는 없었다.",
+ "limit": "중재 완료율이 MBCT-R 30%, iCBT 24%로 낮았고 코로나19 시기 단일 안전망 병원 연구다.",
+ "against": "저강도 웹 기반 대조 프로그램도 우울 증상을 줄여 추가 디지털 CBT의 우월성이 확인되지 않았다.",
+ "use": "디지털 CBT의 효과를 평가할 때 대조군의 저강도 웹 지원과 완료율을 함께 고려한다.",
+ "refs": [
+  {
+   "label": "Remotely Delivered and Web-Based Interventions for Depression During COVID-19 2026 · Journal of Medical Internet Research",
+   "doi": "10.2196/88388",
+   "pmid": "42551008"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=digital cognitive behavioral therapy AND condition=Depression; 146건 반환, 중재명 일치 2건",
+  "pubmed": "digital cognitive behavioral therapy AND Depression; 1142건",
+  "negative": "digital cognitive behavioral therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 923건",
+  "safety": "digital cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 186건"
+ }
 }
