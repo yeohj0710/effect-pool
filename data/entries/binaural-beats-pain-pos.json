@@ -1,29 +1,38 @@
 {
-  "id": "binaural-beats-pain-pos",
-  "subj": "binaural beats",
-  "claim": "양이성 청각 비트는 수술 중 통증을 낮추는가",
-  "line": "수술 중 양이성 비트는 환자의 통증과 불안을 낮췄다.",
-  "effect": "통증 VAS·불안 유의 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 61,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 청각 중재로 의약품 허가 적응증이 없습니다",
-  "why": "국소마취 백내장 수술 환자를 양이성 비트 오디오와 무음 이어폰 대조군에 무작위 배정했습니다.",
-  "saw": "61명 시험에서 양이성 비트군의 수술 중 통증, 심박수, 이완기혈압, 평균동맥압, 불안이 모두 대조군보다 낮았습니다.",
-  "limit": "백내장 수술의 단일 시험이고 음악·기대효과를 완전히 분리하기 어렵습니다.",
-  "against": "다른 주파수와 노출 시간을 쓰면 효과 크기가 달라질 수 있습니다.",
-  "use": "수술 중 긴장과 통증을 낮추는 비약물 보조요법으로 설명합니다.",
-  "refs": [
-    { "label": "binaural beat audio during cataract surgery", "doi": "10.3390/ijerph191610194", "pmid": "36011825" },
-    { "label": "binaural auditory beats meta-analysis", "doi": "10.1007/s00426-018-1066-8", "pmid": "30073406" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "binaural beats AND Pain · 10건",
-    "pubmed": "binaural beats AND Pain AND (randomized OR trial OR meta-analysis) · 29건",
-    "negative": "binaural beats AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 33건",
-    "safety": "binaural beats AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 7건"
+ "id": "binaural-beats-pain-pos",
+ "subj": "양이 박동음",
+ "claim": "양이성 청각 비트는 수술 중 통증을 낮추는가",
+ "line": "수술 중 양이성 비트는 환자의 통증과 불안을 낮췄다.",
+ "effect": "통증 VAS·불안 유의 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 61,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 청각 중재로 의약품 허가 적응증이 없습니다",
+ "why": "국소마취 백내장 수술 환자를 양이성 비트 오디오와 무음 이어폰 대조군에 무작위 배정했습니다.",
+ "saw": "61명 시험에서 양이성 비트군의 수술 중 통증, 심박수, 이완기혈압, 평균동맥압, 불안이 모두 대조군보다 낮았습니다.",
+ "limit": "백내장 수술의 단일 시험이고 음악·기대효과를 완전히 분리하기 어렵습니다.",
+ "against": "다른 주파수와 노출 시간을 쓰면 효과 크기가 달라질 수 있습니다.",
+ "use": "수술 중 긴장과 통증을 낮추는 비약물 보조요법으로 설명합니다.",
+ "refs": [
+  {
+   "label": "binaural beat audio during cataract surgery",
+   "doi": "10.3390/ijerph191610194",
+   "pmid": "36011825"
+  },
+  {
+   "label": "binaural auditory beats meta-analysis",
+   "doi": "10.1007/s00426-018-1066-8",
+   "pmid": "30073406"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "binaural beats AND Pain · 10건",
+  "pubmed": "binaural beats AND Pain AND (randomized OR trial OR meta-analysis) · 29건 · 2026-08-14 PubMed 초록 직접 확인: PMID 36011825,30073406",
+  "negative": "binaural beats AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 33건",
+  "safety": "binaural beats AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 7건"
+ },
+ "vs": "양이 박동음군 대 sham 대조군 61명: 수술 통증·심박수 P<.001, 이완기혈압 P=.003, 평균동맥압 P=.007, 불안 P=.009에서 대조군보다 낮음"
 }

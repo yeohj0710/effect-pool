@@ -1,30 +1,40 @@
 {
-  "id": "blue-light-filter-sleep-pos",
-  "subj": "blue light filter",
-  "claim": "청색광 차단 프로그램은 수면의 질을 개선하는가",
-  "line": "청색광 차단은 3개월 뒤 수면 점수를 개선했다.",
-  "effect": "PSQI가 대조군보다 낮음 (P≤0.05)",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 80,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "기기 설정 중재이며 수면장애 치료의 허가 적응증은 아닙니다.",
-  "why": "하루 2시간 이상 컴퓨터를 쓰는 병원 직원 80명을 blue light filter 소프트웨어군 40명과 sham군 40명에 배정해 3개월간 비교한 무작위시험입니다.",
-  "saw": "중재군의 PSQI 수면 점수가 대조군보다 유의하게 낮았습니다. Epworth 졸림 척도와 정서 점수는 차이가 없었고 코르티솔은 높아졌으며 멜라토닌은 낮아졌습니다.",
-  "limit": "한 병원의 직원 80명을 대상으로 한 3개월 시험이며 호르몬 변화의 임상적 의미는 불확실합니다.",
-  "against": "스마트폰 사용자를 관찰한 연구에서는 blue light filter 사용과 수면의 질 사이에 유의한 차이가 없었고, 13명 교차시험에서도 Night Shift와 기기 미사용의 차이가 거의 없었습니다.",
-  "use": "야간 화면 사용을 줄이는 보조 방법으로 검토하며 수면장애 치료나 호르몬 개선으로 확대하지 않습니다.",
-  "refs": [
-    { "label": "Investigating the effects of a blue-blocking software on sleep and circadian measures", "pmid": "37302816" },
-    { "label": "Do blue light filter applications improve sleep outcomes?", "pmid": "38461462" },
-    { "label": "Built-in blue-light filter on an electronic device · pilot study", "pmid": "31890092" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=blue light filter AND query.cond=Sleep · 9건 반환, exact InterventionName 0건",
-    "pubmed": "\"blue light filter\" AND \"Sleep\" · 9건",
-    "negative": "\"blue light filter\" AND \"Sleep\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 2건",
-    "safety": "\"blue light filter\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 2건"
+ "id": "blue-light-filter-sleep-pos",
+ "subj": "청색광 필터",
+ "claim": "청색광 차단 프로그램은 수면의 질을 개선하는가",
+ "line": "청색광 차단은 3개월 뒤 수면 점수를 개선했다.",
+ "effect": "PSQI가 대조군보다 낮음 (P≤0.05)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 80,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "기기 설정 중재이며 수면장애 치료의 허가 적응증은 아닙니다.",
+ "why": "하루 2시간 이상 컴퓨터를 쓰는 병원 직원 80명을 blue light filter 소프트웨어군 40명과 sham군 40명에 배정해 3개월간 비교한 무작위시험입니다.",
+ "saw": "중재군의 PSQI 수면 점수가 대조군보다 유의하게 낮았습니다. Epworth 졸림 척도와 정서 점수는 차이가 없었고 코르티솔은 높아졌으며 멜라토닌은 낮아졌습니다.",
+ "limit": "한 병원의 직원 80명을 대상으로 한 3개월 시험이며 호르몬 변화의 임상적 의미는 불확실합니다.",
+ "against": "스마트폰 사용자를 관찰한 연구에서는 blue light filter 사용과 수면의 질 사이에 유의한 차이가 없었고, 13명 교차시험에서도 Night Shift와 기기 미사용의 차이가 거의 없었습니다.",
+ "use": "야간 화면 사용을 줄이는 보조 방법으로 검토하며 수면장애 치료나 호르몬 개선으로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "Investigating the effects of a blue-blocking software on sleep and circadian measures",
+   "pmid": "37302816"
+  },
+  {
+   "label": "Do blue light filter applications improve sleep outcomes?",
+   "pmid": "38461462"
+  },
+  {
+   "label": "Built-in blue-light filter on an electronic device · pilot study",
+   "pmid": "31890092"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=blue light filter AND query.cond=Sleep · 9건 반환, exact InterventionName 0건",
+  "pubmed": "\"blue light filter\" AND \"Sleep\" · 9건 · 2026-08-14 PubMed 초록 직접 확인: PMID 37302816,38461462",
+  "negative": "\"blue light filter\" AND \"Sleep\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 2건",
+  "safety": "\"blue light filter\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 2건"
+ },
+ "vs": "청색광 필터 소프트웨어군 40명 대 가짜 처치군 40명: 중재 후 PSQI가 대조군보다 낮음; 졸림 P=.370, 정서 P=.140, 코르티솔 P=.006, 멜라토닌 P=.034"
 }

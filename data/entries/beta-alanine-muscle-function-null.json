@@ -1,20 +1,38 @@
 {
-  "id": "beta-alanine-muscle-function-null",
-  "subj": "베타알라닌",
-  "claim": "베타알라닌이 근육 기능과 운동능력을 높인다",
-  "line": "COPD 환자에서 베타알라닌은 근육 카르노신만 늘리고 운동능력은 바꾸지 못했습니다",
-  "effect": "근육 카르노신 증가·운동능력 변화 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "베타알라닌은 근육 기능 개선 허가를 받은 성분이 아닌 식이 보충제입니다",
-  "why": "COPD 환자를 베타알라닌과 위약에 무작위 배정해 근육 카르노신과 운동능력을 함께 측정한 시험입니다.",
-  "saw": "COPD 환자 40명이 12주 동안 베타알라닌과 위약을 받았습니다. 근육 카르노신은 늘었지만 운동능력, 대퇴사두근 기능과 산화 스트레스 지표는 좋아지지 않았습니다.",
-  "limit": "COPD 환자 연구라 건강한 운동자의 근육 기능에 그대로 적용할 수 없고 표본이 40명입니다.",
-  "against": "다른 27명 고강도 기능훈련 시험에서는 점프 지표 일부가 좋아졌지만 다른 근육·피로 지표는 달라지지 않았습니다.",
-  "use": "생화학 지표와 실제 근육 기능이 분리된 보충제 시험으로 기록합니다.",
-  "refs": [{ "label": "COPD 베타알라닌 무작위시험", "doi": "10.1002/jcsm.13048", "pmid": "35977911" }, { "label": "고강도 기능훈련 베타알라닌 무작위시험", "doi": "10.3390/nu16142340", "pmid": "39064783" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=beta-alanine · cond=Muscle Function 3건 반환·intervention 일치 2건", "pubmed": "beta-alanine AND Muscle Function 26편; beta-alanine muscle function randomized human 69편", "negative": "beta-alanine AND Muscle Function AND (no effect OR did not OR failed OR negative OR no significant difference) 9편", "safety": "beta-alanine AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1299편" }
+ "id": "beta-alanine-muscle-function-null",
+ "subj": "베타알라닌",
+ "claim": "베타알라닌이 근육 기능과 운동능력을 높인다",
+ "line": "COPD 환자에서 베타알라닌은 근육 카르노신만 늘리고 운동능력은 바꾸지 못했습니다",
+ "effect": "근육 카르노신 증가·운동능력 변화 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "베타알라닌은 근육 기능 개선 허가를 받은 성분이 아닌 식이 보충제입니다",
+ "why": "COPD 환자를 베타알라닌과 위약에 무작위 배정해 근육 카르노신과 운동능력을 함께 측정한 시험입니다.",
+ "saw": "COPD 환자 40명이 12주 동안 베타알라닌과 위약을 받았습니다. 근육 카르노신은 늘었지만 운동능력, 대퇴사두근 기능과 산화 스트레스 지표는 좋아지지 않았습니다.",
+ "limit": "COPD 환자 연구라 건강한 운동자의 근육 기능에 그대로 적용할 수 없고 표본이 40명입니다.",
+ "against": "다른 27명 고강도 기능훈련 시험에서는 점프 지표 일부가 좋아졌지만 다른 근육·피로 지표는 달라지지 않았습니다.",
+ "use": "생화학 지표와 실제 근육 기능이 분리된 보충제 시험으로 기록합니다.",
+ "refs": [
+  {
+   "label": "COPD 베타알라닌 무작위시험",
+   "doi": "10.1002/jcsm.13048",
+   "pmid": "35977911"
+  },
+  {
+   "label": "고강도 기능훈련 베타알라닌 무작위시험",
+   "doi": "10.3390/nu16142340",
+   "pmid": "39064783"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=beta-alanine · cond=Muscle Function 3건 반환·intervention 일치 2건",
+  "pubmed": "beta-alanine AND Muscle Function 26편; beta-alanine muscle function randomized human 69편 · 2026-08-14 PubMed 초록 직접 확인: PMID 35977911,39064783",
+  "negative": "beta-alanine AND Muscle Function AND (no effect OR did not OR failed OR negative OR no significant difference) 9편",
+  "safety": "beta-alanine AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1299편"
+ },
+ "vs": "베타알라닌군 대 위약군 40명: 근육 카르노신 MD +2.82mmol/kg(95% CI 1.49~4.14,P<.001); VO2 peak +0.5(-0.7~1.7)ml/kg/min(P=.384), Wpeak +5(-1~11)W(P=.103), 탈진까지 시간 +28(-179~236)초(P=.782)"
 }

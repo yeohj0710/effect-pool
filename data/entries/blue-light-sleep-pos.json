@@ -1,26 +1,32 @@
 {
-  "id": "blue-light-sleep-pos",
-  "subj": "blue light",
-  "claim": "청색광 안경이 파킨슨병 수면을 개선한다",
-  "line": "파킨슨병에서 청색광 안경 후 수면의 질이 좋아졌습니다.",
-  "effect": "수면의 질·주간 졸림 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 30,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "청색광 안경은 파킨슨병 수면장애의 허가 적응증이 아닌 광 중재입니다.",
-  "why": "파킨슨병 환자 30명을 청색광 안경군 15명과 적색광 위약군 15명에 무작위 배정한 단일눈가림 파일럿 시험입니다.",
-  "saw": "두 주 동안 하루 두 번 청색광 안경을 쓴 군에서 수면의 질이 좋아졌고 5주 시점에도 위약군보다 개선됐습니다. 주간 졸림도 줄었습니다.",
-  "limit": "표본 30명의 2주 파일럿 연구이며 파킨슨병 환자 대상입니다. 일반 수면장애에 같은 효과가 있는지는 확인하지 않았습니다.",
-  "against": "2주 중재의 작은 파일럿 시험이라 장기 효과와 적정 광량은 확인하지 않았습니다.",
-  "use": "파킨슨병의 수면 문제에 대한 착용형 청색광 중재의 초기 신호로 기록합니다.",
-  "refs": [{ "label": "파킨슨병 청색광 안경 수면 무작위시험", "pmid": "42558005" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=blue light · cond=Sleep → 68건 반환, 개입명 대조 9건",
-    "pubmed": "\"blue light\" AND Sleep → 434편, PMID 42558005 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 122편",
-    "safety": "\"blue light\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1445편"
+ "id": "blue-light-sleep-pos",
+ "subj": "청색광",
+ "claim": "청색광 안경이 파킨슨병 수면을 개선한다",
+ "line": "파킨슨병에서 청색광 안경 후 수면의 질이 좋아졌습니다.",
+ "effect": "수면의 질·주간 졸림 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "청색광 안경은 파킨슨병 수면장애의 허가 적응증이 아닌 광 중재입니다.",
+ "why": "파킨슨병 환자 30명을 청색광 안경군 15명과 적색광 위약군 15명에 무작위 배정한 단일눈가림 파일럿 시험입니다.",
+ "saw": "두 주 동안 하루 두 번 청색광 안경을 쓴 군에서 수면의 질이 좋아졌고 5주 시점에도 위약군보다 개선됐습니다. 주간 졸림도 줄었습니다.",
+ "limit": "표본 30명의 2주 파일럿 연구이며 파킨슨병 환자 대상입니다. 일반 수면장애에 같은 효과가 있는지는 확인하지 않았습니다.",
+ "against": "2주 중재의 작은 파일럿 시험이라 장기 효과와 적정 광량은 확인하지 않았습니다.",
+ "use": "파킨슨병의 수면 문제에 대한 착용형 청색광 중재의 초기 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "파킨슨병 청색광 안경 수면 무작위시험",
+   "pmid": "42558005"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=blue light · cond=Sleep → 68건 반환, 개입명 대조 9건",
+  "pubmed": "\"blue light\" AND Sleep → 434편, PMID 42558005 직접 결과 · 2026-08-14 PubMed 초록 직접 확인: PMID 42558005",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 122편",
+  "safety": "\"blue light\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1445편"
+ },
+ "vs": "청색광 안경군 15명 대 적색광 위약군 15명: PSQI 군×시간 효과 P=.021, 5주 수면 질 P=.029(effect size .896), 임상적 졸림 50.0%→6.7%(P=.005)"
 }

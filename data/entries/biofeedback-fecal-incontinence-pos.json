@@ -1,28 +1,34 @@
 {
-  "id": "biofeedback-fecal-incontinence-pos",
-  "subj": "biofeedback",
-  "claim": "바이오피드백은 여성 변실금의 증상을 개선하는가",
-  "line": "여성 변실금에서 바이오피드백은 증상·삶의 질을 개선했지만 다른 병합치료와 비슷했습니다.",
-  "effect": "변실금 중증도·삶의 질 개선, 압착 지구력 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 150,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "바이오피드백은 변실금의 의약품 허가 적응증이 아닌 골반저 재활 중재입니다.",
-  "why": "변실금 여성 150명을 케겔운동, 바이오피드백·케겔운동, 전기자극·케겔운동, 신경조절·케겔운동군으로 무작위 배정했습니다.",
-  "saw": "세 달 치료 뒤 모든 군에서 변실금 중증도와 삶의 질이 좋아졌습니다. 바이오피드백 병합군은 항문 압착 압력과 압착 지구력이 유의하게 증가했고 직장 감각 역치도 낮아졌습니다.",
-  "limit": "바이오피드백을 케겔운동 없이 시험하지 않았고 무치료 대조군이 없습니다. 중증도와 삶의 질 개선은 모든 병합치료에서 비슷했습니다.",
-  "against": "변실금 중증도와 삶의 질의 전체 개선은 네 군에서 비슷해 바이오피드백의 추가 임상 이득은 확정되지 않았습니다.",
-  "use": "여성 변실금 재활에서 바이오피드백을 케겔운동과 함께 검토하되 병합치료 결과로 설명합니다.",
-  "refs": [
-    { "label": "변실금 여성 네 가지 재활치료 무작위시험", "doi": "10.5056/jnm20013", "pmid": "33109777", "pmc": "PMC7786087" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=biofeedback AND query.cond=Fecal Incontinence; 35건 반환, NCT02888899에 Biofeedback 직접 등록",
-    "pubmed": "biofeedback AND \"Fecal Incontinence\"; 758편",
-    "negative": "biofeedback AND (no effect OR did not OR failed OR negative OR no significant difference); 3444편",
-    "safety": "biofeedback AND (adverse OR harm OR injury OR dropout); 2155편"
+ "id": "biofeedback-fecal-incontinence-pos",
+ "subj": "바이오피드백",
+ "claim": "바이오피드백은 여성 변실금의 증상을 개선하는가",
+ "line": "여성 변실금에서 바이오피드백은 증상·삶의 질을 개선했지만 다른 병합치료와 비슷했습니다.",
+ "effect": "변실금 중증도·삶의 질 개선, 압착 지구력 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 150,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "바이오피드백은 변실금의 의약품 허가 적응증이 아닌 골반저 재활 중재입니다.",
+ "why": "변실금 여성 150명을 케겔운동, 바이오피드백·케겔운동, 전기자극·케겔운동, 신경조절·케겔운동군으로 무작위 배정했습니다.",
+ "saw": "세 달 치료 뒤 모든 군에서 변실금 중증도와 삶의 질이 좋아졌습니다. 바이오피드백 병합군은 항문 압착 압력과 압착 지구력이 유의하게 증가했고 직장 감각 역치도 낮아졌습니다.",
+ "limit": "바이오피드백을 케겔운동 없이 시험하지 않았고 무치료 대조군이 없습니다. 중증도와 삶의 질 개선은 모든 병합치료에서 비슷했습니다.",
+ "against": "변실금 중증도와 삶의 질의 전체 개선은 네 군에서 비슷해 바이오피드백의 추가 임상 이득은 확정되지 않았습니다.",
+ "use": "여성 변실금 재활에서 바이오피드백을 케겔운동과 함께 검토하되 병합치료 결과로 설명합니다.",
+ "refs": [
+  {
+   "label": "변실금 여성 네 가지 재활치료 무작위시험",
+   "doi": "10.5056/jnm20013",
+   "pmid": "33109777",
+   "pmc": "PMC7786087"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=biofeedback AND query.cond=Fecal Incontinence; 35건 반환, NCT02888899에 Biofeedback 직접 등록",
+  "pubmed": "biofeedback AND \"Fecal Incontinence\"; 758편 · 2026-08-14 PubMed 초록 직접 확인: PMID 33109777",
+  "negative": "biofeedback AND (no effect OR did not OR failed OR negative OR no significant difference); 3444편",
+  "safety": "biofeedback AND (adverse OR harm OR injury OR dropout); 2155편"
+ },
+ "vs": "케겔군 대비 바이오피드백+케겔 등 4군 150명: 변실금 중증도·삶의 질은 네 치료에서 비슷하게 개선; 바이오피드백+케겔 압착압·압착 지속시간 P<.01, 직장 감각 역치 P<.05"
 }
