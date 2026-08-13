@@ -1,28 +1,34 @@
 {
-  "id": "coffee-consumption-health-pos",
-  "subj": "coffee consumption",
-  "claim": "커피 섭취는 임신 밖에서 여러 건강 결과와 이득으로 연관된다",
-  "line": "임신하지 않은 사람에서 커피 섭취의 이득 신호가 위해 신호보다 많았다.",
-  "effect": "3–4잔 대 무섭 RR 0.83",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
-  "why": "커피 섭취와 건강 결과를 다룬 관찰·중재 메타분석을 포괄한 umbrella review입니다.",
-  "saw": "관찰연구 메타분석 201편이 67개 건강 결과를, 중재연구 메타분석 17편이 9개 결과를 다뤘다. 3–4잔 섭취는 전체 사망 RR 0.83, 심혈관 사망 RR 0.81과 연관됐다.",
-  "limit": "대부분 관찰연구의 연관성이라 인과성을 확정하지 못하며 임신 중 저체중·조산·유산 신호는 예외다.",
-  "against": "흡연과 생활습관을 보정해도 잔여 교란이 남고, 실제 섭취를 무작위 배정한 근거는 제한적이다.",
-  "use": "커피 섭취의 건강 신호를 폭넓게 검토할 때 사용하며 일반적인 섭취 권고로 해석하지 않는다.",
-  "refs": [
-    { "label": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes", "doi": "10.1136/bmj.j5024", "pmid": "29167102", "pmc": "PMC5696634" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "coffee consumption AND Health · 19건 반환",
-    "pubmed": "coffee AND health · 1765건; PMID29167102 직접 결과 확인",
-    "negative": "coffee AND health AND (no effect OR harm OR failed) · 임신 관련 위해 신호 확인",
-    "safety": "coffee AND health AND (adverse OR pregnancy OR low birth weight) · 임신 중 위해 연관 확인"
+ "id": "coffee-consumption-health-pos",
+ "subj": "커피 섭취",
+ "claim": "커피 섭취는 건강 결과를 개선하는가",
+ "line": "우산 검토에서 하루 3~4잔 커피가 사망·심혈관 질환·일부 암 위험과 낮은 연관을 보였다.",
+ "effect": "건강 결과별 위험 감소 연관",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
+ "why": "커피 섭취와 건강 결과를 다룬 관찰·중재 메타분석을 포괄한 umbrella review입니다.",
+ "saw": "관찰 메타분석 201개와 중재 메타분석 17개를 검토했다. 하루 3~4잔 대 무섭취의 전체 사망 RR 0.83(95% CI 0.79~0.88), 심혈관 사망 0.81(0.72~0.90), 심혈관 질환 0.85(0.80~0.90)이었다. 임신에서는 저체중 OR 1.31(1.03~1.67) 등 불리한 연관이 있었다.",
+ "limit": "대부분 관찰연구 연관이며 임신·골절 위험 등 예외가 있어 인과효과로 확정할 수 없다.",
+ "against": "흡연을 보정하면 많은 해로운 연관이 약해졌지만 임신 결과에서는 불리한 연관이 남았다.",
+ "use": "일반 성인의 커피 섭취를 상담할 때 잔 수·임신 여부·관찰연구 한계를 함께 고려한다.",
+ "refs": [
+  {
+   "label": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+   "doi": "10.1136/bmj.j5024",
+   "pmid": "29167102",
+   "pmc": "PMC5696634"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "coffee consumption AND Health · 19건 반환",
+  "pubmed": "coffee AND health · 1765건; PMID29167102 직접 결과 확인 · 2026-08-14 PubMed 초록 직접 확인: PMID 29167102",
+  "negative": "coffee AND health AND (no effect OR harm OR failed) · 임신 관련 위해 신호 확인",
+  "safety": "coffee AND health AND (adverse OR pregnancy OR low birth weight) · 임신 중 위해 연관 확인"
+ },
+ "vs": "하루 3~4잔 커피 대비 무섭취: 전체 사망 RR 0.83(95% CI 0.79~0.88), 심혈관 사망 0.81(0.72~0.90), 심혈관 질환 0.85(0.80~0.90); 임신 저체중 OR 1.31(1.03~1.67)"
 }

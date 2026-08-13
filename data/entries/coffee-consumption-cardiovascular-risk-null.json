@@ -1,28 +1,33 @@
 {
-  "id": "coffee-consumption-cardiovascular-risk-null",
-  "subj": "coffee consumption",
-  "claim": "커피 섭취의 심혈관 위험은 질환별로 방향이 엇갈린다",
-  "line": "커피 섭취는 심근경색 위험을 높였지만 뇌졸중·부정맥 위험은 낮췄다.",
-  "effect": "심근경색 OR 1.48; 뇌졸중 HR 0.89",
-  "tier": "obs",
-  "dir": "null",
-  "n": 2856002,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
-  "why": "커피·카페인과 심혈관질환의 연관을 다룬 38개 연구, 2856002명의 최신 메타분석입니다.",
-  "saw": "심근경색 위험은 OR 1.48로 높았고, 뇌졸중 HR 0.89와 부정맥 HR 0.94는 낮았다. 관상동맥질환과 심부전은 각각 HR 0.98과 1.03으로 유의하지 않았다.",
-  "limit": "질환별 결과가 달라 하나의 심혈관 효과로 요약할 수 없고, 포함 연구의 관찰 설계와 이질성이 남는다.",
-  "against": "커피 섭취를 무작위 배정한 심혈관 예방시험이 아니므로 인과적 보호나 위해를 확정하지 못한다.",
-  "use": "커피 섭취와 심혈관 위험을 질환별로 따로 해석할 때 사용합니다.",
-  "refs": [
-    { "label": "Coffee, caffeine, and cardiovascular health: navigating risks and benefits—an updated systematic review and meta-analysis", "doi": "10.1186/s12872-026-05693-0", "pmid": "42098622" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "coffee consumption AND Cardiovascular Risk · 4건 반환",
-    "pubmed": "coffee AND cardiovascular · 384건; PMID42098622 직접 결과 확인",
-    "negative": "coffee AND cardiovascular AND (no effect OR failed OR no significant difference) · 질환별 상반된 결과 확인",
-    "safety": "coffee AND cardiovascular AND (myocardial infarction OR arrhythmia OR mortality) · 위해·보호 신호 확인"
+ "id": "coffee-consumption-cardiovascular-risk-null",
+ "subj": "커피 섭취",
+ "claim": "커피 섭취는 심혈관 질환 위험과 관련이 있는가",
+ "line": "관찰연구 종합에서 커피 섭취는 심근경색 위험은 높였지만 뇌졸중·부정맥 위험은 낮췄다.",
+ "effect": "심혈관 결과별 상반된 연관",
+ "tier": "obs",
+ "dir": "null",
+ "n": 2856002,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
+ "why": "커피·카페인과 심혈관질환의 연관을 다룬 38개 연구, 2856002명의 최신 메타분석입니다.",
+ "saw": "38개 연구 2,856,002명에서 높은 커피 섭취 대 낮은 섭취의 관상동맥질환 HR 0.98, 심부전 HR 1.03은 유의하지 않았다. 심근경색 OR 1.48(P<.0001)은 높았고 뇌졸중 HR 0.89(P=.01), 부정맥 HR 0.94(P=.04), 고혈압 환자 심혈관 사망 HR 0.68(P=.001)은 낮았다.",
+ "limit": "관찰연구 메타분석이라 섭취량·흡연·건강행동의 잔여 교란을 배제할 수 없다.",
+ "against": "심근경색과 뇌졸중·부정맥 결과가 서로 달라 커피를 일괄적으로 유익하거나 해롭다고 해석할 수 없다.",
+ "use": "커피 섭취 상담에서 심혈관 결과별 연관성과 관찰연구 한계를 함께 설명한다.",
+ "refs": [
+  {
+   "label": "Coffee, caffeine, and cardiovascular health: navigating risks and benefits—an updated systematic review and meta-analysis",
+   "doi": "10.1186/s12872-026-05693-0",
+   "pmid": "42098622"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "coffee consumption AND Cardiovascular Risk · 4건 반환",
+  "pubmed": "coffee AND cardiovascular · 384건; PMID42098622 직접 결과 확인 · 2026-08-14 PubMed 초록 직접 확인: PMID 42098622",
+  "negative": "coffee AND cardiovascular AND (no effect OR failed OR no significant difference) · 질환별 상반된 결과 확인",
+  "safety": "coffee AND cardiovascular AND (myocardial infarction OR arrhythmia OR mortality) · 위해·보호 신호 확인"
+ },
+ "vs": "높은 커피 섭취 대비 낮은 섭취, 38개 연구 2,856,002명: 심근경색 OR 1.48(P<.0001), 뇌졸중 HR 0.89(P=.01), 부정맥 HR 0.94(P=.04), 심혈관 사망 HR 0.68(P=.001)"
 }

@@ -1,28 +1,32 @@
 {
-  "id": "cognitive-behavioral-analysis-system-of-psychotherapy-depressive-disorder-pos",
-  "subj": "cognitive behavioral analysis system of psychotherapy",
-  "claim": "CBASP로 만성 우울증의 장기 우울 증상이 줄었다",
-  "line": "우울이 줄었다.",
-  "effect": "p=.05 at week 52",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 139,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "만성 우울증에 특화된 CBASP가 근거 기반 통상치료보다 장기 증상을 더 줄이는지 비교했습니다.",
-  "saw": "만성 우울증 환자 139명을 CBASP군 67명과 근거 기반 통상치료군 72명으로 무작위 배정해 52주 추적했다. 52주에 CBASP군의 우울 증상 감소가 더 컸고 군 간 비교는 p=.05였다. 8·16·32주에는 유의한 차이가 없었다.",
-  "limit": "장기 시점에서만 경계적으로 차이가 났고 양 군 모두 약물치료를 받았다.",
-  "against": "초기와 중기 평가에서 차이가 없어 CBASP의 즉각적인 우월성은 확인되지 않았다.",
-  "use": "만성 우울증에서 장기 심리치료를 선택할 때 참고합니다.",
-  "refs": [
-    { "label": "CBASP 만성 우울증 무작위시험", "pmid": "25116461" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=cognitive behavioral analysis system of psychotherapy AND condition=Depressive Disorder; 3건",
-    "pubmed": "cognitive behavioral analysis system of psychotherapy AND Depressive Disorder; 330건",
-    "negative": "cognitive behavioral analysis system of psychotherapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1753건",
-    "safety": "cognitive behavioral analysis system of psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 274건"
+ "id": "cognitive-behavioral-analysis-system-of-psychotherapy-depressive-disorder-pos",
+ "subj": "인지행동분석 심리치료",
+ "claim": "만성 우울증에서 CBASP는 일반 치료보다 우울 증상을 줄이는가",
+ "line": "만성 우울증 무작위시험에서 CBASP가 52주 후 일반 치료보다 우울 증상을 더 줄였다.",
+ "effect": "장기 우울 증상 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 139,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "만성 우울증에 특화된 CBASP가 근거 기반 통상치료보다 장기 증상을 더 줄이는지 비교했습니다.",
+ "saw": "만성 우울증 환자 139명을 CBASP 67명과 일반 치료 72명에 52주 배정했다. 52주 IDS 우울 증상 감소는 CBASP가 더 컸다(t=-2.00,P=.05). 8·16·32주에는 군간 차이가 없었다(P=.63,.98,.86).",
+ "limit": "두 군 모두 근거 기반 약물치료를 받았고 장기 시점에서만 차이가 나타났다.",
+ "against": "초기 8~32주 평가에서는 CBASP와 일반 치료의 차이가 없었다.",
+ "use": "만성 우울증 심리치료에서 장기 추적과 약물 병용을 함께 고려할 때 참고한다.",
+ "refs": [
+  {
+   "label": "CBASP 만성 우울증 무작위시험",
+   "pmid": "25116461"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=cognitive behavioral analysis system of psychotherapy AND condition=Depressive Disorder; 3건",
+  "pubmed": "cognitive behavioral analysis system of psychotherapy AND Depressive Disorder; 330건 · 2026-08-14 PubMed 초록 직접 확인: PMID 25116461",
+  "negative": "cognitive behavioral analysis system of psychotherapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1753건",
+  "safety": "cognitive behavioral analysis system of psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 274건"
+ },
+ "vs": "CBASP 67명 대비 일반 치료 72명: 52주 IDS 감소 t=-2.00(P=.05), 8·16·32주 군간 차이 없음(P=.63,.98,.86)"
 }

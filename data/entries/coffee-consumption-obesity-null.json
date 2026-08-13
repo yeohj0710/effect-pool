@@ -1,28 +1,34 @@
 {
-  "id": "coffee-consumption-obesity-null",
-  "subj": "coffee consumption",
-  "claim": "커피 섭취와 성인 비만의 연관은 뚜렷하지 않다",
-  "line": "성인의 일반·복부 비만과 커피 섭취의 연관은 뚜렷하지 않았다.",
-  "effect": "일반 비만 OR 1.11; 복부 OR 1.03",
-  "tier": "obs",
-  "dir": "null",
-  "n": 207551,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
-  "why": "성인 커피 섭취와 일반·복부 비만을 다룬 단면연구 23편의 체계적 문헌고찰 및 메타분석입니다.",
-  "saw": "일반 비만 12편과 복부 비만 15편에 207551명이 포함됐다. 일반 비만 OR은 1.11(95% CI 0.92–1.33), 복부 비만 OR은 1.03(0.92–1.15)로 유의하지 않았다. 여성 일반 비만은 OR 1.84였다.",
-  "limit": "단면연구라 섭취와 비만의 시간적 순서를 알 수 없고, 성별 하위분석은 전체 결과와 달랐다.",
-  "against": "커피가 체중을 줄이거나 늘린다는 인과 효과를 검증한 무작위시험이 아니다.",
-  "use": "커피를 체중관리 중재로 해석하기 전 관찰 근거의 불확실성을 확인할 때 사용한다.",
-  "refs": [
-    { "label": "Coffee Consumption, General Obesity and Abdominal Obesity in Adults: A Systematic Review and Meta-Analysis of Cross-Sectional Studies", "doi": "10.4103/abr.abr_174_24", "pmid": "40007731", "pmc": "PMC11850949" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "coffee consumption AND Obesity · 14건 반환",
-    "pubmed": "coffee consumption AND obesity · 249건; PMID40007731 직접 결과 확인",
-    "negative": "coffee AND obesity AND (no effect OR null association OR no significant difference) · 일반·복부 비만 유의한 연관 없음",
-    "safety": "coffee AND obesity AND (adverse OR harm OR cardiovascular) · 비만 하위 결과 확인"
+ "id": "coffee-consumption-obesity-null",
+ "subj": "커피 섭취",
+ "claim": "커피 섭취는 성인의 비만과 관련이 있는가",
+ "line": "횡단면 연구 메타분석에서 커피 섭취는 전체·복부 비만과 유의한 연관이 없었다.",
+ "effect": "비만 연관 없음",
+ "tier": "obs",
+ "dir": "null",
+ "n": 207551,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 섭취라 의약품 허가 적응증을 적용하지 않음",
+ "why": "성인 커피 섭취와 일반·복부 비만을 다룬 단면연구 23편의 체계적 문헌고찰 및 메타분석입니다.",
+ "saw": "23개 연구 207,551명을 분석했다. 전체 비만의 커피 섭취 연관 OR 1.11(95% CI 0.92~1.33), 복부 비만 OR 1.03(0.92~1.15)으로 유의하지 않았다. 여성 하위군의 전체 비만 OR은 1.84(1.51~2.24)였다.",
+ "limit": "횡단면 연구라 시간적 선후와 인과관계를 판단할 수 없다.",
+ "against": "여성 하위군에서만 전체 비만과 양의 연관이 나타나 성별 차이가 있었다.",
+ "use": "커피가 체중을 줄인다는 주장이나 비만을 일으킨다는 주장을 모두 과장하지 않는다.",
+ "refs": [
+  {
+   "label": "Coffee Consumption, General Obesity and Abdominal Obesity in Adults: A Systematic Review and Meta-Analysis of Cross-Sectional Studies",
+   "doi": "10.4103/abr.abr_174_24",
+   "pmid": "40007731",
+   "pmc": "PMC11850949"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "coffee consumption AND Obesity · 14건 반환",
+  "pubmed": "coffee consumption AND obesity · 249건; PMID40007731 직접 결과 확인 · 2026-08-14 PubMed 초록 직접 확인: PMID 40007731",
+  "negative": "coffee AND obesity AND (no effect OR null association OR no significant difference) · 일반·복부 비만 유의한 연관 없음",
+  "safety": "coffee AND obesity AND (adverse OR harm OR cardiovascular) · 비만 하위 결과 확인"
+ },
+ "vs": "커피 섭취 대비 낮은 섭취, 23개 연구 207,551명: 전체 비만 OR 1.11(95% CI 0.92~1.33), 복부 비만 1.03(0.92~1.15), 여성 전체 비만 1.84(1.51~2.24)"
 }

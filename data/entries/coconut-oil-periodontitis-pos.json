@@ -1,26 +1,33 @@
 {
-  "id": "coconut-oil-periodontitis-pos",
-  "subj": "coconut oil",
-  "claim": "코코넛 오일 구강세정이 치주염 지표를 개선한다",
-  "line": "코코넛 오일 세정 후 치주염 지표와 구강건조감이 좋아졌습니다.",
-  "effect": "치태·출혈 감소·건조감 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 30,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "코코넛 오일 구강세정은 치주염의 허가 적응증이 아닌 보조 구강관리입니다.",
-  "why": "2·3기 치주염 환자 30명을 코코넛 오일, 클로르헥시딘, 위약 세정군에 무작위 배정한 삼중눈가림 파일럿 시험입니다.",
-  "saw": "한 달 세정 뒤 코코넛 오일군은 위약군보다 치태와 탐침 시 출혈·치주낭 깊이가 줄었습니다. 클로르헥시딘보다 임상 부착 소실이 더 줄었고 구강건조감과 삶의 질도 좋아졌습니다.",
-  "limit": "표본이 30명인 파일럿 시험이며 비수술적 치주치료와 함께 사용했습니다. 위약군이 코코넛 오일보다 세정액 맛과 사용감을 더 선호했습니다.",
-  "against": "코코넛 오일군의 표본이 작고 맛과 사용감 선호도는 위약군보다 낮았습니다.",
-  "use": "치주염 보조 구강관리의 초기 신호로 기록하며 표준 치주치료를 대신하지 않습니다.",
-  "refs": [{ "label": "치주염 코코넛 오일 세정 삼중눈가림 무작위시험", "pmid": "42057009", "nct": "NCT06049589" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=coconut oil · cond=Periodontitis → 4건 반환, 개입명 대조 4건",
-    "pubmed": "\"coconut oil\" AND \"Periodontitis\" → 4편, PMID 42057009 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1편",
-    "safety": "\"coconut oil\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 475편"
+ "id": "coconut-oil-periodontitis-pos",
+ "subj": "코코넛오일",
+ "claim": "치주염에서 코코넛오일 가글은 위약보다 치주 지표를 개선하는가",
+ "line": "치주염 환자에서 코코넛오일 가글이 물 위약보다 치주 지표와 구강건조감을 개선했다.",
+ "effect": "치주 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "코코넛 오일 구강세정은 치주염의 허가 적응증이 아닌 보조 구강관리입니다.",
+ "why": "2·3기 치주염 환자 30명을 코코넛 오일, 클로르헥시딘, 위약 세정군에 무작위 배정한 삼중눈가림 파일럿 시험입니다.",
+ "saw": "치주염 환자 30명을 코코넛오일, 클로르헥시딘, 코코넛 향 물 위약 가글에 배정했다. 위약 대비 코코넛오일은 치태·출혈·치주낭 깊이·임상 부착 수준을 개선했고 모두 주요 평가에서 P=.001 수준이었다. 구강건조감과 삶의 질도 개선됐다(P<.001,P=.024).",
+ "limit": "30명 한 달 파일럿 시험이며 이후 비수술 치주치료를 함께 시행했다.",
+ "against": "클로르헥시딘은 작열감·색 변화가 더 많았고 코코넛오일은 맛·복약순응도 문제가 있었다.",
+ "use": "치주 관리의 보조 가글 후보로만 검토하고 표준 치주치료를 대체하지 않는다.",
+ "refs": [
+  {
+   "label": "치주염 코코넛 오일 세정 삼중눈가림 무작위시험",
+   "pmid": "42057009",
+   "nct": "NCT06049589"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=coconut oil · cond=Periodontitis → 4건 반환, 개입명 대조 4건",
+  "pubmed": "\"coconut oil\" AND \"Periodontitis\" → 4편, PMID 42057009 직접 결과 · 2026-08-14 PubMed 초록 직접 확인: PMID 42057009",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1편",
+  "safety": "\"coconut oil\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 475편"
+ },
+ "vs": "코코넛오일 가글 대비 물 위약: 치태·출혈·치주낭·임상 부착 수준 개선(P=.001 수준), 구강건조감 P<.001, 삶의 질 P=.024, 30명"
 }

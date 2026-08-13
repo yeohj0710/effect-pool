@@ -1,37 +1,38 @@
 {
-  "id": "cocoa-powder-oxidative-stress-pos",
-  "subj": "코코아 분말",
-  "claim": "코코아 분말을 산화스트레스에 쓴다",
-  "line": "성인에서 코코아 분말은 산화 스트레스 표지 MDA를 낮췄다.",
-  "effect": "MDA 감소·NO 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1379,
-  "synth": "meta",
-  "why": "코코아 분말·음료·초콜릿을 포함한 성인 대조시험을 합친 메타분석이 산화스트레스와 염증 표지를 평가했습니다.",
-  "saw": "33개 대조시험 1379명에서 코코아가 MDA를 낮췄고 표준화 평균차는 −0.69(95% CI −1.17~−0.20)였습니다. NO는 표준화 평균차 2.43(95% CI 1.11~3.75)만큼 늘었지만 다른 표지자에는 유의한 효과가 없었습니다.",
-  "limit": "16개 연구는 순도·역가를 독립적으로 검사하지 않았고 중금속 오염 위험을 보고하지 않았습니다. 다른 결과의 GRADE 확실성도 매우 낮음~중간이었습니다.",
-  "against": "CRP·IL-6·TNF-α 등 다른 산화·염증 표지자에는 유의한 효과가 없었습니다.",
-  "use": "산화스트레스 표지자에 대한 식이 메타분석 근거로 기록하며 질병 치료 효과로 확대하지 않습니다.",
-  "refs": [
-    {
-      "label": "Effect of dark chocolate/cocoa consumption on oxidative stress and inflammation in adults: GRADE-assessed systematic review and dose-response meta-analysis",
-      "doi": "10.1016/j.ctim.2024.103061",
-      "pmid": "38925412"
-    },
-    {
-      "label": "The effect of cocoa consumption on markers of oxidative stress: systematic review and meta-analysis",
-      "doi": "10.1016/j.ctim.2019.102240",
-      "pmid": "31987247"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=cocoa powder AND query.cond=Oxidative Stress → 13건, cocoa powder 개입명 일치 1건",
-    "pubmed": "cocoa powder AND Oxidative Stress → 186건",
-    "negative": "cocoa powder AND Oxidative Stress AND (no effect OR did not OR failed OR negative OR no significant difference) → 160건",
-    "safety": "cocoa powder AND (adverse OR toxicity OR case report OR harm OR dropout) → 1043건"
+ "id": "cocoa-powder-oxidative-stress-pos",
+ "subj": "코코아 분말",
+ "claim": "다크초콜릿·코코아는 산화스트레스와 염증 지표를 개선하는가",
+ "line": "33개 대조시험 종합에서 다크초콜릿·코코아가 MDA를 낮추고 일산화질소를 높였다.",
+ "effect": "산화스트레스 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1379,
+ "synth": "meta",
+ "why": "코코아 분말·음료·초콜릿을 포함한 성인 대조시험을 합친 메타분석이 산화스트레스와 염증 표지를 평가했습니다.",
+ "saw": "33개 대조시험 1,379명에서 다크초콜릿·코코아는 MDA SMD -0.69(95% CI -1.17~-0.20,P=.005), 일산화질소 SMD +2.43(1.11~3.75,P<.001)을 보였다. 다른 염증 지표 효과는 유의하지 않았고 MDA 근거 확실도는 높았다.",
+ "limit": "중금속 오염과 제품 순도 평가가 부족한 연구가 많았고 다른 결과의 확실도는 매우 낮거나 중간이었다.",
+ "against": "CRP·IL-6 등 다른 염증 지표는 일관된 유의한 효과가 없었다.",
+ "use": "코코아의 항산화 신호를 검토할 때 제품 품질과 낮은 근거 확실도를 함께 고려한다.",
+ "refs": [
+  {
+   "label": "Effect of dark chocolate/cocoa consumption on oxidative stress and inflammation in adults: GRADE-assessed systematic review and dose-response meta-analysis",
+   "doi": "10.1016/j.ctim.2024.103061",
+   "pmid": "38925412"
   },
-  "known": "off",
-  "knownWhy": "코코아 분말은 허가 적응증이 없는 식품입니다."
+  {
+   "label": "The effect of cocoa consumption on markers of oxidative stress: systematic review and meta-analysis",
+   "doi": "10.1016/j.ctim.2019.102240",
+   "pmid": "31987247"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=cocoa powder AND query.cond=Oxidative Stress → 13건, cocoa powder 개입명 일치 1건",
+  "pubmed": "cocoa powder AND Oxidative Stress → 186건 · 2026-08-14 PubMed 초록 직접 확인: PMID 38925412, 31987247",
+  "negative": "cocoa powder AND Oxidative Stress AND (no effect OR did not OR failed OR negative OR no significant difference) → 160건",
+  "safety": "cocoa powder AND (adverse OR toxicity OR case report OR harm OR dropout) → 1043건"
+ },
+ "known": "off",
+ "knownWhy": "코코아 분말은 허가 적응증이 없는 식품입니다.",
+ "vs": "다크초콜릿·코코아 대비 대조 조건, 33개 시험 1,379명: MDA SMD -0.69(95% CI -1.17~-0.20,P=.005), 일산화질소 +2.43(1.11~3.75,P<.001)"
 }

@@ -1,28 +1,32 @@
 {
-  "id": "cocoa-flavanols-vascular-health-pos",
-  "subj": "코코아 플라바놀",
-  "claim": "오래 앉아 있을 때 혈관내피 기능 저하를 코코아 플라바놀로 막는다",
-  "line": "코코아 플라바놀은 고령 성인이 오래 앉은 뒤 생기는 내피 기능 저하를 막았다.",
-  "effect": "대퇴·상완 FMD 저하 예방; n=20",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "오래 앉은 뒤 혈관내피 기능 보호는 코코아 플라바놀의 허가 적응증이 아닙니다.",
-  "why": "고령 성인이 고플라바놀·저플라바놀 코코아 음료를 교차 섭취한 위약대조 시험입니다.",
-  "saw": "고령 성인 20명이 고플라바놀 695 mg 또는 저플라바놀 5.6 mg 음료를 마시고 2시간 앉았습니다. 저플라바놀 조건에서 떨어진 대퇴·상완 동맥 FMD가 고플라바놀 조건에서는 유지됐지만 혈압과 근육 미세혈관 지표는 좋아지지 않았습니다.",
-  "limit": "건강한 고령 성인의 급성 2시간 실험이고 임상 심혈관 사건을 측정하지 않았습니다.",
-  "against": "혈압 상승과 근육 미세혈관 변화에는 유의한 이득이 없었습니다.",
-  "use": "오래 앉은 뒤 혈관 내피 기능에 관한 생리학 가설로만 기록합니다.",
-  "refs": [
-    { "label": "고령 성인 오래 앉기 코코아 플라바놀 교차시험", "pmid": "41527842" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cocoa flavanols · cond=Vascular Health → 2건 반환, 물질 대조 후 2건",
-    "pubmed": "cocoa flavanols AND Vascular Health → 83편",
-    "negative": "cocoa flavanols AND Vascular Health AND (no effect OR did not OR failed OR negative OR no significant difference) → 81편",
-    "safety": "cocoa flavanols AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 48편"
+ "id": "cocoa-flavanols-vascular-health-pos",
+ "subj": "코코아 플라바놀",
+ "claim": "코코아 플라바놀은 오래 앉아 있을 때 혈관 기능을 보호하는가",
+ "line": "고플라바놀 코코아가 저플라바놀보다 오래 앉은 뒤 대퇴·상완동맥 내피 기능을 보호했다.",
+ "effect": "혈관 내피 기능 보호",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 20,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "오래 앉은 뒤 혈관내피 기능 보호는 코코아 플라바놀의 허가 적응증이 아닙니다.",
+ "why": "고령 성인이 고플라바놀·저플라바놀 코코아 음료를 교차 섭취한 위약대조 시험입니다.",
+ "saw": "건강한 고령자 20명의 무작위 이중맹검 교차시험에서 고플라바놀 695mg은 2시간 앉은 뒤 대퇴·상완동맥 FMD를 사전 수준으로 유지했다. 저플라바놀 5.6mg에서는 두 동맥 FMD가 각각 -0.7% 감소했다. 혈압 상승은 줄이지 못했다.",
+ "limit": "20명의 급성 교차시험이며 장기 심혈관 사건을 평가하지 않았다.",
+ "against": "내피 기능과 달리 앉은 뒤 혈압 상승에는 유의한 이득이 없었다.",
+ "use": "고령자의 장시간 좌식 생활과 식이 플라바놀을 함께 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "고령 성인 오래 앉기 코코아 플라바놀 교차시험",
+   "pmid": "41527842"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=cocoa flavanols · cond=Vascular Health → 2건 반환, 물질 대조 후 2건",
+  "pubmed": "cocoa flavanols AND Vascular Health → 83편 · 2026-08-14 PubMed 초록 직접 확인: PMID 41527842",
+  "negative": "cocoa flavanols AND Vascular Health AND (no effect OR did not OR failed OR negative OR no significant difference) → 81편",
+  "safety": "cocoa flavanols AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 48편"
+ },
+ "vs": "고플라바놀 695mg 대 저플라바놀 5.6mg, 20명: 저플라바놀 FMD -0.7%, 고플라바놀은 사전 수준 유지; 혈압 차이 없음"
 }

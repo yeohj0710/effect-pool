@@ -1,26 +1,32 @@
 {
-  "id": "cocoa-pregnancy-pos",
-  "subj": "cocoa",
-  "claim": "임신 중 고함량 코코아 초콜릿이 혈압 지표를 개선한다",
-  "line": "임신 중 코코아 70% 초콜릿 후 혈압 지표가 좋아졌습니다.",
-  "effect": "수축기·이완기 혈압 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "임신 중 고함량 코코아 섭취는 혈압 개선의 허가 적응증이 아닌 식이 중재입니다.",
-  "why": "임신 11~13주 여성 90명을 하루 코코아 70% 초콜릿 30g 섭취군과 비교군에 무작위 배정한 단일기관 시험입니다.",
-  "saw": "코코아 초콜릿군에서 수축기·이완기 혈압과 간 효소 수치가 비교군보다 낮았습니다. 체중 증가는 두 군에서 더 다르지 않았습니다.",
-  "limit": "단일기관의 소규모 임신 연구이며 초콜릿 전체 식품을 사용했습니다. 장기 임신·신생아 결과를 확인하지 않았습니다.",
-  "against": "체중 증가에서는 두 군의 차이가 없었습니다.",
-  "use": "임신 중 코코아 식품 섭취의 초기 혈압 신호로 기록하며 산전 진료를 대신하지 않습니다.",
-  "refs": [{ "label": "임신 중 고함량 코코아 초콜릿 무작위시험", "pmid": "22537244" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=cocoa · cond=Pregnancy → 20건 반환, 개입명 대조 5건",
-    "pubmed": "\"cocoa\" AND Pregnancy → 74편, PMID 22537244 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 19편",
-    "safety": "\"cocoa\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 546편"
+ "id": "cocoa-pregnancy-pos",
+ "subj": "코코아",
+ "claim": "임신 중 고카카오 초콜릿은 혈압과 대사 지표를 개선하는가",
+ "line": "임신 중 고카카오 초콜릿 섭취가 일반 식단보다 혈압과 일부 간·대사 지표를 개선했다.",
+ "effect": "혈압·대사 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "임신 중 고함량 코코아 섭취는 혈압 개선의 허가 적응증이 아닌 식이 중재입니다.",
+ "why": "임신 11~13주 여성 90명을 하루 코코아 70% 초콜릿 30g 섭취군과 비교군에 무작위 배정한 단일기관 시험입니다.",
+ "saw": "임신부 90명을 매일 30g 고카카오 초콜릿군과 일반 식단군에 무작위 배정했다. 고카카오군에서 이완기혈압 차이는 P=.05, 수축기혈압은 P<.0001이었고 간효소와 혈당 지표가 더 낮았다. 체중 증가는 군간 차이가 없었다.",
+ "limit": "단일기관의 90명 시험이며 초콜릿의 당류와 전체 식단을 함께 고려해야 한다.",
+ "against": "총콜레스테롤과 체중 증가에는 유의한 불리한 차이가 없었다.",
+ "use": "임신 중 초콜릿 섭취를 논의할 때 소량·고카카오 조건의 단기 근거로만 참고한다.",
+ "refs": [
+  {
+   "label": "임신 중 고함량 코코아 초콜릿 무작위시험",
+   "pmid": "22537244"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=cocoa · cond=Pregnancy → 20건 반환, 개입명 대조 5건",
+  "pubmed": "\"cocoa\" AND Pregnancy → 74편, PMID 22537244 직접 결과 · 2026-08-14 PubMed 초록 직접 확인: PMID 22537244",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 19편",
+  "safety": "\"cocoa\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 546편"
+ },
+ "vs": "고카카오 초콜릿 30g/일 대비 일반 식단, 90명: 수축기혈압 P<.0001, 이완기혈압 P=.05, 간효소·혈당 지표 개선, 체중 증가 차이 없음"
 }

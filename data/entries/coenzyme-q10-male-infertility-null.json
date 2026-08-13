@@ -1,30 +1,32 @@
 {
-  "id": "coenzyme-q10-male-infertility-null",
-  "subj": "코엔자임Q10",
-  "claim": "남성 난임에서 코엔자임Q10은 임신율을 높이지 못했다",
-  "line": "코엔자임 Q10은 남성 불임에서 정자 운동성을 높이지 못했다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 296,
-  "synth": "meta",
-  "why": "남성 난임 무작위시험 3건을 합친 메타분석에서 코엔자임Q10이 임신율을 유의하게 높이지 못했습니다.",
-  "saw": "메타분석은 코엔자임Q10군 149명과 위약군 147명, 총 296명을 합쳐 임신율을 분석했고 유의한 증가를 확인하지 못했습니다.",
-  "limit": "정자 농도와 운동성 같은 대리 지표는 개선됐지만 임신율은 개선되지 않았습니다. 생존 출산 결과는 충분히 확인되지 않았습니다.",
-  "against": "같은 메타분석에서 정자 농도와 운동성은 개선됐지만 임신율 개선으로 이어지지 않았습니다.",
-  "use": "정자 지표 개선과 임신율 개선을 구분해 설명할 때 사용합니다.",
-  "refs": [
-    {
-      "label": "Lafuente 2013 · Journal of Assisted Reproduction and Genetics · 남성 난임 메타분석",
-      "doi": "10.1007/s10815-013-0047-5",
-      "pmid": "23912751",
-      "pmc": "PMC3800531"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=coenzyme q10&query.cond=Male Infertility: 12건 반환, interventions 정확 일치 3건",
-    "pubmed": "coenzyme q10 Male Infertility: 168건",
-    "negative": "coenzyme q10 Male Infertility AND (no effect OR did not OR failed to OR negative OR no significant difference): 129건",
-    "safety": "coenzyme q10 Male Infertility AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication): 18건"
+ "id": "coenzyme-q10-male-infertility-null",
+ "subj": "코엔자임Q10",
+ "claim": "코엔자임Q10은 남성 난임의 임신률과 정자 지표를 개선하는가",
+ "line": "코엔자임Q10은 임신률은 높이지 못했지만 정자 농도·운동성과 정액 내 농도를 개선했다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 296,
+ "synth": "meta",
+ "why": "남성 난임 무작위시험 3건을 합친 메타분석에서 코엔자임Q10이 임신율을 유의하게 높이지 못했습니다.",
+ "saw": "3개 시험에서 코엔자임Q10 149명과 위약 147명을 비교했다. 임신률은 늘지 않았지만 정액 내 코엔자임Q10 RR 49.55(95% CI 46.44~52.66), 정자 농도 RR 5.33(4.18~6.47), 운동성 RR 4.50(3.92~5.08)이었다.",
+ "limit": "생존출생 자료가 없고 3개 시험의 정자 지표를 합친 메타분석이다.",
+ "against": "정자 지표 개선이 임신이나 생존출생 증가로 이어진다는 근거는 없었다.",
+ "use": "남성 난임 보충제 상담에서 정자 지표와 임신 결과를 구분해 설명한다.",
+ "refs": [
+  {
+   "label": "Lafuente 2013 · Journal of Assisted Reproduction and Genetics · 남성 난임 메타분석",
+   "doi": "10.1007/s10815-013-0047-5",
+   "pmid": "23912751",
+   "pmc": "PMC3800531"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=coenzyme q10&query.cond=Male Infertility: 12건 반환, interventions 정확 일치 3건",
+  "pubmed": "coenzyme q10 Male Infertility: 168건 · 2026-08-14 PubMed 초록 직접 확인: PMID 23912751",
+  "negative": "coenzyme q10 Male Infertility AND (no effect OR did not OR failed to OR negative OR no significant difference): 129건",
+  "safety": "coenzyme q10 Male Infertility AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication): 18건"
+ },
+ "effect": "임신률 차이 없음, 정자 지표 개선",
+ "vs": "코엔자임Q10 149명 대비 위약 147명: 임신률 증가 없음; 정액 내 CoQ10 RR 49.55(95% CI 46.44~52.66), 정자 농도 5.33(4.18~6.47), 운동성 4.50(3.92~5.08)"
 }
