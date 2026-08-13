@@ -3,8 +3,8 @@
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 6222,
-  "subjects": 2400,
-  "refs": 8601,
+  "subjects": 2398,
+  "refs": 8606,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -32,18 +32,18 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1292 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1293 backfilled numeric comparisons for 30 existing non-prescription topics from an out-of-order legacy vs-missing window; the exact next unprocessed candidate remains acceptance-commitment-therapy-diabetes-pos."
   },
   "backlog": {
-    "vs_missing": 3739,
-    "english_subjects": 1045,
-    "note": "Legacy backlog remains; process it in safe batches."
+    "vs_missing": 3709,
+    "english_subjects": 1036,
+    "note": "Legacy backlog remains; process it in safe batches. vs_missing is the current pre-2026-08-12 non-open entry count without numeric vs data. english_subjects is the current distinct entry-subject count containing untranslated lowercase English words."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "24.1% (1,500 entries)",
+    "vs_share": "24.6% (1,530 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,10 +57,10 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1293 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate acceptance-and-commitment-coaching-chronic-pain-pos. Batch 1292 processed 30 existing non-prescription topics from an out-of-order candidate window, added numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, translated 15 shared English subjects across 46 entries, and added five supplemental PubMed links for numeric claims. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1294 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate acceptance-commitment-therapy-diabetes-pos. Batch 1293 processed 30 existing non-prescription topics from an out-of-order candidate window, added numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, translated 9 shared English subjects across 13 entries, and added five supplemental PubMed links. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1292",
-    "commit": "322e4f22",
+    "id": "1293",
+    "commit": "d2653aba",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
@@ -68,22 +68,22 @@
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
     "screened_nonqualifying_topics": 0,
-    "build": "6222 entries; 8601 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1500 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed and ClinicalTrials.gov-linked records were checked for 30 existing non-prescription legacy entries. Only numeric intervention-versus-control results or valid relative effects were copied into vs. Sources used PMIDs 16940855, 18357530, 18550177, 18973518, 20455705, 20833991, 21188919, 23733756, 24018499, 26522915, 28618158, 30396626, 31370200, 31576607, 31763689, 31783907, 33673587, 33901439, 34800888, 35360212, 35863686, 35994321, 36732571, 36873277, 37097717, 37748597, 38396058, 38745939, 38892674, 39162706, 39166637, 39303882, 39362353, 40085085, 40458781, 40489175, 41896141, 42018980, 42133556, 42191834, 42317021, and 42380788; ClinicalTrials.gov identifiers NCT01748058, NCT02750241, NCT03784573, NCT04259905, NCT04422548, NCT04589182, NCT04769726, NCT04851301, and NCT07472257. No sample sizes were inferred and no new claims were fabricated.",
+    "build": "6222 entries; 8606 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1530 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed PMIDs 39514264,22563639,41032959,29198932,22965186,42358682,39160496,39555482,34087850,35411694,40489401,33523004,38451843,34076949,38440785,40778279,42463057,34201139,38351580,33958795,31098750,33682036,19678849,19482214,33795180,39357550,36122861,33880125,40678632,33143442,27273067,36367708,32058675,32734732,39002330,35224526,31296113,41152799,42352653,37405189,34004390; ClinicalTrials.gov-linked NCTs NCT03655132,NCT03965897,NCT04000087,NCT04203238,NCT03313453,NCT00773370,NCT06826352. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable records. Five supplemental PubMed links were added for neuropathy, cancer exercise, pre-diabetes exercise, almond weight measures, and clean-air cognitive outcomes. No sample sizes were inferred; source totals that were not stated remain unknown.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 30,
-    "subject_names_renamed": 15,
-    "subject_entries_renamed": 46,
+    "subject_names_renamed": 9,
+    "subject_entries_renamed": 13,
     "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 1021,
     "remaining_expected_unknown_n_warnings": 455,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1293",
+    "next_batch": "1294",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing backlog after batch1292 out-of-order window; exact next unprocessed candidate acceptance-and-commitment-coaching-chronic-pain-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing backlog after batch1293 out-of-order window; exact next unprocessed candidate acceptance-commitment-therapy-diabetes-pos; worklist exhausted",
     "unchecked": 0
   }
 }
