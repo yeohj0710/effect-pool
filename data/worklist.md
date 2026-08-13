@@ -9534,9 +9534,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mirabegron — Ureteral Stone에 듣는다 — 요관결석 배출 메타분석 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 25편 -->
 - [x] mirabegron — Detrusor Overactivity에 듣는다 — 항목 생성(mirabegron-detrusor-overactivity-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 681편 -->
 - [x] mirabegron — Food Effect에 듣는다 — 효능이 아닌 약동학 연구(2026-08-05)  <!-- 시험 5건 · 논문 34편 -->
-- [ ] daptomycin — Bacteremia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 916편 -->
+- [x] daptomycin — Bacteremia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 916편 --> — 항목 생성(daptomycin-bacteremia-pos)
 - [x] daptomycin — Infections에 듣는다 — 허가·표준 항균치료(2026-08-05)  <!-- 시험 12건 · 논문 3765편 -->
-- [ ] daptomycin — Endocarditis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 636편 -->
+- [x] daptomycin — Endocarditis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 636편 --> — 항목 생성(daptomycin-endocarditis-pos)
 - [x] daptomycin — Infectious에 듣는다 — 허가·표준 항균치료(2026-08-05)  <!-- 시험 9건 · 논문 1466편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -9557,7 +9557,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bisoprolol — Heart Rate에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 19건 · 논문 669편 -->
 - [x] bisoprolol — Left Atrial Rhythm에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 10건 · 논문 17편 -->
 - [x] bisoprolol — Myocardial Infarct에 듣는다 — 허가·표준 심혈관 치료(2026-08-05)  <!-- 시험 8건 · 논문 186편 -->
-- [ ] colesevelam — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 113편 -->
+- [x] colesevelam — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 113편 --> — 항목 생성(colesevelam-hypercholesterolemia-pos)
 - [x] colesevelam — Diarrhea에 듣는다 — 담즙산 설사 4상 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 58편 -->
 - [x] cyproterone — Polycystic Ovary Syndrome에 듣는다 — 국가별 허가·표준 호르몬 치료(2026-08-05)  <!-- 시험 9건 · 논문 307편 -->
 - [x] cyproterone — Acne Vulgaris에 듣는다 — 국가별 허가·표준 호르몬 치료(2026-08-05)  <!-- 시험 4건 · 논문 259편 -->
@@ -9566,7 +9566,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] flutamide — Polycystic Ovary Syndrome에 듣는다 — PCOS 항안드로겐 메타분석 항목 생성(2026-08-05)  <!-- 시험 6건 · 논문 168편 -->
 - [x] flutamide — Prostatic Neoplasms에 듣는다 — 허가·표준 항안드로겐(2026-08-05)  <!-- 시험 5건 · 논문 1314편 -->
 - [x] levamisole — Colorectal Cancer에 듣는다 — 과거 표준 병용 항암치료(2026-08-05)  <!-- 시험 4건 · 논문 464편 -->
-- [ ] meloxicam — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 17건 · 논문 249편 -->
+- [x] meloxicam — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 17건 · 논문 249편 --> — 항목 생성(meloxicam-osteoarthritis-pos)
 - [x] meloxicam — Arthritis에 듣는다 — 허가·표준 소염진통 치료(2026-08-05)  <!-- 시험 11건 · 논문 381편 -->
 - [x] meloxicam — Migraine에 듣는다 — 단독 직접 효능 근거 없음(2026-08-05)  <!-- 시험 4건 · 논문 10편 -->
 - [x] phenazopyridine — Cystoscopy에 듣는다 — 수술 중 요관 개방 확인 관찰 항목 생성(2026-08-05)  <!-- 시험 3건 · 논문 22편 -->
@@ -9644,16 +9644,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] alprostadil — Prostate Cancer에 듣는다 — 전립선암 치료가 아니라 수술 뒤 발기부전 회복 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 4건 · 논문 68편 -->
-- [ ] alprostadil — Peripheral Artery Disease에 듣는다 — 허가 적응증(2022)  <!-- 시험 4건 · 논문 202편 -->
+- [x] alprostadil — Peripheral Artery Disease에 듣는다 — 허가 적응증(2022)  <!-- 시험 4건 · 논문 202편 --> — 근거 없음(2026-08-13 조회, ClinicalTrials.gov/PubMed에서 직접 비교 숫자효과 미확인)
 - [x] alprostadil — Kidney Diseases에 듣는다 — 조영제 신독성 예방 메타분석 항목 생성 alprostadil-contrast-nephropathy-pos(2026-08-05)  <!-- 시험 4건 · 논문 197편 -->
 - [x] alprostadil — Renal Transplant에 듣는다 — 신장이식 자체가 아니라 이식 환자의 발기부전 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 3건 · 논문 62편 -->
-- [ ] ciclesonide — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 33건 · 논문 314편 -->
-- [ ] ciclesonide — Hay Fever에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 35편 -->
+- [x] ciclesonide — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 33건 · 논문 314편 --> — 항목 생성(ciclesonide-asthma-null)
+- [x] ciclesonide — Hay Fever에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 35편 --> — 항목 생성(ciclesonide-hay-fever-pos)
 - [x] ciclesonide — COVID-19에 듣는다 — 외래 무작위시험 음성 항목 생성 ciclesonide-covid-19-null(2026-08-05)  <!-- 시험 4건 · 논문 89편 -->
 - [x] deferasirox — Lymphoma에 듣는다 — 림프종 치료 결과가 아닌 혈액질환 철과부하 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 67건 · 논문 15편 -->
-- [ ] deferasirox — Iron Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 37건 · 논문 877편 -->
+- [x] deferasirox — Iron Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 37건 · 논문 877편 --> — 항목 생성(deferasirox-iron-overload-pos)
 - [x] deferasirox — Myelodysplastic Syndrome에 듣는다 — MDS 자체 치료가 아닌 철과부하 보조 연구만 확인, 항목 없음(2026-08-05)  <!-- 시험 26건 · 논문 191편 -->
-- [ ] deferasirox — Thalassemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 625편 -->
+- [x] deferasirox — Thalassemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 625편 --> — 항목 생성(deferasirox-thalassemia-pos)
 - [x] palmitoylethanolamide — Autism에 듣는다 — 보조요법 무작위시험 항목 생성 palmitoylethanolamide-autism-pos(2026-08-05)  <!-- 시험 3건 · 논문 23편 -->
 - [x] pyridoxine — HIV에 듣는다 — HIV 치료가 아니라 결핵 예방·신경병증 보조 연구가 대부분이라 항목 없음(2026-08-05)  <!-- 시험 14건 · 논문 71편 -->
 - [x] pyridoxine — Breast Cancer에 듣는다 — 고용량 병용 단일군 항목 생성 pyridoxine-breast-cancer-open(2026-08-05)  <!-- 시험 10건 · 논문 57편 -->
@@ -9713,7 +9713,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] neostigmine — Respiratory Muscles에 듣는다 — 수술 후 근이완 역전의 허가·표준 적응증(2026-08-05)  <!-- 시험 8건 · 논문 225편 -->
 - [x] neostigmine — Headache에 듣는다 — 후경막천자 두통 무작위시험 항목 생성 neostigmine-headache-pos(2026-08-05)  <!-- 시험 7건 · 논문 32편 -->
 - [x] nitroglycerin — Migraine에 듣는다  <!-- 시험 7건 · 논문 714편 --> — 실험적 유발 모델, 치료 근거 없음(2026-08-05)
-- [ ] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] nitroglycerin — Angina에 듣는다  <!-- 시험 6건 · 논문 3700편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(nitroglycerin-angina-pos)
 - [x] nitroglycerin — Pain에 듣는다  <!-- 시험 6건 · 논문 4619편 --> — 허가·표준 적응증(2026-08-05)
 - [x] nitroglycerin — Heart Failure에 듣는다  <!-- 시험 6건 · 논문 1436편 --> — 표준 급성 심부전 혈관확장 치료(2026-08-05)
 - [x] psilocybin — Chronic Pain에 듣는다  <!-- 시험 15건 · 논문 75편 --> — 확실한 사람 치료 결과 없음(2026-08-05)
@@ -9764,12 +9764,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atovaquone — Toxoplasmosis에 듣는다  <!-- 시험 3건 · 논문 144편 -->
 - [x] atovaquone — Falciparum에 듣는다  <!-- 시험 3건 · 논문 628편 --> — 허가·표준 항말라리아 요법(2026-08-05)
 - [x] artemisinin — Plasmodium Falciparum에 듣는다  <!-- 시험 3건 · 논문 5036편 --> — 허가·표준 항말라리아 요법(2026-08-05)
-- [ ] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] doxazosin — Prostatic Hyperplasia에 듣는다  <!-- 시험 7건 · 논문 512편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(doxazosin-prostatic-hyperplasia-pos)
 - [x] doxazosin — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 129편 --> — 신규 항목(doxazosin-heart-failure-harm)
 - [x] doxazosin — Substance Abuse에 듣는다  <!-- 시험 4건 · 논문 29편 --> — 신규 항목(doxazosin-substance-abuse-null)
-- [ ] etoricoxib — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 160편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] etoricoxib — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 160편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(etoricoxib-osteoarthritis-pos)
+- [x] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 근거 없음(2026-08-13 조회, 일반 Arthritis 주제에 단일 주제 비교효과 없음)
+- [x] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(etoricoxib-ankylosing-spondylitis-pos)
 - [x] etoricoxib — Headache에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 신규 항목(etoricoxib-headache-pos)
 - [x] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(levocetirizine-urticaria-pos)
 - [x] levocetirizine — Dermatitis에 듣는다  <!-- 시험 4건 · 논문 34편 --> — 직접 레보세티리진 사람 치료 결과 없음(2026-08-05 조회)
@@ -9778,16 +9778,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 3444편 --> — 허가·표준 항균 치료(2026-08-05)
 - [x] ofloxacin — HIV Infections에 듣는다  <!-- 시험 26건 · 논문 201편 --> — HIV 자체 치료 결과 없음(2026-08-05 조회)
 - [x] ofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 250편 --> — 백내장 수술 후 감염 예방 표준 범위(2026-08-05)
-- [ ] propofol — Sedation에 듣는다  <!-- 시험 38건 · 논문 7978편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] propofol — Sedation에 듣는다  <!-- 시험 38건 · 논문 7978편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(propofol-sedation-null)
 - [x] propofol — Surgery에 듣는다  <!-- 시험 30건 · 논문 15880편 --> — 허가·표준 마취(2026-08-05)
 - [x] propofol — Cancer에 듣는다  <!-- 시험 29건 · 논문 2334편 --> — 신규 항목(propofol-cancer-null)
 - [x] propofol — Delirium에 듣는다  <!-- 시험 18건 · 논문 842편 --> — 신규 항목(propofol-delirium-pos)
-- [ ] sumatriptan — Headache에 듣는다  <!-- 시험 15건 · 논문 1727편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] sumatriptan — Headache에 듣는다  <!-- 시험 15건 · 논문 1727편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(sumatriptan-headache-pos)
 - [x] telmisartan — Diabetes에 듣는다  <!-- 시험 10건 · 논문 670편 --> — 신규 항목(telmisartan-diabetes-pos)
 - [x] telmisartan — HIV Infection에 듣는다  <!-- 시험 9건 · 논문 22편 --> — 신규 항목(telmisartan-hiv-infection-null)
 - [x] telmisartan — Coronary Disease에 듣는다  <!-- 시험 8건 · 논문 88편 --> — 신규 항목(telmisartan-coronary-disease-pos)
 - [x] telmisartan — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 155편 --> — 신규 항목(telmisartan-metabolic-syndrome-pos)
-- [ ] torsemide — Edema에 듣는다  <!-- 시험 3건 · 논문 93편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] torsemide — Edema에 듣는다  <!-- 시험 3건 · 논문 93편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(torsemide-edema-pos)
 - [x] torsemide — Hypertension에 듣는다  <!-- 시험 3건 · 논문 131편 --> — 표준 이뇨제 사용 범위(2026-08-05)
 - [x] valganciclovir — HIV Infections에 듣는다  <!-- 시험 56건 · 논문 162편 --> — HIV 감염인의 CMV 망막염 허가 적응증(2026-08-05)
 - [x] valganciclovir — Leukemia에 듣는다  <!-- 시험 35건 · 논문 43편 --> — 백혈병 자체 치료 결과 없음(2026-08-05 조회)
@@ -9815,7 +9815,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aminophylline — Asthma에 듣는다  <!-- 시험 4건 · 논문 1180편 --> — 허가·표준 기관지확장 적응증(2026-08-05)
 - [x] aminophylline — Post-Dural Puncture Headache에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 신규 항목(aminophylline-post-dural-puncture-headache-pos)
 - [x] danazol — Telomere Disease에 듣는다  <!-- 시험 6건 · 논문 28편 --> — 신규 항목(danazol-telomere-disease-pos)
-- [ ] danazol — Endometriosis에 듣는다  <!-- 시험 5건 · 논문 1036편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] danazol — Endometriosis에 듣는다  <!-- 시험 5건 · 논문 1036편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(danazol-endometriosis-pos)
 - [x] danazol — Primary Myelofibrosis에 듣는다  <!-- 시험 5건 · 논문 50편 --> — 골수섬유증 빈혈의 표준 비교요법(2026-08-05)
 - [x] danazol — Anemia에 듣는다  <!-- 시험 3건 · 논문 228편 --> — 자가면역 용혈성 빈혈·ITP 표준 대체요법, 별도 항목 없음(2026-08-05)
 - [x] hydroquinone — Hyperpigmentation에 듣는다  <!-- 시험 3건 · 논문 614편 --> — 기미·과다색소침착 허가·표준 적응증(2026-08-05)
@@ -9912,15 +9912,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bupivacaine — Surgery에 듣는다  <!-- 시험 23건 · 논문 13733편 --> — 수술 중 부위마취의 허가·표준 사용(2026-08-05)
 - [x] bupivacaine — Analgesia에 듣는다  <!-- 시험 22건 · 논문 8830편 --> — 수술 후 국소·부위 진통의 허가·표준 사용(2026-08-05)
 - [x] bupivacaine — TAP Block에 듣는다  <!-- 시험 22건 · 논문 364편 --> — 복횡근 평면 차단술의 표준 국소마취 사용(2026-08-05)
-- [ ] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] guaifenesin — Cough에 듣는다  <!-- 시험 3건 · 논문 146편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(guaifenesin-cough-pos)
 - [x] guaifenesin — Bronchitis에 듣는다  <!-- 시험 3건 · 논문 43편 --> — 허가·표준 증상완화(2026-08-05)
 - [x] nilotinib — Cancer에 듣는다  <!-- 시험 33건 · 논문 2482편 --> — 범용 암 치료 근거 없음(2026-08-05 조회, nilotinib AND Cancer)
 - [x] nilotinib — Tumors에 듣는다  <!-- 시험 15건 · 논문 2260편 --> — 항목 nilotinib-tumors-null
 - [x] nilotinib — Neoplasm에 듣는다  <!-- 시험 13건 · 논문 2163편 --> — 범용 신생물 치료 근거 없음(2026-08-05 조회, nilotinib AND Neoplasm)
 - [x] nilotinib — Melanoma에 듣는다  <!-- 시험 11건 · 논문 42편 --> — 항목 nilotinib-melanoma-pos
-- [ ] ranitidine — Acid Reflux에 듣는다  <!-- 시험 9건 · 논문 514편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ranitidine — Peptic Ulcers에 듣는다  <!-- 시험 4건 · 논문 2455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ranitidine — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 205편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ranitidine — Acid Reflux에 듣는다  <!-- 시험 9건 · 논문 514편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(ranitidine-acid-reflux-null)
+- [x] ranitidine — Peptic Ulcers에 듣는다  <!-- 시험 4건 · 논문 2455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(ranitidine-peptic-ulcers-pos)
+- [x] ranitidine — Dyspepsia에 듣는다  <!-- 시험 3건 · 논문 205편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 항목 생성(ranitidine-dyspepsia-pos)
 - [x] sodium bicarbonate — Nephropathy에 듣는다  <!-- 시험 24건 · 논문 1621편 --> — 항목 sodium-bicarbonate-nephropathy-null
 - [x] sodium bicarbonate — Metabolic Acidosis에 듣는다  <!-- 시험 22건 · 논문 2799편 --> — 허가·표준 산증 교정(2026-08-05)
 - [x] sodium bicarbonate — Pain에 듣는다  <!-- 시험 18건 · 논문 647편 --> — 항목 sodium-bicarbonate-pain-pos
@@ -9948,7 +9948,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] loratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 항목 loratadine-pruritus-pos
 - [x] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(loratadine-allergy-null)
 - [x] indacaterol — Asthma에 듣는다  <!-- 시험 22건 · 논문 165편 --> — 항목 indacaterol-asthma-pos
-- [ ] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(indacaterol-copd-pos)
 - [x] phenylephrine — Spinal에 듣는다  <!-- 시험 41건 · 논문 979편 --> — 표준 마취·혈압 유지(2026-08-06)
 - [x] phenylephrine — Cesarean Birth에 듣는다  <!-- 시험 26건 · 논문 473편 --> — 표준 산과 마취(2026-08-06)
 - [x] phenylephrine — Blood Flow에 듣는다  <!-- 시험 13건 · 논문 2792편 --> — 항목 phenylephrine-blood-flow-harm
@@ -9973,8 +9973,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mexiletine — Arrhythmia에 듣는다  <!-- 시험 3건 · 논문 1337편 --> — 허가·표준 항부정맥 치료(2026-08-06)
 - [x] mexiletine — Heart Arrest에 듣는다  <!-- 시험 3건 · 논문 56편 --> — 허가·표준 항부정맥 치료(2026-08-06)
 - [x] pilocarpine — Dry Eye에 듣는다  <!-- 시험 11건 · 논문 207편 --> — 항목 pilocarpine-dry-eye-pos
-- [ ] pilocarpine — Glaucoma에 듣는다  <!-- 시험 9건 · 논문 1381편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] pilocarpine — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 439편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] pilocarpine — Glaucoma에 듣는다  <!-- 시험 9건 · 논문 1381편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(pilocarpine-glaucoma-null)
+- [x] pilocarpine — Xerostomia에 듣는다  <!-- 시험 5건 · 논문 439편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(pilocarpine-xerostomia-pos)
 - [x] pilocarpine — Ocular Hypertension에 듣는다  <!-- 시험 3건 · 논문 1271편 --> — 허가·표준 안압 치료(2026-08-06)
 - [x] agomelatine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 16편 --> — 항목 agomelatine-schizophrenia-pos
 - [x] agomelatine — Depression에 듣는다  <!-- 시험 3건 · 논문 683편 --> — 허가·표준 항우울제(2026-08-06)
@@ -9984,8 +9984,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] lubiprostone — Diabetes에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 lubiprostone-diabetes-pos
 - [x] linaclotide — Colorectal Cancer에 듣는다  <!-- 시험 12건 · 논문 29편 --> — 직접 대장암 치료 근거 부족(2026-08-06 조회)
 - [x] linaclotide — Bowel Preparation에 듣는다  <!-- 시험 6건 · 논문 41편 --> — 항목 linaclotide-bowel-preparation-pos
-- [ ] trametinib — Melanoma에 듣는다  <!-- 시험 142건 · 논문 1252편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] trametinib — Lung Carcinoma에 듣는다  <!-- 시험 97건 · 논문 232편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] trametinib — Melanoma에 듣는다  <!-- 시험 142건 · 논문 1252편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(trametinib-melanoma-pos)
+- [x] trametinib — Lung Carcinoma에 듣는다  <!-- 시험 97건 · 논문 232편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거 없음(2026-08-13 조회, 무작위 비교군 숫자효과 미확인)
 - [x] trametinib — Neoplasm에 듣는다  <!-- 시험 70건 · 논문 2049편 --> — 항목 trametinib-neoplasm-pos
 - [x] trametinib — Lymphoma에 듣는다  <!-- 시험 39건 · 논문 76편 --> — 직접 림프종 하위군 근거 부족(2026-08-06 조회)
 - [x] vemurafenib — Cancer에 듣는다  <!-- 시험 52건 · 논문 2845편 --> — 허가·표준 암종 범위; 세부 근거만 분리(2026-08-06)
@@ -10010,8 +10010,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] albuterol — Pulmonary Edema에 듣는다  <!-- 시험 33건 · 논문 102편 --> — 항목 albuterol-pulmonary-edema-harm
-- [ ] albuterol — COPD에 듣는다  <!-- 시험 8건 · 논문 1762편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] albuterol — Bronchospasm에 듣는다  <!-- 시험 7건 · 논문 555편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] albuterol — COPD에 듣는다  <!-- 시험 8건 · 논문 1762편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목 생성(albuterol-copd-null)
+- [x] albuterol — Bronchospasm에 듣는다  <!-- 시험 7건 · 논문 555편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거 없음(2026-08-13 조회, 알부테롤 단독효과로 귀속할 수 없는 복합요법 비교)
 - [x] albuterol — Bronchiolitis에 듣는다  <!-- 시험 5건 · 논문 308편 --> — 항목 albuterol-bronchiolitis-null
 - [x] betamethasone — Atopic Eczema에 듣는다  <!-- 시험 18건 · 논문 298편 --> — 허가·표준 피부 스테로이드 치료(2026-08-06)
 - [x] betamethasone — Neonatal Distress에 듣는다  <!-- 시험 13건 · 논문 533편 --> — 표준 산전 스테로이드 치료(2026-08-06)
@@ -10054,7 +10054,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nitroprusside — Cardiovascular Diseases에 듣는다  <!-- 시험 6건 · 논문 5613편 --> — 표준 심혈관 혈관확장 치료(2026-08-06)
 - [x] nitroprusside — Vasoconstriction에 듣는다 — 근거 없음(2026-08-06 조회, nitroprusside AND vasoconstriction; 직접 투여 결과 없음)  <!-- 시험 5건 · 논문 1915편 -->
 - [x] nitroprusside — Vasodilation에 듣는다 — 허가·표준 혈관확장 용도(2026-08-06)  <!-- 시험 5건 · 논문 17057편 -->
-- [ ] phentolamine — Anesthesia, Local에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 99편 -->
+- [x] phentolamine — Anesthesia, Local에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 99편 --> — 항목 생성(phentolamine-local-anesthesia-pos)
 - [ ] phentolamine — Mydriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 23편 -->
 - [x] phentolamine — Dilation에 듣는다 — 근거 없음(2026-08-06 조회, phentolamine AND dilation; 직접 확장 치료 결과 없음)  <!-- 시험 4건 · 논문 331편 -->
 - [x] phentolamine — Vasodilation에 듣는다 — 항목 생성(phentolamine-vasodilation-pos)(2026-08-06)  <!-- 시험 3건 · 논문 6614편 -->
