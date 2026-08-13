@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5742,
-  "subjects": 2207,
-  "refs": 8103,
+  "entries": 5769,
+  "subjects": 2213,
+  "refs": 8130,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2302
+    "rx": 2329
   },
   "tiers": {
-    "trial": 4921,
+    "trial": 4948,
     "obs": 727,
     "animal": 30,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3396,
-    "null": 1149,
+    "pos": 3418,
+    "null": 1153,
     "open": 1037,
-    "harm": 160
+    "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 14992,
-    "unchecked": 550,
-    "no_evidence_pending": 2009,
-    "note": "Batch 1262 checked 30 unique prescription topics from lines 8890-9001. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 30; existing links: 0; no-evidence rejects: 0."
+    "checked": 15022,
+    "unchecked": 520,
+    "no_evidence_pending": 2012,
+    "note": "Batch 1263 checked 30 unique prescription topics from lines 9002-9052. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 27; existing links: 0; no-evidence rejects: 3 (atezolizumab Rare Tumor, zanubrutinib Marginal Zone Lymphoma, belzutifan Pheochromocytoma had only single-arm evidence without a valid comparator effect)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -41,45 +41,45 @@
   },
   "checkpoints": {
     "over_counter_share": "16.7% (947 entries)",
-    "rx_share": "40.1% (2,302 entries)",
-    "no_effect_or_harm_share": "22.8% (1,309 entries)",
-    "vs_share": "12.2% (698 entries)",
+    "rx_share": "40.4% (2,329 entries)",
+    "no_effect_or_harm_share": "22.8% (1,314 entries)",
+    "vs_share": "12.6% (725 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.7% (4,921 entries)",
-    "non_trial_share": "14.3% (821 entries)",
+    "trial_share": "85.8% (4,948 entries)",
+    "non_trial_share": "14.2% (821 entries)",
     "build_warnings": {
       "unknown_n": 451,
       "thin_study": 983,
-      "targeted_batch_warnings": 2
+      "targeted_batch_warnings": 0
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1263 starts after batch 1262. Prioritize non-prescription topics first; none were identifiable in the remaining queue for batch 1262. Resume at worklist line 9002: nivolumab — Stage IV. 550 unchecked rows remain.",
+  "next": "Batch 1264 starts after batch 1263. Prioritize non-prescription topics first; none were identifiable in the remaining queue for batch 1263. Resume at worklist line 9053: belzutifan — Neoplasm Malignant. 520 unchecked rows remain.",
   "last_batch": {
-    "id": "1262",
-    "commit": "fd59d654",
-    "pushed": true,
+    "id": "1263",
+    "commit": "6e3eea32",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 30,
+    "new_entries": 27,
     "existing_links": 0,
-    "no_evidence_rejects": 0,
+    "no_evidence_rejects": 3,
     "non_prescription_topics_available": 0,
-    "build": "5742 entries; 8103 refs; 4921 trial; 727 obs; 30 animal; 17 lab; 47 case; 698 numeric comparison entries; worklist 14992/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 19192438, 7714303, 8792754, 6088819, 16801459, 39216715, 33681738, 39659158, 25897203, 40388311, 16684437, 23725303, 30328270, 17668541, 24970869, 20586515, 21162697, 29509867, 19588335, 39621972, 32385134, 33838757, 20132285, 36206645, 35061214, 25891173, 37075781, 33721562, 34102137, and 26027431. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. Two meta-analyses did not report an aggregate participant count in the verified abstract, so their n fields remain null. No topic was rejected for lack of a verifiable numeric result.",
-    "legacy_sentence_edits": 4,
+    "build": "5769 entries; 8130 refs; 4948 trial; 727 obs; 30 animal; 17 lab; 47 case; 725 numeric comparison entries; worklist 15022/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 31562796, 34102137, 27979383, 32534646, 31122901, 38319896, 28885881, 39098455, 28276859, 33476593, 33001135, 29151359, 37937763, 27959700, 32786187, 34606378, 36511784, 32731259, 34310172, 30098165, 27824902, 36764316, 40783289, and 39167807, with duplicate source PMIDs reused for closely related worklist topics where the same verified comparison applied. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. Three topics were rejected because the verified evidence was single-arm without a valid comparator effect: atezolizumab Rare Tumor, zanubrutinib Marginal Zone Lymphoma, and belzutifan Pheochromocytoma.",
+    "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 5,
+    "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 1,
     "remaining_expected_unknown_n_warnings": 2,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1263",
-    "worklist_line": 9002,
-    "topic": "nivolumab — Stage IV",
-    "unchecked": 550
+    "next_batch": "1264",
+    "worklist_line": 9053,
+    "topic": "belzutifan — Neoplasm Malignant",
+    "unchecked": 520
   }
 }
