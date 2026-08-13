@@ -2,37 +2,37 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5972,
-  "subjects": 2271,
-  "refs": 8334,
+  "entries": 5987,
+  "subjects": 2280,
+  "refs": 8349,
   "kinds": {
-    "otc": 123,
+    "otc": 124,
     "supp": 365,
     "food": 462,
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2529
+    "rx": 2543
   },
   "tiers": {
-    "trial": 5150,
-    "obs": 727,
+    "trial": 5164,
+    "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3583,
-    "null": 1189,
+    "pos": 3593,
+    "null": 1193,
     "open": 1038,
-    "harm": 162
+    "harm": 163
   },
   "worklist": {
     "total": 15542,
-    "checked": 15262,
-    "unchecked": 280,
-    "no_evidence_pending": 2049,
-    "note": "Batch 1271 checked 30 unique prescription topics from worklist lines 10582-11250. No identifiable non-prescription topic was available. New evidence entries: 23; existing links: 0; no-evidence rejects: 7 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
+    "checked": 15292,
+    "unchecked": 250,
+    "no_evidence_pending": 2051,
+    "note": "Batch 1272 checked 30 unique topics from worklist lines 11255-12418, including one identifiable non-prescription topic. New evidence entries: 15; existing links: 13; no-evidence rejects: 2 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
   },
   "backlog": {
     "vs_missing": 4035,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.9% (950 entries)",
-    "rx_share": "42.3% (2,529 entries)",
-    "no_effect_or_harm_share": "22.6% (1,351 entries)",
-    "vs_share": "15.5% (928 entries)",
+    "over_counter_share": "15.9% (951 entries)",
+    "rx_share": "42.5% (2,543 entries)",
+    "no_effect_or_harm_share": "22.7% (1,356 entries)",
+    "vs_share": "15.8% (943 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.2% (5,150 entries)",
-    "non_trial_share": "13.8% (822 entries)",
+    "trial_share": "86.3% (5,164 entries)",
+    "non_trial_share": "13.7% (823 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 999,
+      "thin_study": 1002,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1272 starts after batch 1271. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 11255: carbamazepine — Seizures. 280 unchecked rows remain.",
+  "next": "Batch 1273 starts after batch 1272. Prioritize non-prescription topics first; one identifiable non-prescription topic was processed in this queue segment. Resume at worklist line 12419: telitacicept — Myasthenia Gravis. 250 unchecked rows remain.",
   "last_batch": {
-    "id": "1271",
-    "commit": "a7cd808d",
+    "id": "1272",
+    "commit": "33a73b63",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 23,
-    "existing_links": 0,
-    "no_evidence_rejects": 7,
-    "non_prescription_topics_available": 0,
-    "build": "5972 entries; 8334 refs; 5150 trial; 727 obs; 31 animal; 17 lab; 47 case; 928 numeric comparison entries; worklist 15262/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 29910030, 18647298, 30525235, 24918560, 37797867, 19195772, 11219479, 36194218, 11395591, 28904068, 16858182, 21428727, 27912901, 29259450, 32577615, 19706558, 20200383, 8633815, 36818262, and 20464778. Duplicate PMIDs were reused only for closely related worklist topics. New entries have Korean subjects, prescription or OTC mappings, and numeric intervention-versus-control results or valid relative effects. Seven topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect.",
-    "new_entry_vs_warnings_fixed": 1,
+    "new_entries": 15,
+    "existing_links": 13,
+    "no_evidence_rejects": 2,
+    "non_prescription_topics_available": 1,
+    "build": "5987 entries; 8349 refs; 5164 trial; 728 obs; 31 animal; 17 lab; 47 case; 943 numeric comparison entries; worklist 15292/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 34936076, 36516076, 26864092, 18444532, 14633817, 32158190, 7798508, 23347435, 23347400, 37497207, 16197669, 19367054, 29972757, 34090625, and 36938094. Existing links reused allopurinol-hyperuricemia-null, celecoxib-osteoarthritis-open, fenofibrate-hyperlipidemia-pos, finerenone-proteinuria-open, liraglutide-obesity-pos, bempedoic-acid-hypercholesterolaemia-pos, canagliflozin-renal-insufficiency-pos, valproic-acid-epilepsy-pos, atenolol-cardiac-disease-null, atenolol-coronary-disease-null, maralixibat-cholestatic-liver-disease-pos, and acoramidis-cardiomyopathies-pos. New entries have Korean subjects, prescription or OTC mappings, and numeric intervention-versus-control results or valid relative effects. Two topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect.",
+    "new_entry_vs_warnings_fixed": 6,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1,
+    "remaining_expected_thin_warnings": 3,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1272",
-    "worklist_line": 11255,
-    "topic": "carbamazepine — Seizures",
-    "unchecked": 280
+    "next_batch": "1273",
+    "worklist_line": 12419,
+    "topic": "telitacicept — Myasthenia Gravis",
+    "unchecked": 250
   }
 }
