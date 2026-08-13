@@ -32,18 +32,18 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1295 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 21 comparison results, screened 9 nonqualifying topics, and leaves augmented-reality-pain-pos as the exact next unprocessed candidate."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1296 processed the next 30 non-prescription topics in the legacy vs-missing window, filled 27 comparison results, screened 3 nonqualifying topics, and leaves behavioral-activation-cancer-pos as the exact next unprocessed candidate."
   },
   "backlog": {
-    "vs_missing": 3667,
-    "english_subjects": 1031,
+    "vs_missing": 3640,
+    "english_subjects": 1013,
     "note": "Legacy backlog remains; process it in safe batches. vs_missing is the current pre-2026-08-12 non-open entry count without numeric vs data. english_subjects is the current distinct entry-subject count containing untranslated lowercase English words."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "25.3% (1,572 entries)",
+    "vs_share": "25.7% (1,599 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,33 +57,33 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1296 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate augmented-reality-pain-pos. Batch 1295 processed 30 existing non-prescription topics, filled 21 numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, screened 9 nonqualifying topics, and translated 10 shared English subjects across 17 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1297 resumes the legacy non-prescription vs-missing backlog at the exact next unprocessed candidate behavioral-activation-cancer-pos. Batch 1296 processed 30 existing non-prescription topics, filled 27 numeric intervention-versus-control results or valid relative effects from PubMed and ClinicalTrials.gov-linked records, screened 3 nonqualifying topics, and translated 8 shared English subjects across 20 entries. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1295",
-    "commit": "5d9a1618",
+    "id": "1296",
+    "commit": "bcec0065",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "screened_nonqualifying_topics": 9,
-    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1551 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed PMIDs 30221438,40871692,25621434,39482393,41827634,34647700,28088380,34913530,36460993,28627861,23131526,40270092,35426778,39552146,33188476,38041063,41820835,26396163,36937128,39954269,37797438,24665243,42410411; ClinicalTrials.gov-linked NCTs NCT05319964,NCT02536170,NCT06264986,NCT04997434,NCT06575816. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records and ClinicalTrials.gov-linked records. Nine topics were screened out because the cited record was single-arm, a case report, observational without a usable comparison, or lacked a qualifying comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
+    "screened_nonqualifying_topics": 3,
+    "build": "6222 entries; 8610 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1599 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed PMIDs 42410411,37311693,38452937,38597393,27323323,37653828,15310562,31277132,29289541,30707098,42422682,17634169,36367708,2834943,30427265,31274334,34284348,41704173,42514447,40939021,41830030,40553891,42411706,35869311,42309820,38901043; ClinicalTrials.gov-linked NCTs NCT06575816,NCT02994199,NCT04203238. Numeric intervention-versus-control results or valid relative effects were copied only from verifiable PubMed records and ClinicalTrials.gov-linked records. Three topics were screened out because the cited record was a case report, a single-group pre-post study, or lacked a qualifying comparator. No sample sizes were inferred; source totals that were not stated remain unknown.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 21,
-    "subject_names_renamed": 10,
-    "subject_entries_renamed": 17,
+    "legacy_vs_filled": 27,
+    "subject_names_renamed": 8,
+    "subject_entries_renamed": 20,
     "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 1022,
     "remaining_expected_unknown_n_warnings": 454,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1296",
+    "next_batch": "1297",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing backlog after batch1295 sequential window; exact next unprocessed candidate augmented-reality-pain-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing backlog after batch1296 sequential window; exact next unprocessed candidate behavioral-activation-cancer-pos; worklist exhausted",
     "unchecked": 0
   }
 }
