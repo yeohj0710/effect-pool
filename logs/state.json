@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6092,
-  "subjects": 2334,
-  "refs": 8455,
+  "entries": 6122,
+  "subjects": 2354,
+  "refs": 8485,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2648
+    "rx": 2678
   },
   "tiers": {
-    "trial": 5269,
+    "trial": 5299,
     "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3682,
-    "null": 1208,
+    "pos": 3704,
+    "null": 1215,
     "open": 1038,
-    "harm": 164
+    "harm": 165
   },
   "worklist": {
     "total": 15542,
-    "checked": 15412,
-    "unchecked": 130,
+    "checked": 15442,
+    "unchecked": 100,
     "no_evidence_pending": 2058,
-    "note": "Batch 1276 checked 30 unique prescription topics from worklist lines 15856-16284. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
+    "note": "Batch 1277 checked 30 unique prescription topics from worklist lines 16344-18851. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.6% (951 entries)",
-    "rx_share": "43.5% (2,648 entries)",
-    "no_effect_or_harm_share": "22.5% (1,372 entries)",
-    "vs_share": "17.2% (1,048 entries)",
+    "over_counter_share": "15.5% (951 entries)",
+    "rx_share": "43.7% (2,678 entries)",
+    "no_effect_or_harm_share": "22.5% (1,380 entries)",
+    "vs_share": "17.6% (1,078 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.5% (5,269 entries)",
-    "non_trial_share": "13.5% (823 entries)",
+    "trial_share": "86.6% (5,299 entries)",
+    "non_trial_share": "13.4% (823 entries)",
     "build_warnings": {
       "unknown_n": 743,
-      "thin_study": 1201,
+      "thin_study": 1202,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1277 starts after batch 1276. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 16344: ceftobiprole — Pneumonia에 듣는다. 130 unchecked rows remain.",
+  "next": "Batch 1278 starts after batch 1277. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 18893: netarsudil — Ocular Hypertension에 듣는다. 100 unchecked rows remain.",
   "last_batch": {
-    "id": "1276",
-    "commit": "33a0089a",
+    "id": "1277",
+    "commit": "65d6b769",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 30,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6092 entries; 8455 refs; 5269 trial; 728 obs; 31 animal; 17 lab; 47 case; 1048 numeric comparison entries; worklist 15412/15542",
-    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 32040959, 32130809, 36053506, 11089822, 21626284, 8918275, 2572323, 2195006, 39389071, 19420195, 33058795, 33058798, 36041016, 18990531, 23145952, 32891418, 31988972, 12560782, 12501873, 29378708, 28691557, 34706967, 39292927, and 34279598. The ZeNIX PMID36053506 result was reused for bedaquiline MDR-TB and pretomanid XDR-TB, the APEKS-NP PMID33058798 result for cefiderocol nosocomial infection and ventilator-associated pneumonia, the PMID32891418 result for three pitavastatin dyslipidemia topics, the PMID12560782 result for ertapenem infections and appendicitis, and the PMID34706967 result for belatacept renal transplant and graft rejection. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "build": "6122 entries; 8485 refs; 5299 trial; 728 obs; 31 animal; 17 lab; 47 case; 1078 numeric comparison entries; worklist 15442/15542",
+    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 40554538, 24334179, 19395079, 18990175, 14764127, 32822600, 19261295, 19183157, 19392864, 21811161, 24727123, 24345529, 31221565, 33007780, 27181606, 34800399, 25430900, 11589932, 26575258, 23501976, 18342185, 20109997, 23063301, 38236020, 20096936, and 21481449. The PMID18990175 result was reused for solifenacin urinary urge, PMID14764127 for solifenacin incontinence, PMID34800399 for three alglucosidase alfa topics, PMID25430900 for two brinzolamide topics, and PMID23063301 for two eszopiclone topics. Nitisinone Alkaptonuria and iloperidone Bipolar Disorder were recorded as off-label topics; no topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 2,
+    "targeted_batch_warnings_fixed": 6,
+    "remaining_expected_thin_warnings": 3,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1277",
-    "worklist_line": 16344,
-    "topic": "ceftobiprole — Pneumonia에 듣는다",
-    "unchecked": 130
+    "next_batch": "1278",
+    "worklist_line": 18893,
+    "topic": "netarsudil — Ocular Hypertension에 듣는다",
+    "unchecked": 100
   }
 }
