@@ -3,7 +3,7 @@
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 6222,
-  "subjects": 2405,
+  "subjects": 2402,
   "refs": 8596,
   "kinds": {
     "otc": 124,
@@ -35,21 +35,21 @@
     "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1290 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
   },
   "backlog": {
-    "vs_missing": 3799,
-    "english_subjects": 1072,
+    "vs_missing": 3769,
+    "english_subjects": 1060,
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "23.1% (1,440 entries)",
+    "vs_share": "23.6% (1,470 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 1023,
+      "thin_study": 1021,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,33 +57,33 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1291 starts after batch 1290. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1290 scanned the legacy non-prescription vs-missing backlog after virtual-reality-therapy-anxiety-pos and backfilled 30 existing entries; it also translated 12 shared English subjects across 29 entries and preserved their categories. The next eligible scan point is web-based-counseling-mental-health-pos. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1292 starts after batch 1291. The worklist remains exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1291 scanned the legacy non-prescription vs-missing backlog from web-based-counseling-mental-health-pos through zinc-covid-pos, screened web-based-counseling-mental-health-pos as nonqualifying because its reported effect was not a clear intervention-versus-control comparison, and backfilled 30 existing entries; it also translated 12 shared English subjects across 36 entries while preserving their categories. The next eligible scan point is zinc-hiv-pos. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1290",
-    "commit": "c658b654",
+    "id": "1291",
+    "commit": "4e885556",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "screened_nonqualifying_topics": 0,
-    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1440 numeric comparison entries; worklist 15542/15542",
-    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 35723907, 41213004, 41604864, 23073950, 41863966, 15987864, 14762035, 23440782, 37877585, 36235869, 35704292, 33620405, 34020705, 17720017, 35939577, 31696224, 37004841, 33534730, 39993397, 28202713, 15061748, 35727271, 34838937, 22939808, 15537682, 24040282, 41599883, 38282652, 31608676, 37589696, 38134254, 33956561, 27589017, 21911336, 30942963, 37753575, 34194188, 38434511, 30977740, 42528312, and 39681977; ClinicalTrials.gov identifiers NCT07702682, NCT00383669, NCT04401150, NCT02735707, NCT03680274, NCT01704859, NCT02835313, and NCT01387867. Duplicate PMIDs were reused only for closely related topics. No sample sizes were inferred, and no new claims were fabricated.",
+    "screened_nonqualifying_topics": 1,
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1470 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed and ClinicalTrials.gov records were checked for 30 non-prescription legacy entries, and only numeric intervention-versus-control results or valid relative effects were copied into vs without adding claims. Sources used PMIDs 12905089, 16234828, 17166396, 19065280, 23227155, 23922209, 25071598, 25935584, 26811130, 27274333, 29697885, 32142510, 33471111, 33600394, 34235817, 34326296, 35316372, 35599332, 37314275, 38160047, 38181269, 38294813, 38656790, 38727472, 39305340, 39489149, 40037945, 40367243, 41176182, 41433030, 41911893, and 42047631; ClinicalTrials.gov identifiers NCT01182948, NCT02134782, NCT02873715, NCT03862963, NCT04042467, NCT05778383, and NCT05956470. Duplicate PMIDs were reused only for closely related topics. No sample sizes were inferred, and no new claims were fabricated. web-based-counseling-mental-health-pos was screened out because its available effect size did not establish a clear intervention-versus-control comparison.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 30,
     "subject_names_renamed": 12,
-    "subject_entries_renamed": 29,
+    "subject_entries_renamed": 36,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1023,
+    "remaining_expected_thin_warnings": 1021,
     "remaining_expected_unknown_n_warnings": 455,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1291",
+    "next_batch": "1292",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing scan after web-based-counseling-lung-cancer-pos; next eligible candidate web-based-counseling-mental-health-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing scan after zinc-covid-pos; next eligible candidate zinc-hiv-pos; worklist exhausted",
     "unchecked": 0
   }
 }
