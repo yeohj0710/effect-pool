@@ -1,32 +1,33 @@
 {
-  "id": "cognitive-behavioral-stress-management-depression-pos",
-  "subj": "cognitive behavioral stress management",
-  "claim": "전립선암 수술 후 우울 증상에서 인지행동 스트레스 관리가 불안·우울과 삶의 질을 개선했다",
-  "line": "인지행동 스트레스 관리는 우울을 줄였다.",
-  "effect": "우울 점수 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 160,
-  "synth": "single",
-  "why": "전립선암 수술 후 환자 160명을 무작위 배정해 10주 인지행동 스트레스 관리와 통상 치료를 비교했습니다.",
-  "saw": "관리군에서 병원 불안·우울 점수가 낮아지고 삶의 질이 좋아졌으며 6개월 추적 효과가 보고됐다.",
-  "limit": "수술 후 전립선암 환자의 우울 증상에 대한 연구라 주요우울장애 치료 효과로 볼 수 없다.",
-  "against": "다른 암과 우울장애 환자에서 장기 효과가 재현되는지는 확인되지 않았다.",
-  "use": "암 수술 후 심리사회적 보조 프로그램으로만 검토합니다.",
-  "refs": [
-    {
-      "label": "Cognitive-behavioral stress management program reduces postoperative psychological pressure and improves life quality in prostate cancer patients",
-      "doi": "10.1007/s11845-023-03520-5",
-      "pmid": "37770668"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive behavioral stress management, cond=Depression · 1건 직접 확인",
-    "pubmed": "cognitive behavioral stress management AND Depression · 1017건",
-    "negative": "cognitive behavioral stress management AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 1556건",
-    "safety": "cognitive behavioral stress management AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 913건"
-  },
-  "known": "off",
-  "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목."
+ "id": "cognitive-behavioral-stress-management-depression-pos",
+ "subj": "인지행동 스트레스관리",
+ "claim": "전립선암 수술 후 우울 증상에서 인지행동 스트레스 관리가 불안·우울과 삶의 질을 개선했다",
+ "line": "인지행동 스트레스 관리는 우울을 줄였다.",
+ "effect": "불안·우울 감소; 삶의 질 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 160,
+ "synth": "single",
+ "why": "전립선암 수술 후 환자 160명을 무작위 배정해 10주 인지행동 스트레스 관리와 통상 치료를 비교했습니다.",
+ "saw": "전립선암 수술 후 환자 160명을 인지행동 스트레스관리군 81명과 통상 치료군 79명에 무작위 배정했습니다. 불안은 4·6개월에 낮았고, 우울 점수는 6개월에 낮았습니다(P=.036). 삶의 질 전반은 1·2·4·6개월에 높았고(P=.010/.001/.029/.015), 기능은 4·6개월(P=.040/.044), 증상 점수는 4개월(P=.034)에 좋아졌습니다.",
+ "limit": "수술 후 전립선암 환자의 우울 증상에 대한 연구라 주요우울장애 치료 효과로 볼 수 없다.",
+ "against": "다른 암과 우울장애 환자에서 장기 효과가 재현되는지는 확인되지 않았다.",
+ "use": "암 수술 후 심리사회적 보조 프로그램으로만 검토합니다.",
+ "refs": [
+  {
+   "label": "Cognitive-behavioral stress management program reduces postoperative psychological pressure and improves life quality in prostate cancer patients",
+   "doi": "10.1007/s11845-023-03520-5",
+   "pmid": "37770668"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive behavioral stress management, cond=Depression · 1건 직접 확인",
+  "pubmed": "cognitive behavioral stress management AND Depression · 1017건",
+  "negative": "cognitive behavioral stress management AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 1556건",
+  "safety": "cognitive behavioral stress management AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 913건"
+ },
+ "known": "off",
+ "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목.",
+ "vs": "인지행동 스트레스관리 81명 대 통상 치료 대조군 79명: 우울 차이 6개월 P=.036, 삶의 질 전반 차이 1·2·4·6개월 P=.010/.001/.029/.015, 기능 차이 4·6개월 P=.040/.044, 증상 차이 4개월 P=.034"
 }

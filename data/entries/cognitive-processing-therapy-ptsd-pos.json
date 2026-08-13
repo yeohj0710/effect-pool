@@ -1,32 +1,33 @@
 {
-  "id": "cognitive-processing-therapy-ptsd-pos",
-  "subj": "cognitive processing therapy",
-  "claim": "성인 PTSD에 인지처리치료를 적용한다",
-  "line": "성인의 PTSD 증상은 인지처리치료 후 낮아졌다.",
-  "effect": "PTSD Hedges g 1.24/0.90",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1130,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "성인 PTSD에서 인지처리치료와 대기자·심리적 위약·다른 치료를 비교한 시험을 종합했습니다.",
-  "saw": "11개 연구 1,130명에서 비활성 대조보다 치료 종료와 추적 PTSD 효과가 컸습니다",
-  "limit": "오래된 연구일수록 효과가 컸고 활성 대조와의 장기 차이는 제한적이었습니다",
-  "against": "대기자·심리적 위약 또는 활성 치료",
-  "use": "성인 PTSD의 근거 기반 심리치료로 봅니다.",
-  "refs": [
-    {
-      "label": "A meta-analytic review of cognitive processing therapy for adults with posttraumatic stress disorder",
-      "doi": "10.1080/16506073.2018.1522371",
-      "pmid": "30332919"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive processing therapy · cond=PTSD: 52건",
-    "pubmed": "cognitive processing therapy AND PTSD AND (randomized OR trial OR meta-analysis): 1313건",
-    "negative": "cognitive processing therapy AND PTSD AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2493건",
-    "safety": "cognitive processing therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 55451건"
+ "id": "cognitive-processing-therapy-ptsd-pos",
+ "subj": "인지처리치료",
+ "claim": "성인 PTSD에 인지처리치료를 적용한다",
+ "line": "성인의 PTSD 증상은 인지처리치료 후 낮아졌다.",
+ "effect": "PTSD Hedges g 1.24/0.90",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1130,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "성인 PTSD에서 인지처리치료와 대기자·심리적 위약·다른 치료를 비교한 시험을 종합했습니다.",
+ "saw": "성인 PTSD 인지처리치료 비교시험 11건, 1,130명을 메타분석했습니다. 비활성 대조보다 치료 종료 PTSD 효과는 Hedges g=1.24, 추적 효과는 g=.90이었고, 활성 치료보다 치료 종료에는 우수했지만 추적에는 차이가 없었습니다.",
+ "limit": "오래된 연구일수록 효과가 컸고 활성 대조와의 장기 차이는 제한적이었습니다",
+ "against": "대기자·심리적 위약 또는 활성 치료",
+ "use": "성인 PTSD의 근거 기반 심리치료로 봅니다.",
+ "refs": [
+  {
+   "label": "A meta-analytic review of cognitive processing therapy for adults with posttraumatic stress disorder",
+   "doi": "10.1080/16506073.2018.1522371",
+   "pmid": "30332919"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive processing therapy · cond=PTSD: 52건",
+  "pubmed": "cognitive processing therapy AND PTSD AND (randomized OR trial OR meta-analysis): 1313건",
+  "negative": "cognitive processing therapy AND PTSD AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2493건",
+  "safety": "cognitive processing therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 55451건"
+ },
+ "vs": "성인 PTSD 인지처리치료 대 비활성 대조: 치료 종료 Hedges g=1.24, 추적 g=.90; 활성 치료와는 치료 종료 우수, 추적 차이 없음"
 }

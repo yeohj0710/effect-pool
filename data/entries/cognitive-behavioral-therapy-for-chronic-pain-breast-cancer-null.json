@@ -1,28 +1,35 @@
 {
-  "id": "cognitive-behavioral-therapy-for-chronic-pain-breast-cancer-null",
-  "subj": "cognitive behavioral therapy for chronic pain",
-  "claim": "유방암 수술 전후 인지행동치료는 통증교육·마음챙김보다 만성 통증을 더 줄이지 못했다",
-  "line": "통증 변화 없음.",
-  "effect": "3개월 통증 군 간 차이 P=0.45",
-  "tier": "trial",
-  "dir": "null",
-  "n": 45,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "통증 과민화 위험이 높은 유방암 수술 환자의 만성 수술 후 통증을 심리치료로 줄일 수 있는지 비교했다.",
-  "saw": "통증 파국화 점수가 높은 유방암 수술 환자 45명을 인지행동치료군과 통증교육·마음챙김군으로 무작위 배정했다. 3개월 평균 통증 강도의 군 간 차이는 유의하지 않았고 P=0.45였다. 두 군 모두 통증 방해, 파국화, 불안, 기분은 기저치보다 좋아졌다.",
-  "limit": "45명 소규모 연구이고 두 군 모두 시간이 지나며 좋아져 인지행동치료의 추가 효과가 작을 수 있다.",
-  "against": "대조 중재도 적극적인 심리 프로그램이라 인지행동치료의 절대 효과와 추가 효과를 구분하기 어렵다.",
-  "use": "유방암 수술 후 만성 통증에서 심리치료 선택을 설명할 때 참고하는 음성 근거입니다.",
-  "refs": [
-    { "label": "유방암 수술 후 통증 무작위시험", "doi": "10.1016/j.bjao.2025.100499", "pmid": "41234748", "pmc": "PMC12607078", "nct": "NCT04924010" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=cognitive behavioral therapy for chronic pain AND condition=Breast Cancer; 0건",
-    "pubmed": "cognitive behavioral therapy for chronic pain AND Breast Cancer; 40건",
-    "negative": "cognitive behavioral therapy for chronic pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 2534건",
-    "safety": "cognitive behavioral therapy for chronic pain AND (adverse OR toxicity OR case report OR harm OR dropout); 450건"
+ "id": "cognitive-behavioral-therapy-for-chronic-pain-breast-cancer-null",
+ "subj": "만성 통증 인지행동치료",
+ "claim": "유방암 수술 전후 인지행동치료는 통증교육·마음챙김보다 만성 통증을 더 줄이지 못했다",
+ "line": "통증 변화 없음.",
+ "effect": "3개월 통증 군 간 차이 P=0.45",
+ "tier": "trial",
+ "dir": "null",
+ "n": 45,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "통증 과민화 위험이 높은 유방암 수술 환자의 만성 수술 후 통증을 심리치료로 줄일 수 있는지 비교했다.",
+ "saw": "통증 파국화 점수가 높은 유방암 수술 환자 45명을 인지행동치료군과 통증교육·마음챙김군에 무작위 배정했습니다. 3개월 통증 중앙값은 두 군 모두 0(범위 0~1)이었고 군 간 차이는 없었습니다(P=.45).",
+ "limit": "45명 소규모 연구이고 두 군 모두 시간이 지나며 좋아져 인지행동치료의 추가 효과가 작을 수 있다.",
+ "against": "대조 중재도 적극적인 심리 프로그램이라 인지행동치료의 절대 효과와 추가 효과를 구분하기 어렵다.",
+ "use": "유방암 수술 후 만성 통증에서 심리치료 선택을 설명할 때 참고하는 음성 근거입니다.",
+ "refs": [
+  {
+   "label": "유방암 수술 후 통증 무작위시험",
+   "doi": "10.1016/j.bjao.2025.100499",
+   "pmid": "41234748",
+   "pmc": "PMC12607078",
+   "nct": "NCT04924010"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=cognitive behavioral therapy for chronic pain AND condition=Breast Cancer; 0건",
+  "pubmed": "cognitive behavioral therapy for chronic pain AND Breast Cancer; 40건",
+  "negative": "cognitive behavioral therapy for chronic pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 2534건",
+  "safety": "cognitive behavioral therapy for chronic pain AND (adverse OR toxicity OR case report OR harm OR dropout); 450건"
+ },
+ "vs": "인지행동치료 대 통증교육·마음챙김 대조군: 3개월 통증 중앙값 모두 0(0~1), 군 간 차이 없음(P=.45)"
 }
