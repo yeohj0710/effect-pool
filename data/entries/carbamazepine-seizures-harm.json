@@ -1,0 +1,27 @@
+{
+  "id": "carbamazepine-seizures-harm",
+  "subj": "카르바마제핀",
+  "claim": "뇌졸중 후 뇌전증에서 카르바마제핀은 옥스카르바제핀보다 발작 조절 효율이 낮고 이상반응이 많았다",
+  "line": "옥스카르바제핀 효율 OR 4.55, 이상반응 OR 0.27",
+  "effect": "효율 OR 4.55; 이상반응 OR 0.27",
+  "vs": "뇌졸중 후 뇌전증 671명을 합친 무작위시험 메타분석에서 옥스카르바제핀과 카르바마제핀을 비교했습니다. 옥스카르바제핀의 효율 OR은 4.55(95% CI 3.04–6.81), 이상반응 OR은 0.27(0.18–0.42)였습니다.",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 671,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "카르바마제핀은 국소 발작 등 뇌전증 치료에 허가된 처방 항경련제입니다.",
+  "why": "뇌졸중 후 뇌전증에서 카르바마제핀과 옥스카르바제핀을 직접 비교한 무작위시험들을 합쳤습니다.",
+  "saw": "메타분석에서 옥스카르바제핀이 카르바마제핀보다 효율이 높고 이상반응이 적었습니다.",
+  "limit": "뇌졸중 후 뇌전증 연구를 합친 결과이며 다른 발작 유형이나 개별 환자에게 그대로 일반화할 수 없습니다.",
+  "against": "카르바마제핀의 발진·어지럼 등 이상반응과 약물상호작용은 별도로 확인해야 합니다.",
+  "use": "뇌졸중 후 뇌전증에서 두 항경련제의 상대적 근거를 설명할 때 사용합니다.",
+  "refs": [{ "label": "옥스카르바제핀 대 카르바마제핀 무작위시험 메타분석", "pmid": "34936076" }],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "ClinicalTrials.gov v2 query.intr=carbamazepine; returned=100; exact InterventionName match=43",
+    "pubmed": "carbamazepine AND Seizures — 299편",
+    "negative": "carbamazepine AND Seizures AND (no effect OR failed OR negative) — 확인",
+    "safety": "carbamazepine AND (adverse OR toxicity OR case report) — 확인"
+  }
+}

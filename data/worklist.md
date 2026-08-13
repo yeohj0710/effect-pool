@@ -11252,7 +11252,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] buspirone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "buspirone AND Schizophrenia")
 - [x] buspirone — Marijuana Abuse에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-06, "buspirone AND Marijuana Abuse")
 - [x] buspirone — Parkinson에 듣는다  <!-- 시험 3건 · 논문 79편 --> — 항목 생성(buspirone-parkinson-harm)
-- [ ] carbamazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 4920편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] carbamazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 4920편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(carbamazepine-seizures-harm)
 - [x] carbamazepine — COVID-19에 듣는다  <!-- 시험 3건 · 논문 52편 --> — 항목 생성(carbamazepine-covid-19-null)
 - [x] carbamazepine — Neuropathic Pain에 듣는다  <!-- 시험 3건 · 논문 1499편 --> — 항목 생성(carbamazepine-neuropathic-pain-open)
 - [x] carvedilol — Cardiomyopathy에 듣는다  <!-- 시험 10건 · 논문 537편 --> — 근거 없음(2026-08-06, "carvedilol AND Cardiomyopathy")
@@ -11311,7 +11311,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] adenosine — Leukemia에 듣는다  <!-- 시험 6건 · 논문 7094편 --> — 근거 없음(2026-08-06, "adenosine AND Leukemia")
 - [x] adenosine — Atrial Fibrillation에 듣는다  <!-- 시험 4건 · 논문 846편 --> — 항목 생성(adenosine-atrial-fibrillation-pos)
 - [x] adenosine — Cough에 듣는다  <!-- 시험 3건 · 논문 300편 --> — 근거 없음(2026-08-06, "adenosine AND Cough")
-- [ ] allopurinol — Uric Acid에 듣는다  <!-- 시험 6건 · 논문 3288편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] allopurinol — Uric Acid에 듣는다  <!-- 시험 6건 · 논문 3288편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(allopurinol-hyperuricemia-null)
 - [x] allopurinol — Renal Function에 듣는다  <!-- 시험 6건 · 논문 1594편 --> — 항목 생성(allopurinol-renal-function-pos)
 - [x] allopurinol — Multiple Myeloma에 듣는다  <!-- 시험 5건 · 논문 42편 --> — 항목 생성(allopurinol-multiple-myeloma-harm)
 - [x] apixaban — Cancer에 듣는다  <!-- 시험 20건 · 논문 714편 --> — 항목 생성(apixaban-cancer-pos)
@@ -11322,7 +11322,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Angina에 듣는다  <!-- 시험 12건 · 논문 344편 --> — 항목 생성(atorvastatin-angina-pos)
 - [x] atorvastatin — Inflammation에 듣는다 — 항목 생성(atorvastatin-inflammation-pos)  <!-- 시험 10건 · 논문 1399편 -->
 - [x] atorvastatin — Platelet Dysfunction에 듣는다 — 항목 생성(atorvastatin-platelet-dysfunction-animal-pos)  <!-- 시험 9건 · 논문 58편 -->
-- [ ] celecoxib — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 1363편 -->
+- [x] celecoxib — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 1363편 --> — 기존항목삡연결(celecoxib-osteoarthritis-open)
 - [x] celecoxib — Colon Neoplasm에 듣는다 — 항목 생성(celecoxib-colon-neoplasm-open)  <!-- 시험 15건 · 논문 227편 -->
 - [x] celecoxib — Lymphoma에 듣는다 — 항목 생성(celecoxib-lymphoma-lab-pos)  <!-- 시험 13건 · 논문 62편 -->
 - [x] chlorhexidine — Catheter에 듣는다 — 항목 생성(chlorhexidine-catheter-pos)  <!-- 시험 16건 · 논문 1064편 -->
@@ -11375,11 +11375,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] empagliflozin — Dialysis에 듣는다 — 근거 없음(2026-08-06, "empagliflozin AND Dialysis")  <!-- 시험 9건 · 논문 75편 -->
 - [x] fenofibrate — Diabetic Retinopathy에 듣는다 — 항목 생성(fenofibrate-diabetic-retinopathy-open)  <!-- 시험 12건 · 논문 202편 -->
 - [x] fenofibrate — Cardiovascular Disease에 듣는다 — 항목 생성(fenofibrate-cardiovascular-disease-open)  <!-- 시험 9건 · 논문 1213편 -->
-- [ ] fenofibrate — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 278편 -->
+- [x] fenofibrate — Hypercholesterolemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 278편 --> — 기존항목삡연결(fenofibrate-hyperlipidemia-pos)
 - [x] guanfacine — Hypertension에 듣는다 — 항목 생성(guanfacine-hypertension-open)  <!-- 시험 3건 · 논문 253편 -->
 - [x] guanfacine — Tourette Syndrome에 듣는다 — 항목 생성(guanfacine-tourette-syndrome-open)  <!-- 시험 3건 · 논문 40편 -->
 - [x] guanfacine — Cognitive Aging에 듣는다 — 항목 생성(guanfacine-cognitive-aging-open)  <!-- 시험 3건 · 논문 14편 -->
-- [ ] hydrochlorothiazide — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 4252편 -->
+- [x] hydrochlorothiazide — Blood Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 4252편 --> — 항목생성(hydrochlorothiazide-blood-pressure-null)
 - [x] hydrochlorothiazide — Obesity에 듣는다 — 근거 없음(2026-08-06, "hydrochlorothiazide AND Obesity")  <!-- 시험 6건 · 논문 189편 -->
 - [x] hydrochlorothiazide — Healthy Participants에 듣는다 — 근거 없음(2026-08-06, "hydrochlorothiazide AND Healthy Participants")  <!-- 시험 4건 · 논문 144편 -->
 - [x] hydrochlorothiazide — Cardiovascular Events에 듣는다 — 항목 생성(hydrochlorothiazide-cardiovascular-events-null)  <!-- 시험 4건 · 논문 398편 -->
@@ -11397,7 +11397,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pioglitazone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 13건 · 논문 171편 --> — 항목 생성(pioglitazone-polycystic-ovary-syndrome-open)
 - [x] pioglitazone — Impaired Glucose Tolerance에 듣는다  <!-- 시험 12건 · 논문 212편 --> — 항목 생성(pioglitazone-impaired-glucose-tolerance-pos)
 - [x] pioglitazone — HIV에 듣는다  <!-- 시험 12건 · 논문 32편 --> — 항목 생성(pioglitazone-hiv-lab-pos)
-- [ ] pravastatin — Hypercholesterolemia에 듣는다  <!-- 시험 18건 · 논문 1221편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] pravastatin — Hypercholesterolemia에 듣는다  <!-- 시험 18건 · 논문 1221편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(pravastatin-hypercholesterolemia-pos)
 - [x] pravastatin — HIV에 듣는다  <!-- 시험 16건 · 논문 102편 --> — 항목 생성(pravastatin-hiv-harm)
 - [x] pravastatin — Cardiovascular Disease에 듣는다  <!-- 시험 13건 · 논문 2278편 --> — 항목 생성(pravastatin-cardiovascular-disease-open)
 - [x] pravastatin — Coronary Artery에 듣는다  <!-- 시험 13건 · 논문 598편 --> — 항목 생성(pravastatin-coronary-artery-open)
@@ -11441,7 +11441,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoprolol — Cardiac Output에 듣는다  <!-- 시험 7건 · 논문 553편 --> — 항목 생성(metoprolol-cardiac-output-pos)
 - [x] nicardipine — Anesthesia에 듣는다  <!-- 시험 4건 · 논문 337편 --> — 항목 생성(nicardipine-anesthesia-animal-pos)
 - [x] nicardipine — Vasospasm에 듣는다  <!-- 시험 4건 · 논문 260편 --> — 항목 생성(nicardipine-vasospasm-open)
-- [ ] nicardipine — Hypertensive Crisis에 듣는다  <!-- 시험 3건 · 논문 55편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] nicardipine — Hypertensive Crisis에 듣는다  <!-- 시험 3건 · 논문 55편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(nicardipine-hypertensive-crisis-null)
 - [x] laughter therapy — Depression에 듣는다  <!-- 시험 6건 · 논문 133편 --> — 항목 생성(laughter-therapy-depression-pos)
 - [x] meditation — Sleep에 듣는다  <!-- 시험 10건 · 논문 1024편 --> — 항목 생성(meditation-sleep-open)
 - [x] meditation — Psychological에 듣는다  <!-- 시험 9건 · 논문 3867편 --> — 항목 생성(meditation-psychological-null)
@@ -11480,16 +11480,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] eplerenone — Left Ventricular Hypertrophy에 듣는다  <!-- 시험 3건 · 논문 66편 --> — 항목 생성(eplerenone-left-ventricular-hypertrophy-pos)
 - [x] eplerenone — Atrial Fibrillation에 듣는다  <!-- 시험 3건 · 논문 61편 --> — 근거 없음(2026-08-06, "eplerenone AND Atrial Fibrillation")
 - [x] finerenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 306편 --> — 항목 생성(finerenone-hypertension-open)
-- [ ] finerenone — Albuminuria에 듣는다  <!-- 시험 3건 · 논문 218편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] finerenone — Albuminuria에 듣는다  <!-- 시험 3건 · 논문 218편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(finerenone-proteinuria-open)
 - [x] finerenone — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 160편 --> — 항목 생성(finerenone-proteinuria-open)
 - [x] finerenone — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 423편 --> — 근거 없음(2026-08-06, "finerenone AND Cardiovascular Diseases")
-- [ ] irbesartan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 240편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] irbesartan — Type 2 Diabetes에 듣는다  <!-- 시험 5건 · 논문 240편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(irbesartan-type-2-diabetes-pos)
 - [x] irbesartan — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 269편 --> — 근거 없음(2026-08-06, "irbesartan AND Heart Failure")
 - [x] linagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 4건 · 논문 20편 --> — 항목 생성(linagliptin-impaired-glucose-tolerance-pos)
 - [x] linagliptin — Hypertension에 듣는다  <!-- 시험 3건 · 논문 69편 --> — 근거 없음(2026-08-06, "linagliptin AND Hypertension")
 - [x] linagliptin — Coronavirus에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(linagliptin-coronavirus-null)
 - [x] liraglutide — Fatty Liver에 듣는다  <!-- 시험 9건 · 논문 303편 --> — 항목 생성(liraglutide-fatty-liver-open)
-- [ ] liraglutide — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 1648편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] liraglutide — Weight Loss에 듣는다  <!-- 시험 7건 · 논문 1648편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(liraglutide-obesity-pos)
 - [x] liraglutide — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 222편 --> — 항목 생성(liraglutide-metabolic-syndrome-open)
 - [x] liraglutide — Diabetic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 142편 --> — 항목 생성(liraglutide-diabetic-kidney-disease-open)
 - [x] sitagliptin — Cardiovascular Risk에 듣는다  <!-- 시험 6건 · 논문 367편 --> — 항목 생성(sitagliptin-cardiovascular-risk-open)
@@ -11502,7 +11502,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valsartan — Myocardial Injury에 듣는다  <!-- 시험 12건 · 논문 113편 --> — 항목 생성(valsartan-myocardial-injury-pos)
 - [x] valsartan — Ventricular Remodeling에 듣는다  <!-- 시험 12건 · 논문 414편 --> — 근거 없음(2026-08-06, "valsartan AND Ventricular Remodeling")
 - [x] valsartan — Obesity에 듣는다  <!-- 시험 8건 · 논문 174편 --> — 근거 없음(2026-08-06, "valsartan AND Obesity")
-- [ ] valsartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 2041편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] valsartan — Blood Pressure에 듣는다  <!-- 시험 8건 · 논문 2041편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(valsartan-blood-pressure-null)
 - [x] water aerobics — Aging에 듣는다  <!-- 시험 4건 · 논문 1116편 --> — 근거 없음(2026-08-06, "water aerobics AND Aging")
 - [x] nature therapy — Stroke에 듣는다  <!-- 시험 5건 · 논문 3302편 --> — 근거 없음(2026-08-06, "nature therapy AND Stroke")
 - [x] nature therapy — Loneliness에 듣는다  <!-- 시험 3건 · 논문 128편 --> — 항목 생성(nature-therapy-loneliness-open)
@@ -11564,15 +11564,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] anakinra — Inflammation에 듣는다  <!-- 시험 8건 · 논문 2781편 -->
 - [x] anakinra — Multiple Myeloma에 듣는다  <!-- 시험 8건 · 논문 35편 --> — 근거 없음(2026-08-06 조회, anakinra AND Multiple Myeloma)
 - [x] anakinra — Virus Diseases에 듣는다  <!-- 시험 7건 · 논문 515편 -->
-- [ ] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] bempedoic acid — LDL-cholesterol에 듣는다  <!-- 시험 4건 · 논문 462편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(bempedoic-acid-hypercholesterolaemia-pos)
 - [x] bempedoic acid — Diabetes에 듣는다  <!-- 시험 4건 · 논문 160편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Diabetes)
 - [x] bempedoic acid — Atherosclerosis에 듣는다  <!-- 시험 3건 · 논문 202편 --> — 근거 없음(2026-08-06 조회, bempedoic acid AND Atherosclerosis)
 - [x] bisoprolol — Chronic Obstructive Pulmonary Disease에 듣는다  <!-- 시험 6건 · 논문 62편 -->
-- [ ] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] bisoprolol — Stable Angina에 듣는다  <!-- 시험 4건 · 논문 62편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bisoprolol-stable-angina-pos)
+- [x] cabergoline — Prolactinoma에 듣는다  <!-- 시험 3건 · 논문 845편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(cabergoline-prolactinoma-null)
 - [x] cabergoline — Prostate Cancer에 듣는다  <!-- 시험 3건 · 논문 8편 --> — 근거 없음(2026-08-06 조회, cabergoline AND Prostate Cancer)
 - [x] canagliflozin — Renal Insufficiency에 듣는다  <!-- 시험 3건 · 논문 203편 -->
-- [ ] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] canagliflozin — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 205편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(canagliflozin-renal-insufficiency-pos)
 - [x] canagliflozin — ESRD에 듣는다  <!-- 시험 3건 · 논문 168편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -11608,12 +11608,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetylcysteine — Liver Tumour에 듣는다  <!-- 시험 28건 · 논문 576편 --> — 근거 없음(2026-08-06 조회, acetylcysteine AND Liver Tumour)
 - [x] acetylcysteine — Pulmonary Cancer에 듣는다  <!-- 시험 18건 · 논문 425편 --> — 근거 없음(2026-08-06 조회, acetylcysteine AND Pulmonary Cancer)
 - [x] acetylcysteine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 467편 -->
-- [ ] sodium valproate — Epilepsy에 듣는다  <!-- 시험 17건 · 논문 7497편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] sodium valproate — Epilepsy에 듣는다  <!-- 시험 17건 · 논문 7497편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(valproic-acid-epilepsy-pos)
 - [x] sodium valproate — Schizophrenia에 듣는다  <!-- 시험 7건 · 논문 511편 -->
 - [x] sodium valproate — Autism에 듣는다  <!-- 시험 5건 · 논문 1214편 --> — 근거 없음(2026-08-06 조회, sodium valproate AND Autism)
 - [x] sodium valproate — Brain Hypoxia에 듣는다  <!-- 시험 5건 · 논문 57편 --> — 근거 없음(2026-08-06 조회, sodium valproate AND Brain Hypoxia)
-- [ ] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] estriol — Menopause에 듣는다  <!-- 시험 6건 · 논문 812편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회, ClinicalTrials.gov/PubMed에서 주제별적으로수자비교확인안됨)
+- [x] estriol — Vaginitis Atropic에 듣는다  <!-- 시험 5건 · 논문 21편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(estriol-vaginitis-atrophic-pos)
 - [x] estriol — Multiple Sclerosis에 듣는다  <!-- 시험 5건 · 논문 52편 --> — 항목 생성(2026-08-06)
 - [x] estriol — Genital Prolapse에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(2026-08-06)
 - [x] carnitine — Renal Dialysis에 듣는다  <!-- 시험 12건 · 논문 504편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존 항목(levocarnitine-renal-dialysis-pos)
@@ -11629,7 +11629,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cholecalciferol — Leukemia에 듣는다  <!-- 시험 9건 · 논문 936편 --> — 항목 생성(2026-08-06)
 - [x] cholecalciferol — Diabetes에 듣는다  <!-- 시험 8건 · 논문 1808편 --> — 항목 생성(2026-08-06)
 - [x] cholecalciferol — Osteoporosis에 듣는다  <!-- 시험 7건 · 논문 2375편 --> — 근거 없음(2026-08-06 조회, "cholecalciferol AND Osteoporosis")
-- [ ] calcifediol — Secondary Hyperparathyroidism Due to Renal Causes에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] calcifediol — Secondary Hyperparathyroidism Due to Renal Causes에 듣는다  <!-- 시험 3건 · 논문 94편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(calcifediol-secondary-hyperparathyroidism-pos)
 - [x] calcifediol — Frail Elderly에 듣는다  <!-- 시험 3건 · 논문 12편 --> — 항목 생성(2026-08-06)
 - [x] calcifediol — Acute Kidney Injury에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(2026-08-06)
 - [x] gratitude intervention — Stress에 듣는다  <!-- 시험 7건 · 논문 387편 --> — 항목 생성(2026-08-06)
@@ -12155,12 +12155,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cognitive rehabilitation — Schizophrenia에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 22건 · 논문 3548편 -->
 - [x] cognitive rehabilitation — Breast Cancer에 듣는다 — 근거 없음(2026-08-06, "cognitive rehabilitation" AND "Breast Cancer" AND human intervention)  <!-- 시험 22건 · 논문 706편 -->
 - [x] atenolol — Marfan Syndrome에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 49편 -->
-- [ ] atenolol — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 2036편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] atenolol — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 3324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] atenolol — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 4266편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] atenolol — Heart Diseases에 듣는다  <!-- 시험 6건 · 논문 2036편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(atenolol-cardiac-disease-null)
+- [x] atenolol — Blood Pressure에 듣는다  <!-- 시험 5건 · 논문 3324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(atenolol-cardiac-disease-null)
+- [x] atenolol — Cardiovascular Diseases에 듣는다  <!-- 시험 5건 · 논문 4266편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(atenolol-coronary-disease-null)
 - [x] terazosin — Urinary Retention에 듣는다 — 근거 없음(2026-08-06, "terazosin" AND "Urinary Retention" AND human intervention)  <!-- 시험 3건 · 논문 42편 -->
 - [x] fexofenadine — Pruritus에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 7건 · 논문 68편 -->
-- [ ] fexofenadine — Urticaria에 듣는다  <!-- 시험 4건 · 논문 166편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] fexofenadine — Urticaria에 듣는다  <!-- 시험 4건 · 논문 166편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(fexofenadine-urticaria-pos)
 - [x] fexofenadine — Asthma에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 3건 · 논문 142편 -->
 - [x] galcanezumab — Chronic Cluster Headache에 듣는다 — 항목 생성(2026-08-06)  <!-- 시험 4건 · 논문 73편 -->
 
@@ -12250,12 +12250,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sleep meditation — Pregnancy에 듣는다  <!-- 시험 5건 · 논문 17편 --> — 항목 생성(2026-08-06)
 - [x] sleep meditation — Anxiety에 듣는다  <!-- 시험 4건 · 논문 350편 --> — 항목 생성(2026-08-06)
 - [x] sleep meditation — Stress에 듣는다  <!-- 시험 4건 · 논문 456편 --> — 항목 생성(2026-08-06)
-- [ ] tasimelteon — Circadian에 듣는다  <!-- 시험 4건 · 논문 64편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] tasimelteon — Circadian에 듣는다  <!-- 시험 4건 · 논문 64편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회, ClinicalTrials.gov/PubMed에서 주제별적으로수자비교확인안됨)
 - [x] amifampridine — Myasthenia Gravis에 듣는다  <!-- 시험 4건 · 논문 94편 --> — 항목 생성(2026-08-06)
-- [ ] edaravone — Cerebral Infarction에 듣는다  <!-- 시험 3건 · 논문 304편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] edaravone — Cerebral Infarction에 듣는다  <!-- 시험 3건 · 논문 304편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(edaravone-cerebral-infarction-pos)
 - [x] dalfampridine — Spinocerebellar Ataxias Type 1에 듣는다  <!-- 시험 4건 · 논문 8편 --> — 근거 없음(2026-08-06, "dalfampridine" AND "Spinocerebellar Ataxias Type 1" AND human intervention)
 - [x] dalfampridine — Spinal Cord Injury에 듣는다  <!-- 시험 3건 · 논문 130편 --> — 항목 생성(2026-08-06)
-- [ ] maralixibat — Alagille Syndrome에 듣는다  <!-- 시험 6건 · 논문 39편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] maralixibat — Alagille Syndrome에 듣는다  <!-- 시험 6건 · 논문 39편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목삡연결(maralixibat-cholestatic-liver-disease-pos)
 - [x] maralixibat — Cholestatic Liver Disease에 듣는다  <!-- 시험 3건 · 논문 31편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12337,11 +12337,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] reflexology — Anxiety에 듣는다  <!-- 시험 9건 · 논문 968편 -->
 - [x] reflexology — Sleep에 듣는다  <!-- 시험 7건 · 논문 675편 -->
 - [x] reflexology — Nursing에 듣는다  <!-- 시험 6건 · 논문 2390편 -->
-- [ ] acoramidis — Amyloid Cardiomyopathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 90편 -->
+- [x] acoramidis — Amyloid Cardiomyopathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 90편 --> — 기존항목삡연결(acoramidis-cardiomyopathies-pos)
 - [x] acoramidis — Cardiomyopathies에 듣는다  <!-- 시험 3건 · 논문 99편 -->
 - [x] acoramidis — Heart Disease에 듣는다  <!-- 시험 3건 · 논문 77편 -->
-- [ ] inotersen — Familial Amyloid Polyneuropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 97편 -->
-- [ ] filgotinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 168편 -->
+- [x] inotersen — Familial Amyloid Polyneuropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 97편 --> — 항목생성(inotersen-familial-amyloid-polyneuropathy-pos)
+- [x] filgotinib — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 168편 --> — 항목생성(filgotinib-ulcerative-colitis-pos)
 - [x] filgotinib — Crohn's Disease에 듣는다  <!-- 시험 6건 · 논문 93편 -->
 - [x] filgotinib — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 34편 -->
 
@@ -12415,7 +12415,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality therapy — Stroke에 듣는다  <!-- 시험 58건 · 논문 1115편 --> — 항목 생성(2026-08-06)
 - [x] virtual reality therapy — Cancer에 듣는다  <!-- 시험 30건 · 논문 480편 --> — 항목 생성(2026-08-06)
 - [x] virtual reality therapy — Music Therapy에 듣는다  <!-- 시험 18건 · 논문 221편 --> — 근거 없음(2026-08-06, virtual reality therapy AND Music Therapy; 등록시험 결과 미공개)
-- [ ] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(telitacicept-iga-nephropathy-pos)
 - [ ] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [ ] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] belumosudil — Lung Diseases에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(2026-08-06)
