@@ -9143,20 +9143,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nadolol — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 항목(2026-08-05)
 - [x] neostigmine — Postoperative Pain에 듣는다  <!-- 시험 35건 · 논문 308편 --> — 근거 항목(2026-08-05)
 - [x] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] neostigmine — Sugammadex에 듣는다  <!-- 시험 9건 · 논문 606편 --> — 근거 없음(2026-08-05 조회, 수감마덱스는 질환이 아닌 비교약이며 네오스티그민의 허가 적응증은 비탈분극성 근이완 역전, PubMed 606편은 두 역전제 비교 연구 중심)
-- [ ] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] nicardipine — Spasm Artery에 듣는다  <!-- 시험 6건 · 논문 48편 --> — 근거 항목(2026-08-05)
 - [x] nicardipine — Stroke에 듣는다  <!-- 시험 5건 · 논문 329편 --> — 근거 항목(2026-08-05)
-- [ ] nimodipine — Vasospasm에 듣는다  <!-- 시험 3건 · 논문 834편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] nimodipine — Vasospasm에 듣는다  <!-- 시험 3건 · 논문 834편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] nimodipine — Stroke에 듣는다  <!-- 시험 3건 · 논문 646편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=nimodipine&query.cond=Stroke → 7건 반환·니모디핀 직접 확인 5건, PubMed 646편은 지주막하출혈 혈관연축·전임상 연구 중심)
 - [x] nimodipine — Pain에 듣는다  <!-- 시험 3건 · 논문 191편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=nimodipine&query.cond=Pain → 6건 반환·니모디핀 직접 확인 1건, PubMed 191편은 두통 고찰·동물 통증 연구 중심)
-- [ ] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] phenelzine — Major Depressive Disorder에 듣는다  <!-- 시험 3건 · 논문 86편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] rasagiline — Amyotrophic Lateral Sclerosis에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 항목(2026-08-05)
 - [x] thiotepa — Lymphoma에 듣는다  <!-- 시험 123건 · 논문 468편 --> — 근거 항목(2026-08-05)
-- [ ] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] thiotepa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 63건 · 논문 50편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 근거 없음(2026-08-13 조회, 정확한 대조군 효과를 확인하지 못함)
 - [x] thiotepa — CNS Cancer에 듣는다  <!-- 시험 62건 · 논문 409편 --> — 근거 항목(2026-08-05)
-- [ ] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] thiotepa — Germ Cell Tumors에 듣는다  <!-- 시험 53건 · 논문 350편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 근거 없음(2026-08-13 조회, 정확한 대조군 효과를 확인하지 못함)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9172,32 +9172,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amiodarone — Septic Shock에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 항목(2026-08-05)
 - [x] amiodarone — Sepsis에 듣는다  <!-- 시험 3건 · 논문 70편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=amiodarone&query.cond=Sepsis → 6건 반환·아미오다론 직접 확인 4건, PubMed 70편은 패혈증 동반 심방세동·부작용 연구 중심으로 패혈증 자체 치료결과 없음)
 - [x] atropine — Neuromuscular Blockade에 듣는다  <!-- 시험 8건 · 논문 323편 --> — 표준 보조요법(2026-08-05)
-- [ ] atropine — Bradycardia에 듣는다  <!-- 시험 7건 · 논문 2620편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] atropine — Pesticide Poisoning에 듣는다  <!-- 시험 6건 · 논문 987편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] atropine — Bradycardia에 듣는다  <!-- 시험 7건 · 논문 2620편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] atropine — Pesticide Poisoning에 듣는다  <!-- 시험 6건 · 논문 987편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] atropine — Intubation에 듣는다  <!-- 시험 6건 · 논문 946편 --> — 근거 항목(2026-08-05)
 - [x] baclofen — Muscle Cramps에 듣는다  <!-- 시험 4건 · 논문 264편 --> — 근거 항목(2026-08-05)
-- [ ] botulinum toxin — Crow's Feet에 듣는다  <!-- 시험 22건 · 논문 179편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] botulinum toxin — Rhytides에 듣는다  <!-- 시험 22건 · 논문 1356편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] botulinum toxin — Crow's Feet에 듣는다  <!-- 시험 22건 · 논문 179편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 근거 없음(2026-08-13 조회, 해당 부위의 숫자 비교효과를 확인하지 못함)
+- [x] botulinum toxin — Rhytides에 듣는다  <!-- 시험 22건 · 논문 1356편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] botulinum toxin — Esophageal Diseases에 듣는다  <!-- 시험 12건 · 논문 856편 --> — 근거 항목(2026-08-05)
-- [ ] botulinum toxin — Headache에 듣는다  <!-- 시험 11건 · 논문 1362편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] clomiphene — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 3802편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] clomiphene — PCOS에 듣는다  <!-- 시험 6건 · 논문 1004편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] botulinum toxin — Headache에 듣는다  <!-- 시험 11건 · 논문 1362편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] clomiphene — Pregnancy에 듣는다  <!-- 시험 6건 · 논문 3802편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] clomiphene — PCOS에 듣는다  <!-- 시험 6건 · 논문 1004편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] clomiphene — Ovarian Response에 듣는다  <!-- 시험 4건 · 논문 560편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=clomiphene&query.cond=Ovarian Response → 11건 반환·클로미펜 직접 확인 8건, PubMed 560편은 난소예비능 예측검사·생리 연구 중심)
 - [x] colchicine — Coronavirus에 듣는다  <!-- 시험 8건 · 논문 334편 --> — 근거 항목(2026-08-05)
 - [x] colchicine — Pericarditis에 듣는다  <!-- 시험 7건 · 논문 859편 --> — 근거 항목(2026-08-05)
 - [x] colchicine — Chronic Kidney Disease에 듣는다  <!-- 시험 7건 · 논문 287편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=colchicine&query.cond=Chronic Kidney Disease → 8건 반환·콜히친 직접 확인 7건, PubMed 287편은 통풍·고요산혈증 환자의 CKD 관리 연구 중심)
-- [ ] colchicine — Mediterranean Fever에 듣는다  <!-- 시험 6건 · 논문 1902편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] colchicine — Mediterranean Fever에 듣는다  <!-- 시험 6건 · 논문 1902편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] disulfiram — Melanoma에 듣는다  <!-- 시험 3건 · 논문 39편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Melanoma → 3건 반환·디설피람 직접 확인 3건, PubMed 39편은 세포·동물·제형 연구로 사람 항암 결과 없음)
 - [x] disulfiram — Obesity에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Obesity → 3건 반환·디설피람 직접 확인 2건, PubMed 24편은 비만 동물·세포 연구 중심)
 - [x] disulfiram — Opioid Dependence에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=disulfiram&query.cond=Opioid Dependence → 4건 반환·디설피람 직접 확인 4건, PubMed 90편은 알코올·코카인·메타돈 병용 연구 중심으로 오피오이드 의존 치료결과 없음)
-- [ ] flumazenil — Sedation에 듣는다  <!-- 시험 3건 · 논문 694편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] flumazenil — Sedation에 듣는다  <!-- 시험 3건 · 논문 694편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] ivabradine — Septic Shock에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 근거 항목(2026-08-05)
-- [ ] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ivabradine — Angina에 듣는다  <!-- 시험 5건 · 논문 344편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] ivabradine — Myocardial Injury에 듣는다  <!-- 시험 4건 · 논문 38편 --> — 근거 항목(2026-08-05)
 - [x] ivabradine — Electrical Remodeling에 듣는다  <!-- 시험 4건 · 논문 18편 --> — 근거 항목(2026-08-05)
 - [x] levodopa — Dyskinesias에 듣는다  <!-- 시험 5건 · 논문 6593편 --> — 근거 없음(치료 연구가 아니라 레보도파 유발 이상운동증 연구 중심)
 - [x] levodopa — Gait Impairment에 듣는다  <!-- 시험 5건 · 논문 303편 --> — 표준 치료(2026-08-05)
-- [ ] levodopa — Parkinsonian Syndrome에 듣는다  <!-- 시험 4건 · 논문 15177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] levodopa — Parkinsonian Syndrome에 듣는다  <!-- 시험 4건 · 논문 15177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] melatonin — Spine Surgery에 듣는다  <!-- 시험 9건 · 논문 129편 --> — 근거 항목(2026-08-05)
 - [x] melatonin — Obesity에 듣는다  <!-- 시험 8건 · 논문 749편 --> — 근거 없음(임상 치료 결과 없이 기전·종설 중심)
 - [x] melatonin — Epilepsy에 듣는다  <!-- 시험 8건 · 논문 379편 --> — 근거 항목(2026-08-05)
@@ -9208,7 +9208,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] phenytoin — Wound에 듣는다  <!-- 시험 3건 · 논문 766편 --> — 근거 항목(2026-08-05)
 - [x] prazosin — Nicotine에 듣는다  <!-- 시험 4건 · 논문 90편 --> — 근거 없음(사람 치료결과 없이 동물·약리 연구 중심)
 - [x] prazosin — Brain Injuries에 듣는다  <!-- 시험 3건 · 논문 37편 --> — 근거 없음(완료된 사람 치료효과 결과를 찾지 못함)
-- [ ] roflumilast — Pulmonary Disease에 듣는다  <!-- 시험 22건 · 논문 556편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] roflumilast — Pulmonary Disease에 듣는다  <!-- 시험 22건 · 논문 556편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] roflumilast — Lymphoma에 듣는다  <!-- 시험 6건 · 논문 9편 --> — 근거 항목(2026-08-05)
 - [x] roflumilast — Bronchiectasis에 듣는다  <!-- 시험 6건 · 논문 8편 --> — 근거 항목(2026-08-05)
 - [x] roflumilast — Obesity에 듣는다  <!-- 시험 5건 · 논문 17편 --> — 근거 항목(2026-08-05)
@@ -9216,7 +9216,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Myocardial Fibrosis에 듣는다  <!-- 시험 4건 · 논문 298편 --> — 근거 항목(2026-08-05)
 - [x] spironolactone — Congenital Disorders에 듣는다  <!-- 시험 3건 · 논문 462편 --> — 근거 없음(선천성 심장·내분비 질환이 섞여 일반 치료결과 없음)
 - [x] spironolactone — Acne에 듣는다  <!-- 시험 3건 · 논문 324편 --> — 근거 항목(2026-08-05)
-- [ ] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] verapamil — Heart Rate에 듣는다  <!-- 시험 4건 · 논문 2898편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] verapamil — Cluster Headache에 듣는다  <!-- 시험 3건 · 논문 218편 --> — 표준 치료(2026-08-05)
 - [x] verapamil — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 168편 --> — 근거 없음(소규모 탐색시험·기전 연구만 확인)
 
@@ -9229,25 +9229,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] armodafinil — Shift Work Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 128편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] armodafinil — Shift Work Sleep Disorder에 듣는다  <!-- 시험 5건 · 논문 128편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] armodafinil — Insomnia에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 근거 항목(2026-08-05)
 - [x] armodafinil — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 106편 --> — 근거 항목(2026-08-05)
 - [x] aprepitant — Major Depressive Disorder에 듣는다  <!-- 시험 9건 · 논문 10편 --> — 근거 항목(2026-08-05)
 - [x] aprepitant — Leukemia에 듣는다  <!-- 시험 8건 · 논문 19편 --> — 근거 없음(사람 연구는 백혈병 치료가 아니라 항암제 유발 구토 예방)
-- [ ] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] bosentan — Digital Ulcer에 듣는다  <!-- 시험 4건 · 논문 122편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] bosentan — Scleroderma에 듣는다  <!-- 시험 3건 · 논문 306편 --> — 근거 없음(디지털 궤양·폐동맥고혈압·신장위기가 섞여 전신경화증 일반 치료결과 없음)
 - [x] bosentan — Interstitial Lung Disease에 듣는다  <!-- 시험 3건 · 논문 111편 --> — 근거 항목(2026-08-05)
 - [x] cabergoline — Cushing's Disease에 듣는다  <!-- 시험 4건 · 논문 151편 --> — 근거 항목(2026-08-05)
 - [x] cabergoline — Endometriosis에 듣는다  <!-- 시험 3건 · 논문 29편 --> — 근거 없음(동물 자궁내막증 모델 중심, 사람 치료결과 없음)
-- [ ] cabergoline — Hyperprolactinemia에 듣는다  <!-- 시험 3건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] calcitriol — Renal Osteodystrophy에 듣는다  <!-- 시험 7건 · 논문 518편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] cabergoline — Hyperprolactinemia에 듣는다  <!-- 시험 3건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] calcitriol — Renal Osteodystrophy에 듣는다  <!-- 시험 7건 · 논문 518편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] calcitriol — Adult Solid Neoplasm에 듣는다  <!-- 시험 5건 · 논문 23편 --> — 근거 항목(2026-08-05)
-- [ ] calcitriol — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 1703편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] calcitriol — Osteoporosis에 듣는다  <!-- 시험 5건 · 논문 1703편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] calcitriol — Mouth Neoplasms에 듣는다  <!-- 시험 5건 · 논문 36편 --> — 근거 없음(전임상·다른 고형암 연구 중심, 구강 종양 사람 결과 없음)
-- [ ] canakinumab — Gout에 듣는다  <!-- 시험 4건 · 논문 103편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] canakinumab — Gout에 듣는다  <!-- 시험 4건 · 논문 103편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 근거 없음(2026-08-13 조회, 유효한 숫자 비교효과를 확인하지 못함)
 - [x] canakinumab — COVID-19에 듣는다  <!-- 시험 4건 · 논문 67편 --> — 근거 항목(2026-08-05)
-- [ ] canakinumab — Periodic Fever에 듣는다  <!-- 시험 4건 · 논문 197편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] canakinumab — Cryopyrin Associated Periodic Syndrome에 듣는다  <!-- 시험 3건 · 논문 170편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] canakinumab — Periodic Fever에 듣는다  <!-- 시험 4건 · 논문 197편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] canakinumab — Cryopyrin Associated Periodic Syndrome에 듣는다  <!-- 시험 3건 · 논문 170편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] cannabidiol — Stress에 듣는다  <!-- 시험 10건 · 논문 873편 --> — 근거 항목(2026-08-05)
 - [x] cannabidiol — Cannabis에 듣는다  <!-- 시험 9건 · 논문 4943편 --> — 근거 항목(2026-08-05)
 - [x] cannabidiol — Sleep에 듣는다  <!-- 시험 9건 · 논문 560편 --> — 근거 항목(2026-08-05)
@@ -9255,7 +9255,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cilostazol — Migraine에 듣는다  <!-- 시험 9건 · 논문 21편 --> — 근거 없음(사람 연구는 실로스타졸로 편두통을 유발한 실험 중심)
 - [x] cilostazol — Peripheral Neuropathy에 듣는다  <!-- 시험 8건 · 논문 25편 --> — 근거 항목(2026-08-05)
 - [x] cilostazol — Atherosclerosis에 듣는다  <!-- 시험 5건 · 논문 349편 --> — 근거 항목(2026-08-05)
-- [ ] domperidone — Vomiting에 듣는다  <!-- 시험 3건 · 논문 381편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] domperidone — Vomiting에 듣는다  <!-- 시험 3건 · 논문 381편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] domperidone — Gastroenteritis에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 근거 항목(2026-08-05)
 - [x] domperidone — Systemic Sclerosis에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(위장운동 안전성·일반 소화관 증상 연구로 전신경화증 치료효과 없음)
 - [x] domperidone — Cardiac Event에 듣는다  <!-- 시험 3건 · 논문 188편 --> — 근거 항목(2026-08-05)
@@ -9274,7 +9274,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Amputation, Traumatic에 듣는다  <!-- 시험 14건 · 논문 8편 -->
 - [x] ketamine — Sleep에 듣는다  <!-- 시험 14건 · 논문 858편 -->
 - [x] minocycline — Schizophrenia에 듣는다  <!-- 시험 13건 · 논문 145편 -->
-- [ ] minocycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 187편 -->
+- [x] minocycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 187편 -->
 - [x] minocycline — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 110편 -->
 - [x] minocycline — Pain에 듣는다  <!-- 시험 10건 · 논문 770편 -->
 - [x] modafinil — Brain Tumor에 듣는다  <!-- 시험 6건 · 논문 32편 -->
@@ -9283,7 +9283,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] naltrexone — Overweight에 듣는다 — 기존 naltrexone-obesity로 처리(2026-08-05)  <!-- 시험 6건 · 논문 418편 -->
 - [x] naltrexone — Fibromyalgia에 듣는다 — 기존 naltrexone-fibromyalgia-null로 처리(2026-08-05)  <!-- 시험 6건 · 논문 96편 -->
 - [x] naltrexone — Major Depressive Disorder에 듣는다 — 기존 naltrexone-depression-null로 처리(2026-08-05)  <!-- 시험 6건 · 논문 82편 -->
-- [ ] naltrexone — Narcotic Abuse에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2253편 -->
+- [x] naltrexone — Narcotic Abuse에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2253편 -->
 - [x] ramelteon — Obstructive Sleep Apnea에 듣는다  <!-- 시험 4건 · 논문 10편 -->
 - [x] ramelteon — Parkinson's Disease에 듣는다  <!-- 시험 3건 · 논문 12편 -->
 

@@ -1,0 +1,29 @@
+{
+  "id": "domperidone-vomiting-pos",
+  "subj": "돔페리돈",
+  "claim": "수술 후 구토 환자에서 돔페리돈은 위약보다 6시간 내 구토 재발을 줄였습니다.",
+  "line": "수술 후 구토 재발이 위약보다 적었습니다.",
+  "effect": "구토 없음 74% 대 38%",
+  "vs": "수술 후 구토 환자 무작위시험 100명에서 돔페리돈군은 위약군보다 6시간 내 구토 재발이 적었고 구토 없음은 74% 대 38%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "돔페리돈은 일부 국가에서 오심·구토에 쓰는 처방 도파민 길항제이며 국가별 허가가 다릅니다.",
+  "why": "수술 후 구토 환자에서 정맥 돔페리돈과 위약을 이중눈가림 비교한 시험을 확인했습니다.",
+  "saw": "돔페리돈군에서 추가 주사와 6시간 내 구토 재발이 적었습니다.",
+  "limit": "오래된 수술 후 구토 소규모 시험이며 국가별 허가와 심장 안전성 기준을 확인해야 합니다.",
+  "against": "QT 연장, 심실성 부정맥, 돌연사와 고프로락틴혈증을 확인해야 합니다.",
+  "use": "수술 후 구토의 제한적 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Double-blind placebo study of domperidone for postoperative vomiting", "pmid": "7008643" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=domperidone AND query.cond=Vomiting; 10건",
+    "pubmed": "domperidone AND Vomiting; 381건",
+    "negative": "domperidone AND Vomiting AND (no effect OR did not OR failed OR negative OR no significant difference); 255건",
+    "safety": "domperidone AND (adverse OR toxicity OR safety OR tolerability); 587건"
+  }
+}
