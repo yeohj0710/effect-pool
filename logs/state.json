@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 모은다. 약국약·보충제·음식·운동·생활·시술기기를 처방약보다 먼저 늘린다.",
   "pivot": {
@@ -15,11 +15,11 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5475,
-  "subjects": 2166,
-  "refs": 7803,
+  "entries": 5488,
+  "subjects": 2168,
+  "refs": 7820,
   "kinds": {
-    "otc": 100,
+    "otc": 113,
     "supp": 365,
     "food": 462,
     "move": 621,
@@ -27,30 +27,30 @@
     "care": 682,
     "rx": 2055
   },
-  "tiers": { "trial": 4657, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3218, "null": 1082, "open": 1021, "harm": 154 },
+  "tiers": { "trial": 4670, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3226, "null": 1085, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 13226,
-    "unchecked": 2316,
+    "checked": 13286,
+    "unchecked": 2256,
     "no_evidence_pending": 2059,
-    "note": "batch 1242에서 처방 주제 10개에 새 근거 항목 9개와 기존 연결 1개를 처리했다. 다음 미처리 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,316개가 남았다."
+    "note": "batch 1243에서 비처방 우선 주제 20개를 처리했다. 새 근거 13개와 기존 연결 7개를 만들었고 중복 표기까지 worklist 60줄을 체크했다. 다음 미처리 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,256개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4048,
+    "vs_missing": 4035,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "17% (약국약·보충제·음식 929건). 목표는 25%",
+    "over_counter_share": "17% (약국약·보충제·음식 940건). 목표는 25%",
     "rx_share": "38% (2,055건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,236건). 목표는 33% 위",
-    "vs_share": "7.6% (414건)",
+    "no_effect_or_harm_share": "23% (1,241건). 목표는 33% 위",
+    "vs_share": "7.8% (427건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.1% (4,657건)",
+    "trial_share": "85.1% (4,670건)",
     "non_trial_share": "15.0% (818건)",
-    "build_warnings": { "unknown_n": 449, "thin_study": 970 }
+    "build_warnings": { "unknown_n": 449, "thin_study": 972 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,21 +58,23 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1243 starts after batch 1242; pull and read AGENTS.md first. No non-prescription topics remain in the current queue. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,316 unchecked remain.",
+  "next": "batch 1244 starts after batch 1243; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,256 unchecked rows remain.",
   "last_batch": {
-    "id": "1242",
-    "commit": "4bf0a109",
+    "id": "1243",
+    "commit": "4602e050",
     "pushed": true,
-    "processed_topics": 10,
-    "new_entries": 9,
-    "existing_links": 1,
+    "processed_topics": 20,
+    "new_entries": 13,
+    "existing_links": 7,
     "no_evidence_rejects": 0,
-    "build": "5475 entries · 7803 refs · 4657 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "gentamicin—Pneumonia, fluconazole—Meningitis·Infection, voriconazole—Aspergillosis·Candidiasis, posaconazole—Leukemia·Myelodysplastic Syndrome, caspofungin—Infection·Candidiasis를 새로 추가하고 posaconazole—Aspergillosis 기존 항목을 연결했다.",
-    "research_batch": "처방 주제 10개를 처리했다. ClinicalTrials.gov·PubMed·반대·안전성 검색으로 겐타마이신 폐렴, 플루코나졸 수막염·감염, 보리코나졸 아스페르길루스증·칸디다증, 포사코나졸 백혈병·골수형성이상증후군, 카스포펀진 감염·칸디다증 근거를 새 항목으로 기록하고 기존 포사코나졸 아스페르길루스증 항목을 연결했다.",
+    "build": "5488 entries · 7820 refs · 4670 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "터비나핀—무좀, 케토코나졸—무좀·두피 지루성피부염, 아스피린—심혈관 일차예방, 덱스트로메토르판—기관지내시경 기침, 로페라미드—소아 설사, 아세트아미노펜—심장수술 뒤 섬망, 나프록센—골관절염·관절염·생리통, 레보세티리진—두드러기, 로라타딘—두드러기·알레르기 비염을 새로 추가하고 미녹시딜·이부프로펜·니코틴 대체요법·아세트아미노펜 골관절염 기존 항목을 연결했다.",
+    "research_batch": "비처방 우선 주제 20개를 ClinicalTrials.gov intervention 일치와 PubMed 원문 초록으로 대조했다. 반대쪽·안전성 검색도 각 주제에 남겼고, 개입군과 대조군의 숫자 또는 유효한 상대효과가 확인된 13개만 새로 기록했다. 기존 항목 7개는 중복 생성하지 않고 worklist에 연결했다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
+    "targeted_batch_warnings_fixed": 11,
+    "remaining_expected_thin_warnings": 2,
     "next_official_deployment_check": "after batch 1200"
   }
 }
