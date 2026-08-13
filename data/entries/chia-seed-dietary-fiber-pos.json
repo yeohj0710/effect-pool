@@ -1,20 +1,33 @@
 {
-  "id": "chia-seed-dietary-fiber-pos",
-  "subj": "chia seed",
-  "claim": "치아씨드의 식이섬유 보충은 식후 혈당과 이완기 혈압을 낮출 가능성이 있다",
-  "line": "고용량 치아씨드는 식후 혈당 곡선과 이완기 혈압을 낮췄다.",
-  "effect": "식후 혈당·이완기혈압 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 중재로 허가 적응증 없음",
-  "why": "치아씨드 식이섬유를 사용한 사람 대상 무작위시험을 체계적으로 검토한 결과입니다",
-  "saw": "12개 시험을 종합했다. 고용량 하위군에서 식후 혈당 곡선 면적과 이완기 혈압이 낮아졌지만 근거 확실성은 낮거나 매우 낮았다",
-  "limit": "총 사람 수가 초록에 없고 모든 연구가 임상 사건이 아닌 대리 지표를 사용했다",
-  "against": "치아씨드가 당뇨병이나 고혈압을 치료한다는 근거는 아니다",
-  "use": "식이섬유 섭취 연구의 제한된 신호로만 참고합니다.",
-  "refs": [{ "label": "Clinical evidence on dietary supplementation with chia seed", "doi": "10.1093/nutrit/nux071", "pmid": "29452425" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=chia seed 쨌 cond=Dietary Fiber: 1건", "pubmed": "chia seed AND Dietary Fiber: 42건", "negative": "chia seed AND Dietary Fiber AND no effect: 23건", "safety": "chia seed AND adverse OR toxicity: 39건" }
+ "id": "chia-seed-dietary-fiber-pos",
+ "subj": "치아씨드",
+ "claim": "치아씨드는 식후 혈당과 혈압을 낮추는가",
+ "line": "치아씨드 메타분석에서 고용량 섭취가 식후 혈당과 이완기혈압을 낮췄지만 근거 수준은 낮았다.",
+ "effect": "식후 혈당·이완기혈압 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 중재로 허가 적응증 없음",
+ "why": "치아씨드 식이섬유를 사용한 사람 대상 무작위시험을 체계적으로 검토한 결과입니다",
+ "saw": "12개 무작위시험 종합에서 고용량 치아씨드는 식후 혈당 iAUC를 MD -51.60(95% CI -79.64~-23.56), 중간 용량은 -33.95(-61.85~-6.05) 낮췄다. 이완기혈압은 MD -7.14mmHg(-11.08~-3.19)였고 근거 수준은 낮거나 매우 낮았다.",
+ "limit": "모든 시험이 대리 지표만 측정했고 GRADE 근거 수준이 낮거나 매우 낮았다.",
+ "against": "전체 분석의 대부분 결과는 유의하지 않았고 고용량 하위군에서만 신호가 나타났다.",
+ "use": "치아씨드를 식이 보조로 검토할 때 대리 지표와 낮은 근거 수준을 함께 설명한다.",
+ "refs": [
+  {
+   "label": "Clinical evidence on dietary supplementation with chia seed",
+   "doi": "10.1093/nutrit/nux071",
+   "pmid": "29452425"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=chia seed 쨌 cond=Dietary Fiber: 1건",
+  "pubmed": "chia seed AND Dietary Fiber: 42건 · 2026-08-14 PubMed 초록 직접 확인: PMID 29452425",
+  "negative": "chia seed AND Dietary Fiber AND no effect: 23건",
+  "safety": "chia seed AND adverse OR toxicity: 39건"
+ },
+ "vs": "치아씨드 대비 대조 식단: 고용량 식후 혈당 iAUC MD -51.60(95% CI -79.64~-23.56), 이완기혈압 -7.14mmHg(-11.08~-3.19), 12개 시험"
 }

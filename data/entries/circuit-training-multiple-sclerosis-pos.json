@@ -1,32 +1,33 @@
 {
-  "id": "circuit-training-multiple-sclerosis-pos",
-  "subj": "circuit training",
-  "claim": "다발성경화증의 circuit training 재활이 균형과 피로를 개선했다",
-  "line": "다발성경화증 환자에서 순환운동은 균형과 피로를 개선했다.",
-  "effect": "BBS MD +6.07; FSS MD +0.98",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 716,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "재활 운동 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "다발성경화증 circuit training 무작위시험 14편을 체계적으로 검토하고 균형·보행·피로 결과를 메타분석했습니다.",
-  "saw": "다발성경화증 환자 716명을 포함한 14편에서 circuit training은 Berg 균형척도 MD 6.07점과 피로중증도척도 MD 0.98점의 유의한 개선을 보였습니다. TUG, 6분 보행, 수정 피로척도에서는 유의한 효과가 없었습니다.",
-  "limit": "모든 연구에 비뚤림 위험이 일부 있었고 프로그램과 평가도구가 달랐습니다.",
-  "against": "보행거리와 일부 피로 지표는 유의하게 개선되지 않아 모든 이동 기능으로 확대할 수 없습니다.",
-  "use": "다발성경화증 재활에서 균형·피로를 겨냥하는 circuit training의 종합 근거로만 참고합니다.",
-  "refs": [
-    {
-      "label": "Circuit training rehabilitation in multiple sclerosis 2024 · Physiotherapy · 체계적 문헌고찰·메타분석",
-      "doi": "10.1016/j.physio.2024.101413",
-      "pmid": "39357272"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "circuit training AND Multiple Sclerosis · 14건, 직접 중재명 6건",
-    "pubmed": "\"circuit training\" AND \"Multiple Sclerosis\" · 14편",
-    "negative": "\"circuit training\" AND \"Multiple Sclerosis\" AND (no effect OR did not OR failed to OR negative OR no significant difference) · 11편",
-    "safety": "\"circuit training\" AND (adverse OR toxicity OR case report OR harm OR overdose OR self-medication) · 39편"
+ "id": "circuit-training-multiple-sclerosis-pos",
+ "subj": "서킷 훈련",
+ "claim": "다발성경화증에서 회로훈련은 균형과 피로를 개선하는가",
+ "line": "다발성경화증 14개 무작위시험 종합에서 회로훈련이 균형과 피로를 개선했다.",
+ "effect": "균형·피로 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 716,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "재활 운동 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "다발성경화증 circuit training 무작위시험 14편을 체계적으로 검토하고 균형·보행·피로 결과를 메타분석했습니다.",
+ "saw": "14개 연구 716명에서 회로훈련은 대조 조건보다 Berg 균형척도 MD +6.07점(95% CI 1.40~10.75,P=.01), 피로중증도척도 MD +0.98점(0.30~1.66,P=.005)이었다. Timed Up and Go, 6분 보행검사, 수정 피로영향척도는 유의하지 않았다.",
+ "limit": "모든 연구에 일부 비뚤림 위험이 있었고 결과별 이질성이 있다.",
+ "against": "보행과 일부 피로 척도에서는 유의한 효과가 확인되지 않았다.",
+ "use": "다발성경화증 운동 재활에서 균형·피로 목표를 설정할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Circuit training rehabilitation in multiple sclerosis 2024 · Physiotherapy · 체계적 문헌고찰·메타분석",
+   "doi": "10.1016/j.physio.2024.101413",
+   "pmid": "39357272"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "circuit training AND Multiple Sclerosis · 14건, 직접 중재명 6건",
+  "pubmed": "\"circuit training\" AND \"Multiple Sclerosis\" · 14편 · 2026-08-14 PubMed 초록 직접 확인: PMID 39357272",
+  "negative": "\"circuit training\" AND \"Multiple Sclerosis\" AND (no effect OR did not OR failed to OR negative OR no significant difference) · 11편",
+  "safety": "\"circuit training\" AND (adverse OR toxicity OR case report OR harm OR overdose OR self-medication) · 39편"
+ },
+ "vs": "회로훈련 대비 대조 조건: Berg 균형척도 MD +6.07(95% CI 1.40~10.75,P=.01), 피로중증도척도 +0.98(0.30~1.66,P=.005), 14개 연구 716명"
 }

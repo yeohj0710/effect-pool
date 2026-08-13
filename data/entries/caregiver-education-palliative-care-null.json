@@ -1,9 +1,9 @@
 {
  "id": "caregiver-education-palliative-care-null",
  "subj": "돌봄 제공자 교육",
- "claim": "호스피스 환자에서 보호자 교육은 예정 오피오이드 투여의 누락·지연을 줄이지 못했다.",
- "line": "호스피스 간호 교육 뒤 예정 오피오이드 누락·지연 투여는 줄지 않았다.",
- "effect": "누락·지연 투여 유의한 감소 없음",
+ "claim": "호스피스에서 간병인 교육은 예정 오피오이드 투여 누락을 줄이는가",
+ "line": "간병인 교육 후 예정 오피오이드 투여 누락·지연은 유의하게 줄지 않았다.",
+ "effect": "투여 누락 차이 없음",
  "tier": "obs",
  "dir": "null",
  "n": 75,
@@ -11,10 +11,10 @@
  "known": "off",
  "knownWhy": "보호자 교육은 비약물 중재라 허가 적응증 분류를 적용하지 않습니다.",
  "why": "호스피스 환자 75명을 대상으로 간호 인력에게 보호자 교육을 배포하기 전후의 예정 오피오이드 투여를 비교한 후향적 준실험 연구입니다.",
- "saw": "예정 오피오이드 누락률은 교육 전 5%, 후 4%, 지연률은 전후 모두 6%로 유의하게 줄지 않았습니다.",
- "limit": "무작위 배정이 아닌 단일 병원 전후 연구이며 교육 대상은 비 intensive care 간호 인력이었습니다.",
- "against": "교육이 환자의 통증 조절이나 모든 호스피스 환경의 투여 안전성을 개선한다고 볼 수 없습니다.",
- "use": "호스피스 교육을 도입할 때 예정 투여 누락·지연을 직접 측정하고 교육만으로 효과를 가정하지 않습니다.",
+ "saw": "호스피스 환자 75명을 교육 시행 전후로 비교했다. 예정 오피오이드 누락률은 시행 전 5% 대 시행 후 4%(P=.21), 지연률은 6% 대 6%(P=.97)였다.",
+ "limit": "후향적 준실험 연구이며 교육 전후 환자 구성의 차이를 완전히 배제할 수 없다.",
+ "against": "코로나19 확진 환자는 비확진 환자보다 지연 투여가 많았다(P=.047).",
+ "use": "호스피스 투약 교육의 개선 여지를 검토할 때 참고하되 효과가 확인됐다고 해석하지 않는다.",
  "refs": [
   {
    "label": "호스피스 예정 오피오이드 투여와 보호자 교육 전후 준실험 연구",
@@ -24,10 +24,11 @@
   }
  ],
  "queried": {
-  "date": "2026-08-07",
+  "date": "2026-08-14",
   "ctgov": "caregiver education AND Palliative Care · 64건 반환, InterventionName 일치 0건",
-  "pubmed": "\"caregiver education\" AND \"Palliative Care\" · 59건",
+  "pubmed": "\"caregiver education\" AND \"Palliative Care\" · 59건 · 2026-08-14 PubMed 초록 직접 확인: PMID 37424967",
   "negative": "\"caregiver education\" AND \"Palliative Care\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 9건",
   "safety": "\"caregiver education\" AND (adverse OR toxicity OR harm OR \"case report\" OR overdose) · 218건"
- }
+ },
+ "vs": "간병인 교육 시행 전 대비 시행 후: 예정 오피오이드 누락 5% 대 4%(P=.21), 지연 6% 대 6%(P=.97), 75명"
 }

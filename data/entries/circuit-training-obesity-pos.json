@@ -1,33 +1,34 @@
 {
-  "id": "circuit-training-obesity-pos",
-  "subj": "circuit training",
-  "claim": "비만 성인에서 circuit training이 체질량·산화스트레스·동맥 건강 지표를 개선했다",
-  "line": "비만 성인에게 순환운동은 체질량과 동맥 건강을 개선했다.",
-  "effect": "BMI·TAS·NO·baPWV 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 25,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "비만 성인 남성을 circuit training군과 대조군으로 무작위 배정해 12주간 주 3회 운동시켰습니다.",
-  "saw": "비만 남성 25명(운동군 13명, 대조군 12명)이 참여했습니다. 12주 뒤 운동군의 BMI, 총항산화능(TAS), 산화스트레스지수, nitric oxide, 양측 발목-상완 맥파속도가 유의하게 좋아졌고 총산화상태는 변하지 않았습니다.",
-  "limit": "25명 규모의 소규모 남성 시험이라 여성과 다른 비만 집단에 일반화하기 어렵습니다.",
-  "against": "총산화상태는 변하지 않았고 장기 심혈관 사건이나 체중 유지 효과는 확인하지 않았습니다.",
-  "use": "비만 성인의 운동 프로그램에서 대사·혈관 지표를 함께 평가할 때 참고합니다.",
-  "refs": [
-    {
-      "label": "Circuit training on oxidative stress and arterial health in obese adult men 2025 · Front Public Health · 무작위시험",
-      "doi": "10.3389/fpubh.2025.1562193",
-      "pmid": "40575108",
-      "pmc": "PMC12198244"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "circuit training AND Obesity · 44건, 직접 중재명 3건",
-    "pubmed": "\"circuit training\" AND \"Obesity\" · 50편",
-    "negative": "\"circuit training\" AND \"Obesity\" AND (no effect OR did not OR failed to OR negative OR no significant difference) · 46편",
-    "safety": "\"circuit training\" AND (adverse OR toxicity OR case report OR harm OR overdose OR self-medication) · 39편"
+ "id": "circuit-training-obesity-pos",
+ "subj": "서킷 훈련",
+ "claim": "비만 남성의 회로훈련은 산화스트레스와 동맥 건강을 개선하는가",
+ "line": "비만 남성 무작위시험에서 회로훈련이 대조군보다 항산화·산화스트레스·동맥 지표를 개선했다.",
+ "effect": "항산화·동맥 건강 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 25,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "비만 성인 남성을 circuit training군과 대조군으로 무작위 배정해 12주간 주 3회 운동시켰습니다.",
+ "saw": "비만 남성 25명을 회로훈련군 13명과 대조군 12명에 무작위 배정해 12주 시행했다. 운동군에서 BMI·총항산화상태·산화스트레스지수·일산화질소·양측 발목상완 맥파속도가 개선됐다(P<.001 또는 P<.05). 총산화상태는 유의하지 않았고 대조군은 변화가 없었다.",
+ "limit": "비만 남성 25명의 소규모 12주 시험이며 각 지표의 군간 효과 크기는 초록에 제시되지 않았다.",
+ "against": "총산화상태는 유의하게 변하지 않았다.",
+ "use": "비만 성인의 운동 프로그램에서 혈관·산화스트레스 지표를 탐색할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Circuit training on oxidative stress and arterial health in obese adult men 2025 · Front Public Health · 무작위시험",
+   "doi": "10.3389/fpubh.2025.1562193",
+   "pmid": "40575108",
+   "pmc": "PMC12198244"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "circuit training AND Obesity · 44건, 직접 중재명 3건",
+  "pubmed": "\"circuit training\" AND \"Obesity\" · 50편 · 2026-08-14 PubMed 초록 직접 확인: PMID 40575108",
+  "negative": "\"circuit training\" AND \"Obesity\" AND (no effect OR did not OR failed to OR negative OR no significant difference) · 46편",
+  "safety": "\"circuit training\" AND (adverse OR toxicity OR case report OR harm OR overdose OR self-medication) · 39편"
+ },
+ "vs": "회로훈련 13명 대비 대조군 12명: BMI·총항산화상태·산화스트레스지수·일산화질소·맥파속도 개선(P<.001 또는 P<.05), 총산화상태는 유의하지 않음"
 }

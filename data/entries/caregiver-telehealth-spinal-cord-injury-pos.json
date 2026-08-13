@@ -1,20 +1,34 @@
 {
-  "id": "caregiver-telehealth-spinal-cord-injury-pos",
-  "subj": "caregiver telehealth",
-  "claim": "새로 척수손상 환자를 돌보는 보호자에게 퇴원 뒤 원격 지원을 제공하면 돌봄의 질이 좋아질 수 있다.",
-  "line": "척수손상 가족 대상 원격 지원은 돌봄의 질을 높였다.",
-  "effect": "31쌍, 돌봄의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 31,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "보호자 원격지원은 의약품이 아닌 돌봄·재활 지원 중재입니다",
-  "why": "처음 보호자가 된 척수손상 환자·보호자 31쌍을 퇴원 전 교육과 퇴원 후 원격 지원군 또는 통상 진료군으로 무작위 배정했습니다",
-  "saw": "추적을 마친 31쌍에서 5회 교육·문제해결 지원군의 돌봄의 질이 2개월·4개월에 더 높았습니다. 우울·관계 만족·안녕감도 유리한 방향이었지만 통계적으로 유의하지 않았습니다",
-  "limit": "표본이 작고 보호자의 돌봄 질 자기보고 결과이며 우울 등 다른 결과는 유의하지 않아 큰 시험이 필요합니다",
-  "against": "보호자 원격지원이 척수손상 재활이나 정신건강 치료를 대신하지 않습니다",
-  "use": "척수손상 퇴원 전후에 보호자 교육과 원격 문제해결을 연결하고 돌봄 부담·우울·환자 안전을 함께 평가합니다.",
-  "refs": [{ "label": "Telehealth transition assistance program for new spinal cord injury caregivers 2026 · The Journal of Spinal Cord Medicine", "doi": "10.1080/10790268.2026.2671476", "pmid": "42240614", "nct": "NCT03244098" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=caregiver telehealth AND condition=Spinal Cord Injury; 3건 반환, 중재명 일치 0건", "pubmed": "caregiver telehealth AND Spinal Cord Injury; 20편", "negative": "caregiver telehealth AND Spinal Cord Injury AND (no effect OR did not OR failed to OR negative OR no significant difference); 6편", "safety": "caregiver telehealth AND Spinal Cord Injury AND (adverse OR toxicity OR case report OR harm OR dropout); 4편" }
+ "id": "caregiver-telehealth-spinal-cord-injury-pos",
+ "subj": "돌봄 원격지원",
+ "claim": "척수손상 신규 돌봄자 원격지원은 돌봄 질을 개선하는가",
+ "line": "척수손상 신규 돌봄자 대상 원격지원이 일반 관리보다 돌봄 질을 개선했다.",
+ "effect": "돌봄 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 31,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "보호자 원격지원은 의약품이 아닌 돌봄·재활 지원 중재입니다",
+ "why": "처음 보호자가 된 척수손상 환자·보호자 31쌍을 퇴원 전 교육과 퇴원 후 원격 지원군 또는 통상 진료군으로 무작위 배정했습니다",
+ "saw": "추적을 마친 돌봄자-환자 쌍 31개를 원격 전환지원 프로그램과 일반 관리에 무작위 배정했다. 두 추적 평가에서 돌봄 질이 더 높았고 P=.041, 부분 η²=.141이었다. 다른 결과는 작은 효과에서 중간 효과를 보였지만 유의하지 않았다.",
+ "limit": "추적 완료 쌍이 31개인 소규모 예비시험이며 다른 심리사회적 결과는 유의하지 않았다.",
+ "against": "돌봄 질 외의 돌봄자·환자 결과는 통계적으로 유의한 차이가 없었다.",
+ "use": "척수손상 퇴원 전후의 교육·문제해결 원격지원을 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Telehealth transition assistance program for new spinal cord injury caregivers 2026 · The Journal of Spinal Cord Medicine",
+   "doi": "10.1080/10790268.2026.2671476",
+   "pmid": "42240614",
+   "nct": "NCT03244098"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=caregiver telehealth AND condition=Spinal Cord Injury; 3건 반환, 중재명 일치 0건",
+  "pubmed": "caregiver telehealth AND Spinal Cord Injury; 20편 · 2026-08-14 PubMed 초록 직접 확인: PMID 42240614",
+  "negative": "caregiver telehealth AND Spinal Cord Injury AND (no effect OR did not OR failed to OR negative OR no significant difference); 6편",
+  "safety": "caregiver telehealth AND Spinal Cord Injury AND (adverse OR toxicity OR case report OR harm OR dropout); 4편"
+ },
+ "vs": "원격 전환지원 대비 일반 관리: 돌봄 질 P=.041, 부분 η²=.141, 추적 완료 31쌍"
 }
