@@ -15,11 +15,11 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5488,
+  "entries": 5495,
   "subjects": 2168,
-  "refs": 7820,
+  "refs": 7827,
   "kinds": {
-    "otc": 113,
+    "otc": 120,
     "supp": 365,
     "food": 462,
     "move": 621,
@@ -27,30 +27,30 @@
     "care": 682,
     "rx": 2055
   },
-  "tiers": { "trial": 4670, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3226, "null": 1085, "open": 1021, "harm": 156 },
+  "tiers": { "trial": 4677, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3230, "null": 1088, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 13286,
-    "unchecked": 2256,
+    "checked": 13510,
+    "unchecked": 2032,
     "no_evidence_pending": 2059,
-    "note": "batch 1243에서 비처방 우선 주제 20개를 처리했다. 새 근거 13개와 기존 연결 7개를 만들었고 중복 표기까지 worklist 60줄을 체크했다. 다음 미처리 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,256개가 남았다."
+    "note": "batch 1244에서 비처방 주제 10개를 포함한 총 20개를 처리했다. 새 근거 7개와 기존 연결 13개를 만들었고 중복 표기까지 worklist 224줄을 체크했다. 현재 미체크 목록의 첫 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,032개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4035,
+    "vs_missing": 4073,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
-    "over_counter_share": "17% (약국약·보충제·음식 940건). 목표는 25%",
+    "over_counter_share": "17.2% (약국약·보충제·음식 947건). 목표는 25%",
     "rx_share": "38% (2,055건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,241건). 목표는 33% 위",
-    "vs_share": "7.8% (427건)",
+    "no_effect_or_harm_share": "23% (1,244건). 목표는 33% 위",
+    "vs_share": "7.9% (436건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.1% (4,670건)",
-    "non_trial_share": "15.0% (818건)",
-    "build_warnings": { "unknown_n": 449, "thin_study": 972 }
+    "trial_share": "85.1% (4,677건)",
+    "non_trial_share": "14.9% (818건)",
+    "build_warnings": { "unknown_n": 449, "thin_study": 973 }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -58,23 +58,23 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1244 starts after batch 1243; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,256 unchecked rows remain.",
+  "next": "batch 1245 starts after batch 1244; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. The current queue had only 10 mapped non-prescription topics available, so batch 1244 used 10 non-prescription and 10 prescription topics. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,032 unchecked rows remain.",
   "last_batch": {
-    "id": "1243",
-    "commit": "4602e050",
+    "id": "1244",
+    "commit": "0ffca9cf",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 13,
-    "existing_links": 7,
+    "new_entries": 7,
+    "existing_links": 13,
     "no_evidence_rejects": 0,
-    "build": "5488 entries · 7820 refs · 4670 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "터비나핀—무좀, 케토코나졸—무좀·두피 지루성피부염, 아스피린—심혈관 일차예방, 덱스트로메토르판—기관지내시경 기침, 로페라미드—소아 설사, 아세트아미노펜—심장수술 뒤 섬망, 나프록센—골관절염·관절염·생리통, 레보세티리진—두드러기, 로라타딘—두드러기·알레르기 비염을 새로 추가하고 미녹시딜·이부프로펜·니코틴 대체요법·아세트아미노펜 골관절염 기존 항목을 연결했다.",
-    "research_batch": "비처방 우선 주제 20개를 ClinicalTrials.gov intervention 일치와 PubMed 원문 초록으로 대조했다. 반대쪽·안전성 검색도 각 주제에 남겼고, 개입군과 대조군의 숫자 또는 유효한 상대효과가 확인된 13개만 새로 기록했다. 기존 항목 7개는 중복 생성하지 않고 worklist에 연결했다.",
+    "build": "5495 entries · 7827 refs · 4677 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "파모티딘—위산 역류·저용량 아스피린 관련 궤양, 클로트리마졸—발무좀, 락툴로오스—간경변·어린이 변비, 세티리진—두드러기·어린이 계절성 알레르기 비염을 새로 추가했다. 아스피린—뇌졸중·뇌경색, 날트렉손—알코올 사용장애, 토피라메이트—간질·발작, 트라조돈—우울증·주요우울장애, 쿠에티아핀—양극성장애·주요우울장애, 스피로놀락톤—고혈압, 독시사이클린—여드름·주사 기존 항목을 연결했다.",
+    "research_batch": "비처방 우선으로 현재 큐에서 확인된 10개 주제를 포함해 총 20개를 처리했다. 신규 7개는 ClinicalTrials.gov 개입명 정확 일치 건수와 PubMed 초록의 개입군·대조군 수치를 기록했고, 기존 13개는 같은 근거 항목을 중복 생성하지 않고 worklist에 연결했다. 근거가 확인되지 않은 주제는 추가하지 않았다.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "legacy_subject_renames": 0,
-    "targeted_batch_warnings_fixed": 11,
-    "remaining_expected_thin_warnings": 2,
+    "targeted_batch_warnings_fixed": 9,
+    "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
 }
