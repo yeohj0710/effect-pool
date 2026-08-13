@@ -10221,16 +10221,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] belimumab — Vasculitis에 듣는다 — 항목 생성(belimumab-vasculitis-pos)  <!-- 시험 3건 · 논문 90편 -->
 - [x] belimumab — Sjogren's Syndrome에 듣는다 — 항목 생성(belimumab-sjogren-s-syndrome-pos)  <!-- 시험 3건 · 논문 57편 -->
 - [x] guselkumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 19건 · 논문 253편 --> — 항목 생성(guselkumab-psoriatic-arthritis-pos)
-- [ ] guselkumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 104편 -->
-- [ ] guselkumab — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 100편 -->
-- [ ] risankizumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 20건 · 논문 239편 -->
-- [ ] risankizumab — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 105편 -->
-- [ ] risankizumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 130편 -->
+- [x] guselkumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 17건 · 논문 104편 --> <!-- batch 1270: PMID 40684778, NCT03466411; 48-week remission composite comparison -->
+- [x] guselkumab — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 100편 --> <!-- batch 1270: PMID 39706209, NCT04033445; 12/44-week remission comparison -->
+- [x] risankizumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 20건 · 논문 239편 --> <!-- batch 1270: PMID 35644154, NCT03105128/NCT03104413; 12-week remission/endoscopic comparison -->
+- [x] risankizumab — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 105편 --> <!-- batch 1270: PMID 39037800, NCT03398148/NCT03398135; 12/52-week remission comparison -->
+- [x] risankizumab — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 130편 --> <!-- batch 1270: PMID 34815219, NCT03671148; week-24 ACR20 comparison -->
 - [x] romosozumab — Bone Loss에 듣는다 — 항목 생성(romosozumab-bone-loss-pos)  <!-- 시험 5건 · 논문 524편 -->
 - [x] romosozumab — Osteopenia에 듣는다 — 항목 생성(romosozumab-osteopenia-null)  <!-- 시험 4건 · 논문 492편 -->
-- [ ] teriparatide — Fracture에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 15건 · 논문 2052편 -->
-- [ ] teriparatide — Bone Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 2011편 -->
-- [ ] teriparatide — Fractures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 2052편 -->
+- [x] teriparatide — Fracture에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 15건 · 논문 2052편 --> <!-- batch 1270: PMID 34383100; pelvic-fracture 3-month healing comparison -->
+- [x] teriparatide — Bone Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 2011편 --> <!-- batch 1270: PMID 18003959, NCT00051558; 18-month BMD/fracture comparison -->
+- [x] teriparatide — Fractures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 2052편 --> <!-- batch 1270: PMID 29129436, NCT01709110; 24-month vertebral-fracture comparison -->
 - [x] teriparatide — Spinal Stenosis에 듣는다 — 항목 생성(teriparatide-spinal-stenosis-pos)  <!-- 시험 5건 · 논문 9편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -10262,21 +10262,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] low carbohydrate diet — Metabolic Disease에 듣는다 — 항목 생성(low-carbohydrate-diet-metabolic-disease-pos)  <!-- 시험 26건 · 논문 4819편 -->
 - [x] low carbohydrate diet — Insulin Resistance에 듣는다 — 항목 생성(low-carbohydrate-diet-insulin-resistance-pos)  <!-- 시험 24건 · 논문 1461편 -->
 - [x] low carbohydrate diet — Irritable Bowel Syndrome에 듣는다 — 항목 생성(low-carbohydrate-diet-irritable-bowel-syndrome-pos)  <!-- 시험 18건 · 논문 313편 -->
-- [ ] vonoprazan — Gastroesophageal Reflux에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 204편 -->
+- [x] vonoprazan — Gastroesophageal Reflux에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 10건 · 논문 204편 --> <!-- batch 1270: PMID 36228734, NCT04124926; week-8 esophageal-healing comparison -->
 - [x] vonoprazan — Gastric Ulcer에 듣는다 — 항목 생성(vonoprazan-gastric-ulcer-null)  <!-- 시험 6건 · 논문 121편 -->
-- [ ] vonoprazan — Heartburn에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 209편 -->
-- [ ] fezolinetant — Vasomotor Symptoms에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 125편 -->
-- [ ] fezolinetant — Menopause에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 137편 -->
-- [ ] lecanemab — Alzheimers Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 821편 -->
+- [x] vonoprazan — Heartburn에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 209편 --> <!-- batch 1270: PMID 38750866, NCT05195528; week-4 heartburn-free-day comparison -->
+- [x] fezolinetant — Vasomotor Symptoms에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 125편 --> <!-- batch 1270: PMID 36734148, NCT04003142; week-12 symptom comparison -->
+- [x] fezolinetant — Menopause에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 137편 --> <!-- batch 1270: PMID 36734148, NCT04003142; menopause vasomotor-symptom comparison -->
+- [x] lecanemab — Alzheimers Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 821편 --> <!-- batch 1270: PMID 36449413, NCT03887455; 18-month CDR-SB comparison -->
 - [x] lecanemab — Dementia에 듣는다 — 항목 생성(lecanemab-dementia-pos)  <!-- 시험 3건 · 논문 684편 -->
-- [ ] lecanemab — Mild Cognitive Impairment에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 220편 -->
+- [x] lecanemab — Mild Cognitive Impairment에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 220편 --> <!-- batch 1270: PMID 36449413, NCT03887455; early-AD MCI comparison -->
 - [x] donanemab — Nervous System Diseases에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 5건 · 논문 268편 -->
 - [x] donanemab — Dementia에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 4건 · 논문 348편 -->
 - [x] donanemab — Brain Diseases에 듣는다 — 같은 근거(donanemab-cognitive-impairment-pos)  <!-- 시험 3건 · 논문 282편 -->
 - [x] donanemab — Cognitive Impairment에 듣는다 — 항목 생성(donanemab-cognitive-impairment-pos)  <!-- 시험 3건 · 논문 120편 -->
-- [ ] ozanimod — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 182편 -->
+- [x] ozanimod — Ulcerative Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 182편 --> <!-- batch 1270: PMID 34587385, NCT02435992; 10/52-week remission comparison -->
 - [x] ozanimod — Crohn Disease에 듣는다 — 근거 없음(2026-08-06, ozanimod AND Crohn Disease)  <!-- 시험 5건 · 논문 74편 -->
-- [ ] deucravacitinib — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 63편 -->
+- [x] deucravacitinib — Psoriatic Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 63편 --> <!-- batch 1270: PMID 42473780, NCT04908189; week-16 ACR20 comparison -->
 - [x] deucravacitinib — Systemic Lupus Erythematosus에 듣는다 — 항목 생성(deucravacitinib-systemic-lupus-erythematosus-pos)  <!-- 시험 4건 · 논문 40편 -->
 - [x] deucravacitinib — Healthy Participants에 듣는다 — 근거 없음(2026-08-06, deucravacitinib Healthy Participants)  <!-- 시험 3건 · 논문 8편 -->
 - [x] deucravacitinib — Alopecia Areata에 듣는다 — 근거 없음(2026-08-06, deucravacitinib AND Alopecia Areata)  <!-- 시험 3건 · 논문 15편 -->
@@ -10311,12 +10311,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] guided imagery — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 30편 -->
 - [x] aducanumab — Cognitive Dysfunction에 듣는다  <!-- 시험 3건 · 논문 89편 -->
 - [x] efgartigimod — Immune Thrombocytopenia (ITP)에 듣는다  <!-- 시험 12건 · 논문 16편 -->
-- [ ] efgartigimod — CIDP에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 46편 -->
-- [ ] efgartigimod — gMG에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 105편 -->
+- [x] efgartigimod — CIDP에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 46편 --> <!-- batch 1270: PMID 39304241, NCT04281472; relapse rate/HR comparison -->
+- [x] efgartigimod — gMG에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 105편 --> <!-- batch 1270: PMID 34146511, NCT03669588; MG-ADL response comparison -->
 - [x] efgartigimod — Pemphigus Vulgaris에 듣는다  <!-- 시험 4건 · 논문 16편 -->
 - [x] retatrutide — Type 2 Diabetes에 듣는다  <!-- 시험 7건 · 논문 81편 -->
 - [x] retatrutide — Overweight에 듣는다  <!-- 시험 6건 · 논문 92편 -->
-- [ ] orforglipron — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 50편 -->
+- [x] orforglipron — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 12건 · 논문 50편 --> <!-- batch 1270: PMID 37351564, NCT05051579; week-36 weight comparison -->
 - [x] orforglipron — Type 2 Diabetes에 듣는다  <!-- 시험 12건 · 논문 74편 -->
 - [x] orforglipron — Receptors, Peptide에 듣는다 — 근거 없음(2026-08-06, orforglipron AND Receptors, Peptide)  <!-- 시험 3건 · 논문 17편 -->
 
@@ -10349,11 +10349,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dietary counseling — Metabolic Syndrome에 듣는다  <!-- 시험 7건 · 논문 417편 -->
 - [x] dietary counseling — Malnutrition에 듣는다  <!-- 시험 5건 · 논문 907편 -->
 - [x] aticaprant — Anhedonia에 듣는다  <!-- 시험 4건 · 논문 38편 -->
-- [ ] tecovirimat — Smallpox에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 229편 -->
-- [ ] tapinarof — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 107편 -->
+- [x] tecovirimat — Smallpox에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 229편 --> <!-- no eligible evidence: PubMed/ClinicalTrials.gov had no direct numeric human smallpox comparator -->
+- [x] tapinarof — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 107편 --> <!-- batch 1270: PMID 38777187; week-8 IGA/EASI75 comparison -->
 - [x] spesolimab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] faricimab — Macular Edema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 23건 · 논문 248편 -->
-- [ ] faricimab — Retinal Vein Occlusion에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 62편 -->
+- [x] faricimab — Macular Edema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 23건 · 논문 248편 --> <!-- batch 1270: PMID 38158159, NCT03622580/NCT03622593; DME visual-acuity comparison -->
+- [x] faricimab — Retinal Vein Occlusion에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 62편 --> <!-- batch 1270: PMID 38280653, NCT04740905/NCT04740931; week-24 visual-acuity comparison -->
 - [x] faricimab — Choroidal Neovascularization에 듣는다  <!-- 시험 6건 · 논문 73편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -10417,7 +10417,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] motivational interviewing — Substance Use에 듣는다  <!-- 시험 18건 · 논문 1877편 -->
 - [x] motivational interviewing — Tobacco Use에 듣는다  <!-- 시험 18건 · 논문 444편 -->
 - [x] motivational interviewing — Cancer에 듣는다  <!-- 시험 17건 · 논문 457편 -->
-- [ ] ensifentrine — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 86편 -->
+- [x] ensifentrine — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 86편 --> <!-- batch 1270: PMID 37364283, NCT04535986/NCT04542057; FEV1/exacerbation comparison -->
 - [x] pelacarsen — Atherosclerotic Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 56편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -10431,11 +10431,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] sotatercept — Anemia에 듣는다  <!-- 시험 7건 · 논문 61편 -->
 - [x] sotatercept — Myelodysplastic Syndromes에 듣는다  <!-- 시험 3건 · 논문 17편 -->
-- [ ] setmelanotide — Bardet-Biedl Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 48편 -->
-- [ ] setmelanotide — POMC Deficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 17편 -->
+- [x] setmelanotide — Bardet-Biedl Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 7건 · 논문 48편 --> <!-- no eligible evidence: PubMed abstract had no direct numeric placebo weight outcome for this topic -->
+- [x] setmelanotide — POMC Deficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 3건 · 논문 17편 --> <!-- no eligible evidence: PubMed study was single-arm/withdrawal and had no topic-specific direct comparator result -->
 - [x] molnupiravir — Viral Infection에 듣는다  <!-- 시험 4건 · 논문 714편 -->
 - [x] molnupiravir — Respiratory Syncytial Virus에 듣는다  <!-- 시험 3건 · 논문 10편 -->
-- [ ] cabotegravir — Human Immunodeficiency Virus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 989편 -->
+- [x] cabotegravir — Human Immunodeficiency Virus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 989편 --> <!-- batch 1270: PMID 34379922, NCT02720094; HIV incidence/HR comparison -->
 - [x] cabotegravir — Injection Drug Use에 듣는다  <!-- 시험 3건 · 논문 505편 -->
 - [x] family therapy — Obesity에 듣는다  <!-- 시험 8건 · 논문 7174편 -->
 - [x] family therapy — Mental Health에 듣는다  <!-- 시험 7건 · 논문 19828편 -->
@@ -10573,12 +10573,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tenapanor — Hyperphosphatemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 74편 -->
+- [x] tenapanor — Hyperphosphatemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 74편 --> <!-- batch 1270: PMID 30846557; serum-phosphate comparison -->
 - [x] obicetrapib — Dyslipidemias에 듣는다 — 항목 생성(obicetrapib-dyslipidemias-pos)  <!-- 시험 7건 · 논문 42편 -->
 - [x] obicetrapib — High Cholesterol에 듣는다 — 항목 생성(obicetrapib-high-cholesterol-pos)  <!-- 시험 7건 · 논문 59편 -->
 - [x] obicetrapib — Lipid Metabolism에 듣는다 — 항목 생성(obicetrapib-lipid-metabolism-pos)  <!-- 시험 3건 · 논문 19편 -->
-- [ ] bempedoic acid — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 350편 -->
-- [ ] bempedoic acid — Cardiovascular에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 577편 -->
+- [x] bempedoic acid — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 350편 --> <!-- batch 1270: PMID 30865796, NCT02666664; LDL comparison -->
+- [x] bempedoic acid — Cardiovascular에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 577편 --> <!-- batch 1270: PMID 36876740, NCT02993406; major cardiovascular-event comparison -->
 - [ ] bempedoic acid — Statin Adverse Reaction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 14편 -->
 - [ ] bempedoic acid — Hypercholesterolaemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 282편 -->
 - [x] evinacumab — Hypertriglyceridemia에 듣는다 — 항목 생성(evinacumab-hypertriglyceridemia-open)  <!-- 시험 3건 · 논문 44편 -->
