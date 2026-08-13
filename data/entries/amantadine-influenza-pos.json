@@ -1,0 +1,28 @@
+{
+  "id": "amantadine-influenza-pos",
+  "subj": "아만타딘",
+  "claim": "아만타딘이 소아 인플루엔자 A 예방에 효과가 있다",
+  "line": "소아 인플루엔자 A 예방에서 아만타딘군의 발생이 적었습니다",
+  "effect": "예방 RR 0.11",
+  "vs": "인플루엔자 A 예방 773명 분석에서 아만타딘의 발생 위험비는 0.11 (95% CI 0.04~0.30)이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2494,
+  "synth": "meta",
+  "why": "아만타딘과 리만타딘의 인플루엔자 A 예방·치료를 평가한 코크란 체계적 문헌고찰입니다.",
+  "saw": "12개 연구 2,494명을 합친 검토에서 아만타딘은 소아 인플루엔자 A 예방 분석 773명에서 RR 0.11 (95% CI 0.04~0.30)을 보였습니다.",
+  "limit": "예방 효과의 중심 근거가 소아와 인플루엔자 A에 한정되고, 치료 효과와 현재 유행 바이러스에 대한 효과를 같은 크기로 추정할 수 없습니다.",
+  "against": "고령자와 치료 목적 결과는 연구 수와 질이 제한적이어서 예방 효과를 모든 인플루엔자 환자에게 일반화할 수 없습니다.",
+  "use": "소아 인플루엔자 A 예방의 과거 임상 근거로만 사용하고, 현재 치료·내성·이상반응 정보를 별도로 확인합니다.",
+  "refs": [
+    { "label": "Jefferson 2012 · Cochrane Database Syst Rev · 아만타딘·리만타딘 인플루엔자 A 예방·치료 검토", "pmid": "25415374" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=amantadine&query.cond=Influenza → 4건 반환",
+    "pubmed": "amantadine AND Influenza → 1,686건",
+    "numeric": "PMID 25415374: 예방 분석 RR 0.11 (95% CI 0.04~0.30)",
+    "negative": "PubMed amantadine AND Influenza AND (no effect OR did not OR failed OR negative OR no significant difference) → 166건",
+    "safety": "PubMed amantadine AND Influenza AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 354건"
+  }
+}

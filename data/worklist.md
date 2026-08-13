@@ -8053,20 +8053,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] verapamil — Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 770편 -->
 - [x] amantadine — Dyskinesia에 듣는다  <!-- 시험 5건 · 논문 717편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: amantadine-dyskinesia-pos; ClinicalTrials.gov 27건 · PubMed 717건 -->
 - [x] amantadine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 202편 -->
-- [ ] amantadine — Influenza에 듣는다  <!-- 시험 4건 · 논문 1686편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amantadine — Influenza에 듣는다 — 신규 항목(amantadine-influenza-pos) <!-- 시험 4건 · 논문 1686편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] amantadine — Covid19에 듣는다  <!-- 시험 4건 · 논문 85편 --> — 기존 항목(amantadine-covid-19-null)(2026-08-05)
-- [ ] acetazolamide — Edema에 듣는다  <!-- 시험 8건 · 논문 742편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] acetazolamide — Edema에 듣는다 — 신규 항목(acetazolamide-edema-pos) <!-- 시험 8건 · 논문 742편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] acetazolamide — Sleep-Disordered Breathing에 듣는다  <!-- 시험 6건 · 논문 171편 -->
 - [x] acetazolamide — Pulmonary Edema에 듣는다  <!-- 시험 4건 · 논문 172편 -->
 - [x] acetazolamide — Opioid Use에 듣는다  <!-- 시험 4건 · 논문 44편 -->
 - [x] dapsone — IgA Vasculitis에 듣는다  <!-- 시험 4건 · 논문 55편 -->
 - [x] dapsone — Bullous Pemphigoid에 듣는다  <!-- 시험 3건 · 논문 286편 -->
 - [x] methotrexate — Myeloma에 듣는다  <!-- 시험 20건 · 논문 275편 --> — 결과 대기(2026-08-05)
-- [ ] methotrexate — Psoriasis에 듣는다  <!-- 시험 19건 · 논문 4271편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] methotrexate — Psoriasis에 듣는다 — 근거 없음(2026-08-13 조회, PubMed 검색에서 대조군 대비 숫자 효과가 있는 건선 직접시험을 확인하지 못함; 확인된 37명 건선관절염 시험 초록은 유의한 방향만 제시) <!-- 시험 19건 · 논문 4271편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] methotrexate — Graft Vs Host Disease에 듣는다  <!-- 시험 18건 · 논문 1662편 -->
-- [ ] methotrexate — Osteosarcoma에 듣는다  <!-- 시험 10건 · 논문 1599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] methotrexate — Osteosarcoma에 듣는다 — 기존 항목(methotrexate-sarcoma-open) <!-- 시험 10건 · 논문 1599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
-- [ ] hydroxyurea — Nose Neoplasms에 듣는다  <!-- 시험 12건 · 논문 8편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] hydroxyurea — Nose Neoplasms에 듣는다 — 근거 없음(2026-08-13 조회, PubMed·ClinicalTrials.gov에서 하이드록시우레아와 비강종양의 숫자 대조효과를 확인하지 못함) <!-- 시험 12건 · 논문 8편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] hydroxyurea — Stroke에 듣는다  <!-- 시험 10건 · 논문 467편 -->
 - [x] hydroxyurea — Polycythemia Vera에 듣는다  <!-- 시험 8건 · 논문 898편 -->
 - [x] tranexamic acid — Osteoarthritis에 듣는다  <!-- 시험 35건 · 논문 239편 -->
@@ -8074,7 +8074,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tranexamic acid — Melasma에 듣는다  <!-- 시험 30건 · 논문 334편 -->
 - [x] tranexamic acid — Cancer에 듣는다  <!-- 시험 27건 · 논문 632편 -->
 - [x] isotretinoin — Medulloblastoma에 듣는다  <!-- 시험 8건 · 논문 9편 -->
-- [ ] tamoxifen — Adjuvant Therapy에 듣는다  <!-- 시험 8건 · 논문 6174편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] tamoxifen — Adjuvant Therapy에 듣는다 — 신규 항목(tamoxifen-adjuvant-therapy-pos) <!-- 시험 8건 · 논문 6174편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] tamoxifen — Infertility에 듣는다  <!-- 시험 6건 · 논문 395편 -->
 - [x] tamoxifen — Hypertension에 듣는다  <!-- 시험 5건 · 논문 332편 --> — 결과 대기(2026-08-05)
 - [x] raloxifene — Adenocarcinoma에 듣는다  <!-- 시험 4건 · 논문 85편 -->
@@ -8106,7 +8106,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] pirfenidone — COVID 19에 듣는다 — 신규 항목(pirfenidone-covid-19-null)  <!-- 시험 5건 · 논문 93편 -->
 - [x] pirfenidone — Liver Cirrhosis에 듣는다 — 신규 항목(pirfenidone-liver-cirrhosis-pos)  <!-- 시험 4건 · 논문 66편 -->
-- [ ] baricitinib — Covid19에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 570편 -->
+- [x] baricitinib — Covid19에 듣는다 — 기존 항목(baricitinib-covid-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 570편 -->
 - [x] baricitinib — Immune Thrombocytopenia에 듣는다 — 신규 항목(baricitinib-immune-thrombocytopenia-pos)  <!-- 시험 5건 · 논문 9편 -->
 - [x] tofacitinib — Atopic Dermatitis에 듣는다 — 신규 항목(tofacitinib-atopic-dermatitis-pos)  <!-- 시험 7건 · 논문 147편 -->
 - [x] tofacitinib — Inflammatory Skin Disease에 듣는다 — 신규 항목(tofacitinib-inflammatory-skin-disease-pos)  <!-- 시험 6건 · 논문 350편 -->
@@ -8114,7 +8114,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] tofacitinib — COVID-19에 듣는다 — 신규 항목(tofacitinib-covid-19-pos)  <!-- 시험 5건 · 논문 174편 -->
 - [x] ruxolitinib — T-cell Lymphoma에 듣는다 — 신규 항목(ruxolitinib-t-cell-lymphoma-pos)  <!-- 시험 30건 · 논문 117편 -->
 - [x] ruxolitinib — MDS/MPN에 듣는다 — 신규 항목(ruxolitinib-mds-mpn-pos)  <!-- 시험 28건 · 논문 15편 -->
-- [ ] ruxolitinib — Polycythemia Vera에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 515편 -->
+- [x] ruxolitinib — Polycythemia Vera에 듣는다 — 신규 항목(ruxolitinib-polycythemia-vera-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 515편 -->
 - [x] nitazoxanide — SARS-CoV Infection에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 17건 · 논문 60편 -->
 - [x] nitazoxanide — Covid19에 듣는다 — 신규 항목(nitazoxanide-covid-19-null)  <!-- 시험 13건 · 논문 137편 -->
 - [x] nitazoxanide — Hepatitis C에 듣는다 — 신규 항목(nitazoxanide-hepatitis-c-pos)  <!-- 시험 13건 · 논문 44편 -->
@@ -8136,7 +8136,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nintedanib — Pulmonary Fibrosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 42건 · 논문 1625편 -->
+- [x] nintedanib — Pulmonary Fibrosis에 듣는다 — 신규 항목(nintedanib-pulmonary-fibrosis-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 42건 · 논문 1625편 -->
 - [x] nintedanib — Breast Cancer에 듣는다 — 신규 항목(nintedanib-breast-cancer-null)  <!-- 시험 11건 · 논문 39편 -->
 - [x] nintedanib — Cervical Carcinoma에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 11건 · 논문 11편 -->
 
@@ -8151,7 +8151,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] nitazoxanide — Hepatic Cirrhosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 7건 · 논문 14편 -->
 - [x] nitazoxanide — Influenza에 듣는다 — 신규 항목(nitazoxanide-influenza-pos)  <!-- 시험 6건 · 논문 43편 -->
-- [ ] nitazoxanide — Cryptosporidiosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 258편 -->
+- [x] nitazoxanide — Cryptosporidiosis에 듣는다 — 신규 항목(nitazoxanide-cryptosporidiosis-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 258편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -8196,7 +8196,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sotagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 243편 -->
+- [x] sotagliflozin — Heart Failure에 듣는다 — 신규 항목(sotagliflozin-heart-failure-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 243편 -->
 - [x] sotagliflozin — Diabetic Nephropathies에 듣는다  <!-- 시험 5건 · 논문 13편 -->
 - [x] sotagliflozin — Chronic Kidney Disease에 듣는다  <!-- 시험 5건 · 논문 77편 -->
 
@@ -8209,7 +8209,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tenofovir — Hepatitis B에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 124건 · 논문 3408편 -->
+- [x] tenofovir — Hepatitis B에 듣는다 — 신규 항목(tenofovir-hepatitis-b-pos) <!-- 시험 124건 · 논문 3408편 -->  <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] tenofovir — Virus Diseases에 듣는다  <!-- 시험 19건 · 논문 9045편 -->
 - [x] tenofovir — Liver Failure에 듣는다  <!-- 시험 10건 · 논문 281편 -->
 - [x] tenofovir — ART Adherence에 듣는다 — 항목 아님(복약순응도 측정 연구)(2026-08-05)  <!-- 시험 8건 · 논문 346편 -->
@@ -8223,7 +8223,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] nirmatrelvir — SARS-CoV2 Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 1622편 -->
+- [x] nirmatrelvir — SARS-CoV2 Infection에 듣는다 — 신규 항목(nirmatrelvir-sars-cov2-infection-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 1622편 -->
 - [x] nirmatrelvir — Healthy Participants에 듣는다 — 항목 아님(건강인 약동학 연구)(2026-08-05)  <!-- 시험 3건 · 논문 13편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -8249,10 +8249,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] naltrexone — Cocaine Abuse에 듣는다  <!-- 시험 11건 · 논문 223편 -->
 - [x] naltrexone — Schizophrenia에 듣는다  <!-- 시험 8건 · 논문 136편 -->
 - [x] naltrexone — Bipolar Disorder에 듣는다  <!-- 시험 7건 · 논문 69편 -->
-- [ ] naltrexone — Addiction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 7건 · 논문 2293편 -->
+- [x] naltrexone — Addiction에 듣는다 — 기존 항목(naltrexone-substance-use) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 7건 · 논문 2293편 -->
 - [x] gabapentin — Pruritus에 듣는다  <!-- 시험 9건 · 논문 253편 -->
 - [x] gabapentin — Anesthesia에 듣는다  <!-- 시험 9건 · 논문 708편 -->
-- [ ] topiramate — Epilepsies, Partial에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 316편 -->
+- [x] topiramate — Epilepsies, Partial에 듣는다 — 기존 항목(topiramate-epilepsy-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 316편 -->
 - [x] topiramate — Cocaine Use Disorder에 듣는다  <!-- 시험 7건 · 논문 74편 -->
 - [x] topiramate — Posttraumatic Stress Disorder에 듣는다  <!-- 시험 6건 · 논문 68편 -->
 - [x] topiramate — Hiv에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 6건 · 논문 19편 -->
@@ -8260,23 +8260,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] quetiapine — Dementia에 듣는다  <!-- 시험 9건 · 논문 471편 -->
 - [x] quetiapine — Alzheimer Disease에 듣는다  <!-- 시험 8건 · 논문 195편 -->
 - [x] quetiapine — Insomnia에 듣는다 — 이미 반영(원발성 불면)(2026-08-05)  <!-- 시험 7건 · 논문 241편 -->
-- [ ] spironolactone — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 7건 · 논문 4565편 -->
+- [x] spironolactone — Cardiovascular Disease에 듣는다 — 신규 항목(spironolactone-cardiovascular-disease-open) <!-- 시험 7건 · 논문 4565편 -->  <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] spironolactone — Dilated Cardiomyopathy에 듣는다  <!-- 시험 6건 · 논문 104편 -->
-- [ ] spironolactone — Cirrhosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 1136편 -->
+- [x] spironolactone — Cirrhosis에 듣는다 — 신규 항목(spironolactone-cirrhosis-pos) <!-- 시험 5건 · 논문 1136편 -->  <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] spironolactone — Hyperkalemia에 듣는다  <!-- 시험 4건 · 논문 752편 -->
 - [x] doxycycline — Dry Eye에 듣는다  <!-- 시험 10건 · 논문 51편 -->
 - [x] doxycycline — Periodontal Disease에 듣는다 — 이미 반영(치주염 보조치료)(2026-08-05)  <!-- 시험 9건 · 논문 666편 -->
 - [x] doxycycline — COVID에 듣는다  <!-- 시험 9건 · 논문 245편 -->
-- [ ] doxycycline — Mycoplasma Pneumoniae에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 166편 -->
+- [x] doxycycline — Mycoplasma Pneumoniae에 듣는다 — 신규 항목(doxycycline-mycoplasma-pneumoniae-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 166편 -->
 - [x] colchicine — Atherosclerosis에 듣는다  <!-- 시험 9건 · 논문 386편 -->
 - [x] colchicine — Osteoarthritis에 듣는다  <!-- 시험 9건 · 논문 97편 -->
 - [x] colchicine — Covid19에 듣는다 — 이미 반영(코로나19)(2026-08-05)  <!-- 시험 8건 · 논문 446편 -->
 - [x] colchicine — Cardiac Surgery에 듣는다  <!-- 시험 8건 · 논문 377편 -->
-- [ ] dapagliflozin — Cardiovascular Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 1860편 -->
+- [x] dapagliflozin — Cardiovascular Disease에 듣는다 — 신규 항목(dapagliflozin-cardiovascular-disease-open) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 1860편 -->
 - [x] dapagliflozin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 327편 -->
 - [x] dapagliflozin — Atrial Fibrillation에 듣는다  <!-- 시험 12건 · 논문 112편 -->
 - [x] dapagliflozin — Cardiac Surgery에 듣는다  <!-- 시험 12건 · 논문 126편 -->
-- [ ] semaglutide — Cardiovascular에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1505편 -->
+- [x] semaglutide — Cardiovascular에 듣는다 — 신규 항목(semaglutide-cardiovascular-pos) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1505편 -->
 - [x] semaglutide — Stroke에 듣는다  <!-- 시험 8건 · 논문 329편 -->
 - [x] semaglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 시험 7건 · 논문 34편 -->
 - [x] semaglutide — Atrial Fibrillation에 듣는다  <!-- 시험 6건 · 논문 51편 -->

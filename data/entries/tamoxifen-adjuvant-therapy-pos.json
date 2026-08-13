@@ -1,0 +1,30 @@
+{
+  "id": "tamoxifen-adjuvant-therapy-pos",
+  "subj": "타목시펜",
+  "claim": "타목시펜이 ER 양성 조기 유방암의 재발·사망을 줄인다",
+  "line": "ER 양성 조기 유방암에서 약 5년 타목시펜은 15년 유방암 사망 위험을 줄였습니다",
+  "effect": "재발 RR 0.53~0.68",
+  "vs": "20개 무작위시험 21,457명 메타분석에서 ER 양성군의 재발 RR은 0~4년 0.53 (SE 0.03), 5~9년 0.68 (SE 0.06), 유방암 사망 RR은 0~4년 0.71 (SE 0.05)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 21457,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "호르몬 수용체 양성 유방암 보조치료 허가",
+  "why": "조기 유방암에서 약 5년 타목시펜과 무보조 내분비치료를 비교한 20개 무작위시험의 환자 단위 메타분석입니다.",
+  "saw": "전체 21,457명 중 ER 양성 10,645명에서 타목시펜은 첫 10년 재발을 줄였고, 15년 동안 유방암 사망을 약 3분의 1 줄였습니다.",
+  "limit": "ER 양성 조기 유방암의 보조치료 결과이며, ER 음성 종양이나 전이성 유방암, 폐경 상태별 다른 내분비치료에 같은 효과를 적용할 수 없습니다.",
+  "against": "ER 음성 질환에서는 재발·사망에 효과가 거의 없었고, 10년 이후 재발 감소의 추가 이득은 뚜렷하지 않았습니다.",
+  "use": "ER 양성 조기 유방암의 보조 내분비치료 근거로 사용하되, 수술·항암·방사선치료와 폐경 상태를 함께 확인합니다.",
+  "refs": [
+    { "label": "Early Breast Cancer Trialists' Collaborative Group 2011 · Lancet · 보조 타목시펜 환자 단위 메타분석", "pmid": "21802721" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=tamoxifen&query.cond=Adjuvant Therapy → 8건 반환",
+    "pubmed": "tamoxifen AND Adjuvant Therapy → 6,174건",
+    "numeric": "PMID 21802721: 20개 무작위시험, 21,457명, ER 양성 재발 RR 0.53·0.68",
+    "negative": "PubMed tamoxifen AND Adjuvant Therapy AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,952건",
+    "safety": "PubMed tamoxifen AND Adjuvant Therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 2,204건"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dapagliflozin-cardiovascular-disease-open",
+  "subj": "다파글리플로진",
+  "claim": "다파글리플로진은 주요 심혈관 사건을 줄이지 않았지만 심부전 복합 결과는 줄였다",
+  "line": "죽상경화성 심혈관질환 위험이 있는 제2형 당뇨병에서 다파글리플로진은 MACE는 줄이지 않았지만 심혈관 사망·심부전 입원을 줄였습니다",
+  "effect": "MACE HR 0.93; 심혈관 사망·심부전 입원 HR 0.83",
+  "vs": "DECLARE-TIMI 58 17,160명에서 MACE는 다파글리플로진 8.8% 대 위약 9.4%, HR 0.93 (95% CI 0.84~1.03)였고 심혈관 사망·심부전 입원은 4.9% 대 5.8%, HR 0.83 (95% CI 0.73~0.95)였습니다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 17160,
+  "synth": "single",
+  "why": "제2형 당뇨병과 죽상경화성 심혈관질환 또는 위험이 있는 환자를 다파글리플로진과 위약에 무작위 배정한 DECLARE-TIMI 58 시험입니다.",
+  "saw": "주요 심혈관 사건은 비열등성 기준을 충족했지만 유의하게 낮아지지 않았습니다. 심혈관 사망·심부전 입원 복합 결과와 심부전 입원은 다파글리플로진에서 낮았습니다.",
+  "limit": "제2형 당뇨병 환자의 심혈관 안전성·효능 시험이며, 당뇨병이 없는 심부전이나 모든 심혈관질환의 예방 효과로 일반화할 수 없습니다.",
+  "against": "MACE의 우월성은 확인되지 않았고, 이득은 심부전 입원 중심이었습니다. 체액 감소와 생식기 감염 등 위해를 함께 고려해야 합니다.",
+  "use": "제2형 당뇨병의 심혈관 위험 관리에서 심부전 입원 감소 신호와 MACE 중립 결과를 함께 설명하는 근거로 사용합니다.",
+  "refs": [
+    { "label": "Wiviott 2019 · New England Journal of Medicine · DECLARE-TIMI 58", "pmid": "30415602", "nct": "NCT01730534" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=dapagliflozin&query.cond=Cardiovascular Disease → 13건 반환",
+    "pubmed": "dapagliflozin AND Cardiovascular Disease → 1,860건",
+    "numeric": "PMID 30415602: MACE HR 0.93, 심혈관 사망·심부전 입원 HR 0.83",
+    "negative": "PubMed dapagliflozin AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) → 340건",
+    "safety": "PubMed dapagliflozin AND Cardiovascular Disease AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 767건"
+  }
+}

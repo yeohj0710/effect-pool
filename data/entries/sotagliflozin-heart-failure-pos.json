@@ -1,0 +1,28 @@
+{
+  "id": "sotagliflozin-heart-failure-pos",
+  "subj": "소타글리플로진",
+  "claim": "소타글리플로진이 최근 악화된 심부전의 심혈관 사망·심부전 사건을 줄인다",
+  "line": "당뇨병을 동반한 최근 악화 심부전에서 소타글리플로진의 심혈관 사망·심부전 사건률이 낮았습니다",
+  "effect": "주요 사건률 51.0 vs 76.3/100인년, HR 0.67",
+  "vs": "SOLOIST-WHF 1,222명에서 소타글리플로진 608명 대 위약 614명의 심혈관 사망·심부전 입원·긴급방문 사건률은 51.0 대 76.3/100인년, HR 0.67 (95% CI 0.52~0.85)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1222,
+  "synth": "single",
+  "why": "제2형 당뇨병과 최근 악화로 입원한 심부전 환자를 퇴원 전후 소타글리플로진 또는 위약에 무작위 배정한 SOLOIST-WHF 시험입니다.",
+  "saw": "소타글리플로진군 245건, 위약군 355건의 주요 사건이 발생했습니다. 심혈관 사망률 HR은 0.84 (95% CI 0.58~1.22)로 유의하지 않았습니다.",
+  "limit": "제2형 당뇨병이 있고 최근 심부전 악화로 입원한 환자의 조기 시작 결과이며, 안정된 심부전이나 당뇨병이 없는 환자에 같은 효과를 확장할 수 없습니다.",
+  "against": "후원 중단으로 시험이 조기 종료됐고, 심혈관 사망 단독 결과는 유의하지 않았습니다. 설사와 중증 저혈당은 소타글리플로진에서 더 많았습니다.",
+  "use": "최근 악화 심부전에서 퇴원 전후 SGLT2 억제제 시작 근거로 사용하되, 혈압·신기능·저혈당 위험을 함께 확인합니다.",
+  "refs": [
+    { "label": "Bhatt 2021 · New England Journal of Medicine · SOLOIST-WHF", "pmid": "33200892", "nct": "NCT03521934" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=sotagliflozin&query.cond=Heart Failure → 11건 반환",
+    "pubmed": "sotagliflozin AND Heart Failure → 243건",
+    "numeric": "PMID 33200892: 주요 사건률 HR 0.67 (95% CI 0.52~0.85)",
+    "negative": "PubMed sotagliflozin AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) → 42건",
+    "safety": "PubMed sotagliflozin AND Heart Failure AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 108건"
+  }
+}
