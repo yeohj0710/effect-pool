@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5548,
-  "subjects": 2170,
-  "refs": 7904,
+  "entries": 5562,
+  "subjects": 2171,
+  "refs": 7921,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2108
+    "rx": 2122
   },
   "tiers": {
-    "trial": 4729,
+    "trial": 4743,
     "obs": 725,
     "animal": 30,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3265,
+    "pos": 3275,
     "null": 1101,
-    "open": 1026,
+    "open": 1030,
     "harm": 156
   },
   "worklist": {
     "total": 15542,
-    "checked": 14791,
-    "unchecked": 751,
-    "no_evidence_pending": 2059,
-    "note": "Batch 1253 checked 20 unique topics from line 7942. No identifiable non-prescription topics were available in the remaining queue, so medical topics were processed. No-evidence rejects: 0."
+    "checked": 14811,
+    "unchecked": 731,
+    "no_evidence_pending": 2057,
+    "note": "Batch 1254 checked 20 unique topics from line 8056. No identifiable non-prescription topics were available in the remaining queue, so medical topics were processed. New evidence entries: 14; existing links: 4; no-evidence rejects: 2."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "17.1% (947 entries)",
-    "rx_share": "38.0% (2,108 entries)",
-    "no_effect_or_harm_share": "22.7% (1,257 entries)",
-    "vs_share": "9.1% (504 entries)",
+    "over_counter_share": "17.0% (947 entries)",
+    "rx_share": "38.1% (2,122 entries)",
+    "no_effect_or_harm_share": "22.6% (1,257 entries)",
+    "vs_share": "9.3% (518 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.2% (4,729 entries)",
-    "non_trial_share": "14.8% (819 entries)",
+    "trial_share": "85.3% (4,743 entries)",
+    "non_trial_share": "14.7% (819 entries)",
     "build_warnings": {
       "unknown_n": 449,
-      "thin_study": 973,
+      "thin_study": 974,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,28 +57,28 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1254 starts after batch 1253. Pull and read AGENTS.md first. Prioritize non-prescription topics; none were identifiable in the remaining queue at batch 1253. Resume at worklist line 8056: amantadine — Influenza에 듣는다. 751 unchecked rows remain.",
+  "next": "Batch 1255 starts after batch 1254. Pull and read AGENTS.md first. Prioritize non-prescription topics; none were identifiable in the remaining queue at batch 1254. Resume at worklist line 8292: ivermectin — Head Lice에 듣는다. 731 unchecked rows remain.",
   "last_batch": {
-    "id": "1253",
-    "commit": "0b4607c4",
+    "id": "1254",
+    "commit": "3815faba",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 11,
-    "existing_links": 9,
-    "no_evidence_rejects": 0,
+    "new_entries": 14,
+    "existing_links": 4,
+    "no_evidence_rejects": 2,
     "non_prescription_topics_available": 0,
-    "build": "5548 entries; 7904 refs; 4729 trial; 725 obs; 30 animal; 17 lab; 47 case; 504 numeric comparison entries; worklist 14791/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 20 topics. New evidence used PMIDs 29505880, 33606009, 18471776, 3299905, 31150711, 8239224, 40048183, 40961718, 30712879, 20671626, 36519155, and 28833562. New entries contain Korean subjects, correct rx category mappings, and numeric vs or relative effects.",
-    "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1,
+    "build": "5562 entries; 7921 refs; 4743 trial; 725 obs; 30 animal; 17 lab; 47 case; 518 numeric comparison entries; worklist 14811/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 20 topics. New evidence used PMIDs 25415374, 36027559, 21802721, 25629741, 37126762, 24836310, 12423984, 32598920, 33200892, 22544804, 35172054, 24716680, 9075669, 9145823, 30415602, and 37952131. Existing links reused PMIDs 34480861, 21563152, 37934220, and 14610122. Methotrexate-psoriasis and hydroxyurea-nose-neoplasms were rejected after PubMed/ClinicalTrials.gov review because no verifiable numeric intervention-versus-control result was found. New entries contain Korean subjects, correct rx mappings, and numeric vs or relative effects.",
+    "legacy_sentence_edits": 1,
+    "legacy_vs_filled": 1,
+    "targeted_batch_warnings_fixed": 1,
+    "remaining_expected_thin_warnings": 2,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1254",
-    "worklist_line": 8056,
-    "topic": "amantadine — Influenza에 듣는다",
-    "unchecked": 751
+    "next_batch": "1255",
+    "worklist_line": 8292,
+    "topic": "ivermectin — Head Lice에 듣는다",
+    "unchecked": 731
   }
 }
