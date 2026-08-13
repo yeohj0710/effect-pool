@@ -19470,11 +19470,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] umeclidinium — COPD에 듣는다  <!-- 시험 6건 · 논문 423편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 32368027 -->
-- [ ] umeclidinium — Asthma에 듣는다  <!-- 시험 3건 · 논문 130편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
-- [ ] umeclidinium — Lung Function에 듣는다  <!-- 시험 3건 · 논문 219편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
-- [ ] glycopyrronium — Asthma에 듣는다  <!-- 시험 15건 · 논문 189편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
-- [ ] glycopyrronium — COPD에 듣는다  <!-- 시험 14건 · 논문 655편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
-- [ ] glycopyrronium — Hyperhidrosis에 듣는다  <!-- 시험 10건 · 논문 142편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] umeclidinium — Asthma에 듣는다  <!-- 시험 3건 · 논문 130편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1280; PMID 32918892; NCT02924688 -->
+- [x] umeclidinium — Lung Function에 듣는다  <!-- 시험 3건 · 논문 219편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1280; PMID 27730198; NCT02236611 -->
+- [x] glycopyrronium — Asthma에 듣는다  <!-- 시험 15건 · 논문 189편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1280; PMID 33898609 -->
+- [x] glycopyrronium — COPD에 듣는다  <!-- 시험 14건 · 논문 655편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1280; PMID 29872288 -->
+- [x] glycopyrronium — Hyperhidrosis에 듣는다  <!-- 시험 10건 · 논문 142편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1280; PMID 33445205 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19788,10 +19788,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] diazepam — Pain에 듣는다  <!-- 시험 11건 · 논문 1389편 -->
-- [ ] diazepam — Alcohol Withdrawal에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 6건 · 논문 557편 -->
-- [ ] diazepam — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 4036편 -->
-- [ ] diazepam — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 5650편 -->
-- [ ] alprazolam — Panic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 470편 -->
+- [x] diazepam — Alcohol Withdrawal에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 6건 · 논문 557편 --> <!-- batch 1280; PMID 7009593 -->
+- [x] diazepam — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 4036편 --> <!-- batch 1280; PMID 11547716 -->
+- [x] diazepam — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 5650편 --> <!-- batch 1280; PMID 7009593 -->
+- [x] alprazolam — Panic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 470편 --> <!-- batch 1280; PMID 3282478 -->
 - [x] alprazolam — Healthy Participants에 듣는다 — 근거 없음(2026-08-11, alprazolam AND "Healthy Participants"[Title/Abstract]; 건강 참가자 PK·생물학적 동등성 연구만 확인되어 치료 효과를 평가하지 않음)  <!-- 시험 5건 · 논문 146편 -->
 - [x] alprazolam — Opioid Abuse에 듣는다  <!-- 시험 5건 · 논문 95편 -->
 - [x] alprazolam — Epilepsy에 듣는다  <!-- 시험 3건 · 논문 44편 -->
@@ -19810,14 +19810,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] albendazole — Filariasis에 듣는다  <!-- 시험 20건 · 논문 700편 -->
 - [x] albendazole — Infection에 듣는다 — 근거 없음(2026-08-11, ClinicalTrials.gov albendazole AND Infection; PubMed albendazole AND Infection)  <!-- 시험 16건 · 논문 7140편 -->
 - [x] albendazole — Trichuriasis에 듣는다  <!-- 시험 10건 · 논문 260편 -->
-- [ ] praziquantel — Schistosoma Mansoni에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 2068편 -->
+- [x] praziquantel — Schistosoma Mansoni에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 2068편 --> <!-- batch 1280; PMID 28619227; PMCID PMC5471607 -->
 - [x] praziquantel — Malaria에 듣는다  <!-- 시험 5건 · 논문 261편 -->
 - [x] praziquantel — HIV에 듣는다  <!-- 시험 5건 · 논문 118편 -->
 - [x] praziquantel — Helminthiasis에 듣는다  <!-- 시험 4건 · 논문 5694편 -->
 - [x] clarithromycin — Myeloma에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 32건 · 논문 64편 -->
 - [x] clarithromycin — Gastritis에 듣는다  <!-- 시험 19건 · 논문 986편 -->
 - [x] clarithromycin — HIV Infections에 듣는다 — 근거 없음(2026-08-11, ClinicalTrials.gov clarithromycin AND HIV Infections; PubMed clarithromycin AND HIV Infections)  <!-- 시험 18건 · 논문 483편 -->
-- [ ] clarithromycin — Mycobacterium Avium Complex에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 18건 · 논문 870편 -->
+- [x] clarithromycin — Mycobacterium Avium Complex에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 18건 · 논문 870편 --> <!-- batch 1280; PMID 10762562; DOI 10.1086/315380 -->
 - [x] diazoxide — Type 1 Diabetes에 듣는다  <!-- 시험 8건 · 논문 40편 -->
 - [x] diazoxide — Glucose, High Blood에 듣는다  <!-- 시험 6건 · 논문 145편 -->
 - [x] diazoxide — Insulin Resistance에 듣는다  <!-- 시험 4건 · 논문 101편 -->
@@ -19915,7 +19915,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] telaprevir — HIV에 듣는다  <!-- 시험 7건 · 논문 220편 -->
 - [x] telaprevir — Healthy Participants에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] boceprevir — HIV에 듣는다  <!-- 시험 10건 · 논문 165편 -->
-- [ ] boceprevir — HCV Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 1077편 -->
+- [x] boceprevir — HCV Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 1077편 --> <!-- batch 1280; PMID 21449783; NCT00705432 -->
 - [x] boceprevir — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 336편 -->
 - [x] ledipasvir — HIV에 듣는다  <!-- 시험 6건 · 논문 234편 -->
 - [x] ledipasvir — Cirrhosis에 듣는다  <!-- 시험 3건 · 논문 553편 -->
@@ -19929,7 +19929,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sofosbuvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 19건 · 논문 2844편 -->
+- [x] sofosbuvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 19건 · 논문 2844편 --> <!-- batch 1280; PMID 23607594; NCT01497366 -->
 - [x] sofosbuvir — HIV에 듣는다  <!-- 시험 13건 · 논문 528편 -->
 - [x] sofosbuvir — Liver Cancer에 듣는다 — 항암 주제 조사 제외(2026-08-11)  <!-- 시험 9건 · 논문 238편 -->
 - [x] sofosbuvir — Cirrhosis에 듣는다  <!-- 시험 8건 · 논문 1516편 -->
@@ -19945,10 +19945,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] elbasvir — Fibrosis, Liver에 듣는다  <!-- 시험 5건 · 논문 99편 -->
 - [x] glecaprevir — Kidney Failure에 듣는다  <!-- 시험 7건 · 논문 53편 -->
 - [x] glecaprevir — Renal Disease에 듣는다  <!-- 시험 5건 · 논문 96편 -->
-- [ ] glecaprevir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 482편 -->
+- [x] glecaprevir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 482편 --> <!-- batch 1280; PMID 29365309; NCT02604017 -->
 - [x] glecaprevir — Liver Diseases에 듣는다  <!-- 시험 3건 · 논문 489편 -->
 - [x] pibrentasvir — Kidney Failure에 듣는다  <!-- 시험 7건 · 논문 51편 -->
-- [ ] pibrentasvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 478편 -->
+- [x] pibrentasvir — HCV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 478편 --> <!-- batch 1280; PMID 29365309; NCT02604017 -->
 - [x] pibrentasvir — Renal Disease에 듣는다  <!-- 시험 4건 · 논문 90편 -->
 - [x] pibrentasvir — Liver Diseases에 듣는다  <!-- 시험 3건 · 논문 486편 -->
 
@@ -19972,18 +19972,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] bivalirudin — Myocardial Ischemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 17건 · 논문 1027편 -->
+- [x] bivalirudin — Myocardial Ischemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 17건 · 논문 1027편 --> <!-- batch 1280; PMID 17124018 -->
 - [x] bivalirudin — Extracorporeal Membrane Oxygenation Complication에 듣는다 — 근거 있음(2026-08-11, PMID 39585174·NCT03318393)  <!-- 시험 5건 · 논문 71편 -->
 - [x] bivalirudin — Thrombosis에 듣는다 — 근거 있음(2026-08-11, PMID 26643738)  <!-- 시험 5건 · 논문 823편 -->
 - [x] bivalirudin — Anticoagulants에 듣는다 — 근거 있음(2026-08-11, PMID 37872022)  <!-- 시험 4건 · 논문 1990편 -->
-- [ ] alteplase — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 16건 · 논문 1449편 -->
-- [ ] alteplase — Cerebral Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 11건 · 논문 2200편 -->
+- [x] alteplase — Pulmonary Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 16건 · 논문 1449편 --> <!-- batch 1280; PMID 41910345; NCT04790370 -->
+- [x] alteplase — Cerebral Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 11건 · 논문 2200편 --> <!-- batch 1280; PMID 18815396; NCT00153036 -->
 - [x] alteplase — Thrombosis에 듣는다 — 근거 있음(2026-08-11, PMID 15064337)  <!-- 시험 10건 · 논문 5780편 -->
 - [x] alteplase — Pleural Effusion에 듣는다 — 근거 있음(2026-08-11, PMID 21830966)  <!-- 시험 9건 · 논문 210편 -->
-- [ ] tenecteplase — Cerebral Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 13건 · 논문 88편 -->
+- [x] tenecteplase — Cerebral Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 13건 · 논문 88편 --> <!-- batch 1280; PMID 36727510; NCT02388061 -->
 - [x] tenecteplase — Cerebral Artery에 듣는다 — 근거 있음(2026-08-11, PMID 32078683·NCT03340493)  <!-- 시험 8건 · 논문 95편 -->
 - [x] tenecteplase — Endovascular Treatment에 듣는다 — 근거 있음(2026-08-11, PMID 40616323·NCT05624190)  <!-- 시험 5건 · 논문 220편 -->
-- [ ] protamine — Cardiac Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 6건 · 논문 1300편 -->
+- [x] protamine — Cardiac Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 6건 · 논문 1300편 --> <!-- batch 1280; PMID 30206011 -->
 - [x] protamine — Heart Valve Diseases에 듣는다 — 근거 있음(2026-08-11, PMID 39322039)  <!-- 시험 4건 · 논문 80편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -19997,12 +19997,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] avatrombopag — Aplastic Anemia에 듣는다 — 근거 있음(2026-08-11, PMID 40617806)  <!-- 시험 8건 · 논문 26편 -->
 - [x] avatrombopag — Liver Failure에 듣는다 — 근거 있음(2026-08-11, PMID 29778606·NCT01972529·NCT01976104)  <!-- 시험 5건 · 논문 10편 -->
-- [ ] avatrombopag — Idiopathic Thrombocytopenic Purpura에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 79편 -->
+- [x] avatrombopag — Idiopathic Thrombocytopenic Purpura에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 4건 · 논문 79편 --> <!-- batch 1280; PMID 30191972; NCT01438840 -->
 - [x] avatrombopag — Platelet Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 30191972·NCT01438840)  <!-- 시험 3건 · 논문 147편 -->
-- [ ] ganciclovir — HIV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 82건 · 논문 872편 -->
-- [ ] ganciclovir — Cytomegalovirus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 60건 · 논문 6356편 -->
+- [x] ganciclovir — HIV에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 82건 · 논문 872편 --> <!-- batch 1280; PMID 8394858 -->
+- [x] ganciclovir — Cytomegalovirus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 60건 · 논문 6356편 --> <!-- batch 1280; PMID 8394858 -->
 - [x] ganciclovir — Leukemia에 듣는다 — 항암제 주제 제외(2026-08-11)  <!-- 시험 38건 · 논문 390편 -->
-- [ ] ganciclovir — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 24건 · 논문 444편 -->
+- [x] ganciclovir — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 24건 · 논문 444편 --> <!-- batch 1280; PMID 11429021 -->
 - [x] bardoxolone — Chronic Kidney Disease에 듣는다 — 근거 있음(2026-08-11, PMID 36411058·NCT03019185)  <!-- 시험 8건 · 논문 116편 -->
 - [x] bardoxolone — End-Stage Renal Disease에 듣는다 — 근거 없음(2026-08-11, bardoxolone AND End-Stage Renal Disease)  <!-- 시험 6건 · 논문 61편 -->
 
@@ -20015,16 +20015,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] mometasone — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 45건 · 논문 428편 -->
-- [ ] mometasone — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 25건 · 논문 121편 -->
-- [ ] mometasone — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 9건 · 논문 72편 -->
+- [x] mometasone — Asthma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 45건 · 논문 428편 --> <!-- batch 1280; PMID 10984368 -->
+- [x] mometasone — Nasal Polyps에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 25건 · 논문 121편 --> <!-- batch 1280; PMID 26575524; NCT01386125 -->
+- [x] mometasone — Atopic Dermatitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 9건 · 논문 72편 --> <!-- batch 1280; PMID 23467551 -->
 - [x] mometasone — Sinusitis에 듣는다 — 근거 있음(2026-08-11, PMID 18323331)  <!-- 시험 8건 · 논문 159편 -->
 - [x] vilanterol — Asthma에 듣는다 — 근거 있음(2026-08-11, PMID 32918892·NCT02924688)  <!-- 시험 29건 · 논문 260편 -->
-- [ ] vilanterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 522편 -->
+- [x] vilanterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 522편 --> <!-- batch 1280; PMID 23352226; NCT01053988 -->
 - [x] vilanterol — Lung Function에 듣는다 — 근거 있음(2026-08-11, PMID 28375647·NCT02345161)  <!-- 시험 3건 · 논문 275편 -->
 - [x] olodaterol — Asthma에 듣는다 — 근거 있음(2026-08-11, PMID 26283085·NCT00467740·NCT01013753)  <!-- 시험 5건 · 논문 56편 -->
-- [ ] olodaterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 263편 -->
-- [ ] aclidinium — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 250편 -->
+- [x] olodaterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 263편 --> <!-- batch 1280; PMID 25829298; NCT00452400 -->
+- [x] aclidinium — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 250편 --> <!-- batch 1280; PMID 23819698 -->
 - [ ] olopatadine — Rhinitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 107편 -->
 - [x] bovine colostrum — Feeding Intolerance에 듣는다 — 근거 있음(2026-08-11, PMID 41798170)  <!-- 시험 5건 · 논문 14편 -->
 - [x] bovine colostrum — Sepsis에 듣는다 — 근거 있음(2026-08-11, PMID 27283365)  <!-- 시험 5건 · 논문 73편 -->
