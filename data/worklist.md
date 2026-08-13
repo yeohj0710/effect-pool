@@ -8701,15 +8701,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] triamcinolone — Oral Lichen Planus에 듣는다  <!-- 시험 20건 · 논문 181편 -->
 - [x] triamcinolone — Keloid에 듣는다  <!-- 시험 18건 · 논문 543편 -->
 - [x] zopiclone — Sleep에 듣는다  <!-- 시험 25건 · 논문 777편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 6건 · 논문 410편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다  <!-- 시험 6건 · 논문 410편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] zopiclone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 245편 --> — 근거 없음(불안장애 치료가 아닌 수면 연구 중심)
 - [x] zopiclone — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 25편 --> — 근거 없음(정신병 치료가 아닌 수면 보조 자료)
 - [x] erythromycin — Gastric Motility에 듣는다  <!-- 시험 4건 · 논문 300편 -->
-- [ ] erythromycin — Pneumonia에 듣는다  <!-- 시험 3건 · 논문 6254편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] erythromycin — Pneumonia에 듣는다  <!-- 시험 3건 · 논문 6254편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] erythromycin — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 15편 -->
 - [x] megestrol — Cachexia에 듣는다  <!-- 시험 20건 · 논문 273편 --> — 이미 megestrol-acetate-cachexia-null.json에 포함
 - [x] megestrol — Anorexia에 듣는다  <!-- 시험 19건 · 논문 230편 --> — 이미 megestrol-acetate-anorexia-null.json에 포함
-- [ ] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] megestrol — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 114편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] megestrol — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 46편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -8723,14 +8723,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] dronabinol — Marijuana에 듣는다  <!-- 시험 13건 · 논문 5625편 -->
 - [x] dronabinol — Cannabis에 듣는다  <!-- 시험 11건 · 논문 4802편 --> — 같은 대마 사용장애 근거로 처리
-- [ ] dronabinol — Vomiting에 듣는다  <!-- 시험 8건 · 논문 331편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] dronabinol — Vomiting에 듣는다  <!-- 시험 8건 · 논문 331편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] domperidone — Gastroesophageal Reflux에 듣는다  <!-- 시험 9건 · 논문 154편 -->
 - [x] domperidone — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 163편 -->
 - [x] domperidone — GERD에 듣는다  <!-- 시험 5건 · 논문 157편 --> — 같은 위식도역류 근거로 처리
 - [x] domperidone — Parkinson's Disease에 듣는다  <!-- 시험 5건 · 논문 166편 -->
-- [ ] flumazenil — Remimazolam에 듣는다  <!-- 시험 4건 · 논문 162편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] flumazenil — Remimazolam에 듣는다  <!-- 시험 4건 · 논문 162편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] flumazenil — Anxiety에 듣는다  <!-- 시험 3건 · 논문 1101편 --> — 근거 없음(불안 치료가 아니라 약동학·금단 연구)
-- [ ] flumazenil — Recovery에 듣는다  <!-- 시험 3건 · 논문 440편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] flumazenil — Recovery에 듣는다  <!-- 시험 3건 · 논문 440편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] levocarnitine — Lymphoblastic Lymphoma에 듣는다  <!-- 시험 8건 · 논문 17편 -->
 - [x] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(발프로산 병용시험에서 6개월 효과 없음)
 - [x] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
@@ -8740,16 +8740,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] loperamide — Intestinal Transit에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Intestinal Transit")  <!-- 시험 3건 · 논문 405편 -->
 - [x] loperamide — Rectal Carcinoma에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Rectal Carcinoma")  <!-- 시험 3건 · 논문 18편 -->
 - [x] mannitol — Asthma에 듣는다 — 근거 없음(2026-08-05 조회, "mannitol AND Asthma")  <!-- 시험 19건 · 논문 343편 -->
-- [ ] mannitol — Intracranial Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1117편 -->
-- [ ] mannitol — Cystic Fibrosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 207편 -->
+- [x] mannitol — Intracranial Pressure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1117편 -->
+- [x] mannitol — Cystic Fibrosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 207편 -->
 - [x] mannitol — Cirrhosis, Liver에 듣는다 — 근거 없음(2026-08-05 조회, "mannitol AND Cirrhosis, Liver")  <!-- 시험 10건 · 논문 115편 -->
 - [x] methylene blue — Shock에 듣는다  <!-- 시험 17건 · 논문 492편 -->
 - [x] methylene blue — Sentinel Node에 듣는다  <!-- 시험 9건 · 논문 501편 -->
 - [x] methylene blue — Periodontitis에 듣는다  <!-- 시험 8건 · 논문 263편 -->
 - [x] methylene blue — Wound Infection에 듣는다 — 근거 없음(2026-08-05 조회, "methylene blue AND Wound Infection")  <!-- 시험 8건 · 논문 86편 -->
 - [x] minocycline — Stroke에 듣는다  <!-- 시험 18건 · 논문 281편 -->
-- [ ] minocycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 502편 -->
-- [ ] minocycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 702편 -->
+- [x] minocycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 502편 -->
+- [x] minocycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 702편 -->
 - [x] minocycline — Depression에 듣는다  <!-- 시험 14건 · 논문 325편 -->
 - [x] nicotine — Drug Use에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Drug Use")  <!-- 시험 75건 · 논문 29021편 -->
 - [x] nicotine — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Cancer")  <!-- 시험 26건 · 논문 9155편 -->
@@ -8757,7 +8757,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nicotine — Smokers에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 18719편 --> — 기존 항목(nicotine-replacement-therapy-smoking-pos)
 - [x] pimavanserin — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 67편 -->
 - [x] pimavanserin — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
-- [ ] ramelteon — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 363편 -->
+- [x] ramelteon — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 363편 -->
 - [x] ramelteon — Delirium에 듣는다  <!-- 시험 8건 · 논문 108편 -->
 - [x] ramelteon — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 11편 -->
 - [x] ramelteon — Circadian Dysregulation에 듣는다  <!-- 시험 4건 · 논문 27편 -->
@@ -8765,21 +8765,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] riluzole — Melanoma에 듣는다  <!-- 시험 9건 · 논문 34편 -->
 - [x] riluzole — Bipolar Disorder에 듣는다  <!-- 시험 6건 · 논문 29편 -->
 - [x] riluzole — Spinal Cord Injury에 듣는다  <!-- 시험 4건 · 논문 155편 -->
-- [ ] rocuronium — Neuromuscular Block에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 67건 · 논문 1744편 -->
+- [x] rocuronium — Neuromuscular Block에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 67건 · 논문 1744편 -->
 - [x] rocuronium — Pain에 듣는다 — 근거 없음(2026-08-05 조회, "rocuronium AND Pain")  <!-- 시험 30건 · 논문 894편 -->
-- [ ] rocuronium — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 2287편 -->
-- [ ] selegiline — MDD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 19편 -->
+- [x] rocuronium — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 2287편 -->
+- [x] selegiline — MDD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 19편 -->
 - [x] selegiline — HIV Infections에 듣는다 — 근거 없음(2026-08-05 조회, "selegiline AND HIV Infections")  <!-- 시험 3건 · 논문 17편 -->
 - [x] sodium nitrite — Heart Failure에 듣는다  <!-- 시험 7건 · 논문 59편 -->
 - [x] sodium nitrite — Sickle Cell Anemia에 듣는다  <!-- 시험 5건 · 논문 16편 -->
 - [x] sodium nitrite — Myocardial Ischemia에 듣는다  <!-- 시험 4건 · 논문 94편 -->
 - [x] sodium nitrite — Cardiovascular Diseases에 듣는다 — 같은 근거(별도 항목 없음)  <!-- 시험 3건 · 논문 512편 -->
 - [x] sucralfate — Bleeding에 듣는다  <!-- 시험 4건 · 논문 401편 -->
-- [ ] sucralfate — Ulcer Healing에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 434편 -->
+- [x] sucralfate — Ulcer Healing에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 434편 -->
 - [x] theophylline — Pulmonary Complications에 듣는다 — 근거 없음(2026-08-05 조회, "theophylline AND Pulmonary Complications")  <!-- 시험 11건 · 논문 461편 -->
-- [ ] theophylline — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 1072편 -->
+- [x] theophylline — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 1072편 -->
 - [x] theophylline — Lung Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "theophylline AND Lung Cancer")  <!-- 시험 5건 · 논문 116편 -->
-- [ ] zaleplon — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 273편 -->
+- [x] zaleplon — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 273편 -->
 - [x] vilazodone — Anxiety에 듣는다  <!-- 시험 5건 · 논문 52편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -8794,13 +8794,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetaminophen — Opioid Use에 듣는다 — 근거 없음(2026-08-05 조회, "acetaminophen AND Opioid Use")  <!-- 시험 14건 · 논문 6588편 -->
 - [x] acetaminophen — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 7435편 --> — 새 항목(acetaminophen-surgery-pos)
 - [x] acetaminophen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1129편 --> — 기존 항목(acetaminophen-pain-pos)
-- [ ] atropine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 4261편 -->
+- [x] atropine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 4261편 -->
 - [x] atropine — Breast Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "atropine AND Breast Cancer")  <!-- 시험 13건 · 논문 28편 -->
 - [x] atropine — Nausea에 듣는다  <!-- 시험 10건 · 논문 385편 -->
-- [ ] atropine — Amblyopia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 275편 -->
-- [ ] bevacizumab — Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 171건 · 논문 6448편 -->
+- [x] atropine — Amblyopia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 275편 -->
+- [x] bevacizumab — Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 171건 · 논문 6448편 -->
 - [x] bevacizumab — Lymphoma에 듣는다  <!-- 시험 54건 · 논문 226편 -->
-- [ ] bevacizumab — Glioblastoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 47건 · 논문 1686편 -->
+- [x] bevacizumab — Glioblastoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 47건 · 논문 1686편 -->
 - [x] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
 - [ ] budesonide — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 799편 -->
 - [x] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->

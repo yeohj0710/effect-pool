@@ -1,0 +1,29 @@
+{
+  "id": "rocuronium-surgery-pos",
+  "subj": "로쿠로늄",
+  "claim": "제왕절개 수술 조건 개선에 로쿠로늄을 쓰는가",
+  "line": "수술 조건 점수와 절개부터 분만까지 시간은 석시닐콜린보다 좋았습니다",
+  "effect": "수술 점수 4점 vs3점",
+  "vs": "제왕절개 환자 45명 vs 45명; 수술 조건 점수 중앙값 4점(범위 3~5) vs 3점(2~4), 절개부터 분만까지 147±68초 vs 196±51초",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 90,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "전신마취 중 기관삽관과 신경근 차단에 허가된 근이완제입니다.",
+  "why": "깊은 신경근 차단으로 수술 시야와 기관삽관 조건을 개선할 수 있는지 비교했습니다.",
+  "saw": "전신마취 제왕절개 환자 90명을 로쿠로늄 또는 석시닐콜린에 무작위 배정해 분만 수술 조건을 평가했습니다.",
+  "limit": "제왕절개 전신마취라는 제한된 상황의 시험이며, 로쿠로늄군은 기관삽관까지 시간이 더 길었습니다.",
+  "against": "유도부터 분만까지 전체 시간은 로쿠로늄 268±73초 vs 석시닐콜린 276±63초로 비슷했습니다.",
+  "use": "산과 마취의 근이완제 선택은 산모·태아 상태와 기관삽관 위험을 함께 고려합니다.",
+  "refs": [
+    { "label": "Stevens 2019 · Anaesthesia · 제왕절개 로쿠로늄 비교 무작위시험", "pmid": "31537420" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "intr=rocuronium · cond=Surgery · 100건 반환(첫 페이지), InterventionName 일치 13건",
+    "pubmed": "rocuronium AND Surgery · 2291편",
+    "negative": "rocuronium AND Surgery AND (no effect OR did not OR failed OR negative OR no significant difference) · 1622편",
+    "safety": "rocuronium AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1907편"
+  }
+}

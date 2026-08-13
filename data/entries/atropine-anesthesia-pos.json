@@ -1,0 +1,29 @@
+{
+  "id": "atropine-anesthesia-pos",
+  "subj": "아트로핀",
+  "claim": "복강경 수술 마취 중 서맥 예방에 아트로핀을 쓰는가",
+  "line": "수술 중 서맥은 위약보다 적었습니다",
+  "effect": "서맥 0% vs28.1%",
+  "vs": "아트로핀 32명 vs 위약 32명; 수술 중 서맥 0명(0%) vs 9명(28.1%), p<.001",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 64,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "마취 중 미주신경성 서맥과 서맥성 부정맥 치료·예방에 허가된 약물입니다.",
+  "why": "무스카린 수용체를 차단해 복강경 수술 중 미주신경성 심박수 저하를 막는지 평가했습니다.",
+  "saw": "비뇨기 복강경 수술 예정 환자 64명을 아트로핀 또는 위약에 무작위 배정한 예방시험입니다.",
+  "limit": "특정 복강경 수술과 마취 방법에 한정된 시험이며, 예방적 항콜린제의 모든 환자 적용을 뜻하지 않습니다.",
+  "against": "아트로핀군에서도 수축기 혈압은 마취 유도 뒤 감소했지만 위약군보다 감소폭이 작았습니다.",
+  "use": "마취 중 서맥 예방은 환자 심장 상태와 수술 자극을 보며 마취과가 결정합니다.",
+  "refs": [
+    { "label": "Khan 2009 · Journal of Clinical Anesthesia · 복강경 수술 서맥 예방시험", "pmid": "19472126" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "intr=atropine · cond=Anesthesia · 100건 반환(첫 페이지), InterventionName 일치 13건",
+    "pubmed": "atropine AND Anesthesia · 4262편",
+    "negative": "atropine AND Anesthesia AND (no effect OR did not OR failed OR negative OR no significant difference) · 3207편",
+    "safety": "atropine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 7708편"
+  }
+}
