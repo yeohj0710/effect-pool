@@ -1,28 +1,36 @@
 {
-  "id": "air-pollution-reduction-cognitive-function-pos",
-  "subj": "air pollution reduction",
-  "claim": "대기오염 감소가 노인의 주의력과 주의력 관련 백질 건강을 개선할 가능성이 있다",
-  "line": "노인에서 대기오염 감소와 주의력·백질 건강 개선이 함께 나타났다.",
-  "effect": "PM2.5·NO2 감소와 주의력 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 431,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "대기오염 감소는 환경 중재이며 의약품 허가 적응증을 적용하지 않습니다",
-  "why": "대만의 인지정상 노인 431명을 대상으로 거주지의 10년 대기오염 변화와 주의력·뇌 백질 구조를 비교한 지역사회 코호트 연구입니다",
-  "saw": "PM2.5와 NO2가 더 빠르게 줄어든 사람은 주의력이 더 좋았고(PM2.5 r=-.1, P=.047; NO2 r=-.1, P=.03), 여러 백질 영역의 무결성도 높았습니다",
-  "limit": "무작위 환경중재가 아닌 관찰연구이며 오염 감소와 인지 변화의 원인·경로를 완전히 분리할 수 없습니다",
-  "against": "대기오염을 줄이면 치매를 예방하거나 모든 인지기능을 회복한다고 단정할 수 없습니다",
-  "use": "지역 환경 개선과 노인 인지건강의 연관성을 검토할 때 관찰 근거로 참고합니다",
-  "refs": [
-    { "label": "Yearly change in air pollution and brain aging among older adults: A community-based study in Taiwan", "pmid": "39002330" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "air pollution reduction 반환 45건, 정확한 중재명 대조 21건; Cognitive Function 후보 시험 3건",
-    "pubmed": "air pollution reduction AND Cognitive Function 검색 74건; PMID 39002330 직접 사람 코호트 확인",
-    "negative": "air pollution reduction AND Cognitive Function AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 60건",
-    "safety": "air pollution reduction AND Cognitive Function AND (adverse OR toxicity OR harm OR risk OR case report) 검색 57건"
+ "id": "air-pollution-reduction-cognitive-function-pos",
+ "subj": "대기오염 저감",
+ "claim": "대기오염 감소가 노인의 주의력과 주의력 관련 백질 건강을 개선할 가능성이 있다",
+ "line": "노인에서 대기오염 감소와 주의력·백질 건강 개선이 함께 나타났다.",
+ "effect": "PM2.5·NO2 감소와 주의력 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 431,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "대기오염 감소는 환경 중재이며 의약품 허가 적응증을 적용하지 않습니다",
+ "why": "대만의 인지정상 노인 431명을 대상으로 거주지의 10년 대기오염 변화와 주의력·뇌 백질 구조를 비교한 지역사회 코호트 연구입니다",
+ "saw": "PM2.5와 NO2가 더 빠르게 줄어든 사람은 주의력이 더 좋았고(PM2.5 r=-.1, P=.047; NO2 r=-.1, P=.03), 여러 백질 영역의 무결성도 높았습니다",
+ "limit": "무작위 환경중재가 아닌 관찰연구이며 오염 감소와 인지 변화의 원인·경로를 완전히 분리할 수 없습니다",
+ "against": "대기오염을 줄이면 치매를 예방하거나 모든 인지기능을 회복한다고 단정할 수 없습니다",
+ "use": "지역 환경 개선과 노인 인지건강의 연관성을 검토할 때 관찰 근거로 참고합니다",
+ "refs": [
+  {
+   "label": "Yearly change in air pollution and brain aging among older adults: A community-based study in Taiwan",
+   "pmid": "39002330"
+  },
+  {
+   "label": "중국 청정대기법과 노인 인지기능 준실험 연구",
+   "pmid": "35224526"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "air pollution reduction 반환 45건, 정확한 중재명 대조 21건; Cognitive Function 후보 시험 3건",
+  "pubmed": "air pollution reduction AND Cognitive Function 검색 74건; PMID 39002330 직접 사람 코호트 확인",
+  "negative": "air pollution reduction AND Cognitive Function AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 60건",
+  "safety": "air pollution reduction AND Cognitive Function AND (adverse OR toxicity OR harm OR risk OR case report) 검색 57건"
+ },
+ "vs": "대기오염 저감 지역 vs 대조 지역: 2014~2018 MMSE 감소량의 군 간 차이 2.45점(95% CI 1.32~3.57; n=2,812)"
 }

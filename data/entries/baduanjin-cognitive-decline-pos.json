@@ -1,29 +1,39 @@
 {
-  "id": "baduanjin-cognitive-decline-pos",
-  "subj": "Baduanjin 인지저하",
-  "claim": "노인의 인지저하에서 Baduanjin 운동은 전반 인지·기억·집행기능을 개선했다",
-  "line": "노인은 팔단금 운동 후 전반적 인지·기억·집행기능이 좋아졌다.",
-  "effect": "전반 인지 MD 2.15",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 539,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "Baduanjin은 인지저하 치료제로 허가되지 않았고 운동 중재의 연구 신호만 있습니다",
-  "why": "노인 인지저하에서 Baduanjin 운동의 인지 효과를 평가한 무작위시험 메타분석을 검토했습니다.",
-  "saw": "7개 무작위시험 539명을 합친 메타분석에서 Baduanjin은 전반 인지기능을 MD 2.15(95% CI 1.53–2.76), 기억을 SMD 0.59, 집행기능을 SMD 0.26만큼 개선했습니다. 포함 연구에서 Baduanjin 관련 이상반응은 보고되지 않았습니다.",
-  "limit": "지역사회 거주 노인을 대상으로 한 7개 시험이고 연구 기간·운동량·인지검사가 달랐습니다. 치매의 진행을 늦추거나 일상 기능을 장기간 유지하는 효과는 확인하지 않았습니다.",
-  "against": "메타분석 저자도 더 엄격한 무작위시험이 필요하다고 했고 단기 인지검사 점수와 장기 임상 결과를 구분해야 합니다.",
-  "use": "노인 인지저하의 운동 보조요법 후보로 기록하며 치매 치료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "Effects of Baduanjin exercise on cognitive impairment in older adults: a systematic review and meta-analysis", "doi": "10.3389/fpubh.2025.1586011", "pmid": "40678632", "pmc": "PMC12267035" },
-    { "label": "Systematic review and meta-analysis of randomized controlled trials assessing the impact of Baduanjin exercise on cognition and memory in patients with mild cognitive impairment", "doi": "10.1177/0269215520969661", "pmid": "33143442" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=Baduanjin&query.cond=Cognitive Decline; total 11, direct 6",
-    "pubmed": "Baduanjin[Title/Abstract] AND Cognitive Decline[Title/Abstract]; 13",
-    "negative": "Baduanjin[Title/Abstract] AND Cognitive Decline[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 3",
-    "safety": "Baduanjin[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 109"
+ "id": "baduanjin-cognitive-decline-pos",
+ "subj": "팔단금 인지저하",
+ "claim": "노인의 인지저하에서 Baduanjin 운동은 전반 인지·기억·집행기능을 개선했다",
+ "line": "노인은 팔단금 운동 후 전반적 인지·기억·집행기능이 좋아졌다.",
+ "effect": "전반 인지 MD 2.15",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 539,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "Baduanjin은 인지저하 치료제로 허가되지 않았고 운동 중재의 연구 신호만 있습니다",
+ "why": "노인 인지저하에서 Baduanjin 운동의 인지 효과를 평가한 무작위시험 메타분석을 검토했습니다.",
+ "saw": "7개 무작위시험 539명을 합친 메타분석에서 Baduanjin은 전반 인지기능을 MD 2.15(95% CI 1.53–2.76), 기억을 SMD 0.59, 집행기능을 SMD 0.26만큼 개선했습니다. 포함 연구에서 Baduanjin 관련 이상반응은 보고되지 않았습니다.",
+ "limit": "지역사회 거주 노인을 대상으로 한 7개 시험이고 연구 기간·운동량·인지검사가 달랐습니다. 치매의 진행을 늦추거나 일상 기능을 장기간 유지하는 효과는 확인하지 않았습니다.",
+ "against": "메타분석 저자도 더 엄격한 무작위시험이 필요하다고 했고 단기 인지검사 점수와 장기 임상 결과를 구분해야 합니다.",
+ "use": "노인 인지저하의 운동 보조요법 후보로 기록하며 치매 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "Effects of Baduanjin exercise on cognitive impairment in older adults: a systematic review and meta-analysis",
+   "doi": "10.3389/fpubh.2025.1586011",
+   "pmid": "40678632",
+   "pmc": "PMC12267035"
+  },
+  {
+   "label": "Systematic review and meta-analysis of randomized controlled trials assessing the impact of Baduanjin exercise on cognition and memory in patients with mild cognitive impairment",
+   "doi": "10.1177/0269215520969661",
+   "pmid": "33143442"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=Baduanjin&query.cond=Cognitive Decline; total 11, direct 6",
+  "pubmed": "Baduanjin[Title/Abstract] AND Cognitive Decline[Title/Abstract]; 13",
+  "negative": "Baduanjin[Title/Abstract] AND Cognitive Decline[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 3",
+  "safety": "Baduanjin[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 109"
+ },
+ "vs": "팔단금 vs 대조: 전반 인지 MD 2.15(95% CI 1.53~2.76), 기억 SMD .59, 집행기능 .26(7 RCT·539명)"
 }

@@ -1,29 +1,39 @@
 {
-  "id": "air-purifier-rhinitis-allergic-pos",
-  "subj": "air purifier",
-  "claim": "알레르기 비염에서 HEPA 공기청정기는 실내 미세먼지와 약물 사용량을 줄일 수 있습니다",
-  "line": "집먼지진드기 비염에서 HEPA 공기청정기를 사용하자 미세먼지와 약물 점수가 낮아졌다.",
-  "effect": "약물 사용량 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "air purifier는 비약물 환경 기기이며 알레르기 비염의 허가 적응증으로 분류하지 않습니다.",
-  "why": "집먼지진드기와 실내 미세먼지를 줄이면 알레르기 비염의 환경 노출과 약물 필요량을 낮출 가능성이 있습니다.",
-  "saw": "쑥 꽃가루 알레르기 비염 환자 90명을 활성 또는 비활성 공기청정기에 무작위 배정했습니다. 활성 기기는 비염 증상 점수와 실내 입자 농도를 대조군보다 낮췄습니다.",
-  "limit": "한 지역의 계절성 꽃가루 노출 연구라 다른 알레르겐과 실내 환경에 같은 효과를 보장하지 않습니다.",
-  "against": "집먼지진드기 비염 연구에서는 실내 미세먼지와 약물 점수는 줄었지만 주관적 증상과 삶의 질 차이는 일관되지 않았습니다.",
-  "use": "알레르기 비염의 환경 관리 보조로 사용하고 알레르겐 회피와 표준 약물 치료를 함께 유지합니다.",
-  "refs": [
-    { "label": "알레르기 비염 실내 공기 여과 무작위시험", "doi": "10.1111/coa.13514", "pmid": "32058675" },
-    { "label": "알레르기 비염 HEPA 여과 연구", "doi": "10.3349/ymj.2020.61.8.689", "pmid": "32734732", "nct": "NCT03313453" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "air purifier AND Rhinitis Allergic · 직접 확인 14건",
-    "pubmed": "\"air purifier\" AND \"Rhinitis Allergic\" · 9편",
-    "negative": "air purifier AND Rhinitis Allergic AND (no effect OR did not OR failed to OR negative OR no significant difference)",
-    "safety": "air purifier AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ "id": "air-purifier-rhinitis-allergic-pos",
+ "subj": "공기청정기",
+ "claim": "알레르기 비염에서 HEPA 공기청정기는 실내 미세먼지와 약물 사용량을 줄일 수 있습니다",
+ "line": "집먼지진드기 비염에서 HEPA 공기청정기를 사용하자 미세먼지와 약물 점수가 낮아졌다.",
+ "effect": "약물 사용량 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "air purifier는 비약물 환경 기기이며 알레르기 비염의 허가 적응증으로 분류하지 않습니다.",
+ "why": "집먼지진드기와 실내 미세먼지를 줄이면 알레르기 비염의 환경 노출과 약물 필요량을 낮출 가능성이 있습니다.",
+ "saw": "쑥 꽃가루 알레르기 비염 환자 90명을 활성 또는 비활성 공기청정기에 무작위 배정했습니다. 활성 기기는 비염 증상 점수와 실내 입자 농도를 대조군보다 낮췄습니다.",
+ "limit": "한 지역의 계절성 꽃가루 노출 연구라 다른 알레르겐과 실내 환경에 같은 효과를 보장하지 않습니다.",
+ "against": "집먼지진드기 비염 연구에서는 실내 미세먼지와 약물 점수는 줄었지만 주관적 증상과 삶의 질 차이는 일관되지 않았습니다.",
+ "use": "알레르기 비염의 환경 관리 보조로 사용하고 알레르겐 회피와 표준 약물 치료를 함께 유지합니다.",
+ "refs": [
+  {
+   "label": "알레르기 비염 실내 공기 여과 무작위시험",
+   "doi": "10.1111/coa.13514",
+   "pmid": "32058675"
+  },
+  {
+   "label": "알레르기 비염 HEPA 여과 연구",
+   "doi": "10.3349/ymj.2020.61.8.689",
+   "pmid": "32734732",
+   "nct": "NCT03313453"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "air purifier AND Rhinitis Allergic · 직접 확인 14건",
+  "pubmed": "\"air purifier\" AND \"Rhinitis Allergic\" · 9편",
+  "negative": "air purifier AND Rhinitis Allergic AND (no effect OR did not OR failed to OR negative OR no significant difference)",
+  "safety": "air purifier AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ },
+ "vs": "활성 공기청정기 vs 비활성 대조: 알레르기 비염 증상군 간 차이 P=.004; 다른 HEPA 시험에서 약물 점수 개선 및 실내 PM2.5 최대 51.8% 감소(n=90)"
 }

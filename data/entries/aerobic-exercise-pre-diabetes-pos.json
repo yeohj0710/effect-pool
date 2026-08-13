@@ -1,28 +1,37 @@
 {
-  "id": "aerobic-exercise-pre-diabetes-pos",
-  "subj": "유산소 운동",
-  "claim": "당뇨병 전단계에 유산소 운동을 쓴다",
-  "line": "당뇨병 전단계에서는 유산소 운동 뒤 혈당 조절과 체중이 개선됐다.",
-  "effect": "혈당·체중 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1946,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "유산소 운동은 비약물 중재이며 약물 허가 적응증으로 분류하지 않습니다.",
-  "why": "당뇨병 전단계의 운동 처방을 비교한 네트워크 메타분석입니다.",
-  "saw": "24개 연구 1,946명에서 운동은 무운동보다 혈당 조절에 유리했습니다. 중등도 유산소 운동과 저·중부하 저항운동을 함께 하면 HbA1c, BMI, 체중, 총콜레스테롤과 LDL 개선 순위가 높았습니다.",
-  "limit": "운동 종류와 강도가 다양했고 혈당 변화의 크기는 중간 정도였습니다.",
-  "against": "유산소 운동이 당뇨병 발생을 반드시 막는다는 결과나 약물과의 직접 비교는 아닙니다.",
-  "use": "당뇨병 전단계 생활습관 관리의 운동 근거로 기록합니다.",
-  "refs": [
-    { "label": "당뇨병 전단계 운동 처방 네트워크 메타분석", "doi": "10.3389/fendo.2024.1308959", "pmid": "38440785" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=aerobic exercise, cond=Pre Diabetes · 61건",
-    "pubmed": "aerobic exercise AND Pre Diabetes · 3446편",
-    "negative": "aerobic exercise AND Pre Diabetes AND (no benefit OR no difference OR failed OR ineffective) · 1524편",
-    "safety": "aerobic exercise AND Pre Diabetes AND (adverse OR safety OR toxicity) · 487편"
+ "id": "aerobic-exercise-pre-diabetes-pos",
+ "subj": "유산소 운동",
+ "claim": "당뇨병 전단계에 유산소 운동을 쓴다",
+ "line": "당뇨병 전단계에서는 유산소 운동 뒤 혈당 조절과 체중이 개선됐다.",
+ "effect": "혈당·체중 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1946,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "유산소 운동은 비약물 중재이며 약물 허가 적응증으로 분류하지 않습니다.",
+ "why": "당뇨병 전단계의 운동 처방을 비교한 네트워크 메타분석입니다.",
+ "saw": "24개 연구 1,946명에서 운동은 무운동보다 혈당 조절에 유리했습니다. 중등도 유산소 운동과 저·중부하 저항운동을 함께 하면 HbA1c, BMI, 체중, 총콜레스테롤과 LDL 개선 순위가 높았습니다.",
+ "limit": "운동 종류와 강도가 다양했고 혈당 변화의 크기는 중간 정도였습니다.",
+ "against": "유산소 운동이 당뇨병 발생을 반드시 막는다는 결과나 약물과의 직접 비교는 아닙니다.",
+ "use": "당뇨병 전단계 생활습관 관리의 운동 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "당뇨병 전단계 운동 처방 네트워크 메타분석",
+   "doi": "10.3389/fendo.2024.1308959",
+   "pmid": "38440785"
+  },
+  {
+   "label": "당뇨병 전단계 고강도 인터벌 운동 메타분석",
+   "pmid": "40778279"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=aerobic exercise, cond=Pre Diabetes · 61건",
+  "pubmed": "aerobic exercise AND Pre Diabetes · 3446편",
+  "negative": "aerobic exercise AND Pre Diabetes AND (no benefit OR no difference OR failed OR ineffective) · 1524편",
+  "safety": "aerobic exercise AND Pre Diabetes AND (adverse OR safety OR toxicity) · 487편"
+ },
+ "vs": "고강도 인터벌 운동 vs 대조: HbA1c MD -.44%(95% CI -.55~-.32), 2시간 혈당 -1.30(-1.60~-.93); 유산소+저항운동 BMI -.89(-1.28~-.50)"
 }

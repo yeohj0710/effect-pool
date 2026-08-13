@@ -1,32 +1,33 @@
 {
-  "id": "barley-cardiovascular-disease-pos",
-  "subj": "barley",
-  "claim": "보리를 심혈관질환 위험 관리에 쓴다",
-  "line": "보리 베타글루칸은 LDL·non-HDL 콜레스테롤을 낮췄지만 연구 간 이질성이 컸다.",
-  "effect": "LDL MD −0.25 mmol/L",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 615,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "심혈관 위험 표지자인 지질에 보리 또는 보리 베타글루칸을 적용한 무작위시험 메타분석을 확인했습니다",
-  "saw": "14개 무작위시험 615명에서 LDL은 평균 0.25 mmol/L, non-HDL은 0.31 mmol/L 낮았고 apoB는 유의한 차이가 없었습니다",
-  "limit": "LDL 분석 이질성이 I² 98%로 매우 컸습니다",
-  "against": "대조 식이",
-  "use": "심혈관 위험 표지자 개선을 위한 식이 보충 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "The effect of barley-derived soluble fiber on serum lipids",
-      "doi": "10.1038/ejcn.2016.89",
-      "pmid": "27273067"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=barley · cond=Cardiovascular Disease: 6건",
-    "pubmed": "barley AND Cardiovascular Disease AND (randomized OR trial OR meta-analysis): 60건",
-    "negative": "barley AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 118건",
-    "safety": "barley AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2143건"
+ "id": "barley-cardiovascular-disease-pos",
+ "subj": "보리",
+ "claim": "보리를 심혈관질환 위험 관리에 쓴다",
+ "line": "보리 베타글루칸은 LDL·non-HDL 콜레스테롤을 낮췄지만 연구 간 이질성이 컸다.",
+ "effect": "LDL MD −0.25 mmol/L",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 615,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "심혈관 위험 표지자인 지질에 보리 또는 보리 베타글루칸을 적용한 무작위시험 메타분석을 확인했습니다",
+ "saw": "14개 무작위시험 615명에서 LDL은 평균 0.25 mmol/L, non-HDL은 0.31 mmol/L 낮았고 apoB는 유의한 차이가 없었습니다",
+ "limit": "LDL 분석 이질성이 I² 98%로 매우 컸습니다",
+ "against": "대조 식이",
+ "use": "심혈관 위험 표지자 개선을 위한 식이 보충 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "The effect of barley-derived soluble fiber on serum lipids",
+   "doi": "10.1038/ejcn.2016.89",
+   "pmid": "27273067"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=barley · cond=Cardiovascular Disease: 6건",
+  "pubmed": "barley AND Cardiovascular Disease AND (randomized OR trial OR meta-analysis): 60건",
+  "negative": "barley AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 118건",
+  "safety": "barley AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2143건"
+ },
+ "vs": "보리 유래 수용성 식이섬유 vs 대조: LDL MD -0.25mmol/L, non-HDL -0.31mmol/L(14 RCT·615명)"
 }
