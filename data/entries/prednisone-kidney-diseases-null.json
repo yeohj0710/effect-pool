@@ -1,0 +1,29 @@
+{
+  "id": "prednisone-kidney-diseases-null",
+  "subj": "프레드니손",
+  "claim": "프레드니손 치료 기간을 늘리면 소아 신증후군 재발을 줄인다",
+  "line": "소아 스테로이드 민감성 신증에서 프레드니손 기간을 늘려도 재발 차이는 작았습니다.",
+  "effect": "재발 RR 0.96 vs 0.99",
+  "vs": "소아 스테로이드 민감성 신증 54개 무작위시험 4,670명 검토에서 프레드니손 2개월 대 3개월 이상 치료의 빈번한 재발 RR은 0.96(95% CI 0.83~1.10), 3개월 대 5~7개월은 0.99(0.74~1.33)였습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4670,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "프레드니손은 소아 스테로이드 민감성 신증의 관해 유도와 재발 치료에 사용되는 코르티코스테로이드입니다.",
+  "why": "소아 스테로이드 민감성 신증에서 프레드니손의 기간·총량·투여 전략을 비교한 무작위시험을 합친 Cochrane 검토입니다.",
+  "saw": "54개 시험 4,670명을 포함했고, 2개월 대 3개월 이상과 3개월 대 5~7개월의 재발 차이는 뚜렷하지 않았습니다.",
+  "limit": "대부분의 비교는 프레드니손 치료 기간 또는 용량 전략 사이의 비교이며, 모든 신장질환이나 스테로이드 저항성 신증에 적용할 수 없습니다.",
+  "against": "프레드니손은 성장·혈압·혈당·골 건강에 이상반응을 일으킬 수 있어 기간을 무조건 늘리면 안 됩니다.",
+  "use": "소아 스테로이드 민감성 신증에서 프레드니손 치료 기간을 결정할 때 재발과 이상반응의 균형을 보여주는 근거로 사용합니다.",
+  "refs": [
+    { "label": "Hodson 2024 · Cochrane Database of Systematic Reviews · 소아 신증후군 코르티코스테로이드 치료 검토", "pmid": "39171624" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=prednisone&query.cond=Kidney Diseases; 100건 페이지 반환 상한, InterventionName에 prednisone 포함 최소 49건",
+    "pubmed": "prednisone AND kidney disease; 6,053건",
+    "negative": "prednisone AND kidney disease AND (no effect OR did not OR failed OR negative OR no significant difference); 3,128건",
+    "safety": "prednisone AND kidney disease AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose); 3,501건"
+  }
+}

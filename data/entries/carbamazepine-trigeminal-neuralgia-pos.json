@@ -1,0 +1,29 @@
+{
+  "id": "carbamazepine-trigeminal-neuralgia-pos",
+  "subj": "카바마제핀",
+  "claim": "카바마제핀이 삼차신경통 통증을 줄인다",
+  "line": "삼차신경통에서 카바마제핀은 위약보다 통증을 줄였습니다.",
+  "effect": "통증 −32% vs 위약",
+  "vs": "성인 삼차신경통 위약대조 무작위시험 8개 89명을 검토한 분석에서 경구 카바마제핀은 위약보다 통증 강도를 32% 낮췄습니다(P<0.001). 근거는 한 소규모 시험에 기반했습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 89,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "카바마제핀은 삼차신경통 치료에 허가된 항경련제입니다.",
+  "why": "성인 삼차신경통에서 약물을 위약과 비교한 무작위시험을 체계적으로 검토한 분석이며, 카바마제핀 시험은 한 건이 포함됐습니다.",
+  "saw": "8개 무작위시험 89명을 검토했고, 카바마제핀 시험에서 통증 강도가 위약보다 32% 개선됐습니다.",
+  "limit": "카바마제핀 결과가 한 소규모 시험에만 기반하고 전체 분석의 대부분은 다른 약물 자료였으며 비뚤림 위험이 높았습니다.",
+  "against": "어지럼·졸림·저나트륨혈증·혈액 이상과 약물상호작용을 고려해야 하며, 이 결과만으로 장기 안전성을 판단할 수 없습니다.",
+  "use": "삼차신경통에서 카바마제핀의 제한적인 위약 비교 근거로 사용합니다.",
+  "refs": [
+    { "label": "Lima 2022 · Journal of Oral & Facial Pain and Headache · 삼차신경통 약물 위약 비교 검토", "pmid": "34703889" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=carbamazepine&query.cond=Trigeminal Neuralgia; 14건 반환, InterventionName에 carbamazepine 포함 9건",
+    "pubmed": "carbamazepine AND trigeminal neuralgia; 1,019건",
+    "negative": "carbamazepine AND trigeminal neuralgia AND (no effect OR did not OR failed OR negative OR no significant difference); 584건",
+    "safety": "carbamazepine AND trigeminal neuralgia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose); 519건"
+  }
+}

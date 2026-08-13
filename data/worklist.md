@@ -2696,7 +2696,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid19-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
@@ -3156,7 +3156,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
@@ -3386,7 +3386,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
@@ -3616,7 +3616,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
@@ -4003,40 +4003,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] buspirone — Autism에 듣는다  <!-- 등록 시험 6건 -->
 - [x] buspirone — Depression에 듣는다  <!-- 등록 시험 5건 -->
 - [x] buspirone — Heroin Dependence에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] aripiprazole — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
-- [ ] aripiprazole — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
+- [x] aripiprazole — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ? ??(aripiprazole-bipolar-pos)
+- [x] aripiprazole — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 --> — ? ??(aripiprazole-depression-pos)
 - [x] aripiprazole — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] aripiprazole — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 -->
-- [ ] mirtazapine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] aripiprazole — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 20건 --> — ? ??(aripiprazole-depression-pos)
+- [x] mirtazapine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ????? ??? ? ?? ??)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
 - [x] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
 - [x] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] pregabalin — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 -->
-- [ ] pregabalin — Neuropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
-- [ ] pregabalin — Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 -->
-- [ ] pregabalin — Partial Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
-- [ ] lamotrigine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 -->
+- [x] pregabalin — Fibromyalgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 --> — ? ??(pregabalin-fibromyalgia-pos)
+- [x] pregabalin — Neuropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 --> — ? ??(pregabalin-neuropathy-pos)
+- [x] pregabalin — Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 36건 --> — ? ??(pregabalin-neuralgia-pos)
+- [x] pregabalin — Partial Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — ? ??(pregabalin-partial-seizures-pos)
+- [x] lamotrigine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 53건 --> — ?? ??(lamotrigine-bipolar-disorder-pos)
 - [x] lamotrigine — Depression에 듣는다 — 기존 항목(lamotrigine-depression-open)  <!-- 등록 시험 12건 -->
 - [x] lamotrigine — Vertigo, Aural에 듣는다 — 기존 항목(lamotrigine-vertigo-aural-open)  <!-- 등록 시험 7건 -->
 - [x] lamotrigine — Schizophrenia에 듣는다 — 기존 항목(lamotrigine-schizophrenia-open)  <!-- 등록 시험 4건 -->
 - [x] carbamazepine — Healthy Adults에 듣는다 — 조사 제외(질환 아님)  <!-- 등록 시험 14건 -->
-- [ ] carbamazepine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
-- [ ] carbamazepine — Trigeminal Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] carbamazepine — Bipolar Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ???? ??? ?????? ?? ??? ???)
+- [x] carbamazepine — Trigeminal Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ? ??(carbamazepine-trigeminal-neuralgia-pos)
 - [x] carbamazepine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] clonazepam — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
+- [x] clonazepam — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(clonazepam-epilepsy-null)
 - [x] clonazepam — Pain에 듣는다  <!-- 등록 시험 4건 -->
 - [x] clonazepam — REM Sleep Behavior Disorder에 듣는다  <!-- 등록 시험 3건 -->
 - [x] clonazepam — Schizophrenia에 듣는다  <!-- 등록 시험 3건 -->
-- [ ] prednisone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 154건 -->
-- [ ] prednisone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 78건 -->
+- [x] prednisone — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 154건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ? ??? ??? ????? ???? ??)
+- [x] prednisone — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 78건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ????? ???? ??)
 - [x] prednisone — Myeloma에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] prednisone — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
-- [ ] warfarin — Thromboembolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 70건 -->
+- [x] prednisone — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ? ??(prednisone-kidney-diseases-null)
+- [x] warfarin — Thromboembolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 70건 --> — ?? ??(warfarin-thromboembolism-pos)
 - [x] warfarin — Heart Defect에 듣는다 — 기존 항목(warfarin-heart-defect-open)  <!-- 등록 시험 49건 -->
-- [ ] warfarin — Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 -->
-- [ ] warfarin — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] warfarin — Embolism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 --> — ?? ??(warfarin-embolism-pos)
+- [x] warfarin — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(warfarin-thrombosis-null)
 - [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 등록 시험 73건 -->
-- [ ] omeprazole — Ulcer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 -->
+- [x] omeprazole — Ulcer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ?? ????? ?? ?? ?? ??)
 - [ ] omeprazole — Gastric Acid에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 -->
 - [ ] omeprazole — GERD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
 - [ ] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 -->
@@ -4823,10 +4823,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(clopidogrel-atrial-fibrillation-null)
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(clopidogrel-platelet-function-open)
-- [ ] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(warfarin-thromboembolism-pos)
 - [x] warfarin — Heart Defect에 듣는다  <!-- 등록 시험 49건 --> — 기존 항목(warfarin-heart-defect-open)
-- [ ] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] warfarin — Embolism에 듣는다  <!-- 등록 시험 47건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(warfarin-embolism-pos)
+- [x] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(warfarin-thrombosis-null)
 - [x] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(valproic-acid-nasopharyngeal-carcinoma-open)
 - [x] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(valproic-acid-thyroid-neoplasm-open)
 - [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -5153,7 +5153,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid19-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
@@ -5381,7 +5381,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] haloperidol — Agitation에 듣는다  <!-- 등록 시험 18건 -->
 - [x] haloperidol — Nausea에 듣는다  <!-- 등록 시험 12건 -->
 - [x] haloperidol — Advanced Cancer에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] mirtazapine — Depression에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] mirtazapine — Depression에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ????? ??? ? ?? ??)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
 - [x] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
 - [x] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
@@ -5765,7 +5765,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] hydroxychloroquine — Covid19에 듣는다 — 기존 항목(hydroxychloroquine-covid19-null)  <!-- 등록 시험 33건 -->
 - [x] valacyclovir — HIV에 듣는다 — 기존 항목(valacyclovir-hiv-null)  <!-- 등록 시험 24건 -->
 - [x] valacyclovir — Cancer에 듣는다 — 기존 항목(valacyclovir-cancer)  <!-- 등록 시험 16건 -->
-- [ ] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
+- [x] valacyclovir — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(valacyclovir-infection-pos)
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
@@ -7164,10 +7164,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] warfarin — Thromboembolism에 듣는다  <!-- 시험 70건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] warfarin — Thromboembolism에 듣는다  <!-- 시험 70건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-thromboembolism-pos)
 - [ ] warfarin — Heart Defect에 듣는다  <!-- 시험 49건 · 논문 364편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] warfarin — Embolism에 듣는다  <!-- 시험 47건 · 논문 5435편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] warfarin — Thrombosis에 듣는다  <!-- 시험 41건 · 논문 9143편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] warfarin — Embolism에 듣는다  <!-- 시험 47건 · 논문 5435편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-embolism-pos)
+- [x] warfarin — Thrombosis에 듣는다  <!-- 시험 41건 · 논문 9143편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(warfarin-thrombosis-null)
 - [ ] clopidogrel — Stroke에 듣는다  <!-- 시험 72건 · 논문 4606편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 시험 69건 · 논문 460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 시험 22건 · 논문 960편 --> — 이미 수록됨(2026-08-05)
@@ -7185,7 +7185,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pantoprazole — Coronary Thrombosis에 듣는다  <!-- 시험 10건 · 논문 9편 -->
 - [x] pantoprazole — Dyspepsia에 듣는다  <!-- 시험 8건 · 논문 115편 -->
 - [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 --> — 이미 수록됨(2026-08-05)
-- [ ] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ?? ????? ?? ?? ?? ??)
 - [x] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->
 - [ ] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] rifampin — HIV에 듣는다  <!-- 시험 25건 · 논문 1834편 --> — 이미 수록됨(2026-08-05)
@@ -7215,15 +7215,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketorolac — Knee Injuries에 듣는다  <!-- 시험 38건 · 논문 15편 -->
 - [ ] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] ketorolac — Renal Colic에 듣는다  <!-- 시험 16건 · 논문 83편 -->
-- [ ] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ????? ??? ? ?? ??)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 시험 15건 · 논문 339편 --> — 이미 수록됨(2026-08-05)
 - [x] mirtazapine — Cancer에 듣는다  <!-- 시험 12건 · 논문 193편 --> — 이미 수록됨(2026-08-05)
 - [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 시험 58건 · 논문 299편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] venlafaxine — Pain에 듣는다  <!-- 시험 17건 · 논문 511편 --> — 이미 수록됨(2026-08-05)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 107편 --> — 이미 수록됨(2026-08-05)
-- [ ] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ? ??? ??? ????? ???? ??)
 - [x] prednisone — Myeloma에 듣는다  <!-- 시험 21건 · 논문 1841편 --> — 이미 수록됨(2026-08-05)
-- [ ] prednisone — Kidney Diseases에 듣는다  <!-- 시험 19건 · 논문 5235편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] prednisone — Kidney Diseases에 듣는다  <!-- 시험 19건 · 논문 5235편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ? ??(prednisone-kidney-diseases-null)
 - [x] hydrochlorothiazide — Diabetes에 듣는다  <!-- 시험 28건 · 논문 1036편 -->
 - [x] hydrochlorothiazide — Heart Arrest에 듣는다  <!-- 시험 14건 · 논문 18편 --> — 결과 대기(2026-08-05)
 - [x] hydrochlorothiazide — Kidney Stone에 듣는다  <!-- 시험 12건 · 논문 158편 -->
