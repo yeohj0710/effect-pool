@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5821,
-  "subjects": 2221,
-  "refs": 8183,
+  "entries": 5844,
+  "subjects": 2227,
+  "refs": 8206,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2381
+    "rx": 2404
   },
   "tiers": {
-    "trial": 5000,
+    "trial": 5023,
     "obs": 727,
     "animal": 30,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3457,
-    "null": 1165,
+    "pos": 3476,
+    "null": 1169,
     "open": 1038,
     "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 15082,
-    "unchecked": 460,
-    "no_evidence_pending": 2020,
-    "note": "Batch 1265 checked 30 unique prescription topics from lines 9146-9286. No identifiable non-prescription topics were available in this queue segment, so prescription topics were processed. New evidence entries: 26; existing links: 0; no-evidence rejects: 4 (thiotepa Myelodysplastic Syndrome, thiotepa Germ Cell Tumors, botulinum toxin Crow's Feet, and canakinumab Gout lacked a valid numeric comparator effect)."
+    "checked": 15112,
+    "unchecked": 430,
+    "no_evidence_pending": 2027,
+    "note": "Batch 1266 checked 30 unique prescription topics from worklist lines 9313-9399. No identifiable non-prescription topics were available in this queue segment, so prescription topics were processed. New evidence entries: 23; existing links: 0; no-evidence rejects: 7 (moxifloxacin Infection, ritonavir Hepatitis C, ritonavir COVID, ritonavir HCV Infection, upadacitinib Inflammatory Disease, valbenazine Schizophrenia, and dabrafenib Lung Carcinoma lacked an eligible single-topic numeric comparator effect)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,15 +40,15 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "16.7% (947 entries)",
-    "rx_share": "40.9% (2,381 entries)",
-    "no_effect_or_harm_share": "22.8% (1,326 entries)",
-    "vs_share": "13.3% (777 entries)",
+    "over_counter_share": "16.2% (947 entries)",
+    "rx_share": "41.1% (2,404 entries)",
+    "no_effect_or_harm_share": "22.8% (1,330 entries)",
+    "vs_share": "13.7% (800 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.9% (5,000 entries)",
-    "non_trial_share": "14.2% (821 entries)",
+    "trial_share": "86.0% (5,023 entries)",
+    "non_trial_share": "14.0% (821 entries)",
     "build_warnings": {
-      "unknown_n": 452,
+      "unknown_n": 455,
       "thin_study": 988,
       "targeted_batch_warnings": 0
     }
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1266 starts after batch 1265. Prioritize non-prescription topics first; none were identifiable in this queue segment. Resume at worklist line 9313: moxifloxacin — Pneumonia. 460 unchecked rows remain.",
+  "next": "Batch 1267 starts after batch 1266. Prioritize non-prescription topics first; none were identifiable in this queue segment. Resume at worklist line 9402: selpercatinib — Cancer. 430 unchecked rows remain.",
   "last_batch": {
-    "id": "1265",
-    "commit": "e2e743c1",
-    "pushed": true,
+    "id": "1266",
+    "commit": "e3198d16",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 26,
+    "new_entries": 23,
     "existing_links": 0,
-    "no_evidence_rejects": 4,
+    "no_evidence_rejects": 7,
     "non_prescription_topics_available": 0,
-    "build": "5821 entries; 8183 refs; 5000 trial; 727 obs; 30 animal; 17 lab; 47 case; 777 numeric comparison entries; worklist 15082/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 28806470, 39222572, 2496789, 8120152, 19472126, 22351300, 34224576, 20487038, 29392438, 4606109, 319724, 1597024, 12591750, 15590952, 21848706, 2468920, 19880686, 20805294, 7915824, 205382, 2221645, 29768139, 19494217, 7008643, 40042869, and 16437431. Duplicate source PMIDs were reused only where the same verified comparison applied to closely related worklist topics. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. Four topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible numeric comparator effect: thiotepa Myelodysplastic Syndrome, thiotepa Germ Cell Tumors, botulinum toxin Crow's Feet, and canakinumab Gout.",
-    "new_entry_vs_warnings_fixed": 9,
+    "build": "5844 entries; 8206 refs; 5023 trial; 727 obs; 30 animal; 17 lab; 47 case; 800 numeric comparison entries; worklist 15112/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 30726692, 36194412, 32445440, 28460892, 34347860, 35644166, 37224198, 37210099, 30184455, 39758759, 7485207, 35065036, 22670901, 31880796, 8923126, 24401022, 22595799, 24107292, 22724620, and 18242413. Duplicate source PMIDs were reused only where the same verified comparison applied to closely related worklist topics. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. Seven topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect: moxifloxacin Infection, ritonavir Hepatitis C, ritonavir COVID, ritonavir HCV Infection, upadacitinib Inflammatory Disease, valbenazine Schizophrenia, and dabrafenib Lung Carcinoma. Ritonavir combination evidence was not attributed to ritonavir alone.",
+    "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 5,
-    "remaining_expected_unknown_n_warnings": 1,
+    "remaining_expected_thin_warnings": 0,
+    "remaining_expected_unknown_n_warnings": 3,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1266",
-    "worklist_line": 9313,
-    "topic": "moxifloxacin — Pneumonia",
-    "unchecked": 460
+    "next_batch": "1267",
+    "worklist_line": 9402,
+    "topic": "selpercatinib — Cancer",
+    "unchecked": 430
   }
 }
