@@ -1,0 +1,29 @@
+{
+  "id": "imipramine-dysthymia-pos",
+  "subj": "이미프라민",
+  "claim": "이미프라민이 기분저하증의 반응을 위약보다 늘린다",
+  "line": "기분저하증 무작위시험에서 이미프라민이 위약보다 반응률을 높였습니다.",
+  "effect": "반응 64% vs 44%",
+  "vs": "기분저하증 외래환자 416명 12주 무작위시험에서 이미프라민 반응률은 64%로 위약 44%보다 높았고 우울척도도 더 개선됐지만 이상반응 중단이 많았습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 416,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "이미프라민은 처방 삼환계 항우울제입니다.",
+  "why": "기분저하증 주제에서 이미프라민과 위약을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "이미프라민군의 반응률과 여러 우울척도 개선이 위약보다 좋았습니다.",
+  "limit": "조기 발병 기분저하증의 12주 결과이며 다른 지속성 우울장애에 일반화하지 않습니다.",
+  "against": "항콜린성 효과와 중단을 부르는 이상반응을 함께 고려해야 합니다.",
+  "use": "기분저하증 단기 약물치료 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Sertraline versus imipramine dysthymia randomized trial", "pmid": "8792754" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=imipramine AND query.cond=Dysthymia; 3건 반환, InterventionName 정확 일치 3건",
+    "pubmed": "imipramine AND Dysthymia; 46건",
+    "negative": "imipramine AND Dysthymia AND (no effect OR did not OR failed OR negative OR no significant difference); 56건",
+    "safety": "imipramine AND (adverse OR toxicity OR safety OR tolerability); 2,696건"
+  }
+}

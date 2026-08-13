@@ -1,0 +1,29 @@
+{
+  "id": "acyclovir-infection-pos",
+  "subj": "아시클로버",
+  "claim": "아시클로버가 첫 생식기 헤르페스 감염의 증상과 병변 치유를 줄인다",
+  "line": "첫 생식기 헤르페스 무작위시험에서 아시클로버가 위약보다 바이러스 배출과 치유 시간을 줄였습니다.",
+  "effect": "병변 치유 12일 vs 16일",
+  "vs": "첫 생식기 헤르페스 150명 이중눈가림 무작위시험에서 원발 감염자의 아시클로버군은 위약보다 바이러스 배출 2 vs 9일, 병변 딱지 7 vs 10일, 완전 치유 12 vs 16일, 국소 통증 5 vs 7일이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 150,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아시클로버는 처방 항바이러스제입니다.",
+  "why": "감염 주제에서 아시클로버와 위약을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "원발 생식기 헤르페스의 바이러스 배출과 증상, 병변 치유가 빨라졌습니다.",
+  "limit": "첫 생식기 헤르페스의 10일 치료이며 재발 예방효과는 확인되지 않았습니다.",
+  "against": "신장 기능과 감염 전파 예방, 재발 여부를 함께 관리해야 합니다.",
+  "use": "첫 생식기 헤르페스의 단기 치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Oral acyclovir first-episode genital herpes 무작위시험", "pmid": "6088819" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=acyclovir AND query.cond=Infection; 100건 반환, InterventionName 정확 일치 12건",
+    "pubmed": "acyclovir AND Infection; 16,005건",
+    "negative": "acyclovir AND Infection AND (no effect OR did not OR failed OR negative OR no significant difference); 결과 확인",
+    "safety": "acyclovir AND (adverse OR toxicity OR safety OR tolerability); 6,011건"
+  }
+}

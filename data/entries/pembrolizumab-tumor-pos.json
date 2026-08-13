@@ -1,0 +1,29 @@
+{
+  "id": "pembrolizumab-tumor-pos",
+  "subj": "펨브롤리주맙",
+  "claim": "담도암에서 펨브롤리주맙 병용은 화학요법보다 전체 생존을 개선합니다.",
+  "line": "진행성 담도암 KEYNOTE-966에서 펨브롤리주맙과 젬시타빈·시스플라틴 병용은 위약 병용보다 전체 생존을 높였습니다.",
+  "effect": "전체 생존 HR 0.83",
+  "vs": "진행성 담도암 1,069명 무작위시험에서 펨브롤리주맙 병용의 전체 생존 중앙값은 12.7개월 대 위약 병용 10.9개월(HR 0.83, 95% CI 0.72~0.95)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1069,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "펨브롤리주맙은 일부 진행성 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 담도암에서 펨브롤리주맙과 위약을 화학요법에 병용한 무작위시험을 확인했습니다.",
+  "saw": "펨브롤리주맙 병용은 위약 병용보다 전체 생존을 유의하게 개선했습니다.",
+  "limit": "담도암에서 화학요법과 병용한 결과이며 펨브롤리주맙 단독 효과가 아닙니다.",
+  "against": "면역매개성 장기 이상과 화학요법 독성을 함께 확인해야 합니다.",
+  "use": "진행성 담도암의 화학요법 병용 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Pembrolizumab plus chemotherapy in advanced biliary tract cancer KEYNOTE-966", "pmid": "37075781" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=pembrolizumab AND query.cond=Tumor; 100건 반환, InterventionName 정확 일치 70건",
+    "pubmed": "pembrolizumab AND Tumor; 0건",
+    "negative": "pembrolizumab AND Tumor AND (no effect OR did not OR failed OR negative OR no significant difference); 6975건",
+    "safety": "pembrolizumab AND (adverse OR toxicity OR safety OR tolerability); 7612건"
+  }
+}

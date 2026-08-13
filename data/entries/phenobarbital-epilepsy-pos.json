@@ -1,0 +1,29 @@
+{
+  "id": "phenobarbital-epilepsy-pos",
+  "subj": "페노바르비탈",
+  "claim": "신생아 발작에서 페노바르비탈은 레베티라세탐보다 24시간 발작 소실률이 높았습니다.",
+  "line": "신생아 발작 무작위시험에서 페노바르비탈은 레베티라세탐보다 24시간 발작 소실률이 높았지만 이상반응 부담이 컸습니다.",
+  "effect": "24시간 발작 소실 80%",
+  "vs": "신생아 발작 83명 수정 ITT 무작위시험에서 24시간 발작 소실은 페노바르비탈 24/30명(80%) 대 레베티라세탐 15/53명(28%)이었고 레베티라세탐의 상대위험은 0.35(95% CI 0.22~0.56)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 83,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "페노바르비탈은 발작 조절에 쓰는 처방 바르비투르산계 약물입니다.",
+  "why": "신생아 발작에서 페노바르비탈과 레베티라세탐을 비교한 무작위시험을 확인했습니다.",
+  "saw": "페노바르비탈은 24시간 발작 소실률이 높았지만 진정과 호흡억제 등 이상반응이 더 많았습니다.",
+  "limit": "신생아 발작에 한정된 소규모 시험이며 소아·성인 간질에 같은 효과를 적용할 수 없습니다.",
+  "against": "호흡억제, 진정, 저혈압과 약물상호작용을 확인해야 합니다.",
+  "use": "신생아 발작의 초기 약제 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Phenobarbital versus levetiracetam for neonatal seizures randomized trial", "pmid": "32385134" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=phenobarbital AND query.cond=Epilepsy; 18건 반환, InterventionName 정확 일치 5건",
+    "pubmed": "phenobarbital AND Epilepsy; 0건",
+    "negative": "phenobarbital AND Epilepsy AND (no effect OR did not OR failed OR negative OR no significant difference); 2785건",
+    "safety": "phenobarbital AND (adverse OR toxicity OR safety OR tolerability); 7591건"
+  }
+}

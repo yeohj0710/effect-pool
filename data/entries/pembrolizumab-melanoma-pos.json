@@ -1,0 +1,29 @@
+{
+  "id": "pembrolizumab-melanoma-pos",
+  "subj": "펨브롤리주맙",
+  "claim": "펨브롤리주맙은 진행성 흑색종에서 이필리무맙보다 무진행생존과 생존을 개선합니다.",
+  "line": "진행성 흑색종 KEYNOTE-006에서 펨브롤리주맙은 이필리무맙보다 6개월 무진행생존과 12개월 생존을 높였습니다.",
+  "effect": "무진행생존 HR 0.58",
+  "vs": "진행성 흑색종 834명 무작위시험에서 6개월 무진행생존은 펨브롤리주맙 47.3%·46.4% 대 이필리무맙 26.5%(HR 0.58), 12개월 생존은 74.1%·68.4% 대 58.2%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 834,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "펨브롤리주맙은 진행성 흑색종에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 흑색종에서 펨브롤리주맙과 이필리무맙을 비교한 무작위시험을 확인했습니다.",
+  "saw": "펨브롤리주맙은 이필리무맙보다 무진행생존과 12개월 생존을 개선했습니다.",
+  "limit": "진행성 흑색종과 시험 용량에 한정되며 다른 고형암에 같은 효과를 적용할 수 없습니다.",
+  "against": "면역매개성 대장염, 간염, 폐렴, 내분비 이상과 피부 이상반응을 확인해야 합니다.",
+  "use": "진행성 흑색종의 1차 면역치료 선택지 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Pembrolizumab versus ipilimumab in advanced melanoma KEYNOTE-006", "pmid": "25891173" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=pembrolizumab AND query.cond=Melanoma; 100건 반환, InterventionName 정확 일치 64건",
+    "pubmed": "pembrolizumab AND Melanoma; 2606건",
+    "negative": "pembrolizumab AND Melanoma AND (no effect OR did not OR failed OR negative OR no significant difference); 1629건",
+    "safety": "pembrolizumab AND (adverse OR toxicity OR safety OR tolerability); 7612건"
+  }
+}

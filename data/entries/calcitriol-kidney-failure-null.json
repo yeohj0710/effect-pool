@@ -1,0 +1,29 @@
+{
+  "id": "calcitriol-kidney-failure-null",
+  "subj": "칼시트리올",
+  "claim": "칼시트리올은 만성콩팥병 이차성 부갑상샘기능항진증에서 다른 활성 비타민 D 제제보다 우월하다고 확인되지 않았습니다.",
+  "line": "만성콩팥병 메타분석에서 칼시트리올의 효과는 파리칼시톨과 유의한 차이가 없었습니다.",
+  "effect": "우월성 확인 없음",
+  "vs": "만성콩팥병 무작위시험 6편 메타분석에서 PTH 50% 이상 감소 RR은 1.33(95% CI 0.93~1.91), 고칼슘혈증 RR은 1.43(0.51~3.98)으로 유의한 차이가 없었습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": null,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "칼시트리올은 만성콩팥병의 이차성 부갑상샘기능항진증에 쓰는 활성 비타민 D 처방약입니다.",
+  "why": "만성콩팥병 환자에서 칼시트리올과 다른 활성 비타민 D 제제를 비교한 무작위시험 메타분석을 확인했습니다.",
+  "saw": "파리칼시톨과 비교해 PTH 억제나 고칼슘혈증에서 통계적으로 유의한 차이가 없었습니다.",
+  "limit": "초록에 통합 총 표본 수가 제시되지 않아 n을 기록하지 않았고 연구 간 용량과 투석 상태가 달랐습니다.",
+  "against": "혈중 칼슘과 인, 혈관 석회화 위험을 모니터링해야 합니다.",
+  "use": "만성콩팥병 이차성 부갑상샘기능항진증에서 제제 간 우월성이 없다는 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Active vitamin D analogues in chronic kidney disease meta-analysis", "pmid": "30328270" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=calcitriol AND query.cond=Kidney Failure; 32건 반환, InterventionName 정확 일치 18건",
+    "pubmed": "calcitriol AND Kidney Failure; 1755건",
+    "negative": "calcitriol AND Kidney Failure AND (no effect OR did not OR failed OR negative OR no significant difference); 0건",
+    "safety": "calcitriol AND (adverse OR toxicity OR safety OR tolerability); 3713건"
+  }
+}

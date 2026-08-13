@@ -1,0 +1,29 @@
+{
+  "id": "hydromorphone-analgesia-null",
+  "subj": "하이드로모르폰",
+  "claim": "수술 후 통증에서 경막외 하이드로모르폰은 비교 치료보다 통증 점수를 유의하게 낮추지 못했습니다.",
+  "line": "수술 후 통증 무작위시험 메타분석에서 경막외 하이드로모르폰은 8·12·24시간 통증 점수에서 유의한 차이를 보이지 않았고 가려움은 줄였습니다.",
+  "effect": "통증 차이 없음, 가려움 RR 0.24",
+  "vs": "수술 후 통증 8개 무작위시험 833명 메타분석에서 통증 MD는 8시간 -0.42(95% CI -2.08~1.24), 12시간 -0.19, 24시간 -0.22였고 가려움 RR은 0.24(0.09~0.66)이었습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 833,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "하이드로모르폰은 중등도 이상의 통증에 쓰는 처방 오피오이드입니다.",
+  "why": "수술 후 통증에서 경막외 하이드로모르폰과 비교 치료를 비교한 무작위시험 메타분석을 확인했습니다.",
+  "saw": "통증 점수는 유의하게 다르지 않았지만 가려움 발생은 줄었습니다.",
+  "limit": "경막외 투여와 수술 후 통증에 한정된 자료이며 통증 결과의 신뢰구간이 넓습니다.",
+  "against": "호흡억제, 진정, 오심, 변비와 투여 경로 관련 위험을 확인해야 합니다.",
+  "use": "수술 후 경막외 진통에서 통증 우월성이 없다는 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Epidural hydromorphone for postoperative pain meta-analysis", "pmid": "39621972" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=hydromorphone AND query.cond=Analgesia; 100건 반환, InterventionName 정확 일치 21건",
+    "pubmed": "hydromorphone AND Analgesia; 817건",
+    "negative": "hydromorphone AND Analgesia AND (no effect OR did not OR failed OR negative OR no significant difference); 665건",
+    "safety": "hydromorphone AND (adverse OR toxicity OR safety OR tolerability); 1372건"
+  }
+}

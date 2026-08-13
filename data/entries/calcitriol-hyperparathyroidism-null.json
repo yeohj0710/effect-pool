@@ -1,0 +1,29 @@
+{
+  "id": "calcitriol-hyperparathyroidism-null",
+  "subj": "칼시트리올",
+  "claim": "칼시트리올은 만성콩팥병 3~4기 이차성 부갑상샘기능항진증에서 파리칼시톨보다 우월하다고 확인되지 않았습니다.",
+  "line": "만성콩팥병 3~4기 무작위시험에서 칼시트리올과 파리칼시톨의 PTH 억제 및 고칼슘혈증 차이는 유의하지 않았습니다.",
+  "effect": "우월성 확인 없음",
+  "vs": "만성콩팥병 3~4기 환자 110명 무작위시험에서 PTH 감소율은 파리칼시톨 52%, 칼시트리올 46%(p=.17), 고칼슘혈증은 3명 대 1명(p=.36)이었습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 110,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "칼시트리올은 만성콩팥병의 이차성 부갑상샘기능항진증에 쓰는 활성 비타민 D 처방약입니다.",
+  "why": "만성콩팥병 3~4기 환자에서 칼시트리올과 파리칼시톨을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "두 약의 PTH 억제율과 고칼슘혈증 발생 차이는 통계적으로 유의하지 않았습니다.",
+  "limit": "110명 단일 시험이며 투석 전 만성콩팥병 3~4기에 한정됩니다.",
+  "against": "혈중 칼슘과 인, PTH를 정기적으로 확인해야 합니다.",
+  "use": "투석 전 만성콩팥병 3~4기에서 제제 간 우월성이 없다는 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Paricalcitol versus calcitriol in CKD randomized trial", "pmid": "24970869" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=calcitriol AND query.cond=Hyperparathyroidism; 28건 반환, InterventionName 정확 일치 13건",
+    "pubmed": "calcitriol AND Hyperparathyroidism; 2286건",
+    "negative": "calcitriol AND Hyperparathyroidism AND (no effect OR did not OR failed OR negative OR no significant difference); 1426건",
+    "safety": "calcitriol AND (adverse OR toxicity OR safety OR tolerability); 3713건"
+  }
+}

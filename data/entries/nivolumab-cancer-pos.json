@@ -1,0 +1,29 @@
+{
+  "id": "nivolumab-cancer-pos",
+  "subj": "니볼루맙",
+  "claim": "진행성 위암·위식도접합부암·식도선암에서 니볼루맙 병용은 화학요법보다 생존을 개선합니다.",
+  "line": "CheckMate-649에서 니볼루맙과 화학요법 병용은 PD-L1 CPS 5 이상 진행성 위장관 선암의 전체 생존과 무진행생존을 개선했습니다.",
+  "effect": "전체 생존 HR 0.71",
+  "vs": "진행성 위암·위식도접합부암·식도선암 PD-L1 CPS 5 이상 1,581명 무작위시험에서 니볼루맙 병용의 전체 생존 HR은 0.71(98.4% CI 0.59~0.86), 무진행생존 HR은 0.68(0.56~0.81)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1581,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "니볼루맙은 진행성 위장관 선암을 포함한 일부 고형암에 쓰는 처방 면역관문억제제입니다.",
+  "why": "진행성 위장관 선암에서 니볼루맙과 화학요법 병용을 화학요법과 비교한 무작위시험을 확인했습니다.",
+  "saw": "니볼루맙 병용은 PD-L1 CPS 5 이상 환자의 전체 생존과 무진행생존을 개선했습니다.",
+  "limit": "PD-L1 CPS 5 이상 진행성 위암·위식도접합부암·식도선암에 한정된 병용요법 결과입니다.",
+  "against": "면역매개성 장기 이상과 화학요법 독성을 함께 확인해야 합니다.",
+  "use": "PD-L1 CPS 5 이상 진행성 위장관 선암의 병용치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Nivolumab plus chemotherapy in advanced gastric, gastroesophageal junction, and esophageal adenocarcinoma CheckMate-649", "pmid": "34102137" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=nivolumab AND query.cond=Cancer; 100건 반환, InterventionName 정확 일치 71건",
+    "pubmed": "nivolumab AND Cancer; 12687건",
+    "negative": "nivolumab AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 7726건",
+    "safety": "nivolumab AND (adverse OR toxicity OR safety OR tolerability); 7823건"
+  }
+}
