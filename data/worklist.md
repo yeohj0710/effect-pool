@@ -12416,8 +12416,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality therapy — Cancer에 듣는다  <!-- 시험 30건 · 논문 480편 --> — 항목 생성(2026-08-06)
 - [x] virtual reality therapy — Music Therapy에 듣는다  <!-- 시험 18건 · 논문 221편 --> — 근거 없음(2026-08-06, virtual reality therapy AND Music Therapy; 등록시험 결과 미공개)
 - [x] telitacicept — IgA Nephropathy에 듣는다  <!-- 시험 8건 · 논문 67편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(telitacicept-iga-nephropathy-pos)
-- [ ] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] telitacicept — Myasthenia Gravis에 듣는다  <!-- 시험 5건 · 논문 29편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(telitacicept-myasthenia-gravis-pos)
+- [x] telitacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 4건 · 논문 15편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회회수에서 ClinicalTrials.gov/PubMed 주제별적으로수자비교확인안됨)
 - [x] belumosudil — Lung Diseases에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 항목 생성(2026-08-06)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12431,19 +12431,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] wellness coaching — Obesity에 듣는다  <!-- 시험 3건 · 논문 1247편 --> — 항목 생성(2026-08-06)
 - [x] abatacept — T-cell Lymphoma에 듣는다  <!-- 시험 16건 · 논문 30편 --> — 근거 없음(2026-08-06, abatacept AND T-cell Lymphoma)
-- [ ] abatacept — Graft Vs Host Disease에 듣는다  <!-- 시험 13건 · 논문 118편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] abatacept — Graft Vs Host Disease에 듣는다  <!-- 시험 13건 · 논문 118편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(abatacept-graft-versus-host-disease-pos)
 - [x] abatacept — Lupus Nephritis에 듣는다  <!-- 시험 8건 · 논문 65편 --> — 항목 생성(2026-08-06)
 - [x] icatibant — Heart Failure에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 항목 생성(2026-08-06)
 - [x] lanadelumab — COVID-19에 듣는다  <!-- 시험 3건 · 논문 11편 --> — 항목 생성(2026-08-06)
-- [ ] eculizumab — Atypical Hemolytic Uremic에 듣는다  <!-- 시험 13건 · 논문 1112편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] eculizumab — Atypical Hemolytic Uremic에 듣는다  <!-- 시험 13건 · 논문 1112편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회회수에서 ClinicalTrials.gov/PubMed 주제별적으로수자비교확인안됨)
 - [x] eculizumab — Kidney Failure에 듣는다  <!-- 시험 13건 · 논문 461편 --> — 근거 없음(2026-08-06, eculizumab AND Kidney Failure; aHUS 문헌은 일반 신부전 결과에서 제외)
-- [ ] eculizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 11건 · 논문 276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] eculizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 268편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] difelikefalin — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 41편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] eculizumab — Neuromyelitis Optica에 듣는다  <!-- 시험 11건 · 논문 276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(eculizumab-neuromyelitis-optica-pos)
+- [x] eculizumab — Myasthenia Gravis에 듣는다  <!-- 시험 7건 · 논문 268편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(eculizumab-myasthenia-gravis-null)
+- [x] difelikefalin — Chronic Kidney Diseases에 듣는다  <!-- 시험 3건 · 논문 41편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(difelikefalin-chronic-kidney-diseases-pos)
 - [x] letermovir — HIV Infections에 듣는다  <!-- 시험 21건 · 논문 12편 --> — 근거 없음(2026-08-06, letermovir AND HIV Infections; CIAO 시험은 결과 미공개)
 - [x] letermovir — Lung Transplant에 듣는다  <!-- 시험 14건 · 논문 36편 --> — 항목 생성(2026-08-06)
 - [x] letermovir — Acute Myeloid Leukemia에 듣는다  <!-- 시험 13건 · 논문 17편 --> — 근거 없음(2026-08-06, letermovir AND Acute Myeloid Leukemia; 조혈모세포 이식 예방 문헌은 AML 치료 결과에서 제외)
-- [ ] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] letermovir — Cell Therapy에 듣는다  <!-- 시험 11건 · 논문 402편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(letermovir-cell-therapy-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12457,7 +12457,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] contrast water therapy — Small Bowel Adhesion에 듣는다  <!-- 시험 4건 · 논문 41편 -->
 - [x] contrast water therapy — Rectal Cancer에 듣는다 — 근거 없음(2026-08-06, contrast water therapy AND Rectal Cancer)  <!-- 시험 4건 · 논문 24편 -->
 - [x] contrast water therapy — Infertility에 듣는다  <!-- 시험 3건 · 논문 47편 -->
-- [ ] patisiran — Amyloid Neuropathies에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 158편 -->
+- [x] patisiran — Amyloid Neuropathies에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 158편 --> — 항목생성(patisiran-amyloid-neuropathies-pos)
 - [x] patisiran — Wild-Type Transthyretin Cardiac Amyloidosis에 듣는다  <!-- 시험 5건 · 논문 35편 -->
 - [x] inebilizumab — Autoimmune Diseases에 듣는다  <!-- 시험 4건 · 논문 188편 -->
 
@@ -12493,9 +12493,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] health literacy intervention — Obesity에 듣는다  <!-- 시험 15건 · 논문 872편 -->
 - [x] health literacy intervention — Sexual Behavior에 듣는다  <!-- 시험 12건 · 논문 386편 -->
 - [x] health literacy intervention — Hypertension에 듣는다  <!-- 시험 11건 · 논문 869편 -->
-- [ ] olezarsen — Familial Chylomicronemia Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 47편 -->
+- [x] olezarsen — Familial Chylomicronemia Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 47편 --> — 항목생성(olezarsen-familial-chylomicronemia-syndrome-pos)
 - [x] lonafarnib — Hepatitis D에 듣는다  <!-- 시험 9건 · 논문 74편 -->
-- [ ] lonafarnib — Progeria에 듣는다  <!-- 시험 6건 · 논문 66편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] lonafarnib — Progeria에 듣는다  <!-- 시험 6건 · 논문 66편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회회수에서 ClinicalTrials.gov/PubMed 주제별적으로수자비교확인안됨)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12550,10 +12550,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mindfulness retreat — Depression에 듣는다  <!-- 시험 11건 · 논문 33편 -->
 - [x] mindfulness retreat — Anxiety에 듣는다  <!-- 시험 10건 · 논문 36편 -->
 - [x] mindfulness retreat — Pain에 듣는다  <!-- 시험 9건 · 논문 18편 -->
-- [ ] bimekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 18건 · 논문 48편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] bimekizumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 6건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] bimekizumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] bimekizumab — Axial Spondyloarthritis에 듣는다  <!-- 시험 4건 · 논문 53편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] bimekizumab — Psoriatic Plaque에 듣는다  <!-- 시험 18건 · 논문 48편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bimekizumab-psoriatic-plaque-pos)
+- [x] bimekizumab — Hidradenitis Suppurativa에 듣는다  <!-- 시험 6건 · 논문 98편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bimekizumab-hidradenitis-suppurativa-pos)
+- [x] bimekizumab — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bimekizumab-ankylosing-spondylitis-pos)
+- [x] bimekizumab — Axial Spondyloarthritis에 듣는다  <!-- 시험 4건 · 논문 53편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bimekizumab-axial-spondyloarthritis-pos)
 - [x] depemokimab — Nasal Polyps에 듣는다  <!-- 시험 3건 · 논문 22편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12565,7 +12565,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] remimazolam — Sedation에 듣는다  <!-- 시험 37건 · 논문 704편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] remimazolam — Sedation에 듣는다  <!-- 시험 37건 · 논문 704편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(remimazolam-sedation-null)
 - [x] remimazolam — Surgery에 듣는다  <!-- 시험 22건 · 논문 804편 -->
 - [x] remimazolam — Delirium에 듣는다  <!-- 시험 16건 · 논문 155편 -->
 - [x] remimazolam — Elderly Patients에 듣는다  <!-- 시험 14건 · 논문 514편 -->
@@ -12623,9 +12623,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] green care intervention — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 1694편 --> — 근거 없음(2026-08-06, green care intervention AND Neoplasms)
 - [x] green care intervention — Lymph Node Mapping에 듣는다  <!-- 시험 4건 · 논문 75편 --> — 근거 없음(2026-08-06, green care intervention AND Lymph Node Mapping)
 - [x] green care intervention — Bladder Neoplasm에 듣는다  <!-- 시험 4건 · 논문 30편 --> — 근거 없음(2026-08-06, green care intervention AND Bladder Neoplasm)
-- [ ] plozasiran — Familial Chylomicronemia에 듣는다  <!-- 시험 3건 · 논문 35편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] plozasiran — Familial Chylomicronemia에 듣는다  <!-- 시험 3건 · 논문 35편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(plozasiran-familial-chylomicronemia-pos)
 - [x] doravirine — Weight Gain에 듣는다  <!-- 시험 4건 · 논문 23편 -->
-- [ ] doravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 323편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] doravirine — Human Immunodeficiency Virus에 듣는다  <!-- 시험 3건 · 논문 323편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(doravirine-human-immunodeficiency-virus-null)
 - [x] ritlecitinib — Vitiligo에 듣는다  <!-- 시험 5건 · 논문 32편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -12637,9 +12637,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] relugolix — Uterine Fibroid에 듣는다  <!-- 시험 13건 · 논문 78편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] relugolix — Endometriosis에 듣는다  <!-- 시험 8건 · 논문 50편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] relugolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 4건 · 논문 52편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] relugolix — Uterine Fibroid에 듣는다  <!-- 시험 13건 · 논문 78편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(relugolix-uterine-fibroid-pos)
+- [x] relugolix — Endometriosis에 듣는다  <!-- 시험 8건 · 논문 50편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(relugolix-endometriosis-pos)
+- [x] relugolix — Heavy Menstrual Bleeding에 듣는다  <!-- 시험 4건 · 논문 52편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(relugolix-heavy-menstrual-bleeding-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12671,9 +12671,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] virtual reality meditation — Stress에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 - [x] virtual reality meditation — Depression에 듣는다  <!-- 시험 5건 · 논문 26편 -->
 - [x] osilodrostat — Adrenal Adenoma에 듣는다  <!-- 시험 3건 · 논문 21편 -->
-- [ ] bazedoxifene — Postmenopause에 듣는다  <!-- 시험 6건 · 논문 319편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] bazedoxifene — Postmenopause에 듣는다  <!-- 시험 6건 · 논문 319편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목연결(bazedoxifene-menopause-pos)
 - [x] bazedoxifene — Breast Cancer에 듣는다  <!-- 시험 6건 · 논문 146편 -->
-- [ ] bazedoxifene — Menopause에 듣는다  <!-- 시험 5건 · 논문 260편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] bazedoxifene — Menopause에 듣는다  <!-- 시험 5건 · 논문 260편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(bazedoxifene-menopause-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12684,11 +12684,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] atacicept — IgA Nephropathy에 듣는다  <!-- 시험 4건 · 논문 15편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] atacicept — IgA Nephropathy에 듣는다  <!-- 시험 4건 · 논문 15편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(atacicept-iga-nephropathy-pos)
 - [x] atacicept — Rheumatoid Arthritis에 듣는다  <!-- 시험 3건 · 논문 33편 -->
-- [ ] atacicept — Berger Disease에 듣는다  <!-- 시험 3건 · 논문 8편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] paltusotine — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 29편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] nemolizumab — Prurigo Nodularis에 듣는다  <!-- 시험 4건 · 논문 95편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] atacicept — Berger Disease에 듣는다  <!-- 시험 3건 · 논문 8편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 기존항목연결(atacicept-iga-nephropathy-pos)
+- [x] paltusotine — Acromegaly에 듣는다  <!-- 시험 5건 · 논문 29편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 근거없음(2026-08-13 조회회수에서 ClinicalTrials.gov/PubMed 주제별적으로수자비교확인안됨)
+- [x] nemolizumab — Prurigo Nodularis에 듣는다  <!-- 시험 4건 · 논문 95편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 항목생성(nemolizumab-prurigo-nodularis-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12815,12 +12815,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] vericiguat — Vascular Diseases에 듣는다  <!-- 시험 3건 · 논문 56편 -->
 - [x] azilsartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 42편 -->
 - [x] nicorandil — Myocardial Ischemia에 듣는다  <!-- 시험 8건 · 논문 798편 -->
-- [ ] nicorandil — Stable Angina에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 109편 -->
+- [x] nicorandil — Stable Angina에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 6건 · 논문 109편 --> — 항목생성(nicorandil-stable-angina-pos)
 - [x] nicorandil — Chronic Renal Failure에 듣는다  <!-- 시험 4건 · 논문 11편 -->
 - [x] nicorandil — Diabetes Mellitus에 듣는다  <!-- 시험 3건 · 논문 51편 -->
 - [x] mitapivat — Sickle Cell Disease에 듣는다  <!-- 시험 5건 · 논문 35편 -->
 - [x] mitapivat — Anemia에 듣는다  <!-- 시험 5건 · 논문 75편 -->
-- [ ] mitapivat — Pyruvate Kinase Deficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 39편 -->
+- [x] mitapivat — Pyruvate Kinase Deficiency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 39편 --> — 항목생성(mitapivat-pyruvate-kinase-deficiency-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -12859,7 +12859,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] behavioral weight management — Weight에 듣는다  <!-- 시험 28건 · 논문 52247편 -->
 - [x] behavioral weight management — Overweight에 듣는다  <!-- 시험 9건 · 논문 17938편 -->
 - [x] behavioral weight management — Diabetes에 듣는다 — 근거 없음(2026-08-06, ClinicalTrials.gov intr=behavioral weight management AND cond=Diabetes; PubMed behavioral weight management AND Diabetes)  <!-- 시험 6건 · 논문 8004편 -->
-- [ ] satralizumab — NMOSD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 164편 -->
+- [x] satralizumab — NMOSD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 5건 · 논문 164편 --> — 항목생성(satralizumab-nmosd-pos)
 - [ ] ublituximab — Multiple Sclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 16건 · 논문 80편 -->
 - [x] ublituximab — B-cell Lymphoma에 듣는다  <!-- 시험 14건 · 논문 15편 -->
 - [x] gantenerumab — Alzheimers Disease에 듣는다  <!-- 시험 7건 · 논문 181편 -->
