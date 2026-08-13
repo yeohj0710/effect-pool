@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5922,
-  "subjects": 2250,
-  "refs": 8284,
+  "entries": 5949,
+  "subjects": 2260,
+  "refs": 8311,
   "kinds": {
     "otc": 121,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2481
+    "rx": 2508
   },
   "tiers": {
-    "trial": 5100,
+    "trial": 5127,
     "obs": 727,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3538,
-    "null": 1185,
+    "pos": 3564,
+    "null": 1186,
     "open": 1038,
     "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 15202,
-    "unchecked": 340,
-    "no_evidence_pending": 2039,
-    "note": "Batch 1269 checked 30 unique prescription topics from worklist lines 10058-10223. No identifiable non-prescription topic was available in this queue segment. New evidence entries: 29; existing links: 0; no-evidence reject: 1 (ravulizumab aHUS had only single-arm ClinicalTrials.gov/PubMed evidence without a direct numeric comparator)."
+    "checked": 15232,
+    "unchecked": 310,
+    "no_evidence_pending": 2042,
+    "note": "Batch 1270 checked 30 unique prescription topics from the next unchecked worklist segment. No identifiable non-prescription topic was available. New evidence entries: 27; existing links: 0; no-evidence rejects: 3 (tecovirimat Smallpox and setmelanotide Bardet-Biedl Syndrome/POMC Deficiency lacked an eligible topic-specific direct numeric comparator effect)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -41,15 +41,15 @@
   },
   "checkpoints": {
     "over_counter_share": "16.0% (948 entries)",
-    "rx_share": "41.9% (2,481 entries)",
-    "no_effect_or_harm_share": "22.7% (1,346 entries)",
-    "vs_share": "14.8% (878 entries)",
+    "rx_share": "42.2% (2,508 entries)",
+    "no_effect_or_harm_share": "22.6% (1,347 entries)",
+    "vs_share": "15.2% (905 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.1% (5,100 entries)",
-    "non_trial_share": "13.9% (822 entries)",
+    "trial_share": "86.2% (5,127 entries)",
+    "non_trial_share": "13.8% (822 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 996,
+      "thin_study": 998,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1270 starts after batch 1269. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 10224: guselkumab — Crohn Disease. 340 unchecked rows remain.",
+  "next": "Batch 1271 starts after batch 1270. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 10582: bempedoic acid ? Statin Adverse Reaction. 310 unchecked rows remain.",
   "last_batch": {
-    "id": "1269",
-    "commit": "6b080a9d",
-    "pushed": true,
+    "id": "1270",
+    "commit": "16468972",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 29,
+    "new_entries": 27,
     "existing_links": 0,
-    "no_evidence_rejects": 1,
+    "no_evidence_rejects": 3,
     "non_prescription_topics_available": 0,
-    "build": "5922 entries; 8284 refs; 5100 trial; 727 obs; 31 animal; 17 lab; 47 case; 878 numeric comparison entries; worklist 15202/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 39293681, 33657294, 20040086, 2667865, 14567368, 10908773, 12064916, 31971678, 31914241, 32212518, 38319212, 42441931, 31971679, 33971155, 32711801, 37213109, 33264825, 39225278, 28304224, 35368058, 30403574, 32187462, and 32178766. Duplicate PMIDs were reused only for closely related worklist topics. New entries have Korean subjects, correct prescription mappings, and numeric intervention-versus-control results or valid relative effects. One topic was rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
-    "new_entry_vs_warnings_fixed": 4,
+    "build": "5949 entries; 8311 refs; 5127 trial; 727 obs; 31 animal; 17 lab; 47 case; 905 numeric comparison entries; worklist 15232/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 40684778, 39706209, 35644154, 39037800, 34815219, 34383100, 18003959, 29129436, 36228734, 38750866, 36734148, 36449413, 34587385, 42473780, 39304241, 34146511, 37351564, 38777187, 38158159, 38280653, 37364283, 34379922, 30846557, 30865796, and 36876740. Duplicate PMIDs were reused only for closely related worklist topics. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects. Three topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific numeric comparator effect.",
+    "new_entry_vs_warnings_fixed": 13,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 5,
+    "targeted_batch_warnings_fixed": 38,
     "remaining_expected_thin_warnings": 1,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1270",
-    "worklist_line": 10224,
-    "topic": "guselkumab — Crohn Disease",
-    "unchecked": 340
+    "next_batch": "1271",
+    "worklist_line": 10582,
+    "topic": "bempedoic acid ? Statin Adverse Reaction",
+    "unchecked": 310
   }
 }
