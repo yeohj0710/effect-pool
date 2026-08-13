@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6011,
-  "subjects": 2289,
-  "refs": 8373,
+  "entries": 6034,
+  "subjects": 2305,
+  "refs": 8396,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2567
+    "rx": 2590
   },
   "tiers": {
-    "trial": 5188,
+    "trial": 5211,
     "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3614,
-    "null": 1196,
+    "pos": 3635,
+    "null": 1198,
     "open": 1038,
     "harm": 163
   },
   "worklist": {
     "total": 15542,
-    "checked": 15322,
-    "unchecked": 220,
-    "no_evidence_pending": 2055,
-    "note": "Batch 1273 checked 30 unique prescription topics from worklist lines 12419-12862. New evidence entries: 24; existing links: 2; no-evidence rejects: 4 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
+    "checked": 15352,
+    "unchecked": 190,
+    "no_evidence_pending": 2058,
+    "note": "Batch 1274 checked 30 unique prescription topics from worklist lines 12863-14285. New evidence entries: 23; existing links: 4; no-evidence rejects: 3 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -41,15 +41,15 @@
   },
   "checkpoints": {
     "over_counter_share": "15.8% (951 entries)",
-    "rx_share": "42.7% (2,567 entries)",
-    "no_effect_or_harm_share": "22.6% (1,359 entries)",
-    "vs_share": "16.1% (967 entries)",
+    "rx_share": "42.9% (2,590 entries)",
+    "no_effect_or_harm_share": "22.6% (1,361 entries)",
+    "vs_share": "16.4% (990 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.3% (5,188 entries)",
-    "non_trial_share": "13.7% (823 entries)",
+    "trial_share": "86.4% (5,211 entries)",
+    "non_trial_share": "13.6% (823 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 1003,
+      "thin_study": 1004,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,18 +57,18 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1274 starts after batch 1273. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 12863: ublituximab — Multiple Sclerosis에 듣는다. 220 unchecked rows remain.",
+  "next": "Batch 1275 starts after batch 1274. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 14286: ravulizumab — PNH에 듣는다. 190 unchecked rows remain.",
   "last_batch": {
-    "id": "1273",
-    "commit": "d21a0c25",
+    "id": "1274",
+    "commit": "53685d96",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 24,
-    "existing_links": 2,
-    "no_evidence_rejects": 4,
+    "new_entries": 23,
+    "existing_links": 4,
+    "no_evidence_rejects": 3,
     "non_prescription_topics_available": 0,
-    "build": "6011 entries; 8373 refs; 5188 trial; 728 obs; 31 animal; 17 lab; 47 case; 967 numeric comparison entries; worklist 15322/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 38726639, 33449816, 31050279, 29066163, 31702883, 29211658, 29972753, 38587247, 33549193, 38795716, 36649967, 38039392, 39225259, 31740348, 33596357, 35717987, 37666383, 27676118, 38552841, 37888917, 30079778, 35417638, and 32333898. Existing links reused bazedoxifene-menopause-pos for the postmenopause topic and atacicept-iga-nephropathy-pos for the Berger disease topic. Four topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "build": "6034 entries; 8396 refs; 5211 trial; 728 obs; 31 animal; 17 lab; 47 case; 990 numeric comparison entries; worklist 15352/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 36001711, 31862249, 35499850, 31734103, 32412700, 23883377, 39172446, 35235726, 36634694, 34739196, 41730814, 32187462, 27299809, 30360964, 25007392, 36746171, 26699169, 32770640, 28596043, 35471153, 40387033, 39474720, 38030318, 41337715, and 38319212. Existing links reused inclisiran-ldl-cholesterol-pos for Hypercholesterolaemia, danicopan-paroxysmal-nocturnal-hemoglobinuria-pos for PNH, pegcetacoplan-c3-glomerulopathy-pos for C3 Glomerulopathy, and ravulizumab-myasthenia-gravis-pos for gMG. Three topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
@@ -78,9 +78,9 @@
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1274",
-    "worklist_line": 12863,
-    "topic": "ublituximab — Multiple Sclerosis에 듣는다",
-    "unchecked": 220
+    "next_batch": "1275",
+    "worklist_line": 14286,
+    "topic": "ravulizumab — PNH에 듣는다",
+    "unchecked": 190
   }
 }
