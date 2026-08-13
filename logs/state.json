@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6212,
-  "subjects": 2407,
-  "refs": 8586,
+  "entries": 6222,
+  "subjects": 2413,
+  "refs": 8596,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2768
+    "rx": 2778
   },
   "tiers": {
-    "trial": 5388,
+    "trial": 5398,
     "obs": 729,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3774,
-    "null": 1235,
+    "pos": 3781,
+    "null": 1238,
     "open": 1038,
     "harm": 165
   },
   "worklist": {
     "total": 15542,
-    "checked": 15532,
-    "unchecked": 10,
+    "checked": 15542,
+    "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "Batch 1280 checked 30 unique prescription topics from worklist lines 19473-20027. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. No identifiable non-prescription topic was available in this queue segment. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
+    "note": "Batch 1281 checked 10 unique prescription topics from worklist lines 20028-20188. New evidence entries: 10; existing links: 0; no-evidence rejects: 0. No identifiable non-prescription topic was available in this queue segment. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic. The worklist is now exhausted."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -41,12 +41,12 @@
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
-    "rx_share": "44.5% (2,768 entries)",
-    "no_effect_or_harm_share": "22.5% (1,400 entries)",
-    "vs_share": "18.8% (1,168 entries)",
+    "rx_share": "44.6% (2,778 entries)",
+    "no_effect_or_harm_share": "22.5% (1,403 entries)",
+    "vs_share": "18.9% (1,178 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.7% (5,388 entries)",
-    "non_trial_share": "13.3% (824 entries)",
+    "trial_share": "86.7% (5,398 entries)",
+    "non_trial_share": "13.2% (824 entries)",
     "build_warnings": {
       "unknown_n": 743,
       "thin_study": 1207,
@@ -57,18 +57,18 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1281 starts after batch 1280. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 20028: olopatadine ? Rhinitis. 10 unchecked rows remain.",
+  "next": "Batch 1282 starts after batch 1281. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Prioritize non-prescription legacy work; resume at the first legacy vs-missing entry 5-methyltetrahydrofolate-pregnancy-pos. No unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1280",
-    "commit": "ce354916",
+    "id": "1281",
+    "commit": "2815827d",
     "pushed": true,
-    "processed_topics": 30,
-    "new_entries": 30,
+    "processed_topics": 10,
+    "new_entries": 10,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6212 entries; 8586 refs; 5388 trial; 729 obs; 31 animal; 17 lab; 47 case; 1168 numeric comparison entries; worklist 15532/15542",
-    "research": "ClinicalTrials.gov/PubMed evidence was checked for all 30 topics. New evidence used PMIDs 32918892, 27730198, 33898609, 29872288, 33445205, 7009593, 11547716, 3282478, 28619227, 10762562, 21449783, 23607594, 29365309, 17124018, 41910345, 18815396, 36727510, 28952914, 30206011, 30191972, 8394858, 11429021, 10984368, 26575524, 23467551, 23352226, 25829298, and 23819698. ClinicalTrials.gov registrations were retained where available: NCT02924688, NCT02236611, NCT00705432, NCT01497366, NCT02604017, NCT04790370, NCT00153036, NCT02388061, NCT01438840, NCT01386125, NCT01053988, and NCT00452400. Reused PMIDs covered the two umeclidinium topics, three glycopyrronium topics, two diazepam topics, two glecaprevir/pibrentasvir topics, two ganciclovir topics, and the other treatment-combination evidence. Every processed topic had a numeric intervention-versus-control result or valid relative effect; no topic was rejected.",
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1178 numeric comparison entries; worklist 15542/15542",
+    "research": "ClinicalTrials.gov/PubMed evidence was checked for all 10 topics. New evidence used PMIDs 19243710, 1804598, 8452167, 24423324, 22397653, 35582785, 42290111, 37971723, 26365210, and 21991893. ClinicalTrials.gov registrations were retained where available: NCT00434148, NCT03595579, and NCT03917472. Every processed topic had a numeric intervention-versus-control result or valid relative effect; no topic was rejected. Korean subjects and correct prescription mappings were used for all new entries.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
@@ -78,9 +78,9 @@
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1281",
-    "worklist_line": 20028,
-    "topic": "olopatadine ? Rhinitis",
-    "unchecked": 10
+    "next_batch": "1282",
+    "worklist_line": 20189,
+    "topic": "legacy vs-missing entry 5-methyltetrahydrofolate-pregnancy-pos; worklist exhausted",
+    "unchecked": 0
   }
 }
