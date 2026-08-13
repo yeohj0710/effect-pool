@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5641,
-  "subjects": 2182,
-  "refs": 8002,
+  "entries": 5661,
+  "subjects": 2185,
+  "refs": 8022,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,7 +12,7 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2201
+    "rx": 2221
   },
   "tiers": {
     "trial": 4820,
@@ -22,17 +22,17 @@
     "case": 47
   },
   "dirs": {
-    "pos": 3329,
-    "null": 1118,
+    "pos": 3339,
+    "null": 1125,
     "open": 1037,
-    "harm": 157
+    "harm": 160
   },
   "worklist": {
     "total": 15542,
-    "checked": 14891,
-    "unchecked": 651,
+    "checked": 14911,
+    "unchecked": 631,
     "no_evidence_pending": 2009,
-    "note": "Batch 1258 checked 20 unique topics from line 8542. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 20; existing links: 0; no-evidence rejects: 0."
+    "note": "Batch 1259 checked 20 unique prescription topics from line 8601. No identifiable non-prescription topics were available in the remaining queue, so prescription topics were processed. New evidence entries: 20; existing links: 0; no-evidence rejects: 0."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,45 +40,45 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "16.8% (947 entries)",
-    "rx_share": "39.0% (2,201 entries)",
-    "no_effect_or_harm_share": "22.6% (1,275 entries)",
-    "vs_share": "10.6% (597 entries)",
+    "over_counter_share": "16.7% (947 entries)",
+    "rx_share": "39.2% (2,221 entries)",
+    "no_effect_or_harm_share": "22.7% (1,285 entries)",
+    "vs_share": "11.0% (622 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "85.5% (4,820 entries)",
     "non_trial_share": "14.6% (821 entries)",
     "build_warnings": {
       "unknown_n": 449,
-      "thin_study": 977,
-      "targeted_batch_warnings": 3
+      "thin_study": 980,
+      "targeted_batch_warnings": 6
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1259 starts after batch 1258. Pull and read AGENTS.md first. Prioritize non-prescription topics; none were identifiable in the remaining queue at batch 1258. Resume at worklist line 8601: lisinopril — Heart Failure에 듣는다. 651 unchecked rows remain.",
+  "next": "Batch 1260 starts after batch 1259. Prioritize non-prescription topics first; none were identifiable in the remaining queue for batch 1259. Resume at worklist line 8704: zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다. 631 unchecked rows remain.",
   "last_batch": {
-    "id": "1258",
-    "commit": "f3308f11",
+    "id": "1259",
+    "commit": "030beb0c",
     "pushed": true,
     "processed_topics": 20,
     "new_entries": 20,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "5641 entries; 8002 refs; 4820 trial; 727 obs; 30 animal; 17 lab; 47 case; 597 numeric comparison entries; worklist 14891/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 20 topics with exact intervention-name checks on returned records. New evidence used PMIDs 7486483, 16235347, 34251756, 41057269, 17241859, 28057360, 22062358, 16802350, 18753647, 27557302, 28538134, 36318524, 17280773, 31730448, 31189511, 29483060, 23991658, and 24251359. No topic was rejected for lack of a verifiable numeric intervention-versus-control or relative-effect result. New entries contain Korean subjects, correct rx mappings, and numeric vs or relative effects.",
+    "build": "5661 entries; 8022 refs; 4840 trial; 727 obs; 30 animal; 17 lab; 47 case; 622 numeric comparison entries; worklist 14911/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 20 topics with exact intervention-name checks on returned records. New evidence used PMIDs 12479763, 29710295, 25562685, 35247794, 33272036, 39812769, 40922774, 17476007, 33813753, 26069291, 39725795, 28946736, 2473403, 8607397, 37273965, 40536198, 35137493, 24680372, 28510679, and 36534165. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. No topic was rejected for lack of a verifiable numeric result.",
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 5,
+    "targeted_batch_warnings_fixed": 0,
     "remaining_expected_thin_warnings": 3,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1259",
-    "worklist_line": 8601,
-    "topic": "lisinopril — Heart Failure에 듣는다",
-    "unchecked": 651
+    "next_batch": "1260",
+    "worklist_line": 8704,
+    "topic": "zopiclone — Sleep Initiation and Maintenance Disorders에 듣는다",
+    "unchecked": 631
   }
 }
