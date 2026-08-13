@@ -31,13 +31,13 @@
   "dirs": { "pos": 3237, "null": 1094, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 14646,
-    "unchecked": 896,
+    "checked": 14694,
+    "unchecked": 848,
     "no_evidence_pending": 2059,
-    "note": "batch 1248에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 새 근거 9개, 기존 연결 5개, 대조군 비교를 확인하지 못한 주제 5개를 기록했고 중복 표기까지 worklist 36줄을 체크했다. 현재 미체크 목록의 첫 줄은 4040번 omeprazole — Gastric Acid에 듣는다이며 896개가 남았다."
+    "note": "batch 1249에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 기존 연결 16개와 대조군 비교를 확인하지 못한 주제 4개를 기록했고 중복 표기까지 worklist 48줄을 체크했다. 현재 미체크 목록의 첫 줄은 4821번 furosemide — Renal Impairment에 듣는다이며 848개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4066,
+    "vs_missing": 4064,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
@@ -46,7 +46,7 @@
     "over_counter_share": "17.2% (약국약·보충제·음식 947건). 목표는 25%",
     "rx_share": "38% (2,068건). 줄어야 한다",
     "no_effect_or_harm_share": "23% (1,250건). 목표는 33% 위",
-    "vs_share": "8.3% (456건)",
+    "vs_share": "8.3% (458건)",
     "unexpected_benefit_entries": 13,
     "trial_share": "85.2% (4,690건)",
     "non_trial_share": "14.9% (818건)",
@@ -58,22 +58,22 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1249 starts after batch 1248; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1248 processed the first 20 topics from the resume point. Resume at worklist line 4040: omeprazole — Gastric Acid에 듣는다; 896 unchecked rows remain.",
+  "next": "batch 1250 starts after batch 1249; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1249 processed the first 20 topics from the resume point. Resume at worklist line 4821: furosemide — Renal Impairment에 듣는다; 848 unchecked rows remain.",
   "last_batch": {
-    "id": "1248",
-    "commit": "d4dffae3",
+    "id": "1249",
+    "commit": "c2624990",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 9,
-    "existing_links": 5,
-    "no_evidence_rejects": 5,
+    "new_entries": 0,
+    "existing_links": 16,
+    "no_evidence_rejects": 4,
     "build": "5508 entries · 7841 refs · 4690 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "아리피프라졸—양극성 조증·주요우울장애 보조치료, 프레가발린—섬유근육통·신경병증·대상포진후신경통·부분발작, 카바마제핀—삼차신경통, 클로나제팜—간질, 프레드니손—소아 신증후군을 ClinicalTrials.gov와 PubMed의 비교 수치로 새로 기록했다. 발라시클로버—감염, 라모트리진—양극성장애, 와파린—혈전색전증·색전증·혈전증 기존 항목을 연결했다. mirtazapine—우울증, carbamazepine—양극성장애, prednisone—암·백혈병, omeprazole—궤양은 적절한 대조군 수치가 없어 근거 없음으로 표시했다.",
-    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 9개는 ClinicalTrials.gov 개입명 일치 건수와 PubMed 초록의 개입군·대조군 수치 또는 상대효과를 기록했다. 기존 5개는 중복 생성 없이 연결했고, 5개는 대조군 비교 수치를 확인하지 못해 worklist에 근거 없음으로 기록했다.",
-    "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 3,
+    "research": "오메프라졸—위산, 아지트로마이신—감염·폐렴, 플루옥세틴—우울장애, 카르베딜롤—심부전, 심바스타틴—당뇨, 에플레레논—심부전, 엠파글리플로진—심부전, 리라글루티드—비만·심혈관질환, 벤라팍신—우울 삽화·불안, 암로디핀—혈압·관상동맥질환, 푸로세미드—고혈압·체액 과다 기존 항목을 연결했다. 오메프라졸 위산과 심바스타틴 당뇨는 PubMed 군별 수치로 vs를 보강했고, 플루옥세틴 강박장애·오메프라졸 GERD·심바스타틴 이상지질혈증·리라글루티드 과체중은 적절한 비교 수치가 없어 근거 없음으로 표시했다.",
+    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 항목은 만들지 않았고, 수치 비교가 있는 기존 16개를 중복 생성 없이 worklist에 연결했다. 4개는 대조군 비교 수치 또는 통합 효과크기를 확인하지 못해 근거 없음으로 기록했다. 오메프라졸·심바스타틴 기존 항목의 vs 수치를 보강하고 플루옥세틴 문구 길이 경고 2건을 수정했다.",
+    "legacy_sentence_edits": 1,
+    "legacy_vs_filled": 2,
     "legacy_subject_renames": 0,
-    "targeted_batch_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 2,
     "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
