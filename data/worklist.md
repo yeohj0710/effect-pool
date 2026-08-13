@@ -2549,53 +2549,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(atorvastatin-diabetes-null)
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 --> — 새 항목(atorvastatin-cancer-null)
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 --> — 기존 항목(losartan-cancer-null)
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(losartan-diabetes)
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(losartan-fibrosis-null)
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-ischemic-stroke-null)
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-drug-dependence-null)
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(amantadine-brain-injury-null)
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(amantadine-cocaine-related-disorders-null)
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amantadine-covid-19-null)
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(amantadine-hepatitis-c-null)
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(acetazolamide-hypoxia)
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(acetazolamide-hypertension-null)
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(dapsone-malaria-harm)
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(dapsone-hiv-infection-null)
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dapsone-pneumocystis-pneumonia-null)
-- [ ] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 --> — 기존 항목(methotrexate-myelodysplastic-syndrome-null)
-- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(hydroxyurea-thalassemia)
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(hydroxyurea-hiv-infection-null)
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 --> — 기존 항목(tranexamic-acid-hemorrhage-null)
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 --> — 기존 항목(tranexamic-acid-bleeding)
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(tranexamic-acid-hip-fracture)
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(tranexamic-acid-surgery)
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(isotretinoin-lymphoma-t-cell)
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(isotretinoin-lung-cancer-harm)
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(isotretinoin-leukemia-open)
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(tamoxifen-solid-tumor-null)
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(tamoxifen-brca-mutation-open)
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(tamoxifen-brain-tumor-null)
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(raloxifene-schizophrenia)
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(raloxifene-schizoaffective-disorder-null)
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(raloxifene-schizophreniform-disorder-open)
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(allopurinol-hyperuricemia-null)
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(n-acetylcysteine-kidney-disease-null)
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(n-acetylcysteine-oxidative-stress)
@@ -2626,7 +2626,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -2661,7 +2661,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
@@ -2672,7 +2672,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -2779,53 +2779,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -2856,7 +2856,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -2902,7 +2902,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
@@ -3009,53 +3009,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
@@ -3086,7 +3086,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
@@ -3121,7 +3121,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
@@ -3132,7 +3132,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
@@ -3239,53 +3239,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
@@ -3316,7 +3316,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
@@ -3351,7 +3351,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
@@ -3362,7 +3362,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
@@ -3469,53 +3469,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 -->
@@ -3546,7 +3546,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
@@ -3581,7 +3581,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
@@ -3592,7 +3592,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
@@ -3699,53 +3699,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia-null)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -3776,7 +3776,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
@@ -3811,7 +3811,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
@@ -3822,7 +3822,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -3929,53 +3929,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia-null)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -4061,7 +4061,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
@@ -4096,7 +4096,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
@@ -4107,7 +4107,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -4214,53 +4214,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -4321,7 +4321,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
@@ -4356,7 +4356,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
@@ -4367,7 +4367,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -4474,53 +4474,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -4581,7 +4581,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
@@ -4616,7 +4616,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
@@ -4627,7 +4627,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
 - [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(semaglutide-alcohol-use-disorder)
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 --> — 기존 항목(ketamine-depression-null)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 --> — 기존 항목(ketamine-major-surgery-null)
@@ -4734,53 +4734,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(atorvastatin-diabetes-null)
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 --> — 기존 항목(atorvastatin-cancer-null)
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 --> — 기존 항목(losartan-cancer-null)
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(losartan-diabetes)
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(losartan-fibrosis-null)
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-ischemic-stroke-null)
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-drug-dependence-null)
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(amantadine-brain-injury-null)
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(amantadine-cocaine-related-disorders-null)
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amantadine-covid-19-null)
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(amantadine-hepatitis-c-null)
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(acetazolamide-hypoxia)
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(acetazolamide-hypertension-null)
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(dapsone-malaria-harm)
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(dapsone-hiv-infection-null)
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dapsone-pneumocystis-pneumonia-null)
-- [ ] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 --> — 기존 항목(methotrexate-myelodysplastic-syndrome-null)
-- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(hydroxyurea-thalassemia)
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(hydroxyurea-hiv-infection-null)
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 --> — 기존 항목(tranexamic-acid-hemorrhage-null)
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 --> — 기존 항목(tranexamic-acid-bleeding)
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(tranexamic-acid-hip-fracture)
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(tranexamic-acid-surgery)
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(isotretinoin-lymphoma-t-cell)
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(isotretinoin-lung-cancer-harm)
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(isotretinoin-leukemia-open)
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(tamoxifen-solid-tumor-null)
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(tamoxifen-brca-mutation-open)
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(tamoxifen-brain-tumor-null)
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(raloxifene-schizophrenia)
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(raloxifene-schizoaffective-disorder-null)
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(raloxifene-schizophreniform-disorder-open)
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(allopurinol-hyperuricemia-null)
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(n-acetylcysteine-kidney-disease-null)
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(n-acetylcysteine-oxidative-stress)
@@ -4853,7 +4853,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
@@ -4888,7 +4888,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
@@ -4899,7 +4899,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
 - [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(semaglutide-alcohol-use-disorder)
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 --> — 기존 항목(ketamine-depression-null)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 --> — 기존 항목(ketamine-major-surgery-null)
@@ -5006,53 +5006,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(atorvastatin-diabetes-null)
 - [x] atorvastatin — Cancer에 듣는다  <!-- 등록 시험 38건 --> — 기존 항목(atorvastatin-cancer-null)
 - [x] losartan — Cancer에 듣는다  <!-- 등록 시험 35건 --> — 기존 항목(losartan-cancer-null)
-- [ ] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(losartan-diabetes)
 - [x] losartan — Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(losartan-fibrosis-null)
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-ischemic-stroke-null)
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(verapamil-drug-dependence-null)
 - [x] amantadine — Brain Injury에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(amantadine-brain-injury-null)
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(amantadine-cocaine-related-disorders-null)
 - [x] amantadine — COVID-19에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amantadine-covid-19-null)
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(amantadine-hepatitis-c-null)
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 등록 시험 31건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(acetazolamide-hypoxia)
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(acetazolamide-hypertension-null)
 - [x] dapsone — Malaria에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(dapsone-malaria-harm)
 - [x] dapsone — HIV Infection에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(dapsone-hiv-infection-null)
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dapsone-pneumocystis-pneumonia-null)
-- [ ] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapsone — Leprosy에 듣는다  <!-- 등록 시험 4건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 등록 시험 224건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 등록 시험 103건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 41건 --> — 기존 항목(methotrexate-myelodysplastic-syndrome-null)
-- [ ] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] methotrexate — Cancer에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(hydroxyurea-thalassemia)
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(hydroxyurea-hiv-infection-null)
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 등록 시험 113건 --> — 기존 항목(tranexamic-acid-hemorrhage-null)
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 등록 시험 87건 --> — 기존 항목(tranexamic-acid-bleeding)
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(tranexamic-acid-hip-fracture)
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(tranexamic-acid-surgery)
-- [ ] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isotretinoin — Acne에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(isotretinoin-lymphoma-t-cell)
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(isotretinoin-lung-cancer-harm)
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(isotretinoin-leukemia-open)
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(tamoxifen-solid-tumor-null)
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(tamoxifen-brca-mutation-open)
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(tamoxifen-brain-tumor-null)
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(raloxifene-schizophrenia)
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(raloxifene-schizoaffective-disorder-null)
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(raloxifene-schizophreniform-disorder-open)
-- [ ] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 등록 시험 54건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(allopurinol-hyperuricemia-null)
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(n-acetylcysteine-kidney-disease-null)
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(n-acetylcysteine-oxidative-stress)
@@ -5083,7 +5083,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
@@ -5118,7 +5118,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
@@ -5236,53 +5236,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
+- [x] raloxifene — Breast Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 --> — ?? ??(raloxifene-breast-cancer-null)
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
-- [ ] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
+- [x] allopurinol — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(allopurinol-lymphoma-null)
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -5423,7 +5423,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -5458,7 +5458,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
-- [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-periodontitis-pos)
 - [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
@@ -5469,7 +5469,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [ ] ketamine — Major Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 71건 -->
@@ -5576,53 +5576,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
 - [x] methotrexate — Cancer에 듣는다 — 새 항목(methotrexate-cancer-open)  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [ ] tranexamic acid — Hemorrhage에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 새 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 새 항목(allopurinol-lymphoma-null)  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -5695,7 +5695,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-pos)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
@@ -5741,7 +5741,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -5848,11 +5848,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
@@ -5861,40 +5861,40 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
 - [x] acetazolamide — Heart Failure에 듣는다 — 기존 항목(acetazolamide-heart-failure-open)  <!-- 등록 시험 31건 -->
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -5925,7 +5925,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-pos)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -5971,7 +5971,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -6078,53 +6078,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 기존 항목(atorvastatin-diabetes-null)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
 - [x] methotrexate — Cancer에 듣는다 — 기존 항목(methotrexate-cancer-open)  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -6156,7 +6156,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-pos)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -6202,7 +6202,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -6309,53 +6309,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 기존 항목(methotrexate-myelodysplastic-syndrome-null)  <!-- 등록 시험 41건 -->
 - [x] methotrexate — Cancer에 듣는다 — 기존 항목(methotrexate-cancer-open)  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia-open)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor-null)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -6438,7 +6438,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
@@ -6484,7 +6484,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
 - [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
+- [x] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
@@ -6591,53 +6591,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 결과 대기(2026-08-05)  <!-- 등록 시험 44건 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 등록 시험 38건 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 등록 시험 35건 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 등록 시험 22건 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 등록 시험 15건 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 등록 시험 5건 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 등록 시험 5건 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 등록 시험 13건 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 등록 시험 8건 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 등록 시험 7건 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 등록 시험 6건 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 31건 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 등록 시험 24건 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 등록 시험 16건 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 등록 시험 11건 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 등록 시험 9건 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 4건 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 224건 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 103건 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 결과 대기(2026-08-05)  <!-- 등록 시험 41건 -->
 - [x] methotrexate — Cancer에 듣는다 — 기존 항목(methotrexate-cancer-open)  <!-- 등록 시험 40건 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 등록 시험 17건 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 등록 시험 16건 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 등록 시험 113건 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 등록 시험 87건 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 등록 시험 57건 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 등록 시험 44건 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 34건 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 등록 시험 21건 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 등록 시험 18건 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 새 항목(isotretinoin-leukemia)  <!-- 등록 시험 13건 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 새 항목(tamoxifen-solid-tumor)  <!-- 등록 시험 24건 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다 — 기존 항목(tamoxifen-brca-mutation-open)  <!-- 등록 시험 11건 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 등록 시험 9건 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 8건 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 등록 시험 13건 -->
 - [x] raloxifene — Schizophrenia에 듣는다 — 기존 항목(raloxifene-schizophrenia)  <!-- 등록 시험 9건 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 새 항목(raloxifene-schizophreniform-disorder-open)  <!-- 등록 시험 4건 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 54건 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 등록 시험 29건 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 기존 항목(allopurinol-hyperuricemia-null)  <!-- 등록 시험 20건 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 19건 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 기존 항목(n-acetylcysteine-kidney-disease-null)  <!-- 등록 시험 24건 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 기존 항목(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 등록 시험 15건 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 기존 항목(n-acetylcysteine-oxidative-stress)  <!-- 등록 시험 14건 -->
@@ -6810,49 +6810,49 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 44건 · 논문 1785편 -->
 - [x] atorvastatin — Cancer에 듣는다 — 기존 항목(atorvastatin-cancer-null)  <!-- 시험 38건 · 논문 936편 -->
 - [x] losartan — Cancer에 듣는다 — 기존 항목(losartan-cancer-null)  <!-- 시험 35건 · 논문 421편 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 기존 항목(losartan-diabetes)  <!-- 시험 22건 · 논문 1361편 -->
 - [x] losartan — Fibrosis에 듣는다 — 기존 항목(losartan-fibrosis-null)  <!-- 시험 15건 · 논문 848편 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 기존 항목(verapamil-ischemic-stroke-null)  <!-- 시험 5건 · 논문 97편 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 기존 항목(verapamil-drug-dependence-null)  <!-- 시험 5건 · 논문 669편 -->
 - [x] amantadine — Brain Injury에 듣는다 — 기존 항목(amantadine-brain-injury-null)  <!-- 시험 13건 · 논문 382편 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 기존 항목(amantadine-cocaine-related-disorders-null)  <!-- 시험 8건 · 논문 52편 -->
 - [x] amantadine — COVID-19에 듣는다 — 기존 항목(amantadine-covid-19-null)  <!-- 시험 7건 · 논문 92편 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 기존 항목(amantadine-hepatitis-c-null)  <!-- 시험 6건 · 논문 248편 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 기존 항목(acetazolamide-hypoxia)  <!-- 시험 24건 · 논문 446편 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 기존 항목(acetazolamide-hypertension-null)  <!-- 시험 11건 · 논문 1199편 -->
 - [x] dapsone — Malaria에 듣는다 — 기존 항목(dapsone-malaria-harm)  <!-- 시험 16건 · 논문 385편 -->
 - [x] dapsone — HIV Infection에 듣는다 — 기존 항목(dapsone-hiv-infection-null)  <!-- 시험 11건 · 논문 363편 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 기존 항목(dapsone-pneumocystis-pneumonia-null)  <!-- 시험 9건 · 논문 365편 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 41건 · 논문 301편 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5582편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 -->
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5582편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 기존 항목(hydroxyurea-thalassemia)  <!-- 시험 17건 · 논문 693편 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 기존 항목(hydroxyurea-hiv-infection-null)  <!-- 시험 16건 · 논문 277편 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 기존 항목(tranexamic-acid-hemorrhage-null)  <!-- 시험 113건 · 논문 7485편 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 기존 항목(tranexamic-acid-bleeding)  <!-- 시험 87건 · 논문 6214편 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 기존 항목(tranexamic-acid-hip-fracture)  <!-- 시험 57건 · 논문 220편 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 기존 항목(tranexamic-acid-surgery)  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 기존 항목(isotretinoin-lymphoma-t-cell)  <!-- 시험 21건 · 논문 60편 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 기존 항목(isotretinoin-lung-cancer-harm)  <!-- 시험 18건 · 논문 99편 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 기존 항목(isotretinoin-leukemia)  <!-- 시험 13건 · 논문 83편 -->
 - [x] tamoxifen — Solid Tumor에 듣는다 — 기존 항목(tamoxifen-solid-tumor)  <!-- 시험 24건 · 논문 309편 -->
 - [x] tamoxifen — Brain Tumor에 듣는다 — 기존 항목(tamoxifen-brain-tumor-null)  <!-- 시험 9건 · 논문 449편 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 1126편 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 1126편 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다 — 기존 항목(raloxifene-breast-cancer-null)  <!-- 시험 13건 · 논문 1368편 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 기존 항목(raloxifene-schizoaffective-disorder-null)  <!-- 시험 6건 · 논문 15편 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 기존 항목(raloxifene-schizophreniform-disorder-open)  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 기존 항목(allopurinol-lymphoma-null)  <!-- 시험 29건 · 논문 224편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 --> — ?? ??(allopurinol-kidney-stones-pos)
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
 ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
@@ -6935,7 +6935,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 --> — 이미 수록됨(2026-08-05)
 - [x] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2692편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(semaglutide-obesity-weight-loss)
-- [ ] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1956편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1956편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(semaglutide-weight-loss-pos)
 - [x] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 --> — 이미 수록됨(2026-08-05)
 - [x] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 --> — 이미 수록됨(2026-08-05)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 --> — 이미 수록됨(2026-08-05)
@@ -7032,53 +7032,53 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] atorvastatin — Diabetes에 듣는다  <!-- 시험 44건 · 논문 1785편 --> — 결과 대기(2026-08-05)
 - [x] atorvastatin — Cancer에 듣는다  <!-- 시험 38건 · 논문 936편 --> — 이미 수록됨(2026-08-05)
 - [x] losartan — Cancer에 듣는다  <!-- 시험 35건 · 논문 421편 --> — 이미 수록됨(2026-08-05)
-- [ ] losartan — Nephropathy에 듣는다  <!-- 시험 25건 · 논문 1600편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] losartan — Nephropathy에 듣는다  <!-- 시험 25건 · 논문 1600편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 시험 22건 · 논문 1361편 --> — 이미 수록됨(2026-08-05)
 - [x] losartan — Fibrosis에 듣는다  <!-- 시험 15건 · 논문 848편 --> — 이미 수록됨(2026-08-05)
-- [ ] verapamil — Atrial Fibrillation에 듣는다  <!-- 시험 10건 · 논문 761편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] verapamil — Hypertension에 듣는다  <!-- 시험 6건 · 논문 2380편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다  <!-- 시험 10건 · 논문 761편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다  <!-- 시험 6건 · 논문 2380편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 시험 5건 · 논문 97편 --> — 이미 수록됨(2026-08-05)
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 시험 5건 · 논문 669편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — Brain Injury에 듣는다  <!-- 시험 13건 · 논문 382편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 시험 8건 · 논문 52편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — COVID-19에 듣는다  <!-- 시험 7건 · 논문 92편 --> — 이미 수록됨(2026-08-05)
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 시험 6건 · 논문 248편 --> — 이미 수록됨(2026-08-05)
-- [ ] acetazolamide — Heart Failure에 듣는다  <!-- 시험 31건 · 논문 347편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] acetazolamide — Heart Failure에 듣는다  <!-- 시험 31건 · 논문 347편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 시험 24건 · 논문 446편 --> — 이미 수록됨(2026-08-05)
-- [ ] acetazolamide — Mountain Sickness에 듣는다  <!-- 시험 12건 · 논문 489편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다  <!-- 시험 12건 · 논문 489편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 시험 11건 · 논문 1199편 --> — 이미 수록됨(2026-08-05)
 - [x] dapsone — Malaria에 듣는다  <!-- 시험 16건 · 논문 385편 --> — 이미 수록됨(2026-08-05)
 - [x] dapsone — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 363편 --> — 이미 수록됨(2026-08-05)
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 시험 9건 · 논문 365편 --> — 이미 수록됨(2026-08-05)
-- [ ] dapsone — Leprosy에 듣는다  <!-- 시험 4건 · 논문 2127편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] methotrexate — Lymphoma에 듣는다  <!-- 시험 224건 · 논문 8732편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] dapsone — Leprosy에 듣는다  <!-- 시험 4건 · 논문 2127편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다  <!-- 시험 224건 · 논문 8732편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다  <!-- 시험 103건 · 논문 15732편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 --> — 결과 대기(2026-08-05)
 - [x] methotrexate — Cancer에 듣는다  <!-- 시험 40건 · 논문 30398편 --> — 이미 수록됨(2026-08-05)
-- [ ] hydroxyurea — Cancer에 듣는다  <!-- 시험 29건 · 논문 5582편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] hydroxyurea — Leukemia에 듣는다  <!-- 시험 22건 · 논문 2333편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] hydroxyurea — Cancer에 듣는다  <!-- 시험 29건 · 논문 5582편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다  <!-- 시험 22건 · 논문 2333편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 시험 17건 · 논문 693편 --> — 이미 수록됨(2026-08-05)
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 시험 16건 · 논문 277편 --> — 이미 수록됨(2026-08-05)
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 시험 113건 · 논문 7485편 --> — 이미 수록됨(2026-08-05)
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 시험 87건 · 논문 6214편 --> — 이미 수록됨(2026-08-05)
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 시험 57건 · 논문 220편 --> — 이미 수록됨(2026-08-05)
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 시험 44건 · 논문 5782편 --> — 이미 수록됨(2026-08-05)
-- [ ] isotretinoin — Acne에 듣는다  <!-- 시험 34건 · 논문 2818편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] isotretinoin — Acne에 듣는다  <!-- 시험 34건 · 논문 2818편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다  <!-- 시험 21건 · 논문 60편 --> — 이미 수록됨(2026-08-05)
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 99편 --> — 이미 수록됨(2026-08-05)
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 시험 13건 · 논문 83편 --> — 이미 수록됨(2026-08-05)
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 시험 24건 · 논문 309편 --> — 이미 수록됨(2026-08-05)
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 시험 11건 · 논문 114편 --> — 이미 수록됨(2026-08-05)
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 449편 --> — 이미 수록됨(2026-08-05)
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 시험 8건 · 논문 1126편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다  <!-- 시험 8건 · 논문 1126편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 1368편 --> — 이미 수록됨(2026-08-05)
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 71편 --> — 이미 수록됨(2026-08-05)
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 --> — 이미 수록됨(2026-08-05)
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 --> — 이미 수록됨(2026-08-05)
-- [ ] allopurinol — Gout에 듣는다  <!-- 시험 54건 · 논문 3005편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] allopurinol — Gout에 듣는다  <!-- 시험 54건 · 논문 3005편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 224편 --> — 이미 수록됨(2026-08-05)
 - [x] allopurinol — Hyperuricemia에 듣는다  <!-- 시험 20건 · 논문 1900편 --> — 이미 수록됨(2026-08-05)
-- [ ] allopurinol — Kidney Stones에 듣는다  <!-- 시험 19건 · 논문 415편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] allopurinol — Kidney Stones에 듣는다  <!-- 시험 19건 · 논문 415편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 24건 · 논문 1415편 --> — 이미 수록됨(2026-08-05)
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 시험 15건 · 논문 357편 --> — 이미 수록됨(2026-08-05)
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다  <!-- 시험 14건 · 논문 6596편 --> — 이미 수록됨(2026-08-05)
@@ -7383,51 +7383,51 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 44건 · 논문 1785편 -->
 - [x] atorvastatin — Cancer에 듣는다  <!-- 시험 38건 · 논문 936편 -->
 - [x] losartan — Cancer에 듣는다  <!-- 시험 35건 · 논문 421편 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다  <!-- 시험 22건 · 논문 1361편 -->
 - [x] losartan — Fibrosis에 듣는다  <!-- 시험 15건 · 논문 848편 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다  <!-- 시험 5건 · 논문 97편 -->
 - [x] verapamil — Drug Dependence에 듣는다  <!-- 시험 5건 · 논문 669편 -->
 - [x] amantadine — Brain Injury에 듣는다  <!-- 시험 13건 · 논문 382편 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다  <!-- 시험 8건 · 논문 52편 -->
 - [x] amantadine — COVID-19에 듣는다  <!-- 시험 7건 · 논문 92편 -->
 - [x] amantadine — Hepatitis C에 듣는다  <!-- 시험 6건 · 논문 248편 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다  <!-- 시험 24건 · 논문 446편 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다  <!-- 시험 11건 · 논문 1199편 -->
 - [x] dapsone — Malaria에 듣는다  <!-- 시험 16건 · 논문 385편 -->
 - [x] dapsone — HIV Infection에 듣는다  <!-- 시험 11건 · 논문 363편 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다  <!-- 시험 9건 · 논문 365편 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다  <!-- 시험 41건 · 논문 301편 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다  <!-- 시험 17건 · 논문 693편 -->
 - [x] hydroxyurea — HIV Infection에 듣는다  <!-- 시험 16건 · 논문 277편 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다  <!-- 시험 113건 · 논문 7486편 -->
 - [x] tranexamic acid — Bleeding에 듣는다  <!-- 시험 87건 · 논문 6215편 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다  <!-- 시험 57건 · 논문 220편 -->
 - [x] tranexamic acid — Surgery에 듣는다  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lung Cancer에 듣는다  <!-- 시험 18건 · 논문 99편 -->
 - [x] isotretinoin — Leukemia에 듣는다  <!-- 시험 13건 · 논문 83편 -->
 - [x] tamoxifen — Solid Tumor에 듣는다  <!-- 시험 24건 · 논문 309편 -->
 - [x] tamoxifen — BRCA Mutation에 듣는다  <!-- 시험 11건 · 논문 114편 -->
 - [x] tamoxifen — Brain Tumor에 듣는다  <!-- 시험 9건 · 논문 449편 -->
-- [ ] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 1126편 -->
+- [x] tamoxifen — Ductal Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 1126편 --> — ?? ??(tamoxifen-ductal-carcinoma-pos)
 - [x] raloxifene — Breast Cancer에 듣는다  <!-- 시험 13건 · 논문 1368편 -->
 - [x] raloxifene — Schizophrenia에 듣는다  <!-- 시험 9건 · 논문 71편 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다  <!-- 시험 6건 · 논문 15편 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다  <!-- 시험 29건 · 논문 224편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다  <!-- 시험 24건 · 논문 1415편 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다  <!-- 시험 15건 · 논문 357편 -->
 - [x] n-acetylcysteine — Cocaine Dependence에 듣는다  <!-- 시험 13건 · 논문 52편 -->
@@ -7456,7 +7456,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 이미 수록됨(propranolol-cirrhosis-open)  <!-- 시험 25건 · 논문 956편 -->
@@ -7598,38 +7598,38 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 44건 · 논문 1785편 -->
 - [x] atorvastatin — Cancer에 듣는다 — 이미 수록됨(atorvastatin-cancer-null)  <!-- 시험 38건 · 논문 936편 -->
 - [x] losartan — Cancer에 듣는다 — 이미 수록됨(losartan-cancer-null)  <!-- 시험 35건 · 논문 421편 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 이미 수록됨(losartan-diabetes)  <!-- 시험 22건 · 논문 1361편 -->
 - [x] losartan — Fibrosis에 듣는다 — 이미 수록됨(losartan-fibrosis-null)  <!-- 시험 15건 · 논문 848편 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 이미 수록됨(verapamil-ischemic-stroke-null)  <!-- 시험 5건 · 논문 97편 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 이미 수록됨(verapamil-drug-dependence-null)  <!-- 시험 5건 · 논문 669편 -->
 - [x] amantadine — Brain Injury에 듣는다 — 이미 수록됨(amantadine-brain-injury-null)  <!-- 시험 13건 · 논문 382편 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 이미 수록됨(amantadine-cocaine-related-disorders-null)  <!-- 시험 8건 · 논문 52편 -->
 - [x] amantadine — COVID-19에 듣는다 — 이미 수록됨(amantadine-covid-19-null)  <!-- 시험 7건 · 논문 92편 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 이미 수록됨(amantadine-hepatitis-c-null)  <!-- 시험 6건 · 논문 248편 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 이미 수록됨(acetazolamide-hypoxia)  <!-- 시험 24건 · 논문 446편 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 이미 수록됨(acetazolamide-hypertension-null)  <!-- 시험 11건 · 논문 1199편 -->
 - [x] dapsone — Malaria에 듣는다 — 이미 수록됨(dapsone-malaria-harm)  <!-- 시험 16건 · 논문 385편 -->
 - [x] dapsone — HIV Infection에 듣는다 — 이미 수록됨(dapsone-hiv-infection-null)  <!-- 시험 11건 · 논문 363편 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 이미 수록됨(dapsone-pneumocystis-pneumonia-null)  <!-- 시험 9건 · 논문 365편 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 이미 수록됨(methotrexate-myelodysplastic-syndrome-pos)  <!-- 시험 41건 · 논문 301편 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 이미 수록됨(hydroxyurea-thalassemia)  <!-- 시험 17건 · 논문 693편 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 이미 수록됨(hydroxyurea-hiv-infection-null)  <!-- 시험 16건 · 논문 277편 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 이미 수록됨(tranexamic-acid-hemorrhage-null)  <!-- 시험 113건 · 논문 7486편 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 이미 수록됨(tranexamic-acid-bleeding)  <!-- 시험 87건 · 논문 6215편 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 이미 수록됨(tranexamic-acid-hip-fracture)  <!-- 시험 57건 · 논문 220편 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 이미 수록됨(tranexamic-acid-surgery)  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 이미 수록됨(isotretinoin-lymphoma-t-cell)  <!-- 시험 21건 · 논문 60편 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 이미 수록됨(isotretinoin-lung-cancer-harm)  <!-- 시험 18건 · 논문 99편 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 이미 수록됨(isotretinoin-leukemia)  <!-- 시험 13건 · 논문 83편 -->
@@ -7641,10 +7641,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] raloxifene — Schizophrenia에 듣는다 — 이미 수록됨(raloxifene-schizophrenia)  <!-- 시험 9건 · 논문 71편 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 이미 수록됨(raloxifene-schizoaffective-disorder-null)  <!-- 시험 6건 · 논문 15편 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 이미 수록됨(raloxifene-schizophreniform-disorder-open)  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 이미 수록됨(allopurinol-lymphoma-null)  <!-- 시험 29건 · 논문 224편 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 이미 수록됨(allopurinol-hyperuricemia-null)  <!-- 시험 20건 · 논문 1900편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 이미 수록됨(n-acetylcysteine-kidney-disease-null)  <!-- 시험 24건 · 논문 1415편 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 이미 수록됨(n-acetylcysteine-pulmonary-fibrosis-null)  <!-- 시험 15건 · 논문 357편 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 이미 수록됨(n-acetylcysteine-oxidative-stress)  <!-- 시험 14건 · 논문 6597편 -->
@@ -7674,7 +7674,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
 - [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
-- [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
+- [x] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 --> — ?? ??(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 이미 수록됨(propranolol-cirrhosis-open)  <!-- 시험 25건 · 논문 956편 -->
@@ -7816,38 +7816,38 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] atorvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 44건 · 논문 1785편 -->
 - [x] atorvastatin — Cancer에 듣는다 — 이미 수록됨(atorvastatin-cancer)  <!-- 시험 38건 · 논문 936편 -->
 - [x] losartan — Cancer에 듣는다 — 이미 수록됨(losartan-cancer)  <!-- 시험 35건 · 논문 421편 -->
-- [ ] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 -->
+- [x] losartan — Nephropathy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 1600편 --> — ?? ??(losartan-nephropathy-pos)
 - [x] losartan — Diabetes에 듣는다 — 이미 수록됨(losartan-diabetes)  <!-- 시험 22건 · 논문 1361편 -->
 - [x] losartan — Fibrosis에 듣는다 — 이미 수록됨(losartan-fibrosis-null)  <!-- 시험 15건 · 논문 848편 -->
-- [ ] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 -->
-- [ ] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 -->
+- [x] verapamil — Atrial Fibrillation에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 761편 --> — ?? ??(verapamil-atrial-fibrillation-null)
+- [x] verapamil — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 2380편 --> — ?? ??(verapamil-hypertension-null)
 - [x] verapamil — Ischemic Stroke에 듣는다 — 이미 수록됨(verapamil-ischemic-stroke-null)  <!-- 시험 5건 · 논문 97편 -->
 - [x] verapamil — Drug Dependence에 듣는다 — 이미 수록됨(verapamil-drug-dependence-null)  <!-- 시험 5건 · 논문 669편 -->
 - [x] amantadine — Brain Injury에 듣는다 — 이미 수록됨(amantadine-brain-injury)  <!-- 시험 13건 · 논문 382편 -->
 - [x] amantadine — Cocaine-Related Disorders에 듣는다 — 이미 수록됨(amantadine-cocaine-related-disorders)  <!-- 시험 8건 · 논문 52편 -->
 - [x] amantadine — COVID-19에 듣는다 — 이미 수록됨(amantadine-covid-19)  <!-- 시험 7건 · 논문 92편 -->
 - [x] amantadine — Hepatitis C에 듣는다 — 이미 수록됨(amantadine-hepatitis-c)  <!-- 시험 6건 · 논문 248편 -->
-- [ ] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 -->
+- [x] acetazolamide — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 347편 --> — ?? ??(acetazolamide-heart-failure-pos)
 - [x] acetazolamide — Hypoxia에 듣는다 — 이미 수록됨(acetazolamide-hypoxia)  <!-- 시험 24건 · 논문 446편 -->
-- [ ] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 -->
+- [x] acetazolamide — Mountain Sickness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 489편 --> — ?? ??(acetazolamide-altitude-sickness-pos)
 - [x] acetazolamide — Hypertension에 듣는다 — 이미 수록됨(acetazolamide-hypertension-null)  <!-- 시험 11건 · 논문 1199편 -->
 - [x] dapsone — Malaria에 듣는다 — 이미 수록됨(dapsone-malaria)  <!-- 시험 16건 · 논문 385편 -->
 - [x] dapsone — HIV Infection에 듣는다 — 이미 수록됨(dapsone-hiv-infection)  <!-- 시험 11건 · 논문 363편 -->
 - [x] dapsone — Pneumocystis Pneumonia에 듣는다 — 이미 수록됨(dapsone-pneumocystis-pneumonia)  <!-- 시험 9건 · 논문 365편 -->
-- [ ] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 -->
-- [ ] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 -->
-- [ ] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 -->
+- [x] dapsone — Leprosy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2127편 --> — ? ??(dapsone-leprosy-null)
+- [x] methotrexate — Lymphoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 224건 · 논문 8732편 --> — ?? ??(methotrexate-lymphoma-pos)
+- [x] methotrexate — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 103건 · 논문 15732편 --> — ?? ??(methotrexate-arthritis-pos)
 - [x] methotrexate — Myelodysplastic Syndrome에 듣는다 — 이미 수록됨(methotrexate-myelodysplastic-syndrome)  <!-- 시험 41건 · 논문 301편 -->
-- [ ] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 -->
-- [ ] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 -->
-- [ ] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 -->
+- [x] methotrexate — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 30398편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 29건 · 논문 5583편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
+- [x] hydroxyurea — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 2333편 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [x] hydroxyurea — Thalassemia에 듣는다 — 이미 수록됨(hydroxyurea-thalassemia)  <!-- 시험 17건 · 논문 693편 -->
 - [x] hydroxyurea — HIV Infection에 듣는다 — 이미 수록됨(hydroxyurea-hiv-infection)  <!-- 시험 16건 · 논문 277편 -->
 - [x] tranexamic acid — Hemorrhage에 듣는다 — 이미 수록됨(tranexamic-acid-hemorrhage)  <!-- 시험 113건 · 논문 7486편 -->
 - [x] tranexamic acid — Bleeding에 듣는다 — 이미 수록됨(tranexamic-acid-bleeding)  <!-- 시험 87건 · 논문 6215편 -->
 - [x] tranexamic acid — Hip Fracture에 듣는다 — 이미 수록됨(tranexamic-acid-hip-fracture)  <!-- 시험 57건 · 논문 220편 -->
 - [x] tranexamic acid — Surgery에 듣는다 — 이미 수록됨(tranexamic-acid-surgery)  <!-- 시험 44건 · 논문 5782편 -->
-- [ ] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 -->
+- [x] isotretinoin — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 34건 · 논문 2818편 --> — ?? ??(isotretinoin-acne-pos)
 - [x] isotretinoin — Lymphoma, T-Cell에 듣는다 — 이미 수록됨(isotretinoin-lymphoma-t-cell)  <!-- 시험 21건 · 논문 60편 -->
 - [x] isotretinoin — Lung Cancer에 듣는다 — 이미 수록됨(isotretinoin-lung-cancer)  <!-- 시험 18건 · 논문 99편 -->
 - [x] isotretinoin — Leukemia에 듣는다 — 이미 수록됨(isotretinoin-leukemia)  <!-- 시험 13건 · 논문 83편 -->
@@ -7859,10 +7859,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] raloxifene — Schizophrenia에 듣는다 — 이미 수록됨(raloxifene-schizophrenia)  <!-- 시험 9건 · 논문 71편 -->
 - [x] raloxifene — Schizoaffective Disorder에 듣는다 — 이미 수록됨(raloxifene-schizoaffective-disorder)  <!-- 시험 6건 · 논문 15편 -->
 - [x] raloxifene — Schizophreniform Disorder에 듣는다 — 이미 수록됨(raloxifene-schizophreniform-disorder)  <!-- 시험 4건 · 논문 12편 -->
-- [ ] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 -->
+- [x] allopurinol — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 54건 · 논문 3005편 --> — ?? ??(allopurinol-gout-pos)
 - [x] allopurinol — Lymphoma에 듣는다 — 이미 수록됨(allopurinol-lymphoma)  <!-- 시험 29건 · 논문 224편 -->
 - [x] allopurinol — Hyperuricemia에 듣는다 — 이미 수록됨(allopurinol-hyperuricemia)  <!-- 시험 20건 · 논문 1900편 -->
-- [ ] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 -->
+- [x] allopurinol — Kidney Stones에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 415편 --> — ?? ??(allopurinol-kidney-stones-pos)
 - [x] n-acetylcysteine — Kidney Disease에 듣는다 — 이미 수록됨(n-acetylcysteine-kidney-disease)  <!-- 시험 24건 · 논문 1415편 -->
 - [x] n-acetylcysteine — Pulmonary Fibrosis에 듣는다 — 이미 수록됨(n-acetylcysteine-pulmonary-fibrosis)  <!-- 시험 15건 · 논문 357편 -->
 - [x] n-acetylcysteine — Oxidative Stress에 듣는다 — 이미 수록됨(n-acetylcysteine-oxidative-stress)  <!-- 시험 14건 · 논문 6597편 -->
@@ -8065,7 +8065,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] methotrexate — Psoriasis에 듣는다  <!-- 시험 19건 · 논문 4271편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] methotrexate — Graft Vs Host Disease에 듣는다  <!-- 시험 18건 · 논문 1662편 -->
 - [ ] methotrexate — Osteosarcoma에 듣는다  <!-- 시험 10건 · 논문 1599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] hydroxyurea — Cancer of the Oral Cavity에 듣는다  <!-- 시험 13건 · 논문 68편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ??? ?? ??????)
 - [ ] hydroxyurea — Nose Neoplasms에 듣는다  <!-- 시험 12건 · 논문 8편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] hydroxyurea — Stroke에 듣는다  <!-- 시험 10건 · 논문 467편 -->
 - [x] hydroxyurea — Polycythemia Vera에 듣는다  <!-- 시험 8건 · 논문 898편 -->
