@@ -32,10 +32,10 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1284 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1285 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
   },
   "backlog": {
-    "vs_missing": 3968,
+    "vs_missing": 3938,
     "english_subjects": 1116,
     "note": "Legacy backlog remains; process it in safe batches."
   },
@@ -43,7 +43,7 @@
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "20.4% (1,268 entries)",
+    "vs_share": "20.9% (1,298 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1285 starts after batch 1284. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1284 skipped legacy rows whose source only exposed p-values without a valid intervention-versus-control magnitude; resume non-prescription legacy work at minoxidil-thin-eyebrow. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1286 starts after batch 1285. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1285 skipped minoxidil-thin-eyebrow because the verified PubMed records exposed qualitative improvement without a numeric intervention-versus-control result; resume there only if a valid relative effect is found. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1284",
-    "commit": "e8d54889",
+    "id": "1285",
+    "commit": "06f62e76",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1268 numeric comparison entries; worklist 15542/15542",
-    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 38954864, 27394070, 33048571, 18688562, 33103915, 28701493, 35919637, 17101300, 25724700, 23076948, 35649167, 33875025, 42369710, 36105207, 34735523, 33625613, 36159508, 25694068, 30308127, 38936289, 36424570, 30836964, 41699990, 42315357, 31414843, 42334964, 42356328, 22777991, 35144527, 31574513, 23644932, 35653117, 37181363, 38417212, 35851222, 25183726, 34399197, and 12196747; ClinicalTrials.gov identifiers NCT00113841, NCT04019704, NCT03629119, NCT04724720, and NCT00781950. No entries were rejected, no sample sizes were inferred, and no new claims were fabricated.",
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1298 numeric comparison entries; worklist 15542/15542",
+    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 35722671, 29993119, 34461084, 23480975, 38259644, 42105638, 39870593, 20675688, 38084817, 33965941, 15109523, 23255568, 38619185, 39019965, 36495795, 41996419, 33176590, 38585645, 33517104, 24703512, 20236345, 33829803, 38695040, 28818417, 23379265, 24611925, 26913621, 32248626, 35900817, 36796860, 25739893, 40959502, 29072029, 35953465, 36316391, and 38497039; ClinicalTrials.gov identifiers NCT07319507, NCT06456944, and NCT01560520. No entries were rejected, no sample sizes were inferred, and no new claims were fabricated.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 30,
-    "targeted_batch_warnings_fixed": 13,
-    "remaining_expected_thin_warnings": 1207,
+    "targeted_batch_warnings_fixed": 7,
+    "remaining_expected_thin_warnings": 1210,
     "remaining_expected_unknown_n_warnings": 743,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1285",
+    "next_batch": "1286",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing entry minoxidil-thin-eyebrow; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing entry minoxidil-thin-eyebrow; qualitative PubMed evidence only, no numeric comparator verified; worklist exhausted",
     "unchecked": 0
   }
 }
