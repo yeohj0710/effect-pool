@@ -4037,10 +4037,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] warfarin — Thrombosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(warfarin-thrombosis-null)
 - [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 등록 시험 73건 -->
 - [x] omeprazole — Ulcer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 47건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ?? ????? ?? ?? ?? ??)
-- [ ] omeprazole — Gastric Acid에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 -->
-- [ ] omeprazole — GERD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 -->
-- [ ] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
+- [x] omeprazole — Gastric Acid에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 33건 --> — ?? ??(omeprazole-gastric-acid-pos)
+- [x] omeprazole — GERD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ?? ??? ??? ?? ??? ???? ??)
+- [x] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 --> — ?? ??(azithromycin-infection-null)
+- [x] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 --> — ?? ??(azithromycin-pneumonia-pos)
 - [x] azithromycin — COVID에 듣는다 — 기존 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
 - [x] azithromycin — Malaria에 듣는다 — 기존 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->
 
@@ -4283,11 +4283,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-pos)  <!-- 등록 시험 14건 -->
 - [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-null)  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ???-??? ????? ???? ??; ??? ??? ???? ???)
+- [x] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(carvedilol-heart-failure-pos)
 - [x] carvedilol — Cirrhosis에 듣는다 — 기존 항목(carvedilol-cirrhosis-pos)  <!-- 등록 시험 34건 -->
 - [x] carvedilol — Varix, Esophageal에 듣는다 — 기존 항목(carvedilol-esophageal-varix-null)  <!-- 등록 시험 15건 -->
 - [x] carvedilol — Cancer에 듣는다 — 기존 항목(carvedilol-cancer-pos)  <!-- 등록 시험 12건 -->
@@ -4299,8 +4299,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoprolol — Atrial Flutter에 듣는다 — 기존 항목(metoprolol-atrial-flutter-open)  <!-- 등록 시험 26건 -->
 - [x] metoprolol — Myocardial Ischemia에 듣는다 — 기존 항목(metoprolol-myocardial-ischemia-pos)  <!-- 등록 시험 14건 -->
 - [x] metoprolol — Cardiomyopathy에 듣는다 — 기존 항목(metoprolol-cardiomyopathy-pos)  <!-- 등록 시험 13건 -->
-- [ ] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 -->
-- [ ] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 -->
+- [x] azithromycin — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 46건 --> — ?? ??(azithromycin-infection-null)
+- [x] azithromycin — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 45건 --> — ?? ??(azithromycin-pneumonia-pos)
 - [x] azithromycin — COVID에 듣는다 — 기존 항목(azithromycin-covid-null)  <!-- 등록 시험 39건 -->
 - [x] azithromycin — Malaria에 듣는다 — 기존 항목(azithromycin-malaria-open)  <!-- 등록 시험 29건 -->
 
@@ -4544,24 +4544,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] simvastatin — Cancer에 듣는다  <!-- 등록 시험 53건 --> — 새 항목(simvastatin-cancer-null)
-- [ ] simvastatin — Diabetes에 듣는다  <!-- 등록 시험 50건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] simvastatin — Diabetes에 듣는다  <!-- 등록 시험 50건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(simvastatin-diabetes-null)
 - [x] simvastatin — Heart Failure에 듣는다  <!-- 등록 시험 39건 --> — 새 항목(simvastatin-heart-failure-open)
-- [ ] simvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] eplerenone — Heart Failure에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] simvastatin — Dyslipidemia에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ?????-??????? ??? ???-??? ??? ???? ??)
+- [x] eplerenone — Heart Failure에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(eplerenone-heart-failure-pos)
 - [x] eplerenone — Chronic Kidney Disease에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(eplerenone-chronic-kidney-disease-open)
 - [x] eplerenone — Central Serous Chorioretinopathy에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(eplerenone-central-serous-chorioretinopathy-null)
 - [x] eplerenone — Myocardial Injury에 듣는다  <!-- 등록 시험 6건 --> — 기존 항목(eplerenone-myocardial-injury-open)
-- [ ] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] empagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 89건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(empagliflozin-heart-failure-pos)
 - [x] empagliflozin — Kidney Stone에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(empagliflozin-kidney-stone-open)
 - [x] empagliflozin — Fatty Liver에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(empagliflozin-fatty-liver-open)
 - [x] empagliflozin — Hypertension에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(empagliflozin-hypertension-open)
-- [ ] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] liraglutide — Obesity에 듣는다  <!-- 등록 시험 107건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(liraglutide-obesity-pos)
 - [x] liraglutide — Metabolism Disorder, Lipid에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(liraglutide-metabolism-disorder-lipid-open)
-- [ ] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] liraglutide — Overweight에 듣는다  <!-- 등록 시험 14건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ?? ??? ??? ???-??? ??? ???? ??)
+- [x] liraglutide — Cardiovascular Disease에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(liraglutide-cardiovascular-disease-pos)
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(venlafaxine-depressive-episode-pos)
 - [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 --> — 기존 항목(venlafaxine-pain-open)
-- [ ] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(venlafaxine-anxiety-pos)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(venlafaxine-breast-cancer-null)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -4803,21 +4803,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(fluoxetine-social-anxiety-pos)
 - [x] fluoxetine — Stroke에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(fluoxetine-stroke-null)
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ???-??? ????? ???? ??; ??? ??? ???? ???)
 - [x] amlodipine — Diabetes에 듣는다  <!-- 등록 시험 24건 --> — 기존 항목(amlodipine-diabetes-open)
-- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] amlodipine — Blood Pressure에 듣는다  <!-- 등록 시험 16건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amlodipine-blood-pressure-pos)
+- [x] amlodipine — Coronary Disease에 듣는다  <!-- 등록 시험 14건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amlodipine-coronary-disease-open)
 - [x] amlodipine — Hyperlipidemia에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(amlodipine-hyperlipidemia-open)
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] carvedilol — Heart Failure에 듣는다  <!-- 등록 시험 38건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(carvedilol-heart-failure-pos)
 - [x] carvedilol — Cirrhosis에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(carvedilol-cirrhosis-pos)
 - [x] carvedilol — Varix, Esophageal에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(carvedilol-esophageal-varix-null)
 - [x] carvedilol — Cancer에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(carvedilol-cancer-pos)
 - [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(furosemide-kidney-stone-open)
-- [ ] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(furosemide-hypertension-pos)
+- [x] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(furosemide-fluid-overload-pos)
 - [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 72건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -5385,9 +5385,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mirtazapine — Sleep에 듣는다  <!-- 등록 시험 15건 -->
 - [x] mirtazapine — Cancer에 듣는다  <!-- 등록 시험 12건 -->
 - [x] mirtazapine — Heroin Dependence에 듣는다  <!-- 등록 시험 9건 -->
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 등록 시험 58건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(venlafaxine-depressive-episode-pos)
 - [x] venlafaxine — Pain에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] venlafaxine — Anxiety에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(venlafaxine-anxiety-pos)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 등록 시험 10건 -->
 - [x] buspirone — Spinal Cord Injury에 듣는다  <!-- 등록 시험 7건 -->
 - [x] buspirone — Autism에 듣는다  <!-- 등록 시험 6건 -->
@@ -5654,24 +5654,24 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] pioglitazone — Lung Cancer에 듣는다 — 기존 항목(pioglitazone-lung-cancer-null)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Metabolic Syndrome에 듣는다 — 기존 항목(pioglitazone-metabolic-syndrome-pos)  <!-- 등록 시험 18건 -->
 - [x] simvastatin — Cancer에 듣는다 — 기존 항목(simvastatin-cancer-null)  <!-- 등록 시험 53건 -->
-- [ ] simvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 -->
+- [x] simvastatin — Diabetes에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 50건 --> — ?? ??(simvastatin-diabetes-null)
 - [x] simvastatin — Heart Failure에 듣는다 — 기존 항목(simvastatin-heart-failure-open)  <!-- 등록 시험 39건 -->
-- [ ] simvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] simvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ?????-??????? ??? ???-??? ??? ???? ??)
+- [x] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — ?? ??(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-open)  <!-- 등록 시험 14건 -->
 - [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-null)  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ???-??? ????? ???? ??; ??? ??? ???? ???)
 - [ ] candesartan — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 13건 -->
 - [x] candesartan — Migraine에 듣는다 — 기존 항목(candesartan-migraine-pos)  <!-- 등록 시험 8건 -->
 - [x] candesartan — Diabetes에 듣는다 — 기존 항목(candesartan-diabetes-null)  <!-- 등록 시험 7건 -->
 - [x] candesartan — Obesity에 듣는다 — 기존 항목(candesartan-obesity-open)  <!-- 등록 시험 6건 -->
-- [ ] carvedilol — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 -->
+- [x] carvedilol — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 38건 --> — ?? ??(carvedilol-heart-failure-pos)
 - [x] carvedilol — Cirrhosis에 듣는다 — 기존 항목(carvedilol-cirrhosis-open)  <!-- 등록 시험 34건 -->
 - [x] carvedilol — Varix, Esophageal에 듣는다 — 기존 항목(carvedilol-esophageal-varix-null)  <!-- 등록 시험 15건 -->
 - [x] carvedilol — Cancer에 듣는다 — 기존 항목(carvedilol-cancer-open)  <!-- 등록 시험 12건 -->
 - [x] furosemide — Kidney Stone에 듣는다 — 기존 항목(furosemide-kidney-stone-open)  <!-- 등록 시험 30건 -->
-- [ ] furosemide — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] furosemide — Fluid Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 -->
+- [x] furosemide — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(furosemide-hypertension-pos)
+- [x] furosemide — Fluid Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 15건 --> — ?? ??(furosemide-fluid-overload-pos)
 - [x] furosemide — Renal Impairment에 듣는다 — 새 항목(furosemide-renal-impairment-null)  <!-- 등록 시험 13건 -->
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
@@ -6416,10 +6416,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] escitalopram — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 37건 -->
 - [x] escitalopram — Cancer에 듣는다 — 기존 항목(escitalopram-cancer-pos)  <!-- 등록 시험 14건 -->
 - [x] escitalopram — Insomnia에 듣는다 — 기존 항목(escitalopram-insomnia-open)  <!-- 등록 시험 7건 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 -->
+- [x] fluoxetine — Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — ?? ??(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다 — 기존 항목(fluoxetine-social-anxiety-open)  <!-- 등록 시험 14건 -->
 - [x] fluoxetine — Stroke에 듣는다 — 기존 항목(fluoxetine-stroke-null)  <!-- 등록 시험 12건 -->
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ???-??? ????? ???? ??; ??? ??? ???? ???)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -7137,22 +7137,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] simvastatin — Cancer에 듣는다  <!-- 시험 53건 · 논문 1397편 --> — 이미 수록됨(2026-08-05)
 - [x] simvastatin — Diabetes에 듣는다  <!-- 시험 50건 · 논문 1437편 --> — 신규 항목(simvastatin-diabetes-null)(2026-08-05)
 - [x] simvastatin — Heart Failure에 듣는다  <!-- 시험 39건 · 논문 252편 --> — 이미 수록됨(2026-08-05)
-- [ ] simvastatin — Dyslipidemia에 듣는다  <!-- 시험 34건 · 논문 3177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] fluoxetine — Depressive Disorder에 듣는다  <!-- 시험 48건 · 논문 3832편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] simvastatin — Dyslipidemia에 듣는다  <!-- 시험 34건 · 논문 3177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ?????-??????? ??? ???-??? ??? ???? ??)
+- [x] fluoxetine — Depressive Disorder에 듣는다  <!-- 시험 48건 · 논문 3832편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(fluoxetine-depressive-disorder-pos)
 - [x] fluoxetine — Social Anxiety에 듣는다  <!-- 시험 14건 · 논문 2251편 --> — 이미 수록됨(2026-08-05)
 - [x] fluoxetine — Stroke에 듣는다  <!-- 시험 12건 · 논문 321편 --> — 이미 수록됨(2026-08-05)
-- [ ] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 10건 · 논문 797편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] fluoxetine — Obsessive-Compulsive Disorder에 듣는다  <!-- 시험 10건 · 논문 797편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ??? ???-??? ????? ???? ??; ??? ??? ???? ???)
 - [ ] candesartan — Heart Failure에 듣는다  <!-- 시험 13건 · 논문 553편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] candesartan — Migraine에 듣는다  <!-- 시험 8건 · 논문 79편 --> — 이미 수록됨(2026-08-05)
 - [x] candesartan — Diabetes에 듣는다  <!-- 시험 7건 · 논문 513편 --> — 이미 수록됨(2026-08-05)
 - [x] candesartan — Obesity에 듣는다  <!-- 시험 6건 · 논문 95편 --> — 신규 항목(candesartan-obesity-open)(2026-08-05)
-- [ ] carvedilol — Heart Failure에 듣는다  <!-- 시험 38건 · 논문 1839편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] carvedilol — Heart Failure에 듣는다  <!-- 시험 38건 · 논문 1839편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(carvedilol-heart-failure-pos)
 - [x] carvedilol — Cirrhosis에 듣는다  <!-- 시험 34건 · 논문 343편 --> — 이미 수록됨(2026-08-05)
 - [x] carvedilol — Varix, Esophageal에 듣는다  <!-- 시험 15건 · 논문 104편 --> — 이미 수록됨(2026-08-05)
 - [x] carvedilol — Cancer에 듣는다  <!-- 시험 12건 · 논문 277편 --> — 이미 수록됨(2026-08-05)
 - [x] furosemide — Kidney Stone에 듣는다  <!-- 시험 30건 · 논문 104편 --> — 신규 항목(furosemide-kidney-stone-pos)(2026-08-05)
-- [ ] furosemide — Hypertension에 듣는다  <!-- 시험 18건 · 논문 2767편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] furosemide — Fluid Overload에 듣는다  <!-- 시험 15건 · 논문 262편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] furosemide — Hypertension에 듣는다  <!-- 시험 18건 · 논문 2767편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(furosemide-hypertension-pos)
+- [x] furosemide — Fluid Overload에 듣는다  <!-- 시험 15건 · 논문 262편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(furosemide-fluid-overload-pos)
 - [x] furosemide — Renal Impairment에 듣는다  <!-- 시험 13건 · 논문 1715편 --> — 이미 수록됨(2026-08-05)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -7177,8 +7177,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metoprolol — Myocardial Ischemia에 듣는다  <!-- 시험 14건 · 논문 1494편 -->
 - [x] metoprolol — Cardiomyopathy에 듣는다  <!-- 시험 13건 · 논문 561편 -->
 - [x] amlodipine — Diabetes에 듣는다  <!-- 시험 24건 · 논문 829편 -->
-- [ ] amlodipine — Blood Pressure에 듣는다  <!-- 시험 16건 · 논문 3458편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] amlodipine — Coronary Disease에 듣는다  <!-- 시험 14건 · 논문 521편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amlodipine — Blood Pressure에 듣는다  <!-- 시험 16건 · 논문 3458편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(amlodipine-blood-pressure-pos)
+- [x] amlodipine — Coronary Disease에 듣는다  <!-- 시험 14건 · 논문 521편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(amlodipine-coronary-disease-open)
 - [x] amlodipine — Hyperlipidemia에 듣는다  <!-- 시험 12건 · 논문 133편 -->
 - [x] pantoprazole — Peptic Ulcer에 듣는다  <!-- 시험 21건 · 논문 515편 -->
 - [x] pantoprazole — Helicobacter Infection에 듣는다  <!-- 시험 13건 · 논문 407편 -->
@@ -7187,7 +7187,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] omeprazole — HIV-1 Infection에 듣는다  <!-- 시험 73건 · 논문 12편 --> — 이미 수록됨(2026-08-05)
 - [x] omeprazole — Ulcer에 듣는다  <!-- 시험 47건 · 논문 7133편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ?? ????? ?? ?? ?? ??)
 - [x] omeprazole — Gastric Acid에 듣는다  <!-- 시험 33건 · 논문 3033편 -->
-- [ ] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] omeprazole — GERD에 듣는다  <!-- 시험 25건 · 논문 2146편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ?? ??? ??? ?? ??? ???? ??)
 - [x] rifampin — HIV에 듣는다  <!-- 시험 25건 · 논문 1834편 --> — 이미 수록됨(2026-08-05)
 - [x] rifampin — Healthy Adults에 듣는다  <!-- 시험 17건 · 논문 667편 --> — 이미 수록됨(2026-08-05)
 - [x] rifampin — Lymphoma에 듣는다  <!-- 시험 13건 · 논문 93편 --> — 이미 수록됨(2026-08-05)
@@ -7209,8 +7209,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] amoxicillin — Pneumonia에 듣는다  <!-- 시험 36건 · 논문 3637편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] amoxicillin — Infections에 듣는다  <!-- 시험 22건 · 논문 19631편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] amoxicillin — Periodontitis에 듣는다  <!-- 시험 21건 · 논문 866편 -->
-- [ ] azithromycin — Infection에 듣는다  <!-- 시험 46건 · 논문 11046편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] azithromycin — Pneumonia에 듣는다  <!-- 시험 45건 · 논문 3283편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] azithromycin — Infection에 듣는다  <!-- 시험 46건 · 논문 11046편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(azithromycin-infection-null)
+- [x] azithromycin — Pneumonia에 듣는다  <!-- 시험 45건 · 논문 3283편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(azithromycin-pneumonia-pos)
 - [x] azithromycin — Malaria에 듣는다  <!-- 시험 29건 · 논문 335편 -->
 - [x] ketorolac — Knee Injuries에 듣는다  <!-- 시험 38건 · 논문 15편 -->
 - [ ] ketorolac — Cataract에 듣는다  <!-- 시험 20건 · 논문 212편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
@@ -7218,7 +7218,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] mirtazapine — Depression에 듣는다  <!-- 시험 15건 · 논문 1630편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ??? ????? ??? ? ?? ??)
 - [x] mirtazapine — Sleep에 듣는다  <!-- 시험 15건 · 논문 339편 --> — 이미 수록됨(2026-08-05)
 - [x] mirtazapine — Cancer에 듣는다  <!-- 시험 12건 · 논문 193편 --> — 이미 수록됨(2026-08-05)
-- [ ] venlafaxine — Depressive Episode에 듣는다  <!-- 시험 58건 · 논문 299편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] venlafaxine — Depressive Episode에 듣는다  <!-- 시험 58건 · 논문 299편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(venlafaxine-depressive-episode-pos)
 - [x] venlafaxine — Pain에 듣는다  <!-- 시험 17건 · 논문 511편 --> — 이미 수록됨(2026-08-05)
 - [x] venlafaxine — Breast Cancer에 듣는다  <!-- 시험 10건 · 논문 107편 --> — 이미 수록됨(2026-08-05)
 - [x] prednisone — Cancer에 듣는다  <!-- 시험 154건 · 논문 21452편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ? ??? ??? ????? ???? ??)
