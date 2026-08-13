@@ -1,28 +1,33 @@
 {
-  "id": "balance-sensor-fall-pos",
-  "subj": "balance sensor",
-  "claim": "균형 센서를 노인의 낙상 위험 선별에 쓴다",
-  "line": "균형 센서와 기계학습이 노인의 낙상 이력을 분류했습니다",
-  "effect": "병원 외부검증 정확도 72.0%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 394,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "균형 센서 낙상 선별은 허가 적응증이 아닌 실험적 평가 기술입니다",
-  "why": "노인 394명에게 균형 센서로 발바닥 압력 분포를 측정하고 기계학습으로 낙상 이력을 분류한 관찰 연구입니다",
-  "saw": "병원 291명 외부검증에서 센서·기계학습 모델의 정확도는 72.0%였고 가정 12명은 반복 측정 가능성을 보였습니다",
-  "limit": "실제 미래 낙상 발생을 추적하지 않았고 낙상 이력 분류가 낙상 예방을 의미하지는 않습니다",
-  "against": "모델의 외부검증 AUC는 0.68로 대규모 전향 연구가 필요합니다",
-  "use": "센서 결과는 낙상 위험을 선별하는 참고자료로 두고 예방 중재의 효과와 따로 평가합니다",
-  "refs": [
-    { "label": "Daily fall risk assessment using a balance sensor · 낙상 이력 분류", "doi": "10.3389/fpubh.2026.1827730", "pmid": "42422682" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"balance sensor\" AND \"Fall\" → 34건 반환, intervention 이름 대조 통과 1건",
-    "pubmed": "\"balance sensor\" AND \"Fall\" → 2건, PMID 42422682 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
-    "safety": "\"balance sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 0건"
+ "id": "balance-sensor-fall-pos",
+ "subj": "균형 센서",
+ "claim": "균형 센서를 노인의 낙상 위험 선별에 쓴다",
+ "line": "균형 센서와 기계학습이 노인의 낙상 이력을 분류했습니다",
+ "effect": "병원 외부검증 정확도 72.0%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 394,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "균형 센서 낙상 선별은 허가 적응증이 아닌 실험적 평가 기술입니다",
+ "why": "노인 394명에게 균형 센서로 발바닥 압력 분포를 측정하고 기계학습으로 낙상 이력을 분류한 관찰 연구입니다",
+ "saw": "병원 291명 외부검증에서 센서·기계학습 모델의 정확도는 72.0%였고 가정 12명은 반복 측정 가능성을 보였습니다",
+ "limit": "실제 미래 낙상 발생을 추적하지 않았고 낙상 이력 분류가 낙상 예방을 의미하지는 않습니다",
+ "against": "모델의 외부검증 AUC는 0.68로 대규모 전향 연구가 필요합니다",
+ "use": "센서 결과는 낙상 위험을 선별하는 참고자료로 두고 예방 중재의 효과와 따로 평가합니다",
+ "refs": [
+  {
+   "label": "Daily fall risk assessment using a balance sensor · 낙상 이력 분류",
+   "doi": "10.3389/fpubh.2026.1827730",
+   "pmid": "42422682"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "\"balance sensor\" AND \"Fall\" → 34건 반환, intervention 이름 대조 통과 1건",
+  "pubmed": "\"balance sensor\" AND \"Fall\" → 2건, PMID 42422682 직접 결과 · 2026-08-14 PubMed 초록 직접 확인: PMID 42422682",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
+  "safety": "\"balance sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 0건"
+ },
+ "vs": "30초 균형센서+기계학습 vs 낙상 이력 분류(n=394): 실험실 AUC .71·.68, 병원 외부검증 AUC .68·정확도 72.0%; 전향적 낙상 예측은 미확인"
 }
