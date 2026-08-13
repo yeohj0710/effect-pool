@@ -7939,8 +7939,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Atrial Fibrillation에 듣는다  <!-- 시험 8건 · 논문 199편 -->
 - [x] doxycycline — Lyme Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 848편 --> — 새 항목(doxycycline-lyme-disease-open)
 - [x] doxycycline — Chlamydia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1187편 --> — 새 항목(doxycycline-chlamydia-open)
-- [ ] doxycycline — Erythema Migrans에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 247편 -->
-- [ ] doxycycline — Sexually Transmitted Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1515편 -->
+- [x] doxycycline — Erythema Migrans에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 247편 --> <!-- batch1253: doxycycline-erythema-migrans-null; ClinicalTrials.gov 13건 · PubMed 248건 -->
+- [x] doxycycline — Sexually Transmitted Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1515편 --> <!-- batch1253: doxycycline-sexually-transmitted-diseases-pos; ClinicalTrials.gov 42건 · PubMed 1,516건 -->
 - [x] colchicine — Heart Attack에 듣는다 — 기존 항목(colchicine-post-mi-null)(2026-08-05)  <!-- 시험 19건 · 논문 520편 -->
 - [x] colchicine — Inflammation에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 14건 · 논문 2029편 -->
 - [x] colchicine — Stroke에 듣는다  <!-- 시험 12건 · 논문 339편 -->
@@ -7965,15 +7965,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thalidomide — Thalassemia에 듣는다 — 항목 생성(thalidomide-thalassemia-pos)(2026-08-05)  <!-- 시험 15건 · 논문 85편 -->
 - [x] thalidomide — HIV Infection에 듣는다 — 항목 생성(thalidomide-hiv-infection-pos)(2026-08-05)  <!-- 시험 14건 · 논문 343편 -->
 - [x] thalidomide — Brain Neoplasms에 듣는다 — 항목 생성(thalidomide-brain-neoplasms-null)(2026-08-05)  <!-- 시험 14건 · 논문 139편 -->
-- [ ] ivermectin — Onchocerciasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1633편 -->
+- [x] ivermectin — Onchocerciasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 1633편 --> <!-- batch1253: ivermectin-onchocerciasis-pos; ClinicalTrials.gov 20건 · PubMed 1,635건 -->
 - [x] ivermectin — HIV Infections에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 13건 · 논문 88편 -->
-- [ ] ivermectin — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 195편 -->
+- [x] ivermectin — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 195편 --> <!-- batch1253: ivermectin-rosacea-pos; ClinicalTrials.gov 13건 · PubMed 195건 -->
 - [x] ivermectin — Malaria에 듣는다 — 항목 생성(ivermectin-malaria-pos)(2026-08-05)  <!-- 시험 11건 · 논문 332편 -->
-- [ ] hydroxychloroquine — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 2629편 -->
+- [x] hydroxychloroquine — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 2629편 --> <!-- batch1253: hydroxychloroquine-arthritis-pos; ClinicalTrials.gov 85건 · PubMed 2,632건 -->
 - [x] hydroxychloroquine — Melanoma에 듣는다 — 항목 생성(hydroxychloroquine-melanoma-null)(2026-08-05)  <!-- 시험 17건 · 논문 57편 -->
 - [x] hydroxychloroquine — Neonatal Lupus에 듣는다 — 항목 생성(hydroxychloroquine-neonatal-lupus-pos)(2026-08-05)  <!-- 시험 14건 · 논문 57편 -->
 - [x] hydroxychloroquine — Solid Tumor에 듣는다 — 기존 항목(hydroxychloroquine-cancer-null)(2026-08-05)  <!-- 시험 14건 · 논문 37편 -->
-- [ ] valacyclovir — Shingles에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 575편 -->
+- [x] valacyclovir — Shingles에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 575편 --> <!-- batch1253: valacyclovir-shingles-open; ClinicalTrials.gov 25건 · PubMed 575건 -->
 - [x] valacyclovir — Schizophrenia에 듣는다 — 항목 생성(valacyclovir-schizophrenia-null)(2026-08-05)  <!-- 시험 3건 · 논문 13편 -->
 - [x] valacyclovir — Leukemia에 듣는다 — 항목 생성(valacyclovir-leukemia-pos)(2026-08-05)  <!-- 시험 3건 · 논문 34편 -->
 - [x] bupropion — Obesity에 듣는다 — 항목 생성(bupropion-obesity-pos)(2026-08-05)  <!-- 시험 35건 · 논문 544편 -->
@@ -7985,13 +7985,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sildenafil — Liver Fibrosis에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 7건 · 논문 52편 -->
 - [x] sildenafil — Infertility에 듣는다 — 항목 생성(sildenafil-infertility-pos)(2026-08-05)  <!-- 시험 7건 · 논문 105편 -->
 - [x] bimatoprost — Vitiligo에 듣는다 — 항목 생성(bimatoprost-vitiligo-pos)(2026-08-05)  <!-- 시험 3건 · 논문 23편 -->
-- [ ] botulinum toxin — Urinary Urgency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 363편 -->
-- [ ] botulinum toxin — Dystonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 2948편 -->
-- [ ] botulinum toxin — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1110편 -->
+- [x] botulinum toxin — Urinary Urgency에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 31건 · 논문 363편 --> <!-- batch1253: botulinum-toxin-bladder-pos; ClinicalTrials.gov 15건 · PubMed 364건 -->
+- [x] botulinum toxin — Dystonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 2948편 --> <!-- batch1253: botulinum-toxin-dystonia-pos; ClinicalTrials.gov 92건 · PubMed 2,951건 -->
+- [x] botulinum toxin — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1110편 --> <!-- batch1253: onabotulinum-chronic-migraine; ClinicalTrials.gov 59건 · PubMed 1,112건 -->
 - [x] botulinum toxin — Parkinson에 듣는다 — 항목 생성(botulinum-toxin-parkinson-pos)(2026-08-05)  <!-- 시험 20건 · 논문 917편 -->
 - [x] duloxetine — Urinary Incontinence에 듣는다 — 항목 생성(duloxetine-urinary-incontinence-harm)(2026-08-05)  <!-- 시험 22건 · 논문 290편 -->
-- [ ] duloxetine — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 484편 -->
-- [ ] duloxetine — Diabetic Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 251편 -->
+- [x] duloxetine — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 484편 --> <!-- batch1253: duloxetine-anxiety-pos; ClinicalTrials.gov 28건 · PubMed 484건 -->
+- [x] duloxetine — Diabetic Neuralgia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 20건 · 논문 251편 --> <!-- batch1253: duloxetine-painful-neuropathy-pos; ClinicalTrials.gov 22건 · PubMed 251건 -->
 - [x] duloxetine — Painful Neuropathy에 듣는다 — 항목 생성(duloxetine-painful-neuropathy-pos)(2026-08-05)  <!-- 시험 18건 · 논문 456편 -->
 - [x] dextromethorphan — Opioid Abuse에 듣는다 — 항목 생성(dextromethorphan-opioid-abuse-pos)(2026-08-05)  <!-- 시험 4건 · 논문 89편 -->
 - [x] dextromethorphan — Breast Cancer에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 4건 · 논문 36편 -->
@@ -8000,7 +8000,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clonidine — Intensive Care, Neonatal에 듣는다 — 항목 생성(clonidine-intensive-care-neonatal-null)(2026-08-05)  <!-- 시험 9건 · 논문 50편 -->
 - [x] clonidine — Delirium에 듣는다 — 항목 생성(clonidine-delirium-null)(2026-08-05)  <!-- 시험 9건 · 논문 191편 -->
 - [x] finasteride — Hypogonadism에 듣는다 — 항목 생성(finasteride-hypogonadism-null)(2026-08-05)  <!-- 시험 4건 · 논문 28편 -->
-- [ ] finasteride — Urinary Obstruction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 121편 -->
+- [x] finasteride — Urinary Obstruction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 121편 --> <!-- batch1253: finasteride-prostatic-hyperplasia-pos; ClinicalTrials.gov 1건 · PubMed 121건 -->
 - [x] finasteride — Retinal Disease에 듣는다 — 항목 생성(finasteride-retinal-disease-pos)(2026-08-05)  <!-- 시험 3건 · 논문 9편 -->
 - [x] finasteride — Healthy Adult Male에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 3건 · 논문 76편 -->
 - [x] melatonin — Insomnia에 듣는다 — 기존 항목(melatonin-insomnia-null)(2026-08-05)  <!-- 시험 20건 · 논문 1636편 -->
@@ -8008,12 +8008,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] melatonin — Hip Surgery에 듣는다 — 항목 생성(melatonin-hip-surgery-null)(2026-08-05)  <!-- 시험 12건 · 논문 30편 -->
 - [x] melatonin — Brain Injury에 듣는다 — 항목 생성(melatonin-brain-injury-null)(2026-08-05)  <!-- 시험 11건 · 논문 825편 -->
 - [x] modafinil — Cancer에 듣는다 — 기존 항목(modafinil-fatigue)(2026-08-05)  <!-- 시험 13건 · 논문 127편 -->
-- [ ] modafinil — Sleepiness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 584편 -->
+- [x] modafinil — Sleepiness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 584편 --> <!-- batch1253: modafinil-sleepiness-pos; ClinicalTrials.gov 46건 · PubMed 585건 -->
 - [x] modafinil — Cognitive Symptom에 듣는다 — 질환 아님(2026-08-05)  <!-- 시험 9건 · 논문 108편 -->
 - [x] modafinil — Depression에 듣는다 — 항목 생성(modafinil-depression-pos)(2026-08-05)  <!-- 시험 8건 · 논문 350편 -->
 - [x] baclofen — Spinal Cord Injury에 듣는다 — 항목 생성(baclofen-spinal-cord-injury-pos)(2026-08-05)  <!-- 시험 7건 · 논문 470편 -->
 - [x] baclofen — Autism에 듣는다 — 항목 생성(baclofen-autism-pos)(2026-08-05)  <!-- 시험 6건 · 논문 50편 -->
-- [ ] baclofen — Multiple Sclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 382편 -->
+- [x] baclofen — Multiple Sclerosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 382편 --> <!-- batch1253: baclofen-multiple-sclerosis-pos; ClinicalTrials.gov 9건 · PubMed 382건 -->
 - [x] baclofen — Cirrhosis에 듣는다 — 항목 생성(baclofen-cirrhosis-pos)(2026-08-05)  <!-- 시험 5건 · 논문 64편 -->
 - [x] ondansetron — Gastroenteritis에 듣는다 — 항목 생성(ondansetron-gastroenteritis-pos)(2026-08-05)  <!-- 시험 15건 · 논문 217편 -->
 - [x] ondansetron — Pain에 듣는다 — 항목 생성(ondansetron-pain-pos)(2026-08-05)  <!-- 시험 15건 · 논문 978편 -->
@@ -8033,25 +8033,25 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sirolimus — Liver Carcinoma에 듣는다  <!-- 시험 27건 · 논문 464편 -->
 - [x] sirolimus — Sarcoma에 듣는다  <!-- 시험 17건 · 논문 553편 -->
 - [x] sirolimus — Myelodysplastic Syndrome에 듣는다  <!-- 시험 17건 · 논문 42편 -->
-- [ ] rapamycin — Kidney Diseases에 듣는다  <!-- 시험 7건 · 논문 3902편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] rapamycin — Graft Rejection에 듣는다  <!-- 시험 6건 · 논문 2863편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] rapamycin — Kidney Diseases에 듣는다  <!-- 시험 7건 · 논문 3902편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: rapamycin-kidney-transplant-null; ClinicalTrials.gov 127건 · PubMed 3,907건 -->
+- [x] rapamycin — Graft Rejection에 듣는다  <!-- 시험 6건 · 논문 2863편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: rapamycin-kidney-transplant-null; ClinicalTrials.gov 15건 · PubMed 2,862건 -->
 - [x] rapamycin — Leukemia에 듣는다  <!-- 시험 5건 · 논문 1338편 --> — 기존 항목(sirolimus-leukemia)(2026-08-05)
 - [x] rapamycin — Type 1 Diabetes에 듣는다  <!-- 시험 4건 · 논문 346편 -->
 - [x] montelukast — Cough에 듣는다  <!-- 시험 6건 · 논문 146편 -->
 - [x] montelukast — Rheumatoid Arthritis에 듣는다  <!-- 시험 5건 · 논문 15편 -->
 - [x] montelukast — Eosinophilic Esophagitis에 듣는다  <!-- 시험 5건 · 논문 33편 -->
 - [x] montelukast — Sleep Apnea에 듣는다  <!-- 시험 5건 · 논문 68편 -->
-- [ ] atorvastatin — Cardiovascular에 듣는다  <!-- 시험 27건 · 논문 4741편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] atorvastatin — Cardiovascular에 듣는다  <!-- 시험 27건 · 논문 4741편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: atorvastatin-coronary-artery-null; ClinicalTrials.gov 511건 · PubMed 4,742건 -->
 - [x] atorvastatin — Hypertension에 듣는다  <!-- 시험 25건 · 논문 971편 -->
 - [x] atorvastatin — Myocardial Edema에 듣는다  <!-- 시험 24건 · 논문 9편 --> — 결과 대기(2026-08-05)
 - [x] atorvastatin — Atherosclerosis에 듣는다  <!-- 시험 21건 · 논문 1757편 -->
-- [ ] losartan — Kidney Disease에 듣는다  <!-- 시험 14건 · 논문 1707편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] losartan — Kidney Disease에 듣는다  <!-- 시험 14건 · 논문 1707편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: losartan-nephropathy-pos; ClinicalTrials.gov 82건 · PubMed 1,708건 -->
 - [x] losartan — Proteinuria에 듣는다  <!-- 시험 12건 · 논문 759편 -->
 - [x] losartan — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 923편 -->
 - [x] verapamil — Migraine에 듣는다  <!-- 시험 4건 · 논문 221편 -->
-- [ ] verapamil — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 1410편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] verapamil — Coronary Disease에 듣는다  <!-- 시험 4건 · 논문 1410편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: verapamil-hypertension-null; ClinicalTrials.gov 48건 · PubMed 1,410건 -->
 - [x] verapamil — Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 770편 -->
-- [ ] amantadine — Dyskinesia에 듣는다  <!-- 시험 5건 · 논문 717편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amantadine — Dyskinesia에 듣는다  <!-- 시험 5건 · 논문 717편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> <!-- batch1253: amantadine-dyskinesia-pos; ClinicalTrials.gov 27건 · PubMed 717건 -->
 - [x] amantadine — Schizophrenia에 듣는다  <!-- 시험 4건 · 논문 202편 -->
 - [ ] amantadine — Influenza에 듣는다  <!-- 시험 4건 · 논문 1686편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] amantadine — Covid19에 듣는다  <!-- 시험 4건 · 논문 85편 --> — 기존 항목(amantadine-covid-19-null)(2026-08-05)
