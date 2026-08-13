@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5844,
-  "subjects": 2227,
-  "refs": 8206,
+  "entries": 5867,
+  "subjects": 2236,
+  "refs": 8229,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2404
+    "rx": 2427
   },
   "tiers": {
-    "trial": 5023,
+    "trial": 5046,
     "obs": 727,
     "animal": 30,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3476,
-    "null": 1169,
+    "pos": 3494,
+    "null": 1174,
     "open": 1038,
     "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 15112,
-    "unchecked": 430,
-    "no_evidence_pending": 2027,
-    "note": "Batch 1266 checked 30 unique prescription topics from worklist lines 9313-9399. No identifiable non-prescription topics were available in this queue segment, so prescription topics were processed. New evidence entries: 23; existing links: 0; no-evidence rejects: 7 (moxifloxacin Infection, ritonavir Hepatitis C, ritonavir COVID, ritonavir HCV Infection, upadacitinib Inflammatory Disease, valbenazine Schizophrenia, and dabrafenib Lung Carcinoma lacked an eligible single-topic numeric comparator effect)."
+    "checked": 15142,
+    "unchecked": 400,
+    "no_evidence_pending": 2034,
+    "note": "Batch 1267 checked 30 unique prescription topics from worklist lines 9402-9535. No identifiable non-prescription topics were available in this queue segment, so prescription topics were processed. New evidence entries: 23; existing links: 0; no-evidence rejects: 7 (selpercatinib Cancer, selpercatinib Neoplasm, tiotropium Bronchitis, tiotropium Emphysema, salmeterol Lung Diseases, Obstructive, salmeterol Emphysema, and quinidine Cardiovascular Diseases lacked an eligible single-topic numeric comparator effect)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "16.2% (947 entries)",
-    "rx_share": "41.1% (2,404 entries)",
-    "no_effect_or_harm_share": "22.8% (1,330 entries)",
-    "vs_share": "13.7% (800 entries)",
+    "over_counter_share": "16.1% (947 entries)",
+    "rx_share": "41.4% (2,427 entries)",
+    "no_effect_or_harm_share": "22.8% (1,335 entries)",
+    "vs_share": "14.0% (823 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.0% (5,023 entries)",
+    "trial_share": "86.0% (5,046 entries)",
     "non_trial_share": "14.0% (821 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 988,
+      "thin_study": 991,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1267 starts after batch 1266. Prioritize non-prescription topics first; none were identifiable in this queue segment. Resume at worklist line 9402: selpercatinib — Cancer. 430 unchecked rows remain.",
+  "next": "Batch 1268 starts after batch 1267. Prioritize non-prescription topics first; none were identifiable in this queue segment. Resume at worklist line 9537: daptomycin — Bacteremia. 400 unchecked rows remain.",
   "last_batch": {
-    "id": "1266",
-    "commit": "e3198d16",
-    "pushed": true,
+    "id": "1267",
+    "commit": "a9b14cd1",
+    "pushed": false,
     "processed_topics": 30,
     "new_entries": 23,
     "existing_links": 0,
     "no_evidence_rejects": 7,
     "non_prescription_topics_available": 0,
-    "build": "5844 entries; 8206 refs; 5023 trial; 727 obs; 30 animal; 17 lab; 47 case; 800 numeric comparison entries; worklist 15112/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 30726692, 36194412, 32445440, 28460892, 34347860, 35644166, 37224198, 37210099, 30184455, 39758759, 7485207, 35065036, 22670901, 31880796, 8923126, 24401022, 22595799, 24107292, 22724620, and 18242413. Duplicate source PMIDs were reused only where the same verified comparison applied to closely related worklist topics. Each new entry has a numeric intervention-versus-control result or valid relative effect, Korean subjects, and a mapped prescription-drug category. Seven topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect: moxifloxacin Infection, ritonavir Hepatitis C, ritonavir COVID, ritonavir HCV Infection, upadacitinib Inflammatory Disease, valbenazine Schizophrenia, and dabrafenib Lung Carcinoma. Ritonavir combination evidence was not attributed to ritonavir alone.",
+    "build": "5867 entries; 8229 refs; 5046 trial; 727 obs; 30 animal; 17 lab; 47 case; 823 numeric comparison entries; worklist 15142/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 37870973, 31825569, 16171866, 8442918, 31040197, 34030555, 26115578, 28877027, 31112384, 27181606, 15970448, 3499456, 3885700, 8772625, 20075643, 26301701, 31913424, 10881251, 20629075, 8950879, 20089960, and 34010843. Duplicate PMID 26301701 was reused only for the two closely related brexpiprazole major-depressive-disorder worklist topics. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects. Seven topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 0,
-    "remaining_expected_unknown_n_warnings": 3,
+    "targeted_batch_warnings_fixed": 10,
+    "remaining_expected_thin_warnings": 3,
+    "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1267",
-    "worklist_line": 9402,
-    "topic": "selpercatinib — Cancer",
-    "unchecked": 430
+    "next_batch": "1268",
+    "worklist_line": 9537,
+    "topic": "daptomycin — Bacteremia",
+    "unchecked": 400
   }
 }
