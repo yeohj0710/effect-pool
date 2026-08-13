@@ -1,0 +1,29 @@
+{
+  "id": "buprenorphine-drug-dependence-pos",
+  "subj": "부프레노르핀",
+  "claim": "부프레노르핀이 응급실 기반 오피오이드 의존 치료 참여를 늘린다",
+  "line": "오피오이드 의존 무작위시험에서 응급실 부프레노르핀 시작이 의뢰보다 치료 참여를 늘렸습니다.",
+  "effect": "30일 치료 참여 78% vs 37%",
+  "vs": "오피오이드 의존 329명 무작위시험에서 30일 중독치료 참여는 응급실 부프레노르핀/날록손군 78%(89/114) vs 단순 의뢰군 37%(38/102)였고 간단 개입군은 45%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 329,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "부프레노르핀은 처방 오피오이드 사용장애 치료제입니다.",
+  "why": "약물 의존 주제에서 응급실 부프레노르핀 시작과 의뢰를 비교한 무작위시험을 확인했습니다.",
+  "saw": "응급실에서 치료를 시작한 군의 30일 치료 참여가 단순 의뢰보다 높았습니다.",
+  "limit": "응급실 기반 부프레노르핀/날록손과 10주 후속관리의 결합 효과이며 모든 의존 치료 환경에 동일하지 않습니다.",
+  "against": "오피오이드 금단·과량투여 위험과 장기 상담·추적을 함께 관리해야 합니다.",
+  "use": "오피오이드 사용장애 치료 연결 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Emergency department-initiated buprenorphine/naloxone 무작위시험", "pmid": "25919527" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=buprenorphine AND query.cond=Drug Dependence; 78건 반환, InterventionName 정확 일치 14건",
+    "pubmed": "buprenorphine AND Drug Dependence; 7,459건",
+    "negative": "buprenorphine AND Drug Dependence AND (no effect OR did not OR failed OR negative OR no significant difference); 4,333건",
+    "safety": "buprenorphine AND (adverse OR toxicity OR safety OR tolerability); 5,288건"
+  }
+}

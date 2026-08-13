@@ -8802,56 +8802,56 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] bevacizumab — Lymphoma에 듣는다  <!-- 시험 54건 · 논문 226편 -->
 - [x] bevacizumab — Glioblastoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 47건 · 논문 1686편 -->
 - [x] budesonide — Obstructive Sleep Apnea에 듣는다  <!-- 시험 58건 · 논문 12편 -->
-- [ ] budesonide — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 799편 -->
+- [x] budesonide — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 799편 -->
 - [x] budesonide — Eosinophilic Bronchitis에 듣는다  <!-- 시험 22건 · 논문 29편 -->
-- [ ] budesonide — Rhinitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 601편 -->
-- [ ] citalopram — Depressive Symptom에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 165건 · 논문 4217편 -->
+- [x] budesonide — Rhinitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 601편 -->
+- [x] citalopram — Depressive Symptom에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 165건 · 논문 4217편 -->
 - [x] citalopram — Anxiety에 듣는다  <!-- 시험 42건 · 논문 1627편 -->
 - [x] citalopram — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "citalopram AND Cancer")  <!-- 시험 18건 · 논문 272편 -->
 - [x] citalopram — Cocaine Abuse에 듣는다  <!-- 시험 14건 · 논문 52편 -->
 - [x] clomipramine — Depression에 듣는다  <!-- 시험 5건 · 논문 1468편 -->
-- [ ] cyclophosphamide — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 310건 · 논문 9179편 -->
-- [ ] cyclophosphamide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 229건 · 논문 53775편 -->
+- [x] cyclophosphamide — Leukemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 310건 · 논문 9179편 -->
+- [x] cyclophosphamide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 229건 · 논문 53775편 -->
 - [x] cyclophosphamide — Myelodysplastic Syndrome에 듣는다 — 근거 없음(2026-08-05 조회, "cyclophosphamide AND Myelodysplastic Syndrome")  <!-- 시험 62건 · 논문 830편 -->
-- [ ] cyclophosphamide — Myeloma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 58건 · 논문 2925편 -->
-- [ ] deferoxamine — Iron Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 1917편 -->
+- [x] cyclophosphamide — Myeloma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 58건 · 논문 2925편 -->
+- [x] deferoxamine — Iron Overload에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 1917편 -->
 - [x] deferoxamine — Subarachnoid Hemorrhage에 듣는다 — 근거 없음(2026-08-05 조회, "deferoxamine AND Subarachnoid Hemorrhage")  <!-- 시험 12건 · 논문 38편 -->
 - [x] deferoxamine — Sickle Cell Disease에 듣는다  <!-- 시험 6건 · 논문 165편 -->
-- [ ] diclofenac — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 56건 · 논문 1067편 -->
-- [ ] diclofenac — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 1885편 -->
-- [ ] diclofenac — Sprain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 76편 -->
+- [x] diclofenac — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 56건 · 논문 1067편 -->
+- [x] diclofenac — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 1885편 -->
+- [x] diclofenac — Sprain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 15건 · 논문 76편 -->
 - [x] diclofenac — Irreversible Pulpitis에 듣는다  <!-- 시험 14건 · 논문 31편 -->
 - [x] diphenhydramine — Acute Leukemia에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Acute Leukemia")  <!-- 시험 24건 · 논문 29편 -->
 - [x] diphenhydramine — Lymphoma에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Lymphoma")  <!-- 시험 13건 · 논문 44편 -->
 - [x] diphenhydramine — Multiple Myeloma에 듣는다 — 근거 없음(2026-08-05 조회, "diphenhydramine AND Multiple Myeloma")  <!-- 시험 9건 · 논문 10편 -->
-- [ ] enalapril — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 39건 · 논문 4214편 -->
+- [x] enalapril — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 39건 · 논문 4214편 -->
 - [x] enalapril — Nephropathy에 듣는다  <!-- 시험 8건 · 논문 1569편 -->
 - [x] enalapril — Pre-diabetes에 듣는다 — 근거 없음(2026-08-05 조회, "enalapril AND Pre-diabetes")  <!-- 시험 7건 · 논문 17편 -->
 - [x] enalapril — Cardiovascular Diseases에 듣는다 — 같은 근거(별도 항목 없음)  <!-- 시험 6건 · 논문 5546편 -->
-- [ ] erlotinib — Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 258건 · 논문 4790편 -->
+- [x] erlotinib — Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 258건 · 논문 4790편 -->
 - [x] erlotinib — Recurrent Skin Carcinoma에 듣는다  <!-- 시험 48건 · 논문 39편 -->
-- [ ] erlotinib — Adenocarcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 46건 · 논문 1874편 -->
-- [ ] erlotinib — Tumors에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 7299편 -->
-- [ ] formoterol — Pulmonary Emphysema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 131건 · 논문 26편 -->
-- [ ] formoterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 50건 · 논문 1157편 -->
-- [ ] formoterol — Emphysema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 29편 -->
-- [ ] formoterol — Bronchitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 7건 · 논문 41편 -->
+- [x] erlotinib — Adenocarcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 46건 · 논문 1874편 -->
+- [x] erlotinib — Tumors에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 7299편 -->
+- [x] formoterol — Pulmonary Emphysema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 131건 · 논문 26편 -->
+- [x] formoterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 50건 · 논문 1157편 -->
+- [x] formoterol — Emphysema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 8건 · 논문 29편 -->
+- [x] formoterol — Bronchitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 7건 · 논문 41편 -->
 - [x] isoniazid — HIV에 듣는다  <!-- 시험 41건 · 논문 2664편 -->
 - [x] isoniazid — Kidney Failure에 듣는다 — 근거 없음(2026-08-05 조회, "isoniazid AND Kidney Failure")  <!-- 시험 6건 · 논문 173편 -->
 - [x] isoniazid — Diabetes Mellitus에 듣는다 — 근거 없음(2026-08-05 조회, "isoniazid AND Diabetes Mellitus")  <!-- 시험 4건 · 논문 264편 -->
 - [x] isoniazid — MDR-TB에 듣는다  <!-- 시험 4건 · 논문 1490편 -->
 - [x] midazolam — Pain에 듣는다  <!-- 시험 42건 · 논문 3191편 -->
-- [ ] midazolam — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 33건 · 논문 7389편 -->
-- [ ] midazolam — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 32건 · 논문 2260편 -->
+- [x] midazolam — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 33건 · 논문 7389편 -->
+- [x] midazolam — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 32건 · 논문 2260편 -->
 - [x] midazolam — Healthy Adults에 듣는다 — 근거 없음(2026-08-05 조회, "midazolam AND Healthy Adults")  <!-- 시험 22건 · 논문 960편 -->
 - [x] phenytoin — Brain Hypoxia에 듣는다 — 근거 없음(2026-08-05 조회, "phenytoin AND Brain Hypoxia")  <!-- 시험 11건 · 논문 84편 -->
-- [ ] phenytoin — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 5580편 -->
+- [x] phenytoin — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 5580편 -->
 - [x] phenytoin — Healthy Participants에 듣는다 — 근거 없음(2026-08-05 조회, "phenytoin AND Healthy Participants")  <!-- 시험 4건 · 논문 212편 -->
-- [ ] phenytoin — Status Epilepticus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 1068편 -->
+- [x] phenytoin — Status Epilepticus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 1068편 -->
 - [x] tizanidine — Spinal Cord Injury에 듣는다  <!-- 시험 5건 · 논문 46편 -->
-- [ ] tizanidine — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 245편 -->
+- [x] tizanidine — Spasticity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 245편 -->
 - [x] tizanidine — Migraine에 듣는다  <!-- 시험 3건 · 논문 20편 -->
-- [ ] tolterodine — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 27건 · 논문 535편 -->
+- [x] tolterodine — Incontinence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 27건 · 논문 535편 -->
 - [x] tolterodine — Pain에 듣는다  <!-- 시험 5건 · 논문 47편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -8863,8 +8863,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] buprenorphine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 99건 · 논문 3370편 -->
-- [ ] buprenorphine — Drug Dependence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 60건 · 논문 7446편 -->
+- [x] buprenorphine — Pain에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 99건 · 논문 3370편 -->
+- [x] buprenorphine — Drug Dependence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 60건 · 논문 7446편 -->
 - [x] buprenorphine — Drug Use에 듣는다 — 근거 없음(2026-08-05 조회, "buprenorphine AND Drug Use")  <!-- 시험 23건 · 논문 10373편 -->
 - [x] buprenorphine — HIV에 듣는다 — 근거 없음(2026-08-05 조회, "buprenorphine AND HIV")  <!-- 시험 21건 · 논문 640편 -->
 - [x] psilocybin — Major Depression에 듣는다  <!-- 시험 50건 · 논문 444편 -->
@@ -8876,15 +8876,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] MDMA — Substance-related Disorder에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Substance-related Disorder")  <!-- 시험 7건 · 논문 1913편 -->
 - [x] MDMA — Interaction에 듣는다 — 근거 없음(2026-08-05 조회, "MDMA AND Interaction")  <!-- 시험 5건 · 논문 677편 -->
 - [x] varenicline — Opioid Dependence에 듣는다 — 근거 없음(2026-08-05 조회, "varenicline AND Opioid Dependence")  <!-- 시험 91건 · 논문 47편 -->
-- [ ] varenicline — Tobacco에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 55건 · 논문 1444편 -->
+- [x] varenicline — Tobacco에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 55건 · 논문 1444편 -->
 - [x] varenicline — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "varenicline AND Cancer")  <!-- 시험 19건 · 논문 414편 -->
 - [x] varenicline — Schizophrenia에 듣는다  <!-- 시험 16건 · 논문 115편 -->
-- [ ] acamprosate — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 810편 -->
+- [x] acamprosate — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 810편 -->
 - [x] acamprosate — Anxiety에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Anxiety")  <!-- 시험 4건 · 논문 65편 -->
 - [x] acamprosate — Depression에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Depression")  <!-- 시험 4건 · 논문 87편 -->
 - [x] acamprosate — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "acamprosate AND Schizophrenia")  <!-- 시험 3건 · 논문 16편 -->
-- [ ] nalmefene — Opioid Overdose에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 54편 -->
-- [ ] atomoxetine — ADHD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 1812편 -->
+- [x] nalmefene — Opioid Overdose에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 54편 -->
+- [x] atomoxetine — ADHD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 1812편 -->
 - [x] atomoxetine — Sleep Apnea에 듣는다  <!-- 시험 15건 · 논문 59편 -->
 - [x] atomoxetine — Parkinson Disease에 듣는다  <!-- 시험 9건 · 논문 46편 -->
 - [ ] doxepin — Insomnia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 131편 -->

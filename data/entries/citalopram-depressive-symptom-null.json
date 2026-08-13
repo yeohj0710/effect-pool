@@ -1,0 +1,29 @@
+{
+  "id": "citalopram-depressive-symptom-null",
+  "subj": "시탈로프람",
+  "claim": "시탈로프람이 우울 증상을 위약보다 줄인다고 단정하기 어렵다",
+  "line": "양극성 우울증 무작위시험에서 시탈로프람은 위약보다 우울 점수 개선이 크지 않았습니다.",
+  "effect": "MADRS 13.1 vs 15.2점",
+  "vs": "양극성 우울증 119명 무작위시험에서 6주 MADRS는 시탈로프람 13.1±8.4점, 위약 15.2±9.9점으로 차이가 유의하지 않았고 유지효과도 우월하지 않았습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 119,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "시탈로프람은 처방 선택적 세로토닌 재흡수 억제제입니다.",
+  "why": "우울 증상 주제에서 시탈로프람과 위약을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "표준 기분안정제에 시탈로프람을 추가해도 6주 우울 점수 차이가 유의하지 않았습니다.",
+  "limit": "양극성 우울증과 기분안정제 병용 시험이라 단극성 우울장애에 그대로 적용하지 않습니다.",
+  "against": "유지치료에서 조증 증상이 악화될 수 있어 진단과 추적이 필요합니다.",
+  "use": "양극성 우울증의 제한된 무효 근거로만 사용합니다.",
+  "refs": [
+    { "label": "CAPE-BD citalopram 무작위시험", "pmid": "33434956" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=citalopram AND query.cond=Depressive Symptom; 100건 반환, InterventionName 정확 일치 16건",
+    "pubmed": "citalopram AND Depressive Symptom; 4,218건",
+    "negative": "citalopram AND Depressive Symptom AND (no effect OR did not OR failed OR negative OR no significant difference); 3,347건",
+    "safety": "citalopram AND (adverse OR toxicity OR safety OR tolerability); 3,580건"
+  }
+}

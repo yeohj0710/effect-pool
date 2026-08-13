@@ -1,0 +1,29 @@
+{
+  "id": "acamprosate-alcoholism-pos",
+  "subj": "아캄프로세이트",
+  "claim": "아캄프로세이트가 알코올 의존의 재음주를 줄인다",
+  "line": "알코올 의존 무작위시험 메타분석에서 아캄프로세이트가 위약보다 재음주 위험을 줄였습니다.",
+  "effect": "재음주 RR 0.86",
+  "vs": "알코올 의존 24개 무작위시험 6,915명 메타분석에서 아캄프로세이트는 위약보다 재음주 위험 RR 0.86(95% CI 0.81~0.91), 누적 금주기간 MD 10.94일(5.08~16.81)을 보였고 설사는 RD 0.11 증가했습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 6915,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "아캄프로세이트는 처방 알코올 사용장애 치료제입니다.",
+  "why": "알코올 의존에서 아캄프로세이트와 위약을 비교한 무작위시험 메타분석을 확인했습니다.",
+  "saw": "아캄프로세이트가 재음주 위험을 낮추고 누적 금주기간을 늘렸습니다.",
+  "limit": "해독 후 심리사회적 치료를 받는 환자의 결과이며 급성 금단을 치료하지 않습니다.",
+  "against": "설사와 신장 기능, 심리사회적 치료 참여를 함께 관리해야 합니다.",
+  "use": "해독 후 금주 유지의 보조치료 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Acamprosate for alcohol dependence Cochrane review", "pmid": "20824837" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=acamprosate AND query.cond=Alcoholism; 30건 반환, InterventionName 정확 일치 19건",
+    "pubmed": "acamprosate AND Alcoholism; 810건",
+    "negative": "acamprosate AND Alcoholism AND (no effect OR did not OR failed OR negative OR no significant difference); 0건",
+    "safety": "acamprosate AND (adverse OR toxicity OR safety OR tolerability); 342건"
+  }
+}

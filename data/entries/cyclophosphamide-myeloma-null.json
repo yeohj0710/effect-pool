@@ -1,0 +1,29 @@
+{
+  "id": "cyclophosphamide-myeloma-null",
+  "subj": "사이클로포스파미드",
+  "claim": "사이클로포스파미드 포함 KCd가 KRd보다 다발골수종 반응을 늘리지 않는다",
+  "line": "다발골수종 시험에서 KRd가 KCd보다 깊은 반응이 많았습니다.",
+  "effect": "VGPR 이상 53% vs 70%",
+  "vs": "새로 진단된 다발골수종 474명 무작위시험에서 KRd군의 VGPR 이상은 70%(222/315), 사이클로포스파미드 포함 KCd군은 53%(84/159)였고 OR은 2.14(95% CI 1.44~3.19)였습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 474,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "사이클로포스파미드는 처방 세포독성 항암제입니다.",
+  "why": "다발골수종에서 사이클로포스파미드 포함 KCd와 KRd를 무작위 비교한 시험을 확인했습니다.",
+  "saw": "KRd군이 KCd군보다 유의하게 깊은 초기 반응을 보였습니다.",
+  "limit": "이 결과는 이식 가능 환자의 복합 유도요법 비교이며 사이클로포스파미드 단독효과가 아닙니다.",
+  "against": "복합요법의 이식·유지치료 구성과 환자 위험도를 함께 판단해야 합니다.",
+  "use": "이식 가능 다발골수종의 복합요법 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "FORTE 다발골수종 무작위 2상시험", "pmid": "34774221", "nct": "NCT02203643" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=cyclophosphamide AND query.cond=Myeloma; 100건 반환, InterventionName 정확 일치 63건",
+    "pubmed": "cyclophosphamide AND Myeloma; 2,926건",
+    "negative": "cyclophosphamide AND Myeloma AND (no effect OR did not OR failed OR negative OR no significant difference); 1,635건",
+    "safety": "cyclophosphamide AND (adverse OR toxicity OR safety OR tolerability); 35,295건"
+  }
+}

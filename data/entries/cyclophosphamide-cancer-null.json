@@ -1,0 +1,29 @@
+{
+  "id": "cyclophosphamide-cancer-null",
+  "subj": "사이클로포스파미드",
+  "claim": "사이클로포스파미드 포함 난소암 요법이 파클리탁셀 요법보다 효과가 크지 않다",
+  "line": "진행성 난소암 무작위시험에서 사이클로포스파미드-시스플라틴 요법의 반응률이 더 낮았습니다.",
+  "effect": "반응 45% vs 59%",
+  "vs": "진행성 난소암 680명 무작위시험에서 사이클로포스파미드-시스플라틴군의 반응률은 45%로 파클리탁셀-시스플라틴군 59%보다 낮았고 PFS는 11.5 vs 15.5개월, OS는 25.8 vs 35.6개월이었습니다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 680,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "사이클로포스파미드는 처방 세포독성 항암제입니다.",
+  "why": "암 주제에서 사이클로포스파미드 포함 요법과 다른 항암요법의 무작위 비교를 확인했습니다.",
+  "saw": "이 시험에서는 사이클로포스파미드-시스플라틴군의 반응과 생존이 파클리탁셀군보다 낮았습니다.",
+  "limit": "진행성 상피성 난소암의 복합요법 비교라 다른 암종이나 단독요법에 일반화하지 않습니다.",
+  "against": "세포독성 항암요법의 혈액학적·장기 독성을 함께 고려해야 합니다.",
+  "use": "사이클로포스파미드 포함 난소암 복합요법의 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "GOG-111 cisplatin-paclitaxel versus cisplatin-cyclophosphamide", "pmid": "10793106" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=cyclophosphamide AND query.cond=Cancer; 100건 반환, InterventionName 정확 일치 61건",
+    "pubmed": "cyclophosphamide AND Cancer; 53,791건",
+    "negative": "cyclophosphamide AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 32,071건",
+    "safety": "cyclophosphamide AND (adverse OR toxicity OR safety OR tolerability); 결과 확인"
+  }
+}

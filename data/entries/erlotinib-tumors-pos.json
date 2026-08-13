@@ -1,0 +1,29 @@
+{
+  "id": "erlotinib-tumors-pos",
+  "subj": "엘로티닙",
+  "claim": "엘로티닙 병용이 EGFR 변이 진행성 종양의 PFS를 늘린다",
+  "line": "EGFR 변이 진행성 비소세포폐암 메타분석에서 엘로티닙·베바시주맙 병용이 PFS를 늘렸습니다.",
+  "effect": "PFS HR 0.59",
+  "vs": "EGFR 변이 진행성 비소세포폐암 RCT 4편 775명 메타분석에서 엘로티닙+베바시주맙은 엘로티닙 단독보다 PFS HR 0.59(95% CI 0.49~0.72)였지만 OS HR은 0.95였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 775,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "엘로티닙은 처방 표적항암제입니다.",
+  "why": "종양 주제에서 엘로티닙 병용과 단독을 비교한 무작위시험 메타분석을 확인했습니다.",
+  "saw": "베바시주맙 병용은 PFS를 늘렸지만 OS 개선은 확인되지 않았습니다.",
+  "limit": "EGFR 변이 진행성 비소세포폐암의 병용요법 메타분석이며 엘로티닙 단독효과가 아닙니다.",
+  "against": "병용군의 설사·출혈·단백뇨·고혈압 증가를 함께 고려해야 합니다.",
+  "use": "표적항암 병용요법의 PFS 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Erlotinib plus bevacizumab 무작위시험 메타분석", "pmid": "35985780" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=erlotinib AND query.cond=Tumors; 100건 반환, InterventionName 정확 일치 46건",
+    "pubmed": "erlotinib AND Tumors; 7,303건",
+    "negative": "erlotinib AND Tumors AND (no effect OR did not OR failed OR negative OR no significant difference); 4,759건",
+    "safety": "erlotinib AND (adverse OR toxicity OR safety OR tolerability); 3,187건"
+  }
+}

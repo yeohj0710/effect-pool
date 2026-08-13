@@ -1,0 +1,29 @@
+{
+  "id": "midazolam-anxiety-pos",
+  "subj": "미다졸람",
+  "claim": "미다졸람이 소아 치과 불안을 줄이고 협조 행동을 늘린다",
+  "line": "소아 치과 진정 메타분석에서 경구 미다졸람이 위약보다 협조 행동을 개선했습니다.",
+  "effect": "협조 행동 SMD 2.98",
+  "vs": "소아 치과 진정 무작위시험 36편 2,810명 체계적 문헌고찰에서 경구 미다졸람은 위약보다 협조 행동을 높였고 SMD 2.98(95% CI 1.58~4.37)였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2810,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "미다졸람은 처방 벤조디아제핀 진정제입니다.",
+  "why": "불안 주제에서 소아 치과 진정의 미다졸람과 위약을 비교한 시험들을 종합한 문헌고찰을 확인했습니다.",
+  "saw": "경구 미다졸람의 협조 행동이 위약보다 좋았지만 근거의 질은 낮았습니다.",
+  "limit": "소아 치과 시술의 단기 진정이며 36개 시험 대부분의 비뚤림 위험이 높았습니다.",
+  "against": "호흡억제와 역설적 반응을 감시할 수 있는 의료 환경이 필요합니다.",
+  "use": "소아 치과 진정의 제한된 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Sedation of children undergoing dental treatment Cochrane review", "pmid": "22419289" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=midazolam AND query.cond=Anxiety; 100건 반환, InterventionName 정확 일치 43건",
+    "pubmed": "midazolam AND Anxiety; 792건",
+    "negative": "midazolam AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference); 1,837건",
+    "safety": "midazolam AND (adverse OR toxicity OR safety OR tolerability); 6,944건"
+  }
+}

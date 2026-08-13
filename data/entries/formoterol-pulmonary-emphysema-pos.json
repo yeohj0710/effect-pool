@@ -1,0 +1,29 @@
+{
+  "id": "formoterol-pulmonary-emphysema-pos",
+  "subj": "포르모테롤",
+  "claim": "포르모테롤이 폐기종을 포함한 COPD의 폐기능을 개선한다",
+  "line": "COPD 무작위시험에서 포르모테롤 추가가 위약보다 폐기능을 개선했습니다.",
+  "effect": "FEV1 AUC 1.57 vs 1.38L",
+  "vs": "COPD 155명 무작위시험에서 티오트로피움에 포르모테롤을 추가한 군의 6주 FEV1 AUC는 위약 추가군보다 1.57 vs 1.38L(p<.0001)였고 이상반응은 37% vs 51%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 155,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "포르모테롤은 처방 장시간 기관지확장제입니다.",
+  "why": "폐기종 주제에서 COPD 환자의 포르모테롤과 위약을 비교한 무작위시험을 확인했습니다.",
+  "saw": "티오트로피움에 포르모테롤을 추가하면 폐기능이 개선됐습니다.",
+  "limit": "COPD 시험이며 폐기종 아형만 분리한 결과가 아니므로 폐기종 환자 전체에 일반화하지 않습니다.",
+  "against": "기저 COPD 중증도와 심혈관 위험, 흡입기 사용법을 함께 평가해야 합니다.",
+  "use": "폐기종을 포함한 COPD의 기관지확장 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Nebulized formoterol add-on to tiotropium 무작위시험", "pmid": "19537837" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=formoterol AND query.cond=Pulmonary Emphysema; 20건 반환, InterventionName 정확 일치 1건",
+    "pubmed": "formoterol AND Pulmonary Emphysema; 27건",
+    "negative": "formoterol AND Pulmonary Emphysema AND (no effect OR did not OR failed OR negative OR no significant difference); 0건",
+    "safety": "formoterol AND (adverse OR toxicity OR safety OR tolerability); 1,403건"
+  }
+}

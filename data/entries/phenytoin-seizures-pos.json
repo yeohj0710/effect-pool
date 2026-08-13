@@ -1,0 +1,29 @@
+{
+  "id": "phenytoin-seizures-pos",
+  "subj": "페니토인",
+  "claim": "페니토인이 중증 두부외상 뒤 초기 발작을 줄인다",
+  "line": "중증 두부외상 무작위시험에서 페니토인이 첫 1주 발작을 위약보다 줄였습니다.",
+  "effect": "초기 발작 3.6% vs 14.2%",
+  "vs": "중증 두부외상 404명 이중눈가림 무작위시험에서 손상 후 첫 7일 발작은 페니토인 3.6% vs 위약 14.2%, RR 0.27(95% CI 0.12~0.62)였지만 1년 뒤 발작은 21.5% vs 15.7%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 404,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "페니토인은 처방 항경련제입니다.",
+  "why": "발작 주제에서 페니토인과 위약을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "페니토인은 손상 후 첫 주 발작을 줄였지만 이후 예방효과는 확인되지 않았습니다.",
+  "limit": "중증 두부외상 뒤 예방요법 결과이며 일반 간질의 장기치료 효과가 아닙니다.",
+  "against": "장기 복용의 부작용과 손상 후 발작 위험을 따로 평가해야 합니다.",
+  "use": "중증 두부외상 뒤 초기 발작 예방의 단기 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Phenytoin prevention of post-traumatic seizures 무작위시험", "pmid": "2115976" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=phenytoin AND query.cond=Seizures; 33건 반환, InterventionName 정확 일치 9건",
+    "pubmed": "phenytoin AND Seizures; 5,583건",
+    "negative": "phenytoin AND Seizures AND (no effect OR did not OR failed OR negative OR no significant difference); 3,846건",
+    "safety": "phenytoin AND (adverse OR toxicity OR safety OR tolerability); 8,061건"
+  }
+}

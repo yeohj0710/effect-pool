@@ -1,0 +1,29 @@
+{
+  "id": "buprenorphine-pain-pos",
+  "subj": "부프레노르핀",
+  "claim": "부프레노르핀이 급성 췌장염 통증의 구제 진통제 사용을 줄인다",
+  "line": "급성 췌장염 무작위시험에서 부프레노르핀이 디클로페낙보다 구제 펜타닐 사용을 줄였습니다.",
+  "effect": "구제 fentanyl 130 vs 520µg",
+  "vs": "급성 췌장염 48명 이중눈가림 무작위시험에서 구제 펜타닐 중앙값은 부프레노르핀 130µg(IQR 80~255) vs 디클로페낙 520µg(IQR 380~1,065)였고 통증 없는 시간은 20 vs 4시간이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 48,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "부프레노르핀은 처방 오피오이드입니다.",
+  "why": "통증 주제에서 부프레노르핀과 디클로페낙을 직접 비교한 무작위시험을 확인했습니다.",
+  "saw": "부프레노르핀군이 구제 펜타닐 사용과 통증 부담에서 유리했습니다.",
+  "limit": "급성 췌장염의 소규모 시험이며 만성 통증이나 다른 오피오이드 용도로 일반화하지 않습니다.",
+  "against": "호흡억제·의존·변비와 급성 췌장염의 원인 치료를 따로 관리해야 합니다.",
+  "use": "급성 췌장염 입원 진통 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Buprenorphine versus diclofenac acute pancreatitis 무작위시험", "pmid": "37924855" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=buprenorphine AND query.cond=Pain; 100건 반환, InterventionName 정확 일치 29건",
+    "pubmed": "buprenorphine AND Pain; 608건",
+    "negative": "buprenorphine AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference); 2,484건",
+    "safety": "buprenorphine AND (adverse OR toxicity OR safety OR tolerability); 5,288건"
+  }
+}

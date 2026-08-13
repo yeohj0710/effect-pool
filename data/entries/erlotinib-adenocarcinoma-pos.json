@@ -1,0 +1,29 @@
+{
+  "id": "erlotinib-adenocarcinoma-pos",
+  "subj": "엘로티닙",
+  "claim": "엘로티닙 병용이 진행성 췌장 선암의 생존을 소폭 늘린다",
+  "line": "진행성 췌장암 3상시험에서 엘로티닙 병용이 젬시타빈 단독보다 생존을 소폭 늘렸습니다.",
+  "effect": "OS HR 0.82",
+  "vs": "진행성 췌장암 569명 무작위시험에서 엘로티닙+젬시타빈의 OS 중앙값은 젬시타빈+위약보다 6.24 vs 5.91개월, HR 0.82(95% CI 0.69~0.99)였고 1년 생존은 23% vs 17%였습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 569,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "엘로티닙은 처방 표적항암제입니다.",
+  "why": "선암 주제에서 엘로티닙과 젬시타빈 병용을 위약 병용과 비교한 무작위시험을 확인했습니다.",
+  "saw": "엘로티닙 병용은 진행성 췌장암의 생존과 무진행 생존을 소폭 늘렸습니다.",
+  "limit": "진행성 췌장암 복합요법 결과이며 모든 선암이나 엘로티닙 단독요법으로 일반화하지 않습니다.",
+  "against": "생존 이득이 작고 발진·설사 등 이상반응을 함께 고려해야 합니다.",
+  "use": "진행성 췌장 선암의 병용요법 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Erlotinib plus gemcitabine 췌장암 무작위 3상시험", "pmid": "17452677" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=erlotinib AND query.cond=Adenocarcinoma; 100건 반환, InterventionName 정확 일치 38건",
+    "pubmed": "erlotinib AND Adenocarcinoma; 1,874건",
+    "negative": "erlotinib AND Adenocarcinoma AND (no effect OR did not OR failed OR negative OR no significant difference); 0건",
+    "safety": "erlotinib AND (adverse OR toxicity OR safety OR tolerability); 3,187건"
+  }
+}

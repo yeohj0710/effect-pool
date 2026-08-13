@@ -1,0 +1,29 @@
+{
+  "id": "diclofenac-osteoarthritis-pos",
+  "subj": "디클로페낙",
+  "claim": "디클로페낙이 골관절염 통증을 줄인다",
+  "line": "무릎·엉덩이 골관절염 네트워크 메타분석에서 디클로페낙은 위약보다 통증 효과가 컸습니다.",
+  "effect": "통증 효과 ≥99% 확률",
+  "vs": "골관절염 192개 무작위시험 102,829명 네트워크 분석에서 경구 디클로페낙 150mg/일은 임상적으로 의미 있는 통증 감소보다 효과가 클 확률이 99% 이상이었고 국소제는 92.3% 이상이었습니다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 102829,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "디클로페낙은 처방 또는 국가별 일반 판매 형태가 있는 NSAID입니다.",
+  "why": "골관절염에서 디클로페낙의 위약 대비 효과를 평가한 무작위시험 네트워크 메타분석을 확인했습니다.",
+  "saw": "경구·국소 디클로페낙 모두 임상적으로 의미 있는 통증 감소 가능성이 높았습니다.",
+  "limit": "네트워크 간접비교이며 용량과 제형에 따라 효과와 위험이 달라집니다.",
+  "against": "심혈관·위장관·신장 위험이 있어 장기 복용을 자동으로 정당화하지 않습니다.",
+  "use": "골관절염 통증의 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "NSAID·opioid 골관절염 네트워크 메타분석", "pmid": "34642179" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=diclofenac AND query.cond=Osteoarthritis; 90건 반환, InterventionName 정확 일치 19건",
+    "pubmed": "diclofenac AND Osteoarthritis; 1,067건",
+    "negative": "diclofenac AND Osteoarthritis AND (no effect OR did not OR failed OR negative OR no significant difference); 924건",
+    "safety": "diclofenac AND (adverse OR toxicity OR safety OR tolerability); 6,969건"
+  }
+}
