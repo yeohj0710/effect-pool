@@ -1,32 +1,33 @@
 {
-  "id": "cranial-electrotherapy-stimulation-depression-pos",
-  "subj": "cranial electrotherapy stimulation",
-  "claim": "두개 전기자극이 우울증 증상을 줄일 수 있다",
-  "line": "두개 전기자극은 우울 증상을 조금 줄였습니다.",
-  "effect": "우울 Hedges g −0.33",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1148,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "의료기기 중재이며 우울증 허가 적응증을 확인하지 못함",
-  "why": "성인 일차·이차 우울증에서 두개 전기자극과 대조치료를 비교한 무작위시험 메타분석을 확인했습니다",
-  "saw": "16개 무작위시험 1,148명에서 CES는 우울 증상을 Hedges g −0.33 줄였지만 삶의 질 효과는 유의하지 않았습니다",
-  "limit": "장기 효과가 부족하고 기기 전류·빈도·치료기간이 연구마다 달랐습니다",
-  "against": "비자극 치료 또는 가짜자극",
-  "use": "우울증의 보조 신경조절기기로 탐색할 때의 작은 효과 신호로 참고합니다.",
-  "refs": [
-    {
-      "label": "Efficacy of cranial electrotherapy stimulation for treating primary and secondary depression in adults: A meta-analysis of randomized controlled trials",
-      "doi": "10.1016/j.jad.2025.04.074",
-      "pmid": "40286924"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cranial electrotherapy stimulation · cond=Depression: 4건",
-    "pubmed": "cranial electrotherapy stimulation AND Depression AND (randomized OR trial OR meta-analysis): 73건",
-    "negative": "cranial electrotherapy stimulation AND Depression AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 112건",
-    "safety": "cranial electrotherapy stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 243건"
+ "id": "cranial-electrotherapy-stimulation-depression-pos",
+ "subj": "두개 전기자극 치료",
+ "claim": "두개 전기자극이 우울증 증상을 줄일 수 있다",
+ "line": "두개 전기자극은 우울 증상을 조금 줄였습니다.",
+ "effect": "우울 Hedges g −0.33",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1148,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "의료기기 중재이며 우울증 허가 적응증을 확인하지 못함",
+ "why": "성인 일차·이차 우울증에서 두개 전기자극과 대조치료를 비교한 무작위시험 메타분석을 확인했습니다",
+ "saw": "16개 무작위시험 1,148명에서 CES는 우울 증상을 Hedges g −0.33 줄였지만 삶의 질 효과는 유의하지 않았습니다",
+ "limit": "장기 효과가 부족하고 기기 전류·빈도·치료기간이 연구마다 달랐습니다",
+ "against": "비자극 치료 또는 가짜자극",
+ "use": "우울증의 보조 신경조절기기로 탐색할 때의 작은 효과 신호로 참고합니다.",
+ "refs": [
+  {
+   "label": "Efficacy of cranial electrotherapy stimulation for treating primary and secondary depression in adults: A meta-analysis of randomized controlled trials",
+   "doi": "10.1016/j.jad.2025.04.074",
+   "pmid": "40286924"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cranial electrotherapy stimulation · cond=Depression: 4건",
+  "pubmed": "cranial electrotherapy stimulation AND Depression AND (randomized OR trial OR meta-analysis): 73건",
+  "negative": "cranial electrotherapy stimulation AND Depression AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 112건",
+  "safety": "cranial electrotherapy stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 243건"
+ },
+ "vs": "두개 전기자극 대 비자극 대조, 16편·1148명: 우울 Hedges g -0.33 (95% CI -0.46~-0.20), 안전성 OR 0.84 (0.32~2.18), 삶의 질 g 0.13 (-0.05~0.31)"
 }

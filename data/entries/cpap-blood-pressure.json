@@ -1,30 +1,31 @@
 {
-  "id": "cpap-blood-pressure",
-  "subj": "CPAP",
-  "claim": "CPAP 치료가 폐쇄성 수면무호흡 환자의 혈압을 낮춘다",
-  "line": "CPAP은 폐쇄성 수면무호흡 환자의 혈압을 조금 낮췄습니다.",
-  "effect": "혈압 소폭↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 9434,
-  "synth": "meta",
-  "why": "폐쇄성 수면무호흡 환자를 CPAP과 대조 치료에 무작위로 나눈 혈압 분석입니다.",
-  "saw": "개별 환자자료 메타분석은 CPAP이 대조군보다 수축기와 이완기 혈압을 소폭 낮추며 야간 혈압과 순응도가 높은 환자에서 효과가 더 컸다고 보고했습니다.",
-  "limit": "혈압 감소 폭이 작고 순응도와 동반질환에 따라 달랐으며 모든 환자에게 같은 효과를 보장하지 않습니다.",
-  "against": "일부 시험에서는 주간 혈압과 심혈관 사건의 차이가 없었고 CPAP을 잘 쓰지 못하면 효과가 줄었습니다.",
-  "use": "CPAP을 혈압약의 대체제로 보지 말고 수면무호흡 치료와 혈압 관리를 함께 해야 합니다.",
-  "refs": [
-    {
-      "label": "Peker 2025 · Eur Respir J · CPAP 혈압 개별자료 메타분석",
-      "doi": "10.1183/13993003.00837-2024",
-      "pmid": "39401854"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=CPAP, cond=obstructive sleep apnea blood pressure → 44건 반환, InterventionName 대조 후 37건",
-    "pubmed": "CPAP obstructive sleep apnea blood pressure randomized trial meta-analysis → 77건",
-    "negative": "CPAP sleep apnea blood pressure AND (no effect OR did not OR failed to OR negative) → 1,159건",
-    "safety": "CPAP sleep apnea AND (adverse OR intolerance OR case report) → 1,509건"
+ "id": "cpap-blood-pressure",
+ "subj": "CPAP",
+ "claim": "CPAP 치료가 폐쇄성 수면무호흡 환자의 혈압을 낮춘다",
+ "line": "CPAP은 폐쇄성 수면무호흡 환자의 혈압을 조금 낮췄습니다.",
+ "effect": "혈압 소폭↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 9434,
+ "synth": "meta",
+ "why": "폐쇄성 수면무호흡 환자를 CPAP과 대조 치료에 무작위로 나눈 혈압 분석입니다.",
+ "saw": "개별 환자자료 메타분석은 CPAP이 대조군보다 수축기와 이완기 혈압을 소폭 낮추며 야간 혈압과 순응도가 높은 환자에서 효과가 더 컸다고 보고했습니다.",
+ "limit": "혈압 감소 폭이 작고 순응도와 동반질환에 따라 달랐으며 모든 환자에게 같은 효과를 보장하지 않습니다.",
+ "against": "일부 시험에서는 주간 혈압과 심혈관 사건의 차이가 없었고 CPAP을 잘 쓰지 못하면 효과가 줄었습니다.",
+ "use": "CPAP을 혈압약의 대체제로 보지 말고 수면무호흡 치료와 혈압 관리를 함께 해야 합니다.",
+ "refs": [
+  {
+   "label": "Peker 2025 · Eur Respir J · CPAP 혈압 개별자료 메타분석",
+   "doi": "10.1183/13993003.00837-2024",
+   "pmid": "39401854"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=CPAP, cond=obstructive sleep apnea blood pressure → 44건 반환, InterventionName 대조 후 37건",
+  "pubmed": "CPAP obstructive sleep apnea blood pressure randomized trial meta-analysis → 77건",
+  "negative": "CPAP sleep apnea blood pressure AND (no effect OR did not OR failed to OR negative) → 1,159건",
+  "safety": "CPAP sleep apnea AND (adverse OR intolerance OR case report) → 1,509건"
+ },
+ "vs": "CPAP 대 능동·수동 대조, 36편·9434명: 조절되지 않은 진료실 SBP에서 SBP -2.6 mmHg (P<0.0001), DBP -1.7 mmHg (P=.091); 조절된 혈압은 감소 없음"
 }
