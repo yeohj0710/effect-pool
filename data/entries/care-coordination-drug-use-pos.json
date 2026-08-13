@@ -1,28 +1,32 @@
 {
-  "id": "care-coordination-drug-use-pos",
-  "subj": "care coordination",
-  "claim": "돌봄 조정과 환자 내비게이션은 약물사용자의 HCV 진료 연계를 개선했다.",
-  "line": "돌봄 조정은 주사약물사용자의 C형간염 진료 연계를 개선할 가능성이 있다.",
-  "effect": "환자 내비게이션이 연계 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "돌봄 조정은 의약품 허가 적응증이 아닌 감염관리 서비스 중재다",
-  "why": "약물을 주사하는 사람의 C형간염 검사와 진료 연계를 검토한 체계적 문헌고찰에서 환자 내비게이션과 제공자 간 돌봄 조정이 연계에 개선 신호를 보였다.",
-  "saw": "45개 연구(무작위시험 27개, 비무작위 연구 18개)를 검토했다. 환자 내비게이션은 진료 연계를, 제공자 돌봄 조정은 항체 검사를, 통합 진료는 연계·치료를 개선했다.",
-  "limit": "연구별 중재와 결과 정의가 달랐고 전체 참가자 수가 보고되지 않았으며 더 강한 무작위 근거가 필요하다.",
-  "against": "모든 돌봄 조정 중재가 치료 시작이나 지속을 개선한 것은 아니었다.",
-  "use": "약물사용자의 C형간염 선별 뒤 진료 연계를 설계할 때 환자 내비게이션과 제공자 조정을 평가합니다.",
-  "refs": [
-    { "label": "HCV Testing and Linkage to Care Among People Who Inject Drugs 2022 · International Journal of Drug Policy", "doi": "10.1016/j.drugpo.2022.103917", "pmid": "36542883" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=care coordination AND condition=Drug Use; 19건 반환, 중재명 일치 1건",
-    "pubmed": "care coordination AND Drug Use; 8427건",
-    "negative": "care coordination AND Drug Use AND (no effect OR did not OR failed to OR negative OR no significant difference); 4946건",
-    "safety": "care coordination AND (adverse OR toxicity OR case report OR harm OR dropout); 2492건"
+ "id": "care-coordination-drug-use-pos",
+ "subj": "돌봄 조정",
+ "claim": "돌봄 조정과 환자 내비게이션은 약물사용자의 HCV 진료 연계를 개선했다.",
+ "line": "돌봄 조정은 주사약물사용자의 C형간염 진료 연계를 개선할 가능성이 있다.",
+ "effect": "환자 내비게이션이 연계 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "돌봄 조정은 의약품 허가 적응증이 아닌 감염관리 서비스 중재다",
+ "why": "약물을 주사하는 사람의 C형간염 검사와 진료 연계를 검토한 체계적 문헌고찰에서 환자 내비게이션과 제공자 간 돌봄 조정이 연계에 개선 신호를 보였다.",
+ "saw": "45개 연구(무작위시험 27개, 비무작위 연구 18개)를 검토했다. 환자 내비게이션은 진료 연계를, 제공자 돌봄 조정은 항체 검사를, 통합 진료는 연계·치료를 개선했다.",
+ "limit": "연구별 중재와 결과 정의가 달랐고 전체 참가자 수가 보고되지 않았으며 더 강한 무작위 근거가 필요하다.",
+ "against": "모든 돌봄 조정 중재가 치료 시작이나 지속을 개선한 것은 아니었다.",
+ "use": "약물사용자의 C형간염 선별 뒤 진료 연계를 설계할 때 환자 내비게이션과 제공자 조정을 평가합니다.",
+ "refs": [
+  {
+   "label": "HCV Testing and Linkage to Care Among People Who Inject Drugs 2022 · International Journal of Drug Policy",
+   "doi": "10.1016/j.drugpo.2022.103917",
+   "pmid": "36542883"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=care coordination AND condition=Drug Use; 19건 반환, 중재명 일치 1건",
+  "pubmed": "care coordination AND Drug Use; 8427건",
+  "negative": "care coordination AND Drug Use AND (no effect OR did not OR failed to OR negative OR no significant difference); 4946건",
+  "safety": "care coordination AND (adverse OR toxicity OR case report OR harm OR dropout); 2492건"
+ }
 }

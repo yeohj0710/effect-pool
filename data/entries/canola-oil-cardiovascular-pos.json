@@ -1,28 +1,34 @@
 {
-  "id": "canola-oil-cardiovascular-pos",
-  "subj": "canola oil",
-  "claim": "카놀라유는 심혈관 위험 지표인 LDL·총콜레스테롤·아포지단백B를 낮췄다.",
-  "line": "카놀라유는 다른 식용유보다 LDL 콜레스테롤과 아포지단백 B를 낮췄다.",
-  "effect": "LDL·총콜레스테롤·아포지단백B↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품인 카놀라유에는 허가 적응증을 적용하지 않습니다.",
-  "why": "성인 대조 임상시험 42편에서 카놀라유와 다른 식용유의 심혈관 위험 지표를 비교한 메타분석입니다.",
-  "saw": "42편의 대조시험에서 카놀라유는 다른 식용유보다 총콜레스테롤과 LDL 콜레스테롤, LDL/HDL 비, 총콜레스테롤/HDL 비, 아포지단백B를 낮췄습니다. 포화지방과 바꾼 비교에서도 같은 방향이었습니다.",
-  "limit": "메타분석 초록은 전체 참가자 수를 보고하지 않았고 식용유 종류·용량·비교군이 연구마다 달랐습니다.",
-  "against": "연구진은 용량-반응 결과를 확인할 잘 설계된 추가 임상시험이 필요하다고 했습니다.",
-  "use": "식용유를 포화지방과 바꿀 때의 지질 지표 근거로만 기록하고 심혈관 사건 예방 효과로 확대하지 않습니다.",
-  "refs": [
-    { "label": "카놀라유 심혈관 위험 지표 대조시험 메타분석", "doi": "10.1016/j.numecd.2020.06.007", "pmid": "33127255", "pmc": "PMC2674749" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=canola oil AND query.cond=Cardiovascular Disease · 30건, 직접 개입 10건",
-    "pubmed": "canola oil AND Cardiovascular Disease · 298편, 결과 검색 100편",
-    "negative": "canola oil AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 236편",
-    "safety": "canola oil AND (adverse OR toxicity OR case report OR harm OR dropout) · 792편"
+ "id": "canola-oil-cardiovascular-pos",
+ "subj": "카놀라유",
+ "claim": "카놀라유는 다른 식용유보다 심혈관 위험지표를 개선하는가",
+ "line": "카놀라유는 다른 식용유·포화지방보다 혈중 지질을 낮췄다.",
+ "effect": "총콜레스테롤·LDL 콜레스테롤 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품인 카놀라유에는 허가 적응증을 적용하지 않습니다.",
+ "why": "성인 대조 임상시험 42편에서 카놀라유와 다른 식용유의 심혈관 위험 지표를 비교한 메타분석입니다.",
+ "saw": "42개 대조 임상시험 종합에서 다른 식용유 대비 총콜레스테롤 MD -0.27mmol/L(37개), LDL-C -0.23mmol/L(35개), LDL/HDL -0.21(10개)였다. 포화지방 대비 총콜레스테롤 -0.59mmol/L(11개), LDL-C -0.49mmol/L(10개)였다(P<.05).",
+ "limit": "카놀라유의 비교 식용유와 섭취량이 연구마다 달랐고 심혈관 사건 자체를 측정한 분석은 아니다.",
+ "against": "카놀라유의 효과는 비교한 지방의 종류와 식단 구성에 따라 달라질 수 있다.",
+ "use": "식단에서 포화지방을 줄이고 불포화지방으로 바꾸는 선택지를 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "카놀라유 심혈관 위험 지표 대조시험 메타분석",
+   "doi": "10.1016/j.numecd.2020.06.007",
+   "pmid": "33127255",
+   "pmc": "PMC2674749"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "query.intr=canola oil AND query.cond=Cardiovascular Disease · 30건, 직접 개입 10건",
+  "pubmed": "canola oil AND Cardiovascular Disease · 298편, 결과 검색 100편 · 2026-08-14 PubMed 초록 직접 확인: PMID 33127255",
+  "negative": "canola oil AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 236편",
+  "safety": "canola oil AND (adverse OR toxicity OR case report OR harm OR dropout) · 792편"
+ },
+ "vs": "카놀라유 대 다른 식용유: 총콜레스테롤 MD -0.27mmol/L(37개), LDL-C -0.23mmol/L(35개); 포화지방 대조 대비 총콜레스테롤 -0.59mmol/L, LDL-C -0.49mmol/L(P<.05), 42개 시험"
 }

@@ -1,29 +1,38 @@
 {
-  "id": "bright-light-therapy-seasonal-affective-disorder-pos",
-  "subj": "bright light therapy",
-  "claim": "계절성 정서장애의 우울 증상에 밝은 빛 치료를 쓰는가",
-  "line": "계절성 정서장애 광치료 메타분석에서 우울 점수는 위약보다 낮아졌다.",
-  "effect": "우울 SMD -0.37",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 610,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "밝은 빛 치료는 의약품이 아닌 비약물 광치료 중재입니다.",
-  "why": "계절성 정서장애 성인을 대상으로 밝은 빛 치료와 위약 광원을 비교한 무작위시험을 합쳤습니다.",
-  "saw": "무작위시험 19개를 포함한 메타분석에서 우울 점수 분석은 18개 연구 610명, 반응률 분석은 16개 연구 559명이었습니다. 밝은 빛 치료는 위약보다 우울 점수를 낮췄고(SMD -0.37, 95% CI -0.63~-0.12), 반응률도 높였습니다(RR 1.42, 95% CI 1.08~1.85).",
-  "limit": "연구 간 이질성이 중간 수준이고 비뚤림 위험이 중간에서 높았으며 표본이 작거나 중간 규모라 장기 효과와 안전성을 확정하기 어렵습니다.",
-  "against": "네트워크 메타분석은 광치료 효과를 확인했지만 근거의 질이 낮고 연구 간 이질성이 크다고 평가했습니다.",
-  "use": "계절성 정서장애 광치료 근거를 설명할 때 효과크기와 연구의 비뚤림 위험·이질성을 함께 제시합니다.",
-  "refs": [
-    { "label": "계절성 정서장애 밝은 빛 치료 무작위시험 메타분석", "doi": "10.1159/000502891", "pmid": "31574513" },
-    { "label": "계절성 정서장애 치료 네트워크 메타분석", "doi": "10.1016/j.jad.2024.01.028", "pmid": "38220102" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "bright light therapy AND Seasonal Affective Disorder — 12건 반환",
-    "pubmed": "\"bright light therapy\" AND \"seasonal affective disorder\" — 150편; 무작위·메타분석 검색 22편",
-    "negative": "\"bright light therapy\" AND \"seasonal affective disorder\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 21편",
-    "safety": "\"bright light therapy\" AND (adverse OR toxicity OR harm OR safety) — 123편"
+ "id": "bright-light-therapy-seasonal-affective-disorder-pos",
+ "subj": "광치료",
+ "claim": "계절성 정동장애에서 광치료는 우울 증상을 줄이는가",
+ "line": "계절성 정동장애 무작위시험 종합에서 광치료가 위약·다른 대조 중재보다 우울 증상을 개선했다.",
+ "effect": "우울 증상 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 610,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "밝은 빛 치료는 의약품이 아닌 비약물 광치료 중재입니다.",
+ "why": "계절성 정서장애 성인을 대상으로 밝은 빛 치료와 위약 광원을 비교한 무작위시험을 합쳤습니다.",
+ "saw": "광치료 메타분석은 19개 연구 610명에서 우울 점수 SMD -0.37(95% CI -0.63~-0.12), 반응률 RR 1.42(1.08~1.85)를 보고했다. 별도 네트워크 메타분석은 21개 무작위시험 1,037명에서 광치료 효과크기 4.64(95% CI 2.38~7.03)를 보고했지만 근거의 질은 낮았다.",
+ "limit": "연구별 중재·대조 조건이 다양하고 이질성이 있어 네트워크 추정치의 해석에 주의해야 한다.",
+ "against": "근거의 질이 낮고 장기 효과를 확인하려면 더 큰 시험이 필요하다.",
+ "use": "계절성 정동장애의 광치료 선택을 전문 평가와 함께 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "계절성 정서장애 밝은 빛 치료 무작위시험 메타분석",
+   "doi": "10.1159/000502891",
+   "pmid": "31574513"
+  },
+  {
+   "label": "계절성 정서장애 치료 네트워크 메타분석",
+   "doi": "10.1016/j.jad.2024.01.028",
+   "pmid": "38220102"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "bright light therapy AND Seasonal Affective Disorder — 12건 반환",
+  "pubmed": "\"bright light therapy\" AND \"seasonal affective disorder\" — 150편; 무작위·메타분석 검색 22편 · 2026-08-14 PubMed 초록 직접 확인: PMID 31574513, 38220102",
+  "negative": "\"bright light therapy\" AND \"seasonal affective disorder\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 21편",
+  "safety": "\"bright light therapy\" AND (adverse OR toxicity OR harm OR safety) — 123편"
+ },
+ "vs": "광치료 대 위약·대조 중재: 우울 점수 SMD -0.37(95% CI -0.63~-0.12), 반응률 RR 1.42(1.08~1.85), 19개 연구 610명; 네트워크 분석 효과크기 4.64(2.38~7.03), 21개 시험 1,037명"
 }

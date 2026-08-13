@@ -1,20 +1,33 @@
 {
-  "id": "breathing-retraining-pulmonary-disease-pos",
-  "subj": "호흡 재훈련",
-  "claim": "천식과 만성 폐질환에서 호흡 재훈련은 증상과 삶의 질을 개선하는 보조 중재입니다",
-  "line": "천식과 만성 폐질환에서 호흡 재훈련은 증상과 삶의 질을 개선했다.",
-  "effect": "증상·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "호흡 재훈련은 약물이 아닌 호흡·행동 중재입니다",
-  "why": "천식과 만성 폐질환에서 물리치료 호흡 재훈련과 호흡 운동의 효과를 임상시험과 체계적 고찰로 검토했습니다",
-  "saw": "천식 호흡 운동 고찰과 무작위시험에서 호흡 재훈련은 증상 조절과 건강 관련 삶의 질 개선 방향을 보였습니다",
-  "limit": "질환과 중재 방법, 비교군이 연구마다 다르고 전체 참가자 수가 검색 초록에 정리되어 있지 않았습니다",
-  "against": "호흡 재훈련이 흡입제나 폐질환의 원인 치료를 대신한다고 볼 수 없습니다",
-  "use": "천식·폐질환 재활의 보조 방법으로 사용하며 약물과 악화 대응 계획을 유지합니다",
-  "refs": [{ "label": "천식 물리치료 호흡 재훈련 무작위시험", "doi": "10.1016/S2213-2600(17)30474-5", "pmid": "29248433" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=breathing retraining · cond=Pulmonary Disease 32건", "pubmed": "breathing retraining AND Pulmonary Disease 135건", "negative": "breathing retraining AND Pulmonary Disease AND (no effect OR did not OR failed OR no significant difference) 81건", "safety": "breathing retraining AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 55건" }
+ "id": "breathing-retraining-pulmonary-disease-pos",
+ "subj": "호흡 재훈련",
+ "claim": "천식에서 호흡 재훈련은 삶의 질을 개선하는가",
+ "line": "천식 시험에서 디지털·대면 호흡 재훈련이 일반 관리보다 삶의 질을 개선했다.",
+ "effect": "천식 삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 655,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "호흡 재훈련은 약물이 아닌 호흡·행동 중재입니다",
+ "why": "천식과 만성 폐질환에서 물리치료 호흡 재훈련과 호흡 운동의 효과를 임상시험과 체계적 고찰로 검토했습니다",
+ "saw": "천식 환자 655명을 디지털 비디오 호흡 재훈련, 대면 호흡 재훈련, 일반 관리에 2:1:2로 배정했다. 12개월 AQLQ는 디지털 5.40±1.14, 일반 관리 5.12±1.17로 조정 평균차 0.28(95% CI 0.11~0.44), 대면은 일반 관리보다 0.24(0.04~0.44) 높았다. FEV1·FeNO 차이는 없었다.",
+ "limit": "천식 환자 시험이며 호흡 재훈련이 폐기능이나 호기산화질소를 개선하지는 않았다.",
+ "against": "디지털 호흡 재훈련과 대면 호흡 재훈련의 삶의 질 효과 차이는 0.04(95% CI -0.16~0.24)로 유의하지 않았다.",
+ "use": "천식 자기관리에서 삶의 질 개선을 목표로 하는 비약물 중재를 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "천식 물리치료 호흡 재훈련 무작위시험",
+   "doi": "10.1016/S2213-2600(17)30474-5",
+   "pmid": "29248433"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=breathing retraining · cond=Pulmonary Disease 32건",
+  "pubmed": "breathing retraining AND Pulmonary Disease 135건 · 2026-08-14 PubMed 초록 직접 확인: PMID 29248433",
+  "negative": "breathing retraining AND Pulmonary Disease AND (no effect OR did not OR failed OR no significant difference) 81건",
+  "safety": "breathing retraining AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 55건"
+ },
+ "vs": "디지털 호흡 재훈련 대 일반 관리: 12개월 AQLQ 조정 MD +0.28(95% CI 0.11~0.44); 대면 재훈련 대 일반 관리 +0.24(0.04~0.44), 총 655명"
 }

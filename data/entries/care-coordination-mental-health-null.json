@@ -1,28 +1,33 @@
 {
-  "id": "care-coordination-mental-health-null",
-  "subj": "care coordination",
-  "claim": "정신과 퇴원 뒤 돌봄 조정은 재입원을 줄이지 못했다.",
-  "line": "정신과 퇴원 후 돌봄 조정은 재입원 위험을 유의하게 줄이지 못했다.",
-  "effect": "재입원 RR 0.96",
-  "tier": "trial",
-  "dir": "null",
-  "n": 3663,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "돌봄 조정은 의약품 허가 적응증이 아닌 보건의료 서비스 중재다",
-  "why": "정신과 입원 뒤 사례관리·돌봄 조정·돌봄 계획·동료지지를 검토한 무작위시험 메타분석에서 재입원 감소가 유의하지 않았다.",
-  "saw": "12개 무작위시험, 3663명이 포함됐다. 표준진료 대비 재입원 위험비는 0.96(95% CI 0.86~1.08, p=.52)이었고 공통된 정신과 결과 개선도 없었다.",
-  "limit": "중재 기간과 구성요소가 달랐고 일부 하위군에서만 기간에 따른 효과 신호가 나타났다.",
-  "against": "전체 통합 결과는 재입원 감소를 뒷받침하지 않았다.",
-  "use": "정신과 퇴원 후 프로그램에서 재입원뿐 아니라 환자별 연속성과 참여도 함께 평가합니다.",
-  "refs": [
-    { "label": "Effectiveness of Interventions After Psychiatric Hospitalization 2026 · Psychiatric Services", "doi": "10.1176/appi.ps.20250201", "pmid": "41320836" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=care coordination AND condition=Mental Health; 121건 반환, 중재명 일치 2건",
-    "pubmed": "care coordination AND Mental Health; 7381건",
-    "negative": "care coordination AND Mental Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 3211건",
-    "safety": "care coordination AND (adverse OR toxicity OR case report OR harm OR dropout); 736건"
+ "id": "care-coordination-mental-health-null",
+ "subj": "돌봄 조정",
+ "claim": "정신과 퇴원 후 돌봄 조정은 재입원을 줄이는가",
+ "line": "정신과 퇴원 후 돌봄 조정 중재는 표준 치료보다 재입원을 유의하게 줄이지 못했다.",
+ "effect": "재입원 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 3663,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "돌봄 조정은 의약품 허가 적응증이 아닌 보건의료 서비스 중재다",
+ "why": "정신과 입원 뒤 사례관리·돌봄 조정·돌봄 계획·동료지지를 검토한 무작위시험 메타분석에서 재입원 감소가 유의하지 않았다.",
+ "saw": "12개 무작위시험 3,663명에서 표준 치료 대비 재입원 위험비 RR 0.96(95% CI 0.86~1.08, P=.52)으로 유의한 차이가 없었다.",
+ "limit": "중재 기간과 구성 요소가 달랐고 연구별 추적 기간의 차이가 결과에 영향을 줄 수 있다.",
+ "against": "돌봄 조정이 재입원 외의 환자 참여나 치료 연속성에 미치는 효과는 이 결과만으로 판단할 수 없다.",
+ "use": "정신과 퇴원 계획에서 재입원 감소 효과를 과장하지 않고 개별 환자 연속성을 함께 평가한다.",
+ "refs": [
+  {
+   "label": "Effectiveness of Interventions After Psychiatric Hospitalization 2026 · Psychiatric Services",
+   "doi": "10.1176/appi.ps.20250201",
+   "pmid": "41320836"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=care coordination AND condition=Mental Health; 121건 반환, 중재명 일치 2건",
+  "pubmed": "care coordination AND Mental Health; 7381건 · 2026-08-14 PubMed 초록 직접 확인: PMID 41320836",
+  "negative": "care coordination AND Mental Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 3211건",
+  "safety": "care coordination AND (adverse OR toxicity OR case report OR harm OR dropout); 736건"
+ },
+ "vs": "퇴원 후 돌봄 조정 대 표준 치료: 재입원 RR 0.96(95% CI 0.86~1.08,P=.52), 12개 무작위시험 3,663명"
 }

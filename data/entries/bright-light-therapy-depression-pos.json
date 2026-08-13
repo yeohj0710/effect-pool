@@ -1,32 +1,33 @@
 {
-  "id": "bright-light-therapy-depression-pos",
-  "subj": "bright light therapy",
-  "claim": "비계절성 우울장애에서 밝은 빛 치료를 항우울제에 더하자 관해·반응률과 우울 점수가 좋아졌다",
-  "line": "우울장애에서 밝은 빛 치료는 관해율과 반응률을 높였다.",
-  "effect": "관해·반응률 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 858,
-  "synth": "meta",
-  "why": "비계절성 우울장애 무작위 연구 11편, 858명을 묶은 체계적 문헌고찰·메타분석이다.",
-  "saw": "밝은 빛 치료군에서 관해와 반응률이 높고 우울 척도가 더 좋아졌다.",
-  "limit": "대부분 보조 치료 연구이고 빛의 세기와 치료 기간이 연구마다 달랐다.",
-  "against": "표준 항우울제 단독을 대체할 수 있는지는 확인되지 않았다.",
-  "use": "비계절성 우울장애에서 기존 치료에 더하는 보조 중재로만 검토한다.",
-  "refs": [
-    {
-      "label": "Bright Light Therapy for Nonseasonal Depressive Disorders: A Systematic Review and Meta-Analysis",
-      "doi": "10.1001/jamapsychiatry.2024.2871",
-      "pmid": "39356500"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=bright light therapy, cond=Depression · 17건 직접 확인",
-    "pubmed": "bright light therapy AND Depression · 748건",
-    "negative": "bright light therapy AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 1196건",
-    "safety": "bright light therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 16836건"
-  },
-  "known": "off",
-  "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목."
+ "id": "bright-light-therapy-depression-pos",
+ "subj": "광치료",
+ "claim": "비계절성 우울장애에서 밝은 빛 치료는 관해·반응률을 높이는가",
+ "line": "비계절성 우울장애에서 밝은 빛 치료가 희미한 빛 또는 항우울제 단독보다 관해·반응률을 높였다.",
+ "effect": "관해·반응률 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 858,
+ "synth": "meta",
+ "why": "비계절성 우울장애 무작위 연구 11편, 858명을 묶은 체계적 문헌고찰·메타분석이다.",
+ "saw": "11개 무작위시험 858명에서 관해율은 밝은 빛 치료 40.7% 대 대조군 23.5%(OR 2.42, 95% CI 1.50~3.91, P<.001), 반응률은 60.4% 대 38.6%(OR 2.34, 1.46~3.75, P<.001)였다.",
+ "limit": "비계절성 우울장애의 보조 치료 분석이며 연구 기간과 대조 조건이 달랐다.",
+ "against": "밝은 빛 치료는 항우울제 단독 치료의 대체제가 아니라 보조 치료로 평가됐다.",
+ "use": "우울장애 치료에서 광치료를 추가할지 결정할 때 전문 진료와 함께 참고한다.",
+ "refs": [
+  {
+   "label": "Bright Light Therapy for Nonseasonal Depressive Disorders: A Systematic Review and Meta-Analysis",
+   "doi": "10.1001/jamapsychiatry.2024.2871",
+   "pmid": "39356500"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=bright light therapy, cond=Depression · 17건 직접 확인",
+  "pubmed": "bright light therapy AND Depression · 748건 · 2026-08-14 PubMed 초록 직접 확인: PMID 39356500",
+  "negative": "bright light therapy AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 1196건",
+  "safety": "bright light therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 16836건"
+ },
+ "known": "off",
+ "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목.",
+ "vs": "밝은 빛 치료 대 희미한 빛·항우울제 단독: 관해 40.7% 대 23.5%, OR 2.42(95% CI 1.50~3.91,P<.001); 반응 60.4% 대 38.6%, OR 2.34(1.46~3.75,P<.001), 11개 시험 858명"
 }

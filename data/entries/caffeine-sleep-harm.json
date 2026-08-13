@@ -1,20 +1,33 @@
 {
-  "id": "caffeine-sleep-harm",
-  "subj": "caffeine",
-  "claim": "운동선수에서 고용량 카페인은 다음날 수면 질을 악화시켰다.",
-  "line": "저녁 카페인은 운동 후 수면의 질을 떨어뜨렸다.",
-  "effect": "수면 질 저하",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 13,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "카페인은 수면 개선의 허가 적응증이 아니며 저녁 수면을 방해할 수 있다.",
-  "why": "저녁에 카페인을 섭취한 운동선수와 위약을 비교한 무작위 교차시험이다.",
-  "saw": "남성 조정선수 13명이 위약과 카페인 3·6·9 mg/kg 조건을 각각 경험했다. 중·고용량 카페인은 운동 기록을 개선했지만 다음날 수면 질과 주간 졸림을 악화시켰고 고용량에서 두통·불면·위장 불편이 더 많았다.",
-  "limit": "표본이 13명인 운동선수 시험이고 주관적 수면 평가를 사용했다. 일반 성인이나 낮 시간 섭취에 그대로 적용할 수 없다.",
-  "against": "낮은 용량에서는 수면 방해가 적었지만 이 시험에서도 수면 개선 효과는 확인되지 않았다.",
-  "use": "카페인을 수면 목적으로 쓰려는 경우 운동 수행과 수면 손상을 분리해 설명한다.",
-  "refs": [{ "label": "저녁 카페인 용량별 조정 수행·수면 무작위 교차시험", "doi": "10.3389/fnut.2025.1659220", "pmid": "41477315" }],
-  "queried": { "date": "2026-08-06", "ctgov": "caffeine AND Sleep · 18건, 중재명 대조 후 18건", "pubmed": "caffeine AND Sleep · 2247편; caffeine sleep randomized placebo · 191편", "negative": "1596편", "safety": "caffeine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8253편" }
+ "id": "caffeine-sleep-harm",
+ "subj": "카페인",
+ "claim": "저녁 카페인은 수면을 방해하는가",
+ "line": "저녁 카페인은 운동 수행을 높였지만 중·고용량에서 수면의 질을 떨어뜨리고 주간 졸림을 늘렸다.",
+ "effect": "수면 질 저하",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 13,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "카페인은 수면 개선의 허가 적응증이 아니며 저녁 수면을 방해할 수 있다.",
+ "why": "저녁에 카페인을 섭취한 운동선수와 위약을 비교한 무작위 교차시험이다.",
+ "saw": "남성 조정선수 13명이 위약과 카페인 3·6·9mg/kg 조건을 각각 경험했다. 중·고용량 카페인은 조정 기록과 출력을 개선했지만 수면 질을 악화시키고 주간 졸림을 높였다. 고용량에서 두통·불면·위장 불편이 더 많았다.",
+ "limit": "표본이 13명인 젊은 남성 운동선수의 교차시험이라 일반 성인에게 그대로 적용할 수 없다.",
+ "against": "저용량에서는 수행 개선과 수면 방해가 모두 작았지만 수면 개선은 확인되지 않았다.",
+ "use": "저녁 카페인 섭취를 평가할 때 운동 수행 이득과 수면 손상을 함께 설명한다.",
+ "refs": [
+  {
+   "label": "저녁 카페인 용량별 조정 수행·수면 무작위 교차시험",
+   "doi": "10.3389/fnut.2025.1659220",
+   "pmid": "41477315"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "caffeine AND Sleep · 18건, 중재명 대조 후 18건",
+  "pubmed": "caffeine AND Sleep · 2247편; caffeine sleep randomized placebo · 191편 · 2026-08-14 PubMed 초록 직접 확인: PMID 41477315",
+  "negative": "1596편",
+  "safety": "caffeine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8253편"
+ },
+ "vs": "저녁 카페인 3·6·9mg/kg 대 위약: 중·고용량에서 조정 기록·출력 개선(P<.05), 수면 질 악화·주간 졸림 증가(P<.01, 효과크기 1.3~1.5), 고용량 두통·불면·위장 불편 증가(P<.05)"
 }

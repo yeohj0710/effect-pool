@@ -1,20 +1,33 @@
 {
-  "id": "breathing-exercises-heart-failure-pos",
-  "subj": "breathing exercises",
-  "claim": "심부전의 호흡곤란과 피로에 횡격막 호흡을 쓴다",
-  "line": "입원 심부전에서 횡격막 호흡은 피로·호흡곤란과 기능 등급을 개선했다.",
-  "effect": "중증 피로 30%p 감소, 호흡곤란 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심부전 치료는 횡격막 호흡운동의 허가 적응증이 아니다.",
-  "why": "입원한 심부전 환자에서 횡격막 호흡, 유발성 폐활량계, 일반 치료를 비교한 단일눈가림 무작위시험이다.",
-  "saw": "심부전 환자 90명을 세 군에 30명씩 배정해 10일 시행했다. 횡격막 호흡군에서 중증 피로 빈도가 30%p, 휴식·활동 시 호흡곤란과 NYHA III·IV 등급이 줄었다.",
-  "limit": "입원 환자 90명의 10일 연구이며 유발성 폐활량계도 비슷한 개선을 보여 횡격막 호흡만의 우월성은 없다.",
-  "against": "단기 기능 개선이 재입원이나 생존을 줄인다는 근거는 없다.",
-  "use": "심부전 입원 환자의 호흡 재활 계획에서 보조 호흡운동을 검토할 때 참고한다.",
-  "refs": [{ "label": "BMC Cardiovascular Disorders · 무작위시험", "doi": "10.1186/s12872-024-04464-z", "pmid": "39794689" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=breathing exercises, cond=Heart Failure · 123건", "pubmed": "breathing exercises AND Heart Failure · 164편", "negative": "breathing exercises AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 102편", "safety": "breathing exercises AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 964편" }
+ "id": "breathing-exercises-heart-failure-pos",
+ "subj": "호흡 운동",
+ "claim": "횡격막 호흡과 유인폐활량계는 심부전 환자의 호흡곤란·피로를 개선하는가",
+ "line": "입원 심부전 환자에서 횡격막 호흡과 유인폐활량계가 일반 관리보다 호흡곤란·피로를 줄였다.",
+ "effect": "호흡곤란·피로 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심부전 치료는 횡격막 호흡운동의 허가 적응증이 아니다.",
+ "why": "입원한 심부전 환자에서 횡격막 호흡, 유발성 폐활량계, 일반 치료를 비교한 단일눈가림 무작위시험이다.",
+ "saw": "심부전 환자 90명을 횡격막 호흡, 유인폐활량계, 대조군에 30명씩 배정했다. 중증 피로는 두 중재군에서 30% 감소했고, 안정 시 호흡곤란은 횡격막 호흡군 -0.7, 유인폐활량계군 -0.9, 활동 시 호흡곤란은 각각 -2.93, -2.73이었다(P<.001). NYHA III·IV 비율은 각각 30%, 33.3% 감소했다.",
+ "limit": "세 군 각 30명인 입원 환자 시험이며 두 호흡 중재군 사이에는 유의한 차이가 없었다.",
+ "against": "대조군에서는 피로와 호흡곤란의 유의한 감소가 확인되지 않았다.",
+ "use": "입원 심부전 환자의 보조 호흡 훈련을 검토할 때 참고하되 표준 심부전 치료를 대체하지 않는다.",
+ "refs": [
+  {
+   "label": "BMC Cardiovascular Disorders · 무작위시험",
+   "doi": "10.1186/s12872-024-04464-z",
+   "pmid": "39794689"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=breathing exercises, cond=Heart Failure · 123건",
+  "pubmed": "breathing exercises AND Heart Failure · 164편 · 2026-08-14 PubMed 초록 직접 확인: PMID 39794689",
+  "negative": "breathing exercises AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 102편",
+  "safety": "breathing exercises AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 964편"
+ },
+ "vs": "횡격막 호흡 30명·유인폐활량계 30명 대 일반 관리 대조군 30명: 중증 피로 30% 감소, 안정 시 호흡곤란 -0.7·-0.9, 활동 시 -2.93·-2.73, NYHA III·IV 30%·33.3% 감소(P<.001)"
 }

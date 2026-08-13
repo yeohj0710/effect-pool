@@ -1,32 +1,33 @@
 {
-  "id": "bright-light-therapy-cancer-pos",
-  "subj": "bright light therapy",
-  "claim": "암 환자에서 밝은 빛 치료가 암 관련 피로를 줄였지만 우울·수면·삶의 질 효과는 일관되지 않았다",
-  "line": "암 환자의 암 관련 피로는 밝은 빛 치료 후 줄었다.",
-  "effect": "암 관련 피로 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 691,
-  "synth": "meta",
-  "why": "암 관련 피로 밝은 빛 치료 무작위 연구 12편, 691명을 묶은 메타분석이다.",
-  "saw": "암 관련 피로와 불면이 줄었지만 우울과 삶의 질은 유의하게 좋아지지 않았다.",
-  "limit": "연구 간 이질성이 높고 암 종류, 빛의 세기, 기간이 서로 달랐다.",
-  "against": "피로 감소가 암 치료 성적이나 생존을 개선한다는 근거는 없다.",
-  "use": "암 치료 중 피로 완화에 더하는 저위험 보조 중재로만 검토한다.",
-  "refs": [
-    {
-      "label": "Effect of bright light therapy on cancer-related fatigue and related symptoms: A systematic review and meta-analysis of randomized controlled trials",
-      "doi": "10.1016/j.ctim.2023.102195",
-      "pmid": "37797569"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=bright light therapy, cond=Cancer · 7건 직접 확인",
-    "pubmed": "bright light therapy AND Cancer · 2705건",
-    "negative": "bright light therapy AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 21031건",
-    "safety": "bright light therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 16836건"
-  },
-  "known": "off",
-  "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목."
+ "id": "bright-light-therapy-cancer-pos",
+ "subj": "광치료",
+ "claim": "암 관련 피로에서 밝은 빛 치료는 피로를 줄이는가",
+ "line": "암 환자 12개 시험 종합에서 밝은 빛 치료가 대조 조건보다 암 관련 피로를 줄였다.",
+ "effect": "암 관련 피로 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 691,
+ "synth": "meta",
+ "why": "암 관련 피로 밝은 빛 치료 무작위 연구 12편, 691명을 묶은 메타분석이다.",
+ "saw": "12개 시험 691명에서 암 관련 피로 SMD -0.92(95% CI -1.45~-0.40, P<.00001, I²=90%)였고 불면도 SMD -2.80(-4.61~-0.98)였다. 수면의 질·우울·삶의 질은 유의하게 개선되지 않았다.",
+ "limit": "암 관련 피로 분석의 이질성이 높았고(I²=90%) 중재 강도와 기간이 달랐다.",
+ "against": "수면의 질·우울·삶의 질 개선은 유의하지 않았다.",
+ "use": "암 환자의 피로 관리에서 보조 광치료 후보를 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Effect of bright light therapy on cancer-related fatigue and related symptoms: A systematic review and meta-analysis of randomized controlled trials",
+   "doi": "10.1016/j.ctim.2023.102195",
+   "pmid": "37797569"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=bright light therapy, cond=Cancer · 7건 직접 확인",
+  "pubmed": "bright light therapy AND Cancer · 2705건 · 2026-08-14 PubMed 초록 직접 확인: PMID 37797569",
+  "negative": "bright light therapy AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 21031건",
+  "safety": "bright light therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 16836건"
+ },
+ "known": "off",
+ "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목.",
+ "vs": "밝은 빛 치료 대 대조 조건: 암 관련 피로 SMD -0.92(95% CI -1.45~-0.40,P<.00001,I²=90%), 불면 -2.80(-4.61~-0.98), 12개 시험 691명"
 }

@@ -1,20 +1,38 @@
 {
-  "id": "capsaicin-cough-pos",
-  "subj": "캡사이신",
-  "claim": "캡사이신의 기침 유발 작용을 뇌졸중 환자의 객담 배출에 쓴다",
-  "line": "기관절개 뇌졸중 환자에게 캡사이신으로 기침을 유발하자 객담 배출이 늘었습니다",
-  "effect": "기침 유발·객담 배출 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 63,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "캡사이신의 기침 유발을 객담 배출에 쓰는 것은 허가 적응증이 아닌 재활 중재입니다",
-  "why": "캡사이신의 이상반응인 기침을 객담 배출에 이용한 무작위시험입니다.",
-  "saw": "출혈성 뇌졸중 뒤 기관절개를 받은 환자 63명이 일반 치료군과 캡사이신 분무군으로 나뉘었습니다. 캡사이신군은 객담 배출량이 늘고 흡인 횟수가 줄었으며 폐 감염 점수도 좋아졌습니다.",
-  "limit": "단일 병원 시험이고 캡사이신의 기침 유발을 이용한 중재라 일반 기침 치료와 다릅니다.",
-  "against": "다른 시험에서는 기침 반사와 연하 반사의 군 간 차이가 뚜렷하지 않았습니다.",
-  "use": "부작용인 기침을 재활 자극으로 전환한 사례로 기록하며 의료진 감독 없는 사용으로 확대하지 않습니다.",
-  "refs": [{ "label": "캡사이신 유발 기침과 객담 배출 무작위시험", "doi": "10.1044/2021_JSLHR-21-00151", "pmid": "34694869" }, { "label": "캡사이신 분무와 연하 기능 무작위시험", "doi": "10.1044/2022_JSLHR-22-00296", "pmid": "36716393" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=capsaicin · cond=Cough 31건 반환·intervention 일치 14건", "pubmed": "capsaicin AND Cough 872편; capsaicin cough randomized human 129편", "negative": "capsaicin AND Cough AND (no effect OR did not OR failed OR negative OR no significant difference) 252편", "safety": "capsaicin AND (adverse OR toxicity OR case report OR overdose OR self-medication) 2965편" }
+ "id": "capsaicin-cough-pos",
+ "subj": "캡사이신",
+ "claim": "캡사이신 원자화는 기침과 기도 분비물 관리를 개선하는가",
+ "line": "캡사이신 원자화는 일반 관리보다 기침·객담 관리 지표를 개선했지만 결과가 지표별로 달랐다.",
+ "effect": "기침·기도 분비물 관리 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 63,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "캡사이신의 기침 유발을 객담 배출에 쓰는 것은 허가 적응증이 아닌 재활 중재입니다",
+ "why": "캡사이신의 이상반응인 기침을 객담 배출에 이용한 무작위시험입니다.",
+ "saw": "한 무작위시험에서 캡사이신군 30명과 대조군 33명을 비교해 객담량, 흡인 횟수, 임상폐감염점수(CPIS)가 개선됐고 활력징후 차이는 없었다(P<.05). 별도 53명 시험에서는 기침 정도 P=.046, 삼킴 후 잔류 P=.032, SP P=.031이었지만 CPIS는 대조군이 더 낮았다(P=.028).",
+ "limit": "두 소규모 시험의 대상과 평가 지표가 달랐고 캡사이신이 모든 기도 관리 지표를 개선하지는 않았다.",
+ "against": "별도 시험에서 CPIS는 대조군이 더 낮아 결과가 일관되지 않았다.",
+ "use": "연하·기도 분비물 평가의 보조 자극으로만 검토하고 임상 상태를 함께 모니터링한다.",
+ "refs": [
+  {
+   "label": "캡사이신 유발 기침과 객담 배출 무작위시험",
+   "doi": "10.1044/2021_JSLHR-21-00151",
+   "pmid": "34694869"
+  },
+  {
+   "label": "캡사이신 분무와 연하 기능 무작위시험",
+   "doi": "10.1044/2022_JSLHR-22-00296",
+   "pmid": "36716393"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=capsaicin · cond=Cough 31건 반환·intervention 일치 14건",
+  "pubmed": "capsaicin AND Cough 872편; capsaicin cough randomized human 129편 · 2026-08-14 PubMed 초록 직접 확인: PMID 34694869, 36716393",
+  "negative": "capsaicin AND Cough AND (no effect OR did not OR failed OR negative OR no significant difference) 252편",
+  "safety": "capsaicin AND (adverse OR toxicity OR case report OR overdose OR self-medication) 2965편"
+ },
+ "vs": "캡사이신 대비 일반 관리: 30명 대 33명 시험에서 객담량·흡인 횟수·CPIS 개선(P<.05); 별도 시험 기침 P=.046, 삼킴 후 잔류 P=.032, SP P=.031, CPIS는 대조군 우세(P=.028)"
 }

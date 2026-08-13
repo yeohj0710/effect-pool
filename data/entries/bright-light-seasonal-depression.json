@@ -1,30 +1,31 @@
 {
-  "id": "bright-light-seasonal-depression",
-  "subj": "광치료",
-  "claim": "계절성 우울에 듣는다",
-  "line": "계절성 정동장애에서 밝은 빛 치료는 우울 증상을 줄였다.",
-  "effect": "우울 증상↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 610,
-  "synth": "meta",
-  "why": "계절성 정동장애 환자를 밝은 광치료와 대조 광원에 무작위로 나눈 시험의 메타분석입니다.",
-  "saw": "무작위시험 메타분석은 밝은 광치료가 대조 조건보다 우울 증상을 줄이는 방향이라고 보고했습니다.",
-  "limit": "시험 규모와 광원·대조 조건이 달랐고 비계절성 우울이나 조울증에는 결과를 그대로 적용할 수 없습니다.",
-  "against": "일부 시험에서는 위약 광원과 차이가 작았고 연구자 눈가림이 어려워 기대 효과가 개입될 수 있습니다.",
-  "use": "계절성 정동장애 결과를 모든 우울증의 단독 치료 효과로 확대하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Pjrek 2020 · Psychother Psychosom · 계절성 우울 광치료 메타분석",
-      "doi": "10.1159/000502891",
-      "pmid": "31574513"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=bright light therapy, cond=seasonal affective disorder → 12건 반환, InterventionName 대조 후 9건",
-    "pubmed": "bright light therapy seasonal affective disorder randomized placebo trial meta-analysis → 7건",
-    "negative": "bright light seasonal affective disorder AND (no effect OR did not OR failed to OR negative) → 282건",
-    "safety": "bright light therapy seasonal depression AND (adverse OR mania OR eye OR case report) → 177건"
+ "id": "bright-light-seasonal-depression",
+ "subj": "광치료",
+ "claim": "계절성 정동장애에서 밝은 빛 치료는 위약보다 효과적인가",
+ "line": "계절성 정동장애 19개 무작위시험 종합에서 밝은 빛 치료가 위약보다 우울 점수와 반응률을 개선했다.",
+ "effect": "우울 증상·반응률 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 610,
+ "synth": "meta",
+ "why": "계절성 정동장애 환자를 밝은 광치료와 대조 광원에 무작위로 나눈 시험의 메타분석입니다.",
+ "saw": "19개 연구 중 18개(610명)에서 우울 점수 표준화 평균차 SMD -0.37(95% CI -0.63~-0.12), 16개(559명)에서 반응률 RR 1.42(1.08~1.85)였다.",
+ "limit": "연구별 표본이 작거나 중간 규모였고 중재 방식과 연구 질의 이질성이 있었다.",
+ "against": "밝은 빛의 강도·기기와 대조 조건이 연구마다 달랐다.",
+ "use": "계절성 정동장애에서 광치료를 검토할 때 전문 평가와 함께 참고한다.",
+ "refs": [
+  {
+   "label": "Pjrek 2020 · Psychother Psychosom · 계절성 우울 광치료 메타분석",
+   "doi": "10.1159/000502891",
+   "pmid": "31574513"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=bright light therapy, cond=seasonal affective disorder → 12건 반환, InterventionName 대조 후 9건",
+  "pubmed": "bright light therapy seasonal affective disorder randomized placebo trial meta-analysis → 7건 · 2026-08-14 PubMed 초록 직접 확인: PMID 31574513",
+  "negative": "bright light seasonal affective disorder AND (no effect OR did not OR failed to OR negative) → 282건",
+  "safety": "bright light therapy seasonal depression AND (adverse OR mania OR eye OR case report) → 177건"
+ },
+ "vs": "밝은 빛 치료 대 희미한 빛·위약: 우울 점수 SMD -0.37(95% CI -0.63~-0.12), 반응률 RR 1.42(1.08~1.85), 19개 연구 610명"
 }

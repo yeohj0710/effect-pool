@@ -1,28 +1,34 @@
 {
-  "id": "care-navigation-hiv-obs",
-  "subj": "care navigation",
-  "claim": "HIV 환자 길찾기 지원은 진료 연결과 바이러스 억제를 높일 수 있다.",
-  "line": "HIV 진료 연결과 바이러스 억제가 높아졌다.",
-  "effect": "진료연결 5/6 연구",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 환자지원 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "미국 HIV 환자 길찾기 지원과 진료 연속성 결과의 연관성을 조사한 연구를 체계적으로 검토했습니다.",
-  "saw": "20편 중 17편이 양의 연관성을 보고했고 진료연결은 6편 중 5편, 바이러스 억제는 15편 중 11편에서 좋아졌습니다.",
-  "limit": "대부분 연구의 질이 낮았고 무작위시험은 3편뿐이어서 인과효과는 확정할 수 없습니다.",
-  "against": "항레트로바이러스제 시작과 복약순응도에서는 양의 연관성을 보고한 연구가 적었습니다.",
-  "use": "HIV 진료 이탈 환자의 진료 연결을 돕는 환자지원 프로그램으로 검토합니다.",
-  "refs": [
-    { "label": "HIV 환자 길찾기와 진료 연속성 체계적 문헌고찰", "doi": "10.1097/QAD.0000000000001987", "pmid": "30102661", "pmc": "PMC6724743" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=care navigation AND condition=HIV; 116건",
-    "pubmed": "care navigation AND HIV; 1098건",
-    "negative": "care navigation AND HIV AND (no effect OR did not OR failed OR negative OR no significant difference); 210건",
-    "safety": "care navigation AND (adverse OR toxicity OR case report OR harm OR dropout); 2260건"
+ "id": "care-navigation-hiv-obs",
+ "subj": "돌봄 연계",
+ "claim": "HIV 돌봄 연계는 진료 연결과 바이러스 억제를 개선하는가",
+ "line": "HIV 돌봄 연계 프로그램은 진료 연결과 바이러스 억제에 긍정적 신호를 보였지만 근거는 약했다.",
+ "effect": "진료 연결·바이러스 억제 신호",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 환자지원 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "미국 HIV 환자 길찾기 지원과 진료 연속성 결과의 연관성을 조사한 연구를 체계적으로 검토했습니다.",
+ "saw": "20개 연구 중 17개에서 하나 이상의 긍정적 결과를 보고했다. 진료 연결은 6개 중 5개, 치료 유지는 11개 중 10개, 바이러스 억제는 15개 중 11개, 항레트로바이러스 치료 시작은 4개 중 1개, 복약 순응도는 4개 중 2개에서 긍정적이었다.",
+ "limit": "대부분 단일군 또는 관찰 연구였고 통합 상대효과나 강한 무작위 근거가 제한적이었다.",
+ "against": "항레트로바이러스 치료 시작과 복약 순응도는 긍정적 연구 비율이 낮았다.",
+ "use": "HIV 진료 연계 프로그램을 설계할 때 가능한 효과 신호로 참고하되 확정적 효과로 해석하지 않는다.",
+ "refs": [
+  {
+   "label": "HIV 환자 길찾기와 진료 연속성 체계적 문헌고찰",
+   "doi": "10.1097/QAD.0000000000001987",
+   "pmid": "30102661",
+   "pmc": "PMC6724743"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intervention=care navigation AND condition=HIV; 116건",
+  "pubmed": "care navigation AND HIV; 1098건 · 2026-08-14 PubMed 초록 직접 확인: PMID 30102661",
+  "negative": "care navigation AND HIV AND (no effect OR did not OR failed OR negative OR no significant difference); 210건",
+  "safety": "care navigation AND (adverse OR toxicity OR case report OR harm OR dropout); 2260건"
+ },
+ "vs": "HIV 돌봄 연계에서 긍정 보고 비율이 높았던 결과: 진료 연결 5/6, 치료 유지 10/11, 바이러스 억제 11/15, 항레트로바이러스 치료 시작 1/4, 복약 순응도 2/4"
 }
