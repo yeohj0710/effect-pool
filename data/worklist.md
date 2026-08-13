@@ -2344,10 +2344,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] posaconazole — Myelodysplastic Syndrome에 듣는다  <!-- 등록 시험 8건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(posaconazole-myelodysplastic-syndrome-pos)
 - [x] caspofungin — Infection에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(caspofungin-infection-pos)
 - [x] caspofungin — Candidiasis에 듣는다  <!-- 등록 시험 21건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  → 신규 근거(caspofungin-candidiasis-null)
-- [ ] caspofungin — Aspergillosis에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] caspofungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] caspofungin — Aspergillosis에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(caspofungin-aspergillosis-pos)
+- [x] caspofungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(caspofungin-candidemia-pos)
 - [x] micafungin — Fungal Disease에 듣는다  <!-- 등록 시험 8건 -->
-- [ ] micafungin — Candidemia에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] micafungin — Candidemia에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(micafungin-fungal-disease-pos)
 - [x] micafungin — Liver Transplantation에 듣는다  <!-- 등록 시험 5건 -->
 - [x] micafungin — Aspergillosis에 듣는다  <!-- 등록 시험 4건 -->
 
@@ -2360,9 +2360,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] isavuconazole — Aspergillosis에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isavuconazole — Aspergillosis에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ? ??(isavuconazole-aspergillosis-pos)
 - [x] isavuconazole — Fungal Infection에 듣는다  <!-- 등록 시험 6건 -->
-- [ ] isavuconazole — Mucormycosis에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] isavuconazole — Mucormycosis에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(2026-08-13, ClinicalTrials.gov?PubMed?? ???-??? ?? ??? ???? ??; ??? ?? ??? ??)
 - [x] isavuconazole — Lung Transplantation에 듣는다  <!-- 등록 시험 4건 -->
 - [x] terbinafine — Tinea에 듣는다  <!-- 등록 시험 11건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(terbinafine-tinea-pedis-pos)
 - [x] terbinafine — Fungal Resistance에 듣는다  <!-- 등록 시험 3건 --> — 조사 제외(질환 아님)
@@ -2375,7 +2375,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] flucytosine — Glioblastoma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] flucytosine — Brain Cancer에 듣는다  <!-- 등록 시험 4건 -->
 - [x] anidulafungin — Aspergillosis에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] anidulafungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] anidulafungin — Candidemia에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(anidulafungin-fungemia-pos)
 - [x] anidulafungin — Infection에 듣는다  <!-- 등록 시험 5건 -->
 - [x] anidulafungin — Fungemia에 듣는다  <!-- 등록 시험 3건 -->
 
@@ -2411,7 +2411,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(amitriptyline-pain-null)
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
@@ -2430,29 +2430,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(doxycycline-periodontitis-adjunct)
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(colchicine-covid-null)
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-lung-cancer-open)
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Weight Loss에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
@@ -2472,14 +2472,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -2641,7 +2641,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -2660,27 +2660,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -2702,14 +2702,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -2871,7 +2871,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -2900,19 +2900,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 -->
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
@@ -2932,14 +2932,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -3101,7 +3101,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
@@ -3120,29 +3120,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
@@ -3162,14 +3162,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -3331,7 +3331,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
@@ -3350,29 +3350,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
@@ -3392,14 +3392,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -3561,7 +3561,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
@@ -3580,29 +3580,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 -->
@@ -3622,14 +3622,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -3791,7 +3791,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -3810,27 +3810,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -3852,14 +3852,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -4076,7 +4076,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -4095,27 +4095,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -4137,14 +4137,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -4336,7 +4336,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -4355,27 +4355,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -4397,14 +4397,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -4596,7 +4596,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(amitriptyline-pain-null)
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
@@ -4615,27 +4615,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(colchicine-covid-null)
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-lung-cancer-open)
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(semaglutide-alcohol-use-disorder)
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 --> — 기존 항목(ketamine-depression-null)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 --> — 기존 항목(ketamine-major-surgery-null)
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(ketamine-analgesia)
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(prazosin-alcohol-abuse-pos)
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(prazosin-sleep-disorders)
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(prazosin-alcohol-use-disorder)
 - [x] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 --> — 기존 항목(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(thalidomide-lymphoma)
@@ -4657,14 +4657,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(minoxidil-grey-hair-case)
 - [x] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(minoxidil-thin-eyebrow)
-- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(bupropion-cocaine-dependence-null)
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 --> — 기존 항목(sildenafil-renal-dysfunction-null)
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(sildenafil-ivf-failure-null)
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(sildenafil-cancer-null)
-- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(bimatoprost-alopecia-null)
 - [ ] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -4868,7 +4868,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(amitriptyline-pain-null)
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
@@ -4887,27 +4887,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(colchicine-covid-null)
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 등록 시험 100건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 등록 시험 66건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-lung-cancer-open)
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(dapagliflozin-myocardial-infarct-null)
-- [ ] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 등록 시험 205건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다  <!-- 등록 시험 42건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다  <!-- 등록 시험 29건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 등록 시험 23건 --> — 기존 항목(semaglutide-alcohol-use-disorder)
 - [x] ketamine — Depression에 듣는다  <!-- 등록 시험 110건 --> — 기존 항목(ketamine-depression-null)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 등록 시험 71건 --> — 기존 항목(ketamine-major-surgery-null)
 - [x] ketamine — Analgesia에 듣는다  <!-- 등록 시험 32건 --> — 기존 항목(ketamine-analgesia)
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ketamine — Anesthesia에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 등록 시험 11건 --> — 기존 항목(prazosin-alcohol-abuse-pos)
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 등록 시험 5건 --> — 기존 항목(prazosin-sleep-disorders)
-- [ ] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] prazosin — Hypertension에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(prazosin-alcohol-use-disorder)
 - [x] thalidomide — Cancer에 듣는다  <!-- 등록 시험 62건 --> — 기존 항목(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(thalidomide-lymphoma)
@@ -4929,14 +4929,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(minoxidil-grey-hair-case)
 - [x] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(minoxidil-thin-eyebrow)
-- [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(bupropion-cocaine-dependence-null)
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 등록 시험 70건 --> — 기존 항목(sildenafil-renal-dysfunction-null)
 - [x] sildenafil — IVF Failure에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(sildenafil-ivf-failure-null)
 - [x] sildenafil — Cancer에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(sildenafil-cancer-null)
-- [ ] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] sildenafil — Impotence에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 등록 시험 82건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(bimatoprost-alopecia-null)
 - [x] bimatoprost — Hypotrichosis에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(bimatoprost-eyelash-hypotrichosis)
@@ -5098,7 +5098,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(amitriptyline-pain-null)
 - [x] amitriptyline — Headache에 듣는다  <!-- 등록 시험 10건 --> — 기존 항목(amitriptyline-headache)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
@@ -5117,29 +5117,29 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
 - [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(colchicine-myocardial-injury-open)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(colchicine-atrial-flutter-null)
 - [x] colchicine — COVID에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(colchicine-covid-null)
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Weight Loss에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
-- [ ] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 -->
+- [x] thalidomide — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 62건 --> — ?? ??(thalidomide-cancer-null)
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
 - [x] thalidomide — Leukemia에 듣는다 — 기존 항목(thalidomide-leukemia-null)  <!-- 등록 시험 19건 -->
 - [x] thalidomide — Esophageal Carcinoma에 듣는다 — 기존 항목(thalidomide-esophageal-carcinoma-null)  <!-- 등록 시험 16건 -->
@@ -5159,14 +5159,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -5438,7 +5438,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -5457,27 +5457,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [ ] ketamine — Major Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -5499,14 +5499,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
@@ -5676,7 +5676,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -5710,7 +5710,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -5729,27 +5729,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -5771,14 +5771,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 14건 -->
@@ -5940,7 +5940,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -5959,27 +5959,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -6001,14 +6001,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 14건 -->
@@ -6171,7 +6171,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -6190,27 +6190,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -6232,14 +6232,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [x] bimatoprost — Hypotrichosis에 듣는다 — 기존 항목(bimatoprost-eyelash-hypotrichosis)  <!-- 등록 시험 14건 -->
@@ -6453,7 +6453,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 등록 시험 21건 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 등록 시험 10건 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
@@ -6472,27 +6472,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-myocardial-injury-open)  <!-- 등록 시험 29건 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 등록 시험 25건 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 등록 시험 21건 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 100건 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 66건 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 등록 시험 23건 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 등록 시험 23건 -->
-- [ ] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 -->
+- [x] semaglutide — Obesity에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 205건 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 42건 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 29건 -->
 - [x] semaglutide — Alcohol에 듣는다 — 기존 항목(semaglutide-alcohol-use-disorder)  <!-- 등록 시험 23건 -->
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 등록 시험 110건 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 등록 시험 71건 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 등록 시험 32건 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 등록 시험 11건 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 등록 시험 5건 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 등록 시험 4건 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 등록 시험 62건 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 등록 시험 22건 -->
@@ -6514,14 +6514,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 등록 시험 37건 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 등록 시험 70건 -->
 - [x] sildenafil — IVF Failure에 듣는다 — 기존 항목(sildenafil-ivf-failure-null)  <!-- 등록 시험 30건 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 등록 시험 22건 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 82건 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 등록 시험 15건 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 14건 -->
@@ -6683,7 +6683,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 기존 항목(amitriptyline-pain-null)  <!-- 시험 21건 · 논문 2029편 -->
 - [x] amitriptyline — Headache에 듣는다 — 기존 항목(amitriptyline-headache)  <!-- 시험 10건 · 논문 628편 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 226편 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
@@ -6701,14 +6701,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 기존 항목(colchicine-atrial-flutter-null)  <!-- 시험 25건 · 논문 8편 -->
 - [x] colchicine — COVID에 듣는다 — 기존 항목(colchicine-covid-null)  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 749편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 749편 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 기존 항목(dapagliflozin-lung-cancer-open)  <!-- 시험 23건 · 논문 18편 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 기존 항목(dapagliflozin-myocardial-infarct-null)  <!-- 시험 23건 · 논문 275편 -->
 - [x] semaglutide — Obesity에 듣는다 — 기존 항목(semaglutide-obesity-weight-loss)  <!-- 시험 205건 · 논문 2692편 -->
@@ -6718,10 +6718,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Depression에 듣는다 — 기존 항목(ketamine-depression-null)  <!-- 시험 110건 · 논문 6672편 -->
 - [x] ketamine — Major Surgery에 듣는다 — 기존 항목(ketamine-major-surgery-null)  <!-- 시험 71건 · 논문 582편 -->
 - [x] ketamine — Analgesia에 듣는다 — 기존 항목(ketamine-analgesia)  <!-- 시험 32건 · 논문 3573편 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 기존 항목(prazosin-alcohol-abuse-pos)  <!-- 시험 11건 · 논문 82편 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 기존 항목(prazosin-sleep-disorders)  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 기존 항목(prazosin-alcohol-use-disorder)  <!-- 시험 4건 · 논문 90편 -->
 - [x] thalidomide — Cancer에 듣는다 — 기존 항목(thalidomide-cancer-null)  <!-- 시험 62건 · 논문 6729편 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 기존 항목(thalidomide-lymphoma)  <!-- 시험 22건 · 논문 1012편 -->
@@ -6740,13 +6740,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 기존 항목(bupropion-cocaine-dependence-null)  <!-- 시험 37건 · 논문 60편 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 기존 항목(sildenafil-renal-dysfunction-null)  <!-- 시험 70건 · 논문 158편 -->
 - [x] sildenafil — Cancer에 듣는다 — 기존 항목(sildenafil-cancer-null)  <!-- 시험 22건 · 논문 531편 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 82건 · 논문 637편 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 기존 항목(bimatoprost-alopecia-null)  <!-- 시험 15건 · 논문 53편 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 76편 -->
@@ -6862,7 +6862,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
 - [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 --> — 기존 항목(trazodone-major-depressive-disorder-open)
@@ -6905,7 +6905,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 --> — 이미 수록됨(2026-08-05)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
@@ -6923,27 +6923,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 --> — 이미 수록됨(2026-08-05)
 - [x] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 --> — 이미 수록됨(2026-08-05)
-- [ ] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 --> — 이미 수록됨(2026-08-05)
-- [ ] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] colchicine — Gout에 듣는다  <!-- 시험 35건 · 논문 2229편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 --> — 이미 수록됨(2026-08-05)
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
 - [x] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 --> — 이미 수록됨(2026-08-05)
-- [ ] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 749편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] dapagliflozin — Heart Failure에 듣는다  <!-- 시험 100건 · 논문 1493편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다  <!-- 시험 66건 · 논문 749편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 --> — 이미 수록됨(2026-08-05)
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 --> — 이미 수록됨(2026-08-05)
-- [ ] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2692편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2692편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(semaglutide-obesity-weight-loss)
+- [x] semaglutide — Overweight에 듣는다  <!-- 시험 42건 · 논문 1471편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [ ] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1956편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 --> — 이미 수록됨(2026-08-05)
 - [x] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 --> — 이미 수록됨(2026-08-05)
 - [x] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 --> — 이미 수록됨(2026-08-05)
 - [x] ketamine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 3573편 --> — 이미 수록됨(2026-08-05)
-- [ ] ketamine — Anesthesia에 듣는다  <!-- 시험 30건 · 논문 11112편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ketamine — Anesthesia에 듣는다  <!-- 시험 30건 · 논문 11112편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 82편 --> — 이미 수록됨(2026-08-05)
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 시험 5건 · 논문 179편 --> — 이미 수록됨(2026-08-05)
-- [ ] prazosin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 2690편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] prazosin — Hypertension에 듣는다  <!-- 시험 5건 · 논문 2690편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 --> — 이미 수록됨(2026-08-05)
 - [x] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 --> — 이미 수록됨(2026-08-05)
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 --> — 이미 수록됨(2026-08-05)
@@ -6962,13 +6962,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 --> — 이미 수록됨(2026-08-05)
 - [x] minoxidil — Baldness에 듣는다  <!-- 시험 6건 · 논문 1822편 --> — 이미 수록됨(2026-08-05)
-- [ ] bupropion — Major Depression에 듣는다  <!-- 시험 63건 · 논문 845편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] bupropion — Depression에 듣는다  <!-- 시험 41건 · 논문 1983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] bupropion — Major Depression에 듣는다  <!-- 시험 63건 · 논문 845편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다  <!-- 시험 41건 · 논문 1983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 시험 37건 · 논문 60편 --> — 이미 수록됨(2026-08-05)
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 시험 70건 · 논문 158편 --> — 이미 수록됨(2026-08-05)
 - [x] sildenafil — Cancer에 듣는다  <!-- 시험 22건 · 논문 531편 --> — 이미 수록됨(2026-08-05)
-- [ ] sildenafil — Impotence에 듣는다  <!-- 시험 18건 · 논문 3307편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] sildenafil — Impotence에 듣는다  <!-- 시험 18건 · 논문 3307편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다  <!-- 시험 82건 · 논문 637편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] bimatoprost — Alopecia에 듣는다  <!-- 시험 15건 · 논문 53편 --> — 이미 수록됨(2026-08-05)
 - [x] bimatoprost — Hypotrichosis에 듣는다  <!-- 시험 14건 · 논문 76편 --> — 이미 수록됨(2026-08-05)
@@ -7261,7 +7261,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다  <!-- 시험 21건 · 논문 2029편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Headache에 듣는다  <!-- 시험 10건 · 논문 628편 --> — 이미 수록됨(2026-08-05)
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 227편 --> — 이미 수록됨(2026-08-05)
-- [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
 - [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
@@ -7278,27 +7278,27 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다  <!-- 시험 29건 · 논문 140편 -->
 - [x] colchicine — Atrial Flutter에 듣는다  <!-- 시험 25건 · 논문 8편 -->
 - [x] colchicine — COVID에 듣는다  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다  <!-- 시험 23건 · 논문 18편 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다  <!-- 시험 23건 · 논문 275편 -->
 - [x] semaglutide — Obesity에 듣는다  <!-- 시험 205건 · 논문 2693편 -->
-- [ ] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 42건 · 논문 1471편 -->
+- [x] semaglutide — Overweight에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 42건 · 논문 1471편 --> — ?? ??(semaglutide-obesity-weight-loss)
 - [x] semaglutide — Weight Loss에 듣는다  <!-- 시험 29건 · 논문 1957편 -->
 - [x] semaglutide — Alcohol에 듣는다  <!-- 시험 23건 · 논문 132편 -->
 - [x] ketamine — Depression에 듣는다  <!-- 시험 110건 · 논문 6672편 -->
 - [x] ketamine — Major Surgery에 듣는다  <!-- 시험 71건 · 논문 582편 -->
 - [x] ketamine — Analgesia에 듣는다  <!-- 시험 32건 · 논문 3573편 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다  <!-- 시험 11건 · 논문 82편 -->
 - [x] prazosin — Sleep Disorders에 듣는다  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다  <!-- 시험 4건 · 논문 90편 -->
 - [x] thalidomide — Cancer에 듣는다  <!-- 시험 62건 · 논문 6729편 -->
 - [x] thalidomide — Lymphoma에 듣는다  <!-- 시험 22건 · 논문 1012편 -->
@@ -7315,9 +7315,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Infection에 듣는다  <!-- 시험 10건 · 논문 1621편 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 시험 13건 · 논문 8편 -->
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Tobacco Use에 듣는다  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다  <!-- 시험 37건 · 논문 60편 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다  <!-- 시험 70건 · 논문 158편 -->
 - [x] sildenafil — Cancer에 듣는다  <!-- 시험 22건 · 논문 531편 -->
@@ -7471,7 +7471,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 이미 수록됨(amitriptyline-pain-null)  <!-- 시험 21건 · 논문 2029편 -->
 - [x] amitriptyline — Headache에 듣는다 — 이미 수록됨(amitriptyline-headache)  <!-- 시험 10건 · 논문 628편 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 이미 수록됨(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 227편 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 이미 수록됨(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 이미 수록됨(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
@@ -7489,14 +7489,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 이미 수록됨(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 이미 수록됨(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 이미 수록됨(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 이미 수록됨(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 이미 수록됨(colchicine-atrial-flutter-null)  <!-- 시험 25건 · 논문 8편 -->
 - [x] colchicine — COVID에 듣는다 — 이미 수록됨(colchicine-covid-null)  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 이미 수록됨(dapagliflozin-lung-cancer-open)  <!-- 시험 23건 · 논문 18편 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 이미 수록됨(dapagliflozin-myocardial-infarct-null)  <!-- 시험 23건 · 논문 275편 -->
 - [x] semaglutide — Obesity에 듣는다 — 이미 수록됨(semaglutide-obesity-weight-loss)  <!-- 시험 205건 · 논문 2693편 -->
@@ -7506,10 +7506,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Depression에 듣는다 — 이미 수록됨(ketamine-depression-null)  <!-- 시험 110건 · 논문 6672편 -->
 - [x] ketamine — Major Surgery에 듣는다 — 이미 수록됨(ketamine-major-surgery-null)  <!-- 시험 71건 · 논문 582편 -->
 - [x] ketamine — Analgesia에 듣는다 — 이미 수록됨(ketamine-analgesia)  <!-- 시험 32건 · 논문 3573편 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 이미 수록됨(prazosin-alcohol-abuse-pos)  <!-- 시험 11건 · 논문 82편 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 이미 수록됨(prazosin-sleep-disorders)  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 이미 수록됨(prazosin-alcohol-use-disorder)  <!-- 시험 4건 · 논문 90편 -->
 - [x] thalidomide — Cancer에 듣는다 — 이미 수록됨(thalidomide-cancer-null)  <!-- 시험 62건 · 논문 6729편 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 이미 수록됨(thalidomide-lymphoma)  <!-- 시험 22건 · 논문 1012편 -->
@@ -7528,13 +7528,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 이미 수록됨(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 이미 수록됨(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 이미 수록됨(bupropion-cocaine-dependence-null)  <!-- 시험 37건 · 논문 60편 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 이미 수록됨(sildenafil-renal-dysfunction-null)  <!-- 시험 70건 · 논문 158편 -->
 - [x] sildenafil — Cancer에 듣는다 — 이미 수록됨(sildenafil-cancer-null)  <!-- 시험 22건 · 논문 531편 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 82건 · 논문 637편 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 이미 수록됨(bimatoprost-alopecia-null)  <!-- 시험 15건 · 논문 53편 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 76편 -->
@@ -7689,7 +7689,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Pain에 듣는다 — 이미 수록됨(amitriptyline-pain-null)  <!-- 시험 21건 · 논문 2029편 -->
 - [x] amitriptyline — Headache에 듣는다 — 이미 수록됨(amitriptyline-headache)  <!-- 시험 10건 · 논문 628편 -->
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 이미 수록됨(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 227편 -->
-- [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
+- [x] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 --> — ?? ??(amitriptyline-depressive-disorder-pos)
 - [x] topiramate — Obesity에 듣는다 — 이미 수록됨(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
 - [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 이미 수록됨(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
@@ -7707,14 +7707,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 이미 수록됨(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
 - [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 이미 수록됨(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
-- [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
+- [x] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 --> — ?? ??(doxycycline-syphilis-pos)
 - [x] doxycycline — Periodontitis에 듣는다 — 이미 수록됨(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
-- [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
+- [x] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 --> — ?? ??(colchicine-gout-pos)
 - [x] colchicine — Myocardial Injury에 듣는다 — 이미 수록됨(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
 - [x] colchicine — Atrial Flutter에 듣는다 — 이미 수록됨(colchicine-atrial-flutter-null)  <!-- 시험 25건 · 논문 8편 -->
 - [x] colchicine — COVID에 듣는다 — 이미 수록됨(colchicine-covid-null)  <!-- 시험 21건 · 논문 460편 -->
-- [ ] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 -->
-- [ ] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 -->
+- [x] dapagliflozin — Heart Failure에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 100건 · 논문 1493편 --> — ?? ??(dapagliflozin-heart-failure-pos)
+- [x] dapagliflozin — Kidney Diseases에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 66건 · 논문 750편 --> — ?? ??(dapagliflozin-kidney-diseases-pos)
 - [x] dapagliflozin — Lung Cancer에 듣는다 — 이미 수록됨(dapagliflozin-lung-cancer-open)  <!-- 시험 23건 · 논문 18편 -->
 - [x] dapagliflozin — Myocardial Infarct에 듣는다 — 이미 수록됨(dapagliflozin-myocardial-infarct-null)  <!-- 시험 23건 · 논문 275편 -->
 - [x] semaglutide — Obesity에 듣는다 — 이미 수록됨(semaglutide-obesity-weight-loss)  <!-- 시험 205건 · 논문 2693편 -->
@@ -7724,10 +7724,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ketamine — Depression에 듣는다 — 이미 수록됨(ketamine-depression-null)  <!-- 시험 110건 · 논문 6672편 -->
 - [x] ketamine — Major Surgery에 듣는다 — 이미 수록됨(ketamine-major-surgery-null)  <!-- 시험 71건 · 논문 582편 -->
 - [x] ketamine — Analgesia에 듣는다 — 이미 수록됨(ketamine-analgesia)  <!-- 시험 32건 · 논문 3573편 -->
-- [ ] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 -->
+- [x] ketamine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 11112편 --> — ?? ??(ketamine-anesthesia-pos)
 - [x] prazosin — Alcohol Abuse에 듣는다 — 이미 수록됨(prazosin-alcohol-abuse-pos)  <!-- 시험 11건 · 논문 82편 -->
 - [x] prazosin — Sleep Disorders에 듣는다 — 이미 수록됨(prazosin-sleep-disorders)  <!-- 시험 5건 · 논문 179편 -->
-- [ ] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 -->
+- [x] prazosin — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 2690편 --> — ?? ??(prazosin-hypertension-pos)
 - [x] prazosin — Alcoholism에 듣는다 — 이미 수록됨(prazosin-alcohol-use-disorder)  <!-- 시험 4건 · 논문 90편 -->
 - [x] thalidomide — Cancer에 듣는다 — 이미 수록됨(thalidomide-cancer-null)  <!-- 시험 62건 · 논문 6729편 -->
 - [x] thalidomide — Lymphoma에 듣는다 — 이미 수록됨(thalidomide-lymphoma)  <!-- 시험 22건 · 논문 1012편 -->
@@ -7746,13 +7746,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 이미 수록됨(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 이미 수록됨(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
 - [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
-- [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
-- [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
-- [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
+- [x] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 --> — ?? ??(bupropion-major-depression-pos)
+- [x] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 --> — ?? ??(bupropion-tobacco-use-pos)
+- [x] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 --> — ?? ??(bupropion-major-depression-pos)
 - [x] bupropion — Cocaine Dependence에 듣는다 — 이미 수록됨(bupropion-cocaine-dependence-null)  <!-- 시험 37건 · 논문 60편 -->
 - [x] sildenafil — Renal Dysfunction에 듣는다 — 이미 수록됨(sildenafil-renal-dysfunction-null)  <!-- 시험 70건 · 논문 158편 -->
 - [x] sildenafil — Cancer에 듣는다 — 이미 수록됨(sildenafil-cancer-null)  <!-- 시험 22건 · 논문 531편 -->
-- [ ] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 -->
+- [x] sildenafil — Impotence에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 18건 · 논문 3307편 --> — ?? ??(sildenafil-impotence-pos)
 - [ ] bimatoprost — Ocular Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 82건 · 논문 637편 -->
 - [x] bimatoprost — Alopecia에 듣는다 — 이미 수록됨(bimatoprost-alopecia)  <!-- 시험 15건 · 논문 53편 -->
 - [ ] bimatoprost — Hypotrichosis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 76편 -->

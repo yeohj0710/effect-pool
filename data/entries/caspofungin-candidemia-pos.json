@@ -1,0 +1,29 @@
+{
+  "id": "caspofungin-candidemia-pos",
+  "subj": "카스포펀진",
+  "claim": "카스포펀진이 칸디다혈증 치료에서 암포테리신B보다 열등하지 않다",
+  "line": "칸디다혈증에서 카스포펀진의 유리한 반응은 암포테리신B와 비슷했습니다.",
+  "effect": "유리한 반응 71.7% vs 62.8%",
+  "vs": "침습성 칸디다증 무작위 이중눈가림시험의 칸디다혈증 하위군에서 유리한 반응은 카스포펀진 71.7% 대비 암포테리신B 62.8%였고, 차이는 10.0%p(95% CI −4.5~24.5)였습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 224,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "카스포펀진은 성인의 침습성 칸디다 감염과 칸디다혈증 치료에 허가된 에키노칸딘계 항진균제입니다.",
+  "why": "혈액 또는 다른 부위에서 칸디다가 배양된 환자를 카스포펀진 또는 암포테리신B에 무작위 배정한 이중눈가림시험입니다.",
+  "saw": "224명이 modified ITT 분석에 포함됐고, 칸디다혈증 유리한 반응은 카스포펀진 71.7%, 암포테리신B 62.8%였습니다. 전체 침습성 칸디다증의 성공률은 73.4% 대 61.7%였습니다.",
+  "limit": "칸디다혈증 하위군의 신뢰구간이 0을 포함하므로 우월성을 확정할 수 없고, 시험은 암포테리신B 대비 비열등성에 가까운 결과를 보여줍니다.",
+  "against": "암포테리신B보다 약물 관련 이상반응은 적었지만, 신독성 등 치료 선택은 환자의 중증도와 감염 부위를 함께 고려해야 합니다.",
+  "use": "성인 칸디다혈증에서 카스포펀진과 암포테리신B를 직접 비교한 근거로 사용합니다.",
+  "refs": [
+    { "label": "Mora-Duarte 2002 · New England Journal of Medicine · 침습성 칸디다증 카스포펀진·암포테리신B 무작위시험", "pmid": "12490683" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=caspofungin&query.cond=Candidemia; 16건 반환, InterventionName에 caspofungin 포함 6건",
+    "pubmed": "caspofungin AND candidemia; 427건",
+    "negative": "caspofungin AND candidemia AND (no effect OR did not OR failed OR negative OR no significant difference); 293건",
+    "safety": "caspofungin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose); 1,373건"
+  }
+}
