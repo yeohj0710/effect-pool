@@ -1,28 +1,35 @@
 {
-  "id": "community-health-navigation-kidney-diseases-pos",
-  "subj": "community health navigation",
-  "claim": "지역사회 보건인력 내비게이션은 혈액투석 환자의 투석 사이 체중 증가를 줄였다",
-  "line": "투석 환자의 투석 사이 체중은 내비게이션 뒤 줄었다.",
-  "effect": "체중 증가 차이 -0.46%p, P=.01",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 139,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "지역사회 보건인력 내비게이션은 비약물 사회·건강지원 중재이며 신장질환에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "히스패닉·라틴계 혈액투석 환자에게 지역사회 보건인력이 사회적 필요와 식이·수분 제한을 지원했다.",
-  "saw": "139명이 무작위 배정됐고 180일 뒤 투석 사이 체중 증가는 대조군보다 0.46%p 낮았으며(P=.01), 환자 활성화도 개선됐다(P=.005).",
-  "limit": "비눈가림 연구이며 특정 지역사회와 혈액투석 환자에 한정됐다.",
-  "against": "체중 증가 감소 폭은 작고 장기 입원·사망 결과는 이 시험의 주된 결과가 아니었다.",
-  "use": "사회적 장벽이 큰 혈액투석 환자의 식이·수분 관리와 투석 참여 지원으로 검토합니다.",
-  "refs": [
-    { "label": "혈액투석 환자 지역사회 보건인력 Navigate-Kidney 무작위시험", "doi": "10.1001/jamainternmed.2025.5305", "pmid": "41203234", "pmc": "PMC12595546", "nct": "NCT03978806" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=community health navigation AND condition=Kidney Diseases; 9건",
-    "pubmed": "community health navigation AND Kidney Diseases; 347건",
-    "negative": "community health navigation AND Kidney Diseases AND (no effect OR did not OR failed OR negative OR no significant difference); 61건",
-    "safety": "community health navigation AND (adverse OR toxicity OR case report OR harm OR dropout); 3716건"
+ "id": "community-health-navigation-kidney-diseases-pos",
+ "subj": "지역사회 건강 내비게이션",
+ "claim": "지역사회 보건인력 내비게이션은 혈액투석 환자의 투석 사이 체중 증가를 줄였다",
+ "line": "투석 환자의 투석 사이 체중은 내비게이션 뒤 줄었다.",
+ "effect": "투석 사이 체중 증가 차이 -0.46%p",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 139,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "지역사회 보건인력 내비게이션은 비약물 사회·건강지원 중재이며 신장질환에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "히스패닉·라틴계 혈액투석 환자에게 지역사회 보건인력이 사회적 필요와 식이·수분 제한을 지원했다.",
+ "saw": "139명이 무작위 배정됐고 180일 뒤 투석 사이 체중 증가는 대조군보다 0.46%p 낮았으며(P=.01), 환자 활성화도 개선됐다(P=.005).",
+ "limit": "비눈가림 연구이며 특정 지역사회와 혈액투석 환자에 한정됐다.",
+ "against": "체중 증가 감소 폭은 작고 장기 입원·사망 결과는 이 시험의 주된 결과가 아니었다.",
+ "use": "사회적 장벽이 큰 혈액투석 환자의 식이·수분 관리와 투석 참여 지원으로 검토합니다.",
+ "refs": [
+  {
+   "label": "혈액투석 환자 지역사회 보건인력 Navigate-Kidney 무작위시험",
+   "doi": "10.1001/jamainternmed.2025.5305",
+   "pmid": "41203234",
+   "pmc": "PMC12595546",
+   "nct": "NCT03978806"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=community health navigation AND condition=Kidney Diseases; 9건",
+  "pubmed": "community health navigation AND Kidney Diseases; 347건",
+  "negative": "community health navigation AND Kidney Diseases AND (no effect OR did not OR failed OR negative OR no significant difference); 61건",
+  "safety": "community health navigation AND (adverse OR toxicity OR case report OR harm OR dropout); 3716건"
+ },
+ "vs": "Navigate-Kidney 68명 대 표준진료 71명: 투석 사이 체중 증가 차이 -0.46%p (95% CI -0.78~-0.14; P=.01), 평균 3.26% 대 3.72%; 단축 투석 .1회 대 .6회 (P=.02), 환자 활성화 1.8 대 -2.2 (P=.005)"
 }

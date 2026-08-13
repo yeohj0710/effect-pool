@@ -1,28 +1,33 @@
 {
-  "id": "community-exercise-program-cognitive-decline-pos",
-  "subj": "community exercise program",
-  "claim": "경도인지장애에서 12주 지역사회 심신운동이 뇌 가소성 관련 혈액 지표를 높인다",
-  "line": "지역사회 심신운동은 경도인지장애의 뇌 가소성 지표를 개선했다.",
-  "effect": "BDNF·SIRT1 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 58,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "지역사회 운동은 인지장애 의약품 허가 적응증이 아닌 비약물 운동 중재입니다.",
-  "why": "동작·호흡·자세를 반복하는 심신운동이 운동과 인지 기능에 관련된 생체 지표를 바꾸는지 평가했습니다.",
-  "saw": "경도인지장애 58명을 운동군과 대조군에 무작위 배정했습니다. 12주 후 운동군의 혈중 BDNF와 SIRT1이 대조군보다 증가했습니다.",
-  "limit": "인지검사나 일상 기능이 아니라 혈액 지표를 평가한 12주 단일 시험입니다.",
-  "against": "혈액 지표 증가는 기억력이나 치매 진행 개선을 의미하지 않습니다.",
-  "use": "인지장애 운동 프로그램의 생물학적 신호로 참고하고 인지 기능 결과를 따로 확인합니다.",
-  "refs": [
-    { "label": "경도인지장애 지역사회 심신운동 무작위시험", "doi": "10.23736/S1973-9087.24.08015-8", "pmid": "38814196" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "community exercise program AND Cognitive Decline · 49건 반환·0건 중재명 일치",
-    "pubmed": "community exercise program AND Cognitive Decline · 386건",
-    "negative": "community exercise program AND Cognitive Decline AND (no effect OR did not OR failed OR negative OR no significant difference) · 299건",
-    "safety": "community exercise program AND Cognitive Decline AND (adverse OR toxicity OR case report OR harm OR dropout) · 45건"
+ "id": "community-exercise-program-cognitive-decline-pos",
+ "subj": "지역사회 운동 프로그램",
+ "claim": "경도인지장애에서 12주 지역사회 심신운동이 뇌 가소성 관련 혈액 지표를 높인다",
+ "line": "지역사회 심신운동은 경도인지장애의 뇌 가소성 지표를 개선했다.",
+ "effect": "BDNF·SIRT1 군×시간 유의",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 58,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "지역사회 운동은 인지장애 의약품 허가 적응증이 아닌 비약물 운동 중재입니다.",
+ "why": "동작·호흡·자세를 반복하는 심신운동이 운동과 인지 기능에 관련된 생체 지표를 바꾸는지 평가했습니다.",
+ "saw": "경도인지장애 58명을 운동군과 대조군에 무작위 배정했습니다. 12주 후 운동군의 혈중 BDNF와 SIRT1이 대조군보다 증가했습니다.",
+ "limit": "인지검사나 일상 기능이 아니라 혈액 지표를 평가한 12주 단일 시험입니다.",
+ "against": "혈액 지표 증가는 기억력이나 치매 진행 개선을 의미하지 않습니다.",
+ "use": "인지장애 운동 프로그램의 생물학적 신호로 참고하고 인지 기능 결과를 따로 확인합니다.",
+ "refs": [
+  {
+   "label": "경도인지장애 지역사회 심신운동 무작위시험",
+   "doi": "10.23736/S1973-9087.24.08015-8",
+   "pmid": "38814196"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "community exercise program AND Cognitive Decline · 49건 반환·0건 중재명 일치",
+  "pubmed": "community exercise program AND Cognitive Decline · 386건",
+  "negative": "community exercise program AND Cognitive Decline AND (no effect OR did not OR failed OR negative OR no significant difference) · 299건",
+  "safety": "community exercise program AND Cognitive Decline AND (adverse OR toxicity OR case report OR harm OR dropout) · 45건"
+ },
+ "vs": "지역사회 운동 29명 대 무중재 29명: 12주 후 BDNF와 SIRT1은 중재군에서만 증가했고 군×시간 상호작용이 유의함"
 }

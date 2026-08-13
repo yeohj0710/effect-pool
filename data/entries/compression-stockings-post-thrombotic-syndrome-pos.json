@@ -1,20 +1,34 @@
 {
-  "id": "compression-stockings-post-thrombotic-syndrome-pos",
-  "subj": "compression stockings",
-  "claim": "심부정맥혈전증 뒤 압박스타킹이 혈전후증후군을 줄인다",
-  "line": "압박스타킹은 경증 혈전후증후군을 줄였지만 중증 위험은 낮추지 못했다.",
-  "effect": "혈전후증후군 위험 감소 신호",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1775,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "압박스타킹은 심부정맥혈전증 뒤 혈전후증후군 예방의 의약품 허가 적응증이 아닌 기기 중재다.",
-  "why": "심부정맥혈전증 뒤 압박스타킹을 평가한 무작위시험 8편을 합친 메타분석이다.",
-  "saw": "무작위시험 8편, 1775명을 합쳤다. 장기 압박스타킹은 전체 혈전후증후군과 경증·중등도 증후군을 줄였지만 중증 증후군, 재발 혈전, 사망에는 뚜렷한 영향이 없었다.",
-  "limit": "전체·경증 결과의 근거 확실성이 낮고 중증·재발·사망은 매우 낮았다. 순응도, 대조군, 증후군 정의가 시험마다 달랐다.",
-  "against": "CHAPS 무작위시험은 모집 중 조기 종료돼 계획된 표본을 채우지 못했으며 압박스타킹의 효과를 확정할 수 없었다.",
-  "use": "혈전후증후군 예방에서 압박스타킹의 제한적인 단기 신호와 낮은 확실성을 함께 설명합니다.",
-  "refs": [{ "label": "혈전후증후군 예방 압박스타킹 무작위시험 메타분석", "doi": "10.3389/fmed.2026.1840243", "pmid": "42254373", "n": 1775 }],
-  "queried": { "date": "2026-08-06", "ctgov": "compression stockings AND Post Thrombotic Syndrome · 6건, 중재명 대조 후 6건", "pubmed": "compression stockings AND Post Thrombotic Syndrome · 312편", "negative": "159편", "safety": "compression stockings AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 776편" }
+ "id": "compression-stockings-post-thrombotic-syndrome-pos",
+ "subj": "압박스타킹",
+ "claim": "심부정맥혈전증 뒤 압박스타킹이 혈전후증후군을 줄인다",
+ "line": "압박스타킹은 경증 혈전후증후군을 줄였지만 중증 위험은 낮추지 못했다.",
+ "effect": "혈전후증후군 RR 0.70",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1775,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "압박스타킹은 심부정맥혈전증 뒤 혈전후증후군 예방의 의약품 허가 적응증이 아닌 기기 중재다.",
+ "why": "심부정맥혈전증 뒤 압박스타킹을 평가한 무작위시험 8편을 합친 메타분석이다.",
+ "saw": "무작위시험 8편, 1775명을 합쳤다. 장기 압박스타킹은 전체 혈전후증후군과 경증·중등도 증후군을 줄였지만 중증 증후군, 재발 혈전, 사망에는 뚜렷한 영향이 없었다.",
+ "limit": "전체·경증 결과의 근거 확실성이 낮고 중증·재발·사망은 매우 낮았다. 순응도, 대조군, 증후군 정의가 시험마다 달랐다.",
+ "against": "CHAPS 무작위시험은 모집 중 조기 종료돼 계획된 표본을 채우지 못했으며 압박스타킹의 효과를 확정할 수 없었다.",
+ "use": "혈전후증후군 예방에서 압박스타킹의 제한적인 단기 신호와 낮은 확실성을 함께 설명합니다.",
+ "refs": [
+  {
+   "label": "혈전후증후군 예방 압박스타킹 무작위시험 메타분석",
+   "doi": "10.3389/fmed.2026.1840243",
+   "pmid": "42254373",
+   "n": 1775
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "compression stockings AND Post Thrombotic Syndrome · 6건, 중재명 대조 후 6건",
+  "pubmed": "compression stockings AND Post Thrombotic Syndrome · 312편",
+  "negative": "159편",
+  "safety": "compression stockings AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 776편"
+ },
+ "vs": "압박스타킹 대 대조군, 8편·1775명: 혈전후증후군 RR 0.70 (95% CI 0.51~0.96), 경증·중등도 RR 0.69 (0.50~0.93), 중증 RR 0.56 (0.22~1.43), 재발 혈전 RR 0.90, 사망 RR 0.98"
 }

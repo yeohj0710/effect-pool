@@ -1,20 +1,33 @@
 {
-  "id": "compression-stockings-thrombosis-pos",
-  "subj": "compression stockings",
-  "claim": "입원 환자에서 압박스타킹이 수술 후 심부정맥혈전증을 예방한다",
-  "line": "수술 후 입원 환자에서 압박스타킹은 심부정맥혈전증 발생을 줄였다.",
-  "effect": "심부정맥혈전 예방",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1681,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "압박스타킹은 심부정맥혈전증 예방의 허가 적응증이 아니다",
-  "why": "입원 환자에게 단계적 압박스타킹을 단독 또는 다른 혈전예방과 함께 사용한 무작위시험을 코크란 검토했다.",
-  "saw": "무작위시험 20편, 참가자 1681명과 다리 1172개를 포함했다. 대부분 수술 전후 압박스타킹을 사용했고 심부정맥혈전증 예방 효과를 평가했다.",
-  "limit": "대부분 수술 환자였고 혈전 확인법과 압박 기간이 연구마다 달랐으며 의학적 입원 환자는 한 연구뿐이었다.",
-  "against": "모든 입원 환자에게 자동 적용할 수 없고 말초혈류와 피부 상태를 먼저 확인해야 한다.",
-  "use": "수술·입원 환자의 심부정맥혈전 예방에서 압박스타킹을 검토할 때 근거로 참고합니다.",
-  "refs": [{ "label": "Sachdeva 2018 · Cochrane Database · 메타분석", "doi": "10.1002/14651858.CD001484.pub4", "pmid": "30390397" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=compression stockings, cond=Thrombosis · 42건", "pubmed": "compression stockings AND Thrombosis · 1380편", "negative": "compression stockings AND Thrombosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 818편", "safety": "compression stockings AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 964편" }
+ "id": "compression-stockings-thrombosis-pos",
+ "subj": "압박스타킹",
+ "claim": "입원 환자에서 압박스타킹이 수술 후 심부정맥혈전증을 예방한다",
+ "line": "수술 후 입원 환자에서 압박스타킹은 심부정맥혈전증 발생을 줄였다.",
+ "effect": "DVT OR 0.35",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1681,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "압박스타킹은 심부정맥혈전증 예방의 허가 적응증이 아니다",
+ "why": "입원 환자에게 단계적 압박스타킹을 단독 또는 다른 혈전예방과 함께 사용한 무작위시험을 코크란 검토했다.",
+ "saw": "무작위시험 20편, 참가자 1681명과 다리 1172개를 포함했다. 대부분 수술 전후 압박스타킹을 사용했고 심부정맥혈전증 예방 효과를 평가했다.",
+ "limit": "대부분 수술 환자였고 혈전 확인법과 압박 기간이 연구마다 달랐으며 의학적 입원 환자는 한 연구뿐이었다.",
+ "against": "모든 입원 환자에게 자동 적용할 수 없고 말초혈류와 피부 상태를 먼저 확인해야 한다.",
+ "use": "수술·입원 환자의 심부정맥혈전 예방에서 압박스타킹을 검토할 때 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "Sachdeva 2018 · Cochrane Database · 메타분석",
+   "doi": "10.1002/14651858.CD001484.pub4",
+   "pmid": "30390397"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=compression stockings, cond=Thrombosis · 42건",
+  "pubmed": "compression stockings AND Thrombosis · 1380편",
+  "negative": "compression stockings AND Thrombosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 818편",
+  "safety": "compression stockings AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 964편"
+ },
+ "vs": "압박스타킹 134/1445명(9%) 대 대조군 290/1408명(21%), 20편 메타분석: DVT OR 0.35 (95% CI 0.28~0.43; P<0.001), 근위부 DVT OR 0.26, 폐색전 OR 0.38"
 }

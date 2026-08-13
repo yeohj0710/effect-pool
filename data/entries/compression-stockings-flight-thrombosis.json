@@ -1,31 +1,32 @@
 {
-  "id": "compression-stockings-flight-thrombosis",
-  "subj": "압박스타킹",
-  "claim": "장거리 비행에서 압박스타킹이 혈전을 줄인다",
-  "line": "장거리 비행에서 압박스타킹은 무증상 혈전을 줄였지만 실제 질병 예방은 확인하지 못했다.",
-  "effect": "무증상 DVT·부종↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2918,
-  "synth": "meta",
-  "why": "장거리 비행 승객을 압박스타킹과 일반 양말에 무작위로 나눈 코크란 검토입니다.",
-  "saw": "검토에 포함된 시험에서 압박스타킹군은 무증상 심부정맥혈전과 다리 부종이 적었습니다.",
-  "limit": "시험 규모가 작고 대부분 초음파로 찾은 무증상 혈전이라 폐색전·증상 혈전 예방 효과는 확실하지 않습니다.",
-  "against": "임상적으로 중요한 혈전이나 사망을 줄였다는 직접 근거는 없고 스타킹 착용 불편과 피부 문제가 보고됐습니다.",
-  "use": "무증상 혈전 결과를 모든 여행자의 임상 혈전 예방으로 확대해석하지 않습니다.",
-  "refs": [
-    {
-      "label": "Clarke 2021 · Cochrane · 항공 승객 압박스타킹 검토",
-      "doi": "10.1002/14651858.CD004002.pub4",
-      "pmid": "33878207",
-      "pmc": "PMC8092568"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=compression stockings, cond=long haul flight venous thrombosis → 0건 반환, InterventionName 대조 후 0건",
-    "pubmed": "compression stockings long haul flight venous thrombosis randomized trial Cochrane → 1건",
-    "negative": "compression stockings flight thrombosis AND (no effect OR did not OR failed to OR negative) → 20건",
-    "safety": "compression stockings flight AND (adverse OR skin OR ischemia OR case report) → 12건"
+ "id": "compression-stockings-flight-thrombosis",
+ "subj": "압박스타킹",
+ "claim": "장거리 비행에서 압박스타킹이 혈전을 줄인다",
+ "line": "장거리 비행에서 압박스타킹은 무증상 혈전을 줄였지만 실제 질병 예방은 확인하지 못했다.",
+ "effect": "무증상 DVT OR 0.10",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2918,
+ "synth": "meta",
+ "why": "장거리 비행 승객을 압박스타킹과 일반 양말에 무작위로 나눈 코크란 검토입니다.",
+ "saw": "검토에 포함된 시험에서 압박스타킹군은 무증상 심부정맥혈전과 다리 부종이 적었습니다.",
+ "limit": "시험 규모가 작고 대부분 초음파로 찾은 무증상 혈전이라 폐색전·증상 혈전 예방 효과는 확실하지 않습니다.",
+ "against": "임상적으로 중요한 혈전이나 사망을 줄였다는 직접 근거는 없고 스타킹 착용 불편과 피부 문제가 보고됐습니다.",
+ "use": "무증상 혈전 결과를 모든 여행자의 임상 혈전 예방으로 확대해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "Clarke 2021 · Cochrane · 항공 승객 압박스타킹 검토",
+   "doi": "10.1002/14651858.CD004002.pub4",
+   "pmid": "33878207",
+   "pmc": "PMC8092568"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=compression stockings, cond=long haul flight venous thrombosis → 0건 반환, InterventionName 대조 후 0건",
+  "pubmed": "compression stockings long haul flight venous thrombosis randomized trial Cochrane → 1건",
+  "negative": "compression stockings flight thrombosis AND (no effect OR did not OR failed to OR negative) → 20건",
+  "safety": "compression stockings flight AND (adverse OR skin OR ischemia OR case report) → 12건"
+ },
+ "vs": "압박스타킹 대 무착용, 12편·2918명: 무증상 DVT OR 0.10 (95% CI 0.04~0.25; P<0.001), 부종 MD -4.72 (95% CI -4.91~-4.52), 표재성 혈전 OR 0.45 (P=0.09)"
 }

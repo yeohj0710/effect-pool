@@ -1,28 +1,33 @@
 {
-  "id": "compassion-meditation-depression-pos",
-  "subj": "자비 명상",
-  "claim": "자비 명상은 우울 증상을 줄일 가능성이 있으나 연구 규모가 작다",
-  "line": "자비 명상은 우울 증상 완화 신호를 보였지만 연구 규모가 작았다.",
-  "effect": "우울 점수 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "자비 명상은 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
-  "why": "자비와 친절을 연습하면 자기비판과 부정 정서를 완화해 우울 증상에 영향을 줄 가능성이 있습니다.",
-  "saw": "자비·친절 기반 명상 무작위시험 22편의 체계적 고찰에서 수동 대조군과 비교할 때 자기보고 우울 증상이 중간 정도 감소했습니다. Hedges g는 -0.61이었습니다.",
-  "limit": "연구의 질이 낮거나 중간 수준이고 표본이 작았으며 적극적 대조군과 비교한 결과는 일관되지 않았습니다.",
-  "against": "자비 명상이 항우울 치료를 대체한다는 근거는 없고 초기에는 일부 참여자에게 어려울 수 있습니다.",
-  "use": "우울 증상 보조 프로그램으로 자비 명상을 검토할 때 표준 치료와 함께 적용하고 초기 불편을 살핍니다.",
-  "refs": [
-    { "label": "친절 기반 명상 건강·웰빙 체계적 고찰·메타분석", "doi": "10.1037/a0037249", "pmid": "24979314" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "compassion meditation AND Depression · 39건",
-    "pubmed": "compassion meditation AND Depression · 186건",
-    "negative": "compassion meditation AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 149건",
-    "safety": "compassion meditation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 32건"
+ "id": "compassion-meditation-depression-pos",
+ "subj": "자비 명상",
+ "claim": "자비 명상은 우울 증상을 줄일 가능성이 있으나 연구 규모가 작다",
+ "line": "자비 명상은 우울 증상 완화 신호를 보였지만 연구 규모가 작았다.",
+ "effect": "우울 Hedges g -0.61",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "자비 명상은 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
+ "why": "자비와 친절을 연습하면 자기비판과 부정 정서를 완화해 우울 증상에 영향을 줄 가능성이 있습니다.",
+ "saw": "자비·친절 기반 명상 무작위시험 22편의 체계적 고찰에서 수동 대조군과 비교할 때 자기보고 우울 증상이 중간 정도 감소했습니다. Hedges g는 -0.61이었습니다.",
+ "limit": "연구의 질이 낮거나 중간 수준이고 표본이 작았으며 적극적 대조군과 비교한 결과는 일관되지 않았습니다.",
+ "against": "자비 명상이 항우울 치료를 대체한다는 근거는 없고 초기에는 일부 참여자에게 어려울 수 있습니다.",
+ "use": "우울 증상 보조 프로그램으로 자비 명상을 검토할 때 표준 치료와 함께 적용하고 초기 불편을 살핍니다.",
+ "refs": [
+  {
+   "label": "친절 기반 명상 건강·웰빙 체계적 고찰·메타분석",
+   "doi": "10.1037/a0037249",
+   "pmid": "24979314"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "compassion meditation AND Depression · 39건",
+  "pubmed": "compassion meditation AND Depression · 186건",
+  "negative": "compassion meditation AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 149건",
+  "safety": "compassion meditation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 32건"
+ },
+ "vs": "자비·친절 기반 명상 22편 대비 수동 대조군: 우울 Hedges g -0.61 (95% CI -1.08~-0.14), 마음챙김 g 0.63, 자비 g 0.61, 자기연민 g 0.45, 긍정정서 g 0.42; 능동 대조군 결과는 불확실"
 }
