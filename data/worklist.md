@@ -2364,10 +2364,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] isavuconazole — Fungal Infection에 듣는다  <!-- 등록 시험 6건 -->
 - [ ] isavuconazole — Mucormycosis에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] isavuconazole — Lung Transplantation에 듣는다  <!-- 등록 시험 4건 -->
-- [ ] terbinafine — Tinea에 듣는다  <!-- 등록 시험 11건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] terbinafine — Tinea에 듣는다  <!-- 등록 시험 11건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(terbinafine-tinea-pedis-pos)
 - [x] terbinafine — Fungal Resistance에 듣는다  <!-- 등록 시험 3건 --> — 조사 제외(질환 아님)
-- [ ] ketoconazole — Tinea Pedis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] ketoconazole — Scalp Dermatitis에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ketoconazole — Tinea Pedis에 듣는다  <!-- 등록 시험 9건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(ketoconazole-tinea-pedis-pos)
+- [x] ketoconazole — Scalp Dermatitis에 듣는다  <!-- 등록 시험 7건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(ketoconazole-scalp-dermatitis-pos)
 - [x] ketoconazole — Solid Tumors에 듣는다  <!-- 등록 시험 7건 -->
 - [x] ketoconazole — Glioma에 듣는다  <!-- 등록 시험 7건 -->
 - [x] flucytosine — Hiv에 듣는다  <!-- 등록 시험 10건 -->
@@ -2395,7 +2395,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [x] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(propranolol-migraine-pos)
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
@@ -2470,7 +2470,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -2625,7 +2625,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
@@ -2700,7 +2700,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -2855,7 +2855,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
@@ -2930,7 +2930,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -3085,7 +3085,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
@@ -3160,7 +3160,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -3315,7 +3315,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
@@ -3390,7 +3390,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -3545,7 +3545,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
@@ -3620,7 +3620,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -3775,7 +3775,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
@@ -3850,7 +3850,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -4060,7 +4060,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
@@ -4135,7 +4135,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -4320,7 +4320,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다 — 기존 항목(aspirin-stroke-pos)  <!-- 등록 시험 57건 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
 - [x] aspirin — Brain Infarction에 듣는다 — 기존 항목(aspirin-brain-infarction-pos)  <!-- 등록 시험 26건 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
@@ -4395,7 +4395,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -4580,7 +4580,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
@@ -4655,7 +4655,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(valacyclovir-malignant-glioma-open)
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(minoxidil-ovarian-cancer-lab)
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(minoxidil-grey-hair-case)
-- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(minoxidil-thin-eyebrow)
 - [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -4831,10 +4831,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(valproic-acid-thyroid-neoplasm-open)
 - [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(valproic-acid-stage-iv-pharyngeal-cancer-open)
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-patent-ductus-arteriosus-open)
+- [x] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-fever-open)
+- [x] ibuprofen — Analgesia에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-analgesia-pos)
+- [x] ibuprofen — Osteoarthritis에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-osteoarthritis-pos)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -4852,7 +4852,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
@@ -4927,7 +4927,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다  <!-- 등록 시험 8건 --> — 기존 항목(valacyclovir-malignant-glioma-open)
 - [x] minoxidil — Ovarian Cancer에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(minoxidil-ovarian-cancer-lab)
 - [x] minoxidil — Grey Hair에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(minoxidil-grey-hair-case)
-- [ ] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] minoxidil — Baldness에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다  <!-- 등록 시험 4건 --> — 기존 항목(minoxidil-thin-eyebrow)
 - [ ] bupropion — Major Depression에 듣는다  <!-- 등록 시험 63건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] bupropion — Tobacco Use에 듣는다  <!-- 등록 시험 52건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -5082,7 +5082,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] aspirin — Stroke에 듣는다  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(aspirin-colon-cancer-null)
 - [x] aspirin — Brain Infarction에 듣는다  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
-- [ ] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] aspirin — Cardiovascular Events에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다  <!-- 등록 시험 30건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
@@ -5157,7 +5157,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -5497,7 +5497,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 52건 -->
@@ -5645,10 +5645,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 -->
-- [ ] ibuprofen — Fever에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] ibuprofen — Analgesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 34건 --> — 기존 항목(ibuprofen-patent-ductus-arteriosus-open)
+- [x] ibuprofen — Fever에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(ibuprofen-fever-open)
+- [x] ibuprofen — Analgesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(ibuprofen-analgesia-pos)
+- [x] ibuprofen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(ibuprofen-osteoarthritis-pos)
 - [x] pioglitazone — Insulin Resistance에 듣는다 — 기존 항목(pioglitazone-insulin-resistance-open)  <!-- 등록 시험 29건 -->
 - [x] pioglitazone — Liver에 듣는다 — 기존 항목(pioglitazone-liver-open)  <!-- 등록 시험 21건 -->
 - [x] pioglitazone — Lung Cancer에 듣는다 — 기존 항목(pioglitazone-lung-cancer-null)  <!-- 등록 시험 21건 -->
@@ -5769,7 +5769,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
@@ -5999,7 +5999,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
@@ -6230,7 +6230,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
@@ -6512,7 +6512,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 등록 시험 8건 -->
 - [x] minoxidil — Ovarian Cancer에 듣는다 — 기존 항목(minoxidil-ovarian-cancer-lab)  <!-- 등록 시험 28건 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 등록 시험 13건 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(minoxidil-baldness-pos)
 - [x] minoxidil — Thin Eyebrow에 듣는다 — 기존 항목(minoxidil-thin-eyebrow)  <!-- 등록 시험 4건 -->
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 63건 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 52건 -->
@@ -6739,7 +6739,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Infection에 듣는다 — 기존 항목(valacyclovir-infection-null)  <!-- 시험 10건 · 논문 1621편 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 기존 항목(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 기존 항목(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
 - [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
@@ -7126,10 +7126,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 시험 34건 · 논문 716편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ibuprofen — Fever에 듣는다  <!-- 시험 18건 · 논문 879편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ibuprofen — Analgesia에 듣는다  <!-- 시험 18건 · 논문 976편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ibuprofen — Osteoarthritis에 듣는다  <!-- 시험 18건 · 논문 670편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 시험 34건 · 논문 716편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ibuprofen-patent-ductus-arteriosus-open)
+- [x] ibuprofen — Fever에 듣는다  <!-- 시험 18건 · 논문 879편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ibuprofen-fever-open)
+- [x] ibuprofen — Analgesia에 듣는다  <!-- 시험 18건 · 논문 976편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ibuprofen-analgesia-pos)
+- [x] ibuprofen — Osteoarthritis에 듣는다  <!-- 시험 18건 · 논문 670편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(ibuprofen-osteoarthritis-pos)
 - [x] pioglitazone — Insulin Resistance에 듣는다  <!-- 시험 29건 · 논문 1749편 --> — 이미 수록됨(2026-08-05)
 - [x] pioglitazone — Liver에 듣는다  <!-- 시험 21건 · 논문 1320편 --> — 이미 수록됨(2026-08-05)
 - [x] pioglitazone — Lung Cancer에 듣는다  <!-- 시험 21건 · 논문 73편 --> — 이미 수록됨(2026-08-05)
@@ -7455,7 +7455,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
 - [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
@@ -7527,7 +7527,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Infection에 듣는다 — 이미 수록됨(valacyclovir-infection-null)  <!-- 시험 10건 · 논문 1621편 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 이미 수록됨(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 이미 수록됨(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
 - [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
@@ -7673,7 +7673,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 -->
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
 - [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 -->
-- [ ] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 -->
+- [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
@@ -7745,7 +7745,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] valacyclovir — Infection에 듣는다 — 이미 수록됨(valacyclovir-infection-null)  <!-- 시험 10건 · 논문 1621편 -->
 - [x] valacyclovir — Malignant Glioma에 듣는다 — 이미 수록됨(valacyclovir-malignant-glioma-open)  <!-- 시험 8건 · 논문 8편 -->
 - [x] minoxidil — Grey Hair에 듣는다 — 이미 수록됨(minoxidil-grey-hair-case)  <!-- 시험 13건 · 논문 8편 -->
-- [ ] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 -->
+- [x] minoxidil — Baldness에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 1822편 --> — 기존 항목(minoxidil-baldness-pos)
 - [ ] bupropion — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 63건 · 논문 845편 -->
 - [ ] bupropion — Tobacco Use에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 52건 · 논문 1390편 -->
 - [ ] bupropion — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 1983편 -->
@@ -8313,7 +8313,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] duloxetine — Opioid Use에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 6건 · 논문 413편 -->
 - [x] dextromethorphan — Healthy Participants에 듣는다 — 항목 아님(건강인 약동학 연구)(2026-08-05)  <!-- 시험 4건 · 논문 217편 -->
 - [x] dextromethorphan — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 27편 -->
-- [ ] dextromethorphan — Cough에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 448편 -->
+- [x] dextromethorphan — Cough에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 3건 · 논문 448편 --> — 새 항목(dextromethorphan-cough-pos)
 - [x] clonidine — Sedation에 듣는다  <!-- 시험 9건 · 논문 1178편 -->
 - [x] clonidine — Attention Deficit Hyperactivity Disorder에 듣는다 — 이미 반영(ADHD 소아·청소년)(2026-08-05)  <!-- 시험 7건 · 논문 434편 -->
 - [x] clonidine — Nerve Block에 듣는다  <!-- 시험 7건 · 논문 438편 -->
@@ -8735,7 +8735,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levocarnitine — Spinal Muscular Atrophy에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(발프로산 병용시험에서 6개월 효과 없음)
 - [x] levocarnitine — Renal Dialysis에 듣는다  <!-- 시험 3건 · 논문 510편 -->
 - [x] levocarnitine — Heart Failure에 듣는다 — 근거 없음(2026-08-05 조회, "levocarnitine AND Heart Failure")  <!-- 시험 3건 · 논문 578편 -->
-- [ ] loperamide — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 1118편 -->
+- [x] loperamide — Diarrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 16건 · 논문 1118편 --> — 새 항목(loperamide-diarrhea-harm)
 - [x] loperamide — Fecal Incontinence에 듣는다  <!-- 시험 5건 · 논문 85편 -->
 - [x] loperamide — Intestinal Transit에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Intestinal Transit")  <!-- 시험 3건 · 논문 405편 -->
 - [x] loperamide — Rectal Carcinoma에 듣는다 — 근거 없음(2026-08-05 조회, "loperamide AND Rectal Carcinoma")  <!-- 시험 3건 · 논문 18편 -->
@@ -8754,7 +8754,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nicotine — Drug Use에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Drug Use")  <!-- 시험 75건 · 논문 29021편 -->
 - [x] nicotine — Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Cancer")  <!-- 시험 26건 · 논문 9155편 -->
 - [x] nicotine — Schizophrenia에 듣는다 — 근거 없음(2026-08-05 조회, "nicotine AND Schizophrenia")  <!-- 시험 10건 · 논문 1276편 -->
-- [ ] nicotine — Smokers에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 18719편 -->
+- [x] nicotine — Smokers에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 18719편 --> — 기존 항목(nicotine-replacement-therapy-smoking-pos)
 - [x] pimavanserin — Schizophrenia에 듣는다  <!-- 시험 5건 · 논문 67편 -->
 - [x] pimavanserin — Major Depressive Disorder에 듣는다  <!-- 시험 4건 · 논문 13편 -->
 - [ ] ramelteon — Sleep에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 363편 -->
@@ -8792,8 +8792,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] acetaminophen — Opioid Use에 듣는다 — 근거 없음(2026-08-05 조회, "acetaminophen AND Opioid Use")  <!-- 시험 14건 · 논문 6588편 -->
-- [ ] acetaminophen — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 7435편 -->
-- [ ] acetaminophen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1129편 -->
+- [x] acetaminophen — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 13건 · 논문 7435편 --> — 새 항목(acetaminophen-surgery-pos)
+- [x] acetaminophen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 11건 · 논문 1129편 --> — 기존 항목(acetaminophen-pain-pos)
 - [ ] atropine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 19건 · 논문 4261편 -->
 - [x] atropine — Breast Cancer에 듣는다 — 근거 없음(2026-08-05 조회, "atropine AND Breast Cancer")  <!-- 시험 13건 · 논문 28편 -->
 - [x] atropine — Nausea에 듣는다  <!-- 시험 10건 · 논문 385편 -->
@@ -9327,10 +9327,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] fingolimod — Stroke에 듣는다  <!-- 시험 8건 · 논문 170편 -->
 - [x] fingolimod — Intracerebral Hemorrhage에 듣는다  <!-- 시험 4건 · 논문 36편 -->
 - [x] fingolimod — Skin Cancer에 듣는다  <!-- 시험 4건 · 논문 51편 -->
-- [ ] naproxen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 47건 · 논문 653편 -->
+- [x] naproxen — Osteoarthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 47건 · 논문 653편 --> — 새 항목(naproxen-osteoarthritis-pos)
 - [x] naproxen — Migraine에 듣는다  <!-- 시험 33건 · 논문 243편 -->
-- [ ] naproxen — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1469편 -->
-- [ ] naproxen — Dysmenorrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 169편 -->
+- [x] naproxen — Arthritis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1469편 --> — 새 항목(naproxen-arthritis-null)
+- [x] naproxen — Dysmenorrhea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 9건 · 논문 169편 --> — 새 항목(naproxen-dysmenorrhea-pos)
 - [ ] remdesivir — Covid19에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 4484편 -->
 - [ ] remdesivir — SARS-CoV-2에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 14건 · 논문 3561편 -->
 - [ ] remdesivir — Pneumonia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 4건 · 논문 2507편 -->
@@ -9771,7 +9771,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] etoricoxib — Arthritis에 듣는다  <!-- 시험 10건 · 논문 263편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] etoricoxib — Ankylosing Spondylitis에 듣는다  <!-- 시험 5건 · 논문 46편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] etoricoxib — Headache에 듣는다  <!-- 시험 4건 · 논문 19편 --> — 신규 항목(etoricoxib-headache-pos)
-- [ ] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] levocetirizine — Urticaria에 듣는다  <!-- 시험 12건 · 논문 173편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(levocetirizine-urticaria-pos)
 - [x] levocetirizine — Dermatitis에 듣는다  <!-- 시험 4건 · 논문 34편 --> — 직접 레보세티리진 사람 치료 결과 없음(2026-08-05 조회)
 - [x] levocetirizine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 62편 --> — 신규 항목(levocetirizine-pruritus-pos)
 - [x] ofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 1764편 --> — 결핵 2차 치료 표준 요법(2026-08-05)
@@ -9943,10 +9943,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] sulbactam — Wound Infections에 듣는다  <!-- 시험 9건 · 논문 340편 --> — 허가·표준 항균요법(2026-08-05)
 - [x] sulbactam — Sepsis Bacterial에 듣는다  <!-- 시험 4건 · 논문 328편 --> — 허가·표준 항균요법(2026-08-05)
 - [x] sulbactam — Lung Abscess에 듣는다  <!-- 시험 3건 · 논문 33편 --> — 표준 항균요법(2026-08-06)
-- [ ] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] loratadine — Urticaria에 듣는다  <!-- 시험 6건 · 논문 267편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(loratadine-urticaria-pos)
 - [x] loratadine — Bone Pain에 듣는다  <!-- 시험 4건 · 논문 15편 --> — 항목 loratadine-bone-pain-null
 - [x] loratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 101편 --> — 항목 loratadine-pruritus-pos
-- [ ] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] loratadine — Allergy에 듣는다  <!-- 시험 3건 · 논문 976편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(loratadine-allergy-null)
 - [x] indacaterol — Asthma에 듣는다  <!-- 시험 22건 · 논문 165편 --> — 항목 indacaterol-asthma-pos
 - [ ] indacaterol — COPD에 듣는다  <!-- 시험 19건 · 논문 491편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [x] phenylephrine — Spinal에 듣는다  <!-- 시험 41건 · 논문 979편 --> — 표준 마취·혈압 유지(2026-08-06)

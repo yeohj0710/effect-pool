@@ -1,0 +1,30 @@
+{
+  "id": "aspirin-cardiovascular-events-harm",
+  "subj": "아스피린",
+  "claim": "심혈관질환이 없는 사람에게 아스피린을 써 심혈관 사건을 예방한다",
+  "line": "일차예방에서 아스피린은 심혈관 사건을 조금 줄였지만 주요 출혈은 더 잦았습니다.",
+  "effect": "심혈관 HR 0.89·출혈 1.43",
+  "vs": "심혈관질환이 없는 164,225명 메타분석에서 심혈관 사건은 아스피린군 57.1 대 대조군 61.4건/만 인년(HR 0.89), 주요 출혈은 아스피린군 23.1 대 대조군 16.4건/만 인년(HR 1.43)으로 달랐습니다.",
+  "tier": "trial",
+  "dir": "harm",
+  "n": 164225,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "심혈관질환이 없는 사람의 일차예방은 아스피린의 일반적 허가 적응증이 아닙니다.",
+  "why": "심혈관질환 병력이 없는 사람을 아스피린과 위약 또는 무치료에 무작위 배정한 13개 시험을 합친 메타분석입니다.",
+  "saw": "절대 심혈관 사건 감소는 0.38%였지만 주요 출혈 절대 증가는 0.47%였고, 치료필요수 265명보다 위해필요수 210명이 작았습니다.",
+  "limit": "시험마다 기본 위험과 출혈 정의가 달랐고 개인의 심혈관 위험·출혈 위험에 따라 절대효과가 달라집니다.",
+  "against": "2009년 개별자료 메타분석도 심각한 혈관 사건은 12% 줄였지만 출혈 위험을 함께 보고했습니다.",
+  "use": "일차예방에서 작은 심혈관 이득과 주요 출혈 증가를 함께 보여주는 근거로 기록합니다.",
+  "refs": [
+    { "label": "아스피린 심혈관 일차예방 무작위시험 메타분석", "pmid": "30667501" },
+    { "label": "아스피린 혈관질환 일차·이차예방 개별자료 메타분석", "pmid": "19482214" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "aspirin AND Cardiovascular Events: 121건 반환, intervention 일치 48건(NCT03796156·NCT01776424·NCT01755520 등)",
+    "pubmed": "aspirin AND Cardiovascular Events: 6,556편",
+    "negative": "aspirin AND Cardiovascular Events AND (no effect OR did not OR failed OR negative OR no significant difference): 4,990편",
+    "safety": "aspirin AND (adverse OR toxicity OR hepatotoxicity OR harm OR case report OR overdose OR self-medication): 27,665편"
+  }
+}
