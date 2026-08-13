@@ -20025,7 +20025,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] olodaterol — Asthma에 듣는다 — 근거 있음(2026-08-11, PMID 26283085·NCT00467740·NCT01013753)  <!-- 시험 5건 · 논문 56편 -->
 - [x] olodaterol — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 263편 --> <!-- batch 1280; PMID 25829298; NCT00452400 -->
 - [x] aclidinium — COPD에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 250편 --> <!-- batch 1280; PMID 23819698 -->
-- [ ] olopatadine — Rhinitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 107편 -->
+- [x] olopatadine — Rhinitis에 듣는다 — 근거 있음(2026-08-13, PMID 19243710; 반사 TNSS 감소 26.8% 대 18.4%) <!-- 시험 3건 · 논문 107편 --> <!-- batch 1281 -->
 - [x] bovine colostrum — Feeding Intolerance에 듣는다 — 근거 있음(2026-08-11, PMID 41798170)  <!-- 시험 5건 · 논문 14편 -->
 - [x] bovine colostrum — Sepsis에 듣는다 — 근거 있음(2026-08-11, PMID 27283365)  <!-- 시험 5건 · 논문 73편 -->
 - [x] bovine colostrum — Infections에 듣는다 — 근거 없음(2026-08-11, bovine colostrum AND Infections)  <!-- 시험 3건 · 논문 1427편 -->
@@ -20056,8 +20056,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] rosiglitazone — Cushing's Disease에 듣는다 — 근거 있음(2026-08-11, PMID 19919817·NCT00612066)  <!-- 시험 13건 · 논문 15편 -->
 - [x] rosiglitazone — Glucose Intolerance에 듣는다 — 근거 있음(2026-08-11, PMID 38148342·NCT00746174)  <!-- 시험 13건 · 논문 109편 -->
 - [x] rosiglitazone — HIV Infections에 듣는다 — 근거 있음(2026-08-11, PMID 27077672·25536669·NCT00130286)  <!-- 시험 10건 · 논문 65편 -->
-- [ ] ceftazidime — Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 16건 · 논문 11232편 -->
-- [ ] ceftazidime — Urinary Tract Infection에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 9건 · 논문 1039편 -->
+- [x] ceftazidime — Infection에 듣는다 — 근거 있음(2026-08-13, PMID 1804598; 임상 반응 90% 대 90%) <!-- 시험 16건 · 논문 11232편 --> <!-- batch 1281 -->
+- [x] ceftazidime — Urinary Tract Infection에 듣는다 — 근거 있음(2026-08-13, PMID 8452167; 임상 치유 89% 대 86%) <!-- 시험 9건 · 논문 1039편 --> <!-- batch 1281 -->
 - [x] ceftazidime — Bacterial Keratitis에 듣는다 — 근거 없음(2026-08-11 조회, ceftazidime AND Bacterial Keratitis; 등록정보 NCT05655689는 있지만 결과 논문 없음)  <!-- 시험 9건 · 논문 128편 -->
 - [x] ceftazidime — Cystic Fibrosis에 듣는다 — 근거 있음(2026-08-11, PMID 6352647)  <!-- 시험 8건 · 논문 566편 -->
 - [x] DHEA — Infertility에 듣는다 — 근거 있음(2026-08-11, PMID 20729538)  <!-- 시험 9건 · 논문 631편 -->
@@ -20096,9 +20096,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] pasireotide — Acromegaly에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 11건 · 논문 281편 -->
+- [x] pasireotide — Acromegaly에 듣는다 — 근거 있음(2026-08-13, PMID 24423324; 생화학적 조절 31.3% 대 19.2%) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 11건 · 논문 281편 --> <!-- batch 1281 -->
 - [x] pasireotide — Carcinoid Tumors에 듣는다 — 종양 주제(2026-08-11)  <!-- 시험 11건 · 논문 36편 -->
-- [ ] pasireotide — Cushing Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 238편 -->
+- [x] pasireotide — Cushing Disease에 듣는다 — 근거 있음(2026-08-13, PMID 22397653; 요중 코르티솔 정상화 26.3% 대 14.6%) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 7건 · 논문 238편 --> <!-- batch 1281 -->
 - [x] pasireotide — Polycystic Liver Disease에 듣는다 — 근거 있음(2026-08-11, PMID 32843370; 29318424)  <!-- 시험 4건 · 논문 10편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -20125,7 +20125,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] dextromethorphan-bupropion — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 37편 -->
+- [x] dextromethorphan-bupropion — Major Depressive Disorder에 듣는다 — 근거 있음(2026-08-13, PMID 35582785; MADRS 차이 -4.9점) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 3건 · 논문 37편 --> <!-- batch 1281 -->
 - [x] d-cycloserine — Obsessive-Compulsive Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 32789516)  <!-- 시험 10건 · 논문 70편 -->
 - [x] d-cycloserine — Pain에 듣는다 — 근거 있음(2026-08-11, PMID 27852965)  <!-- 시험 9건 · 논문 46편 -->
 - [x] d-cycloserine — Posttraumatic Stress Disorder에 듣는다 — 근거 있음(2026-08-11, PMID 35896533)  <!-- 시험 9건 · 논문 97편 -->
@@ -20133,7 +20133,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ibogaine — Drug Dependence에 듣는다 — 근거 없음(2026-08-11 조회, ibogaine AND Drug Dependence; 완료 NCT04003948·NCT03380728의 직접 치료결과 논문 확인 못함)  <!-- 시험 3건 · 논문 212편 -->
 - [x] nitrous oxide — Opioid-Related Disorders에 듣는다 — 근거 있음(2026-08-11, PMID 4003611)  <!-- 시험 20건 · 논문 26편 -->
 - [x] nitrous oxide — Major Surgery에 듣는다 — 근거 있음(2026-08-11, PMID 25142708)  <!-- 시험 17건 · 논문 417편 -->
-- [ ] nitrous oxide — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 14건 · 논문 12070편 -->
+- [x] nitrous oxide — Anesthesia에 듣는다 — 근거 있음(2026-08-13, PMID 42290111; 발관 5.5분 대 9.1분) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 14건 · 논문 12070편 --> <!-- batch 1281 -->
 - [x] nitrous oxide — Anxiety에 듣는다 — 근거 있음(2026-08-11, PMID 37020767)  <!-- 시험 14건 · 논문 633편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -20145,9 +20145,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] brolucizumab — Diabetic Macula Edema에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 12편 -->
+- [x] brolucizumab — Diabetic Macula Edema에 듣는다 — 근거 있음(2026-08-13, PMID 37971723; BCVA +12.2 대 +11.0 letters) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 8건 · 논문 12편 --> <!-- batch 1281 -->
 - [x] brolucizumab — Choroidal Neovascularization에 듣는다  <!-- 시험 3건 · 논문 75편 -->
-- [ ] lifitegrast — Ocular Discomfort에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 21편 -->
+- [x] lifitegrast — Ocular Discomfort에 듣는다 — 근거 있음(2026-08-13, PMID 26365210; 건조감 치료효과 12.61) <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->  <!-- 시험 5건 · 논문 21편 --> <!-- batch 1281 -->
 - [x] lifitegrast — Contact Lens에 듣는다  <!-- 시험 4건 · 논문 14편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
@@ -20185,7 +20185,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cytisine — Tobacco에 듣는다  <!-- 시험 4건 · 논문 185편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] cytisine — Tobacco에 듣는다 — 근거 있음(2026-08-13, PMID 21991893; 12개월 금연 8.4% 대 2.4%)  <!-- 시험 4건 · 논문 185편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1281 -->
 - [x] cytisine — Alcohol Use에 듣는다  <!-- 시험 3건 · 논문 53편 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
