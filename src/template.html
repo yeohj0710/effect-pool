@@ -685,10 +685,14 @@ viewsEl.addEventListener('click', e => {
   render(); syncUrl();
 });
 
-let typing;
+/* 글자를 칠 때마다 5천 줄을 다시 거르면 폰에서 한 타에 0.5초씩 멈춘다.
+   90ms 안에 이어 친 글자는 한 번으로 묶고, 치는 동안에는 화면 전환 효과를 끈다
+   (전환 효과가 매 타자마다 화면을 통째로 스냅숏 뜬다). */
+let typing, searching;
 qEl.addEventListener('input', e => {
   query = e.target.value.trim();
-  render();
+  clearTimeout(searching);
+  searching = setTimeout(() => paint(), 90);
   clearTimeout(typing);
   typing = setTimeout(() => syncUrl(true), 400);  // 글자마다 기록을 남기지 않는다
 });
@@ -706,6 +710,12 @@ function render(){
 let watchers = [];   // 이어 붙이기를 지켜보는 눈. 다시 그릴 때 놓아준다
 let fills = [];      // 묶음마다 "끝까지 그리기"
 
+/* 찾을 거리를 항목마다 한 번만 만들어 붙여 둔다.
+   글자마다 이어 붙이고 소문자로 바꾸면 5천 줄 × 네 칸을 매번 새로 만든다.
+   첫 검색 때 한 번 만들고 그다음부터는 그대로 쓴다. */
+const hay = (e) => e._h || (e._h =
+  (e.subj + ' ' + e.line + ' ' + e.claim + ' ' + (e.effect || '')).toLowerCase());
+
 function paint(){
   watchers.forEach((o) => o.disconnect());
   watchers = []; fills = [];
@@ -713,7 +723,7 @@ function paint(){
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
     (kindFilter === 'all' || e.kind === kindFilter) &&
-    (!q || (e.subj + e.line + e.claim + (e.effect || '')).toLowerCase().includes(q)));
+    (!q || hay(e).includes(q)));
 
   hitsEl.textContent = (query || filter !== 'all' || kindFilter !== 'all')
     ? hits.length + '건' : '';
