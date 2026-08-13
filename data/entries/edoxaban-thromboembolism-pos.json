@@ -1,0 +1,29 @@
+{
+  "id": "edoxaban-thromboembolism-pos",
+  "subj": "에독사반",
+  "claim": "에독사반이 급성 정맥혈전색전증 재발을 와파린보다 줄이면서 임상적으로 중요한 출혈도 줄인다",
+  "line": "급성 정맥혈전색전증 무작위시험에서 에독사반과 와파린을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 8240,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "에독사반은 정맥혈전색전증 치료와 재발 예방에 허가된 경구 Xa 억제제다",
+  "why": "헤파린 초기치료 후 에독사반과 와파린을 3-12개월 비교한 이중맹검 비열등성 시험이다",
+  "saw": "재발성 정맥혈전색전증은 에독사반 3.2%(130명), 와파린 3.5%(146명)였고 HR은 0.89(95% CI 0.70-1.13)로 비열등했다. 주요 또는 임상적으로 중요한 비주요 출혈은 8.5% 대 10.3%, HR 0.81이었다.",
+  "limit": "모든 환자가 헤파린 초기치료를 받았고 와파린 치료범위 내 시간이 63.5%였다.",
+  "against": "신기능·체중에 따른 감량이 필요하며 정맥혈전색전증 유형과 출혈 위험을 함께 판단해야 한다.",
+  "use": "급성 정맥혈전색전증 항응고제를 선택할 때 재발 비열등성과 출혈 감소 자료로 참고한다.",
+  "effect": "재발 HR 0.89; 출혈 HR 0.81",
+  "vs": "정맥혈전색전증 8,240명 무작위시험에서 에독사반과 와파린을 비교했다. 재발은 130명 vs 146명(3.2% vs 3.5%), HR 0.89(95% CI 0.70-1.13), 주요·임상적 비주요 출혈은 8.5% vs 10.3%, HR 0.81이었다.",
+  "refs": [
+    { "label": "Hokusai-VTE Investigators 2013 · New England Journal of Medicine · 정맥혈전색전증 무작위시험", "pmid": "23991658", "nct": "NCT00986154" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=edoxaban, query.cond=Thromboembolism → 첫 100건 중 정확한 intervention 이름 12건 확인",
+    "pubmed": "edoxaban AND Thromboembolism → 1,249건",
+    "negative": "edoxaban AND Thromboembolism AND (no effect OR did not OR failed OR negative OR no significant difference) → 910건",
+    "safety": "edoxaban AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 629건"
+  }
+}

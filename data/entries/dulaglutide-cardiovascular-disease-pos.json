@@ -1,0 +1,29 @@
+{
+  "id": "dulaglutide-cardiovascular-disease-pos",
+  "subj": "둘라글루타이드",
+  "claim": "둘라글루타이드가 제2형 당뇨병 고위험군의 주요 심혈관 사건을 위약보다 줄인다",
+  "line": "제2형 당뇨병 심혈관 고위험군 REWIND 무작위시험에서 둘라글루타이드와 위약을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 9901,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "둘라글루타이드는 제2형 당뇨병 치료에 허가된 GLP-1 수용체 작용제다",
+  "why": "5.4년 중앙 추적의 이중맹검 위약대조 심혈관 결과시험이다",
+  "saw": "주요 심혈관 복합 사건은 둘라글루타이드 12.0%(594/4949), 위약 13.4%(663/4952)였고 HR은 0.88(95% CI 0.79-0.99)였다. 위장관 이상반응은 47.4% 대 34.1%였다.",
+  "limit": "당뇨병과 심혈관 위험인자가 있는 50세 이상 환자 대상이며 모든 당뇨병 환자의 절대위험이 같지는 않다.",
+  "against": "전체 사망은 유의하게 다르지 않았고 위장관 이상반응은 둘라글루타이드에서 더 많았다.",
+  "use": "제2형 당뇨병에서 혈당강하와 심혈관 위험 감소를 함께 고려할 때 REWIND 근거로 참고한다.",
+  "effect": "주요 CV 사건 HR 0.88",
+  "vs": "제2형 당뇨병 심혈관 고위험군 9,901명에서 둘라글루타이드와 위약을 비교했다. 주요 심혈관 사건은 12.0%(594/4949) vs 13.4%(663/4952), HR 0.88(95% CI 0.79-0.99)였다.",
+  "refs": [
+    { "label": "Gerstein 2019 · The Lancet · REWIND 심혈관 결과시험", "pmid": "31189511", "nct": "NCT01394952" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=dulaglutide, query.cond=Cardiovascular Disease → 첫 100건 중 정확한 intervention 이름 9건 확인",
+    "pubmed": "dulaglutide AND Cardiovascular Disease → 270건",
+    "negative": "dulaglutide AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) → 220건",
+    "safety": "dulaglutide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 623건"
+  }
+}

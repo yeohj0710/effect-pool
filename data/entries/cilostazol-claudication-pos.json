@@ -1,0 +1,29 @@
+{
+  "id": "cilostazol-claudication-pos",
+  "subj": "실로스타졸",
+  "claim": "실로스타졸이 말초동맥질환 간헐적 파행의 보행거리를 위약보다 늘린다",
+  "line": "간헐적 파행 무작위시험 메타분석에서 실로스타졸과 위약의 보행거리·발목상완지수를 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 5352,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "실로스타졸은 말초동맥질환의 간헐적 파행 증상 개선에 허가되어 있다",
+  "why": "29개 무작위시험을 통합한 네트워크 메타분석에서 실로스타졸과 위약을 비교했다",
+  "saw": "위약 대비 최대 보행거리 증가는 실로스타졸 62.93m(95% CI 44.06-81.79), 통증 없는 보행거리 증가는 23.92m(95% CI 11.24-36.61)였다. 발목상완지수는 0.06 증가했다.",
+  "limit": "네트워크 메타분석의 간접 비교이며 연구별 보행검사와 환자 특성이 달랐다.",
+  "against": "보행거리 개선은 증상 효과이지 혈관 사건 예방 효과가 아니며 두통·설사 등 이상반응을 고려해야 한다.",
+  "use": "간헐적 파행의 운동·금연·위험인자 관리에 실로스타졸을 추가할 때 보행거리 근거로 참고한다.",
+  "effect": "최대 보행거리 +62.93m",
+  "vs": "간헐적 파행 RCT 29개, 5,352명 메타분석에서 위약 대비 최대 보행거리 증가는 실로스타졸 +62.93m(95% CI 44.06-81.79), 통증 없는 보행거리는 +23.92m(95% CI 11.24-36.61)였다.",
+  "refs": [
+    { "label": "Wang 2022 · Medicine · 간헐적 파행 실로스타졸 네트워크 메타분석", "pmid": "36318524" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=cilostazol, query.cond=Claudication → 첫 100건 중 정확한 intervention 이름 7건 확인",
+    "pubmed": "cilostazol AND Claudication → 347건",
+    "negative": "cilostazol AND Claudication AND (no effect OR did not OR failed OR negative OR no significant difference) → 244건",
+    "safety": "cilostazol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 881건"
+  }
+}

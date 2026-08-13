@@ -1,0 +1,29 @@
+{
+  "id": "ribavirin-hcv-null",
+  "subj": "리바비린",
+  "claim": "리바비린 단독이 만성 HCV의 바이러스 RNA를 줄인다",
+  "line": "만성 HCV 무작위시험에서 리바비린 단독과 위약의 바이러스·간효소 결과를 비교했다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 58,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "리바비린 단독요법은 현재 만성 HCV 표준치료가 아니다",
+  "why": "12개월 무작위 이중맹검 위약대조시험이 리바비린 단독의 바이러스 RNA와 간효소 효과를 직접 비교했다",
+  "saw": "리바비린 29명과 위약 29명에서 혈청 아미노전이효소 정상화는 35% 대 0%였지만 HCV RNA는 치료 중에도 변하지 않았다. 치료 종료 후 정상 간효소가 유지된 환자는 7%뿐이었다.",
+  "limit": "구형 인터페론 시대 시험이며 리바비린 단독은 바이러스 RNA를 줄이지 못했다.",
+  "against": "간효소와 조직 염증은 일시적으로 좋아졌지만 지속 바이러스 반응이나 HCV RNA 억제 근거는 없었다.",
+  "use": "현재 HCV 치료에서 리바비린을 단독 항바이러스제로 사용하지 않는 근거를 설명할 때 참고한다.",
+  "effect": "HCV RNA 변화 없음",
+  "vs": "만성 HCV 환자 58명에서 리바비린 600mg 하루 2회 29명과 위약 29명을 12개월 비교했다. 간효소 정상화는 35% vs 0%였지만 HCV RNA는 변하지 않았고 치료 후 유지율은 7%였다.",
+  "refs": [
+    { "label": "Davis 1994 · Annals of Internal Medicine · 리바비린 단독 위약대조시험", "pmid": "7486483" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ribavirin, query.cond=HCV → 첫 100건 중 정확한 intervention 이름 43건 확인",
+    "pubmed": "ribavirin AND HCV → 9,363건",
+    "negative": "ribavirin AND HCV AND (no effect OR did not OR failed OR negative OR no significant difference) → 6,693건",
+    "safety": "ribavirin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,886건"
+  }
+}

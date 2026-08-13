@@ -1,0 +1,29 @@
+{
+  "id": "adalimumab-ankylosing-spondylitis-pos",
+  "subj": "아달리무맙",
+  "claim": "아달리무맙이 활동성 강직성 척추염의 증상을 위약보다 개선한다",
+  "line": "활동성 강직성 척추염 무작위 위약대조시험에서 아달리무맙의 12주 반응을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 315,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아달리무맙은 활동성 강직성 척추염 치료에 허가되어 있다",
+  "why": "24주 이중맹검 무작위 위약대조시험에서 ASAS 반응과 질병활동을 직접 평가했다",
+  "saw": "12주 ASAS20 반응은 아달리무맙 58.2%(121/208), 위약 20.6%(22/107)였다. BASDAI 50% 개선은 45.2% 대 15.9%, 부분관해는 22.1% 대 5.6%였다.",
+  "limit": "24주 단기 시험이고 아달리무맙군에서 전체 이상반응이 75.0%로 위약 59.8%보다 많았다.",
+  "against": "감염 발생률 차이는 유의하지 않았지만 TNF 억제제의 감염·주사 관련 위험을 지속 감시해야 한다.",
+  "use": "활동성 강직성 척추염에서 비스테로이드 치료로 조절되지 않을 때 생물학적제제 선택 근거로 참고한다.",
+  "effect": "12주 ASAS20 58.2% vs 20.6%",
+  "vs": "강직성 척추염 315명 무작위시험에서 12주 ASAS20은 아달리무맙 58.2%(121/208) vs 위약 20.6%(22/107), BASDAI 50% 개선은 45.2% vs 15.9%였다.",
+  "refs": [
+    { "label": "van der Heijde 2006 · Arthritis & Rheumatology · 강직성 척추염 아달리무맙 무작위시험", "pmid": "16802350" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=adalimumab, query.cond=Ankylosing Spondylitis → 첫 100건 중 정확한 intervention 이름 26건 확인",
+    "pubmed": "adalimumab AND Ankylosing Spondylitis → 947건",
+    "negative": "adalimumab AND Ankylosing Spondylitis AND (no effect OR did not OR failed OR negative OR no significant difference) → 639건",
+    "safety": "adalimumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,419건"
+  }
+}

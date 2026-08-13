@@ -1,0 +1,29 @@
+{
+  "id": "tacrolimus-kidney-pos",
+  "subj": "타크로리무스",
+  "claim": "타크로리무스가 신장이식 후 사이클로스포린보다 급성 거부반응과 이식편 소실을 줄인다",
+  "line": "신장이식 무작위시험 메타분석에서 타크로리무스와 사이클로스포린의 이식 결과를 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 4102,
+  "synth": "meta",
+  "known": "standard",
+  "knownWhy": "타크로리무스는 신장이식 후 면역억제 표준 약제다",
+  "why": "30개 무작위시험을 통합한 코크란 메타분석이 두 칼시뉴린 억제제를 직접 비교했다",
+  "saw": "6개월 이식편 소실 RR은 타크로리무스가 사이클로스포린보다 0.56(95% CI 0.36-0.86)이었고, 1년 급성 거부반응 RR은 0.69(95% CI 0.60-0.79)였다. 인슐린 필요 당뇨는 RR 1.86으로 늘었다.",
+  "limit": "연구별 병용 면역억제와 약물 농도 목표가 달라 이식센터별 결과가 다를 수 있다.",
+  "against": "타크로리무스는 거부반응을 줄였지만 당뇨·떨림·위장관 이상반응이 더 많았다.",
+  "use": "신장이식 면역억제제를 선택할 때 거부반응 감소와 대사·신경·위장관 부작용을 함께 비교한다.",
+  "effect": "급성 거부반응 RR 0.69",
+  "vs": "신장이식 무작위시험 30개, 4,102명에서 타크로리무스와 사이클로스포린을 비교했다. 6개월 이식편 소실 RR은 0.56(95% CI 0.36-0.86), 1년 급성 거부반응 RR은 0.69(95% CI 0.60-0.79)였다.",
+  "refs": [
+    { "label": "Webster 2005 · Cochrane Database of Systematic Reviews · 신장이식 타크로리무스 메타분석", "pmid": "16235347" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=tacrolimus, query.cond=Kidney → 첫 100건 중 정확한 intervention 이름 31건 확인",
+    "pubmed": "tacrolimus AND Kidney → 9,788건",
+    "negative": "tacrolimus AND Kidney AND (no effect OR did not OR failed OR negative OR no significant difference) → 7,141건",
+    "safety": "tacrolimus AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 14,492건"
+  }
+}

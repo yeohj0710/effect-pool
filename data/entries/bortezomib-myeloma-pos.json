@@ -1,0 +1,29 @@
+{
+  "id": "bortezomib-myeloma-pos",
+  "subj": "보르테조밉",
+  "claim": "보르테조밉 병용이 새로 진단된 다발골수종에서 멜팔란·프레드니손보다 진행을 늦춘다",
+  "line": "이식 고용량요법이 어려운 다발골수종 무작위시험에서 보르테조밉 병용과 대조요법을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 682,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "보르테조밉은 다발골수종 치료에 허가된 프로테아좀 억제제다",
+  "why": "VISTA 3상 무작위시험이 보르테조밉+멜팔란·프레드니손과 멜팔란·프레드니손을 직접 비교했다",
+  "saw": "질병 진행까지 기간은 보르테조밉 병용 24.0개월, 대조군 16.6개월이었고 진행 HR은 0.48이었다. 부분반응 이상은 71% 대 35%, 완전반응은 30% 대 4%였다.",
+  "limit": "고용량 이식이 어려운 새 진단 환자에 대한 병용요법 결과이며 보르테조밉 단독 효과가 아니다.",
+  "against": "3등급 이상 이상반응은 보르테조밉 병용 53%, 대조군 44%로 더 많았다.",
+  "use": "이식이 어려운 새 진단 다발골수종에서 보르테조밉 기반 요법의 진행 지연 근거로 참고한다.",
+  "effect": "진행 HR 0.48",
+  "vs": "새로 진단된 다발골수종 682명에서 보르테조밉+멜팔란·프레드니손과 대조요법을 비교했다. 진행까지 24.0 vs 16.6개월, HR 0.48, 부분반응 이상 71% vs 35%였다.",
+  "refs": [
+    { "label": "San Miguel 2008 · New England Journal of Medicine · VISTA 다발골수종 무작위시험", "pmid": "18753647", "nct": "NCT00111319" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=bortezomib, query.cond=Myeloma → 첫 100건 중 정확한 intervention 이름 59건 확인",
+    "pubmed": "bortezomib AND Myeloma → 7,427건",
+    "negative": "bortezomib AND Myeloma AND (no effect OR did not OR failed OR negative OR no significant difference) → 4,908건",
+    "safety": "bortezomib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 5,429건"
+  }
+}

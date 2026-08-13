@@ -1,0 +1,29 @@
+{
+  "id": "dulaglutide-high-blood-glucose-pos",
+  "subj": "둘라글루타이드",
+  "claim": "둘라글루타이드가 SGLT2 억제제로 조절되지 않는 제2형 당뇨병의 HbA1c를 위약보다 낮춘다",
+  "line": "조절되지 않는 제2형 당뇨병 AWARD-10 무작위시험에서 둘라글루타이드와 위약을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 424,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "둘라글루타이드는 제2형 당뇨병 혈당 조절에 허가된 GLP-1 수용체 작용제다",
+  "why": "SGLT2 억제제 병용에도 조절되지 않는 환자의 24주 이중맹검 위약대조시험이다",
+  "saw": "24주 HbA1c 변화는 둘라글루타이드 1.5mg -1.34%, 0.75mg -1.21%, 위약 -0.54%였다. 위약 대비 차이는 각각 -0.79%p(95% CI -0.97~-0.61), -0.66%p(-0.84~-0.49)였다.",
+  "limit": "SGLT2 억제제 병용 환자 대상의 24주 시험이며 장기 심혈관 결과를 검증한 시험은 아니다.",
+  "against": "위장관 이상반응이 둘라글루타이드에서 더 흔했고 중증 저혈당도 한 건 발생했다.",
+  "use": "SGLT2 억제제 병용에도 혈당이 높은 제2형 당뇨병에서 추가 치료의 HbA1c 효과와 위장관 위험을 함께 본다.",
+  "effect": "HbA1c 차이 -0.79%p",
+  "vs": "조절되지 않는 제2형 당뇨병 424명에서 둘라글루타이드 1.5mg·0.75mg과 위약을 비교했다. HbA1c 변화는 -1.34%, -1.21%, -0.54%, 위약 대비 차이는 -0.79%p와 -0.66%p였다.",
+  "refs": [
+    { "label": "Ludvik 2018 · The Lancet Diabetes & Endocrinology · AWARD-10 무작위시험", "pmid": "29483060", "nct": "NCT02597049" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=dulaglutide, query.cond=Glucose, High Blood → 첫 100건 중 정확한 intervention 이름 1건 확인",
+    "pubmed": "dulaglutide AND Glucose, High Blood → 48건",
+    "negative": "dulaglutide AND Glucose, High Blood AND (no effect OR did not OR failed OR negative OR no significant difference) → 43건",
+    "safety": "dulaglutide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 23건"
+  }
+}

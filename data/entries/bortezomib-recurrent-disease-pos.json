@@ -1,0 +1,29 @@
+{
+  "id": "bortezomib-recurrent-disease-pos",
+  "subj": "보르테조밉",
+  "claim": "재발·불응 다발골수종에서 보르테조밉·덱사메타손에 다라투무맙을 추가하면 진행을 늦춘다",
+  "line": "재발·불응 다발골수종 무작위시험에서 다라투무맙+보르테조밉·덱사메타손과 보르테조밉·덱사메타손을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 498,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "보르테조밉은 재발·불응 다발골수종의 병용요법에 사용된다",
+  "why": "CASTOR 3상 무작위시험이 보르테조밉 기반 대조요법에 다라투무맙을 추가한 효과를 평가했다",
+  "saw": "12개월 무진행생존은 다라투무맙 병용 60.7%, 대조군 26.9%였고 진행·사망 HR은 0.39(95% CI 0.28-0.53)였다. 전체반응은 82.9% 대 63.2%였다.",
+  "limit": "보르테조밉은 양 군에 포함되어 다라투무맙 추가 효과를 평가한 시험이며 보르테조밉 단독 비교가 아니다.",
+  "against": "다라투무맙 병용에서 혈소판감소·중성구감소와 주입 관련 반응이 더 많았다.",
+  "use": "재발·불응 다발골수종에서 보르테조밉 기반 요법을 강화할 때 병용 효과와 혈액학적 독성을 함께 본다.",
+  "effect": "12개월 PFS 60.7% vs 26.9%",
+  "vs": "재발·불응 다발골수종 498명에서 다라투무맙+보르테조밉·덱사메타손과 보르테조밉·덱사메타손을 비교했다. 12개월 무진행생존은 60.7% vs 26.9%, 진행·사망 HR은 0.39(95% CI 0.28-0.53)였다.",
+  "refs": [
+    { "label": "Palumbo 2016 · New England Journal of Medicine · CASTOR 무작위시험", "pmid": "27557302", "nct": "NCT02136134" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=bortezomib, query.cond=Recurrent Disease → 첫 100건 중 정확한 intervention 이름 65건 확인",
+    "pubmed": "bortezomib AND Recurrent Disease → 768건",
+    "negative": "bortezomib AND Recurrent Disease AND (no effect OR did not OR failed OR negative OR no significant difference) → 498건",
+    "safety": "bortezomib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 5,429건"
+  }
+}

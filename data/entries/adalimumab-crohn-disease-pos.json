@@ -1,0 +1,29 @@
+{
+  "id": "adalimumab-crohn-disease-pos",
+  "subj": "아달리무맙",
+  "claim": "아달리무맙이 중등도·중증 크론병의 관해를 위약보다 유지한다",
+  "line": "크론병 CHARM 무작위시험에서 아달리무맙과 위약의 26·56주 관해를 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 854,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "아달리무맙은 중등도·중증 크론병 치료에 허가되어 있다",
+  "why": "유도반응자 854명을 이중맹검으로 재무작위배정한 CHARM 유지시험이다",
+  "saw": "26주 임상 관해는 아달리무맙 40mg 격주 40%, 주 1회 47%, 위약 17%였다. 56주에는 36%, 41%, 12%였고 두 아달리무맙군 모두 위약보다 유의하게 높았다.",
+  "limit": "유도요법에 반응한 환자만 유지 무작위배정에 들어가므로 초기 무반응자에게 같은 결과를 적용할 수 없다.",
+  "against": "아달리무맙은 감염 등 면역억제 위험이 있고, 격주와 주 1회 사이 효능 차이는 확인되지 않았다.",
+  "use": "중등도·중증 크론병 유지치료에서 TNF 억제제의 장기 관해 근거로 참고한다.",
+  "effect": "26주 관해 40% vs 17%",
+  "vs": "크론병 유도반응자 854명에서 26주 관해는 아달리무맙군 40%·47% vs 위약군 17%, 56주는 36%·41% vs 12%였다.",
+  "refs": [
+    { "label": "Colombel 2007 · Gastroenterology · CHARM 크론병 유지 무작위시험", "pmid": "17241859" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=adalimumab, query.cond=Crohn Disease → 첫 100건 중 정확한 intervention 이름 29건 확인",
+    "pubmed": "adalimumab AND Crohn Disease → 2,766건",
+    "negative": "adalimumab AND Crohn Disease AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,719건",
+    "safety": "adalimumab AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,419건"
+  }
+}

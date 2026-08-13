@@ -1,0 +1,29 @@
+{
+  "id": "tramadol-osteoarthritis-null",
+  "subj": "트라마돌",
+  "claim": "트라마돌이 무릎·엉덩관절염 통증에서 임상적으로 중요한 개선을 만든다",
+  "line": "무릎·엉덩관절염 무작위시험 메타분석에서 트라마돌과 위약의 통증·이상반응을 비교했다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 3611,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "트라마돌은 중등도 이상 통증에 허가된 처방 진통제다",
+  "why": "무릎·엉덩관절염 6개 무작위시험의 네트워크 메타분석이 용량별 위약 비교를 제공한다",
+  "saw": "통증 SMD는 위약 대비 100mg -0.16, 200mg -0.21, 300mg -0.30이었지만 효과 크기는 임상적 최소 중요차보다 작았다. 위장관 이상반응 RR은 100mg 2.29, 200mg 4.35, 300mg 6.02였다.",
+  "limit": "용량별 간접 비교이고 통증 이득은 작으며 연구별 탈락·편향 위험이 있다.",
+  "against": "300mg만 기능 개선이 위약보다 유의했지만 이상반응과 중단 위험도 함께 증가했다.",
+  "use": "관절염 통증에서 트라마돌을 선택할 때 작은 통증 이득과 위장관·중추신경계 위험을 함께 설명한다.",
+  "effect": "통증 SMD -0.30",
+  "vs": "관절염 RCT 6개, 3,611명 메타분석에서 통증 SMD는 트라마돌 100mg -0.16, 200mg -0.21, 300mg -0.30 대 위약이었고, 위장관 이상반응 RR은 각각 2.29, 4.35, 6.02였다.",
+  "refs": [
+    { "label": "da Costa 2021 · Journal of Rheumatology · 관절염 트라마돌 네트워크 메타분석", "pmid": "34251756" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=tramadol, query.cond=Osteoarthritis → 첫 100건 중 정확한 intervention 이름 3건 확인",
+    "pubmed": "tramadol AND Osteoarthritis → 303건",
+    "negative": "tramadol AND Osteoarthritis AND (no effect OR did not OR failed OR negative OR no significant difference) → 223건",
+    "safety": "tramadol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 188건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "edoxaban-embolism-pos",
+  "subj": "에독사반",
+  "claim": "고용량 에독사반이 심방세동 환자의 전신색전증을 와파린보다 줄이는 방향을 보인다",
+  "line": "심방세동 뇌졸중·전신색전증 무작위시험에서 고용량 에독사반과 와파린을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 21105,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "에독사반은 심방세동의 전신색전증 예방에 허가된 항응고제다",
+  "why": "ENGAGE AF-TIMI 48의 사전 지정 복합 결과에 전신색전증이 포함되어 있다",
+  "saw": "치료기간 뇌졸중·전신색전증 연간률은 고용량 에독사반 1.18%, 와파린 1.50%였고 HR은 0.79(97.5% CI 0.63-0.99)였다. 주요 출혈은 2.75% 대 3.43%였다.",
+  "limit": "전신색전증 단독 결과가 아니라 뇌졸중과 결합한 복합 결과이며 고용량 ITT 우월성은 확정적이지 않았다.",
+  "against": "항응고 효과와 출혈 위험의 균형을 환자별로 평가해야 하며 저용량은 효능이 다를 수 있다.",
+  "use": "심방세동의 전신색전증 예방을 설명할 때 복합 결과와 용량별 불확실성을 함께 제시한다.",
+  "effect": "복합 색전 HR 0.79",
+  "vs": "심방세동 21,105명 무작위시험에서 고용량 에독사반과 와파린의 치료기간 뇌졸중·전신색전증은 1.18% vs 1.50%, HR 0.79(97.5% CI 0.63-0.99)였고 주요 출혈은 2.75% vs 3.43%였다.",
+  "refs": [
+    { "label": "Giugliano 2013 · New England Journal of Medicine · ENGAGE AF-TIMI 48", "pmid": "24251359", "nct": "NCT00781391" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=edoxaban, query.cond=Embolism → 첫 100건 중 정확한 intervention 이름 14건 확인",
+    "pubmed": "edoxaban AND Embolism → 801건",
+    "negative": "edoxaban AND Embolism AND (no effect OR did not OR failed OR negative OR no significant difference) → 605건",
+    "safety": "edoxaban AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,382건"
+  }
+}
