@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6034,
-  "subjects": 2305,
-  "refs": 8396,
+  "entries": 6062,
+  "subjects": 2323,
+  "refs": 8425,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2590
+    "rx": 2618
   },
   "tiers": {
-    "trial": 5211,
+    "trial": 5239,
     "obs": 728,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3635,
-    "null": 1198,
+    "pos": 3660,
+    "null": 1201,
     "open": 1038,
     "harm": 163
   },
   "worklist": {
     "total": 15542,
-    "checked": 15352,
-    "unchecked": 190,
+    "checked": 15382,
+    "unchecked": 160,
     "no_evidence_pending": 2058,
-    "note": "Batch 1274 checked 30 unique prescription topics from worklist lines 12863-14285. New evidence entries: 23; existing links: 4; no-evidence rejects: 3 because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect."
+    "note": "Batch 1275 checked 30 unique prescription topics from worklist lines 14286-15853. New evidence entries: 28; existing links: 2; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.8% (951 entries)",
-    "rx_share": "42.9% (2,590 entries)",
-    "no_effect_or_harm_share": "22.6% (1,361 entries)",
-    "vs_share": "16.4% (990 entries)",
+    "over_counter_share": "15.7% (951 entries)",
+    "rx_share": "43.2% (2,618 entries)",
+    "no_effect_or_harm_share": "22.5% (1,364 entries)",
+    "vs_share": "16.8% (1,018 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.4% (5,211 entries)",
+    "trial_share": "86.4% (5,239 entries)",
     "non_trial_share": "13.6% (823 entries)",
     "build_warnings": {
-      "unknown_n": 455,
-      "thin_study": 1004,
+      "unknown_n": 743,
+      "thin_study": 1192,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1275 starts after batch 1274. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 14286: ravulizumab — PNH에 듣는다. 190 unchecked rows remain.",
+  "next": "Batch 1276 starts after batch 1275. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 15856: maraviroc — AIDS에 듣는다. 160 unchecked rows remain.",
   "last_batch": {
-    "id": "1274",
-    "commit": "53685d96",
+    "id": "1275",
+    "commit": "0af38314",
     "pushed": true,
     "processed_topics": 30,
-    "new_entries": 23,
-    "existing_links": 4,
-    "no_evidence_rejects": 3,
+    "new_entries": 28,
+    "existing_links": 2,
+    "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6034 entries; 8396 refs; 5211 trial; 728 obs; 31 animal; 17 lab; 47 case; 990 numeric comparison entries; worklist 15352/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 36001711, 31862249, 35499850, 31734103, 32412700, 23883377, 39172446, 35235726, 36634694, 34739196, 41730814, 32187462, 27299809, 30360964, 25007392, 36746171, 26699169, 32770640, 28596043, 35471153, 40387033, 39474720, 38030318, 41337715, and 38319212. Existing links reused inclisiran-ldl-cholesterol-pos for Hypercholesterolaemia, danicopan-paroxysmal-nocturnal-hemoglobinuria-pos for PNH, pegcetacoplan-c3-glomerulopathy-pos for C3 Glomerulopathy, and ravulizumab-myasthenia-gravis-pos for gMG. Three topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible topic-specific direct numeric comparator effect. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "build": "6062 entries; 8425 refs; 5239 trial; 728 obs; 31 animal; 17 lab; 47 case; 1018 numeric comparison entries; worklist 15382/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 30510080, 38461841, 35429480, 20647200, 21795446, 23060426, 23152839, 24013058, 16316359, 20016142, 38493933, 33077895, 32757523, 26784000, 37921461, 28097356, 29113731, 34032663, 31340089, 33732977, 33913637, 33596356, 28093483, 17617272, 17617270, and 17617271. Existing links reused remimazolam-sedation-null for Endoscopy and the new darunavir-aids-virus-pos entry for AIDS. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1,
+    "targeted_batch_warnings_fixed": 5,
+    "remaining_expected_thin_warnings": 2,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1275",
-    "worklist_line": 14286,
-    "topic": "ravulizumab — PNH에 듣는다",
-    "unchecked": 190
+    "next_batch": "1276",
+    "worklist_line": 15856,
+    "topic": "maraviroc — AIDS에 듣는다",
+    "unchecked": 160
   }
 }
