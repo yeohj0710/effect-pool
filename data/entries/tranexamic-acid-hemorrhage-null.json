@@ -5,8 +5,12 @@
   "line": "상부 위장관 출혈에서 트라넥삼산은 사망을 줄이지 못했습니다",
   "tier": "trial",
   "dir": "null",
+  "effect": "사망 RR 0.99",
+  "vs": "HALT-IT 상부·하부 위장관 출혈 12,009명 무작위시험에서 5일 내 출혈 사망은 트라넥삼산군 222/5,956명(4%), 위약군 226/5,981명(4%), RR 0.99(95% CI 0.82~1.18)였습니다. 정맥 혈전색전증은 0.8% 대 0.4%, RR 1.85(95% CI 1.15~2.98)였습니다.",
   "n": 34351,
   "synth": "meta",
+  "known": "label",
+  "knownWhy": "수술·외상 등 출혈 조절에 사용하는 항섬유소용해제입니다.",
   "why": "상부 위장관 출혈에서 트라넥삼산의 사망률, 재출혈, 혈전색전증을 평가한 체계적 문헌고찰 6편의 개요입니다.",
   "saw": "6개 체계적 문헌고찰에 포함된 34,351명에서 고품질 근거는 트라넥삼산의 상부 위장관 출혈 사망 감소를 지지하지 않았고, 안전성도 불확실했습니다.",
   "limit": "서로 다른 체계적 문헌고찰을 다시 합친 개요라 원자료의 중복 가능성이 있고, 상부 위장관 출혈에 한정된 결과입니다.",
@@ -20,13 +24,18 @@
     {
       "label": "2026 · 고위험 제왕절개 산후출혈 트라넥삼산 메타분석",
       "pmid": "42426676"
+    },
+    {
+      "label": "HALT-IT 2020 · The Lancet · 위장관 출혈 트라넥삼산 RCT",
+      "pmid": "32563378",
+      "nct": "NCT01658124"
     }
   ],
   "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=tranexamic acid&query.cond=Hemorrhage → 533건 반환, InterventionName에 tranexamic acid 포함 466건",
-    "pubmed": "tranexamic acid hemorrhage → 7,484건",
-    "negative": "tranexamic acid hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5,277건",
-    "safety": "tranexamic acid hemorrhage AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,189건"
+    "date": "2026-08-13",
+    "ctgov": "query.intr=tranexamic acid&query.cond=Hemorrhage · 536건 반환, InterventionName에 tranexamic acid 포함 89건",
+    "pubmed": "tranexamic acid AND Hemorrhage · 7,497건",
+    "negative": "tranexamic acid AND Hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) · 5,038건",
+    "safety": "tranexamic acid AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 3,461건"
   }
 }

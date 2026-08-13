@@ -1,0 +1,29 @@
+{
+  "id": "lidocaine-anesthesia-pos",
+  "subj": "리도카인",
+  "claim": "리도카인이 동맥 천자 국소마취 통증을 줄인다",
+  "line": "동맥 천자 전 리도카인 스프레이는 위약보다 시술 통증을 낮췄습니다.",
+  "effect": "VAS 24mm vs 33mm",
+  "vs": "응급실 동맥 천자 67명 이중눈가림 무작위시험에서 천자 중 VAS 통증은 리도카인군 24.00mm(IQR 14.75~33.75), 위약군 33.00mm(IQR 22.00~61.50)였습니다(P=.011).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 67,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "국소마취에 사용하는 아미드계 국소마취제입니다.",
+  "why": "동맥혈 가스분석을 위해 요골동맥 천자를 받는 환자를 10% 리도카인 스프레이와 위약에 무작위 배정한 시험입니다.",
+  "saw": "천자 중 VAS 통증 중앙값이 리도카인군에서 위약군보다 9mm 낮았습니다.",
+  "limit": "응급실 동맥 천자 한 시술의 결과이며 다른 마취 방법이나 수술 통증으로 일반화할 수 없습니다.",
+  "against": "표본이 67명인 단기 통증 시험이라 반복 시술과 드문 국소마취제 독성은 평가하기 어렵습니다.",
+  "use": "동맥 천자 전 국소마취에서 리도카인 스프레이와 위약의 통증 차이를 설명하는 근거입니다.",
+  "refs": [
+    { "label": "Karakaya 2022 · American Journal of Emergency Medicine · 요골동맥 천자 리도카인 스프레이 RCT", "pmid": "34879493" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=lidocaine&query.cond=Anesthesia · 982건 반환, InterventionName에 lidocaine 포함 44건",
+    "pubmed": "lidocaine AND Anesthesia · 16,440건",
+    "negative": "lidocaine AND Anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 11,384건",
+    "safety": "lidocaine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 12,084건"
+  }
+}

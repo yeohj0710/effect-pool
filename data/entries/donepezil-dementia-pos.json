@@ -1,0 +1,30 @@
+{
+  "id": "donepezil-dementia-pos",
+  "subj": "도네페질",
+  "claim": "도네페질이 경증·중등도 알츠하이머형 치매의 인지기능을 개선한다",
+  "line": "경증·중등도 알츠하이머형 치매에서 도네페질은 위약보다 ADAS-Cog 점수를 낮췄습니다.",
+  "effect": "ADAS-Cog 1.86~2.91점 차이",
+  "vs": "알츠하이머병 도네페질 무작위시험 8편 2,664명 메타분석에서 24주 ADAS-Cog 변화는 5mg군이 위약보다 1.86점, 10mg군이 2.91점 더 낮았습니다(각 95% CI -2.60~-1.11, -3.65~-2.16).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2664,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "알츠하이머형 치매의 증상 치료에 사용하는 콜린에스터라제 억제제입니다.",
+  "why": "알츠하이머형 치매 환자를 도네페질과 위약에 무작위 배정한 이중눈가림 시험들을 합친 Cochrane 메타분석입니다.",
+  "saw": "5mg과 10mg 모두 24주 인지기능에서 위약보다 유리했지만, 환자 자기평가 삶의 질 개선은 확인되지 않았습니다.",
+  "limit": "선별된 경증·중등도 알츠하이머형 치매 환자의 12~52주 시험을 합친 결과라 중증 치매와 장기 임상 기능으로 일반화할 수 없습니다.",
+  "against": "10mg군은 위약보다 중도 탈락이 많았고 오심·구토·설사·식욕부진이 더 흔했습니다.",
+  "use": "알츠하이머형 치매의 단기 인지기능 개선과 삶의 질·이상반응의 한계를 함께 설명하는 근거입니다.",
+  "refs": [
+    { "label": "Birks 2006 · Cochrane Database of Systematic Reviews · 알츠하이머병 도네페질 메타분석", "pmid": "11034704" },
+    { "label": "Rogers 1998 · Dementia and Geriatric Cognitive Disorders · 도네페질 24주 RCT", "pmid": "9443470" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=donepezil&query.cond=Dementia · 223건 반환, InterventionName에 donepezil 포함 66건",
+    "pubmed": "donepezil AND Dementia · 3,630건",
+    "negative": "donepezil AND Dementia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2,589건",
+    "safety": "donepezil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1,780건"
+  }
+}
