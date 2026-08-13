@@ -1,28 +1,34 @@
 {
-  "id": "animal-assisted-therapy-brain-injuries-pos",
-  "subj": "동물 보조 치료",
-  "claim": "중증 외상성 뇌손상 환자의 회복 반응에 개 보조 치료를 더하는가",
-  "line": "중증 외상성 뇌손상에서 회복 척도·명령 반응이 개선됐다.",
-  "effect": "Rancho 회복 척도·명령 반응 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 70,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "동물 보조 치료는 약물이 아닌 재활 보조 중재이며 외상성 뇌손상의 허가 적응증을 적용하지 않습니다.",
-  "why": "중증 외상성 뇌손상 입원 환자 70명을 개 보조 치료군 38명과 표준 치료군 32명으로 무작위 배정했습니다.",
-  "saw": "입원 중 개 보조 치료군은 표준화한 Rancho Los Amigos 회복 척도와 명령 수행 변화가 대조군보다 유의하게 컸습니다. Glasgow Coma Scale 변화는 유의하지 않았습니다.",
-  "limit": "단일 기관 연구이고 151회의 치료 세션과 156회의 대조 세션을 입원 중 비교했습니다. 장기 기능과 퇴원 뒤 회복은 평가하지 않았습니다.",
-  "against": "Glasgow Coma Scale에는 유의한 차이가 없어 모든 의식·운동 회복 지표가 좋아졌다고 볼 수 없습니다.",
-  "use": "표준 신경재활을 대체하지 않는 병원 내 보조 활동으로 검토하고 감염·알레르기·환자 피로를 함께 관리합니다.",
-  "refs": [
-    { "label": "외상성 뇌손상 환자 개 보조 치료 무작위시험", "doi": "10.1097/JTN.0000000000000705", "pmid": "36881697", "nct": "NCT05217030" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=animal assisted therapy · cond=Brain Injuries · 23건 반환",
-    "pubmed": "animal assisted therapy AND Brain Injuries · 65편; trial 검색 18편",
-    "negative": "animal assisted therapy AND Brain Injuries AND (no effect OR did not OR failed OR negative OR no significant difference) · 16편",
-    "safety": "animal assisted therapy AND (adverse OR toxicity OR case report OR infection OR harm) · 965편"
+ "id": "animal-assisted-therapy-brain-injuries-pos",
+ "subj": "동물 보조 치료",
+ "claim": "중증 외상성 뇌손상 환자의 회복 반응에 개 보조 치료를 더하는가",
+ "line": "중증 외상성 뇌손상에서 회복 척도·명령 반응이 개선됐다.",
+ "effect": "Rancho 회복 척도·명령 반응 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 70,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "동물 보조 치료는 약물이 아닌 재활 보조 중재이며 외상성 뇌손상의 허가 적응증을 적용하지 않습니다.",
+ "why": "중증 외상성 뇌손상 입원 환자 70명을 개 보조 치료군 38명과 표준 치료군 32명으로 무작위 배정했습니다.",
+ "saw": "입원 중 개 보조 치료군은 표준화한 Rancho Los Amigos 회복 척도와 명령 수행 변화가 대조군보다 유의하게 컸습니다. Glasgow Coma Scale 변화는 유의하지 않았습니다.",
+ "limit": "단일 기관 연구이고 151회의 치료 세션과 156회의 대조 세션을 입원 중 비교했습니다. 장기 기능과 퇴원 뒤 회복은 평가하지 않았습니다.",
+ "against": "Glasgow Coma Scale에는 유의한 차이가 없어 모든 의식·운동 회복 지표가 좋아졌다고 볼 수 없습니다.",
+ "use": "표준 신경재활을 대체하지 않는 병원 내 보조 활동으로 검토하고 감염·알레르기·환자 피로를 함께 관리합니다.",
+ "refs": [
+  {
+   "label": "외상성 뇌손상 환자 개 보조 치료 무작위시험",
+   "doi": "10.1097/JTN.0000000000000705",
+   "pmid": "36881697",
+   "nct": "NCT05217030"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=animal assisted therapy · cond=Brain Injuries · 23건 반환",
+  "pubmed": "animal assisted therapy AND Brain Injuries · 65편; trial 검색 18편 · 2026-08-14 PubMed 초록 직접 확인: PMID 36881697",
+  "negative": "animal assisted therapy AND Brain Injuries AND (no effect OR did not OR failed OR negative OR no significant difference) · 16편",
+  "safety": "animal assisted therapy AND (adverse OR toxicity OR case report OR infection OR harm) · 965편"
+ },
+ "vs": "개 보조치료 vs 표준치료(38 vs 32명, N=70): Rancho 회복척도 변화 P=.026, 명령 수행 변화 P<.001; Glasgow Coma Scale P=.155로 유의차 없음"
 }

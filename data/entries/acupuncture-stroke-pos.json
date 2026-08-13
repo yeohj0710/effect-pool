@@ -1,28 +1,33 @@
 {
-  "id": "acupuncture-stroke-pos",
-  "subj": "침 치료",
-  "claim": "뇌졸중 후 우울증의 증상에 침을 쓰는가",
-  "line": "뇌졸중 후 우울증 환자에서 침 치료는 우울 증상을 완화했다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 5308,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "침 치료는 뇌졸중 후 우울증의 의약품 허가 적응증이 아닙니다.",
-  "why": "침 자극이 뇌졸중 후 우울 증상과 재활 참여를 방해하는 불면·불안을 줄일 수 있다는 가설입니다.",
-  "saw": "2003~2022년 무작위시험 62건, 5,308명을 합친 네트워크 메타분석에서 침 단독 또는 다른 치료와 병용한 군이 서양 약물보다 우울 증상 점수를 낮췄습니다. 침 단독 또는 병용은 일반관리보다 Hamilton 우울척도 점수도 낮췄습니다.",
-  "limit": "침 단독·반복경두개자기자극·한약·약물 병용을 함께 비교했고, 연구 간 방법과 대조군이 달랐습니다.",
-  "against": "우울 점수의 변화가 뇌졸중 신경학적 회복이나 장기 기능 독립을 뜻하지 않습니다.",
-  "use": "항우울제와 재활을 침으로 대체하지 않으며, 출혈 위험과 시술 가능 여부를 먼저 평가합니다.",
-  "effect": "우울 증상 점수 감소",
-  "refs": [
-    { "label": "Wang 2023 · BMC Psychiatry · 뇌졸중 후 우울증 네트워크 메타분석", "doi": "10.1186/s12888-023-04749-1", "pmid": "37143014" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=acupuncture, cond=Stroke · 95건",
-    "pubmed": "acupuncture AND Stroke · 3224건",
-    "negative": "acupuncture AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2494건",
-    "safety": "acupuncture AND (adverse OR toxicity OR case report OR overdose OR harm) · 9366건"
+ "id": "acupuncture-stroke-pos",
+ "subj": "침 치료",
+ "claim": "뇌졸중 후 우울증의 증상에 침을 쓰는가",
+ "line": "뇌졸중 후 우울증 환자에서 침 치료는 우울 증상을 완화했다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 5308,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "침 치료는 뇌졸중 후 우울증의 의약품 허가 적응증이 아닙니다.",
+ "why": "침 자극이 뇌졸중 후 우울 증상과 재활 참여를 방해하는 불면·불안을 줄일 수 있다는 가설입니다.",
+ "saw": "2003~2022년 무작위시험 62건, 5,308명을 합친 네트워크 메타분석에서 침 단독 또는 다른 치료와 병용한 군이 서양 약물보다 우울 증상 점수를 낮췄습니다. 침 단독 또는 병용은 일반관리보다 Hamilton 우울척도 점수도 낮췄습니다.",
+ "limit": "침 단독·반복경두개자기자극·한약·약물 병용을 함께 비교했고, 연구 간 방법과 대조군이 달랐습니다.",
+ "against": "우울 점수의 변화가 뇌졸중 신경학적 회복이나 장기 기능 독립을 뜻하지 않습니다.",
+ "use": "항우울제와 재활을 침으로 대체하지 않으며, 출혈 위험과 시술 가능 여부를 먼저 평가합니다.",
+ "effect": "우울 증상 점수 감소",
+ "refs": [
+  {
+   "label": "Wang 2023 · BMC Psychiatry · 뇌졸중 후 우울증 네트워크 메타분석",
+   "doi": "10.1186/s12888-023-04749-1",
+   "pmid": "37143014"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "intr=acupuncture, cond=Stroke · 95건",
+  "pubmed": "acupuncture AND Stroke · 3224건 · 2026-08-14 PubMed 초록 직접 확인: PMID 37143014",
+  "negative": "acupuncture AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2494건",
+  "safety": "acupuncture AND (adverse OR toxicity OR case report OR overdose OR harm) · 9366건"
+ },
+ "vs": "침 치료 vs 서양의학·통상치료: 우울척도 점수 감소가 더 큼(62편·5308명 네트워크 메타분석); 침+반복경두개자기자극 순위확률 SUCRA 49.43%"
 }

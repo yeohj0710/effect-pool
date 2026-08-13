@@ -1,28 +1,33 @@
 {
-  "id": "animal-assisted-activity-dementia-pos",
-  "subj": "animal-assisted activity",
-  "claim": "동물매개활동을 치매 환자의 균형과 낙상 위험에 쓴다",
-  "line": "치매 환자는 동물매개활동 후 균형이 좋아졌습니다.",
-  "effect": "균형 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 80,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "동물매개활동은 치매 치료의 허가 적응증이 없는 비약물 중재입니다.",
-  "why": "재가 치매 환자 80명을 16개 주간보호센터에서 동물매개활동군 42명과 통상 돌봄군 38명으로 군집 무작위 배정했습니다.",
-  "saw": "자격을 갖춘 개 조련사가 12주 동안 주 2회 30분씩 활동을 진행했고 균형 지표에서 유의한 긍정 효과가 나타났습니다.",
-  "limit": "주간보호센터를 이용하는 재가 치매 환자를 대상으로 했고 삶의 질 결과보다 균형 결과가 뚜렷했습니다.",
-  "against": "균형 개선이 낙상 감소나 치매 진행 지연으로 이어지는지는 확인하지 않았습니다.",
-  "use": "치매 돌봄에서 신체활동과 정서적 참여를 결합한 보조 프로그램의 근거로 사용합니다.",
-  "refs": [
-    { "label": "치매 환자 동물매개활동 군집 무작위시험", "doi": "10.1016/j.gerinurse.2016.04.002", "pmid": "27155968" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "animal-assisted activity AND Dementia 검색 9건, InterventionName 직접 대조 2건",
-    "pubmed": "\"animal-assisted activity\" AND \"Dementia\" 검색 7건, 임상시험·관찰연구 4건",
-    "negative": "\"animal-assisted activity\" AND \"Dementia\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 4건",
-    "safety": "\"animal-assisted activity\" AND (adverse OR toxicity OR case report OR harm) 검색 1건"
+ "id": "animal-assisted-activity-dementia-pos",
+ "subj": "동물매개활동",
+ "claim": "동물매개활동을 치매 환자의 균형과 낙상 위험에 쓴다",
+ "line": "치매 환자는 동물매개활동 후 균형이 좋아졌습니다.",
+ "effect": "균형 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 80,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "동물매개활동은 치매 치료의 허가 적응증이 없는 비약물 중재입니다.",
+ "why": "재가 치매 환자 80명을 16개 주간보호센터에서 동물매개활동군 42명과 통상 돌봄군 38명으로 군집 무작위 배정했습니다.",
+ "saw": "자격을 갖춘 개 조련사가 12주 동안 주 2회 30분씩 활동을 진행했고 균형 지표에서 유의한 긍정 효과가 나타났습니다.",
+ "limit": "주간보호센터를 이용하는 재가 치매 환자를 대상으로 했고 삶의 질 결과보다 균형 결과가 뚜렷했습니다.",
+ "against": "균형 개선이 낙상 감소나 치매 진행 지연으로 이어지는지는 확인하지 않았습니다.",
+ "use": "치매 돌봄에서 신체활동과 정서적 참여를 결합한 보조 프로그램의 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "치매 환자 동물매개활동 군집 무작위시험",
+   "doi": "10.1016/j.gerinurse.2016.04.002",
+   "pmid": "27155968"
   }
+ ],
+ "queried": {
+  "date": "2026-08-14",
+  "ctgov": "animal-assisted activity AND Dementia 검색 9건, InterventionName 직접 대조 2건",
+  "pubmed": "\"animal-assisted activity\" AND \"Dementia\" 검색 7건, 임상시험·관찰연구 4건 · 2026-08-14 PubMed 초록 직접 확인: PMID 27155968",
+  "negative": "\"animal-assisted activity\" AND \"Dementia\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 4건",
+  "safety": "\"animal-assisted activity\" AND (adverse OR toxicity OR case report OR harm) 검색 1건"
+ },
+ "vs": "동물매개활동 vs 통상 돌봄(42 vs 38명, 12주): Berg 균형척도에서 유의한 긍정 효과"
 }
