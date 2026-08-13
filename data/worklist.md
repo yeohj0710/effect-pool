@@ -8463,12 +8463,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-tumors-pos)
 - [x] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-glioma-pos)
 - [x] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-cancer-pos)
-- [ ] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-astrocytoma-pos)
 - [x] ursodeoxycholic acid — Biliary Atresia에 듣는다  <!-- 시험 22건 · 논문 84편 -->
 - [x] ursodeoxycholic acid — Hepatitis에 듣는다  <!-- 시험 10건 · 논문 963편 -->
 - [x] ursodeoxycholic acid — Cholestasis에 듣는다  <!-- 시험 8건 · 논문 2935편 -->
-- [ ] ursodeoxycholic acid — Cholangitis에 듣는다  <!-- 시험 7건 · 논문 1672편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] zolpidem — Sleep에 듣는다  <!-- 시험 37건 · 논문 1318편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ursodeoxycholic acid — Cholangitis에 듣는다  <!-- 시험 7건 · 논문 1672편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(ursodeoxycholic-acid-cholangitis-pos)
+- [x] zolpidem — Sleep에 듣는다  <!-- 시험 37건 · 논문 1318편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(zolpidem-sleep-null)
 - [x] zolpidem — Depression에 듣는다  <!-- 시험 5건 · 논문 259편 -->
 - [x] zolpidem — Child's Anxiety에 듣는다  <!-- 시험 4건 · 논문 13편 -->
 - [x] zolpidem — Dementia에 듣는다  <!-- 시험 3건 · 논문 75편 -->
@@ -8483,7 +8483,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] bromocriptine — Dilated Cardiomyopathy에 듣는다  <!-- 시험 4건 · 논문 33편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 직접 시험 NCT06250257은 모집 중이고 결과 없음; PubMed 33건은 주로 임신주위 심근병증 고찰)
-- [ ] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] bromocriptine — Type 2 Diabetes에 듣는다  <!-- 시험 4건 · 논문 126편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(bromocriptine-type-2-diabetes-pos)
 - [x] bromocriptine — Obesity에 듣는다  <!-- 시험 3건 · 논문 154편 -->
 - [x] cabergoline — Ovarian Hyperstimulation에 듣는다  <!-- 시험 7건 · 논문 117편 -->
 - [x] cabergoline — Lactation Suppressed에 듣는다  <!-- 시험 6건 · 논문 30편 -->
@@ -8493,15 +8493,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] cyclosporine — Myelodysplastic Syndrome에 듣는다  <!-- 시험 117건 · 논문 599편 -->
 - [x] cyclosporine — Myeloma에 듣는다  <!-- 시험 74건 · 논문 227편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 81건은 이식·면역억제·약동학 중심; PubMed 227건은 다약제 내성·전임상 연구 중심)
 - [x] cyclosporine — Kidney Cancer에 듣는다  <!-- 시험 66건 · 논문 915편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 24건은 이식·면역억제 연구 중심; PubMed 915건은 신장이식 후 암 위험·면역억제 변경 연구 중심)
-- [ ] epoetin alfa — Kidney Disease에 듣는다  <!-- 시험 78건 · 논문 868편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] epoetin alfa — Cancer에 듣는다  <!-- 시험 56건 · 논문 617편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] epoetin alfa — Kidney Disease에 듣는다  <!-- 시험 78건 · 논문 868편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(epoetin-alfa-kidney-disease-null)
+- [x] epoetin alfa — Cancer에 듣는다  <!-- 시험 56건 · 논문 617편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(epoetin-alfa-cancer-null)
 - [x] epoetin alfa — Heart Failure에 듣는다  <!-- 시험 52건 · 논문 65편 -->
-- [ ] epoetin alfa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 30건 · 논문 61편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] epoetin alfa — Myelodysplastic Syndrome에 듣는다  <!-- 시험 30건 · 논문 61편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(epoetin-alfa-myelodysplastic-syndrome-null)
 - [x] exenatide — Obesity에 듣는다  <!-- 시험 33건 · 논문 860편 -->
 - [x] exenatide — Glucose Homeostasis에 듣는다  <!-- 시험 9건 · 논문 227편 --> — 근거 없음(2026-08-05 조회, PubMed 227건은 GLP-1 생리·당뇨 기전 연구 중심; 별도 질환 치료효과를 평가한 직접시험 없음)
 - [x] exenatide — Myocardial Infarction에 듣는다  <!-- 시험 6건 · 논문 135편 -->
 - [x] exenatide — Fatty Liver에 듣는다  <!-- 시험 6건 · 논문 127편 -->
-- [ ] febuxostat — Hyperuricemia에 듣는다  <!-- 시험 21건 · 논문 783편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] febuxostat — Hyperuricemia에 듣는다  <!-- 시험 21건 · 논문 783편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(febuxostat-hyperuricemia-pos)
 - [x] febuxostat — Kidney Stones에 듣는다  <!-- 시험 9건 · 논문 29편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 3건은 요산결석 직접치료 결과 없음; PubMed 29건은 요산·신장결석 고찰과 약물 안전성 중심)
 - [x] febuxostat — Renal Impairment에 듣는다  <!-- 시험 7건 · 논문 260편 -->
 - [x] febuxostat — Hypertension에 듣는다  <!-- 시험 5건 · 논문 187편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 5건은 고요산혈증·신장 연구 중심; PubMed 187건은 연관성 연구와 동물시험 중심)
@@ -8511,13 +8511,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levodopa — Stroke에 듣는다  <!-- 시험 6건 · 논문 483편 -->
 - [x] megestrol acetate — Cachexia에 듣는다  <!-- 시험 20건 · 논문 256편 -->
 - [x] megestrol acetate — Anorexia에 듣는다  <!-- 시험 19건 · 논문 213편 -->
-- [ ] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] megestrol acetate — HIV Infections에 듣는다  <!-- 시험 12건 · 논문 101편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(megestrol-hiv-infections-null)
+- [x] megestrol acetate — Endometrioid Carcinoma에 듣는다  <!-- 시험 9건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(megestrol-endometrioid-carcinoma-open2)
+- [x] methadone — Opioid Use에 듣는다  <!-- 시험 50건 · 논문 18298편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(methadone-opioid-use-null)
+- [x] methadone — Drug Dependence에 듣는다  <!-- 시험 28건 · 논문 13628편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(methadone-drug-dependence-null)
+- [x] methadone — Cancer에 듣는다  <!-- 시험 22건 · 논문 983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(methadone-cancer-pos)
 - [x] methadone — HIV에 듣는다  <!-- 시험 19건 · 논문 2387편 --> — 근거 없음(메타돈 유지요법이 HIV 관리 연속성을 높인 연구뿐이고 HIV 치료효과는 없음)
-- [ ] metronidazole — Vaginosis에 듣는다  <!-- 시험 40건 · 논문 1773편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] metronidazole — Vaginosis에 듣는다  <!-- 시험 40건 · 논문 1773편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(metronidazole-vaginosis-pos)
 - [x] metronidazole — Periodontitis에 듣는다  <!-- 시험 23건 · 논문 1318편 -->
 - [x] metronidazole — Oral Cancer에 듣는다  <!-- 시험 23건 · 논문 201편 --> — 근거 없음(대장암 수술 항생제·전임상 문헌뿐이고 구강암 치료 결과 없음)
 - [x] metronidazole — HIV Infections에 듣는다  <!-- 시험 14건 · 논문 323편 --> — 근거 없음(성매개·질내 감염 연구는 있으나 HIV 자체 치료효과 없음)
@@ -8525,20 +8525,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] nicotinamide — Muscle Injury에 듣는다  <!-- 시험 6건 · 논문 416편 --> — 근거 없음(니코틴아마이드가 아니라 니코틴아마이드 리보사이드·프테로스틸벤 병용시험이 음성)
 - [x] nicotinamide — Cancer에 듣는다  <!-- 시험 5건 · 논문 12937편 -->
 - [x] nicotinamide — Obesity에 듣는다  <!-- 시험 4건 · 논문 1405편 --> — 근거 없음(기전·동물 연구와 대사 연구뿐이고 비만 치료효과 없음)
-- [ ] nitroglycerin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 1840편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] nitroglycerin — Hypertension에 듣는다  <!-- 시험 12건 · 논문 1840편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(nitroglycerin-hypertension-pos)
 - [x] nitroglycerin — Raynaud Disease에 듣는다  <!-- 시험 12건 · 논문 75편 -->
 - [x] nitroglycerin — Cancer에 듣는다  <!-- 시험 11건 · 논문 406편 -->
-- [ ] nitroglycerin — Hypotension에 듣는다  <!-- 시험 8건 · 논문 3977편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] nitroglycerin — Hypotension에 듣는다  <!-- 시험 8건 · 논문 3977편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(nitroglycerin-hypotension-pos)
 - [x] octreotide — Cancer에 듣는다  <!-- 시험 39건 · 논문 6861편 -->
-- [ ] octreotide — Acromegaly에 듣는다  <!-- 시험 37건 · 논문 1418편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] octreotide — Acromegaly에 듣는다  <!-- 시험 37건 · 논문 1418편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(octreotide-acromegaly-pos)
 - [x] octreotide — Pancreatic NET에 듣는다  <!-- 시험 24건 · 논문 321편 --> — 근거 없음(장기지속형 octreotide가 GEP-NET 대조군으로 쓰였지만 췌장 NET 단독효과 결과 없음)
-- [ ] octreotide — Carcinoid에 듣는다  <!-- 시험 18건 · 논문 1330편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] oxcarbazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 1177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] octreotide — Carcinoid에 듣는다  <!-- 시험 18건 · 논문 1330편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(octreotide-carcinoid-pos)
+- [x] oxcarbazepine — Seizures에 듣는다  <!-- 시험 7건 · 논문 1177편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(oxcarbazepine-seizures-pos)
 - [x] oxcarbazepine — Bipolar Disorder에 듣는다  <!-- 시험 5건 · 논문 176편 -->
 - [x] oxcarbazepine — Neuralgia에 듣는다  <!-- 시험 5건 · 논문 188편 -->
 - [x] prucalopride — Paralytic Ileus에 듣는다  <!-- 시험 6건 · 논문 19편 -->
 - [x] ribavirin — HIV에 듣는다  <!-- 시험 43건 · 논문 1982편 --> — 근거 없음(HIV/HCV 동시감염에서 HCV 치료자료만 있고 HIV 치료효과 없음)
-- [ ] ribavirin — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 4374편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] ribavirin — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 4374편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(ribavirin-cirrhosis-open)
 - [ ] ribavirin — HCV에 듣는다  <!-- 시험 16건 · 논문 9363편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] ribavirin — Hepatocellular Carcinoma에 듣는다  <!-- 시험 12건 · 논문 1266편 --> — 근거 없음(HCV 박멸 후 HCC 위험 감소 연구는 직접 항암치료가 아님)
 - [x] tacrolimus — Leukemia에 듣는다  <!-- 시험 460건 · 논문 595편 -->

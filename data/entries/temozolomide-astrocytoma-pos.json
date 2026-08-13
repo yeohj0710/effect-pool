@@ -1,0 +1,29 @@
+{
+  "id": "temozolomide-astrocytoma-pos",
+  "subj": "테모졸로미드",
+  "claim": "테모졸로미드가 새로 진단된 교모세포종에서 방사선치료 후 생존을 늘린다",
+  "line": "교모세포종에서 테모졸로미드 병용과 방사선치료 단독을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 573,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "테모졸로미드는 새로 진단된 교모세포종의 방사선치료 병용요법으로 허가되어 있다",
+  "why": "교모세포종은 성상세포종의 WHO 4등급 형태이므로 성상세포종 주제에 직접 관련된 무작위 비교 근거를 기록한다",
+  "saw": "방사선치료와 테모졸로미드 병용군의 중앙 생존은 14.6개월, 방사선치료 단독군은 12.1개월이었다. 사망 HR은 0.63(95% CI 0.52-0.75)이었고 2년 생존율은 26.5% 대 10.4%였다.",
+  "limit": "교모세포종 환자 자료를 모든 성상세포종 아형에 그대로 일반화할 수 없고, 병용 방사선치료의 효과까지 포함된 결과다.",
+  "against": "3-4등급 혈액학적 독성은 병용군의 7%에서 발생했으며, 치료 선택은 수술 범위와 환자 상태를 함께 고려해야 한다.",
+  "use": "새로 진단된 고등급 성상세포종에서 방사선종양학·신경외과와 병용요법 적합성을 논의할 때 참고한다.",
+  "effect": "2년 생존 26.5% vs 10.4%",
+  "vs": "무작위배정 573명에서 방사선치료+테모졸로미드와 방사선치료 단독을 비교했다. 중앙 생존은 14.6개월 vs 12.1개월, 사망 HR은 0.63(95% CI 0.52-0.75), 2년 생존은 26.5% vs 10.4%였다.",
+  "refs": [
+    { "label": "Stupp 2005 · New England Journal of Medicine · 교모세포종 방사선치료 병용 무작위시험", "pmid": "15758009", "nct": "NCT00006353" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=temozolomide, query.cond=Astrocytoma → 633건 반환·첫 페이지에서 정확한 intervention 이름 57건 확인",
+    "pubmed": "temozolomide AND Astrocytoma → 5,704건",
+    "negative": "temozolomide AND Astrocytoma AND (no effect OR did not OR failed OR negative OR no significant difference) → 3,823건",
+    "safety": "temozolomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,341건"
+  }
+}

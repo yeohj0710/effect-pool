@@ -1,0 +1,29 @@
+{
+  "id": "ursodeoxycholic-acid-cholangitis-pos",
+  "subj": "우르소데옥시콜산",
+  "claim": "우르소데옥시콜산이 원발성 담즙성 담관염에서 간이식 없는 생존을 높인다",
+  "line": "원발성 담즙성 담관염 환자에서 우르소데옥시콜산 치료와 미치료의 장기 간이식 없는 생존을 비교했다",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 3902,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "우르소데옥시콜산은 원발성 담즙성 담관염의 표준 치료다",
+  "why": "국제 다기관 코호트가 치료군과 미치료군의 장기 임상 결과를 비교했다",
+  "saw": "IPTW 보정 후 10년 간이식 없는 생존은 우르소데옥시콜산 치료군 79.7%, 미치료군 60.7%였고, 사망 또는 간이식 위험 HR은 0.46(95% CI 0.40-0.52)였다.",
+  "limit": "무작위시험이 아닌 관찰 코호트이므로 치료 선택과 예후의 교란을 완전히 제거할 수 없다.",
+  "against": "원발성 담즙성 담관염 자료이며 급성 세균성 담관염이나 다른 담관염에 같은 효과를 적용할 수 없다.",
+  "use": "원발성 담즙성 담관염의 표준치료 근거를 설명할 때 관찰자료임을 함께 밝히고 사용한다.",
+  "effect": "10년 생존 79.7% vs 60.7%",
+  "vs": "국제 코호트 3,902명에서 우르소데옥시콜산 치료군과 미치료군을 IPTW로 비교했다. 10년 간이식 없는 생존은 79.7% vs 60.7%, 사망 또는 간이식 HR은 0.46(95% CI 0.40-0.52)였다.",
+  "refs": [
+    { "label": "Trivedi 2019 · Journal of Hepatology · 원발성 담즙성 담관염 국제 코호트", "pmid": "30980847" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ursodeoxycholic acid, query.cond=Cholangitis → 53건 반환·첫 페이지에서 정확한 intervention 이름 10건 확인",
+    "pubmed": "ursodeoxycholic acid AND Cholangitis → 1,677건",
+    "negative": "ursodeoxycholic acid AND Cholangitis AND (no effect OR did not OR failed OR negative OR no significant difference) → 824건",
+    "safety": "ursodeoxycholic acid AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,500건"
+  }
+}

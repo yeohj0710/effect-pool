@@ -1,0 +1,29 @@
+{
+  "id": "octreotide-carcinoid-pos",
+  "subj": "옥트레오티드",
+  "claim": "옥트레오티드 장기지속형이 전이성 중장 신경내분비종양에서 위약보다 종양 진행을 늦춘다",
+  "line": "중장 신경내분비종양 PROMID에서 옥트레오티드와 위약을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 85,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "옥트레오티드는 카르시노이드 증상 조절과 일부 전이성 신경내분비종양 치료에 사용되는 표준 소마토스타틴 유사체다",
+  "why": "PROMID가 치료 경험이 없는 전이성 중장 신경내분비종양에서 옥트레오티드와 위약을 직접 비교했다",
+  "saw": "85명 무작위시험에서 종양 진행까지 중앙 기간은 옥트레오티드 장기지속형 14.3개월, 위약 6개월이었고 HR은 0.34(95% CI 0.20-0.59)였다. 6개월 안정병변은 66.7% 대 37.2%였다.",
+  "limit": "계획된 중간분석이며 관찰 사망이 16건뿐이어서 전체생존 HR 0.81(95% CI 0.30-2.18)은 확정적이지 않다.",
+  "against": "종양 진행 지연 결과를 카르시노이드 증후군의 모든 증상이나 전체생존 개선으로 확대해석할 수 없다.",
+  "use": "전이성 중장 신경내분비종양의 종양 억제와 카르시노이드 증상 조절을 별개 목표로 설명할 때 참고한다.",
+  "effect": "진행 HR 0.34",
+  "vs": "치료 경험이 없는 전이성 중장 신경내분비종양 85명에서 옥트레오티드 장기지속형과 위약을 비교했다. 중앙 종양 진행 기간은 14.3 vs 6개월, HR은 0.34(95% CI 0.20-0.59), 6개월 안정병변은 66.7% vs 37.2%였다.",
+  "refs": [
+    { "label": "Rinke 2009 · Journal of Clinical Oncology · PROMID 무작위 위약대조시험", "pmid": "19704057" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=octreotide, query.cond=Carcinoid → 37건 반환·첫 페이지에서 정확한 intervention 이름 5건 확인",
+    "pubmed": "octreotide AND Carcinoid → 1,331건",
+    "negative": "octreotide AND Carcinoid AND (no effect OR did not OR failed OR negative OR no significant difference) → 615건",
+    "safety": "octreotide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 5,290건"
+  }
+}

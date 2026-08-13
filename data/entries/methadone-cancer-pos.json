@@ -1,0 +1,29 @@
+{
+  "id": "methadone-cancer-pos",
+  "subj": "메타돈",
+  "claim": "메타돈이 자궁경부암의 신경병증성 통증에서 즉방형 모르핀보다 통증 점수를 더 낮춘다",
+  "line": "자궁경부암 2-3기 신경병증성 통증 무작위시험에서 메타돈과 즉방형 모르핀을 12주 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 85,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "메타돈은 강한 오피오이드 진통제로 암성 통증에 사용된다",
+  "why": "전향적 무작위 대조시험이 자궁경부암의 신경병증성 통증에서 메타돈과 즉방형 모르핀을 직접 비교했다",
+  "saw": "85명 중 74명이 12주 평가를 완료했다. 통증 NRS는 모르핀군 8.4에서 2.7, 메타돈군 8.6에서 1.5로 감소했고 DN4는 6.12에서 1.37, 6.05에서 0으로 감소했다. 모르핀군에서 이상반응이 더 흔했다.",
+  "limit": "소규모 단일 암종 시험이며 5명 중도탈락과 6명 사망이 있어 완료자 분석의 영향을 받는다.",
+  "against": "두 군 모두 통증이 줄었고, 메타돈의 장기 안전성과 다른 암성 통증에 대한 효과는 별도로 평가해야 한다.",
+  "use": "암성 신경병증성 통증에서 오피오이드를 선택할 때 통증 조절과 졸림·호흡억제·변비를 함께 평가한다.",
+  "effect": "NRS 1.5 vs 2.7점",
+  "vs": "자궁경부암 환자 85명 무작위시험에서 메타돈과 즉방형 모르핀을 비교했다. NRS는 메타돈 8.6→1.5, 모르핀 8.4→2.7, DN4는 6.05→0, 6.12→1.37로 감소했고 두 변화 모두 유의했다.",
+  "refs": [
+    { "label": "Saini 2023 · Indian Journal of Palliative Care · 자궁경부암 신경병증성 통증 무작위시험", "pmid": "37325268" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=methadone, query.cond=Cancer → 42건 반환·첫 페이지에서 정확한 intervention 이름 20건 확인",
+    "pubmed": "methadone AND Cancer → 984건",
+    "negative": "methadone AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) → 659건",
+    "safety": "methadone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 7,250건"
+  }
+}

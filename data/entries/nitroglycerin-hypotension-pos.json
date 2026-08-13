@@ -1,0 +1,29 @@
+{
+  "id": "nitroglycerin-hypotension-pos",
+  "subj": "니트로글리세린",
+  "claim": "니트로글리세린을 이용한 조절성 저혈압에서 경혈 전기자극이 혈압을 더 낮춘다",
+  "line": "수술 중 니트로글리세린 조절성 저혈압 무작위시험에서 진짜 경혈 전기자극과 가짜 자극을 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 51,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "니트로글리세린의 수술 중 조절성 저혈압 사용은 전문 마취 환경에서 시행되는 비일상 적응이다",
+  "why": "모든 군에 니트로글리세린을 투여하고 경혈 전기자극의 추가 혈압 효과를 무작위 비교했다",
+  "saw": "성인 51명에서 안정 상태 평균동맥압은 진짜 자극군 60±4mmHg, 가짜 자극군 66±5mmHg였고 목표 도달 시간은 10±3분 대 15.8±4분이었다. 수술 시야가 우수한 비율은 83.3% 대 25%였다.",
+  "limit": "니트로글리세린 단독과 무치료의 비교가 아니라 경혈 전기자극의 추가 효과를 평가한 소규모 수술시험이다.",
+  "against": "실제 저혈압 치료가 필요한 환자에게 적용하는 근거가 아니며 마취·출혈·심혈관 상태를 전문적으로 감시해야 한다.",
+  "use": "수술 중 조절성 저혈압 연구로만 참고하며 일상적인 저혈압 치료나 자가 사용 근거로 해석하지 않는다.",
+  "effect": "MAP 60±4 vs 66±5mmHg",
+  "vs": "유양돌기절제술 환자 51명에서 니트로글리세린 주입과 진짜 경혈 전기자극을 가짜 자극과 비교했다. 안정 상태 평균동맥압은 60±4 vs 66±5mmHg, 목표 도달 시간은 10±3 vs 15.8±4분이었다.",
+  "refs": [
+    { "label": "Tsai 2007 · Anesthesia & Analgesia · 니트로글리세린 조절성 저혈압 임상시험", "pmid": "16235461" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=nitroglycerin, query.cond=Hypotension → 11건 반환·첫 페이지에서 정확한 intervention 이름 6건 확인",
+    "pubmed": "nitroglycerin AND Hypotension → 3,978건",
+    "negative": "nitroglycerin AND Hypotension AND (no effect OR did not OR failed OR negative OR no significant difference) → 3,292건",
+    "safety": "nitroglycerin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,519건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nitroglycerin-hypertension-pos",
+  "subj": "니트로글리세린",
+  "claim": "고용량 정맥 니트로글리세린이 급성 고혈압성 폐부종에서 저용량보다 기계환기 필요를 줄인다",
+  "line": "급성 고혈압성 폐부종에서 고용량과 저용량 정맥 니트로글리세린을 비교한 메타분석이다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 185,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "정맥 니트로글리세린은 급성 심부전과 고혈압성 응급상황의 혈관확장에 사용된다",
+  "why": "SCAPE 환자에서 고용량과 저용량 니트로글리세린을 비교한 무작위·관찰 연구 메타분석을 기록한다",
+  "saw": "4개 연구 185명 메타분석에서 고용량 니트로글리세린은 저용량보다 기계환기 필요를 줄였다(RR 0.31, 95% CI 0.10-0.96). 6시간 내 증상 호전 RR은 3.88(95% CI 1.95-7.71)이었고 주요 심혈관 사건 차이는 유의하지 않았다.",
+  "limit": "연구 4개 중 무작위시험은 1개이고 이질성이 있어 고용량 투여는 모니터링 가능한 환경에서 판단해야 한다.",
+  "against": "주요 심혈관 사건은 유의한 차이가 없었고 저혈압·관상동맥질환 등 금기를 확인해야 한다.",
+  "use": "고혈압성 폐부종에서 호흡·혈압을 연속 모니터링하며 정맥 혈관확장제 용량을 결정할 때 참고한다.",
+  "effect": "기계환기 RR 0.31",
+  "vs": "SCAPE 환자 185명, 4개 연구 메타분석에서 고용량(≥100mcg/min)과 저용량(<100mcg/min) 니트로글리세린을 비교했다. 기계환기 필요 RR은 0.31(95% CI 0.10-0.96), 6시간 내 증상 호전 RR은 3.88(95% CI 1.95-7.71)였다.",
+  "refs": [
+    { "label": "Alharthi 2025 · Emergency Medicine Journal · SCAPE 니트로글리세린 용량 메타분석", "pmid": "40506079" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=nitroglycerin, query.cond=Hypertension → 26건 반환·첫 페이지에서 정확한 intervention 이름 7건 확인",
+    "pubmed": "nitroglycerin AND Hypertension → 1,842건",
+    "negative": "nitroglycerin AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,386건",
+    "safety": "nitroglycerin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,519건"
+  }
+}

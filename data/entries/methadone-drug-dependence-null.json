@@ -1,0 +1,29 @@
+{
+  "id": "methadone-drug-dependence-null",
+  "subj": "메타돈",
+  "claim": "메타돈이 약물 의존 치료에서 부프레노르핀보다 치료 유지율을 높인다",
+  "line": "약물 의존 무작위 이중맹검 시험에서 메타돈과 부프레노르핀의 치료 유지율과 순응도를 비교했다",
+  "tier": "trial",
+  "dir": "null",
+  "n": 164,
+  "synth": "single",
+  "known": "standard",
+  "knownWhy": "메타돈은 오피오이드 의존을 포함한 약물 의존 유지치료에 사용되는 표준 치료제다",
+  "why": "무작위 이중위약 비교에서 메타돈과 부프레노르핀의 유지·순응 결과를 확인할 수 있다",
+  "saw": "상대적으로 치료 경험이 적은 오피오이드 의존 환자 164명에서 두 군 모두 16주 치료 유지율이 56%였고, 메타돈과 부프레노르핀의 약물·상담 순응도도 동등했다.",
+  "limit": "오피오이드 의존 환자 자료를 모든 약물 의존 상태에 일반화할 수 없고 유연한 용량 조절 시험이다.",
+  "against": "오피오이드 양성 소변 비율은 메타돈 47%, 부프레노르핀 55%였지만 유지율 차이는 없었다.",
+  "use": "약물 의존 치료에서 메타돈 선택을 설명할 때 오피오이드 사용장애 자료라는 범위를 명확히 한다.",
+  "effect": "유지율 56% vs 56%",
+  "vs": "오피오이드 의존 환자 164명 무작위시험에서 메타돈군과 부프레노르핀군의 16주 치료 유지율은 56% vs 56%였고, 약물·상담 순응도도 동등했다.",
+  "refs": [
+    { "label": "Johnson 1995 · American Journal of Psychiatry · 부프레노르핀 대 메타돈 무작위시험", "pmid": "8010359" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=methadone, query.cond=Drug Dependence → 50건 반환·첫 페이지에서 정확한 intervention 이름 5건 확인",
+    "pubmed": "methadone AND Drug Dependence → 13,632건",
+    "negative": "methadone AND Drug Dependence AND (no effect OR did not OR failed OR negative OR no significant difference) → 7,192건",
+    "safety": "methadone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 7,250건"
+  }
+}

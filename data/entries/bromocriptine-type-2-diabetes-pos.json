@@ -1,0 +1,29 @@
+{
+  "id": "bromocriptine-type-2-diabetes-pos",
+  "subj": "브로모크립틴",
+  "claim": "브로모크립틴-QR이 조절되지 않는 제2형 당뇨병에서 병용요법으로 HbA1c를 낮춘다",
+  "line": "제2형 당뇨병 무작위시험 메타분석에서 브로모크립틴-QR 병용과 대조군의 혈당 변화를 비교했다",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2709,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "브로모크립틴-QR은 일부 국가에서 제2형 당뇨병 치료제로 허가되어 있다",
+  "why": "무작위 대조시험 9개를 통합한 메타분석이 병용요법의 혈당 효과와 이상반응을 함께 보고했다",
+  "saw": "총 2,709명을 분석한 메타분석에서 HbA1c 변화의 군 간 가중평균차는 -0.60%p(95% CI -0.83~-0.36)로 브로모크립틴-QR 병용군이 유리했다. 오심은 33.75% 대 6.92%였다.",
+  "limit": "서로 다른 배경 혈당강하제와 용량을 통합한 결과이며 메타분석의 연구별 편향과 이질성이 남아 있다.",
+  "against": "오심·구토·두통 등 이상반응 가능성이 대조군보다 높아 혈당 수치만으로 치료를 선택할 수 없다.",
+  "use": "기존 치료로 조절되지 않는 제2형 당뇨병에서 병용 선택지를 검토할 때 혈당 이득과 위장관 이상반응을 함께 설명한다.",
+  "effect": "HbA1c WMD -0.60%p",
+  "vs": "무작위 대조시험 9개, 2,709명에서 브로모크립틴-QR 병용과 대조군의 HbA1c 변화 가중평균차는 -0.60%p(95% CI -0.83~-0.36)였다. 오심은 33.75% vs 6.92%였다.",
+  "refs": [
+    { "label": "Nababan 2024 · Diabetes & Metabolic Syndrome · 브로모크립틴-QR 병용 메타분석", "pmid": "38863918" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=bromocriptine, query.cond=Type 2 Diabetes → 8건 반환·첫 페이지에서 정확한 intervention 이름 0건 확인",
+    "pubmed": "bromocriptine AND Type 2 Diabetes → 126건",
+    "negative": "bromocriptine AND Type 2 Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) → 97건",
+    "safety": "bromocriptine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3,158건"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ribavirin-cirrhosis-open",
+  "subj": "리바비린",
+  "claim": "리바비린 병용이 문맥고혈압을 동반한 HCV 간경변에서 인터페론 단독보다 지속 바이러스 반응을 높일 수 있다",
+  "line": "보상성 HCV 간경변·문맥고혈압 무작위시험에서 페그인터페론 단독과 리바비린 병용을 비교했다",
+  "tier": "trial",
+  "dir": "open",
+  "n": 102,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "직접작용 항바이러스제가 중심인 현재 HCV 치료에서는 리바비린 사용이 환자·요법별로 제한된다",
+  "why": "보상성 간경변 환자를 대상으로 페그인터페론과 리바비린 병용의 지속 바이러스 반응을 직접 비교한 무작위시험이다",
+  "saw": "HCV 간경변·문맥고혈압 환자 102명에서 지속 바이러스 반응은 페그인터페론 단독 9.8%(5/51), 리바비린 병용 21.6%(11/51)였고 P=.06이었다. 반응자에서 추적 중 질병 사건은 6.2% 대 38.3%였다.",
+  "limit": "지속 바이러스 반응 차이는 통계적으로 유의하지 않았고, 오래된 인터페론 기반 요법이라 현재 직접작용 항바이러스제 치료에 그대로 적용할 수 없다.",
+  "against": "리바비린 병용의 빈혈·감량·중단 위험과 유전자형별 반응 차이를 함께 고려해야 한다.",
+  "use": "간경변 HCV 치료의 역사적 비교 근거로만 사용하고 현재 치료 결정은 최신 직접작용 항바이러스제 지침을 따른다.",
+  "effect": "SVR 21.6% vs 9.8%",
+  "vs": "보상성 HCV 간경변·문맥고혈압 102명 무작위시험에서 페그인터페론+리바비린과 페그인터페론 단독을 비교했다. 지속 바이러스 반응은 21.6%(11/51) vs 9.8%(5/51), P=.06이었다.",
+  "refs": [
+    { "label": "Di Bisceglie 2007 · Hepatology · 간경변 문맥고혈압 리바비린 무작위시험", "pmid": "17692985" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=ribavirin, query.cond=Cirrhosis → 99건 반환·첫 페이지에서 정확한 intervention 이름 33건 확인",
+    "pubmed": "ribavirin AND Cirrhosis → 4,375건",
+    "negative": "ribavirin AND Cirrhosis AND (no effect OR did not OR failed OR negative OR no significant difference) → 2,972건",
+    "safety": "ribavirin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,866건"
+  }
+}
