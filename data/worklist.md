@@ -2400,7 +2400,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(naltrexone-obesity-null)
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(naltrexone-pain-null)
@@ -2413,23 +2413,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(trazodone-sleep-null)
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(quetiapine-anxiety)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(quetiapine-schizoaffective-null)
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(spironolactone-kidney-disease-null)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(doxycycline-periodontitis-adjunct)
 - [ ] colchicine — Gout에 듣는다  <!-- 등록 시험 35건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -2630,7 +2630,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -2643,23 +2643,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -2860,7 +2860,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -2873,11 +2873,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
 - [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 -->
 - [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 -->
@@ -3090,7 +3090,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
@@ -3103,23 +3103,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -3312,15 +3312,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다  <!-- 등록 시험 50건 -->
 - [x] metformin — Obesity에 듣는다  <!-- 등록 시험 33건 -->
 - [x] metformin — Insulin Resistance에 듣는다  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 23건 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
@@ -3333,23 +3333,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -3550,7 +3550,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
@@ -3563,23 +3563,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -3780,7 +3780,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -3793,23 +3793,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-kidney-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -4065,7 +4065,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -4078,22 +4078,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
@@ -4325,7 +4325,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-null)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -4338,22 +4338,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
@@ -4585,7 +4585,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(naltrexone-marijuana-use-pos)
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(naltrexone-obesity-null)
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(naltrexone-pain-null)
@@ -4598,22 +4598,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(trazodone-sleep-null)
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(quetiapine-anxiety)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(quetiapine-schizoaffective-null)
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(spironolactone-kidney-disease-null)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(spironolactone-acute-renal-injury-harm)
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -4857,7 +4857,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(naltrexone-marijuana-use-pos)
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(naltrexone-obesity-null)
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(naltrexone-pain-null)
@@ -4870,22 +4870,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(trazodone-sleep-null)
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(quetiapine-anxiety)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(quetiapine-schizoaffective-null)
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(spironolactone-kidney-disease-null)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(spironolactone-acute-renal-injury-harm)
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -5087,7 +5087,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(propranolol-stress-reaction-null)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(propranolol-ovarian-carcinoma-pos)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 등록 시험 25건 --> — 기존 항목(propranolol-cirrhosis-open)
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(naltrexone-marijuana-use-pos)
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 --> — 기존 항목(naltrexone-obesity-null)
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 --> — 기존 항목(naltrexone-pain-null)
@@ -5100,22 +5100,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(amitriptyline-fibromyalgia)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 등록 시험 5건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 --> — 기존 항목(topiramate-obesity)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 등록 시험 37건 --> — 기존 항목(topiramate-alcohol-abuse)
-- [ ] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 등록 시험 22건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 등록 시험 15건 --> — 기존 항목(trazodone-sleep-null)
-- [ ] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Depression에 듣는다  <!-- 등록 시험 10건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(trazodone-delirium-null)
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 등록 시험 6건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 등록 시험 93건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 등록 시험 28건 --> — 기존 항목(quetiapine-anxiety)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 등록 시험 21건 --> — 기존 항목(quetiapine-schizoaffective-null)
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] spironolactone — Hypertension에 듣는다  <!-- 등록 시험 48건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(spironolactone-kidney-disease-null)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(spironolactone-acute-renal-injury-harm)
 - [x] spironolactone — Alport Nephropathy에 듣는다  <!-- 등록 시험 12건 --> — 기존 항목(spironolactone-alport-nephropathy)
-- [ ] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 등록 시험 25건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-inflammatory-lesions)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] doxycycline — Periodontitis에 듣는다  <!-- 등록 시험 12건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
@@ -5397,14 +5397,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] modafinil — Sleep Apnea에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [ ] modafinil — Narcolepsy에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
 - [x] modafinil — Schizophrenia에 듣는다  <!-- 등록 시험 13건 -->
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 등록 시험 49건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다  <!-- 등록 시험 27건 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 등록 시험 40건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -5419,15 +5419,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-syndrome-pos)  <!-- 등록 시험 50건 -->
 - [x] metformin — Obesity에 듣는다 — 기존 항목(metformin-obesity-pos)  <!-- 등록 시험 33건 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -5440,23 +5440,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] doxycycline — Periodontitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 35건 -->
@@ -5699,7 +5699,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis-open)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-open)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -5712,23 +5712,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
@@ -5929,7 +5929,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-open)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -5942,23 +5942,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
@@ -6160,7 +6160,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-open)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -6173,22 +6173,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 등록 시험 18건 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
@@ -6434,15 +6434,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다 — 기존 항목(metformin-polycystic-ovary-null)  <!-- 등록 시험 50건 -->
 - [x] metformin — Obesity에 듣는다 — 기존 항목(metformin-obesity-pos)  <!-- 등록 시험 33건 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 기존 항목(metformin-insulin-resistance-null)  <!-- 등록 시험 17건 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 57건 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 57건 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다 — 기존 항목(aspirin-colon-cancer-null)  <!-- 등록 시험 37건 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 26건 -->
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 26건 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 — 기존 항목(aspirin-cardiovascular-disease-open)  <!-- 등록 시험 23건 -->
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 30건 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 등록 시험 28건 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 등록 시험 27건 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 등록 시험 25건 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 49건 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use-pos)  <!-- 등록 시험 44건 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity-open)  <!-- 등록 시험 34건 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain-null)  <!-- 등록 시험 27건 -->
@@ -6455,23 +6455,23 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 등록 시험 7건 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 5건 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 등록 시험 44건 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 40건 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 등록 시험 37건 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 22건 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 등록 시험 15건 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 10건 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 등록 시험 7건 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 6건 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 93건 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 41건 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 등록 시험 28건 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 등록 시험 21건 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 48건 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 등록 시험 18건 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 등록 시험 14건 -->
 - [x] spironolactone — Alport Nephropathy에 듣는다 — 기존 항목(spironolactone-alport-nephropathy)  <!-- 등록 시험 12건 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 -->
-- [ ] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 25건 --> — 기존 항목(doxycycline-acne-pos)
+- [x] doxycycline — Rosacea에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 18건 --> — 기존 항목(doxycycline-rosacea-pos)
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 12건 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 등록 시험 12건 -->
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 등록 시험 35건 -->
@@ -6672,7 +6672,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다 — 기존 항목(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 93편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 기존 항목(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 기존 항목(propranolol-cirrhosis)  <!-- 시험 25건 · 논문 955편 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 기존 항목(naltrexone-marijuana-use)  <!-- 시험 44건 · 논문 38편 -->
 - [x] naltrexone — Obesity에 듣는다 — 기존 항목(naltrexone-obesity)  <!-- 시험 34건 · 논문 582편 -->
 - [x] naltrexone — Pain에 듣는다 — 기존 항목(naltrexone-pain)  <!-- 시험 27건 · 논문 1828편 -->
@@ -6685,21 +6685,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 기존 항목(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 226편 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
 - [x] topiramate — Obesity에 듣는다 — 기존 항목(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 기존 항목(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 기존 항목(trazodone-sleep-null)  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 기존 항목(trazodone-delirium-null)  <!-- 시험 7건 · 논문 48편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 기존 항목(quetiapine-anxiety)  <!-- 시험 28건 · 논문 527편 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 기존 항목(quetiapine-schizoaffective-null)  <!-- 시험 21건 · 논문 984편 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 기존 항목(spironolactone-kidney-disease-null)  <!-- 시험 18건 · 논문 1461편 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 기존 항목(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 기존 항목(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 기존 항목(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
@@ -6864,8 +6864,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [ ] colchicine — Gout에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 35건 · 논문 2229편 -->
 - [x] colchicine — Myocardial Injury에 듣는다 — 기존 항목(colchicine-post-mi-null)  <!-- 시험 29건 · 논문 140편 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 --> — 기존 항목(trazodone-depression-pos)
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 --> — 기존 항목(trazodone-major-depressive-disorder-open)
 - [ ] atorvastatin — Coronary Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 77건 · 논문 2070편 -->
 - [ ] atorvastatin — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 50건 · 논문 2990편 -->
 - [x] atorvastatin — Diabetes에 듣는다 — 결과 대기(2026-08-05)  <!-- 시험 44건 · 논문 1785편 -->
@@ -6907,21 +6907,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 226편 --> — 이미 수록됨(2026-08-05)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
-- [ ] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 --> — 이미 수록됨(2026-08-05)
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 이미 수록됨(2026-08-05)
-- [ ] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다  <!-- 시험 6건 · 논문 237편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 --> — 이미 수록됨(2026-08-05)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 시험 21건 · 논문 984편 --> — 이미 수록됨(2026-08-05)
-- [ ] spironolactone — Hypertension에 듣는다  <!-- 시험 48건 · 논문 2844편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] spironolactone — Hypertension에 듣는다  <!-- 시험 48건 · 논문 2844편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 --> — 이미 수록됨(2026-08-05)
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 --> — 이미 수록됨(2026-08-05)
-- [ ] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] doxycycline — Acne에 듣는다  <!-- 시험 25건 · 논문 406편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 --> — 이미 수록됨(2026-08-05)
 - [ ] doxycycline — Syphilis에 듣는다  <!-- 시험 12건 · 논문 419편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 --> — 이미 수록됨(2026-08-05)
@@ -7250,7 +7250,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] propranolol — Stress Reaction에 듣는다  <!-- 시험 28건 · 논문 94편 --> — 이미 수록됨(2026-08-05)
 - [x] propranolol — Ovarian Carcinoma에 듣는다  <!-- 시험 27건 · 논문 19편 --> — 이미 수록됨(2026-08-05)
 - [x] propranolol — Cirrhosis에 듣는다  <!-- 시험 25건 · 논문 956편 --> — 이미 수록됨(2026-08-05)
-- [ ] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] naltrexone — Alcoholism에 듣는다  <!-- 시험 49건 · 논문 1743편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다  <!-- 시험 44건 · 논문 38편 --> — 이미 수록됨(2026-08-05)
 - [x] naltrexone — Obesity에 듣는다  <!-- 시험 34건 · 논문 582편 --> — 이미 수록됨(2026-08-05)
 - [x] naltrexone — Pain에 듣는다  <!-- 시험 27건 · 논문 1828편 --> — 이미 수록됨(2026-08-05)
@@ -7263,20 +7263,20 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다  <!-- 시험 7건 · 논문 227편 --> — 이미 수록됨(2026-08-05)
 - [ ] amitriptyline — Major Depression에 듣는다  <!-- 시험 5건 · 논문 673편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] topiramate — Obesity에 듣는다  <!-- 시험 44건 · 논문 819편 --> — 이미 수록됨(2026-08-05)
-- [ ] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] topiramate — Epilepsy에 듣는다  <!-- 시험 40건 · 논문 2324편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다  <!-- 시험 37건 · 논문 281편 --> — 이미 수록됨(2026-08-05)
-- [ ] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] topiramate — Seizures에 듣는다  <!-- 시험 22건 · 논문 1788편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다  <!-- 시험 15건 · 논문 505편 --> — 이미 수록됨(2026-08-05)
-- [ ] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] trazodone — Depression에 듣는다  <!-- 시험 10건 · 논문 1009편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다  <!-- 시험 7건 · 논문 48편 --> — 이미 수록됨(2026-08-05)
-- [ ] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] quetiapine — Bipolar에 듣는다  <!-- 시험 93건 · 논문 1460편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다  <!-- 시험 41건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다  <!-- 시험 28건 · 논문 527편 --> — 이미 수록됨(2026-08-05)
 - [x] quetiapine — Schizoaffective Disorder에 듣는다  <!-- 시험 21건 · 논문 984편 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다  <!-- 시험 18건 · 논문 1461편 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다  <!-- 시험 14건 · 논문 127편 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다  <!-- 시험 18건 · 논문 293편 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
 - [x] doxycycline — Periodontitis에 듣는다  <!-- 시험 12건 · 논문 813편 -->
@@ -7452,15 +7452,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다 — 이미 수록됨(metformin-polycystic-ovary-null)  <!-- 시험 50건 · 논문 2549편 -->
 - [x] metformin — Obesity에 듣는다 — 이미 수록됨(metformin-obesity-pos)  <!-- 시험 33건 · 논문 5301편 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 이미 수록됨(metformin-insulin-resistance-null)  <!-- 시험 17건 · 논문 5652편 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 -->
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 이미 수록됨(propranolol-cirrhosis-open)  <!-- 시험 25건 · 논문 956편 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 이미 수록됨(naltrexone-marijuana-use-pos)  <!-- 시험 44건 · 논문 38편 -->
 - [x] naltrexone — Obesity에 듣는다 — 이미 수록됨(naltrexone-obesity-null)  <!-- 시험 34건 · 논문 582편 -->
 - [x] naltrexone — Pain에 듣는다 — 이미 수록됨(naltrexone-pain-null)  <!-- 시험 27건 · 논문 1828편 -->
@@ -7473,21 +7473,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 이미 수록됨(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 227편 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
 - [x] topiramate — Obesity에 듣는다 — 이미 수록됨(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 이미 수록됨(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 이미 수록됨(trazodone-sleep-null)  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 이미 수록됨(trazodone-delirium-null)  <!-- 시험 7건 · 논문 48편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 이미 수록됨(quetiapine-anxiety)  <!-- 시험 28건 · 논문 527편 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 이미 수록됨(quetiapine-schizoaffective-null)  <!-- 시험 21건 · 논문 984편 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 이미 수록됨(spironolactone-kidney-disease-null)  <!-- 시험 18건 · 논문 1461편 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 이미 수록됨(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 이미 수록됨(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 이미 수록됨(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
@@ -7670,15 +7670,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] metformin — Polycystic Ovary에 듣는다 — 이미 수록됨(metformin-polycystic-ovary-null)  <!-- 시험 50건 · 논문 2549편 -->
 - [x] metformin — Obesity에 듣는다 — 이미 수록됨(metformin-obesity-pos)  <!-- 시험 33건 · 논문 5301편 -->
 - [x] metformin — Insulin Resistance에 듣는다 — 이미 수록됨(metformin-insulin-resistance-null)  <!-- 시험 17건 · 논문 5652편 -->
-- [ ] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 -->
+- [x] aspirin — Stroke에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 57건 · 논문 10499편 --> — 기존 항목(aspirin-stroke-pos)
 - [x] aspirin — Colon Cancer에 듣는다 — 이미 수록됨(aspirin-colon-cancer-null)  <!-- 시험 37건 · 논문 1002편 -->
-- [ ] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 -->
+- [x] aspirin — Brain Infarction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 26건 · 논문 1183편 --> — 기존 항목(aspirin-brain-infarction-pos)
 - [x] aspirin — Cardiovascular Events에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 23건 · 논문 6549편 --> — 새 항목(aspirin-cardiovascular-events-harm)
 - [ ] propranolol — Migraine에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 30건 · 논문 773편 -->
 - [x] propranolol — Stress Reaction에 듣는다 — 이미 수록됨(propranolol-stress-reaction-null)  <!-- 시험 28건 · 논문 94편 -->
 - [x] propranolol — Ovarian Carcinoma에 듣는다 — 이미 수록됨(propranolol-ovarian-carcinoma-pos)  <!-- 시험 27건 · 논문 19편 -->
 - [x] propranolol — Cirrhosis에 듣는다 — 이미 수록됨(propranolol-cirrhosis-open)  <!-- 시험 25건 · 논문 956편 -->
-- [ ] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 -->
+- [x] naltrexone — Alcoholism에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 49건 · 논문 1743편 --> — 기존 항목(naltrexone-alcoholism-open)
 - [x] naltrexone — Marijuana Use에 듣는다 — 이미 수록됨(naltrexone-marijuana-use-pos)  <!-- 시험 44건 · 논문 38편 -->
 - [x] naltrexone — Obesity에 듣는다 — 이미 수록됨(naltrexone-obesity-null)  <!-- 시험 34건 · 논문 582편 -->
 - [x] naltrexone — Pain에 듣는다 — 이미 수록됨(naltrexone-pain-null)  <!-- 시험 27건 · 논문 1828편 -->
@@ -7691,21 +7691,21 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amitriptyline — Fibromyalgia에 듣는다 — 이미 수록됨(amitriptyline-fibromyalgia)  <!-- 시험 7건 · 논문 227편 -->
 - [ ] amitriptyline — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 5건 · 논문 673편 -->
 - [x] topiramate — Obesity에 듣는다 — 이미 수록됨(topiramate-obesity)  <!-- 시험 44건 · 논문 819편 -->
-- [ ] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 -->
+- [x] topiramate — Epilepsy에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 40건 · 논문 2324편 --> — 기존 항목(topiramate-epilepsy-pos)
 - [x] topiramate — Alcohol Abuse에 듣는다 — 이미 수록됨(topiramate-alcohol-abuse)  <!-- 시험 37건 · 논문 281편 -->
-- [ ] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 -->
+- [x] topiramate — Seizures에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 22건 · 논문 1788편 --> — 기존 항목(topiramate-seizures-open)
 - [x] trazodone — Sleep에 듣는다 — 이미 수록됨(trazodone-sleep-null)  <!-- 시험 15건 · 논문 505편 -->
-- [ ] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 -->
+- [x] trazodone — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 10건 · 논문 1009편 --> — 기존 항목(trazodone-depression-pos)
 - [x] trazodone — Delirium에 듣는다 — 이미 수록됨(trazodone-delirium-null)  <!-- 시험 7건 · 논문 48편 -->
-- [ ] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 -->
-- [ ] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 -->
-- [ ] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 -->
+- [x] trazodone — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 6건 · 논문 237편 --> — 기존 항목(trazodone-major-depressive-disorder-open)
+- [x] quetiapine — Bipolar에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 93건 · 논문 1460편 --> — 기존 항목(quetiapine-bipolar-pos)
+- [x] quetiapine — Major Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 41건 · 논문 564편 --> — 기존 항목(quetiapine-major-depression-pos)
 - [x] quetiapine — Anxiety에 듣는다 — 이미 수록됨(quetiapine-anxiety)  <!-- 시험 28건 · 논문 527편 -->
 - [x] quetiapine — Schizoaffective Disorder에 듣는다 — 이미 수록됨(quetiapine-schizoaffective-null)  <!-- 시험 21건 · 논문 984편 -->
-- [ ] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 -->
+- [x] spironolactone — Hypertension에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 48건 · 논문 2844편 --> — 기존 항목(spironolactone-hypertension-pos)
 - [x] spironolactone — Kidney Disease에 듣는다 — 이미 수록됨(spironolactone-kidney-disease-null)  <!-- 시험 18건 · 논문 1461편 -->
 - [x] spironolactone — Acute Renal Injury에 듣는다 — 이미 수록됨(spironolactone-acute-renal-injury-harm)  <!-- 시험 14건 · 논문 127편 -->
-- [ ] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 -->
+- [x] doxycycline — Acne에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 25건 · 논문 406편 --> — 기존 항목(doxycycline-acne-pos)
 - [x] doxycycline — Rosacea에 듣는다 — 이미 수록됨(doxycycline-rosacea-inflammatory-lesions)  <!-- 시험 18건 · 논문 293편 -->
 - [ ] doxycycline — Syphilis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->  <!-- 시험 12건 · 논문 419편 -->
 - [x] doxycycline — Periodontitis에 듣는다 — 이미 수록됨(doxycycline-periodontitis-adjunct)  <!-- 시험 12건 · 논문 813편 -->
@@ -11085,8 +11085,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 --> — 근거 없음(2026-08-06, "empagliflozin AND SGLT2 Inhibitors")
 - [x] empagliflozin — Obesity에 듣는다  <!-- 시험 13건 · 논문 302편 --> — 근거 없음(2026-08-06, "empagliflozin AND Obesity")
 - [x] empagliflozin — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 79편 --> — 근거 없음(2026-08-06, "empagliflozin AND Metabolic Syndrome")
-- [ ] famotidine — Acid Reflux에 듣는다  <!-- 시험 7건 · 논문 153편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] famotidine — Ulcer에 듣는다  <!-- 시험 6건 · 논문 1004편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] famotidine — Acid Reflux에 듣는다  <!-- 시험 7건 · 논문 153편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(famotidine-acid-reflux-null)
+- [x] famotidine — Ulcer에 듣는다  <!-- 시험 6건 · 논문 1004편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(famotidine-ulcer-pos)
 - [x] famotidine — HIV에 듣는다  <!-- 시험 5건 · 논문 14편 --> — 근거 없음(2026-08-06, "famotidine AND HIV")
 - [x] famotidine — SARS-CoV-2 Infection에 듣는다  <!-- 시험 5건 · 논문 103편 --> — 항목 생성(2026-08-06)
 - [x] ivermectin — Drug Effect에 듣는다  <!-- 시험 4건 · 논문 6009편 --> — 근거 없음(2026-08-06, "ivermectin AND Drug Effect")
@@ -11127,7 +11127,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] clotrimazole — Tinea Pedis에 듣는다  <!-- 시험 6건 · 논문 66편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] clotrimazole — Tinea Pedis에 듣는다  <!-- 시험 6건 · 논문 66편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(clotrimazole-tinea-pedis-null)
 - [x] clotrimazole — HIV Infections에 듣는다  <!-- 시험 5건 · 논문 85편 --> — 근거 없음(2026-08-06, "clotrimazole AND HIV Infections")
 - [x] clotrimazole — Otomycosis에 듣는다  <!-- 시험 4건 · 논문 79편 --> — 항목 생성(clotrimazole-otomycosis-open)
 - [x] clotrimazole — Bacterial Vaginosis에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-06, "clotrimazole AND Bacterial Vaginosis")
@@ -11143,8 +11143,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [ ] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [ ] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
 - [ ] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(lactulose-cirrhosis-null)
+- [x] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(lactulose-constipation-pos)
 - [x] lactulose — Renal Failure에 듣는다  <!-- 시험 9건 · 논문 63편 --> — 항목 생성(lactulose-renal-failure-open)
 - [x] lactulose — Bowel Preparation에 듣는다  <!-- 시험 9건 · 논문 83편 --> — 항목 생성(lactulose-bowel-preparation-pos)
 - [x] levonorgestrel — Endometrial Polyp에 듣는다  <!-- 시험 22건 · 논문 66편 --> — 항목 생성(levonorgestrel-endometrial-polyp-null)
@@ -14081,9 +14081,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 
 - [x] community meal — Hypertension에 듣는다  <!-- 시험 3건 · 논문 173편 --> — 근거 없음(2026-08-07 조회, "community meal" AND "Hypertension")
 - [x] cetirizine — Lung Cancer에 듣는다  <!-- 시험 7건 · 논문 8편 --> — 근거 없음(2026-08-07 조회, "cetirizine" AND "Lung Cancer")
-- [ ] cetirizine — Urticaria에 듣는다  <!-- 시험 5건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->
-- [ ] cetirizine — Allergies에 듣는다  <!-- 시험 4건 · 논문 1293편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->
-- [ ] cetirizine — Allergy에 듣는다  <!-- 시험 3건 · 논문 1293편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 -->
+- [x] cetirizine — Urticaria에 듣는다  <!-- 시험 5건 · 논문 455편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 --> — 새 항목(cetirizine-urticaria-pos)
+- [x] cetirizine — Allergies에 듣는다  <!-- 시험 4건 · 논문 1293편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 --> — 새 항목(cetirizine-allergy-pos)
+- [x] cetirizine — Allergy에 듣는다  <!-- 시험 3건 · 논문 1293편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-07 --> — 새 항목(cetirizine-allergy-pos)
 - [x] saxagliptin — Impaired Glucose Tolerance에 듣는다  <!-- 시험 5건 · 논문 12편 -->
 - [x] saxagliptin — Cardiovascular Disease에 듣는다  <!-- 시험 3건 · 논문 281편 --> — 근거 없음(2026-08-07 조회, "saxagliptin" AND "Cardiovascular Disease")
 - [x] iloprost — Lung Cancer에 듣는다  <!-- 시험 9건 · 논문 41편 -->
