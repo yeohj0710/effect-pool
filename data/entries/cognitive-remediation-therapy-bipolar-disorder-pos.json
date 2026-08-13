@@ -1,28 +1,33 @@
 {
-  "id": "cognitive-remediation-therapy-bipolar-disorder-pos",
-  "subj": "cognitive remediation therapy",
-  "claim": "양극성장애의 인지·심리사회 기능에 인지재활 치료를 적용할 수 있다",
-  "line": "양극성장애에서 인지재활은 인지기능을 높였다.",
-  "effect": "실행기능 효과크기 0.93",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 60,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "인지 재활 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "현재 삽화가 없는 양극성장애 환자의 인지 결손이 인지 재활로 개선되고 일상 기능으로 이어지는지 평소 치료와 비교했습니다.",
-  "saw": "양극성장애 환자 60명을 인지 재활 29명과 평소 치료 31명에 무작위 배정했습니다. 25주에 인지 재활군의 지능 효과크기는 0.71, 작업기억 0.70, 실행기능 0.93, 심리사회 기능 0.49, 목표 달성 2.02였고 중대한 이상반응은 없었습니다.",
-  "limit": "개념증명 시험이라 확정적인 임상 효과를 판단하려면 더 큰 시험이 필요합니다.",
-  "against": "인지 재활군 2명, 평소 치료군 5명이 중도 탈락했지만 탈락률은 두 군에서 유사했습니다.",
-  "use": "삽화가 없는 양극성장애에서 인지 결손과 심리사회 기능을 함께 재활할 때 참고하는 근거입니다.",
-  "refs": [
-    { "label": "Summers 2020 · Psychological Medicine · 무작위 개념증명시험", "pmid": "32583630", "doi": "10.1017/S0033291720001232" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=cognitive remediation therapy AND condition=Bipolar Disorder; 24건 반환, 중재명 대조 후 1건",
-    "pubmed": "cognitive remediation therapy AND Bipolar Disorder; 134건",
-    "negative": "cognitive remediation therapy AND Bipolar Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference); 97건",
-    "safety": "cognitive remediation therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 209건"
+ "id": "cognitive-remediation-therapy-bipolar-disorder-pos",
+ "subj": "인지 재활 치료",
+ "claim": "양극성장애의 인지·심리사회 기능에 인지재활 치료를 적용할 수 있다",
+ "line": "양극성장애에서 인지재활은 인지기능을 높였다.",
+ "effect": "실행기능 SES=.93",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 60,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "인지 재활 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "현재 삽화가 없는 양극성장애 환자의 인지 결손이 인지 재활로 개선되고 일상 기능으로 이어지는지 평소 치료와 비교했습니다.",
+ "saw": "양극성장애 환자 60명을 인지재활 치료군 29명과 평소 치료군 31명에 무작위 배정했습니다. 25주 인지재활 치료군의 지능 SES=.71, 작업기억 .70, 실행기능 .93, 심리사회 기능 .49, 목표 달성 2.02로 모두 대조군보다 좋아졌습니다.",
+ "limit": "개념증명 시험이라 확정적인 임상 효과를 판단하려면 더 큰 시험이 필요합니다.",
+ "against": "인지 재활군 2명, 평소 치료군 5명이 중도 탈락했지만 탈락률은 두 군에서 유사했습니다.",
+ "use": "삽화가 없는 양극성장애에서 인지 결손과 심리사회 기능을 함께 재활할 때 참고하는 근거입니다.",
+ "refs": [
+  {
+   "label": "Summers 2020 · Psychological Medicine · 무작위 개념증명시험",
+   "pmid": "32583630",
+   "doi": "10.1017/S0033291720001232"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=cognitive remediation therapy AND condition=Bipolar Disorder; 24건 반환, 중재명 대조 후 1건",
+  "pubmed": "cognitive remediation therapy AND Bipolar Disorder; 134건",
+  "negative": "cognitive remediation therapy AND Bipolar Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference); 97건",
+  "safety": "cognitive remediation therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 209건"
+ },
+ "vs": "인지재활 치료 29명 대 평소 치료 31명: 25주 지능 차이 SES=.71(95% CI .29~1.13), 작업기억 .70(.31~1.10), 실행기능 .93(.33~1.54), 심리사회 기능 .49(.18~.80), 목표 달성 2.02(.89~3.14)"
 }

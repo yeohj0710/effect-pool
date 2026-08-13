@@ -1,32 +1,33 @@
 {
-  "id": "cognitive-rehabilitation-schizophrenia-pos",
-  "subj": "cognitive rehabilitation",
-  "claim": "조현병의 인지·기능 저하에 인지재활을 보조적으로 적용할 수 있다",
-  "line": "조현병 인지재활은 인지와 기능을 소폭 개선했다.",
-  "effect": "인지 d 0.29·기능 d 0.22",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 8851,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "조현병 인지훈련 또는 인지재활을 평가한 대규모 메타분석을 확인했습니다",
-  "saw": "130개 연구 8,851명에서 인지 d 0.29, 기능 d 0.22의 소폭 개선이 있었습니다",
-  "limit": "프로그램과 대조군이 다양하고 기능 개선은 인지보다 작았습니다",
-  "against": "치료 대조 또는 일반 재활",
-  "use": "조현병 인지·기능 저하의 보조 재활 신호로만 봅니다.",
-  "refs": [
-    {
-      "label": "Cognitive remediation in schizophrenia: a meta-analysis of randomized controlled trials",
-      "doi": "10.1001/jamapsychiatry.2021.0620",
-      "pmid": "33877289"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive rehabilitation · cond=Schizophrenia: 4건",
-    "pubmed": "cognitive rehabilitation AND Schizophrenia AND (randomized OR trial OR meta-analysis): 1390건",
-    "negative": "cognitive rehabilitation AND Schizophrenia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2321건",
-    "safety": "cognitive rehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 6951건"
+ "id": "cognitive-rehabilitation-schizophrenia-pos",
+ "subj": "인지 재활",
+ "claim": "조현병의 인지·기능 저하에 인지재활을 보조적으로 적용할 수 있다",
+ "line": "조현병 인지재활은 인지와 기능을 소폭 개선했다.",
+ "effect": "인지 d=.29; 기능 d=.22",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 8851,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "조현병 인지훈련 또는 인지재활을 평가한 대규모 메타분석을 확인했습니다",
+ "saw": "조현병 스펙트럼 인지재활 무작위시험 130건, 8,851명을 메타분석했습니다. 대조 조건보다 전반 인지는 d=.29(95% CI .24~.34), 기능은 d=.22(.16~.29) 좋아졌습니다.",
+ "limit": "프로그램과 대조군이 다양하고 기능 개선은 인지보다 작았습니다",
+ "against": "치료 대조 또는 일반 재활",
+ "use": "조현병 인지·기능 저하의 보조 재활 신호로만 봅니다.",
+ "refs": [
+  {
+   "label": "Cognitive remediation in schizophrenia: a meta-analysis of randomized controlled trials",
+   "doi": "10.1001/jamapsychiatry.2021.0620",
+   "pmid": "33877289"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive rehabilitation · cond=Schizophrenia: 4건",
+  "pubmed": "cognitive rehabilitation AND Schizophrenia AND (randomized OR trial OR meta-analysis): 1390건",
+  "negative": "cognitive rehabilitation AND Schizophrenia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2321건",
+  "safety": "cognitive rehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 6951건"
+ },
+ "vs": "조현병 인지재활 대조 조건 대비: 인지 효과크기 d=.29(95% CI .24~.34), 기능 효과크기 d=.22(.16~.29); 130개 연구 8,851명"
 }

@@ -1,28 +1,33 @@
 {
-  "id": "cognitive-restructuring-stress-pos",
-  "subj": "인지 재구성",
-  "claim": "외상후스트레스장애 관련 스트레스에 인터넷 인지 재구성을 적용할 수 있다",
-  "line": "인지 재구성은 외상후스트레스장애 증상을 대기군보다 낮췄다.",
-  "effect": "PTSD·불안·우울 증상 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 365,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
-  "why": "아랍어권 외상후스트레스장애 참가자 365명을 인지 재구성·노출·대기군에 배정한 무작위시험입니다.",
-  "saw": "인지 재구성군에서 외상후스트레스·불안·우울 증상이 치료 전보다 줄었고 대기군보다 우수했습니다.",
-  "limit": "인지 재구성과 노출치료 사이의 효과 차이는 없었고 치료 완료자는 123명으로 제한됐습니다.",
-  "against": "인지 재구성이 노출치료보다 우월하지 않았습니다.",
-  "use": "외상 관련 스트레스의 인터넷 심리치료 선택지로 평가하되 단독 치료 효과로 확대하지 않습니다.",
-  "refs": [
-    { "label": "인터넷 인지 재구성·노출치료 PTSD 무작위시험", "doi": "10.2196/48689", "pmid": "38090792" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive restructuring AND cond=Stress · 140건",
-    "pubmed": "cognitive restructuring AND Stress · 460건; trial 200건",
-    "negative": "cognitive restructuring AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 133건",
-    "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ "id": "cognitive-restructuring-stress-pos",
+ "subj": "인지 재구성",
+ "claim": "외상후스트레스장애 관련 스트레스에 인터넷 인지 재구성을 적용할 수 있다",
+ "line": "인지 재구성은 외상후스트레스장애 증상을 대기군보다 낮췄다.",
+ "effect": "PTSD 증상 P<.001",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 365,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
+ "why": "아랍어권 외상후스트레스장애 참가자 365명을 인지 재구성·노출·대기군에 배정한 무작위시험입니다.",
+ "saw": "아랍어권 PTSD 성인 365명을 인터넷 인지 재구성군 118명, 노출군 122명, 대기군 125명에 배정했습니다. 두 치료군 모두 대기군보다 PTSD·불안·우울·신체화 증상이 낮고 삶의 질이 높았으며 대부분 P<.001~.03이었습니다. 인지 재구성과 노출치료의 변화량 차이는 유의하지 않았습니다.",
+ "limit": "인지 재구성과 노출치료 사이의 효과 차이는 없었고 치료 완료자는 123명으로 제한됐습니다.",
+ "against": "인지 재구성이 노출치료보다 우월하지 않았습니다.",
+ "use": "외상 관련 스트레스의 인터넷 심리치료 선택지로 평가하되 단독 치료 효과로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "인터넷 인지 재구성·노출치료 PTSD 무작위시험",
+   "doi": "10.2196/48689",
+   "pmid": "38090792"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive restructuring AND cond=Stress · 140건",
+  "pubmed": "cognitive restructuring AND Stress · 460건; trial 200건",
+  "negative": "cognitive restructuring AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 133건",
+  "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ },
+ "vs": "인지 재구성 118명·노출 122명 대 대기 125명: PTSD·불안·우울·신체화 증상 치료 후 대기보다 개선(P<.001~.03); 두 치료 간 차이 없음"
 }

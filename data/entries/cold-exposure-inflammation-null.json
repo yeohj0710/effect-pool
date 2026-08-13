@@ -1,28 +1,32 @@
 {
-  "id": "cold-exposure-inflammation-null",
-  "subj": "냉각 노출",
-  "claim": "운동 후 냉각이 염증과 근육 손상 회복을 개선한다",
-  "line": "운동 직후나 하루 뒤 냉각은 근육통과 근력 회복에 뚜렷한 이점이 없었다.",
-  "effect": "근육통·근력 회복에 유의한 이점 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 48,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 후 염증 회복은 냉각 노출의 의약품 허가 적응증이 아닙니다.",
-  "why": "운동으로 지연성 근육통을 유발한 뒤 즉시 냉각, 24시간 뒤 냉각, 대조군에 무작위 배정했습니다.",
-  "saw": "건강한 성인 48명이 한쪽 다리 편심 운동 뒤 20분 냉각을 즉시 또는 24시간 뒤 받았습니다. 72시간 동안 근육통과 최대 등척성 수축력에서 두 냉각군이 대조군보다 낫지 않았고 CK·ESR·CRP 회복 우위도 일관되지 않았습니다.",
-  "limit": "국소 젤팩을 사용한 단일 운동 후 회복 시험이며 전신 냉수욕 결과가 아닙니다.",
-  "against": "운동 뒤 시간에 따라 근육통과 CK는 자연히 회복됐습니다.",
-  "use": "운동 후 냉각은 시점만 바꿔도 염증 회복 효과가 커지지 않는 근거로 기록합니다.",
-  "refs": [
-    { "label": "운동 후 즉시·지연 냉각 무작위시험", "pmid": "42512191" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cold exposure · cond=Inflammation → 6건 반환, 물질 대조 후 6건",
-    "pubmed": "cold exposure AND Inflammation → 730편",
-    "negative": "cold exposure AND Inflammation AND (no effect OR did not OR failed OR negative OR no significant difference) → 515편",
-    "safety": "cold exposure AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4799편"
+ "id": "cold-exposure-inflammation-null",
+ "subj": "냉각 노출",
+ "claim": "운동 후 냉각이 염증과 근육 손상 회복을 개선한다",
+ "line": "운동 직후나 하루 뒤 냉각은 근육통과 근력 회복에 뚜렷한 이점이 없었다.",
+ "effect": "DOMS·MVIC 군 간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 48,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 후 염증 회복은 냉각 노출의 의약품 허가 적응증이 아닙니다.",
+ "why": "운동으로 지연성 근육통을 유발한 뒤 즉시 냉각, 24시간 뒤 냉각, 대조군에 무작위 배정했습니다.",
+ "saw": "건강한 성인 48명을 운동 직후 냉각, 24시간 뒤 냉각, 대조군에 무작위 배정했습니다. 72시간 동안 지연성 근육통과 최대 등척성 수축력에서 조건 또는 조건·시간 상호작용이 없었고, CRP에서도 체계적인 회복 우위가 없었습니다.",
+ "limit": "국소 젤팩을 사용한 단일 운동 후 회복 시험이며 전신 냉수욕 결과가 아닙니다.",
+ "against": "운동 뒤 시간에 따라 근육통과 CK는 자연히 회복됐습니다.",
+ "use": "운동 후 냉각은 시점만 바꿔도 염증 회복 효과가 커지지 않는 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "운동 후 즉시·지연 냉각 무작위시험",
+   "pmid": "42512191"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cold exposure · cond=Inflammation → 6건 반환, 물질 대조 후 6건",
+  "pubmed": "cold exposure AND Inflammation → 730편",
+  "negative": "cold exposure AND Inflammation AND (no effect OR did not OR failed OR negative OR no significant difference) → 515편",
+  "safety": "cold exposure AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4799편"
+ },
+ "vs": "즉시 냉각·지연 냉각 대 대조군: DOMS·MVIC 조건·시간 상호작용 없음; CRP 회복 우위 없음"
 }

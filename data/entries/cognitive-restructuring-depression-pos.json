@@ -1,28 +1,33 @@
 {
-  "id": "cognitive-restructuring-depression-pos",
-  "subj": "인지 재구성",
-  "claim": "성인 우울증에 인지 재구성을 적용할 수 있다",
-  "line": "인지 재구성은 성인 우울증의 우울 증상을 대조군보다 낮췄다.",
-  "effect": "대기군 대비 SMD 1.20",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3382,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
-  "why": "인지 재구성·행동활성화·인지행동치료를 비교한 성인 우울증 무작위시험 45개, 3,382명의 네트워크 메타분석입니다.",
-  "saw": "인지 재구성은 통상치료와 대기군보다 우울을 줄였고 행동활성화·인지행동치료와 효과 차이는 없었습니다.",
-  "limit": "인지 재구성 단독 연구의 수가 적고 치료 전달 방식이 달랐습니다.",
-  "against": "인지 재구성이 행동활성화나 인지행동치료보다 우월하다는 근거는 없습니다.",
-  "use": "우울증 심리치료의 구성요소로 평가하고 개인별 치료계획에 맞춥니다.",
-  "refs": [
-    { "label": "인지 재구성·행동활성화·CBT 우울증 네트워크 메타분석", "doi": "10.1037/ccp0000654", "pmid": "34264703" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive restructuring AND cond=Depression · 209건",
-    "pubmed": "cognitive restructuring AND Depression · 503건; trial 291건",
-    "negative": "cognitive restructuring AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 157건",
-    "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ "id": "cognitive-restructuring-depression-pos",
+ "subj": "인지 재구성",
+ "claim": "성인 우울증에 인지 재구성을 적용할 수 있다",
+ "line": "인지 재구성은 성인 우울증의 우울 증상을 대조군보다 낮췄다.",
+ "effect": "대기군 SMD=1.20",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3382,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
+ "why": "인지 재구성·행동활성화·인지행동치료를 비교한 성인 우울증 무작위시험 45개, 3,382명의 네트워크 메타분석입니다.",
+ "saw": "성인 우울증 인지 재구성·행동활성화·인지행동치료 45개 연구, 3,382명을 네트워크 메타분석했습니다. 인지 재구성은 통상치료보다 SMD=.57(95% CI .08~1.07), 대기군보다 SMD=1.20(.69~1.70) 우수했고 행동활성화·인지행동치료와 효과 차이는 없었습니다.",
+ "limit": "인지 재구성 단독 연구의 수가 적고 치료 전달 방식이 달랐습니다.",
+ "against": "인지 재구성이 행동활성화나 인지행동치료보다 우월하다는 근거는 없습니다.",
+ "use": "우울증 심리치료의 구성요소로 평가하고 개인별 치료계획에 맞춥니다.",
+ "refs": [
+  {
+   "label": "인지 재구성·행동활성화·CBT 우울증 네트워크 메타분석",
+   "doi": "10.1037/ccp0000654",
+   "pmid": "34264703"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive restructuring AND cond=Depression · 209건",
+  "pubmed": "cognitive restructuring AND Depression · 503건; trial 291건",
+  "negative": "cognitive restructuring AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 157건",
+  "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ },
+ "vs": "인지 재구성 대 통상치료: 우울 SMD=.57(95% CI .08~1.07); 대 대기군 SMD=1.20(.69~1.70); 행동활성화·인지행동치료와 효과 차이 없음"
 }

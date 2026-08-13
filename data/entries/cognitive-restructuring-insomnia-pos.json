@@ -1,28 +1,34 @@
 {
-  "id": "cognitive-restructuring-insomnia-pos",
-  "subj": "인지 재구성",
-  "claim": "만성 불면증 인지행동치료에 인지 재구성을 포함할 수 있다",
-  "line": "인지 재구성은 만성 불면증의 관해 가능성을 높였다.",
-  "effect": "관해 iOR 1.68",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 31452,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
-  "why": "만성 불면증 성인 인지행동치료 241개 시험, 31,452명의 구성요소 네트워크 메타분석입니다.",
-  "saw": "인지 재구성은 불면증 관해 가능성을 높이는 핵심 구성요소로 나타났습니다(iOR 1.68).",
-  "limit": "인지 재구성은 여러 인지행동치료 구성요소와 함께 제공돼 단독 효과를 분리하기 어렵습니다.",
-  "against": "수면위생 교육은 필수 구성요소가 아니었고 이완 절차는 역효과 가능성이 있었습니다.",
-  "use": "불면증 인지행동치료의 구성요소로 사용하되 수면제 대체 효과로 과장하지 않습니다.",
-  "refs": [
-    { "label": "불면증 인지행동치료 구성요소 네트워크 메타분석", "doi": "10.1001/jamapsychiatry.2023.5060", "pmid": "38231522", "pmc": "PMC10794978" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive restructuring AND cond=Insomnia · 107건",
-    "pubmed": "cognitive restructuring AND Insomnia · 69건; trial 42건",
-    "negative": "cognitive restructuring AND Insomnia AND (no effect OR did not OR failed OR negative OR no significant difference) · 15건",
-    "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ "id": "cognitive-restructuring-insomnia-pos",
+ "subj": "인지 재구성",
+ "claim": "만성 불면증 인지행동치료에 인지 재구성을 포함할 수 있다",
+ "line": "인지 재구성은 만성 불면증의 관해 가능성을 높였다.",
+ "effect": "관해 iOR=1.68",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 31452,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "심리치료 기법이며 허가 의약품 적응증이 아닙니다.",
+ "why": "만성 불면증 성인 인지행동치료 241개 시험, 31,452명의 구성요소 네트워크 메타분석입니다.",
+ "saw": "만성 불면증 인지행동치료 241개 시험, 31,452명을 구성요소 네트워크 메타분석했습니다. 인지 재구성의 관해 증분 오즈비는 1.68(95% CI 1.28~2.20)이었고, 인지 재구성·제3의 물결·수면 제한·자극 조절 조합은 대면 심리교육보다 관해율이 0.33(95% CI .23~.43) 높았으며 NNT=3.0이었습니다.",
+ "limit": "인지 재구성은 여러 인지행동치료 구성요소와 함께 제공돼 단독 효과를 분리하기 어렵습니다.",
+ "against": "수면위생 교육은 필수 구성요소가 아니었고 이완 절차는 역효과 가능성이 있었습니다.",
+ "use": "불면증 인지행동치료의 구성요소로 사용하되 수면제 대체 효과로 과장하지 않습니다.",
+ "refs": [
+  {
+   "label": "불면증 인지행동치료 구성요소 네트워크 메타분석",
+   "doi": "10.1001/jamapsychiatry.2023.5060",
+   "pmid": "38231522",
+   "pmc": "PMC10794978"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive restructuring AND cond=Insomnia · 107건",
+  "pubmed": "cognitive restructuring AND Insomnia · 69건; trial 42건",
+  "negative": "cognitive restructuring AND Insomnia AND (no effect OR did not OR failed OR negative OR no significant difference) · 15건",
+  "safety": "cognitive restructuring AND (adverse OR toxicity OR case report OR harm OR dropout) · 159건"
+ },
+ "vs": "인지 재구성 포함 대 미포함 CBT-I 구성요소: 관해 iOR=1.68(95% CI 1.28~2.20); 최적 조합 대 대면 심리교육 위험차이=.33(.23~.43), NNT=3.0"
 }

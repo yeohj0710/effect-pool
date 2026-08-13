@@ -1,32 +1,33 @@
 {
-  "id": "cognitive-rehabilitation-stroke-pos",
-  "subj": "cognitive rehabilitation",
-  "claim": "뇌졸중 후 인지장애에 인지재활을 보조적으로 적용할 수 있다",
-  "line": "뇌졸중 후 인지재활은 인지기능과 일상생활 수행을 높였다.",
-  "effect": "인지·ADL 유의 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1149,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "뇌졸중 후 인지장애 환자의 가상현실 기반 인지재활을 기존 치료와 비교한 메타분석을 확인했습니다",
-  "saw": "21개 무작위시험 1,149명에서 가상현실 인지재활이 인지검사와 일상생활 지표를 개선했습니다",
-  "limit": "중재 장치와 평가가 다양하고 연구 질과 장기 추적이 제한적입니다",
-  "against": "기존 재활 또는 약물치료",
-  "use": "뇌졸중 후 인지장애의 보조 재활 신호로만 봅니다.",
-  "refs": [
-    {
-      "label": "Effects of Virtual Reality Rehabilitation Training on Cognitive Function and Activities of Daily Living of Patients With Poststroke Cognitive Impairment: A Systematic Review and Meta-Analysis",
-      "doi": "10.1016/j.apmr.2022.03.012",
-      "pmid": "35417757"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cognitive rehabilitation · cond=Stroke: 4건",
-    "pubmed": "cognitive rehabilitation AND Stroke AND (randomized OR trial OR meta-analysis): 2500건",
-    "negative": "cognitive rehabilitation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 4337건",
-    "safety": "cognitive rehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 6951건"
+ "id": "cognitive-rehabilitation-stroke-pos",
+ "subj": "인지 재활",
+ "claim": "뇌졸중 후 인지장애에 인지재활을 보조적으로 적용할 수 있다",
+ "line": "뇌졸중 후 인지재활은 인지기능과 일상생활 수행을 높였다.",
+ "effect": "MMSE·ADL P<.05",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1149,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "뇌졸중 후 인지장애 환자의 가상현실 기반 인지재활을 기존 치료와 비교한 메타분석을 확인했습니다",
+ "saw": "뇌졸중 후 인지장애 가상현실 재활 무작위시험 21건, 1,149명을 메타분석했습니다. 기존 재활·약물 대조보다 MMSE, MoCA, LOTCA, RBMT, Barthel 지수, FIM 등이 높아졌고 P300 잠복기와 Trail Making Test 점수는 낮아졌으며 모두 P<.05였습니다.",
+ "limit": "중재 장치와 평가가 다양하고 연구 질과 장기 추적이 제한적입니다",
+ "against": "기존 재활 또는 약물치료",
+ "use": "뇌졸중 후 인지장애의 보조 재활 신호로만 봅니다.",
+ "refs": [
+  {
+   "label": "Effects of Virtual Reality Rehabilitation Training on Cognitive Function and Activities of Daily Living of Patients With Poststroke Cognitive Impairment: A Systematic Review and Meta-Analysis",
+   "doi": "10.1016/j.apmr.2022.03.012",
+   "pmid": "35417757"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=cognitive rehabilitation · cond=Stroke: 4건",
+  "pubmed": "cognitive rehabilitation AND Stroke AND (randomized OR trial OR meta-analysis): 2500건",
+  "negative": "cognitive rehabilitation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 4337건",
+  "safety": "cognitive rehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 6951건"
+ },
+ "vs": "가상현실 인지재활 대 기존 재활·약물: MMSE·MoCA·LOTCA·RBMT·Barthel·FIM 증가, P300 잠복기·Trail Making Test 감소, 모두 P<.05"
 }

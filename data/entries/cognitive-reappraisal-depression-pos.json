@@ -1,28 +1,34 @@
 {
-  "id": "cognitive-reappraisal-depression-pos",
-  "subj": "cognitive reappraisal",
-  "claim": "인지 재평가를 포함한 모바일 중재는 성인 우울 증상을 개선할 수 있다",
-  "line": "모바일 인지 재평가 중재 후 우울 증상이 개선되는 신호가 있었다.",
-  "effect": "정신건강 SMD 0.34",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3904,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "인지 재평가는 비약물 심리 중재이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "인지 재평가 요소를 포함한 성인 모바일 정신건강 중재의 무작위시험을 종합했습니다.",
-  "saw": "30개 무작위시험 3904명에서 인지 재평가를 포함한 모바일 중재의 정신건강 효과는 SMD 0.34(P=.002)였다.",
-  "limit": "대부분 인지 재평가 외 CBT 등 여러 요소를 함께 제공했고 이질성과 비뚤림 위험이 컸다.",
-  "against": "인지 재평가 단독 효과는 다성분 중재에서 분리해 확인되지 않았다.",
-  "use": "우울 증상 모바일 심리중재의 구성 요소로 검토하되 단독 치료 근거로 사용하지 않습니다.",
-  "refs": [
-    { "label": "성인 모바일 중재의 인지 재평가 체계적 문헌고찰·메타분석", "doi": "10.3389/fdgth.2023.1253390", "pmid": "37927578", "pmc": "PMC10623449" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=cognitive reappraisal AND condition=Depression; 27건",
-    "pubmed": "cognitive reappraisal AND Depression; 761건",
-    "negative": "cognitive reappraisal AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 405건",
-    "safety": "cognitive reappraisal AND (adverse OR toxicity OR case report OR harm OR dropout); 195건"
+ "id": "cognitive-reappraisal-depression-pos",
+ "subj": "인지 재평가",
+ "claim": "인지 재평가를 포함한 모바일 중재는 성인 우울 증상을 개선할 수 있다",
+ "line": "모바일 인지 재평가 중재 후 우울 증상이 개선되는 신호가 있었다.",
+ "effect": "정신건강 SMD=.34",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3904,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "인지 재평가는 비약물 심리 중재이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "인지 재평가 요소를 포함한 성인 모바일 정신건강 중재의 무작위시험을 종합했습니다.",
+ "saw": "성인 모바일 중재 무작위시험 30건, 3,904명을 메타분석했습니다. 인지 재평가를 포함한 모바일 중재는 대조 조건보다 정신건강이 소폭에서 중간 정도 좋아졌고 SMD=.34(P=.002)였습니다. 불안과 우울은 좋아졌지만 심리적 고통과 웰빙은 유의한 차이가 없었습니다.",
+ "limit": "대부분 인지 재평가 외 CBT 등 여러 요소를 함께 제공했고 이질성과 비뚤림 위험이 컸다.",
+ "against": "인지 재평가 단독 효과는 다성분 중재에서 분리해 확인되지 않았다.",
+ "use": "우울 증상 모바일 심리중재의 구성 요소로 검토하되 단독 치료 근거로 사용하지 않습니다.",
+ "refs": [
+  {
+   "label": "성인 모바일 중재의 인지 재평가 체계적 문헌고찰·메타분석",
+   "doi": "10.3389/fdgth.2023.1253390",
+   "pmid": "37927578",
+   "pmc": "PMC10623449"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=cognitive reappraisal AND condition=Depression; 27건",
+  "pubmed": "cognitive reappraisal AND Depression; 761건",
+  "negative": "cognitive reappraisal AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 405건",
+  "safety": "cognitive reappraisal AND (adverse OR toxicity OR case report OR harm OR dropout); 195건"
+ },
+ "vs": "모바일 인지 재평가 대 대조 조건: 정신건강 SMD=.34(P=.002), 30개 무작위시험 3,904명; 불안·우울은 개선, 심리적 고통·웰빙은 차이 없음"
 }
