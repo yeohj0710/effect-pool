@@ -2,37 +2,37 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5867,
-  "subjects": 2236,
-  "refs": 8229,
+  "entries": 5893,
+  "subjects": 2243,
+  "refs": 8255,
   "kinds": {
-    "otc": 120,
+    "otc": 121,
     "supp": 365,
     "food": 462,
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2427
+    "rx": 2452
   },
   "tiers": {
-    "trial": 5046,
+    "trial": 5071,
     "obs": 727,
-    "animal": 30,
+    "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3494,
-    "null": 1174,
+    "pos": 3514,
+    "null": 1180,
     "open": 1038,
     "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 15142,
-    "unchecked": 400,
-    "no_evidence_pending": 2034,
-    "note": "Batch 1267 checked 30 unique prescription topics from worklist lines 9402-9535. No identifiable non-prescription topics were available in this queue segment, so prescription topics were processed. New evidence entries: 23; existing links: 0; no-evidence rejects: 7 (selpercatinib Cancer, selpercatinib Neoplasm, tiotropium Bronchitis, tiotropium Emphysema, salmeterol Lung Diseases, Obstructive, salmeterol Emphysema, and quinidine Cardiovascular Diseases lacked an eligible single-topic numeric comparator effect)."
+    "checked": 15172,
+    "unchecked": 370,
+    "no_evidence_pending": 2038,
+    "note": "Batch 1268 checked 30 unique topics from worklist lines 9537-10057, prioritizing the one identifiable non-prescription topic: guaifenesin Cough. New evidence entries: 26; existing links: 0; no-evidence rejects: 4 (alprostadil Peripheral Artery Disease, etoricoxib Arthritis, trametinib Lung Carcinoma, and albuterol Bronchospasm lacked an eligible single-topic numeric comparator effect)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "16.1% (947 entries)",
-    "rx_share": "41.4% (2,427 entries)",
-    "no_effect_or_harm_share": "22.8% (1,335 entries)",
-    "vs_share": "14.0% (823 entries)",
+    "over_counter_share": "16.1% (948 entries)",
+    "rx_share": "41.6% (2,452 entries)",
+    "no_effect_or_harm_share": "22.8% (1,341 entries)",
+    "vs_share": "14.4% (849 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.0% (5,046 entries)",
-    "non_trial_share": "14.0% (821 entries)",
+    "trial_share": "86.0% (5,071 entries)",
+    "non_trial_share": "14.0% (822 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 991,
+      "thin_study": 995,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1268 starts after batch 1267. Prioritize non-prescription topics first; none were identifiable in this queue segment. Resume at worklist line 9537: daptomycin — Bacteremia. 400 unchecked rows remain.",
+  "next": "Batch 1269 starts after batch 1268. Prioritize non-prescription topics first; 1 non-prescription topic was processed in this queue segment. Resume at worklist line 10058: phentolamine — Mydriasis. 370 unchecked rows remain.",
   "last_batch": {
-    "id": "1267",
-    "commit": "a9b14cd1",
-    "pushed": true,
+    "id": "1268",
+    "commit": "7eeae0bd",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 23,
+    "new_entries": 26,
     "existing_links": 0,
-    "no_evidence_rejects": 7,
-    "non_prescription_topics_available": 0,
-    "build": "5867 entries; 8229 refs; 5046 trial; 727 obs; 30 animal; 17 lab; 47 case; 823 numeric comparison entries; worklist 15142/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utils were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 37870973, 31825569, 16171866, 8442918, 31040197, 34030555, 26115578, 28877027, 31112384, 27181606, 15970448, 3499456, 3885700, 8772625, 20075643, 26301701, 31913424, 10881251, 20629075, 8950879, 20089960, and 34010843. Duplicate PMID 26301701 was reused only for the two closely related brexpiprazole major-depressive-disorder worklist topics. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects. Seven topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
-    "new_entry_vs_warnings_fixed": 0,
+    "no_evidence_rejects": 4,
+    "non_prescription_topics_available": 1,
+    "build": "5893 entries; 8255 refs; 5071 trial; 727 obs; 31 animal; 17 lab; 47 case; 849 numeric comparison entries; worklist 15172/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 16914701, 11605698, 24859353, 35508008, 17088141, 31229401, 42442890, 14681504, 17631392, 15818702, 22436955, 12601104, 7997385, 2972167, 19121573, 17944740, 3142593, 15984968, 27181606, 10901475, 12208571, 38899716, 16002915, and 18573982. Duplicate PMIDs 16914701 and 31229401 were reused only for closely related worklist topics. New entries have Korean subjects, correct prescription/OTC mappings, and numeric intervention-versus-control results or valid relative effects. Four topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
+    "new_entry_vs_warnings_fixed": 14,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 10,
-    "remaining_expected_thin_warnings": 3,
+    "targeted_batch_warnings_fixed": 14,
+    "remaining_expected_thin_warnings": 4,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1268",
-    "worklist_line": 9537,
-    "topic": "daptomycin — Bacteremia",
-    "unchecked": 400
+    "next_batch": "1269",
+    "worklist_line": 10058,
+    "topic": "phentolamine — Mydriasis",
+    "unchecked": 370
   }
 }
