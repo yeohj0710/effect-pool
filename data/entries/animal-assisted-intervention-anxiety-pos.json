@@ -1,29 +1,39 @@
 {
-  "id": "animal-assisted-intervention-anxiety-pos",
-  "subj": "animal-assisted intervention",
-  "claim": "소아 응급실 불안에 치료견을 보조적으로 활용한다",
-  "line": "소아 응급실 치료견 후 45분 뒤 불안이 더 줄었습니다.",
-  "effect": "FACES -2.7 대 -1.5점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 80,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "약물이 아닌 동물 매개 중재이며 소아 응급실 불안에는 허가 적응증을 적용하지 않습니다",
-  "why": "소아 응급실에서 중등도 이상 불안을 보인 5~17세 아동 80명을 표준 치료군과 표준 치료·치료견군으로 무작위 배정했습니다.",
-  "saw": "45분 뒤 아동 FACES 불안 변화는 대조군 -1.5점, 치료견군 -2.7점(P=.02), 부모 평가 변화는 -1.8점 대 -3.2점(P=.008)이었습니다.",
-  "limit": "치료견 효과는 표준 아동생활치료에 추가된 효과이고 추적은 120분까지였으며, 생리적 코르티솔에서는 집단 차이가 없었습니다.",
-  "against": "120분 뒤 아동 보고 불안은 집단 차이가 없었고(P=.70), 진정 약물 사용 감소도 유의하지 않았습니다(P=.08).",
-  "use": "소아 응급실에서 비약물적 불안 완화 보조로 검토하되 알레르기·공포·감염관리와 동물 접근 동의를 확인합니다.",
-  "refs": [
-    { "label": "therapy dogs anxiety children emergency department randomized clinical trial", "doi": "10.1001/jamanetworkopen.2025.0636", "pmid": "40085085", "nct": "NCT03784573" },
-    { "label": "animal assisted interventions pain anxiety distress medical settings meta-analysis", "doi": "10.1016/j.ctcp.2018.07.006", "pmid": "30396626" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "animal-assisted intervention AND Anxiety · 22건 중 2건 직접 확인",
-    "pubmed": "animal-assisted intervention AND Anxiety AND (randomized OR trial OR meta-analysis) · 91건",
-    "negative": "animal-assisted intervention AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) · 157건",
-    "safety": "animal-assisted intervention AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 56건"
+ "id": "animal-assisted-intervention-anxiety-pos",
+ "subj": "동물보조중재",
+ "claim": "소아 응급실 불안에 치료견을 보조적으로 활용한다",
+ "line": "소아 응급실 치료견 후 45분 뒤 불안이 더 줄었습니다.",
+ "effect": "FACES -2.7 대 -1.5점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 80,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "약물이 아닌 동물 매개 중재이며 소아 응급실 불안에는 허가 적응증을 적용하지 않습니다",
+ "why": "소아 응급실에서 중등도 이상 불안을 보인 5~17세 아동 80명을 표준 치료군과 표준 치료·치료견군으로 무작위 배정했습니다.",
+ "saw": "45분 뒤 아동 FACES 불안 변화는 대조군 -1.5점, 치료견군 -2.7점(P=.02), 부모 평가 변화는 -1.8점 대 -3.2점(P=.008)이었습니다.",
+ "limit": "치료견 효과는 표준 아동생활치료에 추가된 효과이고 추적은 120분까지였으며, 생리적 코르티솔에서는 집단 차이가 없었습니다.",
+ "against": "120분 뒤 아동 보고 불안은 집단 차이가 없었고(P=.70), 진정 약물 사용 감소도 유의하지 않았습니다(P=.08).",
+ "use": "소아 응급실에서 비약물적 불안 완화 보조로 검토하되 알레르기·공포·감염관리와 동물 접근 동의를 확인합니다.",
+ "refs": [
+  {
+   "label": "therapy dogs anxiety children emergency department randomized clinical trial",
+   "doi": "10.1001/jamanetworkopen.2025.0636",
+   "pmid": "40085085",
+   "nct": "NCT03784573"
+  },
+  {
+   "label": "animal assisted interventions pain anxiety distress medical settings meta-analysis",
+   "doi": "10.1016/j.ctcp.2018.07.006",
+   "pmid": "30396626"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "animal-assisted intervention AND Anxiety · 22건 중 2건 직접 확인",
+  "pubmed": "animal-assisted intervention AND Anxiety AND (randomized OR trial OR meta-analysis) · 91건",
+  "negative": "animal-assisted intervention AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) · 157건",
+  "safety": "animal-assisted intervention AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 56건"
+ },
+ "vs": "치료견 중재 vs 대조군에서 FACES 불안 변화 -2.7 vs -1.5점(n=80)"
 }

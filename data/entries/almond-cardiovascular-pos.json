@@ -1,20 +1,33 @@
 {
-  "id": "almond-cardiovascular-pos",
-  "subj": "almond",
-  "claim": "아몬드 식단은 전당뇨 성인의 LDL 콜레스테롤을 낮출 수 있다",
-  "line": "전당뇨 성인의 아몬드 식단은 16주 뒤 LDL 콜레스테롤을 12.4 mg/dL 낮췄다.",
-  "effect": "LDL 콜레스테롤 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 65,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식품 중재로 허가 적응증 없음",
-  "why": "전당뇨 성인의 심혈관 위험 요인에 아몬드 식단을 적용한 무작위시험이다",
-  "saw": "전당뇨 성인 65명이 16주 동안 열량의 20%를 아몬드로 먹었다. LDL 콜레스테롤이 대조군보다 12.4 mg/dL 더 낮아졌다",
-  "limit": "LDL 같은 위험 요인을 본 단일 식단시험이며 심혈관 사건을 직접 확인하지 않았다",
-  "against": "체질량지수와 혈압에는 유의한 군 간 차이가 없었다",
-  "use": "아몬드를 심혈관 치료제 대신 쓰지 말고 식단 상담의 한 선택지로만 본다",
-  "refs": [{ "label": "Almond consumption and cardiovascular risk factors in adults with prediabetes", "doi": "10.1080/07315724.2010.10719833", "pmid": "20833991" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=almond 쨌 cond=Cardiovascular Disease: 15건", "pubmed": "almond AND Cardiovascular Disease: 484건", "negative": "almond AND Cardiovascular Disease AND no effect: 304건", "safety": "almond AND adverse OR toxicity: 783건" }
+ "id": "almond-cardiovascular-pos",
+ "subj": "아몬드",
+ "claim": "아몬드 식단은 전당뇨 성인의 LDL 콜레스테롤을 낮출 수 있다",
+ "line": "전당뇨 성인의 아몬드 식단은 16주 뒤 LDL 콜레스테롤을 12.4 mg/dL 낮췄다.",
+ "effect": "LDL 콜레스테롤 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 65,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식품 중재로 허가 적응증 없음",
+ "why": "전당뇨 성인의 심혈관 위험 요인에 아몬드 식단을 적용한 무작위시험이다",
+ "saw": "전당뇨 성인 65명이 16주 동안 열량의 20%를 아몬드로 먹었다. LDL 콜레스테롤이 대조군보다 12.4 mg/dL 더 낮아졌다",
+ "limit": "LDL 같은 위험 요인을 본 단일 식단시험이며 심혈관 사건을 직접 확인하지 않았다",
+ "against": "체질량지수와 혈압에는 유의한 군 간 차이가 없었다",
+ "use": "아몬드를 심혈관 치료제 대신 쓰지 말고 식단 상담의 한 선택지로만 본다",
+ "refs": [
+  {
+   "label": "Almond consumption and cardiovascular risk factors in adults with prediabetes",
+   "doi": "10.1080/07315724.2010.10719833",
+   "pmid": "20833991"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=almond 쨌 cond=Cardiovascular Disease: 15건",
+  "pubmed": "almond AND Cardiovascular Disease: 484건",
+  "negative": "almond AND Cardiovascular Disease AND no effect: 304건",
+  "safety": "almond AND adverse OR toxicity: 783건"
+ },
+ "vs": "아몬드 식단 vs 견과류 없는 ADA 식단에서 LDL -12.4 vs -0.4 mg/dL, 인슐린 -1.78 vs +1.47 μU/mL, HOMA-IR -0.48 vs +0.30(n=65)"
 }

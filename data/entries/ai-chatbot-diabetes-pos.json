@@ -1,29 +1,37 @@
 {
-  "id": "ai-chatbot-diabetes-pos",
-  "subj": "AI chatbot",
-  "claim": "AI 챗봇이 당뇨병 환자용 교육·관리 문서를 만든다",
-  "line": "당뇨병 환자용 AI 문서는 정확성과 유용성이 높게 평가됐습니다",
-  "effect": "27명 평가에서 유용성 우세",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 27,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "당뇨병 관리 문서 생성은 허가 적응증이 아닌 실험적 사용입니다",
-  "why": "당뇨병 환자용 교육·수술 후 안내 문서를 AI 챗봇으로 만들고 치주과 의사 27명이 정확성과 유용성을 평가한 관찰 연구입니다",
-  "saw": "치주과 의사 27명이 일반 문서와 당뇨병 환자 맞춤형 AI 문서를 평가했습니다. 맞춤형 문서는 정확하고 유용하다는 평가를 받았고 기존 사람 작성 동의서보다 선호됐습니다",
-  "limit": "환자가 문서를 읽고 건강 결과가 좋아졌는지는 측정하지 않았습니다. 평가자는 치주과 의사였고 실제 당뇨병 환자 시험이 아닙니다",
-  "against": "ChatGPT가 당뇨병성 케톤산증 지침을 요약한 연구에서는 반복적인 오기와 누락이 발견됐습니다",
-  "use": "당뇨병 환자용 문서 초안 작성에 쓰더라도 전문가가 사실과 누락을 확인합니다",
-  "refs": [
-    { "label": "Artificial Intelligence Chatbots in Patient Communication · 관찰 평가", "doi": "10.11607/prd.6925", "pmid": "37819844" },
-    { "label": "ChatGPT의 당뇨병성 케톤산증 지침 요약 · 오류 결과", "doi": "10.7759/cureus.38784", "pmid": "37303347" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"AI chatbot\" AND \"Diabetes\" → 11건 반환, intervention 이름 대조 통과 2건",
-    "pubmed": "\"AI chatbot\" AND \"Diabetes\" → 11건, PMID 37819844 직접 평가 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1건",
-    "safety": "\"AI chatbot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 16건"
+ "id": "ai-chatbot-diabetes-pos",
+ "subj": "AI 챗봇",
+ "claim": "AI 챗봇이 당뇨병 환자용 교육·관리 문서를 만든다",
+ "line": "당뇨병 환자용 AI 문서는 정확성과 유용성이 높게 평가됐습니다",
+ "effect": "27명 평가에서 유용성 우세",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 27,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "당뇨병 관리 문서 생성은 허가 적응증이 아닌 실험적 사용입니다",
+ "why": "당뇨병 환자용 교육·수술 후 안내 문서를 AI 챗봇으로 만들고 치주과 의사 27명이 정확성과 유용성을 평가한 관찰 연구입니다",
+ "saw": "치주과 의사 27명이 일반 문서와 당뇨병 환자 맞춤형 AI 문서를 평가했습니다. 맞춤형 문서는 정확하고 유용하다는 평가를 받았고 기존 사람 작성 동의서보다 선호됐습니다",
+ "limit": "환자가 문서를 읽고 건강 결과가 좋아졌는지는 측정하지 않았습니다. 평가자는 치주과 의사였고 실제 당뇨병 환자 시험이 아닙니다",
+ "against": "ChatGPT가 당뇨병성 케톤산증 지침을 요약한 연구에서는 반복적인 오기와 누락이 발견됐습니다",
+ "use": "당뇨병 환자용 문서 초안 작성에 쓰더라도 전문가가 사실과 누락을 확인합니다",
+ "refs": [
+  {
+   "label": "Artificial Intelligence Chatbots in Patient Communication · 관찰 평가",
+   "doi": "10.11607/prd.6925",
+   "pmid": "37819844"
+  },
+  {
+   "label": "ChatGPT의 당뇨병성 케톤산증 지침 요약 · 오류 결과",
+   "doi": "10.7759/cureus.38784",
+   "pmid": "37303347"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"AI chatbot\" AND \"Diabetes\" → 11건 반환, intervention 이름 대조 통과 2건",
+  "pubmed": "\"AI chatbot\" AND \"Diabetes\" → 11건, PMID 37819844 직접 평가 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1건",
+  "safety": "\"AI chatbot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 16건"
+ }
 }

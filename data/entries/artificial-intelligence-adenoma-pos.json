@@ -1,28 +1,33 @@
 {
-  "id": "artificial-intelligence-adenoma-pos",
-  "subj": "artificial intelligence",
-  "claim": "인공지능 대장내시경이 대장 선종 발견을 높인다",
-  "line": "대장내시경 인공지능은 선종 발견률을 높였다.",
-  "effect": "선종 발견 39.9% 대 32.4%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3059,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "인공지능 내시경은 기기 중재이며 대장 선종 발견 증가는 일반적인 허가 적응증으로 확정되지 않았습니다",
-  "why": "무증상 대장암 선별 대상 3059명을 인공지능 폴립 탐지 내시경군과 일반 내시경군에 무작위 배정한 다기관 시험입니다",
-  "saw": "인공지능군의 전체 선종 발견률은 39.9%로 일반군 32.4%보다 높았고 전문의와 비전문의 모두에서 증가했습니다",
-  "limit": "대장암 선별 환경의 단일 다기관 시험이며 인공지능 사용으로 내시경 회수 시간이 8.3분 대 7.8분으로 길었습니다",
-  "against": "선종 발견률은 늘었지만 환자 사망률이나 대장암 발생률을 줄였는지는 평가하지 않았습니다",
-  "use": "대장 선종 탐지에서 인공지능 보조 내시경의 단기 성능을 검토하는 근거로 기록합니다",
-  "refs": [
-    { "label": "Artificial Intelligence-Assisted Colonoscopy for Colorectal Cancer Screening: A Multicenter Randomized Controlled Trial", "pmid": "35863686", "nct": "NCT04422548" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "artificial intelligence AND Adenoma 반환 100건; 인공지능 내시경 중재명을 대조",
-    "pubmed": "artificial intelligence AND Adenoma 검색 595건; PMID 35863686 직접 무작위 시험 확인",
-    "negative": "artificial intelligence AND Adenoma AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 291건",
-    "safety": "artificial intelligence AND Adenoma AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 23건"
+ "id": "artificial-intelligence-adenoma-pos",
+ "subj": "인공지능",
+ "claim": "인공지능 대장내시경이 대장 선종 발견을 높인다",
+ "line": "대장내시경 인공지능은 선종 발견률을 높였다.",
+ "effect": "선종 발견 39.9% 대 32.4%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3059,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "인공지능 내시경은 기기 중재이며 대장 선종 발견 증가는 일반적인 허가 적응증으로 확정되지 않았습니다",
+ "why": "무증상 대장암 선별 대상 3059명을 인공지능 폴립 탐지 내시경군과 일반 내시경군에 무작위 배정한 다기관 시험입니다",
+ "saw": "인공지능군의 전체 선종 발견률은 39.9%로 일반군 32.4%보다 높았고 전문의와 비전문의 모두에서 증가했습니다",
+ "limit": "대장암 선별 환경의 단일 다기관 시험이며 인공지능 사용으로 내시경 회수 시간이 8.3분 대 7.8분으로 길었습니다",
+ "against": "선종 발견률은 늘었지만 환자 사망률이나 대장암 발생률을 줄였는지는 평가하지 않았습니다",
+ "use": "대장 선종 탐지에서 인공지능 보조 내시경의 단기 성능을 검토하는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "Artificial Intelligence-Assisted Colonoscopy for Colorectal Cancer Screening: A Multicenter Randomized Controlled Trial",
+   "pmid": "35863686",
+   "nct": "NCT04422548"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "artificial intelligence AND Adenoma 반환 100건; 인공지능 내시경 중재명을 대조",
+  "pubmed": "artificial intelligence AND Adenoma 검색 595건; PMID 35863686 직접 무작위 시험 확인",
+  "negative": "artificial intelligence AND Adenoma AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 291건",
+  "safety": "artificial intelligence AND Adenoma AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 23건"
+ },
+ "vs": "AI 보조 대장내시경 vs 일반 대장내시경에서 선종 발견률 39.9% vs 32.4%, 진행선종 6.6% vs 4.9%, 대장내시경당 선종 0.59 vs 0.45(n=3,059)"
 }

@@ -1,29 +1,36 @@
 {
-  "id": "ai-chatbot-mental-health-open",
-  "subj": "AI chatbot",
-  "claim": "생성형 AI 챗봇을 대학생 정신건강 지원에 쓴다",
-  "line": "대학생은 정신건강 챗봇을 사용했습니다",
-  "effect": "20명 사용·286회 대화",
-  "tier": "obs",
-  "dir": "open",
-  "n": 42,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "생성형 AI 챗봇의 정신건강 지원은 허가 적응증이 아닌 실험적 사용입니다",
-  "why": "대학생 42명을 대상으로 정신건강 챗봇 사용 가능성과 사용 양상을 관찰한 혼합방법 연구입니다",
-  "saw": "42명 중 20명이 2~4주 동안 Safespace 챗봇을 사용해 286회 대화를 남겼습니다. 연구는 사용 패턴과 경험, 사용 전 우울 증상을 기술적으로 평가했습니다",
-  "limit": "대조군과 임상적 우울 증상 변화가 없어서 치료 효과를 판단할 수 없습니다. 대학생 표본이고 실제 안전성도 장기 추적하지 않았습니다",
-  "against": "정신건강 챗봇이 정신과 증상을 조용히 강화할 수 있다는 안전성 평가도 보고됐습니다",
-  "use": "정신건강 챗봇은 사용 가능성 연구와 치료 효과 연구를 분리해 평가합니다",
-  "refs": [
-    { "label": "Safespace 생성형 AI 챗봇 · 혼합방법 실행가능성 연구", "doi": "10.2196/85427", "pmid": "42341318" },
-    { "label": "AI 챗봇의 정신과 증상 강화 가능성 · 안전성 평가", "pmid": "42370907" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"AI chatbot\" AND \"Mental Health\" → 26건 반환, intervention 이름 대조 통과 2건",
-    "pubmed": "\"AI chatbot\" AND \"Mental Health\" → 54건, PMID 42341318 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 15건",
-    "safety": "\"AI chatbot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 16건"
+ "id": "ai-chatbot-mental-health-open",
+ "subj": "AI 챗봇",
+ "claim": "생성형 AI 챗봇을 대학생 정신건강 지원에 쓴다",
+ "line": "대학생은 정신건강 챗봇을 사용했습니다",
+ "effect": "20명 사용·286회 대화",
+ "tier": "obs",
+ "dir": "open",
+ "n": 42,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "생성형 AI 챗봇의 정신건강 지원은 허가 적응증이 아닌 실험적 사용입니다",
+ "why": "대학생 42명을 대상으로 정신건강 챗봇 사용 가능성과 사용 양상을 관찰한 혼합방법 연구입니다",
+ "saw": "42명 중 20명이 2~4주 동안 Safespace 챗봇을 사용해 286회 대화를 남겼습니다. 연구는 사용 패턴과 경험, 사용 전 우울 증상을 기술적으로 평가했습니다",
+ "limit": "대조군과 임상적 우울 증상 변화가 없어서 치료 효과를 판단할 수 없습니다. 대학생 표본이고 실제 안전성도 장기 추적하지 않았습니다",
+ "against": "정신건강 챗봇이 정신과 증상을 조용히 강화할 수 있다는 안전성 평가도 보고됐습니다",
+ "use": "정신건강 챗봇은 사용 가능성 연구와 치료 효과 연구를 분리해 평가합니다",
+ "refs": [
+  {
+   "label": "Safespace 생성형 AI 챗봇 · 혼합방법 실행가능성 연구",
+   "doi": "10.2196/85427",
+   "pmid": "42341318"
+  },
+  {
+   "label": "AI 챗봇의 정신과 증상 강화 가능성 · 안전성 평가",
+   "pmid": "42370907"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"AI chatbot\" AND \"Mental Health\" → 26건 반환, intervention 이름 대조 통과 2건",
+  "pubmed": "\"AI chatbot\" AND \"Mental Health\" → 54건, PMID 42341318 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 15건",
+  "safety": "\"AI chatbot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 16건"
+ }
 }

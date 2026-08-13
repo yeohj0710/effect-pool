@@ -1,28 +1,33 @@
 {
-  "id": "art-making-depression-pos",
-  "subj": "art making",
-  "claim": "소규모 단일 연구에서 성인 암 환자 미술 만들기의 우울 개선 신호가 관찰됐다",
-  "line": "성인 암 환자는 미술 만들기 뒤 우울 증상이 줄었다.",
-  "effect": "우울 SMD −0.91",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "미술 만들기는 의약품 허가 적응증이 아님",
-  "why": "성인 암 환자의 미술 만들기 중재를 묶어 우울 결과를 합산한 체계적 문헌고찰·메타분석이다",
-  "saw": "28개 중재 연구를 합산했고 미술 만들기는 우울 점수를 유의하게 낮췄다. 참가자 총수는 초록에 제시되지 않았다",
-  "limit": "참가자 총수와 연구별 중재 방식이 초록에 모두 제시되지 않았다. 연구 설계와 미술 종류가 서로 달라 결과를 그대로 일반화하기 어렵다",
-  "against": "같은 분석에서 피로와 통증은 유의하게 좋아지지 않았다",
-  "use": "암 환자 우울을 다루는 미술 중재의 신호다. 참가자 규모와 장기 효과를 확인할 원문 검토가 필요하다",
-  "refs": [
-    { "label": "2024 · Supportive Care in Cancer · 체계적 문헌고찰·메타분석", "doi": "10.1007/s00520-024-08364-y", "pmid": "38396058" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "art making AND Depression → 10건 반환, art making 직접 일치 0건",
-    "pubmed": "art making AND Depression → 13건; PMID38396058 원문 초록 확인",
-    "negative": "art making AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) → 2건",
-    "safety": "art making AND (adverse OR toxicity OR harm OR safety OR case report) → 20건"
+ "id": "art-making-depression-pos",
+ "subj": "미술 활동",
+ "claim": "소규모 단일 연구에서 성인 암 환자 미술 만들기의 우울 개선 신호가 관찰됐다",
+ "line": "성인 암 환자는 미술 만들기 뒤 우울 증상이 줄었다.",
+ "effect": "우울 SMD −0.91",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "미술 만들기는 의약품 허가 적응증이 아님",
+ "why": "성인 암 환자의 미술 만들기 중재를 묶어 우울 결과를 합산한 체계적 문헌고찰·메타분석이다",
+ "saw": "28개 중재 연구를 합산했고 미술 만들기는 우울 점수를 유의하게 낮췄다. 참가자 총수는 초록에 제시되지 않았다",
+ "limit": "참가자 총수와 연구별 중재 방식이 초록에 모두 제시되지 않았다. 연구 설계와 미술 종류가 서로 달라 결과를 그대로 일반화하기 어렵다",
+ "against": "같은 분석에서 피로와 통증은 유의하게 좋아지지 않았다",
+ "use": "암 환자 우울을 다루는 미술 중재의 신호다. 참가자 규모와 장기 효과를 확인할 원문 검토가 필요하다",
+ "refs": [
+  {
+   "label": "2024 · Supportive Care in Cancer · 체계적 문헌고찰·메타분석",
+   "doi": "10.1007/s00520-024-08364-y",
+   "pmid": "38396058"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "art making AND Depression → 10건 반환, art making 직접 일치 0건",
+  "pubmed": "art making AND Depression → 13건; PMID38396058 원문 초록 확인",
+  "negative": "art making AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) → 2건",
+  "safety": "art making AND (adverse OR toxicity OR harm OR safety OR case report) → 20건"
+ },
+ "vs": "미술 활동 vs 대조군에서 우울 SMD -0.91(95% CI -1.16~-0.65), 불안 -1.12(-1.43~-0.81; 메타분석)"
 }
