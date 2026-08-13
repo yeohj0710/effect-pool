@@ -15,9 +15,9 @@
       "GitHub yeohj0710/effect-pool 로, Vercel 프로젝트도 effect-pool 로 옮겼다"
     ]
   },
-  "entries": 5495,
+  "entries": 5498,
   "subjects": 2168,
-  "refs": 7827,
+  "refs": 7830,
   "kinds": {
     "otc": 120,
     "supp": 365,
@@ -25,30 +25,30 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2055
+    "rx": 2058
   },
-  "tiers": { "trial": 4677, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
-  "dirs": { "pos": 3230, "null": 1088, "open": 1021, "harm": 156 },
+  "tiers": { "trial": 4680, "obs": 724, "animal": 30, "lab": 17, "case": 47 },
+  "dirs": { "pos": 3230, "null": 1091, "open": 1021, "harm": 156 },
   "worklist": {
     "total": 15542,
-    "checked": 13510,
-    "unchecked": 2032,
+    "checked": 13797,
+    "unchecked": 1745,
     "no_evidence_pending": 2059,
-    "note": "batch 1244에서 비처방 주제 10개를 포함한 총 20개를 처리했다. 새 근거 7개와 기존 연결 13개를 만들었고 중복 표기까지 worklist 224줄을 체크했다. 현재 미체크 목록의 첫 줄은 2347번 caspofungin — Aspergillosis에 듣는다이며 2,032개가 남았다."
+    "note": "batch 1245에서 현재 큐에 연결 가능한 비처방 주제가 없어 재개 지점의 총 20개를 처리했다. 새 근거 3개, 기존 연결 16개, 대조군 없는 단일군 판정 1개를 기록했고 중복 표기까지 worklist 287줄을 체크했다. 현재 미체크 목록의 첫 줄은 2483번 bimatoprost — Ocular Hypertension에 듣는다이며 1,745개가 남았다."
   },
   "backlog": {
-    "vs_missing": 4073,
+    "vs_missing": 4071,
     "vs_note": "개입군 대 대조군 숫자가 없는 항목. 새 항목은 이미 숫자를 넣었고 옛 항목은 한 바퀴에 20건씩 refs 를 다시 읽는다",
     "english_subjects": 1116,
     "english_note": "주어가 아직 영문인 것. 한 바퀴에 20종씩 tools/rename-subject.mjs 로 옮긴다"
   },
   "checkpoints": {
     "over_counter_share": "17.2% (약국약·보충제·음식 947건). 목표는 25%",
-    "rx_share": "38% (2,055건). 줄어야 한다",
-    "no_effect_or_harm_share": "23% (1,244건). 목표는 33% 위",
-    "vs_share": "7.9% (436건)",
+    "rx_share": "38% (2,058건). 줄어야 한다",
+    "no_effect_or_harm_share": "23% (1,247건). 목표는 33% 위",
+    "vs_share": "8.0% (441건)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "85.1% (4,677건)",
+    "trial_share": "85.1% (4,680건)",
     "non_trial_share": "14.9% (818건)",
     "build_warnings": { "unknown_n": 449, "thin_study": 973 }
   },
@@ -58,22 +58,22 @@
     "checked_at": "2026-08-11",
     "note": "batch 1200 푸시 뒤 effect-pool.vercel.app GET 200을 확인했다. vercel 명령을 따로 치지 마라. 옛 프로젝트 offlabel-pool 은 GitHub 연결을 끊어놨다 — 지워도 된다"
   },
-  "next": "batch 1245 starts after batch 1244; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. The current queue had only 10 mapped non-prescription topics available, so batch 1244 used 10 non-prescription and 10 prescription topics. Resume at worklist line 2347: caspofungin — Aspergillosis에 듣는다; 2,032 unchecked rows remain.",
+  "next": "batch 1246 starts after batch 1245; pull and read AGENTS.md first. Prioritize remaining non-prescription worklist topics while scanning from the first unchecked line. No currently mapped non-prescription topics were available in this queue, so batch 1245 processed the first 20 topics from the resume point. Resume at worklist line 2483: bimatoprost — Ocular Hypertension에 듣는다; 1,745 unchecked rows remain.",
   "last_batch": {
-    "id": "1244",
-    "commit": "0ffca9cf",
+    "id": "1245",
+    "commit": "23c66257",
     "pushed": true,
     "processed_topics": 20,
-    "new_entries": 7,
-    "existing_links": 13,
-    "no_evidence_rejects": 0,
-    "build": "5495 entries · 7827 refs · 4677 trial · 724 obs · 30 animal · 17 lab · 47 case",
-    "research": "파모티딘—위산 역류·저용량 아스피린 관련 궤양, 클로트리마졸—발무좀, 락툴로오스—간경변·어린이 변비, 세티리진—두드러기·어린이 계절성 알레르기 비염을 새로 추가했다. 아스피린—뇌졸중·뇌경색, 날트렉손—알코올 사용장애, 토피라메이트—간질·발작, 트라조돈—우울증·주요우울장애, 쿠에티아핀—양극성장애·주요우울장애, 스피로놀락톤—고혈압, 독시사이클린—여드름·주사 기존 항목을 연결했다.",
-    "research_batch": "비처방 우선으로 현재 큐에서 확인된 10개 주제를 포함해 총 20개를 처리했다. 신규 7개는 ClinicalTrials.gov 개입명 정확 일치 건수와 PubMed 초록의 개입군·대조군 수치를 기록했고, 기존 13개는 같은 근거 항목을 중복 생성하지 않고 worklist에 연결했다. 근거가 확인되지 않은 주제는 추가하지 않았다.",
+    "new_entries": 3,
+    "existing_links": 16,
+    "no_evidence_rejects": 1,
+    "build": "5498 entries · 7830 refs · 4680 trial · 724 obs · 30 animal · 17 lab · 47 case",
+    "research": "카스포펀진—만성 폐 아스페르길루스증·칸디다혈증, 이사부코나졸—만성 폐 아스페르길루스증을 ClinicalTrials.gov와 PubMed 초록의 무작위 비교 수치로 새로 기록했다. 미카펀진—칸디다혈증, 아니둘라펀진—칸디다혈증, 아미트립틸린—주요우울장애, 독시사이클린—매독, 콜히친—통풍, 다파글리플로진—심부전·신장질환, 세마글루타이드—비만·과체중, 케타민—마취, 프라조신—고혈압, 부프로피온—주요우울장애·금연·우울증, 실데나필—발기부전, 탈리도마이드—암 기존 항목을 연결했다. 이사부코나졸—털곰팡이증은 대조군 없는 단일군 연구만 확인돼 근거 없음으로 표시했다.",
+    "research_batch": "현재 큐에 연결 가능한 비처방 주제가 없어 첫 20개 주제를 처리했다. 신규 3개는 ClinicalTrials.gov 개입명 정확 일치 건수와 PubMed 초록의 개입군·대조군 수치를 기록했다. 기존 16개는 중복 항목을 만들지 않고 worklist에 연결했고, 1개는 대조군 비교를 확인하지 못해 거절했다. 아미트립틸린 주어를 한국어로 바꾸고 아미트립틸린·탈리도마이드 기존 항목의 vs 수치를 보강했다.",
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 0,
-    "legacy_subject_renames": 0,
-    "targeted_batch_warnings_fixed": 9,
+    "legacy_vs_filled": 2,
+    "legacy_subject_renames": 1,
+    "targeted_batch_warnings_fixed": 1,
     "remaining_expected_thin_warnings": 1,
     "next_official_deployment_check": "after batch 1200"
   }
