@@ -1,29 +1,40 @@
 {
-  "id": "virtual-reality-rehabilitation-pain-pos",
-  "subj": "virtual reality rehabilitation",
-  "claim": "가상현실 재활 훈련이 만성 근골격계 통증, 특히 허리·목 통증을 줄인다",
-  "line": "가상현실 재활은 만성 허리·목 통증을 줄였습니다",
-  "effect": "허리 SMD -1.79; 목 -0.55",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1114,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가상현실 재활은 통증의 허가 치료제가 아닌 비약물 재활 중재다.",
-  "why": "만성 근골격계 통증에서 가상현실 기반 능동 훈련과 일반 운동·물리치료를 비교한 무작위시험 메타분석이다.",
-  "saw": "28개 무작위시험 1114명을 검토했다. 단기 결과에서 비몰입형 VR은 허리 통증을 줄였고(SMD -1.79), 몰입형 VR은 목 통증을 줄였다(SMD -0.55). 무릎 통증에서는 유의한 차이가 없었다.",
-  "limit": "연구 일부의 비뚤림 위험이 높았고 통증 부위와 VR 방식에 따라 결과가 달랐다.",
-  "against": "모든 만성 통증에 같은 효과가 있거나 장기 효과가 유지된다는 근거는 아니다.",
-  "use": "허리·목 통증 재활에서 일반 운동을 보완하는 단기 중재로 사용 가능성을 평가한다.",
-  "refs": [
-    { "label": "만성 근골격계 통증 VR 능동훈련 메타분석", "doi": "10.2196/48787", "pmid": "39159449", "pmc": "PMC11369537" },
-    { "label": "만성 요통 VR 훈련 메타분석", "doi": "10.2196/45406", "pmid": "38407948", "pmc": "PMC10928528" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "virtual reality rehabilitation AND Pain; 83건",
-    "pubmed": "virtual reality rehabilitation AND Pain; 835건",
-    "negative": "virtual reality rehabilitation AND Pain AND (no effect OR did not OR failed OR negative); 확인",
-    "safety": "virtual reality rehabilitation AND (adverse OR cybersickness OR dropout); 확인"
+ "id": "virtual-reality-rehabilitation-pain-pos",
+ "subj": "가상현실 재활",
+ "claim": "가상현실 재활 훈련이 만성 근골격계 통증, 특히 허리·목 통증을 줄인다",
+ "line": "가상현실 재활은 만성 허리·목 통증을 줄였습니다",
+ "effect": "허리 SMD -1.79; 목 -0.55",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1114,
+ "vs": "허리 통증 SMD -1.79, 목 통증 SMD -0.55 (가상현실 재활 vs 일반 운동·물리치료)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가상현실 재활은 통증의 허가 치료제가 아닌 비약물 재활 중재다.",
+ "why": "만성 근골격계 통증에서 가상현실 기반 능동 훈련과 일반 운동·물리치료를 비교한 무작위시험 메타분석이다.",
+ "saw": "28개 무작위시험 1114명을 검토했다. 단기 결과에서 비몰입형 VR은 허리 통증을 줄였고(SMD -1.79), 몰입형 VR은 목 통증을 줄였다(SMD -0.55). 무릎 통증에서는 유의한 차이가 없었다.",
+ "limit": "연구 일부의 비뚤림 위험이 높았고 통증 부위와 VR 방식에 따라 결과가 달랐다.",
+ "against": "모든 만성 통증에 같은 효과가 있거나 장기 효과가 유지된다는 근거는 아니다.",
+ "use": "허리·목 통증 재활에서 일반 운동을 보완하는 단기 중재로 사용 가능성을 평가한다.",
+ "refs": [
+  {
+   "label": "만성 근골격계 통증 VR 능동훈련 메타분석",
+   "doi": "10.2196/48787",
+   "pmid": "39159449",
+   "pmc": "PMC11369537"
+  },
+  {
+   "label": "만성 요통 VR 훈련 메타분석",
+   "doi": "10.2196/45406",
+   "pmid": "38407948",
+   "pmc": "PMC10928528"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "virtual reality rehabilitation AND Pain; 83건",
+  "pubmed": "virtual reality rehabilitation AND Pain; 835건",
+  "negative": "virtual reality rehabilitation AND Pain AND (no effect OR did not OR failed OR negative); 확인",
+  "safety": "virtual reality rehabilitation AND (adverse OR cybersickness OR dropout); 확인"
+ }
 }

@@ -1,24 +1,43 @@
 {
-  "id": "video-game-exercise-pain-management-pos",
-  "subj": "video game exercise",
-  "claim": "노인의 통증 관리에서 활동형 비디오게임이 통증을 줄일 수 있지만 기능장애 효과는 불확실하다",
-  "line": "활동형 게임은 노인의 통증을 줄였지만 기능장애 개선 효과는 불확실했습니다",
-  "effect": "통증 SMD -0.62",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 350,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "활동형 비디오게임은 허가 의약품이 아닌 운동·행동 중재입니다.",
-  "why": "노인 통증 환자의 진지한 게임 기반 통증 중재 무작위시험을 종합한 메타분석입니다.",
-  "saw": "9개 무작위시험 350명에서 통증이 줄었지만 통증 관련 장애와 통증 공포를 줄이는 효과는 확실하지 않았습니다.",
-  "limit": "게임 종류와 통증 원인이 다양하고 포함된 무작위시험 수가 적어 결과의 불확실성이 큽니다.",
-  "against": "활동형 게임이 진통제, 물리치료, 원인 질환 치료를 대체한다는 근거는 아닙니다.",
-  "use": "노인 통증 재활에서 활동형 게임의 보조 신호로 기록합니다.",
-  "refs": [
-    { "label": "Efficacy of serious games for chronic pain management in older adults", "doi": "10.1111/jocn.17012", "pmid": "38291564" },
-    { "label": "Acceptability, Usability, and Effectiveness of a Music Video Game for Pain Management", "doi": "10.3390/healthcare13192439", "pmid": "41095524" },
-    { "label": "Video-Game-Based Exercises for Older People With Chronic Low Back Pain", "doi": "10.1093/ptj/pzy112", "pmid": "30247715" }
-  ],
-  "queried": { "date": "2026-08-07", "ctgov": "video game exercise AND Pain Management · 4건, 직접 중재 0건", "pubmed": "video game exercise AND Pain Management · 21편", "negative": "video game exercise AND Pain Management AND (no effect OR did not OR failed OR no significant difference) · 18편", "safety": "video game exercise AND (adverse OR toxicity OR case report OR harm) · 233편" }
+ "id": "video-game-exercise-pain-management-pos",
+ "subj": "운동 게임",
+ "claim": "노인의 통증 관리에서 활동형 비디오게임이 통증을 줄일 수 있지만 기능장애 효과는 불확실하다",
+ "line": "활동형 게임은 노인의 통증을 줄였지만 기능장애 개선 효과는 불확실했습니다",
+ "effect": "통증 SMD -0.62",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 350,
+ "vs": "통증 SMD -0.62 (활동형 게임 중재 vs 대조군)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "활동형 비디오게임은 허가 의약품이 아닌 운동·행동 중재입니다.",
+ "why": "노인 통증 환자의 진지한 게임 기반 통증 중재 무작위시험을 종합한 메타분석입니다.",
+ "saw": "9개 무작위시험 350명에서 통증이 줄었지만 통증 관련 장애와 통증 공포를 줄이는 효과는 확실하지 않았습니다.",
+ "limit": "게임 종류와 통증 원인이 다양하고 포함된 무작위시험 수가 적어 결과의 불확실성이 큽니다.",
+ "against": "활동형 게임이 진통제, 물리치료, 원인 질환 치료를 대체한다는 근거는 아닙니다.",
+ "use": "노인 통증 재활에서 활동형 게임의 보조 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "Efficacy of serious games for chronic pain management in older adults",
+   "doi": "10.1111/jocn.17012",
+   "pmid": "38291564"
+  },
+  {
+   "label": "Acceptability, Usability, and Effectiveness of a Music Video Game for Pain Management",
+   "doi": "10.3390/healthcare13192439",
+   "pmid": "41095524"
+  },
+  {
+   "label": "Video-Game-Based Exercises for Older People With Chronic Low Back Pain",
+   "doi": "10.1093/ptj/pzy112",
+   "pmid": "30247715"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "video game exercise AND Pain Management · 4건, 직접 중재 0건",
+  "pubmed": "video game exercise AND Pain Management · 21편",
+  "negative": "video game exercise AND Pain Management AND (no effect OR did not OR failed OR no significant difference) · 18편",
+  "safety": "video game exercise AND (adverse OR toxicity OR case report OR harm) · 233편"
+ }
 }

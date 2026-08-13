@@ -1,32 +1,33 @@
 {
-  "id": "vagus-nerve-stimulation-pain-pos",
-  "subj": "vagus nerve stimulation",
-  "claim": "경피 귀 미주신경자극을 제왕절개 뒤 자궁수축 통증에 쓴다",
-  "line": "제왕절개 후 귀 미주신경자극은 자궁수축 통증을 줄였습니다",
-  "effect": "통증 RR 0.18",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 156,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "제왕절개 뒤 경피 귀 미주신경자극과 sham을 비교한 통증 시험을 확인했습니다",
-  "saw": "156명을 무작위 배정했고 수술 뒤 3일째 중등도 이상 자궁수축 통증이 5.1% 대 28.2%였습니다",
-  "limit": "산후 통증의 단일 임상시험이며 만성 통증에 바로 일반화할 수 없습니다",
-  "against": "sham 자극",
-  "use": "수술 후 통증에서 비약물 보조치료 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "Transcutaneous Auricular Vagus Nerve Stimulation for Postpartum Contraction Pain",
-      "doi": "10.1001/jamanetworkopen.2025.29127",
-      "pmid": "40880089"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=vagus nerve stimulation · cond=Pain: 48건",
-    "pubmed": "vagus nerve stimulation AND Pain AND (randomized OR trial OR meta-analysis): 343건",
-    "negative": "vagus nerve stimulation AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 628건",
-    "safety": "vagus nerve stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 1720건"
+ "id": "vagus-nerve-stimulation-pain-pos",
+ "subj": "미주신경자극",
+ "claim": "경피 귀 미주신경자극을 제왕절개 뒤 자궁수축 통증에 쓴다",
+ "line": "제왕절개 후 귀 미주신경자극은 자궁수축 통증을 줄였습니다",
+ "effect": "통증 RR 0.18",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 156,
+ "vs": "중등도 이상 자궁수축 통증 5.1% vs 28.2%, RR 0.18 (귀 미주신경자극 vs sham)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "제왕절개 뒤 경피 귀 미주신경자극과 sham을 비교한 통증 시험을 확인했습니다",
+ "saw": "156명을 무작위 배정했고 수술 뒤 3일째 중등도 이상 자궁수축 통증이 5.1% 대 28.2%였습니다",
+ "limit": "산후 통증의 단일 임상시험이며 만성 통증에 바로 일반화할 수 없습니다",
+ "against": "sham 자극",
+ "use": "수술 후 통증에서 비약물 보조치료 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "Transcutaneous Auricular Vagus Nerve Stimulation for Postpartum Contraction Pain",
+   "doi": "10.1001/jamanetworkopen.2025.29127",
+   "pmid": "40880089"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=vagus nerve stimulation · cond=Pain: 48건",
+  "pubmed": "vagus nerve stimulation AND Pain AND (randomized OR trial OR meta-analysis): 343건",
+  "negative": "vagus nerve stimulation AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 628건",
+  "safety": "vagus nerve stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 1720건"
+ }
 }

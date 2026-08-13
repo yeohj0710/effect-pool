@@ -1,33 +1,34 @@
 {
-  "id": "vagus-nerve-stimulation-autonomic-diseases-pos",
-  "subj": "vagus nerve stimulation",
-  "claim": "비침습 미주신경자극을 체위성 기립성 빈맥증후군에 쓴다",
-  "line": "귀 미주신경자극은 기립 시 심박수와 염증 지표를 낮췄습니다",
-  "effect": "기립 심박수 17.6 vs 31.7 bpm",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 26,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "체위성 기립성 빈맥증후군 환자에게 귀 미주신경자극과 귓불 sham을 비교했습니다",
-  "saw": "활성군 12명과 sham군 14명을 2개월 관찰했고 기립 심박수 증가·자가항체·염증성 사이토카인이 줄었습니다",
-  "limit": "표본이 26명인 소규모 단일 시험입니다",
-  "against": "귓불 sham 자극",
-  "use": "자율신경질환에서 검증이 더 필요한 비침습 보조치료로 봅니다",
-  "refs": [
-    {
-      "label": "Noninvasive Vagus Nerve Stimulation in Postural Tachycardia Syndrome",
-      "doi": "10.1016/j.jacep.2023.10.015",
-      "pmid": "37999672",
-      "nct": "NCT05043051"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=vagus nerve stimulation · cond=Autonomic Diseases: 30건",
-    "pubmed": "vagus nerve stimulation AND Autonomic Diseases AND (randomized OR trial OR meta-analysis): 73건",
-    "negative": "vagus nerve stimulation AND Autonomic Diseases AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 183건",
-    "safety": "vagus nerve stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 1720건"
+ "id": "vagus-nerve-stimulation-autonomic-diseases-pos",
+ "subj": "미주신경자극",
+ "claim": "비침습 미주신경자극을 체위성 기립성 빈맥증후군에 쓴다",
+ "line": "귀 미주신경자극은 기립 시 심박수와 염증 지표를 낮췄습니다",
+ "effect": "기립 심박수 17.6 vs 31.7 bpm",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 26,
+ "vs": "기립 심박수 증가 17.6 vs 31.7 bpm (활성 자극군 12명 vs sham군 14명)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "체위성 기립성 빈맥증후군 환자에게 귀 미주신경자극과 귓불 sham을 비교했습니다",
+ "saw": "활성군 12명과 sham군 14명을 2개월 관찰했고 기립 심박수 증가·자가항체·염증성 사이토카인이 줄었습니다",
+ "limit": "표본이 26명인 소규모 단일 시험입니다",
+ "against": "귓불 sham 자극",
+ "use": "자율신경질환에서 검증이 더 필요한 비침습 보조치료로 봅니다",
+ "refs": [
+  {
+   "label": "Noninvasive Vagus Nerve Stimulation in Postural Tachycardia Syndrome",
+   "doi": "10.1016/j.jacep.2023.10.015",
+   "pmid": "37999672",
+   "nct": "NCT05043051"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=vagus nerve stimulation · cond=Autonomic Diseases: 30건",
+  "pubmed": "vagus nerve stimulation AND Autonomic Diseases AND (randomized OR trial OR meta-analysis): 73건",
+  "negative": "vagus nerve stimulation AND Autonomic Diseases AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 183건",
+  "safety": "vagus nerve stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 1720건"
+ }
 }

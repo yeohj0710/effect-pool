@@ -1,28 +1,33 @@
 {
-  "id": "vegetable-prescription-food-supply-pos",
-  "subj": "vegetable prescription",
-  "claim": "저소득 성인의 식품 접근과 채소 섭취에 채소 처방을 쓰는가",
-  "line": "저소득 성인에서 채소 처방은 녹색 채소 섭취를 늘렸습니다",
-  "effect": "녹색 채소 섭취 하루 0.36컵 증가",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 31,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "채소 처방은 의약품이 아닌 식품 접근 중재입니다.",
-  "why": "저소득 성인에게 채소 구매 지원과 영양교육을 함께 제공했을 때 식품 구매와 채소 섭취가 달라지는지 평가했습니다.",
-  "saw": "6개월 비무작위 병렬 비교시험에서 채소 처방군 31명, 영양교육군 13명, 대조군 16명을 비교했습니다. 채소 처방군은 가구원 1명당 하루 1달러의 농산물 구매 지원과 SNAP-Ed 교육을 받았고, 녹색 채소 섭취가 하루 0.36±0.72컵 늘어 영양교육군 0.14±0.33컵, 대조군 -0.09±0.19컵보다 컸습니다(P<.05). 식품 구매 행동과 공과금 지불 능력도 좋아졌지만 식품불안과 임상 바이오마커 변화는 제한적이었습니다.",
-  "limit": "비무작위 소규모 연구라 참여자 선택과 지역의 식품 접근성 영향을 배제할 수 없고 임상 결과를 직접 평가하지 않았습니다.",
-  "against": "식품불안과 임상 바이오마커 변화는 제한적이었습니다.",
-  "use": "채소 처방 프로그램을 평가할 때 섭취·구매 행동·임상 지표를 따로 확인합니다.",
-  "refs": [
-    { "label": "저소득 성인 과일·채소 처방 확대 교육 비교시험", "doi": "10.1177/10901981221091926", "pmid": "35535592" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "vegetable prescription AND Food Supply — 1건 반환; NCT03940300은 중단 상태",
-    "pubmed": "\"vegetable prescription\" AND (\"food supply\" OR produce) — 30편",
-    "negative": "\"vegetable prescription\" AND (\"food supply\" OR produce) AND (no effect OR did not OR failed OR negative OR no significant difference) — 0편",
-    "safety": "\"vegetable prescription\" AND (adverse OR toxicity OR harm OR safety) — 3편"
+ "id": "vegetable-prescription-food-supply-pos",
+ "subj": "채소 처방",
+ "claim": "저소득 성인의 식품 접근과 채소 섭취에 채소 처방을 쓰는가",
+ "line": "저소득 성인에서 채소 처방은 녹색 채소 섭취를 늘렸습니다",
+ "effect": "녹색 채소 섭취 하루 0.36컵 증가",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 31,
+ "vs": "녹색 채소 섭취 +0.36컵 vs +0.14컵 vs -0.09컵 (채소 처방 vs 영양교육 vs 대조; P<.05)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "채소 처방은 의약품이 아닌 식품 접근 중재입니다.",
+ "why": "저소득 성인에게 채소 구매 지원과 영양교육을 함께 제공했을 때 식품 구매와 채소 섭취가 달라지는지 평가했습니다.",
+ "saw": "6개월 비무작위 병렬 비교시험에서 채소 처방군 31명, 영양교육군 13명, 대조군 16명을 비교했습니다. 채소 처방군은 가구원 1명당 하루 1달러의 농산물 구매 지원과 SNAP-Ed 교육을 받았고, 녹색 채소 섭취가 하루 0.36±0.72컵 늘어 영양교육군 0.14±0.33컵, 대조군 -0.09±0.19컵보다 컸습니다(P<.05). 식품 구매 행동과 공과금 지불 능력도 좋아졌지만 식품불안과 임상 바이오마커 변화는 제한적이었습니다.",
+ "limit": "비무작위 소규모 연구라 참여자 선택과 지역의 식품 접근성 영향을 배제할 수 없고 임상 결과를 직접 평가하지 않았습니다.",
+ "against": "식품불안과 임상 바이오마커 변화는 제한적이었습니다.",
+ "use": "채소 처방 프로그램을 평가할 때 섭취·구매 행동·임상 지표를 따로 확인합니다.",
+ "refs": [
+  {
+   "label": "저소득 성인 과일·채소 처방 확대 교육 비교시험",
+   "doi": "10.1177/10901981221091926",
+   "pmid": "35535592"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "vegetable prescription AND Food Supply — 1건 반환; NCT03940300은 중단 상태",
+  "pubmed": "\"vegetable prescription\" AND (\"food supply\" OR produce) — 30편",
+  "negative": "\"vegetable prescription\" AND (\"food supply\" OR produce) AND (no effect OR did not OR failed OR negative OR no significant difference) — 0편",
+  "safety": "\"vegetable prescription\" AND (adverse OR toxicity OR harm OR safety) — 3편"
+ }
 }

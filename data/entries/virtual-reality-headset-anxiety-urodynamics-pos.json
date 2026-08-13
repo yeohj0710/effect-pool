@@ -1,28 +1,33 @@
 {
-  "id": "virtual-reality-headset-anxiety-urodynamics-pos",
-  "subj": "virtual reality headset",
-  "claim": "요역동학검사에서 가상현실 헤드셋이 불안을 낮춘다",
-  "line": "요역동학검사에서 VR 헤드셋이 불안을 더 낮췄습니다",
-  "effect": "STAI-I 감소 15 대 7, p=.001",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 86,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상현실 헤드셋의 요역동학검사 불안 완화는 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "요역동학검사를 받는 86명을 VR 헤드셋군과 대조군에 무작위 배정한 사람 시험입니다",
-  "saw": "참가자 86명 중 43명씩 VR 자연 영상과 표준 검사를 받았습니다. 두 군 모두 검사 뒤 불안이 줄었지만 VR군의 상태불안 감소폭이 더 컸습니다",
-  "limit": "요역동학검사라는 특정 침습 검사에서 한 번 평가했으며 요역동학 결과 자체에 미치는 영향은 추가 연구가 필요합니다",
-  "against": "두 군 모두 불안이 줄었으므로 VR만의 절대 효과와 자연 회복 효과를 완전히 분리하기 어렵습니다",
-  "use": "침습 검사에서 가상현실의 불안 변화와 검사 결과를 따로 기록합니다",
-  "refs": [
-    { "label": "The Effect of Virtual Reality Headset Use on Anxiety Levels During Urodynamic Testing · 무작위시험", "pmid": "40780518", "nct": "NCT06905665" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"virtual reality headset\" AND \"Anxiety\" → 100건 이상",
-    "pubmed": "\"virtual reality headset\" AND \"Anxiety\" → 32건, PMID 40780518 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 25건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 7건"
+ "id": "virtual-reality-headset-anxiety-urodynamics-pos",
+ "subj": "가상현실 헤드셋",
+ "claim": "요역동학검사에서 가상현실 헤드셋이 불안을 낮춘다",
+ "line": "요역동학검사에서 VR 헤드셋이 불안을 더 낮췄습니다",
+ "effect": "STAI-I 감소 15 대 7, p=.001",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 86,
+ "vs": "STAI 상태불안 감소폭 15점 vs 7점 (가상현실 헤드셋 43명 vs 대조군 43명; P=.001)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상현실 헤드셋의 요역동학검사 불안 완화는 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "요역동학검사를 받는 86명을 VR 헤드셋군과 대조군에 무작위 배정한 사람 시험입니다",
+ "saw": "참가자 86명 중 43명씩 VR 자연 영상과 표준 검사를 받았습니다. 두 군 모두 검사 뒤 불안이 줄었지만 VR군의 상태불안 감소폭이 더 컸습니다",
+ "limit": "요역동학검사라는 특정 침습 검사에서 한 번 평가했으며 요역동학 결과 자체에 미치는 영향은 추가 연구가 필요합니다",
+ "against": "두 군 모두 불안이 줄었으므로 VR만의 절대 효과와 자연 회복 효과를 완전히 분리하기 어렵습니다",
+ "use": "침습 검사에서 가상현실의 불안 변화와 검사 결과를 따로 기록합니다",
+ "refs": [
+  {
+   "label": "The Effect of Virtual Reality Headset Use on Anxiety Levels During Urodynamic Testing · 무작위시험",
+   "pmid": "40780518",
+   "nct": "NCT06905665"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"virtual reality headset\" AND \"Anxiety\" → 100건 이상",
+  "pubmed": "\"virtual reality headset\" AND \"Anxiety\" → 32건, PMID 40780518 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 25건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 7건"
+ }
 }

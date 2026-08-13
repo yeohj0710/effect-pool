@@ -1,28 +1,33 @@
 {
-  "id": "virtual-human-pain-pos",
-  "subj": "virtual human",
-  "claim": "가상 인간의 심리사회 면담이 만성 근골격계 통증 환자의 통증 간섭을 줄인다",
-  "line": "심리사회 면담이 표준 면담보다 통증 간섭을 더 줄였습니다",
-  "effect": "통증 간섭 d=0.43, p=.049",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 94,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상 인간 면담은 만성 통증 치료의 허가 적응증이 아닌 디지털 행동 중재입니다",
-  "why": "만성 근골격계 통증 환자 94명을 세 종류의 가상 인간 면담에 배정한 예비 무작위 시험입니다",
-  "saw": "참가자 94명을 표준 통증 면담, 심리사회 위험요인 면담, 통증 심리·신경과학 교육 면담에 배정했습니다. 한 달 뒤 심리사회 면담군의 통증 간섭 감소가 표준 면담군보다 컸습니다",
-  "limit": "예비 연구이고 추적 기간이 약 한 달이며 5명이 탈락했습니다. 통증 강도 차이는 통계적으로 유의하지 않았습니다",
-  "against": "교육 면담의 변화 준비도 증가는 유의하지 않았고 가상 인간 목소리 유형에 따른 결과 차이도 없었습니다",
-  "use": "가상 인간 면담에서 통증 강도와 통증 간섭을 분리해 기록합니다",
-  "refs": [
-    { "label": "Virtual Human-Delivered Interviews for Patients With Chronic Pain · 예비 무작위시험", "pmid": "37363989", "nct": "NCT04349033" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"virtual human\" AND \"Pain\" → 5건 반환, NCT04349033에서 가상 인간 면담 확인",
-    "pubmed": "\"virtual human\" AND \"Pain\" → 36건, PMID 37363989 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 19건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1건"
+ "id": "virtual-human-pain-pos",
+ "subj": "가상 인간",
+ "claim": "가상 인간의 심리사회 면담이 만성 근골격계 통증 환자의 통증 간섭을 줄인다",
+ "line": "심리사회 면담이 표준 면담보다 통증 간섭을 더 줄였습니다",
+ "effect": "통증 간섭 d=0.43, p=.049",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 94,
+ "vs": "통증 간섭 효과크기 d 0.43 (가상 인간 면담 vs 표준 면담; P=.049)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상 인간 면담은 만성 통증 치료의 허가 적응증이 아닌 디지털 행동 중재입니다",
+ "why": "만성 근골격계 통증 환자 94명을 세 종류의 가상 인간 면담에 배정한 예비 무작위 시험입니다",
+ "saw": "참가자 94명을 표준 통증 면담, 심리사회 위험요인 면담, 통증 심리·신경과학 교육 면담에 배정했습니다. 한 달 뒤 심리사회 면담군의 통증 간섭 감소가 표준 면담군보다 컸습니다",
+ "limit": "예비 연구이고 추적 기간이 약 한 달이며 5명이 탈락했습니다. 통증 강도 차이는 통계적으로 유의하지 않았습니다",
+ "against": "교육 면담의 변화 준비도 증가는 유의하지 않았고 가상 인간 목소리 유형에 따른 결과 차이도 없었습니다",
+ "use": "가상 인간 면담에서 통증 강도와 통증 간섭을 분리해 기록합니다",
+ "refs": [
+  {
+   "label": "Virtual Human-Delivered Interviews for Patients With Chronic Pain · 예비 무작위시험",
+   "pmid": "37363989",
+   "nct": "NCT04349033"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"virtual human\" AND \"Pain\" → 5건 반환, NCT04349033에서 가상 인간 면담 확인",
+  "pubmed": "\"virtual human\" AND \"Pain\" → 36건, PMID 37363989 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 19건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1건"
+ }
 }

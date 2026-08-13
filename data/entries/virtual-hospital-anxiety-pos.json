@@ -1,28 +1,33 @@
 {
-  "id": "virtual-hospital-anxiety-pos",
-  "subj": "virtual hospital",
-  "claim": "가상 병원 영상이 수술 전 불안을 낮춘다",
-  "line": "가상 병원 영상은 수술 전 불안을 낮추는 신호를 보였다.",
-  "effect": "GAD 중앙값 -1점·고불안 -6점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 65,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상 병원 영상은 교육 중재이며 수술 전 불안 감소는 허가 적응증이 아닙니다",
-  "why": "고관절 또는 무릎 인공관절 수술 환자 65명을 표준교육군과 가상 병원 유튜브 영상 추가군에 무작위 배정했습니다",
-  "saw": "53명이 완료했고 전체 GAD 중앙값은 1점 낮아졌으며 시작 불안이 높은 환자는 6점 낮아지는 신호를 보였습니다",
-  "limit": "완료자는 53명뿐이고 영상군 탈락률이 높아 결과가 선택된 환자에게 치우쳤을 수 있습니다",
-  "against": "전체 결과는 통계적으로 확정적이지 않았고 연구진도 추가 검토가 필요하다고 했습니다",
-  "use": "인공관절 수술 전 교육에서 영상 중재의 불안 감소 가능성을 검토하는 소규모 무작위 근거로 기록합니다",
-  "refs": [
-    { "label": "YouTube Videos to Create a Virtual Hospital Experience for Hip and Knee Replacement Patients to Decrease Preoperative Anxiety: A Randomized Trial", "pmid": "27091674", "nct": "NCT02546180" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "virtual hospital AND Anxiety 검색 5건; 가상 병원 교육 중재명을 대조",
-    "pubmed": "virtual hospital AND Anxiety 검색 7건; PMID 27091674 직접 무작위 시험 확인",
-    "negative": "virtual hospital AND Anxiety AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 3건",
-    "safety": "virtual hospital AND Anxiety AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ "id": "virtual-hospital-anxiety-pos",
+ "subj": "가상 병원",
+ "claim": "가상 병원 영상이 수술 전 불안을 낮춘다",
+ "line": "가상 병원 영상은 수술 전 불안을 낮추는 신호를 보였다.",
+ "effect": "GAD 중앙값 -1점·고불안 -6점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 65,
+ "vs": "GAD 중앙값 -1점, 고불안 환자 -6점 (가상 병원 영상 vs 표준 교육)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상 병원 영상은 교육 중재이며 수술 전 불안 감소는 허가 적응증이 아닙니다",
+ "why": "고관절 또는 무릎 인공관절 수술 환자 65명을 표준교육군과 가상 병원 유튜브 영상 추가군에 무작위 배정했습니다",
+ "saw": "53명이 완료했고 전체 GAD 중앙값은 1점 낮아졌으며 시작 불안이 높은 환자는 6점 낮아지는 신호를 보였습니다",
+ "limit": "완료자는 53명뿐이고 영상군 탈락률이 높아 결과가 선택된 환자에게 치우쳤을 수 있습니다",
+ "against": "전체 결과는 통계적으로 확정적이지 않았고 연구진도 추가 검토가 필요하다고 했습니다",
+ "use": "인공관절 수술 전 교육에서 영상 중재의 불안 감소 가능성을 검토하는 소규모 무작위 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "YouTube Videos to Create a Virtual Hospital Experience for Hip and Knee Replacement Patients to Decrease Preoperative Anxiety: A Randomized Trial",
+   "pmid": "27091674",
+   "nct": "NCT02546180"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "virtual hospital AND Anxiety 검색 5건; 가상 병원 교육 중재명을 대조",
+  "pubmed": "virtual hospital AND Anxiety 검색 7건; PMID 27091674 직접 무작위 시험 확인",
+  "negative": "virtual hospital AND Anxiety AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 3건",
+  "safety": "virtual hospital AND Anxiety AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ }
 }
