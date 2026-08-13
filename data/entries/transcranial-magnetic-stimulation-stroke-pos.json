@@ -1,32 +1,33 @@
 {
-  "id": "transcranial-magnetic-stimulation-stroke-pos",
-  "subj": "transcranial magnetic stimulation",
-  "claim": "반복 경두개 자기자극을 뇌졸중 후 운동 회복에 쓴다",
-  "line": "뇌졸중 후 rTMS는 운동기능을 개선했습니다",
+ "id": "transcranial-magnetic-stimulation-stroke-pos",
+ "subj": "경두개 자기자극",
+ "claim": "반복 경두개 자기자극을 뇌졸중 후 운동 회복에 쓴다",
+ "line": "뇌졸중 후 rTMS는 운동기능을 개선했습니다",
   "effect": "FMA-UE MD +5.4·mRS MD −0.5",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "뇌졸중 뒤 반복 경두개 자기자극과 sham 또는 무자극을 비교한 무작위시험을 확인했습니다",
-  "saw": "37개 논문 48개 비교에서 치료 뒤 FMA-UE가 5.4점, mRS가 0.5점 좋아졌습니다",
-  "limit": "자극 위치·빈도와 뇌졸중 시기가 달라 최적 프로토콜은 확정되지 않았습니다",
-  "against": "sham 또는 무자극",
-  "use": "재활치료에 더하는 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "Repetitive Transcranial Magnetic Stimulation for Motor Recovery After Stroke",
-      "doi": "10.1016/j.neurom.2024.07.010",
-      "pmid": "39320286"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=transcranial magnetic stimulation · cond=Stroke: 36건",
-    "pubmed": "transcranial magnetic stimulation AND Stroke AND (randomized OR trial OR meta-analysis): 1601건",
-    "negative": "transcranial magnetic stimulation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2432건",
-    "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+  "vs": "FMA-UE MD +5.4점, mRS MD -0.5점 (rTMS vs sham·무자극)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "뇌졸중 뒤 반복 경두개 자기자극과 sham 또는 무자극을 비교한 무작위시험을 확인했습니다",
+ "saw": "37개 논문 48개 비교에서 치료 뒤 FMA-UE가 5.4점, mRS가 0.5점 좋아졌습니다",
+ "limit": "자극 위치·빈도와 뇌졸중 시기가 달라 최적 프로토콜은 확정되지 않았습니다",
+ "against": "sham 또는 무자극",
+ "use": "재활치료에 더하는 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "Repetitive Transcranial Magnetic Stimulation for Motor Recovery After Stroke",
+   "doi": "10.1016/j.neurom.2024.07.010",
+   "pmid": "39320286"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=transcranial magnetic stimulation · cond=Stroke: 36건",
+  "pubmed": "transcranial magnetic stimulation AND Stroke AND (randomized OR trial OR meta-analysis): 1601건",
+  "negative": "transcranial magnetic stimulation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 2432건",
+  "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+ }
 }

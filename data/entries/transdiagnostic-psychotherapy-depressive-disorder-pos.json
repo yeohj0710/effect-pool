@@ -1,28 +1,34 @@
 {
-  "id": "transdiagnostic-psychotherapy-depressive-disorder-pos",
-  "subj": "transdiagnostic psychotherapy",
-  "claim": "범진단 심리치료가 우울장애와 불안을 단기간 줄일 수 있다",
-  "line": "범진단 심리치료는 우울과 불안을 줄였습니다",
+ "id": "transdiagnostic-psychotherapy-depressive-disorder-pos",
+ "subj": "범진단 심리치료",
+ "claim": "범진단 심리치료가 우울장애와 불안을 단기간 줄일 수 있다",
+ "line": "범진단 심리치료는 우울과 불안을 줄였습니다",
   "effect": "전체 효과 Hedges g=0.54",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 5530,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 심리치료이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "우울 또는 불안 환자의 범진단 심리치료 무작위시험 45편과 5,530명을 통합했습니다.",
-  "saw": "범진단 치료는 대조군보다 단기 우울·불안 결과가 좋았고 6개월에도 효과가 남았지만 12개월 자료는 적었습니다.",
-  "limit": "연구 간 이질성이 높았고 전체 효과의 예측구간이 넓었습니다.",
-  "against": "대조군보다 범진단 심리치료군의 단기 우울과 불안 증상이 낮았습니다.",
-  "use": "우울과 불안이 함께 있는 환자에게 하나의 심리치료 프로토콜을 검토할 근거입니다.",
-  "refs": [
-    { "label": "우울·불안 범진단 심리치료 메타분석", "doi": "10.1017/S0033291722003841", "pmid": "36606456", "pmc": "PMC10600931" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=transdiagnostic psychotherapy AND condition=Depressive Disorder; 35건",
-    "pubmed": "transdiagnostic psychotherapy AND Depressive Disorder; 426건",
-    "negative": "transdiagnostic psychotherapy AND Depressive Disorder AND (no effect OR did not OR failed OR negative OR no significant difference); 126건",
-    "safety": "transdiagnostic psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 171건"
+  "vs": "우울·불안 전체 Hedges g 0.54 (범진단 심리치료 vs 대조군)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 5530,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 심리치료이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "우울 또는 불안 환자의 범진단 심리치료 무작위시험 45편과 5,530명을 통합했습니다.",
+ "saw": "범진단 치료는 대조군보다 단기 우울·불안 결과가 좋았고 6개월에도 효과가 남았지만 12개월 자료는 적었습니다.",
+ "limit": "연구 간 이질성이 높았고 전체 효과의 예측구간이 넓었습니다.",
+ "against": "대조군보다 범진단 심리치료군의 단기 우울과 불안 증상이 낮았습니다.",
+ "use": "우울과 불안이 함께 있는 환자에게 하나의 심리치료 프로토콜을 검토할 근거입니다.",
+ "refs": [
+  {
+   "label": "우울·불안 범진단 심리치료 메타분석",
+   "doi": "10.1017/S0033291722003841",
+   "pmid": "36606456",
+   "pmc": "PMC10600931"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=transdiagnostic psychotherapy AND condition=Depressive Disorder; 35건",
+  "pubmed": "transdiagnostic psychotherapy AND Depressive Disorder; 426건",
+  "negative": "transdiagnostic psychotherapy AND Depressive Disorder AND (no effect OR did not OR failed OR negative OR no significant difference); 126건",
+  "safety": "transdiagnostic psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 171건"
+ }
 }

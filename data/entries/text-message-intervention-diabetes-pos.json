@@ -1,28 +1,34 @@
 {
-  "id": "text-message-intervention-diabetes-pos",
-  "subj": "text message intervention",
-  "claim": "당뇨병 복약 문자알림이 약 복용 순응도를 높일 수 있다",
-  "line": "당뇨병 환자에게 문자알림은 복약순응도를 높였습니다",
+ "id": "text-message-intervention-diabetes-pos",
+ "subj": "문자 중재",
+ "claim": "당뇨병 복약 문자알림이 약 복용 순응도를 높일 수 있다",
+ "line": "당뇨병 환자에게 문자알림은 복약순응도를 높였습니다",
   "effect": "복약순응 SMD 0.36",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1121,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 문자 중재이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "2형 당뇨 성인의 약 복용 순응도에 대한 휴대전화 문자알림 무작위시험 9편을 통합했습니다.",
-  "saw": "9편 1,121명이 포함됐고 문자알림군의 약 복용 순응도가 통상 진료군보다 높았습니다.",
-  "limit": "연구 간 중재 기간과 순응도 측정 방식이 달랐습니다.",
-  "against": "통상 진료군보다 문자알림군에서 약 복용 순응도가 높았습니다.",
-  "use": "2형 당뇨의 복약순응도를 보조하는 문자알림으로 검토합니다.",
-  "refs": [
-    { "label": "2형 당뇨 복약 문자알림 메타분석", "doi": "10.1186/s12902-023-01268-8", "pmid": "36658577", "pmc": "PMC9850787" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=text message intervention AND condition=Diabetes; 217건",
-    "pubmed": "text message intervention AND Diabetes; 729건",
-    "negative": "text message intervention AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 137건",
-    "safety": "text message intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 751건"
+  "vs": "복약순응 SMD 0.36 (문자 알림 vs 통상 진료)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1121,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 문자 중재이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "2형 당뇨 성인의 약 복용 순응도에 대한 휴대전화 문자알림 무작위시험 9편을 통합했습니다.",
+ "saw": "9편 1,121명이 포함됐고 문자알림군의 약 복용 순응도가 통상 진료군보다 높았습니다.",
+ "limit": "연구 간 중재 기간과 순응도 측정 방식이 달랐습니다.",
+ "against": "통상 진료군보다 문자알림군에서 약 복용 순응도가 높았습니다.",
+ "use": "2형 당뇨의 복약순응도를 보조하는 문자알림으로 검토합니다.",
+ "refs": [
+  {
+   "label": "2형 당뇨 복약 문자알림 메타분석",
+   "doi": "10.1186/s12902-023-01268-8",
+   "pmid": "36658577",
+   "pmc": "PMC9850787"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=text message intervention AND condition=Diabetes; 217건",
+  "pubmed": "text message intervention AND Diabetes; 729건",
+  "negative": "text message intervention AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 137건",
+  "safety": "text message intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 751건"
+ }
 }

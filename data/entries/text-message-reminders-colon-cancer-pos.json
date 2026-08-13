@@ -1,28 +1,33 @@
 {
-  "id": "text-message-reminders-colon-cancer-pos",
-  "subj": "text message reminders",
-  "claim": "행동경제학 문자 알림이 대장암 FIT 검사 완료를 높인다",
-  "line": "문자 알림은 대장암 FIT 검사 완료율을 높였습니다",
+ "id": "text-message-reminders-colon-cancer-pos",
+ "subj": "문자 알림",
+ "claim": "행동경제학 문자 알림이 대장암 FIT 검사 완료를 높인다",
+ "line": "문자 알림은 대장암 FIT 검사 완료율을 높였습니다",
   "effect": "FIT 완료 58.9% 대 49.8%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1275,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "문자 알림은 의약품 허가 적응증이 아닌 검진 참여 중재다",
-  "why": "대장암 FIT 검사를 주문받은 성인에게 행동경제학 기반 자동 문자 3회를 보낸 무작위 질 개선시험에서 간호사 전화보다 검사 완료율이 높았다.",
-  "saw": "1275명이 무작위 배정됐다. 21일 FIT 완료율은 문자군 58.9%(649명 중 382명), 전화군 49.8%(626명 중 312명)로 절대차 9.0%p였다(p=.001).",
-  "limit": "8개 안전망 일차의료기관의 질 개선 시험이며 문자 1회 방향과 간호사 전화 1회를 비교했다.",
-  "against": "연령·성별·인종·포털 사용에 따른 효과 차이는 확인되지 않았다.",
-  "use": "대장암 FIT 검진 독려에서 자동 문자를 간호사 전화의 대안으로 평가할 때 참고한다.",
-  "refs": [
-    { "label": "Behaviorally Informed Text Messaging to Promote Colon Cancer Screening 2026 · JAMA Network Open", "doi": "10.1001/jamanetworkopen.2026.7122", "pmid": "42024386" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=text message reminders AND condition=Colon Cancer; 20건 반환, 중재명 일치 1건",
-    "pubmed": "text message reminders AND Colon Cancer; 12건",
-    "negative": "text message reminders AND Colon Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 8건",
-    "safety": "text message reminders AND (adverse OR toxicity OR case report OR harm OR dropout); 1건"
+  "vs": "FIT 완료 58.9% vs 49.8%, 절대차 9.0%p (문자 vs 전화; P=.001)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1275,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "문자 알림은 의약품 허가 적응증이 아닌 검진 참여 중재다",
+ "why": "대장암 FIT 검사를 주문받은 성인에게 행동경제학 기반 자동 문자 3회를 보낸 무작위 질 개선시험에서 간호사 전화보다 검사 완료율이 높았다.",
+ "saw": "1275명이 무작위 배정됐다. 21일 FIT 완료율은 문자군 58.9%(649명 중 382명), 전화군 49.8%(626명 중 312명)로 절대차 9.0%p였다(p=.001).",
+ "limit": "8개 안전망 일차의료기관의 질 개선 시험이며 문자 1회 방향과 간호사 전화 1회를 비교했다.",
+ "against": "연령·성별·인종·포털 사용에 따른 효과 차이는 확인되지 않았다.",
+ "use": "대장암 FIT 검진 독려에서 자동 문자를 간호사 전화의 대안으로 평가할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Behaviorally Informed Text Messaging to Promote Colon Cancer Screening 2026 · JAMA Network Open",
+   "doi": "10.1001/jamanetworkopen.2026.7122",
+   "pmid": "42024386"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=text message reminders AND condition=Colon Cancer; 20건 반환, 중재명 일치 1건",
+  "pubmed": "text message reminders AND Colon Cancer; 12건",
+  "negative": "text message reminders AND Colon Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 8건",
+  "safety": "text message reminders AND (adverse OR toxicity OR case report OR harm OR dropout); 1건"
+ }
 }

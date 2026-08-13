@@ -1,28 +1,32 @@
 {
-  "id": "telerehabilitation-parkinson-disease-null",
-  "subj": "telerehabilitation",
-  "claim": "파킨슨병 원격재활은 보행·균형보다 삶의 질에서 작은 개선 신호를 보인다",
-  "line": "파킨슨병 원격재활은 삶의 질만 소폭 개선했고 보행은 바꾸지 못했습니다",
+ "id": "telerehabilitation-parkinson-disease-null",
+ "subj": "원격재활",
+ "claim": "파킨슨병 원격재활은 보행·균형보다 삶의 질에서 작은 개선 신호를 보인다",
+ "line": "파킨슨병 원격재활은 삶의 질만 소폭 개선했고 보행은 바꾸지 못했습니다",
   "effect": "삶의 질 SMD +0.26; 보행 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 731,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "원격재활은 재활 전달 방식이며 의약품 허가 적응증을 적용하지 않습니다",
-  "why": "파킨슨병 성인 무작위시험 18편, 731명을 메타분석해 원격으로 제공한 신체활동·물리재활과 비원격 대조군을 비교했습니다",
-  "saw": "균형, 보행속도, 기능이동에서는 유의한 군 간 차이가 없었습니다. 삶의 질은 원격재활군이 SMD 0.26으로 유리했습니다",
-  "limit": "원격 운동 종류와 전달 플랫폼이 다양하고 삶의 질 효과가 작아 환자 선택과 자원에 따라 달라질 수 있습니다",
-  "against": "원격재활이 파킨슨병의 보행과 균형을 일관되게 개선한다고 단정할 수 없습니다",
-  "use": "파킨슨병에서 원격재활을 대면 재활의 전달 대안으로 검토할 때 삶의 질과 운동 결과를 분리해 참고합니다",
-  "refs": [
-    { "label": "Effect of Telerehabilitation in Parkinson Disease: A Systematic Review and Meta-Analysis", "pmid": "41065729" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "telerehabilitation 반환 1069건, 정확한 중재명 대조 280건; Parkinson Disease 후보 시험 17건",
-    "pubmed": "telerehabilitation AND Parkinson Disease 검색 187건; PMID 41065729 메타분석 확인",
-    "negative": "telerehabilitation AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 126건",
-    "safety": "telerehabilitation AND Parkinson Disease AND (adverse OR toxicity OR harm OR risk OR case report) 검색 46건"
+  "vs": "삶의 질 SMD 0.26, 보행·균형 차이 없음 (원격재활 vs 비원격 대조)",
+ "tier": "trial",
+ "dir": "null",
+ "n": 731,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "원격재활은 재활 전달 방식이며 의약품 허가 적응증을 적용하지 않습니다",
+ "why": "파킨슨병 성인 무작위시험 18편, 731명을 메타분석해 원격으로 제공한 신체활동·물리재활과 비원격 대조군을 비교했습니다",
+ "saw": "균형, 보행속도, 기능이동에서는 유의한 군 간 차이가 없었습니다. 삶의 질은 원격재활군이 SMD 0.26으로 유리했습니다",
+ "limit": "원격 운동 종류와 전달 플랫폼이 다양하고 삶의 질 효과가 작아 환자 선택과 자원에 따라 달라질 수 있습니다",
+ "against": "원격재활이 파킨슨병의 보행과 균형을 일관되게 개선한다고 단정할 수 없습니다",
+ "use": "파킨슨병에서 원격재활을 대면 재활의 전달 대안으로 검토할 때 삶의 질과 운동 결과를 분리해 참고합니다",
+ "refs": [
+  {
+   "label": "Effect of Telerehabilitation in Parkinson Disease: A Systematic Review and Meta-Analysis",
+   "pmid": "41065729"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "telerehabilitation 반환 1069건, 정확한 중재명 대조 280건; Parkinson Disease 후보 시험 17건",
+  "pubmed": "telerehabilitation AND Parkinson Disease 검색 187건; PMID 41065729 메타분석 확인",
+  "negative": "telerehabilitation AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 126건",
+  "safety": "telerehabilitation AND Parkinson Disease AND (adverse OR toxicity OR harm OR risk OR case report) 검색 46건"
+ }
 }

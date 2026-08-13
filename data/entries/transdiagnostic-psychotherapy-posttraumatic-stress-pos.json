@@ -1,28 +1,34 @@
 {
-  "id": "transdiagnostic-psychotherapy-posttraumatic-stress-pos",
-  "subj": "transdiagnostic psychotherapy",
-  "claim": "범진단 심리치료가 비전문가 제공 환경의 외상후스트레스 증상을 줄일 수 있다",
-  "line": "비전문가가 진행한 범진단 치료로 외상 증상이 줄었습니다",
+ "id": "transdiagnostic-psychotherapy-posttraumatic-stress-pos",
+ "subj": "범진단 심리치료",
+ "claim": "범진단 심리치료가 비전문가 제공 환경의 외상후스트레스 증상을 줄일 수 있다",
+ "line": "비전문가가 진행한 범진단 치료로 외상 증상이 줄었습니다",
   "effect": "외상 증상 Hedges g=-0.38",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 심리치료이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "저·중소득 국가에서 비전문가가 제공한 범진단 심리치료의 공통 정신질환 결과를 통합했습니다.",
-  "saw": "20편 21개 중재에서 치료 직후 외상·불안·우울과 심리적 고통이 줄었고 외상 증상 효과크기는 -0.38이었습니다.",
-  "limit": "통합 연구의 전체 참여자 수가 초록에 없고 비전문가 교육과 지역별 중재 방식이 달랐습니다.",
-  "against": "대조군보다 범진단 치료군의 외상 증상과 여러 공통 정신질환 증상이 낮았습니다.",
-  "use": "전문가가 부족한 환경에서 외상후스트레스 증상을 다루는 과업분담 치료로 검토합니다.",
-  "refs": [
-    { "label": "저·중소득 국가 비전문가 범진단 심리치료 메타분석", "doi": "10.1155/2024/5037662", "pmid": "40226747", "pmc": "PMC11921846" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=transdiagnostic psychotherapy AND condition=Posttraumatic Stress; 8건",
-    "pubmed": "transdiagnostic psychotherapy AND Posttraumatic Stress; 150건",
-    "negative": "transdiagnostic psychotherapy AND Posttraumatic Stress AND (no effect OR did not OR failed OR negative OR no significant difference); 43건",
-    "safety": "transdiagnostic psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 171건"
+  "vs": "치료 직후 외상 증상 Hedges g -0.38 (범진단 심리치료 vs 대조군)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 심리치료이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "저·중소득 국가에서 비전문가가 제공한 범진단 심리치료의 공통 정신질환 결과를 통합했습니다.",
+ "saw": "20편 21개 중재에서 치료 직후 외상·불안·우울과 심리적 고통이 줄었고 외상 증상 효과크기는 -0.38이었습니다.",
+ "limit": "통합 연구의 전체 참여자 수가 초록에 없고 비전문가 교육과 지역별 중재 방식이 달랐습니다.",
+ "against": "대조군보다 범진단 치료군의 외상 증상과 여러 공통 정신질환 증상이 낮았습니다.",
+ "use": "전문가가 부족한 환경에서 외상후스트레스 증상을 다루는 과업분담 치료로 검토합니다.",
+ "refs": [
+  {
+   "label": "저·중소득 국가 비전문가 범진단 심리치료 메타분석",
+   "doi": "10.1155/2024/5037662",
+   "pmid": "40226747",
+   "pmc": "PMC11921846"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=transdiagnostic psychotherapy AND condition=Posttraumatic Stress; 8건",
+  "pubmed": "transdiagnostic psychotherapy AND Posttraumatic Stress; 150건",
+  "negative": "transdiagnostic psychotherapy AND Posttraumatic Stress AND (no effect OR did not OR failed OR negative OR no significant difference); 43건",
+  "safety": "transdiagnostic psychotherapy AND (adverse OR toxicity OR case report OR harm OR dropout); 171건"
+ }
 }

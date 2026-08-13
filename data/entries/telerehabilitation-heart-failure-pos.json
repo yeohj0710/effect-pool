@@ -1,32 +1,33 @@
 {
-  "id": "telerehabilitation-heart-failure-pos",
-  "subj": "telerehabilitation",
-  "claim": "원격재활을 심부전에 쓴다",
-  "line": "심부전 환자의 원격재활은 운동능력을 개선했습니다",
+ "id": "telerehabilitation-heart-failure-pos",
+ "subj": "원격재활",
+ "claim": "원격재활을 심부전에 쓴다",
+ "line": "심부전 환자의 원격재활은 운동능력을 개선했습니다",
   "effect": "6분 보행 MD 15.86m",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2206,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "심부전 환자의 원격재활을 표준관리 또는 센터 재활과 비교한 무작위시험 메타분석을 확인했습니다",
-  "saw": "17개 연구 2,206명에서 6분 보행 MD 15.86 m, 최대산소섭취량 MD 1.85 mL/kg/min이 개선됐습니다",
-  "limit": "입원과 심혈관 사망 자료가 적고 결과 이질성이 컸습니다",
-  "against": "통상 관리 또는 센터 재활",
-  "use": "심부전 운동능력 개선을 위한 원격재활 보조수단 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "Effectiveness of Tele-rehabilitation Programs in Heart Failure: A Systematic Review and Meta-analysis",
-      "doi": "10.1177/11786329211021668",
-      "pmid": "34188484"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=telerehabilitation · cond=Heart Failure: 12건",
-    "pubmed": "telerehabilitation AND Heart Failure AND (randomized OR trial OR meta-analysis): 84건",
-    "negative": "telerehabilitation AND Heart Failure AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 91건",
-    "safety": "telerehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 417건"
+  "vs": "6분 보행 MD +15.86m, 최대산소섭취량 MD +1.85mL/kg/min (원격재활 vs 통상 관리·센터재활)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2206,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "심부전 환자의 원격재활을 표준관리 또는 센터 재활과 비교한 무작위시험 메타분석을 확인했습니다",
+ "saw": "17개 연구 2,206명에서 6분 보행 MD 15.86 m, 최대산소섭취량 MD 1.85 mL/kg/min이 개선됐습니다",
+ "limit": "입원과 심혈관 사망 자료가 적고 결과 이질성이 컸습니다",
+ "against": "통상 관리 또는 센터 재활",
+ "use": "심부전 운동능력 개선을 위한 원격재활 보조수단 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "Effectiveness of Tele-rehabilitation Programs in Heart Failure: A Systematic Review and Meta-analysis",
+   "doi": "10.1177/11786329211021668",
+   "pmid": "34188484"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=telerehabilitation · cond=Heart Failure: 12건",
+  "pubmed": "telerehabilitation AND Heart Failure AND (randomized OR trial OR meta-analysis): 84건",
+  "negative": "telerehabilitation AND Heart Failure AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 91건",
+  "safety": "telerehabilitation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 417건"
+ }
 }

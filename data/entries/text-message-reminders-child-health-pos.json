@@ -1,28 +1,33 @@
 {
-  "id": "text-message-reminders-child-health-pos",
-  "subj": "text message reminders",
-  "claim": "문자 알림은 어린아이의 독감 예방접종을 조금 늘릴 수 있다",
-  "line": "문자 알림은 어린이 독감 예방접종률을 조금 높였습니다",
+ "id": "text-message-reminders-child-health-pos",
+ "subj": "문자 알림",
+ "claim": "문자 알림은 어린아이의 독감 예방접종을 조금 늘릴 수 있다",
+ "line": "문자 알림은 어린이 독감 예방접종률을 조금 높였습니다",
   "effect": "접종률 상대 9.5% 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 149860,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "문자 알림은 의약품이 아닌 예방보건 중재다",
-  "why": "뉴욕시 예방접종 등록자료에 기반한 무작위 배정 연구에서 독감 예방접종을 받지 않은 어린이 보호자에게 문자 알림을 보냈다.",
-  "saw": "어린이 149,860명을 문자군과 대조군에 배정했다. 15개월~4세에서 28일 안에 접종한 비율은 문자군 4.7%, 대조군 4.3%로 상대 9.5% 높았다.",
-  "limit": "문자 전달 성공률은 73%였고 유의한 효과는 15개월~4세에서만 확인됐다. 추적 기간도 28일로 짧다.",
-  "against": "전체 소아에서 큰 접종률 차이가 생기는지와 장기 접종 지속 효과는 확인되지 않았다.",
-  "use": "어린이 예방접종 알림을 보낼 때 문자 전달률과 보호자의 예약 경로를 함께 관리한다.",
-  "refs": [
-    { "label": "A Centralized Text Message Recall for Pediatric Influenza Vaccination 2026 · Public Health Reports", "doi": "10.1097/PHH.0000000000002380", "pmid": "42479583" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=text message reminders AND condition=Child Health; 18건 반환, 중재명 일치 2건",
-    "pubmed": "text message reminders AND Child Health; 321건",
-    "negative": "text message reminders AND Child Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 222건",
-    "safety": "text message reminders AND (adverse OR toxicity OR case report OR harm OR dropout); 20건"
+  "vs": "독감 접종 4.7% vs 4.3%, RR 1.095 (문자 알림 vs 대조군)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 149860,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "문자 알림은 의약품이 아닌 예방보건 중재다",
+ "why": "뉴욕시 예방접종 등록자료에 기반한 무작위 배정 연구에서 독감 예방접종을 받지 않은 어린이 보호자에게 문자 알림을 보냈다.",
+ "saw": "어린이 149,860명을 문자군과 대조군에 배정했다. 15개월~4세에서 28일 안에 접종한 비율은 문자군 4.7%, 대조군 4.3%로 상대 9.5% 높았다.",
+ "limit": "문자 전달 성공률은 73%였고 유의한 효과는 15개월~4세에서만 확인됐다. 추적 기간도 28일로 짧다.",
+ "against": "전체 소아에서 큰 접종률 차이가 생기는지와 장기 접종 지속 효과는 확인되지 않았다.",
+ "use": "어린이 예방접종 알림을 보낼 때 문자 전달률과 보호자의 예약 경로를 함께 관리한다.",
+ "refs": [
+  {
+   "label": "A Centralized Text Message Recall for Pediatric Influenza Vaccination 2026 · Public Health Reports",
+   "doi": "10.1097/PHH.0000000000002380",
+   "pmid": "42479583"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=text message reminders AND condition=Child Health; 18건 반환, 중재명 일치 2건",
+  "pubmed": "text message reminders AND Child Health; 321건",
+  "negative": "text message reminders AND Child Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 222건",
+  "safety": "text message reminders AND (adverse OR toxicity OR case report OR harm OR dropout); 20건"
+ }
 }

@@ -1,20 +1,33 @@
 {
-  "id": "therapy-dog-pain-pos",
-  "subj": "therapy dog",
-  "claim": "관절치환술 뒤 통증에 치료견 방문을 쓴다",
-  "line": "치료견 방문은 관절치환술 후 물리치료 중 통증을 낮췄습니다",
+ "id": "therapy-dog-pain-pos",
+ "subj": "치료견",
+ "claim": "관절치환술 뒤 통증에 치료견 방문을 쓴다",
+ "line": "치료견 방문은 관절치환술 후 물리치료 중 통증을 낮췄습니다",
   "effect": "최종 VAS 1.7 vs 4.1",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 72,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "치료견 방문은 의약품이 아닌 동물 보조 행동 중재입니다.",
-  "why": "일차 고관절 또는 슬관절 치환술 환자 72명을 치료견 방문군과 표준 물리치료군에 무작위 배정했습니다.",
-  "saw": "각 군 36명에게 물리치료 전 15분 치료견 방문을 제공했습니다. 세 번째 물리치료 뒤 최종 통증 VAS는 치료견군 1.7, 대조군 4.1로 차이가 2.4점이었고 p<0.001이었습니다. 치료견군은 통증관리 만족도도 높았습니다.",
-  "limit": "단일 병원의 짧은 수술 후 중재라 장기 통증과 다른 환자군에 일반화하기 어렵습니다.",
-  "against": "치료견 방문이 수술 후 진통제나 표준 물리치료를 대신한다는 결과는 아닙니다.",
-  "use": "관절치환술 직후 치료견 방문이 물리치료 후 통증과 만족도를 개선한 무작위 근거로 기록합니다.",
-  "refs": [{ "label": "관절치환술 후 치료견 방문 무작위시험", "doi": "10.1007/s11999-014-3931-0", "pmid": "25201095" }],
-  "queried": { "date": "2026-08-08", "ctgov": "therapy dog AND Pain · 260건 반환, 직접 일치 20건", "pubmed": "therapy dog AND Pain · 42273편", "negative": "therapy dog AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 33256편", "safety": "therapy dog AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 235522편" }
+  "vs": "최종 통증 VAS 1.7 vs 4.1 (치료견 방문 vs 표준 물리치료; 차이 -2.4점, P<.001)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 72,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "치료견 방문은 의약품이 아닌 동물 보조 행동 중재입니다.",
+ "why": "일차 고관절 또는 슬관절 치환술 환자 72명을 치료견 방문군과 표준 물리치료군에 무작위 배정했습니다.",
+ "saw": "각 군 36명에게 물리치료 전 15분 치료견 방문을 제공했습니다. 세 번째 물리치료 뒤 최종 통증 VAS는 치료견군 1.7, 대조군 4.1로 차이가 2.4점이었고 p<0.001이었습니다. 치료견군은 통증관리 만족도도 높았습니다.",
+ "limit": "단일 병원의 짧은 수술 후 중재라 장기 통증과 다른 환자군에 일반화하기 어렵습니다.",
+ "against": "치료견 방문이 수술 후 진통제나 표준 물리치료를 대신한다는 결과는 아닙니다.",
+ "use": "관절치환술 직후 치료견 방문이 물리치료 후 통증과 만족도를 개선한 무작위 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "관절치환술 후 치료견 방문 무작위시험",
+   "doi": "10.1007/s11999-014-3931-0",
+   "pmid": "25201095"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "therapy dog AND Pain · 260건 반환, 직접 일치 20건",
+  "pubmed": "therapy dog AND Pain · 42273편",
+  "negative": "therapy dog AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 33256편",
+  "safety": "therapy dog AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 235522편"
+ }
 }

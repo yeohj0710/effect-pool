@@ -1,28 +1,32 @@
 {
-  "id": "telerehabilitation-pulmonary-disease-pos",
-  "subj": "telerehabilitation",
-  "claim": "만성폐쇄성폐질환과 심부전 환자의 원격재활이 운동능력과 건강상태를 개선할 수 있다",
-  "line": "COPD와 심부전 원격재활은 운동능력을 개선했습니다",
+ "id": "telerehabilitation-pulmonary-disease-pos",
+ "subj": "원격재활",
+ "claim": "만성폐쇄성폐질환과 심부전 환자의 원격재활이 운동능력과 건강상태를 개선할 수 있다",
+ "line": "COPD와 심부전 원격재활은 운동능력을 개선했습니다",
   "effect": "6분 보행 +60m",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 112,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격재활은 재활 전달 방식이며 의약품 허가 적응증을 적용하지 않습니다",
-  "why": "만성폐쇄성폐질환과 심부전이 함께 있는 고령 환자 112명을 원격재활군과 대조군으로 무작위 배정했습니다. 4개월 동안 원격 모니터링, 간호사 전화, 물리치료사 운동 지도를 제공했습니다",
-  "saw": "원격재활군의 6분 보행은 60m 늘었고 대조군은 15m 줄었습니다(P=.004). 입원·사망까지의 중앙 시간과 호흡곤란, 활동, 삶의 질도 개선됐습니다",
-  "limit": "COPD와 심부전 동반 환자 대상의 공개 연구이며 다른 폐질환에 그대로 적용할 수 없습니다",
-  "against": "원격재활이 모든 폐질환의 사망률을 줄인다고 판단할 근거는 없습니다",
-  "use": "COPD와 심부전 동반 환자의 폐재활 접근성을 높일 때 운동능력과 원격 모니터링 가능성을 참고합니다",
-  "refs": [
-    { "label": "Home-based telerehabilitation in older patients with chronic obstructive pulmonary disease and heart failure: a randomised controlled trial", "pmid": "28985325" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "telerehabilitation 반환 1069건, 정확한 중재명 대조 280건; Pulmonary Disease 후보 시험 12건",
-    "pubmed": "telerehabilitation AND Pulmonary Disease 검색 845건; PMID 28985325 직접 무작위시험 확인",
-    "negative": "telerehabilitation AND Pulmonary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 467건",
-    "safety": "telerehabilitation AND Pulmonary Disease AND (adverse OR toxicity OR harm OR risk OR case report) 검색 168건"
+  "vs": "6분 보행 +60m vs -15m (원격재활군 vs 대조군; P=.004)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 112,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격재활은 재활 전달 방식이며 의약품 허가 적응증을 적용하지 않습니다",
+ "why": "만성폐쇄성폐질환과 심부전이 함께 있는 고령 환자 112명을 원격재활군과 대조군으로 무작위 배정했습니다. 4개월 동안 원격 모니터링, 간호사 전화, 물리치료사 운동 지도를 제공했습니다",
+ "saw": "원격재활군의 6분 보행은 60m 늘었고 대조군은 15m 줄었습니다(P=.004). 입원·사망까지의 중앙 시간과 호흡곤란, 활동, 삶의 질도 개선됐습니다",
+ "limit": "COPD와 심부전 동반 환자 대상의 공개 연구이며 다른 폐질환에 그대로 적용할 수 없습니다",
+ "against": "원격재활이 모든 폐질환의 사망률을 줄인다고 판단할 근거는 없습니다",
+ "use": "COPD와 심부전 동반 환자의 폐재활 접근성을 높일 때 운동능력과 원격 모니터링 가능성을 참고합니다",
+ "refs": [
+  {
+   "label": "Home-based telerehabilitation in older patients with chronic obstructive pulmonary disease and heart failure: a randomised controlled trial",
+   "pmid": "28985325"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "telerehabilitation 반환 1069건, 정확한 중재명 대조 280건; Pulmonary Disease 후보 시험 12건",
+  "pubmed": "telerehabilitation AND Pulmonary Disease 검색 845건; PMID 28985325 직접 무작위시험 확인",
+  "negative": "telerehabilitation AND Pulmonary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 467건",
+  "safety": "telerehabilitation AND Pulmonary Disease AND (adverse OR toxicity OR harm OR risk OR case report) 검색 168건"
+ }
 }

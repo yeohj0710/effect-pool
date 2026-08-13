@@ -1,33 +1,34 @@
 {
-  "id": "transcranial-magnetic-stimulation-schizophrenia-pos",
-  "subj": "transcranial magnetic stimulation",
-  "claim": "반복 경두개 자기자극을 조현병 환청에 쓴다",
-  "line": "rTMS는 환청을 줄였습니다(d=1.17)",
+ "id": "transcranial-magnetic-stimulation-schizophrenia-pos",
+ "subj": "경두개 자기자극",
+ "claim": "반복 경두개 자기자극을 조현병 환청에 쓴다",
+ "line": "rTMS는 환청을 줄였습니다(d=1.17)",
   "effect": "AHRS 차이 5.96·Cohen d 1.17",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 66,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "조현병 환청 환자에게 좌측 측두두정 접합부 반복 자기자극과 sham을 비교했습니다",
-  "saw": "62명이 2주 치료를 완료했고 환청 점수 차이는 5.96점, 효과크기 d 1.17이었습니다",
-  "limit": "단일 기관의 소규모 시험이며 6주 추적 결과입니다",
-  "against": "sham 자극",
-  "use": "약물치료에 남은 환청의 보조치료 신호로 봅니다",
-  "refs": [
-    {
-      "label": "Repetitive Transcranial Magnetic Stimulation for Auditory Verbal Hallucinations in Schizophrenia",
-      "doi": "10.1001/jamanetworkopen.2024.44215",
-      "pmid": "39527055",
-      "nct": "NCT02863094"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=transcranial magnetic stimulation · cond=Schizophrenia: 52건",
-    "pubmed": "transcranial magnetic stimulation AND Schizophrenia AND (randomized OR trial OR meta-analysis): 471건",
-    "negative": "transcranial magnetic stimulation AND Schizophrenia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 723건",
-    "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+  "vs": "AHRS 군 간 차이 5.96점, Cohen d 1.17 (활성 rTMS vs sham; 2주)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 66,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "조현병 환청 환자에게 좌측 측두두정 접합부 반복 자기자극과 sham을 비교했습니다",
+ "saw": "62명이 2주 치료를 완료했고 환청 점수 차이는 5.96점, 효과크기 d 1.17이었습니다",
+ "limit": "단일 기관의 소규모 시험이며 6주 추적 결과입니다",
+ "against": "sham 자극",
+ "use": "약물치료에 남은 환청의 보조치료 신호로 봅니다",
+ "refs": [
+  {
+   "label": "Repetitive Transcranial Magnetic Stimulation for Auditory Verbal Hallucinations in Schizophrenia",
+   "doi": "10.1001/jamanetworkopen.2024.44215",
+   "pmid": "39527055",
+   "nct": "NCT02863094"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=transcranial magnetic stimulation · cond=Schizophrenia: 52건",
+  "pubmed": "transcranial magnetic stimulation AND Schizophrenia AND (randomized OR trial OR meta-analysis): 471건",
+  "negative": "transcranial magnetic stimulation AND Schizophrenia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 723건",
+  "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+ }
 }

@@ -1,32 +1,33 @@
 {
-  "id": "transcranial-magnetic-stimulation-pain-pos",
-  "subj": "transcranial magnetic stimulation",
-  "claim": "반복 경두개 자기자극을 신경병증성 통증에 쓴다",
-  "line": "rTMS의 통증 반응 NNT는 4.2였습니다",
+ "id": "transcranial-magnetic-stimulation-pain-pos",
+ "subj": "경두개 자기자극",
+ "claim": "반복 경두개 자기자극을 신경병증성 통증에 쓴다",
+ "line": "rTMS의 통증 반응 NNT는 4.2였습니다",
   "effect": "NNT 4.2·NNH 651.6",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "신경병증성 통증의 반복 경두개 자기자극 무작위시험을 약물 중재와 함께 비교한 메타분석을 확인했습니다",
-  "saw": "313개 시험 48,789명 전체 분석에서 rTMS의 반응 NNT 4.2, 이상반응 중단 NNH 651.6으로 계산됐습니다",
-  "limit": "rTMS 하위군의 표본과 근거 확실성이 낮고 통증 원인별 결과가 다릅니다",
-  "against": "위약·sham 또는 다른 치료",
-  "use": "신경병증성 통증에서 제한적인 3차 보조치료 신호로 봅니다",
-  "refs": [
-    {
-      "label": "Pharmacotherapy and non-invasive neuromodulation for neuropathic pain",
-      "doi": "10.1016/S1474-4422(25)00068-7",
-      "pmid": "40252663"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=transcranial magnetic stimulation · cond=Pain: 51건",
-    "pubmed": "transcranial magnetic stimulation AND Pain AND (randomized OR trial OR meta-analysis): 933건",
-    "negative": "transcranial magnetic stimulation AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1456건",
-    "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+  "vs": "통증 반응 NNT 4.2, 이상반응 중단 NNH 651.6 (rTMS vs sham·다른 치료)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "신경병증성 통증의 반복 경두개 자기자극 무작위시험을 약물 중재와 함께 비교한 메타분석을 확인했습니다",
+ "saw": "313개 시험 48,789명 전체 분석에서 rTMS의 반응 NNT 4.2, 이상반응 중단 NNH 651.6으로 계산됐습니다",
+ "limit": "rTMS 하위군의 표본과 근거 확실성이 낮고 통증 원인별 결과가 다릅니다",
+ "against": "위약·sham 또는 다른 치료",
+ "use": "신경병증성 통증에서 제한적인 3차 보조치료 신호로 봅니다",
+ "refs": [
+  {
+   "label": "Pharmacotherapy and non-invasive neuromodulation for neuropathic pain",
+   "doi": "10.1016/S1474-4422(25)00068-7",
+   "pmid": "40252663"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=transcranial magnetic stimulation · cond=Pain: 51건",
+  "pubmed": "transcranial magnetic stimulation AND Pain AND (randomized OR trial OR meta-analysis): 933건",
+  "negative": "transcranial magnetic stimulation AND Pain AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1456건",
+  "safety": "transcranial magnetic stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2749건"
+ }
 }
