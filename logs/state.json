@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 6222,
-  "subjects": 2411,
+  "subjects": 2407,
   "refs": 8596,
   "kinds": {
     "otc": 124,
@@ -32,24 +32,24 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1288 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
+    "note": "The worklist remains exhausted at 15,542/15,542 rows. Batch 1289 did not consume worklist rows; it backfilled numeric comparisons for 30 existing non-prescription entries from the legacy vs-missing backlog."
   },
   "backlog": {
-    "vs_missing": 3859,
-    "english_subjects": 1103,
+    "vs_missing": 3829,
+    "english_subjects": 1084,
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
     "over_counter_share": "15.3% (951 entries)",
     "rx_share": "44.6% (2,778 entries)",
     "no_effect_or_harm_share": "22.5% (1,403 entries)",
-    "vs_share": "22.2% (1,380 entries)",
+    "vs_share": "22.7% (1,410 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.7% (5,398 entries)",
     "non_trial_share": "13.2% (824 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 1021,
+      "thin_study": 1023,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,32 +57,34 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1289 starts after batch 1288. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1288 scanned the legacy non-prescription vs-missing backlog after telephone-support-caregiver-null and backfilled 30 existing entries; it also translated 13 shared English subjects across 45 entries and preserved their categories. The next eligible scan point is treadmill-training-parkinson-pos. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
+  "next": "Batch 1290 starts after batch 1289. The worklist is exhausted at line 20188 with 15,542/15,542 rows checked. Batch 1289 scanned the legacy non-prescription vs-missing backlog after treadmill-training-parkinson-pos and backfilled 30 existing entries; it also translated 19 shared English subjects across 43 entries and preserved their categories. Two turmeric topics were screened but not backfilled because the available PubMed record did not provide a numeric intervention-versus-control or valid relative effect. The next eligible scan point is virtual-reality-therapy-anxiety-pos. Unprocessed prescription legacy entries remain in the backlog; no unchecked worklist rows remain.",
   "last_batch": {
-    "id": "1288",
-    "commit": "643aa0ec",
+    "id": "1289",
+    "commit": "b8aa0f7e",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 0,
     "existing_links": 30,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 30,
-    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1380 numeric comparison entries; worklist 15542/15542",
-    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 36198459, 34188484, 31132909, 37982411, 41065729, 28985325, 36658577, 24505411, 27207211, 42479583, 42024386, 35704124, 39110436, 42475850, 34535411, 25201095, 42451100, 42371138, 42229885, 32986097, 40433613, 40252663, 39527055, 39320286, 40711757, 30452892, 36606456, 28768327, 40226747, 32161730, and 36357586; ClinicalTrials.gov identifiers NCT06415188, NCT02396394, NCT04919590, NCT02863094, NCT01243606, and NCT02427997. Duplicate PMIDs were reused only for closely related topics. No entries were rejected, no sample sizes were inferred, and no new claims were fabricated.",
+    "screened_nonqualifying_topics": 2,
+    "screened_nonqualifying_note": "turmeric-inflammation-null and turmeric-pain-pos were screened but not backfilled because the available PubMed record provided qualitative direction without a numeric intervention-versus-control result or valid relative effect.",
+    "build": "6222 entries; 8596 refs; 5398 trial; 729 obs; 31 animal; 17 lab; 47 case; 1410 numeric comparison entries; worklist 15542/15542",
+    "research": "Existing PubMed and ClinicalTrials.gov evidence was re-read for 30 non-prescription legacy entries and its numeric intervention-versus-control or valid relative effects were copied into vs without adding claims. Sources used PMIDs 29228079, 28398300, 41174221, 37999672, 40880089, 38032644, 35535592, 36030329, 38291564, 41095524, 30247715, 41156116, 39537540, 35151522, 41742680, 41494161, 41855753, 30287083, 35230242, 36758907, 40142335, 36429537, 42030715, 33070784, 31489138, 34787571, 40780518, 42189223, 39159449, 38407948, 35723907, 37363989, and 27091674; ClinicalTrials.gov identifiers NCT01506479, NCT05735886, NCT05043051, NCT06905665, NCT04349033, and NCT02546180. Duplicate PMIDs were reused only for closely related topics. No sample sizes were inferred, and no new claims were fabricated.",
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 30,
-    "subject_names_renamed": 13,
-    "subject_entries_renamed": 45,
+    "subject_names_renamed": 19,
+    "subject_entries_renamed": 43,
     "targeted_batch_warnings_fixed": 0,
-    "remaining_expected_thin_warnings": 1021,
+    "remaining_expected_thin_warnings": 1023,
     "remaining_expected_unknown_n_warnings": 455,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1289",
+    "next_batch": "1290",
     "worklist_line": 20189,
-    "topic": "legacy non-prescription vs-missing scan after telephone-support-caregiver-null; next eligible candidate treadmill-training-parkinson-pos; worklist exhausted",
+    "topic": "legacy non-prescription vs-missing scan after virtual-reality-stroke-pos; next eligible candidate virtual-reality-therapy-anxiety-pos; worklist exhausted",
     "unchecked": 0
   }
 }
