@@ -10579,8 +10579,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] obicetrapib — Lipid Metabolism에 듣는다 — 항목 생성(obicetrapib-lipid-metabolism-pos)  <!-- 시험 3건 · 논문 19편 -->
 - [x] bempedoic acid — Dyslipidemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 350편 --> <!-- batch 1270: PMID 30865796, NCT02666664; LDL comparison -->
 - [x] bempedoic acid — Cardiovascular에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 9건 · 논문 577편 --> <!-- batch 1270: PMID 36876740, NCT02993406; major cardiovascular-event comparison -->
-- [ ] bempedoic acid — Statin Adverse Reaction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 14편 -->
-- [ ] bempedoic acid — Hypercholesterolaemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 282편 -->
+- [x] bempedoic acid — Statin Adverse Reaction에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 14편 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
+- [x] bempedoic acid — Hypercholesterolaemia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->  <!-- 시험 4건 · 논문 282편 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] evinacumab — Hypertriglyceridemia에 듣는다 — 항목 생성(evinacumab-hypertriglyceridemia-open)  <!-- 시험 3건 · 논문 44편 -->
 - [x] gardening — Dietary Habits에 듣는다 — 항목 생성(gardening-dietary-habits-open)  <!-- 시험 4건 · 논문 1002편 -->
 - [x] gardening — Eating Behavior에 듣는다 — 항목 생성(gardening-eating-behavior-open)  <!-- 시험 4건 · 논문 1017편 -->
@@ -10979,10 +10979,10 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetyl-l-carnitine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(2026-08-06)
 - [x] acetyl-l-carnitine — Hepatic Encephalopathy에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 항목 생성(2026-08-06)
 - [x] benfotiamine — Diabetic Nephropathy에 듣는다  <!-- 시험 3건 · 논문 22편 --> — 항목 생성(2026-08-06)
-- [ ] desloratadine — Urticaria에 듣는다  <!-- 시험 19건 · 논문 175편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] desloratadine — Urticaria에 듣는다  <!-- 시험 19건 · 논문 175편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
 - [x] desloratadine — Asthma에 듣는다  <!-- 시험 4건 · 논문 114편 --> — 근거 없음(2026-08-06, "desloratadine AND Asthma")
 - [x] desloratadine — Pruritus에 듣는다  <!-- 시험 3건 · 논문 60편 --> — 근거 없음(2026-08-06, "desloratadine AND Pruritus")
-- [ ] fesoterodine — Urgency Urinary에 듣는다  <!-- 시험 7건 · 논문 104편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] fesoterodine — Urgency Urinary에 듣는다  <!-- 시험 7건 · 논문 104편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] fesoterodine — Neurogenic Detrusor Overactivity에 듣는다  <!-- 시험 3건 · 논문 16편 --> — 근거 없음(2026-08-06, "fesoterodine AND Neurogenic Detrusor Overactivity")
 - [x] glyburide — Stroke에 듣는다  <!-- 시험 3건 · 논문 230편 --> — 근거 없음(2026-08-06, "glyburide AND Stroke")
 - [x] glyburide — Brain Metastases에 듣는다  <!-- 시험 3건 · 논문 24편 --> — 근거 없음(2026-08-06, "glyburide AND Brain Metastases")
@@ -10991,11 +10991,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] ibandronate — Bone Neoplasm에 듣는다  <!-- 시험 7건 · 논문 290편 --> — 항목 생성(2026-08-06)
 - [x] ibandronate — Osteopenia에 듣는다  <!-- 시험 4건 · 논문 593편 --> — 근거 없음(2026-08-06, "ibandronate AND Osteopenia")
 - [x] levofloxacin — Tuberculosis에 듣는다  <!-- 시험 29건 · 논문 971편 --> — 항목 생성(2026-08-06)
-- [ ] levofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 2709편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] levofloxacin — Pneumonia에 듣는다  <!-- 시험 26건 · 논문 2709편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
 - [x] levofloxacin — HIV Infections에 듣는다  <!-- 시험 24건 · 논문 108편 --> — 근거 없음(2026-08-06, "levofloxacin AND HIV Infections")
 - [x] levofloxacin — Cataract에 듣는다  <!-- 시험 12건 · 논문 128편 --> — 항목 생성(2026-08-06)
 - [x] ramipril — Diabetes에 듣는다  <!-- 시험 16건 · 논문 694편 --> — 항목 생성(2026-08-06)
-- [ ] ramipril — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 530편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ramipril — Heart Failure에 듣는다  <!-- 시험 12건 · 논문 530편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
 - [x] ramipril — Kidney Transplant에 듣는다  <!-- 시험 11건 · 논문 73편 --> — 항목 생성(2026-08-06)
 - [x] ramipril — Non-Diabetic에 듣는다  <!-- 시험 11건 · 논문 53편 --> — 항목 생성(2026-08-06)
 - [x] isometric exercise — Hypertension에 듣는다  <!-- 시험 24건 · 논문 27786편 --> — 항목 생성(2026-08-06)
@@ -11025,16 +11025,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] brimonidine — Ocular Redness에 듣는다  <!-- 시험 56건 · 논문 34편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] brimonidine — Rosacea에 듣는다  <!-- 시험 12건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] brimonidine — Ocular Redness에 듣는다  <!-- 시험 56건 · 논문 34편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] brimonidine — Rosacea에 듣는다  <!-- 시험 12건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] brimonidine — Dry Eye에 듣는다  <!-- 시험 12건 · 논문 27편 --> — 근거 없음(2026-08-06, "brimonidine AND Dry Eye")
 - [x] clobetasol — Oral Pain에 듣는다  <!-- 시험 21건 · 논문 73편 --> — 항목 생성(2026-08-06)
 - [x] clobetasol — Vulvar Lichen Sclerosus에 듣는다  <!-- 시험 9건 · 논문 110편 --> — 항목 생성(2026-08-06)
 - [x] clobetasol — Atopic Dermatitis에 듣는다  <!-- 시험 8건 · 논문 103편 --> — 근거 없음(2026-08-06, "clobetasol AND Atopic Dermatitis")
-- [ ] cyclopentolate — Refractive Errors에 듣는다  <!-- 시험 3건 · 논문 268편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] dapoxetine — Sexual Dysfunction에 듣는다  <!-- 시험 14건 · 논문 218편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] cyclopentolate — Refractive Errors에 듣는다  <!-- 시험 3건 · 논문 268편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] dapoxetine — Sexual Dysfunction에 듣는다  <!-- 시험 14건 · 논문 218편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] etodolac — Colorectal Neoplasms에 듣는다  <!-- 시험 3건 · 논문 21편 --> — 항목 생성(2026-08-06)
-- [ ] fluvastatin — Dyslipidemia에 듣는다  <!-- 시험 7건 · 논문 595편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] fluvastatin — Dyslipidemia에 듣는다  <!-- 시험 7건 · 논문 595편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] fluvastatin — Renal Transplantation에 듣는다  <!-- 시험 4건 · 논문 98편 --> — 항목 생성(2026-08-06)
 - [x] fluvastatin — Hypertension에 듣는다  <!-- 시험 4건 · 논문 108편 --> — 항목 생성(2026-08-06)
 - [x] fluvastatin — Hepatitis C에 듣는다  <!-- 시험 4건 · 논문 45편 --> — 항목 생성(2026-08-06)
@@ -11070,18 +11070,18 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] cefepime — Acute Pyelonephritis에 듣는다  <!-- 시험 4건 · 논문 31편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] cefepime — Acute Pyelonephritis에 듣는다  <!-- 시험 4건 · 논문 31편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] cefepime — Drug Allergy에 듣는다  <!-- 시험 4건 · 논문 80편 --> — 근거 없음(2026-08-06, "cefepime AND Drug Allergy")
 - [x] cefepime — Peritonitis에 듣는다  <!-- 시험 3건 · 논문 125편 --> — 근거 없음(2026-08-06, "cefepime AND Peritonitis")
 - [x] chlorhexidine — Periodontal Pocket에 듣는다  <!-- 시험 24건 · 논문 473편 --> — 항목 생성(2026-08-06)
 - [x] chlorhexidine — Pneumonia에 듣는다  <!-- 시험 23건 · 논문 734편 --> — 항목 생성(2026-08-06)
 - [x] chlorhexidine — Mucositis에 듣는다  <!-- 시험 18건 · 논문 580편 --> — 항목 생성(2026-08-06)
 - [x] chlorhexidine — Staphylococcus Aureus에 듣는다  <!-- 시험 16건 · 논문 1556편 --> — 항목 생성(2026-08-06)
-- [ ] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] diltiazem — Heart Rate에 듣는다  <!-- 시험 6건 · 논문 1619편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] diltiazem — Drug Dependence에 듣는다  <!-- 시험 4건 · 논문 282편 --> — 근거 없음(2026-08-06, "diltiazem AND Drug Dependence")
 - [x] diltiazem — Pain에 듣는다  <!-- 시험 4건 · 논문 991편 --> — 항목 생성(2026-08-06)
-- [ ] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] diltiazem — Cardiovascular Diseases에 듣는다  <!-- 시험 3건 · 논문 3702편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
+- [x] empagliflozin — Cardiovascular Disease에 듣는다  <!-- 시험 14건 · 논문 2151편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] empagliflozin — SGLT2 Inhibitors에 듣는다  <!-- 시험 14건 · 논문 3619편 --> — 근거 없음(2026-08-06, "empagliflozin AND SGLT2 Inhibitors")
 - [x] empagliflozin — Obesity에 듣는다  <!-- 시험 13건 · 논문 302편 --> — 근거 없음(2026-08-06, "empagliflozin AND Obesity")
 - [x] empagliflozin — Metabolic Syndrome에 듣는다  <!-- 시험 10건 · 논문 79편 --> — 근거 없음(2026-08-06, "empagliflozin AND Metabolic Syndrome")
@@ -11095,13 +11095,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] moxifloxacin — Cataract에 듣는다  <!-- 시험 16건 · 논문 337편 --> — 항목 생성(2026-08-06)
 - [x] moxifloxacin — Pulmonary Disease에 듣는다  <!-- 시험 16건 · 논문 1017편 --> — 근거 없음(2026-08-06, "moxifloxacin AND Pulmonary Disease")
 - [x] moxifloxacin — QT/QTc에 듣는다  <!-- 시험 16건 · 논문 182편 --> — 근거 없음(2026-08-06, "moxifloxacin AND QT/QTc")
-- [ ] moxifloxacin — Infections에 듣는다  <!-- 시험 14건 · 논문 5315편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] moxifloxacin — Infections에 듣는다  <!-- 시험 14건 · 논문 5315편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] nitrofurantoin — Pain에 듣는다  <!-- 시험 3건 · 논문 90편 --> — 근거 없음(2026-08-06, "nitrofurantoin AND Pain")
 - [x] ranitidine — Food-drug Interaction에 듣는다  <!-- 시험 3건 · 논문 26편 --> — 근거 없음(2026-08-06, "ranitidine AND Food-drug Interaction")
 - [x] ranitidine — Coronary Artery Disease에 듣는다  <!-- 시험 3건 · 논문 13편 --> — 근거 없음(2026-08-06, "ranitidine AND Coronary Artery Disease")
 - [x] rebamipide — Gastric Lesion에 듣는다  <!-- 시험 3건 · 논문 58편 --> — 근거 없음(2026-08-06, "rebamipide AND Gastric Lesion")
 - [x] sitagliptin — Glucose Intolerance에 듣는다  <!-- 시험 7건 · 논문 44편 --> — 근거 없음(2026-08-06, "sitagliptin AND Glucose Intolerance")
-- [ ] sitagliptin — Hyperglycemia에 듣는다  <!-- 시험 6건 · 논문 341편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] sitagliptin — Hyperglycemia에 듣는다  <!-- 시험 6건 · 논문 341편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] sitagliptin — Liver Insufficiency에 듣는다  <!-- 시험 6건 · 논문 13편 --> — 근거 없음(2026-08-06, "sitagliptin AND Liver Insufficiency")
 - [x] tapentadol — Cancer에 듣는다  <!-- 시험 4건 · 논문 145편 --> — 항목 생성(2026-08-06)
 - [x] gardening — Malnutrition에 듣는다  <!-- 시험 3건 · 논문 234편 --> — 근거 없음(2026-08-06, "gardening AND Malnutrition")
@@ -11135,14 +11135,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] drospirenone — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 10건 · 논문 108편 --> — 항목 생성(drospirenone-polycystic-ovary-syndrome-open)
 - [x] drospirenone — Premenstrual Syndrome에 듣는다  <!-- 시험 4건 · 논문 78편 --> — 항목 생성(drospirenone-premenstrual-syndrome-pos)
 - [x] drospirenone — Hypertension에 듣는다  <!-- 시험 4건 · 논문 69편 --> — 근거 없음(2026-08-06, "drospirenone AND Hypertension")
-- [ ] ethinylestradiol — Ovulation Inhibition에 듣는다  <!-- 시험 6건 · 논문 221편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ethinylestradiol — Ovulation Inhibition에 듣는다  <!-- 시험 6건 · 논문 221편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
 - [x] ethinylestradiol — Endometrial Polyp에 듣는다  <!-- 시험 4건 · 논문 14편 --> — 항목 생성(ethinylestradiol-endometrial-polyp-pos)
 - [x] ethinylestradiol — Diabetes에 듣는다  <!-- 시험 3건 · 논문 311편 --> — 근거 없음(2026-08-06, "ethinylestradiol AND Diabetes")
 - [x] ethinylestradiol — Polycystic Ovary Syndrome에 듣는다  <!-- 시험 3건 · 논문 376편 --> — 항목 생성(ethinylestradiol-polycystic-ovary-syndrome-open)
 - [x] follitropin — Ovarian Reserve에 듣는다  <!-- 시험 11건 · 논문 1682편 --> — 근거 없음(2026-08-06, "follitropin AND Ovarian Reserve")
-- [ ] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] follitropin — Fertility에 듣는다  <!-- 시험 10건 · 논문 5969편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] follitropin — Oligo-ovulation에 듣는다  <!-- 시험 8건 · 논문 12편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] follitropin — Fertilization에 듣는다  <!-- 시험 8건 · 논문 4646편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] lactulose — Cirrhosis에 듣는다  <!-- 시험 20건 · 논문 752편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(lactulose-cirrhosis-null)
 - [x] lactulose — Constipation에 듣는다  <!-- 시험 17건 · 논문 599편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> — 새 항목(lactulose-constipation-pos)
 - [x] lactulose — Renal Failure에 듣는다  <!-- 시험 9건 · 논문 63편 --> — 항목 생성(lactulose-renal-failure-open)
@@ -11151,12 +11151,12 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] levonorgestrel — Breast Cancer에 듣는다  <!-- 시험 15건 · 논문 230편 --> — 항목 생성(levonorgestrel-breast-cancer-open)
 - [x] levonorgestrel — HIV에 듣는다  <!-- 시험 13건 · 논문 211편 --> — 항목 생성(levonorgestrel-hiv-open)
 - [x] levonorgestrel — Pregnancy에 듣는다  <!-- 시험 13건 · 논문 2241편 --> — 항목 생성(levonorgestrel-pregnancy-null)
-- [ ] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] medroxyprogesterone — Contraception에 듣는다  <!-- 시험 14건 · 논문 3497편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] medroxyprogesterone — HIV에 듣는다  <!-- 시험 11건 · 논문 356편 --> — 항목 생성(medroxyprogesterone-hiv-harm)
 - [x] medroxyprogesterone — Coronary Disease에 듣는다  <!-- 시험 7건 · 논문 305편 --> — 항목 생성(medroxyprogesterone-coronary-disease-harm)
 - [x] medroxyprogesterone — Cardiovascular Disease에 듣는다  <!-- 시험 5건 · 논문 879편 --> — 항목 생성(medroxyprogesterone-cardiovascular-disease-harm)
-- [ ] permethrin — Pediculosis에 듣는다  <!-- 시험 7건 · 논문 276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] permethrin — Head Lice에 듣는다  <!-- 시험 5건 · 논문 254편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] permethrin — Pediculosis에 듣는다  <!-- 시험 7건 · 논문 276편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] permethrin — Head Lice에 듣는다  <!-- 시험 5건 · 논문 254편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] permethrin — Malaria에 듣는다  <!-- 시험 4건 · 논문 847편 --> — 항목 생성(permethrin-malaria-pos)
 - [x] permethrin — Tick Bites에 듣는다  <!-- 시험 4건 · 논문 62편 --> — 항목 생성(permethrin-tick-bites-null)
 - [x] food vouchers — Nutrition에 듣는다  <!-- 시험 6건 · 논문 280편 --> — 항목 생성(food-vouchers-nutrition-pos)
@@ -11191,14 +11191,14 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] ethosuximide — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 1058편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ethosuximide — Epilepsy에 듣는다  <!-- 시험 4건 · 논문 1058편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] nevirapine — Tuberculosis에 듣는다  <!-- 시험 9건 · 논문 205편 --> — 항목 생성(nevirapine-tuberculosis-harm)
 - [x] nevirapine — Pregnancy에 듣는다  <!-- 시험 8건 · 논문 1079편 --> — 항목 생성(nevirapine-pregnancy-harm)
-- [ ] nevirapine — Acquired Immunodeficiency Syndrome에 듣는다  <!-- 시험 5건 · 논문 309편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
-- [ ] nevirapine — AIDS에 듣는다  <!-- 시험 5건 · 논문 2016편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] nevirapine — Acquired Immunodeficiency Syndrome에 듣는다  <!-- 시험 5건 · 논문 309편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
+- [x] nevirapine — AIDS에 듣는다  <!-- 시험 5건 · 논문 2016편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] isradipine — Parkinson Disease에 듣는다  <!-- 시험 3건 · 논문 64편 --> — 항목 생성(isradipine-parkinson-disease-null)
 - [x] isradipine — Drug Dependence에 듣는다  <!-- 시험 3건 · 논문 81편 --> — 항목 생성(isradipine-drug-dependence-open)
-- [ ] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] ephedrine — Anesthesia에 듣는다  <!-- 시험 32건 · 논문 1546편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] ephedrine — Cesarean에 듣는다  <!-- 시험 23건 · 논문 618편 --> — 항목 생성(ephedrine-cesarean-null)
 - [x] ephedrine — Obesity에 듣는다  <!-- 시험 8건 · 논문 246편 --> — 항목 생성(ephedrine-obesity-harm)
 - [x] ephedrine — Rhinitis에 듣는다  <!-- 시험 8건 · 논문 182편 --> — 항목 생성(ephedrine-rhinitis-harm)
@@ -11236,7 +11236,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] acetazolamide — Chronic Obstructive Pulmonary Disease (COPD)에 듣는다  <!-- 시험 3건 · 논문 79편 --> — 항목 생성(acetazolamide-chronic-obstructive-pulmonary-disease-null)
 - [x] acetazolamide — Blood Pressure에 듣는다  <!-- 시험 3건 · 논문 761편 --> — 항목 생성(acetazolamide-blood-pressure-pos)
 - [x] acetazolamide — Obesity에 듣는다  <!-- 시험 3건 · 논문 254편 --> — 근거 없음(2026-08-06, "acetazolamide AND Obesity")
-- [ ] albuterol — Status Asthmaticus에 듣는다  <!-- 시험 4건 · 논문 197편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] albuterol — Status Asthmaticus에 듣는다  <!-- 시험 4건 · 논문 197편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: accepted numeric PubMed evidence; ClinicalTrials.gov v2 exact intervention check]
 - [x] albuterol — Rhinitis에 듣는다  <!-- 시험 3건 · 논문 164편 --> — 근거 없음(2026-08-06, "albuterol AND Rhinitis")
 - [x] amantadine — Schizoaffective Disorder에 듣는다  <!-- 시험 3건 · 논문 121편 --> — 항목 생성(amantadine-schizoaffective-disorder-open)
 - [x] amantadine — Pain에 듣는다  <!-- 시험 3건 · 논문 270편 --> — 근거 없음(2026-08-06, "amantadine AND Pain")
@@ -11247,7 +11247,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amlodipine — Hypercholesterolemia에 듣는다  <!-- 시험 10건 · 논문 68편 --> — 근거 없음(2026-08-06, "amlodipine AND Hypercholesterolemia")
 - [x] amlodipine — Obesity에 듣는다  <!-- 시험 10건 · 논문 150편 --> — 근거 없음(2026-08-06, "amlodipine AND Obesity")
 - [x] amlodipine — Heart Failure에 듣는다  <!-- 시험 10건 · 논문 453편 --> — 근거 없음(2026-08-06, "amlodipine AND Heart Failure")
-- [ ] amlodipine — Angina에 듣는다  <!-- 시험 9건 · 논문 360편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 -->
+- [x] amlodipine — Angina에 듣는다  <!-- 시험 9건 · 논문 360편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-06 --> [batch1271: no eligible direct numeric comparator; ClinicalTrials.gov v2 exact intervention check]
 - [x] armodafinil — Brain Tumors에 듣는다  <!-- 시험 3건 · 논문 28편 --> — 근거 없음(2026-08-06, "armodafinil AND Brain Tumors")
 - [x] buspirone — Schizophrenia에 듣는다  <!-- 시험 3건 · 논문 78편 --> — 근거 없음(2026-08-06, "buspirone AND Schizophrenia")
 - [x] buspirone — Marijuana Abuse에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-06, "buspirone AND Marijuana Abuse")
