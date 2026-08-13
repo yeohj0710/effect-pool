@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 5893,
-  "subjects": 2243,
-  "refs": 8255,
+  "entries": 5922,
+  "subjects": 2250,
+  "refs": 8284,
   "kinds": {
     "otc": 121,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2452
+    "rx": 2481
   },
   "tiers": {
-    "trial": 5071,
+    "trial": 5100,
     "obs": 727,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3514,
-    "null": 1180,
+    "pos": 3538,
+    "null": 1185,
     "open": 1038,
     "harm": 161
   },
   "worklist": {
     "total": 15542,
-    "checked": 15172,
-    "unchecked": 370,
-    "no_evidence_pending": 2038,
-    "note": "Batch 1268 checked 30 unique topics from worklist lines 9537-10057, prioritizing the one identifiable non-prescription topic: guaifenesin Cough. New evidence entries: 26; existing links: 0; no-evidence rejects: 4 (alprostadil Peripheral Artery Disease, etoricoxib Arthritis, trametinib Lung Carcinoma, and albuterol Bronchospasm lacked an eligible single-topic numeric comparator effect)."
+    "checked": 15202,
+    "unchecked": 340,
+    "no_evidence_pending": 2039,
+    "note": "Batch 1269 checked 30 unique prescription topics from worklist lines 10058-10223. No identifiable non-prescription topic was available in this queue segment. New evidence entries: 29; existing links: 0; no-evidence reject: 1 (ravulizumab aHUS had only single-arm ClinicalTrials.gov/PubMed evidence without a direct numeric comparator)."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "16.1% (948 entries)",
-    "rx_share": "41.6% (2,452 entries)",
-    "no_effect_or_harm_share": "22.8% (1,341 entries)",
-    "vs_share": "14.4% (849 entries)",
+    "over_counter_share": "16.0% (948 entries)",
+    "rx_share": "41.9% (2,481 entries)",
+    "no_effect_or_harm_share": "22.7% (1,346 entries)",
+    "vs_share": "14.8% (878 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.0% (5,071 entries)",
-    "non_trial_share": "14.0% (822 entries)",
+    "trial_share": "86.1% (5,100 entries)",
+    "non_trial_share": "13.9% (822 entries)",
     "build_warnings": {
       "unknown_n": 455,
-      "thin_study": 995,
+      "thin_study": 996,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1269 starts after batch 1268. Prioritize non-prescription topics first; 1 non-prescription topic was processed in this queue segment. Resume at worklist line 10058: phentolamine — Mydriasis. 370 unchecked rows remain.",
+  "next": "Batch 1270 starts after batch 1269. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 10224: guselkumab — Crohn Disease. 340 unchecked rows remain.",
   "last_batch": {
-    "id": "1268",
-    "commit": "7eeae0bd",
-    "pushed": true,
+    "id": "1269",
+    "commit": "6b080a9d",
+    "pushed": false,
     "processed_topics": 30,
-    "new_entries": 26,
+    "new_entries": 29,
     "existing_links": 0,
-    "no_evidence_rejects": 4,
-    "non_prescription_topics_available": 1,
-    "build": "5893 entries; 8255 refs; 5071 trial; 727 obs; 31 animal; 17 lab; 47 case; 849 numeric comparison entries; worklist 15172/15542",
-    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 16914701, 11605698, 24859353, 35508008, 17088141, 31229401, 42442890, 14681504, 17631392, 15818702, 22436955, 12601104, 7997385, 2972167, 19121573, 17944740, 3142593, 15984968, 27181606, 10901475, 12208571, 38899716, 16002915, and 18573982. Duplicate PMIDs 16914701 and 31229401 were reused only for closely related worklist topics. New entries have Korean subjects, correct prescription/OTC mappings, and numeric intervention-versus-control results or valid relative effects. Four topics were rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
-    "new_entry_vs_warnings_fixed": 14,
+    "no_evidence_rejects": 1,
+    "non_prescription_topics_available": 0,
+    "build": "5922 entries; 8284 refs; 5100 trial; 727 obs; 31 animal; 17 lab; 47 case; 878 numeric comparison entries; worklist 15202/15542",
+    "research": "ClinicalTrials.gov v2 and PubMed E-utilities were queried for all 30 topics with exact intervention-name checks on returned records. New evidence used PMIDs 39293681, 33657294, 20040086, 2667865, 14567368, 10908773, 12064916, 31971678, 31914241, 32212518, 38319212, 42441931, 31971679, 33971155, 32711801, 37213109, 33264825, 39225278, 28304224, 35368058, 30403574, 32187462, and 32178766. Duplicate PMIDs were reused only for closely related worklist topics. New entries have Korean subjects, correct prescription mappings, and numeric intervention-versus-control results or valid relative effects. One topic was rejected because verified ClinicalTrials.gov/PubMed evidence did not provide an eligible single-topic numeric comparator effect.",
+    "new_entry_vs_warnings_fixed": 4,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 14,
-    "remaining_expected_thin_warnings": 4,
+    "targeted_batch_warnings_fixed": 5,
+    "remaining_expected_thin_warnings": 1,
     "remaining_expected_unknown_n_warnings": 0,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1269",
-    "worklist_line": 10058,
-    "topic": "phentolamine — Mydriasis",
-    "unchecked": 370
+    "next_batch": "1270",
+    "worklist_line": 10224,
+    "topic": "guselkumab — Crohn Disease",
+    "unchecked": 340
   }
 }
