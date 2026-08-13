@@ -8419,50 +8419,50 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] everolimus — Kidney Failure에 듣는다  <!-- 시험 79건 · 논문 470편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-kidney-failure-open)
 - [x] everolimus — Carcinoma에 듣는다  <!-- 시험 78건 · 논문 1933편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(everolimus-carcinoma-open)
 - [x] filgrastim — Leukemia에 듣는다  <!-- 시험 215건 · 논문 373편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(filgrastim-leukemia-pos)
-- [ ] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] filgrastim — Cancer에 듣는다  <!-- 시험 212건 · 논문 2195편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(filgrastim-cancer-open)
+- [x] filgrastim — Multiple Myeloma에 듣는다  <!-- 시험 68건 · 논문 213편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(filgrastim-multiple-myeloma-null)
+- [x] filgrastim — Sarcoma에 듣는다  <!-- 시험 50건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(filgrastim-sarcoma-null)
 - [x] guanfacine — Personality Disorders에 듣는다  <!-- 시험 4건 · 논문 11편 -->
 - [x] guanfacine — Smoking에 듣는다  <!-- 시험 4건 · 논문 17편 -->
 - [x] guanfacine — Alcohol Use에 듣는다  <!-- 시험 4건 · 논문 37편 -->
-- [ ] guanfacine — ADHD에 듣는다  <!-- 시험 3건 · 논문 501편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] imatinib — Cancer에 듣는다  <!-- 시험 84건 · 논문 15716편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] imatinib — Solid Tumors에 듣는다  <!-- 시험 81건 · 논문 575편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] guanfacine — ADHD에 듣는다  <!-- 시험 3건 · 논문 501편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(guanfacine-adhd-pos)
+- [x] imatinib — Cancer에 듣는다  <!-- 시험 84건 · 논문 15716편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(imatinib-cancer-pos)
+- [x] imatinib — Solid Tumors에 듣는다  <!-- 시험 81건 · 논문 575편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(imatinib-solid-tumors-null)
 - [x] imatinib — Lymphoma에 듣는다  <!-- 시험 57건 · 논문 1474편 -->
 - [x] imatinib — Melanoma에 듣는다  <!-- 시험 28건 · 논문 377편 -->
-- [ ] infliximab — Arthritis에 듣는다  <!-- 시험 85건 · 논문 6077편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] infliximab — Colitis에 듣는다  <!-- 시험 63건 · 논문 4440편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] infliximab — Bowel Disease에 듣는다  <!-- 시험 44건 · 논문 8669편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] infliximab — Psoriasis에 듣는다  <!-- 시험 33건 · 논문 2469편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] infliximab — Arthritis에 듣는다  <!-- 시험 85건 · 논문 6077편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(infliximab-arthritis-pos)
+- [x] infliximab — Colitis에 듣는다  <!-- 시험 63건 · 논문 4440편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(infliximab-colitis-pos)
+- [x] infliximab — Bowel Disease에 듣는다  <!-- 시험 44건 · 논문 8669편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(infliximab-bowel-disease-pos)
+- [x] infliximab — Psoriasis에 듣는다  <!-- 시험 33건 · 논문 2469편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(infliximab-psoriasis-pos)
 - [x] leflunomide — Lupus에 듣는다  <!-- 시험 6건 · 논문 141편 -->
 - [x] leflunomide — Lung Cancer에 듣는다  <!-- 시험 6건 · 논문 20편 -->
 - [x] leflunomide — Breast Diseases에 듣는다  <!-- 시험 4건 · 논문 24편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov intr=leflunomide&cond=Breast Diseases → 삼중음성 전이암 등록시험 1건은 결과 논문 없음; PubMed leflunomide AND Breast Diseases → 24건은 임신·안전성·세포 연구 중심)
 - [x] methylprednisolone — Leukemia에 듣는다  <!-- 시험 31건 · 논문 837편 -->
 - [x] methylprednisolone — Myeloma에 듣는다  <!-- 시험 20건 · 논문 199편 -->
-- [ ] methylprednisolone — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 233편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] methylprednisolone — Osteoarthritis에 듣는다  <!-- 시험 20건 · 논문 233편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(methylprednisolone-osteoarthritis-null)
 - [x] methylprednisolone — Myelodysplastic Syndromes에 듣는다  <!-- 시험 19건 · 논문 126편 -->
 - [x] metoclopramide — Migraine에 듣는다  <!-- 시험 23건 · 논문 357편 -->
-- [ ] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] metoclopramide — Vomiting에 듣는다  <!-- 시험 15건 · 논문 1983편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(metoclopramide-vomiting-null)
 - [x] metoclopramide — Headache에 듣는다  <!-- 시험 13건 · 논문 406편 -->
 - [x] metoclopramide — Enteral Nutrition에 듣는다  <!-- 시험 9건 · 논문 131편 -->
 - [x] pyridostigmine — HIV에 듣는다  <!-- 시험 5건 · 논문 20편 -->
 - [x] pyridostigmine — Autonomic Failure에 듣는다  <!-- 시험 5건 · 논문 41편 -->
 - [x] pyridostigmine — Diabetes Mellitus에 듣는다  <!-- 시험 4건 · 논문 32편 -->
-- [ ] pyridostigmine — Myasthenia Gravis에 듣는다  <!-- 시험 3건 · 논문 1260편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] ropinirole — Parkinson Disease에 듣는다  <!-- 시험 23건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] pyridostigmine — Myasthenia Gravis에 듣는다  <!-- 시험 3건 · 논문 1260편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(pyridostigmine-myasthenia-gravis-pos)
+- [x] ropinirole — Parkinson Disease에 듣는다  <!-- 시험 23건 · 논문 649편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(ropinirole-parkinson-disease-pos)
 - [x] ropinirole — Pharmacokinetic Study에 듣는다  <!-- 시험 3건 · 논문 99편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 5건은 생체이용률·약동학·건강인 시험; PubMed 99건은 약동학·파킨슨병 약물연구 중심)
 - [x] ropinirole — End Stage Renal Disease에 듣는다  <!-- 시험 3건 · 논문 10편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov 4건 중 3건은 혈액투석 환자 하지불안증후군 시험이나 결과 논문 없음; PubMed 10건은 만성콩팥병 하지불안증후군 고찰 중심)
 - [x] sulfasalazine — Ankylosing Spondylitis에 듣는다  <!-- 시험 4건 · 논문 409편 -->
 - [x] sulfasalazine — Glioblastoma에 듣는다  <!-- 시험 3건 · 논문 30편 -->
 - [x] sulfasalazine — Fibrosis, Liver에 듣는다  <!-- 시험 3건 · 논문 27편 -->
 - [x] sulfasalazine — Breast Cancer에 듣는다  <!-- 시험 3건 · 논문 111편 -->
-- [ ] tadalafil — Hypertension에 듣는다  <!-- 시험 41건 · 논문 640편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] tadalafil — Hypertension에 듣는다  <!-- 시험 41건 · 논문 640편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(tadalafil-hypertension-pos)
 - [x] tadalafil — Cancer에 듣는다  <!-- 시험 33건 · 논문 227편 -->
-- [ ] tadalafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 31건 · 논문 359편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] tadalafil — Impotence에 듣는다  <!-- 시험 12건 · 논문 1451편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] tadalafil — Prostatic Hyperplasia에 듣는다  <!-- 시험 31건 · 논문 359편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(tadalafil-prostatic-hyperplasia-pos)
+- [x] tadalafil — Impotence에 듣는다  <!-- 시험 12건 · 논문 1451편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(tadalafil-impotence-pos)
+- [x] temozolomide — Tumors에 듣는다  <!-- 시험 150건 · 논문 12025편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-tumors-pos)
+- [x] temozolomide — Glioma에 듣는다  <!-- 시험 109건 · 논문 8796편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-glioma-pos)
+- [x] temozolomide — Cancer에 듣는다  <!-- 시험 105건 · 논문 11632편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 --> — 새 항목(temozolomide-cancer-pos)
 - [ ] temozolomide — Astrocytoma에 듣는다  <!-- 시험 75건 · 논문 5693편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] ursodeoxycholic acid — Biliary Atresia에 듣는다  <!-- 시험 22건 · 논문 84편 -->
 - [x] ursodeoxycholic acid — Hepatitis에 듣는다  <!-- 시험 10건 · 논문 963편 -->
