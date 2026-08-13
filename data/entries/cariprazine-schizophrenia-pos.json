@@ -1,0 +1,30 @@
+{
+  "id": "cariprazine-schizophrenia-pos",
+  "subj": "카리프라진",
+  "claim": "카리프라진이 급성 조현병 증상을 줄인다",
+  "line": "급성 조현병에서 카리프라진은 위약보다 PANSS 점수를 낮췄습니다.",
+  "effect": "PANSS −7.6~−10.4점",
+  "vs": "급성 조현병 732명 무작위시험에서 6주 PANSS 변화는 카리프라진 1.5·3·4.5mg군이 위약보다 각각 7.6·8.8·10.4점 더 낮았습니다(P<0.001).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 732,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "조현병 치료에 허가된 비정형 항정신병약입니다.",
+  "why": "급성 조현병 환자를 카리프라진·위약·리스페리돈에 무작위 배정한 이중눈가림 시험입니다.",
+  "saw": "6주 동안 카리프라진 세 용량의 PANSS 총점 변화가 위약보다 유리했고, 리스페리돈도 위약보다 유리했습니다.",
+  "limit": "6주 단기시험이며 용량별 효과와 정좌불능 등 이상반응을 함께 봐야 합니다.",
+  "against": "카리프라진군은 불면, 추체외로 증상, 정좌불능, 오심 등이 위약보다 흔했습니다.",
+  "use": "급성 조현병의 단기 증상 변화와 위약 대비 차이를 설명하는 근거입니다.",
+  "refs": [
+    { "label": "Durgam 2016 · Schizophrenia Research · 카리프라진 조현병 2상 RCT", "pmid": "24412468", "nct": "NCT00694707" },
+    { "label": "Zhang 2018 · CNS Spectrums · 카리프라진 조현병 메타분석", "pmid": "29257786" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=cariprazine&query.cond=Schizophrenia → 21건 반환, InterventionName에 cariprazine 포함 16건",
+    "pubmed": "cariprazine AND schizophrenia → 345건",
+    "negative": "cariprazine AND schizophrenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 295건",
+    "safety": "cariprazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 289건"
+  }
+}

@@ -4818,9 +4818,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] furosemide — Kidney Stone에 듣는다  <!-- 등록 시험 30건 --> — 기존 항목(furosemide-kidney-stone-open)
 - [x] furosemide — Hypertension에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(furosemide-hypertension-pos)
 - [x] furosemide — Fluid Overload에 듣는다  <!-- 등록 시험 15건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(furosemide-fluid-overload-pos)
-- [ ] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 72건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] furosemide — Renal Impairment에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(furosemide-renal-impairment-null)
+- [x] clopidogrel — Stroke에 듣는다  <!-- 등록 시험 72건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(clopidogrel-stroke-open)
+- [x] clopidogrel — Brain Infarction에 듣는다  <!-- 등록 시험 69건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(clopidogrel-stroke-open)
 - [x] clopidogrel — Atrial Fibrillation에 듣는다  <!-- 등록 시험 22건 --> — 기존 항목(clopidogrel-atrial-fibrillation-null)
 - [x] clopidogrel — Platelet Function에 듣는다  <!-- 등록 시험 20건 --> — 기존 항목(clopidogrel-platelet-function-open)
 - [x] warfarin — Thromboembolism에 듣는다  <!-- 등록 시험 70건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(warfarin-thromboembolism-pos)
@@ -4829,7 +4829,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] warfarin — Thrombosis에 듣는다  <!-- 등록 시험 41건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(warfarin-thrombosis-null)
 - [x] valproic acid — Nasopharyngeal Carcinoma에 듣는다  <!-- 등록 시험 19건 --> — 기존 항목(valproic-acid-nasopharyngeal-carcinoma-open)
 - [x] valproic acid — Thyroid Neoplasm에 듣는다  <!-- 등록 시험 14건 --> — 기존 항목(valproic-acid-thyroid-neoplasm-open)
-- [ ] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] valproic acid — Epilepsy에 듣는다  <!-- 등록 시험 13건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(valproic-acid-epilepsy-pos)
 - [x] valproic acid — Stage IV Pharyngeal Cancer에 듣는다  <!-- 등록 시험 13건 --> — 기존 항목(valproic-acid-stage-iv-pharyngeal-cancer-open)
 - [x] ibuprofen — Patent Ductus Arteriosus에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-patent-ductus-arteriosus-open)
 - [x] ibuprofen — Fever에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ibuprofen-fever-open)
@@ -4915,8 +4915,8 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] thalidomide — Esophageal Carcinoma에 듣는다  <!-- 등록 시험 16건 --> — 기존 항목(thalidomide-esophageal-carcinoma-null)
 - [x] ivermectin — Covid19에 듣는다  <!-- 등록 시험 39건 --> — 기존 항목(ivermectin-covid19-null)
 - [x] ivermectin — SARS-CoV Infection에 듣는다  <!-- 등록 시험 29건 --> — 기존 항목(ivermectin-sars-cov-infection-null)
-- [ ] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
-- [ ] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] ivermectin — Scabies에 듣는다  <!-- 등록 시험 19건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ivermectin-scabies)
+- [x] ivermectin — Lymphatic Filariasis에 듣는다  <!-- 등록 시험 18건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(ivermectin-lymphatic-filariasis)
 - [x] hydroxychloroquine — Cancer에 듣는다  <!-- 등록 시험 112건 --> — 기존 항목(hydroxychloroquine-cancer-null)
 - [x] hydroxychloroquine — Coronavirus에 듣는다  <!-- 등록 시험 74건 --> — 기존 항목(hydroxychloroquine-coronavirus-null)
 - [x] hydroxychloroquine — Sars-CoV2에 듣는다  <!-- 등록 시험 42건 --> — 기존 항목(hydroxychloroquine-sars-cov2-null)
@@ -4947,7 +4947,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] botulinum toxin — Cerebral Palsy에 듣는다  <!-- 등록 시험 34건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(botulinum-toxin-cerebral-palsy)
 - [x] duloxetine — Pain에 듣는다  <!-- 등록 시험 79건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(duloxetine-pain-pos)
 - [x] duloxetine — Depression에 듣는다  <!-- 등록 시험 53건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(duloxetine-depression-pos)
-- [ ] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 28건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->
+- [x] duloxetine — Osteoarthritis에 듣는다  <!-- 등록 시험 28건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — 기존 항목(duloxetine-osteoarthritis-pos)
 - [x] duloxetine — Fibromyalgia에 듣는다  <!-- 등록 시험 23건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 --> — ?? ??(duloxetine-fibromyalgia-pos)
 - [x] dextromethorphan — Pain에 듣는다  <!-- 등록 시험 9건 --> — 기존 항목(dextromethorphan-pain)
 - [x] dextromethorphan — Solid Tumor에 듣는다  <!-- 등록 시험 7건 --> — 기존 항목(dextromethorphan-solid-tumor-null)
@@ -5305,7 +5305,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] sertraline — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 70건 -->
+- [x] sertraline — Depressive Episode에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 70건 --> — 새 항목(sertraline-depressive-episode-null)
 - [x] sertraline — Stress에 듣는다 — 새 항목(sertraline-stress-pos)  <!-- 등록 시험 33건 -->
 - [x] sertraline — Anxiety에 듣는다 — 새 항목(sertraline-anxiety-pos)  <!-- 등록 시험 30건 -->
 - [x] sertraline — Compulsive Behavior에 듣는다 — 새 항목(sertraline-compulsive-behavior-null)  <!-- 등록 시험 11건 -->
@@ -5313,11 +5313,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] clozapine — Bipolar Disorder에 듣는다 — 새 항목(clozapine-bipolar-disorder-null)  <!-- 등록 시험 9건 -->
 - [x] clozapine — Psychotic Disorder에 듣는다 — 새 항목(clozapine-psychotic-disorder-null)  <!-- 등록 시험 6건 -->
 - [x] clozapine — Alcohol Abuse에 듣는다 — 새 항목(clozapine-alcohol-abuse-null)  <!-- 등록 시험 6건 -->
-- [ ] cariprazine — Schizophrenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 -->
-- [ ] cariprazine — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
-- [ ] cariprazine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 -->
-- [ ] cariprazine — Mania에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 3건 -->
-- [ ] oxytocin — Labor에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 51건 -->
+- [x] cariprazine — Schizophrenia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 16건 --> — 새 항목(cariprazine-schizophrenia-pos)
+- [x] cariprazine — Major Depressive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 새 항목(cariprazine-major-depressive-disorder-pos)
+- [x] cariprazine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 6건 --> — 새 항목(cariprazine-depression-pos)
+- [x] cariprazine — Mania에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 3건 --> — 새 항목(cariprazine-mania-pos)
+- [x] oxytocin — Labor에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 51건 --> — 새 항목(oxytocin-labor-null)
 - [x] oxytocin — Schizophrenia에 듣는다 — 새 항목(oxytocin-schizophrenia-null)  <!-- 등록 시험 29건 -->
 - [x] oxytocin — Autism에 듣는다 — 새 항목(oxytocin-autism-null)  <!-- 등록 시험 29건 -->
 - [x] oxytocin — Alcohol Use에 듣는다 — 새 항목(oxytocin-alcohol-use-null)  <!-- 등록 시험 29건 -->
@@ -5331,16 +5331,16 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 -->
+- [x] fluvoxamine — Obsessive-Compulsive Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 8건 --> — 새 항목(fluvoxamine-obsessive-compulsive-disorder-pos)
 - [x] fluvoxamine — COVID-19에 듣는다 — 새 항목(fluvoxamine-covid-19-null)  <!-- 등록 시험 8건 -->
 - [x] fluvoxamine — Anxiety Disorders에 듣는다 — 새 항목(fluvoxamine-anxiety-disorders-pos)  <!-- 등록 시험 7건 -->
 - [x] fluvoxamine — Covid19에 듣는다 — 기존 항목(fluvoxamine-covid-19-null)  <!-- 등록 시험 6건 -->
-- [ ] paroxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 39건 -->
-- [ ] paroxetine — Anxiety Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 -->
-- [ ] paroxetine — Posttraumatic Stress Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 -->
-- [ ] paroxetine — Panic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 -->
-- [ ] escitalopram — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 112건 -->
-- [ ] escitalopram — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 -->
+- [x] paroxetine — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 39건 --> — 새 항목(paroxetine-depression-null)
+- [x] paroxetine — Anxiety Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 26건 --> — 새 항목(paroxetine-anxiety-disorder-pos)
+- [x] paroxetine — Posttraumatic Stress Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 19건 --> — 기존 항목(paroxetine-ptsd-pos)
+- [x] paroxetine — Panic Disorder에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 14건 --> — 새 항목(paroxetine-panic-disorder-pos)
+- [x] escitalopram — Depression에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 112건 --> — 새 항목(escitalopram-depression-pos)
+- [x] escitalopram — Anxiety에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->  <!-- 등록 시험 37건 --> — 새 항목(escitalopram-anxiety-pos)
 - [x] escitalopram — Cancer에 듣는다 — 새 항목(escitalopram-cancer-pos)  <!-- 등록 시험 14건 -->
 - [x] escitalopram — Insomnia에 듣는다 — 새 항목(escitalopram-insomnia-open)  <!-- 등록 시험 7건 -->
 - [ ] lurasidone — Bipolar I에 듣는다  <!-- 등록 시험 28건 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-04 -->

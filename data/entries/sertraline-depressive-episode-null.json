@@ -1,0 +1,29 @@
+{
+  "id": "sertraline-depressive-episode-null",
+  "subj": "세르트랄린",
+  "claim": "세르트랄린이 우울 증상을 줄인다",
+  "line": "일차의료 우울 증상에서 세르트랄린은 6주 PHQ-9 차이가 작았습니다.",
+  "effect": "PHQ-9 7.98 vs 8.76",
+  "vs": "일차의료 우울 증상 655명 PANDA 무작위시험에서 6주 PHQ-9 평균은 세르트랄린군 7.98점, 위약군 8.76점으로 차이는 작았고 보정 비율차는 0.95(95% CI 0.85~1.07)였습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 655,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "주요우울장애 치료에 허가된 SSRI입니다.",
+  "why": "진단 여부와 중증도를 넓게 포함한 일차의료 우울 증상 환자를 세르트랄린과 위약에 무작위 배정한 실용적 시험입니다.",
+  "saw": "6주 PHQ-9에서 세르트랄린의 평균 점수는 낮았지만 임상적으로 의미 있는 우울 증상 감소라는 근거는 없었습니다.",
+  "limit": "참가자의 우울 증상 범위가 넓고 6주 탈락 자료가 있어 중증 주요우울장애나 장기치료로 일반화할 수 없습니다.",
+  "against": "불안, 삶의 질, 자기평가 정신건강은 세르트랄린군에서 더 좋아졌고 12주 우울 증상에는 약한 신호가 있었습니다.",
+  "use": "일차의료의 다양한 우울 증상에서 단기 우울 척도 결과가 위약과 크게 다르지 않았음을 설명합니다.",
+  "refs": [
+    { "label": "Lewis 2019 · The Lancet Psychiatry · PANDA 일차의료 세르트랄린 RCT", "pmid": "31543474" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=sertraline&query.cond=Depressive Episode → 10건 반환, InterventionName에 sertraline 포함 6건",
+    "pubmed": "sertraline AND depressive episode → 335건",
+    "negative": "sertraline AND depressive episode AND (no effect OR did not OR failed to OR negative OR no significant difference) → 239건",
+    "safety": "sertraline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,776건"
+  }
+}
