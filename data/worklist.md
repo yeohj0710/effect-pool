@@ -19117,22 +19117,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] sevoflurane — Pain에 듣는다  <!-- 시험 57건 · 논문 2484편 -->
-- [ ] sevoflurane — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 33건 · 논문 7000편 -->
+- [x] sevoflurane — Surgery에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 33건 · 논문 7000편 --> <!-- batch 1279; PMID 23120519 -->
 - [x] sevoflurane — Cancer에 듣는다  <!-- 시험 29건 · 논문 997편 -->
 - [x] sevoflurane — Emergence Delirium에 듣는다  <!-- 시험 16건 · 논문 318편 -->
-- [ ] ropivacaine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 56건 · 논문 5561편 -->
+- [x] ropivacaine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 56건 · 논문 5561편 --> <!-- batch 1279; PMID 10522581 -->
 - [x] ropivacaine — Knee Injury에 듣는다  <!-- 시험 43건 · 논문 52편 -->
 - [x] ropivacaine — Hip Disease에 듣는다  <!-- 시험 42건 · 논문 20편 -->
 - [x] ropivacaine — Block에 듣는다  <!-- 시험 40건 · 논문 4653편 -->
-- [ ] mepivacaine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 16건 · 논문 2110편 -->
-- [ ] mepivacaine — Nerve Block에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 815편 -->
-- [ ] mepivacaine — Local Anesthetic에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 2609편 -->
-- [ ] palonosetron — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 569편 -->
-- [ ] palonosetron — Breast Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 13건 · 논문 62편 -->
-- [ ] palonosetron — Breast Neoplasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 62편 -->
-- [ ] palonosetron — Neoplasms에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 327편 -->
-- [ ] ramosetron — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 70편 -->
-- [ ] ramosetron — Irritable Bowel Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 74편 -->
+- [x] mepivacaine — Anesthesia에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 16건 · 논문 2110편 --> <!-- batch 1279; PMID 25146009 -->
+- [x] mepivacaine — Nerve Block에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 815편 --> <!-- batch 1279; PMID 19843807 -->
+- [x] mepivacaine — Local Anesthetic에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 6건 · 논문 2609편 --> <!-- batch 1279; PMID 25146009 -->
+- [x] palonosetron — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 569편 --> <!-- batch 1279; PMID 19135415 -->
+- [x] palonosetron — Breast Carcinoma에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 13건 · 논문 62편 --> <!-- batch 1279; PMID 19135415 -->
+- [x] palonosetron — Breast Neoplasm에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 62편 --> <!-- batch 1279; PMID 19135415 -->
+- [x] palonosetron — Neoplasms에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 327편 --> <!-- batch 1279; PMID 19135415 -->
+- [x] ramosetron — Cancer에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 7건 · 논문 70편 --> <!-- batch 1279; PMID 20026457 -->
+- [x] ramosetron — Irritable Bowel Syndrome에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 3건 · 논문 74편 --> <!-- batch 1279; PMID 24315882 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19144,15 +19144,15 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] mesalamine — Irritable Bowel Syndrome에 듣는다  <!-- 시험 9건 · 논문 93편 -->
-- [ ] vedolizumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 54건 · 논문 1428편 -->
+- [x] vedolizumab — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 54건 · 논문 1428편 --> <!-- batch 1279; PMID 23964933 -->
 - [x] vedolizumab — Melanoma에 듣는다  <!-- 시험 27건 · 논문 45편 -->
 - [x] vedolizumab — Cancer에 듣는다  <!-- 시험 18건 · 논문 275편 -->
-- [ ] certolizumab pegol — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 389편 -->
-- [ ] certolizumab pegol — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 17건 · 논문 302편 -->
-- [ ] certolizumab pegol — Nr-axSpA에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 8건 · 논문 44편 -->
-- [ ] certolizumab pegol — Ankylosing Spondylitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 141편 -->
-- [ ] golimumab — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 478편 -->
-- [ ] golimumab — Ankylosing Spondylitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 10건 · 논문 318편 -->
+- [x] certolizumab pegol — Crohn Disease에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 389편 --> <!-- batch 1279; PMID 17634458 -->
+- [x] certolizumab pegol — Psoriasis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 17건 · 논문 302편 --> <!-- batch 1279; DOI 10.1016/j.jaad.2018.04.012; NCT02326298 -->
+- [x] certolizumab pegol — Nr-axSpA에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 8건 · 논문 44편 --> <!-- batch 1279; PMID 24013647 -->
+- [x] certolizumab pegol — Ankylosing Spondylitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 5건 · 논문 141편 --> <!-- batch 1279; PMID 24013647 -->
+- [x] golimumab — Colitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 28건 · 논문 478편 --> <!-- batch 1279; PMID 23735746 -->
+- [x] golimumab — Ankylosing Spondylitis에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 10건 · 논문 318편 --> <!-- batch 1279; PMID 18975305 -->
 - [x] golimumab — Spondyloarthritis에 듣는다  <!-- 시험 6건 · 논문 459편 -->
 - [x] Baduanjin — Cancer에 듣는다  <!-- 시험 7건 · 논문 64편 -->
 - [x] Baduanjin — Cognitive Decline에 듣는다  <!-- 시험 6건 · 논문 47편 -->
@@ -19168,7 +19168,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] bilastine — Urticaria에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 8건 · 논문 106편 -->
+- [x] bilastine — Urticaria에 듣는다 <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->  <!-- 시험 8건 · 논문 106편 --> <!-- batch 1279; PMID 27599913 -->
 - [x] app-based mindfulness — Depression에 듣는다  <!-- 시험 3건 · 논문 76편 -->
 - [x] app-based mindfulness — Stress에 듣는다  <!-- 시험 3건 · 논문 89편 -->
 
@@ -19287,9 +19287,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] anacetrapib — Hypercholesterolemia에 듣는다  <!-- 시험 5건 · 논문 33편 -->
-- [ ] daclatasvir — HCV에 듣는다  <!-- 시험 10건 · 논문 1155편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] daclatasvir — HCV에 듣는다  <!-- 시험 10건 · 논문 1155편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1279; PMID 29906601 -->
 - [x] daclatasvir — COVID에 듣는다  <!-- 시험 5건 · 논문 60편 -->
-- [ ] daclatasvir — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 570편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] daclatasvir — Cirrhosis에 듣는다  <!-- 시험 4건 · 논문 570편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1279; PMID 26822022 -->
 - [x] daclatasvir — Renal Impairment에 듣는다  <!-- 시험 4건 · 논문 68편 -->
 - [x] laughter group — Aging Well에 듣는다  <!-- 시험 16건 · 논문 13편 --> — 근거 없음(2026-08-10, laughter group AND Aging Well; 직접 웃음집단 결과 논문 없음)
 - [x] laughter group — Anxiety에 듣는다  <!-- 시험 12건 · 논문 85편 -->
@@ -19305,7 +19305,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] tafluprost — Ocular Hypertension에 듣는다  <!-- 시험 19건 · 논문 198편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] tafluprost — Ocular Hypertension에 듣는다  <!-- 시험 19건 · 논문 198편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1279; PMID 22310086 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19349,9 +19349,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] fostamatinib — Immune Thrombocytopenia에 듣는다  <!-- 시험 8건 · 논문 141편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] fostamatinib — Immune Thrombocytopenia에 듣는다  <!-- 시험 8건 · 논문 141편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1279; PMID 29696684 -->
 - [x] fostamatinib — Coronavirus에 듣는다  <!-- 시험 7건 · 논문 25편 -->
-- [ ] fostamatinib — ITP에 듣는다  <!-- 시험 5건 · 논문 105편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 -->
+- [x] fostamatinib — ITP에 듣는다  <!-- 시험 5건 · 논문 105편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-10 --> <!-- batch 1279; PMID 29696684 -->
 - [x] fostamatinib — Lymphoma에 듣는다  <!-- 시험 5건 · 논문 31편 --> — 근거 없음(2026-08-10, 항암제 후보 조사 제외)
 - [x] dance walking group — Aging에 듣는다  <!-- 시험 3건 · 논문 63편 -->
 - [x] digital storytelling group — Nursing에 듣는다  <!-- 시험 5건 · 논문 73편 -->
@@ -19423,9 +19423,9 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] ranibizumab — Retinal Degeneration에 듣는다  <!-- 시험 179건 · 논문 4611편 -->
-- [ ] ranibizumab — Retinal Disease에 듣는다  <!-- 시험 70건 · 논문 5446편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] ranibizumab — Retinal Disease에 듣는다  <!-- 시험 70건 · 논문 5446편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 28704254 -->
 - [x] ranibizumab — Choroidal Melanoma에 듣는다  <!-- 시험 65건 · 논문 24편 --> — 근거 없음(2026-08-11, 항암제 후보 조사 제외)
-- [ ] ranibizumab — Retinopathy에 듣는다  <!-- 시험 35건 · 논문 5625편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] ranibizumab — Retinopathy에 듣는다  <!-- 시험 35건 · 논문 5625편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 26565927 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -19437,11 +19437,11 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
 - [x] miglustat — Cystic Fibrosis에 듣는다  <!-- 시험 4건 · 논문 22편 -->
-- [ ] miglustat — Pompe Disease에 듣는다  <!-- 시험 4건 · 논문 54편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
-- [ ] miglustat — Niemann-Pick Disease Type C에 듣는다  <!-- 시험 3건 · 논문 216편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] miglustat — Pompe Disease에 듣는다  <!-- 시험 4건 · 논문 54편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 34800400 -->
+- [x] miglustat — Niemann-Pick Disease Type C에 듣는다  <!-- 시험 3건 · 논문 216편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 32334605 -->
 - [x] nafamostat — Acute Kidney Injury에 듣는다  <!-- 시험 5건 · 논문 46편 -->
 - [x] nafamostat — Sepsis에 듣는다  <!-- 시험 5건 · 논문 42편 -->
-- [ ] voretigene neparvovec — Inherited Retinal Dystrophy Due to RPE65 Mutations에 듣는다  <!-- 시험 3건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] voretigene neparvovec — Inherited Retinal Dystrophy Due to RPE65 Mutations에 듣는다  <!-- 시험 3건 · 논문 44편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 28712537 -->
 - [x] group gardening — Anxiety에 듣는다  <!-- 시험 3건 · 논문 204편 -->
 - [x] group gardening — Depressive Symptoms에 듣는다  <!-- 시험 3건 · 논문 258편 -->
 - [x] group gardening — Stress Reaction에 듣는다  <!-- 시험 3건 · 논문 38편 -->
@@ -19469,7 +19469,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 오히려 새 시험을 안 하기 때문입니다. 조사 첫 단계에서 허가사항을 확인하고, 허가 안에 있는
 조합이면 항목을 만들지 말고 줄 끝에 `— 허가 적응증(날짜)` 을 붙여 넘어가라.
 
-- [ ] umeclidinium — COPD에 듣는다  <!-- 시험 6건 · 논문 423편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
+- [x] umeclidinium — COPD에 듣는다  <!-- 시험 6건 · 논문 423편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 --> <!-- batch 1279; PMID 32368027 -->
 - [ ] umeclidinium — Asthma에 듣는다  <!-- 시험 3건 · 논문 130편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
 - [ ] umeclidinium — Lung Function에 듣는다  <!-- 시험 3건 · 논문 219편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->
 - [ ] glycopyrronium — Asthma에 듣는다  <!-- 시험 15건 · 논문 189편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-11 -->

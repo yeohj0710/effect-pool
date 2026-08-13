@@ -2,9 +2,9 @@
   "updated": "2026-08-13",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6152,
-  "subjects": 2372,
-  "refs": 8515,
+  "entries": 6182,
+  "subjects": 2388,
+  "refs": 8555,
   "kinds": {
     "otc": 124,
     "supp": 365,
@@ -12,27 +12,27 @@
     "move": 621,
     "life": 1190,
     "care": 682,
-    "rx": 2708
+    "rx": 2738
   },
   "tiers": {
-    "trial": 5329,
-    "obs": 728,
+    "trial": 5358,
+    "obs": 729,
     "animal": 31,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "pos": 3730,
-    "null": 1219,
+    "pos": 3752,
+    "null": 1227,
     "open": 1038,
     "harm": 165
   },
   "worklist": {
     "total": 15542,
-    "checked": 15472,
-    "unchecked": 70,
+    "checked": 15502,
+    "unchecked": 40,
     "no_evidence_pending": 2058,
-    "note": "Batch 1278 checked 30 unique prescription topics from worklist lines 18893-19097. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
+    "note": "Batch 1279 checked 30 unique prescription topics from worklist lines 19120-19472. New evidence entries: 30; existing links: 0; no-evidence rejects: 0. No identifiable non-prescription topic was available in this queue segment. Verified ClinicalTrials.gov/PubMed evidence supplied numeric intervention-versus-control results or valid relative effects for every processed topic."
   },
   "backlog": {
     "vs_missing": 4058,
@@ -40,16 +40,16 @@
     "note": "Legacy backlog remains; process it in safe batches."
   },
   "checkpoints": {
-    "over_counter_share": "15.5% (951 entries)",
-    "rx_share": "44.0% (2,708 entries)",
-    "no_effect_or_harm_share": "22.5% (1,384 entries)",
-    "vs_share": "18.0% (1,108 entries)",
+    "over_counter_share": "15.4% (951 entries)",
+    "rx_share": "44.3% (2,738 entries)",
+    "no_effect_or_harm_share": "22.5% (1,392 entries)",
+    "vs_share": "18.4% (1,138 entries)",
     "unexpected_benefit_entries": 13,
-    "trial_share": "86.6% (5,329 entries)",
-    "non_trial_share": "13.4% (823 entries)",
+    "trial_share": "86.7% (5,358 entries)",
+    "non_trial_share": "13.3% (824 entries)",
     "build_warnings": {
       "unknown_n": 743,
-      "thin_study": 1204,
+      "thin_study": 1201,
       "targeted_batch_warnings": 0
     }
   },
@@ -57,30 +57,30 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1279 starts after batch 1278. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 19120: sevoflurane — Surgery에 듣는다. 70 unchecked rows remain.",
+  "next": "Batch 1280 starts after batch 1279. Prioritize non-prescription topics first; no identifiable non-prescription topic was available in this queue segment. Resume at worklist line 19473: umeclidinium — Asthma. 40 unchecked rows remain.",
   "last_batch": {
-    "id": "1278",
-    "commit": "2c1b283c",
+    "id": "1279",
+    "commit": "PENDING_DATA_COMMIT",
     "pushed": true,
     "processed_topics": 30,
     "new_entries": 30,
     "existing_links": 0,
     "no_evidence_rejects": 0,
     "non_prescription_topics_available": 0,
-    "build": "6152 entries; 8515 refs; 5329 trial; 728 obs; 31 animal; 17 lab; 47 case; 1108 numeric comparison entries; worklist 15472/15542",
-    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 37603205, 29543631, 27456034, 28444964, 12172339, 34800399, 15472858, 15138107, 22748591, 19647866, 10601505, 12087139, 14633755, 27354046, 8712116, 1968784, 41085098, 10684499, 10684467, 8087823, 21451152, 24262593, 3512149, 36447917, and 15885050. The PMID15138107 result was reused for two lamivudine topics, PMID10601505 for two efavirenz topics, PMID41085098 for two clevidipine topics, and PMID3512149 for three nalbuphine topics. Reboxetine was recorded as off-label; no topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
-    "new_entry_vs_warnings_fixed": 2,
+    "build": "6182 entries; 8555 refs; 5358 trial; 729 obs; 31 animal; 17 lab; 47 case; 1138 numeric comparison entries; worklist 15502/15542",
+    "research": "ClinicalTrials.gov v2 exact intervention-name checks and PubMed E-utilities were queried for all 30 topics. New evidence used PMIDs 23120519, 10522581, 25146009, 19843807, 19135415, 20026457, 24315882, 23964933, 17634458, 24013647, 23735746, 18975305, 27599913, 29906601, 26822022, 22310086, 29696684, 28704254, 26565927, 34800400, 32334605, 28712537, and 32368027; CIMPASI-1 psoriasis used DOI 10.1016/j.jaad.2018.04.012 and NCT02326298. The reused PMIDs were 19135415 for four palonosetron topics, 25146009 for two mepivacaine topics, 24013647 for two certolizumab topics, and 29696684 for two fostamatinib topics. Ramosetron IBS-D used PMID24315882; miglustat NPC used observational PMID32334605. No topic was rejected. New entries have Korean subjects, prescription mappings, and numeric intervention-versus-control results or valid relative effects.",
+    "new_entry_vs_warnings_fixed": 27,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "targeted_batch_warnings_fixed": 13,
-    "remaining_expected_thin_warnings": 5,
-    "remaining_expected_unknown_n_warnings": 0,
+    "targeted_batch_warnings_fixed": 0,
+    "remaining_expected_thin_warnings": 1201,
+    "remaining_expected_unknown_n_warnings": 743,
     "next_official_deployment_check": "after batch 1200"
   },
   "resume": {
-    "next_batch": "1279",
-    "worklist_line": 19120,
-    "topic": "sevoflurane — Surgery에 듣는다",
-    "unchecked": 70
+    "next_batch": "1280",
+    "worklist_line": 19473,
+    "topic": "umeclidinium — Asthma",
+    "unchecked": 40
   }
 }
