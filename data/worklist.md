@@ -9050,19 +9050,19 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] adagrasib — NSCLC에 듣는다  <!-- 시험 3건 · 논문 188편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] belzutifan — Kidney에 듣는다  <!-- 시험 12건 · 논문 128편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] belzutifan — Pheochromocytoma에 듣는다  <!-- 시험 7건 · 논문 40편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] belzutifan — Neoplasm Malignant에 듣는다  <!-- 시험 3건 · 논문 159편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] enfortumab vedotin — Cancer에 듣는다  <!-- 시험 49건 · 논문 762편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] enfortumab vedotin — Advanced Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] enfortumab vedotin — Neoplasm Metastasis에 듣는다  <!-- 시험 4건 · 논문 78편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] belzutifan — Neoplasm Malignant에 듣는다  <!-- 시험 3건 · 논문 159편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] enfortumab vedotin — Cancer에 듣는다  <!-- 시험 49건 · 논문 762편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] enfortumab vedotin — Advanced Solid Tumor에 듣는다  <!-- 시험 7건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] enfortumab vedotin — Neoplasm Metastasis에 듣는다  <!-- 시험 4건 · 논문 78편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] sacituzumab govitecan — Solid Tumor에 듣는다  <!-- 시험 17건 · 논문 97편 -->
 - [x] sacituzumab govitecan — Bladder Neoplasm에 듣는다  <!-- 시험 12건 · 논문 69편 -->
 - [x] sacituzumab govitecan — Brain Metastasis에 듣는다  <!-- 시험 5건 · 논문 34편 -->
-- [ ] trastuzumab deruxtecan — Metastatic에 듣는다  <!-- 시험 30건 · 논문 771편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] trastuzumab deruxtecan — Metastatic에 듣는다  <!-- 시험 30건 · 논문 771편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] trastuzumab deruxtecan — Adenocarcinoma (NOS)에 듣는다  <!-- 시험 28건 · 논문 130편 --> — 근거 없음(2026-08-05 조회, trastuzumab deruxtecan AND Adenocarcinoma NOS)
 - [x] trastuzumab deruxtecan — Urothelial Carcinoma에 듣는다  <!-- 시험 14건 · 논문 33편 --> — 근거 없음(2026-08-05 조회, trastuzumab deruxtecan AND Urothelial Carcinoma)
-- [ ] epcoritamab — FL에 듣는다  <!-- 시험 17건 · 논문 40편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] epcoritamab — FL에 듣는다  <!-- 시험 17건 · 논문 40편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] epcoritamab — Small Lymphocytic Lymphoma에 듣는다  <!-- 시험 13건 · 논문 10편 -->
-- [ ] epcoritamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 12건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] epcoritamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 12건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 
 ## 자동 추출 — 후보 (허가 여부는 조사할 때 확인할 것)
 
@@ -9076,22 +9076,22 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amivantamab — Breast Cancer에 듣는다  <!-- 시험 17건 · 논문 10편 --> — 근거 없음(2026-08-05 조회, amivantamab AND Breast Cancer)
 - [x] amivantamab — Solid Tumors에 듣는다  <!-- 시험 3건 · 논문 23편 --> — 근거 없음(2026-08-05 조회, amivantamab AND Solid Tumors)
 - [x] polatuzumab vedotin — Grade 1 Follicular Lymphoma에 듣는다  <!-- 시험 21건 · 논문 18편 -->
-- [ ] polatuzumab vedotin — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 15건 · 논문 226편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] polatuzumab vedotin — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 15건 · 논문 226편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] mosunetuzumab — Leukemia에 듣는다  <!-- 시험 6건 · 논문 17편 --> — 근거 없음(2026-08-05 조회, mosunetuzumab AND Leukemia)
 - [x] mosunetuzumab — Relapsed Cancer에 듣는다  <!-- 시험 4건 · 논문 93편 --> — 근거 없음(2026-08-05 조회, mosunetuzumab AND Relapsed Cancer)
-- [ ] glofitamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 11건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] glofitamab — Non-Hodgkin Lymphoma에 듣는다  <!-- 시험 11건 · 논문 119편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] glofitamab — Relapsed Cancer에 듣는다  <!-- 시험 6건 · 논문 114편 --> — 근거 없음(2026-08-05 조회, glofitamab AND Relapsed Cancer)
 - [x] teclistamab — AL Amyloidosis에 듣는다  <!-- 시험 7건 · 논문 17편 -->
 - [x] teclistamab — Plasma Cell Leukemia에 듣는다  <!-- 시험 4건 · 논문 10편 -->
 - [x] teclistamab — Hematologic Malignancies에 듣는다  <!-- 시험 3건 · 논문 34편 --> — 근거 없음(2026-08-05 조회, teclistamab AND Hematologic Malignancies)
-- [ ] mirvetuximab soravtansine — Recurrent Ovarian Cancer에 듣는다  <!-- 시험 14건 · 논문 58편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] mirvetuximab soravtansine — Folate Receptor Alpha Positive에 듣는다  <!-- 시험 3건 · 논문 65편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] mirvetuximab soravtansine — Recurrent Ovarian Cancer에 듣는다  <!-- 시험 14건 · 논문 58편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] mirvetuximab soravtansine — Folate Receptor Alpha Positive에 듣는다  <!-- 시험 3건 · 논문 65편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] capivasertib — Solid Tumour에 듣는다  <!-- 시험 14건 · 논문 27편 -->
 - [x] capivasertib — Lymphoma에 듣는다  <!-- 시험 9건 · 논문 11편 -->
 - [x] elacestrant — Neoplasms에 듣는다  <!-- 시험 5건 · 논문 69편 --> — 근거 없음(2026-08-05 조회, elacestrant AND Neoplasms)
-- [ ] datopotamab deruxtecan — NSCLC에 듣는다  <!-- 시험 4건 · 논문 49편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] datopotamab deruxtecan — NSCLC에 듣는다  <!-- 시험 4건 · 논문 49편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] datopotamab deruxtecan — Advanced Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 14편 --> — 근거 없음(2026-08-05 조회, datopotamab deruxtecan AND Advanced Solid Tumor)
-- [ ] repotrectinib — Nsclc에 듣는다  <!-- 시험 4건 · 논문 53편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] repotrectinib — Nsclc에 듣는다  <!-- 시험 4건 · 논문 53편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] tepotinib — Solid Tumor에 듣는다  <!-- 시험 3건 · 논문 15편 --> — 근거 없음(2026-08-05 조회, tepotinib AND Solid Tumor)
 - [x] tepotinib — MET Amplification에 듣는다  <!-- 시험 3건 · 논문 57편 -->
 - [x] futibatinib — Breast Cancer에 듣는다  <!-- 시험 11건 · 논문 15편 -->
@@ -9113,36 +9113,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] amiloride — Type II Diabetes에 듣는다  <!-- 시험 4건 · 논문 29편 -->
 - [x] amiloride — Proteinuria에 듣는다  <!-- 시험 3건 · 논문 74편 -->
 - [x] amiloride — Cystic Fibrosis에 듣는다  <!-- 시험 3건 · 논문 644편 --> — 근거 없음(2026-08-05 조회, amiloride AND Cystic Fibrosis)
-- [ ] anastrozole — Hormone Receptor Positive에 듣는다  <!-- 시험 14건 · 논문 841편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] anastrozole — Hormone Receptor Positive에 듣는다  <!-- 시험 14건 · 논문 841편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] anastrozole — Hypogonadism에 듣는다  <!-- 시험 6건 · 논문 54편 -->
 - [x] aprepitant — Cancer에 듣는다  <!-- 시험 59건 · 논문 813편 --> — 근거 없음(2026-08-05 조회, aprepitant AND Cancer)
-- [ ] aprepitant — Nausea에 듣는다  <!-- 시험 35건 · 논문 840편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] aprepitant — Nausea에 듣는다  <!-- 시험 35건 · 논문 840편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] bexarotene — Breast Cancer에 듣는다  <!-- 시험 9건 · 논문 64편 --> — 근거 없음(2026-08-05 조회, bexarotene AND Breast Cancer)
 - [x] bexarotene — Lung Cancer에 듣는다  <!-- 시험 8건 · 논문 77편 -->
-- [ ] bexarotene — Mycosis Fungoides에 듣는다  <!-- 시험 4건 · 논문 209편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] bexarotene — Leukemia에 듣는다  <!-- 시험 4건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] bexarotene — Mycosis Fungoides에 듣는다  <!-- 시험 4건 · 논문 209편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] bexarotene — Leukemia에 듣는다  <!-- 시험 4건 · 논문 43편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] droxidopa — Parkinson Disease에 듣는다  <!-- 시험 11건 · 논문 151편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] droxidopa — Autonomic Failure에 듣는다  <!-- 시험 9건 · 논문 79편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] droxidopa — Dopamine Beta Hydroxylase Deficiency에 듣는다  <!-- 시험 7건 · 논문 30편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] droxidopa — Multiple System Atrophy에 듣는다  <!-- 시험 5건 · 논문 56편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] estradiol — Contraception에 듣는다  <!-- 시험 24건 · 논문 13277편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] estradiol — Infertility에 듣는다  <!-- 시험 20건 · 논문 6136편 --> — 근거 항목(2026-08-05)
-- [ ] estradiol — Vulvar Atrophy에 듣는다  <!-- 시험 18건 · 논문 64편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] estradiol — Vulvar Atrophy에 듣는다  <!-- 시험 18건 · 논문 64편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] estradiol — Depression에 듣는다  <!-- 시험 12건 · 논문 3533편 --> — 근거 항목(2026-08-05)
-- [ ] fenofibrate — Hypertriglyceridemia에 듣는다  <!-- 시험 23건 · 논문 558편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] fenofibrate — Hypertriglyceridemia에 듣는다  <!-- 시험 23건 · 논문 558편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] fenofibrate — Diabetes에 듣는다  <!-- 시험 23건 · 논문 1189편 --> — 근거 항목(2026-08-05)
-- [ ] fenofibrate — Hyperlipidemia에 듣는다  <!-- 시험 16건 · 논문 1087편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] glycopyrrolate — Neuromuscular Blockade에 듣는다  <!-- 시험 15건 · 논문 166편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] fenofibrate — Hyperlipidemia에 듣는다  <!-- 시험 16건 · 논문 1087편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] glycopyrrolate — Neuromuscular Blockade에 듣는다  <!-- 시험 15건 · 논문 166편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] glycopyrrolate — Spinal Anesthesia에 듣는다  <!-- 시험 9건 · 논문 29편 --> — 근거 항목(2026-08-05)
-- [ ] glycopyrrolate — Surgery에 듣는다  <!-- 시험 7건 · 논문 583편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
-- [ ] glycopyrrolate — Anesthesia에 듣는다  <!-- 시험 7건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] glycopyrrolate — Surgery에 듣는다  <!-- 시험 7건 · 논문 583편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] glycopyrrolate — Anesthesia에 듣는다  <!-- 시험 7건 · 논문 564편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] lorazepam — Alcohol Withdrawal에 듣는다  <!-- 시험 11건 · 논문 283편 --> — 근거 항목(2026-08-05)
-- [ ] lorazepam — Status Epilepticus에 듣는다  <!-- 시험 10건 · 논문 465편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] lorazepam — Status Epilepticus에 듣는다  <!-- 시험 10건 · 논문 465편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] lorazepam — Depression에 듣는다  <!-- 시험 8건 · 논문 556편 --> — 근거 없음(2026-08-05 조회, ClinicalTrials.gov query.intr=lorazepam&query.cond=Depression → 13건 반환·로라제팜 직접 확인 7건, PubMed 556편은 금단·불안·진정 연구 중심)
 - [x] lorazepam — Schizophrenia에 듣는다  <!-- 시험 6건 · 논문 298편 --> — 근거 항목(2026-08-05)
 - [x] nadolol — Variceal Bleeding에 듣는다  <!-- 시험 3건 · 논문 124편 --> — 근거 항목(2026-08-05)
 - [x] neostigmine — Postoperative Pain에 듣는다  <!-- 시험 35건 · 논문 308편 --> — 근거 항목(2026-08-05)
-- [ ] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
+- [x] neostigmine — Anesthesia에 듣는다  <!-- 시험 31건 · 논문 1609편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [ ] neostigmine — Surgery에 듣는다  <!-- 시험 14건 · 논문 1767편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->
 - [x] neostigmine — Sugammadex에 듣는다  <!-- 시험 9건 · 논문 606편 --> — 근거 없음(2026-08-05 조회, 수감마덱스는 질환이 아닌 비교약이며 네오스티그민의 허가 적응증은 비탈분극성 근이완 역전, PubMed 606편은 두 역전제 비교 연구 중심)
 - [ ] nicardipine — Hypertension에 듣는다  <!-- 시험 7건 · 논문 1165편 --> <!-- 옛 규칙이 허가 적응증이라고 뺐던 줄 2026-08-05 -->

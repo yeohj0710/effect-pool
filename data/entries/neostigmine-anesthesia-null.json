@@ -1,0 +1,29 @@
+{
+  "id": "neostigmine-anesthesia-null",
+  "subj": "네오스티그민",
+  "claim": "전신마취 후 신경근차단 역전에서 네오스티그민은 수감마덱스보다 회복이 느렸습니다.",
+  "line": "전신마취 후 신경근차단 회복은 수감마덱스보다 느렸습니다.",
+  "effect": "T2 회복 12.87분 대 1.96분",
+  "vs": "신경근차단 역전 메타분석 41개 연구 4206명에서 네오스티그민은 수감마덱스보다 T2 회복이 느렸고 회복시간은 12.87분 대 1.96분, 복합 이상반응 상대위험은 0.60(95% CI 0.49~0.74)이었습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 4206,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "네오스티그민은 비탈분극성 신경근차단 역전에 쓰는 처방 콜린에스터라제 억제제입니다.",
+  "why": "전신마취 후 신경근차단 역전에서 수감마덱스와 네오스티그민을 비교한 메타분석을 확인했습니다.",
+  "saw": "수감마덱스가 네오스티그민보다 빠르게 회복시켰고 복합 이상반응도 적었습니다.",
+  "limit": "비탈분극성 신경근차단 역전에 한정되며 네오스티그민 단독 효과가 아닌 비교 결과입니다.",
+  "against": "서맥, 오심·구토, 기관지경련과 잔여 신경근차단을 확인해야 합니다.",
+  "use": "전신마취 후 신경근차단 역전제 비교 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Sugammadex versus neostigmine for reversal of neuromuscular blockade meta-analysis", "pmid": "28806470" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=neostigmine AND query.cond=Anesthesia; 102건",
+    "pubmed": "neostigmine AND Anesthesia; 1609건",
+    "negative": "neostigmine AND Anesthesia AND (no effect OR did not OR failed OR negative OR no significant difference); 1288건",
+    "safety": "neostigmine AND (adverse OR toxicity OR safety OR tolerability); 1449건"
+  }
+}

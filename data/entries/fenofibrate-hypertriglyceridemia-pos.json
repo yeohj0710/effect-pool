@@ -1,0 +1,29 @@
+{
+  "id": "fenofibrate-hypertriglyceridemia-pos",
+  "subj": "페노피브레이트",
+  "claim": "고중성지방혈증에서 페노피브레이트는 아포지단백 C-III 수치를 낮췄습니다.",
+  "line": "고중성지방혈증의 아포지단백 C-III 수치가 낮아졌습니다.",
+  "effect": "아포지단백 C-III 평균차 -4.78mg/dL",
+  "vs": "페노피브레이트 무작위시험 10개 477명 메타분석에서 대조군보다 아포지단백 C-III가 평균 4.78mg/dL 낮았습니다(95% CI -6.95~-2.61, p<0.001).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 477,
+  "synth": "single",
+  "known": "label",
+  "knownWhy": "페노피브레이트는 중성지방과 콜레스테롤 이상에 쓰는 처방 지질저하제입니다.",
+  "why": "고중성지방혈증에서 페노피브레이트와 대조군을 비교한 무작위시험 메타분석을 확인했습니다.",
+  "saw": "아포지단백 C-III가 통계적으로 유의하게 낮아졌습니다.",
+  "limit": "아포지단백 C-III라는 대리표지자 결과이며 심혈관 사건 감소를 직접 입증하지 않습니다.",
+  "against": "근육통, 간 기능 이상, 신장 기능 변화와 담석을 확인해야 합니다.",
+  "use": "고중성지방혈증의 아포지단백 C-III 변화 근거로만 사용합니다.",
+  "refs": [
+    { "label": "Fenofibrate effects on apolipoprotein C-III meta-analysis", "pmid": "30798284" }
+  ],
+  "queried": {
+    "date": "2026-08-13",
+    "ctgov": "query.intr=fenofibrate AND query.cond=Hypertriglyceridemia; 40건",
+    "pubmed": "fenofibrate AND Hypertriglyceridemia; 558건",
+    "negative": "fenofibrate AND Hypertriglyceridemia AND (no effect OR did not OR failed OR negative OR no significant difference); 410건",
+    "safety": "fenofibrate AND (adverse OR toxicity OR safety OR tolerability); 1493건"
+  }
+}
