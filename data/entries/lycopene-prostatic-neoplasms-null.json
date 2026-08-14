@@ -1,26 +1,33 @@
 {
-  "id": "lycopene-prostatic-neoplasms-null",
-  "subj": "lycopene",
-  "claim": "리코펜이 전립선암 PSA를 낮춘다",
-  "line": "무작위시험 6편에서 리코펜은 PSA를 낮추지 못했습니다",
-  "effect": "PSA 변화 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
-  "why": "비전이성 전립선암 환자의 리코펜과 PSA 무작위시험 메타분석을 확인했다",
-  "saw": "6개 무작위시험에서 리코펜 보충이 혈중 전립선특이항원에 미치는 효과를 합쳤다",
-  "limit": "PSA는 종양 진행 자체와 같은 결과가 아니며 시험 표본도 작았다",
-  "against": "메타분석에서 PSA의 유의한 감소가 없었다",
-  "use": "전립선암 치료나 진행 억제 주장은 이 지표에서 확인되지 않았다",
-  "refs": [{ "label": "전립선암 PSA 리코펜 무작위시험 메타분석 · 음성 결과", "doi": "10.1080/01635581.2020.1862254", "pmid": "33355018" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=lycopene · cond=Prostatic Neoplasms 18건 반환, 물질 일치 18건",
-    "pubmed": "lycopene AND Prostatic Neoplasms 390건",
-    "negative": "lycopene AND Prostatic Neoplasms AND (no effect OR did not OR failed OR negative OR no significant difference) 249건",
-    "safety": "lycopene AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1057건"
+ "id": "lycopene-prostatic-neoplasms-null",
+ "vs": "리코펜군 대 대조군: 6개 RCT 메타분석에서 전립선특이항원 전체 WMD −0.60µg/L(95%CI −2.01~0.81)로 유의차 없음; 기저 PSA≥6.5군 WMD −3.74(−5.15~−2.32, P<.001)",
+ "subj": "리코펜",
+ "claim": "리코펜이 전립선암 PSA를 낮춘다",
+ "line": "무작위시험 6편에서 리코펜은 PSA를 낮추지 못했습니다",
+ "effect": "PSA 변화 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+ "why": "비전이성 전립선암 환자의 리코펜과 PSA 무작위시험 메타분석을 확인했다",
+ "saw": "6개 무작위시험에서 리코펜 보충이 혈중 전립선특이항원에 미치는 효과를 합쳤다",
+ "limit": "PSA는 종양 진행 자체와 같은 결과가 아니며 시험 표본도 작았다",
+ "against": "메타분석에서 PSA의 유의한 감소가 없었다",
+ "use": "전립선암 치료나 진행 억제 주장은 이 지표에서 확인되지 않았다",
+ "refs": [
+  {
+   "label": "전립선암 PSA 리코펜 무작위시험 메타분석 · 음성 결과",
+   "doi": "10.1080/01635581.2020.1862254",
+   "pmid": "33355018"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=lycopene · cond=Prostatic Neoplasms 18건 반환, 물질 일치 18건",
+  "pubmed": "lycopene AND Prostatic Neoplasms 390건",
+  "negative": "lycopene AND Prostatic Neoplasms AND (no effect OR did not OR failed OR negative OR no significant difference) 249건",
+  "safety": "lycopene AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1057건"
+ }
 }

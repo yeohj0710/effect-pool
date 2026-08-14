@@ -1,28 +1,33 @@
 {
-  "id": "low-protein-diet-diabetes-pos",
-  "subj": "low protein diet",
-  "claim": "노인 제2형 당뇨병 환자의 우울 증상을 주 6일 저단백 식단으로 낮추는가",
-  "line": "주 6일 저단백 식단은 우울 증상과 삶의 질 저하를 줄였습니다",
-  "effect": "우울 증상·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 38,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "저단백 식단은 약물이 아닌 식이 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "만성 신장질환 3·4기를 동반한 노인 제2형 당뇨병 환자 38명을 무작위로 주 6일 또는 주 7일 저단백 식단에 배정해 30개월 추적했습니다.",
-  "saw": "두 군의 크레아티닌 청소율 감소는 비슷했지만, 주 6일군에서 우울 증상 증가와 신체·정신 삶의 질 저하가 더 적었습니다.",
-  "limit": "표본이 38명으로 작고 만성 신장질환을 동반한 노인 당뇨병 환자만 포함했습니다.",
-  "against": "저단백 식단의 신장 보호 효과를 모든 당뇨병 환자에게 일반화할 수 없습니다.",
-  "use": "신장질환을 동반한 노인 제2형 당뇨병의 식이 상담에서 정신건강과 삶의 질을 함께 확인하는 근거로 검토합니다.",
-  "refs": [
-    { "label": "노인 제2형 당뇨병 저단백 식단 무작위시험", "doi": "10.5414/CN107279", "pmid": "22668798" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "low protein diet AND Diabetes — 167건 반환, 중재명 직접 일치 3건",
-    "pubmed": "\"low protein diet\" AND \"Diabetes\" — 317건, 시험·코호트 등 84건",
-    "negative": "\"low protein diet\" AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 226건",
-    "safety": "\"low protein diet\" AND (adverse OR toxicity OR case report OR harm) — 785건"
+ "id": "low-protein-diet-diabetes-pos",
+ "vs": "저단백 7일/주군 대 6일/주군: 제2형 당뇨병·만성신장질환 환자 38명 30개월 무작위 배정에서 크레아티닌청소율 감소 2.77±0.3 대2.84±0.3mL/min/년으로 유사; 7일/주군 GDS-15·SF-36 감소가 더 큼(p<.05)",
+ "subj": "저단백 식단",
+ "claim": "노인 제2형 당뇨병 환자의 우울 증상을 주 6일 저단백 식단으로 낮추는가",
+ "line": "주 6일 저단백 식단은 우울 증상과 삶의 질 저하를 줄였습니다",
+ "effect": "우울 증상·삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 38,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "저단백 식단은 약물이 아닌 식이 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "만성 신장질환 3·4기를 동반한 노인 제2형 당뇨병 환자 38명을 무작위로 주 6일 또는 주 7일 저단백 식단에 배정해 30개월 추적했습니다.",
+ "saw": "두 군의 크레아티닌 청소율 감소는 비슷했지만, 주 6일군에서 우울 증상 증가와 신체·정신 삶의 질 저하가 더 적었습니다.",
+ "limit": "표본이 38명으로 작고 만성 신장질환을 동반한 노인 당뇨병 환자만 포함했습니다.",
+ "against": "저단백 식단의 신장 보호 효과를 모든 당뇨병 환자에게 일반화할 수 없습니다.",
+ "use": "신장질환을 동반한 노인 제2형 당뇨병의 식이 상담에서 정신건강과 삶의 질을 함께 확인하는 근거로 검토합니다.",
+ "refs": [
+  {
+   "label": "노인 제2형 당뇨병 저단백 식단 무작위시험",
+   "doi": "10.5414/CN107279",
+   "pmid": "22668798"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "low protein diet AND Diabetes — 167건 반환, 중재명 직접 일치 3건",
+  "pubmed": "\"low protein diet\" AND \"Diabetes\" — 317건, 시험·코호트 등 84건",
+  "negative": "\"low protein diet\" AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 226건",
+  "safety": "\"low protein diet\" AND (adverse OR toxicity OR case report OR harm) — 785건"
+ }
 }
