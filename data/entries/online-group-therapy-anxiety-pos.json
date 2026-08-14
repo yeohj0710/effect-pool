@@ -1,20 +1,32 @@
 {
-  "id": "online-group-therapy-anxiety-pos",
-  "subj": "online group therapy",
-  "claim": "대학생의 불안 증상에 웹 기반 집단 인지행동치료를 제공하면 증상이 줄어들 수 있다",
-  "line": "웹 기반 집단 인지행동치료는 대학생의 불안을 줄였습니다",
-  "effect": "175명, 불안 효과크기 d=1~1.5",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 175,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 집단치료는 의약품이 아닌 심리중재입니다",
-  "why": "대학생 175명에게 10회 웹 기반 집단 인지행동치료를 제공한 실용적 전후 비교시험입니다",
-  "saw": "175명이 등록했고 158명이 치료를 시작했습니다. 기저에 임상적으로 유의한 증상이 있던 참가자에서 불안과 우울 점수가 유의하게 낮아졌고 효과크기는 d=1~1.5, 관해율은 67.7~78.9%였습니다",
-  "limit": "무작위 대조군이 없는 공개시험이고 자가보고 결과와 선택적 참여가 개입 효과를 부풀렸을 수 있습니다",
-  "against": "온라인 집단치료가 대면 치료보다 우월하거나 모든 불안장애에 효과적이라는 근거는 아닙니다",
-  "use": "대학생 불안 지원에서 웹 집단치료를 선택지로 제공하되 중증도와 자살위험을 평가하고 전문 진료 경로를 유지합니다",
-  "refs": [{ "label": "A Web-Based Group Cognitive Behavioral Therapy Intervention for Symptoms of Anxiety and Depression Among University Students 2021 · JMIR Mental Health", "doi": "10.2196/27400", "pmid": "34042598" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=online group therapy AND condition=Anxiety; 243건 반환, 중재명 일치 0건", "pubmed": "online group therapy AND Anxiety; 2,019편", "negative": "online group therapy AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,598편", "safety": "online group therapy AND Anxiety AND (adverse OR toxicity OR case report OR harm OR dropout); 310편" }
+ "id": "online-group-therapy-anxiety-pos",
+ "subj": "온라인 그룹 치료",
+ "claim": "대학생의 불안 증상에 웹 기반 집단 인지행동치료를 제공하면 증상이 줄어들 수 있다",
+ "line": "웹 기반 집단 인지행동치료는 대학생의 불안을 줄였습니다",
+ "effect": "175명, 불안 효과크기 d=1~1.5",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 175,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 집단치료는 의약품이 아닌 심리중재입니다",
+ "why": "대학생 175명에게 10회 웹 기반 집단 인지행동치료를 제공한 실용적 전후 비교시험입니다",
+ "saw": "175명이 등록했고 158명이 치료를 시작했습니다. 기저에 임상적으로 유의한 증상이 있던 참가자에서 불안과 우울 점수가 유의하게 낮아졌고 효과크기는 d=1~1.5, 관해율은 67.7~78.9%였습니다",
+ "limit": "무작위 대조군이 없는 공개시험이고 자가보고 결과와 선택적 참여가 개입 효과를 부풀렸을 수 있습니다",
+ "against": "온라인 집단치료가 대면 치료보다 우월하거나 모든 불안장애에 효과적이라는 근거는 아닙니다",
+ "use": "대학생 불안 지원에서 웹 집단치료를 선택지로 제공하되 중증도와 자살위험을 평가하고 전문 진료 경로를 유지합니다",
+ "refs": [
+  {
+   "label": "A Web-Based Group Cognitive Behavioral Therapy Intervention for Symptoms of Anxiety and Depression Among University Students 2021 · JMIR Mental Health",
+   "doi": "10.2196/27400",
+   "pmid": "34042598"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online group therapy AND condition=Anxiety; 243건 반환, 중재명 일치 0건",
+  "pubmed": "online group therapy AND Anxiety; 2,019편",
+  "negative": "online group therapy AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,598편",
+  "safety": "online group therapy AND Anxiety AND (adverse OR toxicity OR case report OR harm OR dropout); 310편"
+ }
 }

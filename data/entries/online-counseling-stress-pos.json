@@ -1,20 +1,32 @@
 {
-  "id": "online-counseling-stress-pos",
-  "subj": "online counseling",
-  "claim": "스트레스를 겪는 사람에게 비전문가 온라인 상담 교육을 제공하면 상담 기술과 스트레스 대처가 좋아질 수 있다",
-  "line": "비전문가 온라인 상담 교육은 스트레스 대처 향상을 촉진했습니다",
-  "effect": "60명, 스트레스 대처 진전 d=1.1",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 60,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 상담 교육은 의약품이 아닌 비전문가 심리 지원 중재입니다",
-  "why": "친구·지인으로 구성된 30쌍을 대상으로 웹 기반 상담 기술 교육을 즉시 제공하거나 지연 제공한 무작위시험입니다",
-  "saw": "참가자 60명에게 웹 상담 기술 교육을 제공했습니다. 상담자 행동의 여러 지표 효과는 d=0.8~1.6이었고 내담자 역할에서 스트레스 대처 진전은 d=1.1로 좋아졌지만 친밀감·지지감 변화는 d=0.3이었습니다",
-  "limit": "표본이 작고 전문상담 치료시험이 아니며 참가자가 주로 친구·지인이어서 임상 환자에게 일반화하기 어렵습니다",
-  "against": "웹 교육을 받은 비전문가가 정신질환 치료를 대신할 수 있다는 근거는 아닙니다",
-  "use": "저강도 스트레스 지원에 한정해 사용하고 자살위험·중증 증상·기능 저하가 있으면 전문상담으로 즉시 연결합니다",
-  "refs": [{ "label": "Nonprofessional Peer Support to Improve Mental Health 2020 · JMIR Mental Health", "doi": "10.2196/17164", "pmid": "32955451" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=online counseling AND condition=Stress; 42건 반환, 중재명 일치 0건", "pubmed": "online counseling AND Stress; 892편", "negative": "online counseling AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 522편", "safety": "online counseling AND Stress AND (adverse OR toxicity OR case report OR harm OR dropout); 93편" }
+ "id": "online-counseling-stress-pos",
+ "subj": "온라인 상담",
+ "claim": "스트레스를 겪는 사람에게 비전문가 온라인 상담 교육을 제공하면 상담 기술과 스트레스 대처가 좋아질 수 있다",
+ "line": "비전문가 온라인 상담 교육은 스트레스 대처 향상을 촉진했습니다",
+ "effect": "60명, 스트레스 대처 진전 d=1.1",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 60,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 상담 교육은 의약품이 아닌 비전문가 심리 지원 중재입니다",
+ "why": "친구·지인으로 구성된 30쌍을 대상으로 웹 기반 상담 기술 교육을 즉시 제공하거나 지연 제공한 무작위시험입니다",
+ "saw": "참가자 60명에게 웹 상담 기술 교육을 제공했습니다. 상담자 행동의 여러 지표 효과는 d=0.8~1.6이었고 내담자 역할에서 스트레스 대처 진전은 d=1.1로 좋아졌지만 친밀감·지지감 변화는 d=0.3이었습니다",
+ "limit": "표본이 작고 전문상담 치료시험이 아니며 참가자가 주로 친구·지인이어서 임상 환자에게 일반화하기 어렵습니다",
+ "against": "웹 교육을 받은 비전문가가 정신질환 치료를 대신할 수 있다는 근거는 아닙니다",
+ "use": "저강도 스트레스 지원에 한정해 사용하고 자살위험·중증 증상·기능 저하가 있으면 전문상담으로 즉시 연결합니다",
+ "refs": [
+  {
+   "label": "Nonprofessional Peer Support to Improve Mental Health 2020 · JMIR Mental Health",
+   "doi": "10.2196/17164",
+   "pmid": "32955451"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online counseling AND condition=Stress; 42건 반환, 중재명 일치 0건",
+  "pubmed": "online counseling AND Stress; 892편",
+  "negative": "online counseling AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 522편",
+  "safety": "online counseling AND Stress AND (adverse OR toxicity OR case report OR harm OR dropout); 93편"
+ }
 }

@@ -1,26 +1,33 @@
 {
-  "id": "online-exercise-group-obesity-pos",
-  "subj": "online exercise group",
-  "claim": "온라인 다요소 운동 그룹이 비만 수술 후 근감소증 위험을 낮춘다",
-  "line": "비만 수술 후 온라인 그룹 운동을 하면 근감소증 위험이 줄었습니다",
-  "effect": "근력·근감소증 위험 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 139,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 그룹 운동은 허가 의약품 적응증이 아닙니다.",
-  "why": "비만대사수술 2~7년 뒤 성인 139명을 온라인 다요소 중재군 79명과 대조군 60명에 무작위 배정했습니다. 중재는 동시 온라인 집단교육과 유산소·저항운동을 포함했습니다.",
-  "saw": "12주 뒤 중재군은 위상각 beta=.15 P=.025, 체중 대비 악력 beta=.03 P=.043, 앉았다 일어나기 시간 beta=-1.22 P=.027이었고 근감소증 위험 오즈비는 .41 P=.020이었습니다.",
-  "limit": "비만대사수술 후 성인을 대상으로 한 다요소 중재라 운동과 영양교육의 효과를 분리할 수 없습니다.",
-  "against": "온라인 운동이 모든 비만 성인의 체중을 줄인다는 결과는 아니며 장기 체중 결과도 확인하지 않았습니다.",
-  "use": "비만 수술 후 근력 보존을 위한 온라인 집단운동을 설계할 때 참고합니다.",
-  "refs": [{ "label": "2026 · Obesity Surgery · 무작위 임상시험", "doi": "10.1007/s11695-026-08742-x", "pmid": "42168690" }],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intr=online exercise group AND cond=Obesity · 132건 반환, 중재명 대조 17건",
-    "pubmed": "online exercise group AND Obesity · 540편",
-    "negative": "online exercise group AND Obesity AND (no effect/did not/failed/negative/no significant difference) · 350편",
-    "safety": "online exercise group AND (adverse/toxicity/case report/harm/dropout) · 53편"
+ "id": "online-exercise-group-obesity-pos",
+ "subj": "온라인 운동 그룹",
+ "claim": "온라인 다요소 운동 그룹이 비만 수술 후 근감소증 위험을 낮춘다",
+ "line": "비만 수술 후 온라인 그룹 운동을 하면 근감소증 위험이 줄었습니다",
+ "effect": "근력·근감소증 위험 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 139,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 그룹 운동은 허가 의약품 적응증이 아닙니다.",
+ "why": "비만대사수술 2~7년 뒤 성인 139명을 온라인 다요소 중재군 79명과 대조군 60명에 무작위 배정했습니다. 중재는 동시 온라인 집단교육과 유산소·저항운동을 포함했습니다.",
+ "saw": "12주 뒤 중재군은 위상각 beta=.15 P=.025, 체중 대비 악력 beta=.03 P=.043, 앉았다 일어나기 시간 beta=-1.22 P=.027이었고 근감소증 위험 오즈비는 .41 P=.020이었습니다.",
+ "limit": "비만대사수술 후 성인을 대상으로 한 다요소 중재라 운동과 영양교육의 효과를 분리할 수 없습니다.",
+ "against": "온라인 운동이 모든 비만 성인의 체중을 줄인다는 결과는 아니며 장기 체중 결과도 확인하지 않았습니다.",
+ "use": "비만 수술 후 근력 보존을 위한 온라인 집단운동을 설계할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "2026 · Obesity Surgery · 무작위 임상시험",
+   "doi": "10.1007/s11695-026-08742-x",
+   "pmid": "42168690"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intr=online exercise group AND cond=Obesity · 132건 반환, 중재명 대조 17건",
+  "pubmed": "online exercise group AND Obesity · 540편",
+  "negative": "online exercise group AND Obesity AND (no effect/did not/failed/negative/no significant difference) · 350편",
+  "safety": "online exercise group AND (adverse/toxicity/case report/harm/dropout) · 53편"
+ },
+ "vs": "군 간 차이: 온라인 운동 그룹 vs 대조군 상관절 위험 낮음 OR 0.41 (95% CI .19~.87, p=.020), 상상각 근력 β=.03 (p=.043), 앉았다 일어나기 β=-1.22 (p=.027)"
 }

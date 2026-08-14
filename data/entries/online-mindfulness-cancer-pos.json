@@ -1,28 +1,33 @@
 {
-  "id": "online-mindfulness-cancer-pos",
-  "subj": "online mindfulness",
-  "claim": "온라인 마음챙김이 암 환자의 삶의 질과 불안·우울·스트레스를 개선한다",
-  "line": "온라인 마음챙김은 암 환자의 삶의 질과 불안, 우울을 개선했습니다",
-  "effect": "삶의 질 0.37, 불안 -0.48",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1613,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "온라인 마음챙김은 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "암 환자를 대상으로 한 앱·웹 마음챙김 무작위시험 15편의 체계적 문헌고찰과 메타분석이다.",
-  "saw": "1,613명에서 온라인 마음챙김은 대조군보다 삶의 질(SMD 0.37), 수면(SMD -0.36), 불안(SMD -0.48), 우울(SMD -0.36), 고통(SMD -0.50), 지각 스트레스(SMD -0.89)를 개선했다.",
-  "limit": "중재 대부분이 여러 요소를 포함한 웹 자기관리 프로그램이어서 마음챙김만의 효과를 분리하기 어렵다.",
-  "against": "재발 공포와 외상 후 성장은 유의하게 개선되지 않았다.",
-  "use": "암 환자의 정신건강과 삶의 질을 돕는 온라인 마음챙김 보조 중재로 검토한다.",
-  "refs": [
-    { "label": "Web-Based Mindfulness-Based Interventions for Patients With Cancer 2024 · Journal of Medical Internet Research", "doi": "10.2196/47704", "pmid": "38917445" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=online mindfulness AND condition=Cancer; 83건 반환, 중재명 일치 6건",
-    "pubmed": "online mindfulness AND Cancer; 217건",
-    "negative": "online mindfulness AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 154건",
-    "safety": "online mindfulness AND (adverse OR toxicity OR case report OR harm OR dropout); 18건"
+ "id": "online-mindfulness-cancer-pos",
+ "subj": "온라인 마음챙김",
+ "claim": "온라인 마음챙김이 암 환자의 삶의 질과 불안·우울·스트레스를 개선한다",
+ "line": "온라인 마음챙김은 암 환자의 삶의 질과 불안, 우울을 개선했습니다",
+ "effect": "삶의 질 0.37, 불안 -0.48",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1613,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "온라인 마음챙김은 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "암 환자를 대상으로 한 앱·웹 마음챙김 무작위시험 15편의 체계적 문헌고찰과 메타분석이다.",
+ "saw": "1,613명에서 온라인 마음챙김은 대조군보다 삶의 질(SMD 0.37), 수면(SMD -0.36), 불안(SMD -0.48), 우울(SMD -0.36), 고통(SMD -0.50), 지각 스트레스(SMD -0.89)를 개선했다.",
+ "limit": "중재 대부분이 여러 요소를 포함한 웹 자기관리 프로그램이어서 마음챙김만의 효과를 분리하기 어렵다.",
+ "against": "재발 공포와 외상 후 성장은 유의하게 개선되지 않았다.",
+ "use": "암 환자의 정신건강과 삶의 질을 돕는 온라인 마음챙김 보조 중재로 검토한다.",
+ "refs": [
+  {
+   "label": "Web-Based Mindfulness-Based Interventions for Patients With Cancer 2024 · Journal of Medical Internet Research",
+   "doi": "10.2196/47704",
+   "pmid": "38917445"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online mindfulness AND condition=Cancer; 83건 반환, 중재명 일치 6건",
+  "pubmed": "online mindfulness AND Cancer; 217건",
+  "negative": "online mindfulness AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 154건",
+  "safety": "online mindfulness AND (adverse OR toxicity OR case report OR harm OR dropout); 18건"
+ },
+ "vs": "군 간 차이: 온라인 마음챙김 vs 대조군 삶의 질 SMD .37 (95% CI .18~.57, p<.001), 수면 -.36 (-.71~-.01, p=.04), 불안 -.48 (-.75~-.20, p<.001), 우울 -.36 (-.61~-.11, p=.005), 스트레스 -.89 (-1.33~-.45, p=.003)"
 }

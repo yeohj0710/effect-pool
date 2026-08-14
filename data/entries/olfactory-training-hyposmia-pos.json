@@ -1,32 +1,33 @@
 {
-  "id": "olfactory-training-hyposmia-pos",
-  "subj": "olfactory training",
-  "claim": "후각훈련을 후각저하에 쓴다",
-  "line": "후각훈련은 후각기능 회복에 중간 정도의 효과가 있었습니다",
-  "effect": "후각기능 Hedges g 0.755",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 639,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "후각저하를 포함한 후각기능 장애에서 후각훈련 효과를 합친 메타분석을 확인했습니다",
-  "saw": "36개 논문 45개 효과크기에서 전체 후각기능 Hedges g 0.755의 유의한 개선이 있었습니다",
-  "limit": "통합 표본 수가 초록에 없고 효과가 크지만 이질성이 높았습니다",
-  "against": "대조군 또는 치료 전 상태",
-  "use": "후각저하 재활의 탐색적 보조중재 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "Efficacy of olfactory training in patients with olfactory loss: a systematic review and meta-analysis",
-      "doi": "10.1002/alr.21669",
-      "pmid": "26624966"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=olfactory training · cond=Hyposmia: 5건",
-    "pubmed": "olfactory training AND Hyposmia AND (randomized OR trial OR meta-analysis): 70건",
-    "negative": "olfactory training AND Hyposmia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 139건",
-    "safety": "olfactory training AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 113건"
+ "id": "olfactory-training-hyposmia-pos",
+ "subj": "후각 훈련",
+ "claim": "후각훈련을 후각저하에 쓴다",
+ "line": "후각훈련은 후각기능 회복에 중간 정도의 효과가 있었습니다",
+ "effect": "후각기능 Hedges g 0.755",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 639,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "후각저하를 포함한 후각기능 장애에서 후각훈련 효과를 합친 메타분석을 확인했습니다",
+ "saw": "36개 논문 45개 효과크기에서 전체 후각기능 Hedges g 0.755의 유의한 개선이 있었습니다",
+ "limit": "통합 표본 수가 초록에 없고 효과가 크지만 이질성이 높았습니다",
+ "against": "대조군 또는 치료 전 상태",
+ "use": "후각저하 재활의 탐색적 보조중재 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "Efficacy of olfactory training in patients with olfactory loss: a systematic review and meta-analysis",
+   "doi": "10.1002/alr.21669",
+   "pmid": "26624966"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=olfactory training · cond=Hyposmia: 5건",
+  "pubmed": "olfactory training AND Hyposmia AND (randomized OR trial OR meta-analysis): 70건",
+  "negative": "olfactory training AND Hyposmia AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 139건",
+  "safety": "olfactory training AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 113건"
+ },
+ "vs": "군 간 차이: 후각 훈련 vs 대조군 TDI 점수 MD 3.77 (95% CI 2.28~5.26), 변별 MD 1.92 (1.13~2.71), 식별 MD 1.61 (.55~2.68)"
 }

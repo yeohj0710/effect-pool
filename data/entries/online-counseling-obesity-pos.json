@@ -1,20 +1,33 @@
 {
-  "id": "online-counseling-obesity-pos",
-  "subj": "online counseling",
-  "claim": "과체중·비만 청소년에게 인터넷 상담을 포함한 행동중재를 제공하면 체지방이 줄 수 있다",
-  "line": "인터넷 상담은 과체중·비만 흑인 여학생의 체지방률을 1.6% 줄였습니다",
-  "effect": "체지방 군 간 차이 1.6%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 57,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "인터넷 상담은 의약품이 아닌 체중 행동중재입니다",
-  "why": "과체중·비만인 흑인 여학생 57명을 인터넷 상담을 포함한 상호작용 행동중재군과 건강교육 대조군으로 무작위 배정했습니다",
-  "saw": "57명이 등록했고 50명이 6개월 평가를 마쳤습니다. 행동중재군의 체지방이 건강교육군보다 1.6%포인트 낮았고 부모의 체중도 2.1kg 더 줄었습니다",
-  "limit": "청소년과 부모가 함께 참여했고 첫 12주에 대면 세션도 포함해 인터넷 상담만의 효과를 분리할 수 없습니다",
-  "against": "소규모 단일 인종·연령 집단의 결과라 모든 비만 성인에게 적용할 수 없습니다",
-  "use": "청소년 체중관리에서 온라인 상담을 대면 교육과 함께 보조로 사용하고 성장·식사·정신건강을 함께 평가합니다",
-  "refs": [{ "label": "Efficacy of an internet-based behavioral weight loss program for overweight adolescent African-American girls 2005 · Eating and Weight Disorders", "doi": "10.1007/BF03327547", "pmid": "16277142" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=online counseling AND condition=Obesity; 52건 반환, 중재명 일치 0건", "pubmed": "online counseling AND Obesity; 282편", "negative": "online counseling AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference); 166편", "safety": "online counseling AND Obesity AND (adverse OR toxicity OR case report OR harm OR dropout); 34편" }
+ "id": "online-counseling-obesity-pos",
+ "subj": "온라인 상담",
+ "claim": "과체중·비만 청소년에게 인터넷 상담을 포함한 행동중재를 제공하면 체지방이 줄 수 있다",
+ "line": "인터넷 상담은 과체중·비만 흑인 여학생의 체지방률을 1.6% 줄였습니다",
+ "effect": "체지방 군 간 차이 1.6%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 57,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "인터넷 상담은 의약품이 아닌 체중 행동중재입니다",
+ "why": "과체중·비만인 흑인 여학생 57명을 인터넷 상담을 포함한 상호작용 행동중재군과 건강교육 대조군으로 무작위 배정했습니다",
+ "saw": "57명이 등록했고 50명이 6개월 평가를 마쳤습니다. 행동중재군의 체지방이 건강교육군보다 1.6%포인트 낮았고 부모의 체중도 2.1kg 더 줄었습니다",
+ "limit": "청소년과 부모가 함께 참여했고 첫 12주에 대면 세션도 포함해 인터넷 상담만의 효과를 분리할 수 없습니다",
+ "against": "소규모 단일 인종·연령 집단의 결과라 모든 비만 성인에게 적용할 수 없습니다",
+ "use": "청소년 체중관리에서 온라인 상담을 대면 교육과 함께 보조로 사용하고 성장·식사·정신건강을 함께 평가합니다",
+ "refs": [
+  {
+   "label": "Efficacy of an internet-based behavioral weight loss program for overweight adolescent African-American girls 2005 · Eating and Weight Disorders",
+   "doi": "10.1007/BF03327547",
+   "pmid": "16277142"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online counseling AND condition=Obesity; 52건 반환, 중재명 일치 0건",
+  "pubmed": "online counseling AND Obesity; 282편",
+  "negative": "online counseling AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference); 166편",
+  "safety": "online counseling AND Obesity AND (adverse OR toxicity OR case report OR harm OR dropout); 34편"
+ },
+ "vs": "군 간 차이: 온라인 행동치료 상담 vs 대조군 청소년 체지방 -1.6%p, 부모 체중 -2.1 kg"
 }

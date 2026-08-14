@@ -1,22 +1,32 @@
 {
-  "id": "olive-oil-cognitive-decline-open",
-  "subj": "olive oil",
-  "claim": "올리브유 섭취가 인지저하 관련 사망 위험과 연관될 수 있지만 인과관계는 확인되지 않았다",
-  "line": "올리브유를 많이 먹은 성인은 치매 사망 위험이 낮았지만 관찰연구 결과였습니다",
-  "effect": "치매 사망 HR 0.72",
-  "tier": "obs",
-  "dir": "open",
-  "n": 92383,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "올리브유는 허가 적응증이 없는 식품 성분입니다.",
-  "why": "미국 성인 코호트에서 올리브유 섭취량과 28년 치매 관련 사망 기록의 연관성을 분석했습니다.",
-  "saw": "92,383명에서 하루 7g 이상 올리브유 섭취는 거의 섭취하지 않는 경우보다 치매 관련 사망 위험이 낮았습니다(조정 HR 0.72, 95% CI 0.64~0.81).",
-  "limit": "섭취 관찰 연구라 건강행동과 식단 차이를 완전히 제거할 수 없고 인지 기능 저하 자체를 측정한 시험은 아닙니다.",
-  "against": "올리브유가 치매나 인지저하를 치료한다는 임상시험 근거는 아닙니다.",
-  "use": "인지 관련 건강에서 올리브유 섭취 연관성을 기록하는 관찰 근거로만 사용합니다.",
-  "refs": [
-    { "label": "Consumption of Olive Oil and Diet Quality and Risk of Dementia-Related Death", "doi": "10.1001/jamanetworkopen.2024.10021", "pmid": "38709531" }
-  ],
-  "queried": { "date": "2026-08-07", "ctgov": "olive oil AND Cognitive Decline · 23건, 직접 중재 5건", "pubmed": "olive oil AND Cognitive Decline · 131편", "negative": "olive oil AND Cognitive Decline AND (no effect OR did not OR failed OR no significant difference) · 108편", "safety": "olive oil AND (adverse OR toxicity OR case report OR harm) · 2870편" }
+ "id": "olive-oil-cognitive-decline-open",
+ "subj": "올리브오일",
+ "claim": "올리브유 섭취가 인지저하 관련 사망 위험과 연관될 수 있지만 인과관계는 확인되지 않았다",
+ "line": "올리브유를 많이 먹은 성인은 치매 사망 위험이 낮았지만 관찰연구 결과였습니다",
+ "effect": "치매 사망 HR 0.72",
+ "tier": "obs",
+ "dir": "open",
+ "n": 92383,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "올리브유는 허가 적응증이 없는 식품 성분입니다.",
+ "why": "미국 성인 코호트에서 올리브유 섭취량과 28년 치매 관련 사망 기록의 연관성을 분석했습니다.",
+ "saw": "92,383명에서 하루 7g 이상 올리브유 섭취는 거의 섭취하지 않는 경우보다 치매 관련 사망 위험이 낮았습니다(조정 HR 0.72, 95% CI 0.64~0.81).",
+ "limit": "섭취 관찰 연구라 건강행동과 식단 차이를 완전히 제거할 수 없고 인지 기능 저하 자체를 측정한 시험은 아닙니다.",
+ "against": "올리브유가 치매나 인지저하를 치료한다는 임상시험 근거는 아닙니다.",
+ "use": "인지 관련 건강에서 올리브유 섭취 연관성을 기록하는 관찰 근거로만 사용합니다.",
+ "refs": [
+  {
+   "label": "Consumption of Olive Oil and Diet Quality and Risk of Dementia-Related Death",
+   "doi": "10.1001/jamanetworkopen.2024.10021",
+   "pmid": "38709531"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "olive oil AND Cognitive Decline · 23건, 직접 중재 5건",
+  "pubmed": "olive oil AND Cognitive Decline · 131편",
+  "negative": "olive oil AND Cognitive Decline AND (no effect OR did not OR failed OR no significant difference) · 108편",
+  "safety": "olive oil AND (adverse OR toxicity OR case report OR harm) · 2870편"
+ }
 }
