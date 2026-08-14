@@ -1,18 +1,38 @@
 {
-  "id": "colchicine-stroke-null",
-  "subj": "콜히친",
-  "claim": "콜히친이 급성 허혈성 뇌졸중 재발을 줄인다",
-  "line": "급성 허혈성 뇌졸중에서 콜히친은 뇌졸중 재발을 낮추지 못했다.",
-  "effect": "재발 6.3% vs 6.5%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 8343,
-  "synth": "single",
-  "why": "고위험 비심장성 허혈성 뇌졸중·일과성 허혈발작 환자를 콜히친과 위약에 무작위 배정한 CHANCE-3 시험입니다.",
-  "saw": "중국 244개 병원에서 8,343명을 비교한 90일 시험에서 새 뇌졸중은 콜히친 6.3%, 위약 6.5%였고 위험비는 0.98로 유의하지 않았습니다.",
-  "limit": "고감도 CRP가 높은 경증·중등도 비심장성 뇌졸중과 일과성 허혈발작의 급성기 결과라 다른 뇌졸중군이나 장기 예방에 일반화할 수 없습니다.",
-  "against": "과거 뇌졸중·관상동맥질환 14,934명을 합친 2차 예방 메타분석은 허혈성 뇌졸중과 주요 심혈관 사건을 27% 줄였다고 보고했습니다.",
-  "use": "급성 뇌졸중 재발 결과와 만성 심혈관 2차 예방 메타분석을 합쳐 해석하지 않습니다.",
-  "refs": [{"label": "Wang 2024 · BMJ · CHANCE-3 급성 뇌졸중 무작위시험·음성 결과", "doi": "10.1136/bmj-2023-079061", "pmid": "38925803", "nct": "NCT05439356"}, {"label": "2024 · EClinicalMedicine · 뇌졸중·죽상경화 2차 예방 메타분석", "doi": "10.1016/j.eclinm.2024.102835", "pmid": "39431112"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:COLCHICINE → 53건; 확인 라벨의 적응증은 통풍 발작·가족성 지중해열", "ctgov": "query.intr=colchicine&query.cond=Stroke → 12건 반환, InterventionName 대조 후 colchicine 일치 12건", "pubmed": "colchicine AND \"Stroke\" → 331건", "negative": "colchicine AND \"Stroke\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 257건", "safety": "colchicine AND \"Stroke\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 189건"}
+ "id": "colchicine-stroke-null",
+ "subj": "콜히친",
+ "claim": "콜히친이 급성 허혈성 뇌졸중 재발을 줄인다",
+ "line": "급성 허혈성 뇌졸중에서 콜히친은 뇌졸중 재발을 낮추지 못했다.",
+ "effect": "재발 6.3% vs 6.5%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 8343,
+ "synth": "single",
+ "why": "고위험 비심장성 허혈성 뇌졸중·일과성 허혈발작 환자를 콜히친과 위약에 무작위 배정한 CHANCE-3 시험입니다.",
+ "saw": "중국 244개 병원에서 8,343명을 비교한 90일 시험에서 새 뇌졸중은 콜히친 6.3%, 위약 6.5%였고 위험비는 0.98로 유의하지 않았습니다.",
+ "limit": "고감도 CRP가 높은 경증·중등도 비심장성 뇌졸중과 일과성 허혈발작의 급성기 결과라 다른 뇌졸중군이나 장기 예방에 일반화할 수 없습니다.",
+ "against": "과거 뇌졸중·관상동맥질환 14,934명을 합친 2차 예방 메타분석은 허혈성 뇌졸중과 주요 심혈관 사건을 27% 줄였다고 보고했습니다.",
+ "use": "급성 뇌졸중 재발 결과와 만성 심혈관 2차 예방 메타분석을 합쳐 해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "Wang 2024 · BMJ · CHANCE-3 급성 뇌졸중 무작위시험·음성 결과",
+   "doi": "10.1136/bmj-2023-079061",
+   "pmid": "38925803",
+   "nct": "NCT05439356"
+  },
+  {
+   "label": "2024 · EClinicalMedicine · 뇌졸중·죽상경화 2차 예방 메타분석",
+   "doi": "10.1016/j.eclinm.2024.102835",
+   "pmid": "39431112"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:COLCHICINE → 53건; 확인 라벨의 적응증은 통풍 발작·가족성 지중해열",
+  "ctgov": "query.intr=colchicine&query.cond=Stroke → 12건 반환, InterventionName 대조 후 colchicine 일치 12건",
+  "pubmed": "colchicine AND \"Stroke\" → 331건",
+  "negative": "colchicine AND \"Stroke\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 257건",
+  "safety": "colchicine AND \"Stroke\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 189건"
+ },
+ "vs": "콜히친 vs 위약: 급성 허혈성 뇌졸중·일과성 허혈발작 후 90일 새 뇌졸중은 6.3% vs 6.5%, HR 0.98(95% CI 0.83~1.16; P=.79)였다. 6개 RCT 메타분석에서는 허혈성 뇌졸중 RR 0.73(0.58~0.90), 주요 심혈관 사건 RR 0.73(0.65~0.81)이었다."
 }

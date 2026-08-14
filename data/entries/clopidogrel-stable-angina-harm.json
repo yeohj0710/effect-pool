@@ -1,20 +1,33 @@
 {
-  "id": "clopidogrel-stable-angina-harm",
-  "subj": "clopidogrel",
-  "claim": "clopidogrel을 안정형 협심증의 선택적 PCI 전처치에 쓴다",
-  "line": "안정형 협심증에서 클로피도그렐 고용량 선투여는 출혈을 늘렸다.",
-  "effect": "출혈 3.5% 대 1.4%",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 1028,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "안정형 협심증에서 선택적 clopidogrel 선투여 방식은 허가 적응증이 아니다",
-  "why": "안정형 협심증 환자 1,028명을 조기 clopidogrel 투여와 PCI 직전 투여에 무작위 배정했습니다.",
-  "saw": "7일 복합 사건은 0.8% 대 1.0%로 다르지 않았고 출혈은 조기 투여 3.5%, 선택 투여 1.4%였다",
-  "limit": "clopidogrel 자체의 사용 여부가 아니라 600mg 투여 시점을 비교한 시험이다",
-  "against": "조기 선투여의 심근경색 예방 이득은 유의하지 않았다",
-  "use": "안정형 협심증에서 고용량 선투여의 출혈 신호를 기록합니다.",
-  "refs": [{ "label": "2008 · PRAGUE-8 안정형 협심증 무작위시험", "doi": "10.1093/eurheartj/ehn169", "pmid": "18441320" }],
-  "queried": { "date": "2026-08-08", "ctgov": "clopidogrel AND Stable Angina; 28건 반환", "pubmed": "clopidogrel stable angina randomized; PRAGUE-8 확인", "negative": "clopidogrel AND stable angina AND periprocedural myocardial infarction; 이득 없음 확인", "safety": "clopidogrel AND stable angina AND bleeding; 조기 선투여 출혈 증가 확인" }
+ "id": "clopidogrel-stable-angina-harm",
+ "subj": "클로피도그렐",
+ "claim": "클로피도그렐을 안정형 협심증의 선택적 PCI 전처치에 쓴다",
+ "line": "안정형 협심증에서 클로피도그렐 고용량 선투여는 출혈을 늘렸다.",
+ "effect": "출혈 3.5% 대 1.4%",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 1028,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "안정형 협심증에서 선택적 클로피도그렐 선투여 방식은 허가 적응증이 아니다",
+ "why": "안정형 협심증 환자 1,028명을 조기 클로피도그렐 투여와 PCI 직전 투여에 무작위 배정했습니다.",
+ "saw": "7일 복합 사건은 0.8% 대 1.0%로 다르지 않았고 출혈은 조기 투여 3.5%, 선택 투여 1.4%였다",
+ "limit": "클로피도그렐 자체의 사용 여부가 아니라 600mg 투여 시점을 비교한 시험이다",
+ "against": "조기 선투여의 심근경색 예방 이득은 유의하지 않았다",
+ "use": "안정형 협심증에서 고용량 선투여의 출혈 신호를 기록합니다.",
+ "refs": [
+  {
+   "label": "2008 · PRAGUE-8 안정형 협심증 무작위시험",
+   "doi": "10.1093/eurheartj/ehn169",
+   "pmid": "18441320"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "clopidogrel AND Stable Angina; 28건 반환",
+  "pubmed": "clopidogrel stable angina randomized; PRAGUE-8 확인",
+  "negative": "clopidogrel AND stable angina AND periprocedural myocardial infarction; 이득 없음 확인",
+  "safety": "clopidogrel AND stable angina AND bleeding; 조기 선투여 출혈 증가 확인"
+ },
+ "vs": "클로피도그렐 600mg을 관상동맥조영술 6시간 전에 투여 vs PCI 직전 선택 투여: 7일 복합 사건 0.8% vs 1.0%(P=.749), 출혈 3.5% vs 1.4%(P=.025), 출혈 보정 OR 3.03(95% CI 1.14~8.10; P=.027); 무작위 환자 1,028명."
 }

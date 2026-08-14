@@ -1,35 +1,36 @@
 {
-  "id": "colchicine-atrial-flutter-null",
-  "subj": "콜히친",
-  "claim": "콜히친을 통풍 외 심방조동에 쓴다",
-  "line": "심방세동 절제술 뒤 콜히친은 부정맥 재발을 줄이지 못했지만 설사는 늘었다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 199,
-  "synth": "single",
-  "why": "심방세동 절제술 뒤 콜히친과 위약을 무작위로 비교한 시험에서 재발 정의에 심방조동을 포함했습니다. 심방조동만을 대상으로 한 시험은 아니므로 한계를 남겼습니다.",
-  "saw": "수정된 분석에 199명이 포함됐습니다. 심방세동·심방조동·심방빈맥을 합친 재발은 초기 추적과 3개월 추적 모두 콜히친군에서 줄지 않았고, 시술 뒤 흉통은 줄었지만 설사는 늘었습니다.",
-  "limit": "참여자는 심방세동 절제술 환자였고 심방조동 재발을 따로 분석하지 않았습니다. 따라서 심방조동 치료 효과를 직접 보여주는 시험이 아닙니다.",
-  "against": "심방조동 절제 뒤 생긴 심장손상후증후군 증례 1건에서 스테로이드와 콜히친 뒤 흉막·심낭삼출이 호전됐지만, 부정맥 자체가 치료됐다는 근거는 아닙니다.",
-  "use": "심방조동과 염증성 합병증을 구분하고 부정맥 재발 결과를 따로 해석합니다.",
-  "refs": [
-    {
-      "label": "Deftereos 2024 · Circ Arrhythm Electrophysiol · 음성 무작위시험",
-      "doi": "10.1161/CIRCEP.123.012387",
-      "pmid": "38126206"
-    },
-    {
-      "label": "Fitzgerald 2024 · Cureus · 심방조동 절제 후 증례",
-      "doi": "10.7759/cureus.67735",
-      "pmid": "39318922",
-      "pmc": "PMC11421581"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=colchicine&query.cond=Atrial Flutter → 1건 반환, InterventionName 대조 후 1건",
-    "pubmed": "colchicine AND atrial flutter → 8건",
-    "negative": "colchicine AND Atrial Flutter AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 4건",
-    "safety": "colchicine AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 6,077건"
+ "id": "colchicine-atrial-flutter-null",
+ "subj": "콜히친",
+ "claim": "콜히친을 통풍 외 심방조동에 쓴다",
+ "line": "심방세동 절제술 뒤 콜히친은 부정맥 재발을 줄이지 못했지만 설사는 늘었다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 199,
+ "synth": "single",
+ "why": "심방세동 절제술 뒤 콜히친과 위약을 무작위로 비교한 시험에서 재발 정의에 심방조동을 포함했습니다. 심방조동만을 대상으로 한 시험은 아니므로 한계를 남겼습니다.",
+ "saw": "수정된 분석에 199명이 포함됐습니다. 심방세동·심방조동·심방빈맥을 합친 재발은 초기 추적과 3개월 추적 모두 콜히친군에서 줄지 않았고, 시술 뒤 흉통은 줄었지만 설사는 늘었습니다.",
+ "limit": "참여자는 심방세동 절제술 환자였고 심방조동 재발을 따로 분석하지 않았습니다. 따라서 심방조동 치료 효과를 직접 보여주는 시험이 아닙니다.",
+ "against": "심방조동 절제 뒤 생긴 심장손상후증후군 증례 1건에서 스테로이드와 콜히친 뒤 흉막·심낭삼출이 호전됐지만, 부정맥 자체가 치료됐다는 근거는 아닙니다.",
+ "use": "심방조동과 염증성 합병증을 구분하고 부정맥 재발 결과를 따로 해석합니다.",
+ "refs": [
+  {
+   "label": "Deftereos 2024 · Circ Arrhythm Electrophysiol · 음성 무작위시험",
+   "doi": "10.1161/CIRCEP.123.012387",
+   "pmid": "38126206"
+  },
+  {
+   "label": "Fitzgerald 2024 · Cureus · 심방조동 절제 후 증례",
+   "doi": "10.7759/cureus.67735",
+   "pmid": "39318922",
+   "pmc": "PMC11421581"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=colchicine&query.cond=Atrial Flutter → 1건 반환, InterventionName 대조 후 1건",
+  "pubmed": "colchicine AND atrial flutter → 8건",
+  "negative": "colchicine AND Atrial Flutter AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 4건",
+  "safety": "colchicine AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 6,077건"
+ },
+ "vs": "콜히친 vs 위약: 심방세동 절제술 후 부정맥 재발은 2주 31% vs 32%, HR 0.98(95% CI 0.59~1.61; P=.92), 3개월 14% vs 15%, HR 0.95(0.45~2.02; P=.89)였다; 무작위 분석 199명."
 }

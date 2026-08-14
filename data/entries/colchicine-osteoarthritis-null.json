@@ -1,37 +1,38 @@
 {
-  "id": "colchicine-osteoarthritis-null",
-  "subj": "콜히친",
-  "claim": "콜히친이 무릎 골관절염 통증을 줄인다",
-  "line": "무릎 골관절염에서 콜히친은 통증과 WOMAC 총점을 낮추지 못했다.",
-  "effect": "통증 MD -1.49",
-  "tier": "trial",
-  "dir": "null",
-  "n": 400,
-  "synth": "meta",
-  "why": "콜히친의 허가사항에는 골관절염이 없습니다. 무릎 골관절염 무작위시험 5편의 메타분석과 대표 무작위시험을 확인했습니다.",
-  "saw": "무릎 골관절염 성인 400명을 포함한 5개 무작위시험 메타분석에서 통증과 WOMAC 총점은 위약과 유의한 차이가 없었습니다. 대표 109명 시험에서도 증상 개선은 없었습니다.",
-  "limit": "시험마다 통증 지표와 추적이 달랐고 일부 염증 표지자는 줄었습니다. 표지자 변화가 통증이나 관절 기능 개선을 뜻하지 않습니다.",
-  "against": "반대 검색 11건에서 통증·기능 차이가 없고 연구 규모가 작아 골관절염 치료를 권하지 않는다는 결과를 확인했습니다.",
-  "use": "골관절염에서는 염증 표지와 환자 증상을 구분하고 통증 치료 효과가 없다는 메타분석을 우선합니다.",
-  "refs": [
-    {
-      "label": "2022 · 무릎 골관절염 콜히친 무작위시험 메타분석",
-      "doi": "10.1155/2022/2381828",
-      "pmid": "35132374"
-    },
-    {
-      "label": "2018 · COLKOA 무릎 골관절염 콜히친 무작위시험",
-      "doi": "10.1016/j.joca.2018.01.026",
-      "pmid": "29426008",
-      "nct": "NCT02176460"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"COLCHICINE\" → 57건 반환; 골관절염 적응증 없음",
-    "ctgov": "query.intr=colchicine&query.cond=Osteoarthritis&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 2건",
-    "pubmed": "colchicine AND \"Osteoarthritis\" → 97건",
-    "negative": "colchicine AND \"Osteoarthritis\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 11건",
-    "safety": "colchicine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,594건"
+ "id": "colchicine-osteoarthritis-null",
+ "subj": "콜히친",
+ "claim": "콜히친이 무릎 골관절염 통증을 줄인다",
+ "line": "무릎 골관절염에서 콜히친은 통증과 WOMAC 총점을 낮추지 못했다.",
+ "effect": "통증 MD -1.49",
+ "tier": "trial",
+ "dir": "null",
+ "n": 400,
+ "synth": "meta",
+ "why": "콜히친의 허가사항에는 골관절염이 없습니다. 무릎 골관절염 무작위시험 5편의 메타분석과 대표 무작위시험을 확인했습니다.",
+ "saw": "무릎 골관절염 성인 400명을 포함한 5개 무작위시험 메타분석에서 통증과 WOMAC 총점은 위약과 유의한 차이가 없었습니다. 대표 109명 시험에서도 증상 개선은 없었습니다.",
+ "limit": "시험마다 통증 지표와 추적이 달랐고 일부 염증 표지자는 줄었습니다. 표지자 변화가 통증이나 관절 기능 개선을 뜻하지 않습니다.",
+ "against": "반대 검색 11건에서 통증·기능 차이가 없고 연구 규모가 작아 골관절염 치료를 권하지 않는다는 결과를 확인했습니다.",
+ "use": "골관절염에서는 염증 표지와 환자 증상을 구분하고 통증 치료 효과가 없다는 메타분석을 우선합니다.",
+ "refs": [
+  {
+   "label": "2022 · 무릎 골관절염 콜히친 무작위시험 메타분석",
+   "doi": "10.1155/2022/2381828",
+   "pmid": "35132374"
+  },
+  {
+   "label": "2018 · COLKOA 무릎 골관절염 콜히친 무작위시험",
+   "doi": "10.1016/j.joca.2018.01.026",
+   "pmid": "29426008",
+   "nct": "NCT02176460"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"COLCHICINE\" → 57건 반환; 골관절염 적응증 없음",
+  "ctgov": "query.intr=colchicine&query.cond=Osteoarthritis&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 2건",
+  "pubmed": "colchicine AND \"Osteoarthritis\" → 97건",
+  "negative": "colchicine AND \"Osteoarthritis\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 11건",
+  "safety": "colchicine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,594건"
+ },
+ "vs": "콜히친 vs 위약: 무릎 골관절염 RCT 메타분석에서 통증 VAS MD -1.49(95% CI -3.15~0.17; P=.08), WOMAC 표준화 MD -0.13(-0.64~0.38; P=.61), 이상반응 RR 1.23(0.72~2.11; P=.46)였다; 5개 RCT, 400명. 별도 RCT의 WOMAC 반응은 39% vs 49%, OR 0.66(0.31~1.41; P=.284)였다."
 }
