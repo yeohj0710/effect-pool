@@ -1,30 +1,43 @@
 {
-  "id": "vorapaxar-atherosclerosis-open",
-  "subj": "vorapaxar",
-  "claim": "죽상경화증에 보라팍사르를 쓴다",
-  "line": "죽상경화증에서 보라팍사르는 심혈관·사지 사건을 줄였지만 출혈을 늘렸다.",
-  "effect": "MACE0.85·MALE0.70·출혈1.39",
-  "tier": "trial",
-  "dir": "open",
-  "n": 6136,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미국 FDA ZONTIVITY 허가사항은 심근경색 병력 또는 말초동맥질환 환자의 심혈관 혈전성 사건 위험 감소이며 죽상경화증 전체는 허가 적응증이 아니다.",
-  "why": "TRA 2°P-TIMI 50 죽상경화성 질환 연구의 말초동맥질환 하위군에서 보라팍사르의 심혈관·사지 사건 감소와 주요 출혈을 함께 확인했다.",
-  "saw": "TRA 2°P-TIMI 50 무작위시험 26,449명 중 말초동맥질환 6,136명을 분석했을 때 보라팍사르는 주요 심혈관 사건을 HR 0.85, 주요 사지 사건을 HR 0.70으로 줄였고 주요 출혈은 HR 1.39로 늘렸다. 심혈관 사건 이득은 관상동맥질환 동반군에서 컸고, 말초 재혈관화 병력이 없는 군의 이득은 불확실했다.",
-  "limit": "전체 죽상경화증 환자가 아닌 말초동맥질환 하위군 분석이며, 병용 항혈소판제와 출혈 위험에 따라 효과가 달라진다.",
-  "against": "주요 출혈이 유의하게 증가했고, 말초동맥질환과 관상동맥질환이 모두 없는 군에서는 순이득이 불확실했다.",
-  "use": "죽상경화증만으로 보라팍사르를 추가하지 말고, 심근경색·말초동맥질환 병력과 뇌졸중·출혈 위험을 심혈관 전문의가 함께 평가한다.",
-  "refs": [
-    { "label": "TRA 2°P-TIMI 50 말초동맥질환 6,136명 분석", "doi": "10.1177/1358863X19892690", "pmid": "32000630", "nct": "NCT00526474" },
-    { "label": "말초동맥질환 보라팍사르 심혈관·사지 사건 고찰", "doi": "10.1177/10742484211056115", "pmid": "35006035" },
-    { "label": "보라팍사르 심부전 입원 TRA 2°P-TIMI 50 자료", "doi": "10.1002/clc.23843", "pmid": "35855557" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "vorapaxar AND Atherosclerosis · 7건 반환, InterventionName 일치 7건(NCT02660866, NCT02548650, NCT00617123, NCT00526474, NCT00527943, NCT00684203, NCT02975583)",
-    "pubmed": "vorapaxar AND Atherosclerosis · 77편",
-    "negative": "vorapaxar AND Atherosclerosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 60편",
-    "safety": "vorapaxar AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 145편"
+ "id": "vorapaxar-atherosclerosis-open",
+ "subj": "보라팍사르",
+ "claim": "죽상경화증에 보라팍사르를 쓴다",
+ "line": "죽상경화증에서 보라팍사르는 심혈관·사지 사건을 줄였지만 출혈을 늘렸다.",
+ "effect": "MACE0.85·MALE0.70·출혈1.39",
+ "tier": "trial",
+ "dir": "open",
+ "n": 6136,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미국 FDA ZONTIVITY 허가사항은 심근경색 병력 또는 말초동맥질환 환자의 심혈관 혈전성 사건 위험 감소이며 죽상경화증 전체는 허가 적응증이 아니다.",
+ "why": "TRA 2°P-TIMI 50 죽상경화성 질환 연구의 말초동맥질환 하위군에서 보라팍사르의 심혈관·사지 사건 감소와 주요 출혈을 함께 확인했다.",
+ "saw": "TRA 2°P-TIMI 50 무작위시험 26,449명 중 말초동맥질환 6,136명을 분석했을 때 보라팍사르는 주요 심혈관 사건을 HR 0.85, 주요 사지 사건을 HR 0.70으로 줄였고 주요 출혈은 HR 1.39로 늘렸다. 심혈관 사건 이득은 관상동맥질환 동반군에서 컸고, 말초 재혈관화 병력이 없는 군의 이득은 불확실했다.",
+ "limit": "전체 죽상경화증 환자가 아닌 말초동맥질환 하위군 분석이며, 병용 항혈소판제와 출혈 위험에 따라 효과가 달라진다.",
+ "against": "주요 출혈이 유의하게 증가했고, 말초동맥질환과 관상동맥질환이 모두 없는 군에서는 순이득이 불확실했다.",
+ "use": "죽상경화증만으로 보라팍사르를 추가하지 말고, 심근경색·말초동맥질환 병력과 뇌졸중·출혈 위험을 심혈관 전문의가 함께 평가한다.",
+ "refs": [
+  {
+   "label": "TRA 2°P-TIMI 50 말초동맥질환 6,136명 분석",
+   "doi": "10.1177/1358863X19892690",
+   "pmid": "32000630",
+   "nct": "NCT00526474"
+  },
+  {
+   "label": "말초동맥질환 보라팍사르 심혈관·사지 사건 고찰",
+   "doi": "10.1177/10742484211056115",
+   "pmid": "35006035"
+  },
+  {
+   "label": "보라팍사르 심부전 입원 TRA 2°P-TIMI 50 자료",
+   "doi": "10.1002/clc.23843",
+   "pmid": "35855557"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "vorapaxar AND Atherosclerosis · 7건 반환, InterventionName 일치 7건(NCT02660866, NCT02548650, NCT00617123, NCT00526474, NCT00527943, NCT00684203, NCT02975583)",
+  "pubmed": "vorapaxar AND Atherosclerosis · 77편",
+  "negative": "vorapaxar AND Atherosclerosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 60편",
+  "safety": "vorapaxar AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 145편"
+ }
 }
