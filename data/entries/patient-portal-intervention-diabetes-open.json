@@ -1,28 +1,32 @@
 {
-  "id": "patient-portal-intervention-diabetes-open",
-  "subj": "patient portal intervention",
-  "claim": "환자 포털 중재가 당뇨병 혈당에 개선 신호를 보인다",
-  "line": "환자 포털은 당뇨병 환자의 혈당 조절 개선 신호를 보였습니다",
-  "effect": "대부분 연구서 혈당 개선",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "환자 포털 중재는 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "당뇨병 환자 포털 기능을 모은 체계적 문헌고찰에서 대부분 연구가 혈당 조절 개선을 보고했지만 연구 설계와 중재가 다양했다.",
-  "saw": "포함 연구 12편 중 대부분이 혈당 조절 개선을 보고했지만 교란 요인의 영향을 배제하기 어려웠다.",
-  "limit": "통합 표본 수가 제시되지 않았고 연구 대부분이 관찰연구라 인과관계를 확정할 수 없다.",
-  "against": "일부 연구는 혈당 개선을 보고하지 않았고 연구 간 결과가 일관되지 않았다.",
-  "use": "당뇨병 환자 포털의 혈당 관리 기능을 평가할 때 참고한다.",
-  "refs": [
-    { "label": "Patient Portal Functionalities and Patient Outcomes Among Patients With Diabetes 2020 · Journal of Medical Internet Research", "doi": "10.2196/18976", "pmid": "32960182" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=patient portal intervention AND condition=Diabetes; 77건 반환, 중재명 일치 2건",
-    "pubmed": "patient portal intervention AND Diabetes; 662건",
-    "negative": "patient portal intervention AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 303건",
-    "safety": "patient portal intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 193건"
+ "id": "patient-portal-intervention-diabetes-open",
+ "subj": "환자 포털 중재",
+ "claim": "환자 포털 중재가 당뇨병 혈당에 개선 신호를 보인다",
+ "line": "환자 포털은 당뇨병 환자의 혈당 조절 개선 신호를 보였습니다",
+ "effect": "대부분 연구서 혈당 개선",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "환자 포털 중재는 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "당뇨병 환자 포털 기능을 모은 체계적 문헌고찰에서 대부분 연구가 혈당 조절 개선을 보고했지만 연구 설계와 중재가 다양했다.",
+ "saw": "포함 연구 12편 중 대부분이 혈당 조절 개선을 보고했지만 교란 요인의 영향을 배제하기 어려웠다.",
+ "limit": "통합 표본 수가 제시되지 않았고 연구 대부분이 관찰연구라 인과관계를 확정할 수 없다.",
+ "against": "일부 연구는 혈당 개선을 보고하지 않았고 연구 간 결과가 일관되지 않았다.",
+ "use": "당뇨병 환자 포털의 혈당 관리 기능을 평가할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Patient Portal Functionalities and Patient Outcomes Among Patients With Diabetes 2020 · Journal of Medical Internet Research",
+   "doi": "10.2196/18976",
+   "pmid": "32960182"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=patient portal intervention AND condition=Diabetes; 77건 반환, 중재명 일치 2건",
+  "pubmed": "patient portal intervention AND Diabetes; 662건",
+  "negative": "patient portal intervention AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 303건",
+  "safety": "patient portal intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 193건"
+ }
 }

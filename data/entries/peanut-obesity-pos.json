@@ -1,28 +1,33 @@
 {
-  "id": "peanut-obesity-pos",
-  "subj": "peanut",
-  "claim": "에너지 제한 식단에 땅콩을 넣어 비만 여성의 체중을 관리한다",
-  "line": "에너지 제한 식단에 통땅콩을 넣자 8주 체중이 3.2kg 줄었다.",
-  "effect": "통땅콩 -3.2kg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 24,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "땅콩은 식품이며 허가 적응증이 적용되지 않는다.",
-  "why": "비만 여성의 에너지 제한 식단에서 통땅콩 섭취가 체중과 체성분에 미치는 효과를 확인한다.",
-  "saw": "8주 무작위시험에서 통땅콩군은 평균 3.2kg, 껍질 제거 땅콩군은 2.6kg, 땅콩을 먹지 않은 군은 1.8kg 줄었다.",
-  "limit": "비만 여성 24명을 세 군으로 나눈 소규모 8주 시험이라 장기 체중 유지와 일반화 가능성을 확인할 수 없다.",
-  "against": "땅콩군의 체중 감소가 더 컸지만 군 배정 규모가 작고 모든 비교에서 같은 결과가 확인된 것은 아니다.",
-  "use": "에너지 제한 식단의 식품 선택 근거로만 참고하고, 땅콩을 추가하면서 총열량이 늘지 않게 관리해야 한다.",
-  "refs": [
-    { "label": "2021 · Effects of whole peanut within an energy-restricted diet 무작위시험", "doi": "10.1002/jsfa.11692", "pmid": "34837651" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "peanut AND Obesity · 7건 반환, 섭취 시험과 비만 대상 시험 확인",
-    "pubmed": "peanut AND Obesity · 273건, PMID34837651 원문 초록 확인",
-    "negative": "peanut AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 197건",
-    "safety": "peanut AND (adverse OR toxicity OR harm OR safety OR case report) · 4537건"
+ "id": "peanut-obesity-pos",
+ "subj": "땅콩",
+ "claim": "에너지 제한 식단에 땅콩을 넣어 비만 여성의 체중을 관리한다",
+ "line": "에너지 제한 식단에 통땅콩을 넣자 8주 체중이 3.2kg 줄었다.",
+ "effect": "통땅콩 -3.2kg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 24,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "땅콩은 식품이며 허가 적응증이 적용되지 않는다.",
+ "why": "비만 여성의 에너지 제한 식단에서 통땅콩 섭취가 체중과 체성분에 미치는 효과를 확인한다.",
+ "saw": "8주 무작위시험에서 통땅콩군은 평균 3.2kg, 껍질 제거 땅콩군은 2.6kg, 땅콩을 먹지 않은 군은 1.8kg 줄었다.",
+ "limit": "비만 여성 24명을 세 군으로 나눈 소규모 8주 시험이라 장기 체중 유지와 일반화 가능성을 확인할 수 없다.",
+ "against": "땅콩군의 체중 감소가 더 컸지만 군 배정 규모가 작고 모든 비교에서 같은 결과가 확인된 것은 아니다.",
+ "use": "에너지 제한 식단의 식품 선택 근거로만 참고하고, 땅콩을 추가하면서 총열량이 늘지 않게 관리해야 한다.",
+ "refs": [
+  {
+   "label": "2021 · Effects of whole peanut within an energy-restricted diet 무작위시험",
+   "doi": "10.1002/jsfa.11692",
+   "pmid": "34837651"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "peanut AND Obesity · 7건 반환, 섭취 시험과 비만 대상 시험 확인",
+  "pubmed": "peanut AND Obesity · 273건, PMID34837651 원문 초록 확인",
+  "negative": "peanut AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 197건",
+  "safety": "peanut AND (adverse OR toxicity OR harm OR safety OR case report) · 4537건"
+ },
+ "vs": "군 간 차이: 땅콩 섭취 식단 WP 체중 감소 3.2 kg, SP 2.6 kg, NP 1.8 kg; WP·SP 군 총콜레스테롤·LDL 감소"
 }

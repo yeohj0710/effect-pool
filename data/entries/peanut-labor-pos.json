@@ -1,29 +1,38 @@
 {
-  "id": "peanut-labor-pos",
-  "subj": "peanut",
-  "claim": "분만 중 땅콩 모양 공을 다리 사이에 사용한다",
-  "line": "땅콩 공은 첫 분만 단계를 87분 줄이고 질식분만 비율을 높였다.",
-  "effect": "1단계 -87.42분",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 669,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "땅콩 공은 약물이 아니며 허가 적응증이 적용되지 않는다.",
-  "why": "땅콩 모양 공을 분만 중 다리 사이에 두는 비약물적 자세 보조가 분만 기간과 분만 방식에 미치는 효과를 확인한다.",
-  "saw": "무작위시험 메타분석에서 땅콩 공은 첫 분만 단계를 평균 87.42분 줄였고 질식분만 상대위험도는 1.11이었다.",
-  "limit": "메타분석에 포함된 표본은 669명이고 연구별 자세·분만 관리가 달랐다. 근거 질은 중간 수준이다.",
-  "against": "분만 기간 단축과 질식분만 증가 신호가 있었지만 모든 산과 합병증이 줄었다고 볼 수는 없다.",
-  "use": "경막외 진통 등으로 옆으로 누워 분만하는 사람의 자세 보조 선택지로 검토할 수 있지만 표준 분만 관리를 대체하지 않는다.",
-  "refs": [
-    { "label": "Grenvik 2019 · Peanut ball 분만 기간 메타분석", "doi": "10.1016/j.ejogrb.2019.09.018", "pmid": "31600716" },
-    { "label": "Katz 2023 · Birthing balls와 peanut balls 근거 검토", "doi": "10.1016/j.ajog.2023.02.014", "pmid": "36948997" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "peanut AND Labor · 18건 반환, peanut ball 직접 시험 확인",
-    "pubmed": "peanut AND Labor · 2182건, PMID36948997 원문 초록 확인",
-    "negative": "peanut AND Labor AND (no effect OR did not OR failed OR negative OR no significant difference) · 1215건",
-    "safety": "peanut AND (adverse OR toxicity OR harm OR safety OR case report) · 4537건"
+ "id": "peanut-labor-pos",
+ "subj": "땅콩",
+ "claim": "분만 중 땅콩 모양 공을 다리 사이에 사용한다",
+ "line": "땅콩 공은 첫 분만 단계를 87분 줄이고 질식분만 비율을 높였다.",
+ "effect": "1단계 -87.42분",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 669,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "땅콩 공은 약물이 아니며 허가 적응증이 적용되지 않는다.",
+ "why": "땅콩 모양 공을 분만 중 다리 사이에 두는 비약물적 자세 보조가 분만 기간과 분만 방식에 미치는 효과를 확인한다.",
+ "saw": "무작위시험 메타분석에서 땅콩 공은 첫 분만 단계를 평균 87.42분 줄였고 질식분만 상대위험도는 1.11이었다.",
+ "limit": "메타분석에 포함된 표본은 669명이고 연구별 자세·분만 관리가 달랐다. 근거 질은 중간 수준이다.",
+ "against": "분만 기간 단축과 질식분만 증가 신호가 있었지만 모든 산과 합병증이 줄었다고 볼 수는 없다.",
+ "use": "경막외 진통 등으로 옆으로 누워 분만하는 사람의 자세 보조 선택지로 검토할 수 있지만 표준 분만 관리를 대체하지 않는다.",
+ "refs": [
+  {
+   "label": "Grenvik 2019 · Peanut ball 분만 기간 메타분석",
+   "doi": "10.1016/j.ejogrb.2019.09.018",
+   "pmid": "31600716"
+  },
+  {
+   "label": "Katz 2023 · Birthing balls와 peanut balls 근거 검토",
+   "doi": "10.1016/j.ajog.2023.02.014",
+   "pmid": "36948997"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "peanut AND Labor · 18건 반환, peanut ball 직접 시험 확인",
+  "pubmed": "peanut AND Labor · 2182건, PMID36948997 원문 초록 확인",
+  "negative": "peanut AND Labor AND (no effect OR did not OR failed OR negative OR no significant difference) · 1215건",
+  "safety": "peanut AND (adverse OR toxicity OR harm OR safety OR case report) · 4537건"
+ },
+ "vs": "군 간 차이: 땅콩볼 vs 대조군 총 분만 시간 MD -79.1분 (95% CI -204.9~46.7), 자발 질분 RR 1.1 (1.0~1.2), 제왕절개 RR .8 (.6~1.0)"
 }

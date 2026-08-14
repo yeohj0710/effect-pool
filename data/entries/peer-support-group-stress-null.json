@@ -1,20 +1,32 @@
 {
-  "id": "peer-support-group-stress-null",
-  "subj": "peer support group",
-  "claim": "대학생의 스트레스에 동료 지지 모임을 제공하면 정신건강이 좋아지는가",
-  "line": "대학생 동료 지지 모임의 스트레스 개선 효과는 연구마다 달랐습니다",
-  "effect": "28개 논문, 확정적 효과 근거 부족",
-  "tier": "obs",
-  "dir": "null",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "동료 지지 모임은 의약품이 아닌 사회적 지원 중재입니다",
-  "why": "고등교육기관의 동료 주도 모임·멘토링·학습이 학생 정신건강과 스트레스에 미치는 영향을 체계적으로 검토했습니다",
-  "saw": "28개 논문을 검토한 결과 멘토링과 동료 학습에서 불안·스트레스 개선 결과가 더 자주 보고됐지만, 연구의 이질성과 낮은 방법론적 질 때문에 효과를 확정할 수 없었습니다",
-  "limit": "대부분 연구의 비뚤림 위험이 높거나 중간이었고 동료 지지의 정의·결과 측정·대상 학생이 일관되지 않았습니다",
-  "against": "동료 지지 모임이 대학생의 스트레스를 일관되게 줄인다는 근거는 아직 부족합니다",
-  "use": "학생 지원 프로그램에서 동료 모임을 시도할 때 스트레스와 불안을 대조군과 함께 측정하고 위험 학생을 전문상담으로 연결합니다",
-  "refs": [{ "label": "A systematic review of peer support interventions for student mental health and well-being in higher education 2023 · BJPsych Open", "doi": "10.1192/bjo.2023.603", "pmid": "38098123" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=peer support group AND condition=Stress; 101건 반환, 중재명 일치 0건", "pubmed": "peer support group AND Stress; 2,643편", "negative": "peer support group AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,529편", "safety": "peer support group AND Stress AND (adverse OR toxicity OR case report OR harm OR dropout); 300편" }
+ "id": "peer-support-group-stress-null",
+ "subj": "동료 지원 그룹",
+ "claim": "대학생의 스트레스에 동료 지지 모임을 제공하면 정신건강이 좋아지는가",
+ "line": "대학생 동료 지지 모임의 스트레스 개선 효과는 연구마다 달랐습니다",
+ "effect": "28개 논문, 확정적 효과 근거 부족",
+ "tier": "obs",
+ "dir": "null",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "동료 지지 모임은 의약품이 아닌 사회적 지원 중재입니다",
+ "why": "고등교육기관의 동료 주도 모임·멘토링·학습이 학생 정신건강과 스트레스에 미치는 영향을 체계적으로 검토했습니다",
+ "saw": "28개 논문을 검토한 결과 멘토링과 동료 학습에서 불안·스트레스 개선 결과가 더 자주 보고됐지만, 연구의 이질성과 낮은 방법론적 질 때문에 효과를 확정할 수 없었습니다",
+ "limit": "대부분 연구의 비뚤림 위험이 높거나 중간이었고 동료 지지의 정의·결과 측정·대상 학생이 일관되지 않았습니다",
+ "against": "동료 지지 모임이 대학생의 스트레스를 일관되게 줄인다는 근거는 아직 부족합니다",
+ "use": "학생 지원 프로그램에서 동료 모임을 시도할 때 스트레스와 불안을 대조군과 함께 측정하고 위험 학생을 전문상담으로 연결합니다",
+ "refs": [
+  {
+   "label": "A systematic review of peer support interventions for student mental health and well-being in higher education 2023 · BJPsych Open",
+   "doi": "10.1192/bjo.2023.603",
+   "pmid": "38098123"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=peer support group AND condition=Stress; 101건 반환, 중재명 일치 0건",
+  "pubmed": "peer support group AND Stress; 2,643편",
+  "negative": "peer support group AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,529편",
+  "safety": "peer support group AND Stress AND (adverse OR toxicity OR case report OR harm OR dropout); 300편"
+ }
 }
