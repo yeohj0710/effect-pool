@@ -1,28 +1,33 @@
 {
-  "id": "patient-education-program-chronic-kidney-disease-pos",
-  "subj": "patient education program",
-  "claim": "혈액투석 환자교육이 자기관리와 삶의 질을 개선한다",
-  "line": "혈액투석 환자 교육은 자기관리와 삶의 질을 개선했습니다",
-  "effect": "자가관리·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 만성콩팥병 관리 중재다",
-  "why": "혈액투석 환자를 대상으로 한 PRECEDE-PROCEED 기반 8회 교육의 준실험 연구에서 자기관리와 삶의 질이 좋아졌다.",
-  "saw": "환자 90명(중재군 45명, 대조군 45명)에서 자기관리 평균차는 18.33, 삶의 질 평균차는 17.25였고 요소·크레아티닌도 단기적으로 개선됐다.",
-  "limit": "체계적 배정의 준실험 연구이며 4주 중재 뒤의 단기 결과만 평가했다.",
-  "against": "장기 생존과 투석 관련 장기 합병증에 미치는 효과는 확인되지 않았다.",
-  "use": "혈액투석 환자교육에서 자기관리와 삶의 질을 단기 평가 결과로 사용할 때 참고한다.",
-  "refs": [
-    { "label": "PRECEDE-PROCEED-Based Educational Program for Hemodialysis Patients 2026 · Frontiers in Public Health", "doi": "10.3389/fpubh.2026.1766801", "pmid": "41960384" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=patient education program AND condition=Chronic Kidney Disease; 82건 반환, 중재명 일치 0건",
-    "pubmed": "patient education program AND Chronic Kidney Disease; 609건",
-    "negative": "patient education program AND Chronic Kidney Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 305건",
-    "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 98건"
+ "id": "patient-education-program-chronic-kidney-disease-pos",
+ "subj": "환자 교육 프로그램",
+ "claim": "혈액투석 환자교육이 자기관리와 삶의 질을 개선한다",
+ "line": "혈액투석 환자 교육은 자기관리와 삶의 질을 개선했습니다",
+ "effect": "자가관리·삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 만성콩팥병 관리 중재다",
+ "why": "혈액투석 환자를 대상으로 한 PRECEDE-PROCEED 기반 8회 교육의 준실험 연구에서 자기관리와 삶의 질이 좋아졌다.",
+ "saw": "환자 90명(중재군 45명, 대조군 45명)에서 자기관리 평균차는 18.33, 삶의 질 평균차는 17.25였고 요소·크레아티닌도 단기적으로 개선됐다.",
+ "limit": "체계적 배정의 준실험 연구이며 4주 중재 뒤의 단기 결과만 평가했다.",
+ "against": "장기 생존과 투석 관련 장기 합병증에 미치는 효과는 확인되지 않았다.",
+ "use": "혈액투석 환자교육에서 자기관리와 삶의 질을 단기 평가 결과로 사용할 때 참고한다.",
+ "refs": [
+  {
+   "label": "PRECEDE-PROCEED-Based Educational Program for Hemodialysis Patients 2026 · Frontiers in Public Health",
+   "doi": "10.3389/fpubh.2026.1766801",
+   "pmid": "41960384"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=patient education program AND condition=Chronic Kidney Disease; 82건 반환, 중재명 일치 0건",
+  "pubmed": "patient education program AND Chronic Kidney Disease; 609건",
+  "negative": "patient education program AND Chronic Kidney Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 305건",
+  "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 98건"
+ },
+ "vs": "군 간 차이: 환자 교육 프로그램 vs 대조군 자가관리 평균차 18.33 (p<.001), 삶의 질 17.25 (p<.001), 요소·크레아티닌 감소 p<.001, p=.006"
 }

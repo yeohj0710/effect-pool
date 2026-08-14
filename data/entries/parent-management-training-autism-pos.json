@@ -1,28 +1,35 @@
 {
-  "id": "parent-management-training-autism-pos",
-  "subj": "parent management training",
-  "claim": "부모훈련은 ADHD 증상이 있는 자폐 아동의 증상과 불순응을 줄였다",
-  "line": "부모 훈련은 자폐 아동의 ADHD 증상과 불순응을 줄였습니다",
-  "effect": "SNAP 효과크기 0.57–0.98",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 128,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "부모훈련은 비약물 행동 중재이며 자폐에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "자폐 스펙트럼과 ADHD 증상이 있는 아동을 아토목세틴, 부모훈련, 병용 또는 위약에 무작위 배정했다.",
-  "saw": "128명이 10주 2×2 시험에 참여했고 부모훈련군은 위약보다 ADHD 증상이 좋아졌으며 아토목세틴 병용군과 함께 불순응도 줄였다.",
-  "limit": "부모훈련 단독 효과와 약물 병용 효과를 세부 결과별로 분리해 해석해야 한다.",
-  "against": "아토목세틴이 포함된 군에서는 식욕 저하가 보고돼 부모훈련 자체의 안전성 결과와 구분해야 한다.",
-  "use": "자폐 아동의 ADHD 증상과 불순응을 다루는 다중치료의 부모 요소로 검토한다.",
-  "refs": [
-    { "label": "자폐·ADHD 아동 아토목세틴과 부모훈련 2×2 무작위시험", "doi": "10.1016/j.jaac.2015.08.013", "pmid": "26506581", "pmc": "PMC4625086", "nct": "NCT00844753" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=parent management training AND condition=Autism; 14건",
-    "pubmed": "parent management training AND Autism; 761건",
-    "negative": "parent management training AND Autism AND (no effect OR did not OR failed OR negative OR no significant difference); 330건",
-    "safety": "parent management training AND (adverse OR toxicity OR case report OR harm OR dropout); 2668건"
+ "id": "parent-management-training-autism-pos",
+ "subj": "부모관리훈련",
+ "claim": "부모훈련은 ADHD 증상이 있는 자폐 아동의 증상과 불순응을 줄였다",
+ "line": "부모 훈련은 자폐 아동의 ADHD 증상과 불순응을 줄였습니다",
+ "effect": "SNAP 효과크기 0.57–0.98",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 128,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "부모훈련은 비약물 행동 중재이며 자폐에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "자폐 스펙트럼과 ADHD 증상이 있는 아동을 아토목세틴, 부모훈련, 병용 또는 위약에 무작위 배정했다.",
+ "saw": "128명이 10주 2×2 시험에 참여했고 부모훈련군은 위약보다 ADHD 증상이 좋아졌으며 아토목세틴 병용군과 함께 불순응도 줄였다.",
+ "limit": "부모훈련 단독 효과와 약물 병용 효과를 세부 결과별로 분리해 해석해야 한다.",
+ "against": "아토목세틴이 포함된 군에서는 식욕 저하가 보고돼 부모훈련 자체의 안전성 결과와 구분해야 한다.",
+ "use": "자폐 아동의 ADHD 증상과 불순응을 다루는 다중치료의 부모 요소로 검토한다.",
+ "refs": [
+  {
+   "label": "자폐·ADHD 아동 아토목세틴과 부모훈련 2×2 무작위시험",
+   "doi": "10.1016/j.jaac.2015.08.013",
+   "pmid": "26506581",
+   "pmc": "PMC4625086",
+   "nct": "NCT00844753"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=parent management training AND condition=Autism; 14건",
+  "pubmed": "parent management training AND Autism; 761건",
+  "negative": "parent management training AND Autism AND (no effect OR did not OR failed OR negative OR no significant difference); 330건",
+  "safety": "parent management training AND (adverse OR toxicity OR case report OR harm OR dropout); 2668건"
+ },
+ "vs": "군 간 차이: 자녀 관리 훈련+ATX vs 플라시보 SNAP 효과기크기 .57~.98 (p=.0005, .0004, .025), 불응상 효과기크기 .47~.64 (p=.03, .0028)"
 }
