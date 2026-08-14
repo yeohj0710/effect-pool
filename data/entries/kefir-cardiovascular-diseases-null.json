@@ -1,26 +1,33 @@
 {
-  "id": "kefir-cardiovascular-diseases-null",
-  "subj": "kefir",
-  "claim": "케피어가 심혈관 위험요인을 낮춘다",
-  "line": "케피어는 인슐린 저항성만 낮추고 지질은 바꾸지 못했습니다",
-  "effect": "심혈관 지질 효과 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 314,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
-  "why": "케피어 음료의 심혈관·대사 위험인자 무작위시험 메타분석을 확인했다",
-  "saw": "6개 무작위시험 314명에서 인슐린·HOMA-IR·지질·혈당·체중을 합쳤다",
-  "limit": "인슐린 저항성은 낮아졌지만 심혈관 사건을 직접 측정하지 않았다",
-  "against": "총콜레스테롤·LDL·HDL·중성지방·혈당·HbA1c·체중은 유의하게 변하지 않았다",
-  "use": "심혈관 위험요인 중 인슐린 저항성만 개선된 제한적 신호다",
-  "refs": [{ "label": "케피어 심혈관·대사 위험인자 6개 시험 메타분석", "doi": "10.2174/1389450124666230427095742", "pmid": "37102491" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=kefir · cond=Cardiovascular Diseases 5건 반환, 물질 일치 5건",
-    "pubmed": "kefir AND Cardiovascular Diseases 30건",
-    "negative": "kefir AND Cardiovascular Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) 29건",
-    "safety": "kefir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 153건"
+ "id": "kefir-cardiovascular-diseases-null",
+ "vs": "케피어군 대 대조군: 6개 RCT 314명에서 공복 인슐린 WMD−3.69μIU/mL (95% CI−6.30~−1.07; P=.006), HOMA-IR WMD−2.56 (95% CI−3.82~−1.30; P<.001); 총콜레스테롤·중성지방·HDL·LDL·공복혈당·HbA1c·체중은 유의한 차이 없음",
+ "subj": "케피어",
+ "claim": "케피어가 심혈관 위험요인을 낮춘다",
+ "line": "케피어는 인슐린 저항성만 낮추고 지질은 바꾸지 못했습니다",
+ "effect": "심혈관 지질 효과 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 314,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+ "why": "케피어 음료의 심혈관·대사 위험인자 무작위시험 메타분석을 확인했다",
+ "saw": "6개 무작위시험 314명에서 인슐린·HOMA-IR·지질·혈당·체중을 합쳤다",
+ "limit": "인슐린 저항성은 낮아졌지만 심혈관 사건을 직접 측정하지 않았다",
+ "against": "총콜레스테롤·LDL·HDL·중성지방·혈당·HbA1c·체중은 유의하게 변하지 않았다",
+ "use": "심혈관 위험요인 중 인슐린 저항성만 개선된 제한적 신호다",
+ "refs": [
+  {
+   "label": "케피어 심혈관·대사 위험인자 6개 시험 메타분석",
+   "doi": "10.2174/1389450124666230427095742",
+   "pmid": "37102491"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=kefir · cond=Cardiovascular Diseases 5건 반환, 물질 일치 5건",
+  "pubmed": "kefir AND Cardiovascular Diseases 30건",
+  "negative": "kefir AND Cardiovascular Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) 29건",
+  "safety": "kefir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 153건"
+ }
 }

@@ -1,28 +1,33 @@
 {
-  "id": "lactulose-bowel-preparation-pos",
-  "subj": "lactulose",
-  "claim": "대장내시경 전 폴리에틸렌글리콜에 락툴로오스를 더하면 장정결을 개선한다",
-  "line": "대장내시경 전 락툴로오스 병용은 장정결·선종 결과를 개선했습니다",
-  "effect": "장정결 OR 3.57; 선종 OR 2.57",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2468,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "락툴로오스의 대장내시경 장정결은 허가 적응증이 아니다",
-  "why": "대장내시경 전 폴리에틸렌글리콜 단독과 락툴로오스 병용을 비교한 연구를 메타분석했다.",
-  "saw": "무작위시험 16편, 2468명을 합쳤다. 락툴로오스 병용은 우수한 장정결 OR 3.57, 선종 발견 OR 2.57을 보였고 구토·복통·복부팽만도 줄였다.",
-  "limit": "메타분석에 포함된 연구의 용량과 장정결 방법이 서로 다를 수 있다.",
-  "against": "오심과 재검 의향은 PEG 단독과 유의한 차이가 없었다.",
-  "use": "대장내시경 전 장정결 조합을 평가한 근거로만 기록한다.",
-  "refs": [
-    { "label": "Xia 2025 · Journal of Gastroenterology and Hepatology · 메타분석", "doi": "10.1002/jgh3.70262", "pmid": "40893423" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=lactulose, cond=Bowel Preparation · 15건",
-    "pubmed": "lactulose AND Bowel Preparation · 83편",
-    "negative": "lactulose AND Bowel Preparation AND (no effect OR did not OR failed OR negative OR no significant difference) · 60편",
-    "safety": "lactulose AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1112편"
+ "id": "lactulose-bowel-preparation-pos",
+ "vs": "PEG+락툴로오스군 대 PEG 단독군: 16개 연구 2468명에서 우수 장정결 OR3.57 (95% CI2.75~4.63; P<.001), BBPS SMD0.38 (95% CI0.26~0.50), 구토 OR0.54 (95% CI0.36~0.82), 복부팽만 OR0.53 (95% CI0.38~0.75)",
+ "subj": "락툴로오스",
+ "claim": "대장내시경 전 폴리에틸렌글리콜에 락툴로오스를 더하면 장정결을 개선한다",
+ "line": "대장내시경 전 락툴로오스 병용은 장정결·선종 결과를 개선했습니다",
+ "effect": "장정결 OR 3.57; 선종 OR 2.57",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2468,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "락툴로오스의 대장내시경 장정결은 허가 적응증이 아니다",
+ "why": "대장내시경 전 폴리에틸렌글리콜 단독과 락툴로오스 병용을 비교한 연구를 메타분석했다.",
+ "saw": "무작위시험 16편, 2468명을 합쳤다. 락툴로오스 병용은 우수한 장정결 OR 3.57, 선종 발견 OR 2.57을 보였고 구토·복통·복부팽만도 줄였다.",
+ "limit": "메타분석에 포함된 연구의 용량과 장정결 방법이 서로 다를 수 있다.",
+ "against": "오심과 재검 의향은 PEG 단독과 유의한 차이가 없었다.",
+ "use": "대장내시경 전 장정결 조합을 평가한 근거로만 기록한다.",
+ "refs": [
+  {
+   "label": "Xia 2025 · Journal of Gastroenterology and Hepatology · 메타분석",
+   "doi": "10.1002/jgh3.70262",
+   "pmid": "40893423"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=lactulose, cond=Bowel Preparation · 15건",
+  "pubmed": "lactulose AND Bowel Preparation · 83편",
+  "negative": "lactulose AND Bowel Preparation AND (no effect OR did not OR failed OR negative OR no significant difference) · 60편",
+  "safety": "lactulose AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1112편"
+ }
 }
