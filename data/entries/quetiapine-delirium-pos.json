@@ -13,6 +13,20 @@
   "limit": "36명 규모의 예비시험이며 모든 환자가 필요시 할로페리돌을 함께 사용해 쿠에티아핀 단독 효과로 볼 수 없습니다.",
   "against": "사망률과 중환자실 재원기간은 다르지 않았고 쿠에티아핀군에서 졸림이 더 많았습니다.",
   "use": "중환자 섬망의 보조치료 신호로만 읽고 사망·재원기간 개선으로 확대하지 않아야 합니다.",
-  "refs": [{"label": "Devlin 2010 · Crit Care Med · 중환자 섬망 쿠에티아핀 예비 RCT", "doi": "10.1097/CCM.0b013e3181b9e302", "pmid": "19915454"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:QUETIAPINE → 153건; 확인 라벨의 적응증은 조현병·양극성장애·주요우울장애 보조치료", "ctgov": "query.intr=quetiapine&query.cond=Delirium → 17건 반환, InterventionName 대조 후 quetiapine 일치 13건", "pubmed": "quetiapine AND \"Delirium\" → 285건", "negative": "quetiapine AND \"Delirium\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 213건", "safety": "quetiapine AND \"Delirium\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 160건"}
+  "refs": [
+    {
+      "label": "Devlin 2010 · Crit Care Med · 중환자 섬망 쿠에티아핀 예비 RCT",
+      "doi": "10.1097/CCM.0b013e3181b9e302",
+      "pmid": "19915454"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:QUETIAPINE → 153건; 확인 라벨의 적응증은 조현병·양극성장애·주요우울장애 보조치료",
+    "ctgov": "query.intr=quetiapine&query.cond=Delirium → 17건 반환, InterventionName 대조 후 quetiapine 일치 13건",
+    "pubmed": "quetiapine AND \"Delirium\" → 285건",
+    "negative": "quetiapine AND \"Delirium\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 213건",
+    "safety": "quetiapine AND \"Delirium\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 160건"
+  },
+  "vs": "중환자 섬망 RCT(n=36)에서 쿠에티아핀 vs 위약 첫 섬망 해소 1.0일(IQR .5~3.0) vs 4.5일(2.0~7.0), p=.001; 섬망 기간 36 vs 120시간, p=.006"
 }
