@@ -1,28 +1,33 @@
 {
-  "id": "play-therapy-group-pain-pos",
-  "subj": "play therapy group",
-  "claim": "소아 시술 전 치료적 놀이가 통증·불안·공포를 줄인다",
-  "line": "시술 전 놀이는 소아 통증·불안·공포를 줄였지만 생리 차이는 없었습니다.",
-  "effect": "통증·불안·공포 감소; 생리 차이 없음",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "놀이 중재는 허가 의약품이 아닌 행동 중재입니다.",
-  "why": "소아 입원병동에서 시술 전 간호사 제공 태블릿 치료적 놀이를 표준관리와 비교한 무작위시험입니다.",
-  "saw": "3~6세 아동 40명(놀이군 20명, 대조군 20명)에서 놀이군의 시술 후 통증·불안·공포 점수가 더 낮았습니다(p<.001).",
-  "limit": "40명의 단일 소아 입원병동 시험이고 태블릿 놀이와 간호 제공을 함께 평가해 다른 놀이 방식에 일반화하기 어렵습니다.",
-  "against": "생리 지표와 부모 만족도는 군 간 차이가 없었습니다.",
-  "use": "소아 시술 전 약물진통을 대체하지 않는 짧은 보조 중재로 기록합니다.",
-  "refs": [
-    { "label": "The effect of pre-treatment therapeutic play on pain, fear, physiological parameters, and parental satisfaction in preschool children", "doi": "10.1016/j.pedn.2026.07.026", "pmid": "42475850" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.intr=play therapy group AND query.cond=Pain · 157건 반환, exact InterventionName 0건",
-    "pubmed": "\"play therapy group\" AND \"Pain\" · 1659편",
-    "negative": "\"play therapy group\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 419편",
-    "safety": "\"play therapy group\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") · 4608편"
+ "id": "play-therapy-group-pain-pos",
+ "subj": "놀이 치료 그룹",
+ "claim": "소아 시술 전 치료적 놀이가 통증·불안·공포를 줄인다",
+ "line": "시술 전 놀이는 소아 통증·불안·공포를 줄였지만 생리 차이는 없었습니다.",
+ "effect": "통증·불안·공포 감소; 생리 차이 없음",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "놀이 중재는 허가 의약품이 아닌 행동 중재입니다.",
+ "why": "소아 입원병동에서 시술 전 간호사 제공 태블릿 치료적 놀이를 표준관리와 비교한 무작위시험입니다.",
+ "saw": "3~6세 아동 40명(놀이군 20명, 대조군 20명)에서 놀이군의 시술 후 통증·불안·공포 점수가 더 낮았습니다(p<.001).",
+ "limit": "40명의 단일 소아 입원병동 시험이고 태블릿 놀이와 간호 제공을 함께 평가해 다른 놀이 방식에 일반화하기 어렵습니다.",
+ "against": "생리 지표와 부모 만족도는 군 간 차이가 없었습니다.",
+ "use": "소아 시술 전 약물진통을 대체하지 않는 짧은 보조 중재로 기록합니다.",
+ "refs": [
+  {
+   "label": "The effect of pre-treatment therapeutic play on pain, fear, physiological parameters, and parental satisfaction in preschool children",
+   "doi": "10.1016/j.pedn.2026.07.026",
+   "pmid": "42475850"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.intr=play therapy group AND query.cond=Pain · 157건 반환, exact InterventionName 0건",
+  "pubmed": "\"play therapy group\" AND \"Pain\" · 1659편",
+  "negative": "\"play therapy group\" AND \"Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 419편",
+  "safety": "\"play therapy group\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") · 4608편"
+ },
+ "vs": "군 간 차이: 간호사 제공 태블릿 놀이 치료 vs 표준 돌봄 시술 후 통증·불안·공포가 대조군보다 낮음, 효과크기 η²=0.526·0.455 (p<.001); 생리 지표·부모 만족도 차이 없음"
 }

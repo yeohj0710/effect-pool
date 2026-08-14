@@ -1,28 +1,34 @@
 {
-  "id": "portfolio-diet-diabetes-pos",
-  "subj": "portfolio diet",
-  "claim": "제2형 당뇨병 혈당 조절에 포트폴리오 식단을 쓴다",
-  "line": "포트폴리오 식단 점수가 높을수록 제2형 당뇨병의 HbA1c가 낮았습니다.",
-  "effect": "HbA1c 약 0.3%↓",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 267,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "제2형 당뇨병에 허가된 식이요법이 아닙니다.",
-  "why": "두 무작위 식이시험의 환자 수준 자료를 포트폴리오 식단 점수로 다시 분석한 연구입니다.",
-  "saw": "제2형 당뇨병 성인 267명의 6개월 자료에서 포트폴리오 식단 점수가 7.5점, 즉 30% 높아질 때 HbA1c가 0.3% 낮아졌습니다. 주된 기여 요소는 견과·씨앗과 식물성 단백질, 특히 콩류였습니다.",
-  "limit": "포트폴리오 식단을 무작위 배정한 시험이 아니라 기존 식이시험의 섭취 점수와 HbA1c 변화의 연관성을 분석했습니다.",
-  "against": "다양한 집단에서 포트폴리오 식단의 직접 인과효과를 확인하는 무작위시험이 필요합니다.",
-  "use": "제2형 당뇨병의 식이 순응도와 HbA1c 연관성을 설명하는 근거로만 사용합니다.",
-  "refs": [
-    { "label": "제2형 당뇨병 포트폴리오 식단 점수와 HbA1c", "doi": "10.3390/nu16172817", "pmid": "39275135", "pmc": "PMC11397446" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=portfolio diet AND query.cond=Diabetes · 8건, 직접 개입 2건",
-    "pubmed": "portfolio diet AND Diabetes · 101편, 결과 검색 68편",
-    "negative": "portfolio diet AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) · 64편",
-    "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ "id": "portfolio-diet-diabetes-pos",
+ "subj": "포트폴리오 식단",
+ "claim": "제2형 당뇨병 혈당 조절에 포트폴리오 식단을 쓴다",
+ "line": "포트폴리오 식단 점수가 높을수록 제2형 당뇨병의 HbA1c가 낮았습니다.",
+ "effect": "HbA1c 약 0.3%↓",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 267,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "제2형 당뇨병에 허가된 식이요법이 아닙니다.",
+ "why": "두 무작위 식이시험의 환자 수준 자료를 포트폴리오 식단 점수로 다시 분석한 연구입니다.",
+ "saw": "제2형 당뇨병 성인 267명의 6개월 자료에서 포트폴리오 식단 점수가 7.5점, 즉 30% 높아질 때 HbA1c가 0.3% 낮아졌습니다. 주된 기여 요소는 견과·씨앗과 식물성 단백질, 특히 콩류였습니다.",
+ "limit": "포트폴리오 식단을 무작위 배정한 시험이 아니라 기존 식이시험의 섭취 점수와 HbA1c 변화의 연관성을 분석했습니다.",
+ "against": "다양한 집단에서 포트폴리오 식단의 직접 인과효과를 확인하는 무작위시험이 필요합니다.",
+ "use": "제2형 당뇨병의 식이 순응도와 HbA1c 연관성을 설명하는 근거로만 사용합니다.",
+ "refs": [
+  {
+   "label": "제2형 당뇨병 포트폴리오 식단 점수와 HbA1c",
+   "doi": "10.3390/nu16172817",
+   "pmid": "39275135",
+   "pmc": "PMC11397446"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=portfolio diet AND query.cond=Diabetes · 8건, 직접 개입 2건",
+  "pubmed": "portfolio diet AND Diabetes · 101편, 결과 검색 68편",
+  "negative": "portfolio diet AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) · 64편",
+  "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ },
+ "vs": "상대 효과: 포트폴리오 식단 점수 1점 증가당 HbA1c 변화 β=-0.04% (95% CI -0.07~-0.02; p=.001), 7.5점 증가 시 -0.3%; 식물성 단백질 1점당 β=-0.11% (-0.18~-0.03)"
 }

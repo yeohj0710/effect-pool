@@ -1,28 +1,33 @@
 {
-  "id": "portfolio-diet-hyperlipidemia-pos",
-  "subj": "portfolio diet",
-  "claim": "고지혈증에 포트폴리오 식단을 쓴다",
-  "line": "포트폴리오 식단이 고지혈증의 LDL 콜레스테롤과 심대사 지표를 개선했습니다.",
-  "effect": "LDL 약 17%↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 439,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "고지혈증에 허가된 식이요법이 아닙니다.",
-  "why": "포트폴리오 식단과 에너지 matched 대조 식단을 비교한 대조시험 7개를 합친 메타분석입니다.",
-  "saw": "고지혈증 환자 439명의 7개 시험 비교에서 포트폴리오 식단은 대조식보다 LDL을 약 17%, 즉 0.73 mmol/L 낮췄고 비-HDL 콜레스테롤·아포지단백B·중성지방·혈압·CRP도 개선했습니다.",
-  "limit": "시험들이 모두 NCEP Step II 식단을 바탕으로 했고 식이요법 구성과 연구 기간이 달랐습니다.",
-  "against": "체중과 HDL 콜레스테롤에는 효과가 없었고 심혈관 사건을 직접 측정하지 않았습니다.",
-  "use": "고지혈증의 LDL 저하 식이 근거로 기록하되 스타틴의 심혈관 사건 감소 효과와 혼동하지 않습니다.",
-  "refs": [
-    { "label": "포트폴리오 식단 심혈관 위험 대조시험 메타분석", "doi": "10.1016/j.pcad.2018.05.004", "pmid": "29807048" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=portfolio diet AND query.cond=Hyperlipidemia · 10건, 직접 개입 1건",
-    "pubmed": "portfolio diet AND Hyperlipidemia · 30편, 결과 검색 20편",
-    "negative": "portfolio diet AND Hyperlipidemia AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
-    "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ "id": "portfolio-diet-hyperlipidemia-pos",
+ "subj": "포트폴리오 식단",
+ "claim": "고지혈증에 포트폴리오 식단을 쓴다",
+ "line": "포트폴리오 식단이 고지혈증의 LDL 콜레스테롤과 심대사 지표를 개선했습니다.",
+ "effect": "LDL 약 17%↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 439,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "고지혈증에 허가된 식이요법이 아닙니다.",
+ "why": "포트폴리오 식단과 에너지 matched 대조 식단을 비교한 대조시험 7개를 합친 메타분석입니다.",
+ "saw": "고지혈증 환자 439명의 7개 시험 비교에서 포트폴리오 식단은 대조식보다 LDL을 약 17%, 즉 0.73 mmol/L 낮췄고 비-HDL 콜레스테롤·아포지단백B·중성지방·혈압·CRP도 개선했습니다.",
+ "limit": "시험들이 모두 NCEP Step II 식단을 바탕으로 했고 식이요법 구성과 연구 기간이 달랐습니다.",
+ "against": "체중과 HDL 콜레스테롤에는 효과가 없었고 심혈관 사건을 직접 측정하지 않았습니다.",
+ "use": "고지혈증의 LDL 저하 식이 근거로 기록하되 스타틴의 심혈관 사건 감소 효과와 혼동하지 않습니다.",
+ "refs": [
+  {
+   "label": "포트폴리오 식단 심혈관 위험 대조시험 메타분석",
+   "doi": "10.1016/j.pcad.2018.05.004",
+   "pmid": "29807048"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=portfolio diet AND query.cond=Hyperlipidemia · 10건, 직접 개입 1건",
+  "pubmed": "portfolio diet AND Hyperlipidemia · 30편, 결과 검색 20편",
+  "negative": "portfolio diet AND Hyperlipidemia AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
+  "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ },
+ "vs": "군 간 차이: 포트폴리오 식단+NCEP 2단계 식단 vs NCEP 2단계 식단 LDL 평균차 -0.73 mmol/L (95% CI -0.89~-0.56), 약 17% 감소; 체중 차이 없음"
 }

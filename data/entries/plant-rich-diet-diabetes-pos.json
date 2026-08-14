@@ -1,20 +1,35 @@
 {
-  "id": "plant-rich-diet-diabetes-pos",
-  "subj": "plant rich diet",
-  "claim": "통곡물 식물성 식단이 제2형 당뇨병의 혈당 조절을 개선한다",
-  "line": "통곡물 식물성 식단이 제2형 당뇨병의 혈당 조절을 개선했습니다.",
-  "effect": "24주 HbA1c 추가 −0.7%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 169,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식물성 식단은 의약품이 아닌 식생활 행동 중재입니다.",
-  "why": "제2형 당뇨병 성인 169명을 통곡물 식물성 식단·운동군과 표준 진료군에 24주 무작위 배정했습니다.",
-  "saw": "24주에 식물성 식단·운동군의 HbA1c가 표준 진료군보다 추가로 8 mmol/mol(0.7%) 낮아졌고, 복용 중인 사람의 63%가 혈당강하제를 줄였습니다(대조군 24%).",
-  "limit": "식단과 운동을 함께 중재했고 분석 대상은 무작위 배정 인원보다 적었습니다.",
-  "against": "24주에는 지질·중성지방·심박수 개선이 지속되지 않았습니다.",
-  "use": "제2형 당뇨병에서 식물성 식단과 운동을 묶은 생활습관 중재의 혈당 신호로 기록합니다.",
-  "refs": [{ "label": "제2형 당뇨병 통곡물 식물성 식단 무작위시험", "doi": "10.1007/s00125-024-06272-8", "pmid": "39305340", "pmc": "PMC11732952", "nct": "NCT03862963" }],
-  "queried": { "date": "2026-08-08", "ctgov": "plant rich diet AND Diabetes · 18건 반환", "pubmed": "plant rich diet AND Diabetes · 2935편", "negative": "plant rich diet AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) · 1902편", "safety": "plant rich diet AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 3117편" }
+ "id": "plant-rich-diet-diabetes-pos",
+ "subj": "식물 중심 식단",
+ "claim": "통곡물 식물성 식단이 제2형 당뇨병의 혈당 조절을 개선한다",
+ "line": "통곡물 식물성 식단이 제2형 당뇨병의 혈당 조절을 개선했습니다.",
+ "effect": "24주 HbA1c 추가 −0.7%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 169,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식물성 식단은 의약품이 아닌 식생활 행동 중재입니다.",
+ "why": "제2형 당뇨병 성인 169명을 통곡물 식물성 식단·운동군과 표준 진료군에 24주 무작위 배정했습니다.",
+ "saw": "24주에 식물성 식단·운동군의 HbA1c가 표준 진료군보다 추가로 8 mmol/mol(0.7%) 낮아졌고, 복용 중인 사람의 63%가 혈당강하제를 줄였습니다(대조군 24%).",
+ "limit": "식단과 운동을 함께 중재했고 분석 대상은 무작위 배정 인원보다 적었습니다.",
+ "against": "24주에는 지질·중성지방·심박수 개선이 지속되지 않았습니다.",
+ "use": "제2형 당뇨병에서 식물성 식단과 운동을 묶은 생활습관 중재의 혈당 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "제2형 당뇨병 통곡물 식물성 식단 무작위시험",
+   "doi": "10.1007/s00125-024-06272-8",
+   "pmid": "39305340",
+   "pmc": "PMC11732952",
+   "nct": "NCT03862963"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "plant rich diet AND Diabetes · 18건 반환",
+  "pubmed": "plant rich diet AND Diabetes · 2935편",
+  "negative": "plant rich diet AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) · 1902편",
+  "safety": "plant rich diet AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 3117편"
+ },
+ "vs": "군 간 차이: 통곡물 식물성 식단+운동 vs 표준 진료 HbA1c 12주 -2.0% vs -0.7% (추가 차이 -1.3%), 24주 -1.4% vs -0.7% (추가 차이 -0.7%); 약물 감량 63% vs 24%"
 }

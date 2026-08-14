@@ -1,28 +1,34 @@
 {
-  "id": "portfolio-diet-hypercholesterolemia-pos",
-  "subj": "portfolio diet",
-  "claim": "고콜레스테롤혈증에 포트폴리오 식단을 쓴다",
-  "line": "포트폴리오 지중해 식단이 대조 식단보다 LDL 콜레스테롤을 더 낮췄습니다.",
-  "effect": "LDL 44 mg/dL↓",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 72,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "고콜레스테롤혈증에 허가된 식이요법이 아닙니다.",
-  "why": "고콜레스테롤혈증 환자의 포트폴리오-지중해 식단과 대조 식단을 단기간 후향 비교한 연구입니다.",
-  "saw": "포트폴리오-지중해 식단 24명과 지중해 식단 또는 식물스테롤 요거트 대조군 48명을 48±12일 뒤 비교했습니다. LDL 감소는 각각 44±4, 21±4, 23±4 mg/dL였습니다.",
-  "limit": "후향적 매칭 비교이고 추적 기간이 짧으며 식단의 여러 식품 성분 효과를 분리할 수 없습니다.",
-  "against": "직접 무작위 비교가 아니며 체중·혈압 등 장기 임상 결과를 평가하지 않았습니다.",
-  "use": "고콜레스테롤혈증의 단기 LDL 변화 신호로만 기록하고 약물 대체 근거로 사용하지 않습니다.",
-  "refs": [
-    { "label": "포트폴리오-지중해 식단과 고콜레스테롤혈증 LDL", "doi": "10.3803/EnM.2020.35.2.298", "pmid": "32615714", "pmc": "PMC7386117" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=portfolio diet AND query.cond=Hypercholesterolemia · 9건, 직접 개입 1건",
-    "pubmed": "portfolio diet AND Hypercholesterolemia · 18편, 결과 검색 12편",
-    "negative": "portfolio diet AND Hypercholesterolemia AND (no effect OR did not OR failed OR negative OR no significant difference) · 17편",
-    "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ "id": "portfolio-diet-hypercholesterolemia-pos",
+ "subj": "포트폴리오 식단",
+ "claim": "고콜레스테롤혈증에 포트폴리오 식단을 쓴다",
+ "line": "포트폴리오 지중해 식단이 대조 식단보다 LDL 콜레스테롤을 더 낮췄습니다.",
+ "effect": "LDL 44 mg/dL↓",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 72,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "고콜레스테롤혈증에 허가된 식이요법이 아닙니다.",
+ "why": "고콜레스테롤혈증 환자의 포트폴리오-지중해 식단과 대조 식단을 단기간 후향 비교한 연구입니다.",
+ "saw": "포트폴리오-지중해 식단 24명과 지중해 식단 또는 식물스테롤 요거트 대조군 48명을 48±12일 뒤 비교했습니다. LDL 감소는 각각 44±4, 21±4, 23±4 mg/dL였습니다.",
+ "limit": "후향적 매칭 비교이고 추적 기간이 짧으며 식단의 여러 식품 성분 효과를 분리할 수 없습니다.",
+ "against": "직접 무작위 비교가 아니며 체중·혈압 등 장기 임상 결과를 평가하지 않았습니다.",
+ "use": "고콜레스테롤혈증의 단기 LDL 변화 신호로만 기록하고 약물 대체 근거로 사용하지 않습니다.",
+ "refs": [
+  {
+   "label": "포트폴리오-지중해 식단과 고콜레스테롤혈증 LDL",
+   "doi": "10.3803/EnM.2020.35.2.298",
+   "pmid": "32615714",
+   "pmc": "PMC7386117"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=portfolio diet AND query.cond=Hypercholesterolemia · 9건, 직접 개입 1건",
+  "pubmed": "portfolio diet AND Hypercholesterolemia · 18편, 결과 검색 12편",
+  "negative": "portfolio diet AND Hypercholesterolemia AND (no effect OR did not OR failed OR negative OR no significant difference) · 17편",
+  "safety": "portfolio diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ },
+ "vs": "군 간 차이: 포트폴리오-지중해 식단 vs 지중해 식단 단독·스테롤 요구르트 LDL 감소 44±4 vs 21±4·23±4 mg/dL (p<.001)"
 }

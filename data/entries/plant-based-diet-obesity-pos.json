@@ -1,29 +1,40 @@
 {
-  "id": "plant-based-diet-obesity-pos",
-  "subj": "식물성 식단",
-  "claim": "비만에 식물성 식단을 적용한다",
-  "line": "식물성 식단이 과체중·비만 성인의 6개월 BMI를 대조군보다 더 줄였습니다.",
-  "effect": "6개월 BMI 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 65,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식이 중재이며 허가 의약품 적응증이 아닙니다.",
-  "why": "과체중 또는 비만과 심혈관·대사질환 위험이 있는 성인 65명을 식물성 식단군과 일반 관리군에 무작위 배정했습니다.",
-  "saw": "지역사회 식물성 식단 프로그램군 33명과 대조군 32명을 비교했고, 6개월 BMI 감소가 식단군에서 더 컸습니다.",
-  "limit": "6개월 추적을 마친 사람은 49명이었고 비만만이 아니라 당뇨·허혈성 심장질환 등 위험군이 섞였습니다.",
-  "against": "비만 예방·치료 효과가 식물성 식단 자체에서 일관되지 않다는 비판적 고찰도 있습니다.",
-  "use": "비만에서 식물성 식단의 단기 BMI 신호로만 기록하며 영양 적합성을 따로 확인해야 합니다.",
-  "refs": [
-    { "label": "지역사회 전곡 식물성 식단 비만 무작위시험", "doi": "10.1038/nutd.2017.3", "pmid": "28319109", "pmc": "PMC5380896" },
-    { "label": "식물성 식단과 비만에 대한 비판적 고찰", "doi": "10.1093/advances/nmz090", "pmid": "31504086", "pmc": "PMC7442415" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "intr=plant based diet AND cond=Obesity · 141건 반환, intervention 직접 대조 2건",
-    "pubmed": "plant based diet AND Obesity · 3,134건; trial·review 970건",
-    "negative": "plant based diet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 2,019건",
-    "safety": "plant based diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 3,221건"
+ "id": "plant-based-diet-obesity-pos",
+ "subj": "식물성 식단",
+ "claim": "비만에 식물성 식단을 적용한다",
+ "line": "식물성 식단이 과체중·비만 성인의 6개월 BMI를 대조군보다 더 줄였습니다.",
+ "effect": "6개월 BMI 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 65,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식이 중재이며 허가 의약품 적응증이 아닙니다.",
+ "why": "과체중 또는 비만과 심혈관·대사질환 위험이 있는 성인 65명을 식물성 식단군과 일반 관리군에 무작위 배정했습니다.",
+ "saw": "지역사회 식물성 식단 프로그램군 33명과 대조군 32명을 비교했고, 6개월 BMI 감소가 식단군에서 더 컸습니다.",
+ "limit": "6개월 추적을 마친 사람은 49명이었고 비만만이 아니라 당뇨·허혈성 심장질환 등 위험군이 섞였습니다.",
+ "against": "비만 예방·치료 효과가 식물성 식단 자체에서 일관되지 않다는 비판적 고찰도 있습니다.",
+ "use": "비만에서 식물성 식단의 단기 BMI 신호로만 기록하며 영양 적합성을 따로 확인해야 합니다.",
+ "refs": [
+  {
+   "label": "지역사회 전곡 식물성 식단 비만 무작위시험",
+   "doi": "10.1038/nutd.2017.3",
+   "pmid": "28319109",
+   "pmc": "PMC5380896"
+  },
+  {
+   "label": "식물성 식단과 비만에 대한 비판적 고찰",
+   "doi": "10.1093/advances/nmz090",
+   "pmid": "31504086",
+   "pmc": "PMC7442415"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "intr=plant based diet AND cond=Obesity · 141건 반환, intervention 직접 대조 2건",
+  "pubmed": "plant based diet AND Obesity · 3,134건; trial·review 970건",
+  "negative": "plant based diet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 2,019건",
+  "safety": "plant based diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 3,221건"
+ },
+ "vs": "군 간 차이: 전곡 식물성 식단 vs 통상 관리 6개월 BMI 감소 4.4 vs 0.4 kg/m², 차이 3.9 (95% CI ±1; p<.0001); 총콜레스테롤 감소 0.71 vs 0.26 mmol/L, 차이 0.45 (p=.1)"
 }
