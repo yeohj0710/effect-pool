@@ -1,28 +1,32 @@
 {
-  "id": "mindfulness-based-cognitive-therapy-cancer-pos",
-  "subj": "mindfulness based cognitive therapy",
-  "claim": "마음챙김 기반 인지치료를 유방암 환자의 심리적 distress에 쓴다",
-  "line": "유방암 환자 인지치료는 심리적 고통을 줄였습니다",
-  "effect": "심리적 distress 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 74,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마음챙김 기반 인지치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "1~3기 유방암 외래환자에게 8주 마음챙김 기반 인지치료를 제공하면 불안·우울, 재발 두려움, 피로와 삶의 질이 좋아지는지 대기군과 비교했습니다.",
-  "saw": "유방암 환자 74명을 마음챙김 기반 인지치료군 38명과 대기군 36명에 무작위 배정했습니다. 심리적 distress와 재발 두려움, 피로, 영적 안녕, 삶의 질을 평가했습니다.",
-  "limit": "일본의 1~3기 유방암 외래환자 표본이며, 대기군과 비교한 8주 중재입니다.",
-  "against": "암의 병기와 치료 단계에 따라 심리 결과가 달라질 수 있습니다.",
-  "use": "유방암 치료 중 심리적 distress와 재발 두려움을 다루는 보조 심리치료",
-  "refs": [
-    { "label": "Fukui 2021 · Psycho-Oncology · 무작위시험", "pmid": "32105790" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=mindfulness based cognitive therapy AND condition=Cancer; 122건 반환, 중재명 대조 후 1건",
-    "pubmed": "mindfulness based cognitive therapy AND Cancer; 809건",
-    "negative": "mindfulness based cognitive therapy AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 645건",
-    "safety": "mindfulness based cognitive therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 668건"
+ "id": "mindfulness-based-cognitive-therapy-cancer-pos",
+ "subj": "마음챙김 인지치료",
+ "claim": "마음챙김 기반 인지치료를 유방암 환자의 심리적 distress에 쓴다",
+ "line": "유방암 환자 인지치료는 심리적 고통을 줄였습니다",
+ "effect": "심리적 distress 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 74,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마음챙김 기반 인지치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "1~3기 유방암 외래환자에게 8주 마음챙김 기반 인지치료를 제공하면 불안·우울, 재발 두려움, 피로와 삶의 질이 좋아지는지 대기군과 비교했습니다.",
+ "saw": "유방암 환자 74명을 마음챙김 기반 인지치료군 38명과 대기군 36명에 무작위 배정했습니다. 심리적 distress와 재발 두려움, 피로, 영적 안녕, 삶의 질을 평가했습니다.",
+ "limit": "일본의 1~3기 유방암 외래환자 표본이며, 대기군과 비교한 8주 중재입니다.",
+ "against": "암의 병기와 치료 단계에 따라 심리 결과가 달라질 수 있습니다.",
+ "use": "유방암 치료 중 심리적 distress와 재발 두려움을 다루는 보조 심리치료",
+ "refs": [
+  {
+   "label": "Fukui 2021 · Psycho-Oncology · 무작위시험",
+   "pmid": "32105790"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=mindfulness based cognitive therapy AND condition=Cancer; 122건 반환, 중재명 대조 후 1건",
+  "pubmed": "mindfulness based cognitive therapy AND Cancer; 809건",
+  "negative": "mindfulness based cognitive therapy AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 645건",
+  "safety": "mindfulness based cognitive therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 668건"
+ },
+ "vs": "군 간 차이: MBCT vs waitlist: psychological distress Cohen d=1.17 (P<.001), fear of recurrence d=0.43 (P<.05), fatigue d=0.66 (P<.01), quality of life d=0.79 (P<.001)"
 }

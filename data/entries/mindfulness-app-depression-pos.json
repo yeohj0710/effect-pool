@@ -1,28 +1,33 @@
 {
-  "id": "mindfulness-app-depression-pos",
-  "subj": "mindfulness app",
-  "claim": "마음챙김 앱이 일하는 여성의 스트레스와 우울·불안 증상을 줄인다",
-  "line": "직장 여성에서 마음챙김 앱은 스트레스와 우울·불안을 줄였습니다",
-  "effect": "스트레스 -2.00, 우울·불안 -1.24",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 213,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마음챙김 앱은 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "일하는 여성 213명을 8주 스마트폰 마음챙김 앱과 대기 대조군으로 무작위 배정했다.",
-  "saw": "앱군 106명은 대조군보다 삶의 만족도가 높아지고 지각 스트레스가 b -2.00, 우울·불안 증상이 b -1.24 줄었다.",
-  "limit": "대기 대조군을 사용했고, 직장·가족 관련 지표는 대부분 개선되지 않아 중재 강도가 충분하지 않을 수 있다.",
-  "against": "직무 수행, 직무 만족도, 가족 만족도와 일-가족 갈등은 유의하게 개선되지 않았다.",
-  "use": "일하는 여성의 스트레스와 가벼운 우울·불안 증상에 자기주도 마음챙김을 보조 수단으로 검토한다.",
-  "refs": [
-    { "label": "8-Week App-Based Mindfulness in Working Women 2026 · Journal of Medical Internet Research", "doi": "10.2196/62814", "pmid": "41627885" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=mindfulness app AND condition=Depression; 108건 반환, 중재명 일치 2건",
-    "pubmed": "mindfulness app AND Depression; 283건",
-    "negative": "mindfulness app AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 224건",
-    "safety": "mindfulness app AND (adverse OR toxicity OR case report OR harm OR dropout); 37건"
+ "id": "mindfulness-app-depression-pos",
+ "subj": "마음챙김 앱",
+ "claim": "마음챙김 앱이 일하는 여성의 스트레스와 우울·불안 증상을 줄인다",
+ "line": "직장 여성에서 마음챙김 앱은 스트레스와 우울·불안을 줄였습니다",
+ "effect": "스트레스 -2.00, 우울·불안 -1.24",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 213,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마음챙김 앱은 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "일하는 여성 213명을 8주 스마트폰 마음챙김 앱과 대기 대조군으로 무작위 배정했다.",
+ "saw": "앱군 106명은 대조군보다 삶의 만족도가 높아지고 지각 스트레스가 b -2.00, 우울·불안 증상이 b -1.24 줄었다.",
+ "limit": "대기 대조군을 사용했고, 직장·가족 관련 지표는 대부분 개선되지 않아 중재 강도가 충분하지 않을 수 있다.",
+ "against": "직무 수행, 직무 만족도, 가족 만족도와 일-가족 갈등은 유의하게 개선되지 않았다.",
+ "use": "일하는 여성의 스트레스와 가벼운 우울·불안 증상에 자기주도 마음챙김을 보조 수단으로 검토한다.",
+ "refs": [
+  {
+   "label": "8-Week App-Based Mindfulness in Working Women 2026 · Journal of Medical Internet Research",
+   "doi": "10.2196/62814",
+   "pmid": "41627885"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=mindfulness app AND condition=Depression; 108건 반환, 중재명 일치 2건",
+  "pubmed": "mindfulness app AND Depression; 283건",
+  "negative": "mindfulness app AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 224건",
+  "safety": "mindfulness app AND (adverse OR toxicity OR case report OR harm OR dropout); 37건"
+ },
+ "vs": "군 간 차이: mindfulness app vs waitlist: life satisfaction b=1.47, beta=0.11 (P=.005); perceived stress b=-2.00, beta=-0.17 (P=.01); depression/anxiety b=-1.24, beta=-0.15 (P=.02)"
 }
