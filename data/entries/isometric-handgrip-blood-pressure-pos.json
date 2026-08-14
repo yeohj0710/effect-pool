@@ -1,29 +1,36 @@
 {
-  "id": "isometric-handgrip-blood-pressure-pos",
-  "subj": "isometric handgrip",
-  "claim": "등척성 악력 운동이 고혈압 환자의 혈압을 낮춘다",
-  "line": "고혈압에서 등척성 악력 뒤 수축기 혈압이 낮아졌습니다",
-  "effect": "수축기 혈압 -8.19 mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 30,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 중재이며 고혈압의 표준 치료를 대체하는 허가 적응증은 아닙니다.",
-  "why": "고혈압 노인 30명을 등척성 악력 운동군 15명과 비저항 악력 대조군 15명에 무작위 배정한 8주 시험입니다.",
-  "saw": "중재군 수축기 혈압은 -7.33±9.63 mmHg, 이완기 혈압은 -3.6±5.79 mmHg 줄었고 수축기 혈압의 군 간 차이는 -8.19 mmHg(P=0.03)였습니다. 합병증은 보고되지 않았습니다.",
-  "limit": "30명 규모의 8주 시험이며 고혈압 노인에게서 확인한 결과입니다.",
-  "against": "20주 자가훈련 48명 시험에서는 일반 관리보다 수축기 혈압을 낮추지 못했습니다.",
-  "use": "표준 혈압 치료를 대신하지 않는 보조 운동 근거로만 검토합니다.",
-  "refs": [
-    { "label": "Isometric handgrip exercise and blood pressure · randomized trial", "pmid": "41779689" },
-    { "label": "Home-based isometric handgrip training · randomized trial", "pmid": "38166533" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=isometric handgrip AND query.cond=Blood Pressure · 29건 반환, exact InterventionName 0건",
-    "pubmed": "\"isometric handgrip\" AND \"Blood Pressure\" · 598건",
-    "negative": "\"isometric handgrip\" AND \"Blood Pressure\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 179건",
-    "safety": "\"isometric handgrip\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 182건"
+ "id": "isometric-handgrip-blood-pressure-pos",
+ "vs": "가정 등척성 악력운동군 대 비저항 악력군: 15명 대15명 시험에서 수축기혈압 −7.33±9.63mmHg, 이완기 −3.6±5.79, 군 간 수축기혈압 차이 −8.19mmHg (P=.03); 별도 48명 시험에서는 조정된 군 간 수축기혈압 차이 8.12mmHg (95% CI0.24~16.01; P=.04)로 통상관리군이 우세",
+ "subj": "등척성 악력운동",
+ "claim": "등척성 악력 운동이 고혈압 환자의 혈압을 낮춘다",
+ "line": "고혈압에서 등척성 악력 뒤 수축기 혈압이 낮아졌습니다",
+ "effect": "수축기 혈압 -8.19 mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 중재이며 고혈압의 표준 치료를 대체하는 허가 적응증은 아닙니다.",
+ "why": "고혈압 노인 30명을 등척성 악력 운동군 15명과 비저항 악력 대조군 15명에 무작위 배정한 8주 시험입니다.",
+ "saw": "중재군 수축기 혈압은 -7.33±9.63 mmHg, 이완기 혈압은 -3.6±5.79 mmHg 줄었고 수축기 혈압의 군 간 차이는 -8.19 mmHg(P=0.03)였습니다. 합병증은 보고되지 않았습니다.",
+ "limit": "30명 규모의 8주 시험이며 고혈압 노인에게서 확인한 결과입니다.",
+ "against": "20주 자가훈련 48명 시험에서는 일반 관리보다 수축기 혈압을 낮추지 못했습니다.",
+ "use": "표준 혈압 치료를 대신하지 않는 보조 운동 근거로만 검토합니다.",
+ "refs": [
+  {
+   "label": "Isometric handgrip exercise and blood pressure · randomized trial",
+   "pmid": "41779689"
+  },
+  {
+   "label": "Home-based isometric handgrip training · randomized trial",
+   "pmid": "38166533"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=isometric handgrip AND query.cond=Blood Pressure · 29건 반환, exact InterventionName 0건",
+  "pubmed": "\"isometric handgrip\" AND \"Blood Pressure\" · 598건",
+  "negative": "\"isometric handgrip\" AND \"Blood Pressure\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 179건",
+  "safety": "\"isometric handgrip\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 182건"
+ }
 }

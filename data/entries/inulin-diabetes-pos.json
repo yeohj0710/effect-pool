@@ -1,26 +1,33 @@
 {
-  "id": "inulin-diabetes-pos",
-  "subj": "inulin",
-  "claim": "이눌린이 당뇨병 혈당을 낮춘다",
-  "line": "이눌린 뒤 혈당·HbA1c·HOMA-IR가 낮아졌습니다",
-  "effect": "혈당 지표 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1346,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
-  "why": "이눌린형 프럭탄 보충의 당뇨병 혈당 효과를 GRADE 메타분석으로 확인했다",
-  "saw": "33개 무작위시험 1,346명에서 공복혈당·HbA1c·공복인슐린·HOMA-IR을 합쳤다",
-  "limit": "근거 확실성이 지표와 하위집단에 따라 달랐다",
-  "against": "성별·이눌린 형태·섭취 방식에 따라 효과가 달라졌다",
-  "use": "당뇨병과 당뇨 전단계에서 혈당 지표 개선 신호를 기록했다",
-  "refs": [{ "label": "이눌린형 프럭탄 33개 무작위시험 메타분석", "doi": "10.1186/s12967-019-02159-0", "pmid": "31805963" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=inulin · cond=Diabetes 15건 반환, 물질 일치 15건",
-    "pubmed": "inulin AND Diabetes 783건",
-    "negative": "inulin AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 543건",
-    "safety": "inulin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1287건"
+ "id": "inulin-diabetes-pos",
+ "vs": "이눌린형 프럭탄군 대 대조군: 전당뇨·2형 당뇨 FBG WMD−0.60mmol/L (95% CI−0.71~−0.48), HbA1c WMD−0.58% (95% CI−0.83~−0.32), HOMA-IR WMD−0.69 (95% CI−1.10~−0.28); 33개 RCT, 1346명",
+ "subj": "이눌린",
+ "claim": "이눌린이 당뇨병 혈당을 낮춘다",
+ "line": "이눌린 뒤 혈당·HbA1c·HOMA-IR가 낮아졌습니다",
+ "effect": "혈당 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1346,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+ "why": "이눌린형 프럭탄 보충의 당뇨병 혈당 효과를 GRADE 메타분석으로 확인했다",
+ "saw": "33개 무작위시험 1,346명에서 공복혈당·HbA1c·공복인슐린·HOMA-IR을 합쳤다",
+ "limit": "근거 확실성이 지표와 하위집단에 따라 달랐다",
+ "against": "성별·이눌린 형태·섭취 방식에 따라 효과가 달라졌다",
+ "use": "당뇨병과 당뇨 전단계에서 혈당 지표 개선 신호를 기록했다",
+ "refs": [
+  {
+   "label": "이눌린형 프럭탄 33개 무작위시험 메타분석",
+   "doi": "10.1186/s12967-019-02159-0",
+   "pmid": "31805963"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=inulin · cond=Diabetes 15건 반환, 물질 일치 15건",
+  "pubmed": "inulin AND Diabetes 783건",
+  "negative": "inulin AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 543건",
+  "safety": "inulin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1287건"
+ }
 }
