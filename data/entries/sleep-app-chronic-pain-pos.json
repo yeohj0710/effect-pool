@@ -1,28 +1,34 @@
 {
-  "id": "sleep-app-chronic-pain-pos",
-  "subj": "sleep app",
-  "claim": "수면 시간을 늘리면 앱으로 통증을 기록하는 소아 관절염 환자의 통증이 줄어든다",
-  "line": "수면 연장 주간에는 소아 관절염 통증 개선 가능성이 더 높았습니다",
-  "effect": "건강한 수면 주간 통증 OR 0.61",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 31,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 연장은 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "청소년 특발성 관절염 환자 31명을 건강한 수면 시간과 제한된 수면에 교차 배정하고, iCanCope with Pain 앱으로 통증을 기록했다.",
-  "saw": "건강한 수면 주간에는 제한 수면 주간보다 밤에 침대에 있는 시간이 평균 1.4시간 늘었고, 통증 점수가 좋아질 가능성이 OR 0.61(95% 신뢰구간 0.39~0.95)이었다.",
-  "limit": "표본이 31명인 짧은 교차시험이며, 앱은 수면 중재가 아니라 통증 자기보고 도구였다.",
-  "against": "수면 연장의 효과가 성인 만성 통증이나 다른 통증 질환에도 같은지는 확인되지 않았다.",
-  "use": "만성 통증 관리에서 수면 시간을 늘리고 앱으로 통증 변화를 기록하는 보조 전략으로 검토한다.",
-  "refs": [
-    { "label": "Lengthening Sleep Reduces Pain in Childhood Arthritis 2023 · RMD Open", "doi": "10.1136/rmdopen-2023-003352", "pmid": "37914178", "nct": "NCT04133662" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=sleep app AND condition=Chronic Pain; 27건 반환, 중재명 일치 0건",
-    "pubmed": "sleep app AND Chronic Pain; 75건",
-    "negative": "sleep app AND Chronic Pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 54건",
-    "safety": "sleep app AND (adverse OR toxicity OR case report OR harm OR dropout); 15건"
+ "id": "sleep-app-chronic-pain-pos",
+ "subj": "수면 앱",
+ "claim": "수면 시간을 늘리면 앱으로 통증을 기록하는 소아 관절염 환자의 통증이 줄어든다",
+ "line": "수면 연장 주간에는 소아 관절염 통증 개선 가능성이 더 높았습니다",
+ "effect": "건강한 수면 주간 통증 OR 0.61",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 31,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 연장은 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "청소년 특발성 관절염 환자 31명을 건강한 수면 시간과 제한된 수면에 교차 배정하고, iCanCope with Pain 앱으로 통증을 기록했다.",
+ "saw": "건강한 수면 주간에는 제한 수면 주간보다 밤에 침대에 있는 시간이 평균 1.4시간 늘었고, 통증 점수가 좋아질 가능성이 OR 0.61(95% 신뢰구간 0.39~0.95)이었다.",
+ "limit": "표본이 31명인 짧은 교차시험이며, 앱은 수면 중재가 아니라 통증 자기보고 도구였다.",
+ "against": "수면 연장의 효과가 성인 만성 통증이나 다른 통증 질환에도 같은지는 확인되지 않았다.",
+ "use": "만성 통증 관리에서 수면 시간을 늘리고 앱으로 통증 변화를 기록하는 보조 전략으로 검토한다.",
+ "refs": [
+  {
+   "label": "Lengthening Sleep Reduces Pain in Childhood Arthritis 2023 · RMD Open",
+   "doi": "10.1136/rmdopen-2023-003352",
+   "pmid": "37914178",
+   "nct": "NCT04133662"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=sleep app AND condition=Chronic Pain; 27건 반환, 중재명 일치 0건",
+  "pubmed": "sleep app AND Chronic Pain; 75건",
+  "negative": "sleep app AND Chronic Pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 54건",
+  "safety": "sleep app AND (adverse OR toxicity OR case report OR harm OR dropout); 15건"
+ },
+ "vs": "상대 효과: 건강한 수면시간 9.5시간 vs 제한 수면 6.5시간 소아 관절염 통증 OR 0.61 (95% CrI 0.39~0.95); 건강한 수면에서 수면시간 +1.4시간/밤"
 }

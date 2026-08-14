@@ -1,26 +1,34 @@
 {
-  "id": "singing-therapy-cardiovascular-health-pos",
-  "subj": "singing therapy",
-  "claim": "노래 치료가 관상동맥질환 고령자의 혈관 기능을 개선한다",
-  "line": "영상 따라 부르기는 관상동맥질환 고령자의 미세혈관 내피 기능을 개선했습니다",
-  "effect": "미세혈관 내피기능 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 65,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
-  "why": "관상동맥질환 고령자에서 노래와 휴식을 비교한 무작위 교차시험",
-  "saw": "65명이 30분 생노래·영상 따라 부르기·휴식에 참여했고 영상 따라 부르기 뒤 fRHI가 대조보다 0.54 높았다",
-  "limit": "단회 세션이고 미세혈관 결과만 개선됐으며 대혈관 기능은 변하지 않았다",
-  "against": "장기 심혈관 사건 예방이나 심장재활 효과로 일반화할 수 없다",
-  "use": "노래를 가벼운 신체·호흡 활동으로 평가할 근거가 있지만 치료 대체로 볼 수 없다",
-  "refs": [{ "label": "관상동맥질환 고령자 노래 무작위 교차시험", "doi": "10.3389/fcvm.2025.1546462", "pmid": "40357442", "nct": "NCT04121741" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=singing therapy · cond=Cardiovascular Health 0건 반환, 물질 일치 0건",
-    "pubmed": "singing therapy AND Cardiovascular Health 9건",
-    "negative": "singing therapy AND Cardiovascular Health AND (no effect OR did not OR failed OR negative OR no significant difference) 7건",
-    "safety": "singing therapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 116건"
+ "id": "singing-therapy-cardiovascular-health-pos",
+ "subj": "노래 치료",
+ "claim": "노래 치료가 관상동맥질환 고령자의 혈관 기능을 개선한다",
+ "line": "영상 따라 부르기는 관상동맥질환 고령자의 미세혈관 내피 기능을 개선했습니다",
+ "effect": "미세혈관 내피기능 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 65,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
+ "why": "관상동맥질환 고령자에서 노래와 휴식을 비교한 무작위 교차시험",
+ "saw": "65명이 30분 생노래·영상 따라 부르기·휴식에 참여했고 영상 따라 부르기 뒤 fRHI가 대조보다 0.54 높았다",
+ "limit": "단회 세션이고 미세혈관 결과만 개선됐으며 대혈관 기능은 변하지 않았다",
+ "against": "장기 심혈관 사건 예방이나 심장재활 효과로 일반화할 수 없다",
+ "use": "노래를 가벼운 신체·호흡 활동으로 평가할 근거가 있지만 치료 대체로 볼 수 없다",
+ "refs": [
+  {
+   "label": "관상동맥질환 고령자 노래 무작위 교차시험",
+   "doi": "10.3389/fcvm.2025.1546462",
+   "pmid": "40357442",
+   "nct": "NCT04121741"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=singing therapy · cond=Cardiovascular Health 0건 반환, 물질 일치 0건",
+  "pubmed": "singing therapy AND Cardiovascular Health 9건",
+  "negative": "singing therapy AND Cardiovascular Health AND (no effect OR did not OR failed OR negative OR no significant difference) 7건",
+  "safety": "singing therapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 116건"
+ },
+ "vs": "상대 효과: 노래 치료 영상 vs 휴식 30분 안정형 관상동맥질환 미세혈관 기능 fRHI 변화 추정치 +0.54 (SE 0.19; p=.005); 대면 생노래 +0.11 (0.18; p=.570), 큰혈관 기능 변화 없음"
 }

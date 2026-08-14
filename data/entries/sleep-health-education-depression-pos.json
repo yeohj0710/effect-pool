@@ -1,28 +1,32 @@
 {
-  "id": "sleep-health-education-depression-pos",
-  "subj": "sleep health education",
-  "claim": "수면 건강 교육을 대학생의 우울 점수 개선에 쓴다",
-  "line": "대학생 온라인 수면 교육은 수면의 질과 우울 점수를 개선했습니다",
-  "effect": "수면 질·우울 점수 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 549,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 건강 교육은 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "온라인 수면 교육이 대학생의 수면 행동과 수면 질, 우울 점수를 개선하는지 무작위로 비교했습니다.",
-  "saw": "대학생 549명을 대조군 295명과 온라인 수면 교육군 254명에 무작위 배정했습니다. 8주 뒤 교육군에서 수면 행동과 평균 수면 질이 개선됐고 우울 점수도 낮아졌습니다.",
-  "limit": "대학생 대상 8주 온라인 교육이며 우울장애 치료 시험은 아닙니다.",
-  "against": "다른 수면·기분 지표에서는 유의한 차이가 없었습니다.",
-  "use": "대학생에게 짧은 온라인 수면 건강 교육을 제공하는 방법",
-  "refs": [
-    { "label": "Buboltz 2018 · Journal of Clinical Sleep Medicine · 무작위시험", "pmid": "29510791" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=sleep health education AND condition=Depression; 104건 반환, 중재명 대조 후 0건",
-    "pubmed": "sleep health education AND Depression; 6,618건",
-    "negative": "sleep health education AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 3,878건",
-    "safety": "sleep health education AND (adverse OR toxicity OR case report OR harm OR dropout); 813건"
+ "id": "sleep-health-education-depression-pos",
+ "subj": "수면 건강 교육",
+ "claim": "수면 건강 교육을 대학생의 우울 점수 개선에 쓴다",
+ "line": "대학생 온라인 수면 교육은 수면의 질과 우울 점수를 개선했습니다",
+ "effect": "수면 질·우울 점수 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 549,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 건강 교육은 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "온라인 수면 교육이 대학생의 수면 행동과 수면 질, 우울 점수를 개선하는지 무작위로 비교했습니다.",
+ "saw": "대학생 549명을 대조군 295명과 온라인 수면 교육군 254명에 무작위 배정했습니다. 8주 뒤 교육군에서 수면 행동과 평균 수면 질이 개선됐고 우울 점수도 낮아졌습니다.",
+ "limit": "대학생 대상 8주 온라인 교육이며 우울장애 치료 시험은 아닙니다.",
+ "against": "다른 수면·기분 지표에서는 유의한 차이가 없었습니다.",
+ "use": "대학생에게 짧은 온라인 수면 건강 교육을 제공하는 방법",
+ "refs": [
+  {
+   "label": "Buboltz 2018 · Journal of Clinical Sleep Medicine · 무작위시험",
+   "pmid": "29510791"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=sleep health education AND condition=Depression; 104건 반환, 중재명 대조 후 0건",
+  "pubmed": "sleep health education AND Depression; 6,618건",
+  "negative": "sleep health education AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 3,878건",
+  "safety": "sleep health education AND (adverse OR toxicity OR case report OR harm OR dropout); 813건"
+ },
+ "vs": "상대 효과: 온라인 수면교육 vs 대조군 8주 수면행동 개선 50.3% vs 39.5% (p=.04), 전자기기 조기 중단 OR 1.5 (95% CI 1.0~2.4), 규칙적 수면 OR 1.6 (1.06~2.4), 시험 전 수면부족 OR 0.46 (0.28~0.76)"
 }

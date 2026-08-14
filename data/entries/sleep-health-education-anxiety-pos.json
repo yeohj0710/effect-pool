@@ -1,28 +1,32 @@
 {
-  "id": "sleep-health-education-anxiety-pos",
-  "subj": "sleep health education",
-  "claim": "수면 건강 교육을 교대근무 간호사의 불안과 불면 증상 개선에 쓴다",
-  "line": "교대근무 간호사의 수면 교육은 불안과 기능적 수면을 개선했습니다",
-  "effect": "불안·불면 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 149,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 건강 교육은 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "교대근무 간호사에게 수면 교육과 개인별 행동 전략을 제공하면 교대근무장애와 불안·불면이 좋아지는지 비교했습니다.",
-  "saw": "간호사 149명이 참여한 군집 무작위시험에서 8주 개인 관리 프로그램과 적극적 대조 프로그램을 비교했습니다. 불안과 기능적 수면 결과는 중재군에서만 개선됐고, 불면과 우울은 두 군 모두 좋아졌습니다.",
-  "limit": "교육·코칭·행동 전략을 묶은 프로그램이며 활성 대조군과 비교했습니다.",
-  "against": "병가 일수는 중재군과 대조군 사이에 유의한 차이가 없었습니다.",
-  "use": "교대근무 간호사의 수면 교육과 개인별 행동 전략을 함께 설계하는 방법",
-  "refs": [
-    { "label": "Booker 2022 · Journal of Clinical Sleep Medicine · 군집 무작위시험", "pmid": "34870586" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=sleep health education AND condition=Anxiety; 65건 반환, 중재명 대조 후 0건",
-    "pubmed": "sleep health education AND Anxiety; 4,754건",
-    "negative": "sleep health education AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,898건",
-    "safety": "sleep health education AND (adverse OR toxicity OR case report OR harm OR dropout); 652건"
+ "id": "sleep-health-education-anxiety-pos",
+ "subj": "수면 건강 교육",
+ "claim": "수면 건강 교육을 교대근무 간호사의 불안과 불면 증상 개선에 쓴다",
+ "line": "교대근무 간호사의 수면 교육은 불안과 기능적 수면을 개선했습니다",
+ "effect": "불안·불면 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 149,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 건강 교육은 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "교대근무 간호사에게 수면 교육과 개인별 행동 전략을 제공하면 교대근무장애와 불안·불면이 좋아지는지 비교했습니다.",
+ "saw": "간호사 149명이 참여한 군집 무작위시험에서 8주 개인 관리 프로그램과 적극적 대조 프로그램을 비교했습니다. 불안과 기능적 수면 결과는 중재군에서만 개선됐고, 불면과 우울은 두 군 모두 좋아졌습니다.",
+ "limit": "교육·코칭·행동 전략을 묶은 프로그램이며 활성 대조군과 비교했습니다.",
+ "against": "병가 일수는 중재군과 대조군 사이에 유의한 차이가 없었습니다.",
+ "use": "교대근무 간호사의 수면 교육과 개인별 행동 전략을 함께 설계하는 방법",
+ "refs": [
+  {
+   "label": "Booker 2022 · Journal of Clinical Sleep Medicine · 군집 무작위시험",
+   "pmid": "34870586"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=sleep health education AND condition=Anxiety; 65건 반환, 중재명 대조 후 0건",
+  "pubmed": "sleep health education AND Anxiety; 4,754건",
+  "negative": "sleep health education AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,898건",
+  "safety": "sleep health education AND (adverse OR toxicity OR case report OR harm OR dropout); 652건"
+ },
+ "vs": "군 간 차이: 교대근무 수면교육·코칭 vs 능동대조 간호사 병가 평균차 1.2일 (p=.063); 불면·우울은 양군 개선, 불안은 중재군 p=.001·대조군 p=.079"
 }
