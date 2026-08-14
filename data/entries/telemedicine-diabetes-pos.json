@@ -1,28 +1,33 @@
 {
-  "id": "telemedicine-diabetes-pos",
-  "subj": "telemedicine",
-  "claim": "원격의료가 당뇨병 혈당 조절을 개선한다",
-  "line": "임신성 당뇨에서 원격 혈당관리는 일반 산전관리보다 혈당 조절률을 높였다.",
-  "effect": "조절률 54.8% 대 83.3%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 309,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격의료는 진료 전달 방식이며 당뇨병 혈당 조절을 위한 특정 원격 중재는 허가 적응증이 아닙니다",
-  "why": "임신성 당뇨병 여성 309명을 원격 메신저 혈당관리군과 일반 산전관리군에 무작위 배정한 다기관 시험입니다",
-  "saw": "원격군의 혈당 조절률이 여러 시점에서 더 높았고 일부 시점은 54.8% 대 83.3%, 62.5% 대 80.0%였습니다",
-  "limit": "비인슐린 치료 임신성 당뇨에 한정되고 분만 방식과 조산 등 임신 결과는 군 간 차이가 없었습니다",
-  "against": "모든 측정 시점에서 원격군이 우월했던 것은 아니며 주요 임신 결과의 개선도 확인하지 못했습니다",
-  "use": "임신성 당뇨 혈당관리에서 원격 메신저 중재를 검토할 때 혈당 조절과 임신 결과를 나누어 판단하는 근거로 기록합니다",
-  "refs": [
-    { "label": "Comparing the Efficacies of Telemedicine and Standard Prenatal Care on Blood Glucose Control in Women With Gestational Diabetes Mellitus: Randomized Controlled Trial", "pmid": "33783365", "nct": "NCT03748576" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "telemedicine AND Diabetes 반환 100건; 중재명과 대상 조건을 대조",
-    "pubmed": "telemedicine AND Diabetes 검색 4672건; PMID 33783365 직접 무작위 시험 확인",
-    "negative": "telemedicine AND Diabetes AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2460건",
-    "safety": "telemedicine AND Diabetes AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 520건"
+ "id": "telemedicine-diabetes-pos",
+ "subj": "원격의료",
+ "claim": "원격의료가 당뇨병 혈당 조절을 개선한다",
+ "line": "임신성 당뇨에서 원격 혈당관리는 일반 산전관리보다 혈당 조절률을 높였다.",
+ "effect": "조절률 54.8% 대 83.3%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 309,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격의료는 진료 전달 방식이며 당뇨병 혈당 조절을 위한 특정 원격 중재는 허가 적응증이 아닙니다",
+ "why": "임신성 당뇨병 여성 309명을 원격 메신저 혈당관리군과 일반 산전관리군에 무작위 배정한 다기관 시험입니다",
+ "saw": "임신성 당뇨병 여성 309명을 무작위 배정했다. 원격의료군의 혈당 조절률이 여러 시점에서 높았고 T3는 83.3% 대 54.8%, 다른 유의 시점은 80.0% 대 62.5%, 100% 대 75%였다.",
+ "limit": "비인슐린 치료 임신성 당뇨에 한정되고 분만 방식과 조산 등 임신 결과는 군 간 차이가 없었습니다",
+ "against": "모든 측정 시점에서 원격군이 우월했던 것은 아니며 주요 임신 결과의 개선도 확인하지 못했습니다",
+ "use": "임신성 당뇨 혈당관리에서 원격 메신저 중재를 검토할 때 혈당 조절과 임신 결과를 나누어 판단하는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "Comparing the Efficacies of Telemedicine and Standard Prenatal Care on Blood Glucose Control in Women With Gestational Diabetes Mellitus: Randomized Controlled Trial",
+   "pmid": "33783365",
+   "nct": "NCT03748576"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "telemedicine AND Diabetes 반환 100건; 중재명과 대상 조건을 대조",
+  "pubmed": "telemedicine AND Diabetes 검색 4672건; PMID 33783365 직접 무작위 시험 확인",
+  "negative": "telemedicine AND Diabetes AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2460건",
+  "safety": "telemedicine AND Diabetes AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 520건"
+ },
+ "vs": "원격의료군 vs 일반 산전관리군: 혈당 조절률 T3 83.3% vs 54.8%; 다른 시점 80.0% vs 62.5%, 100% vs 75%"
 }

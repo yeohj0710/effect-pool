@@ -1,20 +1,33 @@
 {
-  "id": "telephone-coaching-breast-carcinoma-pos",
-  "subj": "telephone coaching",
-  "claim": "전화 코칭으로 체중을 줄인 유방암 생존자의 신체기능이 개선된다",
-  "line": "체중을 줄인 유방암 생존자는 신체기능도 더 좋아졌습니다",
-  "effect": "6개월 신체기능 +4.4점",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 94,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "전화 코칭은 의약품이 아닌 생활습관 중재입니다.",
-  "why": "치료를 마친 과체중·비만 유방암 생존자 94명의 전화 코칭 체중관리 시험 자료에서 체중 감소와 환자보고 결과를 관찰했습니다.",
-  "saw": "6개월에 체중을 5% 이상 줄인 사람은 5% 미만인 사람보다 신체기능이 4.4점 더 개선됐고, 12개월에도 3.6점 차이가 남았습니다.",
-  "limit": "체중 감소 자체와 신체기능의 연관성을 본 분석이라 전화 코칭의 무작위 효과로 해석할 수 없습니다.",
-  "against": "성기능·우울·수면은 체중 감소군과 비교해 유의하게 달라지지 않았습니다.",
-  "use": "유방암 생존자의 전화 체중관리에서 신체기능과 체중 감소가 함께 움직인 결과로 기록합니다.",
-  "refs": [{ "label": "유방암 생존자 전화 체중관리와 신체기능 분석", "doi": "10.1007/s11764-021-01049-z", "pmid": "34018096" }],
-  "queried": { "date": "2026-08-08", "ctgov": "telephone coaching AND Breast Carcinoma · 6건 반환", "pubmed": "telephone coaching AND Breast Carcinoma · 39편", "negative": "telephone coaching AND Breast Carcinoma AND (no effect OR did not OR failed OR negative OR no significant difference) · 25편", "safety": "telephone coaching AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 170편" }
+ "id": "telephone-coaching-breast-carcinoma-pos",
+ "subj": "전화 코칭",
+ "claim": "전화 코칭으로 체중을 줄인 유방암 생존자의 신체기능이 개선된다",
+ "line": "체중을 줄인 유방암 생존자는 신체기능도 더 좋아졌습니다",
+ "effect": "6개월 신체기능 +4.4점",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 94,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "전화 코칭은 의약품이 아닌 생활습관 중재입니다.",
+ "why": "치료를 마친 과체중·비만 유방암 생존자 94명의 전화 코칭 체중관리 시험 자료에서 체중 감소와 환자보고 결과를 관찰했습니다.",
+ "saw": "유방암 생존자 분석에서 5% 이상 체중을 줄인 군의 신체기능은 6개월 4.4점 대 0.3점, 12개월 3.6점 대 0점이었다. 이는 전화 코칭 배정군과 직접 비교한 결과가 아니라 체중 감소량별 관찰 비교다.",
+ "limit": "체중 감소 자체와 신체기능의 연관성을 본 분석이라 전화 코칭의 무작위 효과로 해석할 수 없습니다.",
+ "against": "성기능·우울·수면은 체중 감소군과 비교해 유의하게 달라지지 않았습니다.",
+ "use": "유방암 생존자의 전화 체중관리에서 신체기능과 체중 감소가 함께 움직인 결과로 기록합니다.",
+ "refs": [
+  {
+   "label": "유방암 생존자 전화 체중관리와 신체기능 분석",
+   "doi": "10.1007/s11764-021-01049-z",
+   "pmid": "34018096"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "telephone coaching AND Breast Carcinoma · 6건 반환",
+  "pubmed": "telephone coaching AND Breast Carcinoma · 39편",
+  "negative": "telephone coaching AND Breast Carcinoma AND (no effect OR did not OR failed OR negative OR no significant difference) · 25편",
+  "safety": "telephone coaching AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 170편"
+ },
+ "vs": "체중 5% 이상 감소군 vs 5% 미만군: 6개월 신체기능 4.4 vs 0.3점; 12개월 3.6 vs 0점"
 }

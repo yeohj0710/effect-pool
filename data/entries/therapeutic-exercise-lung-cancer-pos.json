@@ -1,28 +1,32 @@
 {
-  "id": "therapeutic-exercise-lung-cancer-pos",
-  "subj": "therapeutic exercise",
-  "claim": "치료적 운동을 폐암 환자의 기능과 회복에 쓴다",
-  "line": "폐암에서 치료적 운동은 운동능력과 기능을 개선했습니다",
-  "effect": "운동능력·근력·호흡기능 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "치료적 운동은 폐암의 허가 적응증이 없는 비약물 중재입니다.",
-  "why": "폐암 치료적 운동 연구 141편 중 기준을 충족한 19편을 검토한 문헌고찰이며 10편은 무작위시험이었습니다.",
-  "saw": "유산소·근력·호흡운동을 수술 전후와 치료 중에 적용한 연구에서 대부분 운동능력과 기능 결과가 개선됐습니다.",
-  "limit": "운동 종류와 시행 시점이 다양하고 문헌고찰에 참여자 총수가 제시되지 않아 효과 크기를 합칠 수 없습니다.",
-  "against": "대부분의 연구가 운동능력·기능을 측정했으므로 생존이나 폐암 치료 자체의 효과로 해석할 수 없습니다.",
-  "use": "폐암 수술·항암치료 전후 재활 운동의 연구 근거를 설명할 때 사용합니다.",
-  "refs": [
-    { "label": "폐암 치료적 운동 문헌고찰", "doi": "10.1016/j.jbmt.2022.03.003", "pmid": "35710217" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "therapeutic exercise AND Lung Cancer 검색 184건, InterventionName 직접 대조 0건",
-    "pubmed": "\"therapeutic exercise\" AND \"Lung Cancer\" 검색 4건, 임상시험·메타분석 3건",
-    "negative": "\"therapeutic exercise\" AND \"Lung Cancer\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 3건",
-    "safety": "\"therapeutic exercise\" AND (adverse OR toxicity OR case report OR harm) 검색 232건"
+ "id": "therapeutic-exercise-lung-cancer-pos",
+ "subj": "치료적 운동",
+ "claim": "치료적 운동을 폐암 환자의 기능과 회복에 쓴다",
+ "line": "폐암에서 치료적 운동은 운동능력과 기능을 개선했습니다",
+ "effect": "운동능력·근력·호흡기능 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "치료적 운동은 폐암의 허가 적응증이 없는 비약물 중재입니다.",
+ "why": "폐암 치료적 운동 연구 141편 중 기준을 충족한 19편을 검토한 문헌고찰이며 10편은 무작위시험이었습니다.",
+ "saw": "유산소·근력·호흡운동을 수술 전후와 치료 중에 적용한 연구에서 대부분 운동능력과 기능 결과가 개선됐습니다.",
+ "limit": "운동 종류와 시행 시점이 다양하고 문헌고찰에 참여자 총수가 제시되지 않아 효과 크기를 합칠 수 없습니다.",
+ "against": "대부분의 연구가 운동능력·기능을 측정했으므로 생존이나 폐암 치료 자체의 효과로 해석할 수 없습니다.",
+ "use": "폐암 수술·항암치료 전후 재활 운동의 연구 근거를 설명할 때 사용합니다.",
+ "refs": [
+  {
+   "label": "폐암 치료적 운동 문헌고찰",
+   "doi": "10.1016/j.jbmt.2022.03.003",
+   "pmid": "35710217"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "therapeutic exercise AND Lung Cancer 검색 184건, InterventionName 직접 대조 0건",
+  "pubmed": "\"therapeutic exercise\" AND \"Lung Cancer\" 검색 4건, 임상시험·메타분석 3건",
+  "negative": "\"therapeutic exercise\" AND \"Lung Cancer\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 3건",
+  "safety": "\"therapeutic exercise\" AND (adverse OR toxicity OR case report OR harm) 검색 232건"
+ }
 }

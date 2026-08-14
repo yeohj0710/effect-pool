@@ -1,28 +1,34 @@
 {
-  "id": "telephone-support-depression-pos",
-  "subj": "telephone support",
-  "claim": "중도 이탈 위험이 큰 우울 환자에게 예약 전화지원을 더하면 인터넷 인지행동치료 참여와 증상이 좋아진다",
-  "line": "예약 전화지원은 인터넷 기반 우울치료의 참여와 증상을 개선했습니다",
-  "effect": "참여·우울 증상 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 100,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "Telephone support는 약물이 아닌 행동·상담 중재입니다.",
-  "why": "인터넷 인지행동치료를 시작하지 못해 중도 이탈 위험이 있는 우울 환자를 통상 치료군과 예약 전화지원 추가군으로 무작위 배정했습니다.",
-  "saw": "100명이 무작위 배정됐고, 중간·최종 치료 도달률과 Beck 우울척도 변화를 비교했습니다. 전화지원군은 두 도달률과 우울 점수 변화에서 우세했습니다.",
-  "limit": "인터넷 인지행동치료에 이미 참여한 사람 중 지연 시작으로 선별된 표본이라 모든 우울 환자에게 일반화하기 어렵습니다.",
-  "against": "치료 기간 자체와 전체 인터넷 치료 효과는 전화지원 유무와 달랐습니다.",
-  "use": "인터넷 우울치료에서 이탈 위험이 큰 사람에게 예약 전화지원을 추가할 근거입니다.",
-  "refs": [
-    { "label": "2020 · JMIR Mental Health · 실용적 무작위 대조시험", "doi": "10.2196/15732", "pmid": "32706658", "pmc": "PMC7413288" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "telephone support AND Depression · 274건",
-    "pubmed": "telephone support AND Depression · 180건",
-    "negative": "telephone support AND Depression AND (no effect/did not/failed to/negative/no significant difference) · 51건",
-    "safety": "telephone support AND Depression AND (adverse/toxicity/safety/harm/distress) · 48건"
+ "id": "telephone-support-depression-pos",
+ "subj": "전화 지원",
+ "claim": "중도 이탈 위험이 큰 우울 환자에게 예약 전화지원을 더하면 인터넷 인지행동치료 참여와 증상이 좋아진다",
+ "line": "예약 전화지원은 인터넷 기반 우울치료의 참여와 증상을 개선했습니다",
+ "effect": "참여·우울 증상 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 100,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "Telephone support는 약물이 아닌 행동·상담 중재입니다.",
+ "why": "인터넷 인지행동치료를 시작하지 못해 중도 이탈 위험이 있는 우울 환자를 통상 치료군과 예약 전화지원 추가군으로 무작위 배정했습니다.",
+ "saw": "중도 이탈 위험이 있는 우울 환자 100명을 배정했다. 추가 예약전화군은 중간치료 도달 58% 대 36%, 종결 24% 대 6%였고 BDI 변화도 3.63 대 1.1점이었다.",
+ "limit": "인터넷 인지행동치료에 이미 참여한 사람 중 지연 시작으로 선별된 표본이라 모든 우울 환자에게 일반화하기 어렵습니다.",
+ "against": "치료 기간 자체와 전체 인터넷 치료 효과는 전화지원 유무와 달랐습니다.",
+ "use": "인터넷 우울치료에서 이탈 위험이 큰 사람에게 예약 전화지원을 추가할 근거입니다.",
+ "refs": [
+  {
+   "label": "2020 · JMIR Mental Health · 실용적 무작위 대조시험",
+   "doi": "10.2196/15732",
+   "pmid": "32706658",
+   "pmc": "PMC7413288"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "telephone support AND Depression · 274건",
+  "pubmed": "telephone support AND Depression · 180건",
+  "negative": "telephone support AND Depression AND (no effect/did not/failed to/negative/no significant difference) · 51건",
+  "safety": "telephone support AND Depression AND (adverse/toxicity/safety/harm/distress) · 48건"
+ },
+ "vs": "추가 예약전화 vs 일반 iCBT: 중간치료 도달 58%(29/50) vs 36%(18/50); 종결 24%(12/50) vs 6%(3/50); BDI 변화 3.63 vs 1.1점"
 }

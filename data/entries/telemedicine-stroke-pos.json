@@ -1,28 +1,31 @@
 {
-  "id": "telemedicine-stroke-pos",
-  "subj": "telemedicine",
-  "claim": "원격재활이 뇌졸중 후 운동기능을 개선한다",
-  "line": "뇌졸중 재활에서 가정 원격재활은 운동기능을 개선했다.",
-  "effect": "FMA P=.011·뇌 연결성 P=.031",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 52,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격재활은 진료 전달 방식이며 뇌졸중 후 운동기능 개선은 의약품 허가 적응증을 적용하지 않습니다",
-  "why": "편마비가 있는 피질하 뇌졸중 환자 52명을 가정 원격 운동훈련군과 일반 재활군에 무작위 배정해 12주 비교했습니다",
-  "saw": "원격재활군은 일반 재활군보다 푸글-마이어 운동평가가 유의하게 좋아졌고 양측 일차운동피질 연결성도 증가했습니다",
-  "limit": "52명 규모의 단일 시험이고 운동기능과 뇌 영상 지표 중심이라 일상생활 회복을 직접 입증하지 않았습니다",
-  "against": "모든 뇌졸중 환자에게 같은 효과가 있는지와 장기 지속성은 확인하지 않았습니다",
-  "use": "뇌졸중 후 가정 재활을 검토할 때 원격 훈련의 운동기능 근거로 기록합니다",
-  "refs": [
-    { "label": "Effects of home-based telerehabilitation in patients with stroke: A randomized controlled trial", "pmid": "32999058" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "telemedicine AND Stroke 반환 100건; 중재명과 대상 조건을 대조",
-    "pubmed": "telemedicine AND Stroke 검색 2134건; PMID 32999058 직접 무작위 시험 확인",
-    "negative": "telemedicine AND Stroke AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 943건",
-    "safety": "telemedicine AND Stroke AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 206건"
+ "id": "telemedicine-stroke-pos",
+ "subj": "원격의료",
+ "claim": "원격재활이 뇌졸중 후 운동기능을 개선한다",
+ "line": "뇌졸중 재활에서 가정 원격재활은 운동기능을 개선했다.",
+ "effect": "FMA P=.011·뇌 연결성 P=.031",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 52,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격재활은 진료 전달 방식이며 뇌졸중 후 운동기능 개선은 의약품 허가 적응증을 적용하지 않습니다",
+ "why": "편마비가 있는 피질하 뇌졸중 환자 52명을 가정 원격 운동훈련군과 일반 재활군에 무작위 배정해 12주 비교했습니다",
+ "saw": "원격재활군은 일반 재활군보다 푸글-마이어 운동평가가 유의하게 좋아졌고 양측 일차운동피질 연결성도 증가했습니다",
+ "limit": "52명 규모의 단일 시험이고 운동기능과 뇌 영상 지표 중심이라 일상생활 회복을 직접 입증하지 않았습니다",
+ "against": "모든 뇌졸중 환자에게 같은 효과가 있는지와 장기 지속성은 확인하지 않았습니다",
+ "use": "뇌졸중 후 가정 재활을 검토할 때 원격 훈련의 운동기능 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "Effects of home-based telerehabilitation in patients with stroke: A randomized controlled trial",
+   "pmid": "32999058"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "telemedicine AND Stroke 반환 100건; 중재명과 대상 조건을 대조",
+  "pubmed": "telemedicine AND Stroke 검색 2134건; PMID 32999058 직접 무작위 시험 확인",
+  "negative": "telemedicine AND Stroke AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 943건",
+  "safety": "telemedicine AND Stroke AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 206건"
+ }
 }

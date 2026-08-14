@@ -1,28 +1,32 @@
 {
-  "id": "therapeutic-exercise-heart-failure-pos",
-  "subj": "therapeutic exercise",
-  "claim": "치료적 운동을 심부전의 운동능력과 호흡곤란에 쓴다",
-  "line": "심부전에서 치료적 운동은 운동능력과 호흡곤란을 개선했습니다",
-  "effect": "최대산소섭취량·호흡곤란·운동능력 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "치료적 운동은 심부전의 허가 적응증이 없는 비약물 중재입니다.",
-  "why": "심부전 환자의 유산소·저항운동 무작위시험과 대조시험을 검토한 근거 기반 문헌고찰입니다.",
-  "saw": "유산소 운동은 최대산소섭취량, 호흡곤란, 운동능력과 좌심실 기능을 개선했고 저항운동은 좌심실 기능·근력·근지구력을 개선했습니다.",
-  "limit": "문헌고찰에 포함된 연구의 표본 수와 운동 처방이 서로 달라 효과의 크기와 안전성을 정밀하게 합치기 어렵습니다.",
-  "against": "운동 처방은 심부전 중증도와 감독 수준에 따라 달라지므로 무감독 운동을 일반화할 수 없습니다.",
-  "use": "심부전 재활에서 유산소·저항운동을 설계할 때의 초기 근거로 사용합니다.",
-  "refs": [
-    { "label": "울혈성 심부전 유산소·저항운동 근거 고찰", "doi": "10.1097/01.HCR.0000300263.07764.4a", "pmid": "18197070" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "therapeutic exercise AND Heart Failure 검색 348건, InterventionName 직접 대조 0건",
-    "pubmed": "\"therapeutic exercise\" AND \"Heart Failure\" 검색 9건, 임상시험·메타분석 3건",
-    "negative": "\"therapeutic exercise\" AND \"Heart Failure\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 5건",
-    "safety": "\"therapeutic exercise\" AND (adverse OR toxicity OR case report OR harm) 검색 232건"
+ "id": "therapeutic-exercise-heart-failure-pos",
+ "subj": "치료적 운동",
+ "claim": "치료적 운동을 심부전의 운동능력과 호흡곤란에 쓴다",
+ "line": "심부전에서 치료적 운동은 운동능력과 호흡곤란을 개선했습니다",
+ "effect": "최대산소섭취량·호흡곤란·운동능력 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "치료적 운동은 심부전의 허가 적응증이 없는 비약물 중재입니다.",
+ "why": "심부전 환자의 유산소·저항운동 무작위시험과 대조시험을 검토한 근거 기반 문헌고찰입니다.",
+ "saw": "유산소 운동은 최대산소섭취량, 호흡곤란, 운동능력과 좌심실 기능을 개선했고 저항운동은 좌심실 기능·근력·근지구력을 개선했습니다.",
+ "limit": "문헌고찰에 포함된 연구의 표본 수와 운동 처방이 서로 달라 효과의 크기와 안전성을 정밀하게 합치기 어렵습니다.",
+ "against": "운동 처방은 심부전 중증도와 감독 수준에 따라 달라지므로 무감독 운동을 일반화할 수 없습니다.",
+ "use": "심부전 재활에서 유산소·저항운동을 설계할 때의 초기 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "울혈성 심부전 유산소·저항운동 근거 고찰",
+   "doi": "10.1097/01.HCR.0000300263.07764.4a",
+   "pmid": "18197070"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "therapeutic exercise AND Heart Failure 검색 348건, InterventionName 직접 대조 0건",
+  "pubmed": "\"therapeutic exercise\" AND \"Heart Failure\" 검색 9건, 임상시험·메타분석 3건",
+  "negative": "\"therapeutic exercise\" AND \"Heart Failure\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 5건",
+  "safety": "\"therapeutic exercise\" AND (adverse OR toxicity OR case report OR harm) 검색 232건"
+ }
 }

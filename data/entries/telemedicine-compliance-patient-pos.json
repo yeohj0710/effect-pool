@@ -1,28 +1,32 @@
 {
-  "id": "telemedicine-compliance-patient-pos",
-  "subj": "telemedicine",
-  "claim": "원격의료가 만성 심부전 환자의 자기관리 순응을 높인다",
-  "line": "원격 모니터링은 심부전 환자의 엄격한 체중 측정 순응을 높였다.",
-  "effect": "주 6일 순응 45% 대 25%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 184,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 모니터링은 진료 전달 방식이며 심부전 자기관리 순응은 허가 적응증이 아닙니다",
-  "why": "만성 심부전 환자 184명을 블루투스 체중계와 간호 지원을 받는 원격 모니터링군 또는 일반 진료군에 무작위 배정했습니다",
-  "saw": "주 4일 이상 체중을 잰 비율은 74% 대 60%로 유의하지 않았지만 주 6일 이상 기준에서는 45% 대 25%로 원격군이 높았습니다",
-  "limit": "6개월 시험이고 중도 탈락이 많았으며 가장 느슨한 순응 기준에서는 군 간 차이가 유의하지 않았습니다",
-  "against": "주 4일 이상 체중 측정 기준은 원격군이 높았지만 통계적으로 유의하지 않았습니다",
-  "use": "심부전 원격관리에서 순응도를 평가할 때 기준 정의에 따라 효과가 달라질 수 있음을 보여주는 근거로 기록합니다",
-  "refs": [
-    { "label": "The Effects of Telemonitoring on Patient Compliance With Self-Management Recommendations and Outcomes of the Innovative Telemonitoring Enhanced Care Program for Chronic Heart Failure: Randomized Controlled Trial", "pmid": "32673222" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "telemedicine AND Compliance, Patient 반환 100건; 중재명과 대상 조건을 대조",
-    "pubmed": "telemedicine AND Compliance, Patient 검색 4건; PMID 32673222 직접 무작위 시험 확인",
-    "negative": "telemedicine AND Compliance, Patient AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2건",
-    "safety": "telemedicine AND Compliance, Patient AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ "id": "telemedicine-compliance-patient-pos",
+ "subj": "원격의료",
+ "claim": "원격의료가 만성 심부전 환자의 자기관리 순응을 높인다",
+ "line": "원격 모니터링은 심부전 환자의 엄격한 체중 측정 순응을 높였다.",
+ "effect": "주 6일 순응 45% 대 25%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 184,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 모니터링은 진료 전달 방식이며 심부전 자기관리 순응은 허가 적응증이 아닙니다",
+ "why": "만성 심부전 환자 184명을 블루투스 체중계와 간호 지원을 받는 원격 모니터링군 또는 일반 진료군에 무작위 배정했습니다",
+ "saw": "184명 무작위시험에서 6일 이상 체중 측정은 원격의료군 41/91명(45%), 일반관리군 23/93명(25%)이었다. 4일 기준은 67/91명(74%) 대 56/91명(60%)으로 유의하지 않았다.",
+ "limit": "6개월 시험이고 중도 탈락이 많았으며 가장 느슨한 순응 기준에서는 군 간 차이가 유의하지 않았습니다",
+ "against": "주 4일 이상 체중 측정 기준은 원격군이 높았지만 통계적으로 유의하지 않았습니다",
+ "use": "심부전 원격관리에서 순응도를 평가할 때 기준 정의에 따라 효과가 달라질 수 있음을 보여주는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "The Effects of Telemonitoring on Patient Compliance With Self-Management Recommendations and Outcomes of the Innovative Telemonitoring Enhanced Care Program for Chronic Heart Failure: Randomized Controlled Trial",
+   "pmid": "32673222"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "telemedicine AND Compliance, Patient 반환 100건; 중재명과 대상 조건을 대조",
+  "pubmed": "telemedicine AND Compliance, Patient 검색 4건; PMID 32673222 직접 무작위 시험 확인",
+  "negative": "telemedicine AND Compliance, Patient AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2건",
+  "safety": "telemedicine AND Compliance, Patient AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ },
+ "vs": "원격의료 프로그램 vs 일반 관리: 6일 이상 체중 측정 45%(41/91) vs 25%(23/93); 4일 이상 74%(67/91) vs 60%(56/91), p=.06"
 }

@@ -1,29 +1,37 @@
 {
-  "id": "therapeutic-touch-anxiety-pos",
-  "subj": "치료적 접촉",
-  "claim": "간호학생의 시험불안을 치료적 접촉으로 낮춘다",
-  "line": "치료적 접촉은 간호학생의 시험불안을 낮췄습니다",
-  "effect": "시험불안 감소; n=46",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 46,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "치료적 접촉은 시험불안의 허가 치료가 아닙니다.",
-  "why": "간호학생을 치료적 접촉과 무중재 대조에 무작위 배정한 시험입니다.",
-  "saw": "간호학생 46명이 시험 1시간 전 치료적 접촉 20분 또는 무중재를 받았습니다. 치료적 접촉군의 시험불안 점수가 대조군보다 낮았고 ANCOVA 효과는 유의했습니다.",
-  "limit": "표본이 작고 참가자와 연구자의 눈가림이 불가능하며 시험불안이 임상 불안장애와 다릅니다.",
-  "against": "심장수술 뒤 Reiki와 수기요법을 함께 시행한 더 큰 시험에서는 불안 변화가 대조군과 다르지 않았습니다.",
-  "use": "시험 전 일시적 불안에 대한 소규모 가설로만 기록합니다.",
-  "refs": [
-    { "label": "간호학생 시험불안 치료적 접촉 무작위시험", "doi": "10.5152/FNJN.2026.24228", "pmid": "41709616" },
-    { "label": "심장수술 뒤 Reiki·수기요법 무작위시험 · 음성 결과", "pmid": "41954493" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=therapeutic touch · cond=Anxiety → 10건 반환, 물질 대조 후 10건",
-    "pubmed": "therapeutic touch AND Anxiety → 278편",
-    "negative": "therapeutic touch AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 202편",
-    "safety": "therapeutic touch AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 710편"
+ "id": "therapeutic-touch-anxiety-pos",
+ "subj": "치료적 접촉",
+ "claim": "간호학생의 시험불안을 치료적 접촉으로 낮춘다",
+ "line": "치료적 접촉은 간호학생의 시험불안을 낮췄습니다",
+ "effect": "시험불안 감소; n=46",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 46,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "치료적 접촉은 시험불안의 허가 치료가 아닙니다.",
+ "why": "간호학생을 치료적 접촉과 무중재 대조에 무작위 배정한 시험입니다.",
+ "saw": "간호학생 46명 무작위시험에서 치료적 접촉군의 시험불안이 무중재군보다 낮았고 ANCOVA F=144.685, p<.001, 부분 η²=0.771이었다.",
+ "limit": "표본이 작고 참가자와 연구자의 눈가림이 불가능하며 시험불안이 임상 불안장애와 다릅니다.",
+ "against": "심장수술 뒤 Reiki와 수기요법을 함께 시행한 더 큰 시험에서는 불안 변화가 대조군과 다르지 않았습니다.",
+ "use": "시험 전 일시적 불안에 대한 소규모 가설로만 기록합니다.",
+ "refs": [
+  {
+   "label": "간호학생 시험불안 치료적 접촉 무작위시험",
+   "doi": "10.5152/FNJN.2026.24228",
+   "pmid": "41709616"
+  },
+  {
+   "label": "심장수술 뒤 Reiki·수기요법 무작위시험 · 음성 결과",
+   "pmid": "41954493"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=therapeutic touch · cond=Anxiety → 10건 반환, 물질 대조 후 10건",
+  "pubmed": "therapeutic touch AND Anxiety → 278편",
+  "negative": "therapeutic touch AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 202편",
+  "safety": "therapeutic touch AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 710편"
+ },
+ "vs": "치료적 접촉 vs 무중재: 시험불안 ANCOVA F=144.685, p<.001, 부분 η²=0.771"
 }
