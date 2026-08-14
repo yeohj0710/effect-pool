@@ -16,8 +16,16 @@
   "use": "심정지에서 바소프레신을 임의로 추가하지 않으며, 최신 소생술 지침과 표준 약물 순서를 따릅니다.",
   "effect": "ROSC 1.11 (0.99–1.26)",
   "refs": [
-    { "label": "Yan 2023 · BMJ Open · 심정지 바소프레신 메타분석", "doi": "10.1136/bmjopen-2022-065061", "pmid": "37068900" },
-    { "label": "Cochrane 2019 · 에피네프린과 바소프레신 검토", "doi": "10.1002/14651858.CD003179.pub2", "pmid": "30653257" }
+    {
+      "label": "Yan 2023 · BMJ Open · 심정지 바소프레신 메타분석",
+      "doi": "10.1136/bmjopen-2022-065061",
+      "pmid": "37068900"
+    },
+    {
+      "label": "Cochrane 2019 · 에피네프린과 바소프레신 검토",
+      "doi": "10.1002/14651858.CD003179.pub2",
+      "pmid": "30653257"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -25,5 +33,6 @@
     "pubmed": "vasopressin AND Heart Arrest · 419건",
     "negative": "vasopressin AND Heart Arrest AND (no effect OR did not OR failed to OR negative OR no significant difference) · 249건",
     "safety": "vasopressin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 5110건"
-  }
+  },
+  "vs": "심정지 RCT 메타분석(n=6,718)에서 바소프레신/에피네프린 vs 위약·표준치료 ROSC RR 1.11(95% CI .99~1.26), 중기 생존 RR 1.23(.90~1.66); 병원내 심정지 VSE vs 위약 ROSC RR 1.32(1.18~1.47)"
 }
