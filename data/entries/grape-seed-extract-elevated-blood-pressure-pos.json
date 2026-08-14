@@ -1,26 +1,33 @@
 {
-  "id": "grape-seed-extract-elevated-blood-pressure-pos",
-  "subj": "grape seed extract",
-  "claim": "포도씨 추출물은 고혈압 성인의 혈압을 낮출 가능성이 있다",
-  "line": "혈압이 높은 사람에서 포도씨 추출물 뒤 수축기·이완기혈압이 낮아졌다.",
-  "effect": "혈압 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 810,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "포도씨 추출물은 허가 적응증이 없는 보충제다",
-  "why": "혈압이 높거나 대사장애가 있는 성인의 포도씨 추출물 혈압 효과를 무작위시험으로 종합했다",
-  "saw": "12개 논문의 16개 시험, 810명에서 수축기혈압 WMD -6.077mmHg, 이완기혈압 WMD -2.803mmHg였고 대사증후군군 수축기혈압 WMD는 -8.487mmHg였다",
-  "limit": "시험 수와 표본이 작고 연구 간 용량·대상·기간의 차이가 컸다",
-  "against": "장기 심혈관 사건을 줄인다는 결과는 아니며 대규모 장기시험이 필요하다",
-  "use": "포도씨 추출물의 혈압 신호를 대사 위험군별로 기록하는 데 쓴다",
-  "refs": [{ "label": "포도씨 추출물 혈압 무작위시험 메타분석", "doi": "10.1097/MD.0000000000004247", "pmid": "27537554" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=grape seed extract · cond=Elevated Blood Pressure 7건, 일치 7건",
-    "pubmed": "grape seed extract AND Elevated Blood Pressure 45건",
-    "negative": "grape seed extract AND Elevated Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) 41건",
-    "safety": "grape seed extract AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 426건"
+ "id": "grape-seed-extract-elevated-blood-pressure-pos",
+ "subj": "포도씨 추출물",
+ "claim": "포도씨 추출물은 고혈압 성인의 혈압을 낮출 가능성이 있다",
+ "line": "혈압이 높은 사람에서 포도씨 추출물 뒤 수축기·이완기혈압이 낮아졌다.",
+ "effect": "혈압 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 810,
+ "vs": "포도씨 추출물 무작위시험 16개, 810명 메타분석; 포도씨 추출물군 대비 대조군의 수축기혈압 WMD −6.077(95% CI −10.736~−1.419, P=.011), 이완기혈압 WMD −2.803(−4.417~−1.189, P=.001)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "포도씨 추출물은 허가 적응증이 없는 보충제다",
+ "why": "혈압이 높거나 대사장애가 있는 성인의 포도씨 추출물 혈압 효과를 무작위시험으로 종합했다",
+ "saw": "12개 논문의 16개 시험, 810명에서 수축기혈압 WMD -6.077mmHg, 이완기혈압 WMD -2.803mmHg였고 대사증후군군 수축기혈압 WMD는 -8.487mmHg였다",
+ "limit": "시험 수와 표본이 작고 연구 간 용량·대상·기간의 차이가 컸다",
+ "against": "장기 심혈관 사건을 줄인다는 결과는 아니며 대규모 장기시험이 필요하다",
+ "use": "포도씨 추출물의 혈압 신호를 대사 위험군별로 기록하는 데 쓴다",
+ "refs": [
+  {
+   "label": "포도씨 추출물 혈압 무작위시험 메타분석",
+   "doi": "10.1097/MD.0000000000004247",
+   "pmid": "27537554"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=grape seed extract · cond=Elevated Blood Pressure 7건, 일치 7건",
+  "pubmed": "grape seed extract AND Elevated Blood Pressure 45건",
+  "negative": "grape seed extract AND Elevated Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) 41건",
+  "safety": "grape seed extract AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 426건"
+ }
 }

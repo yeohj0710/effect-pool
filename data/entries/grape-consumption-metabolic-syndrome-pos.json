@@ -1,44 +1,45 @@
 {
-  "id": "grape-consumption-metabolic-syndrome-pos",
-  "subj": "grape consumption",
-  "claim": "대사 증후군에서 포도 섭취는 중성지방과 일부 염증 표지를 개선하지만 HDL 기능은 바꾸지 않는다",
-  "line": "포도 분말은 HDL 기능은 그대로였지만 중성지방은 낮췄다.",
-  "effect": "중성지방 감소; HDL 기능 변화 없음",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식품 섭취 중재이며 의약품 허가 적응증이 아닙니다.",
-  "why": "대사 증후군 성인 20명이 4주 동안 포도 분말 또는 위약을 섭취한 무작위 이중맹검 교차시험이 있었습니다.",
-  "saw": "20명 연구에서 하루 60g 포도 분말은 HDL 항산화 기능 지표 PON1을 위약보다 바꾸지 않았지만 공복 중성지방을 유의하게 낮췄습니다(P=.032). 별도 24명 남성 교차시험에서는 이상지질혈증이 없는 하위군에서 adiponectin과 IL-10이 포도 섭취 때 증가했습니다.",
-  "limit": "표본이 작고 포도 분말을 사용했으며, 염증 표지 변화는 하위군에서만 관찰됐습니다. 대사 증후군 자체의 해소나 심혈관 사건은 평가하지 않았습니다.",
-  "against": "HDL 기능과 대부분의 지질·대사 지표는 변하지 않았습니다.",
-  "use": "포도 섭취를 치료로 단정하지 않고 대사 증후군 식이상담에서 제한적인 보조 근거로 참고합니다.",
-  "refs": [
-    {
-      "label": "Freeze-dried grape powder and HDL function in metabolic syndrome 2018 · Metab Syndr Relat Disord · randomized crossover",
-      "doi": "10.1089/met.2018.0052",
-      "pmid": "30129815"
-    },
-    {
-      "label": "Grape consumption and inflammatory markers in metabolic syndrome 2012 · Nutrients · randomized crossover",
-      "doi": "10.3390/nu4121945",
-      "pmid": "23222963",
-      "pmc": "PMC3546615"
-    },
-    {
-      "label": "Table grape use and liver function 2022 · Biomedicines · randomized clinical trial",
-      "doi": "10.3390/biomedicines10092310",
-      "pmid": "36140410",
-      "pmc": "PMC9496466"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "grape consumption AND Metabolic Syndrome · 6건 · exact InterventionName 0건",
-    "pubmed": "grape consumption AND Metabolic Syndrome · 23건",
-    "negative": "grape consumption AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 8건",
-    "safety": "grape consumption AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 273건"
+ "id": "grape-consumption-metabolic-syndrome-pos",
+ "subj": "포도 섭취",
+ "claim": "대사 증후군에서 포도 섭취는 중성지방과 일부 염증 표지를 개선하지만 HDL 기능은 바꾸지 않는다",
+ "line": "포도 분말은 HDL 기능은 그대로였지만 중성지방은 낮췄다.",
+ "effect": "중성지방 감소; HDL 기능 변화 없음",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 20,
+ "vs": "대사증후군 성인 무작위 교차시험; 동결건조 포도분말 60 g/일군 대비 위약군에서 4주 공복 중성지방이 유의하게 감소(P=.032)했지만 HDL 기능은 달라지지 않음. 별도 남성 24명 시험에서는 포도 46 g/일군 대비 위약군의 아디포넥틴(P<.05)·IL-10(P<.005)이 증가했고, 이상지질혈증이 없는 하위군에서만 확인됨",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식품 섭취 중재이며 의약품 허가 적응증이 아닙니다.",
+ "why": "대사 증후군 성인 20명이 4주 동안 포도 분말 또는 위약을 섭취한 무작위 이중맹검 교차시험이 있었습니다.",
+ "saw": "20명 연구에서 하루 60g 포도 분말은 HDL 항산화 기능 지표 PON1을 위약보다 바꾸지 않았지만 공복 중성지방을 유의하게 낮췄습니다(P=.032). 별도 24명 남성 교차시험에서는 이상지질혈증이 없는 하위군에서 adiponectin과 IL-10이 포도 섭취 때 증가했습니다.",
+ "limit": "표본이 작고 포도 분말을 사용했으며, 염증 표지 변화는 하위군에서만 관찰됐습니다. 대사 증후군 자체의 해소나 심혈관 사건은 평가하지 않았습니다.",
+ "against": "HDL 기능과 대부분의 지질·대사 지표는 변하지 않았습니다.",
+ "use": "포도 섭취를 치료로 단정하지 않고 대사 증후군 식이상담에서 제한적인 보조 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "Freeze-dried grape powder and HDL function in metabolic syndrome 2018 · Metab Syndr Relat Disord · randomized crossover",
+   "doi": "10.1089/met.2018.0052",
+   "pmid": "30129815"
+  },
+  {
+   "label": "Grape consumption and inflammatory markers in metabolic syndrome 2012 · Nutrients · randomized crossover",
+   "doi": "10.3390/nu4121945",
+   "pmid": "23222963",
+   "pmc": "PMC3546615"
+  },
+  {
+   "label": "Table grape use and liver function 2022 · Biomedicines · randomized clinical trial",
+   "doi": "10.3390/biomedicines10092310",
+   "pmid": "36140410",
+   "pmc": "PMC9496466"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "grape consumption AND Metabolic Syndrome · 6건 · exact InterventionName 0건",
+  "pubmed": "grape consumption AND Metabolic Syndrome · 23건",
+  "negative": "grape consumption AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 8건",
+  "safety": "grape consumption AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 273건"
+ }
 }

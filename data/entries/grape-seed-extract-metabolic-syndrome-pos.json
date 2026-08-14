@@ -1,26 +1,33 @@
 {
-  "id": "grape-seed-extract-metabolic-syndrome-pos",
-  "subj": "grape seed extract",
-  "claim": "포도씨 추출물은 대사증후군 청소년의 인슐린저항성을 낮출 가능성이 있다",
-  "line": "대사증후군 청소년에서 포도씨 추출물 뒤 인슐린저항성이 낮아졌다.",
-  "effect": "인슐린저항성 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 48,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "포도씨 추출물은 허가 적응증이 없는 보충제다",
-  "why": "대사증후군 청소년에게 체중감량 식이와 포도씨 추출물 100mg/일을 위약과 8주 비교했다",
-  "saw": "각 24명으로 배정한 시험에서 42명이 완료했고 HOMA-IR 평균차 -0.98, 인슐린 평균차 -5.34가 포도씨군에서 위약보다 유리했다",
-  "limit": "모든 참가자가 체중감량 식이를 함께 받았고 완료자 분석이라 포도씨 단독 효과를 분리하기 어렵다",
-  "against": "체중, 혈압 등 다른 지표는 통계적으로 유의하지 않았다",
-  "use": "대사증후군에서 포도씨 추출물의 인슐린저항성 신호를 기록하는 데 쓴다",
-  "refs": [{ "label": "대사증후군 청소년 포도씨 추출물 무작위시험", "doi": "10.1016/j.dsx.2020.12.028", "pmid": "33385766" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=grape seed extract · cond=Metabolic Syndrome 4건, 일치 4건",
-    "pubmed": "grape seed extract AND Metabolic Syndrome 41건",
-    "negative": "grape seed extract AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 39건",
-    "safety": "grape seed extract AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 426건"
+ "id": "grape-seed-extract-metabolic-syndrome-pos",
+ "subj": "포도씨 추출물",
+ "claim": "포도씨 추출물은 대사증후군 청소년의 인슐린저항성을 낮출 가능성이 있다",
+ "line": "대사증후군 청소년에서 포도씨 추출물 뒤 인슐린저항성이 낮아졌다.",
+ "effect": "인슐린저항성 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 48,
+ "vs": "대사증후군 청소년 48명 무작위시험(포도씨 추출물 24명 대비 위약 24명, 42명 완료); 8주 HOMA-IR 변화는 −1.46±0.45 대 −0.48±0.47(P=.020), 인슐린 변화는 −7.05±2.11 대 −1.71±2.12(P=.024)로 포도씨 추출물군의 감소가 컸음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "포도씨 추출물은 허가 적응증이 없는 보충제다",
+ "why": "대사증후군 청소년에게 체중감량 식이와 포도씨 추출물 100mg/일을 위약과 8주 비교했다",
+ "saw": "각 24명으로 배정한 시험에서 42명이 완료했고 HOMA-IR 평균차 -0.98, 인슐린 평균차 -5.34가 포도씨군에서 위약보다 유리했다",
+ "limit": "모든 참가자가 체중감량 식이를 함께 받았고 완료자 분석이라 포도씨 단독 효과를 분리하기 어렵다",
+ "against": "체중, 혈압 등 다른 지표는 통계적으로 유의하지 않았다",
+ "use": "대사증후군에서 포도씨 추출물의 인슐린저항성 신호를 기록하는 데 쓴다",
+ "refs": [
+  {
+   "label": "대사증후군 청소년 포도씨 추출물 무작위시험",
+   "doi": "10.1016/j.dsx.2020.12.028",
+   "pmid": "33385766"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=grape seed extract · cond=Metabolic Syndrome 4건, 일치 4건",
+  "pubmed": "grape seed extract AND Metabolic Syndrome 41건",
+  "negative": "grape seed extract AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 39건",
+  "safety": "grape seed extract AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 426건"
+ }
 }
