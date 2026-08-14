@@ -1,34 +1,35 @@
 {
-  "id": "metoprolol-heart-rate-pos",
-  "subj": "메토프롤롤",
-  "claim": "심박수를 낮춘다",
-  "line": "메토프롤롤은 심박수·유출로 압력을 낮췄지만 심장 충만압은 바꾸지 못했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "심박수·유출로 압력↓",
-  "n": 28,
-  "synth": "single",
-  "why": "폐쇄성 비후성 심근병증 무작위 교차시험에서 메토프롤롤이 휴식·운동 심박수를 낮췄습니다.",
-  "saw": "폐쇄성 비후성 심근병증 환자 28명을 대상으로 한 무작위 이중맹검 교차시험에서 메토프롤롤은 휴식과 운동 중 심박수, 좌심실 유출로 압력, 승모판 역류를 낮췄지만 운동 시 폐모세혈관쐐기압 변화는 위약과 다르지 않았습니다.",
-  "limit": "심박수 변화는 약리학적 대리지표이고, 대상이 폐쇄성 비후성 심근병증 환자라 일반 성인이나 다른 질환에 그대로 적용할 수 없습니다.",
-  "against": "같은 질환의 다른 무작위시험에서는 증상과 유출로 지표가 일부 개선됐지만 운동능력은 달라지지 않았습니다.",
-  "use": "심박수 감소와 심장 기능·운동능력 개선을 구분해 설명할 때 사용합니다.",
-  "refs": [
-    {
-      "label": "Reis 2022 · J Am Coll Cardiol · 비후성 심근병증 메토프롤롤 운동 혈역학 무작위시험",
-      "pmid": "35450573"
-    },
-    {
-      "label": "Dybro 2022 · J Am Coll Cardiol · 폐쇄성 비후성 심근병증 메토프롤롤 무작위시험",
-      "pmid": "34915981"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:METOPROLOL → 349건; 허가 문구에 고혈압·협심증·심근경색·심부전이 있고 Heart Rate는 단독 적응증이 없음",
-    "ctgov": "query.intr=metoprolol&query.cond=Heart Rate → 30건 반환, InterventionName 대조 후 25건",
-    "pubmed": "metoprolol AND Heart Rate → 2384건",
-    "negative": "metoprolol AND Heart Rate AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 2126건",
-    "safety": "metoprolol AND Heart Rate AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 658건"
+ "id": "metoprolol-heart-rate-pos",
+ "subj": "메토프롤롤",
+ "claim": "심박수를 낮춘다",
+ "line": "메토프롤롤은 심박수·유출로 압력을 낮췄지만 심장 충만압은 바꾸지 못했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "심박수·유출로 압력↓",
+ "n": 28,
+ "synth": "single",
+ "why": "폐쇄성 비후성 심근병증 무작위 교차시험에서 메토프롤롤이 휴식·운동 심박수를 낮췄습니다.",
+ "saw": "폐쇄성 비후성 심근병증 환자 28명을 대상으로 한 무작위 이중맹검 교차시험에서 메토프롤롤은 휴식과 운동 중 심박수, 좌심실 유출로 압력, 승모판 역류를 낮췄지만 운동 시 폐모세혈관쐐기압 변화는 위약과 다르지 않았습니다.",
+ "limit": "심박수 변화는 약리학적 대리지표이고, 대상이 폐쇄성 비후성 심근병증 환자라 일반 성인이나 다른 질환에 그대로 적용할 수 없습니다.",
+ "against": "같은 질환의 다른 무작위시험에서는 증상과 유출로 지표가 일부 개선됐지만 운동능력은 달라지지 않았습니다.",
+ "use": "심박수 감소와 심장 기능·운동능력 개선을 구분해 설명할 때 사용합니다.",
+ "refs": [
+  {
+   "label": "Reis 2022 · J Am Coll Cardiol · 비후성 심근병증 메토프롤롤 운동 혈역학 무작위시험",
+   "pmid": "35450573"
+  },
+  {
+   "label": "Dybro 2022 · J Am Coll Cardiol · 폐쇄성 비후성 심근병증 메토프롤롤 무작위시험",
+   "pmid": "34915981"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:METOPROLOL → 349건; 허가 문구에 고혈압·협심증·심근경색·심부전이 있고 Heart Rate는 단독 적응증이 없음",
+  "ctgov": "query.intr=metoprolol&query.cond=Heart Rate → 30건 반환, InterventionName 대조 후 25건",
+  "pubmed": "metoprolol AND Heart Rate → 2384건",
+  "negative": "metoprolol AND Heart Rate AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 2126건",
+  "safety": "metoprolol AND Heart Rate AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) → 658건"
+ },
+ "vs": "메토프롤롤 vs 위약: 폐쇄성 비후성 심근병증 RCT에서 메토프롤롤은 안정시·운동 시 심박수를 유의하게 낮췄다(P<.0001). 운동 시 1회박출량은 대조 대비 +9 mL(95% CI 2~15; P=.008), 안정시 +6.4 mL(0.02~17.7; P=.049)였고, 운동 시 폐모세혈관쐐기압은 21±9 vs 23±9 mmHg(P=.12)였다."
 }

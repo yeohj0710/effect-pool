@@ -1,28 +1,32 @@
 {
-  "id": "methylnaltrexone-postoperative-ileus-null",
-  "subj": "메틸날트렉손",
-  "claim": "말초 오피오이드 길항제를 수술 후 장마비 치료에 쓴다",
-  "line": "수술 후 장마비에서 메틸날트렉손은 회복·입원 기간을 줄이지 못했습니다",
-  "effect": "회복 9.9일 vs 11.4일",
-  "tier": "obs",
-  "dir": "null",
-  "n": 110,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "메틸날트렉손 허가는 오피오이드 유발 변비이고 수술 후 장마비 치료는 포함하지 않는다.",
-  "why": "수술 후 장마비 환자에게 메틸날트렉손을 투여한 후향 코호트입니다.",
-  "saw": "110명 중 28명이 메틸날트렉손을 받았습니다. 장마비 회복은 메틸날트렉손군 9.9일 대 대조군 11.4일이었지만 유의하지 않았고, 위 감압 기간·입원·총정맥영양도 차이가 없었습니다.",
-  "limit": "무작위시험이 아니고 투여군이 적어 교란과 검정력 부족이 있습니다. 약물 안전성은 위장관 천공이 관찰되지 않은 정도로만 평가했습니다.",
-  "against": "수술 후 장마비에 대한 기존 문헌고찰도 메틸날트렉손의 효과와 근거 수준이 확정되지 않았다고 평가했습니다.",
-  "use": "수술 후 장마비 치료 효과가 확인되지 않은 관찰 근거로 사용하며 표준 장운동 회복 관리와 구분합니다.",
-  "refs": [
-    { "label": "수술 후 장마비 메틸날트렉손 후향 코호트", "pmid": "34645328" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=methylnaltrexone · cond=Postoperative Ileus → 5건 반환, 물질 대조 후 4건",
-    "pubmed": "methylnaltrexone AND Postoperative Ileus → 47편",
-    "negative": "methylnaltrexone AND Postoperative Ileus AND (no effect OR did not OR failed to OR negative OR no significant difference) → 41편",
-    "safety": "methylnaltrexone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 295편"
+ "id": "methylnaltrexone-postoperative-ileus-null",
+ "subj": "메틸날트렉손",
+ "claim": "말초 오피오이드 길항제를 수술 후 장마비 치료에 쓴다",
+ "line": "수술 후 장마비에서 메틸날트렉손은 회복·입원 기간을 줄이지 못했습니다",
+ "effect": "회복 9.9일 vs 11.4일",
+ "tier": "obs",
+ "dir": "null",
+ "n": 110,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "메틸날트렉손 허가는 오피오이드 유발 변비이고 수술 후 장마비 치료는 포함하지 않는다.",
+ "why": "수술 후 장마비 환자에게 메틸날트렉손을 투여한 후향 코호트입니다.",
+ "saw": "110명 중 28명이 메틸날트렉손을 받았습니다. 장마비 회복은 메틸날트렉손군 9.9일 대 대조군 11.4일이었지만 유의하지 않았고, 위 감압 기간·입원·총정맥영양도 차이가 없었습니다.",
+ "limit": "무작위시험이 아니고 투여군이 적어 교란과 검정력 부족이 있습니다. 약물 안전성은 위장관 천공이 관찰되지 않은 정도로만 평가했습니다.",
+ "against": "수술 후 장마비에 대한 기존 문헌고찰도 메틸날트렉손의 효과와 근거 수준이 확정되지 않았다고 평가했습니다.",
+ "use": "수술 후 장마비 치료 효과가 확인되지 않은 관찰 근거로 사용하며 표준 장운동 회복 관리와 구분합니다.",
+ "refs": [
+  {
+   "label": "수술 후 장마비 메틸날트렉손 후향 코호트",
+   "pmid": "34645328"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=methylnaltrexone · cond=Postoperative Ileus → 5건 반환, 물질 대조 후 4건",
+  "pubmed": "methylnaltrexone AND Postoperative Ileus → 47편",
+  "negative": "methylnaltrexone AND Postoperative Ileus AND (no effect OR did not OR failed to OR negative OR no significant difference) → 41편",
+  "safety": "methylnaltrexone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 295편"
+ },
+ "vs": "메틸날트렉손 vs 대조: 수술 후 장폐색 후향 코호트에서 장폐색 해소까지 9.9일 vs 11.4일(P=.38), 입원기간 19.9일 vs 19.7일(P=.96), 완전비경구영양 기간 17.9일 vs 22.0일(P=.65)이었다."
 }
