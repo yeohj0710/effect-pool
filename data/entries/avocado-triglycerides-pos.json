@@ -1,24 +1,37 @@
 {
-  "id": "avocado-triglycerides-pos",
-  "subj": "아보카도",
-  "claim": "아보카도가 중성지방을 낮춘다",
-  "line": "아보카도 식단은 대조 식단보다 중성지방을 낮췄습니다",
-  "effect": "중성지방 27.20 mg/dL 감소",
-  "vs": "아보카도 무작위시험 10개 연구 229명에서 아보카도 식단은 대조 식단보다 중성지방을 27.20 mg/dL 낮췄습니다 (95% CI -44.41~-9.99)",
-  "tier": "trial",
-  "dir": "pos",
-  "known": "off",
-  "knownWhy": "아보카도는 식품이며 이상지질혈증 치료제로 허가된 의약품이 아님",
-  "why": "아보카도 식단과 대조 식단을 비교한 무작위 임상시험 메타분석입니다",
-  "saw": "총콜레스테롤·LDL-C·중성지방이 모두 대조군보다 낮아졌고 HDL-C는 유의하게 달라지지 않았습니다",
-  "limit": "10개 연구의 총 표본이 229명이고 중성지방 결과의 이질성이 높았습니다",
-  "against": "아보카도를 자유 식단에 추가한 효과가 아니라 일부 연구의 지방 대체 효과이며 심혈관 사건은 측정하지 않았습니다",
-  "use": "아보카도를 다른 지방 식품과 바꿨을 때의 단기 지질 변화 근거로 사용합니다",
-  "n": 229,
-  "synth": "meta",
-  "refs": [
-    { "label": "Peou 2016 · 아보카도와 혈중 지단백 메타분석", "doi": "10.1016/j.jacl.2015.10.011", "pmid": "26892133" },
-    { "label": "ClinicalTrials.gov · 아보카도와 심혈관 위험요인 연구", "nct": "NCT01235832" }
-  ],
-  "queried": { "date": "2026-08-11", "ctgov": "intervention=avocado AND condition=Triglycerides; 4건 반환·실제 아보카도 4건 (NCT07624500 등)", "pubmed": "avocado AND Triglycerides; 80편", "negative": "avocado AND Triglycerides AND (no effect OR did not OR failed OR negative OR no significant difference); 16편", "safety": "avocado AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 7편" }
+ "id": "avocado-triglycerides-pos",
+ "subj": "아보카도",
+ "claim": "아보카도가 중성지방을 낮춘다",
+ "line": "아보카도 식단은 대조 식단보다 중성지방을 낮췄습니다",
+ "effect": "중성지방 27.20 mg/dL 감소",
+ "vs": "아보카도 무작위시험 10개 연구 229명에서 아보카도 식단은 대조 식단보다 중성지방을 27.20 mg/dL 낮췄습니다 (95% CI -44.41~-9.99)",
+ "tier": "trial",
+ "dir": "pos",
+ "known": "off",
+ "knownWhy": "아보카도는 식품이며 이상지질혈증 치료제로 허가된 의약품이 아님",
+ "why": "아보카도 식단과 대조 식단을 비교한 무작위 임상시험 메타분석입니다",
+ "saw": "총콜레스테롤·LDL-C·중성지방이 모두 대조군보다 낮아졌고 HDL-C는 유의하게 달라지지 않았습니다",
+ "limit": "10개 연구의 총 표본이 229명이고 중성지방 결과의 이질성이 높았습니다",
+ "against": "아보카도를 자유 식단에 추가한 효과가 아니라 일부 연구의 지방 대체 효과이며 심혈관 사건은 측정하지 않았습니다",
+ "use": "아보카도를 다른 지방 식품과 바꿨을 때의 단기 지질 변화 근거로 사용합니다",
+ "n": 229,
+ "synth": "meta",
+ "refs": [
+  {
+   "label": "Peou 2016 · 아보카도와 혈중 지단백 메타분석",
+   "doi": "10.1016/j.jacl.2015.10.011",
+   "pmid": "26892133"
+  },
+  {
+   "label": "ClinicalTrials.gov · 아보카도와 심혈관 위험요인 연구",
+   "nct": "NCT01235832"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intervention=avocado AND condition=Triglycerides; 4건 반환·실제 아보카도 4건 (NCT07624500 등)",
+  "pubmed": "avocado AND Triglycerides; 80편",
+  "negative": "avocado AND Triglycerides AND (no effect OR did not OR failed OR negative OR no significant difference); 16편",
+  "safety": "avocado AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 7편"
+ }
 }

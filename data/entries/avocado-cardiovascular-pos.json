@@ -1,20 +1,33 @@
 {
-  "id": "avocado-cardiovascular-pos",
-  "subj": "avocado",
-  "claim": "아보카도는 고콜레스테롤 성인의 LDL 콜레스테롤을 낮출 가능성이 있다",
-  "line": "고콜레스테롤군 무작위시험에서 아보카도를 먹자 LDL 콜레스테롤이 9.4 mg/dL 낮아졌다.",
-  "effect": "고콜레스테롤군 LDL 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 503,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 중재로 허가 적응증 없음",
-  "why": "성인의 아보카도 식단 무작위시험을 종합하고 고콜레스테롤군을 따로 분석했다",
-  "saw": "무작위시험 9편 503명을 종합했다. 고콜레스테롤군에서 LDL 콜레스테롤이 9.4 mg/dL, 총콜레스테롤이 7.54 mg/dL 낮았다",
-  "limit": "고콜레스테롤 하위군 결과의 확실성이 낮거나 매우 낮고 심혈관 사건을 직접 측정하지 않았다",
-  "against": "정상 콜레스테롤군에서는 LDL 개선이 확인되지 않았다",
-  "use": "식단 상담에서 참고하되 지질저하제와 치료 결정을 바꾸는 근거로 쓰지 않는다",
-  "refs": [{ "label": "Avocado Consumption and Cardiometabolic Health: A Systematic Review", "doi": "10.1016/j.jand.2022.12.008", "pmid": "36565850" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=avocado 쨌 cond=Cardiovascular Disease: 4건", "pubmed": "avocado AND Cardiovascular Disease: 152건", "negative": "avocado AND Cardiovascular Disease AND no effect: 107건", "safety": "avocado AND adverse OR toxicity: 346건" }
+ "id": "avocado-cardiovascular-pos",
+ "subj": "아보카도",
+ "claim": "아보카도는 고콜레스테롤 성인의 LDL 콜레스테롤을 낮출 가능성이 있다",
+ "line": "고콜레스테롤군 무작위시험에서 아보카도를 먹자 LDL 콜레스테롤이 9.4 mg/dL 낮아졌다.",
+ "effect": "고콜레스테롤군 LDL 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 503,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 중재로 허가 적응증 없음",
+ "why": "성인의 아보카도 식단 무작위시험을 종합하고 고콜레스테롤군을 따로 분석했다",
+ "saw": "무작위시험 9편 503명을 종합했다. 고콜레스테롤군에서 LDL 콜레스테롤이 9.4 mg/dL, 총콜레스테롤이 7.54 mg/dL 낮았다",
+ "limit": "고콜레스테롤 하위군 결과의 확실성이 낮거나 매우 낮고 심혈관 사건을 직접 측정하지 않았다",
+ "against": "정상 콜레스테롤군에서는 LDL 개선이 확인되지 않았다",
+ "use": "식단 상담에서 참고하되 지질저하제와 치료 결정을 바꾸는 근거로 쓰지 않는다",
+ "refs": [
+  {
+   "label": "Avocado Consumption and Cardiometabolic Health: A Systematic Review",
+   "doi": "10.1016/j.jand.2022.12.008",
+   "pmid": "36565850"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=avocado 쨌 cond=Cardiovascular Disease: 4건",
+  "pubmed": "avocado AND Cardiovascular Disease: 152건",
+  "negative": "avocado AND Cardiovascular Disease AND no effect: 107건",
+  "safety": "avocado AND adverse OR toxicity: 346건"
+ },
+ "vs": "아보카도 식단 vs 대조 식단: 전체 연구에서 총콜레스테롤 -5.08 mg/dL (95% CI -9.29~-0.87), p=.02; 고콜레스테롤혈증 하위군 LDL -9.4 mg/dL (-10.84~-7.95), 총콜레스테롤 -7.54 mg/dL (-9.40~-5.68), 모두 p<.00001; RCT 9건·503명 meta-analysis"
 }

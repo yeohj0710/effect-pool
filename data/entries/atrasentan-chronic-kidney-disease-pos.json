@@ -1,33 +1,34 @@
 {
-  "id": "atrasentan-chronic-kidney-disease-pos",
-  "subj": "아트라센탄",
-  "claim": "엔도텔린 A 수용체 차단제를 당뇨병성 만성콩팥병에 쓴다",
-  "line": "선별된 당뇨병성 만성콩팥병 환자에서 아트라센탄은 신장 사건을 줄였다.",
-  "effect": "신장 사건 HR 0.65",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2648,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "아트라센탄은 국내 허가 적응증이 확인되지 않은 연구 약이며 당뇨병성 만성콩팥병은 별도 시험 대상입니다.",
-  "why": "당뇨병과 만성콩팥병이 있고 알부민뇨가 높은 환자 중 반응자 2,648명을 아트라센탄과 위약에 무작위 배정했습니다.",
-  "saw": "중앙 2.2년 추적에서 복합 신장 사건은 아트라센탄 6.0%, 위약 7.9%였고 위험비는 0.65였습니다.",
-  "limit": "알부민뇨 감소와 체액 저류가 없는 반응자만 무작위 배정한 선별시험입니다.",
-  "against": "체액 저류와 빈혈이 더 흔했고 심부전 입원은 3.5% 대 2.6%였습니다.",
-  "use": "당뇨병성 만성콩팥병의 표준 신장보호 치료를 대신하지 않는 임상시험 근거로만 검토합니다.",
-  "refs": [
-    {
-      "label": "SONAR 아트라센탄 신장 사건 무작위시험",
-      "doi": "10.1016/S0140-6736(19)30772-X",
-      "pmid": "30995972",
-      "nct": "NCT01858532"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=atrasentan AND cond=Chronic Kidney Disease · 7건",
-    "pubmed": "atrasentan AND Chronic Kidney Disease · 83건 · trial 57건",
-    "negative": "atrasentan AND Chronic Kidney Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 13건",
-    "safety": "atrasentan AND (adverse OR toxicity OR case report OR harm OR dropout) · 120건"
+ "id": "atrasentan-chronic-kidney-disease-pos",
+ "subj": "아트라센탄",
+ "claim": "엔도텔린 A 수용체 차단제를 당뇨병성 만성콩팥병에 쓴다",
+ "line": "선별된 당뇨병성 만성콩팥병 환자에서 아트라센탄은 신장 사건을 줄였다.",
+ "effect": "신장 사건 HR 0.65",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2648,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아트라센탄은 국내 허가 적응증이 확인되지 않은 연구 약이며 당뇨병성 만성콩팥병은 별도 시험 대상입니다.",
+ "why": "당뇨병과 만성콩팥병이 있고 알부민뇨가 높은 환자 중 반응자 2,648명을 아트라센탄과 위약에 무작위 배정했습니다.",
+ "saw": "중앙 2.2년 추적에서 복합 신장 사건은 아트라센탄 6.0%, 위약 7.9%였고 위험비는 0.65였습니다.",
+ "limit": "알부민뇨 감소와 체액 저류가 없는 반응자만 무작위 배정한 선별시험입니다.",
+ "against": "체액 저류와 빈혈이 더 흔했고 심부전 입원은 3.5% 대 2.6%였습니다.",
+ "use": "당뇨병성 만성콩팥병의 표준 신장보호 치료를 대신하지 않는 임상시험 근거로만 검토합니다.",
+ "refs": [
+  {
+   "label": "SONAR 아트라센탄 신장 사건 무작위시험",
+   "doi": "10.1016/S0140-6736(19)30772-X",
+   "pmid": "30995972",
+   "nct": "NCT01858532"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=atrasentan AND cond=Chronic Kidney Disease · 7건",
+  "pubmed": "atrasentan AND Chronic Kidney Disease · 83건 · trial 57건",
+  "negative": "atrasentan AND Chronic Kidney Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 13건",
+  "safety": "atrasentan AND (adverse OR toxicity OR case report OR harm OR dropout) · 120건"
+ },
+ "vs": "아트라센탄 vs 위약: 복합 신장 평가변수 6.0% (79/1325) vs 7.9% (105/1323), HR 0.65 (95% CI 0.49~0.88), p=.0047; 심부전 입원 3.5% vs 2.6%, HR 1.33 (0.85~2.07); RCT 2,648명"
 }

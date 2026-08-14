@@ -1,20 +1,33 @@
 {
-  "id": "avocado-healthy-adult-null",
-  "subj": "avocado",
-  "claim": "건강 성인에서 아보카도가 체중을 악화한다는 신호는 확인되지 않았다",
-  "line": "성인 연구를 종합하면 아보카도 섭취는 체중과 체성분을 악화시키지 않았다.",
-  "effect": "체중 악화 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 503,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 중재로 허가 적응증 없음",
-  "why": "건강하거나 심혈관 위험이 있는 성인의 아보카도 무작위시험 9편을 종합한 연구를 확인했다",
-  "saw": "무작위시험 9편 503명을 종합했다. 아보카도군은 대조군보다 체중과 체성분이 나빠지지 않았고 전체 LDL 차이는 유의하지 않았다",
-  "limit": "건강 상태와 식단이 다른 시험을 묶었고 체중 악화가 없다는 결과는 치료 효과가 아니다",
-  "against": "아보카도가 건강 성인의 심혈관 질환을 예방한다고 입증하지 않았다",
-  "use": "체중 관리 식단에서 아보카도 열량을 함께 계산하는 근거로만 쓴다",
-  "refs": [{ "label": "Avocado Consumption and Cardiometabolic Health: A Systematic Review", "doi": "10.1016/j.jand.2022.12.008", "pmid": "36565850" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=avocado 쨌 cond=Healthy Adult: 1건", "pubmed": "avocado AND Healthy Adult: 84건", "negative": "avocado AND Healthy Adult AND no effect: 56건", "safety": "avocado AND adverse OR toxicity: 346건" }
+ "id": "avocado-healthy-adult-null",
+ "subj": "아보카도",
+ "claim": "건강 성인에서 아보카도가 체중을 악화한다는 신호는 확인되지 않았다",
+ "line": "성인 연구를 종합하면 아보카도 섭취는 체중과 체성분을 악화시키지 않았다.",
+ "effect": "체중 악화 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 503,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 중재로 허가 적응증 없음",
+ "why": "건강하거나 심혈관 위험이 있는 성인의 아보카도 무작위시험 9편을 종합한 연구를 확인했다",
+ "saw": "무작위시험 9편 503명을 종합했다. 아보카도군은 대조군보다 체중과 체성분이 나빠지지 않았고 전체 LDL 차이는 유의하지 않았다",
+ "limit": "건강 상태와 식단이 다른 시험을 묶었고 체중 악화가 없다는 결과는 치료 효과가 아니다",
+ "against": "아보카도가 건강 성인의 심혈관 질환을 예방한다고 입증하지 않았다",
+ "use": "체중 관리 식단에서 아보카도 열량을 함께 계산하는 근거로만 쓴다",
+ "refs": [
+  {
+   "label": "Avocado Consumption and Cardiometabolic Health: A Systematic Review",
+   "doi": "10.1016/j.jand.2022.12.008",
+   "pmid": "36565850"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=avocado 쨌 cond=Healthy Adult: 1건",
+  "pubmed": "avocado AND Healthy Adult: 84건",
+  "negative": "avocado AND Healthy Adult AND no effect: 56건",
+  "safety": "avocado AND adverse OR toxicity: 346건"
+ },
+ "vs": "아보카도 식단 vs 대조 식단: 전체 LDL-C·HDL-C·중성지방은 유의한 차이 없음; 전체 총콜레스테롤은 -5.08 mg/dL (95% CI -9.29~-0.87), p=.02였으나 근거 확실성은 낮음~매우 낮음; RCT 9건·503명 meta-analysis"
 }

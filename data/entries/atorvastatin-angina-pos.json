@@ -1,20 +1,33 @@
 {
-  "id": "atorvastatin-angina-pos",
-  "subj": "atorvastatin",
-  "claim": "급성관상동맥증후군 뒤 고용량 아토르바스타틴이 재발성 허혈 사건을 줄였다",
-  "line": "급성관상동맥증후군 이후 아토르바스타틴은 허혈 재발을 줄였다.",
-  "effect": "재발 사건 RR 0.84",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3086,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "아토르바스타틴은 협심증 자체 치료의 허가 적응증이 아니다",
-  "why": "불안정 협심증 또는 비Q파 심근경색 뒤 24-96시간 안에 고용량 아토르바스타틴을 시작한 무작위시험이다.",
-  "saw": "성인 3086명을 아토르바스타틴 80mg과 위약에 배정했다. 16주 주요 사건은 14.8% 대 17.4%, RR 0.84였고 재입원이 필요한 증상성 허혈도 줄었다.",
-  "limit": "급성관상동맥증후군 직후의 고위험 환자 대상이며 간효소 상승은 아토르바스타틴군에서 더 많았다.",
-  "against": "만성 안정형 협심증의 증상 완화제라는 뜻이 아니며 간 기능과 근육 이상반응을 함께 확인해야 한다.",
-  "use": "급성관상동맥증후군 뒤 재발성 허혈 예방을 위해 고강도 스타틴을 검토할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Schwartz 2001 · JAMA · 무작위시험", "doi": "10.1001/jama.285.13.1711", "pmid": "11277825" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=atorvastatin, cond=Angina · 25건", "pubmed": "atorvastatin AND Angina · 344편", "negative": "atorvastatin AND Angina AND (no effect OR did not OR failed OR negative OR no significant difference) · 252편", "safety": "atorvastatin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 4061편" }
+ "id": "atorvastatin-angina-pos",
+ "subj": "아토르바스타틴",
+ "claim": "급성관상동맥증후군 뒤 고용량 아토르바스타틴이 재발성 허혈 사건을 줄였다",
+ "line": "급성관상동맥증후군 이후 아토르바스타틴은 허혈 재발을 줄였다.",
+ "effect": "재발 사건 RR 0.84",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3086,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아토르바스타틴은 협심증 자체 치료의 허가 적응증이 아니다",
+ "why": "불안정 협심증 또는 비Q파 심근경색 뒤 24-96시간 안에 고용량 아토르바스타틴을 시작한 무작위시험이다.",
+ "saw": "성인 3086명을 아토르바스타틴 80mg과 위약에 배정했다. 16주 주요 사건은 14.8% 대 17.4%, RR 0.84였고 재입원이 필요한 증상성 허혈도 줄었다.",
+ "limit": "급성관상동맥증후군 직후의 고위험 환자 대상이며 간효소 상승은 아토르바스타틴군에서 더 많았다.",
+ "against": "만성 안정형 협심증의 증상 완화제라는 뜻이 아니며 간 기능과 근육 이상반응을 함께 확인해야 한다.",
+ "use": "급성관상동맥증후군 뒤 재발성 허혈 예방을 위해 고강도 스타틴을 검토할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Schwartz 2001 · JAMA · 무작위시험",
+   "doi": "10.1001/jama.285.13.1711",
+   "pmid": "11277825"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=atorvastatin, cond=Angina · 25건",
+  "pubmed": "atorvastatin AND Angina · 344편",
+  "negative": "atorvastatin AND Angina AND (no effect OR did not OR failed OR negative OR no significant difference) · 252편",
+  "safety": "atorvastatin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 4061편"
+ },
+ "vs": "아토르바스타틴 vs 위약: 급성 관상동맥증후군 후 16주 주요 평가변수 14.8% vs 17.4%, RR 0.84 (95% CI 0.70~1.00), p=.048; 응급 재입원 필요한 허혈 6.2% vs 8.4%, RR 0.74 (0.57~0.95), p=.02; RCT 3,086명"
 }

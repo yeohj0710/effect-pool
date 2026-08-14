@@ -1,32 +1,33 @@
 {
-  "id": "atorvastatin-atherosclerosis-pos",
-  "subj": "아토르바스타틴",
-  "claim": "스타틴을 관상동맥 죽상경화 진행 억제에 쓴다",
-  "line": "아토르바스타틴은 중등도 치료보다 관상동맥 죽상경화 진행을 더 억제했다.",
-  "effect": "죽상경화 −0.4% vs +2.7%",
-  "tier": "trial",
-  "dir": "pos",
-  "known": "off",
-  "knownWhy": "관상동맥 죽상경화 진행 억제는 허가 문구 없음",
-  "n": 654,
-  "synth": "single",
-  "why": "관상동맥질환 환자에서 집중 지질저하 아토르바스타틴과 중등도 지질저하 프라바스타틴을 비교한 무작위 다기관 시험입니다.",
-  "saw": "654명이 무작위 배정됐고 혈관초음파를 추적한 502명에서 죽상경화 부피 변화는 아토르바스타틴 −0.4%, 프라바스타틴 +2.7%였습니다. 아토르바스타틴군은 관상동맥 죽상경화의 유의한 진행이 없었습니다.",
-  "limit": "위약이 아닌 다른 스타틴과 비교했고 추적 혈관초음파 자료는 502명뿐입니다. 영상상 죽상경화 변화가 심근경색·사망 감소를 직접 뜻하지는 않습니다.",
-  "against": "아토르바스타틴군에서도 죽상경화 부담이 기준선보다 유의하게 줄었다고 입증한 것은 아니며, 진행이 없었던 수준의 결과였습니다.",
-  "use": "관상동맥질환에서 강한 지질저하가 영상상 죽상경화 진행을 억제하는 근거지만, 모든 죽상경화 환자에 대한 직접 임상효과로 일반화하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Nissen 2004 · JAMA · 관상동맥 죽상경화 무작위시험 REVERSAL",
-      "doi": "10.1001/jama.291.9.1071",
-      "pmid": "14996776"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=atorvastatin, cond=Atherosclerosis → 96건 반환, InterventionName 대조 후 38건",
-    "pubmed": "atorvastatin atherosclerosis → 1,757건",
-    "negative": "atorvastatin atherosclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,454건",
-    "safety": "atorvastatin atherosclerosis AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 386건"
+ "id": "atorvastatin-atherosclerosis-pos",
+ "subj": "아토르바스타틴",
+ "claim": "스타틴을 관상동맥 죽상경화 진행 억제에 쓴다",
+ "line": "아토르바스타틴은 중등도 치료보다 관상동맥 죽상경화 진행을 더 억제했다.",
+ "effect": "죽상경화 −0.4% vs +2.7%",
+ "tier": "trial",
+ "dir": "pos",
+ "known": "off",
+ "knownWhy": "관상동맥 죽상경화 진행 억제는 허가 문구 없음",
+ "n": 654,
+ "synth": "single",
+ "why": "관상동맥질환 환자에서 집중 지질저하 아토르바스타틴과 중등도 지질저하 프라바스타틴을 비교한 무작위 다기관 시험입니다.",
+ "saw": "654명이 무작위 배정됐고 혈관초음파를 추적한 502명에서 죽상경화 부피 변화는 아토르바스타틴 −0.4%, 프라바스타틴 +2.7%였습니다. 아토르바스타틴군은 관상동맥 죽상경화의 유의한 진행이 없었습니다.",
+ "limit": "위약이 아닌 다른 스타틴과 비교했고 추적 혈관초음파 자료는 502명뿐입니다. 영상상 죽상경화 변화가 심근경색·사망 감소를 직접 뜻하지는 않습니다.",
+ "against": "아토르바스타틴군에서도 죽상경화 부담이 기준선보다 유의하게 줄었다고 입증한 것은 아니며, 진행이 없었던 수준의 결과였습니다.",
+ "use": "관상동맥질환에서 강한 지질저하가 영상상 죽상경화 진행을 억제하는 근거지만, 모든 죽상경화 환자에 대한 직접 임상효과로 일반화하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Nissen 2004 · JAMA · 관상동맥 죽상경화 무작위시험 REVERSAL",
+   "doi": "10.1001/jama.291.9.1071",
+   "pmid": "14996776"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=atorvastatin, cond=Atherosclerosis → 96건 반환, InterventionName 대조 후 38건",
+  "pubmed": "atorvastatin atherosclerosis → 1,757건",
+  "negative": "atorvastatin atherosclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,454건",
+  "safety": "atorvastatin atherosclerosis AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 386건"
+ },
+ "vs": "고강도 아토르바스타틴 vs 중강도 프라바스타틴: 관상동맥 죽상경화반 용적 변화율 -0.4% (95% CI -2.4~1.5) vs 2.7% (0.2~4.7), p=.02; RCT 654명"
 }

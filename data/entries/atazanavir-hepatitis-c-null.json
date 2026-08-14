@@ -1,29 +1,37 @@
 {
-  "id": "atazanavir-hepatitis-c-null",
-  "subj": "atazanavir",
-  "claim": "HCV 치료 중 atazanavir를 쓴다",
-  "line": "HIV·HCV 동시감염에서 아타자나비르는 HCV 치료제가 아니라 상호작용 대상이었다.",
-  "effect": "DAA SVR12 91.5%·병용 제한",
-  "tier": "obs",
-  "dir": "null",
-  "n": 1042,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "atazanavir 허가는 HIV-1 감염이며 HCV 치료는 허가 적응증이 아닙니다",
-  "why": "HIV·HCV 동시감염에서 HCV 치료효과가 atazanavir 자체인지 HCV 직접작용 항바이러스제의 효과인지 구분합니다.",
-  "saw": "유럽 HIV·HCV 코호트 1,042명에서 인터페론 없는 DAA 치료 후 알려진 862명 중 789명(91.5%)이 SVR12를 달성했습니다. 별도 상호작용 시험에서는 atazanavir/ritonavir와 glecaprevir/pibrentasvir 병용 때 glecaprevir 노출이 크게 올라 병용 금기로 정리됐습니다.",
-  "limit": "코호트에서 atazanavir 복용자만의 HCV 결과를 분리하지 않았고, 상호작용 시험은 HCV 치료효과를 평가하지 않았습니다.",
-  "against": "SVR12는 HCV DAA 치료 결과이며 아타자나비르의 직접 항HCV 효과를 보여주지 않습니다.",
-  "use": "HIV·HCV 동시치료에서 항레트로바이러스제와 DAA를 구분해 해석하는 사례로 기록합니다.",
-  "refs": [
-    { "label": "Schultze 2021 · HIV·HCV 동시감염 DAA 유럽 코호트", "doi": "10.1097/QAI.0000000000002541", "pmid": "33079903" },
-    { "label": "Kosloski 2020 · glecaprevir/pibrentasvir와 HIV 항레트로바이러스제 상호작용", "doi": "10.1093/infdis/jiz439", "pmid": "31504702" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=atazanavir AND condition=Hepatitis C; 11건 반환, 4건 직접 대조",
-    "pubmed": "atazanavir AND Hepatitis C; 97편",
-    "negative": "atazanavir AND Hepatitis C AND (no effect OR did not OR failed to OR negative); 21편",
-    "safety": "atazanavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 955편"
+ "id": "atazanavir-hepatitis-c-null",
+ "subj": "아타자나비르",
+ "claim": "HCV 치료 중 아타자나비르를 쓴다",
+ "line": "HIV·HCV 동시감염에서 아타자나비르는 HCV 치료제가 아니라 상호작용 대상이었다.",
+ "effect": "DAA SVR12 91.5%·병용 제한",
+ "tier": "obs",
+ "dir": "null",
+ "n": 1042,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아타자나비르 허가는 HIV-1 감염이며 HCV 치료는 허가 적응증이 아닙니다",
+ "why": "HIV·HCV 동시감염에서 HCV 치료효과가 아타자나비르 자체인지 HCV 직접작용 항바이러스제의 효과인지 구분합니다.",
+ "saw": "유럽 HIV·HCV 코호트 1,042명에서 인터페론 없는 DAA 치료 후 알려진 862명 중 789명(91.5%)이 SVR12를 달성했습니다. 별도 상호작용 시험에서는 아타자나비르/ritonavir와 glecaprevir/pibrentasvir 병용 때 glecaprevir 노출이 크게 올라 병용 금기로 정리됐습니다.",
+ "limit": "코호트에서 아타자나비르 복용자만의 HCV 결과를 분리하지 않았고, 상호작용 시험은 HCV 치료효과를 평가하지 않았습니다.",
+ "against": "SVR12는 HCV DAA 치료 결과이며 아타자나비르의 직접 항HCV 효과를 보여주지 않습니다.",
+ "use": "HIV·HCV 동시치료에서 항레트로바이러스제와 DAA를 구분해 해석하는 사례로 기록합니다.",
+ "refs": [
+  {
+   "label": "Schultze 2021 · HIV·HCV 동시감염 DAA 유럽 코호트",
+   "doi": "10.1097/QAI.0000000000002541",
+   "pmid": "33079903"
+  },
+  {
+   "label": "Kosloski 2020 · glecaprevir/pibrentasvir와 HIV 항레트로바이러스제 상호작용",
+   "doi": "10.1093/infdis/jiz439",
+   "pmid": "31504702"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=atazanavir AND condition=Hepatitis C; 11건 반환, 4건 직접 대조",
+  "pubmed": "atazanavir AND Hepatitis C; 97편",
+  "negative": "atazanavir AND Hepatitis C AND (no effect OR did not OR failed to OR negative); 21편",
+  "safety": "atazanavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 955편"
+ }
 }

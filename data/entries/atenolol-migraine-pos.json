@@ -1,20 +1,38 @@
 {
-  "id": "atenolol-migraine-pos",
-  "subj": "atenolol",
-  "claim": "소규모 단일 시험에서 atenolol이 편두통 발작 횟수를 줄였다",
-  "line": "편두통 예방에서 아테놀롤은 위약보다 발작 횟수를 줄였다.",
-  "effect": "편두통 발작 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 28,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "편두통 예방은 atenolol의 허가 적응증이 아닙니다",
-  "why": "편두통 환자 28명에서 atenolol과 propranolol을 위약과 비교한 6주 교차 이중맹검시험입니다",
-  "saw": "28명 시험에서 atenolol은 위약보다 발작을 유의하게 줄였고 propranolol과 비슷한 효과를 보였습니다",
-  "limit": "28명 규모의 오래된 교차시험이며 일부 환자의 두통 기록 문제가 지적되었습니다",
-  "against": "최근 체계적 문헌고찰에서도 atenolol 근거는 소수 시험에 기반합니다",
-  "use": "편두통 예방의 제한적 양성 신호로 기록하고 표준 치료와 구분합니다",
-  "refs": [{ "label": "1980 atenolol 대 propranolol 편두통 교차시험", "doi": "10.1111/j.1526-4610.1980.h2004006.x", "pmid": "7006182" }, { "label": "2023 혈압약 편두통 메타분석", "doi": "10.1177/03331024231183166", "pmid": "37350141" }],
-  "queried": { "date": "2026-08-08", "ctgov": "atenolol AND Migraine Disorders; 1건", "pubmed": "atenolol AND migraine randomized; PMID 7006182", "negative": "atenolol AND migraine AND no effect; 체계적 문헌고찰 확인", "safety": "atenolol AND migraine AND adverse; 원시험 확인" }
+ "id": "atenolol-migraine-pos",
+ "subj": "아테놀롤",
+ "claim": "소규모 단일 시험에서 아테놀롤이 편두통 발작 횟수를 줄였다",
+ "line": "편두통 예방에서 아테놀롤은 위약보다 발작 횟수를 줄였다.",
+ "effect": "편두통 발작 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 28,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "편두통 예방은 아테놀롤의 허가 적응증이 아닙니다",
+ "why": "편두통 환자 28명에서 아테놀롤과 propranolol을 위약과 비교한 6주 교차 이중맹검시험입니다",
+ "saw": "28명 시험에서 아테놀롤은 위약보다 발작을 유의하게 줄였고 propranolol과 비슷한 효과를 보였습니다",
+ "limit": "28명 규모의 오래된 교차시험이며 일부 환자의 두통 기록 문제가 지적되었습니다",
+ "against": "최근 체계적 문헌고찰에서도 아테놀롤 근거는 소수 시험에 기반합니다",
+ "use": "편두통 예방의 제한적 양성 신호로 기록하고 표준 치료와 구분합니다",
+ "refs": [
+  {
+   "label": "1980 atenolol 대 propranolol 편두통 교차시험",
+   "doi": "10.1111/j.1526-4610.1980.h2004006.x",
+   "pmid": "7006182"
+  },
+  {
+   "label": "2023 혈압약 편두통 메타분석",
+   "doi": "10.1177/03331024231183166",
+   "pmid": "37350141"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "atenolol AND Migraine Disorders; 1건",
+  "pubmed": "atenolol AND migraine randomized; PMID 7006182",
+  "negative": "atenolol AND migraine AND no effect; 체계적 문헌고찰 확인",
+  "safety": "atenolol AND migraine AND adverse; 원시험 확인"
+ },
+ "vs": "베타차단제 vs 위약: 삽화성 편두통 월간 두통일수 표준화 평균차 -0.4 (95% CI -0.8~-0.0); 아테놀롤을 포함한 무작위시험 meta-analysis 50건·60개 비교"
 }

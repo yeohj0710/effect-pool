@@ -1,37 +1,38 @@
 {
-  "id": "atorvastatin-hypertension-pos",
-  "subj": "아토르바스타틴",
-  "claim": "스타틴을 경증 고혈압의 혈압 보조치료에 쓴다",
-  "line": "경증 고혈압 시험에서 아토르바스타틴은 24시간 혈압을 낮추는 신호를 보였다.",
-  "effect": "24시간 수축기 −5mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "known": "off",
-  "knownWhy": "고혈압 치료는 아토르바스타틴 허가 적응증 없음",
-  "n": 50,
-  "synth": "single",
-  "why": "경증 고혈압과 고콜레스테롤혈증 환자에서 아토르바스타틴의 혈압 효과를 위약과 비교한 무작위 이중눈가림 시험입니다.",
-  "saw": "경증 고혈압과 고콜레스테롤혈증 환자 50명에서 24시간 수축기 혈압은 아토르바스타틴군 −5.0mmHg, 위약군 +1.0mmHg였고 이완기 혈압도 추가로 낮아졌습니다.",
-  "limit": "작은 단일시험이고 이미 복용하던 혈압약을 유지한 상태의 결과입니다. 심혈관 사건이나 고혈압 장기 예후를 평가하지 않았습니다.",
-  "against": "49,087명을 합친 위약 무작위시험 메타분석에서는 스타틴 전체의 수축기 혈압 감소가 평균 −1.6mmHg로 단일시험보다 작았습니다.",
-  "use": "아토르바스타틴의 혈압 보조효과 신호는 있지만 고혈압 치료제를 대체하거나 혈압 치료 효과로 확정할 근거는 부족합니다.",
-  "refs": [
-    {
-      "label": "Kanaki 2012 · Journal of Human Hypertension · 아토르바스타틴 혈압 무작위시험",
-      "doi": "10.1038/jhh.2011.80",
-      "pmid": "21881597"
-    },
-    {
-      "label": "Briasoulis 2020 · European Journal of Clinical Pharmacology · 스타틴 혈압 메타분석",
-      "doi": "10.1007/s00228-020-02965-2",
-      "pmid": "32696233"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=atorvastatin, cond=Hypertension → 71건 반환, InterventionName 대조 후 18건",
-    "pubmed": "atorvastatin hypertension → 971건",
-    "negative": "atorvastatin hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 720건",
-    "safety": "atorvastatin hypertension AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 311건"
+ "id": "atorvastatin-hypertension-pos",
+ "subj": "아토르바스타틴",
+ "claim": "스타틴을 경증 고혈압의 혈압 보조치료에 쓴다",
+ "line": "경증 고혈압 시험에서 아토르바스타틴은 24시간 혈압을 낮추는 신호를 보였다.",
+ "effect": "24시간 수축기 −5mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "known": "off",
+ "knownWhy": "고혈압 치료는 아토르바스타틴 허가 적응증 없음",
+ "n": 50,
+ "synth": "single",
+ "why": "경증 고혈압과 고콜레스테롤혈증 환자에서 아토르바스타틴의 혈압 효과를 위약과 비교한 무작위 이중눈가림 시험입니다.",
+ "saw": "경증 고혈압과 고콜레스테롤혈증 환자 50명에서 24시간 수축기 혈압은 아토르바스타틴군 −5.0mmHg, 위약군 +1.0mmHg였고 이완기 혈압도 추가로 낮아졌습니다.",
+ "limit": "작은 단일시험이고 이미 복용하던 혈압약을 유지한 상태의 결과입니다. 심혈관 사건이나 고혈압 장기 예후를 평가하지 않았습니다.",
+ "against": "49,087명을 합친 위약 무작위시험 메타분석에서는 스타틴 전체의 수축기 혈압 감소가 평균 −1.6mmHg로 단일시험보다 작았습니다.",
+ "use": "아토르바스타틴의 혈압 보조효과 신호는 있지만 고혈압 치료제를 대체하거나 혈압 치료 효과로 확정할 근거는 부족합니다.",
+ "refs": [
+  {
+   "label": "Kanaki 2012 · Journal of Human Hypertension · 아토르바스타틴 혈압 무작위시험",
+   "doi": "10.1038/jhh.2011.80",
+   "pmid": "21881597"
+  },
+  {
+   "label": "Briasoulis 2020 · European Journal of Clinical Pharmacology · 스타틴 혈압 메타분석",
+   "doi": "10.1007/s00228-020-02965-2",
+   "pmid": "32696233"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=atorvastatin, cond=Hypertension → 71건 반환, InterventionName 대조 후 18건",
+  "pubmed": "atorvastatin hypertension → 971건",
+  "negative": "atorvastatin hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) → 720건",
+  "safety": "atorvastatin hypertension AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 311건"
+ },
+ "vs": "아토르바스타틴 vs 위약: 24시간 수축기혈압 -5.0 (-21.0~4.0) vs +1.0 (-6.0~7.0) mmHg, p<.001; 이완기혈압 -3.0 (-16.0~2.0) vs +0.1 (-7~4) mmHg, p<.01; RCT 50명"
 }
