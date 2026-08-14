@@ -1,28 +1,33 @@
 {
-  "id": "dual-task-training-multiple-sclerosis-pos",
-  "subj": "dual task training",
-  "claim": "이중과제 훈련이 다발성경화증 환자의 균형·인지 기능·피로를 개선한다",
-  "line": "다발성경화증에서 이중과제 훈련 뒤 균형·인지기능·피로가 좋아졌다.",
-  "effect": "BBS·인지·피로 유의한 개선",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "dual-task-training-multiple-sclerosis-pos",
+ "subj": "이중과제 훈련",
+ "claim": "이중과제 훈련이 다발성경화증 환자의 균형·인지 기능·피로를 개선한다",
+ "line": "다발성경화증에서 이중과제 훈련 뒤 균형·인지기능·피로가 좋아졌다.",
+ "effect": "BBS·인지·피로 유의한 개선",
+ "tier": "trial",
+ "dir": "pos",
   "n": 32,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활 훈련이라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "다발성경화증의 보행·균형 장애와 인지 기능에 운동-운동 및 운동-인지 이중과제 훈련을 적용했습니다.",
-  "saw": "다발성경화증 환자 32명을 이중과제군 13명과 가정운동 대조군 19명으로 무작위 배정했습니다. 8주 뒤 최종 분석은 27명이었고 이중과제군에서 균형, 피로, 인지 기능, 10m 보행이 유의하게 좋아졌습니다.",
-  "limit": "최종 분석 인원이 27명으로 줄었고 대조군도 가정운동을 함께 했습니다.",
-  "against": "Timed Up and Go, 자세 흔들림 지수, 이중과제 설문에서는 군 간 유의한 차이가 없었습니다.",
-  "use": "다발성경화증 재활의 보조 훈련 후보로만 사용하며, 모든 보행 장애에 같은 효과가 난다고 해석하지 않습니다.",
-  "refs": [
-    { "label": "Dual-Task Training in Multiple Sclerosis 2025 · Mult Scler Relat Disord · 무작위시험", "doi": "10.1016/j.msard.2025.106645", "pmid": "40737966" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "dual task training AND Multiple Sclerosis · 28건 반환, 중재명 직접 확인 10건",
-    "pubmed": "\"dual task training\" AND \"Multiple Sclerosis\" · 20건",
-    "negative": "\"dual task training\" AND \"Multiple Sclerosis\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 17건",
-    "safety": "\"dual task training\" AND (adverse OR toxicity OR case report OR harm) · 23건"
+  "vs": "이중과제 훈련 13명 대비 가정운동 19명; 최종 분석 13명 대비 14명에서 BBS P<.001·피로 P=.002·인지 P<.001·10m 보행 P=.019로 중재군 우세",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활 훈련이라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "다발성경화증의 보행·균형 장애와 인지 기능에 운동-운동 및 운동-인지 이중과제 훈련을 적용했습니다.",
+ "saw": "다발성경화증 환자 32명을 이중과제군 13명과 가정운동 대조군 19명으로 무작위 배정했습니다. 8주 뒤 최종 분석은 27명이었고 이중과제군에서 균형, 피로, 인지 기능, 10m 보행이 유의하게 좋아졌습니다.",
+ "limit": "최종 분석 인원이 27명으로 줄었고 대조군도 가정운동을 함께 했습니다.",
+ "against": "Timed Up and Go, 자세 흔들림 지수, 이중과제 설문에서는 군 간 유의한 차이가 없었습니다.",
+ "use": "다발성경화증 재활의 보조 훈련 후보로만 사용하며, 모든 보행 장애에 같은 효과가 난다고 해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "Dual-Task Training in Multiple Sclerosis 2025 · Mult Scler Relat Disord · 무작위시험",
+   "doi": "10.1016/j.msard.2025.106645",
+   "pmid": "40737966"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "dual task training AND Multiple Sclerosis · 28건 반환, 중재명 직접 확인 10건",
+  "pubmed": "\"dual task training\" AND \"Multiple Sclerosis\" · 20건",
+  "negative": "\"dual task training\" AND \"Multiple Sclerosis\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 17건",
+  "safety": "\"dual task training\" AND (adverse OR toxicity OR case report OR harm) · 23건"
+ }
 }

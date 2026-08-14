@@ -1,32 +1,33 @@
 {
-  "id": "digital-therapeutics-pain-pos",
-  "subj": "digital therapeutics",
-  "claim": "디지털 건강 중재는 소아 수술 전후 통증을 줄인다",
-  "line": "소아 수술 전후 통증이 줄었습니다.",
-  "effect": "수술 전후 통증 감소",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "digital-therapeutics-pain-pos",
+ "subj": "디지털 치료",
+ "claim": "디지털 건강 중재는 소아 수술 전후 통증을 줄인다",
+ "line": "소아 수술 전후 통증이 줄었습니다.",
+ "effect": "수술 전후 통증 감소",
+ "tier": "trial",
+ "dir": "pos",
   "n": 4535,
-  "synth": "meta",
-  "why": "소아 수술 환자 49개 무작위시험 네트워크 메타분석에서 가상현실·영상·게임 기반 디지털 중재가 수술 후 통증을 줄였다.",
-  "limit": "중재 유형과 대조군이 다양했고 일부 결과의 근거 확실성이 낮았다.",
-  "against": "모든 디지털 중재가 같은 효과를 보인 것은 아니며 일부 비교에서는 차이가 없었다.",
-  "use": "소아 수술의 통증 조절 보조법으로 검토할 수 있다.",
-  "refs": [
-    {
-      "label": "Digital Health Interventions in Pediatric Perioperative Care",
-      "doi": "10.1001/jamapediatrics.2025.3099",
-      "pmid": "40952714"
-    }
-  ],
-  "known": "off",
-  "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
-  "saw": "소아 수술 환자 49개 무작위시험 네트워크 메타분석에서 가상현실·영상·게임 기반 디지털 중재가 수술 후 통증을 줄였다.",
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=digital therapeutics, cond=Pain · 0건 직접 확인",
-    "pubmed": "digital therapeutics AND Pain · 2440건",
-    "negative": "digital therapeutics AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 7902건",
-    "safety": "digital therapeutics AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 46744건"
+  "vs": "49개 무작위시험 4,535명; 가상현실 대 대조 통증 SMD −1.09 (95% CI −1.58~−0.59), 2D 게임 −0.87 (−1.62~−0.12), 2D 영상 −0.56 (−1.06~−0.06)",
+ "synth": "meta",
+ "why": "소아 수술 환자 49개 무작위시험 네트워크 메타분석에서 가상현실·영상·게임 기반 디지털 중재가 수술 후 통증을 줄였다.",
+ "limit": "중재 유형과 대조군이 다양했고 일부 결과의 근거 확실성이 낮았다.",
+ "against": "모든 디지털 중재가 같은 효과를 보인 것은 아니며 일부 비교에서는 차이가 없었다.",
+ "use": "소아 수술의 통증 조절 보조법으로 검토할 수 있다.",
+ "refs": [
+  {
+   "label": "Digital Health Interventions in Pediatric Perioperative Care",
+   "doi": "10.1001/jamapediatrics.2025.3099",
+   "pmid": "40952714"
   }
+ ],
+ "known": "off",
+ "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
+ "saw": "소아 수술 환자 49개 무작위시험 네트워크 메타분석에서 가상현실·영상·게임 기반 디지털 중재가 수술 후 통증을 줄였다.",
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=digital therapeutics, cond=Pain · 0건 직접 확인",
+  "pubmed": "digital therapeutics AND Pain · 2440건",
+  "negative": "digital therapeutics AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 7902건",
+  "safety": "digital therapeutics AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 46744건"
+ }
 }

@@ -1,29 +1,41 @@
 {
-  "id": "drama-intervention-physical-health-pos",
-  "subj": "drama intervention",
-  "claim": "노인에서 연극의 신체 연기 훈련은 균형을 높이고 낙상을 줄인다",
-  "line": "노인 연극 훈련은 균형과 낙상을 개선했지만 이동성은 달라지지 않았습니다.",
-  "effect": "균형 개선·낙상 감소",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "drama-intervention-physical-health-pos",
+ "subj": "연극 중재",
+ "claim": "노인에서 연극의 신체 연기 훈련은 균형을 높이고 낙상을 줄인다",
+ "line": "노인 연극 훈련은 균형과 낙상을 개선했지만 이동성은 달라지지 않았습니다.",
+ "effect": "균형 개선·낙상 감소",
+ "tier": "trial",
+ "dir": "pos",
   "n": 81,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "연극 훈련은 의약품 허가 적응증이 아님",
-  "why": "연극 훈련과 대기 대조를 무작위 배정해 노인의 객관적 신체 기능과 낙상을 비교한 사람 시험이다",
-  "saw": "공공임대주택 거주 노인 81명이 신체 연기 연극 훈련군 53명과 대기 대조군 28명으로 무작위 배정됐다. 훈련군은 균형이 좋아지고 낙상이 줄었지만 이동성·근력·삶의 질·스트레스에는 순효과가 없었다",
-  "limit": "5개 주거공동체의 노인을 대상으로 한 10주 시험이다. 일부 효과가 3개월 추적에서 이어졌지만 모든 신체·정서 지표가 좋아진 것은 아니다",
-  "against": "기능적 이동성, 하체 근력, 건강 관련 삶의 질, 스트레스에는 대조군 대비 순효과가 없었다",
-  "use": "노인 낙상 위험을 다루는 신체 활동형 연극 중재의 신호다. 전반적인 건강 개선으로 일반화하지 않는다",
-  "refs": [
-    { "label": "2025 · Innovation in Aging · 단일맹검 무작위시험", "doi": "10.1093/geroni/igaf046", "pmid": "40600024", "pmc": "PMC12210949", "nct": "NCT04582370" },
-    { "label": "2024 · International Journal of Environmental Research and Public Health · 비교시험", "doi": "10.3390/ijerph21101289", "pmid": "39457262", "pmc": "PMC11507429" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "drama intervention AND Physical Health → 3건 반환, drama 직접 일치 2건",
-    "pubmed": "drama intervention AND Physical Health → 113건; PMID40600024·39457262 원문 초록 확인",
-    "negative": "drama intervention AND Physical Health AND (no effect OR did not OR failed OR negative OR no significant difference) → 67건",
-    "safety": "drama intervention AND (adverse OR toxicity OR harm OR safety OR case report) → 154건"
+  "vs": "무대 신체연기 53명 대 대기 28명은 정적 균형 개선·낙상 감소, 이동성·근력·삶의 질·스트레스는 군 간 차이 없음; 다른 시험 29명 대 30명은 보행·노쇠 지표가 중재군에서 개선되고 인지는 차이 없음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "연극 훈련은 의약품 허가 적응증이 아님",
+ "why": "연극 훈련과 대기 대조를 무작위 배정해 노인의 객관적 신체 기능과 낙상을 비교한 사람 시험이다",
+ "saw": "공공임대주택 거주 노인 81명이 신체 연기 연극 훈련군 53명과 대기 대조군 28명으로 무작위 배정됐다. 훈련군은 균형이 좋아지고 낙상이 줄었지만 이동성·근력·삶의 질·스트레스에는 순효과가 없었다",
+ "limit": "5개 주거공동체의 노인을 대상으로 한 10주 시험이다. 일부 효과가 3개월 추적에서 이어졌지만 모든 신체·정서 지표가 좋아진 것은 아니다",
+ "against": "기능적 이동성, 하체 근력, 건강 관련 삶의 질, 스트레스에는 대조군 대비 순효과가 없었다",
+ "use": "노인 낙상 위험을 다루는 신체 활동형 연극 중재의 신호다. 전반적인 건강 개선으로 일반화하지 않는다",
+ "refs": [
+  {
+   "label": "2025 · Innovation in Aging · 단일맹검 무작위시험",
+   "doi": "10.1093/geroni/igaf046",
+   "pmid": "40600024",
+   "pmc": "PMC12210949",
+   "nct": "NCT04582370"
+  },
+  {
+   "label": "2024 · International Journal of Environmental Research and Public Health · 비교시험",
+   "doi": "10.3390/ijerph21101289",
+   "pmid": "39457262",
+   "pmc": "PMC11507429"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "drama intervention AND Physical Health → 3건 반환, drama 직접 일치 2건",
+  "pubmed": "drama intervention AND Physical Health → 113건; PMID40600024·39457262 원문 초록 확인",
+  "negative": "drama intervention AND Physical Health AND (no effect OR did not OR failed OR negative OR no significant difference) → 67건",
+  "safety": "drama intervention AND (adverse OR toxicity OR harm OR safety OR case report) → 154건"
+ }
 }

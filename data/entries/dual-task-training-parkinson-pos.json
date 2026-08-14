@@ -1,28 +1,33 @@
 {
-  "id": "dual-task-training-parkinson-pos",
-  "subj": "dual task training",
-  "claim": "인지 이중과제 보행 훈련이 파킨슨병의 이중과제 보행을 개선한다",
-  "line": "파킨슨병에서 인지 이중과제 보행 훈련 뒤 보행이 좋아졌다.",
-  "effect": "지지 시간 -17.1%·보행 속도 +13.8%",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "dual-task-training-parkinson-pos",
+ "subj": "이중과제 훈련",
+ "claim": "인지 이중과제 보행 훈련이 파킨슨병의 이중과제 보행을 개선한다",
+ "line": "파킨슨병에서 인지 이중과제 보행 훈련 뒤 보행이 좋아졌다.",
+ "effect": "지지 시간 -17.1%·보행 속도 +13.8%",
+ "tier": "trial",
+ "dir": "pos",
   "n": 18,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활 훈련이라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "파킨슨병에서는 걷는 중 다른 과제를 처리할 때 보행 장애가 커져 인지·운동 과제를 함께 훈련했습니다.",
-  "saw": "파킨슨병 환자 18명을 인지 훈련, 운동 훈련, 일반 보행 훈련군에 6명씩 배정하고 4주간 12회 시행했습니다. 인지 훈련군의 인지 이중과제 보행 지지 시간은 17.1% 줄었고 보행 속도는 13.8% 늘었습니다.",
-  "limit": "각 군 6명인 예비시험이며 4주 뒤 변화만 확인했습니다.",
-  "against": "운동 이중과제 훈련은 운동 이중과제의 보행 변동성을 줄였고, 인지 훈련의 효과가 모든 보행 지표에서 일관되지는 않았습니다.",
-  "use": "파킨슨병 보행 재활의 가설 생성 근거로만 사용하며, 큰 무작위시험 전에는 표준 치료를 대체하지 않습니다.",
-  "refs": [
-    { "label": "Cognitive and Motor Dual Task Gait Training 2019 · PLoS One · 무작위 예비시험", "doi": "10.1371/journal.pone.0218180", "pmid": "31220121" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "dual task training AND Parkinson · 68건 반환, 중재명 직접 확인 31건",
-    "pubmed": "\"dual task training\" AND \"Parkinson\" · 63건",
-    "negative": "\"dual task training\" AND \"Parkinson\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 47건",
-    "safety": "\"dual task training\" AND (adverse OR toxicity OR case report OR harm) · 23건"
+  "vs": "인지 이중과제·운동 이중과제·일반 보행 각 6명 비교; 인지군 지지시간 −17.1±10.3% 대비 운동군 +6.3±25.6%(P=.006)·대조군 −5.6±7.8%(P=.041), 운동군 변동성 −16.3±32.3% 대비 인지군 +38.6±24.0%·대조군 +36.8±36.4%(P=.015·.041)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활 훈련이라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "파킨슨병에서는 걷는 중 다른 과제를 처리할 때 보행 장애가 커져 인지·운동 과제를 함께 훈련했습니다.",
+ "saw": "파킨슨병 환자 18명을 인지 훈련, 운동 훈련, 일반 보행 훈련군에 6명씩 배정하고 4주간 12회 시행했습니다. 인지 훈련군의 인지 이중과제 보행 지지 시간은 17.1% 줄었고 보행 속도는 13.8% 늘었습니다.",
+ "limit": "각 군 6명인 예비시험이며 4주 뒤 변화만 확인했습니다.",
+ "against": "운동 이중과제 훈련은 운동 이중과제의 보행 변동성을 줄였고, 인지 훈련의 효과가 모든 보행 지표에서 일관되지는 않았습니다.",
+ "use": "파킨슨병 보행 재활의 가설 생성 근거로만 사용하며, 큰 무작위시험 전에는 표준 치료를 대체하지 않습니다.",
+ "refs": [
+  {
+   "label": "Cognitive and Motor Dual Task Gait Training 2019 · PLoS One · 무작위 예비시험",
+   "doi": "10.1371/journal.pone.0218180",
+   "pmid": "31220121"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "dual task training AND Parkinson · 68건 반환, 중재명 직접 확인 31건",
+  "pubmed": "\"dual task training\" AND \"Parkinson\" · 63건",
+  "negative": "\"dual task training\" AND \"Parkinson\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 47건",
+  "safety": "\"dual task training\" AND (adverse OR toxicity OR case report OR harm) · 23건"
+ }
 }
