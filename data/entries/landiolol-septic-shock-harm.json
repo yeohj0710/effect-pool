@@ -1,28 +1,34 @@
 {
-  "id": "landiolol-septic-shock-harm",
-  "subj": "landiolol",
-  "claim": "landiolol이 패혈성 쇼크의 예후를 개선하는가",
-  "line": "패혈성 쇼크에서 란디오롤은 SOFA를 낮추지 못했고 중대한 이상반응이 늘었다.",
-  "effect": "중대한 이상반응 25.4%",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 126,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "landiolol은 급성 빈맥성 부정맥에 쓰이는 베타차단제지만 패혈성 쇼크 예후 개선은 허가 적응증이 아닙니다.",
-  "why": "영국 41개 중환자실에서 패혈성 쇼크와 빈맥 환자를 표준치료와 landiolol 추가치료군으로 무작위 배정했습니다.",
-  "saw": "126명이 무작위 배정됐고 14일 SOFA 점수는 landiolol 8.8, 대조군 8.1로 차이가 없었습니다. 28일 사망률은 37.1% 대 25.4%였고, 중대한 이상반응은 landiolol군 25.4%, 대조군 6.4%로 더 많았습니다(p=0.006).",
-  "limit": "126명에서 조기 종료된 2b상 시험이며 landiolol 용량과 혈역학 상태에 따라 결과가 달라질 수 있습니다.",
-  "against": "장기부전 점수·생존 개선이 없었고 중대한 이상반응이 증가해 패혈성 쇼크의 일상적 사용을 지지하지 않습니다.",
-  "use": "패혈성 쇼크에서 landiolol을 사용하려면 심박수보다 장기부전·사망·중대한 이상반응을 우선 감시합니다.",
-  "refs": [
-    { "label": "Landi-SEP 패혈성 쇼크 landiolol 무작위시험", "doi": "10.3310/WLFU6246", "pmid": "42531440", "nct": "NCT04748796" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=landiolol AND query.cond=Septic Shock; 2건 반환, NCT04748796·NCT04931225 직접 중재 확인",
-    "pubmed": "landiolol AND Septic Shock; 36편",
-    "negative": "landiolol AND Septic Shock AND (no effect OR no significant difference OR failed OR negative); 3편",
-    "safety": "landiolol AND (adverse OR toxicity OR harm OR dropout OR case report); 201편"
+ "id": "landiolol-septic-shock-harm",
+ "subj": "란디올롤",
+ "claim": "란디올롤이 패혈성 쇼크의 예후를 개선하는가",
+ "line": "패혈성 쇼크에서 란디오롤은 SOFA를 낮추지 못했고 중대한 이상반응이 늘었다.",
+ "effect": "중대한 이상반응 25.4%",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 126,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "란디올롤은 급성 빈맥성 부정맥에 쓰이는 베타차단제지만 패혈성 쇼크 예후 개선은 허가 적응증이 아닙니다.",
+ "why": "영국 41개 중환자실에서 패혈성 쇼크와 빈맥 환자를 표준치료와 란디올롤 추가치료군으로 무작위 배정했습니다.",
+ "saw": "126명이 무작위 배정됐고 14일 SOFA 점수는 란디올롤 8.8, 대조군 8.1로 차이가 없었습니다. 28일 사망률은 37.1% 대 25.4%였고, 중대한 이상반응은 란디올롤군 25.4%, 대조군 6.4%로 더 많았습니다(p=0.006).",
+ "limit": "126명에서 조기 종료된 2b상 시험이며 란디올롤 용량과 혈역학 상태에 따라 결과가 달라질 수 있습니다.",
+ "against": "장기부전 점수·생존 개선이 없었고 중대한 이상반응이 증가해 패혈성 쇼크의 일상적 사용을 지지하지 않습니다.",
+ "use": "패혈성 쇼크에서 란디올롤을 사용하려면 심박수보다 장기부전·사망·중대한 이상반응을 우선 감시합니다.",
+ "refs": [
+  {
+   "label": "Landi-SEP 패혈성 쇼크 landiolol 무작위시험",
+   "doi": "10.3310/WLFU6246",
+   "pmid": "42531440",
+   "nct": "NCT04748796"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=landiolol AND query.cond=Septic Shock; 2건 반환, NCT04748796·NCT04931225 직접 중재 확인",
+  "pubmed": "landiolol AND Septic Shock; 36편",
+  "negative": "landiolol AND Septic Shock AND (no effect OR no significant difference OR failed OR negative); 3편",
+  "safety": "landiolol AND (adverse OR toxicity OR harm OR dropout OR case report); 201편"
+ },
+ "vs": "란디올롤+표준치료 vs 표준치료: 패혈성 쇼크 STRESS-L 무작위시험 126명에서 14일 SOFA 평균은 8.8±3.9 vs 8.1±3.2, 평균차 0.75(95% CI -0.49~2.0; P=.24)였고, 28일 사망률은 37.1% vs 25.4%, 절대차 11.7%(-4.4~27.8; P=.16)였다. 중대한 이상반응은 25.4% vs 6.4%(P=.006)였다."
 }

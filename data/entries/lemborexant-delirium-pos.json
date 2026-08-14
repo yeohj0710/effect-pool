@@ -1,29 +1,36 @@
 {
-  "id": "lemborexant-delirium-pos",
-  "subj": "렘보렉산트",
-  "claim": "렘보렉산트의 수면-각성 조절을 입원환자 섬망 예방에 쓴다",
-  "line": "입원 중 렘보렉산트 투여군의 섬망 위험이 낮았습니다",
-  "effect": "섬망 보정 OR 0.23",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 710,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "렘보렉산트 허가는 불면증이고 입원환자 섬망 예방은 포함하지 않는다.",
-  "why": "불면으로 정신건강의학과 협진을 받은 일반 병동 환자에서 수면제 종류와 섬망 발생을 후향적으로 비교했습니다.",
-  "saw": "710명 중 257명에서 섬망이 발생했습니다. 렘보렉산트 사용은 섬망 위험이 낮은 것과 연관됐고(보정 OR 0.23, 95% CI 0.14–0.39), 수보렉산트도 낮았지만 라멜테온은 유의하지 않았습니다.",
-  "limit": "무작위 배정이 아닌 단일 기관 후향 코호트라 처방 선택과 환자 상태의 교란이 큽니다. 렘보렉산트 사용 환자 수와 용량별 결과가 제한적입니다.",
-  "against": "24개 연구 4489명 메타분석은 전체 수면-각성 약물의 섬망 감소 신호를 보였지만 개별 약제의 신뢰할 만한 하위군 효과는 확인하지 못했습니다.",
-  "use": "입원환자 섬망 예방의 관찰 신호로만 사용하며 불면증 허가를 섬망 치료 허가로 확대하지 않습니다.",
-  "refs": [
-    { "label": "입원환자 렘보렉산트·수보렉산트·라멜테온 후향 코호트", "pmid": "38820374" },
-    { "label": "수면-각성 약물 섬망 예방 메타분석", "pmid": "40511987" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=lemborexant · cond=Delirium → 3건 반환, 물질 대조 후 3건",
-    "pubmed": "lemborexant AND Delirium → 23편",
-    "negative": "lemborexant AND Delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 21편",
-    "safety": "lemborexant AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 129편"
+ "id": "lemborexant-delirium-pos",
+ "subj": "렘보렉산트",
+ "claim": "렘보렉산트의 수면-각성 조절을 입원환자 섬망 예방에 쓴다",
+ "line": "입원 중 렘보렉산트 투여군의 섬망 위험이 낮았습니다",
+ "effect": "섬망 보정 OR 0.23",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 710,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "렘보렉산트 허가는 불면증이고 입원환자 섬망 예방은 포함하지 않는다.",
+ "why": "불면으로 정신건강의학과 협진을 받은 일반 병동 환자에서 수면제 종류와 섬망 발생을 후향적으로 비교했습니다.",
+ "saw": "710명 중 257명에서 섬망이 발생했습니다. 렘보렉산트 사용은 섬망 위험이 낮은 것과 연관됐고(보정 OR 0.23, 95% CI 0.14–0.39), 수보렉산트도 낮았지만 라멜테온은 유의하지 않았습니다.",
+ "limit": "무작위 배정이 아닌 단일 기관 후향 코호트라 처방 선택과 환자 상태의 교란이 큽니다. 렘보렉산트 사용 환자 수와 용량별 결과가 제한적입니다.",
+ "against": "24개 연구 4489명 메타분석은 전체 수면-각성 약물의 섬망 감소 신호를 보였지만 개별 약제의 신뢰할 만한 하위군 효과는 확인하지 못했습니다.",
+ "use": "입원환자 섬망 예방의 관찰 신호로만 사용하며 불면증 허가를 섬망 치료 허가로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "입원환자 렘보렉산트·수보렉산트·라멜테온 후향 코호트",
+   "pmid": "38820374"
+  },
+  {
+   "label": "수면-각성 약물 섬망 예방 메타분석",
+   "pmid": "40511987"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=lemborexant · cond=Delirium → 3건 반환, 물질 대조 후 3건",
+  "pubmed": "lemborexant AND Delirium → 23편",
+  "negative": "lemborexant AND Delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 21편",
+  "safety": "lemborexant AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 129편"
+ },
+ "vs": "렘보렉산트 사용군 vs 비교 약물군: 입원 환자 710명 후향 코호트에서 섬망 발생 조정 OR은 0.23(95% CI 0.14~0.39; P<.0001)이었다. 섬망 예방 약물 메타분석의 무작위시험 pooled RR은 0.60(0.38~0.97)이었다."
 }

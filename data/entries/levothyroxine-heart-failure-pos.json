@@ -1,28 +1,39 @@
 {
-  "id": "levothyroxine-heart-failure-pos",
-  "subj": "레보티록신",
-  "claim": "무증상 갑상선기능저하증을 동반한 심부전의 운동능력을 높인다",
-  "line": "심부전 동반 무증상 갑상선기능저하증에서 레보티록신으로 6분 보행이 46.9m 늘었습니다",
-  "effect": "6분 보행 +46.9m",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 117,
-  "synth": "single",
-  "why": "무증상 갑상선기능저하증과 박출률 저하 심부전 환자를 대상으로 레보티록신을 표준치료에 더한 무작위시험에서 운동능력을 측정했습니다.",
-  "saw": "무증상 갑상선기능저하증과 박출률 저하 심부전 환자 117명 무작위시험에서 24주 6분 보행거리 증가는 레보티록신 추가군이 대조군보다 46.90m 컸고 NYHA 등급도 개선됐습니다. 이상반응 발생은 비슷했습니다.",
-  "limit": "공개시험이고 6개월 동안 운동능력과 NYHA 등급을 본 결과라 사망·입원·장기 심혈관 예후를 판단할 수 없습니다.",
-  "against": "심부전과 무증상 갑상선기능저하증을 다룬 체계적 문헌고찰은 두 연구만 포함했고 신뢰할 만한 임상시험 근거가 없다고 결론냈습니다.",
-  "use": "운동능력 대리지표의 단기 개선과 심부전 장기 예후를 구분해야 합니다.",
-  "refs": [
-    { "label": "Wang 2024 · Cell Rep Med · 심부전 레보티록신 무작위시험", "doi": "10.1016/j.xcrm.2024.101473", "pmid": "38537636", "pmc": "PMC11031377" },
-    { "label": "Triggiani 2022 · Front Endocrinol · 심부전 레보티록신 근거고찰", "doi": "10.3389/fendo.2022.1013641", "pmid": "36457560", "pmc": "PMC9706201" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:levothyroxine → 313건; Heart Failure 적응증 문구 없음",
-    "ctgov": "query.intr=levothyroxine&query.cond=Heart Failure → 10건 반환, InterventionName 대조 후 5건",
-    "pubmed": "levothyroxine Heart Failure → 745건; levothyroxine heart failure randomized → 62건",
-    "negative": "levothyroxine AND Heart Failure AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 399건",
-    "safety": "levothyroxine AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 13881건"
+ "id": "levothyroxine-heart-failure-pos",
+ "subj": "레보티록신",
+ "claim": "무증상 갑상선기능저하증을 동반한 심부전의 운동능력을 높인다",
+ "line": "심부전 동반 무증상 갑상선기능저하증에서 레보티록신으로 6분 보행이 46.9m 늘었습니다",
+ "effect": "6분 보행 +46.9m",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 117,
+ "synth": "single",
+ "why": "무증상 갑상선기능저하증과 박출률 저하 심부전 환자를 대상으로 레보티록신을 표준치료에 더한 무작위시험에서 운동능력을 측정했습니다.",
+ "saw": "무증상 갑상선기능저하증과 박출률 저하 심부전 환자 117명 무작위시험에서 24주 6분 보행거리 증가는 레보티록신 추가군이 대조군보다 46.90m 컸고 NYHA 등급도 개선됐습니다. 이상반응 발생은 비슷했습니다.",
+ "limit": "공개시험이고 6개월 동안 운동능력과 NYHA 등급을 본 결과라 사망·입원·장기 심혈관 예후를 판단할 수 없습니다.",
+ "against": "심부전과 무증상 갑상선기능저하증을 다룬 체계적 문헌고찰은 두 연구만 포함했고 신뢰할 만한 임상시험 근거가 없다고 결론냈습니다.",
+ "use": "운동능력 대리지표의 단기 개선과 심부전 장기 예후를 구분해야 합니다.",
+ "refs": [
+  {
+   "label": "Wang 2024 · Cell Rep Med · 심부전 레보티록신 무작위시험",
+   "doi": "10.1016/j.xcrm.2024.101473",
+   "pmid": "38537636",
+   "pmc": "PMC11031377"
+  },
+  {
+   "label": "Triggiani 2022 · Front Endocrinol · 심부전 레보티록신 근거고찰",
+   "doi": "10.3389/fendo.2022.1013641",
+   "pmid": "36457560",
+   "pmc": "PMC9706201"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:levothyroxine → 313건; Heart Failure 적응증 문구 없음",
+  "ctgov": "query.intr=levothyroxine&query.cond=Heart Failure → 10건 반환, InterventionName 대조 후 5건",
+  "pubmed": "levothyroxine Heart Failure → 745건; levothyroxine heart failure randomized → 62건",
+  "negative": "levothyroxine AND Heart Failure AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 399건",
+  "safety": "levothyroxine AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 13881건"
+ },
+ "vs": "레보티록신+표준치료 vs 표준치료: 박출률 감소 심부전 및 무증상 갑상샘저하증 117명 무작위시험에서 24주 6분 보행거리 변화는 70.08±85.76 vs 27.73±82.00m, 평균차 46.90m(95% CI 12.90~80.90; P<.001)였다."
 }

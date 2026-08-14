@@ -1,29 +1,37 @@
 {
-  "id": "leflunomide-lupus-pos",
-  "subj": "레플루노마이드",
-  "claim": "레플루노마이드가 루푸스 신염을 개선한다",
-  "line": "루푸스 신염에서 레플루노마이드 뒤 단백뇨·크레아티닌이 낮아졌습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 254,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "루푸스 신염 치료로 허가받은 적 없음",
-  "why": "중국 성인 루푸스 신염 무작위시험 11개를 합친 메타분석에서 레플루노마이드가 cyclophosphamide와 비교해 관해와 신장 대리지표에서 유리했습니다.",
-  "saw": "254명 메타분석에서 24시간 단백뇨 평균차는 -0.58, 혈청 크레아티닌 평균차는 -0.20이었습니다. 간 손상, 탈모, 백혈구감소와 감염도 대조군보다 적었습니다.",
-  "limit": "모든 시험이 중국 환자였고 표본이 작으며, 연구마다 병용 스테로이드와 추적기간이 달랐습니다.",
-  "against": "SLEDAI 점수는 cyclophosphamide와 유의한 차이가 없었고, 연구진도 더 큰 장기 RCT가 필요하다고 했습니다.",
-  "use": "레플루노마이드의 루푸스 신염 신호는 특정 지역·대조약에 한정해 해석해야 합니다.",
-  "effect": "단백뇨 MD -0.58",
-  "refs": [
-    { "label": "Wang 2016 · Clinical Rheumatology · 중국 루푸스 신염 레플루노마이드 메타분석", "doi": "10.1007/s10067-015-3105-8", "pmid": "26670616" },
-    { "label": "NCT00637819 · 전신홍반루푸스 레플루노마이드 시험", "nct": "NCT00637819" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=leflunomide, cond=Lupus → 11건 반환·6건 직접 대조",
-    "pubmed": "leflunomide AND Lupus → 141건",
-    "negative": "leflunomide AND Lupus AND (no effect OR did not OR failed to OR negative OR no significant difference) → 101건",
-    "safety": "leflunomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1606건"
+ "id": "leflunomide-lupus-pos",
+ "subj": "레플루노마이드",
+ "claim": "레플루노마이드가 루푸스 신염을 개선한다",
+ "line": "루푸스 신염에서 레플루노마이드 뒤 단백뇨·크레아티닌이 낮아졌습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 254,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "루푸스 신염 치료로 허가받은 적 없음",
+ "why": "중국 성인 루푸스 신염 무작위시험 11개를 합친 메타분석에서 레플루노마이드가 cyclophosphamide와 비교해 관해와 신장 대리지표에서 유리했습니다.",
+ "saw": "254명 메타분석에서 24시간 단백뇨 평균차는 -0.58, 혈청 크레아티닌 평균차는 -0.20이었습니다. 간 손상, 탈모, 백혈구감소와 감염도 대조군보다 적었습니다.",
+ "limit": "모든 시험이 중국 환자였고 표본이 작으며, 연구마다 병용 스테로이드와 추적기간이 달랐습니다.",
+ "against": "SLEDAI 점수는 cyclophosphamide와 유의한 차이가 없었고, 연구진도 더 큰 장기 RCT가 필요하다고 했습니다.",
+ "use": "레플루노마이드의 루푸스 신염 신호는 특정 지역·대조약에 한정해 해석해야 합니다.",
+ "effect": "단백뇨 MD -0.58",
+ "refs": [
+  {
+   "label": "Wang 2016 · Clinical Rheumatology · 중국 루푸스 신염 레플루노마이드 메타분석",
+   "doi": "10.1007/s10067-015-3105-8",
+   "pmid": "26670616"
+  },
+  {
+   "label": "NCT00637819 · 전신홍반루푸스 레플루노마이드 시험",
+   "nct": "NCT00637819"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=leflunomide, cond=Lupus → 11건 반환·6건 직접 대조",
+  "pubmed": "leflunomide AND Lupus → 141건",
+  "negative": "leflunomide AND Lupus AND (no effect OR did not OR failed to OR negative OR no significant difference) → 101건",
+  "safety": "leflunomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1606건"
+ },
+ "vs": "레플루노마이드 vs 사이클로포스파미드: 중국 루푸스신염 11개 RCT, 254명 메타분석에서 24시간 단백뇨 평균차 -0.58(95% CI -0.78~-0.37; P<.01), 혈청 크레아티닌 평균차 -0.20(-0.39~-0.01; P<.05), 간손상 RR 0.53(0.33~0.87; P<.05)였다."
 }

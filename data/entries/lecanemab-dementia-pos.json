@@ -1,28 +1,33 @@
 {
-  "id": "lecanemab-dementia-pos",
-  "subj": "레카네맙",
-  "claim": "초기 알츠하이머형 치매에 레카네맙을 쓴다",
-  "line": "초기 알츠하이머형 치매에서 레카네맙은 저하를 늦췄습니다",
-  "effect": "CDR-SB 차이 −0.45",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1795,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "레카네맙 허가는 알츠하이머병 초기 단계로 제한되므로 다른 치매 원인에는 적용되지 않습니다.",
-  "why": "경도인지장애 또는 경도 치매 단계의 초기 알츠하이머병에서 레카네맙을 평가한 3상시험입니다.",
-  "saw": "1,795명 18개월 시험에서 CDR-SB 변화는 레카네맙 1.21, 위약 1.66으로 차이가 −0.45였습니다. 뇌 아밀로이드도 줄었지만 주입 반응과 ARIA가 발생했습니다.",
-  "limit": "아밀로이드 양성이 확인된 초기 알츠하이머병 환자에 한정된 시험입니다.",
-  "against": "알츠하이머병이 아닌 치매나 중등도 이후 치매에는 근거를 확대할 수 없습니다.",
-  "use": "초기 알츠하이머형 치매의 질병 수정 근거로만 기록합니다.",
-  "refs": [
-    { "label": "레카네맙 초기 알츠하이머병 3상시험", "doi": "10.1056/NEJMoa2212948", "pmid": "36449413" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=lecanemab, cond=Dementia · 28건",
-    "pubmed": "lecanemab AND Dementia · 684편",
-    "negative": "lecanemab AND Dementia AND (no benefit OR no difference OR failed OR ineffective) · 263편",
-    "safety": "lecanemab AND Dementia AND (adverse OR safety OR toxicity) · 299편"
+ "id": "lecanemab-dementia-pos",
+ "subj": "레카네맙",
+ "claim": "초기 알츠하이머형 치매에 레카네맙을 쓴다",
+ "line": "초기 알츠하이머형 치매에서 레카네맙은 저하를 늦췄습니다",
+ "effect": "CDR-SB 차이 −0.45",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1795,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "레카네맙 허가는 알츠하이머병 초기 단계로 제한되므로 다른 치매 원인에는 적용되지 않습니다.",
+ "why": "경도인지장애 또는 경도 치매 단계의 초기 알츠하이머병에서 레카네맙을 평가한 3상시험입니다.",
+ "saw": "1,795명 18개월 시험에서 CDR-SB 변화는 레카네맙 1.21, 위약 1.66으로 차이가 −0.45였습니다. 뇌 아밀로이드도 줄었지만 주입 반응과 ARIA가 발생했습니다.",
+ "limit": "아밀로이드 양성이 확인된 초기 알츠하이머병 환자에 한정된 시험입니다.",
+ "against": "알츠하이머병이 아닌 치매나 중등도 이후 치매에는 근거를 확대할 수 없습니다.",
+ "use": "초기 알츠하이머형 치매의 질병 수정 근거로만 기록합니다.",
+ "refs": [
+  {
+   "label": "레카네맙 초기 알츠하이머병 3상시험",
+   "doi": "10.1056/NEJMoa2212948",
+   "pmid": "36449413"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=lecanemab, cond=Dementia · 28건",
+  "pubmed": "lecanemab AND Dementia · 684편",
+  "negative": "lecanemab AND Dementia AND (no benefit OR no difference OR failed OR ineffective) · 263편",
+  "safety": "lecanemab AND Dementia AND (adverse OR safety OR toxicity) · 299편"
+ },
+ "vs": "레카네맙 vs 위약: 초기 알츠하이머병 1,795명 RCT에서 18개월 CDR-SB 변화는 1.21 vs 1.66, 군 간 차이 -0.45(95% CI -0.67~-0.23; P<.001)였다."
 }

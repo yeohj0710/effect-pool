@@ -1,20 +1,33 @@
 {
-  "id": "legumes-cardiovascular-disease-pos",
-  "subj": "legumes",
-  "claim": "콩류 섭취는 심혈관질환 위험과 관상동맥질환 위험을 낮추는 연관성이 있다",
-  "line": "콩류 섭취가 많으면 심혈관질환 위험이 낮았습니다",
-  "effect": "CVD RR 0.94·CHD RR 0.90",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 섭취 중재로 허가 적응증 없음",
-  "why": "콩류 섭취량과 심혈관질환·관상동맥질환 발생의 연관성을 전향적 관찰연구 중심으로 종합했다",
-  "saw": "관찰연구 26편 종합에서 고섭취군 CVD RR 0.94, CHD RR 0.90, 뇌졸중 RR 1.00이었다. 주당 400 g에서 이득이 평탄해졌다",
-  "limit": "관찰연구라 식사·운동·사회경제적 요인의 영향을 분리할 수 없고 총 사람 수가 초록에 없다",
-  "against": "콩류가 심혈관질환을 치료하거나 약물을 대신한다는 근거는 아니다",
-  "use": "심혈관 건강 식사에서 콩류를 늘리는 근거로 참고하되 치료를 대체하지 않는다",
-  "refs": [{ "label": "Intake of Legumes and Cardiovascular Disease", "doi": "10.1016/j.numecd.2022.10.006", "pmid": "36411221" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=legumes · cond=Cardiovascular Disease: 3건", "pubmed": "legumes AND Cardiovascular Disease: 2870건", "negative": "legumes AND Cardiovascular Disease AND no effect: 2101건", "safety": "legumes AND adverse OR toxicity: 13983건" }
+ "id": "legumes-cardiovascular-disease-pos",
+ "subj": "콩류",
+ "claim": "콩류 섭취는 심혈관질환 위험과 관상동맥질환 위험을 낮추는 연관성이 있다",
+ "line": "콩류 섭취가 많으면 심혈관질환 위험이 낮았습니다",
+ "effect": "CVD RR 0.94·CHD RR 0.90",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 섭취 중재로 허가 적응증 없음",
+ "why": "콩류 섭취량과 심혈관질환·관상동맥질환 발생의 연관성을 전향적 관찰연구 중심으로 종합했다",
+ "saw": "관찰연구 26편 종합에서 고섭취군 CVD RR 0.94, CHD RR 0.90, 뇌졸중 RR 1.00이었다. 주당 400 g에서 이득이 평탄해졌다",
+ "limit": "관찰연구라 식사·운동·사회경제적 요인의 영향을 분리할 수 없고 총 사람 수가 초록에 없다",
+ "against": "콩류가 심혈관질환을 치료하거나 약물을 대신한다는 근거는 아니다",
+ "use": "심혈관 건강 식사에서 콩류를 늘리는 근거로 참고하되 치료를 대체하지 않는다",
+ "refs": [
+  {
+   "label": "Intake of Legumes and Cardiovascular Disease",
+   "doi": "10.1016/j.numecd.2022.10.006",
+   "pmid": "36411221"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=legumes · cond=Cardiovascular Disease: 3건",
+  "pubmed": "legumes AND Cardiovascular Disease: 2870건",
+  "negative": "legumes AND Cardiovascular Disease AND no effect: 2101건",
+  "safety": "legumes AND adverse OR toxicity: 13983건"
+ },
+ "vs": "콩류 섭취 최다 vs 최저: 26개 관찰연구 메타분석에서 심혈관질환 RR 0.94(95% CI 0.89~0.99), 관상동맥질환 RR 0.90(0.85~0.96), 뇌졸중 RR 1.00(0.93~1.08)였고, 관상동맥질환 위험 감소는 주당 400g 섭취까지 커졌다."
 }

@@ -1,29 +1,41 @@
 {
-  "id": "levodopa-depression-null",
-  "subj": "레보도파",
-  "claim": "레보도파는 급성 뇌졸중 후 우울증 발생을 줄이지 못한다",
-  "line": "급성 뇌졸중 뒤 레보도파는 3개월 우울증을 줄이지 못했습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 407,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "우울증 치료는 레보도파의 허가 적응증에 없음",
-  "why": "뇌졸중 후 도파민 저하가 우울증에 관여한다는 가설을 재활 중 레보도파 투여로 시험한 사용입니다.",
-  "saw": "ESTREL 우울증 사전계획 분석 407명에서 3개월 우울증은 레보도파군 26%, 위약군 28%였고 오즈비는 0.93(95% CI 0.60~1.43)이었습니다.",
-  "limit": "급성 뇌졸중 후 우울증 예방 결과이며 주요우울장애 치료시험이 아닙니다.",
-  "against": "염증이 높은 주요우울장애 소규모 연구에서는 레보도파가 불안 증상을 낮춘 신호가 있어 대상이 다릅니다.",
-  "use": "뇌졸중 후 우울증 예방 목적으로 레보도파를 추가할 근거는 없습니다.",
-  "effect": "우울증 발생 차이 없음",
-  "refs": [
-    { "label": "Sauter 2026 · European Stroke Journal · ESTREL 뇌졸중 후 우울증 분석", "doi": "10.1093/esj/aakag001", "pmid": "41701756", "pmc": "PMC12911922", "nct": "NCT03735901" },
-    { "label": "Craig 2026 · Brain, Behavior, and Immunity · 염증 높은 우울증의 레보도파", "doi": "10.1016/j.bbi.2025.106252", "pmid": "41478464", "pmc": "PMC12987699" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=levodopa, cond=Depression → 14건 반환·8건 직접 확인",
-    "pubmed": "levodopa AND Depression → 1495건",
-    "negative": "levodopa AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1022건",
-    "safety": "levodopa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9741건"
+ "id": "levodopa-depression-null",
+ "subj": "레보도파",
+ "claim": "레보도파는 급성 뇌졸중 후 우울증 발생을 줄이지 못한다",
+ "line": "급성 뇌졸중 뒤 레보도파는 3개월 우울증을 줄이지 못했습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 407,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "우울증 치료는 레보도파의 허가 적응증에 없음",
+ "why": "뇌졸중 후 도파민 저하가 우울증에 관여한다는 가설을 재활 중 레보도파 투여로 시험한 사용입니다.",
+ "saw": "ESTREL 우울증 사전계획 분석 407명에서 3개월 우울증은 레보도파군 26%, 위약군 28%였고 오즈비는 0.93(95% CI 0.60~1.43)이었습니다.",
+ "limit": "급성 뇌졸중 후 우울증 예방 결과이며 주요우울장애 치료시험이 아닙니다.",
+ "against": "염증이 높은 주요우울장애 소규모 연구에서는 레보도파가 불안 증상을 낮춘 신호가 있어 대상이 다릅니다.",
+ "use": "뇌졸중 후 우울증 예방 목적으로 레보도파를 추가할 근거는 없습니다.",
+ "effect": "우울증 발생 차이 없음",
+ "refs": [
+  {
+   "label": "Sauter 2026 · European Stroke Journal · ESTREL 뇌졸중 후 우울증 분석",
+   "doi": "10.1093/esj/aakag001",
+   "pmid": "41701756",
+   "pmc": "PMC12911922",
+   "nct": "NCT03735901"
+  },
+  {
+   "label": "Craig 2026 · Brain, Behavior, and Immunity · 염증 높은 우울증의 레보도파",
+   "doi": "10.1016/j.bbi.2025.106252",
+   "pmid": "41478464",
+   "pmc": "PMC12987699"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=levodopa, cond=Depression → 14건 반환·8건 직접 확인",
+  "pubmed": "levodopa AND Depression → 1495건",
+  "negative": "levodopa AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1022건",
+  "safety": "levodopa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9741건"
+ },
+ "vs": "레보도파/카비도파 vs 위약: 급성 뇌졸중 후 우울증 분석 407명에서 3개월 우울증은 26% vs 28%, OR 0.93(95% CI 0.60~1.43)으로 차이가 없었다."
 }

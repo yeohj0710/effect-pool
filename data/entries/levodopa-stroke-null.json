@@ -1,28 +1,35 @@
 {
-  "id": "levodopa-stroke-null",
-  "subj": "레보도파",
-  "claim": "재활에 레보도파를 추가해도 급성 뇌졸중 운동회복은 개선되지 않는다",
-  "line": "급성 뇌졸중 재활에서 레보도파 추가 효과는 없었습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 610,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "뇌졸중 재활은 레보도파의 허가 적응증에 없음",
-  "why": "도파민성 신경가소성을 높이면 뇌졸중 후 운동회복이 좋아질 수 있다는 가설을 재활에 추가했습니다.",
-  "saw": "13개 뇌졸중 센터의 ESTREL 무작위시험 610명에서 3개월 Fugl-Meyer 점수 차이는 -0.90점(95% CI -3.78~1.98, P=.54)이었고 레보도파 추가는 운동회복을 개선하지 못했습니다.",
-  "limit": "급성 뇌졸중 입원 재활 환자에 국한되며 다른 회복 단계나 특정 운동장애에는 적용할 수 없습니다.",
-  "against": "이전 소규모 연구에서 기능 신호가 보고됐지만 최신 대규모 시험에서 확인되지 않았습니다.",
-  "use": "표준 재활에 레보도파를 추가하지 않으며 연구 목적 외 사용 근거가 없습니다.",
-  "effect": "운동회복 차이 없음",
-  "refs": [
-    { "label": "Engelter 2025 · JAMA · 뇌졸중 재활 레보도파 ESTREL시험", "doi": "10.1001/jama.2025.15185", "pmid": "40982270", "pmc": "PMC12455486", "nct": "NCT03735901" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=levodopa, cond=Stroke → 11건 반환·8건 직접 확인",
-    "pubmed": "levodopa AND Stroke → 483건",
-    "negative": "levodopa AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) → 316건",
-    "safety": "levodopa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9741건"
+ "id": "levodopa-stroke-null",
+ "subj": "레보도파",
+ "claim": "재활에 레보도파를 추가해도 급성 뇌졸중 운동회복은 개선되지 않는다",
+ "line": "급성 뇌졸중 재활에서 레보도파 추가 효과는 없었습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 610,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "뇌졸중 재활은 레보도파의 허가 적응증에 없음",
+ "why": "도파민성 신경가소성을 높이면 뇌졸중 후 운동회복이 좋아질 수 있다는 가설을 재활에 추가했습니다.",
+ "saw": "13개 뇌졸중 센터의 ESTREL 무작위시험 610명에서 3개월 Fugl-Meyer 점수 차이는 -0.90점(95% CI -3.78~1.98, P=.54)이었고 레보도파 추가는 운동회복을 개선하지 못했습니다.",
+ "limit": "급성 뇌졸중 입원 재활 환자에 국한되며 다른 회복 단계나 특정 운동장애에는 적용할 수 없습니다.",
+ "against": "이전 소규모 연구에서 기능 신호가 보고됐지만 최신 대규모 시험에서 확인되지 않았습니다.",
+ "use": "표준 재활에 레보도파를 추가하지 않으며 연구 목적 외 사용 근거가 없습니다.",
+ "effect": "운동회복 차이 없음",
+ "refs": [
+  {
+   "label": "Engelter 2025 · JAMA · 뇌졸중 재활 레보도파 ESTREL시험",
+   "doi": "10.1001/jama.2025.15185",
+   "pmid": "40982270",
+   "pmc": "PMC12455486",
+   "nct": "NCT03735901"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=levodopa, cond=Stroke → 11건 반환·8건 직접 확인",
+  "pubmed": "levodopa AND Stroke → 483건",
+  "negative": "levodopa AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) → 316건",
+  "safety": "levodopa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9741건"
+ },
+ "vs": "레보도파/카비도파 vs 위약: 급성 뇌졸중 재활 RCT 610명에서 3개월 Fugl-Meyer 운동점수 중앙값은 68 vs 64였고, 조정 평균 군 간 차이는 -0.90점(95% CI -3.78~1.98; P=.54)이었다."
 }
