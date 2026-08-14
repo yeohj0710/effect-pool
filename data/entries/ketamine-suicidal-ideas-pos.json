@@ -1,36 +1,37 @@
 {
-  "id": "ketamine-suicidal-ideas-pos",
-  "subj": "케타민",
-  "claim": "케타민이 우울증 환자의 자살사고를 줄인다",
-  "line": "정신질환 성인에서 케타민은 72시간까지 자살사고를 낮췄습니다",
-  "effect": "4시간 SMD -0.51",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 572,
-  "synth": "meta",
-  "why": "케타민의 허가사항은 마취이며 자살사고 치료는 아닙니다. 정신질환 성인의 케타민 자살사고 무작위시험 메타분석을 확인했습니다.",
-  "saw": "정신질환 성인 572명을 포함한 15개 독립 무작위시험 메타분석에서 케타민은 투여 뒤 4시간부터 72시간까지 자살사고 점수를 낮췄지만 실제 자살행동 자료는 거의 없었습니다.",
-  "limit": "대부분 치료저항성 우울증 환자의 단기 결과이고 연구 간 이질성이 컸습니다. 자살행동·사망 예방 효과나 장기 유지 효과로 확대할 수 없습니다.",
-  "against": "반대 검색 2건에서 효과 지속기간이 짧고 실제 자살행동 자료가 부족하다는 결과를 확인했습니다.",
-  "use": "급성 자살사고의 단기 점수 변화로만 기록하고 자살행동 예방 치료로 오해하지 않아야 합니다.",
-  "refs": [
-    {
-      "label": "2019 · 정신질환 성인 케타민 자살사고 메타분석",
-      "doi": "10.1177/0004867419883341",
-      "pmid": "31729893"
-    },
-    {
-      "label": "2017 · 케타민 자살사고 신속 효과 메타분석",
-      "doi": "10.1016/j.neubiorev.2017.03.010",
-      "pmid": "28342764"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 자살사고 적응증 없음",
-    "ctgov": "query.intr=ketamine&query.cond=Suicidal Ideas&countTotal=true&pageSize=1000 → 3건 반환, InterventionName exact 일치 1건",
-    "pubmed": "ketamine AND \"Suicidal Ideas\" → 6건",
-    "negative": "ketamine AND \"Suicidal Ideas\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 2건",
-    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ "id": "ketamine-suicidal-ideas-pos",
+ "subj": "케타민",
+ "claim": "케타민이 우울증 환자의 자살사고를 줄인다",
+ "line": "정신질환 성인에서 케타민은 72시간까지 자살사고를 낮췄습니다",
+ "effect": "4시간 SMD -0.51",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 572,
+ "synth": "meta",
+ "why": "케타민의 허가사항은 마취이며 자살사고 치료는 아닙니다. 정신질환 성인의 케타민 자살사고 무작위시험 메타분석을 확인했습니다.",
+ "saw": "정신질환 성인 572명을 포함한 15개 독립 무작위시험 메타분석에서 케타민은 투여 뒤 4시간부터 72시간까지 자살사고 점수를 낮췄지만 실제 자살행동 자료는 거의 없었습니다.",
+ "limit": "대부분 치료저항성 우울증 환자의 단기 결과이고 연구 간 이질성이 컸습니다. 자살행동·사망 예방 효과나 장기 유지 효과로 확대할 수 없습니다.",
+ "against": "반대 검색 2건에서 효과 지속기간이 짧고 실제 자살행동 자료가 부족하다는 결과를 확인했습니다.",
+ "use": "급성 자살사고의 단기 점수 변화로만 기록하고 자살행동 예방 치료로 오해하지 않아야 합니다.",
+ "refs": [
+  {
+   "label": "2019 · 정신질환 성인 케타민 자살사고 메타분석",
+   "doi": "10.1177/0004867419883341",
+   "pmid": "31729893"
+  },
+  {
+   "label": "2017 · 케타민 자살사고 신속 효과 메타분석",
+   "doi": "10.1016/j.neubiorev.2017.03.010",
+   "pmid": "28342764"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 자살사고 적응증 없음",
+  "ctgov": "query.intr=ketamine&query.cond=Suicidal Ideas&countTotal=true&pageSize=1000 → 3건 반환, InterventionName exact 일치 1건",
+  "pubmed": "ketamine AND \"Suicidal Ideas\" → 6건",
+  "negative": "ketamine AND \"Suicidal Ideas\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 2건",
+  "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ },
+ "vs": "케타민 vs 대조: 자살사고 치료 15개 RCT 메타분석에서 4시간 SMD -0.51(95% CI -1.00~-0.03), 12~24시간 -0.63(-0.99~-0.26), 24~72시간 -0.57(-0.99~-0.14)였다."
 }

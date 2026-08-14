@@ -1,31 +1,32 @@
 {
-  "id": "ketamine-brain-tumor-pos",
-  "subj": "케타민",
-  "claim": "케타민이 뇌종양 수술 환자의 우울 증상을 줄인다",
-  "line": "뇌종양 절제술 뒤 케타민은 우울 반응을 높였습니다",
-  "effect": "반응 41.5% vs 16.3%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 84,
-  "synth": "single",
-  "why": "케타민의 허가사항은 마취이며 뇌종양 수술 뒤 우울 증상 치료는 비허가 사용입니다. 뇌종양 절제술 환자의 무작위 위약대조 시험을 확인했습니다.",
-  "saw": "중등도 이상 우울 증상이 있는 뇌종양 절제술 환자 84명을 무작위 배정한 시험에서 수술 후 3일 반응률은 케타민 41.5%, 위약 16.3%였고 퇴원 시 관해도 더 많았습니다.",
-  "limit": "뇌종양 자체의 크기나 경과를 치료한 연구가 아니라 수술 전후 우울 증상을 본 소규모 단일 시험입니다. 일반 뇌종양 환자나 장기 우울증으로 확대할 수 없습니다.",
-  "against": "반대 검색 0건이었지만 뇌종양 환자 대상 결과는 이 시험 하나이며 다른 수술·우울증 환자 결과와 직접 비교할 수 없습니다.",
-  "use": "뇌종양 수술 환자의 단기 우울 증상 결과로만 기록하고 뇌종양 치료 효과로 오해하지 않아야 합니다.",
-  "refs": [
-    {
-      "label": "2022 · 뇌종양 절제술 환자 케타민 우울 증상 무작위시험",
-      "doi": "10.1213/ANE.0000000000005752",
-      "pmid": "34633992"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 뇌종양 적응증 없음",
-    "ctgov": "query.intr=ketamine&query.cond=Brain Tumor&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 0건",
-    "pubmed": "ketamine AND \"Brain Tumor\" → 13건",
-    "negative": "ketamine AND \"Brain Tumor\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 0건",
-    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ "id": "ketamine-brain-tumor-pos",
+ "subj": "케타민",
+ "claim": "케타민이 뇌종양 수술 환자의 우울 증상을 줄인다",
+ "line": "뇌종양 절제술 뒤 케타민은 우울 반응을 높였습니다",
+ "effect": "반응 41.5% vs 16.3%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 84,
+ "synth": "single",
+ "why": "케타민의 허가사항은 마취이며 뇌종양 수술 뒤 우울 증상 치료는 비허가 사용입니다. 뇌종양 절제술 환자의 무작위 위약대조 시험을 확인했습니다.",
+ "saw": "중등도 이상 우울 증상이 있는 뇌종양 절제술 환자 84명을 무작위 배정한 시험에서 수술 후 3일 반응률은 케타민 41.5%, 위약 16.3%였고 퇴원 시 관해도 더 많았습니다.",
+ "limit": "뇌종양 자체의 크기나 경과를 치료한 연구가 아니라 수술 전후 우울 증상을 본 소규모 단일 시험입니다. 일반 뇌종양 환자나 장기 우울증으로 확대할 수 없습니다.",
+ "against": "반대 검색 0건이었지만 뇌종양 환자 대상 결과는 이 시험 하나이며 다른 수술·우울증 환자 결과와 직접 비교할 수 없습니다.",
+ "use": "뇌종양 수술 환자의 단기 우울 증상 결과로만 기록하고 뇌종양 치료 효과로 오해하지 않아야 합니다.",
+ "refs": [
+  {
+   "label": "2022 · 뇌종양 절제술 환자 케타민 우울 증상 무작위시험",
+   "doi": "10.1213/ANE.0000000000005752",
+   "pmid": "34633992"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 뇌종양 적응증 없음",
+  "ctgov": "query.intr=ketamine&query.cond=Brain Tumor&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 0건",
+  "pubmed": "ketamine AND \"Brain Tumor\" → 13건",
+  "negative": "ketamine AND \"Brain Tumor\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 0건",
+  "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ },
+ "vs": "케타민 vs 생리식염수: 뇌종양 절제 환자 84명 RCT에서 수술 후 3일 우울증상 반응 41.5%(17/41) vs 16.3%(7/43), RR 2.51(95% CI 1.18~5.50), 퇴원 시 관해 RR 4.20(1.28~13.80)였다."
 }

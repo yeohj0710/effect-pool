@@ -1,18 +1,32 @@
 {
-  "id": "ketamine-cancer-pain-pos",
-  "subj": "케타민",
-  "claim": "케타민이 성인 암성 통증을 줄인다",
-  "line": "성인 암성 통증에서 케타민은 통증을 줄였지만 큰 시험이 필요합니다",
-  "effect": "통증 강도 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2279,
-  "synth": "meta",
-  "why": "성인 암성 통증에 케타민을 사용한 무작위시험을 합친 체계적 문헌고찰에서 통증 강도 감소 신호를 확인했습니다.",
-  "saw": "35개 무작위시험 2,279명을 합친 메타분석에서 케타민은 통증 강도와 진통제 사용을 줄였지만, 저자들은 표본이 큰 엄격한 시험이 더 필요하다고 했습니다.",
-  "limit": "암 종류·투여 경로·대조치료·통증 측정이 달라 이질성이 있고, 암 자체를 치료한 결과가 아니라 통증 완화 결과입니다.",
-  "against": "진정 점수는 줄이지 못했고, 리뷰는 작은 표본과 연구 설계 한계 때문에 결론 확인을 위한 추가 무작위시험을 요구했습니다.",
-  "use": "케타민의 근거를 성인 암성 통증 보조치료로 한정하고 암 치료효과로 확대하지 않아야 합니다.",
-  "refs": [{"label": "2024 · J Pain Symptom Manage · 암성 통증 케타민 체계적 문헌고찰", "doi": "10.1016/j.jpainsymman.2023.11.004", "pmid": "37972720"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:KETAMINE → 14건; 확인 라벨의 적응증은 진단·수술 마취 및 전신마취 유도·보조", "ctgov": "query.intr=ketamine&query.cond=Cancer → 114건 반환, InterventionName 대조 후 ketamine 일치 85건", "pubmed": "ketamine AND \"Cancer\" → 990건", "negative": "ketamine AND \"Cancer\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 798건", "safety": "ketamine AND \"Cancer\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 432건"}
+ "id": "ketamine-cancer-pain-pos",
+ "subj": "케타민",
+ "claim": "케타민이 성인 암성 통증을 줄인다",
+ "line": "성인 암성 통증에서 케타민은 통증을 줄였지만 큰 시험이 필요합니다",
+ "effect": "통증 강도 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2279,
+ "synth": "meta",
+ "why": "성인 암성 통증에 케타민을 사용한 무작위시험을 합친 체계적 문헌고찰에서 통증 강도 감소 신호를 확인했습니다.",
+ "saw": "35개 무작위시험 2,279명을 합친 메타분석에서 케타민은 통증 강도와 진통제 사용을 줄였지만, 저자들은 표본이 큰 엄격한 시험이 더 필요하다고 했습니다.",
+ "limit": "암 종류·투여 경로·대조치료·통증 측정이 달라 이질성이 있고, 암 자체를 치료한 결과가 아니라 통증 완화 결과입니다.",
+ "against": "진정 점수는 줄이지 못했고, 리뷰는 작은 표본과 연구 설계 한계 때문에 결론 확인을 위한 추가 무작위시험을 요구했습니다.",
+ "use": "케타민의 근거를 성인 암성 통증 보조치료로 한정하고 암 치료효과로 확대하지 않아야 합니다.",
+ "refs": [
+  {
+   "label": "2024 · J Pain Symptom Manage · 암성 통증 케타민 체계적 문헌고찰",
+   "doi": "10.1016/j.jpainsymman.2023.11.004",
+   "pmid": "37972720"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:KETAMINE → 14건; 확인 라벨의 적응증은 진단·수술 마취 및 전신마취 유도·보조",
+  "ctgov": "query.intr=ketamine&query.cond=Cancer → 114건 반환, InterventionName 대조 후 ketamine 일치 85건",
+  "pubmed": "ketamine AND \"Cancer\" → 990건",
+  "negative": "ketamine AND \"Cancer\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 798건",
+  "safety": "ketamine AND \"Cancer\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 432건"
+ },
+ "vs": "케타민 vs 대조: 성인 암성 통증 35개 RCT 메타분석(2,279명)에서 통증강도와 24시간 PCA 압박·모르핀 사용이 감소했고 오심·구토·변비·가려움 등 이상반응도 감소했다."
 }

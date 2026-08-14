@@ -1,31 +1,32 @@
 {
-  "id": "ketamine-opioid-use-null",
-  "subj": "케타민",
-  "claim": "케타민이 아편 사용장애에 듣는다",
-  "line": "우울증·아편 사용장애에서 두 약의 갈망 감소는 다르지 않았습니다",
-  "effect": "갈망 감소 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 66,
-  "synth": "single",
-  "why": "케타민의 허가사항은 마취이며 아편 사용장애는 아닙니다. 우울증과 아편 사용장애가 함께 있는 성인의 무작위 비교시험을 확인했습니다.",
-  "saw": "우울증과 아편 사용장애가 함께 있는 성인 66명을 무작위 배정한 시험에서 케타민과 부프레노르핀 모두 우울·자살사고를 줄였지만 두 군의 갈망 감소 차이는 유의하지 않았습니다.",
-  "limit": "케타민 단독 위약대조 시험이 아니라 부프레노르핀과 비교한 동반질환 연구입니다. 아편 사용장애의 장기 금주·재발 결과는 평가하지 않았습니다.",
-  "against": "반대 검색 74건에서 케타민의 중독 치료 효과가 확정되지 않았거나 비교약과 결과가 다르지 않다는 연구를 확인했습니다.",
-  "use": "아편 사용장애에서 케타민이 표준 치료보다 낫다는 근거는 없으며 단기 동반 우울 증상 결과로 한정해야 합니다.",
-  "refs": [
-    {
-      "label": "2024 · 우울증·아편 사용장애 케타민·부프레노르핀 무작위시험",
-      "doi": "10.1177/00912174231225087",
-      "pmid": "38140979"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 아편 사용장애 적응증 없음",
-    "ctgov": "query.intr=ketamine&query.cond=Opioid Use&countTotal=true&pageSize=1000 → 48건 반환, InterventionName exact 일치 13건",
-    "pubmed": "ketamine AND \"Opioid Use\" → 288건",
-    "negative": "ketamine AND \"Opioid Use\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 74건",
-    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ "id": "ketamine-opioid-use-null",
+ "subj": "케타민",
+ "claim": "케타민이 아편 사용장애에 듣는다",
+ "line": "우울증·아편 사용장애에서 두 약의 갈망 감소는 다르지 않았습니다",
+ "effect": "갈망 감소 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 66,
+ "synth": "single",
+ "why": "케타민의 허가사항은 마취이며 아편 사용장애는 아닙니다. 우울증과 아편 사용장애가 함께 있는 성인의 무작위 비교시험을 확인했습니다.",
+ "saw": "우울증과 아편 사용장애가 함께 있는 성인 66명을 무작위 배정한 시험에서 케타민과 부프레노르핀 모두 우울·자살사고를 줄였지만 두 군의 갈망 감소 차이는 유의하지 않았습니다.",
+ "limit": "케타민 단독 위약대조 시험이 아니라 부프레노르핀과 비교한 동반질환 연구입니다. 아편 사용장애의 장기 금주·재발 결과는 평가하지 않았습니다.",
+ "against": "반대 검색 74건에서 케타민의 중독 치료 효과가 확정되지 않았거나 비교약과 결과가 다르지 않다는 연구를 확인했습니다.",
+ "use": "아편 사용장애에서 케타민이 표준 치료보다 낫다는 근거는 없으며 단기 동반 우울 증상 결과로 한정해야 합니다.",
+ "refs": [
+  {
+   "label": "2024 · 우울증·아편 사용장애 케타민·부프레노르핀 무작위시험",
+   "doi": "10.1177/00912174231225087",
+   "pmid": "38140979"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 아편 사용장애 적응증 없음",
+  "ctgov": "query.intr=ketamine&query.cond=Opioid Use&countTotal=true&pageSize=1000 → 48건 반환, InterventionName exact 일치 13건",
+  "pubmed": "ketamine AND \"Opioid Use\" → 288건",
+  "negative": "ketamine AND \"Opioid Use\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 74건",
+  "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ },
+ "vs": "케타민 vs 부프레노르핀: 우울장애·아편유사제사용장애 무작위시험에서 두 군 모두 우울증상이 유의하게 감소했지만 군 간 차이는 유의하지 않았고(P>.05), 자살사고 감소는 두 군 모두 85%를 넘었다."
 }

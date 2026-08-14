@@ -1,38 +1,39 @@
 {
-  "id": "ivermectin-malaria-pos",
-  "subj": "이버멕틴",
-  "claim": "구충제를 말라리아 감염 예방에 쓴다",
-  "line": "말라리아 유행 지역 아동의 감염 발생률이 낮아졌습니다",
-  "effect": "감염 발생률 26% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 28932,
-  "synth": "single",
-  "why": "이버멕틴의 허가사항은 장내 강충증과 회선사상충증이며 말라리아 예방은 허가 적응증이 아닙니다.",
-  "saw": "케냐 84개 군집의 적격 참가자 28,932명을 무작위 배정한 군집시험에서 6개월 말라리아 감염 발생률은 이버멕틴군 2.20, 대조군 2.66건/아동-년이었고 보정 발생률비는 0.74였습니다. 중대한 이상반응은 군간 차이가 없었습니다.",
-  "limit": "감염 치료가 아니라 모기가 옮기는 말라리아 전파를 지역사회 약물투여로 줄인 시험입니다. 지역과 계절에 따라 효과가 달라질 수 있습니다.",
-  "against": "반대 검색 234건. 기니비사우 군집시험 25,882명에서는 항말라리아 약에 이버멕틴을 더해도 말라리아 유병률이 줄지 않았습니다.",
-  "use": "말라리아 유행지역에서 전파를 낮춘 대규모 신호가 있지만, 다른 환경에서 추가 이득이 재현되지 않은 시험도 있습니다.",
-  "refs": [
-    {
-      "label": "Mohammed 2025 · NEJM · 말라리아 이버멕틴 군집 무작위시험",
-      "doi": "10.1056/NEJMoa2411262",
-      "pmid": "40700688"
-    },
-    {
-      "label": "D'Alessandro 2024 · Lancet Infect Dis · MATAMAL 군집시험",
-      "doi": "10.1016/S1473-3099(24)00580-2",
-      "pmid": "39551062"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:\"IVERMECTIN\" → 38건, 장내 강충증·회선사상충증 적응증 확인",
-    "ctgov": "query.intr=ivermectin&query.cond=Malaria → 12건 반환, InterventionName 대조 후 ivermectin 11건",
-    "pubmed": "ivermectin Malaria → 332건",
-    "negative": "ivermectin Malaria (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 234건",
-    "safety": "ivermectin Malaria (adverse OR toxicity OR case report OR overdose OR self-medication) → 71건"
+ "id": "ivermectin-malaria-pos",
+ "subj": "이버멕틴",
+ "claim": "구충제를 말라리아 감염 예방에 쓴다",
+ "line": "말라리아 유행 지역 아동의 감염 발생률이 낮아졌습니다",
+ "effect": "감염 발생률 26% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 28932,
+ "synth": "single",
+ "why": "이버멕틴의 허가사항은 장내 강충증과 회선사상충증이며 말라리아 예방은 허가 적응증이 아닙니다.",
+ "saw": "케냐 84개 군집의 적격 참가자 28,932명을 무작위 배정한 군집시험에서 6개월 말라리아 감염 발생률은 이버멕틴군 2.20, 대조군 2.66건/아동-년이었고 보정 발생률비는 0.74였습니다. 중대한 이상반응은 군간 차이가 없었습니다.",
+ "limit": "감염 치료가 아니라 모기가 옮기는 말라리아 전파를 지역사회 약물투여로 줄인 시험입니다. 지역과 계절에 따라 효과가 달라질 수 있습니다.",
+ "against": "반대 검색 234건. 기니비사우 군집시험 25,882명에서는 항말라리아 약에 이버멕틴을 더해도 말라리아 유병률이 줄지 않았습니다.",
+ "use": "말라리아 유행지역에서 전파를 낮춘 대규모 신호가 있지만, 다른 환경에서 추가 이득이 재현되지 않은 시험도 있습니다.",
+ "refs": [
+  {
+   "label": "Mohammed 2025 · NEJM · 말라리아 이버멕틴 군집 무작위시험",
+   "doi": "10.1056/NEJMoa2411262",
+   "pmid": "40700688"
   },
-  "known": "off",
-  "knownWhy": "말라리아 전파 차단은 허가 없음"
+  {
+   "label": "D'Alessandro 2024 · Lancet Infect Dis · MATAMAL 군집시험",
+   "doi": "10.1016/S1473-3099(24)00580-2",
+   "pmid": "39551062"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:\"IVERMECTIN\" → 38건, 장내 강충증·회선사상충증 적응증 확인",
+  "ctgov": "query.intr=ivermectin&query.cond=Malaria → 12건 반환, InterventionName 대조 후 ivermectin 11건",
+  "pubmed": "ivermectin Malaria → 332건",
+  "negative": "ivermectin Malaria (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 234건",
+  "safety": "ivermectin Malaria (adverse OR toxicity OR case report OR overdose OR self-medication) → 71건"
+ },
+ "known": "off",
+ "knownWhy": "말라리아 전파 차단은 허가 없음",
+ "vs": "이버멕틴 vs 알벤다졸: 케냐 군집 RCT에서 6개월 말라리아 발생률 2.20 vs 2.66/소아-년, 조정 발생률비 0.74(95% CI 0.58~0.95; P=.02)였다. 기니비사우 보조투여 RCT에서는 말라리아 유병률 6.64%(141/2,083) vs 5.05%(118/2,300), 위험차 1.67%(-1.44~4.78; P=.28)였다."
 }

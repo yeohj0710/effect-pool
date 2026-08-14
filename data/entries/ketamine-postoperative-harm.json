@@ -1,31 +1,32 @@
 {
-  "id": "ketamine-postoperative-harm",
-  "subj": "케타민",
-  "claim": "케타민이 수술 후 진통제 사용을 줄인다",
-  "line": "수술 후 케타민은 진통제 사용을 15% 줄였지만 공포 기억을 늘렸습니다",
-  "effect": "펜타닐 15%↓·공포 기억↑",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 118,
-  "synth": "single",
-  "why": "케타민의 허가사항은 마취이며 수술 후 진통제 절약은 비허가 사용입니다. 수술 뒤 중환자실에서 케타민을 사용한 무작위시험의 이득과 위해를 함께 확인했습니다.",
-  "saw": "수술 뒤 중환자실에 입실한 성인 118명을 무작위 배정한 시험에서 24시간 펜타닐 사용량은 15% 줄었지만, 추적 평가에서는 무서운·망상적 기억이 케타민군 65%, 위약군 41%였습니다.",
-  "limit": "수술 종류와 중환자실 진정 상황에 한정된 단일 시험입니다. 진통제 감소가 환자 회복을 개선했다는 뜻은 아니며 장기 기억 결과는 일부 추적자만 평가했습니다.",
-  "against": "반대 검색 744건에서 수술 후 진통 효과가 작거나 결과가 없고 케타민의 정신과적 기억·인지 위해를 다룬 연구를 확인했습니다.",
-  "use": "수술 후 진통제 절약과 장기 공포 기억 증가를 함께 보여 주는 근거로 기록해야 합니다.",
-  "refs": [
-    {
-      "label": "2025 · 중환자실 수술 후 케타민 무작위시험과 외상 기억 추적",
-      "doi": "10.1213/ANE.0000000000007419",
-      "pmid": "39908192"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 수술 후 진통제 절약 적응증 없음",
-    "ctgov": "query.intr=ketamine&query.cond=Postoperative&countTotal=true&pageSize=1000 → 406건 반환, InterventionName exact 일치 126건",
-    "pubmed": "ketamine AND \"Postoperative\" → 3,320건",
-    "negative": "ketamine AND \"Postoperative\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 744건",
-    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ "id": "ketamine-postoperative-harm",
+ "subj": "케타민",
+ "claim": "케타민이 수술 후 진통제 사용을 줄인다",
+ "line": "수술 후 케타민은 진통제 사용을 15% 줄였지만 공포 기억을 늘렸습니다",
+ "effect": "펜타닐 15%↓·공포 기억↑",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 118,
+ "synth": "single",
+ "why": "케타민의 허가사항은 마취이며 수술 후 진통제 절약은 비허가 사용입니다. 수술 뒤 중환자실에서 케타민을 사용한 무작위시험의 이득과 위해를 함께 확인했습니다.",
+ "saw": "수술 뒤 중환자실에 입실한 성인 118명을 무작위 배정한 시험에서 24시간 펜타닐 사용량은 15% 줄었지만, 추적 평가에서는 무서운·망상적 기억이 케타민군 65%, 위약군 41%였습니다.",
+ "limit": "수술 종류와 중환자실 진정 상황에 한정된 단일 시험입니다. 진통제 감소가 환자 회복을 개선했다는 뜻은 아니며 장기 기억 결과는 일부 추적자만 평가했습니다.",
+ "against": "반대 검색 744건에서 수술 후 진통 효과가 작거나 결과가 없고 케타민의 정신과적 기억·인지 위해를 다룬 연구를 확인했습니다.",
+ "use": "수술 후 진통제 절약과 장기 공포 기억 증가를 함께 보여 주는 근거로 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "2025 · 중환자실 수술 후 케타민 무작위시험과 외상 기억 추적",
+   "doi": "10.1213/ANE.0000000000007419",
+   "pmid": "39908192"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"KETAMINE\" → 14건 반환; 수술 후 진통제 절약 적응증 없음",
+  "ctgov": "query.intr=ketamine&query.cond=Postoperative&countTotal=true&pageSize=1000 → 406건 반환, InterventionName exact 일치 126건",
+  "pubmed": "ketamine AND \"Postoperative\" → 3,320건",
+  "negative": "ketamine AND \"Postoperative\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 744건",
+  "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 8,600건"
+ },
+ "vs": "저용량 케타민 vs 위약: 수술 후 ICU 환자 RCT에서 24시간 펜타닐 사용 399(95% CI 345~454) vs 468(412~523)μg, 차이 -68μg(P=.041)였고 장기 공포·망상 기억 65% vs 41%(P=.035)였다."
 }

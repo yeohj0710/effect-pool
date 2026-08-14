@@ -1,28 +1,32 @@
 {
-  "id": "ketamine-delirium-pos",
-  "subj": "케타민",
-  "claim": "케타민 저용량을 수술 후 섬망 예방에 쓴다",
-  "line": "수술 후 저용량 케타민군의 섬망 위험이 낮았습니다",
-  "effect": "저용량 섬망 OR 0.74",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 106982,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "케타민 허가는 마취·진통이고 수술 후 섬망 예방은 별도 적응증이 아니다.",
-  "why": "비심장·비신경외과 수술 환자에서 수술 중 케타민 투여량과 7일 내 섬망을 후향적으로 비교한 코호트입니다.",
-  "saw": "2008–2024년 성인 106982명 중 12199명이 케타민을 받았습니다. 0.35 mg/kg 이하 저용량은 비투여군보다 섬망 위험이 낮았고(보정 OR 0.74), 0.35 mg/kg 초과는 차이가 없었습니다(OR 1.00).",
-  "limit": "후향 관찰자료라 투여 적응증과 환자 상태에 따른 교란이 있습니다. 저용량 결과를 모든 수술과 케타민 용량에 적용할 수 없습니다.",
-  "against": "고용량 케타민에서는 섬망 위험 차이가 없었고, 연구진도 임상시험 결과가 엇갈린다고 설명했습니다.",
-  "use": "수술 후 섬망 예방의 유망한 관찰 신호로만 사용하며, 예방요법으로 확정하지 않습니다.",
-  "refs": [
-    { "label": "2008–2024 수술 중 케타민 용량·수술 후 섬망 후향 코호트", "pmid": "40619168" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=ketamine · cond=Delirium → 58건 반환, 물질 대조 후 43건",
-    "pubmed": "ketamine AND Delirium → 513편",
-    "negative": "ketamine AND Delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 418편",
-    "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9442편"
+ "id": "ketamine-delirium-pos",
+ "subj": "케타민",
+ "claim": "케타민 저용량을 수술 후 섬망 예방에 쓴다",
+ "line": "수술 후 저용량 케타민군의 섬망 위험이 낮았습니다",
+ "effect": "저용량 섬망 OR 0.74",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 106982,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "케타민 허가는 마취·진통이고 수술 후 섬망 예방은 별도 적응증이 아니다.",
+ "why": "비심장·비신경외과 수술 환자에서 수술 중 케타민 투여량과 7일 내 섬망을 후향적으로 비교한 코호트입니다.",
+ "saw": "2008–2024년 성인 106982명 중 12199명이 케타민을 받았습니다. 0.35 mg/kg 이하 저용량은 비투여군보다 섬망 위험이 낮았고(보정 OR 0.74), 0.35 mg/kg 초과는 차이가 없었습니다(OR 1.00).",
+ "limit": "후향 관찰자료라 투여 적응증과 환자 상태에 따른 교란이 있습니다. 저용량 결과를 모든 수술과 케타민 용량에 적용할 수 없습니다.",
+ "against": "고용량 케타민에서는 섬망 위험 차이가 없었고, 연구진도 임상시험 결과가 엇갈린다고 설명했습니다.",
+ "use": "수술 후 섬망 예방의 유망한 관찰 신호로만 사용하며, 예방요법으로 확정하지 않습니다.",
+ "refs": [
+  {
+   "label": "2008–2024 수술 중 케타민 용량·수술 후 섬망 후향 코호트",
+   "pmid": "40619168"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=ketamine · cond=Delirium → 58건 반환, 물질 대조 후 43건",
+  "pubmed": "ketamine AND Delirium → 513편",
+  "negative": "ketamine AND Delirium AND (no effect OR did not OR failed to OR negative OR no significant difference) → 418편",
+  "safety": "ketamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9442편"
+ },
+ "vs": "저용량 케타민 vs 비투여: 수술환자 106,982명 후향 코호트에서 수술 후 섬망 조정 OR 0.74(95% CI 0.59~0.89), 위험차 -0.7%(-1.0~-0.3; P=.003)였다. 고용량 OR는 1.00(0.85~1.18)이었다."
 }

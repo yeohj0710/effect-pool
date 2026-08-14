@@ -1,30 +1,40 @@
 {
-  "id": "ivermectin-severe-acute-respiratory-syndrome-obs",
-  "subj": "이버멕틴",
-  "claim": "이버멕틴을 SARS-CoV-2 감염 예방에 쓴다",
-  "line": "의료종사자에서 이버멕틴 예방복용 뒤 감염 위험이 낮았습니다",
-  "effect": "감염 보정 RR 0.17",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 3532,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "이버멕틴 허가 적응증에는 SARS-CoV-2 감염 예방이 없다.",
-  "why": "SARS-CoV-2에 노출될 수 있는 의료종사자를 관찰한 전향 코호트에서 예방복용 여부와 감염을 비교했습니다.",
-  "saw": "3532명이 참여했고 2회 이버멕틴 복용자는 다음 한 달 감염 위험이 낮았습니다(보정 RR 0.17, 95% CI 0.12–0.23). 증상 의심 감염은 6% 대 15%였고 이상반응 보고는 1.8%였습니다.",
-  "limit": "무작위 배정이 아니며 백신, 노출, 행동 차이를 완전히 제거할 수 없습니다. 예방복용 뒤 한 달 관찰이라 장기 효과도 모릅니다.",
-  "against": "COVID-19 외래환자 무작위시험에서는 입원·회복 개선이 없었습니다(PMID 35353979, 36269852). 예방 관찰 결과를 치료 효과로 바꾸어 읽지 않습니다.",
-  "use": "예방 효과의 관찰 신호로만 기록하며, 백신과 감염관리 또는 무작위시험 근거를 대신하지 않습니다.",
-  "refs": [
-    { "label": "2021 · 의료종사자 SARS-CoV-2 예방 이버멕틴 전향 코호트", "pmid": "34513470" },
-    { "label": "COVID-19 외래 이버멕틴 무작위시험", "pmid": "35353979" },
-    { "label": "COVID-19 외래 이버멕틴 무작위시험", "pmid": "36269852" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=ivermectin · cond=Severe Acute Respiratory Syndrome → 9건 반환, 물질 대조 후 9건",
-    "pubmed": "ivermectin AND Severe Acute Respiratory Syndrome → 130편",
-    "negative": "ivermectin AND Severe Acute Respiratory Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 99편",
-    "safety": "ivermectin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3650편"
+ "id": "ivermectin-severe-acute-respiratory-syndrome-obs",
+ "subj": "이버멕틴",
+ "claim": "이버멕틴을 SARS-CoV-2 감염 예방에 쓴다",
+ "line": "의료종사자에서 이버멕틴 예방복용 뒤 감염 위험이 낮았습니다",
+ "effect": "감염 보정 RR 0.17",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 3532,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "이버멕틴 허가 적응증에는 SARS-CoV-2 감염 예방이 없다.",
+ "why": "SARS-CoV-2에 노출될 수 있는 의료종사자를 관찰한 전향 코호트에서 예방복용 여부와 감염을 비교했습니다.",
+ "saw": "3532명이 참여했고 2회 이버멕틴 복용자는 다음 한 달 감염 위험이 낮았습니다(보정 RR 0.17, 95% CI 0.12–0.23). 증상 의심 감염은 6% 대 15%였고 이상반응 보고는 1.8%였습니다.",
+ "limit": "무작위 배정이 아니며 백신, 노출, 행동 차이를 완전히 제거할 수 없습니다. 예방복용 뒤 한 달 관찰이라 장기 효과도 모릅니다.",
+ "against": "COVID-19 외래환자 무작위시험에서는 입원·회복 개선이 없었습니다(PMID 35353979, 36269852). 예방 관찰 결과를 치료 효과로 바꾸어 읽지 않습니다.",
+ "use": "예방 효과의 관찰 신호로만 기록하며, 백신과 감염관리 또는 무작위시험 근거를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "2021 · 의료종사자 SARS-CoV-2 예방 이버멕틴 전향 코호트",
+   "pmid": "34513470"
+  },
+  {
+   "label": "COVID-19 외래 이버멕틴 무작위시험",
+   "pmid": "35353979"
+  },
+  {
+   "label": "COVID-19 외래 이버멕틴 무작위시험",
+   "pmid": "36269852"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=ivermectin · cond=Severe Acute Respiratory Syndrome → 9건 반환, 물질 대조 후 9건",
+  "pubmed": "ivermectin AND Severe Acute Respiratory Syndrome → 130편",
+  "negative": "ivermectin AND Severe Acute Respiratory Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 99편",
+  "safety": "ivermectin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3650편"
+ },
+ "vs": "이버멕틴 예방투여 vs 비투여: 의료진 전향 코호트에서 2회 투여군의 다음 달 COVID-19 감염 조정 RR 0.17(95% CI 0.12~0.23), 증상 의심 감염 6% vs 15%였다."
 }
