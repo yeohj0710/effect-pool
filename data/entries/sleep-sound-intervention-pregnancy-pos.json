@@ -1,28 +1,33 @@
 {
-  "id": "sleep-sound-intervention-pregnancy-pos",
-  "subj": "sleep sound intervention",
-  "claim": "임신 중 음악 듣기가 불면 증상을 줄인다",
-  "line": "임신 관련 불면에서 취침 음악은 수면 문제를 완화했습니다",
-  "effect": "수면 문제 MD −1.38",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 348,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 음악 중재라 의약품 허가 적응증을 적용하지 않음",
-  "why": "임신 관련 불면을 대상으로 음악 듣기를 평가한 무작위시험 4편, 348명의 체계적 문헌고찰 및 메타분석이다.",
-  "saw": "음악 중재는 무치료 또는 평상시 치료보다 수면 문제를 줄였다(MD −1.38, 95% CI −2.56 to −0.19, p=0.02).",
-  "limit": "참여자가 음악 중재를 알 수 있어 4개 시험 모두 하나 이상의 비뚤림 위험이 높았다.",
-  "against": "수면의 주관적 문제를 평가한 결과라 객관적 수면 지표와 장기 임신 결과를 확정하지 못한다.",
-  "use": "임신 중 불면에서 취침 음악을 보조 중재로 검토할 때 참고한다.",
-  "refs": [
-    { "label": "The effect of music on pregnancy-related insomnia: A systematic review and meta-analysis", "doi": "10.1016/j.midw.2025.104294", "pmid": "39826401" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "sleep sound intervention AND Pregnancy · 18건 반환",
-    "pubmed": "sleep sound intervention AND Pregnancy · 38건; PMID39826401 직접 결과 확인",
-    "negative": "music AND pregnancy AND insomnia AND (no effect OR failed OR no significant difference) · 메타분석 결과 확인",
-    "safety": "music AND pregnancy AND (adverse OR harm OR safety) · 중대한 안전성 신호 확인 안 됨"
+ "id": "sleep-sound-intervention-pregnancy-pos",
+ "subj": "수면 소리 중재",
+ "claim": "임신 중 음악 듣기가 불면 증상을 줄인다",
+ "line": "임신 관련 불면에서 취침 음악은 수면 문제를 완화했습니다",
+ "effect": "수면 문제 MD −1.38",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 348,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 음악 중재라 의약품 허가 적응증을 적용하지 않음",
+ "why": "임신 관련 불면을 대상으로 음악 듣기를 평가한 무작위시험 4편, 348명의 체계적 문헌고찰 및 메타분석이다.",
+ "saw": "음악 중재는 무치료 또는 평상시 치료보다 수면 문제를 줄였다(MD −1.38, 95% CI −2.56 to −0.19, p=0.02).",
+ "limit": "참여자가 음악 중재를 알 수 있어 4개 시험 모두 하나 이상의 비뚤림 위험이 높았다.",
+ "against": "수면의 주관적 문제를 평가한 결과라 객관적 수면 지표와 장기 임신 결과를 확정하지 못한다.",
+ "use": "임신 중 불면에서 취침 음악을 보조 중재로 검토할 때 참고한다.",
+ "refs": [
+  {
+   "label": "The effect of music on pregnancy-related insomnia: A systematic review and meta-analysis",
+   "doi": "10.1016/j.midw.2025.104294",
+   "pmid": "39826401"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "sleep sound intervention AND Pregnancy · 18건 반환",
+  "pubmed": "sleep sound intervention AND Pregnancy · 38건; PMID39826401 직접 결과 확인",
+  "negative": "music AND pregnancy AND insomnia AND (no effect OR failed OR no significant difference) · 메타분석 결과 확인",
+  "safety": "music AND pregnancy AND (adverse OR harm OR safety) · 중대한 안전성 신호 확인 안 됨"
+ },
+ "vs": "상대 효과: 임신 중 음악 듣기 vs 무치료·통상관리 수면문제 MD -1.38 (95% CI -2.56~-0.19; p=.02; 4개 RCT 348명)"
 }

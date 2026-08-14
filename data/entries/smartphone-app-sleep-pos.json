@@ -1,32 +1,33 @@
 {
-  "id": "smartphone-app-sleep-pos",
-  "subj": "smartphone app",
-  "claim": "스마트폰 수면음 분석 앱으로 중등도 이상 폐쇄성 수면무호흡을 선별한다",
-  "line": "수면음 앱은 수면무호흡을 민감도 72%와 특이도 85.5%로 선별했습니다",
-  "effect": "민감도 72.0%·특이도 85.5%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 180,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "스마트폰 앱은 의약품 허가 적응증이 아닌 디지털 진단 보조 중재입니다.",
-  "why": "고혈압 성인 180명을 무작위 교차 배정해 수면음 분석 앱과 STOP-BANG 설문으로 수면무호흡을 선별했습니다.",
-  "saw": "고혈압 성인 180명이 앱 선별 또는 STOP-BANG 선별 뒤 가정 수면검사를 받았습니다. 중등도 이상 수면무호흡에서 앱 지수의 민감도는 72.0%, 특이도는 85.5%, AUC는 .831로 기존 설문보다 높았습니다.",
-  "limit": "중국 고혈압 성인 표본이며 앱 선별이 치료 시작이나 장기 임상 결과를 개선하는지는 평가하지 않았습니다.",
-  "against": "반대 검색 29편과 안전성 검색 31편을 확인했습니다. 진단 정확도 결과를 치료 효과로 해석할 수 없습니다.",
-  "use": "고혈압 성인의 수면무호흡 선별 보조 도구를 검토할 때 참고하며 확진검사를 대신하지 않습니다.",
-  "refs": [
-    {
-      "label": "2026 · Sleep and Breathing · 수면음 분석 스마트폰 앱 무작위 교차시험",
-      "doi": "10.1007/s11325-026-03754-4",
-      "pmid": "42412159"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "smartphone app AND Sleep · 289건 반환, InterventionName 직접 확인 10건",
-    "pubmed": "\"smartphone app\" AND \"Sleep\"[Title/Abstract] · 225편",
-    "negative": "같은 검색 AND (no significant difference OR no effect OR failed OR negative OR did not improve) · 29편",
-    "safety": "같은 검색 AND (adverse OR harm OR safety OR toxicity OR injury OR dropout) · 31편"
+ "id": "smartphone-app-sleep-pos",
+ "subj": "스마트폰 앱",
+ "claim": "스마트폰 수면음 분석 앱으로 중등도 이상 폐쇄성 수면무호흡을 선별한다",
+ "line": "수면음 앱은 수면무호흡을 민감도 72%와 특이도 85.5%로 선별했습니다",
+ "effect": "민감도 72.0%·특이도 85.5%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 180,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "스마트폰 앱은 의약품 허가 적응증이 아닌 디지털 진단 보조 중재입니다.",
+ "why": "고혈압 성인 180명을 무작위 교차 배정해 수면음 분석 앱과 STOP-BANG 설문으로 수면무호흡을 선별했습니다.",
+ "saw": "고혈압 성인 180명이 앱 선별 또는 STOP-BANG 선별 뒤 가정 수면검사를 받았습니다. 중등도 이상 수면무호흡에서 앱 지수의 민감도는 72.0%, 특이도는 85.5%, AUC는 .831로 기존 설문보다 높았습니다.",
+ "limit": "중국 고혈압 성인 표본이며 앱 선별이 치료 시작이나 장기 임상 결과를 개선하는지는 평가하지 않았습니다.",
+ "against": "반대 검색 29편과 안전성 검색 31편을 확인했습니다. 진단 정확도 결과를 치료 효과로 해석할 수 없습니다.",
+ "use": "고혈압 성인의 수면무호흡 선별 보조 도구를 검토할 때 참고하며 확진검사를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "2026 · Sleep and Breathing · 수면음 분석 스마트폰 앱 무작위 교차시험",
+   "doi": "10.1007/s11325-026-03754-4",
+   "pmid": "42412159"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "smartphone app AND Sleep · 289건 반환, InterventionName 직접 확인 10건",
+  "pubmed": "\"smartphone app\" AND \"Sleep\"[Title/Abstract] · 225편",
+  "negative": "같은 검색 AND (no significant difference OR no effect OR failed OR negative OR did not improve) · 29편",
+  "safety": "같은 검색 AND (adverse OR harm OR safety OR toxicity OR injury OR dropout) · 31편"
+ },
+ "vs": "상대 효과: 수면소리 분석 스마트폰 앱 vs STOP-BANG 설문 중등도 이상 수면무호흡 민감도 72.0%, 특이도 85.5%, 양성 LR 4.96, 음성 LR 0.33, AUC 0.831 vs 0.728~0.754"
 }

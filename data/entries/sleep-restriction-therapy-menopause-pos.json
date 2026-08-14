@@ -1,29 +1,40 @@
 {
-  "id": "sleep-restriction-therapy-menopause-pos",
-  "subj": "sleep restriction therapy",
-  "claim": "폐경 후 불면증에서 수면 제한 치료가 불면 증상을 줄인다",
-  "line": "폐경 후 불면에서 수면 제한은 수면위생 교육보다 불면을 줄였습니다",
-  "effect": "불면 심각도 지수 변화 −6.56 대 −1.12",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 150,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 제한 치료는 비약물 중재라 허가 적응증 분류를 적용하지 않습니다.",
-  "why": "폐경 관련 만성 불면증 여성 150명을 수면 제한 치료, 불면 인지행동치료, 수면위생 교육에 무작위 배정했습니다.",
-  "saw": "치료 후 불면 심각도 지수는 수면 제한 치료에서 6.56점, 수면위생 교육에서 1.12점 감소했고 6개월 추적을 시행했습니다.",
-  "limit": "단일기관 시험이고 수면 제한 치료는 불면 인지행동치료의 한 요소라 복합치료와 단독 효과를 구분해야 합니다.",
-  "against": "폐경 후 불면증 결과를 다른 수면장애나 모든 연령의 불면증에 그대로 적용할 수 없습니다.",
-  "use": "폐경 후 만성 불면증에서 수면 제한 치료를 전문적인 불면 인지행동치료의 구성요소로 검토합니다.",
-  "refs": [
-    { "label": "폐경 후 여성 수면 제한 치료 무작위시험", "doi": "10.1093/sleep/zsy217", "pmid": "30481333", "pmc": "PMC6369725" },
-    { "label": "수면 제한 치료의 우울·각성 효과 분석", "doi": "10.1016/j.sleep.2018.11.019", "pmid": "30785053", "pmc": "PMC6503531" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "sleep restriction therapy AND Menopause · 6건 반환, InterventionName 일치 1건",
-    "pubmed": "\"sleep restriction therapy\" AND \"Menopause\" · 6건",
-    "negative": "\"sleep restriction therapy\" AND \"Menopause\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 2건",
-    "safety": "\"sleep restriction therapy\" AND (adverse OR toxicity OR harm OR \"case report\" OR overdose) · 15건"
+ "id": "sleep-restriction-therapy-menopause-pos",
+ "subj": "수면 제한 치료",
+ "claim": "폐경 후 불면증에서 수면 제한 치료가 불면 증상을 줄인다",
+ "line": "폐경 후 불면에서 수면 제한은 수면위생 교육보다 불면을 줄였습니다",
+ "effect": "불면 심각도 지수 변화 −6.56 대 −1.12",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 150,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 제한 치료는 비약물 중재라 허가 적응증 분류를 적용하지 않습니다.",
+ "why": "폐경 관련 만성 불면증 여성 150명을 수면 제한 치료, 불면 인지행동치료, 수면위생 교육에 무작위 배정했습니다.",
+ "saw": "치료 후 불면 심각도 지수는 수면 제한 치료에서 6.56점, 수면위생 교육에서 1.12점 감소했고 6개월 추적을 시행했습니다.",
+ "limit": "단일기관 시험이고 수면 제한 치료는 불면 인지행동치료의 한 요소라 복합치료와 단독 효과를 구분해야 합니다.",
+ "against": "폐경 후 불면증 결과를 다른 수면장애나 모든 연령의 불면증에 그대로 적용할 수 없습니다.",
+ "use": "폐경 후 만성 불면증에서 수면 제한 치료를 전문적인 불면 인지행동치료의 구성요소로 검토합니다.",
+ "refs": [
+  {
+   "label": "폐경 후 여성 수면 제한 치료 무작위시험",
+   "doi": "10.1093/sleep/zsy217",
+   "pmid": "30481333",
+   "pmc": "PMC6369725"
+  },
+  {
+   "label": "수면 제한 치료의 우울·각성 효과 분석",
+   "doi": "10.1016/j.sleep.2018.11.019",
+   "pmid": "30785053",
+   "pmc": "PMC6503531"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "sleep restriction therapy AND Menopause · 6건 반환, InterventionName 일치 1건",
+  "pubmed": "\"sleep restriction therapy\" AND \"Menopause\" · 6건",
+  "negative": "\"sleep restriction therapy\" AND \"Menopause\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 2건",
+  "safety": "\"sleep restriction therapy\" AND (adverse OR toxicity OR harm OR \"case report\" OR overdose) · 15건"
+ },
+ "vs": "군 간 차이: 수면 제한 치료 vs 수면위생교육 폐경기 만성불면 ISI 감소 6.56점 vs 1.12점, 관해율 38~57% vs 4~33%; CBT-I ISI 감소 7.70점, 관해율 54~84%"
 }

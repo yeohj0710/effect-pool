@@ -1,28 +1,33 @@
 {
-  "id": "smartphone-intervention-physical-activity-null",
-  "subj": "smartphone intervention",
-  "claim": "스마트폰 중재가 신체활동을 높인다",
-  "line": "제2형 당뇨에서 스마트폰 동기 문자는 전체 걸음 수를 늘리지 못했다.",
-  "effect": "전체 P=.365·저활동군 +1319걸음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 200,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "스마트폰 동기 문자는 디지털 행동 중재이며 신체활동 증가는 앱 자체의 허가 적응증이 아닙니다",
-  "why": "과체중 또는 비만 제2형 당뇨병 환자 200명을 개인 건강기록 앱만 쓰는 군과 앱에 맞춤 동기 문자를 더한 군에 무작위 배정했습니다",
-  "saw": "12주 전체 걸음 수 변화는 군 간 차이가 없었지만 시작 걸음 수가 낮은 하위군에서는 중재군이 하루 1319걸음 늘었습니다",
-  "limit": "단일 기관 시험이고 저활동 하위군 결과는 사전 주효과가 아니라 탐색적 분석일 수 있습니다",
-  "against": "전체 걸음 수와 24주 HbA1c 변화는 군 간 차이가 없어 스마트폰 문자의 일반적 효과를 확인하지 못했습니다",
-  "use": "제2형 당뇨 신체활동 중재에서 전체 효과와 저활동 하위군 신호를 구분해 보는 근거로 기록합니다",
-  "refs": [
-    { "label": "A randomized controlled trial of an app-based intervention on physical activity and glycemic control in people with type 2 diabetes", "pmid": "38693528", "nct": "NCT03407222" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "smartphone intervention AND Physical Activity 반환 24건; 스마트폰 중재명을 대조",
-    "pubmed": "smartphone intervention AND Physical Activity 검색 16건; PMID 38693528 직접 무작위 시험 확인",
-    "negative": "smartphone intervention AND Physical Activity AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 11건",
-    "safety": "smartphone intervention AND Physical Activity AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ "id": "smartphone-intervention-physical-activity-null",
+ "subj": "스마트폰 중재",
+ "claim": "스마트폰 중재가 신체활동을 높인다",
+ "line": "제2형 당뇨에서 스마트폰 동기 문자는 전체 걸음 수를 늘리지 못했다.",
+ "effect": "전체 P=.365·저활동군 +1319걸음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 200,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "스마트폰 동기 문자는 디지털 행동 중재이며 신체활동 증가는 앱 자체의 허가 적응증이 아닙니다",
+ "why": "과체중 또는 비만 제2형 당뇨병 환자 200명을 개인 건강기록 앱만 쓰는 군과 앱에 맞춤 동기 문자를 더한 군에 무작위 배정했습니다",
+ "saw": "12주 전체 걸음 수 변화는 군 간 차이가 없었지만 시작 걸음 수가 낮은 하위군에서는 중재군이 하루 1319걸음 늘었습니다",
+ "limit": "단일 기관 시험이고 저활동 하위군 결과는 사전 주효과가 아니라 탐색적 분석일 수 있습니다",
+ "against": "전체 걸음 수와 24주 HbA1c 변화는 군 간 차이가 없어 스마트폰 문자의 일반적 효과를 확인하지 못했습니다",
+ "use": "제2형 당뇨 신체활동 중재에서 전체 효과와 저활동 하위군 신호를 구분해 보는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "A randomized controlled trial of an app-based intervention on physical activity and glycemic control in people with type 2 diabetes",
+   "pmid": "38693528",
+   "nct": "NCT03407222"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "smartphone intervention AND Physical Activity 반환 24건; 스마트폰 중재명을 대조",
+  "pubmed": "smartphone intervention AND Physical Activity 검색 16건; PMID 38693528 직접 무작위 시험 확인",
+  "negative": "smartphone intervention AND Physical Activity AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 11건",
+  "safety": "smartphone intervention AND Physical Activity AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 0건"
+ },
+ "vs": "군 간 차이: 스마트폰 PHR+동기 문자 vs PHR 앱 대조 12주 저활동군 일일 걸음 변화 +1,319±3,020 vs -139±2,309 (p=.009); HbA1c 6.7±0.5% vs 6.9±0.6% (p=.041); 전체 걸음 변화 차이 없음"
 }

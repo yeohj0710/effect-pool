@@ -1,28 +1,32 @@
 {
-  "id": "smartphone-intervention-smoking-null",
-  "subj": "smartphone intervention",
-  "claim": "스마트폰 중재가 금연을 높인다",
-  "line": "스마트폰 금연 앱은 약사 상담보다 금연률을 높이지 못했다.",
-  "effect": "금연률 군 간 차이 없음·순응 74일 대 60일",
-  "tier": "trial",
-  "dir": "null",
-  "n": 156,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "스마트폰 금연 앱은 디지털 행동 중재이며 금연은 앱 자체의 허가 적응증이 아닙니다",
-  "why": "태국 지역 약국 7곳에서 흡연자 156명을 약사 금연상담과 스마트폰 앱 추가군 또는 상담군에 무작위 배정했습니다",
-  "saw": "두 군 모두 추적 중 금연률이 올랐지만 앱 추가군과 상담군 사이에 통계적으로 유의한 차이는 없었습니다",
-  "limit": "두 군 모두 약물치료와 약사상담을 받아 스마트폰 앱의 독립 효과를 분리하기 어렵고 6개월 시험입니다",
-  "against": "스마트폰 앱 추가군의 프로그램 순응은 74일 대 60일로 길었지만 그 차이도 유의하지 않았습니다",
-  "use": "약사 금연상담에 스마트폰 앱을 추가할 때 금연률보다 순응 신호만 확인된 근거로 기록합니다",
-  "refs": [
-    { "label": "A community pharmacist-led smoking cessation intervention using a smartphone app (PharmQuit): A randomized controlled trial", "pmid": "35349576" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "smartphone intervention AND Smoking 반환 8건; 스마트폰 중재명을 대조",
-    "pubmed": "smartphone intervention AND Smoking 검색 10건; PMID 35349576 직접 무작위 시험 확인",
-    "negative": "smartphone intervention AND Smoking AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 7건",
-    "safety": "smartphone intervention AND Smoking AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 1건"
+ "id": "smartphone-intervention-smoking-null",
+ "subj": "스마트폰 중재",
+ "claim": "스마트폰 중재가 금연을 높인다",
+ "line": "스마트폰 금연 앱은 약사 상담보다 금연률을 높이지 못했다.",
+ "effect": "금연률 군 간 차이 없음·순응 74일 대 60일",
+ "tier": "trial",
+ "dir": "null",
+ "n": 156,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "스마트폰 금연 앱은 디지털 행동 중재이며 금연은 앱 자체의 허가 적응증이 아닙니다",
+ "why": "태국 지역 약국 7곳에서 흡연자 156명을 약사 금연상담과 스마트폰 앱 추가군 또는 상담군에 무작위 배정했습니다",
+ "saw": "두 군 모두 추적 중 금연률이 올랐지만 앱 추가군과 상담군 사이에 통계적으로 유의한 차이는 없었습니다",
+ "limit": "두 군 모두 약물치료와 약사상담을 받아 스마트폰 앱의 독립 효과를 분리하기 어렵고 6개월 시험입니다",
+ "against": "스마트폰 앱 추가군의 프로그램 순응은 74일 대 60일로 길었지만 그 차이도 유의하지 않았습니다",
+ "use": "약사 금연상담에 스마트폰 앱을 추가할 때 금연률보다 순응 신호만 확인된 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "A community pharmacist-led smoking cessation intervention using a smartphone app (PharmQuit): A randomized controlled trial",
+   "pmid": "35349576"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "smartphone intervention AND Smoking 반환 8건; 스마트폰 중재명을 대조",
+  "pubmed": "smartphone intervention AND Smoking 검색 10건; PMID 35349576 직접 무작위 시험 확인",
+  "negative": "smartphone intervention AND Smoking AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 7건",
+  "safety": "smartphone intervention AND Smoking AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 1건"
+ },
+ "vs": "군 간 차이: 약사 상담+PharmQuit vs 약사 상담 6개월 프로그램 순응일 74 vs 60일 (p>.05); 금연율·일일 담배 수는 군 간 유의한 차이 없음"
 }

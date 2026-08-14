@@ -1,28 +1,31 @@
 {
-  "id": "smart-home-hiv-open",
-  "subj": "smart home",
-  "claim": "스마트홈 HIV 자가검사 키트가 검사 사용을 감지하고 후속 상담을 연결할 수 있다",
-  "line": "스마트홈 HIV 자가검사 키트가 사용을 감지하고 후속 상담을 연결했습니다",
-  "effect": "사용 감지·후속 상담 가능",
-  "tier": "obs",
-  "dir": "open",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "스마트홈 HIV 자가검사 후속 상담은 진단·치료 서비스의 허가 적응증이 아닌 디지털 보조 중재입니다",
-  "why": "고위험 남성과의 질적 연구 및 사용성 연구로 스마트 HIV 자가검사 키트의 실현 가능성을 평가했습니다",
-  "saw": "1단계 인터뷰 10명과 2단계 사용성 연구 10명이 자가검사 키트와 블루투스 센서·스마트폰 앱을 사용했습니다. 시스템은 거의 모든 검사 사용을 감지했고 전화 상담과 연계를 가능하게 했습니다",
-  "limit": "검사 재사용, 확진 진료 연결, 예방 서비스 이용률을 비교한 시험이 아니며 향후 연구가 필요합니다",
-  "against": "자가검사 뒤 반복 검사율이나 실제 진료 연계율은 이 연구에서 확인하지 않았습니다",
-  "use": "HIV 자가검사에서 기기 사용 감지와 상담 연결의 실현 가능성을 기록합니다",
-  "refs": [
-    { "label": "eTEST: Developing a Smart Home HIV Testing Kit that Enables Active, Real-Time Follow-Up and Referral After Testing · 개발·사용성 연구", "pmid": "28483744" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"smart home\" AND \"HIV\" → 1건",
-    "pubmed": "\"smart home\" AND \"HIV\" → 2건, PMID 28483744 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 2건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 0건"
+ "id": "smart-home-hiv-open",
+ "subj": "스마트홈",
+ "claim": "스마트홈 HIV 자가검사 키트가 검사 사용을 감지하고 후속 상담을 연결할 수 있다",
+ "line": "스마트홈 HIV 자가검사 키트가 사용을 감지하고 후속 상담을 연결했습니다",
+ "effect": "사용 감지·후속 상담 가능",
+ "tier": "obs",
+ "dir": "open",
+ "n": 20,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "스마트홈 HIV 자가검사 후속 상담은 진단·치료 서비스의 허가 적응증이 아닌 디지털 보조 중재입니다",
+ "why": "고위험 남성과의 질적 연구 및 사용성 연구로 스마트 HIV 자가검사 키트의 실현 가능성을 평가했습니다",
+ "saw": "1단계 인터뷰 10명과 2단계 사용성 연구 10명이 자가검사 키트와 블루투스 센서·스마트폰 앱을 사용했습니다. 시스템은 거의 모든 검사 사용을 감지했고 전화 상담과 연계를 가능하게 했습니다",
+ "limit": "검사 재사용, 확진 진료 연결, 예방 서비스 이용률을 비교한 시험이 아니며 향후 연구가 필요합니다",
+ "against": "자가검사 뒤 반복 검사율이나 실제 진료 연계율은 이 연구에서 확인하지 않았습니다",
+ "use": "HIV 자가검사에서 기기 사용 감지와 상담 연결의 실현 가능성을 기록합니다",
+ "refs": [
+  {
+   "label": "eTEST: Developing a Smart Home HIV Testing Kit that Enables Active, Real-Time Follow-Up and Referral After Testing · 개발·사용성 연구",
+   "pmid": "28483744"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"smart home\" AND \"HIV\" → 1건",
+  "pubmed": "\"smart home\" AND \"HIV\" → 2건, PMID 28483744 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 2건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 0건"
+ }
 }
