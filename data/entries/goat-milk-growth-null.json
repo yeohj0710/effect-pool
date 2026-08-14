@@ -1,28 +1,33 @@
 {
-  "id": "goat-milk-growth-null",
-  "subj": "goat milk",
-  "claim": "염소 우유 조제분유를 영아 성장에 쓴다",
-  "line": "염소 우유 조제분유는 우유 분유보다 영아 성장을 높이지 못했습니다",
-  "effect": "4개 RCT·670명, 성장 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 670,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "염소 우유 조제분유의 성장 개선은 표준 영양 목적과 별개인 비교 연구입니다",
-  "why": "염소 우유와 우유 조제분유의 영아 성장·안전성을 비교한 무작위시험 4개, 영아 670명의 체계적 문헌고찰·메타분석입니다",
-  "saw": "체중 z점수, 키 z점수, 머리둘레 z점수와 대변 빈도는 두 분유군에서 비슷했습니다. 중대한 이상반응과 전체 이상반응도 비슷했습니다",
-  "limit": "검토에 포함된 모든 연구에 비뚤림 우려가 있었고 모두 산업 지원을 받았습니다. 대변 형태는 보고 방식이 달라 결론이 불확실했습니다",
-  "against": "개별 무작위시험에서도 염소 우유 분유가 우유 분유보다 성장이나 내약성을 더 좋게 만들지는 않았습니다",
-  "use": "염소 우유 분유는 성장 개선제가 아니라 성장 결과가 비슷한 대체 영양원으로 평가합니다",
-  "refs": [
-    { "label": "Goat-milk-based infant formulas on growth and safety · 체계적 문헌고찰·메타분석", "doi": "10.3390/nu15092110", "pmid": "37432055" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"goat milk\" AND \"Growth\" → 3건 반환, intervention 이름 대조 통과 3건",
-    "pubmed": "\"goat milk\" AND \"Growth\" → 193건, PMID 37432055 직접 메타분석 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 44건",
-    "safety": "\"goat milk\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 98건"
+ "id": "goat-milk-growth-null",
+ "subj": "염소 우유",
+ "claim": "염소 우유 조제분유를 영아 성장에 쓴다",
+ "line": "염소 우유 조제분유는 우유 분유보다 영아 성장을 높이지 못했습니다",
+ "effect": "4개 RCT·670명, 성장 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 670,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "염소 우유 조제분유의 성장 개선은 표준 영양 목적과 별개인 비교 연구입니다",
+ "why": "염소 우유와 우유 조제분유의 영아 성장·안전성을 비교한 무작위시험 4개, 영아 670명의 체계적 문헌고찰·메타분석입니다",
+ "saw": "체중 z점수, 키 z점수, 머리둘레 z점수와 대변 빈도는 두 분유군에서 비슷했습니다. 중대한 이상반응과 전체 이상반응도 비슷했습니다",
+ "limit": "검토에 포함된 모든 연구에 비뚤림 우려가 있었고 모두 산업 지원을 받았습니다. 대변 형태는 보고 방식이 달라 결론이 불확실했습니다",
+ "against": "개별 무작위시험에서도 염소 우유 분유가 우유 분유보다 성장이나 내약성을 더 좋게 만들지는 않았습니다",
+ "use": "염소 우유 분유는 성장 개선제가 아니라 성장 결과가 비슷한 대체 영양원으로 평가합니다",
+ "refs": [
+  {
+   "label": "Goat-milk-based infant formulas on growth and safety · 체계적 문헌고찰·메타분석",
+   "doi": "10.3390/nu15092110",
+   "pmid": "37432055"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"goat milk\" AND \"Growth\" → 3건 반환, intervention 이름 대조 통과 3건",
+  "pubmed": "\"goat milk\" AND \"Growth\" → 193건, PMID 37432055 직접 메타분석 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 44건",
+  "safety": "\"goat milk\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 98건"
+ },
+ "vs": "염소 우유 vs 소 우유 조제분유: 체중 z점수 MD 0.21(95% CI -0.16~0.58), 신장 0.02(-0.29~0.33), 머리둘레 0.12(-0.19~0.43); 4 RCT 670명"
 }

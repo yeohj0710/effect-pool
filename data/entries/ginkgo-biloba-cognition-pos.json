@@ -1,20 +1,38 @@
 {
-  "id": "ginkgo-biloba-cognition-pos",
-  "subj": "은행잎 추출물",
-  "claim": "은행잎 추출물이 경도 치매의 인지와 일상기능을 개선한다",
-  "line": "경도 치매 메타분석에서 은행잎 추출물이 인지와 일상기능을 개선했습니다",
-  "effect": "인지·일상기능·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 782,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "은행잎 추출물은 치매 치료 허가를 받은 성분이 아닙니다",
-  "why": "경도 치매 환자를 대상으로 한 무작위 위약대조시험 4개에서 환자 자료를 합친 메타분석입니다.",
-  "saw": "경도 치매 환자 782명의 자료를 합쳤습니다. EGb 761은 위약보다 인지, 전반적 평가, 일상생활 활동과 삶의 질을 개선했고 이상반응 빈도는 비슷했습니다.",
-  "limit": "특정 표준화 추출물의 결과라 시판 은행잎 제품 전체에 적용할 수 없고 치매 진행 자체를 늦추는지는 확인하지 않았습니다.",
-  "against": "은행잎 추출물이 치매 진행을 멈추거나 치료한다는 근거는 아니며 연구마다 제형과 평가척도가 달랐습니다.",
-  "use": "인지 증상에 대한 제한적 보조 신호로 기록하고 치매 평가와 표준 치료를 대신하지 않습니다.",
-  "refs": [{ "label": "경도 치매 은행잎 EGb 761 하위군 메타분석", "doi": "10.1080/15622975.2024.2446830", "pmid": "39895346" }, { "label": "인지장애·치매 은행잎 Cochrane 검토", "doi": "10.1002/14651858.CD013661.pub2", "pmid": "41641880" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=ginkgo biloba · cond=Cognition 31건 반환·intervention 일치 16건", "pubmed": "ginkgo biloba AND Cognition 380편; Ginkgo biloba cognition randomized human 226편", "negative": "ginkgo biloba AND Cognition AND (no effect OR did not OR failed OR negative OR no significant difference) 68편", "safety": "ginkgo biloba AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1278편" }
+ "id": "ginkgo-biloba-cognition-pos",
+ "subj": "은행잎 추출물",
+ "claim": "은행잎 추출물이 경도 치매의 인지와 일상기능을 개선한다",
+ "line": "경도 치매 메타분석에서 은행잎 추출물이 인지와 일상기능을 개선했습니다",
+ "effect": "인지·일상기능·삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 782,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "은행잎 추출물은 치매 치료 허가를 받은 성분이 아닙니다",
+ "why": "경도 치매 환자를 대상으로 한 무작위 위약대조시험 4개에서 환자 자료를 합친 메타분석입니다.",
+ "saw": "경도 치매 환자 782명의 자료를 합쳤습니다. EGb 761은 위약보다 인지, 전반적 평가, 일상생활 활동과 삶의 질을 개선했고 이상반응 빈도는 비슷했습니다.",
+ "limit": "특정 표준화 추출물의 결과라 시판 은행잎 제품 전체에 적용할 수 없고 치매 진행 자체를 늦추는지는 확인하지 않았습니다.",
+ "against": "은행잎 추출물이 치매 진행을 멈추거나 치료한다는 근거는 아니며 연구마다 제형과 평가척도가 달랐습니다.",
+ "use": "인지 증상에 대한 제한적 보조 신호로 기록하고 치매 평가와 표준 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "경도 치매 은행잎 EGb 761 하위군 메타분석",
+   "doi": "10.1080/15622975.2024.2446830",
+   "pmid": "39895346"
+  },
+  {
+   "label": "인지장애·치매 은행잎 Cochrane 검토",
+   "doi": "10.1002/14651858.CD013661.pub2",
+   "pmid": "41641880"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=ginkgo biloba · cond=Cognition 31건 반환·intervention 일치 16건",
+  "pubmed": "ginkgo biloba AND Cognition 380편; Ginkgo biloba cognition randomized human 226편",
+  "negative": "ginkgo biloba AND Cognition AND (no effect OR did not OR failed OR negative OR no significant difference) 68편",
+  "safety": "ginkgo biloba AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1278편"
+ },
+ "vs": "은행잎 추출물 EGb 761 vs 위약: 경도 치매 4개 RCT 782명에서 인지 p=.04, 전반평가 p=.01, 일상기능 p=.01, 삶의 질 p=.02; 치매 13개 연구 3,288명에서 SKT MD -1.86(95% CI -3.48~-0.24), ADL MD -0.19(-0.35~-0.03)"
 }

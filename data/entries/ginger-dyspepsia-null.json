@@ -1,20 +1,38 @@
 {
-  "id": "ginger-dyspepsia-null",
-  "subj": "생강",
-  "claim": "생강이 기능성 소화불량 증상을 개선한다",
-  "line": "기능성 소화불량에서 생강은 위 배출을 빠르게 했지만 증상은 달라지지 않았습니다",
-  "effect": "위 배출 촉진·증상 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 11,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "생강은 기능성 소화불량 치료의 허가 적응증으로 확인되지 않은 식품 성분입니다",
-  "why": "기능성 소화불량 환자를 생강과 위약에 무작위 교차 배정해 위 배출과 증상을 함께 측정했습니다.",
-  "saw": "환자 11명이 생강과 위약을 각각 받은 이중맹검 교차시험에서 생강 뒤 위 배출 반감기가 짧아졌지만 위장 증상과 장 호르몬은 위약과 다르지 않았습니다.",
-  "limit": "표본이 11명으로 매우 작고 단회 생리 측정이라 장기 증상 개선을 판단할 수 없습니다.",
-  "against": "생강·아티초크 복합제 126명 시험에서는 일부 증상이 줄었지만 생강 단독 효과는 분리하지 못했습니다.",
-  "use": "생리 지표와 환자 증상이 다를 수 있는 사례로 기록하고 기능성 소화불량 치료 효과로 확대하지 않습니다.",
-  "refs": [{ "label": "생강 단독 기능성 소화불량 교차시험", "doi": "10.3748/wjg.v17.i1.105", "pmid": "21218090" }, { "label": "생강·아티초크 복합제 기능성 소화불량 무작위시험", "doi": "10.1155/2015/915087", "pmid": "25954317" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=ginger · cond=Dyspepsia 7건 반환·intervention 일치 4건", "pubmed": "ginger AND Dyspepsia 42편", "negative": "ginger AND Dyspepsia AND (no effect OR did not OR failed OR negative OR no significant difference) 9편", "safety": "ginger AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1198편" }
+ "id": "ginger-dyspepsia-null",
+ "subj": "생강",
+ "claim": "생강이 기능성 소화불량 증상을 개선한다",
+ "line": "기능성 소화불량에서 생강은 위 배출을 빠르게 했지만 증상은 달라지지 않았습니다",
+ "effect": "위 배출 촉진·증상 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 11,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "생강은 기능성 소화불량 치료의 허가 적응증으로 확인되지 않은 식품 성분입니다",
+ "why": "기능성 소화불량 환자를 생강과 위약에 무작위 교차 배정해 위 배출과 증상을 함께 측정했습니다.",
+ "saw": "환자 11명이 생강과 위약을 각각 받은 이중맹검 교차시험에서 생강 뒤 위 배출 반감기가 짧아졌지만 위장 증상과 장 호르몬은 위약과 다르지 않았습니다.",
+ "limit": "표본이 11명으로 매우 작고 단회 생리 측정이라 장기 증상 개선을 판단할 수 없습니다.",
+ "against": "생강·아티초크 복합제 126명 시험에서는 일부 증상이 줄었지만 생강 단독 효과는 분리하지 못했습니다.",
+ "use": "생리 지표와 환자 증상이 다를 수 있는 사례로 기록하고 기능성 소화불량 치료 효과로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "생강 단독 기능성 소화불량 교차시험",
+   "doi": "10.3748/wjg.v17.i1.105",
+   "pmid": "21218090"
+  },
+  {
+   "label": "생강·아티초크 복합제 기능성 소화불량 무작위시험",
+   "doi": "10.1155/2015/915087",
+   "pmid": "25954317"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=ginger · cond=Dyspepsia 7건 반환·intervention 일치 4건",
+  "pubmed": "ginger AND Dyspepsia 42편",
+  "negative": "ginger AND Dyspepsia AND (no effect OR did not OR failed OR negative OR no significant difference) 9편",
+  "safety": "ginger AND (adverse OR toxicity OR case report OR overdose OR self-medication) 1198편"
+ },
+ "vs": "생강 1.2g vs 위약: 위 배출 반감기 12.3분(8.5~17.0) vs 16.1분(8.3~22.6), p≤.05; 위장 증상은 차이 없음; 무작위 교차시험 11명"
 }

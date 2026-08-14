@@ -1,28 +1,32 @@
 {
-  "id": "goat-milk-milk-intolerance-open",
-  "subj": "goat milk",
-  "claim": "염소 우유 조제분유를 우유 불내증에 쓴다",
-  "line": "의사 설문은 우유 불내증 대안으로 염소 우유 분유를 논의했지만 결과는 없었습니다",
-  "effect": "의사 2,500명 대상 설문",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "염소 우유 조제분유의 우유 불내증 사용은 실험적 대안이며 허가 적응증과 구분해야 합니다",
-  "why": "중동·북아프리카 의사 설문에서 우유 알레르기·불내증의 진단과 관리, 염소 우유 분유의 역할을 물은 관찰 연구입니다",
-  "saw": "2,500명의 의사에게 설문을 보내 우유 불내증에서 염소 우유 분유를 대안으로 보는 인식과 관리 방식을 조사했습니다",
-  "limit": "설문 초대 수는 2,500명이지만 실제 응답자 수와 환자 내약성 결과가 명확하지 않습니다. 우유 불내증 환자에게 투여한 시험이 아닙니다",
-  "against": "직접 비교한 내약성 시험은 이 검색에서 찾지 못했습니다",
-  "use": "의사 인식과 영아의 실제 내약성 근거를 분리해 기록합니다",
-  "refs": [
-    { "label": "Goat milk formulas in cow's milk disorders · 의사 단면 설문", "doi": "10.3390/nu14051067", "pmid": "35268042" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"goat milk\" AND \"Milk Intolerance\" → 2건 반환, intervention 이름 대조 통과 2건",
-    "pubmed": "\"goat milk\" AND \"Milk Intolerance\" → 2건, PMID 35268042 설문 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
-    "safety": "\"goat milk\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 98건"
+ "id": "goat-milk-milk-intolerance-open",
+ "subj": "염소 우유",
+ "claim": "염소 우유 조제분유를 우유 불내증에 쓴다",
+ "line": "의사 설문은 우유 불내증 대안으로 염소 우유 분유를 논의했지만 결과는 없었습니다",
+ "effect": "의사 2,500명 대상 설문",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "염소 우유 조제분유의 우유 불내증 사용은 실험적 대안이며 허가 적응증과 구분해야 합니다",
+ "why": "중동·북아프리카 의사 설문에서 우유 알레르기·불내증의 진단과 관리, 염소 우유 분유의 역할을 물은 관찰 연구입니다",
+ "saw": "2,500명의 의사에게 설문을 보내 우유 불내증에서 염소 우유 분유를 대안으로 보는 인식과 관리 방식을 조사했습니다",
+ "limit": "설문 초대 수는 2,500명이지만 실제 응답자 수와 환자 내약성 결과가 명확하지 않습니다. 우유 불내증 환자에게 투여한 시험이 아닙니다",
+ "against": "직접 비교한 내약성 시험은 이 검색에서 찾지 못했습니다",
+ "use": "의사 인식과 영아의 실제 내약성 근거를 분리해 기록합니다",
+ "refs": [
+  {
+   "label": "Goat milk formulas in cow's milk disorders · 의사 단면 설문",
+   "doi": "10.3390/nu14051067",
+   "pmid": "35268042"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"goat milk\" AND \"Milk Intolerance\" → 2건 반환, intervention 이름 대조 통과 2건",
+  "pubmed": "\"goat milk\" AND \"Milk Intolerance\" → 2건, PMID 35268042 설문 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
+  "safety": "\"goat milk\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 98건"
+ }
 }

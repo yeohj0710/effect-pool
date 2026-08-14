@@ -1,29 +1,38 @@
 {
-  "id": "gardening-group-depressive-symptoms-pos",
-  "subj": "group gardening",
-  "claim": "원예치료가 우울장애의 우울 증상을 개선한다",
-  "line": "원예치료는 우울장애 환자의 우울 증상을 개선했습니다.",
-  "effect": "우울 증상 g=1.050",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 960,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "원예치료는 의약품이 아닌 행동·재활 중재입니다.",
-  "why": "우울장애 환자를 대상으로 한 원예치료 무작위시험 13건을 합친 체계적 문헌고찰·메타분석입니다.",
-  "saw": "13개 무작위시험 960명에서 우울 증상 통합 효과는 g=1.050(95% 신뢰구간 0.663~1.437)이었고 불안·인지·사회기능·삶의 질도 개선됐습니다.",
-  "limit": "연구 간 중재와 대상이 달랐고 비뚤림·불일치·부정확성 때문에 근거 확실성은 낮음에서 매우 낮음이었습니다.",
-  "against": "메타분석 자체가 추가 등록·눈가림 평가자·장기 추적이 필요한 예비 근거라고 판단했습니다.",
-  "use": "우울장애의 표준 치료를 대신하지 않는 보조 재활 중재의 근거로 기록합니다.",
-  "refs": [
-    { "label": "우울장애 원예치료 무작위시험 메타분석", "doi": "10.1016/j.ctim.2025.103229", "pmid": "40783111" },
-    { "label": "사회·치료적 원예 우울·불안 메타분석", "doi": "10.3389/fpsyt.2024.1507354", "pmid": "39917376" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=group gardening · cond=Depressive Symptoms → 7건 반환; 직접 원예치료 개입명은 확인되지 않음",
-    "pubmed": "group gardening AND Depressive Symptoms → 258편",
-    "negative": "group gardening AND Depressive Symptoms AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 150편",
-    "safety": "group gardening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,376편"
+ "id": "gardening-group-depressive-symptoms-pos",
+ "subj": "집단 원예",
+ "claim": "원예치료가 우울장애의 우울 증상을 개선한다",
+ "line": "원예치료는 우울장애 환자의 우울 증상을 개선했습니다.",
+ "effect": "우울 증상 g=1.050",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 960,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "원예치료는 의약품이 아닌 행동·재활 중재입니다.",
+ "why": "우울장애 환자를 대상으로 한 원예치료 무작위시험 13건을 합친 체계적 문헌고찰·메타분석입니다.",
+ "saw": "13개 무작위시험 960명에서 우울 증상 통합 효과는 g=1.050(95% 신뢰구간 0.663~1.437)이었고 불안·인지·사회기능·삶의 질도 개선됐습니다.",
+ "limit": "연구 간 중재와 대상이 달랐고 비뚤림·불일치·부정확성 때문에 근거 확실성은 낮음에서 매우 낮음이었습니다.",
+ "against": "메타분석 자체가 추가 등록·눈가림 평가자·장기 추적이 필요한 예비 근거라고 판단했습니다.",
+ "use": "우울장애의 표준 치료를 대신하지 않는 보조 재활 중재의 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "우울장애 원예치료 무작위시험 메타분석",
+   "doi": "10.1016/j.ctim.2025.103229",
+   "pmid": "40783111"
+  },
+  {
+   "label": "사회·치료적 원예 우울·불안 메타분석",
+   "doi": "10.3389/fpsyt.2024.1507354",
+   "pmid": "39917376"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=group gardening · cond=Depressive Symptoms → 7건 반환; 직접 원예치료 개입명은 확인되지 않음",
+  "pubmed": "group gardening AND Depressive Symptoms → 258편",
+  "negative": "group gardening AND Depressive Symptoms AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 150편",
+  "safety": "group gardening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,376편"
+ },
+ "vs": "원예치료 vs 대조: 우울 증상 Hedges g 1.050(95% CI 0.663~1.437), 불안 g 0.702(0.341~1.062); 13 RCT 960명"
 }
