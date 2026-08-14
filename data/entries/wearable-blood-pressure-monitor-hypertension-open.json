@@ -1,28 +1,31 @@
 {
-  "id": "wearable-blood-pressure-monitor-hypertension-open",
-  "subj": "wearable blood pressure monitor",
-  "claim": "고혈압 환자의 운동 중 혈압 변화를 웨어러블 혈압계로 추적한다",
-  "line": "손목형 웨어러블 혈압계는 운동 중 혈압을 추적했다.",
-  "effect": "운동 중 수축기·이완기 혈압 추적",
-  "tier": "obs",
-  "dir": "open",
-  "n": 137,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "웨어러블 혈압계는 기기이며 고혈압 치료 효능은 허가 적응증이 아니다.",
-  "why": "혼합 고혈압·정상혈압 성인에게 손목형 진동식 혈압계를 착용시켜 운동 전후 혈압과 맥박을 측정했다.",
-  "saw": "137명 중 69명이 고혈압이었고 운동 중 수축기 혈압은 평균 119.9에서 151.7mmHg로 올랐다.",
-  "limit": "운동 중 측정과 심장 구조의 연관성을 본 관찰 연구라 고혈압 치료 효과는 평가하지 않았다.",
-  "against": "상완 커프 혈압계와의 정확도 비교가 없어 임상 측정기기로서의 우월성은 확정할 수 없다.",
-  "use": "고혈압 환자의 운동 반응을 비침습적으로 추적하는 웨어러블 기기 연구의 열린 근거로 기록한다.",
-  "refs": [
-    { "label": "Exercise-induced changes in blood pressure and pulse rate assessed with a wearable wrist-type monitor", "pmid": "42228468" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"wearable blood pressure monitor\" AND \"Hypertension\" 검색 1건; NCT06358378",
-    "pubmed": "\"wearable blood pressure monitor\" AND \"Hypertension\" 검색 1건; PMID 42228468",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ "id": "wearable-blood-pressure-monitor-hypertension-open",
+ "subj": "착용형 혈압 모니터",
+ "claim": "고혈압 환자의 운동 중 혈압 변화를 웨어러블 혈압계로 추적한다",
+ "line": "손목형 웨어러블 혈압계는 운동 중 혈압을 추적했다.",
+ "effect": "운동 중 수축기·이완기 혈압 추적",
+ "tier": "obs",
+ "dir": "open",
+ "n": 137,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "웨어러블 혈압계는 기기이며 고혈압 치료 효능은 허가 적응증이 아니다.",
+ "why": "혼합 고혈압·정상혈압 성인에게 손목형 진동식 혈압계를 착용시켜 운동 전후 혈압과 맥박을 측정했다.",
+ "saw": "137명 중 69명이 고혈압이었고 운동 중 수축기 혈압은 평균 119.9에서 151.7mmHg로 올랐다.",
+ "limit": "운동 중 측정과 심장 구조의 연관성을 본 관찰 연구라 고혈압 치료 효과는 평가하지 않았다.",
+ "against": "상완 커프 혈압계와의 정확도 비교가 없어 임상 측정기기로서의 우월성은 확정할 수 없다.",
+ "use": "고혈압 환자의 운동 반응을 비침습적으로 추적하는 웨어러블 기기 연구의 열린 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Exercise-induced changes in blood pressure and pulse rate assessed with a wearable wrist-type monitor",
+   "pmid": "42228468"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"wearable blood pressure monitor\" AND \"Hypertension\" 검색 1건; NCT06358378",
+  "pubmed": "\"wearable blood pressure monitor\" AND \"Hypertension\" 검색 1건; PMID 42228468",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ }
 }

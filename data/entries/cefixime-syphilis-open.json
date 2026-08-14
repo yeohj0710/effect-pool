@@ -1,30 +1,45 @@
 {
-  "id": "cefixime-syphilis-open",
-  "subj": "cefixime",
-  "claim": "조기 매독에 세픽심을 쓴다",
-  "line": "조기 매독에서 세픽심의 3개월 반응은 낮았고 12개월 반응은 비슷했다.",
-  "effect": "3개월73%·12개월93%",
-  "tier": "trial",
-  "dir": "open",
-  "n": 61,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미국 FDA 세픽심 허가사항에는 매독 치료가 없고, CDC 표준 치료는 단계에 맞춘 벤자틴 페니실린 G이다.",
-  "why": "조기 매독에서 세픽심 400mg 경구요법과 벤자틴 페니실린을 비교한 무작위시험에서 단기·장기 혈청학적 반응을 확인했다.",
-  "saw": "조기 매독 환자 61명을 세픽심 400mg 하루 2회 14일군과 벤자틴 페니실린 G 1회군으로 무작위 배정한 연구에서 3개월 VDRL 4배 감소는 세픽심 22/30명(73.3%), 페니실린 27/31명(87.1%)이었고 12개월은 각각 28/30명(93.3%), 30/31명(96.8%)이었다. 초기 파일럿은 세픽심 13/15명(87%)이 성공했다.",
-  "limit": "공개된 무작위시험 규모가 61명이고 개방형이며, 3개월 일차 결과는 페니실린보다 낮았다. 임신·선천매독과 신경매독 자료가 부족하다.",
-  "against": "세픽심 3개월 반응이 벤자틴 페니실린보다 낮았고, 매독 표준 치료를 대체할 근거가 아니다. 2025년 시험도 더 큰 연구가 필요하다고 결론냈다.",
-  "use": "페니실린을 대체해 임의 사용하지 말고, 알레르기·공급 문제로 선택할 때 감염내과가 추적 혈청검사를 포함해 연구적으로 결정한다.",
-  "refs": [
-    { "label": "조기 매독 세픽심 대 벤자틴 페니실린 무작위시험 61명", "doi": "10.1093/jac/dkaf268", "pmid": "40795115", "nct": "NCT03660488" },
-    { "label": "조기 매독 세픽심 파일럿 15명", "doi": "10.1093/cid/ciab187", "pmid": "33640982", "nct": "NCT03752112" },
-    { "label": "브라질 세픽심 매독 2상시험 계획", "doi": "10.1186/s12879-020-04980-1", "pmid": "32522244", "nct": "NCT03752112" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "cefixime AND Syphilis · 5건 반환, InterventionName 일치 4건(NCT03752112, NCT04958122, NCT06907316, NCT03660488)",
-    "pubmed": "cefixime AND Syphilis · 34편",
-    "negative": "cefixime AND Syphilis AND (no effect OR did not OR failed OR negative OR no significant difference) · 25편",
-    "safety": "cefixime AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 445편"
+ "id": "cefixime-syphilis-open",
+ "subj": "세픽심",
+ "claim": "조기 매독에 세픽심을 쓴다",
+ "line": "조기 매독에서 세픽심의 3개월 반응은 낮았고 12개월 반응은 비슷했다.",
+ "effect": "3개월73%·12개월93%",
+ "tier": "trial",
+ "dir": "open",
+ "n": 61,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미국 FDA 세픽심 허가사항에는 매독 치료가 없고, CDC 표준 치료는 단계에 맞춘 벤자틴 페니실린 G이다.",
+ "why": "조기 매독에서 세픽심 400mg 경구요법과 벤자틴 페니실린을 비교한 무작위시험에서 단기·장기 혈청학적 반응을 확인했다.",
+ "saw": "조기 매독 환자 61명을 세픽심 400mg 하루 2회 14일군과 벤자틴 페니실린 G 1회군으로 무작위 배정한 연구에서 3개월 VDRL 4배 감소는 세픽심 22/30명(73.3%), 페니실린 27/31명(87.1%)이었고 12개월은 각각 28/30명(93.3%), 30/31명(96.8%)이었다. 초기 파일럿은 세픽심 13/15명(87%)이 성공했다.",
+ "limit": "공개된 무작위시험 규모가 61명이고 개방형이며, 3개월 일차 결과는 페니실린보다 낮았다. 임신·선천매독과 신경매독 자료가 부족하다.",
+ "against": "세픽심 3개월 반응이 벤자틴 페니실린보다 낮았고, 매독 표준 치료를 대체할 근거가 아니다. 2025년 시험도 더 큰 연구가 필요하다고 결론냈다.",
+ "use": "페니실린을 대체해 임의 사용하지 말고, 알레르기·공급 문제로 선택할 때 감염내과가 추적 혈청검사를 포함해 연구적으로 결정한다.",
+ "refs": [
+  {
+   "label": "조기 매독 세픽심 대 벤자틴 페니실린 무작위시험 61명",
+   "doi": "10.1093/jac/dkaf268",
+   "pmid": "40795115",
+   "nct": "NCT03660488"
+  },
+  {
+   "label": "조기 매독 세픽심 파일럿 15명",
+   "doi": "10.1093/cid/ciab187",
+   "pmid": "33640982",
+   "nct": "NCT03752112"
+  },
+  {
+   "label": "브라질 세픽심 매독 2상시험 계획",
+   "doi": "10.1186/s12879-020-04980-1",
+   "pmid": "32522244",
+   "nct": "NCT03752112"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "cefixime AND Syphilis · 5건 반환, InterventionName 일치 4건(NCT03752112, NCT04958122, NCT06907316, NCT03660488)",
+  "pubmed": "cefixime AND Syphilis · 34편",
+  "negative": "cefixime AND Syphilis AND (no effect OR did not OR failed OR negative OR no significant difference) · 25편",
+  "safety": "cefixime AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 445편"
+ }
 }
