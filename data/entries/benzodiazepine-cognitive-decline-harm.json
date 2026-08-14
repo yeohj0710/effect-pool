@@ -1,36 +1,39 @@
 {
-  "id": "benzodiazepine-cognitive-decline-harm",
-  "subj": "벤조디아제핀 장기 복용",
-  "claim": "벤조디아제핀 장기 복용은 인지 저하·치매 위험과 관련되는가",
-  "line": "장기 복용자에서 치매는 더 많았지만 약물 때문인지는 구분하지 못했다.",
-  "effect": "치매 위험 연관↑",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 45391,
-  "synth": "meta",
-  "why": "벤조디아제핀 사용과 치매·인지 저하를 비교한 관찰연구 메타분석입니다.",
-  "saw": "메타분석들은 벤조디아제핀 사용자의 치매 위험이 높다는 연관성을 보고했습니다.",
-  "limit": "불면·불안의 전구 증상, 처방 이유와 건강상태가 치매 위험과 함께 움직이는 역인과·교란을 완전히 제거하지 못했습니다.",
-  "against": "일부 전향 연구와 엄격한 분석에서는 연관성이 약하거나 사라져 약물이 치매를 직접 일으킨다고 확정할 수 없습니다.",
-  "use": "장기 복용을 갑자기 끊지 말고 인지와 낙상 위험을 포함해 감량 필요성을 의료진과 논의해야 합니다.",
-  "refs": [
-    {
-      "label": "He 2015 · PLOS One · 벤조디아제핀 치매 메타분석",
-      "doi": "10.1371/journal.pone.0127836",
-      "pmid": "26016483",
-      "pmc": "PMC4446315"
-    },
-    {
-      "label": "Islam 2018 · Pharmacotherapy · 벤조디아제핀 치매 체계적 검토",
-      "doi": "10.1002/phar.2170",
-      "pmid": "30098211"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=benzodiazepine, cond=dementia cognitive decline → 4건 반환, InterventionName 대조 후 2건",
-    "pubmed": "benzodiazepine dementia risk prospective cohort meta-analysis → 3건",
-    "negative": "benzodiazepine dementia risk AND (no effect OR did not OR failed to OR negative) → 396건",
-    "safety": "benzodiazepine cognition dementia AND (adverse OR falls OR dependence OR case report) → 293건"
+ "id": "benzodiazepine-cognitive-decline-harm",
+ "subj": "벤조디아제핀 장기 복용",
+ "claim": "벤조디아제핀 장기 복용은 인지 저하·치매 위험과 관련되는가",
+ "line": "장기 복용자에서 치매는 더 많았지만 약물 때문인지는 구분하지 못했다.",
+ "effect": "치매 위험 연관↑",
+ "tier": "obs",
+ "dir": "harm",
+ "known": "off",
+ "knownWhy": "치매 위험은 허가 적응증이 아닌 장기 복용 관련 관찰근거 주제입니다.",
+ "n": 45391,
+ "synth": "meta",
+ "why": "벤조디아제핀 사용과 치매·인지 저하를 비교한 관찰연구 메타분석입니다.",
+ "saw": "메타분석들은 벤조디아제핀 사용자의 치매 위험이 높다는 연관성을 보고했습니다.",
+ "limit": "불면·불안의 전구 증상, 처방 이유와 건강상태가 치매 위험과 함께 움직이는 역인과·교란을 완전히 제거하지 못했습니다.",
+ "against": "일부 전향 연구와 엄격한 분석에서는 연관성이 약하거나 사라져 약물이 치매를 직접 일으킨다고 확정할 수 없습니다.",
+ "use": "장기 복용을 갑자기 끊지 말고 인지와 낙상 위험을 포함해 감량 필요성을 의료진과 논의해야 합니다.",
+ "refs": [
+  {
+   "label": "He 2015 · PLOS One · 벤조디아제핀 치매 메타분석",
+   "doi": "10.1371/journal.pone.0127836",
+   "pmid": "26016483",
+   "pmc": "PMC4446315"
+  },
+  {
+   "label": "Islam 2018 · Pharmacotherapy · 벤조디아제핀 치매 체계적 검토",
+   "doi": "10.1002/phar.2170",
+   "pmid": "30098211"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=benzodiazepine, cond=dementia cognitive decline → 4건 반환, InterventionName 대조 후 2건",
+  "pubmed": "benzodiazepine dementia risk prospective cohort meta-analysis → 3건",
+  "negative": "benzodiazepine dementia risk AND (no effect OR did not OR failed to OR negative) → 396건",
+  "safety": "benzodiazepine cognition dementia AND (adverse OR falls OR dependence OR case report) → 293건"
+ },
+ "vs": "벤조디아제핀 사용 vs 비사용: 치매 위험 RR 1.49 (95% CI 1.30~1.72); 추가 20 defined daily dose/year마다 RR 1.22; 6개 연구 11,891건·대조군 45,391명 메타분석"
 }

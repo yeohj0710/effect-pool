@@ -1,36 +1,37 @@
 {
-  "id": "bimatoprost-vitiligo-pos",
-  "subj": "비마토프로스트",
-  "claim": "비마토프로스트 추가는 광선치료 중 백반증 색소를 늘리는가",
-  "line": "광선치료에 비마토프로스트를 추가하자 백반증 색소가 늘었다.",
-  "effect": "멜라닌 +27.2% vs +22.8%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 15,
-  "synth": "single",
-  "why": "비마토프로스트의 허가사항은 녹내장·고안압증이며 백반증은 허가 적응증이 아닙니다.",
-  "saw": "안정된 비분절 백반증 환자 15명의 양쪽 병변을 무작위 배정한 이중맹검 비교시험에서 협대역 UVB와 비마토프로스트를 병용한 쪽의 멜라닌 농도 변화가 광선치료·위약 쪽보다 컸습니다. 차이는 27.17% 대 22.82%였습니다.",
-  "limit": "15명 규모이며 비마토프로스트 단독이 아니라 광선치료·레이저와 병용했습니다. 멜라닌 농도는 늘었지만 병변 면적 차이는 유의하지 않았습니다.",
-  "against": "반대 검색 16건. 얼굴 백반증 10명 비교시험에서는 타크로리무스와 유의한 차이가 없었고, 작은 병변 연구가 대부분입니다.",
-  "use": "백반증 색소 회복의 보조요법 신호는 있지만, 단독 효과와 장기 재발 예방은 확인되지 않았습니다.",
-  "refs": [
-    {
-      "label": "Sonthalia 2021 · Dermatol Ther · 백반증 비마토프로스트 병용 무작위시험",
-      "doi": "10.1111/dth.15198",
-      "pmid": "34750933"
-    },
-    {
-      "label": "Tang 2023 · Sci Rep · 백반증 비마토프로스트 무작위시험",
-      "doi": "10.1038/s41598-023-32591-8",
-      "pmid": "37081101"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:\"BIMATOPROST\" → 20건, 녹내장·고안압증 적응증 확인",
-    "ctgov": "query.intr=bimatoprost&query.cond=Vitiligo → 4건 반환, InterventionName 대조 후 bimatoprost 4건",
-    "pubmed": "bimatoprost Vitiligo → 23건",
-    "negative": "bimatoprost Vitiligo (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 16건",
-    "safety": "bimatoprost Vitiligo (adverse OR toxicity OR case report OR overdose OR self-medication) → 8건"
+ "id": "bimatoprost-vitiligo-pos",
+ "subj": "비마토프로스트",
+ "claim": "비마토프로스트 추가는 광선치료 중 백반증 색소를 늘리는가",
+ "line": "광선치료에 비마토프로스트를 추가하자 백반증 색소가 늘었다.",
+ "effect": "멜라닌 +27.2% vs +22.8%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 15,
+ "synth": "single",
+ "why": "비마토프로스트의 허가사항은 녹내장·고안압증이며 백반증은 허가 적응증이 아닙니다.",
+ "saw": "안정된 비분절 백반증 환자 15명의 양쪽 병변을 무작위 배정한 이중맹검 비교시험에서 협대역 UVB와 비마토프로스트를 병용한 쪽의 멜라닌 농도 변화가 광선치료·위약 쪽보다 컸습니다. 차이는 27.17% 대 22.82%였습니다.",
+ "limit": "15명 규모이며 비마토프로스트 단독이 아니라 광선치료·레이저와 병용했습니다. 멜라닌 농도는 늘었지만 병변 면적 차이는 유의하지 않았습니다.",
+ "against": "반대 검색 16건. 얼굴 백반증 10명 비교시험에서는 타크로리무스와 유의한 차이가 없었고, 작은 병변 연구가 대부분입니다.",
+ "use": "백반증 색소 회복의 보조요법 신호는 있지만, 단독 효과와 장기 재발 예방은 확인되지 않았습니다.",
+ "refs": [
+  {
+   "label": "Sonthalia 2021 · Dermatol Ther · 백반증 비마토프로스트 병용 무작위시험",
+   "doi": "10.1111/dth.15198",
+   "pmid": "34750933"
+  },
+  {
+   "label": "Tang 2023 · Sci Rep · 백반증 비마토프로스트 무작위시험",
+   "doi": "10.1038/s41598-023-32591-8",
+   "pmid": "37081101"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:\"BIMATOPROST\" → 20건, 녹내장·고안압증 적응증 확인",
+  "ctgov": "query.intr=bimatoprost&query.cond=Vitiligo → 4건 반환, InterventionName 대조 후 bimatoprost 4건",
+  "pubmed": "bimatoprost Vitiligo → 23건",
+  "negative": "bimatoprost Vitiligo (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 16건",
+  "safety": "bimatoprost Vitiligo (adverse OR toxicity OR case report OR overdose OR self-medication) → 8건"
+ },
+ "vs": "비마토프로스트 병용요법 vs 이중요법: 백반증 면적 변화 27.17±13.62% vs 22.82±10.10%, p=.028; RCT 34명 분석"
 }

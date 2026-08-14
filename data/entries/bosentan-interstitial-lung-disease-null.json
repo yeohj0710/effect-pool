@@ -1,29 +1,37 @@
 {
-  "id": "bosentan-interstitial-lung-disease-null",
-  "subj": "보센탄",
-  "claim": "보센탄은 간질성 폐질환의 폐기능 저하를 늦추는가",
-  "line": "BUILD-3 무작위시험에서 보센탄은 특발성 폐섬유증의 악화·사망을 늦추지 못했다.",
-  "effect": "진행·사망 HR 0.85; P=.211",
-  "tier": "trial",
-  "dir": "null",
-  "n": 616,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "보센탄 허가사항은 폐동맥고혈압과 전신경화증 관련 디지털 궤양이고 간질성 폐질환은 포함하지 않는다.",
-  "why": "특발성 폐섬유증 환자를 보센탄과 위약에 2:1 무작위 배정한 이중눈가림 BUILD-3 시험이다.",
-  "saw": "616명이 보센탄 407명 또는 위약 209명을 받았다. 1차 평가변수인 폐섬유증 악화·사망까지의 시간은 HR 0.85(95% CI 0.66–1.10, P=.211)로 차이가 없었고 삶의 질·호흡곤란도 개선되지 않았다.",
-  "limit": "특발성 폐섬유증에 대한 결과라 다른 간질성 폐질환에 그대로 적용할 수 없고, 일부 폐기능 변화만 탐색적으로 관찰됐다.",
-  "against": "초기 BUILD-1 시험은 악화 지연 경향을 보였지만 대규모 BUILD-3에서 1차 목표를 충족하지 못했다.",
-  "use": "간질성 폐질환의 진행 억제 목적으로 보센탄을 사용하지 않는다.",
-  "refs": [
-    { "label": "BUILD-3 특발성 폐섬유증 보센탄 무작위시험", "pmid": "21474646", "nct": "NCT00391443" },
-    { "label": "BUILD-1 특발성 폐섬유증 보센탄 시험", "pmid": "18951296" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=bosentan · cond=Interstitial Lung Disease · 총 7건, 보센탄 직접 확인 7건",
-    "pubmed": "bosentan AND Interstitial Lung Disease · 111편",
-    "negative": "bosentan AND Interstitial Lung Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) · 78편",
-    "safety": "bosentan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 929편"
+ "id": "bosentan-interstitial-lung-disease-null",
+ "subj": "보센탄",
+ "claim": "보센탄은 간질성 폐질환의 폐기능 저하를 늦추는가",
+ "line": "BUILD-3 무작위시험에서 보센탄은 특발성 폐섬유증의 악화·사망을 늦추지 못했다.",
+ "effect": "진행·사망 HR 0.85; P=.211",
+ "tier": "trial",
+ "dir": "null",
+ "n": 616,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "보센탄 허가사항은 폐동맥고혈압과 전신경화증 관련 디지털 궤양이고 간질성 폐질환은 포함하지 않는다.",
+ "why": "특발성 폐섬유증 환자를 보센탄과 위약에 2:1 무작위 배정한 이중눈가림 BUILD-3 시험이다.",
+ "saw": "616명이 보센탄 407명 또는 위약 209명을 받았다. 1차 평가변수인 폐섬유증 악화·사망까지의 시간은 HR 0.85(95% CI 0.66–1.10, P=.211)로 차이가 없었고 삶의 질·호흡곤란도 개선되지 않았다.",
+ "limit": "특발성 폐섬유증에 대한 결과라 다른 간질성 폐질환에 그대로 적용할 수 없고, 일부 폐기능 변화만 탐색적으로 관찰됐다.",
+ "against": "초기 BUILD-1 시험은 악화 지연 경향을 보였지만 대규모 BUILD-3에서 1차 목표를 충족하지 못했다.",
+ "use": "간질성 폐질환의 진행 억제 목적으로 보센탄을 사용하지 않는다.",
+ "refs": [
+  {
+   "label": "BUILD-3 특발성 폐섬유증 보센탄 무작위시험",
+   "pmid": "21474646",
+   "nct": "NCT00391443"
+  },
+  {
+   "label": "BUILD-1 특발성 폐섬유증 보센탄 시험",
+   "pmid": "18951296"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=bosentan · cond=Interstitial Lung Disease · 총 7건, 보센탄 직접 확인 7건",
+  "pubmed": "bosentan AND Interstitial Lung Disease · 111편",
+  "negative": "bosentan AND Interstitial Lung Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) · 78편",
+  "safety": "bosentan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 929편"
+ },
+ "vs": "보센탄 vs 위약: 특발성 폐섬유증 악화 또는 사망 HR .85 (95% CI .66~1.10), p=.2110; RCT 616명"
 }
