@@ -1,28 +1,33 @@
 {
-  "id": "rehabilitation-robot-gait-disorders-pos",
-  "subj": "rehabilitation robot",
-  "claim": "보행 재활 로봇을 보행장애에 쓴다",
-  "line": "보행 재활 로봇은 아급성 뇌졸중 보행을 더 개선했습니다",
-  "effect": "FAC 개선 P=.005",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 49,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "보행 재활 로봇은 보행장애의 허가 적응증이 아닌 실험적 재활 중재입니다",
-  "why": "아급성 뇌졸중 보행장애 환자 49명을 무작위 배정해 보행 재활 로봇과 일반 물리치료를 비교한 시험입니다",
-  "saw": "로봇군 26명과 대조군 23명이 4주 동안 기존 물리치료에 로봇 보행훈련을 더하거나 기존 치료만 받았습니다. 두 군 모두 좋아졌지만 기능적 보행 범위는 로봇군이 더 개선됐습니다",
-  "limit": "파일럿 시험이고 아급성 뇌졸중만 포함했습니다. 대부분의 이차 결과는 두 군 차이가 뚜렷하지 않았습니다",
-  "against": "두 군 모두 보행·균형 지표가 좋아져 일반 물리치료 자체의 효과를 배제할 수 없습니다",
-  "use": "보행 재활 로봇은 초기 보행훈련의 추가 중재로 평가하고 질환별 효과를 따로 확인합니다",
-  "refs": [
-    { "label": "End-effector lower limb robot-assisted gait training · 무작위 파일럿 시험", "doi": "10.1097/MD.0000000000035568", "pmid": "37861512" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"rehabilitation robot\" AND \"Gait Disorders\" → 111건 반환, intervention 이름 대조 통과 0건",
-    "pubmed": "\"rehabilitation robot\" AND \"Gait Disorders\" → 22건, PMID 37861512 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 5건",
-    "safety": "\"rehabilitation robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 18건"
+ "id": "rehabilitation-robot-gait-disorders-pos",
+ "subj": "재활 로봇",
+ "claim": "보행 재활 로봇을 보행장애에 쓴다",
+ "line": "보행 재활 로봇은 아급성 뇌졸중 보행을 더 개선했습니다",
+ "effect": "FAC 개선 P=.005",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 49,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "보행 재활 로봇은 보행장애의 허가 적응증이 아닌 실험적 재활 중재입니다",
+ "why": "아급성 뇌졸중 보행장애 환자 49명을 무작위 배정해 보행 재활 로봇과 일반 물리치료를 비교한 시험입니다",
+ "saw": "로봇군 26명과 대조군 23명이 4주 동안 기존 물리치료에 로봇 보행훈련을 더하거나 기존 치료만 받았습니다. 두 군 모두 좋아졌지만 기능적 보행 범위는 로봇군이 더 개선됐습니다",
+ "limit": "파일럿 시험이고 아급성 뇌졸중만 포함했습니다. 대부분의 이차 결과는 두 군 차이가 뚜렷하지 않았습니다",
+ "against": "두 군 모두 보행·균형 지표가 좋아져 일반 물리치료 자체의 효과를 배제할 수 없습니다",
+ "use": "보행 재활 로봇은 초기 보행훈련의 추가 중재로 평가하고 질환별 효과를 따로 확인합니다",
+ "refs": [
+  {
+   "label": "End-effector lower limb robot-assisted gait training · 무작위 파일럿 시험",
+   "doi": "10.1097/MD.0000000000035568",
+   "pmid": "37861512"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"rehabilitation robot\" AND \"Gait Disorders\" → 111건 반환, intervention 이름 대조 통과 0건",
+  "pubmed": "\"rehabilitation robot\" AND \"Gait Disorders\" → 22건, PMID 37861512 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 5건",
+  "safety": "\"rehabilitation robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 18건"
+ },
+ "vs": "군 간 차이: 보행 재활 로봇+통상 물리치료 vs 통상 물리치료 아급성 뇌졸중 4주 FAC가 더 크게 개선 (p=.005)"
 }

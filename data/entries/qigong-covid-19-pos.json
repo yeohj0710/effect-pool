@@ -1,20 +1,33 @@
 {
-  "id": "qigong-covid-19-pos",
-  "subj": "qigong",
-  "claim": "중증 코로나19 회복 뒤 호흡곤란에 기공을 더한다",
-  "line": "중증 코로나19 회복 뒤 기공과 지압은 호흡곤란을 줄였습니다.",
-  "effect": "호흡곤란 점수 −0.6",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 128,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "코로나19 후유증의 기공 재활은 비약물 중재이며 의약품 허가 적응증이 아니다.",
-  "why": "중증 코로나19 퇴원 환자에게 기공과 지압을 표준치료에 더한 장기 무작위 추적시험이다.",
-  "saw": "환자 128명을 기공·지압군과 표준치료군으로 나눴다. 퇴원 14개월 뒤 호흡곤란 점수는 중재군에서 mMRC −0.4, Borg −0.6 더 좋아졌고 28개월에도 Borg 차이가 남았지만 일상생활과 우울 점수는 다르지 않았다.",
-  "limit": "기공과 지압을 함께 적용해 기공 단독 효과를 분리할 수 없고 단일기관 연구다.",
-  "against": "일상생활 수행과 PHQ-9 점수는 추적기간 동안 군간 차이가 없었다.",
-  "use": "코로나19 회복기 호흡곤란 재활에서 기공·지압 복합중재의 장기 신호를 설명할 때 사용한다.",
-  "refs": [{ "label": "중증 코로나19 회복 뒤 기공·지압 무작위 추적시험", "doi": "10.1016/j.imr.2024.101084", "pmid": "39399822" }],
-  "queried": { "date": "2026-08-06", "ctgov": "qigong AND COVID-19 · 3건", "pubmed": "qigong AND COVID-19 · 56편", "negative": "43편", "safety": "qigong AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 214편" }
+ "id": "qigong-covid-19-pos",
+ "subj": "기공",
+ "claim": "중증 코로나19 회복 뒤 호흡곤란에 기공을 더한다",
+ "line": "중증 코로나19 회복 뒤 기공과 지압은 호흡곤란을 줄였습니다.",
+ "effect": "호흡곤란 점수 −0.6",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 128,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "코로나19 후유증의 기공 재활은 비약물 중재이며 의약품 허가 적응증이 아니다.",
+ "why": "중증 코로나19 퇴원 환자에게 기공과 지압을 표준치료에 더한 장기 무작위 추적시험이다.",
+ "saw": "환자 128명을 기공·지압군과 표준치료군으로 나눴다. 퇴원 14개월 뒤 호흡곤란 점수는 중재군에서 mMRC −0.4, Borg −0.6 더 좋아졌고 28개월에도 Borg 차이가 남았지만 일상생활과 우울 점수는 다르지 않았다.",
+ "limit": "기공과 지압을 함께 적용해 기공 단독 효과를 분리할 수 없고 단일기관 연구다.",
+ "against": "일상생활 수행과 PHQ-9 점수는 추적기간 동안 군간 차이가 없었다.",
+ "use": "코로나19 회복기 호흡곤란 재활에서 기공·지압 복합중재의 장기 신호를 설명할 때 사용한다.",
+ "refs": [
+  {
+   "label": "중증 코로나19 회복 뒤 기공·지압 무작위 추적시험",
+   "doi": "10.1016/j.imr.2024.101084",
+   "pmid": "39399822"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "qigong AND COVID-19 · 3건",
+  "pubmed": "qigong AND COVID-19 · 56편",
+  "negative": "43편",
+  "safety": "qigong AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 214편"
+ },
+ "vs": "군 간 차이: 기공·지압+표준 치료 vs 표준 치료 중증 COVID-19 퇴원 14개월 mMRC -0.4 (p<.001), Borg -0.6 (95% CI -0.9~-0.3; p<.001), 28개월 Borg -0.4 (-0.7~-0.1; p=.024)"
 }

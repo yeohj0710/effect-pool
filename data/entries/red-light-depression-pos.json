@@ -1,20 +1,34 @@
 {
-  "id": "red-light-depression-pos",
-  "subj": "red light therapy",
-  "claim": "저강도 붉은빛 LED는 교대근무 간호사의 우울 증상을 줄일 수 있다",
-  "line": "저강도 붉은빛 LED는 교대근무 간호사의 우울 점수를 낮췄습니다.",
-  "effect": "우울 점수 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 64,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "기기 중재로 허가 적응증 없음",
-  "why": "교대근무 간호사의 수면·심리 증상을 붉은빛과 근적외선 LED 치료로 비교한 무작위시험이다",
-  "saw": "간호사 64명이 4주 치료를 받았다. 붉은빛 LED군의 우울 점수는 2.5로 대조군 7.9보다 낮았고 불안과 스트레스도 낮았다",
-  "limit": "수면 문제가 있는 교대근무 간호사만 포함했고 단일 연구라 우울장애 치료 효과를 확정할 수 없다",
-  "against": "항우울제나 정신건강 치료를 대신한다는 근거는 아니다",
-  "use": "수면·교대근무 관리에 더한 보조 기기 연구 신호로만 본다",
-  "refs": [{ "label": "The Effectiveness of Low-Level LED Light Therapy for Sleep Problems", "doi": "10.1155/jonm/6478834", "pmid": "40557249", "nct": "NCT05146596" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=red light therapy 쨌 cond=Depression: 2건", "pubmed": "red light therapy AND Depression: 208건", "negative": "red light therapy AND Depression AND no effect: 160건", "safety": "red light therapy AND adverse OR toxicity: 1949건" }
+ "id": "red-light-depression-pos",
+ "subj": "적색광 치료",
+ "claim": "저강도 붉은빛 LED는 교대근무 간호사의 우울 증상을 줄일 수 있다",
+ "line": "저강도 붉은빛 LED는 교대근무 간호사의 우울 점수를 낮췄습니다.",
+ "effect": "우울 점수 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 64,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "기기 중재로 허가 적응증 없음",
+ "why": "교대근무 간호사의 수면·심리 증상을 붉은빛과 근적외선 LED 치료로 비교한 무작위시험이다",
+ "saw": "간호사 64명이 4주 치료를 받았다. 붉은빛 LED군의 우울 점수는 2.5로 대조군 7.9보다 낮았고 불안과 스트레스도 낮았다",
+ "limit": "수면 문제가 있는 교대근무 간호사만 포함했고 단일 연구라 우울장애 치료 효과를 확정할 수 없다",
+ "against": "항우울제나 정신건강 치료를 대신한다는 근거는 아니다",
+ "use": "수면·교대근무 관리에 더한 보조 기기 연구 신호로만 본다",
+ "refs": [
+  {
+   "label": "The Effectiveness of Low-Level LED Light Therapy for Sleep Problems",
+   "doi": "10.1155/jonm/6478834",
+   "pmid": "40557249",
+   "nct": "NCT05146596"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=red light therapy 쨌 cond=Depression: 2건",
+  "pubmed": "red light therapy AND Depression: 208건",
+  "negative": "red light therapy AND Depression AND no effect: 160건",
+  "safety": "red light therapy AND adverse OR toxicity: 1949건"
+ },
+ "vs": "군 간 차이: 저강도 적색·근적외선 LED vs 무중재 교대근무 간호사 4주 우울 2.5 vs 7.9 (p<.001), 불안 3.1 vs 9.2, 스트레스 5.6 vs 12 (각 p<.001)"
 }
