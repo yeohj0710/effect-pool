@@ -1,31 +1,32 @@
 {
-  "id": "zinc-cold-duration",
-  "subj": "아연",
-  "claim": "감기 기간을 줄인다",
-  "line": "아연은 감기 기간을 줄였지만 연구 간 결과 차이가 컸습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "감기 2.37일 단축",
-  "n": 972,
-  "synth": "meta",
-  "why": "2024년 Cochrane 검토가 감기 치료용 아연과 위약을 비교한 무작위시험을 모았습니다.",
-  "saw": "치료시험 8개 972명에서 평균 감기 기간이 2.37일 짧았습니다. 연구 결과의 이질성이 매우 커 근거 확실성은 낮았습니다.",
-  "limit": "제형과 연구 결과가 크게 달랐고 불쾌한 맛, 메스꺼움 같은 가벼운 이상반응이 34% 더 많았습니다.",
-  "against": "다른 3개 시험 740명에서는 감기 기간 차이가 0.63일로 효과 없음 범위에 걸쳤습니다. 감기 예방 효과도 뚜렷하지 않았습니다.",
-  "use": "감기 기간을 줄일 가능성은 있지만 정확한 크기를 확정하기 어렵고 예방 근거는 없습니다.",
-  "refs": [
-    {
-      "label": "Nault 2024 · Cochrane · 감기 아연 검토",
-      "doi": "10.1002/14651858.CD014914.pub2",
-      "pmid": "38719213",
-      "pmc": "PMC11078591"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=zinc, cond=common cold duration → 0건 반환, 대조할 InterventionName 없음",
-    "pubmed": "zinc common cold duration randomized placebo trial Cochrane → 8건",
-    "negative": "zinc common cold duration AND (no effect OR did not OR negative OR no significant difference) → 67건",
-    "safety": "zinc common cold AND (adverse OR toxicity OR anosmia OR case report) → 86건"
+ "id": "zinc-cold-duration",
+ "subj": "아연",
+ "claim": "감기 기간을 줄인다",
+ "line": "아연은 감기 기간을 줄였지만 연구 간 결과 차이가 컸습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "감기 2.37일 단축",
+ "n": 972,
+ "synth": "meta",
+ "why": "2024년 Cochrane 검토가 감기 치료용 아연과 위약을 비교한 무작위시험을 모았습니다.",
+ "saw": "아연 감기 예방·치료 무작위시험 34개, 8,526명을 포함한 Cochrane 검토에서 감기 발생·기간·증상·이상반응을 위약과 비교했다.",
+ "limit": "제형과 연구 결과가 크게 달랐고 불쾌한 맛, 메스꺼움 같은 가벼운 이상반응이 34% 더 많았습니다.",
+ "against": "다른 3개 시험 740명에서는 감기 기간 차이가 0.63일로 효과 없음 범위에 걸쳤습니다. 감기 예방 효과도 뚜렷하지 않았습니다.",
+ "use": "감기 기간을 줄일 가능성은 있지만 정확한 크기를 확정하기 어렵고 예방 근거는 없습니다.",
+ "refs": [
+  {
+   "label": "Nault 2024 · Cochrane · 감기 아연 검토",
+   "doi": "10.1002/14651858.CD014914.pub2",
+   "pmid": "38719213",
+   "pmc": "PMC11078591"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=zinc, cond=common cold duration → 0건 반환, 대조할 InterventionName 없음",
+  "pubmed": "zinc common cold duration randomized placebo trial Cochrane → 8건",
+  "negative": "zinc common cold duration AND (no effect OR did not OR negative OR no significant difference) → 67건",
+  "safety": "zinc common cold AND (adverse OR toxicity OR anosmia OR case report) → 86건"
+ },
+ "vs": "아연 vs 위약: 감기 예방 발생 RR 0.93 (95% CI 0.85~1.01), 치료 시 감기 기간 MD -2.37일 (-4.21~-0.53), 치료 중 비중증 이상반응 RR 1.34 (1.15~1.55); 34개 연구·8,526명"
 }
