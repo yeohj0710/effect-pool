@@ -1,28 +1,32 @@
 {
-  "id": "phone-coaching-obesity-pos",
-  "subj": "phone coaching",
-  "claim": "전화 코칭을 농부의 과체중 관리에 쓴다",
-  "line": "운동·전화 코칭은 농부의 체중을 6개월 동안 2.64kg 줄였습니다",
-  "effect": "체중 차이 -2.64kg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 72,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 운동·상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "과체중 또는 비만 농부 72명을 포함한 6개월 준실험에서 운동 프로그램과 정기 전화 코칭으로 신체활동을 늘렸습니다.",
-  "saw": "중재군 37명은 대조군보다 체중 2.64kg, 허리둘레 2.01cm, BMI 0.97kg/m²가 더 줄었습니다.",
-  "limit": "편의표본 준실험이고 농촌 농부 대상이며 운동과 전화 코칭의 독립 효과를 분리하지 않았습니다.",
-  "against": "연구는 무작위시험이 아니고 심리적 고통·코르티솔 등 일부 결과는 체중과 같은 정도로 일관되게 개선됐다고 볼 수 없습니다.",
-  "use": "과체중 농촌 주민의 활동량을 높일 때 운동 처방에 전화 코칭을 더하는 지역사회 프로그램의 예비 근거로 참고합니다.",
-  "refs": [
-    { "label": "The effect of physical activity on psychological distress, cortisol and obesity · Farming Fit intervention", "pmid": "24165391" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]phone coaching AND AREA[ConditionSearch]Obesity → 103건, exact InterventionName 1건",
-    "pubmed": "\"phone coaching\" AND \"Obesity\" → 20건",
-    "negative": "\"phone coaching\" AND \"Obesity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 6건",
-    "safety": "\"phone coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 16건"
+ "id": "phone-coaching-obesity-pos",
+ "subj": "전화 코칭",
+ "claim": "전화 코칭을 농부의 과체중 관리에 쓴다",
+ "line": "운동·전화 코칭은 농부의 체중을 6개월 동안 2.64kg 줄였습니다",
+ "effect": "체중 차이 -2.64kg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 72,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 운동·상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "과체중 또는 비만 농부 72명을 포함한 6개월 준실험에서 운동 프로그램과 정기 전화 코칭으로 신체활동을 늘렸습니다.",
+ "saw": "중재군 37명은 대조군보다 체중 2.64kg, 허리둘레 2.01cm, BMI 0.97kg/m²가 더 줄었습니다.",
+ "limit": "편의표본 준실험이고 농촌 농부 대상이며 운동과 전화 코칭의 독립 효과를 분리하지 않았습니다.",
+ "against": "연구는 무작위시험이 아니고 심리적 고통·코르티솔 등 일부 결과는 체중과 같은 정도로 일관되게 개선됐다고 볼 수 없습니다.",
+ "use": "과체중 농촌 주민의 활동량을 높일 때 운동 처방에 전화 코칭을 더하는 지역사회 프로그램의 예비 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "The effect of physical activity on psychological distress, cortisol and obesity · Farming Fit intervention",
+   "pmid": "24165391"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]phone coaching AND AREA[ConditionSearch]Obesity → 103건, exact InterventionName 1건",
+  "pubmed": "\"phone coaching\" AND \"Obesity\" → 20건",
+  "negative": "\"phone coaching\" AND \"Obesity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 6건",
+  "safety": "\"phone coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 16건"
+ },
+ "vs": "군 간 차이: 전화 코칭 포함 운동 vs 대조군 6개월 체중 -2.64±0.65 kg (p<.001), 허리둘레 -2.01±0.86 cm (p=.02), BMI -0.97±0.22 kg/m² (p<.001)"
 }

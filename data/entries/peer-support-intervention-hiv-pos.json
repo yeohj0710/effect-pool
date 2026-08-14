@@ -1,28 +1,33 @@
 {
-  "id": "peer-support-intervention-hiv-pos",
-  "subj": "peer support intervention",
-  "claim": "동료지지가 HIV 예방·모자감염 관리의 약물순응도와 추적을 높인다",
-  "line": "HIV 동료 지지는 모자감염 예방의 약물순응도와 추적을 높였습니다",
-  "effect": "1년 ART 순응 OR 1.19",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 26431,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "동료지지 중재는 의약품 허가 적응증이 아닌 HIV 관리 서비스다",
-  "why": "저·중소득국의 HIV 모자감염 예방에서 동료 중재를 검토한 메타분석에서 항레트로바이러스 순응도와 일부 추적 지표가 개선됐다.",
-  "saw": "10개국 27개 연구, 26431명이 포함됐다. 1년 ART 순응도 OR은 1.19, 2년은 2.04였고 산후 6주 추적·영아 예방약 투여·조기 진단도 개선됐다.",
-  "limit": "연구의 75%가 독점 모유수유 개선을 보고했지만 중재·보건체계와 위험도가 달랐다.",
-  "against": "ART 시작, 12개월 추적 유지, HIV 상태 공개에서는 유의한 효과가 없었다.",
-  "use": "HIV 모자감염 예방에서 동료 멘토의 순응도·추적 지원을 설계할 때 참고한다.",
-  "refs": [
-    { "label": "Peer-Driven Interventions for Prevention of Mother-to-Child HIV Transmission 2026 · HIV Medicine", "doi": "10.1111/hiv.70285", "pmid": "42478566" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=peer support intervention AND condition=HIV; 206건 반환, 중재명 일치 0건",
-    "pubmed": "peer support intervention AND HIV; 3760건",
-    "negative": "peer support intervention AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference); 2022건",
-    "safety": "peer support intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 407건"
+ "id": "peer-support-intervention-hiv-pos",
+ "subj": "동료 지원 중재",
+ "claim": "동료지지가 HIV 예방·모자감염 관리의 약물순응도와 추적을 높인다",
+ "line": "HIV 동료 지지는 모자감염 예방의 약물순응도와 추적을 높였습니다",
+ "effect": "1년 ART 순응 OR 1.19",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 26431,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "동료지지 중재는 의약품 허가 적응증이 아닌 HIV 관리 서비스다",
+ "why": "저·중소득국의 HIV 모자감염 예방에서 동료 중재를 검토한 메타분석에서 항레트로바이러스 순응도와 일부 추적 지표가 개선됐다.",
+ "saw": "10개국 27개 연구, 26431명이 포함됐다. 1년 ART 순응도 OR은 1.19, 2년은 2.04였고 산후 6주 추적·영아 예방약 투여·조기 진단도 개선됐다.",
+ "limit": "연구의 75%가 독점 모유수유 개선을 보고했지만 중재·보건체계와 위험도가 달랐다.",
+ "against": "ART 시작, 12개월 추적 유지, HIV 상태 공개에서는 유의한 효과가 없었다.",
+ "use": "HIV 모자감염 예방에서 동료 멘토의 순응도·추적 지원을 설계할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Peer-Driven Interventions for Prevention of Mother-to-Child HIV Transmission 2026 · HIV Medicine",
+   "doi": "10.1111/hiv.70285",
+   "pmid": "42478566"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=peer support intervention AND condition=HIV; 206건 반환, 중재명 일치 0건",
+  "pubmed": "peer support intervention AND HIV; 3760건",
+  "negative": "peer support intervention AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference); 2022건",
+  "safety": "peer support intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 407건"
+ },
+ "vs": "군 간 차이: 동료 지원 중재 vs 대조군 1년 ART 순응 OR 1.19 (95% CI 1.05~1.35), 2년 OR 2.04 (1.58~2.64), 산후 6주 돌봄 유지 OR 2.63 (1.56~4.43), 영아 예방요법 OR 2.95 (1.90~4.59)"
 }

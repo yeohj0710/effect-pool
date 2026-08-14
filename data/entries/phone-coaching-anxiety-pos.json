@@ -1,28 +1,32 @@
 {
-  "id": "phone-coaching-anxiety-pos",
-  "subj": "phone coaching",
-  "claim": "전화 코칭을 치과대학생 불안·스트레스 완화에 쓴다",
-  "line": "5주 전화 코칭은 치과대학생의 불안과 스트레스를 낮췄습니다",
-  "effect": "불안·스트레스 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 88,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "여성 치과대학생 88명을 코칭군과 무중재 대조군으로 나눈 준실험에서 5주 동안 교육 1회와 전화 코칭 5회를 제공했습니다.",
-  "saw": "코칭군의 우울·불안·스트레스가 낮아졌고 사전·사후 군 간 차이는 우울과 스트레스에서 유의했으며 목표 접근도 좋아졌습니다.",
-  "limit": "무작위배정이 아닌 학생 대상 연구이며 불안과 스트레스의 장기 유지와 전화 코칭 단독 효과는 확인되지 않았습니다.",
-  "against": "회복탄력성과 심리적 웰빙 일부 지표는 같은 방향으로 개선되지 않아 모든 정신건강 결과에 효과가 있다고 볼 수 없습니다.",
-  "use": "치과대학생 불안·스트레스 지원에서 짧은 전화 코칭을 교육과 결합할 때 예비 근거로 참고합니다.",
-  "refs": [
-    { "label": "The effect of life coaching on psychological distress among dental students · interventional study", "pmid": "33054836", "doi": "10.1186/s40359-020-00475-5" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]phone coaching AND AREA[ConditionSearch]Anxiety → 45건, exact InterventionName 0건",
-    "pubmed": "\"phone coaching\" AND \"Anxiety\" → 7건",
-    "negative": "\"phone coaching\" AND \"Anxiety\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
-    "safety": "\"phone coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 16건"
+ "id": "phone-coaching-anxiety-pos",
+ "subj": "전화 코칭",
+ "claim": "전화 코칭을 치과대학생 불안·스트레스 완화에 쓴다",
+ "line": "5주 전화 코칭은 치과대학생의 불안과 스트레스를 낮췄습니다",
+ "effect": "불안·스트레스 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 88,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "여성 치과대학생 88명을 코칭군과 무중재 대조군으로 나눈 준실험에서 5주 동안 교육 1회와 전화 코칭 5회를 제공했습니다.",
+ "saw": "코칭군의 우울·불안·스트레스가 낮아졌고 사전·사후 군 간 차이는 우울과 스트레스에서 유의했으며 목표 접근도 좋아졌습니다.",
+ "limit": "무작위배정이 아닌 학생 대상 연구이며 불안과 스트레스의 장기 유지와 전화 코칭 단독 효과는 확인되지 않았습니다.",
+ "against": "회복탄력성과 심리적 웰빙 일부 지표는 같은 방향으로 개선되지 않아 모든 정신건강 결과에 효과가 있다고 볼 수 없습니다.",
+ "use": "치과대학생 불안·스트레스 지원에서 짧은 전화 코칭을 교육과 결합할 때 예비 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "The effect of life coaching on psychological distress among dental students · interventional study",
+   "pmid": "33054836",
+   "doi": "10.1186/s40359-020-00475-5"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]phone coaching AND AREA[ConditionSearch]Anxiety → 45건, exact InterventionName 0건",
+  "pubmed": "\"phone coaching\" AND \"Anxiety\" → 7건",
+  "negative": "\"phone coaching\" AND \"Anxiety\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 3건",
+  "safety": "\"phone coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 16건"
+ }
 }
