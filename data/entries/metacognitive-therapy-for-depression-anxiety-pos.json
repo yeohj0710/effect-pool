@@ -1,28 +1,32 @@
 {
-  "id": "metacognitive-therapy-for-depression-anxiety-pos",
-  "subj": "metacognitive therapy for depression",
-  "claim": "심장재활에 메타인지치료를 더하자 불안 증상이 줄었다",
-  "line": "메타인지 치료 후 불안 증상이 줄었습니다",
-  "effect": "d=.52",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 332,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "심혈관질환 환자의 심장재활에 메타인지치료를 더해 불안 증상을 줄일 수 있는지 확인했다.",
-  "saw": "영국 심장재활 환자 332명을 메타인지치료 병합군 163명과 통상 재활군 169명으로 무작위 배정했다. 4개월 불안·우울 총점 군 간 차이는 -3.24였고 표준화 효과크기는 d=.52였다. 12개월에도 효과크기 d=.33이 유지됐다.",
-  "limit": "메타인지치료군이 추가 접촉을 받아 비특이적 접촉 효과를 분리하지 못했다.",
-  "against": "심장재활 자체가 불안에 영향을 주므로 메타인지치료의 단독 효과는 알 수 없다.",
-  "use": "불안을 동반한 심장재활 환자의 보조 심리치료",
-  "refs": [
-    { "label": "PATHWAY-A 심장재활 무작위시험", "pmid": "34148379" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=metacognitive therapy for depression AND condition=Anxiety; 0건",
-    "pubmed": "metacognitive therapy for depression AND Anxiety; 263건",
-    "negative": "metacognitive therapy for depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 346건",
-    "safety": "metacognitive therapy for depression AND (adverse OR toxicity OR case report OR harm OR dropout); 47건"
+ "id": "metacognitive-therapy-for-depression-anxiety-pos",
+ "vs": "메타인지치료+심장재활군 대 심장재활군: 332명 RCT에서 4개월 HADS 차이 −3.24(95%CI −4.67~−1.81,P<.001; 표준화 .52), 12개월 −2.19(−3.72~−.66,P=.005; .33)",
+ "subj": "메타인지치료",
+ "claim": "심장재활에 메타인지치료를 더하자 불안 증상이 줄었다",
+ "line": "메타인지 치료 후 불안 증상이 줄었습니다",
+ "effect": "d=.52",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 332,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "심혈관질환 환자의 심장재활에 메타인지치료를 더해 불안 증상을 줄일 수 있는지 확인했다.",
+ "saw": "영국 심장재활 환자 332명을 메타인지치료 병합군 163명과 통상 재활군 169명으로 무작위 배정했다. 4개월 불안·우울 총점 군 간 차이는 -3.24였고 표준화 효과크기는 d=.52였다. 12개월에도 효과크기 d=.33이 유지됐다.",
+ "limit": "메타인지치료군이 추가 접촉을 받아 비특이적 접촉 효과를 분리하지 못했다.",
+ "against": "심장재활 자체가 불안에 영향을 주므로 메타인지치료의 단독 효과는 알 수 없다.",
+ "use": "불안을 동반한 심장재활 환자의 보조 심리치료",
+ "refs": [
+  {
+   "label": "PATHWAY-A 심장재활 무작위시험",
+   "pmid": "34148379"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=metacognitive therapy for depression AND condition=Anxiety; 0건",
+  "pubmed": "metacognitive therapy for depression AND Anxiety; 263건",
+  "negative": "metacognitive therapy for depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 346건",
+  "safety": "metacognitive therapy for depression AND (adverse OR toxicity OR case report OR harm OR dropout); 47건"
+ }
 }
