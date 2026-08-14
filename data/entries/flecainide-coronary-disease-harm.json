@@ -1,29 +1,36 @@
 {
-  "id": "flecainide-coronary-disease-harm",
-  "subj": "플레카이니드",
-  "claim": "관상동맥질환이 있는 심방세동 환자에게 flecainide를 쓸 때 위험을 평가한다",
-  "line": "폐쇄성 관상동맥질환에서 플레카이니드 관련 사건 위험이 더 높았다.",
-  "effect": "폐쇄성 CAD 사건 HR 3.80",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 3445,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "플레카이니드는 구조적 심질환이 없는 심방세동 등에 쓰지만 관상동맥질환 환자 사용은 허가 적응증이 아니며 일반적으로 제한됩니다.",
-  "why": "부정맥을 억제하는 약의 사용 제한이라는 안전성 신호를 관상동맥질환 환자군에서 다시 확인한 사례입니다.",
-  "saw": "실제 진료 코호트 3445명에서 플레카이니드 등 IC 약제를 쓴 환자를 분석한 결과, 폐쇄성 관상동맥질환 환자는 소탈롤 대조군보다 사건 없는 생존이 나빴습니다(HR 3.80, 95% CI 1.67~8.67). 비폐쇄성 질환이면서 심실빈맥 병력이 없는 선별 환자에서는 사망 증가가 보이지 않았습니다.",
-  "limit": "후향적 관찰 연구이고 플레카이니드 단독 결과가 아닌 IC 약제군 분석이며 심근경색·심실빈맥 병력이 제외됐습니다.",
-  "against": "안정 관상동맥질환의 심방세동 환자를 분석한 다른 관찰연구에서는 플레카이니드가 3년 사망·심부전 입원·심실빈맥을 3급 항부정맥제보다 더 늘리지 않았습니다.",
-  "use": "관상동맥질환에서 플레카이니드를 고려할 때 폐쇄성 여부와 과거 심근경색을 따로 확인해야 한다는 안전성 근거로 씁니다.",
-  "refs": [
-    { "label": "관상동맥질환 정도별 플레카이니드 안전성 코호트", "pmid": "36898953" },
-    { "label": "안정 관상동맥질환 심방세동 플레카이니드 장기 결과", "pmid": "34537183" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=flecainide · cond=Coronary Disease → 68건 반환, 물질 대조 후 42건",
-    "pubmed": "flecainide AND Coronary Disease → 136편",
-    "negative": "flecainide AND Coronary Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 98편",
-    "safety": "flecainide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1480편"
+ "id": "flecainide-coronary-disease-harm",
+ "subj": "플레카이니드",
+ "claim": "관상동맥질환이 있는 심방세동 환자에게 flecainide를 쓸 때 위험을 평가한다",
+ "line": "폐쇄성 관상동맥질환에서 플레카이니드 관련 사건 위험이 더 높았다.",
+ "effect": "폐쇄성 CAD 사건 HR 3.80",
+ "tier": "obs",
+ "dir": "harm",
+ "n": 3445,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "플레카이니드는 구조적 심질환이 없는 심방세동 등에 쓰지만 관상동맥질환 환자 사용은 허가 적응증이 아니며 일반적으로 제한됩니다.",
+ "why": "부정맥을 억제하는 약의 사용 제한이라는 안전성 신호를 관상동맥질환 환자군에서 다시 확인한 사례입니다.",
+ "saw": "실제 진료 코호트 3445명에서 플레카이니드 등 IC 약제를 쓴 환자를 분석한 결과, 폐쇄성 관상동맥질환 환자는 소탈롤 대조군보다 사건 없는 생존이 나빴습니다(HR 3.80, 95% CI 1.67~8.67). 비폐쇄성 질환이면서 심실빈맥 병력이 없는 선별 환자에서는 사망 증가가 보이지 않았습니다.",
+ "limit": "후향적 관찰 연구이고 플레카이니드 단독 결과가 아닌 IC 약제군 분석이며 심근경색·심실빈맥 병력이 제외됐습니다.",
+ "against": "안정 관상동맥질환의 심방세동 환자를 분석한 다른 관찰연구에서는 플레카이니드가 3년 사망·심부전 입원·심실빈맥을 3급 항부정맥제보다 더 늘리지 않았습니다.",
+ "use": "관상동맥질환에서 플레카이니드를 고려할 때 폐쇄성 여부와 과거 심근경색을 따로 확인해야 한다는 안전성 근거로 씁니다.",
+ "refs": [
+  {
+   "label": "관상동맥질환 정도별 플레카이니드 안전성 코호트",
+   "pmid": "36898953"
+  },
+  {
+   "label": "안정 관상동맥질환 심방세동 플레카이니드 장기 결과",
+   "pmid": "34537183"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=flecainide · cond=Coronary Disease → 68건 반환, 물질 대조 후 42건",
+  "pubmed": "flecainide AND Coronary Disease → 136편",
+  "negative": "flecainide AND Coronary Disease AND (no effect OR did not OR failed to OR negative OR no significant difference) → 98편",
+  "safety": "flecainide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1480편"
+ },
+ "vs": "플레카이니드 vs 소탈롤/도페틸라이드: 관상동맥질환 후향 코호트에서 폐쇄성 CAD의 사건 없는 생존 HR 3.80(95% CI 1.67~8.67; P=.002)으로 IC 약물군이 불리함."
 }

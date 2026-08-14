@@ -1,29 +1,39 @@
 {
-  "id": "exenatide-obesity-pos",
-  "subj": "엑세나타이드",
-  "claim": "엑세나타이드는 당뇨가 없는 비만·과체중 성인의 체중을 줄인다",
-  "line": "당뇨병이 없는 과체중·비만 성인에서 엑세나타이드는 체중을 줄였다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 362,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "당뇨가 없는 비만 치료는 엑세나타이드의 허가 적응증에 없음",
-  "why": "GLP-1 수용체 작용제의 식욕·섭취 감소 부작용을 비만 치료에 전용한 사용입니다.",
-  "saw": "당뇨가 없는 비만·과체중 참가자 362명을 포함한 무작위시험 6개 메타분석에서 대조군보다 체중이 MD -4.47 kg, BMI가 MD -0.86 kg/m² 더 감소했습니다.",
-  "limit": "추적기간은 12~24주로 짧았고 위장관 이상반응이 흔했으며 장기 체중 유지 자료는 부족했습니다.",
-  "against": "24주 추적한 비당뇨 비만 단일시험에서는 체중 차이가 유의하지 않았습니다.",
-  "use": "비만 치료로 일반화할 때는 허가된 장기 체중관리 약제와 효과·비용·위장관 부작용을 비교해야 합니다.",
-  "effect": "체중 MD -4.47 kg",
-  "refs": [
-    { "label": "Su 2016 · International Journal of Cardiology · 비당뇨 비만 엑세나타이드 메타분석", "doi": "10.1016/j.ijcard.2016.06.028", "pmid": "27343423" },
-    { "label": "Basolo 2018 · Metabolism · 비당뇨 비만에서 에너지 섭취시험", "doi": "10.1016/j.metabol.2018.03.017", "pmid": "29596853", "pmc": "PMC6062468" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=exenatide, cond=Obesity → 56건 반환·45건 직접 확인",
-    "pubmed": "exenatide AND Obesity → 860건",
-    "negative": "exenatide AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) → 763건",
-    "safety": "exenatide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1328건"
+ "id": "exenatide-obesity-pos",
+ "subj": "엑세나타이드",
+ "claim": "엑세나타이드는 당뇨가 없는 비만·과체중 성인의 체중을 줄인다",
+ "line": "당뇨병이 없는 과체중·비만 성인에서 엑세나타이드는 체중을 줄였다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 362,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "당뇨가 없는 비만 치료는 엑세나타이드의 허가 적응증에 없음",
+ "why": "GLP-1 수용체 작용제의 식욕·섭취 감소 부작용을 비만 치료에 전용한 사용입니다.",
+ "saw": "당뇨가 없는 비만·과체중 참가자 362명을 포함한 무작위시험 6개 메타분석에서 대조군보다 체중이 MD -4.47 kg, BMI가 MD -0.86 kg/m² 더 감소했습니다.",
+ "limit": "추적기간은 12~24주로 짧았고 위장관 이상반응이 흔했으며 장기 체중 유지 자료는 부족했습니다.",
+ "against": "24주 추적한 비당뇨 비만 단일시험에서는 체중 차이가 유의하지 않았습니다.",
+ "use": "비만 치료로 일반화할 때는 허가된 장기 체중관리 약제와 효과·비용·위장관 부작용을 비교해야 합니다.",
+ "effect": "체중 MD -4.47 kg",
+ "refs": [
+  {
+   "label": "Su 2016 · International Journal of Cardiology · 비당뇨 비만 엑세나타이드 메타분석",
+   "doi": "10.1016/j.ijcard.2016.06.028",
+   "pmid": "27343423"
+  },
+  {
+   "label": "Basolo 2018 · Metabolism · 비당뇨 비만에서 에너지 섭취시험",
+   "doi": "10.1016/j.metabol.2018.03.017",
+   "pmid": "29596853",
+   "pmc": "PMC6062468"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=exenatide, cond=Obesity → 56건 반환·45건 직접 확인",
+  "pubmed": "exenatide AND Obesity → 860건",
+  "negative": "exenatide AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) → 763건",
+  "safety": "exenatide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1328건"
+ },
+ "vs": "엑세나타이드 vs 대조군: 비당뇨 과체중·비만 6개 RCT 362명 메타분석에서 체중 평균차 -4.47kg(95% CI -6.67~-2.27), BMI -0.86kg/m²(-1.39~-0.33), 허리둘레 -1.78cm(-3.13~-0.44)."
 }

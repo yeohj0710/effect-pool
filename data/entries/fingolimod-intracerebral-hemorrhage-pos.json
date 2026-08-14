@@ -1,29 +1,37 @@
 {
-  "id": "fingolimod-intracerebral-hemorrhage-pos",
-  "subj": "핑골리모드",
-  "claim": "뇌내출혈 후 부종에 fingolimod의 염증 억제 효과를 평가한다",
-  "line": "뇌내출혈 후 핑골리모드는 부종·신경학적 결손을 줄였다.",
-  "effect": "90일 mRS 0–1 63% vs 0%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 23,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "핑골리모드 허가는 다발성경화증이고 뇌내출혈 치료는 포함하지 않는다.",
-  "why": "작은 천막상 뇌내출혈 환자를 표준치료와 핑골리모드 병용에 비교한 평가자 눈가림 임상시험입니다.",
-  "saw": "23명에서 핑골리모드 0.5mg을 3일 투여했습니다. 3개월 mRS 0–1은 핑골리모드군 63% 대 대조군 0%였고, 7일 혈종 주변 부종은 47mL 대 108mL였습니다.",
-  "limit": "대조군이 무작위 배정이 아닌 임상·영상 매칭군이고 23명뿐입니다. 연구진도 후기 임상시험이 필요하다고 했습니다.",
-  "against": "뇌내출혈에서 핑골리모드의 근거는 이 소규모 proof-of-concept 연구와 기전 분석에 집중돼 대규모 재현 자료가 없습니다.",
-  "use": "뇌내출혈 후 이차 손상 억제의 초기 신호로 사용하며 표준 신경외과·집중치료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "뇌내출혈 핑골리모드 2군 proof-of-concept 연구", "pmid": "25003359", "nct": "NCT02002390" },
-    { "label": "뇌내출혈 핑골리모드 염증·혈관투과성 분석", "pmid": "25958190" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=fingolimod · cond=Intracerebral Hemorrhage → 2건 반환, 물질 대조 후 2건",
-    "pubmed": "fingolimod AND Intracerebral Hemorrhage → 36편",
-    "negative": "fingolimod AND Intracerebral Hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) → 29편",
-    "safety": "fingolimod AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1413편"
+ "id": "fingolimod-intracerebral-hemorrhage-pos",
+ "subj": "핑골리모드",
+ "claim": "뇌내출혈 후 부종에 fingolimod의 염증 억제 효과를 평가한다",
+ "line": "뇌내출혈 후 핑골리모드는 부종·신경학적 결손을 줄였다.",
+ "effect": "90일 mRS 0–1 63% vs 0%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 23,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "핑골리모드 허가는 다발성경화증이고 뇌내출혈 치료는 포함하지 않는다.",
+ "why": "작은 천막상 뇌내출혈 환자를 표준치료와 핑골리모드 병용에 비교한 평가자 눈가림 임상시험입니다.",
+ "saw": "23명에서 핑골리모드 0.5mg을 3일 투여했습니다. 3개월 mRS 0–1은 핑골리모드군 63% 대 대조군 0%였고, 7일 혈종 주변 부종은 47mL 대 108mL였습니다.",
+ "limit": "대조군이 무작위 배정이 아닌 임상·영상 매칭군이고 23명뿐입니다. 연구진도 후기 임상시험이 필요하다고 했습니다.",
+ "against": "뇌내출혈에서 핑골리모드의 근거는 이 소규모 proof-of-concept 연구와 기전 분석에 집중돼 대규모 재현 자료가 없습니다.",
+ "use": "뇌내출혈 후 이차 손상 억제의 초기 신호로 사용하며 표준 신경외과·집중치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "뇌내출혈 핑골리모드 2군 proof-of-concept 연구",
+   "pmid": "25003359",
+   "nct": "NCT02002390"
+  },
+  {
+   "label": "뇌내출혈 핑골리모드 염증·혈관투과성 분석",
+   "pmid": "25958190"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=fingolimod · cond=Intracerebral Hemorrhage → 2건 반환, 물질 대조 후 2건",
+  "pubmed": "fingolimod AND Intracerebral Hemorrhage → 36편",
+  "negative": "fingolimod AND Intracerebral Hemorrhage AND (no effect OR did not OR failed to OR negative OR no significant difference) → 29편",
+  "safety": "fingolimod AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1413편"
+ },
+ "vs": "핑골리모드+표준치료 vs 표준치료: 뇌내출혈 2군 연구 23명에서 7일 GCS15 100% vs 50%(P=.01), 3개월 mRS0~1 63% vs 0%(P=.001), 7일 부종 47mL vs 108mL(P=.04)."
 }
