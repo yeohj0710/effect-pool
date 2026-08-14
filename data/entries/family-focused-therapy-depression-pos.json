@@ -1,29 +1,38 @@
 {
-  "id": "family-focused-therapy-depression-pos",
-  "subj": "family focused therapy",
-  "claim": "아동 우울증에 가족 중심 치료를 쓴다",
-  "line": "가족 중심 치료는 아동 우울 반응을 높였지만 추적 회복률은 같았다.",
-  "effect": "우울 반응 77.7% 대 59.9%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 134,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가족 중심 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "가족 상호작용과 회복력을 다루는 15회기 치료가 아동 우울증의 급성기 반응을 개인 지지정신치료보다 높이는지 비교했습니다.",
-  "saw": "7~14세 아동 134명을 가족 중심 치료군과 개인 지지정신치료군에 무작위 배정했습니다. 우울 증상이 50% 이상 줄어든 비율은 가족 중심 치료 77.7%, 개인 지지정신치료 59.9%였고, 9개월 추적 때는 두 군의 회복률이 비슷해졌습니다.",
-  "limit": "무치료 대조군이 없고, 9개월 추적에서는 두 치료군의 차이가 줄었습니다.",
-  "against": "9개월 추적 때 회복률은 가족 중심 치료 76%, 개인 지지정신치료 77%로 비슷했습니다.",
-  "use": "아동 우울증에서 가족을 포함하는 심리치료를 고려할 때 참고할 근거",
-  "refs": [
-    { "label": "Diamond 2019 · Journal of the American Academy of Child & Adolescent Psychiatry · 무작위시험", "pmid": "32871701", "doi": "10.1016/j.jaac.2020.05.007" },
-    { "label": "Dietz 2020 · Journal of the American Academy of Child & Adolescent Psychiatry · 1년 추적", "pmid": "31840263", "nct": "NCT01159041" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=family focused therapy AND condition=Depression; 71건 반환, 중재명 대조 후 0건",
-    "pubmed": "family focused therapy AND Depression; 2,090건",
-    "negative": "family focused therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,285건",
-    "safety": "family focused therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 3,871건"
+ "id": "family-focused-therapy-depression-pos",
+ "subj": "가족초점치료",
+ "claim": "아동 우울증에 가족 중심 치료를 쓴다",
+ "line": "가족 중심 치료는 아동 우울 반응을 높였지만 추적 회복률은 같았다.",
+ "effect": "우울 반응 77.7% 대 59.9%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 134,
+ "vs": "아동 우울증 134명 무작위시험; 가족초점치료 대 개인 지지정신치료의 군간 차이: 급성기 우울 반응 77.7% 대 59.9%(P=.0498), 9개월 회복 76% 대 77%, 재발 1명 대 6명, 자살시도 0명 대 4명",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가족 중심 치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "가족 상호작용과 회복력을 다루는 15회기 치료가 아동 우울증의 급성기 반응을 개인 지지정신치료보다 높이는지 비교했습니다.",
+ "saw": "7~14세 아동 134명을 가족 중심 치료군과 개인 지지정신치료군에 무작위 배정했습니다. 우울 증상이 50% 이상 줄어든 비율은 가족 중심 치료 77.7%, 개인 지지정신치료 59.9%였고, 9개월 추적 때는 두 군의 회복률이 비슷해졌습니다.",
+ "limit": "무치료 대조군이 없고, 9개월 추적에서는 두 치료군의 차이가 줄었습니다.",
+ "against": "9개월 추적 때 회복률은 가족 중심 치료 76%, 개인 지지정신치료 77%로 비슷했습니다.",
+ "use": "아동 우울증에서 가족을 포함하는 심리치료를 고려할 때 참고할 근거",
+ "refs": [
+  {
+   "label": "Diamond 2019 · Journal of the American Academy of Child & Adolescent Psychiatry · 무작위시험",
+   "pmid": "32871701",
+   "doi": "10.1016/j.jaac.2020.05.007"
+  },
+  {
+   "label": "Dietz 2020 · Journal of the American Academy of Child & Adolescent Psychiatry · 1년 추적",
+   "pmid": "31840263",
+   "nct": "NCT01159041"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=family focused therapy AND condition=Depression; 71건 반환, 중재명 대조 후 0건",
+  "pubmed": "family focused therapy AND Depression; 2,090건",
+  "negative": "family focused therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,285건",
+  "safety": "family focused therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 3,871건"
+ }
 }
