@@ -1,28 +1,33 @@
 {
-  "id": "albendazole-helminthiasis-pos",
-  "subj": "albendazole",
-  "claim": "알벤다졸·이버멕틴 병용요법이 토양매개 기생충 감염을 치료한다",
-  "line": "알벤다졸·이버멕틴 병용요법은 편충 치료 효과를 높였다",
-  "effect": "편충 치유 RR 2.70",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 5720,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "알벤다졸 허가사항은 신경낭미충증과 포충증이며 토양매개 기생충 전체는 포함하지 않는다",
-  "why": "알벤다졸 단독의 효과가 낮은 토양매개 기생충에서 병용요법이 치료 효과를 높이는지 확인했다.",
-  "saw": "12개 무작위시험 5,720명에서 알벤다졸·이버멕틴 병용요법은 알벤다졸 단독보다 편충 치유율이 높았다(RR 2.70). 편충 충란감소율은 병용요법 90% 초과, 알벤다졸 단독 약 62%였다.",
-  "limit": "병용요법과 단독요법을 비교한 메타분석이므로 알벤다졸 단독의 전체 효과를 직접 추정하지 않는다.",
-  "against": "회충과 구충의 치유율은 두 치료군에서 비슷했다.",
-  "use": "편충 감염에서 알벤다졸 단독보다 병용요법을 검토할 근거로 사용한다.",
-  "refs": [
-    { "label": "토양매개 기생충 병용요법 메타분석", "doi": "10.1016/j.actatropica.2025.107859", "pmid": "41052703" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "albendazole AND Helminthiasis · 21건",
-    "pubmed": "albendazole AND Helminthiasis · 5757건",
-    "negative": "albendazole AND Helminthiasis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2821건",
-    "safety": "albendazole AND Helminthiasis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1158건"
+ "id": "albendazole-helminthiasis-pos",
+ "subj": "알벤다졸",
+ "claim": "알벤다졸·이버멕틴 병용요법이 토양매개 기생충 감염을 치료한다",
+ "line": "알벤다졸·이버멕틴 병용요법은 편충 치료 효과를 높였다",
+ "effect": "편충 치유 RR 2.70",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 5720,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "알벤다졸 허가사항은 신경낭미충증과 포충증이며 토양매개 기생충 전체는 포함하지 않는다",
+ "why": "알벤다졸 단독의 효과가 낮은 토양매개 기생충에서 병용요법이 치료 효과를 높이는지 확인했다.",
+ "saw": "12개 무작위시험 5,720명에서 알벤다졸·이버멕틴 병용요법은 알벤다졸 단독보다 편충 치유율이 높았다(RR 2.70). 편충 충란감소율은 병용요법 90% 초과, 알벤다졸 단독 약 62%였다.",
+ "limit": "병용요법과 단독요법을 비교한 메타분석이므로 알벤다졸 단독의 전체 효과를 직접 추정하지 않는다.",
+ "against": "회충과 구충의 치유율은 두 치료군에서 비슷했다.",
+ "use": "편충 감염에서 알벤다졸 단독보다 병용요법을 검토할 근거로 사용한다.",
+ "refs": [
+  {
+   "label": "토양매개 기생충 병용요법 메타분석",
+   "doi": "10.1016/j.actatropica.2025.107859",
+   "pmid": "41052703"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "albendazole AND Helminthiasis · 21건",
+  "pubmed": "albendazole AND Helminthiasis · 5757건",
+  "negative": "albendazole AND Helminthiasis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2821건",
+  "safety": "albendazole AND Helminthiasis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1158건"
+ },
+ "vs": "알벤다졸+이버멕틴 vs 알벤다졸 단독: 편충 치유 RR 2.70(95% CI 1.91~3.82); 이버멕틴 단독 대비 RR 1.81(1.46~2.25); 12 RCT 5,720명"
 }

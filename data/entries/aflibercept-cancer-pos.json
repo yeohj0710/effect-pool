@@ -1,28 +1,32 @@
 {
-  "id": "aflibercept-cancer-pos",
-  "subj": "aflibercept",
-  "claim": "아플리버셉트 병용으로 전이성 대장암의 종양 반응을 얻는다",
-  "line": "전이성 대장암에서 아플리버셉트 병용요법은 종양 반응을 보였지만 중증 이상반응이 많았다.",
-  "effect": "ORR 32.5%; OS 64.4%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2049,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "안과용 아플리버셉트의 허가 적응증에 전이성 대장암은 포함되지 않습니다.",
-  "why": "전이성 대장암에서 아플리버셉트와 항암화학요법을 병용한 임상 연구의 효능과 안전성을 종합한 메타분석을 확인했습니다.",
-  "saw": "10개 연구 2,049명에서 12개월 무진행생존 16.0%, 12개월 전체생존 64.4%, 객관적 반응률 32.5%였고 3~4등급 이상반응은 80.2%였습니다.",
-  "limit": "비교군 없는 연구와 무작위시험을 함께 합산했고 항암화학요법의 기여를 분리하기 어렵습니다.",
-  "against": "3~4등급 설사 16.8%, 고혈압 22.3%, 호중구감소증 29.5%, 단백뇨 7.3%가 보고돼 안전성 우려가 컸습니다.",
-  "use": "전이성 대장암에서 아플리버셉트 병용의 연구 신호와 중증 독성을 함께 판단할 때 참고합니다.",
-  "refs": [
-    { "label": "전이성 대장암 아플리버셉트 병용 효능·안전성 메타분석", "doi": "10.1111/jcpt.13610", "pmid": "35229901" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "aflibercept AND Cancer → 100건 반환, 결과 보고 40건",
-    "pubmed": "aflibercept AND Cancer → 654건",
-    "negative": "aflibercept AND Cancer AND (no effect OR did not OR failed OR no significant difference) → 377건",
-    "safety": "aflibercept AND (adverse OR toxicity OR case report OR harm) → 1517건"
+ "id": "aflibercept-cancer-pos",
+ "subj": "아플리버셉트",
+ "claim": "아플리버셉트 병용으로 전이성 대장암의 종양 반응을 얻는다",
+ "line": "전이성 대장암에서 아플리버셉트 병용요법은 종양 반응을 보였지만 중증 이상반응이 많았다.",
+ "effect": "ORR 32.5%; OS 64.4%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2049,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "안과용 아플리버셉트의 허가 적응증에 전이성 대장암은 포함되지 않습니다.",
+ "why": "전이성 대장암에서 아플리버셉트와 항암화학요법을 병용한 임상 연구의 효능과 안전성을 종합한 메타분석을 확인했습니다.",
+ "saw": "10개 연구 2,049명에서 12개월 무진행생존 16.0%, 12개월 전체생존 64.4%, 객관적 반응률 32.5%였고 3~4등급 이상반응은 80.2%였습니다.",
+ "limit": "비교군 없는 연구와 무작위시험을 함께 합산했고 항암화학요법의 기여를 분리하기 어렵습니다.",
+ "against": "3~4등급 설사 16.8%, 고혈압 22.3%, 호중구감소증 29.5%, 단백뇨 7.3%가 보고돼 안전성 우려가 컸습니다.",
+ "use": "전이성 대장암에서 아플리버셉트 병용의 연구 신호와 중증 독성을 함께 판단할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "전이성 대장암 아플리버셉트 병용 효능·안전성 메타분석",
+   "doi": "10.1111/jcpt.13610",
+   "pmid": "35229901"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "aflibercept AND Cancer → 100건 반환, 결과 보고 40건",
+  "pubmed": "aflibercept AND Cancer → 654건",
+  "negative": "aflibercept AND Cancer AND (no effect OR did not OR failed OR no significant difference) → 377건",
+  "safety": "aflibercept AND (adverse OR toxicity OR case report OR harm) → 1517건"
+ }
 }

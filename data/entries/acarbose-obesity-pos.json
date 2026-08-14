@@ -1,29 +1,36 @@
 {
-  "id": "acarbose-obesity-pos",
-  "subj": "아카보스",
-  "claim": "당뇨병이 없는 과체중·비만에 아카보스를 사용하는가",
-  "line": "비당뇨 비만 환자에서 아카보스는 중성지방을 조금 낮췄지만 BMI는 바꾸지 못하였다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 269,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "허가 적응증은 제2형 당뇨병이며, 당뇨병이 없는 비만 치료는 허가 밖입니다.",
-  "why": "식후 탄수화물 흡수와 혈당 변동을 낮춰 체중·대사 지표에 영향을 줄 수 있습니다.",
-  "saw": "당뇨병이 없는 과체중·비만 환자 7개 무작위시험 269명 메타분석에서 아카보스는 중성지방을 낮췄고, 체중 효과는 작았습니다. 저혈당은 없었고 위장관 반응은 경미했습니다.",
-  "limit": "7개 연구의 표본이 작고, BMI 감소는 통계적으로 유의하지 않았습니다(P=.56). 체중관리 허가약의 대체 근거가 아닙니다.",
-  "against": "체중과 BMI의 변화는 일관된 임상적 크기에 도달하지 않았고, 중성지방 외 대사 지표도 뚜렷하게 좋아지지 않았습니다.",
-  "use": "비만 치료제로 routine 처방하지 않으며, 위장관 부작용과 식사·운동 치료를 함께 고려합니다.",
-  "effect": "중성지방 감소; BMI NS",
-  "refs": [
-    { "label": "Yu 2021 · Advances in Therapy · 비당뇨 비만 메타분석", "pmid": "33421022" },
-    { "label": "과체중·비만 아카보스 시험", "nct": "NCT04521751" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=acarbose, cond=Obesity · 10건 중 8건 직접 확인",
-    "pubmed": "acarbose AND Obesity · 377건",
-    "negative": "acarbose AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) · 296건",
-    "safety": "acarbose AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 896건"
+ "id": "acarbose-obesity-pos",
+ "subj": "아카보스",
+ "claim": "당뇨병이 없는 과체중·비만에 아카보스를 사용하는가",
+ "line": "비당뇨 비만 환자에서 아카보스는 중성지방을 조금 낮췄지만 BMI는 바꾸지 못하였다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 269,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "허가 적응증은 제2형 당뇨병이며, 당뇨병이 없는 비만 치료는 허가 밖입니다.",
+ "why": "식후 탄수화물 흡수와 혈당 변동을 낮춰 체중·대사 지표에 영향을 줄 수 있습니다.",
+ "saw": "당뇨병이 없는 과체중·비만 환자 7개 무작위시험 269명 메타분석에서 아카보스는 중성지방을 낮췄고, 체중 효과는 작았습니다. 저혈당은 없었고 위장관 반응은 경미했습니다.",
+ "limit": "7개 연구의 표본이 작고, BMI 감소는 통계적으로 유의하지 않았습니다(P=.56). 체중관리 허가약의 대체 근거가 아닙니다.",
+ "against": "체중과 BMI의 변화는 일관된 임상적 크기에 도달하지 않았고, 중성지방 외 대사 지표도 뚜렷하게 좋아지지 않았습니다.",
+ "use": "비만 치료제로 routine 처방하지 않으며, 위장관 부작용과 식사·운동 치료를 함께 고려합니다.",
+ "effect": "중성지방 감소; BMI NS",
+ "refs": [
+  {
+   "label": "Yu 2021 · Advances in Therapy · 비당뇨 비만 메타분석",
+   "pmid": "33421022"
+  },
+  {
+   "label": "과체중·비만 아카보스 시험",
+   "nct": "NCT04521751"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=acarbose, cond=Obesity · 10건 중 8건 직접 확인",
+  "pubmed": "acarbose AND Obesity · 377건",
+  "negative": "acarbose AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) · 296건",
+  "safety": "acarbose AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 896건"
+ },
+ "vs": "아카보스 vs 위약: 중성지방 WMD -0.21mmol/L(95% CI -0.33~-0.09), p=.0006; BMI 차이는 유의하지 않음; 7 RCT 269명"
 }

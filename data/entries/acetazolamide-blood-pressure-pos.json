@@ -1,20 +1,34 @@
 {
-  "id": "acetazolamide-blood-pressure-pos",
-  "subj": "acetazolamide",
-  "claim": "소규모 연구에서 아세타졸아미드가 고혈압·수면무호흡의 평균혈압을 낮췄다",
-  "line": "아세타졸아미드는 고혈압·수면무호흡 환자의 평균동맥압을 낮췄다.",
-  "effect": "평균혈압 -7mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 13,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "아세타졸아미드는 고혈압 치료의 허가 적응증이 아니다",
-  "why": "고혈압과 중등도·중증 폐쇄성 수면무호흡 남성을 아세타졸아미드와 지속기도양압에 교차 배정했다.",
-  "saw": "남성 13명이 각 치료를 2주씩 받았다. 아세타졸아미드는 평균동맥압을 기준선보다 7mmHg 낮추고 수면무호흡 지수도 줄였다.",
-  "limit": "표본이 13명이고 치료 기간이 2주인 짧은 교차시험이다.",
-  "against": "장기 혈압 조절이나 일반 고혈압 환자에 대한 효과는 확인하지 않았다.",
-  "use": "고혈압·수면무호흡 동반 환자의 단기 약물 탐색 신호로만 기록한다.",
-  "refs": [{ "label": "Edwards 2017 · Journal of Clinical Sleep Medicine · 무작위 교차시험", "doi": "10.5664/jcsm.6968", "pmid": "29510792", "nct": "NCT02220803" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=acetazolamide, cond=Blood Pressure · 1건", "pubmed": "acetazolamide AND Blood Pressure · 761편", "negative": "acetazolamide AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) · 558편", "safety": "acetazolamide AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2742편" }
+ "id": "acetazolamide-blood-pressure-pos",
+ "subj": "아세타졸아미드",
+ "claim": "소규모 연구에서 아세타졸아미드가 고혈압·수면무호흡의 평균혈압을 낮췄다",
+ "line": "아세타졸아미드는 고혈압·수면무호흡 환자의 평균동맥압을 낮췄다.",
+ "effect": "평균혈압 -7mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 13,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "아세타졸아미드는 고혈압 치료의 허가 적응증이 아니다",
+ "why": "고혈압과 중등도·중증 폐쇄성 수면무호흡 남성을 아세타졸아미드와 지속기도양압에 교차 배정했다.",
+ "saw": "남성 13명이 각 치료를 2주씩 받았다. 아세타졸아미드는 평균동맥압을 기준선보다 7mmHg 낮추고 수면무호흡 지수도 줄였다.",
+ "limit": "표본이 13명이고 치료 기간이 2주인 짧은 교차시험이다.",
+ "against": "장기 혈압 조절이나 일반 고혈압 환자에 대한 효과는 확인하지 않았다.",
+ "use": "고혈압·수면무호흡 동반 환자의 단기 약물 탐색 신호로만 기록한다.",
+ "refs": [
+  {
+   "label": "Edwards 2017 · Journal of Clinical Sleep Medicine · 무작위 교차시험",
+   "doi": "10.5664/jcsm.6968",
+   "pmid": "29510792",
+   "nct": "NCT02220803"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=acetazolamide, cond=Blood Pressure · 1건",
+  "pubmed": "acetazolamide AND Blood Pressure · 761편",
+  "negative": "acetazolamide AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) · 558편",
+  "safety": "acetazolamide AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2742편"
+ },
+ "vs": "아세타졸아미드 vs CPAP: 평균동맥압 변화 -7mmHg(95% CI -11~-4) vs -1(-5~4); 13명 3-way 교차시험"
 }

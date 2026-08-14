@@ -1,21 +1,33 @@
 {
-  "id": "acupressure-sleep-pos",
-  "subj": "acupressure",
-  "claim": "성인의 수면 질 저하에서 지압이 가짜 지압보다 수면 점수를 개선했다",
-  "line": "성인에서 지압은 수면 질 점수를 개선하였다.",
-  "effect": "PSQI MD -3.41",
-  "vs": "지압군 PSQI 점수 MD -3.41 (대조군 대비)",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 968,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "지압은 수면장애 치료의 허가 적응증이 아니다",
-  "why": "성인 수면 질 저하에 대한 지압 무작위시험 32편을 체계적으로 검토하고 수면 점수를 메타분석했다.",
-  "saw": "무작위시험 32편 중 13편, 968명의 수면 점수를 종합했다. 가짜 지압과 비교한 7개 시험 385명에서 PSQI가 MD -3.41 좋아졌고 중대한 이상반응은 보고되지 않았다.",
-  "limit": "환자·시술자 눈가림이 어려웠고 연구별 지압점·빈도·대상군이 달랐다.",
-  "against": "임상 이질성과 눈가림 한계 때문에 모든 수면장애에 같은 효과를 가정할 수 없다.",
-  "use": "성인 수면 질 저하에서 비약물적 지압을 검토할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Carla 2017 · Sleep Medicine Reviews · 메타분석", "doi": "10.1016/j.smrv.2016.12.004", "pmid": "28089414" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=acupressure, cond=Sleep · 68건", "pubmed": "acupressure AND Sleep · 359편", "negative": "acupressure AND Sleep AND (no effect OR did not OR failed OR negative OR no significant difference) · 318편", "safety": "acupressure AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 668편" }
+ "id": "acupressure-sleep-pos",
+ "subj": "지압",
+ "claim": "성인의 수면 질 저하에서 지압이 가짜 지압보다 수면 점수를 개선했다",
+ "line": "성인에서 지압은 수면 질 점수를 개선하였다.",
+ "effect": "PSQI MD -3.41",
+ "vs": "지압군 PSQI 점수 MD -3.41 (대조군 대비)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 968,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "지압은 수면장애 치료의 허가 적응증이 아니다",
+ "why": "성인 수면 질 저하에 대한 지압 무작위시험 32편을 체계적으로 검토하고 수면 점수를 메타분석했다.",
+ "saw": "무작위시험 32편 중 13편, 968명의 수면 점수를 종합했다. 가짜 지압과 비교한 7개 시험 385명에서 PSQI가 MD -3.41 좋아졌고 중대한 이상반응은 보고되지 않았다.",
+ "limit": "환자·시술자 눈가림이 어려웠고 연구별 지압점·빈도·대상군이 달랐다.",
+ "against": "임상 이질성과 눈가림 한계 때문에 모든 수면장애에 같은 효과를 가정할 수 없다.",
+ "use": "성인 수면 질 저하에서 비약물적 지압을 검토할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Carla 2017 · Sleep Medicine Reviews · 메타분석",
+   "doi": "10.1016/j.smrv.2016.12.004",
+   "pmid": "28089414"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=acupressure, cond=Sleep · 68건",
+  "pubmed": "acupressure AND Sleep · 359편",
+  "negative": "acupressure AND Sleep AND (no effect OR did not OR failed OR negative OR no significant difference) · 318편",
+  "safety": "acupressure AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 668편"
+ }
 }

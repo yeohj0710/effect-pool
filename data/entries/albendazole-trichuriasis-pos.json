@@ -1,28 +1,35 @@
 {
-  "id": "albendazole-trichuriasis-pos",
-  "subj": "albendazole",
-  "claim": "알벤다졸·이버멕틴 병용요법이 편충 감염을 치료한다",
-  "line": "알벤다졸·이버멕틴은 편충 치유율을 높였다",
-  "effect": "치유율 31.3% 대 12.3%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 161,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "알벤다졸 허가사항에 편충 감염 치료는 포함되지 않는다",
-  "why": "알벤다졸 단독으로 치료가 잘 되지 않는 편충 감염에서 이버멕틴 병용 효과를 확인했다.",
-  "saw": "우간다 초등학생 161명을 무작위 배정한 시험에서 알벤다졸·이버멕틴 병용군의 편충 치유율은 31.3%, 알벤다졸 단독군은 12.3%였다. 충란감소율은 각각 91.4%와 52.7%였다.",
-  "limit": "공개형 단일 시험이며 병용요법의 효과를 알벤다졸 단독과 비교했다.",
-  "against": "두 치료 모두 이상반응은 적고 경미했으며, 보고 건수는 병용군 19건과 단독군 22건이었다.",
-  "use": "편충 감염에서 알벤다졸 병용요법의 치료 신호를 설명할 때 사용한다.",
-  "refs": [
-    { "label": "우간다 편충 감염 무작위시험", "doi": "10.1371/journal.pntd.0012687", "pmid": "39591454", "pmc": "PMC11630569", "nct": "NCT06037876" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "albendazole AND Trichuriasis · 10건",
-    "pubmed": "albendazole AND Trichuriasis · 260건",
-    "negative": "albendazole AND Trichuriasis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 180건",
-    "safety": "albendazole AND Trichuriasis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 61건"
+ "id": "albendazole-trichuriasis-pos",
+ "subj": "알벤다졸",
+ "claim": "알벤다졸·이버멕틴 병용요법이 편충 감염을 치료한다",
+ "line": "알벤다졸·이버멕틴은 편충 치유율을 높였다",
+ "effect": "치유율 31.3% 대 12.3%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 161,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "알벤다졸 허가사항에 편충 감염 치료는 포함되지 않는다",
+ "why": "알벤다졸 단독으로 치료가 잘 되지 않는 편충 감염에서 이버멕틴 병용 효과를 확인했다.",
+ "saw": "우간다 초등학생 161명을 무작위 배정한 시험에서 알벤다졸·이버멕틴 병용군의 편충 치유율은 31.3%, 알벤다졸 단독군은 12.3%였다. 충란감소율은 각각 91.4%와 52.7%였다.",
+ "limit": "공개형 단일 시험이며 병용요법의 효과를 알벤다졸 단독과 비교했다.",
+ "against": "두 치료 모두 이상반응은 적고 경미했으며, 보고 건수는 병용군 19건과 단독군 22건이었다.",
+ "use": "편충 감염에서 알벤다졸 병용요법의 치료 신호를 설명할 때 사용한다.",
+ "refs": [
+  {
+   "label": "우간다 편충 감염 무작위시험",
+   "doi": "10.1371/journal.pntd.0012687",
+   "pmid": "39591454",
+   "pmc": "PMC11630569",
+   "nct": "NCT06037876"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "albendazole AND Trichuriasis · 10건",
+  "pubmed": "albendazole AND Trichuriasis · 260건",
+  "negative": "albendazole AND Trichuriasis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 180건",
+  "safety": "albendazole AND Trichuriasis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 61건"
+ },
+ "vs": "알벤다졸+이버멕틴 vs 알벤다졸 단독: 편충 치유 31.3% vs 12.3%, 차이 18.9%p(95% CI 6.2~31.2), 난자 감소율 91.4% vs 52.7%; RCT 161명"
 }

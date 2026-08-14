@@ -1,29 +1,36 @@
 {
-  "id": "albuterol-bronchiolitis-null",
-  "subj": "알부테롤",
-  "claim": "알부테롤의 기관지확장 효과를 영아 세기관지염에 썼지만 이득이 없었다",
-  "line": "알부테롤 무작위시험 메타분석에서 산소포화도·입원·입원기간은 개선되지 않았다.",
-  "effect": "산소포화도·입원·입원기간 개선 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1992,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "알부테롤의 허가 적응증인 기관지경련성 기도질환과 달리 영아 세기관지염은 허가 밖입니다.",
-  "why": "기관지수축을 풀어 영아 세기관지염을 치료하려던 알부테롤의 효과를 무작위시험 30개로 종합한 코크란 고찰입니다.",
-  "saw": "30개 시험 1992명에서 기관지확장제는 산소포화도, 외래 입원, 입원기간과 질병 해소 시간을 개선하지 않았습니다. 알부테롤·살부타몰 외래 하위분석에서도 산소포화도 MD -0.19, 입원 OR 0.77로 효과가 없었고 빈맥·산소포화도 저하·떨림이 보고됐습니다.",
-  "limit": "시험별 중재와 임상점수가 달랐고 일부 결과의 이질성이 컸습니다.",
-  "against": "외래 임상점수는 조금 낮아졌지만 효과 크기가 작고 임상적 중요성이 불확실했습니다.",
-  "use": "기관지확장 작용을 세기관지염에 전환했으나 이상반응만 남은 무효 사례로 표시합니다.",
-  "refs": [
-    { "label": "세기관지염 기관지확장제 코크란 메타분석", "pmid": "24937099" },
-    { "label": "세기관지염 알부테롤 사용 감소 연구", "pmid": "31810996" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=albuterol · cond=Bronchiolitis → 29건 반환, 물질 대조 후 5건",
-    "pubmed": "albuterol AND Bronchiolitis → 308편",
-    "negative": "albuterol AND Bronchiolitis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 174편",
-    "safety": "albuterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3804편"
+ "id": "albuterol-bronchiolitis-null",
+ "subj": "알부테롤",
+ "claim": "알부테롤의 기관지확장 효과를 영아 세기관지염에 썼지만 이득이 없었다",
+ "line": "알부테롤 무작위시험 메타분석에서 산소포화도·입원·입원기간은 개선되지 않았다.",
+ "effect": "산소포화도·입원·입원기간 개선 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1992,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "알부테롤의 허가 적응증인 기관지경련성 기도질환과 달리 영아 세기관지염은 허가 밖입니다.",
+ "why": "기관지수축을 풀어 영아 세기관지염을 치료하려던 알부테롤의 효과를 무작위시험 30개로 종합한 코크란 고찰입니다.",
+ "saw": "30개 시험 1992명에서 기관지확장제는 산소포화도, 외래 입원, 입원기간과 질병 해소 시간을 개선하지 않았습니다. 알부테롤·살부타몰 외래 하위분석에서도 산소포화도 MD -0.19, 입원 OR 0.77로 효과가 없었고 빈맥·산소포화도 저하·떨림이 보고됐습니다.",
+ "limit": "시험별 중재와 임상점수가 달랐고 일부 결과의 이질성이 컸습니다.",
+ "against": "외래 임상점수는 조금 낮아졌지만 효과 크기가 작고 임상적 중요성이 불확실했습니다.",
+ "use": "기관지확장 작용을 세기관지염에 전환했으나 이상반응만 남은 무효 사례로 표시합니다.",
+ "refs": [
+  {
+   "label": "세기관지염 기관지확장제 코크란 메타분석",
+   "pmid": "24937099"
+  },
+  {
+   "label": "세기관지염 알부테롤 사용 감소 연구",
+   "pmid": "31810996"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=albuterol · cond=Bronchiolitis → 29건 반환, 물질 대조 후 5건",
+  "pubmed": "albuterol AND Bronchiolitis → 308편",
+  "negative": "albuterol AND Bronchiolitis AND (no effect OR did not OR failed to OR negative OR no significant difference) → 174편",
+  "safety": "albuterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3804편"
+ },
+ "vs": "알부테롤 등 기관지확장제 vs 위약: 입원 11.9% vs 15.9%, OR 0.75(95% CI 0.46~1.21); 산소포화도 MD -0.43(-0.92~0.06); 30 RCT 1,992명"
 }

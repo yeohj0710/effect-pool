@@ -1,35 +1,36 @@
 {
-  "id": "acetazolamide-sleep-disordered-breathing-pos",
-  "subj": "아세타졸아미드",
-  "claim": "소규모 연구에서 아세타졸아미드가 폐혈관질환의 야간 산소화를 개선했다",
-  "line": "폐혈관질환 환자의 수면호흡장애에서 아세타졸아미드는 야간 산소화를 개선했다.",
-  "effect": "야간 산소포화도 +2.3%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "why": "폐혈관질환 환자의 수면호흡장애에서 아세타졸아미드와 위약을 비교한 무작위 교차시험입니다.",
-  "saw": "폐혈관질환 환자 20명에서 아세타졸아미드는 위약보다 평균 야간 산소포화도를 2.3% 높이고 산소포화도 90% 미만 시간을 줄였습니다. 무호흡·저호흡지수 15 초과 비율도 30%에서 15%로 감소했습니다.",
-  "limit": "폐동맥고혈압 또는 만성 혈전색전성 폐고혈압 환자의 5주 결과라 일반적인 수면무호흡이나 장기 임상 사건으로 일반화할 수 없습니다. 두 명은 경미한 부작용으로 중단했습니다.",
-  "against": "고혈압과 폐쇄성수면무호흡 환자 13명 교차시험에서도 호흡장애가 줄었지만 표본이 작고 단기 결과였습니다.",
-  "use": "폐혈관질환에 동반된 수면호흡장애와 야간 저산소증의 단기 보조치료 신호가 있습니다.",
-  "refs": [
-    {
-      "label": "Prisco 2025 · ERJ Open Research · 폐혈관질환 수면호흡장애 무작위시험",
-      "doi": "10.1183/23120541.00040-2024",
-      "pmid": "39469274"
-    },
-    {
-      "label": "Kholdani 2017 · Journal of Clinical Sleep Medicine · 고혈압·수면무호흡 교차시험",
-      "doi": "10.5664/jcsm.6968",
-      "pmid": "29510792"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=acetazolamide, cond=Sleep-Disordered Breathing → 8건 반환, InterventionName 대조 후 5건",
-    "pubmed": "acetazolamide sleep disordered breathing → 171건",
-    "negative": "acetazolamide sleep disordered breathing AND (no effect OR did not OR failed to OR negative OR no significant difference) → 104건",
-    "safety": "acetazolamide sleep disordered breathing AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 48건"
+ "id": "acetazolamide-sleep-disordered-breathing-pos",
+ "subj": "아세타졸아미드",
+ "claim": "소규모 연구에서 아세타졸아미드가 폐혈관질환의 야간 산소화를 개선했다",
+ "line": "폐혈관질환 환자의 수면호흡장애에서 아세타졸아미드는 야간 산소화를 개선했다.",
+ "effect": "야간 산소포화도 +2.3%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 20,
+ "synth": "single",
+ "why": "폐혈관질환 환자의 수면호흡장애에서 아세타졸아미드와 위약을 비교한 무작위 교차시험입니다.",
+ "saw": "폐혈관질환 환자 20명에서 아세타졸아미드는 위약보다 평균 야간 산소포화도를 2.3% 높이고 산소포화도 90% 미만 시간을 줄였습니다. 무호흡·저호흡지수 15 초과 비율도 30%에서 15%로 감소했습니다.",
+ "limit": "폐동맥고혈압 또는 만성 혈전색전성 폐고혈압 환자의 5주 결과라 일반적인 수면무호흡이나 장기 임상 사건으로 일반화할 수 없습니다. 두 명은 경미한 부작용으로 중단했습니다.",
+ "against": "고혈압과 폐쇄성수면무호흡 환자 13명 교차시험에서도 호흡장애가 줄었지만 표본이 작고 단기 결과였습니다.",
+ "use": "폐혈관질환에 동반된 수면호흡장애와 야간 저산소증의 단기 보조치료 신호가 있습니다.",
+ "refs": [
+  {
+   "label": "Prisco 2025 · ERJ Open Research · 폐혈관질환 수면호흡장애 무작위시험",
+   "doi": "10.1183/23120541.00040-2024",
+   "pmid": "39469274"
+  },
+  {
+   "label": "Kholdani 2017 · Journal of Clinical Sleep Medicine · 고혈압·수면무호흡 교차시험",
+   "doi": "10.5664/jcsm.6968",
+   "pmid": "29510792"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=acetazolamide, cond=Sleep-Disordered Breathing → 8건 반환, InterventionName 대조 후 5건",
+  "pubmed": "acetazolamide sleep disordered breathing → 171건",
+  "negative": "acetazolamide sleep disordered breathing AND (no effect OR did not OR failed to OR negative OR no significant difference) → 104건",
+  "safety": "acetazolamide sleep disordered breathing AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 48건"
+ },
+ "vs": "아세타졸아미드 vs 위약: 야간 SpO2 +2.3%(95% CI 1.3~3.3), 산소포화도 90% 미만 시간 -18.8%(-29.6~-8.0), AHI>5 비율 75%→60%; 교차시험 20명"
 }

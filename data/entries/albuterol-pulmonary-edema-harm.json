@@ -1,29 +1,36 @@
 {
-  "id": "albuterol-pulmonary-edema-harm",
-  "subj": "알부테롤",
-  "claim": "알부테롤의 빈맥 부작용을 감수하고 폐부종을 치료했지만 산소화는 좋아지지 않았다",
-  "line": "뇌사 장기기증자 무작위시험에서 분무 알부테롤은 산소화·폐 이용률을 높이지 못했고 오히려 빈맥을 늘렸다.",
-  "effect": "산소화 개선 없음, 빈맥으로 감량·중단 증가",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 506,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "알부테롤의 허가 적응증인 기관지경련성 기도질환과 달리 폐부종 치료는 허가 밖입니다.",
-  "why": "베타2 작용으로 폐포 수분 제거를 기대해 알부테롤을 폐부종에 전환했지만 고용량 빈맥과 효능 실패가 함께 관찰된 무작위시험입니다.",
-  "saw": "뇌사 장기기증자 506명이 5mg 분무 알부테롤 또는 생리식염수에 무작위 배정됐습니다. PaO2/FiO2 변화와 폐 이용률은 차이가 없었고, 알부테롤군은 빈맥으로 감량 13% 대 1%, 중단 8% 대 0%가 됐습니다.",
-  "limit": "장기기증자 관리 상황의 고용량 투여 결과라 일반 폐부종 환자에게 그대로 적용할 수 없습니다.",
-  "against": "동물 실험에서는 베타작용제가 폐포 수분 제거와 혈액가스를 개선해 사람 대상 임상시험의 근거가 됐습니다.",
-  "use": "빈맥이라는 이상반응을 감수한 폐부종 전환이 임상효과로 이어지지 않은 사례로 표시합니다.",
-  "refs": [
-    { "label": "뇌사 장기기증자 알부테롤 폐부종 무작위시험", "pmid": "24730050" },
-    { "label": "베타작용제 폐부종 동물 실험", "pmid": "11007557" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=albuterol · cond=Pulmonary Edema → 4건 반환, 물질 대조 후 1건",
-    "pubmed": "albuterol AND Pulmonary Edema → 102편",
-    "negative": "albuterol AND Pulmonary Edema AND (no effect OR did not OR failed to OR negative OR no significant difference) → 72편",
-    "safety": "albuterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3804편"
+ "id": "albuterol-pulmonary-edema-harm",
+ "subj": "알부테롤",
+ "claim": "알부테롤의 빈맥 부작용을 감수하고 폐부종을 치료했지만 산소화는 좋아지지 않았다",
+ "line": "뇌사 장기기증자 무작위시험에서 분무 알부테롤은 산소화·폐 이용률을 높이지 못했고 오히려 빈맥을 늘렸다.",
+ "effect": "산소화 개선 없음, 빈맥으로 감량·중단 증가",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 506,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "알부테롤의 허가 적응증인 기관지경련성 기도질환과 달리 폐부종 치료는 허가 밖입니다.",
+ "why": "베타2 작용으로 폐포 수분 제거를 기대해 알부테롤을 폐부종에 전환했지만 고용량 빈맥과 효능 실패가 함께 관찰된 무작위시험입니다.",
+ "saw": "뇌사 장기기증자 506명이 5mg 분무 알부테롤 또는 생리식염수에 무작위 배정됐습니다. PaO2/FiO2 변화와 폐 이용률은 차이가 없었고, 알부테롤군은 빈맥으로 감량 13% 대 1%, 중단 8% 대 0%가 됐습니다.",
+ "limit": "장기기증자 관리 상황의 고용량 투여 결과라 일반 폐부종 환자에게 그대로 적용할 수 없습니다.",
+ "against": "동물 실험에서는 베타작용제가 폐포 수분 제거와 혈액가스를 개선해 사람 대상 임상시험의 근거가 됐습니다.",
+ "use": "빈맥이라는 이상반응을 감수한 폐부종 전환이 임상효과로 이어지지 않은 사례로 표시합니다.",
+ "refs": [
+  {
+   "label": "뇌사 장기기증자 알부테롤 폐부종 무작위시험",
+   "pmid": "24730050"
+  },
+  {
+   "label": "베타작용제 폐부종 동물 실험",
+   "pmid": "11007557"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=albuterol · cond=Pulmonary Edema → 4건 반환, 물질 대조 후 1건",
+  "pubmed": "albuterol AND Pulmonary Edema → 102편",
+  "negative": "albuterol AND Pulmonary Edema AND (no effect OR did not OR failed to OR negative OR no significant difference) → 72편",
+  "safety": "albuterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3804편"
+ },
+ "vs": "분무 알부테롤 vs 생리식염수: 폐 이용률 29% vs 32%, p=.44; PaO2/FiO2 변화 p=.54; 빈맥으로 감량 13% vs 1%, 중단 8% vs 0%, p<.001; RCT 506명"
 }

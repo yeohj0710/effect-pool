@@ -1,20 +1,33 @@
 {
-  "id": "acetylcysteine-kidney-disease-null",
-  "subj": "acetylcysteine",
-  "claim": "신장기능저하 환자의 조영제 신손상을 아세틸시스테인으로 예방한다",
-  "line": "신장기능 저하 환자에서 아세틸시스테인은 조영제 신손상을 유의하게 줄이지 못했다.",
-  "effect": "조영제 신손상 감소 유의하지 않음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 545,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "아세틸시스테인은 조영제 신손상 예방의 허가 적응증이 아니다.",
-  "why": "기존 신장기능저하 환자에서 정맥 조영제 투여 전 아세틸시스테인과 무투여를 비교한 무작위시험을 합친 메타분석이다.",
-  "saw": "무작위시험 8편 545명을 합쳤다. 아세틸시스테인은 조영제 후 급성 신손상을 줄이는 경향은 있었지만 위험비 0.47, 95% 신뢰구간 0.20~1.11로 유의하지 않았고 근거 확실성은 낮았다.",
-  "limit": "시험 간 이질성이 컸고 사망·신대체요법 자료가 부족했다. 정맥 조영제 검사 상황에 한정된다.",
-  "against": "단일기관 시험에서는 아세틸시스테인군의 신손상 비율이 낮았지만 스타틴군보다 효과가 뚜렷하지 않았다.",
-  "use": "조영제 신손상 예방에서 아세틸시스테인의 기전과 불확실한 임상 효과를 구분한다.",
-  "refs": [{ "label": "신장기능저하 조영제 신손상 아세틸시스테인 메타분석", "doi": "10.1007/s00330-023-09577-1", "pmid": "37071164" }],
-  "queried": { "date": "2026-08-06", "ctgov": "acetylcysteine AND Kidney Disease · 53건, 중재명 대조 후 53건", "pubmed": "acetylcysteine AND Kidney Disease · 1421편; N-acetylcysteine contrast acute kidney injury randomized trial · 123편", "negative": "1202편", "safety": "acetylcysteine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8671편" }
+ "id": "acetylcysteine-kidney-disease-null",
+ "subj": "아세틸시스테인",
+ "claim": "신장기능저하 환자의 조영제 신손상을 아세틸시스테인으로 예방한다",
+ "line": "신장기능 저하 환자에서 아세틸시스테인은 조영제 신손상을 유의하게 줄이지 못했다.",
+ "effect": "조영제 신손상 감소 유의하지 않음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 545,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "아세틸시스테인은 조영제 신손상 예방의 허가 적응증이 아니다.",
+ "why": "기존 신장기능저하 환자에서 정맥 조영제 투여 전 아세틸시스테인과 무투여를 비교한 무작위시험을 합친 메타분석이다.",
+ "saw": "무작위시험 8편 545명을 합쳤다. 아세틸시스테인은 조영제 후 급성 신손상을 줄이는 경향은 있었지만 위험비 0.47, 95% 신뢰구간 0.20~1.11로 유의하지 않았고 근거 확실성은 낮았다.",
+ "limit": "시험 간 이질성이 컸고 사망·신대체요법 자료가 부족했다. 정맥 조영제 검사 상황에 한정된다.",
+ "against": "단일기관 시험에서는 아세틸시스테인군의 신손상 비율이 낮았지만 스타틴군보다 효과가 뚜렷하지 않았다.",
+ "use": "조영제 신손상 예방에서 아세틸시스테인의 기전과 불확실한 임상 효과를 구분한다.",
+ "refs": [
+  {
+   "label": "신장기능저하 조영제 신손상 아세틸시스테인 메타분석",
+   "doi": "10.1007/s00330-023-09577-1",
+   "pmid": "37071164"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "acetylcysteine AND Kidney Disease · 53건, 중재명 대조 후 53건",
+  "pubmed": "acetylcysteine AND Kidney Disease · 1421편; N-acetylcysteine contrast acute kidney injury randomized trial · 123편",
+  "negative": "1202편",
+  "safety": "acetylcysteine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 8671편"
+ },
+ "vs": "N-아세틸시스테인 vs 투여하지 않음: 조영제 급성 신손상 RR 0.47(95% CI 0.20~1.11), 사망 RR 0.67(0.29~1.54); 8 RCT 545명"
 }
