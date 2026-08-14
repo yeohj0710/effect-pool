@@ -1,28 +1,32 @@
 {
-  "id": "emotion-regulation-group-therapy-stress-pos",
-  "subj": "emotion regulation group therapy",
-  "claim": "정서조절 집단치료로 경계성 인격장애 여성의 스트레스 증상이 줄었다",
-  "line": "정서조절 집단치료 뒤 스트레스가 줄었다.",
-  "effect": "유의한 스트레스 감소",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "emotion-regulation-group-therapy-stress-pos",
+ "subj": "정서조절 집단치료",
+ "claim": "정서조절 집단치료로 경계성 인격장애 여성의 스트레스 증상이 줄었다",
+ "line": "정서조절 집단치료 뒤 스트레스가 줄었다.",
+ "effect": "유의한 스트레스 감소",
+ "tier": "trial",
+ "dir": "pos",
   "n": 61,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "반복적 자해와 정서조절 곤란이 있는 경계성 인격장애에서 집단 정서조절치료가 스트레스 증상을 줄이는지 확인했다.",
-  "saw": "경계성 인격장애 여성 61명을 정서조절 집단치료군과 대기군으로 무작위 배정했다. 14주 치료 후 정서조절 곤란, 자해, 경계성 증상, 우울과 스트레스 증상, 삶의 질에서 유의한 치료 효과가 나타났다.",
-  "limit": "스트레스는 자해 치료의 이차 결과이고 9개월 추적은 무통제 전후 분석이었다.",
-  "against": "대기군을 사용해 적극적 심리치료와의 차이는 확인하지 않았다.",
-  "use": "자해를 동반한 경계성 인격장애의 스트레스 보조치료",
-  "refs": [
-    { "label": "정서조절 집단치료 무작위시험", "pmid": "23985088" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=emotion regulation group therapy AND condition=Stress; 0건",
-    "pubmed": "emotion regulation group therapy AND Stress; 750건",
-    "negative": "emotion regulation group therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 2066건",
-    "safety": "emotion regulation group therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 306건"
+  "vs": "정서조절 집단치료 31명 즉시치료 대비 30명 대기군; 14주 후 스트레스와 정서조절 곤란이 대기군보다 개선됐고 9개월 추적에서 효과가 유지됨",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "반복적 자해와 정서조절 곤란이 있는 경계성 인격장애에서 집단 정서조절치료가 스트레스 증상을 줄이는지 확인했다.",
+ "saw": "경계성 인격장애 여성 61명을 정서조절 집단치료군과 대기군으로 무작위 배정했다. 14주 치료 후 정서조절 곤란, 자해, 경계성 증상, 우울과 스트레스 증상, 삶의 질에서 유의한 치료 효과가 나타났다.",
+ "limit": "스트레스는 자해 치료의 이차 결과이고 9개월 추적은 무통제 전후 분석이었다.",
+ "against": "대기군을 사용해 적극적 심리치료와의 차이는 확인하지 않았다.",
+ "use": "자해를 동반한 경계성 인격장애의 스트레스 보조치료",
+ "refs": [
+  {
+   "label": "정서조절 집단치료 무작위시험",
+   "pmid": "23985088"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=emotion regulation group therapy AND condition=Stress; 0건",
+  "pubmed": "emotion regulation group therapy AND Stress; 750건",
+  "negative": "emotion regulation group therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 2066건",
+  "safety": "emotion regulation group therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 306건"
+ }
 }

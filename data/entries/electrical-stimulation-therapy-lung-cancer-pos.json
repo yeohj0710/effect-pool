@@ -1,20 +1,33 @@
 {
-  "id": "electrical-stimulation-therapy-lung-cancer-pos",
-  "subj": "electrical stimulation therapy",
-  "claim": "경피 전기자극이 식도암 수술 중 폐손상 지표를 개선한다",
-  "line": "식도암 수술 중 경피 전기자극은 산소화를 개선했다.",
-  "effect": "산소화 개선·폐합병증 감소",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "electrical-stimulation-therapy-lung-cancer-pos",
+ "subj": "전기 자극 치료",
+ "claim": "경피 전기자극이 식도암 수술 중 폐손상 지표를 개선한다",
+ "line": "식도암 수술 중 경피 전기자극은 산소화를 개선했다.",
+ "effect": "산소화 개선·폐합병증 감소",
+ "tier": "trial",
+ "dir": "pos",
   "n": 121,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "경피 전기자극은 의약품이 아닌 수술 보조 중재입니다.",
-  "why": "식도암 수술 환자 121명을 경피 전기경혈자극군과 가짜자극군에 무작위 배정했습니다.",
-  "saw": "한쪽 폐 환기 뒤 전기자극군의 산소화 지표가 높고 폐포-동맥 산소차·TNF-α·IL-6가 낮았으며 폐감염과 흉수도 적었습니다.",
-  "limit": "수술 중 단회 자극이고 대상은 식도암 수술 환자라 일반 폐암 치료로 확장할 수 없습니다.",
-  "against": "암 자체의 치료효과나 장기 생존은 평가하지 않았습니다.",
-  "use": "흉부 수술 중 전기자극이 폐손상과 합병증 지표에 보인 보조 신호로 기록합니다.",
-  "refs": [{ "label": "식도암 수술 중 경피 전기경혈자극 무작위시험", "doi": "10.1155/2020/9018701", "pmid": "32595749" }],
-  "queried": { "date": "2026-08-08", "ctgov": "electrical stimulation therapy AND Lung Cancer · 8건 반환", "pubmed": "electrical stimulation therapy AND Lung Cancer · 183편", "negative": "electrical stimulation therapy AND Lung Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 123편", "safety": "electrical stimulation therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 29954편" }
+  "vs": "121명 무작위시험에서 경피 전기경혈자극 대 가짜자극; 수술 중 산소화 지수 증가, A-aDO2·TNF-α·IL-6 감소, IL-10 증가, 폐합병증·흉관 제거·입원 기간 차이 모두 P<.05",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "경피 전기자극은 의약품이 아닌 수술 보조 중재입니다.",
+ "why": "식도암 수술 환자 121명을 경피 전기경혈자극군과 가짜자극군에 무작위 배정했습니다.",
+ "saw": "한쪽 폐 환기 뒤 전기자극군의 산소화 지표가 높고 폐포-동맥 산소차·TNF-α·IL-6가 낮았으며 폐감염과 흉수도 적었습니다.",
+ "limit": "수술 중 단회 자극이고 대상은 식도암 수술 환자라 일반 폐암 치료로 확장할 수 없습니다.",
+ "against": "암 자체의 치료효과나 장기 생존은 평가하지 않았습니다.",
+ "use": "흉부 수술 중 전기자극이 폐손상과 합병증 지표에 보인 보조 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "식도암 수술 중 경피 전기경혈자극 무작위시험",
+   "doi": "10.1155/2020/9018701",
+   "pmid": "32595749"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "electrical stimulation therapy AND Lung Cancer · 8건 반환",
+  "pubmed": "electrical stimulation therapy AND Lung Cancer · 183편",
+  "negative": "electrical stimulation therapy AND Lung Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 123편",
+  "safety": "electrical stimulation therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 29954편"
+ }
 }

@@ -1,32 +1,33 @@
 {
-  "id": "emotion-regulation-training-depressive-symptom-null",
-  "subj": "emotion regulation training",
-  "claim": "폭력 피해 우울 환자에서 인터넷 감정 조절 훈련은 조절 곤란은 줄였지만 우울 증상은 줄이지 못했다",
-  "line": "조절 곤란은 줄었지만 우울은 줄지 않았다.",
-  "effect": "조절 곤란 감소",
-  "tier": "trial",
-  "dir": "null",
+ "id": "emotion-regulation-training-depressive-symptom-null",
+ "subj": "정서조절 훈련",
+ "claim": "폭력 피해 우울 환자에서 인터넷 감정 조절 훈련은 조절 곤란은 줄였지만 우울 증상은 줄이지 못했다",
+ "line": "조절 곤란은 줄었지만 우울은 줄지 않았다.",
+ "effect": "조절 곤란 감소",
+ "tier": "trial",
+ "dir": "null",
   "n": 153,
-  "synth": "single",
-  "why": "폭력 피해를 경험한 우울 환자 153명을 대상으로 인터넷 감정 조절 훈련과 대조 조건을 비교한 무작위 연구다.",
-  "saw": "훈련군에서 감정 조절 곤란은 줄었지만 우울 증상과 재피해는 유의하게 줄지 않았다.",
-  "limit": "특정 폭력 피해 우울 환자 표본이며 인터넷 중재의 탈락과 순응도 영향을 받는다.",
-  "against": "우울 증상 자체를 낮추는 효과는 확인되지 않았다.",
-  "use": "우울증 치료가 아니라 감정 조절 기술 보조 훈련으로만 검토한다.",
-  "refs": [
-    {
-      "label": "Internet-based emotion regulation training aimed at reducing violent revictimization and depressive symptoms in victimized depressed patients",
-      "doi": "10.1016/j.jad.2024.03.028",
-      "pmid": "38521137"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=emotion regulation training, cond=Depressive Symptom · 2건 직접 확인",
-    "pubmed": "emotion regulation training AND Depressive Symptom · 533건",
-    "negative": "emotion regulation training AND Depressive Symptom AND (no effect OR did not OR failed OR negative OR no significant difference) · 1199건",
-    "safety": "emotion regulation training AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 563건"
-  },
-  "known": "off",
-  "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목."
+  "vs": "인터넷 정서조절 훈련+통상치료 74명 대 통상치료 79명; 재피해 IRR 0.97 (95% CI 0.64~1.46, P=.886), 정서조절 곤란 B −7.217(P=.046, d=0.33), 우울 증상 B −1.041(P=.607)",
+ "synth": "single",
+ "why": "폭력 피해를 경험한 우울 환자 153명을 대상으로 인터넷 감정 조절 훈련과 대조 조건을 비교한 무작위 연구다.",
+ "saw": "훈련군에서 감정 조절 곤란은 줄었지만 우울 증상과 재피해는 유의하게 줄지 않았다.",
+ "limit": "특정 폭력 피해 우울 환자 표본이며 인터넷 중재의 탈락과 순응도 영향을 받는다.",
+ "against": "우울 증상 자체를 낮추는 효과는 확인되지 않았다.",
+ "use": "우울증 치료가 아니라 감정 조절 기술 보조 훈련으로만 검토한다.",
+ "refs": [
+  {
+   "label": "Internet-based emotion regulation training aimed at reducing violent revictimization and depressive symptoms in victimized depressed patients",
+   "doi": "10.1016/j.jad.2024.03.028",
+   "pmid": "38521137"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=emotion regulation training, cond=Depressive Symptom · 2건 직접 확인",
+  "pubmed": "emotion regulation training AND Depressive Symptom · 533건",
+  "negative": "emotion regulation training AND Depressive Symptom AND (no effect OR did not OR failed OR negative OR no significant difference) · 1199건",
+  "safety": "emotion regulation training AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 563건"
+ },
+ "known": "off",
+ "knownWhy": "약물이 아닌 행동 중재의 근거를 정리한 항목."
 }

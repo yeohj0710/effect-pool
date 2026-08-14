@@ -1,28 +1,33 @@
 {
-  "id": "ehealth-intervention-copd-pos",
-  "subj": "ehealth intervention",
-  "claim": "만성폐쇄성폐질환의 증상 관리를 eHealth 중재로 돕는가",
-  "line": "COPD 원격건강관리로 증상은 좋아졌지만 기능은 같았다.",
-  "effect": "증상 점수 개선·기능 점수 차이 없음",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 123,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "eHealth 중재는 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "만성폐쇄성폐질환 환자 중 e-Vita 플랫폼을 실제 사용한 123명의 중재 전후 증상·기능 추세를 비교한 연구입니다.",
-  "saw": "플랫폼 사용 뒤 만성폐쇄성폐질환 설문 증상 하위척도의 감소 추세가 유의했고, 전체 점수와 기능 하위척도는 유의한 차이가 없었습니다.",
-  "limit": "무작위 대조군이 없고 초대한 742명 중 실제 분석한 사용자가 123명이어서 선택 편향이 큽니다.",
-  "against": "기능 상태는 개선되지 않았고 정신 상태 추세는 중재 전의 호전보다 나빠졌습니다.",
-  "use": "증상 자기관리와 활동 지원의 보조 수단으로만 검토하고 호흡기 진료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "e-Vita 만성폐쇄성폐질환 플랫폼 연구", "doi": "10.1186/s12931-019-1110-2", "pmid": "31291945", "pmc": "PMC6621945" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "ehealth intervention AND COPD — 30건 반환, 중재명 직접 일치 0건",
-    "pubmed": "\"ehealth intervention\" AND \"COPD\" — 11건, 시험·코호트 등 7건",
-    "negative": "\"ehealth intervention\" AND \"COPD\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 5건",
-    "safety": "\"ehealth intervention\" AND (adverse OR toxicity OR case report OR harm) — 39건"
+ "id": "ehealth-intervention-copd-pos",
+ "subj": "전자건강 중재",
+ "claim": "만성폐쇄성폐질환의 증상 관리를 eHealth 중재로 돕는가",
+ "line": "COPD 원격건강관리로 증상은 좋아졌지만 기능은 같았다.",
+ "effect": "증상 점수 개선·기능 점수 차이 없음",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 123,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "eHealth 중재는 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "만성폐쇄성폐질환 환자 중 e-Vita 플랫폼을 실제 사용한 123명의 중재 전후 증상·기능 추세를 비교한 연구입니다.",
+ "saw": "플랫폼 사용 뒤 만성폐쇄성폐질환 설문 증상 하위척도의 감소 추세가 유의했고, 전체 점수와 기능 하위척도는 유의한 차이가 없었습니다.",
+ "limit": "무작위 대조군이 없고 초대한 742명 중 실제 분석한 사용자가 123명이어서 선택 편향이 큽니다.",
+ "against": "기능 상태는 개선되지 않았고 정신 상태 추세는 중재 전의 호전보다 나빠졌습니다.",
+ "use": "증상 자기관리와 활동 지원의 보조 수단으로만 검토하고 호흡기 진료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "e-Vita 만성폐쇄성폐질환 플랫폼 연구",
+   "doi": "10.1186/s12931-019-1110-2",
+   "pmid": "31291945",
+   "pmc": "PMC6621945"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "ehealth intervention AND COPD — 30건 반환, 중재명 직접 일치 0건",
+  "pubmed": "\"ehealth intervention\" AND \"COPD\" — 11건, 시험·코호트 등 7건",
+  "negative": "\"ehealth intervention\" AND \"COPD\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 5건",
+  "safety": "\"ehealth intervention\" AND (adverse OR toxicity OR case report OR harm) — 39건"
+ }
 }

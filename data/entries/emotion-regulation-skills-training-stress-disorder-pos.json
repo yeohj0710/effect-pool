@@ -1,28 +1,34 @@
 {
-  "id": "emotion-regulation-skills-training-stress-disorder-pos",
-  "subj": "emotion regulation skills training",
-  "claim": "정서·대인관계 조절 기술훈련은 성폭력 경험 여성 참전군인의 PTSD를 줄였다",
-  "line": "정서·대인관계 조절 훈련 뒤 PTSD가 줄었다.",
-  "effect": "군 간 효과 d=0.39",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "emotion-regulation-skills-training-stress-disorder-pos",
+ "subj": "정서조절 기술 훈련",
+ "claim": "정서·대인관계 조절 기술훈련은 성폭력 경험 여성 참전군인의 PTSD를 줄였다",
+ "line": "정서·대인관계 조절 훈련 뒤 PTSD가 줄었다.",
+ "effect": "군 간 효과 d=0.39",
+ "tier": "trial",
+ "dir": "pos",
   "n": 161,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "정서조절 기술훈련은 비약물 심리 중재이며 PTSD에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "군 성폭력 외상과 PTSD 선별 양성인 여성 참전군인을 가상 STAIR와 현재중심치료에 무작위 배정했다.",
-  "saw": "161명이 무작위 배정됐고 STAIR의 PTSD 감소가 대조군보다 컸다(P=.028, d=0.39). 사회지지·정서조절 개선과 우울·부정적 인지도 감소했다.",
-  "limit": "여성 참전군인과 군 성폭력 외상에 한정된 결과다.",
-  "against": "대조군에서도 PTSD가 크게 줄어 정서조절 훈련이 유일한 선택지는 아니다.",
-  "use": "외상 관련 PTSD 심리치료에서 정서·대인관계 기술훈련을 비대면 방식으로 검토한다.",
-  "refs": [
-    { "label": "여성 참전군인 가상 STAIR 무작위시험", "doi": "10.1037/ccp0000872", "pmid": "38227462", "pmc": "PMC13192379" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=emotion regulation skills training AND condition=Stress Disorder; 51건",
-    "pubmed": "emotion regulation skills training AND Stress Disorder; 150건",
-    "negative": "emotion regulation skills training AND Stress Disorder AND (no effect OR did not OR failed OR negative OR no significant difference); 52건",
-    "safety": "emotion regulation skills training AND (adverse OR toxicity OR case report OR harm OR dropout); 174건"
+  "vs": "군 성폭력 경험 여성 참전군인 161명; 가상 STAIR 대 현재중심치료에서 PTSD 감소 d 1.12 대 0.78, 군 간 차이 d 0.39(P=.028), 탈락률 19.0% 대 12.2%",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "정서조절 기술훈련은 비약물 심리 중재이며 PTSD에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "군 성폭력 외상과 PTSD 선별 양성인 여성 참전군인을 가상 STAIR와 현재중심치료에 무작위 배정했다.",
+ "saw": "161명이 무작위 배정됐고 STAIR의 PTSD 감소가 대조군보다 컸다(P=.028, d=0.39). 사회지지·정서조절 개선과 우울·부정적 인지도 감소했다.",
+ "limit": "여성 참전군인과 군 성폭력 외상에 한정된 결과다.",
+ "against": "대조군에서도 PTSD가 크게 줄어 정서조절 훈련이 유일한 선택지는 아니다.",
+ "use": "외상 관련 PTSD 심리치료에서 정서·대인관계 기술훈련을 비대면 방식으로 검토한다.",
+ "refs": [
+  {
+   "label": "여성 참전군인 가상 STAIR 무작위시험",
+   "doi": "10.1037/ccp0000872",
+   "pmid": "38227462",
+   "pmc": "PMC13192379"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=emotion regulation skills training AND condition=Stress Disorder; 51건",
+  "pubmed": "emotion regulation skills training AND Stress Disorder; 150건",
+  "negative": "emotion regulation skills training AND Stress Disorder AND (no effect OR did not OR failed OR negative OR no significant difference); 52건",
+  "safety": "emotion regulation skills training AND (adverse OR toxicity OR case report OR harm OR dropout); 174건"
+ }
 }

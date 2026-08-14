@@ -1,20 +1,33 @@
 {
-  "id": "electroacupuncture-postoperative-ileus-pos",
-  "subj": "electroacupuncture",
-  "claim": "전기침은 대장암 수술 뒤 수술 후 장마비 회복을 앞당길 수 있다",
-  "line": "대장암 수술 뒤 전기침은 첫 배변·가스 배출을 앞당겼다.",
-  "effect": "첫 배변 8.76시간 단축",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "electroacupuncture-postoperative-ileus-pos",
+ "subj": "전기침",
+ "claim": "전기침은 대장암 수술 뒤 수술 후 장마비 회복을 앞당길 수 있다",
+ "line": "대장암 수술 뒤 전기침은 첫 배변·가스 배출을 앞당겼다.",
+ "effect": "첫 배변 8.76시간 단축",
+ "tier": "trial",
+ "dir": "pos",
   "n": 248,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 침술 중재로 허가 적응증 없음",
-  "why": "대장암 복강경 절제술 후 회복강화요법에 전기침 또는 가짜 전기침을 더해 무작위 비교했다",
-  "saw": "무작위시험 분석 248명에서 첫 배변 시간 차이는 -8.76시간, 지속성 장마비는 10% 대 20%였다. 중대한 이상반응은 없었다",
-  "limit": "대장암 수술의 회복강화요법에 더한 결과라 다른 수술이나 장마비 원인에 일반화할 수 없다",
-  "against": "수술 후 표준관리나 장마비 치료를 대신한다는 근거는 아니다",
-  "use": "수술팀이 회복강화요법의 보조수단으로 판단할 때만 검토한다",
-  "refs": [{ "label": "Electroacupuncture for Postoperative Ileus After Colorectal Cancer Surgery", "doi": "10.1001/jamasurg.2022.5674", "pmid": "36322060" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=electroacupuncture · cond=Postoperative Ileus: 7건", "pubmed": "electroacupuncture AND Postoperative Ileus: 52건", "negative": "electroacupuncture AND Postoperative Ileus AND no effect: 40건", "safety": "electroacupuncture AND adverse OR toxicity: 1425건" }
+  "vs": "분석 대상 전기침 125명 대 가짜 전기침 123명; 첫 배변 76.4 대 90.0시간, 평균차 −8.76 (95% CI −15.80~−1.73, P=.003), 지속성 장마비 10% 대 20% RR 0.51 (0.27~0.95, P=.03)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 침술 중재로 허가 적응증 없음",
+ "why": "대장암 복강경 절제술 후 회복강화요법에 전기침 또는 가짜 전기침을 더해 무작위 비교했다",
+ "saw": "무작위시험 분석 248명에서 첫 배변 시간 차이는 -8.76시간, 지속성 장마비는 10% 대 20%였다. 중대한 이상반응은 없었다",
+ "limit": "대장암 수술의 회복강화요법에 더한 결과라 다른 수술이나 장마비 원인에 일반화할 수 없다",
+ "against": "수술 후 표준관리나 장마비 치료를 대신한다는 근거는 아니다",
+ "use": "수술팀이 회복강화요법의 보조수단으로 판단할 때만 검토한다",
+ "refs": [
+  {
+   "label": "Electroacupuncture for Postoperative Ileus After Colorectal Cancer Surgery",
+   "doi": "10.1001/jamasurg.2022.5674",
+   "pmid": "36322060"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=electroacupuncture · cond=Postoperative Ileus: 7건",
+  "pubmed": "electroacupuncture AND Postoperative Ileus: 52건",
+  "negative": "electroacupuncture AND Postoperative Ileus AND no effect: 40건",
+  "safety": "electroacupuncture AND adverse OR toxicity: 1425건"
+ }
 }
