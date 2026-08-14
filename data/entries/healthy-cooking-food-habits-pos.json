@@ -1,28 +1,33 @@
 {
-  "id": "healthy-cooking-food-habits-pos",
-  "subj": "healthy cooking",
-  "claim": "건강한 조리 교육을 저소득층의 식품 선택에 쓴다",
-  "line": "건강 조리 교육은 저소득층의 건강 식품 선택을 높였습니다",
-  "effect": "건강 식품 선택 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 668,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "건강한 조리 교육은 허가 적응증을 적용하지 않는 식생활 교육입니다.",
-  "why": "저소득 가정의 건강한 식품 구매·조리 기술을 가르치는 Cooking Matters 참여자 332명과 비교군 336명을 6개월간 추적한 비교 연구입니다.",
-  "saw": "참여자는 3개월에 비교군보다 전체 건강 식품 선택과 6개 식품 범주별 선택이 더 크게 개선됐고, 6개월에도 저지방 우유를 제외한 개선이 유지됐습니다.",
-  "limit": "무작위 배정이 아닌 참여·비교 연구이고 식품 선택 척도 결과라 실제 영양소 섭취와 건강 결과를 직접 측정하지 않았습니다.",
-  "against": "저지방 우유 선택은 6개월 결과에서 유의하게 유지되지 않았습니다(P=0.1168).",
-  "use": "저소득층 식생활 교육에서 예산·시간을 고려한 조리 기술을 포함할 근거로 사용합니다.",
-  "refs": [
-    { "label": "Food Skills Education and Low-Income Adults' Healthy Food Choices", "doi": "10.1177/0272684X211004941", "pmid": "33757331" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=healthy cooking AND query.cond=Food Habits → 7건, healthy cooking 개입명 직접 일치 0건",
-    "pubmed": "healthy cooking AND Food Habits → 883건; 제목·초록 정확검색 → 3건",
-    "negative": "healthy cooking AND Food Habits AND (no effect OR did not OR failed OR negative OR no significant difference) → 419건",
-    "safety": "healthy cooking AND (adverse OR toxicity OR case report OR harm OR dropout) → 396건"
+ "id": "healthy-cooking-food-habits-pos",
+ "subj": "건강 조리",
+ "claim": "건강한 조리 교육을 저소득층의 식품 선택에 쓴다",
+ "line": "건강 조리 교육은 저소득층의 건강 식품 선택을 높였습니다",
+ "effect": "건강 식품 선택 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 668,
+ "vs": "Cooking Matters 참여군 대비 비교군: 건강 식품 선택 전체와 6개 항목의 3개월 개선 P<.0001; 332명 대 336명, 6개월에도 저지방 우유를 제외한 개선 유지(P=0.1168)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "건강한 조리 교육은 허가 적응증을 적용하지 않는 식생활 교육입니다.",
+ "why": "저소득 가정의 건강한 식품 구매·조리 기술을 가르치는 Cooking Matters 참여자 332명과 비교군 336명을 6개월간 추적한 비교 연구입니다.",
+ "saw": "참여자는 3개월에 비교군보다 전체 건강 식품 선택과 6개 식품 범주별 선택이 더 크게 개선됐고, 6개월에도 저지방 우유를 제외한 개선이 유지됐습니다.",
+ "limit": "무작위 배정이 아닌 참여·비교 연구이고 식품 선택 척도 결과라 실제 영양소 섭취와 건강 결과를 직접 측정하지 않았습니다.",
+ "against": "저지방 우유 선택은 6개월 결과에서 유의하게 유지되지 않았습니다(P=0.1168).",
+ "use": "저소득층 식생활 교육에서 예산·시간을 고려한 조리 기술을 포함할 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "Food Skills Education and Low-Income Adults' Healthy Food Choices",
+   "doi": "10.1177/0272684X211004941",
+   "pmid": "33757331"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=healthy cooking AND query.cond=Food Habits → 7건, healthy cooking 개입명 직접 일치 0건",
+  "pubmed": "healthy cooking AND Food Habits → 883건; 제목·초록 정확검색 → 3건",
+  "negative": "healthy cooking AND Food Habits AND (no effect OR did not OR failed OR negative OR no significant difference) → 419건",
+  "safety": "healthy cooking AND (adverse OR toxicity OR case report OR harm OR dropout) → 396건"
+ }
 }

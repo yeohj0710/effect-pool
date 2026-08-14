@@ -1,28 +1,34 @@
 {
-  "id": "healthy-recipe-intervention-food-selection-pos",
-  "subj": "healthy recipe intervention",
-  "claim": "건강한 식품 선택에 레시피 개입을 쓴다",
-  "line": "식재료 묶음·레시피 시식은 건강식 선택을 늘렸습니다",
-  "effect": "케일·현미·통밀 파스타 선택 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 448,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "건강한 식품 선택에 허가된 레시피 개입이 아닙니다.",
-  "why": "식품 팬트리에서 레시피 시식과 측정 식재료 묶음이 건강식 선택에 미치는 효과를 3주간 비교했습니다.",
-  "saw": "레시피 시식군 128명, 식재료 묶음과 시식군 160명, 대조군 160명을 비교했습니다. 묶음군은 대조군보다 케일·현미·통밀 파스타를 고를 가능성이 높았습니다.",
-  "limit": "한 곳에서 3주간 진행한 파일럿이고 식품 선택만 측정해 실제 섭취나 건강 결과를 보여주지 않습니다.",
-  "against": "레시피 시식만 제공한 군은 대조군과 선택 차이가 없었습니다.",
-  "use": "식품 불안정 환경에서 레시피와 식재료 묶음을 함께 제공하는 선택 유도 근거로 사용합니다.",
-  "refs": [
-    { "label": "식품 팬트리 식재료 묶음·레시피 시식 파일럿", "doi": "10.1017/S1368980019000259", "pmid": "30888310", "pmc": "PMC10260864" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=healthy recipe intervention AND query.cond=Food Selection · 4건, 직접 개입 0건",
-    "pubmed": "healthy recipe intervention AND Food Selection · 64편, 결과 검색 16편",
-    "negative": "healthy recipe intervention AND Food Selection AND (no effect OR did not OR failed OR negative OR no significant difference) · 35편",
-    "safety": "healthy recipe intervention AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ "id": "healthy-recipe-intervention-food-selection-pos",
+ "subj": "건강 레시피 중재",
+ "claim": "건강한 식품 선택에 레시피 개입을 쓴다",
+ "line": "식재료 묶음·레시피 시식은 건강식 선택을 늘렸습니다",
+ "effect": "케일·현미·통밀 파스타 선택 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 448,
+ "vs": "식재료 묶음+레시피 시식군 대 무중재 대조군: 케일 선택 OR=3.20, 현미 OR=4.76, 통밀 파스타 OR=7.25; 식재료 묶음군 160명, 대조군 160명",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "건강한 식품 선택에 허가된 레시피 개입이 아닙니다.",
+ "why": "식품 팬트리에서 레시피 시식과 측정 식재료 묶음이 건강식 선택에 미치는 효과를 3주간 비교했습니다.",
+ "saw": "레시피 시식군 128명, 식재료 묶음과 시식군 160명, 대조군 160명을 비교했습니다. 묶음군은 대조군보다 케일·현미·통밀 파스타를 고를 가능성이 높았습니다.",
+ "limit": "한 곳에서 3주간 진행한 파일럿이고 식품 선택만 측정해 실제 섭취나 건강 결과를 보여주지 않습니다.",
+ "against": "레시피 시식만 제공한 군은 대조군과 선택 차이가 없었습니다.",
+ "use": "식품 불안정 환경에서 레시피와 식재료 묶음을 함께 제공하는 선택 유도 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "식품 팬트리 식재료 묶음·레시피 시식 파일럿",
+   "doi": "10.1017/S1368980019000259",
+   "pmid": "30888310",
+   "pmc": "PMC10260864"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=healthy recipe intervention AND query.cond=Food Selection · 4건, 직접 개입 0건",
+  "pubmed": "healthy recipe intervention AND Food Selection · 64편, 결과 검색 16편",
+  "negative": "healthy recipe intervention AND Food Selection AND (no effect OR did not OR failed OR negative OR no significant difference) · 35편",
+  "safety": "healthy recipe intervention AND (adverse OR toxicity OR case report OR harm OR dropout) · 30편"
+ }
 }

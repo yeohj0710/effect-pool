@@ -1,26 +1,32 @@
 {
-  "id": "heat-therapy-cardiovascular-diseases-pos",
-  "subj": "heat therapy",
-  "claim": "운동 후 사우나가 심혈관 위험군의 혈압을 낮춘다",
-  "line": "운동 후 사우나를 더하면 심혈관 위험군의 수축기혈압이 낮아졌습니다.",
-  "effect": "수축기혈압 8.0mmHg 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 47,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 후 사우나는 심혈관질환 위험 관리의 허가 적응증이 아닌 생활습관 중재입니다.",
-  "why": "신체활동이 적고 심혈관 위험요인이 하나 이상 있는 성인 47명을 운동·사우나, 운동, 대조군에 무작위 배정한 8주 시험입니다.",
-  "saw": "운동 후 15분 사우나를 더한 군은 운동군보다 수축기 혈압이 8.0mmHg 더 낮아졌고 심폐체력과 총콜레스테롤도 추가로 좋아졌습니다.",
-  "limit": "사우나 단독이 아니라 운동에 사우나를 더한 중재입니다. 신체활동이 적고 위험요인이 있는 일반 성인을 대상으로 했습니다.",
-  "against": "사우나의 단독 효과와 장기 용량·빈도는 이 시험에서 확인하지 않았습니다.",
-  "use": "운동에 열 노출을 더한 생활습관 중재의 심혈관 위험 신호로 기록합니다.",
-  "refs": [{ "label": "운동 병용 사우나 심혈관 기능 다군 무작위시험", "pmid": "35785965" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=heat therapy · cond=Cardiovascular Diseases → 85건 반환, 개입명 대조 17건",
-    "pubmed": "\"heat therapy\" AND \"Cardiovascular Diseases\" → 19편, PMID 35785965 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1편",
-    "safety": "\"heat therapy\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 91편"
+ "id": "heat-therapy-cardiovascular-diseases-pos",
+ "subj": "열 치료",
+ "claim": "운동 후 사우나가 심혈관 위험군의 혈압을 낮춘다",
+ "line": "운동 후 사우나를 더하면 심혈관 위험군의 수축기혈압이 낮아졌습니다.",
+ "effect": "수축기혈압 8.0mmHg 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 47,
+ "vs": "운동 후 사우나군 대 운동군: 심폐체력 추가 변화 +2.7 mL/kg/min (95% CI +0.2~+5.3), 수축기혈압 −8.0mmHg (95% CI −14.6~−1.4), 총콜레스테롤도 추가 감소; 8주 다군 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 후 사우나는 심혈관질환 위험 관리의 허가 적응증이 아닌 생활습관 중재입니다.",
+ "why": "신체활동이 적고 심혈관 위험요인이 하나 이상 있는 성인 47명을 운동·사우나, 운동, 대조군에 무작위 배정한 8주 시험입니다.",
+ "saw": "운동 후 15분 사우나를 더한 군은 운동군보다 수축기 혈압이 8.0mmHg 더 낮아졌고 심폐체력과 총콜레스테롤도 추가로 좋아졌습니다.",
+ "limit": "사우나 단독이 아니라 운동에 사우나를 더한 중재입니다. 신체활동이 적고 위험요인이 있는 일반 성인을 대상으로 했습니다.",
+ "against": "사우나의 단독 효과와 장기 용량·빈도는 이 시험에서 확인하지 않았습니다.",
+ "use": "운동에 열 노출을 더한 생활습관 중재의 심혈관 위험 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "운동 병용 사우나 심혈관 기능 다군 무작위시험",
+   "pmid": "35785965"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=heat therapy · cond=Cardiovascular Diseases → 85건 반환, 개입명 대조 17건",
+  "pubmed": "\"heat therapy\" AND \"Cardiovascular Diseases\" → 19편, PMID 35785965 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1편",
+  "safety": "\"heat therapy\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 91편"
+ }
 }

@@ -1,29 +1,38 @@
 {
-  "id": "healthy-food-box-health-status-pos",
-  "subj": "healthy food box",
-  "claim": "고혈압 성인의 건강 상태에 healthy food box를 쓴다",
-  "line": "건강식 상자·생산물 수표는 혈압을 낮췄지만 전체 효과는 유의하지 않았습니다",
-  "effect": "혈압 개선·n=160",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 160,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "healthy food box는 고혈압 치료제가 아니라 식품 접근성·식사 개입입니다",
-  "why": "문화에 맞춘 건강식품 상자와 생산물 전용 수표가 고혈압 성인의 건강 지표에 미친 결과를 확인합니다",
-  "saw": "미국 원주민 성인 고혈압 환자 160명을 4개 지역 군집무작위시험에 포함했습니다. 6개월 동안 건강식품 상자와 생산물 전용 수표를 받은 개입군은 대조군보다 수축기혈압이 2.6mmHg 낮고 식사 질과 BMI가 좋아졌지만, 전체 차이는 통계적으로 유의하지 않았습니다.",
-  "limit": "4개 지역의 파일럿 연구이고 전체 효과가 유의하지 않아 기저 1기 고혈압 여성에서 보인 신호를 전체 집단에 일반화할 수 없습니다.",
-  "against": "혈압 효과는 기저 1기 고혈압 여성에서만 유효했고 다른 참가자에서는 명확한 효과가 없었습니다.",
-  "use": "건강식품 상자가 식품 접근성이 낮은 고혈압 성인의 혈압과 식사 질에 보인 신호로 기록합니다.",
-  "refs": [
-    { "label": "2024 · 미국 원주민 고혈압 성인 건강식품 상자 군집무작위 파일럿", "doi": "10.1093/her/cyae023", "pmid": "38965030" },
-    { "label": "2024 · 건강식품 상자 고혈압 비용효율 군집무작위시험", "doi": "10.1186/s13690-024-01274-9", "pmid": "38671533" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=healthy food box AND condition=Health Status; 3건 반환",
-    "pubmed": "healthy food box AND health status; 9편",
-    "negative": "healthy food box AND health status AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
-    "safety": "healthy food box AND (adverse OR harm); 검색 결과 대조"
+ "id": "healthy-food-box-health-status-pos",
+ "subj": "건강식품 상자",
+ "claim": "고혈압 성인의 건강 상태에 healthy food box를 쓴다",
+ "line": "건강식 상자·생산물 수표는 혈압을 낮췄지만 전체 효과는 유의하지 않았습니다",
+ "effect": "혈압 개선·n=160",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 160,
+ "vs": "문화 맞춤 건강식품 상자·생산물 수표군 대 대조 지역군: 6개월 수축기혈압 평균 −2.6mmHg, 식사 질·BMI 개선; 전체 차이는 통계적으로 유의하지 않음; 분석 204명",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "healthy food box는 고혈압 치료제가 아니라 식품 접근성·식사 개입입니다",
+ "why": "문화에 맞춘 건강식품 상자와 생산물 전용 수표가 고혈압 성인의 건강 지표에 미친 결과를 확인합니다",
+ "saw": "미국 원주민 성인 고혈압 환자 160명을 4개 지역 군집무작위시험에 포함했습니다. 6개월 동안 건강식품 상자와 생산물 전용 수표를 받은 개입군은 대조군보다 수축기혈압이 2.6mmHg 낮고 식사 질과 BMI가 좋아졌지만, 전체 차이는 통계적으로 유의하지 않았습니다.",
+ "limit": "4개 지역의 파일럿 연구이고 전체 효과가 유의하지 않아 기저 1기 고혈압 여성에서 보인 신호를 전체 집단에 일반화할 수 없습니다.",
+ "against": "혈압 효과는 기저 1기 고혈압 여성에서만 유효했고 다른 참가자에서는 명확한 효과가 없었습니다.",
+ "use": "건강식품 상자가 식품 접근성이 낮은 고혈압 성인의 혈압과 식사 질에 보인 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "2024 · 미국 원주민 고혈압 성인 건강식품 상자 군집무작위 파일럿",
+   "doi": "10.1093/her/cyae023",
+   "pmid": "38965030"
+  },
+  {
+   "label": "2024 · 건강식품 상자 고혈압 비용효율 군집무작위시험",
+   "doi": "10.1186/s13690-024-01274-9",
+   "pmid": "38671533"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=healthy food box AND condition=Health Status; 3건 반환",
+  "pubmed": "healthy food box AND health status; 9편",
+  "negative": "healthy food box AND health status AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
+  "safety": "healthy food box AND (adverse OR harm); 검색 결과 대조"
+ }
 }
