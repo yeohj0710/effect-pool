@@ -1,32 +1,33 @@
 {
- "id": "group-singing-depression-pos",
- "subj": "집단 노래",
- "claim": "노래 모임이 COPD 환자의 우울을 줄인다",
- "line": "COPD 환자는 노래 모임 뒤 우울·삶의 질이 좋아졌다.",
- "effect": "우울 점수 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 56,
- "synth": "single",
- "known": "off",
- "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
- "why": "안정 COPD 환자의 노래 모임과 우울·삶의 질을 비교한 무작위시험을 확인했다",
- "saw": "60명을 무작위 배정했고 56명이 끝까지 참여해 HADS-D와 COPD 삶의 질을 측정했다",
- "limit": "소규모 단일시험이고 대조군은 건강교육만 받았다",
- "against": "노래 모임의 효과를 다른 만성폐질환과 장기 기능 회복으로 일반화할 수 없다",
- "use": "COPD 환자의 우울과 삶의 질에서 긍정 신호를 기록했다",
- "refs": [
-  {
-   "label": "COPD 노래 모임 무작위시험",
-   "doi": "10.1007/s11136-018-2063-5",
-   "pmid": "30612266"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=group singing · cond=Depression 0건 반환, 물질 일치 0건",
-  "pubmed": "group singing AND Depression 122건",
-  "negative": "group singing AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) 94건",
-  "safety": "group singing AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 58건"
- }
+  "id": "group-singing-depression-pos",
+  "subj": "집단 노래",
+  "claim": "노래 모임이 COPD 환자의 우울을 줄인다",
+  "line": "COPD 환자는 노래 모임 뒤 우울·삶의 질이 좋아졌다.",
+  "effect": "우울 점수 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 56,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
+  "why": "안정 COPD 환자의 노래 모임과 우울·삶의 질을 비교한 무작위시험을 확인했다",
+  "saw": "60명을 무작위 배정했고 56명이 끝까지 참여해 HADS-D와 COPD 삶의 질을 측정했다",
+  "limit": "소규모 단일시험이고 대조군은 건강교육만 받았다",
+  "against": "노래 모임의 효과를 다른 만성폐질환과 장기 기능 회복으로 일반화할 수 없다",
+  "use": "COPD 환자의 우울과 삶의 질에서 긍정 신호를 기록했다",
+  "refs": [
+    {
+      "label": "COPD 노래 모임 무작위시험",
+      "doi": "10.1007/s11136-018-2063-5",
+      "pmid": "30612266"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=group singing · cond=Depression 0건 반환, 물질 일치 0건",
+    "pubmed": "group singing AND Depression 122건",
+    "negative": "group singing AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) 94건",
+    "safety": "group singing AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 58건"
+  },
+  "vs": "집단 노래 치료+건강교육 vs 건강교육 대조(안정 COPD 무작위시험): HADS-D 6개월 8.39±1.75 vs 14.29±2.03(p<.001; 각 28명), CCQ 총점 22.39±3.52 vs 33.00±2.69(p<.001; 56명); 1개월 HADS-D 13.14 vs 13.96(p=.031)"
 }
