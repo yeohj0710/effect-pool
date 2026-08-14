@@ -1,28 +1,32 @@
 {
-  "id": "remote-patient-monitoring-pregnancy-related-open",
-  "subj": "remote patient monitoring",
-  "claim": "임신성 고혈압 원격 모니터링이 비용과 입원을 줄일 가능성이 있다",
-  "line": "임신성 고혈압 원격 모니터링은 비용과 입원을 줄일 수 있습니다.",
-  "effect": "입원 12.0% 대 15.5%",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 환자 모니터링은 의약품 허가 적응증이 아닌 임신 관리 중재다",
-  "why": "SAFE@home 임신성 고혈압 원격 혈압·증상 모니터링의 다기관 확대 분석에서 일반 관리보다 비용과 임신성 고혈압 관련 입원이 낮았다.",
-  "saw": "원격군의 환자당 산전 비용은 일반 관리보다 368유로 낮았고 임신성 고혈압 관련 입원은 12.0% 대 15.5%였다(p=.039).",
-  "limit": "전후 비교 연구의 비용효과 분석이며 전체 참가자 수와 원격 모니터링의 각 구성요소 효과가 제시되지 않았다.",
-  "against": "비용 절감이 모든 의료체계에서 재현되는지와 장기 산모·태아 결과는 확정되지 않았다.",
-  "use": "임신성 고혈압 원격관리의 도입 효과를 평가할 때 비용과 입원뿐 아니라 산모·태아 안전성을 함께 본다.",
-  "refs": [
-    { "label": "SAFE@home Telemonitoring Scale-Up Cost-Effectiveness in Hypertensive Disorders of Pregnancy 2025 · Journal of Women's Health", "doi": "10.1177/15305627251407897", "pmid": "41797520" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote patient monitoring AND condition=Pregnancy Related; 5건 반환, 중재명 일치 0건",
-    "pubmed": "remote patient monitoring AND Pregnancy Related; 66건",
-    "negative": "remote patient monitoring AND Pregnancy Related AND (no effect OR did not OR failed to OR negative OR no significant difference); 36건",
-    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 11건"
+ "id": "remote-patient-monitoring-pregnancy-related-open",
+ "subj": "원격 환자 모니터링",
+ "claim": "임신성 고혈압 원격 모니터링이 비용과 입원을 줄일 가능성이 있다",
+ "line": "임신성 고혈압 원격 모니터링은 비용과 입원을 줄일 수 있습니다.",
+ "effect": "입원 12.0% 대 15.5%",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 환자 모니터링은 의약품 허가 적응증이 아닌 임신 관리 중재다",
+ "why": "SAFE@home 임신성 고혈압 원격 혈압·증상 모니터링의 다기관 확대 분석에서 일반 관리보다 비용과 임신성 고혈압 관련 입원이 낮았다.",
+ "saw": "원격군의 환자당 산전 비용은 일반 관리보다 368유로 낮았고 임신성 고혈압 관련 입원은 12.0% 대 15.5%였다(p=.039).",
+ "limit": "전후 비교 연구의 비용효과 분석이며 전체 참가자 수와 원격 모니터링의 각 구성요소 효과가 제시되지 않았다.",
+ "against": "비용 절감이 모든 의료체계에서 재현되는지와 장기 산모·태아 결과는 확정되지 않았다.",
+ "use": "임신성 고혈압 원격관리의 도입 효과를 평가할 때 비용과 입원뿐 아니라 산모·태아 안전성을 함께 본다.",
+ "refs": [
+  {
+   "label": "SAFE@home Telemonitoring Scale-Up Cost-Effectiveness in Hypertensive Disorders of Pregnancy 2025 · Journal of Women's Health",
+   "doi": "10.1177/15305627251407897",
+   "pmid": "41797520"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote patient monitoring AND condition=Pregnancy Related; 5건 반환, 중재명 일치 0건",
+  "pubmed": "remote patient monitoring AND Pregnancy Related; 66건",
+  "negative": "remote patient monitoring AND Pregnancy Related AND (no effect OR did not OR failed to OR negative OR no significant difference); 36건",
+  "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 11건"
+ }
 }

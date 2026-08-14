@@ -1,28 +1,33 @@
 {
-  "id": "remote-patient-monitoring-diabetes-pos",
-  "subj": "remote patient monitoring",
-  "claim": "원격 혈당 모니터링과 교육자 방문이 비인슐린 2형 당뇨의 혈당을 낮출 수 있다",
-  "line": "비인슐린 당뇨병에서 원격 혈당 모니터링은 당화혈색소를 낮췄습니다.",
-  "effect": "당화혈색소 0.65%p 추가 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 105,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 원격관리 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "인슐린을 쓰지 않는 2형 당뇨 성인에게 원격 혈당 모니터링과 가상 교육자 방문을 제공하고 강화된 통상 진료와 비교했습니다.",
-  "saw": "105명이 무작위 배정됐고 추적 시 당화혈색소 감소가 원격 모니터링군에서 0.65%포인트 더 컸습니다.",
-  "limit": "12주 추적에서 86명만 평가됐고 공개형 단일기관 시험이었습니다.",
-  "against": "강화된 통상 진료군도 당화혈색소가 낮아졌지만 원격 모니터링군보다 감소 폭이 작았습니다.",
-  "use": "비인슐린 2형 당뇨에서 약물 조정 전 원격 혈당관리의 보조 선택지로 검토합니다.",
-  "refs": [
-    { "label": "비인슐린 2형 당뇨 원격 혈당관리 무작위시험", "doi": "10.1016/j.diabres.2024.111899", "pmid": "39433218" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote patient monitoring AND condition=Diabetes; 147건",
-    "pubmed": "remote patient monitoring AND Diabetes; 673건",
-    "negative": "remote patient monitoring AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 79건",
-    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 896건"
+ "id": "remote-patient-monitoring-diabetes-pos",
+ "subj": "원격 환자 모니터링",
+ "claim": "원격 혈당 모니터링과 교육자 방문이 비인슐린 2형 당뇨의 혈당을 낮출 수 있다",
+ "line": "비인슐린 당뇨병에서 원격 혈당 모니터링은 당화혈색소를 낮췄습니다.",
+ "effect": "당화혈색소 0.65%p 추가 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 105,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 원격관리 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "인슐린을 쓰지 않는 2형 당뇨 성인에게 원격 혈당 모니터링과 가상 교육자 방문을 제공하고 강화된 통상 진료와 비교했습니다.",
+ "saw": "105명이 무작위 배정됐고 추적 시 당화혈색소 감소가 원격 모니터링군에서 0.65%포인트 더 컸습니다.",
+ "limit": "12주 추적에서 86명만 평가됐고 공개형 단일기관 시험이었습니다.",
+ "against": "강화된 통상 진료군도 당화혈색소가 낮아졌지만 원격 모니터링군보다 감소 폭이 작았습니다.",
+ "use": "비인슐린 2형 당뇨에서 약물 조정 전 원격 혈당관리의 보조 선택지로 검토합니다.",
+ "refs": [
+  {
+   "label": "비인슐린 2형 당뇨 원격 혈당관리 무작위시험",
+   "doi": "10.1016/j.diabres.2024.111899",
+   "pmid": "39433218"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote patient monitoring AND condition=Diabetes; 147건",
+  "pubmed": "remote patient monitoring AND Diabetes; 673건",
+  "negative": "remote patient monitoring AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference); 79건",
+  "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 896건"
+ },
+ "vs": "군 간 차이: 원격 연속혈당측정+가상 교육자 방문 vs 강화 통상 치료 비인슐린 2형 당뇨 HbA1c 변화 -0.69% vs -0.33%, 보정 차이 0.65%포인트 (95% CI 0.17~1.12; p=.008), HbA1c 0.5%포인트 이상 감소 RR 1.92 (1.19~3.06), 체중 감소 차이 2.17 kg (0.22~4.11)"
 }

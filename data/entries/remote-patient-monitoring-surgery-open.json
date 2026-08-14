@@ -1,28 +1,32 @@
 {
-  "id": "remote-patient-monitoring-surgery-open",
-  "subj": "remote patient monitoring",
-  "claim": "무선 원격 상처 모니터링이 수술 후 상처 관리에 도움을 줄 가능성이 있다",
-  "line": "수술 후 무선 원격 상처 모니터링 기기의 임상 근거는 혼재합니다.",
-  "effect": "상처 모니터링 기기 근거 혼재",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "원격 환자 모니터링은 의약품 허가 적응증이 아닌 디지털 관리 중재다",
-  "why": "가정에서 만성 상처를 모니터링하는 무선 스마트 기기를 모은 범위 문헌고찰에서 상처 회복을 실시간 추적할 가능성이 확인됐지만 임상 검증은 제한적이었다.",
-  "saw": "52개 연구와 77개 데이터 항목을 검토했다. 스마트 붕대·센서·앱 연결 기기가 산소·pH·대사·염증 지표를 측정했지만 많은 기기가 사람 대상 임상 검증을 받지 않았다.",
-  "limit": "통합 참가자 수가 제시되지 않았고 기기의 정확도·전원·안정성·신뢰성이 서로 달랐다.",
-  "against": "기기가 실제 환자 결과를 개선하는지 확정할 임상시험 근거는 부족하다.",
-  "use": "수술 후 상처 원격 모니터링 기기를 도입할 때 임상 검증과 센서 신뢰성을 먼저 확인한다.",
-  "refs": [
-    { "label": "Wireless Smart Devices in Remote Monitoring of Chronic Wounds 2026 · Wound Repair and Regeneration", "doi": "10.1111/wrr.70194", "pmid": "42559742" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote patient monitoring AND condition=Surgery; 78건 반환, 중재명 일치 1건",
-    "pubmed": "remote patient monitoring AND Surgery; 1197건",
-    "negative": "remote patient monitoring AND Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference); 594건",
-    "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 287건"
+ "id": "remote-patient-monitoring-surgery-open",
+ "subj": "원격 환자 모니터링",
+ "claim": "무선 원격 상처 모니터링이 수술 후 상처 관리에 도움을 줄 가능성이 있다",
+ "line": "수술 후 무선 원격 상처 모니터링 기기의 임상 근거는 혼재합니다.",
+ "effect": "상처 모니터링 기기 근거 혼재",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "원격 환자 모니터링은 의약품 허가 적응증이 아닌 디지털 관리 중재다",
+ "why": "가정에서 만성 상처를 모니터링하는 무선 스마트 기기를 모은 범위 문헌고찰에서 상처 회복을 실시간 추적할 가능성이 확인됐지만 임상 검증은 제한적이었다.",
+ "saw": "52개 연구와 77개 데이터 항목을 검토했다. 스마트 붕대·센서·앱 연결 기기가 산소·pH·대사·염증 지표를 측정했지만 많은 기기가 사람 대상 임상 검증을 받지 않았다.",
+ "limit": "통합 참가자 수가 제시되지 않았고 기기의 정확도·전원·안정성·신뢰성이 서로 달랐다.",
+ "against": "기기가 실제 환자 결과를 개선하는지 확정할 임상시험 근거는 부족하다.",
+ "use": "수술 후 상처 원격 모니터링 기기를 도입할 때 임상 검증과 센서 신뢰성을 먼저 확인한다.",
+ "refs": [
+  {
+   "label": "Wireless Smart Devices in Remote Monitoring of Chronic Wounds 2026 · Wound Repair and Regeneration",
+   "doi": "10.1111/wrr.70194",
+   "pmid": "42559742"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote patient monitoring AND condition=Surgery; 78건 반환, 중재명 일치 1건",
+  "pubmed": "remote patient monitoring AND Surgery; 1197건",
+  "negative": "remote patient monitoring AND Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference); 594건",
+  "safety": "remote patient monitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 287건"
+ }
 }

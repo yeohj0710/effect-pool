@@ -1,28 +1,34 @@
 {
-  "id": "relaxing-music-cancer-pos",
-  "subj": "relaxing music",
-  "claim": "항암 중 편안한 음악이 불안과 오심을 줄였다",
-  "line": "항암치료 중 편안한 음악은 불안과 오심을 줄였습니다.",
-  "effect": "불안·오심 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 75,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 허가 적응증이 없습니다",
-  "why": "첫 항암 환자 75명을 편안한 음악, 터키 고전음악, 대조군으로 25명씩 나눈 무작위시험입니다.",
-  "saw": "편안한 음악군과 터키 고전음악군은 대조군보다 항암 전후 불안과 오심이 줄었고, 군·시간 상호작용은 각각 p=0.001이었습니다.",
-  "limit": "단일 기관의 첫 항암 세션 중심 시험이라 장기 효과와 음악 종류의 독립 효과는 불명확합니다.",
-  "against": "직접 반대 결과는 같은 시험에서 보고되지 않았습니다.",
-  "use": "항암 중 불안·오심을 줄이는 비약물 보조 중재 신호로 기록합니다.",
-  "refs": [
-    { "label": "2023 · Supportive Care in Cancer · randomized controlled trial", "doi": "10.1007/s00520-023-08165-9", "pmid": "37982892", "nct": "NCT05687838" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.intr=relaxing music AND query.cond=Cancer · 23건, InterventionName 정확 일치 1건",
-    "pubmed": "relaxing music AND Cancer · 182편; Title/Abstract 직접 문구 10편",
-    "negative": "relaxing music AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 41편",
-    "safety": "relaxing music AND (adverse OR toxicity OR case report OR overdose OR harm) · 179편"
+ "id": "relaxing-music-cancer-pos",
+ "subj": "편안한 음악",
+ "claim": "항암 중 편안한 음악이 불안과 오심을 줄였다",
+ "line": "항암치료 중 편안한 음악은 불안과 오심을 줄였습니다.",
+ "effect": "불안·오심 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 75,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 허가 적응증이 없습니다",
+ "why": "첫 항암 환자 75명을 편안한 음악, 터키 고전음악, 대조군으로 25명씩 나눈 무작위시험입니다.",
+ "saw": "편안한 음악군과 터키 고전음악군은 대조군보다 항암 전후 불안과 오심이 줄었고, 군·시간 상호작용은 각각 p=0.001이었습니다.",
+ "limit": "단일 기관의 첫 항암 세션 중심 시험이라 장기 효과와 음악 종류의 독립 효과는 불명확합니다.",
+ "against": "직접 반대 결과는 같은 시험에서 보고되지 않았습니다.",
+ "use": "항암 중 불안·오심을 줄이는 비약물 보조 중재 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "2023 · Supportive Care in Cancer · randomized controlled trial",
+   "doi": "10.1007/s00520-023-08165-9",
+   "pmid": "37982892",
+   "nct": "NCT05687838"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.intr=relaxing music AND query.cond=Cancer · 23건, InterventionName 정확 일치 1건",
+  "pubmed": "relaxing music AND Cancer · 182편; Title/Abstract 직접 문구 10편",
+  "negative": "relaxing music AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 41편",
+  "safety": "relaxing music AND (adverse OR toxicity OR case report OR overdose OR harm) · 179편"
+ },
+ "vs": "군 간 차이: 편안한 음악 vs 대조군 첫 항암 환자 불안 군×시간 F=210.221 (p=.001, η²=.745), 오심 F=100.785 (p=.001, η²=.583); 만족도 터키 고전음악 8.64±0.95 vs 대조군 7.88±0.72 vs 편안한 음악 7.00±0.70"
 }

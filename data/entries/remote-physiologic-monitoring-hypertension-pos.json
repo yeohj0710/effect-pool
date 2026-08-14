@@ -1,28 +1,33 @@
 {
-  "id": "remote-physiologic-monitoring-hypertension-pos",
-  "subj": "remote physiologic monitoring",
-  "claim": "원격 생리 모니터링으로 고혈압 환자의 혈압을 관리한다",
-  "line": "원격 생리 모니터링은 고혈압 환자의 혈압 조절률을 높였다.",
-  "effect": "6개월 혈압 조절률 31.4% 대 22.8%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 118,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 생리 모니터링은 비약물 관리 서비스이며 허가 약물 적응증이 아니다.",
-  "why": "고혈압 일차진료에서 혈압을 전자건강기록으로 전송하는 원격 모니터링을 도입한 전향적 실용 연구다.",
-  "saw": "6개월 뒤 조절률은 통제되지 않은 고혈압에서 31.4% 대 22.8%였고, 일반 고혈압에서는 64.0% 대 59.7%였다.",
-  "limit": "원격 모니터링을 처방받은 환자 수가 적고 비무작위 진료소 비교라 선택 편향이 있을 수 있다.",
-  "against": "통제되지 않은 집단의 마지막 진료 수축기 혈압은 대조군과 유의한 차이가 없었다.",
-  "use": "고혈압 관리에서 원격 혈압 전송과 진료팀 대응을 함께 평가할 근거로 기록한다.",
-  "refs": [
-    { "label": "Remote physiologic monitoring for hypertension in primary care: a prospective pragmatic pilot study", "pmid": "36743315", "nct": "NCT04604925" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"remote physiologic monitoring\" AND \"Hypertension\" 검색 3건; NCT04604925 등",
-    "pubmed": "\"remote physiologic monitoring\" AND \"Hypertension\" 검색 6건; PMID 36743315 직접 연구",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 3건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ "id": "remote-physiologic-monitoring-hypertension-pos",
+ "subj": "원격 생리 모니터링",
+ "claim": "원격 생리 모니터링으로 고혈압 환자의 혈압을 관리한다",
+ "line": "원격 생리 모니터링은 고혈압 환자의 혈압 조절률을 높였다.",
+ "effect": "6개월 혈압 조절률 31.4% 대 22.8%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 118,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 생리 모니터링은 비약물 관리 서비스이며 허가 약물 적응증이 아니다.",
+ "why": "고혈압 일차진료에서 혈압을 전자건강기록으로 전송하는 원격 모니터링을 도입한 전향적 실용 연구다.",
+ "saw": "6개월 뒤 조절률은 통제되지 않은 고혈압에서 31.4% 대 22.8%였고, 일반 고혈압에서는 64.0% 대 59.7%였다.",
+ "limit": "원격 모니터링을 처방받은 환자 수가 적고 비무작위 진료소 비교라 선택 편향이 있을 수 있다.",
+ "against": "통제되지 않은 집단의 마지막 진료 수축기 혈압은 대조군과 유의한 차이가 없었다.",
+ "use": "고혈압 관리에서 원격 혈압 전송과 진료팀 대응을 함께 평가할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Remote physiologic monitoring for hypertension in primary care: a prospective pragmatic pilot study",
+   "pmid": "36743315",
+   "nct": "NCT04604925"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"remote physiologic monitoring\" AND \"Hypertension\" 검색 3건; NCT04604925 등",
+  "pubmed": "\"remote physiologic monitoring\" AND \"Hypertension\" 검색 6건; PMID 36743315 직접 연구",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 3건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ },
+ "vs": "군 간 차이: 원격 생리 모니터링 vs 매칭 대조군 6개월 혈압 조절률 불조절 고혈압 31.4% vs 22.8% (p=.007), 일반 고혈압 64.0% vs 59.7% (p<.001); 일반군 SBP 131.8 vs 132.8 mmHg (p=.04)"
 }

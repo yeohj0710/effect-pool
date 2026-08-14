@@ -1,28 +1,33 @@
 {
-  "id": "resilience-training-depressive-disorder-pos",
-  "subj": "resilience training",
-  "claim": "초기 경력 응급구조사의 PTSD·주요우울장애 예방에 회복탄력성 훈련을 적용한다",
-  "line": "응급구조사 회복탄력성 훈련은 1년 뒤 PTSD·우울장애 위험을 낮췄습니다.",
-  "effect": "PTSD/MDD OR 0.20·0.25",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 570,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "회복탄력성 훈련은 비약물 중재이며 PTSD·주요우울장애에 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "영국 15개 대학의 예비 응급구조사 570명을 온라인 회복탄력성 훈련, 심리교육, 표준훈련에 무작위 배정했습니다.",
-  "saw": "1년 뒤 회복탄력성 훈련군의 PTSD 또는 주요우울장애 진단 오즈가 심리교육군과 표준훈련군보다 낮았습니다.",
-  "limit": "예비 응급구조사 훈련생 대상이라 현직 응급구조사와 다른 직업군에 일반화하기 어렵습니다.",
-  "against": "훈련 프로그램의 구성 요소별 효과와 실제 임상서비스 이용 효과는 확인하지 않았습니다.",
-  "use": "응급구조사 교육에서 PTSD·우울장애 예방을 보조하는 온라인 훈련의 근거로만 기록합니다.",
-  "refs": [
-    { "label": "Cognitive Resilience Training to Prevent PTSD and Major Depressive Disorder in Paramedic Recruits: A Randomized Clinical Trial", "doi": "10.1001/jamanetworkopen.2025.57241", "pmid": "41661593" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "resilience training AND Depressive Disorder · 100건 반환",
-    "pubmed": "resilience training AND Depressive Disorder · 475편",
-    "negative": "resilience training AND Depressive Disorder AND (no effect OR did not OR failed OR no significant difference) · 275편",
-    "safety": "resilience training AND (adverse OR toxicity OR case report OR harm) · 2437편"
+ "id": "resilience-training-depressive-disorder-pos",
+ "subj": "회복탄력성 훈련",
+ "claim": "초기 경력 응급구조사의 PTSD·주요우울장애 예방에 회복탄력성 훈련을 적용한다",
+ "line": "응급구조사 회복탄력성 훈련은 1년 뒤 PTSD·우울장애 위험을 낮췄습니다.",
+ "effect": "PTSD/MDD OR 0.20·0.25",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 570,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "회복탄력성 훈련은 비약물 중재이며 PTSD·주요우울장애에 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "영국 15개 대학의 예비 응급구조사 570명을 온라인 회복탄력성 훈련, 심리교육, 표준훈련에 무작위 배정했습니다.",
+ "saw": "1년 뒤 회복탄력성 훈련군의 PTSD 또는 주요우울장애 진단 오즈가 심리교육군과 표준훈련군보다 낮았습니다.",
+ "limit": "예비 응급구조사 훈련생 대상이라 현직 응급구조사와 다른 직업군에 일반화하기 어렵습니다.",
+ "against": "훈련 프로그램의 구성 요소별 효과와 실제 임상서비스 이용 효과는 확인하지 않았습니다.",
+ "use": "응급구조사 교육에서 PTSD·우울장애 예방을 보조하는 온라인 훈련의 근거로만 기록합니다.",
+ "refs": [
+  {
+   "label": "Cognitive Resilience Training to Prevent PTSD and Major Depressive Disorder in Paramedic Recruits: A Randomized Clinical Trial",
+   "doi": "10.1001/jamanetworkopen.2025.57241",
+   "pmid": "41661593"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "resilience training AND Depressive Disorder · 100건 반환",
+  "pubmed": "resilience training AND Depressive Disorder · 475편",
+  "negative": "resilience training AND Depressive Disorder AND (no effect OR did not OR failed OR no significant difference) · 275편",
+  "safety": "resilience training AND (adverse OR toxicity OR case report OR harm) · 2437편"
+ },
+ "vs": "상대 효과: 인지 회복탄력성 훈련 vs 심리교육 PTSD 또는 주요우울장애 12개월 OR 0.20 (95% CI 0.05~0.73), 표준 훈련 OR 0.25 (0.07~0.97)"
 }

@@ -1,28 +1,33 @@
 {
-  "id": "remote-group-exercise-cancer-pos",
-  "subj": "remote group exercise",
-  "claim": "원격 운동은 대장암 환자의 신체활동을 높였다",
-  "line": "원격 운동은 대장암 연구의 민감도 분석에서 신체활동량을 높였습니다.",
-  "effect": "민감도 분석 P=.008",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "원격 그룹 운동은 비약물 재활 중재이며 암에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "대장암 환자의 원격·비감독 운동 전략을 통상 치료 또는 무중재와 비교한 메타분석이다.",
-  "saw": "11개 연구 중 7개를 메타분석했을 때 전체 효과는 유의하지 않았지만, 대장암 연구만 포함한 민감도 분석에서는 운동이 신체활동을 높였다(P=.008).",
-  "limit": "연구 수가 적고 원격 운동 방식이 다양하며 전체 분석의 P값은 .06이었다.",
-  "against": "대장암 연구만 남긴 분석에서 신호가 생겨 결과의 안정성이 제한된다.",
-  "use": "대장암 환자의 운동 접근성을 높이는 보조 재활 방식으로 검토한다.",
-  "refs": [
-    { "label": "대장암 환자 원격·비감독 운동 메타분석", "doi": "10.3390/healthcare11050723", "pmid": "36900728", "pmc": "PMC10000866" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote group exercise AND condition=Cancer; 97건",
-    "pubmed": "remote group exercise AND Cancer; 208건",
-    "negative": "remote group exercise AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 36건",
-    "safety": "remote group exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 259건"
+ "id": "remote-group-exercise-cancer-pos",
+ "subj": "원격 단체 운동",
+ "claim": "원격 운동은 대장암 환자의 신체활동을 높였다",
+ "line": "원격 운동은 대장암 연구의 민감도 분석에서 신체활동량을 높였습니다.",
+ "effect": "민감도 분석 P=.008",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "원격 그룹 운동은 비약물 재활 중재이며 암에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "대장암 환자의 원격·비감독 운동 전략을 통상 치료 또는 무중재와 비교한 메타분석이다.",
+ "saw": "11개 연구 중 7개를 메타분석했을 때 전체 효과는 유의하지 않았지만, 대장암 연구만 포함한 민감도 분석에서는 운동이 신체활동을 높였다(P=.008).",
+ "limit": "연구 수가 적고 원격 운동 방식이 다양하며 전체 분석의 P값은 .06이었다.",
+ "against": "대장암 연구만 남긴 분석에서 신호가 생겨 결과의 안정성이 제한된다.",
+ "use": "대장암 환자의 운동 접근성을 높이는 보조 재활 방식으로 검토한다.",
+ "refs": [
+  {
+   "label": "대장암 환자 원격·비감독 운동 메타분석",
+   "doi": "10.3390/healthcare11050723",
+   "pmid": "36900728",
+   "pmc": "PMC10000866"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote group exercise AND condition=Cancer; 97건",
+  "pubmed": "remote group exercise AND Cancer; 208건",
+  "negative": "remote group exercise AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 36건",
+  "safety": "remote group exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 259건"
+ }
 }

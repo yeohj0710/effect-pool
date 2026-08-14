@@ -1,28 +1,35 @@
 {
-  "id": "remote-exercise-coaching-pregnancy-pos",
-  "subj": "remote exercise coaching",
-  "claim": "원격 운동코칭을 임신 중 신체활동에 쓴다",
-  "line": "원격 운동코칭은 임신 중 고혈당 여성의 걷기 감소를 완화했습니다.",
-  "effect": "걷기 변화 +0.22 MET h/week",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 26,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "임신 고혈당이 있는 26명이 원격 생활습관 코치의 주 1회 10~20분 걷기·제자리걸음 상담 또는 일반 건강상담에 무작위 배정된 예비시험입니다.",
-  "saw": "운동군은 임신 후반 걷기·달리기 변화가 +0.22 MET h/week였고 대조군은 -0.70이었으며, 무작위 배정자 26명 중 19명이 추적을 마쳤습니다.",
-  "limit": "예비시험이고 표본이 작으며 운동군 9명만 중재를 완료해 신생아 결과와 장기 임상효과는 확인할 수 없습니다.",
-  "against": "운동군과 대조군의 걷기 변화 신뢰구간이 겹쳤고, 본 연구는 대규모 유효성 시험이 아니라 실행가능성 평가였습니다.",
-  "use": "임신 중 혈당관리에서 원격 걷기 코칭을 영양치료와 함께 시험할 때 예비 근거로 참고합니다.",
-  "refs": [
-    { "label": "A randomized controlled pilot trial of a behavioral physical activity intervention for pregnancy hyperglycemia", "pmid": "41321483", "pmc": "PMC12659981", "nct": "NCT06125704", "doi": "10.1155/jp/7485092" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]remote exercise coaching AND AREA[ConditionSearch]Pregnancy → 10건, exact InterventionName 0건",
-    "pubmed": "\"remote exercise coaching\" AND \"Pregnancy\" → 7건",
-    "negative": "\"remote exercise coaching\" AND \"Pregnancy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
-    "safety": "\"remote exercise coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 57건"
+ "id": "remote-exercise-coaching-pregnancy-pos",
+ "subj": "원격 운동 코칭",
+ "claim": "원격 운동코칭을 임신 중 신체활동에 쓴다",
+ "line": "원격 운동코칭은 임신 중 고혈당 여성의 걷기 감소를 완화했습니다.",
+ "effect": "걷기 변화 +0.22 MET h/week",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 26,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "임신 고혈당이 있는 26명이 원격 생활습관 코치의 주 1회 10~20분 걷기·제자리걸음 상담 또는 일반 건강상담에 무작위 배정된 예비시험입니다.",
+ "saw": "운동군은 임신 후반 걷기·달리기 변화가 +0.22 MET h/week였고 대조군은 -0.70이었으며, 무작위 배정자 26명 중 19명이 추적을 마쳤습니다.",
+ "limit": "예비시험이고 표본이 작으며 운동군 9명만 중재를 완료해 신생아 결과와 장기 임상효과는 확인할 수 없습니다.",
+ "against": "운동군과 대조군의 걷기 변화 신뢰구간이 겹쳤고, 본 연구는 대규모 유효성 시험이 아니라 실행가능성 평가였습니다.",
+ "use": "임신 중 혈당관리에서 원격 걷기 코칭을 영양치료와 함께 시험할 때 예비 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "A randomized controlled pilot trial of a behavioral physical activity intervention for pregnancy hyperglycemia",
+   "pmid": "41321483",
+   "pmc": "PMC12659981",
+   "nct": "NCT06125704",
+   "doi": "10.1155/jp/7485092"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]remote exercise coaching AND AREA[ConditionSearch]Pregnancy → 10건, exact InterventionName 0건",
+  "pubmed": "\"remote exercise coaching\" AND \"Pregnancy\" → 7건",
+  "negative": "\"remote exercise coaching\" AND \"Pregnancy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 2건",
+  "safety": "\"remote exercise coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 57건"
+ },
+ "vs": "군 간 차이: 원격 운동 코칭 vs 일반 웰니스 임신 고혈당 후반기 걷기·달리기 변화 +0.22 MET·시간/주 (95% CI -0.41~0.84) vs -0.70 (-1.31~-0.10)"
 }

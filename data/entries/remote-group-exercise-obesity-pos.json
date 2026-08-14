@@ -1,28 +1,34 @@
 {
-  "id": "remote-group-exercise-obesity-pos",
-  "subj": "remote group exercise",
-  "claim": "원격 운동·영양 중재는 과체중·비만 성인의 체중을 줄였다",
-  "line": "원격 운동·영양 중재는 과체중·비만 성인의 체중을 줄였습니다.",
-  "effect": "체중 차이 -2.59 kg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "원격 그룹 운동은 비약물 생활습관 중재이며 비만에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "6개월 이하의 신체활동·영양 생활습관 중재 무작위시험을 체계적으로 종합했다.",
-  "saw": "14개 무작위시험에서 중재군의 체중 변화가 대조군보다 평균 2.59 kg 낮았다(95% CI -3.47~-1.72).",
-  "limit": "중재의 절반만 원격으로 시행됐고 중재 기간과 구성 요소가 다양했다.",
-  "against": "원격 운동만의 효과와 장기 체중 유지 효과는 분리해 확인되지 않았다.",
-  "use": "장기 프로그램에 참여하기 어려운 과체중·비만 성인의 단기 대안으로 검토한다.",
-  "refs": [
-    { "label": "과체중·비만 성인 단기 신체활동·영양 중재 메타분석", "doi": "10.5888/pcd21.230347", "pmid": "38573796", "pmc": "PMC10996390" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote group exercise AND condition=Obesity; 44건",
-    "pubmed": "remote group exercise AND Obesity; 168건",
-    "negative": "remote group exercise AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference); 34건",
-    "safety": "remote group exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 259건"
+ "id": "remote-group-exercise-obesity-pos",
+ "subj": "원격 단체 운동",
+ "claim": "원격 운동·영양 중재는 과체중·비만 성인의 체중을 줄였다",
+ "line": "원격 운동·영양 중재는 과체중·비만 성인의 체중을 줄였습니다.",
+ "effect": "체중 차이 -2.59 kg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "원격 그룹 운동은 비약물 생활습관 중재이며 비만에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "6개월 이하의 신체활동·영양 생활습관 중재 무작위시험을 체계적으로 종합했다.",
+ "saw": "14개 무작위시험에서 중재군의 체중 변화가 대조군보다 평균 2.59 kg 낮았다(95% CI -3.47~-1.72).",
+ "limit": "중재의 절반만 원격으로 시행됐고 중재 기간과 구성 요소가 다양했다.",
+ "against": "원격 운동만의 효과와 장기 체중 유지 효과는 분리해 확인되지 않았다.",
+ "use": "장기 프로그램에 참여하기 어려운 과체중·비만 성인의 단기 대안으로 검토한다.",
+ "refs": [
+  {
+   "label": "과체중·비만 성인 단기 신체활동·영양 중재 메타분석",
+   "doi": "10.5888/pcd21.230347",
+   "pmid": "38573796",
+   "pmc": "PMC10996390"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote group exercise AND condition=Obesity; 44건",
+  "pubmed": "remote group exercise AND Obesity; 168건",
+  "negative": "remote group exercise AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference); 34건",
+  "safety": "remote group exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 259건"
+ },
+ "vs": "군 간 차이: 원격 운동·영양 중재 vs 대조군 과체중·비만 체중 변화 MD -2.59 kg (95% CI -3.47~-1.72), 13주 미만 -2.70 (-3.69~-1.71), 13~26주 -2.40 (-4.44~-0.37)"
 }
