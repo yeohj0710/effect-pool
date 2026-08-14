@@ -1,28 +1,32 @@
 {
-  "id": "music-therapy-depression-pos",
-  "subj": "music therapy",
-  "claim": "음악치료를 근로연령 우울증의 증상 개선에 쓴다",
-  "line": "음악치료는 근로 연령 성인의 우울증 증상을 개선했습니다",
-  "effect": "우울 증상 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 79,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "음악치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "표준 치료에 개인 음악치료를 더하면 근로연령 우울증 환자의 우울 증상과 기능이 표준 치료만으로도 좋아지는 정도를 넘어 개선되는지 비교했습니다.",
-  "saw": "우울증 환자 79명을 개인 음악치료·표준 치료군과 표준 치료군에 무작위 배정해 6개월 추적했습니다. 음악치료를 더한 군에서 우울 증상이 표준 치료군보다 더 크게 개선됐습니다.",
-  "limit": "개인 음악치료 모델과 주 2회 20회기라는 특정 방식의 시험입니다.",
-  "against": "표준 치료군도 추적 기간 동안 우울 증상이 개선됐습니다.",
-  "use": "우울증 표준 치료에 개인 음악치료를 보완적으로 더하는 방법",
-  "refs": [
-    { "label": "Erkkilä 2011 · British Journal of Psychiatry · 무작위시험", "pmid": "21474494" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=music therapy AND condition=Depression; 133건 반환, 중재명 대조 후 13건",
-    "pubmed": "music therapy AND Depression; 1,448건",
-    "negative": "music therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,159건",
-    "safety": "music therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 1,614건"
+ "id": "music-therapy-depression-pos",
+ "subj": "음악치료",
+ "claim": "음악치료를 근로연령 우울증의 증상 개선에 쓴다",
+ "line": "음악치료는 근로 연령 성인의 우울증 증상을 개선했습니다",
+ "effect": "우울 증상 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 79,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "음악치료는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "표준 치료에 개인 음악치료를 더하면 근로연령 우울증 환자의 우울 증상과 기능이 표준 치료만으로도 좋아지는 정도를 넘어 개선되는지 비교했습니다.",
+ "saw": "우울증 환자 79명을 개인 음악치료·표준 치료군과 표준 치료군에 무작위 배정해 6개월 추적했습니다. 음악치료를 더한 군에서 우울 증상이 표준 치료군보다 더 크게 개선됐습니다.",
+ "limit": "개인 음악치료 모델과 주 2회 20회기라는 특정 방식의 시험입니다.",
+ "against": "표준 치료군도 추적 기간 동안 우울 증상이 개선됐습니다.",
+ "use": "우울증 표준 치료에 개인 음악치료를 보완적으로 더하는 방법",
+ "refs": [
+  {
+   "label": "Erkkilä 2011 · British Journal of Psychiatry · 무작위시험",
+   "pmid": "21474494"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=music therapy AND condition=Depression; 133건 반환, 중재명 대조 후 13건",
+  "pubmed": "music therapy AND Depression; 1,448건",
+  "negative": "music therapy AND Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,159건",
+  "safety": "music therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 1,614건"
+ },
+ "vs": "군 간 차이: 음악치료+표준치료 vs 표준치료 우울 증상 평균차 4.65 (95% CI 0.59~8.70), 불안 1.82 (0.09~3.55), 일반 기능 -4.58 (-8.93~-0.24), 반응 OR 2.96 (1.01~9.02)"
 }

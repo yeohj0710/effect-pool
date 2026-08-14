@@ -1,29 +1,39 @@
 {
-  "id": "narrative-exposure-therapy-ptsd-pos",
-  "subj": "서사 노출 치료",
-  "claim": "외상 후 스트레스 장애에 서사 노출 치료를 쓰는가",
-  "line": "전쟁을 겪은 여성에게 변형 서사 노출 치료 후 PTSD와 공격성이 개선되었습니다",
-  "effect": "PTSD·공격성·우울 중등도~큰 효과",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 92,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "서사 노출 치료는 약물이 아닌 심리치료이며 PTSD의 허가 치료가 아닙니다.",
-  "why": "PTSD가 있는 전 아동병사 여성 92명을 FORNET과 평소 치료에 무작위 배정하고 3~4개월과 9개월 뒤를 평가했습니다.",
-  "saw": "변형 서사 노출 치료군은 PTSD, 공격성, 우울, 현재 폭력 행동 등 임상·사회 결과에서 평소 치료보다 우수했고 효과크기는 중등도에서 컸습니다.",
-  "limit": "전쟁 후 전 아동병사라는 특수 집단이고 서사 노출 치료에 집단치료 요소가 함께 들어갔습니다.",
-  "against": "서사 노출 치료의 PTSD 메타분석은 출판 편향을 반영하면 군 간 차이가 사라져 효과의 확실성이 제한됐습니다.",
-  "use": "외상 사건이 반복되는 PTSD에서 훈련받은 치료자가 제공하는 외상 중심 심리치료로 검토하고 위기·안전 계획을 함께 세웁니다.",
-  "refs": [
-    { "label": "전 아동병사 여성 FORNET 무작위시험", "doi": "10.1016/j.brat.2019.103482", "pmid": "31639529", "nct": "NCT02992561" },
-    { "label": "PTSD 서사 노출 치료 무작위시험 메타분석", "doi": "10.1037/tra0000922", "pmid": "33617284" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=narrative exposure therapy · cond=PTSD · 93건 반환",
-    "pubmed": "narrative exposure therapy AND PTSD · 340편; trial 검색 195편",
-    "negative": "narrative exposure therapy AND PTSD AND (no effect OR did not OR failed OR negative OR no significant difference) · 65편",
-    "safety": "narrative exposure therapy AND (adverse OR toxicity OR case report OR harm OR dropout) · 515편"
+ "id": "narrative-exposure-therapy-ptsd-pos",
+ "subj": "서사 노출 치료",
+ "claim": "외상 후 스트레스 장애에 서사 노출 치료를 쓰는가",
+ "line": "전쟁을 겪은 여성에게 변형 서사 노출 치료 후 PTSD와 공격성이 개선되었습니다",
+ "effect": "PTSD·공격성·우울 중등도~큰 효과",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 92,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "서사 노출 치료는 약물이 아닌 심리치료이며 PTSD의 허가 치료가 아닙니다.",
+ "why": "PTSD가 있는 전 아동병사 여성 92명을 FORNET과 평소 치료에 무작위 배정하고 3~4개월과 9개월 뒤를 평가했습니다.",
+ "saw": "변형 서사 노출 치료군은 PTSD, 공격성, 우울, 현재 폭력 행동 등 임상·사회 결과에서 평소 치료보다 우수했고 효과크기는 중등도에서 컸습니다.",
+ "limit": "전쟁 후 전 아동병사라는 특수 집단이고 서사 노출 치료에 집단치료 요소가 함께 들어갔습니다.",
+ "against": "서사 노출 치료의 PTSD 메타분석은 출판 편향을 반영하면 군 간 차이가 사라져 효과의 확실성이 제한됐습니다.",
+ "use": "외상 사건이 반복되는 PTSD에서 훈련받은 치료자가 제공하는 외상 중심 심리치료로 검토하고 위기·안전 계획을 함께 세웁니다.",
+ "refs": [
+  {
+   "label": "전 아동병사 여성 FORNET 무작위시험",
+   "doi": "10.1016/j.brat.2019.103482",
+   "pmid": "31639529",
+   "nct": "NCT02992561"
+  },
+  {
+   "label": "PTSD 서사 노출 치료 무작위시험 메타분석",
+   "doi": "10.1037/tra0000922",
+   "pmid": "33617284"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=narrative exposure therapy · cond=PTSD · 93건 반환",
+  "pubmed": "narrative exposure therapy AND PTSD · 340편; trial 검색 195편",
+  "negative": "narrative exposure therapy AND PTSD AND (no effect OR did not OR failed OR negative OR no significant difference) · 65편",
+  "safety": "narrative exposure therapy AND (adverse OR toxicity OR case report OR harm OR dropout) · 515편"
+ },
+ "vs": "군 간 차이: NET vs 비교군 PTSD 증상 효과크기 g=-.57 (95% CI -.87~-.28, p<.01), 진단 소실 RR 2.20 (1.23~3.92, p<.01)"
 }
