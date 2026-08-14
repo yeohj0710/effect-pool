@@ -1,32 +1,33 @@
 {
-  "id": "hyperbaric-oxygen-therapy-cancer-pos",
-  "subj": "hyperbaric oxygen therapy",
-  "claim": "고압산소를 암 치료 뒤 늦게 생긴 방사선 조직손상에 쓴다",
-  "line": "방사선 조직손상은 호전됐지만 시력 저하 위험은 높았습니다",
-  "effect": "호전 RR 1.39·시력 저하 RR 4.03",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1071,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "암 치료 자체가 아니라 방사선치료 뒤 남은 조직손상에 고압산소를 적용한 연구를 확인했습니다",
-  "saw": "18개 연구 1,071명에서 늦은 방사선 조직손상 호전 RR 1.39였고 시력 저하 RR 4.03, 귀 압력손상 위험도 보고됐습니다",
-  "limit": "부위와 산소 용량이 달랐고 근거 확실성이 낮거나 중간이었습니다",
-  "against": "고압산소를 쓰지 않은 대조",
-  "use": "방사선 조직손상에 한정한 보조치료 근거로 봅니다",
-  "refs": [
-    {
-      "label": "Hyperbaric oxygen therapy for late radiation tissue injury",
-      "doi": "10.1002/14651858.CD005005.pub5",
-      "pmid": "37585677"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=hyperbaric oxygen therapy · cond=Cancer: 12건",
-    "pubmed": "hyperbaric oxygen therapy AND Cancer AND (randomized OR trial OR meta-analysis): 352건",
-    "negative": "hyperbaric oxygen therapy AND Cancer AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1167건",
-    "safety": "hyperbaric oxygen therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 4744건"
+ "id": "hyperbaric-oxygen-therapy-cancer-pos",
+ "subj": "고압산소치료",
+ "claim": "고압산소를 암 치료 뒤 늦게 생긴 방사선 조직손상에 쓴다",
+ "line": "방사선 조직손상은 호전됐지만 시력 저하 위험은 높았습니다",
+ "effect": "호전 RR 1.39·시력 저하 RR 4.03",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1071,
+ "vs": "고압산소치료군 대 비고압산소군: 후기 방사선 조직손상 호전 RR=1.39 (95% CI 1.02~1.89), 상처 벌어짐 RR=0.24 (95% CI 0.06~0.94), 시력 저하 RR=4.03 (95% CI 1.65~9.84); 18개 시험, 1071명",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "암 치료 자체가 아니라 방사선치료 뒤 남은 조직손상에 고압산소를 적용한 연구를 확인했습니다",
+ "saw": "18개 연구 1,071명에서 늦은 방사선 조직손상 호전 RR 1.39였고 시력 저하 RR 4.03, 귀 압력손상 위험도 보고됐습니다",
+ "limit": "부위와 산소 용량이 달랐고 근거 확실성이 낮거나 중간이었습니다",
+ "against": "고압산소를 쓰지 않은 대조",
+ "use": "방사선 조직손상에 한정한 보조치료 근거로 봅니다",
+ "refs": [
+  {
+   "label": "Hyperbaric oxygen therapy for late radiation tissue injury",
+   "doi": "10.1002/14651858.CD005005.pub5",
+   "pmid": "37585677"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=hyperbaric oxygen therapy · cond=Cancer: 12건",
+  "pubmed": "hyperbaric oxygen therapy AND Cancer AND (randomized OR trial OR meta-analysis): 352건",
+  "negative": "hyperbaric oxygen therapy AND Cancer AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1167건",
+  "safety": "hyperbaric oxygen therapy AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 4744건"
+ }
 }

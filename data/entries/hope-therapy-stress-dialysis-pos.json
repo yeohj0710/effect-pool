@@ -1,28 +1,33 @@
 {
-  "id": "hope-therapy-stress-dialysis-pos",
-  "subj": "hope therapy",
-  "claim": "희망치료가 혈액투석 환자의 우울·불안·스트레스를 줄였다",
-  "line": "투석 환자 희망치료는 우울·불안·스트레스를 줄였습니다",
-  "effect": "우울·불안·스트레스 감소(P<.05)",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 50,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "희망치료는 의약품이 아닌 심리상담 중재입니다.",
-  "why": "혈액투석 환자에게 희망치료를 제공했을 때 우울·불안·스트레스가 비특이적 대조중재보다 달라지는지 평가했습니다.",
-  "saw": "혈액투석 환자 50명을 희망치료군과 위약성 비특이적 중재군으로 나눈 임상시험에서 희망치료군의 우울·불안·스트레스가 대조군보다 유의하게 줄었습니다(P<.05). 초록에는 각 척도의 평균값이 제시되지 않았습니다.",
-  "limit": "소규모 단일 시험이고 평균값과 장기 추적이 없어 감소 폭과 지속성을 판단하기 어렵습니다.",
-  "against": "초록에서 각 결과의 평균값과 효과크기를 확인할 수 없고 혈액투석 환자 밖으로 일반화하기 어렵습니다.",
-  "use": "혈액투석 환자의 심리중재를 평가할 때 우울·불안·스트레스와 장기 추적을 함께 확인합니다.",
-  "refs": [
-    { "label": "혈액투석 환자 희망치료 임상시험", "doi": "10.4103/1735-9066.170007", "pmid": "26793255" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "hope therapy AND Stress — 36건 반환",
-    "pubmed": "\"hope therapy\" AND stress — 14편",
-    "negative": "\"hope therapy\" AND stress AND (no effect OR did not OR failed OR negative OR no significant difference) — 4편",
-    "safety": "\"hope therapy\" AND (adverse OR toxicity OR harm OR safety) — 6편"
+ "id": "hope-therapy-stress-dialysis-pos",
+ "subj": "희망 치료",
+ "claim": "희망치료가 혈액투석 환자의 우울·불안·스트레스를 줄였다",
+ "line": "투석 환자 희망치료는 우울·불안·스트레스를 줄였습니다",
+ "effect": "우울·불안·스트레스 감소(P<.05)",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 50,
+ "vs": "혈액투석 희망치료군 대 위약군: 우울·불안·스트레스 점수 변화가 더 큼 (모두 P<.05); 총 50명 임상시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "희망치료는 의약품이 아닌 심리상담 중재입니다.",
+ "why": "혈액투석 환자에게 희망치료를 제공했을 때 우울·불안·스트레스가 비특이적 대조중재보다 달라지는지 평가했습니다.",
+ "saw": "혈액투석 환자 50명을 희망치료군과 위약성 비특이적 중재군으로 나눈 임상시험에서 희망치료군의 우울·불안·스트레스가 대조군보다 유의하게 줄었습니다(P<.05). 초록에는 각 척도의 평균값이 제시되지 않았습니다.",
+ "limit": "소규모 단일 시험이고 평균값과 장기 추적이 없어 감소 폭과 지속성을 판단하기 어렵습니다.",
+ "against": "초록에서 각 결과의 평균값과 효과크기를 확인할 수 없고 혈액투석 환자 밖으로 일반화하기 어렵습니다.",
+ "use": "혈액투석 환자의 심리중재를 평가할 때 우울·불안·스트레스와 장기 추적을 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "혈액투석 환자 희망치료 임상시험",
+   "doi": "10.4103/1735-9066.170007",
+   "pmid": "26793255"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "hope therapy AND Stress — 36건 반환",
+  "pubmed": "\"hope therapy\" AND stress — 14편",
+  "negative": "\"hope therapy\" AND stress AND (no effect OR did not OR failed OR negative OR no significant difference) — 4편",
+  "safety": "\"hope therapy\" AND (adverse OR toxicity OR harm OR safety) — 6편"
+ }
 }
