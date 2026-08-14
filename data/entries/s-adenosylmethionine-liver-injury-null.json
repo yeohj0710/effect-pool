@@ -1,6 +1,6 @@
 {
   "id": "s-adenosylmethionine-liver-injury-null",
-  "subj": "SAMe",
+  "subj": "S-아데노실메티오닌",
   "claim": "만성 간질환에서 SAMe의 임상적 이득은 제한적이다",
   "line": "만성 간질환에서 SAMe는 ALT와 장기 예후 이득이 일관되지 않았습니다.",
   "effect": "임상적 이득 제한",
@@ -16,8 +16,16 @@
   "against": "알코올성 간경변 단일 무작위시험에서는 전체 생존·간이식 결과가 SAMe군에서 낮았지만 전체 비교의 p값은 유의수준에 미치지 못했습니다.",
   "use": "간질환 피로와 간기능 보조요법의 연구 근거로 기록하며 표준 간질환 치료를 대체하지 않습니다.",
   "refs": [
-    { "label": "S-Adenosylmethionine for liver diseases: systematic review and meta-analysis", "doi": "10.1371/journal.pone.0122124", "pmid": "25774783" },
-    { "label": "S-Adenosyl-L-methionine in alcoholic cirrhosis", "doi": "10.1016/S0168-8278(99)80263-3", "pmid": "10406187" }
+    {
+      "label": "S-Adenosylmethionine for liver diseases: systematic review and meta-analysis",
+      "doi": "10.1371/journal.pone.0122124",
+      "pmid": "25774783"
+    },
+    {
+      "label": "S-Adenosyl-L-methionine in alcoholic cirrhosis",
+      "doi": "10.1016/S0168-8278(99)80263-3",
+      "pmid": "10406187"
+    }
   ],
   "queried": {
     "date": "2026-08-11",
@@ -25,5 +33,6 @@
     "pubmed": "s-adenosylmethionine AND Liver Injury: 317건; randomized human: 10건",
     "negative": "s-adenosylmethionine AND Liver Injury AND (no effect OR did not OR failed OR negative OR no significant difference): 247건",
     "safety": "s-adenosylmethionine AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 1,237건"
-  }
+  },
+  "vs": "만성 간질환 RCT 종합(n=705)에서 S-아데노실메티오닌 vs 위약 알코올성 간경변 사망·간이식 16% vs 30%, p=.077; Child C 제외 12% vs 29%, p=.025"
 }

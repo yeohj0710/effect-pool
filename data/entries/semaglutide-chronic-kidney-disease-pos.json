@@ -13,6 +13,21 @@
   "limit": "제2형 당뇨병과 알부민뇨가 있는 특정 만성콩팥병 환자의 결과이며, 중재시험이 조기 종료돼 장기 효과의 불확실성이 남습니다.",
   "against": "중대한 이상반응은 세마글루타이드군 49.6%, 위약군 53.8%로 오히려 적었지만 위장관 이상반응과 중단 사유는 별도로 확인해야 합니다.",
   "use": "제2형 당뇨병을 동반한 만성콩팥병의 신장사건 근거로 읽고 당뇨병 없는 모든 신장질환에 확대하지 않아야 합니다.",
-  "refs": [{"label": "Perkovic 2024 · NEJM · FLOW 만성콩팥병 무작위시험", "doi": "10.1056/NEJMoa2403347", "pmid": "38785209", "nct": "NCT03819153"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:SEMAGLUTIDE → 5건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절·고위험군 주요 심혈관 사건 감소", "ctgov": "query.intr=semaglutide&query.cond=Chronic Kidney Disease → 19건 반환, InterventionName 대조 후 semaglutide 일치 15건", "pubmed": "semaglutide AND \"Chronic Kidney Disease\" → 221건", "negative": "semaglutide AND \"Chronic Kidney Disease\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 175건", "safety": "semaglutide AND \"Chronic Kidney Disease\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 98건"}
+  "refs": [
+    {
+      "label": "Perkovic 2024 · NEJM · FLOW 만성콩팥병 무작위시험",
+      "doi": "10.1056/NEJMoa2403347",
+      "pmid": "38785209",
+      "nct": "NCT03819153"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:SEMAGLUTIDE → 5건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절·고위험군 주요 심혈관 사건 감소",
+    "ctgov": "query.intr=semaglutide&query.cond=Chronic Kidney Disease → 19건 반환, InterventionName 대조 후 semaglutide 일치 15건",
+    "pubmed": "semaglutide AND \"Chronic Kidney Disease\" → 221건",
+    "negative": "semaglutide AND \"Chronic Kidney Disease\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 175건",
+    "safety": "semaglutide AND \"Chronic Kidney Disease\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 98건"
+  },
+  "vs": "제2형 당뇨병·만성콩팥병 RCT(n=3,533)에서 세마글루타이드 vs 위약 주요 신장사건 331/1,767 vs 410/1,766, HR=0.76(95% CI 0.66~0.88), p=.0003"
 }
