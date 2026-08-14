@@ -1,28 +1,33 @@
 {
-  "id": "whole-plant-diet-obesity-pos",
-  "subj": "whole plant diet",
-  "claim": "전곡 식물성 식단 프로그램이 비만 성인의 체중을 줄일 수 있다",
-  "line": "전곡 식물성 프로그램은 비만 성인의 체중을 줄였습니다.",
-  "effect": "체중 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 56,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "전곡 식물성 식단은 비만 치료의 허가 의약품이 아닙니다.",
-  "why": "비만과 높은 당화혈색소가 있는 성인 56명을 10주 전곡 식물성 지역 프로그램과 대기 대조군에 무작위 배정했습니다.",
-  "saw": "10주 뒤 식물성 프로그램군은 대조군보다 체중이 3.3 kg 더 줄었고 당화혈색소도 감소하는 경향을 보였습니다.",
-  "limit": "식단 교육·요리·운동을 함께 제공한 지역 프로그램이고 당화혈색소 차이는 유의하지 않았습니다.",
-  "against": "36개월 추적에서 효과가 지속되는지는 확정할 수 없습니다.",
-  "use": "비만에서 전곡 식물성 생활습관 프로그램을 검증할 초기 근거입니다.",
-  "refs": [
-    { "label": "Whole-food plant-based community programme for obesity · 대기 대조 무작위시험", "doi": "10.1136/bmjopen-2023-080946", "pmid": "40562559" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "whole plant diet AND Obesity · 4건",
-    "pubmed": "whole plant diet AND obesity · 618건",
-    "negative": "whole plant diet AND obesity AND (no effect OR no significant difference OR failed OR negative OR null) · 401건",
-    "safety": "whole plant diet AND (adverse OR toxicity OR harm OR case report) · 616건"
+ "id": "whole-plant-diet-obesity-pos",
+ "subj": "전식물성 식단",
+ "claim": "전곡 식물성 식단 프로그램이 비만 성인의 체중을 줄일 수 있다",
+ "line": "전곡 식물성 프로그램은 비만 성인의 체중을 줄였습니다.",
+ "effect": "체중 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 56,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "전곡 식물성 식단은 비만 치료의 허가 의약품이 아닙니다.",
+ "why": "비만과 높은 당화혈색소가 있는 성인 56명을 10주 전곡 식물성 지역 프로그램과 대기 대조군에 무작위 배정했습니다.",
+ "saw": "비만과 높은 HbA1c가 있는 성인 56명을 10주 전식물성 식단 지역사회 프로그램군과 대기 대조군에 무작위 배정하고 체중·HbA1c를 비교했다.",
+ "limit": "식단 교육·요리·운동을 함께 제공한 지역 프로그램이고 당화혈색소 차이는 유의하지 않았습니다.",
+ "against": "36개월 추적에서 효과가 지속되는지는 확정할 수 없습니다.",
+ "use": "비만에서 전곡 식물성 생활습관 프로그램을 검증할 초기 근거입니다.",
+ "refs": [
+  {
+   "label": "Whole-food plant-based community programme for obesity · 대기 대조 무작위시험",
+   "doi": "10.1136/bmjopen-2023-080946",
+   "pmid": "40562559"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "whole plant diet AND Obesity · 4건",
+  "pubmed": "whole plant diet AND obesity · 618건",
+  "negative": "whole plant diet AND obesity AND (no effect OR no significant difference OR failed OR negative OR null) · 401건",
+  "safety": "whole plant diet AND (adverse OR toxicity OR harm OR case report) · 616건"
+ },
+ "vs": "10주 전식물성 식단 지역사회 프로그램 vs 대기 대조군: 체중 감소 군간 차이 3.3kg (95% CI 0.8~5.7, p<.001), HbA1c 차이 3.2mmol/mol (-0.4~6.7, p=.08); 56명"
 }

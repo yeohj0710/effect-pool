@@ -1,28 +1,33 @@
 {
-  "id": "workplace-wellness-program-stress-pos",
-  "subj": "workplace wellness program",
-  "claim": "근로 어머니의 스트레스가 줄어든다",
-  "line": "직장 건강 프로그램은 근로 어머니의 스트레스를 줄였습니다",
-  "effect": "스트레스 감소 신호",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 직장 건강 개입이라 의약품 허가 적응증이 아님",
-  "why": "근로 어머니 대상 직장 건강 프로그램의 결과를 종합한 8개 연구 체계적 문헌고찰입니다.",
-  "saw": "검토된 연구들은 스트레스 감소와 정신건강·일·가정 균형 개선을 포함한 결과를 보고했습니다.",
-  "limit": "초록에 연구별 표본 수와 통합 효과크기가 없고, 포함 연구의 프로그램과 결과 측정이 이질적입니다.",
-  "against": "직장 건강 프로그램 전체에서 스트레스 감소가 일관되게 확인됐다고 볼 수는 없습니다.",
-  "use": "직장 건강 프로그램의 스트레스 신호를 근로 어머니 집단에 한정해 기록합니다.",
-  "refs": [
-    { "label": "Ernawati 2022 · Journal of Occupational Health · 체계적 문헌고찰", "doi": "10.1002/1348-9585.12379", "pmid": "36522291", "pmc": "PMC9755005" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=workplace wellness program AND query.cond=Stress · 27건 반환 · InterventionName 완전일치 0건",
-    "pubmed": "\"workplace wellness program\" AND \"Stress\"[Title/Abstract] · 14건",
-    "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 1건(PMID34097526)",
-    "safety": "\"workplace wellness program\" AND (adverse OR toxicity OR harm OR safety OR case report) · 2건"
+ "id": "workplace-wellness-program-stress-pos",
+ "subj": "직장 웰니스 프로그램",
+ "claim": "근로 어머니의 스트레스가 줄어든다",
+ "line": "직장 건강 프로그램은 근로 어머니의 스트레스를 줄였습니다",
+ "effect": "스트레스 감소 신호",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 직장 건강 개입이라 의약품 허가 적응증이 아님",
+ "why": "근로 어머니 대상 직장 건강 프로그램의 결과를 종합한 8개 연구 체계적 문헌고찰입니다.",
+ "saw": "검토된 연구들은 스트레스 감소와 정신건강·일·가정 균형 개선을 포함한 결과를 보고했습니다.",
+ "limit": "초록에 연구별 표본 수와 통합 효과크기가 없고, 포함 연구의 프로그램과 결과 측정이 이질적입니다.",
+ "against": "직장 건강 프로그램 전체에서 스트레스 감소가 일관되게 확인됐다고 볼 수는 없습니다.",
+ "use": "직장 건강 프로그램의 스트레스 신호를 근로 어머니 집단에 한정해 기록합니다.",
+ "refs": [
+  {
+   "label": "Ernawati 2022 · Journal of Occupational Health · 체계적 문헌고찰",
+   "doi": "10.1002/1348-9585.12379",
+   "pmid": "36522291",
+   "pmc": "PMC9755005"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=workplace wellness program AND query.cond=Stress · 27건 반환 · InterventionName 완전일치 0건",
+  "pubmed": "\"workplace wellness program\" AND \"Stress\"[Title/Abstract] · 14건",
+  "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 1건(PMID34097526)",
+  "safety": "\"workplace wellness program\" AND (adverse OR toxicity OR harm OR safety OR case report) · 2건"
+ }
 }

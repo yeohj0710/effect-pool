@@ -1,32 +1,33 @@
 {
-  "id": "wheat-germ-inflammation-null",
-  "subj": "밀배아유 복합식이",
-  "claim": "밀배아유가 염증을 줄인다",
-  "line": "밀배아유 복합식이는 전신 염증 표지를 바꾸지 못했습니다",
-  "effect": "전신 염증 표지자 무차이",
-  "tier": "trial",
-  "dir": "null",
-  "n": 104,
-  "synth": "single",
-  "why": "이상지질혈증 성인 104명을 무작위 배정한 식이시험의 2차 분석에서 피토스테롤이 든 옥수수·밀배아유 혼합유가 전신 염증 표지자를 바꾸지 못했다.",
-  "saw": "104명을 피토스테롤 강화 옥수수·밀배아유군 52명과 땅콩유군 52명으로 나눠 12주 뒤 면역 지표를 비교했다. CD4+:CD8+ 비율과 CD8+ T세포 수는 달라졌지만 전신 염증 표지자는 차이가 없었다.",
-  "limit": "밀배아유 단독이 아니라 피토스테롤 강화 혼합유를 사용했고, 염증 결과는 원시험의 2차 분석이다.",
-  "against": "CD4+:CD8+ 비율과 CD8+ T세포 수에는 군 간 차이가 있었습니다.",
-  "use": "면역세포 일부 변화와 전신 염증 감소를 구분해야 합니다.",
-  "refs": [
-    {
-      "label": "Effects of phytosterol-enriched corn-wheat germ blended oil on immune markers · 무작위시험 2차 분석",
-      "doi": "10.1017/S0007114526108083",
-      "pmid": "42466985"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "intr=wheat germ, cond=Inflammation → 4건 반환, wheat germ 개입명 일치 2건",
-    "pubmed": "wheat germ AND inflammation → 138건",
-    "negative": "wheat germ AND inflammation AND (no effect OR did not OR failed OR negative OR no significant difference OR null) → 103건",
-    "safety": "wheat germ AND (adverse OR toxicity OR allergy OR safety) → 643건"
-  },
-  "known": "off",
-  "knownWhy": "허가 적응증이 아닌 식품 성분의 근거를 정리한 항목."
+ "id": "wheat-germ-inflammation-null",
+ "subj": "밀배아유 복합식이",
+ "claim": "밀배아유가 염증을 줄인다",
+ "line": "밀배아유 복합식이는 전신 염증 표지를 바꾸지 못했습니다",
+ "effect": "전신 염증 표지자 무차이",
+ "tier": "trial",
+ "dir": "null",
+ "n": 104,
+ "synth": "single",
+ "why": "이상지질혈증 성인 104명을 무작위 배정한 식이시험의 2차 분석에서 피토스테롤이 든 옥수수·밀배아유 혼합유가 전신 염증 표지자를 바꾸지 못했다.",
+ "saw": "이상지질혈증 성인 104명을 피토스테롤 강화 옥수수·밀배아유군과 땅콩기름군에 무작위 배정한 12주 시험의 면역세포 결과를 확인했다.",
+ "limit": "밀배아유 단독이 아니라 피토스테롤 강화 혼합유를 사용했고, 염증 결과는 원시험의 2차 분석이다.",
+ "against": "CD4+:CD8+ 비율과 CD8+ T세포 수에는 군 간 차이가 있었습니다.",
+ "use": "면역세포 일부 변화와 전신 염증 감소를 구분해야 합니다.",
+ "refs": [
+  {
+   "label": "Effects of phytosterol-enriched corn-wheat germ blended oil on immune markers · 무작위시험 2차 분석",
+   "doi": "10.1017/S0007114526108083",
+   "pmid": "42466985"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "intr=wheat germ, cond=Inflammation → 4건 반환, wheat germ 개입명 일치 2건",
+  "pubmed": "wheat germ AND inflammation → 138건",
+  "negative": "wheat germ AND inflammation AND (no effect OR did not OR failed OR negative OR no significant difference OR null) → 103건",
+  "safety": "wheat germ AND (adverse OR toxicity OR allergy OR safety) → 643건"
+ },
+ "known": "off",
+ "knownWhy": "허가 적응증이 아닌 식품 성분의 근거를 정리한 항목.",
+ "vs": "피토스테롤 강화 옥수수·밀배아유 vs 땅콩기름: 12주 CD4+:CD8+ 비 조정 평균차 0.561 (95% CI 0.060~1.063), CD8+ T세포 조정 평균차 -116.315 cells/μL (-215.781~-16.849); 각 52명"
 }
