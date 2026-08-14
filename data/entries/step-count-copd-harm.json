@@ -1,28 +1,32 @@
 {
-  "id": "step-count-copd-harm",
-  "subj": "step count",
-  "claim": "대기오염이 심한 날 COPD 환자의 step count 증가가 기침과 가래를 악화시킬 수 있습니다",
-  "line": "COPD 관찰연구에서는 걸음 수와 기침·가래가 함께 늘었습니다",
-  "effect": "기침·가래 증가",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 105,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "step count는 비약물 활동 지표이며 COPD의 허가 적응증으로 분류하지 않습니다.",
-  "why": "걷기는 COPD 환자의 활동량을 높이지만 오염된 공기에서는 운동 중 흡입 노출도 함께 늘릴 수 있습니다.",
-  "saw": "COPD 환자 105명을 두 차례 7일씩 관찰했습니다. 일일 보행시간과 step count가 증가한 날 기침·가래가 많았고, 특히 고농도 black carbon 날에 연관성이 뚜렷했습니다.",
-  "limit": "관찰연구라 step count가 증상을 일으켰는지, 증상이 덜한 날 더 걸었는지 방향을 확정할 수 없습니다.",
-  "against": "PM2.5와 이산화질소에서는 같은 상호작용이 확인되지 않았고 저오염 환경의 보행 효과를 평가하지 않았습니다.",
-  "use": "COPD 환자의 활동량을 늘릴 때 대기질과 증상을 함께 확인하고 오염이 심한 날의 야외 보행을 조정합니다.",
-  "refs": [
-    { "label": "COPD 보행·step count와 대기오염 증상 패널연구", "doi": "10.1136/thorax-2025-224411", "pmid": "42150886" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "step count AND COPD · 총 6건, 직접 확인 6건",
-    "pubmed": "step count AND COPD · 227편",
-    "negative": "step count AND COPD AND (no effect OR did not OR failed to OR negative OR no significant difference) · 133편",
-    "safety": "step count AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 19편"
+ "id": "step-count-copd-harm",
+ "subj": "걸음 수",
+ "claim": "대기오염이 심한 날 COPD 환자의 step count 증가가 기침과 가래를 악화시킬 수 있습니다",
+ "line": "COPD 관찰연구에서는 걸음 수와 기침·가래가 함께 늘었습니다",
+ "effect": "기침·가래 증가",
+ "tier": "obs",
+ "dir": "harm",
+ "n": 105,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "step count는 비약물 활동 지표이며 COPD의 허가 적응증으로 분류하지 않습니다.",
+ "why": "걷기는 COPD 환자의 활동량을 높이지만 오염된 공기에서는 운동 중 흡입 노출도 함께 늘릴 수 있습니다.",
+ "saw": "COPD 환자 105명을 두 차례 7일씩 관찰했습니다. 일일 보행시간과 step count가 증가한 날 기침·가래가 많았고, 특히 고농도 black carbon 날에 연관성이 뚜렷했습니다.",
+ "limit": "관찰연구라 step count가 증상을 일으켰는지, 증상이 덜한 날 더 걸었는지 방향을 확정할 수 없습니다.",
+ "against": "PM2.5와 이산화질소에서는 같은 상호작용이 확인되지 않았고 저오염 환경의 보행 효과를 평가하지 않았습니다.",
+ "use": "COPD 환자의 활동량을 늘릴 때 대기질과 증상을 함께 확인하고 오염이 심한 날의 야외 보행을 조정합니다.",
+ "refs": [
+  {
+   "label": "COPD 보행·step count와 대기오염 증상 패널연구",
+   "doi": "10.1136/thorax-2025-224411",
+   "pmid": "42150886"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "step count AND COPD · 총 6건, 직접 확인 6건",
+  "pubmed": "step count AND COPD · 227편",
+  "negative": "step count AND COPD AND (no effect OR did not OR failed to OR negative OR no significant difference) · 133편",
+  "safety": "step count AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 19편"
+ }
 }
