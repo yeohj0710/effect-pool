@@ -1,6 +1,6 @@
 {
   "id": "seaweed-metabolic-syndrome-pos",
-  "subj": "seaweed",
+  "subj": "해조류",
   "claim": "해조류 보충은 과체중 성인의 체질량지수와 LDL 콜레스테롤을 낮출 가능성이 있다",
   "line": "해조류 11편은 BMI·LDL을 낮췄지만 혈당 효과는 없었습니다.",
   "effect": "체질량지수·LDL 감소",
@@ -15,6 +15,19 @@
   "limit": "총 사람 수가 초록에 없고 정제·추출 갈조류가 주로 포함되어 일반 해조류 식품과 다르다",
   "against": "해조류가 대사증후군을 치료하거나 당뇨병을 예방한다고 결론낼 수 없다",
   "use": "대사 지표 보충 연구의 제한된 신호로만 보고 식단과 약물 치료를 대체하지 않는다",
-  "refs": [{ "label": "Effects of dietary seaweed on obesity-related metabolic status", "doi": "10.1093/nutrit/nuae042", "pmid": "38749056" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=seaweed 쨌 cond=Metabolic Syndrome: 3건", "pubmed": "seaweed AND Metabolic Syndrome: 73건", "negative": "seaweed AND Metabolic Syndrome AND no effect: 53건", "safety": "seaweed AND adverse OR toxicity: 1680건" }
+  "refs": [
+    {
+      "label": "Effects of dietary seaweed on obesity-related metabolic status",
+      "doi": "10.1093/nutrit/nuae042",
+      "pmid": "38749056"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=seaweed 쨌 cond=Metabolic Syndrome: 3건",
+    "pubmed": "seaweed AND Metabolic Syndrome: 73건",
+    "negative": "seaweed AND Metabolic Syndrome AND no effect: 53건",
+    "safety": "seaweed AND adverse OR toxicity: 1680건"
+  },
+  "vs": "해조류 RCT 11건: BMI SMD=-0.40(95% CI -0.65~-0.16), 체지방률 -1.48(-2.66~-0.30), 총콜레스테롤 -7.72mg/dL(-12.49~-2.95), LDL -7.33(-11.64~-3.02)"
 }

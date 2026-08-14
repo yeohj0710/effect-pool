@@ -1,6 +1,6 @@
 {
   "id": "seaweed-cardiovascular-disease-pos",
-  "subj": "seaweed",
+  "subj": "해조류",
   "claim": "해조류를 자주 먹는 일본 성인은 허혈성 심장질환 위험이 낮게 관찰됐다",
   "line": "일본 코호트에서 해조류를 거의 매일 먹은 여성의 허혈성 심장질환 위험비는 0.56이었습니다.",
   "effect": "허혈성 심장질환 위험 연관",
@@ -15,6 +15,19 @@
   "limit": "식품 섭취 관찰연구라 교란과 역인과를 배제할 수 없고 해조류가 사건을 예방한다고 증명하지 않는다",
   "against": "전체 뇌졸중 위험은 남녀 모두 일관되게 낮아지지 않았다",
   "use": "식생활 연관성으로만 참고하고 심혈관 예방 치료를 바꾸지 않는다",
-  "refs": [{ "label": "Seaweed intake and risk of cardiovascular disease: the JPHC Study", "doi": "10.1093/ajcn/nqz231", "pmid": "31518387" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=seaweed 쨌 cond=Cardiovascular Disease: 3건", "pubmed": "seaweed AND Cardiovascular Disease: 235건", "negative": "seaweed AND Cardiovascular Disease AND no effect: 167건", "safety": "seaweed AND adverse OR toxicity: 1680건" }
+  "refs": [
+    {
+      "label": "Seaweed intake and risk of cardiovascular disease: the JPHC Study",
+      "doi": "10.1093/ajcn/nqz231",
+      "pmid": "31518387"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=seaweed 쨌 cond=Cardiovascular Disease: 3건",
+    "pubmed": "seaweed AND Cardiovascular Disease: 235건",
+    "negative": "seaweed AND Cardiovascular Disease AND no effect: 167건",
+    "safety": "seaweed AND adverse OR toxicity: 1680건"
+  },
+  "vs": "거의 매일 해조류 섭취 vs 거의 섭취하지 않음: 허혈성 심장질환 HR 남성 0.76(95% CI 0.58~0.99), 여성 0.56(0.36~0.85); 전체 심혈관질환 남성 0.88(0.78~1.00)"
 }

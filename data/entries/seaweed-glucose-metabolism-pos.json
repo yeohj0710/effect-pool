@@ -1,6 +1,6 @@
 {
   "id": "seaweed-glucose-metabolism-pos",
-  "subj": "seaweed",
+  "subj": "해조류",
   "claim": "해조류와 그 추출물은 여러 무작위시험에서 HbA1c를 소폭 낮췄다",
   "line": "해조류 시험 종합에서 HbA1c는 0.18% 낮아졌지만 다른 혈당 지표는 달라지지 않았습니다.",
   "effect": "HbA1c 0.18% 감소",
@@ -15,6 +15,19 @@
   "limit": "서로 다른 조류와 추출물을 묶었고 HbA1c 외 주요 혈당 지표는 개선되지 않았다",
   "against": "해조류가 혈당강하제나 당뇨병 치료를 대신한다는 근거는 아니다",
   "use": "제품별 성분과 용량을 구분하는 추가 연구가 필요한 종합 신호로만 참고한다",
-  "refs": [{ "label": "Quantifying the Effect of Supplementation with Algae and Its Extracts on Glycolipid Metabolism", "doi": "10.3390/nu12061712", "pmid": "32521609" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=seaweed 쨌 cond=Glucose Metabolism: 10건", "pubmed": "seaweed AND Glucose Metabolism: 361건", "negative": "seaweed AND Glucose Metabolism AND no effect: 263건", "safety": "seaweed AND adverse OR toxicity: 1680건" }
+  "refs": [
+    {
+      "label": "Quantifying the Effect of Supplementation with Algae and Its Extracts on Glycolipid Metabolism",
+      "doi": "10.3390/nu12061712",
+      "pmid": "32521609"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=seaweed 쨌 cond=Glucose Metabolism: 10건",
+    "pubmed": "seaweed AND Glucose Metabolism: 361건",
+    "negative": "seaweed AND Glucose Metabolism AND no effect: 263건",
+    "safety": "seaweed AND adverse OR toxicity: 1680건"
+  },
+  "vs": "해조류·추출물 RCT 27건(31시험, 1,221명): HbA1c WMD -0.18%(95% CI -0.27~-0.10), 중성지방 -0.31mmol/L(-0.37~-0.25), 인슐린 +6.05pmol/mL(4.01~8.09)"
 }
