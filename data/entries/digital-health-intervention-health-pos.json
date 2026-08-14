@@ -1,28 +1,34 @@
 {
-  "id": "digital-health-intervention-health-pos",
-  "subj": "digital health intervention",
-  "claim": "관상동맥중재술 뒤 디지털 건강 중재를 추가하면 도움이 되는가",
-  "line": "관상동맥중재술 후 복약 순응도와 혈압이 좋아졌습니다.",
-  "effect": "지식·복약 순응도·이완기 혈압 개선",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "digital-health-intervention-health-pos",
+ "subj": "디지털 건강 중재",
+ "claim": "관상동맥중재술 뒤 디지털 건강 중재를 추가하면 도움이 되는가",
+ "line": "관상동맥중재술 후 복약 순응도와 혈압이 좋아졌습니다.",
+ "effect": "지식·복약 순응도·이완기 혈압 개선",
+ "tier": "trial",
+ "dir": "pos",
   "n": 200,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "디지털 건강 중재는 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "관상동맥중재술을 받은 환자 200명을 표준 진료군과 디지털 프로그램 추가군에 무작위 배정한 시험입니다.",
-  "saw": "48주 디지털 프로그램은 전체 재발 위험 점수에서 대조군과 차이가 없었지만, 질환 지식과 6개월 복약 순응도, 12개월 이완기 혈압은 개선됐습니다.",
-  "limit": "단일 기관 시험이고 재발 위험 점수는 전체군에서 개선되지 않았으며, 과체중군 신호는 사후 탐색 분석입니다.",
-  "against": "표준 진료만 받은 대조군에서는 같은 지표의 개선 폭이 작거나 확인되지 않았습니다.",
-  "use": "관상동맥중재술 뒤 재발 예방의 단독 치료가 아니라 표준 진료에 더하는 보조 중재로 평가합니다.",
-  "refs": [
-    { "label": "관상동맥중재술 뒤 디지털 중재 무작위시험", "doi": "10.3389/fdgth.2026.1851777", "pmid": "42553118", "nct": "NCT05713565" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "digital health intervention AND Health — 1,452건 반환, 중재명 직접 일치 0건",
-    "pubmed": "\"digital health intervention\" AND \"Health\" — 965건, 시험·코호트 등 509건",
-    "negative": "\"digital health intervention\" AND \"Health\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 595건",
-    "safety": "\"digital health intervention\" AND (adverse OR toxicity OR case report OR harm) — 79건"
+  "vs": "디지털 프로그램 200명 대비 표준진료: SMART2 -0.3% (95% CI -2.4~1.9, P=.821); 질환지식·복약순응도, 12개월 이완기혈압 -3.7 mmHg(P=.003)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "디지털 건강 중재는 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "관상동맥중재술을 받은 환자 200명을 표준 진료군과 디지털 프로그램 추가군에 무작위 배정한 시험입니다.",
+ "saw": "48주 디지털 프로그램은 전체 재발 위험 점수에서 대조군과 차이가 없었지만, 질환 지식과 6개월 복약 순응도, 12개월 이완기 혈압은 개선됐습니다.",
+ "limit": "단일 기관 시험이고 재발 위험 점수는 전체군에서 개선되지 않았으며, 과체중군 신호는 사후 탐색 분석입니다.",
+ "against": "표준 진료만 받은 대조군에서는 같은 지표의 개선 폭이 작거나 확인되지 않았습니다.",
+ "use": "관상동맥중재술 뒤 재발 예방의 단독 치료가 아니라 표준 진료에 더하는 보조 중재로 평가합니다.",
+ "refs": [
+  {
+   "label": "관상동맥중재술 뒤 디지털 중재 무작위시험",
+   "doi": "10.3389/fdgth.2026.1851777",
+   "pmid": "42553118",
+   "nct": "NCT05713565"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "digital health intervention AND Health — 1,452건 반환, 중재명 직접 일치 0건",
+  "pubmed": "\"digital health intervention\" AND \"Health\" — 965건, 시험·코호트 등 509건",
+  "negative": "\"digital health intervention\" AND \"Health\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 595건",
+  "safety": "\"digital health intervention\" AND (adverse OR toxicity OR case report OR harm) — 79건"
+ }
 }
