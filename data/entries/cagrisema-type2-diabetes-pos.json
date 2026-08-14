@@ -1,28 +1,34 @@
 {
-  "id": "cagrisema-type2-diabetes-pos",
-  "subj": "cagrisema",
-  "claim": "메트포르민 치료 중인 제2형 당뇨병 환자에서 CagriSema는 세마글루타이드보다 HbA1c를 더 낮췄다.",
-  "line": "제2형 당뇨병에서 카그리세마는 68주 뒤 HbA1c를 세마글루타이드보다 더 낮췄다.",
-  "effect": "HbA1c -1.91%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2713,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "CagriSema는 카그릴린타이드·세마글루타이드 병용 개발품이며 제2형 당뇨병의 승인 적응증으로 분류하지 않았습니다.",
-  "why": "제2형 당뇨병과 과체중·비만이 있는 성인 2,713명을 무작위 배정한 3상시험에서 CagriSema의 HbA1c 감소가 세마글루타이드보다 컸습니다.",
-  "saw": "68주 뒤 CagriSema 2.4mg 병용군의 HbA1c 변화는 -1.91%p, 세마글루타이드 2.4mg군은 -1.75%p였고 군 간 차이는 -0.16%p였습니다. 위장관 이상반응이 가장 흔했습니다.",
-  "limit": "메트포르민 단독 또는 SGLT2 억제제 병용 환자를 대상으로 했고, 치료군에서 위장관 이상반응이 더 흔했습니다.",
-  "against": "세마글루타이드 대비 HbA1c 추가 감소 폭은 작았고 CagriSema의 장기 안전성과 지속 효과는 더 확인해야 합니다.",
-  "use": "표준 혈당강하 치료로 확정하기 전 개발 단계 병용요법의 근거로 검토해야 하며 위장관 이상반응을 살펴야 합니다.",
-  "refs": [
-    { "label": "REIMAGINE 2 2026 · The Lancet Diabetes & Endocrinology · CagriSema 제2형 당뇨병 3상시험", "doi": "10.1016/S2213-8587(26)00125-7", "pmid": "42251859", "nct": "NCT06065540" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "cagrisema AND Type 2 Diabetes · 19건 반환, 결과 보고 0건",
-    "pubmed": "cagrisema AND Type 2 Diabetes · 34편",
-    "negative": "cagrisema AND Type 2 Diabetes AND (no effect OR did not OR failed OR no significant difference) · 25편",
-    "safety": "cagrisema AND (adverse OR toxicity OR case report OR harm) · 25편"
+ "id": "cagrisema-type2-diabetes-pos",
+ "subj": "카그리세마",
+ "claim": "메트포르민 치료 중인 제2형 당뇨병 환자에서 CagriSema는 세마글루타이드보다 HbA1c를 더 낮췄다.",
+ "line": "제2형 당뇨병에서 카그리세마는 68주 뒤 HbA1c를 세마글루타이드보다 더 낮췄다.",
+ "effect": "HbA1c -1.91%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2713,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "CagriSema는 카그릴린타이드·세마글루타이드 병용 개발품이며 제2형 당뇨병의 승인 적응증으로 분류하지 않았습니다.",
+ "why": "제2형 당뇨병과 과체중·비만이 있는 성인 2,713명을 무작위 배정한 3상시험에서 CagriSema의 HbA1c 감소가 세마글루타이드보다 컸습니다.",
+ "saw": "68주 뒤 CagriSema 2.4mg 병용군의 HbA1c 변화는 -1.91%p, 세마글루타이드 2.4mg군은 -1.75%p였고 군 간 차이는 -0.16%p였습니다. 위장관 이상반응이 가장 흔했습니다.",
+ "limit": "메트포르민 단독 또는 SGLT2 억제제 병용 환자를 대상으로 했고, 치료군에서 위장관 이상반응이 더 흔했습니다.",
+ "against": "세마글루타이드 대비 HbA1c 추가 감소 폭은 작았고 CagriSema의 장기 안전성과 지속 효과는 더 확인해야 합니다.",
+ "use": "표준 혈당강하 치료로 확정하기 전 개발 단계 병용요법의 근거로 검토해야 하며 위장관 이상반응을 살펴야 합니다.",
+ "refs": [
+  {
+   "label": "REIMAGINE 2 2026 · The Lancet Diabetes & Endocrinology · CagriSema 제2형 당뇨병 3상시험",
+   "doi": "10.1016/S2213-8587(26)00125-7",
+   "pmid": "42251859",
+   "nct": "NCT06065540"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "cagrisema AND Type 2 Diabetes · 19건 반환, 결과 보고 0건",
+  "pubmed": "cagrisema AND Type 2 Diabetes · 34편",
+  "negative": "cagrisema AND Type 2 Diabetes AND (no effect OR did not OR failed OR no significant difference) · 25편",
+  "safety": "cagrisema AND (adverse OR toxicity OR case report OR harm) · 25편"
+ },
+ "vs": "카그리세마 vs 세마글루타이드: 68주 HbA1c 변화 -1.91 vs -1.75%p, 차이 -0.16%p (95% CI -0.27~-0.05), p=.0035; 이상반응 86.9% vs 81.2%; 3상 RCT 2,713명"
 }

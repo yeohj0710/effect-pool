@@ -1,30 +1,42 @@
 {
-  "id": "cabergoline-ovarian-hyperstimulation-pos",
-  "subj": "카버골린",
-  "claim": "보조생식술 후 카버골린은 중등도·중증 난소과자극증후군 위험을 낮췄다.",
-  "line": "보조생식술 후 카베르골린은 중등도·중증 난소과자극증후군 위험을 낮췄다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 858,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "난소과자극증후군 예방은 카버골린의 허가 적응증에 없음",
-  "why": "도파민 작용제가 혈관 투과성과 난소과자극증후군의 병태를 줄일 수 있다는 가설을 보조생식술에 적용한 사용입니다.",
-  "saw": "무작위시험 8개 중 7개, 여성 858명을 통합한 메타분석에서 중등도·중증 난소과자극증후군 위험은 RR 0.38(95% CI 0.29~0.51)이었습니다. 임신률은 유의하게 달라지지 않았습니다.",
-  "limit": "시험별 편향 위험이 달랐고 생아·유산·선천이상 결과의 자료는 부족했습니다.",
-  "against": "2024년 칼슘과 비교한 1687명 분석에서는 전체·중증 난소과자극증후군 차이가 유의하지 않았습니다.",
-  "use": "고위험 보조생식술에서 예방요법을 선택할 때 생식내분비 전문의가 비교 대안과 함께 검토합니다.",
-  "effect": "중등도·중증 OHSS RR 0.38",
-  "refs": [
-    { "label": "Leitao 2014 · Fertility and Sterility · 난소과자극증후군 예방 메타분석", "doi": "10.1016/j.fertnstert.2013.11.005", "pmid": "24360566" },
-    { "label": "Tang 2012 · Cochrane Database of Systematic Reviews · 난소과자극증후군 예방", "doi": "10.1002/14651858.CD008605.pub2", "pmid": "22336848" },
-    { "label": "NCT01535859 · 체외수정 주기에서 카버골린 난소과자극증후군 예방", "nct": "NCT01535859" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=cabergoline, cond=Ovarian Hyperstimulation → 14건 반환·12건 직접 확인",
-    "pubmed": "cabergoline AND Ovarian Hyperstimulation → 117건",
-    "negative": "cabergoline AND Ovarian Hyperstimulation AND (no effect OR did not OR failed to OR negative OR no significant difference) → 89건",
-    "safety": "cabergoline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1164건"
+ "id": "cabergoline-ovarian-hyperstimulation-pos",
+ "subj": "카버골린",
+ "claim": "보조생식술 후 카버골린은 중등도·중증 난소과자극증후군 위험을 낮췄다.",
+ "line": "보조생식술 후 카베르골린은 중등도·중증 난소과자극증후군 위험을 낮췄다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 858,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "난소과자극증후군 예방은 카버골린의 허가 적응증에 없음",
+ "why": "도파민 작용제가 혈관 투과성과 난소과자극증후군의 병태를 줄일 수 있다는 가설을 보조생식술에 적용한 사용입니다.",
+ "saw": "무작위시험 8개 중 7개, 여성 858명을 통합한 메타분석에서 중등도·중증 난소과자극증후군 위험은 RR 0.38(95% CI 0.29~0.51)이었습니다. 임신률은 유의하게 달라지지 않았습니다.",
+ "limit": "시험별 편향 위험이 달랐고 생아·유산·선천이상 결과의 자료는 부족했습니다.",
+ "against": "2024년 칼슘과 비교한 1687명 분석에서는 전체·중증 난소과자극증후군 차이가 유의하지 않았습니다.",
+ "use": "고위험 보조생식술에서 예방요법을 선택할 때 생식내분비 전문의가 비교 대안과 함께 검토합니다.",
+ "effect": "중등도·중증 OHSS RR 0.38",
+ "refs": [
+  {
+   "label": "Leitao 2014 · Fertility and Sterility · 난소과자극증후군 예방 메타분석",
+   "doi": "10.1016/j.fertnstert.2013.11.005",
+   "pmid": "24360566"
+  },
+  {
+   "label": "Tang 2012 · Cochrane Database of Systematic Reviews · 난소과자극증후군 예방",
+   "doi": "10.1002/14651858.CD008605.pub2",
+   "pmid": "22336848"
+  },
+  {
+   "label": "NCT01535859 · 체외수정 주기에서 카버골린 난소과자극증후군 예방",
+   "nct": "NCT01535859"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=cabergoline, cond=Ovarian Hyperstimulation → 14건 반환·12건 직접 확인",
+  "pubmed": "cabergoline AND Ovarian Hyperstimulation → 117건",
+  "negative": "cabergoline AND Ovarian Hyperstimulation AND (no effect OR did not OR failed to OR negative OR no significant difference) → 89건",
+  "safety": "cabergoline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1164건"
+ },
+ "vs": "카버골린 vs 위약: 중등도·중증 난소과자극증후군 RR 0.38 (95% CI 0.29~0.51), 7개 RCT 858명; 임상 임신 RR 1.02 (0.78~1.34)"
 }

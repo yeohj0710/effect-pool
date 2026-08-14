@@ -1,36 +1,37 @@
 {
-  "id": "buspirone-spinal-cord-injury",
-  "subj": "부스피론",
-  "claim": "완전 척수손상에서 부스피론 복합요법은 근육 신호를 유발했지만 보행 회복은 개선하지 못했다.",
-  "line": "완전 척수손상에서 부스피론 복합요법은 근육 신호를 유발했지만 보행 회복 효과는 확인하지 못했다.",
-  "effect": "근육 신호 유발",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 45,
-  "synth": "single",
-  "why": "완전 또는 운동완전 척수손상 환자를 대상으로 부스피론 복합요법의 초기 안전성과 신경근육 신호를 평가한 임상시험을 확인했습니다.",
-  "saw": "45명이 참여한 무작위 초기시험에서 부스피론 복합요법군은 양측성 교대 근육 신호와 보행 유사 패턴을 보였지만 실제 보행 회복은 측정하지 않았습니다.",
-  "limit": "초기 약동학·근전도 결과이며 기능적 보행이나 장기 회복을 입증한 시험이 아닙니다. 부스피론 단독 효과도 분리되지 않았습니다.",
-  "against": "반대 검색 19건을 확인했습니다. 다른 소규모 척수손상 연구에서는 수면무호흡 지표 일부만 바뀌고 전체 호흡 지표는 유의하게 개선되지 않았습니다.",
-  "use": "척수손상 회복 치료제로 표시하지 말고, 복합요법 초기시험의 근전도 신호로 한정해 설명해야 합니다.",
-  "refs": [
-    {
-      "label": "Rouleau 2017 · Current Pharmaceutical Design · 척수손상 부스피론 복합요법 초기 무작위시험",
-      "doi": "10.2174/1381612822666161227152200",
-      "pmid": "28025945"
-    },
-    {
-      "label": "Dempsey 2020 · Journal of Applied Physiology · 만성 척수손상 수면무호흡 부스피론 연구",
-      "doi": "10.1152/japplphysiol.00435.2020",
-      "pmid": "32816639"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openfda.substance_name:BUSPIRONE → 170건; 허가 문구는 불안장애이며 척수손상 적응증 없음",
-    "ctgov": "query.intr=buspirone&query.cond=Spinal%20Cord%20Injury&countTotal=true&pageSize=50 → 7건 반환, InterventionName 대조 후 buspirone 일치 7건",
-    "pubmed": "buspirone AND Spinal Cord Injury → 23건",
-    "negative": "buspirone AND Spinal Cord Injury AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 19건",
-    "safety": "buspirone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 870건"
+ "id": "buspirone-spinal-cord-injury",
+ "subj": "부스피론",
+ "claim": "완전 척수손상에서 부스피론 복합요법은 근육 신호를 유발했지만 보행 회복은 개선하지 못했다.",
+ "line": "완전 척수손상에서 부스피론 복합요법은 근육 신호를 유발했지만 보행 회복 효과는 확인하지 못했다.",
+ "effect": "근육 신호 유발",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 45,
+ "synth": "single",
+ "why": "완전 또는 운동완전 척수손상 환자를 대상으로 부스피론 복합요법의 초기 안전성과 신경근육 신호를 평가한 임상시험을 확인했습니다.",
+ "saw": "45명이 참여한 무작위 초기시험에서 부스피론 복합요법군은 양측성 교대 근육 신호와 보행 유사 패턴을 보였지만 실제 보행 회복은 측정하지 않았습니다.",
+ "limit": "초기 약동학·근전도 결과이며 기능적 보행이나 장기 회복을 입증한 시험이 아닙니다. 부스피론 단독 효과도 분리되지 않았습니다.",
+ "against": "반대 검색 19건을 확인했습니다. 다른 소규모 척수손상 연구에서는 수면무호흡 지표 일부만 바뀌고 전체 호흡 지표는 유의하게 개선되지 않았습니다.",
+ "use": "척수손상 회복 치료제로 표시하지 말고, 복합요법 초기시험의 근전도 신호로 한정해 설명해야 합니다.",
+ "refs": [
+  {
+   "label": "Rouleau 2017 · Current Pharmaceutical Design · 척수손상 부스피론 복합요법 초기 무작위시험",
+   "doi": "10.2174/1381612822666161227152200",
+   "pmid": "28025945"
+  },
+  {
+   "label": "Dempsey 2020 · Journal of Applied Physiology · 만성 척수손상 수면무호흡 부스피론 연구",
+   "doi": "10.1152/japplphysiol.00435.2020",
+   "pmid": "32816639"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openfda.substance_name:BUSPIRONE → 170건; 허가 문구는 불안장애이며 척수손상 적응증 없음",
+  "ctgov": "query.intr=buspirone&query.cond=Spinal%20Cord%20Injury&countTotal=true&pageSize=50 → 7건 반환, InterventionName 대조 후 buspirone 일치 7건",
+  "pubmed": "buspirone AND Spinal Cord Injury → 23건",
+  "negative": "buspirone AND Spinal Cord Injury AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 19건",
+  "safety": "buspirone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 870건"
+ },
+ "vs": "부스피론 vs 위약: 만성 척수손상 CO₂ 예비능 -3.6±0.9 vs -1.8±1.5 mmHg, p<.001; 조절기 이득 1.8±0.4 vs 4.0±2.0 L/(mmHg·min), p=.025; 교차시험 8명"
 }

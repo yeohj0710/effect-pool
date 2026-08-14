@@ -1,38 +1,39 @@
 {
-  "id": "bupropion-schizophrenia-pos",
-  "subj": "부프로피온",
-  "claim": "항우울제를 조현병 흡연자의 금연에 쓴다",
-  "line": "조현병 흡연자에서 부프로피온을 추가하면 금연률이 높아졌다.",
-  "effect": "금연 RR 3.40",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 292,
-  "synth": "meta",
-  "why": "부프로피온의 허가사항은 주요우울장애·계절성우울장애이며 조현병 흡연자의 금연 보조는 별도 치료 대상입니다.",
-  "saw": "조현병 스펙트럼 흡연자를 대상으로 한 무작위시험 4개, 292명을 합친 메타분석에서 부프로피온은 위약보다 금연률이 높았습니다. 금연 효과가 정신증상을 악화시키지는 않았습니다.",
-  "limit": "조현병 자체의 양성·음성증상을 치료한 결과가 아니라 흡연·니코틴 의존을 치료한 결과입니다. 메타분석에는 부프로피온 병용과 지지요법이 섞였습니다.",
-  "against": "반대 검색 126건. 개별 시험 중 일부는 단독으로 유의하지 않았고, 금연 효과는 치료 종료 뒤 약해질 수 있습니다.",
-  "use": "조현병 흡연자의 금연 보조 효과는 확인됐지만, 조현병 치료제로 해석하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Engel 2020 · Lancet Psychiatry · 조현병 금연 약물 메타분석",
-      "doi": "10.1016/S2215-0366(20)30261-3",
-      "pmid": "32828166"
-    },
-    {
-      "label": "Tsoi 2010 · Br J Psychiatry · 조현병 금연 부프로피온 메타분석",
-      "doi": "10.1192/bjp.bp.109.066019",
-      "pmid": "20435957"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:\"BUPROPION\" → 259건, 주요우울장애·계절성우울장애 적응증 확인",
-    "ctgov": "query.intr=bupropion&query.cond=Schizophrenia → 21건 반환, InterventionName 대조 후 bupropion 19건",
-    "pubmed": "bupropion Schizophrenia → 156건",
-    "negative": "bupropion Schizophrenia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 126건",
-    "safety": "bupropion Schizophrenia (adverse OR toxicity OR case report OR overdose OR self-medication) → 62건"
+ "id": "bupropion-schizophrenia-pos",
+ "subj": "부프로피온",
+ "claim": "항우울제를 조현병 흡연자의 금연에 쓴다",
+ "line": "조현병 흡연자에서 부프로피온을 추가하면 금연률이 높아졌다.",
+ "effect": "금연 RR 3.40",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 292,
+ "synth": "meta",
+ "why": "부프로피온의 허가사항은 주요우울장애·계절성우울장애이며 조현병 흡연자의 금연 보조는 별도 치료 대상입니다.",
+ "saw": "조현병 스펙트럼 흡연자를 대상으로 한 무작위시험 4개, 292명을 합친 메타분석에서 부프로피온은 위약보다 금연률이 높았습니다. 금연 효과가 정신증상을 악화시키지는 않았습니다.",
+ "limit": "조현병 자체의 양성·음성증상을 치료한 결과가 아니라 흡연·니코틴 의존을 치료한 결과입니다. 메타분석에는 부프로피온 병용과 지지요법이 섞였습니다.",
+ "against": "반대 검색 126건. 개별 시험 중 일부는 단독으로 유의하지 않았고, 금연 효과는 치료 종료 뒤 약해질 수 있습니다.",
+ "use": "조현병 흡연자의 금연 보조 효과는 확인됐지만, 조현병 치료제로 해석하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Engel 2020 · Lancet Psychiatry · 조현병 금연 약물 메타분석",
+   "doi": "10.1016/S2215-0366(20)30261-3",
+   "pmid": "32828166"
   },
-  "known": "standard",
-  "knownWhy": "부프로피온 금연은 허가 적응증"
+  {
+   "label": "Tsoi 2010 · Br J Psychiatry · 조현병 금연 부프로피온 메타분석",
+   "doi": "10.1192/bjp.bp.109.066019",
+   "pmid": "20435957"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:\"BUPROPION\" → 259건, 주요우울장애·계절성우울장애 적응증 확인",
+  "ctgov": "query.intr=bupropion&query.cond=Schizophrenia → 21건 반환, InterventionName 대조 후 bupropion 19건",
+  "pubmed": "bupropion Schizophrenia → 156건",
+  "negative": "bupropion Schizophrenia (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 126건",
+  "safety": "bupropion Schizophrenia (adverse OR toxicity OR case report OR overdose OR self-medication) → 62건"
+ },
+ "known": "standard",
+ "knownWhy": "부프로피온 금연은 허가 적응증",
+ "vs": "부프로피온 vs 위약: 정신질환 흡연자의 금연 RR 3.40 (95% CI 1.58~7.34), p=.0002; 4개 RCT 292명 메타분석"
 }
