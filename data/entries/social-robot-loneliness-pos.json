@@ -1,28 +1,33 @@
 {
-  "id": "social-robot-loneliness-pos",
-  "subj": "social robot",
-  "claim": "사회 로봇을 활용한 인지·사회 중재가 독거 노인의 외로움을 줄였다",
-  "line": "독거 노인에서 사회 로봇은 외로움을 줄였지만 삶의 질은 바꾸지 못했습니다",
-  "effect": "외로움 p<0.001",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 64,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "사회 로봇 중재는 비약물 사회·행동 중재이며 외로움 치료 약물의 허가 적응증이 아닙니다.",
-  "why": "독거 노인 64명을 실험군과 대조군으로 나눈 연구에서 사회 로봇 PIO를 사용한 인지 기반 프로그램 뒤 외로움이 줄었습니다.",
-  "saw": "실험군 31명과 대조군 33명이 6주 동안 주 2회, 회당 50분 프로그램에 참여했습니다. 실험군의 외로움은 대조군보다 유의하게 감소했고 인지기능과 우울도 개선됐지만 삶의 질 차이는 유의하지 않았습니다.",
-  "limit": "비동등 대조군 연구이며 소규모 지역사회 표본과 특정 로봇 프로그램에 한정됩니다.",
-  "against": "장기요양시설 8개 무작위시험 메타분석은 외로움 개선을 보고했지만 연구별 로봇과 활동 방식이 달랐습니다.",
-  "use": "독거 노인의 사회적 고립을 줄이는 활동 보조로 검토할 수 있지만 사람과의 관계를 대체하지는 않습니다.",
-  "refs": [
-    { "label": "Lee 2023 · Frontiers in Public Health · 독거 노인 사회 로봇 PIO 프로그램", "doi": "10.3389/fpubh.2023.1097485", "pmid": "36815168", "pmc": "PMC9939746" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "social robot AND Loneliness · 22건 반환",
-    "pubmed": "social robot AND Loneliness · 178편",
-    "negative": "social robot AND Loneliness AND (no effect OR did not OR failed OR no significant difference) · 94편",
-    "safety": "social robot AND (adverse OR toxicity OR case report OR harm) · 직접 중재 안전성 자료 확인"
+ "id": "social-robot-loneliness-pos",
+ "subj": "사회 로봇",
+ "claim": "사회 로봇을 활용한 인지·사회 중재가 독거 노인의 외로움을 줄였다",
+ "line": "독거 노인에서 사회 로봇은 외로움을 줄였지만 삶의 질은 바꾸지 못했습니다",
+ "effect": "외로움 p<0.001",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 64,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "사회 로봇 중재는 비약물 사회·행동 중재이며 외로움 치료 약물의 허가 적응증이 아닙니다.",
+ "why": "독거 노인 64명을 실험군과 대조군으로 나눈 연구에서 사회 로봇 PIO를 사용한 인지 기반 프로그램 뒤 외로움이 줄었습니다.",
+ "saw": "실험군 31명과 대조군 33명이 6주 동안 주 2회, 회당 50분 프로그램에 참여했습니다. 실험군의 외로움은 대조군보다 유의하게 감소했고 인지기능과 우울도 개선됐지만 삶의 질 차이는 유의하지 않았습니다.",
+ "limit": "비동등 대조군 연구이며 소규모 지역사회 표본과 특정 로봇 프로그램에 한정됩니다.",
+ "against": "장기요양시설 8개 무작위시험 메타분석은 외로움 개선을 보고했지만 연구별 로봇과 활동 방식이 달랐습니다.",
+ "use": "독거 노인의 사회적 고립을 줄이는 활동 보조로 검토할 수 있지만 사람과의 관계를 대체하지는 않습니다.",
+ "refs": [
+  {
+   "label": "Lee 2023 · Frontiers in Public Health · 독거 노인 사회 로봇 PIO 프로그램",
+   "doi": "10.3389/fpubh.2023.1097485",
+   "pmid": "36815168",
+   "pmc": "PMC9939746"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "social robot AND Loneliness · 22건 반환",
+  "pubmed": "social robot AND Loneliness · 178편",
+  "negative": "social robot AND Loneliness AND (no effect OR did not OR failed OR no significant difference) · 94편",
+  "safety": "social robot AND (adverse OR toxicity OR case report OR harm) · 직접 중재 안전성 자료 확인"
+ }
 }
