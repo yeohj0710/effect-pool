@@ -1,20 +1,32 @@
 {
-  "id": "health-coaching-intervention-weight-loss-null",
-  "subj": "health coaching intervention",
-  "claim": "체중 감량을 위해 건강 코칭을 사용하면 실제 체중이 줄어드는가",
-  "line": "고품질 연구에서 코칭의 체중 효과는 없었습니다",
-  "effect": "고품질 연구 효과 ES -0.04",
-  "tier": "trial",
-  "dir": "null",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "건강 코칭은 의약품이 아닌 생활습관 중재입니다",
-  "why": "체중 감량을 목표로 한 건강 코칭 연구를 체계적으로 합쳐 일반 진료와 비교했습니다",
-  "saw": "38개 연구를 포함한 메타분석에서 일반 진료 대비 전체 코칭 효과는 ES -0.09였지만, 고품질 연구만 분석하면 ES -0.04(95% CrI -0.12~0.09)로 효과가 확인되지 않았습니다",
-  "limit": "초록에 전체 참가자 수가 제시되지 않았고 포함 연구의 비뚤림 위험이 높으며 출판편향 가능성이 있었습니다",
-  "against": "저품질 연구의 작은 평균 차이를 건강 코칭의 확정적 체중 감량 효과로 해석할 수 없습니다",
-  "use": "체중관리 코칭을 제공할 때 체중·허리둘레·중단률을 장기 추적하고 고품질 대조연구와 구분해 설명합니다",
-  "refs": [{ "label": "Health Coaching Strategies for Weight Loss 2021 · Advances in Nutrition", "doi": "10.1093/advances/nmaa159", "pmid": "33339042" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=health coaching intervention AND condition=Weight Loss; 90건 반환, 중재명 일치 0건", "pubmed": "health coaching intervention AND Weight Loss; 724편", "negative": "health coaching intervention AND Weight Loss AND (no effect OR did not OR failed to OR negative OR no significant difference); 509편", "safety": "health coaching intervention AND Weight Loss AND (adverse OR toxicity OR case report OR harm OR dropout); 63편" }
+ "id": "health-coaching-intervention-weight-loss-null",
+ "subj": "건강 코칭 중재",
+ "claim": "체중 감량을 위해 건강 코칭을 사용하면 실제 체중이 줄어드는가",
+ "line": "고품질 연구에서 코칭의 체중 효과는 없었습니다",
+ "effect": "고품질 연구 효과 ES -0.04",
+ "tier": "trial",
+ "dir": "null",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "건강 코칭은 의약품이 아닌 생활습관 중재입니다",
+ "why": "체중 감량을 목표로 한 건강 코칭 연구를 체계적으로 합쳐 일반 진료와 비교했습니다",
+ "saw": "38개 연구를 포함한 메타분석에서 일반 진료 대비 전체 코칭 효과는 ES -0.09였지만, 고품질 연구만 분석하면 ES -0.04(95% CrI -0.12~0.09)로 효과가 확인되지 않았습니다",
+ "limit": "초록에 전체 참가자 수가 제시되지 않았고 포함 연구의 비뚤림 위험이 높으며 출판편향 가능성이 있었습니다",
+ "against": "저품질 연구의 작은 평균 차이를 건강 코칭의 확정적 체중 감량 효과로 해석할 수 없습니다",
+ "use": "체중관리 코칭을 제공할 때 체중·허리둘레·중단률을 장기 추적하고 고품질 대조연구와 구분해 설명합니다",
+ "refs": [
+  {
+   "label": "Health Coaching Strategies for Weight Loss 2021 · Advances in Nutrition",
+   "doi": "10.1093/advances/nmaa159",
+   "pmid": "33339042"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=health coaching intervention AND condition=Weight Loss; 90건 반환, 중재명 일치 0건",
+  "pubmed": "health coaching intervention AND Weight Loss; 724편",
+  "negative": "health coaching intervention AND Weight Loss AND (no effect OR did not OR failed to OR negative OR no significant difference); 509편",
+  "safety": "health coaching intervention AND Weight Loss AND (adverse OR toxicity OR case report OR harm OR dropout); 63편"
+ }
 }

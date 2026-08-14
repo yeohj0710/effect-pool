@@ -1,20 +1,33 @@
 {
-  "id": "health-coaching-intervention-hypertension-pos",
-  "subj": "health coaching intervention",
-  "claim": "고혈압 환자에게 지역 보건인력의 건강 코칭과 약물 조정을 함께 제공하면 혈압과 심혈관 위험이 줄 수 있다",
-  "line": "코칭·약 조정은 심혈관 위험을 낮췄지만 저혈압은 늘었습니다",
-  "effect": "심혈관 복합결과 HR 0.67",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 33995,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "건강 코칭은 의약품이 아닌 생활습관·복약 지원 중재입니다",
-  "why": "중국 농촌 326개 마을, 33,995명을 지역 보건인력 주도 집중 혈압관리군과 통상 진료군으로 군집 무작위 배정했습니다",
-  "saw": "33,995명에서 36개월 수축기 혈압 감소 차이는 -23.1mmHg였고 심근경색·뇌졸중·심부전 입원·심혈관 사망 복합결과 위험은 HR 0.67이었습니다. 저혈압은 중재군 1.75%, 대조군 0.89%였습니다",
-  "limit": "건강 코칭 외에 약물 시작·증량과 저가 약물 제공이 함께 들어가 코칭 단독 효과를 분리할 수 없습니다",
-  "against": "지역 보건인력 코칭의 결과를 다른 의료체계나 코칭 단독 프로그램에 그대로 적용할 수 없습니다",
-  "use": "고혈압 지역관리에서 코칭·약물 조정·가정혈압 측정을 묶어 제공하되 저혈압과 심혈관 결과를 함께 감시합니다",
-  "refs": [{ "label": "Effectiveness of a non-physician community health-care provider-led intensive blood pressure intervention 2023 · The Lancet", "doi": "10.1016/S0140-6736(22)00325-7", "pmid": "36871573" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=health coaching intervention AND condition=Hypertension; 88건 반환, 중재명 일치 1건", "pubmed": "health coaching intervention AND Hypertension; 395편", "negative": "health coaching intervention AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference); 280편", "safety": "health coaching intervention AND Hypertension AND (adverse OR toxicity OR case report OR harm OR dropout); 37편" }
+ "id": "health-coaching-intervention-hypertension-pos",
+ "subj": "건강 코칭 중재",
+ "claim": "고혈압 환자에게 지역 보건인력의 건강 코칭과 약물 조정을 함께 제공하면 혈압과 심혈관 위험이 줄 수 있다",
+ "line": "코칭·약 조정은 심혈관 위험을 낮췄지만 저혈압은 늘었습니다",
+ "effect": "심혈관 복합결과 HR 0.67",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 33995,
+ "vs": "지역 보건인력 집중 혈압관리·건강 코칭군 대 통상 진료군: 36개월 수축기혈압 감소 차이 −23.1 mmHg (95% CI −24.4~−21.9), 심혈관 복합결과 HR=0.67 (95% CI 0.61~0.73), 뇌졸중 HR=0.66 (95% CI 0.60~0.73), 전체 사망 HR=0.85 (95% CI 0.76~0.95); 저혈압 1.75% 대 0.89%",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "건강 코칭은 의약품이 아닌 생활습관·복약 지원 중재입니다",
+ "why": "중국 농촌 326개 마을, 33,995명을 지역 보건인력 주도 집중 혈압관리군과 통상 진료군으로 군집 무작위 배정했습니다",
+ "saw": "33,995명에서 36개월 수축기 혈압 감소 차이는 -23.1mmHg였고 심근경색·뇌졸중·심부전 입원·심혈관 사망 복합결과 위험은 HR 0.67이었습니다. 저혈압은 중재군 1.75%, 대조군 0.89%였습니다",
+ "limit": "건강 코칭 외에 약물 시작·증량과 저가 약물 제공이 함께 들어가 코칭 단독 효과를 분리할 수 없습니다",
+ "against": "지역 보건인력 코칭의 결과를 다른 의료체계나 코칭 단독 프로그램에 그대로 적용할 수 없습니다",
+ "use": "고혈압 지역관리에서 코칭·약물 조정·가정혈압 측정을 묶어 제공하되 저혈압과 심혈관 결과를 함께 감시합니다",
+ "refs": [
+  {
+   "label": "Effectiveness of a non-physician community health-care provider-led intensive blood pressure intervention 2023 · The Lancet",
+   "doi": "10.1016/S0140-6736(22)00325-7",
+   "pmid": "36871573"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=health coaching intervention AND condition=Hypertension; 88건 반환, 중재명 일치 1건",
+  "pubmed": "health coaching intervention AND Hypertension; 395편",
+  "negative": "health coaching intervention AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference); 280편",
+  "safety": "health coaching intervention AND Hypertension AND (adverse OR toxicity OR case report OR harm OR dropout); 37편"
+ }
 }

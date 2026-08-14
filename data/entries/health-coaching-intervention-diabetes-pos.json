@@ -1,20 +1,32 @@
 {
-  "id": "health-coaching-intervention-diabetes-pos",
-  "subj": "health coaching intervention",
-  "claim": "제2형 당뇨병 환자에게 건강 코칭을 제공하면 혈당 조절과 식습관이 좋아질 수 있다",
-  "line": "건강 코칭은 6개월 뒤 혈당·식습관을 개선했습니다",
-  "effect": "114명, 6개월 혈당 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 114,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "건강 코칭은 의약품이 아닌 당뇨병 자기관리 중재입니다",
-  "why": "제2형 당뇨병 환자 114명을 건강 코칭·통상 진료군과 통상 진료군으로 6개월 무작위 배정했습니다",
-  "saw": "114명 무작위시험에서 6개월 건강 코칭군의 HbA1c와 건강한 식습관이 통상 진료군보다 유의하게 좋아졌습니다",
-  "limit": "초록에 HbA1c의 군 간 수치와 장기 추적 결과가 없고 표본이 한 의료기관에 한정됐습니다",
-  "against": "6개월 결과만으로 건강 코칭이 당뇨병 합병증이나 장기 혈당을 줄인다고 말할 수 없습니다",
-  "use": "당뇨병 교육에 건강 코칭을 보조로 붙일 때 HbA1c와 식습관을 추적하고 효과가 지속되는지 확인합니다",
-  "refs": [{ "label": "Effectiveness of Health Coaching in Diabetes Control and Lifestyle Improvement 2021 · Nutrients", "doi": "10.3390/nu13113878", "pmid": "34836135" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=health coaching intervention AND condition=Diabetes; 203건 반환, 중재명 일치 0건", "pubmed": "health coaching intervention AND Diabetes; 1,365편", "negative": "health coaching intervention AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 916편", "safety": "health coaching intervention AND Diabetes AND (adverse OR toxicity OR case report OR harm OR dropout); 95편" }
+ "id": "health-coaching-intervention-diabetes-pos",
+ "subj": "건강 코칭 중재",
+ "claim": "제2형 당뇨병 환자에게 건강 코칭을 제공하면 혈당 조절과 식습관이 좋아질 수 있다",
+ "line": "건강 코칭은 6개월 뒤 혈당·식습관을 개선했습니다",
+ "effect": "114명, 6개월 혈당 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 114,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "건강 코칭은 의약품이 아닌 당뇨병 자기관리 중재입니다",
+ "why": "제2형 당뇨병 환자 114명을 건강 코칭·통상 진료군과 통상 진료군으로 6개월 무작위 배정했습니다",
+ "saw": "114명 무작위시험에서 6개월 건강 코칭군의 HbA1c와 건강한 식습관이 통상 진료군보다 유의하게 좋아졌습니다",
+ "limit": "초록에 HbA1c의 군 간 수치와 장기 추적 결과가 없고 표본이 한 의료기관에 한정됐습니다",
+ "against": "6개월 결과만으로 건강 코칭이 당뇨병 합병증이나 장기 혈당을 줄인다고 말할 수 없습니다",
+ "use": "당뇨병 교육에 건강 코칭을 보조로 붙일 때 HbA1c와 식습관을 추적하고 효과가 지속되는지 확인합니다",
+ "refs": [
+  {
+   "label": "Effectiveness of Health Coaching in Diabetes Control and Lifestyle Improvement 2021 · Nutrients",
+   "doi": "10.3390/nu13113878",
+   "pmid": "34836135"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=health coaching intervention AND condition=Diabetes; 203건 반환, 중재명 일치 0건",
+  "pubmed": "health coaching intervention AND Diabetes; 1,365편",
+  "negative": "health coaching intervention AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 916편",
+  "safety": "health coaching intervention AND Diabetes AND (adverse OR toxicity OR case report OR harm OR dropout); 95편"
+ }
 }

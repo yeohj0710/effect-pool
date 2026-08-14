@@ -1,28 +1,33 @@
 {
-  "id": "guided-self-help-mental-health-pos",
-  "subj": "guided self-help",
-  "claim": "아동·청소년의 흔한 정신건강 문제에 안내형 자기관리를 적용한다",
-  "line": "아동·청소년의 정신건강 증상은 안내형 자기관리 후 줄었다.",
-  "effect": "guided g 0.49; n=3396",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3396,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "안내형 자기관리는 비약물 중재이며 정신건강 문제에 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "아동·청소년 흔한 정신건강 문제의 안내형·비안내형 자기관리 50개 연구와 자기관리군 3396명을 메타분석했습니다.",
-  "saw": "자기관리 중재는 대조군보다 중간 정도의 긍정 효과를 보였고, 다른 치료와 비교하면 작지만 유의한 차이가 있었습니다.",
-  "limit": "불안·우울 등 질환과 자기관리 방식이 서로 달라 특정 정신질환의 효과로 일반화하기 어렵습니다.",
-  "against": "대면치료와 비교한 우월성 근거는 없고 장기 효과는 제한적입니다.",
-  "use": "접근성이 낮은 아동·청소년 정신건강 지원의 보조 방식으로만 검토합니다.",
-  "refs": [
-    { "label": "Unguided and guided self-help interventions for common mental health disorders in children and adolescents: a systematic review and meta-analysis", "doi": "10.1111/jcpp.13010", "pmid": "30775782" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "guided self-help AND Mental Health · 100건 반환",
-    "pubmed": "guided self-help AND Mental Health · 592편",
-    "negative": "guided self-help AND Mental Health AND (no effect OR did not OR failed OR no significant difference) · 429편",
-    "safety": "guided self-help AND (adverse OR toxicity OR case report OR harm) · 143편"
+ "id": "guided-self-help-mental-health-pos",
+ "subj": "안내형 자기관리",
+ "claim": "아동·청소년의 흔한 정신건강 문제에 안내형 자기관리를 적용한다",
+ "line": "아동·청소년의 정신건강 증상은 안내형 자기관리 후 줄었다.",
+ "effect": "guided g 0.49; n=3396",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3396,
+ "vs": "안내형·비안내형 자기관리군 대 대조군: 흔한 정신건강 문제 효과크기 g=0.49 (95% CI 0.37~0.61); 다른 치료군 대비 g=−0.17 (95% CI −0.27~−0.07); 50개 연구, 자기관리군 3396명",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "안내형 자기관리는 비약물 중재이며 정신건강 문제에 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "아동·청소년 흔한 정신건강 문제의 안내형·비안내형 자기관리 50개 연구와 자기관리군 3396명을 메타분석했습니다.",
+ "saw": "자기관리 중재는 대조군보다 중간 정도의 긍정 효과를 보였고, 다른 치료와 비교하면 작지만 유의한 차이가 있었습니다.",
+ "limit": "불안·우울 등 질환과 자기관리 방식이 서로 달라 특정 정신질환의 효과로 일반화하기 어렵습니다.",
+ "against": "대면치료와 비교한 우월성 근거는 없고 장기 효과는 제한적입니다.",
+ "use": "접근성이 낮은 아동·청소년 정신건강 지원의 보조 방식으로만 검토합니다.",
+ "refs": [
+  {
+   "label": "Unguided and guided self-help interventions for common mental health disorders in children and adolescents: a systematic review and meta-analysis",
+   "doi": "10.1111/jcpp.13010",
+   "pmid": "30775782"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "guided self-help AND Mental Health · 100건 반환",
+  "pubmed": "guided self-help AND Mental Health · 592편",
+  "negative": "guided self-help AND Mental Health AND (no effect OR did not OR failed OR no significant difference) · 429편",
+  "safety": "guided self-help AND (adverse OR toxicity OR case report OR harm) · 143편"
+ }
 }
