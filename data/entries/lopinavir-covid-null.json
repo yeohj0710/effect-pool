@@ -1,28 +1,34 @@
 {
-  "id": "lopinavir-covid-null",
-  "subj": "lopinavir",
-  "claim": "로피나비르·리토나비르가 코로나19를 치료하는가",
-  "line": "코로나19에서 로피나비르·리토나비르는 증상 회복을 앞당기지 못했다.",
-  "effect": "회복 OR 0.96",
-  "tier": "trial",
-  "dir": "null",
-  "n": 448,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "로피나비르·리토나비르는 HIV 치료에는 허가됐지만 코로나19 치료에는 허가되지 않았다.",
-  "why": "증상 시작 6일 이내의 외래 코로나19 성인 448명을 로피나비르·리토나비르와 위약에 무작위 배정해 15일 회복을 비교했다.",
-  "saw": "15일 순서형 주요 결과에서 두 군 차이는 없었고 우월 회복 OR은 0.96(95% 신뢰구간 0.66–1.41)이었다. 28일 입원은 치료군 3.2%, 위약군 2.7%였고 중대한 이상반응도 달라지지 않았다.",
-  "limit": "비입원 성인을 대상으로 한 시험이며 현재 유행 변이와 다른 시기의 치료 결과라 중증 환자나 다른 항바이러스제에 그대로 적용할 수 없다.",
-  "against": "관찰 연구와 일부 메타분석은 다른 결과를 보고했지만 무작위시험의 주요 결과에서는 유익성이 확인되지 않았다.",
-  "use": "코로나19 치료 목적으로 로피나비르·리토나비르를 임의 사용하지 말고, 현재 표준 치료와 약물상호작용을 확인한다.",
-  "refs": [
-    { "label": "비입원 코로나19 로피나비르·리토나비르 무작위시험", "doi": "10.1016/j.ijid.2022.12.028", "pmid": "36581186", "nct": "NCT04372628" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=lopinavir AND query.cond=COVID; 35건",
-    "pubmed": "lopinavir AND COVID; 1481편",
-    "negative": "lopinavir AND COVID AND (no effect OR no significant difference OR failed OR negative); 1017편",
-    "safety": "lopinavir AND (adverse OR toxicity OR harm OR case report); 1763편"
+ "id": "lopinavir-covid-null",
+ "subj": "로피나비르",
+ "claim": "로피나비르·리토나비르가 코로나19를 치료하는가",
+ "line": "코로나19에서 로피나비르·리토나비르는 증상 회복을 앞당기지 못했다.",
+ "effect": "회복 OR 0.96",
+ "tier": "trial",
+ "dir": "null",
+ "n": 448,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "로피나비르·리토나비르는 HIV 치료에는 허가됐지만 코로나19 치료에는 허가되지 않았다.",
+ "why": "증상 시작 6일 이내의 외래 코로나19 성인 448명을 로피나비르·리토나비르와 위약에 무작위 배정해 15일 회복을 비교했다.",
+ "saw": "15일 순서형 주요 결과에서 두 군 차이는 없었고 우월 회복 OR은 0.96(95% 신뢰구간 0.66–1.41)이었다. 28일 입원은 치료군 3.2%, 위약군 2.7%였고 중대한 이상반응도 달라지지 않았다.",
+ "limit": "비입원 성인을 대상으로 한 시험이며 현재 유행 변이와 다른 시기의 치료 결과라 중증 환자나 다른 항바이러스제에 그대로 적용할 수 없다.",
+ "against": "관찰 연구와 일부 메타분석은 다른 결과를 보고했지만 무작위시험의 주요 결과에서는 유익성이 확인되지 않았다.",
+ "use": "코로나19 치료 목적으로 로피나비르·리토나비르를 임의 사용하지 말고, 현재 표준 치료와 약물상호작용을 확인한다.",
+ "refs": [
+  {
+   "label": "비입원 코로나19 로피나비르·리토나비르 무작위시험",
+   "doi": "10.1016/j.ijid.2022.12.028",
+   "pmid": "36581186",
+   "nct": "NCT04372628"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=lopinavir AND query.cond=COVID; 35건",
+  "pubmed": "lopinavir AND COVID; 1481편",
+  "negative": "lopinavir AND COVID AND (no effect OR no significant difference OR failed OR negative); 1017편",
+  "safety": "lopinavir AND (adverse OR toxicity OR harm OR case report); 1763편"
+ },
+ "vs": "로피나비르/리토나비르 vs 위약: 비입원 COVID-19 RCT 448명에서 15일 순서형 임상결과 우월성 OR은 0.96(95% CrI 0.66~1.41)이었고, 28일 입원은 3.2% vs 2.7%였다."
 }

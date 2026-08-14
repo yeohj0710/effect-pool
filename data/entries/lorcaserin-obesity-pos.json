@@ -1,21 +1,33 @@
 {
-  "id": "lorcaserin-obesity-pos",
-  "subj": "로카세린",
-  "claim": "비만 성인에서 로카세린은 생활습관 중재와 함께 위약보다 체중을 줄였습니다.",
-  "line": "1년 5% 이상 체중감소 47.5% vs 20.3%; 평균 -5.8 vs -2.2kg",
-  "effect": "5% 이상 감소 차이 +27.2%p",
-  "vs": "BLOOM 무작위시험 3182명에서 로카세린과 위약을 비교했습니다. 1년 뒤 5% 이상 체중감소는 47.5% vs 20.3%, 평균 체중 감소는 5.8 vs 2.2kg였습니다(p<0.001).",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3182,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "로카세린은 심혈관 위험 우려로 미국에서 판매가 중단됐으며 현재 비만 치료제로 사용할 수 없습니다.",
-  "why": "비만 또는 과체중 성인에게 식이·운동 상담을 함께 제공한 52주 무작위 위약대조시험입니다.",
-  "saw": "로카세린군에서 5% 이상 체중감소와 평균 체중감소가 위약군보다 컸습니다.",
-  "limit": "시험 결과는 판매 중단 전 근거이며 현재 사용 가능성이나 장기 안전성을 뒷받침하지 않습니다.",
-  "against": "두통, 어지럼, 오심과 판막병증, 중대한 심혈관 위험을 고려해야 합니다.",
-  "use": "과거 로카세린의 비만 임상근거를 확인할 때만 참고합니다.",
-  "refs": [{ "label": "BLOOM 로카세린 비만 체중관리 무작위시험", "pmid": "20647200", "nct": "NCT00395135" }],
-  "queried": { "date": "2026-08-13", "ctgov": "query.intr=lorcaserin; exact intervention-name match 확인", "pubmed": "lorcaserin AND obesity; PMID 20647200 확인", "negative": "lorcaserin AND obesity AND (no effect OR failed OR negative) 확인", "safety": "lorcaserin AND (adverse OR toxicity OR valvulopathy) 확인" }
+ "id": "lorcaserin-obesity-pos",
+ "subj": "로카세린",
+ "claim": "비만 성인에서 로카세린은 생활습관 중재와 함께 위약보다 체중을 줄였습니다.",
+ "line": "1년 5% 이상 체중감소 47.5% vs 20.3%; 평균 -5.8 vs -2.2kg",
+ "effect": "5% 이상 감소 차이 +27.2%p",
+ "vs": "BLOOM 무작위시험 3182명에서 로카세린과 위약을 비교했습니다. 1년 뒤 5% 이상 체중감소는 47.5% vs 20.3%, 평균 체중 감소는 5.8 vs 2.2kg였습니다(p<0.001).",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3182,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "로카세린은 심혈관 위험 우려로 미국에서 판매가 중단됐으며 현재 비만 치료제로 사용할 수 없습니다.",
+ "why": "비만 또는 과체중 성인에게 식이·운동 상담을 함께 제공한 52주 무작위 위약대조시험입니다.",
+ "saw": "로카세린군에서 5% 이상 체중감소와 평균 체중감소가 위약군보다 컸습니다.",
+ "limit": "시험 결과는 판매 중단 전 근거이며 현재 사용 가능성이나 장기 안전성을 뒷받침하지 않습니다.",
+ "against": "두통, 어지럼, 오심과 판막병증, 중대한 심혈관 위험을 고려해야 합니다.",
+ "use": "과거 로카세린의 비만 임상근거를 확인할 때만 참고합니다.",
+ "refs": [
+  {
+   "label": "BLOOM 로카세린 비만 체중관리 무작위시험",
+   "pmid": "20647200",
+   "nct": "NCT00395135"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-13",
+  "ctgov": "query.intr=lorcaserin; exact intervention-name match 확인",
+  "pubmed": "lorcaserin AND obesity; PMID 20647200 확인",
+  "negative": "lorcaserin AND obesity AND (no effect OR failed OR negative) 확인",
+  "safety": "lorcaserin AND (adverse OR toxicity OR valvulopathy) 확인"
+ }
 }

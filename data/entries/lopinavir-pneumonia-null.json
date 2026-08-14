@@ -1,28 +1,33 @@
 {
-  "id": "lopinavir-pneumonia-null",
-  "subj": "lopinavir",
-  "claim": "로피나비르·리토나비르가 중증 코로나19 폐렴을 치료하는가",
-  "line": "중증 코로나19 폐렴에서 로피나비르·리토나비르는 임상 회복을 앞당기지 못했다.",
-  "effect": "임상 개선 HR 1.31",
-  "tier": "trial",
-  "dir": "null",
-  "n": 199,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "로피나비르·리토나비르는 HIV 치료에는 허가됐지만 코로나19 폐렴 치료에는 허가되지 않았다.",
-  "why": "산소포화도가 낮거나 산소화 지수가 저하된 중증 코로나19 입원 환자 199명을 로피나비르·리토나비르와 표준치료에 무작위 배정했다.",
-  "saw": "임상 회복까지의 시간은 로피나비르·리토나비르군과 표준치료군에서 유의하게 다르지 않았고 HR은 1.31(95% CI 0.95–1.80)이었다. 28일 사망률도 19.2% 대 25.0%로 유의한 차이가 없었다.",
-  "limit": "초기 유행 시기의 중증 입원 환자 연구이며, 치료를 조기에 중단한 환자가 있었다. 현재 코로나19 치료 전략과는 시점이 다르다.",
-  "against": "중증 코로나19 치료에 대한 일부 관찰 연구와 네트워크 메타분석은 다른 방향의 신호를 보였지만 단일 무작위시험은 주요 회복 차이를 보이지 않았다.",
-  "use": "코로나19 폐렴에 로피나비르·리토나비르를 임의 사용하지 말고 현재 중증도별 표준치료를 따른다.",
-  "refs": [
-    { "label": "중증 코로나19 입원 환자 로피나비르·리토나비르 무작위시험", "doi": "10.1056/NEJMoa2001282", "pmid": "32187464" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=lopinavir AND query.cond=Pneumonia; 64건",
-    "pubmed": "lopinavir AND Pneumonia; 945편",
-    "negative": "lopinavir AND Pneumonia AND (no effect OR no significant difference OR failed OR negative); 647편",
-    "safety": "lopinavir AND (adverse OR toxicity OR harm OR case report); 1763편"
+ "id": "lopinavir-pneumonia-null",
+ "subj": "로피나비르",
+ "claim": "로피나비르·리토나비르가 중증 코로나19 폐렴을 치료하는가",
+ "line": "중증 코로나19 폐렴에서 로피나비르·리토나비르는 임상 회복을 앞당기지 못했다.",
+ "effect": "임상 개선 HR 1.31",
+ "tier": "trial",
+ "dir": "null",
+ "n": 199,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "로피나비르·리토나비르는 HIV 치료에는 허가됐지만 코로나19 폐렴 치료에는 허가되지 않았다.",
+ "why": "산소포화도가 낮거나 산소화 지수가 저하된 중증 코로나19 입원 환자 199명을 로피나비르·리토나비르와 표준치료에 무작위 배정했다.",
+ "saw": "임상 회복까지의 시간은 로피나비르·리토나비르군과 표준치료군에서 유의하게 다르지 않았고 HR은 1.31(95% CI 0.95–1.80)이었다. 28일 사망률도 19.2% 대 25.0%로 유의한 차이가 없었다.",
+ "limit": "초기 유행 시기의 중증 입원 환자 연구이며, 치료를 조기에 중단한 환자가 있었다. 현재 코로나19 치료 전략과는 시점이 다르다.",
+ "against": "중증 코로나19 치료에 대한 일부 관찰 연구와 네트워크 메타분석은 다른 방향의 신호를 보였지만 단일 무작위시험은 주요 회복 차이를 보이지 않았다.",
+ "use": "코로나19 폐렴에 로피나비르·리토나비르를 임의 사용하지 말고 현재 중증도별 표준치료를 따른다.",
+ "refs": [
+  {
+   "label": "중증 코로나19 입원 환자 로피나비르·리토나비르 무작위시험",
+   "doi": "10.1056/NEJMoa2001282",
+   "pmid": "32187464"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=lopinavir AND query.cond=Pneumonia; 64건",
+  "pubmed": "lopinavir AND Pneumonia; 945편",
+  "negative": "lopinavir AND Pneumonia AND (no effect OR no significant difference OR failed OR negative); 647편",
+  "safety": "lopinavir AND (adverse OR toxicity OR harm OR case report); 1763편"
+ },
+ "vs": "로피나비르/리토나비르+표준치료 vs 표준치료: 중증 COVID-19 RCT 199명에서 임상호전 HR은 1.31(95% CI 0.95~1.80), 28일 사망률은 19.2% vs 25.0%, 차이 -5.8%(-17.3~5.7)였다."
 }

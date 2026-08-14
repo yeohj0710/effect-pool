@@ -1,30 +1,41 @@
 {
-  "id": "lubiprostone-diabetes-pos",
-  "subj": "루비프로스톤",
-  "claim": "루비프로스톤이 당뇨병 환자 변비를 개선한다",
-  "line": "당뇨병성 변비에서 루비프로스톤은 배변을 늘리고 대장 통과 시간을 줄였습니다",
-  "effect": "배변 +1.83; 통과 −20.3시간",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 76,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "당뇨병 환자 변비 치료는 루비프로스톤의 별도 허가 적응증이 아닙니다.",
-  "why": "변비가 있는 당뇨병 환자를 루비프로스톤과 위약으로 나눈 이중맹검 무작위시험에서 배변 횟수와 대장통과 시간이 개선됐습니다.",
-  "saw": "당뇨병성 만성 특발성 변비 환자 76명을 무작위 배정한 8주 시험에서 루비프로스톤군은 위약군보다 주당 자발적 배변이 1.83회 많았고 4주 대장통과 시간은 20.3시간 짧았습니다. 변비 삶의 질은 두 군 모두 좋아졌지만 군 간 차이는 없었습니다.",
-  "limit": "76명 단일기관 시험이고 삶의 질과 동반 위장 증상에서는 군 간 차이가 없었습니다.",
-  "against": "당뇨병 환자 장정결 문헌은 루비프로스톤을 보조 전략으로 제시하지만, 저위험 환자에서는 추가 이득이 없을 수 있다고 보고했습니다.",
-  "use": "당뇨병 환자의 변비 치료 효과와 대장내시경 장정결 효과를 분리합니다.",
-  "refs": [
-    { "label": "당뇨병 환자 변비 루비프로스톤 무작위시험", "pmid": "27922028", "nct": "NCT01170039" },
-    { "label": "당뇨병 환자 대장내시경 장정결 검토", "pmid": "33948054" },
-    { "label": "고위험군 루비프로스톤·PEG 장정결 무작위시험", "pmid": "41079067" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=lubiprostone · cond=Diabetes → 2건 반환, 물질 대조 후 2건",
-    "pubmed": "lubiprostone AND Diabetes → 12편",
-    "negative": "lubiprostone AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9편",
-    "safety": "lubiprostone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 206편"
+ "id": "lubiprostone-diabetes-pos",
+ "subj": "루비프로스톤",
+ "claim": "루비프로스톤이 당뇨병 환자 변비를 개선한다",
+ "line": "당뇨병성 변비에서 루비프로스톤은 배변을 늘리고 대장 통과 시간을 줄였습니다",
+ "effect": "배변 +1.83; 통과 −20.3시간",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 76,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "당뇨병 환자 변비 치료는 루비프로스톤의 별도 허가 적응증이 아닙니다.",
+ "why": "변비가 있는 당뇨병 환자를 루비프로스톤과 위약으로 나눈 이중맹검 무작위시험에서 배변 횟수와 대장통과 시간이 개선됐습니다.",
+ "saw": "당뇨병성 만성 특발성 변비 환자 76명을 무작위 배정한 8주 시험에서 루비프로스톤군은 위약군보다 주당 자발적 배변이 1.83회 많았고 4주 대장통과 시간은 20.3시간 짧았습니다. 변비 삶의 질은 두 군 모두 좋아졌지만 군 간 차이는 없었습니다.",
+ "limit": "76명 단일기관 시험이고 삶의 질과 동반 위장 증상에서는 군 간 차이가 없었습니다.",
+ "against": "당뇨병 환자 장정결 문헌은 루비프로스톤을 보조 전략으로 제시하지만, 저위험 환자에서는 추가 이득이 없을 수 있다고 보고했습니다.",
+ "use": "당뇨병 환자의 변비 치료 효과와 대장내시경 장정결 효과를 분리합니다.",
+ "refs": [
+  {
+   "label": "당뇨병 환자 변비 루비프로스톤 무작위시험",
+   "pmid": "27922028",
+   "nct": "NCT01170039"
+  },
+  {
+   "label": "당뇨병 환자 대장내시경 장정결 검토",
+   "pmid": "33948054"
+  },
+  {
+   "label": "고위험군 루비프로스톤·PEG 장정결 무작위시험",
+   "pmid": "41079067"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=lubiprostone · cond=Diabetes → 2건 반환, 물질 대조 후 2건",
+  "pubmed": "lubiprostone AND Diabetes → 12편",
+  "negative": "lubiprostone AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9편",
+  "safety": "lubiprostone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 206편"
+ },
+ "vs": "루비프로스톤 vs 위약: 당뇨병 및 만성 특발성 변비 76명 이중맹검 RCT에서 주당 자발적 배변 횟수 치료효과는 위약 대비 1.83±0.80회(P=.02), 대장 통과시간 치료효과는 20.3±7.3시간(P=.006)이었다."
 }

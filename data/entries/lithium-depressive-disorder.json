@@ -1,39 +1,40 @@
 {
-  "id": "lithium-depressive-disorder",
-  "subj": "리튬",
-  "claim": "기분안정제를 주요우울장애에 쓴다",
-  "line": "주요우울장애에서 리튬 증강군의 반응률은 높았지만 시험 규모와 환자 정의가 달랐습니다",
-  "effect": "반응률↑",
-  "tier": "trial",
-  "dir": "pos",
-  "known": "standard",
-  "knownWhy": "주요우울장애 리튬 증강요법이 진료지침에 실림",
-  "n": 237,
-  "synth": "meta",
-  "why": "주요우울장애에서 항우울제에 리튬을 더한 무작위시험을 위약과 비교한 메타분석이 있습니다.",
-  "saw": "9개 시험 237명에서 리튬을 더한 군의 반응률이 높았지만, 시험 규모가 작고 치료저항성 환자 정의가 일정하지 않았습니다.",
-  "limit": "리튬 단독 치료가 아니라 항우울제 보조요법이며, 최근 방법론으로 재평가한 분석에서는 편향 보정 뒤 이득이 약해졌습니다.",
-  "against": "최근 56개 증강요법 시험 13,616명 분석에서 리튬의 전통적 이득은 시험순차분석과 출판편향 보정을 견디지 못했습니다.",
-  "use": "주요우울장애 보조치료 후보로 연구됐지만, 효과의 확실성과 환자별 안전성 판단이 필요합니다.",
-  "refs": [
-    {
-      "label": "Nelson 2014 · Journal of Clinical Psychiatry · 주요우울장애 리튬 메타분석",
-      "pmid": "25069082"
-    },
-    {
-      "label": "Munkholm 2026 · Molecular Psychiatry · 주요우울장애 증강요법 재평가",
-      "pmid": "42532626"
-    },
-    {
-      "label": "Henssler 2017 · European Archives of Psychiatry · 단극성 우울증 오프라벨 증강 검토",
-      "pmid": "28318897"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=lithium, cond=Depressive Disorder → 105건 반환, InterventionName 대조 후 66건",
-    "pubmed": "lithium depressive disorder → 3,843건",
-    "negative": "lithium depressive disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2,492건",
-    "safety": "lithium depressive disorder AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,465건"
+ "id": "lithium-depressive-disorder",
+ "subj": "리튬",
+ "claim": "기분안정제를 주요우울장애에 쓴다",
+ "line": "주요우울장애에서 리튬 증강군의 반응률은 높았지만 시험 규모와 환자 정의가 달랐습니다",
+ "effect": "반응률↑",
+ "tier": "trial",
+ "dir": "pos",
+ "known": "standard",
+ "knownWhy": "주요우울장애 리튬 증강요법이 진료지침에 실림",
+ "n": 237,
+ "synth": "meta",
+ "why": "주요우울장애에서 항우울제에 리튬을 더한 무작위시험을 위약과 비교한 메타분석이 있습니다.",
+ "saw": "9개 시험 237명에서 리튬을 더한 군의 반응률이 높았지만, 시험 규모가 작고 치료저항성 환자 정의가 일정하지 않았습니다.",
+ "limit": "리튬 단독 치료가 아니라 항우울제 보조요법이며, 최근 방법론으로 재평가한 분석에서는 편향 보정 뒤 이득이 약해졌습니다.",
+ "against": "최근 56개 증강요법 시험 13,616명 분석에서 리튬의 전통적 이득은 시험순차분석과 출판편향 보정을 견디지 못했습니다.",
+ "use": "주요우울장애 보조치료 후보로 연구됐지만, 효과의 확실성과 환자별 안전성 판단이 필요합니다.",
+ "refs": [
+  {
+   "label": "Nelson 2014 · Journal of Clinical Psychiatry · 주요우울장애 리튬 메타분석",
+   "pmid": "25069082"
+  },
+  {
+   "label": "Munkholm 2026 · Molecular Psychiatry · 주요우울장애 증강요법 재평가",
+   "pmid": "42532626"
+  },
+  {
+   "label": "Henssler 2017 · European Archives of Psychiatry · 단극성 우울증 오프라벨 증강 검토",
+   "pmid": "28318897"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=lithium, cond=Depressive Disorder → 105건 반환, InterventionName 대조 후 66건",
+  "pubmed": "lithium depressive disorder → 3,843건",
+  "negative": "lithium depressive disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2,492건",
+  "safety": "lithium depressive disorder AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,465건"
+ },
+ "vs": "리튬 보강 vs 위약 보강: 주요우울장애 RCT 메타분석에서 반응 OR 2.89(95% CI 1.65~5.05)였으나, 최신 56개 RCT 재분석의 리튬 OR은 2.06(1.30~3.27)이고 시험순차분석 보정 CI는 0.02~189.11이었다."
 }
