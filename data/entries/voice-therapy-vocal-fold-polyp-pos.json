@@ -1,28 +1,32 @@
 {
-  "id": "voice-therapy-vocal-fold-polyp-pos",
-  "subj": "voice therapy",
-  "claim": "성대 폴립 수술 후 음성치료를 더한다",
-  "line": "성대 폴립 수술 후 음성치료가 음성 기능을 더 개선했습니다",
-  "effect": "MPT 증가·지터·심머 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "성대 폴립 수술 후 음성치료 추가는 허가 적응증이 아닌 실험적 재활입니다",
-  "why": "성대 폴립 환자 40명을 수술만 하거나 수술 후 음성치료를 더하는 두 군에 무작위 배정한 전향 연구입니다",
-  "saw": "두 군 모두 음성장애 지수와 GRBAS, 최대발성시간, 음향 지표가 좋아졌습니다. 음성치료 추가군은 최대발성시간과 지터·심머 변화에서 수술 단독군보다 더 좋아졌습니다",
-  "limit": "표본이 40명이고 장기 재발·음성 유지 결과를 확인하지 않았습니다",
-  "against": "기본 수술만으로도 음성 지표가 유의하게 좋아져 음성치료 추가 효과의 크기는 제한적으로 해석해야 합니다",
-  "use": "성대 폴립 수술 후 음성치료 추가는 음성 기능 지표와 장기 재발을 함께 평가합니다",
-  "refs": [
-    { "label": "Voice therapy after endolaryngeal microsurgery for vocal fold polyp · 무작위 전향 연구", "doi": "10.1159/000545213", "pmid": "40068642" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"voice therapy\" AND \"Vocal Fold Polyp\" → 3건 반환, intervention 이름 대조 통과 1건",
-    "pubmed": "\"voice therapy\" AND \"Vocal Fold Polyp\" → 21건, PMID 40068642 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 4건",
-    "safety": "\"voice therapy\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 120건"
+ "id": "voice-therapy-vocal-fold-polyp-pos",
+ "subj": "음성치료",
+ "claim": "성대 폴립 수술 후 음성치료를 더한다",
+ "line": "성대 폴립 수술 후 음성치료가 음성 기능을 더 개선했습니다",
+ "effect": "MPT 증가·지터·심머 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "성대 폴립 수술 후 음성치료 추가는 허가 적응증이 아닌 실험적 재활입니다",
+ "why": "성대 폴립 환자 40명을 수술만 하거나 수술 후 음성치료를 더하는 두 군에 무작위 배정한 전향 연구입니다",
+ "saw": "두 군 모두 음성장애 지수와 GRBAS, 최대발성시간, 음향 지표가 좋아졌습니다. 음성치료 추가군은 최대발성시간과 지터·심머 변화에서 수술 단독군보다 더 좋아졌습니다",
+ "limit": "표본이 40명이고 장기 재발·음성 유지 결과를 확인하지 않았습니다",
+ "against": "기본 수술만으로도 음성 지표가 유의하게 좋아져 음성치료 추가 효과의 크기는 제한적으로 해석해야 합니다",
+ "use": "성대 폴립 수술 후 음성치료 추가는 음성 기능 지표와 장기 재발을 함께 평가합니다",
+ "refs": [
+  {
+   "label": "Voice therapy after endolaryngeal microsurgery for vocal fold polyp · 무작위 전향 연구",
+   "doi": "10.1159/000545213",
+   "pmid": "40068642"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"voice therapy\" AND \"Vocal Fold Polyp\" → 3건 반환, intervention 이름 대조 통과 1건",
+  "pubmed": "\"voice therapy\" AND \"Vocal Fold Polyp\" → 21건, PMID 40068642 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 4건",
+  "safety": "\"voice therapy\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 120건"
+ }
 }

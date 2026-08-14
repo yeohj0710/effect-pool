@@ -1,28 +1,33 @@
 {
-  "id": "wearable-exercise-tracker-physical-activity-pos",
-  "subj": "wearable exercise tracker",
-  "claim": "웨어러블 운동추적기를 신체활동 증가에 쓴다",
-  "line": "웨어러블 운동추적기는 걸음 수와 신체활동을 늘렸습니다",
-  "effect": "신체활동 SMD 0.3~0.6",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 163992,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 기기 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "활동 추적기를 중재로 사용한 체계적 문헌고찰과 메타분석 39편, 참여자 163,992명을 합친 우산고찰입니다.",
-  "saw": "메타분석은 신체활동 표준화 평균차 0.3~0.6, 하루 약 1,800걸음과 걷기 40분 증가, 체중 약 1kg 감소를 제시했습니다.",
-  "limit": "포함된 고찰의 중재와 추적기간이 달라 효과 범위가 넓고 혈압·콜레스테롤·당화혈색소·통증 효과는 작거나 유의하지 않은 경우가 많았습니다.",
-  "against": "활동 추적기와 대조군의 좌식시간 차이는 일관되지 않았고, 임상·비임상 집단이 섞여 특정 질환의 효과로 바로 일반화할 수 없습니다.",
-  "use": "신체활동을 기록하고 목표 달성을 돕는 보조기기를 선택할 때 평균 효과와 다른 건강결과의 불확실성을 함께 고려합니다.",
-  "refs": [
-    { "label": "Effectiveness of wearable activity trackers to increase physical activity and improve health · umbrella review", "pmid": "35868813", "doi": "10.1016/S2589-7500(22)00111-X" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]wearable exercise tracker AND AREA[ConditionSearch]Physical Activity → 81건, exact InterventionName 1건",
-    "pubmed": "\"wearable exercise tracker\" AND \"Physical Activity\" → 582건",
-    "negative": "\"wearable exercise tracker\" AND \"Physical Activity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 115건",
-    "safety": "\"wearable exercise tracker\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 72건"
+ "id": "wearable-exercise-tracker-physical-activity-pos",
+ "subj": "웨어러블 운동추적기",
+ "claim": "웨어러블 운동추적기를 신체활동 증가에 쓴다",
+ "line": "웨어러블 운동추적기는 걸음 수와 신체활동을 늘렸습니다",
+ "effect": "신체활동 SMD 0.3~0.6",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 163992,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 기기 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "활동 추적기를 중재로 사용한 체계적 문헌고찰과 메타분석 39편, 참여자 163,992명을 합친 우산고찰입니다.",
+ "saw": "활동량 추적기 중재 체계적 문헌고찰 39편과 163,992명을 포함한 umbrella review에서 신체활동·체성분·체력의 표준화 평균차를 통합했다.",
+ "limit": "포함된 고찰의 중재와 추적기간이 달라 효과 범위가 넓고 혈압·콜레스테롤·당화혈색소·통증 효과는 작거나 유의하지 않은 경우가 많았습니다.",
+ "against": "활동 추적기와 대조군의 좌식시간 차이는 일관되지 않았고, 임상·비임상 집단이 섞여 특정 질환의 효과로 바로 일반화할 수 없습니다.",
+ "use": "신체활동을 기록하고 목표 달성을 돕는 보조기기를 선택할 때 평균 효과와 다른 건강결과의 불확실성을 함께 고려합니다.",
+ "refs": [
+  {
+   "label": "Effectiveness of wearable activity trackers to increase physical activity and improve health · umbrella review",
+   "pmid": "35868813",
+   "doi": "10.1016/S2589-7500(22)00111-X"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]wearable exercise tracker AND AREA[ConditionSearch]Physical Activity → 81건, exact InterventionName 1건",
+  "pubmed": "\"wearable exercise tracker\" AND \"Physical Activity\" → 582건",
+  "negative": "\"wearable exercise tracker\" AND \"Physical Activity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 115건",
+  "safety": "\"wearable exercise tracker\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 72건"
+ },
+ "vs": "웨어러블 활동량 추적기 vs 대조군: 신체활동 SMD 0.3~0.6, 체성분 SMD 0.7~2.0, 체력 SMD 0.3; 약 1,800보/일 증가와 하루 40분 걷기 증가"
 }

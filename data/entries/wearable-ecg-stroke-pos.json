@@ -1,28 +1,31 @@
 {
-  "id": "wearable-ecg-stroke-pos",
-  "subj": "wearable ECG",
-  "claim": "허혈성 뇌졸중 뒤 웨어러블 ECG로 새 심방세동을 찾는다",
-  "line": "허혈성 뇌졸중 환자에게 웨어러블 ECG로 새 심방세동을 찾았다.",
-  "effect": "새 심방세동 발견 8.7%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 241,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "웨어러블 ECG의 뇌졸중 뒤 심방세동 탐지는 허가 약물 적응증이 아니다.",
-  "why": "심방세동 병력이 없는 허혈성 뇌졸중 환자를 7일간 웨어러블 패치 ECG로 추적한 전향적 다기관 연구다.",
-  "saw": "241명 중 21명에서 새 심방세동이 발견됐고, 피부 가려움은 1명에서 보고됐다.",
-  "limit": "무작위 대조군이 없고 심방세동 발견이 재발 예방이나 기능 회복으로 이어졌는지는 확인하지 않았다.",
-  "against": "기존 심방세동 선별법과 직접 비교하지 않아 웨어러블 ECG의 상대적 이득은 확정할 수 없다.",
-  "use": "원인 불명 또는 심방세동 병력이 없는 뇌졸중 뒤 장기 심전도 감시를 평가할 근거로 기록한다.",
-  "refs": [
-    { "label": "An efficient approach for detecting atrial fibrillation in ischemic stroke patients using a wearable device", "pmid": "40895096" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"wearable ECG\" AND \"Stroke\" 검색 5건",
-    "pubmed": "\"wearable ECG\" AND \"Stroke\" 검색 19건; PMID 40895096 직접 전향 연구",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 9건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
+ "id": "wearable-ecg-stroke-pos",
+ "subj": "웨어러블 심전도",
+ "claim": "허혈성 뇌졸중 뒤 웨어러블 ECG로 새 심방세동을 찾는다",
+ "line": "허혈성 뇌졸중 환자에게 웨어러블 ECG로 새 심방세동을 찾았다.",
+ "effect": "새 심방세동 발견 8.7%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 241,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "웨어러블 ECG의 뇌졸중 뒤 심방세동 탐지는 허가 약물 적응증이 아니다.",
+ "why": "심방세동 병력이 없는 허혈성 뇌졸중 환자를 7일간 웨어러블 패치 ECG로 추적한 전향적 다기관 연구다.",
+ "saw": "241명 중 21명에서 새 심방세동이 발견됐고, 피부 가려움은 1명에서 보고됐다.",
+ "limit": "무작위 대조군이 없고 심방세동 발견이 재발 예방이나 기능 회복으로 이어졌는지는 확인하지 않았다.",
+ "against": "기존 심방세동 선별법과 직접 비교하지 않아 웨어러블 ECG의 상대적 이득은 확정할 수 없다.",
+ "use": "원인 불명 또는 심방세동 병력이 없는 뇌졸중 뒤 장기 심전도 감시를 평가할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "An efficient approach for detecting atrial fibrillation in ischemic stroke patients using a wearable device",
+   "pmid": "40895096"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"wearable ECG\" AND \"Stroke\" 검색 5건",
+  "pubmed": "\"wearable ECG\" AND \"Stroke\" 검색 19건; PMID 40895096 직접 전향 연구",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 9건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
+ }
 }

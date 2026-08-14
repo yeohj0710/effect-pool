@@ -1,27 +1,39 @@
 {
-  "id": "water-two-liters-null",
-  "subj": "물",
-  "claim": "하루 물 2리터가 모두에게 필요한 기준이다",
-  "line": "추가 수분은 요로결석 지표를 개선했지만 2리터 기준의 효과는 검증되지 않았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 48,
-  "synth": "single",
-  "why": "연구진이 건강한 성인을 평소 수분 섭취군과 추가 수분 섭취군에 무작위로 나누고 소변의 요로결석 위험 지표를 비교했습니다.",
-  "saw": "48명이 참여한 시험에서 추가 수분군의 결정화 위험 지표가 좋아졌지만, 연구진은 건강한 모든 사람에게 같은 물 섭취량이 필요하다고 시험하지 않았습니다.",
-  "limit": "요로결석 위험 지표라는 대리지표를 본 작은 단기시험입니다. 체격, 음식, 활동량, 질환에 따른 필요량과 전체 건강 결과를 측정하지 않았습니다.",
-  "against": "건강한 성인 20명을 본 별도 시험에서는 수분 섭취를 늘리자 낮 동안 혈압이 올라갔고 어지럼은 줄었습니다. 결과가 한 방향의 건강 이득으로 모이지 않았습니다.",
-  "use": "2리터라는 숫자를 모든 사람의 의무적인 물 섭취량으로 읽을 근거는 부족합니다. 신장결석 같은 특정 상황의 목표와 일반인의 기준량을 구분해야 합니다.",
-  "refs": [
-    { "label": "Borghi 2011 · Arch Ital Urol Androl · 건강한 사람 수분 섭취 무작위시험", "pmid": "21585170" },
-    { "label": "Jordan 2010 · Clin Exp Hypertens · 수분 섭취 증가와 혈압 시험", "doi": "10.3109/10641961003686450", "pmid": "20860537" },
-    { "label": "Borghi 2015 · Arch Ital Urol Androl · 요로결석 식이 검토", "doi": "10.4081/aiua.2015.2.105", "pmid": "26150027" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=water intake&query.cond=hydration → 44건 반환, InterventionName에 water intake 포함 14건",
-    "pubmed": "\"2 liters\" AND water intake → 66건",
-    "negative": "\"2 liters\" AND water intake AND (\"no effect\" OR did not OR negative OR guideline) → 2건",
-    "safety": "water intoxication AND (adverse OR toxicity OR \"case report\") → 1,922건"
+ "id": "water-two-liters-null",
+ "subj": "물",
+ "claim": "하루 물 2리터가 모두에게 필요한 기준이다",
+ "line": "추가 수분은 요로결석 지표를 개선했지만 2리터 기준의 효과는 검증되지 않았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 48,
+ "synth": "single",
+ "why": "연구진이 건강한 성인을 평소 수분 섭취군과 추가 수분 섭취군에 무작위로 나누고 소변의 요로결석 위험 지표를 비교했습니다.",
+ "saw": "건강한 성인의 평소 수분 섭취와 추가 수분 섭취 기간을 비교한 시험에서 평균동맥압과 어지럼 VAS의 수치를 보고했다.",
+ "limit": "요로결석 위험 지표라는 대리지표를 본 작은 단기시험입니다. 체격, 음식, 활동량, 질환에 따른 필요량과 전체 건강 결과를 측정하지 않았습니다.",
+ "against": "건강한 성인 20명을 본 별도 시험에서는 수분 섭취를 늘리자 낮 동안 혈압이 올라갔고 어지럼은 줄었습니다. 결과가 한 방향의 건강 이득으로 모이지 않았습니다.",
+ "use": "2리터라는 숫자를 모든 사람의 의무적인 물 섭취량으로 읽을 근거는 부족합니다. 신장결석 같은 특정 상황의 목표와 일반인의 기준량을 구분해야 합니다.",
+ "refs": [
+  {
+   "label": "Borghi 2011 · Arch Ital Urol Androl · 건강한 사람 수분 섭취 무작위시험",
+   "pmid": "21585170"
+  },
+  {
+   "label": "Jordan 2010 · Clin Exp Hypertens · 수분 섭취 증가와 혈압 시험",
+   "doi": "10.3109/10641961003686450",
+   "pmid": "20860537"
+  },
+  {
+   "label": "Borghi 2015 · Arch Ital Urol Androl · 요로결석 식이 검토",
+   "doi": "10.4081/aiua.2015.2.105",
+   "pmid": "26150027"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=water intake&query.cond=hydration → 44건 반환, InterventionName에 water intake 포함 14건",
+  "pubmed": "\"2 liters\" AND water intake → 66건",
+  "negative": "\"2 liters\" AND water intake AND (\"no effect\" OR did not OR negative OR guideline) → 2건",
+  "safety": "water intoxication AND (adverse OR toxicity OR \"case report\") → 1,922건"
+ },
+ "vs": "추가 수분 섭취(약 2L/일) vs 평소 섭취: 주간 평균동맥압 91.4±6.4 vs 89.0±5.5mmHg (p=.005), 어지럼 VAS 2.1±2.1 vs 3.1±2.6 (p=.008)"
 }

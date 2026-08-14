@@ -1,28 +1,33 @@
 {
-  "id": "water-therapy-diabetes-pos",
-  "subj": "water therapy",
-  "claim": "당뇨병 동물모델에서 수소수 치료가 인슐린 신호를 높이는가",
-  "line": "당뇨병 쥐에서 수소수는 인슐린 신호와 항산화 효소를 높였습니다",
-  "effect": "인슐린·인슐린 수용체·SOD 증가",
-  "tier": "animal",
-  "dir": "pos",
-  "n": 30,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "의약품 허가 적응증이 아닌 수소수 중재",
-  "why": "고지방식과 스트렙토조토신으로 당뇨병을 유도한 수컷 Wistar 쥐 30마리를 5개 군으로 나누고 수소수를 14일 경구 투여했습니다.",
-  "saw": "수소수 치료는 혈청·간의 SOD와 인슐린, 인슐린 수용체의 양과 발현을 높였고 메트포르민군과 유의한 차이가 없었습니다.",
-  "limit": "쥐 30마리의 전임상 연구라 사람의 당뇨병 혈당 조절이나 임상 결과로 바로 확장할 수 없습니다.",
-  "against": "사람 대상 임상 효과와 장기 안전성은 이 연구에서 확인하지 않았습니다.",
-  "use": "사람 당뇨병 치료에 적용하지 말고 수소수의 인슐린 신호 관련 전임상 가설로만 사용합니다.",
-  "refs": [
-    { "label": "Retnaningtyas 2022 · Veterinary World · diabetic rat study", "doi": "10.14202/vetworld.2022.182-187", "pmid": "35369585", "pmc": "PMC8924398" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=water therapy AND query.cond=Diabetes · 543건 · InterventionName 완전일치 0건",
-    "pubmed": "\"water therapy\" AND \"Diabetes\"[Title/Abstract] · 6건",
-    "negative": "\"water therapy\" AND \"Diabetes\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 1건",
-    "safety": "\"water therapy\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 19건"
+ "id": "water-therapy-diabetes-pos",
+ "subj": "수치료",
+ "claim": "당뇨병 동물모델에서 수소수 치료가 인슐린 신호를 높이는가",
+ "line": "당뇨병 쥐에서 수소수는 인슐린 신호와 항산화 효소를 높였습니다",
+ "effect": "인슐린·인슐린 수용체·SOD 증가",
+ "tier": "animal",
+ "dir": "pos",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "의약품 허가 적응증이 아닌 수소수 중재",
+ "why": "고지방식과 스트렙토조토신으로 당뇨병을 유도한 수컷 Wistar 쥐 30마리를 5개 군으로 나누고 수소수를 14일 경구 투여했습니다.",
+ "saw": "수소수 치료는 혈청·간의 SOD와 인슐린, 인슐린 수용체의 양과 발현을 높였고 메트포르민군과 유의한 차이가 없었습니다.",
+ "limit": "쥐 30마리의 전임상 연구라 사람의 당뇨병 혈당 조절이나 임상 결과로 바로 확장할 수 없습니다.",
+ "against": "사람 대상 임상 효과와 장기 안전성은 이 연구에서 확인하지 않았습니다.",
+ "use": "사람 당뇨병 치료에 적용하지 말고 수소수의 인슐린 신호 관련 전임상 가설로만 사용합니다.",
+ "refs": [
+  {
+   "label": "Retnaningtyas 2022 · Veterinary World · diabetic rat study",
+   "doi": "10.14202/vetworld.2022.182-187",
+   "pmid": "35369585",
+   "pmc": "PMC8924398"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=water therapy AND query.cond=Diabetes · 543건 · InterventionName 완전일치 0건",
+  "pubmed": "\"water therapy\" AND \"Diabetes\"[Title/Abstract] · 6건",
+  "negative": "\"water therapy\" AND \"Diabetes\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 1건",
+  "safety": "\"water therapy\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 19건"
+ }
 }

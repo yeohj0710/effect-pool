@@ -1,28 +1,32 @@
 {
-  "id": "wearable-exercise-tracker-type-2-diabetes-pos",
-  "subj": "wearable exercise tracker",
-  "claim": "웨어러블 운동추적으로 제2형 당뇨병 혈당을 관찰한다",
-  "line": "웨어러블로 측정한 활동량이 높을수록 혈당 변동이 낮았습니다",
-  "effect": "활동량과 혈당변동 연관",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 122,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 기기 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "인슐린 치료 중인 제2형 당뇨병 환자 122명이 연속혈당측정기와 Fitbit을 10일 함께 착용한 단면 분석입니다.",
-  "saw": "낮 시간 걸음 수와 활동의 일주기성이 높을수록 고혈당과 혈당변동이 낮았고, 오후 걸음 수와 목표 달성도 연관됐습니다.",
-  "limit": "단면 관찰연구라 웨어러블 사용이 혈당을 개선했다고 말할 수 없고, 인슐린 치료 환자에 한정된 가설생성 결과입니다.",
-  "against": "수면시간은 저혈당과 혈당변동 지표에 서로 다른 연관을 보였으며, 저자도 전향적 행동중재 시험이 필요하다고 했습니다.",
-  "use": "제2형 당뇨병에서 활동량과 혈당을 함께 모니터링할 때 상담 목표를 세우는 관찰 근거로 참고합니다.",
-  "refs": [
-    { "label": "Association of daytime circadian-aligned activity with glycemic control in type 2 diabetes · wearable data study", "pmid": "41722851", "doi": "10.1016/j.metabol.2026.156570" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]wearable exercise tracker AND AREA[ConditionSearch]Type 2 Diabetes → 5건, exact InterventionName 0건",
-    "pubmed": "\"wearable exercise tracker\" AND \"Type 2 Diabetes\" → 18건",
-    "negative": "\"wearable exercise tracker\" AND \"Type 2 Diabetes\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 7건",
-    "safety": "\"wearable exercise tracker\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 72건"
+ "id": "wearable-exercise-tracker-type-2-diabetes-pos",
+ "subj": "웨어러블 운동추적기",
+ "claim": "웨어러블 운동추적으로 제2형 당뇨병 혈당을 관찰한다",
+ "line": "웨어러블로 측정한 활동량이 높을수록 혈당 변동이 낮았습니다",
+ "effect": "활동량과 혈당변동 연관",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 122,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 기기 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "인슐린 치료 중인 제2형 당뇨병 환자 122명이 연속혈당측정기와 Fitbit을 10일 함께 착용한 단면 분석입니다.",
+ "saw": "낮 시간 걸음 수와 활동의 일주기성이 높을수록 고혈당과 혈당변동이 낮았고, 오후 걸음 수와 목표 달성도 연관됐습니다.",
+ "limit": "단면 관찰연구라 웨어러블 사용이 혈당을 개선했다고 말할 수 없고, 인슐린 치료 환자에 한정된 가설생성 결과입니다.",
+ "against": "수면시간은 저혈당과 혈당변동 지표에 서로 다른 연관을 보였으며, 저자도 전향적 행동중재 시험이 필요하다고 했습니다.",
+ "use": "제2형 당뇨병에서 활동량과 혈당을 함께 모니터링할 때 상담 목표를 세우는 관찰 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "Association of daytime circadian-aligned activity with glycemic control in type 2 diabetes · wearable data study",
+   "pmid": "41722851",
+   "doi": "10.1016/j.metabol.2026.156570"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]wearable exercise tracker AND AREA[ConditionSearch]Type 2 Diabetes → 5건, exact InterventionName 0건",
+  "pubmed": "\"wearable exercise tracker\" AND \"Type 2 Diabetes\" → 18건",
+  "negative": "\"wearable exercise tracker\" AND \"Type 2 Diabetes\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 7건",
+  "safety": "\"wearable exercise tracker\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 72건"
+ }
 }
