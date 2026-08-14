@@ -1,29 +1,39 @@
 {
-  "id": "light-box-therapy-fatigue-pos",
-  "subj": "light box therapy",
-  "claim": "항암치료 중인 유방암 환자에서 아침 광상자는 피로가 더 악화되는 것을 막았지만 피로를 직접 줄이지는 못했습니다",
-  "line": "항암치료 중 아침 광치료군의 전체 피로는 더 악화되지 않았습니다",
-  "effect": "피로 악화 억제",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 39,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "light box therapy는 비약물 광중재이며 항암치료 관련 피로의 허가 적응증으로 분류하지 않습니다.",
-  "why": "항암치료 중 밝은 빛 노출이 피로와 수면, 삶의 질 저하를 늦출 수 있는지 광상자와 어두운 빛을 비교했습니다.",
-  "saw": "유방암 환자 39명을 밝은 백색광과 어두운 적색광으로 무작위 배정해 첫 네 항암 주기 동안 매일 아침 30분 광상자를 사용했습니다. 어두운 빛군은 치료 주간 피로가 증가했지만 밝은 빛군은 기저치 대비 유의한 변화가 없었습니다.",
-  "limit": "작은 단일 연구이고 피로를 개선한 것이 아니라 악화를 막은 결과라 일반화할 수 없습니다.",
-  "against": "피로 변화가 수면이나 손목 활동으로 측정한 일주기 리듬 변화와 연결되지 않아 기전은 분명하지 않습니다.",
-  "use": "항암치료 관련 피로 보조로 설명할 때 직접적인 피로 개선이 아니라 악화 억제 신호임을 알립니다.",
-  "refs": [
-    { "label": "항암치료 중 아침 광치료와 피로 무작위시험", "doi": "10.1007/s00520-011-1203-z", "pmid": "21660669", "nct": "NCT01873794" },
-    { "label": "항암치료 중 광치료와 삶의 질·피로 연구", "doi": "10.1007/s11136-012-0243-2", "pmid": "22865153" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "light box therapy AND Fatigue · 직접 확인 24건",
-    "pubmed": "\"light box therapy\" AND \"Fatigue\" · 23편",
-    "negative": "light box therapy AND Fatigue AND (no effect OR did not OR failed to OR negative OR no significant difference)",
-    "safety": "light box therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ "id": "light-box-therapy-fatigue-pos",
+ "vs": "밝은 백색광군 대 희미한 적색광군: 유방암 화학요법 여성 39명, 희미한 적색광군 피로는 1·4주기 치료주에 악화(P=.003, P<.001)했지만 밝은 백색광군은 기저치 대비 유의한 악화 없음",
+ "subj": "광상자 치료",
+ "claim": "항암치료 중인 유방암 환자에서 아침 광상자는 피로가 더 악화되는 것을 막았지만 피로를 직접 줄이지는 못했습니다",
+ "line": "항암치료 중 아침 광치료군의 전체 피로는 더 악화되지 않았습니다",
+ "effect": "피로 악화 억제",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 39,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "light box therapy는 비약물 광중재이며 항암치료 관련 피로의 허가 적응증으로 분류하지 않습니다.",
+ "why": "항암치료 중 밝은 빛 노출이 피로와 수면, 삶의 질 저하를 늦출 수 있는지 광상자와 어두운 빛을 비교했습니다.",
+ "saw": "유방암 환자 39명을 밝은 백색광과 어두운 적색광으로 무작위 배정해 첫 네 항암 주기 동안 매일 아침 30분 광상자를 사용했습니다. 어두운 빛군은 치료 주간 피로가 증가했지만 밝은 빛군은 기저치 대비 유의한 변화가 없었습니다.",
+ "limit": "작은 단일 연구이고 피로를 개선한 것이 아니라 악화를 막은 결과라 일반화할 수 없습니다.",
+ "against": "피로 변화가 수면이나 손목 활동으로 측정한 일주기 리듬 변화와 연결되지 않아 기전은 분명하지 않습니다.",
+ "use": "항암치료 관련 피로 보조로 설명할 때 직접적인 피로 개선이 아니라 악화 억제 신호임을 알립니다.",
+ "refs": [
+  {
+   "label": "항암치료 중 아침 광치료와 피로 무작위시험",
+   "doi": "10.1007/s00520-011-1203-z",
+   "pmid": "21660669",
+   "nct": "NCT01873794"
+  },
+  {
+   "label": "항암치료 중 광치료와 삶의 질·피로 연구",
+   "doi": "10.1007/s11136-012-0243-2",
+   "pmid": "22865153"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "light box therapy AND Fatigue · 직접 확인 24건",
+  "pubmed": "\"light box therapy\" AND \"Fatigue\" · 23편",
+  "negative": "light box therapy AND Fatigue AND (no effect OR did not OR failed to OR negative OR no significant difference)",
+  "safety": "light box therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ }
 }

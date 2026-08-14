@@ -1,28 +1,33 @@
 {
-  "id": "lifestyle-medicine-obesity-pos",
-  "subj": "lifestyle medicine",
-  "claim": "비만에서 생활의학 프로그램이 체중을 줄이는가",
-  "line": "생활의학 1년 프로그램 후 비만 성인의 체중·BMI·허리둘레가 줄었습니다",
-  "effect": "체중·BMI·허리둘레 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 201,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "의약품 허가 적응증이 아닌 생활·행동 중재",
-  "why": "독일 농촌 지역의 중년·고령 성인 201명에서 식물성 식사, 신체활동, 스트레스 관리, 공동체 지원을 묶은 1년 생활의학 프로그램을 대조군과 비교했습니다.",
-  "saw": "중재군 114명과 대조군 87명에서 1년 뒤 체중·BMI·허리둘레·remnant cholesterol·안정시 심박수의 추세가 더 낮았습니다.",
-  "limit": "무작위 배정이 아닌 대조 연구이고 독일 농촌의 중년·고령 표본이라 다른 환경에 일반화하기 어렵습니다.",
-  "against": "혈압·맥압·인슐린·중성지방과 일부 콜레스테롤·혈당 지표의 군 간 차이는 작거나 유의하지 않았습니다.",
-  "use": "비만 관리에서 식사·활동·스트레스·공동체 지원을 함께 평가하는 근거로 참고하되, 단일 요소의 효과로 해석하지 않습니다.",
-  "refs": [
-    { "label": "Koeder 2022 · Obesity Facts · 1년 대조 연구", "doi": "10.1159/000521164", "pmid": "34923493", "pmc": "PMC9021650" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=lifestyle medicine AND query.cond=Obesity · 187건 · InterventionName 완전일치 3건",
-    "pubmed": "\"lifestyle medicine\" AND \"Obesity\"[Title/Abstract] · 134건",
-    "negative": "\"lifestyle medicine\" AND \"Obesity\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 61건",
-    "safety": "\"lifestyle medicine\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 59건"
+ "id": "lifestyle-medicine-obesity-pos",
+ "subj": "생활습관 의학",
+ "claim": "비만에서 생활의학 프로그램이 체중을 줄이는가",
+ "line": "생활의학 1년 프로그램 후 비만 성인의 체중·BMI·허리둘레가 줄었습니다",
+ "effect": "체중·BMI·허리둘레 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 201,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "의약품 허가 적응증이 아닌 생활·행동 중재",
+ "why": "독일 농촌 지역의 중년·고령 성인 201명에서 식물성 식사, 신체활동, 스트레스 관리, 공동체 지원을 묶은 1년 생활의학 프로그램을 대조군과 비교했습니다.",
+ "saw": "중재군 114명과 대조군 87명에서 1년 뒤 체중·BMI·허리둘레·remnant cholesterol·안정시 심박수의 추세가 더 낮았습니다.",
+ "limit": "무작위 배정이 아닌 대조 연구이고 독일 농촌의 중년·고령 표본이라 다른 환경에 일반화하기 어렵습니다.",
+ "against": "혈압·맥압·인슐린·중성지방과 일부 콜레스테롤·혈당 지표의 군 간 차이는 작거나 유의하지 않았습니다.",
+ "use": "비만 관리에서 식사·활동·스트레스·공동체 지원을 함께 평가하는 근거로 참고하되, 단일 요소의 효과로 해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "Koeder 2022 · Obesity Facts · 1년 대조 연구",
+   "doi": "10.1159/000521164",
+   "pmid": "34923493",
+   "pmc": "PMC9021650"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=lifestyle medicine AND query.cond=Obesity · 187건 · InterventionName 완전일치 3건",
+  "pubmed": "\"lifestyle medicine\" AND \"Obesity\"[Title/Abstract] · 134건",
+  "negative": "\"lifestyle medicine\" AND \"Obesity\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 61건",
+  "safety": "\"lifestyle medicine\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 59건"
+ }
 }

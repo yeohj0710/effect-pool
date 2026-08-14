@@ -1,29 +1,37 @@
 {
-  "id": "light-box-therapy-seasonal-affective-disorder-pos",
-  "subj": "light box therapy",
-  "claim": "계절성 정서장애에서 광상자 치료는 위약보다 우울 점수와 치료 반응을 개선했습니다",
-  "line": "계절성 정서장애 광치료 메타분석에서 우울 점수와 치료 반응이 모두 개선됐습니다",
-  "effect": "우울 점수 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 610,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "light box therapy는 비약물 광중재이며 계절성 정서장애의 허가 적응증으로 분류하지 않습니다.",
-  "why": "계절성 정서장애는 계절에 따른 빛 노출 변화와 일주기 리듬이 관련돼 광상자 치료가 직접적인 환경 중재가 될 수 있습니다.",
-  "saw": "성인 계절성 정서장애 광치료 19개 연구를 메타분석했습니다. 우울 점수는 위약보다 표준화 평균차가 -0.37이었고, 치료 반응 위험비는 1.42였습니다.",
-  "limit": "연구 방법이 서로 다르고 편향 위험이 중간에서 높아 최적 광량과 장기 효과를 확정할 수 없습니다.",
-  "against": "효과가 작고 연구 간 이질성이 있어 모든 계절성 우울 증상에 같은 반응을 기대할 수 없습니다.",
-  "use": "계절성 정서장애의 광치료를 고려할 때 안과 질환과 조증 위험을 확인하고 연구에서 사용한 광량·시간을 따릅니다.",
-  "refs": [
-    { "label": "계절성 정서장애 성인 광치료 메타분석", "doi": "10.1159/000502891", "pmid": "31574513" },
-    { "label": "겨울 우울증 광치료 비교시험", "nct": "NCT00269633" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "light box therapy AND Seasonal Affective Disorder · 직접 확인 37건",
-    "pubmed": "\"light box therapy\" AND \"Seasonal Affective Disorder\" · 37편",
-    "negative": "light box therapy AND Seasonal Affective Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference)",
-    "safety": "light box therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ "id": "light-box-therapy-seasonal-affective-disorder-pos",
+ "vs": "계절성 정동장애 밝은광치료군 대 위약군: 19개 RCT에서 우울 점수 SMD−0.37 (95% CI−0.63~−0.12; 18개 연구 610명), 치료 반응 RR1.42 (95% CI1.08~1.85; 16개 연구 559명)",
+ "subj": "광상자 치료",
+ "claim": "계절성 정서장애에서 광상자 치료는 위약보다 우울 점수와 치료 반응을 개선했습니다",
+ "line": "계절성 정서장애 광치료 메타분석에서 우울 점수와 치료 반응이 모두 개선됐습니다",
+ "effect": "우울 점수 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 610,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "light box therapy는 비약물 광중재이며 계절성 정서장애의 허가 적응증으로 분류하지 않습니다.",
+ "why": "계절성 정서장애는 계절에 따른 빛 노출 변화와 일주기 리듬이 관련돼 광상자 치료가 직접적인 환경 중재가 될 수 있습니다.",
+ "saw": "성인 계절성 정서장애 광치료 19개 연구를 메타분석했습니다. 우울 점수는 위약보다 표준화 평균차가 -0.37이었고, 치료 반응 위험비는 1.42였습니다.",
+ "limit": "연구 방법이 서로 다르고 편향 위험이 중간에서 높아 최적 광량과 장기 효과를 확정할 수 없습니다.",
+ "against": "효과가 작고 연구 간 이질성이 있어 모든 계절성 우울 증상에 같은 반응을 기대할 수 없습니다.",
+ "use": "계절성 정서장애의 광치료를 고려할 때 안과 질환과 조증 위험을 확인하고 연구에서 사용한 광량·시간을 따릅니다.",
+ "refs": [
+  {
+   "label": "계절성 정서장애 성인 광치료 메타분석",
+   "doi": "10.1159/000502891",
+   "pmid": "31574513"
+  },
+  {
+   "label": "겨울 우울증 광치료 비교시험",
+   "nct": "NCT00269633"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "light box therapy AND Seasonal Affective Disorder · 직접 확인 37건",
+  "pubmed": "\"light box therapy\" AND \"Seasonal Affective Disorder\" · 37편",
+  "negative": "light box therapy AND Seasonal Affective Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference)",
+  "safety": "light box therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
+ }
 }
