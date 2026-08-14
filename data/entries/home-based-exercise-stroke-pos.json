@@ -1,20 +1,33 @@
 {
-  "id": "home-based-exercise-stroke-pos",
-  "subj": "home-based exercise",
-  "claim": "뇌졸중 후 가정 운동이 우울 증상을 줄일 가능성이 있다",
-  "line": "뇌졸중 가정 운동은 우울을 줄였지만 근거 확실성은 매우 낮습니다",
-  "effect": "Hedges g -0.59",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 517,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가정 운동은 뇌졸중 후 우울증 치료의 허가 적응증이 아니다",
-  "why": "뇌졸중 후 우울증을 대상으로 가정 운동 무작위시험 9편을 네트워크 메타분석했다.",
-  "saw": "무작위시험 9편, 517명을 분석했다. 심신 운동의 우울 점수 효과는 Hedges g -0.59(95% CI -1.16~-0.02)였지만 근거 확실성은 매우 낮았다.",
-  "limit": "운동 종류와 비교군이 달랐고 장기 효과와 실제 적용 용량이 불확실하다.",
-  "against": "가정 운동의 이득을 확정하려면 더 엄격한 다기관 무작위시험이 필요하다.",
-  "use": "뇌졸중 후 우울 증상에 대한 가정 운동의 탐색적 근거로 기록한다.",
-  "refs": [{ "label": "Zhang 2024 · International Journal of Nursing Studies · 네트워크 메타분석", "doi": "10.1016/j.ijnurstu.2024.104698", "pmid": "38290424" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=home-based exercise, cond=Stroke · 174건", "pubmed": "home-based exercise AND Stroke · 420편", "negative": "home-based exercise AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 294편", "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편" }
+ "id": "home-based-exercise-stroke-pos",
+ "subj": "가정 운동",
+ "claim": "뇌졸중 후 가정 운동이 우울 증상을 줄일 가능성이 있다",
+ "line": "뇌졸중 가정 운동은 우울을 줄였지만 근거 확실성은 매우 낮습니다",
+ "effect": "Hedges g -0.59",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 517,
+  "vs": "뇌졸중 후 가정 심신운동군 대비 대조 운동군: 우울 증상 Hedges g=−0.59 (95% CI −1.16~−0.02; 9개 무작위시험, 517명)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가정 운동은 뇌졸중 후 우울증 치료의 허가 적응증이 아니다",
+ "why": "뇌졸중 후 우울증을 대상으로 가정 운동 무작위시험 9편을 네트워크 메타분석했다.",
+ "saw": "무작위시험 9편, 517명을 분석했다. 심신 운동의 우울 점수 효과는 Hedges g -0.59(95% CI -1.16~-0.02)였지만 근거 확실성은 매우 낮았다.",
+ "limit": "운동 종류와 비교군이 달랐고 장기 효과와 실제 적용 용량이 불확실하다.",
+ "against": "가정 운동의 이득을 확정하려면 더 엄격한 다기관 무작위시험이 필요하다.",
+ "use": "뇌졸중 후 우울 증상에 대한 가정 운동의 탐색적 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Zhang 2024 · International Journal of Nursing Studies · 네트워크 메타분석",
+   "doi": "10.1016/j.ijnurstu.2024.104698",
+   "pmid": "38290424"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=home-based exercise, cond=Stroke · 174건",
+  "pubmed": "home-based exercise AND Stroke · 420편",
+  "negative": "home-based exercise AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 294편",
+  "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편"
+ }
 }

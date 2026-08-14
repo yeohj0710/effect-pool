@@ -1,28 +1,34 @@
 {
-  "id": "hippotherapy-autism-pos",
-  "subj": "hippotherapy",
-  "claim": "말을 이용한 치료를 자폐 스펙트럼의 행동·사회기능에 쓴다",
-  "line": "말 치료로 자폐 아동의 과민성과 사회소통이 개선됐습니다",
-  "effect": "과민성 ES 0.50·사회소통 ES 0.63",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 127,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활 중재로 의약품 허가 적응증이 없습니다",
-  "why": "자폐 스펙트럼 아동·청소년을 10주 치료적 승마와 말 없는 마구간 활동 대조군에 무작위 배정했습니다.",
-  "saw": "127명 시험에서 치료적 승마군의 과민성·과잉행동, 사회인지·사회소통, 말한 단어 수가 대조군보다 좋아졌습니다.",
-  "limit": "보호자 평가가 포함되고 10주 중재라 장기 기능과 학교 적응은 확정되지 않았습니다.",
-  "against": "대조군도 말과 비슷한 활동을 해 말 자체의 효과를 완전히 분리하기 어렵습니다.",
-  "use": "자폐 아동의 재활 목표에 행동·사회소통을 포함할 때 전문기관의 보조 중재로 검토합니다.",
-  "refs": [
-    { "label": "therapeutic horseback riding autism RCT", "doi": "10.1016/j.jaac.2015.04.007", "pmid": "26088658", "nct": "NCT02301195" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "hippotherapy AND Autism · 5건",
-    "pubmed": "hippotherapy AND Autism AND (randomized OR trial OR meta-analysis) · 18건",
-    "negative": "hippotherapy AND Autism AND (no effect OR did not OR failed OR negative OR no significant difference) · 44건",
-    "safety": "hippotherapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 33건"
+ "id": "hippotherapy-autism-pos",
+ "subj": "승마 재활",
+ "claim": "말을 이용한 치료를 자폐 스펙트럼의 행동·사회기능에 쓴다",
+ "line": "말 치료로 자폐 아동의 과민성과 사회소통이 개선됐습니다",
+ "effect": "과민성 ES 0.50·사회소통 ES 0.63",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 127,
+  "vs": "치료적 승마군 대비 말 없는 활동군: 과민성 ES=0.50 (P=.02), 과잉행동 ES=0.53 (P=.01), 사회인지 ES=0.41 (P=.05), 사회소통 ES=0.63 (P=.003); 무작위시험 116명 분석",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활 중재로 의약품 허가 적응증이 없습니다",
+ "why": "자폐 스펙트럼 아동·청소년을 10주 치료적 승마와 말 없는 마구간 활동 대조군에 무작위 배정했습니다.",
+ "saw": "127명 시험에서 치료적 승마군의 과민성·과잉행동, 사회인지·사회소통, 말한 단어 수가 대조군보다 좋아졌습니다.",
+ "limit": "보호자 평가가 포함되고 10주 중재라 장기 기능과 학교 적응은 확정되지 않았습니다.",
+ "against": "대조군도 말과 비슷한 활동을 해 말 자체의 효과를 완전히 분리하기 어렵습니다.",
+ "use": "자폐 아동의 재활 목표에 행동·사회소통을 포함할 때 전문기관의 보조 중재로 검토합니다.",
+ "refs": [
+  {
+   "label": "therapeutic horseback riding autism RCT",
+   "doi": "10.1016/j.jaac.2015.04.007",
+   "pmid": "26088658",
+   "nct": "NCT02301195"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "hippotherapy AND Autism · 5건",
+  "pubmed": "hippotherapy AND Autism AND (randomized OR trial OR meta-analysis) · 18건",
+  "negative": "hippotherapy AND Autism AND (no effect OR did not OR failed OR negative OR no significant difference) · 44건",
+  "safety": "hippotherapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 33건"
+ }
 }

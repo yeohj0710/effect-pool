@@ -1,20 +1,33 @@
 {
-  "id": "home-based-exercise-heart-failure-pos",
-  "subj": "home-based exercise",
-  "claim": "심부전의 가정 심장재활이 입원을 줄이고 삶의 질을 높였다",
-  "line": "가정 심장재활로 심부전 입원은 줄고 삶의 질은 높아졌습니다",
-  "effect": "입원 RR 0.69",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 8728,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가정 운동은 심부전 치료의 허가 적응증이 아니다",
-  "why": "심부전 성인의 운동 심장재활 무작위시험 60편을 전달 방식별로 종합했다.",
-  "saw": "무작위시험 60편, 8728명을 분석했다. 단기 전체 입원은 대조군보다 적었고 RR 0.69(95% CI 0.56-0.86), 심부전 삶의 질 점수는 7.39점 좋아졌다.",
-  "limit": "가정·기관·혼합 재활의 방식과 추적 기간이 달라 개별 가정 프로그램의 효과는 일정하지 않다.",
-  "against": "사망률 단기 RR은 0.93으로 유의하지 않았고 장기 사망률 효과도 확정되지 않았다.",
-  "use": "심부전 환자에게 가정 기반 운동재활을 선택할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Long 2023 · European Journal of Heart Failure · 코크란 메타분석", "doi": "10.1002/ejhf.3046", "pmid": "37850321" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=home-based exercise, cond=Heart Failure · 76건", "pubmed": "home-based exercise AND Heart Failure · 313편", "negative": "home-based exercise AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 227편", "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편" }
+ "id": "home-based-exercise-heart-failure-pos",
+ "subj": "가정 운동",
+ "claim": "심부전의 가정 심장재활이 입원을 줄이고 삶의 질을 높였다",
+ "line": "가정 심장재활로 심부전 입원은 줄고 삶의 질은 높아졌습니다",
+ "effect": "입원 RR 0.69",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 8728,
+ "vs": "가정·기관 심장재활군 대 무운동 대조군: 전체 입원 RR=0.69 (95% CI 0.56~0.86; NNT=13), 심부전 삶의 질 MD=−7.39점 (95% CI −10.30~−4.47), 전체 사망 RR=0.93 (95% CI 0.71~1.21)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가정 운동은 심부전 치료의 허가 적응증이 아니다",
+ "why": "심부전 성인의 운동 심장재활 무작위시험 60편을 전달 방식별로 종합했다.",
+ "saw": "무작위시험 60편, 8728명을 분석했다. 단기 전체 입원은 대조군보다 적었고 RR 0.69(95% CI 0.56-0.86), 심부전 삶의 질 점수는 7.39점 좋아졌다.",
+ "limit": "가정·기관·혼합 재활의 방식과 추적 기간이 달라 개별 가정 프로그램의 효과는 일정하지 않다.",
+ "against": "사망률 단기 RR은 0.93으로 유의하지 않았고 장기 사망률 효과도 확정되지 않았다.",
+ "use": "심부전 환자에게 가정 기반 운동재활을 선택할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Long 2023 · European Journal of Heart Failure · 코크란 메타분석",
+   "doi": "10.1002/ejhf.3046",
+   "pmid": "37850321"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=home-based exercise, cond=Heart Failure · 76건",
+  "pubmed": "home-based exercise AND Heart Failure · 313편",
+  "negative": "home-based exercise AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 227편",
+  "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편"
+ }
 }

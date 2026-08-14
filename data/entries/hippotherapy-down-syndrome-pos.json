@@ -1,28 +1,34 @@
 {
-  "id": "hippotherapy-down-syndrome-pos",
-  "subj": "hippotherapy",
-  "claim": "말을 이용한 치료를 다운증후군의 균형과 독립성에 쓴다",
-  "line": "말 치료로 다운증후군 아동의 기능적 독립성이 높아졌습니다",
-  "effect": "WeeFIM 유의 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 34,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 재활 중재로 의약품 허가 적응증이 없습니다",
-  "why": "다운증후군 아동 34명을 물리치료와 물리치료·승마치료 통합군에 무작위 배정했습니다.",
-  "saw": "두 군 모두 균형과 일어나 걷기 시간이 좋아졌고, 기능적 독립성은 승마치료 통합군에서만 유의하게 좋아졌습니다.",
-  "limit": "소규모 단일 시험이고 두 군 모두 물리치료를 받아 승마치료의 추가 효과만 비교했습니다.",
-  "against": "기능적 이동성은 두 군 차이가 뚜렷하지 않았습니다.",
-  "use": "다운증후군 아동의 균형·독립성 재활에서 표준 물리치료에 더할지 검토합니다.",
-  "refs": [
-    { "label": "hippotherapy Down syndrome randomized trial", "doi": "10.1007/s00431-023-04959-5", "pmid": "37186034", "nct": "NCT05297149" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "hippotherapy AND Down Syndrome · 3건",
-    "pubmed": "hippotherapy AND Down Syndrome AND (randomized OR trial OR meta-analysis) · 4건",
-    "negative": "hippotherapy AND Down Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 7건",
-    "safety": "hippotherapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 33건"
+ "id": "hippotherapy-down-syndrome-pos",
+ "subj": "승마 재활",
+ "claim": "말을 이용한 치료를 다운증후군의 균형과 독립성에 쓴다",
+ "line": "말 치료로 다운증후군 아동의 기능적 독립성이 높아졌습니다",
+ "effect": "WeeFIM 유의 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 34,
+  "vs": "물리치료+승마치료군 대비 물리치료군: WeeFIM은 승마치료군에서만 사후 유의하게 개선(P<.05); 두 군의 PBS·TUG도 개선(P<.05), 34명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 재활 중재로 의약품 허가 적응증이 없습니다",
+ "why": "다운증후군 아동 34명을 물리치료와 물리치료·승마치료 통합군에 무작위 배정했습니다.",
+ "saw": "두 군 모두 균형과 일어나 걷기 시간이 좋아졌고, 기능적 독립성은 승마치료 통합군에서만 유의하게 좋아졌습니다.",
+ "limit": "소규모 단일 시험이고 두 군 모두 물리치료를 받아 승마치료의 추가 효과만 비교했습니다.",
+ "against": "기능적 이동성은 두 군 차이가 뚜렷하지 않았습니다.",
+ "use": "다운증후군 아동의 균형·독립성 재활에서 표준 물리치료에 더할지 검토합니다.",
+ "refs": [
+  {
+   "label": "hippotherapy Down syndrome randomized trial",
+   "doi": "10.1007/s00431-023-04959-5",
+   "pmid": "37186034",
+   "nct": "NCT05297149"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "hippotherapy AND Down Syndrome · 3건",
+  "pubmed": "hippotherapy AND Down Syndrome AND (randomized OR trial OR meta-analysis) · 4건",
+  "negative": "hippotherapy AND Down Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 7건",
+  "safety": "hippotherapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 33건"
+ }
 }

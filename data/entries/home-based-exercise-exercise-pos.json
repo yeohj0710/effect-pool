@@ -1,20 +1,33 @@
 {
-  "id": "home-based-exercise-exercise-pos",
-  "subj": "home-based exercise",
-  "claim": "경증 파킨슨병에서 가정 유산소 운동이 운동 증상을 줄였다",
-  "line": "파킨슨병 환자의 운동 점수는 가정 유산소 운동 후 좋아졌습니다",
-  "effect": "MDS-UPDRS -4.2점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 130,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 유산소 운동은 파킨슨병 치료의 허가 적응증이 아니다",
-  "why": "경증 파킨슨병 환자를 대상으로 가정용 운동기구와 원격 감독을 결합한 무작위시험이다.",
-  "saw": "환자 130명을 6개월 가정 유산소 운동군과 스트레칭 대조군에 배정했다. 운동군의 오프 상태 MDS-UPDRS 운동 점수는 대조군보다 4.2점 더 좋아졌다(P=0.002).",
-  "limit": "단일 기관 시험이며 20명이 프로그램을 끝내지 못했고 장기 효과는 확인하지 않았다.",
-  "against": "질병수정 효과나 장기 순응도까지 입증한 결과는 아니다.",
-  "use": "경증 파킨슨병의 가정 운동 재활 선택지로 기록한다.",
-  "refs": [{ "label": "van der Kolk 2019 · Lancet Neurology · 무작위시험", "doi": "10.1016/S1474-4422(19)30285-6", "pmid": "31521532" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=home-based exercise, cond=Exercise · 1984건", "pubmed": "home-based exercise AND Exercise · 6550편", "negative": "home-based exercise AND Exercise AND (no effect OR did not OR failed OR negative OR no significant difference) · 4881편", "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편" }
+ "id": "home-based-exercise-exercise-pos",
+ "subj": "가정 운동",
+ "claim": "경증 파킨슨병에서 가정 유산소 운동이 운동 증상을 줄였다",
+ "line": "파킨슨병 환자의 운동 점수는 가정 유산소 운동 후 좋아졌습니다",
+ "effect": "MDS-UPDRS -4.2점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 130,
+ "vs": "가정 유산소 운동군 대 스트레칭 대조군: 오프 상태 MDS-UPDRS 운동점수 군 간 차이 −4.2점 (95% CI −6.9~−1.6; P=.0020); 130명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 유산소 운동은 파킨슨병 치료의 허가 적응증이 아니다",
+ "why": "경증 파킨슨병 환자를 대상으로 가정용 운동기구와 원격 감독을 결합한 무작위시험이다.",
+ "saw": "환자 130명을 6개월 가정 유산소 운동군과 스트레칭 대조군에 배정했다. 운동군의 오프 상태 MDS-UPDRS 운동 점수는 대조군보다 4.2점 더 좋아졌다(P=0.002).",
+ "limit": "단일 기관 시험이며 20명이 프로그램을 끝내지 못했고 장기 효과는 확인하지 않았다.",
+ "against": "질병수정 효과나 장기 순응도까지 입증한 결과는 아니다.",
+ "use": "경증 파킨슨병의 가정 운동 재활 선택지로 기록한다.",
+ "refs": [
+  {
+   "label": "van der Kolk 2019 · Lancet Neurology · 무작위시험",
+   "doi": "10.1016/S1474-4422(19)30285-6",
+   "pmid": "31521532"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=home-based exercise, cond=Exercise · 1984건",
+  "pubmed": "home-based exercise AND Exercise · 6550편",
+  "negative": "home-based exercise AND Exercise AND (no effect OR did not OR failed OR negative OR no significant difference) · 4881편",
+  "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편"
+ }
 }

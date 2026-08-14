@@ -1,20 +1,33 @@
 {
-  "id": "home-based-exercise-coronary-artery-disease-pos",
-  "subj": "home-based exercise",
-  "claim": "관상동맥질환의 운동재활이 심혈관 사망과 입원을 줄였다",
-  "line": "가정 운동재활은 관상동맥질환의 심혈관 사망·입원을 줄였습니다",
-  "effect": "심혈관 사망 RR 0.74",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 14486,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가정 운동은 관상동맥질환 치료의 허가 적응증이 아니다",
-  "why": "관상동맥질환 환자의 운동 심장재활 무작위시험을 코크란 메타분석으로 종합했다.",
-  "saw": "무작위시험 63편, 14486명을 분석했다. 운동재활은 심혈관 사망 RR 0.74(95% CI 0.64-0.86), 전체 입원 RR 0.82(95% CI 0.70-0.96)와 관련됐다.",
-  "limit": "연구 대상은 심근경색이나 재혈관화 뒤 환자가 많았고 여성은 15% 미만이었다.",
-  "against": "전체 사망률과 심근경색·재혈관화 위험은 유의하게 줄지 않았다.",
-  "use": "관상동맥질환에서 가정 또는 기관 운동재활을 비교할 때 참고할 근거로 기록한다.",
-  "refs": [{ "label": "Anderson 2016 · Cochrane Database · 메타분석", "doi": "10.1002/14651858.CD001800.pub3", "pmid": "26730878" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=home-based exercise, cond=Coronary Artery Disease · 82건", "pubmed": "home-based exercise AND Coronary Artery Disease · 133편", "negative": "home-based exercise AND Coronary Artery Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 105편", "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편" }
+ "id": "home-based-exercise-coronary-artery-disease-pos",
+ "subj": "가정 운동",
+ "claim": "관상동맥질환의 운동재활이 심혈관 사망과 입원을 줄였다",
+ "line": "가정 운동재활은 관상동맥질환의 심혈관 사망·입원을 줄였습니다",
+ "effect": "심혈관 사망 RR 0.74",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 14486,
+ "vs": "운동 심장재활군 대 운동 대조군: 심혈관 사망 RR=0.74 (95% CI 0.64~0.86; 27개 시험), 전체 입원 RR=0.82 (95% CI 0.70~0.96; 15개 시험); 전체 사망 RR=0.96 (95% CI 0.88~1.04)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가정 운동은 관상동맥질환 치료의 허가 적응증이 아니다",
+ "why": "관상동맥질환 환자의 운동 심장재활 무작위시험을 코크란 메타분석으로 종합했다.",
+ "saw": "무작위시험 63편, 14486명을 분석했다. 운동재활은 심혈관 사망 RR 0.74(95% CI 0.64-0.86), 전체 입원 RR 0.82(95% CI 0.70-0.96)와 관련됐다.",
+ "limit": "연구 대상은 심근경색이나 재혈관화 뒤 환자가 많았고 여성은 15% 미만이었다.",
+ "against": "전체 사망률과 심근경색·재혈관화 위험은 유의하게 줄지 않았다.",
+ "use": "관상동맥질환에서 가정 또는 기관 운동재활을 비교할 때 참고할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Anderson 2016 · Cochrane Database · 메타분석",
+   "doi": "10.1002/14651858.CD001800.pub3",
+   "pmid": "26730878"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=home-based exercise, cond=Coronary Artery Disease · 82건",
+  "pubmed": "home-based exercise AND Coronary Artery Disease · 133편",
+  "negative": "home-based exercise AND Coronary Artery Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 105편",
+  "safety": "home-based exercise AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1038편"
+ }
 }
