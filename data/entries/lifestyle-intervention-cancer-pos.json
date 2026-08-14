@@ -1,26 +1,33 @@
 {
-  "id": "lifestyle-intervention-cancer-pos",
-  "subj": "lifestyle intervention",
-  "claim": "암 생존자의 식사·운동 중심 생활습관 중재가 심혈관대사 위험을 낮출 수 있다",
-  "line": "암 생존자에서 복합 생활습관 중재 후 대사 위험이 줄었습니다",
-  "effect": "대사 위험 소폭 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "생활습관 중재는 허가 적응증이 없는 비약물 중재다",
-  "why": "암 생존자에게 식사와 운동을 중심으로 여러 생활습관을 함께 바꾸는 중재를 적용했다",
-  "saw": "무작위시험 25개 중 21개를 메타분석해 BMI, 공복혈당, LDL, 이완기혈압, 중성지방에서 통계적으로 유의한 소폭 개선을 확인했다",
-  "limit": "연구별 중재 구성과 대상 암종이 달랐고 통합 참가자 수가 초록에 제시되지 않았다",
-  "against": "암 자체의 생존율이나 재발을 낮춘다는 근거가 아니라 심혈관대사 위험 지표 결과다",
-  "use": "암 생존자의 장기 생활습관 관리에서 대사 위험 결과를 정리하는 데 쓴다",
-  "refs": [{ "label": "암 생존자 복합 생활습관 중재 메타분석", "doi": "10.1007/s00520-026-10982-7", "pmid": "42455364" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=lifestyle intervention · cond=Cancer 28건, 일치 28건",
-    "pubmed": "lifestyle intervention AND Cancer 21142건",
-    "negative": "lifestyle intervention AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) 10721건",
-    "safety": "lifestyle intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 20580건"
+ "id": "lifestyle-intervention-cancer-pos",
+ "vs": "복합 생활습관 중재군 대 대조군: 21개 RCT 메타분석에서 BMI SMD−0.27 (95% CI−0.38~−0.15; P<.001), 공복혈당 −0.29 (95% CI−0.54~−0.04; P=.021), LDL −0.15 (95% CI−0.30~−0.01; P=.039), 이완기혈압 −0.12 (95% CI−0.20~−0.04; P=.003), 중성지방 −0.26 (95% CI−0.43~−0.08; P=.004)",
+ "subj": "생활습관 중재",
+ "claim": "암 생존자의 식사·운동 중심 생활습관 중재가 심혈관대사 위험을 낮출 수 있다",
+ "line": "암 생존자에서 복합 생활습관 중재 후 대사 위험이 줄었습니다",
+ "effect": "대사 위험 소폭 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "생활습관 중재는 허가 적응증이 없는 비약물 중재다",
+ "why": "암 생존자에게 식사와 운동을 중심으로 여러 생활습관을 함께 바꾸는 중재를 적용했다",
+ "saw": "무작위시험 25개 중 21개를 메타분석해 BMI, 공복혈당, LDL, 이완기혈압, 중성지방에서 통계적으로 유의한 소폭 개선을 확인했다",
+ "limit": "연구별 중재 구성과 대상 암종이 달랐고 통합 참가자 수가 초록에 제시되지 않았다",
+ "against": "암 자체의 생존율이나 재발을 낮춘다는 근거가 아니라 심혈관대사 위험 지표 결과다",
+ "use": "암 생존자의 장기 생활습관 관리에서 대사 위험 결과를 정리하는 데 쓴다",
+ "refs": [
+  {
+   "label": "암 생존자 복합 생활습관 중재 메타분석",
+   "doi": "10.1007/s00520-026-10982-7",
+   "pmid": "42455364"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=lifestyle intervention · cond=Cancer 28건, 일치 28건",
+  "pubmed": "lifestyle intervention AND Cancer 21142건",
+  "negative": "lifestyle intervention AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) 10721건",
+  "safety": "lifestyle intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 20580건"
+ }
 }

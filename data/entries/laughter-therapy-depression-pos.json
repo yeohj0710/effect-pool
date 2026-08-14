@@ -1,20 +1,33 @@
 {
-  "id": "laughter-therapy-depression-pos",
-  "subj": "laughter therapy",
-  "claim": "우울 증상에 웃음치료를 보조적으로 쓴다",
-  "line": "웃음치료 메타분석에서 우울 SMD는 0.90 낮았습니다",
-  "effect": "우울 SMD −0.90",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "웃음치료는 비약물 보조중재이며 우울증 약물의 허가 적응증으로 분류하지 않는다.",
-  "why": "우울·불안·스트레스 등에 대한 웃음치료 무작위시험을 모은 용량반응 메타분석이다.",
-  "saw": "33개 연구를 포함한 메타분석에서 웃음치료는 우울 SMD −0.90, 불안 SMD −0.83, 스트레스 SMD −0.68로 낮췄다. 우울 효과는 누적 400분까지 치료시간이 길수록 컸다.",
-  "limit": "초록에 통합 참가자 수가 없고 웃음 유발 방식과 대상 질환이 달랐다. 효과가 400분 뒤 더 커지는지는 확인되지 않았다.",
-  "against": "연구 간 중재와 환자군이 달라 특정 우울증 환자에게 같은 크기의 효과를 보장하지 않는다.",
-  "use": "우울 증상 보조중재에서 웃음치료의 효과 크기와 연구 이질성을 설명할 때 사용한다.",
-  "refs": [{ "label": "웃음치료 우울·불안 용량반응 메타분석", "doi": "10.1016/j.jpsychires.2026.04.006", "pmid": "42019364" }],
-  "queried": { "date": "2026-08-06", "ctgov": "laughter therapy AND Depression · 16건", "pubmed": "laughter therapy AND Depression · 133편", "negative": "108편", "safety": "laughter therapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 103편" }
+ "id": "laughter-therapy-depression-pos",
+ "vs": "웃음 치료군 대 대조군: 33개 RCT에서 우울 SMD−0.90 (95% CI−1.29~−0.52), 불안 SMD−0.83 (95% CI−1.16~−0.50), 스트레스 SMD−0.68 (95% CI−1.02~−0.33; 모두 P<.001)",
+ "subj": "웃음 치료",
+ "claim": "우울 증상에 웃음치료를 보조적으로 쓴다",
+ "line": "웃음치료 메타분석에서 우울 SMD는 0.90 낮았습니다",
+ "effect": "우울 SMD −0.90",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "웃음치료는 비약물 보조중재이며 우울증 약물의 허가 적응증으로 분류하지 않는다.",
+ "why": "우울·불안·스트레스 등에 대한 웃음치료 무작위시험을 모은 용량반응 메타분석이다.",
+ "saw": "33개 연구를 포함한 메타분석에서 웃음치료는 우울 SMD −0.90, 불안 SMD −0.83, 스트레스 SMD −0.68로 낮췄다. 우울 효과는 누적 400분까지 치료시간이 길수록 컸다.",
+ "limit": "초록에 통합 참가자 수가 없고 웃음 유발 방식과 대상 질환이 달랐다. 효과가 400분 뒤 더 커지는지는 확인되지 않았다.",
+ "against": "연구 간 중재와 환자군이 달라 특정 우울증 환자에게 같은 크기의 효과를 보장하지 않는다.",
+ "use": "우울 증상 보조중재에서 웃음치료의 효과 크기와 연구 이질성을 설명할 때 사용한다.",
+ "refs": [
+  {
+   "label": "웃음치료 우울·불안 용량반응 메타분석",
+   "doi": "10.1016/j.jpsychires.2026.04.006",
+   "pmid": "42019364"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "laughter therapy AND Depression · 16건",
+  "pubmed": "laughter therapy AND Depression · 133편",
+  "negative": "108편",
+  "safety": "laughter therapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 103편"
+ }
 }

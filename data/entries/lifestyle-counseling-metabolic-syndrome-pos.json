@@ -1,28 +1,33 @@
 {
-  "id": "lifestyle-counseling-metabolic-syndrome-pos",
-  "subj": "lifestyle counseling",
-  "claim": "생활습관 상담이 대사증후군 위험 점수와 식습관을 개선한다",
-  "line": "대사증후군 위험군에서 생활습관 상담 후 위험 점수와 식습관이 개선됐습니다",
-  "effect": "대사증후군 중증도 점수 표준화 효과크기 0.46",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 75,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "생활습관 상담은 의약품 허가 적응증이 아닌 비약물 중재다",
-  "why": "좌식 생활을 하는 성인 75명을 운동과 상담을 병행하는 두 군, 상담 단독군으로 무작위 배정해 심혈관대사 위험을 40주 관찰했다.",
-  "saw": "세 군 모두 대사증후군 중증도 점수와 식습관이 개선됐고, 점수의 표준화 효과크기는 0.46이었다. 상담 단독군도 중재에 포함됐다.",
-  "limit": "상담 단독군이 운동 병행군보다 신체활동·좌식 행동 개선에 덜 효과적이었고, 전체 표본이 작다.",
-  "against": "세 군의 대사증후군 점수 개선 정도는 서로 비슷했다.",
-  "use": "운동을 함께 처방할 수 없는 대사증후군 위험군에서 생활습관 상담의 기본 효과를 참고한다.",
-  "refs": [
-    { "label": "BELLUGAT Lifestyle Counseling and Exercise Trial 2020 · Journal of Physical Activity and Health", "doi": "10.1123/jpah.2019-0409", "pmid": "32531762" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=lifestyle counseling AND condition=Metabolic Syndrome; 150건 반환, 중재명 일치 3건",
-    "pubmed": "lifestyle counseling AND Metabolic Syndrome; 362건",
-    "negative": "lifestyle counseling AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference); 239건",
-    "safety": "lifestyle counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 55건"
+ "id": "lifestyle-counseling-metabolic-syndrome-pos",
+  "vs": "운동·생활습관 상담군 대 상담 단독군: AIT25명·TCT27명·상담23명 3군 RCT에서 대사증후군 중증도 군 간 차이 효과크기 0.46은 유사했고, 중등도 이상 신체활동 반응자는 AIT·TCT 50% 대 상담21%, 좌식행동 개선 반응자는 63.5% 대30.4%",
+ "subj": "생활습관 상담",
+ "claim": "생활습관 상담이 대사증후군 위험 점수와 식습관을 개선한다",
+ "line": "대사증후군 위험군에서 생활습관 상담 후 위험 점수와 식습관이 개선됐습니다",
+ "effect": "대사증후군 중증도 점수 표준화 효과크기 0.46",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 75,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "생활습관 상담은 의약품 허가 적응증이 아닌 비약물 중재다",
+ "why": "좌식 생활을 하는 성인 75명을 운동과 상담을 병행하는 두 군, 상담 단독군으로 무작위 배정해 심혈관대사 위험을 40주 관찰했다.",
+ "saw": "세 군 모두 대사증후군 중증도 점수와 식습관이 개선됐고, 점수의 표준화 효과크기는 0.46이었다. 상담 단독군도 중재에 포함됐다.",
+ "limit": "상담 단독군이 운동 병행군보다 신체활동·좌식 행동 개선에 덜 효과적이었고, 전체 표본이 작다.",
+ "against": "세 군의 대사증후군 점수 개선 정도는 서로 비슷했다.",
+ "use": "운동을 함께 처방할 수 없는 대사증후군 위험군에서 생활습관 상담의 기본 효과를 참고한다.",
+ "refs": [
+  {
+   "label": "BELLUGAT Lifestyle Counseling and Exercise Trial 2020 · Journal of Physical Activity and Health",
+   "doi": "10.1123/jpah.2019-0409",
+   "pmid": "32531762"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=lifestyle counseling AND condition=Metabolic Syndrome; 150건 반환, 중재명 일치 3건",
+  "pubmed": "lifestyle counseling AND Metabolic Syndrome; 362건",
+  "negative": "lifestyle counseling AND Metabolic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference); 239건",
+  "safety": "lifestyle counseling AND (adverse OR toxicity OR case report OR harm OR dropout); 55건"
+ }
 }
