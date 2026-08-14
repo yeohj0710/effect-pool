@@ -1,29 +1,39 @@
 {
-  "id": "sevoflurane-cancer-null",
-  "subj": "세보플루란과 암 수술",
-  "claim": "간세포암 간절제에서 세보플루란 마취는 프로포폴보다 1년 무재발 생존을 개선하지 않는다",
-  "line": "간세포암 간절제 무작위시험에서 세보플루란의 1년 무재발 생존은 프로포폴과 다르지 않았습니다",
-  "effect": "1년 무재발 생존 77.7% 대 79.1%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 536,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "세보플루란 허가 적응증은 전신마취이며 암 치료는 허가 적응증이 아닙니다",
-  "why": "암 수술에서 세보플루란과 프로포폴 마취가 종양학적 결과에 미치는 차이를 확인한 무작위시험을 검토했습니다.",
-  "saw": "간세포암 간절제 536명 중 454명을 일차 분석했습니다. 1년 무재발 생존은 프로포폴군 79.1%(47건), 세보플루란군 77.7%(50건)였고 보정 위험비는 1.04(95% CI 0.72–1.52)였습니다. 전체 생존과 간내·간외 재발 없는 생존도 유의한 차이가 없었습니다.",
-  "limit": "세보플루란을 암 치료제로 시험한 연구가 아니라 간절제 중 마취법을 비교한 연구입니다. 개복수술 하위군에서 프로포폴 신호가 있었지만 하위군 결과이며 전체 일차 결과와 다릅니다.",
-  "against": "41개 연구 4,342명을 합친 메타분석에서도 암 환자의 전반적 수술 후 인지기능은 세보플루란과 프로포폴 사이에 유의한 차이가 없었습니다.",
-  "use": "암 치료 효과가 아니라 수술 중 마취법과 재발 결과가 다르지 않았다는 근거로 기록합니다.",
-  "refs": [
-    { "label": "Recurrence-free survival after hepatectomy using propofol-based total intravenous anaesthesia and sevoflurane-based inhalational anaesthesia: a randomised controlled study", "doi": "10.1111/anae.16488", "pmid": "39776101" },
-    { "label": "Effects of sevoflurane inhalation anesthesia versus propofol intravenous anesthesia on postoperative cognitive function in patients with malignant tumors: A meta-analysis", "doi": "10.1097/MD.0000000000043342", "pmid": "40898543", "pmc": "PMC12401349" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=sevoflurane&query.cond=Cancer; total 121, direct 21",
-    "pubmed": "sevoflurane[Title/Abstract] AND cancer[Title/Abstract]; 414",
-    "negative": "sevoflurane[Title/Abstract] AND cancer[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 112",
-    "safety": "sevoflurane[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,945"
+ "id": "sevoflurane-cancer-null",
+ "subj": "세보플루란과 암 수술",
+ "claim": "간세포암 간절제에서 세보플루란 마취는 프로포폴보다 1년 무재발 생존을 개선하지 않는다",
+ "line": "간세포암 간절제 무작위시험에서 세보플루란의 1년 무재발 생존은 프로포폴과 다르지 않았습니다",
+ "effect": "1년 무재발 생존 77.7% 대 79.1%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 536,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "세보플루란 허가 적응증은 전신마취이며 암 치료는 허가 적응증이 아닙니다",
+ "why": "암 수술에서 세보플루란과 프로포폴 마취가 종양학적 결과에 미치는 차이를 확인한 무작위시험을 검토했습니다.",
+ "saw": "간세포암 간절제 536명 중 454명을 일차 분석했습니다. 1년 무재발 생존은 프로포폴군 79.1%(47건), 세보플루란군 77.7%(50건)였고 보정 위험비는 1.04(95% CI 0.72–1.52)였습니다. 전체 생존과 간내·간외 재발 없는 생존도 유의한 차이가 없었습니다.",
+ "limit": "세보플루란을 암 치료제로 시험한 연구가 아니라 간절제 중 마취법을 비교한 연구입니다. 개복수술 하위군에서 프로포폴 신호가 있었지만 하위군 결과이며 전체 일차 결과와 다릅니다.",
+ "against": "41개 연구 4,342명을 합친 메타분석에서도 암 환자의 전반적 수술 후 인지기능은 세보플루란과 프로포폴 사이에 유의한 차이가 없었습니다.",
+ "use": "암 치료 효과가 아니라 수술 중 마취법과 재발 결과가 다르지 않았다는 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Recurrence-free survival after hepatectomy using propofol-based total intravenous anaesthesia and sevoflurane-based inhalational anaesthesia: a randomised controlled study",
+   "doi": "10.1111/anae.16488",
+   "pmid": "39776101"
+  },
+  {
+   "label": "Effects of sevoflurane inhalation anesthesia versus propofol intravenous anesthesia on postoperative cognitive function in patients with malignant tumors: A meta-analysis",
+   "doi": "10.1097/MD.0000000000043342",
+   "pmid": "40898543",
+   "pmc": "PMC12401349"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=sevoflurane&query.cond=Cancer; total 121, direct 21",
+  "pubmed": "sevoflurane[Title/Abstract] AND cancer[Title/Abstract]; 414",
+  "negative": "sevoflurane[Title/Abstract] AND cancer[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 112",
+  "safety": "sevoflurane[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,945"
+ },
+ "vs": "상대 효과: 세보플루란 흡입마취 vs 프로포폴 정맥마취 간세포암 간절제 1년 무재발 생존 77.7% vs 79.1%, 조정 HR 1.04 (95% CI 0.72~1.52); 개복수술 하위군 HR 0.49 (0.25~0.95; p=.034), 전체 생존 100.0% vs 99.1%"
 }

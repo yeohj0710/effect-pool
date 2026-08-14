@@ -1,28 +1,32 @@
 {
-  "id": "self-massage-dysmenorrhea-pos",
-  "subj": "self massage",
-  "claim": "자가 마사지를 원발성 생리통에 쓴다",
-  "line": "원발성 생리통에서 장미 오일 자가 마사지는 둘째 주기에 통증을 줄였습니다.",
-  "effect": "생리통 VAS 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 75,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "학생 75명을 장미 오일 자가 마사지, 무향 아몬드 오일 위약, 무처치 대조군으로 나눈 무작위시험입니다.",
-  "saw": "두 번의 월경 주기 중 첫 주기에는 군 간 차이가 없었지만 둘째 주기에는 장미 오일군의 통증이 다른 두 군보다 유의하게 낮았습니다.",
-  "limit": "학생 대상이고 통증을 자기보고했으며 장미 오일과 마사지의 독립 효과를 분리하기 어렵습니다.",
-  "against": "첫 주기에는 통증 감소가 유의하지 않았고 연구가 두 주기로 짧아 장기 반복 사용의 효과와 안전성은 알 수 없습니다.",
-  "use": "원발성 생리통에서 자가 마사지 선택지를 설명할 때 향 오일의 추가 효과가 초기 주기에는 일정하지 않음을 함께 안내합니다.",
-  "refs": [
-    { "label": "The effect of self-aromatherapy massage of the abdomen on primary dysmenorrhoea · randomized controlled trial", "pmid": "25254570", "doi": "10.3109/01443615.2014.958449" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]self massage AND AREA[ConditionSearch]Dysmenorrhea → 4건, exact InterventionName 0건",
-    "pubmed": "\"self massage\" AND \"Dysmenorrhea\" → 1건",
-    "negative": "\"self massage\" AND \"Dysmenorrhea\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0건",
-    "safety": "\"self massage\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 40건"
+ "id": "self-massage-dysmenorrhea-pos",
+ "subj": "자가 마사지",
+ "claim": "자가 마사지를 원발성 생리통에 쓴다",
+ "line": "원발성 생리통에서 장미 오일 자가 마사지는 둘째 주기에 통증을 줄였습니다.",
+ "effect": "생리통 VAS 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 75,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "학생 75명을 장미 오일 자가 마사지, 무향 아몬드 오일 위약, 무처치 대조군으로 나눈 무작위시험입니다.",
+ "saw": "두 번의 월경 주기 중 첫 주기에는 군 간 차이가 없었지만 둘째 주기에는 장미 오일군의 통증이 다른 두 군보다 유의하게 낮았습니다.",
+ "limit": "학생 대상이고 통증을 자기보고했으며 장미 오일과 마사지의 독립 효과를 분리하기 어렵습니다.",
+ "against": "첫 주기에는 통증 감소가 유의하지 않았고 연구가 두 주기로 짧아 장기 반복 사용의 효과와 안전성은 알 수 없습니다.",
+ "use": "원발성 생리통에서 자가 마사지 선택지를 설명할 때 향 오일의 추가 효과가 초기 주기에는 일정하지 않음을 함께 안내합니다.",
+ "refs": [
+  {
+   "label": "The effect of self-aromatherapy massage of the abdomen on primary dysmenorrhoea · randomized controlled trial",
+   "pmid": "25254570",
+   "doi": "10.3109/01443615.2014.958449"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]self massage AND AREA[ConditionSearch]Dysmenorrhea → 4건, exact InterventionName 0건",
+  "pubmed": "\"self massage\" AND \"Dysmenorrhea\" → 1건",
+  "negative": "\"self massage\" AND \"Dysmenorrhea\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0건",
+  "safety": "\"self massage\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 40건"
+ }
 }
