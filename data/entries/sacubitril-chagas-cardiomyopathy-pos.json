@@ -1,0 +1,36 @@
+{
+  "id": "sacubitril-chagas-cardiomyopathy-pos",
+  "subj": "사쿠비트릴",
+  "claim": "사쿠비트릴·발사르탄은 샤가스 심근병증 심부전에서 NT-proBNP를 더 줄였다",
+  "line": "샤가스 심근병증에서 NT-proBNP 감소가 더 컸습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 922,
+  "synth": "single",
+  "why": "샤가스 심근병증으로 박출률이 저하된 심부전 환자를 사쿠비트릴·발사르탄 또는 에날라프릴에 무작위 배정한 PARACHUTE-HF 시험을 확인했습니다.",
+  "saw": "922명이 무작위 배정됐고 사쿠비트릴·발사르탄군 462명, 에날라프릴군 460명이었습니다. 12주 NT-proBNP 중앙 감소율은 30.6%와 5.5%였고 계층적 승률은 1.52(95% CI 1.28~1.82; P<.001)였지만 심혈관 사망·입원 임상 결과 차이는 유의하지 않았습니다.",
+  "limit": "NT-proBNP와 계층적 복합지표의 이득이 심혈관 사망·입원 감소를 확정하지 않습니다.",
+  "against": "저혈압·신기능·칼륨을 확인하고 샤가스 심근병증의 표준 심부전 치료와 함께 판단해야 합니다.",
+  "use": "샤가스 심근병증 심부전에서 에날라프릴과 비교한 생체표지자 개선 신호로 설명하며 임상 사건 이득과 구분합니다.",
+  "refs": [
+    {
+      "label": "NCT04023227 · PARACHUTE-HF 샤가스 심근병증 시험",
+      "nct": "NCT04023227"
+    },
+    {
+      "label": "Lopes 2026 · JAMA · 샤가스 심부전 사쿠비트릴·발사르탄 RCT",
+      "pmid": "41335448"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT04023227 current results: cardiovascular composite and HF hospitalization by sacubitril/valsartan/enalapril",
+    "pubmed": "PMID41335448; PARACHUTE-HF sacubitril valsartan versus enalapril Chagas cardiomyopathy",
+    "negative": "sacubitril valsartan Chagas AND (no significant difference OR failed)",
+    "safety": "sacubitril valsartan AND (hypotension OR renal OR potassium)"
+  },
+  "effect": "NT-proBNP 비율 0.68; 승률 1.52",
+  "known": "label",
+  "knownWhy": "사쿠비트릴·발사르탄은 박출률 저하 심부전의 허가 치료제이며 샤가스 심근병증 결과는 원인별 근거로 따로 봐야 합니다.",
+  "vs": "사쿠비트릴·발사르탄 vs 에날라프릴: 922명 RCT에서 12주 NT-proBNP 중앙 감소율은 30.6% vs 5.5%, 계층적 승률은 1.52(95% CI 1.28~1.82; P<.001)였습니다."
+}

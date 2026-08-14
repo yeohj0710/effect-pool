@@ -1,0 +1,36 @@
+{
+  "id": "sarilumab-corona-virus-infection-null",
+  "subj": "사릴루맙",
+  "claim": "사릴루맙은 입원 코로나19 환자의 임상 호전을 유의하게 앞당기지 못했다",
+  "line": "입원 코로나19에서 임상 호전을 유의하게 앞당기지 못했습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 420,
+  "synth": "single",
+  "why": "중증 또는 위중 코로나19 입원 환자를 사릴루맙 200mg·400mg 또는 위약에 무작위 배정한 이중눈가림 3상 시험을 확인했습니다.",
+  "saw": "420명이 무작위 배정됐습니다. 29일까지 임상상태 2점 이상 호전까지 중앙값은 위약 12일, 사릴루맙 200mg 10일, 400mg 10일이었고 위약 대비 HR은 1.026(95% CI 0.751~1.402), 1.135(0.835~1.543)로 유의하지 않았습니다.",
+  "limit": "중증도와 스테로이드 사용에 따라 결과가 달랐고 입원 환자군에 국한됩니다.",
+  "against": "감염 중 면역조절제 사용은 이차감염·간기능·호중구를 확인해야 합니다.",
+  "use": "입원 코로나19에서 사릴루맙의 임상효과가 확인되지 않았다는 무작위시험 결과로 설명합니다.",
+  "refs": [
+    {
+      "label": "NCT04327388 · 입원 코로나19 사릴루맙 3상 시험 결과",
+      "nct": "NCT04327388"
+    },
+    {
+      "label": "Lescure 2021 · Lancet Respir Med · 사릴루맙 코로나19 3상 RCT",
+      "pmid": "33676590"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT04327388 current results: time to clinical improvement and day-29 survival",
+    "pubmed": "PMID33676590; sarilumab severe critical COVID-19 randomized placebo trial",
+    "negative": "sarilumab COVID-19 AND (no efficacy OR no significant difference OR failed)",
+    "safety": "sarilumab AND (infection OR neutropenia OR liver)"
+  },
+  "effect": "호전 HR 1.026·1.135",
+  "known": "off",
+  "knownWhy": "사릴루맙은 류마티스관절염 치료제이며 코로나19 치료는 별도 임상시험 근거로만 판단해야 합니다.",
+  "vs": "사릴루맙 200mg·400mg vs 위약: 입원 코로나19 420명 RCT에서 임상 호전 HR은 1.026(95% CI 0.751~1.402), 1.135(0.835~1.543)였고 P=.96, .34였습니다."
+}

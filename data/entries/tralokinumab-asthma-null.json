@@ -1,0 +1,36 @@
+{
+  "id": "tralokinumab-asthma-null",
+  "subj": "트랄로키누맙",
+  "claim": "트랄로키누맙은 중증 조절되지 않는 천식의 악화를 일관되게 줄이지 못했다",
+  "line": "중증 천식 악화 감소가 두 3상 시험에서 재현되지 않았습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 1207,
+  "synth": "single",
+  "why": "흡입 스테로이드와 장기지속 베타2 작용제에도 조절되지 않는 중증 천식 환자를 트랄로키누맙 또는 위약에 무작위 배정한 STRATOS 1·2 3상 시험을 확인했습니다.",
+  "saw": "STRATOS 1에서 전체군 300mg 2주 간격의 연간 악화율비는 0.93(95% CI 0.72~1.21; P=.59)으로 유의하지 않았습니다. FeNO 고위험군에서는 0.56(0.34~0.94)이었지만 STRATOS 2에서는 0.84(0.53~1.34; P=.47)로 재현되지 않았습니다.",
+  "limit": "바이오마커 하위군과 전체군의 결과가 달랐고 두 시험에서 일관된 임상효과가 확인되지 않았습니다.",
+  "against": "중증 천식의 기본 흡입치료를 대체하지 않으며 생물학적 제제 선택은 바이오마커와 허가 기준을 따릅니다.",
+  "use": "트랄로키누맙의 천식 악화 효과가 재현되지 않았다는 3상 근거로 설명합니다.",
+  "refs": [
+    {
+      "label": "NCT02161757 · STRATOS 1 트랄로키누맙 천식 3상 결과",
+      "nct": "NCT02161757"
+    },
+    {
+      "label": "Panettieri 2018 · Lancet Respir Med · STRATOS 1·2 RCT",
+      "pmid": "29792288"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT02161757 current results: annualized asthma exacerbation rate by tralokinumab/placebo groups",
+    "pubmed": "PMID29792288; STRATOS tralokinumab severe uncontrolled asthma phase 3 trials",
+    "negative": "tralokinumab asthma AND (did not significantly reduce OR inconsistent OR failed)",
+    "safety": "tralokinumab asthma AND (adverse OR safety)"
+  },
+  "effect": "악화율비 0.93·0.84",
+  "known": "off",
+  "knownWhy": "트랄로키누맙은 중증 천식의 연구용 항IL-13 항체이며 조절되지 않는 천식의 허가 표준치료가 아닙니다.",
+  "vs": "트랄로키누맙 vs 위약: STRATOS 1 전체군 악화율비는 0.93(95% CI 0.72~1.21; P=.59), STRATOS 2 FeNO 고위험군은 0.84(0.53~1.34; P=.47)였습니다."
+}

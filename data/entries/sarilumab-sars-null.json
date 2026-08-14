@@ -1,0 +1,36 @@
+{
+  "id": "sarilumab-sars-null",
+  "subj": "사릴루맙",
+  "claim": "사릴루맙은 염증성 코로나19 입원 환자의 호흡부전 진행을 유의하게 줄이지 못했다",
+  "line": "염증성 코로나19에서 호흡부전 감소가 유의하지 않았습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 120,
+  "synth": "single",
+  "why": "염증 수치가 높은 코로나19 입원 환자를 표준치료, 표준치료·사릴루맙 200mg, 표준치료·사릴루맙 400mg에 무작위 배정한 SARICOR 시험을 확인했습니다.",
+  "saw": "115명이 분석됐고 대조군 39명, 200mg군 37명, 400mg군 39명이었습니다. 28일 급성호흡곤란증후군 진행은 28%, 27%, 13%였고 400mg 대조군 HR은 0.41(95% CI 0.14~1.18; P=.09)였습니다.",
+  "limit": "공개형 소규모 2상 시험이며 사망 차이도 유의하지 않았습니다.",
+  "against": "코로나19 중증도와 표준치료가 결과에 영향을 주며 감염·간기능·호중구를 확인해야 합니다.",
+  "use": "사릴루맙 400mg의 초기 신호는 있으나 코로나19 호흡부전 예방 효과가 확립되지 않았다고 설명합니다.",
+  "refs": [
+    {
+      "label": "NCT04357860 · SARICOR 코로나19 사릴루맙 시험",
+      "nct": "NCT04357860"
+    },
+    {
+      "label": "Merchante 2022 · Antimicrob Agents Chemother · SARICOR RCT",
+      "pmid": "34902262"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT04357860 current protocol and results status",
+    "pubmed": "PMID34902262; SARICOR sarilumab COVID-19 randomized controlled trial",
+    "negative": "sarilumab COVID-19 ARDS AND (no significant OR failed OR not effective)",
+    "safety": "sarilumab AND (infection OR neutropenia OR liver)"
+  },
+  "effect": "ARDS HR 0.41; P=.09",
+  "known": "off",
+  "knownWhy": "사릴루맙은 류마티스관절염 치료제이며 코로나19 호흡부전 예방은 허가 적응증이 아닙니다.",
+  "vs": "사릴루맙 400mg+표준치료 vs 표준치료: SARICOR 115명 분석에서 28일 ARDS 진행은 13% vs 28%, HR 0.41(95% CI 0.14~1.18; P=.09)로 유의하지 않았습니다."
+}

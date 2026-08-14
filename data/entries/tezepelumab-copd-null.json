@@ -1,0 +1,36 @@
+{
+  "id": "tezepelumab-copd-null",
+  "subj": "테제펠루맙",
+  "claim": "테제펠루맙은 중등도 이상 COPD 악화를 유의하게 줄이지 못했다",
+  "line": "COPD 악화율을 유의하게 줄이지 못했습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 337,
+  "synth": "single",
+  "why": "삼중 흡입치료에도 악화가 반복되는 중등도에서 매우 중증 COPD 환자를 테제펠루맙 또는 위약에 무작위 배정한 COURSE 2상 시험을 확인했습니다.",
+  "saw": "333명이 치료됐고 테제펠루맙 165명, 위약 168명이었습니다. 52주 중등도·중증 COPD 악화율은 1.75회/년과 2.11회/년, 악화율비는 0.83(90% CI 0.64~1.06; P=.10)으로 일차 결과를 충족하지 못했습니다.",
+  "limit": "호산구 수치가 높은 하위군에서 신호가 있었지만 사전 지정 하위군 결과의 불확실성이 남았습니다.",
+  "against": "COPD 흡입치료를 대체하지 않으며 폐렴·감염 등 이상반응을 확인해야 합니다.",
+  "use": "COPD 악화 예방 효과가 확인되지 않았다는 2상 결과로 설명합니다.",
+  "refs": [
+    {
+      "label": "NCT04039113 · COURSE COPD 테제펠루맙 2상 시험 결과",
+      "nct": "NCT04039113"
+    },
+    {
+      "label": "Singh 2025 · Lancet Respir Med · COURSE 무작위시험",
+      "pmid": "39653044"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT04039113 current results: annualized COPD exacerbation rate",
+    "pubmed": "PMID39653044; COURSE tezepelumab COPD placebo randomized trial",
+    "negative": "tezepelumab COPD AND (primary endpoint not met OR no significant reduction)",
+    "safety": "tezepelumab COPD AND (adverse OR serious adverse OR death)"
+  },
+  "effect": "악화율비 0.83; P=.10",
+  "known": "off",
+  "knownWhy": "테제펠루맙은 천식 치료제로 개발된 항체이며 COPD 악화 예방은 허가 적응증이 아닙니다.",
+  "vs": "테제펠루맙 vs 위약: COPD 333명 RCT에서 52주 악화율은 1.75 vs 2.11회/년, 악화율비 0.83(90% CI 0.64~1.06; P=.10)으로 유의하지 않았습니다."
+}
