@@ -1,32 +1,38 @@
 {
- "id": "fermented-dairy-respiratory-infections-pos",
- "subj": "발효 유제품",
- "claim": "건강한 성인의 상기도감염 예방에 Lacticaseibacillus 발효유를 쓴다",
- "line": "28일간 발효유를 마신 군에서 상기도감염 발생률·증상이 낮았다.",
- "effect": "상기도감염 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 200,
- "synth": "single",
- "known": "off",
- "knownWhy": "발효유는 식품 중재이며 상기도감염 예방 약물의 허가 적응증이 아닙니다.",
- "why": "건강한 일본 직장인 200명을 대상으로 한 이중맹검 무작위시험에서 Lacticaseibacillus가 든 발효유가 비발효유보다 상기도감염을 줄였습니다.",
- "saw": "참여자들은 28일 동안 Lacticaseibacillus paracasei가 든 발효유 또는 비발효유를 마셨습니다. 발효유군에서 상기도감염 발생률과 증상 중증도가 낮았고 14일 이후 차이가 두드러졌습니다.",
- "limit": "건강한 성인 직장인 대상의 겨울철 단일시험이며 감염은 설문으로 조사했습니다.",
- "against": "어린이 196명 대상 프로바이오틱 요구르트 시험에서는 일일 상기도 증상 발생의 군 간 차이가 유의하지 않았습니다.",
- "use": "상기도감염 예방을 위한 식품 선택지로 연구할 수 있지만 예방접종과 감염 관리 방법을 대체하지 않습니다.",
- "refs": [
-  {
-   "label": "Nakamura 2025 · Bioscience of Microbiota, Food and Health · 발효유 상기도감염 무작위시험",
-   "doi": "10.12938/bmfh.2025-004",
-   "pmid": "40636156"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "fermented dairy AND Respiratory Infections · 8건 반환, 결과 보고 1건",
-  "pubmed": "fermented dairy AND Respiratory Infections · 26편",
-  "negative": "fermented dairy AND Respiratory Infections AND (no effect OR did not OR failed OR no significant difference) · 22편",
-  "safety": "fermented dairy AND (adverse OR toxicity OR case report OR harm) · 571편"
- }
+  "id": "fermented-dairy-respiratory-infections-pos",
+  "subj": "발효 유제품",
+  "claim": "건강한 성인의 상기도감염 예방에 Lacticaseibacillus 발효유를 쓴다",
+  "line": "28일간 발효유를 마신 군에서 상기도감염 발생률·증상이 낮았다.",
+  "effect": "상기도감염 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 200,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "발효유는 식품 중재이며 상기도감염 예방 약물의 허가 적응증이 아닙니다.",
+  "why": "건강한 일본 직장인 200명을 대상으로 한 이중맹검 무작위시험에서 Lacticaseibacillus가 든 발효유가 비발효유보다 상기도감염을 줄였습니다.",
+  "saw": "참여자들은 28일 동안 Lacticaseibacillus paracasei가 든 발효유 또는 비발효유를 마셨습니다. 발효유군에서 상기도감염 발생률과 증상 중증도가 낮았고 14일 이후 차이가 두드러졌습니다.",
+  "limit": "건강한 성인 직장인 대상의 겨울철 단일시험이며 감염은 설문으로 조사했습니다.",
+  "against": "어린이 196명 대상 프로바이오틱 요구르트 시험에서는 일일 상기도 증상 발생의 군 간 차이가 유의하지 않았습니다.",
+  "use": "상기도감염 예방을 위한 식품 선택지로 연구할 수 있지만 예방접종과 감염 관리 방법을 대체하지 않습니다.",
+  "refs": [
+    {
+      "label": "Nakamura 2025 · Bioscience of Microbiota, Food and Health · 발효유 상기도감염 무작위시험",
+      "doi": "10.12938/bmfh.2025-004",
+      "pmid": "40636156"
+    },
+    {
+      "label": "Effect of probiotic fermented dairy products on incidence of respiratory tract infections: a systematic review and meta-analysis of randomized clinical trials",
+      "doi": "10.1186/s12937-021-00718-0",
+      "pmid": "34183001"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "fermented dairy AND Respiratory Infections · 8건 반환, 결과 보고 1건",
+    "pubmed": "fermented dairy AND Respiratory Infections · 26편",
+    "negative": "fermented dairy AND Respiratory Infections AND (no effect OR did not OR failed OR no significant difference) · 22편",
+    "safety": "fermented dairy AND (adverse OR toxicity OR case report OR harm) · 571편"
+  },
+  "vs": "프로바이오틱 발효유제품 vs placebo: 호흡기 감염 RR=.81(95% CI .74~.89; 22개 RCT, 10,190명), 상기도감염 RR=.83(.73~.93), 폐렴 RR=.76(.61~.95)"
 }

@@ -1,32 +1,33 @@
 {
- "id": "food-as-medicine-postpartum-depression-pos",
- "subj": "음식 처방",
- "claim": "식량 불안이 있는 산모에게 식품 처방을 제공하면 산후 우울 증상이 줄 수 있다",
- "line": "식량 불안이 있는 산모에서 식품 처방 뒤 산후 우울 증상이 줄었다.",
- "effect": "산후 우울 34.7%→13%",
- "tier": "obs",
- "dir": "pos",
- "n": 125,
- "synth": "single",
- "known": "off",
- "knownWhy": "식품 처방은 의약품이 아닌 영양·사회적 지원 중재입니다",
- "why": "저소득 임산부에게 신선식품 꾸러미·영양상담·돌봄 연계를 제공한 FreshRx 단일군 전후 연구입니다",
- "saw": "125명이 참여했고 기저 우울 증상은 34.7%였습니다. 60일 산후 평가를 마친 45명 중 우울 증상 비율은 13%로 낮아졌습니다",
- "limit": "대조군이 없는 전후 연구이고 산후 평가자는 45명뿐이며 식품·상담·돌봄 연계의 개별 효과를 나눌 수 없습니다",
- "against": "산후 우울을 식품 처방만으로 치료할 수 있다는 결과가 아니며 중증 증상은 정신건강 진료가 필요합니다",
- "use": "식량 불안이 있는 산모의 우울 지원에 식품 처방을 보조로 연결하고 산후 우울 선별과 치료 연계를 함께 제공합니다",
- "refs": [
-  {
-   "label": "Improving Maternal Health and Birth Outcomes Through FreshRx 2025 · American Journal of Health Promotion",
-   "doi": "10.1177/08901171241249278",
-   "pmid": "38670549"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=food as medicine AND condition=Postpartum Depression; 3건 반환, 중재명 일치 0건",
-  "pubmed": "food as medicine AND Postpartum Depression; 307편",
-  "negative": "food as medicine AND Postpartum Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 202편",
-  "safety": "food as medicine AND Postpartum Depression AND (adverse OR toxicity OR case report OR harm OR dropout); 79편"
- }
+  "id": "food-as-medicine-postpartum-depression-pos",
+  "subj": "음식 처방",
+  "claim": "식량 불안이 있는 산모에게 식품 처방을 제공하면 산후 우울 증상이 줄 수 있다",
+  "line": "식량 불안이 있는 산모에서 식품 처방 뒤 산후 우울 증상이 줄었다.",
+  "effect": "산후 우울 34.7%→13%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 125,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식품 처방은 의약품이 아닌 영양·사회적 지원 중재입니다",
+  "why": "저소득 임산부에게 신선식품 꾸러미·영양상담·돌봄 연계를 제공한 FreshRx 단일군 전후 연구입니다",
+  "saw": "125명이 참여했고 기저 우울 증상은 34.7%였습니다. 60일 산후 평가를 마친 45명 중 우울 증상 비율은 13%로 낮아졌습니다",
+  "limit": "대조군이 없는 전후 연구이고 산후 평가자는 45명뿐이며 식품·상담·돌봄 연계의 개별 효과를 나눌 수 없습니다",
+  "against": "산후 우울을 식품 처방만으로 치료할 수 있다는 결과가 아니며 중증 증상은 정신건강 진료가 필요합니다",
+  "use": "식량 불안이 있는 산모의 우울 지원에 식품 처방을 보조로 연결하고 산후 우울 선별과 치료 연계를 함께 제공합니다",
+  "refs": [
+    {
+      "label": "Improving Maternal Health and Birth Outcomes Through FreshRx 2025 · American Journal of Health Promotion",
+      "doi": "10.1177/08901171241249278",
+      "pmid": "38670549"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=food as medicine AND condition=Postpartum Depression; 3건 반환, 중재명 일치 0건",
+    "pubmed": "food as medicine AND Postpartum Depression; 307편",
+    "negative": "food as medicine AND Postpartum Depression AND (no effect OR did not OR failed to OR negative OR no significant difference); 202편",
+    "safety": "food as medicine AND Postpartum Depression AND (adverse OR toxicity OR case report OR harm OR dropout); 79편"
+  },
+  "vs": "FreshRx 음식 처방 전 vs 산후 60일: 임상적으로 유의한 우울 증상 34.7%→13.3%(−21.4%p; paired 자료 45명, 단일군 전후 연구)"
 }
