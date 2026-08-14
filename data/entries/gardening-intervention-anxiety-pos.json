@@ -1,32 +1,38 @@
 {
- "id": "gardening-intervention-anxiety-pos",
- "subj": "원예 중재",
- "claim": "원예 활동은 불안을 줄일 가능성이 있다",
- "line": "자연 기반 중재에서 원예와 녹색활동 뒤 불안이 낮아졌다.",
- "effect": "불안 점수 개선",
- "tier": "trial",
- "dir": "pos",
- "n": null,
- "synth": "meta",
- "known": "off",
- "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
- "why": "성인의 원예·녹색운동·자연 기반 중재를 비교한 체계적 문헌고찰과 무작위시험 종합",
- "saw": "50개 연구 중 16개 무작위시험을 종합해 자연 기반 중재의 불안 효과크기를 -0.94로 보고했다",
- "limit": "원예만 떼어낸 효과와 적정 용량이 불명확하고 중재 유형이 다양하다",
- "against": "신체 건강 결과의 개선 근거는 정신건강 결과보다 적었다",
- "use": "불안 관리에서 원예·녹색활동을 보조적 비약물 선택지로 검토할 수 있다",
- "refs": [
-  {
-   "label": "자연 기반 야외활동 정신·신체 건강 메타분석",
-   "doi": "10.1016/j.ssmph.2021.100934",
-   "pmid": "34646931"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=gardening intervention · cond=Anxiety 0건 반환, 물질 일치 0건",
-  "pubmed": "gardening intervention AND Anxiety 329건",
-  "negative": "gardening intervention AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) 174건",
-  "safety": "gardening intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 2404건"
- }
+  "id": "gardening-intervention-anxiety-pos",
+  "subj": "원예 중재",
+  "claim": "원예 활동은 불안을 줄일 가능성이 있다",
+  "line": "자연 기반 중재에서 원예와 녹색활동 뒤 불안이 낮아졌다.",
+  "effect": "불안 점수 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
+  "why": "성인의 원예·녹색운동·자연 기반 중재를 비교한 체계적 문헌고찰과 무작위시험 종합",
+  "saw": "50개 연구 중 16개 무작위시험을 종합해 자연 기반 중재의 불안 효과크기를 -0.94로 보고했다",
+  "limit": "원예만 떼어낸 효과와 적정 용량이 불명확하고 중재 유형이 다양하다",
+  "against": "신체 건강 결과의 개선 근거는 정신건강 결과보다 적었다",
+  "use": "불안 관리에서 원예·녹색활동을 보조적 비약물 선택지로 검토할 수 있다",
+  "refs": [
+    {
+      "label": "자연 기반 야외활동 정신·신체 건강 메타분석",
+      "doi": "10.1016/j.ssmph.2021.100934",
+      "pmid": "34646931"
+    },
+    {
+      "label": "Efficacy of horticultural therapy on symptoms and functional outcomes in individuals with depressive disorders: A systematic review and meta-analysis of randomized controlled trials",
+      "doi": "10.1016/j.ctim.2025.103229",
+      "pmid": "40783111"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=gardening intervention · cond=Anxiety 0건 반환, 물질 일치 0건",
+    "pubmed": "gardening intervention AND Anxiety 329건",
+    "negative": "gardening intervention AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) 174건",
+    "safety": "gardening intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 2404건"
+  },
+  "vs": "원예치료 vs 대조: 불안 Hedges g=.702(95% CI .341~1.062; 13개 RCT, 960명 메타분석)"
 }

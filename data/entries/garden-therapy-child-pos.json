@@ -1,36 +1,37 @@
 {
- "id": "garden-therapy-child-pos",
- "subj": "원예 치료",
- "claim": "정원 치료는 아토피 피부염 아동의 우울 증상과 피부 중증도에 도움이 될 수 있다",
- "line": "아토피 피부염 아동에서 정원 치료 뒤 우울·피부 중증도가 낮아졌다.",
- "effect": "우울·SCORAD 감소",
- "tier": "obs",
- "dir": "pos",
- "n": 30,
- "synth": "single",
- "known": "off",
- "knownWhy": "정원 치료는 허가 의약품 적응증이 아닌 비약물 중재입니다",
- "why": "서울 도시 정원에서 아토피 피부염 아동 30명과 보호자가 15회기 치료적 원예 프로그램에 참여했습니다. 아동의 우울 점수와 SCORAD가 프로그램 전후로 유의하게 줄었습니다.",
- "limit": "아동 결과는 대조군 없는 사전·사후 분석이고 한 명이 탈락해 29명을 분석했으며, TEWL 변화는 유의하지 않았습니다.",
- "against": "보호자 무작위 배정 연구지만 아동에게는 별도 대조군이 없어 정원 활동만의 효과인지 확인하기 어렵습니다.",
- "use": "아토피 피부염 아동의 정서·가족 보조 프로그램으로 검토하되 피부 치료를 대신하지 않습니다.",
- "refs": [
-  {
-   "label": "Effect of therapeutic gardening program in urban gardens on mental health of children and caregivers with atopic dermatitis",
-   "doi": "10.3390/healthcare12090919",
-   "pmid": "38727476"
+  "id": "garden-therapy-child-pos",
+  "subj": "원예 치료",
+  "claim": "정원 치료는 아토피 피부염 아동의 우울 증상과 피부 중증도에 도움이 될 수 있다",
+  "line": "아토피 피부염 아동에서 정원 치료 뒤 우울·피부 중증도가 낮아졌다.",
+  "effect": "우울·SCORAD 감소",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 30,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "정원 치료는 허가 의약품 적응증이 아닌 비약물 중재입니다",
+  "why": "서울 도시 정원에서 아토피 피부염 아동 30명과 보호자가 15회기 치료적 원예 프로그램에 참여했습니다. 아동의 우울 점수와 SCORAD가 프로그램 전후로 유의하게 줄었습니다.",
+  "limit": "아동 결과는 대조군 없는 사전·사후 분석이고 한 명이 탈락해 29명을 분석했으며, TEWL 변화는 유의하지 않았습니다.",
+  "against": "보호자 무작위 배정 연구지만 아동에게는 별도 대조군이 없어 정원 활동만의 효과인지 확인하기 어렵습니다.",
+  "use": "아토피 피부염 아동의 정서·가족 보조 프로그램으로 검토하되 피부 치료를 대신하지 않습니다.",
+  "refs": [
+    {
+      "label": "Effect of therapeutic gardening program in urban gardens on mental health of children and caregivers with atopic dermatitis",
+      "doi": "10.3390/healthcare12090919",
+      "pmid": "38727476"
+    },
+    {
+      "label": "The Effect of Gardening Activities on Anxiety and Psychosocial Symptoms of Hospitalized Children",
+      "nct": "NCT06655961"
+    }
+  ],
+  "saw": "아동 우울 점수는 0.34에서 0.26으로 24.44% 줄었고 p=0.033, SCORAD는 18.38에서 12.76으로 30.57% 줄었고 p=0.025였습니다.",
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "garden therapy AND Child · 12건 반환; 관련 등록은 NCT06655961의 Garden Activities Program으로 표기",
+    "pubmed": "garden therapy AND Child AND (randomized OR trial OR meta-analysis) · 149건",
+    "negative": "garden therapy AND Child AND (no effect OR did not OR failed OR negative OR no significant difference) · 208건",
+    "safety": "garden therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1221건"
   },
-  {
-   "label": "The Effect of Gardening Activities on Anxiety and Psychosocial Symptoms of Hospitalized Children",
-   "nct": "NCT06655961"
-  }
- ],
- "saw": "아동 우울 점수는 0.34에서 0.26으로 24.44% 줄었고 p=0.033, SCORAD는 18.38에서 12.76으로 30.57% 줄었고 p=0.025였습니다.",
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "garden therapy AND Child · 12건 반환; 관련 등록은 NCT06655961의 Garden Activities Program으로 표기",
-  "pubmed": "garden therapy AND Child AND (randomized OR trial OR meta-analysis) · 149건",
-  "negative": "garden therapy AND Child AND (no effect OR did not OR failed OR negative OR no significant difference) · 208건",
-  "safety": "garden therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1221건"
- }
+  "vs": "치료적 원예 프로그램 vs 비참여 대조: 보호자 우울 65.52% 감소, 불안 60.19% 감소, 스트레스 24.58% 감소; 보호자 MHS:D d=1.08, MHS:A d=1.16, PSS d=1.01(중재 보호자 29명·대조 30명); 아동 SCORAD 18.38±17.84→12.76±14.80(−30.57%, p=.025; 아동은 단일군 전후)"
 }
