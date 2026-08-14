@@ -1,6 +1,6 @@
 {
   "id": "remimazolam-delirium-null",
-  "subj": "remimazolam",
+  "subj": "레미마졸람",
   "claim": "수술 후 섬망 위험을 줄이려고 레미마졸람을 쓴다",
   "line": "수술 후 섬망은 레미마졸람과 프로포폴 사이에 차이가 없었습니다.",
   "effect": "섬망 OR 0.74·유의하지 않음",
@@ -16,9 +16,21 @@
   "against": "정형외과 노인 320명 무작위시험에서는 섬망이 레미마졸람 15.6%, 프로포폴 12.4%로 유의한 차이가 없었습니다.",
   "use": "섬망 예방약으로 단정하지 말고, 혈역학적 이점과 환자 위험을 함께 고려해 마취제를 선택합니다.",
   "refs": [
-    { "label": "remimazolam postoperative delirium cognitive function meta-analysis", "doi": "10.4097/kja.24493", "pmid": "39748753" },
-    { "label": "remimazolam postoperative delirium meta-analysis", "doi": "10.1016/j.jclinane.2024.111735", "pmid": "39832842" },
-    { "label": "remimazolam orthopedic surgery delirium randomized trial", "doi": "10.2147/DDDT.S392569", "pmid": "36712948" }
+    {
+      "label": "remimazolam postoperative delirium cognitive function meta-analysis",
+      "doi": "10.4097/kja.24493",
+      "pmid": "39748753"
+    },
+    {
+      "label": "remimazolam postoperative delirium meta-analysis",
+      "doi": "10.1016/j.jclinane.2024.111735",
+      "pmid": "39832842"
+    },
+    {
+      "label": "remimazolam orthopedic surgery delirium randomized trial",
+      "doi": "10.2147/DDDT.S392569",
+      "pmid": "36712948"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -26,5 +38,6 @@
     "pubmed": "remimazolam AND Delirium AND (randomized OR trial OR meta-analysis) · 111건",
     "negative": "remimazolam AND Delirium AND (no effect OR did not OR failed OR negative OR no significant difference) · 124건",
     "safety": "remimazolam AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 757건"
-  }
+  },
+  "vs": "수술·시술 RCT 메타분석(n=1,295)에서 레미마졸람 vs 프로포폴 섬망 8.0% vs 10.4%, OR=0.74(95% CI 0.39~1.42), p=.369; 저혈압 OR=0.28(0.21~0.37)"
 }
