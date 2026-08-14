@@ -1,30 +1,40 @@
 {
-  "id": "dopamine-renal-function-null",
-  "subj": "도파민",
-  "claim": "도파민의 소변량 증가 작용을 급성 신손상 예방에 썼지만 신장 보호 효과는 없었다",
-  "line": "저용량 도파민은 소변량만 늘렸고 신장 기능은 보호하지 못했습니다.",
-  "effect": "소변량만 일시 증가, 신장 보호 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 3359,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "저용량 도파민을 신장 보호 목적으로 쓰는 것은 도파민의 허가 적응증이 아닙니다.",
-  "why": "도파민의 신장 혈류·이뇨 작용을 급성 신손상 예방과 치료에 전환했지만 임상적 신장 보호로 이어지지 않은 대표적인 무효 사례입니다.",
-  "saw": "61개 무작위·준무작위시험 3359명 메타분석에서 저용량 도파민은 1일 소변량을 24% 늘렸지만 사망 RR 0.96, 신대체요법 RR 0.93으로 유의한 이득이 없었습니다. 15개 시험 970명 분석에서도 급성 신기능 저하 31% 대 33%로 차이가 없었습니다.",
-  "limit": "시험의 급성질환과 투여 시점이 달랐고 소변량 같은 생리 지표와 환자중요 결과가 일치하지 않았습니다.",
-  "against": "심부전 6개 무작위시험과 1개 관찰연구 587명 메타분석에서는 eGFR·소변량이 좋아졌지만 사망·재입원은 줄지 않았습니다.",
-  "use": "이뇨라는 약리작용을 신장 보호로 확장했지만 임상 이득이 없었던 사례로 표시합니다.",
-  "refs": [
-    { "label": "저용량 도파민 61개 시험 메타분석", "pmid": "15809463" },
-    { "label": "저용량 도파민 15개 시험 신장 보호 메타분석", "pmid": "12122525" },
-    { "label": "중환자 저용량 도파민 근거 고찰", "pmid": "12684320" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=dopamine · cond=Renal Function → 14건 반환, 물질 대조 후 9건",
-    "pubmed": "dopamine AND Renal Function → 3610편",
-    "negative": "dopamine AND Renal Function AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2672편",
-    "safety": "dopamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 33297편"
+ "id": "dopamine-renal-function-null",
+ "subj": "도파민",
+ "claim": "도파민의 소변량 증가 작용을 급성 신손상 예방에 썼지만 신장 보호 효과는 없었다",
+ "line": "저용량 도파민은 소변량만 늘렸고 신장 기능은 보호하지 못했습니다.",
+ "effect": "소변량만 일시 증가, 신장 보호 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 3359,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "저용량 도파민을 신장 보호 목적으로 쓰는 것은 도파민의 허가 적응증이 아닙니다.",
+ "why": "도파민의 신장 혈류·이뇨 작용을 급성 신손상 예방과 치료에 전환했지만 임상적 신장 보호로 이어지지 않은 대표적인 무효 사례입니다.",
+ "saw": "61개 무작위·준무작위시험 3359명 메타분석에서 저용량 도파민은 1일 소변량을 24% 늘렸지만 사망 RR 0.96, 신대체요법 RR 0.93으로 유의한 이득이 없었습니다. 15개 시험 970명 분석에서도 급성 신기능 저하 31% 대 33%로 차이가 없었습니다.",
+ "limit": "시험의 급성질환과 투여 시점이 달랐고 소변량 같은 생리 지표와 환자중요 결과가 일치하지 않았습니다.",
+ "against": "심부전 6개 무작위시험과 1개 관찰연구 587명 메타분석에서는 eGFR·소변량이 좋아졌지만 사망·재입원은 줄지 않았습니다.",
+ "use": "이뇨라는 약리작용을 신장 보호로 확장했지만 임상 이득이 없었던 사례로 표시합니다.",
+ "refs": [
+  {
+   "label": "저용량 도파민 61개 시험 메타분석",
+   "pmid": "15809463"
+  },
+  {
+   "label": "저용량 도파민 15개 시험 신장 보호 메타분석",
+   "pmid": "12122525"
+  },
+  {
+   "label": "중환자 저용량 도파민 근거 고찰",
+   "pmid": "12684320"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=dopamine · cond=Renal Function → 14건 반환, 물질 대조 후 9건",
+  "pubmed": "dopamine AND Renal Function → 3610편",
+  "negative": "dopamine AND Renal Function AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2672편",
+  "safety": "dopamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 33297편"
+ },
+ "vs": "저용량 도파민 vs 위약 또는 무처치: 급성 신부전 위험군 61개 RCT 3,359명에서 사망 RR 0.96(95% CI 0.78~1.19), 신대체요법 RR 0.93(0.76~1.15), 이상반응 RR 1.13(0.90~1.41), 1일째 소변량 24% 증가(14%~35%)."
 }

@@ -1,29 +1,39 @@
 {
-  "id": "dornase-alfa-covid-19-null",
-  "subj": "도르나제 알파",
-  "claim": "COVID-19 급성호흡곤란증후군에 도르나제 알파를 흡입한다",
-  "line": "삽관한 COVID-19 환자에서 도르나제 알파의 7일 개선은 표준치료보다 낮았습니다.",
-  "effect": "ARDS 호전 18% vs 29%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 77,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "도르나제 알파는 낭성섬유증의 폐기능 관리에 허가됐지만 COVID-19는 허가 적응증이 아닙니다.",
-  "why": "호중구 세포외 덫의 DNA를 분해해 COVID-19 급성호흡곤란증후군의 점액과 폐 염증을 줄이려 한 무작위시험입니다.",
-  "saw": "다기관 공개 무작위시험에서 삽관된 COVID-19 급성호흡곤란증후군 환자 77명을 표준치료와 도르나제 알파 병용에 배정했습니다. 7일 급성호흡곤란증후군 중증도 개선은 도르나제 알파군 18%, 표준치료군 29%였고 28일 사망과 인공호흡기 없는 날도 차이가 없었습니다.",
-  "limit": "공개시험이고 흡입 약물의 생체이용률 한계가 제기됐습니다.",
-  "against": "별도 무작위시험 76명에서도 입원 중 저산소증 개선이 없었고, 두 시험에서 임상 결과 우월성이 확인되지 않았습니다.",
-  "use": "COVID-19 치료로 도르나제 알파를 추가하지 않으며, 임상시험 밖의 일상 사용 근거가 없음을 기록합니다.",
-  "refs": [
-    { "label": "COVID-19 ARDS 도르나제 알파 다기관 무작위시험", "doi": "10.1038/s41598-025-20832-x", "pmid": "41125713", "nct": "NCT04355364" },
-    { "label": "COVID-19 중증 호흡부전 도르나제 알파 무작위시험", "doi": "10.1093/ofid/ofaf246", "pmid": "40365079" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=dornase alfa, cond=COVID-19 · 11건",
-    "pubmed": "dornase alfa AND COVID-19 · 19편",
-    "negative": "dornase alfa AND COVID-19 AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3편",
-    "safety": "dornase alfa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 81편"
+ "id": "dornase-alfa-covid-19-null",
+ "subj": "도르나제 알파",
+ "claim": "COVID-19 급성호흡곤란증후군에 도르나제 알파를 흡입한다",
+ "line": "삽관한 COVID-19 환자에서 도르나제 알파의 7일 개선은 표준치료보다 낮았습니다.",
+ "effect": "ARDS 호전 18% vs 29%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 77,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "도르나제 알파는 낭성섬유증의 폐기능 관리에 허가됐지만 COVID-19는 허가 적응증이 아닙니다.",
+ "why": "호중구 세포외 덫의 DNA를 분해해 COVID-19 급성호흡곤란증후군의 점액과 폐 염증을 줄이려 한 무작위시험입니다.",
+ "saw": "다기관 공개 무작위시험에서 삽관된 COVID-19 급성호흡곤란증후군 환자 77명을 표준치료와 도르나제 알파 병용에 배정했습니다. 7일 급성호흡곤란증후군 중증도 개선은 도르나제 알파군 18%, 표준치료군 29%였고 28일 사망과 인공호흡기 없는 날도 차이가 없었습니다.",
+ "limit": "공개시험이고 흡입 약물의 생체이용률 한계가 제기됐습니다.",
+ "against": "별도 무작위시험 76명에서도 입원 중 저산소증 개선이 없었고, 두 시험에서 임상 결과 우월성이 확인되지 않았습니다.",
+ "use": "COVID-19 치료로 도르나제 알파를 추가하지 않으며, 임상시험 밖의 일상 사용 근거가 없음을 기록합니다.",
+ "refs": [
+  {
+   "label": "COVID-19 ARDS 도르나제 알파 다기관 무작위시험",
+   "doi": "10.1038/s41598-025-20832-x",
+   "pmid": "41125713",
+   "nct": "NCT04355364"
+  },
+  {
+   "label": "COVID-19 중증 호흡부전 도르나제 알파 무작위시험",
+   "doi": "10.1093/ofid/ofaf246",
+   "pmid": "40365079"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=dornase alfa, cond=COVID-19 · 11건",
+  "pubmed": "dornase alfa AND COVID-19 · 19편",
+  "negative": "dornase alfa AND COVID-19 AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3편",
+  "safety": "dornase alfa AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 81편"
+ },
+ "vs": "도르나제 알파 vs 표준치료: COVID-19 ARDS RCT 77명(39명 vs 38명)에서 ARDS 호전 18% vs 29%, 보정 OR 0.33(95% CI 0.09~1.14; P=.11), 이상반응 38.5% vs 31.6%."
 }

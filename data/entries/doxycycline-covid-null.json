@@ -1,36 +1,37 @@
 {
-  "id": "doxycycline-covid-null",
-  "subj": "독시사이클린",
-  "claim": "독시사이클린이 코로나19에 듣는다",
-  "line": "고위험 외래 COVID에서 독시사이클린은 회복과 입원을 개선하지 못했습니다.",
-  "effect": "회복 0.5일 차이",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1792,
-  "synth": "single",
-  "why": "독시사이클린의 허가사항에는 코로나19 치료가 없습니다. 고위험 지역사회 환자를 대상으로 한 대규모 무작위 플랫폼 시험을 우선 근거로 확인했습니다.",
-  "saw": "고위험 코로나19 의심 환자 중 독시사이클린과 일반진료를 비교한 1,792명 분석에서 회복까지 시간은 9.6일 대 10.1일로 차이가 작았고 입원·사망도 임상적으로 줄지 않았습니다.",
-  "limit": "개방형 플랫폼 시험이고 독시사이클린 배정 비교군의 결과를 사용했습니다. 다른 항생제 병용 연구나 병원 중증 환자 결과와 섞을 수 없습니다.",
-  "against": "반대 검색 44건에서 회복·입원·사망의 유의한 개선이 없고 무익성 기준으로 배정을 중단한 결과를 확인했습니다. 다른 소규모 시험은 반대 방향의 신호를 보고했습니다.",
-  "use": "코로나19 일상 치료로 독시사이클린을 확대할 근거는 부족하며, 상반된 소규모 결과보다 대규모 무작위 결과를 우선해야 합니다.",
-  "refs": [
-    {
-      "label": "2021 · PRINCIPLE 코로나19 독시사이클린 무작위 플랫폼시험",
-      "doi": "10.1016/S2213-2600(21)00310-6",
-      "pmid": "34329624"
-    },
-    {
-      "label": "2023 · 코로나19 중증 진행 예방 독시사이클린 무작위시험",
-      "doi": "10.1371/journal.pone.0280745",
-      "pmid": "36689456"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"DOXYCYCLINE\" → 240건 반환; 코로나19 적응증 없음",
-    "ctgov": "query.intr=doxycycline&query.cond=COVID&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 3건",
-    "pubmed": "doxycycline AND \"COVID\" → 239건",
-    "negative": "doxycycline AND \"COVID\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 44건",
-    "safety": "doxycycline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,674건"
+ "id": "doxycycline-covid-null",
+ "subj": "독시사이클린",
+ "claim": "독시사이클린이 코로나19에 듣는다",
+ "line": "고위험 외래 COVID에서 독시사이클린은 회복과 입원을 개선하지 못했습니다.",
+ "effect": "회복 0.5일 차이",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1792,
+ "synth": "single",
+ "why": "독시사이클린의 허가사항에는 코로나19 치료가 없습니다. 고위험 지역사회 환자를 대상으로 한 대규모 무작위 플랫폼 시험을 우선 근거로 확인했습니다.",
+ "saw": "고위험 코로나19 의심 환자 중 독시사이클린과 일반진료를 비교한 1,792명 분석에서 회복까지 시간은 9.6일 대 10.1일로 차이가 작았고 입원·사망도 임상적으로 줄지 않았습니다.",
+ "limit": "개방형 플랫폼 시험이고 독시사이클린 배정 비교군의 결과를 사용했습니다. 다른 항생제 병용 연구나 병원 중증 환자 결과와 섞을 수 없습니다.",
+ "against": "반대 검색 44건에서 회복·입원·사망의 유의한 개선이 없고 무익성 기준으로 배정을 중단한 결과를 확인했습니다. 다른 소규모 시험은 반대 방향의 신호를 보고했습니다.",
+ "use": "코로나19 일상 치료로 독시사이클린을 확대할 근거는 부족하며, 상반된 소규모 결과보다 대규모 무작위 결과를 우선해야 합니다.",
+ "refs": [
+  {
+   "label": "2021 · PRINCIPLE 코로나19 독시사이클린 무작위 플랫폼시험",
+   "doi": "10.1016/S2213-2600(21)00310-6",
+   "pmid": "34329624"
+  },
+  {
+   "label": "2023 · 코로나19 중증 진행 예방 독시사이클린 무작위시험",
+   "doi": "10.1371/journal.pone.0280745",
+   "pmid": "36689456"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"DOXYCYCLINE\" → 240건 반환; 코로나19 적응증 없음",
+  "ctgov": "query.intr=doxycycline&query.cond=COVID&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 3건",
+  "pubmed": "doxycycline AND \"COVID\" → 239건",
+  "negative": "doxycycline AND \"COVID\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 44건",
+  "safety": "doxycycline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,674건"
+ },
+ "vs": "독시사이클린+일반치료 vs 일반치료: COVID-19 외래 RCT 1,792명에서 회복 중앙값 9.6일 vs 10.1일, HR 1.04(95% CI 0.93~1.17), 입원·사망 5.3% vs 4.5%, 절대차 -0.5%(-2.6~1.4)."
 }

@@ -1,31 +1,32 @@
 {
-  "id": "duloxetine-breast-cancer-pos",
-  "subj": "둘록세틴",
-  "claim": "항우울제를 유방암 파클리탁셀 신경병증에 쓴다",
-  "line": "파클리탁셀 치료 중 유방암 환자에서 둘록세틴은 신경병증을 줄였다.",
-  "effect": "신경병증 8/23 vs 16/24",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 47,
-  "synth": "single",
-  "why": "파클리탁셀 치료 중인 유방암 환자를 둘록세틴과 위약에 무작위로 나눈 시험입니다.",
-  "saw": "환자 47명에서 새 신경병증은 둘록세틴군 23명 중 8명, 위약군 24명 중 16명이었고 신경병증과 통증 점수도 더 낮았습니다.",
-  "limit": "단일 소규모 시험이며 파클리탁셀 관련 신경병증에 한정된 결과라 다른 항암제나 암종에 일반화하기 어렵습니다.",
-  "against": "반대 검색 18건. 표본이 작고 후속 재현 자료가 제한되어 장기 신경 보호 효과는 불확실합니다.",
-  "use": "파클리탁셀 치료 중 유방암 환자의 말초신경병증 감소 신호를 보여주는 무작위 근거입니다.",
-  "refs": [
-    {
-      "label": "Khan 2024 · Support Care Cancer · 유방암 신경병증 RCT",
-      "doi": "10.1007/s00520-024-08669-y",
-      "pmid": "38976095"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA generic_name:DULOXETINE → 132건, 우울증·불안·당뇨병성 신경병증 등 허가; 항암제 신경병증 예방은 비허가",
-    "ctgov": "query.intr=duloxetine&query.cond=Breast Cancer → 6건 반환, InterventionName 대조 후 3건",
-    "pubmed": "duloxetine Breast Cancer → 58건",
-    "negative": "duloxetine Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 18건",
-    "safety": "duloxetine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,718건"
+ "id": "duloxetine-breast-cancer-pos",
+ "subj": "둘록세틴",
+ "claim": "항우울제를 유방암 파클리탁셀 신경병증에 쓴다",
+ "line": "파클리탁셀 치료 중 유방암 환자에서 둘록세틴은 신경병증을 줄였다.",
+ "effect": "신경병증 8/23 vs 16/24",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 47,
+ "synth": "single",
+ "why": "파클리탁셀 치료 중인 유방암 환자를 둘록세틴과 위약에 무작위로 나눈 시험입니다.",
+ "saw": "환자 47명에서 새 신경병증은 둘록세틴군 23명 중 8명, 위약군 24명 중 16명이었고 신경병증과 통증 점수도 더 낮았습니다.",
+ "limit": "단일 소규모 시험이며 파클리탁셀 관련 신경병증에 한정된 결과라 다른 항암제나 암종에 일반화하기 어렵습니다.",
+ "against": "반대 검색 18건. 표본이 작고 후속 재현 자료가 제한되어 장기 신경 보호 효과는 불확실합니다.",
+ "use": "파클리탁셀 치료 중 유방암 환자의 말초신경병증 감소 신호를 보여주는 무작위 근거입니다.",
+ "refs": [
+  {
+   "label": "Khan 2024 · Support Care Cancer · 유방암 신경병증 RCT",
+   "doi": "10.1007/s00520-024-08669-y",
+   "pmid": "38976095"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA generic_name:DULOXETINE → 132건, 우울증·불안·당뇨병성 신경병증 등 허가; 항암제 신경병증 예방은 비허가",
+  "ctgov": "query.intr=duloxetine&query.cond=Breast Cancer → 6건 반환, InterventionName 대조 후 3건",
+  "pubmed": "duloxetine Breast Cancer → 58건",
+  "negative": "duloxetine Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 18건",
+  "safety": "duloxetine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,718건"
+ },
+ "vs": "둘록세틴 vs 위약: 파클리탁셀 유발 신경병증 예방 RCT 47명(23명 vs 24명)에서 새 신경병증 8/23 vs 16/24(P=.029)."
 }

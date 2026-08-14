@@ -1,29 +1,36 @@
 {
-  "id": "domperidone-dyspepsia-pos",
-  "subj": "돔페리돈",
-  "claim": "위장운동을 촉진하는 돔페리돈은 기능성 소화불량에 사용하는가",
-  "line": "돔페리돈은 기능성 소화불량의 전반적 증상을 개선했을 가능성이 있습니다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "돔페리돈은 국가별 항구토·위장운동 적응증과 허가 범위가 다르며 기능성 소화불량 병용은 별도 판단이 필요합니다.",
-  "why": "도파민 차단과 위 배출 촉진 작용을 조기포만·상복부 불편감·오심에 이용한다는 주장입니다.",
-  "saw": "위약대조 연구 메타분석에서 돔페리돈 8개 연구 중 4개를 전반적 호전 분석에 포함했고, 연구자 평가 전반적 호전의 OR은 7.0(95% CI 3.6–16)이었습니다.",
-  "limit": "분석에 포함된 연구 수가 적고 전반적 호전이 연구자 평가에 의존했으며, 심장 안전성 자료가 충분하지 않습니다.",
-  "against": "기능성 소화불량 환자에서 QT 연장·심실성 부정맥 위험을 평가해야 하며 심장질환과 상호작용 약물은 중요한 제한입니다.",
-  "use": "식이·PPI 등 기본 치료 후에도 증상이 지속될 때 심혈관 위험을 확인해 전문의가 제한적으로 판단합니다.",
-  "effect": "전반적 호전 OR 7.0",
-  "refs": [
-    { "label": "Holtmann 2001 · 기능성 소화불량 돔페리돈 메타분석", "pmid": "11280535" },
-    { "label": "기능성 소화불량 위장운동촉진제 네트워크 메타분석", "pmid": "37907846" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=domperidone, cond=Dyspepsia · 7건 중 7건 직접 확인",
-    "pubmed": "domperidone AND Dyspepsia · 163건",
-    "negative": "domperidone AND Dyspepsia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 124건",
-    "safety": "domperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 833건"
+ "id": "domperidone-dyspepsia-pos",
+ "subj": "돔페리돈",
+ "claim": "위장운동을 촉진하는 돔페리돈은 기능성 소화불량에 사용하는가",
+ "line": "돔페리돈은 기능성 소화불량의 전반적 증상을 개선했을 가능성이 있습니다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "돔페리돈은 국가별 항구토·위장운동 적응증과 허가 범위가 다르며 기능성 소화불량 병용은 별도 판단이 필요합니다.",
+ "why": "도파민 차단과 위 배출 촉진 작용을 조기포만·상복부 불편감·오심에 이용한다는 주장입니다.",
+ "saw": "위약대조 연구 메타분석에서 돔페리돈 8개 연구 중 4개를 전반적 호전 분석에 포함했고, 연구자 평가 전반적 호전의 OR은 7.0(95% CI 3.6–16)이었습니다.",
+ "limit": "분석에 포함된 연구 수가 적고 전반적 호전이 연구자 평가에 의존했으며, 심장 안전성 자료가 충분하지 않습니다.",
+ "against": "기능성 소화불량 환자에서 QT 연장·심실성 부정맥 위험을 평가해야 하며 심장질환과 상호작용 약물은 중요한 제한입니다.",
+ "use": "식이·PPI 등 기본 치료 후에도 증상이 지속될 때 심혈관 위험을 확인해 전문의가 제한적으로 판단합니다.",
+ "effect": "전반적 호전 OR 7.0",
+ "refs": [
+  {
+   "label": "Holtmann 2001 · 기능성 소화불량 돔페리돈 메타분석",
+   "pmid": "11280535"
+  },
+  {
+   "label": "기능성 소화불량 위장운동촉진제 네트워크 메타분석",
+   "pmid": "37907846"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=domperidone, cond=Dyspepsia · 7건 중 7건 직접 확인",
+  "pubmed": "domperidone AND Dyspepsia · 163건",
+  "negative": "domperidone AND Dyspepsia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 124건",
+  "safety": "domperidone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 833건"
+ },
+ "vs": "돔페리돈 vs 위약: 기능성 소화불량 메타분석 8개 연구 중 4개 연구의 완전 분석에서 증상 호전 OR 7.0(95% CI 3.6~16)."
 }
