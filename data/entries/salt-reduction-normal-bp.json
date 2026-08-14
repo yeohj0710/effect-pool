@@ -1,30 +1,31 @@
 {
-  "id": "salt-reduction-normal-bp",
-  "subj": "소금 줄이기",
-  "claim": "혈압 정상인에게도 이득이 있다",
-  "line": "정상혈압 성인에서도 나트륨을 줄이면 혈압이 소폭 낮아졌습니다.",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "정상혈압에서도 혈압 소폭↓",
-  "n": 3230,
-  "synth": "meta",
-  "why": "식이 나트륨을 줄인 군과 평소 식사를 비교한 무작위시험의 코크란 검토입니다.",
-  "saw": "정상혈압 참가자에서도 나트륨 감소가 수축기와 이완기 혈압을 작게 낮추는 방향으로 나타났습니다.",
-  "limit": "혈압 변화가 개인의 기저 식사, 신장 기능과 나트륨 민감도에 따라 달랐고 심혈관 사건을 직접 측정한 시험은 적습니다.",
-  "against": "일부 단기 시험에서는 정상혈압군의 변화가 작거나 통계적으로 뚜렷하지 않았습니다.",
-  "use": "혈압이 정상이라고 소금 제한 효과가 전혀 없다고 보거나, 반대로 모든 사람에게 같은 폭의 감소를 기대하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "He 2013 · BMJ · 장기 소금 감소 혈압 코크란 검토",
-      "doi": "10.1136/bmj.f1325",
-      "pmid": "23558162"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=salt reduction, cond=normotensive blood pressure → 1건 반환, InterventionName 대조 후 1건",
-    "pubmed": "salt reduction normotensive blood pressure randomized trial meta-analysis → 20건",
-    "negative": "salt reduction normotensive blood pressure AND (no effect OR did not OR failed to OR negative) → 321건",
-    "safety": "salt reduction sodium AND (adverse OR hyponatremia OR case report) → 1,795건"
+ "id": "salt-reduction-normal-bp",
+ "subj": "소금 줄이기",
+ "claim": "혈압 정상인에게도 이득이 있다",
+ "line": "정상혈압 성인에서도 나트륨을 줄이면 혈압이 소폭 낮아졌습니다.",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "정상혈압에서도 혈압 소폭↓",
+ "n": 3230,
+ "synth": "meta",
+ "why": "식이 나트륨을 줄인 군과 평소 식사를 비교한 무작위시험의 코크란 검토입니다.",
+ "saw": "정상혈압 참가자에서도 나트륨 감소가 수축기와 이완기 혈압을 작게 낮추는 방향으로 나타났습니다.",
+ "limit": "혈압 변화가 개인의 기저 식사, 신장 기능과 나트륨 민감도에 따라 달랐고 심혈관 사건을 직접 측정한 시험은 적습니다.",
+ "against": "일부 단기 시험에서는 정상혈압군의 변화가 작거나 통계적으로 뚜렷하지 않았습니다.",
+ "use": "혈압이 정상이라고 소금 제한 효과가 전혀 없다고 보거나, 반대로 모든 사람에게 같은 폭의 감소를 기대하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "He 2013 · BMJ · 장기 소금 감소 혈압 코크란 검토",
+   "doi": "10.1136/bmj.f1325",
+   "pmid": "23558162"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=salt reduction, cond=normotensive blood pressure → 1건 반환, InterventionName 대조 후 1건",
+  "pubmed": "salt reduction normotensive blood pressure randomized trial meta-analysis → 20건",
+  "negative": "salt reduction normotensive blood pressure AND (no effect OR did not OR failed to OR negative) → 321건",
+  "safety": "salt reduction sodium AND (adverse OR hyponatremia OR case report) → 1,795건"
+ },
+ "vs": "상대 효과: 소금 줄이기 vs 평소 소금 섭취 정상혈압군 수축기 혈압 평균 변화 -2.42 mmHg (95% CI -3.56~-1.29), 이완기 -1.00 mmHg (-1.85~-0.15); 고혈압군 수축기 -5.39 mmHg (-6.62~-4.15), 이완기 -2.82 mmHg (-3.54~-2.11)"
 }

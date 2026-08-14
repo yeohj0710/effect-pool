@@ -1,28 +1,33 @@
 {
-  "id": "self-compassion-intervention-depression-pos",
-  "subj": "self-compassion intervention",
-  "claim": "자기연민 중재를 포함한 연민중심치료는 우울 증상을 줄였다",
-  "line": "자기연민·연민중심치료는 우울을 소폭 개선했습니다.",
-  "effect": "우울 효과크기 0.24~0.25",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "자기연민 중재는 비약물 심리치료이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "연민중심치료 무작위시험과 예비시험을 임상군 대상으로 체계적으로 종합했다.",
-  "saw": "15개 연구에서 연민중심치료가 대조군보다 우울 증상과 자기연민 관련 결과를 개선했고, 우울 효과크기는 0.24~0.25였다.",
-  "limit": "15개 연구 중 7개는 방법론적 정보가 불충분했고 장기 효과가 부족했다.",
-  "against": "연민중심치료 전체의 결과를 특정 우울장애 하위군에 그대로 적용할 수 없다.",
-  "use": "우울 증상 심리치료의 보조 선택지로 검토하되 표준 치료를 대체하지 않는다.",
-  "refs": [
-    { "label": "임상군 연민중심치료 체계적 문헌고찰·메타분석", "doi": "10.1016/j.jad.2023.01.010", "pmid": "36649790" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=self-compassion intervention AND condition=Depression; 79건",
-    "pubmed": "self-compassion intervention AND Depression; 1173건",
-    "negative": "self-compassion intervention AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 469건",
-    "safety": "self-compassion intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 343건"
+ "id": "self-compassion-intervention-depression-pos",
+ "subj": "자기연민 중재",
+ "claim": "자기연민 중재를 포함한 연민중심치료는 우울 증상을 줄였다",
+ "line": "자기연민·연민중심치료는 우울을 소폭 개선했습니다.",
+ "effect": "우울 효과크기 0.24~0.25",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "자기연민 중재는 비약물 심리치료이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "연민중심치료 무작위시험과 예비시험을 임상군 대상으로 체계적으로 종합했다.",
+ "saw": "15개 연구에서 연민중심치료가 대조군보다 우울 증상과 자기연민 관련 결과를 개선했고, 우울 효과크기는 0.24~0.25였다.",
+ "limit": "15개 연구 중 7개는 방법론적 정보가 불충분했고 장기 효과가 부족했다.",
+ "against": "연민중심치료 전체의 결과를 특정 우울장애 하위군에 그대로 적용할 수 없다.",
+ "use": "우울 증상 심리치료의 보조 선택지로 검토하되 표준 치료를 대체하지 않는다.",
+ "refs": [
+  {
+   "label": "임상군 연민중심치료 체계적 문헌고찰·메타분석",
+   "doi": "10.1016/j.jad.2023.01.010",
+   "pmid": "36649790"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=self-compassion intervention AND condition=Depression; 79건",
+  "pubmed": "self-compassion intervention AND Depression; 1173건",
+  "negative": "self-compassion intervention AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 469건",
+  "safety": "self-compassion intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 343건"
+ },
+ "vs": "상대 효과: 연민초점치료 vs 대기목록 대조군 우울 증상 효과크기 0.24~0.25; 자기연민 효과크기 0.19~0.90, 자기비판 0.15~0.72 (15개 연구 체계적 문헌고찰·메타분석)"
 }

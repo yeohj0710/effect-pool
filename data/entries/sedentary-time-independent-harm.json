@@ -1,31 +1,32 @@
 {
-  "id": "sedentary-time-independent-harm",
-  "subj": "앉아 있는 시간",
-  "claim": "운동을 해도 따로 해롭다",
-  "line": "운동량을 보정해도 오래 앉을수록 전체 사망 위험이 높았습니다.",
-  "tier": "obs",
-  "dir": "pos",
-  "effect": "전체 사망 위험↑",
-  "n": 36383,
-  "synth": "meta",
-  "why": "앉아 있는 시간과 신체활동을 함께 측정해 전체 사망을 추적한 전향적 코호트 통합분석입니다.",
-  "saw": "가속도계로 측정한 여러 코호트에서 앉아 있는 시간이 긴 사람의 전체 사망 위험이 높았고 신체활동량을 보정한 뒤에도 연관성이 남았습니다.",
-  "limit": "관찰연구라 질병으로 인한 비활동과 생활습관 교란을 완전히 제거하지 못하며 심혈관 사건보다 전체 사망 자료가 중심입니다.",
-  "against": "충분한 중강도·고강도 활동을 한 사람에서는 앉아 있는 시간의 추가 위험이 줄어드는 양상이 보고됐습니다.",
-  "use": "운동을 한 번 했다는 이유로 하루 종일 앉아 있는 위험이 사라진다고 보면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Ekelund 2019 · BMJ · 신체활동·좌식시간 사망률 통합분석",
-      "doi": "10.1136/bmj.l4570",
-      "pmid": "31434697",
-      "pmc": "PMC6699591"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=sedentary behavior, cond=cardiovascular mortality exercise → 2건 반환, InterventionName 대조 후 0건",
-    "pubmed": "sedentary time exercise independent cardiovascular mortality cohort meta-analysis → 7건",
-    "negative": "sedentary behavior exercise independent AND (no effect OR did not OR failed to OR negative) → 1,161건",
-    "safety": "sedentary behavior AND (adverse OR cardiovascular OR mortality OR case report) → 6,604건"
+ "id": "sedentary-time-independent-harm",
+ "subj": "앉아 있는 시간",
+ "claim": "운동을 해도 따로 해롭다",
+ "line": "운동량을 보정해도 오래 앉을수록 전체 사망 위험이 높았습니다.",
+ "tier": "obs",
+ "dir": "pos",
+ "effect": "전체 사망 위험↑",
+ "n": 36383,
+ "synth": "meta",
+ "why": "앉아 있는 시간과 신체활동을 함께 측정해 전체 사망을 추적한 전향적 코호트 통합분석입니다.",
+ "saw": "가속도계로 측정한 여러 코호트에서 앉아 있는 시간이 긴 사람의 전체 사망 위험이 높았고 신체활동량을 보정한 뒤에도 연관성이 남았습니다.",
+ "limit": "관찰연구라 질병으로 인한 비활동과 생활습관 교란을 완전히 제거하지 못하며 심혈관 사건보다 전체 사망 자료가 중심입니다.",
+ "against": "충분한 중강도·고강도 활동을 한 사람에서는 앉아 있는 시간의 추가 위험이 줄어드는 양상이 보고됐습니다.",
+ "use": "운동을 한 번 했다는 이유로 하루 종일 앉아 있는 위험이 사라진다고 보면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Ekelund 2019 · BMJ · 신체활동·좌식시간 사망률 통합분석",
+   "doi": "10.1136/bmj.l4570",
+   "pmid": "31434697",
+   "pmc": "PMC6699591"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=sedentary behavior, cond=cardiovascular mortality exercise → 2건 반환, InterventionName 대조 후 0건",
+  "pubmed": "sedentary time exercise independent cardiovascular mortality cohort meta-analysis → 7건",
+  "negative": "sedentary behavior exercise independent AND (no effect OR did not OR failed to OR negative) → 1,161건",
+  "safety": "sedentary behavior AND (adverse OR cardiovascular OR mortality OR case report) → 6,604건"
+ },
+ "vs": "상대 효과: 좌식시간 최저 사분위 vs 최고 사분위 전체 사망 HR 2.63 (95% CI 1.94~3.56); 신체활동 총량 최고 vs 최저 사분위 HR 0.27 (0.23~0.32)"
 }
