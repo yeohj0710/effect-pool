@@ -32,7 +32,7 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "Worklist 15542/15542 checked. Batch 1444 re-audited the final 6 non-prescription parked topics: the ketoconazole topic gained a narrowly scoped cancer-associated oral-candidiasis prevention entry, while 5 topics remain parked without a qualifying result for the scoped topic."
+    "note": "Worklist 15542/15542 checked. Batch 1445 rechecked the final 5 non-prescription parked topics; none had a qualifying ClinicalTrials.gov/PubMed controlled numeric result or valid relative effect for the scoped topic, so all 5 remain parked."
   },
   "backlog": {
     "vs_missing": 1357,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": "coenzyme-q10-becker-muscular-dystrophy-open",
     "parked_non_prescription_topics": 5,
-    "note": "No unprocessed prescription parked topics remain. Batch 1444 screened all 6 remaining non-prescription parked topics; 5 remain parked. Continue with coenzyme-q10-becker-muscular-dystrophy-open at worklist resume line 20866."
+    "note": "No unprocessed prescription parked topics remain. The final 5 screened non-prescription topics remain parked after batch 1445. Continue with coenzyme-q10-becker-muscular-dystrophy-open at worklist resume line 20871."
   },
   "checkpoints": {
     "over_counter_share": "17.5% (1,097 entries)",
@@ -60,29 +60,25 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "No unprocessed prescription parked topics remain; continue the non-prescription re-audit with coenzyme-q10-becker-muscular-dystrophy-open; 5 screened non-prescription topics remain parked; no unprocessed non-open vs_missing candidates or targeted legacy warnings remain.",
+  "next": "No unprocessed prescription parked topics remain; the final 5 screened non-prescription topics remain parked after re-audit; continue with coenzyme-q10-becker-muscular-dystrophy-open; no unprocessed non-open vs_missing candidates or targeted legacy warnings remain.",
   "last_batch": {
-    "id": "1444",
-    "commit": "0385f4de",
+    "id": "1445",
+    "commit": "456d4c6f",
     "pushed": true,
-    "expansion_commit": "0385f4de",
-    "maintenance": false,
-    "processed_topics": 6,
-    "new_entries": 1,
+    "expansion_commit": "456d4c6f",
+    "maintenance": true,
+    "processed_topics": 5,
+    "new_entries": 0,
     "existing_links": 0,
     "no_evidence_rejects": 0,
-    "non_prescription_topics_available": 6,
-    "non_prescription_topics_processed": 6,
+    "non_prescription_topics_available": 5,
+    "non_prescription_topics_processed": 5,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 5,
     "build": "6282 entries; 8736 refs; 5458 trial; 729 obs; 31 animal; 17 lab; 47 case; 3967 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed and ClinicalTrials.gov records were rechecked for all 6 remaining non-prescription parked topics. One ketoconazole topic gained a narrowly scoped cancer-associated oral-candidiasis prevention entry based on a randomized PubMed trial and a PubMed network meta-analysis. Five topics remain parked because no controlled numeric result was found for the scoped intervention and condition; sevasemten and salvia studies were not misclassified as CoQ10 or saffron.",
-    "qualified_topics": [
-      "ketoconazole-solid-tumors-null"
-    ],
-    "qualified_entry_ids": [
-      "ketoconazole-solid-tumors-null"
-    ],
+    "research": "ClinicalTrials.gov and PubMed records were rechecked for the final 5 non-prescription parked topics. The Becker study search found sevasemten but no CoQ10 intervention; glioma and saffron registrations had no posted results; PubMed cognitive results lacked a numeric between-group effect or used a different intervention; the saffron ulcerative-colitis and periodontal abstracts did not provide a numeric intervention-versus-control result. No data was fabricated.",
+    "qualified_topics": [],
+    "qualified_entry_ids": [],
     "screened_topics": [
       "coenzyme-q10-becker-muscular-dystrophy-open",
       "ketoconazole-glioma-null",
@@ -93,7 +89,6 @@
     "topics": [
       "coenzyme-q10-becker-muscular-dystrophy-open",
       "ketoconazole-glioma-null",
-      "ketoconazole-solid-tumors-null",
       "quercetin-cognitive-decline-open",
       "saffron-periodontal-pocket-open",
       "saffron-ulcerative-colitis-open"
@@ -114,11 +109,11 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 5,
-    "next_official_deployment_check": "after batch 1444"
+    "next_official_deployment_check": "after batch 1445"
   },
   "resume": {
-    "next_batch": "1445",
-    "worklist_line": 20866,
+    "next_batch": "1446",
+    "worklist_line": 20871,
     "topic": "coenzyme-q10-becker-muscular-dystrophy-open",
     "unchecked": 0
   }
