@@ -1,28 +1,33 @@
 {
-  "id": "motivational-enhancement-smoking-pos",
-  "subj": "motivational enhancement therapy",
-  "claim": "동기강화 면담을 흡연자의 금연에 쓴다",
-  "line": "동기강화 면담은 흡연자에서 금연 가능성을 높였습니다",
-  "effect": "금연 OR 1.45",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 9485,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 심리 중재로 의약품 허가 적응증이 없습니다",
-  "why": "동기강화 면담 또는 동기강화 중재를 포함한 흡연 금연 무작위시험 31개를 분석했습니다.",
-  "saw": "9,485명에서 동기강화 면담군이 대조군보다 금연 가능성이 높았습니다(OR 1.45, 95% CI 1.14–1.83).",
-  "limit": "시험별 대상과 중재 전달 방식이 다르고 비교군도 다양했습니다.",
-  "against": "모든 흡연자에서 효과가 같은지는 직접 비교되지 않았습니다.",
-  "use": "흡연자가 금연 이유와 실행 계획을 스스로 말하도록 돕는 상담으로 검토합니다.",
-  "refs": [
-    { "label": "motivational interviewing smoking cessation meta-analysis", "doi": "10.1136/tc.2009.033175", "pmid": "20675688" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "motivational enhancement therapy AND Smoking · 2건",
-    "pubmed": "motivational enhancement therapy AND Smoking AND (randomized OR trial OR meta-analysis) · 477건",
-    "negative": "motivational enhancement therapy AND Smoking AND (no effect OR did not OR failed OR negative OR no significant difference) · 530건",
-    "safety": "motivational enhancement therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 781건"
+ "id": "motivational-enhancement-smoking-pos",
+ "subj": "동기강화치료",
+ "claim": "동기강화 면담을 흡연자의 금연에 쓴다",
+ "line": "동기강화 면담은 흡연자에서 금연 가능성을 높였습니다",
+ "effect": "금연 OR 1.45",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 9485,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 심리 중재로 의약품 허가 적응증이 없습니다",
+ "why": "동기강화 면담 또는 동기강화 중재를 포함한 흡연 금연 무작위시험 31개를 분석했습니다.",
+ "saw": "9,485명에서 동기강화 면담군이 대조군보다 금연 가능성이 높았습니다(OR 1.45, 95% CI 1.14–1.83).",
+ "limit": "시험별 대상과 중재 전달 방식이 다르고 비교군도 다양했습니다.",
+ "against": "모든 흡연자에서 효과가 같은지는 직접 비교되지 않았습니다.",
+ "use": "흡연자가 금연 이유와 실행 계획을 스스로 말하도록 돕는 상담으로 검토합니다.",
+ "refs": [
+  {
+   "label": "motivational interviewing smoking cessation meta-analysis",
+   "doi": "10.1136/tc.2009.033175",
+   "pmid": "20675688"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "motivational enhancement therapy AND Smoking · 2건",
+  "pubmed": "motivational enhancement therapy AND Smoking AND (randomized OR trial OR meta-analysis) · 477건",
+  "negative": "motivational enhancement therapy AND Smoking AND (no effect OR did not OR failed OR negative OR no significant difference) · 530건",
+  "safety": "motivational enhancement therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 781건"
+ },
+ "vs": "군 간 차이: MI vs 대조 금연 성공 OR 1.45 (95% CI 1.14~1.83)"
 }

@@ -1,28 +1,35 @@
 {
-  "id": "mobile-mindfulness-intervention-depression-pos",
-  "subj": "mobile mindfulness intervention",
-  "claim": "중환자실 생존자의 우울 증상을 줄인다",
-  "line": "하루 2회 앱 마음챙김은 PHQ-9를 낮췄습니다",
-  "effect": "PHQ-9 1.2점 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 247,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 디지털 심리 개입이라 의약품 허가 적응증이 아님",
-  "why": "중환자실 생존자 247명을 8개 요인 조합에 무작위 배정한 모바일 마음챙김 최적화 시험입니다.",
-  "saw": "하루 2회 명상군이 하루 1회보다 1개월 PHQ-9 추정 평균 점수가 1.2점 낮았고 3개월에도 1.5점 낮았습니다.",
-  "limit": "개입 구성 요소를 비교한 요인시험이라 모바일 앱 도입 자체의 단독 효과는 분리되지 않았습니다.",
-  "against": "앱 도입 방식과 증상 악화 관리 방식은 PHQ-9에 주효과가 없었습니다.",
-  "use": "모바일 마음챙김의 빈도에 따른 우울 신호를 기록합니다.",
-  "refs": [
-    { "label": "Cox 2024 · JAMA Internal Medicine · 무작위 임상시험", "doi": "10.1001/jamainternmed.2024.0823", "pmid": "38805199", "pmc": "PMC11134280", "nct": "NCT04038567" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=mobile mindfulness intervention AND query.cond=Depression · 65건 반환 · InterventionName 완전일치 0건",
-    "pubmed": "\"mobile mindfulness intervention\" AND \"Depression\"[Title/Abstract] · 5건",
-    "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 1건(PMID42456167)",
-    "safety": "\"mobile mindfulness intervention\" AND (adverse OR toxicity OR harm OR safety OR case report) · 0건"
+ "id": "mobile-mindfulness-intervention-depression-pos",
+ "subj": "모바일 마음챙김 중재",
+ "claim": "중환자실 생존자의 우울 증상을 줄인다",
+ "line": "하루 2회 앱 마음챙김은 PHQ-9를 낮췄습니다",
+ "effect": "PHQ-9 1.2점 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 247,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 디지털 심리 개입이라 의약품 허가 적응증이 아님",
+ "why": "중환자실 생존자 247명을 8개 요인 조합에 무작위 배정한 모바일 마음챙김 최적화 시험입니다.",
+ "saw": "하루 2회 명상군이 하루 1회보다 1개월 PHQ-9 추정 평균 점수가 1.2점 낮았고 3개월에도 1.5점 낮았습니다.",
+ "limit": "개입 구성 요소를 비교한 요인시험이라 모바일 앱 도입 자체의 단독 효과는 분리되지 않았습니다.",
+ "against": "앱 도입 방식과 증상 악화 관리 방식은 PHQ-9에 주효과가 없었습니다.",
+ "use": "모바일 마음챙김의 빈도에 따른 우울 신호를 기록합니다.",
+ "refs": [
+  {
+   "label": "Cox 2024 · JAMA Internal Medicine · 무작위 임상시험",
+   "doi": "10.1001/jamainternmed.2024.0823",
+   "pmid": "38805199",
+   "pmc": "PMC11134280",
+   "nct": "NCT04038567"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=mobile mindfulness intervention AND query.cond=Depression · 65건 반환 · InterventionName 완전일치 0건",
+  "pubmed": "\"mobile mindfulness intervention\" AND \"Depression\"[Title/Abstract] · 5건",
+  "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 1건(PMID42456167)",
+  "safety": "\"mobile mindfulness intervention\" AND (adverse OR toxicity OR harm OR safety OR case report) · 0건"
+ },
+ "vs": "군 간 차이: 2회/일 vs 1회/일 PHQ-9 1개월 추정 평균 1.2점 낮음 (95% CI 0.04~2.4), 3개월 1.5점 낮음 (0.1~2.8)"
 }

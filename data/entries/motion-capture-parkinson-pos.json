@@ -1,28 +1,32 @@
 {
-  "id": "motion-capture-parkinson-pos",
-  "subj": "motion capture",
-  "claim": "동작 포착을 파킨슨병 보행 평가에 쓴다",
-  "line": "동작 포착 신발은 파킨슨병 보행 측정값을 검증했습니다",
-  "effect": "파킨슨병 17명·대조 15명",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 32,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "동작 포착 기반 원격 보행 측정은 파킨슨병의 허가 적응증이 아닌 평가 연구입니다",
-  "why": "스마트 신발의 보행 측정값을 Vicon 동작 포착 시스템과 비교해 파킨슨병 환자와 건강 대조군에서 검증한 관찰 연구입니다",
-  "saw": "파킨슨병 17명과 연령·성별을 맞춘 건강인 15명이 걸었습니다. 스마트 신발이 산출한 시공간 보행 지표를 Vicon 기준 시스템과 비교하고 진동 피드백 중에도 일치도를 평가했습니다",
-  "limit": "치료 효과가 아닌 측정 타당도 연구이고 32명 표본입니다. 스마트 신발 측정이 증상 개선을 뜻하지는 않습니다",
-  "against": "건강 대조군과 파킨슨병의 측정 차이가 실제 일상 보행 변화를 모두 설명하지는 않습니다",
-  "use": "파킨슨병 보행은 동작 포착 측정값과 임상 증상을 따로 기록합니다",
-  "refs": [
-    { "label": "Smart shoe system for gait analysis in Parkinson's disease · 검증 연구", "doi": "10.3390/s26144446", "pmid": "42515329" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"motion capture\" AND \"Parkinson\" → 6건 반환, intervention 이름 대조 통과 1건",
-    "pubmed": "\"motion capture\" AND \"Parkinson\" → 234건, PMID 42515329 직접 검증 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 34건",
-    "safety": "\"motion capture\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 175건"
+ "id": "motion-capture-parkinson-pos",
+ "subj": "동작 분석",
+ "claim": "동작 포착을 파킨슨병 보행 평가에 쓴다",
+ "line": "동작 포착 신발은 파킨슨병 보행 측정값을 검증했습니다",
+ "effect": "파킨슨병 17명·대조 15명",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 32,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "동작 포착 기반 원격 보행 측정은 파킨슨병의 허가 적응증이 아닌 평가 연구입니다",
+ "why": "스마트 신발의 보행 측정값을 Vicon 동작 포착 시스템과 비교해 파킨슨병 환자와 건강 대조군에서 검증한 관찰 연구입니다",
+ "saw": "파킨슨병 17명과 연령·성별을 맞춘 건강인 15명이 걸었습니다. 스마트 신발이 산출한 시공간 보행 지표를 Vicon 기준 시스템과 비교하고 진동 피드백 중에도 일치도를 평가했습니다",
+ "limit": "치료 효과가 아닌 측정 타당도 연구이고 32명 표본입니다. 스마트 신발 측정이 증상 개선을 뜻하지는 않습니다",
+ "against": "건강 대조군과 파킨슨병의 측정 차이가 실제 일상 보행 변화를 모두 설명하지는 않습니다",
+ "use": "파킨슨병 보행은 동작 포착 측정값과 임상 증상을 따로 기록합니다",
+ "refs": [
+  {
+   "label": "Smart shoe system for gait analysis in Parkinson's disease · 검증 연구",
+   "doi": "10.3390/s26144446",
+   "pmid": "42515329"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"motion capture\" AND \"Parkinson\" → 6건 반환, intervention 이름 대조 통과 1건",
+  "pubmed": "\"motion capture\" AND \"Parkinson\" → 234건, PMID 42515329 직접 검증 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 34건",
+  "safety": "\"motion capture\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 175건"
+ }
 }
