@@ -1,20 +1,40 @@
 {
-  "id": "probiotics-liver-fibrosis-null",
-  "subj": "프로바이오틱스",
-  "claim": "프로바이오틱스가 지방간 환자의 간섬유화를 개선한다",
-  "line": "지방간 환자 시험에서 프로바이오틱스는 간섬유화를 개선하지 못했습니다",
-  "effect": "간섬유화·지방간 개선 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 39,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "프로바이오틱스는 간섬유화 치료 허가를 받은 단일 성분이 아닙니다",
-  "why": "지방간 환자를 프로바이오틱스와 위약에 무작위 배정한 이중맹검 시험입니다.",
-  "saw": "지방간 환자 39명이 6개월 동안 다균주 프로바이오틱스 또는 위약을 받았습니다. 간 지방과 간섬유화, 간효소와 지질 지표에서 유의한 임상 개선이 없었습니다.",
-  "limit": "표본이 39명인 예비시험이고 특정 여섯 균주 제형을 사용해 다른 프로바이오틱스에 일반화할 수 없습니다.",
-  "against": "다른 보충제까지 합친 메타분석에서는 간섬유화 지표가 좋아졌지만 프로바이오틱스 단독 효과는 분리되지 않았습니다.",
-  "use": "지방간에서 균주·제형별 결과가 다를 수 있음을 보여주는 음성 시험으로 기록합니다.",
-  "refs": [{ "label": "지방간 다균주 프로바이오틱스 무작위시험", "doi": "10.3390/nu13093192", "pmid": "34579068", "pmc": "PMC8468225" }, { "label": "프로바이오틱스·프리바이오틱스·신바이오틱스 간질환 메타분석", "doi": "10.1186/s12876-024-03356-y", "pmid": "39174901", "pmc": "PMC11342484" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=probiotics · cond=Liver Fibrosis 25건 반환·intervention 일치 5건", "pubmed": "probiotics AND Liver Fibrosis 694편; probiotics liver fibrosis randomized 141편", "negative": "probiotics AND Liver Fibrosis AND (no effect OR did not OR failed OR negative OR no significant difference) 465편", "safety": "probiotics AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 10400편" }
+ "id": "probiotics-liver-fibrosis-null",
+ "subj": "프로바이오틱스",
+ "claim": "프로바이오틱스가 지방간 환자의 간섬유화를 개선한다",
+ "line": "지방간 환자 시험에서 프로바이오틱스는 간섬유화를 개선하지 못했습니다",
+ "effect": "간섬유화·지방간 개선 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 39,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "프로바이오틱스는 간섬유화 치료 허가를 받은 단일 성분이 아닙니다",
+ "why": "지방간 환자를 프로바이오틱스와 위약에 무작위 배정한 이중맹검 시험입니다.",
+ "saw": "지방간 환자 39명이 6개월 동안 다균주 프로바이오틱스 또는 위약을 받았습니다. 간 지방과 간섬유화, 간효소와 지질 지표에서 유의한 임상 개선이 없었습니다.",
+ "limit": "표본이 39명인 예비시험이고 특정 여섯 균주 제형을 사용해 다른 프로바이오틱스에 일반화할 수 없습니다.",
+ "against": "다른 보충제까지 합친 메타분석에서는 간섬유화 지표가 좋아졌지만 프로바이오틱스 단독 효과는 분리되지 않았습니다.",
+ "use": "지방간에서 균주·제형별 결과가 다를 수 있음을 보여주는 음성 시험으로 기록합니다.",
+ "refs": [
+  {
+   "label": "지방간 다균주 프로바이오틱스 무작위시험",
+   "doi": "10.3390/nu13093192",
+   "pmid": "34579068",
+   "pmc": "PMC8468225"
+  },
+  {
+   "label": "프로바이오틱스·프리바이오틱스·신바이오틱스 간질환 메타분석",
+   "doi": "10.1186/s12876-024-03356-y",
+   "pmid": "39174901",
+   "pmc": "PMC11342484"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=probiotics · cond=Liver Fibrosis 25건 반환·intervention 일치 5건",
+  "pubmed": "probiotics AND Liver Fibrosis 694편; probiotics liver fibrosis randomized 141편",
+  "negative": "probiotics AND Liver Fibrosis AND (no effect OR did not OR failed OR negative OR no significant difference) 465편",
+  "safety": "probiotics AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 10400편"
+ },
+ "vs": "군 간 차이: 프로바이오틱스·프리바이오틱스·신바이오틱스 vs 대조군 NAFLD 간 섬유화 SMD -0.31 (95% CI -0.53~-0.09), AST -0.35 (-0.55~-0.15), ALT -0.48 (-0.71~-0.25), 중성지방 -0.22 (-0.43~-0.02)"
 }

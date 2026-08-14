@@ -1,20 +1,39 @@
 {
-  "id": "probiotics-oral-health-pos",
-  "subj": "프로바이오틱스",
-  "claim": "프로바이오틱스가 구강 세균과 치주 지표를 개선한다",
-  "line": "프로바이오틱스가 구강 세균과 치주 지표를 개선했다는 시험들이 있습니다",
-  "effect": "구강 세균·치주 지표 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1612,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "프로바이오틱스는 치주질환 치료 허가를 받은 단일 성분이 아닙니다",
-  "why": "프로바이오틱스 구강 제품의 임상시험을 합친 체계적 문헌고찰과 네트워크 메타분석입니다.",
-  "saw": "24개 임상시험 1,612명 검토에서 프로바이오틱스 제품은 구강 내 뮤탄스 연쇄상구균을 줄였고 일부 제품은 클로르헥시딘과 비슷하게 치은·치태 지표를 개선했습니다.",
-  "limit": "구강세정제, 케피어와 여러 균주가 섞였고 모든 제품의 효과를 뜻하지 않습니다.",
-  "against": "치주질환 네트워크 메타분석에서도 효과 크기는 균주와 추적 기간에 따라 달랐습니다.",
-  "use": "치주 관리의 보조 중재 신호로 기록하고 칫솔질·치주 치료를 대신하지 않습니다.",
-  "refs": [{ "label": "구강 건강 프로바이오틱스 임상시험 검토", "doi": "10.2174/1389201024666230405135457", "pmid": "37038663" }, { "label": "치주염 프로바이오틱스 네트워크 메타분석", "doi": "10.1186/s12903-024-05027-6", "pmid": "39407177", "pmc": "PMC11481756" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=probiotics · cond=Oral Health 53건 반환·intervention 일치 9건", "pubmed": "probiotics AND Oral Health 3499편; probiotics oral health systematic review randomized 134편", "negative": "probiotics AND Oral Health AND (no effect OR did not OR failed OR negative OR no significant difference) 2719편", "safety": "probiotics AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 10400편" }
+ "id": "probiotics-oral-health-pos",
+ "subj": "프로바이오틱스",
+ "claim": "프로바이오틱스가 구강 세균과 치주 지표를 개선한다",
+ "line": "프로바이오틱스가 구강 세균과 치주 지표를 개선했다는 시험들이 있습니다",
+ "effect": "구강 세균·치주 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1612,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "프로바이오틱스는 치주질환 치료 허가를 받은 단일 성분이 아닙니다",
+ "why": "프로바이오틱스 구강 제품의 임상시험을 합친 체계적 문헌고찰과 네트워크 메타분석입니다.",
+ "saw": "24개 임상시험 1,612명 검토에서 프로바이오틱스 제품은 구강 내 뮤탄스 연쇄상구균을 줄였고 일부 제품은 클로르헥시딘과 비슷하게 치은·치태 지표를 개선했습니다.",
+ "limit": "구강세정제, 케피어와 여러 균주가 섞였고 모든 제품의 효과를 뜻하지 않습니다.",
+ "against": "치주질환 네트워크 메타분석에서도 효과 크기는 균주와 추적 기간에 따라 달랐습니다.",
+ "use": "치주 관리의 보조 중재 신호로 기록하고 칫솔질·치주 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "구강 건강 프로바이오틱스 임상시험 검토",
+   "doi": "10.2174/1389201024666230405135457",
+   "pmid": "37038663"
+  },
+  {
+   "label": "치주염 프로바이오틱스 네트워크 메타분석",
+   "doi": "10.1186/s12903-024-05027-6",
+   "pmid": "39407177",
+   "pmc": "PMC11481756"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=probiotics · cond=Oral Health 53건 반환·intervention 일치 9건",
+  "pubmed": "probiotics AND Oral Health 3499편; probiotics oral health systematic review randomized 134편",
+  "negative": "probiotics AND Oral Health AND (no effect OR did not OR failed OR negative OR no significant difference) 2719편",
+  "safety": "probiotics AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 10400편"
+ },
+ "vs": "군 간 차이: 프로바이오틱 제품 vs 대조 구강관리 Streptococcus mutans 65% 감소 (p<.05), 구강 병원체·치은지수·치태지수가 클로르헥시딘보다 우수하거나 동등"
 }

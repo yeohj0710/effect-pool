@@ -1,28 +1,33 @@
 {
-  "id": "positive-psychology-depression-null",
-  "subj": "positive psychology",
-  "claim": "우울증에서 긍정심리 중재는 행복감과 웰빙을 높여도 우울 점수를 유의하게 낮추지 못할 수 있다",
-  "line": "긍정심리 중재가 행복감은 높였지만 우울 점수는 유의하게 낮추지 못했습니다.",
-  "effect": "우울 점수 유의한 감소 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 2579,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "긍정심리 중재는 우울증 치료에 허가된 의약품이 아닙니다.",
-  "why": "우울증 성인의 기분과 웰빙을 높이는 긍정심리 중재를 표준 치료 또는 무치료와 비교했습니다.",
-  "saw": "무작위시험 17건, 2,579명을 합친 메타분석에서 긍정심리 중재는 행복감·긍정 정서·삶의 만족도는 개선했지만 우울 점수 변화는 유의하지 않았습니다(SMD -0.27, 95% CI -0.61~0.08).",
-  "limit": "연구별 중재와 대조군이 달랐고 우울 증상 결과의 불확실성이 컸습니다.",
-  "against": "긍정심리 중재를 항우울제나 표준 심리치료의 대체 치료로 볼 수 없습니다.",
-  "use": "우울증에서 웰빙 지표와 우울 증상 지표가 다르게 움직인 결과로 기록합니다.",
-  "refs": [
-    { "label": "우울증 긍정심리 중재 메타분석", "doi": "10.3928/02793695-20260417-02", "pmid": "42030477" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=positive psychology · cond=Depression 15건, 중재 일치 15건",
-    "pubmed": "positive psychology AND Depression 35351건",
-    "negative": "positive psychology AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) 25365건",
-    "safety": "positive psychology AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 15041건"
+ "id": "positive-psychology-depression-null",
+ "subj": "긍정심리",
+ "claim": "우울증에서 긍정심리 중재는 행복감과 웰빙을 높여도 우울 점수를 유의하게 낮추지 못할 수 있다",
+ "line": "긍정심리 중재가 행복감은 높였지만 우울 점수는 유의하게 낮추지 못했습니다.",
+ "effect": "우울 점수 유의한 감소 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 2579,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "긍정심리 중재는 우울증 치료에 허가된 의약품이 아닙니다.",
+ "why": "우울증 성인의 기분과 웰빙을 높이는 긍정심리 중재를 표준 치료 또는 무치료와 비교했습니다.",
+ "saw": "무작위시험 17건, 2,579명을 합친 메타분석에서 긍정심리 중재는 행복감·긍정 정서·삶의 만족도는 개선했지만 우울 점수 변화는 유의하지 않았습니다(SMD -0.27, 95% CI -0.61~0.08).",
+ "limit": "연구별 중재와 대조군이 달랐고 우울 증상 결과의 불확실성이 컸습니다.",
+ "against": "긍정심리 중재를 항우울제나 표준 심리치료의 대체 치료로 볼 수 없습니다.",
+ "use": "우울증에서 웰빙 지표와 우울 증상 지표가 다르게 움직인 결과로 기록합니다.",
+ "refs": [
+  {
+   "label": "우울증 긍정심리 중재 메타분석",
+   "doi": "10.3928/02793695-20260417-02",
+   "pmid": "42030477"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=positive psychology · cond=Depression 15건, 중재 일치 15건",
+  "pubmed": "positive psychology AND Depression 35351건",
+  "negative": "positive psychology AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) 25365건",
+  "safety": "positive psychology AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 15041건"
+ },
+ "vs": "군 간 차이: 긍정심리 중재 vs 표준 치료·무치료 행복 SMD 0.25 (95% CI 0.06~0.43), 긍정 정서 MD 2.41 (0.27~4.54), 삶의 만족 MD 2.18 (0.81~3.54), 우울 SMD -0.27 (-0.61~0.08)"
 }
