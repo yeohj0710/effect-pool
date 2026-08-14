@@ -1,28 +1,33 @@
 {
-  "id": "meal-timing-intervention-pregnancy-pos",
-  "subj": "meal timing intervention",
-  "claim": "임신성 당뇨의 야간 혈당을 이른 식사 시간으로 낮추는가",
-  "line": "임신성 당뇨에서 첫 식사가 이른 여성은 야간 혈당이 낮았습니다",
-  "effect": "야간 혈당 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 71,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식사 시간 중재는 약물이 아닌 식이 행동 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "임신성 당뇨가 있는 임신부 71명의 식사 시각과 연속혈당 측정 자료를 분석한 관찰 연구입니다.",
-  "saw": "첫 식사가 오전 9시 56분보다 이른 군에서 늦은 식사군보다 야간 혈당이 0.26 mmol/L 낮았습니다.",
-  "limit": "무작위로 식사 시간을 배정한 시험이 아니며, 기존 임신성 당뇨 관리 연구 자료의 이차 분석입니다.",
-  "against": "이른 식사만으로 임신성 당뇨를 치료하거나 인슐린·식이 치료를 대신할 수 없습니다.",
-  "use": "임신성 당뇨의 식이 상담에서 식사 시각을 함께 점검하는 보조 근거로 검토합니다.",
-  "refs": [
-    { "label": "임신성 당뇨 식사 시각과 야간 혈당 이차 분석", "doi": "10.1007/s00125-026-06701-w", "pmid": "41803287" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "meal timing intervention AND Pregnancy — 7건 반환, 중재명 직접 일치 0건",
-    "pubmed": "\"meal timing intervention\" AND \"Pregnancy\" — 58건, 시험·코호트 등 31건",
-    "negative": "\"meal timing intervention\" AND \"Pregnancy\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 23건",
-    "safety": "\"meal timing intervention\" AND (adverse OR toxicity OR case report OR harm) — 191건"
+ "id": "meal-timing-intervention-pregnancy-pos",
+ "vs": "이른 첫 식사군 대 늦은 첫 식사군: 임신성 당뇨 71명 분석에서 늦은 식사군 야간 포도당이 +0.26mmol/L(t65=2.3,P=.023) 높았고, 24시간 군×시간 상호작용 P<.001",
+ "subj": "식사 시간 중재",
+ "claim": "임신성 당뇨의 야간 혈당을 이른 식사 시간으로 낮추는가",
+ "line": "임신성 당뇨에서 첫 식사가 이른 여성은 야간 혈당이 낮았습니다",
+ "effect": "야간 혈당 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 71,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식사 시간 중재는 약물이 아닌 식이 행동 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "임신성 당뇨가 있는 임신부 71명의 식사 시각과 연속혈당 측정 자료를 분석한 관찰 연구입니다.",
+ "saw": "첫 식사가 오전 9시 56분보다 이른 군에서 늦은 식사군보다 야간 혈당이 0.26 mmol/L 낮았습니다.",
+ "limit": "무작위로 식사 시간을 배정한 시험이 아니며, 기존 임신성 당뇨 관리 연구 자료의 이차 분석입니다.",
+ "against": "이른 식사만으로 임신성 당뇨를 치료하거나 인슐린·식이 치료를 대신할 수 없습니다.",
+ "use": "임신성 당뇨의 식이 상담에서 식사 시각을 함께 점검하는 보조 근거로 검토합니다.",
+ "refs": [
+  {
+   "label": "임신성 당뇨 식사 시각과 야간 혈당 이차 분석",
+   "doi": "10.1007/s00125-026-06701-w",
+   "pmid": "41803287"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "meal timing intervention AND Pregnancy — 7건 반환, 중재명 직접 일치 0건",
+  "pubmed": "\"meal timing intervention\" AND \"Pregnancy\" — 58건, 시험·코호트 등 31건",
+  "negative": "\"meal timing intervention\" AND \"Pregnancy\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 23건",
+  "safety": "\"meal timing intervention\" AND (adverse OR toxicity OR case report OR harm) — 191건"
+ }
 }

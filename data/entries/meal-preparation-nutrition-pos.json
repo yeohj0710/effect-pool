@@ -1,28 +1,33 @@
 {
-  "id": "meal-preparation-nutrition-pos",
-  "subj": "meal preparation",
-  "claim": "요리 영양 교육을 아동 영양 행동에 쓴다",
-  "line": "요리 영양교육은 아동의 건강식 준비와 가정 내 접근성을 높였습니다",
-  "effect": "준비 능력·건강식 가용성 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 83,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "요리 영양 교육은 허가 적응증을 적용하지 않는 학교 기반 비약물 중재입니다.",
-  "why": "말레이시아 초등학생 83명과 부모를 대상으로 12주간 건강식 준비 실습 5회와 부모 대상 가정 식품 교육을 시행한 무작위 대조시험입니다.",
-  "saw": "중재군은 대조군보다 건강식 준비 지식 1.2점, 태도 2.6점, 실천 4.4점, 자기효능감 3.9점이 높았습니다. 가정의 과일·채소 가용성도 각각 3.0점과 2.4점 높았습니다(P<0.001).",
-  "limit": "83명 규모의 12주 학교 중재이고 실제 영양소 섭취나 임상 결과를 측정하지 않았습니다.",
-  "against": "건강식 준비 능력과 식품 가용성의 개선이 장기 식단 질이나 건강 결과로 이어지는지는 확인되지 않았습니다.",
-  "use": "아동 영양 교육에 실습과 부모 참여를 넣을 근거로 사용하며 임상 치료 효과로 확대하지 않습니다.",
-  "refs": [
-    { "label": "Culinary Nutrition Education Improves Home Food Availability and Psychosocial Factors Related to Healthy Meal Preparation Among Children", "doi": "10.1016/j.jneb.2021.04.006", "pmid": "35148868" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=meal preparation AND query.cond=Nutrition → 209건, meal preparation 개입명 직접 일치 0건",
-    "pubmed": "meal preparation AND Nutrition → 2,680건; 제목·초록 정확검색 → 202건",
-    "negative": "meal preparation AND Nutrition AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,357건",
-    "safety": "meal preparation AND (adverse OR toxicity OR case report OR harm OR dropout) → 693건"
+ "id": "meal-preparation-nutrition-pos",
+ "vs": "요리 영양교육군 대 대조군: 아동 83명 12주 RCT에서 지식 MD 1.2, 태도 2.6, 실천 4.4, 자기효능감 3.9; 과일 3.0, 채소 2.4, 건강식 1.5, 덜 건강식 −0.9(P=.001~<.001)",
+ "subj": "식사 준비",
+ "claim": "요리 영양 교육을 아동 영양 행동에 쓴다",
+ "line": "요리 영양교육은 아동의 건강식 준비와 가정 내 접근성을 높였습니다",
+ "effect": "준비 능력·건강식 가용성 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 83,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "요리 영양 교육은 허가 적응증을 적용하지 않는 학교 기반 비약물 중재입니다.",
+ "why": "말레이시아 초등학생 83명과 부모를 대상으로 12주간 건강식 준비 실습 5회와 부모 대상 가정 식품 교육을 시행한 무작위 대조시험입니다.",
+ "saw": "중재군은 대조군보다 건강식 준비 지식 1.2점, 태도 2.6점, 실천 4.4점, 자기효능감 3.9점이 높았습니다. 가정의 과일·채소 가용성도 각각 3.0점과 2.4점 높았습니다(P<0.001).",
+ "limit": "83명 규모의 12주 학교 중재이고 실제 영양소 섭취나 임상 결과를 측정하지 않았습니다.",
+ "against": "건강식 준비 능력과 식품 가용성의 개선이 장기 식단 질이나 건강 결과로 이어지는지는 확인되지 않았습니다.",
+ "use": "아동 영양 교육에 실습과 부모 참여를 넣을 근거로 사용하며 임상 치료 효과로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "Culinary Nutrition Education Improves Home Food Availability and Psychosocial Factors Related to Healthy Meal Preparation Among Children",
+   "doi": "10.1016/j.jneb.2021.04.006",
+   "pmid": "35148868"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=meal preparation AND query.cond=Nutrition → 209건, meal preparation 개입명 직접 일치 0건",
+  "pubmed": "meal preparation AND Nutrition → 2,680건; 제목·초록 정확검색 → 202건",
+  "negative": "meal preparation AND Nutrition AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,357건",
+  "safety": "meal preparation AND (adverse OR toxicity OR case report OR harm OR dropout) → 693건"
+ }
 }

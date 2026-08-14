@@ -1,28 +1,32 @@
 {
-  "id": "meal-delivery-heart-failure-open",
-  "subj": "meal delivery",
-  "claim": "심부전 환자의 식사 배달군은 30일 사망·재입원이 낮았지만 무작위 근거는 없다",
-  "line": "심부전에서 식사 배달군의 30일 사망·재입원은 낮았지만 무작위 근거는 없었습니다",
-  "effect": "동시 대조군 OR 0.55",
-  "tier": "obs",
-  "dir": "open",
-  "n": 4032,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식사 배달은 심부전 치료의 허가 적응증이 아니다",
-  "why": "심부전으로 퇴원한 Medicare Advantage 가입자에서 4주 가정 식사 배달 혜택과 30일 결과를 비교한 코호트 연구다.",
-  "saw": "심부전 입원 환자 4032명을 분석했다. 식사 배달군의 30일 사망·재입원은 동시기 미수령군보다 낮았고 OR 0.55였지만 2019년 역사적 대조군과는 유의한 차이가 없었다.",
-  "limit": "비무작위 코호트라 식사 배달을 받은 환자의 건강상태와 접촉 가능성 차이를 배제할 수 없다.",
-  "against": "연구자는 결과 확인을 위해 무작위 임상시험이 필요하다고 했다.",
-  "use": "심부전 퇴원 뒤 영양 지원의 관찰 신호로만 기록한다.",
-  "refs": [
-    { "label": "Nguyen 2023 · JAMA Health Forum · 코호트 연구", "doi": "10.1001/jamahealthforum.2023.1678", "pmid": "37355995" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=meal delivery, cond=Heart Failure · 17건",
-    "pubmed": "meal delivery AND Heart Failure · 18편",
-    "negative": "meal delivery AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 14편",
-    "safety": "meal delivery AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 333편"
+ "id": "meal-delivery-heart-failure-open",
+ "subj": "식사 배달",
+ "claim": "심부전 환자의 식사 배달군은 30일 사망·재입원이 낮았지만 무작위 근거는 없다",
+ "line": "심부전에서 식사 배달군의 30일 사망·재입원은 낮았지만 무작위 근거는 없었습니다",
+ "effect": "동시 대조군 OR 0.55",
+ "tier": "obs",
+ "dir": "open",
+ "n": 4032,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식사 배달은 심부전 치료의 허가 적응증이 아니다",
+ "why": "심부전으로 퇴원한 Medicare Advantage 가입자에서 4주 가정 식사 배달 혜택과 30일 결과를 비교한 코호트 연구다.",
+ "saw": "심부전 입원 환자 4032명을 분석했다. 식사 배달군의 30일 사망·재입원은 동시기 미수령군보다 낮았고 OR 0.55였지만 2019년 역사적 대조군과는 유의한 차이가 없었다.",
+ "limit": "비무작위 코호트라 식사 배달을 받은 환자의 건강상태와 접촉 가능성 차이를 배제할 수 없다.",
+ "against": "연구자는 결과 확인을 위해 무작위 임상시험이 필요하다고 했다.",
+ "use": "심부전 퇴원 뒤 영양 지원의 관찰 신호로만 기록한다.",
+ "refs": [
+  {
+   "label": "Nguyen 2023 · JAMA Health Forum · 코호트 연구",
+   "doi": "10.1001/jamahealthforum.2023.1678",
+   "pmid": "37355995"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=meal delivery, cond=Heart Failure · 17건",
+  "pubmed": "meal delivery AND Heart Failure · 18편",
+  "negative": "meal delivery AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 14편",
+  "safety": "meal delivery AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 333편"
+ }
 }

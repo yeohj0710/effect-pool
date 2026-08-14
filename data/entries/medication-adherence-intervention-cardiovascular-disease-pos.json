@@ -1,28 +1,32 @@
 {
-  "id": "medication-adherence-intervention-cardiovascular-disease-pos",
-  "subj": "medication adherence intervention",
-  "claim": "복약 순응도 중재를 고혈압 성인의 혈압 조절에 쓴다",
-  "line": "복약 순응도 중재는 혈압을 낮췄습니다",
-  "effect": "수축기·이완기 혈압 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 8933,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "복약 순응도 중재는 의약품 허가 적응증이 아닌 비약물 중재입니다",
-  "why": "성인 고혈압에서 모바일 건강 기반 자기관리와 복약 순응도 지원이 혈압과 자기관리 행동을 개선하는지 무작위시험을 종합했습니다.",
-  "saw": "24개 무작위시험의 8,933명을 포함했습니다. 모바일 건강 중재군은 대조군보다 수축기 혈압을 3.78mmHg, 이완기 혈압을 1.57mmHg 더 낮췄고 16개 연구에서 복약 순응도나 자기관리 행동이 더 좋았습니다.",
-  "limit": "모든 연구가 비뚤림 위험이 높았고 중재 기능과 문자 빈도가 다양했습니다.",
-  "against": "경제성 결과는 연구마다 달랐고 장기 효과는 충분히 확인되지 않았습니다.",
-  "use": "고혈압 복약 순응도에 맞춤 문자와 상호작용 자기관리 기능을 결합하는 방법",
-  "refs": [
-    { "label": "Li 2020 · JMIR mHealth and uHealth · 체계적 문헌고찰·메타분석", "pmid": "32217503" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=medication adherence intervention AND condition=Cardiovascular Disease; 465건 반환, 중재명 대조 후 0건",
-    "pubmed": "medication adherence intervention AND Cardiovascular Disease; 6,891건",
-    "negative": "medication adherence intervention AND Cardiovascular Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 4,304건",
-    "safety": "medication adherence intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 1,551건"
+ "id": "medication-adherence-intervention-cardiovascular-disease-pos",
+ "vs": "모바일 건강관리군 대 대조군: 고혈압 24개 RCT·8933명 메타분석에서 수축기혈압 MD −3.78mmHg(95%CI −4.67~−2.89), 이완기 MD −1.57(−2.28~−0.86), P<.001",
+ "subj": "복약 순응도 중재",
+ "claim": "복약 순응도 중재를 고혈압 성인의 혈압 조절에 쓴다",
+ "line": "복약 순응도 중재는 혈압을 낮췄습니다",
+ "effect": "수축기·이완기 혈압 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 8933,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "복약 순응도 중재는 의약품 허가 적응증이 아닌 비약물 중재입니다",
+ "why": "성인 고혈압에서 모바일 건강 기반 자기관리와 복약 순응도 지원이 혈압과 자기관리 행동을 개선하는지 무작위시험을 종합했습니다.",
+ "saw": "24개 무작위시험의 8,933명을 포함했습니다. 모바일 건강 중재군은 대조군보다 수축기 혈압을 3.78mmHg, 이완기 혈압을 1.57mmHg 더 낮췄고 16개 연구에서 복약 순응도나 자기관리 행동이 더 좋았습니다.",
+ "limit": "모든 연구가 비뚤림 위험이 높았고 중재 기능과 문자 빈도가 다양했습니다.",
+ "against": "경제성 결과는 연구마다 달랐고 장기 효과는 충분히 확인되지 않았습니다.",
+ "use": "고혈압 복약 순응도에 맞춤 문자와 상호작용 자기관리 기능을 결합하는 방법",
+ "refs": [
+  {
+   "label": "Li 2020 · JMIR mHealth and uHealth · 체계적 문헌고찰·메타분석",
+   "pmid": "32217503"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=medication adherence intervention AND condition=Cardiovascular Disease; 465건 반환, 중재명 대조 후 0건",
+  "pubmed": "medication adherence intervention AND Cardiovascular Disease; 6,891건",
+  "negative": "medication adherence intervention AND Cardiovascular Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 4,304건",
+  "safety": "medication adherence intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 1,551건"
+ }
 }

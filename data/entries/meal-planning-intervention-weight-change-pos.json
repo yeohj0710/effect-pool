@@ -1,28 +1,33 @@
 {
-  "id": "meal-planning-intervention-weight-change-pos",
-  "subj": "meal planning intervention",
-  "claim": "비만 성인이 온라인 meal planning과 식품 구매 지원을 사용하면 체중이 줄어든다",
-  "line": "온라인 식단·구매 지원 이용자 중 59%가 체중을 줄였습니다",
-  "effect": "체중 감소 59%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 8977,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "Meal planning과 식품 구매 지원은 비만 허가 약물이 아닌 생활습관 중재입니다.",
-  "why": "온라인 식사 계획·식품 구매 환경을 실제로 사용한 비만 성인 관찰자료가 있어 obs 칸에 넣었습니다.",
-  "saw": "비만 성인 8,977명이 개인화 영양 추천, 온라인 식사 계획, 식품 구매·식사키트·장보기 인센티브를 포함한 Foodsmart 플랫폼을 사용한 종단 관찰연구입니다. 중앙 이용기간은 9.9개월이었고 59%가 체중을 줄였으며, 24개월 이상 이용자의 33.3%가 5% 이상 감량했습니다.",
-  "limit": "무작위 대조군이 없는 관찰연구이며 체중과 식이자료 일부를 사용자가 보고했습니다. 오래 사용한 사람과 식단을 개선한 사람이 원래부터 달랐을 수 있습니다.",
-  "against": "대조군이 없어 플랫폼 자체의 효과인지 자기선택과 이용기간의 영향인지 판단할 수 없습니다.",
-  "use": "온라인 식사 계획을 체중관리 서비스에 넣을 때 장기 이용과 식품 구매 환경을 함께 평가할 근거로 사용합니다.",
-  "refs": [
-    { "label": "2020 · Journal of Medical Internet Research · 디지털 영양·식품 구매 플랫폼 비만 성인 종단연구", "doi": "10.2196/19634", "pmid": "32792332", "pmc": "PMC7495263" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "meal planning intervention AND Weight Change · 5건",
-    "pubmed": "meal planning intervention AND Weight Change · 13편",
-    "negative": "meal planning intervention AND Weight Change AND (no effect OR did not OR failed OR negative OR no significant difference) · 6편",
-    "safety": "meal planning intervention AND Weight Change AND (adverse OR toxicity OR safety OR harm OR distress) · 1편"
+ "id": "meal-planning-intervention-weight-change-pos",
+ "subj": "식사 계획 중재",
+ "claim": "비만 성인이 온라인 meal planning과 식품 구매 지원을 사용하면 체중이 줄어든다",
+ "line": "온라인 식단·구매 지원 이용자 중 59%가 체중을 줄였습니다",
+ "effect": "체중 감소 59%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 8977,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "Meal planning과 식품 구매 지원은 비만 허가 약물이 아닌 생활습관 중재입니다.",
+ "why": "온라인 식사 계획·식품 구매 환경을 실제로 사용한 비만 성인 관찰자료가 있어 obs 칸에 넣었습니다.",
+ "saw": "비만 성인 8,977명이 개인화 영양 추천, 온라인 식사 계획, 식품 구매·식사키트·장보기 인센티브를 포함한 Foodsmart 플랫폼을 사용한 종단 관찰연구입니다. 중앙 이용기간은 9.9개월이었고 59%가 체중을 줄였으며, 24개월 이상 이용자의 33.3%가 5% 이상 감량했습니다.",
+ "limit": "무작위 대조군이 없는 관찰연구이며 체중과 식이자료 일부를 사용자가 보고했습니다. 오래 사용한 사람과 식단을 개선한 사람이 원래부터 달랐을 수 있습니다.",
+ "against": "대조군이 없어 플랫폼 자체의 효과인지 자기선택과 이용기간의 영향인지 판단할 수 없습니다.",
+ "use": "온라인 식사 계획을 체중관리 서비스에 넣을 때 장기 이용과 식품 구매 환경을 함께 평가할 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "2020 · Journal of Medical Internet Research · 디지털 영양·식품 구매 플랫폼 비만 성인 종단연구",
+   "doi": "10.2196/19634",
+   "pmid": "32792332",
+   "pmc": "PMC7495263"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "meal planning intervention AND Weight Change · 5건",
+  "pubmed": "meal planning intervention AND Weight Change · 13편",
+  "negative": "meal planning intervention AND Weight Change AND (no effect OR did not OR failed OR negative OR no significant difference) · 6편",
+  "safety": "meal planning intervention AND Weight Change AND (adverse OR toxicity OR safety OR harm OR distress) · 1편"
+ }
 }

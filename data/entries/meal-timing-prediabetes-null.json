@@ -1,20 +1,33 @@
 {
-  "id": "meal-timing-prediabetes-null",
-  "subj": "meal timing",
-  "claim": "식사시간 제한을 당뇨병 전단계의 혈당 조절에 쓴다",
-  "line": "당뇨 전단계에서 식사시간 제한은 당화혈색소(HbA1c)를 낮추지 못했습니다",
-  "effect": "HbA1c 차이 없음·야간 −0.3",
-  "tier": "trial",
-  "dir": "null",
-  "n": 46,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "당뇨병 전단계의 혈당 치료는 식사시간 제한의 허가 적응증이 아닙니다",
-  "why": "당뇨병 전단계 성인의 RESET 무작위시험 하위분석에서 10시간 식사시간 제한과 대조군을 비교했습니다",
-  "saw": "46명에서 6주·3개월 HbA1c와 공복혈당의 군 간 차이는 없었고 6주 야간 혈당만 −0.3mmol/L였습니다",
-  "limit": "무작위시험의 46명 하위분석이며 야간 혈당 신호가 3개월에 유지되지 않았습니다",
-  "against": "체중, 식사량, 활동량 변화가 혈당 결과에 영향을 줄 수 있습니다",
-  "use": "짧은 야간 혈당 신호와 장기 혈당 무효과를 함께 기록합니다",
-  "refs": [{ "label": "2026 RESET 당뇨병 전단계 하위분석", "doi": "10.1016/j.diabres.2026.113276", "pmid": "42025926" }],
-  "queried": { "date": "2026-08-08", "ctgov": "meal timing AND PreDiabetes; 16건", "pubmed": "time restricted eating prediabetes randomized; PMID 42025926", "negative": "meal timing AND prediabetes AND no HbA1c difference; RESET 확인", "safety": "meal timing AND prediabetes AND adverse; 원문 확인" }
+ "id": "meal-timing-prediabetes-null",
+ "vs": "10시간 시간제한 식사군 대 대조군: 전당뇨 46명 RCT 분석에서 6주 야간 평균 포도당 −0.3mmol/L(95%CI −0.6~−0.1), 3개월 −0.1(−0.4~0.2); 공복혈당·HbA1c 군 간 차이 없음",
+ "subj": "식사 시간",
+ "claim": "식사시간 제한을 당뇨병 전단계의 혈당 조절에 쓴다",
+ "line": "당뇨 전단계에서 식사시간 제한은 당화혈색소(HbA1c)를 낮추지 못했습니다",
+ "effect": "HbA1c 차이 없음·야간 −0.3",
+ "tier": "trial",
+ "dir": "null",
+ "n": 46,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "당뇨병 전단계의 혈당 치료는 식사시간 제한의 허가 적응증이 아닙니다",
+ "why": "당뇨병 전단계 성인의 RESET 무작위시험 하위분석에서 10시간 식사시간 제한과 대조군을 비교했습니다",
+ "saw": "46명에서 6주·3개월 HbA1c와 공복혈당의 군 간 차이는 없었고 6주 야간 혈당만 −0.3mmol/L였습니다",
+ "limit": "무작위시험의 46명 하위분석이며 야간 혈당 신호가 3개월에 유지되지 않았습니다",
+ "against": "체중, 식사량, 활동량 변화가 혈당 결과에 영향을 줄 수 있습니다",
+ "use": "짧은 야간 혈당 신호와 장기 혈당 무효과를 함께 기록합니다",
+ "refs": [
+  {
+   "label": "2026 RESET 당뇨병 전단계 하위분석",
+   "doi": "10.1016/j.diabres.2026.113276",
+   "pmid": "42025926"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "meal timing AND PreDiabetes; 16건",
+  "pubmed": "time restricted eating prediabetes randomized; PMID 42025926",
+  "negative": "meal timing AND prediabetes AND no HbA1c difference; RESET 확인",
+  "safety": "meal timing AND prediabetes AND adverse; 원문 확인"
+ }
 }

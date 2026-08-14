@@ -1,26 +1,32 @@
 {
-  "id": "mct-oil-obesity-pos",
-  "subj": "mct oil",
-  "claim": "MCT 오일이 체중 감량 식단의 체중 감소를 높인다",
-  "line": "체중 감량 식단에 MCT 오일을 넣자 올리브유보다 체중이 더 줄었습니다.",
-  "effect": "체중 1.67kg 추가 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 49,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "MCT 오일은 비만 치료의 허가 적응증이 아닌 식이 지방 중재입니다.",
-  "why": "과체중 남녀 49명이 16주 체중 감량 상담과 함께 하루 18~24g MCT 오일 또는 올리브유를 섭취한 무작위시험입니다.",
-  "saw": "시험을 마친 31명에서 MCT 오일군의 종료 체중이 올리브유군보다 1.67kg 낮았습니다. 체지방과 복부 지방도 MCT군에서 더 낮았습니다.",
-  "limit": "49명 중 31명만 완료했고 두 군 모두 체중 감량 상담을 받았습니다. 식이 상담과 MCT 오일의 효과를 분리하기 어렵습니다.",
-  "against": "지방량 감소 일부 결과는 통계적 유의성이 약했고 탈락률이 높았습니다.",
-  "use": "체중 감량 식단에서 올리브유를 MCT 오일로 바꾼 단일 무작위시험 신호로 기록합니다.",
-  "refs": [{ "label": "체중 감량 식단 MCT 오일·올리브유 무작위시험", "pmid": "18326600" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=mct oil · cond=Obesity → 12건 반환, 개입명 대조 2건",
-    "pubmed": "\"MCT oil\" AND Obesity → 13편, PMID 18326600 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 5편",
-    "safety": "\"MCT oil\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 58편"
+ "id": "mct-oil-obesity-pos",
+ "vs": "중쇄지방 오일군 대 올리브유군: 과체중 성인 49명 16주 체중감량 시험에서 완료자 31명 체중 −1.67±0.67kg(P=.013); 체지방·복부지방도 MCT군이 낮음(P<.05)",
+ "subj": "중쇄지방 오일",
+ "claim": "MCT 오일이 체중 감량 식단의 체중 감소를 높인다",
+ "line": "체중 감량 식단에 MCT 오일을 넣자 올리브유보다 체중이 더 줄었습니다.",
+ "effect": "체중 1.67kg 추가 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 49,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "MCT 오일은 비만 치료의 허가 적응증이 아닌 식이 지방 중재입니다.",
+ "why": "과체중 남녀 49명이 16주 체중 감량 상담과 함께 하루 18~24g MCT 오일 또는 올리브유를 섭취한 무작위시험입니다.",
+ "saw": "시험을 마친 31명에서 MCT 오일군의 종료 체중이 올리브유군보다 1.67kg 낮았습니다. 체지방과 복부 지방도 MCT군에서 더 낮았습니다.",
+ "limit": "49명 중 31명만 완료했고 두 군 모두 체중 감량 상담을 받았습니다. 식이 상담과 MCT 오일의 효과를 분리하기 어렵습니다.",
+ "against": "지방량 감소 일부 결과는 통계적 유의성이 약했고 탈락률이 높았습니다.",
+ "use": "체중 감량 식단에서 올리브유를 MCT 오일로 바꾼 단일 무작위시험 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "체중 감량 식단 MCT 오일·올리브유 무작위시험",
+   "pmid": "18326600"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=mct oil · cond=Obesity → 12건 반환, 개입명 대조 2건",
+  "pubmed": "\"MCT oil\" AND Obesity → 13편, PMID 18326600 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 5편",
+  "safety": "\"MCT oil\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 58편"
+ }
 }
