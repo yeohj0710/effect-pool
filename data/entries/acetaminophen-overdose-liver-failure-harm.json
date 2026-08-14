@@ -1,36 +1,37 @@
 {
-  "id": "acetaminophen-overdose-liver-failure-harm",
-  "subj": "아세트아미노펜 과량",
-  "claim": "간부전을 일으킨다",
-  "line": "아세트아미노펜 과량 복용은 급성 간손상과 간부전의 주요 원인이다.",
-  "effect": "간부전 주요 원인",
-  "tier": "case",
-  "dir": "harm",
-  "n": 1,
-  "synth": "single",
-  "why": "아세트아미노펜 과량 복용과 간독성·급성 간부전을 다룬 임상 검토와 증례·코호트 자료입니다.",
-  "saw": "임상 검토는 아세트아미노펜 과량을 급성 간손상과 간부전의 주요 원인으로 정리했고, 중증 환자에서는 해독 치료와 이식 평가가 필요할 수 있다고 보고했습니다.",
-  "limit": "간부전 위험은 과량의 크기, 복용 시점, 영양·간질환과 동반 물질에 따라 달라집니다.",
-  "against": "권장 범위의 복용과 신속한 해독 치료에서는 과량 노출과 같은 간부전 위험이 나타나지 않습니다.",
-  "use": "과량 복용이 의심되면 증상을 기다리지 말고 즉시 중독 상담이나 응급진료를 받아야 합니다.",
-  "refs": [
-    {
-      "label": "Bunchorntavakul 2023 · Expert Opin Drug Metab Toxicol · 아세트아미노펜 과량 간독성 검토",
-      "doi": "10.1080/17425255.2023.2223959",
-      "pmid": "37436926"
-    },
-    {
-      "label": "Chiew 2018 · Cochrane · 파라세타몰 과량 중재 검토",
-      "doi": "10.1002/14651858.CD003328.pub3",
-      "pmid": "29473717",
-      "pmc": "PMC6491303"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=acetaminophen, cond=overdose acute liver failure → 2건 반환, InterventionName 대조 후 0건",
-    "pubmed": "acetaminophen overdose acute liver failure cohort systematic review → 1건",
-    "negative": "acetaminophen overdose liver failure AND (no effect OR did not OR failed to OR negative) → 730건",
-    "safety": "acetaminophen overdose AND (adverse OR hepatotoxicity OR liver failure OR case report) → 2,699건"
+ "id": "acetaminophen-overdose-liver-failure-harm",
+ "subj": "아세트아미노펜 과량",
+ "claim": "간부전을 일으킨다",
+ "line": "아세트아미노펜 과량 복용은 급성 간손상과 간부전의 주요 원인이다.",
+ "effect": "간부전 주요 원인",
+ "tier": "case",
+ "dir": "harm",
+ "n": 1,
+ "synth": "single",
+ "why": "아세트아미노펜 과량 복용과 간독성·급성 간부전을 다룬 임상 검토와 증례·코호트 자료입니다.",
+ "saw": "아세트아미노펜 과량복용 중재 RCT 11개, 700명을 검토한 Cochrane 문헌고찰에서 아세틸시스테인·활성탄 등과 비교 치료의 효능·위해를 평가했다.",
+ "limit": "간부전 위험은 과량의 크기, 복용 시점, 영양·간질환과 동반 물질에 따라 달라집니다.",
+ "against": "권장 범위의 복용과 신속한 해독 치료에서는 과량 노출과 같은 간부전 위험이 나타나지 않습니다.",
+ "use": "과량 복용이 의심되면 증상을 기다리지 말고 즉시 중독 상담이나 응급진료를 받아야 합니다.",
+ "refs": [
+  {
+   "label": "Bunchorntavakul 2023 · Expert Opin Drug Metab Toxicol · 아세트아미노펜 과량 간독성 검토",
+   "doi": "10.1080/17425255.2023.2223959",
+   "pmid": "37436926"
+  },
+  {
+   "label": "Chiew 2018 · Cochrane · 파라세타몰 과량 중재 검토",
+   "doi": "10.1002/14651858.CD003328.pub3",
+   "pmid": "29473717",
+   "pmc": "PMC6491303"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=acetaminophen, cond=overdose acute liver failure → 2건 반환, InterventionName 대조 후 0건",
+  "pubmed": "acetaminophen overdose acute liver failure cohort systematic review → 1건",
+  "negative": "acetaminophen overdose liver failure AND (no effect OR did not OR failed to OR negative) → 730건",
+  "safety": "acetaminophen overdose AND (adverse OR hepatotoxicity OR liver failure OR case report) → 2,699건"
+ },
+ "vs": "아세틸시스테인 vs 비교 치료: 전격성 간부전 사망률 Peto OR 0.29 (95% CI 0.09~0.94); 아세트아미노펜 과량복용 중재 RCT 11개·700명, 근거 질 낮음~매우 낮음"
 }
