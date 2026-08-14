@@ -1,28 +1,32 @@
 {
-  "id": "online-psychoeducation-stress-pos",
-  "subj": "online psychoeducation",
-  "claim": "온라인 심리교육과 모바일 자기관리는 보건의료인의 스트레스와 소진을 줄일 가능성이 있다",
-  "line": "온라인 심리교육은 보건의료인의 스트레스 수준을 줄였습니다",
-  "effect": "스트레스 1.73점 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 75,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 심리교육은 의약품이 아닌 정신건강 지원 중재다",
-  "why": "보건의료인 75명이 6주간 마음챙김·이완·인지행동 기반 모듈과 심리교육이 있는 모바일 앱을 사용한 전후 연구다.",
-  "saw": "참가자 75명에서 정신적 웰빙이 1.55점 올라가고 지각 스트레스가 1.73점 줄었다. 정서적 소진·비인격화도 줄고 개인적 성취감은 올랐다.",
-  "limit": "단일군 전후 연구라 자연 경과와 선택 효과를 분리할 수 없다. 연구진도 더 크고 긴 무작위시험이 필요하다고 했다.",
-  "against": "앱이 보건의료인의 소진을 장기적으로 예방하거나 치료한다고 확정할 수 없다.",
-  "use": "보건의료인 스트레스 지원에 온라인 심리교육을 시범 적용할 때 대조군과 장기 소진 척도를 함께 둔다.",
-  "refs": [
-    { "label": "Mobile Health for Mental Health: A Pilot Study on Well-Being, Burnout, and Stress Among Healthcare Professionals 2026 · Frontiers in Psychology", "doi": "10.3389/fpsyg.2026.1867560", "pmid": "42459613" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=online psychoeducation AND condition=Stress; 89건 반환, 중재명 일치 0건",
-    "pubmed": "online psychoeducation AND Stress; 296건",
-    "negative": "online psychoeducation AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 229건",
-    "safety": "online psychoeducation AND (adverse OR toxicity OR case report OR harm OR dropout); 45건"
+ "id": "online-psychoeducation-stress-pos",
+ "subj": "온라인 심리교육",
+ "claim": "온라인 심리교육과 모바일 자기관리는 보건의료인의 스트레스와 소진을 줄일 가능성이 있다",
+ "line": "온라인 심리교육은 보건의료인의 스트레스 수준을 줄였습니다",
+ "effect": "스트레스 1.73점 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 75,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 심리교육은 의약품이 아닌 정신건강 지원 중재다",
+ "why": "보건의료인 75명이 6주간 마음챙김·이완·인지행동 기반 모듈과 심리교육이 있는 모바일 앱을 사용한 전후 연구다.",
+ "saw": "참가자 75명에서 정신적 웰빙이 1.55점 올라가고 지각 스트레스가 1.73점 줄었다. 정서적 소진·비인격화도 줄고 개인적 성취감은 올랐다.",
+ "limit": "단일군 전후 연구라 자연 경과와 선택 효과를 분리할 수 없다. 연구진도 더 크고 긴 무작위시험이 필요하다고 했다.",
+ "against": "앱이 보건의료인의 소진을 장기적으로 예방하거나 치료한다고 확정할 수 없다.",
+ "use": "보건의료인 스트레스 지원에 온라인 심리교육을 시범 적용할 때 대조군과 장기 소진 척도를 함께 둔다.",
+ "refs": [
+  {
+   "label": "Mobile Health for Mental Health: A Pilot Study on Well-Being, Burnout, and Stress Among Healthcare Professionals 2026 · Frontiers in Psychology",
+   "doi": "10.3389/fpsyg.2026.1867560",
+   "pmid": "42459613"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online psychoeducation AND condition=Stress; 89건 반환, 중재명 일치 0건",
+  "pubmed": "online psychoeducation AND Stress; 296건",
+  "negative": "online psychoeducation AND Stress AND (no effect OR did not OR failed to OR negative OR no significant difference); 229건",
+  "safety": "online psychoeducation AND (adverse OR toxicity OR case report OR harm OR dropout); 45건"
+ }
 }

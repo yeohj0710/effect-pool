@@ -1,28 +1,33 @@
 {
-  "id": "online-psychoeducation-emotional-disorder-pos",
-  "subj": "online psychoeducation",
-  "claim": "온라인 심리교육과 기술 훈련은 어린 시절 대인 외상 관련 PTSD 증상을 줄였다",
-  "line": "온라인 심리교육은 외상 후 스트레스 증상을 완화했습니다",
-  "effect": "PTSD 점수 7.08점 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 181,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 심리교육은 의약품이 아닌 정신건강 치료 중재다",
-  "why": "어린 시절 대인 외상 관련 PTSD 성인을 온라인 자기주도 모듈과 가상 집단 세션으로 치료한 무작위 대조시험이다.",
-  "saw": "무작위 배정 181명에서 8주 PTSD 점수가 통상 치료보다 7.08점 더 줄었고 효과크기는 0.44였다. 16주에도 차이가 유지됐으며 이상반응은 보고되지 않았다.",
-  "limit": "단일 기관 연구이고 기존 확립 치료와 직접 비교하지 않았다. 참가자의 66%가 백인이어서 다른 집단의 효과는 더 확인해야 한다.",
-  "against": "온라인 심리교육이 확립된 외상 치료를 대체할 수 있는지는 아직 확인되지 않았다.",
-  "use": "외상 후 스트레스 치료 접근성을 넓힐 때 온라인 모듈과 치료사 집단 세션을 보조 치료로 검토한다.",
-  "refs": [
-    { "label": "Efficacy of a Hybrid Psychoeducational and Skills-Based Therapy for Adults With PTSD Related to Childhood Interpersonal Trauma 2026 · eClinicalMedicine", "doi": "10.1016/j.eclinm.2026.104003", "pmid": "42306493" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=online psychoeducation AND condition=Emotional Disorder; 45건 반환, 중재명 일치 0건",
-    "pubmed": "online psychoeducation AND Emotional Disorder; 197건",
-    "negative": "online psychoeducation AND Emotional Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference); 146건",
-    "safety": "online psychoeducation AND (adverse OR toxicity OR case report OR harm OR dropout); 25건"
+ "id": "online-psychoeducation-emotional-disorder-pos",
+ "subj": "온라인 심리교육",
+ "claim": "온라인 심리교육과 기술 훈련은 어린 시절 대인 외상 관련 PTSD 증상을 줄였다",
+ "line": "온라인 심리교육은 외상 후 스트레스 증상을 완화했습니다",
+ "effect": "PTSD 점수 7.08점 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 181,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 심리교육은 의약품이 아닌 정신건강 치료 중재다",
+ "why": "어린 시절 대인 외상 관련 PTSD 성인을 온라인 자기주도 모듈과 가상 집단 세션으로 치료한 무작위 대조시험이다.",
+ "saw": "무작위 배정 181명에서 8주 PTSD 점수가 통상 치료보다 7.08점 더 줄었고 효과크기는 0.44였다. 16주에도 차이가 유지됐으며 이상반응은 보고되지 않았다.",
+ "limit": "단일 기관 연구이고 기존 확립 치료와 직접 비교하지 않았다. 참가자의 66%가 백인이어서 다른 집단의 효과는 더 확인해야 한다.",
+ "against": "온라인 심리교육이 확립된 외상 치료를 대체할 수 있는지는 아직 확인되지 않았다.",
+ "use": "외상 후 스트레스 치료 접근성을 넓힐 때 온라인 모듈과 치료사 집단 세션을 보조 치료로 검토한다.",
+ "refs": [
+  {
+   "label": "Efficacy of a Hybrid Psychoeducational and Skills-Based Therapy for Adults With PTSD Related to Childhood Interpersonal Trauma 2026 · eClinicalMedicine",
+   "doi": "10.1016/j.eclinm.2026.104003",
+   "pmid": "42306493"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=online psychoeducation AND condition=Emotional Disorder; 45건 반환, 중재명 일치 0건",
+  "pubmed": "online psychoeducation AND Emotional Disorder; 197건",
+  "negative": "online psychoeducation AND Emotional Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference); 146건",
+  "safety": "online psychoeducation AND (adverse OR toxicity OR case report OR harm OR dropout); 25건"
+ },
+ "vs": "군 간 차이: Trauma PORTAL vs 통상 치료 PCL-5 8주 조정 평균차 -7.08 (95% CI -11.55~-2.61, d=.44), 16주 -7.00 (-11.83~-2.18)"
 }
