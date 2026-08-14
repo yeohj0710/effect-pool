@@ -1,20 +1,33 @@
 {
-  "id": "nutrition-prescription-food-selection-pos",
-  "subj": "nutrition prescription",
-  "claim": "과일·채소 처방은 대학생의 과일과 채소 섭취를 늘릴 수 있다",
-  "line": "대학생에게 과일·채소를 처방하면 섭취를 늘릴 수 있습니다",
-  "effect": "무작위시험 55명",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 55,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "과일·채소 처방은 식품 선택을 바꾸는 표준 치료가 아님",
-  "why": "대학 재학생을 과일·채소 처방군과 대조군에 배정하고 식이 섭취 변화를 비교한 예비 무작위시험입니다",
-  "saw": "학생 55명에서 두 군 모두 영양교육과 요리 시연을 받았고 처방군은 개인별 과일·채소 꾸러미를 추가로 받았습니다. 처방군에서 과일과 잎채소 섭취가 시작 시점보다 늘었습니다",
-  "limit": "표본이 55명이고 단일 대학의 예비시험이라 장기 식습관과 다른 집단에 대한 효과는 불확실합니다",
-  "against": "비심층 튀김 채소 섭취의 군 간 차이는 통계적으로 유의하지 않았습니다",
-  "use": "식품 선택을 바꾸는 처방 프로그램을 설계할 때 초기 근거로 참고할 수 있습니다",
-  "refs": [{ "label": "Modified produce prescription program in an HBCU 2026 · PLOS One", "doi": "10.1371/journal.pone.0354520", "pmid": "42520087" }],
-  "queried": { "date": "2026-08-06", "ctgov": "nutrition prescription AND Food Selection; 4건 반환, 중재명 일치 0건", "pubmed": "nutrition prescription AND Food Selection; 59편", "negative": "nutrition prescription AND Food Selection AND (no effect OR did not OR failed to OR negative OR no significant difference); 30편", "safety": "nutrition prescription AND Food Selection AND (adverse OR toxicity OR case report OR harm OR dropout); 11편" }
+ "id": "nutrition-prescription-food-selection-pos",
+ "subj": "영양 처방",
+ "claim": "과일·채소 처방은 대학생의 과일과 채소 섭취를 늘릴 수 있다",
+ "line": "대학생에게 과일·채소를 처방하면 섭취를 늘릴 수 있습니다",
+ "effect": "무작위시험 55명",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 55,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "과일·채소 처방은 식품 선택을 바꾸는 표준 치료가 아님",
+ "why": "대학 재학생을 과일·채소 처방군과 대조군에 배정하고 식이 섭취 변화를 비교한 예비 무작위시험입니다",
+ "saw": "학생 55명에서 두 군 모두 영양교육과 요리 시연을 받았고 처방군은 개인별 과일·채소 꾸러미를 추가로 받았습니다. 처방군에서 과일과 잎채소 섭취가 시작 시점보다 늘었습니다",
+ "limit": "표본이 55명이고 단일 대학의 예비시험이라 장기 식습관과 다른 집단에 대한 효과는 불확실합니다",
+ "against": "비심층 튀김 채소 섭취의 군 간 차이는 통계적으로 유의하지 않았습니다",
+ "use": "식품 선택을 바꾸는 처방 프로그램을 설계할 때 초기 근거로 참고할 수 있습니다",
+ "refs": [
+  {
+   "label": "Modified produce prescription program in an HBCU 2026 · PLOS One",
+   "doi": "10.1371/journal.pone.0354520",
+   "pmid": "42520087"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "nutrition prescription AND Food Selection; 4건 반환, 중재명 일치 0건",
+  "pubmed": "nutrition prescription AND Food Selection; 59편",
+  "negative": "nutrition prescription AND Food Selection AND (no effect OR did not OR failed to OR negative OR no significant difference); 30편",
+  "safety": "nutrition prescription AND Food Selection AND (adverse OR toxicity OR case report OR harm OR dropout); 11편"
+ },
+ "vs": "군 간 차이: 생산물 처방 vs 대조군 조리된 콩 섭취 χ2=17.63 (p=.014); 심층 조리하지 않은 채소 χ2=16.82 (p=.052)"
 }

@@ -1,28 +1,33 @@
 {
-  "id": "nurse-led-education-type-2-diabetes-pos",
-  "subj": "nurse-led education",
-  "claim": "원격 간호사 교육과 추적은 제2형 당뇨의 혈당 지표를 개선했다",
-  "line": "원격 간호사 교육은 제2형 당뇨병의 당화혈색소와 혈당을 개선했습니다",
-  "effect": "당화혈색소·혈당 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 66,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "간호사 교육은 의약품이 아닌 돌봄 중재다",
-  "why": "제2형 당뇨 환자를 원격으로 교육하고 매주 추적한 단일맹검 무작위시험에서 혈당과 인슐린 저항성 지표를 비교했다.",
-  "saw": "환자 66명을 교육군 33명과 대조군 33명으로 나눴다. 3개월 뒤 교육군의 공복혈당·당화혈색소·췌장 베타세포 기능·인슐린 감수성·저항성이 대조군보다 좋아졌다.",
-  "limit": "참가자가 66명이고 중재 기간이 3개월뿐이다. 연구진도 더 크고 긴 연구가 필요하다고 했다.",
-  "against": "장기 혈관 합병증과 실제 진료에서의 지속 효과는 아직 확인되지 않았다.",
-  "use": "제2형 당뇨 원격 교육을 설계할 때 매일 교육 메시지와 주간 간호사 추적을 시험하되 장기 혈당을 확인한다.",
-  "refs": [
-    { "label": "The Effect of Remote Nurse-Led Patient Education and Follow-Up on Glycemic Control and Metabolic Function in Patients With Type 2 Diabetes 2026 · BMC Nursing", "doi": "10.1186/s12912-026-04640-w", "pmid": "42210352" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=nurse-led education AND condition=Type 2 Diabetes; 26건 반환, 중재명 일치 0건",
-    "pubmed": "nurse-led education AND Type 2 Diabetes; 123건",
-    "negative": "nurse-led education AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 94건",
-    "safety": "nurse-led education AND (adverse OR toxicity OR case report OR harm OR dropout); 8건"
+ "id": "nurse-led-education-type-2-diabetes-pos",
+ "subj": "간호사 주도 교육",
+ "claim": "원격 간호사 교육과 추적은 제2형 당뇨의 혈당 지표를 개선했다",
+ "line": "원격 간호사 교육은 제2형 당뇨병의 당화혈색소와 혈당을 개선했습니다",
+ "effect": "당화혈색소·혈당 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 66,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "간호사 교육은 의약품이 아닌 돌봄 중재다",
+ "why": "제2형 당뇨 환자를 원격으로 교육하고 매주 추적한 단일맹검 무작위시험에서 혈당과 인슐린 저항성 지표를 비교했다.",
+ "saw": "환자 66명을 교육군 33명과 대조군 33명으로 나눴다. 3개월 뒤 교육군의 공복혈당·당화혈색소·췌장 베타세포 기능·인슐린 감수성·저항성이 대조군보다 좋아졌다.",
+ "limit": "참가자가 66명이고 중재 기간이 3개월뿐이다. 연구진도 더 크고 긴 연구가 필요하다고 했다.",
+ "against": "장기 혈관 합병증과 실제 진료에서의 지속 효과는 아직 확인되지 않았다.",
+ "use": "제2형 당뇨 원격 교육을 설계할 때 매일 교육 메시지와 주간 간호사 추적을 시험하되 장기 혈당을 확인한다.",
+ "refs": [
+  {
+   "label": "The Effect of Remote Nurse-Led Patient Education and Follow-Up on Glycemic Control and Metabolic Function in Patients With Type 2 Diabetes 2026 · BMC Nursing",
+   "doi": "10.1186/s12912-026-04640-w",
+   "pmid": "42210352"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=nurse-led education AND condition=Type 2 Diabetes; 26건 반환, 중재명 일치 0건",
+  "pubmed": "nurse-led education AND Type 2 Diabetes; 123건",
+  "negative": "nurse-led education AND Type 2 Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 94건",
+  "safety": "nurse-led education AND (adverse OR toxicity OR case report OR harm OR dropout); 8건"
+ },
+ "vs": "군 간 차이: 간호사 주도 원격 교육 vs 대조군 FBG·HbA1c·HOMA-β·HOMA-α·HOMA-IR 개선 p<.05"
 }

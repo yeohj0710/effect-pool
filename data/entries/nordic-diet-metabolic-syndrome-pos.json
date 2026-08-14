@@ -1,29 +1,39 @@
 {
-  "id": "nordic-diet-metabolic-syndrome-pos",
-  "subj": "노르딕 식단",
-  "claim": "건강한 노르딕 식단은 대사증후군 성인의 혈당·지질 지표를 개선할 가능성이 있습니다",
-  "line": "건강한 노르딕 식단은 대조 식단과 대사증후군 대사 지표가 달랐습니다",
-  "effect": "대사 지표 개선 가능성",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 200,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "노르딕 식단은 비약물 식이 중재이며 대사증후군의 의약품 허가 적응증이 아닙니다.",
-  "why": "대사증후군 성인을 무작위 배정한 SYSDIET 시험에서 건강한 노르딕 식단과 대조 식단의 대사 지표를 비교했습니다.",
-  "saw": "대사증후군 성인 200명이 18~24주간 건강한 노르딕 식단 또는 대조 식단을 따랐습니다. 노르딕 식단을 특징짓는 혈장 대사 점수는 HDL과 연관됐고 일부 대사 점수는 2시간 혈당·LDL·중성지방과 관련됐습니다.",
-  "limit": "대사체 점수와 결과 지표의 연관을 분석한 2차 분석이며, 모든 참가자가 혈액·소변 검체를 제공한 것은 아닙니다.",
-  "against": "대사체 패턴의 차이가 심혈관 사건이나 당뇨병 예방을 입증하지 않습니다.",
-  "use": "대사증후군 식이 연구에서 노르딕 식단의 식품 구성과 혈당·지질 지표를 함께 봅니다.",
-  "refs": [
-    { "label": "SYSDIET 건강한 노르딕 식단 무작위시험 대사체 분석", "doi": "10.1016/j.clnu.2021.12.031", "pmid": "35007813", "nct": "NCT00992641" },
-    { "label": "SYSDIET 노르딕 식단 염증 관련 유전자 분석", "doi": "10.1002/mnfr.201801405", "pmid": "30964598" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "Nordic diet AND Metabolic Syndrome · 12건 반환, 중재명 일치 3건",
-    "pubmed": "Nordic diet AND Metabolic Syndrome · 51편",
-    "negative": "Nordic diet AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 42편",
-    "safety": "Nordic diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 128편"
+ "id": "nordic-diet-metabolic-syndrome-pos",
+ "subj": "노르딕 식단",
+ "claim": "건강한 노르딕 식단은 대사증후군 성인의 혈당·지질 지표를 개선할 가능성이 있습니다",
+ "line": "건강한 노르딕 식단은 대조 식단과 대사증후군 대사 지표가 달랐습니다",
+ "effect": "대사 지표 개선 가능성",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 200,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "노르딕 식단은 비약물 식이 중재이며 대사증후군의 의약품 허가 적응증이 아닙니다.",
+ "why": "대사증후군 성인을 무작위 배정한 SYSDIET 시험에서 건강한 노르딕 식단과 대조 식단의 대사 지표를 비교했습니다.",
+ "saw": "대사증후군 성인 200명이 18~24주간 건강한 노르딕 식단 또는 대조 식단을 따랐습니다. 노르딕 식단을 특징짓는 혈장 대사 점수는 HDL과 연관됐고 일부 대사 점수는 2시간 혈당·LDL·중성지방과 관련됐습니다.",
+ "limit": "대사체 점수와 결과 지표의 연관을 분석한 2차 분석이며, 모든 참가자가 혈액·소변 검체를 제공한 것은 아닙니다.",
+ "against": "대사체 패턴의 차이가 심혈관 사건이나 당뇨병 예방을 입증하지 않습니다.",
+ "use": "대사증후군 식이 연구에서 노르딕 식단의 식품 구성과 혈당·지질 지표를 함께 봅니다.",
+ "refs": [
+  {
+   "label": "SYSDIET 건강한 노르딕 식단 무작위시험 대사체 분석",
+   "doi": "10.1016/j.clnu.2021.12.031",
+   "pmid": "35007813",
+   "nct": "NCT00992641"
+  },
+  {
+   "label": "SYSDIET 노르딕 식단 염증 관련 유전자 분석",
+   "doi": "10.1002/mnfr.201801405",
+   "pmid": "30964598"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "Nordic diet AND Metabolic Syndrome · 12건 반환, 중재명 일치 3건",
+  "pubmed": "Nordic diet AND Metabolic Syndrome · 51편",
+  "negative": "Nordic diet AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 42편",
+  "safety": "Nordic diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 128편"
+ },
+ "vs": "군 간 차이: 건강한 노르디크 식단 vs 평균 식단 대사증후군 1302개 전사체 탐참 프로브 차등 발현(p<.05); HDL β=.05 (95% CI .02~.08, p=.001), 중성지방질 β=-.06 (-.09~-.03, p<.001)"
 }

@@ -1,28 +1,33 @@
 {
-  "id": "nordic-diet-coronary-disease-pos",
-  "subj": "북유럽 식단",
-  "claim": "북유럽 식단을 더 잘 지키는 사람에서 관상동맥질환 위험이 낮게 관찰되지만 인과관계는 확정되지 않았습니다",
-  "line": "북유럽 식단을 잘 지킨 사람은 관상동맥질환 위험이 낮았습니다",
-  "effect": "관상동맥질환 위험 감소 관찰",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "북유럽 식단은 관상동맥질환의 허가 치료가 아니라 식사 패턴입니다.",
-  "why": "북유럽 식단 준수도와 관상동맥질환 발생 또는 위험을 조사한 코호트와 무작위시험을 종합했습니다.",
-  "saw": "2025년 체계적 문헌고찰·메타분석은 코호트 연구와 무작위시험을 함께 검토했고, 북유럽 식단 준수도가 높은 사람에서 관상동맥질환 발생 위험이 11% 낮게 관찰됐다고 보고했습니다.",
-  "limit": "관상동맥질환 위험 결과는 관찰연구의 영향을 받으며, 식단 준수도가 높은 사람의 다른 생활습관을 완전히 분리하기 어렵습니다.",
-  "against": "관찰된 연관성만으로 북유럽 식단이 관상동맥질환을 예방한다고 단정할 수 없습니다.",
-  "use": "관상동맥질환 위험 평가에서 금연·운동·약물치료와 함께 식사 패턴을 상담할 때 참고합니다.",
-  "refs": [
-    { "label": "북유럽 식단과 만성질환 위험 체계적 문헌고찰·메타분석", "doi": "10.1007/s00394-025-03820-9", "pmid": "41094311" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "Nordic diet AND Coronary Disease · 3건",
-    "pubmed": "Nordic diet AND Coronary Disease · 33건",
-    "negative": "Nordic diet AND Coronary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 16건",
-    "safety": "Nordic diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 128건"
+ "id": "nordic-diet-coronary-disease-pos",
+ "subj": "북유럽 식단",
+ "claim": "북유럽 식단을 더 잘 지키는 사람에서 관상동맥질환 위험이 낮게 관찰되지만 인과관계는 확정되지 않았습니다",
+ "line": "북유럽 식단을 잘 지킨 사람은 관상동맥질환 위험이 낮았습니다",
+ "effect": "관상동맥질환 위험 감소 관찰",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "북유럽 식단은 관상동맥질환의 허가 치료가 아니라 식사 패턴입니다.",
+ "why": "북유럽 식단 준수도와 관상동맥질환 발생 또는 위험을 조사한 코호트와 무작위시험을 종합했습니다.",
+ "saw": "2025년 체계적 문헌고찰·메타분석은 코호트 연구와 무작위시험을 함께 검토했고, 북유럽 식단 준수도가 높은 사람에서 관상동맥질환 발생 위험이 11% 낮게 관찰됐다고 보고했습니다.",
+ "limit": "관상동맥질환 위험 결과는 관찰연구의 영향을 받으며, 식단 준수도가 높은 사람의 다른 생활습관을 완전히 분리하기 어렵습니다.",
+ "against": "관찰된 연관성만으로 북유럽 식단이 관상동맥질환을 예방한다고 단정할 수 없습니다.",
+ "use": "관상동맥질환 위험 평가에서 금연·운동·약물치료와 함께 식사 패턴을 상담할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "북유럽 식단과 만성질환 위험 체계적 문헌고찰·메타분석",
+   "doi": "10.1007/s00394-025-03820-9",
+   "pmid": "41094311"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "Nordic diet AND Coronary Disease · 3건",
+  "pubmed": "Nordic diet AND Coronary Disease · 33건",
+  "negative": "Nordic diet AND Coronary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 16건",
+  "safety": "Nordic diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 128건"
+ },
+ "vs": "군 간 차이: 높은 북유럽 식단 순응도 vs 낮은 순응도 심혈관 사망 RR 0.84 (95% CI 0.79~0.80), 관상동맥질환 발생 11% 낮음; RCT에서 혈당·인슐린·지질·혈압 개선"
 }
