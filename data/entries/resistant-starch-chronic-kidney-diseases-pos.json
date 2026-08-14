@@ -1,37 +1,38 @@
 {
-  "id": "resistant-starch-chronic-kidney-diseases-pos",
-  "subj": "resistant starch",
-  "claim": "저항전분이 만성콩팥병 환자의 요독소와 혈액요소질소를 줄일 수 있다",
-  "line": "저항전분은 만성콩팥병 환자의 요독소와 혈액요소질소를 줄였습니다.",
-  "effect": "indoxyl sulfate·BUN 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 355,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "저항전분은 허가 적응증이 없는 식품 성분입니다.",
-  "why": "만성콩팥병 환자를 대상으로 저항전분 보충과 위약을 비교한 무작위시험 10편을 메타분석했습니다.",
-  "saw": "355명 메타분석에서 저항전분은 indoxyl sulfate SMD -0.37, BUN SMD -0.30으로 줄였지만 IL-6·p-cresyl sulfate·알부민·인·TNF-α는 유의하게 바꾸지 않았습니다.",
-  "limit": "시험 수와 표본이 제한적이고 투여량과 중재 기간이 달랐습니다.",
-  "against": "염증 표지와 혈관 기능의 일관된 개선은 확인되지 않았습니다.",
-  "use": "만성콩팥병의 장내 미생물·요독소 관리에서 저항전분의 탐색적 보조 근거로만 씁니다.",
-  "refs": [
-    {
-      "label": "Effects of resistant starch supplementation on renal function and inflammatory markers in patients with chronic kidney disease: a meta-analysis of randomized controlled trials",
-      "doi": "10.1080/0886022X.2024.2416609",
-      "pmid": "39444299"
-    },
-    {
-      "label": "Effects of High Amylose-Resistant Starch on Gut Microbiota and Uremic Toxin Levels in Patients With Stage-G3a-G4 Chronic Kidney Disease: A Randomized Trial",
-      "doi": "10.1053/j.jrn.2024.09.005",
-      "pmid": "39362281"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "resistant starch AND Chronic Kidney Diseases · 3건",
-    "pubmed": "resistant starch AND Chronic Kidney Diseases · 29편",
-    "negative": "resistant starch AND Chronic Kidney Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) · 1편",
-    "safety": "resistant starch AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 249편"
+ "id": "resistant-starch-chronic-kidney-diseases-pos",
+ "subj": "저항전분",
+ "claim": "저항전분이 만성콩팥병 환자의 요독소와 혈액요소질소를 줄일 수 있다",
+ "line": "저항전분은 만성콩팥병 환자의 요독소와 혈액요소질소를 줄였습니다.",
+ "effect": "indoxyl sulfate·BUN 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 355,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "저항전분은 허가 적응증이 없는 식품 성분입니다.",
+ "why": "만성콩팥병 환자를 대상으로 저항전분 보충과 위약을 비교한 무작위시험 10편을 메타분석했습니다.",
+ "saw": "355명 메타분석에서 저항전분은 indoxyl sulfate SMD -0.37, BUN SMD -0.30으로 줄였지만 IL-6·p-cresyl sulfate·알부민·인·TNF-α는 유의하게 바꾸지 않았습니다.",
+ "limit": "시험 수와 표본이 제한적이고 투여량과 중재 기간이 달랐습니다.",
+ "against": "염증 표지와 혈관 기능의 일관된 개선은 확인되지 않았습니다.",
+ "use": "만성콩팥병의 장내 미생물·요독소 관리에서 저항전분의 탐색적 보조 근거로만 씁니다.",
+ "refs": [
+  {
+   "label": "Effects of resistant starch supplementation on renal function and inflammatory markers in patients with chronic kidney disease: a meta-analysis of randomized controlled trials",
+   "doi": "10.1080/0886022X.2024.2416609",
+   "pmid": "39444299"
+  },
+  {
+   "label": "Effects of High Amylose-Resistant Starch on Gut Microbiota and Uremic Toxin Levels in Patients With Stage-G3a-G4 Chronic Kidney Disease: A Randomized Trial",
+   "doi": "10.1053/j.jrn.2024.09.005",
+   "pmid": "39362281"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "resistant starch AND Chronic Kidney Diseases · 3건",
+  "pubmed": "resistant starch AND Chronic Kidney Diseases · 29편",
+  "negative": "resistant starch AND Chronic Kidney Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) · 1편",
+  "safety": "resistant starch AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 249편"
+ },
+ "vs": "상대 효과: 저항전분 vs 위약 만성 신장질환 인독실 황산염 SMD -0.37 (95% CI -0.70~-0.04; p=.03), 혈중요소질소 BUN -0.30 (-0.57~-0.02; p=.03); IL-6·p-CS·알부민·인·TNF-α 차이 없음"
 }

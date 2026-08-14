@@ -1,28 +1,33 @@
 {
-  "id": "resistance-training-sarcopenia-pos",
-  "subj": "resistance training",
-  "claim": "중등도 저항훈련이 노인 근감소증의 악력을 개선한다",
-  "line": "저항훈련은 근감소증 악력을 높였지만 보행속도는 우월하지 않았습니다.",
-  "effect": "악력 MD 2.37",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1267,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "저항운동은 의약품 허가 적응증이 아닌 운동 중재다",
-  "why": "근감소증 노인의 운동 유형·강도를 비교한 네트워크 메타분석에서 중등도 저항훈련이 악력 개선에 가장 뚜렷한 신호를 보였다.",
-  "saw": "무작위시험 19개, 1267명이 포함됐다. 중등도 저항훈련의 악력 평균차는 2.37(95% CI 0.76~3.98)이었지만 보행속도에서는 어떤 중재도 통상 관리보다 유의하게 우월하지 않았다.",
-  "limit": "근육량 지표의 국소적 불일치와 결과별 불확실성이 있었고 단일 최적 운동 처방은 확인되지 않았다.",
-  "against": "보행속도에서는 유의한 우월성이 없었고 모든 결과에 적용할 하나의 운동 강도는 제시되지 않았다.",
-  "use": "근감소증 운동 처방에서 악력 개선을 목표로 중등도 저항훈련을 검토하되 결과별 근거 확실성을 따로 본다.",
-  "refs": [
-    { "label": "Exercise Types and Intensities in Older Adults With Sarcopenia 2026 · European Geriatric Medicine", "doi": "10.1007/s41999-026-01570-3", "pmid": "42560629" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=resistance training AND condition=Sarcopenia; 260건 반환, 중재명 일치 14건",
-    "pubmed": "resistance training AND Sarcopenia; 1513건",
-    "negative": "resistance training AND Sarcopenia AND (no effect OR did not OR failed to OR negative OR no significant difference); 1141건",
-    "safety": "resistance training AND (adverse OR toxicity OR case report OR harm OR dropout); 223건"
+ "id": "resistance-training-sarcopenia-pos",
+ "subj": "저항운동",
+ "claim": "중등도 저항훈련이 노인 근감소증의 악력을 개선한다",
+ "line": "저항훈련은 근감소증 악력을 높였지만 보행속도는 우월하지 않았습니다.",
+ "effect": "악력 MD 2.37",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1267,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "저항운동은 의약품 허가 적응증이 아닌 운동 중재다",
+ "why": "근감소증 노인의 운동 유형·강도를 비교한 네트워크 메타분석에서 중등도 저항훈련이 악력 개선에 가장 뚜렷한 신호를 보였다.",
+ "saw": "무작위시험 19개, 1267명이 포함됐다. 중등도 저항훈련의 악력 평균차는 2.37(95% CI 0.76~3.98)이었지만 보행속도에서는 어떤 중재도 통상 관리보다 유의하게 우월하지 않았다.",
+ "limit": "근육량 지표의 국소적 불일치와 결과별 불확실성이 있었고 단일 최적 운동 처방은 확인되지 않았다.",
+ "against": "보행속도에서는 유의한 우월성이 없었고 모든 결과에 적용할 하나의 운동 강도는 제시되지 않았다.",
+ "use": "근감소증 운동 처방에서 악력 개선을 목표로 중등도 저항훈련을 검토하되 결과별 근거 확실성을 따로 본다.",
+ "refs": [
+  {
+   "label": "Exercise Types and Intensities in Older Adults With Sarcopenia 2026 · European Geriatric Medicine",
+   "doi": "10.1007/s41999-026-01570-3",
+   "pmid": "42560629"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=resistance training AND condition=Sarcopenia; 260건 반환, 중재명 일치 14건",
+  "pubmed": "resistance training AND Sarcopenia; 1513건",
+  "negative": "resistance training AND Sarcopenia AND (no effect OR did not OR failed to OR negative OR no significant difference); 1141건",
+  "safety": "resistance training AND (adverse OR toxicity OR case report OR harm OR dropout); 223건"
+ },
+ "vs": "상대 효과: 저항운동 vs 루틴 대조군 근감소증 노인 악력 MD 2.37 (95% CI 0.76~3.98); 검사된 다른 결과는 특정 운동법이 유의하게 우수하지 않음"
 }

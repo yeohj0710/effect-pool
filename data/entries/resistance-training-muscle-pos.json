@@ -1,28 +1,33 @@
 {
-  "id": "resistance-training-muscle-pos",
-  "subj": "resistance training",
-  "claim": "중등도 저항훈련이 노인 근감소증의 근육 기능을 개선한다",
-  "line": "저항훈련은 근감소증 노인의 악력을 높였지만 근육량은 불확실했습니다.",
-  "effect": "악력 MD 2.37",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1267,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "저항운동은 의약품 허가 적응증이 아닌 운동 중재다",
-  "why": "노인 근감소증 운동 네트워크 메타분석에서 중등도 저항훈련이 악력과 일부 근육 기능 지표에 개선 신호를 보였다.",
-  "saw": "19개 무작위시험, 1267명에서 중등도 저항훈련의 악력 평균차는 2.37이었다. 근육량 지표와 보행속도 결과는 불확실하거나 통상 관리와 차이가 없었다.",
-  "limit": "운동 강도·빈도·기간이 연구마다 달랐고 근육량 결과에는 불일치가 있었다.",
-  "against": "근육량과 보행속도에서 저항훈련의 일관된 우월성은 확인되지 않았다.",
-  "use": "노인 근육 기능 프로그램을 설계할 때 악력과 근육량을 별도 결과로 평가한다.",
-  "refs": [
-    { "label": "Exercise Types and Intensities in Older Adults With Sarcopenia 2026 · European Geriatric Medicine", "doi": "10.1007/s41999-026-01570-3", "pmid": "42560629" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=resistance training AND condition=Muscle; 1555건 반환, 중재명 일치 8건",
-    "pubmed": "resistance training AND Muscle; 19146건",
-    "negative": "resistance training AND Muscle AND (no effect OR did not OR failed to OR negative OR no significant difference); 14936건",
-    "safety": "resistance training AND (adverse OR toxicity OR case report OR harm OR dropout); 1833건"
+ "id": "resistance-training-muscle-pos",
+ "subj": "저항운동",
+ "claim": "중등도 저항훈련이 노인 근감소증의 근육 기능을 개선한다",
+ "line": "저항훈련은 근감소증 노인의 악력을 높였지만 근육량은 불확실했습니다.",
+ "effect": "악력 MD 2.37",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1267,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "저항운동은 의약품 허가 적응증이 아닌 운동 중재다",
+ "why": "노인 근감소증 운동 네트워크 메타분석에서 중등도 저항훈련이 악력과 일부 근육 기능 지표에 개선 신호를 보였다.",
+ "saw": "19개 무작위시험, 1267명에서 중등도 저항훈련의 악력 평균차는 2.37이었다. 근육량 지표와 보행속도 결과는 불확실하거나 통상 관리와 차이가 없었다.",
+ "limit": "운동 강도·빈도·기간이 연구마다 달랐고 근육량 결과에는 불일치가 있었다.",
+ "against": "근육량과 보행속도에서 저항훈련의 일관된 우월성은 확인되지 않았다.",
+ "use": "노인 근육 기능 프로그램을 설계할 때 악력과 근육량을 별도 결과로 평가한다.",
+ "refs": [
+  {
+   "label": "Exercise Types and Intensities in Older Adults With Sarcopenia 2026 · European Geriatric Medicine",
+   "doi": "10.1007/s41999-026-01570-3",
+   "pmid": "42560629"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=resistance training AND condition=Muscle; 1555건 반환, 중재명 일치 8건",
+  "pubmed": "resistance training AND Muscle; 19146건",
+  "negative": "resistance training AND Muscle AND (no effect OR did not OR failed to OR negative OR no significant difference); 14936건",
+  "safety": "resistance training AND (adverse OR toxicity OR case report OR harm OR dropout); 1833건"
+ },
+ "vs": "상대 효과: 저항운동 vs 루틴 대조군 근감소증 노인 악력 MD 2.37 (95% CI 0.76~3.98); 검사된 다른 결과는 특정 운동법이 유의하게 우수하지 않음"
 }
