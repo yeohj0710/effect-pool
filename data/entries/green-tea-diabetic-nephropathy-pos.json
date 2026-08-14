@@ -1,28 +1,33 @@
 {
-  "id": "green-tea-diabetic-nephropathy-pos",
-  "subj": "green tea",
-  "claim": "녹차는 제2형당뇨병성 신증의 당화혈색소와 지질을 개선할 가능성이 있다",
-  "line": "당뇨병성 신증에서 녹차 섭취는 HbA1c·총콜레스테롤을 낮췄다.",
-  "effect": "HbA1c·총콜레스테롤 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 66,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "녹차는 의약품이 아닌 식품·음료 중재입니다.",
-  "why": "제2형 당뇨병성 신증 환자에서 녹차가 신장 기능·혈당·지질 지표를 바꾸는지 무작위시험으로 평가했습니다.",
-  "saw": "제2형 당뇨병성 신증 환자 66명을 녹차 두 군과 대조군으로 무작위 배정한 12주 시험에서 녹차군은 대조군보다 총콜레스테롤과 HbA1c가 줄고 HDL 콜레스테롤이 늘었습니다. 다른 신장 지표에는 유의한 차이가 없었습니다.",
-  "limit": "64명이 시험을 완료했고 녹차 섭취량에 따라 여러 군을 비교한 소규모 단기시험이라 신장 보호나 장기 합병증 예방을 말할 수 없습니다.",
-  "against": "대부분의 신장 기능 지표는 유의하게 달라지지 않았습니다.",
-  "use": "당뇨병성 신증의 녹차 연구를 해석할 때 HbA1c·지질 신호와 신장 기능 결과를 분리합니다.",
-  "refs": [
-    { "label": "제2형 당뇨병성 신증 녹차 무작위시험", "doi": "10.3389/fnut.2023.1253275", "pmid": "38162524" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "green tea AND Diabetic Nephropathy — 4건 반환",
-    "pubmed": "\"green tea\" AND \"diabetic nephropathy\" — 22편; 무작위 검색 5편",
-    "negative": "\"green tea\" AND \"diabetic nephropathy\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 0편",
-    "safety": "\"green tea\" AND \"diabetic nephropathy\" AND (adverse OR toxicity OR harm OR safety) — 3편"
+ "id": "green-tea-diabetic-nephropathy-pos",
+ "subj": "녹차",
+ "claim": "녹차는 제2형당뇨병성 신증의 당화혈색소와 지질을 개선할 가능성이 있다",
+ "line": "당뇨병성 신증에서 녹차 섭취는 HbA1c·총콜레스테롤을 낮췄다.",
+ "effect": "HbA1c·총콜레스테롤 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 66,
+ "vs": "제2형당뇨병성 신증 환자 66명 무작위 3군 시험(녹차 3잔 22명·2잔 22명·대조 22명; 64명 완료); 하루 3잔군 대비 대조군에서 총콜레스테롤(P=.009)·HbA1c(P=.006)가 낮고 HDL 콜레스테롤(P=.02)이 높았으며 다른 신장 지표는 유의한 차이가 없었음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "녹차는 의약품이 아닌 식품·음료 중재입니다.",
+ "why": "제2형 당뇨병성 신증 환자에서 녹차가 신장 기능·혈당·지질 지표를 바꾸는지 무작위시험으로 평가했습니다.",
+ "saw": "제2형 당뇨병성 신증 환자 66명을 녹차 두 군과 대조군으로 무작위 배정한 12주 시험에서 녹차군은 대조군보다 총콜레스테롤과 HbA1c가 줄고 HDL 콜레스테롤이 늘었습니다. 다른 신장 지표에는 유의한 차이가 없었습니다.",
+ "limit": "64명이 시험을 완료했고 녹차 섭취량에 따라 여러 군을 비교한 소규모 단기시험이라 신장 보호나 장기 합병증 예방을 말할 수 없습니다.",
+ "against": "대부분의 신장 기능 지표는 유의하게 달라지지 않았습니다.",
+ "use": "당뇨병성 신증의 녹차 연구를 해석할 때 HbA1c·지질 신호와 신장 기능 결과를 분리합니다.",
+ "refs": [
+  {
+   "label": "제2형 당뇨병성 신증 녹차 무작위시험",
+   "doi": "10.3389/fnut.2023.1253275",
+   "pmid": "38162524"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "green tea AND Diabetic Nephropathy — 4건 반환",
+  "pubmed": "\"green tea\" AND \"diabetic nephropathy\" — 22편; 무작위 검색 5편",
+  "negative": "\"green tea\" AND \"diabetic nephropathy\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 0편",
+  "safety": "\"green tea\" AND \"diabetic nephropathy\" AND (adverse OR toxicity OR harm OR safety) — 3편"
+ }
 }

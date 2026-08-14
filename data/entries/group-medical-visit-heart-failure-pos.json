@@ -1,28 +1,33 @@
 {
-  "id": "group-medical-visit-heart-failure-pos",
-  "subj": "group medical visit",
-  "claim": "심부전 공유 진료는 지식을 높였지만 자기관리 점수는 바꾸지 못했다",
-  "line": "심부전 공유 진료는 지식은 높였지만 자기관리는 바꾸지 못했다.",
-  "effect": "지식 향상 · 자기관리 차이 없음",
-  "tier": "trial",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "공유 진료는 심부전 치료제로 허가된 약물이 아닌 진료 전달 방식이다.",
-  "why": "간호사 주도 공유 진료와 표준 진료를 비교한 파일럿 무작위 연구에서 심부전 지식과 자기관리 지수를 8주에 측정했다.",
-  "saw": "공유 진료군의 심부전 지식 점수는 대조군보다 더 좋아졌지만 전체 자기관리 지수 변화는 군 간 차이가 없었다.",
-  "limit": "파일럿 연구이고 초록에 표본 수가 제시되지 않았으며 추적 기간이 8주로 짧다.",
-  "against": "공유 진료가 심부전 재입원이나 사망을 줄인다고 판단할 결과는 아직 없다.",
-  "use": "심부전 교육에 공유 진료를 적용할 때 지식과 자기관리뿐 아니라 재입원도 별도로 추적한다.",
-  "refs": [
-    { "label": "Yehle 2009 · Heart & Lung · 파일럿 무작위 연구", "doi": "10.1016/j.hrtlng.2008.04.004", "pmid": "19150528" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "group medical visit AND Heart Failure · 42건",
-    "pubmed": "group medical visit AND Heart Failure · 1536건",
-    "negative": "group medical visit AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 907건",
-    "safety": "group medical visit AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 13646건"
+ "id": "group-medical-visit-heart-failure-pos",
+ "subj": "집단 진료",
+ "claim": "심부전 공유 진료는 지식을 높였지만 자기관리 점수는 바꾸지 못했다",
+ "line": "심부전 공유 진료는 지식은 높였지만 자기관리는 바꾸지 못했다.",
+ "effect": "지식 향상 · 자기관리 차이 없음",
+ "tier": "trial",
+ "dir": "open",
+ "n": null,
+ "vs": "심부전 성인 무작위시험; 간호사 주도 공유 진료군 대비 표준진료군의 8주 심부전 지식 점수 군·시간 상호작용 F=4.90(df=1.21, P=.038)은 유의했지만 자기관리 지수 변화는 군간 차이가 없었음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "공유 진료는 심부전 치료제로 허가된 약물이 아닌 진료 전달 방식이다.",
+ "why": "간호사 주도 공유 진료와 표준 진료를 비교한 파일럿 무작위 연구에서 심부전 지식과 자기관리 지수를 8주에 측정했다.",
+ "saw": "공유 진료군의 심부전 지식 점수는 대조군보다 더 좋아졌지만 전체 자기관리 지수 변화는 군 간 차이가 없었다.",
+ "limit": "파일럿 연구이고 초록에 표본 수가 제시되지 않았으며 추적 기간이 8주로 짧다.",
+ "against": "공유 진료가 심부전 재입원이나 사망을 줄인다고 판단할 결과는 아직 없다.",
+ "use": "심부전 교육에 공유 진료를 적용할 때 지식과 자기관리뿐 아니라 재입원도 별도로 추적한다.",
+ "refs": [
+  {
+   "label": "Yehle 2009 · Heart & Lung · 파일럿 무작위 연구",
+   "doi": "10.1016/j.hrtlng.2008.04.004",
+   "pmid": "19150528"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "group medical visit AND Heart Failure · 42건",
+  "pubmed": "group medical visit AND Heart Failure · 1536건",
+  "negative": "group medical visit AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 907건",
+  "safety": "group medical visit AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 13646건"
+ }
 }

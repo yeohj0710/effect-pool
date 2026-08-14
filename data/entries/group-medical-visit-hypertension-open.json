@@ -1,28 +1,34 @@
 {
-  "id": "group-medical-visit-hypertension-open",
-  "subj": "group medical visit",
-  "claim": "그룹 진료는 케냐 당뇨병·고혈압 환자의 혈압을 낮출 가능성이 있지만 확정되지 않았다",
-  "line": "그룹 진료로 혈압은 조금 낮아졌지만 효과는 확정되지 않았다.",
-  "effect": "GMV -3.3mmHg",
-  "tier": "trial",
-  "dir": "open",
-  "n": 2890,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "그룹 진료는 고혈압 치료제로 허가된 약물이 아닌 진료 전달 방식이다.",
-  "why": "케냐 24개 클러스터에서 당뇨병 또는 고혈압 환자 2890명을 일반 진료, 소액금융, 그룹 진료 조합에 배정해 1년 수축기 혈압을 비교했다.",
-  "saw": "일반 진료 대비 그룹 진료의 수축기 혈압 감소 차이는 3.3mmHg였고 98.3% 신뢰구간은 -7.8~1.2mmHg로 통계 기준을 충족하지 못했다.",
-  "limit": "그룹 진료와 소액금융을 함께 비교한 군이 있고, 사전 설정한 다중비교 기준에서 유의하지 않았다.",
-  "against": "그룹 진료만으로 고혈압을 조절한다고 확정할 수 없다.",
-  "use": "자원이 제한된 고혈압 진료에서 그룹 진료를 도입할 때 혈압 변화와 사회경제적 접근성을 함께 평가한다.",
-  "refs": [
-    { "label": "Vedanthan 2021 · Journal of the American College of Cardiology · 클러스터 무작위시험", "doi": "10.1016/j.jacc.2021.03.002", "pmid": "33888251", "nct": "NCT02501746" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "group medical visit AND Hypertension · 49건",
-    "pubmed": "group medical visit AND Hypertension · 4425건",
-    "negative": "group medical visit AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) · 2523건",
-    "safety": "group medical visit AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 13646건"
+ "id": "group-medical-visit-hypertension-open",
+ "subj": "집단 진료",
+ "claim": "그룹 진료는 케냐 당뇨병·고혈압 환자의 혈압을 낮출 가능성이 있지만 확정되지 않았다",
+ "line": "그룹 진료로 혈압은 조금 낮아졌지만 효과는 확정되지 않았다.",
+ "effect": "GMV -3.3mmHg",
+ "tier": "trial",
+ "dir": "open",
+ "n": 2890,
+ "vs": "케냐 당뇨병·고혈압 환자 2,890명 4군 군집 무작위시험(통상진료 708명·소액금융 709명·집단진료 740명·집단진료+소액금융 733명); 1년 수축기혈압 감소는 각각 −11.4·−14.8·−14.7·−16.4 mmHg였고 통상진료 대비 조정 차이는 집단진료 −3.3 mmHg(98.3% CI −7.8~1.2), 집단진료+소액금융 −3.9 mmHg(−8.5~0.7), 소액금융 −2.3 mmHg(−7.0~2.4)로 유의수준에 도달하지 않음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "그룹 진료는 고혈압 치료제로 허가된 약물이 아닌 진료 전달 방식이다.",
+ "why": "케냐 24개 클러스터에서 당뇨병 또는 고혈압 환자 2890명을 일반 진료, 소액금융, 그룹 진료 조합에 배정해 1년 수축기 혈압을 비교했다.",
+ "saw": "일반 진료 대비 그룹 진료의 수축기 혈압 감소 차이는 3.3mmHg였고 98.3% 신뢰구간은 -7.8~1.2mmHg로 통계 기준을 충족하지 못했다.",
+ "limit": "그룹 진료와 소액금융을 함께 비교한 군이 있고, 사전 설정한 다중비교 기준에서 유의하지 않았다.",
+ "against": "그룹 진료만으로 고혈압을 조절한다고 확정할 수 없다.",
+ "use": "자원이 제한된 고혈압 진료에서 그룹 진료를 도입할 때 혈압 변화와 사회경제적 접근성을 함께 평가한다.",
+ "refs": [
+  {
+   "label": "Vedanthan 2021 · Journal of the American College of Cardiology · 클러스터 무작위시험",
+   "doi": "10.1016/j.jacc.2021.03.002",
+   "pmid": "33888251",
+   "nct": "NCT02501746"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "group medical visit AND Hypertension · 49건",
+  "pubmed": "group medical visit AND Hypertension · 4425건",
+  "negative": "group medical visit AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) · 2523건",
+  "safety": "group medical visit AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 13646건"
+ }
 }

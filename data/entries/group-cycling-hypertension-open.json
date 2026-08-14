@@ -1,28 +1,33 @@
 {
-  "id": "group-cycling-hypertension-open",
-  "subj": "group cycling",
-  "claim": "집단 자전거 운동은 고혈압 노인의 혈압을 낮추지 못했지만 작업기억을 개선했다",
-  "line": "고혈압 노인에서 자전거 운동 뒤 혈압은 같았지만 작업기억은 좋아졌다.",
-  "effect": "혈압 변화 없음·작업기억 개선",
-  "tier": "trial",
-  "dir": "open",
-  "n": 128,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "group cycling은 약물이 아닌 운동 중재다.",
-  "why": "고혈압 노인에서 중등도 자전거 운동과 활동형 게임 운동의 혈압·실행기능 효과를 평가한 무작위 대조시험이다.",
-  "saw": "128명이 활동형 게임 운동 41명, 자전거 운동 44명, 대조군 43명으로 무작위 배정됐다. 중재군은 16주 동안 주 3회 60분 운동했다. 두 중재군과 대조군 사이의 수축기·이완기 혈압 변화에는 유의한 차이가 없었다. 두 중재군의 작업기억은 대조군보다 좋아졌고, 자전거 운동군의 변화는 -470.1ms(P=.021)였다. 억제와 인지 유연성에는 차이가 없었다.",
-  "limit": "자전거 운동과 활동형 게임 운동을 비교한 16주 단일 무작위시험이며, 집단 운동의 사회적 요소나 장기 혈압 효과는 평가하지 않았다.",
-  "against": "혈압을 낮추는 치료로 해석할 근거는 없고, 작업기억 결과만 제한적으로 확인됐다.",
-  "use": "고혈압 노인의 운동 선택에서 인지 기능 신호와 혈압 무효과를 함께 설명하는 근거로 기록한다.",
-  "refs": [
-    { "label": "Effects of exergame and bicycle exercise intervention on blood pressure and executive function in older adults with hypertension", "doi": "10.1016/j.exger.2023.112099", "pmid": "36681131" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "group cycling AND Hypertension 쨌 시험 6건",
-    "pubmed": "group cycling AND Hypertension 쨌 0건; bicycle exercise AND hypertension 쨌 PMID36681131 직접 확인",
-    "negative": "group cycling AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) 쨌 1508건",
-    "safety": "group cycling AND Hypertension AND (adverse OR toxicity OR case report OR harm OR safety) 쨌 780건"
+ "id": "group-cycling-hypertension-open",
+ "subj": "집단 자전거 운동",
+ "claim": "집단 자전거 운동은 고혈압 노인의 혈압을 낮추지 못했지만 작업기억을 개선했다",
+ "line": "고혈압 노인에서 자전거 운동 뒤 혈압은 같았지만 작업기억은 좋아졌다.",
+ "effect": "혈압 변화 없음·작업기억 개선",
+ "tier": "trial",
+ "dir": "open",
+ "n": 128,
+ "vs": "고혈압 노인 128명 3군 무작위시험(엑서게임 41명·자전거 44명·대조 43명); 16주 자전거군 대비 정상생활 대조군의 수축기·이완기혈압 변화는 유의하지 않았으나(P>.05), 작업기억 반응시간은 자전거군 −470.1 ms(P=.021)로 개선됨",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "group cycling은 약물이 아닌 운동 중재다.",
+ "why": "고혈압 노인에서 중등도 자전거 운동과 활동형 게임 운동의 혈압·실행기능 효과를 평가한 무작위 대조시험이다.",
+ "saw": "128명이 활동형 게임 운동 41명, 자전거 운동 44명, 대조군 43명으로 무작위 배정됐다. 중재군은 16주 동안 주 3회 60분 운동했다. 두 중재군과 대조군 사이의 수축기·이완기 혈압 변화에는 유의한 차이가 없었다. 두 중재군의 작업기억은 대조군보다 좋아졌고, 자전거 운동군의 변화는 -470.1ms(P=.021)였다. 억제와 인지 유연성에는 차이가 없었다.",
+ "limit": "자전거 운동과 활동형 게임 운동을 비교한 16주 단일 무작위시험이며, 집단 운동의 사회적 요소나 장기 혈압 효과는 평가하지 않았다.",
+ "against": "혈압을 낮추는 치료로 해석할 근거는 없고, 작업기억 결과만 제한적으로 확인됐다.",
+ "use": "고혈압 노인의 운동 선택에서 인지 기능 신호와 혈압 무효과를 함께 설명하는 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Effects of exergame and bicycle exercise intervention on blood pressure and executive function in older adults with hypertension",
+   "doi": "10.1016/j.exger.2023.112099",
+   "pmid": "36681131"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "group cycling AND Hypertension 쨌 시험 6건",
+  "pubmed": "group cycling AND Hypertension 쨌 0건; bicycle exercise AND hypertension 쨌 PMID36681131 직접 확인",
+  "negative": "group cycling AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) 쨌 1508건",
+  "safety": "group cycling AND Hypertension AND (adverse OR toxicity OR case report OR harm OR safety) 쨌 780건"
+ }
 }

@@ -1,28 +1,33 @@
 {
-  "id": "group-interpersonal-therapy-suicidal-ideation-pos",
-  "subj": "group interpersonal therapy",
-  "claim": "집단 대인관계·사회리듬치료는 양극성장애 환자의 자살생각을 줄일 가능성이 있다",
-  "line": "양극성장애에서 집단 대인관계·리듬치료 뒤 자살생각이 줄었다.",
-  "effect": "η²=0.56",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 36,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "양극성장애 환자의 자살위험과 대인관계 부담을 집단 대인관계·사회리듬치료로 줄일 수 있는지 확인했다.",
-  "saw": "양극성장애 환자 36명을 치료군 18명과 약물치료만 받은 대조군 18명으로 배정했다. 12주 집단 대인관계·사회리듬치료 후 자살생각의 시간×군 상호작용은 유의했고 효과크기는 η²=0.56이었다.",
-  "limit": "표본이 36명인 소규모 연구이고 무작위 배정 방식과 장기 자살행동 결과가 제한적으로 보고됐다.",
-  "against": "대조군도 표준 약물치료를 받아 집단 심리치료의 단독 효과를 알 수 없다.",
-  "use": "양극성장애의 자살위험 평가와 표준치료에 더하는 집단 심리치료",
-  "refs": [
-    { "label": "양극성장애 집단 IPSRT 준실험 연구", "doi": "10.1002/cpp.70300", "pmid": "42389953" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=group interpersonal therapy AND condition=Suicidal Ideation; 0건",
-    "pubmed": "group interpersonal therapy AND Suicidal Ideation; 87건",
-    "negative": "group interpersonal therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 5422건",
-    "safety": "group interpersonal therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 841건"
+ "id": "group-interpersonal-therapy-suicidal-ideation-pos",
+ "subj": "집단 대인관계 치료",
+ "claim": "집단 대인관계·사회리듬치료는 양극성장애 환자의 자살생각을 줄일 가능성이 있다",
+ "line": "양극성장애에서 집단 대인관계·리듬치료 뒤 자살생각이 줄었다.",
+ "effect": "η²=0.56",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 36,
+ "vs": "양극성장애 환자 36명 준무작위 비교시험(집단 대인관계·사회리듬치료 18명 대비 약물치료 대조 18명); 자살생각 군·시간 상호작용 F(1.53,51.90)=43.09(P<.001, η²=.56), 부담감 F(2,68)=39.75(P<.001, η²=.54), 기분 증상 F(1.68,57.05)=12.93(P<.001, η²=.28)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "양극성장애 환자의 자살위험과 대인관계 부담을 집단 대인관계·사회리듬치료로 줄일 수 있는지 확인했다.",
+ "saw": "양극성장애 환자 36명을 치료군 18명과 약물치료만 받은 대조군 18명으로 배정했다. 12주 집단 대인관계·사회리듬치료 후 자살생각의 시간×군 상호작용은 유의했고 효과크기는 η²=0.56이었다.",
+ "limit": "표본이 36명인 소규모 연구이고 무작위 배정 방식과 장기 자살행동 결과가 제한적으로 보고됐다.",
+ "against": "대조군도 표준 약물치료를 받아 집단 심리치료의 단독 효과를 알 수 없다.",
+ "use": "양극성장애의 자살위험 평가와 표준치료에 더하는 집단 심리치료",
+ "refs": [
+  {
+   "label": "양극성장애 집단 IPSRT 준실험 연구",
+   "doi": "10.1002/cpp.70300",
+   "pmid": "42389953"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=group interpersonal therapy AND condition=Suicidal Ideation; 0건",
+  "pubmed": "group interpersonal therapy AND Suicidal Ideation; 87건",
+  "negative": "group interpersonal therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 5422건",
+  "safety": "group interpersonal therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 841건"
+ }
 }

@@ -1,20 +1,33 @@
 {
-  "id": "green-tea-obesity-pos",
-  "subj": "green tea",
-  "claim": "녹차 보충은 비만 성인의 체중과 BMI를 소폭 낮출 가능성이 있다",
-  "line": "녹차 보충 뒤 체중·체질량지수가 소폭 낮아졌다.",
-  "effect": "체중 1.78 kg 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품 보충제로 허가 적응증 없음",
-  "why": "비만 성인의 녹차 보충 무작위시험을 용량과 기간별로 종합했다",
-  "saw": "무작위시험 종합에서 녹차 보충 후 체중은 1.78 kg, 체질량지수는 0.65 kg/m² 낮아졌다. 800 mg 이상에서는 허리둘레도 줄었다",
-  "limit": "종합연구의 총 사람 수가 초록에 없고 추출물·용량·기간이 달라 효과의 크기가 일정하지 않다",
-  "against": "녹차가 비만 치료제나 식사·운동을 대신한다는 근거는 아니다",
-  "use": "체중 관리에서 카페인과 추출물 용량을 함께 고려하는 제한된 보충 근거로만 본다",
-  "refs": [{ "label": "The effect of green tea supplementation on obesity", "doi": "10.1002/ptr.6697", "pmid": "32372444" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=green tea 쨌 cond=Obesity: 18건", "pubmed": "green tea AND Obesity: 1910건", "negative": "green tea AND Obesity AND no effect: 1498건", "safety": "green tea AND adverse OR toxicity: 8646건" }
+ "id": "green-tea-obesity-pos",
+ "subj": "녹차",
+ "claim": "녹차 보충은 비만 성인의 체중과 BMI를 소폭 낮출 가능성이 있다",
+ "line": "녹차 보충 뒤 체중·체질량지수가 소폭 낮아졌다.",
+ "effect": "체중 1.78 kg 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "vs": "비만 성인 녹차 보충 무작위시험 메타분석; 녹차군 대비 대조군의 체중 WMD −1.78 kg(95% CI −2.80~−0.75, P=.001), BMI −0.65 kg/m²(−1.04~−0.25, P=.001), 800 mg/일 이상 하위군의 허리둘레 −2.06 cm, 12주 미만 하위군 −2.39 cm",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품 보충제로 허가 적응증 없음",
+ "why": "비만 성인의 녹차 보충 무작위시험을 용량과 기간별로 종합했다",
+ "saw": "무작위시험 종합에서 녹차 보충 후 체중은 1.78 kg, 체질량지수는 0.65 kg/m² 낮아졌다. 800 mg 이상에서는 허리둘레도 줄었다",
+ "limit": "종합연구의 총 사람 수가 초록에 없고 추출물·용량·기간이 달라 효과의 크기가 일정하지 않다",
+ "against": "녹차가 비만 치료제나 식사·운동을 대신한다는 근거는 아니다",
+ "use": "체중 관리에서 카페인과 추출물 용량을 함께 고려하는 제한된 보충 근거로만 본다",
+ "refs": [
+  {
+   "label": "The effect of green tea supplementation on obesity",
+   "doi": "10.1002/ptr.6697",
+   "pmid": "32372444"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=green tea 쨌 cond=Obesity: 18건",
+  "pubmed": "green tea AND Obesity: 1910건",
+  "negative": "green tea AND Obesity AND no effect: 1498건",
+  "safety": "green tea AND adverse OR toxicity: 8646건"
+ }
 }
