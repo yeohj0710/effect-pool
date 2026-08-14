@@ -1,28 +1,34 @@
 {
-  "id": "fecal-microbiota-transplantation-colitis-pos",
-  "subj": "fecal microbiota transplantation",
-  "claim": "궤양성 대장염 관해에 대변 미생물 이식을 쓴다",
-  "line": "궤양성 대장염에서 임상·내시경 관해가 증가했다.",
-  "effect": "임상·내시경 관해 OR 2.25",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 600,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "대변 미생물 이식은 궤양성 대장염 치료로 허가된 표준 치료가 아닙니다.",
-  "why": "무작위시험 메타분석에서 대변 미생물 이식과 궤양성 대장염 관해의 관계를 확인했습니다.",
-  "saw": "14개 연구 600명에서 복합 임상·내시경 관해 OR 2.25(95% CI 1.54–3.30), 임상 관해 OR 2.02, 내시경 관해 OR 1.95였습니다.",
-  "limit": "연구별 투여 경로와 공여자 구성이 달라 최적 방법과 장기 안전성을 확정하기 어렵습니다.",
-  "against": "치료 후 전체 이상반응과 대장염 발생은 대조군과 유의한 차이가 없었습니다.",
-  "use": "표준 치료로 대체하지 말고 연구 환경에서 관해 가능성과 안전성을 함께 확인할 때 참고합니다.",
-  "refs": [
-    { "label": "궤양성 대장염 대변 미생물 이식 무작위시험 메타분석", "doi": "10.1007/s10151-025-03113-7", "pmid": "40246750", "pmc": "PMC12006273" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "fecal microbiota transplantation AND Colitis → 100건 반환, 결과 보고 13건",
-    "pubmed": "fecal microbiota transplantation AND Colitis → 1415건",
-    "negative": "fecal microbiota transplantation AND Colitis AND (no effect OR did not OR failed OR no significant difference) → 917건",
-    "safety": "fecal microbiota transplantation AND (adverse OR toxicity OR case report OR harm) → 2515건"
+ "id": "fecal-microbiota-transplantation-colitis-pos",
+ "subj": "분변 미생물 이식",
+ "claim": "궤양성 대장염 관해에 대변 미생물 이식을 쓴다",
+ "line": "궤양성 대장염에서 임상·내시경 관해가 증가했다.",
+ "effect": "임상·내시경 관해 OR 2.25",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 600,
+ "vs": "궤양성대장염 14개 무작위시험 600명; 분변 미생물 이식 299명 대 대조; 임상·내시경 복합 관해 OR 2.25(95% CI 1.54~3.30, P<.0001), 임상 관해 2.02(1.40~2.93, P=.0002), 내시경 관해 1.95(1.17~3.28, P=.011)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "대변 미생물 이식은 궤양성 대장염 치료로 허가된 표준 치료가 아닙니다.",
+ "why": "무작위시험 메타분석에서 대변 미생물 이식과 궤양성 대장염 관해의 관계를 확인했습니다.",
+ "saw": "14개 연구 600명에서 복합 임상·내시경 관해 OR 2.25(95% CI 1.54–3.30), 임상 관해 OR 2.02, 내시경 관해 OR 1.95였습니다.",
+ "limit": "연구별 투여 경로와 공여자 구성이 달라 최적 방법과 장기 안전성을 확정하기 어렵습니다.",
+ "against": "치료 후 전체 이상반응과 대장염 발생은 대조군과 유의한 차이가 없었습니다.",
+ "use": "표준 치료로 대체하지 말고 연구 환경에서 관해 가능성과 안전성을 함께 확인할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "궤양성 대장염 대변 미생물 이식 무작위시험 메타분석",
+   "doi": "10.1007/s10151-025-03113-7",
+   "pmid": "40246750",
+   "pmc": "PMC12006273"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "fecal microbiota transplantation AND Colitis → 100건 반환, 결과 보고 13건",
+  "pubmed": "fecal microbiota transplantation AND Colitis → 1415건",
+  "negative": "fecal microbiota transplantation AND Colitis AND (no effect OR did not OR failed OR no significant difference) → 917건",
+  "safety": "fecal microbiota transplantation AND (adverse OR toxicity OR case report OR harm) → 2515건"
+ }
 }

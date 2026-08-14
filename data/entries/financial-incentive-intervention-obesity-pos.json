@@ -1,28 +1,33 @@
 {
-  "id": "financial-incentive-intervention-obesity-pos",
-  "subj": "financial incentive intervention",
-  "claim": "비만 남성은 체중 목표를 지키지 못하면 잃는 금전 보상으로 체중을 더 줄였다",
-  "line": "비만 남성은 금전 보상으로 체중을 추가로 줄였다.",
-  "effect": "12개월 체중 변화 대조군 대비 -3.2%p",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 585,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
-  "why": "BMI 30 이상인 남성 585명을 문자만, 문자와 금전 보상, 대기 대조군으로 무작위 배정해 12개월 체중 변화를 비교했다.",
-  "saw": "문자와 금전 보상군은 대조군보다 평균 체중 변화가 3.2%p 더 컸고, 평균 체중은 5.7kg 줄었다. 문자만군의 대조군 대비 차이는 1.4%p로 유의하지 않았다.",
-  "limit": "12개월 추적을 완료한 사람은 426명(73%)이었고, 표본의 90%가 백인이어서 다른 집단에 일반화하기 어렵다.",
-  "against": "금전 보상 없이 문자를 보낸 군은 대조군보다 유의한 체중 감소가 없었다(p=0.05).",
-  "use": "비만 남성의 체중 관리에서 문자 행동지원과 목표 달성 보상을 결합하는 방법으로 검토한다.",
-  "refs": [
-    { "label": "Text Messages With Financial Incentives for Men With Obesity 2024 · JAMA", "doi": "10.1001/jama.2024.7064", "pmid": "38744430" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=financial incentive intervention AND condition=Obesity; 22건 반환, 중재명 일치 0건",
-    "pubmed": "financial incentive intervention AND Obesity; 755건",
-    "negative": "financial incentive intervention AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference); 466건",
-    "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 70건"
+ "id": "financial-incentive-intervention-obesity-pos",
+ "subj": "재정 인센티브 중재",
+ "claim": "비만 남성은 체중 목표를 지키지 못하면 잃는 금전 보상으로 체중을 더 줄였다",
+ "line": "비만 남성은 금전 보상으로 체중을 추가로 줄였다.",
+ "effect": "12개월 체중 변화 대조군 대비 -3.2%p",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 585,
+ "vs": "비만 남성 585명 무작위시험; 문자+재정 인센티브 196명 대 대기목록 대조 195명, 문자만 194명; 12개월 체중 변화 차이 인센티브군 −3.2%(97.5% CI −4.6~−1.9, P<.001), 문자만 −1.4%(−2.9~0.0, P=.05)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
+ "why": "BMI 30 이상인 남성 585명을 문자만, 문자와 금전 보상, 대기 대조군으로 무작위 배정해 12개월 체중 변화를 비교했다.",
+ "saw": "문자와 금전 보상군은 대조군보다 평균 체중 변화가 3.2%p 더 컸고, 평균 체중은 5.7kg 줄었다. 문자만군의 대조군 대비 차이는 1.4%p로 유의하지 않았다.",
+ "limit": "12개월 추적을 완료한 사람은 426명(73%)이었고, 표본의 90%가 백인이어서 다른 집단에 일반화하기 어렵다.",
+ "against": "금전 보상 없이 문자를 보낸 군은 대조군보다 유의한 체중 감소가 없었다(p=0.05).",
+ "use": "비만 남성의 체중 관리에서 문자 행동지원과 목표 달성 보상을 결합하는 방법으로 검토한다.",
+ "refs": [
+  {
+   "label": "Text Messages With Financial Incentives for Men With Obesity 2024 · JAMA",
+   "doi": "10.1001/jama.2024.7064",
+   "pmid": "38744430"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=financial incentive intervention AND condition=Obesity; 22건 반환, 중재명 일치 0건",
+  "pubmed": "financial incentive intervention AND Obesity; 755건",
+  "negative": "financial incentive intervention AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference); 466건",
+  "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 70건"
+ }
 }

@@ -1,28 +1,33 @@
 {
-  "id": "famotidine-sars-cov-2-infection-null",
-  "subj": "famotidine",
-  "claim": "입원 코로나19에서 파모티딘은 중증 결과를 줄이지 못했다",
-  "line": "입원 코로나19에서 파모티딘은 중증 결과를 줄이지 못했다.",
-  "effect": "복합결과 HR 0.63",
-  "tier": "obs",
-  "dir": "null",
-  "n": 46435,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "Famotidine은 위산 억제에는 허가됐지만 코로나19 치료에는 허가 적응증이 아니다.",
-  "why": "입원 코로나19 환자에서 famotidine 사용과 임상 결과의 연관성을 본 관찰 연구 4건, 46435명의 메타분석이다.",
-  "saw": "사망·삽관·중환자실 치료 복합 결과와 famotidine 사용의 연관성은 유의하지 않았고(HR 0.63, 95% CI 0.35~1.16), 사망도 줄지 않았다.",
-  "limit": "관찰 연구만 포함했고 결과 간 이질성이 83.69~88.07%로 높았다.",
-  "against": "famotidine이 코로나19를 치료하거나 중증화를 예방한다고 단정할 수 없다.",
-  "use": "코로나19 치료에 famotidine을 표준치료 대신 사용하지 않고 무작위시험 근거를 우선한다.",
-  "refs": [
-    { "label": "Chiu 2021 · PLOS ONE · 관찰 연구 메타분석", "doi": "10.1371/journal.pone.0259514", "pmid": "34735523" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "famotidine AND SARS-CoV-2 Infection · 19건",
-    "pubmed": "famotidine AND SARS-CoV-2 Infection · 103건",
-    "negative": "famotidine AND SARS-CoV-2 Infection AND (no effect OR did not OR failed OR negative OR no significant difference) · 55건",
-    "safety": "famotidine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 845건"
+ "id": "famotidine-sars-cov-2-infection-null",
+ "subj": "파모티딘",
+ "claim": "입원 코로나19에서 파모티딘은 중증 결과를 줄이지 못했다",
+ "line": "입원 코로나19에서 파모티딘은 중증 결과를 줄이지 못했다.",
+ "effect": "복합결과 HR 0.63",
+ "tier": "obs",
+ "dir": "null",
+ "n": 46435,
+ "vs": "코로나19 입원 관찰연구 4개 46,435명; 파모티딘 사용 3,110명 대 비사용; 복합 결과 HR 0.63(95% CI 0.35~1.16), 사망 HR 0.67(0.26~1.73)·OR 0.79(0.19~3.34), 유의한 연관 없음",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "Famotidine은 위산 억제에는 허가됐지만 코로나19 치료에는 허가 적응증이 아니다.",
+ "why": "입원 코로나19 환자에서 famotidine 사용과 임상 결과의 연관성을 본 관찰 연구 4건, 46435명의 메타분석이다.",
+ "saw": "사망·삽관·중환자실 치료 복합 결과와 famotidine 사용의 연관성은 유의하지 않았고(HR 0.63, 95% CI 0.35~1.16), 사망도 줄지 않았다.",
+ "limit": "관찰 연구만 포함했고 결과 간 이질성이 83.69~88.07%로 높았다.",
+ "against": "famotidine이 코로나19를 치료하거나 중증화를 예방한다고 단정할 수 없다.",
+ "use": "코로나19 치료에 famotidine을 표준치료 대신 사용하지 않고 무작위시험 근거를 우선한다.",
+ "refs": [
+  {
+   "label": "Chiu 2021 · PLOS ONE · 관찰 연구 메타분석",
+   "doi": "10.1371/journal.pone.0259514",
+   "pmid": "34735523"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "famotidine AND SARS-CoV-2 Infection · 19건",
+  "pubmed": "famotidine AND SARS-CoV-2 Infection · 103건",
+  "negative": "famotidine AND SARS-CoV-2 Infection AND (no effect OR did not OR failed OR negative OR no significant difference) · 55건",
+  "safety": "famotidine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 845건"
+ }
 }

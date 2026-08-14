@@ -1,28 +1,33 @@
 {
-  "id": "financial-incentive-intervention-physical-activity-pos",
-  "subj": "financial incentive intervention",
-  "claim": "신체활동 목표에 금전 보상을 더하면 단기간 걸음 수가 늘었다",
-  "line": "금전 보상은 단기적으로 걸음 수를 늘렸다.",
-  "effect": "단기 일일 걸음 수 SMD 0.52",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 9604,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
-  "why": "성인 신체활동 금전 보상 무작위시험 29편을 갱신한 체계적 문헌고찰과 메타분석이다.",
-  "saw": "29편, 9,604명에서 단기 중재의 일일 걸음 수 효과는 SMD 0.52(95% 신뢰구간 0.25~0.78)였고, 임상적으로 하루 1,000걸음 이상 증가에 해당했다.",
-  "limit": "장기 추적 효과를 합칠 수 있는 연구가 한 편뿐이었고, 보상 중단 뒤 효과 근거는 제한적이었다.",
-  "against": "장기 지속 효과는 충분히 평가되지 않았다.",
-  "use": "신체활동 프로그램에서 웨어러블 기록과 목표 달성 보상을 단기 참여 촉진책으로 검토한다.",
-  "refs": [
-    { "label": "Financial Incentives for Physical Activity in Adults 2025 · Preventive Medicine", "doi": "10.1016/j.ypmed.2025.108237", "pmid": "39870214" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=financial incentive intervention AND condition=Physical Activity; 33건 반환, 중재명 일치 0건",
-    "pubmed": "financial incentive intervention AND Physical Activity; 2,023건",
-    "negative": "financial incentive intervention AND Physical Activity AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,311건",
-    "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 132건"
+ "id": "financial-incentive-intervention-physical-activity-pos",
+ "subj": "재정 인센티브 중재",
+ "claim": "신체활동 목표에 금전 보상을 더하면 단기간 걸음 수가 늘었다",
+ "line": "금전 보상은 단기적으로 걸음 수를 늘렸다.",
+ "effect": "단기 일일 걸음 수 SMD 0.52",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 9604,
+ "vs": "성인 29개 무작위시험 9,604명; 재정 인센티브 대 대조의 일일 걸음 수 효과 SMD 0.52(95% CI 0.25~0.78, P<.001) 단기, 추적 SMD 0.20(0.01~0.40, P=.04)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
+ "why": "성인 신체활동 금전 보상 무작위시험 29편을 갱신한 체계적 문헌고찰과 메타분석이다.",
+ "saw": "29편, 9,604명에서 단기 중재의 일일 걸음 수 효과는 SMD 0.52(95% 신뢰구간 0.25~0.78)였고, 임상적으로 하루 1,000걸음 이상 증가에 해당했다.",
+ "limit": "장기 추적 효과를 합칠 수 있는 연구가 한 편뿐이었고, 보상 중단 뒤 효과 근거는 제한적이었다.",
+ "against": "장기 지속 효과는 충분히 평가되지 않았다.",
+ "use": "신체활동 프로그램에서 웨어러블 기록과 목표 달성 보상을 단기 참여 촉진책으로 검토한다.",
+ "refs": [
+  {
+   "label": "Financial Incentives for Physical Activity in Adults 2025 · Preventive Medicine",
+   "doi": "10.1016/j.ypmed.2025.108237",
+   "pmid": "39870214"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=financial incentive intervention AND condition=Physical Activity; 33건 반환, 중재명 일치 0건",
+  "pubmed": "financial incentive intervention AND Physical Activity; 2,023건",
+  "negative": "financial incentive intervention AND Physical Activity AND (no effect OR did not OR failed to OR negative OR no significant difference); 1,311건",
+  "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 132건"
+ }
 }

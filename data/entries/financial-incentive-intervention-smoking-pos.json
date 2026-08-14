@@ -1,28 +1,33 @@
 {
-  "id": "financial-incentive-intervention-smoking-pos",
-  "subj": "financial incentive intervention",
-  "claim": "출산 뒤 금연에 금전 보상을 더하면 장기 금연 신호가 나타났다",
-  "line": "출산 후 금전 보상군은 장기 금연 신호가 컸다.",
-  "effect": "12개월 보상군 금연 16.4%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 462,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
-  "why": "임신 중 금연한 산후 여성 462명을 통상진료, 3개월 보상, 12개월 보상군으로 나눈 무작위시험의 3~4년 추적 결과다.",
-  "saw": "3~4년 뒤 생화학적으로 확인한 금연은 12개월 보상군 16.4%(26/159), 3개월 보상군 12.3%(19/154), 통상진료 7.4%(11/149)였다. 12개월 보상군의 보정 전 OR은 2.51이었다.",
-  "limit": "장기 추적에서 자기보고 자료를 낸 사람은 289명뿐이었고, 다중 비교 보정 뒤 완전 보정 모형의 유의성은 사라졌다.",
-  "against": "3개월 보상군은 통상진료와 장기 금연 차이가 뚜렷하지 않았다(OR 1.81, 95% 신뢰구간 0.83~3.98).",
-  "use": "출산 후 재흡연을 막는 프로그램에서 금전 보상의 기간과 금액을 설계할 때 참고한다.",
-  "refs": [
-    { "label": "FIPPS Financial Incentives for Postpartum Smoking Abstinence 2026 · Addiction", "doi": "10.1111/add.70505", "pmid": "42452884" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=financial incentive intervention AND condition=Smoking; 31건 반환, 중재명 일치 0건",
-    "pubmed": "financial incentive intervention AND Smoking; 1,274건",
-    "negative": "financial incentive intervention AND Smoking AND (no effect OR did not OR failed to OR negative OR no significant difference); 839건",
-    "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 200건"
+ "id": "financial-incentive-intervention-smoking-pos",
+ "subj": "재정 인센티브 중재",
+ "claim": "출산 뒤 금연에 금전 보상을 더하면 장기 금연 신호가 나타났다",
+ "line": "출산 후 금전 보상군은 장기 금연 신호가 컸다.",
+ "effect": "12개월 보상군 금연 16.4%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 462,
+ "vs": "산후 흡연 재개 예방 462명 3군 무작위시험; 12개월 인센티브 26/159명(16.4%) 대 통상 돌봄 11/149명(7.4%), OR 2.51(95% CI 1.18~5.31, P=.016); 3개월 인센티브 19/154명(12.3%), OR 1.81(0.83~3.98, P=.138)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "금전 보상은 의약품 허가 적응증이 아닌 행동 중재다",
+ "why": "임신 중 금연한 산후 여성 462명을 통상진료, 3개월 보상, 12개월 보상군으로 나눈 무작위시험의 3~4년 추적 결과다.",
+ "saw": "3~4년 뒤 생화학적으로 확인한 금연은 12개월 보상군 16.4%(26/159), 3개월 보상군 12.3%(19/154), 통상진료 7.4%(11/149)였다. 12개월 보상군의 보정 전 OR은 2.51이었다.",
+ "limit": "장기 추적에서 자기보고 자료를 낸 사람은 289명뿐이었고, 다중 비교 보정 뒤 완전 보정 모형의 유의성은 사라졌다.",
+ "against": "3개월 보상군은 통상진료와 장기 금연 차이가 뚜렷하지 않았다(OR 1.81, 95% 신뢰구간 0.83~3.98).",
+ "use": "출산 후 재흡연을 막는 프로그램에서 금전 보상의 기간과 금액을 설계할 때 참고한다.",
+ "refs": [
+  {
+   "label": "FIPPS Financial Incentives for Postpartum Smoking Abstinence 2026 · Addiction",
+   "doi": "10.1111/add.70505",
+   "pmid": "42452884"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=financial incentive intervention AND condition=Smoking; 31건 반환, 중재명 일치 0건",
+  "pubmed": "financial incentive intervention AND Smoking; 1,274건",
+  "negative": "financial incentive intervention AND Smoking AND (no effect OR did not OR failed to OR negative OR no significant difference); 839건",
+  "safety": "financial incentive intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 200건"
+ }
 }

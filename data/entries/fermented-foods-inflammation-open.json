@@ -1,20 +1,33 @@
 {
-  "id": "fermented-foods-inflammation-open",
-  "subj": "fermented foods",
-  "claim": "성인 염증 표지에 발효식품을 검토한다",
-  "line": "발효식품은 TNF-α를 낮췄지만 CRP·IL-6는 달라지지 않았다.",
-  "effect": "TNF-α 감소·CRP·IL-6 차이 없음",
-  "tier": "trial",
-  "dir": "open",
-  "n": 1461,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "발효식품은 식이 중재이며 염증 표지자 변화의 의약품 허가 적응증이 아닙니다.",
-  "why": "성인의 발효식품 섭취와 염증 표지자를 비교한 무작위시험 26편의 메타분석입니다.",
-  "saw": "26개 연구 1,461명을 합친 메타분석에서 발효식품은 TNF-α를 낮췄지만 CRP와 IL-6는 유의하게 바꾸지 못했습니다. TNF-α 결과의 이질성이 매우 높았습니다.",
-  "limit": "발효식품 종류와 대조식품, 참여자 특성이 달랐고 표지자별 결과가 일관되지 않았습니다.",
-  "against": "발효식품이 염증성 질환을 치료하거나 모든 염증 표지자를 낮춘다는 근거는 아닙니다.",
-  "use": "식이 상담에서 염증 관련 가능성을 설명하되 질환 치료와 표준 식이 관리를 따로 유지합니다.",
-  "refs": [{ "label": "발효식품과 염증 무작위시험 메타분석", "doi": "10.1016/j.clnesp.2019.10.010", "pmid": "31987119" }],
-  "queried": { "date": "2026-08-07", "ctgov": "intr=fermented foods, cond=Inflammation · 25건", "pubmed": "fermented foods AND Inflammation · 979편", "negative": "fermented foods AND Inflammation AND (no effect OR did not OR failed OR no significant difference) · 817편", "safety": "fermented foods AND (adverse OR toxicity OR harm OR case report) · 4077편" }
+ "id": "fermented-foods-inflammation-open",
+ "subj": "발효 식품",
+ "claim": "성인 염증 표지에 발효식품을 검토한다",
+ "line": "발효식품은 TNF-α를 낮췄지만 CRP·IL-6는 달라지지 않았다.",
+ "effect": "TNF-α 감소·CRP·IL-6 차이 없음",
+ "tier": "trial",
+ "dir": "open",
+ "n": 1461,
+ "vs": "성인 26개 무작위시험 1,461명; 발효 식품 대 대조 식품의 TNF-α WMD −8.26(95% CI −14.61~−1.91, P=.01), CRP −0.21(−0.47~0.05, P=.11), IL-6 0.31(−3.79~4.43, P=.88)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "발효식품은 식이 중재이며 염증 표지자 변화의 의약품 허가 적응증이 아닙니다.",
+ "why": "성인의 발효식품 섭취와 염증 표지자를 비교한 무작위시험 26편의 메타분석입니다.",
+ "saw": "26개 연구 1,461명을 합친 메타분석에서 발효식품은 TNF-α를 낮췄지만 CRP와 IL-6는 유의하게 바꾸지 못했습니다. TNF-α 결과의 이질성이 매우 높았습니다.",
+ "limit": "발효식품 종류와 대조식품, 참여자 특성이 달랐고 표지자별 결과가 일관되지 않았습니다.",
+ "against": "발효식품이 염증성 질환을 치료하거나 모든 염증 표지자를 낮춘다는 근거는 아닙니다.",
+ "use": "식이 상담에서 염증 관련 가능성을 설명하되 질환 치료와 표준 식이 관리를 따로 유지합니다.",
+ "refs": [
+  {
+   "label": "발효식품과 염증 무작위시험 메타분석",
+   "doi": "10.1016/j.clnesp.2019.10.010",
+   "pmid": "31987119"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "intr=fermented foods, cond=Inflammation · 25건",
+  "pubmed": "fermented foods AND Inflammation · 979편",
+  "negative": "fermented foods AND Inflammation AND (no effect OR did not OR failed OR no significant difference) · 817편",
+  "safety": "fermented foods AND (adverse OR toxicity OR harm OR case report) · 4077편"
+ }
 }
