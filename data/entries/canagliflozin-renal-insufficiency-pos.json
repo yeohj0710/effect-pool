@@ -1,20 +1,34 @@
 {
-  "id": "canagliflozin-renal-insufficiency-pos",
-  "subj": "canagliflozin",
-  "claim": "제2형 당뇨병·만성 신장질환에서 카나글리플로진은 신장 복합 위험을 낮췄다.",
-  "line": "카나글리플로진은 알부민뇨 제2형 당뇨병·신장질환에서 신장 위험을 줄였다.",
-  "effect": "신장 복합 위험 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 4401,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "카나글리플로진은 일부 당뇨병성 신장질환에는 허가됐지만 원인과 무관한 신부전 치료 전체가 허가 적응증은 아니다.",
-  "why": "알부민뇨를 동반한 제2형 당뇨병·만성 신장질환 환자를 카나글리플로진과 위약에 무작위 배정한 CREDENCE 시험이다.",
-  "saw": "환자 4401명을 무작위 배정하고 중앙값 2.62년 추적했다. 카나글리플로진군에서 신장·심혈관 사망 등을 포함한 일차 복합결과 위험이 30% 낮았고, 신장 특이 복합결과 위험도 34% 낮았다.",
-  "limit": "알부민뇨가 있는 제2형 당뇨병 환자에 한정되며 투석 중인 말기 신부전이나 비당뇨병 신부전에는 일반화할 수 없다.",
-  "against": "신장 보호 효과는 확인됐지만 절단이나 골절률은 유의하게 다르지 않았다.",
-  "use": "신장 보호 근거를 설명할 때 제2형 당뇨병·알부민뇨 만성 신장질환이라는 연구 조건을 함께 제시한다.",
-  "refs": [{ "label": "CREDENCE 카나글리플로진 신장결과 무작위시험", "doi": "10.1056/NEJMoa1811744", "pmid": "30990260", "nct": "NCT02065791" }],
-  "queried": { "date": "2026-08-06", "ctgov": "canagliflozin AND Renal Insufficiency · 7건, 중재명 대조 후 7건", "pubmed": "canagliflozin AND Renal Insufficiency · 203편", "negative": "173편", "safety": "canagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 967편" }
+ "id": "canagliflozin-renal-insufficiency-pos",
+ "subj": "카나글리플로진",
+ "claim": "제2형 당뇨병·만성 신장질환에서 카나글리플로진은 신장 복합 위험을 낮췄다.",
+ "line": "카나글리플로진은 알부민뇨 제2형 당뇨병·신장질환에서 신장 위험을 줄였다.",
+ "effect": "신장 복합 위험 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 4401,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "카나글리플로진은 일부 당뇨병성 신장질환에는 허가됐지만 원인과 무관한 신부전 치료 전체가 허가 적응증은 아니다.",
+ "why": "알부민뇨를 동반한 제2형 당뇨병·만성 신장질환 환자를 카나글리플로진과 위약에 무작위 배정한 CREDENCE 시험이다.",
+ "saw": "환자 4401명을 무작위 배정하고 중앙값 2.62년 추적했다. 카나글리플로진군에서 신장·심혈관 사망 등을 포함한 일차 복합결과 위험이 30% 낮았고, 신장 특이 복합결과 위험도 34% 낮았다.",
+ "limit": "알부민뇨가 있는 제2형 당뇨병 환자에 한정되며 투석 중인 말기 신부전이나 비당뇨병 신부전에는 일반화할 수 없다.",
+ "against": "신장 보호 효과는 확인됐지만 절단이나 골절률은 유의하게 다르지 않았다.",
+ "use": "신장 보호 근거를 설명할 때 제2형 당뇨병·알부민뇨 만성 신장질환이라는 연구 조건을 함께 제시한다.",
+ "refs": [
+  {
+   "label": "CREDENCE 카나글리플로진 신장결과 무작위시험",
+   "doi": "10.1056/NEJMoa1811744",
+   "pmid": "30990260",
+   "nct": "NCT02065791"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "canagliflozin AND Renal Insufficiency · 7건, 중재명 대조 후 7건",
+  "pubmed": "canagliflozin AND Renal Insufficiency · 203편",
+  "negative": "173편",
+  "safety": "canagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 967편"
+ },
+ "vs": "카나글리플로진 vs 위약: 신장·심혈관 복합결과 HR .70 (95% CI .59~.82), 신장 특이 복합결과 HR .66 (.53~.81); RCT 4,401명"
 }

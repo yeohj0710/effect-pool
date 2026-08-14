@@ -1,20 +1,33 @@
 {
-  "id": "carvedilol-atrial-fibrillation-pos",
-  "subj": "carvedilol",
-  "claim": "심장수술 뒤 심방세동 예방에서 카르베딜롤은 메토프롤롤보다 심방세동을 줄였다.",
-  "line": "심장수술 후 카르베딜롤은 심방세동 발생을 줄였다.",
-  "effect": "심방세동 RR 0.49",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 765,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "카르베딜롤은 수술 후 심방세동 예방의 허가 적응증이 아니다",
-  "why": "심장수술 뒤 심방세동을 예방하는 카르베딜롤 비교 연구 6편을 메타분석했다.",
-  "saw": "무작위·비무작위 비교시험 6편, 765명을 분석했다. 카르베딜롤은 수술 후 심방세동을 RR 0.49(95% CI 0.37-0.64)로 줄였고 메토프롤롤보다도 낮았다.",
-  "limit": "연구 중 무작위시험은 3편이고 수술·비교 약제·연구 설계가 달랐다.",
-  "against": "사망률과 서맥은 카르베딜롤이 유의하게 줄이지 못했으며 대규모 무작위시험이 필요하다.",
-  "use": "심장수술 뒤 심방세동 예방의 베타차단제 선택을 검토할 근거로 기록합니다.",
-  "refs": [{ "label": "Bai 2014 · PLOS ONE · 메타분석", "doi": "10.1371/journal.pone.0094005", "pmid": "24705913" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=carvedilol, cond=Atrial Fibrillation · 12건", "pubmed": "carvedilol AND Atrial Fibrillation · 171편", "negative": "carvedilol AND Atrial Fibrillation AND (no effect OR did not OR failed OR negative OR no significant difference) · 130편", "safety": "carvedilol AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1269편" }
+ "id": "carvedilol-atrial-fibrillation-pos",
+ "subj": "카르베딜롤",
+ "claim": "심장수술 뒤 심방세동 예방에서 카르베딜롤은 메토프롤롤보다 심방세동을 줄였다.",
+ "line": "심장수술 후 카르베딜롤은 심방세동 발생을 줄였다.",
+ "effect": "심방세동 RR 0.49",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 765,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "카르베딜롤은 수술 후 심방세동 예방의 허가 적응증이 아니다",
+ "why": "심장수술 뒤 심방세동을 예방하는 카르베딜롤 비교 연구 6편을 메타분석했다.",
+ "saw": "무작위·비무작위 비교시험 6편, 765명을 분석했다. 카르베딜롤은 수술 후 심방세동을 RR 0.49(95% CI 0.37-0.64)로 줄였고 메토프롤롤보다도 낮았다.",
+ "limit": "연구 중 무작위시험은 3편이고 수술·비교 약제·연구 설계가 달랐다.",
+ "against": "사망률과 서맥은 카르베딜롤이 유의하게 줄이지 못했으며 대규모 무작위시험이 필요하다.",
+ "use": "심장수술 뒤 심방세동 예방의 베타차단제 선택을 검토할 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Bai 2014 · PLOS ONE · 메타분석",
+   "doi": "10.1371/journal.pone.0094005",
+   "pmid": "24705913"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=carvedilol, cond=Atrial Fibrillation · 12건",
+  "pubmed": "carvedilol AND Atrial Fibrillation · 171편",
+  "negative": "carvedilol AND Atrial Fibrillation AND (no effect OR did not OR failed OR negative OR no significant difference) · 130편",
+  "safety": "carvedilol AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1269편"
+ },
+ "vs": "카르베딜롤 vs 대조군: 심장수술 후 심방세동 RR .49 (95% CI .37~.64), p<.001; 6개 비교시험 765명 메타분석"
 }

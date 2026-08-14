@@ -1,27 +1,32 @@
 {
-  "id": "candesartan-migraine-pos",
-  "subj": "칸데사르탄",
-  "claim": "성인 편두통에서 칸데사르탄은 위약보다 월 편두통 일수를 줄였다.",
-  "line": "편두통 예방에서 칸데사르탄은 위약보다 월간 편두통 일수를 줄였다.",
-  "effect": "월 편두통 일수↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 72,
-  "synth": "single",
-  "why": "무작위 삼중눈가림 위약대조 교차시험은 칸데사르탄의 편두통 예방 효과를 평가했습니다.",
-  "saw": "NCT00884663·PMID 24335848의 성인 72명 시험에서 칸데사르탄은 위약보다 월 편두통 일수를 줄였고 50% 이상 반응자 비율도 높았습니다. 프로프라놀롤과의 효과 차이는 없었습니다.",
-  "limit": "단일 소규모 교차시험이고 편두통 예방만 평가했습니다. 다른 두통이나 장기 안전성을 확인한 근거는 아닙니다.",
-  "against": "반대 방향 검색에서도 효과 없음 문구가 섞인 63건을 확인했지만, 해당 무작위시험 자체는 위약보다 편두통 일수와 반응자 비율에서 유리했습니다. 안전성 검색에서는 이상반응 보고가 위약보다 많았습니다.",
-  "use": "편두통 예방에서의 단기 무작위시험 결과로 기록하고 모든 두통 환자에게 일반화하지 말아야 합니다.",
-  "refs": [
-    { "label": "Stovner 2014 · 칸데사르탄과 프로프라놀롤의 편두통 예방 무작위시험", "pmid": "24335848", "nct": "NCT00884663" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"CANDESARTAN\" → 19건 반환; 허가 문구는 고혈압·심부전이며 편두통 적응증 없음",
-    "ctgov": "query.intr=candesartan&query.cond=Migraine → 4건 반환, InterventionName 대조 후 4건",
-    "pubmed": "candesartan Migraine → 79건",
-    "negative": "candesartan Migraine (no effect OR did not OR failed to OR negative OR no significant difference) → 63건",
-    "safety": "candesartan Migraine (adverse OR toxicity OR case report) → 42건"
+ "id": "candesartan-migraine-pos",
+ "subj": "칸데사르탄",
+ "claim": "성인 편두통에서 칸데사르탄은 위약보다 월 편두통 일수를 줄였다.",
+ "line": "편두통 예방에서 칸데사르탄은 위약보다 월간 편두통 일수를 줄였다.",
+ "effect": "월 편두통 일수↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 72,
+ "synth": "single",
+ "why": "무작위 삼중눈가림 위약대조 교차시험은 칸데사르탄의 편두통 예방 효과를 평가했습니다.",
+ "saw": "NCT00884663·PMID 24335848의 성인 72명 시험에서 칸데사르탄은 위약보다 월 편두통 일수를 줄였고 50% 이상 반응자 비율도 높았습니다. 프로프라놀롤과의 효과 차이는 없었습니다.",
+ "limit": "단일 소규모 교차시험이고 편두통 예방만 평가했습니다. 다른 두통이나 장기 안전성을 확인한 근거는 아닙니다.",
+ "against": "반대 방향 검색에서도 효과 없음 문구가 섞인 63건을 확인했지만, 해당 무작위시험 자체는 위약보다 편두통 일수와 반응자 비율에서 유리했습니다. 안전성 검색에서는 이상반응 보고가 위약보다 많았습니다.",
+ "use": "편두통 예방에서의 단기 무작위시험 결과로 기록하고 모든 두통 환자에게 일반화하지 말아야 합니다.",
+ "refs": [
+  {
+   "label": "Stovner 2014 · 칸데사르탄과 프로프라놀롤의 편두통 예방 무작위시험",
+   "pmid": "24335848",
+   "nct": "NCT00884663"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"CANDESARTAN\" → 19건 반환; 허가 문구는 고혈압·심부전이며 편두통 적응증 없음",
+  "ctgov": "query.intr=candesartan&query.cond=Migraine → 4건 반환, InterventionName 대조 후 4건",
+  "pubmed": "candesartan Migraine → 79건",
+  "negative": "candesartan Migraine (no effect OR did not OR failed to OR negative OR no significant difference) → 63건",
+  "safety": "candesartan Migraine (adverse OR toxicity OR case report) → 42건"
+ },
+ "vs": "칸데사르탄 vs 위약: 월 편두통 일수 2.95 (95% CI 2.35~3.55) vs 3.53 (2.98~4.08), p=.02; 반응률 43% vs 23%; 교차 RCT 72명"
 }

@@ -1,20 +1,34 @@
 {
-  "id": "canagliflozin-esrd-pos",
-  "subj": "canagliflozin",
-  "claim": "제2형 당뇨병·알부민뇨 신장질환에서 카나글리플로진은 말기신부전 위험을 32% 낮췄다.",
-  "line": "제2형 당뇨병·알부민뇨 신장질환에서 카나글리플로진은 말기신부전 위험을 낮췄다.",
-  "effect": "말기신부전 위험 32% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 4401,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "카나글리플로진의 당뇨병성 신장질환 허가 범위를 벗어난 일반 말기신부전 치료는 허가 적응증이 아니다.",
-  "why": "CREDENCE 무작위시험은 말기신부전을 사전 지정 결과로 평가했다.",
-  "saw": "제2형 당뇨병과 알부민뇨 만성 신장질환 환자 4401명을 카나글리플로진과 위약에 무작위 배정했다. 중앙값 2.62년 뒤 말기신부전 위험은 카나글리플로진군에서 32% 낮았다.",
-  "limit": "말기신부전은 투석·이식 또는 추정사구체여과율 15 미만으로 정의했고, 이미 투석 중인 환자나 비당뇨병 환자를 대상으로 한 시험은 아니다.",
-  "against": "일차 신장·심혈관 복합결과는 줄었지만 모든 신장 원인과 모든 말기신부전 환자에게 효과가 있다는 뜻은 아니다.",
-  "use": "말기신부전 예방 근거를 설명할 때 CREDENCE의 당뇨병·알부민뇨 조건을 함께 제시한다.",
-  "refs": [{ "label": "CREDENCE 카나글리플로진 말기신부전 결과", "doi": "10.1056/NEJMoa1811744", "pmid": "30990260", "nct": "NCT02065791" }],
-  "queried": { "date": "2026-08-06", "ctgov": "canagliflozin AND ESRD · 7건, 중재명 대조 후 7건", "pubmed": "canagliflozin AND ESRD · 168편", "negative": "138편", "safety": "canagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 967편" }
+ "id": "canagliflozin-esrd-pos",
+ "subj": "카나글리플로진",
+ "claim": "제2형 당뇨병·알부민뇨 신장질환에서 카나글리플로진은 말기신부전 위험을 32% 낮췄다.",
+ "line": "제2형 당뇨병·알부민뇨 신장질환에서 카나글리플로진은 말기신부전 위험을 낮췄다.",
+ "effect": "말기신부전 위험 32% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 4401,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "카나글리플로진의 당뇨병성 신장질환 허가 범위를 벗어난 일반 말기신부전 치료는 허가 적응증이 아니다.",
+ "why": "CREDENCE 무작위시험은 말기신부전을 사전 지정 결과로 평가했다.",
+ "saw": "제2형 당뇨병과 알부민뇨 만성 신장질환 환자 4401명을 카나글리플로진과 위약에 무작위 배정했다. 중앙값 2.62년 뒤 말기신부전 위험은 카나글리플로진군에서 32% 낮았다.",
+ "limit": "말기신부전은 투석·이식 또는 추정사구체여과율 15 미만으로 정의했고, 이미 투석 중인 환자나 비당뇨병 환자를 대상으로 한 시험은 아니다.",
+ "against": "일차 신장·심혈관 복합결과는 줄었지만 모든 신장 원인과 모든 말기신부전 환자에게 효과가 있다는 뜻은 아니다.",
+ "use": "말기신부전 예방 근거를 설명할 때 CREDENCE의 당뇨병·알부민뇨 조건을 함께 제시한다.",
+ "refs": [
+  {
+   "label": "CREDENCE 카나글리플로진 말기신부전 결과",
+   "doi": "10.1056/NEJMoa1811744",
+   "pmid": "30990260",
+   "nct": "NCT02065791"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "canagliflozin AND ESRD · 7건, 중재명 대조 후 7건",
+  "pubmed": "canagliflozin AND ESRD · 168편",
+  "negative": "138편",
+  "safety": "canagliflozin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 967편"
+ },
+ "vs": "카나글리플로진 vs 위약: 신장·심혈관 복합결과 43.2 vs 61.2건/1,000인년, HR .70 (95% CI .59~.82), p=.00001; RCT 4,401명"
 }

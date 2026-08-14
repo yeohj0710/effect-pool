@@ -1,29 +1,39 @@
 {
-  "id": "capivasertib-solid-tumour-pos",
-  "subj": "카피바서팁",
-  "claim": "카피바서팁 병용요법은 여러 진행성 고형암의 무진행·전체생존을 개선할 수 있다",
-  "line": "카피바서팁 병용은 무진행생존과 전체생존을 개선했지만 독성으로 중단한 환자도 늘었다.",
-  "effect": "PFS HR 0.75; OS HR 0.61",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 540,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "현재 허가사항은 PIK3CA·AKT1·PTEN 변이가 있는 HR+/HER2− 진행성 유방암의 풀베스트란트 병용이다.",
-  "why": "카피바서팁을 화학요법 또는 호르몬요법에 더한 무작위시험들을 합쳐 고형암 전체의 생존 지표를 평가했다.",
-  "saw": "무작위시험 4편, 540명 메타분석에서 카피바서팁 병용군은 전체 분석집단의 무진행생존기간 HR 0.75, 전체생존기간 HR 0.61을 보였다. PI3K·AKT·PTEN 변이군의 PFS 개선은 HR 0.61이었지만 통계적으로 유의하지 않았다. 독성 또는 이상반응으로 중단할 위험은 RR 2.37이었다.",
-  "limit": "서로 다른 고형암과 병용요법을 합친 분석이며, 변이군 결과는 유의하지 않았다. 현재 허가된 유방암 조합의 근거를 다른 고형암에 일반화할 수 없다.",
-  "against": "변이군의 PFS 개선이 통계적으로 유의하지 않았고 독성으로 치료를 중단하는 위험은 대조군보다 높았다.",
-  "use": "허가된 유방암 외 고형암에서는 병용요법과 분자변이별 근거를 따로 확인합니다.",
-  "refs": [
-    { "label": "카피바서팁 고형암 무작위시험 체계적 검토·메타분석", "doi": "10.1080/14740338.2023.2218085", "pmid": "37224269" },
-    { "label": "진행성 고형암 카피바서팁 1상", "doi": "10.1186/s12885-025-14982-4", "pmid": "41088025", "nct": "NCT04742036" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=capivasertib, cond=Solid Tumour · 총 14건, 직접 확인 7건",
-    "pubmed": "capivasertib AND Solid Tumour · 27편",
-    "negative": "capivasertib AND Solid Tumour AND (no effect OR did not OR failed to OR negative OR no significant difference) · 21편",
-    "safety": "capivasertib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 108편"
+ "id": "capivasertib-solid-tumour-pos",
+ "subj": "카피바서팁",
+ "claim": "카피바서팁 병용요법은 여러 진행성 고형암의 무진행·전체생존을 개선할 수 있다",
+ "line": "카피바서팁 병용은 무진행생존과 전체생존을 개선했지만 독성으로 중단한 환자도 늘었다.",
+ "effect": "PFS HR 0.75; OS HR 0.61",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 540,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "현재 허가사항은 PIK3CA·AKT1·PTEN 변이가 있는 HR+/HER2− 진행성 유방암의 풀베스트란트 병용이다.",
+ "why": "카피바서팁을 화학요법 또는 호르몬요법에 더한 무작위시험들을 합쳐 고형암 전체의 생존 지표를 평가했다.",
+ "saw": "무작위시험 4편, 540명 메타분석에서 카피바서팁 병용군은 전체 분석집단의 무진행생존기간 HR 0.75, 전체생존기간 HR 0.61을 보였다. PI3K·AKT·PTEN 변이군의 PFS 개선은 HR 0.61이었지만 통계적으로 유의하지 않았다. 독성 또는 이상반응으로 중단할 위험은 RR 2.37이었다.",
+ "limit": "서로 다른 고형암과 병용요법을 합친 분석이며, 변이군 결과는 유의하지 않았다. 현재 허가된 유방암 조합의 근거를 다른 고형암에 일반화할 수 없다.",
+ "against": "변이군의 PFS 개선이 통계적으로 유의하지 않았고 독성으로 치료를 중단하는 위험은 대조군보다 높았다.",
+ "use": "허가된 유방암 외 고형암에서는 병용요법과 분자변이별 근거를 따로 확인합니다.",
+ "refs": [
+  {
+   "label": "카피바서팁 고형암 무작위시험 체계적 검토·메타분석",
+   "doi": "10.1080/14740338.2023.2218085",
+   "pmid": "37224269"
+  },
+  {
+   "label": "진행성 고형암 카피바서팁 1상",
+   "doi": "10.1186/s12885-025-14982-4",
+   "pmid": "41088025",
+   "nct": "NCT04742036"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=capivasertib, cond=Solid Tumour · 총 14건, 직접 확인 7건",
+  "pubmed": "capivasertib AND Solid Tumour · 27편",
+  "negative": "capivasertib AND Solid Tumour AND (no effect OR did not OR failed to OR negative OR no significant difference) · 21편",
+  "safety": "capivasertib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 108편"
+ },
+ "vs": "카피바서팁 기반 치료 vs 대조군: 무진행생존 HR .75 (95% CI .62~.90), 전체생존 HR .61 (.47~.78), 독성 중단 RR 2.37 (1.37~4.10); 4개 RCT 540명 메타분석"
 }

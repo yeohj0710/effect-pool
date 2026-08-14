@@ -1,26 +1,33 @@
 {
-  "id": "carvedilol-esophageal-varix-null",
-  "subj": "카르베딜롤",
-  "claim": "간경변 식도정맥류에서 카르베딜롤은 출혈을 예방하지 못했다.",
-  "line": "카르베딜롤은 간경변 식도정맥류 출혈 예방에서 결찰술보다 우월하지 않았다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1385,
-  "synth": "meta",
-  "why": "식도정맥류 출혈 예방을 직접 비교한 무작위시험 메타분석에서 카르베딜롤과 내시경 결찰술의 효과 차이가 없었습니다.",
-  "saw": "간경변 성인 무작위시험 9편, 1,385명을 합친 메타분석에서 사망률·정맥류 출혈·출혈 관련 사망률이 카르베딜롤과 결찰술 사이에 유의하게 다르지 않았습니다.",
-  "limit": "비교 대상이 결찰술이고 연구별 출혈 위험과 치료 방식이 달랐습니다. 카르베딜롤이 아무 효과가 없다는 뜻이 아니라 우월성을 확인하지 못한 결과입니다.",
-  "against": "반대 검색 26건에서도 CALIBRE 무작위시험은 265명에서 1년 출혈 차이를 유의하게 확인하지 못했습니다.",
-  "use": "식도정맥류 출혈 예방에서 카르베딜롤이 결찰술보다 낫다고 단정하기 어렵습니다.",
-  "refs": [
-    { "label": "Almeida 2026 · J Clin Gastroenterol · 무작위시험 메타분석·차이 없음", "pmid": "42090574" },
-    { "label": "Tripathi 2025 · Aliment Pharmacol Ther · CALIBRE 무작위시험·차이 없음", "pmid": "40241373" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=carvedilol&query.cond=Varix Esophageal → 26건 반환, intervention 이름에 carvedilol 포함 22건",
-    "pubmed": "carvedilol AND (\"esophageal varices\" OR \"variceal bleeding\") → 120건",
-    "negative": "carvedilol AND (\"esophageal varices\" OR \"variceal bleeding\") AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 26건",
-    "safety": "carvedilol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,136건"
+ "id": "carvedilol-esophageal-varix-null",
+ "subj": "카르베딜롤",
+ "claim": "간경변 식도정맥류에서 카르베딜롤은 출혈을 예방하지 못했다.",
+ "line": "카르베딜롤은 간경변 식도정맥류 출혈 예방에서 결찰술보다 우월하지 않았다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1385,
+ "synth": "meta",
+ "why": "식도정맥류 출혈 예방을 직접 비교한 무작위시험 메타분석에서 카르베딜롤과 내시경 결찰술의 효과 차이가 없었습니다.",
+ "saw": "간경변 성인 무작위시험 9편, 1,385명을 합친 메타분석에서 사망률·정맥류 출혈·출혈 관련 사망률이 카르베딜롤과 결찰술 사이에 유의하게 다르지 않았습니다.",
+ "limit": "비교 대상이 결찰술이고 연구별 출혈 위험과 치료 방식이 달랐습니다. 카르베딜롤이 아무 효과가 없다는 뜻이 아니라 우월성을 확인하지 못한 결과입니다.",
+ "against": "반대 검색 26건에서도 CALIBRE 무작위시험은 265명에서 1년 출혈 차이를 유의하게 확인하지 못했습니다.",
+ "use": "식도정맥류 출혈 예방에서 카르베딜롤이 결찰술보다 낫다고 단정하기 어렵습니다.",
+ "refs": [
+  {
+   "label": "Almeida 2026 · J Clin Gastroenterol · 무작위시험 메타분석·차이 없음",
+   "pmid": "42090574"
+  },
+  {
+   "label": "Tripathi 2025 · Aliment Pharmacol Ther · CALIBRE 무작위시험·차이 없음",
+   "pmid": "40241373"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=carvedilol&query.cond=Varix Esophageal → 26건 반환, intervention 이름에 carvedilol 포함 22건",
+  "pubmed": "carvedilol AND (\"esophageal varices\" OR \"variceal bleeding\") → 120건",
+  "negative": "carvedilol AND (\"esophageal varices\" OR \"variceal bleeding\") AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 26건",
+  "safety": "carvedilol AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,136건"
+ },
+ "vs": "카르베딜롤 vs 정맥류 결찰술: 1년 정맥류 출혈 3.8% (5/133) vs 7.6% (10/132), RR .50 (95% CI .17~1.41); RCT 265명"
 }

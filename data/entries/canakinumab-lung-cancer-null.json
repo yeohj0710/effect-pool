@@ -1,33 +1,34 @@
 {
-  "id": "canakinumab-lung-cancer-null",
-  "subj": "카나키누맙",
-  "claim": "카나키누맙이 비소세포폐암의 재발을 막는다",
-  "line": "절제 후 비소세포폐암 3상에서 카나키누맙은 재발 억제 효과를 입증하지 못했다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1382,
-  "synth": "single",
-  "why": "CANOPY-A 이중눈가림 무작위 3상시험은 완전 절제된 비소세포폐암 환자 1382명을 평가했지만 보조요법의 주요 유효성을 입증하지 못했습니다.",
-  "saw": "NCT03447769와 PubMed 원문은 완전 절제된 2기에서 3기 비소세포폐암 환자 1382명을 대상으로 한 CANOPY-A 시험을 보고했습니다.",
-  "limit": "완전 절제 후 특정 병기와 보조요법 조건에 한정된 시험이며 다른 폐암 병기나 치료 목적에 결과를 일반화할 수 없습니다.",
-  "against": "반대 검색 25건과 안전성 검색 15건이 확인됐고, CANOPY-A 결과는 카나키누맙의 비소세포폐암 재발 억제 주장을 뒷받침하지 않습니다.",
-  "use": "비소세포폐암 재발 예방 치료로 표시하지 말고 음성 3상 결과를 함께 설명합니다.",
-  "refs": [
-    {
-      "label": "Paz-Ares 2023 · Journal of Clinical Oncology · CANOPY-A 무작위 3상 · 음성 결과",
-      "pmid": "37788412"
-    },
-    {
-      "label": "NCT03447769 · 완전 절제 비소세포폐암 카나키누맙 보조요법 · 중단",
-      "nct": "NCT03447769"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.generic_name:canakinumab → 6건; 주기성 발열증후군·Still병·통풍 발작 표시, 폐암 적응증 없음",
-    "ctgov": "intr=canakinumab, cond=Lung Cancer → 11건 반환, InterventionName 대조 후 canakinumab 10건",
-    "pubmed": "canakinumab Lung Cancer → 41건",
-    "negative": "canakinumab Lung Cancer (no effect OR did not OR failed to OR negative OR no significant difference) → 25건",
-    "safety": "canakinumab Lung Cancer (adverse OR toxicity OR case report) → 15건"
+ "id": "canakinumab-lung-cancer-null",
+ "subj": "카나키누맙",
+ "claim": "카나키누맙이 비소세포폐암의 재발을 막는다",
+ "line": "절제 후 비소세포폐암 3상에서 카나키누맙은 재발 억제 효과를 입증하지 못했다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1382,
+ "synth": "single",
+ "why": "CANOPY-A 이중눈가림 무작위 3상시험은 완전 절제된 비소세포폐암 환자 1382명을 평가했지만 보조요법의 주요 유효성을 입증하지 못했습니다.",
+ "saw": "NCT03447769와 PubMed 원문은 완전 절제된 2기에서 3기 비소세포폐암 환자 1382명을 대상으로 한 CANOPY-A 시험을 보고했습니다.",
+ "limit": "완전 절제 후 특정 병기와 보조요법 조건에 한정된 시험이며 다른 폐암 병기나 치료 목적에 결과를 일반화할 수 없습니다.",
+ "against": "반대 검색 25건과 안전성 검색 15건이 확인됐고, CANOPY-A 결과는 카나키누맙의 비소세포폐암 재발 억제 주장을 뒷받침하지 않습니다.",
+ "use": "비소세포폐암 재발 예방 치료로 표시하지 말고 음성 3상 결과를 함께 설명합니다.",
+ "refs": [
+  {
+   "label": "Paz-Ares 2023 · Journal of Clinical Oncology · CANOPY-A 무작위 3상 · 음성 결과",
+   "pmid": "37788412"
+  },
+  {
+   "label": "NCT03447769 · 완전 절제 비소세포폐암 카나키누맙 보조요법 · 중단",
+   "nct": "NCT03447769"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.generic_name:canakinumab → 6건; 주기성 발열증후군·Still병·통풍 발작 표시, 폐암 적응증 없음",
+  "ctgov": "intr=canakinumab, cond=Lung Cancer → 11건 반환, InterventionName 대조 후 canakinumab 10건",
+  "pubmed": "canakinumab Lung Cancer → 41건",
+  "negative": "canakinumab Lung Cancer (no effect OR did not OR failed to OR negative OR no significant difference) → 25건",
+  "safety": "canakinumab Lung Cancer (adverse OR toxicity OR case report) → 15건"
+ },
+ "vs": "카나키누맙 vs 위약: 무병생존 중앙값 35.0 vs 29.7개월, HR .94 (95% CI .78~1.14), p=.258; 3상 RCT 1,382명"
 }

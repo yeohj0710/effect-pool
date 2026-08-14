@@ -1,27 +1,36 @@
 {
-  "id": "candesartan-diabetes-null",
-  "subj": "칸데사르탄",
-  "claim": "당뇨병에서 칸데사르탄은 새 미세알부민뇨를 예방하지 못했다.",
-  "line": "당뇨병에서 칸데사르탄은 미세알부민뇨 발생을 뚜렷하게 예방하지 못했다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 5231,
-  "synth": "meta",
-  "why": "세 무작위 DIRECT 시험의 통합 분석은 당뇨병에서 칸데사르탄이 미세알부민뇨 발생을 예방하는지 평가했습니다.",
-  "saw": "PMID 19451554의 제1형·제2형 당뇨병 환자 5231명 통합 분석에서 새 미세알부민뇨 위험은 대조군과 다르지 않았습니다(HR 0.95, 95% CI 0.78–1.16). 연간 알부민뇨 변화는 작게 낮아졌지만 연구는 망막 결과에 맞춰 설계됐습니다.",
-  "limit": "당뇨병 전체의 혈당·신장·망막 합병증을 한꺼번에 평가한 결과가 아니며, 미세알부민뇨 같은 대리지표가 중심입니다. 대부분 정상혈압·정상알부민뇨 환자였습니다.",
-  "against": "통합 분석은 칸데사르탄이 미세알부민뇨를 예방하지 못했다고 결론냈고, 반대 방향 검색에서도 유의한 차이 없음 또는 실패를 언급한 433건을 확인했습니다.",
-  "use": "당뇨병 환자의 대리지표와 망막 결과를 당뇨병 자체의 치료 효과로 확대하지 않도록 설명합니다.",
-  "refs": [
-    { "label": "Sjølie 2008 · DIRECT 세 무작위시험의 당뇨병 미세알부민뇨 분석", "pmid": "19451554", "nct": "NCT00252733" },
-    { "label": "DIRECT-Prevent 1·Protect 1 당뇨병성 망막병증 무작위시험", "pmid": "18823656", "nct": "NCT00252720" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"CANDESARTAN\" → 19건 반환; 허가 문구는 고혈압·심부전이며 당뇨병 적응증 없음",
-    "ctgov": "query.intr=candesartan&query.cond=Diabetes → 16건 반환, InterventionName 대조 후 10건",
-    "pubmed": "candesartan Diabetes → 513건",
-    "negative": "candesartan Diabetes (no effect OR did not OR failed to OR negative OR no significant difference) → 433건",
-    "safety": "candesartan Diabetes (adverse OR toxicity OR case report) → 123건"
+ "id": "candesartan-diabetes-null",
+ "subj": "칸데사르탄",
+ "claim": "당뇨병에서 칸데사르탄은 새 미세알부민뇨를 예방하지 못했다.",
+ "line": "당뇨병에서 칸데사르탄은 미세알부민뇨 발생을 뚜렷하게 예방하지 못했다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 5231,
+ "synth": "meta",
+ "why": "세 무작위 DIRECT 시험의 통합 분석은 당뇨병에서 칸데사르탄이 미세알부민뇨 발생을 예방하는지 평가했습니다.",
+ "saw": "PMID 19451554의 제1형·제2형 당뇨병 환자 5231명 통합 분석에서 새 미세알부민뇨 위험은 대조군과 다르지 않았습니다(HR 0.95, 95% CI 0.78–1.16). 연간 알부민뇨 변화는 작게 낮아졌지만 연구는 망막 결과에 맞춰 설계됐습니다.",
+ "limit": "당뇨병 전체의 혈당·신장·망막 합병증을 한꺼번에 평가한 결과가 아니며, 미세알부민뇨 같은 대리지표가 중심입니다. 대부분 정상혈압·정상알부민뇨 환자였습니다.",
+ "against": "통합 분석은 칸데사르탄이 미세알부민뇨를 예방하지 못했다고 결론냈고, 반대 방향 검색에서도 유의한 차이 없음 또는 실패를 언급한 433건을 확인했습니다.",
+ "use": "당뇨병 환자의 대리지표와 망막 결과를 당뇨병 자체의 치료 효과로 확대하지 않도록 설명합니다.",
+ "refs": [
+  {
+   "label": "Sjølie 2008 · DIRECT 세 무작위시험의 당뇨병 미세알부민뇨 분석",
+   "pmid": "19451554",
+   "nct": "NCT00252733"
+  },
+  {
+   "label": "DIRECT-Prevent 1·Protect 1 당뇨병성 망막병증 무작위시험",
+   "pmid": "18823656",
+   "nct": "NCT00252720"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"CANDESARTAN\" → 19건 반환; 허가 문구는 고혈압·심부전이며 당뇨병 적응증 없음",
+  "ctgov": "query.intr=candesartan&query.cond=Diabetes → 16건 반환, InterventionName 대조 후 10건",
+  "pubmed": "candesartan Diabetes → 513건",
+  "negative": "candesartan Diabetes (no effect OR did not OR failed to OR negative OR no significant difference) → 433건",
+  "safety": "candesartan Diabetes (adverse OR toxicity OR case report) → 123건"
+ },
+ "vs": "칸데사르탄 vs 위약: 당뇨병 신규 미세알부민뇨 HR .95 (95% CI .78~1.16), p=.60; 알부민뇨 연간 변화 5.53% 낮음; 3개 RCT 5,231명"
 }

@@ -1,29 +1,36 @@
 {
-  "id": "cannabidiol-anxiety-pos",
-  "subj": "칸나비디올",
-  "claim": "칸나비디올은 불안 증상을 줄였다.",
-  "line": "사람 연구 메타분석에서 칸나비디올은 불안 증상을 줄였다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 316,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "불안장애 치료 적응증을 확인하지 못함",
-  "why": "칸나비디올은 세로토닌·내인성 칸나비노이드 신호에 영향을 주어 불안 반응을 낮출 가능성이 있습니다.",
-  "saw": "8개 임상시험 316명 메타분석에서 칸나비디올은 불안 증상을 줄였고 Hedges g는 -0.92(95% CI -1.80–-0.04)였습니다. 연구에는 범불안장애, 사회불안장애, PTSD가 섞였습니다.",
-  "limit": "임상 표본이 작고 질환·용량·제형이 달랐습니다. 졸림과 약물상호작용을 감시해야 하며 장기 안전성은 불확실합니다.",
-  "against": "연구 수가 8개뿐이고 신뢰구간이 넓어 확정적 치료효과로 보기 어렵습니다.",
-  "use": "표준 불안장애 치료를 대체하지 않으며 전문의가 임상시험 또는 제한적 보조요법으로 검토합니다.",
-  "effect": "불안 Hedges g -0.92",
-  "refs": [
-    { "label": "Abdalla 2024 · Pharmaceuticals · 불안장애 메타분석", "pmid": "38924898" },
-    { "label": "Shannon 2019 · The Permanente Journal · 불안·수면 증례군", "pmid": "30624194" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=cannabidiol, cond=Anxiety · 38건 중 28건 직접 확인",
-    "pubmed": "cannabidiol AND Anxiety · 926건",
-    "negative": "cannabidiol AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference) · 802건",
-    "safety": "cannabidiol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2525건"
+ "id": "cannabidiol-anxiety-pos",
+ "subj": "칸나비디올",
+ "claim": "칸나비디올은 불안 증상을 줄였다.",
+ "line": "사람 연구 메타분석에서 칸나비디올은 불안 증상을 줄였다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 316,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "불안장애 치료 적응증을 확인하지 못함",
+ "why": "칸나비디올은 세로토닌·내인성 칸나비노이드 신호에 영향을 주어 불안 반응을 낮출 가능성이 있습니다.",
+ "saw": "8개 임상시험 316명 메타분석에서 칸나비디올은 불안 증상을 줄였고 Hedges g는 -0.92(95% CI -1.80–-0.04)였습니다. 연구에는 범불안장애, 사회불안장애, PTSD가 섞였습니다.",
+ "limit": "임상 표본이 작고 질환·용량·제형이 달랐습니다. 졸림과 약물상호작용을 감시해야 하며 장기 안전성은 불확실합니다.",
+ "against": "연구 수가 8개뿐이고 신뢰구간이 넓어 확정적 치료효과로 보기 어렵습니다.",
+ "use": "표준 불안장애 치료를 대체하지 않으며 전문의가 임상시험 또는 제한적 보조요법으로 검토합니다.",
+ "effect": "불안 Hedges g -0.92",
+ "refs": [
+  {
+   "label": "Abdalla 2024 · Pharmaceuticals · 불안장애 메타분석",
+   "pmid": "38924898"
+  },
+  {
+   "label": "Shannon 2019 · The Permanente Journal · 불안·수면 증례군",
+   "pmid": "30624194"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=cannabidiol, cond=Anxiety · 38건 중 28건 직접 확인",
+  "pubmed": "cannabidiol AND Anxiety · 926건",
+  "negative": "cannabidiol AND Anxiety AND (no effect OR did not OR failed to OR negative OR no significant difference) · 802건",
+  "safety": "cannabidiol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2525건"
+ },
+ "vs": "칸나비디올 vs 대조군: 불안 증상 표준화 평균차 Hedges g -.92 (95% CI -1.80~-.04); 8개 연구 316명 메타분석"
 }

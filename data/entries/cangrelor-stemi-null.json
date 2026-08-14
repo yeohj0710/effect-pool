@@ -1,28 +1,33 @@
 {
-  "id": "cangrelor-stemi-null",
-  "subj": "cangrelor",
-  "claim": "고혈소판반응성 STEMI에서 칸그렐로르는 최종 심근 재관류를 유의하게 개선하지 못했다.",
-  "line": "칸그렐러는 고혈소판반응성 STEMI에서 최종 재관류를 개선하지 못했다.",
-  "effect": "최종 MBG 개선 없음·잔여 혈전 부담 감소",
-  "tier": "trial",
-  "dir": "null",
-  "n": 60,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "cangrelor는 PCI 중 혈소판 억제에 허가됐지만 고혈소판반응성 STEMI 치료 적응증은 별도로 인정되지 않습니다.",
-  "why": "ticagrelor와 aspirin을 미리 투여받은 고혈소판반응성 STEMI 환자 60명을 cangrelor군과 표준치료군에 무작위 배정했습니다.",
-  "saw": "최종 정상 심근홍조등급은 cangrelor군 70%, 표준치료군 57%였지만 유의하지 않았고 잔여 혈전 부담과 PRU는 낮았습니다.",
-  "limit": "소규모 파일럿시험이며 심근홍조등급이라는 대리지표를 주 평가변수로 사용했습니다.",
-  "against": "혈소판 억제와 잔여 혈전 부담이 개선돼도 최종 심근 재관류 개선이나 임상 예후를 보장하지 않습니다.",
-  "use": "고혈소판반응성 STEMI의 PCI 보조요법을 연구할 때 혼합된 초기 근거로 참고합니다.",
-  "refs": [
-    { "label": "고혈소판반응성 STEMI cangrelor 파일럿 무작위시험", "doi": "10.1007/s11239-026-03258-8", "pmid": "41790330" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "cangrelor AND STEMI 검색 12건, 직접 중재 12건",
-    "pubmed": "\"cangrelor\" AND \"STEMI\" 검색 71건, 임상시험·관찰연구 33건",
-    "negative": "\"cangrelor\" AND \"STEMI\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 46건",
-    "safety": "\"cangrelor\" AND (adverse OR toxicity OR case report OR harm) 검색 321건"
+ "id": "cangrelor-stemi-null",
+ "subj": "캉그렐로르",
+ "claim": "고혈소판반응성 STEMI에서 칸그렐로르는 최종 심근 재관류를 유의하게 개선하지 못했다.",
+ "line": "칸그렐러는 고혈소판반응성 STEMI에서 최종 재관류를 개선하지 못했다.",
+ "effect": "최종 MBG 개선 없음·잔여 혈전 부담 감소",
+ "tier": "trial",
+ "dir": "null",
+ "n": 60,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "캉그렐로르는 PCI 중 혈소판 억제에 허가됐지만 고혈소판반응성 STEMI 치료 적응증은 별도로 인정되지 않습니다.",
+ "why": "ticagrelor와 aspirin을 미리 투여받은 고혈소판반응성 STEMI 환자 60명을 캉그렐로르군과 표준치료군에 무작위 배정했습니다.",
+ "saw": "최종 정상 심근홍조등급은 캉그렐로르군 70%, 표준치료군 57%였지만 유의하지 않았고 잔여 혈전 부담과 PRU는 낮았습니다.",
+ "limit": "소규모 파일럿시험이며 심근홍조등급이라는 대리지표를 주 평가변수로 사용했습니다.",
+ "against": "혈소판 억제와 잔여 혈전 부담이 개선돼도 최종 심근 재관류 개선이나 임상 예후를 보장하지 않습니다.",
+ "use": "고혈소판반응성 STEMI의 PCI 보조요법을 연구할 때 혼합된 초기 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "고혈소판반응성 STEMI cangrelor 파일럿 무작위시험",
+   "doi": "10.1007/s11239-026-03258-8",
+   "pmid": "41790330"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "cangrelor AND STEMI 검색 12건, 직접 중재 12건",
+  "pubmed": "\"cangrelor\" AND \"STEMI\" 검색 71건, 임상시험·관찰연구 33건",
+  "negative": "\"cangrelor\" AND \"STEMI\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 46건",
+  "safety": "\"cangrelor\" AND (adverse OR toxicity OR case report OR harm) 검색 321건"
+ },
+ "vs": "캉그렐로르 vs 표준치료: 정상 심근관류 70% (21/30) vs 57% (17/30), p=.28; 잔여 혈전부담 4.5% vs 6.9%, p=.03; RCT 60명"
 }
