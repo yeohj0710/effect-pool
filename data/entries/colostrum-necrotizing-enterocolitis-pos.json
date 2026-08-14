@@ -1,29 +1,38 @@
 {
-  "id": "colostrum-necrotizing-enterocolitis-pos",
-  "subj": "초유",
-  "claim": "구강인두 초유 투여가 미숙아 괴사성 장염을 줄인다",
-  "line": "미숙아에게 구강인두 초유를 투여하면 괴사성 장염이 줄었습니다.",
-  "effect": "괴사성 장염 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1692,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "초유는 괴사성 장염 치료 적응증을 승인받은 의약품이 아닙니다.",
-  "why": "미숙아에게 사람 초유를 구강인두로 투여한 무작위시험 메타분석입니다.",
-  "saw": "17개 연구 1,692명에서 괴사성 장염 위험비가 0.59(95% CI 0.43-0.82)였습니다.",
-  "limit": "구강인두 투여 근거이며 초극소 미숙아 자료가 적어 모든 초유 제품에 일반화할 수 없습니다.",
-  "against": "소 초유를 첫 수유에 보충한 별도 무작위시험에서는 완전 경장영양 도달 시간이 줄지 않았습니다.",
-  "use": "미숙아 치료를 대신하지 않으며 신생아 전문의와 투여 경로·감염관리를 함께 정해야 합니다.",
-  "refs": [
-    { "label": "Oropharyngeal colostrum therapy and neonatal outcomes meta-analysis", "doi": "10.1002/jpn3.12085", "pmid": "38314925" },
-    { "label": "Oropharyngeal colostrum administration in premature infants meta-analysis", "doi": "10.1016/j.ijnurstu.2023.104527", "pmid": "37295286" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "colostrum AND Necrotizing Enterocolitis: 8건, intervention 일치 7건",
-    "pubmed": "colostrum AND Necrotizing Enterocolitis: 173건; randomized human: 43건",
-    "negative": "colostrum AND Necrotizing Enterocolitis AND (no effect OR did not OR failed OR negative OR no significant difference): 105건",
-    "safety": "colostrum AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 644건"
+ "id": "colostrum-necrotizing-enterocolitis-pos",
+ "subj": "초유",
+ "claim": "구강인두 초유 투여가 미숙아 괴사성 장염을 줄인다",
+ "line": "미숙아에게 구강인두 초유를 투여하면 괴사성 장염이 줄었습니다.",
+ "effect": "괴사성 장염 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1692,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "초유는 괴사성 장염 치료 적응증을 승인받은 의약품이 아닙니다.",
+ "why": "미숙아에게 사람 초유를 구강인두로 투여한 무작위시험 메타분석입니다.",
+ "saw": "17개 연구 1,692명에서 괴사성 장염 위험비가 0.59(95% CI 0.43-0.82)였습니다.",
+ "limit": "구강인두 투여 근거이며 초극소 미숙아 자료가 적어 모든 초유 제품에 일반화할 수 없습니다.",
+ "against": "소 초유를 첫 수유에 보충한 별도 무작위시험에서는 완전 경장영양 도달 시간이 줄지 않았습니다.",
+ "use": "미숙아 치료를 대신하지 않으며 신생아 전문의와 투여 경로·감염관리를 함께 정해야 합니다.",
+ "refs": [
+  {
+   "label": "Oropharyngeal colostrum therapy and neonatal outcomes meta-analysis",
+   "doi": "10.1002/jpn3.12085",
+   "pmid": "38314925"
+  },
+  {
+   "label": "Oropharyngeal colostrum administration in premature infants meta-analysis",
+   "doi": "10.1016/j.ijnurstu.2023.104527",
+   "pmid": "37295286"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "colostrum AND Necrotizing Enterocolitis: 8건, intervention 일치 7건",
+  "pubmed": "colostrum AND Necrotizing Enterocolitis: 173건; randomized human: 43건",
+  "negative": "colostrum AND Necrotizing Enterocolitis AND (no effect OR did not OR failed OR negative OR no significant difference): 105건",
+  "safety": "colostrum AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 644건"
+ },
+ "vs": "미숙아 구강인두 초유 vs 위약·표준 관리: 괴사성 장염 RR 0.59(95% CI 0.43~0.82), 배양 양성 패혈증 RR 0.78(0.65~0.94), 사망 RR 0.73(0.59~0.90); 21개 RCT 메타분석 2,393명"
 }

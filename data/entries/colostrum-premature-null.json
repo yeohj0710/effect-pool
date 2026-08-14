@@ -1,28 +1,34 @@
 {
-  "id": "colostrum-premature-null",
-  "subj": "초유",
-  "claim": "매우 미숙아 첫 수유에 소 초유를 보충해도 완전 경장영양 도달 시간은 줄지 않는다",
-  "line": "매우 미숙아 첫 수유에 소 초유를 보충해도 완전 경장영양 도달 시간은 줄지 않았습니다.",
-  "effect": "완전 경장영양 시간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 350,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "소 초유 보충은 미숙아의 영양 적응증을 승인받은 의약품 치료가 아닙니다.",
-  "why": "다기관 무작위시험에서 모유가 부족한 매우 미숙아에게 소 초유 또는 조산아 분유를 보충했습니다.",
-  "saw": "350명에서 완전 경장영양 도달 시간은 차이가 없었습니다(aHR 0.82, 95% CI 0.64-1.06, p=0.13).",
-  "limit": "소 초유를 첫 14일에 보충한 시험 하나이며 사람 초유의 구강인두 투여 결과와 다릅니다.",
-  "against": "소 초유군에서 성장과 주요 이환율은 다르지 않았고 뇌실주위 백질연화증은 5/155 대 0/181이었습니다.",
-  "use": "미숙아의 영양 결정은 신생아 전문의가 모유 공급과 장 기능을 보고 정해야 합니다.",
-  "refs": [
-    { "label": "Bovine colostrum to supplement the first feeding of very preterm infants", "doi": "10.1016/j.clnu.2023.06.024", "pmid": "37437359", "nct": "NCT03085277" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "colostrum AND Premature: 27건, intervention 일치 20건",
-    "pubmed": "colostrum AND Premature: 493건; randomized human: 78건",
-    "negative": "colostrum AND Premature AND (no effect OR did not OR failed OR negative OR no significant difference): 276건",
-    "safety": "colostrum AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 644건"
+ "id": "colostrum-premature-null",
+ "subj": "초유",
+ "claim": "매우 미숙아 첫 수유에 소 초유를 보충해도 완전 경장영양 도달 시간은 줄지 않는다",
+ "line": "매우 미숙아 첫 수유에 소 초유를 보충해도 완전 경장영양 도달 시간은 줄지 않았습니다.",
+ "effect": "완전 경장영양 시간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 350,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "소 초유 보충은 미숙아의 영양 적응증을 승인받은 의약품 치료가 아닙니다.",
+ "why": "다기관 무작위시험에서 모유가 부족한 매우 미숙아에게 소 초유 또는 조산아 분유를 보충했습니다.",
+ "saw": "350명에서 완전 경장영양 도달 시간은 차이가 없었습니다(aHR 0.82, 95% CI 0.64-1.06, p=0.13).",
+ "limit": "소 초유를 첫 14일에 보충한 시험 하나이며 사람 초유의 구강인두 투여 결과와 다릅니다.",
+ "against": "소 초유군에서 성장과 주요 이환율은 다르지 않았고 뇌실주위 백질연화증은 5/155 대 0/181이었습니다.",
+ "use": "미숙아의 영양 결정은 신생아 전문의가 모유 공급과 장 기능을 보고 정해야 합니다.",
+ "refs": [
+  {
+   "label": "Bovine colostrum to supplement the first feeding of very preterm infants",
+   "doi": "10.1016/j.clnu.2023.06.024",
+   "pmid": "37437359",
+   "nct": "NCT03085277"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "colostrum AND Premature: 27건, intervention 일치 20건",
+  "pubmed": "colostrum AND Premature: 493건; randomized human: 78건",
+  "negative": "colostrum AND Premature AND (no effect OR did not OR failed OR negative OR no significant difference): 276건",
+  "safety": "colostrum AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication): 644건"
+ },
+ "vs": "소 초유 보충 vs 미숙아 분유 보충: 완전 경장영양 도달 adjusted HR 0.82(95% CI 0.64~1.06, p=.13); 350명 무작위시험에서 유의한 차이 없음"
 }

@@ -1,20 +1,33 @@
 {
-  "id": "cold-exposure-brown-fat-pos",
-  "subj": "냉 노출",
-  "claim": "냉 노출이 성인의 갈색지방 활동을 높인다",
-  "line": "성인을 2시간 냉각했더니 혈중 담즙산이 줄고 갈색지방 활동과 연결됐습니다",
-  "effect": "갈색지방 대사 신호",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 56,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "냉 노출은 갈색지방 활성화의 허가 적응증이 아닌 생활 중재입니다",
-  "why": "ACTIBATE 코호트에서 냉 노출 뒤 갈색지방 지표와 혈중 담즙산 변화를 함께 분석한 사람 연구입니다.",
-  "saw": "젊고 주로 앉아서 생활하는 성인 56명을 냉각 프로토콜에 노출하고 혈중 담즙산과 PET-CT 갈색지방 부피·활동을 분석했습니다. 2시간 동안 총 담즙산과 일부 담즙산이 24~30% 줄었고 특정 담즙산 변화가 갈색지방 부피와 포도당 섭취와 연결됐습니다.",
-  "limit": "무작위 대조시험의 임상 결과가 아니라 56명 코호트의 2차 분석이며 체중이나 질병 결과를 직접 확인하지 않았습니다.",
-  "against": "냉 노출이 비만이나 당뇨를 치료한다는 임상 결과는 확인하지 않았습니다.",
-  "use": "갈색지방 대사 연구의 생리 신호로만 읽고 질환 치료 효과로 확대하지 않습니다.",
-  "refs": [{ "label": "ACTIBATE 냉 노출과 담즙산 2차 분석", "doi": "10.1007/s13105-026-01155-5", "pmid": "41762355" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=cold exposure · cond=Brown Fat 33건 반환·intervention 일치 17건", "pubmed": "cold exposure AND Brown Fat 305편", "negative": "cold exposure AND Brown Fat AND (no effect OR did not OR failed OR negative OR no significant difference) 63편", "safety": "cold exposure AND (adverse OR toxicity OR case report OR overdose OR self-medication) 937편" }
+ "id": "cold-exposure-brown-fat-pos",
+ "subj": "냉 노출",
+ "claim": "냉 노출이 성인의 갈색지방 활동을 높인다",
+ "line": "성인을 2시간 냉각했더니 혈중 담즙산이 줄고 갈색지방 활동과 연결됐습니다",
+ "effect": "갈색지방 대사 신호",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 56,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "냉 노출은 갈색지방 활성화의 허가 적응증이 아닌 생활 중재입니다",
+ "why": "ACTIBATE 코호트에서 냉 노출 뒤 갈색지방 지표와 혈중 담즙산 변화를 함께 분석한 사람 연구입니다.",
+ "saw": "젊고 주로 앉아서 생활하는 성인 56명을 냉각 프로토콜에 노출하고 혈중 담즙산과 PET-CT 갈색지방 부피·활동을 분석했습니다. 2시간 동안 총 담즙산과 일부 담즙산이 24~30% 줄었고 특정 담즙산 변화가 갈색지방 부피와 포도당 섭취와 연결됐습니다.",
+ "limit": "무작위 대조시험의 임상 결과가 아니라 56명 코호트의 2차 분석이며 체중이나 질병 결과를 직접 확인하지 않았습니다.",
+ "against": "냉 노출이 비만이나 당뇨를 치료한다는 임상 결과는 확인하지 않았습니다.",
+ "use": "갈색지방 대사 연구의 생리 신호로만 읽고 질환 치료 효과로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "ACTIBATE 냉 노출과 담즙산 2차 분석",
+   "doi": "10.1007/s13105-026-01155-5",
+   "pmid": "41762355"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=cold exposure · cond=Brown Fat 33건 반환·intervention 일치 17건",
+  "pubmed": "cold exposure AND Brown Fat 305편",
+  "negative": "cold exposure AND Brown Fat AND (no effect OR did not OR failed OR negative OR no significant difference) 63편",
+  "safety": "cold exposure AND (adverse OR toxicity OR case report OR overdose OR self-medication) 937편"
+ },
+ "vs": "2시간 냉 노출 전후: 총·2차·결합 담즙산 24~30% 감소(모두 p<.001); 정상 체중군 GLCA와 갈색지방 부피·포도당 섭취의 상관 |r|≤0.41, 조정 회귀 R≤0.34; ACTIBATE 2차 분석 56명"
 }
