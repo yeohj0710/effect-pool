@@ -1,29 +1,39 @@
 {
-  "id": "mulberry-mucositis-pos",
-  "subj": "mulberry",
-  "claim": "방사선 치료의 부작용인 구강 점막염을 흑오디 당밀로 예방한다",
-  "line": "방사선 치료를 받는 사람에게 흑오디 당밀은 구강 점막염을 줄였습니다",
-  "effect": "구강 점막염 위험 HR 0.63",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 80,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "흑오디는 허가 적응증을 적용하지 않는 식품이며 당밀 제형의 구강 점막염 사용은 비허가 중재입니다.",
-  "why": "두경부암으로 방사선 치료를 받을 예정인 80명을 방사선 치료 단독군 42명과 흑오디 당밀 병용군 38명으로 무작위 배정한 대조시험입니다.",
-  "saw": "흑오디 당밀군에서 구강 점막염의 발생률과 중증도가 낮았고, 점막염 예방의 위험비는 0.63(95% CI 0.40~0.98)이었습니다. 삶의 질 점수는 두 군에서 다르지 않았습니다.",
-  "limit": "표본이 작고 방사선 치료를 받는 두경부암 환자에 한정된 시험이며, 다른 연구에서는 흑오디 당밀이 포도 당밀보다 점막염을 더 잘 줄이지 못했습니다.",
-  "against": "구강 점막염 감소가 두경부암 치료 효과를 뜻하지 않으며 통증과 삶의 질 결과는 일관되지 않습니다.",
-  "use": "방사선 치료의 구강 점막염 보조 연구 신호로만 사용하며 표준 구강 관리나 암 치료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "Effectiveness of Black Mulberry Molasses in Prevention of Radiotherapy-Induced Oral Mucositis · 무작위 대조시험", "doi": "10.1089/acm.2016.0425", "pmid": "28677999" },
-    { "label": "A Systematic Review of the Efficacy and Safety of Mulberry Formulations for Chemotherapy- and/or Radiotherapy-Induced Oral Mucositis", "doi": "10.7759/cureus.52340", "pmid": "38361712", "pmc": "PMC10867387" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=mulberry AND query.cond=Mucositis → 4건, mulberry 개입명 직접 일치 3건",
-    "pubmed": "mulberry AND Mucositis → 59건",
-    "negative": "mulberry AND Mucositis AND (no effect OR did not OR failed OR negative OR no significant difference) → 43건",
-    "safety": "mulberry AND (adverse OR toxicity OR case report OR harm OR dropout) → 686건"
+ "id": "mulberry-mucositis-pos",
+ "subj": "오디",
+ "claim": "방사선 치료의 부작용인 구강 점막염을 흑오디 당밀로 예방한다",
+ "line": "방사선 치료를 받는 사람에게 흑오디 당밀은 구강 점막염을 줄였습니다",
+ "effect": "구강 점막염 위험 HR 0.63",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 80,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "흑오디는 허가 적응증을 적용하지 않는 식품이며 당밀 제형의 구강 점막염 사용은 비허가 중재입니다.",
+ "why": "두경부암으로 방사선 치료를 받을 예정인 80명을 방사선 치료 단독군 42명과 흑오디 당밀 병용군 38명으로 무작위 배정한 대조시험입니다.",
+ "saw": "흑오디 당밀군에서 구강 점막염의 발생률과 중증도가 낮았고, 점막염 예방의 위험비는 0.63(95% CI 0.40~0.98)이었습니다. 삶의 질 점수는 두 군에서 다르지 않았습니다.",
+ "limit": "표본이 작고 방사선 치료를 받는 두경부암 환자에 한정된 시험이며, 다른 연구에서는 흑오디 당밀이 포도 당밀보다 점막염을 더 잘 줄이지 못했습니다.",
+ "against": "구강 점막염 감소가 두경부암 치료 효과를 뜻하지 않으며 통증과 삶의 질 결과는 일관되지 않습니다.",
+ "use": "방사선 치료의 구강 점막염 보조 연구 신호로만 사용하며 표준 구강 관리나 암 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "Effectiveness of Black Mulberry Molasses in Prevention of Radiotherapy-Induced Oral Mucositis · 무작위 대조시험",
+   "doi": "10.1089/acm.2016.0425",
+   "pmid": "28677999"
+  },
+  {
+   "label": "A Systematic Review of the Efficacy and Safety of Mulberry Formulations for Chemotherapy- and/or Radiotherapy-Induced Oral Mucositis",
+   "doi": "10.7759/cureus.52340",
+   "pmid": "38361712",
+   "pmc": "PMC10867387"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=mulberry AND query.cond=Mucositis → 4건, mulberry 개입명 직접 일치 3건",
+  "pubmed": "mulberry AND Mucositis → 59건",
+  "negative": "mulberry AND Mucositis AND (no effect OR did not OR failed OR negative OR no significant difference) → 43건",
+  "safety": "mulberry AND (adverse OR toxicity OR case report OR harm OR dropout) → 686건"
+ },
+ "vs": "군 간 차이: 검은 오디 시럽 vs 대조군 구강점막염 예방 HR 0.63 (95% CI 0.40~0.98)"
 }

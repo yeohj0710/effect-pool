@@ -1,28 +1,32 @@
 {
-  "id": "music-engagement-stress-pos",
-  "subj": "music engagement",
-  "claim": "음악 참여를 장기이식 후 스트레스 완화에 쓴다",
-  "line": "능동적 음악 참여 후 장기이식 환자의 부정 정서가 줄었습니다",
-  "effect": "부정정서 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 29,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "간·신장 이식 수혜자 29명을 정서 접근 대처를 포함한 능동적 음악 참여, 음악치료, 대조 조건으로 나눈 무작위시험입니다.",
-  "saw": "정서 접근 음악치료는 긍정정서를 높였고 능동적 음악 참여는 통증을 낮췄으며 두 음악군 모두 부정정서와 지각된 스트레스 지표를 낮췄습니다.",
-  "limit": "수술 후 장기이식 수혜자 대상의 소규모 시험이고 음악 참여와 정서 대처 요소를 완전히 분리하지 않았습니다.",
-  "against": "정서 접근 대처를 강조한 군의 효과와 능동적 참여군의 효과가 결과별로 달라 어떤 음악 요소가 스트레스에 기여했는지 확정하기 어렵습니다.",
-  "use": "장기이식 후 심리사회적 회복에서 음악 참여를 보조 중재로 검토할 때 통증·정서 결과를 함께 모니터링합니다.",
-  "refs": [
-    { "label": "Active music engagement with emotional-approach coping to improve well-being in liver and kidney transplant recipients", "pmid": "22506300", "doi": "10.1093/jmt/48.4.463" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]music engagement AND AREA[ConditionSearch]Stress → 17건, exact InterventionName 0건",
-    "pubmed": "\"music engagement\" AND \"Stress\" → 20건",
-    "negative": "\"music engagement\" AND \"Stress\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 4건",
-    "safety": "\"music engagement\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 7건"
+ "id": "music-engagement-stress-pos",
+ "subj": "음악 참여",
+ "claim": "음악 참여를 장기이식 후 스트레스 완화에 쓴다",
+ "line": "능동적 음악 참여 후 장기이식 환자의 부정 정서가 줄었습니다",
+ "effect": "부정정서 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 29,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "간·신장 이식 수혜자 29명을 정서 접근 대처를 포함한 능동적 음악 참여, 음악치료, 대조 조건으로 나눈 무작위시험입니다.",
+ "saw": "정서 접근 음악치료는 긍정정서를 높였고 능동적 음악 참여는 통증을 낮췄으며 두 음악군 모두 부정정서와 지각된 스트레스 지표를 낮췄습니다.",
+ "limit": "수술 후 장기이식 수혜자 대상의 소규모 시험이고 음악 참여와 정서 대처 요소를 완전히 분리하지 않았습니다.",
+ "against": "정서 접근 대처를 강조한 군의 효과와 능동적 참여군의 효과가 결과별로 달라 어떤 음악 요소가 스트레스에 기여했는지 확정하기 어렵습니다.",
+ "use": "장기이식 후 심리사회적 회복에서 음악 참여를 보조 중재로 검토할 때 통증·정서 결과를 함께 모니터링합니다.",
+ "refs": [
+  {
+   "label": "Active music engagement with emotional-approach coping to improve well-being in liver and kidney transplant recipients",
+   "pmid": "22506300",
+   "doi": "10.1093/jmt/48.4.463"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]music engagement AND AREA[ConditionSearch]Stress → 17건, exact InterventionName 0건",
+  "pubmed": "\"music engagement\" AND \"Stress\" → 20건",
+  "negative": "\"music engagement\" AND \"Stress\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 4건",
+  "safety": "\"music engagement\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 7건"
+ }
 }
