@@ -1,35 +1,36 @@
 {
-  "id": "amantadine-schizophrenia-pos",
-  "subj": "아만타딘",
-  "claim": "파킨슨약을 조현병의 항정신병약 관련 체중 증가에 더한다",
-  "line": "항정신병약 때문에 늘어난 체중이 아만타딘을 추가한 뒤 줄었습니다.",
-  "effect": "체중 −2.22kg·불면 NNH 6",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 265,
-  "synth": "meta",
-  "why": "조현병 환자의 항정신병약 관련 체중 증가에서 아만타딘 추가요법과 위약을 비교한 이중눈가림 무작위시험 5편의 메타분석입니다.",
-  "saw": "5개 무작위시험 265명을 합쳤습니다. 체중 감소는 3개 시험 205명에서 아만타딘이 위약보다 2.22kg 더 컸고, 음성증상도 2개 시험 84명에서 개선됐습니다. 불면은 위해수 6으로 더 잦았습니다.",
-  "limit": "체중 증가와 일부 음성증상에 대한 보조요법 결과이지 조현병의 전체 증상 치료 효과가 아닙니다. 포함 시험이 작고 추적기간이 짧았습니다.",
-  "against": "NMDA 길항제 8개 시험 406명 메타분석에서는 전체·양성·음성 증상에서 위약보다 유의하게 낫지 않았고, 아만타딘군 불면이 더 잦았습니다.",
-  "use": "항정신병약 관련 체중 증가 보조치료의 신호는 있지만 조현병 자체의 표준 치료제로 볼 수 없습니다.",
-  "refs": [
-    {
-      "label": "Liu 2017 · Journal of Clinical Psychiatry · 조현병 체중 증가 아만타딘 메타분석",
-      "doi": "10.1097/JCP.0000000000000598",
-      "pmid": "28383359"
-    },
-    {
-      "label": "Kishi 2013 · Journal of Psychiatric Research · NMDA 길항제 조현병 메타분석",
-      "doi": "10.1016/j.jpsychires.2013.04.013",
-      "pmid": "23692933"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=amantadine, cond=Schizophrenia → 16건 반환, InterventionName 대조 후 2건",
-    "pubmed": "amantadine schizophrenia → 202건",
-    "negative": "amantadine schizophrenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 169건",
-    "safety": "amantadine schizophrenia AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 118건"
+ "id": "amantadine-schizophrenia-pos",
+ "subj": "아만타딘",
+ "claim": "파킨슨약을 조현병의 항정신병약 관련 체중 증가에 더한다",
+ "line": "항정신병약 때문에 늘어난 체중이 아만타딘을 추가한 뒤 줄었습니다.",
+ "effect": "체중 −2.22kg·불면 NNH 6",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 265,
+ "synth": "meta",
+ "why": "조현병 환자의 항정신병약 관련 체중 증가에서 아만타딘 추가요법과 위약을 비교한 이중눈가림 무작위시험 5편의 메타분석입니다.",
+ "saw": "5개 무작위시험 265명을 합쳤습니다. 체중 감소는 3개 시험 205명에서 아만타딘이 위약보다 2.22kg 더 컸고, 음성증상도 2개 시험 84명에서 개선됐습니다. 불면은 위해수 6으로 더 잦았습니다.",
+ "limit": "체중 증가와 일부 음성증상에 대한 보조요법 결과이지 조현병의 전체 증상 치료 효과가 아닙니다. 포함 시험이 작고 추적기간이 짧았습니다.",
+ "against": "NMDA 길항제 8개 시험 406명 메타분석에서는 전체·양성·음성 증상에서 위약보다 유의하게 낫지 않았고, 아만타딘군 불면이 더 잦았습니다.",
+ "use": "항정신병약 관련 체중 증가 보조치료의 신호는 있지만 조현병 자체의 표준 치료제로 볼 수 없습니다.",
+ "refs": [
+  {
+   "label": "Liu 2017 · Journal of Clinical Psychiatry · 조현병 체중 증가 아만타딘 메타분석",
+   "doi": "10.1097/JCP.0000000000000598",
+   "pmid": "28383359"
+  },
+  {
+   "label": "Kishi 2013 · Journal of Psychiatric Research · NMDA 길항제 조현병 메타분석",
+   "doi": "10.1016/j.jpsychires.2013.04.013",
+   "pmid": "23692933"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=amantadine, cond=Schizophrenia → 16건 반환, InterventionName 대조 후 2건",
+  "pubmed": "amantadine schizophrenia → 202건",
+  "negative": "amantadine schizophrenia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 169건",
+  "safety": "amantadine schizophrenia AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 118건"
+ },
+ "vs": "아만타딘+항정신병약 vs 위약+항정신병약: 체중 변화 WMD -2.22kg, p=0.001; 음성 증상 SMD -0.56, p=0.01; 불면증 NNH 6; RCT 5개·265명"
 }

@@ -1,20 +1,33 @@
 {
-  "id": "allopurinol-coronary-artery-disease-null",
-  "subj": "allopurinol",
-  "claim": "allopurinol을 허혈성 심장질환의 주요 심혈관 사건 예방에 쓴다",
-  "line": "허혈성 심장질환 환자에서 알로푸리놀은 주요 심혈관 위험을 낮추지 못했다.",
-  "effect": "주요 심혈관 HR 1.04",
-  "tier": "trial",
-  "dir": "null",
-  "n": 5721,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허혈성 심장질환의 주요 심혈관 사건 예방은 allopurinol의 허가 적응증이 아닙니다",
-  "why": "ALL-HEART에서 통풍 병력이 없는 허혈성 심장질환 고령 환자를 allopurinol과 일반 치료로 무작위 배정했습니다",
-  "saw": "5,721명에서 주요 사건은 allopurinol 11.0%, 일반 치료 11.3%, HR 1.04(95% CI 0.89-1.21)였습니다",
-  "limit": "개방형 시험이고 60세 이상 허혈성 심장질환 환자에 한정됩니다",
-  "against": "요산 수치나 통풍 치료를 위한 allopurinol 사용 결과와 혼동하지 않아야 합니다",
-  "use": "허혈성 심장질환의 심혈관 예방제로 추가하지 않습니다",
-  "refs": [{ "label": "2022 ALL-HEART 무작위시험", "doi": "10.1016/S0140-6736(22)01657-9", "pmid": "36216006" }],
-  "queried": { "date": "2026-08-08", "ctgov": "allopurinol AND Coronary Artery Disease; 9건", "pubmed": "allopurinol AND ischaemic heart disease; ALL-HEART 확인", "negative": "allopurinol AND coronary AND no difference; HR 확인", "safety": "allopurinol AND coronary AND adverse; ALL-HEART 확인" }
+ "id": "allopurinol-coronary-artery-disease-null",
+ "subj": "알로푸리놀",
+ "claim": "알로푸리놀을 허혈성 심장질환의 주요 심혈관 사건 예방에 쓴다",
+ "line": "허혈성 심장질환 환자에서 알로푸리놀은 주요 심혈관 위험을 낮추지 못했다.",
+ "effect": "주요 심혈관 HR 1.04",
+ "tier": "trial",
+ "dir": "null",
+ "n": 5721,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허혈성 심장질환의 주요 심혈관 사건 예방은 알로푸리놀의 허가 적응증이 아닙니다",
+ "why": "ALL-HEART에서 통풍 병력이 없는 허혈성 심장질환 고령 환자를 알로푸리놀과 일반 치료로 무작위 배정했습니다",
+ "saw": "5,721명에서 주요 사건은 알로푸리놀 11.0%, 일반 치료 11.3%, HR 1.04(95% CI 0.89-1.21)였습니다",
+ "limit": "개방형 시험이고 60세 이상 허혈성 심장질환 환자에 한정됩니다",
+ "against": "요산 수치나 통풍 치료를 위한 알로푸리놀 사용 결과와 혼동하지 않아야 합니다",
+ "use": "허혈성 심장질환의 심혈관 예방제로 추가하지 않습니다",
+ "refs": [
+  {
+   "label": "2022 ALL-HEART 무작위시험",
+   "doi": "10.1016/S0140-6736(22)01657-9",
+   "pmid": "36216006"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "allopurinol AND Coronary Artery Disease; 9건",
+  "pubmed": "allopurinol AND ischaemic heart disease; ALL-HEART 확인",
+  "negative": "allopurinol AND coronary AND no difference; HR 확인",
+  "safety": "allopurinol AND coronary AND adverse; ALL-HEART 확인"
+ },
+ "vs": "알로푸리놀 vs 일반 치료: 허혈성 심장질환 환자의 비치명적 심근경색·뇌졸중 또는 심혈관 사망 11.0% vs 11.3%, HR 1.04 (95% CI 0.89~1.21), p=0.65; RCT 5,721명"
 }

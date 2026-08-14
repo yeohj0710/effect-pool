@@ -1,28 +1,33 @@
 {
-  "id": "alirocumab-atheroma-myocardial-pos",
-  "subj": "알리로쿠맙",
-  "claim": "급성 심근경색 뒤 관상동맥 죽상반에 알리로쿠맙을 쓴다",
-  "line": "급성 심근경색 뒤 알리로쿠맙 추가군의 관상동맥 죽상반이 더 줄었다.",
-  "effect": "죽상반 용적 −1.21%p",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 300,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "관상동맥 죽상반 회귀는 허가 문구가 아니라 심근경색 환자에서 평가한 연구 목적입니다.",
-  "why": "고강도 스타틴에 알리로쿠맙을 추가해 급성 심근경색 환자의 비경색 관련 관상동맥 죽상반을 영상으로 평가한 무작위시험입니다.",
-  "saw": "PACMAN-AMI 무작위시험 300명에서 52주 관상동맥 죽상반 용적 변화는 알리로쿠맙 −2.13%, 위약 −0.92%로 차이가 −1.21%p였습니다. 지질핵 부담은 −79.42 대 −37.60, 최소 섬유모자 두께 증가는 62.67 대 33.19μm였습니다.",
-  "limit": "265명이 추적 영상까지 완료했고 비경색 관련 동맥의 영상 지표를 평가했습니다.",
-  "against": "임상 심혈관 사건 감소를 입증한 시험은 아니며 고강도 스타틴을 함께 썼습니다.",
-  "use": "급성 심근경색 뒤 죽상반 영상 변화의 보조 근거로 기록하며 임상 사건 예방 근거와 구분합니다.",
-  "refs": [
-    { "label": "PACMAN-AMI 알리로쿠맙 관상동맥 죽상반 무작위시험", "doi": "10.1001/jama.2022.5218", "pmid": "35368058" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=alirocumab, cond=Atheroma Myocardial · 2건",
-    "pubmed": "alirocumab AND Atheroma Myocardial · 13편",
-    "negative": "alirocumab AND Atheroma Myocardial AND (no benefit OR no difference OR failed OR ineffective) · 9편",
-    "safety": "alirocumab AND Atheroma Myocardial AND (adverse OR safety OR toxicity) · 7편"
+ "id": "alirocumab-atheroma-myocardial-pos",
+ "subj": "알리로쿠맙",
+ "claim": "급성 심근경색 뒤 관상동맥 죽상반에 알리로쿠맙을 쓴다",
+ "line": "급성 심근경색 뒤 알리로쿠맙 추가군의 관상동맥 죽상반이 더 줄었다.",
+ "effect": "죽상반 용적 −1.21%p",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 300,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "관상동맥 죽상반 회귀는 허가 문구가 아니라 심근경색 환자에서 평가한 연구 목적입니다.",
+ "why": "고강도 스타틴에 알리로쿠맙을 추가해 급성 심근경색 환자의 비경색 관련 관상동맥 죽상반을 영상으로 평가한 무작위시험입니다.",
+ "saw": "PACMAN-AMI 무작위시험 300명에서 52주 관상동맥 죽상반 용적 변화는 알리로쿠맙 −2.13%, 위약 −0.92%로 차이가 −1.21%p였습니다. 지질핵 부담은 −79.42 대 −37.60, 최소 섬유모자 두께 증가는 62.67 대 33.19μm였습니다.",
+ "limit": "265명이 추적 영상까지 완료했고 비경색 관련 동맥의 영상 지표를 평가했습니다.",
+ "against": "임상 심혈관 사건 감소를 입증한 시험은 아니며 고강도 스타틴을 함께 썼습니다.",
+ "use": "급성 심근경색 뒤 죽상반 영상 변화의 보조 근거로 기록하며 임상 사건 예방 근거와 구분합니다.",
+ "refs": [
+  {
+   "label": "PACMAN-AMI 알리로쿠맙 관상동맥 죽상반 무작위시험",
+   "doi": "10.1001/jama.2022.5218",
+   "pmid": "35368058"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=alirocumab, cond=Atheroma Myocardial · 2건",
+  "pubmed": "alirocumab AND Atheroma Myocardial · 13편",
+  "negative": "alirocumab AND Atheroma Myocardial AND (no benefit OR no difference OR failed OR ineffective) · 9편",
+  "safety": "alirocumab AND Atheroma Myocardial AND (adverse OR safety OR toxicity) · 7편"
+ },
+ "vs": "알리로쿠맙 vs 위약: 죽상경화반 용적 변화 -2.13% vs -0.92%, 차이 -1.21% (95% CI -1.78~-0.65), p<0.001; 지질 핵 -79.42% vs -37.60%, 차이 -41.24% (95% CI -70.71~-11.77), p=0.006; 섬유성 덮개 두께 증가 차이 29.65μm (11.75~47.55), p=0.001; RCT 300명"
 }

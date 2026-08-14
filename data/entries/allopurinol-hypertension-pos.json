@@ -1,30 +1,31 @@
 {
-  "id": "allopurinol-hypertension-pos",
-  "subj": "알로푸리놀",
-  "claim": "고혈압의 심뇌혈관 사건을 줄인다",
-  "line": "고령 고혈압 환자에서는 알로푸리놀군의 뇌졸중·심장사건 위험이 낮았다.",
-  "effect": "뇌졸중 HR 0.50 · 심장 0.61",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 4064,
-  "synth": "single",
-  "why": "65세 초과 고혈압 성인에서 알로푸리놀 사용과 뇌졸중·심장사건 위험의 관계를 진료기록 자료와 성향점수 짝짓기로 평가했습니다.",
-  "saw": "알로푸리놀 사용 환자 2,032명과 비사용 짝짓기 대조군 2,032명을 10년간 분석했습니다. 사용군은 뇌졸중 위험비 0.50, 심장사건 위험비 0.61로 낮았습니다.",
-  "limit": "무작위 배정이 아닌 관찰자료라 잔여 교란과 적응증에 따른 차이를 배제할 수 없습니다. 저자도 전향적 임상시험이 필요하다고 했습니다.",
-  "against": "비사용 대조군과의 성향점수 비교 결과이며, 치료 배정 무작위시험의 심혈관 결과는 아닙니다.",
-  "use": "고령 고혈압 환자에서 관찰된 연관성을 보여주지만 예방 효과로 단정할 수 없는 근거입니다.",
-  "refs": [
-    {
-      "label": "MacIsaac 2016 · Hypertension · 고혈압 성인의 알로푸리놀 심혈관 결과 관찰연구",
-      "doi": "10.1161/HYPERTENSIONAHA.115.06344",
-      "pmid": "26865199"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "query.intr=allopurinol&query.cond=Hypertension 반환 11건, InterventionName 정확 일치 10건",
-    "pubmed": "allopurinol hypertension 반환 607건",
-    "negative": "allopurinol hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 395건",
-    "safety": "allopurinol hypertension AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 212건"
+ "id": "allopurinol-hypertension-pos",
+ "subj": "알로푸리놀",
+ "claim": "고혈압의 심뇌혈관 사건을 줄인다",
+ "line": "고령 고혈압 환자에서는 알로푸리놀군의 뇌졸중·심장사건 위험이 낮았다.",
+ "effect": "뇌졸중 HR 0.50 · 심장 0.61",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 4064,
+ "synth": "single",
+ "why": "65세 초과 고혈압 성인에서 알로푸리놀 사용과 뇌졸중·심장사건 위험의 관계를 진료기록 자료와 성향점수 짝짓기로 평가했습니다.",
+ "saw": "알로푸리놀 사용 환자 2,032명과 비사용 짝짓기 대조군 2,032명을 10년간 분석했습니다. 사용군은 뇌졸중 위험비 0.50, 심장사건 위험비 0.61로 낮았습니다.",
+ "limit": "무작위 배정이 아닌 관찰자료라 잔여 교란과 적응증에 따른 차이를 배제할 수 없습니다. 저자도 전향적 임상시험이 필요하다고 했습니다.",
+ "against": "비사용 대조군과의 성향점수 비교 결과이며, 치료 배정 무작위시험의 심혈관 결과는 아닙니다.",
+ "use": "고령 고혈압 환자에서 관찰된 연관성을 보여주지만 예방 효과로 단정할 수 없는 근거입니다.",
+ "refs": [
+  {
+   "label": "MacIsaac 2016 · Hypertension · 고혈압 성인의 알로푸리놀 심혈관 결과 관찰연구",
+   "doi": "10.1161/HYPERTENSIONAHA.115.06344",
+   "pmid": "26865199"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "query.intr=allopurinol&query.cond=Hypertension 반환 11건, InterventionName 정확 일치 10건",
+  "pubmed": "allopurinol hypertension 반환 607건",
+  "negative": "allopurinol hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference) 반환 395건",
+  "safety": "allopurinol hypertension AND (adverse OR toxicity OR case report OR overdose OR self-medication) 반환 212건"
+ },
+ "vs": "알로푸리놀 vs 비노출 대조: 뇌졸중 HR 0.50 (95% CI 0.32~0.80), 심장 사건 HR 0.61 (0.43~0.87); 고용량 vs 저용량 뇌졸중 HR 0.58 (0.36~0.94), 심장 사건 HR 0.65 (0.46~0.93); 성향점수 매칭 관찰연구 4,064명"
 }

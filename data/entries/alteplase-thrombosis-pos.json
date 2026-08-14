@@ -1,28 +1,32 @@
 {
-  "id": "alteplase-thrombosis-pos",
-  "subj": "alteplase",
-  "claim": "알테플라제는 심부정맥혈전증의 카테터 혈전용해에 효과가 있는가",
-  "line": "심부정맥혈전증에서 알테플라제 카테터 혈전용해의 사지 성공률은 96.9%였다",
-  "effect": "사지 성공률 96.9%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 74,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가 용도는 급성 허혈성 뇌졸중·심근경색·폐색전증 등이며 심부정맥혈전증 카테터 치료는 별도 적응증이 아님",
-  "why": "증상이 있는 심부정맥혈전증 환자에서 카테터 혈전용해제로 alteplase, urokinase, reteplase를 비교한 후향 분석이다.",
-  "saw": "alteplase군 32개 사지의 혈전용해 성공률은 96.9%였고 전체 합병증률은 12.5%였다. urokinase·reteplase군과 성공률 및 합병증의 유의한 차이는 없었다.",
-  "limit": "74명 82개 사지를 비교한 후향 연구이고 치료제 배정이 무작위가 아니며 alteplase군은 32개 사지뿐이다.",
-  "against": "세 약제 사이의 성공률과 합병증 차이는 통계적으로 유의하지 않았다.",
-  "use": "심부정맥혈전증의 카테터 치료에서 alteplase를 고려할 때 다른 혈전용해제와 비용·주입시간·출혈 위험을 함께 비교한다.",
-  "refs": [
-    { "label": "Comparison of urokinase, alteplase, and reteplase for catheter-directed thrombolysis of deep venous thrombosis", "pmid": "15064337" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "alteplase AND Thrombosis · 86건",
-    "pubmed": "alteplase AND Thrombosis · 5,780편",
-    "negative": "alteplase AND Thrombosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 3,377편",
-    "safety": "alteplase AND (adverse OR toxicity OR harm OR safety OR case report) · 9,115편"
+ "id": "alteplase-thrombosis-pos",
+ "subj": "알테플라제",
+ "claim": "알테플라제는 심부정맥혈전증의 카테터 혈전용해에 효과가 있는가",
+ "line": "심부정맥혈전증에서 알테플라제 카테터 혈전용해의 사지 성공률은 96.9%였다",
+ "effect": "사지 성공률 96.9%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 74,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가 용도는 급성 허혈성 뇌졸중·심근경색·폐색전증 등이며 심부정맥혈전증 카테터 치료는 별도 적응증이 아님",
+ "why": "증상이 있는 심부정맥혈전증 환자에서 카테터 혈전용해제로 알테플라제, urokinase, reteplase를 비교한 후향 분석이다.",
+ "saw": "알테플라제군 32개 사지의 혈전용해 성공률은 96.9%였고 전체 합병증률은 12.5%였다. urokinase·reteplase군과 성공률 및 합병증의 유의한 차이는 없었다.",
+ "limit": "74명 82개 사지를 비교한 후향 연구이고 치료제 배정이 무작위가 아니며 알테플라제군은 32개 사지뿐이다.",
+ "against": "세 약제 사이의 성공률과 합병증 차이는 통계적으로 유의하지 않았다.",
+ "use": "심부정맥혈전증의 카테터 치료에서 알테플라제를 고려할 때 다른 혈전용해제와 비용·주입시간·출혈 위험을 함께 비교한다.",
+ "refs": [
+  {
+   "label": "Comparison of urokinase, alteplase, and reteplase for catheter-directed thrombolysis of deep venous thrombosis",
+   "pmid": "15064337"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "alteplase AND Thrombosis · 86건",
+  "pubmed": "alteplase AND Thrombosis · 5,780편",
+  "negative": "alteplase AND Thrombosis AND (no effect OR did not OR failed OR negative OR no significant difference) · 3,377편",
+  "safety": "alteplase AND (adverse OR toxicity OR harm OR safety OR case report) · 9,115편"
+ },
+ "vs": "알테플라제 vs 우로키나제: 카테터 혈전용해 성공률 96.9% vs 97.4%, 주요 합병증 3.1% vs 5.3%, 전체 합병증 12.5% vs 10.5%; 후향적 비교연구 74명·82개 사지"
 }
