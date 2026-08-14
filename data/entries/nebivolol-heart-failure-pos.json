@@ -1,6 +1,6 @@
 {
   "id": "nebivolol-heart-failure-pos",
-  "subj": "nebivolol",
+  "subj": "네비볼롤",
   "claim": "고령 심부전의 사망·심혈관 입원에 네비볼롤을 쓴다",
   "line": "고령 심부전 환자에게 네비볼롤은 사망·심혈관 입원을 줄였습니다",
   "effect": "주요 결과 HR 0.86",
@@ -15,6 +15,19 @@
   "limit": "고령 심부전 환자에 한정되며 전체 사망 감소는 유의하지 않았다.",
   "against": "복합 결과 개선을 모든 심부전 환자의 생존 연장으로 해석할 수 없다.",
   "use": "고령 심부전에서 베타차단제 선택을 검토할 때 네비볼롤의 복합 결과 근거로 기록한다.",
-  "refs": [{ "label": "European Heart Journal · 무작위시험", "doi": "10.1093/eurheartj/ehi115", "pmid": "15642700" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=nebivolol, cond=Heart Failure · 19건", "pubmed": "nebivolol AND Heart Failure · 254편", "negative": "nebivolol AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 210편", "safety": "nebivolol AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 384편" }
+  "refs": [
+    {
+      "label": "European Heart Journal · 무작위시험",
+      "doi": "10.1093/eurheartj/ehi115",
+      "pmid": "15642700"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=nebivolol, cond=Heart Failure · 19건",
+    "pubmed": "nebivolol AND Heart Failure · 254편",
+    "negative": "nebivolol AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 210편",
+    "safety": "nebivolol AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 384편"
+  },
+  "vs": "심부전 사망·심혈관 입원 31.1%(332/1067) vs 위약 35.3%(375/1061), HR=0.86(95% CI 0.74~0.99), p=.039"
 }
