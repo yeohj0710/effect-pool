@@ -1,28 +1,35 @@
 {
-  "id": "iloprost-septic-shock-null",
-  "subj": "iloprost",
-  "claim": "iloprost가 지속 저관류를 동반한 중증 패혈성 쇼크의 장기부전을 줄이는가",
-  "line": "지속 저관류 패혈성 쇼크에서 일로프로스트는 SOFA·28일 사망률을 낮추지 못했습니다",
-  "effect": "SOFA 변화 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 236,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "iloprost의 허가 적응증에 패혈성 쇼크의 장기부전 치료는 포함하지 않습니다.",
-  "why": "지속 저관류가 있는 중증 패혈성 쇼크 성인 240명을 iloprost군과 위약군으로 무작위 배정했고 236명을 분석했습니다.",
-  "saw": "7일까지 SOFA 점수 변화는 iloprost와 위약군 사이에 유의한 차이가 없었고 28일 사망률도 달라지지 않았습니다.",
-  "limit": "지속 저관류와 모세혈관 재충전시간 또는 피부 얼룩이 있는 환자만 포함했습니다.",
-  "against": "중대한 이상사건은 iloprost군 15%, 위약군 7%로 더 많았지만 통계적으로 유의하지 않았습니다.",
-  "use": "패혈성 쇼크의 장기보호 치료로 iloprost를 확대할 때 부정적 대조 근거로 사용할 수 있습니다.",
-  "refs": [
-    { "label": "중증 패혈성 쇼크 iloprost 무작위시험", "doi": "10.1164/rccm.202410-1924OC", "pmid": "40387381", "pmc": "PMC12264687", "nct": "NCT03788837" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "iloprost AND Septic Shock 검색 3건, 직접 중재 3건",
-    "pubmed": "\"iloprost\" AND \"Septic Shock\" 검색 21건, 임상시험·관찰연구 12건",
-    "negative": "\"iloprost\" AND \"Septic Shock\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 15건",
-    "safety": "\"iloprost\" AND (adverse OR toxicity OR case report OR harm) 검색 639건"
+ "id": "iloprost-septic-shock-null",
+ "subj": "일로프로스트",
+ "claim": "일로프로스트가 지속 저관류를 동반한 중증 패혈성 쇼크의 장기부전을 줄이는가",
+ "line": "지속 저관류 패혈성 쇼크에서 일로프로스트는 SOFA·28일 사망률을 낮추지 못했습니다",
+ "effect": "SOFA 변화 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 236,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "일로프로스트의 허가 적응증에 패혈성 쇼크의 장기부전 치료는 포함하지 않습니다.",
+ "why": "지속 저관류가 있는 중증 패혈성 쇼크 성인 240명을 일로프로스트군과 위약군으로 무작위 배정했고 236명을 분석했습니다.",
+ "saw": "7일까지 SOFA 점수 변화는 일로프로스트와 위약군 사이에 유의한 차이가 없었고 28일 사망률도 달라지지 않았습니다.",
+ "limit": "지속 저관류와 모세혈관 재충전시간 또는 피부 얼룩이 있는 환자만 포함했습니다.",
+ "against": "중대한 이상사건은 일로프로스트군 15%, 위약군 7%로 더 많았지만 통계적으로 유의하지 않았습니다.",
+ "use": "패혈성 쇼크의 장기보호 치료로 일로프로스트를 확대할 때 부정적 대조 근거로 사용할 수 있습니다.",
+ "refs": [
+  {
+   "label": "중증 패혈성 쇼크 iloprost 무작위시험",
+   "doi": "10.1164/rccm.202410-1924OC",
+   "pmid": "40387381",
+   "pmc": "PMC12264687",
+   "nct": "NCT03788837"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "iloprost AND Septic Shock 검색 3건, 직접 중재 3건",
+  "pubmed": "\"iloprost\" AND \"Septic Shock\" 검색 21건, 임상시험·관찰연구 12건",
+  "negative": "\"iloprost\" AND \"Septic Shock\" AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 15건",
+  "safety": "\"iloprost\" AND (adverse OR toxicity OR case report OR harm) 검색 639건"
+ },
+ "vs": "일로프로스트 vs 위약: 지속성 저관류 패혈성 쇼크 RCT에서 7일 SOFA 점수 변화 중앙값 -4 vs -5(차이 1, 95% CI 0~3; P=.12), 28일 사망 48명 vs 47명, RR 1.08(95% CI 0.80~1.5)였고 중증 이상반응은 15% vs 7%였다."
 }

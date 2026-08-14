@@ -1,28 +1,37 @@
 {
-  "id": "hydroxyurea-glioblastoma-null",
-  "subj": "하이드록시유레아",
-  "claim": "혈액암 약을 교모세포종에 쓴다",
-  "line": "재발 교모세포종에서 하이드록시유레아 병용은 무진행 생존을 늘리지 못했습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 33,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가사항의 백혈병·겸상적혈구병 등에는 교모세포종이 없음",
-  "why": "표준치료 뒤 재발한 교모세포종에서 이마티닙·하이드록시유레아 병용을 평가한 2상 연구와 하이드록시유레아 대 병용 무작위시험입니다.",
-  "saw": "2상 연구 33명에서 6개월 무진행 생존은 27%였고 3명이 영상 반응을 보였습니다. 별도 3상 비교에서는 병용군과 하이드록시유레아군의 중앙 무진행 생존이 모두 6주였고 6개월 무진행 생존도 5% 대 7%였습니다.",
-  "limit": "하이드록시유레아 단독이 아니라 이마티닙 병용 연구가 중심이며 재발 교모세포종에 한정됐습니다. 초기 치료나 다른 뇌종양에 일반화할 수 없습니다.",
-  "against": "2상 연구에서 일부 반응과 안정병변이 있었지만 대조군이 없는 작은 연구라 약물 병용 효과를 분리하지 못합니다.",
-  "use": "재발 교모세포종에서 하이드록시유레아 병용은 연구 신호가 있었지만 임상적으로 의미 있는 생존 개선은 확인하지 못했습니다.",
-  "refs": [
-    { "label": "Reardon 2005 · Journal of Clinical Oncology · 재발 교모세포종 이마티닙·하이드록시유레아 2상", "doi": "10.1200/JCO.2005.03.2185", "pmid": "16361636" },
-    { "label": "Dresemann 2010 · Journal of Neuro-Oncology · 교모세포종 이마티닙·하이드록시유레아 무작위시험 음성 결과", "doi": "10.1007/s11060-009-9976-3", "pmid": "19688297" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=hydroxyurea, cond=Glioblastoma → 9건 반환, InterventionName 대조 후 9건",
-    "pubmed": "hydroxyurea AND Glioblastoma → 75건",
-    "negative": "hydroxyurea AND Glioblastoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 51건",
-    "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ "id": "hydroxyurea-glioblastoma-null",
+ "subj": "하이드록시유레아",
+ "claim": "혈액암 약을 교모세포종에 쓴다",
+ "line": "재발 교모세포종에서 하이드록시유레아 병용은 무진행 생존을 늘리지 못했습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 33,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가사항의 백혈병·겸상적혈구병 등에는 교모세포종이 없음",
+ "why": "표준치료 뒤 재발한 교모세포종에서 이마티닙·하이드록시유레아 병용을 평가한 2상 연구와 하이드록시유레아 대 병용 무작위시험입니다.",
+ "saw": "2상 연구 33명에서 6개월 무진행 생존은 27%였고 3명이 영상 반응을 보였습니다. 별도 3상 비교에서는 병용군과 하이드록시유레아군의 중앙 무진행 생존이 모두 6주였고 6개월 무진행 생존도 5% 대 7%였습니다.",
+ "limit": "하이드록시유레아 단독이 아니라 이마티닙 병용 연구가 중심이며 재발 교모세포종에 한정됐습니다. 초기 치료나 다른 뇌종양에 일반화할 수 없습니다.",
+ "against": "2상 연구에서 일부 반응과 안정병변이 있었지만 대조군이 없는 작은 연구라 약물 병용 효과를 분리하지 못합니다.",
+ "use": "재발 교모세포종에서 하이드록시유레아 병용은 연구 신호가 있었지만 임상적으로 의미 있는 생존 개선은 확인하지 못했습니다.",
+ "refs": [
+  {
+   "label": "Reardon 2005 · Journal of Clinical Oncology · 재발 교모세포종 이마티닙·하이드록시유레아 2상",
+   "doi": "10.1200/JCO.2005.03.2185",
+   "pmid": "16361636"
+  },
+  {
+   "label": "Dresemann 2010 · Journal of Neuro-Oncology · 교모세포종 이마티닙·하이드록시유레아 무작위시험 음성 결과",
+   "doi": "10.1007/s11060-009-9976-3",
+   "pmid": "19688297"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=hydroxyurea, cond=Glioblastoma → 9건 반환, InterventionName 대조 후 9건",
+  "pubmed": "hydroxyurea AND Glioblastoma → 75건",
+  "negative": "hydroxyurea AND Glioblastoma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 51건",
+  "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ },
+ "vs": "이마티닙+하이드록시우레아 vs 하이드록시우레아: 진행성 재발 교모세포종 3상에서 무진행생존기간 중앙값 6주 vs 6주, 6개월 무진행생존율 5% vs 7%, 보정 HR 0.93(P=.56)으로 유의한 차이가 없었다."
 }

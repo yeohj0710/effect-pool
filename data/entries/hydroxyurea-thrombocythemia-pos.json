@@ -1,29 +1,36 @@
 {
-  "id": "hydroxyurea-thrombocythemia-pos",
-  "subj": "하이드록시유레아",
-  "claim": "혈액암 약을 본태성 혈소판증가증의 혈전 예방에 쓴다",
-  "line": "고위험 본태성 혈소판증가증에서 하이드록시유레아군 혈전이 더 적었습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "혈전 3.6% vs 24%",
-  "n": 114,
-  "synth": "single",
-  "known": "standard",
-  "knownWhy": "고위험 본태성 혈소판증가증의 세포감소 표준요법",
-  "why": "혈전 위험이 높은 본태성 혈소판증가증 환자를 하이드록시유레아와 세포감소 치료 없음에 무작위 배정한 임상시험입니다.",
-  "saw": "114명에서 중앙 27개월 추적 동안 혈전은 하이드록시유레아군 3.6%, 대조군 24%였습니다. 2022년 168명 3상시험에서도 하이드록시유레아는 페길화 인터페론과 비슷한 혈구 반응을 보였습니다.",
-  "limit": "고위험 환자에 한정됐고 아스피린 또는 티클로피딘을 함께 사용했습니다. 저위험 환자와 젊은 환자에게 같은 이득과 백혈병 위험을 적용할 수 없습니다.",
-  "against": "페길화 인터페론은 장기 추적에서 혈구 정상화와 JAK2 변이 감소가 더 컸지만 혈전과 질병 진행은 두 군에서 드물고 차이가 없었습니다.",
-  "use": "하이드록시유레아의 혈전 예방 근거는 고위험 본태성 혈소판증가증의 표준치료 맥락에서 해석해야 합니다.",
-  "refs": [
-    { "label": "Hydroxyurea Group 1995 · New England Journal of Medicine · 고위험 본태성 혈소판증가증 무작위시험", "pmid": "7700286" },
-    { "label": "Mascarenhas 2022 · Blood · 본태성 혈소판증가증 하이드록시유레아 대 인터페론 3상시험", "pmid": "35007321" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=hydroxyurea, cond=Thrombocythemia → 28건 반환, InterventionName 대조 후 7건",
-    "pubmed": "hydroxyurea AND Thrombocythemia → 1001건",
-    "negative": "hydroxyurea AND Thrombocythemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 583건",
-    "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ "id": "hydroxyurea-thrombocythemia-pos",
+ "subj": "하이드록시유레아",
+ "claim": "혈액암 약을 본태성 혈소판증가증의 혈전 예방에 쓴다",
+ "line": "고위험 본태성 혈소판증가증에서 하이드록시유레아군 혈전이 더 적었습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "혈전 3.6% vs 24%",
+ "n": 114,
+ "synth": "single",
+ "known": "standard",
+ "knownWhy": "고위험 본태성 혈소판증가증의 세포감소 표준요법",
+ "why": "혈전 위험이 높은 본태성 혈소판증가증 환자를 하이드록시유레아와 세포감소 치료 없음에 무작위 배정한 임상시험입니다.",
+ "saw": "114명에서 중앙 27개월 추적 동안 혈전은 하이드록시유레아군 3.6%, 대조군 24%였습니다. 2022년 168명 3상시험에서도 하이드록시유레아는 페길화 인터페론과 비슷한 혈구 반응을 보였습니다.",
+ "limit": "고위험 환자에 한정됐고 아스피린 또는 티클로피딘을 함께 사용했습니다. 저위험 환자와 젊은 환자에게 같은 이득과 백혈병 위험을 적용할 수 없습니다.",
+ "against": "페길화 인터페론은 장기 추적에서 혈구 정상화와 JAK2 변이 감소가 더 컸지만 혈전과 질병 진행은 두 군에서 드물고 차이가 없었습니다.",
+ "use": "하이드록시유레아의 혈전 예방 근거는 고위험 본태성 혈소판증가증의 표준치료 맥락에서 해석해야 합니다.",
+ "refs": [
+  {
+   "label": "Hydroxyurea Group 1995 · New England Journal of Medicine · 고위험 본태성 혈소판증가증 무작위시험",
+   "pmid": "7700286"
+  },
+  {
+   "label": "Mascarenhas 2022 · Blood · 본태성 혈소판증가증 하이드록시유레아 대 인터페론 3상시험",
+   "pmid": "35007321"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=hydroxyurea, cond=Thrombocythemia → 28건 반환, InterventionName 대조 후 7건",
+  "pubmed": "hydroxyurea AND Thrombocythemia → 1001건",
+  "negative": "hydroxyurea AND Thrombocythemia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 583건",
+  "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ },
+ "vs": "하이드록시우레아 vs 골수억제 치료 없음: 고위험 본태성혈소판증가증 114명 RCT에서 혈전 사건 3.6%(2/56) vs 24%(14/58), 차이 20.4%p(95% CI 8.5~32; P=.003)였다."
 }

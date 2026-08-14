@@ -1,28 +1,34 @@
 {
-  "id": "icatibant-heart-failure-harm",
-  "subj": "이카티반트",
-  "claim": "만성 심부전의 혈압 조절에 이카티반트를 쓴다",
-  "line": "심부전에서 이카티반트는 급성 혈압을 낮추지 못했고 만성 강하 효과도 약했습니다",
-  "effect": "급성 무효·만성 혈압저하 억제",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 36,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "이카티반트 허가 적응증은 유전성 혈관부종의 급성 발작이며 심부전은 포함하지 않습니다.",
-  "why": "심부전 환자에서 브래디키닌 B2 수용체 차단제 이카티반트가 사쿠비트릴/발사르탄의 혈압 효과에 미치는 영향을 평가한 기전 시험입니다.",
-  "saw": "박출률 50% 미만 심부전 환자 36명에게 첫 사쿠비트릴/발사르탄 투여 뒤 이카티반트 또는 위약을 6시간 주입했고, 만성 8주 치료 후에는 30명을 평가했습니다. 급성 혈압 저하는 비슷했지만 만성 투여 때 평균 최대 감소가 이카티반트군 9mmHg, 위약군 12mmHg였습니다.",
-  "limit": "이카티반트를 심부전 치료제로 시험한 것이 아니라 다른 약의 브래디키닌 기여를 막은 기전 연구입니다.",
-  "against": "이카티반트가 심부전의 증상·입원·생존을 개선한다는 결과는 없습니다.",
-  "use": "심부전 치료에 이카티반트를 추가하지 않는 근거로 기록하며, 브래디키닌 차단이 병용약의 혈압 효과를 약화할 수 있음을 보여줍니다.",
-  "refs": [
-    { "label": "심부전 사쿠비트릴/발사르탄 이카티반트 기전 교차시험", "doi": "10.1161/CIRCHEARTFAILURE.125.014117", "pmid": "42028604", "nct": "NCT04113109" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "icatibant AND Heart Failure → 2건 반환, 직접 확인 2건",
-    "pubmed": "icatibant AND Heart Failure AND (randomized OR trial OR meta-analysis) → 5편",
-    "negative": "icatibant AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) → 26편",
-    "safety": "icatibant AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 279편"
+ "id": "icatibant-heart-failure-harm",
+ "subj": "이카티반트",
+ "claim": "만성 심부전의 혈압 조절에 이카티반트를 쓴다",
+ "line": "심부전에서 이카티반트는 급성 혈압을 낮추지 못했고 만성 강하 효과도 약했습니다",
+ "effect": "급성 무효·만성 혈압저하 억제",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 36,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "이카티반트 허가 적응증은 유전성 혈관부종의 급성 발작이며 심부전은 포함하지 않습니다.",
+ "why": "심부전 환자에서 브래디키닌 B2 수용체 차단제 이카티반트가 사쿠비트릴/발사르탄의 혈압 효과에 미치는 영향을 평가한 기전 시험입니다.",
+ "saw": "박출률 50% 미만 심부전 환자 36명에게 첫 사쿠비트릴/발사르탄 투여 뒤 이카티반트 또는 위약을 6시간 주입했고, 만성 8주 치료 후에는 30명을 평가했습니다. 급성 혈압 저하는 비슷했지만 만성 투여 때 평균 최대 감소가 이카티반트군 9mmHg, 위약군 12mmHg였습니다.",
+ "limit": "이카티반트를 심부전 치료제로 시험한 것이 아니라 다른 약의 브래디키닌 기여를 막은 기전 연구입니다.",
+ "against": "이카티반트가 심부전의 증상·입원·생존을 개선한다는 결과는 없습니다.",
+ "use": "심부전 치료에 이카티반트를 추가하지 않는 근거로 기록하며, 브래디키닌 차단이 병용약의 혈압 효과를 약화할 수 있음을 보여줍니다.",
+ "refs": [
+  {
+   "label": "심부전 사쿠비트릴/발사르탄 이카티반트 기전 교차시험",
+   "doi": "10.1161/CIRCHEARTFAILURE.125.014117",
+   "pmid": "42028604",
+   "nct": "NCT04113109"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "icatibant AND Heart Failure → 2건 반환, 직접 확인 2건",
+  "pubmed": "icatibant AND Heart Failure AND (randomized OR trial OR meta-analysis) → 5편",
+  "negative": "icatibant AND Heart Failure AND (no effect OR did not OR failed OR negative OR no significant difference) → 26편",
+  "safety": "icatibant AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 279편"
+ },
+ "vs": "이카티반트 vs 위약: 만성 사쿠비트릴/발사르탄 투여 후 평균동맥압 최대 감소가 9 vs 12 mmHg로 이카티반트군에서 작았으며(P=.013), 급성 첫 투여에서는 두 군이 유사했다."
 }

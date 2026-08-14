@@ -1,30 +1,41 @@
 {
-  "id": "indacaterol-asthma-pos",
-  "subj": "인다카테롤",
-  "claim": "인다카테롤을 흡입 스테로이드에 더해 천식 폐기능을 높인다",
-  "line": "천식 시험에서 인다카테롤 투여 24시간 뒤 FEV1은 위약보다 166mL 이상 높았습니다",
-  "effect": "24시간 FEV1 +166mL",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 156,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "단일 성분 인다카테롤은 COPD에 허가됐고 천식은 흡입 스테로이드 병용 범위입니다.",
-  "why": "천식 환자에게 인다카테롤을 직접 투여한 무작위시험에서 위약보다 폐기능이 개선됐습니다.",
-  "saw": "천식 환자 156명을 무작위 배정한 28일 위약대조시험에서 인다카테롤군은 마지막 투여 24시간 뒤에도 위약보다 최저 FEV1이 166mL 이상 높았고 유의한 24시간 기관지확장이 유지됐습니다.",
-  "limit": "단기간 안전성·기관지확장 시험이고 천식 장기 조절이나 단일 성분 LABA 사용의 안전성을 입증하지 않았습니다.",
-  "against": "후속 천식 시험은 인다카테롤을 흡입 스테로이드와 함께 사용했고, COPD에서 흡입 스테로이드를 뺀 병용요법은 폐기능이 소폭 떨어졌습니다.",
-  "use": "인다카테롤 단독 효과와 흡입 스테로이드 병용요법의 허가·개발 결과를 나눠 기록합니다.",
-  "refs": [
-    { "label": "천식 인다카테롤 28일 무작위 안전성 시험", "pmid": "17643277" },
-    { "label": "천식 인다카테롤 염 형태 교차시험", "pmid": "32967685", "nct": "NCT03257995" },
-    { "label": "COPD 인다카테롤·글리코피로늄 탈스테로이드 시험 · 음성 신호", "pmid": "29779416" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=indacaterol · cond=Asthma → 37건 반환, 물질 대조 후 22건",
-    "pubmed": "indacaterol AND Asthma → 165편",
-    "negative": "indacaterol AND Asthma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 102편",
-    "safety": "indacaterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 245편"
+ "id": "indacaterol-asthma-pos",
+ "subj": "인다카테롤",
+ "claim": "인다카테롤을 흡입 스테로이드에 더해 천식 폐기능을 높인다",
+ "line": "천식 시험에서 인다카테롤 투여 24시간 뒤 FEV1은 위약보다 166mL 이상 높았습니다",
+ "effect": "24시간 FEV1 +166mL",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 156,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "단일 성분 인다카테롤은 COPD에 허가됐고 천식은 흡입 스테로이드 병용 범위입니다.",
+ "why": "천식 환자에게 인다카테롤을 직접 투여한 무작위시험에서 위약보다 폐기능이 개선됐습니다.",
+ "saw": "천식 환자 156명을 무작위 배정한 28일 위약대조시험에서 인다카테롤군은 마지막 투여 24시간 뒤에도 위약보다 최저 FEV1이 166mL 이상 높았고 유의한 24시간 기관지확장이 유지됐습니다.",
+ "limit": "단기간 안전성·기관지확장 시험이고 천식 장기 조절이나 단일 성분 LABA 사용의 안전성을 입증하지 않았습니다.",
+ "against": "후속 천식 시험은 인다카테롤을 흡입 스테로이드와 함께 사용했고, COPD에서 흡입 스테로이드를 뺀 병용요법은 폐기능이 소폭 떨어졌습니다.",
+ "use": "인다카테롤 단독 효과와 흡입 스테로이드 병용요법의 허가·개발 결과를 나눠 기록합니다.",
+ "refs": [
+  {
+   "label": "천식 인다카테롤 28일 무작위 안전성 시험",
+   "pmid": "17643277"
+  },
+  {
+   "label": "천식 인다카테롤 염 형태 교차시험",
+   "pmid": "32967685",
+   "nct": "NCT03257995"
+  },
+  {
+   "label": "COPD 인다카테롤·글리코피로늄 탈스테로이드 시험 · 음성 신호",
+   "pmid": "29779416"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=indacaterol · cond=Asthma → 37건 반환, 물질 대조 후 22건",
+  "pubmed": "indacaterol AND Asthma → 165편",
+  "negative": "indacaterol AND Asthma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 102편",
+  "safety": "indacaterol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 245편"
+ },
+ "vs": "인다카테롤 vs 위약: 천식 RCT에서 28일 후 투여 전 FEV1이 위약보다 모든 방문에서 166mL 이상 높았고, 다른 교차시험에서는 말레산염·아세트산염이 위약보다 FEV1을 각각 186mL·146mL 개선했다(모두 P<.001)."
 }

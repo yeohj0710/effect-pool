@@ -1,28 +1,35 @@
 {
-  "id": "hydroxyurea-myelodysplastic-syndromes-null",
-  "subj": "하이드록시유레아",
-  "claim": "혈액암 약을 골수형성이상증후군에 쓴다",
-  "line": "고위험 골수형성이상증후군에서 하이드록시유레아군 관해율은 낮았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 217,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가사항의 백혈병·겸상적혈구병 등에는 골수형성이상증후군이 없음",
-  "why": "집중항암치료가 어려운 고령 AML·고위험 골수형성이상증후군 환자에서 저용량 시타라빈과 하이드록시유레아를 무작위 비교한 임상시험입니다.",
-  "saw": "217명에서 저용량 시타라빈의 관해율은 18%, 하이드록시유레아가 포함된 비교군은 1%였습니다. 전체 생존도 저용량 시타라빈 쪽이 길었습니다.",
-  "limit": "AML과 고위험 골수형성이상증후군을 함께 분석했고 하이드록시유레아가 단독 비교군에 섞였습니다. 현재의 저메틸화제 치료를 직접 비교한 연구가 아닙니다.",
-  "against": "하이드록시유레아를 아자시티딘·겜투주맙과 병용한 20명 단일군 연구에서는 관해가 나왔지만 하이드록시유레아 단독 효과를 분리하지 못했습니다.",
-  "use": "골수형성이상증후군에서 하이드록시유레아를 관해를 높이는 치료로 표시할 근거가 부족합니다.",
-  "refs": [
-    { "label": "Burnett 2007 · Blood · AML·고위험 MDS 저용량 시타라빈 대 하이드록시유레아 무작위시험", "pmid": "17315155" },
-    { "label": "Kantarjian 2008 · Leukemia & Lymphoma · 고령 AML·고위험 MDS 하이드록시유레아 병용 2상", "pmid": "19021057" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=hydroxyurea, cond=Myelodysplastic Syndromes → 8건 반환, InterventionName 대조 후 3건",
-    "pubmed": "hydroxyurea AND Myelodysplastic Syndromes → 117건",
-    "negative": "hydroxyurea AND Myelodysplastic Syndromes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 66건",
-    "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ "id": "hydroxyurea-myelodysplastic-syndromes-null",
+ "subj": "하이드록시유레아",
+ "claim": "혈액암 약을 골수형성이상증후군에 쓴다",
+ "line": "고위험 골수형성이상증후군에서 하이드록시유레아군 관해율은 낮았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 217,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가사항의 백혈병·겸상적혈구병 등에는 골수형성이상증후군이 없음",
+ "why": "집중항암치료가 어려운 고령 AML·고위험 골수형성이상증후군 환자에서 저용량 시타라빈과 하이드록시유레아를 무작위 비교한 임상시험입니다.",
+ "saw": "217명에서 저용량 시타라빈의 관해율은 18%, 하이드록시유레아가 포함된 비교군은 1%였습니다. 전체 생존도 저용량 시타라빈 쪽이 길었습니다.",
+ "limit": "AML과 고위험 골수형성이상증후군을 함께 분석했고 하이드록시유레아가 단독 비교군에 섞였습니다. 현재의 저메틸화제 치료를 직접 비교한 연구가 아닙니다.",
+ "against": "하이드록시유레아를 아자시티딘·겜투주맙과 병용한 20명 단일군 연구에서는 관해가 나왔지만 하이드록시유레아 단독 효과를 분리하지 못했습니다.",
+ "use": "골수형성이상증후군에서 하이드록시유레아를 관해를 높이는 치료로 표시할 근거가 부족합니다.",
+ "refs": [
+  {
+   "label": "Burnett 2007 · Blood · AML·고위험 MDS 저용량 시타라빈 대 하이드록시유레아 무작위시험",
+   "pmid": "17315155"
+  },
+  {
+   "label": "Kantarjian 2008 · Leukemia & Lymphoma · 고령 AML·고위험 MDS 하이드록시유레아 병용 2상",
+   "pmid": "19021057"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=hydroxyurea, cond=Myelodysplastic Syndromes → 8건 반환, InterventionName 대조 후 3건",
+  "pubmed": "hydroxyurea AND Myelodysplastic Syndromes → 117건",
+  "negative": "hydroxyurea AND Myelodysplastic Syndromes AND (no effect OR did not OR failed to OR negative OR no significant difference) → 66건",
+  "safety": "hydroxyurea AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4509건"
+ },
+ "vs": "저용량 시타라빈 vs 하이드록시우레아 포함 치료: 고위험 급성골수성백혈병·골수형성이상증후군 무작위시험에서 완전관해 포함 반응 18% vs 1%(OR 0.15, 95% CI 0.06~0.37; P=.00006), 전체생존 OR 0.60(0.44~0.81; P=.0009)으로 시타라빈이 우수했다."
 }

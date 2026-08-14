@@ -1,38 +1,39 @@
 {
-  "id": "hydroxychloroquine-pregnancy-related-pos",
-  "subj": "하이드록시클로로퀸",
-  "claim": "말라리아약을 루푸스 임신의 전자간증 예방에 쓴다",
-  "line": "루푸스 임신의 전자간증 위험은 낮았지만 항인지질증후군 결과는 불확실했습니다",
-  "effect": "전자간증 RR 0.54",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 1764,
-  "synth": "meta",
-  "why": "루푸스와 항인지질증후군 임신에서 하이드록시클로로퀸과 임신 결과를 비교한 메타분석입니다.",
-  "saw": "14개 연구의 임신 1,764건(복용 709건, 대조 1,055건)을 합쳐 전자간증 위험비 0.54를 보였습니다. 루푸스 하위군에서는 신호가 있었지만 항인지질증후군 하위군에서는 확정되지 않았습니다.",
-  "limit": "무작위시험 1개와 관찰연구 13개를 합친 결과라 교란과 연구 간 차이를 배제하기 어렵습니다.",
-  "against": "반대 검색 3건. 관찰연구 중심이라 인과효과를 확정할 수 없고 항인지질증후군 결과는 일관되지 않습니다.",
-  "use": "루푸스 임신에서 전자간증 감소 신호를 평가할 때 참고하되 관찰연구 한계를 함께 표시합니다.",
-  "refs": [
-    {
-      "label": "Kwon 2023 · J Clin Med · 임신 중 하이드록시클로로퀸 메타분석",
-      "doi": "10.3390/jcm12020485",
-      "pmid": "36675415"
-    },
-    {
-      "label": "Sciascia 2021 · J Obstet Gynaecol · 루푸스 임신 결과 메타분석",
-      "doi": "10.1016/j.jogoh.2021.102121",
-      "pmid": "33746078"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA generic_name:HYDROXYCHLOROQUINE → 50건, 말라리아·루푸스·류마티스관절염 허가; 임신 전자간증은 비허가",
-    "ctgov": "query.intr=hydroxychloroquine&query.cond=Pregnancy Related → 5건 반환, InterventionName 대조 후 4건",
-    "pubmed": "hydroxychloroquine Pregnancy Related → 18건",
-    "negative": "hydroxychloroquine Pregnancy Related AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3건",
-    "safety": "hydroxychloroquine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,857건"
+ "id": "hydroxychloroquine-pregnancy-related-pos",
+ "subj": "하이드록시클로로퀸",
+ "claim": "말라리아약을 루푸스 임신의 전자간증 예방에 쓴다",
+ "line": "루푸스 임신의 전자간증 위험은 낮았지만 항인지질증후군 결과는 불확실했습니다",
+ "effect": "전자간증 RR 0.54",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 1764,
+ "synth": "meta",
+ "why": "루푸스와 항인지질증후군 임신에서 하이드록시클로로퀸과 임신 결과를 비교한 메타분석입니다.",
+ "saw": "14개 연구의 임신 1,764건(복용 709건, 대조 1,055건)을 합쳐 전자간증 위험비 0.54를 보였습니다. 루푸스 하위군에서는 신호가 있었지만 항인지질증후군 하위군에서는 확정되지 않았습니다.",
+ "limit": "무작위시험 1개와 관찰연구 13개를 합친 결과라 교란과 연구 간 차이를 배제하기 어렵습니다.",
+ "against": "반대 검색 3건. 관찰연구 중심이라 인과효과를 확정할 수 없고 항인지질증후군 결과는 일관되지 않습니다.",
+ "use": "루푸스 임신에서 전자간증 감소 신호를 평가할 때 참고하되 관찰연구 한계를 함께 표시합니다.",
+ "refs": [
+  {
+   "label": "Kwon 2023 · J Clin Med · 임신 중 하이드록시클로로퀸 메타분석",
+   "doi": "10.3390/jcm12020485",
+   "pmid": "36675415"
   },
-  "known": "off",
-  "knownWhy": "전자간증 예방은 허가 없음"
+  {
+   "label": "Sciascia 2021 · J Obstet Gynaecol · 루푸스 임신 결과 메타분석",
+   "doi": "10.1016/j.jogoh.2021.102121",
+   "pmid": "33746078"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA generic_name:HYDROXYCHLOROQUINE → 50건, 말라리아·루푸스·류마티스관절염 허가; 임신 전자간증은 비허가",
+  "ctgov": "query.intr=hydroxychloroquine&query.cond=Pregnancy Related → 5건 반환, InterventionName 대조 후 4건",
+  "pubmed": "hydroxychloroquine Pregnancy Related → 18건",
+  "negative": "hydroxychloroquine Pregnancy Related AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3건",
+  "safety": "hydroxychloroquine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,857건"
+ },
+ "known": "off",
+ "knownWhy": "전자간증 예방은 허가 없음",
+ "vs": "하이드록시클로로퀸 추가 vs 대조: 임신 중 루푸스·항인지질항체 증후군 메타분석 1,764건(709 vs 1,055)에서 고활성 루푸스 RR 0.74(95% CI 0.57~0.97), 자간전증 RR 0.54(0.37~0.78), 태아성장제한 RR 0.80(0.47~1.35)였다. 항인지질항체군 자간전증 RR은 0.66(0.29~1.54)였다."
 }
