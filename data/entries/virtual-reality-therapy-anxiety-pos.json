@@ -1,28 +1,33 @@
 {
-  "id": "virtual-reality-therapy-anxiety-pos",
-  "subj": "가상현실 노출치료",
-  "claim": "불안장애에 가상현실 노출치료를 쓴다",
-  "line": "불안장애에서 가상현실 치료는 대기보다 효과가 컸습니다",
-  "effect": "불안 증상 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1057,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가상현실 노출치료는 비약물 심리치료이며 불안장애의 의약품 허가 적응증으로 분류하지 않습니다.",
-  "why": "불안 관련 장애의 가상현실 노출치료 무작위시험을 합친 메타분석입니다.",
-  "saw": "30개 시험 1,057명에서 가상현실 노출치료는 대기군보다 큰 효과(g 0.90), 심리적 위약보다 중간에서 큰 효과(g 0.78)를 보였습니다. 실제 노출치료와는 차이가 없었습니다.",
-  "limit": "공포증·사회불안·외상후스트레스·공황장애가 섞였고 표본이 큰 연구일수록 효과가 작았습니다.",
-  "against": "가상현실 노출치료가 대면 노출치료보다 우월하다는 결과는 없었습니다.",
-  "use": "불안 관련 장애에서 노출치료를 제공하는 보조 방식의 근거로 기록합니다.",
-  "refs": [
-    { "label": "불안 관련 장애 가상현실 노출치료 메타분석", "doi": "10.1016/j.janxdis.2018.08.003", "pmid": "30287083" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "virtual reality therapy AND Anxiety → 4건 반환, 직접 확인 4건",
-    "pubmed": "virtual reality therapy AND Anxiety AND (randomized OR trial OR meta-analysis) → 948편",
-    "negative": "virtual reality therapy AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,242편",
-    "safety": "virtual reality therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 796편"
+ "id": "virtual-reality-therapy-anxiety-pos",
+ "subj": "가상현실 노출치료",
+ "claim": "불안장애에 가상현실 노출치료를 쓴다",
+ "line": "불안장애에서 가상현실 치료는 대기보다 효과가 컸습니다",
+ "effect": "불안 증상 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1057,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가상현실 노출치료는 비약물 심리치료이며 불안장애의 의약품 허가 적응증으로 분류하지 않습니다.",
+ "why": "불안 관련 장애의 가상현실 노출치료 무작위시험을 합친 메타분석입니다.",
+ "saw": "30개 RCT 1,057명 메타분석에서 VRET는 대기목록과 심리적 위약보다 효과가 컸고 생체 노출과 차이는 없었다.",
+ "limit": "공포증·사회불안·외상후스트레스·공황장애가 섞였고 표본이 큰 연구일수록 효과가 작았습니다.",
+ "against": "가상현실 노출치료가 대면 노출치료보다 우월하다는 결과는 없었습니다.",
+ "use": "불안 관련 장애에서 노출치료를 제공하는 보조 방식의 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "불안 관련 장애 가상현실 노출치료 메타분석",
+   "doi": "10.1016/j.janxdis.2018.08.003",
+   "pmid": "30287083"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "virtual reality therapy AND Anxiety → 4건 반환, 직접 확인 4건",
+  "pubmed": "virtual reality therapy AND Anxiety AND (randomized OR trial OR meta-analysis) → 948편",
+  "negative": "virtual reality therapy AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 1,242편",
+  "safety": "virtual reality therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 796편"
+ },
+ "vs": "가상현실 노출치료 vs 대기목록: 불안장애 효과크기 g=0.90; 심리적 위약 g=0.78; 생체 노출과 비교 g=-0.07"
 }

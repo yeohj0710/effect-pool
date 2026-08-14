@@ -1,28 +1,34 @@
 {
-  "id": "virtual-reality-relaxation-cancer-pos",
-  "subj": "virtual reality relaxation",
-  "claim": "스마트폰 가상현실 이완이 항암치료 중 암 환자의 안락감·불안·통증을 개선한다",
-  "line": "항암 중 가상현실 이완 중재는 안락감과 통증을 개선했습니다",
-  "effect": "안락감 d=0.40·통증 d=0.35",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 99,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 이완 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "항암치료 중인 암 환자에게 10분 스마트폰 가상현실 자연경관과 이완음을 표준관리와 비교했습니다.",
-  "saw": "암 환자 99명을 가상현실군 50명과 대조군 49명으로 무작위 배정했습니다. 가상현실군은 안락감이 높아지고 불안과 통증이 줄었으며, 심박수와 혈압은 군 간 차이가 없었습니다.",
-  "limit": "단일 항암센터에서 시행한 단기 시험이고 생리 지표는 주관적 결과와 같은 방향으로 변하지 않았습니다.",
-  "against": "심박수와 수축기·이완기 혈압은 대조군과 차이가 없었고 일부 참여자는 사이버 멀미를 경험했습니다.",
-  "use": "항암치료 중 불안·통증을 낮추는 비약물 보조법 근거로만 사용하며, 사이버 멀미와 접근성을 함께 확인합니다.",
-  "refs": [
-    { "label": "Smartphone VR Relaxation During Chemotherapy 2024 · Support Care Cancer · 무작위시험", "doi": "10.1007/s00520-024-09036-7", "pmid": "39589559", "nct": "NCT05756465" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "virtual reality relaxation AND Cancer · 22건 반환, 중재명 직접 확인 18건",
-    "pubmed": "\"virtual reality relaxation\" AND \"Cancer\" · 4건",
-    "negative": "\"virtual reality relaxation\" AND \"Cancer\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
-    "safety": "\"virtual reality relaxation\" AND (adverse OR toxicity OR case report OR harm) · 7건"
+ "id": "virtual-reality-relaxation-cancer-pos",
+ "subj": "가상현실 이완",
+ "claim": "스마트폰 가상현실 이완이 항암치료 중 암 환자의 안락감·불안·통증을 개선한다",
+ "line": "항암 중 가상현실 이완 중재는 안락감과 통증을 개선했습니다",
+ "effect": "안락감 d=0.40·통증 d=0.35",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 99,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 이완 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "항암치료 중인 암 환자에게 10분 스마트폰 가상현실 자연경관과 이완음을 표준관리와 비교했습니다.",
+ "saw": "항암치료 환자 99명 무작위시험에서 스마트폰 VR 이완군은 일반관리군보다 안락감·불안·통증이 개선됐다.",
+ "limit": "단일 항암센터에서 시행한 단기 시험이고 생리 지표는 주관적 결과와 같은 방향으로 변하지 않았습니다.",
+ "against": "심박수와 수축기·이완기 혈압은 대조군과 차이가 없었고 일부 참여자는 사이버 멀미를 경험했습니다.",
+ "use": "항암치료 중 불안·통증을 낮추는 비약물 보조법 근거로만 사용하며, 사이버 멀미와 접근성을 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "Smartphone VR Relaxation During Chemotherapy 2024 · Support Care Cancer · 무작위시험",
+   "doi": "10.1007/s00520-024-09036-7",
+   "pmid": "39589559",
+   "nct": "NCT05756465"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "virtual reality relaxation AND Cancer · 22건 반환, 중재명 직접 확인 18건",
+  "pubmed": "\"virtual reality relaxation\" AND \"Cancer\" · 4건",
+  "negative": "\"virtual reality relaxation\" AND \"Cancer\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
+  "safety": "\"virtual reality relaxation\" AND (adverse OR toxicity OR case report OR harm) · 7건"
+ },
+ "vs": "스마트폰 VR 이완 vs 일반관리: 안락감 d=0.40, 불안 d=0.50, 통증 d=0.35"
 }

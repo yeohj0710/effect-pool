@@ -1,28 +1,31 @@
 {
-  "id": "virtual-ward-mental-health-pos",
-  "subj": "virtual ward",
-  "claim": "가상 병동을 급성 정신과 위기 관리에 쓴다",
-  "line": "급성 정신과 가상병동에서 병원 전원은 13%였다.",
-  "effect": "병원 전원 13%·30일 후 입원 8명",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 132,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상 병동은 비약물 진료 전달 모델이며 급성 정신과 위기 관리는 의약품 허가 적응증을 적용하지 않습니다",
-  "why": "급성 정신과 가상병동에 입원한 132명의 전자기록과 30일 추적자료를 분석한 후향 관찰 연구입니다",
-  "saw": "132명 중 17명인 13%가 병원으로 전원됐고 퇴원 후 30일 안에 8명이 급성진료를 이용했습니다",
-  "limit": "대면 병동과 무작위 비교가 아니며 정신병 또는 조증이 있는 환자는 병원 전원 가능성이 높았습니다",
-  "against": "병원 전원 위험이 높은 하위군이 있었고 퇴원 후 급성진료 재이용을 완전히 막지는 못했습니다",
-  "use": "급성 정신과 위기에서 가상 병동을 검토할 때 병원 전원과 퇴원 후 재이용을 함께 보는 근거로 기록합니다",
-  "refs": [
-    { "label": "Virtual Acute Psychiatric Ward: Evaluation of Outcomes and Cost Savings", "pmid": "37016824" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "virtual ward AND Mental Health 검색 1건; 가상 정신과 병동 중재 확인",
-    "pubmed": "virtual ward AND Mental Health 검색 7건; PMID 37016824 직접 후향 관찰 연구 확인",
-    "negative": "virtual ward AND Mental Health AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2건",
-    "safety": "virtual ward AND Mental Health AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 2건"
+ "id": "virtual-ward-mental-health-pos",
+ "subj": "가상 병동",
+ "claim": "가상 병동을 급성 정신과 위기 관리에 쓴다",
+ "line": "급성 정신과 가상병동에서 병원 전원은 13%였다.",
+ "effect": "병원 전원 13%·30일 후 입원 8명",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 132,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상 병동은 비약물 진료 전달 모델이며 급성 정신과 위기 관리는 의약품 허가 적응증을 적용하지 않습니다",
+ "why": "급성 정신과 가상병동에 입원한 132명의 전자기록과 30일 추적자료를 분석한 후향 관찰 연구입니다",
+ "saw": "132명 중 17명인 13%가 병원으로 전원됐고 퇴원 후 30일 안에 8명이 급성진료를 이용했습니다",
+ "limit": "대면 병동과 무작위 비교가 아니며 정신병 또는 조증이 있는 환자는 병원 전원 가능성이 높았습니다",
+ "against": "병원 전원 위험이 높은 하위군이 있었고 퇴원 후 급성진료 재이용을 완전히 막지는 못했습니다",
+ "use": "급성 정신과 위기에서 가상 병동을 검토할 때 병원 전원과 퇴원 후 재이용을 함께 보는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "Virtual Acute Psychiatric Ward: Evaluation of Outcomes and Cost Savings",
+   "pmid": "37016824"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "virtual ward AND Mental Health 검색 1건; 가상 정신과 병동 중재 확인",
+  "pubmed": "virtual ward AND Mental Health 검색 7건; PMID 37016824 직접 후향 관찰 연구 확인",
+  "negative": "virtual ward AND Mental Health AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 검색 2건",
+  "safety": "virtual ward AND Mental Health AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 검색 2건"
+ }
 }

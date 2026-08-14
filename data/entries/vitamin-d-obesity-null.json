@@ -1,34 +1,35 @@
 {
-  "id": "vitamin-d-obesity-null",
-  "subj": "비타민D",
-  "claim": "비만에 비타민D를 보충한다",
-  "line": "과체중·비만 청소년의 체중과 대사 지표는 개선되지 않았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 440,
-  "synth": "meta",
-  "why": "과체중·비만 아동과 청소년을 대상으로 비타민D 보충과 대조군을 비교한 연구 9편의 메타분석입니다.",
-  "saw": "9편 440명에서 체질량지수, 공복혈당, 인슐린 저항성, 중성지방, 총콜레스테롤, LDL 콜레스테롤은 유의하게 개선되지 않았고 HDL 콜레스테롤은 낮아졌습니다.",
-  "limit": "아동·청소년 연구만 합친 분석이며 시험 수와 인원이 적고 대사지표가 체중 감소나 비만 합병증 자체를 뜻하지는 않습니다.",
-  "against": "폐경 후 여성 메타분석도 체질량지수·체중·허리둘레에서 효과가 없었지만 혈당 지표는 일부 개선돼 대상과 측정 지표에 따라 결과가 달랐습니다.",
-  "use": "비타민D를 체중 감량제로 표시할 근거는 없으며, 결핍 교정과 비만 치료 효과를 구분해야 합니다.",
-  "refs": [
-    {
-      "label": "Sadeghi 2025 · BMC Pediatrics · 과체중·비만 아동·청소년 비타민D 메타분석",
-      "doi": "10.1186/s12887-025-05795-2",
-      "pmid": "41291584"
-    },
-    {
-      "label": "Mousa 2023 · Clinical Therapeutics · 폐경 후 여성 비타민D와 비만 지표 메타분석",
-      "doi": "10.1016/j.clinthera.2023.07.009",
-      "pmid": "37598056"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=vitamin D&query.cond=Obesity → 161건 반환, InterventionName 대조 후 67건",
-    "pubmed": "vitamin D Obesity → 6,185건",
-    "negative": "vitamin D Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3,630건",
-    "safety": "vitamin D Obesity AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1,052건"
+ "id": "vitamin-d-obesity-null",
+ "subj": "비타민D",
+ "claim": "비만에 비타민D를 보충한다",
+ "line": "과체중·비만 청소년의 체중과 대사 지표는 개선되지 않았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 440,
+ "synth": "meta",
+ "why": "과체중·비만 아동과 청소년을 대상으로 비타민D 보충과 대조군을 비교한 연구 9편의 메타분석입니다.",
+ "saw": "과체중·비만 아동·청소년 9개 연구 440명 메타분석에서 비타민 D는 BMI 등을 개선하지 않았고 D2 하위군의 HOMA-IR만 WMD -0.51이었다.",
+ "limit": "아동·청소년 연구만 합친 분석이며 시험 수와 인원이 적고 대사지표가 체중 감소나 비만 합병증 자체를 뜻하지는 않습니다.",
+ "against": "폐경 후 여성 메타분석도 체질량지수·체중·허리둘레에서 효과가 없었지만 혈당 지표는 일부 개선돼 대상과 측정 지표에 따라 결과가 달랐습니다.",
+ "use": "비타민D를 체중 감량제로 표시할 근거는 없으며, 결핍 교정과 비만 치료 효과를 구분해야 합니다.",
+ "refs": [
+  {
+   "label": "Sadeghi 2025 · BMC Pediatrics · 과체중·비만 아동·청소년 비타민D 메타분석",
+   "doi": "10.1186/s12887-025-05795-2",
+   "pmid": "41291584"
+  },
+  {
+   "label": "Mousa 2023 · Clinical Therapeutics · 폐경 후 여성 비타민D와 비만 지표 메타분석",
+   "doi": "10.1016/j.clinthera.2023.07.009",
+   "pmid": "37598056"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=vitamin D&query.cond=Obesity → 161건 반환, InterventionName 대조 후 67건",
+  "pubmed": "vitamin D Obesity → 6,185건",
+  "negative": "vitamin D Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) → 3,630건",
+  "safety": "vitamin D Obesity AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1,052건"
+ },
+ "vs": "비타민 D 보충 vs 대조군: BMI·혈당·지질 전반 유의한 개선 없음; 비타민 D2 하위군 HOMA-IR WMD -0.51 (95% CI -1.00~-0.03), p=.038"
 }
