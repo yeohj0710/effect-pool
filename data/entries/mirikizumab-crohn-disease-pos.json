@@ -1,28 +1,34 @@
 {
-  "id": "mirikizumab-crohn-disease-pos",
-  "subj": "mirikizumab",
-  "claim": "미리키주맙은 중등도·중증 크론병의 내시경 반응을 높였다",
-  "line": "미리키주맙은 크론병 내시경 반응을 52주 시점까지 높였습니다",
-  "effect": "내시경 반응 43.8% 대 10.9%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 191,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미리키주맙은 궤양성대장염에는 허가됐지만 크론병에는 허가 적응증이 아니다.",
-  "why": "중등도·중증 크론병 환자 191명을 위약 또는 미리키주맙 3개 정맥 용량에 무작위 배정한 2상 시험이다.",
-  "saw": "12주 내시경 반응은 위약 10.9%에 비해 미리키주맙 200mg 25.8%, 600mg 37.5%, 1000mg 43.8%였고 52주에도 반응이 유지됐다.",
-  "limit": "2상 용량시험이며 유지 단계 일부는 내시경 반응자 중심으로 재무작위 배정됐다.",
-  "against": "치료 중단과 중대한 이상반응은 일부 유지 코호트에서 더 많았고 크론병 허가 여부와 장기 안전성은 별도 확인이 필요하다.",
-  "use": "크론병에서 IL-23 억제의 후속 확증 근거로 검토하되 허가 치료를 대체하지 않는다.",
-  "refs": [
-    { "label": "크론병 미리키주맙 2상 무작위시험", "doi": "10.1053/j.gastro.2021.10.050", "pmid": "34748774", "nct": "NCT02891226" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=mirikizumab AND condition=Crohn Disease; 14건",
-    "pubmed": "mirikizumab AND Crohn Disease; 88건",
-    "negative": "mirikizumab AND Crohn Disease AND (no effect OR did not OR failed OR negative OR no significant difference); 57건",
-    "safety": "mirikizumab AND (adverse OR toxicity OR case report OR harm OR dropout); 95건"
+ "id": "mirikizumab-crohn-disease-pos",
+ "subj": "미리키주맙",
+ "claim": "미리키주맙은 중등도·중증 크론병의 내시경 반응을 높였다",
+ "line": "미리키주맙은 크론병 내시경 반응을 52주 시점까지 높였습니다",
+ "effect": "내시경 반응 43.8% 대 10.9%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 191,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미리키주맙은 궤양성대장염에는 허가됐지만 크론병에는 허가 적응증이 아니다.",
+ "why": "중등도·중증 크론병 환자 191명을 위약 또는 미리키주맙 3개 정맥 용량에 무작위 배정한 2상 시험이다.",
+ "saw": "12주 내시경 반응은 위약 10.9%에 비해 미리키주맙 200mg 25.8%, 600mg 37.5%, 1000mg 43.8%였고 52주에도 반응이 유지됐다.",
+ "limit": "2상 용량시험이며 유지 단계 일부는 내시경 반응자 중심으로 재무작위 배정됐다.",
+ "against": "치료 중단과 중대한 이상반응은 일부 유지 코호트에서 더 많았고 크론병 허가 여부와 장기 안전성은 별도 확인이 필요하다.",
+ "use": "크론병에서 IL-23 억제의 후속 확증 근거로 검토하되 허가 치료를 대체하지 않는다.",
+ "refs": [
+  {
+   "label": "크론병 미리키주맙 2상 무작위시험",
+   "doi": "10.1053/j.gastro.2021.10.050",
+   "pmid": "34748774",
+   "nct": "NCT02891226"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=mirikizumab AND condition=Crohn Disease; 14건",
+  "pubmed": "mirikizumab AND Crohn Disease; 88건",
+  "negative": "mirikizumab AND Crohn Disease AND (no effect OR did not OR failed OR negative OR no significant difference); 57건",
+  "safety": "mirikizumab AND (adverse OR toxicity OR case report OR harm OR dropout); 95건"
+ },
+ "vs": "미리키주맙 vs 위약: 중등도·중증 크론병 2상 RCT에서 12주 내시경 반응은 200 mg 25.8%(8/31), 600 mg 37.5%(12/32), 1,000 mg 43.8%(28/64) vs 위약 10.9%(7/64)였다."
 }

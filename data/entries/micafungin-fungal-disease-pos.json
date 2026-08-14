@@ -1,28 +1,36 @@
 {
-  "id": "micafungin-fungal-disease-pos",
-  "subj": "미카펀진",
-  "claim": "미카펀진이 진균질환을 치료한다",
-  "line": "침습성 칸디다 감염에서 미카펀진은 비교약과 비슷하거나 더 나았습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "치료 성공률 비교약보다 높거나 비슷",
-  "n": 2913,
-  "synth": "meta",
-  "why": "허가사항은 칸디다 감염 치료와 조혈모세포이식 환자의 칸디다 예방이며 모든 진균질환 치료가 아닙니다. 침습성 칸디다 감염 무작위시험을 합친 메타분석이 있습니다.",
-  "saw": "PMID 22340571은 무작위시험 7건과 2913명을 합쳤습니다. 미카펀진의 치료 성공은 비교 항진균제보다 높거나 비슷했고, 호중구감소 조혈모세포이식 환자의 진균감염 예방에서도 비교약보다 나은 결과를 보였습니다.",
-  "limit": "메타분석의 주요 치료 근거는 침습성 칸디다 감염과 특정 예방 상황에 한정됩니다. 칸디다 이외의 진균질환이나 모든 진균감염으로 확대할 수 없습니다.",
-  "against": "메타분석 자체도 미카펀진을 모든 진균질환 치료제가 아니라 침습성 칸디다 감염의 적절한 대안으로 평가했습니다. 반대 검색 1049건과 안전성 검색 442건을 확인했습니다.",
-  "use": "미카펀진의 긍정 근거는 침습성 칸디다 감염과 조혈모세포이식 예방으로 좁혀 기록해야 합니다.",
-  "refs": [
-    { "label": "Wang 2012 · 침습성 칸디다 감염 미카펀진 무작위시험 메타분석", "pmid": "22340571" },
-    { "label": "Kuse 2007 · 칸디다혈증·침습성 칸디다증 미카펀진 3상시험", "pmid": "17482982", "nct": "NCT00106288" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"MICAFUNGIN\" → 14건 반환; 허가 문구는 칸디다혈증·침습성 칸디다증·식도 칸디다증 치료와 조혈모세포이식 칸디다 예방이며 다른 진균 효능은 확립되지 않음",
-    "ctgov": "query.intr=micafungin&query.cond=Fungal Disease → 57건 반환, InterventionName 대조 후 48건",
-    "pubmed": "micafungin Fungal Disease → 1449건",
-    "negative": "micafungin Fungal Disease (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 1049건",
-    "safety": "micafungin Fungal Disease (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 442건"
+ "id": "micafungin-fungal-disease-pos",
+ "subj": "미카펀진",
+ "claim": "미카펀진이 진균질환을 치료한다",
+ "line": "침습성 칸디다 감염에서 미카펀진은 비교약과 비슷하거나 더 나았습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "치료 성공률 비교약보다 높거나 비슷",
+ "n": 2913,
+ "synth": "meta",
+ "why": "허가사항은 칸디다 감염 치료와 조혈모세포이식 환자의 칸디다 예방이며 모든 진균질환 치료가 아닙니다. 침습성 칸디다 감염 무작위시험을 합친 메타분석이 있습니다.",
+ "saw": "PMID 22340571은 무작위시험 7건과 2913명을 합쳤습니다. 미카펀진의 치료 성공은 비교 항진균제보다 높거나 비슷했고, 호중구감소 조혈모세포이식 환자의 진균감염 예방에서도 비교약보다 나은 결과를 보였습니다.",
+ "limit": "메타분석의 주요 치료 근거는 침습성 칸디다 감염과 특정 예방 상황에 한정됩니다. 칸디다 이외의 진균질환이나 모든 진균감염으로 확대할 수 없습니다.",
+ "against": "메타분석 자체도 미카펀진을 모든 진균질환 치료제가 아니라 침습성 칸디다 감염의 적절한 대안으로 평가했습니다. 반대 검색 1049건과 안전성 검색 442건을 확인했습니다.",
+ "use": "미카펀진의 긍정 근거는 침습성 칸디다 감염과 조혈모세포이식 예방으로 좁혀 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "Wang 2012 · 침습성 칸디다 감염 미카펀진 무작위시험 메타분석",
+   "pmid": "22340571"
+  },
+  {
+   "label": "Kuse 2007 · 칸디다혈증·침습성 칸디다증 미카펀진 3상시험",
+   "pmid": "17482982",
+   "nct": "NCT00106288"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"MICAFUNGIN\" → 14건 반환; 허가 문구는 칸디다혈증·침습성 칸디다증·식도 칸디다증 치료와 조혈모세포이식 칸디다 예방이며 다른 진균 효능은 확립되지 않음",
+  "ctgov": "query.intr=micafungin&query.cond=Fungal Disease → 57건 반환, InterventionName 대조 후 48건",
+  "pubmed": "micafungin Fungal Disease → 1449건",
+  "negative": "micafungin Fungal Disease (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 1049건",
+  "safety": "micafungin Fungal Disease (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 442건"
+ },
+ "vs": "미카펀진 vs 다른 항진균제: 침습성 칸디다 감염 7개 RCT 메타분석(2,913명)에서 치료성공 OR 1.20(95% CI 1.00~1.45; P=.0487), 조혈모세포이식 호중구감소 환자 예방요법 OR 1.47(1.08~2.00; P=.01), 이상반응 중단 OR 0.64(0.44~0.94)였다."
 }

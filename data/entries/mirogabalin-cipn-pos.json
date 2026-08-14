@@ -1,29 +1,36 @@
 {
-  "id": "mirogabalin-cipn-pos",
-  "subj": "mirogabalin",
-  "claim": "항암화학요법 유발 말초신경병증에서 미로가발린은 통증을 줄였다.",
-  "line": "항암화학요법 중 미로가발린은 중등도·중증 말초신경병증 통증을 줄였다.",
-  "effect": "통증 NRS 30.9% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 52,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미로가발린은 신경병증성 통증에 쓰이지만 항암화학요법 유발 말초신경병증은 허가 적응증으로 확인되지 않았다.",
-  "why": "중등도·중증 항암화학요법 유발 말초신경병증 환자 52명을 대상으로 12주 미로가발린을 투여한 전향적 단일군 연구입니다.",
-  "saw": "12주에 통증 NRS가 30.9% 감소했고 평균 변화는 -1.7점(95% CI -2.4~-1.0, p<0.001)이었습니다. 기저 NRS가 6 이상인 환자는 44.0% 감소했습니다. 항암화학요법은 18명(34.6%)이 중단했지만 말초신경병증 때문에 중단한 환자는 2명(3.8%)이었습니다. 이상약물반응은 31%, 가장 흔한 반응인 졸림은 13.5%였습니다.",
-  "limit": "대조군이 없는 단일군 연구이고 12주 추적이어서 자연경과와 위약효과를 분리하기 어렵습니다. 진통제 사용이 증상을 낮게 보이게 했을 가능성도 있습니다.",
-  "against": "파클리탁셀 유발 말초신경병증 환자 20명 단일군 연구에서는 4주 뒤 손 통증 VAS가 악화되고 발 통증은 유의하게 달라지지 않았습니다.",
-  "use": "항암화학요법 중 중등도·중증 말초신경병증 통증 완화 후보로 검토할 수 있지만 대조시험이 필요합니다.",
-  "refs": [
-    { "label": "MiroCIP study (jRCTs031210101)", "pmid": "37951905" },
-    { "label": "Mirogabalin vs pregabalin for chemotherapy-induced peripheral neuropathy", "pmid": "34886831" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) · 1건; NCT06711978은 아직 모집 전",
-    "pubmed": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) · 14건",
-    "negative": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) AND (no effect OR did not OR failed to OR negative OR no significant difference) · 13건",
-    "safety": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 13건"
+ "id": "mirogabalin-cipn-pos",
+ "subj": "미로가발린",
+ "claim": "항암화학요법 유발 말초신경병증에서 미로가발린은 통증을 줄였다.",
+ "line": "항암화학요법 중 미로가발린은 중등도·중증 말초신경병증 통증을 줄였다.",
+ "effect": "통증 NRS 30.9% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 52,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미로가발린은 신경병증성 통증에 쓰이지만 항암화학요법 유발 말초신경병증은 허가 적응증으로 확인되지 않았다.",
+ "why": "중등도·중증 항암화학요법 유발 말초신경병증 환자 52명을 대상으로 12주 미로가발린을 투여한 전향적 단일군 연구입니다.",
+ "saw": "12주에 통증 NRS가 30.9% 감소했고 평균 변화는 -1.7점(95% CI -2.4~-1.0, p<0.001)이었습니다. 기저 NRS가 6 이상인 환자는 44.0% 감소했습니다. 항암화학요법은 18명(34.6%)이 중단했지만 말초신경병증 때문에 중단한 환자는 2명(3.8%)이었습니다. 이상약물반응은 31%, 가장 흔한 반응인 졸림은 13.5%였습니다.",
+ "limit": "대조군이 없는 단일군 연구이고 12주 추적이어서 자연경과와 위약효과를 분리하기 어렵습니다. 진통제 사용이 증상을 낮게 보이게 했을 가능성도 있습니다.",
+ "against": "파클리탁셀 유발 말초신경병증 환자 20명 단일군 연구에서는 4주 뒤 손 통증 VAS가 악화되고 발 통증은 유의하게 달라지지 않았습니다.",
+ "use": "항암화학요법 중 중등도·중증 말초신경병증 통증 완화 후보로 검토할 수 있지만 대조시험이 필요합니다.",
+ "refs": [
+  {
+   "label": "MiroCIP study (jRCTs031210101)",
+   "pmid": "37951905"
+  },
+  {
+   "label": "Mirogabalin vs pregabalin for chemotherapy-induced peripheral neuropathy",
+   "pmid": "34886831"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) · 1건; NCT06711978은 아직 모집 전",
+  "pubmed": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) · 14건",
+  "negative": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) AND (no effect OR did not OR failed to OR negative OR no significant difference) · 13건",
+  "safety": "mirogabalin AND (chemotherapy-induced peripheral neuropathy OR CIPN) AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 13건"
+ },
+ "vs": "미로가발린 vs 프레가발린: 췌장암 환자 항암화학요법 유발 말초신경병증 비교 코호트에서 호전율은 2주 84.6%(11/13) vs 33.3%(7/21; P=.005), 4주·6주 92.3%(12/13) vs 33.3%(7/21; P=.001)였다."
 }

@@ -1,29 +1,38 @@
 {
-  "id": "metyrapone-depressive-disorder-pos",
-  "subj": "메티라폰",
-  "claim": "주요우울증의 항우울제 반응을 메티라폰으로 앞당기는가",
-  "line": "우울증 초기 시험에서 메티라폰은 항우울제 반응을 앞당겼습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 63,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "메티라폰은 부신 기능 진단에 쓰이며 우울증 치료는 허가 밖입니다.",
-  "why": "코르티솔 합성을 일시적으로 억제하면 항우울제에 대한 스트레스축 반응을 바꿀 수 있다는 가설입니다.",
-  "saw": "입원 주요우울증 환자 63명에게 표준 세로토닌성 항우울제와 메티라폰 또는 위약을 병용했습니다. 21일 반응은 메티라폰 23/33명 대 위약 13/30명(P=0.031), 35일 반응은 19/33명 대 10/30명(P=0.047)이었고 효과 발현도 빨랐습니다(P<0.006).",
-  "limit": "63명 입원환자의 5주 시험이며, 네파조돈 또는 플루복사민과 병용한 결과입니다.",
-  "against": "이후 치료저항성 우울증 165명 시험에서는 같은 추가요법이 위약보다 낫지 않았습니다.",
-  "use": "우울증에 메티라폰을 추가하지 않으며, 초기 신호가 특정 코르티솔 고위험군에서 재현되는지 확인해야 합니다.",
-  "effect": "21일 반응 23/33명 vs 13/30명",
-  "refs": [
-    { "label": "Jahn 2004 · Archives of General Psychiatry · 이중맹검 시험", "doi": "10.1001/archpsyc.61.12.1235", "pmid": "15583115" },
-    { "label": "McAllister-Williams 2016 · Lancet Psychiatry · ADD 시험", "doi": "10.1016/S2215-0366(15)00436-8", "pmid": "26727041" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=metyrapone, cond=Depressive Disorder · 4건",
-    "pubmed": "metyrapone AND Depressive Disorder · 66건",
-    "negative": "metyrapone AND Depressive Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) · 44건",
-    "safety": "metyrapone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 620건"
+ "id": "metyrapone-depressive-disorder-pos",
+ "subj": "메티라폰",
+ "claim": "주요우울증의 항우울제 반응을 메티라폰으로 앞당기는가",
+ "line": "우울증 초기 시험에서 메티라폰은 항우울제 반응을 앞당겼습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 63,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "메티라폰은 부신 기능 진단에 쓰이며 우울증 치료는 허가 밖입니다.",
+ "why": "코르티솔 합성을 일시적으로 억제하면 항우울제에 대한 스트레스축 반응을 바꿀 수 있다는 가설입니다.",
+ "saw": "입원 주요우울증 환자 63명에게 표준 세로토닌성 항우울제와 메티라폰 또는 위약을 병용했습니다. 21일 반응은 메티라폰 23/33명 대 위약 13/30명(P=0.031), 35일 반응은 19/33명 대 10/30명(P=0.047)이었고 효과 발현도 빨랐습니다(P<0.006).",
+ "limit": "63명 입원환자의 5주 시험이며, 네파조돈 또는 플루복사민과 병용한 결과입니다.",
+ "against": "이후 치료저항성 우울증 165명 시험에서는 같은 추가요법이 위약보다 낫지 않았습니다.",
+ "use": "우울증에 메티라폰을 추가하지 않으며, 초기 신호가 특정 코르티솔 고위험군에서 재현되는지 확인해야 합니다.",
+ "effect": "21일 반응 23/33명 vs 13/30명",
+ "refs": [
+  {
+   "label": "Jahn 2004 · Archives of General Psychiatry · 이중맹검 시험",
+   "doi": "10.1001/archpsyc.61.12.1235",
+   "pmid": "15583115"
+  },
+  {
+   "label": "McAllister-Williams 2016 · Lancet Psychiatry · ADD 시험",
+   "doi": "10.1016/S2215-0366(15)00436-8",
+   "pmid": "26727041"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=metyrapone, cond=Depressive Disorder · 4건",
+  "pubmed": "metyrapone AND Depressive Disorder · 66건",
+  "negative": "metyrapone AND Depressive Disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) · 44건",
+  "safety": "metyrapone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 620건"
+ },
+ "vs": "메티라폰+항우울제 vs 위약+항우울제: 63명 RCT에서 21일 반응은 23/33명 vs 13/30명(P=.031), 35일은 19/33명 vs 10/30명(P=.047)이었다. 165명 RCT에서는 5주 MADRS가 21.7 vs 22.6점, 보정 평균차 -0.51(95% CI -3.48~2.46; P=.74)였다."
 }

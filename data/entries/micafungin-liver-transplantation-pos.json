@@ -1,27 +1,32 @@
 {
-  "id": "micafungin-liver-transplantation-pos",
-  "subj": "미카펀진",
-  "claim": "미카펀진이 간이식 환자의 진균감염을 예방한다",
-  "line": "간이식 후 침습성 진균감염 예방에서 미카펀진은 플루코나졸과 비열등했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "성공률 플루코나졸 비열등",
-  "n": 172,
-  "synth": "single",
-  "why": "허가사항은 조혈모세포이식 환자의 칸디다 예방이며 간이식 환자는 포함하지 않습니다. 간이식 환자의 침습성 진균감염 예방을 비교한 무작위시험이 있습니다.",
-  "saw": "PMID 31066013·NCT01974375는 생체 간이식 환자 172명을 미카펀진군과 플루코나졸군에 무작위 배정했습니다. 미카펀진의 임상 성공률은 플루코나졸보다 열등하지 않았고 두 군의 침습성 진균감염·진균 없는 생존·이상반응 결과도 유의하게 다르지 않았습니다.",
-  "limit": "간이식 후 예방요법에 관한 공개형 비열등성 시험이며 치료가 아니라 예방을 평가했습니다. 다른 장기이식이나 모든 진균질환으로 일반화할 수 없습니다.",
-  "against": "비열등성 시험에서 비교약보다 우월하다는 결과는 아니었고, 반대 검색 46건과 안전성 검색 43건을 확인했습니다.",
-  "use": "간이식 후 미카펀진은 플루코나졸의 대안으로 연구된 예방요법으로만 기록해야 합니다.",
-  "refs": [
-    { "label": "Kim 2019 · 생체 간이식 후 침습성 진균감염 예방 미카펀진 대 플루코나졸 무작위시험", "pmid": "31066013", "nct": "NCT01974375" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"MICAFUNGIN\" → 14건 반환; 허가 예방 적응증은 조혈모세포이식 환자의 칸디다 감염이며 간이식은 아님",
-    "ctgov": "query.intr=micafungin&query.cond=Liver Transplantation → 3건 반환, InterventionName 대조 후 3건",
-    "pubmed": "micafungin Liver Transplantation → 55건",
-    "negative": "micafungin Liver Transplantation (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 46건",
-    "safety": "micafungin Liver Transplantation (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 43건"
+ "id": "micafungin-liver-transplantation-pos",
+ "subj": "미카펀진",
+ "claim": "미카펀진이 간이식 환자의 진균감염을 예방한다",
+ "line": "간이식 후 침습성 진균감염 예방에서 미카펀진은 플루코나졸과 비열등했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "성공률 플루코나졸 비열등",
+ "n": 172,
+ "synth": "single",
+ "why": "허가사항은 조혈모세포이식 환자의 칸디다 예방이며 간이식 환자는 포함하지 않습니다. 간이식 환자의 침습성 진균감염 예방을 비교한 무작위시험이 있습니다.",
+ "saw": "PMID 31066013·NCT01974375는 생체 간이식 환자 172명을 미카펀진군과 플루코나졸군에 무작위 배정했습니다. 미카펀진의 임상 성공률은 플루코나졸보다 열등하지 않았고 두 군의 침습성 진균감염·진균 없는 생존·이상반응 결과도 유의하게 다르지 않았습니다.",
+ "limit": "간이식 후 예방요법에 관한 공개형 비열등성 시험이며 치료가 아니라 예방을 평가했습니다. 다른 장기이식이나 모든 진균질환으로 일반화할 수 없습니다.",
+ "against": "비열등성 시험에서 비교약보다 우월하다는 결과는 아니었고, 반대 검색 46건과 안전성 검색 43건을 확인했습니다.",
+ "use": "간이식 후 미카펀진은 플루코나졸의 대안으로 연구된 예방요법으로만 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "Kim 2019 · 생체 간이식 후 침습성 진균감염 예방 미카펀진 대 플루코나졸 무작위시험",
+   "pmid": "31066013",
+   "nct": "NCT01974375"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"MICAFUNGIN\" → 14건 반환; 허가 예방 적응증은 조혈모세포이식 환자의 칸디다 감염이며 간이식은 아님",
+  "ctgov": "query.intr=micafungin&query.cond=Liver Transplantation → 3건 반환, InterventionName 대조 후 3건",
+  "pubmed": "micafungin Liver Transplantation → 55건",
+  "negative": "micafungin Liver Transplantation (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 46건",
+  "safety": "micafungin Liver Transplantation (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 43건"
+ },
+ "vs": "미카펀진 vs 플루코나졸: 생체 간이식 환자 172명 무작위 비열등성시험에서 임상성공률은 95.65% vs 96.10%, 차이 -0.45%(90% CI -6.93~5.59)로 비열등성이 확인됐다."
 }

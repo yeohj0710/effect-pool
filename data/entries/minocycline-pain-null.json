@@ -1,30 +1,40 @@
 {
-  "id": "minocycline-pain-null",
-  "subj": "미노사이클린",
-  "claim": "미노사이클린의 미세아교세포 억제를 수술 후 통증에 쓴다",
-  "line": "미노사이클린은 수술 후 통증 소실을 앞당기지 못했으며 일부 하위군에서는 통증이 오래 지속됐습니다",
-  "effect": "통증 소실 기간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 131,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미노사이클린 허가는 세균 감염이고 수술 후 통증은 포함하지 않는다.",
-  "why": "손목터널·방아쇠수지 수술 환자에게 수술 전후 미노사이클린을 투여한 이중눈가림 무작위시험입니다.",
-  "saw": "131명이 무작위 배정됐고 114명이 분석됐습니다. 미노사이클린은 위약보다 통증 소실 기간을 줄이지 못했고, 외상후스트레스 점수가 높은 하위군에서는 오히려 통증이 오래 지속될 가능성이 보였습니다.",
-  "limit": "소수 수술 종류의 단기 연구이며 만성 통증에 대한 결과가 아닙니다. 분석 인원은 무작위 배정 인원보다 적었습니다.",
-  "against": "허리 신경뿌리 통증 60명 시험에서는 작은 통증 감소가 있었지만 임상적으로 의미 있는 크기는 아니었고, 건강인 통증 모델의 실험적 결과와 구분해야 합니다.",
-  "use": "미노사이클린을 수술 후 통증 예방에 일괄 사용하지 않는 근거로 기록합니다.",
-  "refs": [
-    { "label": "손 수술 후 통증 미노사이클린 무작위시험", "pmid": "28259273" },
-    { "label": "요추 신경뿌리 통증 미노사이클린 무작위시험", "pmid": "25373391" },
-    { "label": "건강인 실험 통증 미노사이클린 연구", "pmid": "28396046" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=minocycline · cond=Pain → 11건 반환, 물질 대조 후 8건",
-    "pubmed": "minocycline AND Pain → 770편",
-    "negative": "minocycline AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 576편",
-    "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4214편"
+ "id": "minocycline-pain-null",
+ "subj": "미노사이클린",
+ "claim": "미노사이클린의 미세아교세포 억제를 수술 후 통증에 쓴다",
+ "line": "미노사이클린은 수술 후 통증 소실을 앞당기지 못했으며 일부 하위군에서는 통증이 오래 지속됐습니다",
+ "effect": "통증 소실 기간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 131,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미노사이클린 허가는 세균 감염이고 수술 후 통증은 포함하지 않는다.",
+ "why": "손목터널·방아쇠수지 수술 환자에게 수술 전후 미노사이클린을 투여한 이중눈가림 무작위시험입니다.",
+ "saw": "131명이 무작위 배정됐고 114명이 분석됐습니다. 미노사이클린은 위약보다 통증 소실 기간을 줄이지 못했고, 외상후스트레스 점수가 높은 하위군에서는 오히려 통증이 오래 지속될 가능성이 보였습니다.",
+ "limit": "소수 수술 종류의 단기 연구이며 만성 통증에 대한 결과가 아닙니다. 분석 인원은 무작위 배정 인원보다 적었습니다.",
+ "against": "허리 신경뿌리 통증 60명 시험에서는 작은 통증 감소가 있었지만 임상적으로 의미 있는 크기는 아니었고, 건강인 통증 모델의 실험적 결과와 구분해야 합니다.",
+ "use": "미노사이클린을 수술 후 통증 예방에 일괄 사용하지 않는 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "손 수술 후 통증 미노사이클린 무작위시험",
+   "pmid": "28259273"
+  },
+  {
+   "label": "요추 신경뿌리 통증 미노사이클린 무작위시험",
+   "pmid": "25373391"
+  },
+  {
+   "label": "건강인 실험 통증 미노사이클린 연구",
+   "pmid": "28396046"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=minocycline · cond=Pain → 11건 반환, 물질 대조 후 8건",
+  "pubmed": "minocycline AND Pain → 770편",
+  "negative": "minocycline AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) → 576편",
+  "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4214편"
+ },
+ "vs": "미노사이클린 vs 위약: 손 수술 후 통증 RCT에서 통증 지속기간 중앙값은 2주 vs 2.5주, 6주 초과 통증은 10% vs 17%였고, 임상적으로 의미 있는 단축 가능성은 3.5%였다. 요추 신경뿌리 통증 RCT에서는 통증점수 감소가 위약 대비 1.47점(95% CI 0.16~2.83; P=.035)이었다."
 }

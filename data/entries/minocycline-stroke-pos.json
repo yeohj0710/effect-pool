@@ -1,29 +1,37 @@
 {
-  "id": "minocycline-stroke-pos",
-  "subj": "미노사이클린",
-  "claim": "미노사이클린의 항염 작용을 급성 허혈성 뇌졸중에 쓴다",
-  "line": "급성 허혈성 뇌졸중에서 미노사이클린은 90일 기능 예후를 개선했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1724,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미노사이클린은 항균제 허가 약물이며 급성 허혈성 뇌졸중 치료는 허가 적응증이 아닙니다.",
-  "why": "미세아교세포 활성과 신경염증을 억제하는 항균제의 부수 작용을 뇌졸중 후 신경보호에 전용한다는 주장입니다.",
-  "saw": "58개 병원 1724명 무작위시험에서 90일 mRS 0–1은 미노사이클린 52.6%, 위약 47.4%였고 보정 RR은 1.11이었습니다.",
-  "limit": "대규모 근거는 중국 1건 시험이며 치료 시점과 뇌졸중 중증도에 따른 재현성이 더 필요합니다.",
-  "against": "이전 7건 426명 메타분석의 전체 분석에서는 3개월 기능독립성 증가가 유의하지 않았습니다.",
-  "use": "급성 뇌졸중 표준 재관류·집중치료를 대신하지 않는 후속 검증 대상입니다.",
-  "effect": "90일 mRS 0–1 보정 RR 1.11",
-  "refs": [
-    { "label": "EMPHASIS 급성 허혈성 뇌졸중 미노사이클린 무작위시험", "pmid": "41628627", "nct": "NCT05836740" },
-    { "label": "급성 뇌졸중 미노사이클린 무작위시험 메타분석", "pmid": "29948247" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=minocycline, cond=Stroke · 19건 중 16건 직접 확인",
-    "pubmed": "minocycline AND Stroke · 281건",
-    "negative": "minocycline AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 208건",
-    "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 4214건"
+ "id": "minocycline-stroke-pos",
+ "subj": "미노사이클린",
+ "claim": "미노사이클린의 항염 작용을 급성 허혈성 뇌졸중에 쓴다",
+ "line": "급성 허혈성 뇌졸중에서 미노사이클린은 90일 기능 예후를 개선했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1724,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미노사이클린은 항균제 허가 약물이며 급성 허혈성 뇌졸중 치료는 허가 적응증이 아닙니다.",
+ "why": "미세아교세포 활성과 신경염증을 억제하는 항균제의 부수 작용을 뇌졸중 후 신경보호에 전용한다는 주장입니다.",
+ "saw": "58개 병원 1724명 무작위시험에서 90일 mRS 0–1은 미노사이클린 52.6%, 위약 47.4%였고 보정 RR은 1.11이었습니다.",
+ "limit": "대규모 근거는 중국 1건 시험이며 치료 시점과 뇌졸중 중증도에 따른 재현성이 더 필요합니다.",
+ "against": "이전 7건 426명 메타분석의 전체 분석에서는 3개월 기능독립성 증가가 유의하지 않았습니다.",
+ "use": "급성 뇌졸중 표준 재관류·집중치료를 대신하지 않는 후속 검증 대상입니다.",
+ "effect": "90일 mRS 0–1 보정 RR 1.11",
+ "refs": [
+  {
+   "label": "EMPHASIS 급성 허혈성 뇌졸중 미노사이클린 무작위시험",
+   "pmid": "41628627",
+   "nct": "NCT05836740"
+  },
+  {
+   "label": "급성 뇌졸중 미노사이클린 무작위시험 메타분석",
+   "pmid": "29948247"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=minocycline, cond=Stroke · 19건 중 16건 직접 확인",
+  "pubmed": "minocycline AND Stroke · 281건",
+  "negative": "minocycline AND Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) · 208건",
+  "safety": "minocycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 4214건"
+ },
+ "vs": "미노사이클린 vs 위약: 급성 허혈성 뇌졸중 1,724명 RCT에서 90일 mRS 0~1은 52.6%(447/850) vs 47.4%(403/851), 보정 RR 1.11(95% CI 1.03~1.20; P=.0061), 공통 OR 1.19(1.03~1.38; P=.018)였다."
 }
