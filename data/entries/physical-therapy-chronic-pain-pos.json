@@ -1,28 +1,33 @@
 {
-  "id": "physical-therapy-chronic-pain-pos",
-  "subj": "물리치료",
-  "claim": "만성 허리통증에 물리치료를 사용하는가",
-  "line": "수중 운동 물리치료는 만성 허리통증의 장애와 통증을 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 113,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "물리치료는 만성 통증의 의약품 허가 적응증이 아닌 재활 중재다.",
-  "why": "물의 부력과 운동을 이용한 물리치료가 만성 통증의 장애와 통증을 줄이는지 평가한다.",
-  "saw": "만성 허리통증 113명 무작위시험에서 3개월 수중 운동이 일반 물리치료보다 큰 개선을 보였고 효과는 12개월까지 이어졌다.",
-  "limit": "특정 수중 운동 프로그램의 결과라 모든 물리치료 방식에 같은 효과를 적용할 수 없다.",
-  "against": "진행성 신경 증상이나 심한 구조적 통증의 원인 치료를 재활로 대신할 수 없다.",
-  "use": "만성 허리통증에서 능동 운동 중심의 물리치료를 개인 기능에 맞춰 고려한다.",
-  "effect": "장애·통증 개선",
-  "refs": [
-    { "label": "만성 허리통증 수중 물리치료 무작위시험", "doi": "10.1001/jamanetworkopen.2021.42069", "pmid": "34994794" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=physical therapy · cond=Chronic Pain · 1,672건",
-    "pubmed": "physical therapy AND Chronic Pain · 25,152편",
-    "negative": "physical therapy AND Chronic Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 16,055편",
-    "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ "id": "physical-therapy-chronic-pain-pos",
+ "subj": "물리치료",
+ "claim": "만성 허리통증에 물리치료를 사용하는가",
+ "line": "수중 운동 물리치료는 만성 허리통증의 장애와 통증을 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 113,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "물리치료는 만성 통증의 의약품 허가 적응증이 아닌 재활 중재다.",
+ "why": "물의 부력과 운동을 이용한 물리치료가 만성 통증의 장애와 통증을 줄이는지 평가한다.",
+ "saw": "만성 허리통증 113명 무작위시험에서 3개월 수중 운동이 일반 물리치료보다 큰 개선을 보였고 효과는 12개월까지 이어졌다.",
+ "limit": "특정 수중 운동 프로그램의 결과라 모든 물리치료 방식에 같은 효과를 적용할 수 없다.",
+ "against": "진행성 신경 증상이나 심한 구조적 통증의 원인 치료를 재활로 대신할 수 없다.",
+ "use": "만성 허리통증에서 능동 운동 중심의 물리치료를 개인 기능에 맞춰 고려한다.",
+ "effect": "장애·통증 개선",
+ "refs": [
+  {
+   "label": "만성 허리통증 수중 물리치료 무작위시험",
+   "doi": "10.1001/jamanetworkopen.2021.42069",
+   "pmid": "34994794"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=physical therapy · cond=Chronic Pain · 1,672건",
+  "pubmed": "physical therapy AND Chronic Pain · 25,152편",
+  "negative": "physical therapy AND Chronic Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 16,055편",
+  "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ },
+ "vs": "군 간 차이: 물리치료 수중운동 vs 통상 물리치료 장애 점수 조정 평균차 3개월 -1.77 (95% CI -3.02~-0.51), 6개월 -2.42 (-4.13~-0.70), 12개월 -3.61 (-5.63~-1.58)"
 }

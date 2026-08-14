@@ -1,28 +1,33 @@
 {
-  "id": "physical-therapy-breast-cancer-pos",
-  "subj": "물리치료",
-  "claim": "유방암 수술 후 액와 web 증후군에 물리치료를 사용하는가",
-  "line": "운동·스트레칭 물리치료는 액와 web 증후군 통증을 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "물리치료는 유방암의 허가 치료가 아닌 수술 후 재활 중재다.",
-  "why": "수술 후 액와 web 증후군의 통증과 어깨 움직임 제한을 운동·스트레칭으로 회복하는지 평가한다.",
-  "saw": "체계적 문헌고찰에서 운동·스트레칭이 가장 효과적인 물리치료였고 통증 감소가 유일하게 유의한 메타분석 결과였다.",
-  "limit": "통증 분석은 소규모 3개 연구에 근거했고 참여자 총수와 효과의 확실성이 제한적이다.",
-  "against": "림프부종이나 감염이 의심되면 강한 운동보다 수술·재활팀 평가가 먼저다.",
-  "use": "유방암 치료를 유지하면서 통증과 관절가동범위 회복을 위한 개별 재활로 고려한다.",
-  "effect": "통증 감소",
-  "refs": [
-    { "label": "유방암 후 액와 web 증후군 물리치료 메타분석", "doi": "10.1007/s00520-023-07666-x", "pmid": "37043039" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=physical therapy · cond=Breast Cancer · 1,334건",
-    "pubmed": "physical therapy AND Breast Cancer · 10,249편",
-    "negative": "physical therapy AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) · 7,133편",
-    "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ "id": "physical-therapy-breast-cancer-pos",
+ "subj": "물리치료",
+ "claim": "유방암 수술 후 액와 web 증후군에 물리치료를 사용하는가",
+ "line": "운동·스트레칭 물리치료는 액와 web 증후군 통증을 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "물리치료는 유방암의 허가 치료가 아닌 수술 후 재활 중재다.",
+ "why": "수술 후 액와 web 증후군의 통증과 어깨 움직임 제한을 운동·스트레칭으로 회복하는지 평가한다.",
+ "saw": "체계적 문헌고찰에서 운동·스트레칭이 가장 효과적인 물리치료였고 통증 감소가 유일하게 유의한 메타분석 결과였다.",
+ "limit": "통증 분석은 소규모 3개 연구에 근거했고 참여자 총수와 효과의 확실성이 제한적이다.",
+ "against": "림프부종이나 감염이 의심되면 강한 운동보다 수술·재활팀 평가가 먼저다.",
+ "use": "유방암 치료를 유지하면서 통증과 관절가동범위 회복을 위한 개별 재활로 고려한다.",
+ "effect": "통증 감소",
+ "refs": [
+  {
+   "label": "유방암 후 액와 web 증후군 물리치료 메타분석",
+   "doi": "10.1007/s00520-023-07666-x",
+   "pmid": "37043039"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=physical therapy · cond=Breast Cancer · 1,334건",
+  "pubmed": "physical therapy AND Breast Cancer · 10,249편",
+  "negative": "physical therapy AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) · 7,133편",
+  "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ },
+ "vs": "군 간 차이: 물리치료 vs 대조군 액와 web 증후군 통증 메타분석 MD -0.82 (95% CI -1.67~0.03)"
 }

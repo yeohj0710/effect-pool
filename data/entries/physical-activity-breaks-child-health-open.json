@@ -1,28 +1,32 @@
 {
-  "id": "physical-activity-breaks-child-health-open",
-  "subj": "physical activity breaks",
-  "claim": "초등학교 수업 중 시행된다",
-  "line": "신체활동 휴식은 학교 75.6%, 교사 도달률 45.6%였습니다",
-  "effect": "학교 시행 75.6%·교사 45.6%",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 학교 개입이라 의약품 허가 적응증이 아님",
-  "why": "미국 공립 초등학교 640곳을 대상으로 한 대표성 조사에서 학교별 시행과 교사별 사용률을 관찰했습니다.",
-  "saw": "신체활동 휴식은 75.6%의 학교에서 사용됐지만, 시행 학교 안에서 실제로 사용한 교사는 45.6%였습니다.",
-  "limit": "학교 관리자·교사 설문이라 아동의 건강 결과나 총 참여자 수를 직접 측정하지 않았습니다.",
-  "against": "아동의 체중·체력 같은 건강 결과에 대한 직접 효과는 보고하지 않았습니다.",
-  "use": "학교 신체활동 휴식의 도입률과 현장 도달률을 구분해 기록합니다.",
-  "refs": [
-    { "label": "Turner 2017 · Health Education & Behavior · 시행 조사", "doi": "10.1177/1090198116667714", "pmid": "27608645" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=physical activity breaks AND query.cond=Child Health · 8건 반환 · InterventionName 완전일치 0건",
-    "pubmed": "\"physical activity breaks\" AND \"Child Health\"[Title/Abstract] · 1건(PMID27608645)",
-    "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 0건",
-    "safety": "\"physical activity breaks\" AND (adverse OR toxicity OR harm OR safety OR case report) · 7건"
+ "id": "physical-activity-breaks-child-health-open",
+ "subj": "신체활동 휴식",
+ "claim": "초등학교 수업 중 시행된다",
+ "line": "신체활동 휴식은 학교 75.6%, 교사 도달률 45.6%였습니다",
+ "effect": "학교 시행 75.6%·교사 45.6%",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 학교 개입이라 의약품 허가 적응증이 아님",
+ "why": "미국 공립 초등학교 640곳을 대상으로 한 대표성 조사에서 학교별 시행과 교사별 사용률을 관찰했습니다.",
+ "saw": "신체활동 휴식은 75.6%의 학교에서 사용됐지만, 시행 학교 안에서 실제로 사용한 교사는 45.6%였습니다.",
+ "limit": "학교 관리자·교사 설문이라 아동의 건강 결과나 총 참여자 수를 직접 측정하지 않았습니다.",
+ "against": "아동의 체중·체력 같은 건강 결과에 대한 직접 효과는 보고하지 않았습니다.",
+ "use": "학교 신체활동 휴식의 도입률과 현장 도달률을 구분해 기록합니다.",
+ "refs": [
+  {
+   "label": "Turner 2017 · Health Education & Behavior · 시행 조사",
+   "doi": "10.1177/1090198116667714",
+   "pmid": "27608645"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=physical activity breaks AND query.cond=Child Health · 8건 반환 · InterventionName 완전일치 0건",
+  "pubmed": "\"physical activity breaks\" AND \"Child Health\"[Title/Abstract] · 1건(PMID27608645)",
+  "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 0건",
+  "safety": "\"physical activity breaks\" AND (adverse OR toxicity OR harm OR safety OR case report) · 7건"
+ }
 }

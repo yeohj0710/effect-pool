@@ -1,29 +1,36 @@
 {
-  "id": "physiotherapy-meniscus-tear-pos",
-  "subj": "physiotherapy",
-  "claim": "물리치료를 퇴행성 반월상연골 파열에 쓴다",
-  "line": "운동 물리치료는 퇴행성 반월상연골 파열의 근력을 수술보다 높였습니다",
-  "effect": "무릎 폄 근력 16% 우세",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 82,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "퇴행성 반월상연골 파열 환자 82명을 무작위 배정한 시험에서 12주 감독 운동치료가 관절경 부분절제술보다 무릎 근력과 기능을 개선했습니다.",
-  "saw": "3개월 뒤 무릎 폄 최고토크가 수술군보다 16% 높았고 운동군은 기준선보다 평균 25Nm 증가했으며 다른 기능 지표도 좋아졌습니다.",
-  "limit": "중년의 퇴행성 파열과 무증상·경도 관절염 환자에 대한 12주 결과라 모든 급성 파열에 일반화할 수 없습니다.",
-  "against": "예측인자 고찰 15개 연구에서는 근거 질이 낮거나 중간이었고 높은 초기 통증은 수술 전환·낮은 개선과 연관됐습니다.",
-  "use": "퇴행성 반월상연골 파열에서 수술 전 운동 물리치료를 비교 선택할 때 참고합니다.",
-  "refs": [
-    { "label": "Exercise therapy versus arthroscopic surgery for degenerative meniscus tears · randomized trial", "pmid": "25299520" },
-    { "label": "Predictors after physiotherapy for meniscus tear · systematic review", "pmid": "34624747" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Meniscus Tear → 9건, exact InterventionName 1건",
-    "pubmed": "\"physiotherapy\" AND \"Meniscus Tear\" → 12건",
-    "negative": "\"physiotherapy\" AND \"Meniscus Tear\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 5건",
-    "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ "id": "physiotherapy-meniscus-tear-pos",
+ "subj": "물리치료",
+ "claim": "물리치료를 퇴행성 반월상연골 파열에 쓴다",
+ "line": "운동 물리치료는 퇴행성 반월상연골 파열의 근력을 수술보다 높였습니다",
+ "effect": "무릎 폄 근력 16% 우세",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 82,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "퇴행성 반월상연골 파열 환자 82명을 무작위 배정한 시험에서 12주 감독 운동치료가 관절경 부분절제술보다 무릎 근력과 기능을 개선했습니다.",
+ "saw": "3개월 뒤 무릎 폄 최고토크가 수술군보다 16% 높았고 운동군은 기준선보다 평균 25Nm 증가했으며 다른 기능 지표도 좋아졌습니다.",
+ "limit": "중년의 퇴행성 파열과 무증상·경도 관절염 환자에 대한 12주 결과라 모든 급성 파열에 일반화할 수 없습니다.",
+ "against": "예측인자 고찰 15개 연구에서는 근거 질이 낮거나 중간이었고 높은 초기 통증은 수술 전환·낮은 개선과 연관됐습니다.",
+ "use": "퇴행성 반월상연골 파열에서 수술 전 운동 물리치료를 비교 선택할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "Exercise therapy versus arthroscopic surgery for degenerative meniscus tears · randomized trial",
+   "pmid": "25299520"
+  },
+  {
+   "label": "Predictors after physiotherapy for meniscus tear · systematic review",
+   "pmid": "34624747"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Meniscus Tear → 9건, exact InterventionName 1건",
+  "pubmed": "\"physiotherapy\" AND \"Meniscus Tear\" → 12건",
+  "negative": "\"physiotherapy\" AND \"Meniscus Tear\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 5건",
+  "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ },
+ "vs": "군 간 차이: 운동 물리치료 vs 관절경 부분절제술 무릎 폄 최대토크 평균차 16% (95% CI 7.1~24.0; p<.0001), 운동군 기저선 대비 +25 Nm (범위 18~33)"
 }

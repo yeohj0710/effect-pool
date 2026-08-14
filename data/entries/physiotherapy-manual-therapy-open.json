@@ -1,29 +1,35 @@
 {
-  "id": "physiotherapy-manual-therapy-open",
-  "subj": "physiotherapy",
-  "claim": "물리치료를 수기치료 관련 근골격계 문제에 쓴다",
-  "line": "운동치료는 어깨 충돌증후군에 중기 이득을 보였지만 근거는 제한적이었습니다",
-  "effect": "운동·고열치료 일부 효과",
-  "tier": "trial",
-  "dir": "open",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "물리치료와 수기치료를 다룬 고찰에서 어깨 충돌증후군의 운동치료와 일부 물리치료가 단기 결과에서 유망했지만 확정적 결론은 부족했습니다.",
-  "saw": "2개 고찰과 10개 무작위시험을 검토했고 운동치료는 중기 대조군보다 유리했으며 다른 중재는 제한적·상충된 근거였습니다.",
-  "limit": "고찰 초록에 전체 참여자 수가 없고 물리치료·수기치료가 여러 방식으로 섞여 직접 비교가 어렵습니다.",
-  "against": "수기치료 자체의 효과는 일부 연구에만 평가됐고 확정적 장기 결과는 부족했습니다.",
-  "use": "수기치료를 포함한 물리치료를 어깨 통증에 고려할 때 단기·제한적 근거로만 참고합니다.",
-  "refs": [
-    { "label": "Physiotherapy and manual therapy for subacromial impingement · evidence synthesis", "pmid": "24217037" },
-    { "label": "DBM fasciatherapy for chronic low back pain · results-posted registry", "nct": "NCT04812678" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Manual Therapy → 102건, exact InterventionName 3건",
-    "pubmed": "\"physiotherapy\" AND \"Manual Therapy\" → 2020건",
-    "negative": "\"physiotherapy\" AND \"Manual Therapy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 326건",
-    "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ "id": "physiotherapy-manual-therapy-open",
+ "subj": "물리치료",
+ "claim": "물리치료를 수기치료 관련 근골격계 문제에 쓴다",
+ "line": "운동치료는 어깨 충돌증후군에 중기 이득을 보였지만 근거는 제한적이었습니다",
+ "effect": "운동·고열치료 일부 효과",
+ "tier": "trial",
+ "dir": "open",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "물리치료와 수기치료를 다룬 고찰에서 어깨 충돌증후군의 운동치료와 일부 물리치료가 단기 결과에서 유망했지만 확정적 결론은 부족했습니다.",
+ "saw": "2개 고찰과 10개 무작위시험을 검토했고 운동치료는 중기 대조군보다 유리했으며 다른 중재는 제한적·상충된 근거였습니다.",
+ "limit": "고찰 초록에 전체 참여자 수가 없고 물리치료·수기치료가 여러 방식으로 섞여 직접 비교가 어렵습니다.",
+ "against": "수기치료 자체의 효과는 일부 연구에만 평가됐고 확정적 장기 결과는 부족했습니다.",
+ "use": "수기치료를 포함한 물리치료를 어깨 통증에 고려할 때 단기·제한적 근거로만 참고합니다.",
+ "refs": [
+  {
+   "label": "Physiotherapy and manual therapy for subacromial impingement · evidence synthesis",
+   "pmid": "24217037"
+  },
+  {
+   "label": "DBM fasciatherapy for chronic low back pain · results-posted registry",
+   "nct": "NCT04812678"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Manual Therapy → 102건, exact InterventionName 3건",
+  "pubmed": "\"physiotherapy\" AND \"Manual Therapy\" → 2020건",
+  "negative": "\"physiotherapy\" AND \"Manual Therapy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 326건",
+  "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ }
 }

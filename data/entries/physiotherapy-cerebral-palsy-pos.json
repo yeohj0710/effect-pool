@@ -1,30 +1,40 @@
 {
-  "id": "physiotherapy-cerebral-palsy-pos",
-  "subj": "physiotherapy",
-  "claim": "물리치료를 뇌성마비 삶의 질 개선에 쓴다",
-  "line": "맞춤 물리치료는 뇌성마비의 삶의 질을 높였습니다",
-  "effect": "삶의 질 SMD가 유리했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1541,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "뇌성마비 물리치료 중재 37개 연구, 1,541명을 합친 체계적 문헌고찰·메타분석에서 대체 물리치료가 일반 물리치료보다 삶의 질 지표에서 유리했습니다.",
-  "saw": "대체 물리치료와 일반 물리치료를 비교한 단일 삶의 질 지표에서 표준화 평균차가 대체 치료에 유리했고 치료 유형·횟수별 결과는 달랐습니다.",
-  "limit": "연구마다 척도·기간·치료 유형이 달랐고 중증 기능등급 IV~V에 대한 엄격한 연구가 더 필요합니다.",
-  "against": "38명 무작위시험에서는 가상현실을 물리치료에 더해도 총운동기능·일상기능은 물리치료 단독보다 우월하지 않았고 균형 일부만 좋아졌습니다.",
-  "use": "뇌성마비의 물리치료를 개인별 기능과 목표에 맞출 때 삶의 질 근거로 참고합니다.",
-  "refs": [
-    { "label": "Physiotherapy interventions and quality of life in cerebral palsy · systematic review and meta-analysis", "pmid": "39811998" },
-    { "label": "Virtual reality gaming plus physiotherapy in cerebral palsy · randomized trial", "pmid": "33655813" },
-    { "label": "Lokomat versus gait-related physiotherapy in cerebral palsy · completed registry", "nct": "NCT02196298" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Cerebral Palsy → 259건, exact InterventionName 9건",
-    "pubmed": "\"physiotherapy\" AND \"Cerebral Palsy\" → 1972건",
-    "negative": "\"physiotherapy\" AND \"Cerebral Palsy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 288건",
-    "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ "id": "physiotherapy-cerebral-palsy-pos",
+ "subj": "물리치료",
+ "claim": "물리치료를 뇌성마비 삶의 질 개선에 쓴다",
+ "line": "맞춤 물리치료는 뇌성마비의 삶의 질을 높였습니다",
+ "effect": "삶의 질 SMD가 유리했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1541,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "뇌성마비 물리치료 중재 37개 연구, 1,541명을 합친 체계적 문헌고찰·메타분석에서 대체 물리치료가 일반 물리치료보다 삶의 질 지표에서 유리했습니다.",
+ "saw": "대체 물리치료와 일반 물리치료를 비교한 단일 삶의 질 지표에서 표준화 평균차가 대체 치료에 유리했고 치료 유형·횟수별 결과는 달랐습니다.",
+ "limit": "연구마다 척도·기간·치료 유형이 달랐고 중증 기능등급 IV~V에 대한 엄격한 연구가 더 필요합니다.",
+ "against": "38명 무작위시험에서는 가상현실을 물리치료에 더해도 총운동기능·일상기능은 물리치료 단독보다 우월하지 않았고 균형 일부만 좋아졌습니다.",
+ "use": "뇌성마비의 물리치료를 개인별 기능과 목표에 맞출 때 삶의 질 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "Physiotherapy interventions and quality of life in cerebral palsy · systematic review and meta-analysis",
+   "pmid": "39811998"
+  },
+  {
+   "label": "Virtual reality gaming plus physiotherapy in cerebral palsy · randomized trial",
+   "pmid": "33655813"
+  },
+  {
+   "label": "Lokomat versus gait-related physiotherapy in cerebral palsy · completed registry",
+   "nct": "NCT02196298"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.term=AREA[InterventionName]physiotherapy AND AREA[ConditionSearch]Cerebral Palsy → 259건, exact InterventionName 9건",
+  "pubmed": "\"physiotherapy\" AND \"Cerebral Palsy\" → 1972건",
+  "negative": "\"physiotherapy\" AND \"Cerebral Palsy\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 288건",
+  "safety": "\"physiotherapy\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 18473건"
+ },
+ "vs": "군 간 차이: 가상현실 게임+물리치료 vs 물리치료 소아 균형 점수 5.1±1.7 vs 3.4±1.6, Kids-Mini-BESTest 8.7±2.8 vs 5.8±2.5 (p<.001), 대운동 기능은 유의한 차이 없음"
 }

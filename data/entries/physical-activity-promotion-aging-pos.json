@@ -1,28 +1,34 @@
 {
-  "id": "physical-activity-promotion-aging-pos",
-  "subj": "physical activity promotion",
-  "claim": "노인의 신체활동을 모바일 건강 중재로 늘리는가",
-  "line": "모바일 중재는 노인의 신체활동을 소폭 늘렸습니다",
-  "effect": "신체활동 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3055,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "신체활동 촉진은 약물이 아닌 행동 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "활동적 노화를 위한 모바일 건강 중재 22개 연구, 총 3,055명을 종합한 체계적 문헌고찰·메타분석입니다.",
-  "saw": "신체활동과 신체기능 결과의 통합 효과크기는 SMD 0.23(95% CI 0.08–0.38)으로 소폭 개선을 보였습니다.",
-  "limit": "중재와 결과 측정이 연구마다 달랐고, 22개 연구 중 무작위시험은 11개였습니다.",
-  "against": "모바일 중재의 평균 효과가 작으므로 개인별 지속 효과와 기능적 이득은 별도 평가가 필요합니다.",
-  "use": "노인의 활동량을 늘리는 생활습관 프로그램을 설계할 때 보조 근거로 검토합니다.",
-  "refs": [
-    { "label": "활동적 노화를 위한 모바일 건강 중재 메타분석", "doi": "10.21037/mhealth-24-41", "pmid": "39944853", "pmc": "PMC11811652" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "physical activity promotion AND Aging — 125건 반환, 중재명 직접 일치 1건",
-    "pubmed": "\"physical activity promotion\" AND \"Aging\" — 103건, 시험·코호트 등 43건",
-    "negative": "\"physical activity promotion\" AND \"Aging\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 58건",
-    "safety": "\"physical activity promotion\" AND (adverse OR toxicity OR case report OR harm) — 60건"
+ "id": "physical-activity-promotion-aging-pos",
+ "subj": "신체활동 촉진",
+ "claim": "노인의 신체활동을 모바일 건강 중재로 늘리는가",
+ "line": "모바일 중재는 노인의 신체활동을 소폭 늘렸습니다",
+ "effect": "신체활동 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3055,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "신체활동 촉진은 약물이 아닌 행동 중재이므로 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "활동적 노화를 위한 모바일 건강 중재 22개 연구, 총 3,055명을 종합한 체계적 문헌고찰·메타분석입니다.",
+ "saw": "신체활동과 신체기능 결과의 통합 효과크기는 SMD 0.23(95% CI 0.08–0.38)으로 소폭 개선을 보였습니다.",
+ "limit": "중재와 결과 측정이 연구마다 달랐고, 22개 연구 중 무작위시험은 11개였습니다.",
+ "against": "모바일 중재의 평균 효과가 작으므로 개인별 지속 효과와 기능적 이득은 별도 평가가 필요합니다.",
+ "use": "노인의 활동량을 늘리는 생활습관 프로그램을 설계할 때 보조 근거로 검토합니다.",
+ "refs": [
+  {
+   "label": "활동적 노화를 위한 모바일 건강 중재 메타분석",
+   "doi": "10.21037/mhealth-24-41",
+   "pmid": "39944853",
+   "pmc": "PMC11811652"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "physical activity promotion AND Aging — 125건 반환, 중재명 직접 일치 1건",
+  "pubmed": "\"physical activity promotion\" AND \"Aging\" — 103건, 시험·코호트 등 43건",
+  "negative": "\"physical activity promotion\" AND \"Aging\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 58건",
+  "safety": "\"physical activity promotion\" AND (adverse OR toxicity OR case report OR harm) — 60건"
+ },
+ "vs": "군 간 차이: 신체활동 촉진 모바일 건강 중재 vs 대조군 신체활동 표준화 평균차 SMD 0.23 (95% CI 0.08~0.38)"
 }
