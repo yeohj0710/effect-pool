@@ -1,29 +1,39 @@
 {
-  "id": "tai-chi-chuan-cognitive-decline-pos",
-  "subj": "tai chi chuan",
-  "claim": "제2형 당뇨병과 경도인지장애가 있는 노인에게 태극권을 한다",
-  "line": "태극권은 당뇨병을 동반한 경도인지장애의 인지를 걷기보다 소폭 개선했습니다",
-  "effect": "MoCA 차이 0.84점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 328,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "약물이 아닌 운동 중재이며 이 인지장애 조합에는 허가 적응증을 적용하지 않습니다",
-  "why": "60세 이상 제2형 당뇨병·경도인지장애 성인 328명을 태극권, 걷기, 교육 대조군으로 무작위 배정한 임상시험입니다.",
-  "saw": "36주 MoCA는 태극권군 24.67점, 걷기군 23.84점으로 태극권군이 0.84점 높았습니다(95% CI 0.02~1.66, P=0.046).",
-  "limit": "참가자는 제2형 당뇨병과 경도인지장애가 함께 있는 60세 이상 성인으로 제한됐고, 태극권과 걷기를 직접 비교한 단일 시험입니다.",
-  "against": "태극권이 걷기보다 인지기능을 개선했지만 차이는 작았고, 다른 인지장애 집단에 같은 결과가 재현되는지는 확인되지 않았습니다.",
-  "use": "인지 훈련을 대신한다고 단정하지 말고, 낙상 위험과 운동 가능성을 확인한 뒤 보조 운동으로 검토합니다.",
-  "refs": [
-    { "label": "tai chi chuan cognitive function in diabetes and mild cognitive impairment randomized clinical trial", "doi": "10.1001/jamanetworkopen.2023.7004", "pmid": "37022680", "nct": "NCT04416841" },
-    { "label": "tai chi cognitive function systematic review and meta-analysis", "doi": "10.1089/acm.2021.0084", "pmid": "34314596" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "tai chi chuan AND Cognitive Decline · 35건 중 3건 직접 확인",
-    "pubmed": "tai chi chuan AND Cognitive Decline AND (randomized OR trial OR meta-analysis) · 80건",
-    "negative": "tai chi chuan AND Cognitive Decline AND (no effect OR did not OR failed OR negative OR no significant difference) · 95건",
-    "safety": "tai chi chuan AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 300건"
+ "id": "tai-chi-chuan-cognitive-decline-pos",
+ "subj": "태극권",
+ "claim": "제2형 당뇨병과 경도인지장애가 있는 노인에게 태극권을 한다",
+ "line": "태극권은 당뇨병을 동반한 경도인지장애의 인지를 걷기보다 소폭 개선했습니다",
+ "effect": "MoCA 차이 0.84점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 328,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "약물이 아닌 운동 중재이며 이 인지장애 조합에는 허가 적응증을 적용하지 않습니다",
+ "why": "60세 이상 제2형 당뇨병·경도인지장애 성인 328명을 태극권, 걷기, 교육 대조군으로 무작위 배정한 임상시험입니다.",
+ "saw": "36주 MoCA는 태극권군 24.67점, 걷기군 23.84점으로 태극권군이 0.84점 높았습니다(95% CI 0.02~1.66, P=0.046).",
+ "limit": "참가자는 제2형 당뇨병과 경도인지장애가 함께 있는 60세 이상 성인으로 제한됐고, 태극권과 걷기를 직접 비교한 단일 시험입니다.",
+ "against": "태극권이 걷기보다 인지기능을 개선했지만 차이는 작았고, 다른 인지장애 집단에 같은 결과가 재현되는지는 확인되지 않았습니다.",
+ "use": "인지 훈련을 대신한다고 단정하지 말고, 낙상 위험과 운동 가능성을 확인한 뒤 보조 운동으로 검토합니다.",
+ "refs": [
+  {
+   "label": "tai chi chuan cognitive function in diabetes and mild cognitive impairment randomized clinical trial",
+   "doi": "10.1001/jamanetworkopen.2023.7004",
+   "pmid": "37022680",
+   "nct": "NCT04416841"
+  },
+  {
+   "label": "tai chi cognitive function systematic review and meta-analysis",
+   "doi": "10.1089/acm.2021.0084",
+   "pmid": "34314596"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "tai chi chuan AND Cognitive Decline · 35건 중 3건 직접 확인",
+  "pubmed": "tai chi chuan AND Cognitive Decline AND (randomized OR trial OR meta-analysis) · 80건",
+  "negative": "tai chi chuan AND Cognitive Decline AND (no effect OR did not OR failed OR negative OR no significant difference) · 95건",
+  "safety": "tai chi chuan AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 300건"
+ },
+ "vs": "태극권 vs 걷기: 제2형 당뇨병·경도인지장애 노인 36주 MoCA 24.67±2.72 vs 23.84±3.17, 군간 평균차 +0.84점 (95% CI 0.02~1.66; p=.046)"
 }

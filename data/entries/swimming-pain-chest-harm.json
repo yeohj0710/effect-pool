@@ -1,28 +1,34 @@
 {
-  "id": "swimming-pain-chest-harm",
-  "subj": "swimming",
-  "claim": "수영 유발 폐부종이 일시적 심장기능 저하와 흉통을 일으킬 수 있다",
-  "line": "수영 유발 폐부종은 일시적 심장기능 저하와 흉통을 동반했습니다",
-  "effect": "심장기능 저하·흉통",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수영 유발 폐부종과 흉통은 수영의 허가 적응증이 아니라 안전성 문제입니다.",
-  "why": "개방수역 수영 후 폐부종이 생긴 환자와 무증상 수영자의 심장검사 결과를 비교한 코호트 연구입니다.",
-  "saw": "폐부종 환자 45명과 대조군 45명을 검사했습니다. 환자의 43%에서 수영 직후 심실 기능이 경미하게 저하됐고 2명은 심근경색과 흉통을 함께 보였습니다.",
-  "limit": "수영 유발 폐부종 환자를 관찰한 연구라 모든 수영자에게 같은 위험이 생긴다고 추정할 수 없습니다.",
-  "against": "추적검사에서 대부분의 심장초음파 이상이 호전돼 영구 손상으로 단정할 수 없습니다.",
-  "use": "수영 후 흉통·호흡곤란이 있으면 운동 효과로 해석하지 않고 폐부종과 심장 이상을 평가해야 한다는 안전성 근거로 기록합니다.",
-  "refs": [
-    { "label": "수영 유발 폐부종 환자·대조군 심장 코호트", "doi": "10.1016/j.chest.2026.06.051", "pmid": "42431395", "nct": "NCT05391737" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=swimming · cond=Pain, Chest 1건 반환, 물질 일치 1건",
-    "pubmed": "swimming AND Pain, Chest 80건",
-    "negative": "swimming AND Pain, Chest AND (no effect OR did not OR failed OR negative OR no significant difference) 39건",
-    "safety": "swimming AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 8490건"
+ "id": "swimming-pain-chest-harm",
+ "subj": "수영",
+ "claim": "수영 유발 폐부종이 일시적 심장기능 저하와 흉통을 일으킬 수 있다",
+ "line": "수영 유발 폐부종은 일시적 심장기능 저하와 흉통을 동반했습니다",
+ "effect": "심장기능 저하·흉통",
+ "tier": "obs",
+ "dir": "harm",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수영 유발 폐부종과 흉통은 수영의 허가 적응증이 아니라 안전성 문제입니다.",
+ "why": "개방수역 수영 후 폐부종이 생긴 환자와 무증상 수영자의 심장검사 결과를 비교한 코호트 연구입니다.",
+ "saw": "폐부종 환자 45명과 대조군 45명을 검사했습니다. 환자의 43%에서 수영 직후 심실 기능이 경미하게 저하됐고 2명은 심근경색과 흉통을 함께 보였습니다.",
+ "limit": "수영 유발 폐부종 환자를 관찰한 연구라 모든 수영자에게 같은 위험이 생긴다고 추정할 수 없습니다.",
+ "against": "추적검사에서 대부분의 심장초음파 이상이 호전돼 영구 손상으로 단정할 수 없습니다.",
+ "use": "수영 후 흉통·호흡곤란이 있으면 운동 효과로 해석하지 않고 폐부종과 심장 이상을 평가해야 한다는 안전성 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "수영 유발 폐부종 환자·대조군 심장 코호트",
+   "doi": "10.1016/j.chest.2026.06.051",
+   "pmid": "42431395",
+   "nct": "NCT05391737"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=swimming · cond=Pain, Chest 1건 반환, 물질 일치 1건",
+  "pubmed": "swimming AND Pain, Chest 80건",
+  "negative": "swimming AND Pain, Chest AND (no effect OR did not OR failed OR negative OR no significant difference) 39건",
+  "safety": "swimming AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 8490건"
+ },
+ "vs": "수영 유발 폐부종 vs 무증상 수영 대조군: 수축기 심실기능 저하 43% vs 10%, 폐동맥압 상승 30% vs 0%, 트로포닌 I 중앙값 47 vs 14 pg/mL, NT-proBNP 169 vs 65 pg/mL"
 }
