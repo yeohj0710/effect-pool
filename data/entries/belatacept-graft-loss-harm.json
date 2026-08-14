@@ -1,28 +1,33 @@
 {
-  "id": "belatacept-graft-loss-harm",
-  "subj": "벨라타셉트",
-  "claim": "벨라타셉트가 신장이식 환자의 이식편 소실 위험을 높인다",
-  "line": "신장이식 코호트에서 벨라타셉트군의 이식편 소실 위험이 더 높았다.",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 401,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가는 성인 신장이식 환자의 장기 이식편 거부반응 예방이며 이식편 소실 위험을 낮추는 적응증은 아닙니다.",
-  "why": "칼시뉴린 억제제를 대체하는 벨라타셉트가 실제 이식편 생존과 거부반응에 미치는 위험 신호를 확인했습니다.",
-  "saw": "2018~2022년 일차 신장이식 환자 401명을 후향 분석했고 25명이 벨라타셉트를 받았습니다. 비투여군과 비교한 이식편 소실 위험비는 14.5(95% CI 5.15~41.0, P<.001), 급성 세포성 거부반응 위험비는 5.08(95% CI 2.56~11.5, P<.001)이었습니다.",
-  "limit": "벨라타셉트 투여 환자가 25명뿐인 관찰연구라 치료 선택과 환자 중증도에 따른 교란을 배제할 수 없습니다.",
-  "against": "무작위 배정이 없고, 연구진은 고령 신장이식 환자에서 벨라타셉트를 신중히 선택해야 한다고 결론냈습니다.",
-  "use": "허가된 거부반응 예방을 부정하는 결과로 해석하지 말고, 이식편 기능과 감염·거부반응을 함께 모니터링하는 안전성 신호로 참고합니다.",
-  "effect": "이식편 소실 HR 14.5",
-  "refs": [
-    { "label": "2026 · Transplant Infectious Disease · 벨라타셉트 신장이식 코호트", "doi": "10.1111/tid.70175", "pmid": "41582884" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intr=belatacept, cond=Graft Loss · 3건 반환",
-    "pubmed": "belatacept AND graft loss · 1477편",
-    "negative": "belatacept AND graft loss AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1418편",
-    "safety": "belatacept AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1823편"
+ "id": "belatacept-graft-loss-harm",
+ "subj": "벨라타셉트",
+ "claim": "벨라타셉트가 신장이식 환자의 이식편 소실 위험을 높인다",
+ "line": "신장이식 코호트에서 벨라타셉트군의 이식편 소실 위험이 더 높았다.",
+ "tier": "obs",
+ "dir": "harm",
+ "n": 401,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가는 성인 신장이식 환자의 장기 이식편 거부반응 예방이며 이식편 소실 위험을 낮추는 적응증은 아닙니다.",
+ "why": "칼시뉴린 억제제를 대체하는 벨라타셉트가 실제 이식편 생존과 거부반응에 미치는 위험 신호를 확인했습니다.",
+ "saw": "2018~2022년 일차 신장이식 환자 401명을 후향 분석했고 25명이 벨라타셉트를 받았습니다. 비투여군과 비교한 이식편 소실 위험비는 14.5(95% CI 5.15~41.0, P<.001), 급성 세포성 거부반응 위험비는 5.08(95% CI 2.56~11.5, P<.001)이었습니다.",
+ "limit": "벨라타셉트 투여 환자가 25명뿐인 관찰연구라 치료 선택과 환자 중증도에 따른 교란을 배제할 수 없습니다.",
+ "against": "무작위 배정이 없고, 연구진은 고령 신장이식 환자에서 벨라타셉트를 신중히 선택해야 한다고 결론냈습니다.",
+ "use": "허가된 거부반응 예방을 부정하는 결과로 해석하지 말고, 이식편 기능과 감염·거부반응을 함께 모니터링하는 안전성 신호로 참고합니다.",
+ "effect": "이식편 소실 HR 14.5",
+ "refs": [
+  {
+   "label": "2026 · Transplant Infectious Disease · 벨라타셉트 신장이식 코호트",
+   "doi": "10.1111/tid.70175",
+   "pmid": "41582884"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intr=belatacept, cond=Graft Loss · 3건 반환",
+  "pubmed": "belatacept AND graft loss · 1477편",
+  "negative": "belatacept AND graft loss AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1418편",
+  "safety": "belatacept AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1823편"
+ },
+ "vs": "신장이식 후 벨라타셉트 사용 vs 미사용 관찰연구: 이식편 소실 조정 HR 14.5 (95% CI 5.15~41.0), 급성 세포성 거부반응 HR 5.08 (2.56~11.5), EBV 최초 감염 HR 3.71 (1.57~8.72); 코호트 401명"
 }

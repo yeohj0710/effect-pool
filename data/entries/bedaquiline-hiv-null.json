@@ -1,26 +1,32 @@
 {
-  "id": "bedaquiline-hiv-null",
-  "subj": "bedaquiline",
-  "claim": "HIV를 동반한 다제내성결핵에 bedaquiline을 쓴다",
-  "line": "HIV 동반 다제내성결핵에서 베다퀼린 노출은 24% 낮았지만 임상 효과는 측정하지 않았다.",
-  "effect": "AUC 24% 낮음·임상효과 미측정",
-  "tier": "trial",
-  "dir": "null",
-  "n": 50,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "bedaquiline 허가는 결핵 병용요법이며 HIV 감염 자체의 치료는 허가 적응증이 아닙니다",
-  "why": "HIV 감염이 다제내성결핵 치료에서 bedaquiline 노출을 바꾸는지 확인한 약동학 결과를 임상효과와 구분합니다.",
-  "saw": "다제내성결핵 환자에서 bedaquiline을 받은 50명을 HIV 양성·음성으로 비교했습니다. HIV 양성군의 bedaquiline AUC는 HIV 음성군보다 24% 낮았고, delamanid 노출은 달라지지 않았습니다.",
-  "limit": "약동학 비교 연구라 균 음전, 치료 성공률, 재발과 같은 임상 결과를 평가하지 않았습니다.",
-  "against": "HIV 상태에 따른 bedaquiline 노출 차이가 치료 실패나 독성 차이로 이어지는지는 확인되지 않았습니다.",
-  "use": "HIV 동반 다제내성결핵에서 약물농도와 임상결과를 분리해 볼 사례로 기록합니다.",
-  "refs": [{ "label": "HIV가 bedaquiline 약동학에 미치는 영향 2026 · 다제내성결핵 연구", "pmid": "41666019" }],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=bedaquiline AND condition=HIV; 10건 반환, 5건 직접 대조",
-    "pubmed": "bedaquiline AND HIV; 301편, PMID41666019 직접 약동학 결과",
-    "negative": "bedaquiline AND HIV AND (no effect OR did not OR failed to OR negative); 55편",
-    "safety": "bedaquiline AND (adverse OR toxicity OR hepatotoxicity OR case report); 608편"
+ "id": "bedaquiline-hiv-null",
+ "subj": "베다퀼린",
+ "claim": "HIV를 동반한 다제내성결핵에 베다퀼린을 쓴다",
+ "line": "HIV 동반 다제내성결핵에서 베다퀼린 노출은 24% 낮았지만 임상 효과는 측정하지 않았다.",
+ "effect": "AUC 24% 낮음·임상효과 미측정",
+ "tier": "trial",
+ "dir": "null",
+ "n": 50,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "베다퀼린 허가는 결핵 병용요법이며 HIV 감염 자체의 치료는 허가 적응증이 아닙니다",
+ "why": "HIV 감염이 다제내성결핵 치료에서 베다퀼린 노출을 바꾸는지 확인한 약동학 결과를 임상효과와 구분합니다.",
+ "saw": "다제내성결핵 환자에서 베다퀼린을 받은 50명을 HIV 양성·음성으로 비교했습니다. HIV 양성군의 베다퀼린 AUC는 HIV 음성군보다 24% 낮았고, delamanid 노출은 달라지지 않았습니다.",
+ "limit": "약동학 비교 연구라 균 음전, 치료 성공률, 재발과 같은 임상 결과를 평가하지 않았습니다.",
+ "against": "HIV 상태에 따른 베다퀼린 노출 차이가 치료 실패나 독성 차이로 이어지는지는 확인되지 않았습니다.",
+ "use": "HIV 동반 다제내성결핵에서 약물농도와 임상결과를 분리해 볼 사례로 기록합니다.",
+ "refs": [
+  {
+   "label": "HIV가 bedaquiline 약동학에 미치는 영향 2026 · 다제내성결핵 연구",
+   "pmid": "41666019"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=bedaquiline AND condition=HIV; 10건 반환, 5건 직접 대조",
+  "pubmed": "bedaquiline AND HIV; 301편, PMID41666019 직접 약동학 결과",
+  "negative": "bedaquiline AND HIV AND (no effect OR did not OR failed to OR negative); 55편",
+  "safety": "bedaquiline AND (adverse OR toxicity OR hepatotoxicity OR case report); 608편"
+ },
+ "vs": "베다퀼린 투여군에서 HIV 양성 vs HIV 음성: 베다퀼린 AUC0-22 기하평균비 0.76 (90% CI 0.61~0.94), Cmax 0.94 (0.78~1.06); 베다퀼린 투여 50명 약동학 비교"
 }

@@ -1,20 +1,38 @@
 {
-  "id": "azithromycin-mortality-pos",
-  "subj": "azithromycin",
-  "claim": "azithromycin을 사하라 이남 아프리카 아동 사망 예방에 쓴다",
-  "line": "니제르 지역사회에서 아지스로마이신 배포는 아동 사망률을 낮췄다.",
-  "effect": "사망률 14% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 382586,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "지역사회 아동 사망 예방은 azithromycin의 허가 적응증이 아니다",
-  "why": "니제르 농촌지역사회에 azithromycin을 반년마다 대량분포한 군과 위약군을 비교했다",
-  "saw": "1,273개 지역사회에 배정된 382,586명 아동에서 1~59개월 사망률이 위약보다 14% 낮았다",
-  "limit": "지역사회 수준 개입이며 항생제 내성 위험과 다른 지역의 일반화 가능성을 함께 봐야 한다",
-  "against": "1~11개월만 받은 군의 사망률 감소는 유의하지 않았다",
-  "use": "대량 항생제 분포가 사망률에 미친 지역사회 신호로 기록한다",
-  "refs": [{ "label": "2024 · azithromycin 사망률 적응형 군집 무작위시험", "doi": "10.1056/NEJMoa2312093", "pmid": "39167806" }, { "label": "2024 · CHAT 아동 사망 예방 군집시험", "doi": "10.1001/jama.2023.27393", "pmid": "38349371" }],
-  "queried": { "date": "2026-08-08", "ctgov": "azithromycin AND Mortality; 23건 반환", "pubmed": "azithromycin AND mortality randomized trial; 지역사회 군집시험 확인", "negative": "azithromycin AND mortality AND no effect; 영아 단독군 결과 확인", "safety": "azithromycin AND mortality AND resistance; 항생제 내성 우려 확인" }
+ "id": "azithromycin-mortality-pos",
+ "subj": "아지트로마이신",
+ "claim": "아지트로마이신을 사하라 이남 아프리카 아동 사망 예방에 쓴다",
+ "line": "니제르 지역사회에서 아지스로마이신 배포는 아동 사망률을 낮췄다.",
+ "effect": "사망률 14% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 382586,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "지역사회 아동 사망 예방은 아지트로마이신의 허가 적응증이 아니다",
+ "why": "니제르 농촌지역사회에 아지트로마이신을 반년마다 대량분포한 군과 위약군을 비교했다",
+ "saw": "1,273개 지역사회에 배정된 382,586명 아동에서 1~59개월 사망률이 위약보다 14% 낮았다",
+ "limit": "지역사회 수준 개입이며 항생제 내성 위험과 다른 지역의 일반화 가능성을 함께 봐야 한다",
+ "against": "1~11개월만 받은 군의 사망률 감소는 유의하지 않았다",
+ "use": "대량 항생제 분포가 사망률에 미친 지역사회 신호로 기록한다",
+ "refs": [
+  {
+   "label": "2024 · azithromycin 사망률 적응형 군집 무작위시험",
+   "doi": "10.1056/NEJMoa2312093",
+   "pmid": "39167806"
+  },
+  {
+   "label": "2024 · CHAT 아동 사망 예방 군집시험",
+   "doi": "10.1001/jama.2023.27393",
+   "pmid": "38349371"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "azithromycin AND Mortality; 23건 반환",
+  "pubmed": "azithromycin AND mortality randomized trial; 지역사회 군집시험 확인",
+  "negative": "azithromycin AND mortality AND no effect; 영아 단독군 결과 확인",
+  "safety": "azithromycin AND mortality AND resistance; 항생제 내성 우려 확인"
+ },
+ "vs": "아지트로마이신 vs 위약: 1~59개월 아동 사망 11.9 vs 13.9건/1,000인-년, 14% 감소 (95% CI 7~22), p<.001; 다른 지역 RCT 사망 IRR 0.82 (0.67~1.02), p=.07; cluster RCT 382,586명"
 }

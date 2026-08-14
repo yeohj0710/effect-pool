@@ -1,28 +1,39 @@
 {
-  "id": "azithromycin-malaria-null",
-  "subj": "아지트로마이신",
-  "claim": "말라리아를 치료하거나 예방한다",
-  "line": "말라리아 환자에서 아지스로마이신은 다른 항말라리아제보다 효과가 좋지 않았다.",
-  "effect": "치료 우월성 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 2284,
-  "synth": "meta",
-  "why": "단순 말라리아에서 아지트로마이신 단독 또는 병용요법을 다른 항말라리아제와 비교한 코크란 무작위시험 고찰입니다.",
-  "saw": "15개 무작위시험 2284명을 검토한 고찰에서 아지트로마이신 단독·병용요법은 다른 항말라리아제보다 우월하거나 동등하다는 근거가 없었습니다. 일부 병용군은 치료 실패가 더 많았고, 중대한 이상반응은 비슷했습니다.",
-  "limit": "말라리아 종과 병용요법이 다양하고, 고찰의 검색 시점이 오래돼 현재 치료 조합의 효과를 직접 판단할 수 없습니다.",
-  "against": "일부 병용군은 다른 표준요법보다 치료 실패가 많았으며 치료 실패 위험비가 2.66이었습니다.",
-  "use": "아지트로마이신의 항말라리아 가능성과 표준 치료 대체 가능성을 구분해야 합니다.",
-  "refs": [
-    { "label": "van Eijk 2011 · Cochrane Database Syst Rev · 아지트로마이신 말라리아 메타분석", "doi": "10.1002/14651858.CD006688.pub2", "pmid": "21328286", "pmc": "PMC6532599" },
-    { "label": "Coulibaly 2021 · Malar J · 소아 말라리아 아지트로마이신 음성시험", "doi": "10.1186/s12936-021-03895-9", "pmid": "34465327", "pmc": "PMC8407066" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:azithromycin → 163건; Malaria 적응증 문구 없음",
-    "ctgov": "query.intr=azithromycin&query.cond=Malaria → 36건 반환, InterventionName 대조 후 33건",
-    "pubmed": "azithromycin Malaria → 335건; azithromycin malaria randomized → 120건",
-    "negative": "azithromycin AND Malaria AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 234건",
-    "safety": "azithromycin AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 4606건"
+ "id": "azithromycin-malaria-null",
+ "subj": "아지트로마이신",
+ "claim": "말라리아를 치료하거나 예방한다",
+ "line": "말라리아 환자에서 아지스로마이신은 다른 항말라리아제보다 효과가 좋지 않았다.",
+ "effect": "치료 우월성 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 2284,
+ "synth": "meta",
+ "why": "단순 말라리아에서 아지트로마이신 단독 또는 병용요법을 다른 항말라리아제와 비교한 코크란 무작위시험 고찰입니다.",
+ "saw": "15개 무작위시험 2284명을 검토한 고찰에서 아지트로마이신 단독·병용요법은 다른 항말라리아제보다 우월하거나 동등하다는 근거가 없었습니다. 일부 병용군은 치료 실패가 더 많았고, 중대한 이상반응은 비슷했습니다.",
+ "limit": "말라리아 종과 병용요법이 다양하고, 고찰의 검색 시점이 오래돼 현재 치료 조합의 효과를 직접 판단할 수 없습니다.",
+ "against": "일부 병용군은 다른 표준요법보다 치료 실패가 많았으며 치료 실패 위험비가 2.66이었습니다.",
+ "use": "아지트로마이신의 항말라리아 가능성과 표준 치료 대체 가능성을 구분해야 합니다.",
+ "refs": [
+  {
+   "label": "van Eijk 2011 · Cochrane Database Syst Rev · 아지트로마이신 말라리아 메타분석",
+   "doi": "10.1002/14651858.CD006688.pub2",
+   "pmid": "21328286",
+   "pmc": "PMC6532599"
+  },
+  {
+   "label": "Coulibaly 2021 · Malar J · 소아 말라리아 아지트로마이신 음성시험",
+   "doi": "10.1186/s12936-021-03895-9",
+   "pmid": "34465327",
+   "pmc": "PMC8407066"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:azithromycin → 163건; Malaria 적응증 문구 없음",
+  "ctgov": "query.intr=azithromycin&query.cond=Malaria → 36건 반환, InterventionName 대조 후 33건",
+  "pubmed": "azithromycin Malaria → 335건; azithromycin malaria randomized → 120건",
+  "negative": "azithromycin AND Malaria AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 234건",
+  "safety": "azithromycin AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 4606건"
+ },
+ "vs": "아지트로마이신 포함 요법 vs 대체 항말라리아 요법: 아지트로마이신+설파독신-피리메타민/클로로퀸 치료 실패 RR 2.66 (95% CI 1.25~5.67), 아토바쿠온-프로구아닐 대비 RR 24.72 (6.16~99.20); 단회 투여 연구 기생충혈증 14일 20% vs 17%, 6개월 7.6% vs 5.6%, p=.43/.47"
 }
