@@ -1,29 +1,36 @@
 {
-  "id": "cytarabine-myelodysplastic-syndrome-pos",
-  "subj": "시타라빈",
-  "claim": "저용량 시타라빈 병용이 고위험 MDS 관해를 유도할 수 있다",
-  "line": "MDS 시타라빈 병용 메타분석에서 완전관해율은 약 45%였습니다.",
-  "effect": "MDS 완전관해 약 45%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 560,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "시타라빈 허가는 주로 AML과 일부 백혈병이고 골수형성이상증후군은 단독 허가 적응증이 아닙니다.",
-  "why": "저용량 시타라빈을 조혈성장인자나 다른 항암제와 병용해 비정상 골수성 세포를 줄이는 치료가 연구됐습니다.",
-  "saw": "HAG(호모해링토닌·시타라빈·G-CSF) 메타분석 2,314명에서 MDS·변환 AML군 완전관해율은 45%였습니다. CAG(시타라빈·아클라루비신·G-CSF) 35개 연구 1,029명 메타분석에서도 MDS 완전관해율은 45.7%였습니다.",
-  "limit": "시타라빈 단독 효과가 아니라 여러 병용요법의 결과이며 연구 대부분이 비무작위 자료입니다. 중증 골수억제와 감염을 감수해야 합니다.",
-  "against": "HAG와 CAG 메타분석은 표준 집중항암과의 무작위 비교가 부족하고, CAG의 우월성은 현재 표준치료와 직접 확인되지 않았습니다.",
-  "use": "고위험 MDS의 저강도 병용요법을 검토할 때 역사적·지역적 근거로만 참고합니다.",
-  "refs": [
-    { "label": "AML·MDS HAG 시타라빈 메타분석", "pmid": "27706258" },
-    { "label": "AML·MDS CAG 시타라빈 메타분석", "pmid": "22082134" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=cytarabine · cond=Myelodysplastic Syndrome → 229건 반환, 물질 대조 후 76건",
-    "pubmed": "cytarabine AND Myelodysplastic Syndrome → 974편",
-    "negative": "cytarabine AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 593편",
-    "safety": "cytarabine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9307편"
+ "id": "cytarabine-myelodysplastic-syndrome-pos",
+ "subj": "시타라빈",
+ "claim": "저용량 시타라빈 병용이 고위험 MDS 관해를 유도할 수 있다",
+ "line": "MDS 시타라빈 병용 메타분석에서 완전관해율은 약 45%였습니다.",
+ "effect": "MDS 완전관해 약 45%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 560,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "시타라빈 허가는 주로 AML과 일부 백혈병이고 골수형성이상증후군은 단독 허가 적응증이 아닙니다.",
+ "why": "저용량 시타라빈을 조혈성장인자나 다른 항암제와 병용해 비정상 골수성 세포를 줄이는 치료가 연구됐습니다.",
+ "saw": "HAG(호모해링토닌·시타라빈·G-CSF) 메타분석 2,314명에서 MDS·변환 AML군 완전관해율은 45%였습니다. CAG(시타라빈·아클라루비신·G-CSF) 35개 연구 1,029명 메타분석에서도 MDS 완전관해율은 45.7%였습니다.",
+ "limit": "시타라빈 단독 효과가 아니라 여러 병용요법의 결과이며 연구 대부분이 비무작위 자료입니다. 중증 골수억제와 감염을 감수해야 합니다.",
+ "against": "HAG와 CAG 메타분석은 표준 집중항암과의 무작위 비교가 부족하고, CAG의 우월성은 현재 표준치료와 직접 확인되지 않았습니다.",
+ "use": "고위험 MDS의 저강도 병용요법을 검토할 때 역사적·지역적 근거로만 참고합니다.",
+ "refs": [
+  {
+   "label": "AML·MDS HAG 시타라빈 메타분석",
+   "pmid": "27706258"
+  },
+  {
+   "label": "AML·MDS CAG 시타라빈 메타분석",
+   "pmid": "22082134"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=cytarabine · cond=Myelodysplastic Syndrome → 229건 반환, 물질 대조 후 76건",
+  "pubmed": "cytarabine AND Myelodysplastic Syndrome → 974편",
+  "negative": "cytarabine AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 593편",
+  "safety": "cytarabine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9307편"
+ },
+ "vs": "CAG 요법(시타라빈·아클라루비신·G-CSF) vs 비CAG 요법: AML·골수형성이상증후군 35개 연구, 1,029명 메타분석에서 완전관해 오즈비는 2.43이었다; CAG군의 골수형성이상증후군 완전관해율은 45.7%(215명)였고 AML은 57.9%였다."
 }

@@ -1,30 +1,41 @@
 {
-  "id": "daunorubicin-myelodysplastic-syndrome-pos",
-  "subj": "다우노루비신",
-  "claim": "리포솜 다우노루비신·시타라빈 병용은 고위험 MDS 반응을 높일 수 있다",
-  "line": "고위험 MDS 2상에서 CPX-351은 전체 반응률 87%를 보였습니다",
-  "effect": "전체 반응률 87%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 31,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "리포솜 다우노루비신·시타라빈 CPX-351 허가는 고위험 AML이고 골수형성이상증후군 단독은 포함하지 않습니다.",
-  "why": "다우노루비신과 시타라빈을 고정비율 리포솜으로 전달해 고위험 MDS를 이식 전 관해 상태로 만들 수 있는지 시험했습니다.",
-  "saw": "고위험 MDS 또는 만성골수단핵구성백혈병 신규 환자 31명 단일군 2상에서 CPX-351 1~2회 유도 뒤 전체 반응률은 87%였습니다. 31명 중 29명이 동종 조혈모세포이식을 받았고 치료 관련 사망은 없었습니다.",
-  "limit": "CPX-351 병용제형의 단일군 소규모 연구라 다우노루비신 단독 효과를 분리할 수 없습니다. 폐·심혈관 3·4등급 이상반응이 각각 26%, 19%였습니다.",
-  "against": "AML과 고위험 MDS를 섞은 189명 무작위시험에서는 CPX-351이 FLAG-Ida보다 전체생존을 개선하지 못했습니다.",
-  "use": "이식이 가능한 고위험 MDS에서 임상시험 또는 전문센터의 이식 전 유도요법 근거로만 기록합니다.",
-  "refs": [
-    { "label": "고위험 MDS·CMML CPX-351 2상", "pmid": "37245522", "nct": "NCT04273802" },
-    { "label": "AML·고위험 MDS CPX-351 대 FLAG-Ida 무작위시험", "pmid": "37171402" },
-    { "label": "MDS에서 CPX-351 연구 검토", "pmid": "37245521" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=daunorubicin · cond=Myelodysplastic Syndrome → 103건 반환, 물질 대조 후 41건",
-    "pubmed": "daunorubicin AND Myelodysplastic Syndrome → 423편",
-    "negative": "daunorubicin AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 259편",
-    "safety": "daunorubicin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 36803편"
+ "id": "daunorubicin-myelodysplastic-syndrome-pos",
+ "subj": "다우노루비신",
+ "claim": "리포솜 다우노루비신·시타라빈 병용은 고위험 MDS 반응을 높일 수 있다",
+ "line": "고위험 MDS 2상에서 CPX-351은 전체 반응률 87%를 보였습니다",
+ "effect": "전체 반응률 87%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 31,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "리포솜 다우노루비신·시타라빈 CPX-351 허가는 고위험 AML이고 골수형성이상증후군 단독은 포함하지 않습니다.",
+ "why": "다우노루비신과 시타라빈을 고정비율 리포솜으로 전달해 고위험 MDS를 이식 전 관해 상태로 만들 수 있는지 시험했습니다.",
+ "saw": "고위험 MDS 또는 만성골수단핵구성백혈병 신규 환자 31명 단일군 2상에서 CPX-351 1~2회 유도 뒤 전체 반응률은 87%였습니다. 31명 중 29명이 동종 조혈모세포이식을 받았고 치료 관련 사망은 없었습니다.",
+ "limit": "CPX-351 병용제형의 단일군 소규모 연구라 다우노루비신 단독 효과를 분리할 수 없습니다. 폐·심혈관 3·4등급 이상반응이 각각 26%, 19%였습니다.",
+ "against": "AML과 고위험 MDS를 섞은 189명 무작위시험에서는 CPX-351이 FLAG-Ida보다 전체생존을 개선하지 못했습니다.",
+ "use": "이식이 가능한 고위험 MDS에서 임상시험 또는 전문센터의 이식 전 유도요법 근거로만 기록합니다.",
+ "refs": [
+  {
+   "label": "고위험 MDS·CMML CPX-351 2상",
+   "pmid": "37245522",
+   "nct": "NCT04273802"
+  },
+  {
+   "label": "AML·고위험 MDS CPX-351 대 FLAG-Ida 무작위시험",
+   "pmid": "37171402"
+  },
+  {
+   "label": "MDS에서 CPX-351 연구 검토",
+   "pmid": "37245521"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=daunorubicin · cond=Myelodysplastic Syndrome → 103건 반환, 물질 대조 후 41건",
+  "pubmed": "daunorubicin AND Myelodysplastic Syndrome → 423편",
+  "negative": "daunorubicin AND Myelodysplastic Syndrome AND (no effect OR did not OR failed to OR negative OR no significant difference) → 259편",
+  "safety": "daunorubicin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 36803편"
+ },
+ "vs": "CPX-351(시타라빈·다우노루비신) vs FLAG-Ida: AML·고위험 골수형성이상 관련 환자에서 2차 치료 후 완전관해·불완전 혈액학적 회복률 64% vs 76%, 전체생존 중앙값 13.3 vs 11.4개월, 무재발생존 22.1 vs 8.35개월이었다."
 }

@@ -1,36 +1,37 @@
 {
-  "id": "dapagliflozin-hypertension-pos",
-  "subj": "다파글리플로진",
-  "claim": "다파글리플로진은 제2형 당뇨병 동반 고혈압의 혈압을 낮출 수 있다",
-  "line": "제2형 당뇨병·고혈압 환자에서 투여 후 24시간 수축기혈압이 낮아졌습니다.",
-  "effect": "수축기혈압 -3.74 mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "why": "다파글리플로진의 허가사항은 제2형 당뇨병, 심부전, 만성콩팥병의 특정 위험 감소이며 고혈압 치료는 아닙니다. SGLT2 억제제 무작위시험 메타분석의 다파글리플로진 하위 결과를 확인했습니다.",
-  "saw": "제2형 당뇨병과 고혈압 환자의 24시간 혈압 무작위시험 7편 메타분석에서 SGLT2 억제제는 수축기혈압을 낮췄고 다파글리플로진 하위 결과의 감소폭은 3.74 mmHg였습니다. 합산 인원은 초록에 제시되지 않았습니다.",
-  "limit": "다파글리플로진 단독 메타분석이 아니라 SGLT2 억제제 계열 분석의 하위 결과입니다. 혈압 수치 개선을 고혈압의 심혈관 사건 감소로 확대할 수 없습니다.",
-  "against": "반대 검색 66건에서 혈압 감소폭이 작거나 계열별 연구가 달라 다파글리플로진 단독 효과를 확정하기 어렵다는 결과를 확인했습니다.",
-  "use": "제2형 당뇨병 동반 고혈압의 혈압 대리지표 신호로만 참고합니다.",
-  "refs": [
-    {
-      "label": "2021 · 제2형 당뇨병·고혈압 SGLT2 억제제 혈압 메타분석",
-      "doi": "10.3760/cma.j.cn112148-20210127-00098",
-      "pmid": "34674438"
-    },
-    {
-      "label": "2021 · 혈당강하제 체중·혈압 네트워크 메타분석",
-      "doi": "10.1111/dom.14451",
-      "pmid": "34047443"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"DAPAGLIFLOZIN\" → 37건 반환; 고혈압 적응증 없음",
-    "ctgov": "query.intr=dapagliflozin&query.cond=Hypertension&countTotal=true&pageSize=1000 → 26건 반환, InterventionName exact 일치 5건",
-    "pubmed": "dapagliflozin AND \"Hypertension\" → 305건",
-    "negative": "dapagliflozin AND \"Hypertension\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 66건",
-    "safety": "dapagliflozin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,723건"
+ "id": "dapagliflozin-hypertension-pos",
+ "subj": "다파글리플로진",
+ "claim": "다파글리플로진은 제2형 당뇨병 동반 고혈압의 혈압을 낮출 수 있다",
+ "line": "제2형 당뇨병·고혈압 환자에서 투여 후 24시간 수축기혈압이 낮아졌습니다.",
+ "effect": "수축기혈압 -3.74 mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "why": "다파글리플로진의 허가사항은 제2형 당뇨병, 심부전, 만성콩팥병의 특정 위험 감소이며 고혈압 치료는 아닙니다. SGLT2 억제제 무작위시험 메타분석의 다파글리플로진 하위 결과를 확인했습니다.",
+ "saw": "제2형 당뇨병과 고혈압 환자의 24시간 혈압 무작위시험 7편 메타분석에서 SGLT2 억제제는 수축기혈압을 낮췄고 다파글리플로진 하위 결과의 감소폭은 3.74 mmHg였습니다. 합산 인원은 초록에 제시되지 않았습니다.",
+ "limit": "다파글리플로진 단독 메타분석이 아니라 SGLT2 억제제 계열 분석의 하위 결과입니다. 혈압 수치 개선을 고혈압의 심혈관 사건 감소로 확대할 수 없습니다.",
+ "against": "반대 검색 66건에서 혈압 감소폭이 작거나 계열별 연구가 달라 다파글리플로진 단독 효과를 확정하기 어렵다는 결과를 확인했습니다.",
+ "use": "제2형 당뇨병 동반 고혈압의 혈압 대리지표 신호로만 참고합니다.",
+ "refs": [
+  {
+   "label": "2021 · 제2형 당뇨병·고혈압 SGLT2 억제제 혈압 메타분석",
+   "doi": "10.3760/cma.j.cn112148-20210127-00098",
+   "pmid": "34674438"
+  },
+  {
+   "label": "2021 · 혈당강하제 체중·혈압 네트워크 메타분석",
+   "doi": "10.1111/dom.14451",
+   "pmid": "34047443"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"DAPAGLIFLOZIN\" → 37건 반환; 고혈압 적응증 없음",
+  "ctgov": "query.intr=dapagliflozin&query.cond=Hypertension&countTotal=true&pageSize=1000 → 26건 반환, InterventionName exact 일치 5건",
+  "pubmed": "dapagliflozin AND \"Hypertension\" → 305건",
+  "negative": "dapagliflozin AND \"Hypertension\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 66건",
+  "safety": "dapagliflozin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,723건"
+ },
+ "vs": "다파글리플로진 vs 위약: 제2형 당뇨병·고혈압 RCT 메타분석에서 24시간 수축기 혈압은 3.74 mmHg, 이완기 혈압은 1.22 mmHg 감소했고, SGLT2 억제제 전체 감소량은 각각 4.36 및 2.20 mmHg였다."
 }
