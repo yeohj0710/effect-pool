@@ -1,26 +1,33 @@
 {
-  "id": "maraviroc-virus-diseases-pos",
-  "subj": "maraviroc",
-  "claim": "비HIV 바이러스 감염에 maraviroc를 쓴다",
-  "line": "경증 코로나19에서 마라비록 병용군의 중증 진행이 적었습니다",
-  "effect": "중환자실 0 대 3명·n=33",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 33,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "maraviroc 허가는 CCR5 향성 HIV-1 감염이며 코로나19는 허가 적응증이 아닙니다",
-  "why": "CCR5 차단의 항염증 작용이 코로나19 진행 위험을 낮추는지 소규모 사람 임상시험에서 확인합니다.",
-  "saw": "경증 폐렴 코로나19 입원자 33명이 표준치료군 17명과 maraviroc 병용군 16명으로 배정된 공개 2상시험입니다. 중환자실 입원은 대조군 3명, maraviroc군 0명이었고 maraviroc군에서는 grade 3~4 이상반응이 없었습니다.",
-  "limit": "공개시험이고 표본이 33명뿐이라 무작위·맹검 대규모 시험의 확증이 필요합니다.",
-  "against": "COVID-19 중증 진행 차이는 소규모 개념증명 결과이며 다른 바이러스 감염에 일반화할 수 없습니다.",
-  "use": "비HIV 바이러스 감염에 대한 CCR5 차단 후보의 초기 신호로만 기록합니다.",
-  "refs": [{ "label": "Maraviroc 코로나19 개념증명 2상 무작위시험", "pmid": "40744845", "nct": "NCT04441385" }],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=maraviroc AND condition=Virus Diseases; 106건 반환, 42건 직접 대조",
-    "pubmed": "maraviroc AND Virus Diseases; 1편, maraviroc SARS-CoV-2; 13편",
-    "negative": "maraviroc AND Virus Diseases AND (no effect OR did not OR failed to OR negative); 0편",
-    "safety": "maraviroc AND (adverse OR toxicity OR hepatotoxicity OR case report); 338편"
+ "id": "maraviroc-virus-diseases-pos",
+ "subj": "마라비록",
+ "claim": "비HIV 바이러스 감염에 마라비록를 쓴다",
+ "line": "경증 코로나19에서 마라비록 병용군의 중증 진행이 적었습니다",
+ "effect": "중환자실 0 대 3명·n=33",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 33,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마라비록 허가는 CCR5 향성 HIV-1 감염이며 코로나19는 허가 적응증이 아닙니다",
+ "why": "CCR5 차단의 항염증 작용이 코로나19 진행 위험을 낮추는지 소규모 사람 임상시험에서 확인합니다.",
+ "saw": "경증 폐렴 코로나19 입원자 33명이 표준치료군 17명과 마라비록 병용군 16명으로 배정된 공개 2상시험입니다. 중환자실 입원은 대조군 3명, 마라비록군 0명이었고 마라비록군에서는 grade 3~4 이상반응이 없었습니다.",
+ "limit": "공개시험이고 표본이 33명뿐이라 무작위·맹검 대규모 시험의 확증이 필요합니다.",
+ "against": "COVID-19 중증 진행 차이는 소규모 개념증명 결과이며 다른 바이러스 감염에 일반화할 수 없습니다.",
+ "use": "비HIV 바이러스 감염에 대한 CCR5 차단 후보의 초기 신호로만 기록합니다.",
+ "refs": [
+  {
+   "label": "Maraviroc 코로나19 개념증명 2상 무작위시험",
+   "pmid": "40744845",
+   "nct": "NCT04441385"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=maraviroc AND condition=Virus Diseases; 106건 반환, 42건 직접 대조",
+  "pubmed": "maraviroc AND Virus Diseases; 1편, maraviroc SARS-CoV-2; 13편",
+  "negative": "maraviroc AND Virus Diseases AND (no effect OR did not OR failed to OR negative); 0편",
+  "safety": "maraviroc AND (adverse OR toxicity OR hepatotoxicity OR case report); 338편"
+ },
+ "vs": "마라비록+표준치료 vs 표준치료: 입원 비중증 COVID-19 공개 무작위 연구 33명에서 중증 진행은 대조군이 마라비록군보다 2.8배 많았고, ICU 입원은 3명 vs 0명이었다."
 }

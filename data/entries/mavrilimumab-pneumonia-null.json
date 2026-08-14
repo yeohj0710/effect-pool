@@ -1,29 +1,39 @@
 {
-  "id": "mavrilimumab-pneumonia-null",
-  "subj": "mavrilimumab",
-  "claim": "중증 코로나 폐렴에 mavrilimumab를 쓴다",
-  "line": "중증 코로나 폐렴에서 마브릴리무맙은 산소 공급 없이 생존을 유의하게 늘리지 못했습니다",
-  "effect": "14일 산소 없이 생존 57% 대 47%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "mavrilimumab은 코로나 폐렴의 허가 치료 적응증이 아닙니다",
-  "why": "GM-CSF 수용체 차단이 코로나 폐렴의 과도한 염증과 호흡부전을 줄이는지 무작위 시험으로 확인합니다.",
-  "saw": "중증 코로나 폐렴 환자 40명이 mavrilimumab 21명과 위약 19명으로 배정됐습니다. 14일 산소 없이 생존은 57% 대 47%였고 OR 1.48, P=.76이었습니다.",
-  "limit": "계획한 60명보다 적게 등록해 조기 종료됐고 신뢰구간이 넓습니다.",
-  "against": "14일 산소 없이 생존과 안전성에서 유의한 군 간 차이가 없었습니다.",
-  "use": "중증 코로나 폐렴의 표준치료를 대신하지 않는 연구 단계 중재로만 검토합니다.",
-  "refs": [
-    { "label": "Cremer 2021 · MASH-COVID mavrilimumab 무작위시험", "doi": "10.1016/S2665-9913(21)00070-9", "pmid": "33754144", "pmc": "PMC7969143", "nct": "NCT04399980" },
-    { "label": "mavrilimumab 중증 코로나 폐렴 공개 코호트", "pmid": "32835256" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=mavrilimumab AND Pneumonia; 4건; NCT04399980·NCT04492514 대조",
-    "pubmed": "mavrilimumab COVID pneumonia randomized; 3건; PMID33754144",
-    "negative": "mavrilimumab COVID pneumonia no significant difference; 산소 없이 생존 P=.76 확인",
-    "safety": "mavrilimumab COVID pneumonia adverse events; 치료 관련 사망 없음·이상반응 유사 확인"
+ "id": "mavrilimumab-pneumonia-null",
+ "subj": "마브릴리무맙",
+ "claim": "중증 코로나 폐렴에 마브릴리무맙를 쓴다",
+ "line": "중증 코로나 폐렴에서 마브릴리무맙은 산소 공급 없이 생존을 유의하게 늘리지 못했습니다",
+ "effect": "14일 산소 없이 생존 57% 대 47%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마브릴리무맙은 코로나 폐렴의 허가 치료 적응증이 아닙니다",
+ "why": "GM-CSF 수용체 차단이 코로나 폐렴의 과도한 염증과 호흡부전을 줄이는지 무작위 시험으로 확인합니다.",
+ "saw": "중증 코로나 폐렴 환자 40명이 마브릴리무맙 21명과 위약 19명으로 배정됐습니다. 14일 산소 없이 생존은 57% 대 47%였고 OR 1.48, P=.76이었습니다.",
+ "limit": "계획한 60명보다 적게 등록해 조기 종료됐고 신뢰구간이 넓습니다.",
+ "against": "14일 산소 없이 생존과 안전성에서 유의한 군 간 차이가 없었습니다.",
+ "use": "중증 코로나 폐렴의 표준치료를 대신하지 않는 연구 단계 중재로만 검토합니다.",
+ "refs": [
+  {
+   "label": "Cremer 2021 · MASH-COVID mavrilimumab 무작위시험",
+   "doi": "10.1016/S2665-9913(21)00070-9",
+   "pmid": "33754144",
+   "pmc": "PMC7969143",
+   "nct": "NCT04399980"
+  },
+  {
+   "label": "mavrilimumab 중증 코로나 폐렴 공개 코호트",
+   "pmid": "32835256"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=mavrilimumab AND Pneumonia; 4건; NCT04399980·NCT04492514 대조",
+  "pubmed": "mavrilimumab COVID pneumonia randomized; 3건; PMID33754144",
+  "negative": "mavrilimumab COVID pneumonia no significant difference; 산소 없이 생존 P=.76 확인",
+  "safety": "mavrilimumab COVID pneumonia adverse events; 치료 관련 사망 없음·이상반응 유사 확인"
+ },
+ "vs": "마브릴리무맙 vs 위약: 중증 COVID-19 폐렴 이중맹검 RCT 40명에서 14일 생존·무산소보충률은 57% vs 47%, OR 1.48(95% CI 0.43~5.16; P=.76)였다."
 }

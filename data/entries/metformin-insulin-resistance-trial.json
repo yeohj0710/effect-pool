@@ -1,35 +1,35 @@
 {
-  "id": "metformin-insulin-resistance-trial",
-  "subj": "메트포르민",
-  "claim": "인슐린 저항성을 줄인다",
-  "line": "당뇨 전단계에서 메트포르민은 운동보다 인슐린 저항성 개선 효과가 작았습니다",
-  "effect": "HOMA-IR↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 54,
-  "synth": "single",
-  "why": "연구진이 당뇨 전단계 성인을 메트포르민, 운동, 위약에 무작위로 나누고 인슐린 저항성을 비교했습니다.",
-  "saw": "54명이 배정되고 49명이 추적을 마쳤습니다. 메트포르민군은 위약군보다 HOMA-IR가 유의하게 줄었지만 운동군보다 감소 폭이 작았습니다.",
-  "limit": "나이지리아 성인 한 소규모 시험의 HOMA-IR이라는 대리지표를 본 결과라서 당뇨 발생이나 심혈관 사건을 줄인다는 뜻은 아닙니다. 추적 기간과 대상이 제한적입니다.",
-  "against": "제1형 당뇨병 성인 40명을 무작위로 나눈 별도 시험에서는 메트포르민과 위약 사이에 간 인슐린 저항성 변화가 없었습니다. 인슐린 저항성의 원인과 대상에 따라 결과가 달라질 수 있습니다.",
-  "use": "메트포르민의 인슐린 저항성 개선 신호는 당뇨 전단계 성인에서 관찰됐지만, 모든 인슐린 저항성 상태에 같은 효과가 난다고 읽으면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Adebayo 2024 · Niger Postgrad Med J · 당뇨 전단계 무작위시험",
-      "pmid": "39219352"
-    },
-    {
-      "label": "Pinnick 2025 · Nat Commun · 제1형 당뇨병 인슐린 저항성 음성시험",
-      "doi": "10.1038/s41467-025-65951-1",
-      "pmid": "41285865",
-      "pmc": "PMC12644478"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=metformin&query.cond=insulin resistance → 261건 반환, InterventionName에 metformin 포함 211건",
-    "pubmed": "metformin AND \"insulin resistance\" → 5,207건",
-    "negative": "metformin AND \"insulin resistance\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 903건",
-    "safety": "metformin AND \"insulin resistance\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,181건"
+ "id": "metformin-insulin-resistance-trial",
+ "subj": "메트포르민",
+ "claim": "인슐린 저항성을 줄인다",
+ "line": "당뇨 전단계에서 메트포르민은 운동보다 인슐린 저항성 개선 효과가 작았습니다",
+ "effect": "HOMA-IR↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 54,
+ "synth": "single",
+ "why": "연구진이 당뇨 전단계 성인을 메트포르민, 운동, 위약에 무작위로 나누고 인슐린 저항성을 비교했습니다.",
+ "saw": "54명이 배정되고 49명이 추적을 마쳤습니다. 메트포르민군은 위약군보다 HOMA-IR가 유의하게 줄었지만 운동군보다 감소 폭이 작았습니다.",
+ "limit": "나이지리아 성인 한 소규모 시험의 HOMA-IR이라는 대리지표를 본 결과라서 당뇨 발생이나 심혈관 사건을 줄인다는 뜻은 아닙니다. 추적 기간과 대상이 제한적입니다.",
+ "against": "제1형 당뇨병 성인 40명을 무작위로 나눈 별도 시험에서는 메트포르민과 위약 사이에 간 인슐린 저항성 변화가 없었습니다. 인슐린 저항성의 원인과 대상에 따라 결과가 달라질 수 있습니다.",
+ "use": "메트포르민의 인슐린 저항성 개선 신호는 당뇨 전단계 성인에서 관찰됐지만, 모든 인슐린 저항성 상태에 같은 효과가 난다고 읽으면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Adebayo 2024 · Niger Postgrad Med J · 당뇨 전단계 무작위시험",
+   "pmid": "39219352"
+  },
+  {
+   "label": "Pinnick 2025 · Nat Commun · 제1형 당뇨병 인슐린 저항성 음성시험",
+   "doi": "10.1038/s41467-025-65951-1",
+   "pmid": "41285865",
+   "pmc": "PMC12644478"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=metformin&query.cond=insulin resistance → 261건 반환, InterventionName에 metformin 포함 211건",
+  "pubmed": "metformin AND \"insulin resistance\" → 5,207건",
+  "negative": "metformin AND \"insulin resistance\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 903건",
+  "safety": "metformin AND \"insulin resistance\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 1,181건"
+ }
 }

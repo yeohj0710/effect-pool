@@ -1,27 +1,33 @@
 {
-  "id": "metformin-pcos-open",
-  "subj": "메트포르민",
-  "claim": "메트포르민이 다낭성난소증후군을 치료한다",
-  "line": "다낭성난소증후군에서 메트포르민은 대사 개선 신호가 있었지만 근거 질은 낮았습니다",
-  "tier": "trial",
-  "dir": "open",
-  "n": 462,
-  "synth": "meta",
-  "why": "다낭성난소증후군에서 메트포르민을 다른 인슐린 감작제 또는 대조 치료와 비교한 무작위시험 메타분석이 있다.",
-  "saw": "8개 무작위시험 462명을 합친 메타분석에서 GLP-1 수용체 작용제가 메트포르민보다 인슐린 감수성과 체질량지수를 더 개선했지만 근거의 질은 중간 이하로 평가되었다. 다른 메타분석에서는 이노시톨이 대부분의 결과에서 메트포르민에 열등하지 않았다.",
-  "limit": "비교약과 결과 지표가 연구마다 다르고 다낭성난소증후군의 장기 임신·심혈관 결과를 일관되게 평가하지 않았다.",
-  "against": "GLP-1 수용체 작용제가 일부 대사 지표에서 메트포르민보다 우수했고, 전체 근거의 질이 낮거나 중간 수준이었다.",
-  "use": "다낭성난소증후군의 대사 지표와 생식 결과를 나누어 해석하고 비교 치료의 근거 수준을 확인해야 한다.",
-  "refs": [
-    { "label": "다낭성난소증후군의 GLP-1 수용체 작용제·메트포르민 메타분석", "pmid": "31229399" },
-    { "label": "다낭성난소증후군의 이노시톨·메트포르민 무작위시험 메타분석", "pmid": "36703143" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:METFORMIN — 387건; 허가 문구는 제2형 당뇨병 혈당 조절이며 다낭성난소증후군은 비허가 적응증으로 분류",
-    "ctgov": "ClinicalTrials.gov v2 query.intr=metformin&query.cond=Polycystic%20Ovary%20Syndrom — 전체 2건, intervention 이름에 metformin이 일치한 2건",
-    "pubmed": "metformin Polycystic Ovary Syndrom — 2540건",
-    "negative": "metformin Polycystic Ovary Syndrom AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) — 1910건",
-    "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 10709건"
+ "id": "metformin-pcos-open",
+ "subj": "메트포르민",
+ "claim": "메트포르민이 다낭성난소증후군을 치료한다",
+ "line": "다낭성난소증후군에서 메트포르민은 대사 개선 신호가 있었지만 근거 질은 낮았습니다",
+ "tier": "trial",
+ "dir": "open",
+ "n": 462,
+ "synth": "meta",
+ "why": "다낭성난소증후군에서 메트포르민을 다른 인슐린 감작제 또는 대조 치료와 비교한 무작위시험 메타분석이 있다.",
+ "saw": "8개 무작위시험 462명을 합친 메타분석에서 GLP-1 수용체 작용제가 메트포르민보다 인슐린 감수성과 체질량지수를 더 개선했지만 근거의 질은 중간 이하로 평가되었다. 다른 메타분석에서는 이노시톨이 대부분의 결과에서 메트포르민에 열등하지 않았다.",
+ "limit": "비교약과 결과 지표가 연구마다 다르고 다낭성난소증후군의 장기 임신·심혈관 결과를 일관되게 평가하지 않았다.",
+ "against": "GLP-1 수용체 작용제가 일부 대사 지표에서 메트포르민보다 우수했고, 전체 근거의 질이 낮거나 중간 수준이었다.",
+ "use": "다낭성난소증후군의 대사 지표와 생식 결과를 나누어 해석하고 비교 치료의 근거 수준을 확인해야 한다.",
+ "refs": [
+  {
+   "label": "다낭성난소증후군의 GLP-1 수용체 작용제·메트포르민 메타분석",
+   "pmid": "31229399"
+  },
+  {
+   "label": "다낭성난소증후군의 이노시톨·메트포르민 무작위시험 메타분석",
+   "pmid": "36703143"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:METFORMIN — 387건; 허가 문구는 제2형 당뇨병 혈당 조절이며 다낭성난소증후군은 비허가 적응증으로 분류",
+  "ctgov": "ClinicalTrials.gov v2 query.intr=metformin&query.cond=Polycystic%20Ovary%20Syndrom — 전체 2건, intervention 이름에 metformin이 일치한 2건",
+  "pubmed": "metformin Polycystic Ovary Syndrom — 2540건",
+  "negative": "metformin Polycystic Ovary Syndrom AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) — 1910건",
+  "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) — 10709건"
+ }
 }

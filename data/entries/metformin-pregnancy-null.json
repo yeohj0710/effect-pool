@@ -1,31 +1,31 @@
 {
-  "id": "metformin-pregnancy-null",
-  "subj": "metformin",
-  "claim": "메트포르민이 PCOS 여성의 임신 결과를 개선한다",
-  "line": "다낭성난소증후군 여성에서 메트포르민은 임신률을 높였지만 유산 감소는 불확실했습니다",
-  "effect": "임상 임신 OR 1.57배",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1708,
-  "synth": "meta",
-  "why": "메트포르민의 허가사항은 제2형 당뇨병 혈당 조절이며 임신 적응증은 아닙니다.",
-  "saw": "12개 신뢰할 수 있는 시험 1708명 메타분석에서 임상 임신 OR은 1.57(95% CI 1.11–2.23), 유산 OR은 0.64(0.32–1.25), 출생 OR은 1.24(0.59–2.61)였습니다.",
-  "limit": "12개 연구의 질은 낮음~중간이었고 유산·출생 결과의 신뢰구간은 1을 포함했습니다.",
-  "against": "유산과 출생률의 통합 추정치는 모두 통계적으로 유의하지 않았습니다.",
-  "use": "PCOS의 임신 결과에 대한 메타분석 근거로 사용하며 임신 전후 안전성 전체를 뜻하지 않습니다.",
-  "refs": [
-    {
-      "label": "Cheshire 2025 · American Journal of Obstetrics and Gynecology · 임신 결과 메타분석",
-      "doi": "10.1016/j.ajog.2025.05.038",
-      "pmid": "40473092"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
-    "ctgov": "query.intr=metformin&query.cond=Pregnancy → 365건 반환, 조건 묶음 후보 12건",
-    "pubmed": "metformin AND pregnancy → 1954건",
-    "negative": "metformin AND pregnancy AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 1320건",
-    "safety": "metformin AND pregnancy AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 665건"
+ "id": "metformin-pregnancy-null",
+ "subj": "메트포르민",
+ "claim": "메트포르민이 PCOS 여성의 임신 결과를 개선한다",
+ "line": "다낭성난소증후군 여성에서 메트포르민은 임신률을 높였지만 유산 감소는 불확실했습니다",
+ "effect": "임상 임신 OR 1.57배",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1708,
+ "synth": "meta",
+ "why": "메트포르민의 허가사항은 제2형 당뇨병 혈당 조절이며 임신 적응증은 아닙니다.",
+ "saw": "12개 신뢰할 수 있는 시험 1708명 메타분석에서 임상 임신 OR은 1.57(95% CI 1.11–2.23), 유산 OR은 0.64(0.32–1.25), 출생 OR은 1.24(0.59–2.61)였습니다.",
+ "limit": "12개 연구의 질은 낮음~중간이었고 유산·출생 결과의 신뢰구간은 1을 포함했습니다.",
+ "against": "유산과 출생률의 통합 추정치는 모두 통계적으로 유의하지 않았습니다.",
+ "use": "PCOS의 임신 결과에 대한 메타분석 근거로 사용하며 임신 전후 안전성 전체를 뜻하지 않습니다.",
+ "refs": [
+  {
+   "label": "Cheshire 2025 · American Journal of Obstetrics and Gynecology · 임신 결과 메타분석",
+   "doi": "10.1016/j.ajog.2025.05.038",
+   "pmid": "40473092"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
+  "ctgov": "query.intr=metformin&query.cond=Pregnancy → 365건 반환, 조건 묶음 후보 12건",
+  "pubmed": "metformin AND pregnancy → 1954건",
+  "negative": "metformin AND pregnancy AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 1320건",
+  "safety": "metformin AND pregnancy AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 665건"
+ }
 }

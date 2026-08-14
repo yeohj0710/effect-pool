@@ -1,29 +1,38 @@
 {
-  "id": "megestrol-acetate-cachexia-null",
-  "subj": "메게스트롤 아세테이트",
-  "claim": "메게스트롤은 암성 악액질의 체중을 일관되게 개선하지 못한다",
-  "line": "암성 악액질에서 메게스트롤의 체중 개선은 일관되지 않았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "암성 악액질은 메게스트롤 현탁액의 허가 적응증인 AIDS 관련 소모와 다름",
-  "why": "프로게스틴의 식욕·체중 증가 부작용을 암성 악액질의 증상 완화에 전용한 사용입니다.",
-  "saw": "암성 식욕부진·악액질 임상시험 23개 중 체중 자료가 충분한 8개를 통합한 메타분석에서 전체 체중 변화는 0.75 kg(95% CI -1.64~3.15)이었고 고용량군은 오히려 체중 감소 경향을 보였습니다.",
-  "limit": "연구 간 이질성이 매우 높고 무작위시험의 편향 위험이 중간에서 높았으며 생존·삶의 질 자료가 부족했습니다.",
-  "against": "이전 메타분석에서는 위약보다 식욕·체중 증가가 있었지만 생존은 개선하지 않았고 혈전 위험이 문제였습니다.",
-  "use": "암성 악액질에서 체중 숫자만 늘리기보다 기능·삶의 질과 혈전 위험을 함께 평가해야 합니다.",
-  "effect": "체중 유의한 개선 없음",
-  "refs": [
-    { "label": "Lim 2022 · Journal of Clinical Medicine · 암성 식욕부진·악액질 메게스트롤 메타분석", "doi": "10.3390/jcm11133756", "pmid": "35807039", "pmc": "PMC9267332" },
-    { "label": "Leśniak 2008 · Polish Archives of Internal Medicine · 암성 악액질 메타분석", "pmid": "19140567" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=megestrol acetate, cond=Cachexia → 33건 반환·31건 직접 확인",
-    "pubmed": "megestrol acetate AND Cachexia → 256건",
-    "negative": "megestrol acetate AND Cachexia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 207건",
-    "safety": "megestrol acetate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 754건"
+ "id": "megestrol-acetate-cachexia-null",
+ "subj": "메게스트롤 아세테이트",
+ "claim": "메게스트롤은 암성 악액질의 체중을 일관되게 개선하지 못한다",
+ "line": "암성 악액질에서 메게스트롤의 체중 개선은 일관되지 않았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "암성 악액질은 메게스트롤 현탁액의 허가 적응증인 AIDS 관련 소모와 다름",
+ "why": "프로게스틴의 식욕·체중 증가 부작용을 암성 악액질의 증상 완화에 전용한 사용입니다.",
+ "saw": "암성 식욕부진·악액질 임상시험 23개 중 체중 자료가 충분한 8개를 통합한 메타분석에서 전체 체중 변화는 0.75 kg(95% CI -1.64~3.15)이었고 고용량군은 오히려 체중 감소 경향을 보였습니다.",
+ "limit": "연구 간 이질성이 매우 높고 무작위시험의 편향 위험이 중간에서 높았으며 생존·삶의 질 자료가 부족했습니다.",
+ "against": "이전 메타분석에서는 위약보다 식욕·체중 증가가 있었지만 생존은 개선하지 않았고 혈전 위험이 문제였습니다.",
+ "use": "암성 악액질에서 체중 숫자만 늘리기보다 기능·삶의 질과 혈전 위험을 함께 평가해야 합니다.",
+ "effect": "체중 유의한 개선 없음",
+ "refs": [
+  {
+   "label": "Lim 2022 · Journal of Clinical Medicine · 암성 식욕부진·악액질 메게스트롤 메타분석",
+   "doi": "10.3390/jcm11133756",
+   "pmid": "35807039",
+   "pmc": "PMC9267332"
+  },
+  {
+   "label": "Leśniak 2008 · Polish Archives of Internal Medicine · 암성 악액질 메타분석",
+   "pmid": "19140567"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=megestrol acetate, cond=Cachexia → 33건 반환·31건 직접 확인",
+  "pubmed": "megestrol acetate AND Cachexia → 256건",
+  "negative": "megestrol acetate AND Cachexia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 207건",
+  "safety": "megestrol acetate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 754건"
+ },
+ "vs": "메게스트롤 아세테이트 vs 위약 또는 다른 치료: 암 악액질 메타분석에서 위약 대비 식욕 개선 NNT 3, 체중 증가 NNT 8이었고, 23개 임상시험 체중 변화 pooled 평균은 0.75kg(95% CI -1.64~3.15)였다."
 }

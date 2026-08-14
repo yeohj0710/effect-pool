@@ -1,28 +1,33 @@
 {
-  "id": "medroxyprogesterone-cardiovascular-disease-harm",
-  "subj": "medroxyprogesterone",
-  "claim": "에스트로겐·메드록시프로게스테론 병용은 건강한 폐경 후 여성의 심혈관질환 예방에 이롭지 않고 위험을 늘렸다",
-  "line": "병용 호르몬요법은 폐경 후 여성의 심혈관질환 위험을 높였습니다",
-  "effect": "심혈관질환 HR 1.22",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 16608,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "메드록시프로게스테론 병용은 심혈관질환 1차 예방의 허가 적응증이 아니다",
-  "why": "여성건강이니셔티브 무작위시험에서 에스트로겐·메드록시프로게스테론과 위약의 이득과 위험을 비교했다.",
-  "saw": "폐경 후 여성 16608명을 평균 5.2년 추적했다. 병용 호르몬의 전체 심혈관질환 HR은 1.22였고 관상동맥질환 HR은 1.29였다.",
-  "limit": "미국 폐경 후 여성의 특정 제제와 용량을 평가한 결과라 다른 호르몬 제제에 그대로 적용할 수 없다.",
-  "against": "대장암과 골절은 줄었지만 뇌졸중·폐색전·유방암 위험이 증가해 전체 위험이 이득을 넘었다.",
-  "use": "호르몬 병용을 만성 심혈관질환 예방에 쓰지 않은 근거로 기록한다.",
-  "refs": [
-    { "label": "Rossouw 2002 · JAMA · 여성건강이니셔티브 무작위시험", "doi": "10.1001/jama.288.3.321", "pmid": "12117397" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=medroxyprogesterone, cond=Cardiovascular Disease · 15건",
-    "pubmed": "medroxyprogesterone AND Cardiovascular Disease · 879편",
-    "negative": "medroxyprogesterone AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 774편",
-    "safety": "medroxyprogesterone AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 3254편"
+ "id": "medroxyprogesterone-cardiovascular-disease-harm",
+ "subj": "메드록시프로게스테론",
+ "claim": "에스트로겐·메드록시프로게스테론 병용은 건강한 폐경 후 여성의 심혈관질환 예방에 이롭지 않고 위험을 늘렸다",
+ "line": "병용 호르몬요법은 폐경 후 여성의 심혈관질환 위험을 높였습니다",
+ "effect": "심혈관질환 HR 1.22",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 16608,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "메드록시프로게스테론 병용은 심혈관질환 1차 예방의 허가 적응증이 아니다",
+ "why": "여성건강이니셔티브 무작위시험에서 에스트로겐·메드록시프로게스테론과 위약의 이득과 위험을 비교했다.",
+ "saw": "폐경 후 여성 16608명을 평균 5.2년 추적했다. 병용 호르몬의 전체 심혈관질환 HR은 1.22였고 관상동맥질환 HR은 1.29였다.",
+ "limit": "미국 폐경 후 여성의 특정 제제와 용량을 평가한 결과라 다른 호르몬 제제에 그대로 적용할 수 없다.",
+ "against": "대장암과 골절은 줄었지만 뇌졸중·폐색전·유방암 위험이 증가해 전체 위험이 이득을 넘었다.",
+ "use": "호르몬 병용을 만성 심혈관질환 예방에 쓰지 않은 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Rossouw 2002 · JAMA · 여성건강이니셔티브 무작위시험",
+   "doi": "10.1001/jama.288.3.321",
+   "pmid": "12117397"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=medroxyprogesterone, cond=Cardiovascular Disease · 15건",
+  "pubmed": "medroxyprogesterone AND Cardiovascular Disease · 879편",
+  "negative": "medroxyprogesterone AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 774편",
+  "safety": "medroxyprogesterone AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 3254편"
+ },
+ "vs": "에스트로겐+메드록시프로게스테론 vs 위약: 여성건강계획 RCT 16,608명에서 관상동맥질환 HR 1.29(95% CI 1.02~1.63), 뇌졸중 HR 1.41(1.07~1.85), 폐색전 HR 2.13(1.39~3.25), 유방암 HR 1.26(1.00~1.59)였다."
 }

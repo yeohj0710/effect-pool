@@ -1,26 +1,31 @@
 {
-  "id": "meropenem-sepsis-null",
-  "subj": "메로페넴",
-  "claim": "메로페넴이 패혈증을 치료한다",
-  "line": "패혈증에서 메로페넴 투여 방식에 따른 사망 차이는 없었습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 607,
-  "synth": "single",
-  "why": "중환자 패혈증에서 메로페넴을 연속 투여할 때 간헐 투여보다 임상 결과가 나아지는지 평가한 무작위시험이 있습니다.",
-  "saw": "MERCY 시험(NCT03452839·PMID 37326473)은 패혈증 또는 패혈성 쇼크 환자 607명을 무작위 배정했습니다. 28일 복합 결과는 연속 투여군 47%, 간헐 투여군 49%로 차이가 없었고 90일 사망률도 두 군에서 같았습니다.",
-  "limit": "두 투여 방식을 비교한 시험이지 항생제 미투여나 다른 계열과 비교한 메로페넴의 패혈증 치료효과 시험이 아닙니다. 중환자 패혈증에 한정됩니다.",
-  "against": "주요 복합 결과와 90일 사망률에서 유의한 차이가 없었고, 반대 검색 1098건과 안전성 검색 634건을 확인했습니다.",
-  "use": "중환자 패혈증에서 투여 방식 비교 결과로만 기록하고 메로페넴 자체의 우월한 치료효과로 확대하지 말아야 합니다.",
-  "refs": [
-    { "label": "MERCY · 패혈증에서 메로페넴 연속·간헐 투여 무작위시험", "pmid": "37326473", "nct": "NCT03452839" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"MEROPENEM\" → 26건 반환; 허가 문구는 복잡성 피부·복강 감염과 소아 세균성 수막염이며 패혈증 적응증 없음",
-    "ctgov": "query.intr=meropenem&query.cond=Sepsis → 63건 반환, InterventionName 대조 후 37건",
-    "pubmed": "meropenem Sepsis → 1556건",
-    "negative": "meropenem Sepsis (no effect OR did not OR failed to OR negative OR no significant difference) → 1098건",
-    "safety": "meropenem Sepsis (adverse OR toxicity OR case report) → 634건"
+ "id": "meropenem-sepsis-null",
+ "subj": "메로페넴",
+ "claim": "메로페넴이 패혈증을 치료한다",
+ "line": "패혈증에서 메로페넴 투여 방식에 따른 사망 차이는 없었습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 607,
+ "synth": "single",
+ "why": "중환자 패혈증에서 메로페넴을 연속 투여할 때 간헐 투여보다 임상 결과가 나아지는지 평가한 무작위시험이 있습니다.",
+ "saw": "MERCY 시험(NCT03452839·PMID 37326473)은 패혈증 또는 패혈성 쇼크 환자 607명을 무작위 배정했습니다. 28일 복합 결과는 연속 투여군 47%, 간헐 투여군 49%로 차이가 없었고 90일 사망률도 두 군에서 같았습니다.",
+ "limit": "두 투여 방식을 비교한 시험이지 항생제 미투여나 다른 계열과 비교한 메로페넴의 패혈증 치료효과 시험이 아닙니다. 중환자 패혈증에 한정됩니다.",
+ "against": "주요 복합 결과와 90일 사망률에서 유의한 차이가 없었고, 반대 검색 1098건과 안전성 검색 634건을 확인했습니다.",
+ "use": "중환자 패혈증에서 투여 방식 비교 결과로만 기록하고 메로페넴 자체의 우월한 치료효과로 확대하지 말아야 합니다.",
+ "refs": [
+  {
+   "label": "MERCY · 패혈증에서 메로페넴 연속·간헐 투여 무작위시험",
+   "pmid": "37326473",
+   "nct": "NCT03452839"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"MEROPENEM\" → 26건 반환; 허가 문구는 복잡성 피부·복강 감염과 소아 세균성 수막염이며 패혈증 적응증 없음",
+  "ctgov": "query.intr=meropenem&query.cond=Sepsis → 63건 반환, InterventionName 대조 후 37건",
+  "pubmed": "meropenem Sepsis → 1556건",
+  "negative": "meropenem Sepsis (no effect OR did not OR failed to OR negative OR no significant difference) → 1098건",
+  "safety": "meropenem Sepsis (adverse OR toxicity OR case report) → 634건"
+ },
+ "vs": "지속 주입 메로페넴 vs 간헐 주입: 패혈증 중환자 607명 MERCY RCT에서 28일 사망 또는 내성균 발생은 47% vs 49%, RR 0.96(95% CI 0.81~1.13; P=.60), 90일 사망은 42% vs 42%였다."
 }

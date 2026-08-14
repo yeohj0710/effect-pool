@@ -1,32 +1,33 @@
 {
-  "id": "metformin-insulin-resistance-null",
-  "subj": "메트포르민",
-  "claim": "메트포르민을 인슐린 저항성에 쓴다",
-  "line": "과체중 소아·청소년에서 메트포르민은 인슐린 저항성을 개선하지 못했습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 865,
-  "synth": "meta",
-  "why": "과체중·비만 소아와 청소년 무작위시험 11편을 합친 메타분석에서 메트포르민의 인슐린 저항성을 평가했습니다.",
-  "saw": "11개 시험 865명에서 메트포르민과 생활습관 중재는 HOMA-IR, 공복혈당, HDL을 유의하게 개선하지 못했고 LDL만 낮췄습니다.",
-  "limit": "연령 4~18세의 과체중·비만군에 한정됐고 시험 기간과 생활습관 중재가 달랐습니다. 인슐린 저항성 지표는 임상 당뇨병 사건과 다릅니다.",
-  "against": "다른 성인·다낭성난소증후군 연구에서는 인슐린 지표가 좋아진 결과도 있어 대상과 대리지표에 따라 결과가 달랐습니다.",
-  "use": "과체중 소아·청소년의 인슐린 저항성 개선 목적으로 메트포르민을 표시할 근거는 일관되지 않습니다.",
-  "refs": [
-    {
-      "label": "2019 · 과체중·비만 소아·청소년 인슐린 저항성 메트포르민 메타분석",
-      "pmid": "30681616"
-    },
-    {
-      "label": "2022 · 메트포르민과 인슐린 저항성 기전 고찰",
-      "pmid": "35163187"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=metformin&query.cond=Insulin Resistance → 261건 반환, InterventionName에 metformin 포함 79건",
-    "pubmed": "metformin Insulin Resistance → 5,650건",
-    "negative": "metformin Insulin Resistance AND (no effect OR did not OR failed to OR negative OR no significant difference) → 4,470건",
-    "safety": "metformin Insulin Resistance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,421건"
+ "id": "metformin-insulin-resistance-null",
+ "subj": "메트포르민",
+ "claim": "메트포르민을 인슐린 저항성에 쓴다",
+ "line": "과체중 소아·청소년에서 메트포르민은 인슐린 저항성을 개선하지 못했습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 865,
+ "synth": "meta",
+ "why": "과체중·비만 소아와 청소년 무작위시험 11편을 합친 메타분석에서 메트포르민의 인슐린 저항성을 평가했습니다.",
+ "saw": "11개 시험 865명에서 메트포르민과 생활습관 중재는 HOMA-IR, 공복혈당, HDL을 유의하게 개선하지 못했고 LDL만 낮췄습니다.",
+ "limit": "연령 4~18세의 과체중·비만군에 한정됐고 시험 기간과 생활습관 중재가 달랐습니다. 인슐린 저항성 지표는 임상 당뇨병 사건과 다릅니다.",
+ "against": "다른 성인·다낭성난소증후군 연구에서는 인슐린 지표가 좋아진 결과도 있어 대상과 대리지표에 따라 결과가 달랐습니다.",
+ "use": "과체중 소아·청소년의 인슐린 저항성 개선 목적으로 메트포르민을 표시할 근거는 일관되지 않습니다.",
+ "refs": [
+  {
+   "label": "2019 · 과체중·비만 소아·청소년 인슐린 저항성 메트포르민 메타분석",
+   "pmid": "30681616"
+  },
+  {
+   "label": "2022 · 메트포르민과 인슐린 저항성 기전 고찰",
+   "pmid": "35163187"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=metformin&query.cond=Insulin Resistance → 261건 반환, InterventionName에 metformin 포함 79건",
+  "pubmed": "metformin Insulin Resistance → 5,650건",
+  "negative": "metformin Insulin Resistance AND (no effect OR did not OR failed to OR negative OR no significant difference) → 4,470건",
+  "safety": "metformin Insulin Resistance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,421건"
+ },
+ "vs": "메트포르민+생활습관 vs 위약+생활습관: 과체중·비만 소아청소년 11개 RCT, 865명 메타분석에서 LDL-C 평균차 -4.29(95% CI -7.45~-1.12)였지만 인슐린 저항성·공복혈당에는 뚜렷한 차이가 없었다."
 }

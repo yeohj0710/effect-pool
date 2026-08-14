@@ -1,36 +1,36 @@
 {
-  "id": "metformin-obesity-pos",
-  "subj": "메트포르민",
-  "claim": "메트포르민이 비만을 치료한다",
-  "line": "비당뇨 비만 여성에서 메트포르민은 체질량지수를 더 줄였습니다",
-  "effect": "BMI 감소폭↑",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 46,
-  "synth": "single",
-  "why": "허가사항은 제2형 당뇨병의 혈당 조절이며 비만 치료가 아닙니다. 비당뇨 비만 여성에게 메트포르민을 위약과 비교한 무작위시험이 있습니다.",
-  "saw": "PMID 30540558은 비당뇨 비만 여성 46명을 무작위 배정했습니다. 메트포르민군과 위약군 모두 생활요법을 병행했고, 분석을 마친 20명과 16명에서 메트포르민군의 체질량지수 감소폭이 더 컸습니다.",
-  "limit": "소규모 단기 시험이고 두 군 모두 생활요법을 병행했습니다. 체질량지수와 인슐린 변화를 본 결과라 모든 비만 환자의 장기 체중이나 건강 결과로 일반화할 수 없습니다.",
-  "against": "반대 검색 3,870건을 확인했습니다. 19개 무작위시험 메타분석은 체질량지수와 체중에는 효과를 보였지만 아디포넥틴과 레지스틴에는 차이가 없다고 했습니다.",
-  "use": "메트포르민의 비만 근거는 특정 비당뇨 비만 여성 시험에서 체질량지수가 줄어든 결과로 기록해야 합니다.",
-  "refs": [
-    {
-      "label": "2019 · 비당뇨 비만 여성 메트포르민 무작위시험",
-      "doi": "10.1530/EJE-18-0826",
-      "pmid": "30540558"
-    },
-    {
-      "label": "2026 · 소아 과체중·비만 메트포르민 무작위시험 메타분석",
-      "doi": "10.1136/archdischild-2025-328782",
-      "pmid": "41285564"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"METFORMIN\" → 387건 반환; 허가 문구는 제2형 당뇨병 혈당 조절이며 비만 적응증 없음",
-    "ctgov": "query.intr=metformin&query.cond=Obesity&countTotal=true&pageSize=100 → 265건 반환, InterventionName 대조 후 197건",
-    "pubmed": "metformin Obesity → 5,300건",
-    "negative": "metformin Obesity (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 3,870건",
-    "safety": "metformin Obesity (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 1,328건"
+ "id": "metformin-obesity-pos",
+ "subj": "메트포르민",
+ "claim": "메트포르민이 비만을 치료한다",
+ "line": "비당뇨 비만 여성에서 메트포르민은 체질량지수를 더 줄였습니다",
+ "effect": "BMI 감소폭↑",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 46,
+ "synth": "single",
+ "why": "허가사항은 제2형 당뇨병의 혈당 조절이며 비만 치료가 아닙니다. 비당뇨 비만 여성에게 메트포르민을 위약과 비교한 무작위시험이 있습니다.",
+ "saw": "PMID 30540558은 비당뇨 비만 여성 46명을 무작위 배정했습니다. 메트포르민군과 위약군 모두 생활요법을 병행했고, 분석을 마친 20명과 16명에서 메트포르민군의 체질량지수 감소폭이 더 컸습니다.",
+ "limit": "소규모 단기 시험이고 두 군 모두 생활요법을 병행했습니다. 체질량지수와 인슐린 변화를 본 결과라 모든 비만 환자의 장기 체중이나 건강 결과로 일반화할 수 없습니다.",
+ "against": "반대 검색 3,870건을 확인했습니다. 19개 무작위시험 메타분석은 체질량지수와 체중에는 효과를 보였지만 아디포넥틴과 레지스틴에는 차이가 없다고 했습니다.",
+ "use": "메트포르민의 비만 근거는 특정 비당뇨 비만 여성 시험에서 체질량지수가 줄어든 결과로 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "2019 · 비당뇨 비만 여성 메트포르민 무작위시험",
+   "doi": "10.1530/EJE-18-0826",
+   "pmid": "30540558"
+  },
+  {
+   "label": "2026 · 소아 과체중·비만 메트포르민 무작위시험 메타분석",
+   "doi": "10.1136/archdischild-2025-328782",
+   "pmid": "41285564"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"METFORMIN\" → 387건 반환; 허가 문구는 제2형 당뇨병 혈당 조절이며 비만 적응증 없음",
+  "ctgov": "query.intr=metformin&query.cond=Obesity&countTotal=true&pageSize=100 → 265건 반환, InterventionName 대조 후 197건",
+  "pubmed": "metformin Obesity → 5,300건",
+  "negative": "metformin Obesity (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 3,870건",
+  "safety": "metformin Obesity (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 1,328건"
+ }
 }

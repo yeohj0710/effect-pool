@@ -1,36 +1,37 @@
 {
-  "id": "metformin-colon-cancer",
-  "subj": "메트포르민",
-  "claim": "대장암에 듣는다",
-  "line": "대장 선종 제거 후 비당뇨 성인에서 메트포르민은 추적 선종을 줄였습니다",
-  "effect": "선종 30.6% vs 51.6%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 151,
-  "synth": "single",
-  "why": "연구진이 대장 선종을 제거한 비당뇨 성인을 메트포르민과 위약에 무작위로 나눈 3상 시험을 했습니다.",
-  "saw": "151명이 무작위 배정을 받았고 추적 대장내시경을 받은 133명에서 선종은 메트포르민군 22명(30.6%), 위약군 32명(51.6%)이었습니다.",
-  "limit": "선종은 대장암의 대리지표라서 암 발생이나 사망을 직접 측정하지 않았습니다. 일본 병원 다섯 곳의 비당뇨·선종 제거 환자 결과를 일반적인 암 치료나 일반인 예방으로 넓힐 수 없습니다.",
-  "against": "전이성 현미부수체 안정 대장암 환자에게 메트포르민과 니볼루맙을 함께 쓴 2상 시험에서는 반응 평가가 가능한 18명 중 객관적 반응이 없어서 무효성으로 중단했습니다. 병용시험이라 메트포르민 단독 효과와는 구분해야 합니다.",
-  "use": "선종을 제거한 사람의 새 선종 감소 신호는 있지만, 메트포르민이 대장암 자체를 치료하거나 누구에게나 예방한다는 뜻은 아닙니다.",
-  "refs": [
-    {
-      "label": "Higurashi 2016 · Lancet Oncol · 대장 선종 재발 무작위시험",
-      "doi": "10.1016/S1470-2045(15)00565-3",
-      "pmid": "26947328"
-    },
-    {
-      "label": "Kopetz 2023 · J Immunother Cancer · 전이성 대장암 무효성 결과",
-      "doi": "10.1136/jitc-2023-007235",
-      "pmid": "37852737",
-      "pmc": "PMC10603338"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=metformin&query.cond=colon cancer → 20건 반환, InterventionName에 metformin 포함 18건",
-    "pubmed": "metformin AND (\"colon cancer\" OR colorectal cancer) → 614건",
-    "negative": "metformin AND (\"colon cancer\" OR colorectal cancer) AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 103건",
-    "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10,096건"
+ "id": "metformin-colon-cancer",
+ "subj": "메트포르민",
+ "claim": "대장암에 듣는다",
+ "line": "대장 선종 제거 후 비당뇨 성인에서 메트포르민은 추적 선종을 줄였습니다",
+ "effect": "선종 30.6% vs 51.6%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 151,
+ "synth": "single",
+ "why": "연구진이 대장 선종을 제거한 비당뇨 성인을 메트포르민과 위약에 무작위로 나눈 3상 시험을 했습니다.",
+ "saw": "151명이 무작위 배정을 받았고 추적 대장내시경을 받은 133명에서 선종은 메트포르민군 22명(30.6%), 위약군 32명(51.6%)이었습니다.",
+ "limit": "선종은 대장암의 대리지표라서 암 발생이나 사망을 직접 측정하지 않았습니다. 일본 병원 다섯 곳의 비당뇨·선종 제거 환자 결과를 일반적인 암 치료나 일반인 예방으로 넓힐 수 없습니다.",
+ "against": "전이성 현미부수체 안정 대장암 환자에게 메트포르민과 니볼루맙을 함께 쓴 2상 시험에서는 반응 평가가 가능한 18명 중 객관적 반응이 없어서 무효성으로 중단했습니다. 병용시험이라 메트포르민 단독 효과와는 구분해야 합니다.",
+ "use": "선종을 제거한 사람의 새 선종 감소 신호는 있지만, 메트포르민이 대장암 자체를 치료하거나 누구에게나 예방한다는 뜻은 아닙니다.",
+ "refs": [
+  {
+   "label": "Higurashi 2016 · Lancet Oncol · 대장 선종 재발 무작위시험",
+   "doi": "10.1016/S1470-2045(15)00565-3",
+   "pmid": "26947328"
+  },
+  {
+   "label": "Kopetz 2023 · J Immunother Cancer · 전이성 대장암 무효성 결과",
+   "doi": "10.1136/jitc-2023-007235",
+   "pmid": "37852737",
+   "pmc": "PMC10603338"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=metformin&query.cond=colon cancer → 20건 반환, InterventionName에 metformin 포함 18건",
+  "pubmed": "metformin AND (\"colon cancer\" OR colorectal cancer) → 614건",
+  "negative": "metformin AND (\"colon cancer\" OR colorectal cancer) AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 103건",
+  "safety": "metformin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 10,096건"
+ },
+ "vs": "메트포르민 vs 위약: 대장 선종 절제 후 비당뇨병 환자 151명 3상 RCT에서 1년 총 폴립은 38.0% vs 56.5%, RR 0.67(95% CI 0.47~0.97), 선종은 30.6% vs 51.6%, RR 0.60(0.39~0.92)였다."
 }

@@ -1,32 +1,33 @@
 {
-  "id": "metformin-heart-failure-pos",
-  "subj": "메트포르민",
-  "claim": "메트포르민이 심부전 사망률을 낮춘다",
-  "line": "심부전 관찰연구에서 메트포르민 사용군의 사망률은 18% 낮았습니다",
-  "effect": "사망 18% 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 22469,
-  "synth": "meta",
-  "why": "심부전 환자 자료를 합친 메타분석에서 메트포르민 사용과 사망률 감소의 연관성을 확인했지만 무작위시험 근거는 없었습니다.",
-  "saw": "4개 관찰연구 22,469명을 합친 메타분석에서 메트포르민 사용과 심부전 사망률 감소가 연관됐고, 좌심실 박출률 50% 이상군에서 보호 연관이 더 컸습니다.",
-  "limit": "모두 관찰연구라 적응·선택 교란을 배제할 수 없고, 심부전 환자 대상 무작위시험은 없었습니다.",
-  "against": "논문은 무작위시험이 없어 메트포르민의 심부전 사망률 인과효과를 확정할 수 없다고 했습니다.",
-  "use": "심부전 치료 효과로 확정하지 말고 관찰연구의 연관 신호로 읽어야 합니다.",
-  "refs": [
-    {
-      "label": "Halabi 2020 · Cardiovascular Diabetology · 심부전 관찰연구 메타분석",
-      "doi": "10.1186/s12933-020-01100-w",
-      "pmid": "32758236",
-      "pmc": "PMC7409497"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
-    "ctgov": "query.intr=metformin&query.cond=Heart Failure → 25건 반환, InterventionName에 metformin 포함 여부를 대조",
-    "pubmed": "metformin AND \"heart failure\" → 1,019건",
-    "negative": "metformin AND \"heart failure\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 741건",
-    "safety": "metformin AND \"heart failure\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 431건"
+ "id": "metformin-heart-failure-pos",
+ "subj": "메트포르민",
+ "claim": "메트포르민이 심부전 사망률을 낮춘다",
+ "line": "심부전 관찰연구에서 메트포르민 사용군의 사망률은 18% 낮았습니다",
+ "effect": "사망 18% 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 22469,
+ "synth": "meta",
+ "why": "심부전 환자 자료를 합친 메타분석에서 메트포르민 사용과 사망률 감소의 연관성을 확인했지만 무작위시험 근거는 없었습니다.",
+ "saw": "4개 관찰연구 22,469명을 합친 메타분석에서 메트포르민 사용과 심부전 사망률 감소가 연관됐고, 좌심실 박출률 50% 이상군에서 보호 연관이 더 컸습니다.",
+ "limit": "모두 관찰연구라 적응·선택 교란을 배제할 수 없고, 심부전 환자 대상 무작위시험은 없었습니다.",
+ "against": "논문은 무작위시험이 없어 메트포르민의 심부전 사망률 인과효과를 확정할 수 없다고 했습니다.",
+ "use": "심부전 치료 효과로 확정하지 말고 관찰연구의 연관 신호로 읽어야 합니다.",
+ "refs": [
+  {
+   "label": "Halabi 2020 · Cardiovascular Diabetology · 심부전 관찰연구 메타분석",
+   "doi": "10.1186/s12933-020-01100-w",
+   "pmid": "32758236",
+   "pmc": "PMC7409497"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:METFORMIN → 386건; 확인 라벨의 적응증은 제2형 당뇨병 혈당 조절",
+  "ctgov": "query.intr=metformin&query.cond=Heart Failure → 25건 반환, InterventionName에 metformin 포함 여부를 대조",
+  "pubmed": "metformin AND \"heart failure\" → 1,019건",
+  "negative": "metformin AND \"heart failure\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 741건",
+  "safety": "metformin AND \"heart failure\" AND (adverse OR toxicity OR \"case report\" OR overdose OR \"self-medication\") → 431건"
+ },
+ "vs": "메트포르민 사용 vs 비사용: 박출률 보존·감소 심부전 연구 메타회귀에서 보정 후 사망과의 연관 β -0.2(95% CI -0.3~-0.1; P=.02)였고, 박출률 50% 초과군에서 보호효과가 더 컸다."
 }
