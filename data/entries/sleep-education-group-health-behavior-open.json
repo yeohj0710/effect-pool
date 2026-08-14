@@ -1,28 +1,32 @@
 {
-  "id": "sleep-education-group-health-behavior-open",
-  "subj": "sleep education group",
-  "claim": "수면 교육과 자가관리가 일본 노인의 만성 불면 수면 지표를 개선할 가능성이 있다",
-  "line": "일본 노인 수면관리에서 개선 신호는 있었지만 효과는 불확실합니다",
-  "effect": "수면 일지·활동기록 지표의 소폭·중간 효과 신호",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 교육은 허가 의약품이 아닌 행동 중재입니다.",
-  "why": "일본 노인의 만성 불면을 대상으로 수면관리 자가치료를 평가한 준실험 연구가 검색되었지만, PubMed API 기록에 초록과 참가자 수가 없습니다.",
-  "saw": "PubMed PMID 28220343은 일본 노인의 만성 불면 수면관리 자가치료 준실험 연구이며, 원문 검색 요약은 수면 일지와 활동기록에서 소폭·중간 효과 크기를 보고합니다.",
-  "limit": "참가자 수와 상세 결과를 원문 기록에서 확인하지 못했고 무작위 대조시험이 아니므로 효과의 크기와 인과성을 판단하기 어렵습니다.",
-  "against": "반대 검색에도 PMID 28220343만 다시 잡혔고, 별도의 직접 음성 결과는 없었습니다.",
-  "use": "노인 만성 불면에서 약물치료를 대체하지 않는 수면 행동교육 신호로만 기록합니다.",
-  "refs": [
-    { "label": "Effects of sleep management with self-help treatment for the Japanese elderly with chronic insomnia: a quasi-experimental study", "doi": "10.1007/s10865-017-9836-0", "pmid": "28220343" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "query.intr=sleep education group AND query.cond=Health Behavior · 190건 반환, exact InterventionName 0건",
-    "pubmed": "\"sleep education group\" AND \"Health Behavior\" · 1편",
-    "negative": "\"sleep education group\" AND \"Health Behavior\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 1편",
-    "safety": "\"sleep education group\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") · 0편"
+ "id": "sleep-education-group-health-behavior-open",
+ "subj": "수면 교육 모임",
+ "claim": "수면 교육과 자가관리가 일본 노인의 만성 불면 수면 지표를 개선할 가능성이 있다",
+ "line": "일본 노인 수면관리에서 개선 신호는 있었지만 효과는 불확실합니다",
+ "effect": "수면 일지·활동기록 지표의 소폭·중간 효과 신호",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 교육은 허가 의약품이 아닌 행동 중재입니다.",
+ "why": "일본 노인의 만성 불면을 대상으로 수면관리 자가치료를 평가한 준실험 연구가 검색되었지만, PubMed API 기록에 초록과 참가자 수가 없습니다.",
+ "saw": "PubMed PMID 28220343은 일본 노인의 만성 불면 수면관리 자가치료 준실험 연구이며, 원문 검색 요약은 수면 일지와 활동기록에서 소폭·중간 효과 크기를 보고합니다.",
+ "limit": "참가자 수와 상세 결과를 원문 기록에서 확인하지 못했고 무작위 대조시험이 아니므로 효과의 크기와 인과성을 판단하기 어렵습니다.",
+ "against": "반대 검색에도 PMID 28220343만 다시 잡혔고, 별도의 직접 음성 결과는 없었습니다.",
+ "use": "노인 만성 불면에서 약물치료를 대체하지 않는 수면 행동교육 신호로만 기록합니다.",
+ "refs": [
+  {
+   "label": "Effects of sleep management with self-help treatment for the Japanese elderly with chronic insomnia: a quasi-experimental study",
+   "doi": "10.1007/s10865-017-9836-0",
+   "pmid": "28220343"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "query.intr=sleep education group AND query.cond=Health Behavior · 190건 반환, exact InterventionName 0건",
+  "pubmed": "\"sleep education group\" AND \"Health Behavior\" · 1편",
+  "negative": "\"sleep education group\" AND \"Health Behavior\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 1편",
+  "safety": "\"sleep education group\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") · 0편"
+ }
 }

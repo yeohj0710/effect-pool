@@ -1,28 +1,32 @@
 {
-  "id": "remote-physical-therapy-low-back-pain-open",
-  "subj": "remote physical therapy",
-  "claim": "만성 요통 원격 재활은 기능에서 대면 재활과 비슷하지만 통증 개선은 불확실하다",
-  "line": "요통 원격치료는 기능에서 대면치료와 비슷했지만 통증은 불확실했습니다.",
-  "effect": "기능 비열등·통증 불확실",
-  "tier": "trial",
-  "dir": "open",
-  "n": 50,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 물리치료는 의약품이 아닌 재활 중재다",
-  "why": "만성 요통 성인 50명을 원격 재활과 대면 재활에 무작위 배정한 실제 진료형 비열등성 시험이다.",
-  "saw": "두 군 모두 호전됐고 통증에서는 사전 기준을 충족하는 비열등성이 입증되지 않았다. 장애 기능에서는 원격 재활이 대면 재활에 비열등했고 차이는 -0.82점이었다.",
-  "limit": "참가자가 50명이고 통증 비열등성 기준을 충족하지 못했다. 환자 선택에 따라 원격 재활 적합성이 달라질 수 있다.",
-  "against": "통증 감소가 주목적인 환자에게 원격 재활이 대면 치료와 같다고 확정할 수 없다.",
-  "use": "만성 요통 원격 재활을 선택할 때 기능 개선과 통증 감소를 분리해 설명하고 대면 전환 기준을 둔다.",
-  "refs": [
-    { "label": "Effectiveness of Telerehabilitation in Managing Chronic Low Back Pain: A Pragmatic Randomized Controlled Non-Inferiority Trial 2026 · International Journal of Medical Informatics", "doi": "10.1016/j.ijmedinf.2026.106540", "pmid": "42284831" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=remote physical therapy AND condition=Low Back Pain; 23건 반환, 중재명 일치 0건",
-    "pubmed": "remote physical therapy AND Low Back Pain; 95건",
-    "negative": "remote physical therapy AND Low Back Pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 71건",
-    "safety": "remote physical therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 11건"
+ "id": "remote-physical-therapy-low-back-pain-open",
+ "subj": "원격 물리치료",
+ "claim": "만성 요통 원격 재활은 기능에서 대면 재활과 비슷하지만 통증 개선은 불확실하다",
+ "line": "요통 원격치료는 기능에서 대면치료와 비슷했지만 통증은 불확실했습니다.",
+ "effect": "기능 비열등·통증 불확실",
+ "tier": "trial",
+ "dir": "open",
+ "n": 50,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 물리치료는 의약품이 아닌 재활 중재다",
+ "why": "만성 요통 성인 50명을 원격 재활과 대면 재활에 무작위 배정한 실제 진료형 비열등성 시험이다.",
+ "saw": "두 군 모두 호전됐고 통증에서는 사전 기준을 충족하는 비열등성이 입증되지 않았다. 장애 기능에서는 원격 재활이 대면 재활에 비열등했고 차이는 -0.82점이었다.",
+ "limit": "참가자가 50명이고 통증 비열등성 기준을 충족하지 못했다. 환자 선택에 따라 원격 재활 적합성이 달라질 수 있다.",
+ "against": "통증 감소가 주목적인 환자에게 원격 재활이 대면 치료와 같다고 확정할 수 없다.",
+ "use": "만성 요통 원격 재활을 선택할 때 기능 개선과 통증 감소를 분리해 설명하고 대면 전환 기준을 둔다.",
+ "refs": [
+  {
+   "label": "Effectiveness of Telerehabilitation in Managing Chronic Low Back Pain: A Pragmatic Randomized Controlled Non-Inferiority Trial 2026 · International Journal of Medical Informatics",
+   "doi": "10.1016/j.ijmedinf.2026.106540",
+   "pmid": "42284831"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=remote physical therapy AND condition=Low Back Pain; 23건 반환, 중재명 일치 0건",
+  "pubmed": "remote physical therapy AND Low Back Pain; 95건",
+  "negative": "remote physical therapy AND Low Back Pain AND (no effect OR did not OR failed to OR negative OR no significant difference); 71건",
+  "safety": "remote physical therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 11건"
+ }
 }

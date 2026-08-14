@@ -1,28 +1,32 @@
 {
-  "id": "telemonitoring-sleep-apnea-open",
-  "subj": "telemonitoring",
-  "claim": "매트리스 센서 원격 모니터링은 양압기 잔여 사건과 다른 수면 정보를 보여준다",
-  "line": "매트리스 센서는 양압기의 잔여 사건을 추가로 감시했습니다",
-  "effect": "수면·호흡 사건 추가 감시",
-  "tier": "obs",
-  "dir": "open",
-  "n": 75,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 모니터링 기기는 의약품이 아닌 측정 중재다",
-  "why": "폐쇄성 수면무호흡 환자에게 비접촉 매트리스 센서와 양압기 자료를 함께 사용해 수면 시간과 호흡 사건을 비교했다.",
-  "saw": "환자 75명의 480밤 자료를 분석했고 14명은 수면다원검사를 함께 받았다. 센서는 양압기 사용 시간보다 긴 수면 시간과 더 높은 무호흡·저호흡 지수를 기록했으며 수면다원검사와 가까웠다.",
-  "limit": "센서와 양압기의 측정 대상이 다르고 수면다원검사 비교군은 14명뿐이다. 치료 효과를 직접 평가한 연구는 아니다.",
-  "against": "센서가 양압기 치료 순응도나 수면무호흡 임상 결과를 개선한다고 확정할 수 없다.",
-  "use": "양압 치료 초기 원격 감시에 센서를 보조로 사용할 때 표준 수면검사와 양압기 자료를 함께 해석한다.",
-  "refs": [
-    { "label": "Comparison of Under-Mattress Sensor and CPAP Data for Home Monitoring in Obstructive Sleep Apnea 2026 · Sleep and Breathing", "doi": "10.1007/s11325-026-03741-9", "pmid": "42329516" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=telemonitoring AND condition=Sleep Apnea; 30건 반환, 중재명 일치 13건",
-    "pubmed": "telemonitoring AND Sleep Apnea; 160건",
-    "negative": "telemonitoring AND Sleep Apnea AND (no effect OR did not OR failed to OR negative OR no significant difference); 91건",
-    "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 15건"
+ "id": "telemonitoring-sleep-apnea-open",
+ "subj": "원격 모니터링",
+ "claim": "매트리스 센서 원격 모니터링은 양압기 잔여 사건과 다른 수면 정보를 보여준다",
+ "line": "매트리스 센서는 양압기의 잔여 사건을 추가로 감시했습니다",
+ "effect": "수면·호흡 사건 추가 감시",
+ "tier": "obs",
+ "dir": "open",
+ "n": 75,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 모니터링 기기는 의약품이 아닌 측정 중재다",
+ "why": "폐쇄성 수면무호흡 환자에게 비접촉 매트리스 센서와 양압기 자료를 함께 사용해 수면 시간과 호흡 사건을 비교했다.",
+ "saw": "환자 75명의 480밤 자료를 분석했고 14명은 수면다원검사를 함께 받았다. 센서는 양압기 사용 시간보다 긴 수면 시간과 더 높은 무호흡·저호흡 지수를 기록했으며 수면다원검사와 가까웠다.",
+ "limit": "센서와 양압기의 측정 대상이 다르고 수면다원검사 비교군은 14명뿐이다. 치료 효과를 직접 평가한 연구는 아니다.",
+ "against": "센서가 양압기 치료 순응도나 수면무호흡 임상 결과를 개선한다고 확정할 수 없다.",
+ "use": "양압 치료 초기 원격 감시에 센서를 보조로 사용할 때 표준 수면검사와 양압기 자료를 함께 해석한다.",
+ "refs": [
+  {
+   "label": "Comparison of Under-Mattress Sensor and CPAP Data for Home Monitoring in Obstructive Sleep Apnea 2026 · Sleep and Breathing",
+   "doi": "10.1007/s11325-026-03741-9",
+   "pmid": "42329516"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=telemonitoring AND condition=Sleep Apnea; 30건 반환, 중재명 일치 13건",
+  "pubmed": "telemonitoring AND Sleep Apnea; 160건",
+  "negative": "telemonitoring AND Sleep Apnea AND (no effect OR did not OR failed to OR negative OR no significant difference); 91건",
+  "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 15건"
+ }
 }

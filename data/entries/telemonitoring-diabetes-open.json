@@ -1,28 +1,32 @@
 {
-  "id": "telemonitoring-diabetes-open",
-  "subj": "telemonitoring",
-  "claim": "당뇨 원격 모니터링은 개인별 조언을 가능하게 하지만 실행 부담이 남는다",
-  "line": "당뇨 원격 모니터링은 개인별 조언을 돕지만 부담은 남습니다",
-  "effect": "개인별 조언 가능성",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "원격 모니터링은 의약품이 아닌 디지털 진료 중재다",
-  "why": "싱가포르 일차의료에 도입된 당뇨 원격 모니터링 체계의 무작위시험 실행 경험을 의료진 면담으로 분석했다.",
-  "saw": "의료진은 원격 모니터링이 환자 행동 변화와 지속 감시·개인별 조언을 도왔다고 말했다. 인력·비용·자료 보안과 추가 업무, 경보·법적 위험 관리가 실행 조건이었다.",
-  "limit": "의료진의 질적 면담 자료라 환자 혈당 개선 효과의 크기를 보여주지 않는다. 결과가 특정 국가 일차의료 환경에 묶여 있다.",
-  "against": "원격 모니터링이 모든 당뇨 환자의 임상 결과를 개선한다고 일반화할 수 없다.",
-  "use": "당뇨 원격 모니터링을 확장할 때 인력·비용·자료 보안과 경보 처리 업무를 먼저 계산한다.",
-  "refs": [
-    { "label": "Analysis of the OPTIMUM Tele-Monitoring System in Primary Care as Perceived by Healthcare Professionals Using the CFIR Framework 2026 · Family Medicine and Community Health", "doi": "10.1136/fmch-2026-004076", "pmid": "42508967" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=telemonitoring AND condition=Diabetes; 53건 반환, 중재명 일치 21건",
-    "pubmed": "telemonitoring AND Diabetes; 412건",
-    "negative": "telemonitoring AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 248건",
-    "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 49건"
+ "id": "telemonitoring-diabetes-open",
+ "subj": "원격 모니터링",
+ "claim": "당뇨 원격 모니터링은 개인별 조언을 가능하게 하지만 실행 부담이 남는다",
+ "line": "당뇨 원격 모니터링은 개인별 조언을 돕지만 부담은 남습니다",
+ "effect": "개인별 조언 가능성",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "원격 모니터링은 의약품이 아닌 디지털 진료 중재다",
+ "why": "싱가포르 일차의료에 도입된 당뇨 원격 모니터링 체계의 무작위시험 실행 경험을 의료진 면담으로 분석했다.",
+ "saw": "의료진은 원격 모니터링이 환자 행동 변화와 지속 감시·개인별 조언을 도왔다고 말했다. 인력·비용·자료 보안과 추가 업무, 경보·법적 위험 관리가 실행 조건이었다.",
+ "limit": "의료진의 질적 면담 자료라 환자 혈당 개선 효과의 크기를 보여주지 않는다. 결과가 특정 국가 일차의료 환경에 묶여 있다.",
+ "against": "원격 모니터링이 모든 당뇨 환자의 임상 결과를 개선한다고 일반화할 수 없다.",
+ "use": "당뇨 원격 모니터링을 확장할 때 인력·비용·자료 보안과 경보 처리 업무를 먼저 계산한다.",
+ "refs": [
+  {
+   "label": "Analysis of the OPTIMUM Tele-Monitoring System in Primary Care as Perceived by Healthcare Professionals Using the CFIR Framework 2026 · Family Medicine and Community Health",
+   "doi": "10.1136/fmch-2026-004076",
+   "pmid": "42508967"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=telemonitoring AND condition=Diabetes; 53건 반환, 중재명 일치 21건",
+  "pubmed": "telemonitoring AND Diabetes; 412건",
+  "negative": "telemonitoring AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 248건",
+  "safety": "telemonitoring AND (adverse OR toxicity OR case report OR harm OR dropout); 49건"
+ }
 }
