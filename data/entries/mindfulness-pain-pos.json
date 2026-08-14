@@ -1,28 +1,38 @@
 {
-  "id": "mindfulness-pain-pos",
-  "subj": "마음챙김",
-  "claim": "만성 통증에 마음챙김 명상을 쓴다",
-  "line": "만성 통증에서 마음챙김 명상은 통증과 우울을 소폭 줄였습니다",
-  "effect": "통증 소폭 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3536,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "마음챙김은 비약물 중재이며 만성 통증 약물 허가 적응증으로 분류하지 않습니다.",
-  "why": "성인 만성 통증의 마음챙김 명상 무작위시험을 모은 체계적 문헌고찰·메타분석입니다.",
-  "saw": "38개 무작위시험 중 30개가 통증 결과를 보고했습니다. 마음챙김 명상은 모든 대조군을 합친 비교에서 통증을 소폭 줄였고 우울 증상과 삶의 질도 개선했습니다.",
-  "limit": "통증 효과의 근거 확실성이 낮았고 안전성은 7개 연구만 보고했습니다.",
-  "against": "효과 크기가 작고 추가적인 대규모 엄격한 무작위시험이 필요합니다.",
-  "use": "만성 통증의 보조 비약물 중재 근거로 기록합니다.",
-  "refs": [
-    { "label": "만성 통증 마음챙김 명상 체계적 문헌고찰·메타분석", "doi": "10.1007/s12160-016-9844-2", "pmid": "27658913" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=mindfulness, cond=Pain · 521건",
-    "pubmed": "mindfulness AND Pain · 2884편",
-    "negative": "mindfulness AND Pain AND (no benefit OR no difference OR failed OR ineffective) · 1134편",
-    "safety": "mindfulness AND Pain AND (adverse OR safety OR toxicity) · 417편"
+ "id": "mindfulness-pain-pos",
+ "subj": "마음챙김",
+ "claim": "만성 통증에 마음챙김 명상을 쓴다",
+ "line": "만성 통증에서 마음챙김 명상은 통증과 우울을 소폭 줄였습니다",
+ "effect": "통증 소폭 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3536,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "마음챙김은 비약물 중재이며 만성 통증 약물 허가 적응증으로 분류하지 않습니다.",
+ "why": "성인 만성 통증의 마음챙김 명상 무작위시험을 모은 체계적 문헌고찰·메타분석입니다.",
+ "saw": "38개 무작위시험 중 30개가 통증 결과를 보고했습니다. 마음챙김 명상은 모든 대조군을 합친 비교에서 통증을 소폭 줄였고 우울 증상과 삶의 질도 개선했습니다.",
+ "limit": "통증 효과의 근거 확실성이 낮았고 안전성은 7개 연구만 보고했습니다.",
+ "against": "효과 크기가 작고 추가적인 대규모 엄격한 무작위시험이 필요합니다.",
+ "use": "만성 통증의 보조 비약물 중재 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "만성 통증 마음챙김 명상 체계적 문헌고찰·메타분석",
+   "doi": "10.1007/s12160-016-9844-2",
+   "pmid": "27658913"
+  },
+  {
+   "label": "Which type and dosage of mindfulness-based interventions are most effective for chronic pain? A systematic review and network meta-analysis",
+   "doi": "10.1016/j.jpsychores.2025.112061",
+   "pmid": "40010103"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=mindfulness, cond=Pain · 521건",
+  "pubmed": "mindfulness AND Pain · 2884편",
+  "negative": "mindfulness AND Pain AND (no benefit OR no difference OR failed OR ineffective) · 1134편",
+  "safety": "mindfulness AND Pain AND (adverse OR safety OR toxicity) · 417편"
+ },
+ "vs": "군 간 차이: mindfulness network meta-analysis: MBSR pain SMD=-0.76 (95% CI -1.06~-0.46), depression SMD=-0.77 (-0.98~-0.56), MORE physical function SMD=-1.42 (-2.28~-0.57)"
 }

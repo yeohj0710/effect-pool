@@ -1,28 +1,34 @@
 {
-  "id": "mobile-health-intervention-cancer-pos",
-  "subj": "mobile health intervention",
-  "claim": "다중이론 모바일 개입이 갑상선암 환자의 불안과 삶의 질을 개선할 수 있다",
-  "line": "갑상선암 환자의 모바일 개입은 불안과 삶의 질을 개선했습니다",
-  "effect": "불안 p<.026, 삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 111,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 모바일 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "분화 갑상선암 환자에게 건강행동 변화 이론에 기반한 모바일 개입을 3개월 제공하고 대조군과 비교했습니다.",
-  "saw": "111명이 등록됐고 104명이 완료했으며 개입군의 불안, 암 재발 두려움과 삶의 질이 더 좋아졌습니다.",
-  "limit": "단일기관 연구이고 우울에 대한 효과는 추가 확인이 필요합니다.",
-  "against": "대조군에서는 추적 시 암 재발 두려움이 증가했지만 개입군에서는 같은 증가가 없었습니다.",
-  "use": "갑상선암 치료 뒤 심리적 부담을 다루는 모바일 보조 프로그램으로 검토합니다.",
-  "refs": [
-    { "label": "갑상선암 모바일 건강 개입 무작위시험", "doi": "10.1186/s12916-024-03652-0", "pmid": "39407174", "pmc": "PMC11475815" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=mobile health intervention AND condition=Cancer; 318건",
-    "pubmed": "mobile health intervention AND Cancer; 8847건",
-    "negative": "mobile health intervention AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 1492건",
-    "safety": "mobile health intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 7568건"
+ "id": "mobile-health-intervention-cancer-pos",
+ "subj": "모바일 건강 중재",
+ "claim": "다중이론 모바일 개입이 갑상선암 환자의 불안과 삶의 질을 개선할 수 있다",
+ "line": "갑상선암 환자의 모바일 개입은 불안과 삶의 질을 개선했습니다",
+ "effect": "불안 p<.026, 삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 111,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 모바일 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "분화 갑상선암 환자에게 건강행동 변화 이론에 기반한 모바일 개입을 3개월 제공하고 대조군과 비교했습니다.",
+ "saw": "111명이 등록됐고 104명이 완료했으며 개입군의 불안, 암 재발 두려움과 삶의 질이 더 좋아졌습니다.",
+ "limit": "단일기관 연구이고 우울에 대한 효과는 추가 확인이 필요합니다.",
+ "against": "대조군에서는 추적 시 암 재발 두려움이 증가했지만 개입군에서는 같은 증가가 없었습니다.",
+ "use": "갑상선암 치료 뒤 심리적 부담을 다루는 모바일 보조 프로그램으로 검토합니다.",
+ "refs": [
+  {
+   "label": "갑상선암 모바일 건강 개입 무작위시험",
+   "doi": "10.1186/s12916-024-03652-0",
+   "pmid": "39407174",
+   "pmc": "PMC11475815"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=mobile health intervention AND condition=Cancer; 318건",
+  "pubmed": "mobile health intervention AND Cancer; 8847건",
+  "negative": "mobile health intervention AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference); 1492건",
+  "safety": "mobile health intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 7568건"
+ },
+ "vs": "군 간 차이: MTM-mHealth vs control: PHQ-4 P<.026, anxiety P<.015, depression P<.032, fear of recurrence P<.001, VAS P<.030"
 }

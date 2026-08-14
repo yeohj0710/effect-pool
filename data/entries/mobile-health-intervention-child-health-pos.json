@@ -1,28 +1,34 @@
 {
-  "id": "mobile-health-intervention-child-health-pos",
-  "subj": "mobile health intervention",
-  "claim": "모바일 건강 앱이 아동·청소년의 신체활동을 늘리고 좌식시간을 줄일 수 있다",
-  "line": "모바일 앱은 아동·청소년의 활동을 늘리고 좌식을 줄였습니다",
-  "effect": "신체활동 SMD 0.29",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 5643,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 모바일 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
-  "why": "아동·청소년을 대상으로 모바일 건강 앱의 신체활동과 체력 효과를 무작위시험 28편에서 통합했습니다.",
-  "saw": "28편 5,643명이 포함됐고 전체 신체활동이 늘며 좌식시간과 체질량지수가 줄었습니다.",
-  "limit": "결과별 이질성이 높았고 중등도 이상 신체활동과 여러 체력 지표는 유의하지 않았습니다.",
-  "against": "중등도 이상 신체활동과 심폐체력은 대조군과 유의한 차이가 없었습니다.",
-  "use": "아동·청소년의 활동량을 높이는 생활습관 보조 중재로 검토합니다.",
-  "refs": [
-    { "label": "아동·청소년 모바일 건강 앱 메타분석", "doi": "10.2196/51478", "pmid": "38687568", "pmc": "PMC11094610" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=mobile health intervention AND condition=Child Health; 129건",
-    "pubmed": "mobile health intervention AND Child Health; 9010건",
-    "negative": "mobile health intervention AND Child Health AND (no effect OR did not OR failed OR negative OR no significant difference); 1613건",
-    "safety": "mobile health intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 7568건"
+ "id": "mobile-health-intervention-child-health-pos",
+ "subj": "모바일 건강 중재",
+ "claim": "모바일 건강 앱이 아동·청소년의 신체활동을 늘리고 좌식시간을 줄일 수 있다",
+ "line": "모바일 앱은 아동·청소년의 활동을 늘리고 좌식을 줄였습니다",
+ "effect": "신체활동 SMD 0.29",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 5643,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 모바일 프로그램이며 의약품 허가 적응증을 적용하지 않습니다.",
+ "why": "아동·청소년을 대상으로 모바일 건강 앱의 신체활동과 체력 효과를 무작위시험 28편에서 통합했습니다.",
+ "saw": "28편 5,643명이 포함됐고 전체 신체활동이 늘며 좌식시간과 체질량지수가 줄었습니다.",
+ "limit": "결과별 이질성이 높았고 중등도 이상 신체활동과 여러 체력 지표는 유의하지 않았습니다.",
+ "against": "중등도 이상 신체활동과 심폐체력은 대조군과 유의한 차이가 없었습니다.",
+ "use": "아동·청소년의 활동량을 높이는 생활습관 보조 중재로 검토합니다.",
+ "refs": [
+  {
+   "label": "아동·청소년 모바일 건강 앱 메타분석",
+   "doi": "10.2196/51478",
+   "pmid": "38687568",
+   "pmc": "PMC11094610"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=mobile health intervention AND condition=Child Health; 129건",
+  "pubmed": "mobile health intervention AND Child Health; 9010건",
+  "negative": "mobile health intervention AND Child Health AND (no effect OR did not OR failed OR negative OR no significant difference); 1613건",
+  "safety": "mobile health intervention AND (adverse OR toxicity OR case report OR harm OR dropout); 7568건"
+ },
+ "vs": "군 간 차이: mHealth app vs control: total physical activity SMD=0.29 (95% CI 0.13~0.45, P<.001), sedentary behavior SMD=-0.97 (-1.67~-0.28, P=.006), muscle strength SMD=1.97 (0.09~3.86, P=.04), agility SMD=-0.35 (-0.61~-0.10, P=.006)"
 }
