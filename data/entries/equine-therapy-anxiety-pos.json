@@ -1,32 +1,33 @@
 {
- "id": "equine-therapy-anxiety-pos",
- "subj": "말 매개 치료",
- "claim": "외상 경험과 PTSD 증상이 있는 사람의 불안에 말 매개 치료를 평가한다",
- "line": "외상 경험·PTSD가 있는 사람에서 말 매개 치료 뒤 불안이 줄었다.",
- "effect": "일반 불안 효과크기 d=1.01",
- "tier": "obs",
- "dir": "pos",
- "n": 16,
- "synth": "single",
- "known": "off",
- "knownWhy": "약물이 아닌 동물 매개 중재이며 불안에는 허가 적응증을 적용하지 않습니다",
- "why": "외상 경험과 PTSD 증상이 있는 자원자 16명이 6주 동안 주 1회 말 매개 치료를 받은 단일군 연구입니다.",
- "saw": "치료 직후 일반 불안이 d=1.01, PTSD 증상이 d=1.21, 외상 관련 정서반응이 d=0.60, 우울 증상이 d=0.54 감소했습니다.",
- "limit": "무작위 배정·대조군·장기 추적이 없고 참가자가 16명뿐이어서 선택 편향과 단기 효과 가능성이 큽니다.",
- "against": "신체 건강, 자기효능감, 사회적 지지, 삶의 만족도에서는 유의한 효과가 없었습니다.",
- "use": "불안 치료의 대체제가 아니라 자격 있는 치료자가 제공하는 단기 보조 프로그램으로만 검토합니다.",
- "refs": [
-  {
-   "label": "equine-assisted therapy anxiety and posttraumatic stress symptoms",
-   "doi": "10.1002/jts.21990",
-   "pmid": "25782709"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "equine therapy AND Anxiety · 6건 중 직접 일치 0건",
-  "pubmed": "equine therapy AND Anxiety AND (randomized OR trial OR meta-analysis) · 39건",
-  "negative": "equine therapy AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) · 70건",
-  "safety": "equine therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 4,175건"
- }
+  "id": "equine-therapy-anxiety-pos",
+  "subj": "말 매개 치료",
+  "claim": "외상 경험과 PTSD 증상이 있는 사람의 불안에 말 매개 치료를 평가한다",
+  "line": "외상 경험·PTSD가 있는 사람에서 말 매개 치료 뒤 불안이 줄었다.",
+  "effect": "일반 불안 효과크기 d=1.01",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 16,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "약물이 아닌 동물 매개 중재이며 불안에는 허가 적응증을 적용하지 않습니다",
+  "why": "외상 경험과 PTSD 증상이 있는 자원자 16명이 6주 동안 주 1회 말 매개 치료를 받은 단일군 연구입니다.",
+  "saw": "치료 직후 일반 불안이 d=1.01, PTSD 증상이 d=1.21, 외상 관련 정서반응이 d=0.60, 우울 증상이 d=0.54 감소했습니다.",
+  "limit": "무작위 배정·대조군·장기 추적이 없고 참가자가 16명뿐이어서 선택 편향과 단기 효과 가능성이 큽니다.",
+  "against": "신체 건강, 자기효능감, 사회적 지지, 삶의 만족도에서는 유의한 효과가 없었습니다.",
+  "use": "불안 치료의 대체제가 아니라 자격 있는 치료자가 제공하는 단기 보조 프로그램으로만 검토합니다.",
+  "refs": [
+    {
+      "label": "equine-assisted therapy anxiety and posttraumatic stress symptoms",
+      "doi": "10.1002/jts.21990",
+      "pmid": "25782709"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "equine therapy AND Anxiety · 6건 중 직접 일치 0건",
+    "pubmed": "equine therapy AND Anxiety AND (randomized OR trial OR meta-analysis) · 39건",
+    "negative": "equine therapy AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) · 70건",
+    "safety": "equine therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 4,175건"
+  },
+  "vs": "말 매개 치료 전 vs 6주 종료: 일반 불안 Cohen d=1.01, PTSD d=1.21, 정서적 외상 반응 d=0.60, 우울 d=0.54(n=16; 무작위 대조군 없음)"
 }

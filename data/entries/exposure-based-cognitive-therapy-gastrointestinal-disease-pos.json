@@ -1,32 +1,33 @@
 {
- "id": "exposure-based-cognitive-therapy-gastrointestinal-disease-pos",
- "subj": "노출 기반 인지치료",
- "claim": "인터넷 노출 기반 인지행동치료 후 과민성장증후군 증상이 줄었다",
- "line": "인터넷 노출치료 뒤 과민성장증후군이 호전됐다.",
- "effect": "d=1.30",
- "tier": "obs",
- "dir": "pos",
- "n": 309,
- "synth": "single",
- "known": "off",
- "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
- "why": "약물과 식이 조절만으로 충분하지 않은 기능성 위장관 증상에 노출 기반 인지행동치료를 적용했다.",
- "saw": "스톡홀름 인터넷 정신의학 클리닉에서 과민성장증후군 환자 309명이 12주 인터넷 노출 기반 인지행동치료를 받았다. 증상 점수는 48.06에서 33.06으로 줄었고 효과크기는 d=1.30이었다.",
- "limit": "무작위 대조군이 없는 실제 진료 전후 연구라 자연 경과와 선택 효과를 분리할 수 없다.",
- "against": "대조군과 무작위 배정이 없어 치료에 참여한 사람의 동기와 회귀 효과가 결과에 섞였을 수 있다.",
- "use": "과민성장증후군의 위장관 증상과 회피 행동을 함께 다루는 심리치료",
- "refs": [
-  {
-   "label": "인터넷 노출 기반 인지행동치료 실제 진료 연구",
-   "doi": "10.14309/ajg.0000000000003059",
-   "pmid": "39194012"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=exposure-based cognitive therapy AND condition=Gastrointestinal Disease; 0건",
-  "pubmed": "exposure-based cognitive therapy AND Gastrointestinal Disease; 16건",
-  "negative": "exposure-based cognitive therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 396건",
-  "safety": "exposure-based cognitive therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 60건"
- }
+  "id": "exposure-based-cognitive-therapy-gastrointestinal-disease-pos",
+  "subj": "노출 기반 인지치료",
+  "claim": "인터넷 노출 기반 인지행동치료 후 과민성장증후군 증상이 줄었다",
+  "line": "인터넷 노출치료 뒤 과민성장증후군이 호전됐다.",
+  "effect": "d=1.30",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 309,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+  "why": "약물과 식이 조절만으로 충분하지 않은 기능성 위장관 증상에 노출 기반 인지행동치료를 적용했다.",
+  "saw": "스톡홀름 인터넷 정신의학 클리닉에서 과민성장증후군 환자 309명이 12주 인터넷 노출 기반 인지행동치료를 받았다. 증상 점수는 48.06에서 33.06으로 줄었고 효과크기는 d=1.30이었다.",
+  "limit": "무작위 대조군이 없는 실제 진료 전후 연구라 자연 경과와 선택 효과를 분리할 수 없다.",
+  "against": "대조군과 무작위 배정이 없어 치료에 참여한 사람의 동기와 회귀 효과가 결과에 섞였을 수 있다.",
+  "use": "과민성장증후군의 위장관 증상과 회피 행동을 함께 다루는 심리치료",
+  "refs": [
+    {
+      "label": "인터넷 노출 기반 인지행동치료 실제 진료 연구",
+      "doi": "10.14309/ajg.0000000000003059",
+      "pmid": "39194012"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=exposure-based cognitive therapy AND condition=Gastrointestinal Disease; 0건",
+    "pubmed": "exposure-based cognitive therapy AND Gastrointestinal Disease; 16건",
+    "negative": "exposure-based cognitive therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 396건",
+    "safety": "exposure-based cognitive therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 60건"
+  },
+  "vs": "인터넷 노출 기반 CBT 전 vs 6개월: GSRS-IBS 48.06±11.26→33.06±10.81, Cohen d=1.30(95% CI 1.08~1.51; n=309; 대조군 없음)"
 }
