@@ -1,28 +1,31 @@
 {
-  "id": "continuous-glucose-monitoring-hypoglycemia-pos",
-  "subj": "continuous glucose monitoring",
-  "claim": "제1형 당뇨병 저혈당 무인지에 continuous glucose monitoring을 쓴다",
-  "line": "당뇨 저혈당 무인지에서 저혈당 인지가 개선됐습니다.",
-  "effect": "인지 개선 80%·역치 +31 mg/dL",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 11,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "연속혈당측정기는 당뇨병 혈당 모니터링 기기이며 저혈당 무인지는 허가 적응증이 아닙니다",
-  "why": "제1형 당뇨병과 부분 또는 완전 저혈당 무인지가 있는 11명이 센서 증강 인슐린 펌프와 저혈당 중단 기능을 3개월 사용한 전향적 연구입니다",
-  "saw": "저혈당 무인지가 80%에서 개선됐고 저혈당 인지 역치가 31 mg/dL 높아졌으며 6개월까지 효과가 유지됐습니다",
-  "limit": "대조군 없는 소규모 파일럿 연구이며 치료 중단 자료는 1명뿐입니다",
-  "against": "대조군이 없어 연속혈당측정과 펌프 기능 중 어느 요소가 변화에 기여했는지 구분할 수 없습니다",
-  "use": "제1형 당뇨병에서 저혈당 무인지가 있을 때 연속혈당측정과 저혈당 중단 기능을 검토하는 근거로 기록합니다",
-  "refs": [
-    { "label": "Continuous glucose monitoring and hypoglycemia unawareness in type 1 diabetes: a pilot study", "pmid": "26159765" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "continuous glucose monitoring AND Hypoglycemia 검색 100건",
-    "pubmed": "continuous glucose monitoring AND Hypoglycemia 검색 3408건; PMID 26159765 직접 전향 연구 확인",
-    "negative": "continuous glucose monitoring AND Hypoglycemia AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 1902건",
-    "safety": "continuous glucose monitoring AND Hypoglycemia AND (adverse OR toxicity OR harm OR risk OR case report) 검색 998건"
+ "id": "continuous-glucose-monitoring-hypoglycemia-pos",
+ "subj": "연속혈당측정",
+ "claim": "제1형 당뇨병 저혈당 무인지에 연속혈당측정을 쓴다",
+ "line": "당뇨 저혈당 무인지에서 저혈당 인지가 개선됐습니다.",
+ "effect": "인지 개선 80%·역치 +31 mg/dL",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 11,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "연속혈당측정기는 당뇨병 혈당 모니터링 기기이며 저혈당 무인지는 허가 적응증이 아닙니다",
+ "why": "제1형 당뇨병과 부분 또는 완전 저혈당 무인지가 있는 11명이 센서 증강 인슐린 펌프와 저혈당 중단 기능을 3개월 사용한 전향적 연구입니다",
+ "saw": "저혈당 무인지가 80%에서 개선됐고 저혈당 인지 역치가 31 mg/dL 높아졌으며 6개월까지 효과가 유지됐습니다",
+ "limit": "대조군 없는 소규모 파일럿 연구이며 치료 중단 자료는 1명뿐입니다",
+ "against": "대조군이 없어 연속혈당측정과 펌프 기능 중 어느 요소가 변화에 기여했는지 구분할 수 없습니다",
+ "use": "제1형 당뇨병에서 저혈당 무인지가 있을 때 연속혈당측정과 저혈당 중단 기능을 검토하는 근거로 기록합니다",
+ "refs": [
+  {
+   "label": "Continuous glucose monitoring and hypoglycemia unawareness in type 1 diabetes: a pilot study",
+   "pmid": "26159765"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "continuous glucose monitoring AND Hypoglycemia 검색 100건",
+  "pubmed": "continuous glucose monitoring AND Hypoglycemia 검색 3408건; PMID 26159765 직접 전향 연구 확인",
+  "negative": "continuous glucose monitoring AND Hypoglycemia AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 1902건",
+  "safety": "continuous glucose monitoring AND Hypoglycemia AND (adverse OR toxicity OR harm OR risk OR case report) 검색 998건"
+ }
 }

@@ -1,29 +1,37 @@
 {
-  "id": "cryotherapy-cervical-precancer-pos",
-  "subj": "cryotherapy",
-  "claim": "자궁경부 전암병변(CIN)을 치료한다",
-  "line": "자궁경부 전암병변은 동결치료 후 CIN1부터 CIN3까지 완치됐습니다.",
-  "effect": "CIN 치료 성공률 85–94%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 28827,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "약물이 아닌 시술 중재이며 자궁경부 전암병변에 대한 근거를 따로 확인했습니다.",
-  "why": "자궁경부 상피내종양(CIN)을 cryotherapy로 치료한 원저 77편을 합친 메타분석입니다.",
-  "saw": "77편, 치료받은 CIN 28,827건을 합쳤습니다. 완치율은 CIN1 94%, CIN2 92%, CIN3 85%였습니다.",
-  "limit": "원저에는 무작위시험뿐 아니라 임상 보고도 섞였고, 병변의 위치와 동결법에 따라 결과가 달랐습니다.",
-  "against": "LEEP와 비교한 무작위시험 4편, 1,035명에서는 6개월 지속과 12개월 재발이 cryotherapy보다 LEEP에서 더 적었습니다.",
-  "use": "cryotherapy를 침윤성 자궁경부암 치료로 확대해석하지 말고, CIN 전암병변 치료 결과와 LEEP의 재발 차이를 따로 봅니다.",
-  "refs": [
-    { "label": "Cryotherapy CIN 메타분석 · 28,827건", "doi": "10.1016/j.ijgo.2012.10.014", "pmid": "23265830" },
-    { "label": "LEEP 대 cryotherapy 무작위시험 메타분석 · 음성 결과", "doi": "10.4103/GMIT.GMIT_56_18", "pmid": "30306032" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "intr=cryotherapy, cond=Cervical Cancer · 37건 반환, intervention 이름 cryotherapy 일치 19건",
-    "pubmed": "cryotherapy[Title/Abstract] AND (cervical cancer[Title/Abstract] OR cervical neoplasia[Title/Abstract]) · 314편",
-    "negative": "cryotherapy AND cervical intraepithelial neoplasia · LEEP 비교 메타분석에서 cryotherapy의 지속·재발이 더 많음(PMID 30306032)",
-    "safety": "cryotherapy AND (adverse OR toxicity OR harm OR case report OR dropout) · 9,817편"
+ "id": "cryotherapy-cervical-precancer-pos",
+ "subj": "냉동치료",
+ "claim": "자궁경부 전암병변(CIN)을 치료한다",
+ "line": "자궁경부 전암병변은 동결치료 후 CIN1부터 CIN3까지 완치됐습니다.",
+ "effect": "CIN 치료 성공률 85–94%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 28827,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "약물이 아닌 시술 중재이며 자궁경부 전암병변에 대한 근거를 따로 확인했습니다.",
+ "why": "자궁경부 상피내종양(CIN)을 냉동치료로 치료한 원저 77편을 합친 메타분석입니다.",
+ "saw": "77편, 치료받은 CIN 28,827건을 합쳤습니다. 완치율은 CIN1 94%, CIN2 92%, CIN3 85%였습니다.",
+ "limit": "원저에는 무작위시험뿐 아니라 임상 보고도 섞였고, 병변의 위치와 동결법에 따라 결과가 달랐습니다.",
+ "against": "LEEP와 비교한 무작위시험 4편, 1,035명에서는 6개월 지속과 12개월 재발이 냉동치료보다 LEEP에서 더 적었습니다.",
+ "use": "냉동치료를 침윤성 자궁경부암 치료로 확대해석하지 말고, CIN 전암병변 치료 결과와 LEEP의 재발 차이를 따로 봅니다.",
+ "refs": [
+  {
+   "label": "Cryotherapy CIN 메타분석 · 28,827건",
+   "doi": "10.1016/j.ijgo.2012.10.014",
+   "pmid": "23265830"
+  },
+  {
+   "label": "LEEP 대 cryotherapy 무작위시험 메타분석 · 음성 결과",
+   "doi": "10.4103/GMIT.GMIT_56_18",
+   "pmid": "30306032"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "intr=cryotherapy, cond=Cervical Cancer · 37건 반환, intervention 이름 cryotherapy 일치 19건",
+  "pubmed": "cryotherapy[Title/Abstract] AND (cervical cancer[Title/Abstract] OR cervical neoplasia[Title/Abstract]) · 314편",
+  "negative": "cryotherapy AND cervical intraepithelial neoplasia · LEEP 비교 메타분석에서 cryotherapy의 지속·재발이 더 많음(PMID 30306032)",
+  "safety": "cryotherapy AND (adverse OR toxicity OR harm OR case report OR dropout) · 9,817편"
+ }
 }

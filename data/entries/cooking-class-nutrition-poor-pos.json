@@ -1,28 +1,32 @@
 {
-  "id": "cooking-class-nutrition-poor-pos",
-  "subj": "cooking class",
-  "claim": "요리 수업이 영양불량 위험 환자의 건강식 선택을 늘린다",
-    "line": "요리 수업 후 영양불량 위험 환자의 건강식 선택이 늘었습니다.",
-  "effect": "건강식 선택 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 7,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 식생활 중재입니다.",
-  "why": "두경부 방사선 치료 환자와 보호자 7명이 3개월간 매달 열린 Eat to Live 요리·영양 수업에 참여한 실행 가능성 예비 연구입니다.",
-  "saw": "7명 중 환자 4명과 보호자 3명이 한 번 이상 참여했고 4명이 세 수업을 모두 마쳤습니다. 건강식 점수는 3점 만점 1.5점에서 1.7점으로 높아졌고 과일·채소와 통곡물·저지방 식품 선택이 늘었습니다.",
-  "limit": "7명 규모의 대조군 없는 3개월 예비 연구이고 영양 상태나 치료 결과를 확정할 수 없습니다.",
-  "against": "미각 점수는 연구 기간에 낮아졌고 조리 수업이 방사선 치료의 영양 부작용을 치료한다는 근거는 아닙니다.",
-  "use": "영양불량 위험 환자와 보호자의 식사 준비를 지원하는 수업을 설계할 때 실행 가능성 근거로만 사용합니다.",
-  "refs": [
-    { "label": "Eat to Live · Piloting a Culinary Medicine Program for Head & Neck Radiotherapy Patients", "doi": "10.1007/s00520-019-05180-7", "pmid": "31768735" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=cooking class AND query.cond=Nutrition Poor → 7건, cooking class 개입명 직접 일치 1건",
-    "pubmed": "cooking class AND Nutrition Poor → 38건; 제목·초록 정확검색 → 23건",
-    "negative": "cooking class AND Nutrition Poor AND (no effect OR did not OR failed OR negative OR no significant difference) → 17건",
-    "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ "id": "cooking-class-nutrition-poor-pos",
+ "subj": "요리 수업",
+ "claim": "요리 수업이 영양불량 위험 환자의 건강식 선택을 늘린다",
+ "line": "요리 수업 후 영양불량 위험 환자의 건강식 선택이 늘었습니다.",
+ "effect": "건강식 선택 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 7,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 식생활 중재입니다.",
+ "why": "두경부 방사선 치료 환자와 보호자 7명이 3개월간 매달 열린 Eat to Live 요리·영양 수업에 참여한 실행 가능성 예비 연구입니다.",
+ "saw": "7명 중 환자 4명과 보호자 3명이 한 번 이상 참여했고 4명이 세 수업을 모두 마쳤습니다. 건강식 점수는 3점 만점 1.5점에서 1.7점으로 높아졌고 과일·채소와 통곡물·저지방 식품 선택이 늘었습니다.",
+ "limit": "7명 규모의 대조군 없는 3개월 예비 연구이고 영양 상태나 치료 결과를 확정할 수 없습니다.",
+ "against": "미각 점수는 연구 기간에 낮아졌고 조리 수업이 방사선 치료의 영양 부작용을 치료한다는 근거는 아닙니다.",
+ "use": "영양불량 위험 환자와 보호자의 식사 준비를 지원하는 수업을 설계할 때 실행 가능성 근거로만 사용합니다.",
+ "refs": [
+  {
+   "label": "Eat to Live · Piloting a Culinary Medicine Program for Head & Neck Radiotherapy Patients",
+   "doi": "10.1007/s00520-019-05180-7",
+   "pmid": "31768735"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=cooking class AND query.cond=Nutrition Poor → 7건, cooking class 개입명 직접 일치 1건",
+  "pubmed": "cooking class AND Nutrition Poor → 38건; 제목·초록 정확검색 → 23건",
+  "negative": "cooking class AND Nutrition Poor AND (no effect OR did not OR failed OR negative OR no significant difference) → 17건",
+  "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ }
 }

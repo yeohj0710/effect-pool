@@ -1,28 +1,33 @@
 {
-  "id": "cryotherapy-keratosis-null",
-  "subj": "cryotherapy",
-  "claim": "광선각화증에서 광역학치료와 냉각요법의 병변 제거율이 비슷하다",
-  "line": "광선각화증은 두 치료의 병변 제거율이 비슷했습니다.",
-  "effect": "병변 제거 RR 1.02",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1233,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 냉각요법이라 의약품 허가 적응증을 적용하지 않음",
-  "why": "광선각화증에서 광역학치료와 냉각요법을 비교한 무작위시험 7편, 1233명의 메타분석이다.",
-  "saw": "병변 제거율은 두 치료가 비슷했다(RR 1.02, 95% CI 0.92–1.13). 광역학치료는 미용 결과가 더 좋았고 작열감·통증이 많았으며, 냉각요법은 물집이 더 많았다.",
-  "limit": "병변 위치에 따라 결과가 달랐고, 장기 재발과 표준화된 평가가 충분하지 않다.",
-  "against": "광역학치료와 비교한 결과라 냉각요법의 단독 효과를 다른 치료나 무치료와 비교하지 않았다.",
-  "use": "광선각화증에서 병변 제거와 부작용 양상을 함께 비교할 때 참고한다.",
-  "refs": [
-    { "label": "Comparative Efficacy of Photodynamic Therapy Versus Cryotherapy for Actinic Keratosis: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", "doi": "10.1111/jocd.70749", "pmid": "41964358" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "cryotherapy AND Keratosis · 19건 반환",
-    "pubmed": "cryotherapy AND Keratosis · 398건; PMID41964358 직접 결과 확인",
-    "negative": "cryotherapy AND Keratosis AND (no effect OR failed OR recurrence) · 제거율 비교 결과 확인",
-    "safety": "cryotherapy AND Keratosis AND (adverse OR pain OR blister) · 물집·통증 결과 확인"
+ "id": "cryotherapy-keratosis-null",
+ "subj": "냉동치료",
+ "claim": "광선각화증에서 광역학치료와 냉각요법의 병변 제거율이 비슷하다",
+ "line": "광선각화증은 두 치료의 병변 제거율이 비슷했습니다.",
+ "effect": "병변 제거 RR 1.02",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1233,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 냉각요법이라 의약품 허가 적응증을 적용하지 않음",
+ "why": "광선각화증에서 광역학치료와 냉각요법을 비교한 무작위시험 7편, 1233명의 메타분석이다.",
+ "saw": "병변 제거율은 두 치료가 비슷했다(RR 1.02, 95% CI 0.92–1.13). 광역학치료는 미용 결과가 더 좋았고 작열감·통증이 많았으며, 냉각요법은 물집이 더 많았다.",
+ "limit": "병변 위치에 따라 결과가 달랐고, 장기 재발과 표준화된 평가가 충분하지 않다.",
+ "against": "광역학치료와 비교한 결과라 냉각요법의 단독 효과를 다른 치료나 무치료와 비교하지 않았다.",
+ "use": "광선각화증에서 병변 제거와 부작용 양상을 함께 비교할 때 참고한다.",
+ "refs": [
+  {
+   "label": "Comparative Efficacy of Photodynamic Therapy Versus Cryotherapy for Actinic Keratosis: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "doi": "10.1111/jocd.70749",
+   "pmid": "41964358"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "cryotherapy AND Keratosis · 19건 반환",
+  "pubmed": "cryotherapy AND Keratosis · 398건; PMID41964358 직접 결과 확인",
+  "negative": "cryotherapy AND Keratosis AND (no effect OR failed OR recurrence) · 제거율 비교 결과 확인",
+  "safety": "cryotherapy AND Keratosis AND (adverse OR pain OR blister) · 물집·통증 결과 확인"
+ },
+ "vs": "광역학치료 vs 냉동치료: 광선각화증 병변 소실 RR 1.02(95% CI 0.92~1.13), 미용 결과 74.62% vs 49.11%, RR 1.52(1.40~1.65), 작열감·통증 RR 1.95(1.27~3.02); 7개 RCT·1,233명"
 }

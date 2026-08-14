@@ -1,28 +1,33 @@
 {
-  "id": "cooking-class-cardiovascular-diseases-null",
-  "subj": "cooking class",
-  "claim": "요리 수업이 심혈관질환 위험 지표를 개선하지 않는다",
-    "line": "요리 수업은 혈압과 LDL을 유의하게 바꾸지 못했습니다.",
-  "effect": "혈압·LDL 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 7381,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 식생활 교육입니다.",
-  "why": "요리 수업의 식단·행동·심대사 결과를 비교한 30개 연구의 체계적 문헌고찰에서 심혈관 위험 지표를 확인했습니다.",
-  "saw": "7,381명이 포함된 30개 연구에서 수축기 혈압은 -5.31 mmHg, 이완기 혈압은 -3.1 mmHg, LDL은 -8.09 mg/dL 차이였지만 모두 통계적으로 유의하지 않았습니다.",
-  "limit": "연구의 중재와 대상이 이질적이고 무작위시험은 6개뿐이며 심혈관 사건을 직접 평가하지 않았습니다.",
-  "against": "건강한 식단 섭취와 자기효능감은 좋아질 수 있지만 혈압·LDL 개선을 보장하지 않습니다.",
-  "use": "심혈관 위험 관리에서 요리 수업을 생활습관 보조로 검토하되 혈압·지질 치료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "The effect of culinary interventions (cooking classes) on dietary intake and behavioral change · systematic review and evidence map", "doi": "10.1186/s40795-019-0293-8", "pmid": "32153942" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=cooking class AND query.cond=Cardiovascular Diseases → 25건, cooking class 개입명 직접 일치 4건",
-    "pubmed": "cooking class AND Cardiovascular Diseases → 52건; 제목·초록 정확검색 → 2건",
-    "negative": "cooking class AND Cardiovascular Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) → 33건",
-    "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ "id": "cooking-class-cardiovascular-diseases-null",
+ "subj": "요리 수업",
+ "claim": "요리 수업이 심혈관질환 위험 지표를 개선하지 않는다",
+ "line": "요리 수업은 혈압과 LDL을 유의하게 바꾸지 못했습니다.",
+ "effect": "혈압·LDL 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 7381,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 식생활 교육입니다.",
+ "why": "요리 수업의 식단·행동·심대사 결과를 비교한 30개 연구의 체계적 문헌고찰에서 심혈관 위험 지표를 확인했습니다.",
+ "saw": "7,381명이 포함된 30개 연구에서 수축기 혈압은 -5.31 mmHg, 이완기 혈압은 -3.1 mmHg, LDL은 -8.09 mg/dL 차이였지만 모두 통계적으로 유의하지 않았습니다.",
+ "limit": "연구의 중재와 대상이 이질적이고 무작위시험은 6개뿐이며 심혈관 사건을 직접 평가하지 않았습니다.",
+ "against": "건강한 식단 섭취와 자기효능감은 좋아질 수 있지만 혈압·LDL 개선을 보장하지 않습니다.",
+ "use": "심혈관 위험 관리에서 요리 수업을 생활습관 보조로 검토하되 혈압·지질 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "The effect of culinary interventions (cooking classes) on dietary intake and behavioral change · systematic review and evidence map",
+   "doi": "10.1186/s40795-019-0293-8",
+   "pmid": "32153942"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=cooking class AND query.cond=Cardiovascular Diseases → 25건, cooking class 개입명 직접 일치 4건",
+  "pubmed": "cooking class AND Cardiovascular Diseases → 52건; 제목·초록 정확검색 → 2건",
+  "negative": "cooking class AND Cardiovascular Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) → 33건",
+  "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ },
+ "vs": "요리 수업 vs 대조·기초값: BMI MD -0.07kg/m²(95% CI -1.53~1.40), 수축기혈압 -5.31mmHg(-34.2~23.58), 이완기혈압 -3.1(-23.82~17.62), LDL -8.09mg/dL(-84.43~68.25); 30개 연구·7,381명, 유의한 심혈관 위험인자 변화 없음"
 }

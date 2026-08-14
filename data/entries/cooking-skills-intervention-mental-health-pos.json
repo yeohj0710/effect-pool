@@ -1,28 +1,33 @@
 {
-  "id": "cooking-skills-intervention-mental-health-pos",
-  "subj": "cooking skills intervention",
-  "claim": "보호자 요리 기술 중재가 청소년 정신건강을 도울 가능성이 있다",
-    "line": "요리 중재 후 청소년 친사회성이 높아졌습니다.",
-  "effect": "회복 +8.75·친사회 +9.51",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 3641,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "cooking skills intervention은 정신건강 치료제가 아니라 가정 식생활 교육입니다",
-  "why": "보호자의 요리 능력과 청소년의 긍정적 정신건강이 연결되는지 종단 자료로 확인합니다",
-  "saw": "일본 A-CHILD 종단연구에서 초등학교 4학년 아동과 보호자 3,641쌍을 2018~2020년 추적했습니다. 보호자 요리 능력이 가장 높은 사분위수의 청소년은 가장 낮은 사분위수보다 회복탄력성 8.75점, 친사회성 9.51점이 높았습니다.",
-  "limit": "요리 능력을 무작위로 배정한 개입시험이 아니라 관찰 연구이므로 가정환경과 사회경제적 차이의 영향을 배제할 수 없습니다.",
-  "against": "회복탄력성과 친사회성의 차이는 식생활 루틴, 보호자·아동 상호작용, 가족 결속을 통해 일부 매개돼 요리 기술 단독 효과가 아닐 수 있습니다.",
-  "use": "보호자 요리 교육이 청소년의 긍정적 정신건강과 연결될 수 있다는 근거로 참고합니다.",
-  "refs": [
-    { "label": "2026 · 보호자 요리 능력과 청소년 회복탄력성·친사회성 일본 종단연구", "doi": "10.1186/s40359-026-04658-4", "pmid": "42067896" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=cooking skills intervention AND condition=Mental Health; 94건 반환",
-    "pubmed": "cooking skills intervention AND mental health; 8편",
-    "negative": "cooking skills intervention AND mental health AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
-    "safety": "cooking skills intervention AND (adverse OR harm); 검색 결과 대조"
+ "id": "cooking-skills-intervention-mental-health-pos",
+ "subj": "요리 기술 중재",
+ "claim": "보호자 요리 기술 중재가 청소년 정신건강을 도울 가능성이 있다",
+ "line": "요리 중재 후 청소년 친사회성이 높아졌습니다.",
+ "effect": "회복 +8.75·친사회 +9.51",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 3641,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "요리 기술 중재은 정신건강 치료제가 아니라 가정 식생활 교육입니다",
+ "why": "보호자의 요리 능력과 청소년의 긍정적 정신건강이 연결되는지 종단 자료로 확인합니다",
+ "saw": "일본 A-CHILD 종단연구에서 초등학교 4학년 아동과 보호자 3,641쌍을 2018~2020년 추적했습니다. 보호자 요리 능력이 가장 높은 사분위수의 청소년은 가장 낮은 사분위수보다 회복탄력성 8.75점, 친사회성 9.51점이 높았습니다.",
+ "limit": "요리 능력을 무작위로 배정한 개입시험이 아니라 관찰 연구이므로 가정환경과 사회경제적 차이의 영향을 배제할 수 없습니다.",
+ "against": "회복탄력성과 친사회성의 차이는 식생활 루틴, 보호자·아동 상호작용, 가족 결속을 통해 일부 매개돼 요리 기술 단독 효과가 아닐 수 있습니다.",
+ "use": "보호자 요리 교육이 청소년의 긍정적 정신건강과 연결될 수 있다는 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "2026 · 보호자 요리 능력과 청소년 회복탄력성·친사회성 일본 종단연구",
+   "doi": "10.1186/s40359-026-04658-4",
+   "pmid": "42067896"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=cooking skills intervention AND condition=Mental Health; 94건 반환",
+  "pubmed": "cooking skills intervention AND mental health; 8편",
+  "negative": "cooking skills intervention AND mental health AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
+  "safety": "cooking skills intervention AND (adverse OR harm); 검색 결과 대조"
+ },
+ "vs": "보호자 요리 기술 최고 사분위 vs 최저 사분위: 청소년 회복탄력성 점수 8.75점 높음(95% CI 7.38~10.1), 친사회성 9.51점 높음(7.68~11.3); 보정 종단연구 3,641명"
 }

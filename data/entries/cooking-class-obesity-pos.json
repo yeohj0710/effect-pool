@@ -1,28 +1,33 @@
 {
-  "id": "cooking-class-obesity-pos",
-  "subj": "cooking class",
-  "claim": "요리 수업이 아동 비만 위험 지표를 줄인다",
-    "line": "요리 수업 후 아동의 BMI z점수와 허리둘레가 줄었습니다.",
-  "effect": "BMI z·허리둘레 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 319,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 학교 기반 생활습관 중재입니다.",
-  "why": "저소득 히스패닉·라틴계 초등학생 319명을 학교 단위로 12주간 요리·영양·원예 수업군과 대조군에 무작위 배정한 LA Sprouts 시험입니다.",
-  "saw": "수업군 172명은 대조군 147명보다 BMI z점수와 허리둘레가 더 크게 줄었습니다(BMI z -0.1 대 -0.04, P=0.01; 허리둘레 -1.2 대 0.1 cm, P<0.001). 식이섬유 섭취도 수업군에서 더 늘었습니다.",
-  "limit": "요리 수업만이 아니라 원예·영양 교육을 함께 시행했고 학교 단위 배정과 12주 추적에 그쳤습니다.",
-  "against": "과일 섭취 변화는 군 간 차이가 없었고 더 크고 장기적인 연구가 필요합니다.",
-  "use": "저소득 아동 비만 예방에서 요리·영양·원예를 묶은 학교 중재의 예비 근거로 사용합니다.",
-  "refs": [
-    { "label": "LA sprouts randomized controlled nutrition, cooking and gardening programme reduces obesity and metabolic risk in Hispanic/Latino youth", "doi": "10.1111/ijpo.12102", "pmid": "26909882" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=cooking class AND query.cond=Obesity → 60건, cooking class 개입명 직접 일치 1건",
-    "pubmed": "cooking class AND Obesity → 104건",
-    "negative": "cooking class AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 59건",
-    "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ "id": "cooking-class-obesity-pos",
+ "subj": "요리 수업",
+ "claim": "요리 수업이 아동 비만 위험 지표를 줄인다",
+ "line": "요리 수업 후 아동의 BMI z점수와 허리둘레가 줄었습니다.",
+ "effect": "BMI z·허리둘레 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 319,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "요리 수업은 허가 적응증을 적용하지 않는 학교 기반 생활습관 중재입니다.",
+ "why": "저소득 히스패닉·라틴계 초등학생 319명을 학교 단위로 12주간 요리·영양·원예 수업군과 대조군에 무작위 배정한 LA Sprouts 시험입니다.",
+ "saw": "수업군 172명은 대조군 147명보다 BMI z점수와 허리둘레가 더 크게 줄었습니다(BMI z -0.1 대 -0.04, P=0.01; 허리둘레 -1.2 대 0.1 cm, P<0.001). 식이섬유 섭취도 수업군에서 더 늘었습니다.",
+ "limit": "요리 수업만이 아니라 원예·영양 교육을 함께 시행했고 학교 단위 배정과 12주 추적에 그쳤습니다.",
+ "against": "과일 섭취 변화는 군 간 차이가 없었고 더 크고 장기적인 연구가 필요합니다.",
+ "use": "저소득 아동 비만 예방에서 요리·영양·원예를 묶은 학교 중재의 예비 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "LA sprouts randomized controlled nutrition, cooking and gardening programme reduces obesity and metabolic risk in Hispanic/Latino youth",
+   "doi": "10.1111/ijpo.12102",
+   "pmid": "26909882"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=cooking class AND query.cond=Obesity → 60건, cooking class 개입명 직접 일치 1건",
+  "pubmed": "cooking class AND Obesity → 104건",
+  "negative": "cooking class AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 59건",
+  "safety": "cooking class AND (adverse OR toxicity OR case report OR harm OR dropout) → 152건"
+ },
+ "vs": "LA Sprouts 요리·영양·텃밭 프로그램 vs 대조: BMI z점수 -0.10 vs -0.04, 허리둘레 -1.2 vs +0.1cm, 식이섬유 +3.4% vs -16.5%, 채소 섭취 -3.7% vs -26.1%; 학교 무작위시험 319명"
 }
