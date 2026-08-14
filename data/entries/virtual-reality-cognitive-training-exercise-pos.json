@@ -1,20 +1,33 @@
 {
-  "id": "virtual-reality-cognitive-training-exercise-pos",
-  "subj": "virtual reality cognitive training",
-  "claim": "운동에 가상현실 인지·운동 훈련을 더하면 인지기능과 보행이 좋아질 수 있다",
-  "line": "가상현실 운동은 인지 처리 속도를 높였습니다",
-  "effect": "124명, 인지처리속도 4.4점 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 124,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상현실 인지·운동 훈련은 의약품이 아닌 운동 재활 중재입니다",
-  "why": "다발성경화증 환자 124명을 가상현실을 더한 트레드밀과 트레드밀 단독으로 무작위 배정한 인지·운동 훈련시험입니다",
-  "saw": "124명을 무작위 배정했고 분석에는 가상현실군 53명과 대조군 51명이 포함됐습니다. 인지처리속도는 가상현실군 4.4점, 트레드밀군 0.8점 개선됐고 보행속도는 두 군 모두 약 10cm/s 좋아졌습니다",
-  "limit": "다발성경화증 연구이고 분석이 완전한 무작위 의도집단이 아니며 운동과 가상현실의 개별 효과를 분리할 수 없습니다",
-  "against": "가상현실 운동이 일반 운동보다 모든 사람의 인지를 높인다는 결과는 아닙니다",
-  "use": "인지·운동 저하가 있는 사람에게 가상현실 운동을 보조로 제공하고 보행·인지·우울과 기기 안전을 함께 측정합니다",
-  "refs": [{ "label": "Treadmill training with virtual reality to enhance gait and cognitive function among people with multiple sclerosis 2022 · Journal of Neurology", "doi": "10.1007/s00415-022-11469-1", "pmid": "36357586" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=virtual reality cognitive training AND condition=Exercise; 40건 반환, 중재명 일치 0건", "pubmed": "virtual reality cognitive training AND Exercise; 355편", "negative": "virtual reality cognitive training AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference); 273편", "safety": "virtual reality cognitive training AND Exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 42편" }
+ "id": "virtual-reality-cognitive-training-exercise-pos",
+ "subj": "가상현실 인지훈련",
+ "claim": "운동에 가상현실 인지·운동 훈련을 더하면 인지기능과 보행이 좋아질 수 있다",
+ "line": "가상현실 운동은 인지 처리 속도를 높였습니다",
+ "effect": "124명, 인지처리속도 4.4점 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 124,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상현실 인지·운동 훈련은 의약품이 아닌 운동 재활 중재입니다",
+ "why": "다발성경화증 환자 124명을 가상현실을 더한 트레드밀과 트레드밀 단독으로 무작위 배정한 인지·운동 훈련시험입니다",
+ "saw": "다발성경화증 환자 124명 무작위시험에서 트레드밀+VR군의 인지처리속도 개선이 트레드밀 단독군보다 컸고 보행은 두 군 모두 개선됐다.",
+ "limit": "다발성경화증 연구이고 분석이 완전한 무작위 의도집단이 아니며 운동과 가상현실의 개별 효과를 분리할 수 없습니다",
+ "against": "가상현실 운동이 일반 운동보다 모든 사람의 인지를 높인다는 결과는 아닙니다",
+ "use": "인지·운동 저하가 있는 사람에게 가상현실 운동을 보조로 제공하고 보행·인지·우울과 기기 안전을 함께 측정합니다",
+ "refs": [
+  {
+   "label": "Treadmill training with virtual reality to enhance gait and cognitive function among people with multiple sclerosis 2022 · Journal of Neurology",
+   "doi": "10.1007/s00415-022-11469-1",
+   "pmid": "36357586"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=virtual reality cognitive training AND condition=Exercise; 40건 반환, 중재명 일치 0건",
+  "pubmed": "virtual reality cognitive training AND Exercise; 355편",
+  "negative": "virtual reality cognitive training AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference); 273편",
+  "safety": "virtual reality cognitive training AND Exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 42편"
+ },
+ "vs": "트레드밀+VR 인지운동 vs 트레드밀: SDMT 개선 4.4 vs 0.8점, 상호작용 p=.027; 보행속도는 두 군 모두 약 10 cm/s 개선"
 }

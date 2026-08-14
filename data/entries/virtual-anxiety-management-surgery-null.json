@@ -1,28 +1,33 @@
 {
-  "id": "virtual-anxiety-management-surgery-null",
-  "subj": "virtual anxiety management",
-  "claim": "최소침습 부인과 수술 후 20분 가상현실은 통증·불안을 표준 진통보다 개선하지 못했습니다",
-  "line": "수술 후 가상현실은 통증과 불안을 개선하지 못했습니다",
-  "effect": "통증·불안 군간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 131,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수술 후 가상현실은 통증·불안의 의약품 허가 적응증이 아닌 비약물 중재입니다.",
-  "why": "표준 수술 후 진통에 짧은 가상현실 세션을 추가하면 통증과 불안을 낮출 수 있는지 평가했습니다.",
-  "saw": "양성 부인과 질환의 최소침습 수술 환자 131명을 무작위 배정했습니다. 20분 가상현실 추가군은 1차 통증 변화, 최대 통증, 불안, 입원기간에서 대조군과 차이가 없었습니다.",
-  "limit": "수술 후 6~7시간의 단기 결과만 측정했습니다.",
-  "against": "가상현실은 어지럼·오심 등 이상반응을 포함해 표준 치료보다 이득을 보이지 않았습니다.",
-  "use": "수술 후 불안·통증 보조중재를 도입하기 전 충분한 규모의 재현 시험을 확인합니다.",
-  "refs": [
-    { "label": "최소침습 부인과 수술 후 가상현실 무작위시험", "doi": "10.2196/92442", "pmid": "42390916" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "virtual anxiety management AND Surgery · 41건 반환·0건 중재명 일치",
-    "pubmed": "virtual anxiety management AND Surgery · 379건",
-    "negative": "virtual anxiety management AND Surgery AND (no effect OR did not OR failed OR negative OR no significant difference) · 316건",
-    "safety": "virtual anxiety management AND Surgery AND (adverse OR toxicity OR case report OR harm OR dropout) · 139건"
+ "id": "virtual-anxiety-management-surgery-null",
+ "subj": "가상 불안 관리",
+ "claim": "최소침습 부인과 수술 후 20분 가상현실은 통증·불안을 표준 진통보다 개선하지 못했습니다",
+ "line": "수술 후 가상현실은 통증과 불안을 개선하지 못했습니다",
+ "effect": "통증·불안 군간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 131,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수술 후 가상현실은 통증·불안의 의약품 허가 적응증이 아닌 비약물 중재입니다.",
+ "why": "표준 수술 후 진통에 짧은 가상현실 세션을 추가하면 통증과 불안을 낮출 수 있는지 평가했습니다.",
+ "saw": "최소침습 부인과 수술 환자 131명 무작위시험에서 20분 VR은 표준 진통보다 통증·불안을 유의하게 낮추지 못했다.",
+ "limit": "수술 후 6~7시간의 단기 결과만 측정했습니다.",
+ "against": "가상현실은 어지럼·오심 등 이상반응을 포함해 표준 치료보다 이득을 보이지 않았습니다.",
+ "use": "수술 후 불안·통증 보조중재를 도입하기 전 충분한 규모의 재현 시험을 확인합니다.",
+ "refs": [
+  {
+   "label": "최소침습 부인과 수술 후 가상현실 무작위시험",
+   "doi": "10.2196/92442",
+   "pmid": "42390916"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "virtual anxiety management AND Surgery · 41건 반환·0건 중재명 일치",
+  "pubmed": "virtual anxiety management AND Surgery · 379건",
+  "negative": "virtual anxiety management AND Surgery AND (no effect OR did not OR failed OR negative OR no significant difference) · 316건",
+  "safety": "virtual anxiety management AND Surgery AND (adverse OR toxicity OR case report OR harm OR dropout) · 139건"
+ },
+ "vs": "수술 후 VR vs 표준 진통: 통증 변화 MD 0.169 (95% CI -0.271~0.608), p=.45; 최대 통증 MD 0.839 (-0.101~1.779), p=.08; 불안 MD 0.042 (-0.365~0.449), p=.84"
 }

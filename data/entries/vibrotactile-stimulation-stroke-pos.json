@@ -1,28 +1,32 @@
 {
-  "id": "vibrotactile-stimulation-stroke-pos",
-  "subj": "진동 촉각 자극",
-  "claim": "뇌졸중 후 경직에 진동 촉각 자극 장갑을 쓴다",
-  "line": "진동 촉각 장갑은 뇌졸중 후 손의 경직을 줄였습니다",
-  "effect": "경직 점수 −0.9~−1.1",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "진동 촉각 장갑은 의약품 허가 적응증의 대상이 아닌 재활 기기입니다.",
-  "why": "만성 뇌졸중 환자가 진동 촉각 장갑을 집이나 일상에서 8주 사용한 전향적 연구입니다.",
-  "saw": "20명이 하루 3시간씩 8주 사용한 뒤 Modified Ashworth 점수가 평균 0.9, Modified Tardieu 점수가 0.7 줄었습니다.",
-  "limit": "두 군 비교가 아닌 소규모 전향적 연구이며 보툴리눔 독소 사용 여부가 섞였습니다.",
-  "against": "표준치료를 대체할 확증적 무작위 근거는 부족합니다.",
-  "use": "뇌졸중 후 경직의 가정용 보조기기 연구 신호로 참고합니다.",
-  "refs": [
-    { "label": "뇌졸중 후 진동 촉각 자극 장갑 연구", "pmid": "37149017" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "intr=vibrotactile stimulation, cond=Stroke · 9건 반환, InterventionName 완전일치 3건",
-    "pubmed": "vibrotactile stimulation AND Stroke · 20건",
-    "negative": "vibrotactile stimulation AND Stroke AND (no effect OR no benefit OR no difference OR failed OR ineffective OR null) · 10건",
-    "safety": "vibrotactile stimulation AND Stroke AND (adverse OR safety OR harm OR dropout OR injury) · 1건"
+ "id": "vibrotactile-stimulation-stroke-pos",
+ "subj": "진동 촉각 자극",
+ "claim": "뇌졸중 후 경직에 진동 촉각 자극 장갑을 쓴다",
+ "line": "진동 촉각 장갑은 뇌졸중 후 손의 경직을 줄였습니다",
+ "effect": "경직 점수 −0.9~−1.1",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 20,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "진동 촉각 장갑은 의약품 허가 적응증의 대상이 아닌 재활 기기입니다.",
+ "why": "만성 뇌졸중 환자가 진동 촉각 장갑을 집이나 일상에서 8주 사용한 전향적 연구입니다.",
+ "saw": "만성 뇌졸중 환자 20명에서 VTS 장갑은 보툴리눔독소 사용 전후와 비교됐다. BTX-A 사용군 11명 중 6명은 장갑 사용 중 MAS 변화가 더 컸고, 평균 변화는 -1.8 대 -1.6이었다.",
+ "limit": "두 군 비교가 아닌 소규모 전향적 연구이며 보툴리눔 독소 사용 여부가 섞였습니다.",
+ "against": "표준치료를 대체할 확증적 무작위 근거는 부족합니다.",
+ "use": "뇌졸중 후 경직의 가정용 보조기기 연구 신호로 참고합니다.",
+ "refs": [
+  {
+   "label": "뇌졸중 후 진동 촉각 자극 장갑 연구",
+   "pmid": "37149017"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "intr=vibrotactile stimulation, cond=Stroke · 9건 반환, InterventionName 완전일치 3건",
+  "pubmed": "vibrotactile stimulation AND Stroke · 20건",
+  "negative": "vibrotactile stimulation AND Stroke AND (no effect OR no benefit OR no difference OR failed OR ineffective OR null) · 10건",
+  "safety": "vibrotactile stimulation AND Stroke AND (adverse OR safety OR harm OR dropout OR injury) · 1건"
+ },
+ "vs": "진동 촉각 자극 장갑 vs 보툴리눔독소: BTX-A 사용군에서 MAS 변화 평균 -1.8 vs -1.6; 전체 장갑군 8주 MAS -0.9, 12주 -1.1, p=.0014·.00025"
 }

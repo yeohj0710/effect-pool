@@ -1,20 +1,33 @@
 {
-  "id": "virtual-reality-cognitive-training-physical-therapy-pos",
-  "subj": "virtual reality cognitive training",
-  "claim": "물리치료·재활에 가상현실 인지훈련을 더하면 인지기능이 좋아질 수 있다",
-  "line": "VR 인지훈련 효과는 일관되지 않았습니다",
-  "effect": "37개 연구, 전체 인지 SMD 0.44",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가상현실 인지훈련은 의약품이 아닌 물리치료·재활 보조 중재입니다",
-  "why": "경도인지장애와 치매의 디지털 인지재활 중재를 능동 대조군·통상 진료와 비교한 체계적 문헌고찰과 메타분석입니다",
-  "saw": "37개 연구를 분석한 전체 디지털 인지재활의 인지기능 SMD는 0.44였습니다. 가상현실 하위군은 SMD 0.32였지만 95% 신뢰구간이 -0.34~0.98로 일관되지 않았습니다",
-  "limit": "초록에 전체 참가자 수가 없고 가상현실 하위군의 효과가 통계적으로 일관되지 않았으며 물리치료만의 추가 효과를 분리하지 않았습니다",
-  "against": "가상현실 인지훈련이 능동 인지치료보다 우월하거나 물리치료를 대신한다는 근거는 부족합니다",
-  "use": "재활에 가상현실 인지훈련을 보조로 붙일 때 통상·능동 대조군 대비 효과와 멀미·피로를 함께 평가합니다",
-  "refs": [{ "label": "Comparing Digital Cognitive Interventions to Active Controls and Usual Care for Mild Cognitive Impairment and Dementia 2026 · Medicina", "doi": "10.3390/medicina62061162", "pmid": "42356174" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=virtual reality cognitive training AND condition=Physical Therapy; 15건 반환, 중재명 일치 0건", "pubmed": "virtual reality cognitive training AND Physical Therapy; 320편", "negative": "virtual reality cognitive training AND Physical Therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 257편", "safety": "virtual reality cognitive training AND Physical Therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 38편" }
+ "id": "virtual-reality-cognitive-training-physical-therapy-pos",
+ "subj": "가상현실 인지훈련",
+ "claim": "물리치료·재활에 가상현실 인지훈련을 더하면 인지기능이 좋아질 수 있다",
+ "line": "VR 인지훈련 효과는 일관되지 않았습니다",
+ "effect": "37개 연구, 전체 인지 SMD 0.44",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가상현실 인지훈련은 의약품이 아닌 물리치료·재활 보조 중재입니다",
+ "why": "경도인지장애와 치매의 디지털 인지재활 중재를 능동 대조군·통상 진료와 비교한 체계적 문헌고찰과 메타분석입니다",
+ "saw": "경도인지장애·치매 37개 연구 메타분석에서 디지털 인지중재의 전역 인지 효과는 SMD 0.44였고 능동 대조군 하위분석은 유의하지 않았다.",
+ "limit": "초록에 전체 참가자 수가 없고 가상현실 하위군의 효과가 통계적으로 일관되지 않았으며 물리치료만의 추가 효과를 분리하지 않았습니다",
+ "against": "가상현실 인지훈련이 능동 인지치료보다 우월하거나 물리치료를 대신한다는 근거는 부족합니다",
+ "use": "재활에 가상현실 인지훈련을 보조로 붙일 때 통상·능동 대조군 대비 효과와 멀미·피로를 함께 평가합니다",
+ "refs": [
+  {
+   "label": "Comparing Digital Cognitive Interventions to Active Controls and Usual Care for Mild Cognitive Impairment and Dementia 2026 · Medicina",
+   "doi": "10.3390/medicina62061162",
+   "pmid": "42356174"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=virtual reality cognitive training AND condition=Physical Therapy; 15건 반환, 중재명 일치 0건",
+  "pubmed": "virtual reality cognitive training AND Physical Therapy; 320편",
+  "negative": "virtual reality cognitive training AND Physical Therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 257편",
+  "safety": "virtual reality cognitive training AND Physical Therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 38편"
+ },
+ "vs": "디지털 인지재활 vs 대조군: 전역 인지 SMD 0.44 (95% CI 0.18~0.69); 능동 대조군 비교 SMD 0.24 (-0.35~0.82); VR 하위군 SMD 0.32 (-0.34~0.98)"
 }

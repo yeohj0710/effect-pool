@@ -1,28 +1,32 @@
 {
-  "id": "virtual-nurse-nursing-null",
-  "subj": "virtual nurse",
-  "claim": "퇴원 교육을 가상 간호사와 병상 간호사가 제공한다",
-  "line": "가상 간호사 퇴원 교육은 병상 간호사와 만족도·30일 응급실 방문이 다르지 않았다.",
-  "effect": "만족도·30일 ED 차이 없음",
-  "tier": "obs",
-  "dir": "null",
-  "n": 111,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상 간호사는 비약물 간호 서비스이며 간호 교육 방식은 허가 약물 적응증이 아니다.",
-  "why": "정형외과 관절 치환 환자의 퇴원 교육을 가상 간호사 또는 병상 간호사가 제공한 비동등 대조 준실험 연구다.",
-  "saw": "111명 중 가상 간호사군 44명과 병상 간호사군 67명의 만족도와 30일 응급실 방문에서 유의한 차이가 없었다.",
-  "limit": "편의 표본과 비동등 대조군을 사용했고 응급실 방문 사건이 적어 작은 차이를 찾기 어려웠다.",
-  "against": "가상 간호사군의 만족도 평균은 높았지만 통계적으로 유의하지 않아 우월성을 확인하지 못했다.",
-  "use": "퇴원 교육을 가상 간호사로 전환할 때 만족도와 재방문을 병상 간호와 함께 비교할 근거로 기록한다.",
-  "refs": [
-    { "label": "Virtual Nurse Visits: Impact on Discharge Satisfaction and 30-Day ED Rates in Orthopedic Total Joint Replacement Patients", "pmid": "41603658" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"virtual nurse\" AND \"Nursing\" 검색 9건",
-    "pubmed": "\"virtual nurse\" AND \"Nursing\" 검색 61건; PMID 41603658 직접 환자 연구",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 24건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 10건"
+ "id": "virtual-nurse-nursing-null",
+ "subj": "가상 간호사",
+ "claim": "퇴원 교육을 가상 간호사와 병상 간호사가 제공한다",
+ "line": "가상 간호사 퇴원 교육은 병상 간호사와 만족도·30일 응급실 방문이 다르지 않았다.",
+ "effect": "만족도·30일 ED 차이 없음",
+ "tier": "obs",
+ "dir": "null",
+ "n": 111,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상 간호사는 비약물 간호 서비스이며 간호 교육 방식은 허가 약물 적응증이 아니다.",
+ "why": "정형외과 관절 치환 환자의 퇴원 교육을 가상 간호사 또는 병상 간호사가 제공한 비동등 대조 준실험 연구다.",
+ "saw": "관절 치환술 환자 111명에서 가상 간호사와 병상 간호사의 퇴원교육 만족도는 4.88 대 4.55점이었고 전체 차이는 유의하지 않았다.",
+ "limit": "편의 표본과 비동등 대조군을 사용했고 응급실 방문 사건이 적어 작은 차이를 찾기 어려웠다.",
+ "against": "가상 간호사군의 만족도 평균은 높았지만 통계적으로 유의하지 않아 우월성을 확인하지 못했다.",
+ "use": "퇴원 교육을 가상 간호사로 전환할 때 만족도와 재방문을 병상 간호와 함께 비교할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Virtual Nurse Visits: Impact on Discharge Satisfaction and 30-Day ED Rates in Orthopedic Total Joint Replacement Patients",
+   "pmid": "41603658"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"virtual nurse\" AND \"Nursing\" 검색 9건",
+  "pubmed": "\"virtual nurse\" AND \"Nursing\" 검색 61건; PMID 41603658 직접 환자 연구",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 24건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 10건"
+ },
+ "vs": "가상 간호사 vs 병상 간호사 퇴원교육: 만족도 4.88 vs 4.55점, Cohen d=0.39, p=.205; 30일 응급실 방문은 두 군 모두 1% 미만"
 }

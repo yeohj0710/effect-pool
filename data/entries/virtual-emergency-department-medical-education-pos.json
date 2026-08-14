@@ -1,28 +1,31 @@
 {
-  "id": "virtual-emergency-department-medical-education-pos",
-  "subj": "virtual emergency department",
-  "claim": "가상 응급실 교육게임을 의대생 임상추론 교육에 쓴다",
-  "line": "가상 응급실 교육게임은 의대생의 임상 추론 지식을 높였다.",
-  "effect": "선언적 지식 60.4→76.0점",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 140,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상 응급실은 교육용 게임이며 허가 약물 적응증이 아니다.",
-  "why": "독일 의대생 140명이 가상 응급실 게임 EMERGE 전후에 선언적·절차적 지식 평가를 받았다.",
-  "saw": "객관식 정답률은 사전 60.4점에서 사후 76.0점으로 올랐고, 저학년에서 증가 폭이 컸다.",
-  "limit": "비무작위 전후 비교이고 참여자가 자발적으로 지원해 교육 효과를 과대평가했을 수 있다.",
-  "against": "게임을 쓰지 않은 대조군과의 비교가 없어 정규 교육의 추가 효과는 확정할 수 없다.",
-  "use": "의대 임상추론 교육에서 가상 응급실 게임을 보조 수업으로 평가할 근거로 기록한다.",
-  "refs": [
-    { "label": "Serious Games in Surgical Medical Education: A Virtual Emergency Department as a Tool for Teaching Clinical Reasoning to Medical Students", "pmid": "30835239" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"virtual emergency department\" AND \"Medical Education\" 검색 0건",
-    "pubmed": "\"virtual emergency department\" AND \"Medical Education\" 검색 2건; PMID 30835239 직접 교육 연구",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ "id": "virtual-emergency-department-medical-education-pos",
+ "subj": "가상 응급실",
+ "claim": "가상 응급실 교육게임을 의대생 임상추론 교육에 쓴다",
+ "line": "가상 응급실 교육게임은 의대생의 임상 추론 지식을 높였다.",
+ "effect": "선언적 지식 60.4→76.0점",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 140,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상 응급실은 교육용 게임이며 허가 약물 적응증이 아니다.",
+ "why": "독일 의대생 140명이 가상 응급실 게임 EMERGE 전후에 선언적·절차적 지식 평가를 받았다.",
+ "saw": "객관식 정답률은 사전 60.4점에서 사후 76.0점으로 올랐고, 저학년에서 증가 폭이 컸다.",
+ "limit": "비무작위 전후 비교이고 참여자가 자발적으로 지원해 교육 효과를 과대평가했을 수 있다.",
+ "against": "게임을 쓰지 않은 대조군과의 비교가 없어 정규 교육의 추가 효과는 확정할 수 없다.",
+ "use": "의대 임상추론 교육에서 가상 응급실 게임을 보조 수업으로 평가할 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Serious Games in Surgical Medical Education: A Virtual Emergency Department as a Tool for Teaching Clinical Reasoning to Medical Students",
+   "pmid": "30835239"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"virtual emergency department\" AND \"Medical Education\" 검색 0건",
+  "pubmed": "\"virtual emergency department\" AND \"Medical Education\" 검색 2건; PMID 30835239 직접 교육 연구",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 0건"
+ }
 }
