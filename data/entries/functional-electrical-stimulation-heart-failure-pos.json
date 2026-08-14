@@ -1,29 +1,38 @@
 {
-  "id": "functional-electrical-stimulation-heart-failure-pos",
-  "subj": "functional electrical stimulation",
-  "claim": "하지 FES가 심부전 환자의 운동능력과 삶의 질을 높인다",
-  "line": "심부전에서 하지 FES 뒤 운동능력이 나아졌다.",
-  "effect": "6분 보행 +48.03m",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 518,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "하지 FES는 심부전의 허가 치료제가 아닌 재활 기기 중재다.",
-  "why": "심부전 환자에게 다리 FES를 적용한 무작위시험을 모은 체계적 문헌고찰·메타분석이다.",
-  "saw": "14개 무작위시험 518명을 분석했다. 최대 산소섭취량(SMD 0.33), 6분 보행거리(+48.03m), 심부전 삶의 질 점수가 개선됐지만 하지 근력은 유의하게 늘지 않았다.",
-  "limit": "FES 방식과 대조군이 연구마다 달랐고 하지 근력 결과는 유의하지 않았다.",
-  "against": "운동할 수 있는 환자에서 능동 유산소·저항운동보다 우월하다는 근거는 아니다.",
-  "use": "능동 운동이 어려운 심부전 환자의 재활 보조 기기로 안전성과 운동능력을 함께 평가한다.",
-  "refs": [
-    { "label": "심부전 하지 FES 메타분석", "doi": "10.1177/02692155211056999", "pmid": "34881678" },
-    { "label": "만성 심부전 FES 메타분석", "doi": "10.1016/j.ijcard.2011.12.019", "pmid": "22236510" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "functional electrical stimulation AND Heart Failure; 24건",
-    "pubmed": "functional electrical stimulation AND Heart Failure; 1448건",
-    "negative": "functional electrical stimulation AND Heart Failure AND (no effect OR did not OR failed OR negative); 확인",
-    "safety": "functional electrical stimulation AND (adverse OR skin OR pain OR dropout); 확인"
+ "id": "functional-electrical-stimulation-heart-failure-pos",
+ "subj": "기능적 전기자극",
+ "claim": "하지 FES가 심부전 환자의 운동능력과 삶의 질을 높인다",
+ "line": "심부전에서 하지 FES 뒤 운동능력이 나아졌다.",
+ "effect": "6분 보행 +48.03m",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 518,
+ "vs": "심부전 환자 518명, 무작위시험 14개 메타분석; 하지 기능적 전기자극군 대비 대조군의 peak VO₂ SMD 0.33(95% CI 0.07–0.59; 8개 RCT, n=321), 6분 보행거리 MD 48.03 m(28.50–67.57; 10개 RCT, n=380), MLHFQ 삶의 질 점수 MD −8.23(−12.64–−3.83; 9개 RCT, n=383); 하지 근력 차이는 유의하지 않음(SMD 0.26, −0.18–0.71; 5개 RCT, n=218)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "하지 FES는 심부전의 허가 치료제가 아닌 재활 기기 중재다.",
+ "why": "심부전 환자에게 다리 FES를 적용한 무작위시험을 모은 체계적 문헌고찰·메타분석이다.",
+ "saw": "14개 무작위시험 518명을 분석했다. 최대 산소섭취량(SMD 0.33), 6분 보행거리(+48.03m), 심부전 삶의 질 점수가 개선됐지만 하지 근력은 유의하게 늘지 않았다.",
+ "limit": "FES 방식과 대조군이 연구마다 달랐고 하지 근력 결과는 유의하지 않았다.",
+ "against": "운동할 수 있는 환자에서 능동 유산소·저항운동보다 우월하다는 근거는 아니다.",
+ "use": "능동 운동이 어려운 심부전 환자의 재활 보조 기기로 안전성과 운동능력을 함께 평가한다.",
+ "refs": [
+  {
+   "label": "심부전 하지 FES 메타분석",
+   "doi": "10.1177/02692155211056999",
+   "pmid": "34881678"
+  },
+  {
+   "label": "만성 심부전 FES 메타분석",
+   "doi": "10.1016/j.ijcard.2011.12.019",
+   "pmid": "22236510"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "functional electrical stimulation AND Heart Failure; 24건",
+  "pubmed": "functional electrical stimulation AND Heart Failure; 1448건",
+  "negative": "functional electrical stimulation AND Heart Failure AND (no effect OR did not OR failed OR negative); 확인",
+  "safety": "functional electrical stimulation AND (adverse OR skin OR pain OR dropout); 확인"
+ }
 }

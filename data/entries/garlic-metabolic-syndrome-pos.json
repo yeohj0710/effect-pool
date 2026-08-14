@@ -1,29 +1,37 @@
 {
-  "id": "garlic-metabolic-syndrome-pos",
-  "subj": "garlic",
-  "claim": "마늘 보충이 대사증후군의 혈당·지질·혈압 지표를 개선할 수 있다",
-  "line": "마늘 보충은 대사증후군 지표를 개선했습니다.",
-  "effect": "혈당·지질·혈압·염증 지표 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 999,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "마늘은 대사증후군 치료의 허가 의약품이 아닙니다.",
-  "why": "대사증후군 또는 대사질환 성인을 대상으로 한 마늘 단독 무작위시험 19건을 메타분석했습니다.",
-  "saw": "999명에서 위약보다 중성지방, 총콜레스테롤, 저밀도 지단백, 이완기혈압, 체질량지수, 허리둘레가 낮았습니다.",
-  "limit": "시험 간 이질성과 출판편향 가능성이 커 대사증후군 치료 효과를 확정하기 어렵습니다.",
-  "against": "마늘의 제형·용량과 시험 기간이 달라 어떤 제품이 같은 효과를 내는지 알 수 없습니다.",
-  "use": "식사·운동 치료에 더하는 연구 가설로만 검토합니다.",
-  "refs": [
-    { "label": "Garlic supplementation for metabolic syndrome · 메타분석", "doi": "10.1186/s12906-023-04038-0", "pmid": "37481521" },
-    { "label": "Garlic and metabolic syndrome components · 체계적 문헌고찰·메타분석", "doi": "10.1016/j.jep.2023.116960", "pmid": "37517570" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "garlic AND Metabolic Syndrome · 3건",
-    "pubmed": "garlic AND metabolic syndrome · 63건",
-    "negative": "garlic AND metabolic syndrome AND (no effect OR no significant difference OR failed OR negative OR null) · 60건",
-    "safety": "garlic AND (adverse OR toxicity OR harm OR case report) · 1795건"
+ "id": "garlic-metabolic-syndrome-pos",
+ "subj": "마늘",
+ "claim": "마늘 보충이 대사증후군의 혈당·지질·혈압 지표를 개선할 수 있다",
+ "line": "마늘 보충은 대사증후군 지표를 개선했습니다.",
+ "effect": "혈당·지질·혈압·염증 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 999,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "마늘은 대사증후군 치료의 허가 의약품이 아닙니다.",
+ "why": "대사증후군 또는 대사질환 성인을 대상으로 한 마늘 단독 무작위시험 19건을 메타분석했습니다.",
+ "saw": "999명에서 위약보다 중성지방, 총콜레스테롤, 저밀도 지단백, 이완기혈압, 체질량지수, 허리둘레가 낮았습니다.",
+ "limit": "시험 간 이질성과 출판편향 가능성이 커 대사증후군 치료 효과를 확정하기 어렵습니다.",
+ "against": "마늘의 제형·용량과 시험 기간이 달라 어떤 제품이 같은 효과를 내는지 알 수 없습니다.",
+ "use": "식사·운동 치료에 더하는 연구 가설로만 검토합니다.",
+ "refs": [
+  {
+   "label": "Garlic supplementation for metabolic syndrome · 메타분석",
+   "doi": "10.1186/s12906-023-04038-0",
+   "pmid": "37481521"
+  },
+  {
+   "label": "Garlic and metabolic syndrome components · 체계적 문헌고찰·메타분석",
+   "doi": "10.1016/j.jep.2023.116960",
+   "pmid": "37517570"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "garlic AND Metabolic Syndrome · 3건",
+  "pubmed": "garlic AND metabolic syndrome · 63건",
+  "negative": "garlic AND metabolic syndrome AND (no effect OR no significant difference OR failed OR negative OR null) · 60건",
+  "safety": "garlic AND (adverse OR toxicity OR harm OR case report) · 1795건"
+ }
 }

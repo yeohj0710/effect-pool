@@ -1,28 +1,33 @@
 {
-  "id": "forest-walk-anxiety-pos",
-  "subj": "forest walk",
-  "claim": "숲길 걷기가 불안을 줄이는가",
-  "line": "숲길 걷기는 도시 걷기보다 상태불안을 낮췄습니다.",
-  "effect": "상태불안 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 81,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "숲길 걷기는 불안의 의약품 허가 적응증이 아닌 환경·신체활동 중재입니다.",
-  "why": "숲길과 도시 걷기를 비교한 실험에서 걷는 동안의 즐거움이 상태불안 변화에 미치는 경로를 분석했습니다.",
-  "saw": "ClinicalTrials.gov NCT04914572 등록 시험은 81명을 대상으로 숲길 걷기를 평가했습니다. PubMed 연구에서는 숲길 걷기가 도시 걷기보다 걷는 즐거움을 높였고, 즐거움이 걷기 전후 상태불안 감소를 매개했습니다.",
-  "limit": "불안장애 환자 치료시험이 아니라 걷기 환경을 비교한 실험이며, 즐거움의 매개 분석은 인과 효과를 완전히 증명하지 않습니다.",
-  "against": "정신질환 진단군을 대상으로 한 장기 불안 치료 효과와 재발 예방은 확인되지 않았습니다.",
-  "use": "불안 완화에서 숲길 걷기를 약물 대체가 아닌 짧은 환경·활동 중재로 설명합니다.",
-  "refs": [
-    { "label": "숲길 걷기와 상태불안 즐거움 매개 연구", "doi": "10.1016/j.healthplace.2025.103498", "pmid": "40493984", "nct": "NCT04914572" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=forest walk AND query.cond=Anxiety; 16건 반환, NCT04914572에서 Therapeutic rainforest walk 직접 확인",
-    "pubmed": "forest walk AND Anxiety; 4편",
-    "negative": "forest walk AND Anxiety AND (no effect OR no significant difference OR failed OR negative); 0편",
-    "safety": "forest walk AND (adverse OR toxicity OR harm OR dropout OR case report); 1편"
+ "id": "forest-walk-anxiety-pos",
+ "subj": "숲길 걷기",
+ "claim": "숲길 걷기가 불안을 줄이는가",
+ "line": "숲길 걷기는 도시 걷기보다 상태불안을 낮췄습니다.",
+ "effect": "상태불안 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 81,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "숲길 걷기는 불안의 의약품 허가 적응증이 아닌 환경·신체활동 중재입니다.",
+ "why": "숲길과 도시 걷기를 비교한 실험에서 걷는 동안의 즐거움이 상태불안 변화에 미치는 경로를 분석했습니다.",
+ "saw": "ClinicalTrials.gov NCT04914572 등록 시험은 81명을 대상으로 숲길 걷기를 평가했습니다. PubMed 연구에서는 숲길 걷기가 도시 걷기보다 걷는 즐거움을 높였고, 즐거움이 걷기 전후 상태불안 감소를 매개했습니다.",
+ "limit": "불안장애 환자 치료시험이 아니라 걷기 환경을 비교한 실험이며, 즐거움의 매개 분석은 인과 효과를 완전히 증명하지 않습니다.",
+ "against": "정신질환 진단군을 대상으로 한 장기 불안 치료 효과와 재발 예방은 확인되지 않았습니다.",
+ "use": "불안 완화에서 숲길 걷기를 약물 대체가 아닌 짧은 환경·활동 중재로 설명합니다.",
+ "refs": [
+  {
+   "label": "숲길 걷기와 상태불안 즐거움 매개 연구",
+   "doi": "10.1016/j.healthplace.2025.103498",
+   "pmid": "40493984",
+   "nct": "NCT04914572"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=forest walk AND query.cond=Anxiety; 16건 반환, NCT04914572에서 Therapeutic rainforest walk 직접 확인",
+  "pubmed": "forest walk AND Anxiety; 4편",
+  "negative": "forest walk AND Anxiety AND (no effect OR no significant difference OR failed OR negative); 0편",
+  "safety": "forest walk AND (adverse OR toxicity OR harm OR dropout OR case report); 1편"
+ }
 }

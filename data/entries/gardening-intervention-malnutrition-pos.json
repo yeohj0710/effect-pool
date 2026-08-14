@@ -1,26 +1,33 @@
 {
-  "id": "gardening-intervention-malnutrition-pos",
-  "subj": "gardening intervention",
-  "claim": "가정 텃밭은 아동의 영양실조를 개선할 가능성이 있다",
-  "line": "가정 텃밭은 아동의 식이 다양성을 높였지만 성장 효과는 작았다.",
-  "effect": "성장·식이 다양성 개선 가능성",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2498,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
-  "why": "가정 텃밭과 식량 생산 중재가 아동 영양 결과에 미치는 효과를 본 시험 종합",
-  "saw": "16개 시험 2,498명 아동에서 발육부진·저체중 효과는 작고 근거 확실도는 낮았으며 식이 다양성은 증가했다",
-  "limit": "영양실조 유형과 지역이 다양하고 근거 확실도가 낮다",
-  "against": "영양실명과 사망을 보고한 시험은 없었다",
-  "use": "가정 텃밭은 비타민 A 보충과 함께 아동 영양 프로그램의 보조 수단으로 평가할 수 있다",
-  "refs": [{ "label": "가정 식량 생산과 아동 영양 메타분석", "doi": "10.1080/10408398.2020.1848786", "pmid": "33272038" }],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=gardening intervention · cond=Malnutrition 1건 반환, 물질 일치 1건",
-    "pubmed": "gardening intervention AND Malnutrition 151건",
-    "negative": "gardening intervention AND Malnutrition AND (no effect OR did not OR failed OR negative OR no significant difference) 72건",
-    "safety": "gardening intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 2404건"
+ "id": "gardening-intervention-malnutrition-pos",
+ "subj": "원예 중재",
+ "claim": "가정 텃밭은 아동의 영양실조를 개선할 가능성이 있다",
+ "line": "가정 텃밭은 아동의 식이 다양성을 높였지만 성장 효과는 작았다.",
+ "effect": "성장·식이 다양성 개선 가능성",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2498,
+ "vs": "아동 2,498명, 무작위시험 16개 메타분석; 가정 식량생산 중재군 대비 대조군의 성장부진 MD 0.13 z점(95% CI 0.01–0.24), 소모 MD 0.05(−0.04–0.14), 저체중 MD 0.07(−0.01–0.15), 식이 다양성 SMD 0.24(0.15–0.34); 성장·영양 결과 근거 확실성은 낮음",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 아님",
+ "why": "가정 텃밭과 식량 생산 중재가 아동 영양 결과에 미치는 효과를 본 시험 종합",
+ "saw": "16개 시험 2,498명 아동에서 발육부진·저체중 효과는 작고 근거 확실도는 낮았으며 식이 다양성은 증가했다",
+ "limit": "영양실조 유형과 지역이 다양하고 근거 확실도가 낮다",
+ "against": "영양실명과 사망을 보고한 시험은 없었다",
+ "use": "가정 텃밭은 비타민 A 보충과 함께 아동 영양 프로그램의 보조 수단으로 평가할 수 있다",
+ "refs": [
+  {
+   "label": "가정 식량 생산과 아동 영양 메타분석",
+   "doi": "10.1080/10408398.2020.1848786",
+   "pmid": "33272038"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=gardening intervention · cond=Malnutrition 1건 반환, 물질 일치 1건",
+  "pubmed": "gardening intervention AND Malnutrition 151건",
+  "negative": "gardening intervention AND Malnutrition AND (no effect OR did not OR failed OR negative OR no significant difference) 72건",
+  "safety": "gardening intervention AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 2404건"
+ }
 }

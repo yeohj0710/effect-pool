@@ -1,20 +1,33 @@
 {
-  "id": "fruit-and-vegetable-intake-breast-cancer-pos",
-  "subj": "fruit and vegetable intake",
-  "claim": "문화 맞춤 식단 수업이 유방암 생존자의 과일·채소 섭취를 늘린다",
-  "line": "문화 맞춤 수업 뒤 유방암 생존자의 과일·채소 섭취가 늘었다.",
-  "effect": "12개월 과일·채소 섭취 군간 차이 +96%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 167,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식단 수업은 의약품이 아닌 행동·영양 중재입니다.",
-  "why": "과일·채소 섭취가 적거나 신체활동이 부족한 라틴계 유방암 생존자 167명을 대면 수업·eHealth·대조군에 무작위 배정했습니다.",
-  "saw": "12개월에 대면 식단 수업군의 과일·채소 섭취가 대조군보다 96% 유리한 군간 차이를 보였습니다. 체중과 식품 에너지 밀도는 달라지지 않았습니다.",
-  "limit": "대상은 라틴계 유방암 생존자이고 모든 참가자가 Fitbit과 일대일 코칭을 받아 대면 수업만의 효과를 분리하기 어렵습니다.",
-  "against": "eHealth 통신을 더한 군은 식단·활동·체중에서 대조군과 유의한 차이가 없었습니다.",
-  "use": "유방암 생존자의 과일·채소 섭취에서 문화 맞춤 대면 수업의 장기 신호로 기록합니다.",
-  "refs": [{ "label": "라틴계 유방암 생존자 식단·신체활동 무작위시험", "doi": "10.1016/j.jand.2025.156260", "pmid": "41391604" }],
-  "queried": { "date": "2026-08-08", "ctgov": "fruit and vegetable intake AND Breast Cancer · 3건 반환", "pubmed": "fruit and vegetable intake AND Breast Cancer · 704편", "negative": "fruit and vegetable intake AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 430편", "safety": "fruit and vegetable intake AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 2752편" }
+ "id": "fruit-and-vegetable-intake-breast-cancer-pos",
+ "subj": "과일·채소 섭취",
+ "claim": "문화 맞춤 식단 수업이 유방암 생존자의 과일·채소 섭취를 늘린다",
+ "line": "문화 맞춤 수업 뒤 유방암 생존자의 과일·채소 섭취가 늘었다.",
+ "effect": "12개월 과일·채소 섭취 군간 차이 +96%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 167,
+ "vs": "라티나 유방암 생존자 167명 무작위 2×2 요인시험; 대면 식단·신체활동 수업군 대비 대조군의 12개월 과일·채소 섭취량은 10% 증가 대 44% 감소(군간 차이 +96%, P=.01); 대면 수업+eHealth군 대비 대조군의 주당 중등도 이상 신체활동은 34% 감소 대 53% 증가(군간 차이 −57%, P=.01)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식단 수업은 의약품이 아닌 행동·영양 중재입니다.",
+ "why": "과일·채소 섭취가 적거나 신체활동이 부족한 라틴계 유방암 생존자 167명을 대면 수업·eHealth·대조군에 무작위 배정했습니다.",
+ "saw": "12개월에 대면 식단 수업군의 과일·채소 섭취가 대조군보다 96% 유리한 군간 차이를 보였습니다. 체중과 식품 에너지 밀도는 달라지지 않았습니다.",
+ "limit": "대상은 라틴계 유방암 생존자이고 모든 참가자가 Fitbit과 일대일 코칭을 받아 대면 수업만의 효과를 분리하기 어렵습니다.",
+ "against": "eHealth 통신을 더한 군은 식단·활동·체중에서 대조군과 유의한 차이가 없었습니다.",
+ "use": "유방암 생존자의 과일·채소 섭취에서 문화 맞춤 대면 수업의 장기 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "라틴계 유방암 생존자 식단·신체활동 무작위시험",
+   "doi": "10.1016/j.jand.2025.156260",
+   "pmid": "41391604"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "fruit and vegetable intake AND Breast Cancer · 3건 반환",
+  "pubmed": "fruit and vegetable intake AND Breast Cancer · 704편",
+  "negative": "fruit and vegetable intake AND Breast Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 430편",
+  "safety": "fruit and vegetable intake AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 2752편"
+ }
 }
