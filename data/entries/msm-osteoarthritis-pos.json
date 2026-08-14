@@ -1,6 +1,6 @@
 {
   "id": "msm-osteoarthritis-pos",
-  "subj": "MSM",
+  "subj": "메틸설포닐메탄",
   "claim": "MSM이 무릎 골관절염의 통증과 기능을 개선한다",
   "line": "MSM은 무릎 골관절염의 기능을 조금 개선했지만 통증 효과는 작았습니다",
   "effect": "기능·전체 WOMAC 개선·통증 효과 작음",
@@ -15,6 +15,25 @@
   "limit": "표본이 49명이고 12주 시험이며 통증 변화의 임상적 의미가 작을 수 있습니다.",
   "against": "다른 복합 보충제 시험은 MSM 단독 효과를 분리하지 못했습니다.",
   "use": "골관절염에서 기능 지표에 남은 작은 보충제 신호로 기록하고 표준 치료를 대신하지 않습니다.",
-  "refs": [{ "label": "무릎 골관절염 MSM 무작위시험", "doi": "10.1186/1472-6882-11-50", "pmid": "21708034", "nct": "NCT01188213" }, { "label": "경도 무릎 통증 MSM 무작위시험", "doi": "10.3390/nu15132995", "pmid": "37447322" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=MSM · cond=Osteoarthritis 8건 반환·intervention 일치 3건", "pubmed": "MSM AND Osteoarthritis 43편; methylsulfonylmethane osteoarthritis randomized 32편", "negative": "MSM AND Osteoarthritis AND (no effect OR did not OR failed OR negative OR no significant difference) 33편", "safety": "MSM AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 1598편" }
+  "refs": [
+    {
+      "label": "무릎 골관절염 MSM 무작위시험",
+      "doi": "10.1186/1472-6882-11-50",
+      "pmid": "21708034",
+      "nct": "NCT01188213"
+    },
+    {
+      "label": "경도 무릎 통증 MSM 무작위시험",
+      "doi": "10.3390/nu15132995",
+      "pmid": "37447322"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "intr=MSM · cond=Osteoarthritis 8건 반환·intervention 일치 3건",
+    "pubmed": "MSM AND Osteoarthritis 43편; methylsulfonylmethane osteoarthritis randomized 32편",
+    "negative": "MSM AND Osteoarthritis AND (no effect OR did not OR failed OR negative OR no significant difference) 33편",
+    "safety": "MSM AND (adverse OR toxicity OR hepatotoxicity OR case report OR self-medication) 1598편"
+  },
+  "vs": "12주 WOMAC 신체기능 군간 차이 14.6mm(95% CI 4.3~25.0), p=.04; 전체 점수 차이 15.0mm(5.1~24.9), p=.03; 통증 차이 12.4mm(0.0~24.8), p=.08"
 }

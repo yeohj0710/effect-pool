@@ -1,6 +1,6 @@
 {
   "id": "propolis-diabetes-mellitus-pos",
-  "subj": "propolis",
+  "subj": "프로폴리스",
   "claim": "제2형 당뇨병에서 프로폴리스 보충이 혈당과 HbA1c를 낮출 수 있다",
   "line": "제2형 당뇨병에서 프로폴리스 보충으로 혈당과 HbA1c가 낮아졌습니다.",
   "effect": "공복혈당 -13.51 mg/dL",
@@ -16,9 +16,28 @@
   "against": "프로폴리스가 당뇨병 약물이나 식이·운동 관리를 대체한다는 근거는 아닙니다.",
   "use": "제2형 당뇨병에서 프로폴리스 보충의 혈당 보조 신호를 기록합니다.",
   "refs": [
-    { "label": "The efficacy of propolis on markers of glycemic control in adults with type 2 diabetes mellitus", "doi": "10.1002/ptr.6356", "pmid": "30950136" },
-    { "label": "Propolis supplementation improves cardiometabolic health in patients with type 2 diabetes mellitus", "doi": "10.1007/s40200-025-01682-w", "pmid": "40662144" },
-    { "label": "Propolis supplementation improves glycemic and antioxidant status in patients with type 2 diabetes", "doi": "10.1016/j.ctim.2019.03.001", "pmid": "30935545" }
+    {
+      "label": "The efficacy of propolis on markers of glycemic control in adults with type 2 diabetes mellitus",
+      "doi": "10.1002/ptr.6356",
+      "pmid": "30950136"
+    },
+    {
+      "label": "Propolis supplementation improves cardiometabolic health in patients with type 2 diabetes mellitus",
+      "doi": "10.1007/s40200-025-01682-w",
+      "pmid": "40662144"
+    },
+    {
+      "label": "Propolis supplementation improves glycemic and antioxidant status in patients with type 2 diabetes",
+      "doi": "10.1016/j.ctim.2019.03.001",
+      "pmid": "30935545"
+    }
   ],
-  "queried": { "date": "2026-08-07", "ctgov": "propolis AND Diabetes Mellitus · 9건, 직접 중재 5건", "pubmed": "propolis AND Diabetes Mellitus · 138편", "negative": "propolis AND Diabetes Mellitus AND (no effect OR did not OR failed OR no significant difference) · 128편", "safety": "propolis AND (adverse OR toxicity OR case report OR harm) · 1202편" }
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "propolis AND Diabetes Mellitus · 9건, 직접 중재 5건",
+    "pubmed": "propolis AND Diabetes Mellitus · 138편",
+    "negative": "propolis AND Diabetes Mellitus AND (no effect OR did not OR failed OR no significant difference) · 128편",
+    "safety": "propolis AND (adverse OR toxicity OR case report OR harm) · 1202편"
+  },
+  "vs": "무작위시험 6건(373명) 메타분석 공복혈당 MD -13.51mg/dL(95% CI -24.98~-2.04), HbA1c MD -0.52%(-0.94~-0.10)"
 }

@@ -1,6 +1,6 @@
 {
   "id": "pecan-cardiovascular-diseases-pos",
-  "subj": "pecan",
+  "subj": "피칸",
   "claim": "피칸을 간식으로 먹으면 심혈관질환 위험이 큰 성인의 혈중 지질을 낮춘다",
   "line": "피칸 간식은 심혈관 위험이 높은 성인의 혈중 지질을 줄였지만 혈관 기능과 혈압은 바꾸지 않았습니다",
   "effect": "총콜레스테롤·LDL 콜레스테롤·중성지방 감소",
@@ -16,7 +16,12 @@
   "against": "피칸이 혈관 기능·맥파속도·혈압을 개선하지 못한 결과가 함께 보고됐습니다.",
   "use": "대사 위험이 있는 성인의 간식을 피칸으로 바꿀 때 혈중 지질 변화가 있었던 무작위시험으로 참고합니다.",
   "refs": [
-    { "label": "Consuming pecans as a snack improves lipids/lipoproteins and diet quality compared with usual diet in adults at increased risk of cardiometabolic diseases: a randomized controlled trial", "doi": "10.1016/j.ajcnut.2025.01.024", "pmid": "39880306", "nct": "NCT05071807" }
+    {
+      "label": "Consuming pecans as a snack improves lipids/lipoproteins and diet quality compared with usual diet in adults at increased risk of cardiometabolic diseases: a randomized controlled trial",
+      "doi": "10.1016/j.ajcnut.2025.01.024",
+      "pmid": "39880306",
+      "nct": "NCT05071807"
+    }
   ],
   "queried": {
     "date": "2026-08-07",
@@ -24,5 +29,6 @@
     "pubmed": "pecan AND Cardiovascular Diseases → 38건",
     "negative": "pecan AND Cardiovascular Diseases AND (no effect OR did not OR failed OR negative OR no significant difference) → 30건",
     "safety": "pecan AND (adverse OR toxicity OR case report OR harm OR dropout) → 94건"
-  }
+  },
+  "vs": "12주 피칸군 vs 평소 식단: 총콜레스테롤 -8.1mg/dL(95% CI -14.5~-1.7), LDL -7.2(-12.3~-2.1), non-HDL -9.5(-15.3~-3.7), 중성지방 -16.4(-30.0~-2.9)"
 }
