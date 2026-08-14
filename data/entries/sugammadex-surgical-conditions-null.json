@@ -1,6 +1,6 @@
 {
   "id": "sugammadex-surgical-conditions-null",
-  "subj": "sugammadex",
+  "subj": "슈가마덱스",
   "claim": "sugammadex를 복벽 재건 수술의 장운동 회복에 쓴다",
   "line": "수감마덱스는 복벽 재건 후 위장관 회복을 개선하지 못했습니다",
   "effect": "GI-2 89시간 대 87시간; HR 0.96",
@@ -16,7 +16,11 @@
   "against": "신경근 차단 역전제를 바꿔도 장운동 회복이나 장폐색이 개선되지 않았습니다.",
   "use": "수술 회복 연구에서 부정적 비교 근거로 사용할 수 있지만 다른 수술에 일반화할 수 없습니다.",
   "refs": [
-    { "label": "복벽 재건 수술 sugammadex 위장관 회복 무작위시험", "doi": "10.1007/s10029-026-03814-4", "pmid": "42565876" }
+    {
+      "label": "복벽 재건 수술 sugammadex 위장관 회복 무작위시험",
+      "doi": "10.1007/s10029-026-03814-4",
+      "pmid": "42565876"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -24,5 +28,6 @@
     "pubmed": "sugammadex AND Surgical Conditions — PMID 42565876",
     "negative": "sugammadex AND Surgical Conditions AND (no effect OR did not OR failed OR negative OR no significant difference)",
     "safety": "sugammadex AND (adverse OR hypersensitivity OR safety)"
-  }
+  },
+  "vs": "복벽재건 RCT(n=177)에서 슈가마덱스 vs 네오스티그민 위장관 회복 중앙값 89시간 vs 87시간, p=.637; 장폐색 21% vs 25%, p=.52; HR 0.96(95% CI 0.69~1.32), p=.79"
 }

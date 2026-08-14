@@ -1,6 +1,6 @@
 {
   "id": "sugammadex-surgery-pos",
-  "subj": "sugammadex",
+  "subj": "슈가마덱스",
   "claim": "sugammadex를 수술 후 폐 합병증 감소에 쓴다",
   "line": "수감마덱스는 수술 후 폐 합병증의 복합 결과를 소폭 줄였습니다",
   "effect": "복합 결과 RR 0.88; 폐허탈 RR 0.86",
@@ -16,7 +16,11 @@
   "against": "사망과 폐렴은 유의한 차이가 없었고 모든 수술·환자군에 같은 효과가 적용되는지는 모릅니다.",
   "use": "수술 후 호흡기 합병증 연구의 근거로 사용할 수 있지만 통증이나 모든 수술 결과의 개선으로 확대하면 안 됩니다.",
   "refs": [
-    { "label": "sugammadex와 neostigmine 수술 후 폐 합병증 4상 무작위시험", "doi": "10.1016/S2213-2600(26)00158-X", "pmid": "42263720" }
+    {
+      "label": "sugammadex와 neostigmine 수술 후 폐 합병증 4상 무작위시험",
+      "doi": "10.1016/S2213-2600(26)00158-X",
+      "pmid": "42263720"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -24,5 +28,6 @@
     "pubmed": "sugammadex AND surgery AND (randomized OR trial) — PMID 42263720",
     "negative": "sugammadex AND surgery AND (no effect OR did not OR failed OR negative OR no significant difference)",
     "safety": "sugammadex AND (adverse OR hypersensitivity OR safety)"
-  }
+  },
+  "vs": "복부·흉부수술 RCT(n=3,498)에서 슈가마덱스 vs 네오스티그민 폐합병증·사망 19.0% vs 21.5%, RR 0.88(95% CI 0.77~1.00), p=.049; 무기폐 18.4% vs 21.1%, RR 0.86, p=.030"
 }

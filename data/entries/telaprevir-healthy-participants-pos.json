@@ -1,6 +1,6 @@
 {
   "id": "telaprevir-healthy-participants-pos",
-  "subj": "telaprevir",
+  "subj": "텔라프레비르",
   "claim": "건강한 성인에서 텔라프레비르의 약동학과 음식 영향을 평가한다",
   "line": "식후 텔라프레비르 노출 증가, 이상반응은 경미",
   "effect": "식후 Cmax/AUC 4.92/4.81배",
@@ -16,8 +16,15 @@
   "against": "음식이 약물 노출을 크게 높였으므로 실제 환자에게 음식 섭취와 무관하게 투여할 수 있다는 근거는 아닙니다.",
   "use": "건강한 성인 약동학 자료는 질환 치료 효과로 해석하지 말고 식사 조건과 내약성 연구의 참고값으로만 사용합니다.",
   "refs": [
-    { "label": "Pharmacokinetic characteristics of telaprevir in healthy Korean male subjects", "pmid": "29750017", "doi": "10.2147/DDDT.S148117" },
-    { "label": "Drug-Drug Interaction Study of Telaprevir in Healthy Volunteers", "nct": "NCT00973388" }
+    {
+      "label": "Pharmacokinetic characteristics of telaprevir in healthy Korean male subjects",
+      "pmid": "29750017",
+      "doi": "10.2147/DDDT.S148117"
+    },
+    {
+      "label": "Drug-Drug Interaction Study of Telaprevir in Healthy Volunteers",
+      "nct": "NCT00973388"
+    }
   ],
   "queried": {
     "date": "2026-08-11",
@@ -25,5 +32,6 @@
     "pubmed": "telaprevir AND Healthy Participants · 15편",
     "negative": "telaprevir AND Healthy Participants AND (no effect OR did not OR failed to OR negative OR no significant difference) · 14편",
     "safety": "telaprevir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 670편"
-  }
+  },
+  "vs": "건강인 약동학시험에서 텔라프레비르 식후 vs 공복 Cmax 4.92배, AUC0-24 4.81배; 한국인 Cmax·AUCinf는 일본인보다 26~34% 높았으나 임상적으로 유의하지 않음"
 }

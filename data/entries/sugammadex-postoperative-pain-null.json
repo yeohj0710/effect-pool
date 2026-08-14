@@ -1,6 +1,6 @@
 {
   "id": "sugammadex-postoperative-pain-null",
-  "subj": "sugammadex",
+  "subj": "슈가마덱스",
   "claim": "sugammadex를 수술 후 통증 감소에 쓴다",
   "line": "수감마덱스는 수술 후 통증과 오피오이드 사용을 줄이지 못했습니다",
   "effect": "통증 점수·오피오이드 차이 없음",
@@ -16,7 +16,11 @@
   "against": "회복 시간 개선이 통증 감소로 이어지지 않았습니다.",
   "use": "수술 후 통증 치료제로 사용할 근거는 없고 신경근 차단 역전 효과와 구분해야 합니다.",
   "refs": [
-    { "label": "복강경 비만 수술 sugammadex 무작위시험", "doi": "10.2147/DDDT.S570281", "pmid": "41836531" }
+    {
+      "label": "복강경 비만 수술 sugammadex 무작위시험",
+      "doi": "10.2147/DDDT.S570281",
+      "pmid": "41836531"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -24,5 +28,6 @@
     "pubmed": "sugammadex AND postoperative pain AND (randomized OR trial) — PMID 41836531",
     "negative": "sugammadex AND postoperative pain AND (no effect OR did not OR failed OR negative OR no significant difference)",
     "safety": "sugammadex AND (adverse OR hypersensitivity OR safety)"
-  }
+  },
+  "vs": "복강경 비만수술 RCT(n=60)에서 슈가마덱스 vs 네오스티그민 회복점수 QoR-15 군간 Cohen d 1.547(95% CI 1.014~2.293), p<.001; 통증·오피오이드 사용 차이 없음"
 }

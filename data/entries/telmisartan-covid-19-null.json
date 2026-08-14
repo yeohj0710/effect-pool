@@ -1,6 +1,6 @@
 {
   "id": "telmisartan-covid-19-null",
-  "subj": "telmisartan",
+  "subj": "텔미사르탄",
   "claim": "중증 COVID-19 입원환자에서 텔미사르탄을 추가해도 호흡부전을 줄이지 못했습니다",
   "line": "중증 COVID-19 환자에서 텔미사르탄은 호흡부전을 줄이지 못했습니다",
   "effect": "기계환기·사망 차이 없음",
@@ -15,6 +15,20 @@
   "limit": "소규모 공개시험이고 중증 입원환자 결과라 외래 COVID-19나 다른 변이에 일반화할 수 없다.",
   "against": "별도 파일럿시험에서 염증 지표가 줄었다는 신호가 있지만, 호흡부전·사망 개선으로 이어졌다는 근거는 없다.",
   "use": "COVID-19에 텔미사르탄을 추가할 때 기전·염증 신호와 임상 결과를 구분해 설명한다.",
-  "refs": [{ "label": "STAR-COVID 텔미사르탄 무작위시험", "doi": "10.23736/S2724-5683.23.06463-3", "pmid": "38231079", "nct": "NCT04510662" }],
-  "queried": { "date": "2026-08-06", "ctgov": "telmisartan AND COVID-19 · 9건", "pubmed": "telmisartan AND COVID-19 · 38편", "negative": "25편", "safety": "telmisartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 787편" }
+  "refs": [
+    {
+      "label": "STAR-COVID 텔미사르탄 무작위시험",
+      "doi": "10.23736/S2724-5683.23.06463-3",
+      "pmid": "38231079",
+      "nct": "NCT04510662"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "telmisartan AND COVID-19 · 9건",
+    "pubmed": "telmisartan AND COVID-19 · 38편",
+    "negative": "25편",
+    "safety": "telmisartan AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 787편"
+  },
+  "vs": "중증 COVID-19 RCT(n=66)에서 텔미사르탄+표준치료 vs 표준치료 기계환기 25% vs 18.7%, p=.579; 사망 25% vs 21.9%, p=.768; 입원기간 중앙값 7일 vs 7일"
 }

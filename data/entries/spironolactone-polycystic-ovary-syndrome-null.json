@@ -13,6 +13,20 @@
   "limit": "복합 약물군·생활습관·경구피임약 비교가 섞였고 연구 7개는 비뚤림 위험이 높았습니다.",
   "against": "항안드로겐군은 메트포르민군보다 일부 다모증 지표가 나았지만 위약군보다 우월하다는 근거는 없었습니다.",
   "use": "PCOS에서 항안드로겐 계열 결과를 스피로놀락톤 단독 처방의 효과로 바꾸어 읽지 않아야 합니다.",
-  "refs": [{"label": "2023 · EClinicalMedicine · PCOS 항안드로겐 RCT 메타분석", "doi": "10.1016/j.eclinm.2023.102162", "pmid": "37583655"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:SPIRONOLACTONE → 143건; 확인 라벨의 적응증은 심부전·고혈압 보조·부종·원발성 고알도스테론증", "ctgov": "query.intr=spironolactone&query.cond=Polycystic Ovary Syndrome → 9건 반환, InterventionName 대조 후 spironolactone 일치 9건", "pubmed": "spironolactone AND \"Polycystic Ovary Syndrome\" → 238건", "negative": "spironolactone AND \"Polycystic Ovary Syndrome\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 161건", "safety": "spironolactone AND \"Polycystic Ovary Syndrome\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 57건"}
+  "refs": [
+    {
+      "label": "2023 · EClinicalMedicine · PCOS 항안드로겐 RCT 메타분석",
+      "doi": "10.1016/j.eclinm.2023.102162",
+      "pmid": "37583655"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:SPIRONOLACTONE → 143건; 확인 라벨의 적응증은 심부전·고혈압 보조·부종·원발성 고알도스테론증",
+    "ctgov": "query.intr=spironolactone&query.cond=Polycystic Ovary Syndrome → 9건 반환, InterventionName 대조 후 spironolactone 일치 9건",
+    "pubmed": "spironolactone AND \"Polycystic Ovary Syndrome\" → 238건",
+    "negative": "spironolactone AND \"Polycystic Ovary Syndrome\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 161건",
+    "safety": "spironolactone AND \"Polycystic Ovary Syndrome\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 57건"
+  },
+  "vs": "다낭성난소증후군 RCT 메타분석(n=961)에서 항안드로겐+생활습관 vs 메트포르민+생활습관 다모증 WMD -1.59(95% CI -3.06~-0.12), p=.03; 인슐린 -2.11μU/mL(-3.97~-0.26), p=.03"
 }
