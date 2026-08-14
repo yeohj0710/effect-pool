@@ -1,20 +1,32 @@
 {
-  "id": "patient-reported-outcome-monitoring-kidney-transplantation-open",
-  "subj": "patient-reported outcome monitoring",
-  "claim": "신장이식 후 환자보고 결과를 추적하면 이식편 기능 저하와 삶의 질·불안·우울의 관계를 찾을 수 있는가",
-  "line": "이식편 기능 저하는 우울·불안과 동반됐습니다",
-  "effect": "2,116명, 우울 OR 1.50",
-  "tier": "obs",
-  "dir": "open",
-  "n": 2116,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "환자보고 결과 모니터링은 의약품이 아닌 이식 후 환자중심 추적입니다",
-  "why": "성인 신장이식 수혜자의 장기 환자보고 결과와 이식편 여과기능의 관계를 단일기관 종단 관찰연구로 분석했습니다",
-  "saw": "신장이식 수혜자 2,116명과 19년 동안의 9,500건 이상 설문 관찰을 분석했습니다. eGFR 60 미만보다 4~5기 만성콩팥병에서 우울 증상 OR 1.50, 불안 OR 1.48이었고 신체·정신 삶의 질도 낮았습니다",
-  "limit": "단일기관 관찰연구라 환자보고 결과를 모니터링하면 삶의 질이 좋아진다는 중재 효과는 확인하지 못했고 잔여 교란 가능성이 있습니다",
-  "against": "이식편 기능과 환자보고 결과의 연관성이 모니터링만으로 우울·불안을 예방한다는 뜻은 아닙니다",
-  "use": "신장이식 추적에서 환자보고 결과와 eGFR을 함께 보고 삶의 질 저하·불안·우울이 보이면 조기 상담과 이식 전문 진료를 연결합니다",
-  "refs": [{ "label": "Association of Posttransplant Kidney Function With Patient Reported Outcomes 2026 · Clinical Transplantation", "doi": "10.1111/ctr.70500", "pmid": "41770124" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=patient-reported outcome monitoring AND condition=Kidney Transplantation; 2건 반환, 중재명 일치 0건", "pubmed": "patient-reported outcome monitoring AND Kidney Transplantation; 158편", "negative": "patient-reported outcome monitoring AND Kidney Transplantation AND (no effect OR did not OR failed to OR negative OR no significant difference); 113편", "safety": "patient-reported outcome monitoring AND Kidney Transplantation AND (adverse OR toxicity OR case report OR harm OR dropout); 103편" }
+ "id": "patient-reported-outcome-monitoring-kidney-transplantation-open",
+ "subj": "환자보고결과 모니터링",
+ "claim": "신장이식 후 환자보고 결과를 추적하면 이식편 기능 저하와 삶의 질·불안·우울의 관계를 찾을 수 있는가",
+ "line": "이식편 기능 저하는 우울·불안과 동반됐습니다",
+ "effect": "2,116명, 우울 OR 1.50",
+ "tier": "obs",
+ "dir": "open",
+ "n": 2116,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "환자보고 결과 모니터링은 의약품이 아닌 이식 후 환자중심 추적입니다",
+ "why": "성인 신장이식 수혜자의 장기 환자보고 결과와 이식편 여과기능의 관계를 단일기관 종단 관찰연구로 분석했습니다",
+ "saw": "신장이식 수혜자 2,116명과 19년 동안의 9,500건 이상 설문 관찰을 분석했습니다. eGFR 60 미만보다 4~5기 만성콩팥병에서 우울 증상 OR 1.50, 불안 OR 1.48이었고 신체·정신 삶의 질도 낮았습니다",
+ "limit": "단일기관 관찰연구라 환자보고 결과를 모니터링하면 삶의 질이 좋아진다는 중재 효과는 확인하지 못했고 잔여 교란 가능성이 있습니다",
+ "against": "이식편 기능과 환자보고 결과의 연관성이 모니터링만으로 우울·불안을 예방한다는 뜻은 아닙니다",
+ "use": "신장이식 추적에서 환자보고 결과와 eGFR을 함께 보고 삶의 질 저하·불안·우울이 보이면 조기 상담과 이식 전문 진료를 연결합니다",
+ "refs": [
+  {
+   "label": "Association of Posttransplant Kidney Function With Patient Reported Outcomes 2026 · Clinical Transplantation",
+   "doi": "10.1111/ctr.70500",
+   "pmid": "41770124"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=patient-reported outcome monitoring AND condition=Kidney Transplantation; 2건 반환, 중재명 일치 0건",
+  "pubmed": "patient-reported outcome monitoring AND Kidney Transplantation; 158편",
+  "negative": "patient-reported outcome monitoring AND Kidney Transplantation AND (no effect OR did not OR failed to OR negative OR no significant difference); 113편",
+  "safety": "patient-reported outcome monitoring AND Kidney Transplantation AND (adverse OR toxicity OR case report OR harm OR dropout); 103편"
+ }
 }

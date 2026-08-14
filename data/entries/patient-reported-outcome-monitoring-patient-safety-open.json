@@ -1,20 +1,32 @@
 {
-  "id": "patient-reported-outcome-monitoring-patient-safety-open",
-  "subj": "patient-reported outcome monitoring",
-  "claim": "수술 후 환자보고 결과를 디지털로 모니터링하면 안전 사건을 조기에 대응하는 진료를 확장할 수 있는가",
-  "line": "자동화는 부담을 줄였지만 안전은 사람 몫입니다",
-  "effect": "환자당 비용 €127~158 추정",
-  "tier": "obs",
-  "dir": "open",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "환자보고 결과 모니터링은 의약품이 아닌 디지털 추적·안전관리 체계입니다",
-  "why": "독일 관절 치환 후 환자보고 결과 기반 디지털 모니터링의 국가 확장 비용과 안전 사건 대응을 포함한 잠재 효과를 모델링했습니다",
-  "saw": "시험 절차를 확장 모델로 환산했습니다. 인력 시간은 환자당 62분에서 하이브리드 21분, 자동화 10분으로 줄고 비용은 €158·€133·€127로 추정됐으며 안전 관련 개입은 사람의 접점으로 남겼습니다",
-  "limit": "실제 국가 확장 결과가 아닌 기존 시험 효과를 일정하다고 가정한 모델이며 초록에 모델에 사용한 환자 수가 제시되지 않았습니다",
-  "against": "추정 QALY와 비용 절감이 실제 환자 안전 사건 감소를 입증하지 않습니다",
-  "use": "환자보고 결과 모니터링을 확장할 때 안전 임계값과 사람의 확인 절차를 먼저 정하고 실제 사건·재입원을 검증합니다",
-  "refs": [{ "label": "National scale up of PROM based monitoring after joint replacement in Germany 2026 · npj Health Systems", "doi": "10.1038/s44401-026-00122-y", "pmid": "42527580" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intervention=patient-reported outcome monitoring AND condition=Patient Safety; 3건 반환, 중재명 일치 0건", "pubmed": "patient-reported outcome monitoring AND Patient Safety; 2,774편", "negative": "patient-reported outcome monitoring AND Patient Safety AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,052편", "safety": "patient-reported outcome monitoring AND Patient Safety AND (adverse OR toxicity OR case report OR harm OR dropout); 1,676편" }
+ "id": "patient-reported-outcome-monitoring-patient-safety-open",
+ "subj": "환자보고결과 모니터링",
+ "claim": "수술 후 환자보고 결과를 디지털로 모니터링하면 안전 사건을 조기에 대응하는 진료를 확장할 수 있는가",
+ "line": "자동화는 부담을 줄였지만 안전은 사람 몫입니다",
+ "effect": "환자당 비용 €127~158 추정",
+ "tier": "obs",
+ "dir": "open",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "환자보고 결과 모니터링은 의약품이 아닌 디지털 추적·안전관리 체계입니다",
+ "why": "독일 관절 치환 후 환자보고 결과 기반 디지털 모니터링의 국가 확장 비용과 안전 사건 대응을 포함한 잠재 효과를 모델링했습니다",
+ "saw": "시험 절차를 확장 모델로 환산했습니다. 인력 시간은 환자당 62분에서 하이브리드 21분, 자동화 10분으로 줄고 비용은 €158·€133·€127로 추정됐으며 안전 관련 개입은 사람의 접점으로 남겼습니다",
+ "limit": "실제 국가 확장 결과가 아닌 기존 시험 효과를 일정하다고 가정한 모델이며 초록에 모델에 사용한 환자 수가 제시되지 않았습니다",
+ "against": "추정 QALY와 비용 절감이 실제 환자 안전 사건 감소를 입증하지 않습니다",
+ "use": "환자보고 결과 모니터링을 확장할 때 안전 임계값과 사람의 확인 절차를 먼저 정하고 실제 사건·재입원을 검증합니다",
+ "refs": [
+  {
+   "label": "National scale up of PROM based monitoring after joint replacement in Germany 2026 · npj Health Systems",
+   "doi": "10.1038/s44401-026-00122-y",
+   "pmid": "42527580"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=patient-reported outcome monitoring AND condition=Patient Safety; 3건 반환, 중재명 일치 0건",
+  "pubmed": "patient-reported outcome monitoring AND Patient Safety; 2,774편",
+  "negative": "patient-reported outcome monitoring AND Patient Safety AND (no effect OR did not OR failed to OR negative OR no significant difference); 2,052편",
+  "safety": "patient-reported outcome monitoring AND Patient Safety AND (adverse OR toxicity OR case report OR harm OR dropout); 1,676편"
+ }
 }
