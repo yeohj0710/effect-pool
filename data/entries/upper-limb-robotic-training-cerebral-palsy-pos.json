@@ -1,28 +1,32 @@
 {
-  "id": "upper-limb-robotic-training-cerebral-palsy-pos",
-  "subj": "upper limb robotic training",
-  "claim": "로봇 상지훈련이 뇌성마비 아동의 상지 기능을 개선한다",
-  "line": "뇌성마비 아동에서 로봇 상지훈련은 상지기능을 개선했습니다",
-  "effect": "P 0.27→0.55·기능 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 14,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "재활 기기 훈련이며 뇌성마비 상지 기능 개선의 허가 적응증이 아닙니다.",
-  "why": "뇌성마비 아동 14명이 ArmeoSpring 로봇 상지훈련을 받고 세션별 수행지표와 Melbourne 상지기능 평가를 비교한 연구입니다.",
-  "saw": "로봇 수행지표 중앙값이 0.27에서 0.55로 올랐고 Melbourne 상지기능 평가도 유의하게 증가했습니다.",
-  "limit": "14명 단일군 연구라 대조군, 자연 경과, 장기 기능 유지는 확인하지 않았습니다.",
-  "against": "수행지표와 임상척도의 변화는 확인했지만 일상생활 독립성이나 비교군 효과는 보고하지 않았습니다.",
-  "use": "뇌성마비 아동 상지 재활의 수행 모니터링과 보조훈련으로 검토합니다.",
-  "refs": [
-    { "label": "Quantitative Evaluation of Performance during Robot-assisted Treatment", "pmid": "26640835", "doi": "10.3414/ME14-01-0126" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=upper limb robotic training AND query.cond=Cerebral Palsy · 24건 반환, exact InterventionName 0건",
-    "pubmed": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] · 1건",
-    "negative": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
-    "safety": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 0건"
+ "id": "upper-limb-robotic-training-cerebral-palsy-pos",
+ "subj": "상지 로봇 훈련",
+ "claim": "로봇 상지훈련이 뇌성마비 아동의 상지 기능을 개선한다",
+ "line": "뇌성마비 아동에서 로봇 상지훈련은 상지기능을 개선했습니다",
+ "effect": "P 0.27→0.55·기능 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 14,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "재활 기기 훈련이며 뇌성마비 상지 기능 개선의 허가 적응증이 아닙니다.",
+ "why": "뇌성마비 아동 14명이 ArmeoSpring 로봇 상지훈련을 받고 세션별 수행지표와 Melbourne 상지기능 평가를 비교한 연구입니다.",
+ "saw": "로봇 수행지표 중앙값이 0.27에서 0.55로 올랐고 Melbourne 상지기능 평가도 유의하게 증가했습니다.",
+ "limit": "14명 단일군 연구라 대조군, 자연 경과, 장기 기능 유지는 확인하지 않았습니다.",
+ "against": "수행지표와 임상척도의 변화는 확인했지만 일상생활 독립성이나 비교군 효과는 보고하지 않았습니다.",
+ "use": "뇌성마비 아동 상지 재활의 수행 모니터링과 보조훈련으로 검토합니다.",
+ "refs": [
+  {
+   "label": "Quantitative Evaluation of Performance during Robot-assisted Treatment",
+   "pmid": "26640835",
+   "doi": "10.3414/ME14-01-0126"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=upper limb robotic training AND query.cond=Cerebral Palsy · 24건 반환, exact InterventionName 0건",
+  "pubmed": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] · 1건",
+  "negative": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
+  "safety": "\"upper limb robotic training\" AND \"Cerebral Palsy\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 0건"
+ }
 }

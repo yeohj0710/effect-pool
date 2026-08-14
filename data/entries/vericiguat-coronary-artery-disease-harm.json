@@ -1,28 +1,33 @@
 {
-  "id": "vericiguat-coronary-artery-disease-harm",
-  "subj": "베리시구앗",
-  "claim": "관상동맥질환에서 베리시구앗은 이상반응을 늘릴 수 있다",
-  "line": "베리시구앗은 관상동맥질환에서 전체 이상반응을 늘렸지만 중대한 이상반응은 늘리지 않았습니다",
-  "effect": "이상반응 OR 4.04",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 151,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "허가 적응증은 악화된 만성 심부전이며 관상동맥질환 사용은 별도 근거가 필요합니다.",
-  "why": "관상동맥질환 환자 151명을 포함한 베리시구앗 대 위약 무작위시험 3개를 메타분석했습니다.",
-  "saw": "중대한 이상반응은 유의한 차이가 없었지만 전체 이상반응은 베리시구앗군에서 더 많았습니다(OR 4.04, p<0.001).",
-  "limit": "시험 수와 참가자가 적고 이상반응 정의와 질환 집단이 달랐습니다.",
-  "against": "중대한 이상반응 차이는 유의하지 않았습니다(OR 1.97, p=0.41).",
-  "use": "관상동맥질환에서 허가 밖 사용을 고려할 때 안전성 신호를 먼저 확인합니다.",
-  "refs": [
-    { "label": "관상동맥질환 베리시구앗 안전성 메타분석", "doi": "10.1007/s40256-024-00701-0", "pmid": "39643842" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=vericiguat AND cond=Coronary Artery Disease · 8건",
-    "pubmed": "vericiguat AND Coronary Artery Disease · 14건; trial 8건",
-    "negative": "vericiguat AND Coronary Artery Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
-    "safety": "vericiguat AND (adverse OR toxicity OR case report OR harm OR dropout) · 121건"
+ "id": "vericiguat-coronary-artery-disease-harm",
+ "subj": "베리시구앗",
+ "claim": "관상동맥질환에서 베리시구앗은 이상반응을 늘릴 수 있다",
+ "line": "베리시구앗은 관상동맥질환에서 전체 이상반응을 늘렸지만 중대한 이상반응은 늘리지 않았습니다",
+ "effect": "이상반응 OR 4.04",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 151,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "허가 적응증은 악화된 만성 심부전이며 관상동맥질환 사용은 별도 근거가 필요합니다.",
+ "why": "관상동맥질환 환자 151명을 포함한 베리시구앗 대 위약 무작위시험 3개를 메타분석했습니다.",
+ "saw": "관상동맥질환 151명 3개 무작위시험 메타분석에서 베리시구앗 이상반응 OR는 4.04였고 중대한 이상반응 차이는 유의하지 않았다.",
+ "limit": "시험 수와 참가자가 적고 이상반응 정의와 질환 집단이 달랐습니다.",
+ "against": "중대한 이상반응 차이는 유의하지 않았습니다(OR 1.97, p=0.41).",
+ "use": "관상동맥질환에서 허가 밖 사용을 고려할 때 안전성 신호를 먼저 확인합니다.",
+ "refs": [
+  {
+   "label": "관상동맥질환 베리시구앗 안전성 메타분석",
+   "doi": "10.1007/s40256-024-00701-0",
+   "pmid": "39643842"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=vericiguat AND cond=Coronary Artery Disease · 8건",
+  "pubmed": "vericiguat AND Coronary Artery Disease · 14건; trial 8건",
+  "negative": "vericiguat AND Coronary Artery Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
+  "safety": "vericiguat AND (adverse OR toxicity OR case report OR harm OR dropout) · 121건"
+ },
+ "vs": "베리시구앗 vs 위약: 이상반응 OR 4.04 (95% CI 2.17~7.52), p<.001; 중대한 이상반응 OR 1.97 (0.39~9.91), p=.41"
 }
