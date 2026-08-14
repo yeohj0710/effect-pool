@@ -1,28 +1,32 @@
 {
-  "id": "protein-shake-malnutrition-pos",
-  "subj": "protein shake",
-  "claim": "단백질 셰이크는 수술 전 영양결핍 환자의 합병증을 줄일 수 있다",
-  "line": "영양결핍 수술 환자에서 단백질 셰이크 보충군은 합병증이 적었습니다.",
-  "effect": "합병증·상처 합병증↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 103,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "단백질 셰이크는 식품 보충제로, 영양결핍의 허가 치료제가 아닙니다",
-  "why": "영양결핍이 있는 요추 수술 환자에서 수술 전후 단백질 보충이 합병증을 줄이는지 비교한 전향적 무작위 연구입니다",
-  "saw": "요추 수술 환자 103명 중 37명이 수술 전 영양결핍이었습니다. 보충군 46명은 수술 당일부터 퇴원 후 2주까지 단백질 셰이크를 하루 두 번 받았고, 대조군 57명은 평소 식사를 유지했습니다. 보정 분석에서 입원 중 경미한 합병증은 2.1% 대 23.2%, 수술 전후 상처 합병증은 3.4% 대 17.9%였습니다. 영양결핍 하위군에서도 입원 중 경미한 합병증은 0.0% 대 34.4%였습니다",
-  "limit": "요추 수술 환자를 대상으로 한 단일 연구이며, 셰이크와 전체 영양 중재의 효과를 분리하기 어렵습니다",
-  "against": "연구는 영양결핍 하위군에서 90일 내 재수술도 0.0% 대 12.4%로 적었다고 보고했지만, 하위군 규모가 작았습니다",
-  "use": "수술 전 영양상태가 낮은 환자에서 단백질 셰이크를 표준 치료의 대체가 아닌 단기 영양 보충으로 검토할 수 있습니다",
-  "refs": [
-    { "label": "Perioperative Nutritional Supplementation Decreases Wound Healing Complications Following Elective Lumbar Spine Surgery", "pmid": "36730860" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "protein shake AND Malnutrition — 8건 반환",
-    "pubmed": "protein shake AND Malnutrition — 34건 반환",
-    "negative": "protein shake AND Malnutrition AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 연구 확인",
-    "safety": "protein shake AND Malnutrition AND (adverse OR toxicity OR harm OR safety) — 직접 연구 확인"
+ "id": "protein-shake-malnutrition-pos",
+ "subj": "단백질 쉐이크",
+ "claim": "단백질 셰이크는 수술 전 영양결핍 환자의 합병증을 줄일 수 있다",
+ "line": "영양결핍 수술 환자에서 단백질 셰이크 보충군은 합병증이 적었습니다.",
+ "effect": "합병증·상처 합병증↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 103,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "단백질 셰이크는 식품 보충제로, 영양결핍의 허가 치료제가 아닙니다",
+ "why": "영양결핍이 있는 요추 수술 환자에서 수술 전후 단백질 보충이 합병증을 줄이는지 비교한 전향적 무작위 연구입니다",
+ "saw": "요추 수술 환자 103명 중 37명이 수술 전 영양결핍이었습니다. 보충군 46명은 수술 당일부터 퇴원 후 2주까지 단백질 셰이크를 하루 두 번 받았고, 대조군 57명은 평소 식사를 유지했습니다. 보정 분석에서 입원 중 경미한 합병증은 2.1% 대 23.2%, 수술 전후 상처 합병증은 3.4% 대 17.9%였습니다. 영양결핍 하위군에서도 입원 중 경미한 합병증은 0.0% 대 34.4%였습니다",
+ "limit": "요추 수술 환자를 대상으로 한 단일 연구이며, 셰이크와 전체 영양 중재의 효과를 분리하기 어렵습니다",
+ "against": "연구는 영양결핍 하위군에서 90일 내 재수술도 0.0% 대 12.4%로 적었다고 보고했지만, 하위군 규모가 작았습니다",
+ "use": "수술 전 영양상태가 낮은 환자에서 단백질 셰이크를 표준 치료의 대체가 아닌 단기 영양 보충으로 검토할 수 있습니다",
+ "refs": [
+  {
+   "label": "Perioperative Nutritional Supplementation Decreases Wound Healing Complications Following Elective Lumbar Spine Surgery",
+   "pmid": "36730860"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "protein shake AND Malnutrition — 8건 반환",
+  "pubmed": "protein shake AND Malnutrition — 34건 반환",
+  "negative": "protein shake AND Malnutrition AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 연구 확인",
+  "safety": "protein shake AND Malnutrition AND (adverse OR toxicity OR harm OR safety) — 직접 연구 확인"
+ },
+ "vs": "군 간 차이: 단백질 쉐이크 보충 vs 일반 식사 요추 수술 후 입원 경미 합병증 2.1% vs 23.2% (p<.01), 상처 치유 합병증 3.4% vs 17.9% (p<.05), 재수술 0% vs 12.4% (p=.04)"
 }
