@@ -1,6 +1,6 @@
 {
   "id": "pistachio-type-2-diabetes-pos",
-  "subj": "pistachio",
+  "subj": "피스타치오",
   "claim": "피스타치오가 당뇨 전단계 혈당을 낮춘다",
   "line": "피스타치오가 당뇨 전단계에서 HbA1c와 혈당·지질을 개선했습니다.",
   "effect": "HbA1c 개선",
@@ -16,8 +16,16 @@
   "against": "피스타치오 메타분석에서는 HbA1c와 공복인슐린이 유의하게 개선되지 않았다",
   "use": "당뇨 전단계에서 HbA1c와 일부 심혈관 대사지표의 개선 신호를 기록했다",
   "refs": [
-    { "label": "당뇨 전단계 피스타치오 무작위시험", "doi": "10.1016/j.tjnut.2024.12.005", "pmid": "39740767" },
-    { "label": "피스타치오 혈당·인슐린 저항성 메타분석", "doi": "10.1016/j.dsx.2020.07.052", "pmid": "32947760" }
+    {
+      "label": "당뇨 전단계 피스타치오 무작위시험",
+      "doi": "10.1016/j.tjnut.2024.12.005",
+      "pmid": "39740767"
+    },
+    {
+      "label": "피스타치오 혈당·인슐린 저항성 메타분석",
+      "doi": "10.1016/j.dsx.2020.07.052",
+      "pmid": "32947760"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -25,5 +33,6 @@
     "pubmed": "pistachio AND Type 2 Diabetes 67건",
     "negative": "pistachio AND Type 2 Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) 50건",
     "safety": "pistachio AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 371건"
-  }
+  },
+  "vs": "전당뇨 아시아 인도인 RCT(n=120, 완료 109)에서 식전 피스타치오 60g vs 일반 식사 12주 HbA1c 군 간 차이 -0.2(95% CI -0.3~-0.1), p<.001; CGM 식후 증분곡선하면적 아침 -28%, 저녁 -17%"
 }

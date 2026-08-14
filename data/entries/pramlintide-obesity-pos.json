@@ -1,6 +1,6 @@
 {
   "id": "pramlintide-obesity-pos",
-  "subj": "pramlintide",
+  "subj": "프람린타이드",
   "claim": "비만에 프람린타이드를 생활습관 중재와 함께 쓴다",
   "line": "비만에서 프람린타이드는 생활습관 중재와 함께 12개월 체중을 위약보다 더 줄였다.",
   "effect": "체중 6.1~7.2 kg 감소",
@@ -16,8 +16,16 @@
   "against": "오심이 위약보다 흔했고 120 µg 하루 2회군에서는 12개월 체중 유지 효과가 뚜렷하지 않았다.",
   "use": "허가 밖 비만 치료 후보로만 기록하며, 생활습관 중재와 오심·저혈당 위험을 함께 검토한다.",
   "refs": [
-    { "label": "Sustained weight loss following 12-month pramlintide treatment as an adjunct to lifestyle intervention in obesity", "doi": "10.2337/dc08-0029", "pmid": "18753666" },
-    { "label": "The effect of pramlintide acetate on glycemic control and weight in type 2 diabetes mellitus and obesity: systematic review", "doi": "10.1111/j.1463-1326.2010.01337.x", "pmid": "21199269" }
+    {
+      "label": "Sustained weight loss following 12-month pramlintide treatment as an adjunct to lifestyle intervention in obesity",
+      "doi": "10.2337/dc08-0029",
+      "pmid": "18753666"
+    },
+    {
+      "label": "The effect of pramlintide acetate on glycemic control and weight in type 2 diabetes mellitus and obesity: systematic review",
+      "doi": "10.1111/j.1463-1326.2010.01337.x",
+      "pmid": "21199269"
+    }
   ],
   "queried": {
     "date": "2026-08-10",
@@ -25,5 +33,6 @@
     "pubmed": "pramlintide AND \"Obesity\" · 106편",
     "negative": "pramlintide AND \"Obesity\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 16편",
     "safety": "pramlintide AND (adverse OR toxicity OR injury OR harm OR case report) · 156편"
-  }
+  },
+  "vs": "비만 RCT·메타분석에서 프람린타이드 vs 대조군 체중 -2.27kg(95% CI -2.88~-1.66), p<.00001; 120μg 연구 위약보정 -3.2±1.2kg, p<.01; 오심 9~29% vs 2%"
 }

@@ -1,6 +1,6 @@
 {
   "id": "potato-blood-glucose-pos",
-  "subj": "potato",
+  "subj": "감자",
   "claim": "감자는 쌀보다 식후 혈당을 낮출 가능성이 있다",
   "line": "단백질과 감자를 함께 먹으면 쌀보다 식후 혈당과 인슐린이 낮았습니다.",
   "effect": "식후 혈당·인슐린↓",
@@ -16,7 +16,10 @@
   "against": "감자 형태에 따라 혈당 반응이 달랐고 감자튀김은 즉석 으깬 감자보다 식후 혈당이 높았습니다",
   "use": "당뇨병 식단에서 감자를 무조건 배제하기보다 조리 형태와 단백질 동반을 함께 고려할 때 참고할 수 있습니다",
   "refs": [
-    { "label": "Potatoes Compared with Rice in Meals with either Animal or Plant Protein Reduce Postprandial Glycemia and Increase Satiety in Healthy Adults", "pmid": "39182847" }
+    {
+      "label": "Potatoes Compared with Rice in Meals with either Animal or Plant Protein Reduce Postprandial Glycemia and Increase Satiety in Healthy Adults",
+      "pmid": "39182847"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -24,5 +27,6 @@
     "pubmed": "potato AND appetite randomized — 직접 식사 교차시험 확인",
     "negative": "potato AND blood glucose AND (no effect OR did not OR failed OR negative OR no significant difference) — 조리 형태별 상반된 반응 확인",
     "safety": "potato AND blood glucose AND (adverse OR toxicity OR harm OR safety) — 직접 연구에서 중대한 안전성 신호 없음"
-  }
+  },
+  "vs": "건강 성인 무작위 교차시험(n=26)에서 즉석 으깬 감자 vs 쌀 식사 후 혈당 6.76±0.15 vs 6.92±0.15, 감자튀김 7.19±0.15; 으깬 감자와 쌀 비교 p=.0012"
 }
