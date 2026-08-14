@@ -1,6 +1,6 @@
 {
   "id": "sotrovimab-covid19-null",
-  "subj": "sotrovimab",
+  "subj": "소트로비맙",
   "claim": "sotrovimab을 입원 COVID-19 폐렴의 사망 위험에 쓴다",
   "line": "고항원군에서는 소트로비맙이 사망을 줄였지만 전체군 효과는 없었습니다",
   "effect": "고항원군 사망 감소·전체 사망 차이 없음",
@@ -16,7 +16,11 @@
   "against": "하위군 신호만으로 모든 입원 COVID-19 환자에게 사망 감소 효과가 있다고 말할 수 없습니다.",
   "use": "특정 바이러스 항원량을 기준으로 중화항체 치료를 탐색한 연구 근거로만 사용합니다.",
   "refs": [
-    { "label": "RECOVERY 입원 COVID-19 sotrovimab 무작위시험", "doi": "10.1016/S1473-3099(25)00361-5", "pmid": "40886716" }
+    {
+      "label": "RECOVERY 입원 COVID-19 sotrovimab 무작위시험",
+      "doi": "10.1016/S1473-3099(25)00361-5",
+      "pmid": "40886716"
+    }
   ],
   "queried": {
     "date": "2026-08-07",
@@ -24,5 +28,6 @@
     "pubmed": "sotrovimab AND Covid19 검색 373건, 임상시험·메타분석 183건",
     "negative": "sotrovimab AND Covid19 AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 220건",
     "safety": "sotrovimab AND (adverse OR toxicity OR case report OR harm) 검색 121건"
-  }
+  },
+  "vs": "입원 COVID-19 RCT(n=1,723) 고항원군에서 소트로비맙+표준치료 vs 표준치료 28일 사망 23% vs 29%, RR 0.75(95% CI 0.56~0.99), p=.046; 전체 21% vs 22%, RR 0.95(0.77~1.16)"
 }

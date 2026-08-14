@@ -1,6 +1,6 @@
 {
   "id": "sparsentan-proteinuria-pos",
-  "subj": "sparsentan",
+  "subj": "스파르센탄",
   "claim": "sparsentan가 IgA 신병증의 단백뇨를 irbesartan보다 크게 줄였습니다",
   "line": "IgA 신병증에서 스파르센탄은 단백뇨를 이르베사르탄보다 줄였습니다",
   "effect": "단백뇨 -49.8% vs -15.1%",
@@ -16,9 +16,24 @@
   "against": "FSGS DUPLEX 시험에서는 단백뇨 부분관해가 더 많았지만 108주 eGFR 기울기 차이는 유의하지 않았습니다.",
   "use": "단백뇨 감소를 대리결과로 기록하고 모든 원인의 단백뇨 치료효과로 확대하지 않습니다.",
   "refs": [
-    { "label": "PROTECT IgA 신병증 단백뇨 중간분석", "doi": "10.1016/S0140-6736(23)00569-X", "pmid": "37015244", "nct": "NCT03762850" },
-    { "label": "PROTECT IgA 신병증 110주 결과", "doi": "10.1016/S0140-6736(23)02302-4", "pmid": "37931634", "nct": "NCT03762850" },
-    { "label": "DUPLEX FSGS sparsentan 3상", "doi": "10.1056/NEJMoa2308550", "pmid": "37921461", "nct": "NCT03493685" }
+    {
+      "label": "PROTECT IgA 신병증 단백뇨 중간분석",
+      "doi": "10.1016/S0140-6736(23)00569-X",
+      "pmid": "37015244",
+      "nct": "NCT03762850"
+    },
+    {
+      "label": "PROTECT IgA 신병증 110주 결과",
+      "doi": "10.1016/S0140-6736(23)02302-4",
+      "pmid": "37931634",
+      "nct": "NCT03762850"
+    },
+    {
+      "label": "DUPLEX FSGS sparsentan 3상",
+      "doi": "10.1056/NEJMoa2308550",
+      "pmid": "37921461",
+      "nct": "NCT03493685"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -26,5 +41,6 @@
     "pubmed": "sparsentan AND Proteinuria · 74편",
     "negative": "sparsentan AND Proteinuria AND (no effect OR did not OR failed to OR negative OR no significant difference) · 48편",
     "safety": "sparsentan AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 37편"
-  }
+  },
+  "vs": "FSGS RCT(n=371)에서 스파르센탄 vs 이르베사르탄 36주 부분 관해 42.0% vs 26.0%, p=.009; 108주 eGFR 총 기울기 군간 차이 0.3mL/min/1.73m²/년(95% CI -1.7~2.4)"
 }

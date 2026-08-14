@@ -16,8 +16,16 @@
   "use": "식도정맥류 출혈에 임의로 추가하지 않으며, 내시경 지혈과 검증된 응급치료를 우선합니다.",
   "effect": "생존 OR 1.16 (0.67–2.01)",
   "refs": [
-    { "label": "Gøtzsche 1995 · BMJ · 무작위시험·메타분석", "doi": "10.1136/bmj.310.6993.1495", "pmid": "7787594" },
-    { "label": "Huaringa-Marcelo 2021 · JGLD · 급성 정맥류 출혈 메타분석", "doi": "10.15403/jgld-3191", "pmid": "33723542" }
+    {
+      "label": "Gøtzsche 1995 · BMJ · 무작위시험·메타분석",
+      "doi": "10.1136/bmj.310.6993.1495",
+      "pmid": "7787594"
+    },
+    {
+      "label": "Huaringa-Marcelo 2021 · JGLD · 급성 정맥류 출혈 메타분석",
+      "doi": "10.15403/jgld-3191",
+      "pmid": "33723542"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -25,5 +33,6 @@
     "pubmed": "somatostatin AND Esophageal Varices · 376건",
     "negative": "somatostatin AND Esophageal Varices AND (no effect OR did not OR failed to OR negative OR no significant difference) · 207건",
     "safety": "somatostatin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 4090건"
-  }
+  },
+  "vs": "식도정맥류 출혈 RCT(n=86)에서 소마토스타틴 vs 위약 6주 사망 16명 vs 16명, 수혈 중앙값 8 vs 5, p=.07; 메타분석 생존 OR 1.16(95% CI 0.67~2.01), p=.59"
 }

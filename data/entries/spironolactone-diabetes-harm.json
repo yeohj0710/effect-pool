@@ -13,6 +13,20 @@
   "limit": "평균 추적기간이 5개월이고 심혈관 사건이나 신장 사건을 본 장기시험이 아니므로 임상결과로 확대할 수 없습니다.",
   "against": "혈압·요알부민·섬유화·염증 표지는 개선됐지만 공복혈당과 지질에는 뚜렷한 차이가 없었습니다.",
   "use": "당뇨병 환자에게 스피로놀락톤을 추가할 때 혈압 이득과 혈당·신장·칼륨 위험을 함께 확인해야 합니다.",
-  "refs": [{"label": "2021 · Blood Press · 고혈압·당뇨 스피로놀락톤 메타분석", "doi": "10.1080/08037051.2021.1880881", "pmid": "33682538"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:SPIRONOLACTONE → 143건; 확인 라벨의 적응증은 심부전·고혈압 보조·부종·원발성 고알도스테론증", "ctgov": "query.intr=spironolactone&query.cond=Diabetes → 23건 반환, InterventionName 대조 후 spironolactone 일치 20건", "pubmed": "spironolactone AND \"Diabetes\" → 860건", "negative": "spironolactone AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 612건", "safety": "spironolactone AND \"Diabetes\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 279건"}
+  "refs": [
+    {
+      "label": "2021 · Blood Press · 고혈압·당뇨 스피로놀락톤 메타분석",
+      "doi": "10.1080/08037051.2021.1880881",
+      "pmid": "33682538"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-05",
+    "fda": "openFDA drug label openfda.substance_name:SPIRONOLACTONE → 143건; 확인 라벨의 적응증은 심부전·고혈압 보조·부종·원발성 고알도스테론증",
+    "ctgov": "query.intr=spironolactone&query.cond=Diabetes → 23건 반환, InterventionName 대조 후 spironolactone 일치 20건",
+    "pubmed": "spironolactone AND \"Diabetes\" → 860건",
+    "negative": "spironolactone AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 612건",
+    "safety": "spironolactone AND \"Diabetes\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 279건"
+  },
+  "vs": "고혈압·당뇨병 RCT 메타분석(n=640)에서 스피로놀락톤 vs 위약 수축기혈압 MD -6.57(95% CI -9.21~-3.93), 크레아티닌 +7.60(4.94~10.27), eGFR -4.28(-6.38~-2.18), 칼륨 +0.30(0.23~0.37)"
 }
