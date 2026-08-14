@@ -1,28 +1,34 @@
 {
-  "id": "mind-diet-obesity-pos",
-  "subj": "MIND diet",
-  "claim": "비만에 MIND 식단을 쓴다",
-  "line": "MIND 식단 준수도가 높을수록 비만·중성지방 위험이 낮았습니다",
-  "effect": "비만·중성지방 위험 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 1328,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비만에 허가된 식이요법이 아닙니다.",
-  "why": "성인의 MIND 식단 점수와 비만·혈중 지질을 같은 시점에 비교한 단면 연구입니다.",
-  "saw": "39~53세 쿠르드 성인 1,328명에서 MIND 식단 점수가 높은 군은 낮은 군보다 중성지방 증가 오즈가 0.58이었고 일반 비만과 지질 이상도 낮은 방향이었습니다.",
-  "limit": "식단과 결과를 한 번 측정한 단면 연구라 역인과와 생활습관 교란을 배제할 수 없습니다.",
-  "against": "MIND 식단이 체중이나 비만을 직접 줄였다는 무작위시험 근거는 확인되지 않았습니다.",
-  "use": "비만의 식단 연관성 가설로만 기록하고 체중 감량 치료 효과로 해석하지 않습니다.",
-  "refs": [
-    { "label": "MIND 식단 준수도와 비만·지질 단면 연구", "doi": "10.3389/fnut.2023.1078961", "pmid": "37113290", "pmc": "PMC10126273" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=MIND diet AND query.cond=Obesity · 114건, 직접 개입 1건",
-    "pubmed": "MIND diet AND Obesity · 394편, 결과 검색 137편",
-    "negative": "MIND diet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 257편",
-    "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
+ "id": "mind-diet-obesity-pos",
+ "subj": "MIND 식단",
+ "claim": "비만에 MIND 식단을 쓴다",
+ "line": "MIND 식단 준수도가 높을수록 비만·중성지방 위험이 낮았습니다",
+ "effect": "비만·중성지방 위험 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 1328,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비만에 허가된 식이요법이 아닙니다.",
+ "why": "성인의 MIND 식단 점수와 비만·혈중 지질을 같은 시점에 비교한 단면 연구입니다.",
+ "saw": "39~53세 쿠르드 성인 1,328명에서 MIND 식단 점수가 높은 군은 낮은 군보다 중성지방 증가 오즈가 0.58이었고 일반 비만과 지질 이상도 낮은 방향이었습니다.",
+ "limit": "식단과 결과를 한 번 측정한 단면 연구라 역인과와 생활습관 교란을 배제할 수 없습니다.",
+ "against": "MIND 식단이 체중이나 비만을 직접 줄였다는 무작위시험 근거는 확인되지 않았습니다.",
+ "use": "비만의 식단 연관성 가설로만 기록하고 체중 감량 치료 효과로 해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "MIND 식단 준수도와 비만·지질 단면 연구",
+   "doi": "10.3389/fnut.2023.1078961",
+   "pmid": "37113290",
+   "pmc": "PMC10126273"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=MIND diet AND query.cond=Obesity · 114건, 직접 개입 1건",
+  "pubmed": "MIND diet AND Obesity · 394편, 결과 검색 137편",
+  "negative": "MIND diet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 257편",
+  "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
+ },
+ "vs": "군 간 차이: high MIND adherence 대비 low adherence: odds of high triglycerides OR=0.58 (95% CI 0.38~0.95, P=.001), 42% lower"
 }

@@ -1,28 +1,40 @@
 {
-  "id": "metacognitive-training-psychosis-pos",
-  "subj": "metacognitive training",
-  "claim": "메타인지 훈련은 정신병의 양성 증상과 망상에 강한 권고를 받을 정도의 근거를 보였다",
-  "line": "메타인지 훈련은 정신병 양성 증상과 망상을 줄였습니다",
-  "effect": "38개 시험 1942명, WFSBP 1등급",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1942,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "메타인지 훈련은 비약물 심리교육 프로그램이며 정신병에 의약품 허가 적응증을 적용하지 않는다.",
-  "why": "정신병 메타인지 훈련의 무작위시험 38건과 메타분석 10건을 WFSBP 등급으로 평가한 체계적 문헌고찰이다.",
-  "saw": "38개 무작위시험 1942명을 분석했고 양성 증상·망상·전체 정신병 증상에 치료 후 강한 권고인 WFSBP 1등급을 제시했다.",
-  "limit": "무작위시험 38건 중 비뚤림 위험이 높음 11건, 중간 19건, 낮음 6건이었고 메타분석 10건의 신뢰도도 낮거나 매우 낮았다.",
-  "against": "기능·자존감·주의력 등 일부 유지 효과에는 제한적 권고만 가능했다.",
-  "use": "정신병 치료에서 약물치료와 함께 양성 증상과 망상을 다루는 보조 프로그램으로 검토한다.",
-  "refs": [
-    { "label": "정신병 메타인지 훈련 체계적 문헌고찰·권고등급", "doi": "10.1192/j.eurpsy.2025.10027", "pmid": "40415540", "pmc": "PMC12260728" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=metacognitive training AND condition=Psychosis; 8건",
-    "pubmed": "metacognitive training AND Psychosis; 173건",
-    "negative": "metacognitive training AND Psychosis AND (no effect OR did not OR failed OR negative OR no significant difference); 121건",
-    "safety": "metacognitive training AND (adverse OR toxicity OR case report OR harm OR dropout); 125건"
+ "id": "metacognitive-training-psychosis-pos",
+ "subj": "메타인지훈련",
+ "claim": "메타인지 훈련은 정신병의 양성 증상과 망상에 강한 권고를 받을 정도의 근거를 보였다",
+ "line": "메타인지 훈련은 정신병 양성 증상과 망상을 줄였습니다",
+ "effect": "38개 시험 1942명, WFSBP 1등급",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1942,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "메타인지 훈련은 비약물 심리교육 프로그램이며 정신병에 의약품 허가 적응증을 적용하지 않는다.",
+ "why": "정신병 메타인지 훈련의 무작위시험 38건과 메타분석 10건을 WFSBP 등급으로 평가한 체계적 문헌고찰이다.",
+ "saw": "38개 무작위시험 1942명을 분석했고 양성 증상·망상·전체 정신병 증상에 치료 후 강한 권고인 WFSBP 1등급을 제시했다.",
+ "limit": "무작위시험 38건 중 비뚤림 위험이 높음 11건, 중간 19건, 낮음 6건이었고 메타분석 10건의 신뢰도도 낮거나 매우 낮았다.",
+ "against": "기능·자존감·주의력 등 일부 유지 효과에는 제한적 권고만 가능했다.",
+ "use": "정신병 치료에서 약물치료와 함께 양성 증상과 망상을 다루는 보조 프로그램으로 검토한다.",
+ "refs": [
+  {
+   "label": "정신병 메타인지 훈련 체계적 문헌고찰·권고등급",
+   "doi": "10.1192/j.eurpsy.2025.10027",
+   "pmid": "40415540",
+   "pmc": "PMC12260728"
+  },
+  {
+   "label": "Immediate and Sustained Outcomes and Moderators Associated With Metacognitive Training for Psychosis: A Systematic Review and Meta-analysis",
+   "doi": "10.1001/jamapsychiatry.2022.0277",
+   "pmid": "35320347",
+   "pmc": "PMC8943641"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=metacognitive training AND condition=Psychosis; 8건",
+  "pubmed": "metacognitive training AND Psychosis; 173건",
+  "negative": "metacognitive training AND Psychosis AND (no effect OR did not OR failed OR negative OR no significant difference); 121건",
+  "safety": "metacognitive training AND (adverse OR toxicity OR case report OR harm OR dropout); 125건"
+ },
+ "vs": "군 간 차이: MCT 대비 대조군: positive symptoms g=0.50 (95% CI 0.34~0.67), delusions g=0.69 (95% CI 0.45~0.93), hallucinations g=0.26 (95% CI 0.11~0.40), cognitive bias g=0.16 (95% CI 0.03~0.29), functioning g=0.41 (95% CI 0.12~0.69)"
 }

@@ -1,28 +1,35 @@
 {
-  "id": "mind-diet-dementia-null",
-  "subj": "MIND diet",
-  "claim": "치매 예방에 MIND 식단을 쓴다",
-  "line": "3년 무작위시험에서 MIND 식단은 대조식보다 인지 변화를 개선하지 못했습니다",
-  "effect": "인지 점수 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 604,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "치매 예방에 허가된 식이요법이 아닙니다.",
-  "why": "치매 가족력이 있고 BMI가 25보다 높으며 평소 식단이 불량한 고령자를 MIND 식단과 대조 식단에 무작위 배정했습니다.",
-  "saw": "604명이 3년간 MIND 식단 또는 대조 식단을 따랐습니다. 전역 인지 점수는 두 군 모두 좋아졌지만 군 간 차이는 0.035 표준화 단위(95% CI -0.022~0.092, P=.23)로 유의하지 않았습니다.",
-  "limit": "인지 장애가 없는 고령자만 포함했고 두 군 모두 상담과 체중 감량 지원을 받아 MIND 식단만의 효과를 분리하기 어렵습니다.",
-  "against": "관찰 연구에서는 MIND 식단과 인지 저하의 연관성이 보고됐지만 이 무작위시험에서는 차이가 없었습니다.",
-  "use": "치매 예방 식이의 직접 무작위 근거가 유의하지 않았다는 결과로 기록합니다.",
-  "refs": [
-    { "label": "MIND 식단 인지 저하 예방 무작위시험", "doi": "10.1056/NEJMoa2302368", "pmid": "37466280", "pmc": "PMC10513737", "nct": "NCT02817074" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=MIND diet AND query.cond=Dementia · 31건, 직접 개입 4건",
-    "pubmed": "MIND diet AND Dementia · 244편, 결과 검색 77편",
-    "negative": "MIND diet AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) · 152편",
-    "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
+ "id": "mind-diet-dementia-null",
+ "subj": "MIND 식단",
+ "claim": "치매 예방에 MIND 식단을 쓴다",
+ "line": "3년 무작위시험에서 MIND 식단은 대조식보다 인지 변화를 개선하지 못했습니다",
+ "effect": "인지 점수 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 604,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "치매 예방에 허가된 식이요법이 아닙니다.",
+ "why": "치매 가족력이 있고 BMI가 25보다 높으며 평소 식단이 불량한 고령자를 MIND 식단과 대조 식단에 무작위 배정했습니다.",
+ "saw": "604명이 3년간 MIND 식단 또는 대조 식단을 따랐습니다. 전역 인지 점수는 두 군 모두 좋아졌지만 군 간 차이는 0.035 표준화 단위(95% CI -0.022~0.092, P=.23)로 유의하지 않았습니다.",
+ "limit": "인지 장애가 없는 고령자만 포함했고 두 군 모두 상담과 체중 감량 지원을 받아 MIND 식단만의 효과를 분리하기 어렵습니다.",
+ "against": "관찰 연구에서는 MIND 식단과 인지 저하의 연관성이 보고됐지만 이 무작위시험에서는 차이가 없었습니다.",
+ "use": "치매 예방 식이의 직접 무작위 근거가 유의하지 않았다는 결과로 기록합니다.",
+ "refs": [
+  {
+   "label": "MIND 식단 인지 저하 예방 무작위시험",
+   "doi": "10.1056/NEJMoa2302368",
+   "pmid": "37466280",
+   "pmc": "PMC10513737",
+   "nct": "NCT02817074"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=MIND diet AND query.cond=Dementia · 31건, 직접 개입 4건",
+  "pubmed": "MIND diet AND Dementia · 244편, 결과 검색 77편",
+  "negative": "MIND diet AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) · 152편",
+  "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
+ },
+ "vs": "군 간 차이: MIND diet 대비 control diet: global cognition 0.205 대 0.170, mean difference 0.035 standardized units (95% CI -0.022~0.092, P=.23); MIND 301 대비 control 303"
 }

@@ -1,38 +1,39 @@
 {
-  "id": "millet-iron-deficiency-pos",
-  "subj": "밀렛",
-  "claim": "철 강화 진주조를 철 결핍에 쓴다",
-  "line": "철 강화 진주조는 학령기 아동의 철 저장량을 늘렸습니다",
-  "effect": "페리틴·총체철 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 246,
-  "synth": "single",
-  "why": "철을 강화한 진주조와 일반 진주조를 비교한 무작위시험에서 학령기 아동의 철 상태를 직접 측정했습니다.",
-  "saw": "인도 12~16세 아동 246명이 6개월간 철 강화 진주조 또는 대조 진주조를 먹었습니다. 시작 때 41%가 철 결핍, 28%가 빈혈이었고 철 강화군의 혈청 페리틴과 총체철이 4개월에 대조군보다 유의하게 늘었습니다.",
-  "limit": "특정 품종의 생물강화 진주조를 인도 학령기 아동에게 평가한 시험이며 모든 밀렛 식품이나 성인 철 결핍에 바로 확대할 수 없습니다.",
-  "against": "핵심 차이는 철 저장 지표에서 보고됐고 모든 빈혈 결과가 같은 방향이라고 볼 수는 없습니다.",
-  "use": "철 결핍 영양 연구의 근거로 기록하며 철분 치료를 대체하지 않습니다.",
-  "refs": [
-    {
-      "label": "A Randomized Trial of Iron-Biofortified Pearl Millet in School Children in India",
-      "doi": "10.3945/jn.114.208009",
-      "pmid": "25948782",
-      "nct": "NCT02152150"
-    },
-    {
-      "label": "A randomized trial of iron- and zinc-biofortified pearl millet-based complementary feeding in children",
-      "doi": "10.1016/j.clnu.2022.02.014",
-      "pmid": "35299084"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=millet AND query.cond=Iron Deficiency → 6건, millet 개입명 일치 3건",
-    "pubmed": "millet AND Iron Deficiency → 92건",
-    "negative": "millet AND Iron Deficiency AND (no effect OR did not OR failed OR negative OR no significant difference) → 55건",
-    "safety": "millet AND (adverse OR toxicity OR case report OR harm OR dropout) → 749건"
+ "id": "millet-iron-deficiency-pos",
+ "subj": "밀렛",
+ "claim": "철 강화 진주조를 철 결핍에 쓴다",
+ "line": "철 강화 진주조는 학령기 아동의 철 저장량을 늘렸습니다",
+ "effect": "페리틴·총체철 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 246,
+ "synth": "single",
+ "why": "철을 강화한 진주조와 일반 진주조를 비교한 무작위시험에서 학령기 아동의 철 상태를 직접 측정했습니다.",
+ "saw": "인도 12~16세 아동 246명이 6개월간 철 강화 진주조 또는 대조 진주조를 먹었습니다. 시작 때 41%가 철 결핍, 28%가 빈혈이었고 철 강화군의 혈청 페리틴과 총체철이 4개월에 대조군보다 유의하게 늘었습니다.",
+ "limit": "특정 품종의 생물강화 진주조를 인도 학령기 아동에게 평가한 시험이며 모든 밀렛 식품이나 성인 철 결핍에 바로 확대할 수 없습니다.",
+ "against": "핵심 차이는 철 저장 지표에서 보고됐고 모든 빈혈 결과가 같은 방향이라고 볼 수는 없습니다.",
+ "use": "철 결핍 영양 연구의 근거로 기록하며 철분 치료를 대체하지 않습니다.",
+ "refs": [
+  {
+   "label": "A Randomized Trial of Iron-Biofortified Pearl Millet in School Children in India",
+   "doi": "10.3945/jn.114.208009",
+   "pmid": "25948782",
+   "nct": "NCT02152150"
   },
-  "known": "off",
-  "knownWhy": "밀렛은 허가 적응증이 없는 식품입니다."
+  {
+   "label": "A randomized trial of iron- and zinc-biofortified pearl millet-based complementary feeding in children",
+   "doi": "10.1016/j.clnu.2022.02.014",
+   "pmid": "35299084"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=millet AND query.cond=Iron Deficiency → 6건, millet 개입명 일치 3건",
+  "pubmed": "millet AND Iron Deficiency → 92건",
+  "negative": "millet AND Iron Deficiency AND (no effect OR did not OR failed OR negative OR no significant difference) → 55건",
+  "safety": "millet AND (adverse OR toxicity OR case report OR harm OR dropout) → 749건"
+ },
+ "known": "off",
+ "knownWhy": "밀렛은 허가 적응증이 없는 식품입니다.",
+ "vs": "군 간 차이: iron-biofortified millet 대비 conventional millet: 6-month iron repletion RR=1.64 (95% CI 1.07~2.49, P=.02); 4-month serum ferritin and total body iron increased"
 }

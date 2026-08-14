@@ -1,33 +1,34 @@
 {
-  "id": "millet-obesity-pos",
-  "subj": "밀렛",
-  "claim": "밀렛을 비만과 대사위험에 쓴다",
-  "line": "밀렛은 메타분석에서 BMI와 혈중 지질을 낮췄습니다",
-  "effect": "BMI·총콜레스테롤 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "why": "밀렛 섭취를 사람 대상 연구 19편으로 합친 메타분석이 체질량지수와 혈중 지질을 평가했습니다.",
-  "saw": "19개 연구에서 밀렛을 21일~4개월 먹은 뒤 총콜레스테롤 8.0%, 중성지방 9.5%, LDL 10.0%, VLDL 9.0%가 줄었고 HDL은 6.0% 늘었습니다. 밀렛 식사의 BMI는 7.0% 줄었습니다.",
-  "limit": "초록에 메타분석 전체 참여자 수가 없고 밀렛을 넓게 정의해 수수도 포함했습니다. 연구 기간도 21일~4개월로 짧습니다.",
-  "against": "밀렛 종류와 연구 설계가 달라 결과를 모든 곡물 제품에 확대할 수 없습니다.",
-  "use": "비만 치료제가 아닌 단기 식이 연구의 대사 지표 신호로 기록합니다.",
-  "refs": [
-    {
-      "label": "Can Millet Consumption Help Manage Hyperlipidemia and Obesity?: A Systematic Review and Meta-Analysis",
-      "doi": "10.3389/fnut.2021.700778",
-      "pmid": "34485362",
-      "pmc": "PMC8416111"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=millet AND query.cond=Obesity → 4건, millet 개입명 일치 3건",
-    "pubmed": "millet AND Obesity → 113건",
-    "negative": "millet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 62건",
-    "safety": "millet AND (adverse OR toxicity OR case report OR harm OR dropout) → 749건"
-  },
-  "known": "off",
-  "knownWhy": "밀렛은 허가 적응증이 없는 식품입니다."
+ "id": "millet-obesity-pos",
+ "subj": "밀렛",
+ "claim": "밀렛을 비만과 대사위험에 쓴다",
+ "line": "밀렛은 메타분석에서 BMI와 혈중 지질을 낮췄습니다",
+ "effect": "BMI·총콜레스테롤 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "why": "밀렛 섭취를 사람 대상 연구 19편으로 합친 메타분석이 체질량지수와 혈중 지질을 평가했습니다.",
+ "saw": "19개 연구에서 밀렛을 21일~4개월 먹은 뒤 총콜레스테롤 8.0%, 중성지방 9.5%, LDL 10.0%, VLDL 9.0%가 줄었고 HDL은 6.0% 늘었습니다. 밀렛 식사의 BMI는 7.0% 줄었습니다.",
+ "limit": "초록에 메타분석 전체 참여자 수가 없고 밀렛을 넓게 정의해 수수도 포함했습니다. 연구 기간도 21일~4개월로 짧습니다.",
+ "against": "밀렛 종류와 연구 설계가 달라 결과를 모든 곡물 제품에 확대할 수 없습니다.",
+ "use": "비만 치료제가 아닌 단기 식이 연구의 대사 지표 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "Can Millet Consumption Help Manage Hyperlipidemia and Obesity?: A Systematic Review and Meta-Analysis",
+   "doi": "10.3389/fnut.2021.700778",
+   "pmid": "34485362",
+   "pmc": "PMC8416111"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "query.intr=millet AND query.cond=Obesity → 4건, millet 개입명 일치 3건",
+  "pubmed": "millet AND Obesity → 113건",
+  "negative": "millet AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 62건",
+  "safety": "millet AND (adverse OR toxicity OR case report OR harm OR dropout) → 749건"
+ },
+ "known": "off",
+ "knownWhy": "밀렛은 허가 적응증이 없는 식품입니다.",
+ "vs": "군 간 차이: millet consumption: total cholesterol -8.0%, triglycerides -9.5%, LDL -10.0%, VLDL -9.0%, HDL +6.0%, BMI -7.0%; lipid changes P<.01"
 }
