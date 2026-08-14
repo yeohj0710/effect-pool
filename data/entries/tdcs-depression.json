@@ -1,36 +1,37 @@
 {
-  "id": "tdcs-depression",
-  "subj": "tDCS",
-  "claim": "경두개 직류자극이 우울에 듣는다",
-  "line": "우울증에서 tDCS는 가짜자극보다 우울 증상을 소폭 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "effect": "우울 증상 소폭↓",
-  "n": 1204,
-  "synth": "meta",
-  "why": "우울증 환자를 경두개 직류자극과 가짜자극에 무작위로 나눈 시험의 메타분석입니다.",
-  "saw": "무작위시험 메타분석은 tDCS가 가짜자극보다 우울 증상을 줄이는 작은 효과를 보였고 치료 수용성은 대체로 비슷했습니다.",
-  "limit": "자극 방식, 병용치료, 환자 중증도가 달라 효과 크기와 지속성을 확정하기 어렵습니다.",
-  "against": "일부 대규모 시험에서는 주된 우울 결과가 가짜자극과 다르지 않았고 장기 재발 예방 자료가 부족합니다.",
-  "use": "tDCS를 검증된 우울증 치료를 대신하는 방법으로 사용하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Razza 2021 · Neurosci Biobehav Rev · 우울증 tDCS RCT 메타분석",
-      "doi": "10.1016/j.neubiorev.2021.03.026",
-      "pmid": "33789158"
-    },
-    {
-      "label": "Berg 2024 · JAMA Netw Open · 뇌자극 정신질환 메타분석",
-      "doi": "10.1001/jamanetworkopen.2024.12616",
-      "pmid": "38776083",
-      "pmc": "PMC11112448"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=transcranial direct current stimulation, cond=depression → 202건 반환, InterventionName 대조 후 171건",
-    "pubmed": "transcranial direct current stimulation depression randomized sham controlled meta-analysis → 53건",
-    "negative": "tDCS depression AND (no effect OR did not OR failed to OR negative) → 1,082건",
-    "safety": "tDCS depression AND (adverse OR seizure OR mania OR case report) → 353건"
+ "id": "tdcs-depression",
+ "subj": "경두개 직류자극",
+ "claim": "경두개 직류자극이 우울에 듣는다",
+ "line": "우울증에서 tDCS는 가짜자극보다 우울 증상을 소폭 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "effect": "우울 증상 소폭↓",
+ "n": 1204,
+ "synth": "meta",
+ "why": "우울증 환자를 경두개 직류자극과 가짜자극에 무작위로 나눈 시험의 메타분석입니다.",
+ "saw": "무작위시험 메타분석은 tDCS가 가짜자극보다 우울 증상을 줄이는 작은 효과를 보였고 치료 수용성은 대체로 비슷했습니다.",
+ "limit": "자극 방식, 병용치료, 환자 중증도가 달라 효과 크기와 지속성을 확정하기 어렵습니다.",
+ "against": "일부 대규모 시험에서는 주된 우울 결과가 가짜자극과 다르지 않았고 장기 재발 예방 자료가 부족합니다.",
+ "use": "tDCS를 검증된 우울증 치료를 대신하는 방법으로 사용하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Razza 2021 · Neurosci Biobehav Rev · 우울증 tDCS RCT 메타분석",
+   "doi": "10.1016/j.neubiorev.2021.03.026",
+   "pmid": "33789158"
+  },
+  {
+   "label": "Berg 2024 · JAMA Netw Open · 뇌자극 정신질환 메타분석",
+   "doi": "10.1001/jamanetworkopen.2024.12616",
+   "pmid": "38776083",
+   "pmc": "PMC11112448"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=transcranial direct current stimulation, cond=depression → 202건 반환, InterventionName 대조 후 171건",
+  "pubmed": "transcranial direct current stimulation depression randomized sham controlled meta-analysis → 53건",
+  "negative": "tDCS depression AND (no effect OR did not OR failed to OR negative) → 1,082건",
+  "safety": "tDCS depression AND (adverse OR seizure OR mania OR case report) → 353건"
+ },
+ "vs": "활성 tDCS vs 가짜자극: 우울 증상 Hedges g +0.46 (95% CI 0.15~0.76), 반응 OR 1.75 (0.85~3.58), 관해 OR 1.29 (0.59~2.83); 27개 시험 1,204명"
 }

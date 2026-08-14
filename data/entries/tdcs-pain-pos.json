@@ -1,29 +1,39 @@
 {
-  "id": "tdcs-pain-pos",
-  "subj": "tDCS",
-  "claim": "tDCS가 섬유근육통 통증을 줄일 수 있다",
-  "line": "tDCS는 섬유근육통의 통증 강도를 줄였습니다",
-  "effect": "통증 SMD -1.55",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 664,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "tDCS는 섬유근육통의 허가 치료제가 아닌 비약물 뇌 자극 중재다.",
-  "why": "섬유근육통 환자에서 tDCS와 가짜 자극을 비교한 체계적 문헌고찰·메타분석이다.",
-  "saw": "20개 연구 664명(자극군 443명)을 검토했고, 11개 연구의 정량합성에서 활성 tDCS가 가짜 자극보다 통증 강도를 줄였다(SMD -1.55, 95% CI -2.10~-0.99).",
-  "limit": "정량합성은 11개 연구에 한정됐고 자극 위치와 용량이 서로 달랐다.",
-  "against": "섬유근육통 결과를 다른 통증 질환에 그대로 적용할 수 없다.",
-  "use": "표준 치료를 대신하지 않는 보조 중재로 연구할 수 있으나 자극 조건과 장기 효과를 따로 확인해야 한다.",
-  "refs": [
-    { "label": "섬유근육통 tDCS 통증 메타분석", "doi": "10.1186/s12883-023-03445-7", "pmid": "37919664", "pmc": "PMC10621179" },
-    { "label": "tDCS 실험 통증 메타분석", "doi": "10.1016/j.clinph.2021.05.020", "pmid": "34284252" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "transcranial direct current stimulation AND Pain; 245건",
-    "pubmed": "transcranial direct current stimulation AND Pain; 1119건",
-    "negative": "transcranial direct current stimulation AND Pain AND (no effect OR did not OR failed OR negative); 확인",
-    "safety": "transcranial direct current stimulation AND (adverse OR toxicity OR seizure OR headache); 확인"
+ "id": "tdcs-pain-pos",
+ "subj": "경두개 직류자극",
+ "claim": "tDCS가 섬유근육통 통증을 줄일 수 있다",
+ "line": "tDCS는 섬유근육통의 통증 강도를 줄였습니다",
+ "effect": "통증 SMD -1.55",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 664,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "tDCS는 섬유근육통의 허가 치료제가 아닌 비약물 뇌 자극 중재다.",
+ "why": "섬유근육통 환자에서 tDCS와 가짜 자극을 비교한 체계적 문헌고찰·메타분석이다.",
+ "saw": "20개 연구 664명(자극군 443명)을 검토했고, 11개 연구의 정량합성에서 활성 tDCS가 가짜 자극보다 통증 강도를 줄였다(SMD -1.55, 95% CI -2.10~-0.99).",
+ "limit": "정량합성은 11개 연구에 한정됐고 자극 위치와 용량이 서로 달랐다.",
+ "against": "섬유근육통 결과를 다른 통증 질환에 그대로 적용할 수 없다.",
+ "use": "표준 치료를 대신하지 않는 보조 중재로 연구할 수 있으나 자극 조건과 장기 효과를 따로 확인해야 한다.",
+ "refs": [
+  {
+   "label": "섬유근육통 tDCS 통증 메타분석",
+   "doi": "10.1186/s12883-023-03445-7",
+   "pmid": "37919664",
+   "pmc": "PMC10621179"
+  },
+  {
+   "label": "tDCS 실험 통증 메타분석",
+   "doi": "10.1016/j.clinph.2021.05.020",
+   "pmid": "34284252"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "transcranial direct current stimulation AND Pain; 245건",
+  "pubmed": "transcranial direct current stimulation AND Pain; 1119건",
+  "negative": "transcranial direct current stimulation AND Pain AND (no effect OR did not OR failed OR negative); 확인",
+  "safety": "transcranial direct current stimulation AND (adverse OR toxicity OR seizure OR headache); 확인"
+ },
+ "vs": "활성 tDCS vs 가짜자극: 섬유근육통 통증 SMD -1.55 (95% CI -2.10~-0.99; 20개 연구 664명 중 자극군 443명)"
 }

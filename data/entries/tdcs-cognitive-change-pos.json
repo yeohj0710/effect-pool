@@ -1,28 +1,34 @@
 {
-  "id": "tdcs-cognitive-change-pos",
-  "subj": "tDCS",
-  "claim": "tDCS가 뇌질환 환자의 작업기억과 주의력을 소폭 높인다",
-  "line": "tDCS와 TMS 분석에서 작업기억과 주의가 소폭 개선됐습니다",
-  "effect": "작업기억 g0.17; 주의 g0.20",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2784,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "tDCS는 인지기능 저하의 허가 치료제가 아닌 비약물 뇌 자극 중재다.",
-  "why": "여러 뇌질환에서 tDCS 또는 TMS와 가짜 자극을 비교한 무작위시험 메타분석이다.",
-  "saw": "82개 연구 2784명을 분석했다. tDCS는 가짜 자극보다 작업기억을 소폭 개선했고(Hedges g 0.17, P=.021), 주의·각성도 개선했다(g 0.20, P=.020). 다른 다섯 인지 영역은 유의하지 않았다.",
-  "limit": "tDCS와 TMS를 함께 분석했고 효과가 인지 영역에 따라 달랐다.",
-  "against": "작업기억과 주의력의 소폭 변화가 일상 기능이나 장기 예후를 개선하는지는 확인되지 않았다.",
-  "use": "현실적인 목표를 작업기억·주의력의 소폭 개선으로 한정한 연구 중재로 검토할 수 있다.",
-  "refs": [
-    { "label": "뇌질환 비침습 뇌 자극 인지기능 메타분석", "doi": "10.1017/S0033291720003670", "pmid": "33070785", "pmc": "PMC7737055" }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "transcranial direct current stimulation AND Cognitive Change; 14건",
-    "pubmed": "transcranial direct current stimulation AND Cognitive Change; 1254건",
-    "negative": "transcranial direct current stimulation AND Cognitive Change AND (no effect OR did not OR failed OR negative); 확인",
-    "safety": "transcranial direct current stimulation AND (adverse OR seizure OR headache); 확인"
+ "id": "tdcs-cognitive-change-pos",
+ "subj": "경두개 직류자극",
+ "claim": "tDCS가 뇌질환 환자의 작업기억과 주의력을 소폭 높인다",
+ "line": "tDCS와 TMS 분석에서 작업기억과 주의가 소폭 개선됐습니다",
+ "effect": "작업기억 g0.17; 주의 g0.20",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2784,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "tDCS는 인지기능 저하의 허가 치료제가 아닌 비약물 뇌 자극 중재다.",
+ "why": "여러 뇌질환에서 tDCS 또는 TMS와 가짜 자극을 비교한 무작위시험 메타분석이다.",
+ "saw": "82개 연구 2784명을 분석했다. tDCS는 가짜 자극보다 작업기억을 소폭 개선했고(Hedges g 0.17, P=.021), 주의·각성도 개선했다(g 0.20, P=.020). 다른 다섯 인지 영역은 유의하지 않았다.",
+ "limit": "tDCS와 TMS를 함께 분석했고 효과가 인지 영역에 따라 달랐다.",
+ "against": "작업기억과 주의력의 소폭 변화가 일상 기능이나 장기 예후를 개선하는지는 확인되지 않았다.",
+ "use": "현실적인 목표를 작업기억·주의력의 소폭 개선으로 한정한 연구 중재로 검토할 수 있다.",
+ "refs": [
+  {
+   "label": "뇌질환 비침습 뇌 자극 인지기능 메타분석",
+   "doi": "10.1017/S0033291720003670",
+   "pmid": "33070785",
+   "pmc": "PMC7737055"
   }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "transcranial direct current stimulation AND Cognitive Change; 14건",
+  "pubmed": "transcranial direct current stimulation AND Cognitive Change; 1254건",
+  "negative": "transcranial direct current stimulation AND Cognitive Change AND (no effect OR did not OR failed OR negative); 확인",
+  "safety": "transcranial direct current stimulation AND (adverse OR seizure OR headache); 확인"
+ },
+ "vs": "tDCS vs 가짜자극: 뇌질환 환자 작업기억 Hedges g +0.17 (p=.021), 주의·각성 g +0.20 (p=.020); 인지 82개 연구 2,784명"
 }
