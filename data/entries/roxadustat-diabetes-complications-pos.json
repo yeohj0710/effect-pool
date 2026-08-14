@@ -1,6 +1,6 @@
 {
   "id": "roxadustat-diabetes-complications-pos",
-  "subj": "roxadustat",
+  "subj": "록사두스타트",
   "claim": "roxadustat를 당뇨병성 신장병의 빈혈에 쓴다",
   "line": "당뇨병성 신장병 빈혈에서 록사두스타트 반응은 높았지만 변화량은 비슷했습니다.",
   "effect": "Hb 반응 78.7% vs 54.1%",
@@ -16,8 +16,16 @@
   "against": "8주 후향 연구 80명에서도 혈색소 반응은 높았지만 연구 설계가 같아 비교군 차이를 인과효과로 해석할 수 없습니다.",
   "use": "당뇨병성 신장병 빈혈 연구의 관찰 신호로 사용할 수 있지만 당뇨병 합병증을 치료한다고 단정할 수 없습니다.",
   "refs": [
-    { "label": "당뇨병성 신장병 빈혈 roxadustat 대 erythropoietin 후향 코호트", "doi": "10.21037/atm-22-4344", "pmid": "36544686" },
-    { "label": "당뇨병성 신장병 빈혈 roxadustat 8주 후향 연구", "doi": "10.1007/s11255-023-03757-0", "pmid": "37626163" }
+    {
+      "label": "당뇨병성 신장병 빈혈 roxadustat 대 erythropoietin 후향 코호트",
+      "doi": "10.21037/atm-22-4344",
+      "pmid": "36544686"
+    },
+    {
+      "label": "당뇨병성 신장병 빈혈 roxadustat 8주 후향 연구",
+      "doi": "10.1007/s11255-023-03757-0",
+      "pmid": "37626163"
+    }
   ],
   "queried": {
     "date": "2026-08-08",
@@ -25,5 +33,6 @@
     "pubmed": "roxadustat AND diabetic kidney disease OR diabetes nephropathy — PMID 36544686, 37626163",
     "negative": "roxadustat AND diabetic kidney disease AND (no effect OR failed OR no significant difference)",
     "safety": "roxadustat AND diabetic kidney disease AND (adverse OR cardiovascular OR safety)"
-  }
+  },
+  "vs": "당뇨병성 신장질환 빈혈 코호트(n=122)에서 록사두스타트 vs EPO Hb 반응 78.7% vs 54.1%, 보정 오즈비 3.30(95% CI 1.20~9.94); ΔHb 차이 4.9(-2.4~12.1)"
 }
