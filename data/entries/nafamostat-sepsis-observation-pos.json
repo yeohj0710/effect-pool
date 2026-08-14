@@ -1,6 +1,6 @@
 {
   "id": "nafamostat-sepsis-observation-pos",
-  "subj": "nafamostat",
+  "subj": "나파모스타트",
   "claim": "패혈증성 급성 신손상에서 나파모스타트 병용 신대체요법이 염증·신장 지표를 개선한다",
   "line": "패혈증성 급성 신손상에서 나파모스타트 병용 신대체요법이 염증·신장 지표를 개선했습니다.",
   "effect": "염증·신장 지표 개선",
@@ -16,8 +16,17 @@
   "against": "나파모스타트의 패혈증 효과를 확인하는 다기관 이중눈가림 무작위시험은 778명을 목표로 등록됐지만 해당 논문은 결과가 아닌 연구 계획서입니다.",
   "use": "패혈증에서 나파모스타트의 직접 치료 효과가 아니라 신대체요법 항응고와 염증 지표에 대한 관찰 신호로 기록합니다.",
   "refs": [
-    { "label": "패혈증성 급성 신손상 나파모스타트·신대체요법 후향 비교", "doi": "10.5414/CP204852", "pmid": "41347379" },
-    { "label": "나파모스타트 패혈증 다기관 무작위시험 계획서", "doi": "10.1186/s13063-025-08979-4", "pmid": "40731293", "nct": "NCT06078839" }
+    {
+      "label": "패혈증성 급성 신손상 나파모스타트·신대체요법 후향 비교",
+      "doi": "10.5414/CP204852",
+      "pmid": "41347379"
+    },
+    {
+      "label": "나파모스타트 패혈증 다기관 무작위시험 계획서",
+      "doi": "10.1186/s13063-025-08979-4",
+      "pmid": "40731293",
+      "nct": "NCT06078839"
+    }
   ],
   "queried": {
     "date": "2026-08-11",
@@ -25,5 +34,6 @@
     "pubmed": "nafamostat AND Sepsis → 42편",
     "negative": "nafamostat AND Sepsis AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 28편",
     "safety": "nafamostat AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 371편"
-  }
+  },
+  "vs": "패혈증 CRRT 이상반응 나파모스타트 3.77% vs 구연산 16.98%, p<.05; 염증표지자도 나파모스타트군이 낮음"
 }
