@@ -1,28 +1,33 @@
 {
-  "id": "internet-based-cognitive-behavioral-therapy-insomnia-pos",
-  "subj": "internet-based cognitive behavioral therapy",
-  "claim": "인터넷 인지행동치료로 자폐 성인의 불면이 줄었다",
-  "line": "자폐 성인 불면 감소",
-  "effect": "d=1.02",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 163,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "대면 치료가 어려운 자폐 성인의 불면에 인터넷 인지행동치료를 적용했다.",
-  "saw": "자폐와 불면이 있는 성인 163명을 인터넷 인지행동치료군 82명과 대기자군 81명으로 무작위 배정했다. 6주 불면 심각도 효과크기는 d=1.02였고, 임상적으로 의미 있는 호전은 37.8% 대 11.1%였다.",
-  "limit": "중재군의 절반만 다섯 모듈을 모두 완료했고 대기자군을 사용했다.",
-  "against": "대기자군은 적극적 수면치료를 받지 않아 기대 효과를 분리하기 어렵다.",
-  "use": "불면을 동반한 자폐 성인의 비대면 수면치료",
-  "refs": [
-    { "label": "i-Sleep Autism 무작위시험", "doi": "10.1093/sleep/zsag199", "pmid": "42472472" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=internet-based cognitive behavioral therapy AND condition=Insomnia; 2건",
-    "pubmed": "internet-based cognitive behavioral therapy AND Insomnia; 205건",
-    "negative": "internet-based cognitive behavioral therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1829건",
-    "safety": "internet-based cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 313건"
+ "id": "internet-based-cognitive-behavioral-therapy-insomnia-pos",
+ "subj": "인터넷 인지행동치료",
+ "claim": "인터넷 인지행동치료로 자폐 성인의 불면이 줄었다",
+ "line": "자폐 성인 불면 감소",
+ "effect": "d=1.02",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 163,
+ "vs": "자폐 성인 인터넷 인지행동치료군 대 대기자군: 6주 불면 심각도 효과크기 d=1.02, 임상적으로 의미 있는 호전 37.8% 대 11.1%; 82명 대 81명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "대면 치료가 어려운 자폐 성인의 불면에 인터넷 인지행동치료를 적용했다.",
+ "saw": "자폐와 불면이 있는 성인 163명을 인터넷 인지행동치료군 82명과 대기자군 81명으로 무작위 배정했다. 6주 불면 심각도 효과크기는 d=1.02였고, 임상적으로 의미 있는 호전은 37.8% 대 11.1%였다.",
+ "limit": "중재군의 절반만 다섯 모듈을 모두 완료했고 대기자군을 사용했다.",
+ "against": "대기자군은 적극적 수면치료를 받지 않아 기대 효과를 분리하기 어렵다.",
+ "use": "불면을 동반한 자폐 성인의 비대면 수면치료",
+ "refs": [
+  {
+   "label": "i-Sleep Autism 무작위시험",
+   "doi": "10.1093/sleep/zsag199",
+   "pmid": "42472472"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=internet-based cognitive behavioral therapy AND condition=Insomnia; 2건",
+  "pubmed": "internet-based cognitive behavioral therapy AND Insomnia; 205건",
+  "negative": "internet-based cognitive behavioral therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1829건",
+  "safety": "internet-based cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 313건"
+ }
 }

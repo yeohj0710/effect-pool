@@ -1,23 +1,38 @@
 {
-  "id": "intermittent-fasting-prediabetes-pos",
-  "subj": "intermittent fasting",
-  "claim": "전당뇨병과 제2형 당뇨병의 체중·혈당에 간헐적 단식을 쓴다",
-  "line": "전당뇨병·제2형 당뇨병에서 간헐적 단식이 체중과 HbA1c를 낮췄습니다",
-  "effect": "체중·BMI·HbA1c·공복혈당 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1101,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "간헐적 단식은 식이 중재이며 전당뇨병의 의약품 허가 적응증이 아닙니다.",
-  "why": "전당뇨병과 제2형 당뇨병 성인의 간헐적 단식 무작위시험 14편을 합친 메타분석입니다.",
-  "saw": "14개 연구 1,101명을 합친 메타분석에서 간헐적 단식은 대조 식이보다 체중, BMI, HbA1c, 공복혈당, 총콜레스테롤과 중성지방을 낮췄습니다. 체지방, 혈압과 일부 지질 결과는 대조군보다 유의하게 다르지 않았습니다.",
-  "limit": "간헐적 단식 방식과 대조 식이가 달랐고 장기 지속성과 저혈당 위험을 별도로 평가해야 합니다.",
-  "against": "간헐적 단식이 모든 전당뇨병·당뇨병 환자의 혈당을 관리하거나 약물치료를 대체한다는 근거는 아닙니다.",
-  "use": "체중·혈당 관리 식이 선택지로 기록하며 복용약, 저혈당 위험과 지속 가능성을 함께 확인합니다.",
-  "refs": [
-    { "label": "전당뇨병·제2형 당뇨병 간헐적 단식 메타분석", "doi": "10.1111/dom.15730", "pmid": "38956175" },
-    { "label": "전당뇨병 시간제한 식사 무작위 교차시험", "doi": "10.1016/j.cmet.2018.04.010", "pmid": "29754952" }
-  ],
-  "queried": { "date": "2026-08-07", "ctgov": "intr=intermittent fasting, cond=PreDiabetes · 16건", "pubmed": "intermittent fasting AND PreDiabetes · 62편", "negative": "intermittent fasting AND PreDiabetes AND (no effect OR did not OR failed OR no significant difference) · 46편", "safety": "intermittent fasting AND (adverse OR toxicity OR harm OR case report) · 600편" }
+ "id": "intermittent-fasting-prediabetes-pos",
+ "subj": "간헐적 단식 중재",
+ "claim": "전당뇨병과 제2형 당뇨병의 체중·혈당에 간헐적 단식을 쓴다",
+ "line": "전당뇨병·제2형 당뇨병에서 간헐적 단식이 체중과 HbA1c를 낮췄습니다",
+ "effect": "체중·BMI·HbA1c·공복혈당 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1101,
+ "vs": "간헐적 단식군 대 대조식군: 체중 WMD=−4.56kg (95% CI −6.23~−2.83; P=.001), HbA1c WMD=−0.81% (95% CI −1.24~−0.38; P=.001), 공복혈당 WMD=−0.36mmol/L (95% CI −0.63~−0.09; P=.008); 14개 연구, 1101명",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "간헐적 단식은 식이 중재이며 전당뇨병의 의약품 허가 적응증이 아닙니다.",
+ "why": "전당뇨병과 제2형 당뇨병 성인의 간헐적 단식 무작위시험 14편을 합친 메타분석입니다.",
+ "saw": "14개 연구 1,101명을 합친 메타분석에서 간헐적 단식은 대조 식이보다 체중, BMI, HbA1c, 공복혈당, 총콜레스테롤과 중성지방을 낮췄습니다. 체지방, 혈압과 일부 지질 결과는 대조군보다 유의하게 다르지 않았습니다.",
+ "limit": "간헐적 단식 방식과 대조 식이가 달랐고 장기 지속성과 저혈당 위험을 별도로 평가해야 합니다.",
+ "against": "간헐적 단식이 모든 전당뇨병·당뇨병 환자의 혈당을 관리하거나 약물치료를 대체한다는 근거는 아닙니다.",
+ "use": "체중·혈당 관리 식이 선택지로 기록하며 복용약, 저혈당 위험과 지속 가능성을 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "전당뇨병·제2형 당뇨병 간헐적 단식 메타분석",
+   "doi": "10.1111/dom.15730",
+   "pmid": "38956175"
+  },
+  {
+   "label": "전당뇨병 시간제한 식사 무작위 교차시험",
+   "doi": "10.1016/j.cmet.2018.04.010",
+   "pmid": "29754952"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "intr=intermittent fasting, cond=PreDiabetes · 16건",
+  "pubmed": "intermittent fasting AND PreDiabetes · 62편",
+  "negative": "intermittent fasting AND PreDiabetes AND (no effect OR did not OR failed OR no significant difference) · 46편",
+  "safety": "intermittent fasting AND (adverse OR toxicity OR harm OR case report) · 600편"
+ }
 }

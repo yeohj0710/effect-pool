@@ -1,28 +1,32 @@
 {
-  "id": "internet-based-cognitive-behavioral-therapy-depression-null",
-  "subj": "internet-based cognitive behavioral therapy",
-  "claim": "임신 중 우울 증상이 있는 사람에게 인터넷 인지행동치료를 해도 산후우울은 전체적으로 예방되지 않았다",
-  "line": "산후우울 예방 효과 없음",
-  "effect": "6주 산후 P=0.18; 경도군 OR=0.534",
-  "tier": "trial",
-  "dir": "null",
-  "n": 300,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
-  "why": "임신 중 우울 증상이 있는 사람의 산후우울 예방을 인터넷 인지행동치료로 할 수 있는지 확인했다.",
-  "saw": "중국 5개 기관에서 임신 중 우울 증상이 있는 300명을 인터넷 인지행동치료군과 무치료 관찰군으로 무작위 배정했다. 6주 산후 우울 증상은 군 간 차이가 없었지만, 사후 분석에서 경도·중등도 우울군의 첫해 우울 위험은 OR=0.534였다.",
-  "limit": "주요 결과는 음성이었고 경도·중등도 하위군 결과는 사후 분석이다.",
-  "against": "무치료 관찰군을 사용했고 인터넷 프로그램의 실제 이수율과 참여 정도가 결과에 영향을 줄 수 있다.",
-  "use": "임신 중 우울 증상의 산후 예방 상담에서 인터넷 중재를 검토할 때의 근거",
-  "refs": [
-    { "label": "산후우울 예방 다기관 무작위시험", "pmid": "40053801" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=internet-based cognitive behavioral therapy AND condition=Depression; 2건",
-    "pubmed": "internet-based cognitive behavioral therapy AND Depression; 1251건",
-    "negative": "internet-based cognitive behavioral therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1829건",
-    "safety": "internet-based cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 313건"
+ "id": "internet-based-cognitive-behavioral-therapy-depression-null",
+ "subj": "인터넷 인지행동치료",
+ "claim": "임신 중 우울 증상이 있는 사람에게 인터넷 인지행동치료를 해도 산후우울은 전체적으로 예방되지 않았다",
+ "line": "산후우울 예방 효과 없음",
+ "effect": "6주 산후 P=0.18; 경도군 OR=0.534",
+ "tier": "trial",
+ "dir": "null",
+ "n": 300,
+ "vs": "임신 중 인터넷 인지행동치료군 대 무치료 관찰군: 6주 산후우울 군 간 차이 P=.18, 경도·중등도 우울 하위군 첫해 우울 오즈비 OR=0.534 (95% CI 0.313~0.912; P=.02); 총 300명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "심리치료이므로 의약품 허가 적응증을 적용하지 않는다",
+ "why": "임신 중 우울 증상이 있는 사람의 산후우울 예방을 인터넷 인지행동치료로 할 수 있는지 확인했다.",
+ "saw": "중국 5개 기관에서 임신 중 우울 증상이 있는 300명을 인터넷 인지행동치료군과 무치료 관찰군으로 무작위 배정했다. 6주 산후 우울 증상은 군 간 차이가 없었지만, 사후 분석에서 경도·중등도 우울군의 첫해 우울 위험은 OR=0.534였다.",
+ "limit": "주요 결과는 음성이었고 경도·중등도 하위군 결과는 사후 분석이다.",
+ "against": "무치료 관찰군을 사용했고 인터넷 프로그램의 실제 이수율과 참여 정도가 결과에 영향을 줄 수 있다.",
+ "use": "임신 중 우울 증상의 산후 예방 상담에서 인터넷 중재를 검토할 때의 근거",
+ "refs": [
+  {
+   "label": "산후우울 예방 다기관 무작위시험",
+   "pmid": "40053801"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=internet-based cognitive behavioral therapy AND condition=Depression; 2건",
+  "pubmed": "internet-based cognitive behavioral therapy AND Depression; 1251건",
+  "negative": "internet-based cognitive behavioral therapy AND (no effect OR did not OR failed to OR negative OR no significant difference); 1829건",
+  "safety": "internet-based cognitive behavioral therapy AND (adverse OR toxicity OR case report OR harm OR dropout); 313건"
+ }
 }
