@@ -1,29 +1,37 @@
 {
-  "id": "exercise-prescription-heart-failure-pos",
-  "subj": "exercise prescription",
-  "claim": "운동 처방을 심부전 재활에 쓴다",
-  "line": "심부전 운동 처방은 운동능력을 높이는 1급 권고다.",
-  "effect": "운동능력·삶의 질 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "심부전 운동 처방 실무 지침과 심장재활 고찰은 유산소·저항·흡기근 운동이 운동능력과 삶의 질을 높이고 입원을 줄이는 근거를 정리했습니다.",
-  "saw": "국제 지침은 박출률과 무관하게 운동훈련을 1급 권고로 설명하고 빈도·강도·시간·종류·양·진행을 환자 상태에 맞추도록 합니다.",
-  "limit": "이번에 확인한 자료는 실무 지침과 서술 고찰이라 통합 참여자 수와 하나의 효과크기를 제시하지 않았습니다.",
-  "against": "운동 순응도는 낮고 사회경제적 요인·허약·약물·기기·허혈을 함께 평가해야 하므로 처방만으로 재입원이나 사망 감소를 보장하지 않습니다.",
-  "use": "심부전 재활에서 환자의 박출률·허약·기기와 운동 유발 허혈을 확인한 뒤 유산소·저항운동의 진행량을 정합니다.",
-  "refs": [
-    { "label": "Practical guidelines for exercise prescription in patients with chronic heart failure", "pmid": "37071253", "doi": "10.1007/s10741-023-10310-9" },
-    { "label": "Exercise-based cardiac rehabilitation programs in heart failure patients", "pmid": "33673950", "doi": "10.1016/j.hfc.2021.01.007" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Heart Failure → 31건, exact InterventionName 0건",
-    "pubmed": "\"exercise prescription\" AND \"Heart Failure\" → 126건",
-    "negative": "\"exercise prescription\" AND \"Heart Failure\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 16건",
-    "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+ "id": "exercise-prescription-heart-failure-pos",
+ "subj": "운동 처방",
+ "claim": "운동 처방을 심부전 재활에 쓴다",
+ "line": "심부전 운동 처방은 운동능력을 높이는 1급 권고다.",
+ "effect": "운동능력·삶의 질 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "심부전 운동 처방 실무 지침과 심장재활 고찰은 유산소·저항·흡기근 운동이 운동능력과 삶의 질을 높이고 입원을 줄이는 근거를 정리했습니다.",
+ "saw": "국제 지침은 박출률과 무관하게 운동훈련을 1급 권고로 설명하고 빈도·강도·시간·종류·양·진행을 환자 상태에 맞추도록 합니다.",
+ "limit": "이번에 확인한 자료는 실무 지침과 서술 고찰이라 통합 참여자 수와 하나의 효과크기를 제시하지 않았습니다.",
+ "against": "운동 순응도는 낮고 사회경제적 요인·허약·약물·기기·허혈을 함께 평가해야 하므로 처방만으로 재입원이나 사망 감소를 보장하지 않습니다.",
+ "use": "심부전 재활에서 환자의 박출률·허약·기기와 운동 유발 허혈을 확인한 뒤 유산소·저항운동의 진행량을 정합니다.",
+ "refs": [
+  {
+   "label": "Practical guidelines for exercise prescription in patients with chronic heart failure",
+   "pmid": "37071253",
+   "doi": "10.1007/s10741-023-10310-9"
+  },
+  {
+   "label": "Exercise-based cardiac rehabilitation programs in heart failure patients",
+   "pmid": "33673950",
+   "doi": "10.1016/j.hfc.2021.01.007"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Heart Failure → 31건, exact InterventionName 0건",
+  "pubmed": "\"exercise prescription\" AND \"Heart Failure\" → 126건",
+  "negative": "\"exercise prescription\" AND \"Heart Failure\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 16건",
+  "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+ }
 }

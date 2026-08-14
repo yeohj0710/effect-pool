@@ -1,29 +1,38 @@
 {
-  "id": "exercise-therapy-obesity-pos",
-  "subj": "exercise therapy",
-  "claim": "운동 치료는 과체중·비만 성인의 유산소 체력과 근력을 높였습니다",
-  "line": "운동 훈련은 VO2max를 평균 3.82 ml/kg/min만큼 높였다.",
-  "effect": "VO2max +3.82 ml/kg/min",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3964,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "운동 치료는 비약물 중재이며 비만의 허가 적응증으로 분류하지 않습니다.",
-  "why": "유산소·저항·인터벌 운동이 심폐 체력과 근육 적응을 높여 체중과 별개로 건강 결과를 개선합니다.",
-  "saw": "과체중·비만 성인 운동 무작위시험 66편, 3,964명의 메타분석에서 모든 운동 유형이 VO2max를 평균 3.82ml/kg/min 높였습니다. 저항운동을 포함한 프로그램은 근력 향상에도 유리했습니다.",
-  "limit": "운동 유형을 직접 비교한 연구와 효과 측정법이 달라 체중 감소 크기를 이 결과로 추정할 수 없습니다.",
-  "against": "저항운동은 유산소운동보다 VO2max 향상이 작았고 운동 유형별 우열은 모든 결과에서 일관되지 않았습니다.",
-  "use": "비만 관리에서 체중 숫자뿐 아니라 심폐 체력과 근력을 목표로 개인별 운동을 보조 중재로 검토합니다.",
-  "refs": [
-    { "label": "과체중·비만 성인 운동 유형 체력 메타분석", "doi": "10.1111/obr.13239", "pmid": "33939229" },
-    { "label": "과체중·비만 운동의 내장지방 네트워크 메타분석", "doi": "10.1111/obr.13666", "pmid": "38031812" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "exercise therapy AND Obesity · 총 1175건, 직접 확인 8건",
-    "pubmed": "exercise therapy AND Obesity · 16985편",
-    "negative": "exercise therapy AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) · 11411편",
-    "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ "id": "exercise-therapy-obesity-pos",
+ "subj": "운동 치료",
+ "claim": "운동 치료는 과체중·비만 성인의 유산소 체력과 근력을 높였습니다",
+ "line": "운동 훈련은 VO2max를 평균 3.82 ml/kg/min만큼 높였다.",
+ "effect": "VO2max +3.82 ml/kg/min",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 3964,
+ "vs": "과체중·비만 성인 66개 무작위시험 3,964명; 개입군 운동 대 대조군 대비 최대산소섭취량 평균차 3.82 mL/min/kg(95% CI 3.17~4.48, P<.00001), 유산소·근력·복합·고강도 인터벌 운동 모두 체력 개선",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "운동 치료는 비약물 중재이며 비만의 허가 적응증으로 분류하지 않습니다.",
+ "why": "유산소·저항·인터벌 운동이 심폐 체력과 근육 적응을 높여 체중과 별개로 건강 결과를 개선합니다.",
+ "saw": "과체중·비만 성인 운동 무작위시험 66편, 3,964명의 메타분석에서 모든 운동 유형이 VO2max를 평균 3.82ml/kg/min 높였습니다. 저항운동을 포함한 프로그램은 근력 향상에도 유리했습니다.",
+ "limit": "운동 유형을 직접 비교한 연구와 효과 측정법이 달라 체중 감소 크기를 이 결과로 추정할 수 없습니다.",
+ "against": "저항운동은 유산소운동보다 VO2max 향상이 작았고 운동 유형별 우열은 모든 결과에서 일관되지 않았습니다.",
+ "use": "비만 관리에서 체중 숫자뿐 아니라 심폐 체력과 근력을 목표로 개인별 운동을 보조 중재로 검토합니다.",
+ "refs": [
+  {
+   "label": "과체중·비만 성인 운동 유형 체력 메타분석",
+   "doi": "10.1111/obr.13239",
+   "pmid": "33939229"
+  },
+  {
+   "label": "과체중·비만 운동의 내장지방 네트워크 메타분석",
+   "doi": "10.1111/obr.13666",
+   "pmid": "38031812"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "exercise therapy AND Obesity · 총 1175건, 직접 확인 8건",
+  "pubmed": "exercise therapy AND Obesity · 16985편",
+  "negative": "exercise therapy AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) · 11411편",
+  "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ }
 }

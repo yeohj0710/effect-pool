@@ -1,28 +1,32 @@
 {
-  "id": "exercise-prescription-obesity-pos",
-  "subj": "exercise prescription",
-  "claim": "운동 처방을 비만의 체성분 개선에 쓴다",
-  "line": "과체중 청소년은 12주 이상 운동 뒤 체성분·대사건강이 개선됐다.",
-  "effect": "29개 연구 2,195명",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 2195,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
-  "why": "과체중·비만 아동청소년을 대상으로 유산소와 저항운동을 병합한 운동 처방 29개 연구, 2,195명을 합친 메타분석입니다.",
-  "saw": "병합 운동은 체질량지수·허리둘레·체지방과 중성지방·인슐린저항성 등 대사 지표를 개선했고 주 3회 60분 이상 12주 이상이 유리했습니다.",
-  "limit": "아동청소년 대상이고 운동 방식·측정치가 달라 모든 성인 비만 환자에게 같은 처방을 적용할 수 없습니다.",
-  "against": "고감도 C반응단백은 유의하게 달라지지 않았고, 운동량과 기간에 따른 하위그룹 효과가 일정하지 않았습니다.",
-  "use": "과체중 아동청소년의 운동 처방을 설계할 때 유산소와 저항운동을 함께 구성하고 최소 기간을 검토합니다.",
-  "refs": [
-    { "label": "Effects of aerobic exercise combined with resistance training on body composition and metabolic health in children and adolescents with overweight or obesity · systematic review and meta-analysis", "pmid": "39185113", "doi": "10.3389/fpubh.2024.1409660" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Obesity → 152건, exact InterventionName 2건",
-    "pubmed": "\"exercise prescription\" AND \"Obesity\" → 253건",
-    "negative": "\"exercise prescription\" AND \"Obesity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 34건",
-    "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+ "id": "exercise-prescription-obesity-pos",
+ "subj": "운동 처방",
+ "claim": "운동 처방을 비만의 체성분 개선에 쓴다",
+ "line": "과체중 청소년은 12주 이상 운동 뒤 체성분·대사건강이 개선됐다.",
+ "effect": "29개 연구 2,195명",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 2195,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+ "why": "과체중·비만 아동청소년을 대상으로 유산소와 저항운동을 병합한 운동 처방 29개 연구, 2,195명을 합친 메타분석입니다.",
+ "saw": "병합 운동은 체질량지수·허리둘레·체지방과 중성지방·인슐린저항성 등 대사 지표를 개선했고 주 3회 60분 이상 12주 이상이 유리했습니다.",
+ "limit": "아동청소년 대상이고 운동 방식·측정치가 달라 모든 성인 비만 환자에게 같은 처방을 적용할 수 없습니다.",
+ "against": "고감도 C반응단백은 유의하게 달라지지 않았고, 운동량과 기간에 따른 하위그룹 효과가 일정하지 않았습니다.",
+ "use": "과체중 아동청소년의 운동 처방을 설계할 때 유산소와 저항운동을 함께 구성하고 최소 기간을 검토합니다.",
+ "refs": [
+  {
+   "label": "Effects of aerobic exercise combined with resistance training on body composition and metabolic health in children and adolescents with overweight or obesity · systematic review and meta-analysis",
+   "pmid": "39185113",
+   "doi": "10.3389/fpubh.2024.1409660"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.term=AREA[InterventionName]exercise prescription AND AREA[ConditionSearch]Obesity → 152건, exact InterventionName 2건",
+  "pubmed": "\"exercise prescription\" AND \"Obesity\" → 253건",
+  "negative": "\"exercise prescription\" AND \"Obesity\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 34건",
+  "safety": "\"exercise prescription\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 571건"
+ }
 }

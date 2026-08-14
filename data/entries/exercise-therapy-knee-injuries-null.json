@@ -1,30 +1,44 @@
 {
-  "id": "exercise-therapy-knee-injuries-null",
-  "subj": "exercise therapy",
-  "claim": "무릎 손상에서 운동 치료가 다른 운동이나 수술보다 기능을 확실히 높였다는 근거는 없었습니다",
-  "line": "ACL 운동 재활 메타분석에서 기능 차이는 -2.2점이었다.",
-  "effect": "기능 MD -2.2",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1433,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "운동 치료는 비약물 중재이며 무릎 손상의 허가 적응증으로 분류하지 않습니다.",
-  "why": "운동 재활은 무릎 주변 근력과 기능을 회복하지만 손상 유형에 따라 효과가 달라질 수 있습니다.",
-  "saw": "ACL 손상 운동 재활 무작위시험 18편, 1,433명의 메타분석에서 운동 유형 사이 기능 차이는 SMD -0.07(95% CI -0.4~0.3)이었고 운동과 수술의 통증 차이도 유의하지 않았습니다.",
-  "limit": "ACL 손상 연구가 중심이며 반월상연골 손상과 건병증 결과를 같은 효과로 합칠 수 없습니다.",
-  "against": "퇴행성 반월상연골 손상·무릎통증 879명 시험에서도 표준 물리치료 추가가 가정운동보다 통증을 줄이지 못했습니다.",
-  "use": "무릎 손상 재활에서 운동을 개별 기능 목표에 맞추되 특정 운동이나 수술보다 우월하다고 단정하지 않습니다.",
-  "refs": [
-    { "label": "ACL 손상 운동 재활 체계적 문헌고찰", "doi": "10.1016/j.msksp.2025.103392", "pmid": "40961649" },
-    { "label": "반월상연골 파열·무릎통증 물리치료 무작위시험", "doi": "10.1056/NEJMoa2503385", "pmid": "41160820", "nct": "NCT03059004" },
-    { "label": "ACL·반월상연골 손상 재활 근거 종합", "doi": "10.1136/bjsports-2022-105495", "pmid": "35768181" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "exercise therapy AND Knee Injuries · 총 145건, 직접 확인 3건",
-    "pubmed": "exercise therapy AND Knee Injuries · 2283편",
-    "negative": "exercise therapy AND Knee Injuries AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1281편",
-    "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ "id": "exercise-therapy-knee-injuries-null",
+ "subj": "운동 치료",
+ "claim": "무릎 손상에서 운동 치료가 다른 운동이나 수술보다 기능을 확실히 높였다는 근거는 없었습니다",
+ "line": "ACL 운동 재활 메타분석에서 기능 차이는 -2.2점이었다.",
+ "effect": "기능 MD -2.2",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1433,
+ "vs": "전방십자인대 손상 18개 시험 1,433명; 운동 대 무치료 기능 MD −2.2(95% CI −6.5~2.1), 운동 종류 간 SMD −0.07(−0.4~0.3), 수술 대 운동 통증 MD −3.5(−7.9~1.0)·기능 MD −4.3(−6.7~−1.8)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "운동 치료는 비약물 중재이며 무릎 손상의 허가 적응증으로 분류하지 않습니다.",
+ "why": "운동 재활은 무릎 주변 근력과 기능을 회복하지만 손상 유형에 따라 효과가 달라질 수 있습니다.",
+ "saw": "ACL 손상 운동 재활 무작위시험 18편, 1,433명의 메타분석에서 운동 유형 사이 기능 차이는 SMD -0.07(95% CI -0.4~0.3)이었고 운동과 수술의 통증 차이도 유의하지 않았습니다.",
+ "limit": "ACL 손상 연구가 중심이며 반월상연골 손상과 건병증 결과를 같은 효과로 합칠 수 없습니다.",
+ "against": "퇴행성 반월상연골 손상·무릎통증 879명 시험에서도 표준 물리치료 추가가 가정운동보다 통증을 줄이지 못했습니다.",
+ "use": "무릎 손상 재활에서 운동을 개별 기능 목표에 맞추되 특정 운동이나 수술보다 우월하다고 단정하지 않습니다.",
+ "refs": [
+  {
+   "label": "ACL 손상 운동 재활 체계적 문헌고찰",
+   "doi": "10.1016/j.msksp.2025.103392",
+   "pmid": "40961649"
+  },
+  {
+   "label": "반월상연골 파열·무릎통증 물리치료 무작위시험",
+   "doi": "10.1056/NEJMoa2503385",
+   "pmid": "41160820",
+   "nct": "NCT03059004"
+  },
+  {
+   "label": "ACL·반월상연골 손상 재활 근거 종합",
+   "doi": "10.1136/bjsports-2022-105495",
+   "pmid": "35768181"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "exercise therapy AND Knee Injuries · 총 145건, 직접 확인 3건",
+  "pubmed": "exercise therapy AND Knee Injuries · 2283편",
+  "negative": "exercise therapy AND Knee Injuries AND (no effect OR did not OR failed to OR negative OR no significant difference) · 1281편",
+  "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ }
 }

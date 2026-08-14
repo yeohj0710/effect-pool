@@ -1,28 +1,32 @@
 {
-  "id": "exercise-referral-peripheral-artery-disease-pos",
-  "subj": "exercise referral",
-  "claim": "간헐적 파행 운동 의뢰는 통증 없는 보행거리를 늘릴 수 있다",
-  "line": "말초동맥질환에서 운동 의뢰 뒤 통증 없는 보행거리가 늘었다.",
-  "effect": "무통 보행 110m 증가",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 29,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "운동 의뢰는 의약품이 아닌 재활 중재다",
-  "why": "영국 요크의 말초동맥질환 간헐적 파행 환자를 병원 혈관 진료에서 12주 감독 운동에 의뢰한 서비스 평가다.",
-  "saw": "적격 환자 65명 중 29명이 운동을 시작했고 중앙 참석 횟수는 24회 중 19회였다. 22명 중 13명이 증상 개선을 보고했고 무통 보행거리는 평균 110m 늘었다.",
-  "limit": "서비스 평가이고 운동을 시작한 인원이 29명뿐이다. 대조군이 없어 자연 경과와 의뢰 효과를 분리할 수 없다.",
-  "against": "모든 말초동맥질환자가 운동 의뢰를 시작하거나 같은 보행 개선을 얻는지는 확인되지 않았다.",
-  "use": "간헐적 파행 환자를 운동에 의뢰할 때 시작률·참석률과 무통 보행거리를 함께 기록한다.",
-  "refs": [
-    { "label": "Implementation and Evaluation of a Supervised Exercise Programme for People With Claudication in York, England 2025 · Journal of Vascular Nursing", "doi": "10.1016/j.jvn.2025.07.002", "pmid": "40841074" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=exercise referral AND condition=Peripheral Artery Disease; 12건 반환, 중재명 일치 0건",
-    "pubmed": "exercise referral AND Peripheral Artery Disease; 93건",
-    "negative": "exercise referral AND Peripheral Artery Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 36건",
-    "safety": "exercise referral AND (adverse OR toxicity OR case report OR harm OR dropout); 14건"
+ "id": "exercise-referral-peripheral-artery-disease-pos",
+ "subj": "운동 의뢰",
+ "claim": "간헐적 파행 운동 의뢰는 통증 없는 보행거리를 늘릴 수 있다",
+ "line": "말초동맥질환에서 운동 의뢰 뒤 통증 없는 보행거리가 늘었다.",
+ "effect": "무통 보행 110m 증가",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 29,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "운동 의뢰는 의약품이 아닌 재활 중재다",
+ "why": "영국 요크의 말초동맥질환 간헐적 파행 환자를 병원 혈관 진료에서 12주 감독 운동에 의뢰한 서비스 평가다.",
+ "saw": "적격 환자 65명 중 29명이 운동을 시작했고 중앙 참석 횟수는 24회 중 19회였다. 22명 중 13명이 증상 개선을 보고했고 무통 보행거리는 평균 110m 늘었다.",
+ "limit": "서비스 평가이고 운동을 시작한 인원이 29명뿐이다. 대조군이 없어 자연 경과와 의뢰 효과를 분리할 수 없다.",
+ "against": "모든 말초동맥질환자가 운동 의뢰를 시작하거나 같은 보행 개선을 얻는지는 확인되지 않았다.",
+ "use": "간헐적 파행 환자를 운동에 의뢰할 때 시작률·참석률과 무통 보행거리를 함께 기록한다.",
+ "refs": [
+  {
+   "label": "Implementation and Evaluation of a Supervised Exercise Programme for People With Claudication in York, England 2025 · Journal of Vascular Nursing",
+   "doi": "10.1016/j.jvn.2025.07.002",
+   "pmid": "40841074"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=exercise referral AND condition=Peripheral Artery Disease; 12건 반환, 중재명 일치 0건",
+  "pubmed": "exercise referral AND Peripheral Artery Disease; 93건",
+  "negative": "exercise referral AND Peripheral Artery Disease AND (no effect OR did not OR failed to OR negative OR no significant difference); 36건",
+  "safety": "exercise referral AND (adverse OR toxicity OR case report OR harm OR dropout); 14건"
+ }
 }

@@ -1,32 +1,33 @@
 {
-  "id": "exposure-and-response-prevention-anxiety-pos",
-  "subj": "exposure and response prevention",
-  "claim": "노출 및 반응방지법은 강박 증상과 불안에 사용할 수 있다",
-  "line": "노출 및 반응방지법은 강박 증상을 낮췄다.",
-  "effect": "OCD Hedges g 0.74",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 2020,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "불안장애 범주인 강박장애에서 ERP를 포함한 CBT와 대조군을 비교한 무작위시험 메타분석을 확인했습니다",
-  "saw": "36개 연구 2,020명에서 전체 대조군 대비 OCD 증상 효과크기 g 0.74였지만 활성 심리치료와는 g -0.05로 차이가 없었습니다",
-  "limit": "연구 28개에서 연구자 선호가 의심됐고 대조군에 따라 효과가 크게 달랐습니다",
-  "against": "위약·약물·다른 심리치료",
-  "use": "불안 증상 중 강박 증상에 대한 비약물 중재 신호로만 봅니다",
-  "refs": [
-    {
-      "label": "Cognitive behavioural therapy with exposure and response prevention in the treatment of obsessive-compulsive disorder: A systematic review and meta-analysis of randomised controlled trials",
-      "doi": "10.1016/j.comppsych.2021.152223",
-      "pmid": "33618297"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=exposure and response prevention · cond=Anxiety: 22건",
-    "pubmed": "exposure and response prevention AND Anxiety AND (randomized OR trial OR meta-analysis): 315건",
-    "negative": "exposure and response prevention AND Anxiety AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1071건",
-    "safety": "exposure and response prevention AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 15846건"
+ "id": "exposure-and-response-prevention-anxiety-pos",
+ "subj": "노출 및 반응 방지 치료",
+ "claim": "노출 및 반응방지법은 강박 증상과 불안에 사용할 수 있다",
+ "line": "노출 및 반응방지법은 강박 증상을 낮췄다.",
+ "effect": "OCD Hedges g 0.74",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 2020,
+ "vs": "강박장애 36개 무작위시험 2,020명; 노출 및 반응 방지 포함 CBT 1,005명 대 대조 1,015명; 전체 대조 대비 효과크기 g=0.74(95% CI 0.51~0.97), 심리적 위약 대비 g=1.13(0.71~1.55), 다른 적극적 심리치료 대비 g=−0.05(−0.27~0.16)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "불안장애 범주인 강박장애에서 ERP를 포함한 CBT와 대조군을 비교한 무작위시험 메타분석을 확인했습니다",
+ "saw": "36개 연구 2,020명에서 전체 대조군 대비 OCD 증상 효과크기 g 0.74였지만 활성 심리치료와는 g -0.05로 차이가 없었습니다",
+ "limit": "연구 28개에서 연구자 선호가 의심됐고 대조군에 따라 효과가 크게 달랐습니다",
+ "against": "위약·약물·다른 심리치료",
+ "use": "불안 증상 중 강박 증상에 대한 비약물 중재 신호로만 봅니다",
+ "refs": [
+  {
+   "label": "Cognitive behavioural therapy with exposure and response prevention in the treatment of obsessive-compulsive disorder: A systematic review and meta-analysis of randomised controlled trials",
+   "doi": "10.1016/j.comppsych.2021.152223",
+   "pmid": "33618297"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=exposure and response prevention · cond=Anxiety: 22건",
+  "pubmed": "exposure and response prevention AND Anxiety AND (randomized OR trial OR meta-analysis): 315건",
+  "negative": "exposure and response prevention AND Anxiety AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1071건",
+  "safety": "exposure and response prevention AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 15846건"
+ }
 }

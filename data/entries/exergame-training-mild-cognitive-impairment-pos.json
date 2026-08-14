@@ -1,28 +1,34 @@
 {
-  "id": "exergame-training-mild-cognitive-impairment-pos",
-  "subj": "exergame training",
-  "claim": "균형 기반 엑서게임이 경도인지장애 성인의 보행과 균형을 개선한다",
-  "line": "경도인지장애에서 균형 엑서게임은 보행과 균형을 개선했다.",
-  "effect": "TUG −0.71·C-TUG −1.61",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 97,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "재활 게임 중재이며 경도인지장애 치료의 허가 적응증이 아닙니다.",
-  "why": "경도인지장애 성인 97명을 난이도별 엑서게임 세 군과 Wii Fit군에 무작위 배정해 8주간 주 3회 훈련한 무작위시험입니다.",
-  "saw": "87명이 완료했고 고난도군은 TUG·자세 안정성·보행 속도와 변동성이, 저난도군은 인지 TUG와 일부 보행 지표가 Wii Fit보다 좋아졌습니다.",
-  "limit": "편의표본을 쓴 4군 8주 시험이며 97명 중 87명만 완료해 장기 낙상 예방은 확인하지 않았습니다.",
-  "against": "엑서게임 난이도 세 군 사이에는 유의한 차이가 없어 특정 난이도의 우월성은 확인되지 않았습니다.",
-  "use": "경도인지장애 성인의 균형·보행 훈련 보조로 검토합니다.",
-  "refs": [
-    { "label": "Effects of Balance-Based Exergame Training With Variable Difficulty on Balance and Spatiotemporal Gait Outcomes in Adults With Mild Cognitive Impairment: Randomized Controlled Trial", "pmid": "41251404", "doi": "10.2196/74092", "pmc": "PMC12673310" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=exergame training AND query.cond=Mild Cognitive Impairment · 11건 반환, exact InterventionName 0건",
-    "pubmed": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] · 2건",
-    "negative": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
-    "safety": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 0건"
+ "id": "exergame-training-mild-cognitive-impairment-pos",
+ "subj": "운동형 게임 훈련",
+ "claim": "균형 기반 엑서게임이 경도인지장애 성인의 보행과 균형을 개선한다",
+ "line": "경도인지장애에서 균형 엑서게임은 보행과 균형을 개선했다.",
+ "effect": "TUG −0.71·C-TUG −1.61",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 97,
+ "vs": "경도인지장애 성인 97명 4군 무작위시험; 난이도별 운동형 게임 대 Wii Fit; 고난도군 TUG −0.71(SD 0.32, P=.03), 머리 회전 시 보행 변동성 −0.35(SD 0.09, P<.001), 저난도군 인지 TUG −1.61(SD 0.63, P=.01), 난이도군 간 차이는 없음(P>.05)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "재활 게임 중재이며 경도인지장애 치료의 허가 적응증이 아닙니다.",
+ "why": "경도인지장애 성인 97명을 난이도별 엑서게임 세 군과 Wii Fit군에 무작위 배정해 8주간 주 3회 훈련한 무작위시험입니다.",
+ "saw": "87명이 완료했고 고난도군은 TUG·자세 안정성·보행 속도와 변동성이, 저난도군은 인지 TUG와 일부 보행 지표가 Wii Fit보다 좋아졌습니다.",
+ "limit": "편의표본을 쓴 4군 8주 시험이며 97명 중 87명만 완료해 장기 낙상 예방은 확인하지 않았습니다.",
+ "against": "엑서게임 난이도 세 군 사이에는 유의한 차이가 없어 특정 난이도의 우월성은 확인되지 않았습니다.",
+ "use": "경도인지장애 성인의 균형·보행 훈련 보조로 검토합니다.",
+ "refs": [
+  {
+   "label": "Effects of Balance-Based Exergame Training With Variable Difficulty on Balance and Spatiotemporal Gait Outcomes in Adults With Mild Cognitive Impairment: Randomized Controlled Trial",
+   "pmid": "41251404",
+   "doi": "10.2196/74092",
+   "pmc": "PMC12673310"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=exergame training AND query.cond=Mild Cognitive Impairment · 11건 반환, exact InterventionName 0건",
+  "pubmed": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] · 2건",
+  "negative": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
+  "safety": "\"exergame training\" AND \"Mild Cognitive Impairment\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 0건"
+ }
 }

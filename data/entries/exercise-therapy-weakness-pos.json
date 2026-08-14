@@ -1,29 +1,38 @@
 {
-  "id": "exercise-therapy-weakness-pos",
-  "subj": "exercise therapy",
-  "claim": "운동 치료는 시설 거주 노인의 허약과 근력 저하를 완화했습니다",
-  "line": "시설 거주 노인 운동의 신체기능 효과크기(SMD)는 0.13이었다.",
-  "effect": "신체기능 SMD 0.13",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 7759,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "운동 치료는 비약물 중재이며 근력 저하의 허가 적응증으로 분류하지 않습니다.",
-  "why": "저항·균형·보행 운동이 근력과 신체기능을 함께 자극해 허약 악화를 늦춥니다.",
-  "saw": "시설 거주 60세 이상 노인 운동 무작위시험 105편, 7,759명의 네트워크 메타분석에서 전체 신체기능이 개선됐고 SMD는 0.13(95% CrI 0.04~0.21)이었습니다.",
-  "limit": "시설 거주 노인 연구이며 운동 종류와 주당 시간, 기능 의존도가 서로 달랐습니다.",
-  "against": "운동 종류 사이에는 유의한 차이가 없었고 연구 간 대상자와 중재 이질성이 컸습니다.",
-  "use": "허약·근력 저하 노인의 기능 회복에서 낙상위험과 기저질환을 확인하며 맞춤 운동을 검토합니다.",
-  "refs": [
-    { "label": "시설 거주 노인 운동 신체기능 네트워크 메타분석", "doi": "10.1016/S2666-7568(23)00057-0", "pmid": "37182530" },
-    { "label": "허약 노인 다요소 운동 메타분석", "doi": "10.1016/j.exger.2024.112604", "pmid": "39426607" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "exercise therapy AND Weakness · 총 197건, 직접 확인 16건",
-    "pubmed": "exercise therapy AND Weakness · 4795편",
-    "negative": "exercise therapy AND Weakness AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3193편",
-    "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ "id": "exercise-therapy-weakness-pos",
+ "subj": "운동 치료",
+ "claim": "운동 치료는 시설 거주 노인의 허약과 근력 저하를 완화했습니다",
+ "line": "시설 거주 노인 운동의 신체기능 효과크기(SMD)는 0.13이었다.",
+ "effect": "신체기능 SMD 0.13",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 7759,
+ "vs": "시설 거주 노인 105개 무작위시험 7,759명; 운동 대 통상 돌봄의 신체기능 SMD 0.13(95% CrI 0.04~0.21), 주 170분 운동에서 SMD 0.36(0.20~0.52), 여러 기능검사에서 유의한 개선",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "운동 치료는 비약물 중재이며 근력 저하의 허가 적응증으로 분류하지 않습니다.",
+ "why": "저항·균형·보행 운동이 근력과 신체기능을 함께 자극해 허약 악화를 늦춥니다.",
+ "saw": "시설 거주 60세 이상 노인 운동 무작위시험 105편, 7,759명의 네트워크 메타분석에서 전체 신체기능이 개선됐고 SMD는 0.13(95% CrI 0.04~0.21)이었습니다.",
+ "limit": "시설 거주 노인 연구이며 운동 종류와 주당 시간, 기능 의존도가 서로 달랐습니다.",
+ "against": "운동 종류 사이에는 유의한 차이가 없었고 연구 간 대상자와 중재 이질성이 컸습니다.",
+ "use": "허약·근력 저하 노인의 기능 회복에서 낙상위험과 기저질환을 확인하며 맞춤 운동을 검토합니다.",
+ "refs": [
+  {
+   "label": "시설 거주 노인 운동 신체기능 네트워크 메타분석",
+   "doi": "10.1016/S2666-7568(23)00057-0",
+   "pmid": "37182530"
+  },
+  {
+   "label": "허약 노인 다요소 운동 메타분석",
+   "doi": "10.1016/j.exger.2024.112604",
+   "pmid": "39426607"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "exercise therapy AND Weakness · 총 197건, 직접 확인 16건",
+  "pubmed": "exercise therapy AND Weakness · 4795편",
+  "negative": "exercise therapy AND Weakness AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3193편",
+  "safety": "exercise therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 30407편"
+ }
 }
