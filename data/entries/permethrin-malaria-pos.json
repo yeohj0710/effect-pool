@@ -1,6 +1,6 @@
 {
   "id": "permethrin-malaria-pos",
-  "subj": "permethrin",
+  "subj": "퍼메트린",
   "claim": "퍼메트린 처리 포대기가 영아의 임상 말라리아 발생을 줄인다",
   "line": "퍼메트린으로 처리한 포대기는 영아의 임상 말라리아 발생을 줄였습니다",
   "effect": "말라리아 발생률비 0.34",
@@ -16,7 +16,12 @@
   "against": "피부 발진은 처리군 8.5%, 대조군 6.0%로 처리군에서 더 많았다.",
   "use": "영아 말라리아 예방에서 퍼메트린 처리 포대기를 평가한 연구로만 기록한다.",
   "refs": [
-    { "label": "Boyce 2025 · New England Journal of Medicine · 무작위시험", "doi": "10.1056/NEJMoa2501628", "pmid": "40991921", "nct": "NCT05391230" }
+    {
+      "label": "Boyce 2025 · New England Journal of Medicine · 무작위시험",
+      "doi": "10.1056/NEJMoa2501628",
+      "pmid": "40991921",
+      "nct": "NCT05391230"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -24,5 +29,6 @@
     "pubmed": "permethrin AND Malaria · 847편",
     "negative": "permethrin AND Malaria AND (no effect OR did not OR failed OR negative OR no significant difference) · 644편",
     "safety": "permethrin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1711편"
-  }
+  },
+  "vs": "퍼메트린 처리 아기 포대기 이중맹검 RCT(n=400)에서 말라리아 발생률 0.73 vs 2.14/100인주, IRR=0.34(95% CI 0.23~0.51), p<.001; 발진 8.5% vs 6.0%"
 }
