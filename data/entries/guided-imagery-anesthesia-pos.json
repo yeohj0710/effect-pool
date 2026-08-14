@@ -1,20 +1,33 @@
 {
-  "id": "guided-imagery-anesthesia-pos",
-  "subj": "guided imagery",
-  "claim": "소아 수술의 수술 전 불안과 수술 후 통증에 이완 유도 심상을 쓴다",
-  "line": "소아 수술 전 유도 심상은 불안·수술 후 통증을 낮췄다.",
-  "effect": "수술 전 불안·수술 후 통증 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 60,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "이완 유도 심상은 비약물 중재이며 마취 전 불안의 의약품 허가 적응증이 아닙니다.",
-  "why": "경미한 수술을 받는 소아에게 마취 유도 전 이완 유도 심상을 적용한 무작위시험입니다.",
-  "saw": "6~12세 소아 60명이 이완 유도 심상군과 표준 관리군에 무작위 배정됐습니다. 심상군에서 수술 전 불안과 수술 후 통증이 더 낮았습니다.",
-  "limit": "소아 60명을 대상으로 한 단일 시험이고 표준 진료에 routine으로 적용하려면 더 강한 근거가 필요합니다.",
-  "against": "유도 심상이 소아 마취 평가나 수술 후 진통제를 대체한다는 근거는 아닙니다.",
-  "use": "소아 수술 전 불안 완화의 보완 중재로 검토하며 보호자와 마취팀의 지침을 따릅니다.",
-  "refs": [{ "label": "소아 수술 이완 유도 심상 무작위시험", "doi": "10.1007/s00431-019-03376-x", "pmid": "30944985" }],
-  "queried": { "date": "2026-08-07", "ctgov": "intr=guided imagery, cond=Anesthesia · 45건", "pubmed": "guided imagery AND Anesthesia · 56편", "negative": "guided imagery AND Anesthesia AND (no effect OR did not OR failed OR no significant difference) · 37편", "safety": "guided imagery AND (adverse OR toxicity OR harm OR case report) · 336편" }
+ "id": "guided-imagery-anesthesia-pos",
+ "subj": "유도 심상",
+ "claim": "소아 수술의 수술 전 불안과 수술 후 통증에 이완 유도 심상을 쓴다",
+ "line": "소아 수술 전 유도 심상은 불안·수술 후 통증을 낮췄다.",
+ "effect": "수술 전 불안·수술 후 통증 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 60,
+ "vs": "소아 수술 환자 60명 무작위시험(유도심상 30명 대비 표준진료 30명); 수술 전 불안과 수술 후 통증이 유도심상군에서 모두 낮았고 두 결과의 군간 차이가 각각 P<.001",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "이완 유도 심상은 비약물 중재이며 마취 전 불안의 의약품 허가 적응증이 아닙니다.",
+ "why": "경미한 수술을 받는 소아에게 마취 유도 전 이완 유도 심상을 적용한 무작위시험입니다.",
+ "saw": "6~12세 소아 60명이 이완 유도 심상군과 표준 관리군에 무작위 배정됐습니다. 심상군에서 수술 전 불안과 수술 후 통증이 더 낮았습니다.",
+ "limit": "소아 60명을 대상으로 한 단일 시험이고 표준 진료에 routine으로 적용하려면 더 강한 근거가 필요합니다.",
+ "against": "유도 심상이 소아 마취 평가나 수술 후 진통제를 대체한다는 근거는 아닙니다.",
+ "use": "소아 수술 전 불안 완화의 보완 중재로 검토하며 보호자와 마취팀의 지침을 따릅니다.",
+ "refs": [
+  {
+   "label": "소아 수술 이완 유도 심상 무작위시험",
+   "doi": "10.1007/s00431-019-03376-x",
+   "pmid": "30944985"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-07",
+  "ctgov": "intr=guided imagery, cond=Anesthesia · 45건",
+  "pubmed": "guided imagery AND Anesthesia · 56편",
+  "negative": "guided imagery AND Anesthesia AND (no effect OR did not OR failed OR no significant difference) · 37편",
+  "safety": "guided imagery AND (adverse OR toxicity OR harm OR case report) · 336편"
+ }
 }

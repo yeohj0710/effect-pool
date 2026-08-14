@@ -1,28 +1,33 @@
 {
-  "id": "group-prenatal-care-diabetes-open",
-  "subj": "group prenatal care",
-  "claim": "그룹 산전 진료는 당뇨병 임신의 주요 출생 결과를 바꾸지 못했지만 산후 관리 참여를 높였다",
-  "line": "산전 그룹 진료는 출생 결과는 바꾸지 못했지만 산후 관리 참여를 높였다.",
-  "effect": "산후 OGTT RR 1.58",
-  "tier": "trial",
-  "dir": "open",
-  "n": 1701,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "그룹 산전 진료는 임신성 당뇨병 치료제로 허가된 약물이 아닌 진료 방식이다.",
-  "why": "당뇨병 임신 그룹 산전 진료와 개인 진료를 비교한 무작위시험 3건과 관찰 연구 5건, 1701명의 메타분석이다.",
-  "saw": "조산과 큰 아기 비율은 다르지 않았지만 당뇨병 임산부의 산후 당부하검사 완료율은 그룹 진료에서 74.0%, 개인 진료에서 49.4%였다.",
-  "limit": "포함 연구의 대부분이 관찰 연구이고 그룹 진료 내용·당뇨병 유형·산후 추적이 달랐다.",
-  "against": "그룹 산전 진료가 혈당이나 모든 임신 합병증을 개선한다고 단정할 수 없다.",
-  "use": "당뇨병 임신에서 그룹 진료를 운영할 때 산후 당부하검사와 피임 상담을 명시적 목표로 둔다.",
-  "refs": [
-    { "label": "Carter 2024 · Obstetrics & Gynecology · 당뇨병 그룹 산전 진료 메타분석", "doi": "10.1097/AOG.0000000000005442", "pmid": "37944148" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "group prenatal care AND Diabetes · 10건",
-    "pubmed": "group prenatal care AND Diabetes · 1636건",
-    "negative": "group prenatal care AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference)",
-    "safety": "group prenatal care AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication)"
+ "id": "group-prenatal-care-diabetes-open",
+ "subj": "그룹 산전 진료",
+ "claim": "그룹 산전 진료는 당뇨병 임신의 주요 출생 결과를 바꾸지 못했지만 산후 관리 참여를 높였다",
+ "line": "산전 그룹 진료는 출생 결과는 바꾸지 못했지만 산후 관리 참여를 높였다.",
+ "effect": "산후 OGTT RR 1.58",
+ "tier": "trial",
+ "dir": "open",
+ "n": 1701,
+ "vs": "당뇨병 임신군 1,701명, 그룹 산전진료 770명 대비 개별진료 931명 8개 연구 메타분석; 조산 9.5% 대 11.5%(RR 0.77, 95% CI 0.59~1.01), 큰 재태연령아 16.7% 대 20.2%(RR 0.93, 0.59~1.45), 산후 장기피임 46.1% 대 34.1%(RR 1.44, 1.09~1.91), 산후 경구당부하검사 완료 74.0% 대 49.4%(RR 1.58, 1.19~2.09)",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "그룹 산전 진료는 임신성 당뇨병 치료제로 허가된 약물이 아닌 진료 방식이다.",
+ "why": "당뇨병 임신 그룹 산전 진료와 개인 진료를 비교한 무작위시험 3건과 관찰 연구 5건, 1701명의 메타분석이다.",
+ "saw": "조산과 큰 아기 비율은 다르지 않았지만 당뇨병 임산부의 산후 당부하검사 완료율은 그룹 진료에서 74.0%, 개인 진료에서 49.4%였다.",
+ "limit": "포함 연구의 대부분이 관찰 연구이고 그룹 진료 내용·당뇨병 유형·산후 추적이 달랐다.",
+ "against": "그룹 산전 진료가 혈당이나 모든 임신 합병증을 개선한다고 단정할 수 없다.",
+ "use": "당뇨병 임신에서 그룹 진료를 운영할 때 산후 당부하검사와 피임 상담을 명시적 목표로 둔다.",
+ "refs": [
+  {
+   "label": "Carter 2024 · Obstetrics & Gynecology · 당뇨병 그룹 산전 진료 메타분석",
+   "doi": "10.1097/AOG.0000000000005442",
+   "pmid": "37944148"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "group prenatal care AND Diabetes · 10건",
+  "pubmed": "group prenatal care AND Diabetes · 1636건",
+  "negative": "group prenatal care AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference)",
+  "safety": "group prenatal care AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication)"
+ }
 }

@@ -1,20 +1,33 @@
 {
-  "id": "guided-relaxation-group-lung-cancer-pos",
-  "subj": "guided relaxation group",
-  "claim": "가상현실 유도 이완이 폐암 수술 환자의 불안을 낮춘다",
-  "line": "폐암 수술 환자는 가상현실 이완 후 불안·혈압·심박수가 낮았다.",
-  "effect": "상태불안·혈압·심박수 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 98,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상현실 유도 이완은 의약품이 아닌 이완 중재입니다.",
-  "why": "폐암 수술 환자 98명을 통상 치료군과 가상현실 유도 심상 이완 추가군에 무작위 배정했습니다.",
-  "saw": "수술 직전과 퇴원 시 가상현실군의 상태불안, 수축기·이완기 혈압, 심박수가 대조군보다 유의하게 낮았습니다.",
-  "limit": "단일 기관의 수술 전후 시험이고 중재의 장기 불안·삶의 질 효과는 평가하지 않았습니다.",
-  "against": "대규모 다기관 시험으로 재현할 필요가 있는 예비 결과입니다.",
-  "use": "폐암 수술 전후 불안과 생리적 스트레스에서 가상현실 유도 이완의 신호로 기록합니다.",
-  "refs": [{ "label": "폐암 수술 환자 가상현실 유도 이완 무작위시험", "doi": "10.1016/j.anr.2025.08.003", "pmid": "40915534" }],
-  "queried": { "date": "2026-08-08", "ctgov": "guided relaxation group AND Lung Cancer · 5건 반환", "pubmed": "guided relaxation group AND Lung Cancer · 9편", "negative": "guided relaxation group AND Lung Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 4편", "safety": "guided relaxation group AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 146편" }
+ "id": "guided-relaxation-group-lung-cancer-pos",
+ "subj": "집단 유도 이완",
+ "claim": "가상현실 유도 이완이 폐암 수술 환자의 불안을 낮춘다",
+ "line": "폐암 수술 환자는 가상현실 이완 후 불안·혈압·심박수가 낮았다.",
+ "effect": "상태불안·혈압·심박수 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 98,
+ "vs": "폐암 수술 환자 98명 무작위시험(VR 유도심상 이완 45명 대비 통상진료 53명); 수술 직전 불안·수축기혈압·이완기혈압·심박수 증가가 작았고(t=2.20~2.75, P=.003~.033), 퇴원 시 불안 t=4.79(P<.001), 수축기혈압 t=3.25(P=.0027), 이완기혈압 t=2.96(P=.004), 심박수 t=4.26(P<.001)로 더 낮았음",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상현실 유도 이완은 의약품이 아닌 이완 중재입니다.",
+ "why": "폐암 수술 환자 98명을 통상 치료군과 가상현실 유도 심상 이완 추가군에 무작위 배정했습니다.",
+ "saw": "수술 직전과 퇴원 시 가상현실군의 상태불안, 수축기·이완기 혈압, 심박수가 대조군보다 유의하게 낮았습니다.",
+ "limit": "단일 기관의 수술 전후 시험이고 중재의 장기 불안·삶의 질 효과는 평가하지 않았습니다.",
+ "against": "대규모 다기관 시험으로 재현할 필요가 있는 예비 결과입니다.",
+ "use": "폐암 수술 전후 불안과 생리적 스트레스에서 가상현실 유도 이완의 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "폐암 수술 환자 가상현실 유도 이완 무작위시험",
+   "doi": "10.1016/j.anr.2025.08.003",
+   "pmid": "40915534"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "guided relaxation group AND Lung Cancer · 5건 반환",
+  "pubmed": "guided relaxation group AND Lung Cancer · 9편",
+  "negative": "guided relaxation group AND Lung Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 4편",
+  "safety": "guided relaxation group AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 146편"
+ }
 }
