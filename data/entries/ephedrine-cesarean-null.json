@@ -1,28 +1,33 @@
 {
-  "id": "ephedrine-cesarean-null",
-  "subj": "ephedrine",
-  "claim": "제왕절개 척추마취 저혈압에서 에페드린과 다른 혈압상승제의 효과를 비교한다",
-  "line": "제왕절개 척추마취에서 에페드린의 저혈압 발생은 다른 약과 다르지 않았다.",
-  "effect": "선택적 수술 저혈압 RR 0.83",
-  "tier": "trial",
-  "dir": "null",
-  "n": 3031,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "Ephedrine의 제왕절개 자체는 허가 적응증이 아니다",
-  "why": "제왕절개 척추마취에서 두 혈압상승제로 저혈압을 예방하거나 치료한 임상시험을 메타분석했다.",
-  "saw": "42개 임상시험 3031명을 합쳤다. 선택적 제왕절개 저혈압 발생은 두 약제가 다르지 않았고 RR 0.83(95% CI 0.66-1.05)이었다.",
-  "limit": "연구 순차분석에서 누적 표본 수가 충분하지 않았고 출판 편향이 관찰됐다.",
-  "against": "페닐에프린은 선택적 수술에서 신생아 산증과 산모 빈맥·오심을 더 줄였다.",
-  "use": "제왕절개 척추마취 저혈압에서 두 혈압상승제를 비교한 근거로만 기록한다.",
-  "refs": [
-    { "label": "Xu 2018 · International Journal of Surgery · 메타분석", "doi": "10.1016/j.ijsu.2018.10.039", "pmid": "30389535" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=ephedrine, cond=Cesarean · 49건",
-    "pubmed": "ephedrine AND Cesarean · 618편",
-    "negative": "ephedrine AND Cesarean AND (no effect OR did not OR failed OR negative OR no significant difference) · 526편",
-    "safety": "ephedrine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2194편"
+ "id": "ephedrine-cesarean-null",
+ "subj": "에페드린",
+ "claim": "제왕절개 척추마취 저혈압에서 에페드린과 다른 혈압상승제의 효과를 비교한다",
+ "line": "제왕절개 척추마취에서 에페드린의 저혈압 발생은 다른 약과 다르지 않았다.",
+ "effect": "선택적 수술 저혈압 RR 0.83",
+ "tier": "trial",
+ "dir": "null",
+ "n": 3031,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "Ephedrine의 제왕절개 자체는 허가 적응증이 아니다",
+ "why": "제왕절개 척추마취에서 두 혈압상승제로 저혈압을 예방하거나 치료한 임상시험을 메타분석했다.",
+ "saw": "42개 임상시험 3031명을 합쳤다. 선택적 제왕절개 저혈압 발생은 두 약제가 다르지 않았고 RR 0.83(95% CI 0.66-1.05)이었다.",
+ "limit": "연구 순차분석에서 누적 표본 수가 충분하지 않았고 출판 편향이 관찰됐다.",
+ "against": "페닐에프린은 선택적 수술에서 신생아 산증과 산모 빈맥·오심을 더 줄였다.",
+ "use": "제왕절개 척추마취 저혈압에서 두 혈압상승제를 비교한 근거로만 기록한다.",
+ "refs": [
+  {
+   "label": "Xu 2018 · International Journal of Surgery · 메타분석",
+   "doi": "10.1016/j.ijsu.2018.10.039",
+   "pmid": "30389535"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=ephedrine, cond=Cesarean · 49건",
+  "pubmed": "ephedrine AND Cesarean · 618편",
+  "negative": "ephedrine AND Cesarean AND (no effect OR did not OR failed OR negative OR no significant difference) · 526편",
+  "safety": "ephedrine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2194편"
+ },
+ "vs": "에페드린 vs 페닐에프린: 제왕절개 저혈압 메타분석 42개 시험 3,031명에서 선택적 수술 저혈압 RR 0.83(95% CI 0.66~1.05), 응급수술 RR 1.02(0.87~1.19), 전자간증 RR 0.93(0.63~1.37)."
 }

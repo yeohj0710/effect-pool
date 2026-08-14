@@ -1,28 +1,31 @@
 {
-  "id": "elbasvir-liver-fibrosis-pos",
-  "subj": "elbasvir",
-  "claim": "HCV 치료 뒤 간 섬유화와 간 지방이 개선되는지 엘바스비르·그라조프레비르로 평가한다",
-  "line": "엘바스비르 치료 후 간경직도와 간 지방 지표 감소",
-  "effect": "SVR24 95%; 간경직도 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 101,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가사항은 HCV 치료이며 HCV 치료 후 간 섬유화 개선은 별도 허가 적응증이 아닌 추적 결과입니다.",
-  "why": "HCV 치료가 바이러스 제거를 넘어 간 섬유화와 간 지방 지표를 바꾸는지 확인했습니다.",
-  "saw": "태국 HCV 유전자형 1형 환자 101명(단독감염 65명, HIV 동시감염 36명)이 엘바스비르·그라조프레비르를 12~16주 받았습니다. SVR24는 95.0%였고 SVR을 얻은 간경변 환자에서 간경직도 30% 이상 감소가 비간경변 환자보다 흔했습니다(63.3% 대 30.3%). 간 지방 지표도 반응자에서 감소했습니다.",
-  "limit": "무작위 대조군이 없는 관찰 연구이고 간경직도 변화가 직접적인 섬유조직 생검 결과는 아닙니다.",
-  "against": "HIV 동시감염 여부와 간경변 상태에 따라 기저 간경직도와 감소 폭이 달라 단일 효과로 해석하기 어렵습니다.",
-  "use": "HCV 치료 뒤 간 섬유화를 추적할 때 엘바스비르 자료는 바이러스 반응과 함께 간경직도·지방 지표 변화를 보는 참고 근거로 사용합니다.",
-  "refs": [
-    { "label": "Efficacy of elbasvir/grazoprevir therapy in HCV genotype-1 with or without HIV infection", "pmid": "32910788" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "elbasvir AND Fibrosis, Liver · 6건",
-    "pubmed": "elbasvir AND Fibrosis, Liver · 99편",
-    "negative": "elbasvir AND Fibrosis, Liver AND (no effect OR did not OR failed to OR negative OR no significant difference) · 81편",
-    "safety": "elbasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 165편"
+ "id": "elbasvir-liver-fibrosis-pos",
+ "subj": "엘바스비르",
+ "claim": "HCV 치료 뒤 간 섬유화와 간 지방이 개선되는지 엘바스비르·그라조프레비르로 평가한다",
+ "line": "엘바스비르 치료 후 간경직도와 간 지방 지표 감소",
+ "effect": "SVR24 95%; 간경직도 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 101,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가사항은 HCV 치료이며 HCV 치료 후 간 섬유화 개선은 별도 허가 적응증이 아닌 추적 결과입니다.",
+ "why": "HCV 치료가 바이러스 제거를 넘어 간 섬유화와 간 지방 지표를 바꾸는지 확인했습니다.",
+ "saw": "태국 HCV 유전자형 1형 환자 101명(단독감염 65명, HIV 동시감염 36명)이 엘바스비르·그라조프레비르를 12~16주 받았습니다. SVR24는 95.0%였고 SVR을 얻은 간경변 환자에서 간경직도 30% 이상 감소가 비간경변 환자보다 흔했습니다(63.3% 대 30.3%). 간 지방 지표도 반응자에서 감소했습니다.",
+ "limit": "무작위 대조군이 없는 관찰 연구이고 간경직도 변화가 직접적인 섬유조직 생검 결과는 아닙니다.",
+ "against": "HIV 동시감염 여부와 간경변 상태에 따라 기저 간경직도와 감소 폭이 달라 단일 효과로 해석하기 어렵습니다.",
+ "use": "HCV 치료 뒤 간 섬유화를 추적할 때 엘바스비르 자료는 바이러스 반응과 함께 간경직도·지방 지표 변화를 보는 참고 근거로 사용합니다.",
+ "refs": [
+  {
+   "label": "Efficacy of elbasvir/grazoprevir therapy in HCV genotype-1 with or without HIV infection",
+   "pmid": "32910788"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "elbasvir AND Fibrosis, Liver · 6건",
+  "pubmed": "elbasvir AND Fibrosis, Liver · 99편",
+  "negative": "elbasvir AND Fibrosis, Liver AND (no effect OR did not OR failed to OR negative OR no significant difference) · 81편",
+  "safety": "elbasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 165편"
+ }
 }

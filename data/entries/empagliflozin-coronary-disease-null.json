@@ -1,20 +1,34 @@
 {
-  "id": "empagliflozin-coronary-disease-null",
-  "subj": "empagliflozin",
-  "claim": "관상동맥질환 당뇨병 환자의 좌심방 기능에 엠파글리플로진을 쓴다",
-  "line": "관상동맥질환 당뇨병에서 엠파글리플로진은 좌심방 기능을 개선하지 못했다.",
-  "effect": "좌심방 용적·기능 군간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 90,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "관상동맥질환의 좌심방 기능 개선은 엠파글리플로진의 허가 적응증이 아니다.",
-  "why": "제2형 당뇨병과 관상동맥질환 환자에서 6개월 엠파글리플로진과 위약을 비교한 무작위시험이다.",
-  "saw": "환자 90명을 엠파글리플로진 44명과 위약 46명으로 나눴다. 6개월 뒤 좌심방 최대·최소 용적과 전체 비움률 변화는 군간 차이가 없었다.",
-  "limit": "사람 90명의 6개월 심장영상 연구라 심혈관 사건이나 심부전 입원을 평가하지 않았다.",
-  "against": "당뇨병·관상동맥질환에서 엠파글리플로진의 다른 심혈관 효과가 있더라도 좌심방 구조 개선은 확인되지 않았다.",
-  "use": "엠파글리플로진의 관상동맥질환 심장 구조 효과를 해석할 때 좌심방 결과는 중립적이었다는 근거로 기록한다.",
-  "refs": [{ "label": "Cardiovascular Diabetology · 무작위시험", "doi": "10.1186/s12933-024-02344-6", "pmid": "39198860", "nct": "NCT02998970" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=empagliflozin, cond=Coronary Disease · 131건", "pubmed": "empagliflozin AND Coronary Disease · 169편", "negative": "empagliflozin AND Coronary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 135편", "safety": "empagliflozin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1674편" }
+ "id": "empagliflozin-coronary-disease-null",
+ "subj": "엠파글리플로진",
+ "claim": "관상동맥질환 당뇨병 환자의 좌심방 기능에 엠파글리플로진을 쓴다",
+ "line": "관상동맥질환 당뇨병에서 엠파글리플로진은 좌심방 기능을 개선하지 못했다.",
+ "effect": "좌심방 용적·기능 군간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "관상동맥질환의 좌심방 기능 개선은 엠파글리플로진의 허가 적응증이 아니다.",
+ "why": "제2형 당뇨병과 관상동맥질환 환자에서 6개월 엠파글리플로진과 위약을 비교한 무작위시험이다.",
+ "saw": "환자 90명을 엠파글리플로진 44명과 위약 46명으로 나눴다. 6개월 뒤 좌심방 최대·최소 용적과 전체 비움률 변화는 군간 차이가 없었다.",
+ "limit": "사람 90명의 6개월 심장영상 연구라 심혈관 사건이나 심부전 입원을 평가하지 않았다.",
+ "against": "당뇨병·관상동맥질환에서 엠파글리플로진의 다른 심혈관 효과가 있더라도 좌심방 구조 개선은 확인되지 않았다.",
+ "use": "엠파글리플로진의 관상동맥질환 심장 구조 효과를 해석할 때 좌심방 결과는 중립적이었다는 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Cardiovascular Diabetology · 무작위시험",
+   "doi": "10.1186/s12933-024-02344-6",
+   "pmid": "39198860",
+   "nct": "NCT02998970"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=empagliflozin, cond=Coronary Disease · 131건",
+  "pubmed": "empagliflozin AND Coronary Disease · 169편",
+  "negative": "empagliflozin AND Coronary Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 135편",
+  "safety": "empagliflozin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1674편"
+ },
+ "vs": "엠파글리플로진 vs 위약: 관상동맥질환·제2형 당뇨병 RCT 90명(44명 vs 46명)에서 6개월 좌심방 최대 용적 변화 조정 평균차 0.99mL/m²(95% CI -1.7~3.7; P=.47), 최소 용적 0.87(-0.9~2.6; P=.32)."
 }

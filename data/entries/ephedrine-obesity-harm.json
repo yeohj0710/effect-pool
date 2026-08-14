@@ -1,20 +1,33 @@
 {
-  "id": "ephedrine-obesity-harm",
-  "subj": "ephedrine",
-  "claim": "에페드린의 단기 체중 감소와 심계항진·정신 증상 위험을 함께 평가한다",
-  "line": "에페드린은 단기 체중을 줄였지만 이상반응 오즈는 2.2-3.6배 높았다.",
-  "effect": "체중 -0.9kg/월; 오즈 2.2-3.6배",
-  "tier": "trial",
-  "dir": "harm",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "에페드린은 비만 치료의 허가 적응증이 아니다",
-  "why": "체중 감량에 사용한 에페드린과 에페드라의 단기 효과와 안전성을 임상시험·이상반응 보고로 종합했다.",
-  "saw": "체중 감량 임상시험 52편과 이상반응 분석 65편을 검토했다. 에페드린은 위약보다 약 0.9kg/월 더 감량했지만 정신·자율신경·위장 증상과 심계항진 오즈가 2.2-3.6배 높았다.",
-  "limit": "6개월을 넘긴 체중 감량시험이 없고 드문 중증 이상반응의 빈도는 판단하기 어려웠다.",
-  "against": "단기 감량 신호만으로 장기 비만 치료나 안전성을 보장할 수 없다.",
-  "use": "에페드린의 체중 감량 효과보다 심혈관·정신·자율신경 위험을 함께 보여주는 근거로 기록한다.",
-  "refs": [{ "label": "Shekelle 2003 · JAMA · 메타분석", "doi": "10.1001/jama.289.12.1537", "pmid": "12672771" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=ephedrine, cond=Obesity · 10건", "pubmed": "ephedrine AND Obesity · 246편", "negative": "ephedrine AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 200편", "safety": "ephedrine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2194편" }
+ "id": "ephedrine-obesity-harm",
+ "subj": "에페드린",
+ "claim": "에페드린의 단기 체중 감소와 심계항진·정신 증상 위험을 함께 평가한다",
+ "line": "에페드린은 단기 체중을 줄였지만 이상반응 오즈는 2.2-3.6배 높았다.",
+ "effect": "체중 -0.9kg/월; 오즈 2.2-3.6배",
+ "tier": "trial",
+ "dir": "harm",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "에페드린은 비만 치료의 허가 적응증이 아니다",
+ "why": "체중 감량에 사용한 에페드린과 에페드라의 단기 효과와 안전성을 임상시험·이상반응 보고로 종합했다.",
+ "saw": "체중 감량 임상시험 52편과 이상반응 분석 65편을 검토했다. 에페드린은 위약보다 약 0.9kg/월 더 감량했지만 정신·자율신경·위장 증상과 심계항진 오즈가 2.2-3.6배 높았다.",
+ "limit": "6개월을 넘긴 체중 감량시험이 없고 드문 중증 이상반응의 빈도는 판단하기 어려웠다.",
+ "against": "단기 감량 신호만으로 장기 비만 치료나 안전성을 보장할 수 없다.",
+ "use": "에페드린의 체중 감량 효과보다 심혈관·정신·자율신경 위험을 함께 보여주는 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Shekelle 2003 · JAMA · 메타분석",
+   "doi": "10.1001/jama.289.12.1537",
+   "pmid": "12672771"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=ephedrine, cond=Obesity · 10건",
+  "pubmed": "ephedrine AND Obesity · 246편",
+  "negative": "ephedrine AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 200편",
+  "safety": "ephedrine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2194편"
+ },
+ "vs": "에페드린 vs 위약: 체중감량 임상시험 메타분석에서 에페드린은 위약보다 약 0.6kg/월(95% CI 0.2~1.0) 더 감량했고, 에페드린·카페인은 1.0kg/월(0.7~1.3) 더 감량; 정신·자율신경·위장 증상과 심계항진 오즈는 2.2~3.6배 증가."
 }

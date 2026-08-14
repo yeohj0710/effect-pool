@@ -1,29 +1,36 @@
 {
-  "id": "elbasvir-renal-failure-pos",
-  "subj": "elbasvir",
-  "claim": "말기 신장질환 또는 중증 신기능 저하에서 엘바스비르·그라조프레비르의 투여를 평가한다",
-  "line": "ESRD에서 엘바스비르·그라조프레비르 용량 조절 불필요",
-  "effect": "ESRD AUC GMR 0.86~1.14",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 24,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "허가사항은 HCV 치료이며 말기 신장질환의 약동학 평가는 질환 치료 적응증이 아닌 특수 집단 평가입니다.",
-  "why": "신장 배설과 혈액투석이 엘바스비르·그라조프레비르 노출을 바꾸는지 확인해야 실제 HCV 치료 용량을 판단할 수 있습니다.",
-  "saw": "비-HCV 참가자 24명이 엘바스비르 50mg과 그라조프레비르 100mg을 10일 받았습니다. 말기 신장질환에서 혈액투석일과 비투석일 AUC 비는 각각 엘바스비르 1.14와 그라조프레비르 0.97이었고, 중증 신기능 저하군에서는 건강 대조군보다 AUC가 각각 1.86배와 1.65배였습니다. 분석 결과 어느 신기능 단계에서도 용량 조절은 필요하지 않았습니다.",
-  "limit": "HCV 감염 환자가 아닌 약동학 시험 참가자가 중심이고 치료 효과를 평가한 시험이 아닙니다.",
-  "against": "중증 신기능 저하에서는 약물 노출이 증가했으므로 실제 환자에서는 병용약물과 이상반응을 별도로 감시해야 합니다.",
-  "use": "말기 신장질환 HCV 환자에서 엘바스비르를 검토할 때 이 자료는 용량 참고로만 사용하고 바이러스 반응과 병용약물 안전성을 따로 평가합니다.",
-  "refs": [
-    { "label": "Pharmacokinetics of elbasvir and grazoprevir in subjects with end-stage renal disease or severe renal impairment", "pmid": "30680407" },
-    { "label": "MK-5172 PN050", "nct": "NCT01937975" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "elbasvir AND Renal Failure · 8건",
-    "pubmed": "elbasvir AND Renal Failure · 55편",
-    "negative": "elbasvir AND Renal Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) · 46편",
-    "safety": "elbasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 165편"
+ "id": "elbasvir-renal-failure-pos",
+ "subj": "엘바스비르",
+ "claim": "말기 신장질환 또는 중증 신기능 저하에서 엘바스비르·그라조프레비르의 투여를 평가한다",
+ "line": "ESRD에서 엘바스비르·그라조프레비르 용량 조절 불필요",
+ "effect": "ESRD AUC GMR 0.86~1.14",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 24,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "허가사항은 HCV 치료이며 말기 신장질환의 약동학 평가는 질환 치료 적응증이 아닌 특수 집단 평가입니다.",
+ "why": "신장 배설과 혈액투석이 엘바스비르·그라조프레비르 노출을 바꾸는지 확인해야 실제 HCV 치료 용량을 판단할 수 있습니다.",
+ "saw": "비-HCV 참가자 24명이 엘바스비르 50mg과 그라조프레비르 100mg을 10일 받았습니다. 말기 신장질환에서 혈액투석일과 비투석일 AUC 비는 각각 엘바스비르 1.14와 그라조프레비르 0.97이었고, 중증 신기능 저하군에서는 건강 대조군보다 AUC가 각각 1.86배와 1.65배였습니다. 분석 결과 어느 신기능 단계에서도 용량 조절은 필요하지 않았습니다.",
+ "limit": "HCV 감염 환자가 아닌 약동학 시험 참가자가 중심이고 치료 효과를 평가한 시험이 아닙니다.",
+ "against": "중증 신기능 저하에서는 약물 노출이 증가했으므로 실제 환자에서는 병용약물과 이상반응을 별도로 감시해야 합니다.",
+ "use": "말기 신장질환 HCV 환자에서 엘바스비르를 검토할 때 이 자료는 용량 참고로만 사용하고 바이러스 반응과 병용약물 안전성을 따로 평가합니다.",
+ "refs": [
+  {
+   "label": "Pharmacokinetics of elbasvir and grazoprevir in subjects with end-stage renal disease or severe renal impairment",
+   "pmid": "30680407"
+  },
+  {
+   "label": "MK-5172 PN050",
+   "nct": "NCT01937975"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "elbasvir AND Renal Failure · 8건",
+  "pubmed": "elbasvir AND Renal Failure · 55편",
+  "negative": "elbasvir AND Renal Failure AND (no effect OR did not OR failed to OR negative OR no significant difference) · 46편",
+  "safety": "elbasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 165편"
+ },
+ "vs": "엘바스비르·그라조프레비르 vs 건강 대조군: 중증 신기능 저하군에서 정상 신기능군 대비 10일 약동학 AUC 기하평균비 그라조프레비르 1.65(90% CI 1.09~2.49), 엘바스비르 1.86(1.38~2.51); 말기 신장질환 투석일 대 비투석일 비는 엘바스비르 1.14(1.08~1.21), 그라조프레비르 0.97(0.87~1.09)."
 }
