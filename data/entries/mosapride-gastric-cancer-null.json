@@ -1,30 +1,42 @@
 {
-  "id": "mosapride-gastric-cancer-null",
-  "subj": "mosapride",
-  "claim": "위암 수술 후 회복에 모사프리드를 쓴다",
-  "line": "위암 수술 후 모사프리드의 장 회복 효과는 연구마다 달랐다.",
-  "effect": "수술 후 장 회복 결과 불일치",
-  "tier": "obs",
-  "dir": "null",
-  "n": 18,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미국 FDA Drugs@FDA에서 모사프리드 허가원문을 확인하지 못했으며 위암 치료나 위암 수술 후 회복은 허가 적응증으로 분류하지 않았다.",
-  "why": "위암 수술 뒤 대체 위의 정체와 장운동을 개선하려는 모사프리드 연구에서 전후 개선과 무효 무작위시험을 비교했다.",
-  "saw": "초기 위암 보존적 원위부 위절제 후 18명 전후 비교연구에서는 모사프리드 3개월 뒤 잔류와 복부팽만이 줄었다. 반면 위암 복강경·로봇 위절제 이중눈가림 시험은 방사선 표지자, 첫 가스, 입원기간, 식사량에서 모사프리드와 위약 차이가 없었다.",
-  "limit": "긍정 연구는 대조군 없는 전후 비교이고 무효 시험의 표본 수가 초록에 명확히 제시되지 않아 수술 방식과 회복 경로에 따른 차이를 판단하기 어렵다.",
-  "against": "위암 위절제 이중눈가림 무작위시험은 장 회복 이득이 없다고 결론내렸고 routine 수술 후 사용을 권하지 않았다.",
-  "use": "위암 치료제로 사용하지 말고 수술 후 표준 회복을 대체하지 않는 연구적 보조요법으로만 기록한다.",
-  "refs": [
-    { "label": "초기 위암 위절제 후 대체 위 정체 모사프리드 전후연구", "doi": "10.1007/s00268-005-7979-6", "pmid": "16425073" },
-    { "label": "위암 위절제 후 모사프리드 이중눈가림 무작위시험", "doi": "10.1038/s41598-024-57870-w", "pmid": "38528113" },
-    { "label": "암 수술 후 장운동 회복 모사프리드 연구", "doi": "10.1007/s10350-008-9407-0", "pmid": "18584249" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "mosapride AND Gastric Cancer · 3건 반환, InterventionName 완전일치 1건(NCT01284764)",
-    "pubmed": "mosapride AND Gastric Cancer · 10편",
-    "negative": "mosapride AND Gastric Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 9편",
-    "safety": "mosapride AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 136편"
+ "id": "mosapride-gastric-cancer-null",
+ "subj": "모사프리드",
+ "claim": "위암 수술 후 회복에 모사프리드를 쓴다",
+ "line": "위암 수술 후 모사프리드의 장 회복 효과는 연구마다 달랐다.",
+ "effect": "수술 후 장 회복 결과 불일치",
+ "tier": "obs",
+ "dir": "null",
+ "n": 18,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미국 FDA Drugs@FDA에서 모사프리드 허가원문을 확인하지 못했으며 위암 치료나 위암 수술 후 회복은 허가 적응증으로 분류하지 않았다.",
+ "why": "위암 수술 뒤 대체 위의 정체와 장운동을 개선하려는 모사프리드 연구에서 전후 개선과 무효 무작위시험을 비교했다.",
+ "saw": "초기 위암 보존적 원위부 위절제 후 18명 전후 비교연구에서는 모사프리드 3개월 뒤 잔류와 복부팽만이 줄었다. 반면 위암 복강경·로봇 위절제 이중눈가림 시험은 방사선 표지자, 첫 가스, 입원기간, 식사량에서 모사프리드와 위약 차이가 없었다.",
+ "limit": "긍정 연구는 대조군 없는 전후 비교이고 무효 시험의 표본 수가 초록에 명확히 제시되지 않아 수술 방식과 회복 경로에 따른 차이를 판단하기 어렵다.",
+ "against": "위암 위절제 이중눈가림 무작위시험은 장 회복 이득이 없다고 결론내렸고 routine 수술 후 사용을 권하지 않았다.",
+ "use": "위암 치료제로 사용하지 말고 수술 후 표준 회복을 대체하지 않는 연구적 보조요법으로만 기록한다.",
+ "refs": [
+  {
+   "label": "초기 위암 위절제 후 대체 위 정체 모사프리드 전후연구",
+   "doi": "10.1007/s00268-005-7979-6",
+   "pmid": "16425073"
+  },
+  {
+   "label": "위암 위절제 후 모사프리드 이중눈가림 무작위시험",
+   "doi": "10.1038/s41598-024-57870-w",
+   "pmid": "38528113"
+  },
+  {
+   "label": "암 수술 후 장운동 회복 모사프리드 연구",
+   "doi": "10.1007/s10350-008-9407-0",
+   "pmid": "18584249"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "mosapride AND Gastric Cancer · 3건 반환, InterventionName 완전일치 1건(NCT01284764)",
+  "pubmed": "mosapride AND Gastric Cancer · 10편",
+  "negative": "mosapride AND Gastric Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 9편",
+  "safety": "mosapride AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 136편"
+ }
 }

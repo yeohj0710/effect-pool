@@ -1,30 +1,43 @@
 {
-  "id": "mosapride-constipation-pos",
-  "subj": "mosapride",
-  "claim": "변비에 모사프리드를 쓴다",
-  "line": "변비에서 모사프리드는 배변 빈도와 장 통과를 개선했다.",
-  "effect": "배변 빈도·장 통과 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "미국 FDA Drugs@FDA에서 모사프리드 허가원문을 확인하지 못했으며 변비는 허가 적응증으로 분류하지 않았다.",
-  "why": "당뇨병성 변비와 파킨슨증 변비에서 모사프리드의 배변 빈도·장 통과 변화를 임상연구로 확인했다.",
-  "saw": "당뇨병 환자 변비 20명은 모사프리드 15 mg/day를 8주 복용했고 배변 빈도와 변비 증상이 좋아졌다. 파킨슨증 변비 14명 공개연구에서는 13명이 배변 빈도와 배변 곤란의 주관적 개선을 보고했고 좌측·전체 대장 통과시간이 짧아졌다.",
-  "limit": "직접 연구 표본이 작고 한 연구는 공개 대조군이 없으며 변비 원인과 병용치료가 달라 일반화하기 어렵다.",
-  "against": "파킨슨증 연구에서 1명이 명치 불편감으로 중단했고, 프로바이오틱스 병용 메타분석은 모사프리드 단독보다 병용을 비교했을 뿐 위약 대조가 아니었다.",
-  "use": "원인과 장폐색을 먼저 평가하고 표준 변비 치료를 대체하지 않는 보조적 단기 시도로만 판단한다.",
-  "refs": [
-    { "label": "당뇨병 환자 변비 모사프리드 임상연구", "doi": "10.1016/j.diabres.2009.09.024", "pmid": "19889470" },
-    { "label": "파킨슨증 변비 모사프리드 공개연구", "doi": "10.1002/mds.20387", "pmid": "15719424" },
-    { "label": "변비 모사프리드·프로바이오틱스 체계적 문헌고찰", "doi": "10.1186/s12876-023-02884-3", "pmid": "37464298" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "mosapride AND Constipation · 6건 반환, InterventionName 완전일치 2건(NCT02433847, NCT01781897)",
-    "pubmed": "mosapride AND Constipation · 71편",
-    "negative": "mosapride AND Constipation AND (no effect OR did not OR failed OR negative OR no significant difference) · 65편",
-    "safety": "mosapride AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 136편"
+ "id": "mosapride-constipation-pos",
+ "subj": "모사프리드",
+ "claim": "변비에 모사프리드를 쓴다",
+ "line": "변비에서 모사프리드는 배변 빈도와 장 통과를 개선했다.",
+ "effect": "배변 빈도·장 통과 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 20,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "미국 FDA Drugs@FDA에서 모사프리드 허가원문을 확인하지 못했으며 변비는 허가 적응증으로 분류하지 않았다.",
+ "why": "당뇨병성 변비와 파킨슨증 변비에서 모사프리드의 배변 빈도·장 통과 변화를 임상연구로 확인했다.",
+ "saw": "당뇨병 환자 변비 20명은 모사프리드 15 mg/day를 8주 복용했고 배변 빈도와 변비 증상이 좋아졌다. 파킨슨증 변비 14명 공개연구에서는 13명이 배변 빈도와 배변 곤란의 주관적 개선을 보고했고 좌측·전체 대장 통과시간이 짧아졌다.",
+ "limit": "직접 연구 표본이 작고 한 연구는 공개 대조군이 없으며 변비 원인과 병용치료가 달라 일반화하기 어렵다.",
+ "against": "파킨슨증 연구에서 1명이 명치 불편감으로 중단했고, 프로바이오틱스 병용 메타분석은 모사프리드 단독보다 병용을 비교했을 뿐 위약 대조가 아니었다.",
+ "use": "원인과 장폐색을 먼저 평가하고 표준 변비 치료를 대체하지 않는 보조적 단기 시도로만 판단한다.",
+ "refs": [
+  {
+   "label": "당뇨병 환자 변비 모사프리드 임상연구",
+   "doi": "10.1016/j.diabres.2009.09.024",
+   "pmid": "19889470"
+  },
+  {
+   "label": "파킨슨증 변비 모사프리드 공개연구",
+   "doi": "10.1002/mds.20387",
+   "pmid": "15719424"
+  },
+  {
+   "label": "변비 모사프리드·프로바이오틱스 체계적 문헌고찰",
+   "doi": "10.1186/s12876-023-02884-3",
+   "pmid": "37464298"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "mosapride AND Constipation · 6건 반환, InterventionName 완전일치 2건(NCT02433847, NCT01781897)",
+  "pubmed": "mosapride AND Constipation · 71편",
+  "negative": "mosapride AND Constipation AND (no effect OR did not OR failed OR negative OR no significant difference) · 65편",
+  "safety": "mosapride AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 136편"
+ },
+ "vs": "모사프리드 vs 돔페리돈: 당뇨병성 변비 32명 비교연구에서 모사프리드군(20명)은 4주·8주 배변 빈도가 증가했지만 대조군(12명)은 변하지 않았다. 프로바이오틱스 병용 vs 모사프리드 단독 메타분석에서는 치료성공 OR 4.75(95% CI 3.27~6.90), 재발 OR 0.48(0.31~0.73)였다."
 }
