@@ -1,28 +1,32 @@
 {
-  "id": "home-monitoring-hypertension-null",
-  "subj": "home monitoring",
-  "claim": "월별 가정혈압 측정이 만성콩팥병 환자의 진료실 혈압을 유의하게 낮추지는 못한다",
-  "line": "월별 가정혈압 측정은 진료실 혈압을 유의하게 낮추지 못했습니다",
-  "effect": "수축기 혈압 차이 p=.18·.37",
-  "tier": "trial",
-  "dir": "null",
-  "n": 58,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정혈압 측정은 만성콩팥병 혈압 관리의 허가 적응증이 아닌 자기관리 중재입니다",
-  "why": "만성콩팥병 환자 58명을 표준 진료군과 가정혈압 자기관리군에 무작위 배정한 실행가능성 시험입니다",
-  "saw": "가정혈압군은 매달 혈압을 재고 미리 정한 계획에 따라 치료 조정을 제안했습니다. 12개월 추적을 마친 사람은 중재군 23명, 표준 진료군 29명이었습니다",
-  "limit": "표본이 작고 실행가능성 평가가 주목적이어서 혈압 차이를 검증할 힘이 부족합니다. 중재군의 치료 중단도 더 많았습니다",
-  "against": "가정혈압 측정 이행률은 첫 6개월 98%, 다음 6개월 83%였고 중재는 실행 가능했습니다",
-  "use": "가정혈압 자기관리에서 실행 가능성과 혈압 효과를 분리해 기록합니다",
-  "refs": [
-    { "label": "A Self-Management Approach to Managing Hypertension Associated with CKD: A Feasibility Randomized Trial · 실행가능성 무작위시험", "pmid": "42507488" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"home monitoring\" AND \"Hypertension\" → 58건",
-    "pubmed": "\"home monitoring\" AND \"Hypertension\" → 264건, PMID 42507488 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 121건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 49건"
+ "id": "home-monitoring-hypertension-null",
+ "subj": "가정 모니터링",
+ "claim": "월별 가정혈압 측정이 만성콩팥병 환자의 진료실 혈압을 유의하게 낮추지는 못한다",
+ "line": "월별 가정혈압 측정은 진료실 혈압을 유의하게 낮추지 못했습니다",
+ "effect": "수축기 혈압 차이 p=.18·.37",
+ "tier": "trial",
+ "dir": "null",
+ "n": 58,
+ "vs": "월별 가정혈압 자기관리군 대 표준진료군: 치료 에스컬레이션 중앙값 2회 대 1회 (P=.04), 6개월 수축기혈압 군 간 차이 −5.8mmHg (95% CI −14.4~2.6; P=.18), 12개월 +3.9mmHg (95% CI −4.7~12.5; P=.37); 23명 대 29명",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정혈압 측정은 만성콩팥병 혈압 관리의 허가 적응증이 아닌 자기관리 중재입니다",
+ "why": "만성콩팥병 환자 58명을 표준 진료군과 가정혈압 자기관리군에 무작위 배정한 실행가능성 시험입니다",
+ "saw": "가정혈압군은 매달 혈압을 재고 미리 정한 계획에 따라 치료 조정을 제안했습니다. 12개월 추적을 마친 사람은 중재군 23명, 표준 진료군 29명이었습니다",
+ "limit": "표본이 작고 실행가능성 평가가 주목적이어서 혈압 차이를 검증할 힘이 부족합니다. 중재군의 치료 중단도 더 많았습니다",
+ "against": "가정혈압 측정 이행률은 첫 6개월 98%, 다음 6개월 83%였고 중재는 실행 가능했습니다",
+ "use": "가정혈압 자기관리에서 실행 가능성과 혈압 효과를 분리해 기록합니다",
+ "refs": [
+  {
+   "label": "A Self-Management Approach to Managing Hypertension Associated with CKD: A Feasibility Randomized Trial · 실행가능성 무작위시험",
+   "pmid": "42507488"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"home monitoring\" AND \"Hypertension\" → 58건",
+  "pubmed": "\"home monitoring\" AND \"Hypertension\" → 264건, PMID 42507488 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 121건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 49건"
+ }
 }

@@ -1,28 +1,33 @@
 {
-  "id": "home-based-rehabilitation-cancer-pos",
-  "subj": "home-based rehabilitation",
-  "claim": "전립선암 수술 전 골반 재활이 6개월 요실금 회복을 개선했다",
-  "line": "전립선암 수술 전 가정 골반 재활은 요실금을 줄였습니다",
-  "effect": "무패드 82% 대 66.7%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 214,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "골반 재활은 의약품이 아닌 수술 전 재활 중재다",
-  "why": "로봇 보조 전립선 절제술 전 골반저근 교육과 가정 훈련을 받은 환자를 기존 진료군과 비교한 전향적 비무작위 연구다.",
-  "saw": "환자 214명에서 재활군 107명과 기존 진료군 107명을 비교했다. 6개월 무패드 비율은 재활군 82.0%, 대조군 66.7%였고 요로 기능 점수도 좋아졌다.",
-  "limit": "무작위 배정이 아닌 전후 비교이고 한 번의 집단 교육과 가정 훈련을 함께 평가했다. 전립선 수술 환자에 한정된다.",
-  "against": "다른 암 수술과 다른 병원에서 같은 요실금 회복 효과가 재현되는지는 확인되지 않았다.",
-  "use": "전립선암 수술 전 재활에 골반저근 집단 교육과 가정 훈련을 넣고 6개월 배뇨 기능을 추적한다.",
-  "refs": [
-    { "label": "Single-Session Pelvic Prehabilitation Improves Continence Recovery After Robot-Assisted Radical Prostatectomy 2026 · Journal of Robotic Surgery", "doi": "10.1007/s11701-026-03608-x", "pmid": "42474612" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=home-based rehabilitation AND condition=Cancer; 162건 반환, 중재명 일치 0건",
-    "pubmed": "home-based rehabilitation AND Cancer; 879건",
-    "negative": "home-based rehabilitation AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 645건",
-    "safety": "home-based rehabilitation AND (adverse OR toxicity OR case report OR harm OR dropout); 266건"
+ "id": "home-based-rehabilitation-cancer-pos",
+ "subj": "가정 재활",
+ "claim": "전립선암 수술 전 골반 재활이 6개월 요실금 회복을 개선했다",
+ "line": "전립선암 수술 전 가정 골반 재활은 요실금을 줄였습니다",
+ "effect": "무패드 82% 대 66.7%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 214,
+ "vs": "수술 전 골반 재활군 대 기존 진료군: 6개월 무패드 비율 82.0% 대 66.7% (P=.025), 요로 기능 점수 57.9 대 51.7 (P=.045); 107명 대 107명 비무작위 비교연구",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "골반 재활은 의약품이 아닌 수술 전 재활 중재다",
+ "why": "로봇 보조 전립선 절제술 전 골반저근 교육과 가정 훈련을 받은 환자를 기존 진료군과 비교한 전향적 비무작위 연구다.",
+ "saw": "환자 214명에서 재활군 107명과 기존 진료군 107명을 비교했다. 6개월 무패드 비율은 재활군 82.0%, 대조군 66.7%였고 요로 기능 점수도 좋아졌다.",
+ "limit": "무작위 배정이 아닌 전후 비교이고 한 번의 집단 교육과 가정 훈련을 함께 평가했다. 전립선 수술 환자에 한정된다.",
+ "against": "다른 암 수술과 다른 병원에서 같은 요실금 회복 효과가 재현되는지는 확인되지 않았다.",
+ "use": "전립선암 수술 전 재활에 골반저근 집단 교육과 가정 훈련을 넣고 6개월 배뇨 기능을 추적한다.",
+ "refs": [
+  {
+   "label": "Single-Session Pelvic Prehabilitation Improves Continence Recovery After Robot-Assisted Radical Prostatectomy 2026 · Journal of Robotic Surgery",
+   "doi": "10.1007/s11701-026-03608-x",
+   "pmid": "42474612"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=home-based rehabilitation AND condition=Cancer; 162건 반환, 중재명 일치 0건",
+  "pubmed": "home-based rehabilitation AND Cancer; 879건",
+  "negative": "home-based rehabilitation AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference); 645건",
+  "safety": "home-based rehabilitation AND (adverse OR toxicity OR case report OR harm OR dropout); 266건"
+ }
 }

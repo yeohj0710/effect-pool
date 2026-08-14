@@ -1,32 +1,32 @@
 {
-  "id": "home-spirometry-copd-open",
-  "subj": "home spirometry",
-  "claim": "COPD 악화 전후의 폐기능 변화를 가정 폐활량으로 추적한다",
-  "line": "COPD 악화 전 가정 FEV1이 낮아졌습니다",
-  "effect": "FEV1 0.907L→0.860L",
-  "tier": "obs",
-  "dir": "open",
-  "n": 360,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 폐활량 측정은 의약품 허가 적응증이 아닌 모니터링 기기 중재입니다.",
-  "why": "WISDOM 시험 참가자 중 주 1회 이상 가정 폐활량을 측정하고 중등도·중증 COPD 악화를 겪은 360명의 FEV1 변화를 사후 분석했습니다.",
-  "saw": "악화 증상 시작 약 2주 전부터 일일 평균 FEV1이 떨어졌습니다. 악화 56~36일 전 평균 0.907L에서 악화 첫날 0.860L로 낮아졌고, 악화 8주 뒤에도 0.875L로 이전 수준에 돌아오지 않았습니다.",
-  "limit": "약물 중단 무작위시험의 사후 분석이며 가정 폐활량을 사용한 사람만 포함했습니다. 폐기능 저하가 악화를 예측하는지 전향적으로 검증하지 않았습니다.",
-  "against": "반대 검색 0편과 안전성 검색 1편을 확인했습니다. 조기 FEV1 저하는 관찰 신호이지 악화를 예방하는 치료 효과가 아닙니다.",
-  "use": "COPD 환자의 가정 모니터링에서 악화 전 폐기능 변화를 포착할 가능성을 검토할 때 참고합니다.",
-  "refs": [
-    {
-      "label": "2018 · Respiratory Research · WISDOM COPD 시험 가정 폐활량 사후 분석",
-      "doi": "10.1186/s12931-018-0944-3",
-      "pmid": "30545350"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "home spirometry AND COPD · 26건 반환, InterventionName 직접 확인 0건",
-    "pubmed": "\"home spirometry\" AND \"COPD\"[Title/Abstract] · 10편",
-    "negative": "같은 검색 AND (no significant difference OR no effect OR failed OR negative OR did not improve) · 0편",
-    "safety": "같은 검색 AND (adverse OR harm OR safety OR toxicity OR injury OR dropout) · 1편"
+ "id": "home-spirometry-copd-open",
+ "subj": "가정 폐활량 측정",
+ "claim": "COPD 악화 전후의 폐기능 변화를 가정 폐활량으로 추적한다",
+ "line": "COPD 악화 전 가정 FEV1이 낮아졌습니다",
+ "effect": "FEV1 0.907L→0.860L",
+ "tier": "obs",
+ "dir": "open",
+ "n": 360,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 폐활량 측정은 의약품 허가 적응증이 아닌 모니터링 기기 중재입니다.",
+ "why": "WISDOM 시험 참가자 중 주 1회 이상 가정 폐활량을 측정하고 중등도·중증 COPD 악화를 겪은 360명의 FEV1 변화를 사후 분석했습니다.",
+ "saw": "악화 증상 시작 약 2주 전부터 일일 평균 FEV1이 떨어졌습니다. 악화 56~36일 전 평균 0.907L에서 악화 첫날 0.860L로 낮아졌고, 악화 8주 뒤에도 0.875L로 이전 수준에 돌아오지 않았습니다.",
+ "limit": "약물 중단 무작위시험의 사후 분석이며 가정 폐활량을 사용한 사람만 포함했습니다. 폐기능 저하가 악화를 예측하는지 전향적으로 검증하지 않았습니다.",
+ "against": "반대 검색 0편과 안전성 검색 1편을 확인했습니다. 조기 FEV1 저하는 관찰 신호이지 악화를 예방하는 치료 효과가 아닙니다.",
+ "use": "COPD 환자의 가정 모니터링에서 악화 전 폐기능 변화를 포착할 가능성을 검토할 때 참고합니다.",
+ "refs": [
+  {
+   "label": "2018 · Respiratory Research · WISDOM COPD 시험 가정 폐활량 사후 분석",
+   "doi": "10.1186/s12931-018-0944-3",
+   "pmid": "30545350"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "home spirometry AND COPD · 26건 반환, InterventionName 직접 확인 0건",
+  "pubmed": "\"home spirometry\" AND \"COPD\"[Title/Abstract] · 10편",
+  "negative": "같은 검색 AND (no significant difference OR no effect OR failed OR negative OR did not improve) · 0편",
+  "safety": "같은 검색 AND (adverse OR harm OR safety OR toxicity OR injury OR dropout) · 1편"
+ }
 }

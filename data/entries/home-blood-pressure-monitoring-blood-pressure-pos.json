@@ -1,28 +1,33 @@
 {
-  "id": "home-blood-pressure-monitoring-blood-pressure-pos",
-  "subj": "home blood pressure monitoring",
-  "claim": "가정 혈압 측정이 진료실 측정보다 수축기·이완기 혈압을 소폭 낮추고 치료 관성을 줄였다",
-  "line": "가정 혈압 측정은 진료실 측정보다 혈압을 소폭 낮췄습니다",
-  "effect": "SBP -2.63mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 9446,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가정 혈압 측정은 고혈압 약물이 아닌 진료·자가관리 중재다.",
-  "why": "가정 혈압 측정과 진료실 측정을 비교한 무작위 대조시험 37건, 9446명의 메타분석에서 혈압 감소와 치료 변경을 평가했다.",
-  "saw": "가정 측정군은 진료실 측정군보다 수축기 혈압이 2.63mmHg, 이완기 혈압이 1.68mmHg 낮았고 치료 변경 없이 두는 관성도 줄었다.",
-  "limit": "가정 측정만 한 중재와 원격 모니터링을 묶은 중재의 효과가 달랐고 시험 방법이 서로 달랐다.",
-  "against": "가정 혈압 측정만으로 모든 환자의 혈압을 조절하거나 심혈관 사건을 예방한다고 볼 수 없다.",
-  "use": "가정 혈압 측정을 약물 조정 계획과 연결하고 측정값에 따른 치료 변경 여부를 확인한다.",
-  "refs": [
-    { "label": "Agarwal 2011 · Hypertension · 무작위시험 메타분석", "doi": "10.1161/HYPERTENSIONAHA.110.160911", "pmid": "21115879" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "home blood pressure monitoring AND Blood Pressure · 11건",
-    "pubmed": "home blood pressure monitoring AND Blood Pressure · 20388건",
-    "negative": "home blood pressure monitoring AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference)",
-    "safety": "home blood pressure monitoring AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication)"
+ "id": "home-blood-pressure-monitoring-blood-pressure-pos",
+ "subj": "가정 혈압 모니터링",
+ "claim": "가정 혈압 측정이 진료실 측정보다 수축기·이완기 혈압을 소폭 낮추고 치료 관성을 줄였다",
+ "line": "가정 혈압 측정은 진료실 측정보다 혈압을 소폭 낮췄습니다",
+ "effect": "SBP -2.63mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 9446,
+ "vs": "가정 혈압 측정군 대 진료실 측정군: 수축기혈압 MD=−2.63mmHg (95% CI −4.24~−1.02), 이완기혈압 MD=−1.68mmHg (95% CI −2.58~−0.79), 치료 변경 없이 두는 관성 RR=0.82 (95% CI 0.68~0.99); 37개 무작위시험",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가정 혈압 측정은 고혈압 약물이 아닌 진료·자가관리 중재다.",
+ "why": "가정 혈압 측정과 진료실 측정을 비교한 무작위 대조시험 37건, 9446명의 메타분석에서 혈압 감소와 치료 변경을 평가했다.",
+ "saw": "가정 측정군은 진료실 측정군보다 수축기 혈압이 2.63mmHg, 이완기 혈압이 1.68mmHg 낮았고 치료 변경 없이 두는 관성도 줄었다.",
+ "limit": "가정 측정만 한 중재와 원격 모니터링을 묶은 중재의 효과가 달랐고 시험 방법이 서로 달랐다.",
+ "against": "가정 혈압 측정만으로 모든 환자의 혈압을 조절하거나 심혈관 사건을 예방한다고 볼 수 없다.",
+ "use": "가정 혈압 측정을 약물 조정 계획과 연결하고 측정값에 따른 치료 변경 여부를 확인한다.",
+ "refs": [
+  {
+   "label": "Agarwal 2011 · Hypertension · 무작위시험 메타분석",
+   "doi": "10.1161/HYPERTENSIONAHA.110.160911",
+   "pmid": "21115879"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "home blood pressure monitoring AND Blood Pressure · 11건",
+  "pubmed": "home blood pressure monitoring AND Blood Pressure · 20388건",
+  "negative": "home blood pressure monitoring AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference)",
+  "safety": "home blood pressure monitoring AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication)"
+ }
 }

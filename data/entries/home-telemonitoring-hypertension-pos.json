@@ -1,28 +1,32 @@
 {
-  "id": "home-telemonitoring-hypertension-pos",
-  "subj": "home telemonitoring",
-  "claim": "고령 고혈압·제2형 당뇨 환자에서 가정 원격 모니터링이 혈압을 낮춘다",
-  "line": "고령 고혈압·당뇨 환자에서 원격 모니터링이 수축기 혈압을 낮췄습니다",
-  "effect": "SBP 군간 -6.9mmHg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 128,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 원격 모니터링은 고혈압 치료의 허가 적응증이 아닌 디지털 관리 중재입니다",
-  "why": "고혈압과 제2형 당뇨가 있는 65세 이상 환자 128명을 원격 모니터링과 표준 진료에 무작위 배정한 다기관 시험입니다",
-  "saw": "12개월 동안 원격군은 혈압과 혈당을 측정하고 비정상 수치가 나오면 원격 상담을 받았습니다. 117명이 추적을 완료했고 원격군의 수축기 혈압과 당화혈색소가 더 낮았습니다",
-  "limit": "고혈압과 당뇨를 함께 관리한 복합 중재라 원격 측정, 상담, 교육의 효과를 분리할 수 없습니다",
-  "against": "다른 심혈관 위험요인과 당뇨 관련 삶의 질에서는 유의한 차이가 없었습니다",
-  "use": "가정 원격 모니터링에서 혈압 결과와 복합 관리 요소를 구분해 기록합니다",
-  "refs": [
-    { "label": "Impact of 12-Month mHealth Home Telemonitoring on Clinical Outcomes in Older Individuals With Hypertension and Type 2 Diabetes · 무작위시험", "pmid": "40440692" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"home telemonitoring\" AND \"Hypertension\" → 8건",
-    "pubmed": "\"home telemonitoring\" AND \"Hypertension\" → 33건, PMID 40440692 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 23건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 7건"
+ "id": "home-telemonitoring-hypertension-pos",
+ "subj": "가정 원격 모니터링",
+ "claim": "고령 고혈압·제2형 당뇨 환자에서 가정 원격 모니터링이 혈압을 낮춘다",
+ "line": "고령 고혈압·당뇨 환자에서 원격 모니터링이 수축기 혈압을 낮췄습니다",
+ "effect": "SBP 군간 -6.9mmHg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 128,
+ "vs": "가정 원격 모니터링군 대 표준진료군: 12개월 수축기혈압 MD=−6.9mmHg (95% CI −11~−2.7; P=.001), HbA1c MD=−0.5% (95% CI −0.8~−0.2; P=.002); 다른 심혈관 위험요인은 유의한 차이 없음; 128명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 원격 모니터링은 고혈압 치료의 허가 적응증이 아닌 디지털 관리 중재입니다",
+ "why": "고혈압과 제2형 당뇨가 있는 65세 이상 환자 128명을 원격 모니터링과 표준 진료에 무작위 배정한 다기관 시험입니다",
+ "saw": "12개월 동안 원격군은 혈압과 혈당을 측정하고 비정상 수치가 나오면 원격 상담을 받았습니다. 117명이 추적을 완료했고 원격군의 수축기 혈압과 당화혈색소가 더 낮았습니다",
+ "limit": "고혈압과 당뇨를 함께 관리한 복합 중재라 원격 측정, 상담, 교육의 효과를 분리할 수 없습니다",
+ "against": "다른 심혈관 위험요인과 당뇨 관련 삶의 질에서는 유의한 차이가 없었습니다",
+ "use": "가정 원격 모니터링에서 혈압 결과와 복합 관리 요소를 구분해 기록합니다",
+ "refs": [
+  {
+   "label": "Impact of 12-Month mHealth Home Telemonitoring on Clinical Outcomes in Older Individuals With Hypertension and Type 2 Diabetes · 무작위시험",
+   "pmid": "40440692"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"home telemonitoring\" AND \"Hypertension\" → 8건",
+  "pubmed": "\"home telemonitoring\" AND \"Hypertension\" → 33건, PMID 40440692 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 23건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 7건"
+ }
 }

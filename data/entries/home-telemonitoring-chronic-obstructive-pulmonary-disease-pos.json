@@ -1,28 +1,31 @@
 {
-  "id": "home-telemonitoring-chronic-obstructive-pulmonary-disease-pos",
-  "subj": "home telemonitoring",
-  "claim": "가정 원격 모니터링이 COPD 환자의 악화와 입원을 줄인다",
-  "line": "COPD에서 가정 원격 모니터링 뒤 악화와 입원이 줄었습니다",
-  "effect": "악화 44.3%; 입원 51.6% 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 104,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 원격 모니터링은 COPD 치료의 허가 적응증이 아닌 디지털 관리 중재입니다",
-  "why": "COPD 환자 104명을 12개월 단일군 원격 모니터링 프로그램으로 추적한 전향적 다기관 연구입니다",
-  "saw": "환자 104명 중 70명이 프로그램을 유지했습니다. 일상 자료와 앱을 매일 추적한 뒤 중재 전후를 비교했으며 악화, 입원, COPD 평가 점수가 모두 좋아졌습니다",
-  "limit": "대조군이 없는 전후 비교이고 34명이 탈락해 원격 모니터링만의 효과를 확정할 수 없습니다",
-  "against": "대조군이 없어 자연 경과와 의료체계 변화가 결과에 미친 영향을 분리하지 못했습니다",
-  "use": "COPD 원격 관리에서 악화, 입원, 삶의 질과 탈락률을 함께 기록합니다",
-  "refs": [
-    { "label": "Telemonitoring in patients with COPD: A prospective study with results from the AIRE project · 전향적 연구", "pmid": "40849078" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"home telemonitoring\" AND \"Chronic Obstructive Pulmonary Disease\" → 10건",
-    "pubmed": "\"home telemonitoring\" AND \"Chronic Obstructive Pulmonary Disease\" → 35건, PMID 40849078 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 22건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 3건"
+ "id": "home-telemonitoring-chronic-obstructive-pulmonary-disease-pos",
+ "subj": "가정 원격 모니터링",
+ "claim": "가정 원격 모니터링이 COPD 환자의 악화와 입원을 줄인다",
+ "line": "COPD에서 가정 원격 모니터링 뒤 악화와 입원이 줄었습니다",
+ "effect": "악화 44.3%; 입원 51.6% 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 104,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 원격 모니터링은 COPD 치료의 허가 적응증이 아닌 디지털 관리 중재입니다",
+ "why": "COPD 환자 104명을 12개월 단일군 원격 모니터링 프로그램으로 추적한 전향적 다기관 연구입니다",
+ "saw": "환자 104명 중 70명이 프로그램을 유지했습니다. 일상 자료와 앱을 매일 추적한 뒤 중재 전후를 비교했으며 악화, 입원, COPD 평가 점수가 모두 좋아졌습니다",
+ "limit": "대조군이 없는 전후 비교이고 34명이 탈락해 원격 모니터링만의 효과를 확정할 수 없습니다",
+ "against": "대조군이 없어 자연 경과와 의료체계 변화가 결과에 미친 영향을 분리하지 못했습니다",
+ "use": "COPD 원격 관리에서 악화, 입원, 삶의 질과 탈락률을 함께 기록합니다",
+ "refs": [
+  {
+   "label": "Telemonitoring in patients with COPD: A prospective study with results from the AIRE project · 전향적 연구",
+   "pmid": "40849078"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"home telemonitoring\" AND \"Chronic Obstructive Pulmonary Disease\" → 10건",
+  "pubmed": "\"home telemonitoring\" AND \"Chronic Obstructive Pulmonary Disease\" → 35건, PMID 40849078 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 22건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 3건"
+ }
 }

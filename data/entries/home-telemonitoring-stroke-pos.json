@@ -1,28 +1,32 @@
 {
-  "id": "home-telemonitoring-stroke-pos",
-  "subj": "home telemonitoring",
-  "claim": "뇌졸중을 포함한 만성질환 노인에서 가정 원격 모니터링이 재입원을 줄인다",
-  "line": "만성질환 노인에서 가정 원격 모니터링이 재입원을 줄였습니다",
-  "effect": "재입원 위험 RR 0.72",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 534,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가정 원격 모니터링은 뇌졸중 재발·재입원 관리의 허가 적응증이 아닌 디지털 관리 중재입니다",
-  "why": "뇌졸중을 포함한 만성질환 노인 534명을 원격 모니터링과 통상 진료에 무작위 배정한 다기관 시험입니다",
-  "saw": "평균 80.3세인 환자 534명 중 115명이 뇌졸중 병력을 가졌습니다. 온라인 생체정보 분석과 원격 돌봄을 12개월 제공한 군에서 계획하지 않은 재입원이 더 적었습니다",
-  "limit": "결과는 여러 만성질환을 합친 분석이고 뇌졸중 환자만의 재입원 결과는 보고하지 않았습니다",
-  "against": "뇌졸중 병력 환자 115명에서 원격 모니터링 효과를 따로 계산하지 않았습니다",
-  "use": "다질환 원격 관리에서 전체 재입원 결과와 뇌졸중별 결과를 구분해 기록합니다",
-  "refs": [
-    { "label": "Effectiveness of a home-based telesurveillance program in reducing hospital readmissions in older patients with chronic disease · 무작위시험", "pmid": "37221865" }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "\"home telemonitoring\" AND \"Stroke\" → 2건",
-    "pubmed": "\"home telemonitoring\" AND \"Stroke\" → 7건, PMID 37221865 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 4건",
-    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 0건"
+ "id": "home-telemonitoring-stroke-pos",
+ "subj": "가정 원격 모니터링",
+ "claim": "뇌졸중을 포함한 만성질환 노인에서 가정 원격 모니터링이 재입원을 줄인다",
+ "line": "만성질환 노인에서 가정 원격 모니터링이 재입원을 줄였습니다",
+ "effect": "재입원 위험 RR 0.72",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 534,
+ "vs": "가정 원격 감시군 대 통상진료군: 계획하지 않은 재입원 130/280 (46.4%) 대 130/267 (48.7%), 상대위험 RR=0.72 (95% CI 0.51~0.94; P=.04); 534명 무작위시험",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가정 원격 모니터링은 뇌졸중 재발·재입원 관리의 허가 적응증이 아닌 디지털 관리 중재입니다",
+ "why": "뇌졸중을 포함한 만성질환 노인 534명을 원격 모니터링과 통상 진료에 무작위 배정한 다기관 시험입니다",
+ "saw": "평균 80.3세인 환자 534명 중 115명이 뇌졸중 병력을 가졌습니다. 온라인 생체정보 분석과 원격 돌봄을 12개월 제공한 군에서 계획하지 않은 재입원이 더 적었습니다",
+ "limit": "결과는 여러 만성질환을 합친 분석이고 뇌졸중 환자만의 재입원 결과는 보고하지 않았습니다",
+ "against": "뇌졸중 병력 환자 115명에서 원격 모니터링 효과를 따로 계산하지 않았습니다",
+ "use": "다질환 원격 관리에서 전체 재입원 결과와 뇌졸중별 결과를 구분해 기록합니다",
+ "refs": [
+  {
+   "label": "Effectiveness of a home-based telesurveillance program in reducing hospital readmissions in older patients with chronic disease · 무작위시험",
+   "pmid": "37221865"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "\"home telemonitoring\" AND \"Stroke\" → 2건",
+  "pubmed": "\"home telemonitoring\" AND \"Stroke\" → 7건, PMID 37221865 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 4건",
+  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 0건"
+ }
 }

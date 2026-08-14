@@ -1,28 +1,33 @@
 {
-  "id": "home-exercise-app-pain-pos",
-  "subj": "home exercise app",
-  "claim": "AI 홈 운동 앱이 회전근개 관련 통증 재활을 돕는다",
-  "line": "AI 기반 홈 운동 앱은 회전근개 통증·기능을 개선했습니다",
-  "effect": "통증 MD −1.01·기능 MD −7.3",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 46,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "재활 앱 중재이며 회전근개 통증 치료의 허가 적응증이 아닙니다.",
-  "why": "회전근개 관련 어깨 통증 성인 46명을 12주 표준 물리치료군과 AI 홈 운동 앱 병용군에 무작위 배정한 평가자 눈가림 시험입니다.",
-  "saw": "앱 병용군은 2주와 4주 통증이 더 줄었고, 4주 상지 기능과 12주 회피공포도 더 좋아졌습니다. 의료 이용은 3명 대 10명이었습니다.",
-  "limit": "단일 기관의 12주 병용시험이라 앱 단독 효과와 장기 재발은 확인하지 않았습니다.",
-  "against": "표준 물리치료에 앱을 더한 비교라 앱만 사용했을 때의 효과는 알 수 없습니다.",
-  "use": "회전근개 통증 재활에서 표준 물리치료를 보조하는 앱으로 검토합니다.",
-  "refs": [
-    { "label": "Effectiveness of an AI-based home exercise app for rehabilitation of rotator cuff-related shoulder pain: A randomized controlled trial", "pmid": "42531919", "doi": "10.1016/j.msksp.2026.103626" }
-  ],
-  "queried": {
-    "date": "2026-08-09",
-    "ctgov": "query.intr=home exercise app AND query.cond=Pain · 42건 반환, exact InterventionName 0건",
-    "pubmed": "\"home exercise app\" AND \"Pain\"[Title/Abstract] · 68건",
-    "negative": "\"home exercise app\" AND \"Pain\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 13건",
-    "safety": "\"home exercise app\" AND \"Pain\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 17건"
+ "id": "home-exercise-app-pain-pos",
+ "subj": "가정 운동 앱",
+ "claim": "AI 홈 운동 앱이 회전근개 관련 통증 재활을 돕는다",
+ "line": "AI 기반 홈 운동 앱은 회전근개 통증·기능을 개선했습니다",
+ "effect": "통증 MD −1.01·기능 MD −7.3",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 46,
+ "vs": "AI 가정 운동 앱+물리치료군 대 물리치료군: 2주 통증 MD=−0.7 (95% CI −1.13~−0.14), 4주 MD=−1.01 (95% CI −1.8~−0.2), 상지 기능 MD=−7.3 (95% CI −12.3~−2.2), 회피공포 MD=−7.6 (95% CI −14~−0.5)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "재활 앱 중재이며 회전근개 통증 치료의 허가 적응증이 아닙니다.",
+ "why": "회전근개 관련 어깨 통증 성인 46명을 12주 표준 물리치료군과 AI 홈 운동 앱 병용군에 무작위 배정한 평가자 눈가림 시험입니다.",
+ "saw": "앱 병용군은 2주와 4주 통증이 더 줄었고, 4주 상지 기능과 12주 회피공포도 더 좋아졌습니다. 의료 이용은 3명 대 10명이었습니다.",
+ "limit": "단일 기관의 12주 병용시험이라 앱 단독 효과와 장기 재발은 확인하지 않았습니다.",
+ "against": "표준 물리치료에 앱을 더한 비교라 앱만 사용했을 때의 효과는 알 수 없습니다.",
+ "use": "회전근개 통증 재활에서 표준 물리치료를 보조하는 앱으로 검토합니다.",
+ "refs": [
+  {
+   "label": "Effectiveness of an AI-based home exercise app for rehabilitation of rotator cuff-related shoulder pain: A randomized controlled trial",
+   "pmid": "42531919",
+   "doi": "10.1016/j.msksp.2026.103626"
   }
+ ],
+ "queried": {
+  "date": "2026-08-09",
+  "ctgov": "query.intr=home exercise app AND query.cond=Pain · 42건 반환, exact InterventionName 0건",
+  "pubmed": "\"home exercise app\" AND \"Pain\"[Title/Abstract] · 68건",
+  "negative": "\"home exercise app\" AND \"Pain\"[Title/Abstract] AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 13건",
+  "safety": "\"home exercise app\" AND \"Pain\"[Title/Abstract] AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 17건"
+ }
 }

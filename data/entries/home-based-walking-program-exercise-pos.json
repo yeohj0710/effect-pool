@@ -1,20 +1,33 @@
 {
-  "id": "home-based-walking-program-exercise-pos",
-  "subj": "home-based walking program",
-  "claim": "말초동맥질환 환자의 가정 보행 운동이 보행 능력을 개선할 수 있다",
-  "line": "말초동맥질환 가정 보행은 걷기 능력을 개선했습니다",
-  "effect": "2개 시험 376명, 6분 보행 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 376,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가정 보행 프로그램은 말초동맥질환의 표준 약물치료가 아님",
-  "why": "말초동맥질환 환자의 가정 보행 운동 무작위시험 2개를 합쳐 보행 개선과 중대한 이상반응을 분석했습니다",
-  "saw": "376명 중 가정 운동군의 54.9%가 6분 보행을 20m 이상 개선한 반면 대조군은 28.0%였고 오즈비는 3.13이었습니다",
-  "limit": "합쳐진 두 시험의 운동 지도와 대상자 특성이 달라 모든 환자에게 같은 효과가 난다고 볼 수 없습니다",
-  "against": "중대한 이상반응은 운동군 28.1%, 대조군 23.3%로 전체 차이가 유의하지 않았지만 일부 하위군 상호작용이 있었습니다",
-  "use": "말초동맥질환의 보행 재활에서 집에서 하는 운동의 효과와 안전성 신호를 설명할 때 참고할 수 있습니다",
-  "refs": [{ "label": "Safety and efficacy of home-based walking exercise for peripheral artery disease 2025 · Journal of Vascular Surgery", "doi": "10.1016/j.jvs.2024.10.013", "pmid": "39423932" }],
-  "queried": { "date": "2026-08-06", "ctgov": "home-based walking program AND Exercise; 290건 반환, 중재명 일치 1건", "pubmed": "home-based walking program AND Exercise; 901편", "negative": "home-based walking program AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference); 717편", "safety": "home-based walking program AND Exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 161편" }
+ "id": "home-based-walking-program-exercise-pos",
+ "subj": "가정 보행 프로그램",
+ "claim": "말초동맥질환 환자의 가정 보행 운동이 보행 능력을 개선할 수 있다",
+ "line": "말초동맥질환 가정 보행은 걷기 능력을 개선했습니다",
+ "effect": "2개 시험 376명, 6분 보행 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 376,
+ "vs": "말초동맥질환 가정 보행운동군 대 대조군: 6분 보행거리 20m 이상 개선 오즈비 OR=3.13 (95% CI 1.94~5.06; P<.001); 376명, 2개 무작위시험",
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가정 보행 프로그램은 말초동맥질환의 표준 약물치료가 아님",
+ "why": "말초동맥질환 환자의 가정 보행 운동 무작위시험 2개를 합쳐 보행 개선과 중대한 이상반응을 분석했습니다",
+ "saw": "376명 중 가정 운동군의 54.9%가 6분 보행을 20m 이상 개선한 반면 대조군은 28.0%였고 오즈비는 3.13이었습니다",
+ "limit": "합쳐진 두 시험의 운동 지도와 대상자 특성이 달라 모든 환자에게 같은 효과가 난다고 볼 수 없습니다",
+ "against": "중대한 이상반응은 운동군 28.1%, 대조군 23.3%로 전체 차이가 유의하지 않았지만 일부 하위군 상호작용이 있었습니다",
+ "use": "말초동맥질환의 보행 재활에서 집에서 하는 운동의 효과와 안전성 신호를 설명할 때 참고할 수 있습니다",
+ "refs": [
+  {
+   "label": "Safety and efficacy of home-based walking exercise for peripheral artery disease 2025 · Journal of Vascular Surgery",
+   "doi": "10.1016/j.jvs.2024.10.013",
+   "pmid": "39423932"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "home-based walking program AND Exercise; 290건 반환, 중재명 일치 1건",
+  "pubmed": "home-based walking program AND Exercise; 901편",
+  "negative": "home-based walking program AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference); 717편",
+  "safety": "home-based walking program AND Exercise AND (adverse OR toxicity OR case report OR harm OR dropout); 161편"
+ }
 }
