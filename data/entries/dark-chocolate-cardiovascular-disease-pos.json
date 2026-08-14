@@ -1,29 +1,39 @@
 {
-  "id": "dark-chocolate-cardiovascular-disease-pos",
-  "subj": "dark chocolate",
-  "claim": "코코아·고함량 다크초콜릿은 심혈관 위험 표지를 개선할 수 있다",
-  "line": "코코아 31개 무작위시험에서 LDL과 혈압이 소폭 낮아졌습니다.",
-  "effect": "LDL −9.47; SBP −2.52",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1986,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "다크초콜릿과 코코아는 심혈관질환 치료제로 허가된 식품이 아닙니다.",
-  "why": "성인의 코코아 추출물 또는 70% 이상 다크초콜릿 섭취 무작위시험을 심혈관 대사 표지별로 통합했습니다.",
-  "saw": "31개 연구 1,986명에서 총콜레스테롤, LDL, 공복혈당, 수축기·이완기 혈압이 소폭 낮아졌고 체중·BMI·중성지방·HDL·HbA1c는 변하지 않았습니다.",
-  "limit": "시험마다 코코아 제품과 섭취 기간이 달라 심혈관 사건 감소를 직접 보여주지 않습니다.",
-  "against": "다크초콜릿의 당과 열량을 고려해야 하며 표지 개선이 심혈관 사건 예방을 뜻하지는 않습니다.",
-  "use": "심혈관 위험 치료가 아닌 식품 섭취 연구의 생체표지 신호로만 참고합니다.",
-  "refs": [
-    { "label": "코코아 섭취 심혈관 대사 위험표지 무작위시험 메타분석", "doi": "10.3390/nu16121919", "pmid": "38931273", "pmc": "PMC11206597" },
-    { "label": "다크초콜릿 혈관내피 기능 무작위시험 메타분석", "doi": "10.1016/j.clnesp.2019.10.017", "pmid": "32220363" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "dark chocolate AND Cardiovascular Disease; 35건, 결과 보고 2건",
-    "pubmed": "dark chocolate AND Cardiovascular Disease; 145건",
-    "negative": "dark chocolate AND Cardiovascular Disease AND (no effect OR did not OR failed OR no significant difference); 124건",
-    "safety": "dark chocolate AND (adverse OR toxicity OR case report OR harm); 98건"
+ "id": "dark-chocolate-cardiovascular-disease-pos",
+ "subj": "다크초콜릿",
+ "claim": "코코아·고함량 다크초콜릿은 심혈관 위험 표지를 개선할 수 있다",
+ "line": "코코아 31개 무작위시험에서 LDL과 혈압이 소폭 낮아졌습니다.",
+ "effect": "LDL −9.47; SBP −2.52",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1986,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "다크초콜릿과 코코아는 심혈관질환 치료제로 허가된 식품이 아닙니다.",
+ "why": "성인의 코코아 추출물 또는 70% 이상 다크초콜릿 섭취 무작위시험을 심혈관 대사 표지별로 통합했습니다.",
+ "saw": "31개 연구 1,986명에서 총콜레스테롤, LDL, 공복혈당, 수축기·이완기 혈압이 소폭 낮아졌고 체중·BMI·중성지방·HDL·HbA1c는 변하지 않았습니다.",
+ "limit": "시험마다 코코아 제품과 섭취 기간이 달라 심혈관 사건 감소를 직접 보여주지 않습니다.",
+ "against": "다크초콜릿의 당과 열량을 고려해야 하며 표지 개선이 심혈관 사건 예방을 뜻하지는 않습니다.",
+ "use": "심혈관 위험 치료가 아닌 식품 섭취 연구의 생체표지 신호로만 참고합니다.",
+ "refs": [
+  {
+   "label": "코코아 섭취 심혈관 대사 위험표지 무작위시험 메타분석",
+   "doi": "10.3390/nu16121919",
+   "pmid": "38931273",
+   "pmc": "PMC11206597"
+  },
+  {
+   "label": "다크초콜릿 혈관내피 기능 무작위시험 메타분석",
+   "doi": "10.1016/j.clnesp.2019.10.017",
+   "pmid": "32220363"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "dark chocolate AND Cardiovascular Disease; 35건, 결과 보고 2건",
+  "pubmed": "dark chocolate AND Cardiovascular Disease; 145건",
+  "negative": "dark chocolate AND Cardiovascular Disease AND (no effect OR did not OR failed OR no significant difference); 124건",
+  "safety": "dark chocolate AND (adverse OR toxicity OR case report OR harm); 98건"
+ },
+ "vs": "코코아·다크초콜릿 vs 대조: 총콜레스테롤 MD -8.35mg/dL(95% CI -14.01~-2.69), LDL -9.47(-13.75~-5.20), 공복혈당 -4.91(-8.29~-1.52), 수축기혈압 -2.52mmHg(-4.17~-0.88), 이완기혈압 -1.58(-2.54~-0.62); 31개 RCT·1,986명"
 }
