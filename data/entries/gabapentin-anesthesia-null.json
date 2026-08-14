@@ -1,31 +1,32 @@
 {
-  "id": "gabapentin-anesthesia-null",
-  "subj": "가바펜틴",
-  "claim": "가바펜틴은 수술 후 통증을 줄이지 못했다",
-  "line": "가바펜틴은 수술 후 통증을 조금 줄였지만 임상적 의미는 없었다.",
-  "effect": "6시간 통증 -10점",
-  "tier": "trial",
-  "dir": "null",
-  "n": 24682,
-  "synth": "meta",
-  "why": "가바펜틴의 허가 적응증은 대상포진후신경통과 부분발작 보조치료이며 수술 후 통증은 아닙니다. 수술 전후 가바펜티노이드 무작위시험 메타분석을 확인했습니다.",
-  "saw": "성인 수술 환자 24,682명을 포함한 281개 무작위시험 메타분석에서 가바펜틴 또는 프레가발린은 6시간 통증을 100점 중 10점 낮췄지만 사전에 정한 임상적으로 중요한 차이에는 못 미쳤습니다.",
-  "limit": "가바펜틴과 프레가발린을 함께 분석했고 수술 종류가 다양했습니다. 어지럼·시각 이상은 늘어 routine 수술 후 사용을 지지하지 않습니다.",
-  "against": "반대 검색 130건에서 임상적으로 의미 있는 진통 효과가 없고 이상반응이 더 많다는 메타분석 결론을 확인했습니다.",
-  "use": "수술 후 통증의 숫자상 변화와 실제 임상적 이득을 구분해야 하며 가바펜틴 단독 효과로 확대하지 않아야 합니다.",
-  "refs": [
-    {
-      "label": "2020 · 수술 후 급성 통증 가바펜티노이드 메타분석",
-      "doi": "10.1097/ALN.0000000000003428",
-      "pmid": "32667154"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"GABAPENTIN\" → 407건 반환; 수술 후 통증 적응증 없음",
-    "ctgov": "query.intr=gabapentin&query.cond=Anesthesia&countTotal=true&pageSize=1000 → 19건 반환, InterventionName exact 일치 5건",
-    "pubmed": "gabapentin AND \"Anesthesia\" → 503건",
-    "negative": "gabapentin AND \"Anesthesia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 130건",
-    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ "id": "gabapentin-anesthesia-null",
+ "subj": "가바펜틴",
+ "claim": "가바펜틴은 수술 후 통증을 줄이지 못했다",
+ "line": "가바펜틴은 수술 후 통증을 조금 줄였지만 임상적 의미는 없었다.",
+ "effect": "6시간 통증 -10점",
+ "tier": "trial",
+ "dir": "null",
+ "n": 24682,
+ "synth": "meta",
+ "why": "가바펜틴의 허가 적응증은 대상포진후신경통과 부분발작 보조치료이며 수술 후 통증은 아닙니다. 수술 전후 가바펜티노이드 무작위시험 메타분석을 확인했습니다.",
+ "saw": "성인 수술 환자 24,682명을 포함한 281개 무작위시험 메타분석에서 가바펜틴 또는 프레가발린은 6시간 통증을 100점 중 10점 낮췄지만 사전에 정한 임상적으로 중요한 차이에는 못 미쳤습니다.",
+ "limit": "가바펜틴과 프레가발린을 함께 분석했고 수술 종류가 다양했습니다. 어지럼·시각 이상은 늘어 routine 수술 후 사용을 지지하지 않습니다.",
+ "against": "반대 검색 130건에서 임상적으로 의미 있는 진통 효과가 없고 이상반응이 더 많다는 메타분석 결론을 확인했습니다.",
+ "use": "수술 후 통증의 숫자상 변화와 실제 임상적 이득을 구분해야 하며 가바펜틴 단독 효과로 확대하지 않아야 합니다.",
+ "refs": [
+  {
+   "label": "2020 · 수술 후 급성 통증 가바펜티노이드 메타분석",
+   "doi": "10.1097/ALN.0000000000003428",
+   "pmid": "32667154"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"GABAPENTIN\" → 407건 반환; 수술 후 통증 적응증 없음",
+  "ctgov": "query.intr=gabapentin&query.cond=Anesthesia&countTotal=true&pageSize=1000 → 19건 반환, InterventionName exact 일치 5건",
+  "pubmed": "gabapentin AND \"Anesthesia\" → 503건",
+  "negative": "gabapentin AND \"Anesthesia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 130건",
+  "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ },
+ "vs": "가바펜티노이드(가바펜틴 포함) vs 대조군: 수술 전후 281개 RCT 24,682명 메타분석에서 수술 후 통증 MD -10(6시간), -9(12시간), -7(24시간), -3(48시간)점/100점(각 95% CI -12~-9, -10~-7, -8~-6, -5~-1)이나 임상적으로 중요한 차이에는 못 미쳤다."
 }

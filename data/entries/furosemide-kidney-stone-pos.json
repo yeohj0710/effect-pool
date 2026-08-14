@@ -1,37 +1,38 @@
 {
-  "id": "furosemide-kidney-stone-pos",
-  "subj": "푸로세미드",
-  "claim": "푸로세미드가 신장결석 제거를 돕는다",
-  "line": "쇄석술 뒤 푸로세미드 병용은 신장결석 제거율을 높였다.",
-  "effect": "신장결석 제거 RR 1.16",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1344,
-  "synth": "meta",
-  "why": "신장·요관 결석의 체외충격파쇄석술에 푸로세미드를 더한 무작위시험 6편을 합친 메타분석입니다.",
-  "saw": "6편 1,344명의 메타분석에서 신장결석 제거율은 푸로세미드군이 대조군보다 높았습니다(RR 1.16, 95% CI 1.07~1.25). 신장결석의 분쇄율과 요관결석 제거율은 뚜렷하게 달라지지 않았습니다.",
-  "limit": "체외충격파쇄석술의 보조요법 연구라 자연 배출이나 결석 재발 예방 효과로 확대할 수 없습니다. 결석 위치와 연구별 방법도 달랐습니다.",
-  "against": "요관결석 제거율과 결석 분쇄율은 유의하게 좋아지지 않았습니다. 최근 후향 코호트에서도 발열 외 합병증 차이는 없었습니다.",
-  "use": "신장결석 쇄석술의 제거 보조 신호는 있지만 모든 결석 치료 효과는 아닙니다.",
-  "refs": [
-    {
-      "label": "Kahbazi 2022 · Therapeutic Advances in Urology · 결석 쇄석술 메타분석",
-      "doi": "10.1177/17562872221128473",
-      "pmid": "36267107",
-      "pmc": "PMC9577065"
-    },
-    {
-      "label": "Al-Dujaili 2019 · Arab Journal of Urology · 신장결석 무작위시험",
-      "doi": "10.1080/2090598X.2019.1645262",
-      "pmid": "31723445",
-      "pmc": "PMC6830186"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=furosemide, cond=Kidney Stone → 5건 반환, InterventionName 대조 후 4건",
-    "pubmed": "furosemide kidney stone → 104건",
-    "negative": "furosemide AND kidney stone AND (no effect OR did not OR failed to OR negative OR no significant difference) → 73건",
-    "safety": "furosemide AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 5624건"
+ "id": "furosemide-kidney-stone-pos",
+ "subj": "푸로세미드",
+ "claim": "푸로세미드가 신장결석 제거를 돕는다",
+ "line": "쇄석술 뒤 푸로세미드 병용은 신장결석 제거율을 높였다.",
+ "effect": "신장결석 제거 RR 1.16",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1344,
+ "synth": "meta",
+ "why": "신장·요관 결석의 체외충격파쇄석술에 푸로세미드를 더한 무작위시험 6편을 합친 메타분석입니다.",
+ "saw": "6편 1,344명의 메타분석에서 신장결석 제거율은 푸로세미드군이 대조군보다 높았습니다(RR 1.16, 95% CI 1.07~1.25). 신장결석의 분쇄율과 요관결석 제거율은 뚜렷하게 달라지지 않았습니다.",
+ "limit": "체외충격파쇄석술의 보조요법 연구라 자연 배출이나 결석 재발 예방 효과로 확대할 수 없습니다. 결석 위치와 연구별 방법도 달랐습니다.",
+ "against": "요관결석 제거율과 결석 분쇄율은 유의하게 좋아지지 않았습니다. 최근 후향 코호트에서도 발열 외 합병증 차이는 없었습니다.",
+ "use": "신장결석 쇄석술의 제거 보조 신호는 있지만 모든 결석 치료 효과는 아닙니다.",
+ "refs": [
+  {
+   "label": "Kahbazi 2022 · Therapeutic Advances in Urology · 결석 쇄석술 메타분석",
+   "doi": "10.1177/17562872221128473",
+   "pmid": "36267107",
+   "pmc": "PMC9577065"
+  },
+  {
+   "label": "Al-Dujaili 2019 · Arab Journal of Urology · 신장결석 무작위시험",
+   "doi": "10.1080/2090598X.2019.1645262",
+   "pmid": "31723445",
+   "pmc": "PMC6830186"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=furosemide, cond=Kidney Stone → 5건 반환, InterventionName 대조 후 4건",
+  "pubmed": "furosemide kidney stone → 104건",
+  "negative": "furosemide AND kidney stone AND (no effect OR did not OR failed to OR negative OR no significant difference) → 73건",
+  "safety": "furosemide AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 5624건"
+ },
+ "vs": "푸로세미드+체액 vs 체액: 신장결석 체외충격파쇄석술 메타분석 1,344명에서 결석 배출 RR 1.16(95% CI 1.07~1.25; P=.0002). 개별 RCT 714명에서 2개월 결석 없음 77.0% vs 65.3%(P<.001)."
 }

@@ -1,40 +1,41 @@
 {
-  "id": "gabapentin-cancer",
-  "subj": "가바펜틴",
-  "claim": "가바펜틴은 암 관련 통증을 줄였다",
-  "line": "암 관련 신경병증성 통증에서 가바펜틴 투여 뒤 통증이 줄었다.",
-  "effect": "통증↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 121,
-  "synth": "single",
-  "why": "암 관련 신경병증성 통증을 대상으로 한 이중눈가림 무작위시험에서 gabapentin과 위약의 통증 변화를 비교했습니다.",
-  "saw": "121명이 등록된 시험에서 gabapentin군 79명과 위약군 41명을 분석했고, 통증 결과는 gabapentin군에서 더 좋아졌습니다.",
-  "limit": "암 전체의 치료 효과가 아니라 암 관련 신경병증성 통증에 대한 보조적 통증 지표 시험입니다. 다른 암 증상과 생존 결과를 검증하지 않았습니다.",
-  "against": "두경부암 방사선·항암치료 환자를 본 3상 시험에서는 구강점막염 통증 이득이 확인되지 않았고 삶의 질 결과가 더 나빴습니다.",
-  "use": "gabapentin의 근거를 암 치료 자체가 아니라 특정 암 관련 신경병증성 통증 결과로 한정해 읽어야 합니다.",
-  "refs": [
-    {
-      "label": "Caraceni 2004 · Journal of Clinical Oncology · 암 신경병증성 통증 무작위시험",
-      "doi": "10.1200/JCO.2004.08.141",
-      "pmid": "15254060"
-    },
-    {
-      "label": "Jensen 2022 · International Journal of Radiation Oncology Biology Physics · 두경부암 점막염 3상시험",
-      "doi": "10.1016/j.ijrobp.2021.11.012",
-      "pmid": "34808255"
-    },
-    {
-      "label": "Kharasch 2017 · British Journal of Plastic Surgery · 유방암 수술 통증 메타분석",
-      "doi": "10.1016/j.bjps.2017.05.054",
-      "pmid": "28751024"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "query.intr=gabapentin&query.cond=cancer → 52건 반환, InterventionName에 gabapentin 포함 39건",
-    "pubmed": "gabapentin AND cancer → 890건",
-    "negative": "gabapentin AND cancer AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 684건",
-    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ "id": "gabapentin-cancer",
+ "subj": "가바펜틴",
+ "claim": "가바펜틴은 암 관련 통증을 줄였다",
+ "line": "암 관련 신경병증성 통증에서 가바펜틴 투여 뒤 통증이 줄었다.",
+ "effect": "통증↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 121,
+ "synth": "single",
+ "why": "암 관련 신경병증성 통증을 대상으로 한 이중눈가림 무작위시험에서 gabapentin과 위약의 통증 변화를 비교했습니다.",
+ "saw": "121명이 등록된 시험에서 gabapentin군 79명과 위약군 41명을 분석했고, 통증 결과는 gabapentin군에서 더 좋아졌습니다.",
+ "limit": "암 전체의 치료 효과가 아니라 암 관련 신경병증성 통증에 대한 보조적 통증 지표 시험입니다. 다른 암 증상과 생존 결과를 검증하지 않았습니다.",
+ "against": "두경부암 방사선·항암치료 환자를 본 3상 시험에서는 구강점막염 통증 이득이 확인되지 않았고 삶의 질 결과가 더 나빴습니다.",
+ "use": "gabapentin의 근거를 암 치료 자체가 아니라 특정 암 관련 신경병증성 통증 결과로 한정해 읽어야 합니다.",
+ "refs": [
+  {
+   "label": "Caraceni 2004 · Journal of Clinical Oncology · 암 신경병증성 통증 무작위시험",
+   "doi": "10.1200/JCO.2004.08.141",
+   "pmid": "15254060"
+  },
+  {
+   "label": "Jensen 2022 · International Journal of Radiation Oncology Biology Physics · 두경부암 점막염 3상시험",
+   "doi": "10.1016/j.ijrobp.2021.11.012",
+   "pmid": "34808255"
+  },
+  {
+   "label": "Kharasch 2017 · British Journal of Plastic Surgery · 유방암 수술 통증 메타분석",
+   "doi": "10.1016/j.bjps.2017.05.054",
+   "pmid": "28751024"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "query.intr=gabapentin&query.cond=cancer → 52건 반환, InterventionName에 gabapentin 포함 39건",
+  "pubmed": "gabapentin AND cancer → 890건",
+  "negative": "gabapentin AND cancer AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 684건",
+  "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ },
+ "vs": "가바펜틴+기존 오피오이드 vs 위약+기존 오피오이드: 암성 신경병증 통증 RCT 121명에서 평균 통증점수 4.6 vs 5.4(P=.025), 이상반응 중단 7.6% vs 7.3%."
 }

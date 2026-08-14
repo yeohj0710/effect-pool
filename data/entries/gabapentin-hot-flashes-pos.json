@@ -1,36 +1,37 @@
 {
-  "id": "gabapentin-hot-flashes-pos",
-  "subj": "가바펜틴",
-  "claim": "가바펜틴은 안면홍조 빈도를 줄였다",
-  "line": "폐경·유방암 환자에서 가바펜틴은 안면홍조 빈도를 줄였다.",
-  "effect": "안면홍조 빈도 23.7%p 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 901,
-  "synth": "meta",
-  "why": "폐경과 유방암 환자의 안면홍조에 가바펜틴을 사용한 무작위시험을 합친 메타분석입니다.",
-  "saw": "7개 시험 901명을 검토하고 4개 무작위시험을 메타분석한 결과, 가바펜틴은 위약보다 안면홍조 빈도와 종합점수를 낮췄지만 연구 간 이질성이 컸습니다.",
-  "limit": "유방암 치료 중이거나 자연 폐경인 북미 여성 중심이며, 연구별 안면홍조 측정과 추적기간이 달랐습니다.",
-  "against": "이상반응으로 중도탈락은 가바펜틴군에서 더 많았고, 어지럼·불안정감·졸림이 자주 보고됐습니다.",
-  "use": "호르몬 치료가 어려운 안면홍조에서 효과 신호와 중추신경계 이상반응을 함께 비교해야 합니다.",
-  "refs": [
-    {
-      "label": "Reddy 2009 · Clin Ther · 안면홍조 무작위시험 메타분석",
-      "doi": "10.1016/j.clinthera.2009.02.006",
-      "pmid": "19302896"
-    },
-    {
-      "label": "Pandya 2005 · Lancet · 유방암 환자 420명 무작위시험",
-      "doi": "10.1016/S0140-6736(05)67215-7",
-      "pmid": "16139656"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:GABAPENTIN → 406건; 확인 라벨의 적응증은 성인 대상포진후신경통·부분발작 보조치료",
-    "ctgov": "query.intr=gabapentin&query.cond=Hot Flashes → 15건 반환, InterventionName 대조 후 gabapentin 일치 15건",
-    "pubmed": "gabapentin AND \"Hot Flashes\" → 187건",
-    "negative": "gabapentin AND \"Hot Flashes\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 150건",
-    "safety": "gabapentin AND \"Hot Flashes\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 84건"
+ "id": "gabapentin-hot-flashes-pos",
+ "subj": "가바펜틴",
+ "claim": "가바펜틴은 안면홍조 빈도를 줄였다",
+ "line": "폐경·유방암 환자에서 가바펜틴은 안면홍조 빈도를 줄였다.",
+ "effect": "안면홍조 빈도 23.7%p 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 901,
+ "synth": "meta",
+ "why": "폐경과 유방암 환자의 안면홍조에 가바펜틴을 사용한 무작위시험을 합친 메타분석입니다.",
+ "saw": "7개 시험 901명을 검토하고 4개 무작위시험을 메타분석한 결과, 가바펜틴은 위약보다 안면홍조 빈도와 종합점수를 낮췄지만 연구 간 이질성이 컸습니다.",
+ "limit": "유방암 치료 중이거나 자연 폐경인 북미 여성 중심이며, 연구별 안면홍조 측정과 추적기간이 달랐습니다.",
+ "against": "이상반응으로 중도탈락은 가바펜틴군에서 더 많았고, 어지럼·불안정감·졸림이 자주 보고됐습니다.",
+ "use": "호르몬 치료가 어려운 안면홍조에서 효과 신호와 중추신경계 이상반응을 함께 비교해야 합니다.",
+ "refs": [
+  {
+   "label": "Reddy 2009 · Clin Ther · 안면홍조 무작위시험 메타분석",
+   "doi": "10.1016/j.clinthera.2009.02.006",
+   "pmid": "19302896"
+  },
+  {
+   "label": "Pandya 2005 · Lancet · 유방암 환자 420명 무작위시험",
+   "doi": "10.1016/S0140-6736(05)67215-7",
+   "pmid": "16139656"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:GABAPENTIN → 406건; 확인 라벨의 적응증은 성인 대상포진후신경통·부분발작 보조치료",
+  "ctgov": "query.intr=gabapentin&query.cond=Hot Flashes → 15건 반환, InterventionName 대조 후 gabapentin 일치 15건",
+  "pubmed": "gabapentin AND \"Hot Flashes\" → 187건",
+  "negative": "gabapentin AND \"Hot Flashes\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 150건",
+  "safety": "gabapentin AND \"Hot Flashes\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 84건"
+ },
+ "vs": "가바펜틴 vs 위약: 유방암 여성 420명 RCT에서 8주 열성홍조 중증도 감소율은 위약 15%, 가바펜틴 300mg 31%, 900mg 46%(전체 군 차이 P=.007)."
 }

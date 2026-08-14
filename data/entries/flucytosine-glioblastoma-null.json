@@ -1,27 +1,35 @@
 {
-  "id": "flucytosine-glioblastoma-null",
-  "subj": "플루시토신",
-  "claim": "플루시토신이 교모세포종을 치료한다",
-  "line": "재발 교모세포종에서 플루시토신을 추가해도 생존은 늘지 않았다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 403,
-  "synth": "single",
-  "why": "허가사항은 진균 감염이며 교모세포종 치료가 아닙니다. 플루시토신을 포함한 Toca 병용요법을 표준치료와 비교한 무작위 2·3상시험이 있습니다.",
-  "saw": "PMID 33119048·NCT02414165는 재발 교모세포종 또는 역형성 성상세포종 환자 403명을 무작위 배정했습니다. 플루시토신 병용군의 전체 생존과 다른 효능 지표는 표준치료군보다 좋아지지 않았습니다.",
-  "limit": "플루시토신 단독시험이 아니며 재발 고등급 교종의 특정 유전자치료 조합에 한정됩니다. 새로 진단된 교모세포종이나 다른 뇌종양으로 일반화할 수 없습니다.",
-  "against": "무작위시험에서 전체 생존 차이가 유의하지 않았고, 반대 검색 28건과 안전성 검색 18건을 확인했습니다.",
-  "use": "교모세포종에서 플루시토신은 병용요법의 생존 개선 실패 결과로 기록해야 합니다.",
-  "refs": [
-    { "label": "Cloughesy 2020 · 재발 교모세포종 플루시토신 병용요법 무작위시험", "pmid": "33119048", "nct": "NCT02414165" },
-    { "label": "Weller 2016 · 재발 고등급 교종 플루시토신 병용 1상시험", "pmid": "27252174" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"FLUCYTOSINE\" → 10건 반환; 허가 문구에 교모세포종 적응증 없음",
-    "ctgov": "query.intr=flucytosine&query.cond=Glioblastoma → 14건 반환, InterventionName 대조 후 5건",
-    "pubmed": "flucytosine Glioblastoma → 38건",
-    "negative": "flucytosine Glioblastoma (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 28건",
-    "safety": "flucytosine Glioblastoma (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 18건"
+ "id": "flucytosine-glioblastoma-null",
+ "subj": "플루시토신",
+ "claim": "플루시토신이 교모세포종을 치료한다",
+ "line": "재발 교모세포종에서 플루시토신을 추가해도 생존은 늘지 않았다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 403,
+ "synth": "single",
+ "why": "허가사항은 진균 감염이며 교모세포종 치료가 아닙니다. 플루시토신을 포함한 Toca 병용요법을 표준치료와 비교한 무작위 2·3상시험이 있습니다.",
+ "saw": "PMID 33119048·NCT02414165는 재발 교모세포종 또는 역형성 성상세포종 환자 403명을 무작위 배정했습니다. 플루시토신 병용군의 전체 생존과 다른 효능 지표는 표준치료군보다 좋아지지 않았습니다.",
+ "limit": "플루시토신 단독시험이 아니며 재발 고등급 교종의 특정 유전자치료 조합에 한정됩니다. 새로 진단된 교모세포종이나 다른 뇌종양으로 일반화할 수 없습니다.",
+ "against": "무작위시험에서 전체 생존 차이가 유의하지 않았고, 반대 검색 28건과 안전성 검색 18건을 확인했습니다.",
+ "use": "교모세포종에서 플루시토신은 병용요법의 생존 개선 실패 결과로 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "Cloughesy 2020 · 재발 교모세포종 플루시토신 병용요법 무작위시험",
+   "pmid": "33119048",
+   "nct": "NCT02414165"
+  },
+  {
+   "label": "Weller 2016 · 재발 고등급 교종 플루시토신 병용 1상시험",
+   "pmid": "27252174"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"FLUCYTOSINE\" → 10건 반환; 허가 문구에 교모세포종 적응증 없음",
+  "ctgov": "query.intr=flucytosine&query.cond=Glioblastoma → 14건 반환, InterventionName 대조 후 5건",
+  "pubmed": "flucytosine Glioblastoma → 38건",
+  "negative": "flucytosine Glioblastoma (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 28건",
+  "safety": "flucytosine Glioblastoma (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 18건"
+ },
+ "vs": "플루시토신 포함 Toca 511/FC vs 표준치료: 재발 고등급 교종 RCT 403명(201 vs 202)에서 중앙 생존 11.10개월 vs 12.22개월, HR 1.06(95% CI 0.83~1.35; P=.62)."
 }

@@ -1,31 +1,32 @@
 {
-  "id": "gabapentin-pruritus-pos",
-  "subj": "가바펜틴",
-  "claim": "가바펜틴은 요독성 가려움을 개선했다",
-  "line": "혈액투석 환자에서 가바펜틴 투여 뒤 요독성 가려움이 줄었다.",
-  "effect": "가려움 개선 RR 0.18",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 315,
-  "synth": "meta",
-  "why": "가바펜틴의 허가 적응증은 대상포진후신경통과 부분발작 보조치료이며 요독성 가려움은 아닙니다. 혈액투석 환자 무작위시험 메타분석을 확인했습니다.",
-  "saw": "혈액투석 환자 315명을 포함한 7개 연구의 메타분석에서 가바펜틴은 대조군보다 요독성 가려움 개선 가능성을 높였습니다. 어지럼·졸림 등 이상반응은 더 많았지만 유의하지 않았습니다.",
-  "limit": "가려움 점수 개선을 본 연구와 안전성 분석의 인원이 달랐고 투석 환자에 한정됩니다. 다른 원인의 가려움이나 장기 안전성으로 확대할 수 없습니다.",
-  "against": "반대 검색 43건에서 졸림·어지럼 등 이상반응과 연구 간 결과 차이를 확인했습니다.",
-  "use": "혈액투석 환자의 요독성 가려움에 대한 메타분석 신호로 기록하고 다른 가려움 원인에 일반화하지 않아야 합니다.",
-  "refs": [
-    {
-      "label": "2019 · 요독성 가려움 가바펜틴 무작위시험 메타분석",
-      "doi": "10.1111/ijd.14708",
-      "pmid": "31777066"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.generic_name:\"GABAPENTIN\" → 407건 반환; 대상포진후신경통·부분발작 적응증",
-    "ctgov": "query.intr=gabapentin&query.cond=Pruritus&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 7건",
-    "pubmed": "gabapentin AND \"Pruritus\" → 253건",
-    "negative": "gabapentin AND \"Pruritus\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 43건",
-    "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ "id": "gabapentin-pruritus-pos",
+ "subj": "가바펜틴",
+ "claim": "가바펜틴은 요독성 가려움을 개선했다",
+ "line": "혈액투석 환자에서 가바펜틴 투여 뒤 요독성 가려움이 줄었다.",
+ "effect": "가려움 개선 RR 0.18",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 315,
+ "synth": "meta",
+ "why": "가바펜틴의 허가 적응증은 대상포진후신경통과 부분발작 보조치료이며 요독성 가려움은 아닙니다. 혈액투석 환자 무작위시험 메타분석을 확인했습니다.",
+ "saw": "혈액투석 환자 315명을 포함한 7개 연구의 메타분석에서 가바펜틴은 대조군보다 요독성 가려움 개선 가능성을 높였습니다. 어지럼·졸림 등 이상반응은 더 많았지만 유의하지 않았습니다.",
+ "limit": "가려움 점수 개선을 본 연구와 안전성 분석의 인원이 달랐고 투석 환자에 한정됩니다. 다른 원인의 가려움이나 장기 안전성으로 확대할 수 없습니다.",
+ "against": "반대 검색 43건에서 졸림·어지럼 등 이상반응과 연구 간 결과 차이를 확인했습니다.",
+ "use": "혈액투석 환자의 요독성 가려움에 대한 메타분석 신호로 기록하고 다른 가려움 원인에 일반화하지 않아야 합니다.",
+ "refs": [
+  {
+   "label": "2019 · 요독성 가려움 가바펜틴 무작위시험 메타분석",
+   "doi": "10.1111/ijd.14708",
+   "pmid": "31777066"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.generic_name:\"GABAPENTIN\" → 407건 반환; 대상포진후신경통·부분발작 적응증",
+  "ctgov": "query.intr=gabapentin&query.cond=Pruritus&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 7건",
+  "pubmed": "gabapentin AND \"Pruritus\" → 253건",
+  "negative": "gabapentin AND \"Pruritus\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 43건",
+  "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
+ },
+ "vs": "가바펜틴 vs 위약/대조약: 혈액투석 환자 요독성 소양증 7개 RCT 315명 메타분석에서 소양증 결과 RR 0.18(95% CI 0.09~0.33; P<.00001), 이상반응 RR 1.30(0.81~2.11; P=.28)."
 }

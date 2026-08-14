@@ -1,29 +1,36 @@
 {
-  "id": "fludrocortisone-renal-failure-chronic-null",
-  "subj": "플루드로코르티손",
-  "claim": "플루드로코르티손이 혈액투석 중 저혈압을 막는다",
-  "line": "반복 저혈압으로 투석받는 환자에서 플루드로코르티손은 최저 혈압을 높이지 못했다.",
-  "effect": "MAP 76.1 vs 73.9; 무효",
-  "tier": "trial",
-  "dir": "null",
-  "n": 17,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "투석 중 저혈압 예방은 플루드로코르티손의 허가 적응증이 아닙니다.",
-  "why": "만성 혈액투석 환자를 무작위 교차시킨 시험에서 플루드로코르티손이 전체 환자의 투석 중 혈역학을 개선하지 못했습니다.",
-  "saw": "투석 중 저혈압이 반복된 환자 17명이 플루드로코르티손과 무치료를 번갈아 받은 무작위 교차시험에서 최저 투석 중 평균동맥압은 76.1 대 73.9mmHg로 유의한 차이가 없었고 저혈압 발생률도 차이가 없었습니다.",
-  "limit": "17명 단일기관 소규모 시험이며 당뇨병·잔여 신기능 하위군에서만 저혈압 감소 신호가 났습니다.",
-  "against": "초기 증례와 소규모 연구는 혈압 상승을 제시했지만 이 무작위시험의 전체 결과로 재현되지 않았습니다.",
-  "use": "하위군 신호와 전체 투석 환자에서의 음성 결과를 분리해 기록합니다.",
-  "refs": [
-    { "label": "투석 중 저혈압 플루드로코르티손 무작위 교차시험", "pmid": "36473430" },
-    { "label": "투석 환자 고칼륨혈증 플루드로코르티손 연구", "pmid": "28375568" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=fludrocortisone · cond=Renal Failure, Chronic → 1건 반환, 물질 대조 후 1건",
-    "pubmed": "fludrocortisone AND Renal Failure, Chronic → 40편",
-    "negative": "fludrocortisone AND Renal Failure, Chronic AND (no effect OR did not OR failed to OR negative OR no significant difference) → 22편",
-    "safety": "fludrocortisone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 981편"
+ "id": "fludrocortisone-renal-failure-chronic-null",
+ "subj": "플루드로코르티손",
+ "claim": "플루드로코르티손이 혈액투석 중 저혈압을 막는다",
+ "line": "반복 저혈압으로 투석받는 환자에서 플루드로코르티손은 최저 혈압을 높이지 못했다.",
+ "effect": "MAP 76.1 vs 73.9; 무효",
+ "tier": "trial",
+ "dir": "null",
+ "n": 17,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "투석 중 저혈압 예방은 플루드로코르티손의 허가 적응증이 아닙니다.",
+ "why": "만성 혈액투석 환자를 무작위 교차시킨 시험에서 플루드로코르티손이 전체 환자의 투석 중 혈역학을 개선하지 못했습니다.",
+ "saw": "투석 중 저혈압이 반복된 환자 17명이 플루드로코르티손과 무치료를 번갈아 받은 무작위 교차시험에서 최저 투석 중 평균동맥압은 76.1 대 73.9mmHg로 유의한 차이가 없었고 저혈압 발생률도 차이가 없었습니다.",
+ "limit": "17명 단일기관 소규모 시험이며 당뇨병·잔여 신기능 하위군에서만 저혈압 감소 신호가 났습니다.",
+ "against": "초기 증례와 소규모 연구는 혈압 상승을 제시했지만 이 무작위시험의 전체 결과로 재현되지 않았습니다.",
+ "use": "하위군 신호와 전체 투석 환자에서의 음성 결과를 분리해 기록합니다.",
+ "refs": [
+  {
+   "label": "투석 중 저혈압 플루드로코르티손 무작위 교차시험",
+   "pmid": "36473430"
+  },
+  {
+   "label": "투석 환자 고칼륨혈증 플루드로코르티손 연구",
+   "pmid": "28375568"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=fludrocortisone · cond=Renal Failure, Chronic → 1건 반환, 물질 대조 후 1건",
+  "pubmed": "fludrocortisone AND Renal Failure, Chronic → 40편",
+  "negative": "fludrocortisone AND Renal Failure, Chronic AND (no effect OR did not OR failed to OR negative OR no significant difference) → 22편",
+  "safety": "fludrocortisone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 981편"
+ },
+ "vs": "플루드로코르티손 vs 무처치: 혈액투석 중 저혈압 교차 RCT 17명에서 최저 투석 중 평균동맥압 76.1±12.5 vs 73.9±11.5mmHg(P=.331), 저혈압 발생 34.4% vs 42.7%(P=.137)."
 }
