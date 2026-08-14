@@ -1,28 +1,34 @@
 {
-  "id": "amoxicillin-gastritis-pos",
-  "subj": "amoxicillin",
-  "claim": "H. pylori 관련 위축성 위염에서 amoxicillin 포함 제균요법을 써서 위축을 개선한다",
-  "line": "위축성 위염에서 제균요법 후 위체부 위축 개선 비율은 48.4%였습니다.",
-  "effect": "위축 개선 48.4% vs 15.0%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 396,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "위축성 위염의 위축 개선은 amoxicillin의 허가 적응증이 아니다.",
-  "why": "초기 위암 또는 고도 선종을 내시경 절제한 환자에게 amoxicillin을 포함한 H. pylori 제균요법을 위약과 비교했다.",
-  "saw": "수정 ITT 396명에서 제균요법군의 위암 재발성 병변은 7.2%로 위약군 13.4%보다 적었고, 조직을 분석한 환자에서 위체부 위축 개선은 48.4% 대 15.0%였다.",
-  "limit": "초기 위암 절제 후 환자에 대한 시험이어서 일반 위염 환자에게 그대로 적용할 수 없다.",
-  "against": "제균요법군의 경미한 이상반응이 42.0%로 위약군 10.2%보다 많았다.",
-  "use": "H. pylori 관련 위축성 위염의 조직 변화에 대한 제균요법 근거로 제한해 사용한다.",
-  "refs": [
-    { "label": "Choi 2018 · New England Journal of Medicine · randomized trial", "doi": "10.1056/NEJMoa1708423", "pmid": "29562147", "nct": "NCT02407119" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "amoxicillin AND Gastritis; 40건",
-    "pubmed": "amoxicillin AND Gastritis; 1,033건",
-    "negative": "amoxicillin AND Gastritis AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 717건",
-    "safety": "amoxicillin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 6,777건"
+ "id": "amoxicillin-gastritis-pos",
+ "subj": "아목시실린",
+ "claim": "H. pylori 관련 위축성 위염에서 아목시실린 포함 제균요법을 써서 위축을 개선한다",
+ "line": "위축성 위염에서 제균요법 후 위체부 위축 개선 비율은 48.4%였습니다.",
+ "effect": "위축 개선 48.4% vs 15.0%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 396,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "위축성 위염의 위축 개선은 아목시실린의 허가 적응증이 아니다.",
+ "why": "초기 위암 또는 고도 선종을 내시경 절제한 환자에게 아목시실린을 포함한 H. pylori 제균요법을 위약과 비교했다.",
+ "saw": "수정 ITT 396명에서 제균요법군의 위암 재발성 병변은 7.2%로 위약군 13.4%보다 적었고, 조직을 분석한 환자에서 위체부 위축 개선은 48.4% 대 15.0%였다.",
+ "limit": "초기 위암 절제 후 환자에 대한 시험이어서 일반 위염 환자에게 그대로 적용할 수 없다.",
+ "against": "제균요법군의 경미한 이상반응이 42.0%로 위약군 10.2%보다 많았다.",
+ "use": "H. pylori 관련 위축성 위염의 조직 변화에 대한 제균요법 근거로 제한해 사용한다.",
+ "refs": [
+  {
+   "label": "Choi 2018 · New England Journal of Medicine · randomized trial",
+   "doi": "10.1056/NEJMoa1708423",
+   "pmid": "29562147",
+   "nct": "NCT02407119"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "amoxicillin AND Gastritis; 40건",
+  "pubmed": "amoxicillin AND Gastritis; 1,033건",
+  "negative": "amoxicillin AND Gastritis AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 717건",
+  "safety": "amoxicillin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 6,777건"
+ },
+ "vs": "아목시실린 포함 헬리코박터 제균요법 vs 위약: 5.9년 추적 중 이시성 위암 7.2% (14/194) vs 13.4% (27/202), HR 0.50 (95% CI 0.26~0.94), p=0.03; 위축 개선 48.4% vs 15.0%, p<0.001; RCT 470명"
 }

@@ -1,18 +1,32 @@
 {
-  "id": "amitriptyline-laryngeal-diseases-null",
-  "subj": "아미트립틸린",
-  "claim": "소규모 단일 연구에서 유발성 후두폐쇄에 아미트립틸린의 개선 효과는 확인되지 않았다",
-  "line": "유발성 후두폐쇄에 추가해도 호전되지 않았다.",
-  "effect": "VCDQ 37.35 vs 38.12",
-  "tier": "trial",
-  "dir": "null",
-  "n": 41,
-  "synth": "single",
-  "why": "후두경으로 진단한 유발성 후두폐쇄 성인을 언어치료와 아미트립틸린 병용 또는 위약 병용에 무작위 배정한 시험입니다.",
-  "saw": "41명을 무작위 배정하고 38명을 분석한 이중맹검시험에서 증상 심각도와 빈도는 두 군 사이에 유의한 차이가 없었고 양쪽 모두 언어치료 뒤 좋아졌습니다.",
-  "limit": "언어치료의 효과가 함께 들어간 소규모 시험이며, 아미트립틸린 단독 치료나 다른 후두질환에는 일반화할 수 없습니다.",
-  "against": "언어치료와 위약 병용군에서도 38명 중 28명이 증상 임상최소차이를 달성했습니다.",
-  "use": "유발성 후두폐쇄에서는 아미트립틸린 추가 효과보다 언어치료 결과를 먼저 봐야 합니다.",
-  "refs": [{"label": "2026 · J Allergy Clin Immunol Pract · 유발성 후두폐쇄 RCT·추가 이득 없음", "doi": "10.1016/j.jaip.2026.02.019", "pmid": "41870418"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화", "ctgov": "query.intr=amitriptyline&query.cond=Laryngeal Diseases → 2건 반환, InterventionName 대조 후 amitriptyline 일치 2건", "pubmed": "amitriptyline AND \"Laryngeal Diseases\" → 3건", "negative": "amitriptyline AND \"Laryngeal Diseases\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 1건", "safety": "amitriptyline AND \"Laryngeal Diseases\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 0건"}
+ "id": "amitriptyline-laryngeal-diseases-null",
+ "subj": "아미트립틸린",
+ "claim": "소규모 단일 연구에서 유발성 후두폐쇄에 아미트립틸린의 개선 효과는 확인되지 않았다",
+ "line": "유발성 후두폐쇄에 추가해도 호전되지 않았다.",
+ "effect": "VCDQ 37.35 vs 38.12",
+ "tier": "trial",
+ "dir": "null",
+ "n": 41,
+ "synth": "single",
+ "why": "후두경으로 진단한 유발성 후두폐쇄 성인을 언어치료와 아미트립틸린 병용 또는 위약 병용에 무작위 배정한 시험입니다.",
+ "saw": "41명을 무작위 배정하고 38명을 분석한 이중맹검시험에서 증상 심각도와 빈도는 두 군 사이에 유의한 차이가 없었고 양쪽 모두 언어치료 뒤 좋아졌습니다.",
+ "limit": "언어치료의 효과가 함께 들어간 소규모 시험이며, 아미트립틸린 단독 치료나 다른 후두질환에는 일반화할 수 없습니다.",
+ "against": "언어치료와 위약 병용군에서도 38명 중 28명이 증상 임상최소차이를 달성했습니다.",
+ "use": "유발성 후두폐쇄에서는 아미트립틸린 추가 효과보다 언어치료 결과를 먼저 봐야 합니다.",
+ "refs": [
+  {
+   "label": "2026 · J Allergy Clin Immunol Pract · 유발성 후두폐쇄 RCT·추가 이득 없음",
+   "doi": "10.1016/j.jaip.2026.02.019",
+   "pmid": "41870418"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화",
+  "ctgov": "query.intr=amitriptyline&query.cond=Laryngeal Diseases → 2건 반환, InterventionName 대조 후 amitriptyline 일치 2건",
+  "pubmed": "amitriptyline AND \"Laryngeal Diseases\" → 3건",
+  "negative": "amitriptyline AND \"Laryngeal Diseases\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 1건",
+  "safety": "amitriptyline AND \"Laryngeal Diseases\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 0건"
+ },
+ "vs": "아미트립틸린+언어병리치료 vs 위약+언어병리치료: 치료 후 VCDQ 37.35 (95% CI 32.54~42.17) vs 38.12 (33.31~42.94), p=0.82; 호흡곤란지수 15.96 (12.24~19.68) vs 16.52 (12.79~20.24), p=0.83; RCT 41명"
 }

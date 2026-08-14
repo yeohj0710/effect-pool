@@ -1,18 +1,37 @@
 {
-  "id": "amitriptyline-interstitial-cystitis-null",
-  "subj": "아미트립틸린",
-  "claim": "아미트립틸린이 간질성 방광염 증상을 개선한다",
-  "line": "치료 경험이 없는 방광통증 환자에서 아미트립틸린은 위약보다 증상을 개선하지 못했습니다.",
-  "effect": "반응 55% vs 45%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 271,
-  "synth": "single",
-  "why": "치료 경험이 없는 간질성 방광염·방광통증증후군 환자를 아미트립틸린과 위약에 무작위 배정한 다기관 시험입니다.",
-  "saw": "271명을 무작위 배정한 12주 시험에서 중등도 이상 호전은 아미트립틸린 55%, 위약 45%였지만 군간 차이가 유의하지 않았습니다.",
-  "limit": "전체 무작위 배정군에서는 유의하지 않았고, 일정 수준 이상 약을 복용한 사후 하위군에서만 차이가 나타났습니다.",
-  "against": "초기 단일기관 50명 시험은 증상·통증·절박뇨 개선을 보고했지만 표본이 작고 항콜린성 부작용이 많았습니다.",
-  "use": "치료 경험이 없는 간질성 방광염에서 아미트립틸린 효과를 확정하지 말고 하위군 결과와 부작용을 분리해 읽어야 합니다.",
-  "refs": [{"label": "Foster 2010 · J Urol · 간질성 방광염 다기관 RCT·음성 결과", "doi": "10.1016/j.juro.2009.12.106", "pmid": "20303115"}, {"label": "van Ophoven 2004 · J Urol · 간질성 방광염 소규모 RCT", "doi": "10.1097/01.ju.0000132388.54703.4d", "pmid": "15247722"}],
-  "queried": {"date": "2026-08-05", "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화", "ctgov": "query.intr=amitriptyline&query.cond=Interstitial Cystitis → 3건 반환, InterventionName 대조 후 amitriptyline 일치 3건", "pubmed": "amitriptyline AND \"Interstitial Cystitis\" → 77건", "negative": "amitriptyline AND \"Interstitial Cystitis\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 41건", "safety": "amitriptyline AND \"Interstitial Cystitis\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 14건"}
+ "id": "amitriptyline-interstitial-cystitis-null",
+ "subj": "아미트립틸린",
+ "claim": "아미트립틸린이 간질성 방광염 증상을 개선한다",
+ "line": "치료 경험이 없는 방광통증 환자에서 아미트립틸린은 위약보다 증상을 개선하지 못했습니다.",
+ "effect": "반응 55% vs 45%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 271,
+ "synth": "single",
+ "why": "치료 경험이 없는 간질성 방광염·방광통증증후군 환자를 아미트립틸린과 위약에 무작위 배정한 다기관 시험입니다.",
+ "saw": "271명을 무작위 배정한 12주 시험에서 중등도 이상 호전은 아미트립틸린 55%, 위약 45%였지만 군간 차이가 유의하지 않았습니다.",
+ "limit": "전체 무작위 배정군에서는 유의하지 않았고, 일정 수준 이상 약을 복용한 사후 하위군에서만 차이가 나타났습니다.",
+ "against": "초기 단일기관 50명 시험은 증상·통증·절박뇨 개선을 보고했지만 표본이 작고 항콜린성 부작용이 많았습니다.",
+ "use": "치료 경험이 없는 간질성 방광염에서 아미트립틸린 효과를 확정하지 말고 하위군 결과와 부작용을 분리해 읽어야 합니다.",
+ "refs": [
+  {
+   "label": "Foster 2010 · J Urol · 간질성 방광염 다기관 RCT·음성 결과",
+   "doi": "10.1016/j.juro.2009.12.106",
+   "pmid": "20303115"
+  },
+  {
+   "label": "van Ophoven 2004 · J Urol · 간질성 방광염 소규모 RCT",
+   "doi": "10.1097/01.ju.0000132388.54703.4d",
+   "pmid": "15247722"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화",
+  "ctgov": "query.intr=amitriptyline&query.cond=Interstitial Cystitis → 3건 반환, InterventionName 대조 후 amitriptyline 일치 3건",
+  "pubmed": "amitriptyline AND \"Interstitial Cystitis\" → 77건",
+  "negative": "amitriptyline AND \"Interstitial Cystitis\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 41건",
+  "safety": "amitriptyline AND \"Interstitial Cystitis\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 14건"
+ },
+ "vs": "아미트립틸린 vs 위약: 12주 중등도·현저한 증상 호전 55% vs 45%, p=0.12; 50mg 이상 복용 하위군 66% vs 47%, p=0.01; RCT 271명"
 }

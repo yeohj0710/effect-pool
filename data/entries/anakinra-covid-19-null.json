@@ -1,33 +1,34 @@
 {
-  "id": "anakinra-covid-19-null",
-  "subj": "아나킨라",
-  "claim": "아나킨라가 코로나19 폐렴의 악화를 막는다",
-  "line": "경증·중등도 코로나19 폐렴에서 아나킨라는 유익한 효과를 입증하지 못했습니다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 161,
-  "synth": "single",
-  "why": "CORIMUNO-ANA-1 무작위시험은 코로나19 폐렴 입원 환자 161명을 평가했지만 아나킨라의 임상적 유익성을 입증하지 못했습니다.",
-  "saw": "NCT04341584와 PubMed 원문은 경증에서 중등도 코로나19 폐렴 입원 환자를 대상으로 한 아나킨라 무작위시험을 보고했습니다. 시험은 완료됐고 주요 임상 결과에서 뚜렷한 유익성이 확인되지 않았습니다.",
-  "limit": "입원한 경증에서 중등도 폐렴 환자와 특정 유행 시기의 시험이며, 중증 코로나19나 코로나19 이후 증상에 대한 효과를 모두 평가한 결과는 아닙니다.",
-  "against": "반대 검색 263건과 안전성 검색 152건이 확인됐고, 다른 등록시험의 결과가 서로 달라 일관된 효과를 주장할 수 없습니다.",
-  "use": "코로나19에서 아나킨라는 허가 적응증으로 표시하지 말고, 무작위시험의 음성 결과와 추가 연구의 불확실성을 함께 설명합니다.",
-  "refs": [
-    {
-      "label": "CORIMUNO-19 Collaborative Group 2021 · Lancet Respiratory Medicine · 무작위시험 · 음성 결과",
-      "pmid": "33493450"
-    },
-    {
-      "label": "NCT04341584 · 코로나19 감염 아나킨라 CORIMUNO-ANA 시험 · 완료",
-      "nct": "NCT04341584"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.generic_name:anakinra → 1건; 류마티스관절염·NOMID·DIRA 표시, 코로나19 적응증 문구 없음",
-    "ctgov": "intr=anakinra, cond=COVID-19 → 27건 반환, InterventionName 대조 후 anakinra 20건",
-    "pubmed": "anakinra COVID-19 → 519건",
-    "negative": "anakinra COVID-19 (no effect OR did not OR failed to OR negative OR no significant difference) → 263건",
-    "safety": "anakinra COVID-19 (adverse OR toxicity OR case report) → 152건"
+ "id": "anakinra-covid-19-null",
+ "subj": "아나킨라",
+ "claim": "아나킨라가 코로나19 폐렴의 악화를 막는다",
+ "line": "경증·중등도 코로나19 폐렴에서 아나킨라는 유익한 효과를 입증하지 못했습니다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 161,
+ "synth": "single",
+ "why": "CORIMUNO-ANA-1 무작위시험은 코로나19 폐렴 입원 환자 161명을 평가했지만 아나킨라의 임상적 유익성을 입증하지 못했습니다.",
+ "saw": "NCT04341584와 PubMed 원문은 경증에서 중등도 코로나19 폐렴 입원 환자를 대상으로 한 아나킨라 무작위시험을 보고했습니다. 시험은 완료됐고 주요 임상 결과에서 뚜렷한 유익성이 확인되지 않았습니다.",
+ "limit": "입원한 경증에서 중등도 폐렴 환자와 특정 유행 시기의 시험이며, 중증 코로나19나 코로나19 이후 증상에 대한 효과를 모두 평가한 결과는 아닙니다.",
+ "against": "반대 검색 263건과 안전성 검색 152건이 확인됐고, 다른 등록시험의 결과가 서로 달라 일관된 효과를 주장할 수 없습니다.",
+ "use": "코로나19에서 아나킨라는 허가 적응증으로 표시하지 말고, 무작위시험의 음성 결과와 추가 연구의 불확실성을 함께 설명합니다.",
+ "refs": [
+  {
+   "label": "CORIMUNO-19 Collaborative Group 2021 · Lancet Respiratory Medicine · 무작위시험 · 음성 결과",
+   "pmid": "33493450"
+  },
+  {
+   "label": "NCT04341584 · 코로나19 감염 아나킨라 CORIMUNO-ANA 시험 · 완료",
+   "nct": "NCT04341584"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.generic_name:anakinra → 1건; 류마티스관절염·NOMID·DIRA 표시, 코로나19 적응증 문구 없음",
+  "ctgov": "intr=anakinra, cond=COVID-19 → 27건 반환, InterventionName 대조 후 anakinra 20건",
+  "pubmed": "anakinra COVID-19 → 519건",
+  "negative": "anakinra COVID-19 (no effect OR did not OR failed to OR negative OR no significant difference) → 263건",
+  "safety": "anakinra COVID-19 (adverse OR toxicity OR case report) → 152건"
+ },
+ "vs": "아나킨라+일반치료 vs 일반치료: 4일 WHO-CPS 5 초과 36% (21/59) vs 38% (21/55), 절대위험차 -2.5% (90% CrI -17.1~12.0); 14일 사망 또는 호흡보조 47% vs 51%, HR 0.97 (90% CrI 0.62~1.52); 중대한 이상반응 46% vs 38%; RCT 116명"
 }

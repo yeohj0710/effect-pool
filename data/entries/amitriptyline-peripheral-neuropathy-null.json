@@ -1,36 +1,37 @@
 {
-  "id": "amitriptyline-peripheral-neuropathy-null",
-  "subj": "아미트립틸린",
-  "claim": "아미트립틸린이 당뇨병성 말초신경병증 통증을 줄인다",
-  "line": "당뇨병성 말초신경병증에서 아미트립틸린의 50% 통증 완화 효과는 뚜렷하지 않았습니다.",
-  "effect": "50% 통증완화 RR 0.98",
-  "tier": "trial",
-  "dir": "null",
-  "n": 11883,
-  "synth": "meta",
-  "why": "당뇨병성 말초신경병증 약물 무작위시험을 합친 메타분석에서 아미트립틸린의 50% 통증완화 추정치가 뚜렷한 이득을 보이지 않았습니다.",
-  "saw": "58개 연구 11,883명을 합친 메타분석에서 아미트립틸린의 50% 통증완화 상대위험은 0.98(95% 구간 0.56~1.52)이었습니다.",
-  "limit": "합산 인원은 여러 약물의 전체 표본이며 아미트립틸린 단독 표본이 아닙니다. 네트워크 비교와 직접 비교의 불확실성도 큽니다.",
-  "against": "다른 네트워크 메타분석은 삼환계 항우울제와 아미트립틸린이 위약보다 단기 통증을 줄였다고 추정했지만 간접 비교와 연구 위험이 컸습니다.",
-  "use": "당뇨병성 말초신경병증에서 아미트립틸린 효과를 확정하지 말고 직접 비교와 부작용을 함께 확인해야 합니다.",
-  "refs": [
-    {
-      "label": "Griebeler 2014 · Pain Pract · 당뇨병성 신경병증 약물 메타분석",
-      "doi": "10.1111/papr.12054",
-      "pmid": "23534696"
-    },
-    {
-      "label": "Raskin 2014 · Ann Intern Med · 당뇨병성 신경병증 네트워크 메타분석",
-      "doi": "10.7326/M14-0511",
-      "pmid": "25364885"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화",
-    "ctgov": "query.intr=amitriptyline&query.cond=Peripheral Neuropathy → 27건 반환, InterventionName 대조 후 amitriptyline 일치 14건",
-    "pubmed": "amitriptyline AND \"Peripheral Neuropathy\" → 107건",
-    "negative": "amitriptyline AND \"Peripheral Neuropathy\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 85건",
-    "safety": "amitriptyline AND \"Peripheral Neuropathy\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 66건"
+ "id": "amitriptyline-peripheral-neuropathy-null",
+ "subj": "아미트립틸린",
+ "claim": "아미트립틸린이 당뇨병성 말초신경병증 통증을 줄인다",
+ "line": "당뇨병성 말초신경병증에서 아미트립틸린의 50% 통증 완화 효과는 뚜렷하지 않았습니다.",
+ "effect": "50% 통증완화 RR 0.98",
+ "tier": "trial",
+ "dir": "null",
+ "n": 11883,
+ "synth": "meta",
+ "why": "당뇨병성 말초신경병증 약물 무작위시험을 합친 메타분석에서 아미트립틸린의 50% 통증완화 추정치가 뚜렷한 이득을 보이지 않았습니다.",
+ "saw": "58개 연구 11,883명을 합친 메타분석에서 아미트립틸린의 50% 통증완화 상대위험은 0.98(95% 구간 0.56~1.52)이었습니다.",
+ "limit": "합산 인원은 여러 약물의 전체 표본이며 아미트립틸린 단독 표본이 아닙니다. 네트워크 비교와 직접 비교의 불확실성도 큽니다.",
+ "against": "다른 네트워크 메타분석은 삼환계 항우울제와 아미트립틸린이 위약보다 단기 통증을 줄였다고 추정했지만 간접 비교와 연구 위험이 컸습니다.",
+ "use": "당뇨병성 말초신경병증에서 아미트립틸린 효과를 확정하지 말고 직접 비교와 부작용을 함께 확인해야 합니다.",
+ "refs": [
+  {
+   "label": "Griebeler 2014 · Pain Pract · 당뇨병성 신경병증 약물 메타분석",
+   "doi": "10.1111/papr.12054",
+   "pmid": "23534696"
+  },
+  {
+   "label": "Raskin 2014 · Ann Intern Med · 당뇨병성 신경병증 네트워크 메타분석",
+   "doi": "10.7326/M14-0511",
+   "pmid": "25364885"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:AMITRIPTYLINE → 121건; 확인 라벨의 적응증은 우울증 증상 완화",
+  "ctgov": "query.intr=amitriptyline&query.cond=Peripheral Neuropathy → 27건 반환, InterventionName 대조 후 amitriptyline 일치 14건",
+  "pubmed": "amitriptyline AND \"Peripheral Neuropathy\" → 107건",
+  "negative": "amitriptyline AND \"Peripheral Neuropathy\" AND (no effect OR did not OR failed OR negative OR \"no significant difference\") → 85건",
+  "safety": "amitriptyline AND \"Peripheral Neuropathy\" AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 66건"
+ },
+ "vs": "아미트립틸린 vs 위약: 당뇨병성 신경병증 통증 50% 이상 완화 RR 0.98 (95% CrI 0.56~1.52); 통증 점수 네트워크 메타분석 TCA SMD -0.78 (95% CrI -1.24~-0.33), 아미트립틸린 SMD -0.72 (-1.35~-0.08); RCT 메타분석"
 }

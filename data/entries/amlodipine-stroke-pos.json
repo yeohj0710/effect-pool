@@ -1,20 +1,33 @@
 {
-  "id": "amlodipine-stroke-pos",
-  "subj": "amlodipine",
-  "claim": "amlodipine 기반 치료를 고혈압 환자의 뇌졸중 예방에 쓴다",
-  "line": "고혈압에서 암로디핀 기반 요법은 아테놀롤 기반보다 뇌졸중 위험을 낮췄습니다.",
-  "effect": "뇌졸중 HR 0.77",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 19257,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "뇌졸중 예방은 amlodipine의 허가 적응증이 아니며 혈압 치료 적응증과 구분됩니다",
-  "why": "ASCOT-BPLA에서 고혈압과 심혈관 위험요인이 있는 환자에게 amlodipine 기반 요법과 atenolol 기반 요법을 비교했습니다",
-  "saw": "19,257명에서 치명적·비치명적 뇌졸중은 amlodipine 기반군 327건, atenolol 기반군 422건, HR 0.77이었습니다",
-  "limit": "amlodipine 단독이 아니라 필요시 perindopril을 더한 병용요법입니다",
-  "against": "비교군의 혈압 차이와 병용약 차이가 결과에 기여했을 수 있습니다",
-  "use": "amlodipine 기반 혈압요법의 뇌졸중 신호로 기록하고 단독 예방효과로 확대하지 않습니다",
-  "refs": [{ "label": "2005 ASCOT-BPLA 무작위시험", "doi": "10.1016/S0140-6736(05)67185-1", "pmid": "16154016" }],
-  "queried": { "date": "2026-08-08", "ctgov": "amlodipine AND Stroke; 22건", "pubmed": "ASCOT amlodipine atenolol stroke; PMID 16154016", "negative": "amlodipine AND stroke AND no difference; ASCOT 확인", "safety": "amlodipine AND stroke AND adverse; ASCOT 확인" }
+ "id": "amlodipine-stroke-pos",
+ "subj": "암로디핀",
+ "claim": "암로디핀 기반 치료를 고혈압 환자의 뇌졸중 예방에 쓴다",
+ "line": "고혈압에서 암로디핀 기반 요법은 아테놀롤 기반보다 뇌졸중 위험을 낮췄습니다.",
+ "effect": "뇌졸중 HR 0.77",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 19257,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "뇌졸중 예방은 암로디핀의 허가 적응증이 아니며 혈압 치료 적응증과 구분됩니다",
+ "why": "ASCOT-BPLA에서 고혈압과 심혈관 위험요인이 있는 환자에게 암로디핀 기반 요법과 atenolol 기반 요법을 비교했습니다",
+ "saw": "19,257명에서 치명적·비치명적 뇌졸중은 암로디핀 기반군 327건, atenolol 기반군 422건, HR 0.77이었습니다",
+ "limit": "암로디핀 단독이 아니라 필요시 perindopril을 더한 병용요법입니다",
+ "against": "비교군의 혈압 차이와 병용약 차이가 결과에 기여했을 수 있습니다",
+ "use": "암로디핀 기반 혈압요법의 뇌졸중 신호로 기록하고 단독 예방효과로 확대하지 않습니다",
+ "refs": [
+  {
+   "label": "2005 ASCOT-BPLA 무작위시험",
+   "doi": "10.1016/S0140-6736(05)67185-1",
+   "pmid": "16154016"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "amlodipine AND Stroke; 22건",
+  "pubmed": "ASCOT amlodipine atenolol stroke; PMID 16154016",
+  "negative": "amlodipine AND stroke AND no difference; ASCOT 확인",
+  "safety": "amlodipine AND stroke AND adverse; ASCOT 확인"
+ },
+ "vs": "암로디핀 기반요법 vs 아테놀롤 기반요법: 치명적·비치명적 뇌졸중 327건 vs 422건, HR 0.77 (95% CI 0.66~0.89), p=0.0003; RCT 19,257명"
 }
