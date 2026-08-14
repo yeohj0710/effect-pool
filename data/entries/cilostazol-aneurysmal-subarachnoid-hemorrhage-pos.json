@@ -1,20 +1,38 @@
 {
-  "id": "cilostazol-aneurysmal-subarachnoid-hemorrhage-pos",
-  "subj": "cilostazol",
-  "claim": "cilostazol을 동맥류성 지주막하출혈 뒤 혈관연축 예방에 쓴다",
-  "line": "동맥류성 지주막하출혈 후 실로스타졸 투여는 혈관연축과 뇌경색을 줄였다.",
-  "effect": "혈관연축 OR 0.35",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 405,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "동맥류성 지주막하출혈은 cilostazol의 허가 적응증이 아니다",
-  "why": "지주막하출혈 환자에서 cilostazol의 혈관연축과 기능 예후를 평가한 무작위시험을 합친 결과입니다",
-  "saw": "무작위시험 4건 405명에서 증상성 혈관연축 OR 0.35, 뇌경색 OR 0.40, mRS 0-2 OR 2.70이었다",
-  "limit": "시험 대부분이 아시아에서 시행됐고 용량과 표준치료가 달랐다",
-  "against": "중증 혈관조영 혈관연축 감소는 유의하지 않았다",
-  "use": "지주막하출혈 뒤 혈관연축 예방의 탐색적 근거로 기록한다",
-  "refs": [{ "label": "2021 · 지주막하출혈 무작위시험 메타분석", "doi": "10.1016/j.jocn.2021.04.044", "pmid": "34119285" }, { "label": "2022 · 동맥류성 지주막하출혈 업데이트 메타분석", "doi": "10.1159/000518731", "pmid": "35288494" }],
-  "queried": { "date": "2026-08-08", "ctgov": "cilostazol AND Aneurysmal Subarachnoid Hemorrhage; 3건", "pubmed": "cilostazol AND subarachnoid hemorrhage; 무작위시험 메타분석 확인", "negative": "cilostazol AND subarachnoid hemorrhage AND no effect; 결과 혼재 확인", "safety": "cilostazol AND subarachnoid hemorrhage AND adverse; 이상반응 증가 근거 없음" }
+ "id": "cilostazol-aneurysmal-subarachnoid-hemorrhage-pos",
+ "subj": "실로스타졸",
+ "claim": "실로스타졸을 동맥류성 지주막하출혈 뒤 혈관연축 예방에 쓴다",
+ "line": "동맥류성 지주막하출혈 후 실로스타졸 투여는 혈관연축과 뇌경색을 줄였다.",
+ "effect": "혈관연축 OR 0.35",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 405,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "동맥류성 지주막하출혈은 실로스타졸의 허가 적응증이 아니다",
+ "why": "지주막하출혈 환자에서 실로스타졸의 혈관연축과 기능 예후를 평가한 무작위시험을 합친 결과입니다",
+ "saw": "무작위시험 4건 405명에서 증상성 혈관연축 OR 0.35, 뇌경색 OR 0.40, mRS 0-2 OR 2.70이었다",
+ "limit": "시험 대부분이 아시아에서 시행됐고 용량과 표준치료가 달랐다",
+ "against": "중증 혈관조영 혈관연축 감소는 유의하지 않았다",
+ "use": "지주막하출혈 뒤 혈관연축 예방의 탐색적 근거로 기록한다",
+ "refs": [
+  {
+   "label": "2021 · 지주막하출혈 무작위시험 메타분석",
+   "doi": "10.1016/j.jocn.2021.04.044",
+   "pmid": "34119285"
+  },
+  {
+   "label": "2022 · 동맥류성 지주막하출혈 업데이트 메타분석",
+   "doi": "10.1159/000518731",
+   "pmid": "35288494"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "cilostazol AND Aneurysmal Subarachnoid Hemorrhage; 3건",
+  "pubmed": "cilostazol AND subarachnoid hemorrhage; 무작위시험 메타분석 확인",
+  "negative": "cilostazol AND subarachnoid hemorrhage AND no effect; 결과 혼재 확인",
+  "safety": "cilostazol AND subarachnoid hemorrhage AND adverse; 이상반응 증가 근거 없음"
+ },
+ "vs": "실로스타졸 vs 대조군: 증상성 혈관경련 OR .35 (95% CI .21~.60), 뇌경색 OR .40 (.22~.73), mRS≤2 OR 2.70 (1.09~6.71); 4개 무작위시험 405명"
 }

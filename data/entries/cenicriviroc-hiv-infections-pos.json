@@ -1,29 +1,37 @@
 {
-  "id": "cenicriviroc-hiv-infections-pos",
-  "subj": "cenicriviroc",
-  "claim": "치료로 HIV가 억제된 사람의 섬유화 표지 감소에 cenicriviroc를 쓴다",
-  "line": "억제된 HIV 감염에서 세니크리비록 24주 뒤 혈장 섬유화 표지가 낮아졌다.",
-  "effect": "TGF-β1 −0.74; TSP 감소",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "cenicriviroc은 HIV 감염 치료 허가를 받지 않은 CCR2/CCR5 시험 약물입니다.",
-  "why": "항레트로바이러스 치료로 바이러스가 억제된 HIV 감염에서 cenicriviroc이 지속되는 섬유화 표지를 줄이는지 확인합니다.",
-  "saw": "항레트로바이러스 치료 중 바이러스가 검출되지 않는 HIV 감염자를 대상으로 한 24주 공개시험에서 TGF-β1 중앙값은 0.74 ng/mL, TSP-1은 52.12 ng/mL, I형 콜라겐 C-말단 전구펩타이드(CICP)는 28.12 ng/mL 낮아졌고 IL-11은 28.98 pg/mL 높아졌습니다. TSP-1을 제외한 표지는 HIV 음성 대조군과 비슷해졌습니다.",
-  "limit": "기존 공개시험의 보관 혈장을 분석한 관찰 자료이며, 초록에 전체 HIV 참가자 수와 무작위 대조군이 제시되지 않았습니다.",
-  "against": "TSP-1은 24주 뒤에도 HIV 음성 대조군보다 높았고, 혈장 표지 변화가 장기 임상 결과 개선을 뜻하는지는 확인되지 않았습니다.",
-  "use": "치료 중 HIV 감염의 잔여 섬유화·염증 표지 연구에 사용할 수 있지만 HIV 자체를 치료하거나 임상 사건을 줄인다고 말할 수 없습니다.",
-  "refs": [
-    { "label": "HIV 감염자의 cenicriviroc 24주 혈장 섬유화 표지 연구", "doi": "10.1080/25787489.2020.1719319", "pmid": "32013805" },
-    { "label": "HIV-1 관련 성상세포·혈관내피 상호작용의 cenicriviroc 전임상 연구", "doi": "10.1152/ajpcell.00600.2023", "pmid": "38145295" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "cenicriviroc AND HIV Infections — NCT02128828, NCT05630885 직접 확인",
-    "pubmed": "cenicriviroc AND HIV AND fibrotic biomarkers — PMID 32013805",
-    "negative": "cenicriviroc AND HIV AND (no effect OR failed OR did not)",
-    "safety": "cenicriviroc AND HIV AND (adverse OR safety)"
+ "id": "cenicriviroc-hiv-infections-pos",
+ "subj": "세니크리비록",
+ "claim": "치료로 HIV가 억제된 사람의 섬유화 표지 감소에 세니크리비록를 쓴다",
+ "line": "억제된 HIV 감염에서 세니크리비록 24주 뒤 혈장 섬유화 표지가 낮아졌다.",
+ "effect": "TGF-β1 −0.74; TSP 감소",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "세니크리비록은 HIV 감염 치료 허가를 받지 않은 CCR2/CCR5 시험 약물입니다.",
+ "why": "항레트로바이러스 치료로 바이러스가 억제된 HIV 감염에서 세니크리비록이 지속되는 섬유화 표지를 줄이는지 확인합니다.",
+ "saw": "항레트로바이러스 치료 중 바이러스가 검출되지 않는 HIV 감염자를 대상으로 한 24주 공개시험에서 TGF-β1 중앙값은 0.74 ng/mL, TSP-1은 52.12 ng/mL, I형 콜라겐 C-말단 전구펩타이드(CICP)는 28.12 ng/mL 낮아졌고 IL-11은 28.98 pg/mL 높아졌습니다. TSP-1을 제외한 표지는 HIV 음성 대조군과 비슷해졌습니다.",
+ "limit": "기존 공개시험의 보관 혈장을 분석한 관찰 자료이며, 초록에 전체 HIV 참가자 수와 무작위 대조군이 제시되지 않았습니다.",
+ "against": "TSP-1은 24주 뒤에도 HIV 음성 대조군보다 높았고, 혈장 표지 변화가 장기 임상 결과 개선을 뜻하는지는 확인되지 않았습니다.",
+ "use": "치료 중 HIV 감염의 잔여 섬유화·염증 표지 연구에 사용할 수 있지만 HIV 자체를 치료하거나 임상 사건을 줄인다고 말할 수 없습니다.",
+ "refs": [
+  {
+   "label": "HIV 감염자의 cenicriviroc 24주 혈장 섬유화 표지 연구",
+   "doi": "10.1080/25787489.2020.1719319",
+   "pmid": "32013805"
+  },
+  {
+   "label": "HIV-1 관련 성상세포·혈관내피 상호작용의 cenicriviroc 전임상 연구",
+   "doi": "10.1152/ajpcell.00600.2023",
+   "pmid": "38145295"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "cenicriviroc AND HIV Infections — NCT02128828, NCT05630885 직접 확인",
+  "pubmed": "cenicriviroc AND HIV AND fibrotic biomarkers — PMID 32013805",
+  "negative": "cenicriviroc AND HIV AND (no effect OR failed OR did not)",
+  "safety": "cenicriviroc AND HIV AND (adverse OR safety)"
+ }
 }

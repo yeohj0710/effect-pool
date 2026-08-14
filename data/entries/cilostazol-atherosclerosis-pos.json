@@ -1,29 +1,36 @@
 {
-  "id": "cilostazol-atherosclerosis-pos",
-  "subj": "실로스타졸",
-  "claim": "실로스타졸을 죽상경화 진행과 경동맥 내막 두께 감소에 쓴다",
-  "line": "실로스타졸은 경동맥 내막·중막 두께와 혈관 위험 지표를 개선했지만 두통을 늘렸다.",
-  "effect": "경동맥 IMT MD -0.12mm",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1577,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "실로스타졸 허가사항은 간헐성 파행이고 일반 죽상경화 진행 억제는 포함하지 않는다.",
-  "why": "죽상경화 환자에서 실로스타졸과 대조약을 비교한 무작위시험을 합친 메타분석입니다.",
-  "saw": "무작위시험 10개, 1,577명에서 실로스타졸은 경동맥 내막·중막 두께를 평균 0.12mm 줄였고, 중성지방을 낮추고 HDL을 높였다. 두통 위험은 OR 12.91로 증가했다.",
-  "limit": "경동맥 내막 두께는 대리지표이고 시험마다 대상 혈관질환·병용 항혈소판제가 달랐으며, 심근경색·전체 사망 이득은 확립되지 않았다.",
-  "against": "죽상경화성 심혈관질환 지침에서 일반적인 죽상경화 억제제로 널리 권고되는 것은 아니며 두통·빈맥 위험을 고려해야 한다.",
-  "use": "죽상경화 대리지표 개선 신호로만 해석하고 실로스타졸 허가 용도를 넘어 일반 예방약으로 사용하지 않습니다.",
-  "refs": [
-    { "label": "실로스타졸 죽상경화 무작위시험 메타분석", "pmid": "35255053" },
-    { "label": "죽상혈전증 실로스타졸 혈관사건 메타분석", "pmid": "19900653" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=cilostazol · cond=Atherosclerosis · 총 34건, 실로스타졸 직접 확인 26건",
-    "pubmed": "cilostazol AND Atherosclerosis · 349편",
-    "negative": "cilostazol AND Atherosclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 263편",
-    "safety": "cilostazol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 880편"
+ "id": "cilostazol-atherosclerosis-pos",
+ "subj": "실로스타졸",
+ "claim": "실로스타졸을 죽상경화 진행과 경동맥 내막 두께 감소에 쓴다",
+ "line": "실로스타졸은 경동맥 내막·중막 두께와 혈관 위험 지표를 개선했지만 두통을 늘렸다.",
+ "effect": "경동맥 IMT MD -0.12mm",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1577,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "실로스타졸 허가사항은 간헐성 파행이고 일반 죽상경화 진행 억제는 포함하지 않는다.",
+ "why": "죽상경화 환자에서 실로스타졸과 대조약을 비교한 무작위시험을 합친 메타분석입니다.",
+ "saw": "무작위시험 10개, 1,577명에서 실로스타졸은 경동맥 내막·중막 두께를 평균 0.12mm 줄였고, 중성지방을 낮추고 HDL을 높였다. 두통 위험은 OR 12.91로 증가했다.",
+ "limit": "경동맥 내막 두께는 대리지표이고 시험마다 대상 혈관질환·병용 항혈소판제가 달랐으며, 심근경색·전체 사망 이득은 확립되지 않았다.",
+ "against": "죽상경화성 심혈관질환 지침에서 일반적인 죽상경화 억제제로 널리 권고되는 것은 아니며 두통·빈맥 위험을 고려해야 한다.",
+ "use": "죽상경화 대리지표 개선 신호로만 해석하고 실로스타졸 허가 용도를 넘어 일반 예방약으로 사용하지 않습니다.",
+ "refs": [
+  {
+   "label": "실로스타졸 죽상경화 무작위시험 메타분석",
+   "pmid": "35255053"
+  },
+  {
+   "label": "죽상혈전증 실로스타졸 혈관사건 메타분석",
+   "pmid": "19900653"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=cilostazol · cond=Atherosclerosis · 총 34건, 실로스타졸 직접 확인 26건",
+  "pubmed": "cilostazol AND Atherosclerosis · 349편",
+  "negative": "cilostazol AND Atherosclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 263편",
+  "safety": "cilostazol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 880편"
+ },
+ "vs": "실로스타졸 vs 대조군: 경동맥 내중막 두께 MD -.12mm (95% CI -.17~-.06), 위약 대비 MD -.04mm (-.06~-.02), 두통 OR 12.91 (5.33~31.29); 10개 무작위시험 1,577명"
 }

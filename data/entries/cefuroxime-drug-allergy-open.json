@@ -1,29 +1,37 @@
 {
-  "id": "cefuroxime-drug-allergy-open",
-  "subj": "cefuroxime",
-  "claim": "약물 알레르기 평가에 세푸록심을 쓴다",
-  "line": "세푸록심 의심 약물 알레르기는 피부검사만으로 확정하기 어려웠고 약물유발시험이 필요했다.",
-  "effect": "유발시험 추가 진단·확정 과민반응 25.8%",
-  "tier": "obs",
-  "dir": "open",
-  "n": 89,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "세푸록심의 FDA 허가 적응증은 감수성 세균 감염이며 약물 알레르기 진단을 위한 피부검사·약물유발시험 사용은 허가 적응증이 아니다.",
-  "why": "수술 전후 세푸록심 노출 뒤 과민반응이 의심된 환자에서 세푸록심이 원인인지 피부검사·체외검사·약물유발시험으로 확인하는 진단 근거를 살폈다.",
-  "saw": "수술 전후 세푸록심 과민반응이 의심된 성인 89명 중 23명(25.8%)이 두 가지 이상 검사 또는 유발시험으로 세푸록심 과민반응이 확정됐다. 확정 환자 22명은 투여 15분 안에 반응했지만 음성군도 65.5%가 그 시간 안에 반응해 시간만으로 원인을 가릴 수 없었다. 피부검사 양성 환자는 유발시험이 모두 양성이었고 8명은 피부검사 음성인데 유발시험만 양성이었다.",
-  "limit": "단일 알레르기센터 관찰 연구이고 의심 환자만 포함했으며 유발시험은 중증 반응 위험 때문에 전문기관에서 제한적으로 시행해야 한다.",
-  "against": "피부검사나 특정 IgE만으로 세푸록심 원인을 확정할 수 없었고, 세팔로스포린 알레르기 진단 전략은 검사 기준과 환자군에 따라 달라진다.",
-  "use": "세푸록심 알레르기 병력을 약물 알레르기로 단정하지 말고 알레르기 전문기관에서 병력·피부검사와 필요 시 유발시험을 함께 판단한다.",
-  "refs": [
-    { "label": "수술 전후 세푸록심 과민반응 89명 진단 연구", "doi": "10.1111/cea.12455", "pmid": "25395022" },
-    { "label": "세팔로스포린 알레르기 211명 피부검사·유발시험 전향 등록자료", "doi": "10.1111/all.70120", "pmid": "41221718" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "cefuroxime AND Drug Allergy · 18건 반환, InterventionName 완전일치 2건(NCT07492134, NCT05784311)",
-    "pubmed": "cefuroxime AND Drug Allergy · 182편",
-    "negative": "cefuroxime AND Drug Allergy AND (no effect OR did not OR failed OR negative OR no significant difference) · 155편",
-    "safety": "cefuroxime AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1,511편"
+ "id": "cefuroxime-drug-allergy-open",
+ "subj": "세푸록심",
+ "claim": "약물 알레르기 평가에 세푸록심을 쓴다",
+ "line": "세푸록심 의심 약물 알레르기는 피부검사만으로 확정하기 어려웠고 약물유발시험이 필요했다.",
+ "effect": "유발시험 추가 진단·확정 과민반응 25.8%",
+ "tier": "obs",
+ "dir": "open",
+ "n": 89,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "세푸록심의 FDA 허가 적응증은 감수성 세균 감염이며 약물 알레르기 진단을 위한 피부검사·약물유발시험 사용은 허가 적응증이 아니다.",
+ "why": "수술 전후 세푸록심 노출 뒤 과민반응이 의심된 환자에서 세푸록심이 원인인지 피부검사·체외검사·약물유발시험으로 확인하는 진단 근거를 살폈다.",
+ "saw": "수술 전후 세푸록심 과민반응이 의심된 성인 89명 중 23명(25.8%)이 두 가지 이상 검사 또는 유발시험으로 세푸록심 과민반응이 확정됐다. 확정 환자 22명은 투여 15분 안에 반응했지만 음성군도 65.5%가 그 시간 안에 반응해 시간만으로 원인을 가릴 수 없었다. 피부검사 양성 환자는 유발시험이 모두 양성이었고 8명은 피부검사 음성인데 유발시험만 양성이었다.",
+ "limit": "단일 알레르기센터 관찰 연구이고 의심 환자만 포함했으며 유발시험은 중증 반응 위험 때문에 전문기관에서 제한적으로 시행해야 한다.",
+ "against": "피부검사나 특정 IgE만으로 세푸록심 원인을 확정할 수 없었고, 세팔로스포린 알레르기 진단 전략은 검사 기준과 환자군에 따라 달라진다.",
+ "use": "세푸록심 알레르기 병력을 약물 알레르기로 단정하지 말고 알레르기 전문기관에서 병력·피부검사와 필요 시 유발시험을 함께 판단한다.",
+ "refs": [
+  {
+   "label": "수술 전후 세푸록심 과민반응 89명 진단 연구",
+   "doi": "10.1111/cea.12455",
+   "pmid": "25395022"
+  },
+  {
+   "label": "세팔로스포린 알레르기 211명 피부검사·유발시험 전향 등록자료",
+   "doi": "10.1111/all.70120",
+   "pmid": "41221718"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "cefuroxime AND Drug Allergy · 18건 반환, InterventionName 완전일치 2건(NCT07492134, NCT05784311)",
+  "pubmed": "cefuroxime AND Drug Allergy · 182편",
+  "negative": "cefuroxime AND Drug Allergy AND (no effect OR did not OR failed OR negative OR no significant difference) · 155편",
+  "safety": "cefuroxime AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1,511편"
+ }
 }

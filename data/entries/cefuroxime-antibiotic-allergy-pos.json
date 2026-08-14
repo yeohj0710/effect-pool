@@ -1,29 +1,39 @@
 {
-  "id": "cefuroxime-antibiotic-allergy-pos",
-  "subj": "cefuroxime",
-  "claim": "항생제 알레르기에서 세푸록심을 쓴다",
-  "line": "페니실린 알레르기 환자 대부분은 검사 뒤 세푸록심을 견딜 수 있었다.",
-  "effect": "세푸록심 내약·대체요법 효과",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 252,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "세푸록심의 FDA 허가 적응증은 감수성 세균 감염의 치료·예방이며 페니실린 등 항생제 알레르기 환자에서 대체 항생제로 쓰는 것은 별도 허가 적응증이 아니다.",
-  "why": "페니실린 알레르기 환자에서 세푸록심을 대체 항생제로 선택할 수 있는지 확인하고, 알레르기 환자 대상 세푸록심 포함 제균요법의 임상 결과를 살폈다.",
-  "saw": "IgE 매개 페니실린 과민반응이 확인된 252명 중 세푸록심 축약제 challenge를 받은 244명은 모두 내약했다. 세팔로스포린 알레르기 검사는 99명에서 양성이었지만 페니실린과 곁사슬이 다른 세푸록심은 사전 피부검사가 음성이면 사용 가능성이 있었다. 페니실린 알레르기 헬리코박터 파일로리 감염 환자 248명 무작위시험에서는 세푸록심·테트라사이클린 제균요법의 ITT 제균률이 90.32%로 세푸록심·레보플록사신 요법 81.45%보다 높았고 이상반응은 21.77% 대 24.19%였다.",
-  "limit": "세푸록심 challenge 자료는 사전 피부검사와 전문의 감독이 전제된 관찰 연구이며, 제균시험은 세푸록심 단독 효과가 아니라 복합요법 효과를 평가했다.",
-  "against": "세푸록심을 포함한 세팔로스포린은 일부 페니실린 알레르기 환자에서 교차반응을 보였고, challenge 전 피부검사와 유발시험 없이 안전하다고 일반화할 수 없다.",
-  "use": "중증 β-락탐 알레르기 병력은 알레르기 전문의가 피부검사·유발시험으로 확인한 뒤 필요할 때만 대체 항생제로 선택한다.",
-  "refs": [
-    { "label": "페니실린 IgE 알레르기 환자 세푸록심 교차반응·challenge 전향 연구", "doi": "10.1016/j.jaip.2018.01.020", "pmid": "29408440" },
-    { "label": "페니실린 알레르기 헬리코박터 파일로리 세푸록심 복합요법 무작위시험", "doi": "10.1111/hel.70033", "pmid": "40237213", "nct": "NCT06351891" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "cefuroxime AND Antibiotic Allergy · 17건 반환, InterventionName 완전일치 2건(NCT07492134, NCT05784311)",
-    "pubmed": "cefuroxime AND Antibiotic Allergy · 225편",
-    "negative": "cefuroxime AND Antibiotic Allergy AND (no effect OR did not OR failed OR negative OR no significant difference) · 188편",
-    "safety": "cefuroxime AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1,511편"
+ "id": "cefuroxime-antibiotic-allergy-pos",
+ "subj": "세푸록심",
+ "claim": "항생제 알레르기에서 세푸록심을 쓴다",
+ "line": "페니실린 알레르기 환자 대부분은 검사 뒤 세푸록심을 견딜 수 있었다.",
+ "effect": "세푸록심 내약·대체요법 효과",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 252,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "세푸록심의 FDA 허가 적응증은 감수성 세균 감염의 치료·예방이며 페니실린 등 항생제 알레르기 환자에서 대체 항생제로 쓰는 것은 별도 허가 적응증이 아니다.",
+ "why": "페니실린 알레르기 환자에서 세푸록심을 대체 항생제로 선택할 수 있는지 확인하고, 알레르기 환자 대상 세푸록심 포함 제균요법의 임상 결과를 살폈다.",
+ "saw": "IgE 매개 페니실린 과민반응이 확인된 252명 중 세푸록심 축약제 challenge를 받은 244명은 모두 내약했다. 세팔로스포린 알레르기 검사는 99명에서 양성이었지만 페니실린과 곁사슬이 다른 세푸록심은 사전 피부검사가 음성이면 사용 가능성이 있었다. 페니실린 알레르기 헬리코박터 파일로리 감염 환자 248명 무작위시험에서는 세푸록심·테트라사이클린 제균요법의 ITT 제균률이 90.32%로 세푸록심·레보플록사신 요법 81.45%보다 높았고 이상반응은 21.77% 대 24.19%였다.",
+ "limit": "세푸록심 challenge 자료는 사전 피부검사와 전문의 감독이 전제된 관찰 연구이며, 제균시험은 세푸록심 단독 효과가 아니라 복합요법 효과를 평가했다.",
+ "against": "세푸록심을 포함한 세팔로스포린은 일부 페니실린 알레르기 환자에서 교차반응을 보였고, challenge 전 피부검사와 유발시험 없이 안전하다고 일반화할 수 없다.",
+ "use": "중증 β-락탐 알레르기 병력은 알레르기 전문의가 피부검사·유발시험으로 확인한 뒤 필요할 때만 대체 항생제로 선택한다.",
+ "refs": [
+  {
+   "label": "페니실린 IgE 알레르기 환자 세푸록심 교차반응·challenge 전향 연구",
+   "doi": "10.1016/j.jaip.2018.01.020",
+   "pmid": "29408440"
+  },
+  {
+   "label": "페니실린 알레르기 헬리코박터 파일로리 세푸록심 복합요법 무작위시험",
+   "doi": "10.1111/hel.70033",
+   "pmid": "40237213",
+   "nct": "NCT06351891"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "cefuroxime AND Antibiotic Allergy · 17건 반환, InterventionName 완전일치 2건(NCT07492134, NCT05784311)",
+  "pubmed": "cefuroxime AND Antibiotic Allergy · 225편",
+  "negative": "cefuroxime AND Antibiotic Allergy AND (no effect OR did not OR failed OR negative OR no significant difference) · 188편",
+  "safety": "cefuroxime AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1,511편"
+ },
+ "vs": "세푸록심 포함 4제요법 vs 세푸록심·레보플록사신 4제요법: H. pylori 박멸 ITT 90.32%(112/124) vs 81.45%(101/124), p=.045; 무작위시험 248명"
 }

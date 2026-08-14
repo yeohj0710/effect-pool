@@ -1,29 +1,40 @@
 {
-  "id": "cenicriviroc-liver-cirrhosis-null",
-  "subj": "cenicriviroc",
-  "claim": "cenicriviroc를 NASH 관련 간 섬유화·간경변에 쓴다",
-  "line": "NASH 간 섬유화 3상시험에서 세니크리비록은 조직학적 개선을 보이지 않았다.",
-  "effect": "개선 22.3% vs 25.5%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1778,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "cenicriviroc은 간 섬유화·간경변 치료 허가를 받지 않은 시험 약물입니다.",
-  "why": "CCR2/CCR5 길항제 cenicriviroc이 NASH 관련 간 섬유화를 줄이는지 확인합니다.",
-  "saw": "AURORA 3상 무작위시험에서 NASH와 2·3기 간 섬유화 환자 1,778명을 분석했습니다. 12개월 뒤 섬유화 1단계 이상 개선과 지방간염 악화가 없는 비율은 cenicriviroc 22.3%, 위약 25.5%였고 차이는 유의하지 않았습니다(OR 0.84, 95% CI 0.63–1.10, P=0.21).",
-  "limit": "주요 시험은 간경변 전체가 아니라 NASH 2·3기 섬유화를 평가했고, 간경변 환자에 대한 직접 효과는 확정하지 못했습니다.",
-  "against": "167명 장기 롤오버 연구에서는 33.6개월의 중앙 치료 기간 동안 새로운 안전성 신호는 없었지만 치료 효능을 평가하지 않았습니다.",
-  "use": "NASH 간 섬유화·간경변 후보 치료의 실패 근거와 장기 안전성 자료로 사용할 수 있지만 효과가 있다고 말할 수 없습니다.",
-  "refs": [
-    { "label": "Cenicriviroc AURORA 3상 NASH 간 섬유화 무작위시험", "doi": "10.1016/j.cgh.2023.04.003", "pmid": "37061109", "nct": "NCT03028740" },
-    { "label": "Cenicriviroc NASH 간 섬유화 2상 롤오버 안전성 연구", "doi": "10.1097/HC9.0000000000000335", "pmid": "38285756", "nct": "NCT03059446" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "cenicriviroc AND Liver Cirrhosis — NCT03059446, NCT02217475 직접 확인",
-    "pubmed": "cenicriviroc AND liver fibrosis OR cirrhosis — PMID 37061109, 38285756",
-    "negative": "cenicriviroc AND liver fibrosis AND (lacked efficacy OR no effect OR placebo)",
-    "safety": "cenicriviroc AND liver fibrosis AND (adverse OR safety)"
+ "id": "cenicriviroc-liver-cirrhosis-null",
+ "subj": "세니크리비록",
+ "claim": "세니크리비록를 NASH 관련 간 섬유화·간경변에 쓴다",
+ "line": "NASH 간 섬유화 3상시험에서 세니크리비록은 조직학적 개선을 보이지 않았다.",
+ "effect": "개선 22.3% vs 25.5%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 1778,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "세니크리비록은 간 섬유화·간경변 치료 허가를 받지 않은 시험 약물입니다.",
+ "why": "CCR2/CCR5 길항제 세니크리비록이 NASH 관련 간 섬유화를 줄이는지 확인합니다.",
+ "saw": "AURORA 3상 무작위시험에서 NASH와 2·3기 간 섬유화 환자 1,778명을 분석했습니다. 12개월 뒤 섬유화 1단계 이상 개선과 지방간염 악화가 없는 비율은 세니크리비록 22.3%, 위약 25.5%였고 차이는 유의하지 않았습니다(OR 0.84, 95% CI 0.63–1.10, P=0.21).",
+ "limit": "주요 시험은 간경변 전체가 아니라 NASH 2·3기 섬유화를 평가했고, 간경변 환자에 대한 직접 효과는 확정하지 못했습니다.",
+ "against": "167명 장기 롤오버 연구에서는 33.6개월의 중앙 치료 기간 동안 새로운 안전성 신호는 없었지만 치료 효능을 평가하지 않았습니다.",
+ "use": "NASH 간 섬유화·간경변 후보 치료의 실패 근거와 장기 안전성 자료로 사용할 수 있지만 효과가 있다고 말할 수 없습니다.",
+ "refs": [
+  {
+   "label": "Cenicriviroc AURORA 3상 NASH 간 섬유화 무작위시험",
+   "doi": "10.1016/j.cgh.2023.04.003",
+   "pmid": "37061109",
+   "nct": "NCT03028740"
+  },
+  {
+   "label": "Cenicriviroc NASH 간 섬유화 2상 롤오버 안전성 연구",
+   "doi": "10.1097/HC9.0000000000000335",
+   "pmid": "38285756",
+   "nct": "NCT03059446"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "cenicriviroc AND Liver Cirrhosis — NCT03059446, NCT02217475 직접 확인",
+  "pubmed": "cenicriviroc AND liver fibrosis OR cirrhosis — PMID 37061109, 38285756",
+  "negative": "cenicriviroc AND liver fibrosis AND (lacked efficacy OR no effect OR placebo)",
+  "safety": "cenicriviroc AND liver fibrosis AND (adverse OR safety)"
+ },
+ "vs": "세니크리비록 vs 위약: 12개월 섬유화 1단계 이상 호전(지방간염 악화 없음) 22.3% vs 25.5%, OR .84 (95% CI .63~1.10), p=.21; 무작위시험 1,293명"
 }
