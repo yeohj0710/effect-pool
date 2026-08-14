@@ -1,0 +1,36 @@
+{
+  "id": "prasugrel-diabetes-open",
+  "subj": "프라수그렐",
+  "claim": "프라수그렐은 제2형 당뇨병·관상동맥질환 환자에서 클로피도그렐보다 혈소판 억제가 컸다",
+  "line": "당뇨병 관상동맥질환에서 혈소판 억제가 더 컸습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 35,
+  "synth": "single",
+  "why": "제2형 당뇨병과 관상동맥질환 환자를 프라수그렐 또는 고용량 클로피도그렐에 무작위 배정한 OPTIMUS-3 교차시험을 확인했습니다.",
+  "saw": "35명 시험의 로딩용량 4시간 뒤 혈소판 응집 억제는 프라수그렐 89.3%, 클로피도그렐 27.7%였고 최소제곱 평균 차이는 61.6%포인트(95% CI 53.83~69.31; P<0.0001)였습니다.",
+  "limit": "35명 소규모 약력학 교차시험이며 혈소판 억제가 심혈관 사건 감소를 직접 입증하지 않습니다.",
+  "against": "프라수그렐은 출혈 위험과 금기·주의사항을 확인해야 하며 개인별 임상 사건 위험으로 약제를 선택해야 합니다.",
+  "use": "제2형 당뇨병·관상동맥질환에서 프라수그렐의 강한 혈소판 억제 신호를 설명할 때 사용하며 임상 사건 근거와 구분합니다.",
+  "refs": [
+    {
+      "label": "NCT00642174 · OPTIMUS-3 당뇨병 항혈소판제 교차시험 결과",
+      "nct": "NCT00642174"
+    },
+    {
+      "label": "Ramanathan 2011 · OPTIMUS-3 프라수그렐·클로피도그렐 약력학 비교",
+      "pmid": "21252171"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "NCT00642174 current results: IPA and platelet reactivity by prasugrel/clopidogrel groups",
+    "pubmed": "PMID21252171; prasugrel versus high-dose clopidogrel type 2 diabetes OPTIMUS-3",
+    "negative": "prasugrel diabetes platelet AND (no difference OR failed)",
+    "safety": "prasugrel AND (bleeding OR adverse OR safety)"
+  },
+  "effect": "혈소판 억제 89.3% vs 27.7%",
+  "known": "label",
+  "knownWhy": "프라수그렐은 급성관상동맥증후군·관상동맥중재술에서 쓰이는 항혈소판 처방약입니다.",
+  "vs": "프라수그렐 vs 클로피도그렐: 35명 OPTIMUS-3 시험의 로딩용량 4시간 뒤 혈소판 응집 억제는 89.3% vs 27.7%, 평균 차이는 61.6%포인트(95% CI 53.83~69.31; P<0.0001)였습니다."
+}

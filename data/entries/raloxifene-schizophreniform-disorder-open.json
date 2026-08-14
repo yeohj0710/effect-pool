@@ -1,35 +1,40 @@
 {
   "id": "raloxifene-schizophreniform-disorder-open",
   "subj": "랄록시펜",
-  "claim": "랄록시펜을 조현형장애의 항정신병약 보조치료에 쓴다",
-  "line": "라록시펜은 조현병 스펙트럼의 PANSS를 낮췄지만 하위군별 효과는 불확실합니다.",
-  "effect": "PANSS 전체 Hedges g=0.57",
+  "claim": "랄록시펜의 조현병 스펙트럼 보조치료 효과는 성별에 따라 달랐다",
+  "line": "조현병 스펙트럼에서 랄록시펜의 전체 효과는 일관되지 않았습니다.",
+  "effect": "PANSS β=-6.37; 반응 HR=5.79",
   "tier": "trial",
   "dir": "open",
-  "n": 561,
-  "synth": "meta",
-  "why": "조현병 스펙트럼 무작위시험 9편을 합친 랄록시펜 보조치료 메타분석입니다.",
-  "saw": "9개 무작위시험 561명에서 랄록시펜은 PANSS 전체(Hedges g 0.57), 양성(g 0.32), 음성(g 0.40) 점수를 개선했습니다. 우울·인지 기능은 유의한 효과가 없었습니다.",
-  "limit": "메타분석은 조현형장애 하위군 결과를 따로 제시하지 않았고 조현병·분열정동장애 등 스펙트럼 전체 결과를 합쳤습니다.",
-  "against": "중증 급성 조현병·분열정동장애 200명 시험에서는 위약군이 PANSS에서 4.5점 더 좋아져 결과가 엇갈렸습니다.",
-  "use": "조현형장애에 랄록시펜을 표준 보조치료로 표시할 근거는 부족합니다.",
+  "n": 110,
+  "synth": "single",
+  "why": "조현병 스펙트럼 환자를 랄록시펜 또는 위약에 무작위 배정한 여성 시험과 남녀 시험을 확인했습니다.",
+  "saw": "여성 56명 시험에서 PANSS 전체 변화는 랄록시펜이 위약보다 β=-6.37(95% CI -11.64~-1.10; P=.02)였고 임상 반응 HR은 5.79(1.46~22.97; P=.01)였습니다. 남녀 102명 시험에서는 전체 주효과가 없었지만 여성 하위군의 음성증상에서 6주 -2.92, 12주 -3.12 차이가 보고됐습니다.",
+  "limit": "여성 하위군 신호와 전체 남녀 시험의 무효 결과가 엇갈립니다. 조현형장애 하위군을 따로 확인한 근거는 부족합니다.",
+  "against": "랄록시펜의 혈전 위험과 호르몬 관련 위험을 확인해야 하며 항정신병약을 대체하지 않습니다.",
+  "use": "랄록시펜을 조현병 스펙트럼 보조치료의 표준으로 권하지 않고 성별 하위군에서 재현이 필요한 연구 신호로 기록합니다.",
   "refs": [
     {
-      "label": "Goh 2018 · npj Schizophrenia · 조현병 스펙트럼 랄록시펜 메타분석",
-      "doi": "10.1038/s41537-017-0043-3",
-      "pmid": "29321530",
-      "pmc": "PMC5762671"
+      "label": "NCT00361543 · 여성 조현병 랄록시펜 보조치료 시험",
+      "nct": "NCT00361543"
     },
     {
-      "label": "Weiser 2017 · J Clin Psychiatry · 중증 조현병·분열정동장애 랄록시펜 시험",
-      "pmid": "28541645"
+      "label": "Kulkarni 2016 · JAMA Psychiatry · 여성 조현병 랄록시펜 무작위시험",
+      "pmid": "27438995"
+    },
+    {
+      "label": "Brand 2023 · Schizophr Bull · 남녀 조현병 스펙트럼 랄록시펜 무작위시험",
+      "pmid": "37116866"
     }
   ],
   "queried": {
-    "date": "2026-08-05",
-    "ctgov": "query.intr=raloxifene&query.cond=Schizophreniform Disorder → 4건 반환",
-    "pubmed": "raloxifene schizophreniform disorder → 12건",
-    "negative": "raloxifene schizophreniform disorder AND (no effect OR did not OR failed to OR negative OR no significant difference) → 9건",
-    "safety": "raloxifene schizophreniform disorder AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 6건"
-  }
+    "date": "2026-08-15",
+    "ctgov": "NCT00361543, NCT01481883, NCT03043820 current records",
+    "pubmed": "PMID27438995 and PMID37116866; raloxifene schizophrenia-spectrum randomized trials",
+    "negative": "raloxifene schizophrenia AND (no main effect OR no difference OR failed)",
+    "safety": "raloxifene AND (thromboembolism OR adverse OR safety)"
+  },
+  "known": "off",
+  "knownWhy": "랄록시펜은 골다공증·유방암 위험 감소에 쓰이는 선택적 에스트로겐 수용체 조절제이며 조현병 보조치료는 허가 적응증이 아닙니다.",
+  "vs": "랄록시펜 vs 위약: 여성 56명 RCT에서 PANSS 전체 변화 β=-6.37(95% CI -11.64~-1.10; P=.02), 임상 반응 HR 5.79(1.46~22.97; P=.01)였지만 남녀 102명 RCT에서는 전체 주효과가 없었습니다."
 }
