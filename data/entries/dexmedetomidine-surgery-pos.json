@@ -1,28 +1,33 @@
 {
-  "id": "dexmedetomidine-surgery-pos",
-  "subj": "덱스메데토미딘",
-  "claim": "덱스메데토미딘은 심장수술 후 ICU 체류와 섬망을 줄일 가능성이 있다",
-  "line": "심장수술 뒤 덱스메데토미딘은 ICU 체류와 섬망을 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 6273,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "수술 후 회복 목적은 허가 적응증인 진정과 다름",
-  "why": "심장수술 전후 덱스메데토미딘 무작위시험을 합친 메타분석에서 중환자실 체류와 기관삽관 시간이 줄고 수술 후 섬망도 적었습니다.",
-  "saw": "48개 시험 6273명에서 중환자실 체류는 평균 5.0시간, 기관삽관은 1.6시간 짧았고 수술 후 섬망 위험비는 0.58이었습니다.",
-  "limit": "심장수술 환자에 집중했고, 위양성 자료를 보정하면 중환자실 감소폭은 3.6시간으로 줄었습니다. 서맥·저혈압 감시가 필요합니다.",
-  "against": "연구진은 체류시간 감소가 임상적으로 유용한지 불확실하다고 했고, 분석 보정 뒤 효과가 작아졌습니다.",
-  "use": "수술 회복 신호는 심장수술의 보조 진정 맥락에서만 해석해야 하며 모든 수술의 표준 효과는 아닙니다.",
-  "effect": "ICU 5시간↓·섬망 RR0.58",
-  "refs": [
-    { "label": "Mao 2023 · Anaesthesia · 성인 심장수술 덱스메데토미딘 메타분석", "doi": "10.1111/anae.15947", "pmid": "36535747" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=dexmedetomidine, cond=Surgery → 824건 반환·92건 직접 대조",
-    "pubmed": "dexmedetomidine AND Surgery → 6215건",
-    "negative": "dexmedetomidine AND Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5180건",
-    "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ "id": "dexmedetomidine-surgery-pos",
+ "subj": "덱스메데토미딘",
+ "claim": "덱스메데토미딘은 심장수술 후 ICU 체류와 섬망을 줄일 가능성이 있다",
+ "line": "심장수술 뒤 덱스메데토미딘은 ICU 체류와 섬망을 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 6273,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "수술 후 회복 목적은 허가 적응증인 진정과 다름",
+ "why": "심장수술 전후 덱스메데토미딘 무작위시험을 합친 메타분석에서 중환자실 체류와 기관삽관 시간이 줄고 수술 후 섬망도 적었습니다.",
+ "saw": "48개 시험 6273명에서 중환자실 체류는 평균 5.0시간, 기관삽관은 1.6시간 짧았고 수술 후 섬망 위험비는 0.58이었습니다.",
+ "limit": "심장수술 환자에 집중했고, 위양성 자료를 보정하면 중환자실 감소폭은 3.6시간으로 줄었습니다. 서맥·저혈압 감시가 필요합니다.",
+ "against": "연구진은 체류시간 감소가 임상적으로 유용한지 불확실하다고 했고, 분석 보정 뒤 효과가 작아졌습니다.",
+ "use": "수술 회복 신호는 심장수술의 보조 진정 맥락에서만 해석해야 하며 모든 수술의 표준 효과는 아닙니다.",
+ "effect": "ICU 5시간↓·섬망 RR0.58",
+ "refs": [
+  {
+   "label": "Mao 2023 · Anaesthesia · 성인 심장수술 덱스메데토미딘 메타분석",
+   "doi": "10.1111/anae.15947",
+   "pmid": "36535747"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=dexmedetomidine, cond=Surgery → 824건 반환·92건 직접 대조",
+  "pubmed": "dexmedetomidine AND Surgery → 6215건",
+  "negative": "dexmedetomidine AND Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5180건",
+  "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ },
+ "vs": "덱스메데토미딘 vs 대조군: 수술 48개 시험 6,273명에서 ICU 체류기간 평균차 -5.0시간(95% CI -2.2~-7.7), 삽관기간 -1.6시간(-0.6~-2.7), 섬망 RR 0.58(0.43~0.78), 심방세동 RR 0.76(0.61~0.95), 단기 사망 RR 0.49(0.25~0.97)."
 }

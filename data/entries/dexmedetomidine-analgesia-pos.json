@@ -1,28 +1,33 @@
 {
-  "id": "dexmedetomidine-analgesia-pos",
-  "subj": "덱스메데토미딘",
-  "claim": "덱스메데토미딘은 정형외과 수술 후 통증과 섬망을 줄일 가능성이 있다",
-  "line": "정형외과 수술 뒤 덱스메데토미딘은 통증과 섬망을 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 7713,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "수술 후 진통은 허가 적응증인 진정과 다름",
-  "why": "정형외과 수술 무작위시험 메타분석에서 덱스메데토미딘이 수술 후 통증과 오피오이드 사용량, 인지장애·섬망을 줄였습니다.",
-  "saw": "59개 시험 7713명에서 통증 시각척도 차이는 -0.50, 오피오이드 사용량 차이는 -11.91, 수술 후 인지장애 위험비는 0.59, 섬망 위험비는 0.49였습니다.",
-  "limit": "정형외과 수술과 정맥 투여 연구를 합쳤고, 연구별 수술·마취·신경차단 방법이 달랐습니다.",
-  "against": "분석은 효과를 보고했지만 덱스메데토미딘이 서맥·저혈압을 일으킬 수 있어 진통 효과만으로 안전성을 판단할 수 없습니다.",
-  "use": "수술 후 진통 보조 신호는 비교적 일관되지만, 환자 상태와 병용 마취를 함께 평가해야 합니다.",
-  "effect": "통증 MD -0.50·POD RR0.49",
-  "refs": [
-    { "label": "Wang 2025 · International Journal of Surgery · 정형외과 수술 덱스메데토미딘 진통 메타분석", "doi": "10.1097/JS9.0000000000002315", "pmid": "40042401" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=dexmedetomidine, cond=Analgesia → 391건 반환·78건 직접 대조",
-    "pubmed": "dexmedetomidine AND Analgesia → 2625건",
-    "negative": "dexmedetomidine AND Analgesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2252건",
-    "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ "id": "dexmedetomidine-analgesia-pos",
+ "subj": "덱스메데토미딘",
+ "claim": "덱스메데토미딘은 정형외과 수술 후 통증과 섬망을 줄일 가능성이 있다",
+ "line": "정형외과 수술 뒤 덱스메데토미딘은 통증과 섬망을 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 7713,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "수술 후 진통은 허가 적응증인 진정과 다름",
+ "why": "정형외과 수술 무작위시험 메타분석에서 덱스메데토미딘이 수술 후 통증과 오피오이드 사용량, 인지장애·섬망을 줄였습니다.",
+ "saw": "59개 시험 7713명에서 통증 시각척도 차이는 -0.50, 오피오이드 사용량 차이는 -11.91, 수술 후 인지장애 위험비는 0.59, 섬망 위험비는 0.49였습니다.",
+ "limit": "정형외과 수술과 정맥 투여 연구를 합쳤고, 연구별 수술·마취·신경차단 방법이 달랐습니다.",
+ "against": "분석은 효과를 보고했지만 덱스메데토미딘이 서맥·저혈압을 일으킬 수 있어 진통 효과만으로 안전성을 판단할 수 없습니다.",
+ "use": "수술 후 진통 보조 신호는 비교적 일관되지만, 환자 상태와 병용 마취를 함께 평가해야 합니다.",
+ "effect": "통증 MD -0.50·POD RR0.49",
+ "refs": [
+  {
+   "label": "Wang 2025 · International Journal of Surgery · 정형외과 수술 덱스메데토미딘 진통 메타분석",
+   "doi": "10.1097/JS9.0000000000002315",
+   "pmid": "40042401"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=dexmedetomidine, cond=Analgesia → 391건 반환·78건 직접 대조",
+  "pubmed": "dexmedetomidine AND Analgesia → 2625건",
+  "negative": "dexmedetomidine AND Analgesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 2252건",
+  "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ },
+ "vs": "덱스메데토미딘 vs 대조군: 수술 후 59개 무작위시험 7,713명 메타분석에서 통증 VAS 평균차 -0.50, 오피오이드 사용량 평균차 -11.91, 수술 후 섬망 RR 0.49(모두 유의), 수술 후 인지기능장애 RR 0.59."
 }

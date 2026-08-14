@@ -1,29 +1,41 @@
 {
-  "id": "dolutegravir-tuberculosis-pos",
-  "subj": "dolutegravir",
-  "claim": "HIV 동반 결핵에는 dolutegravir를 쓴다",
-  "line": "HIV 동반 결핵에서 표준·추가 돌루테그라비르의 바이러스 억제가 비슷했습니다.",
-  "effect": "24주 억제 83% 대 83%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 108,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "돌루테그라비르 허가는 HIV 감염이며 결핵 병용 용량은 별도 연구 대상입니다",
-  "why": "리팜피신이 돌루테그라비르 농도를 낮추는 HIV·결핵 병용 상황에서 추가 용량이 필요한지 확인합니다.",
-  "saw": "RADIANT-TB 2상시험에서 108명이 추가 dolutegravir 53명과 위약 55명으로 배정됐습니다. 24주 바이러스 억제는 두 군 모두 83%였고 48주까지 치료 관련 내성은 확인되지 않았습니다.",
-  "limit": "HIV와 결핵이 함께 있는 성인 대상 단일기관 2상시험이며 추가 용량 비교의 검정력이 제한적입니다.",
-  "against": "중증 이상반응은 유사했지만 체중감소·불면·폐렴이 보고됐습니다.",
-  "use": "HIV·결핵 병용요법에서 리팜피신 상호작용을 고려한 용량 연구의 근거로 검토합니다.",
-  "refs": [
-    { "label": "Griesel 2023 · RADIANT-TB dolutegravir 표준·추가 용량 무작위시험", "doi": "10.1016/S2352-3018(23)00081-4", "pmid": "37230101", "pmc": "PMC10322729", "nct": "NCT03851588" },
-    { "label": "RADIANT-TB 시험계획", "pmid": "33954265", "pmc": "PMC8063551", "nct": "NCT03851588" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=dolutegravir AND condition=Tuberculosis; 11건; NCT03851588 직접 결과",
-    "pubmed": "dolutegravir tuberculosis randomized; 40건; PMID37230101 직접 결과",
-    "negative": "dolutegravir tuberculosis virologic suppression; 표준·추가 용량 차이 없음 확인",
-    "safety": "dolutegravir tuberculosis adverse pneumonia; 중증 이상반응 유사·폐렴 3/108 확인"
+ "id": "dolutegravir-tuberculosis-pos",
+ "subj": "돌루테그라비르",
+ "claim": "HIV 동반 결핵에는 돌루테그라비르를 쓴다",
+ "line": "HIV 동반 결핵에서 표준·추가 돌루테그라비르의 바이러스 억제가 비슷했습니다.",
+ "effect": "24주 억제 83% 대 83%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 108,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "돌루테그라비르 허가는 HIV 감염이며 결핵 병용 용량은 별도 연구 대상입니다",
+ "why": "리팜피신이 돌루테그라비르 농도를 낮추는 HIV·결핵 병용 상황에서 추가 용량이 필요한지 확인합니다.",
+ "saw": "RADIANT-TB 2상시험에서 108명이 추가 돌루테그라비르 53명과 위약 55명으로 배정됐습니다. 24주 바이러스 억제는 두 군 모두 83%였고 48주까지 치료 관련 내성은 확인되지 않았습니다.",
+ "limit": "HIV와 결핵이 함께 있는 성인 대상 단일기관 2상시험이며 추가 용량 비교의 검정력이 제한적입니다.",
+ "against": "중증 이상반응은 유사했지만 체중감소·불면·폐렴이 보고됐습니다.",
+ "use": "HIV·결핵 병용요법에서 리팜피신 상호작용을 고려한 용량 연구의 근거로 검토합니다.",
+ "refs": [
+  {
+   "label": "Griesel 2023 · RADIANT-TB dolutegravir 표준·추가 용량 무작위시험",
+   "doi": "10.1016/S2352-3018(23)00081-4",
+   "pmid": "37230101",
+   "pmc": "PMC10322729",
+   "nct": "NCT03851588"
+  },
+  {
+   "label": "RADIANT-TB 시험계획",
+   "pmid": "33954265",
+   "pmc": "PMC8063551",
+   "nct": "NCT03851588"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=dolutegravir AND condition=Tuberculosis; 11건; NCT03851588 직접 결과",
+  "pubmed": "dolutegravir tuberculosis randomized; 40건; PMID37230101 직접 결과",
+  "negative": "dolutegravir tuberculosis virologic suppression; 표준·추가 용량 차이 없음 확인",
+  "safety": "dolutegravir tuberculosis adverse pneumonia; 중증 이상반응 유사·폐렴 3/108 확인"
+ },
+ "vs": "돌루테그라비르 추가 1일 1회 vs 위약: HIV-결핵 RADIANT-TB 무작위시험 108명에서 24주 바이러스 억제율은 43/52명(83%, 95% CI 70~92) vs 44/53명(83%, 70~92)으로 같았다."
 }

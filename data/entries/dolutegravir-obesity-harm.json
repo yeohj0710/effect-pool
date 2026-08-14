@@ -1,29 +1,38 @@
 {
-  "id": "dolutegravir-obesity-harm",
-  "subj": "dolutegravir",
-  "claim": "dolutegravir의 체중 증가 부작용은 비만 위험을 높인다",
-  "line": "통합효소 억제제로 전환한 뒤 비만·당뇨·고혈압 위험이 높아졌습니다.",
-  "effect": "비만 HR 1.41; 당뇨 HR 1.50",
-  "tier": "obs",
-  "dir": "harm",
-  "n": 5114,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "돌루테그라비르 허가는 HIV 감염이며 비만 예방·치료 적응증은 아닙니다",
-  "why": "HIV 치료제를 통합효소 억제제로 바꾼 뒤 나타나는 체중 증가가 비만과 대사질환으로 이어지는지 확인합니다.",
-  "saw": "REPRIEVE 자료에서 5,114명을 분석했고 전환군의 80.9%가 dolutegravir 기반 요법을 시작했습니다. 통합효소 억제제 전환군은 비만 HR 1.41, 당뇨 HR 1.50, 고혈압 HR 1.45였고 주요 심혈관 사건은 HR 1.17로 유의하지 않았습니다.",
-  "limit": "후향적 코호트로 dolutegravir 단독 효과와 다른 통합효소 억제제 효과를 완전히 분리할 수 없습니다.",
-  "against": "주요 심혈관 사건 증가는 확인되지 않았습니다.",
-  "use": "HIV 치료 중 비만·대사질환 위험을 감시할 근거로 사용하며 체중 감량 치료로 사용하지 않습니다.",
-  "refs": [
-    { "label": "Kileel 2026 · 통합효소 억제제 전환 후 비만·대사질환 위험 REPRIEVE 분석", "pmid": "41911941" },
-    { "label": "Sax 2020 · 항레트로바이러스 시작 후 체중 증가 위험요인 통합분석", "doi": "10.1093/cid/ciz999", "pmid": "31606734", "pmc": "PMC7486849" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=dolutegravir AND condition=Obesity; 5건; NCT05502692 대조",
-    "pubmed": "dolutegravir obesity weight gain; 66건; PMID41911941·PMID31606734",
-    "negative": "dolutegravir obesity cardiovascular event; 주요 심혈관 사건 HR 1.17 무차이 확인",
-    "safety": "dolutegravir obesity diabetes hypertension; 비만·당뇨·고혈압 위험 증가 확인"
+ "id": "dolutegravir-obesity-harm",
+ "subj": "돌루테그라비르",
+ "claim": "돌루테그라비르의 체중 증가 부작용은 비만 위험을 높인다",
+ "line": "통합효소 억제제로 전환한 뒤 비만·당뇨·고혈압 위험이 높아졌습니다.",
+ "effect": "비만 HR 1.41; 당뇨 HR 1.50",
+ "tier": "obs",
+ "dir": "harm",
+ "n": 5114,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "돌루테그라비르 허가는 HIV 감염이며 비만 예방·치료 적응증은 아닙니다",
+ "why": "HIV 치료제를 통합효소 억제제로 바꾼 뒤 나타나는 체중 증가가 비만과 대사질환으로 이어지는지 확인합니다.",
+ "saw": "REPRIEVE 자료에서 5,114명을 분석했고 전환군의 80.9%가 돌루테그라비르 기반 요법을 시작했습니다. 통합효소 억제제 전환군은 비만 HR 1.41, 당뇨 HR 1.50, 고혈압 HR 1.45였고 주요 심혈관 사건은 HR 1.17로 유의하지 않았습니다.",
+ "limit": "후향적 코호트로 돌루테그라비르 단독 효과와 다른 통합효소 억제제 효과를 완전히 분리할 수 없습니다.",
+ "against": "주요 심혈관 사건 증가는 확인되지 않았습니다.",
+ "use": "HIV 치료 중 비만·대사질환 위험을 감시할 근거로 사용하며 체중 감량 치료로 사용하지 않습니다.",
+ "refs": [
+  {
+   "label": "Kileel 2026 · 통합효소 억제제 전환 후 비만·대사질환 위험 REPRIEVE 분석",
+   "pmid": "41911941"
+  },
+  {
+   "label": "Sax 2020 · 항레트로바이러스 시작 후 체중 증가 위험요인 통합분석",
+   "doi": "10.1093/cid/ciz999",
+   "pmid": "31606734",
+   "pmc": "PMC7486849"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=dolutegravir AND condition=Obesity; 5건; NCT05502692 대조",
+  "pubmed": "dolutegravir obesity weight gain; 66건; PMID41911941·PMID31606734",
+  "negative": "dolutegravir obesity cardiovascular event; 주요 심혈관 사건 HR 1.17 무차이 확인",
+  "safety": "dolutegravir obesity diabetes hypertension; 비만·당뇨·고혈압 위험 증가 확인"
+ },
+ "vs": "돌루테그라비르 기반 요법이 대부분인 통합효소억제제 전환군 vs 비통합효소억제제 유지군: REPRIEVE 표적시험 모사 5,114명에서 비만 HR 1.41(95% CI 1.22~1.59), 당뇨병 HR 1.50(1.24~1.81), 고혈압 HR 1.45(1.26~1.67); 전환군의 80.9%가 돌루테그라비르 기반 요법이었다."
 }

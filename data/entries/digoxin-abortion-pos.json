@@ -1,20 +1,33 @@
 {
-  "id": "digoxin-abortion-pos",
-  "subj": "digoxin",
-  "claim": "양수내 디곡신은 20주 이후 임신중절 전 태아 심박 정지에 쓴다",
-  "line": "중기 임신중절 전 양수 내 디곡신 투여 후 태아 심박이 멈췄습니다.",
-  "effect": "태아 심박 정지 89.8%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 65,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "임신중절 전 태아 심박 정지는 디곡신의 허가 적응증이 아니다.",
-  "why": "에티오피아 병원에서 20~28주 임신중절 전 양수내 디곡신 또는 태아심장내 리도카인을 사용한 기록을 후향적으로 검토했다.",
-  "saw": "사례 65건 중 75% 이상이 양수내 디곡신이었다. 디곡신의 다음 날 태아 심박 정지율은 89.8%였고 리도카인은 16건 모두에서 정지했다.",
-  "limit": "단일 기관 후향적 기록 연구이며 디곡신과 리도카인을 무작위로 비교하지 않았다.",
-  "against": "시술 방법과 임신 주수, 안전성 판단은 기관과 법규에 따라 달라 이 결과만으로 표준 방법을 정할 수 없다.",
-  "use": "중기 임신중절 전 태아 심박 정지 시술의 실제 사용 결과를 확인할 때 참고할 관찰 근거로 기록한다.",
-  "refs": [{ "label": "Contraception: X · 후향적 기록 연구", "doi": "10.1016/j.conx.2022.100082", "pmid": "36017486" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=digoxin, cond=Abortion · 6건", "pubmed": "digoxin AND Abortion · 60편", "negative": "digoxin AND Abortion AND (no effect OR did not OR failed OR negative OR no significant difference) · 40편", "safety": "digoxin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 5553편" }
+ "id": "digoxin-abortion-pos",
+ "subj": "디곡신",
+ "claim": "양수내 디곡신은 20주 이후 임신중절 전 태아 심박 정지에 쓴다",
+ "line": "중기 임신중절 전 양수 내 디곡신 투여 후 태아 심박이 멈췄습니다.",
+ "effect": "태아 심박 정지 89.8%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 65,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "임신중절 전 태아 심박 정지는 디곡신의 허가 적응증이 아니다.",
+ "why": "에티오피아 병원에서 20~28주 임신중절 전 양수내 디곡신 또는 태아심장내 리도카인을 사용한 기록을 후향적으로 검토했다.",
+ "saw": "사례 65건 중 75% 이상이 양수내 디곡신이었다. 디곡신의 다음 날 태아 심박 정지율은 89.8%였고 리도카인은 16건 모두에서 정지했다.",
+ "limit": "단일 기관 후향적 기록 연구이며 디곡신과 리도카인을 무작위로 비교하지 않았다.",
+ "against": "시술 방법과 임신 주수, 안전성 판단은 기관과 법규에 따라 달라 이 결과만으로 표준 방법을 정할 수 없다.",
+ "use": "중기 임신중절 전 태아 심박 정지 시술의 실제 사용 결과를 확인할 때 참고할 관찰 근거로 기록한다.",
+ "refs": [
+  {
+   "label": "Contraception: X · 후향적 기록 연구",
+   "doi": "10.1016/j.conx.2022.100082",
+   "pmid": "36017486"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=digoxin, cond=Abortion · 6건",
+  "pubmed": "digoxin AND Abortion · 60편",
+  "negative": "digoxin AND Abortion AND (no effect OR did not OR failed OR negative OR no significant difference) · 40편",
+  "safety": "digoxin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 5553편"
+ },
+ "vs": "디곡신 vs 심장 내 리도카인: 임신 20~28주 유산 전 태아 심박동 중지 후향 연구 65건에서 다음 날 유효율은 디곡신 89.8% vs 리도카인 100%(전체 92.3%)였다."
 }

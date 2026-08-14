@@ -1,20 +1,33 @@
 {
-  "id": "desmopressin-hemorrhage-harm",
-  "subj": "desmopressin",
-  "claim": "항혈소판제 관련 뇌내출혈에서 데스모프레신은 신경학적 결과를 악화시킬 수 있다",
-  "line": "항혈소판제 관련 뇌내출혈에서 데스모프레신군의 결과가 더 나빴습니다",
-  "effect": "혈종 19% 대 30% · mRS 악화",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 263,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "항혈소판제 관련 뇌내출혈은 desmopressin의 허가 적응증이 아니다",
-  "why": "항혈소판제 관련 뇌내출혈에서 desmopressin과 대조군을 비교한 통제연구를 합쳤다",
-  "saw": "후향 통제연구 3건 263명에서 혈종 확장은 유의하지 않게 줄었고 나쁜 신경학적 결과는 RR 1.36이었다",
-  "limit": "무작위시험이 아닌 후향 연구 3건이며 교란 가능성이 있다",
-  "against": "혈종 확장 감소는 19.1% 대 30%, RR 0.61로 통계적으로 유의하지 않았다",
-  "use": "혈종 확장 신호보다 신경학적 결과 악화 신호를 우선 기록한다",
-  "refs": [{ "label": "2021 · 항혈소판제 관련 뇌내출혈 메타분석", "doi": "10.1016/j.jocn.2021.01.017", "pmid": "33775314" }],
-  "queried": { "date": "2026-08-08", "ctgov": "desmopressin AND Hemorrhage; 124건 반환", "pubmed": "desmopressin AND hemorrhage; 뇌내출혈 메타분석 확인", "negative": "desmopressin AND intracerebral hemorrhage AND no significant reduction; 혈종 결과 확인", "safety": "desmopressin AND intracerebral hemorrhage AND neurologic outcome; 악화 신호 확인" }
+ "id": "desmopressin-hemorrhage-harm",
+ "subj": "데스모프레신",
+ "claim": "항혈소판제 관련 뇌내출혈에서 데스모프레신은 신경학적 결과를 악화시킬 수 있다",
+ "line": "항혈소판제 관련 뇌내출혈에서 데스모프레신군의 결과가 더 나빴습니다",
+ "effect": "혈종 19% 대 30% · mRS 악화",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 263,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "항혈소판제 관련 뇌내출혈은 데스모프레신의 허가 적응증이 아니다",
+ "why": "항혈소판제 관련 뇌내출혈에서 데스모프레신과 대조군을 비교한 통제연구를 합쳤다",
+ "saw": "후향 통제연구 3건 263명에서 혈종 확장은 유의하지 않게 줄었고 나쁜 신경학적 결과는 RR 1.36이었다",
+ "limit": "무작위시험이 아닌 후향 연구 3건이며 교란 가능성이 있다",
+ "against": "혈종 확장 감소는 19.1% 대 30%, RR 0.61로 통계적으로 유의하지 않았다",
+ "use": "혈종 확장 신호보다 신경학적 결과 악화 신호를 우선 기록한다",
+ "refs": [
+  {
+   "label": "2021 · 항혈소판제 관련 뇌내출혈 메타분석",
+   "doi": "10.1016/j.jocn.2021.01.017",
+   "pmid": "33775314"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "desmopressin AND Hemorrhage; 124건 반환",
+  "pubmed": "desmopressin AND hemorrhage; 뇌내출혈 메타분석 확인",
+  "negative": "desmopressin AND intracerebral hemorrhage AND no significant reduction; 혈종 결과 확인",
+  "safety": "desmopressin AND intracerebral hemorrhage AND neurologic outcome; 악화 신호 확인"
+ },
+ "vs": "데스모프레신 vs 대조군: 뇌내출혈 3개 비교연구 263명에서 혈종 확장 19.1% vs 30.0%, RR 0.61(95% CI 0.27~1.39), 혈전 사건 5.5% vs 9.9%, RR 0.47(0.17~1.31), 불량 신경학적 결과(mRS≥4) 66.3% vs 50.0%, RR 1.36(1.08~1.70)."
 }

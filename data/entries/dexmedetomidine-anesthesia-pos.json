@@ -1,29 +1,37 @@
 {
-  "id": "dexmedetomidine-anesthesia-pos",
-  "subj": "덱스메데토미딘",
-  "claim": "덱스메데토미딘은 개두술 전신마취의 통증·구역을 줄일 가능성이 있다",
-  "line": "개두술 마취에서 덱스메데토미딘은 통증과 구역을 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1348,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "전신마취 보조제는 허가 적응증인 진정과 다름",
-  "why": "개두술 전신마취에 덱스메데토미딘을 보조제로 더한 무작위시험 메타분석에서 수술 후 통증·구역과 혈역학적 사건이 줄었습니다.",
-  "saw": "22개 무작위시험 1348명에서 위약 대비 통증 차이는 -0.25 cm, 수술 후 구역·구토 위험비는 0.57, 빈맥 위험비는 0.32였습니다.",
-  "limit": "개두술 중심의 수술 메타분석이고 활성 대조약과 비교한 자료는 매우 적었습니다. 서맥·저혈압 위험을 따로 살펴야 합니다.",
-  "against": "활성 대조약인 레미펜타닐·펜타닐·프로포폴과 비교하면 수술 성공률과 수술 후 통증 차이가 없었습니다.",
-  "use": "덱스메데토미딘의 전신마취 보조 효과는 특정 수술과 비교약에 따라 달라지며 일반 마취제로 해석하면 안 됩니다.",
-  "effect": "통증 MD -0.25cm·PONV↓",
-  "refs": [
-    { "label": "Li 2019 · Journal of Neurosurgical Anesthesiology · 개두술 전신마취 보조 메타분석", "doi": "10.1097/ANA.0000000000000582", "pmid": "30445412" },
-    { "label": "Mourad 2017 · Journal of Clinical Anesthesia · 전신마취 덱스메데토미딘 검토", "pmid": "28643999" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=dexmedetomidine, cond=Anesthesia → 661건 반환·81건 직접 대조",
-    "pubmed": "dexmedetomidine AND Anesthesia → 6216건",
-    "negative": "dexmedetomidine AND Anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5129건",
-    "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ "id": "dexmedetomidine-anesthesia-pos",
+ "subj": "덱스메데토미딘",
+ "claim": "덱스메데토미딘은 개두술 전신마취의 통증·구역을 줄일 가능성이 있다",
+ "line": "개두술 마취에서 덱스메데토미딘은 통증과 구역을 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1348,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "전신마취 보조제는 허가 적응증인 진정과 다름",
+ "why": "개두술 전신마취에 덱스메데토미딘을 보조제로 더한 무작위시험 메타분석에서 수술 후 통증·구역과 혈역학적 사건이 줄었습니다.",
+ "saw": "22개 무작위시험 1348명에서 위약 대비 통증 차이는 -0.25 cm, 수술 후 구역·구토 위험비는 0.57, 빈맥 위험비는 0.32였습니다.",
+ "limit": "개두술 중심의 수술 메타분석이고 활성 대조약과 비교한 자료는 매우 적었습니다. 서맥·저혈압 위험을 따로 살펴야 합니다.",
+ "against": "활성 대조약인 레미펜타닐·펜타닐·프로포폴과 비교하면 수술 성공률과 수술 후 통증 차이가 없었습니다.",
+ "use": "덱스메데토미딘의 전신마취 보조 효과는 특정 수술과 비교약에 따라 달라지며 일반 마취제로 해석하면 안 됩니다.",
+ "effect": "통증 MD -0.25cm·PONV↓",
+ "refs": [
+  {
+   "label": "Li 2019 · Journal of Neurosurgical Anesthesiology · 개두술 전신마취 보조 메타분석",
+   "doi": "10.1097/ANA.0000000000000582",
+   "pmid": "30445412"
+  },
+  {
+   "label": "Mourad 2017 · Journal of Clinical Anesthesia · 전신마취 덱스메데토미딘 검토",
+   "pmid": "28643999"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=dexmedetomidine, cond=Anesthesia → 661건 반환·81건 직접 대조",
+  "pubmed": "dexmedetomidine AND Anesthesia → 6216건",
+  "negative": "dexmedetomidine AND Anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 5129건",
+  "safety": "dexmedetomidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4766건"
+ },
+ "vs": "덱스메데토미딘 vs 위약: 수술·마취 비교에서 통증 WMD -0.25cm(95% CI -0.43~-0.07), 오심·구토 RR 0.57(0.39~0.84), 고혈압 RR 0.37(0.22~0.61), 빈맥 RR 0.32(0.12~0.85)."
 }
