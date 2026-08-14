@@ -1,28 +1,34 @@
 {
-  "id": "isradipine-parkinson-disease-null",
-  "subj": "isradipine",
-  "claim": "초기 파킨슨병에서 이스라디핀은 36개월 임상 진행을 늦추지 못했다",
-  "line": "초기 파킨슨병 진행 억제 효과는 없었습니다",
-  "effect": "UPDRS 차이 -0.27점",
-  "tier": "trial",
-  "dir": "null",
-  "n": 336,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "Isradipine은 파킨슨병 치료의 허가 적응증이 아니다",
-  "why": "초기 파킨슨병 환자에게 이스라디핀과 위약을 36개월 투여한 다기관 무작위시험이다.",
-  "saw": "환자 336명을 무작위 배정했다. 36개월 UPDRS 변화는 isradipine 2.99점, 위약 3.26점으로 치료 효과는 -0.27점(P=0.85)이었다.",
-  "limit": "즉방형 용량이 신경보호 표적을 충분히 자극하지 못했을 가능성이 있다.",
-  "against": "운동·비운동 기능, 도파민 약 시작 시점과 삶의 질에서도 효과가 없었다.",
-  "use": "파킨슨병 질병수정 치료로서 효과가 없었던 임상시험 결과로만 기록한다.",
-  "refs": [
-    { "label": "Simuni 2020 · Annals of Internal Medicine · 무작위시험", "doi": "10.7326/M19-2534", "pmid": "32227247", "nct": "NCT02168842" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=isradipine, cond=Parkinson Disease · 4건",
-    "pubmed": "isradipine AND Parkinson Disease · 64편",
-    "negative": "isradipine AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 40편",
-    "safety": "isradipine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 292편"
+ "id": "isradipine-parkinson-disease-null",
+ "subj": "이스라디핀",
+ "claim": "초기 파킨슨병에서 이스라디핀은 36개월 임상 진행을 늦추지 못했다",
+ "line": "초기 파킨슨병 진행 억제 효과는 없었습니다",
+ "effect": "UPDRS 차이 -0.27점",
+ "tier": "trial",
+ "dir": "null",
+ "n": 336,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "Isradipine은 파킨슨병 치료의 허가 적응증이 아니다",
+ "why": "초기 파킨슨병 환자에게 이스라디핀과 위약을 36개월 투여한 다기관 무작위시험이다.",
+ "saw": "환자 336명을 무작위 배정했다. 36개월 UPDRS 변화는 이스라디핀 2.99점, 위약 3.26점으로 치료 효과는 -0.27점(P=0.85)이었다.",
+ "limit": "즉방형 용량이 신경보호 표적을 충분히 자극하지 못했을 가능성이 있다.",
+ "against": "운동·비운동 기능, 도파민 약 시작 시점과 삶의 질에서도 효과가 없었다.",
+ "use": "파킨슨병 질병수정 치료로서 효과가 없었던 임상시험 결과로만 기록한다.",
+ "refs": [
+  {
+   "label": "Simuni 2020 · Annals of Internal Medicine · 무작위시험",
+   "doi": "10.7326/M19-2534",
+   "pmid": "32227247",
+   "nct": "NCT02168842"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=isradipine, cond=Parkinson Disease · 4건",
+  "pubmed": "isradipine AND Parkinson Disease · 64편",
+  "negative": "isradipine AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 40편",
+  "safety": "isradipine AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 292편"
+ },
+ "vs": "이스라디핀 vs 위약: 초기 파킨슨병 36개월 RCT에서 UPDRS 변화 2.99(95% CI 0.95~5.03) vs 3.26(1.25~5.26), 치료효과 -0.27(-3.02~2.48; P=.85)로 진행을 늦추지 못했다."
 }

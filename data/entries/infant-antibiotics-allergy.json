@@ -1,37 +1,38 @@
 {
-  "id": "infant-antibiotics-allergy",
-  "subj": "항생제",
-  "claim": "영유아기 노출이 이후 알레르기와 관련 있다",
-  "line": "영국 아동에서 항생제 처방 뒤 천식·식품알레르기 연관성이 형제 비교 뒤에도 남았습니다",
-  "effect": "천식 1.24·식품알레르기 1.33",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 1091449,
-  "synth": "single",
-  "why": "대규모 전자의무기록 코호트가 가족 요인을 줄이는 형제 비교와 뼈 골절 음성 대조 결과를 함께 제시했습니다.",
-  "saw": "아동 1,091,449명에서 천식 위험비는 1.24, 식품알레르기는 1.33이었고 처방이 많을수록 연관이 커졌습니다. 형제 비교도 비슷했습니다.",
-  "limit": "감염 자체와 진단 과정의 차이가 남을 수 있는 관찰 연구입니다. 연관이 인과관계를 확정하지 않습니다.",
-  "against": "자가면역질환과 대부분의 신경발달·정신질환에서는 일관된 연관이 없었습니다. 비만 연관도 별도 형제·쌍둥이 연구에서 사라졌습니다.",
-  "use": "항생제 노출 뒤 모든 만성질환이 늘어난 것이 아니라 천식·알레르기 신호가 선택적으로 남았습니다.",
-  "refs": [
-    {
-      "label": "Kelly 2025 · J Infect Dis · 영국 형제 비교 코호트",
-      "doi": "10.1093/infdis/jiaf191",
-      "pmid": "40237450",
-      "pmc": "PMC12455317"
-    },
-    {
-      "label": "Leong 2020 · JAMA Netw Open · 비만 음성 형제 비교",
-      "doi": "10.1001/jamanetworkopen.2019.19681",
-      "pmid": "31968118",
-      "pmc": "PMC6991276"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=antibiotic, cond=infancy childhood allergy asthma → 1건 반환, InterventionName 대조 후 0건",
-    "pubmed": "infant antibiotic exposure childhood allergy asthma sibling cohort → 8건",
-    "negative": "infant antibiotics allergy asthma sibling AND (no association OR no effect OR negative OR no significant difference) → 30건",
-    "safety": "infant antibiotics allergy AND (adverse OR toxicity OR case report) → 1,197건"
+ "id": "infant-antibiotics-allergy",
+ "subj": "항생제",
+ "claim": "영유아기 노출이 이후 알레르기와 관련 있다",
+ "line": "영국 아동에서 항생제 처방 뒤 천식·식품알레르기 연관성이 형제 비교 뒤에도 남았습니다",
+ "effect": "천식 1.24·식품알레르기 1.33",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 1091449,
+ "synth": "single",
+ "why": "대규모 전자의무기록 코호트가 가족 요인을 줄이는 형제 비교와 뼈 골절 음성 대조 결과를 함께 제시했습니다.",
+ "saw": "아동 1,091,449명에서 천식 위험비는 1.24, 식품알레르기는 1.33이었고 처방이 많을수록 연관이 커졌습니다. 형제 비교도 비슷했습니다.",
+ "limit": "감염 자체와 진단 과정의 차이가 남을 수 있는 관찰 연구입니다. 연관이 인과관계를 확정하지 않습니다.",
+ "against": "자가면역질환과 대부분의 신경발달·정신질환에서는 일관된 연관이 없었습니다. 비만 연관도 별도 형제·쌍둥이 연구에서 사라졌습니다.",
+ "use": "항생제 노출 뒤 모든 만성질환이 늘어난 것이 아니라 천식·알레르기 신호가 선택적으로 남았습니다.",
+ "refs": [
+  {
+   "label": "Kelly 2025 · J Infect Dis · 영국 형제 비교 코호트",
+   "doi": "10.1093/infdis/jiaf191",
+   "pmid": "40237450",
+   "pmc": "PMC12455317"
+  },
+  {
+   "label": "Leong 2020 · JAMA Netw Open · 비만 음성 형제 비교",
+   "doi": "10.1001/jamanetworkopen.2019.19681",
+   "pmid": "31968118",
+   "pmc": "PMC6991276"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=antibiotic, cond=infancy childhood allergy asthma → 1건 반환, InterventionName 대조 후 0건",
+  "pubmed": "infant antibiotic exposure childhood allergy asthma sibling cohort → 8건",
+  "negative": "infant antibiotics allergy asthma sibling AND (no association OR no effect OR negative OR no significant difference) → 30건",
+  "safety": "infant antibiotics allergy AND (adverse OR toxicity OR case report) → 1,197건"
+ },
+ "vs": "영아기 항생제 처방 vs 비노출: 1,091,449명 후향 코호트에서 2세 이전 항생제 노출의 천식 HR 1.24(95% CI 1.22~1.26), 식품알레르기 HR 1.33(1.26~1.40), 알레르기비염 HR 1.06(1.03~1.10)이었다. 지적장애는 5회 이상 vs 1~2회 처방 HR 1.73(1.49~2.01)였다."
 }

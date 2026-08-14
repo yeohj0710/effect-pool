@@ -1,27 +1,35 @@
 {
-  "id": "itraconazole-solid-tumor-null",
-  "subj": "이트라코나졸",
-  "claim": "이트라코나졸이 고형암을 치료한다",
-  "line": "고형암에서 이트라코나졸은 약물 상호작용만 평가됐습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 59,
-  "synth": "single",
-  "why": "허가사항에 고형암 치료가 없습니다. 고형암 환자에게 이트라코나졸을 투여한 사람 시험은 있었지만 종양 반응이 아니라 약물상호작용을 측정했습니다.",
-  "saw": "PMID 27745744는 진행성 고형암 환자 59명을 대상으로 이트라코나졸이 올라파립의 약동학에 미치는 영향을 평가했습니다. 연구 결과는 올라파립 노출 변화와 안전성에 관한 것이며 종양 반응을 보고하지 않았습니다.",
-  "limit": "고형암 환자에게 투여했다는 사실만으로 항암효과를 판단할 수 없습니다. 약물상호작용 시험의 약동학 지표를 고형암 치료효과로 바꿔 해석할 수 없습니다.",
-  "against": "PMID 27745744 자체가 종양 결과가 아닌 약동학 시험이었고, 반대 검색 34건과 안전성 검색 21건을 확인했습니다.",
-  "use": "고형암에서 이트라코나졸의 항암효과는 확인되지 않은 것으로 기록하고 약물상호작용 자료와 분리해 읽어야 합니다.",
-  "refs": [
-    { "label": "Van der Noll 2016 · 진행성 고형암 이트라코나졸 약물상호작용 1상 연구", "pmid": "27745744", "nct": "NCT01900028" },
-    { "label": "Friedman 2015 · 이트라코나졸 항암제 재창출 검토", "pmid": "25932045" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구에 고형암 치료 적응증 없음",
-    "ctgov": "query.intr=itraconazole&query.cond=Solid Tumor → 32건 반환, InterventionName 대조 후 31건",
-    "pubmed": "itraconazole Solid Tumor → 51건",
-    "negative": "itraconazole Solid Tumor (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 34건",
-    "safety": "itraconazole Solid Tumor (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 21건"
+ "id": "itraconazole-solid-tumor-null",
+ "subj": "이트라코나졸",
+ "claim": "이트라코나졸이 고형암을 치료한다",
+ "line": "고형암에서 이트라코나졸은 약물 상호작용만 평가됐습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 59,
+ "synth": "single",
+ "why": "허가사항에 고형암 치료가 없습니다. 고형암 환자에게 이트라코나졸을 투여한 사람 시험은 있었지만 종양 반응이 아니라 약물상호작용을 측정했습니다.",
+ "saw": "PMID 27745744는 진행성 고형암 환자 59명을 대상으로 이트라코나졸이 올라파립의 약동학에 미치는 영향을 평가했습니다. 연구 결과는 올라파립 노출 변화와 안전성에 관한 것이며 종양 반응을 보고하지 않았습니다.",
+ "limit": "고형암 환자에게 투여했다는 사실만으로 항암효과를 판단할 수 없습니다. 약물상호작용 시험의 약동학 지표를 고형암 치료효과로 바꿔 해석할 수 없습니다.",
+ "against": "PMID 27745744 자체가 종양 결과가 아닌 약동학 시험이었고, 반대 검색 34건과 안전성 검색 21건을 확인했습니다.",
+ "use": "고형암에서 이트라코나졸의 항암효과는 확인되지 않은 것으로 기록하고 약물상호작용 자료와 분리해 읽어야 합니다.",
+ "refs": [
+  {
+   "label": "Van der Noll 2016 · 진행성 고형암 이트라코나졸 약물상호작용 1상 연구",
+   "pmid": "27745744",
+   "nct": "NCT01900028"
+  },
+  {
+   "label": "Friedman 2015 · 이트라코나졸 항암제 재창출 검토",
+   "pmid": "25932045"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구에 고형암 치료 적응증 없음",
+  "ctgov": "query.intr=itraconazole&query.cond=Solid Tumor → 32건 반환, InterventionName 대조 후 31건",
+  "pubmed": "itraconazole Solid Tumor → 51건",
+  "negative": "itraconazole Solid Tumor (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 34건",
+  "safety": "itraconazole Solid Tumor (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 21건"
+ },
+ "vs": "이트라코나졸 병용 vs 올라파립 단독: 진행성 고형암 약동학 시험에서 올라파립 Cmax 비 1.42(90% CI 1.33~1.52), AUC 비 2.70(2.44~2.97)이었다. 리팜핀 병용에서는 Cmax 비 0.29(0.24~0.33), AUC 비 0.13(0.11~0.16)이었다."
 }

@@ -1,28 +1,35 @@
 {
-  "id": "irbesartan-left-atrial-volume-pos",
-  "subj": "이르베사르탄",
-  "claim": "이르베사르탄이 좌심방 용적을 줄인다",
-  "line": "고혈압에서 이르베사르탄은 좌심방 용적을 줄였습니다",
-  "effect": "좌심방 용적지수↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 48,
-  "synth": "single",
-  "why": "무작위 비교시험이 치료받지 않은 고혈압 환자에서 이르베사르탄의 좌심방 역재형성을 평가했습니다.",
-  "saw": "PMID 24060523의 고혈압 환자 48명 시험에서 이르베사르탄군 26명은 12개월 뒤 좌심방 용적 지수와 알도스테론이 유의하게 감소했습니다. 혈압은 암로디핀군과 비슷하게 낮아졌습니다.",
-  "limit": "소규모 단일시험이고 좌심방 용적이라는 대리지표만 측정했습니다. 심방세동·심부전·뇌졸중 같은 임상 사건 감소를 보여준 근거는 아닙니다.",
-  "against": "별도 160명 비교시험에서는 이르베사르탄과 네비볼롤 사이 좌심방 지표 차이가 없었습니다. 반대 검색 6건과 안전성 검색 2건도 확인했습니다.",
-  "use": "고혈압 환자의 심초음파 대리지표 변화로 기록하고 임상 사건 예방 효과로 확대하지 말아야 합니다.",
-  "refs": [
-    { "label": "Masaki 2014 · 고혈압에서 이르베사르탄의 좌심방 용적 무작위 비교시험", "pmid": "24060523" },
-    { "label": "Degirmenci 2014 · 이르베사르탄과 네비볼롤의 좌심방 지표 비교시험", "pmid": "24706300" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"IRBESARTAN\" → 64건 반환; 허가 문구는 고혈압·당뇨병성 신병증이며 좌심방 용적 적응증 없음",
-    "ctgov": "query.intr=irbesartan&query.cond=Left Atrial Volume → 1건 반환, InterventionName 대조 후 1건",
-    "pubmed": "irbesartan Left Atrial Volume → 14건",
-    "negative": "irbesartan Left Atrial Volume (no effect OR did not OR failed to OR negative OR no significant difference) → 6건",
-    "safety": "irbesartan Left Atrial Volume (adverse OR toxicity OR case report) → 2건"
+ "id": "irbesartan-left-atrial-volume-pos",
+ "subj": "이르베사르탄",
+ "claim": "이르베사르탄이 좌심방 용적을 줄인다",
+ "line": "고혈압에서 이르베사르탄은 좌심방 용적을 줄였습니다",
+ "effect": "좌심방 용적지수↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 48,
+ "synth": "single",
+ "why": "무작위 비교시험이 치료받지 않은 고혈압 환자에서 이르베사르탄의 좌심방 역재형성을 평가했습니다.",
+ "saw": "PMID 24060523의 고혈압 환자 48명 시험에서 이르베사르탄군 26명은 12개월 뒤 좌심방 용적 지수와 알도스테론이 유의하게 감소했습니다. 혈압은 암로디핀군과 비슷하게 낮아졌습니다.",
+ "limit": "소규모 단일시험이고 좌심방 용적이라는 대리지표만 측정했습니다. 심방세동·심부전·뇌졸중 같은 임상 사건 감소를 보여준 근거는 아닙니다.",
+ "against": "별도 160명 비교시험에서는 이르베사르탄과 네비볼롤 사이 좌심방 지표 차이가 없었습니다. 반대 검색 6건과 안전성 검색 2건도 확인했습니다.",
+ "use": "고혈압 환자의 심초음파 대리지표 변화로 기록하고 임상 사건 예방 효과로 확대하지 말아야 합니다.",
+ "refs": [
+  {
+   "label": "Masaki 2014 · 고혈압에서 이르베사르탄의 좌심방 용적 무작위 비교시험",
+   "pmid": "24060523"
+  },
+  {
+   "label": "Degirmenci 2014 · 이르베사르탄과 네비볼롤의 좌심방 지표 비교시험",
+   "pmid": "24706300"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"IRBESARTAN\" → 64건 반환; 허가 문구는 고혈압·당뇨병성 신병증이며 좌심방 용적 적응증 없음",
+  "ctgov": "query.intr=irbesartan&query.cond=Left Atrial Volume → 1건 반환, InterventionName 대조 후 1건",
+  "pubmed": "irbesartan Left Atrial Volume → 14건",
+  "negative": "irbesartan Left Atrial Volume (no effect OR did not OR failed to OR negative OR no significant difference) → 6건",
+  "safety": "irbesartan Left Atrial Volume (adverse OR toxicity OR case report) → 2건"
+ },
+ "vs": "이르베사르탄 vs 암로디핀: 고혈압 무작위시험에서 12개월 좌심방 용적지수 변화 -16±8% vs +22±9%(P<.01), 혈장 알도스테론 변화 -16±9% vs +11±9%(P<.05)였다."
 }

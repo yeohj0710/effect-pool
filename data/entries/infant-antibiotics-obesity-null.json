@@ -1,30 +1,31 @@
 {
-  "id": "infant-antibiotics-obesity-null",
-  "subj": "항생제",
-  "claim": "영유아기 노출이 이후 비만과 관련 있다",
-  "line": "아동 15만 명에서 보인 비만 연관성은 형제·쌍둥이 비교 뒤 사라졌습니다",
-  "tier": "obs",
-  "dir": "null",
-  "n": 150699,
-  "synth": "single",
-  "why": "뉴질랜드 전국 자료에서 일반 보정 분석 뒤 노출이 다른 형제와 쌍둥이를 다시 비교했습니다.",
-  "saw": "아동 150,699명의 일반 분석에서는 처방 횟수와 4세 비만이 연관됐습니다. 결과가 다른 형제 6,249명과 쌍둥이 522명 비교에서는 연관이 없었습니다.",
-  "limit": "처방 기록은 실제 복용과 감염 중증도를 완전히 담지 못합니다. 가족 내 비교도 형제마다 다른 감염을 모두 걷어내지는 못합니다.",
-  "against": "여러 일반 코호트는 항생제 노출 뒤 비만 증가를 보고했습니다. 가족 요인을 통제한 분석은 그 연관을 재현하지 못했습니다.",
-  "use": "항생제가 장내미생물을 바꾼다는 기전만으로 사람 비만의 원인이라고 결론 내릴 수 없습니다.",
-  "refs": [
-    {
-      "label": "Leong 2020 · JAMA Netw Open · 형제·쌍둥이 비교",
-      "doi": "10.1001/jamanetworkopen.2019.19681",
-      "pmid": "31968118",
-      "pmc": "PMC6991276"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=antibiotic, cond=infancy childhood obesity → 0건 반환, 대조할 InterventionName 없음",
-    "pubmed": "infant antibiotic exposure childhood obesity sibling cohort → 4건",
-    "negative": "infant antibiotics childhood obesity sibling AND (no association OR no effect OR negative OR no significant difference) → 7건",
-    "safety": "infant antibiotics obesity AND (adverse OR toxicity OR case report) → 132건"
+ "id": "infant-antibiotics-obesity-null",
+ "subj": "항생제",
+ "claim": "영유아기 노출이 이후 비만과 관련 있다",
+ "line": "아동 15만 명에서 보인 비만 연관성은 형제·쌍둥이 비교 뒤 사라졌습니다",
+ "tier": "obs",
+ "dir": "null",
+ "n": 150699,
+ "synth": "single",
+ "why": "뉴질랜드 전국 자료에서 일반 보정 분석 뒤 노출이 다른 형제와 쌍둥이를 다시 비교했습니다.",
+ "saw": "아동 150,699명의 일반 분석에서는 처방 횟수와 4세 비만이 연관됐습니다. 결과가 다른 형제 6,249명과 쌍둥이 522명 비교에서는 연관이 없었습니다.",
+ "limit": "처방 기록은 실제 복용과 감염 중증도를 완전히 담지 못합니다. 가족 내 비교도 형제마다 다른 감염을 모두 걷어내지는 못합니다.",
+ "against": "여러 일반 코호트는 항생제 노출 뒤 비만 증가를 보고했습니다. 가족 요인을 통제한 분석은 그 연관을 재현하지 못했습니다.",
+ "use": "항생제가 장내미생물을 바꾼다는 기전만으로 사람 비만의 원인이라고 결론 내릴 수 없습니다.",
+ "refs": [
+  {
+   "label": "Leong 2020 · JAMA Netw Open · 형제·쌍둥이 비교",
+   "doi": "10.1001/jamanetworkopen.2019.19681",
+   "pmid": "31968118",
+   "pmc": "PMC6991276"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=antibiotic, cond=infancy childhood obesity → 0건 반환, 대조할 InterventionName 없음",
+  "pubmed": "infant antibiotic exposure childhood obesity sibling cohort → 4건",
+  "negative": "infant antibiotics childhood obesity sibling AND (no association OR no effect OR negative OR no significant difference) → 7건",
+  "safety": "infant antibiotics obesity AND (adverse OR toxicity OR case report) → 132건"
+ },
+ "vs": "임신·영아기 항생제 노출 vs 비노출: 150,699명 분석에서 아동 항생제 노출과 4세 비만의 조정 OR는 형제 비교 1.04(95% CI 1.03~1.05), 쌍둥이 비교 1.05(1.02~1.09)였지만 고정효과 형제·쌍둥이 분석에서는 연관성이 없었다(형제 OR 0.95, 0.90~1.00)."
 }

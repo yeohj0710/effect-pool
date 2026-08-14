@@ -1,27 +1,35 @@
 {
-  "id": "itraconazole-hiv-infection-null",
-  "subj": "이트라코나졸",
-  "claim": "이트라코나졸이 HIV 감염을 치료한다",
-  "line": "이트라코나졸은 HIV 치료제가 아니었습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 120,
-  "synth": "single",
-  "why": "허가사항은 HIV 감염 자체가 아니라 특정 진균 감염입니다. HIV 양성 환자의 칸디다 식도염을 치료한 무작위시험은 있지만 HIV 바이러스 치료시험은 아닙니다.",
-  "saw": "PMID 8520033은 HIV 양성 칸디다 식도염 환자 120명을 대상으로 플루코나졸과 이트라코나졸을 비교했습니다. 임상 관해율은 비슷했지만 내시경상 완전 관해는 이트라코나졸군에서 더 낮았고 HIV 바이러스량은 측정하지 않았습니다.",
-  "limit": "칸디다 식도염이라는 기회감염의 치료 결과를 HIV 감염 자체의 바이러스 억제나 생존 결과로 일반화할 수 없습니다. 이트라코나졸 단독 효과가 아닌 비교시험도 포함됩니다.",
-  "against": "PMID 8520033에서 이트라코나졸군의 내시경상 완전 관해율이 비교약보다 낮았고, 반대 검색 476건과 안전성 검색 207건을 확인했습니다.",
-  "use": "HIV 환자의 특정 진균 감염 자료와 HIV 자체 치료 주장을 분리해 기록해야 합니다.",
-  "refs": [
-    { "label": "Cefalo 1995 · AIDS 환자 칸디다 식도염 이트라코나졸 비교시험", "pmid": "8520033" },
-    { "label": "Graybill 1998 · HIV 감염 구강·식도 칸디다증 이트라코나졸 위약시험", "pmid": "10695098", "nct": "NCT00002132" }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구는 진균 감염이며 HIV 감염 자체 적응증 없음",
-    "ctgov": "query.intr=itraconazole&query.cond=HIV Infection → 15건 반환, InterventionName 대조 후 12건",
-    "pubmed": "itraconazole HIV Infection → 923건",
-    "negative": "itraconazole HIV Infection (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 476건",
-    "safety": "itraconazole HIV Infection (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 207건"
+ "id": "itraconazole-hiv-infection-null",
+ "subj": "이트라코나졸",
+ "claim": "이트라코나졸이 HIV 감염을 치료한다",
+ "line": "이트라코나졸은 HIV 치료제가 아니었습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 120,
+ "synth": "single",
+ "why": "허가사항은 HIV 감염 자체가 아니라 특정 진균 감염입니다. HIV 양성 환자의 칸디다 식도염을 치료한 무작위시험은 있지만 HIV 바이러스 치료시험은 아닙니다.",
+ "saw": "PMID 8520033은 HIV 양성 칸디다 식도염 환자 120명을 대상으로 플루코나졸과 이트라코나졸을 비교했습니다. 임상 관해율은 비슷했지만 내시경상 완전 관해는 이트라코나졸군에서 더 낮았고 HIV 바이러스량은 측정하지 않았습니다.",
+ "limit": "칸디다 식도염이라는 기회감염의 치료 결과를 HIV 감염 자체의 바이러스 억제나 생존 결과로 일반화할 수 없습니다. 이트라코나졸 단독 효과가 아닌 비교시험도 포함됩니다.",
+ "against": "PMID 8520033에서 이트라코나졸군의 내시경상 완전 관해율이 비교약보다 낮았고, 반대 검색 476건과 안전성 검색 207건을 확인했습니다.",
+ "use": "HIV 환자의 특정 진균 감염 자료와 HIV 자체 치료 주장을 분리해 기록해야 합니다.",
+ "refs": [
+  {
+   "label": "Cefalo 1995 · AIDS 환자 칸디다 식도염 이트라코나졸 비교시험",
+   "pmid": "8520033"
+  },
+  {
+   "label": "Graybill 1998 · HIV 감염 구강·식도 칸디다증 이트라코나졸 위약시험",
+   "pmid": "10695098",
+   "nct": "NCT00002132"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"ITRACONAZOLE\" → 15건 반환; 허가 문구는 진균 감염이며 HIV 감염 자체 적응증 없음",
+  "ctgov": "query.intr=itraconazole&query.cond=HIV Infection → 15건 반환, InterventionName 대조 후 12건",
+  "pubmed": "itraconazole HIV Infection → 923건",
+  "negative": "itraconazole HIV Infection (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 476건",
+  "safety": "itraconazole HIV Infection (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) → 207건"
+ },
+ "vs": "이트라코나졸 vs 플루코나졸/위약: AIDS 식도칸디다증 RCT에서 내시경 완전관해 38%(23/60) vs 플루코나졸 75%(45/60; P<.001)였고, 임상 완전관해는 73% vs 78%였다. 예방 단계에서는 위약군 재발이 더 많았다(P=.0001)."
 }
