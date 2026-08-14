@@ -1,37 +1,38 @@
 {
-  "id": "clonidine-anesthesia",
-  "subj": "클로니딘",
-  "claim": "혈압약을 수술 마취 전후에 쓴다",
-  "line": "수술 전후 클로니딘은 통증과 오심을 줄였지만 저혈압은 늘렸다.",
-  "effect": "오심·진통제 사용량↓",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 14790,
-  "synth": "meta",
-  "why": "성인 수술 환자를 대상으로 한 클로니딘 무작위시험 57편을 합친 체계적 문헌고찰과 메타분석입니다.",
-  "saw": "총 14,790명에서 클로니딘은 진통제 사용량, 수술 뒤 오심·구토, 떨림을 줄이고 혈역학적 안정성을 높였지만 신장·심장 결과에는 영향이 없었습니다.",
-  "limit": "수술 종류와 연구 방법의 차이가 컸고, 통증·오심 이득이 모든 수술과 환자군에 같은지는 확실하지 않습니다.",
-  "against": "다른 메타분석에서도 통증과 진통제 사용은 줄었지만 수술 중·뒤 저혈압 위험이 늘었고 만성 통증 효과는 측정되지 않았습니다.",
-  "use": "수술 전후 보조 진통 근거는 있지만 저혈압 위험을 감수할지 환자별로 판단합니다.",
-  "refs": [
-    {
-      "label": "Mantz 2017 · Journal of Clinical Anesthesia · 클로니딘 수술 메타분석",
-      "doi": "10.1016/j.jclinane.2017.02.003",
-      "pmid": "28372656"
-    },
-    {
-      "label": "Moffitt 2012 · Anesthesiology · 수술 전후 알파2 작용제 메타분석",
-      "doi": "10.1097/ALN.0b013e31825681cb",
-      "pmid": "22546966"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=clonidine, cond=Anesthesia → 65건 반환, InterventionName 대조 후 36건",
-    "pubmed": "clonidine anesthesia → 2,273건",
-    "negative": "clonidine anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,921건",
-    "safety": "clonidine anesthesia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 802건"
+ "id": "clonidine-anesthesia",
+ "subj": "클로니딘",
+ "claim": "혈압약을 수술 마취 전후에 쓴다",
+ "line": "수술 전후 클로니딘은 통증과 오심을 줄였지만 저혈압은 늘렸다.",
+ "effect": "오심·진통제 사용량↓",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 14790,
+ "synth": "meta",
+ "why": "성인 수술 환자를 대상으로 한 클로니딘 무작위시험 57편을 합친 체계적 문헌고찰과 메타분석입니다.",
+ "saw": "총 14,790명에서 클로니딘은 진통제 사용량, 수술 뒤 오심·구토, 떨림을 줄이고 혈역학적 안정성을 높였지만 신장·심장 결과에는 영향이 없었습니다.",
+ "limit": "수술 종류와 연구 방법의 차이가 컸고, 통증·오심 이득이 모든 수술과 환자군에 같은지는 확실하지 않습니다.",
+ "against": "다른 메타분석에서도 통증과 진통제 사용은 줄었지만 수술 중·뒤 저혈압 위험이 늘었고 만성 통증 효과는 측정되지 않았습니다.",
+ "use": "수술 전후 보조 진통 근거는 있지만 저혈압 위험을 감수할지 환자별로 판단합니다.",
+ "refs": [
+  {
+   "label": "Mantz 2017 · Journal of Clinical Anesthesia · 클로니딘 수술 메타분석",
+   "doi": "10.1016/j.jclinane.2017.02.003",
+   "pmid": "28372656"
   },
-  "known": "standard",
-  "knownWhy": "마취 보조로 널리 씀"
+  {
+   "label": "Moffitt 2012 · Anesthesiology · 수술 전후 알파2 작용제 메타분석",
+   "doi": "10.1097/ALN.0b013e31825681cb",
+   "pmid": "22546966"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "ctgov": "intr=clonidine, cond=Anesthesia → 65건 반환, InterventionName 대조 후 36건",
+  "pubmed": "clonidine anesthesia → 2,273건",
+  "negative": "clonidine anesthesia AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1,921건",
+  "safety": "clonidine anesthesia AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 802건"
+ },
+ "known": "standard",
+ "knownWhy": "마취 보조로 널리 씀",
+ "vs": "수술 전후 클로니딘 vs 위약: 오심·구토 RR .35 (95% CI .25~.51), 수술 후 떨림 RR .17 (.10~.29), 57개 무작위시험 14,790명"
 }

@@ -1,36 +1,37 @@
 {
-  "id": "clonidine-intensive-care-neonatal-null",
-  "subj": "클로니딘",
-  "claim": "혈압약을 신생아 중환자실 진정에 쓴다",
-  "line": "신생아 중환자실 진정에서 클로니딘은 전체 진정제 요구량을 바꾸지 않았다.",
-  "effect": "진정제 요구량 전체 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 219,
-  "synth": "single",
-  "why": "클로니딘의 허가사항은 고혈압이며 신생아 중환자실의 진정·진통은 허가 적응증이 아닙니다.",
-  "saw": "인공호흡 중인 신생아·영아 219명을 무작위 배정한 다기관 시험에서 전체 집단의 펜타닐·미다졸람 요구량은 클로니딘과 위약 사이에 차이가 없었습니다. 생후 1~28일 하위군 112명에서는 두 약물 요구량이 줄었습니다.",
-  "limit": "전체 결과는 음성이고 가장 어린 하위군에서만 양성 탐색 결과가 나왔습니다. 사망·기계환기 기간도 확실히 개선되지 않았습니다.",
-  "against": "반대 검색 32건. Cochrane 검토도 포함시험 1편, 112명뿐이라 신생아 진정·진통의 효과와 안전성 근거가 부족하다고 결론냈습니다.",
-  "use": "가장 어린 신생아 하위군에서 진정제 감소 신호가 있었지만, 신생아 중환자실 전체에 사용할 근거는 부족합니다.",
-  "refs": [
-    {
-      "label": "Wolf 2014 · Crit Care Med · 인공호흡 신생아 클로니딘 RCT",
-      "doi": "10.1097/PCC.0000000000000151",
-      "pmid": "24751788"
-    },
-    {
-      "label": "Rao 2017 · Cochrane Database Syst Rev · 신생아 인공호흡 클로니딘 검토",
-      "doi": "10.1002/14651858.CD012468.pub2",
-      "pmid": "28488361"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "fda": "openFDA drug label openfda.substance_name:\"CLONIDINE\" → 127건, 고혈압 적응증 확인",
-    "ctgov": "query.intr=clonidine&query.cond=Intensive Care, Neonatal → 1건 반환, InterventionName 대조 후 clonidine 1건",
-    "pubmed": "clonidine Intensive Care Neonatal → 50건",
-    "negative": "clonidine Intensive Care Neonatal (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 32건",
-    "safety": "clonidine Intensive Care Neonatal (adverse OR toxicity OR case report OR overdose OR self-medication) → 28건"
+ "id": "clonidine-intensive-care-neonatal-null",
+ "subj": "클로니딘",
+ "claim": "혈압약을 신생아 중환자실 진정에 쓴다",
+ "line": "신생아 중환자실 진정에서 클로니딘은 전체 진정제 요구량을 바꾸지 않았다.",
+ "effect": "진정제 요구량 전체 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 219,
+ "synth": "single",
+ "why": "클로니딘의 허가사항은 고혈압이며 신생아 중환자실의 진정·진통은 허가 적응증이 아닙니다.",
+ "saw": "인공호흡 중인 신생아·영아 219명을 무작위 배정한 다기관 시험에서 전체 집단의 펜타닐·미다졸람 요구량은 클로니딘과 위약 사이에 차이가 없었습니다. 생후 1~28일 하위군 112명에서는 두 약물 요구량이 줄었습니다.",
+ "limit": "전체 결과는 음성이고 가장 어린 하위군에서만 양성 탐색 결과가 나왔습니다. 사망·기계환기 기간도 확실히 개선되지 않았습니다.",
+ "against": "반대 검색 32건. Cochrane 검토도 포함시험 1편, 112명뿐이라 신생아 진정·진통의 효과와 안전성 근거가 부족하다고 결론냈습니다.",
+ "use": "가장 어린 신생아 하위군에서 진정제 감소 신호가 있었지만, 신생아 중환자실 전체에 사용할 근거는 부족합니다.",
+ "refs": [
+  {
+   "label": "Wolf 2014 · Crit Care Med · 인공호흡 신생아 클로니딘 RCT",
+   "doi": "10.1097/PCC.0000000000000151",
+   "pmid": "24751788"
+  },
+  {
+   "label": "Rao 2017 · Cochrane Database Syst Rev · 신생아 인공호흡 클로니딘 검토",
+   "doi": "10.1002/14651858.CD012468.pub2",
+   "pmid": "28488361"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "fda": "openFDA drug label openfda.substance_name:\"CLONIDINE\" → 127건, 고혈압 적응증 확인",
+  "ctgov": "query.intr=clonidine&query.cond=Intensive Care, Neonatal → 1건 반환, InterventionName 대조 후 clonidine 1건",
+  "pubmed": "clonidine Intensive Care Neonatal → 50건",
+  "negative": "clonidine Intensive Care Neonatal (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 32건",
+  "safety": "clonidine Intensive Care Neonatal (adverse OR toxicity OR case report OR overdose OR self-medication) → 28건"
+ },
+ "vs": "신생아·영아 클로니딘 vs 위약: 신생아군 펜타닐 2.1±1.8 vs 3.2±3.1µg/kg/h, 미다졸람 113.0±100.1 vs 180.2±204.0µg/kg/h, p=.032/.030; 무작위시험 219명"
 }
