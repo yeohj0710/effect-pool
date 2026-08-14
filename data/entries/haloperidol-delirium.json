@@ -1,31 +1,32 @@
 {
-  "id": "haloperidol-delirium",
-  "subj": "할로페리돌",
-  "claim": "할로페리돌이 섬망에 듣는다",
-  "line": "할로페리돌은 중환자 섬망 없는 생존 일수를 늘리지 못했다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 566,
-  "synth": "single",
-  "why": "중환자실 섬망 환자를 할로페리돌·지프라시돈·위약에 무작위 배정한 MIND-USA 시험을 확인했습니다.",
-  "saw": "섬망 환자 566명에서 할로페리돌군의 섬망·혼수 없이 생존한 일수는 위약군과 유의한 차이가 없었고 2차 결과도 달라지지 않았습니다.",
-  "limit": "급성 호흡부전·쇼크로 중환자실에 입원한 섬망 환자 결과이며 다른 섬망 원인이나 예방 효과로 일반화할 수 없습니다.",
-  "against": "반대 검색 577건을 확인했습니다. MIND-USA 무작위 위약대조시험은 할로페리돌이 섬망 기간을 유의하게 바꾸지 못했다고 결론냈습니다.",
-  "use": "중환자 섬망의 기간을 줄이는 치료제로 표시하지 말고, 위약과 차이가 없었던 대규모 시험 결과로 설명해야 합니다.",
-  "refs": [
-    {
-      "label": "Girard 2018 · New England Journal of Medicine · 중환자 섬망 할로페리돌 위약대조시험",
-      "doi": "10.1056/NEJMoa1808217",
-      "pmid": "30346242",
-      "nct": "NCT01211522"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openfda.substance_name:HALOPERIDOL → 108건; 허가 문구는 정신병적 장애의 증상 조절과 투렛장애 틱이며 섬망 별도 적응증 없음",
-    "ctgov": "query.intr=haloperidol&query.cond=Delirium&countTotal=true&pageSize=50 → 42건 반환, InterventionName 대조 후 haloperidol 일치 33건",
-    "pubmed": "haloperidol AND Delirium → 898건",
-    "negative": "haloperidol AND Delirium AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 577건",
-    "safety": "haloperidol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,755건"
+ "id": "haloperidol-delirium",
+ "subj": "할로페리돌",
+ "claim": "할로페리돌이 섬망에 듣는다",
+ "line": "할로페리돌은 중환자 섬망 없는 생존 일수를 늘리지 못했다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 566,
+ "synth": "single",
+ "why": "중환자실 섬망 환자를 할로페리돌·지프라시돈·위약에 무작위 배정한 MIND-USA 시험을 확인했습니다.",
+ "saw": "섬망 환자 566명에서 할로페리돌군의 섬망·혼수 없이 생존한 일수는 위약군과 유의한 차이가 없었고 2차 결과도 달라지지 않았습니다.",
+ "limit": "급성 호흡부전·쇼크로 중환자실에 입원한 섬망 환자 결과이며 다른 섬망 원인이나 예방 효과로 일반화할 수 없습니다.",
+ "against": "반대 검색 577건을 확인했습니다. MIND-USA 무작위 위약대조시험은 할로페리돌이 섬망 기간을 유의하게 바꾸지 못했다고 결론냈습니다.",
+ "use": "중환자 섬망의 기간을 줄이는 치료제로 표시하지 말고, 위약과 차이가 없었던 대규모 시험 결과로 설명해야 합니다.",
+ "refs": [
+  {
+   "label": "Girard 2018 · New England Journal of Medicine · 중환자 섬망 할로페리돌 위약대조시험",
+   "doi": "10.1056/NEJMoa1808217",
+   "pmid": "30346242",
+   "nct": "NCT01211522"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openfda.substance_name:HALOPERIDOL → 108건; 허가 문구는 정신병적 장애의 증상 조절과 투렛장애 틱이며 섬망 별도 적응증 없음",
+  "ctgov": "query.intr=haloperidol&query.cond=Delirium&countTotal=true&pageSize=50 → 42건 반환, InterventionName 대조 후 haloperidol 일치 33건",
+  "pubmed": "haloperidol AND Delirium → 898건",
+  "negative": "haloperidol AND Delirium AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 577건",
+  "safety": "haloperidol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 6,755건"
+ },
+ "vs": "할로페리돌 vs 위약: 중환자 섬망 RCT에서 섬망·혼수 없이 생존한 중앙 일수 7.9일 vs 8.5일, OR 0.88(95% CI 0.64~1.21); 차이 없음(P=.26)."
 }

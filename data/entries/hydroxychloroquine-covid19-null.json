@@ -1,37 +1,38 @@
 {
-  "id": "hydroxychloroquine-covid19-null",
-  "subj": "하이드록시클로로퀸",
-  "claim": "COVID-19 입원 환자에서 하이드록시클로로퀸은 사망률을 낮추지 못했다",
-  "line": "COVID-19 입원 환자의 사망률은 하이드록시클로로퀸으로 줄지 않았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 4716,
-  "synth": "single",
-  "why": "하이드록시클로로퀸의 허가사항은 말라리아와 류마티스관절염·루푸스이며 COVID-19 치료는 허가 적응증이 아닙니다.",
-  "saw": "PMID33031652의 COVID-19 입원 환자 4,716명 무작위시험에서 하이드록시클로로퀸은 일반 치료보다 28일 사망률을 낮추지 못했습니다.",
-  "limit": "입원 환자의 사망률을 주로 평가한 결과라 감염 예방과 경증 외래 환자의 회복에는 직접 적용할 수 없습니다.",
-  "against": "반대 검색 2,324건. 초기 관찰연구와 소규모 연구는 이득을 시사했지만, PMID33264556의 다국가 무작위시험에서도 하이드록시클로로퀸의 사망률 개선은 없었습니다.",
-  "use": "COVID-19 입원 환자의 사망을 줄이기 위해 하이드록시클로로퀸을 사용할 근거는 부족합니다.",
-  "refs": [
-    {
-      "label": "New England Journal of Medicine 2020 · COVID-19 입원 환자 하이드록시클로로퀸 무작위시험",
-      "doi": "10.1056/NEJMoa2022926",
-      "pmid": "33031652",
-      "pmc": "PMC7556338"
-    },
-    {
-      "label": "New England Journal of Medicine 2021 · WHO Solidarity 무작위시험",
-      "doi": "10.1056/NEJMoa2023184",
-      "pmid": "33264556",
-      "pmc": "PMC7727327"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openFDA drug label openfda.substance_name:\"HYDROXYCHLOROQUINE\" · 50건",
-    "ctgov": "query.intr=hydroxychloroquine&query.cond=Covid19 · 263건, 반환 100건, InterventionName에 hydroxychloroquine 포함 72건",
-    "pubmed": "hydroxychloroquine Covid19 · 4,003건",
-    "negative": "hydroxychloroquine Covid19 (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 2,324건",
-    "safety": "hydroxychloroquine Covid19 (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 1,344건"
+ "id": "hydroxychloroquine-covid19-null",
+ "subj": "하이드록시클로로퀸",
+ "claim": "COVID-19 입원 환자에서 하이드록시클로로퀸은 사망률을 낮추지 못했다",
+ "line": "COVID-19 입원 환자의 사망률은 하이드록시클로로퀸으로 줄지 않았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 4716,
+ "synth": "single",
+ "why": "하이드록시클로로퀸의 허가사항은 말라리아와 류마티스관절염·루푸스이며 COVID-19 치료는 허가 적응증이 아닙니다.",
+ "saw": "PMID33031652의 COVID-19 입원 환자 4,716명 무작위시험에서 하이드록시클로로퀸은 일반 치료보다 28일 사망률을 낮추지 못했습니다.",
+ "limit": "입원 환자의 사망률을 주로 평가한 결과라 감염 예방과 경증 외래 환자의 회복에는 직접 적용할 수 없습니다.",
+ "against": "반대 검색 2,324건. 초기 관찰연구와 소규모 연구는 이득을 시사했지만, PMID33264556의 다국가 무작위시험에서도 하이드록시클로로퀸의 사망률 개선은 없었습니다.",
+ "use": "COVID-19 입원 환자의 사망을 줄이기 위해 하이드록시클로로퀸을 사용할 근거는 부족합니다.",
+ "refs": [
+  {
+   "label": "New England Journal of Medicine 2020 · COVID-19 입원 환자 하이드록시클로로퀸 무작위시험",
+   "doi": "10.1056/NEJMoa2022926",
+   "pmid": "33031652",
+   "pmc": "PMC7556338"
+  },
+  {
+   "label": "New England Journal of Medicine 2021 · WHO Solidarity 무작위시험",
+   "doi": "10.1056/NEJMoa2023184",
+   "pmid": "33264556",
+   "pmc": "PMC7727327"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openFDA drug label openfda.substance_name:\"HYDROXYCHLOROQUINE\" · 50건",
+  "ctgov": "query.intr=hydroxychloroquine&query.cond=Covid19 · 263건, 반환 100건, InterventionName에 hydroxychloroquine 포함 72건",
+  "pubmed": "hydroxychloroquine Covid19 · 4,003건",
+  "negative": "hydroxychloroquine Covid19 (no effect OR did not OR failed to OR negative OR \"no significant difference\") · 2,324건",
+  "safety": "hydroxychloroquine Covid19 (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR self-medication) · 1,344건"
+ },
+ "vs": "하이드록시클로로퀸 vs 일반치료: WHO Solidarity RCT에서 사망 rate ratio 1.19(95% CI 0.89~1.59; P=.23), 유효성이 확립되지 않았다."
 }

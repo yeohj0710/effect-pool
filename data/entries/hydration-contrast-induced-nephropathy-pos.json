@@ -1,26 +1,32 @@
 {
-  "id": "hydration-contrast-induced-nephropathy-pos",
-  "subj": "hydration",
-  "claim": "조영제 검사에서 수화에 NAC를 더하면 급성 신손상을 줄인다",
-  "line": "조영제 검사에서 수화에 약물을 더하자 급성 신손상이 줄었습니다.",
-  "effect": "급성 신손상 15.0%→2.5%",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 240,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "조영제 검사 전후 수화에 NAC를 더하는 것은 급성 신손상의 허가 적응증이 아닌 예방 연구입니다.",
-  "why": "조영 CT 또는 혈관조영술을 받은 성인 240명을 수화 단독, 수화·NAC, 수화·탄산수소나트륨군에 80명씩 배정한 단일기관 후향적 분석입니다.",
-  "saw": "급성 신손상은 수화 단독군 15.0%, 수화·NAC군 2.5%, 수화·탄산수소나트륨군 7.5%였습니다. 수화·NAC군은 수화 단독군보다 위험이 유의하게 낮았습니다.",
-  "limit": "후향적 단일기관 연구이고 수화 자체가 아니라 NAC 추가를 비교했습니다. 큰 다기관 전향시험이 필요합니다.",
-  "against": "탄산수소나트륨 추가는 수화 단독보다 수치상 낮았지만 통계적으로 유의하지 않았습니다.",
-  "use": "조영제 검사에서 수화에 NAC를 더하는 예방 전략의 초기 관찰 근거로 기록합니다.",
-  "refs": [{ "label": "조영제 관련 급성 신손상 수화·NAC 후향적 비교", "pmid": "42424354" }],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "intr=hydration · cond=Contrast Induced Nephropathy → 56건 반환, 개입명 대조 21건",
-    "pubmed": "hydration AND \"Contrast Induced Nephropathy\" → 415편, PMID 42424354 직접 결과",
-    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 90편",
-    "safety": "hydration AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 7075편"
+ "id": "hydration-contrast-induced-nephropathy-pos",
+ "subj": "수분 중재",
+ "claim": "조영제 검사에서 수화에 NAC를 더하면 급성 신손상을 줄인다",
+ "line": "조영제 검사에서 수화에 약물을 더하자 급성 신손상이 줄었습니다.",
+ "effect": "급성 신손상 15.0%→2.5%",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 240,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "조영제 검사 전후 수화에 NAC를 더하는 것은 급성 신손상의 허가 적응증이 아닌 예방 연구입니다.",
+ "why": "조영 CT 또는 혈관조영술을 받은 성인 240명을 수화 단독, 수화·NAC, 수화·탄산수소나트륨군에 80명씩 배정한 단일기관 후향적 분석입니다.",
+ "saw": "급성 신손상은 수화 단독군 15.0%, 수화·NAC군 2.5%, 수화·탄산수소나트륨군 7.5%였습니다. 수화·NAC군은 수화 단독군보다 위험이 유의하게 낮았습니다.",
+ "limit": "후향적 단일기관 연구이고 수화 자체가 아니라 NAC 추가를 비교했습니다. 큰 다기관 전향시험이 필요합니다.",
+ "against": "탄산수소나트륨 추가는 수화 단독보다 수치상 낮았지만 통계적으로 유의하지 않았습니다.",
+ "use": "조영제 검사에서 수화에 NAC를 더하는 예방 전략의 초기 관찰 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "조영제 관련 급성 신손상 수화·NAC 후향적 비교",
+   "pmid": "42424354"
   }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=hydration · cond=Contrast Induced Nephropathy → 56건 반환, 개입명 대조 21건",
+  "pubmed": "hydration AND \"Contrast Induced Nephropathy\" → 415편, PMID 42424354 직접 결과",
+  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 90편",
+  "safety": "hydration AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 7075편"
+ },
+ "vs": "수분 보충+NAC vs 수분 보충: 조영제 관련 급성신손상 성향점수 분석 240명에서 발생률 15.0% vs 2.5%, RR 0.17(95% CI 0.04~0.74; 보정 P=.004); 수분 보충+탄산수소나트륨은 7.5%, RR 0.50(0.19~1.31)."
 }
