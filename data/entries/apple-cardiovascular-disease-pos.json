@@ -1,28 +1,32 @@
 {
-  "id": "apple-cardiovascular-disease-pos",
-  "subj": "apple",
-  "claim": "소규모 단일 연구에서 매일 사과 2개가 경도 고콜레스테롤혈증 성인의 콜레스테롤을 낮출 가능성이 관찰됐다",
-  "line": "경도 고콜레스테롤혈증 성인이 사과 2개를 8주 먹자 총콜레스테롤과 LDL이 줄었습니다.",
-  "effect": "총콜·LDL↓; 미세혈관 확장↑",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "사과는 식품으로, 심혈관질환의 허가 치료제가 아닙니다",
-  "why": "경도 고콜레스테롤혈증 성인에서 통사과 섭취와 대조 음료가 지질과 혈관 지표에 미치는 영향을 비교한 무작위 교차시험입니다",
-  "saw": "여성 23명과 남성 17명, 총 40명이 통사과 2개를 하루 8주 먹거나 당·열량을 맞춘 대조 음료를 8주 먹었습니다. 통사과에서 총콜레스테롤은 5.89 대 6.11 mmol/L, LDL 콜레스테롤은 3.72 대 3.86 mmol/L, 미세혈관 확장 반응은 853 대 760 perfusion units였습니다",
-  "limit": "경도 고콜레스테롤혈증 성인을 대상으로 한 소규모 교차시험이며 심혈관 사건을 평가하지 않았습니다",
-  "against": "사과군에서 요산은 대조 음료보다 증가했고 혈압에는 차이가 없었습니다",
-  "use": "사과를 지질저하제의 대체가 아닌 식이 보조로 설명할 때 참고할 수 있습니다",
-  "refs": [
-    { "label": "Two apples a day lower serum cholesterol and improve cardiometabolic biomarkers in mildly hypercholesterolemic adults", "pmid": "31840162" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "apple AND Cardiovascular Disease — 91건 반환",
-    "pubmed": "apple consumption AND cardiovascular — 32건 반환",
-    "negative": "apple consumption AND cardiovascular AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 무작위 연구의 제한 결과 확인",
-    "safety": "apple consumption AND cardiovascular AND (adverse OR toxicity OR harm OR safety) — 요산 증가 결과 확인"
+ "id": "apple-cardiovascular-disease-pos",
+ "subj": "사과",
+ "claim": "소규모 단일 연구에서 매일 사과 2개가 경도 고콜레스테롤혈증 성인의 콜레스테롤을 낮출 가능성이 관찰됐다",
+ "line": "경도 고콜레스테롤혈증 성인이 사과 2개를 8주 먹자 총콜레스테롤과 LDL이 줄었습니다.",
+ "effect": "총콜·LDL↓; 미세혈관 확장↑",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "사과는 식품으로, 심혈관질환의 허가 치료제가 아닙니다",
+ "why": "경도 고콜레스테롤혈증 성인에서 통사과 섭취와 대조 음료가 지질과 혈관 지표에 미치는 영향을 비교한 무작위 교차시험입니다",
+ "saw": "여성 23명과 남성 17명, 총 40명이 통사과 2개를 하루 8주 먹거나 당·열량을 맞춘 대조 음료를 8주 먹었습니다. 통사과에서 총콜레스테롤은 5.89 대 6.11 mmol/L, LDL 콜레스테롤은 3.72 대 3.86 mmol/L, 미세혈관 확장 반응은 853 대 760 perfusion units였습니다",
+ "limit": "경도 고콜레스테롤혈증 성인을 대상으로 한 소규모 교차시험이며 심혈관 사건을 평가하지 않았습니다",
+ "against": "사과군에서 요산은 대조 음료보다 증가했고 혈압에는 차이가 없었습니다",
+ "use": "사과를 지질저하제의 대체가 아닌 식이 보조로 설명할 때 참고할 수 있습니다",
+ "refs": [
+  {
+   "label": "Two apples a day lower serum cholesterol and improve cardiometabolic biomarkers in mildly hypercholesterolemic adults",
+   "pmid": "31840162"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "apple AND Cardiovascular Disease — 91건 반환",
+  "pubmed": "apple consumption AND cardiovascular — 32건 반환",
+  "negative": "apple consumption AND cardiovascular AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 무작위 연구의 제한 결과 확인",
+  "safety": "apple consumption AND cardiovascular AND (adverse OR toxicity OR harm OR safety) — 요산 증가 결과 확인"
+ },
+ "vs": "사과 2개/일 vs 당·열량 일치 사과 대조음료: 총콜레스테롤 5.89 vs 6.11mmol/L, p=0.006; LDL 3.72 vs 3.86mmol/L, p=0.031; 중성지방 1.17 vs 1.30mmol/L, p=0.021; 미세혈관 반응 853 vs 760PU, p=0.037; 교차 RCT 40명"
 }

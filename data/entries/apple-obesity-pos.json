@@ -1,28 +1,32 @@
 {
-  "id": "apple-obesity-pos",
-  "subj": "apple",
-  "claim": "소규모 단일 연구에서 매일 사과 3개가 과체중·비만 성인의 염증표지자를 낮출 가능성이 관찰됐다",
-  "line": "과체중·비만 성인이 사과 3개를 6주 먹자 CRP와 IL-6가 줄었습니다.",
-  "effect": "CRP −17%; IL-6 −12.4%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 46,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "사과는 식품으로, 비만의 허가 치료제가 아닙니다",
-  "why": "과체중·비만 성인을 대상으로 매일 사과를 먹는 중재가 염증과 대사 지표에 미치는 영향을 비교한 무작위 대조 연구입니다",
-  "saw": "참가자 46명을 사과군 23명과 대조군 23명으로 나누고, 사과군은 6주 동안 통사과 3개를 매일 먹었습니다. 44명이 연구를 마쳤고 대조군보다 CRP 17.0%, IL-6 12.4%, LPS 결합단백질 20.7%가 감소했습니다",
-  "limit": "표본이 작고 6주 중재이며, 모든 참가자가 다른 폴리페놀·식이섬유 식품도 제한했습니다",
-  "against": "체중 감소나 비만 자체의 임상 결과가 아니라 혈액 염증표지자를 평가한 연구입니다",
-  "use": "사과 섭취를 체중감량 치료의 대체가 아닌 식이 보조로 설명할 때 참고할 수 있습니다",
-  "refs": [
-    { "label": "Daily apple consumption reduces plasma and peripheral blood mononuclear cell-secreted inflammatory biomarkers in adults with overweight and obesity", "pmid": "33964852" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "apple AND Obesity — 39건 반환",
-    "pubmed": "apple consumption AND obesity — 12건 반환",
-    "negative": "apple consumption AND obesity AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 무작위 연구 확인",
-    "safety": "apple consumption AND obesity AND (adverse OR toxicity OR harm OR safety) — 직접 연구에서 중대한 안전성 신호 없음"
+ "id": "apple-obesity-pos",
+ "subj": "사과",
+ "claim": "소규모 단일 연구에서 매일 사과 3개가 과체중·비만 성인의 염증표지자를 낮출 가능성이 관찰됐다",
+ "line": "과체중·비만 성인이 사과 3개를 6주 먹자 CRP와 IL-6가 줄었습니다.",
+ "effect": "CRP −17%; IL-6 −12.4%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 46,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "사과는 식품으로, 비만의 허가 치료제가 아닙니다",
+ "why": "과체중·비만 성인을 대상으로 매일 사과를 먹는 중재가 염증과 대사 지표에 미치는 영향을 비교한 무작위 대조 연구입니다",
+ "saw": "참가자 46명을 사과군 23명과 대조군 23명으로 나누고, 사과군은 6주 동안 통사과 3개를 매일 먹었습니다. 44명이 연구를 마쳤고 대조군보다 CRP 17.0%, IL-6 12.4%, LPS 결합단백질 20.7%가 감소했습니다",
+ "limit": "표본이 작고 6주 중재이며, 모든 참가자가 다른 폴리페놀·식이섬유 식품도 제한했습니다",
+ "against": "체중 감소나 비만 자체의 임상 결과가 아니라 혈액 염증표지자를 평가한 연구입니다",
+ "use": "사과 섭취를 체중감량 치료의 대체가 아닌 식이 보조로 설명할 때 참고할 수 있습니다",
+ "refs": [
+  {
+   "label": "Daily apple consumption reduces plasma and peripheral blood mononuclear cell-secreted inflammatory biomarkers in adults with overweight and obesity",
+   "pmid": "33964852"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "apple AND Obesity — 39건 반환",
+  "pubmed": "apple consumption AND obesity — 12건 반환",
+  "negative": "apple consumption AND obesity AND (no effect OR did not OR failed OR negative OR no significant difference) — 직접 무작위 연구 확인",
+  "safety": "apple consumption AND obesity AND (adverse OR toxicity OR harm OR safety) — 직접 연구에서 중대한 안전성 신호 없음"
+ },
+ "vs": "사과 3개/일 vs 사과 회피: 과체중·비만 성인의 CRP 17.0%, IL-6 12.4%, LPS 결합단백 20.7% 감소; 모두 대조군 대비, p≤0.005; 병렬 RCT 46명"
 }

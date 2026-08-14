@@ -1,28 +1,33 @@
 {
-  "id": "aromatherapy-cancer-pos",
-  "subj": "아로마테라피",
-  "claim": "소규모 연구들을 합친 분석에서 암 치료 중 아로마테라피가 오심·구토를 낮출 가능성이 나타났다",
-  "line": "암 치료 중 오심·구토가 줄었지만 구토 감소는 유의하지 않았다.",
-  "effect": "암 치료 관련 오심·구토 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "아로마테라피는 암 치료제가 아니라 비약물 보조 중재입니다.",
-  "why": "암 환자 무작위시험을 모아 아로마테라피가 치료 관련 오심과 구토를 줄이는지 평가했습니다.",
-  "saw": "10개 논문에 포함된 25개 무작위시험의 메타분석에서 전반적인 오심·구토가 감소했습니다(SMD -0.81, 95% 신뢰구간 -1.11~-0.52). 오심과 오심·구토 복합 결과는 줄었지만 구토만 따로 본 결과는 유의하지 않았습니다.",
-  "limit": "연구 수가 제한적이고 아로마 오일, 투여 방법, 암 치료 상황이 서로 달랐습니다.",
-  "against": "아로마테라피가 암 자체를 치료하거나 항구토제를 대신한다는 근거는 아닙니다.",
-  "use": "암 치료 중 오심이 있는 사람에게 표준 항구토치료와 함께 보조 중재로 검토합니다.",
-  "refs": [
-    { "label": "암 환자 오심·구토 아로마테라피 무작위시험 메타분석", "doi": "10.1016/j.ctcp.2024.101838", "pmid": "38330531" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "aromatherapy AND Cancer · 47건",
-    "pubmed": "aromatherapy AND Cancer · 289건",
-    "negative": "aromatherapy AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 213건",
-    "safety": "aromatherapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 480건"
+ "id": "aromatherapy-cancer-pos",
+ "subj": "아로마테라피",
+ "claim": "소규모 연구들을 합친 분석에서 암 치료 중 아로마테라피가 오심·구토를 낮출 가능성이 나타났다",
+ "line": "암 치료 중 오심·구토가 줄었지만 구토 감소는 유의하지 않았다.",
+ "effect": "암 치료 관련 오심·구토 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "아로마테라피는 암 치료제가 아니라 비약물 보조 중재입니다.",
+ "why": "암 환자 무작위시험을 모아 아로마테라피가 치료 관련 오심과 구토를 줄이는지 평가했습니다.",
+ "saw": "10개 논문에 포함된 25개 무작위시험의 메타분석에서 전반적인 오심·구토가 감소했습니다(SMD -0.81, 95% 신뢰구간 -1.11~-0.52). 오심과 오심·구토 복합 결과는 줄었지만 구토만 따로 본 결과는 유의하지 않았습니다.",
+ "limit": "연구 수가 제한적이고 아로마 오일, 투여 방법, 암 치료 상황이 서로 달랐습니다.",
+ "against": "아로마테라피가 암 자체를 치료하거나 항구토제를 대신한다는 근거는 아닙니다.",
+ "use": "암 치료 중 오심이 있는 사람에게 표준 항구토치료와 함께 보조 중재로 검토합니다.",
+ "refs": [
+  {
+   "label": "암 환자 오심·구토 아로마테라피 무작위시험 메타분석",
+   "doi": "10.1016/j.ctcp.2024.101838",
+   "pmid": "38330531"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "aromatherapy AND Cancer · 47건",
+  "pubmed": "aromatherapy AND Cancer · 289건",
+  "negative": "aromatherapy AND Cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 213건",
+  "safety": "aromatherapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 480건"
+ },
+ "vs": "암 환자 아로마테라피 vs 대조: 오심·구토 종합 SMD -0.81 (95% CI -1.11~-0.52), 오심 SMD -0.85 (-1.23~-0.46), 구토 단독 SMD -0.24 (-1.03~0.55); RCT 메타분석 25개"
 }
