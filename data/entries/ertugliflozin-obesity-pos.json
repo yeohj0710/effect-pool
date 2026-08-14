@@ -1,29 +1,38 @@
 {
-  "id": "ertugliflozin-obesity-pos",
-  "subj": "ertugliflozin",
-  "claim": "비만을 동반한 제2형 당뇨병에서 에르투글리플로진의 체중 효과를 평가한다",
-  "line": "비만 동반 당뇨 환자에서 에르투글리플로진은 위약보다 체중을 더 줄였다.",
-  "effect": "체중 −3.1~-3.2kg 대 −1.2kg",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1377,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "ertugliflozin 허가는 제2형 당뇨병이며 비만 치료는 별도 적응증이 아닙니다",
-  "why": "제2형 당뇨병을 동반한 과체중·비만 환자에서 ertugliflozin의 혈당과 체중 결과를 함께 확인합니다.",
-  "saw": "3개 위약대조 3상시험의 BMI 25 이상 환자 1,377명을 분석했습니다. 26주 체중 변화는 위약 −1.2kg, ertugliflozin 5mg −3.1kg, 15mg −3.2kg이었고 BMI 35 이상에서도 위약 보정 체중 감소가 유지됐습니다.",
-  "limit": "당뇨병 환자 자료이며 비만 단독 치료시험이 아니고 26주 결과 중심입니다.",
-  "against": "이 시험은 장기 체중 유지와 비만 합병증 감소를 평가하지 않았습니다.",
-  "use": "비만 동반 당뇨병에서 체중 변화가 있는 당뇨약 비교 근거로 기록합니다.",
-  "refs": [
-    { "label": "Dagogo-Jack 2020 · 과체중·비만 당뇨 환자 ertugliflozin 통합 3상분석", "doi": "10.1002/oby.22748", "pmid": "32202075", "pmc": "PMC7217180" },
-    { "label": "Er tugliflozin 과체중·비만 지원자 1상시험", "nct": "NCT01018823" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=ertugliflozin AND condition=Obesity; 2건 반환, 2건 직접 대조",
-    "pubmed": "ertugliflozin AND Obesity; 11편",
-    "negative": "ertugliflozin AND Obesity AND (no effect OR did not OR failed to OR negative); 2편",
-    "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ "id": "ertugliflozin-obesity-pos",
+ "subj": "에르투글리플로진",
+ "claim": "비만을 동반한 제2형 당뇨병에서 에르투글리플로진의 체중 효과를 평가한다",
+ "line": "비만 동반 당뇨 환자에서 에르투글리플로진은 위약보다 체중을 더 줄였다.",
+ "effect": "체중 −3.1~-3.2kg 대 −1.2kg",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1377,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에르투글리플로진 허가는 제2형 당뇨병이며 비만 치료는 별도 적응증이 아닙니다",
+ "why": "제2형 당뇨병을 동반한 과체중·비만 환자에서 에르투글리플로진의 혈당과 체중 결과를 함께 확인합니다.",
+ "saw": "3개 위약대조 3상시험의 BMI 25 이상 환자 1,377명을 분석했습니다. 26주 체중 변화는 위약 −1.2kg, 에르투글리플로진 5mg −3.1kg, 15mg −3.2kg이었고 BMI 35 이상에서도 위약 보정 체중 감소가 유지됐습니다.",
+ "limit": "당뇨병 환자 자료이며 비만 단독 치료시험이 아니고 26주 결과 중심입니다.",
+ "against": "이 시험은 장기 체중 유지와 비만 합병증 감소를 평가하지 않았습니다.",
+ "use": "비만 동반 당뇨병에서 체중 변화가 있는 당뇨약 비교 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Dagogo-Jack 2020 · 과체중·비만 당뇨 환자 ertugliflozin 통합 3상분석",
+   "doi": "10.1002/oby.22748",
+   "pmid": "32202075",
+   "pmc": "PMC7217180"
+  },
+  {
+   "label": "Er tugliflozin 과체중·비만 지원자 1상시험",
+   "nct": "NCT01018823"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=ertugliflozin AND condition=Obesity; 2건 반환, 2건 직접 대조",
+  "pubmed": "ertugliflozin AND Obesity; 11편",
+  "negative": "ertugliflozin AND Obesity AND (no effect OR did not OR failed to OR negative); 2편",
+  "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ },
+ "vs": "에르투글리플로진 vs 위약: 과체중·비만 제2형 당뇨병 3상시험 통합 1,377명에서 체중 변화 위약 -1.2kg, 에르투글리플로진 5mg -3.1kg, 15mg -3.2kg; BMI 35 이상에서 위약 보정 체중차는 5mg -2.5kg, 15mg -2.9kg."
 }

@@ -1,28 +1,34 @@
 {
-  "id": "esketamine-major-surgery-null",
-  "subj": "esketamine",
-  "claim": "고령 수술 환자의 수술 후 섬망에서 수술 중 에스케타민의 예방 효과를 평가한다",
-  "line": "수술 중 에스케타민은 수술 후 섬망을 예방하지 못했다.",
-  "effect": "섬망 8.5% 대 10.8%",
-  "tier": "trial",
-  "dir": "null",
-  "n": 260,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "에스케타민의 국내 허가 적응증은 치료저항성 우울증과 급성 자살사고·행동을 동반한 주요우울장애의 우울 증상이며 주요 수술은 허가 밖이다.",
-  "why": "고관절·무릎 치환술을 받는 고령 환자에서 저용량 에스케타민과 위약을 비교했다.",
-  "saw": "260명을 무작위 배정했으며 수술 후 섬망은 에스케타민 8.5%, 위약 10.8%로 유의한 차이가 없었다.",
-  "limit": "단일 수술군의 초기 3일 결과이며 어지럼증은 에스케타민군에서 더 많았다.",
-  "against": "운동 시 수술 후 통증은 낮아졌지만 섬망 예방 효과는 확인되지 않았다.",
-  "use": "고령 주요 수술의 섬망 예방 목적으로 사용하지 않으며 통증·어지럼 위험을 함께 검토한다.",
-  "refs": [
-    { "label": "고령 관절 치환술 저용량 에스케타민 무작위시험", "doi": "10.2147/DDDT.S477342", "pmid": "39624771", "pmc": "PMC11609288" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=esketamine AND condition=Major Surgery; 9건",
-    "pubmed": "esketamine AND Major Surgery; 53건",
-    "negative": "esketamine AND Major Surgery AND (no effect OR did not OR failed OR negative OR no significant difference); 11건",
-    "safety": "esketamine AND (adverse OR toxicity OR case report OR harm OR dropout); 1068건"
+ "id": "esketamine-major-surgery-null",
+ "subj": "에스케타민",
+ "claim": "고령 수술 환자의 수술 후 섬망에서 수술 중 에스케타민의 예방 효과를 평가한다",
+ "line": "수술 중 에스케타민은 수술 후 섬망을 예방하지 못했다.",
+ "effect": "섬망 8.5% 대 10.8%",
+ "tier": "trial",
+ "dir": "null",
+ "n": 260,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에스케타민의 국내 허가 적응증은 치료저항성 우울증과 급성 자살사고·행동을 동반한 주요우울장애의 우울 증상이며 주요 수술은 허가 밖이다.",
+ "why": "고관절·무릎 치환술을 받는 고령 환자에서 저용량 에스케타민과 위약을 비교했다.",
+ "saw": "260명을 무작위 배정했으며 수술 후 섬망은 에스케타민 8.5%, 위약 10.8%로 유의한 차이가 없었다.",
+ "limit": "단일 수술군의 초기 3일 결과이며 어지럼증은 에스케타민군에서 더 많았다.",
+ "against": "운동 시 수술 후 통증은 낮아졌지만 섬망 예방 효과는 확인되지 않았다.",
+ "use": "고령 주요 수술의 섬망 예방 목적으로 사용하지 않으며 통증·어지럼 위험을 함께 검토한다.",
+ "refs": [
+  {
+   "label": "고령 관절 치환술 저용량 에스케타민 무작위시험",
+   "doi": "10.2147/DDDT.S477342",
+   "pmid": "39624771",
+   "pmc": "PMC11609288"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=esketamine AND condition=Major Surgery; 9건",
+  "pubmed": "esketamine AND Major Surgery; 53건",
+  "negative": "esketamine AND Major Surgery AND (no effect OR did not OR failed OR negative OR no significant difference); 11건",
+  "safety": "esketamine AND (adverse OR toxicity OR case report OR harm OR dropout); 1068건"
+ },
+ "vs": "에스케타민 vs 위약: 고령 고관절·슬관절 치환술 RCT 260명에서 수술 후 섬망 8.5% vs 10.8%, 유의한 차이 없음; 운동 시 통증은 수술 후 첫 2일 낮았지만 어지럼증은 증가."
 }

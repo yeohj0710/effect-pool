@@ -1,48 +1,49 @@
 {
-  "id": "escitalopram-cancer-pos",
-  "subj": "에스시탈로프람",
-  "claim": "암 환자의 우울 증상에서 에스시탈로프람의 효과를 평가한다",
-  "line": "암 치료 중 에스시탈로프람은 우울증을 줄였지만 종양 효과는 평가하지 않았다.",
-  "effect": "우울증·삶의 질 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 148,
-  "synth": "single",
-  "why": "두경부암 치료를 앞둔 우울하지 않은 환자를 대상으로 한 무작위 위약대조시험에서 에스시탈로프람이 우울증 발생을 줄였습니다.",
-  "saw": "148명이 무작위 배정된 시험에서 암 치료 중 중등도 이상 우울증 발생률은 에스시탈로프람군이 위약군보다 낮았고, 연구 종료 환자의 삶의 질도 더 좋았습니다.",
-  "limit": "측정한 결과는 암의 진행·생존·종양 반응이 아니라 우울증과 삶의 질이므로 암 치료 효과로 해석할 수 없습니다. 대상은 두경부암 치료 전 우울하지 않은 환자였습니다.",
-  "against": "암 환자 항우울제 무작위시험 10편, 885명을 검토한 Cochrane 문헌고찰은 항우울제군과 위약군의 우울증 개선 차이가 없다고 했고 근거 확실성이 매우 낮았습니다.",
-  "use": "암 자체의 치료제로 표시하지 말고, 특정 암 치료 상황에서 우울증 예방을 평가한 제한된 근거로 설명해야 합니다.",
-  "refs": [
-    {
-      "label": "Sinyor 2013 · JAMA Otolaryngology–Head & Neck Surgery · 두경부암 우울증 예방 무작위시험",
-      "doi": "10.1001/jamaoto.2013.3371",
-      "pmid": "23788218"
-    },
-    {
-      "label": "Ostuzzi 2018 · Cochrane Database of Systematic Reviews · 암 환자 우울증 항우울제 검토",
-      "doi": "10.1002/14651858.CD011006.pub3",
-      "pmid": "29683474",
-      "pmc": "PMC6494588"
-    },
-    {
-      "label": "Kim 2012 · Progress in Neuro-Psychopharmacology & Biological Psychiatry · 유방암 우울증 에스시탈로프람 연구",
-      "doi": "10.1016/j.pnpbp.2011.11.010",
-      "pmid": "22142651"
-    },
-    {
-      "label": "Escitalopram and torsades de pointes · 안전성 분석",
-      "doi": "10.2196/65872",
-      "pmid": "40132181",
-      "pmc": "PMC11979527"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "fda": "openfda.substance_name:ESCITALOPRAM → 115건; 허가 문구는 주요우울장애와 범불안장애이며 암 적응증 없음",
-    "ctgov": "ClinicalTrials.gov v2 query.intr=escitalopram&query.cond=Cancer&countTotal=true&pageSize=50 → 21건 반환, InterventionName 대조 후 escitalopram 일치 12건",
-    "pubmed": "escitalopram AND Cancer → 134건",
-    "negative": "escitalopram AND Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 103건",
-    "safety": "escitalopram AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,544건"
+ "id": "escitalopram-cancer-pos",
+ "subj": "에스시탈로프람",
+ "claim": "암 환자의 우울 증상에서 에스시탈로프람의 효과를 평가한다",
+ "line": "암 치료 중 에스시탈로프람은 우울증을 줄였지만 종양 효과는 평가하지 않았다.",
+ "effect": "우울증·삶의 질 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 148,
+ "synth": "single",
+ "why": "두경부암 치료를 앞둔 우울하지 않은 환자를 대상으로 한 무작위 위약대조시험에서 에스시탈로프람이 우울증 발생을 줄였습니다.",
+ "saw": "148명이 무작위 배정된 시험에서 암 치료 중 중등도 이상 우울증 발생률은 에스시탈로프람군이 위약군보다 낮았고, 연구 종료 환자의 삶의 질도 더 좋았습니다.",
+ "limit": "측정한 결과는 암의 진행·생존·종양 반응이 아니라 우울증과 삶의 질이므로 암 치료 효과로 해석할 수 없습니다. 대상은 두경부암 치료 전 우울하지 않은 환자였습니다.",
+ "against": "암 환자 항우울제 무작위시험 10편, 885명을 검토한 Cochrane 문헌고찰은 항우울제군과 위약군의 우울증 개선 차이가 없다고 했고 근거 확실성이 매우 낮았습니다.",
+ "use": "암 자체의 치료제로 표시하지 말고, 특정 암 치료 상황에서 우울증 예방을 평가한 제한된 근거로 설명해야 합니다.",
+ "refs": [
+  {
+   "label": "Sinyor 2013 · JAMA Otolaryngology–Head & Neck Surgery · 두경부암 우울증 예방 무작위시험",
+   "doi": "10.1001/jamaoto.2013.3371",
+   "pmid": "23788218"
+  },
+  {
+   "label": "Ostuzzi 2018 · Cochrane Database of Systematic Reviews · 암 환자 우울증 항우울제 검토",
+   "doi": "10.1002/14651858.CD011006.pub3",
+   "pmid": "29683474",
+   "pmc": "PMC6494588"
+  },
+  {
+   "label": "Kim 2012 · Progress in Neuro-Psychopharmacology & Biological Psychiatry · 유방암 우울증 에스시탈로프람 연구",
+   "doi": "10.1016/j.pnpbp.2011.11.010",
+   "pmid": "22142651"
+  },
+  {
+   "label": "Escitalopram and torsades de pointes · 안전성 분석",
+   "doi": "10.2196/65872",
+   "pmid": "40132181",
+   "pmc": "PMC11979527"
   }
+ ],
+ "queried": {
+  "date": "2026-08-04",
+  "fda": "openfda.substance_name:ESCITALOPRAM → 115건; 허가 문구는 주요우울장애와 범불안장애이며 암 적응증 없음",
+  "ctgov": "ClinicalTrials.gov v2 query.intr=escitalopram&query.cond=Cancer&countTotal=true&pageSize=50 → 21건 반환, InterventionName 대조 후 escitalopram 일치 12건",
+  "pubmed": "escitalopram AND Cancer → 134건",
+  "negative": "escitalopram AND Cancer AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 103건",
+  "safety": "escitalopram AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1,544건"
+ },
+ "vs": "에스시탈로프람 vs 위약: 두경부암 치료 중 우울증 예방 RCT 148명에서 중등도 이상 우울증 10.0% vs 24.6%, HR 0.37(95% CI 0.14~0.96; P=.04)."
 }

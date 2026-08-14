@@ -1,29 +1,38 @@
 {
-  "id": "ertugliflozin-hypertension-pos",
-  "subj": "ertugliflozin",
-  "claim": "제2형 당뇨병을 동반한 고혈압에서 에르투글리플로진의 혈압 효과를 평가한다",
-  "line": "과체중·비만 당뇨 환자에서 에르투글리플로진의 수축기 혈압은 위약보다 낮았다.",
-  "effect": "수축기 혈압 감소·n=1,377",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 1377,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "ertugliflozin 허가는 제2형 당뇨병이며 고혈압 치료는 별도 적응증이 아닙니다",
-  "why": "SGLT2 억제제의 혈당강하와 함께 혈압이 낮아지는지 과체중·비만 당뇨 환자 시험의 혈압 결과로 확인합니다.",
-  "saw": "3개 위약대조 3상시험의 BMI 25 이상 환자 1,377명을 합친 분석에서 ertugliflozin은 위약보다 수축기 혈압을 더 낮췄습니다. 별도 고혈압·제2형 당뇨 2상시험 NCT01096667은 194명을 완료했습니다.",
-  "limit": "혈압 결과는 당뇨병 시험의 이차 결과이고, 고혈압 단독 환자에서 심혈관 사건을 줄였다는 근거는 아닙니다.",
-  "against": "혈압 효과의 절대값과 고혈압 환자 하위군 결과가 핵심 논문에 충분히 제시되지 않았습니다.",
-  "use": "당뇨병 동반 고혈압에서 혈압 변화를 함께 볼 수 있는 SGLT2 억제제 근거로 기록합니다.",
-  "refs": [
-    { "label": "Dagogo-Jack 2020 · 과체중·비만 당뇨 환자 ertugliflozin 통합 3상분석", "doi": "10.1002/oby.22748", "pmid": "32202075", "pmc": "PMC7217180" },
-    { "label": "Ertugliflozin과 고혈압·제2형 당뇨 2상시험", "nct": "NCT01096667" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=ertugliflozin AND condition=Hypertension; 3건 반환, 3건 직접 대조",
-    "pubmed": "ertugliflozin AND Hypertension; 18편",
-    "negative": "ertugliflozin AND Hypertension AND (no effect OR did not OR failed to OR negative); 5편",
-    "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ "id": "ertugliflozin-hypertension-pos",
+ "subj": "에르투글리플로진",
+ "claim": "제2형 당뇨병을 동반한 고혈압에서 에르투글리플로진의 혈압 효과를 평가한다",
+ "line": "과체중·비만 당뇨 환자에서 에르투글리플로진의 수축기 혈압은 위약보다 낮았다.",
+ "effect": "수축기 혈압 감소·n=1,377",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1377,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에르투글리플로진 허가는 제2형 당뇨병이며 고혈압 치료는 별도 적응증이 아닙니다",
+ "why": "SGLT2 억제제의 혈당강하와 함께 혈압이 낮아지는지 과체중·비만 당뇨 환자 시험의 혈압 결과로 확인합니다.",
+ "saw": "3개 위약대조 3상시험의 BMI 25 이상 환자 1,377명을 합친 분석에서 에르투글리플로진은 위약보다 수축기 혈압을 더 낮췄습니다. 별도 고혈압·제2형 당뇨 2상시험 NCT01096667은 194명을 완료했습니다.",
+ "limit": "혈압 결과는 당뇨병 시험의 이차 결과이고, 고혈압 단독 환자에서 심혈관 사건을 줄였다는 근거는 아닙니다.",
+ "against": "혈압 효과의 절대값과 고혈압 환자 하위군 결과가 핵심 논문에 충분히 제시되지 않았습니다.",
+ "use": "당뇨병 동반 고혈압에서 혈압 변화를 함께 볼 수 있는 SGLT2 억제제 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Dagogo-Jack 2020 · 과체중·비만 당뇨 환자 ertugliflozin 통합 3상분석",
+   "doi": "10.1002/oby.22748",
+   "pmid": "32202075",
+   "pmc": "PMC7217180"
+  },
+  {
+   "label": "Ertugliflozin과 고혈압·제2형 당뇨 2상시험",
+   "nct": "NCT01096667"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=ertugliflozin AND condition=Hypertension; 3건 반환, 3건 직접 대조",
+  "pubmed": "ertugliflozin AND Hypertension; 18편",
+  "negative": "ertugliflozin AND Hypertension AND (no effect OR did not OR failed to OR negative); 5편",
+  "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ },
+ "vs": "에르투글리플로진 vs 위약: 과체중·비만 제2형 당뇨병 3상시험 통합 1,377명에서 26주 HbA1c 변화 위약 0.1% vs 에르투글리플로진 5mg -0.8%, 15mg -0.9%; 체중 -1.2kg vs -3.1kg vs -3.2kg."
 }

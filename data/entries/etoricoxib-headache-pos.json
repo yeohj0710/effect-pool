@@ -1,29 +1,36 @@
 {
-  "id": "etoricoxib-headache-pos",
-  "subj": "에토리콕시브",
-  "claim": "라마단 공복 기간 두통 예방에서 에토리콕시브의 효과를 평가한다",
-  "line": "라마단 첫 공복 기간 두통 발생률은 에토리콕시브군에서 46%에서 21%로 줄었다.",
-  "effect": "두통 46% vs 21%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 222,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "에토리콕시브는 관절염·급성 통증 등에 허가됐지만 공복 두통 예방은 허가 적응증이 아닙니다.",
-  "why": "COX-2 억제제를 일반 진통제가 아니라 종교적 공복으로 생기는 두통 예방에 전환한 무작위시험입니다.",
-  "saw": "라마단 첫 2주에 건강한 성인 222명을 등록한 이중눈가림 무작위 교차시험에서 첫 5일 두통 발생은 위약군 46%, 에토리콕시브군 21%였고, 두통 일수와 중증도도 줄었습니다. 두 번째 주에는 군 간 차이가 없었습니다.",
-  "limit": "건강한 성인의 특정 공복 상황을 본 시험이라 편두통이나 다른 원인의 두통 예방으로 일반화할 수 없습니다.",
-  "against": "두 번째 주에는 유의한 차이가 없었고, 다른 두통 질환의 근거는 8명 증례군과 한 명 증례 수준입니다.",
-  "use": "에토리콕시브의 두통 예방 신호가 특정 공복 상황에서 나온 작은 범위의 근거임을 기록합니다.",
-  "refs": [
-    { "label": "라마단 공복 두통 에토리콕시브 무작위시험", "pmid": "21848948" },
-    { "label": "욤키푸르 공복 두통 에토리콕시브 무작위시험", "pmid": "20039959" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=etoricoxib · cond=Headache → 2건 반환, 물질 대조 후 2건",
-    "pubmed": "etoricoxib AND Headache → 19편",
-    "negative": "etoricoxib AND Headache AND (no effect OR did not OR failed to OR negative OR no significant difference) → 16편",
-    "safety": "etoricoxib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 534편"
+ "id": "etoricoxib-headache-pos",
+ "subj": "에토리콕시브",
+ "claim": "라마단 공복 기간 두통 예방에서 에토리콕시브의 효과를 평가한다",
+ "line": "라마단 첫 공복 기간 두통 발생률은 에토리콕시브군에서 46%에서 21%로 줄었다.",
+ "effect": "두통 46% vs 21%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 222,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에토리콕시브는 관절염·급성 통증 등에 허가됐지만 공복 두통 예방은 허가 적응증이 아닙니다.",
+ "why": "COX-2 억제제를 일반 진통제가 아니라 종교적 공복으로 생기는 두통 예방에 전환한 무작위시험입니다.",
+ "saw": "라마단 첫 2주에 건강한 성인 222명을 등록한 이중눈가림 무작위 교차시험에서 첫 5일 두통 발생은 위약군 46%, 에토리콕시브군 21%였고, 두통 일수와 중증도도 줄었습니다. 두 번째 주에는 군 간 차이가 없었습니다.",
+ "limit": "건강한 성인의 특정 공복 상황을 본 시험이라 편두통이나 다른 원인의 두통 예방으로 일반화할 수 없습니다.",
+ "against": "두 번째 주에는 유의한 차이가 없었고, 다른 두통 질환의 근거는 8명 증례군과 한 명 증례 수준입니다.",
+ "use": "에토리콕시브의 두통 예방 신호가 특정 공복 상황에서 나온 작은 범위의 근거임을 기록합니다.",
+ "refs": [
+  {
+   "label": "라마단 공복 두통 에토리콕시브 무작위시험",
+   "pmid": "21848948"
+  },
+  {
+   "label": "욤키푸르 공복 두통 에토리콕시브 무작위시험",
+   "pmid": "20039959"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=etoricoxib · cond=Headache → 2건 반환, 물질 대조 후 2건",
+  "pubmed": "etoricoxib AND Headache → 19편",
+  "negative": "etoricoxib AND Headache AND (no effect OR did not OR failed to OR negative OR no significant difference) → 16편",
+  "safety": "etoricoxib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 534편"
+ },
+ "vs": "에토리콕시브 vs 위약: 라마단 첫 두통 이중맹검 교차시험 222명에서 두통 21% vs 46%, 상대 감소 54%, OR 3.19(95% CI 1.68~6.06; P<.0001); 첫 6일 두통 일수 0.86 vs 1.60(P=.003)."
 }

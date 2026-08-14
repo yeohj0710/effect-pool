@@ -1,30 +1,40 @@
 {
-  "id": "etomidate-trauma-harm",
-  "subj": "에토미데이트",
-  "claim": "외상 환자 응급삽관에서 에토미데이트와 케타민의 결과를 비교한다",
-  "line": "외상 응급삽관에서 에토미데이트는 7일 생존율은 낮았지만 28일 차이는 없었다.",
-  "effect": "7일 생존 77.3% vs 85.1%",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 801,
-  "synth": "single",
-  "known": "standard",
-  "knownWhy": "외상 응급기도삽관의 표준 유도제로 쓰이지만 외상 자체의 치료 적응증은 아닙니다.",
-  "why": "외상 환자에게 마취 유도제로 투여했을 때 단기 생존 신호가 불리했는지 확인한 안전성 항목입니다.",
-  "saw": "응급 기관삽관이 필요한 중환자 8백여 명을 에토미데이트군과 케타민군에 무작위 배정한 단일기관 공개시험에서 7일 생존율은 에토미데이트 77.3%, 케타민 85.1%였습니다. 28일 생존율은 64.1% 대 66.8%로 유의한 차이가 없었습니다.",
-  "limit": "단일기관 공개시험이고 외상 환자만의 결과가 아니며, 응급 삽관 전후 중증도와 후속 치료가 결과에 영향을 줄 수 있습니다.",
-  "against": "외상 응급삽관 968명 후향적 연구에서는 에토미데이트군과 케타민군의 사망률·중환자실 없는 날·인공호흡기 없는 날이 조정 후 비슷했습니다.",
-  "use": "외상 응급삽관에서 유도제 선택과 생존 신호를 분리해 기록하며 외상 치료 효과로 해석하지 않습니다.",
-  "refs": [
-    { "label": "응급삽관 에토미데이트 대 케타민 무작위시험", "pmid": "34904190" },
-    { "label": "성인 외상 응급삽관 에토미데이트 대 케타민 후향적 연구", "pmid": "27993308" },
-    { "label": "응급삽관 유도제 비교 등록시험", "nct": "NCT01823328" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=etomidate · cond=Trauma → 15건 반환, 물질 대조 후 8건",
-    "pubmed": "etomidate AND Trauma → 197편",
-    "negative": "etomidate AND Trauma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 147편",
-    "safety": "etomidate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1267편"
+ "id": "etomidate-trauma-harm",
+ "subj": "에토미데이트",
+ "claim": "외상 환자 응급삽관에서 에토미데이트와 케타민의 결과를 비교한다",
+ "line": "외상 응급삽관에서 에토미데이트는 7일 생존율은 낮았지만 28일 차이는 없었다.",
+ "effect": "7일 생존 77.3% vs 85.1%",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 801,
+ "synth": "single",
+ "known": "standard",
+ "knownWhy": "외상 응급기도삽관의 표준 유도제로 쓰이지만 외상 자체의 치료 적응증은 아닙니다.",
+ "why": "외상 환자에게 마취 유도제로 투여했을 때 단기 생존 신호가 불리했는지 확인한 안전성 항목입니다.",
+ "saw": "응급 기관삽관이 필요한 중환자 8백여 명을 에토미데이트군과 케타민군에 무작위 배정한 단일기관 공개시험에서 7일 생존율은 에토미데이트 77.3%, 케타민 85.1%였습니다. 28일 생존율은 64.1% 대 66.8%로 유의한 차이가 없었습니다.",
+ "limit": "단일기관 공개시험이고 외상 환자만의 결과가 아니며, 응급 삽관 전후 중증도와 후속 치료가 결과에 영향을 줄 수 있습니다.",
+ "against": "외상 응급삽관 968명 후향적 연구에서는 에토미데이트군과 케타민군의 사망률·중환자실 없는 날·인공호흡기 없는 날이 조정 후 비슷했습니다.",
+ "use": "외상 응급삽관에서 유도제 선택과 생존 신호를 분리해 기록하며 외상 치료 효과로 해석하지 않습니다.",
+ "refs": [
+  {
+   "label": "응급삽관 에토미데이트 대 케타민 무작위시험",
+   "pmid": "34904190"
+  },
+  {
+   "label": "성인 외상 응급삽관 에토미데이트 대 케타민 후향적 연구",
+   "pmid": "27993308"
+  },
+  {
+   "label": "응급삽관 유도제 비교 등록시험",
+   "nct": "NCT01823328"
   }
+ ],
+ "queried": {
+  "date": "2026-08-05",
+  "ctgov": "intr=etomidate · cond=Trauma → 15건 반환, 물질 대조 후 8건",
+  "pubmed": "etomidate AND Trauma → 197편",
+  "negative": "etomidate AND Trauma AND (no effect OR did not OR failed to OR negative OR no significant difference) → 147편",
+  "safety": "etomidate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1267편"
+ },
+ "vs": "에토미데이트 vs 케타민: 응급 삽관 RCT 801명에서 7일 생존 77.3% vs 85.1%, 차이 -7.8%p(95% CI -13~-2.4; P=.005); 28일 생존 64.1% vs 66.8%(P=.294). 외상 환자 관찰자료에서는 병원 사망 17.3% vs 20.4%, 보정 OR 1.41(0.92~2.16)."
 }

@@ -1,28 +1,34 @@
 {
-  "id": "esketamine-dexmedetomidine-pos",
-  "subj": "esketamine",
-  "claim": "복부 대수술 직후 에스케타민·덱스메데토미딘 병용의 진통 효과를 평가한다",
-  "line": "복부 대수술 직후 에스케타민 병용은 통증과 추가 진통제 사용을 줄였다.",
-  "effect": "구제진통 5.0% 대 15.6%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 157,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "에스케타민의 국내 허가 적응증은 우울장애이며 덱스메데토미딘 병용 마취는 허가 밖이다.",
-  "why": "복강경 복부 대수술에서 에스케타민·덱스메데토미딘 기반 오피오이드 절감 마취와 레미펜타닐을 비교했다.",
-  "saw": "157명이 무작위 배정됐고 회복실 구제진통은 병용군 5.0%, 레미펜타닐군 15.6%였다(P=.028).",
-  "limit": "병용군에서 발관 시간이 길고 졸림이 많았으며 수술 후 1일 통증 차이는 유의하지 않았다.",
-  "against": "수술 후 장기 통증과 수면 점수는 군 간 차이가 없었다.",
-  "use": "복부 대수술의 오피오이드 절감 마취 후보로 검토하되 발관 지연과 졸림을 감시한다.",
-  "refs": [
-    { "label": "복강경 복부 대수술 에스케타민·덱스메데토미딘 무작위시험", "doi": "10.2147/DDDT.S480700", "pmid": "40110501", "pmc": "PMC11920631" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intervention=esketamine AND condition=Dexmedetomidine; 44건",
-    "pubmed": "esketamine AND Dexmedetomidine; 134건",
-    "negative": "esketamine AND Dexmedetomidine AND (no effect OR did not OR failed OR negative OR no significant difference); 32건",
-    "safety": "esketamine AND (adverse OR toxicity OR case report OR harm OR dropout); 1068건"
+ "id": "esketamine-dexmedetomidine-pos",
+ "subj": "에스케타민",
+ "claim": "복부 대수술 직후 에스케타민·덱스메데토미딘 병용의 진통 효과를 평가한다",
+ "line": "복부 대수술 직후 에스케타민 병용은 통증과 추가 진통제 사용을 줄였다.",
+ "effect": "구제진통 5.0% 대 15.6%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 157,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에스케타민의 국내 허가 적응증은 우울장애이며 덱스메데토미딘 병용 마취는 허가 밖이다.",
+ "why": "복강경 복부 대수술에서 에스케타민·덱스메데토미딘 기반 오피오이드 절감 마취와 레미펜타닐을 비교했다.",
+ "saw": "157명이 무작위 배정됐고 회복실 구제진통은 병용군 5.0%, 레미펜타닐군 15.6%였다(P=.028).",
+ "limit": "병용군에서 발관 시간이 길고 졸림이 많았으며 수술 후 1일 통증 차이는 유의하지 않았다.",
+ "against": "수술 후 장기 통증과 수면 점수는 군 간 차이가 없었다.",
+ "use": "복부 대수술의 오피오이드 절감 마취 후보로 검토하되 발관 지연과 졸림을 감시한다.",
+ "refs": [
+  {
+   "label": "복강경 복부 대수술 에스케타민·덱스메데토미딘 무작위시험",
+   "doi": "10.2147/DDDT.S480700",
+   "pmid": "40110501",
+   "pmc": "PMC11920631"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intervention=esketamine AND condition=Dexmedetomidine; 44건",
+  "pubmed": "esketamine AND Dexmedetomidine; 134건",
+  "negative": "esketamine AND Dexmedetomidine AND (no effect OR did not OR failed OR negative OR no significant difference); 32건",
+  "safety": "esketamine AND (adverse OR toxicity OR case report OR harm OR dropout); 1068건"
+ },
+ "vs": "에스케타민+덱스메데토미딘 기반 opioid-sparing 마취 vs 레미펜타닐: 복강경 대수술 RCT 157명에서 회복실 통증 중앙값 1점 vs 3점(P=.001), 48시간 구제진통 5.0% vs 15.6%(P=.028), 발관 31분 vs 20분(P<.01)."
 }

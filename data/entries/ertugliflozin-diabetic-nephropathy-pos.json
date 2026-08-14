@@ -1,30 +1,43 @@
 {
-  "id": "ertugliflozin-diabetic-nephropathy-pos",
-  "subj": "ertugliflozin",
-  "claim": "당뇨병성 신장병에서 에르투글리플로진의 신기능 효과를 평가한다",
-  "line": "당뇨병성 신장병에서 에르투글리플로진은 신기능 저하를 늦췄다.",
-  "effect": "eGFR −0.76~-0.05/위약 −1.5",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 8246,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "ertugliflozin 허가는 제2형 당뇨병이며 당뇨병성 신장병은 별도 적응증입니다",
-  "why": "제2형 당뇨병 환자 대규모 시험의 신기능 분석에서 허가 밖 신호를 확인합니다",
-  "saw": "VERTIS CV에서 위약 2,747명과 ertugliflozin 5mg 2,752명·15mg 2,747명을 비교했습니다. 초기 eGFR 저하가 큰 군의 만성 eGFR 경사는 −0.76, −0.29, −0.05였고 위약은 약 −1.5였습니다.",
-  "limit": "제2형 당뇨병과 심혈관질환 환자의 이차 신장 분석이므로 당뇨병성 신장병 단독 치료시험이나 조직학적 결과는 아닙니다.",
-  "against": "신장질환 위험이 높은 군에서는 혈당 강하 효과가 약해졌고 신장 관련 이상반응을 개별 환자 위험과 함께 해석해야 합니다.",
-  "use": "당뇨병성 신장병을 동반한 제2형 당뇨병에서 장기 eGFR 경사 신호를 확인한 근거로 기록합니다.",
-  "refs": [
-    { "label": "Cherney 2022 · VERTIS CV eGFR 분석", "doi": "10.1159/000524889", "pmid": "35691283", "pmc": "PMC9501765" },
-    { "label": "Cosentino 2022 · VERTIS CV 신장 위험 분석", "doi": "10.1111/dom.14677", "pmid": "35233908" },
-    { "label": "VERTIS CV", "nct": "NCT01986881" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intervention=ertugliflozin AND condition=Diabetic Nephropathy; 2건 반환, 2건 직접 대조",
-    "pubmed": "ertugliflozin AND Diabetic Nephropathy; 2편",
-    "negative": "ertugliflozin AND Diabetic Nephropathy AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
-    "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ "id": "ertugliflozin-diabetic-nephropathy-pos",
+ "subj": "에르투글리플로진",
+ "claim": "당뇨병성 신장병에서 에르투글리플로진의 신기능 효과를 평가한다",
+ "line": "당뇨병성 신장병에서 에르투글리플로진은 신기능 저하를 늦췄다.",
+ "effect": "eGFR −0.76~-0.05/위약 −1.5",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 8246,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "에르투글리플로진 허가는 제2형 당뇨병이며 당뇨병성 신장병은 별도 적응증입니다",
+ "why": "제2형 당뇨병 환자 대규모 시험의 신기능 분석에서 허가 밖 신호를 확인합니다",
+ "saw": "VERTIS CV에서 위약 2,747명과 에르투글리플로진 5mg 2,752명·15mg 2,747명을 비교했습니다. 초기 eGFR 저하가 큰 군의 만성 eGFR 경사는 −0.76, −0.29, −0.05였고 위약은 약 −1.5였습니다.",
+ "limit": "제2형 당뇨병과 심혈관질환 환자의 이차 신장 분석이므로 당뇨병성 신장병 단독 치료시험이나 조직학적 결과는 아닙니다.",
+ "against": "신장질환 위험이 높은 군에서는 혈당 강하 효과가 약해졌고 신장 관련 이상반응을 개별 환자 위험과 함께 해석해야 합니다.",
+ "use": "당뇨병성 신장병을 동반한 제2형 당뇨병에서 장기 eGFR 경사 신호를 확인한 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Cherney 2022 · VERTIS CV eGFR 분석",
+   "doi": "10.1159/000524889",
+   "pmid": "35691283",
+   "pmc": "PMC9501765"
+  },
+  {
+   "label": "Cosentino 2022 · VERTIS CV 신장 위험 분석",
+   "doi": "10.1111/dom.14677",
+   "pmid": "35233908"
+  },
+  {
+   "label": "VERTIS CV",
+   "nct": "NCT01986881"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "intervention=ertugliflozin AND condition=Diabetic Nephropathy; 2건 반환, 2건 직접 대조",
+  "pubmed": "ertugliflozin AND Diabetic Nephropathy; 2편",
+  "negative": "ertugliflozin AND Diabetic Nephropathy AND (no effect OR did not OR failed to OR negative); 검색 결과 대조",
+  "safety": "ertugliflozin AND (adverse OR toxicity OR case report OR harm); 188편"
+ },
+ "vs": "에르투글리플로진 vs 위약: 제2형 당뇨병 심혈관 결과시험에서 6주 이후 만성 eGFR 기울기(주 6~156주)는 에르투글리플로진 초기 eGFR 저하 tertile -0.76~-0.05mL/min/1.73m²/년, 위약은 약 -1.5였고, 모든 tertile에서 이상반응 발생은 군 간 다르지 않음."
 }
