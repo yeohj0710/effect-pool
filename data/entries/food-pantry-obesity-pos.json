@@ -1,28 +1,33 @@
 {
-  "id": "food-pantry-obesity-pos",
-  "subj": "food pantry",
-  "claim": "식량 불안이 있는 어린이에서 일차진료 식품 저장고 이용이 6개월 BMI z점수 증가를 줄였다",
-  "line": "식품 저장고를 이용한 아동은 6개월 BMI z점수 증가가 더 작았다.",
-  "effect": "BMIz 차이 -0.31",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 265,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식품 저장고는 비만 치료제로 허가된 약물이 아닌 식량 지원 중재다.",
-  "why": "식량 불안이 있는 6세 미만 아동 265명의 성향점수 매칭 코호트에서 6개월 식품 지원 프로그램 참여와 BMI z점수 변화를 비교했다.",
-  "saw": "식품 저장고 참여 아동은 비참여 매칭 아동보다 BMI z점수 증가가 조정 차이 -0.31(95% CI -0.54~-0.08)로 작았다.",
-  "limit": "참여자는 44명이고 무작위 배정이 아닌 소규모 개념증명 코호트다.",
-  "against": "식품 저장고가 모든 아동의 비만을 치료한다고 단정할 수 없다.",
-  "use": "식량 불안 아동의 체중 관리에서 식품 지원과 성장 곡선을 함께 추적한다.",
-  "refs": [
-    { "label": "Woo Baidal 2023 · Pediatric Obesity · 성향점수 매칭 코호트", "doi": "10.1111/ijpo.13023", "pmid": "36939408" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "food pantry AND Obesity · 5건",
-    "pubmed": "food pantry AND Obesity · 59건",
-    "negative": "food pantry AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 16건",
-    "safety": "food pantry AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 32건"
+ "id": "food-pantry-obesity-pos",
+ "subj": "푸드 팬트리",
+ "claim": "식량 불안이 있는 어린이에서 일차진료 식품 저장고 이용이 6개월 BMI z점수 증가를 줄였다",
+ "line": "식품 저장고를 이용한 아동은 6개월 BMI z점수 증가가 더 작았다.",
+ "effect": "BMIz 차이 -0.31",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 265,
+ "vs": "식품불안정 아동 265명 성향점수 매칭 코호트; 이동식 식품나눔창고 44명 대 비참여 비교군; 6개월 BMI z 변화 조정 차이 −0.31(95% CI −0.54~−0.08)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식품 저장고는 비만 치료제로 허가된 약물이 아닌 식량 지원 중재다.",
+ "why": "식량 불안이 있는 6세 미만 아동 265명의 성향점수 매칭 코호트에서 6개월 식품 지원 프로그램 참여와 BMI z점수 변화를 비교했다.",
+ "saw": "식품 저장고 참여 아동은 비참여 매칭 아동보다 BMI z점수 증가가 조정 차이 -0.31(95% CI -0.54~-0.08)로 작았다.",
+ "limit": "참여자는 44명이고 무작위 배정이 아닌 소규모 개념증명 코호트다.",
+ "against": "식품 저장고가 모든 아동의 비만을 치료한다고 단정할 수 없다.",
+ "use": "식량 불안 아동의 체중 관리에서 식품 지원과 성장 곡선을 함께 추적한다.",
+ "refs": [
+  {
+   "label": "Woo Baidal 2023 · Pediatric Obesity · 성향점수 매칭 코호트",
+   "doi": "10.1111/ijpo.13023",
+   "pmid": "36939408"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "food pantry AND Obesity · 5건",
+  "pubmed": "food pantry AND Obesity · 59건",
+  "negative": "food pantry AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 16건",
+  "safety": "food pantry AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 32건"
+ }
 }

@@ -1,20 +1,34 @@
 {
-  "id": "food-shopping-intervention-healthy-diet-pos",
-  "subj": "food shopping intervention",
-  "claim": "온라인 식품 장보기 기본값이 가족 식단의 질을 높인다",
-  "line": "온라인 건강 장보기 기본값은 가정의 식품 질을 높였다.",
-  "effect": "식단 질 +5.4% vs −8.3%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 69,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "온라인 식품 장보기 기본값은 의약품이 아닌 가족 행동 중재입니다.",
-  "why": "비만 위험이 있는 2~5세 자녀 가족에게 건강한 조리법이 미리 담긴 온라인 장보기 목록을 4주 제공한 무작위시험입니다.",
-  "saw": "69가구를 두 군으로 나눴습니다. 온라인 건강 조리법 장보기 목록군의 가정 식품 영양 질은 5.4% 높아졌고 대조군은 8.3% 낮아졌습니다. 매장 전용 목록은 유의하지 않았고 두 군 모두 에너지와 비용이 줄었습니다.",
-  "limit": "4주 중재와 가정 구매 자료에 기반한 결과라 장기 섭취와 체중 변화를 확정할 수 없습니다.",
-  "against": "온라인 장보기 기본값만으로 가족의 식단 질이나 소아 비만을 장기적으로 개선한다고 말할 수 없습니다.",
-  "use": "가정 식품 구매 기본값이 식단 질을 바꾼 짧은 무작위 근거로 기록합니다.",
-  "refs": [{ "label": "가족 온라인 건강 조리법 장보기 무작위시험", "doi": "10.1016/j.appet.2025.108397", "pmid": "41297859", "nct": "NCT05899634" }],
-  "queried": { "date": "2026-08-08", "ctgov": "food shopping intervention AND Healthy Diet · 17건 반환, 직접 일치 0건", "pubmed": "food shopping intervention AND Healthy Diet · 292편", "negative": "food shopping intervention AND Healthy Diet AND (no effect OR did not OR failed OR negative OR no significant difference) · 148편", "safety": "food shopping intervention AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 117편" }
+ "id": "food-shopping-intervention-healthy-diet-pos",
+ "subj": "식품 구매 중재",
+ "claim": "온라인 식품 장보기 기본값이 가족 식단의 질을 높인다",
+ "line": "온라인 건강 장보기 기본값은 가정의 식품 질을 높였다.",
+ "effect": "식단 질 +5.4% vs −8.3%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 69,
+ "vs": "비만 위험 아동 가족 69명 2군 무작위시험; 온라인 장보기 건강식품 기본값 대 대조; 가정 전체 장보기 영양점수 5.4% 증가 대 8.3% 감소(P<.01)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온라인 식품 장보기 기본값은 의약품이 아닌 가족 행동 중재입니다.",
+ "why": "비만 위험이 있는 2~5세 자녀 가족에게 건강한 조리법이 미리 담긴 온라인 장보기 목록을 4주 제공한 무작위시험입니다.",
+ "saw": "69가구를 두 군으로 나눴습니다. 온라인 건강 조리법 장보기 목록군의 가정 식품 영양 질은 5.4% 높아졌고 대조군은 8.3% 낮아졌습니다. 매장 전용 목록은 유의하지 않았고 두 군 모두 에너지와 비용이 줄었습니다.",
+ "limit": "4주 중재와 가정 구매 자료에 기반한 결과라 장기 섭취와 체중 변화를 확정할 수 없습니다.",
+ "against": "온라인 장보기 기본값만으로 가족의 식단 질이나 소아 비만을 장기적으로 개선한다고 말할 수 없습니다.",
+ "use": "가정 식품 구매 기본값이 식단 질을 바꾼 짧은 무작위 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "가족 온라인 건강 조리법 장보기 무작위시험",
+   "doi": "10.1016/j.appet.2025.108397",
+   "pmid": "41297859",
+   "nct": "NCT05899634"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "food shopping intervention AND Healthy Diet · 17건 반환, 직접 일치 0건",
+  "pubmed": "food shopping intervention AND Healthy Diet · 292편",
+  "negative": "food shopping intervention AND Healthy Diet AND (no effect OR did not OR failed OR negative OR no significant difference) · 148편",
+  "safety": "food shopping intervention AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 117편"
+ }
 }

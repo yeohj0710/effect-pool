@@ -1,28 +1,32 @@
 {
-  "id": "food-label-intervention-cardiovascular-disease-open",
-  "subj": "food label intervention",
-  "claim": "영양 등급 라벨로 식단의 심혈관 위험을 살핀다",
-  "line": "영양 질이 낮은 식단을 섭취한 사람에서 심혈관 사건이 더 많았다.",
-  "effect": "심혈관 사건 HR 1.03/표준편차",
-  "tier": "obs",
-  "dir": "open",
-  "n": 345533,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "영양 등급 라벨은 의약품 허가 적응증 대상이 아닙니다.",
-  "why": "Nutri-Score의 식품 영양 프로파일과 심혈관 사건 위험의 연관성을 확인합니다.",
-  "saw": "유럽 7개국 EPIC 코호트 345,533명의 식단 점수와 16,214건의 심혈관 사건을 분석했습니다. 영양 질이 낮은 식단 점수가 높을수록 심혈관 사건 위험이 높았습니다.",
-  "limit": "관찰 코호트의 식단 점수 분석이라 라벨을 본 중재의 효과나 인과관계를 입증하지 못합니다.",
-  "against": "라벨 점수는 실제 라벨 사용이 아니라 섭취 식품의 영양 프로파일을 요약한 값입니다.",
-  "use": "영양 라벨 정책의 연구 가설로 사용할 수 있지만 심혈관 예방 효과로 해석하면 안 됩니다.",
-  "refs": [
-    { "label": "Nutri-Score 식단 질과 심혈관 위험 전향 코호트", "doi": "10.1016/j.lanepe.2024.101006", "pmid": "39529812" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "food label intervention AND Cardiovascular Disease — 직접 결과 미확인",
-    "pubmed": "food label intervention AND Cardiovascular Disease — PMID 39529812",
-    "negative": "food label intervention AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference)",
-    "safety": "food label intervention AND (cardiovascular OR adverse OR harm OR safety)"
+ "id": "food-label-intervention-cardiovascular-disease-open",
+ "subj": "식품 라벨 중재",
+ "claim": "영양 등급 라벨로 식단의 심혈관 위험을 살핀다",
+ "line": "영양 질이 낮은 식단을 섭취한 사람에서 심혈관 사건이 더 많았다.",
+ "effect": "심혈관 사건 HR 1.03/표준편차",
+ "tier": "obs",
+ "dir": "open",
+ "n": 345533,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "영양 등급 라벨은 의약품 허가 적응증 대상이 아닙니다.",
+ "why": "Nutri-Score의 식품 영양 프로파일과 심혈관 사건 위험의 연관성을 확인합니다.",
+ "saw": "유럽 7개국 EPIC 코호트 345,533명의 식단 점수와 16,214건의 심혈관 사건을 분석했습니다. 영양 질이 낮은 식단 점수가 높을수록 심혈관 사건 위험이 높았습니다.",
+ "limit": "관찰 코호트의 식단 점수 분석이라 라벨을 본 중재의 효과나 인과관계를 입증하지 못합니다.",
+ "against": "라벨 점수는 실제 라벨 사용이 아니라 섭취 식품의 영양 프로파일을 요약한 값입니다.",
+ "use": "영양 라벨 정책의 연구 가설로 사용할 수 있지만 심혈관 예방 효과로 해석하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Nutri-Score 식단 질과 심혈관 위험 전향 코호트",
+   "doi": "10.1016/j.lanepe.2024.101006",
+   "pmid": "39529812"
   }
+ ],
+ "queried": {
+  "date": "2026-08-08",
+  "ctgov": "food label intervention AND Cardiovascular Disease — 직접 결과 미확인",
+  "pubmed": "food label intervention AND Cardiovascular Disease — PMID 39529812",
+  "negative": "food label intervention AND Cardiovascular Disease AND (no effect OR did not OR failed OR negative OR no significant difference)",
+  "safety": "food label intervention AND (cardiovascular OR adverse OR harm OR safety)"
+ }
 }

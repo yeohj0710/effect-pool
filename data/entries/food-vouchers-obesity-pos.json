@@ -1,28 +1,33 @@
 {
-  "id": "food-vouchers-obesity-pos",
-  "subj": "food vouchers",
-  "claim": "식품 바우처와 체중 감량 상담이 식품 불안정 성인의 비만 체중을 줄였다",
-  "line": "식량 불안과 비만이 있는 성인에서 농산물 바우처와 상담 뒤 체중이 줄었다.",
-  "effect": "체중 -2.4% vs +0.4%",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 32,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "식품 바우처는 비만 치료의 허가 적응증이 아니다",
-  "why": "식품 불안정과 비만 성인을 대상으로 농산물 바우처·상담과 대기자 대조군을 비교한 무작위 파일럿 연구다.",
-  "saw": "성인 32명을 무작위 배정했다. 농산물 바우처군은 12주 뒤 초기 체중의 2.4%를 줄였고 대기자군은 0.4% 늘었으며 식사 자기효능감도 개선됐다.",
-  "limit": "소규모 파일럿 연구이고 바우처와 행동 상담을 함께 제공했다.",
-  "against": "식품의 질, 식품 불안정, 기분과 스트레스 변화는 두 군 사이에 유의한 차이가 없었다.",
-  "use": "식품 불안정과 비만을 함께 다룬 농산물 바우처 연구로만 기록한다.",
-  "refs": [
-    { "label": "Chao 2025 · Journal of Cardiovascular Nursing · 무작위 파일럿 연구", "doi": "10.1097/JCN.0000000000001215", "pmid": "40198763" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=food vouchers, cond=Obesity · 16건",
-    "pubmed": "food vouchers AND Obesity · 49편",
-    "negative": "food vouchers AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
-    "safety": "food vouchers AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 39편"
+ "id": "food-vouchers-obesity-pos",
+ "subj": "식품 바우처",
+ "claim": "식품 바우처와 체중 감량 상담이 식품 불안정 성인의 비만 체중을 줄였다",
+ "line": "식량 불안과 비만이 있는 성인에서 농산물 바우처와 상담 뒤 체중이 줄었다.",
+ "effect": "체중 -2.4% vs +0.4%",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 32,
+ "vs": "식품불안정·비만 성인 32명 무작위시험; ProduceRx 식품 바우처+상담 대 대기목록; 12주 체중 군간 차이 −2.4%±0.7% 대 +0.4%±0.7%(P=.01)",
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "식품 바우처는 비만 치료의 허가 적응증이 아니다",
+ "why": "식품 불안정과 비만 성인을 대상으로 농산물 바우처·상담과 대기자 대조군을 비교한 무작위 파일럿 연구다.",
+ "saw": "성인 32명을 무작위 배정했다. 농산물 바우처군은 12주 뒤 초기 체중의 2.4%를 줄였고 대기자군은 0.4% 늘었으며 식사 자기효능감도 개선됐다.",
+ "limit": "소규모 파일럿 연구이고 바우처와 행동 상담을 함께 제공했다.",
+ "against": "식품의 질, 식품 불안정, 기분과 스트레스 변화는 두 군 사이에 유의한 차이가 없었다.",
+ "use": "식품 불안정과 비만을 함께 다룬 농산물 바우처 연구로만 기록한다.",
+ "refs": [
+  {
+   "label": "Chao 2025 · Journal of Cardiovascular Nursing · 무작위 파일럿 연구",
+   "doi": "10.1097/JCN.0000000000001215",
+   "pmid": "40198763"
   }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=food vouchers, cond=Obesity · 16건",
+  "pubmed": "food vouchers AND Obesity · 49편",
+  "negative": "food vouchers AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
+  "safety": "food vouchers AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 39편"
+ }
 }
