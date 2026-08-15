@@ -1,32 +1,33 @@
 {
- "id": "fluvastatin-hypertension-pos",
- "subj": "플루바스타틴",
- "claim": "고혈압 환자에서 플루바스타틴이 고지방 식후 혈관 염증과 섬유소용해 이상을 줄였다",
- "line": "고지방 식사 뒤 플루바스타틴은 혈관 염증·섬유소용해 이상을 줄였다.",
- "effect": "PAI-1·P-selectin 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 53,
- "synth": "single",
- "known": "off",
- "knownWhy": "플루바스타틴은 이상지질혈증에는 허가됐지만 고혈압 치료에는 허가 적응증이 아니다.",
- "why": "본태성 고혈압 환자 53명을 위약·플루바스타틴·발사르탄·병용군에 무작위 배정해 1주 뒤 고지방 식후 혈관 지표를 측정했다.",
- "saw": "플루바스타틴 단독은 식후 P-selectin, PAI-1, t-PA 항원 증가를 약화했고 병용군은 두 단독군보다 더 큰 억제를 보였다.",
- "limit": "1주짜리 소규모 연구이며 혈관 지표 변화가 심혈관 사건 감소로 이어지는지는 확인하지 않았다.",
- "against": "플루바스타틴이 고혈압 자체를 치료하거나 혈압약을 대신한다고 볼 수 없다.",
- "use": "고혈압 환자의 지질 관리에서 식후 혈관 지표는 탐색 결과로만 보고 표준 혈압 치료를 유지한다.",
- "refs": [
-  {
-   "label": "Liu 2007 · Journal of Cardiovascular Pharmacology · 무작위 임상시험",
-   "doi": "10.1097/FJC.0b013e31805751d3",
-   "pmid": "17666915"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "fluvastatin AND Hypertension · 6건",
-  "pubmed": "fluvastatin AND Hypertension · 108건",
-  "negative": "fluvastatin AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) · 99건",
-  "safety": "fluvastatin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 698건"
- }
+  "id": "fluvastatin-hypertension-pos",
+  "subj": "플루바스타틴",
+  "claim": "고혈압 환자에서 플루바스타틴이 고지방 식후 혈관 염증과 섬유소용해 이상을 줄였다",
+  "line": "고지방 식사 뒤 플루바스타틴은 혈관 염증·섬유소용해 이상을 줄였다.",
+  "effect": "식후 혈관염증·섬유소용해 이상 완화",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 53,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "플루바스타틴은 이상지질혈증에는 허가됐지만 고혈압 치료에는 허가 적응증이 아니다.",
+  "why": "본태성 고혈압 환자 53명을 위약·플루바스타틴·발사르탄·병용군에 무작위 배정해 1주 뒤 고지방 식후 혈관 지표를 측정했다.",
+  "saw": "고혈압 환자 53명을 위약, 플루바스타틴, 발사르탄, 병용군으로 무작위 배정해 고지방 식사 뒤 변화를 비교했습니다. 플루바스타틴과 발사르탄은 식후 P-selectin·PAI-1·tPA 항원 증가를 줄였고 병용군이 단독군보다 더 효과적이었습니다.",
+  "limit": "치료 기간이 1주이고 혈압·지질·혈관 표지 중심의 단기 시험이라 심혈관 사건 예방을 보여주지 않습니다.",
+  "against": "플루바스타틴이 고혈압 자체를 치료하거나 혈압약을 대신한다고 볼 수 없다.",
+  "use": "고혈압 환자의 지질 관리에서 식후 혈관 지표는 탐색 결과로만 보고 표준 혈압 치료를 유지한다.",
+  "refs": [
+    {
+      "label": "Liu 2007 · Journal of Cardiovascular Pharmacology · 무작위 임상시험",
+      "doi": "10.1097/FJC.0b013e31805751d3",
+      "pmid": "17666915"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "fluvastatin AND Hypertension · 6건",
+    "pubmed": "fluvastatin AND Hypertension · 108건; PMID 17666915 PubMed abstract verified 2026-08-15",
+    "negative": "fluvastatin AND Hypertension AND (no effect OR did not OR failed OR negative OR no significant difference) · 99건",
+    "safety": "fluvastatin AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 698건"
+  },
+  "vs": "무작위 4군 시험·n=53: 플루바스타틴 vs 위약, 식후 P-selectin·PAI-1·tPA 증가 완화; 플루바스타틴+발사르탄이 단독요법보다 효과적."
 }

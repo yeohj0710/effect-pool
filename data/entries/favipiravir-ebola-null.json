@@ -14,14 +14,21 @@
   "against": "반대 검색 5건은 에볼라에서 무작위 대조군이 필요하고 파비피라비르 효과를 확정할 수 없다고 지적했습니다.",
   "use": "에볼라 바이러스병에서는 약효 미확정 연구로 설명하고 생존율 수치를 치료 효과로 오해하지 않게 합니다.",
   "refs": [
-    { "label": "Sissoko 2016 · PLoS Med · JIKI 에볼라 단일군 시험", "doi": "10.1371/journal.pmed.1001967", "pmid": "26930627", "pmc": "PMC4773183", "nct": "NCT02329054" }
+    {
+      "label": "Sissoko 2016 · PLoS Med · JIKI 에볼라 단일군 시험",
+      "doi": "10.1371/journal.pmed.1001967",
+      "pmid": "26930627",
+      "pmc": "PMC4773183",
+      "nct": "NCT02329054"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"favipiravir\" → 0건 반환; 미국 허가사항 확인 안 됨",
     "ctgov": "query.intr=favipiravir&query.cond=Ebola Virus Disease&countTotal=true&pageSize=1000 → 3건 반환, InterventionName 정확 대조 후 3건",
-    "pubmed": "favipiravir AND \"Ebola Virus Disease\" → 37건",
+    "pubmed": "favipiravir AND \"Ebola Virus Disease\" → 37건; PMID 26930627 PubMed abstract verified 2026-08-15; 에볼라 환자에게 모두 파비피라비르를 투여한 비무작위 시험으로 동시 대조군이 없습니다.",
     "negative": "favipiravir AND \"Ebola Virus Disease\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 5건",
     "safety": "favipiravir AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 377건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 에볼라 환자에게 모두 파비피라비르를 투여한 비무작위 시험으로 동시 대조군이 없습니다."
 }

@@ -16,13 +16,19 @@
   "use": "감수성 결과와 중증도를 확인한 뒤 제한된 치료 선택지의 초기 근거로만 참고하며, 혈액응고 이상을 모니터링합니다.",
   "effect": "임상 반응·미생물 제거",
   "refs": [
-    { "label": "2026 · Frontiers in Pharmacology · 카바페넴 내성 아시네토박터 폐렴 전향 관찰 증례군", "doi": "10.3389/fphar.2026.1796494", "pmid": "42181878", "pmc": "PMC13189935" }
+    {
+      "label": "2026 · Frontiers in Pharmacology · 카바페넴 내성 아시네토박터 폐렴 전향 관찰 증례군",
+      "doi": "10.3389/fphar.2026.1796494",
+      "pmid": "42181878",
+      "pmc": "PMC13189935"
+    }
   ],
   "queried": {
-    "date": "2026-08-08",
+    "date": "2026-08-15",
     "ctgov": "intr=eravacycline, cond=Pulmonary Infection · 3건 반환",
-    "pubmed": "eravacycline AND (pulmonary infection OR pneumonia) · 503편",
+    "pubmed": "eravacycline AND (pulmonary infection OR pneumonia) · 503편; PMID 42181878 PubMed abstract verified 2026-08-15; 22명 전향 관찰 증례군에서 반응률을 보고했지만 대조군이 없습니다.",
     "negative": "eravacycline AND (pulmonary infection OR pneumonia) AND (no effect OR did not OR failed to OR negative OR no significant difference) · 489편",
     "safety": "eravacycline AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 1011편"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 22명 전향 관찰 증례군에서 반응률을 보고했지만 대조군이 없습니다."
 }

@@ -3,14 +3,14 @@
   "subj": "가바펜틴",
   "claim": "가바펜틴은 약물 의존 치료 근거가 부족하고 오남용이 보고됐다",
   "line": "가바펜틴은 의존 치료 근거가 없고 고위험군에서 오남용 사례가 나왔다.",
-  "effect": "오남용·의존 보고",
+  "effect": "부프레노르핀 감량·날트렉손 전환 이득 없음",
   "tier": "obs",
   "dir": "harm",
-  "n": null,
+  "n": 117,
   "synth": "single",
   "why": "gabapentin 오남용과 오용을 조사한 체계적 문헌고찰은 치료 효과보다 약물의존·오남용 위험이 큰 집단에서의 안전성 문제를 다룹니다.",
-  "saw": "체계적 문헌고찰은 46개 관찰연구와 10개 증례·증례군 등 55개 연구를 검토했고, 약물의존 집단에서 gabapentin 오남용이 보고됐습니다. 연구 전체의 사람 수 합계는 원문에서 제시하지 않았습니다.",
-  "limit": "오남용 위험에 관한 관찰·증례 근거이므로 약물의존 치료 효과의 크기를 산출할 수 없습니다. 합산 참가자 수를 확인할 수 없어 n은 null입니다.",
+  "saw": "처방 오피오이드 사용장애 117명을 부프레노르핀 감량과 날트렉손 전환 과정에서 가바펜틴 800mg 하루 2회 또는 위약에 무작위 배정했습니다. 감량 완료·날트렉손 전환·갈망·금단·오피오이드 사용에서 군 간 차이가 없었습니다.",
+  "limit": "펜타닐 노출 여부에 따라 금단 점수 방향이 달랐고, 특정 오피오이드 감량 과정의 결과입니다.",
   "against": "오피오이드 사용장애 환자를 대상으로 한 무작위시험에서는 치료 완료와 갈망·금단·오피오이드 사용 개선이 확인되지 않았습니다.",
   "use": "gabapentin을 약물의존 치료제로 소개할 근거는 부족하고, 고위험군의 오남용·의존 위험을 먼저 표시해야 합니다.",
   "refs": [
@@ -32,10 +32,11 @@
     }
   ],
   "queried": {
-    "date": "2026-08-04",
+    "date": "2026-08-15",
     "ctgov": "query.intr=gabapentin&query.cond=drug dependence → 5건 반환, InterventionName에 gabapentin 포함 3건",
-    "pubmed": "gabapentin AND (drug dependence OR substance use disorder) → 665건",
+    "pubmed": "gabapentin AND (drug dependence OR substance use disorder) → 665건; PMID 41401348 PubMed abstract verified 2026-08-15",
     "negative": "gabapentin AND (drug dependence OR substance use disorder) AND (no effect OR \"did not\" OR \"failed to\" OR negative OR \"null association\" OR \"no significant difference\") → 503건",
     "safety": "gabapentin AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 3,817건"
-  }
+  },
+  "vs": "이중눈가림 RCT·n=117: 가바펜틴 vs 위약, 감량 완료·날트렉손 전환·갈망·금단·오피오이드 사용 차이 없음; 펜타닐 양성군 금단 악화 신호(z=3.70·3.73)."
 }

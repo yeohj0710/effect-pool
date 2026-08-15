@@ -1,33 +1,34 @@
 {
- "id": "etravirine-hepatitis-b-null",
- "subj": "에트라비린",
- "claim": "B형간염을 동반한 HIV에서 에트라비린의 치료 결과와 재활성화 위험을 평가한다",
- "line": "에트라비린 복용 중 DAA 뒤 B형간염이 재활성화됐지만 치료 효과는 확인되지 않았다.",
- "effect": "1명 사례·HBV DNA 6.06 log10",
- "tier": "case",
- "dir": "null",
- "n": 1,
- "synth": "single",
- "known": "off",
- "knownWhy": "에트라비린 허가는 HIV-1 감염이며 B형간염 치료는 허가 적응증이 아닙니다",
- "why": "에트라비린이 B형간염을 치료한다는 주장과 실제 HIV·HCV 동시감염 사례의 결과를 구분합니다.",
- "saw": "다루나비르·리토나비르와 에트라비린을 복용하던 HIV·HCV 환자 1명에서 HCV DAA 종료 4주 뒤 HBV가 재활성화됐습니다. HBV DNA는 6.06 log10 IU/mL였고 entecavir로 호전됐습니다.",
- "limit": "단일 증례이고 HBV 재활성화의 맥락은 HCV DAA였으므로 에트라비린의 원인·효과를 판단할 수 없습니다.",
- "against": "B형간염 바이러스 억제나 간염 치료효과를 에트라비린으로 평가한 대조시험을 찾지 못했습니다.",
- "use": "HIV·HCV 동시감염에서 B형간염 재활성화 감시가 필요한 사례로만 기록합니다.",
- "refs": [
-  {
-   "label": "Barbieri 2017 · HIV·HCV 환자의 잠복 HBV 재활성화 증례",
-   "doi": "10.1186/s12879-017-2287-y",
-   "pmid": "28249574",
-   "pmc": "PMC5333431"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "intervention=etravirine AND condition=Hepatitis B; 2건 반환, 1건 직접 대조",
-  "pubmed": "etravirine AND Hepatitis B; 19편, 직접 HBV 치료 결과 없음",
-  "negative": "etravirine AND Hepatitis B AND (no effect OR did not OR failed to OR negative); 6편",
-  "safety": "etravirine AND (adverse OR toxicity OR hepatotoxicity OR case report); 283편"
- }
+  "id": "etravirine-hepatitis-b-null",
+  "subj": "에트라비린",
+  "claim": "B형간염을 동반한 HIV에서 에트라비린의 치료 결과와 재활성화 위험을 평가한다",
+  "line": "에트라비린 복용 중 DAA 뒤 B형간염이 재활성화됐지만 치료 효과는 확인되지 않았다.",
+  "effect": "1명 사례·HBV DNA 6.06 log10",
+  "tier": "case",
+  "dir": "null",
+  "n": 1,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "에트라비린 허가는 HIV-1 감염이며 B형간염 치료는 허가 적응증이 아닙니다",
+  "why": "에트라비린이 B형간염을 치료한다는 주장과 실제 HIV·HCV 동시감염 사례의 결과를 구분합니다.",
+  "saw": "다루나비르·리토나비르와 에트라비린을 복용하던 HIV·HCV 환자 1명에서 HCV DAA 종료 4주 뒤 HBV가 재활성화됐습니다. HBV DNA는 6.06 log10 IU/mL였고 entecavir로 호전됐습니다.",
+  "limit": "단일 증례이고 HBV 재활성화의 맥락은 HCV DAA였으므로 에트라비린의 원인·효과를 판단할 수 없습니다.",
+  "against": "B형간염 바이러스 억제나 간염 치료효과를 에트라비린으로 평가한 대조시험을 찾지 못했습니다.",
+  "use": "HIV·HCV 동시감염에서 B형간염 재활성화 감시가 필요한 사례로만 기록합니다.",
+  "refs": [
+    {
+      "label": "Barbieri 2017 · HIV·HCV 환자의 잠복 HBV 재활성화 증례",
+      "doi": "10.1186/s12879-017-2287-y",
+      "pmid": "28249574",
+      "pmc": "PMC5333431"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=etravirine AND condition=Hepatitis B; 2건 반환, 1건 직접 대조",
+    "pubmed": "etravirine AND Hepatitis B; 19편, 직접 HBV 치료 결과 없음; PMID 28249574 PubMed abstract verified 2026-08-15; 에트라비린과 관련된 B형간염 재활성화 단일 증례로 대조군이 없습니다.",
+    "negative": "etravirine AND Hepatitis B AND (no effect OR did not OR failed to OR negative); 6편",
+    "safety": "etravirine AND (adverse OR toxicity OR hepatotoxicity OR case report); 283편"
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 에트라비린과 관련된 B형간염 재활성화 단일 증례로 대조군이 없습니다."
 }

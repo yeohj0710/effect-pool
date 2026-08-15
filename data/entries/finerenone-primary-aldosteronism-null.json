@@ -1,32 +1,33 @@
 {
- "id": "finerenone-primary-aldosteronism-null",
- "subj": "피네레논",
- "claim": "일차성 알도스테론증에서 에플레레논 대신 finerenone을 쓴다",
- "line": "일차성 알도스테론증에서 혈압은 유지됐지만 생화학적 반응은 줄었다.",
- "effect": "혈압·용량 유지",
- "tier": "obs",
- "dir": "null",
- "n": null,
- "synth": "single",
- "known": "off",
- "knownWhy": "피네레논은 제2형 당뇨병성 만성콩팥병과 박출률 40% 이상 심부전에 허가됐지만 일차성 알도스테론증은 허가 적응증이 아닙니다.",
- "why": "기존 무기질코르티코이드 수용체 길항제의 부작용·효능 문제를 피네레논으로 바꿔 평가한 실제 진료 자료입니다.",
- "saw": "에플레론에서 피네레논으로 바꾼 일차성 알도스테론증 환자에서 혈압과 항고혈압제 용량은 변하지 않았지만 정상 혈압과 완전 생화학적 반응 비율은 감소했습니다.",
- "limit": "표본 수가 초록에 제시되지 않은 실제 진료 연구이며 국가적 약품 부족으로 생긴 비무작위 전환입니다.",
- "against": "피네레논이 일차성 알도스테론증의 혈압·생화학적 반응을 개선한다는 근거가 아니며 장기 결과도 없습니다.",
- "use": "일차성 알도스테론증에서 피네레논을 표준 대체제로 확정하지 않고 연구 단계 결과로 기록합니다.",
- "refs": [
-  {
-   "label": "일차성 알도스테론증 피네레논 실제 진료 연구",
-   "doi": "10.1093/ejendo/lvaf099",
-   "pmid": "40378185"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=finerenone, cond=Primary Aldosteronism · 6건",
-  "pubmed": "finerenone AND Primary Aldosteronism · 22편",
-  "negative": "finerenone AND Primary Aldosteronism AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2편",
-  "safety": "finerenone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 359편"
- }
+  "id": "finerenone-primary-aldosteronism-null",
+  "subj": "피네레논",
+  "claim": "일차성 알도스테론증에서 에플레레논 대신 finerenone을 쓴다",
+  "line": "일차성 알도스테론증에서 혈압은 유지됐지만 생화학적 반응은 줄었다.",
+  "effect": "에플레레논보다 생화학적 반응 감소",
+  "tier": "obs",
+  "dir": "null",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "피네레논은 제2형 당뇨병성 만성콩팥병과 박출률 40% 이상 심부전에 허가됐지만 일차성 알도스테론증은 허가 적응증이 아닙니다.",
+  "why": "기존 무기질코르티코이드 수용체 길항제의 부작용·효능 문제를 피네레논으로 바꿔 평가한 실제 진료 자료입니다.",
+  "saw": "에플레레논 공급 부족으로 피네레논으로 전환한 원발성 알도스테론증 실제진료 자료에서 혈압과 항고혈압제 용량은 유지됐지만 정상 혈압 비율과 완전 생화학적 반응 비율은 감소했습니다(p=.004, .008).",
+  "limit": "무작위시험이 아닌 공급 부족에 따른 약물 전환 관찰자료이며 표본 수와 장기 임상결과가 초록에 없습니다.",
+  "against": "피네레논이 일차성 알도스테론증의 혈압·생화학적 반응을 개선한다는 근거가 아니며 장기 결과도 없습니다.",
+  "use": "일차성 알도스테론증에서 피네레논을 표준 대체제로 확정하지 않고 연구 단계 결과로 기록합니다.",
+  "refs": [
+    {
+      "label": "일차성 알도스테론증 피네레논 실제 진료 연구",
+      "doi": "10.1093/ejendo/lvaf099",
+      "pmid": "40378185"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=finerenone, cond=Primary Aldosteronism · 6건",
+    "pubmed": "finerenone AND Primary Aldosteronism · 22편; PMID 40378185 PubMed abstract verified 2026-08-15",
+    "negative": "finerenone AND Primary Aldosteronism AND (no effect OR did not OR failed to OR negative OR no significant difference) · 2편",
+    "safety": "finerenone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 359편"
+  },
+  "vs": "에플레레논에서 피네레논으로 전환한 실제진료 비교: 혈압·항고혈압제 용량은 변하지 않았지만 정상 혈압과 완전 생화학적 반응 비율 감소(p=.004·.008)."
 }
