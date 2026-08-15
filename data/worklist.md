@@ -21602,3 +21602,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] L-테아닌 — 스트레스·불안 — l-theanine-anxiety-pos
 - [x] S-아데노실메티오닌 — 주요우울장애 — same-depression-null
 - [x] MSM — 무릎 골관절염 — msm-osteoarthritis-pos
+- [x] 사자갈기버섯 — 인지 기능 — lions-mane-cognition-pos
+- [x] 병풀 — 인지 기능 — gotu-kola-cognition-null
+- [x] 동충하초 — 운동 수행 — cordyceps-sports-performance-null
+- [x] L-시트룰린 — 혈관 기능·혈압 — citrulline-blood-pressure-pos
+- [x] 마로니에 — 만성 정맥부전 — horse-chestnut-venous-insufficiency-pos
+- [x] 부처스브룸 — 만성 정맥부전 — butcher-broom-venous-insufficiency-pos
+- [x] 디오스민 복합제 — 치핵 수술 후 출혈 — diosmin-hemorrhoids-pos
+- [x] 블랙코호시 — 폐경 증상 — black-cohosh-hot-flashes-pos
+- [x] 마카 — 폐경 증상 — maca-menopause-pos
+- [x] 샤타바리 — 폐경 증상 — 근거 부족
+- [x] 구르마 — 제2형 당뇨병 — 근거 부족
+- [x] 블랙시드 — 제2형 당뇨병 — black-cumin-diabetes-pos
+- [x] 글루코만난 — 비만 체중 — glucomannan-fiber-obesity-pos
+- [x] 펙틴 — 고콜레스테롤혈증 — pectin-fiber-cholesterol-pos
+- [x] 구아검 — 제2형 당뇨병 — 근거 부족
+- [x] 곤약 — 변비 — konjac-constipation-pos
+- [x] 푸룬 — 변비 — 근거 부족
+- [x] 키위 — 변비 — kiwi-constipation-pos
+- [x] 헤이즐넛 — 콜레스테롤 — 근거 부족
+- [x] 캐슈넛 — 콜레스테롤 — cashew-cholesterol-pos
+- [x] 해바라기유 — 대사증후군 혈압 — sunflower-oil-metabolic-syndrome-pos
+- [x] 루핀 단백질 — LDL 콜레스테롤 — lupin-cholesterol-pos
+- [x] 퀴노아 — 대사증후군 — quinoa-metabolic-syndrome-pos
+- [x] 발아 흑미 — 제2형 당뇨병 지질 — black-rice-diabetes-pos
+- [x] 김치 — 대사증후군 — 근거 부족
+- [x] 나토키나제 — 혈압 — nattokinase-blood-pressure-pos
+- [x] 대두 단백질 — 혈압 — soy-protein-blood-pressure-null
+- [x] 기공 — 불안 — qigong-anxiety-null
+- [x] 필라테스 — 폐경 후 우울·불안 — pilates-depression-pos
+- [x] 원예 — 스트레스 — gardening-stress-null
