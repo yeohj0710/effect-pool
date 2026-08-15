@@ -1,20 +1,44 @@
 {
-  "id": "intermittent-pneumatic-compression-physical-therapy-null",
-  "subj": "간헐적 공기압박",
-  "claim": "간헐적 공기압박이 운동 뒤 근육 손상과 통증 회복을 개선한다",
-  "line": "운동 뒤 공기압박은 근육 기능과 통증 회복을 추가로 개선하지 못했습니다",
-  "effect": "근육 기능·통증 회복 추가 효과 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 45,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "간헐적 공기압박은 운동 후 회복을 위한 표준 허가 적응증이 아닌 기기 중재입니다",
-  "why": "반복 점프 뒤 간헐적 공기압박과 대조 중재를 무작위 비교한 사람 시험입니다.",
-  "saw": "건강한 남성 45명이 공기압박, 간헐적 음압 또는 가짜 미세전류군으로 나뉘었습니다. 48시간까지 근육 기능, 통증, 크레아틴키나아제와 젖산탈수소효소에서 군 간 차이가 없었습니다.",
-  "limit": "건강한 남성의 단회 운동 뒤 48시간 회복만 평가해 재활 환자나 반복 사용에 적용할 수 없습니다.",
-  "against": "17개 연구 319명 메타분석에서는 하체 공기압박이 근육 기능과 통증에 작거나 불확실한 이득을 보였습니다.",
-  "use": "운동 후 회복 기기의 작은 음성 시험으로 기록하고 물리치료 효과로 확대하지 않습니다.",
-  "refs": [{ "label": "운동 후 공기압박 무작위시험", "doi": "10.1186/s13102-021-00373-2", "pmid": "34774089", "pmc": "PMC8590753" }, { "label": "하체 공기압박 스포츠 회복 메타분석", "doi": "10.5114/biolsport.2024.133665", "pmid": "39416507", "pmc": "PMC11475002" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=intermittent pneumatic compression · cond=Physical Therapy 6건 반환·intervention 일치 4건", "pubmed": "intermittent pneumatic compression AND Physical Therapy 223편; intermittent pneumatic compression physical therapy randomized 98편", "negative": "intermittent pneumatic compression AND Physical Therapy AND (no effect OR did not OR failed OR negative OR no significant difference) 178편", "safety": "intermittent pneumatic compression AND (adverse OR toxicity OR case report OR self-medication) 541편" }
+ "id": "intermittent-pneumatic-compression-physical-therapy-null",
+ "subj": "간헐적 공기압박",
+ "claim": "간헐적 공기압박이 운동 뒤 근육 손상과 통증 회복을 개선한다",
+ "line": "운동 뒤 공기압박은 근육 기능과 통증 회복을 추가로 개선하지 못했습니다",
+ "effect": "근육 기능·통증 회복 추가 효과 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 45,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "간헐적 공기압박은 운동 후 회복을 위한 표준 허가 적응증이 아닌 기기 중재입니다",
+ "why": "반복 점프 뒤 간헐적 공기압박과 대조 중재를 무작위 비교한 사람 시험입니다.",
+ "saw": "건강한 남성 45명이 공기압박, 간헐적 음압 또는 가짜 미세전류군으로 나뉘었습니다. 48시간까지 근육 기능, 통증, 크레아틴키나아제와 젖산탈수소효소에서 군 간 차이가 없었습니다.",
+ "limit": "건강한 남성의 단회 운동 뒤 48시간 회복만 평가해 재활 환자나 반복 사용에 적용할 수 없습니다.",
+ "against": "17개 연구 319명 메타분석에서는 하체 공기압박이 근육 기능과 통증에 작거나 불확실한 이득을 보였습니다.",
+ "use": "운동 후 회복 기기의 작은 음성 시험으로 기록하고 물리치료 효과로 확대하지 않습니다.",
+ "refs": [
+  {
+   "label": "운동 후 공기압박 무작위시험",
+   "doi": "10.1186/s13102-021-00373-2",
+   "pmid": "34774089",
+   "pmc": "PMC8590753"
+  },
+  {
+   "label": "하체 공기압박 스포츠 회복 메타분석",
+   "doi": "10.5114/biolsport.2024.133665",
+   "pmid": "39416507",
+   "pmc": "PMC11475002"
+  },
+  {
+   "label": "간헐적 공기압박 근육회복 메타분석",
+   "pmid": "40954632"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=intermittent pneumatic compression · cond=Physical Therapy 6건 반환·intervention 일치 4건",
+  "pubmed": "intermittent pneumatic compression AND Physical Therapy 223편; intermittent pneumatic compression physical therapy randomized 98편; PMID 40954632 PubMed abstract verified 2026-08-15",
+  "negative": "intermittent pneumatic compression AND Physical Therapy AND (no effect OR did not OR failed OR negative OR no significant difference) 178편",
+  "safety": "intermittent pneumatic compression AND (adverse OR toxicity OR case report OR self-medication) 541편"
+ },
+ "vs": "건강한 성인 672명을 포함한 19개 RCT 메타분석에서 운동 후 간헐적 공기압박 vs 대조군의 24시간 근육통 차이는 MD -2.20점(95% CI -10.08~5.68)으로 유의하지 않았다."
 }
