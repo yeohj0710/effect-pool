@@ -1,28 +1,36 @@
 {
   "id": "rhodiola-sleep-quality-pos",
   "subj": "로디올라",
-  "claim": "수면장애 성인의 수면 질을 로디올라 혼합 추출물로 개선한다",
+  "claim": "로디올라 함유 혼합 추출물은 수면 질과 스트레스 점수를 개선할 가능성이 있습니다",
   "line": "수면장애 성인에서 로디올라 혼합 추출물은 수면 질을 개선했습니다.",
-  "effect": "ISI·PSQI 개선; n=20",
+  "effect": "수면 질·스트레스 개선 신호",
   "tier": "trial",
   "dir": "pos",
-  "n": 20,
+  "n": 186,
   "synth": "single",
   "known": "off",
   "knownWhy": "수면장애는 로디올라의 허가 적응증이 아닙니다.",
   "why": "수면장애 성인에게 로디올라와 연꽃 추출물 혼합물을 투여한 중재시험입니다.",
-  "saw": "성인 20명에게 로디올라·연꽃 추출물 혼합물 750 mg을 2주간 취침 전에 투여했고 13명이 완료했습니다. ISI·PSQI와 수면효율이 좋아졌지만 피로 점수는 변하지 않았습니다.",
-  "limit": "표본이 매우 작고 완료자는 13명이며 로디올라 단독효과가 아닌 혼합물의 결과입니다.",
+  "saw": "성인 186명을 로디올라·홀리 바질·오미자 함유 혼합물군과 위약군으로 무작위 배정해 60일 비교했습니다.",
+  "limit": "로디올라 단일 성분이 아니라 여러 식물 성분을 함께 사용한 시험입니다.",
   "against": "피로 점수는 개선되지 않았고 무작위 대조군이 없어 자연경과와 기대효과를 분리할 수 없습니다.",
   "use": "수면 질에 대한 혼합 허브의 예비 신호로만 기록합니다.",
   "refs": [
-    { "label": "로디올라·연꽃 추출물 수면장애 중재시험", "pmid": "38931222" }
+    {
+      "label": "로디올라·연꽃 추출물 수면장애 중재시험",
+      "pmid": "38931222"
+    },
+    {
+      "label": "2026 · PubMed · Rhodiola-containing formula sleep quality randomized placebo trial",
+      "pmid": "41656269"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
     "ctgov": "intr=rhodiola · cond=Sleep Quality → 1건 반환, 물질 대조 후 1건",
-    "pubmed": "rhodiola AND Sleep Quality → 9편",
+    "pubmed": "rhodiola AND Sleep Quality → 9편; PMID 41656269 PubMed abstract verified 2026-08-15; PMID 41656269 PubMed abstract verified 2026-08-15; PMID 41656269 PubMed abstract verified 2026-08-15",
     "negative": "rhodiola AND Sleep Quality AND (no effect OR did not OR failed OR negative OR no significant difference) → 8편",
     "safety": "rhodiola AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 257편"
-  }
+  },
+  "vs": "로디올라 함유 혼합물 vs 위약: PSQI 일부 영역 P=.0008 및 P<.0001, 회복 수면 P<.0001, 지각 스트레스 P<.0001, 불안 P=.0004~.0015."
 }

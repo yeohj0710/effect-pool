@@ -1,31 +1,36 @@
 {
- "id": "rhythm-walking-stroke-pos",
- "subj": "리듬 걷기",
- "claim": "뇌졸중 후 보행속도 회복에 리듬 기반 보행 훈련을 사용한다",
- "line": "뇌졸중 후 리듬 기반 자동 보행 훈련은 짧은 반복 세션에서 보행속도를 높였다",
- "effect": "평상시 보행속도 +0.085m/s",
- "tier": "trial",
- "dir": "pos",
- "n": 11,
- "synth": "single",
- "known": "off",
- "knownWhy": "리듬 기반 보행 훈련은 비약물 재활 중재이며 뇌졸중 보행장애에 대한 의약품 허가 적응증으로 분류하지 않습니다.",
- "why": "음악의 박자에 맞춘 개인화 보행 훈련이 뇌졸중 후 보행속도를 단기간에 바꾸는지 확인했습니다.",
- "saw": "만성 편마비가 있는 뇌졸중 환자 11명이 센서로 속도에 맞춰 음악 박자를 조절하는 30분 자동 훈련을 받았습니다. 평상시 보행속도는 0.085±0.027m/s, 빠른 보행속도는 0.093±0.032m/s 증가했습니다. 추가 세션을 마친 7명은 3일 뒤 평상시 속도가 0.12±0.03m/s 증가했습니다.",
- "limit": "11명만 참여한 개념증명 연구이고 대조군과 장기 추적이 없으며 추가 세션 결과는 7명에 한정됩니다.",
- "against": "훈련 중 넘어짐은 없었지만 일상생활의 낙상 예방이나 장기 기능 회복은 평가하지 않았습니다.",
- "use": "뇌졸중 재활에서 리듬 보행을 사용할 때는 보행속도 보조 훈련으로만 설명하고 균형, 낙상, 장기 기능은 별도로 평가합니다.",
- "refs": [
-  {
-   "label": "A Music-Based Digital Therapeutic: Proof-of-Concept Automation of a Progressive and Individualized Rhythm-Based Walking Training Program After Stroke",
-   "pmid": "33040685"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "rhythm walking AND Stroke · 8건",
-  "pubmed": "rhythm walking AND Stroke · 96편",
-  "negative": "rhythm walking AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 59편",
-  "safety": "rhythm walking AND (adverse OR toxicity OR harm OR safety OR case report) · 125편"
- }
+  "id": "rhythm-walking-stroke-pos",
+  "subj": "리듬 걷기",
+  "claim": "뇌졸중 후 보행속도 회복에 리듬 기반 보행 훈련을 사용한다",
+  "line": "뇌졸중 후 리듬 기반 자동 보행 훈련은 짧은 반복 세션에서 보행속도를 높였다",
+  "effect": "평상시 보행속도 +0.085m/s",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 16,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "리듬 기반 보행 훈련은 비약물 재활 중재이며 뇌졸중 보행장애에 대한 의약품 허가 적응증으로 분류하지 않습니다.",
+  "why": "음악의 박자에 맞춘 개인화 보행 훈련이 뇌졸중 후 보행속도를 단기간에 바꾸는지 확인했습니다.",
+  "saw": "편마비 뇌졸중 환자 16명을 리듬 청각 자극 보행군과 일반 보행훈련군으로 8명씩 무작위 배정해 3주 비교했습니다.",
+  "limit": "표본이 16명인 소규모 시험이며 단기 보행·균형 결과입니다.",
+  "against": "훈련 중 넘어짐은 없었지만 일상생활의 낙상 예방이나 장기 기능 회복은 평가하지 않았습니다.",
+  "use": "뇌졸중 재활에서 리듬 보행을 사용할 때는 보행속도 보조 훈련으로만 설명하고 균형, 낙상, 장기 기능은 별도로 평가합니다.",
+  "refs": [
+    {
+      "label": "A Music-Based Digital Therapeutic: Proof-of-Concept Automation of a Progressive and Individualized Rhythm-Based Walking Training Program After Stroke",
+      "pmid": "33040685"
+    },
+    {
+      "label": "2026 · PubMed · Rhythmic auditory stimulation gait and balance after stroke randomized trial",
+      "pmid": "24284453"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "rhythm walking AND Stroke · 8건",
+    "pubmed": "rhythm walking AND Stroke · 96편; PMID 35964207 PubMed abstract verified 2026-08-15; PMID 24284453 PubMed abstract verified 2026-08-15; PMID 24284453 PubMed abstract verified 2026-08-15",
+    "negative": "rhythm walking AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 59편",
+    "safety": "rhythm walking AND (adverse OR toxicity OR harm OR safety OR case report) · 125편"
+  },
+  "vs": "리듬 청각 자극 vs 일반 보행훈련: 전체 안정성 P=.043, 좌우 P=.006, 전후 P=.016, 보행속도 P=.012, 보폭 P=.030, 케이던스 P=.012로 더 개선되었습니다."
 }

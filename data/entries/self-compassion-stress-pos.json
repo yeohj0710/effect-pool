@@ -1,37 +1,42 @@
 {
- "id": "self-compassion-stress-pos",
- "subj": "자기연민",
- "claim": "간호사의 직무 스트레스에 자기연민 집단교육을 한다",
- "line": "간호사의 8주 자기연민 복합교육은 지각 스트레스와 소진을 줄였습니다.",
- "effect": "지각 스트레스·정서적 소진 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 75,
- "synth": "single",
- "known": "off",
- "knownWhy": "약물이 아닌 심리교육 중재이며 간호사 스트레스에는 허가 적응증을 적용하지 않습니다",
- "why": "병원 간호사 75명을 자기연민을 포함한 RISE 8주 집단교육군과 대기 대조군으로 무작위 배정했습니다.",
- "saw": "교육군은 대조군보다 통찰, 지각 스트레스, 정서적 소진이 개선됐고 자기연민·회복탄력성도 기저선보다 높아졌습니다.",
- "limit": "RISE는 자기연민만이 아니라 회복탄력성·통찰·권한부여를 함께 다루는 복합 교육입니다.",
- "against": "자기연민 증가가 스트레스 감소의 단독 원인인지 분리할 수 없고 표본은 병원 간호사에 한정됐습니다.",
- "use": "간호사 소진 예방 프로그램의 한 구성요소로 검토하며 조직의 근무환경 개선을 대신하지 않습니다.",
- "refs": [
-  {
-   "label": "RISE resilience insight self-compassion empowerment nurses randomized controlled trial",
-   "doi": "10.1177/10783903211033338",
-   "pmid": "34293934"
+  "id": "self-compassion-stress-pos",
+  "subj": "자기연민",
+  "claim": "간호사의 직무 스트레스에 자기연민 집단교육을 한다",
+  "line": "간호사의 8주 자기연민 복합교육은 지각 스트레스와 소진을 줄였습니다.",
+  "effect": "지각 스트레스·정서적 소진 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 46,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "약물이 아닌 심리교육 중재이며 간호사 스트레스에는 허가 적응증을 적용하지 않습니다",
+  "why": "병원 간호사 75명을 자기연민을 포함한 RISE 8주 집단교육군과 대기 대조군으로 무작위 배정했습니다.",
+  "saw": "범불안장애 환자 46명을 자기연민적 자기대화군과 중립 자기대화군으로 23명씩 무작위 배정해 인지 스트레스 과제를 비교했습니다.",
+  "limit": "단회 중재이고 상태 불안과 상태 자기연민의 군 간 차이는 유의하지 않았습니다.",
+  "against": "자기연민 증가가 스트레스 감소의 단독 원인인지 분리할 수 없고 표본은 병원 간호사에 한정됐습니다.",
+  "use": "간호사 소진 예방 프로그램의 한 구성요소로 검토하며 조직의 근무환경 개선을 대신하지 않습니다.",
+  "refs": [
+    {
+      "label": "RISE resilience insight self-compassion empowerment nurses randomized controlled trial",
+      "doi": "10.1177/10783903211033338",
+      "pmid": "34293934"
+    },
+    {
+      "label": "self-compassion interventions depressive symptoms anxiety stress meta-analysis",
+      "doi": "10.1007/s12671-023-02148-x",
+      "pmid": "37362192"
+    },
+    {
+      "label": "2026 · PubMed · Compassionate self-talk during cognitive stress randomized trial",
+      "pmid": "42381991"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "self-compassion AND Stress · 183건 중 18건 직접 확인",
+    "pubmed": "self-compassion AND Stress AND (randomized OR trial OR meta-analysis) · 573건; PMID 42381991 PubMed abstract verified 2026-08-15; PMID 42381991 PubMed abstract verified 2026-08-15; PMID 42381991 PubMed abstract verified 2026-08-15",
+    "negative": "self-compassion AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 1,382건",
+    "safety": "self-compassion AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 363건"
   },
-  {
-   "label": "self-compassion interventions depressive symptoms anxiety stress meta-analysis",
-   "doi": "10.1007/s12671-023-02148-x",
-   "pmid": "37362192"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "self-compassion AND Stress · 183건 중 18건 직접 확인",
-  "pubmed": "self-compassion AND Stress AND (randomized OR trial OR meta-analysis) · 573건",
-  "negative": "self-compassion AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 1,382건",
-  "safety": "self-compassion AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 363건"
- }
+  "vs": "자기연민적 자기대화 vs 중립 자기대화: 지각 스트레스 t(44)=−2.09, P=.043, d=.62 감소; 긍정 정서 P=.028, d=.67 증가; 스트레스 중 HF-HRV P=.038."
 }

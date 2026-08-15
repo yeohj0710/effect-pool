@@ -1,31 +1,36 @@
 {
- "id": "robotic-surgery-knee-pos",
- "subj": "로봇 수술",
- "claim": "무릎 인공관절 치환에서 로봇 보조 수술로 초기 움직임 통증을 줄인다",
- "line": "로봇 보조 무릎 치환술은 초기 움직임 통증 부담이 낮았다.",
- "effect": "움직임 통증 부담 감소",
- "tier": "obs",
- "dir": "pos",
- "n": 169,
- "synth": "single",
- "known": "off",
- "knownWhy": "로봇 보조 수술은 기기·수술 보조 기술이며 허가 약물 적응증이 아니다.",
- "why": "일차 무릎 인공관절 치환 환자를 기존 수술, 내비게이션 수술, 로봇 보조 수술군으로 나눈 후향적 코호트 연구다.",
- "saw": "169명 중 로봇군 52명은 기존 수술군보다 수술 뒤 24~72시간 움직임 통증 누적 부담과 퇴원 시 보행 통증이 낮았다.",
- "limit": "후향적 비교라 수술 방법 선택의 교란이 남고 절대 통증 차이가 작아 인과적 우월성은 확정할 수 없다.",
- "against": "휴식 통증, 진통제 사용, 부종, 운동범위, 입원 기간, 합병증과 3개월 기능 점수는 군 간 차이가 없었다.",
- "use": "무릎 치환 뒤 재활 통증을 평가할 때 로봇 보조 수술의 움직임 통증 신호를 참고한다.",
- "refs": [
-  {
-   "label": "Comparison of early postoperative activity-related pain burden after conventional, navigation-assisted, and robotic-assisted total knee arthroplasty",
-   "pmid": "42557448"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"robotic surgery\" AND \"Knee\" 검색 40건",
-  "pubmed": "\"robotic surgery\" AND \"Knee\" 검색 338건; PMID 42557448 직접 코호트",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 168건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 32건"
- }
+  "id": "robotic-surgery-knee-pos",
+  "subj": "로봇 수술",
+  "claim": "무릎 인공관절 치환에서 로봇 보조 수술로 초기 움직임 통증을 줄인다",
+  "line": "로봇 보조 무릎 치환술은 초기 움직임 통증 부담이 낮았다.",
+  "effect": "움직임 통증 부담 감소",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 68,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "로봇 보조 수술은 기기·수술 보조 기술이며 허가 약물 적응증이 아니다.",
+  "why": "일차 무릎 인공관절 치환 환자를 기존 수술, 내비게이션 수술, 로봇 보조 수술군으로 나눈 후향적 코호트 연구다.",
+  "saw": "무릎 인공관절 전치환술 환자 68명을 로봇 보조 수술군과 수기 수술군으로 무작위 배정해 비교했습니다.",
+  "limit": "일부 기능과 합병증은 차이가 없었고 추적 기간이 제한적입니다.",
+  "against": "휴식 통증, 진통제 사용, 부종, 운동범위, 입원 기간, 합병증과 3개월 기능 점수는 군 간 차이가 없었다.",
+  "use": "무릎 치환 뒤 재활 통증을 평가할 때 로봇 보조 수술의 움직임 통증 신호를 참고한다.",
+  "refs": [
+    {
+      "label": "Comparison of early postoperative activity-related pain burden after conventional, navigation-assisted, and robotic-assisted total knee arthroplasty",
+      "pmid": "42557448"
+    },
+    {
+      "label": "2026 · PubMed · Robotic versus manual total knee arthroplasty randomized trial",
+      "pmid": "42000386"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-11",
+    "ctgov": "\"robotic surgery\" AND \"Knee\" 검색 40건",
+    "pubmed": "\"robotic surgery\" AND \"Knee\" 검색 338건; PMID 42557448 직접 코호트; PMID 42000386 PubMed abstract verified 2026-08-15; PMID 42000386 PubMed abstract verified 2026-08-15; PMID 42000386 PubMed abstract verified 2026-08-15",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 168건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 32건"
+  },
+  "vs": "로봇 보조 vs 수기 수술: 수술시간 9분 증가(P=.003), 굴곡 122.8° vs 114.7°(P=.006), 정렬 1° vs 2°(P=.002), 통증 VAS 1.0 vs 2.0(P=.012)."
 }

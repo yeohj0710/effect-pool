@@ -1,32 +1,37 @@
 {
- "id": "robotic-hand-rehabilitation-hemiplegia-pos",
- "subj": "로봇 손 재활",
- "claim": "뇌졸중 후 편마비에 로봇 손 재활을 더한다",
- "line": "뇌졸중 편마비 로봇 손 재활은 기능을 개선했습니다.",
- "effect": "병행군 상지·일상기능 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 66,
- "synth": "single",
- "known": "off",
- "knownWhy": "로봇 손 재활은 편마비 치료의 허가 적응증이 있는 의약품이 아닌 재활기기 중재다",
- "why": "뇌졸중 후 편마비 환자 66명을 로봇 손 재활, 기존 재활, 병행 재활의 세 군으로 무작위 배정한 시험이다.",
- "saw": "뇌졸중 후 편마비 환자 66명이 세 군으로 나뉘어 한 달간 주 5일 재활했다. 기존 재활과 로봇 손 재활을 병행한 군이 두 단독군보다 상지 기능, 손 기능, 일상생활을 더 개선했다. 로봇 단독군은 상지 기능에서 유의한 개선이 없었고, 세 군 모두 일부 손가락 굴근 경직은 줄였다.",
- "limit": "한 달 치료의 단일 시험이고 로봇 기기와 기존 재활의 구성·강도가 달라 병행 효과와 기기 단독 효과를 분리하기 어렵다.",
- "against": "로봇 재활 단독군은 상지 기능에서 효과가 없었고 어깨·팔꿈치 경직에는 세 군 모두 뚜렷한 효과가 없었다.",
- "use": "편마비 재활에서 로봇 손 기기를 기존 재활의 보조로 검토할 때 병행군과 단독군 결과를 구분해 설명한다.",
- "refs": [
-  {
-   "label": "Individual and combined applied robotic hand rehabilitation and conventional rehabilitation for post-stroke hemiplegia: a prospective three-arm randomized study",
-   "doi": "10.23736/S1973-9087.25.08609-5",
-   "pmid": "40856375"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "robotic hand rehabilitation AND Hemiplegia · 시험 6건; NCT05983822 직접 로봇 손 재활 완료시험 n=24 확인",
-  "pubmed": "robotic hand rehabilitation AND Hemiplegia · 52건; PMID40856375 직접 결과 확인",
-  "negative": "robotic hand rehabilitation AND Hemiplegia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 31건",
-  "safety": "robotic hand rehabilitation AND Hemiplegia AND (adverse OR toxicity OR case report OR harm OR safety) · 13건"
- }
+  "id": "robotic-hand-rehabilitation-hemiplegia-pos",
+  "subj": "로봇 손 재활",
+  "claim": "뇌졸중 후 편마비에 로봇 손 재활을 더한다",
+  "line": "뇌졸중 편마비 로봇 손 재활은 기능을 개선했습니다.",
+  "effect": "병행군 상지·일상기능 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 44,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "로봇 손 재활은 편마비 치료의 허가 적응증이 있는 의약품이 아닌 재활기기 중재다",
+  "why": "뇌졸중 후 편마비 환자 66명을 로봇 손 재활, 기존 재활, 병행 재활의 세 군으로 무작위 배정한 시험이다.",
+  "saw": "뇌졸중 후 편마비 환자 44명을 힘 피드백 로봇을 이용한 과제훈련군과 치료사 보조 과제훈련군으로 무작위 배정해 4주 비교했습니다.",
+  "limit": "손가락 굴근 경직과 일부 하위 항목은 군 간 차이가 없었습니다.",
+  "against": "로봇 재활 단독군은 상지 기능에서 효과가 없었고 어깨·팔꿈치 경직에는 세 군 모두 뚜렷한 효과가 없었다.",
+  "use": "편마비 재활에서 로봇 손 기기를 기존 재활의 보조로 검토할 때 병행군과 단독군 결과를 구분해 설명한다.",
+  "refs": [
+    {
+      "label": "Individual and combined applied robotic hand rehabilitation and conventional rehabilitation for post-stroke hemiplegia: a prospective three-arm randomized study",
+      "doi": "10.23736/S1973-9087.25.08609-5",
+      "pmid": "40856375"
+    },
+    {
+      "label": "2026 · PubMed · Force-feedback hand rehabilitation robot after stroke randomized trial",
+      "pmid": "38745227"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-08",
+    "ctgov": "robotic hand rehabilitation AND Hemiplegia · 시험 6건; NCT05983822 직접 로봇 손 재활 완료시험 n=24 확인",
+    "pubmed": "robotic hand rehabilitation AND Hemiplegia · 52건; PMID40856375 직접 결과 확인; PMID 38745227 PubMed abstract verified 2026-08-15; PMID 38745227 PubMed abstract verified 2026-08-15; PMID 38745227 PubMed abstract verified 2026-08-15",
+    "negative": "robotic hand rehabilitation AND Hemiplegia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 31건",
+    "safety": "robotic hand rehabilitation AND Hemiplegia AND (adverse OR toxicity OR case report OR harm OR safety) · 13건"
+  },
+  "vs": "힘 피드백 로봇+과제훈련 vs 치료사+과제훈련: 손 FMA, ARAT, 악력, 능동관절가동범위가 더 좋았습니다(P<.05)."
 }
