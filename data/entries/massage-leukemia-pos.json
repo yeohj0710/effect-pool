@@ -1,28 +1,37 @@
 {
-  "id": "massage-leukemia-pos",
-  "subj": "마사지",
-  "claim": "급성 골수성 백혈병 환자의 스트레스에 마사지를 사용하는가",
-  "line": "급성 골수성 백혈병에서 마사지는 스트레스와 건강 관련 삶의 질을 개선했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 20,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마사지의 허가된 의약품 적응증은 없으며 급성 골수성 백혈병의 표준 항암치료를 대신하지 않는다.",
-  "why": "입원과 고용량 항암치료로 생기는 긴장과 정서적 부담을 비약물 접촉 중재로 줄일 가능성을 평가한다.",
-  "saw": "급성 골수성 백혈병 환자 20명 연구에서 일반 치료보다 마사지군의 즉각적·누적 스트레스와 건강 관련 삶의 질이 개선됐다.",
-  "limit": "초록에 참여자 총수가 제시되지 않았고 실행 가능성 중심의 소규모 연구다.",
-  "against": "혈소판감소나 출혈 위험이 있으면 강한 마사지는 해로울 수 있다.",
-  "use": "혈액종양 전문팀이 출혈 위험과 카테터를 확인한 뒤 부드러운 보조요법으로만 고려한다.",
-  "effect": "스트레스·건강 관련 삶의 질 유의한 개선",
-  "refs": [
-    { "label": "Gentle Massage in Acute Myelogenous Leukemia", "doi": "10.4172/2167-0870.1000161", "pmid": "25530922" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=massage · cond=Leukemia · 8건",
-    "pubmed": "massage AND Leukemia · 34편",
-    "negative": "massage AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 13편",
-    "safety": "massage AND (adverse OR toxicity OR case report) · 6편"
+ "id": "massage-leukemia-pos",
+ "subj": "마사지",
+ "claim": "급성 골수성 백혈병 환자의 스트레스에 마사지를 사용하는가",
+ "line": "급성 골수성 백혈병에서 마사지는 스트레스와 건강 관련 삶의 질을 개선했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 39,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마사지의 허가된 의약품 적응증은 없으며 급성 골수성 백혈병의 표준 항암치료를 대신하지 않는다.",
+ "why": "입원과 고용량 항암치료로 생기는 긴장과 정서적 부담을 비약물 접촉 중재로 줄일 가능성을 평가한다.",
+ "saw": "PubMed 초록은 집중 항암치료 중인 혈액종양 환자 39명을 마사지·아로마테라피·휴식에 무작위 배정해 코르티솔과 프로락틴 변화를 비교했다.",
+ "limit": "초록에 참여자 총수가 제시되지 않았고 실행 가능성 중심의 소규모 연구다.",
+ "against": "혈소판감소나 출혈 위험이 있으면 강한 마사지는 해로울 수 있다.",
+ "use": "혈액종양 전문팀이 출혈 위험과 카테터를 확인한 뒤 부드러운 보조요법으로만 고려한다.",
+ "effect": "스트레스·건강 관련 삶의 질 유의한 개선",
+ "refs": [
+  {
+   "label": "Gentle Massage in Acute Myelogenous Leukemia",
+   "doi": "10.4172/2167-0870.1000161",
+   "pmid": "25530922"
+  },
+  {
+   "label": "Massage during intensive chemotherapy and serum cortisol in hematological oncology patients",
+   "pmid": "18300336"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=massage · cond=Leukemia · 8건",
+  "pubmed": "massage AND Leukemia · 34편; PMID 18300336 PubMed abstract verified 2026-08-15",
+  "negative": "massage AND Leukemia AND (no effect OR did not OR failed to OR negative OR no significant difference) · 13편",
+  "safety": "massage AND (adverse OR toxicity OR case report) · 6편"
+ },
+ "vs": "마사지 13명 vs 휴식 대조 13명(아로마테라피 13명 별도); 30분 후 코르티솔 군간 p=0.002, 프로락틴 p=0.031, 마사지군에서 대조군보다 더 큰 감소"
 }

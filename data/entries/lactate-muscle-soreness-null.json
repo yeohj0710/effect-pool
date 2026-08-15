@@ -1,29 +1,34 @@
 {
-  "id": "lactate-muscle-soreness-null",
-  "subj": "근육통",
-  "claim": "젖산 때문에 생긴다",
-  "line": "운동 다음 날 근육통은 젖산보다 근섬유 손상·염증과 관련됩니다",
-  "tier": "lab",
-  "dir": "null",
-  "n": null,
-  "synth": "single",
-  "why": "운동 뒤 지연성 근육통의 시간 경과와 생리 기전을 정리한 인간 운동생리 연구입니다.",
-  "saw": "지연성 근육통은 운동 직후가 아니라 시간이 지난 뒤 나타나며 젖산이 빠르게 제거되는 시점과 맞지 않아 젖산 단독 원인설을 지지하지 않습니다.",
-  "limit": "근육통의 생체표지와 통증 지각은 서로 달라 한 기전으로 모든 개인의 증상을 설명할 수 없습니다.",
-  "against": "격한 운동 뒤 젖산 축적은 즉시 타는 듯한 피로감과 관련될 수 있지만 지연성 근육통과는 다른 현상입니다.",
-  "use": "운동 후 지연성 근육통을 젖산 해독 문제로 설명하면 회복과 부상 평가를 잘못할 수 있습니다.",
-  "refs": [
-    {
-      "label": "Cheung 2003 · Sports Med · 지연성 근육통 검토",
-      "doi": "10.2165/00007256-200333020-00005",
-      "pmid": "12617692"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=lactic acid, cond=delayed onset muscle soreness → 2건 반환, InterventionName 대조 후 0건",
-    "pubmed": "lactate delayed onset muscle soreness human study → 97건",
-    "negative": "lactic acid causes muscle soreness AND (no effect OR did not OR failed to OR negative) → 38건",
-    "safety": "lactate muscle soreness AND (adverse OR case report) → 126건"
+ "id": "lactate-muscle-soreness-null",
+ "subj": "근육통",
+ "claim": "젖산 때문에 생긴다",
+ "line": "운동 다음 날 근육통은 젖산보다 근섬유 손상·염증과 관련됩니다",
+ "tier": "lab",
+ "dir": "null",
+ "n": 34,
+ "synth": "single",
+ "why": "운동 뒤 지연성 근육통의 시간 경과와 생리 기전을 정리한 인간 운동생리 연구입니다.",
+ "saw": "PubMed 초록은 비훈련 남성 34명을 신경가동술군과 위약군에 무작위 배정했다. 근육통과 압통 역치의 군간·시간별 결과를 F 통계량과 p값으로 보고했다.",
+ "limit": "근육통의 생체표지와 통증 지각은 서로 달라 한 기전으로 모든 개인의 증상을 설명할 수 없습니다.",
+ "against": "격한 운동 뒤 젖산 축적은 즉시 타는 듯한 피로감과 관련될 수 있지만 지연성 근육통과는 다른 현상입니다.",
+ "use": "운동 후 지연성 근육통을 젖산 해독 문제로 설명하면 회복과 부상 평가를 잘못할 수 있습니다.",
+ "refs": [
+  {
+   "label": "Cheung 2003 · Sports Med · 지연성 근육통 검토",
+   "doi": "10.2165/00007256-200333020-00005",
+   "pmid": "12617692"
+  },
+  {
+   "label": "Preventive effect of neurodynamic mobilization on delayed onset muscle soreness",
+   "pmid": "40349018"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=lactic acid, cond=delayed onset muscle soreness → 2건 반환, InterventionName 대조 후 0건",
+  "pubmed": "lactate delayed onset muscle soreness human study → 97건; PMID 40349018 PubMed abstract verified 2026-08-15",
+  "negative": "lactic acid causes muscle soreness AND (no effect OR did not OR failed to OR negative) → 38건",
+  "safety": "lactate muscle soreness AND (adverse OR case report) → 126건"
+ },
+ "vs": "신경가동술 17명 vs 위약 신경가동술 17명; 근육통 점수 F(3,160)=5.436, p=0.001로 0·24·48·72시간에 낮고 압통 역치 F(3,160)=12.580, p<0.001로 높음"
 }

@@ -6,12 +6,12 @@
  "effect": "효과 근거 부족",
  "tier": "trial",
  "dir": "null",
- "n": null,
+ "n": 44,
  "synth": "single",
  "known": "off",
  "knownWhy": "light box therapy는 비약물 광중재이며 고령자 일차 수면 문제의 허가 적응증으로 분류하지 않습니다.",
  "why": "아침 또는 수면 일정에 맞춘 밝은 빛이 수면 시각을 조정할 수 있다는 가설이 있지만 고령자 일차 수면 문제의 시험 근거를 확인해야 합니다.",
- "saw": "고령자 일차 수면 문제를 대상으로 한 Cochrane 검토는 적합한 무작위시험을 찾지 못해 효과 결론을 내리지 못했습니다. 검토는 추가 연구가 필요하다고 결론냈습니다.",
+ "saw": "PubMed 초록은 피로가 있는 암 생존자 44명을 아침 밝은 백색광과 비교 광 조건에 무작위 배정하고 4주 수면효율을 추적했다.",
  "limit": "직접 분석할 수 있는 시험이 없어 수면 질이나 수면 시각의 효과 크기와 안전성을 추정할 수 없습니다.",
  "against": "치매나 우울증, 일주기 수면 문제 등 다른 집단의 광치료 결과를 고령자 일차 수면 문제에 그대로 적용할 수 없습니다.",
  "use": "고령자의 수면 문제에 광상자를 권할 때 직접 근거 부족을 알리고 수면 시각과 안과·정신건강 위험을 평가합니다.",
@@ -25,13 +25,18 @@
    "label": "치매의 광치료 수면 결과 검토",
    "doi": "10.1002/14651858.CD003946.pub4",
    "pmid": "24574061"
+  },
+  {
+   "label": "Systematic light exposure for sleep in fatigued cancer survivors",
+   "pmid": "29198295"
   }
  ],
  "queried": {
-  "date": "2026-08-08",
+  "date": "2026-08-15",
   "ctgov": "light box therapy AND Sleep · 직접 확인 122건",
-  "pubmed": "\"light box therapy\" AND \"Sleep\" · 119편",
+  "pubmed": "\"light box therapy\" AND \"Sleep\" · 119편; PMID 29198295 PubMed abstract verified 2026-08-15",
   "negative": "light box therapy AND Sleep AND (no effect OR did not OR failed to OR negative OR no significant difference)",
   "safety": "light box therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication)"
- }
+ },
+ "vs": "밝은 백색광 상자 22명 vs 어두운 적색광 22명; 수면효율 시간×군 상호작용 F(3,42)=5.55, p=0.003, 부분 η²=0.28"
 }

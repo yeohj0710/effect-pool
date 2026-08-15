@@ -1,20 +1,37 @@
 {
-  "id": "low-glycemic-diet-obesity-pos",
-  "subj": "저혈당지수 식단",
-  "claim": "비만 성인에서 저혈당지수 식단은 12주 후 허리둘레와 LDL 콜레스테롤, HbA1c를 개선했습니다",
-  "line": "비만 성인에서 저혈당지수 식단은 허리둘레와 LDL, HbA1c를 개선했습니다",
-  "effect": "허리·LDL·HbA1c 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 46,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "저혈당지수 식단은 약물이 아닌 식이 중재입니다",
-  "why": "비만 성인에서 저혈당지수 식단이 체중과 대사 지표에 미치는 효과를 12주 무작위시험으로 평가했습니다",
-  "saw": "비만 성인 46명을 12주간 비교한 시험에서 저혈당지수 식단은 허리둘레, LDL·비HDL 콜레스테롤, 렙틴과 HbA1c를 개선했고 GLP-1은 증가했습니다",
-  "limit": "소규모 단일 시험이며 식단 순응도와 장기 체중·심혈관 결과를 확인하지 않았습니다",
-  "against": "단기 대사 지표 개선만으로 저혈당지수 식단이 비만을 장기 치료한다고 볼 수 없습니다",
-  "use": "비만 관리에서 식단의 질과 총열량을 함께 조정하는 선택지로 검토하고 개인 반응을 추적합니다",
-  "refs": [{ "label": "비만 성인 저혈당지수 식단 무작위시험", "doi": "10.3390/nu17233789", "pmid": "41374079" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=low glycemic diet · cond=Obesity 107건", "pubmed": "low glycemic diet AND Obesity 1,608건", "negative": "low glycemic diet AND Obesity AND (no effect OR did not OR failed OR no significant difference) 1,244건", "safety": "low glycemic diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 990건" }
+ "id": "low-glycemic-diet-obesity-pos",
+ "subj": "저혈당지수 식단",
+ "claim": "비만 성인에서 저혈당지수 식단은 12주 후 허리둘레와 LDL 콜레스테롤, HbA1c를 개선했습니다",
+ "line": "비만 성인에서 저혈당지수 식단은 허리둘레와 LDL, HbA1c를 개선했습니다",
+ "effect": "허리·LDL·HbA1c 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 17,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "저혈당지수 식단은 약물이 아닌 식이 중재입니다",
+ "why": "비만 성인에서 저혈당지수 식단이 체중과 대사 지표에 미치는 효과를 12주 무작위시험으로 평가했습니다",
+ "saw": "PubMed 초록은 과체중·비만 아동청소년 대상 무작위시험 17개를 합성해 저혈당지수 식단의 인슐린 저항성 결과를 제시했다.",
+ "limit": "소규모 단일 시험이며 식단 순응도와 장기 체중·심혈관 결과를 확인하지 않았습니다",
+ "against": "단기 대사 지표 개선만으로 저혈당지수 식단이 비만을 장기 치료한다고 볼 수 없습니다",
+ "use": "비만 관리에서 식단의 질과 총열량을 함께 조정하는 선택지로 검토하고 개인 반응을 추적합니다",
+ "refs": [
+  {
+   "label": "비만 성인 저혈당지수 식단 무작위시험",
+   "doi": "10.3390/nu17233789",
+   "pmid": "41374079"
+  },
+  {
+   "label": "Carbohydrate-modified diets and insulin sensitivity in youth with overweight or obesity",
+   "pmid": "41501726"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=low glycemic diet · cond=Obesity 107건",
+  "pubmed": "low glycemic diet AND Obesity 1,608건; PMID 41501726 PubMed abstract verified 2026-08-15",
+  "negative": "low glycemic diet AND Obesity AND (no effect OR did not OR failed OR no significant difference) 1,244건",
+  "safety": "low glycemic diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 990건"
+ },
+ "vs": "저혈당지수·탄수화물 조절 식단 17개 RCT vs 대조 식단; HOMA-IR WMD=-0.43(95% CI -0.83~-0.03), 저혈당지수+열량제한 하위군 -0.65(-1.13~-0.16)"
 }
