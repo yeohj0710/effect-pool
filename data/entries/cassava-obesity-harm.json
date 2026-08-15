@@ -1,31 +1,32 @@
 {
-  "id": "cassava-obesity-harm",
-  "subj": "카사바",
-  "claim": "카사바 분말을 비만에 쓴다",
-  "line": "비만 수술 전 카사바 분말은 대조군보다 염증·응고 지표를 악화시켰다.",
-  "effect": "염증·응고 지표 상승",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 20,
-  "synth": "single",
-  "why": "비만 수술을 앞둔 사람을 대상으로 카사바 분말을 대조 중재로 투여한 소규모 무작위시험에서 카사바군의 염증·응고 지표 변화를 보고했습니다.",
-  "saw": "비만 성인 29명이 모집됐고 20명이 무작위 배정됐으며 16명이 분석됐습니다. 12주 동안 카사바 분말 60 g/일을 받은 대조군에서 호중구, 피브리노겐, 보체 C4, 프로트롬빈시간과 경동맥 직경이 더 나빠지는 방향으로 변했습니다.",
-  "limit": "카사바를 치료제로 시험한 연구가 아니라 아마씨 분말과 비교한 소규모 파일럿시험이며 분석 대상은 16명입니다.",
-  "against": "카사바가 체중이나 비만 자체를 개선했다는 결과는 없었습니다.",
-  "use": "비만에서 카사바 분말을 치료제로 해석하지 않게 하는 제한적 안전성 신호로 기록합니다.",
-  "refs": [
-    {
-      "label": "Systemic inflammation and carotid diameter in obese patients: pilot comparative study with flaxseed powder and cassava powder",
-      "pmid": "21519749"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=cassava AND query.cond=Obesity → 6건, cassava 개입명 일치 2건",
-    "pubmed": "cassava AND Obesity → 34건",
-    "negative": "cassava AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 19건",
-    "safety": "cassava AND (adverse OR toxicity OR case report OR harm OR dropout) → 672건"
-  },
-  "known": "off",
-  "knownWhy": "카사바는 허가 적응증이 없는 식품입니다."
+ "id": "cassava-obesity-harm",
+ "subj": "카사바",
+ "claim": "카사바 분말을 비만에 쓴다",
+ "line": "비만 수술 전 카사바 분말은 대조군보다 염증·응고 지표를 악화시켰다.",
+ "effect": "염증·응고 지표 상승",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 20,
+ "synth": "single",
+ "why": "비만 수술을 앞둔 사람을 대상으로 카사바 분말을 대조 중재로 투여한 소규모 무작위시험에서 카사바군의 염증·응고 지표 변화를 보고했습니다.",
+ "saw": "비만 성인 29명이 모집됐고 20명이 무작위 배정됐으며 16명이 분석됐습니다. 12주 동안 카사바 분말 60 g/일을 받은 대조군에서 호중구, 피브리노겐, 보체 C4, 프로트롬빈시간과 경동맥 직경이 더 나빠지는 방향으로 변했습니다.",
+ "limit": "카사바를 치료제로 시험한 연구가 아니라 아마씨 분말과 비교한 소규모 파일럿시험이며 분석 대상은 16명입니다.",
+ "against": "카사바가 체중이나 비만 자체를 개선했다는 결과는 없었습니다.",
+ "use": "비만에서 카사바 분말을 치료제로 해석하지 않게 하는 제한적 안전성 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "Systemic inflammation and carotid diameter in obese patients: pilot comparative study with flaxseed powder and cassava powder",
+   "pmid": "21519749"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "query.intr=cassava AND query.cond=Obesity → 6건, cassava 개입명 일치 2건",
+  "pubmed": "cassava AND Obesity → 34건; PMID 21519749 PubMed abstract verified 2026-08-15",
+  "negative": "cassava AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) → 19건",
+  "safety": "cassava AND (adverse OR toxicity OR case report OR harm OR dropout) → 672건"
+ },
+ "known": "off",
+ "knownWhy": "카사바는 허가 적응증이 없는 식품입니다.",
+ "vs": "아마씨 분말 60 g/일 vs 등열량 구운 카사바 분말 60 g/일: 고도비만 환자 20명 무작위배정, 12주; 카사바 대조군에서 호중구·피브리노겐·보체 C4·경동맥 직경이 더 증가했고 아마씨군은 안정적"
 }

@@ -1,28 +1,36 @@
 {
-  "id": "cholecalciferol-leukemia-lab-pos",
-  "subj": "콜레칼시페롤",
-  "claim": "만성골수성백혈병 세포에 비타민 D3와 이트라코나졸을 함께 써서 세포생존을 낮춘다",
-  "line": "비타민 D3·이트라코나졸 병용은 K562 백혈병 세포 생존을 낮췄다.",
-  "effect": "K562 세포 생존 감소",
-  "tier": "lab",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "백혈병은 콜레칼시페롤의 허가 적응증이 아닙니다.",
-  "why": "비타민 D3와 이트라코나졸을 만성골수성백혈병 K562 세포에 함께 처리한 세포실험입니다.",
-  "saw": "K562 세포에서 비타민 D3 또는 이트라코나졸 단독과 병용 모두 세포생존을 낮췄고, 병용군에서 세포자멸사 신호가 유의하게 증가했습니다.",
-  "limit": "세포주 실험이라 사람에서 혈중농도와 항백혈병 효과를 판단할 수 없고 이트라코나졸 병용의 상호작용도 확인해야 합니다.",
-  "against": "백혈병 환자에게 콜레칼시페롤을 투여한 임상효과는 이 조회에서 확인하지 못했습니다.",
-  "use": "세포 수준 병용기전의 전임상 가설로만 기록합니다.",
-  "refs": [
-    { "label": "비타민 D3·이트라코나졸 만성골수성백혈병 K562 세포실험", "pmid": "40522383" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cholecalciferol · cond=Leukemia → 11건 반환, 물질 대조 후 11건",
-    "pubmed": "cholecalciferol AND Leukemia → 936편",
-    "negative": "cholecalciferol AND Leukemia AND (no effect OR did not OR failed OR negative OR no significant difference) → 791편",
-    "safety": "cholecalciferol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4779편"
+ "id": "cholecalciferol-leukemia-lab-pos",
+ "subj": "콜레칼시페롤",
+ "claim": "만성골수성백혈병 세포에 비타민 D3와 이트라코나졸을 함께 써서 세포생존을 낮춘다",
+ "line": "비타민 D3·이트라코나졸 병용은 K562 백혈병 세포 생존을 낮췄다.",
+ "effect": "K562 세포 생존 감소",
+ "tier": "lab",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "백혈병은 콜레칼시페롤의 허가 적응증이 아닙니다.",
+ "why": "비타민 D3와 이트라코나졸을 만성골수성백혈병 K562 세포에 함께 처리한 세포실험입니다.",
+ "saw": "K562 세포에서 비타민 D3 또는 이트라코나졸 단독과 병용 모두 세포생존을 낮췄고, 병용군에서 세포자멸사 신호가 유의하게 증가했습니다.",
+ "limit": "세포주 실험이라 사람에서 혈중농도와 항백혈병 효과를 판단할 수 없고 이트라코나졸 병용의 상호작용도 확인해야 합니다.",
+ "against": "백혈병 환자에게 콜레칼시페롤을 투여한 임상효과는 이 조회에서 확인하지 못했습니다.",
+ "use": "세포 수준 병용기전의 전임상 가설로만 기록합니다.",
+ "refs": [
+  {
+   "label": "비타민 D3·이트라코나졸 만성골수성백혈병 K562 세포실험",
+   "pmid": "40522383"
+  },
+  {
+   "label": "만성골수성백혈병 비타민 D3 보충 무작위시험",
+   "pmid": "37643857"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=cholecalciferol · cond=Leukemia → 11건 반환, 물질 대조 후 11건",
+  "pubmed": "cholecalciferol AND Leukemia → 936편; PMID 37643857 PubMed abstract verified 2026-08-15",
+  "negative": "cholecalciferol AND Leukemia AND (no effect OR did not OR failed OR negative OR no significant difference) → 791편",
+  "safety": "cholecalciferol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4779편"
+ },
+ "vs": "비타민 D3 60,000 IU 주 1회+이매티닙 vs 위약+이매티닙: 만성기 만성골수성백혈병 62명, 8주; 3개월 조기분자반응 82.7% vs 75%, OR=1.6(95% CI 0.37~7.37,p=.4), 완전혈액학적 반응 차이 없음"
 }

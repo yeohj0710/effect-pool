@@ -1,28 +1,36 @@
 {
-  "id": "cinnamon-metabolic-syndrome-pos",
-  "subj": "시나몬",
-  "claim": "시나몬이 대사증후군의 혈당·지질 지표를 개선할 수 있다",
-  "line": "시나몬 보충은 대사증후군의 혈당과 일부 지질을 개선했지만 연구 결과는 서로 달랐다.",
-  "effect": "공복혈당·일부 지질 지표 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "시나몬은 대사증후군 치료 적응증으로 허가되지 않았습니다.",
-  "why": "시나몬 보충이 대사증후군과 관련된 혈당·지질 지표에 미치는 효과를 여러 메타분석으로 종합한 우산 분석입니다.",
-  "saw": "21개 메타분석의 139개 비교를 검토했고 공복혈당과 일부 지질 지표가 개선되었습니다. 효과는 당뇨병·대사증후군 연구에서 더 뚜렷했지만 연구 설계와 결과가 이질적이었습니다.",
-  "limit": "우산 분석 초록에 통합 대상자 수가 없고 기존 메타분석의 중복·이질성·출판편향 가능성이 남아 있습니다.",
-  "against": "혈당·지질 지표 개선이 심혈관 사건이나 대사증후군 자체의 임상적 호전을 입증하지는 않습니다.",
-  "use": "대사증후군에서 시나몬의 지표 개선 신호를 후속 무작위시험으로 확인할 근거로 기록합니다.",
-  "refs": [
-    { "label": "시나몬 건강효과 메타분석 우산분석", "pmid": "41256917" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=cinnamon · cond=Metabolic Syndrome 7건 반환, 물질 일치 7건",
-    "pubmed": "cinnamon AND Metabolic Syndrome 67건",
-    "negative": "cinnamon AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 59건",
-    "safety": "cinnamon AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 829건"
+ "id": "cinnamon-metabolic-syndrome-pos",
+ "subj": "시나몬",
+ "claim": "시나몬이 대사증후군의 혈당·지질 지표를 개선할 수 있다",
+ "line": "시나몬 보충은 대사증후군의 혈당과 일부 지질을 개선했지만 연구 결과는 서로 달랐다.",
+ "effect": "공복혈당·일부 지질 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "시나몬은 대사증후군 치료 적응증으로 허가되지 않았습니다.",
+ "why": "시나몬 보충이 대사증후군과 관련된 혈당·지질 지표에 미치는 효과를 여러 메타분석으로 종합한 우산 분석입니다.",
+ "saw": "21개 메타분석의 139개 비교를 검토했고 공복혈당과 일부 지질 지표가 개선되었습니다. 효과는 당뇨병·대사증후군 연구에서 더 뚜렷했지만 연구 설계와 결과가 이질적이었습니다.",
+ "limit": "우산 분석 초록에 통합 대상자 수가 없고 기존 메타분석의 중복·이질성·출판편향 가능성이 남아 있습니다.",
+ "against": "혈당·지질 지표 개선이 심혈관 사건이나 대사증후군 자체의 임상적 호전을 입증하지는 않습니다.",
+ "use": "대사증후군에서 시나몬의 지표 개선 신호를 후속 무작위시험으로 확인할 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "시나몬 건강효과 메타분석 우산분석",
+   "pmid": "41256917"
+  },
+  {
+   "label": "대사증후군 계피 보충 메타분석",
+   "pmid": "35803022"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=cinnamon · cond=Metabolic Syndrome 7건 반환, 물질 일치 7건",
+  "pubmed": "cinnamon AND Metabolic Syndrome 67건; PMID 35803022 PubMed abstract verified 2026-08-15",
+  "negative": "cinnamon AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 59건",
+  "safety": "cinnamon AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 829건"
+ },
+ "vs": "계피 보충 vs 위약: 대사증후군·관련 대사질환 RCT 12개 773명; 총콜레스테롤 WMD=-7.34 mg/dL(95% CI -9.27~-5.41), 중성지방 -8.85(-14.16~-3.54), LDL -6.18(-7.72~-4.25)"
 }

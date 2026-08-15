@@ -1,29 +1,44 @@
 {
-  "id": "chatbot-therapy-smoking-cessation-pos",
-  "subj": "챗봇 치료",
-  "claim": "챗봇 치료가 흡연자의 금연 준비와 초기 금연을 돕는다",
-  "line": "금연 챗봇을 사용한 흡연자 중 7명이 4주 뒤 최근 7일 금연을 보고했다.",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 23,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "금연 챗봇은 허가 적응증이 아니며 표준 금연치료를 대체하지 않습니다.",
-  "why": "SMS 금연 중재에 ChatGPT 기반 챗봇을 붙인 예비시험에서 사용 가능성과 단기 금연 신호를 함께 확인했습니다.",
-  "saw": "흡연자 23명이 BeFree 금연 문자 중재와 BeFreeBot을 사용했습니다. 4주 뒤 7/23명(30%)이 최근 7일 금연을 보고했고, 13/18명(72%)은 챗봇에 매우 만족했습니다.",
-  "limit": "대조군 없는 23명 예비시험이고 금연 여부를 자기보고로 확인했으며 추적 기간이 4주라 장기 금연 효과는 알 수 없습니다.",
-  "against": "별도 Aipaca 단일군 연구도 성인의 금연 준비도는 높였지만 실제 장기 금연률을 비교하지 않았습니다.",
-  "use": "금연 챗봇의 접근성과 단기 준비도 신호를 확인하는 근거로만 참고하며, 표준 상담·약물치료를 대신하는 결과로 해석하지 않습니다.",
-  "effect": "7/23명 4주 최근 7일 금연",
-  "refs": [
-    { "label": "2025 · JMIR · BeFreeBot 금연 중재 예비시험", "doi": "10.2196/79402", "pmid": "41072009", "pmc": "PMC12552811" },
-    { "label": "2025 · JMIR · Aipaca 금연 챗봇 실행가능성 연구", "doi": "10.2196/73319", "pmid": "41380150", "pmc": "PMC12741657" }
-  ],
-  "queried": {
-    "date": "2026-08-08",
-    "ctgov": "intr=chatbot therapy, cond=Smoking Cessation · 10건 반환·중재명 일치 6건",
-    "pubmed": "chatbot AND smoking cessation · 53편",
-    "negative": "chatbot AND smoking cessation AND (no effect OR did not OR failed to OR negative OR no significant difference) · 35편",
-    "safety": "chatbot AND smoking cessation AND (adverse OR toxicity OR safety OR harm OR distress) · 3편"
+ "id": "chatbot-therapy-smoking-cessation-pos",
+ "subj": "챗봇 치료",
+ "claim": "챗봇 치료가 흡연자의 금연 준비와 초기 금연을 돕는다",
+ "line": "금연 챗봇을 사용한 흡연자 중 7명이 4주 뒤 최근 7일 금연을 보고했다.",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 23,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "금연 챗봇은 허가 적응증이 아니며 표준 금연치료를 대체하지 않습니다.",
+ "why": "SMS 금연 중재에 ChatGPT 기반 챗봇을 붙인 예비시험에서 사용 가능성과 단기 금연 신호를 함께 확인했습니다.",
+ "saw": "흡연자 23명이 BeFree 금연 문자 중재와 BeFreeBot을 사용했습니다. 4주 뒤 7/23명(30%)이 최근 7일 금연을 보고했고, 13/18명(72%)은 챗봇에 매우 만족했습니다.",
+ "limit": "대조군 없는 23명 예비시험이고 금연 여부를 자기보고로 확인했으며 추적 기간이 4주라 장기 금연 효과는 알 수 없습니다.",
+ "against": "별도 Aipaca 단일군 연구도 성인의 금연 준비도는 높였지만 실제 장기 금연률을 비교하지 않았습니다.",
+ "use": "금연 챗봇의 접근성과 단기 준비도 신호를 확인하는 근거로만 참고하며, 표준 상담·약물치료를 대신하는 결과로 해석하지 않습니다.",
+ "effect": "7/23명 4주 최근 7일 금연",
+ "refs": [
+  {
+   "label": "2025 · JMIR · BeFreeBot 금연 중재 예비시험",
+   "doi": "10.2196/79402",
+   "pmid": "41072009",
+   "pmc": "PMC12552811"
+  },
+  {
+   "label": "2025 · JMIR · Aipaca 금연 챗봇 실행가능성 연구",
+   "doi": "10.2196/73319",
+   "pmid": "41380150",
+   "pmc": "PMC12741657"
+  },
+  {
+   "label": "금연 재발예방 모바일 채팅 무작위시험",
+   "pmid": "41557345"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=chatbot therapy, cond=Smoking Cessation · 10건 반환·중재명 일치 6건",
+  "pubmed": "chatbot AND smoking cessation · 53편; PMID 41557345 PubMed abstract verified 2026-08-15",
+  "negative": "chatbot AND smoking cessation AND (no effect OR did not OR failed to OR negative OR no significant difference) · 35편",
+  "safety": "chatbot AND smoking cessation AND (adverse OR toxicity OR safety OR harm OR distress) · 3편"
+ },
+ "vs": "상담자 채팅+챗봇 vs 일반 금연 문자: 최근 금연자 590명(294명 vs 296명), 6개월 생화학적 금연 45.9% vs 35.5%, RR=1.29(95% CI 1.06~1.58), 재발 33.0% vs 44.9%, RR=0.73(0.60~0.90)"
 }

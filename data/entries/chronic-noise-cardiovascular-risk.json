@@ -1,36 +1,41 @@
 {
-  "id": "chronic-noise-cardiovascular-risk",
-  "subj": "소음",
-  "claim": "만성 교통소음 노출이 심혈관 위험과 관련 있다",
-  "line": "장기 교통소음에 노출된 사람은 고혈압이 많았지만 관찰연구 근거뿐이다.",
-  "effect": "고혈압 위험 연관↑",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "why": "항공기·도로 교통소음의 장기 노출과 심혈관·혈압 결과를 관찰한 코호트와 메타분석입니다.",
-  "saw": "교통소음 노출 연구와 종합 검토에서 고혈압 및 심혈관질환 위험 증가 연관성이 보고됐지만, 두 검토 원문은 통합 참가자 수를 제시하지 않았습니다.",
-  "limit": "소음과 대기오염, 지역, 수면, 사회경제 요인이 함께 움직여 인과 효과를 분리하기 어렵습니다.",
-  "against": "일부 연구는 소음 노출과 심혈관 결과의 연관성이 작거나 불확실했고 측정 방법도 서로 달랐습니다.",
-  "use": "소음 노출과 심혈관 위험의 연관성을 개인의 확정적 발병 예측으로 사용하지 않습니다.",
-  "refs": [
-    {
-      "label": "Basner 2014 · Lancet · 소음의 건강 영향 검토",
-      "doi": "10.1016/S0140-6736(13)61613-X",
-      "pmid": "24183105",
-      "pmc": "PMC3988259"
-    },
-    {
-      "label": "Munzel 2024 · Circ Res · 교통소음과 심혈관 건강 검토",
-      "doi": "10.1161/CIRCRESAHA.123.323584",
-      "pmid": "38662856"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=environmental noise, cond=cardiovascular risk → 1건 반환, InterventionName 대조 후 0건",
-    "pubmed": "chronic environmental noise cardiovascular disease meta-analysis cohort → 4건",
-    "negative": "environmental noise cardiovascular AND (no effect OR did not OR failed to OR negative) → 1,352건",
-    "safety": "environmental noise cardiovascular AND (adverse OR case report) → 1,010건"
+ "id": "chronic-noise-cardiovascular-risk",
+ "subj": "소음",
+ "claim": "만성 교통소음 노출이 심혈관 위험과 관련 있다",
+ "line": "장기 교통소음에 노출된 사람은 고혈압이 많았지만 관찰연구 근거뿐이다.",
+ "effect": "고혈압 위험 연관↑",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "why": "항공기·도로 교통소음의 장기 노출과 심혈관·혈압 결과를 관찰한 코호트와 메타분석입니다.",
+ "saw": "교통소음 노출 연구와 종합 검토에서 고혈압 및 심혈관질환 위험 증가 연관성이 보고됐지만, 두 검토 원문은 통합 참가자 수를 제시하지 않았습니다.",
+ "limit": "소음과 대기오염, 지역, 수면, 사회경제 요인이 함께 움직여 인과 효과를 분리하기 어렵습니다.",
+ "against": "일부 연구는 소음 노출과 심혈관 결과의 연관성이 작거나 불확실했고 측정 방법도 서로 달랐습니다.",
+ "use": "소음 노출과 심혈관 위험의 연관성을 개인의 확정적 발병 예측으로 사용하지 않습니다.",
+ "refs": [
+  {
+   "label": "Basner 2014 · Lancet · 소음의 건강 영향 검토",
+   "doi": "10.1016/S0140-6736(13)61613-X",
+   "pmid": "24183105",
+   "pmc": "PMC3988259"
+  },
+  {
+   "label": "Munzel 2024 · Circ Res · 교통소음과 심혈관 건강 검토",
+   "doi": "10.1161/CIRCRESAHA.123.323584",
+   "pmid": "38662856"
+  },
+  {
+   "label": "야간 항공기 소음 내피기능 교차시험",
+   "pmid": "23821397"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=environmental noise, cond=cardiovascular risk → 1건 반환, InterventionName 대조 후 0건",
+  "pubmed": "chronic environmental noise cardiovascular disease meta-analysis cohort → 4건; PMID 23821397 PubMed abstract verified 2026-08-15",
+  "negative": "environmental noise cardiovascular AND (no effect OR did not OR failed to OR negative) → 1,352건",
+  "safety": "environmental noise cardiovascular AND (adverse OR case report) → 1,010건"
+ },
+ "vs": "야간 무소음 vs 항공기 소음 30·60회: 건강한 성인 75명, 각 1박; FMD 10.4±3.8% vs 9.7±4.1% vs 9.5±4.3%, 용량반응 p=.020, 비타민 C 투여 후 내피기능 저하 역전(p=.0171)"
 }

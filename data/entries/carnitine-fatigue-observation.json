@@ -1,28 +1,36 @@
 {
-  "id": "carnitine-fatigue-observation",
-  "subj": "카르니틴",
-  "claim": "혈액투석 환자의 피로는 아실·유리 카르니틴 비율과 연관됐다.",
-  "line": "혈액투석 환자에서 아실카르니틴 비와 피로가 함께 변했다.",
-  "effect": "아실/유리 카르니틴비와 피로 연관",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 59,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "피로 자체는 카르니틴의 허가 적응증이 아닙니다.",
-  "why": "혈액투석 환자의 혈중 카르니틴과 근육 상태·피로를 함께 관찰한 연구입니다.",
-  "saw": "혈액투석 환자 59명에서 아실카르니틴/유리 카르니틴 비가 피로와 연관됐고, 총·유리 카르니틴 농도는 근육 상태와 연관됐습니다. 카르니틴 배설량이 높은 사람은 추적 중 사망 위험도 낮았습니다.",
-  "limit": "카르니틴을 배정한 시험이 아니므로 피로를 줄이는 치료효과가 아니라 대사표지와 증상의 연관입니다.",
-  "against": "피로 감소를 직접 측정한 카르니틴 무작위시험 근거는 이 조회에서 확인하지 못했습니다.",
-  "use": "혈액투석 환자의 피로 가설과 후속 중재시험의 표적을 정하는 관찰 근거로 기록합니다.",
-  "refs": [
-    { "label": "혈액투석 환자 카르니틴·근육 상태·피로 관찰연구", "pmid": "42257388" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=carnitine · cond=Fatigue → 16건 반환, 물질 대조 후 16건",
-    "pubmed": "carnitine AND Fatigue → 392편",
-    "negative": "carnitine AND Fatigue AND (no effect OR did not OR failed OR negative OR no significant difference) → 244편",
-    "safety": "carnitine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3881편"
+ "id": "carnitine-fatigue-observation",
+ "subj": "카르니틴",
+ "claim": "혈액투석 환자의 피로는 아실·유리 카르니틴 비율과 연관됐다.",
+ "line": "혈액투석 환자에서 아실카르니틴 비와 피로가 함께 변했다.",
+ "effect": "아실/유리 카르니틴비와 피로 연관",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 59,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "피로 자체는 카르니틴의 허가 적응증이 아닙니다.",
+ "why": "혈액투석 환자의 혈중 카르니틴과 근육 상태·피로를 함께 관찰한 연구입니다.",
+ "saw": "혈액투석 환자 59명에서 아실카르니틴/유리 카르니틴 비가 피로와 연관됐고, 총·유리 카르니틴 농도는 근육 상태와 연관됐습니다. 카르니틴 배설량이 높은 사람은 추적 중 사망 위험도 낮았습니다.",
+ "limit": "카르니틴을 배정한 시험이 아니므로 피로를 줄이는 치료효과가 아니라 대사표지와 증상의 연관입니다.",
+ "against": "피로 감소를 직접 측정한 카르니틴 무작위시험 근거는 이 조회에서 확인하지 못했습니다.",
+ "use": "혈액투석 환자의 피로 가설과 후속 중재시험의 표적을 정하는 관찰 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "혈액투석 환자 카르니틴·근육 상태·피로 관찰연구",
+   "pmid": "42257388"
+  },
+  {
+   "label": "두경부암 방사선화학요법 카르니틴 피로 무작위시험",
+   "pmid": "40536003"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=carnitine · cond=Fatigue → 16건 반환, 물질 대조 후 16건",
+  "pubmed": "carnitine AND Fatigue → 392편; PMID 40536003 PubMed abstract verified 2026-08-15",
+  "negative": "carnitine AND Fatigue AND (no effect OR did not OR failed OR negative OR no significant difference) → 244편",
+  "safety": "carnitine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3881편"
+ },
+ "vs": "L-카르니틴 500 mg 하루 3회+대증치료 vs 대증치료: 두경부암 환자 피로 무작위시험; 치료 후 BFI 37.22 vs 52.24(p=.042), 체중 감소 중앙값 5.2% vs 7.4%"
 }
