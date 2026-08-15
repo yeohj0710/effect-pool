@@ -1,20 +1,37 @@
 {
-  "id": "fermented-foods-microbiome-pos",
-  "subj": "발효 식품",
-  "claim": "발효 식품을 많이 먹으면 건강한 성인의 장내 미생물 다양성이 늘었다",
-  "line": "10주간 발효 식품을 먹은 건강한 성인에서 장내 미생물 다양성이 증가했다.",
-  "effect": "미생물 다양성 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 36,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "발효 식품은 약물이 아닌 식이 중재입니다",
-  "why": "발효 식품 섭취가 장내 미생물과 면역 표지에 미치는 영향을 식이 무작위시험으로 평가했습니다",
-  "saw": "건강한 성인 36명이 10주 식이시험에 참여했습니다. 발효 식품군에서 장내 미생물 다양성이 늘고 염증 표지가 낮아졌습니다",
-  "limit": "건강한 성인의 소규모 단기 시험이며 특정 발효 식품의 효과와 장기 임상 결과를 확인하지 않았습니다",
-  "against": "미생물 다양성 변화가 모든 장질환이나 면역질환의 치료 효과를 뜻하지 않습니다",
-  "use": "식단 다양성을 높이는 방법으로 검토하되 식품 알레르기와 나트륨·당 함량을 함께 확인합니다",
-  "refs": [{ "label": "장내 미생물 표적 식이 무작위시험", "doi": "10.1016/j.cell.2021.06.019", "pmid": "34256014" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=fermented foods · cond=Microbiome 24건", "pubmed": "fermented foods AND Microbiome 3,416건", "negative": "fermented foods AND Microbiome AND (no effect OR did not OR failed OR no significant difference) 2,099건", "safety": "fermented foods AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 4,269건" }
+ "id": "fermented-foods-microbiome-pos",
+ "subj": "발효 식품",
+ "claim": "발효 식품을 많이 먹으면 건강한 성인의 장내 미생물 다양성이 늘었다",
+ "line": "10주간 발효 식품을 먹은 건강한 성인에서 장내 미생물 다양성이 증가했다.",
+ "effect": "미생물 다양성 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 36,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "발효 식품은 약물이 아닌 식이 중재입니다",
+ "why": "발효 식품 섭취가 장내 미생물과 면역 표지에 미치는 영향을 식이 무작위시험으로 평가했습니다",
+ "saw": "건강한 성인 36명이 10주 식이시험에 참여했습니다. 발효 식품군에서 장내 미생물 다양성이 늘고 염증 표지가 낮아졌습니다",
+ "limit": "건강한 성인의 소규모 단기 시험이며 특정 발효 식품의 효과와 장기 임상 결과를 확인하지 않았습니다",
+ "against": "미생물 다양성 변화가 모든 장질환이나 면역질환의 치료 효과를 뜻하지 않습니다",
+ "use": "식단 다양성을 높이는 방법으로 검토하되 식품 알레르기와 나트륨·당 함량을 함께 확인합니다",
+ "refs": [
+  {
+   "label": "장내 미생물 표적 식이 무작위시험",
+   "doi": "10.1016/j.cell.2021.06.019",
+   "pmid": "34256014"
+  },
+  {
+   "label": "요구르트·귀리 장내미생물 무작위 교차시험",
+   "pmid": "41687784"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=fermented foods · cond=Microbiome 24건",
+  "pubmed": "fermented foods AND Microbiome 3,416건; PMID 41687784 PubMed abstract verified 2026-08-15",
+  "negative": "fermented foods AND Microbiome AND (no effect OR did not OR failed OR no significant difference) 2,099건",
+  "safety": "fermented foods AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 4,269건"
+ },
+ "vs": "요구르트 vs 요구르트+압착귀리: 건강인 119명 무작위 교차시험에서 110명 완료, Streptococcus thermophilus 0.97%(95% CI .71~1.26) vs 0.79%(.58~1.03), 단쇄지방산·혈액 건강지표의 추가 효과 없음"
 }

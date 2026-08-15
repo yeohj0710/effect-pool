@@ -1,20 +1,37 @@
 {
-  "id": "family-therapy-bipolar-pos",
-  "subj": "가족중심치료",
-  "claim": "양극성 장애 재발 예방에 가족중심치료를 보조적으로 쓴다",
-  "line": "양극성장애에서 가족중심치료는 회복을 앞당기고 재발·증상 중증도를 줄였다.",
-  "effect": "회복 촉진; 재발·증상 중증도 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "가족중심치료는 약물치료와 병행하는 심리사회적 개입이며 양극성 장애의 의약품 허가 적응증이 아닙니다.",
-  "why": "가족에게 질환 교육과 의사소통·문제해결 훈련을 제공해 기분 삽화 뒤 회복과 재발 예방을 보조합니다.",
-  "saw": "양극성 장애 성인·청소년 대상 무작위시험 8건을 정리한 리뷰에서 가족중심치료와 기분안정제를 함께 쓴 군이 간단한 교육과 약물치료를 받은 군보다 기분 삽화 회복이 빠르고 1~2년 재발과 증상 중증도가 줄었습니다.",
-  "limit": "리뷰 초록에 통합 표본 수와 효과크기가 제시되지 않았고, 가족중심치료는 약물치료와 함께 시행됐습니다.",
-  "against": "모든 가족이 같은 의사소통 환경을 갖는 것은 아니며, 가족중심치료가 약물치료를 대체한다는 근거는 없습니다.",
-  "use": "기분안정제와 정신건강 진료를 대신하지 않고, 환자와 가족이 참여할 수 있을 때 재발 예방 보조치료로 검토합니다.",
-  "refs": [{ "label": "Miklowitz 2016 · Family Process · 가족중심치료 30년 연구 리뷰", "doi": "10.1111/famp.12237", "pmid": "27471058" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=family therapy · cond=Bipolar Disorder → 52건", "pubmed": "family therapy AND Bipolar Disorder → 2,058편", "negative": "family therapy AND Bipolar Disorder AND (no effect OR did not OR failed OR no significant difference) → 1,146편", "safety": "family therapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 53,899편" }
+ "id": "family-therapy-bipolar-pos",
+ "subj": "가족중심치료",
+ "claim": "양극성 장애 재발 예방에 가족중심치료를 보조적으로 쓴다",
+ "line": "양극성장애에서 가족중심치료는 회복을 앞당기고 재발·증상 중증도를 줄였다.",
+ "effect": "회복 촉진; 재발·증상 중증도 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "가족중심치료는 약물치료와 병행하는 심리사회적 개입이며 양극성 장애의 의약품 허가 적응증이 아닙니다.",
+ "why": "가족에게 질환 교육과 의사소통·문제해결 훈련을 제공해 기분 삽화 뒤 회복과 재발 예방을 보조합니다.",
+ "saw": "양극성 장애 성인·청소년 대상 무작위시험 8건을 정리한 리뷰에서 가족중심치료와 기분안정제를 함께 쓴 군이 간단한 교육과 약물치료를 받은 군보다 기분 삽화 회복이 빠르고 1~2년 재발과 증상 중증도가 줄었습니다.",
+ "limit": "리뷰 초록에 통합 표본 수와 효과크기가 제시되지 않았고, 가족중심치료는 약물치료와 함께 시행됐습니다.",
+ "against": "모든 가족이 같은 의사소통 환경을 갖는 것은 아니며, 가족중심치료가 약물치료를 대체한다는 근거는 없습니다.",
+ "use": "기분안정제와 정신건강 진료를 대신하지 않고, 환자와 가족이 참여할 수 있을 때 재발 예방 보조치료로 검토합니다.",
+ "refs": [
+  {
+   "label": "Miklowitz 2016 · Family Process · 가족중심치료 30년 연구 리뷰",
+   "doi": "10.1111/famp.12237",
+   "pmid": "27471058"
+  },
+  {
+   "label": "양극성장애 고위험 청소년 가족중심치료 RCT",
+   "pmid": "35084893"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=family therapy · cond=Bipolar Disorder → 52건",
+  "pubmed": "family therapy AND Bipolar Disorder → 2,058편; PMID 35084893 PubMed abstract verified 2026-08-15",
+  "negative": "family therapy AND Bipolar Disorder AND (no effect OR did not OR failed OR no significant difference) → 1,146편",
+  "safety": "family therapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 53,899편"
+ },
+ "vs": "가족치료 vs 강화 심리교육: 고위험 청소년 119명에서 24개월 가족 기능 F(5,76.8)=3.1,p<.05, 우울 증상 매개효과 B=-.22,p<.01(95% CI -.55~-.02)"
 }

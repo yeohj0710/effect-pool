@@ -1,28 +1,37 @@
 {
-  "id": "exercise-referral-physical-therapy-pos",
-  "subj": "운동 의뢰",
-  "claim": "물리치료 의뢰 환자에서 운동 의뢰는 신체 활동과 일부 임상 결과를 개선할 가능성이 있습니다",
-  "line": "물리치료 환자 운동 의뢰는 신체 활동과 일부 임상 결과를 개선할 수 있다.",
-  "effect": "활동·임상 결과 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 62815,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "운동 의뢰는 의약품 허가 적응증이 아닌 행동 중재입니다.",
-  "why": "일차의료에서 운동 프로그램으로 연결하면 환자가 실제 활동을 시작하도록 도울 수 있습니다.",
-  "saw": "운동 의뢰 제도에 대한 우산문헌고찰은 110개 연구와 62,815명을 포함했습니다. 최신 대규모 고찰에서 신체 활동·체력과 일부 임상 결과가 낮거나 중간 정도 개선됐습니다.",
-  "limit": "고찰마다 결과와 비용효과가 달랐고 물리치료 의뢰 환자만 따로 분석한 결과는 아닙니다.",
-  "against": "초기 고찰에서는 신체 활동 변화가 없다는 결과도 있어 프로그램 구성과 대상자 선택이 중요합니다.",
-  "use": "물리치료와 운동 프로그램을 연결할 때 활동량과 임상 결과를 함께 평가하는 근거로 참고합니다.",
-  "refs": [
-    { "label": "운동 의뢰 제도 우산문헌고찰", "doi": "10.1139/apnm-2024-0185", "pmid": "39693607" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "exercise referral AND Physical Therapy · 67건",
-    "pubmed": "exercise referral AND Physical Therapy · 1,834건",
-    "negative": "exercise referral AND Physical Therapy AND (no effect OR did not OR failed OR negative OR no significant difference) · 947건",
-    "safety": "exercise referral AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 857건"
+ "id": "exercise-referral-physical-therapy-pos",
+ "subj": "운동 의뢰",
+ "claim": "물리치료 의뢰 환자에서 운동 의뢰는 신체 활동과 일부 임상 결과를 개선할 가능성이 있습니다",
+ "line": "물리치료 환자 운동 의뢰는 신체 활동과 일부 임상 결과를 개선할 수 있다.",
+ "effect": "활동·임상 결과 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 62815,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "운동 의뢰는 의약품 허가 적응증이 아닌 행동 중재입니다.",
+ "why": "일차의료에서 운동 프로그램으로 연결하면 환자가 실제 활동을 시작하도록 도울 수 있습니다.",
+ "saw": "운동 의뢰 제도에 대한 우산문헌고찰은 110개 연구와 62,815명을 포함했습니다. 최신 대규모 고찰에서 신체 활동·체력과 일부 임상 결과가 낮거나 중간 정도 개선됐습니다.",
+ "limit": "고찰마다 결과와 비용효과가 달랐고 물리치료 의뢰 환자만 따로 분석한 결과는 아닙니다.",
+ "against": "초기 고찰에서는 신체 활동 변화가 없다는 결과도 있어 프로그램 구성과 대상자 선택이 중요합니다.",
+ "use": "물리치료와 운동 프로그램을 연결할 때 활동량과 임상 결과를 함께 평가하는 근거로 참고합니다.",
+ "refs": [
+  {
+   "label": "운동 의뢰 제도 우산문헌고찰",
+   "doi": "10.1139/apnm-2024-0185",
+   "pmid": "39693607"
+  },
+  {
+   "label": "상완골 근위부 골절 감독 재활 무작위시험",
+   "pmid": "41407030"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "exercise referral AND Physical Therapy · 67건",
+  "pubmed": "exercise referral AND Physical Therapy · 1,834건; PMID 41407030 PubMed abstract verified 2026-08-15",
+  "negative": "exercise referral AND Physical Therapy AND (no effect OR did not OR failed OR negative OR no significant difference) · 947건",
+  "safety": "exercise referral AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 857건"
+ },
+ "vs": "감독 재활 의뢰 vs 단회 운동 조언: 비수술 상완골 근위부 골절 60명(30 vs 30; 주요 평가 완료 29 vs 27)에서 6개월 Oxford Shoulder Score 33.9 vs 33.8, MD=.05(95% CI -4.5~4.6,p=.98)"
 }
