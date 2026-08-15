@@ -1,35 +1,39 @@
 {
-  "id": "folic-acid-neural-tube-prevention",
-  "subj": "엽산",
-  "claim": "임신 전 복용이 신경관 결손을 막는다",
-  "line": "임신 전 엽산 복용은 신경관 결손 재발 위험을 낮췄다.",
-  "effect": "결손 6건 vs 21건",
-  "tier": "trial",
-  "dir": "pos",
+ "id": "folic-acid-neural-tube-prevention",
+ "subj": "엽산",
+ "claim": "임신 전 복용이 신경관 결손을 막는다",
+ "line": "임신 전 엽산 복용은 신경관 결손 재발 위험을 낮췄다.",
+ "effect": "결손 6건 vs 21건",
+ "tier": "trial",
+ "dir": "pos",
  "n": 1817,
- "vs": "신경관 결손 고위험 임신 1,817명 4군 무작위시험; 엽산군 대 비엽산군 대비 신경관 결손 6건 대 21건, 상대위험 0.28(95% CI 0.12~0.71), 예방효과 72%",
-  "synth": "single",
-  "why": "신경관 결손 임신 경험이 있는 여성을 엽산 포함 여부에 따라 무작위로 나눈 MRC 비타민 시험입니다.",
-  "saw": "여성 1,817명이 참여했습니다. 엽산군 593명 중 6건, 엽산이 없는 군 602명 중 21건의 신경관 결손이 생겼습니다.",
-  "limit": "재발 고위험 여성 시험입니다. 이후 식품 강화와 관찰 연구가 일반 인구의 첫 발생 예방을 뒷받침했습니다.",
-  "against": "반대쪽 검색에서 신경관 결손 예방 효과를 뒤집는 근거는 찾지 못했습니다. 다른 임신 결과의 이득까지 자동으로 따라오는 것은 아닙니다.",
-  "use": "중간 영양 지표가 아니라 실제 선천성 결손을 줄인 드문 보충제 무작위시험입니다.",
-  "refs": [
-    {
-      "label": "MRC Vitamin Study 1991 · Lancet · 신경관 결손 재발 예방 RCT",
-      "pmid": "1677062"
-    },
-    {
-      "label": "Viswanathan 2023 · JAMA · USPSTF 근거 검토",
-      "doi": "10.1001/jama.2023.9864",
-      "pmid": "37526714"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=folic acid, cond=pregnancy neural tube defects prevention → 0건 반환, 대조할 InterventionName 없음",
-    "pubmed": "folic acid neural tube defects prevention randomized trial MRC → 16건",
-    "negative": "folic acid neural tube defects AND (no effect OR did not OR negative OR no significant difference) → 1,682건",
-    "safety": "folic acid pregnancy AND (adverse OR toxicity OR case report) → 2,283건"
+ "vs": "임신 전후 엽산·종합비타민 보충 vs 비보충: 10개 체계적 문헌고찰·메타분석 296,816명에서 신경관결손 통합 효과 .43(95% CI .29~.58), 엽산 하위군 .23(.09~.37), RCT 하위군 .43(.32~.54)",
+ "synth": "single",
+ "why": "신경관 결손 임신 경험이 있는 여성을 엽산 포함 여부에 따라 무작위로 나눈 MRC 비타민 시험입니다.",
+ "saw": "여성 1,817명이 참여했습니다. 엽산군 593명 중 6건, 엽산이 없는 군 602명 중 21건의 신경관 결손이 생겼습니다.",
+ "limit": "재발 고위험 여성 시험입니다. 이후 식품 강화와 관찰 연구가 일반 인구의 첫 발생 예방을 뒷받침했습니다.",
+ "against": "반대쪽 검색에서 신경관 결손 예방 효과를 뒤집는 근거는 찾지 못했습니다. 다른 임신 결과의 이득까지 자동으로 따라오는 것은 아닙니다.",
+ "use": "중간 영양 지표가 아니라 실제 선천성 결손을 줄인 드문 보충제 무작위시험입니다.",
+ "refs": [
+  {
+   "label": "MRC Vitamin Study 1991 · Lancet · 신경관 결손 재발 예방 RCT",
+   "pmid": "1677062"
+  },
+  {
+   "label": "Viswanathan 2023 · JAMA · USPSTF 근거 검토",
+   "doi": "10.1001/jama.2023.9864",
+   "pmid": "37526714"
+  },
+  {
+   "label": "신경관결손 예방 엽산·종합비타민 우산고찰",
+   "pmid": "39074459"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=folic acid, cond=pregnancy neural tube defects prevention → 0건 반환, 대조할 InterventionName 없음",
+  "pubmed": "folic acid neural tube defects prevention randomized trial MRC → 16건; PMID 39074459 PubMed abstract verified 2026-08-15",
+  "negative": "folic acid neural tube defects AND (no effect OR did not OR negative OR no significant difference) → 1,682건",
+  "safety": "folic acid pregnancy AND (adverse OR toxicity OR case report) → 2,283건"
+ }
 }

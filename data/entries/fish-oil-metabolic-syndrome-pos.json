@@ -1,33 +1,37 @@
 {
-  "id": "fish-oil-metabolic-syndrome-pos",
-  "subj": "어유",
-  "claim": "생선기름이 대사증후군 위험을 낮추는지 평가한다",
-  "line": "관찰연구에서 오메가3 수치가 높을수록 대사증후군 위험이 낮았다.",
-  "effect": "대사증후군 연관",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
-  "why": "식이·혈중 오메가3와 대사증후군 위험을 합친 관찰연구를 확인했다",
-  "saw": "오메가3 섭취와 혈중 농도를 대사증후군 위험과 비교한 관찰연구 메타분석이다",
-  "limit": "사람이 생선기름을 무작위로 받은 시험이 아니어서 교란을 배제하지 못한다",
-  "against": "관찰자료만으로 생선기름 보충이 대사증후군을 예방한다고 단정할 수 없다",
-  "use": "대사증후군과의 연관 신호를 기록했지만 인과효과는 열려 있다",
-  "refs": [
-    {
-      "label": "오메가3와 대사증후군 위험 메타분석 · 관찰연구",
-      "doi": "10.3390/nu9070703",
-      "pmid": "28684692"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=fish oil · cond=Metabolic Syndrome 19건 반환, 물질 일치 19건",
-    "pubmed": "fish oil AND Metabolic Syndrome 844건",
-    "negative": "fish oil AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 626건",
-    "safety": "fish oil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 7685건"
+ "id": "fish-oil-metabolic-syndrome-pos",
+ "subj": "어유",
+ "claim": "생선기름이 대사증후군 위험을 낮추는지 평가한다",
+ "line": "관찰연구에서 오메가3 수치가 높을수록 대사증후군 위험이 낮았다.",
+ "effect": "대사증후군 연관",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식품·보충제로 의약품 허가 적응증이 아님",
+ "why": "식이·혈중 오메가3와 대사증후군 위험을 합친 관찰연구를 확인했다",
+ "saw": "오메가3 섭취와 혈중 농도를 대사증후군 위험과 비교한 관찰연구 메타분석이다",
+ "limit": "사람이 생선기름을 무작위로 받은 시험이 아니어서 교란을 배제하지 못한다",
+ "against": "관찰자료만으로 생선기름 보충이 대사증후군을 예방한다고 단정할 수 없다",
+ "use": "대사증후군과의 연관 신호를 기록했지만 인과효과는 열려 있다",
+ "refs": [
+  {
+   "label": "오메가3와 대사증후군 위험 메타분석 · 관찰연구",
+   "doi": "10.3390/nu9070703",
+   "pmid": "28684692"
   },
-  "vs": "순환 n-3 다중불포화지방산 높은 군 vs 낮은 군: 대사증후군 pooled OR=.63(95% CI .49~.81); 식이 n-3 지방산·생선 섭취는 유의한 연관 없음(관찰연구 메타분석)"
+  {
+   "label": "해양 오메가-3 대사증후군 메타분석",
+   "pmid": "41156531"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=fish oil · cond=Metabolic Syndrome 19건 반환, 물질 일치 19건",
+  "pubmed": "fish oil AND Metabolic Syndrome 844건; PMID 41156531 PubMed abstract verified 2026-08-15",
+  "negative": "fish oil AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) 626건",
+  "safety": "fish oil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 7685건"
+ },
+ "vs": "해양 오메가-3 vs 위약·대조군: 21개 RCT 약 1,950명 메타분석에서 고용량 장기 TG 변화 -56.78±3.44 mg/dL, 중용량 중기 -24.93±.464 mg/dL(p<.001), 저용량에서 LDL-C +35.525±4.33 mg/dL 증가"
 }
