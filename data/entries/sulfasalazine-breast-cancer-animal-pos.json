@@ -10,14 +10,21 @@
   "known": "off",
   "knownWhy": "유방암 치료는 설파살라진의 허가 적응증에 없음",
   "why": "설파살라진의 xCT 억제라는 약리 부작용을 종양의 산화 스트레스 취약성에 활용한 전임상 사례입니다.",
-  "saw": "MDA-MB-231·MDA-MB-468 세포와 4T1 이식 마우스에서 설파살라진은 xCT 발현·수송과 글루타티온을 낮추고 MYC·CDK1·CD44를 억제했습니다. 설파살라진·라파마이신 병용은 이식 종양 성장을 상승적으로 억제했습니다.",
-  "limit": "세포주와 마우스 모델 결과이며 사람의 유방암 반응률이나 안전성을 제시하지 않습니다.",
+  "saw": "설파살라진은 삼중음성 유방암 세포의 xCT와 글루타티온을 낮추고 자가포식과 세포주기 변화를 유도해 세포·생쥐 종양 성장을 억제했습니다.",
+  "limit": "전임상 세포·동물 연구이며 사람 유방암 환자의 개입-대조 결과가 없습니다.",
   "against": "설파살라진 단독의 임상 항암효과는 확인되지 않았고 라파마이신 병용 결과를 사람에게 외삽할 수 없습니다.",
   "use": "삼중음성 유방암의 xCT·글루타티온 표적화 가설을 세우는 전임상 근거로만 사용할 수 있습니다.",
   "effect": "4T1 이식 유방암 성장 억제",
   "refs": [
-    { "label": "Long 2024 · Anticancer Drugs · 삼중음성 유방암 xCT 표적화", "doi": "10.1097/CAD.0000000000001630", "pmid": "39016262" },
-    { "label": "NCT03847311 · 유방암 환자의 오피오이드 요구량 감소시험", "nct": "NCT03847311" }
+    {
+      "label": "Long 2024 · Anticancer Drugs · 삼중음성 유방암 xCT 표적화",
+      "doi": "10.1097/CAD.0000000000001630",
+      "pmid": "39016262"
+    },
+    {
+      "label": "NCT03847311 · 유방암 환자의 오피오이드 요구량 감소시험",
+      "nct": "NCT03847311"
+    }
   ],
   "queried": {
     "date": "2026-08-05",
@@ -25,5 +32,6 @@
     "pubmed": "sulfasalazine AND Breast Cancer → 111건",
     "negative": "sulfasalazine AND Breast Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 89건",
     "safety": "sulfasalazine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 3348건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 삼중음성 유방암 세포·4T1 이식 생쥐에서 설파살라진 억제 방향은 보고했지만 초록에 군별 수치가 없습니다."
 }

@@ -11,13 +11,20 @@
   "known": "off",
   "knownWhy": "세보플루란 허가 적응증은 전신마취이며 상처 국소 진통은 허가 밖입니다",
   "why": "세보플루란을 전신마취제가 아닌 상처 국소 진통제로 사용한 연구를 검토했습니다.",
-  "saw": "2026년 체계적 문헌고찰은 2024년 11월까지 210편을 검색해 증례·코호트·임상시험·종설 21편을 분석했습니다. 21편 모두 적용 후 수분 안에 통증이 줄고 수시간 지속됐다고 보고했습니다.",
-  "limit": "21편에 임상시험뿐 아니라 증례와 코호트가 섞였고 참가자 총수와 대조군 결과를 고찰 초록에서 확인하지 못했습니다. 고품질 임상시험이 더 필요합니다.",
+  "saw": "만성 또는 난치성 상처에 세보플루란을 국소 적용한 21개 연구 문헌고찰은 수분 내 시작해 수시간 지속되는 통증 감소를 보고했고 이상반응은 주로 가려움·홍반이었습니다.",
+  "limit": "증례·코호트·임상시험이 섞인 문헌고찰이며 위약이나 표준치료와의 통합 비교효과가 없습니다.",
   "against": "고찰은 유효성을 일관되게 보고했지만 설계가 섞였고 고품질 연구가 부족해 표준 상처 진통을 대체할 근거는 아닙니다.",
   "use": "만성 난치성 상처 통증의 국소 보조요법 후보로만 기록하며 표준 진통을 대신하지 않습니다.",
   "refs": [
-    { "label": "Efficacy and Safety of Topical Use of Sevoflurane as a Local Analgesic in Wounds: A Systematic Review", "doi": "10.1097/ASW.0000000000000424", "pmid": "41920950" },
-    { "label": "Topical sevoflurane for treatment of chronic leg ulcers", "nct": "NCT05303805" }
+    {
+      "label": "Efficacy and Safety of Topical Use of Sevoflurane as a Local Analgesic in Wounds: A Systematic Review",
+      "doi": "10.1097/ASW.0000000000000424",
+      "pmid": "41920950"
+    },
+    {
+      "label": "Topical sevoflurane for treatment of chronic leg ulcers",
+      "nct": "NCT05303805"
+    }
   ],
   "queried": {
     "date": "2026-08-10",
@@ -25,5 +32,6 @@
     "pubmed": "sevoflurane[Title/Abstract] AND pain[Title/Abstract]; 1,136",
     "negative": "sevoflurane[Title/Abstract] AND pain[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 328",
     "safety": "sevoflurane[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,945"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 만성 상처 국소 세보플루란 21개 연구 문헌고찰은 통증 감소를 일관되게 보고했지만 통합된 비교효과를 제시하지 않습니다."
 }
