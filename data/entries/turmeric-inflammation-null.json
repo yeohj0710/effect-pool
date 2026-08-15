@@ -1,21 +1,32 @@
 {
-  "id": "turmeric-inflammation-null",
-  "subj": "강황",
-  "claim": "강황·커큐민이 만성 염증질환의 염증 표지를 낮추는가",
-  "line": "강황·커큐민은 만성 염증질환의 주요 염증 표지를 유의하게 낮추지 못했다",
-  "effect": "CRP MD -2.71mg/L",
-  "vs": "만성 염증질환 환자의 무작위시험 19편 메타분석에서 강황·커큐민군의 CRP MD는 -2.71mg/L(95% CI -5.73~0.31, p=.08), hs-CRP는 -1.44mg/L(-2.94~0.06, p=.06)로 대조군과 유의한 차이가 없었다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 1344,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "강황·커큐민은 처방 항염증제가 아닌 보충 성분입니다.",
-  "why": "만성 염증질환 환자에서 강황·커큐민과 대조군의 염증 표지를 비교한 무작위시험을 통합했습니다.",
-  "saw": "CRP, hs-CRP, IL-6와 TNF-α의 평균 차이가 모두 통계적으로 유의하지 않았습니다.",
-  "limit": "질환, 제형, 용량, 추적기간과 효과의 이질성이 컸습니다.",
-  "against": "강황·커큐민이 항염증제나 만성 염증질환 치료를 대체한다는 근거는 아닙니다.",
-  "use": "강황·커큐민의 염증 표지 근거가 일관되지 않음을 설명하는 근거로 사용합니다.",
-  "refs": [{ "label": "강황·커큐민 만성 염증질환 무작위시험 메타분석", "pmid": "31121255" }],
-  "queried": { "date": "2026-08-16", "pubmed": "oral turmeric curcumin inflammatory markers chronic inflammatory diseases randomized meta-analysis; PMID 31121255", "negative": "curcumin inflammation no effect", "safety": "curcumin randomized adverse" }
+ "id": "turmeric-inflammation-null",
+ "subj": "강황",
+ "claim": "과민성장증후군의 식후 염증 반응을 줄인다",
+ "line": "강황은 식후 LPS는 줄이지 못했지만 Apo-B48과 중성지방 수치는 낮췄습니다",
+ "effect": "식후 LPS 변화 없음; 일부 지질 표지자 감소",
+ "tier": "trial",
+ "dir": "null",
+ "n": 18,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "과민성장증후군 염증 조절은 강황의 의약품 허가 적응증이 아닙니다.",
+ "why": "과민성장증후군 환자에게 강황 제형과 위약을 투여한 이중눈가림 교차시험입니다.",
+ "saw": "IBS 환자 18명 교차시험에서 강황은 식후 LPS를 바꾸지 않았지만 Apo-B48과 중성지방 평균비를 0.82와 0.87로 낮췄다.",
+ "limit": "18명의 단기 교차시험이고 염증 표지자와 지질 대리지표만 측정했습니다.",
+ "against": "위장관 증상과 변 상태는 달라지지 않았고 공복 LPS 감소도 유의하지 않았습니다.",
+ "use": "강황의 염증 효과를 임상 증상과 식후 대리지표로 나누어 기록합니다.",
+ "refs": [
+  {
+   "label": "과민성장증후군 강황 고지방 식사 교차시험",
+   "pmid": "42543530"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-06",
+  "ctgov": "intr=turmeric · cond=Inflammation → 6건 반환, 물질 대조 후 6건",
+  "pubmed": "turmeric AND Inflammation → 1440편",
+  "negative": "turmeric AND Inflammation AND (no effect OR did not OR failed OR negative OR no significant difference) → 1301편",
+  "safety": "turmeric AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2018편"
+ },
+ "vs": "강황 제형 vs 위약: 식후 Apo-B48 평균비 0.82, 중성지방 평균비 0.87, p=.04·.01; 식후 LPS는 유의한 차이 없음"
 }
