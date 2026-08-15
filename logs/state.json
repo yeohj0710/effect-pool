@@ -2,20 +2,20 @@
   "updated": "2026-08-16",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6849,
-  "subjects": 2306,
-  "refs": 9921,
+  "entries": 6854,
+  "subjects": 2309,
+  "refs": 9926,
   "kinds": {
-    "supp": 684,
+    "supp": 685,
     "rx": 2629,
     "life": 1235,
     "otc": 170,
     "care": 743,
     "move": 677,
-    "food": 711
+    "food": 715
   },
   "tiers": {
-    "trial": 6023,
+    "trial": 6028,
     "obs": 731,
     "animal": 31,
     "lab": 17,
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 177,
-    "null": 1370,
+    "null": 1371,
     "open": 1052,
-    "pos": 4250
+    "pos": 4254
   },
   "worklist": {
-    "total": 16721,
-    "checked": 16721,
+    "total": 16737,
+    "checked": 16737,
     "unchecked": 0,
-    "no_evidence_pending": 2204,
-    "note": "Worklist 16721/16721 checked. Batch 1576 processed 27 fresh non-prescription candidates; 4 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1577."
+    "no_evidence_pending": 2216,
+    "note": "Worklist 16737/16737 checked. Batch 1577 processed 16 fresh non-prescription candidates; 5 new entries were recorded and 12 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1578."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1576 processed 27 fresh non-prescription candidates; 4 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1577."
+    "note": "Batch 1577 processed 16 fresh non-prescription candidates; 5 new entries were recorded and 12 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1578."
   },
   "checkpoints": {
-    "over_counter_share": "22.9% (1565 entries)",
+    "over_counter_share": "22.9% (1570 entries)",
     "rx_share": "38.4% (2629)",
-    "no_effect_or_harm_share": "22.6% (1547)",
-    "vs_share": "86.3% (5907 entries)",
+    "no_effect_or_harm_share": "22.6% (1548)",
+    "vs_share": "86.3% (5916 entries)",
     "unexpected_benefit_entries": 4,
-    "trial_share": "87.9% (6023)",
+    "trial_share": "88.0% (6028)",
     "non_trial_share": "12.1% (826)",
     "build_warnings": {
       "unknown_n": 485,
-      "thin_study": 1164,
+      "thin_study": 1166,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,64 +60,54 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1576 processed 27 fresh non-prescription candidates: 4 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16721/16721 is checked; resume with fresh non-prescription batch 1577.",
+  "next": "Batch 1577 processed 16 fresh non-prescription candidates: 5 new entries were recorded and 12 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16737/16737 is checked; resume with fresh non-prescription batch 1578.",
   "last_batch": {
-    "id": "1576",
-    "commit": "f5731e13",
+    "id": "1577",
+    "commit": "1cfd676b",
     "pushed": true,
-    "expansion_commit": "f5731e13",
+    "expansion_commit": "1cfd676b",
     "data_commits": [
-      "f5731e13"
+      "1cfd676b"
     ],
     "maintenance": false,
-    "processed_topics": 27,
-    "new_entries": 4,
+    "processed_topics": 16,
+    "new_entries": 5,
     "existing_links": 0,
-    "no_evidence_rejects": 23,
-    "non_prescription_topics_available": 27,
-    "non_prescription_topics_processed": 27,
+    "no_evidence_rejects": 12,
+    "non_prescription_topics_available": 16,
+    "non_prescription_topics_processed": 16,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 23,
-    "new_references": 4,
+    "screened_nonqualifying_topics": 12,
+    "new_references": 5,
     "existing_reference_links": 0,
-    "build": "6849 entries; 9921 refs; 6023 trial; 731 obs; 31 animal; 17 lab; 47 case; 5911 numeric comparison entries; worklist 16721/16721",
-    "research": "PubMed abstracts verified: 27764725, 33141635, 39559800, 41978202. Four new entries retain numeric group values, confidence intervals, or valid relative effects; 23 topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a duplicate, protocol, irrelevant intervention, mismatched topic, or qualitative-only evidence.",
+    "build": "6854 entries; 9926 refs; 6028 trial; 731 obs; 31 animal; 17 lab; 47 case; 5916 numeric comparison entries; worklist 16737/16737",
+    "research": "PubMed abstracts verified: 28886437, 36781602, 35277067, 36287562, 36004391. Four worklist topics yielded five new entries with numeric group values, confidence intervals, or valid relative effects; 12 topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a protocol, irrelevant intervention, mismatched topic, duplicate, or qualitative-only result.",
     "qualified_topics": [
-      "blackcurrant-glycemia",
-      "passionfruit-glycemia",
-      "meal-sequence-glycemia",
-      "postmeal-cooling-glycemia"
+      "anthocyanin-glycemia",
+      "selenium-glycemia",
+      "mediterranean-diet-glycemia",
+      "low-carb-diet-glycemia"
     ],
     "qualified_entry_ids": [
-      "blackcurrant-glycemia-pos",
-      "passionfruit-glycemia-pos",
-      "meal-sequence-glycemia-pos",
-      "postmeal-cooling-glycemia-pos"
+      "anthocyanin-glycemia-pos",
+      "selenium-probiotic-glycemia-pos",
+      "mediterranean-diet-glycemia-pos",
+      "low-carb-diet-glycemia-pos",
+      "low-carb-diet-glycemia-null"
     ],
     "screened_topics": [
-      "apple-cider-vinegar-blood-pressure",
-      "yogurt-glycemia",
-      "grapefruit-glycemia",
-      "plum-glycemia",
-      "acai-glycemia",
-      "dragonfruit-glycemia",
-      "matcha-glycemia",
-      "herbal-tea-glycemia",
-      "coconut-oil-glycemia",
-      "protein-pacing-glycemia",
-      "food-order-glycemia",
-      "reheated-rice-glycemia",
-      "frozen-bread-glycemia",
-      "eating-speed-glycemia",
-      "chewing-gum-glycemia",
-      "mouth-rinsing-glycemia",
-      "water-before-meal-glycemia",
-      "breakfast-composition-glycemia",
-      "early-dinner-glycemia",
-      "dinner-skipping-glycemia",
-      "snack-timing-glycemia",
-      "postmeal-stairs-glycemia",
-      "microbreak-glycemia"
+      "carnitine-glycemia",
+      "taurine-glycemia",
+      "vitamin-c-glycemia",
+      "zinc-glycemia",
+      "butyrate-glycemia",
+      "beta-glucan-glycemia",
+      "ashwagandha-glycemia",
+      "gymnema-glycemia",
+      "lemon-balm-glycemia",
+      "chamomile-glycemia",
+      "flavanol-glycemia",
+      "high-fiber-diet-glycemia"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_vs_warnings_fixed": 0,
@@ -143,7 +133,7 @@
       "짧은 걷기: 신규 move"
     ],
     "category_reclassifications": [],
-    "targeted_batch_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 1,
     "build_errors_fixed": 0,
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 6,
@@ -151,7 +141,7 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1577",
+    "next_official_deployment_check": "after batch 1578",
     "topics": [
       "black-rice-glycemia",
       "sourdough-bread-glycemia",
@@ -186,8 +176,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1577",
-    "worklist_line": "new-expansion-candidates-batch1577",
+    "next_batch": "1578",
+    "worklist_line": "new-expansion-candidates-batch1578",
     "topic": null,
     "unchecked": 0
   }
