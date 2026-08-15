@@ -1,29 +1,43 @@
 {
   "id": "stretching-exercise-cerebral-palsy-null",
   "subj": "스트레칭 운동",
-  "claim": "뇌성마비에 스트레칭 운동을 적용한다",
+  "claim": "뇌성마비 아동의 8주 수동 스트레칭은 근육·관절 기능을 개선하지 않았다",
   "line": "스트레칭과 저항운동은 뇌성마비의 관절가동범위와 근력을 개선하지 못했습니다",
-  "effect": "관절가동범위·근력 유의한 개선 없음",
+  "effect": "두 스트레칭군 모두 군 간 차이 없음, p>0.05",
   "tier": "trial",
   "dir": "null",
-  "n": 37,
+  "n": 24,
   "synth": "single",
   "known": "off",
   "knownWhy": "운동 재활이며 허가 의약품 적응증이 아닙니다.",
   "why": "경직성 양측 뇌성마비 아동 37명을 스트레칭·점진적 저항운동군과 비교군에 무작위 배정했습니다.",
-  "saw": "16주 중재와 16주 유지 기간 뒤 무릎 뒤각과 대퇴사두근·햄스트링 근력의 개선은 유의하지 않았습니다.",
-  "limit": "스트레칭과 저항운동을 함께 시행했고 표본이 작아 스트레칭 단독 효과를 알 수 없습니다.",
+  "saw": "경직성 뇌성마비 아동 24명을 정적 스트레칭군과 고유수용성 신경근 촉진 스트레칭군에 무작위 배정했습니다. 8주 뒤 발목 관절 기능, 근육-힘줄 특성, 등척성 근력은 두 군 모두 유의하게 변하지 않았고 군 간 차이도 없었습니다(p>0.05).",
+  "limit": "정적 스트레칭과 고유수용성 신경근 촉진 스트레칭을 비교한 소규모 시험이며 다른 운동과 병용한 효과는 평가하지 않았습니다.",
   "against": "체계적 문헌고찰도 뇌성마비 아동의 스트레칭 효과가 일관되지 않는다고 정리했습니다.",
   "use": "뇌성마비의 기능 개선을 스트레칭만으로 설명하지 않습니다.",
   "refs": [
-    { "label": "뇌성마비 아동 스트레칭·저항운동 무작위시험", "doi": "10.1097/PEP.0000000000000616", "pmid": "31220010" },
-    { "label": "뇌성마비 스트레칭 효과 체계적 문헌고찰", "doi": "10.7759/cureus.43846", "pmid": "37736433", "pmc": "PMC10510427" }
+    {
+      "label": "뇌성마비 아동 스트레칭·저항운동 무작위시험",
+      "doi": "10.1097/PEP.0000000000000616",
+      "pmid": "31220010"
+    },
+    {
+      "label": "뇌성마비 스트레칭 효과 체계적 문헌고찰",
+      "doi": "10.7759/cureus.43846",
+      "pmid": "37736433",
+      "pmc": "PMC10510427"
+    },
+    {
+      "label": "뇌성마비 아동 스트레칭 비교 무작위시험",
+      "pmid": "37329655"
+    }
   ],
   "queried": {
-    "date": "2026-08-07",
+    "date": "2026-08-15",
     "ctgov": "intr=stretching exercise AND cond=Cerebral Palsy · 221건 반환, intervention 직접 대조 1건",
-    "pubmed": "stretching exercise AND Cerebral Palsy · 127건; trial·review 55건",
+    "pubmed": "stretching exercise AND Cerebral Palsy · 127건; trial·review 55건; PubMed abstract verified 2026-08-15; PMID 37329655; PubMed abstract verified 2026-08-15; PMID 37329655",
     "negative": "stretching exercise AND Cerebral Palsy AND (no effect OR did not OR failed OR negative OR no significant difference) · 85건",
     "safety": "stretching exercise AND (adverse OR toxicity OR case report OR harm OR dropout) · 784건"
-  }
+  },
+  "vs": "고유수용성 신경근 촉진 스트레칭 n=12 vs 정적 스트레칭 n=12: 발목 기능·근육-힘줄 특성·근력 군 간 차이 없음, p>0.05."
 }

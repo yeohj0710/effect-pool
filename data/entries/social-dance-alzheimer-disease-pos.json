@@ -1,33 +1,38 @@
 {
- "id": "social-dance-alzheimer-disease-pos",
- "subj": "사교춤",
- "claim": "알츠하이머병 위험 노인의 사교춤이 일부 실행기능과 뇌 위축 지표를 개선할 수 있다",
- "line": "사교춤은 일부 실행기능을 개선했지만 전반적인 군 간 차이는 없었습니다",
- "effect": "실행기능 일부·해마 위축 신호",
- "tier": "trial",
- "dir": "pos",
- "n": 25,
- "synth": "single",
- "known": "off",
- "knownWhy": "사회적 춤은 허가 적응증이 없는 비약물 중재다",
- "why": "알츠하이머병 위험이 있는 기억저하 노인에게 6개월 사교춤을 트레드밀 걷기와 비교했다",
- "saw": "무작위 배정 25명 중 16명이 완료했으며 두 군 모두 실행기능 종합점수가 좋아졌고 사교춤군에서 숫자기호대치 개선과 해마 위축 감소 신호가 나타났다",
- "limit": "COVID-19로 조기 종료된 소규모 예비시험이며 실행기능 종합점수의 군 간 차이는 없었다",
- "against": "사교춤이 트레드밀보다 전반적 실행기능에 우월하다는 결론은 아니다",
- "use": "알츠하이머병 위험군의 사회적 춤에서 특정 인지 지표의 탐색적 신호를 기록하는 데 쓴다",
- "refs": [
-  {
-   "label": "알츠하이머병 위험 노인 사교춤 무작위시험",
-   "doi": "10.1123/japa.2022-0176",
-   "pmid": "36516851",
-   "nct": "NCT03475316"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=social dance · cond=Alzheimer Disease 3건, 일치 3건",
-  "pubmed": "social dance AND Alzheimer Disease 38건",
-  "negative": "social dance AND Alzheimer Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 24건",
-  "safety": "social dance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 120건"
- }
+  "id": "social-dance-alzheimer-disease-pos",
+  "subj": "사교춤",
+  "claim": "경도인지장애·치매의 춤 중재가 우울 증상을 줄였다",
+  "line": "사교춤은 일부 실행기능을 개선했지만 전반적인 군 간 차이는 없었습니다",
+  "effect": "우울 SMD −0.42, 95% CI −0.60~−0.23",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "사회적 춤은 허가 적응증이 없는 비약물 중재다",
+  "why": "알츠하이머병 위험이 있는 기억저하 노인에게 6개월 사교춤을 트레드밀 걷기와 비교했다",
+  "saw": "경도인지장애·치매 춤 중재 무작위시험 5편 메타분석에서 대조군보다 우울 증상이 낮았습니다(SMD −0.42, 95% CI −0.60~−0.23, p<0.0001; Cohen d=0.3669).",
+  "limit": "알츠하이머병만 분리한 분석이 아니며 포함된 시험의 표본과 춤 중재가 서로 달랐습니다.",
+  "against": "사교춤이 트레드밀보다 전반적 실행기능에 우월하다는 결론은 아니다",
+  "use": "알츠하이머병 위험군의 사회적 춤에서 특정 인지 지표의 탐색적 신호를 기록하는 데 쓴다",
+  "refs": [
+    {
+      "label": "알츠하이머병 위험 노인 사교춤 무작위시험",
+      "doi": "10.1123/japa.2022-0176",
+      "pmid": "36516851",
+      "nct": "NCT03475316"
+    },
+    {
+      "label": "경도인지장애·치매 춤 중재 우울 메타분석",
+      "pmid": "35069306"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=social dance · cond=Alzheimer Disease 3건, 일치 3건",
+    "pubmed": "social dance AND Alzheimer Disease 38건; PubMed abstract verified 2026-08-15; PMID 35069306; PubMed abstract verified 2026-08-15; PMID 35069306",
+    "negative": "social dance AND Alzheimer Disease AND (no effect OR did not OR failed OR negative OR no significant difference) 24건",
+    "safety": "social dance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 120건"
+  },
+  "vs": "춤 중재 vs 무중재·통상 돌봄·대기목록: 우울 SMD −0.42, 95% CI −0.60~−0.23, p<0.0001."
 }

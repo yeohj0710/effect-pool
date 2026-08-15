@@ -1,28 +1,37 @@
 {
   "id": "speech-therapy-stroke-pos",
   "subj": "언어치료",
-  "claim": "뇌졸중 후 말더듬·구음장애에 언어치료를 사용하는가",
+  "claim": "뇌졸중 후 구음장애의 스마트폰 언어치료는 워크북 치료보다 열등하지 않았다",
   "line": "뇌졸중 후 구음장애에서 언어치료는 발성 지표를 개선했습니다",
   "tier": "trial",
   "dir": "pos",
-  "n": null,
-  "synth": "meta",
+  "n": 73,
+  "synth": "single",
   "known": "off",
   "knownWhy": "언어치료는 뇌졸중 후 구음장애의 의약품 허가 치료가 아닌 재활중재다.",
   "why": "뇌졸중 뒤 구음장애 환자의 말소리와 발화 명료도가 언어치료로 좋아지는지 본다.",
-  "saw": "37개 연구를 포함한 고찰에서 언어치료 뒤 교대운동률과 최대 발성 시간이 유의하게 좋아졌다.",
-  "limit": "구음장애 측정법과 언어치료 방식이 연구마다 달랐고 참가자 총수는 고찰 초록에 제시되지 않았다.",
+  "saw": "뇌졸중 후 구음장애 성인 73명을 스마트폰 언어치료군 38명과 워크북 치료군 35명에 무작위 배정했습니다. 말 명료도는 앱군 80.48에서 92.08, 대조군 80.94에서 88.11로 변했고 조정 군 간 차이는 4.49(95% CI 0.61~8.37)였습니다.",
+  "limit": "인지 기능이 보존되고 스마트폰을 사용할 수 있는 구음장애 환자만 포함했으며, 4주 중재의 장기 효과는 확인하지 않았습니다.",
   "against": "모든 뇌졸중 언어장애나 일상 의사소통 결과에 대한 효과는 이 분석에서 확정하지 않았다.",
   "use": "뇌졸중 재활팀에서 구음장애 유형과 발성·말소리 지표를 평가하며 적용한다.",
-  "effect": "발성 지표 개선",
+  "effect": "말 명료도 군 간 차이 4.49, 95% CI 0.61~8.37",
   "refs": [
-    { "label": "뇌졸중 구음장애 언어재활 체계적 문헌고찰·메타분석", "doi": "10.23736/S1973-9087.20.06242-5", "pmid": "32519528" }
+    {
+      "label": "뇌졸중 구음장애 언어재활 체계적 문헌고찰·메타분석",
+      "doi": "10.23736/S1973-9087.20.06242-5",
+      "pmid": "32519528"
+    },
+    {
+      "label": "뇌졸중 후 구음장애 디지털 언어치료 무작위시험",
+      "pmid": "42149971"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "intr=speech therapy · cond=Stroke · 252건",
-    "pubmed": "speech therapy AND Stroke · 949편",
+    "pubmed": "speech therapy AND Stroke · 949편; PubMed abstract verified 2026-08-15; PMID 42149971; PubMed abstract verified 2026-08-15; PMID 42149971",
     "negative": "speech therapy AND Stroke AND (no effect OR did not OR failed OR negative OR no significant difference) · 138편",
     "safety": "speech therapy AND (adverse OR toxicity OR harm OR case report) · 740편"
-  }
+  },
+  "vs": "스마트폰 언어치료 n=38 vs 워크북 치료 n=35: 말 명료도 조정 차이 4.49, 95% CI 0.61~8.37; 비열등성 기준 −19를 충족."
 }

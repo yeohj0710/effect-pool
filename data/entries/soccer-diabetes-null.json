@@ -1,18 +1,18 @@
 {
   "id": "soccer-diabetes-null",
   "subj": "축구",
-  "claim": "당뇨병 예방을 위한 통제된 축구훈련 17개 중재 연구 검토에서 체지방과 유산소 체력 외 당뇨병 관련 효과를 결론낼 근거가 부족했다.",
+  "claim": "소규모 축구훈련은 혈당·HbA1c를 바꾸지 않았다",
   "line": "축구훈련은 체지방과 유산소 체력 외 당뇨병 예방 효과가 확정되지 않았다.",
-  "effect": "당뇨병 결과 결론 불충분",
+  "effect": "혈당·HbA1c 변화 없음",
   "tier": "trial",
   "dir": "null",
-  "n": null,
-  "synth": "meta",
+  "n": 39,
+  "synth": "single",
   "known": "off",
   "knownWhy": "축구훈련은 당뇨병 예방의 허가 적응증이 아닌 비약물 중재다.",
   "why": "통제된 축구훈련이 당뇨병과 대사 건강을 예방적으로 개선하는지 중재 연구를 확인한다.",
-  "saw": "체계적 검토는 건강한 아동·청소년·성인의 무작위 14개와 비무작위 3개 축구훈련 연구를 포함했다.",
-  "limit": "연구별 표본이 작고 비뚤림 위험이 커 당뇨병 관련 결과의 통계적 신뢰도가 낮았다.",
+  "saw": "습관적으로 활동하는 남성 39명을 소규모 거리축구군, 잔디축구군, 비활동 대조군에 배정해 12주 훈련했습니다. 체중·혈압·공복혈당·HbA1c·인슐린·지질에는 유의한 변화가 없었습니다.",
+  "limit": "건강하고 활동적인 젊은 남성 39명의 12주 연구라 당뇨병 환자의 예방·치료 효과를 판단할 수 없습니다.",
   "against": "검토에서 일관된 효과는 단기 체지방 감소와 유산소 체력 향상에 국한됐고 당뇨병 결과는 결론내리지 못했다.",
   "use": "축구훈련의 당뇨병 예방 주장이 아직 확정되지 않았다는 근거로 사용한다.",
   "refs": [
@@ -20,13 +20,18 @@
       "label": "축구훈련 건강증진 전략 체계적 검토",
       "doi": "10.3238/arztebl.2019.0721",
       "pmid": "31755406"
+    },
+    {
+      "label": "12주 소규모 축구훈련 혈당·HbA1c 무작위시험",
+      "pmid": "37714931"
     }
   ],
   "queried": {
-    "date": "2026-08-11",
+    "date": "2026-08-15",
     "ctgov": "soccer AND Diabetes · 8건",
-    "pubmed": "soccer AND Diabetes[Title/Abstract] · 66편",
+    "pubmed": "soccer AND Diabetes[Title/Abstract] · 66편; PubMed abstract verified 2026-08-15; PMID 37714931; PubMed abstract verified 2026-08-15; PMID 37714931",
     "negative": "soccer AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference) · 37편",
     "safety": "soccer AND Diabetes AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 13편"
-  }
+  },
+  "vs": "거리축구·잔디축구 vs 비활동 대조군: 12주 뒤 공복혈당, HbA1c, 인슐린, 지질에 변화 없음."
 }

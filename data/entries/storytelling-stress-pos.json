@@ -1,37 +1,42 @@
 {
- "id": "storytelling-stress-pos",
- "subj": "스토리텔링",
- "claim": "외상 스트레스가 있는 청소년에게 스토리텔링·스토리연기를 한다",
- "line": "스토리텔링과 스토리연기는 청소년의 외상 스트레스를 줄였지만 대조군은 없었습니다",
- "effect": "CPSS 외상 스트레스 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 109,
- "synth": "single",
- "known": "off",
- "knownWhy": "약물이 아닌 집단 심리 중재이며 외상 스트레스에는 허가 적응증을 적용하지 않습니다",
- "why": "도시 중학교 8학년 학생 109명을 스토리텔링·스토리연기군과 정신화 기반 집단군으로 무작위 배정했습니다.",
- "saw": "두 집단 모두 8개월 중재 뒤 애착 안정성이 높아지고 아동 PTSD 스트레스 척도 증상이 감소했습니다.",
- "limit": "무처치 대조군이 없고 스토리텔링과 다른 심리 집단 중재를 비교했으며, 학교 기반 청소년에 한정된 연구입니다.",
- "against": "두 중재 사이에 어떤 방법이 더 우월한지는 확인되지 않았습니다.",
- "use": "학교·지역사회 외상 지원의 보조 집단 프로그램으로 검토하되 전문 치료를 대체하지 않습니다.",
- "refs": [
-  {
-   "label": "storytelling story-acting and trauma symptoms randomized group interventions adolescents",
-   "doi": "10.3390/ijerph20105789",
-   "pmid": "37239519"
+  "id": "storytelling-stress-pos",
+  "subj": "스토리텔링",
+  "claim": "GLP-1 수용체 작용제 사용자의 스트레스 관리 행동 기대를 짧은 스토리텔링 영상이 높였다",
+  "line": "스토리텔링과 스토리연기는 청소년의 외상 스트레스를 줄였지만 대조군은 없었습니다",
+  "effect": "스트레스 대처 기대 표준화 효과 0.57 vs 0.50",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 5054,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "약물이 아닌 집단 심리 중재이며 외상 스트레스에는 허가 적응증을 적용하지 않습니다",
+  "why": "도시 중학교 8학년 학생 109명을 스토리텔링·스토리연기군과 정신화 기반 집단군으로 무작위 배정했습니다.",
+  "saw": "GLP-1 수용체 작용제를 사용하는 성인 5,054명을 스토리텔링 영상, 설명식 영상, 무중재 대조군에 무작위 배정했습니다. 즉시 스트레스 때 호흡하기 기대 효과는 스토리텔링군 0.57(95% CI 0.52~0.62), 설명식군 0.50(95% CI 0.44~0.55)였고, 2주 뒤 단 음료 섭취도 대조군보다 줄었습니다(−0.10, 95% CI −0.16~−0.03).",
+  "limit": "행동 기대와 2주 자기보고 행동을 평가한 단회 온라인 시험이며 실제 스트레스 장애 치료 효과는 확인하지 않았습니다.",
+  "against": "두 중재 사이에 어떤 방법이 더 우월한지는 확인되지 않았습니다.",
+  "use": "학교·지역사회 외상 지원의 보조 집단 프로그램으로 검토하되 전문 치료를 대체하지 않습니다.",
+  "refs": [
+    {
+      "label": "storytelling story-acting and trauma symptoms randomized group interventions adolescents",
+      "doi": "10.3390/ijerph20105789",
+      "pmid": "37239519"
+    },
+    {
+      "label": "storytelling intervention cancer pilot stress outcomes",
+      "doi": "10.1188/08.ONF.265-272",
+      "pmid": "18321839"
+    },
+    {
+      "label": "GLP-1 사용자 디지털 스토리텔링 스트레스 행동 무작위시험",
+      "pmid": "41801203"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "storytelling AND Stress · 25건 중 11건 직접 확인",
+    "pubmed": "storytelling AND Stress AND (randomized OR trial OR meta-analysis) · 38건; PubMed abstract verified 2026-08-15; PMID 41801203; PubMed abstract verified 2026-08-15; PMID 41801203",
+    "negative": "storytelling AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 92건",
+    "safety": "storytelling AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 113건"
   },
-  {
-   "label": "storytelling intervention cancer pilot stress outcomes",
-   "doi": "10.1188/08.ONF.265-272",
-   "pmid": "18321839"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "storytelling AND Stress · 25건 중 11건 직접 확인",
-  "pubmed": "storytelling AND Stress AND (randomized OR trial OR meta-analysis) · 38건",
-  "negative": "storytelling AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 92건",
-  "safety": "storytelling AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 113건"
- }
+  "vs": "스토리텔링 영상 vs 설명식 영상·무중재: 스트레스 때 호흡하기 기대 표준화 효과 0.57(95% CI 0.52~0.62) vs 0.50(0.44~0.55); 2주 단 음료 변화 −0.10(−0.16~−0.03)."
 }

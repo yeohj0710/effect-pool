@@ -1,32 +1,37 @@
 {
- "id": "soy-food-consumption-overweight-open",
- "subj": "콩 식품 섭취",
- "claim": "콩 단백질 음료를 과체중·비만 청소년의 대사 지표에 쓴다",
- "line": "콩 음료는 과체중 청소년의 대사 지표를 개선했지만 근거는 제한적입니다",
- "effect": "콩군 지질 −10.4%·−17.1%",
- "tier": "trial",
- "dir": "pos",
- "n": 30,
- "synth": "single",
- "known": "off",
- "knownWhy": "콩 음료는 과체중 치료의 허가 적응증이 있는 의약품이 아닌 식품이다",
- "why": "과체중 또는 비만인 멕시코 남자 청소년에게 콩 또는 루핀 단백질 음료를 5주 제공한 무작위 이중눈가림 임상시험이다.",
- "saw": "12~16세 남자 청소년 30명이 하루 콩 또는 루핀 단백질 10g 음료를 5주 마셨다. 두 군에서 공복혈당과 C-펩타이드가 감소하고 HOMA2 인슐린 감수성이 좋아졌다. 콩군에서는 총콜레스테롤이 10.4%, 중성지방이 17.1% 감소했다.",
- "limit": "표본이 30명인 5주 시험이고 남자 청소년만 포함했으며 체중 변화나 장기 임상 결과를 확인하지 않았다.",
- "against": "이 결과만으로 콩 음료가 체중을 줄이거나 소아 비만을 치료한다고 말할 수 없다.",
- "use": "과체중 청소년의 식사 상담에서 콩 단백질 식품의 단기 대사 신호를 설명하는 예비 근거로 사용하고, 체중 치료와 혼동하지 않는다.",
- "refs": [
-  {
-   "label": "Functional Soy and Lupin Protein-Based Beverages Modulate Gut Microbiome and Attenuate Metabolic Dysregulation in Adolescent Boys with Overweight and Obesity",
-   "doi": "10.3390/nu18132049",
-   "pmid": "42451052"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "soy food consumption AND Overweight · 등록시험 3건",
-  "pubmed": "soy food consumption AND Overweight · 97건; PMID42451052 직접 결과 확인",
-  "negative": "soy food consumption AND Overweight AND (no effect OR did not OR failed OR no significant difference) · 3726건",
-  "safety": "soy food consumption AND (adverse OR toxicity OR case report OR harm OR safety) · 30132건"
- }
+  "id": "soy-food-consumption-overweight-open",
+  "subj": "콩 식품 섭취",
+  "claim": "과체중·고혈압 전단계 여성의 콩 식품 섭취는 체중과 체지방을 줄이지 못했다",
+  "line": "콩 음료는 과체중 청소년의 대사 지표를 개선했지만 근거는 제한적입니다",
+  "effect": "체중·BMI·허리둘레·체지방 변화 없음",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 270,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "콩 음료는 과체중 치료의 허가 적응증이 있는 의약품이 아닌 식품이다",
+  "why": "과체중 또는 비만인 멕시코 남자 청소년에게 콩 또는 루핀 단백질 음료를 5주 제공한 무작위 이중눈가림 임상시험이다.",
+  "saw": "고혈압 전단계 과체중 여성 270명을 전통 콩, 콩 단백질, 위약군에 배정했고 253명이 완료했습니다. 6개월 뒤 콩군과 위약군 사이 체중, BMI, 허리둘레, 체지방에 유의한 차이가 없었습니다.",
+  "limit": "고혈압 전단계 여성의 6개월 식이시험이며 일반적인 과체중·비만 성인의 장기 체중 결과로 확대할 수 없습니다.",
+  "against": "이 결과만으로 콩 음료가 체중을 줄이거나 소아 비만을 치료한다고 말할 수 없다.",
+  "use": "과체중 청소년의 식사 상담에서 콩 단백질 식품의 단기 대사 신호를 설명하는 예비 근거로 사용하고, 체중 치료와 혼동하지 않는다.",
+  "refs": [
+    {
+      "label": "Functional Soy and Lupin Protein-Based Beverages Modulate Gut Microbiome and Attenuate Metabolic Dysregulation in Adolescent Boys with Overweight and Obesity",
+      "doi": "10.3390/nu18132049",
+      "pmid": "42451052"
+    },
+    {
+      "label": "과체중·고혈압 전단계 여성 콩 식품 무작위시험",
+      "pmid": "23984051"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "soy food consumption AND Overweight · 등록시험 3건",
+    "pubmed": "soy food consumption AND Overweight · 97건; PMID42451052 직접 결과 확인; PubMed abstract verified 2026-08-15; PMID 23984051; PubMed abstract verified 2026-08-15; PMID 23984051",
+    "negative": "soy food consumption AND Overweight AND (no effect OR did not OR failed OR no significant difference) · 3726건",
+    "safety": "soy food consumption AND (adverse OR toxicity OR case report OR harm OR safety) · 30132건"
+  },
+  "vs": "전통 콩·콩 단백질군 vs 위약군: 6개월 체중, BMI, 허리둘레, 체지방에 유의한 차이 없음; 분석 완료 n=253."
 }

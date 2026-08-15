@@ -1,28 +1,38 @@
 {
   "id": "storytelling-intervention-hiv-pos",
   "subj": "디지털 스토리텔링",
-  "claim": "청소년의 HIV 위험 인식과 지식을 디지털 스토리텔링으로 높인다",
+  "claim": "청소년·청년의 HIV·성매개감염 검사와 의사소통을 디지털 스토리텔링으로 높였다",
   "line": "디지털 스토리텔링은 청소년의 HIV 인식과 지식을 높였지만 행동은 측정하지 않았습니다",
-  "effect": "HIV 위험 인식·지식 증가",
+  "effect": "6개월 HIV 검사 52% vs 12%·효과크기 h=0.95",
   "tier": "trial",
   "dir": "pos",
-  "n": 98,
+  "n": 100,
   "synth": "single",
   "known": "off",
   "knownWhy": "보건교육이며 허가 의약품 적응증이 아닙니다.",
   "why": "나이지리아 대학생 청소년 98명을 교육용 디지털 스토리텔링군과 무처치 대조군에 무작위 배정했습니다.",
-  "saw": "교육용 디지털 스토리텔링군에서 HIV 감염 위험 인식과 HIV 지식이 대조군보다 높아졌습니다.",
-  "limit": "위험 인식과 지식 결과이며 실제 검사·예방행동이나 감염률을 평가하지 않았습니다.",
+  "saw": "청소년·청년 100명을 Storytelling 4 Empowerment군과 통상 돌봄군에 무작위 배정했습니다. 6개월 HIV 검사는 52% 대 12%(h=0.95), 성매개감염 검사는 52% 대 20.4%(h=0.74)였고 6개월 임상가-청년 의사소통 효과는 Cohen d=1.19였습니다.",
+  "limit": "파일럿 시험이며 HIV 감염 예방이 아니라 검사·위험행동·의사소통을 평가했습니다.",
   "against": "교육 결과가 실제 HIV 예방행동으로 이어지는지는 확인되지 않았습니다.",
   "use": "HIV 예방교육의 보조 도구로 평가하고 치료나 예방약을 대신하지 않습니다.",
   "refs": [
-    { "label": "청소년 HIV 위험 인식 디지털 스토리텔링 무작위시험", "doi": "10.1177/0300060519854635", "pmid": "31208259", "pmc": "PMC7140211" }
+    {
+      "label": "청소년 HIV 위험 인식 디지털 스토리텔링 무작위시험",
+      "doi": "10.1177/0300060519854635",
+      "pmid": "31208259",
+      "pmc": "PMC7140211"
+    },
+    {
+      "label": "청소년 HIV·성매개감염 Storytelling 4 Empowerment 무작위시험",
+      "pmid": "40699171"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "intr=storytelling intervention AND cond=HIV · 8건",
-    "pubmed": "storytelling intervention AND HIV · 76건; trial 24건",
+    "pubmed": "storytelling intervention AND HIV · 76건; trial 24건; PubMed abstract verified 2026-08-15; PMID 40699171; PubMed abstract verified 2026-08-15; PMID 40699171",
     "negative": "storytelling intervention AND HIV AND (no effect OR did not OR failed OR negative OR no significant difference) · 3건",
     "safety": "storytelling intervention AND (adverse OR toxicity OR case report OR harm OR dropout) · 106건"
-  }
+  },
+  "vs": "디지털 스토리텔링 vs 통상 돌봄: 6개월 HIV 검사 52% vs 12%, h=0.95; 성매개감염 검사 52% vs 20.4%, h=0.74."
 }

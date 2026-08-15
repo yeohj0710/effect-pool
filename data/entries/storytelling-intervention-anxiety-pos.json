@@ -1,28 +1,38 @@
 {
   "id": "storytelling-intervention-anxiety-pos",
   "subj": "디지털 스토리텔링",
-  "claim": "입원 아동의 불안에 스토리텔링을 적용한다",
+  "claim": "구강 생검을 기다리는 환자에게 그래픽 스토리텔링이 불안을 줄였다",
   "line": "입원 아동에서 스토리텔링은 불안을 줄였습니다",
-  "effect": "불안 점수 감소",
+  "effect": "불안·우울·스트레스 p<0.05",
   "tier": "trial",
   "dir": "pos",
-  "n": 75,
+  "n": 50,
   "synth": "single",
   "known": "off",
   "knownWhy": "비약물 중재이며 허가 의약품 적응증이 아닙니다.",
   "why": "3~10세 입원 아동 75명을 스토리텔링·놀이치료·대조군 세 군에 배정한 무작위시험입니다.",
-  "saw": "스토리텔링군의 불안 점수가 대조군보다 유의하게 낮았고, 놀이치료보다 스토리텔링의 효과가 뚜렷했습니다.",
-  "limit": "단일 병원·단기 측정이며 중재자와 병동 환경의 영향을 분리하기 어렵습니다.",
+  "saw": "구강 종양 생검을 기다리는 50명을 그래픽 소설군 25명과 대조군 25명에 무작위 배정했습니다. 그래픽 스토리텔링군에서 불안·우울·스트레스 척도가 대조군보다 유의하게 개선됐습니다(p<0.05).",
+  "limit": "구강 생검 전 단회 중재이며 불안 측정 도구와 대기 상황이 특정 진료 환경에 한정됩니다.",
   "against": "연구마다 불안 척도와 스토리 내용이 달라 효과 크기의 일관성을 확인하기 어렵습니다.",
   "use": "입원 아동의 불안을 낮추는 보조적 돌봄으로 검토합니다.",
   "refs": [
-    { "label": "입원 아동 스토리텔링 무작위시험", "doi": "10.1186/s12906-025-04767-4", "pmid": "39856674", "pmc": "PMC11761729" }
+    {
+      "label": "입원 아동 스토리텔링 무작위시험",
+      "doi": "10.1186/s12906-025-04767-4",
+      "pmid": "39856674",
+      "pmc": "PMC11761729"
+    },
+    {
+      "label": "구강 종양 생검 대기 그래픽 스토리텔링 무작위시험",
+      "pmid": "37330956"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "intr=storytelling intervention AND cond=Anxiety · 27건",
-    "pubmed": "storytelling intervention AND Anxiety · 114건; trial 49건",
+    "pubmed": "storytelling intervention AND Anxiety · 114건; trial 49건; PubMed abstract verified 2026-08-15; PMID 37330956; PubMed abstract verified 2026-08-15; PMID 37330956",
     "negative": "storytelling intervention AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) · 30건",
     "safety": "storytelling intervention AND (adverse OR toxicity OR case report OR harm OR dropout) · 106건"
-  }
+  },
+  "vs": "그래픽 스토리텔링 n=25 vs 대조군 n=25: 생검 전 불안·우울·스트레스 척도 개선 p<0.05."
 }

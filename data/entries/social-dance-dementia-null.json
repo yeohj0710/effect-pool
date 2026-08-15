@@ -1,32 +1,37 @@
 {
- "id": "social-dance-dementia-null",
- "subj": "사교춤",
- "claim": "치매·경도인지장애에서 춤은 다른 운동보다 전반적으로 우월하지 않았지만 일부 인지 지표에서 유망했다",
- "line": "치매·경도인지장애에서 춤은 다른 운동보다 전반적 효과가 크지 않았습니다",
- "effect": "전반적 우월성 없음·일부 인지 신호",
- "tier": "trial",
- "dir": "null",
- "n": 3773,
- "synth": "meta",
- "known": "off",
- "knownWhy": "사회적 춤은 허가 적응증이 없는 비약물 중재다",
- "why": "경도인지장애 또는 치매 환자에게 리듬, 움직임, 사회적 상호작용을 포함한 춤 중재를 적용했다",
- "saw": "춤은 다른 운동보다 모든 결과에서 우월하지 않았고 일부 인지 순위 상승은 단일 연구에 의존했지만 전반적으로 경쟁력 있는 선택지였다",
- "limit": "연구 간 중재가 달랐고 일부 순위 결과의 근거가 희소했다",
- "against": "춤이 다른 운동보다 인지기능을 더 개선한다고 단정할 수 없다",
- "use": "치매 비약물 중재에서 춤의 가능성과 불확실성을 함께 기록하는 데 쓴다",
- "refs": [
-  {
-   "label": "경도인지장애·치매 운동 네트워크 메타분석",
-   "doi": "10.3389/fphys.2026.1782774",
-   "pmid": "41958523"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=social dance · cond=Dementia 4건, 일치 4건",
-  "pubmed": "social dance AND Dementia 112건",
-  "negative": "social dance AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) 60건",
-  "safety": "social dance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 120건"
- }
+  "id": "social-dance-dementia-null",
+  "subj": "사교춤",
+  "claim": "치매의 무용동작치료는 인지·행동 결과에서 일관된 우월성을 보이지 않았다",
+  "line": "치매·경도인지장애에서 춤은 다른 운동보다 전반적 효과가 크지 않았습니다",
+  "effect": "대기목록 대비 우울 MD −0.60",
+  "tier": "trial",
+  "dir": "null",
+  "n": 204,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "사회적 춤은 허가 적응증이 없는 비약물 중재다",
+  "why": "경도인지장애 또는 치매 환자에게 리듬, 움직임, 사회적 상호작용을 포함한 춤 중재를 적용했다",
+  "saw": "치매 무용동작치료 Cochrane 검토는 무작위시험 1편, 204명을 포함했습니다. 무용동작치료와 대기목록의 신경정신 증상 차이는 MD 0.30(95% CI −0.96~1.56)으로 없었고, 우울은 대기목록 대비 MD −0.60(95% CI −0.96~−0.24)으로 낮았습니다.",
+  "limit": "무작위시험이 1편뿐이며 인지·신경정신 증상 전체에서 효과가 확인된 것은 아닙니다.",
+  "against": "춤이 다른 운동보다 인지기능을 더 개선한다고 단정할 수 없다",
+  "use": "치매 비약물 중재에서 춤의 가능성과 불확실성을 함께 기록하는 데 쓴다",
+  "refs": [
+    {
+      "label": "경도인지장애·치매 운동 네트워크 메타분석",
+      "doi": "10.3389/fphys.2026.1782774",
+      "pmid": "41958523"
+    },
+    {
+      "label": "치매 무용동작치료 Cochrane 검토",
+      "pmid": "37549216"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=social dance · cond=Dementia 4건, 일치 4건",
+    "pubmed": "social dance AND Dementia 112건; PubMed abstract verified 2026-08-15; PMID 37549216; PubMed abstract verified 2026-08-15; PMID 37549216",
+    "negative": "social dance AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) 60건",
+    "safety": "social dance AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 120건"
+  },
+  "vs": "무용동작치료 n=204 vs 대기목록: 신경정신 증상 MD 0.30, 95% CI −0.96~1.56; 우울 MD −0.60, 95% CI −0.96~−0.24."
 }

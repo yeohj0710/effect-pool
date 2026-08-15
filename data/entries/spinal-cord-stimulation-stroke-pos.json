@@ -1,32 +1,37 @@
 {
- "id": "spinal-cord-stimulation-stroke-pos",
- "subj": "척수자극",
- "claim": "척수자극을 뇌졸중 후 보행장애에 쓴다",
- "line": "척수자극은 뇌졸중 보행·균형을 개선했지만 자극법별 효과는 미확정입니다",
- "effect": "보행·균형 회복 신호",
- "tier": "trial",
- "dir": "pos",
- "n": 657,
- "synth": "meta",
- "known": "off",
- "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
- "why": "뇌졸중 보행·균형 회복을 평가한 비침습 척수자극 포함 메타분석을 확인했습니다",
- "saw": "25개 연구 657명에서 비침습 뇌·척수 자극이 보행과 균형 회복을 도왔지만 연구별 효과가 이질적이었습니다",
- "limit": "분석에는 경두개 자극과 경척수 자극이 함께 포함되어 침습적 SCS 효과를 분리할 수 없습니다",
- "against": "가짜자극 또는 일반 재활",
- "use": "뇌졸중 후 보행 재활에서 비침습 척수자극을 탐색하는 근거로만 봅니다",
- "refs": [
-  {
-   "label": "Non-invasive brain stimulation for improving gait, balance, and lower limbs motor function in stroke",
-   "doi": "10.1186/s12984-022-01062-y",
-   "pmid": "35922846"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=spinal cord stimulation · cond=Stroke: 8건",
-  "pubmed": "spinal cord stimulation AND Stroke AND (randomized OR trial OR meta-analysis): 215건",
-  "negative": "spinal cord stimulation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 476건",
-  "safety": "spinal cord stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2843건"
- }
+  "id": "spinal-cord-stimulation-stroke-pos",
+  "subj": "척수자극",
+  "claim": "만성 뇌졸중의 경피적 척수자극이 인지와 상지 운동을 개선했다",
+  "line": "척수자극은 뇌졸중 보행·균형을 개선했지만 자극법별 효과는 미확정입니다",
+  "effect": "MoCA +1.77·FMAUE +2.10",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 90,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+  "why": "뇌졸중 보행·균형 회복을 평가한 비침습 척수자극 포함 메타분석을 확인했습니다",
+  "saw": "만성 뇌졸중 환자 90명을 경피적 미주신경자극, 경피적 척수자극, 가짜 자극군에 무작위 배정했습니다. 척수자극군은 가짜 자극군보다 중재 후 MoCA가 1.77점, FMAUE가 2.10점 더 개선됐습니다(MoCA p<0.001, FMAUE p=0.007).",
+  "limit": "비침습 척수자극과 상지 운동을 함께 시행한 6주 시험이며 침습적 척수자극기의 효과를 평가한 연구는 아닙니다.",
+  "against": "가짜자극 또는 일반 재활",
+  "use": "뇌졸중 후 보행 재활에서 비침습 척수자극을 탐색하는 근거로만 봅니다",
+  "refs": [
+    {
+      "label": "Non-invasive brain stimulation for improving gait, balance, and lower limbs motor function in stroke",
+      "doi": "10.1186/s12984-022-01062-y",
+      "pmid": "35922846"
+    },
+    {
+      "label": "만성 뇌졸중 경피적 척수자극 무작위시험",
+      "pmid": "42287562"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=spinal cord stimulation · cond=Stroke: 8건",
+    "pubmed": "spinal cord stimulation AND Stroke AND (randomized OR trial OR meta-analysis): 215건; PubMed abstract verified 2026-08-15; PMID 42287562; PubMed abstract verified 2026-08-15; PMID 42287562",
+    "negative": "spinal cord stimulation AND Stroke AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 476건",
+    "safety": "spinal cord stimulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2843건"
+  },
+  "vs": "경피적 척수자극+운동 vs 가짜 자극+운동: MoCA 평균 차이 1.77, p<0.001; FMAUE 평균 차이 2.10, p=0.007."
 }

@@ -1,20 +1,37 @@
 {
   "id": "stretching-knee-valgus-pos",
   "subj": "스트레칭",
-  "claim": "스트레칭을 포함한 통합 운동이 청소년 축구선수의 무릎 외반각을 개선한다",
+  "claim": "슬개대퇴 통증에서 스트레칭은 통증·기능을 개선했지만 무릎 외반 감소 근거는 없었다",
   "line": "청소년 축구선수의 복합 운동 후 무릎 외반각과 점프 지표가 달라졌습니다",
-  "effect": "무릎 외반각·점프 지표 변화",
+  "effect": "스트레칭군 통증·기능 개선·외반 감소 없음",
   "tier": "trial",
   "dir": "pos",
-  "n": null,
+  "n": 40,
   "synth": "single",
   "known": "off",
   "knownWhy": "스트레칭은 약물이 아닌 운동 중재입니다",
   "why": "청소년 축구선수를 운동 프로그램과 일반 훈련에 나눈 무작위 비교시험입니다.",
-  "saw": "실험군은 8주 동안 스트레칭·근력·플라이오메트릭 운동을 추가했고 대조군은 평소 훈련을 이어갔습니다. 두 군 모두 점프 능력이 좋아졌고 무릎 외반각을 포함한 결과를 반복 측정했습니다.",
-  "limit": "초록에서 전체 참가자 수를 확인하지 못했고 스트레칭만의 효과가 아니라 복합 운동의 결과입니다.",
+  "saw": "슬개대퇴 통증 여성 40명을 고관절 운동, 대퇴사두근 운동, 스트레칭, 무중재군에 10명씩 무작위 배정했습니다. 8주 뒤 세 운동군 모두 통증과 기능이 좋아졌지만 동적 무릎 외반각을 줄인 군은 고관절·대퇴사두근 운동군이었고 스트레칭군에서는 확인되지 않았습니다.",
+  "limit": "슬개대퇴 통증 여성 대상 8주 시험이며 스트레칭은 복합 운동이 아니라 단독 비교군으로 시행됐습니다.",
   "against": "스트레칭 단독이 무릎 외반을 교정한다고 볼 수 없고 대조군도 점프 능력이 좋아졌습니다.",
   "use": "청소년 운동 프로그램의 복합 요소로 기록하고 스트레칭 단독 처방으로 확대하지 않습니다.",
-  "refs": [{ "label": "청소년 축구선수 통합 운동 무작위시험", "doi": "10.1186/s13102-025-01266-4", "pmid": "40721808" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=stretching · cond=Knee Valgus 7건 반환·intervention 일치 1건", "pubmed": "stretching AND Knee Valgus 10편", "negative": "stretching AND Knee Valgus AND (no effect OR did not OR failed OR negative OR no significant difference) 2편", "safety": "stretching AND (adverse OR toxicity OR case report OR overdose OR self-medication) 2121편" }
+  "refs": [
+    {
+      "label": "청소년 축구선수 통합 운동 무작위시험",
+      "doi": "10.1186/s13102-025-01266-4",
+      "pmid": "40721808"
+    },
+    {
+      "label": "슬개대퇴 통증 운동·스트레칭 무작위시험",
+      "pmid": "29661570"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=stretching · cond=Knee Valgus 7건 반환·intervention 일치 1건",
+    "pubmed": "stretching AND Knee Valgus 10편; PubMed abstract verified 2026-08-15; PMID 29661570; PubMed abstract verified 2026-08-15; PMID 29661570",
+    "negative": "stretching AND Knee Valgus AND (no effect OR did not OR failed OR negative OR no significant difference) 2편",
+    "safety": "stretching AND (adverse OR toxicity OR case report OR overdose OR self-medication) 2121편"
+  },
+  "vs": "스트레칭 n=10 vs 무중재 n=10: 통증·기능은 개선됐지만 동적 무릎 외반각 감소는 확인되지 않음; 외반 감소는 고관절·대퇴사두근군에서만 관찰."
 }
