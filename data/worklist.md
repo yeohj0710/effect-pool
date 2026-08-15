@@ -21572,3 +21572,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 빠른 걷기 — 조현병 중년 환자의 인지 기능에 쓰는가 — 항목 생성(brisk-walking-cognition-null) <!-- PubMed PMID 36276319 -->
 - [x] 수면 연장 — 과체중 성인의 에너지 섭취에 쓰는가 — 항목 생성(sleep-extension-obesity-pos) <!-- PubMed PMID 35129580; ClinicalTrials.gov NCT02253368 -->
 - [x] 웃음치료 — 우울증에 쓰는가 — 기존 항목 연결(laughter-therapy-depression-pos) <!-- PubMed PMID 32844575 -->
+- [ ] 히비스커스 — 고혈압 혈압 — hibiscus-hypertension-pos
+- [ ] 블랙시드 — 고혈압 혈압 — black-seed-hypertension-null
+- [ ] 계피 — 제2형 당뇨병 — cinnamon-diabetes-pos
+- [ ] 사프란 — 우울 증상 — saffron-depression-pos
+- [ ] 인삼 — 인지 기능 — ginseng-cognition-pos
+- [ ] 홍삼 — 류마티스 질환 피로 — red-ginseng-rheumatic-fatigue-null
+- [ ] 라벤더 — 불안 — lavender-anxiety-pos
+- [ ] 캐모마일 — 범불안장애 — chamomile-anxiety-pos
+- [ ] 발레리안 — 불면·수면 질 — valerian-insomnia-pos
+- [ ] 타트체리 — 수면 질 — tart-cherry-sleep-null
+- [ ] 타트체리 — 통풍 혈청요산 — tart-cherry-gout-pos
+- [ ] 비트 — 인지 기능 — beetroot-cognitive-function-pos
+- [ ] 비트 — 고혈압 혈압 — beetroot-hypertension-pos
+- [ ] 메밀 — 콜레스테롤 — buckwheat-cholesterol-pos
+- [ ] 흑임자 — 고혈압 혈압 — 근거 부족
+- [ ] 코코넛 오일 — 혈중 지질 — coconut-oil-cholesterol-null
+- [ ] 카놀라유 — LDL 콜레스테롤 — 근거 부족
+- [ ] 아보카도 — 인슐린 저항성 — avocado-insulin-null
+- [ ] 케피어 — 대사증후군 — 근거 부족
+- [ ] 발효유 — 고혈압 혈압 — fermented-milk-hypertension-pos
+- [ ] 사과식초 — 제2형 당뇨병 — apple-cider-vinegar-diabetes-pos
+- [ ] 엘더베리 — 감기 기간·증상 — elderberry-respiratory-infection-pos
+- [ ] 크랜베리 — 재발성 요로감염 — cranberry-recurrent-uti-pos
+- [ ] 프로바이오틱스 — 변비형 과민성장증후군 — probiotic-ibs-constipation-pos
+- [ ] 이노시톨 — 다낭성난소증후군 — inositol-pcos-pos
+- [ ] L-카르니틴 — 운동 후 회복 — l-carnitine-exercise-recovery-pos
+- [ ] 타우린 — 고혈압 전단계 — taurine-blood-pressure-pos
+- [ ] L-테아닌 — 스트레스·불안 — l-theanine-anxiety-pos
+- [ ] S-아데노실메티오닌 — 주요우울장애 — same-depression-null
+- [ ] MSM — 무릎 골관절염 — msm-osteoarthritis-pos
