@@ -2,9 +2,9 @@
   "updated": "2026-08-16",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6864,
-  "subjects": 2318,
-  "refs": 9936,
+  "entries": 6866,
+  "subjects": 2319,
+  "refs": 9938,
   "kinds": {
     "supp": 685,
     "rx": 2629,
@@ -12,10 +12,10 @@
     "otc": 170,
     "care": 743,
     "move": 677,
-    "food": 725
+    "food": 727
   },
   "tiers": {
-    "trial": 6038,
+    "trial": 6040,
     "obs": 731,
     "animal": 31,
     "lab": 17,
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 177,
-    "null": 1371,
+    "null": 1372,
     "open": 1054,
-    "pos": 4262
+    "pos": 4263
   },
   "worklist": {
     "total": 16778,
     "checked": 16778,
     "unchecked": 0,
-    "no_evidence_pending": 2247,
-    "note": "Worklist 16778/16778 checked. Batch 1579 processed 20 fresh non-prescription candidates; 4 new entries were recorded and 16 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1580."
+    "no_evidence_pending": 2255,
+    "note": "Worklist 16788/16788 checked. Batch 1580 processed 10 fresh non-prescription candidates; 2 new entries were recorded and 8 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1581."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1579 processed 20 fresh non-prescription candidates; 4 new entries were recorded and 16 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1580."
+    "note": "Batch 1580 processed 10 fresh non-prescription candidates; 2 new entries were recorded and 8 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1581."
   },
   "checkpoints": {
-    "over_counter_share": "23.0% (1580 entries)",
+    "over_counter_share": "23.0% (1582 entries)",
     "rx_share": "38.4% (2629)",
-    "no_effect_or_harm_share": "22.6% (1548)",
-    "vs_share": "86.4% (5926 entries)",
-    "unexpected_benefit_entries": 3,
-    "trial_share": "88.0% (6034)",
-    "non_trial_share": "12.1% (826)",
+    "no_effect_or_harm_share": "22.6% (1549)",
+    "vs_share": "86.4% (5928 entries)",
+    "unexpected_benefit_entries": 1,
+    "trial_share": "88.0% (6040)",
+    "non_trial_share": "12.0% (826)",
     "build_warnings": {
       "unknown_n": 485,
-      "thin_study": 1175,
+      "thin_study": 1176,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,57 +60,45 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1579 processed 20 fresh non-prescription candidates: 4 new entries were recorded and 16 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16778/16778 is checked; resume with fresh non-prescription batch 1580.",
+  "next": "Batch 1580 processed 10 fresh non-prescription candidates: 2 new entries were recorded and 8 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16788/16788 is checked; resume with fresh non-prescription batch 1581.",
   "last_batch": {
-    "id": "1579",
-    "commit": "4937639f",
+    "id": "1580",
+    "commit": "f14e17f2",
     "pushed": true,
-    "expansion_commit": "4937639f",
+    "expansion_commit": "f14e17f2",
     "data_commits": [
-      "4937639f"
+      "f14e17f2"
     ],
     "maintenance": false,
-    "processed_topics": 20,
-    "new_entries": 4,
+    "processed_topics": 10,
+    "new_entries": 2,
     "existing_links": 0,
-    "no_evidence_rejects": 16,
-    "non_prescription_topics_available": 20,
-    "non_prescription_topics_processed": 20,
+    "no_evidence_rejects": 8,
+    "non_prescription_topics_available": 10,
+    "non_prescription_topics_processed": 10,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 16,
-    "new_references": 3,
+    "screened_nonqualifying_topics": 8,
+    "new_references": 2,
     "existing_reference_links": 0,
-    "build": "6864 entries; 9936 refs; 6038 trial; 731 obs; 31 animal; 17 lab; 47 case; 5926 numeric comparison entries; worklist 16778/16778",
-    "research": "PubMed abstracts verified: 39182847, 36811474, 24558998. Four new entries retain numeric group values, confidence intervals, or valid relative effects; 16 topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a protocol, irrelevant intervention, mismatched topic, duplicate, or qualitative-only result.",
+    "build": "6866 entries; 9938 refs; 6040 trial; 731 obs; 31 animal; 17 lab; 47 case; 5928 numeric comparison entries; worklist 16788/16788",
+    "research": "PubMed abstracts verified: 39357673, 38032644. Two new entries retain numeric group values, confidence intervals, or valid relative effects; eight topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a review, irrelevant intervention, mismatched topic, duplicate, or qualitative-only result.",
     "qualified_topics": [
-      "potato-glycemia",
-      "rice-protein-glycemia",
-      "chickpea-postprandial-glycemia",
-      "soy-protein-glycemia"
+      "pea-cholesterol",
+      "vegan-diet-cholesterol"
     ],
     "qualified_entry_ids": [
-      "potato-glycemia-pos",
-      "rice-protein-glycemia-open",
-      "chickpea-postprandial-glycemia-pos",
-      "soy-protein-glycemia-pos"
+      "pea-cholesterol-null",
+      "vegan-diet-cholesterol-pos"
     ],
     "screened_topics": [
-      "cornmeal-glycemia",
-      "polenta-glycemia",
-      "cassava-glycemia",
-      "taro-glycemia",
-      "yam-glycemia",
-      "pea-glycemia",
-      "lentil-postprandial-glycemia",
-      "soy-postprandial-glycemia",
-      "natto-glycemia",
-      "fermented-milk-glycemia",
-      "probiotic-yogurt-glycemia",
-      "potato-meal-glycemia",
-      "chickpea-flour-glycemia",
-      "pea-protein-cereal-glycemia",
-      "pinto-bean-glycemia",
-      "riceberry-yogurt-glycemia"
+      "soy-cholesterol",
+      "tempeh-cholesterol",
+      "natto-cholesterol",
+      "blackcurrant-cholesterol",
+      "berry-cholesterol",
+      "prebiotic-cholesterol",
+      "sourdough-cholesterol",
+      "whole-grain-cholesterol"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_vs_warnings_fixed": 0,
@@ -136,9 +124,7 @@
       "짧은 걷기: 신규 move"
     ],
     "category_reclassifications": [
-      "감자 식사: 신규 food",
-      "쌀 식사: 신규 food",
-      "세포 구조 병아리콩 빵: 신규 food"
+      "완두: 신규 food"
     ],
     "targeted_batch_warnings_fixed": 0,
     "build_errors_fixed": 0,
@@ -148,43 +134,43 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1580",
+    "next_official_deployment_check": "after batch 1581",
     "topics": [
-      "lentil-cholesterol",
-      "chickpea-cholesterol",
-      "pea-cholesterol",
-      "soy-cholesterol",
-      "tofu-cholesterol",
-      "tempeh-cholesterol",
-      "kefir-cholesterol",
-      "kimchi-cholesterol",
-      "sauerkraut-cholesterol",
-      "natto-cholesterol",
-      "hazelnut-cholesterol",
-      "cashew-cholesterol",
-      "pistachio-cholesterol",
-      "pecan-cholesterol",
-      "macadamia-cholesterol",
-      "sesame-cholesterol",
-      "flaxseed-cholesterol",
-      "pumpkin-seed-cholesterol",
-      "sunflower-seed-cholesterol",
-      "hemp-seed-cholesterol",
-      "millet-cholesterol",
-      "sorghum-cholesterol",
-      "quinoa-cholesterol",
-      "amaranth-cholesterol",
-      "buckwheat-cholesterol",
-      "oatmeal-cholesterol",
-      "cocoa-glycemia",
-      "green-coffee-glycemia",
-      "black-tea-glycemia",
-      "rooibos-blood-pressure"
+      "cocoa-blood-pressure",
+      "green-tea-blood-pressure",
+      "garlic-blood-pressure",
+      "blackcurrant-blood-pressure",
+      "berry-blood-pressure",
+      "oat-blood-pressure",
+      "pea-blood-pressure",
+      "soy-blood-pressure",
+      "tofu-blood-pressure",
+      "tempeh-blood-pressure",
+      "kefir-blood-pressure",
+      "kimchi-blood-pressure",
+      "sauerkraut-blood-pressure",
+      "natto-blood-pressure",
+      "hazelnut-blood-pressure",
+      "cashew-blood-pressure",
+      "pistachio-blood-pressure",
+      "pecan-blood-pressure",
+      "macadamia-blood-pressure",
+      "sesame-blood-pressure",
+      "flaxseed-blood-pressure",
+      "pumpkin-seed-blood-pressure",
+      "sunflower-seed-blood-pressure",
+      "hemp-seed-blood-pressure",
+      "millet-blood-pressure",
+      "sorghum-blood-pressure",
+      "quinoa-blood-pressure",
+      "amaranth-blood-pressure",
+      "buckwheat-blood-pressure",
+      "oatmeal-blood-pressure"
     ]
   },
   "resume": {
-    "next_batch": "1580",
-    "worklist_line": "new-expansion-candidates-batch1580",
+    "next_batch": "1581",
+    "worklist_line": "new-expansion-candidates-batch1581",
     "topic": null,
     "unchecked": 0
   }
