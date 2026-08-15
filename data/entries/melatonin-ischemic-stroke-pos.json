@@ -3,7 +3,7 @@
   "subj": "멜라토닌",
   "claim": "수면호르몬을 급성 허혈성 뇌졸중 회복에 쓴다",
   "line": "급성 허혈성 뇌졸중에서 멜라토닌은 신경학적 점수를 낮췄지만 기능적 독립은 개선하지 못했습니다",
-  "effect": "NIHSS·mRS 더 감소",
+  "effect": "30·90일 NIHSS·mRS 더 감소",
   "tier": "trial",
   "dir": "pos",
   "known": "off",
@@ -11,8 +11,8 @@
   "n": 65,
   "synth": "single",
   "why": "재관류치료 대상이 아닌 급성 허혈성 뇌졸중 환자를 멜라토닌과 위약에 무작위로 나눈 단일기관 시험입니다.",
-  "saw": "환자 65명에서 30일과 90일 NIHSS·mRS 중앙값 감소가 위약보다 컸지만, 기능적 독립 기준은 군 간 차이가 없었습니다.",
-  "limit": "단일기관 예비시험이며 기능적 독립 같은 환자 중심 결과에서 유의한 차이를 보이지 않았습니다.",
+  "saw": "급성 허혈성 뇌졸중 환자 65명을 멜라토닌 20mg 5일군과 위약군에 무작위 배정했습니다. 30일과 90일에 멜라토닌군의 NIHSS와 mRS 중앙값 감소폭이 위약군보다 컸고, 중대한 이상반응은 없었습니다. 기능적 독립(mRS<3)은 시점별 군 간 차이가 없었습니다.",
+  "limit": "초록에 군별 중앙값과 효과크기가 없고 단일기관 파일럿이며, 기능적 독립 차이는 확인되지 않았습니다.",
   "against": "반대 검색 164건. 기능적 독립 결과가 음성이어서 신경학적 점수 개선만으로 일상 기능 회복을 확정할 수 없습니다.",
   "use": "급성 허혈성 뇌졸중의 점수 개선 신호와 기능적 결과의 한계를 함께 보여주는 소규모 무작위 근거입니다.",
   "refs": [
@@ -23,11 +23,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA substance_name:MELATONIN → 50건, 의약품 허가 적응증 문구 확인 안 됨",
     "ctgov": "query.intr=melatonin&query.cond=Ischemic Stroke → 7건 반환, InterventionName 대조 후 2건",
-    "pubmed": "melatonin Ischemic Stroke → 203건",
+    "pubmed": "melatonin Ischemic Stroke → 203건; PMID 36270095 PubMed abstract verified 2026-08-15",
     "negative": "melatonin Ischemic Stroke AND (no effect OR did not OR failed to OR negative OR no significant difference) → 164건",
     "safety": "melatonin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 6,376건"
-  }
+  },
+  "vs": "멜라토닌 vs 위약, n=65: 30·90일 NIHSS·mRS 감소폭이 더 큼; mRS<3 군간 차이 없음."
 }

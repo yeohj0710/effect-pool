@@ -1,39 +1,40 @@
 {
- "id": "mind-diet-diet-open",
- "subj": "MIND 식단",
- "claim": "인지 기능을 위해 MIND 식단을 쓴다",
- "line": "MIND 식단은 인지 신호를 보였지만 중재 권고 근거는 제한적입니다",
- "effect": "인지 기능 연관",
- "tier": "trial",
- "dir": "open",
- "n": null,
- "synth": "meta",
- "known": "off",
- "knownWhy": "인지 저하 예방에 허가된 식이요법이 아닙니다.",
- "why": "고령자의 MIND 식단과 인지 기능을 평가한 인간 연구 13편을 체계적으로 검토한 논문입니다.",
- "saw": "13편 중 코호트 9편, 단면 연구 3편, 무작위시험 1편을 검토했습니다. 78%의 연구에서 MIND 식단 준수도와 일부 또는 전반적 인지 기능이 양의 연관성을 보였습니다.",
- "limit": "연구 설계와 인지 결과가 서로 다르고 관찰 연구가 대부분이며 검토 논문이 전체 참가자 수를 보고하지 않았습니다.",
- "against": "3년 무작위시험에서는 MIND 식단과 대조 식단의 인지 변화 차이가 유의하지 않았습니다.",
- "use": "인지 건강 연구의 관찰 신호로만 사용하고 치매 예방 권고로 확대하지 않습니다.",
- "refs": [
-  {
-   "label": "MIND 식단과 고령자 인지 기능 체계적 문헌고찰",
-   "doi": "10.1080/10408398.2021.1925220",
-   "pmid": "33989093"
+  "id": "mind-diet-diet-open",
+  "subj": "MIND 식단",
+  "claim": "인지 기능을 위해 MIND 식단을 쓴다",
+  "line": "MIND 식단은 인지 신호를 보였지만 중재 권고 근거는 제한적입니다",
+  "effect": "인지 +.205 vs +.170(p=.23)",
+  "tier": "trial",
+  "dir": "open",
+  "n": 604,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "인지 저하 예방에 허가된 식이요법이 아닙니다.",
+  "why": "고령자의 MIND 식단과 인지 기능을 평가한 인간 연구 13편을 체계적으로 검토한 논문입니다.",
+  "saw": "인지장애가 없는 고령자 604명을 MIND 식단 301명과 대조 식단 303명에 3년 무작위 배정했습니다. 전역 인지 점수는 각각 0.205와 0.170 표준화 단위 증가했으며 평균 차이는 0.035(95% CI -0.022~0.092, p=.23)였습니다.",
+  "limit": "두 군 모두 상담과 경도 열량 제한을 받아 MIND 식단의 추가 효과가 작거나 분리되지 않았습니다.",
+  "against": "3년 무작위시험에서는 MIND 식단과 대조 식단의 인지 변화 차이가 유의하지 않았습니다.",
+  "use": "인지 건강 연구의 관찰 신호로만 사용하고 치매 예방 권고로 확대하지 않습니다.",
+  "refs": [
+    {
+      "label": "MIND 식단과 고령자 인지 기능 체계적 문헌고찰",
+      "doi": "10.1080/10408398.2021.1925220",
+      "pmid": "33989093"
+    },
+    {
+      "label": "MIND 식단 인지 저하 예방 무작위시험",
+      "doi": "10.1056/NEJMoa2302368",
+      "pmid": "37466280",
+      "pmc": "PMC10513737",
+      "nct": "NCT02817074"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.intr=MIND diet AND query.cond=Diet · 190건, 직접 개입 11건",
+    "pubmed": "MIND diet AND Diet · 2267편, 결과 검색 599편; PMID 37466280 PubMed abstract verified 2026-08-15",
+    "negative": "MIND diet AND Diet AND (no effect OR did not OR failed OR negative OR no significant difference) · 1374편",
+    "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
   },
-  {
-   "label": "MIND 식단 인지 저하 예방 무작위시험",
-   "doi": "10.1056/NEJMoa2302368",
-   "pmid": "37466280",
-   "pmc": "PMC10513737",
-   "nct": "NCT02817074"
-  }
- ],
- "queried": {
-  "date": "2026-08-07",
-  "ctgov": "query.intr=MIND diet AND query.cond=Diet · 190건, 직접 개입 11건",
-  "pubmed": "MIND diet AND Diet · 2267편, 결과 검색 599편",
-  "negative": "MIND diet AND Diet AND (no effect OR did not OR failed OR negative OR no significant difference) · 1374편",
-  "safety": "MIND diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 289편"
- }
+  "vs": "MIND 식단 n=301 vs 대조 식단 n=303: 인지 +.205 vs +.170 SD; MD=.035(95% CI -.022~.092, p=.23)."
 }

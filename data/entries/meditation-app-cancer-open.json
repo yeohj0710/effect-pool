@@ -1,38 +1,39 @@
 {
- "id": "meditation-app-cancer-open",
- "subj": "명상 앱",
- "claim": "암 환자의 증상 부담을 줄인다",
- "line": "암 환자는 명상 앱 뒤 피로가 줄었지만 불안·우울 차이는 없었습니다.",
- "effect": "피로 감소 신호, 불안·우울 군간 차이 없음",
- "tier": "trial",
- "dir": "open",
- "n": 35,
- "synth": "single",
- "known": "off",
- "knownWhy": "명상 앱은 의약품이 아닌 디지털 행동 중재입니다.",
- "why": "불안이나 우울을 보고한 외래 암 환자를 명상 앱군과 대기자 대조군에 무작위 배정한 2주 파일럿입니다.",
- "saw": "35명 중 앱군 17명, 대조군 18명이었습니다. 앱군의 ESAS 피로 중앙값은 1.5점 낮아졌고 대조군은 0.5점 높아졌지만, HADS 불안·우울과 수면의 군간 차이는 유의하지 않았습니다.",
- "limit": "표본이 작고 추적이 2주이며, 주된 목적이 효능 확정이 아닌 실행 가능성 평가였습니다.",
- "against": "암 환자 대상 명상 앱 무작위 연구 36명은 앱의 수용성과 사용 가능성을 확인했지만 효능시험은 향후 연구로 남겼습니다.",
- "use": "암 환자에게 명상 앱을 권하기보다, 피로·불안·우울을 분리한 대조시험으로 임상 효과를 추가 확인합니다.",
- "refs": [
-  {
-   "label": "암 환자 명상 앱 파일럿 무작위시험",
-   "doi": "10.1177/15347354221148710",
-   "pmid": "36680352"
+  "id": "meditation-app-cancer-open",
+  "subj": "명상 앱",
+  "claim": "암 환자의 증상 부담을 줄인다",
+  "line": "암 환자는 명상 앱 뒤 피로가 줄었지만 불안·우울 차이는 없었습니다.",
+  "effect": "피로 -1.5 vs +0.5점",
+  "tier": "trial",
+  "dir": "open",
+  "n": 35,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "명상 앱은 의약품이 아닌 디지털 행동 중재입니다.",
+  "why": "불안이나 우울을 보고한 외래 암 환자를 명상 앱군과 대기자 대조군에 무작위 배정한 2주 파일럿입니다.",
+  "saw": "불안 또는 우울을 보고한 암 외래환자 35명(명상 앱 17명, 대기자 18명)을 2주 시험에 무작위 배정했습니다. ESAS 피로 점수 중앙값은 앱군에서 1.5점 감소하고 대조군에서 0.5점 증가했으며 군 간 차이가 유의했습니다. HADS와 PSQI의 군 간 차이는 유의하지 않았습니다.",
+  "limit": "2주 파일럿·소표본·대기자 대조 연구라 증상 개선의 확증 근거로는 제한적입니다.",
+  "against": "암 환자 대상 명상 앱 무작위 연구 36명은 앱의 수용성과 사용 가능성을 확인했지만 효능시험은 향후 연구로 남겼습니다.",
+  "use": "암 환자에게 명상 앱을 권하기보다, 피로·불안·우울을 분리한 대조시험으로 임상 효과를 추가 확인합니다.",
+  "refs": [
+    {
+      "label": "암 환자 명상 앱 파일럿 무작위시험",
+      "doi": "10.1177/15347354221148710",
+      "pmid": "36680352"
+    },
+    {
+      "label": "암 환자·생존자 명상 앱 실행 가능성 무작위시험",
+      "doi": "10.2196/39228",
+      "pmid": "36416880",
+      "nct": "NCT05459168"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=meditation app, cond=Cancer · 29건 반환, intervention 이름 일치 1건(NCT05459168)",
+    "pubmed": "meditation app[Title/Abstract] AND cancer[Title/Abstract] · 9편; PMID 36680352 PubMed abstract verified 2026-08-15",
+    "negative": "meditation app AND cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 5편",
+    "safety": "meditation app AND (adverse OR toxicity OR harm OR dropout) · 29편"
   },
-  {
-   "label": "암 환자·생존자 명상 앱 실행 가능성 무작위시험",
-   "doi": "10.2196/39228",
-   "pmid": "36416880",
-   "nct": "NCT05459168"
-  }
- ],
- "queried": {
-  "date": "2026-08-10",
-  "ctgov": "intr=meditation app, cond=Cancer · 29건 반환, intervention 이름 일치 1건(NCT05459168)",
-  "pubmed": "meditation app[Title/Abstract] AND cancer[Title/Abstract] · 9편",
-  "negative": "meditation app AND cancer AND (no effect OR did not OR failed OR negative OR no significant difference) · 5편",
-  "safety": "meditation app AND (adverse OR toxicity OR harm OR dropout) · 29편"
- }
+  "vs": "명상 앱 n=17 vs 대기자 n=18: ESAS 피로 중앙값 -1.5 vs +0.5점; HADS·PSQI 군간 유의 차이 없음."
 }
