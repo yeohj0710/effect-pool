@@ -21330,3 +21330,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] phenylephrine — Cataract에 듣는다 — 항목 생성(phenylephrine-cataract-pos)  <!-- 시험 10건 · 논문 268편 -->
 - [x] phenylephrine — Surgery에 듣는다 — 항목 생성(phenylephrine-surgery-harm)  <!-- 시험 10건 · 논문 3989편 -->
 - [x] phenylephrine — Rhinitis에 듣는다 — 근거 부족(2026-08-15, 위약 대비 효과가 없다는 검토는 확인했지만 수치가 있는 직접 비교를 확인 못함)  <!-- 시험 9건 · 논문 97편 -->
+
+## Batch 1539 fresh non-prescription expansion
+
+- [x] scopolamine — Motion Sickness에 듣는다 — 항목 생성(scopolamine-motion-sickness-pos)  <!-- PubMed PMID 39225593 -->
+- [x] scopolamine — Pain에 듣는다 — 근거 부족(2026-08-15, 복통 경련 치료 검토는 확인했지만 수치가 있는 직접 비교를 확인 못함)
+- [x] scopolamine — Migraine에 듣는다 — 근거 부족(2026-08-15, 약물 유발 두통 관찰 보고로 개입군 대조군 수치가 없음)
+- [x] levocetirizine — Allergic Rhinitis에 듣는다 — 항목 생성(levocetirizine-allergic-rhinitis-pos)  <!-- PubMed PMID 16136768 -->
+- [x] levocetirizine — Asthma에 듣는다 — 항목 생성(levocetirizine-asthma-pos)  <!-- PubMed PMID 29945738, 병용요법 -->
+- [x] levocetirizine — Nasal Polyps에 듣는다 — 근거 부족(2026-08-15, 사람 치료군 대조군 수치가 없는 기전 연구)
+- [x] fexofenadine — Allergic Rhinitis에 듣는다 — 항목 생성(fexofenadine-allergic-rhinitis-pos)  <!-- PubMed PMID 21969990 -->
+- [x] fexofenadine — Atopic Dermatitis에 듣는다 — 항목 생성(fexofenadine-atopic-dermatitis-pos)  <!-- PubMed PMID 12828751 -->
+- [x] fexofenadine — Chronic Pruritus에 듣는다 — 근거 부족(2026-08-15, 직접 수치 비교를 확인하지 못함)
+- [x] ketoconazole — Tinea Corporis에 듣는다 — 항목 생성(ketoconazole-tinea-corporis-harm)  <!-- PubMed PMID 10694308 -->
+- [x] ketoconazole — Tinea Versicolor에 듣는다 — 항목 생성(ketoconazole-tinea-versicolor-pos)  <!-- PubMed PMID 9843006 -->
+- [x] ketoconazole — Seborrheic Dermatitis에 듣는다 — 기존 항목(ketoconazole-scalp-dermatitis-pos)
+- [x] terbinafine — Onychomycosis에 듣는다 — 항목 생성(terbinafine-onychomycosis-pos)  <!-- PubMed PMID 14738099·15030339 -->
+- [x] terbinafine — Tinea Capitis에 듣는다 — 항목 생성(terbinafine-tinea-capitis-null)  <!-- PubMed PMID 21334096 -->
+- [x] terbinafine — Tinea Corporis에 듣는다 — 항목 생성(terbinafine-tinea-corporis-pos)  <!-- PubMed PMID 10694308 -->
+- [x] permethrin — Scabies에 듣는다 — 항목 생성(permethrin-scabies-pos)  <!-- PubMed PMID 39980715 -->
+- [x] permethrin — Bed Bugs에 듣는다 — 근거 부족(2026-08-15, 사람 치료군 대조군 수치가 없음)
+- [x] permethrin — Crusted Scabies에 듣는다 — 근거 부족(2026-08-15, 직접 수치 비교를 확인하지 못함)
+- [x] hydrocortisone cream — Hemorrhoids에 듣는다 — 항목 생성(hydrocortisone-cream-hemorrhoids-harm)  <!-- PubMed PMID 26109819 -->
+- [x] hydrocortisone cream — Contact Dermatitis에 듣는다 — 근거 부족(2026-08-15, 직접 수치 비교를 확인하지 못함)
+- [x] hydrocortisone cream — Psoriasis에 듣는다 — 근거 부족(2026-08-15, OTC 하이드로코르티손과 다른 고함량 제형 결과만 확인)
+- [x] capsaicin cream — Osteoarthritis에 듣는다 — 항목 생성(capsaicin-cream-osteoarthritis-pos)  <!-- PubMed PMID 38761115 -->
+- [x] capsaicin cream — Low Back Pain에 듣는다 — 항목 생성(capsaicin-cream-low-back-pain-pos)  <!-- PubMed PMID 11765591 -->
+- [x] capsaicin cream — Postherpetic Neuralgia에 듣는다 — 근거 부족(2026-08-15, 크림과 고농도 패치 근거를 분리할 수 없음)
+- [x] orlistat — Nonalcoholic Fatty Liver Disease에 듣는다 — 항목 생성(orlistat-nonalcoholic-fatty-liver-disease-pos)  <!-- PubMed PMID 38910819 -->
+- [x] orlistat — Metabolic Syndrome에 듣는다 — 근거 부족(2026-08-15, 오를리스타트 특이적 수치 비교를 확인하지 못함)
+- [x] orlistat — Weight Regain에 듣는다 — 항목 생성(orlistat-weight-regain-pos)  <!-- PubMed PMID 9683204 -->
+- [x] benzoyl peroxide — Rosacea에 듣는다 — 항목 생성(benzoyl-peroxide-rosacea-pos)  <!-- PubMed PMID 37636253 -->
+- [x] benzoyl peroxide — Seborrheic Dermatitis에 듣는다 — 근거 부족(2026-08-15, 직접 수치 비교를 확인하지 못함)
+- [x] benzoyl peroxide — Hidradenitis Suppurativa에 듣는다 — 항목 생성(benzoyl-peroxide-hidradenitis-suppurativa-null)  <!-- PubMed PMID 37080176 -->

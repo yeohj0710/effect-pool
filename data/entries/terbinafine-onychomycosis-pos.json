@@ -1,0 +1,30 @@
+{
+  "id": "terbinafine-onychomycosis-pos",
+  "subj": "터비나핀",
+  "claim": "손발톱진균증에서 터비나핀이 이트라코나졸보다 진균학적 완치 가능성이 높다",
+  "line": "손발톱진균증 무작위시험 메타분석에서 터비나핀의 진균학적 완치 가능성이 이트라코나졸보다 높았습니다.",
+  "effect": "직접 비교 OR 1.8~2.9",
+  "vs": "손발톱진균증 6개 직접비교 무작위시험 메타분석에서 터비나핀 대 이트라코나졸 진균학적 완치 OR은 1.8~2.9(95% CI 하한 1.8, 상한 4.1)였고, 누적 18개 RCT 993명의 터비나핀 완치율은 76±3%였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 993,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "터비나핀은 피부·손발톱 진균 감염에 쓰이는 일반의약품 성분입니다.",
+  "why": "손발톱진균증에서 경구 터비나핀과 다른 전신 항진균제를 비교한 무작위시험 메타분석입니다.",
+  "saw": "PubMed PMID 14738099는 터비나핀이 이트라코나졸보다 진균학적 완치에 유리하다고 보고했고, PMID 15030339는 18개 RCT 993명의 누적 완치율을 제시했습니다.",
+  "limit": "직접 비교 6개 시험의 개별 총표본은 초록에 제시되지 않았고, 경구 치료는 간독성 모니터링이 필요합니다.",
+  "against": "손발톱진균증은 습진·외상과 감별하고 치료 전 진균 검사를 고려합니다.",
+  "use": "손발톱진균증에서 경구 항진균제의 상대적 근거를 설명합니다.",
+  "refs": [
+    { "label": "터비나핀 대 이트라코나졸 손발톱진균증 메타분석", "pmid": "14738099" },
+    { "label": "손발톱진균증 전신 항진균제 누적 메타분석", "pmid": "15030339" }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "ClinicalTrials.gov에서 terbinafine AND onychomycosis 후보를 확인하고, 상대효과는 PubMed PMID 14738099·15030339에서 확인했습니다.",
+    "pubmed": "terbinafine AND onychomycosis AND randomized OR meta-analysis; PMID 14738099·15030339",
+    "negative": "terbinafine AND onychomycosis AND (no effect OR did not OR no significant difference)",
+    "safety": "terbinafine AND onychomycosis AND (adverse OR hepatotoxicity OR safety)"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "scopolamine-motion-sickness-pos",
+  "subj": "스코폴라민",
+  "claim": "스코폴라민이 멀미 오심을 줄인다",
+  "line": "멀미에서 스코폴라민은 위약보다 오심을 줄였지만 머리 움직임 시간 차이는 없었습니다.",
+  "effect": "오심 RR 0.35",
+  "vs": "멀미 20개 무작위시험 753명 메타분석에서 스코폴라민은 위약 대비 오심 RR 0.35(95% CI 0.24~0.52)였고, 머리 움직임 시간 MD는 2.02(95% CI -1.2~5.25)로 차이가 없었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 753,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "스코폴라민은 멀미 예방에 쓰이는 일반의약품 성분입니다.",
+  "why": "멀미 예방에서 스코폴라민과 위약을 비교한 무작위시험 메타분석입니다.",
+  "saw": "PubMed PMID 39225593은 20개 무작위시험 753명을 분석해 오심 상대위험도 0.35를 보고했습니다.",
+  "limit": "시험 규모가 작고 제형·노출 방식이 달랐으며, 머리 움직임 시간에 대한 TSA 정보량은 충분하지 않았습니다.",
+  "against": "입마름·졸림·시야 흐림이 생길 수 있어 운전과 고위험 작업 전 사용을 주의합니다.",
+  "use": "멀미 예방에서 오심 감소와 객관적 운동 수행 결과를 구분해 설명합니다.",
+  "refs": [{ "label": "멀미 스코폴라민 메타분석", "pmid": "39225593" }],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "ClinicalTrials.gov에서 scopolamine AND motion sickness 후보를 확인하고, 완료 결과 수치는 PubMed 초록과 대조했습니다.",
+    "pubmed": "scopolamine AND motion sickness; PMID 39225593 초록 확인",
+    "negative": "scopolamine AND motion sickness AND (no effect OR did not OR no significant difference)",
+    "safety": "scopolamine AND motion sickness AND (adverse OR dry mouth OR drowsiness)"
+  }
+}
