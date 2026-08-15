@@ -1,20 +1,37 @@
 {
-  "id": "cognitive-remediation-depression-pos",
-  "subj": "인지 재활",
-  "claim": "우울증 취약성의 인지 지표에 인지재활과 인지조절 훈련을 적용할 수 있는가",
-  "line": "우울증에서 인지재활과 조절 훈련은 우울 취약성 지표를 개선할 가능성을 보였다.",
-  "effect": "우울 취약성 지표 소폭~중간 개선 가능성",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "인지 재활은 비약물 중재이며 우울증의 의약품 허가 적응증이 아닙니다.",
-  "why": "우울증 취약성과 관련된 인지 조절 기능을 반복 훈련해 우울 증상과 재발 위험을 보조적으로 다룹니다.",
-  "saw": "우울증 취약성에 대한 인지 재활·인지조절 훈련 리뷰에서 최근 연구들은 우울 취약성 지표에 소폭에서 중간 정도의 효과를 보였고, 초기 효능·실행 가능성 근거가 확인됐습니다.",
-  "limit": "리뷰 초록에 통합 표본 수와 단일 효과크기가 제시되지 않았고, 최적 훈련 용량·작동기전·기존 치료와의 병용 조건이 정해지지 않았습니다.",
-  "against": "초기 근거만으로 인지 훈련이 항우울제나 심리치료를 대체한다고 볼 수 없습니다.",
-  "use": "우울증 진료와 재발 예방 계획을 대신하지 않고, 인지기능 평가와 치료 목표에 맞춰 보조 중재로 검토합니다.",
-  "refs": [{ "label": "Koster 2022 · Frontiers in Psychology · 우울증 취약성 인지 재활 리뷰", "doi": "10.3389/fpsyg.2022.903446", "pmid": "35936259" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=cognitive remediation · cond=Depression → 39건", "pubmed": "cognitive remediation AND Depression → 415편", "negative": "cognitive remediation AND Depression AND (no effect OR did not OR failed OR no significant difference) → 296편", "safety": "cognitive remediation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 263편" }
+ "id": "cognitive-remediation-depression-pos",
+ "subj": "인지 재활",
+ "claim": "우울증 취약성의 인지 지표에 인지재활과 인지조절 훈련을 적용할 수 있는가",
+ "line": "우울증에서 인지재활과 조절 훈련은 우울 취약성 지표를 개선할 가능성을 보였다.",
+ "effect": "우울 취약성 지표 소폭~중간 개선 가능성",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "인지 재활은 비약물 중재이며 우울증의 의약품 허가 적응증이 아닙니다.",
+ "why": "우울증 취약성과 관련된 인지 조절 기능을 반복 훈련해 우울 증상과 재발 위험을 보조적으로 다룹니다.",
+ "saw": "우울증 취약성에 대한 인지 재활·인지조절 훈련 리뷰에서 최근 연구들은 우울 취약성 지표에 소폭에서 중간 정도의 효과를 보였고, 초기 효능·실행 가능성 근거가 확인됐습니다.",
+ "limit": "리뷰 초록에 통합 표본 수와 단일 효과크기가 제시되지 않았고, 최적 훈련 용량·작동기전·기존 치료와의 병용 조건이 정해지지 않았습니다.",
+ "against": "초기 근거만으로 인지 훈련이 항우울제나 심리치료를 대체한다고 볼 수 없습니다.",
+ "use": "우울증 진료와 재발 예방 계획을 대신하지 않고, 인지기능 평가와 치료 목표에 맞춰 보조 중재로 검토합니다.",
+ "refs": [
+  {
+   "label": "Koster 2022 · Frontiers in Psychology · 우울증 취약성 인지 재활 리뷰",
+   "doi": "10.3389/fpsyg.2022.903446",
+   "pmid": "35936259"
+  },
+  {
+   "label": "주요우울장애 통합 인지재활 무작위시험",
+   "pmid": "42215657"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=cognitive remediation · cond=Depression → 39건",
+  "pubmed": "cognitive remediation AND Depression → 415편; PMID 42215657 PubMed abstract verified 2026-08-15",
+  "negative": "cognitive remediation AND Depression AND (no effect OR did not OR failed OR no significant difference) → 296편",
+  "safety": "cognitive remediation AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 263편"
+ },
+ "vs": "통합 인지재활 vs 심리교육: 인지기능 저하 주요우울장애 환자 22명, 12주; 인지재활군은 심리교육군과 다른 7개 miRNA 반응 서명을 보였고 객관적 인지기능이 유의하게 개선, 심리교육군은 개선 없음"
 }

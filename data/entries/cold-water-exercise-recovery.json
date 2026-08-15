@@ -1,36 +1,41 @@
 {
-  "id": "cold-water-exercise-recovery",
-  "subj": "냉수 노출",
-  "claim": "냉수침수가 운동 뒤 회복에 도움이 된다",
-  "line": "운동 뒤 냉수침수는 단기 피로를 줄였지만 결과별 효과는 달랐다.",
-  "effect": "피로 단기 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 419,
-  "synth": "meta",
-  "why": "운동 뒤 냉수침수와 수동 회복을 비교한 무작위시험을 모은 메타분석입니다.",
-  "saw": "무작위시험 메타분석은 운동 뒤 피로 회복과 일부 수행 결과의 단기 개선을 보고했습니다.",
-  "limit": "운동 종류와 침수 방식이 달랐고 근육통, 근손상, 장기 적응 결과는 일관되지 않았습니다.",
-  "against": "근육통과 근손상 지표가 위약과 다르지 않은 시험이 많고 장기 근력 적응을 떨어뜨릴 가능성도 제기됐습니다.",
-  "use": "단기 회복 지표를 장기 운동 효과나 부상 치료 효과로 확대하면 안 됩니다.",
-  "refs": [
-    {
-      "label": "Moore 2023 · Front Physiol · 운동 뒤 냉수침수 메타분석",
-      "doi": "10.3389/fphys.2023.1006512",
-      "pmid": "36744038",
-      "pmc": "PMC9896520"
-    },
-    {
-      "label": "Bleakley 2012 · Cochrane · 운동 뒤 냉수침수 검토",
-      "doi": "10.1002/14651858.CD008262.pub2",
-      "pmc": "PMC6492480"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=cold water immersion, cond=exercise recovery → 11건 반환, InterventionName 대조 후 10건",
-    "pubmed": "cold water immersion exercise recovery randomized trial meta-analysis → 16건",
-    "negative": "cold water immersion recovery AND (no effect OR did not OR failed to OR negative) → 476건",
-    "safety": "cold water immersion AND (adverse OR hypothermia OR toxicity OR case report) → 824건"
+ "id": "cold-water-exercise-recovery",
+ "subj": "냉수 노출",
+ "claim": "냉수침수가 운동 뒤 회복에 도움이 된다",
+ "line": "운동 뒤 냉수침수는 단기 피로를 줄였지만 결과별 효과는 달랐다.",
+ "effect": "피로 단기 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 419,
+ "synth": "meta",
+ "why": "운동 뒤 냉수침수와 수동 회복을 비교한 무작위시험을 모은 메타분석입니다.",
+ "saw": "무작위시험 메타분석은 운동 뒤 피로 회복과 일부 수행 결과의 단기 개선을 보고했습니다.",
+ "limit": "운동 종류와 침수 방식이 달랐고 근육통, 근손상, 장기 적응 결과는 일관되지 않았습니다.",
+ "against": "근육통과 근손상 지표가 위약과 다르지 않은 시험이 많고 장기 근력 적응을 떨어뜨릴 가능성도 제기됐습니다.",
+ "use": "단기 회복 지표를 장기 운동 효과나 부상 치료 효과로 확대하면 안 됩니다.",
+ "refs": [
+  {
+   "label": "Moore 2023 · Front Physiol · 운동 뒤 냉수침수 메타분석",
+   "doi": "10.3389/fphys.2023.1006512",
+   "pmid": "36744038",
+   "pmc": "PMC9896520"
+  },
+  {
+   "label": "Bleakley 2012 · Cochrane · 운동 뒤 냉수침수 검토",
+   "doi": "10.1002/14651858.CD008262.pub2",
+   "pmc": "PMC6492480"
+  },
+  {
+   "label": "운동 후 냉수입수 회복 메타분석",
+   "pmid": "42473449"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=cold water immersion, cond=exercise recovery → 11건 반환, InterventionName 대조 후 10건",
+  "pubmed": "cold water immersion exercise recovery randomized trial meta-analysis → 16건; PMID 42473449 PubMed abstract verified 2026-08-15",
+  "negative": "cold water immersion recovery AND (no effect OR did not OR failed to OR negative) → 476건",
+  "safety": "cold water immersion AND (adverse OR hypothermia OR toxicity OR case report) → 824건"
+ },
+ "vs": "운동 후 냉수입수 vs 수동 회복: RCT 22개; 최대등척성수축력 g=0.08(95% CI -0.11~0.26,p=.42), 점프력 g=0.01(-0.25~0.28,p=.92), 근육통 g=-0.58(-0.99~-0.16,p=.01)"
 }
