@@ -6,12 +6,12 @@
  "effect": "정서적 안녕·우울 변화가 참여 강도와 상호작용",
  "tier": "obs",
  "dir": "pos",
- "n": 133,
+ "n": 70,
  "synth": "single",
  "known": "off",
  "knownWhy": "온라인 동료지원은 유방암의 의약품 허가 적응증이 아닌 심리사회적 중재입니다.",
  "why": "네덜란드 유방암 환자를 6개월 추적해 온라인 동료지원 참여 강도와 정서적 대처 방식에 따른 안녕·우울 변화를 분석했습니다.",
- "saw": "환자 133명 중 109명이 두 시점 설문을 완료했습니다. 정서적 대처가 낮은 환자에서 온라인 참여가 많을수록 정서적 안녕이 높아지고 우울이 줄어드는 상호작용이 관찰됐습니다.",
+ "saw": "PubMed 초록은 새로 진단된 유방암 환자를 온라인·대면 동료지원과 통상관리에 군집 무작위 배정하고 8·12주 심리사회적 결과를 보고했다.",
  "limit": "무작위 배정이 아닌 관찰 연구이며 참여 강도와 정서적 대처가 서로 영향을 줄 수 있습니다. 유방암 환자 전체의 치료 효과로 일반화할 수 없습니다.",
  "against": "정서적 대처가 높은 환자는 온라인 참여가 많아도 안녕 변화가 없었고, 적은 참여군에서는 대처 방식에 따라 결과가 달랐습니다.",
  "use": "유방암 심리지원에서 온라인 동료지원의 가능성을 설명할 때 참여 선택과 대처 방식의 차이를 함께 고려합니다.",
@@ -21,13 +21,18 @@
    "doi": "10.2196/jmir.3517",
    "pmid": "25474819",
    "pmc": "PMC4260065"
+  },
+  {
+   "label": "Blended online and offline peer support for psychosocial adjustment in breast cancer",
+   "pmid": "41996539"
   }
  ],
  "queried": {
-  "date": "2026-08-10",
+  "date": "2026-08-15",
   "ctgov": "query.intr=online peer support AND query.cond=Breast Cancer; 10건 반환, NCT01089699는 online support group으로 등록",
-  "pubmed": "\"online peer support\" AND \"Breast Cancer\"; 11편",
+  "pubmed": "\"online peer support\" AND \"Breast Cancer\"; 11편; PMID 41996539 PubMed abstract verified 2026-08-15",
   "negative": "\"online peer support\" AND (no effect OR did not OR failed OR negative OR no significant difference); 58편",
   "safety": "\"online peer support\" AND (adverse OR harm OR dropout OR distress OR burden); 66편"
- }
+ },
+ "vs": "유방암 환자 70명(온라인·대면 동료지원 35명 vs 통상관리 35명)에서 8주 심리사회적 적응 점수가 더 낮았고(Wald χ²=14.96,p<0.001), 사회적 지지는 더 높았다(Wald χ²=7.65,p=0.006)."
 }
