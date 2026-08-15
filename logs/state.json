@@ -2,9 +2,9 @@
   "updated": "2026-08-16",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6817,
-  "subjects": 2303,
-  "refs": 9889,
+  "entries": 6818,
+  "subjects": 2304,
+  "refs": 9890,
   "kinds": {
     "supp": 681,
     "rx": 2629,
@@ -12,10 +12,10 @@
     "otc": 170,
     "care": 741,
     "move": 666,
-    "food": 702
+    "food": 703
   },
   "tiers": {
-    "trial": 5991,
+    "trial": 5992,
     "obs": 731,
     "animal": 31,
     "lab": 17,
@@ -28,11 +28,11 @@
     "pos": 4223
   },
   "worklist": {
-    "total": 16579,
-    "checked": 16579,
+    "total": 16609,
+    "checked": 16609,
     "unchecked": 0,
-    "no_evidence_pending": 2094,
-    "note": "Worklist 16579/16579 checked. Batch 1571 processed 30 fresh non-prescription candidates; 7 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1572."
+    "no_evidence_pending": 2123,
+    "note": "Worklist 16609/16609 checked. Batch 1572 processed 30 fresh non-prescription candidates; 1 new entry was recorded and 29 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1573."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1571 processed 30 fresh non-prescription candidates; 7 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1572."
+    "note": "Batch 1572 processed 30 fresh non-prescription candidates; 1 new entry was recorded and 29 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1573."
   },
   "checkpoints": {
     "over_counter_share": "22.7% (1548 entries)",
     "rx_share": "38.6% (2629)",
     "no_effect_or_harm_share": "22.6% (1542)",
-    "vs_share": "86.2% (5879 entries)",
+    "vs_share": "86.2% (5880 entries)",
     "unexpected_benefit_entries": 7,
     "trial_share": "87.9% (5991)",
     "non_trial_share": "12.1% (826)",
     "build_warnings": {
       "unknown_n": 485,
-      "thin_study": 1154,
+      "thin_study": 1155,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,76 +60,66 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1571 processed 30 fresh non-prescription candidates: 7 new entries were recorded and 23 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16579/16579 is checked; resume with fresh non-prescription batch 1572.",
+  "next": "Batch 1572 processed 30 fresh non-prescription candidates: 1 new entry was recorded and 29 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16609/16609 is checked; resume with fresh non-prescription batch 1573.",
   "last_batch": {
-    "id": "1571",
-    "commit": "b30f376a",
+    "id": "1572",
+    "commit": "44bfa6ad",
     "pushed": true,
-    "expansion_commit": "b30f376a",
+    "expansion_commit": "44bfa6ad",
     "data_commits": [
-      "b30f376a"
+      "44bfa6ad"
     ],
     "maintenance": false,
     "processed_topics": 30,
-    "new_entries": 7,
+    "new_entries": 1,
     "existing_links": 0,
-    "no_evidence_rejects": 23,
+    "no_evidence_rejects": 29,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 23,
-    "new_references": 7,
+    "screened_nonqualifying_topics": 29,
+    "new_references": 1,
     "existing_reference_links": 0,
-    "build": "6817 entries; 9889 refs; 5991 trial; 731 obs; 31 animal; 17 lab; 47 case; 5879 numeric comparison entries; worklist 16579/16579",
-    "research": "PubMed abstracts verified: 9925124, 15051842, 36124913, 28490511, 39803911, 22374636, 19114406. Seven new entries retain numeric group values, confidence intervals, or valid relative effects; 23 topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a duplicate or overlapping existing entry, or was protocol, irrelevant, or qualitative-only evidence.",
-    "qualified_topics": [
-      "fructooligosaccharide-glycemia",
-      "guar-gum-glycemia",
-      "barley-beta-glucan-glycemia",
-      "breakfast-skipping-glycemia",
-      "standing-desk-glycemia",
-      "short-walk-glycemia",
-      "fermented-vegetable-glycemia"
-    ],
-    "qualified_entry_ids": [
-      "fructooligosaccharide-glycemia-null",
-      "guar-gum-glycemia-pos",
-      "barley-beta-glucan-glycemia-pos",
-      "breakfast-skipping-glycemia-harm",
-      "standing-desk-glycemia-null",
-      "short-walk-glycemia-pos",
-      "fermented-vegetable-glycemia-pos"
-    ],
+    "build": "6818 entries; 9890 refs; 5992 trial; 731 obs; 31 animal; 17 lab; 47 case; 5880 numeric comparison entries; worklist 16609/16609",
+    "research": "PubMed abstract verified: 34261489. One new entry retains numeric intervention-versus-control group values; 29 topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a protocol, irrelevant intervention, mismatched topic, or qualitative-only evidence.",
+    "qualified_topics": ["lettuce-glycemia"],
+    "qualified_entry_ids": ["lettuce-glycemia-pos"],
     "screened_topics": [
-      "wheat-bran-glycemia",
-      "galactooligosaccharide-glycemia",
-      "acacia-fiber-glycemia",
-      "partially-hydrolyzed-guar-glycemia",
-      "konjac-glycemia",
-      "cacao-flavanol-glycemia",
-      "black-pepper-glycemia",
-      "thyme-glycemia",
-      "licorice-glycemia",
-      "fennel-glycemia",
-      "late-breakfast-glycemia",
-      "early-breakfast-glycemia",
-      "fasting-duration-glycemia",
-      "postprandial-stretching-glycemia",
-      "postprandial-stairs-glycemia",
-      "gardening-glycemia",
-      "household-activity-glycemia",
-      "morning-light-glycemia",
-      "walking-break-glycemia",
-      "postmeal-stretching-glycemia",
-      "postmeal-yoga-glycemia",
-      "dinner-timing-glycemia",
-      "meal-frequency-blood-pressure"
+      "carrot-glycemia",
+      "cauliflower-glycemia",
+      "extra-virgin-olive-oil-glycemia",
+      "beetroot-exercise-blood-pressure",
+      "morning-walk-blood-pressure",
+      "slow-breathing-blood-pressure",
+      "peach-glycemia",
+      "papaya-glycemia",
+      "jackfruit-glycemia",
+      "date-syrup-glycemia",
+      "honey-glycemia",
+      "stevia-glycemia",
+      "erythritol-glycemia",
+      "allulose-glycemia",
+      "tagatose-glycemia",
+      "maltitol-glycemia",
+      "monk-fruit-glycemia",
+      "soy-blood-pressure",
+      "tofu-blood-pressure",
+      "tempeh-blood-pressure",
+      "bean-blood-pressure",
+      "leek-blood-pressure",
+      "cucumber-glycemia",
+      "spinach-glycemia",
+      "kale-glycemia",
+      "sweet-corn-glycemia",
+      "red-rice-glycemia",
+      "fermented-dairy-blood-pressure",
+      "potassium-salt-blood-pressure"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 3,
+    "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 121,
+    "open_numeric_comparisons": 122,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -142,13 +132,14 @@
       "수면 시간: 신규 life",
       "식전 유청 단백질: 신규 supp"
     ],
-    "category_reclassifications": [
+    "previous_batch_category_reclassifications": [
       "프락토올리고당: 신규 supp",
       "구아검·알긴산 식이섬유: 신규 food",
       "보리 β-글루칸: 신규 food",
       "짧은 걷기: 신규 move"
     ],
-    "targeted_batch_warnings_fixed": 7,
+    "category_reclassifications": ["상추: 신규 food"],
+    "targeted_batch_warnings_fixed": 0,
     "build_errors_fixed": 0,
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 6,
@@ -156,7 +147,7 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1572",
+    "next_official_deployment_check": "after batch 1573",
     "topics": [
       "black-rice-glycemia",
       "sourdough-bread-glycemia",
@@ -191,8 +182,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1572",
-    "worklist_line": "new-expansion-candidates-batch1572",
+    "next_batch": "1573",
+    "worklist_line": "new-expansion-candidates-batch1573",
     "topic": null,
     "unchecked": 0
   }
