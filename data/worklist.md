@@ -21363,3 +21363,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] benzoyl peroxide — Rosacea에 듣는다 — 항목 생성(benzoyl-peroxide-rosacea-pos)  <!-- PubMed PMID 37636253 -->
 - [x] benzoyl peroxide — Seborrheic Dermatitis에 듣는다 — 근거 부족(2026-08-15, 직접 수치 비교를 확인하지 못함)
 - [x] benzoyl peroxide — Hidradenitis Suppurativa에 듣는다 — 항목 생성(benzoyl-peroxide-hidradenitis-suppurativa-null)  <!-- PubMed PMID 37080176 -->
+- [x] 마그네슘 — 월경 전 증상에 듣는다 — 항목 생성(magnesium-premenstrual-syndrome-pos) <!-- PubMed PMID 9861593 -->
+- [x] 마그네슘 — 만성 변비에 듣는다 — 항목 생성(magnesium-constipation-pos) <!-- PubMed PMID 32969946 -->
+- [x] 오메가3 — 안구건조에 듣는다 — 항목 생성(omega-3-dry-eye-pos) <!-- PubMed PMID 38002640 -->
+- [x] 오메가3 — ADHD에 듣는다 — 항목 생성(omega-3-adhd-pos) <!-- PubMed PMID 28741625·21961774 -->
+- [x] 오메가3 — 조현병에 듣는다 — 항목 생성(omega-3-schizophrenia-null) <!-- PubMed PMID 25363186 -->
+- [x] 프로바이오틱스 — 궤양성 대장염에 듣는다 — 항목 생성(probiotics-ulcerative-colitis-pos) <!-- PubMed PMID 20397271·38446227 -->
+- [x] 프로바이오틱스 — 세균성 질염에 듣는다 — 항목 생성(probiotics-bacterial-vaginosis-pos) <!-- PubMed PMID 31614736·35698149 -->
+- [x] 프로바이오틱스 — 항생제 관련 설사에 듣는다 — 항목 생성(probiotics-antibiotic-associated-diarrhea-pos) <!-- PubMed PMID 34385227 -->
+- [x] 비타민D — 당뇨 전단계에 듣는다 — 기존 항목 연결(vitamin-d-diabetes-pos) <!-- PubMed PMID 36745886 -->
+- [x] 비타민D — 아토피 피부염에 듣는다 — 항목 생성(vitamin-d-atopic-dermatitis-pos) <!-- PubMed PMID 39683522 -->
+- [x] 비타민D — 간질에 듣는다 — 항목 생성(vitamin-d-epilepsy-null) <!-- PubMed PMID 40516032·38980968 -->
+- [x] 녹차 — 인지 저하에 듣는다 — 항목 생성(green-tea-cognition-pos) <!-- PubMed PMID 39213264 -->
+- [x] 녹차 — 비알코올성 지방간에 듣는다 — 항목 생성(green-tea-nonalcoholic-fatty-liver-pos) <!-- PubMed PMID 26955458·24065295 -->
+- [x] 녹차 — 류마티스관절염에 듣는다 — 근거 부족(2026-08-15, 직접 녹차 개입군과 대조군의 정량 결과를 확인하지 못함)
+- [x] 꿀 — 상처 치유에 듣는다 — 기존 항목 연결(honey-wound-healing-pos) <!-- PubMed PMID 37032304 -->
+- [x] 꿀 — 화상에 듣는다 — 항목 생성(honey-burns-pos) <!-- PubMed PMID 19648986 -->
+- [x] 꿀 — 구강 점막염에 듣는다 — 기존 항목 연결(honey-oral-mucositis-pos) <!-- PubMed PMID 25778825 -->
+- [x] 올리브오일 — 고혈압에 듣는다 — 항목 생성(olive-oil-hypertension-null) <!-- PubMed PMID 41520410 -->
+- [x] 올리브오일 — 당뇨병에 듣는다 — 기존 항목 연결(olive-oil-diabetes-open) <!-- PubMed PMID 36343558 -->
+- [x] 올리브오일 — 류마티스관절염에 듣는다 — 항목 생성(olive-oil-rheumatoid-arthritis-pos) <!-- PubMed PMID 36839323 -->
+- [x] 요가 — 요통에 듣는다 — 항목 생성(yoga-low-back-pain-pos) <!-- PubMed PMID 34326296 -->
+- [x] 요가 — 불안에 듣는다 — 기존 항목 연결(yoga-anxiety-pos) <!-- PubMed PMID 29697885 -->
+- [x] 요가 — 고혈압에 듣는다 — 기존 항목 연결(yoga-hypertension-pos) <!-- PubMed PMID 40367243 -->
+- [x] 마음챙김 — 만성 통증에 듣는다 — 기존 항목 연결(mindfulness-pain-pos) <!-- PubMed PMID 27658913 -->
+- [x] 마음챙김 — 과민성장증후군에 듣는다 — 항목 생성(mindfulness-irritable-bowel-pos) <!-- PubMed PMID 36362745 -->
+- [x] 마음챙김 — 류마티스관절염에 듣는다 — 항목 생성(mindfulness-rheumatoid-arthritis-pos) <!-- PubMed PMID 31957665·30338418 -->
+- [x] 멜라토닌 — 편두통에 듣는다 — 항목 생성(melatonin-migraine-pos) <!-- PubMed PMID 36445912 -->
+- [x] 멜라토닌 — 이명에 듣는다 — 항목 생성(melatonin-tinnitus-pos) <!-- PubMed PMID 28966750 -->
+- [x] 멜라토닌 — 피로에 듣는다 — 항목 생성(melatonin-fatigue-pos) <!-- PubMed PMID 40888191·39733381 -->
