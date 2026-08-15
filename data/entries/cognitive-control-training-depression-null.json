@@ -1,33 +1,37 @@
 {
- "id": "cognitive-control-training-depression-null",
- "subj": "인지조절 훈련",
- "claim": "인지 조절 훈련은 주요우울삽화 환자의 반추와 우울 증상을 위약 훈련보다 줄이지 못했다",
- "line": "우울 증상에서 인지조절 훈련의 효과는 확인되지 않았다.",
- "effect": "반추·우울 증상 군 간 차이 없음",
- "tier": "trial",
- "dir": "null",
- "n": 65,
- "synth": "single",
- "known": "off",
- "knownWhy": "인지 조절 훈련은 비약물 인지 중재이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
- "why": "주요우울삽화 환자를 인지 조절 훈련군과 위약 훈련군으로 무작위 배정했다.",
- "saw": "65명이 10회 훈련에 무작위 배정됐지만 인지 조절 훈련은 위약 훈련보다 일상 반추의 빈도·부정성, 우울 증상, 장애를 더 줄이지 못했다.",
- "limit": "현재 우울삽화 환자에 대한 단일 무작위시험이며 장기 재발 예방 효과는 확인하지 않았다.",
- "against": "훈련 과제 수행은 더 좋아졌지만 임상 결과로 전이되지 않았다.",
- "use": "우울증의 반추를 줄이는 단독 중재로 사용하지 말고 추가 시험을 기다립니다.",
- "refs": [
-  {
-   "label": "주요우울삽화 인지 조절 훈련 무작위시험",
-   "doi": "10.1016/j.brat.2024.104521",
-   "pmid": "38615373"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=cognitive control training AND condition=Depression; 17건",
-  "pubmed": "cognitive control training AND Depression; 8035건",
-  "negative": "cognitive control training AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 5428건",
-  "safety": "cognitive control training AND (adverse OR toxicity OR case report OR harm OR dropout); 4903건"
- },
- "vs": "인지조절 훈련 대 위약 훈련: 일상 반추 빈도·부정성, 우울 증상·장애에서 더 큰 감소 없음"
+  "id": "cognitive-control-training-depression-null",
+  "subj": "인지조절 훈련",
+  "claim": "웹 기반 정서·인지 훈련은 우울 증상 전체를 줄이지 못했지만 불안이 동반된 청소년의 완화 가능성을 높일 수 있다",
+  "line": "우울 증상에서 인지조절 훈련의 효과는 확인되지 않았다.",
+  "effect": "전체 p=.31; 하위군 OR1.39",
+  "tier": "trial",
+  "dir": "null",
+  "n": 436,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "인지 조절 훈련은 비약물 인지 중재이며 우울증에 의약품 허가 적응증을 적용하지 않는다.",
+  "why": "주요우울삽화 환자를 인지 조절 훈련군과 위약 훈련군으로 무작위 배정했다.",
+  "saw": "우울 증상이 있는 중국 청소년 436명이 웹 기반 정서 인지훈련 212명과 온라인 심리교육 224명에 무작위 배정됐다. 전체 우울 증상의 군×시간 상호작용은 유의하지 않았지만, 불안 증상이 있는 하위군의 중재군 우울 완화 오즈비는 1.39(95% CI 1.05~1.85, p=.02, NNT=7)였다. 대인 지지 회복력 차이는 1.79(95% CI .53~3.06, d=.37, p=.006)였다.",
+  "limit": "전체 우울 증상에는 유의한 군 차이가 없었고 하위군 분석은 탐색적이다.",
+  "against": "훈련 과제 수행은 더 좋아졌지만 임상 결과로 전이되지 않았다.",
+  "use": "우울증의 반추를 줄이는 단독 중재로 사용하지 말고 추가 시험을 기다립니다.",
+  "refs": [
+    {
+      "label": "주요우울삽화 인지 조절 훈련 무작위시험",
+      "doi": "10.1016/j.brat.2024.104521",
+      "pmid": "38615373"
+    },
+    {
+      "label": "Brief Web-Based Psychological Intervention for Depressive Symptoms Among Chinese Adolescents: Randomized Controlled Trial",
+      "pmid": "42567535"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=cognitive control training AND condition=Depression; 17건",
+    "pubmed": "cognitive control training AND Depression; 8035건; PMID 42567535 PubMed abstract verified 2026-08-15",
+    "negative": "cognitive control training AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference); 5428건",
+    "safety": "cognitive control training AND (adverse OR toxicity OR case report OR harm OR dropout); 4903건"
+  },
+  "vs": "웹 기반 정서·인지훈련 n=212 vs 심리교육 n=224: 전체 p=.31; 불안 동반 하위군 완화 OR=1.39(95% CI 1.05~1.85), NNT=7."
 }

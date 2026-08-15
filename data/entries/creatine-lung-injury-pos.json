@@ -16,13 +16,17 @@
   "use": "사람 치료 근거로 확장하지 않고 폐 이식 동물모델의 전임상 신호로만 참고합니다.",
   "effect": "염증·폐부종 감소",
   "refs": [
-    { "label": "Macedo 2020 · Transplantation Proceedings · 폐 이식 쥐 허혈재관류 모델", "pmid": "32927837" }
+    {
+      "label": "Macedo 2020 · Transplantation Proceedings · 폐 이식 쥐 허혈재관류 모델",
+      "pmid": "32927837"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=creatine, cond=Lung Injury → 3건 반환·1건 직접 대조",
-    "pubmed": "creatine AND Lung Injury → 313건",
+    "pubmed": "creatine AND Lung Injury → 313건; PubMed abstract verified 2026-08-15; PMID 21391924는 크레아틴이 아니라 N-아세틸시스테인, PMID 19787388은 사지 허혈 전처리 연구임.",
     "negative": "creatine AND Lung Injury AND (no effect OR did not OR failed to OR negative OR no significant difference) → 217건",
     "safety": "creatine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 17028건"
-  }
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: PMID 21391924는 크레아틴이 아니라 N-아세틸시스테인, PMID 19787388은 사지 허혈 전처리 연구임."
 }

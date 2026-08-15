@@ -1,16 +1,16 @@
 {
   "id": "mango-gut-health-pos",
   "subj": "망고",
-  "claim": "망고를 장 건강과 장내 미생물에 쓴다",
+  "claim": "신선한 망고는 과체중·비만 성인의 장내 미생물 다양성을 높일 수 있지만 장 투과성 단백질은 바꾸지 못했다",
   "line": "망고 섭취 후 저지방 쿠키보다 장내 미생물 다양성과 일부 균주가 달라졌습니다",
-  "effect": "알파 다양성 증가; 베타 다양성 차이",
+  "effect": "미생물 다양성 망고>쿠키",
   "tier": "trial",
   "dir": "pos",
   "n": 27,
   "synth": "single",
   "why": "과체중 또는 비만 성인에서 신선한 망고와 저지방 쿠키를 비교한 12주 교차시험이 장내 미생물 다양성과 일부 균주 구성을 평가했습니다.",
-  "saw": "27명이 하루 100 kcal의 망고 또는 저지방 쿠키를 12주간 먹고 4주 세척기간을 거쳤습니다. 망고 조건은 4주에 Shannon-Wiener와 Simpson 알파 다양성이 높았고 12주에 베타 다양성이 달랐습니다. Prevotella maculosa·Corynebacterium pyruviciproducens·Mogibacterium timidum이 늘고 Prevotella copri가 줄었습니다.",
-  "limit": "27명의 과체중 또는 비만 성인을 대상으로 한 교차시험이며 장기 임상 결과나 모든 장 질환 환자에 대한 효과를 평가하지 않았습니다.",
+  "saw": "과체중·비만 성인 27명이 12주 교차시험에서 하루 100 kcal 망고와 저지방 쿠키를 각각 섭취했다. 4주 망고 기간의 Shannon-Wiener·Simpson 알파 다양성이 높았고, 12주에는 베타 다양성이 달랐다. 장 투과성 단백질과 배변 빈도·통증·변비는 유의한 차이가 없었다.",
+  "limit": "표본이 27명이고 장내 미생물 변화가 임상적 장 건강 개선으로 이어지는지는 확인되지 않았다.",
   "against": "장내 미생물 구성 변화가 증상 개선이나 질병 치료로 이어지는지는 확인하지 않았습니다.",
   "use": "장내 미생물 신호를 관찰한 식이 연구로 기록하며 장 질환 치료를 대신하지 않습니다.",
   "refs": [
@@ -21,12 +21,13 @@
     }
   ],
   "queried": {
-    "date": "2026-08-07",
+    "date": "2026-08-15",
     "ctgov": "query.intr=mango AND query.cond=Gut Health → 7건, mango 개입명 일치 6건",
-    "pubmed": "mango AND Gut Health → 33건",
+    "pubmed": "mango AND Gut Health → 33건; PMID 37051355 PubMed abstract verified 2026-08-15",
     "negative": "mango AND Gut Health AND (no effect OR did not OR failed OR negative OR no significant difference) → 23건",
     "safety": "mango AND (adverse OR toxicity OR case report OR harm OR dropout) → 678건"
   },
   "known": "off",
-  "knownWhy": "망고는 허가 적응증이 없는 식품입니다."
+  "knownWhy": "망고는 허가 적응증이 없는 식품입니다.",
+  "vs": "신선한 망고 vs 저지방 쿠키, n=27: 장내 미생물 알파·베타 다양성은 망고에서 높음; 장 투과성 단백질 차이 없음."
 }

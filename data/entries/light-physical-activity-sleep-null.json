@@ -1,32 +1,33 @@
 {
- "id": "light-physical-activity-sleep-null",
- "subj": "저강도 신체활동",
- "claim": "가벼운 신체활동은 수면을 개선하는가",
- "line": "일상 비구조화 활동은 수면을 유의하게 개선하지 못했습니다",
- "effect": "수면 변화 유의하지 않음",
- "tier": "obs",
- "dir": "null",
- "n": 8551,
- "synth": "meta",
- "known": "off",
- "knownWhy": "비약물 행동이라 의약품 허가 적응증이 적용되지 않습니다.",
- "why": "일상 속 비구조화 신체활동·걷기·스탠딩 중재 무작위시험 38편, 성인 8,551명을 합친 체계적 문헌고찰과 메타분석입니다.",
- "saw": "중등도 이상 활동과 좌식시간·걸음 수는 일부 개선됐지만 서술 분석에서 가벼운 활동과 수면 변화는 유의하지 않았습니다.",
- "limit": "가벼운 활동 중재의 수면 자료가 적고 활동 강도·프로그램이 달라 특정 수면장애에 대한 결론으로 쓸 수 없습니다.",
- "against": "전체 중재는 우울·자기효능감과 일부 신체 결과를 개선했지만 수면·체중·허리둘레 효과는 유의하지 않거나 일관되지 않았습니다.",
- "use": "수면 개선을 위해 가벼운 활동을 권할 때 활동 자체의 건강 이점과 수면효과의 불확실성을 분리해 설명합니다.",
- "refs": [
-  {
-   "label": "Unraveling the miscellaneous physical and psychological effects of unstructured physical activity interventions in adults · systematic review and meta-analysis",
-   "pmid": "42341708",
-   "doi": "10.1016/j.ijnurstu.2026.105606"
-  }
- ],
- "queried": {
-  "date": "2026-08-09",
-  "ctgov": "query.term=AREA[InterventionName]light physical activity AND AREA[ConditionSearch]Sleep → 116건, exact InterventionName 0건",
-  "pubmed": "\"light physical activity\" AND \"Sleep\" → 287건",
-  "negative": "\"light physical activity\" AND \"Sleep\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 71건",
-  "safety": "\"light physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 115건"
- }
+  "id": "light-physical-activity-sleep-null",
+  "subj": "저강도 신체활동",
+  "claim": "가벼운 신체활동은 수면을 개선하는가",
+  "line": "일상 비구조화 활동은 수면을 유의하게 개선하지 못했습니다",
+  "effect": "수면 변화 유의하지 않음",
+  "tier": "obs",
+  "dir": "null",
+  "n": 8551,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 행동이라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "일상 속 비구조화 신체활동·걷기·스탠딩 중재 무작위시험 38편, 성인 8,551명을 합친 체계적 문헌고찰과 메타분석입니다.",
+  "saw": "중등도 이상 활동과 좌식시간·걸음 수는 일부 개선됐지만 서술 분석에서 가벼운 활동과 수면 변화는 유의하지 않았습니다.",
+  "limit": "가벼운 활동 중재의 수면 자료가 적고 활동 강도·프로그램이 달라 특정 수면장애에 대한 결론으로 쓸 수 없습니다.",
+  "against": "전체 중재는 우울·자기효능감과 일부 신체 결과를 개선했지만 수면·체중·허리둘레 효과는 유의하지 않거나 일관되지 않았습니다.",
+  "use": "수면 개선을 위해 가벼운 활동을 권할 때 활동 자체의 건강 이점과 수면효과의 불확실성을 분리해 설명합니다.",
+  "refs": [
+    {
+      "label": "Unraveling the miscellaneous physical and psychological effects of unstructured physical activity interventions in adults · systematic review and meta-analysis",
+      "pmid": "42341708",
+      "doi": "10.1016/j.ijnurstu.2026.105606"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.term=AREA[InterventionName]light physical activity AND AREA[ConditionSearch]Sleep → 116건, exact InterventionName 0건",
+    "pubmed": "\"light physical activity\" AND \"Sleep\" → 287건; PubMed abstract verified 2026-08-15; 확인된 PMID 41881744는 수면 연장에 따른 저강도 활동 변화이며 저강도 신체활동의 수면 중재시험이 아님.",
+    "negative": "\"light physical activity\" AND \"Sleep\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 71건",
+    "safety": "\"light physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 115건"
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: 확인된 PMID 41881744는 수면 연장에 따른 저강도 활동 변화이며 저강도 신체활동의 수면 중재시험이 아님."
 }

@@ -1,32 +1,37 @@
 {
- "id": "home-sleep-apnea-test-atrial-fibrillation-pos",
- "subj": "가정 수면무호흡 검사",
- "claim": "심방세동 환자에서 가정 수면무호흡 검사로 중등도 이상 무호흡을 선별한다",
- "line": "가정 수면무호흡 검사는 심방세동 환자의 무호흡을 확인했습니다",
- "effect": "중등도 이상 수면무호흡 53.2%",
- "tier": "obs",
- "dir": "pos",
- "n": 776,
- "synth": "single",
- "known": "off",
- "knownWhy": "가정 수면무호흡 검사는 의약품 허가 적응증이 아닌 진단·선별 검사다",
- "why": "심방세동 절제술 전 환자에게 가정 수면무호흡 검사를 시행한 후향적 코호트에서 검사 성공률이 높았고 중등도 이상 수면무호흡이 흔했다.",
- "saw": "환자 776명 중 774명이 검사를 완료했고 53.2%에서 중등도 이상 폐쇄성 수면무호흡이 확인됐다. 검사 성공률은 99.7%였다.",
- "limit": "무작위 비교가 없는 단일 코호트이며 절제술 전 환자라 다른 심방세동 환자에게 일반화하기 어렵다.",
- "against": "수면무호흡 검사가 심방세동 재발이나 절제술 결과를 개선하는지는 이 연구에서 평가하지 않았다.",
- "use": "심방세동 환자에서 증상과 전형적 위험요인이 없어도 수면무호흡 선별을 검토할 때 참고한다.",
- "refs": [
-  {
-   "label": "Home Sleep Apnea Testing in Patients With Atrial Fibrillation Before Catheter Ablation 2020 · Circulation Journal",
-   "doi": "10.1253/circj.CJ-20-0782",
-   "pmid": "33298643"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=home sleep apnea test AND condition=Atrial Fibrillation; 6건 반환, 중재명 일치 0건",
-  "pubmed": "home sleep apnea test AND Atrial Fibrillation; 31건",
-  "negative": "home sleep apnea test AND Atrial Fibrillation AND (no effect OR did not OR failed to OR negative OR no significant difference); 14건",
-  "safety": "home sleep apnea test AND (adverse OR toxicity OR case report OR harm OR dropout); 2건"
- }
+  "id": "home-sleep-apnea-test-atrial-fibrillation-pos",
+  "subj": "가정 수면무호흡 검사",
+  "claim": "심방세동 절제 전 가정 수면무호흡 검사를 포함한 통합 생활습관 관리는 재시술과 전기적 심율동전환을 줄일 수 있다",
+  "line": "가정 수면무호흡 검사는 심방세동 환자의 무호흡을 확인했습니다",
+  "effect": "통합 생활습관 RR=.49(95%CI)",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 145,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가정 수면무호흡 검사는 의약품 허가 적응증이 아닌 진단·선별 검사다",
+  "why": "심방세동 절제술 전 환자에게 가정 수면무호흡 검사를 시행한 후향적 코호트에서 검사 성공률이 높았고 중등도 이상 수면무호흡이 흔했다.",
+  "saw": "첫 심방세동 절제를 앞둔 145명이 표준 상담군 70명과 가정 수면무호흡 검사·체중·음주·흡연·혈압·지질 관리를 포함한 통합 생활습관군 75명에 배정됐다. 12개월 재절제·전기적 심율동전환 사건은 52회 vs 25회, 발생률 RR=.49(95% CI .30~.78, p=.004)였다.",
+  "limit": "가정 수면무호흡 검사만의 효과가 아니라 여러 생활습관 요소를 함께 평가한 복합 중재다.",
+  "against": "수면무호흡 검사가 심방세동 재발이나 절제술 결과를 개선하는지는 이 연구에서 평가하지 않았다.",
+  "use": "심방세동 환자에서 증상과 전형적 위험요인이 없어도 수면무호흡 선별을 검토할 때 참고한다.",
+  "refs": [
+    {
+      "label": "Home Sleep Apnea Testing in Patients With Atrial Fibrillation Before Catheter Ablation 2020 · Circulation Journal",
+      "doi": "10.1253/circj.CJ-20-0782",
+      "pmid": "33298643"
+    },
+    {
+      "label": "Improving outcomes of atrial fibrillation ablation by integrated personalized lifestyle interventions: a randomized controlled trial",
+      "pmid": "40884040"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=home sleep apnea test AND condition=Atrial Fibrillation; 6건 반환, 중재명 일치 0건",
+    "pubmed": "home sleep apnea test AND Atrial Fibrillation; 31건; PMID 40884040 PubMed abstract verified 2026-08-15",
+    "negative": "home sleep apnea test AND Atrial Fibrillation AND (no effect OR did not OR failed to OR negative OR no significant difference); 14건",
+    "safety": "home sleep apnea test AND (adverse OR toxicity OR case report OR harm OR dropout); 2건"
+  },
+  "vs": "통합 생활습관+가정 수면무호흡 검사 n=75 vs 표준상담 n=70: 사건 RR=.49(95% CI .30~.78, p=.004)."
 }

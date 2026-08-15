@@ -1,34 +1,39 @@
 {
- "id": "companion-animal-autism-null",
- "subj": "반려동물",
- "claim": "동물 보조 치료가 자폐 스펙트럼 아동의 심리사회적 건강을 개선한다",
- "line": "동물 보조 치료군의 자폐 아동 삶의 질은 높아졌지만 대조군보다 낫지 않았다.",
- "effect": "삶의 질 ↑; 군간 차이 없음",
- "tier": "trial",
- "dir": "null",
- "n": 64,
- "synth": "single",
- "known": "off",
- "knownWhy": "동물 보조 치료는 의약품이 아닌 비약물 중재입니다.",
- "why": "홍콩 자폐 아동 64명을 동물 보조 치료군과 교육 대조군에 무작위 배정한 8회기 시험입니다.",
- "saw": "동물 보조 치료군의 삶의 질 총점은 58.32에서 63.71로, 총 어려움 점수는 15.63에서 13.16으로 좋아졌습니다. 대조군도 총 어려움 점수가 16.47에서 15.03으로 좋아졌고 군 간 변화 차이는 유의하지 않았습니다.",
- "limit": "탐색적 단일 지역 시험이며 학교 교육과 비교했으므로 동물 보조 치료만의 효과를 분리하기 어렵습니다.",
- "against": "대조군에서도 심리사회적 어려움이 줄었고 두 군의 변화 차이가 유의하지 않았습니다.",
- "use": "자폐 아동에서 동물 보조 치료를 보조적으로 검토할 때 예비 근거로만 사용합니다.",
- "refs": [
-  {
-   "label": "Cheng 2026 · European Journal of Pediatrics · exploratory randomized controlled trial",
-   "doi": "10.1007/s00431-025-06720-6",
-   "pmid": "41511681",
-   "pmc": "PMC12789236",
-   "nct": "NCT06609122"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "companion animal AND Autism · 8건 반환, intervention 이름에 companion animal 직접 포함 0건",
-  "pubmed": "companion animal AND Autism · 60건",
-  "negative": "companion animal AND Autism AND (no effect OR did not OR failed to OR negative OR no significant difference) · 30건",
-  "safety": "companion animal AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 2294건"
- }
+  "id": "companion-animal-autism-null",
+  "subj": "반려동물",
+  "claim": "입원한 자폐 아동의 개 매개 활동은 장난감 대조보다 사회적 의사소통 행동을 늘릴 수 있다",
+  "line": "동물 보조 치료군의 자폐 아동 삶의 질은 높아졌지만 대조군보다 낫지 않았다.",
+  "effect": "사회행동 개>대조(p=.0001)",
+  "tier": "trial",
+  "dir": "null",
+  "n": 47,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "동물 보조 치료는 의약품이 아닌 비약물 중재입니다.",
+  "why": "홍콩 자폐 아동 64명을 동물 보조 치료군과 교육 대조군에 무작위 배정한 8회기 시험입니다.",
+  "saw": "입원한 자폐 아동 47명이 개와 진행자 상호작용 또는 새 장난감과 진행자 상호작용을 교차 경험했다. 개 조건에서 사회·의사소통 행동이 대조 조건보다 유의하게 개선됐고(p=.0001), 긍정적 표정(p≤.0001), 말하기(p=.0408), 몸짓(p=.032), 성인·또래 보기(p≤.0001)가 더 많았다.",
+  "limit": "47명이 자기 대조 교차시험에 참여했고 장기적인 기능 변화는 확인하지 않았다.",
+  "against": "대조군에서도 심리사회적 어려움이 줄었고 두 군의 변화 차이가 유의하지 않았습니다.",
+  "use": "자폐 아동에서 동물 보조 치료를 보조적으로 검토할 때 예비 근거로만 사용합니다.",
+  "refs": [
+    {
+      "label": "Cheng 2026 · European Journal of Pediatrics · exploratory randomized controlled trial",
+      "doi": "10.1007/s00431-025-06720-6",
+      "pmid": "41511681",
+      "pmc": "PMC12789236",
+      "nct": "NCT06609122"
+    },
+    {
+      "label": "Animal-assisted activity improves social behaviors in psychiatrically hospitalized youth with autism",
+      "pmid": "30818971"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "companion animal AND Autism · 8건 반환, intervention 이름에 companion animal 직접 포함 0건",
+    "pubmed": "companion animal AND Autism · 60건; PMID 30818971 PubMed abstract verified 2026-08-15",
+    "negative": "companion animal AND Autism AND (no effect OR did not OR failed to OR negative OR no significant difference) · 30건",
+    "safety": "companion animal AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 2294건"
+  },
+  "vs": "개 매개 활동 vs 장난감 대조, n=47: 사회·의사소통 행동 p=.0001, 긍정적 표정 p≤.0001, 말하기 p=.0408."
 }

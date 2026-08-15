@@ -1,36 +1,37 @@
 {
- "id": "financial-coaching-mental-disorders-pos",
- "subj": "재정 코칭",
- "claim": "금융 코칭이 경제 취약 성인의 정신건강과 재정 지표를 개선했다",
- "line": "금융 코칭 뒤 정신건강과 재정 지표가 함께 개선됐다.",
- "effect": "우울·불안·스트레스 감소; 신용점수·임금 개선",
- "tier": "obs",
- "dir": "pos",
- "n": 100,
- "synth": "single",
- "known": "off",
- "knownWhy": "금융 코칭은 정신질환의 허가 치료 적응증이 아닙니다",
- "why": "경제적 불안과 정신건강 문제가 함께 있는 사람에게 재정 지원이 정신건강 지표에도 영향을 주는지 확인합니다.",
- "saw": "12개월 비무작위 실행가능성 시험에 미혼모 100명이 등록했고 72명이 완료했습니다. 신용점수·임금과 함께 우울·불안·스트레스가 개선됐습니다.",
- "limit": "무작위 대조군이 없고 자기보고 전후 비교라 금융 코칭의 독립 효과를 확정할 수 없습니다.",
- "against": "연구는 정신질환 진단군이 아니라 경제 취약 미혼모를 대상으로 했습니다.",
- "use": "정신건강 지원과 금융 상담을 함께 제공하는 프로그램의 예비 근거로 검토합니다.",
- "refs": [
-  {
-   "label": "Langhinrichsen-Rohling 2026 · 금융 코칭과 모성 정신건강 실행가능성 시험",
-   "doi": "10.1002/ajcp.70087",
-   "pmid": "42371683"
+  "id": "financial-coaching-mental-disorders-pos",
+  "subj": "재정 코칭",
+  "claim": "금융 코칭이 경제 취약 성인의 정신건강과 재정 지표를 개선했다",
+  "line": "금융 코칭 뒤 정신건강과 재정 지표가 함께 개선됐다.",
+  "effect": "우울·불안·스트레스 감소; 신용점수·임금 개선",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "금융 코칭은 정신질환의 허가 치료 적응증이 아닙니다",
+  "why": "경제적 불안과 정신건강 문제가 함께 있는 사람에게 재정 지원이 정신건강 지표에도 영향을 주는지 확인합니다.",
+  "saw": "12개월 비무작위 실행가능성 시험에 미혼모 100명이 등록했고 72명이 완료했습니다. 신용점수·임금과 함께 우울·불안·스트레스가 개선됐습니다.",
+  "limit": "무작위 대조군이 없고 자기보고 전후 비교라 금융 코칭의 독립 효과를 확정할 수 없습니다.",
+  "against": "연구는 정신질환 진단군이 아니라 경제 취약 미혼모를 대상으로 했습니다.",
+  "use": "정신건강 지원과 금융 상담을 함께 제공하는 프로그램의 예비 근거로 검토합니다.",
+  "refs": [
+    {
+      "label": "Langhinrichsen-Rohling 2026 · 금융 코칭과 모성 정신건강 실행가능성 시험",
+      "doi": "10.1002/ajcp.70087",
+      "pmid": "42371683"
+    },
+    {
+      "label": "금융 역량·정신건강 코칭 ClinicalTrials.gov",
+      "nct": "NCT06914856"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=financial coaching AND condition=Mental Disorders; 3건; NCT06914856 직접 대조",
+    "pubmed": "financial coaching mental health financial capability randomized; PMID42371683; PubMed abstract verified 2026-08-15; 확인된 PMID 42284931은 오피오이드 사용장애 상담자 CRAFT 훈련이고 정신질환 환자 재정 코칭 결과가 아님.",
+    "negative": "financial coaching mental health AND (no effect OR failed OR negative); 무작위 반대 결과 직접 대조",
+    "safety": "financial coaching mental health AND (adverse OR dropout); 프로그램 수용도·중도탈락 대조"
   },
-  {
-   "label": "금융 역량·정신건강 코칭 ClinicalTrials.gov",
-   "nct": "NCT06914856"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "intervention=financial coaching AND condition=Mental Disorders; 3건; NCT06914856 직접 대조",
-  "pubmed": "financial coaching mental health financial capability randomized; PMID42371683",
-  "negative": "financial coaching mental health AND (no effect OR failed OR negative); 무작위 반대 결과 직접 대조",
-  "safety": "financial coaching mental health AND (adverse OR dropout); 프로그램 수용도·중도탈락 대조"
- }
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: 확인된 PMID 42284931은 오피오이드 사용장애 상담자 CRAFT 훈련이고 정신질환 환자 재정 코칭 결과가 아님."
 }

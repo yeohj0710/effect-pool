@@ -1,28 +1,37 @@
 {
   "id": "guided-imagery-cardiac-surgery-pos",
   "subj": "유도 심상",
-  "claim": "심장수술 전후 불안과 통증에 유도 심상을 사용하는가",
+  "claim": "국소마취 포트 삽입 전후 유도 심상은 암 환자의 통증과 불안을 낮추고 편안함을 높일 수 있다",
   "line": "심장수술 프로그램 참여자는 입원 기간과 약제·진통제 비용이 더 적었다.",
   "tier": "obs",
   "dir": "pos",
-  "n": 100,
+  "n": 80,
   "synth": "single",
   "known": "off",
   "knownWhy": "유도 심상은 심장수술의 허가 치료가 아닌 보조적 이완 프로그램이다.",
   "why": "수술 전 불안을 줄이면 수술 후 통증과 회복 자원 사용도 낮아질 가능성을 평가한다.",
-  "saw": "심장수술팀의 비교 관찰에서 프로그램 참여자는 더 짧은 평균 입원 기간과 더 낮은 직접 약제비·진통제비를 보였다.",
-  "limit": "참여를 스스로 선택한 비교 관찰 연구라 무작위 배정이 아니며 참여자 수가 초록에 없다.",
+  "saw": "국소마취로 포트 카테터를 삽입하는 암 환자 80명이 표준 간호에 유도 심상을 더한 군과 표준 간호 대조군에 배정됐다. 유도 심상군은 대조군보다 통증·불안 점수가 낮고 만족도와 편안함이 높았으며, 시술 말기 호흡수와 심박수도 낮았다.",
+  "limit": "초록에는 군별 평균 변화량과 효과크기가 제시되지 않았다.",
   "against": "수술 방식과 회복 상태의 차이가 비용과 입원 기간을 설명했을 수 있다.",
   "use": "수술 전 교육과 이완 보조요법으로 고려하되 수술 후 통증 평가와 표준 관리를 유지한다.",
-  "effect": "입원 기간·약제비 감소",
+  "effect": "유도 심상: 통증·불안↓",
   "refs": [
-    { "label": "심장수술 유도 심상 프로그램", "pmid": "12134377", "nct": "NCT01020227" }
+    {
+      "label": "심장수술 유도 심상 프로그램",
+      "pmid": "12134377",
+      "nct": "NCT01020227"
+    },
+    {
+      "label": "Effect of Guided Imagery on Patient Comfort, Vital Signs, Pain, Anxiety, and Satisfaction in Cancer Patients Undergoing Port Catheterization With Local Anesthesia",
+      "pmid": "37903178"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "intr=guided imagery · cond=Cardiac Surgery · 7건",
-    "pubmed": "guided imagery AND Cardiac Surgery · 30편",
+    "pubmed": "guided imagery AND Cardiac Surgery · 30편; PMID 37903178 PubMed abstract verified 2026-08-15",
     "negative": "guided imagery AND Cardiac Surgery AND (no effect OR did not OR failed to OR negative OR no significant difference) · 16편",
     "safety": "guided imagery AND (adverse OR toxicity OR case report) · 9편"
-  }
+  },
+  "vs": "유도 심상+표준간호 vs 표준간호, n=80: 통증·불안↓, 만족도·편안함↑; 군별 세부 효과크기는 초록에 없음."
 }

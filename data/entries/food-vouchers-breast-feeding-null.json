@@ -1,32 +1,37 @@
 {
- "id": "food-vouchers-breast-feeding-null",
- "subj": "식품 바우처",
- "claim": "모유수유 장려에 식품 바우처를 포함한 인센티브를 쓴 근거는 일관되지 않다",
- "line": "모유수유 인센티브에 식품 바우처를 포함해도 효과는 불확실했다.",
- "effect": "효과 불확실",
- "tier": "obs",
- "dir": "null",
- "n": null,
- "synth": "single",
- "known": "off",
- "knownWhy": "식품 바우처는 모유수유 장려의 허가 적응증이 아니다",
- "why": "모유수유 기간을 늘리기 위해 바우처·현금·식품 꾸러미 등을 사용한 인센티브 연구를 체계적으로 검토했다.",
- "saw": "문헌고찰은 16편을 포함했지만 대부분 다요소 개입이었고, 식품 꾸러미와 바우처가 포함된 인센티브의 전체 효과는 연구 이질성 때문에 불확실했다.",
- "limit": "고품질 무작위시험이 부족하고 바우처 단독 효과를 분리할 수 없다.",
- "against": "인센티브가 모유수유를 늘린다고 일반화할 수 없다.",
- "use": "모유수유 장려 인센티브의 불확실한 근거로만 기록한다.",
- "refs": [
-  {
-   "label": "Moran 2015 · Pediatrics · 체계적 문헌고찰",
-   "doi": "10.1542/peds.2014-2221",
-   "pmid": "25647672"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=food vouchers, cond=Breast Feeding · 2건",
-  "pubmed": "food vouchers AND Breast Feeding · 16편",
-  "negative": "food vouchers AND Breast Feeding AND (no effect OR did not OR failed OR negative OR no significant difference) · 9편",
-  "safety": "food vouchers AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 39편"
- }
+  "id": "food-vouchers-breast-feeding-null",
+  "subj": "식품 바우처",
+  "claim": "WIC 우유 바우처 일부를 요구르트로 바꾸면 임신·수유·산후 여성의 유제품 섭취가 늘 수 있다",
+  "line": "모유수유 인센티브에 식품 바우처를 포함해도 효과는 불확실했다.",
+  "effect": "요구르트 섭취 +1.0 oz/day(p=.09)",
+  "tier": "obs",
+  "dir": "null",
+  "n": 511,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식품 바우처는 모유수유 장려의 허가 적응증이 아니다",
+  "why": "모유수유 기간을 늘리기 위해 바우처·현금·식품 꾸러미 등을 사용한 인센티브 연구를 체계적으로 검토했다.",
+  "saw": "임신·수유·산후 여성 511명이 WIC 우유 바우처 일부를 요구르트로 바꾸는 군과 기존 지원 대조군에 배정됐다. 중재군의 요구르트 섭취는 대조군보다 하루 1.0 oz 늘어나는 경향(p=.09)을 보였고, 기초 섭취가 가장 낮은 군에서는 +2.8 oz/day(p=.003)였다.",
+  "limit": "주요 결과는 수유 자체가 아니라 요구르트 섭취와 선호도였고, 전체 효과는 통계적으로 유의하지 않았다.",
+  "against": "인센티브가 모유수유를 늘린다고 일반화할 수 없다.",
+  "use": "모유수유 장려 인센티브의 불확실한 근거로만 기록한다.",
+  "refs": [
+    {
+      "label": "Moran 2015 · Pediatrics · 체계적 문헌고찰",
+      "doi": "10.1542/peds.2014-2221",
+      "pmid": "25647672"
+    },
+    {
+      "label": "Randomized, controlled trial to examine the impact of providing yogurt to women enrolled in WIC",
+      "pmid": "20399406"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=food vouchers, cond=Breast Feeding · 2건",
+    "pubmed": "food vouchers AND Breast Feeding · 16편; PMID 20399406 PubMed abstract verified 2026-08-15",
+    "negative": "food vouchers AND Breast Feeding AND (no effect OR did not OR failed OR negative OR no significant difference) · 9편",
+    "safety": "food vouchers AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 39편"
+  },
+  "vs": "요구르트 바우처+교육 vs 기존 WIC 지원, n=511: 요구르트 섭취 +1.0 oz/day(p=.09); 저섭취 하위군 +2.8 oz/day(p=.003)."
 }

@@ -1,31 +1,32 @@
 {
- "id": "home-monitoring-heart-block-pos",
- "subj": "가정 모니터링",
- "claim": "심박조율기 가정 모니터링이 완전 방실차단 소아의 전극 이탈을 알아낸다",
- "line": "심박조율기 가정 모니터링이 전극 이탈을 조기에 알아냈습니다",
- "effect": "자동 경고 뒤 전극 이탈 확인",
- "tier": "case",
- "dir": "pos",
- "n": 1,
- "synth": "single",
- "known": "off",
- "knownWhy": "심박조율기 가정 모니터링은 전극 이탈 감지의 허가 적응증이 아닌 기기 감시 사례입니다",
- "why": "수술 뒤 완전 방실차단이 생긴 심박조율기 의존 소아 한 명의 가정 모니터링 사례입니다",
- "saw": "4세 여아의 심박조율기 조율 역치가 오르자 자동 사건 메시지가 전송됐고, 엑스레이에서 심실 전극의 이탈을 확인해 재배치했습니다. 1년 추적에서 안정적이었습니다",
- "limit": "한 명의 사례라서 다른 심박조율기 환자에게 같은 감지 성능이 나오는지는 알 수 없습니다",
- "against": "단일 사례에서 반대 결과나 가정 모니터링 자체의 안전성 비교는 제시되지 않았습니다",
- "use": "가정 모니터링이 심박조율기 이상을 임상 방문 전에 포착한 사례로 기록합니다",
- "refs": [
-  {
-   "label": "Integrated home monitoring predicts lead failure in a pacemaker dependent 4-year-old girl · 증례",
-   "pmid": "17289806"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"home monitoring\" AND \"Heart Block\" → 5건",
-  "pubmed": "\"home monitoring\" AND \"Heart Block\" → 5건, PMID 17289806 직접 증례",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 1건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 2건"
- }
+  "id": "home-monitoring-heart-block-pos",
+  "subj": "가정 모니터링",
+  "claim": "심박조율기 가정 모니터링이 완전 방실차단 소아의 전극 이탈을 알아낸다",
+  "line": "심박조율기 가정 모니터링이 전극 이탈을 조기에 알아냈습니다",
+  "effect": "자동 경고 뒤 전극 이탈 확인",
+  "tier": "case",
+  "dir": "pos",
+  "n": 1,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "심박조율기 가정 모니터링은 전극 이탈 감지의 허가 적응증이 아닌 기기 감시 사례입니다",
+  "why": "수술 뒤 완전 방실차단이 생긴 심박조율기 의존 소아 한 명의 가정 모니터링 사례입니다",
+  "saw": "4세 여아의 심박조율기 조율 역치가 오르자 자동 사건 메시지가 전송됐고, 엑스레이에서 심실 전극의 이탈을 확인해 재배치했습니다. 1년 추적에서 안정적이었습니다",
+  "limit": "한 명의 사례라서 다른 심박조율기 환자에게 같은 감지 성능이 나오는지는 알 수 없습니다",
+  "against": "단일 사례에서 반대 결과나 가정 모니터링 자체의 안전성 비교는 제시되지 않았습니다",
+  "use": "가정 모니터링이 심박조율기 이상을 임상 방문 전에 포착한 사례로 기록합니다",
+  "refs": [
+    {
+      "label": "Integrated home monitoring predicts lead failure in a pacemaker dependent 4-year-old girl · 증례",
+      "pmid": "17289806"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"home monitoring\" AND \"Heart Block\" → 5건",
+    "pubmed": "\"home monitoring\" AND \"Heart Block\" → 5건, PMID 17289806 직접 증례; PubMed abstract verified 2026-08-15; 확인된 PMID 40622967은 공격적 행동 바이오피드백 프로토콜이고 심장차단 가정 모니터링 결과가 아님.",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 1건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 2건"
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: 확인된 PMID 40622967은 공격적 행동 바이오피드백 프로토콜이고 심장차단 가정 모니터링 결과가 아님."
 }

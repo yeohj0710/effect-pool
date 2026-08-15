@@ -1,31 +1,32 @@
 {
- "id": "digital-biomarker-dementia-pos",
- "subj": "디지털 바이오마커",
- "claim": "웨어러블 활동 자료를 이용해 치매 원인을 구분한다",
- "line": "웨어러블 활동 자료 기반 디지털 지표로 치매 원인을 구분했습니다",
- "effect": "치매 원인 구분 정확도 80~89%",
- "tier": "obs",
- "dir": "pos",
- "n": 170,
- "synth": "single",
- "known": "off",
- "knownWhy": "웨어러블 활동 자료 기반 디지털 지표는 진단 보조 기술이며 허가 약물 적응증이 아니다.",
- "why": "기억클리닉 환자와 건강한 고령자가 일주일간 신체 착용 센서를 사용한 단일기관 단면 연구다.",
- "saw": "알츠하이머병 70명, 루이소체병 29명, 뇌혈관질환 23명, 대조군 48명의 활동 자료로 원인을 분류했다.",
- "limit": "알츠하이머병과 건강한 사람의 구분 정확도는 68.8%였고 단일기관 자료라 외부 검증이 필요하다.",
- "against": "치매 원인 분류 성능이 실제 치료 선택이나 환자 예후를 개선하는지는 확인하지 않았다.",
- "use": "치매 감별 진단에서 웨어러블 활동 자료를 보조 지표로 평가할 때 참고한다.",
- "refs": [
-  {
-   "label": "Diagnostic performance of actigraphy in Alzheimer's disease using a machine learning classifier",
-   "pmid": "40399918"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"digital biomarker\" AND \"Dementia\" 검색 14건",
-  "pubmed": "\"digital biomarker\" AND \"Dementia\" 검색 83건; PMID 40399918 직접 센서 연구",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 34건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
- }
+  "id": "digital-biomarker-dementia-pos",
+  "subj": "디지털 바이오마커",
+  "claim": "웨어러블 활동 자료를 이용해 치매 원인을 구분한다",
+  "line": "웨어러블 활동 자료 기반 디지털 지표로 치매 원인을 구분했습니다",
+  "effect": "치매 원인 구분 정확도 80~89%",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 170,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "웨어러블 활동 자료 기반 디지털 지표는 진단 보조 기술이며 허가 약물 적응증이 아니다.",
+  "why": "기억클리닉 환자와 건강한 고령자가 일주일간 신체 착용 센서를 사용한 단일기관 단면 연구다.",
+  "saw": "알츠하이머병 70명, 루이소체병 29명, 뇌혈관질환 23명, 대조군 48명의 활동 자료로 원인을 분류했다.",
+  "limit": "알츠하이머병과 건강한 사람의 구분 정확도는 68.8%였고 단일기관 자료라 외부 검증이 필요하다.",
+  "against": "치매 원인 분류 성능이 실제 치료 선택이나 환자 예후를 개선하는지는 확인하지 않았다.",
+  "use": "치매 감별 진단에서 웨어러블 활동 자료를 보조 지표로 평가할 때 참고한다.",
+  "refs": [
+    {
+      "label": "Diagnostic performance of actigraphy in Alzheimer's disease using a machine learning classifier",
+      "pmid": "40399918"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"digital biomarker\" AND \"Dementia\" 검색 14건",
+    "pubmed": "\"digital biomarker\" AND \"Dementia\" 검색 83건; PMID 40399918 직접 센서 연구; PubMed abstract verified 2026-08-15; PMID 42486877은 디지털 인지검사·바이오마커의 실행 가능성 군집시험으로 진단 효과의 수치 비교가 없음.",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 34건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: PMID 42486877은 디지털 인지검사·바이오마커의 실행 가능성 군집시험으로 진단 효과의 수치 비교가 없음."
 }

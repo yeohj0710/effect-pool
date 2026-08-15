@@ -1,35 +1,36 @@
 {
- "id": "ketone-ester-obesity-null",
- "subj": "케톤 에스터",
- "claim": "비만 제2형 당뇨병에서 체중을 유지한 케톤 식단에 케톤 에스터를 더해도 대사 지표가 좋아지지 않았다",
- "line": "비만 제2형 당뇨병에서 케톤 에스터는 혈당과 인슐린 민감도를 개선하지 않았다.",
- "effect": "혈당·인슐린 민감도 변화 없음",
- "tier": "trial",
- "dir": "null",
- "n": 29,
- "synth": "single",
- "known": "off",
- "knownWhy": "케톤 에스터는 식이 보충제이며 비만 치료제로 허가되지 않았습니다.",
- "why": "과체중·비만 제2형 당뇨병 성인 29명을 체중 유지 표준식, 체중 유지 케톤 식단, 케톤 식단과 케톤 에스터 병용군으로 10일 무작위 배정했습니다.",
- "saw": "세 군 모두 체중·체지방은 유지됐습니다. 케톤 식단군과 케톤 에스터 병용군에서 혈당 내성은 약간 감소하거나 변하지 않았고, 전신·근육·간·지방조직 인슐린 민감도와 혈중 지질·혈압도 변하지 않았습니다.",
- "limit": "29명 규모의 10일 시험이며 체중을 감량하는 조건이 아니었고 케톤 에스터 단독군이 없어 장기 체중 감소 효과는 판단할 수 없습니다.",
- "against": "비만 성인 10명에게 새 lactate-ketone ester를 28일 투여한 교차시험에서는 장기 체중 효과를 평가하지 않았고 가벼운·중등도 위장관 부작용이 보고됐습니다.",
- "use": "비만에서 케톤 에스터를 체중 감량 보충제로 설명할 때 직접 임상효과와 안전성 자료가 아직 제한적임을 보여주는 근거입니다.",
- "refs": [
-  {
-   "label": "Effect of weight-maintaining ketogenic diet on glycemic control and insulin sensitivity in obese T2D subjects",
-   "pmid": "39424350"
+  "id": "ketone-ester-obesity-null",
+  "subj": "케톤 에스터",
+  "claim": "비만 성인의 4주 락테이트-케톤 에스터는 혈중 케톤을 높이고 경도·중등도 위장 증상을 유발할 수 있다",
+  "line": "비만 제2형 당뇨병에서 케톤 에스터는 혈당과 인슐린 민감도를 개선하지 않았다.",
+  "effect": "케톤 상승; 위장 부작용",
+  "tier": "trial",
+  "dir": "null",
+  "n": 10,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "케톤 에스터는 식이 보충제이며 비만 치료제로 허가되지 않았습니다.",
+  "why": "과체중·비만 제2형 당뇨병 성인 29명을 체중 유지 표준식, 체중 유지 케톤 식단, 케톤 식단과 케톤 에스터 병용군으로 10일 무작위 배정했습니다.",
+  "saw": "비만 성인 10명이 락테이트-케톤 에스터와 무열량 위약을 교차 섭취했다. 28일 섭취는 전반적으로 견딜 만했지만 경도·중등도 위장 증상이 동반됐다. 25 mL 복용 뒤 βHB는 0.6 mmol/L, 젖산은 2.15 mmol/L까지 올라갔고 장기 장기기능 지표 변화는 없었다.",
+  "limit": "표본 10명의 단기 안전성 교차시험이라 체중·대사 개선 효과를 판단할 수 없다.",
+  "against": "비만 성인 10명에게 새 lactate-ketone ester를 28일 투여한 교차시험에서는 장기 체중 효과를 평가하지 않았고 가벼운·중등도 위장관 부작용이 보고됐습니다.",
+  "use": "비만에서 케톤 에스터를 체중 감량 보충제로 설명할 때 직접 임상효과와 안전성 자료가 아직 제한적임을 보여주는 근거입니다.",
+  "refs": [
+    {
+      "label": "Effect of weight-maintaining ketogenic diet on glycemic control and insulin sensitivity in obese T2D subjects",
+      "pmid": "39424350"
+    },
+    {
+      "label": "Kinetics, tolerability and safety of (R)-1,3-butanediol (S)-lactate ester in adults with obesity",
+      "pmid": "41391659"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "ketone ester AND Obesity · 8건 반환",
+    "pubmed": "\"ketone ester\" AND Obesity · 23건; PMID 41391659 PubMed abstract verified 2026-08-15",
+    "negative": "\"ketone ester\" AND Obesity AND (no effect/did not/failed/negative/no significant difference/null) · 19건",
+    "safety": "\"ketone ester\" AND Obesity AND (adverse/toxicity/safety/harm/distress/side effect) · 4건"
   },
-  {
-   "label": "Kinetics, tolerability and safety of (R)-1,3-butanediol (S)-lactate ester in adults with obesity",
-   "pmid": "41391659"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "ketone ester AND Obesity · 8건 반환",
-  "pubmed": "\"ketone ester\" AND Obesity · 23건",
-  "negative": "\"ketone ester\" AND Obesity AND (no effect/did not/failed/negative/no significant difference/null) · 19건",
-  "safety": "\"ketone ester\" AND Obesity AND (adverse/toxicity/safety/harm/distress/side effect) · 4건"
- }
+  "vs": "락테이트-케톤 에스터 vs 무열량 위약, n=10: βHB 0.6 mmol/L, 젖산 2.15 mmol/L 상승; 경도·중등도 위장 증상."
 }
