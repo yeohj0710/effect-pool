@@ -1,32 +1,33 @@
 {
- "id": "museum-intervention-cancer-wellbeing-pos",
- "subj": "박물관 중재",
- "claim": "암 치료 중인 입원환자의 웰빙을 높인다",
- "line": "암 병동 입원환자는 박물관 물건을 만진 뒤 웰빙이 높았습니다.",
- "effect": "긍정 정서·웰빙·행복 증가",
- "tier": "obs",
- "dir": "pos",
- "n": null,
- "synth": "single",
- "known": "off",
- "knownWhy": "박물관 물건을 활용한 비약물 문화 중재입니다.",
- "why": "암 치료를 받는 성인 여성 입원환자에게 박물관 물건을 직접 만지고 이야기하는 중재를 적용한 사전·사후 비교연구입니다.",
- "saw": "런던 병원 암 병동 입원환자가 진행자와 박물관 물건을 만지고 이야기한 군과 같은 물건의 사진을 본 대조군으로 나뉘었습니다. 암 환자군의 긍정 정서·웰빙·행복이 대조군보다 유의하게 높아졌습니다.",
- "limit": "초록에 정확한 표본 수가 제시되지 않은 소규모 비무작위 연구라 자기선택과 진행자 영향을 배제할 수 없습니다.",
- "against": "박물관 중재가 통증이나 암의 진행을 줄였는지는 이 연구가 측정하지 않았습니다.",
- "use": "박물관 프로그램을 암 치료로 부르지 말고, 병동의 정서적 웰빙을 보조하는 문화 중재로 평가합니다.",
- "refs": [
-  {
-   "label": "암 병동 박물관 물건 중재 · 웰빙 결과",
-   "doi": "10.1016/j.jpainsymman.2011.10.026",
-   "pmid": "22835481"
-  }
- ],
- "queried": {
-  "date": "2026-08-10",
-  "ctgov": "intr=museum intervention, cond=Pain Cancer · 1건 반환, intervention 이름 일치 0건",
-  "pubmed": "museum AND cancer AND pain · 17편; museum[Title/Abstract] AND cancer[Title/Abstract] AND pain[Title/Abstract] · 3편",
-  "negative": "museum intervention AND pain · 1편, 암 통증 효과를 직접 검증한 음성 결과는 확인하지 못했습니다",
-  "safety": "museum intervention AND (adverse OR toxicity OR harm OR safety) · 직접 검색 결과 없음"
- }
+  "id": "museum-intervention-cancer-wellbeing-pos",
+  "subj": "박물관 중재",
+  "claim": "암 치료 중인 입원환자의 웰빙을 높인다",
+  "line": "암 병동 입원환자는 박물관 물건을 만진 뒤 웰빙이 높았습니다.",
+  "effect": "웰빙·행복 대조보다 개선",
+  "tier": "obs",
+  "dir": "pos",
+  "n": null,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "박물관 물건을 활용한 비약물 문화 중재입니다.",
+  "why": "암 치료를 받는 성인 여성 입원환자에게 박물관 물건을 직접 만지고 이야기하는 중재를 적용한 사전·사후 비교연구입니다.",
+  "saw": "암 치료 중인 여성 입원환자에게 박물관 유물을 직접 만지고 이야기하는 중재와 같은 유물 사진을 보는 대조를 시행했습니다. 유물 중재군에서 긍정정서·웰빙·행복이 대조군보다 유의하게 향상됐습니다.",
+  "limit": "초록에 군별 표본수와 효과크기가 없고 무작위가 아닌 사전·사후 준실험 설계입니다.",
+  "against": "박물관 중재가 통증이나 암의 진행을 줄였는지는 이 연구가 측정하지 않았습니다.",
+  "use": "박물관 프로그램을 암 치료로 부르지 말고, 병동의 정서적 웰빙을 보조하는 문화 중재로 평가합니다.",
+  "refs": [
+    {
+      "label": "암 병동 박물관 물건 중재 · 웰빙 결과",
+      "doi": "10.1016/j.jpainsymman.2011.10.026",
+      "pmid": "22835481"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=museum intervention, cond=Pain Cancer · 1건 반환, intervention 이름 일치 0건",
+    "pubmed": "museum AND cancer AND pain · 17편; museum[Title/Abstract] AND cancer[Title/Abstract] AND pain[Title/Abstract] · 3편; PMID 22835481 PubMed abstract verified 2026-08-15",
+    "negative": "museum intervention AND pain · 1편, 암 통증 효과를 직접 검증한 음성 결과는 확인하지 못했습니다",
+    "safety": "museum intervention AND (adverse OR toxicity OR harm OR safety) · 직접 검색 결과 없음"
+  },
+  "vs": "박물관 유물 vs 사진 대조: 긍정정서·웰빙·행복 유의 개선(수치 미제시; 0건)."
 }

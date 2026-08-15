@@ -1,32 +1,33 @@
 {
- "id": "motion-sensor-sleep-disorders-pos",
- "subj": "동작 센서",
- "claim": "동작 센서를 수면 자세·수면의 질 평가에 쓴다",
- "line": "동작 센서가 수면 중 자세·뒤척임과 수면의 질을 연결했습니다",
- "effect": "13명·15일 수면 측정",
- "tier": "obs",
- "dir": "pos",
- "n": 13,
- "synth": "single",
- "known": "off",
- "knownWhy": "동작 센서 수면 평가는 수면장애의 허가 적응증이 아닌 실험적 측정입니다",
- "why": "유연 센서와 6축 동작 센서로 수면 자세·뒤척임을 측정하고 수면의 질과의 관계를 본 관찰 연구입니다",
- "saw": "수면장애가 없는 13명이 15일 동안 매일 8시간 센서와 수면 밴드를 착용했습니다. 오른쪽으로 눕는 선호와 뒤척임 빈도가 수면의 질과 관련됐습니다",
- "limit": "건강한 사람 13명의 수면 관찰이라 수면장애 환자의 진단·치료 효과를 보여주지 않습니다",
- "against": "수면 자세와 질의 관계는 관찰 연관성이고 센서가 수면을 개선했다는 결과는 아닙니다",
- "use": "동작 센서는 수면장애 치료기가 아니라 자세·뒤척임 측정 도구로 평가합니다",
- "refs": [
-  {
-   "label": "Flexible sensor-based sleeping position and sleep quality · 관찰 연구",
-   "doi": "10.3390/s22166220",
-   "pmid": "36015983"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"motion sensor\" AND \"Sleep Disorders\" → 15건 반환, intervention 이름 대조 통과 3건",
-  "pubmed": "\"motion sensor\" AND \"Sleep Disorders\" → 3건, PMID 36015983 직접 결과",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
-  "safety": "\"motion sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 29건"
- }
+  "id": "motion-sensor-sleep-disorders-pos",
+  "subj": "동작 센서",
+  "claim": "동작 센서를 수면 자세·수면의 질 평가에 쓴다",
+  "line": "동작 센서가 수면 중 자세·뒤척임과 수면의 질을 연결했습니다",
+  "effect": "13명·15일 수면 측정",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 13,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "동작 센서 수면 평가는 수면장애의 허가 적응증이 아닌 실험적 측정입니다",
+  "why": "유연 센서와 6축 동작 센서로 수면 자세·뒤척임을 측정하고 수면의 질과의 관계를 본 관찰 연구입니다",
+  "saw": "수면장애가 없는 13명이 15일 동안 매일 8시간 센서와 수면 밴드를 착용했습니다. 오른쪽으로 눕는 선호와 뒤척임 빈도가 수면의 질과 관련됐습니다",
+  "limit": "건강한 사람 13명의 수면 관찰이라 수면장애 환자의 진단·치료 효과를 보여주지 않습니다",
+  "against": "수면 자세와 질의 관계는 관찰 연관성이고 센서가 수면을 개선했다는 결과는 아닙니다",
+  "use": "동작 센서는 수면장애 치료기가 아니라 자세·뒤척임 측정 도구로 평가합니다",
+  "refs": [
+    {
+      "label": "Flexible sensor-based sleeping position and sleep quality · 관찰 연구",
+      "doi": "10.3390/s22166220",
+      "pmid": "36015983"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"motion sensor\" AND \"Sleep Disorders\" → 15건 반환, intervention 이름 대조 통과 3건",
+    "pubmed": "\"motion sensor\" AND \"Sleep Disorders\" → 3건, PMID 36015983 직접 결과; PubMed abstract verified 2026-08-15; PMID 36015983은 수면장애가 없는 건강인 13명의 관찰 연구로 센서 측정과 수면의 질 관계만 분석하고 개입군 대 대조군이 없습니다.; PubMed abstract verified 2026-08-15; PMID 36015983은 수면장애가 없는 건강인 13명의 관찰 연구로 센서 측정과 수면의 질 관계만 분석하고 개입군 대 대조군이 없습니다.",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 0건",
+    "safety": "\"motion sensor\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 29건"
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 없음(0건). PMID 36015983은 수면장애가 없는 건강인 13명의 관찰 연구로 센서 측정과 수면의 질 관계만 분석하고 개입군 대 대조군이 없습니다."
 }
