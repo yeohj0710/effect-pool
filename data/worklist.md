@@ -21392,3 +21392,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 멜라토닌 — 편두통에 듣는다 — 항목 생성(melatonin-migraine-pos) <!-- PubMed PMID 36445912 -->
 - [x] 멜라토닌 — 이명에 듣는다 — 항목 생성(melatonin-tinnitus-pos) <!-- PubMed PMID 28966750 -->
 - [x] 멜라토닌 — 피로에 듣는다 — 항목 생성(melatonin-fatigue-pos) <!-- PubMed PMID 40888191·39733381 -->
+- [x] 코엔자임Q10 — 편두통에 듣는다 — 항목 생성(coenzyme-q10-migraine-pos) <!-- PubMed PMID 33402403·15728298 -->
+- [x] 코엔자임Q10 — 섬유근육통에 듣는다 — 근거 부족(2026-08-15, 복합 보충제 시험에서 피로의 군 간 수치 비교를 확인하지 못함)
+- [x] 코엔자임Q10 — 심부전에 듣는다 — 항목 생성(coenzyme-q10-heart-failure-pos) <!-- PubMed PMID 25282031 -->
+- [x] 코엔자임Q10 — 파킨슨병에 듣는다 — 항목 생성(coenzyme-q10-parkinson-disease-null) <!-- PubMed PMID 27830343 -->
+- [x] 커큐민 — 골관절염에 듣는다 — 항목 생성(curcumin-osteoarthritis-pos) <!-- PubMed PMID 35010916·34017975 -->
+- [x] 커큐민 — 류마티스관절염에 듣는다 — 항목 생성(curcumin-rheumatoid-arthritis-pos) <!-- PubMed PMID 38699839 -->
+- [x] 커큐민 — 우울증에 듣는다 — 항목 생성(curcumin-depression-pos) <!-- PubMed PMID 28236605 -->
+- [x] 커큐민 — 비알코올성 지방간에 듣는다 — 항목 생성(curcumin-nonalcoholic-fatty-liver-pos) <!-- PubMed PMID 38795741 -->
+- [x] 아슈와간다 — 불안장애에 듣는다 — 기존 항목 연결(ashwagandha-anxiety-meta) <!-- PubMed PMID 36017529 -->
+- [x] 아슈와간다 — 인지기능에 듣는다 — 항목 생성(ashwagandha-cognitive-function-pos) <!-- PubMed PMID 39498904·34858513 -->
+- [x] 아슈와간다 — 당뇨병에 듣는다 — 근거 부족(2026-08-15, 당뇨병 환자에서 개입군과 대조군의 정량 결과를 확인하지 못함)
+- [x] 은행잎 추출물 — 간헐적 파행에 듣는다 — 항목 생성(ginkgo-biloba-intermittent-claudication-pos) <!-- PubMed PMID 11014719 -->
+- [x] 은행잎 추출물 — 황반변성에 듣는다 — 근거 부족(2026-08-15, 초록에서 개입군과 대조군의 정량 효과를 확인하지 못함)
+- [x] 은행잎 추출물 — 우울증에 듣는다 — 항목 생성(ginkgo-biloba-depression-null) <!-- PubMed PMID 10442441 -->
+- [x] 마늘 — 감기에 듣는다 — 항목 생성(garlic-common-cold-pos) <!-- PubMed PMID 11697022 -->
+- [x] 마늘 — 암 예방에 듣는다 — 항목 생성(garlic-cancer-prevention-pos) <!-- PubMed PMID 31511230; ClinicalTrials.gov NCT00339768 -->
+- [x] 마늘 — 골관절염에 듣는다 — 항목 생성(garlic-osteoarthritis-null) <!-- PubMed PMID 29790635 -->
+- [x] 생강 — 메스꺼움에 듣는다 — 항목 생성(ginger-nausea-pos) <!-- PubMed PMID 31937153 -->
+- [x] 생강 — 월경통에 듣는다 — 항목 생성(ginger-dysmenorrhea-pos) <!-- PubMed PMID 27274753·22781186 -->
+- [x] 생강 — 골관절염에 듣는다 — 항목 생성(ginger-osteoarthritis-pos) <!-- PubMed PMID 25300574 -->
+- [x] 강황 — 골관절염에 듣는다 — 기존 항목 연결(curcumin-osteoarthritis-pos) <!-- PubMed PMID 40731001 -->
+- [x] 강황 — 궤양성 대장염에 듣는다 — 기존 항목 연결(curcumin-ulcerative-colitis-pos) <!-- PubMed PMID 17101300 -->
+- [x] 강황 — 우울증에 듣는다 — 항목 생성(turmeric-depression-pos) <!-- PubMed PMID 28236605 -->
+- [x] 비트 주스 — 고혈압에 듣는다 — 항목 생성(beetroot-hypertension-pos) <!-- PubMed PMID 39069465 -->
+- [x] 비트 주스 — 인지기능에 듣는다 — 항목 생성(beetroot-cognitive-function-pos) <!-- PubMed PMID 37875637; ClinicalTrials.gov NCT05509075 -->
+- [x] 비트 주스 — 만성콩팥병에 듣는다 — 항목 생성(beetroot-kidney-disease-pos) <!-- PubMed PMID 33080411 -->
+- [x] 저항운동 — 허약에 듣는다 — 항목 생성(resistance-training-frailty-pos) <!-- PubMed PMID 30272098 -->
+- [x] 태극권 — 불안에 듣는다 — 근거 부족(2026-08-15, 불안 자체의 직접 정량 비교 결과를 확인하지 못함)
+- [x] 태극권 — 골다공증에 듣는다 — 항목 생성(tai-chi-osteoporosis-pos) <!-- PubMed PMID 38072989·41733627 -->
+- [x] 태극권 — 만성 통증에 듣는다 — 항목 생성(tai-chi-chronic-pain-pos) <!-- PubMed PMID 38980862·27125299 -->
