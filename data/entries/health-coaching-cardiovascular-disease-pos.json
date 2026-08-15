@@ -1,28 +1,37 @@
 {
-  "id": "health-coaching-cardiovascular-disease-pos",
-  "subj": "건강 코칭",
-  "claim": "건강 코칭이 심혈관 위험요인 성인의 생활습관을 바꾸는가",
-  "line": "심혈관 위험요인 코칭은 활동·식습관·스트레스를 개선했지만 흡연은 못 바꿨습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "건강 코칭은 심혈관질환의 의약품 허가 치료가 아닌 행동중재다.",
-  "why": "심혈관 위험요인을 가진 성인의 생활습관별로 건강 코칭의 효과를 무작위시험에서 합쳤다.",
-  "saw": "무작위시험 15개에서 신체활동·식습관·건강관리·스트레스 관리에 작지만 유의한 효과가 있었고 흡연 행동에는 효과가 없었다.",
-  "limit": "초록에 전체 참가자 수가 제시되지 않았고 동기강화면담·교육·전화·대면 코칭이 함께 포함됐다.",
-  "against": "흡연 행동에서는 유의한 변화가 없었고 각 생활습관 결과의 효과 크기가 작았다.",
-  "use": "심혈관 위험 관리에서는 코칭을 생활습관별로 평가하고 금연 효과를 별도로 확인한다.",
-  "effect": "활동·식습관·건강관리·스트레스 소폭 개선",
-  "refs": [
-    { "label": "심혈관 위험요인 성인 건강 코칭 메타분석", "doi": "10.1016/j.pec.2020.04.029", "pmid": "32448627" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=health coaching · cond=Cardiovascular Disease · 275건 반환(중재명 대조)",
-    "pubmed": "health coaching AND Cardiovascular Disease · 1,191편",
-    "negative": "health coaching AND Cardiovascular Disease AND (no effect OR did not OR failed OR no significant difference) · 741편",
-    "safety": "health coaching AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1,751편"
+ "id": "health-coaching-cardiovascular-disease-pos",
+ "subj": "건강 코칭",
+ "claim": "건강 코칭이 심혈관 위험요인 성인의 생활습관을 바꾸는가",
+ "line": "심혈관 위험요인 코칭은 활동·식습관·스트레스를 개선했지만 흡연은 못 바꿨습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "건강 코칭은 심혈관질환의 의약품 허가 치료가 아닌 행동중재다.",
+ "why": "심혈관 위험요인을 가진 성인의 생활습관별로 건강 코칭의 효과를 무작위시험에서 합쳤다.",
+ "saw": "무작위시험 15개에서 신체활동·식습관·건강관리·스트레스 관리에 작지만 유의한 효과가 있었고 흡연 행동에는 효과가 없었다.",
+ "limit": "초록에 전체 참가자 수가 제시되지 않았고 동기강화면담·교육·전화·대면 코칭이 함께 포함됐다.",
+ "against": "흡연 행동에서는 유의한 변화가 없었고 각 생활습관 결과의 효과 크기가 작았다.",
+ "use": "심혈관 위험 관리에서는 코칭을 생활습관별로 평가하고 금연 효과를 별도로 확인한다.",
+ "effect": "활동·식습관·건강관리·스트레스 소폭 개선",
+ "refs": [
+  {
+   "label": "심혈관 위험요인 성인 건강 코칭 메타분석",
+   "doi": "10.1016/j.pec.2020.04.029",
+   "pmid": "32448627"
+  },
+  {
+   "label": "심부전 환자·가족 ENABLE 코칭 무작위시험",
+   "pmid": "42152453"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=health coaching · cond=Cardiovascular Disease · 275건 반환(중재명 대조)",
+  "pubmed": "health coaching AND Cardiovascular Disease · 1,191편; PMID 42152453 PubMed abstract verified 2026-08-15",
+  "negative": "health coaching AND Cardiovascular Disease AND (no effect OR did not OR failed OR no significant difference) · 741편",
+  "safety": "health coaching AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 1,751편"
+ },
+ "vs": "심부전 환자·가족 60쌍의 대기자 대조 시험에서 간호사 건강 코칭+조기 완화의료 vs 대기자군의 6개월 KCCQ 평균 차이는 12.4(95% CI 0.9~24.0,Cohen d=.43)였다."
 }

@@ -1,28 +1,36 @@
 {
-  "id": "ginseng-blood-pressure-null",
-  "subj": "인삼",
-  "claim": "인삼 보충은 혈압을 낮추지 못했다",
-  "line": "인삼을 보충해도 혈압은 유의하게 낮아지지 않았다.",
-  "effect": "혈압 차이 없음; n=4506",
-  "tier": "trial",
-  "dir": "null",
-  "n": 4506,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "고혈압은 인삼 보충제의 허가 적응증이 아닙니다.",
-  "why": "인삼 보충 임상시험 70편을 합쳐 심혈관 위험인자를 분석한 메타분석입니다.",
-  "saw": "참가자 4,506명을 포함한 70개 연구에서 인삼은 일부 염증·산화스트레스 표지를 바꿨지만 혈압, 혈당, 지질, 심박수에는 유의한 효과가 없었습니다.",
-  "limit": "인삼 제형·용량·기간과 참가자 특성이 서로 달라 이질성이 있고 혈압이 각 연구의 주된 결과가 아닐 수 있습니다.",
-  "against": "용량-반응 분석에서 이완기혈압과의 통계적 연관은 보였지만 전체 혈압 효과는 유의하지 않았습니다.",
-  "use": "혈압 개선 광고를 제한하는 종합 근거로 기록합니다.",
-  "refs": [
-    { "label": "인삼 보충·심혈관 위험인자 체계적 문헌고찰·메타분석 · 혈압 음성", "pmid": "40923100" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=ginseng · cond=Blood Pressure → 11건 반환, 물질 대조 후 11건",
-    "pubmed": "ginseng AND Blood Pressure → 366편",
-    "negative": "ginseng AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) → 312편",
-    "safety": "ginseng AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2600편"
+ "id": "ginseng-blood-pressure-null",
+ "subj": "인삼",
+ "claim": "인삼 보충은 혈압을 낮추지 못했다",
+ "line": "인삼을 보충해도 혈압은 유의하게 낮아지지 않았다.",
+ "effect": "혈압 차이 없음; n=4506",
+ "tier": "trial",
+ "dir": "null",
+ "n": 4506,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "고혈압은 인삼 보충제의 허가 적응증이 아닙니다.",
+ "why": "인삼 보충 임상시험 70편을 합쳐 심혈관 위험인자를 분석한 메타분석입니다.",
+ "saw": "참가자 4,506명을 포함한 70개 연구에서 인삼은 일부 염증·산화스트레스 표지를 바꿨지만 혈압, 혈당, 지질, 심박수에는 유의한 효과가 없었습니다.",
+ "limit": "인삼 제형·용량·기간과 참가자 특성이 서로 달라 이질성이 있고 혈압이 각 연구의 주된 결과가 아닐 수 있습니다.",
+ "against": "용량-반응 분석에서 이완기혈압과의 통계적 연관은 보였지만 전체 혈압 효과는 유의하지 않았습니다.",
+ "use": "혈압 개선 광고를 제한하는 종합 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "인삼 보충·심혈관 위험인자 체계적 문헌고찰·메타분석 · 혈압 음성",
+   "pmid": "40923100"
+  },
+  {
+   "label": "인삼과 혈압 무작위시험 체계적 문헌고찰",
+   "pmid": "28707603"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=ginseng · cond=Blood Pressure → 11건 반환, 물질 대조 후 11건",
+  "pubmed": "ginseng AND Blood Pressure → 366편; PMID 28707603 PubMed abstract verified 2026-08-15",
+  "negative": "ginseng AND Blood Pressure AND (no effect OR did not OR failed OR negative OR no significant difference) → 312편",
+  "safety": "ginseng AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2600편"
+ },
+ "vs": "인삼 vs 대조군 9개 RCT의 체계적 문헌고찰에서 급성 고려홍삼은 수축기혈압 MD -6.52 mmHg(n=54,p=.0002), 이완기혈압 MD -5.21(p=.0001)였고, 장기 고려홍삼은 수축기 MD -2.92(n=183,p=.04), 이완기 MD -3.19(p=.008)였다."
 }

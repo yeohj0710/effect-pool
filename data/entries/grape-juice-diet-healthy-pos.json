@@ -1,32 +1,37 @@
 {
-  "id": "grape-juice-diet-healthy-pos",
-  "subj": "포도 주스",
-  "claim": "포도 제품은 건강한 식사의 일부로 먹을 수 있다",
-  "line": "포도 제품 섭취자는 비소비자보다 식단의 질이 높았다.",
-  "effect": "HEI-2005 및 과일·식이섬유 섭취 증가",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 21873,
-  "synth": "single",
-  "why": "미국 NHANES 2003~2008 자료에서 포도, 건포도, 100% 포도 주스 소비자와 비소비자의 식사 질과 영양소 섭취를 비교했습니다.",
-  "saw": "어린이 9622명과 성인 12251명을 분석했습니다. 포도 제품 소비자는 비소비자보다 HEI-2005 점수와 전체·통과일 섭취가 높았고 고형 지방·첨가당과 SoFAAS 열량 섭취가 낮았습니다. 성인은 진한 녹색·주황색 채소 섭취도 높았고 두 연령군에서 식이섬유·비타민 A·비타민 C·칼슘·마그네슘·칼륨 섭취가 높았습니다.",
-  "limit": "횡단면 관찰자료이므로 포도 제품이 식사의 질을 높였다고 인과관계를 말할 수 없고 포도 주스만의 효과도 분리하지 않았습니다.",
-  "against": "자료가 소비자와 비소비자의 연관성을 보여줄 뿐 무작위 섭취시험 결과는 아닙니다.",
-  "use": "건강한 식사와의 연관성을 보여주는 관찰 근거로만 기록하며 포도 주스를 건강식의 대체품으로 보지 않습니다.",
-  "refs": [
-    {
-      "label": "Improved diet quality and increased nutrient intakes associated with grape product consumption by U.S. children and adults: NHANES 2003 to 2008",
-      "doi": "10.1111/1750-3841.12066",
-      "pmid": "23789930"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "query.intr=grape juice AND query.cond=Diet, Healthy → 5건, grape juice 개입명 일치 3건",
-    "pubmed": "grape juice AND Diet, Healthy → 27건",
-    "negative": "grape juice AND Diet, Healthy AND (no effect OR did not OR failed OR negative OR no significant difference) → 17건",
-    "safety": "grape juice AND (adverse OR toxicity OR case report OR harm OR dropout) → 212건"
+ "id": "grape-juice-diet-healthy-pos",
+ "subj": "포도 주스",
+ "claim": "포도 제품은 건강한 식사의 일부로 먹을 수 있다",
+ "line": "포도 제품 섭취자는 비소비자보다 식단의 질이 높았다.",
+ "effect": "HEI-2005 및 과일·식이섬유 섭취 증가",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 21873,
+ "synth": "single",
+ "why": "미국 NHANES 2003~2008 자료에서 포도, 건포도, 100% 포도 주스 소비자와 비소비자의 식사 질과 영양소 섭취를 비교했습니다.",
+ "saw": "어린이 9622명과 성인 12251명을 분석했습니다. 포도 제품 소비자는 비소비자보다 HEI-2005 점수와 전체·통과일 섭취가 높았고 고형 지방·첨가당과 SoFAAS 열량 섭취가 낮았습니다. 성인은 진한 녹색·주황색 채소 섭취도 높았고 두 연령군에서 식이섬유·비타민 A·비타민 C·칼슘·마그네슘·칼륨 섭취가 높았습니다.",
+ "limit": "횡단면 관찰자료이므로 포도 제품이 식사의 질을 높였다고 인과관계를 말할 수 없고 포도 주스만의 효과도 분리하지 않았습니다.",
+ "against": "자료가 소비자와 비소비자의 연관성을 보여줄 뿐 무작위 섭취시험 결과는 아닙니다.",
+ "use": "건강한 식사와의 연관성을 보여주는 관찰 근거로만 기록하며 포도 주스를 건강식의 대체품으로 보지 않습니다.",
+ "refs": [
+  {
+   "label": "Improved diet quality and increased nutrient intakes associated with grape product consumption by U.S. children and adults: NHANES 2003 to 2008",
+   "doi": "10.1111/1750-3841.12066",
+   "pmid": "23789930"
   },
-  "known": "off",
-  "knownWhy": "포도 주스는 허가 적응증이 없는 식품입니다."
+  {
+   "label": "적포도 부산물 폴리페놀 음료 교차시험",
+   "pmid": "30573355"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "query.intr=grape juice AND query.cond=Diet, Healthy → 5건, grape juice 개입명 일치 3건",
+  "pubmed": "grape juice AND Diet, Healthy → 27건; PMID 30573355 PubMed abstract verified 2026-08-15",
+  "negative": "grape juice AND Diet, Healthy AND (no effect OR did not OR failed OR negative OR no significant difference) → 17건",
+  "safety": "grape juice AND (adverse OR toxicity OR case report OR harm OR dropout) → 212건"
+ },
+ "known": "off",
+ "knownWhy": "포도 주스는 허가 적응증이 없는 식품입니다.",
+ "vs": "건강한 남성 12명의 무작위 교차시험에서 적포도 부산물 폴리페놀 음료 vs 무폴리페놀 대조 음료를 비교했다. 식후 인슐린 iAUC는 31% 낮고(p<.05), 인슐린 분비지수는 18% 낮았으며(p=.016), 인슐린 감수성 지수는 36% 높았다(p=.037)."
 }

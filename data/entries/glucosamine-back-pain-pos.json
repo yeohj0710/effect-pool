@@ -1,28 +1,36 @@
 {
-  "id": "glucosamine-back-pain-pos",
-  "subj": "글루코사민",
-  "claim": "글루코사민 복합 연골보호제는 만성 요통을 줄일 가능성이 있다",
-  "line": "요통에서 글루코사민 복합제는 통증·기능을 개선했지만 단독 효과는 불명확했다.",
-  "effect": "통증·기능 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 120,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "글루코사민 복합제가 요통에 허가된 적응증은 아닙니다.",
-  "why": "글루코사민이 퇴행성 관절 증상 외에 요통을 줄일 수 있는지 확인한 사람 대상 연구입니다.",
-  "saw": "경구 콘드로이틴·글루코사민·콜라겐 복합제를 사용한 120명 연구에서 요통과 기능이 개선되었습니다.",
-  "limit": "복합제 연구라 글루코사민 단독 효과를 분리할 수 없고 대조군과 장기 비교가 제한적입니다.",
-  "against": "글루코사민 단독으로 요통을 치료했다는 근거는 아닙니다.",
-  "use": "복합 연골보호제의 탐색적 요통 신호로만 기록하며 표준 요통 치료를 대체하지 않습니다.",
-  "refs": [
-    { "label": "요통 환자 경구 연골보호제 연구", "pmid": "40760892" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=glucosamine · cond=Back Pain 2건 반환, 물질 일치 2건",
-    "pubmed": "glucosamine AND Back Pain 48건",
-    "negative": "glucosamine AND Back Pain AND (no effect OR did not OR failed OR negative OR no significant difference) 32건",
-    "safety": "glucosamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1800건"
+ "id": "glucosamine-back-pain-pos",
+ "subj": "글루코사민",
+ "claim": "글루코사민 복합 연골보호제는 만성 요통을 줄일 가능성이 있다",
+ "line": "요통에서 글루코사민 복합제는 통증·기능을 개선했지만 단독 효과는 불명확했다.",
+ "effect": "통증·기능 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 120,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "글루코사민 복합제가 요통에 허가된 적응증은 아닙니다.",
+ "why": "글루코사민이 퇴행성 관절 증상 외에 요통을 줄일 수 있는지 확인한 사람 대상 연구입니다.",
+ "saw": "경구 콘드로이틴·글루코사민·콜라겐 복합제를 사용한 120명 연구에서 요통과 기능이 개선되었습니다.",
+ "limit": "복합제 연구라 글루코사민 단독 효과를 분리할 수 없고 대조군과 장기 비교가 제한적입니다.",
+ "against": "글루코사민 단독으로 요통을 치료했다는 근거는 아닙니다.",
+ "use": "복합 연골보호제의 탐색적 요통 신호로만 기록하며 표준 요통 치료를 대체하지 않습니다.",
+ "refs": [
+  {
+   "label": "요통 환자 경구 연골보호제 연구",
+   "pmid": "40760892"
+  },
+  {
+   "label": "N-아세틸글루코사민 포함 요추 보충제 무작위시험",
+   "pmid": "39203831"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=glucosamine · cond=Back Pain 2건 반환, 물질 일치 2건",
+  "pubmed": "glucosamine AND Back Pain 48건; PMID 39203831 PubMed abstract verified 2026-08-15",
+  "negative": "glucosamine AND Back Pain AND (no effect OR did not OR failed OR negative OR no significant difference) 32건",
+  "safety": "glucosamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1800건"
+ },
+ "vs": "요추 골연골증 환자 50명의 3개월 이중맹검 시험에서 N-아세틸글루코사민 포함 복합 보충제 vs 위약을 비교했다. 통증·기능 PROM 차이는 없었지만 MRI 3D 디스크 용적 변화는 +740.3±796.1 vs -417.2±875.0 mm³(p<.001)였다."
 }
