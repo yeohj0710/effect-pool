@@ -1,33 +1,34 @@
 {
- "id": "online-cognitive-behavioral-therapy-depressive-symptoms-pos",
- "subj": "온라인 인지행동치료",
- "claim": "온라인 인지행동치료가 대학생의 우울 증상과 부정적 자동사고를 줄인다",
- "line": "CBT는 대학생 우울을 줄였습니다",
- "effect": "BDI 27.84→9.43",
- "tier": "obs",
- "dir": "pos",
- "n": 70,
- "synth": "single",
- "known": "off",
- "knownWhy": "비약물 디지털 심리중재라 의약품 허가 적응증이 적용되지 않습니다.",
- "why": "코로나19 봉쇄 기간 중등도 이상 우울 증상이 있는 태국 대학생에게 온라인 인지행동치료를 제공했습니다.",
- "saw": "대학생 70명이 12회 온라인 세션을 받았고 33명만 전 과정을 완료했습니다. 완료군에서 BDI 평균은 27.84점에서 12회 뒤 11.47점, 추적 때 9.43점으로 줄었고 삶의 질은 69.73점에서 85.61점으로 올랐습니다.",
- "limit": "단일군 관찰 연구이고 52.9%가 탈락했으며 자기보고 결과를 사용했습니다.",
- "against": "대조군이 없어 시간 경과나 참여자 특성이 만든 변화와 중재 효과를 구분할 수 없습니다.",
- "use": "대학생 우울 증상에 대한 예비 디지털 중재 근거로만 사용하며, 대조시험의 효과로 일반화하지 않습니다.",
- "refs": [
-  {
-   "label": "Online CBT in Thai University Students 2025 · Front Psychiatry · 준실험 연구",
-   "doi": "10.3389/fpsyt.2025.1502406",
-   "pmid": "40458779",
-   "pmc": "PMC12127426"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "online cognitive behavioral therapy AND Depressive Symptoms · 85건 반환, 중재명 직접 확인 19건",
-  "pubmed": "\"online cognitive behavioral therapy\" AND \"Depressive Symptoms\" · 16건",
-  "negative": "\"online cognitive behavioral therapy\" AND \"Depressive Symptoms\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 14건",
-  "safety": "\"online cognitive behavioral therapy\" AND (adverse OR toxicity OR case report OR harm) · 10건"
- }
+  "id": "online-cognitive-behavioral-therapy-depressive-symptoms-pos",
+  "subj": "온라인 인지행동치료",
+  "claim": "온라인 인지행동치료가 대학생의 우울 증상과 부정적 자동사고를 줄인다",
+  "line": "CBT는 대학생 우울을 줄였습니다",
+  "effect": "BDI 27.84→9.43",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 70,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 디지털 심리중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "코로나19 봉쇄 기간 중등도 이상 우울 증상이 있는 태국 대학생에게 온라인 인지행동치료를 제공했습니다.",
+  "saw": "대학생 70명이 12회 온라인 세션을 받았고 33명만 전 과정을 완료했습니다. 완료군에서 BDI 평균은 27.84점에서 12회 뒤 11.47점, 추적 때 9.43점으로 줄었고 삶의 질은 69.73점에서 85.61점으로 올랐습니다.",
+  "limit": "단일군 관찰 연구이고 52.9%가 탈락했으며 자기보고 결과를 사용했습니다.",
+  "against": "대조군이 없어 시간 경과나 참여자 특성이 만든 변화와 중재 효과를 구분할 수 없습니다.",
+  "use": "대학생 우울 증상에 대한 예비 디지털 중재 근거로만 사용하며, 대조시험의 효과로 일반화하지 않습니다.",
+  "refs": [
+    {
+      "label": "Online CBT in Thai University Students 2025 · Front Psychiatry · 준실험 연구",
+      "doi": "10.3389/fpsyt.2025.1502406",
+      "pmid": "40458779",
+      "pmc": "PMC12127426"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "online cognitive behavioral therapy AND Depressive Symptoms · 85건 반환, 중재명 직접 확인 19건",
+    "pubmed": "\"online cognitive behavioral therapy\" AND \"Depressive Symptoms\" · 16건",
+    "negative": "\"online cognitive behavioral therapy\" AND \"Depressive Symptoms\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 14건",
+    "safety": "\"online cognitive behavioral therapy\" AND (adverse OR toxicity OR case report OR harm) · 10건"
+  },
+  "vs": "온라인 인지행동치료 vs 사전 측정(대조군 없음), 태국 대학생 70명·12회 완료 33명: 우울 점수 27.84(95% CI 25.56~30.13)에서 11.47(8.54~14.40), 추적 9.43(6.41~12.46); 자동사고 20.81에서 10.46, 추적 9.38"
 }
