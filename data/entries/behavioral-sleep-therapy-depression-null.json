@@ -1,28 +1,37 @@
 {
-  "id": "behavioral-sleep-therapy-depression-null",
-  "subj": "행동 수면치료",
-  "claim": "불면증을 동반한 우울증에 행동 수면치료를 쓴다",
-  "line": "우울증과 불면증에서 불면 인지행동치료는 우울 점수를 낮추지 못했다.",
-  "effect": "우울 점수 군간 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 107,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "행동 수면치료는 비약물 수면 중재이며 우울증의 의약품 허가 적응증으로 분류하지 않습니다.",
-  "why": "불면증을 동반한 주요우울장애에서 불면 인지행동치료가 우울 결과에도 영향을 주는지 무작위시험으로 평가했습니다.",
-  "saw": "주요우울장애와 불면증 환자 107명을 항우울제·불면 인지행동치료, 불면 인지행동치료·위약, 항우울제·수면위생 대조군에 배정했습니다. 세 군 모두 우울 점수가 좋아졌지만 군간 차이는 없었습니다.",
-  "limit": "표본이 작고 네 번의 불면 인지행동치료만 시행했으며 우울증 자체를 대상으로 한 치료가 아니었습니다.",
-  "against": "불면 치료만으로 우울증을 표준 우울 치료보다 더 개선한다는 근거는 없습니다.",
-  "use": "우울증의 불면 증상에는 수면을 다루는 보조치료로 기록하되 우울증 치료를 대신하지 않습니다.",
-  "refs": [
-    { "label": "우울증·불면증 불면 인지행동치료 무작위시험", "doi": "10.1093/sleep/zsx019", "pmid": "28199710" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "behavioral sleep therapy AND Depression → 0건 반환, 직접 확인 0건",
-    "pubmed": "behavioral sleep therapy AND Depression AND (randomized OR trial OR meta-analysis) → 4,128편",
-    "negative": "behavioral sleep therapy AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) → 7,175편",
-    "safety": "behavioral sleep therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 8,220편"
+ "id": "behavioral-sleep-therapy-depression-null",
+ "subj": "행동 수면치료",
+ "claim": "불면증을 동반한 우울증에 행동 수면치료를 쓴다",
+ "line": "우울증과 불면증에서 불면 인지행동치료는 우울 점수를 낮추지 못했다.",
+ "effect": "우울 점수 군간 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 107,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "행동 수면치료는 비약물 수면 중재이며 우울증의 의약품 허가 적응증으로 분류하지 않습니다.",
+ "why": "불면증을 동반한 주요우울장애에서 불면 인지행동치료가 우울 결과에도 영향을 주는지 무작위시험으로 평가했습니다.",
+ "saw": "주요우울장애와 불면증 환자 107명을 항우울제·불면 인지행동치료, 불면 인지행동치료·위약, 항우울제·수면위생 대조군에 배정했습니다. 세 군 모두 우울 점수가 좋아졌지만 군간 차이는 없었습니다.",
+ "limit": "표본이 작고 네 번의 불면 인지행동치료만 시행했으며 우울증 자체를 대상으로 한 치료가 아니었습니다.",
+ "against": "불면 치료만으로 우울증을 표준 우울 치료보다 더 개선한다는 근거는 없습니다.",
+ "use": "우울증의 불면 증상에는 수면을 다루는 보조치료로 기록하되 우울증 치료를 대신하지 않습니다.",
+ "refs": [
+  {
+   "label": "우울증·불면증 불면 인지행동치료 무작위시험",
+   "doi": "10.1093/sleep/zsx019",
+   "pmid": "28199710"
+  },
+  {
+   "label": "성인 불면증 단기 행동수면치료 네트워크 메타분석",
+   "pmid": "41934053"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "behavioral sleep therapy AND Depression → 0건 반환, 직접 확인 0건",
+  "pubmed": "behavioral sleep therapy AND Depression AND (randomized OR trial OR meta-analysis) → 4,128편; PMID 41934053 PubMed abstract verified 2026-08-15",
+  "negative": "behavioral sleep therapy AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) → 7,175편",
+  "safety": "behavioral sleep therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 8,220편"
+ },
+ "vs": "대면 단기 행동수면치료 vs 수면교육: 무작위시험 14개에서 우울 증상을 유의하게 감소; 우울 결과 549명, 불안 435명, 피로 354명 자료를 종합했으며 인지행동치료와는 유의한 차이 없음"
 }
