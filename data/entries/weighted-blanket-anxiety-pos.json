@@ -1,28 +1,36 @@
 {
-  "id": "weighted-blanket-anxiety-pos",
-  "subj": "중량 담요",
-  "claim": "발달장애 아동의 치과 불안을 줄인다",
-  "line": "중량 담요는 발달장애 아동의 치과 불안을 줄였습니다",
-  "effect": "불안 점수·맥박·혈압 감소; 산소포화도 증가",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 42,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "치과 불안은 중량 담요의 의약품 허가 적응증이 아닙니다.",
-  "why": "경도 지적·발달장애 아동을 중량 담요 사용과 대조 조건에 교차 배정한 무작위 시험입니다.",
-  "saw": "아동 42명이 체중의 10%인 중량 담요 조건과 대조 조건을 한 번씩 경험했습니다. 담요 사용 때 불안 점수와 맥박·수축기·이완기 혈압이 낮아지고 산소포화도가 높아졌습니다.",
-  "limit": "치과 치료 중의 단기 생리·행동 결과이며 다른 불안장애나 장기 효과를 평가하지 않았습니다.",
-  "against": "불안 감소가 치료 후에도 지속되는지는 확인하지 않았습니다.",
-  "use": "발달장애 아동의 치과 처치 중 비약물 불안 보조 중재 근거로만 기록합니다.",
-  "refs": [
-    { "label": "발달장애 아동 치과 불안 중량 담요 교차시험", "pmid": "42067993" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=weighted blanket · cond=Anxiety → 8건 반환, 물질 대조 후 8건",
-    "pubmed": "weighted blanket AND Anxiety → 42편",
-    "negative": "weighted blanket AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 33편",
-    "safety": "weighted blanket AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 72편"
+ "id": "weighted-blanket-anxiety-pos",
+ "subj": "중량 담요",
+ "claim": "발달장애 아동의 치과 불안을 줄인다",
+ "line": "중량 담요는 발달장애 아동의 치과 불안을 줄였습니다",
+ "effect": "불안 점수·맥박·혈압 감소; 산소포화도 증가",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 42,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "치과 불안은 중량 담요의 의약품 허가 적응증이 아닙니다.",
+ "why": "경도 지적·발달장애 아동을 중량 담요 사용과 대조 조건에 교차 배정한 무작위 시험입니다.",
+ "saw": "아동 42명이 체중의 10%인 중량 담요 조건과 대조 조건을 한 번씩 경험했습니다. 담요 사용 때 불안 점수와 맥박·수축기·이완기 혈압이 낮아지고 산소포화도가 높아졌습니다.",
+ "limit": "치과 치료 중의 단기 생리·행동 결과이며 다른 불안장애나 장기 효과를 평가하지 않았습니다.",
+ "against": "불안 감소가 치료 후에도 지속되는지는 확인하지 않았습니다.",
+ "use": "발달장애 아동의 치과 처치 중 비약물 불안 보조 중재 근거로만 기록합니다.",
+ "refs": [
+  {
+   "label": "발달장애 아동 치과 불안 중량 담요 교차시험",
+   "pmid": "42067993"
+  },
+  {
+   "label": "정신질환자 중량 담요 메타분석",
+   "pmid": "39341068"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=weighted blanket · cond=Anxiety → 8건 반환, 물질 대조 후 8건",
+  "pubmed": "weighted blanket AND Anxiety → 42편; PMID 39341068 PubMed abstract verified 2026-08-15",
+  "negative": "weighted blanket AND Anxiety AND (no effect OR did not OR failed OR negative OR no significant difference) → 33편",
+  "safety": "weighted blanket AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 72편"
+ },
+ "vs": "중량 담요 vs 위약·대조: 정신질환자 9개 연구 553명에서 불안 SMD=-0.47 (95% CI -0.68~-0.25, p<.001)"
 }

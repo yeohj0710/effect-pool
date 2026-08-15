@@ -1,26 +1,38 @@
 {
-  "id": "walking-program-parkinson-disease-pos",
-  "subj": "걷기 프로그램",
-  "claim": "파킨슨병에서 인지·운동 걷기 훈련이 장애물 보행을 개선할 수 있습니다",
-  "line": "파킨슨병에서 인지·운동 걷기는 장애물 보행을 개선했습니다",
-  "effect": "장애물 보행 속도·보폭 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 32,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "걷기 프로그램은 파킨슨병의 의약품 허가 적응증이 아닌 재활 중재입니다.",
-  "why": "파킨슨병 환자를 대상으로 걷기 훈련의 보행과 운동인지 결과를 무작위 비교했습니다.",
-  "saw": "파킨슨병 환자 32명을 인지·운동 걷기 훈련 11명, 복합 걷기 훈련 11명, 대조군 10명으로 나눴습니다. 6주간 12회 훈련 뒤 인지·운동군은 장애물 보행 속도·보폭, 장애물 통과 속도·보폭, TUG와 일부 인지 결과가 대조군보다 개선됐습니다.",
-  "limit": "단일기관 소규모 시험이고 두 훈련 방식의 효과가 달랐습니다. 장기 낙상과 기능 유지 결과는 확인하지 않았습니다.",
-  "against": "복합 걷기 훈련군은 장애물 보행과 뇌 활성에서 대조군보다 유의한 개선을 보이지 않았습니다.",
-  "use": "파킨슨병 보행 재활을 검토할 때 단순 걷기와 인지·운동 과제를 결합한 훈련을 구분합니다.",
-  "refs": [{ "label": "파킨슨병 인지·운동 걷기 훈련 무작위시험", "doi": "10.23736/S1973-9087.24.08261-3", "pmid": "38743389", "pmc": "PMC11391393" }],
-  "queried": {
-    "date": "2026-08-07",
-    "ctgov": "walking program AND Parkinson Disease · 111건 반환, 중재명 일치 8건",
-    "pubmed": "walking program AND Parkinson Disease · 863편",
-    "negative": "walking program AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 561편",
-    "safety": "walking program AND (adverse OR toxicity OR case report OR harm OR dropout) · 1,994편"
+ "id": "walking-program-parkinson-disease-pos",
+ "subj": "걷기 프로그램",
+ "claim": "파킨슨병에서 인지·운동 걷기 훈련이 장애물 보행을 개선할 수 있습니다",
+ "line": "파킨슨병에서 인지·운동 걷기는 장애물 보행을 개선했습니다",
+ "effect": "장애물 보행 속도·보폭 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 32,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "걷기 프로그램은 파킨슨병의 의약품 허가 적응증이 아닌 재활 중재입니다.",
+ "why": "파킨슨병 환자를 대상으로 걷기 훈련의 보행과 운동인지 결과를 무작위 비교했습니다.",
+ "saw": "파킨슨병 환자 32명을 인지·운동 걷기 훈련 11명, 복합 걷기 훈련 11명, 대조군 10명으로 나눴습니다. 6주간 12회 훈련 뒤 인지·운동군은 장애물 보행 속도·보폭, 장애물 통과 속도·보폭, TUG와 일부 인지 결과가 대조군보다 개선됐습니다.",
+ "limit": "단일기관 소규모 시험이고 두 훈련 방식의 효과가 달랐습니다. 장기 낙상과 기능 유지 결과는 확인하지 않았습니다.",
+ "against": "복합 걷기 훈련군은 장애물 보행과 뇌 활성에서 대조군보다 유의한 개선을 보이지 않았습니다.",
+ "use": "파킨슨병 보행 재활을 검토할 때 단순 걷기와 인지·운동 과제를 결합한 훈련을 구분합니다.",
+ "refs": [
+  {
+   "label": "파킨슨병 인지·운동 걷기 훈련 무작위시험",
+   "doi": "10.23736/S1973-9087.24.08261-3",
+   "pmid": "38743389",
+   "pmc": "PMC11391393"
+  },
+  {
+   "label": "파킨슨병 보행 동작 중재 네트워크 메타분석",
+   "pmid": "35244766"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "walking program AND Parkinson Disease · 111건 반환, 중재명 일치 8건",
+  "pubmed": "walking program AND Parkinson Disease · 863편; PMID 35244766 PubMed abstract verified 2026-08-15",
+  "negative": "walking program AND Parkinson Disease AND (no effect OR did not OR failed OR negative OR no significant difference) · 561편",
+  "safety": "walking program AND (adverse OR toxicity OR case report OR harm OR dropout) · 1,994편"
+ },
+ "vs": "보행훈련 vs 통상 돌봄: 파킨슨병 36개 연구 1,454명에서 트레드밀 보행 SMD=-1.2 (95% CrI -2.0~-0.34), 장애물훈련 SMD=-2.1 (95% CrI -3.3~-0.86)"
 }
