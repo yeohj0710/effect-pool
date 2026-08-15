@@ -1,28 +1,37 @@
 {
-  "id": "dietary-self-monitoring-weight-pos",
-  "subj": "식사 자기기록",
-  "claim": "체중 감량 행동중재에서 식사 자기기록은 체중 감량과 연관될 수 있지만 근거의 질은 약합니다",
-  "line": "식사 자기기록을 잘할수록 체중 감소가 컸지만 근거 질은 낮았습니다",
-  "effect": "체중 감량과 유리한 연관",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식사 자기기록은 체중 감량 약물이 아니라 행동 자기관리 중재입니다.",
-  "why": "체중 감량 행동중재에서 식사·운동·체중을 스스로 기록하는 방법과 체중 변화의 관계를 문헌으로 종합했습니다.",
-  "saw": "22개 연구 중 식사 자기기록을 다룬 연구는 15개였습니다. 종이 일지가 가장 흔했고, 자기기록을 더 잘 지킬수록 체중 감량이 일관되게 더 큰 연관성을 보였습니다.",
-  "limit": "연구의 표본이 동질적이고 자기보고 의존도가 높았으며, 자기기록에 필요한 빈도와 용량은 정하지 못했습니다.",
-  "against": "식사 자기기록만으로 체중이 반드시 줄거나 식사·운동·의료적 체중관리를 대신한다는 근거는 아닙니다.",
-  "use": "체중 감량 중재에서 식사 기록을 사용할 때 기록 부담과 지속 가능성을 함께 평가하고 다른 행동 전략과 묶어 검토합니다.",
-  "refs": [
-    { "label": "체중 감량 자기기록 체계적 문헌고찰", "doi": "10.1016/j.jada.2010.10.008", "pmid": "21185970" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "dietary self-monitoring AND Weight · 263건",
-    "pubmed": "dietary self-monitoring AND Weight · 1,085건",
-    "negative": "dietary self-monitoring AND Weight AND (no effect OR did not OR failed OR negative OR no significant difference) · 695건",
-    "safety": "dietary self-monitoring AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 663건"
+ "id": "dietary-self-monitoring-weight-pos",
+ "subj": "식사 자기기록",
+ "claim": "체중 감량 행동중재에서 식사 자기기록은 체중 감량과 연관될 수 있지만 근거의 질은 약합니다",
+ "line": "식사 자기기록을 잘할수록 체중 감소가 컸지만 근거 질은 낮았습니다",
+ "effect": "체중 감량과 유리한 연관",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식사 자기기록은 체중 감량 약물이 아니라 행동 자기관리 중재입니다.",
+ "why": "체중 감량 행동중재에서 식사·운동·체중을 스스로 기록하는 방법과 체중 변화의 관계를 문헌으로 종합했습니다.",
+ "saw": "22개 연구 중 식사 자기기록을 다룬 연구는 15개였습니다. 종이 일지가 가장 흔했고, 자기기록을 더 잘 지킬수록 체중 감량이 일관되게 더 큰 연관성을 보였습니다.",
+ "limit": "연구의 표본이 동질적이고 자기보고 의존도가 높았으며, 자기기록에 필요한 빈도와 용량은 정하지 못했습니다.",
+ "against": "식사 자기기록만으로 체중이 반드시 줄거나 식사·운동·의료적 체중관리를 대신한다는 근거는 아닙니다.",
+ "use": "체중 감량 중재에서 식사 기록을 사용할 때 기록 부담과 지속 가능성을 함께 평가하고 다른 행동 전략과 묶어 검토합니다.",
+ "refs": [
+  {
+   "label": "체중 감량 자기기록 체계적 문헌고찰",
+   "doi": "10.1016/j.jada.2010.10.008",
+   "pmid": "21185970"
+  },
+  {
+   "label": "Personal Diet 식이 자기기록 체중감량 분석",
+   "pmid": "41539436"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "dietary self-monitoring AND Weight · 263건",
+  "pubmed": "dietary self-monitoring AND Weight · 1,085건; PMID 41539436 PubMed abstract verified 2026-08-15",
+  "negative": "dietary self-monitoring AND Weight AND (no effect OR did not OR failed OR negative OR no significant difference) · 695건",
+  "safety": "dietary self-monitoring AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 663건"
+ },
+ "vs": "식이 자기기록 고순응 vs 저순응: Personal Diet 연구 사후분석에서 기초체중 대비 감량 4.2% vs 1.9%(p=.016), 5% 이상 감량 보정 OR=3.67(95% CI 1.63~8.50)"
 }
