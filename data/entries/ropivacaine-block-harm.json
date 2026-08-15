@@ -1,28 +1,34 @@
 {
-  "id": "ropivacaine-block-harm",
-  "subj": "로피바카인 신경차단 호흡 부작용",
-  "claim": "30mL 로피바카인 쇄골상완신경총 차단은 20mL보다 반횡격막마비 위험을 높였다",
-  "line": "쇄골상완신경총 차단에서 30mL는 20mL보다 반횡격막마비 위험이 높았습니다",
-  "effect": "반횡격막마비 위험비 1.972, p=0.011",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 82,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "로피바카인은 국소·부위마취에 허가됐지만 특정 신경차단 용량별 호흡 부작용은 허가 적응증이 아니라 안전성 신호입니다",
-  "why": "로피바카인 쇄골상완신경총 차단의 주입량에 따른 호흡 부작용을 확인한 무작위시험을 검토했습니다.",
-  "saw": "상지 내고정물 제거 환자 82명을 0.375% 로피바카인 20mL군과 30mL군에 무작위 배정했습니다. 30mL군의 반횡격막마비 위험은 20mL군보다 유의하게 높았고 위험비는 1.972였습니다. 반횡격막마비는 차단 5분 안에도 나타났고 20분에 발생률이 정체됐습니다.",
-  "limit": "상지 수술을 위한 쇄골상완신경총 차단에서 두 용량만 비교한 시험이며 모든 신경차단이나 모든 환자에게 같은 위험비를 적용할 수 없습니다.",
-  "against": "이 연구는 치료 효과가 아니라 용량별 안전성 결과를 평가했으며 통증 완화나 기능 회복의 우월성을 검증하지 않았습니다.",
-  "use": "로피바카인 신경차단 뒤 호흡 상태를 일찍 감시해야 한다는 안전성 근거로 기록합니다.",
-  "refs": [
-    { "label": "Early Detection and Temporal Progression of Hemidiaphragmatic Paralysis After Supraclavicular Brachial Plexus Block with 20 mL vs 30 mL Ropivacaine: A Randomized Controlled Trial", "doi": "10.2147/DDDT.S598288", "pmid": "42473648", "pmc": "PMC13380903" }
-  ],
-  "queried": {
-    "date": "2026-08-10",
-    "ctgov": "query.intr=ropivacaine&query.cond=Block; total 1,407, direct 25",
-    "pubmed": "ropivacaine[Title/Abstract] AND Block[Title/Abstract]; 4,015",
-    "negative": "ropivacaine[Title/Abstract] AND Block[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 1,043",
-    "safety": "ropivacaine[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,248"
+ "id": "ropivacaine-block-harm",
+ "subj": "로피바카인 신경차단 호흡 부작용",
+ "claim": "30mL 로피바카인 쇄골상완신경총 차단은 20mL보다 반횡격막마비 위험을 높였다",
+ "line": "쇄골상완신경총 차단에서 30mL는 20mL보다 반횡격막마비 위험이 높았습니다",
+ "effect": "반횡격막마비 위험비 1.972, p=0.011",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 82,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "로피바카인은 국소·부위마취에 허가됐지만 특정 신경차단 용량별 호흡 부작용은 허가 적응증이 아니라 안전성 신호입니다",
+ "why": "로피바카인 쇄골상완신경총 차단의 주입량에 따른 호흡 부작용을 확인한 무작위시험을 검토했습니다.",
+ "saw": "상지 내고정물 제거 환자 82명을 0.375% 로피바카인 20mL군과 30mL군에 무작위 배정했습니다. 30mL군의 반횡격막마비 위험은 20mL군보다 유의하게 높았고 위험비는 1.972였습니다. 반횡격막마비는 차단 5분 안에도 나타났고 20분에 발생률이 정체됐습니다.",
+ "limit": "상지 수술을 위한 쇄골상완신경총 차단에서 두 용량만 비교한 시험이며 모든 신경차단이나 모든 환자에게 같은 위험비를 적용할 수 없습니다.",
+ "against": "이 연구는 치료 효과가 아니라 용량별 안전성 결과를 평가했으며 통증 완화나 기능 회복의 우월성을 검증하지 않았습니다.",
+ "use": "로피바카인 신경차단 뒤 호흡 상태를 일찍 감시해야 한다는 안전성 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "Early Detection and Temporal Progression of Hemidiaphragmatic Paralysis After Supraclavicular Brachial Plexus Block with 20 mL vs 30 mL Ropivacaine: A Randomized Controlled Trial",
+   "doi": "10.2147/DDDT.S598288",
+   "pmid": "42473648",
+   "pmc": "PMC13380903"
   }
+ ],
+ "queried": {
+  "date": "2026-08-10",
+  "ctgov": "query.intr=ropivacaine&query.cond=Block; total 1,407, direct 25",
+  "pubmed": "ropivacaine[Title/Abstract] AND Block[Title/Abstract]; 4,015",
+  "negative": "ropivacaine[Title/Abstract] AND Block[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference); 1,043",
+  "safety": "ropivacaine[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR self-medication); 3,248"
+ },
+ "vs": "vs 20 mL: 82명 무작위시험에서 0.375% 로피바카인 30 mL군의 반횡격막마비 위험이 20 mL군보다 높았습니다(RR=1.972, p=0.011). 5분부터 발생할 수 있어 조기 호흡 모니터링이 필요했습니다."
 }
