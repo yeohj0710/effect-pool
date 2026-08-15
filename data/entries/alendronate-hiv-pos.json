@@ -1,32 +1,33 @@
 {
- "id": "alendronate-hiv-pos",
- "subj": "알렌드론산",
- "claim": "HIV 감염인의 골감소증에서 알렌드론산이 골밀도를 높였다",
- "line": "HIV 감염인의 골감소증에서 알렌드론산은 척추 골밀도를 개선했다.",
- "effect": "척추 골밀도 +5.2%",
- "tier": "trial",
- "dir": "pos",
- "n": 82,
- "synth": "single",
- "known": "off",
- "knownWhy": "알렌드론산은 HIV 감염 자체 치료의 허가 적응증이 아니다",
- "why": "안정된 항레트로바이러스 치료를 받는 HIV 감염인의 골밀도 저하에 알렌드론산을 추가한 다기관 무작위시험이다.",
- "saw": "HIV 감염인 82명을 알렌드론산과 칼슘·비타민D 또는 칼슘·비타민D에 배정했다. 알렌드론산군의 척추 골밀도가 대조군보다 유의하게 좋아졌고 중대한 이상반응은 없었다.",
- "limit": "골절 발생이 아니라 골밀도를 48주 평가했고 안정된 항레트로바이러스 치료 환자만 포함했다.",
- "against": "HIV 감염 자체나 항레트로바이러스 약제의 모든 골 합병증을 치료한다는 근거는 아니다.",
- "use": "HIV 감염인의 이차성 골감소증에서 골밀도 치료를 검토할 때 참고할 근거로 기록한다.",
- "refs": [
-  {
-   "label": "McComsey 2007 · AIDS · 무작위시험",
-   "doi": "10.1097/QAD.0b013e3282ef961d",
-   "pmid": "18025884"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=alendronate, cond=HIV · 6건",
-  "pubmed": "alendronate AND HIV · 35편",
-  "negative": "alendronate AND HIV AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
-  "safety": "alendronate AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2641편"
- }
+  "id": "alendronate-hiv-pos",
+  "subj": "알렌드론산",
+  "claim": "HIV 감염인의 골감소증에서 알렌드론산이 골밀도를 높였다",
+  "line": "HIV 감염인의 골감소증에서 알렌드론산은 척추 골밀도를 개선했다.",
+  "effect": "골밀도 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 82,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "알렌드론산은 HIV 감염 자체 치료의 허가 적응증이 아니다",
+  "why": "안정된 항레트로바이러스 치료를 받는 HIV 감염인의 골밀도 저하에 알렌드론산을 추가한 다기관 무작위시험이다.",
+  "saw": "골밀도가 낮은 HIV 감염인 82명을 알렌드론산+칼슘·비타민D와 칼슘·비타민D 단독군에 무작위 배정했습니다. 알렌드론산군은 요추·고관절·전자부 골밀도가 개선됐고 대퇴경부는 차이가 없었습니다. 중대한 이상반응은 없었습니다.",
+  "limit": "모든 군이 칼슘·비타민D를 받아 알렌드론산의 추가 효과를 해석해야 하며 대퇴경부 개선은 없었습니다.",
+  "against": "HIV 감염 자체나 항레트로바이러스 약제의 모든 골 합병증을 치료한다는 근거는 아니다.",
+  "use": "HIV 감염인의 이차성 골감소증에서 골밀도 치료를 검토할 때 참고할 근거로 기록한다.",
+  "refs": [
+    {
+      "label": "McComsey 2007 · AIDS · 무작위시험",
+      "doi": "10.1097/QAD.0b013e3282ef961d",
+      "pmid": "18025884"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=alendronate, cond=HIV · 6건",
+    "pubmed": "alendronate AND HIV · 35편; PMID 18025884 PubMed abstract verified 2026-08-15",
+    "negative": "alendronate AND HIV AND (no effect OR did not OR failed OR negative OR no significant difference) · 28편",
+    "safety": "alendronate AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 2641편"
+  },
+  "vs": "알렌드론산+Ca/D vs Ca/D, n=82: 요추·고관절·전자부 골밀도 개선; 대퇴경부 차이 없음."
 }

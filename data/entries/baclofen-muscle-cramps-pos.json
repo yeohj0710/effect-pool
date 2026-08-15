@@ -3,7 +3,7 @@
   "subj": "바클로펜",
   "claim": "바클로펜은 간경변 환자의 근육 경련을 줄인다",
   "line": "위약대조 간경변 시험에서 바클로펜은 근육 경련을 줄였다.",
-  "effect": "경련 소실 72%; 빈도·강도 감소",
+  "effect": "경련 빈도·중증도↓",
   "tier": "trial",
   "dir": "pos",
   "n": 100,
@@ -11,19 +11,26 @@
   "known": "off",
   "knownWhy": "바클로펜 허가사항은 다발성경화증·척수질환 관련 경직이고 간경변 근육 경련은 포함하지 않는다.",
   "why": "간경변과 근육 경련 환자를 바클로펜과 위약에 무작위 배정한 직접 시험이다.",
-  "saw": "100명이 바클로펜 30 mg/일 또는 위약을 3개월 받았다. 바클로펜군은 1·3개월에 경련 빈도가 유의하게 줄었고, 72%에서 경련이 완전히 사라졌으며 20%는 호전됐다.",
-  "limit": "단일 기관 시험이고 간경변 환자에 국한되며, 중단 후 경련이 다시 늘었다.",
+  "saw": "간경변 근육경련 무작위 위약대조시험에서 바클로펜 100명이 치료받았고 3개월 동안 경련 빈도·중증도·기간이 감소했습니다. 후속 무작위시험 체계적고찰도 바클로펜이 위약보다 경련 결과를 줄였다고 정리했습니다.",
+  "limit": "같은 바클로펜 시험을 공유하는 주제이며 간경변 환자 결과를 다른 원인의 경련에 일반화할 수 없습니다.",
   "against": "근육 경련 고찰은 무작위시험이 적어 간경변 환자에서 가장 적절한 약물과 장기 안전성을 확정할 수 없다고 했다.",
   "use": "간경변 근육 경련이 다른 원인 교정에도 지속될 때 간성뇌증·진정 위험을 고려해 제한적으로 검토한다.",
   "refs": [
-    { "label": "간경변 근육 경련 바클로펜 위약대조시험", "pmid": "27467714" },
-    { "label": "간경변 근육 경련 치료 무작위시험 고찰", "pmid": "39548657" }
+    {
+      "label": "간경변 근육 경련 바클로펜 위약대조시험",
+      "pmid": "27467714"
+    },
+    {
+      "label": "간경변 근육 경련 치료 무작위시험 고찰",
+      "pmid": "39548657"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=baclofen · cond=Muscle Cramps · 총 5건, 바클로펜 직접 확인 5건",
-    "pubmed": "baclofen AND Muscle Cramps · 264편",
+    "pubmed": "baclofen AND Muscle Cramps · 264편; PMID 27467714 PubMed abstract verified 2026-08-15",
     "negative": "baclofen AND Muscle Cramps AND (no effect OR did not OR failed to OR negative OR no significant difference) · 175편",
     "safety": "baclofen AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2522편"
-  }
+  },
+  "vs": "바클로펜 vs 위약, n=100: 경련 빈도·중증도·기간 감소; 완전소실 72%."
 }

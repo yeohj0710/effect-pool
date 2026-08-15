@@ -3,7 +3,7 @@
   "subj": "바클로펜",
   "claim": "근육이완제를 간경변 근육경련에 쓴다",
   "line": "간경변 환자에게 바클로펜을 투여하자 근육 경련이 줄었다.",
-  "effect": "경련 완전 소실 72%",
+  "effect": "경련 완전소실 72%",
   "tier": "trial",
   "dir": "pos",
   "known": "off",
@@ -11,8 +11,8 @@
   "n": 100,
   "synth": "single",
   "why": "바클로펜의 허가사항은 경직이며 간경변 환자의 근육경련은 허가 적응증이 아닙니다.",
-  "saw": "간경변과 근육경련이 있는 환자 100명을 바클로펜과 위약에 무작위 배정한 3개월 시험에서 바클로펜군의 경련이 72%에서 완전히 사라졌고 20%에서는 줄었습니다. 중단 뒤 경련이 다시 늘었습니다.",
-  "limit": "근육경련이라는 증상을 본 단일 시험이며 간경변의 원인이나 생존을 치료한 결과가 아닙니다. 중단 뒤 재발했고 간기능과 신경계 부작용을 따로 살펴야 합니다.",
+  "saw": "간경변과 근육경련 환자 100명을 바클로펜과 위약에 무작위 배정해 3개월 치료했습니다. 바클로펜군은 경련 빈도·중증도·기간이 감소했고, 72%에서 완전히 사라졌습니다(p<.005~.001). 위약군에서는 유의한 변화가 없었습니다.",
+  "limit": "단일기관 시험이며 치료 중단 뒤 경련이 재발했습니다.",
   "against": "반대 검색 42건. 만성 C형간염과 알코올 사용장애 180명 무작위시험에서는 금주일과 음주 감소가 위약보다 좋아지지 않았습니다.",
   "use": "간경변 근육경련에는 단일 무작위시험의 개선 신호가 있지만, 알코올 사용장애 치료 효과와 혼동하면 안 됩니다.",
   "refs": [
@@ -28,11 +28,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.substance_name:\"BACLOFEN\" → 171건, 경직 적응증 확인",
     "ctgov": "query.intr=baclofen&query.cond=Cirrhosis → 7건 반환, InterventionName 대조 후 baclofen 5건",
-    "pubmed": "baclofen Cirrhosis → 64건",
+    "pubmed": "baclofen Cirrhosis → 64건; PMID 27467714 PubMed abstract verified 2026-08-15",
     "negative": "baclofen Cirrhosis (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 42건",
     "safety": "baclofen Cirrhosis (adverse OR toxicity OR case report OR overdose OR self-medication) → 26건"
-  }
+  },
+  "vs": "바클로펜 vs 위약, n=100: 경련 완전소실 72%; 빈도·중증도·기간 p<.001."
 }

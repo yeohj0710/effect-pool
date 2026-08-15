@@ -5,24 +5,28 @@
   "line": "고산 도착 뒤 아세타졸아미드군의 집중력·기억력 검사 점수가 더 낮았다.",
   "tier": "trial",
   "dir": "harm",
-  "effect": "집중력·기억력 검사↓",
+  "effect": "인지·기억 저하 p<.05",
   "n": 21,
   "synth": "single",
   "known": "off",
   "knownWhy": "녹내장·부종·고산병 예방 등 허가에 인지기능 개선은 없음",
   "why": "건강한 성인을 고산으로 이동시킨 뒤 아세타졸아미드와 위약을 무작위 비교해 신경심리검사를 한 시험입니다.",
-  "saw": "21명에서 고산 도착 6시간과 30시간 뒤 집중력, 처리속도, 반응시간, 단기기억과 작업기억이 아세타졸아미드군에서 더 낮았습니다.",
-  "limit": "건강한 젊은 성인의 고산 노출 시험이며 인지장애 환자의 치료시험이 아닙니다. 고산병 예방 효과와 인지검사 결과가 반대 방향일 수 있습니다.",
+  "saw": "건강한 성인 21명을 고산 도착 전 아세타졸아미드 11명과 위약 10명에 무작위 배정했습니다. 고산에서 아세타졸아미드군의 집중력, 처리속도, 반응시간, 단기·작업기억이 6시간과 30시간에 위약보다 낮았습니다(p<.05). 고산병 발생은 줄였습니다.",
+  "limit": "건강한 성인의 고산 예방 시험이라 다른 적응증의 인지 위험으로 일반화할 수 없습니다.",
   "against": "아세타졸아미드는 고산병 예방에는 효과가 있었지만 이 시험에서 인지기능 개선으로 이어지지는 않았습니다.",
   "use": "인지기능 개선 약으로 표시할 근거가 없고 고산 환경에서는 오히려 단기 인지 저하 신호가 있습니다.",
   "refs": [
-    { "label": "Zhang 2013 · High Altitude Medicine & Biology · 고산 노출 아세타졸아미드 인지기능 무작위시험", "pmid": "23280141" }
+    {
+      "label": "Zhang 2013 · High Altitude Medicine & Biology · 고산 노출 아세타졸아미드 인지기능 무작위시험",
+      "pmid": "23280141"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=acetazolamide, cond=Cognitive Function → 4건 반환, InterventionName 대조 후 3건",
-    "pubmed": "acetazolamide AND Cognitive Function → 87건",
+    "pubmed": "acetazolamide AND Cognitive Function → 87건; PMID 23280141 PubMed abstract verified 2026-08-15",
     "negative": "acetazolamide AND Cognitive Function AND (no effect OR did not OR failed to OR negative OR no significant difference) → 61건",
     "safety": "acetazolamide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2740건"
-  }
+  },
+  "vs": "아세타졸아미드 n=11 vs 위약 n=10: 고산 후 집중력·기억력 저하(p<.05); 고산병은 감소."
 }

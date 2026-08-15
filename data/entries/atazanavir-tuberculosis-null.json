@@ -1,38 +1,39 @@
 {
- "id": "atazanavir-tuberculosis-null",
- "subj": "아타자나비르",
- "claim": "소규모 단일 연구에서 리팜피신 병용 결핵 치료에 아타자나비르 효과는 확인되지 않았다",
- "line": "리팜피신은 아타자나비르 노출을 낮췄고 결핵 치료 효과는 확인되지 않았다.",
- "effect": "청소율 3배 증가·목표농도 99%",
- "tier": "trial",
- "dir": "null",
- "n": 26,
- "synth": "single",
- "known": "off",
- "knownWhy": "아타자나비르 허가는 HIV-1 감염이며 결핵 치료는 허가 적응증이 아닙니다",
- "why": "HIV와 결핵을 함께 치료할 때 리팜피신이 아타자나비르 노출을 바꾸는지 확인한 약동학 연구를 치료효과 근거와 구분합니다.",
- "saw": "우간다 HIV 감염 성인 26명의 약동학 모델에서 rifampicin은 ritonavir-boosted 아타자나비르 청소율을 3배 높이고 생체이용률을 낮췄습니다. 투여 빈도를 두 배로 한 모의 분석에서는 목표 최저농도 도달 비율이 99%로 회복됐습니다.",
- "limit": "결핵 환자를 직접 치료한 시험이 아니고 혈중 약물농도만 본 연구라 결핵 치료 성공률을 말할 수 없습니다.",
- "against": "결핵의 균 음전, 재발, 사망 같은 임상 결과를 아타자나비르로 개선했다는 근거를 찾지 못했습니다.",
- "use": "HIV·결핵 동시치료에서 약물상호작용을 피해야 하는 사례로 기록합니다.",
- "refs": [
-  {
-   "label": "Mwebaza 2025 · ritonavir-boosted atazanavir와 rifampicin 상호작용 모델",
-   "doi": "10.1002/bcp.70195",
-   "pmid": "40796001",
-   "pmc": "PMC12648368",
-   "nct": "NCT04121195"
+  "id": "atazanavir-tuberculosis-null",
+  "subj": "아타자나비르",
+  "claim": "소규모 단일 연구에서 리팜피신 병용 결핵 치료에 아타자나비르 효과는 확인되지 않았다",
+  "line": "리팜피신은 아타자나비르 노출을 낮췄고 결핵 치료 효과는 확인되지 않았다.",
+  "effect": "청소율 3배 증가·목표농도 99%",
+  "tier": "trial",
+  "dir": "null",
+  "n": 26,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "아타자나비르 허가는 HIV-1 감염이며 결핵 치료는 허가 적응증이 아닙니다",
+  "why": "HIV와 결핵을 함께 치료할 때 리팜피신이 아타자나비르 노출을 바꾸는지 확인한 약동학 연구를 치료효과 근거와 구분합니다.",
+  "saw": "우간다 HIV 감염 성인 26명의 약동학 모델에서 rifampicin은 ritonavir-boosted 아타자나비르 청소율을 3배 높이고 생체이용률을 낮췄습니다. 투여 빈도를 두 배로 한 모의 분석에서는 목표 최저농도 도달 비율이 99%로 회복됐습니다.",
+  "limit": "결핵 환자를 직접 치료한 시험이 아니고 혈중 약물농도만 본 연구라 결핵 치료 성공률을 말할 수 없습니다.",
+  "against": "결핵의 균 음전, 재발, 사망 같은 임상 결과를 아타자나비르로 개선했다는 근거를 찾지 못했습니다.",
+  "use": "HIV·결핵 동시치료에서 약물상호작용을 피해야 하는 사례로 기록합니다.",
+  "refs": [
+    {
+      "label": "Mwebaza 2025 · ritonavir-boosted atazanavir와 rifampicin 상호작용 모델",
+      "doi": "10.1002/bcp.70195",
+      "pmid": "40796001",
+      "pmc": "PMC12648368",
+      "nct": "NCT04121195"
+    },
+    {
+      "label": "임신·산후 항레트로바이러스제와 결핵약 약동학시험",
+      "nct": "NCT04518228"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=atazanavir AND condition=Tuberculosis; 4건 반환, 3건 직접 대조",
+    "pubmed": "atazanavir AND Tuberculosis; 34편, PMID40796001 직접 약동학 결과; PubMed abstract verified 2026-08-15; PMID 40796001은 리팜피신과 아타자나비르의 약동학 모델 연구로 결핵 치료의 개입군 대 대조군 임상효과가 없습니다.",
+    "negative": "atazanavir AND Tuberculosis AND (no effect OR did not OR failed to OR negative); 9편",
+    "safety": "atazanavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 955편"
   },
-  {
-   "label": "임신·산후 항레트로바이러스제와 결핵약 약동학시험",
-   "nct": "NCT04518228"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "intervention=atazanavir AND condition=Tuberculosis; 4건 반환, 3건 직접 대조",
-  "pubmed": "atazanavir AND Tuberculosis; 34편, PMID40796001 직접 약동학 결과",
-  "negative": "atazanavir AND Tuberculosis AND (no effect OR did not OR failed to OR negative); 9편",
-  "safety": "atazanavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 955편"
- }
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 없음(0건). PMID 40796001은 리팜피신과 아타자나비르의 약동학 모델 연구로 결핵 치료의 개입군 대 대조군 임상효과가 없습니다."
 }

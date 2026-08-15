@@ -1,32 +1,33 @@
 {
- "id": "amifampridine-myasthenia-gravis-pos",
- "subj": "아미팜프리딘",
- "claim": "소규모 단일 연구에서 MuSK 양성 근무력증에 아미팜프리딘이 증상·일상기능을 개선할 가능성이 관찰됐다",
- "line": "MuSK 양성 근무력증에서 증상·일상 기능 개선 신호가 있었다.",
- "effect": "증상·일상기능 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 10,
- "synth": "single",
- "why": "MuSK 항체 양성 근무력증 환자 10명을 대상으로 한 무작위 이중눈가림 교차시험에서 근무력증 점수와 일상기능 점수가 개선됐다.",
- "limit": "참가자 10명의 소규모 단기 시험이며 후속 대규모 연구가 필요하다.",
- "against": "AChR 항체 양성 환자를 대상으로 한 더 최근 시험에서는 우월성이 확인되지 않았다.",
- "use": "MuSK 양성 근무력증의 실험적 보조 선택지로만 본다.",
- "refs": [
-  {
-   "label": "Amifampridine phosphate in the treatment of muscle-specific kinase myasthenia gravis",
-   "doi": "10.1177/2050312118819013",
-   "pmid": "30574306"
-  }
- ],
- "known": "off",
- "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
- "saw": "MuSK 항체 양성 근무력증 환자 10명을 대상으로 한 무작위 이중눈가림 교차시험에서 근무력증 점수와 일상기능 점수가 개선됐다.",
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=amifampridine, cond=Myasthenia Gravis · 6건 직접 확인",
-  "pubmed": "amifampridine AND Myasthenia Gravis · 27건",
-  "negative": "amifampridine AND Myasthenia Gravis AND (no effect OR did not OR failed OR negative OR no significant difference) · 58건",
-  "safety": "amifampridine AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 74건"
- }
+  "id": "amifampridine-myasthenia-gravis-pos",
+  "subj": "아미팜프리딘",
+  "claim": "소규모 단일 연구에서 MuSK 양성 근무력증에 아미팜프리딘이 증상·일상기능을 개선할 가능성이 관찰됐다",
+  "line": "MuSK 양성 근무력증에서 증상·일상 기능 개선 신호가 있었다.",
+  "effect": "QMG·ADL 개선 p<.001",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 10,
+  "synth": "single",
+  "why": "MuSK 항체 양성 근무력증 환자 10명을 대상으로 한 무작위 이중눈가림 교차시험에서 근무력증 점수와 일상기능 점수가 개선됐다.",
+  "limit": "등록 10명의 매우 작은 21일 교차시험이며 일시적 감각이상은 60%에서 보고됐습니다.",
+  "against": "AChR 항체 양성 환자를 대상으로 한 더 최근 시험에서는 우월성이 확인되지 않았다.",
+  "use": "MuSK 양성 근무력증의 실험적 보조 선택지로만 본다.",
+  "refs": [
+    {
+      "label": "Amifampridine phosphate in the treatment of muscle-specific kinase myasthenia gravis",
+      "doi": "10.1177/2050312118819013",
+      "pmid": "30574306"
+    }
+  ],
+  "known": "off",
+  "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
+  "saw": "MuSK 항체 양성 중증근무력증 환자 10명을 아미팜프리딘과 위약 순서를 달리한 이중맹검 교차시험에 배정했습니다. QMG와 중증근무력증 일상생활 점수가 유의하게 개선됐고(p=.0003, p=.0006), 모든 2차 결과도 유의했습니다.",
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=amifampridine, cond=Myasthenia Gravis · 6건 직접 확인",
+    "pubmed": "amifampridine AND Myasthenia Gravis · 27건; PMID 30574306 PubMed abstract verified 2026-08-15",
+    "negative": "amifampridine AND Myasthenia Gravis AND (no effect OR did not OR failed OR negative OR no significant difference) · 58건",
+    "safety": "amifampridine AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 74건"
+  },
+  "vs": "아미팜프리딘 vs 위약 교차, n=10: QMG p=.0003; ADL p=.0006; 감각이상 60%."
 }

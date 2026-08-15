@@ -15,14 +15,21 @@
   "against": "검색된 암 임상시험은 이식·항암치료 중 요산 관리가 목적이었고, 알로푸리놀 단독 항암 효과를 평가하지 않았습니다.",
   "use": "종양용해증후군 예방과 암 치료를 구분해야 하며, 알로푸리놀을 항암제로 해석할 근거는 없습니다.",
   "refs": [
-    { "label": "Howard 2024 · Tumour lysis syndrome · 종양용해증후군 검토", "pmid": "39174582" },
-    { "label": "Albasri 2022 · 전립선암과 알로푸리놀 위험 메타분석", "pmid": "35356907" }
+    {
+      "label": "Howard 2024 · Tumour lysis syndrome · 종양용해증후군 검토",
+      "pmid": "39174582"
+    },
+    {
+      "label": "Albasri 2022 · 전립선암과 알로푸리놀 위험 메타분석",
+      "pmid": "35356907"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=allopurinol, cond=Cancer → 40건 반환·31건 직접 대조",
-    "pubmed": "allopurinol AND Cancer → 997건",
+    "pubmed": "allopurinol AND Cancer → 997건; PubMed abstract verified 2026-08-15; PMID 39174582는 종양융해증 문헌고찰이고 PMID 35356907은 관찰연구 메타분석으로 암 치료 개입군 대 대조군 근거가 아닙니다.",
     "negative": "allopurinol AND Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 635건",
     "safety": "allopurinol AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4258건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 없음(0건). PMID 39174582는 종양융해증 문헌고찰이고 PMID 35356907은 관찰연구 메타분석으로 암 치료 개입군 대 대조군 근거가 아닙니다."
 }

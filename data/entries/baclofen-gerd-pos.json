@@ -3,14 +3,14 @@
   "subj": "바클로펜",
   "claim": "근육이완제를 위식도역류질환에 쓴다",
   "line": "위식도역류 환자에서 바클로펜은 발생 횟수와 지속시간을 줄였다.",
-  "effect": "역류 횟수·기간 감소",
+  "effect": "역류 에피소드↓",
   "tier": "trial",
   "dir": "pos",
   "n": 283,
   "synth": "meta",
   "why": "위식도역류질환에서 바클로펜과 위약을 비교한 무작위시험 9편의 메타분석입니다.",
-  "saw": "환자 283명을 합친 분석에서 역류 횟수, 역류 기간, 일시적 하부식도괄약근 이완이 단기간 줄었습니다. 중대한 이상반응과 사망 차이는 없었습니다.",
-  "limit": "건강인과 위식도역류질환 환자를 함께 분석했고 단기 생리 지표 중심이라 장기 증상·합병증 효과는 불확실합니다.",
+  "saw": "바클로펜 GERD 무작위시험 9개, 총 283명의 메타분석에서 위약과 비교했습니다. 바클로펜은 환자당 역류 에피소드 수, 평균 지속시간, 일과성 하부식도괄약근 이완을 단기간 줄였고 중대한 이상반응은 없었습니다.",
+  "limit": "단기 효과를 합친 메타분석이며 장기 GERD 증상 조절과 내약성을 확정하지 않습니다.",
   "against": "반대 검색 108건. 최근 검토도 유용성을 시사했지만 더 큰 설계의 연구가 필요하다고 결론냈습니다.",
   "use": "위식도역류에서 단기 역류 억제 신호가 있으나 장기 치료 효과로 확대하지 않는 근거입니다.",
   "refs": [
@@ -22,13 +22,14 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA substance_name:BACLOFEN → 171건, 경직 적응증 확인; 위식도역류는 비허가",
     "ctgov": "query.intr=baclofen&query.cond=GERD → 7건 반환, InterventionName 대조 후 4건",
-    "pubmed": "baclofen GERD → 157건",
+    "pubmed": "baclofen GERD → 157건; PMID 25389436 PubMed abstract verified 2026-08-15",
     "negative": "baclofen GERD AND (no effect OR did not OR failed to OR negative OR no significant difference) → 108건",
     "safety": "baclofen AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2,522건"
   },
   "known": "off",
-  "knownWhy": "위식도역류질환은 허가 없음"
+  "knownWhy": "위식도역류질환은 허가 없음",
+  "vs": "바클로펜 vs 위약, 9시험 n=283: 역류 에피소드·지속시간·괄약근 이완 감소."
 }

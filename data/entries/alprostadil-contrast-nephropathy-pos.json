@@ -3,7 +3,7 @@
   "subj": "알프로스타딜",
   "claim": "조영제 신독성을 예방하는 데 알프로스타딜을 쓴다",
   "line": "조영술 전후 알프로스타딜을 수액과 함께 투여하자 신장 손상이 줄었습니다.",
-  "effect": "29연구·5623명",
+  "effect": "CIN·Cr·BUN↓",
   "tier": "trial",
   "dir": "pos",
   "n": 5623,
@@ -11,19 +11,26 @@
   "known": "off",
   "knownWhy": "알프로스타딜의 허가 적응증은 발기부전 등이며 조영제 유발 신독성 예방은 허가 적응증이 아닙니다.",
   "why": "혈관을 넓히는 프로스타글란딘 제제를 발기부전이 아닌 조영제 신독성 예방에 돌려 쓴 사례입니다.",
-  "saw": "무작위시험 29개, 5623명을 합친 메타분석에서 수액 단독보다 알프로스타딜 병용이 조영제 유발 신독성 발생과 24~168시간의 크레아티닌·요소질소를 줄였습니다. 일부 분석에서는 사구체여과율도 높았습니다.",
-  "limit": "연구의 질과 투여량·투여기간이 달랐고 대부분 관상동맥 조영술 환자여서 다른 조영 시술과 고위험 신장질환자에 일반화하기 어렵습니다.",
+  "saw": "조영제 신독성 예방을 다룬 29개 연구 5623명의 체계적 문헌고찰·메타분석에서 알프로스타딜+수액을 수액과 비교했습니다. 알프로스타딜은 조영제 신독성 발생과 24·48·72시간 및 7일의 크레아티닌·요소질소를 줄였고 사구체여과율을 높였습니다.",
+  "limit": "여러 연구와 용량이 섞인 메타분석이며 조영술 상황의 예방효과입니다.",
   "against": "단일 연구와 체계적 문헌고찰만으로 예방 효과를 확정하기 어렵고 저혈압 등 혈관확장 부작용을 함께 고려해야 합니다.",
   "use": "알프로스타딜을 조영제 신독성 예방에 쓰려는 근거를 기록하며 수액·신장기능 감시와 구분합니다.",
   "refs": [
-    { "label": "조영제 신독성 예방 알프로스타딜 메타분석", "pmid": "33853365" },
-    { "label": "알프로스타딜 조영제 신독성 연구", "pmid": "31331187" }
+    {
+      "label": "조영제 신독성 예방 알프로스타딜 메타분석",
+      "pmid": "33853365"
+    },
+    {
+      "label": "알프로스타딜 조영제 신독성 연구",
+      "pmid": "31331187"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=alprostadil · cond=Kidney Diseases → 4건 반환, 물질 대조 후 3건",
-    "pubmed": "alprostadil AND Kidney Diseases → 197편",
+    "pubmed": "alprostadil AND Kidney Diseases → 197편; PMID 33853365 PubMed abstract verified 2026-08-15",
     "negative": "alprostadil AND Kidney Diseases AND (no effect OR did not OR failed to OR negative OR no significant difference) → 162편",
     "safety": "alprostadil AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1781편"
-  }
+  },
+  "vs": "알프로스타딜+수액 vs 수액, 29시험 n=5623: CIN·Cr·BUN 감소; GFR 증가."
 }
