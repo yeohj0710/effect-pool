@@ -1,31 +1,36 @@
 {
- "id": "augmented-reality-education-pos",
- "subj": "증강현실",
- "claim": "천식 아동 보호자가 증강현실 교육 앱을 관리 기술에 도움이 된다고 평가한다",
- "line": "천식 보호자는 증강현실 앱을 유용하다고 평가했지만 사용은 8.6분이었습니다",
- "effect": "사용 8.6분; 장벽 보고",
- "tier": "obs",
- "dir": "pos",
- "n": null,
- "synth": "single",
- "known": "off",
- "knownWhy": "증강현실 천식 교육은 허가 적응증이 아니라 비약물 교육 중재입니다",
- "why": "천식 아동 보호자가 사용한 증강현실 교육 앱을 혼합방법 연구로 평가한 사람 자료입니다",
- "saw": "CHANGE-Asthma 앱의 증강현실 기능을 사용한 보호자의 앱 사용 시간과 인터뷰를 분석했습니다. 평균 14주 동안 총 사용 시간은 8.6분이었고 참여자 수는 초록에 적지 않았습니다",
- "limit": "대조군이 없고 사용 시간이 짧았으며 보호자 평가 중심이라 천식 조절 개선을 입증하지 않습니다",
- "against": "첫 주 뒤 사용 시간이 줄었고 일부 보호자는 개인 기기에서 증강현실 기능을 쓰기 어려웠다고 말했습니다",
- "use": "천식 교육에서 증강현실의 수용성과 사용 장벽을 함께 기록합니다",
- "refs": [
-  {
-   "label": "A Mixed-Methods Evaluation of a Novel, Augmented Reality Educational App for Asthma · 혼합방법 연구",
-   "pmid": "42558146"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"augmented reality\" AND \"Education\" → 100건 이상, NCT05446896 등 직접 중재 확인",
-  "pubmed": "\"augmented reality\" AND \"Education\" → 2020건, PMID 42558146 직접 결과",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 925건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 75건"
- }
+  "id": "augmented-reality-education-pos",
+  "subj": "증강현실",
+  "claim": "의학교육에서 증강현실 학습자료는 학습 동기와 만족도를 높일 수 있다",
+  "line": "천식 보호자는 증강현실 앱을 유용하다고 평가했지만 사용은 8.6분이었습니다",
+  "effect": "AR 동기 5.73 vs 4.81",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 24,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "증강현실 천식 교육은 허가 적응증이 아니라 비약물 교육 중재입니다",
+  "why": "천식 아동 보호자가 사용한 증강현실 교육 앱을 혼합방법 연구로 평가한 사람 자료입니다",
+  "saw": "의대생 24명이 증강현실 손자료군과 전통 손자료군에 12명씩 무작위 배정됐다. 미생물학 사후점수는 11.25 vs 10.58이었고, 내재적 목표지향 동기는 5.73 vs 4.81(p=.002), 자료의 자극성 만족도는 4.58 vs 3.50(p=.025)였다.",
+  "limit": "소규모 단일 교육기관 시험이며 사후 학업성취도 차이는 크지 않았다.",
+  "against": "첫 주 뒤 사용 시간이 줄었고 일부 보호자는 개인 기기에서 증강현실 기능을 쓰기 어려웠다고 말했습니다",
+  "use": "천식 교육에서 증강현실의 수용성과 사용 장벽을 함께 기록합니다",
+  "refs": [
+    {
+      "label": "A Mixed-Methods Evaluation of a Novel, Augmented Reality Educational App for Asthma · 혼합방법 연구",
+      "pmid": "42558146"
+    },
+    {
+      "label": "The effectiveness of augmented reality handouts for learning microbiology in medical students",
+      "pmid": "40996281"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"augmented reality\" AND \"Education\" → 100건 이상, NCT05446896 등 직접 중재 확인",
+    "pubmed": "\"augmented reality\" AND \"Education\" → 2020건, PMID 42558146 직접 결과; PMID 40996281 PubMed abstract verified 2026-08-15",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 925건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 75건"
+  },
+  "vs": "증강현실 손자료 n=12 vs 전통 손자료 n=12: 사후점수 11.25 vs 10.58, 내재적 목표지향 5.73 vs 4.81(p=.002)."
 }

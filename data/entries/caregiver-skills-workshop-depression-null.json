@@ -1,32 +1,37 @@
 {
- "id": "caregiver-skills-workshop-depression-null",
- "subj": "돌봄 기술 워크숍",
- "claim": "치매 돌봄자 온라인 기술훈련은 3개월 우울과 부담을 개선하지 못했다.",
- "line": "온라인 돌봄자 기술훈련은 3개월 우울과 부담을 줄이지 못했다.",
- "effect": "우울·부담 군간 차이 없음",
- "tier": "trial",
- "dir": "null",
- "n": 151,
- "synth": "single",
- "known": "off",
- "knownWhy": "돌봄자 기술훈련은 의약품 허가 적응증이 아닌 교육·심리사회적 중재입니다.",
- "why": "온라인 교육·인지행동·이완·돌봄기술을 묶은 프로그램이 돌봄자의 우울과 부담을 줄이는지 평가했습니다.",
- "saw": "인도 치매 돌봄자 151명을 iSupport군과 교육 전자책 대조군에 무작위 배정했지만 3개월 우울과 부담의 군간 차이는 없었습니다. 돌봄자 중심 태도만 개선됐습니다.",
- "limit": "151명 중 55명만 추적을 끝내 탈락률이 높고 3개월 결과입니다.",
- "against": "우울·부담 결과는 음성이지만 돌봄자 중심 태도와 다른 중재의 효과까지 없다고 말할 수 없습니다.",
- "use": "온라인 돌봄자 교육을 도입할 때 우울·부담의 변화를 추적하고 유지율을 먼저 개선합니다.",
- "refs": [
-  {
-   "label": "인도 치매 돌봄자 온라인 기술훈련 무작위시험",
-   "doi": "10.1002/gps.5502",
-   "pmid": "33491811"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "caregiver skills workshop AND Depression · 6건 반환·0건 중재명 일치",
-  "pubmed": "caregiver skills workshop AND Depression · 378건",
-  "negative": "caregiver skills workshop AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 260건",
-  "safety": "caregiver skills workshop AND Depression AND (adverse OR toxicity OR case report OR harm OR dropout) · 31건"
- }
+  "id": "caregiver-skills-workshop-depression-null",
+  "subj": "돌봄 기술 워크숍",
+  "claim": "센터 기반 양육기술 개입은 전체 돌봄 제공자의 우울·불안·스트레스 증상을 유의하게 줄이지 못했다",
+  "line": "온라인 돌봄자 기술훈련은 3개월 우울과 부담을 줄이지 못했다.",
+  "effect": "우울 β=-.047; 하위군 -.205",
+  "tier": "trial",
+  "dir": "null",
+  "n": 615,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "돌봄자 기술훈련은 의약품 허가 적응증이 아닌 교육·심리사회적 중재입니다.",
+  "why": "온라인 교육·인지행동·이완·돌봄기술을 묶은 프로그램이 돌봄자의 우울과 부담을 줄이는지 평가했습니다.",
+  "saw": "농촌 중국 100개 마을의 양육센터 군집 무작위시험에서 돌봄 제공자-아동 615쌍을 분석했다. 2년 뒤 돌봄 제공자의 우울 β=-.047(SE=.079), 불안 β=.040(SE=.076), 스트레스 β=.032(SE=.081)로 전체 유의 효과가 없었다. 사회정서 지연이 없던 아동의 돌봄 제공자에서는 우울 β=-.205(SE=.097, p=.043)였다.",
+  "limit": "양육기술 중심의 센터 개입이며 우울 치료 워크숍의 직접 시험은 아니다. 하위군 결과는 탐색적이다.",
+  "against": "우울·부담 결과는 음성이지만 돌봄자 중심 태도와 다른 중재의 효과까지 없다고 말할 수 없습니다.",
+  "use": "온라인 돌봄자 교육을 도입할 때 우울·부담의 변화를 추적하고 유지율을 먼저 개선합니다.",
+  "refs": [
+    {
+      "label": "인도 치매 돌봄자 온라인 기술훈련 무작위시험",
+      "doi": "10.1002/gps.5502",
+      "pmid": "33491811"
+    },
+    {
+      "label": "Effects of a 2-year randomized controlled trial of parenting centers on caregiver mental health in rural China",
+      "pmid": "42159434"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "caregiver skills workshop AND Depression · 6건 반환·0건 중재명 일치",
+    "pubmed": "caregiver skills workshop AND Depression · 378건; PMID 42159434 PubMed abstract verified 2026-08-15",
+    "negative": "caregiver skills workshop AND Depression AND (no effect OR did not OR failed OR negative OR no significant difference) · 260건",
+    "safety": "caregiver skills workshop AND Depression AND (adverse OR toxicity OR case report OR harm OR dropout) · 31건"
+  },
+  "vs": "센터 기반 양육기술 개입 vs 대조, n=615: 우울 β=-.047(SE=.079), 불안 β=.040(SE=.076), 스트레스 β=.032(SE=.081); 특정 하위군 우울 β=-.205(p=.043)."
 }

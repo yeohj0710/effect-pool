@@ -1,28 +1,37 @@
 {
   "id": "aromatherapy-pain-pos",
   "subj": "아로마테라피",
-  "claim": "완화의료 환자의 통증과 불안·스트레스 완화에 아로마테라피를 보조적으로 쓸 수 있습니다",
+  "claim": "전립선 생검 중 라벤더·유향 아로마테라피는 불안과 통증 부담을 낮출 수 있다",
   "line": "아로마테라피는 완화의료 환자의 통증을 낮출 가능성이 있다.",
-  "effect": "통증·불안·스트레스 감소",
+  "effect": "STAI -7.39 vs -.82",
   "tier": "trial",
   "dir": "pos",
-  "n": 88,
+  "n": 120,
   "synth": "single",
   "known": "off",
   "knownWhy": "아로마테라피는 의약품 허가 적응증이 아니라 비약물 보조 중재입니다.",
   "why": "완화의료 환자에게 아로마테라피를 단독 또는 음악과 함께 제공했을 때 통증과 심리적 고통이 달라지는지 평가했습니다.",
-  "saw": "완화의료 환자 88명을 아로마테라피·음악·병용·대조군으로 나눈 무작위시험에서 아로마테라피군은 3일 동안 하루 20분 중재를 받았습니다. 실험군의 통증, 불안, 스트레스 점수가 중재 전후에 유의하게 낮아졌습니다.",
-  "limit": "주요 결과가 중재 전후 비교였고, 추적 기간이 3일로 짧았습니다.",
+  "saw": "전립선 생검 환자 120명이 위약 40명, 라벤더 41명, 유향 39명에 무작위 배정됐다. STAI는 라벤더군 -7.39±7.12점, 유향군 -8.54±9.98점, 대조군 -0.82±4.41점 변화를 보였다. 두 아로마군의 불안 감소는 p<.001이었다.",
+  "limit": "통증 결과는 중재군의 예상 통증과 실제 통증을 비교한 분석이 중심이라 대조군과의 직접 통증 차이는 제한적이다.",
   "against": "아로마테라피가 표준 진통제나 완화의료를 대신한다는 근거는 아닙니다.",
   "use": "완화의료에서 환자가 원할 때 통증 조절과 심리적 지지를 보완하는 선택지로 검토합니다.",
   "refs": [
-    { "label": "완화의료 환자 아로마테라피 무작위시험", "doi": "10.1007/s00520-024-08837-0", "pmid": "39230757" }
+    {
+      "label": "완화의료 환자 아로마테라피 무작위시험",
+      "doi": "10.1007/s00520-024-08837-0",
+      "pmid": "39230757"
+    },
+    {
+      "label": "Aromatherapy effects on pain and anxiety during transrectal ultrasound-guided prostate biopsy: A randomized controlled trial",
+      "pmid": "42302879"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "aromatherapy AND Pain · 114건",
-    "pubmed": "aromatherapy AND Pain · 642건",
+    "pubmed": "aromatherapy AND Pain · 642건; PMID 42302879 PubMed abstract verified 2026-08-15",
     "negative": "aromatherapy AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 528건",
     "safety": "aromatherapy AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 480건"
-  }
+  },
+  "vs": "라벤더 n=41·유향 n=39 vs 위약 n=40: STAI 변화 -7.39±7.12·-8.54±9.98 vs -0.82±4.41, 각 중재군 p<.001."
 }

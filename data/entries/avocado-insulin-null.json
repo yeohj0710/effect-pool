@@ -1,33 +1,38 @@
 {
- "id": "avocado-insulin-null",
- "subj": "아보카도",
- "claim": "아보카도는 인슐린 저항성이 있는 과체중 성인의 인슐린 민감도를 유의하게 바꾸지 않았다",
- "line": "인슐린 저항성이 있는 과체중 성인에서 12주 아보카도 식단은 인슐린 민감도를 바꾸지 않았다.",
- "effect": "인슐린 민감도 차이 없음",
- "tier": "trial",
- "dir": "null",
- "n": 93,
- "synth": "single",
- "known": "off",
- "knownWhy": "식품 중재로 허가 적응증 없음",
- "why": "인슐린 저항성이 있는 과체중·비만 성인을 아보카도 식단과 저지방 저섬유 대조 식단에 무작위 배정했다",
- "saw": "성인 93명이 12주 동안 참여했다. 주평가지표인 인슐린 민감도 지수는 두 군에서 유의한 차이가 없었고 아보카도군의 CRP는 낮았다",
- "limit": "자유생활 식단에서 탄수화물 일부를 바꾼 단일 12주 시험이며 인슐린 결과는 유의하지 않았다",
- "against": "아보카도가 인슐린 저항성을 치료한다는 결론을 내릴 수 없다",
- "use": "인슐린 대사에 대한 효과가 확정되지 않았다는 대조시험으로 참고한다",
- "refs": [
-  {
-   "label": "Avocado Consumption for 12 Weeks and Cardiometabolic Risk Factors",
-   "doi": "10.1093/jn/nxac126",
-   "pmid": "35700149",
-   "nct": "NCT02695433"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=avocado 쨌 cond=Insulin: 8건",
-  "pubmed": "avocado AND Insulin: 63건",
-  "negative": "avocado AND Insulin AND no effect: 54건",
-  "safety": "avocado AND adverse OR toxicity: 346건"
- }
+  "id": "avocado-insulin-null",
+  "subj": "아보카도",
+  "claim": "아보카도 식사는 성인의 말초 인슐린 감수성을 개선하지 않았지만 여성의 복부 지방 분포를 바꿀 수 있다",
+  "line": "인슐린 저항성이 있는 과체중 성인에서 12주 아보카도 식단은 인슐린 민감도를 바꾸지 않았다.",
+  "effect": "여성 VAT -32.9 vs +1.6g",
+  "tier": "trial",
+  "dir": "null",
+  "n": 105,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식품 중재로 허가 적응증 없음",
+  "why": "인슐린 저항성이 있는 과체중·비만 성인을 아보카도 식단과 저지방 저섬유 대조 식단에 무작위 배정했다",
+  "saw": "과체중·비만 성인 105명이 아보카도 식사군 53명과 열량이 같은 대조 식사군 52명에 12주 배정됐다. 말초 인슐린 감수성과 베타세포 기능은 개선되지 않았다. 여성에서는 VAT 변화가 -32.9±81.6 g vs +1.6±89.8 g(p=.021), VAT/SAAT 비가 -0.01±0.03 vs 0.01±0.05(p=.001)였다.",
+  "limit": "여성 하위군 결과이며 남성에서는 복부 지방과 혈당 결과 차이가 없었다.",
+  "against": "아보카도가 인슐린 저항성을 치료한다는 결론을 내릴 수 없다",
+  "use": "인슐린 대사에 대한 효과가 확정되지 않았다는 대조시험으로 참고한다",
+  "refs": [
+    {
+      "label": "Avocado Consumption for 12 Weeks and Cardiometabolic Risk Factors",
+      "doi": "10.1093/jn/nxac126",
+      "pmid": "35700149",
+      "nct": "NCT02695433"
+    },
+    {
+      "label": "Avocado Consumption, Abdominal Adiposity, and Oral Glucose Tolerance Among Persons with Overweight and Obesity",
+      "pmid": "34191028"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=avocado 쨌 cond=Insulin: 8건",
+    "pubmed": "avocado AND Insulin: 63건; PMID 34191028 PubMed abstract verified 2026-08-15",
+    "negative": "avocado AND Insulin AND no effect: 54건",
+    "safety": "avocado AND adverse OR toxicity: 346건"
+  },
+  "vs": "아보카도 식사 n=53 vs 열량 일치 대조 식사 n=52: 여성 VAT -32.9±81.6 vs +1.6±89.8 g(p=.021); 인슐린 감수성 유의차 없음."
 }

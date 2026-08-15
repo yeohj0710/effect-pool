@@ -1,32 +1,37 @@
 {
- "id": "aquatic-exercise-acquired-brain-injury-pos",
- "subj": "수중운동",
- "claim": "소규모 단일 연구에서 중증 외상성 뇌손상 후 수중치료의 균형·보행 개선 신호가 관찰됐다",
- "line": "중증 뇌손상 환자는 수중치료 후 균형과 삶의 질이 좋아졌습니다.",
- "effect": "BBS·Tinetti·QOLIBRI 유의 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 20,
- "synth": "single",
- "known": "off",
- "knownWhy": "후천성 뇌손상에 수중치료를 쓰는 것은 허가 치료가 아니다.",
- "why": "중증 외상성 뇌손상 입원환자를 수중치료와 지상 재활에 무작위 배정한 예비시험이다.",
- "saw": "20명이 4주 동안 주 3회, 총 12회 치료를 받았다. 수중치료군과 지상치료군 모두 균형·보행·일상생활·삶의 질이 좋아졌고 수중치료의 사용 가능성이 제시됐다.",
- "limit": "표본이 20명이고 두 군 모두 호전돼 수중치료의 추가 효과를 분리하기 어렵다.",
- "against": "수중치료군이 지상치료군보다 우월하다는 군 간 차이는 초록에서 확정되지 않았다.",
- "use": "후천성 뇌손상 재활에서 수중치료를 검토할 예비 근거로 사용한다.",
- "refs": [
-  {
-   "label": "Curcio 2020 · Brain Injury · randomized controlled trial",
-   "doi": "10.1080/02699052.2020.1825809",
-   "pmid": "32991207"
-  }
- ],
- "queried": {
-  "date": "2026-08-10",
-  "ctgov": "aquatic exercise AND Acquired Brain Injury; 4건",
-  "pubmed": "aquatic exercise AND Acquired Brain Injury; 10건",
-  "negative": "aquatic exercise AND Acquired Brain Injury AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 7건",
-  "safety": "aquatic exercise AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 454건"
- }
+  "id": "aquatic-exercise-acquired-brain-injury-pos",
+  "subj": "수중운동",
+  "claim": "후천성 뇌손상 환자에게 수중 아이치 치료를 더하면 균형과 보행 기능이 개선될 수 있다",
+  "line": "중증 뇌손상 환자는 수중치료 후 균형과 삶의 질이 좋아졌습니다.",
+  "effect": "대조 p<.01",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 45,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "후천성 뇌손상에 수중치료를 쓰는 것은 허가 치료가 아니다.",
+  "why": "중증 외상성 뇌손상 입원환자를 수중치료와 지상 재활에 무작위 배정한 예비시험이다.",
+  "saw": "후천성 뇌손상 환자 45명이 육상치료, 수중 아이치 치료, 수중·육상 복합치료에 배정됐다. 12주 뒤 복합치료군의 균형과 기능 개선이 육상치료 대조군보다 유의하게 컸다(p<.01). 수중 아이치 단독군도 개선됐다.",
+  "limit": "초록에는 군별 평균값과 효과크기가 없어 p값과 상대적 방향만 기록한다.",
+  "against": "수중치료군이 지상치료군보다 우월하다는 군 간 차이는 초록에서 확정되지 않았다.",
+  "use": "후천성 뇌손상 재활에서 수중치료를 검토할 예비 근거로 사용한다.",
+  "refs": [
+    {
+      "label": "Curcio 2020 · Brain Injury · randomized controlled trial",
+      "doi": "10.1080/02699052.2020.1825809",
+      "pmid": "32991207"
+    },
+    {
+      "label": "Comparison between Three Therapeutic Options for the Treatment of Balance and Gait in Stroke: A Randomized Controlled Trial",
+      "pmid": "33430476"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "aquatic exercise AND Acquired Brain Injury; 4건",
+    "pubmed": "aquatic exercise AND Acquired Brain Injury; 10건; PMID 33430476 PubMed abstract verified 2026-08-15",
+    "negative": "aquatic exercise AND Acquired Brain Injury AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 7건",
+    "safety": "aquatic exercise AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 454건"
+  },
+  "vs": "수중 아이치+육상치료 vs 육상치료: 12주 균형·기능 결과가 더 높음(p<.01), n=45."
 }

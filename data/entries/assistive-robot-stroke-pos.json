@@ -1,32 +1,33 @@
 {
- "id": "assistive-robot-stroke-pos",
- "subj": "보조 로봇",
- "claim": "보조 로봇을 뇌졸중 후 일상 동작에 쓴다",
- "line": "뇌졸중 보조 로봇은 일부 환자의 양손 일상 과제를 도왔습니다",
- "effect": "8명 중 4명 적응",
- "tier": "trial",
- "dir": "pos",
- "n": 8,
- "synth": "single",
- "known": "off",
- "knownWhy": "BCI 보조 로봇은 뇌졸중 재활의 허가 적응증이 아닌 실험적 기기입니다",
- "why": "뇌졸중 환자에게 뇌파·안구운동으로 조종하는 상지 보조 로봇을 사용한 사람 시험입니다",
- "saw": "뇌졸중 환자 8명 중 4명이 BCI 로봇 훈련에 적응해 양손 일상생활 10개 과제를 전후 평가했습니다. 사전 점수가 낮은 과제에서 사후 보조 효과가 더 컸습니다",
- "limit": "8명 중 4명만 사후 평가를 완료했고 대조군이 없습니다. 현재 로봇은 팔·손목 기능 보조가 제한적입니다",
- "against": "적응하지 못한 4명의 결과가 빠져 실제 사용 가능성과 효과를 과대평가할 수 있습니다",
- "use": "보조 로봇은 적응 가능한 환자 수와 실제 일상 과제 수행을 함께 기록합니다",
- "refs": [
-  {
-   "label": "BCI-controlled upper limb assistive robot in stroke · 사람 시험",
-   "doi": "10.3791/67601",
-   "pmid": "40323825"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"assistive robot\" AND \"Stroke\" → 34건 반환, intervention 이름 대조 통과 0건",
-  "pubmed": "\"assistive robot\" AND \"Stroke\" → 29건, PMID 40323825 직접 결과",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 2건",
-  "safety": "\"assistive robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 4건"
- }
+  "id": "assistive-robot-stroke-pos",
+  "subj": "보조 로봇",
+  "claim": "보조 로봇을 뇌졸중 후 일상 동작에 쓴다",
+  "line": "뇌졸중 보조 로봇은 일부 환자의 양손 일상 과제를 도왔습니다",
+  "effect": "8명 중 4명 적응",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 8,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "BCI 보조 로봇은 뇌졸중 재활의 허가 적응증이 아닌 실험적 기기입니다",
+  "why": "뇌졸중 환자에게 뇌파·안구운동으로 조종하는 상지 보조 로봇을 사용한 사람 시험입니다",
+  "saw": "뇌졸중 환자 8명 중 4명이 BCI 로봇 훈련에 적응해 양손 일상생활 10개 과제를 전후 평가했습니다. 사전 점수가 낮은 과제에서 사후 보조 효과가 더 컸습니다",
+  "limit": "8명 중 4명만 사후 평가를 완료했고 대조군이 없습니다. 현재 로봇은 팔·손목 기능 보조가 제한적입니다",
+  "against": "적응하지 못한 4명의 결과가 빠져 실제 사용 가능성과 효과를 과대평가할 수 있습니다",
+  "use": "보조 로봇은 적응 가능한 환자 수와 실제 일상 과제 수행을 함께 기록합니다",
+  "refs": [
+    {
+      "label": "BCI-controlled upper limb assistive robot in stroke · 사람 시험",
+      "doi": "10.3791/67601",
+      "pmid": "40323825"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"assistive robot\" AND \"Stroke\" → 34건 반환, intervention 이름 대조 통과 0건",
+    "pubmed": "\"assistive robot\" AND \"Stroke\" → 29건, PMID 40323825 직접 결과; PubMed abstract verified 2026-08-15; PMID 42337769·42263540은 로봇 보행훈련 결과를 보고했지만 주효과의 군 간 수치를 확인하지 못함.",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 2건",
+    "safety": "\"assistive robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 4건"
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: PMID 42337769·42263540은 로봇 보행훈련 결과를 보고했지만 주효과의 군 간 수치를 확인하지 못함."
 }

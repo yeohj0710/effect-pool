@@ -1,33 +1,38 @@
 {
- "id": "arabinoxylan-metabolic-syndrome-null",
- "subj": "아라비녹실란",
- "claim": "소규모 단일 연구에서 과체중 대사증후군 성인의 아라비녹실란 대사 개선은 확인되지 않았다",
- "line": "아라비녹실란은 장내 균총은 바꿨지만 대사 표지는 바꾸지 못했습니다.",
- "effect": "대사 표지 변화 없음·장내 미생물 변화",
- "tier": "trial",
- "dir": "null",
- "n": 27,
- "synth": "single",
- "known": "off",
- "knownWhy": "Arabinoxylan은 허가 적응증이 없는 식이섬유 성분입니다.",
- "why": "대사증후군 징후가 있는 과체중 성인에게 아라비녹실란 oligosaccharide가 풍부한 밀기울 추출물을 12주 교차 투여했습니다.",
- "saw": "27명 완료 시험에서 아라비녹실란은 bifidobacteria와 butyrate 생성균을 늘리고 장내 미생물 구조를 바꿨지만 지질·혈당 대사 표지는 바꾸지 않았습니다.",
- "limit": "소규모 교차시험이고 체중·대사 표지의 장기 효과는 확인하지 않았습니다.",
- "against": "장내 미생물 변화가 대사증후군 임상 위험 감소로 이어진다는 결과는 없었습니다.",
- "use": "대사증후군 식이섬유 연구에서 미생물 변화와 임상 대사 효과를 구분하는 근거로 씁니다.",
- "refs": [
-  {
-   "label": "Arabinoxylan oligosaccharides and polyunsaturated fatty acid effects on gut microbiota and metabolic markers in overweight individuals with signs of metabolic syndrome: A randomized cross-over trial",
-   "doi": "10.1016/j.clnu.2019.01.012",
-   "pmid": "30827722",
-   "nct": "NCT02215343"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "arabinoxylan AND Metabolic Syndrome · 3건",
-  "pubmed": "arabinoxylan AND Metabolic Syndrome · 15편",
-  "negative": "arabinoxylan AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 10편",
-  "safety": "arabinoxylan AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 92편"
- }
+  "id": "arabinoxylan-metabolic-syndrome-null",
+  "subj": "아라비녹실란",
+  "claim": "아라비녹실란은 내당능장애 성인의 공복 혈당과 중성지방을 낮출 수 있지만 일부 대사 지표는 바꾸지 못한다",
+  "line": "아라비녹실란은 장내 균총은 바꿨지만 대사 표지는 바꾸지 못했습니다.",
+  "effect": "혈당 p=.029; TG p=.047",
+  "tier": "trial",
+  "dir": "null",
+  "n": 11,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "Arabinoxylan은 허가 적응증이 없는 식이섬유 성분입니다.",
+  "why": "대사증후군 징후가 있는 과체중 성인에게 아라비녹실란 oligosaccharide가 풍부한 밀기울 추출물을 12주 교차 투여했습니다.",
+  "saw": "내당능장애 성인 11명이 15 g/day 아라비녹실란 빵과 위약 빵을 교차 섭취했다. 아라비녹실란 기간의 공복 혈당(p=.029), 중성지방(p=.047), 아포지단백 A1(p=.029)이 낮았고 인슐린·아디포카인은 유의한 차이가 없었다.",
+  "limit": "11명 단일 교차시험이라 대사증후군 전체에 대한 장기 효과와 안전성을 판단할 수 없다.",
+  "against": "장내 미생물 변화가 대사증후군 임상 위험 감소로 이어진다는 결과는 없었습니다.",
+  "use": "대사증후군 식이섬유 연구에서 미생물 변화와 임상 대사 효과를 구분하는 근거로 씁니다.",
+  "refs": [
+    {
+      "label": "Arabinoxylan oligosaccharides and polyunsaturated fatty acid effects on gut microbiota and metabolic markers in overweight individuals with signs of metabolic syndrome: A randomized cross-over trial",
+      "doi": "10.1016/j.clnu.2019.01.012",
+      "pmid": "30827722",
+      "nct": "NCT02215343"
+    },
+    {
+      "label": "Arabinoxylan fibre consumption improved glucose metabolism, but did not affect serum adipokines in subjects with impaired glucose tolerance",
+      "pmid": "17111305"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "arabinoxylan AND Metabolic Syndrome · 3건",
+    "pubmed": "arabinoxylan AND Metabolic Syndrome · 15편; PMID 17111305 PubMed abstract verified 2026-08-15",
+    "negative": "arabinoxylan AND Metabolic Syndrome AND (no effect OR did not OR failed OR negative OR no significant difference) · 10편",
+    "safety": "arabinoxylan AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 92편"
+  },
+  "vs": "아라비녹실란 15 g/day vs 위약: 공복 혈당 p=.029, 중성지방 p=.047, 아포지단백 A1 p=.029; n=11."
 }

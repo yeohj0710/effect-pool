@@ -1,32 +1,33 @@
 {
- "id": "biofeedback-colon-cancer-pos",
- "subj": "바이오피드백",
- "claim": "바이오피드백은 대장암 환자의 신체활동을 늘리는가",
- "line": "암 환자의 활동 피드백 뒤 신체활동이 늘었지만 소규모 단일군 결과입니다.",
- "effect": "활동량 +21%, 중등도 활동 +9%",
- "tier": "trial",
- "dir": "pos",
- "n": 19,
- "synth": "single",
- "known": "off",
- "knownWhy": "활동 바이오피드백은 대장암의 의약품 허가 적응증이 아닌 재활 중재입니다.",
- "why": "유방암·대장암 환자에게 가속도계와 실시간 시각 활동 피드백 기기를 착용시켜 치료 전후 신체활동을 비교했습니다.",
- "saw": "암 환자 19명에서 실시간 피드백 뒤 활동량 분당 횟수는 21%, 중등도 이상 신체활동은 9% 증가했습니다. 피드백 뒤 환자 활동량은 연령을 맞춘 건강 대조군과 비슷한 수준이 됐습니다.",
- "limit": "유방암과 대장암을 합친 19명 단일군 연구라 대장암 하위군 결과와 바이오피드백의 독립 효과를 알 수 없습니다.",
- "against": "건강 대조군은 치료를 받지 않았고 암 환자의 중재 전후 비교만 있어 무작위 대조 효과는 확인되지 않았습니다.",
- "use": "대장암 재활에서 활동 피드백의 초기 신호로만 사용하고, 암종별 대조시험 결과를 따로 확인합니다.",
- "refs": [
-  {
-   "label": "유방암·대장암 환자 실시간 활동 피드백 연구",
-   "doi": "10.1080/15438627.2016.1258639",
-   "pmid": "27882777"
-  }
- ],
- "queried": {
-  "date": "2026-08-10",
-  "ctgov": "query.intr=biofeedback AND query.cond=Colon Cancer; 13건 반환, 중재명과 대장암을 함께 확인한 시험은 별도 확인이 필요함",
-  "pubmed": "biofeedback AND \"Colon Cancer\"; 6편",
-  "negative": "biofeedback AND (no effect OR did not OR failed OR negative OR no significant difference); 3444편",
-  "safety": "biofeedback AND (adverse OR harm OR injury OR dropout); 2155편"
- }
+  "id": "biofeedback-colon-cancer-pos",
+  "subj": "바이오피드백",
+  "claim": "바이오피드백은 대장암 환자의 신체활동을 늘리는가",
+  "line": "암 환자의 활동 피드백 뒤 신체활동이 늘었지만 소규모 단일군 결과입니다.",
+  "effect": "활동량 +21%, 중등도 활동 +9%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 19,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "활동 바이오피드백은 대장암의 의약품 허가 적응증이 아닌 재활 중재입니다.",
+  "why": "유방암·대장암 환자에게 가속도계와 실시간 시각 활동 피드백 기기를 착용시켜 치료 전후 신체활동을 비교했습니다.",
+  "saw": "암 환자 19명에서 실시간 피드백 뒤 활동량 분당 횟수는 21%, 중등도 이상 신체활동은 9% 증가했습니다. 피드백 뒤 환자 활동량은 연령을 맞춘 건강 대조군과 비슷한 수준이 됐습니다.",
+  "limit": "유방암과 대장암을 합친 19명 단일군 연구라 대장암 하위군 결과와 바이오피드백의 독립 효과를 알 수 없습니다.",
+  "against": "건강 대조군은 치료를 받지 않았고 암 환자의 중재 전후 비교만 있어 무작위 대조 효과는 확인되지 않았습니다.",
+  "use": "대장암 재활에서 활동 피드백의 초기 신호로만 사용하고, 암종별 대조시험 결과를 따로 확인합니다.",
+  "refs": [
+    {
+      "label": "유방암·대장암 환자 실시간 활동 피드백 연구",
+      "doi": "10.1080/15438627.2016.1258639",
+      "pmid": "27882777"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.intr=biofeedback AND query.cond=Colon Cancer; 13건 반환, 중재명과 대장암을 함께 확인한 시험은 별도 확인이 필요함",
+    "pubmed": "biofeedback AND \"Colon Cancer\"; 6편; PubMed abstract verified 2026-08-15; PMID 21654252는 대장암이 아닌 변실금 바이오피드백 운동시험임.",
+    "negative": "biofeedback AND (no effect OR did not OR failed OR negative OR no significant difference); 3444편",
+    "safety": "biofeedback AND (adverse OR harm OR injury OR dropout); 2155편"
+  },
+  "vs": "PubMed 선별 결과 vs 적합한 수치 비교 0건: PMID 21654252는 대장암이 아닌 변실금 바이오피드백 운동시험임."
 }

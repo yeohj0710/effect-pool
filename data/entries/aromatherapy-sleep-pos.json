@@ -1,32 +1,37 @@
 {
- "id": "aromatherapy-sleep-pos",
- "subj": "아로마테라피",
- "claim": "소규모 단일 연구에서 대학생 bergamot 오일의 수면 개선 신호가 관찰됐다",
- "line": "향유 스프레이는 대학생의 수면과 스트레스를 개선했습니다.",
- "effect": "수면 길이·기상 상쾌함·스트레스 유의 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 48,
- "synth": "single",
- "known": "off",
- "knownWhy": "수면 문제에 bergamot 아로마테라피를 쓰는 것은 허가 치료가 아니다.",
- "why": "대학생을 bergamot 스프레이와 위약 스프레이에 무작위 교차 배정해 각 1주씩 취침 전과 기상 후 사용하게 했다.",
- "saw": "48명이 참여했다. bergamot군에서 기상 시 졸림·상쾌함·수면 길이가 좋아졌고 우울·불안·스트레스도 유의하게 개선됐다.",
- "limit": "각 중재 기간이 1주이고 공개시험이라 장기 수면 개선을 입증하지 못했다.",
- "against": "대상자가 대학생이라 불면증이나 만성 수면장애 환자에 일반화할 수 없다.",
- "use": "젊은 성인의 수면·스트레스 보조 중재로 bergamot 향 사용을 탐색할 근거로 사용한다.",
- "refs": [
-  {
-   "label": "Wakui 2023 · Complementary Therapies in Medicine · randomized crossover trial",
-   "doi": "10.1016/j.ctim.2023.102976",
-   "pmid": "37625623"
-  }
- ],
- "queried": {
-  "date": "2026-08-10",
-  "ctgov": "aromatherapy AND Sleep; 52건",
-  "pubmed": "aromatherapy AND Sleep; 341건",
-  "negative": "aromatherapy AND Sleep AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 301건",
-  "safety": "aromatherapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 449건"
- }
+  "id": "aromatherapy-sleep-pos",
+  "subj": "아로마테라피",
+  "claim": "향기 오일을 사용한 발 반사 마사지는 수면이 나쁜 성인의 수면 점수를 개선할 수 있다",
+  "line": "향유 스프레이는 대학생의 수면과 스트레스를 개선했습니다.",
+  "effect": "PSQI 10.30 vs 14.15",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 40,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "수면 문제에 bergamot 아로마테라피를 쓰는 것은 허가 치료가 아니다.",
+  "why": "대학생을 bergamot 스프레이와 위약 스프레이에 무작위 교차 배정해 각 1주씩 취침 전과 기상 후 사용하게 했다.",
+  "saw": "수면이 나쁜 성인 40명이 향기 오일 발 반사 마사지군 20명과 조용히 앉는 대조군 20명에 배정됐다. 21일 뒤 PSQI는 중재군 14.25±2.8에서 10.30±1.4로, 대조군 14.10±2.8에서 14.15±2.6으로 변했다.",
+  "limit": "발 반사 마사지와 향기 오일의 개별 기여를 분리하지 못했고 표본이 40명이다.",
+  "against": "대상자가 대학생이라 불면증이나 만성 수면장애 환자에 일반화할 수 없다.",
+  "use": "젊은 성인의 수면·스트레스 보조 중재로 bergamot 향 사용을 탐색할 근거로 사용한다.",
+  "refs": [
+    {
+      "label": "Wakui 2023 · Complementary Therapies in Medicine · randomized crossover trial",
+      "doi": "10.1016/j.ctim.2023.102976",
+      "pmid": "37625623"
+    },
+    {
+      "label": "Effect of Foot Reflexology Massage on Sleep Quality using Aromatic Oils-A Randomized Controlled Trial",
+      "pmid": "42428595"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "aromatherapy AND Sleep; 52건",
+    "pubmed": "aromatherapy AND Sleep; 341건; PMID 42428595 PubMed abstract verified 2026-08-15",
+    "negative": "aromatherapy AND Sleep AND (no effect OR did not OR failed OR negative OR null association OR no significant difference); 301건",
+    "safety": "aromatherapy AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication); 449건"
+  },
+  "vs": "향기 오일 발 반사 마사지 n=20 vs 조용히 앉기 n=20: PSQI 14.25±2.8→10.30±1.4 vs 14.10±2.8→14.15±2.6, p<.001 vs .34."
 }
