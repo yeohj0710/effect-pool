@@ -22520,3 +22520,13 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] batch1579 pea-protein-cereal-glycemia
 - [x] batch1579 pinto-bean-glycemia
 - [x] batch1579 riceberry-yogurt-glycemia
+- [x] batch1580 pea-cholesterol
+- [x] batch1580 soy-cholesterol
+- [x] batch1580 tempeh-cholesterol
+- [x] batch1580 natto-cholesterol
+- [x] batch1580 blackcurrant-cholesterol
+- [x] batch1580 berry-cholesterol
+- [x] batch1580 prebiotic-cholesterol
+- [x] batch1580 sourdough-cholesterol
+- [x] batch1580 whole-grain-cholesterol
+- [x] batch1580 vegan-diet-cholesterol
