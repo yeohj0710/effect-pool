@@ -21254,3 +21254,34 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] humidifier — Acute Heart Failure에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov NCT00221819는 종료됐지만 결과가 없고 PubMed는 가습기 단독 치료 결과가 아닌 고유량 비강캐뉼라·복합기기 문헌임)  <!-- 시험 3건 · 논문 25편 -->
 - [x] knee brace — Ankle Injuries에 듣는다 — 근거 없음(2026-08-11 조회, ClinicalTrials.gov 검색 결과는 발목 보조기·탄소섬유 보조기였고 무릎 보조기 직접 결과를 확인하지 못함)  <!-- 시험 7건 · 논문 164편 -->
 - [x] knee brace — Muscle Atrophy에 듣는다 — 신규 항목(knee-brace-muscle-atrophy-harm)  <!-- 시험 3건 · 논문 42편 -->
+
+## 자동 추출 — 후보
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
+있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
+
+- [x] acetaminophen — Osteoarthritis에 듣는다 — 항목 생성(acetaminophen-osteoarthritis-pos)  <!-- 시험 14건 · 논문 1130편 -->
+- [x] acetaminophen — Acute Lymphoid Leukemia에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 중재 대조 수치 확인 못함)  <!-- 시험 14건 · 논문 11편 -->
+- [x] acetaminophen — Surgery에 듣는다 — 기존 항목(acetaminophen-surgery-pos)  <!-- 시험 11건 · 논문 7451편 -->
+- [x] ibuprofen — Molar, Third에 듣는다 — 항목 생성(ibuprofen-molar-third-pos)  <!-- 시험 12건 · 논문 230편 -->
+- [x] ibuprofen — Dysmenorrhea에 듣는다 — 항목 생성(ibuprofen-dysmenorrhea-pos)  <!-- 시험 11건 · 논문 235편 -->
+- [x] ibuprofen — Opioid Use에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 이부프로펜 단독의 중재 대조 수치 확인 못함)  <!-- 시험 10건 · 논문 1229편 -->
+- [x] ibuprofen — Fracture에 듣는다 — 항목 생성(ibuprofen-fracture-pos)  <!-- 시험 10건 · 논문 134편 -->
+- [x] naproxen — Osteoarthritis에 듣는다 — 기존 항목(naproxen-osteoarthritis-pos)  <!-- 시험 47건 · 논문 653편 -->
+- [x] naproxen — Arthritis에 듣는다 — 기존 항목(naproxen-arthritis-null)  <!-- 시험 22건 · 논문 1470편 -->
+- [x] naproxen — Dysmenorrhea에 듣는다 — 기존 항목(naproxen-dysmenorrhea-pos)  <!-- 시험 9건 · 논문 169편 -->
+- [x] naproxen — Gout에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 나프록센의 중재 대조 수치 확인 못함)  <!-- 시험 6건 · 논문 81편 -->
+- [x] cetirizine — Multiple Sclerosis에 듣는다 — 항목 생성(cetirizine-multiple-sclerosis-null)  <!-- 시험 3건 · 논문 8편 -->
+- [x] diphenhydramine — Renal Transplant에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 중재 대조 수치 확인 못함)  <!-- 시험 6건 · 논문 15편 -->
+- [x] diphenhydramine — Acute Urticaria에 듣는다 — 항목 생성(diphenhydramine-acute-urticaria-harm)  <!-- 시험 5건 · 논문 48편 -->
+- [x] pseudoephedrine — Nasal Allergy에 듣는다 — 항목 생성(pseudoephedrine-nasal-allergy-pos)  <!-- 시험 4건 · 논문 127편 -->
+- [x] pseudoephedrine — Pain, Head에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 슈도에페드린의 중재 대조 수치 확인 못함)  <!-- 시험 3건 · 논문 38편 -->
+- [x] famotidine — Coronary Heart Disease에 듣는다 — 항목 생성(famotidine-coronary-heart-disease-pos)  <!-- 시험 3건 · 논문 10편 -->
+- [x] famotidine — GI Bleeding에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 파모티딘의 중재 대조 수치 확인 못함)  <!-- 시험 3건 · 논문 92편 -->
+- [x] famotidine — Gastric Adenocarcinoma에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 파모티딘의 중재 대조 수치 확인 못함)  <!-- 시험 3건 · 논문 10편 -->
+- [x] loperamide — Diarrhea에 듣는다 — 기존 항목(loperamide-diarrhea-harm)  <!-- 시험 16건 · 논문 1119편 -->
+- [x] bisacodyl — Cancer Colon에 듣는다 — 항목 생성(bisacodyl-cancer-colon-pos)  <!-- 시험 6건 · 논문 40편 -->
+- [x] bisacodyl — Polyps에 듣는다 — 항목 생성(bisacodyl-polyps-null)  <!-- 시험 3건 · 논문 32편 -->

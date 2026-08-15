@@ -1,0 +1,32 @@
+{
+  "id": "acetaminophen-osteoarthritis-pos",
+  "subj": "아세트아미노펜",
+  "claim": "아세트아미노펜이 골관절염 통증을 줄인다",
+  "line": "골관절염 137개 연구에서 통증 효과크기는 0.18이었습니다.",
+  "effect": "통증 효과크기 0.18",
+  "vs": "골관절염 환자 33,243명을 포함한 네트워크 메타분석에서 아세트아미노펜의 통증 효과크기는 경구 위약 대비 0.18(95% CrI 0.04~0.33)이었습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 33243,
+  "synth": "meta",
+  "known": "label",
+  "knownWhy": "약국에서 처방 없이 살 수 있는 일반의약품 성분으로 분류했습니다.",
+  "why": "무작위시험 137개를 합친 골관절염 네트워크 메타분석에서 아세트아미노펜과 경구 위약의 통증 결과를 비교했습니다.",
+  "saw": "아세트아미노펜의 통증 효과크기는 경구 위약보다 컸지만 다른 NSAID보다 효과가 작았습니다.",
+  "limit": "서로 다른 용량과 제형을 연결한 네트워크 분석이며 통증 효과의 임상적 크기는 작을 수 있습니다.",
+  "against": "간독성 위험과 최대 일일 용량을 함께 고려해야 하며 골관절염 원인을 치료하는 자료는 아닙니다.",
+  "use": "골관절염에서 아세트아미노펜과 경구 위약을 비교한 메타분석 수치로 기록합니다.",
+  "refs": [
+    {
+      "label": "골관절염 약물 네트워크 메타분석",
+      "pmid": "25560713"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "ClinicalTrials.gov에서 acetaminophen AND osteoarthritis 후보를 확인하고, 결과 수치는 PubMed 초록으로 검증했습니다.",
+    "pubmed": "PubMed 검색: acetaminophen AND osteoarthritis",
+    "negative": "PubMed 반대 결과 검색: acetaminophen AND osteoarthritis AND (no effect OR did not OR no significant difference)",
+    "safety": "PubMed 안전성 검색: acetaminophen AND osteoarthritis AND (adverse OR toxicity OR harm OR side effect)"
+  }
+}
