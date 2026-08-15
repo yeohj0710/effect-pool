@@ -11,13 +11,21 @@
   "known": "off",
   "knownWhy": "트라메티닙 병용요법의 허가 암종 밖에 있는 BRAF V600 변이 희귀 종양을 다룬 분석입니다.",
   "why": "허가 암종을 제외한 BRAF V600 변이 고형암·림프종·골수종에서 다브라페닙과 트라메티닙을 종양 조직 대신 변이에 맞춰 사용한 바스켓 시험입니다.",
-  "saw": "NCI-MATCH H는 허가 암종을 제외한 진행성 BRAF V600 변이 종양에서 35명을 등록하고 29명을 효능 분석했습니다. 객관적 반응률은 38%였고 7개 종양 유형에서 반응이 나왔으며 무진행생존 중앙값은 11.4개월이었습니다.",
-  "limit": "단일군 시험이고 분석 대상이 29명으로 작으며 종양별 표본 수와 반응률은 고르게 제시되지 않았습니다.",
+  "saw": "BRAF 비V600 변이 또는 융합 희귀 종양 32명에게 트라메티닙을 투여한 단일군 연구에서 부분반응은 1명(3%), 임상적 이득률은 34%였습니다.",
+  "limit": "단일군 정밀종양 연구라 표준치료 대비 효과를 판단할 수 없습니다.",
   "against": "BRAF 비-V600 변이·융합 종양 NCI-MATCH 분석에서는 32명 중 부분반응 1명, 무진행생존 중앙값 1.8개월로 유망하지 않았습니다.",
   "use": "종양 조직보다 BRAF V600 변이를 기준으로 병용요법을 확장한 사례로 표시합니다.",
   "refs": [
-    { "label": "BRAF V600 변이 종양 NCI-MATCH H", "pmid": "32758030", "nct": "NCT02465060" },
-    { "label": "BRAF 비-V600 변이·융합 종양 NCI-MATCH R", "pmid": "31924734", "nct": "NCT02465060" }
+    {
+      "label": "BRAF V600 변이 종양 NCI-MATCH H",
+      "pmid": "32758030",
+      "nct": "NCT02465060"
+    },
+    {
+      "label": "BRAF 비-V600 변이·융합 종양 NCI-MATCH R",
+      "pmid": "31924734",
+      "nct": "NCT02465060"
+    }
   ],
   "queried": {
     "date": "2026-08-06",
@@ -25,5 +33,6 @@
     "pubmed": "trametinib AND Neoplasm → 2049편",
     "negative": "trametinib AND Neoplasm AND (no effect OR did not OR failed to OR negative OR no significant difference) → 1339편",
     "safety": "trametinib AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1378편"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; BRAF 비V600 변이·융합 희귀 종양 NCI-MATCH 32명 단일군에서 객관적 반응률 3%였고 대조군이 없습니다."
 }
