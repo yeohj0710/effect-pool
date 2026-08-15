@@ -1,20 +1,33 @@
 {
-  "id": "sleep-hygiene-delirium-pos",
-  "subj": "수면 위생",
-  "claim": "수면 위생 묶음이 입원 환자의 섬망 발생을 줄인다",
-  "line": "신경계 중환자실에서 수면 위생 묶음의 기록을 강화했더니 병원 발생 섬망 양성 환자가 41% 줄었습니다",
-  "effect": "섬망 감소 신호",
-  "tier": "obs",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수면 위생은 약물이 아닌 병원 환경·행동 중재입니다",
-  "why": "신경계 중환자실에서 수면 위생 묶음의 시행을 전후 비교한 질 향상 프로젝트입니다.",
-  "saw": "연구진은 회진 점검표에 수면을 넣고 수면 위생 묶음의 시행을 높였습니다. 간호사의 섬망 평가 기록률은 약 99%였고 병원 발생 섬망 양성 환자는 개입 전보다 41% 줄었습니다.",
-  "limit": "무작위 배정이나 동시 대조군이 없는 전후 질 향상 연구이며 전체 환자 수가 초록에 제시되지 않았습니다.",
-  "against": "수면 위생 묶음만으로 섬망을 예방한다고 확정할 수 없고 다른 병동 변화의 영향도 남아 있습니다.",
-  "use": "입원 환경의 비약물 섬망 예방 요소로 검토하되 전후 비교 신호로만 기록합니다.",
-  "refs": [{ "label": "신경계 중환자실 수면 위생 질 향상 프로젝트", "doi": "10.1097/DCC.0000000000000662", "pmid": "41401117" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=sleep hygiene · cond=Delirium 12건 반환·intervention 일치 3건", "pubmed": "sleep hygiene AND Delirium 44편", "negative": "sleep hygiene AND Delirium AND (no effect OR did not OR failed OR negative OR no significant difference) 9편", "safety": "sleep hygiene AND (adverse OR toxicity OR case report OR overdose OR self-medication) 406편" }
+ "id": "sleep-hygiene-delirium-pos",
+ "subj": "수면 위생",
+ "claim": "수면 위생 묶음이 입원 환자의 섬망 발생을 줄인다",
+ "line": "신경계 중환자실에서 수면 위생 묶음의 기록을 강화했더니 병원 발생 섬망 양성 환자가 41% 줄었습니다",
+ "effect": "섬망 감소 신호",
+ "tier": "obs",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수면 위생은 약물이 아닌 병원 환경·행동 중재입니다",
+ "why": "신경계 중환자실에서 수면 위생 묶음의 시행을 전후 비교한 질 향상 프로젝트입니다.",
+ "saw": "연구진은 회진 점검표에 수면을 넣고 수면 위생 묶음의 시행을 높였습니다. 간호사의 섬망 평가 기록률은 약 99%였고 병원 발생 섬망 양성 환자는 개입 전보다 41% 줄었습니다.",
+ "limit": "무작위 배정이나 동시 대조군이 없는 전후 질 향상 연구이며 전체 환자 수가 초록에 제시되지 않았습니다.",
+ "against": "수면 위생 묶음만으로 섬망을 예방한다고 확정할 수 없고 다른 병동 변화의 영향도 남아 있습니다.",
+ "use": "입원 환경의 비약물 섬망 예방 요소로 검토하되 전후 비교 신호로만 기록합니다.",
+ "refs": [
+  {
+   "label": "신경계 중환자실 수면 위생 질 향상 프로젝트",
+   "doi": "10.1097/DCC.0000000000000662",
+   "pmid": "41401117"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-11",
+  "ctgov": "intr=sleep hygiene · cond=Delirium 12건 반환·intervention 일치 3건",
+  "pubmed": "sleep hygiene AND Delirium 44편",
+  "negative": "sleep hygiene AND Delirium AND (no effect OR did not OR failed OR negative OR no significant difference) 9편",
+  "safety": "sleep hygiene AND (adverse OR toxicity OR case report OR overdose OR self-medication) 406편"
+ },
+ "vs": "vs 중재 전: 신경중환자실 수면위생 묶음 적용 후 병원획득 섬망 양성 환자 수가 41% 감소했습니다. 간호사의 섬망 평가 문서화 순응도는 약 99%였습니다."
 }
