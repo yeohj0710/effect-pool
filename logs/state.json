@@ -2,20 +2,20 @@
   "updated": "2026-08-16",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 6880,
-  "subjects": 2322,
-  "refs": 9952,
+  "entries": 6886,
+  "subjects": 2325,
+  "refs": 9958,
   "kinds": {
-    "supp": 692,
+    "supp": 694,
     "rx": 2629,
     "life": 1236,
     "otc": 170,
     "care": 744,
     "move": 677,
-    "food": 732
+    "food": 736
   },
   "tiers": {
-    "trial": 6054,
+    "trial": 6060,
     "obs": 731,
     "animal": 31,
     "lab": 17,
@@ -25,14 +25,14 @@
     "harm": 177,
     "null": 1373,
     "open": 1054,
-    "pos": 4276
+    "pos": 4282
   },
   "worklist": {
-    "total": 16818,
-    "checked": 16818,
+    "total": 16848,
+    "checked": 16848,
     "unchecked": 0,
-    "no_evidence_pending": 2266,
-    "note": "Worklist 16818/16818 checked. Batch 1581 processed 30 fresh non-prescription candidates: 14 new entries were recorded, 5 existing entries were linked, and 11 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1582."
+    "no_evidence_pending": 2287,
+    "note": "Worklist 16848/16848 checked. Batch 1582 processed 30 fresh non-prescription candidates: 6 new entries were recorded, 3 existing entries were linked, and 21 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1583."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1581 processed 30 fresh non-prescription candidates; 14 new entries were recorded, 5 existing entries were linked, and 11 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1582."
+    "note": "Batch 1582 processed 30 fresh non-prescription candidates; 6 new entries were recorded, 3 existing entries were linked, and 21 topics were screened without qualifying numeric intervention-versus-control evidence. Resume with batch 1583."
   },
   "checkpoints": {
-    "over_counter_share": "23.2% (1594 entries)",
+    "over_counter_share": "23.2% (1600 entries)",
     "rx_share": "38.2% (2629)",
     "no_effect_or_harm_share": "22.5% (1550)",
-    "vs_share": "86.4% (5942 entries)",
+    "vs_share": "86.4% (5948 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "88.0% (6054)",
+    "trial_share": "88.0% (6060)",
     "non_trial_share": "12.0% (826)",
     "build_warnings": {
-      "unknown_n": 486,
-      "thin_study": 1179,
+      "unknown_n": 487,
+      "thin_study": 1184,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,79 +60,71 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1581 processed 30 fresh non-prescription candidates: 14 new entries were recorded, 5 existing entries were linked, and 11 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16818/16818 is checked; resume with fresh non-prescription batch 1582.",
+  "next": "Batch 1582 processed 30 fresh non-prescription candidates: 6 new entries were recorded, 3 existing entries were linked, and 21 topics were screened without qualifying numeric intervention-versus-control evidence. Worklist 16848/16848 is checked; resume with fresh non-prescription batch 1583.",
   "last_batch": {
-    "id": "1581",
-    "commit": "e6424d3e",
+    "id": "1582",
+    "commit": "e98303f3",
     "pushed": true,
-    "expansion_commit": "e6424d3e",
+    "expansion_commit": "e98303f3",
     "data_commits": [
-      "e6424d3e"
+      "e98303f3"
     ],
     "maintenance": false,
     "processed_topics": 30,
-    "new_entries": 14,
-    "existing_links": 5,
-    "no_evidence_rejects": 11,
+    "new_entries": 6,
+    "existing_links": 3,
+    "no_evidence_rejects": 21,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 11,
-    "new_references": 14,
-    "existing_reference_links": 5,
-    "build": "6880 entries; 9952 refs; 6054 trial; 731 obs; 31 animal; 17 lab; 47 case; 5942 numeric comparison entries; worklist 16818/16818",
-    "research": "PubMed abstracts verified: 24129358, 26552742, 17548730, 11446724, 30277579, 8339414, 36599781, 32066221, 15668359, 14652358, 11229829, 24829493, 40250088, 34459060. Fourteen new entries retain numeric intervention-versus-control results or valid relative effects; five topics linked to existing entries; eleven topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a duplicate, mismatched topic, protocol, or qualitative-only result.",
+    "screened_nonqualifying_topics": 21,
+    "new_references": 6,
+    "existing_reference_links": 3,
+    "build": "6886 entries; 9958 refs; 6060 trial; 731 obs; 31 animal; 17 lab; 47 case; 5948 numeric comparison entries; worklist 16848/16848",
+    "research": "PubMed abstracts verified: 40419093, 40187731, 23365108, 40691269, 39627456, 12080401, 27571099, 36124913, 29617350. Six new entries retain numeric intervention-versus-control results or valid relative effects; three topics linked to existing entries; twenty-one topics were screened out because the retrieved PubMed evidence lacked a qualifying numeric intervention-versus-control effect size, was a duplicate, mismatched topic, or qualitative-only result.",
     "qualified_topics": [
-      "nordic-diet-blood-pressure",
-      "portfolio-diet-blood-pressure",
-      "acupuncture-blood-pressure",
-      "potassium-supplement-blood-pressure",
-      "calcium-supplement-blood-pressure",
-      "fish-oil-blood-pressure",
-      "probiotics-blood-pressure",
-      "psyllium-blood-pressure",
-      "dietary-fiber-blood-pressure",
-      "potassium-rich-diet-blood-pressure",
-      "garlic-oil-blood-pressure",
-      "canola-oil-blood-pressure",
-      "early-time-restricted-eating-blood-pressure",
-      "sleep-duration-blood-pressure"
+      "mulberry-postprandial-glycemia",
+      "mulberry-leaf-postprandial-glycemia",
+      "rye-postprandial-glycemia",
+      "high-amylose-barley-postprandial-glycemia",
+      "sorghum-postprandial-glycemia",
+      "oat-bran-postprandial-glycemia"
     ],
     "qualified_entry_ids": [
-      "nordic-diet-blood-pressure-pos",
-      "portfolio-diet-blood-pressure-pos",
-      "acupuncture-blood-pressure-pos",
-      "potassium-supplement-blood-pressure-pos",
-      "calcium-supplement-blood-pressure-pos",
-      "fish-oil-blood-pressure-pos",
-      "probiotics-blood-pressure-pos",
-      "psyllium-blood-pressure-pos",
-      "dietary-fiber-blood-pressure-pos",
-      "potassium-rich-diet-blood-pressure-pos",
-      "garlic-oil-blood-pressure-null",
-      "canola-oil-blood-pressure-pos",
-      "early-time-restricted-eating-blood-pressure-pos",
-      "sleep-duration-blood-pressure-pos"
+      "mulberry-postprandial-glycemia-pos",
+      "mulberry-leaf-postprandial-glycemia-pos",
+      "rye-postprandial-glycemia-pos",
+      "high-amylose-barley-postprandial-glycemia-pos",
+      "sorghum-postprandial-glycemia-pos",
+      "oat-bran-glycemic-index-pos"
     ],
     "screened_topics": [
-      "extra-virgin-olive-oil-blood-pressure",
-      "white-tea-blood-pressure",
-      "coconut-water-blood-pressure",
-      "sesame-oil-blood-pressure",
-      "mung-bean-blood-pressure",
-      "low-glycemic-diet-blood-pressure",
-      "intermittent-fasting-blood-pressure",
-      "alternate-day-fasting-blood-pressure",
-      "exercise-snacking-blood-pressure",
-      "forest-bathing-blood-pressure",
-      "stress-reduction-blood-pressure"
+      "mango-postprandial-glycemia",
+      "papaya-postprandial-glycemia",
+      "guava-postprandial-glycemia",
+      "pomegranate-postprandial-glycemia",
+      "cranberry-postprandial-glycemia",
+      "blackberry-postprandial-glycemia",
+      "persimmon-postprandial-glycemia",
+      "date-fruit-postprandial-glycemia",
+      "kiwifruit-postprandial-glycemia",
+      "plantain-postprandial-glycemia",
+      "sweet-potato-postprandial-glycemia",
+      "purple-sweet-potato-postprandial-glycemia",
+      "cassava-postprandial-glycemia",
+      "taro-postprandial-glycemia",
+      "yam-postprandial-glycemia",
+      "fonio-postprandial-glycemia",
+      "farro-postprandial-glycemia",
+      "freekeh-postprandial-glycemia",
+      "triticale-postprandial-glycemia",
+      "amaranth-postprandial-glycemia",
+      "buckwheat-postprandial-glycemia"
     ],
     "existing_linked_entry_ids": [
-      "beetroot-hypertension-pos",
-      "dash-diet-blood-pressure-pos",
-      "low-sodium-diet-blood-pressure-pos",
-      "resistance-training-hypertension-pos",
-      "omega3-blood-pressure-pos"
+      "barley-beta-glucan-glycemia-pos",
+      "oat-bran-glycemia-pos",
+      "rice-bran-glycemia-pos"
     ],
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
@@ -157,19 +149,19 @@
       "짧은 걷기: 신규 move"
     ],
     "category_reclassifications": [
-      "칼륨 보충제: 신규 supp",
-      "어유 보충제: 신규 supp",
-      "마늘유: 신규 supp"
+      "오디 잎 추출물: 신규 supp",
+      "고아밀로스 보리빵: 신규 food",
+      "수수 파스타: 신규 food"
     ],
     "targeted_batch_warnings_fixed": 0,
-    "build_errors_fixed": 1,
+    "build_errors_fixed": 0,
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 6,
     "remaining_english_entries": 0,
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1582",
+    "next_official_deployment_check": "after batch 1583",
     "topics": [
       "mango-postprandial-glycemia",
       "papaya-postprandial-glycemia",
@@ -204,8 +196,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1582",
-    "worklist_line": "new-expansion-candidates-batch1582",
+    "next_batch": "1583",
+    "worklist_line": "new-expansion-candidates-batch1583",
     "topic": null,
     "unchecked": 0
   }
