@@ -1,32 +1,33 @@
 {
- "id": "patient-education-program-hypertension-pos",
- "subj": "환자 교육 프로그램",
- "claim": "지역사회 고혈압 교육이 혈압과 생활습관을 개선한다",
- "line": "지역사회 고혈압 교육은 혈압과 건강 생활습관을 개선했습니다",
- "effect": "SBP 8.1mmHg 감소",
- "tier": "obs",
- "dir": "pos",
- "n": 9193,
- "synth": "single",
- "known": "off",
- "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 생활습관 중재다",
- "why": "요르단 지역사회 클리닉의 하이브리드 고혈압 교육 프로그램을 추적한 자료에서 교육 회기가 늘수록 혈압과 생활습관 지표가 개선됐다.",
- "saw": "고혈압 성인 9193명의 5회 교육 자료에서 평균 체중은 3.0kg, 수축기 혈압은 8.1mmHg, 이완기 혈압은 3.0mmHg 감소했고 신체활동 비율은 9.8%p 증가했다.",
- "limit": "대조군 없는 전향적 자료의 2차 분석이라 시간 경과와 참여자 선택의 영향을 분리할 수 없다.",
- "against": "교육 프로그램이 표준진료보다 우월한지는 이 자료만으로 판단할 수 없다.",
- "use": "지역사회 고혈압 교육을 운영할 때 혈압과 식사·신체활동을 함께 추적할 지표로 삼는다.",
- "refs": [
-  {
-   "label": "Hybrid Model Education Program for Hypertension Management in Jordan 2026 · Journal of Hypertension",
-   "doi": "10.1097/HJH.0000000000004361",
-   "pmid": "42319219"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=patient education program AND condition=Hypertension; 131건 반환, 중재명 일치 1건",
-  "pubmed": "patient education program AND Hypertension; 960건",
-  "negative": "patient education program AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference); 530건",
-  "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 120건"
- }
+  "id": "patient-education-program-hypertension-pos",
+  "subj": "환자 교육 프로그램",
+  "claim": "지역사회 고혈압 교육이 혈압과 생활습관을 개선한다",
+  "line": "지역사회 고혈압 교육은 혈압과 건강 생활습관을 개선했습니다",
+  "effect": "SBP 8.1mmHg 감소",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 9193,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 생활습관 중재다",
+  "why": "요르단 지역사회 클리닉의 하이브리드 고혈압 교육 프로그램을 추적한 자료에서 교육 회기가 늘수록 혈압과 생활습관 지표가 개선됐다.",
+  "saw": "고혈압 성인 9193명의 5회 교육 자료에서 평균 체중은 3.0kg, 수축기 혈압은 8.1mmHg, 이완기 혈압은 3.0mmHg 감소했고 신체활동 비율은 9.8%p 증가했다.",
+  "limit": "대조군 없는 전향적 자료의 2차 분석이라 시간 경과와 참여자 선택의 영향을 분리할 수 없다.",
+  "against": "교육 프로그램이 표준진료보다 우월한지는 이 자료만으로 판단할 수 없다.",
+  "use": "지역사회 고혈압 교육을 운영할 때 혈압과 식사·신체활동을 함께 추적할 지표로 삼는다.",
+  "refs": [
+    {
+      "label": "Hybrid Model Education Program for Hypertension Management in Jordan 2026 · Journal of Hypertension",
+      "doi": "10.1097/HJH.0000000000004361",
+      "pmid": "42319219"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=patient education program AND condition=Hypertension; 131건 반환, 중재명 일치 1건",
+    "pubmed": "patient education program AND Hypertension; 960건",
+    "negative": "patient education program AND Hypertension AND (no effect OR did not OR failed to OR negative OR no significant difference); 530건",
+    "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 120건"
+  },
+  "vs": "지역사회 고혈압 교육 vs 사전 측정(대조군 없음), 고혈압 성인 9,193명 5회 교육 전후: 체중 -3.0kg(95% CI -3.9~-2.1), 수축기혈압 -8.1mmHg(-9.5~-6.7), 이완기혈압 -3.0mmHg(-3.8~-2.2), 신체활동 비율 +9.8%"
 }

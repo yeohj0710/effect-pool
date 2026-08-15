@@ -1,32 +1,33 @@
 {
- "id": "patient-education-program-diabetes-pos",
- "subj": "환자 교육 프로그램",
- "claim": "구조화한 환자교육이 당뇨병 HbA1c와 자가관리를 개선한다",
- "line": "구조화된 환자 교육은 당뇨병의 HbA1c와 자가관리를 개선했습니다",
- "effect": "HbA1c 1.50%p 집단차",
- "tier": "trial",
- "dir": "pos",
- "n": 200,
- "synth": "single",
- "known": "off",
- "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 비약물 중재다",
- "why": "당뇨병성 망막병증 환자를 대상으로 한 계획행동이론 기반 3회 교육의 준실험 연구에서 HbA1c와 자기관리 지표가 개선됐다.",
- "saw": "참가자 200명(중재군 100명, 대조군 100명)에서 3개월 HbA1c가 중재군은 0.50% 감소하고 대조군은 1.06% 증가해 집단차가 -1.50%p였다.",
- "limit": "무작위 배정이 아닌 전후 대조 연구이며 추적 기간이 3개월로 짧다.",
- "against": "장기 합병증과 장기 자기관리 지속 효과는 확인되지 않았다.",
- "use": "당뇨병성 망막병증 환자 교육에서 짧은 구조화 교육의 초기 효과를 평가할 때 참고한다.",
- "refs": [
-  {
-   "label": "Theory of Planned Behaviour-Based Self-Care Education for Diabetic Retinopathy 2026 · Journal of Nutritional Science",
-   "doi": "10.1017/jns.2026.10133",
-   "pmid": "42558851"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=patient education program AND condition=Diabetes; 358건 반환, 중재명 일치 0건",
-  "pubmed": "patient education program AND Diabetes; 3946건",
-  "negative": "patient education program AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 2078건",
-  "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 304건"
- }
+  "id": "patient-education-program-diabetes-pos",
+  "subj": "환자 교육 프로그램",
+  "claim": "구조화한 환자교육이 당뇨병 HbA1c와 자가관리를 개선한다",
+  "line": "구조화된 환자 교육은 당뇨병의 HbA1c와 자가관리를 개선했습니다",
+  "effect": "HbA1c 1.50%p 집단차",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 200,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "환자교육 프로그램은 의약품 허가 적응증이 아닌 비약물 중재다",
+  "why": "당뇨병성 망막병증 환자를 대상으로 한 계획행동이론 기반 3회 교육의 준실험 연구에서 HbA1c와 자기관리 지표가 개선됐다.",
+  "saw": "참가자 200명(중재군 100명, 대조군 100명)에서 3개월 HbA1c가 중재군은 0.50% 감소하고 대조군은 1.06% 증가해 집단차가 -1.50%p였다.",
+  "limit": "무작위 배정이 아닌 전후 대조 연구이며 추적 기간이 3개월로 짧다.",
+  "against": "장기 합병증과 장기 자기관리 지속 효과는 확인되지 않았다.",
+  "use": "당뇨병성 망막병증 환자 교육에서 짧은 구조화 교육의 초기 효과를 평가할 때 참고한다.",
+  "refs": [
+    {
+      "label": "Theory of Planned Behaviour-Based Self-Care Education for Diabetic Retinopathy 2026 · Journal of Nutritional Science",
+      "doi": "10.1017/jns.2026.10133",
+      "pmid": "42558851"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=patient education program AND condition=Diabetes; 358건 반환, 중재명 일치 0건",
+    "pubmed": "patient education program AND Diabetes; 3946건",
+    "negative": "patient education program AND Diabetes AND (no effect OR did not OR failed to OR negative OR no significant difference); 2078건",
+    "safety": "patient education program AND (adverse OR toxicity OR case report OR harm OR dropout); 304건"
+  },
+  "vs": "계획행동이론 기반 자가관리 교육 vs 표준진료, 당뇨망막병증 200명(100 vs 100) 준실험: 3개월 HbA1c 개입군 -0.50%, 대조군 +1.06%, 군간 차이 -1.50%(95% CI -1.93~-1.07), d=.97"
 }
