@@ -1,32 +1,37 @@
 {
-  "id": "mushroom-vitamin-d-status-null",
-  "subj": "버섯",
-  "claim": "자외선 처리 버섯이 겨울철 비타민 D 상태를 유지하는가",
-  "line": "자외선 처리 버섯을 먹어도 겨울철 혈중 총 25OHD 감소를 막지는 못했습니다.",
-  "effect": "총 25OHD 감소 차이 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 41,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "버섯 섭취는 식품 중재이며 비타민 D 상태 유지가 의약품 허가 적응증은 아닙니다.",
-  "why": "과체중 또는 비만 성인 41명을 버섯군 20명과 대조군 21명으로 무작위 배정해 6주간 겨울철에 비교했습니다.",
-  "saw": "자외선 처리 Agaricus bisporus는 혈중 25OHD2를 늘렸지만 대조군보다 겨울철 총 25OHD 감소를 줄이지 못했습니다.",
-  "limit": "표본이 41명이고 버섯의 실제 비타민 D2 함량이 일정하지 않아, 다른 계절이나 제품에 일반화하기 어렵습니다.",
-  "against": "버섯군에서 25OHD2는 증가했지만 25OHD3가 더 감소해 총 비타민 D 상태의 보호 효과가 상쇄됐습니다.",
-  "use": "겨울철 비타민 D 부족을 버섯만으로 예방한다고 보지 말고, 혈중 수치와 표준 보충 전략을 따로 검토합니다.",
-  "refs": [
-    {
-      "label": "자외선 처리 버섯과 겨울철 25OHD 무작위시험",
-      "doi": "10.3390/foods15091572",
-      "pmid": "42121515"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "mushroom AND Vitamin D Status · 3건",
-    "pubmed": "mushroom AND Vitamin D Status · 45편",
-    "negative": "mushroom AND Vitamin D Status AND (no effect OR no significant difference OR failed OR negative) · 29편",
-    "safety": "mushroom AND (adverse OR toxicity OR harm OR case report) · 4783편"
+ "id": "mushroom-vitamin-d-status-null",
+ "subj": "버섯",
+ "claim": "자외선 처리 버섯이 겨울철 비타민 D 상태를 유지하는가",
+ "line": "자외선 처리 버섯을 먹어도 겨울철 혈중 총 25OHD 감소를 막지는 못했습니다.",
+ "effect": "총 25OHD 감소 차이 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 26,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "버섯 섭취는 식품 중재이며 비타민 D 상태 유지가 의약품 허가 적응증은 아닙니다.",
+ "why": "과체중 또는 비만 성인 41명을 버섯군 20명과 대조군 21명으로 무작위 배정해 6주간 겨울철에 비교했습니다.",
+ "saw": "PubMed 초록은 비타민 D 부족 성인 26명을 UV-B 처리 버섯, 비타민 D2 보충제, 위약에 무작위 배정해 혈중 25OHD 변화를 비교했다.",
+ "limit": "표본이 41명이고 버섯의 실제 비타민 D2 함량이 일정하지 않아, 다른 계절이나 제품에 일반화하기 어렵습니다.",
+ "against": "버섯군에서 25OHD2는 증가했지만 25OHD3가 더 감소해 총 비타민 D 상태의 보호 효과가 상쇄됐습니다.",
+ "use": "겨울철 비타민 D 부족을 버섯만으로 예방한다고 보지 말고, 혈중 수치와 표준 보충 전략을 따로 검토합니다.",
+ "refs": [
+  {
+   "label": "자외선 처리 버섯과 겨울철 25OHD 무작위시험",
+   "doi": "10.3390/foods15091572",
+   "pmid": "42121515"
+  },
+  {
+   "label": "Bioavailability of vitamin D2 from UV-B-irradiated button mushrooms",
+   "pmid": "21540874"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "mushroom AND Vitamin D Status · 3건",
+  "pubmed": "mushroom AND Vitamin D Status · 45편; PMID 21540874 PubMed abstract verified 2026-08-15",
+  "negative": "mushroom AND Vitamin D Status AND (no effect OR no significant difference OR failed OR negative) · 29편",
+  "safety": "mushroom AND (adverse OR toxicity OR harm OR case report) · 4783편"
+ },
+ "vs": "UV-B 버섯 9명 vs 비타민 D2 보충 9명 vs 위약 8명; 2주 후 버섯군의 25OHD가 위약보다 높음(p=0.001), 연구기간 주당 상승은 3.9nmol/L(95% CI 2.9~4.8) vs 보충군 4.7(3.8~5.7)"
 }

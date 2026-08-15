@@ -6,12 +6,12 @@
  "effect": "수면·멜라토닌 시간 앞당김",
  "tier": "trial",
  "dir": "pos",
- "n": 58,
+ "n": 11,
  "synth": "single",
  "known": "off",
  "knownWhy": "아침 운동은 행동 중재로, 일주기장애의 허가 치료제가 아닙니다",
  "why": "앉아서 지내는 성인에서 12주 아침 또는 저녁 유산소 운동이 수면과 일주기 지표에 미치는 영향을 비교한 무작위 연구입니다",
- "saw": "앉아서 지내는 남성 58명을 아침 운동, 저녁 운동, 대조군으로 나누어 12주 동안 주 150분 이상 중등도 유산소 운동을 시행했습니다. 아침 운동군에서 수면 시작과 희미한 빛 멜라토닌 시작 시간이 앞당겨졌고 체지방·총콜레스테롤·중성지방도 감소했습니다",
+ "saw": "PubMed 초록은 건강한 남성 11명이 아침·오후 운동과 무운동 조건을 각각 수행한 교차시험에서 백혈구 말초시계 유전자 발현과 위상을 비교했다.",
  "limit": "남성만 포함한 단일 연구이며 대조군과 운동 시간대의 효과를 완전히 분리하기 어렵습니다",
  "against": "저녁 운동은 혈류와 혈관 기능 개선에서 아침 운동보다 나은 지표를 보였고, 연구는 분자 시계 유전자 자체를 측정하지 않았습니다",
  "use": "일주기와 수면 문제가 있는 사람에게 운동 시간 선택을 설명할 때 참고할 수 있지만 개인별 수면 반응을 함께 봐야 합니다",
@@ -19,13 +19,18 @@
   {
    "label": "Differential benefits of 12-week morning vs. evening aerobic exercise on sleep and cardiometabolic health",
    "pmid": "40419564"
+  },
+  {
+   "label": "Effect of a single bout of exercise on clock gene expression in human leukocytes",
+   "pmid": "32134712"
   }
  ],
  "queried": {
-  "date": "2026-08-08",
+  "date": "2026-08-15",
   "ctgov": "morning exercise AND Circadian Clock — 5건 반환",
-  "pubmed": "morning exercise AND circadian — 77건 반환",
+  "pubmed": "morning exercise AND circadian — 77건 반환; PMID 32134712 PubMed abstract verified 2026-08-15",
   "negative": "morning exercise AND circadian AND (no effect OR did not OR failed OR negative OR no significant difference) — 시간대별 혼재 결과 확인",
   "safety": "morning exercise AND circadian AND (adverse OR toxicity OR harm OR safety) — 직접 연구에서 중대한 안전성 신호 없음"
- }
+ },
+ "vs": "아침 운동 11명 vs 오후 운동 11명 vs 무운동 대조 11명; 아침 운동은 Bmal1·Cry1 발현을 높이고 Bmal1·Cry1 위상을 앞당겼으며, 오후 운동은 Bmal1 위상을 늦춤"
 }

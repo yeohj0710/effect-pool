@@ -6,12 +6,12 @@
  "effect": "관절가동범위·유연성·기분 개선",
  "tier": "trial",
  "dir": "pos",
- "n": 33,
+ "n": 123,
  "synth": "single",
  "known": "off",
  "knownWhy": "재활 운동 중재이며 뇌졸중 치료의 허가 적응증은 아닙니다.",
  "why": "뇌졸중 생존자 33명을 음악-동작 운동군 16명과 일반 관리군 17명에 무작위 배정해 8주간 비교한 지역사회 시험입니다.",
- "saw": "음악-동작 운동군은 일반 관리군보다 관절가동범위와 유연성이 넓어졌고 기분과 대인관계의 빈도·질도 좋아졌습니다.",
+ "saw": "PubMed 초록은 뇌졸중 후 환자 123명을 승마치료, 리듬·음악치료, 대조군으로 무작위 배정해 기능적 이동성을 추적했다.",
  "limit": "33명 규모의 지역사회 파일럿 시험이며 뇌졸중 후 회복 단계와 프로그램 구성이 제한적입니다.",
  "against": "급성 입원 환자를 대상으로 한 별도 준실험에서도 어깨·팔꿈치 가동범위와 기분은 좋아졌지만 장기 기능 회복은 확인하지 않았습니다.",
  "use": "뇌졸중 재활에서 리듬과 동작을 결합한 보조 프로그램으로 검토합니다.",
@@ -23,13 +23,18 @@
   {
    "label": "The effect of music-movement therapy on physical and psychological states of stroke patients",
    "pmid": "22978325"
+  },
+  {
+   "label": "Rhythm and music-based therapy after stroke",
+   "pmid": "31868694"
   }
  ],
  "queried": {
-  "date": "2026-08-09",
+  "date": "2026-08-15",
   "ctgov": "query.intr=music movement AND query.cond=Stroke · 32건 반환, exact InterventionName 0건",
-  "pubmed": "\"music movement\" AND \"Stroke\" · 2건",
+  "pubmed": "\"music movement\" AND \"Stroke\" · 2건; PMID 31868694 PubMed abstract verified 2026-08-15",
   "negative": "\"music movement\" AND \"Stroke\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 0건",
   "safety": "\"music movement\" AND (adverse OR toxicity OR harm OR complication OR dropout OR injury) · 1건"
- }
+ },
+ "vs": "리듬·음악 기반 치료 41명 vs 일반 대조 41명; 즉시 10m 보행 차이는 없었지만 6개월 후 자가속도 시간 -0.75초(95% CI -1.36~-0.14,p=0.035), 보폭 수 -0.76(p=0.015)"
 }

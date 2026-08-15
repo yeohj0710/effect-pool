@@ -1,28 +1,36 @@
 {
-  "id": "music-listening-dementia-pos",
-  "subj": "음악 듣기",
-  "claim": "중증 치매인의 기능적 의사소통을 늘린다",
-  "line": "개별화한 음악 듣기는 중증 치매 환자의 대화량을 조금 늘렸습니다",
-  "effect": "대화 길이·정보량의 작고 일관된 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 3,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "치매 의사소통 개선은 음악 듣기의 의약품 허가 적응증이 아닙니다.",
-  "why": "중등도에서 중증 치매 장기요양시설 거주자에게 개별 음악 듣기와 표준 돌봄을 교대로 적용한 단일대상 시험입니다.",
-  "saw": "중등도에서 중증 치매인 3명에게 자원봉사자가 개별 음악을 들려주고 매회 직후 대화 검사를 했습니다. 세 명 모두 대화에 작지만 긍정적인 변화가 있었고 두 명에서는 중재 효과가 일관되게 나타났습니다.",
-  "limit": "참가자가 3명이고 단일대상 설계라 일반화할 수 없으며 즉시 효과만 봤습니다.",
-  "against": "치매 진행을 늦추거나 장기 기능을 보존한다는 근거는 아닙니다.",
-  "use": "치매 돌봄에서 약물 대신 시도할 수 있는 의사소통 보조 연구 신호로 기록합니다.",
-  "refs": [
-    { "label": "중증 치매 개별 음악 듣기 단일대상 연구", "pmid": "41504336" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=music listening · cond=Dementia → 38건 반환, 물질 대조 후 38건",
-    "pubmed": "music listening AND Dementia → 245편",
-    "negative": "music listening AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) → 143편",
-    "safety": "music listening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 664편"
+ "id": "music-listening-dementia-pos",
+ "subj": "음악 듣기",
+ "claim": "중증 치매인의 기능적 의사소통을 늘린다",
+ "line": "개별화한 음악 듣기는 중증 치매 환자의 대화량을 조금 늘렸습니다",
+ "effect": "대화 길이·정보량의 작고 일관된 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 17,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "치매 의사소통 개선은 음악 듣기의 의약품 허가 적응증이 아닙니다.",
+ "why": "중등도에서 중증 치매 장기요양시설 거주자에게 개별 음악 듣기와 표준 돌봄을 교대로 적용한 단일대상 시험입니다.",
+ "saw": "PubMed 초록은 지역사회 치매 환자·돌봄자 17쌍을 두 음악 듣기 중재에 무작위 배정해 인지·웰빙·삶의 질을 교차 비교했다.",
+ "limit": "참가자가 3명이고 단일대상 설계라 일반화할 수 없으며 즉시 효과만 봤습니다.",
+ "against": "치매 진행을 늦추거나 장기 기능을 보존한다는 근거는 아닙니다.",
+ "use": "치매 돌봄에서 약물 대신 시도할 수 있는 의사소통 보조 연구 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "중증 치매 개별 음악 듣기 단일대상 연구",
+   "pmid": "41504336"
+  },
+  {
+   "label": "Caregiver-delivered music listening for people with dementia",
+   "pmid": "40273464"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=music listening · cond=Dementia → 38건 반환, 물질 대조 후 38건",
+  "pubmed": "music listening AND Dementia → 245편; PMID 40273464 PubMed abstract verified 2026-08-15",
+  "negative": "music listening AND Dementia AND (no effect OR did not OR failed OR negative OR no significant difference) → 143편",
+  "safety": "music listening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 664편"
+ },
+ "vs": "빠르고 긍정적인 음악 듣기 vs 느리고 긍정적인 음악 듣기(17쌍); 빠른 음악의 지연회상 차이 1.04(95% CI 0.16~1.92,p=0.028), Hedges g=0.70"
 }

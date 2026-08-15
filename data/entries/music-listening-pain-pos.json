@@ -1,28 +1,36 @@
 {
-  "id": "music-listening-pain-pos",
-  "subj": "음악 듣기",
-  "claim": "백내장 수술 중 통증과 불안을 줄인다",
-  "line": "백내장 수술 중 음악 감상은 통증과 불안을 줄였습니다",
-  "effect": "수술 직후 통증·불안 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 240,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수술 중 음악 듣기는 통증 치료의 의약품 허가 적응증이 아닙니다.",
-  "why": "백내장 수술 환자를 음악, 스트레스 볼, 대조군에 무작위 배정한 단일눈가림 시험입니다.",
-  "saw": "환자 240명이 세 군에 무작위 배정됐고 음악군은 수술 중 15분 음악을 들었습니다. 음악군은 대조군보다 수술 직후 통증이 낮았고 음악군의 수술 후 불안도 스트레스 볼과 대조군보다 낮았습니다.",
-  "limit": "국소마취 백내장 수술 직후의 단기 결과이며 음악 종류와 선호도 효과를 분리하지 않았습니다.",
-  "against": "장기 통증이나 수술 결과를 개선한다는 근거는 아닙니다.",
-  "use": "수술 중 각성 환자의 단기 통증·불안 보조 중재로 평가할 수 있습니다.",
-  "refs": [
-    { "label": "백내장 수술 음악 중재 무작위시험", "pmid": "42517873" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=music listening · cond=Pain → 82건 반환, 물질 대조 후 82건",
-    "pubmed": "music listening AND Pain → 641편",
-    "negative": "music listening AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) → 525편",
-    "safety": "music listening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 664편"
+ "id": "music-listening-pain-pos",
+ "subj": "음악 듣기",
+ "claim": "백내장 수술 중 통증과 불안을 줄인다",
+ "line": "백내장 수술 중 음악 감상은 통증과 불안을 줄였습니다",
+ "effect": "수술 직후 통증·불안 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 97,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수술 중 음악 듣기는 통증 치료의 의약품 허가 적응증이 아닙니다.",
+ "why": "백내장 수술 환자를 음악, 스트레스 볼, 대조군에 무작위 배정한 단일눈가림 시험입니다.",
+ "saw": "PubMed 초록은 정맥궤양 환자 97명을 터키 음악, 서양 음악, 대조군에 배정해 상처 처치 중 통증·불안·만족도를 비교했다.",
+ "limit": "국소마취 백내장 수술 직후의 단기 결과이며 음악 종류와 선호도 효과를 분리하지 않았습니다.",
+ "against": "장기 통증이나 수술 결과를 개선한다는 근거는 아닙니다.",
+ "use": "수술 중 각성 환자의 단기 통증·불안 보조 중재로 평가할 수 있습니다.",
+ "refs": [
+  {
+   "label": "백내장 수술 음악 중재 무작위시험",
+   "pmid": "42517873"
+  },
+  {
+   "label": "Music during wound care for pain and anxiety in venous ulcers",
+   "pmid": "42085114"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=music listening · cond=Pain → 82건 반환, 물질 대조 후 82건",
+  "pubmed": "music listening AND Pain → 641편; PMID 42085114 PubMed abstract verified 2026-08-15",
+  "negative": "music listening AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) → 525편",
+  "safety": "music listening AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 664편"
+ },
+ "vs": "터키 음악 32명 vs 서양 음악 32명 vs 대조 33명; 불안 F(2,94)=27.771(p<0.001), 통증 F(4,188)=9.039(p<0.001), 터키 음악이 대조보다 통증을 유의하게 낮춤"
 }
