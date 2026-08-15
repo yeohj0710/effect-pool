@@ -21921,7 +21921,7 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] batch1558 soy-yogurt-glycemia
 - [x] batch1558 kombucha-glycemia
 - [x] batch1558 kombucha-blood-pressure
-- [x] batch1558 yerba-mate-cholesterol
+- [x] batch1558 yerba-mate-glycemia
 - [x] batch1558 hibiscus-glycemia
 - [x] batch1558 maca-glycemia
 - [x] batch1558 maca-blood-pressure
