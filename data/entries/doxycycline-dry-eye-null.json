@@ -9,8 +9,8 @@
   "n": 20,
   "synth": "single",
   "why": "독시사이클린의 허가사항에는 마이봄샘 기능장애나 건조안이 없습니다. 독시사이클린과 국소 아지트로마이신을 비교한 무작위시험을 확인했습니다.",
-  "saw": "마이봄샘 기능장애 건조안 환자 20명을 비교한 무작위시험에서 두 치료 모두 눈물막 두께와 안구 표면 증상을 개선했지만 군 간 차이는 없었습니다. 전신 이상반응은 독시사이클린군에서 더 많았습니다.",
-  "limit": "표본이 20명인 소규모 비교시험이고 위약군이 없습니다. 눈물막 지표 개선을 모든 건조안 환자의 장기 치료 효과로 확대할 수 없습니다.",
+  "saw": "마이봄샘 기능장애 환자 20명을 국소 아지트로마이신과 경구 독시사이클린에 무작위 배정한 시험에서 두 군 모두 눈물막 두께와 안구 표면 증상이 좋아졌지만 군 간 눈물막 차이는 없었습니다(p=0.096). 전신 이상반응은 독시사이클린군에서 더 많았습니다.",
+  "limit": "20명 규모의 소규모 비교시험이고 위약군이 없어 건조안 전체의 장기 효과로 확대할 수 없습니다.",
   "against": "반대 검색 5건에서 독시사이클린과 비교약의 눈물막 차이가 없거나 전신 이상반응이 더 많다는 결과를 확인했습니다.",
   "use": "건조안에서 독시사이클린의 개선 신호와 비교약 대비 우월성 부재를 함께 표시해야 합니다.",
   "refs": [
@@ -22,11 +22,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"DOXYCYCLINE\" → 240건 반환; 건조안 적응증 없음",
     "ctgov": "query.intr=doxycycline&query.cond=Dry Eye&countTotal=true&pageSize=1000 → 6건 반환, InterventionName exact 일치 2건",
-    "pubmed": "doxycycline AND \"Dry Eye\" → 45건",
+    "pubmed": "doxycycline AND \"Dry Eye\" → 45건; PMID 37327369 PubMed abstract verified 2026-08-15",
     "negative": "doxycycline AND \"Dry Eye\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 5건",
     "safety": "doxycycline AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 4,674건"
-  }
+  },
+  "vs": "무작위 비교시험·n=20: 독시사이클린 vs 국소 아지트로마이신, 눈물막 두께 군 간 차이 없음(p=0.096); 두 군 모두 OSDI·징후 개선(p=0.023/.016)."
 }

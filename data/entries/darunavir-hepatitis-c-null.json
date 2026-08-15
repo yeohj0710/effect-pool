@@ -1,37 +1,38 @@
 {
- "id": "darunavir-hepatitis-c-null",
- "subj": "다루나비르",
- "claim": "다루나비르는 HCV를 치료한다는 근거가 없다",
- "line": "HIV·HCV 동시감염에서 다루나비르는 HCV 치료제가 아니라 DAA 상호작용 대상이었습니다.",
- "effect": "DAA SVR12 91.5%·상호작용 확인",
- "tier": "obs",
- "dir": "null",
- "n": 1042,
- "synth": "single",
- "known": "off",
- "knownWhy": "다루나비르 허가는 HIV-1 감염이며 HCV 치료는 허가 적응증이 아닙니다",
- "why": "HIV·HCV 동시감염 문헌에서 HCV 치료효과가 다루나비르 자체인지, HCV 직접작용 항바이러스제의 효과인지 구분합니다.",
- "saw": "유럽 HIV·HCV 코호트 1,042명에서 인터페론 없는 DAA 치료 후 알려진 862명 중 789명(91.5%)이 SVR12를 달성했습니다. 별도 약물상호작용 시험은 다루나비르/ritonavir와 HCV DAA를 함께 평가했지만 다루나비르가 HCV를 치료하는 시험은 아니었습니다.",
- "limit": "코호트의 DAA 조합과 항레트로바이러스제가 다양하고 다루나비르 복용자만의 HCV 결과를 분리하지 않았습니다.",
- "against": "SVR12는 HCV DAA 치료 결과이며 다루나비르의 직접 항HCV 효과를 보여주지 않습니다.",
- "use": "HIV·HCV 동시치료에서 항레트로바이러스제와 DAA를 구분해 해석하는 사례로 기록합니다.",
- "refs": [
-  {
-   "label": "Schultze 2021 · HIV·HCV 동시감염 DAA 유럽 코호트",
-   "doi": "10.1097/QAI.0000000000002541",
-   "pmid": "33079903"
+  "id": "darunavir-hepatitis-c-null",
+  "subj": "다루나비르",
+  "claim": "다루나비르는 HCV를 치료한다는 근거가 없다",
+  "line": "HIV·HCV 동시감염에서 다루나비르는 HCV 치료제가 아니라 DAA 상호작용 대상이었습니다.",
+  "effect": "DAA SVR12 91.5%·상호작용 확인",
+  "tier": "obs",
+  "dir": "null",
+  "n": 1042,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "다루나비르 허가는 HIV-1 감염이며 HCV 치료는 허가 적응증이 아닙니다",
+  "why": "HIV·HCV 동시감염 문헌에서 HCV 치료효과가 다루나비르 자체인지, HCV 직접작용 항바이러스제의 효과인지 구분합니다.",
+  "saw": "유럽 HIV·HCV 코호트 1,042명에서 인터페론 없는 DAA 치료 후 알려진 862명 중 789명(91.5%)이 SVR12를 달성했습니다. 별도 약물상호작용 시험은 다루나비르/ritonavir와 HCV DAA를 함께 평가했지만 다루나비르가 HCV를 치료하는 시험은 아니었습니다.",
+  "limit": "코호트의 DAA 조합과 항레트로바이러스제가 다양하고 다루나비르 복용자만의 HCV 결과를 분리하지 않았습니다.",
+  "against": "SVR12는 HCV DAA 치료 결과이며 다루나비르의 직접 항HCV 효과를 보여주지 않습니다.",
+  "use": "HIV·HCV 동시치료에서 항레트로바이러스제와 DAA를 구분해 해석하는 사례로 기록합니다.",
+  "refs": [
+    {
+      "label": "Schultze 2021 · HIV·HCV 동시감염 DAA 유럽 코호트",
+      "doi": "10.1097/QAI.0000000000002541",
+      "pmid": "33079903"
+    },
+    {
+      "label": "Kosloski 2020 · glecaprevir/pibrentasvir와 HIV 항레트로바이러스제 상호작용",
+      "doi": "10.1093/infdis/jiz439",
+      "pmid": "31504702"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=darunavir AND condition=Hepatitis C; 8건 반환, 3건 직접 대조",
+    "pubmed": "darunavir AND Hepatitis C; 74편; PMID 33079903,31504702 PubMed abstract verified 2026-08-15; DAA 코호트와 약동학 상호작용 연구는 다루나 다루나비르 자체의 개입-대조 임상효과를 제시하지 않습니다.",
+    "negative": "darunavir AND Hepatitis C AND (no effect OR did not OR failed to OR negative); 19편",
+    "safety": "darunavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 763편"
   },
-  {
-   "label": "Kosloski 2020 · glecaprevir/pibrentasvir와 HIV 항레트로바이러스제 상호작용",
-   "doi": "10.1093/infdis/jiz439",
-   "pmid": "31504702"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "intervention=darunavir AND condition=Hepatitis C; 8건 반환, 3건 직접 대조",
-  "pubmed": "darunavir AND Hepatitis C; 74편",
-  "negative": "darunavir AND Hepatitis C AND (no effect OR did not OR failed to OR negative); 19편",
-  "safety": "darunavir AND (adverse OR toxicity OR hepatotoxicity OR case report); 763편"
- }
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; DAA 코호트와 약동학 상호작용 연구는 다루나 다루나비르 자체의 개입-대조 임상효과를 제시하지 않습니다."
 }
