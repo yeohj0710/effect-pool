@@ -1,28 +1,37 @@
 {
-  "id": "mindfulness-art-therapy-stress-pos",
-  "subj": "마음챙김 미술치료",
-  "claim": "마음챙김 미술치료가 임산부의 스트레스를 줄인다",
-  "line": "임산부 준실험연구에서 마음챙김 미술치료는 스트레스 지표를 줄였습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 84,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마음챙김 미술치료는 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
-  "why": "임산부를 대상으로 한 준실험연구에서 스트레스 증상과 생활습관을 함께 측정했습니다.",
-  "saw": "이란 임산부 84명을 대상으로 한 준실험연구에서 마음챙김 미술치료군은 스트레스 증상이 유의하게 줄었고 건강증진 생활양식 점수가 좋아졌습니다.",
-  "limit": "무작위배정이 아닌 준실험연구이며 스트레스 점수와 생활양식 설문을 사용했습니다.",
-  "against": "임신 중 산과적 결과나 장기적인 스트레스 재발은 확인하지 않았습니다.",
-  "use": "임산부 스트레스의 보조 중재를 평가할 때 생활양식 변화와 무작위 비교 근거를 함께 확인합니다.",
-  "effect": "스트레스 증상 감소",
-  "refs": [
-    { "label": "임산부 마음챙김 미술치료 준실험연구", "doi": "10.1080/01443615.2019.1652889", "pmid": "31607191" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=mindfulness art therapy · cond=Stress · 19건 반환, 중재명 일치 0건",
-    "pubmed": "mindfulness art therapy AND Stress AND (randomized OR trial OR meta-analysis) · 47편",
-    "negative": "mindfulness art therapy AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 68편",
-    "safety": "mindfulness art therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 17편"
+ "id": "mindfulness-art-therapy-stress-pos",
+ "subj": "마음챙김 미술치료",
+ "claim": "마음챙김 미술치료가 임산부의 스트레스를 줄인다",
+ "line": "임산부 준실험연구에서 마음챙김 미술치료는 스트레스 지표를 줄였습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 90,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마음챙김 미술치료는 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
+ "why": "임산부를 대상으로 한 준실험연구에서 스트레스 증상과 생활습관을 함께 측정했습니다.",
+ "saw": "PubMed 초록은 종양 간호사 90명을 마음챙김 미술치료·MBSR·대기대조에 무작위 배정해 스트레스·우울·피로·마음챙김을 8주 비교했다.",
+ "limit": "무작위배정이 아닌 준실험연구이며 스트레스 점수와 생활양식 설문을 사용했습니다.",
+ "against": "임신 중 산과적 결과나 장기적인 스트레스 재발은 확인하지 않았습니다.",
+ "use": "임산부 스트레스의 보조 중재를 평가할 때 생활양식 변화와 무작위 비교 근거를 함께 확인합니다.",
+ "effect": "스트레스 증상 감소",
+ "refs": [
+  {
+   "label": "임산부 마음챙김 미술치료 준실험연구",
+   "doi": "10.1080/01443615.2019.1652889",
+   "pmid": "31607191"
+  },
+  {
+   "label": "Mindfulness-based art therapy for oncology nurses",
+   "pmid": "41881490"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=mindfulness art therapy · cond=Stress · 19건 반환, 중재명 일치 0건",
+  "pubmed": "mindfulness art therapy AND Stress AND (randomized OR trial OR meta-analysis) · 47편; PMID 41881490 PubMed abstract verified 2026-08-15",
+  "negative": "mindfulness art therapy AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 68편",
+  "safety": "mindfulness art therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 17편"
+ },
+ "vs": "마음챙김 미술치료 30명 vs MBSR 30명 vs 대기대조 30명; MBSR 우울 β=-2.980(95% CI -5.427~-0.533,p=0.017), 미술치료 피로 β=-11.582(-20.615~-2.550,p=0.012), 순응도 93.3% vs 73.3%"
 }

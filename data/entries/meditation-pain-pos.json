@@ -1,28 +1,37 @@
 {
-  "id": "meditation-pain-pos",
-  "subj": "명상",
-  "claim": "성인의 만성 통증에 마음챙김 명상을 쓴다",
-  "line": "성인 만성 통증에서 마음챙김 명상은 통증을 소폭 줄였습니다",
-  "effect": "통증 소폭 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "명상은 심신 중재이며 만성 통증 치료의 의약품 허가 적응증이 아닙니다.",
-  "why": "마음챙김 훈련을 성인 만성 통증의 통증·우울·삶의 질 보조치료로 전환한 무작위시험 메타분석입니다.",
-  "saw": "성인 만성 통증 무작위시험 38건을 합친 메타분석에서 마음챙김 명상은 모든 대조군을 합친 비교에서 통증을 조금 줄였고 우울 증상과 삶의 질도 개선했습니다.",
-  "limit": "근거 확실성이 낮고 전체 참가자 수가 초록에 제시되지 않았으며 안전성을 보고한 연구는 7건뿐입니다.",
-  "against": "효과 크기가 작고 연구마다 중재와 대조군이 달라 특정 통증 질환의 표준치료로 확정할 수 없습니다.",
-  "use": "만성 통증 재활의 보조 중재로 기록하며 진통제나 원인 치료를 대체하지 않습니다.",
-  "refs": [
-    { "label": "마음챙김 명상 만성 통증 체계적 문헌고찰·메타분석", "doi": "10.1007/s12160-016-9844-2", "pmid": "27658913" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=meditation, cond=Pain · 311건",
-    "pubmed": "meditation AND Pain · 1348편",
-    "negative": "meditation AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 256편",
-    "safety": "meditation AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 878편"
+ "id": "meditation-pain-pos",
+ "subj": "명상",
+ "claim": "성인의 만성 통증에 마음챙김 명상을 쓴다",
+ "line": "성인 만성 통증에서 마음챙김 명상은 통증을 소폭 줄였습니다",
+ "effect": "통증 소폭 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1153,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "명상은 심신 중재이며 만성 통증 치료의 의약품 허가 적응증이 아닙니다.",
+ "why": "마음챙김 훈련을 성인 만성 통증의 통증·우울·삶의 질 보조치료로 전환한 무작위시험 메타분석입니다.",
+ "saw": "PubMed 초록은 섬유근육통 환자 대상 MBSR 무작위·비무작위 연구 11개를 합성해 통증과 삶의 질의 대조군 대비 효과크기를 제시했다.",
+ "limit": "근거 확실성이 낮고 전체 참가자 수가 초록에 제시되지 않았으며 안전성을 보고한 연구는 7건뿐입니다.",
+ "against": "효과 크기가 작고 연구마다 중재와 대조군이 달라 특정 통증 질환의 표준치료로 확정할 수 없습니다.",
+ "use": "만성 통증 재활의 보조 중재로 기록하며 진통제나 원인 치료를 대체하지 않습니다.",
+ "refs": [
+  {
+   "label": "마음챙김 명상 만성 통증 체계적 문헌고찰·메타분석",
+   "doi": "10.1007/s12160-016-9844-2",
+   "pmid": "27658913"
+  },
+  {
+   "label": "Mindfulness-based stress reduction for pain in fibromyalgia: systematic review and meta-analysis",
+   "pmid": "41906320"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=meditation, cond=Pain · 311건",
+  "pubmed": "meditation AND Pain · 1348편; PMID 41906320 PubMed abstract verified 2026-08-15",
+  "negative": "meditation AND Pain AND (no effect OR did not OR failed to OR negative OR no significant difference) · 256편",
+  "safety": "meditation AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 878편"
+ },
+ "vs": "MBSR 11개 연구 1153명 vs 수동·능동 대조; 단기 통증 중증도 SMD=-0.2966(95% CI -0.4939~-0.0992), 장기 삶의 질 SMD=-0.2635(-0.4725~-0.0545)"
 }

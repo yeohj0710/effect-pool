@@ -1,20 +1,37 @@
 {
-  "id": "mindful-eating-weight-loss-null",
-  "subj": "마음챙김 식사",
-  "claim": "마음챙김 식사가 비만 여성의 체중을 더 줄인다",
-  "line": "비만 여성 시험에서 마음챙김 식사는 체중을 더 줄이지 못했습니다",
-  "effect": "체중 추가 효과 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 138,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마음챙김 식사는 비약물 행동 중재입니다",
-  "why": "비만 여성 138명을 마음챙김 식사와 식사 제한 조합, 식사 제한, 마음챙김 식사군으로 무작위 배정한 시험입니다.",
-  "saw": "세 군 모두 체중이 줄었지만 군 간 체중 감소 차이는 유의하지 않았습니다. 마음챙김 식사군에서는 통제되지 않은 식사와 감정적 식사가 더 줄었습니다.",
-  "limit": "138명 중 70명만 중재를 끝냈고 연구가 6개월로 짧았습니다.",
-  "against": "식사 제한과 마음챙김 식사를 함께 해도 마음챙김 식사나 식사 제한 단독보다 체중을 더 줄이지 못했습니다.",
-  "use": "체중보다 식사 행동 변화 신호와 체중에 대한 추가 효과 부재를 함께 기록합니다.",
-  "refs": [{ "label": "비만 여성 마음챙김 식사 무작위시험", "doi": "10.1017/S0007114522003932", "pmid": "36529854" }],
-  "queried": { "date": "2026-08-11", "ctgov": "intr=mindful eating · cond=Weight Loss 15건 반환·intervention 일치 4건", "pubmed": "mindful eating AND Weight Loss 66편", "negative": "mindful eating AND Weight Loss AND (no effect OR did not OR failed OR negative OR no significant difference) 17편", "safety": "mindful eating AND (adverse OR toxicity OR case report OR overdose OR self-medication) 19편" }
+ "id": "mindful-eating-weight-loss-null",
+ "subj": "마음챙김 식사",
+ "claim": "마음챙김 식사가 비만 여성의 체중을 더 줄인다",
+ "line": "비만 여성 시험에서 마음챙김 식사는 체중을 더 줄이지 못했습니다",
+ "effect": "체중 추가 효과 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 40,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마음챙김 식사는 비약물 행동 중재입니다",
+ "why": "비만 여성 138명을 마음챙김 식사와 식사 제한 조합, 식사 제한, 마음챙김 식사군으로 무작위 배정한 시험입니다.",
+ "saw": "PubMed 초록은 대사증후군 환자를 생활습관 중재와 마음챙김 모바일 앱 추가군으로 무작위 배정해 26주 체중과 섭식행동을 비교했다.",
+ "limit": "138명 중 70명만 중재를 끝냈고 연구가 6개월로 짧았습니다.",
+ "against": "식사 제한과 마음챙김 식사를 함께 해도 마음챙김 식사나 식사 제한 단독보다 체중을 더 줄이지 못했습니다.",
+ "use": "체중보다 식사 행동 변화 신호와 체중에 대한 추가 효과 부재를 함께 기록합니다.",
+ "refs": [
+  {
+   "label": "비만 여성 마음챙김 식사 무작위시험",
+   "doi": "10.1017/S0007114522003932",
+   "pmid": "36529854"
+  },
+  {
+   "label": "Mindfulness mobile application and weight loss in metabolic syndrome",
+   "pmid": "36943612"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=mindful eating · cond=Weight Loss 15건 반환·intervention 일치 4건",
+  "pubmed": "mindful eating AND Weight Loss 66편; PMID 36943612 PubMed abstract verified 2026-08-15",
+  "negative": "mindful eating AND Weight Loss AND (no effect OR did not OR failed OR negative OR no significant difference) 17편",
+  "safety": "mindful eating AND (adverse OR toxicity OR case report OR overdose OR self-medication) 19편"
+ },
+ "vs": "생활습관 중재+마음챙김 앱 vs 생활습관 중재(총 40명); 체중 군×시간 p=0.924로 차이 없음, 절제 섭식 점수 p=0.033"
 }

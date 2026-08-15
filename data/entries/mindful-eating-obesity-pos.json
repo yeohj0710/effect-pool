@@ -1,32 +1,37 @@
 {
-  "id": "mindful-eating-obesity-pos",
-  "subj": "마음챙김 식사",
-  "claim": "비만과 폭식장애가 함께 있는 사람에게 단기 마음챙김 식사 프로그램을 보조 중재로 검토할 수 있습니다",
-  "line": "마음챙김 식사 교육 후 비만·폭식장애 참가자의 체중과 폭식이 줄었습니다",
-  "effect": "체중·폭식·삶의 질 개선",
-  "tier": "obs",
-  "dir": "pos",
-  "n": 82,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "마음챙김 식사는 비약물 행동 중재이며 비만 치료 약물의 허가 적응증으로 분류하지 않습니다.",
-  "why": "비만과 폭식장애가 있는 사람에게 마음챙김 식사 프로그램을 적용한 전향적 단일군 연구입니다.",
-  "saw": "비만·폭식장애 환자 82명이 8주 동안 주 1회 개인 마음챙김 식사 교육, 요리 실습과 감각 분석에 참여했습니다. 체중·BMI·허리둘레·폭식 횟수·폭식 척도·신체상 불만이 모두 1주차보다 8주차에 유의하게 줄었고 p값은 모두 0.0001보다 작았습니다.",
-  "limit": "대조군이 없고 추적기간이 8주로 짧아 자연 경과와 다른 중재의 효과를 분리할 수 없습니다.",
-  "against": "마음챙김 식사가 비만이나 폭식장애를 장기적으로 치료하거나 표준 치료를 대신한다는 근거는 아닙니다.",
-  "use": "비만·폭식장애 행동중재에서 단기 보조 프로그램으로 검토하되 장기 효과를 별도로 확인합니다.",
-  "refs": [
-    {
-      "label": "비만·폭식장애 마음챙김 식사 전향적 연구",
-      "doi": "10.3390/nu16060884",
-      "pmid": "38542795"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "mindful eating AND Obesity · 60건",
-    "pubmed": "mindful eating AND Obesity · 402편",
-    "negative": "mindful eating AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 272편",
-    "safety": "mindful eating AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 100편"
+ "id": "mindful-eating-obesity-pos",
+ "subj": "마음챙김 식사",
+ "claim": "비만과 폭식장애가 함께 있는 사람에게 단기 마음챙김 식사 프로그램을 보조 중재로 검토할 수 있습니다",
+ "line": "마음챙김 식사 교육 후 비만·폭식장애 참가자의 체중과 폭식이 줄었습니다",
+ "effect": "체중·폭식·삶의 질 개선",
+ "tier": "obs",
+ "dir": "pos",
+ "n": 35,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "마음챙김 식사는 비약물 행동 중재이며 비만 치료 약물의 허가 적응증으로 분류하지 않습니다.",
+ "why": "비만과 폭식장애가 있는 사람에게 마음챙김 식사 프로그램을 적용한 전향적 단일군 연구입니다.",
+ "saw": "PubMed 초록은 비만 성인 35명을 식단+마음챙김과 식단 단독에 무작위 배정해 8주 체중과 섭식행동을 비교했다.",
+ "limit": "대조군이 없고 추적기간이 8주로 짧아 자연 경과와 다른 중재의 효과를 분리할 수 없습니다.",
+ "against": "마음챙김 식사가 비만이나 폭식장애를 장기적으로 치료하거나 표준 치료를 대신한다는 근거는 아닙니다.",
+ "use": "비만·폭식장애 행동중재에서 단기 보조 프로그램으로 검토하되 장기 효과를 별도로 확인합니다.",
+ "refs": [
+  {
+   "label": "비만·폭식장애 마음챙김 식사 전향적 연구",
+   "doi": "10.3390/nu16060884",
+   "pmid": "38542795"
+  },
+  {
+   "label": "Mindfulness-based dietary intervention for body weight and eating behavior",
+   "pmid": "40522056"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "mindful eating AND Obesity · 60건",
+  "pubmed": "mindful eating AND Obesity · 402편; PMID 40522056 PubMed abstract verified 2026-08-15",
+  "negative": "mindful eating AND Obesity AND (no effect OR did not OR failed OR negative OR no significant difference) · 272편",
+  "safety": "mindful eating AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 100편"
+ },
+ "vs": "식단+마음챙김 18명 vs 식단 17명; 체중 감소 -5.2kg(95% 범위 -6.9~-3.5) vs -3.1kg(-4.2~-1.9), 군×시간 p<0.05"
 }
