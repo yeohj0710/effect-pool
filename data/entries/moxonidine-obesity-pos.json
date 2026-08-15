@@ -3,7 +3,7 @@
   "subj": "목소니딘",
   "claim": "과체중 성인에서 저열량 식이와 목소니딘 병용이 대사 지표를 개선한다",
   "line": "과체중 청년 남성에서 저열량 식이와 목소니딘 병용은 대사 지표를 개선했다.",
-  "effect": "총콜레스테롤·LDL·인슐린 감소",
+  "effect": "저열량 식이 병용 시 대사 지표 개선",
   "tier": "trial",
   "dir": "pos",
   "n": 37,
@@ -11,18 +11,23 @@
   "known": "off",
   "knownWhy": "목소니딘 허가 적응증은 본태성 고혈압이며 비만 대사 개선은 허가 범위 밖",
   "why": "과체중 청년 남성을 저열량 식이, 목소니딘, 병용, 대조군으로 나눈 사람 시험이 있어 trial이다. 병용군에서 대사 지표와 신장 과여과가 개선되어 pos로 분류했다.",
-  "saw": "37명이 저열량 식이군 10명, 목소니딘군 10명, 병용군 11명, 대조군 6명으로 나뉘어 6개월 중재를 받았다. 병용군에서 총콜레스테롤·저밀도 지단백 콜레스테롤·인슐린과 사구체 과여과가 줄었다.",
-  "limit": "젊은 과체중 남성 37명의 소규모 시험이고, 체중 감소는 저열량 식이군과 병용군 모두에서 나타나 목소니딘 단독 효과를 분리하기 어렵다.",
+  "saw": "과체중 젊은 남성 37명을 저열량 체중감량, 목소니딘, 병용, 대조군으로 6개월 배정했습니다. 병용군에서 총콜레스테롤 −0.78mmol/L, LDL −0.49mmol/L, 인슐린 −6.5mmol/L, 사구체 과여과 −19mL/min이 감소했습니다.",
+  "limit": "표본이 작고 남성 과체중군이며 목소니딘 단독군에서는 대부분의 대사 지표 변화가 없었습니다.",
   "against": "목소니딘 단독군에서는 대사 지표가 대부분 달라지지 않았다. 병용군의 변화가 목소니딘 때문인지 식이 때문인지 확정할 수 없다.",
   "use": "목소니딘을 비만 대사 치료로 넓히려면 식이 효과와 분리한 큰 시험이 필요하다.",
   "refs": [
-    { "label": "Kruszewski 2017 · Obesity · 목소니딘·저열량 식이 시험", "doi": "10.1002/oby.21962", "pmid": "28865109" }
+    {
+      "label": "Kruszewski 2017 · Obesity · 목소니딘·저열량 식이 시험",
+      "doi": "10.1002/oby.21962",
+      "pmid": "28865109"
+    }
   ],
   "queried": {
-    "date": "2026-08-10",
+    "date": "2026-08-15",
     "ctgov": "query.intr=moxonidine AND query.cond=Obesity · 7건, 목소니딘 직접 중재 7건",
-    "pubmed": "moxonidine AND Obesity · 48편",
+    "pubmed": "moxonidine AND Obesity · 48편; PMID 28865109 PubMed abstract verified 2026-08-15",
     "negative": "moxonidine AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference) · 40편",
     "safety": "moxonidine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 148편"
-  }
+  },
+  "vs": "4군 비교·n=37: 목소니딘+저열량 식이 vs 대조·단독군, 총콜레스테롤 −0.78·LDL −0.49·인슐린 −6.5·사구체과여과 −19; 수축기혈압 약 9mmHg 감소."
 }

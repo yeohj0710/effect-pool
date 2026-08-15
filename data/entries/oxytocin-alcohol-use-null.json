@@ -8,8 +8,8 @@
   "n": 47,
   "synth": "single",
   "why": "PTSD와 알코올 사용장애가 함께 있는 47명을 대상으로 한 무작위 교차시험에서 옥시토신이 공포 유발 놀람 반응을 줄이지 못했습니다.",
-  "saw": "PTSD·알코올 사용장애 환자 47명과 대조군 37명을 포함한 이중눈가림 위약대조 교차시험에서 환자군의 공포 유발 놀람 반응은 개선되지 않았고 한 조건에서는 오히려 증가했습니다.",
-  "limit": "음주량·금주·재발이 아니라 실험실 놀람 반응을 측정한 단회 시험이며, PTSD가 함께 있는 환자만 포함했습니다.",
+  "saw": "PTSD와 알코올 사용장애가 함께 있는 47명을 비강 옥시토신 20IU, 40IU, 위약에 무작위 이중눈가림 교차 배정했습니다. 20IU는 공포강화 청각 놀람반응에 효과가 없었고 40IU는 놀람반응을 높였습니다.",
+  "limit": "단회 투여의 실험실 생리 지표이며 음주량·금주·장기 PTSD 임상결과를 평가하지 않았습니다.",
   "against": "반대 검색 260건을 확인했습니다. 서술적 검토는 일부 임상 연구에서 갈망·금단 관련 가능성을 언급하지만 결과가 연구 조건에 따라 달랐습니다.",
   "use": "알코올 사용장애 치료 효과로 확정하지 말고, 이중진단 환자의 제한된 실험 결과로 설명해야 합니다.",
   "refs": [
@@ -31,11 +31,13 @@
     }
   ],
   "queried": {
-    "date": "2026-08-04",
+    "date": "2026-08-15",
     "fda": "openfda.brand_name:PITOCIN → 4건; 허가 문구는 분만 관련 적응증이며 알코올 사용장애 적응증 없음",
     "ctgov": "ClinicalTrials.gov v2 query.intr=oxytocin&query.cond=Alcohol%20Use&countTotal=true&pageSize=50 → 19건 반환, InterventionName 대조 후 oxytocin 일치 18건",
-    "pubmed": "oxytocin AND Alcohol Use → 317건",
+    "pubmed": "oxytocin AND Alcohol Use → 317건; PMID 34983010 PubMed abstract verified 2026-08-15",
     "negative": "oxytocin AND Alcohol Use AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 260건",
     "safety": "oxytocin AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 4,185건"
-  }
+  },
+  "effect": "PTSD·알코올 사용장애 놀람반응 개선 없음·고용량 악화",
+  "vs": "무작위 이중눈가림 교차시험·n=47: 옥시토신 20·40IU vs 위약, PTSD-알코올 사용장애군 20IU 효과 없음·40IU 놀람반응 증가."
 }

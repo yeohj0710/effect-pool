@@ -3,7 +3,7 @@
   "subj": "니코란딜",
   "claim": "협심증 약을 만성콩팥병 환자의 조영제 신손상 예방에 쓴다",
   "line": "니코란딜은 만성콩팥병 환자에서 조영제 신손상 예방에 사용됐습니다",
-  "effect": "대조군보다 GFR 감소가 작음",
+  "effect": "조영제 신병증 예방",
   "tier": "trial",
   "dir": "pos",
   "n": 270,
@@ -11,18 +11,23 @@
   "known": "off",
   "knownWhy": "니코란딜의 허가 적응증은 협심증이며 조영제 신손상 예방은 별도 근거가 필요합니다.",
   "why": "신기능 저하로 혈관조영술을 받는 270명을 수액, 아토르바스타틴, 니코란딜군으로 무작위 배정했습니다.",
-  "saw": "니코란딜군은 수액 단독군보다 72시간 뒤 크레아티닌·요소질소 상승과 GFR 감소가 작았습니다. 아토르바스타틴군과는 차이가 없었습니다.",
-  "limit": "단일 시험이며 니코란딜과 아토르바스타틴의 우열은 보이지 않았습니다.",
+  "saw": "만성콩팥병으로 관상동맥 조영술을 받는 270명을 생리식염수, 생리식염수+아토르바스타틴, 생리식염수+니코란딜에 각 90명씩 무작위 배정했습니다. 니코란딜과 아토르바스타틴은 대조군보다 72시간 크레아티닌·BUN 상승과 GFR 감소가 작았고 두 약물 간 차이는 없었습니다.",
+  "limit": "조영술 후 72시간의 단기 신장 지표만 평가했고 장기 신장·심혈관 사건은 없습니다.",
   "against": "세 군 모두 치료 전보다 신기능 지표가 나빠졌습니다.",
   "use": "조영제 신손상 예방 후보로만 평가하고 신장내과 표준 예방요법을 대신하지 않습니다.",
   "refs": [
-    { "label": "신기능 저하 환자 무작위시험", "doi": "10.52547/ijkd.7348", "pmid": "37634247" }
+    {
+      "label": "신기능 저하 환자 무작위시험",
+      "doi": "10.52547/ijkd.7348",
+      "pmid": "37634247"
+    }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "intr=nicorandil AND cond=Chronic Renal Failure · 2건",
-    "pubmed": "nicorandil AND Chronic Renal Failure · 11건 · trial 5건",
+    "pubmed": "nicorandil AND Chronic Renal Failure · 11건 · trial 5건; PMID 37634247 PubMed abstract verified 2026-08-15",
     "negative": "nicorandil AND Chronic Renal Failure AND (no effect OR did not OR failed OR negative OR no significant difference) · 3건",
     "safety": "nicorandil AND (adverse OR toxicity OR case report OR harm OR dropout) · 542건"
-  }
+  },
+  "vs": "이중눈가림 RCT·n=270: 니코란딜 90명 vs 수액 대조 90명, 조영제 신병증 지표 악화가 덜함; 니코란딜 vs 아토르바스타틴 차이 없음."
 }

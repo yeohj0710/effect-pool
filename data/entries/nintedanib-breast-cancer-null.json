@@ -5,23 +5,28 @@
   "line": "HER2 음성 초기 유방암의 저산소 종양에서 닌테다닙은 이득이 없었습니다",
   "tier": "trial",
   "dir": "null",
-  "effect": "저산소군 RCB-III 4.4배",
+  "effect": "저산소 HER2 음성 유방암에서 이득 제한",
   "n": 130,
   "synth": "single",
   "why": "무작위 2상 기회창 시험은 초기 HER2 음성 유방암에서 닌테다닙 전처치 후 병리학적 잔존암 부담과 종양 저산소도의 관계를 평가했습니다.",
-  "saw": "PubMed 27587436 원문은 130명을 무작위 배정했고 닌테다닙군의 저산소 종양은 정상 산소 종양보다 잔존암 부담 3등급 가능성이 4.4배 높아 치료 이득이 없었습니다.",
-  "limit": "짧은 전처치와 병용요법을 평가한 단일 시험이며 저산소도에 따른 탐색적 분석이라 전체 유방암에 일반화할 수 없습니다.",
+  "saw": "HER2 음성 유방암 130명을 나눈 무작위 2상 window 시험에서 닌테다닙+주간 파클리탁셀과 파클리탁셀을 비교했습니다. 닌테다닙 투여 전 저산소 종양은 잔존암 부담 III 위험이 4.4배 높았고, 결론은 저산소 종양이 신보조 닌테다닙의 이득을 보지 못한다는 것이었습니다.",
+  "limit": "14일 window 결과와 병용 화학요법을 평가한 연구이며, 저산소도 측정되지 않은 전체 환자의 생존효과를 보여주지 않습니다.",
   "against": "반대 검색 16건에서도 유방암에서 닌테다닙의 일관된 임상 이득을 확증하지 못했습니다.",
   "use": "초기 HER2 음성 유방암에서 저산소 종양의 무효 신호로 설명하고 바이오마커 없는 환자에게 확대하지 않습니다.",
   "refs": [
-    { "label": "Quintela-Fandino 2017 · Clin Cancer Res · 초기 유방암 닌테다닙 무작위시험", "doi": "10.1158/1078-0432.CCR-16-0738", "pmid": "27587436" }
+    {
+      "label": "Quintela-Fandino 2017 · Clin Cancer Res · 초기 유방암 닌테다닙 무작위시험",
+      "doi": "10.1158/1078-0432.CCR-16-0738",
+      "pmid": "27587436"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"nintedanib\" → 3건 반환; 유방암 적응증 문구 없음",
     "ctgov": "query.intr=nintedanib&query.cond=Breast Cancer&countTotal=true&pageSize=1000 → 5건 반환, InterventionName 정확 대조 후 2건",
-    "pubmed": "nintedanib AND \"Breast Cancer\" → 29건",
+    "pubmed": "nintedanib AND \"Breast Cancer\" → 29건; PMID 27587436 PubMed abstract verified 2026-08-15",
     "negative": "nintedanib AND \"Breast Cancer\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 16건",
     "safety": "nintedanib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 798건"
-  }
+  },
+  "vs": "무작위 2상 시험·n=130: 닌테다닙+파클리탁셀 vs 파클리탁셀, 기저 저산소 종양의 잔존암 부담 III 위험 4.4배( p=.036)로 닌테다닙 이득 제한."
 }

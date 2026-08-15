@@ -5,24 +5,31 @@
   "line": "니페디핀은 만성 항문열상 환자의 통증과 치유를 개선했습니다",
   "tier": "trial",
   "dir": "pos",
-  "effect": "8주 완전치유 9명+무증상 3명",
+  "effect": "만성 항문열상 통증·치유 개선",
   "n": 23,
   "synth": "single",
   "why": "만성 항문열상 환자에서 니페디핀의 항문 압력·통증·치유 효과를 평가한 임상시험이 있습니다.",
-  "saw": "PMID 10540130은 건강인 8명과 만성 항문열상 환자 15명을 포함한 시험입니다. 환자에서 항문 안정압과 통증이 낮아졌고 8주에 9명이 완전히 치유됐으며 추가 3명은 무증상이었습니다.",
-  "limit": "환자 표본이 15명인 소규모 시험이고 건강인 측정이 포함됐습니다. 수술보다 효과가 낮을 수 있으며 항문열상 외의 항문 통증이나 장기 재발을 평가하지 않았습니다.",
+  "saw": "항문열상 비수술치료 75개 RCT 5,031명 문헌고찰에서 국소 칼슘통로차단제인 니페디핀·딜티아젬은 글리세릴삼질산염과 치유효과가 비슷하고 부작용은 적었습니다. 별도 니페디핀 23명 전후 연구는 안정시 항문압 감소와 치유를 보고했습니다.",
+  "limit": "니페디핀 직접 연구가 작고 고찰에 여러 약물·용량·비교군이 섞였습니다.",
   "against": "통증·치유 개선은 단일 소규모 시험 결과이고, 종합 검토에서는 약물치료가 수술보다 덜 효과적이라고 봤습니다. 반대 방향 검색 39건과 안전성 검색 23건을 확인했습니다.",
   "use": "만성 항문열상에서의 제한적인 단기 근거로 기록하고 항문 통증 전체의 치료 효과로 일반화하지 말아야 합니다.",
   "refs": [
-    { "label": "Kamm 1998 · 만성 항문열상에서 경구 니페디핀 임상시험", "pmid": "10540130" },
-    { "label": "Nelson 2012 · 항문열상 비수술 치료 무작위시험 종합검토", "pmid": "22336789" }
+    {
+      "label": "Kamm 1998 · 만성 항문열상에서 경구 니페디핀 임상시험",
+      "pmid": "10540130"
+    },
+    {
+      "label": "Nelson 2012 · 항문열상 비수술 치료 무작위시험 종합검토",
+      "pmid": "22336789"
+    }
   ],
   "queried": {
-    "date": "2026-08-04",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.substance_name:\"NIFEDIPINE\" → 89건 반환; 허가 문구는 고혈압·혈관경련성 및 만성 안정형 협심증이며 항문 통증 적응증 없음",
     "ctgov": "query.intr=nifedipine&query.cond=Anal Pain → 5건 반환, InterventionName 대조 후 5건",
-    "pubmed": "nifedipine Anal Pain → 51건",
+    "pubmed": "nifedipine Anal Pain → 51건; PMID 22336789 PubMed abstract verified 2026-08-15",
     "negative": "nifedipine Anal Pain (no effect OR did not OR failed to OR negative OR no significant difference) → 39건",
     "safety": "nifedipine Anal Pain (adverse OR toxicity OR case report) → 23건"
-  }
+  },
+  "vs": "75개 RCT·n=5031: 국소 니페디핀/딜티아젬 vs 글리세릴삼질산염, 치유효과는 동등하고 부작용은 적음; 니페디핀 직접 연구 n=23은 항문압·치유 개선."
 }

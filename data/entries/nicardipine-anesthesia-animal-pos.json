@@ -3,7 +3,7 @@
   "subj": "니카르디핀",
   "claim": "마취 중 저체온을 줄이는 데 니카르디핀을 쓴다",
   "line": "마취한 쥐에게 니카르디핀은 수술 후 저체온을 줄였습니다",
-  "effect": "수술 뒤 저체온 감소",
+  "effect": "쥐 마취 후 저체온 완화",
   "tier": "animal",
   "dir": "pos",
   "n": null,
@@ -11,8 +11,8 @@
   "known": "off",
   "knownWhy": "마취 뒤 저체온 예방은 니카르디핀의 허가 적응증이 아니다.",
   "why": "동물 마취에서 니카르디핀을 병용해 수술 뒤 체온 변화를 본 전임상 연구다.",
-  "saw": "메데토미딘·미다졸람·부토르파놀 마취에 니카르디핀을 병용한 쥐에서 수술 뒤 저체온이 완화됐다.",
-  "limit": "쥐 연구라 사람의 마취 방식과 체온 조절에 같은 효과가 난다고 볼 수 없다.",
+  "saw": "쥐에서 메데토미딘·미다졸람·부토르파놀 마취에 니카르디핀 0.25 또는 0.5mg/kg을 추가하고 마취만 한 군과 비교했습니다. 비가온 조건에서 니카르디핀군의 회복기 체온 AUC가 높았지만 수축기혈압은 용량 의존적으로 낮아졌습니다.",
+  "limit": "쥐 마취 모델이며 사람의 마취 후 저체온 치료나 안전성을 보여주지 않습니다.",
   "against": "사람 대상 마취 임상시험의 체온 결과는 이 검색에서 확인하지 못했다.",
   "use": "마취 중 혈관작용 약물이 체온에 미치는 전임상 신호를 기록할 때 사용한다.",
   "refs": [
@@ -23,10 +23,11 @@
     }
   ],
   "queried": {
-    "date": "2026-08-06",
+    "date": "2026-08-15",
     "ctgov": "nicardipine AND Anesthesia · 5건",
-    "pubmed": "nicardipine AND Anesthesia · 337편",
+    "pubmed": "nicardipine AND Anesthesia · 337편; PMID 42021019 PubMed abstract verified 2026-08-15",
     "negative": "277편",
     "safety": "nicardipine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 794편"
-  }
+  },
+  "vs": "쥐 비교: 니카르디핀 0.25·0.5mg/kg+마취 vs 마취 단독, 비가온 회복기 체온 AUC 증가·수축기혈압 용량 의존적 감소."
 }

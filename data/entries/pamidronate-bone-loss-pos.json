@@ -3,7 +3,7 @@
   "subj": "파미드론산",
   "claim": "이식 후 골소실을 막으려 파미드론산을 쓴다",
   "line": "파미드론산은 간이식 후 요추 골밀도를 높였지만 대퇴 경부는 보존하지 못했습니다",
-  "effect": "요추 골밀도 증가",
+  "effect": "간이식 후 척추 골소실 예방",
   "tier": "obs",
   "dir": "pos",
   "n": 85,
@@ -11,18 +11,22 @@
   "known": "off",
   "knownWhy": "파미드론산의 간이식 후 골소실 예방은 허가 적응증이 아닙니다.",
   "why": "골다공증·골소실에 쓰이던 비스포스포네이트를 간이식 뒤 골량 감소를 막는 보조요법으로 평가한 비교 연구입니다.",
-  "saw": "간이식 전 골감소증·골다공증이 있던 43명에게 파미드론산을 1년 투여하고 나머지 환자를 대조군으로 관찰했습니다. 12개월 뒤 파미드론산군의 요추 골밀도는 유의하게 늘었고 대조군은 변하지 않았지만, 대퇴 경부 골밀도는 두 군 모두 감소했습니다.",
-  "limit": "무작위배정이 아니고 12개월 추적이며 85명 중 12개월 짝지은 골밀도 자료를 가진 환자만 분석했습니다.",
+  "saw": "간이식 전 골감소·골다공증 환자 85명 중 파미드론산 43명과 칼슘·비타민D만 받은 대조군을 비교했습니다. 12개월 뒤 파미드론산군의 요추 골밀도는 증가했고 대조군은 변하지 않았지만 대퇴경부 골밀도는 두 군 모두 감소했습니다.",
+  "limit": "12개월 paired BMD 자료만 분석했고 대퇴 피질골 보호나 골절 예방은 확인되지 않았습니다.",
   "against": "피질골에 해당하는 대퇴 경부 골밀도는 보존하지 못해 전신 골절 예방으로 일반화할 수 없습니다.",
   "use": "파미드론산의 이식 후 골소실 보조 신호를 골절 예방 효과와 분리해 기록합니다.",
   "refs": [
-    { "label": "간이식 후 파미드론산 골소실 예방 비교 연구", "pmid": "16944154" }
+    {
+      "label": "간이식 후 파미드론산 골소실 예방 비교 연구",
+      "pmid": "16944154"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=pamidronate · cond=Bone Loss → 9건 반환, 물질 대조 후 7건",
-    "pubmed": "pamidronate AND Bone Loss → 656편",
+    "pubmed": "pamidronate AND Bone Loss → 656편; PMID 16944154 PubMed abstract verified 2026-08-15",
     "negative": "pamidronate AND Bone Loss AND (no effect OR did not OR failed to OR negative OR no significant difference) → 0편",
     "safety": "pamidronate AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 0편"
-  }
+  },
+  "vs": "비교 코호트·n=85: 파미드론산 43명 vs 칼슘·비타민D 대조군, 12개월 요추 골밀도 증가·대조군 변화 없음; 대퇴경부 골밀도는 양군 감소."
 }

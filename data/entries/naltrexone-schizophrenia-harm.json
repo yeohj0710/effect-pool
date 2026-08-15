@@ -3,14 +3,14 @@
   "subj": "날트렉손",
   "claim": "날트렉손이 조현병에 듣는다",
   "line": "날트렉손은 조현병의 음성 증상을 일시적으로 악화시켰습니다",
-  "effect": "음성 증상 일시 악화",
+  "effect": "항정신병약 보강 이득 없음·음성증상 악화 신호",
   "tier": "trial",
   "dir": "harm",
   "n": 21,
   "synth": "single",
   "why": "날트렉손의 허가 적응증은 알코올·오피오이드 의존이며 조현병은 아닙니다. 신경이완제 보조요법으로 평가한 조현병 무작위시험에서 악화 결과를 확인했습니다.",
-  "saw": "조현병 환자 21명을 대상으로 신경이완제에 날트렉손을 추가한 무작위시험에서 정신병 증상 개선은 없었고 음성 증상이 일시적으로 악화됐습니다.",
-  "limit": "소규모 단일 시험이고 오래된 보조요법 연구입니다. 음성 증상 악화가 모든 조현병 환자에게 재현된다고 단정할 수 없습니다.",
+  "saw": "조현병 환자 21명을 기존 신경이완제에 날트렉손 200mg/일 또는 위약을 3주 추가한 뒤 교차 관찰했습니다. 전체·하위 BPRS 점수에서 유의한 이득이 없었고, 후속 날트렉손 투여에서 음성증상 악화가 일시적으로 나타났습니다.",
+  "limit": "21명 소규모 시험이고 교차 후반부는 단일눈가림이어서 안전성·악화 신호를 확정할 수 없습니다.",
   "against": "반대 검색 34건에서 조현병 증상 개선이 없거나 날트렉손 보조요법의 근거가 부족하다는 결과를 확인했습니다.",
   "use": "조현병 치료 목적으로 날트렉손을 확대할 근거가 없고 증상 악화 신호도 표시해야 합니다.",
   "refs": [
@@ -21,11 +21,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"NALTREXONE\" → 48건 반환; 조현병 적응증 없음",
     "ctgov": "query.intr=naltrexone&query.cond=Schizophrenia&countTotal=true&pageSize=1000 → 10건 반환, InterventionName exact 일치 4건",
-    "pubmed": "naltrexone AND \"Schizophrenia\" → 136건",
+    "pubmed": "naltrexone AND \"Schizophrenia\" → 136건; PMID 9617985 PubMed abstract verified 2026-08-15",
     "negative": "naltrexone AND \"Schizophrenia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 34건",
     "safety": "naltrexone AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 2,896건"
-  }
+  },
+  "vs": "무작위 위약 대조시험·n=21: 날트렉손 200mg/일 vs 위약, 총 BPRS·하위척도 이득 없음; 후속 투여에서 음성증상 일시 악화 신호."
 }
