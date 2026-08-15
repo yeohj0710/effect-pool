@@ -4,7 +4,7 @@
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 6286,
   "subjects": 2161,
-  "refs": 8818,
+  "refs": 8828,
   "kinds": {
     "supp": 464,
     "rx": 2626,
@@ -32,54 +32,55 @@
     "checked": 15542,
     "unchecked": 0,
     "no_evidence_pending": 2058,
-    "note": "Worklist 15542/15542 checked. Batch 1500 re-audited 19 remaining non-prescription legacy topics; 18 PubMed-supported quantified intervention-versus-control or valid relative comparisons were added and 1 topic without a qualifying numeric or relative effect was left unchanged."
+    "note": "Worklist 15542/15542 checked. Batch 1500 processed 30 non-prescription legacy topics after priority correction; 28 PubMed-supported quantified intervention-versus-control or valid relative comparisons were added and 2 topics without a qualifying numeric or relative effect were left unchanged."
   },
   "backlog": {
-    "vs_missing": 925,
+    "vs_missing": 915,
     "english_subjects": 0,
-    "non_prescription_vs_missing": 0,
-    "first_non_prescription": null,
+    "non_prescription_vs_missing": 655,
+    "first_non_prescription": "acceptance-commitment-therapy-diabetes-pos",
     "parked_non_prescription_topics": 1,
-    "note": "No unprocessed non-prescription vs_missing candidates remain after batch 1500. Continue the general legacy effect-size comparison queue at abemaciclib-sarcoma-pos; only results with a numeric between-group effect or valid relative effect are eligible."
+    "note": "Batch 1500 priority correction restored the global non-prescription queue. 655 non-prescription legacy entries remain; continue at behavioral-activation-therapy-opioid-use-pos. Only results with a numeric between-group effect or valid relative effect are eligible."
   },
   "checkpoints": {
     "over_counter_share": "17.5% (1,101 entries)",
     "rx_share": "41.8% (2,626)",
     "no_effect_or_harm_share": "22.7% (1,425)",
-    "vs_share": "70.0% (4403 entries)",
+    "vs_share": "70.2% (4413 entries)",
     "unexpected_benefit_entries": 13,
     "trial_share": "86.9% (5,462)",
     "non_trial_share": "13.1% (824)",
     "build_warnings": {
       "unknown_n": 445,
       "thin_study": 1036,
-      "targeted_batch_warnings": 18
+      "targeted_batch_warnings": 28
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Continue the general legacy effect-size queue at abemaciclib-sarcoma-pos; batch 1500 raised numeric comparison coverage to 4403 entries and left 925 legacy entries without a qualifying quantified comparison. No non-prescription vs_missing candidates remain in the prioritized queue.",
+  "next": "Continue the non-prescription legacy effect-size queue at behavioral-activation-therapy-opioid-use-pos; the batch 1500 correction raised numeric comparison coverage to 4413 entries and left 915 legacy entries without a qualifying quantified comparison.",
   "last_batch": {
     "id": "1500",
-    "commit": "a3644fd7f18598f98e2a487acb1f0ab6852e2f86",
+    "commit": "f3432716c40ba5cf9c59edd1253041de12d566a0",
     "pushed": true,
-    "expansion_commit": "a3644fd7f18598f98e2a487acb1f0ab6852e2f86",
+    "expansion_commit": "f3432716c40ba5cf9c59edd1253041de12d566a0",
     "data_commits": [
-      "a3644fd7f18598f98e2a487acb1f0ab6852e2f86"
+      "a3644fd7f18598f98e2a487acb1f0ab6852e2f86",
+      "f3432716c40ba5cf9c59edd1253041de12d566a0"
     ],
     "maintenance": false,
-    "processed_topics": 19,
+    "processed_topics": 30,
     "new_entries": 0,
-    "existing_links": 18,
+    "existing_links": 28,
     "no_evidence_rejects": 0,
-    "non_prescription_topics_available": 19,
-    "non_prescription_topics_processed": 19,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 1,
-    "build": "6286 entries; 8818 refs; 5462 trial; 729 obs; 31 animal; 17 lab; 47 case; 4403 numeric comparison entries; worklist 15542/15542",
-    "research": "PubMed sources verified for PMID 40214179 (cerebral palsy whole-body vibration meta-analysis), 40847071 (whole-body vibration body-mass meta-analysis), 41390743 (whole-food Nordic and PUFA diets in diabetes), 29671172 (whole-wheat bread visceral-fat trial), 41861447 (wholegrain rye weight-loss trial), 40571100 (beta-glucan bread glycemic trial), 41673260 (integrated cognitive-motor exercise in ADHD), 38451826 (workplace coaching and burnout trial), 41037652 (office-worker neck-pain intervention), 41214837 (health-center employee stress intervention), 41761023 (xylitol xerostomia crossover trial), 42526897 (pranayama in anxiety disorders), 35840445 (yoga breathing in asthma), 42043659 (yoga Nidra sleep meta-analysis), 42325038 (yoga and guided meditation in emergency residents), 42524427 (integrated yoga therapy stress comparison), 38454743 (probiotic yogurt glycemic trial), and 41802686 (probiotic yogurt inflammation meta-analysis). Only quantified intervention-versus-control results or valid relative effects were recorded; the working-memory weight-loss topic was screened and left unchanged because the abstract did not provide a qualifying numeric effect or valid relative effect.",
+    "screened_nonqualifying_topics": 2,
+    "build": "6286 entries; 8828 refs; 5462 trial; 729 obs; 31 animal; 17 lab; 47 case; 4413 numeric comparison entries; worklist 15542/15542",
+    "research": "PubMed sources verified for PMID 40214179 (cerebral palsy whole-body vibration meta-analysis), 40847071 (whole-body vibration body-mass meta-analysis), 41390743 (whole-food Nordic and PUFA diets in diabetes), 29671172 (whole-wheat bread visceral-fat trial), 41861447 (wholegrain rye weight-loss trial), 40571100 (beta-glucan bread glycemic trial), 41673260 (integrated cognitive-motor exercise in ADHD), 38451826 (workplace coaching and burnout trial), 41037652 (office-worker neck-pain intervention), 41214837 (health-center employee stress intervention), 41761023 (xylitol xerostomia crossover trial), 42526897 (pranayama in anxiety disorders), 35840445 (yoga breathing in asthma), 42043659 (yoga Nidra sleep meta-analysis), 42325038 (yoga and guided meditation in emergency residents), 42524427 (integrated yoga therapy stress comparison), 38454743 (probiotic yogurt glycemic trial), 41802686 (probiotic yogurt inflammation meta-analysis), 42599106 (acceptance-based healthy lifestyle trial), 41088013 (active-aging video game trial), 40737234 (acupuncture and acupressure obesity meta-analysis), 41098990 (acupoint therapy nausea and vomiting network meta-analysis), 37522127 (aerobic exercise prediabetes meta-analysis), 35366488 (pet therapy in disabled children), 37170277 (helical ankle-foot orthosis foot-drop crossover trial), 42085936 (ankle-foot orthosis gait crossover trial), and 39258737 (articulated ankle-foot orthosis stroke trial). The working-memory weight-loss and AI-chatbot diabetes topics were screened because the abstracts did not provide a qualifying numeric intervention-versus-control result or valid relative effect.",
     "qualified_topics": [
       "whole-body-vibration-cerebral-palsy-null",
       "whole-body-vibration-obesity-harm",
@@ -98,7 +99,17 @@
       "yoga-stress-pos",
       "yoga-therapy-stress-pos",
       "yogurt-diabetes-pos",
-      "yogurt-inflammation-null"
+      "yogurt-inflammation-null",
+      "active-lifestyle-physical-activity-null",
+      "active-video-play-cognitive-aging-pos",
+      "acupressure-obesity-pos",
+      "acupressure-vomiting-pos",
+      "aerobic-dance-diabetes-mellitus-pos",
+      "aerobic-walking-exercise-pos",
+      "animal-assisted-education-anxiety-pos",
+      "ankle-brace-foot-drop-null",
+      "ankle-brace-gait-pos",
+      "ankle-brace-stroke-null"
     ],
     "qualified_entry_ids": [
       "whole-body-vibration-cerebral-palsy-null",
@@ -118,23 +129,34 @@
       "yoga-stress-pos",
       "yoga-therapy-stress-pos",
       "yogurt-diabetes-pos",
-      "yogurt-inflammation-null"
+      "yogurt-inflammation-null",
+      "active-lifestyle-physical-activity-null",
+      "active-video-play-cognitive-aging-pos",
+      "acupressure-obesity-pos",
+      "acupressure-vomiting-pos",
+      "aerobic-dance-diabetes-mellitus-pos",
+      "aerobic-walking-exercise-pos",
+      "animal-assisted-education-anxiety-pos",
+      "ankle-brace-foot-drop-null",
+      "ankle-brace-gait-pos",
+      "ankle-brace-stroke-null"
     ],
     "screened_topics": [
-      "working-memory-training-weight-loss-null"
+      "working-memory-training-weight-loss-null",
+      "ai-chatbot-diabetes-pos"
     ],
     "new_entry_vs_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
-    "legacy_vs_filled": 18,
+    "legacy_vs_filled": 28,
     "open_numeric_comparisons": 94,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "targeted_batch_warnings_fixed": 18,
+    "targeted_batch_warnings_fixed": 28,
     "build_errors_fixed": 0,
-    "remaining_non_prescription_vs_missing": 0,
+    "remaining_non_prescription_vs_missing": 655,
     "remaining_english_subjects": 0,
     "remaining_english_entries": 0,
     "remaining_non_prescription_english_subjects": 0,
@@ -160,13 +182,24 @@
       "yoga-stress-pos",
       "yoga-therapy-stress-pos",
       "yogurt-diabetes-pos",
-      "yogurt-inflammation-null"
+      "yogurt-inflammation-null",
+      "active-lifestyle-physical-activity-null",
+      "active-video-play-cognitive-aging-pos",
+      "acupressure-obesity-pos",
+      "acupressure-vomiting-pos",
+      "aerobic-dance-diabetes-mellitus-pos",
+      "aerobic-walking-exercise-pos",
+      "ai-chatbot-diabetes-pos",
+      "animal-assisted-education-anxiety-pos",
+      "ankle-brace-foot-drop-null",
+      "ankle-brace-gait-pos",
+      "ankle-brace-stroke-null"
     ]
   },
   "resume": {
     "next_batch": "1501",
     "worklist_line": "legacy-effect-window",
-    "topic": "abemaciclib-sarcoma-pos",
+    "topic": "behavioral-activation-therapy-opioid-use-pos",
     "unchecked": 0
   }
 }
