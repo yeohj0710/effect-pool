@@ -21285,3 +21285,48 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] loperamide — Diarrhea에 듣는다 — 기존 항목(loperamide-diarrhea-harm)  <!-- 시험 16건 · 논문 1119편 -->
 - [x] bisacodyl — Cancer Colon에 듣는다 — 항목 생성(bisacodyl-cancer-colon-pos)  <!-- 시험 6건 · 논문 40편 -->
 - [x] bisacodyl — Polyps에 듣는다 — 항목 생성(bisacodyl-polyps-null)  <!-- 시험 3건 · 논문 32편 -->
+
+## 자동 추출 — 후보
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
+있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
+
+- [x] lactulose — TIPS에 듣는다 — 항목 생성(lactulose-tips-pos)  <!-- 시험 3건 · 논문 35편 -->
+- [x] lactulose — Diabetes Mellitus에 듣는다 — 근거 부족(2026-08-15, PubMed 초록에서 중재 대조 수치 확인 못함)  <!-- 시험 3건 · 논문 89편 -->
+- [x] lactulose — Abdominal Pain에 듣는다 — 근거 부족(2026-08-15, 복통 방향은 확인했지만 수치가 있는 직접 비교를 확인 못함)  <!-- 시험 3건 · 논문 206편 -->
+- [x] salicylic acid — Psoriasis에 듣는다 — 근거 부족(2026-08-15, 대조군 없는 전후 연구만 확인함)  <!-- 시험 3건 · 논문 238편 -->
+- [x] clotrimazole — Kidney Disease에 듣는다 — 근거 부족(2026-08-15, 사람 중재 대조 수치를 확인 못함)  <!-- 시험 3건 · 논문 30편 -->
+- [x] nicotine replacement therapy — HIV에 듣는다 — 항목 생성(nicotine-replacement-therapy-hiv-pos)  <!-- 시험 9건 · 논문 68편 -->
+- [x] nicotine replacement therapy — Schizophrenia에 듣는다 — 항목 생성(nicotine-replacement-therapy-schizophrenia-pos)  <!-- 시험 7건 · 논문 70편 -->
+- [x] nicotine replacement therapy — Cardiovascular Disease에 듣는다 — 근거 부족(2026-08-15, 직접 중재 대조 수치를 확인 못함)  <!-- 시험 6건 · 논문 306편 -->
+- [x] artificial tears — Dry Eye에 듣는다 — 근거 부족(2026-08-15, 검토문은 상대적 우열을 제시했지만 수치가 있는 직접 비교를 확인 못함)  <!-- 시험 65건 · 논문 1300편 -->
+- [x] artificial tears — Glaucoma에 듣는다 — 근거 부족(2026-08-15, 관찰 연관성은 확인했지만 인공눈물 중재시험이 아님)  <!-- 시험 14건 · 논문 147편 -->
+- [x] artificial tears — Corneal Ulcer에 듣는다 — 근거 부족(2026-08-15, 증례·오염 안전성 보고만 확인함)  <!-- 시험 7건 · 논문 66편 -->
+- [x] artificial tears — Conjunctivitis에 듣는다 — 근거 부족(2026-08-15, 인공눈물군의 직접 수치 비교를 확인 못함)  <!-- 시험 7건 · 논문 270편 -->
+
+## 자동 추출 — 후보
+
+ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표기가 다른 같은 병은 합쳤습니다.
+주석의 숫자는 그 조합에 등록된 시험 수입니다.
+
+**허가 적응증이라고 버리지 마세요.** 허가 안이든 밖이든 개입군과 대조군이 갈린 숫자가
+있으면 항목이 됩니다. `known` 에 `label` 이라고 적으면 됩니다.
+
+- [x] senna — Constipation에 듣는다 — 근거 부족(2026-08-15, 근거 등급은 확인했지만 수치가 있는 직접 비교를 확인 못함)  <!-- 시험 14건 · 논문 319편 -->
+- [x] psyllium — Constipation에 듣는다 — 항목 생성(psyllium-constipation-pos)  <!-- 시험 12건 · 논문 198편 -->
+- [x] simethicone — Colonoscopy에 듣는다 — 항목 생성(simethicone-colonoscopy-pos)  <!-- 시험 10건 · 논문 97편 -->
+- [x] simethicone — Bowel Preparation에 듣는다 — 항목 생성(simethicone-bowel-preparation-pos)  <!-- 시험 9건 · 논문 117편 -->
+- [x] simethicone — Colon Cancer에 듣는다 — 항목 생성(simethicone-colon-cancer-null)  <!-- 시험 6건 · 논문 15편 -->
+- [x] simethicone — Stomach Diseases에 듣는다 — 항목 생성(simethicone-stomach-diseases-pos)  <!-- 시험 5건 · 논문 41편 -->
+- [x] dimenhydrinate — Nausea에 듣는다 — 항목 생성(dimenhydrinate-nausea-pos)  <!-- 시험 3건 · 논문 168편 -->
+- [x] guaifenesin — Infection에 듣는다 — 근거 부족(2026-08-15, 안전성 연구와 효과 검토는 확인했지만 직접 수치 비교를 확인 못함)  <!-- 시험 4건 · 논문 141편 -->
+- [x] dextromethorphan — Major Depressive Disorder에 듣는다 — 기존 항목(dextromethorphan-bupropion-depression)  <!-- 시험 9건 · 논문 90편 -->
+- [x] dextromethorphan — Cough에 듣는다 — 근거 부족(2026-08-15, 급성감염 기침에서 군 간 임상효과 수치가 충분하지 않음)  <!-- 시험 3건 · 논문 449편 -->
+- [x] dextromethorphan — Acute Respiratory Infections에 듣는다 — 항목 생성(dextromethorphan-acute-respiratory-infections-null)  <!-- 시험 3건 · 논문 38편 -->
+- [x] phenylephrine — Hypotension에 듣는다 — 항목 생성(phenylephrine-hypotension-null)  <!-- 시험 48건 · 논문 7867편 -->
+- [x] phenylephrine — Cataract에 듣는다 — 항목 생성(phenylephrine-cataract-pos)  <!-- 시험 10건 · 논문 268편 -->
+- [x] phenylephrine — Surgery에 듣는다 — 항목 생성(phenylephrine-surgery-harm)  <!-- 시험 10건 · 논문 3989편 -->
+- [x] phenylephrine — Rhinitis에 듣는다 — 근거 부족(2026-08-15, 위약 대비 효과가 없다는 검토는 확인했지만 수치가 있는 직접 비교를 확인 못함)  <!-- 시험 9건 · 논문 97편 -->
