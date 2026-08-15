@@ -21482,6 +21482,36 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 무용치료 — 골다공증에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
 - [x] 점진적 근육이완 — 치과 불안에 쓰는가 — 항목 생성(progressive-muscle-relaxation-anxiety-pos) <!-- PubMed PMID 30430667 -->
 - [x] 횡격막 호흡 — 노인 불면증에 쓰는가 — 항목 생성(diaphragmatic-breathing-insomnia-pos) <!-- PubMed PMID 40085337·42268268 -->
+- [x] 아스타잔틴 — 디지털 눈 피로에 쓰는가 — 항목 생성(astaxanthin-digital-eye-strain-pos) <!-- PubMed PMID 40014233; ClinicalTrials.gov NCT05602402 -->
+- [x] 루테인 — 황반변성에 쓰는가 — 기존 항목 연결(lutein-zeaxanthin-amd-progression) <!-- PubMed PMID 23644932 -->
+- [x] 지아잔틴 — 황반변성에 쓰는가 — 기존 항목 연결(lutein-zeaxanthin-amd-progression) <!-- PubMed PMID 23644932 -->
+- [x] 포도씨 추출물 — 고혈압에 쓰는가 — 기존 항목 연결(grape-seed-extract-hypertension-pos) <!-- PubMed PMID 31757033·33671310·26568249 -->
+- [x] 피크노제놀 — 고혈압에 쓰는가 — 항목 생성(pycnogenol-hypertension-null) <!-- PubMed PMID 31763928 -->
+- [x] 피크노제놀 — 골관절염에 쓰는가 — 항목 생성(pycnogenol-osteoarthritis-pos) <!-- PubMed PMID 18570266·18386255 -->
+- [x] 마늘 — 타다라필 반응 부족 발기부전에 보조로 쓰는가 — 항목 생성(garlic-erectile-dysfunction-pos) <!-- PubMed PMID 39250620 -->
+- [x] 마늘 — 말초동맥폐색질환에 쓰는가 — 항목 생성(garlic-peripheral-arterial-disease-null) <!-- PubMed PMID 8508009·23633303 -->
+- [x] 감초 추출물 — 기능성 소화불량에 쓰는가 — 항목 생성(licorice-functional-dyspepsia-pos) <!-- PubMed PMID 21747893 -->
+- [x] 느릅나무 — 변비에 쓰는가 — 근거 부족(PubMed 직접 비교 수치 미확인)
+- [x] 치커리 — 변비에 쓰는가 — 항목 생성(chicory-constipation-pos) <!-- PubMed PMID 27492975; ClinicalTrials.gov NCT02548247 -->
+- [x] 이눌린 — 변비에 쓰는가 — 기존 항목 연결(inulin-constipation-pos) <!-- PubMed PMID 41233756·27492975 -->
+- [x] 저항성 전분 — 인슐린 저항성에 쓰는가 — 항목 생성(resistant-starch-insulin-resistance-pos) <!-- PubMed PMID 26655398·29410955 -->
+- [x] 귀리 베타글루칸 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(oat-beta-glucan-cholesterol-pos) <!-- PubMed PMID 34236436; ClinicalTrials.gov NCT03911427 -->
+- [x] 보리 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(barley-beta-glucan-cholesterol-pos) <!-- PubMed PMID 18074229 -->
+- [x] 아몬드 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(almond-cholesterol-pos) <!-- PubMed PMID 25149894 -->
+- [x] 피스타치오 — 제2형 당뇨병에 쓰는가 — 기존 항목 연결(pistachio-type-2-diabetes-pos) <!-- PubMed PMID 25396407 -->
+- [x] 아보카도 — 고콜레스테롤혈증에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 올리브유 — 우울증에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 강황 — 우울증에 쓰는가 — 기존 항목 연결(turmeric-depression-pos) <!-- PubMed PMID 28236605·39319351 -->
+- [x] 생강 — 임신 중 오심·구토에 쓰는가 — 기존 항목 연결(ginger-nausea-pos) <!-- PubMed PMID 31937153 -->
+- [x] 회향 — 원발성 월경통에 쓰는가 — 항목 생성(fennel-dysmenorrhea-pos) <!-- PubMed PMID 33182553 -->
+- [x] 스피어민트 — 다낭성난소증후군 다모증에 쓰는가 — 항목 생성(spearmint-hirsutism-pos) <!-- PubMed PMID 19585478 -->
+- [x] 쐐기풀 — 손가락 골관절염에 쓰는가 — 항목 생성(nettle-osteoarthritis-null) <!-- PubMed PMID 10911825 -->
+- [x] 태극권 — 섬유근육통에 쓰는가 — 기존 항목 연결(tai-chi-fibromyalgia-pos) <!-- PubMed PMID 29563100·20818876 -->
+- [x] 계단 오르기 — 폐경 후 고혈압에 쓰는가 — 항목 생성(stair-climbing-hypertension-pos) <!-- PubMed PMID 29438269 -->
+- [x] 느린 호흡 — 고혈압에 쓰는가 — 기존 항목 연결(slow-breathing-hypertension-pos) <!-- PubMed PMID 38013368 -->
+- [x] 삼림욕 — 불안에 쓰는가 — 기존 항목 연결(forest-bathing-anxiety-pos) <!-- PubMed 검색 결과 기존 항목 근거 -->
+- [x] 찬물 입수 — 운동 후 회복에 쓰는가 — 기존 항목 연결(cold-water-immersion-recovery-pos) <!-- PubMed PMID 40333546·39665595 -->
+- [x] 무용치료 — 인지 저하에 쓰는가 — 기존 항목 연결(dance-therapy-cognitive-decline-pos) <!-- PubMed PMID 37875856 -->
 - [x] 코코아 플라바놀 — 고혈압에 쓰는가 — 항목 생성(cocoa-flavanols-hypertension-null) <!-- PubMed PMID 30301127 -->
 - [x] 코코아 플라바놀 — 인지 기능에 쓰는가 — 항목 생성(cocoa-flavanols-cognitive-function-null) <!-- PubMed PMID 36102337; ClinicalTrials.gov NCT04582617 -->
 - [x] 콩 이소플라본 — 폐경 증상에 쓰는가 — 항목 생성(soy-isoflavones-menopause-null) <!-- PubMed PMID 25263312 -->
