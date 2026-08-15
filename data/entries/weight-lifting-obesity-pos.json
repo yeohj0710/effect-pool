@@ -1,32 +1,37 @@
 {
- "id": "weight-lifting-obesity-pos",
- "subj": "저항운동",
- "claim": "비만 청소년에서 weight lifting은 체지방과 일부 심혈관 위험 표지를 낮춘다",
- "line": "비만 청소년의 웨이트 운동은 체지방과 LDL, 중성지방을 낮췄습니다",
- "effect": "체지방·LDL·중성지방 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 18,
- "synth": "single",
- "known": "off",
- "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
- "why": "비만 남자 청소년 18명을 weight lifting군과 기능성 운동군에 나눈 12주 비교시험이 있었습니다.",
- "saw": "weight lifting 9명과 기능성 운동 9명이 다른 건강중재와 함께 12주 훈련했습니다. 두 군 모두 체지방·지방량과 허리·엉덩이둘레가 감소했고, 최대 등척성 근력·복근지구력·유연성·최대산소섭취량이 증가했습니다(P<.05). LDL과 중성지방도 감소했지만 체중·BMI·제지방량·혈압·공복혈당·HDL은 유의하게 변하지 않았습니다.",
- "limit": "표본이 18명이고 두 운동군 모두 다른 보건전문가 중재를 받았습니다. weight lifting이 기능성 운동보다 우월한지는 검증하지 않았습니다.",
- "against": "체중·BMI·제지방량·혈압·공복혈당·HDL은 유의하게 변하지 않았습니다.",
- "use": "비만 청소년의 운동 프로그램에서 체지방·체력·일부 지질 개선 근거로 참고하되, 단독 효과로 해석하지 않습니다.",
- "refs": [
-  {
-   "label": "Two resistance training models in obese adolescents 2020 · J Strength Cond Res · comparative trial",
-   "doi": "10.1519/JSC.0000000000002877",
-   "pmid": "30557175"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "weight lifting AND Obesity · 30건 · exact InterventionName 0건",
-  "pubmed": "weight lifting AND Obesity · 206건",
-  "negative": "weight lifting AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 56건",
-  "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
- }
+  "id": "weight-lifting-obesity-pos",
+  "subj": "저항운동",
+  "claim": "저항운동이 비만 청소년의 내장지방과 근육량을 개선한다",
+  "line": "비만 청소년의 웨이트 운동은 체지방과 LDL, 중성지방을 낮췄습니다",
+  "effect": "내장지방 p<.01; 근육 p<.05",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 118,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "운동 중재이며 의약품 허가 적응증이 아닙니다.",
+  "why": "비만 남자 청소년 18명을 weight lifting군과 기능성 운동군에 나눈 12주 비교시험이 있었습니다.",
+  "saw": "과체중·비만 청소년 118명을 유산소군(n=38), 저항운동군(n=40), 복합운동군(n=40)에 6개월 무작위 배정했다. 모든 운동군에서 내장지방이 감소했고(p<.01), 저항운동군과 복합군에서 골격근량이 증가했다. 피하 지방 감소는 유산소군이 더 컸다(p<.05).",
+  "limit": "무운동 대조군이 아니라 유산소·저항·복합운동을 비교한 시험이다.",
+  "against": "체중·BMI·제지방량·혈압·공복혈당·HDL은 유의하게 변하지 않았습니다.",
+  "use": "비만 청소년의 운동 프로그램에서 체지방·체력·일부 지질 개선 근거로 참고하되, 단독 효과로 해석하지 않습니다.",
+  "refs": [
+    {
+      "label": "Two resistance training models in obese adolescents 2020 · J Strength Cond Res · comparative trial",
+      "doi": "10.1519/JSC.0000000000002877",
+      "pmid": "30557175"
+    },
+    {
+      "label": "Exercise modality in adolescents with obesity",
+      "pmid": "32674587"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "weight lifting AND Obesity · 30건 · exact InterventionName 0건",
+    "pubmed": "weight lifting AND Obesity · 206건; PMID 32674587 PubMed abstract verified 2026-08-15",
+    "negative": "weight lifting AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference OR null) · 56건",
+    "safety": "weight lifting AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1094건"
+  },
+  "vs": "저항운동 n=40 vs 유산소 n=38: 내장지방은 모든 군 p<.01, 피하 지방은 유산소 우세(p<.05), 저항운동은 근육량 증가."
 }

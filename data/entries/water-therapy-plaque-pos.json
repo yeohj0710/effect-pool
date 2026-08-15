@@ -1,33 +1,34 @@
 {
- "id": "water-therapy-plaque-pos",
- "subj": "수치료",
- "claim": "치주 플라크에서 온천수 치료가 구강 건강을 개선하는가",
- "line": "열수 치료는 치은 출혈과 치주 상태를 개선했습니다",
- "effect": "치은 출혈·치주 상태 개선; 플라크 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 90,
- "synth": "single",
- "known": "off",
- "knownWhy": "의약품 허가 적응증이 아닌 온천수 중재",
- "why": "90명이 황 함유 천연 온천수 치료군 45명과 생리식염수 대조군 45명으로 배정되어 14일간 치료받은 파일럿 연구입니다.",
- "saw": "온천수군의 치은 출혈은 68.9%에서 40%로 줄었고 5mm보다 깊은 치주낭이 없어졌으며 플라크 지수도 두 군에서 감소했습니다.",
- "limit": "90명 규모의 짧은 파일럿 연구이고 플라크 감소와 구강 증상 차이는 군 간 통계적 유의성이 제한적이었습니다.",
- "against": "플라크 수준은 대조군에서도 감소했고 구강 증상 감소의 군 간 차이는 유의하지 않았습니다.",
- "use": "치주 치료를 대신하는 근거가 아니라 온천수 중재의 초기 신호로만 참고합니다.",
- "refs": [
-  {
-   "label": "Lopes 2024 · BMC Oral Health · pilot study",
-   "doi": "10.1186/s12903-024-05278-3",
-   "pmid": "39702127",
-   "pmc": "PMC11657366"
-  }
- ],
- "queried": {
-  "date": "2026-08-09",
-  "ctgov": "query.intr=water therapy AND query.cond=Plaque · 110건 · InterventionName 완전일치 0건",
-  "pubmed": "\"water therapy\" AND \"Plaque\"[Title/Abstract] · 1건",
-  "negative": "\"water therapy\" AND \"Plaque\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 1건",
-  "safety": "\"water therapy\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 19건"
- }
+  "id": "water-therapy-plaque-pos",
+  "subj": "수치료",
+  "claim": "치주 플라크에서 온천수 치료가 구강 건강을 개선하는가",
+  "line": "열수 치료는 치은 출혈과 치주 상태를 개선했습니다",
+  "effect": "치은 출혈·치주 상태 개선; 플라크 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 90,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "의약품 허가 적응증이 아닌 온천수 중재",
+  "why": "90명이 황 함유 천연 온천수 치료군 45명과 생리식염수 대조군 45명으로 배정되어 14일간 치료받은 파일럿 연구입니다.",
+  "saw": "온천수군의 치은 출혈은 68.9%에서 40%로 줄었고 5mm보다 깊은 치주낭이 없어졌으며 플라크 지수도 두 군에서 감소했습니다.",
+  "limit": "90명 규모의 짧은 파일럿 연구이고 플라크 감소와 구강 증상 차이는 군 간 통계적 유의성이 제한적이었습니다.",
+  "against": "플라크 수준은 대조군에서도 감소했고 구강 증상 감소의 군 간 차이는 유의하지 않았습니다.",
+  "use": "치주 치료를 대신하는 근거가 아니라 온천수 중재의 초기 신호로만 참고합니다.",
+  "refs": [
+    {
+      "label": "Lopes 2024 · BMC Oral Health · pilot study",
+      "doi": "10.1186/s12903-024-05278-3",
+      "pmid": "39702127",
+      "pmc": "PMC11657366"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.intr=water therapy AND query.cond=Plaque · 110건 · InterventionName 완전일치 0건",
+    "pubmed": "\"water therapy\" AND \"Plaque\"[Title/Abstract] · 1건; PubMed abstract verified 2026-08-15; 온천수·치주 플라크 주제의 PubMed 군 간 수치효과를 확인하지 못함",
+    "negative": "\"water therapy\" AND \"Plaque\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 1건",
+    "safety": "\"water therapy\"[Title/Abstract] AND (adverse OR toxicity OR case report OR overdose OR harm) · 19건"
+  },
+  "vs": "PubMed 선별 결과 vs 새 수치 비교효과 없음: 온천수·치주 플라크 주제의 PubMed 군 간 수치효과를 확인하지 못함; 검토 주제 water-therapy-plaque-pos.; 적합한 수치 비교 0건."
 }

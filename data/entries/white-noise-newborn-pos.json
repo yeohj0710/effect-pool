@@ -1,32 +1,37 @@
 {
- "id": "white-noise-newborn-pos",
- "subj": "백색 소음",
- "claim": "백색소음이 신생아의 침습 처치 통증을 줄인다",
- "line": "백색소음은 신생아 침습 처치의 통증을 줄였습니다",
- "effect": "침습 처치 통증 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 721,
- "synth": "meta",
- "known": "off",
- "knownWhy": "백색소음은 신생아 통증의 허가 치료 적응증이 아닙니다.",
- "why": "신생아의 침습 처치 중 백색소음이 통증과 생리 반응에 미치는 효과를 무작위시험으로 종합한 메타분석입니다.",
- "saw": "13개 무작위시험 721명을 합쳤습니다. 백색소음이 처치 중·후 통증 점수와 울음 시간을 줄이고 심박수·산소포화도 안정에 도움이 됐습니다.",
- "limit": "연구 수가 적고 백색소음 종류와 처치가 달라 신생아별 최적 방법과 장기 효과는 불확실합니다.",
- "against": "백색소음이 신생아의 통증 원인이나 질환을 치료한다는 결과는 아닙니다.",
- "use": "신생아 침습 처치에서 비약물 통증 완화 중재를 연구할 때의 종합 근거로 기록합니다.",
- "refs": [
-  {
-   "label": "신생아 침습 처치 백색소음 메타분석",
-   "doi": "10.1097/ANC.0000000000001349",
-   "pmid": "42130413"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=white noise · cond=Newborn 19건 반환, 물질 일치 19건",
-  "pubmed": "white noise AND Newborn 173건",
-  "negative": "white noise AND Newborn AND (no effect OR did not OR failed OR negative OR no significant difference) 105건",
-  "safety": "white noise AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 687건"
- }
+  "id": "white-noise-newborn-pos",
+  "subj": "백색 소음",
+  "claim": "백색소음이 신생아 비타민K 주사 통증과 불편감을 낮춘다",
+  "line": "백색소음은 신생아 침습 처치의 통증을 줄였습니다",
+  "effect": "NIPS·COMFORT 낮음(p<.05)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 75,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "백색소음은 신생아 통증의 허가 치료 적응증이 아닙니다.",
+  "why": "신생아의 침습 처치 중 백색소음이 통증과 생리 반응에 미치는 효과를 무작위시험으로 종합한 메타분석입니다.",
+  "saw": "신생아 75명을 비타민K 근육주사 전 5분 백색소음군과 대조군에 무작위 배정했다. 백색소음군은 주사 중·후 심박수가 낮고 산소포화도가 높았으며, 관찰자 NIPS와 COMFORTneo 통증·불편감 점수가 대조군보다 낮았다(p<.05).",
+  "limit": "초록에 군별 평균 점수와 정확한 군별 표본 수가 제시되지 않았다.",
+  "against": "백색소음이 신생아의 통증 원인이나 질환을 치료한다는 결과는 아닙니다.",
+  "use": "신생아 침습 처치에서 비약물 통증 완화 중재를 연구할 때의 종합 근거로 기록합니다.",
+  "refs": [
+    {
+      "label": "신생아 침습 처치 백색소음 메타분석",
+      "doi": "10.1097/ANC.0000000000001349",
+      "pmid": "42130413"
+    },
+    {
+      "label": "White noise during neonatal vitamin K injection",
+      "pmid": "41317648"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=white noise · cond=Newborn 19건 반환, 물질 일치 19건",
+    "pubmed": "white noise AND Newborn 173건; PMID 41317648 PubMed abstract verified 2026-08-15",
+    "negative": "white noise AND Newborn AND (no effect OR did not OR failed OR negative OR no significant difference) 105건",
+    "safety": "white noise AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 687건"
+  },
+  "vs": "백색소음 vs 대조, 전체 n=75: NIPS·COMFORTneo 통증·불편감과 심박·SpO2 차이 p<.05."
 }

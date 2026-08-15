@@ -1,32 +1,37 @@
 {
- "id": "water-intake-dehydration-pos",
- "subj": "물 섭취",
- "claim": "물을 수분 제한 뒤 탈수 상태 회복에 쓴다",
- "line": "수분을 제한한 뒤 물을 마시면 수화 상태는 회복됐지만 인지 기능에는 차이가 없었습니다",
- "effect": "소변 농도 감소·인지 차이 없음",
- "tier": "trial",
- "dir": "pos",
- "n": 64,
- "synth": "single",
- "known": "off",
- "knownWhy": "건강 성인의 실험적 탈수 회복은 water intake의 허가 치료 적응증이 아닙니다",
- "why": "12시간 물을 제한한 건강한 젊은 성인이 500, 200, 100mL 또는 무섭취 대조군으로 무작위 배정됐습니다",
- "saw": "64명에서 500mL군의 소변 농도가 가장 낮아 수화 상태가 회복됐지만 군 간 인지 점수 차이는 유의하지 않았습니다",
- "limit": "건강한 18-23세 대학생의 짧은 수분 제한 실험이며 임상 탈수 환자 치료시험이 아닙니다",
- "against": "인지 개선은 일부 군 내 변화였고 군 간 차이로 확인되지 않았습니다",
- "use": "실험적 수분 제한 뒤 수화 회복 근거로 기록하고 임상 탈수 처치와 구분합니다",
- "refs": [
-  {
-   "label": "2026 water intake MRI·인지 무작위시험",
-   "doi": "10.3389/fnut.2026.1831471",
-   "pmid": "42221752"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "water intake AND Dehydration; 22건",
-  "pubmed": "water intake AND dehydration randomized; PMID 42221752",
-  "negative": "water intake AND dehydration AND no cognitive difference; 원문 확인",
-  "safety": "water intake AND dehydration AND adverse; 시험 확인"
- }
+  "id": "water-intake-dehydration-pos",
+  "subj": "물 섭취",
+  "claim": "수분 게임 교육이 시설 노인의 수분 섭취와 일부 탈수 지표를 개선한다",
+  "line": "수분을 제한한 뒤 물을 마시면 수화 상태는 회복됐지만 인지 기능에는 차이가 없었습니다",
+  "effect": "수분 p<.001; 체수분 p=.009",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 64,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "건강 성인의 실험적 탈수 회복은 water intake의 허가 치료 적응증이 아닙니다",
+  "why": "12시간 물을 제한한 건강한 젊은 성인이 500, 200, 100mL 또는 무섭취 대조군으로 무작위 배정됐습니다",
+  "saw": "장기요양시설 거주자 64명을 수분 게임 교육군과 통상관리군에 군집 무작위 배정했다. 8주에 수분 섭취가 개선됐고(p<.001), 총 체수분도 개선됐다(p=.009). 요비중은 유의하게 좋아지지 않았다.",
+  "limit": "탈수 상태 회복보다 시설 거주자의 수분 섭취 증진 프로그램을 평가한 연구다.",
+  "against": "인지 개선은 일부 군 내 변화였고 군 간 차이로 확인되지 않았습니다",
+  "use": "실험적 수분 제한 뒤 수화 회복 근거로 기록하고 임상 탈수 처치와 구분합니다",
+  "refs": [
+    {
+      "label": "2026 water intake MRI·인지 무작위시험",
+      "doi": "10.3389/fnut.2026.1831471",
+      "pmid": "42221752"
+    },
+    {
+      "label": "Hydration game-based learning program in institutional residents",
+      "pmid": "39593228"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "water intake AND Dehydration; 22건",
+    "pubmed": "water intake AND dehydration randomized; PMID 42221752; PMID 39593228 PubMed abstract verified 2026-08-15",
+    "negative": "water intake AND dehydration AND no cognitive difference; 원문 확인",
+    "safety": "water intake AND dehydration AND adverse; 시험 확인"
+  },
+  "vs": "수분 게임교육 n=32 vs 통상관리 n=32: 섭취 p=.002/ p<.001, 총 체수분 p=.009, 요비중 무효과."
 }
