@@ -1,32 +1,37 @@
 {
-  "id": "postbiotic-exercise-metabolism-pos",
-  "subj": "포스트바이오틱",
-  "claim": "열처리 Lactiplantibacillus plantarum이 운동 대사를 개선하는가",
-  "line": "열처리 유산균은 특정 균주에서 지구력과 젖산 회복 신호를 보였습니다.",
-  "effect": "지구력·젖산 회복 신호",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "열처리 미생물 제제는 운동 보조 식품 중재이며 운동 대사 개선이 의약품 허가 적응증은 아닙니다.",
-  "why": "체계적 문헌고찰이 건강인을 대상으로 한 L. plantarum 무작위시험들을 종합했고, 초록에는 전체 참여자 수가 제시되지 않았습니다.",
-  "saw": "TWK10 균주의 열처리 제제가 생균 제제의 핵심 대사 이점인 유산소 지구력 향상과 혈중 젖산·암모니아 제거를 유지했다는 결과가 보고됐습니다.",
-  "limit": "균주·용량·운동 결과가 크게 달라 정량 메타분석을 하지 못했고, 연구 규모가 작거나 중간인 시험에 의존합니다.",
-  "against": "균주를 특정하지 않은 L. plantarum 시험에서는 일관된 이득이 나타나지 않았고, 배정 은폐와 사전 등록에도 문제가 있었습니다.",
-  "use": "운동 수행 향상을 위해 postbiotic을 일반화하지 말고 균주와 시험 설계가 일치하는 경우에만 연구 신호로 참고합니다.",
-  "refs": [
-    {
-      "label": "L. plantarum 운동 수행·회복 체계적 문헌고찰",
-      "doi": "10.3389/fnut.2026.1881322",
-      "pmid": "42528893"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-11",
-    "ctgov": "postbiotic AND Exercise Metabolism · 1건",
-    "pubmed": "postbiotic AND Exercise Metabolism · 24편",
-    "negative": "postbiotic AND Exercise Metabolism AND (no effect OR no significant difference OR failed OR negative) · 12편",
-    "safety": "postbiotic AND (adverse OR toxicity OR harm OR case report) · 371편"
+ "id": "postbiotic-exercise-metabolism-pos",
+ "subj": "포스트바이오틱",
+ "claim": "열처리 Lactiplantibacillus plantarum이 운동 대사를 개선하는가",
+ "line": "열처리 유산균은 특정 균주에서 지구력과 젖산 회복 신호를 보였습니다.",
+ "effect": "지구력·젖산 회복 신호",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "열처리 미생물 제제는 운동 보조 식품 중재이며 운동 대사 개선이 의약품 허가 적응증은 아닙니다.",
+ "why": "체계적 문헌고찰이 건강인을 대상으로 한 L. plantarum 무작위시험들을 종합했고, 초록에는 전체 참여자 수가 제시되지 않았습니다.",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT03464500은 위약대조 무작위시험에서 포스트바이오틱 유롤리틴 A가 근력·운동수행과 미토콘드리아 건강 표지를 개선했다고 보고했습니다. 초록에는 전체 표본 수가 제시되지 않았습니다.",
+ "limit": "균주·용량·운동 결과가 크게 달라 정량 메타분석을 하지 못했고, 연구 규모가 작거나 중간인 시험에 의존합니다.",
+ "against": "균주를 특정하지 않은 L. plantarum 시험에서는 일관된 이득이 나타나지 않았고, 배정 은폐와 사전 등록에도 문제가 있었습니다.",
+ "use": "운동 수행 향상을 위해 postbiotic을 일반화하지 말고 균주와 시험 설계가 일치하는 경우에만 연구 신호로 참고합니다.",
+ "refs": [
+  {
+   "label": "L. plantarum 운동 수행·회복 체계적 문헌고찰",
+   "doi": "10.3389/fnut.2026.1881322",
+   "pmid": "42528893"
+  },
+  {
+   "pmid": "35584623",
+   "label": "유롤리틴 A 포스트바이오틱과 근력·운동수행 무작위시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "postbiotic AND Exercise Metabolism · 1건",
+  "pubmed": "postbiotic AND Exercise Metabolism · 24편; PMID 35584623 PubMed abstract verified 2026-08-15",
+  "negative": "postbiotic AND Exercise Metabolism AND (no effect OR no significant difference OR failed OR negative) · 12편",
+  "safety": "postbiotic AND (adverse OR toxicity OR harm OR case report) · 371편"
+ },
+ "vs": "중년 성인에서 포스트바이오틱 유롤리틴 A vs 위약 4개월: 근력이 약 12% 개선되고 최대산소섭취량·6분 보행이 임상적으로 의미 있게 좋아졌지만 최대파워의 1차 결과는 유의하지 않았습니다."
 }

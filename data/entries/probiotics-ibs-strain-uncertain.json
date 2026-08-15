@@ -1,29 +1,34 @@
 {
-  "id": "probiotics-ibs-strain-uncertain",
-  "subj": "프로바이오틱스",
-  "claim": "과민성대장증후군 증상을 줄인다",
-  "line": "프로바이오틱은 일부 균주에서만 IBS 증상을 줄였고 제품 전체 효과는 불확실합니다.",
-  "tier": "trial",
-  "dir": "null",
-  "n": 10332,
-  "synth": "meta",
-  "why": "과민성대장증후군 환자를 대상으로 여러 균주와 복합제를 위약과 비교한 무작위시험 메타분석입니다.",
-  "saw": "연구진은 무작위시험 82개와 참여자 10,332명을 모았지만 비뚤림 위험이 낮은 시험은 24개뿐이었고 거의 모든 결과의 확실성을 낮음 또는 매우 낮음으로 평가했습니다.",
-  "limit": "균주, 조합, 제품이 서로 달라 한 제품의 결과를 다른 프로바이오틱스에 적용할 수 없습니다.",
-  "against": "일부 특정 균주와 복합제는 전체 증상이나 복통을 줄였지만 근거 확실성이 낮았습니다.",
-  "use": "프로바이오틱스라는 분류 이름보다 실제 균주와 제품을 확인해야 합니다.",
-  "refs": [
-    {
-      "label": "Goodoory 2023 · Gastroenterology · IBS 프로바이오틱스 메타분석",
-      "doi": "10.1053/j.gastro.2023.07.018",
-      "pmid": "37541528"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-04",
-    "ctgov": "intr=probiotic, cond=irritable bowel syndrome → 132건 반환, InterventionName 대조 후 80건",
-    "pubmed": "probiotics irritable bowel syndrome randomized placebo trial meta-analysis → 56건",
-    "negative": "probiotics irritable bowel syndrome AND (no effect OR did not OR failed to OR negative) → 729건",
-    "safety": "probiotics irritable bowel syndrome AND (adverse OR toxicity OR case report) → 185건"
+ "id": "probiotics-ibs-strain-uncertain",
+ "subj": "프로바이오틱스",
+ "claim": "과민성대장증후군 증상을 줄인다",
+ "line": "프로바이오틱은 일부 균주에서만 IBS 증상을 줄였고 제품 전체 효과는 불확실합니다.",
+ "tier": "trial",
+ "dir": "null",
+ "n": 2823,
+ "synth": "meta",
+ "why": "과민성대장증후군 환자를 대상으로 여러 균주와 복합제를 위약과 비교한 무작위시험 메타분석입니다.",
+ "saw": "PubMed 초록은 16개 이중맹검 무작위시험 메타분석에서 균주별 효과의 차이와 낮은 근거 확실성을 함께 보고했습니다. 전체 증상 개선은 관찰됐지만 특정 균주를 일반화하기 어렵습니다.",
+ "limit": "균주, 조합, 제품이 서로 달라 한 제품의 결과를 다른 프로바이오틱스에 적용할 수 없습니다.",
+ "against": "일부 특정 균주와 복합제는 전체 증상이나 복통을 줄였지만 근거 확실성이 낮았습니다.",
+ "use": "프로바이오틱스라는 분류 이름보다 실제 균주와 제품을 확인해야 합니다.",
+ "refs": [
+  {
+   "label": "Goodoory 2023 · Gastroenterology · IBS 프로바이오틱스 메타분석",
+   "doi": "10.1053/j.gastro.2023.07.018",
+   "pmid": "37541528"
+  },
+  {
+   "pmid": "41597375",
+   "label": "과민성대장증후군 균주별 프로바이오틱스 메타분석"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=probiotic, cond=irritable bowel syndrome → 132건 반환, InterventionName 대조 후 80건",
+  "pubmed": "probiotics irritable bowel syndrome randomized placebo trial meta-analysis → 56건; PMID 41597375 PubMed abstract verified 2026-08-15",
+  "negative": "probiotics irritable bowel syndrome AND (no effect OR did not OR failed to OR negative) → 729건",
+  "safety": "probiotics irritable bowel syndrome AND (adverse OR toxicity OR case report) → 185건"
+ },
+ "vs": "성인 과민성대장증후군 16개 무작위시험 2,823명에서 특정 프로바이오틱스 vs 위약·통상치료: 전체 장 불편감 MD -93.9(95% CI -133.1~-54.7,p<0.00001), 전반적 호전 OR 1.71(1.26~2.33,p=0.0006), 부작용 증가는 없었습니다."
 }

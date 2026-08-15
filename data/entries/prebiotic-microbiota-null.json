@@ -1,28 +1,33 @@
 {
-  "id": "prebiotic-microbiota-null",
-  "subj": "프리바이오틱",
-  "claim": "장내 대표 유익균을 늘린다",
-  "line": "셀로비오스는 대표 유익균과 전체 미생물 구성을 위약보다 늘리거나 바꾸지 못했습니다.",
-  "effect": "대표 유익균 변화 없음",
-  "tier": "trial",
-  "dir": "null",
-  "n": 37,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "장내 미생물 조절은 프리바이오틱의 의약품 허가 적응증이 아닙니다.",
-  "why": "건강한 성인을 셀로비오스·올리고프럭토스·위약에 무작위 배정한 이중눈가림 시험입니다.",
-  "saw": "건강한 성인 37명이 4주 동안 셀로비오스를 하루 5g 또는 10g, 올리고프럭토스, 위약으로 나뉘었습니다. 셀로비오스는 Bifidobacterium과 Lactobacillus를 위약보다 유의하게 늘리지 못했고 전체 미생물 구성과 분변 단쇄지방산도 바뀌지 않았습니다.",
-  "limit": "건강한 성인의 소규모 단기 시험이며 셀로비오스 한 성분만 평가했습니다.",
-  "against": "올리고프럭토스군에서는 Bifidobacterium 증가가 경계선상으로 나타났습니다.",
-  "use": "프리바이오틱의 미생물 효과를 성분과 용량별로 따로 확인해야 합니다.",
-  "refs": [
-    { "label": "셀로비오스 프리바이오틱 무작위시험", "doi": "10.1017/gmb.2026.10032", "pmid": "42553192" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=prebiotic · cond=Microbiota → 29건 반환, 물질 대조 후 29건",
-    "pubmed": "prebiotic AND Microbiota → 9578편",
-    "negative": "prebiotic AND Microbiota AND (no effect OR did not OR failed OR negative OR no significant difference) → 6893편",
-    "safety": "prebiotic AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2221편"
+ "id": "prebiotic-microbiota-null",
+ "subj": "프리바이오틱",
+ "claim": "장내 대표 유익균을 늘린다",
+ "line": "셀로비오스는 대표 유익균과 전체 미생물 구성을 위약보다 늘리거나 바꾸지 못했습니다.",
+ "effect": "대표 유익균 변화 없음",
+ "tier": "trial",
+ "dir": "null",
+ "n": 37,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "장내 미생물 조절은 프리바이오틱의 의약품 허가 적응증이 아닙니다.",
+ "why": "건강한 성인을 셀로비오스·올리고프럭토스·위약에 무작위 배정한 이중눈가림 시험입니다.",
+ "saw": "PubMed 초록은 4주 이중맹검 무작위시험에서 셀로비오스가 대표 유익균을 늘리지 못했지만 최대 10g/일까지 안전하고 내약성이 좋았다고 보고했습니다.",
+ "limit": "건강한 성인의 소규모 단기 시험이며 셀로비오스 한 성분만 평가했습니다.",
+ "against": "올리고프럭토스군에서는 Bifidobacterium 증가가 경계선상으로 나타났습니다.",
+ "use": "프리바이오틱의 미생물 효과를 성분과 용량별로 따로 확인해야 합니다.",
+ "refs": [
+  {
+   "label": "셀로비오스 프리바이오틱 무작위시험",
+   "doi": "10.1017/gmb.2026.10032",
+   "pmid": "42553192"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=prebiotic · cond=Microbiota → 29건 반환, 물질 대조 후 29건",
+  "pubmed": "prebiotic AND Microbiota → 9578편; PMID 42553192 PubMed abstract verified 2026-08-15",
+  "negative": "prebiotic AND Microbiota AND (no effect OR did not OR failed OR negative OR no significant difference) → 6893편",
+  "safety": "prebiotic AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 2221편"
+ },
+ "vs": "건강한 성인 37명에서 셀로비오스 5g/일·10g/일 vs 올리고프럭토스 vs 말토덱스트린 위약 4주: Bifidobacterium·Lactobacillus 변화는 위약과 유의한 차이가 없었고(p>0.05), 올리고프럭토스의 Bifidobacterium 증가는 경계 수준(p=0.049)이었습니다."
 }
