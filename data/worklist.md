@@ -21542,3 +21542,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 저염식 — 제2형 당뇨병 동반 고혈압에 쓰는가 — 항목 생성(low-sodium-diet-hypertension-null) <!-- PubMed PMID 35388704 -->
 - [x] 유청 단백질 — 근감소증에 쓰는가 — 항목 생성(protein-supplement-sarcopenia-pos) <!-- PubMed PMID 26170041 -->
 - [x] 프로바이오틱 — 헬리코박터 파일로리 제균을 돕는가 — 항목 생성(probiotic-helicobacter-pylori-pos) <!-- PubMed PMID 37614081 -->
+- [x] 로즈마리 — 고령자 인지 기능에 쓰는가 — 항목 생성(rosemary-cognition-pos) <!-- PubMed PMID 21877951 -->
+- [x] 세이지 — 인지 기능에 쓰는가 — 항목 생성(sage-cognition-null) <!-- PubMed PMID 29433682; 세이지·로즈마리·레몬밤 복합제 -->
+- [x] 카다멈 — 고혈압에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 여주 — 제2형 당뇨병에 쓰는가 — 기존 항목 연결(bitter-melon-glucose-intolerance-pos) <!-- PubMed PMID 32951763 -->
+- [x] 클로렐라 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(chlorella-cholesterol-pos) <!-- PubMed PMID 24920270; ClinicalTrials.gov KCT0000259 -->
+- [x] 밀싹 — 빈혈에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 조류 DHA — 중성지방에 쓰는가 — 항목 생성(algae-omega3-triglycerides-pos) <!-- PubMed PMID 21178084 -->
+- [x] 크릴오일 — 중증 고중성지방혈증에 쓰는가 — 항목 생성(krill-oil-triglycerides-pos) <!-- PubMed PMID 34989797; ClinicalTrials.gov NCT03398005 -->
+- [x] 석류 주스 — 발기부전에 쓰는가 — 항목 생성(pomegranate-erectile-dysfunction-null) <!-- PubMed PMID 17568759 -->
+- [x] 말차 — 인지 저하 고령자에 쓰는가 — 항목 생성(matcha-cognition-null) <!-- PubMed PMID 39213264 -->
+- [x] 녹차 추출물 — 성인 여성 여드름에 쓰는가 — 항목 생성(green-tea-acne-null) <!-- PubMed PMID 27062963 -->
+- [x] 홍차 — 내피 기능에 쓰는가 — 항목 생성(black-tea-endothelial-function-null) <!-- PubMed PMID 29460812 -->
+- [x] 치아씨드 — 변비에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 아마씨 — 고혈압에 쓰는가 — 기존 항목 연결(flaxseed-hypertension-pos) <!-- PubMed PMID 34119421 -->
+- [x] 차전자피 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(psyllium-hypercholesterolemia-pos) <!-- PubMed PMID 18985059 -->
+- [x] 호로파 — 제2형 당뇨병에 쓰는가 — 항목 생성(fenugreek-diabetes-pos) <!-- PubMed PMID 38863744 -->
+- [x] 모링가 — 고혈압에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 스피룰리나 — 고혈압에 쓰는가 — 항목 생성(spirulina-hypertension-pos) <!-- PubMed PMID 26813468 -->
+- [x] 리코펜 — 고혈압에 쓰는가 — 항목 생성(lycopene-hypertension-pos) <!-- PubMed PMID 33676812 -->
+- [x] 올리브 잎 추출물 — 고혈압에 쓰는가 — 기존 항목 연결(olive-leaf-extract-hypertension-pos) <!-- PubMed PMID 40990594 -->
+- [x] 레스베라트롤 — 고혈압에 쓰는가 — 항목 생성(resveratrol-hypertension-null) <!-- PubMed PMID 40854984 -->
+- [x] 퀘르세틴 — 고혈압에 쓰는가 — 항목 생성(quercetin-hypertension-pos) <!-- PubMed PMID 26328470 -->
+- [x] 비타민 K2 — 골감소증에 쓰는가 — 항목 생성(vitamin-k2-osteoporosis-null) <!-- PubMed PMID 33030563; ClinicalTrials.gov NCT01922804 -->
+- [x] 코엔자임 Q10 — 편두통에 쓰는가 — 항목 생성(coq10-migraine-pos) <!-- PubMed PMID 33402403 -->
+- [x] 마그네슘 — 편두통에 쓰는가 — 항목 생성(magnesium-migraine-pos) <!-- PubMed PMID 39404918 -->
+- [x] 등척성 악력운동 — 고혈압에 쓰는가 — 기존 항목 연결(isometric-handgrip-blood-pressure-pos) <!-- PubMed PMID 33068100 -->
+- [x] 노르딕 워킹 — 고혈압에 쓰는가 — 근거 부족(고혈압 직접 비교 수치 미확인)
+- [x] 빠른 걷기 — 조현병 중년 환자의 인지 기능에 쓰는가 — 항목 생성(brisk-walking-cognition-null) <!-- PubMed PMID 36276319 -->
+- [x] 수면 연장 — 과체중 성인의 에너지 섭취에 쓰는가 — 항목 생성(sleep-extension-obesity-pos) <!-- PubMed PMID 35129580; ClinicalTrials.gov NCT02253368 -->
+- [x] 웃음치료 — 우울증에 쓰는가 — 기존 항목 연결(laughter-therapy-depression-pos) <!-- PubMed PMID 32844575 -->
