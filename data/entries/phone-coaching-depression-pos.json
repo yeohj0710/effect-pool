@@ -6,12 +6,12 @@
  "effect": "우울·스트레스 감소",
  "tier": "trial",
  "dir": "pos",
- "n": 88,
+ "n": 70,
  "synth": "single",
  "known": "off",
  "knownWhy": "비약물 상담 중재라 의약품 허가 적응증이 적용되지 않습니다.",
  "why": "여성 치과대학생 88명을 코칭군과 무중재 대조군으로 나눈 두 군 준실험에서 5주 동안 1시간 교육과 전화 코칭 5회를 제공했습니다.",
- "saw": "코칭군은 우울·불안·스트레스와 자기수용이 낮아졌고 목표 접근은 좋아졌으며, 대조군과의 사전·사후 차이는 우울과 스트레스에서 유의했습니다.",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT05593276는 10주 웹 CBT와 주간 전화 코칭이 친화적 전화 대조보다 노인 우울 증상을 더 크게 낮췄다고 보고했습니다. 불안·분노·고립·불면·통증은 중재군 내 개선이 있었지만 2차 군 간 차이는 유의하지 않았습니다.",
  "limit": "무작위배정이 아닌 준실험이고 여성 치과대학생 대상이라 다른 우울 환자나 장기 효과로 일반화하기 어렵습니다.",
  "against": "회복탄력성은 코칭군에서 일관되게 개선되지 않았고 자기수용·심리적 웰빙 결과도 모두 같은 방향은 아니었습니다.",
  "use": "학생 정신건강 지원에서 짧은 전화 코칭을 보조 선택지로 검토할 때 교육과 상담을 함께 제공한 연구로 참고합니다.",
@@ -20,13 +20,18 @@
    "label": "The effect of life coaching on psychological distress among dental students · interventional study",
    "pmid": "33054836",
    "doi": "10.1186/s40359-020-00475-5"
+  },
+  {
+   "pmid": "38437013",
+   "label": "노인 우울증의 평이한 코치 지원 웹 CBT 무작위시험"
   }
  ],
  "queried": {
-  "date": "2026-08-09",
+  "date": "2026-08-15",
   "ctgov": "query.term=AREA[InterventionName]phone coaching AND AREA[ConditionSearch]Depression → 86건, exact InterventionName 1건",
-  "pubmed": "\"phone coaching\" AND \"Depression\" → 15건",
+  "pubmed": "\"phone coaching\" AND \"Depression\" → 15건; PMID 38437013 PubMed abstract verified 2026-08-15",
   "negative": "\"phone coaching\" AND \"Depression\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 5건",
   "safety": "\"phone coaching\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 16건"
- }
+ },
+ "vs": "노인 70명에서 평이한 코치의 주간 전화 코칭을 포함한 Empower@Home 35명 vs 친화적 전화·증상 모니터링 35명: 우울 증상 군 간 효과크기 d=0.72(p<0.001), 선형혼합모형 상호작용 b=-0.68(95% CI -1.00~-0.35,p<0.001)이었습니다."
 }

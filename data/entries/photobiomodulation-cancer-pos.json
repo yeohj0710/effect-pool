@@ -6,12 +6,12 @@
  "effect": "효능 분석 14편·메타분석 380명",
  "tier": "trial",
  "dir": "pos",
- "n": 380,
+ "n": 85,
  "synth": "meta",
  "known": "off",
  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
  "why": "광생체조절을 암 자체가 아니라 항암치료 중 구강 점막염과 통증의 보조치료로 평가한 연구를 확인했습니다",
- "saw": "소아 14개 연구를 검토했고 5개 연구 380명 메타분석에서 점막염·통증 감소 가능성이 보고됐습니다",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT03972527는 매일 구강 LED 광생체조절을 가짜 처치와 비교한 무작위 이중맹검 시험에서 중증 구강점막염과 일부 통증·미각 결과의 개선을 보고했습니다.",
  "limit": "프로토콜이 크게 달랐고 눈가림 부족으로 수행 편향 위험이 컸습니다",
  "against": "sham 또는 표준 관리",
  "use": "암 치료 중 구강 점막염 보조치료 근거로만 봅니다",
@@ -20,13 +20,18 @@
    "label": "Low-level laser therapy for oral mucositis in children with cancer",
    "doi": "10.1136/archdischild-2020-321216",
    "pmid": "34230010"
+  },
+  {
+   "pmid": "42360517",
+   "label": "두경부암 방사선치료 중 구강 광생체조절 무작위시험"
   }
  ],
  "queried": {
-  "date": "2026-08-06",
+  "date": "2026-08-15",
   "ctgov": "intr=photobiomodulation · cond=Cancer: 38건",
-  "pubmed": "photobiomodulation AND Cancer AND (randomized OR trial OR meta-analysis): 407건",
+  "pubmed": "photobiomodulation AND Cancer AND (randomized OR trial OR meta-analysis): 407건; PMID 42360517 PubMed abstract verified 2026-08-15",
   "negative": "photobiomodulation AND Cancer AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 1087건",
   "safety": "photobiomodulation AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 2768건"
- }
+ },
+ "vs": "두경부암 방사선치료 환자 85명에서 구강 광생체조절 42명 vs 가짜 처치 43명: 중증 구강점막염이 6주 동안 36.8% vs 57.1%(p=0.046), 치료 2주 뒤 10.8% vs 36.4%(p=0.042)였습니다."
 }

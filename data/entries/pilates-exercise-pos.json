@@ -1,28 +1,37 @@
 {
-  "id": "pilates-exercise-pos",
-  "subj": "필라테스",
-  "claim": "만성 허리통증 운동으로 필라테스를 사용하는가",
-  "line": "필라테스는 만성 허리통증의 통증·장애 관리에 유망했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "필라테스는 만성 허리통증의 허가 치료가 아닌 운동 재활이다.",
-  "why": "필라테스는 코어 조절과 점진적 움직임을 통해 통증과 기능 제한을 다룬다.",
-  "saw": "네트워크 분석에서 주 1~2회 필라테스와 3~9주 프로그램이 만성 허리통증의 통증·장애 관리에 유망했다.",
-  "limit": "필라테스 단독의 참여자 총수와 장기 효과가 초록에 제시되지 않았고 운동 프로그램이 다양했다.",
-  "against": "신경학적 결손이나 심한 구조적 손상이 있으면 운동보다 원인 평가가 먼저다.",
-  "use": "만성 허리통증에서 물리치료와 함께 강도·자세를 조절하는 운동으로 고려한다.",
-  "effect": "통증·장애 개선",
-  "refs": [
-    { "label": "만성 허리통증 운동 네트워크 메타분석", "doi": "10.2519/jospt.2022.10671", "pmid": "35722759" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=pilates · cond=Exercise · 342건",
-    "pubmed": "pilates AND Exercise · 1,144편",
-    "negative": "pilates AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference) · 958편",
-    "safety": "pilates AND (adverse OR toxicity OR case report) · 127편"
+ "id": "pilates-exercise-pos",
+ "subj": "필라테스",
+ "claim": "만성 허리통증 운동으로 필라테스를 사용하는가",
+ "line": "필라테스는 만성 허리통증의 통증·장애 관리에 유망했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 74,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "필라테스는 만성 허리통증의 허가 치료가 아닌 운동 재활이다.",
+ "why": "필라테스는 코어 조절과 점진적 움직임을 통해 통증과 기능 제한을 다룬다.",
+ "saw": "PubMed 초록은 자세교정에 필라테스를 추가한 무작위시험에서 대조군보다 자세·목 기능·통증·장애와 삶의 질이 더 좋아졌다고 보고했습니다.",
+ "limit": "필라테스 단독의 참여자 총수와 장기 효과가 초록에 제시되지 않았고 운동 프로그램이 다양했다.",
+ "against": "신경학적 결손이나 심한 구조적 손상이 있으면 운동보다 원인 평가가 먼저다.",
+ "use": "만성 허리통증에서 물리치료와 함께 강도·자세를 조절하는 운동으로 고려한다.",
+ "effect": "통증·장애 개선",
+ "refs": [
+  {
+   "label": "만성 허리통증 운동 네트워크 메타분석",
+   "doi": "10.2519/jospt.2022.10671",
+   "pmid": "35722759"
+  },
+  {
+   "pmid": "42533012",
+   "label": "수유 여성 전방머리자세의 필라테스 무작위시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=pilates · cond=Exercise · 342건",
+  "pubmed": "pilates AND Exercise · 1,144편; PMID 42533012 PubMed abstract verified 2026-08-15",
+  "negative": "pilates AND Exercise AND (no effect OR did not OR failed to OR negative OR no significant difference) · 958편",
+  "safety": "pilates AND (adverse OR toxicity OR case report) · 127편"
+ },
+ "vs": "전방머리자세 수유 여성 74명에서 자세교정+필라테스 37명 vs 자세교정 37명: 8주 뒤 두 군 모두 개선됐고 필라테스 추가군이 목 각도·가동범위·통증·장애·피로 등 모든 결과에서 더 크게 개선됐습니다(p<0.001, 부분 η²=0.621~0.990)."
 }

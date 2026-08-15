@@ -1,20 +1,37 @@
 {
-  "id": "plant-based-diet-diabetes-null",
-  "subj": "식물성 식단",
-  "claim": "전당뇨·제2형 당뇨병의 혈당 조절에 식물성 식단을 쓰는가",
-  "line": "전당뇨·제2형 당뇨병에서 식물성 식단의 혈당 개선 근거는 부족합니다.",
-  "effect": "식물성 식단 효과 평가 연구 부족",
-  "tier": "trial",
-  "dir": "null",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식물성 식단은 비약물 식이 중재이며 제2형 당뇨병의 의약품 허가 적응증이 아닙니다.",
-  "why": "식이 지방과 섬유·미생물 구성을 바꿔 혈당과 대사 건강을 개선하려는 전략입니다.",
-  "saw": "전당뇨·제2형 당뇨병 식이중재 8개 연구를 검토한 메타분석에서 식물성 식단의 미생물 조성과 혈당 지표를 평가한 연구는 없었습니다. 포함된 전임상·임상 식이 근거에서 혈당 개선 효과도 제한적이고 불확실했습니다.",
-  "limit": "식물성 식단과 지중해식·프리바이오틱 중재가 섞여 있었고, 식물성 식단 자체의 표본과 효과크기를 산출할 수 없었습니다.",
-  "against": "식물성 식단이 당뇨병 약물이나 개인별 영양치료를 대체한다고 볼 근거는 없습니다.",
-  "use": "혈당을 자가 조절하면서 의료진·영양사와 식사 구성을 맞추고, 검증된 당뇨병 치료를 임의로 중단하지 않습니다.",
-  "refs": [{ "label": "Alam 2024 · Nutrients · 프리바이오틱·지중해식·식물성 식단 메타분석", "doi": "10.3390/nu16193272", "pmid": "39408238" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=plant-based diet · cond=Diabetes → 94건", "pubmed": "plant-based diet AND Diabetes → 2,862편", "negative": "plant-based diet AND Diabetes AND (no effect OR did not OR failed OR no significant difference) → 1,820편", "safety": "plant-based diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 3,350편" }
+ "id": "plant-based-diet-diabetes-null",
+ "subj": "식물성 식단",
+ "claim": "전당뇨·제2형 당뇨병의 혈당 조절에 식물성 식단을 쓰는가",
+ "line": "전당뇨·제2형 당뇨병에서 식물성 식단의 혈당 개선 근거는 부족합니다.",
+ "effect": "식물성 식단 효과 평가 연구 부족",
+ "tier": "trial",
+ "dir": "null",
+ "n": 49,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식물성 식단은 비약물 식이 중재이며 제2형 당뇨병의 의약품 허가 적응증이 아닙니다.",
+ "why": "식이 지방과 섬유·미생물 구성을 바꿔 혈당과 대사 건강을 개선하려는 전략입니다.",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT05777746는 식물성 식단이 HbA1c를 유의하게 낮추지는 못했지만 체중·LDL과 식이 구성을 개선했고 임상적으로 중요한 저혈당은 없었다고 보고했습니다.",
+ "limit": "식물성 식단과 지중해식·프리바이오틱 중재가 섞여 있었고, 식물성 식단 자체의 표본과 효과크기를 산출할 수 없었습니다.",
+ "against": "식물성 식단이 당뇨병 약물이나 개인별 영양치료를 대체한다고 볼 근거는 없습니다.",
+ "use": "혈당을 자가 조절하면서 의료진·영양사와 식사 구성을 맞추고, 검증된 당뇨병 치료를 임의로 중단하지 않습니다.",
+ "refs": [
+  {
+   "label": "Alam 2024 · Nutrients · 프리바이오틱·지중해식·식물성 식단 메타분석",
+   "doi": "10.3390/nu16193272",
+   "pmid": "39408238"
+  },
+  {
+   "pmid": "41935557",
+   "label": "제2형 당뇨병 온라인 식물성 식단 무작위시험"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=plant-based diet · cond=Diabetes → 94건",
+  "pubmed": "plant-based diet AND Diabetes → 2,862편; PMID 41935557 PubMed abstract verified 2026-08-15",
+  "negative": "plant-based diet AND Diabetes AND (no effect OR did not OR failed OR no significant difference) → 1,820편",
+  "safety": "plant-based diet AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) → 3,350편"
+ },
+ "vs": "제2형 당뇨병 49명에서 12주 온라인 식물성 식단 vs 평소 식단: HbA1c 차이 -3mmol/mol(95% CI -7~2)로 유의하지 않았고, 추정 심혈관 위험은 -16%(95% CI -29~1%), 체중 -2.0kg(95% CI -3.6~-0.5), LDL -0.3mmol/L(95% CI -0.6~-0.0)였습니다."
 }

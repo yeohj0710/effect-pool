@@ -6,12 +6,12 @@
  "effect": "목 통증·장애 감소, p<.01",
  "tier": "trial",
  "dir": "pos",
- "n": null,
+ "n": 78,
  "synth": "meta",
  "known": "off",
  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
  "why": "사무직 만성 목 통증을 다룬 8개 무작위시험의 메타분석에서 근력운동이 통증과 장애를 줄였습니다.",
- "saw": "7개 연구에서 목 통증 시각척도가, 5개 연구에서 목 장애지수가 유의하게 감소했고 통증·장애 메타분석도 대조군보다 유리했습니다(p<.01).",
+ "saw": "PubMed 초록은 30분 유산소운동 또는 복합운동이 교육 대조군보다 급성 목 통증 지각을 낮췄고, 효과 양상은 운동 유형에 따라 달랐다고 보고했습니다.",
  "limit": "8개 연구 모두 비뚤림 위험이 높고 근거 확실성이 낮았으며 삶의 질을 본 연구는 1개뿐이었습니다.",
  "against": "17개 연구의 별도 고찰에서는 근로자 목 통증과 일상 신체활동 사이에 연관성이 없다는 근거가 제한적이었습니다.",
  "use": "운동 처방을 고려할 때 통증·장애 개선 신호로 참고하되 낮은 확실성을 함께 설명합니다.",
@@ -23,13 +23,18 @@
   {
    "label": "Physical activity and neck pain · systematic review",
    "pmid": "21113635"
+  },
+  {
+   "pmid": "42449286",
+   "label": "만성 비특이적 목통증 근로자의 유산소·복합운동 무작위시험"
   }
  ],
  "queried": {
-  "date": "2026-08-08",
+  "date": "2026-08-15",
   "ctgov": "query.term=AREA[InterventionName]physical activity AND AREA[ConditionSearch]Neck Pain → 464건, exact InterventionName 0건",
-  "pubmed": "\"physical activity\" AND \"Neck Pain\" → 419건",
+  "pubmed": "\"physical activity\" AND \"Neck Pain\" → 419건; PMID 42449286 PubMed abstract verified 2026-08-15",
   "negative": "\"physical activity\" AND \"Neck Pain\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 87건",
   "safety": "\"physical activity\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 33410건"
- }
+ },
+ "vs": "고위험 작업 만성 목통증 근로자 78명에서 유산소운동 26명·유산소+경추 상지 저항운동 26명 vs 교육 대조군 26명: 목 통증 지각의 군×시간 상호작용은 p<0.001(부분 η²=0.223), 유산소군의 압통 역치는 p=0.004~0.046이었습니다."
 }

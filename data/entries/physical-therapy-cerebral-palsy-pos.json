@@ -1,28 +1,37 @@
 {
-  "id": "physical-therapy-cerebral-palsy-pos",
-  "subj": "물리치료",
-  "claim": "경직성 뇌성마비의 근력과 기능에 물리치료를 사용하는가",
-  "line": "뇌성마비 근력훈련은 근력·균형·보행을 개선했습니다",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "물리치료는 뇌성마비의 허가 의약품 치료가 아닌 재활 중재다.",
-  "why": "적절한 용량의 근력훈련이 경직을 악화하지 않으면서 기능과 활동을 높이는지 평가한다.",
-  "saw": "소아·청소년 경직성 뇌성마비 근력훈련 연구에서 근력, 균형, 보행 속도와 대근육 기능이 개선됐고 경직 증가는 없었다.",
-  "limit": "연구별 훈련 용량과 기능 수준이 달라 참여자 총수와 효과의 적용 범위가 제한된다.",
-  "against": "고관절 탈구나 통증 등 구조적 문제의 평가를 운동으로 늦추면 안 된다.",
-  "use": "소아 재활팀이 기능 수준과 관절 상태를 평가한 뒤 개별 운동으로 적용한다.",
-  "effect": "근력·균형·보행 개선",
-  "refs": [
-    { "label": "경직성 뇌성마비 근력훈련 메타분석", "doi": "10.1177/02692155211040199", "pmid": "34407619" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=physical therapy · cond=Cerebral Palsy · 732건",
-    "pubmed": "physical therapy AND Cerebral Palsy · 5,867편",
-    "negative": "physical therapy AND Cerebral Palsy AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3,080편",
-    "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ "id": "physical-therapy-cerebral-palsy-pos",
+ "subj": "물리치료",
+ "claim": "경직성 뇌성마비의 근력과 기능에 물리치료를 사용하는가",
+ "line": "뇌성마비 근력훈련은 근력·균형·보행을 개선했습니다",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 71,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "물리치료는 뇌성마비의 허가 의약품 치료가 아닌 재활 중재다.",
+ "why": "적절한 용량의 근력훈련이 경직을 악화하지 않으면서 기능과 활동을 높이는지 평가한다.",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT05702606는 세션 간격만 달리한 무작위시험에서 모든 군의 기능 개선을 확인했으나 간격별 우월성은 확인하지 못했다고 보고했습니다.",
+ "limit": "연구별 훈련 용량과 기능 수준이 달라 참여자 총수와 효과의 적용 범위가 제한된다.",
+ "against": "고관절 탈구나 통증 등 구조적 문제의 평가를 운동으로 늦추면 안 된다.",
+ "use": "소아 재활팀이 기능 수준과 관절 상태를 평가한 뒤 개별 운동으로 적용한다.",
+ "effect": "근력·균형·보행 개선",
+ "refs": [
+  {
+   "label": "경직성 뇌성마비 근력훈련 메타분석",
+   "doi": "10.1177/02692155211040199",
+   "pmid": "34407619"
+  },
+  {
+   "pmid": "42327806",
+   "label": "뇌성마비 경직의 방사형 체외충격파 물리치료 무작위시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=physical therapy · cond=Cerebral Palsy · 732건",
+  "pubmed": "physical therapy AND Cerebral Palsy · 5,867편; PMID 42327806 PubMed abstract verified 2026-08-15",
+  "negative": "physical therapy AND Cerebral Palsy AND (no effect OR did not OR failed to OR negative OR no significant difference) · 3,080편",
+  "safety": "physical therapy AND (adverse OR toxicity OR case report) · 91,258편"
+ },
+ "vs": "뇌성마비 환자 71명에서 방사형 체외충격파 물리치료를 1주 간격 대조군·2주 간격군·4주 간격군으로 비교: 세 군 모두 수동관절가동범위·기능검사가 기저치보다 p<0.001 개선됐지만 군 간 차이와 군×시간 상호작용은 없었습니다."
 }

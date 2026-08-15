@@ -1,20 +1,37 @@
 {
-  "id": "plant-stanols-hyperlipidemias-pos",
-  "subj": "식물 스타놀",
-  "claim": "고지혈증에서 식물 스타놀은 LDL 콜레스테롤을 낮추는 보조 식품 성분으로 제시됩니다",
-  "line": "식물 스타놀이 LDL 콜레스테롤을 낮췄지만 심혈관 사건 감소 효과는 불확실했습니다.",
-  "effect": "LDL 콜레스테롤 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "식물 스타놀은 약물이 아닌 식품 성분입니다",
-  "why": "식물 스타놀과 식물 스테롤이 고지혈증과 심혈관 위험 관리에 미치는 효과를 임상 근거로 고찰했습니다",
-  "saw": "고찰과 무작위시험 종합에서 식물 스타놀은 LDL 콜레스테롤을 낮추는 방향이었지만 심혈관 사건 감소 효과는 확정되지 않았습니다",
-  "limit": "식품 형태와 용량, 기저 치료가 다양했고 전체 참가자 수가 초록에 제시되지 않았습니다",
-  "against": "LDL 감소가 스타놀이 심혈관 사건을 예방하거나 스타틴을 대체한다는 뜻은 아닙니다",
-  "use": "고지혈증의 식이 보조 선택지로 검토하되 약물 치료와 지질 추적을 유지합니다",
-  "refs": [{ "label": "식물 스테롤·스타놀 콜레스테롤 관리 고찰", "doi": "10.3390/nu15132845", "pmid": "37447172" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=plant stanols · cond=Hyperlipidemias 9건", "pubmed": "plant stanols AND Hyperlipidemias 160건", "negative": "plant stanols AND Hyperlipidemias AND (no effect OR did not OR failed OR no significant difference) 134건", "safety": "plant stanols AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 78건" }
+ "id": "plant-stanols-hyperlipidemias-pos",
+ "subj": "식물 스타놀",
+ "claim": "고지혈증에서 식물 스타놀은 LDL 콜레스테롤을 낮추는 보조 식품 성분으로 제시됩니다",
+ "line": "식물 스타놀이 LDL 콜레스테롤을 낮췄지만 심혈관 사건 감소 효과는 불확실했습니다.",
+ "effect": "LDL 콜레스테롤 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "식물 스타놀은 약물이 아닌 식품 성분입니다",
+ "why": "식물 스타놀과 식물 스테롤이 고지혈증과 심혈관 위험 관리에 미치는 효과를 임상 근거로 고찰했습니다",
+ "saw": "PubMed 초록은 124개 무작위시험의 용량반응 메타분석에서 식물 스테롤과 스타놀을 따로 분석해도 LDL 감소의 유사한 용량반응을 확인했다고 보고했습니다.",
+ "limit": "식품 형태와 용량, 기저 치료가 다양했고 전체 참가자 수가 초록에 제시되지 않았습니다",
+ "against": "LDL 감소가 스타놀이 심혈관 사건을 예방하거나 스타틴을 대체한다는 뜻은 아닙니다",
+ "use": "고지혈증의 식이 보조 선택지로 검토하되 약물 치료와 지질 추적을 유지합니다",
+ "refs": [
+  {
+   "label": "식물 스테롤·스타놀 콜레스테롤 관리 고찰",
+   "doi": "10.3390/nu15132845",
+   "pmid": "37447172"
+  },
+  {
+   "pmid": "24780090",
+   "label": "식물 스테롤·스타놀 LDL 용량반응 무작위시험 메타분석"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=plant stanols · cond=Hyperlipidemias 9건",
+  "pubmed": "plant stanols AND Hyperlipidemias 160건; PMID 24780090 PubMed abstract verified 2026-08-15",
+  "negative": "plant stanols AND Hyperlipidemias AND (no effect OR did not OR failed OR no significant difference) 134건",
+  "safety": "plant stanols AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 78건"
+ },
+ "vs": "무작위시험 124개 연구 201개 층화에서 식물 스테롤·스타놀 0.6~3.3g/일 vs 대조 식단: LDL 콜레스테롤이 용량에 따라 평균 6~12% 감소했고 약 3g/일까지 효과가 커졌습니다."
 }

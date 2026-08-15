@@ -1,28 +1,37 @@
 {
-  "id": "pilates-multiple-sclerosis-null",
-  "subj": "필라테스",
-  "claim": "다발성경화증 재활에 필라테스를 사용하는가",
-  "line": "다발성경화증 필라테스는 기능을 개선했지만 다른 치료보다 우월하지 않았습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "필라테스는 다발성경화증의 허가 치료가 아닌 재활 운동이다.",
-  "why": "필라테스가 다발성경화증의 이동성·피로·균형을 개선하는지 다른 재활과 비교한다.",
-  "saw": "14개 연구에서 신체 기능·피로·삶의 질 개선이 나타났지만 메타분석에서는 다른 치료보다 기능 이동성 등의 우월성이 없었다.",
-  "limit": "무작위시험의 방법론 질이 낮거나 불충분한 연구가 많고 참여자 총수가 초록에 없다.",
-  "against": "필라테스가 재발 예방이나 질병수정 효과를 가진다는 근거는 없다.",
-  "use": "다발성경화증 재활에서 균형·피로·운동 능력에 맞춘 보조 운동으로 고려한다.",
-  "effect": "다른 치료보다 우월하지 않음",
-  "refs": [
-    { "label": "다발성경화증 필라테스 체계적 문헌고찰·메타분석", "doi": "10.1016/j.msard.2019.01.006", "pmid": "30623859" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=pilates · cond=Multiple Sclerosis · 23건",
-    "pubmed": "pilates AND Multiple Sclerosis · 54편",
-    "negative": "pilates AND Multiple Sclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 48편",
-    "safety": "pilates AND (adverse OR toxicity OR case report) · 127편"
+ "id": "pilates-multiple-sclerosis-null",
+ "subj": "필라테스",
+ "claim": "다발성경화증 재활에 필라테스를 사용하는가",
+ "line": "다발성경화증 필라테스는 기능을 개선했지만 다른 치료보다 우월하지 않았습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 46,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "필라테스는 다발성경화증의 허가 치료가 아닌 재활 운동이다.",
+ "why": "필라테스가 다발성경화증의 이동성·피로·균형을 개선하는지 다른 재활과 비교한다.",
+ "saw": "PubMed 초록과 ClinicalTrials.gov NCT06462339는 주 3회 화상 필라테스가 대기군보다 인지기능과 이중과제 수행을 개선했다고 보고했습니다.",
+ "limit": "무작위시험의 방법론 질이 낮거나 불충분한 연구가 많고 참여자 총수가 초록에 없다.",
+ "against": "필라테스가 재발 예방이나 질병수정 효과를 가진다는 근거는 없다.",
+ "use": "다발성경화증 재활에서 균형·피로·운동 능력에 맞춘 보조 운동으로 고려한다.",
+ "effect": "다른 치료보다 우월하지 않음",
+ "refs": [
+  {
+   "label": "다발성경화증 필라테스 체계적 문헌고찰·메타분석",
+   "doi": "10.1016/j.msard.2019.01.006",
+   "pmid": "30623859"
+  },
+  {
+   "pmid": "40120159",
+   "label": "다발성경화증 온라인 필라테스 무작위시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=pilates · cond=Multiple Sclerosis · 23건",
+  "pubmed": "pilates AND Multiple Sclerosis · 54편; PMID 40120159 PubMed abstract verified 2026-08-15",
+  "negative": "pilates AND Multiple Sclerosis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 48편",
+  "safety": "pilates AND (adverse OR toxicity OR case report) · 127편"
+ },
+ "vs": "다발성경화증 환자 46명에서 6주 온라인 필라테스 vs 대기군: MoCA(p=0.024), TMT-B(p=0.012), Stroop(p≤0.012), 균형·보행·기능이중과제 결과(p=0.003~0.048)의 군×시간 차이가 필라테스군에 유리했습니다."
 }

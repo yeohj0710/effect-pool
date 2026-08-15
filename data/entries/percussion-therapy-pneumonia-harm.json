@@ -1,28 +1,37 @@
 {
-  "id": "percussion-therapy-pneumonia-harm",
-  "subj": "퍼커션 흉부물리치료",
-  "claim": "폐렴의 회복에 퍼커션 흉부물리치료를 쓴다",
-  "line": "흉부물리치료는 폐렴 급성기에 이득이 없었고 일부 환자에서 발열·입원 기간을 늘렸습니다",
-  "effect": "효과 없음·일부 발열·입원 연장",
-  "tier": "trial",
-  "dir": "harm",
-  "n": 171,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "퍼커션 흉부물리치료는 비약물 중재이며 폐렴 치료의 의약품 허가 적응증으로 분류하지 않습니다.",
-  "why": "일차 폐렴 환자에서 퍼커션과 배액을 포함한 흉부물리치료를 위약 대조와 비교한 시험입니다.",
-  "saw": "폐렴 환자 171명을 흉부물리치료군과 대조군에 무작위 배정했습니다. 급성기 객관적 이득은 없었고 젊은 환자, 흡연자, 간질성 폐렴에서는 발열 기간과 입원 기간이 길어졌습니다.",
-  "limit": "오래된 단일 시험이며 현재의 항생제·호흡기 치료와 환자 선별 방식이 다를 수 있습니다.",
-  "against": "폐렴 회복을 빠르게 한다는 이득이 없었고 일부 하위군에서는 질병 경과가 더 길었습니다.",
-  "use": "일차 폐렴에서 퍼커션 흉부물리치료를 routine으로 추가하지 않는 근거로 기록합니다.",
-  "refs": [
-    { "label": "일차 폐렴 흉부물리치료 무작위시험", "doi": "10.1136/bmj.290.6483.1703", "pmid": "3924221" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "percussion therapy AND Pneumonia → 1건 반환, 직접 확인 1건",
-    "pubmed": "percussion therapy AND Pneumonia AND (randomized OR trial OR meta-analysis) → 26편",
-    "negative": "percussion therapy AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference) → 43편",
-    "safety": "percussion therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 422편"
+ "id": "percussion-therapy-pneumonia-harm",
+ "subj": "퍼커션 흉부물리치료",
+ "claim": "폐렴의 회복에 퍼커션 흉부물리치료를 쓴다",
+ "line": "흉부물리치료는 폐렴 급성기에 이득이 없었고 일부 환자에서 발열·입원 기간을 늘렸습니다",
+ "effect": "효과 없음·일부 발열·입원 연장",
+ "tier": "trial",
+ "dir": "harm",
+ "n": 50,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "퍼커션 흉부물리치료는 비약물 중재이며 폐렴 치료의 의약품 허가 적응증으로 분류하지 않습니다.",
+ "why": "일차 폐렴 환자에서 퍼커션과 배액을 포함한 흉부물리치료를 위약 대조와 비교한 시험입니다.",
+ "saw": "PubMed 초록은 폐렴 환자에게 자세·퍼커션·능동순환호흡법을 전기임피던스로 맞춘 기도청결을 제공했을 때 고정 일정 기도청결보다 임상폐감염점수와 발관 성공률이 좋아졌다고 보고했습니다. 별도 일차 폐렴 위약대조시험(PMID 3924221)은 급성기 객관적 이득이 없고 일부 하위군에서 발열·입원 연장을 시사했습니다.",
+ "limit": "오래된 단일 시험이며 현재의 항생제·호흡기 치료와 환자 선별 방식이 다를 수 있습니다.",
+ "against": "폐렴 회복을 빠르게 한다는 이득이 없었고 일부 하위군에서는 질병 경과가 더 길었습니다.",
+ "use": "일차 폐렴에서 퍼커션 흉부물리치료를 routine으로 추가하지 않는 근거로 기록합니다.",
+ "refs": [
+  {
+   "label": "일차 폐렴 흉부물리치료 무작위시험",
+   "doi": "10.1136/bmj.290.6483.1703",
+   "pmid": "3924221"
+  },
+  {
+   "pmid": "40653597",
+   "label": "중증 폐렴의 전기임피던스 유도 기도청결 무작위시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "percussion therapy AND Pneumonia → 1건 반환, 직접 확인 1건",
+  "pubmed": "percussion therapy AND Pneumonia AND (randomized OR trial OR meta-analysis) → 26편; PMID 40653597 PubMed abstract verified 2026-08-15; PMID 3924221 PubMed abstract verified 2026-08-15",
+  "negative": "percussion therapy AND Pneumonia AND (no effect OR did not OR failed OR negative OR no significant difference) → 43편",
+  "safety": "percussion therapy AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 422편"
+ },
+ "vs": "중증 폐렴 50명에서 퍼커션을 포함한 전기임피던스 유도 기도청결 25명 vs 고정 일정 기도청결 25명: 7일 임상폐감염점수(p=0.0137)와 발관 성공률(88% vs 56%,p=0.0255)이 유도군에서 더 좋았습니다."
 }
