@@ -21482,3 +21482,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 무용치료 — 골다공증에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
 - [x] 점진적 근육이완 — 치과 불안에 쓰는가 — 항목 생성(progressive-muscle-relaxation-anxiety-pos) <!-- PubMed PMID 30430667 -->
 - [x] 횡격막 호흡 — 노인 불면증에 쓰는가 — 항목 생성(diaphragmatic-breathing-insomnia-pos) <!-- PubMed PMID 40085337·42268268 -->
+- [x] 코코아 플라바놀 — 고혈압에 쓰는가 — 항목 생성(cocoa-flavanols-hypertension-null) <!-- PubMed PMID 30301127 -->
+- [x] 코코아 플라바놀 — 인지 기능에 쓰는가 — 항목 생성(cocoa-flavanols-cognitive-function-null) <!-- PubMed PMID 36102337; ClinicalTrials.gov NCT04582617 -->
+- [x] 콩 이소플라본 — 폐경 증상에 쓰는가 — 항목 생성(soy-isoflavones-menopause-null) <!-- PubMed PMID 25263312 -->
+- [x] 콩 이소플라본 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(soy-isoflavones-hypercholesterolemia-pos) <!-- PubMed PMID 11965512 -->
+- [x] 레드클로버 — 폐경 증상과 이상지질혈증에 쓰는가 — 항목 생성(red-clover-menopause-pos) <!-- PubMed PMID 39254422 -->
+- [x] 달맞이꽃 종자유 — 유방통에 쓰는가 — 항목 생성(evening-primrose-mastalgia-null) <!-- PubMed PMID 34200727·20359269 -->
+- [x] 칼슘 — 월경전증후군에 쓰는가 — 항목 생성(calcium-premenstrual-syndrome-pos) <!-- PubMed PMID 28217679 -->
+- [x] 크레아틴 — 수면 박탈에 쓰는가 — 항목 생성(creatine-sleep-deprivation-pos) <!-- PubMed PMID 16416332 -->
+- [x] 콜라겐 펩타이드 — 무릎 골관절염에 쓰는가 — 항목 생성(collagen-osteoarthritis-pos) <!-- PubMed PMID 26822714 -->
+- [x] 히알루론산 — 골관절염에 쓰는가 — 항목 생성(hyaluronic-acid-osteoarthritis-pos) <!-- PubMed PMID 37686801 -->
+- [x] 보스웰리아 — 천식에 쓰는가 — 항목 생성(boswellia-asthma-pos) <!-- PubMed PMID 9810030 -->
+- [x] 보스웰리아 — 크론병 관해 유지에 쓰는가 — 항목 생성(boswellia-crohns-disease-null) <!-- PubMed PMID 20848527 -->
+- [x] 브로멜라인 보충제 — 무릎 골관절염에 쓰는가 — 항목 생성(bromelain-osteoarthritis-null) <!-- PubMed PMID 17121765 -->
+- [x] 패션플라워 — 범불안장애에 쓰는가 — 항목 생성(passionflower-anxiety-null) <!-- PubMed PMID 11679026 -->
+- [x] 패션플라워 — 불면증에 쓰는가 — 항목 생성(passionflower-insomnia-pos) <!-- PubMed PMID 31714321 -->
+- [x] 레몬밤 — 우울·불안 증상에 쓰는가 — 항목 생성(lemon-balm-anxiety-pos) <!-- PubMed PMID 37131158 -->
+- [x] 레몬밤 — 인지 기능에 쓰는가 — 근거 부족(직접 비교 수치 미확인; PubMed PMID 25360512는 정량 비교 초록 확인 불가)
+- [x] 로디올라 — 스트레스 관련 피로에 쓰는가 — 항목 생성(rhodiola-fatigue-pos) <!-- PubMed PMID 19016404 -->
+- [x] 로디올라 — 우울증에 쓰는가 — 항목 생성(rhodiola-depression-null) <!-- PubMed PMID 25837277 -->
+- [x] 바코파 — 고령자 기억력에 쓰는가 — 항목 생성(bacopa-memory-pos) <!-- PubMed PMID 18611150 -->
+- [x] 호박씨 — 과민성 방광에 쓰는가 — 근거 부족(PubMed 직접 비교 수치 미확인)
+- [x] 간헐적 단식 — 통풍에 쓰는가 — 근거 부족(PubMed 직접 비교 수치 미확인)
+- [x] 간헐적 단식 — 건선에 쓰는가 — 근거 부족(PubMed 직접 비교 수치 미확인)
+- [x] 케토제닉 식단 — 편두통에 쓰는가 — 항목 생성(ketogenic-diet-migraine-pos) <!-- PubMed PMID 37794395; ClinicalTrials.gov NCT04360148 -->
+- [x] 광치료 — 양극성 우울증에 쓰는가 — 항목 생성(bright-light-therapy-bipolar-depression-pos) <!-- PubMed PMID 28969438 -->
+- [x] 자연 노출 — 고혈압에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 사우나 — 인지 기능에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 저염식 — 제2형 당뇨병 동반 고혈압에 쓰는가 — 항목 생성(low-sodium-diet-hypertension-null) <!-- PubMed PMID 35388704 -->
+- [x] 유청 단백질 — 근감소증에 쓰는가 — 항목 생성(protein-supplement-sarcopenia-pos) <!-- PubMed PMID 26170041 -->
+- [x] 프로바이오틱 — 헬리코박터 파일로리 제균을 돕는가 — 항목 생성(probiotic-helicobacter-pylori-pos) <!-- PubMed PMID 37614081 -->
