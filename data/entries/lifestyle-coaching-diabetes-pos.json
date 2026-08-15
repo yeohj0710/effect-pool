@@ -1,32 +1,33 @@
 {
- "id": "lifestyle-coaching-diabetes-pos",
- "subj": "생활습관 코칭",
- "claim": "제2형 당뇨병의 혈당을 생활습관 코칭으로 낮추는가",
- "line": "당뇨병 환자에서 생활습관 코칭 후 당화혈색소가 단기간 줄었습니다",
- "effect": "당화혈색소·식사·신체활동 개선",
- "tier": "obs",
- "dir": "pos",
- "n": 110,
- "synth": "single",
- "known": "off",
- "knownWhy": "생활습관 코칭은 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
- "why": "제2형 당뇨병 또는 전당뇨병 성인 110명이 연속혈당측정과 개인별 생활습관 코칭을 8주 받은 전향적 코호트입니다.",
- "saw": "혈당 변동성이 가장 큰 집단에서 당화혈색소가 7.39%에서 6.82%로 줄었고 신체활동과 식사 습관도 좋아졌습니다.",
- "limit": "무작위 대조군이 없는 단기 관찰 연구이고 혈당 변동성에 따른 하위군 결과가 중심입니다.",
- "against": "대조군이 없어 코칭 자체와 연속혈당측정, 동시 진료의 효과를 나눌 수 없습니다.",
- "use": "당뇨병 표준 치료와 함께 생활습관 변화를 돕는 보조 프로그램으로만 평가합니다.",
- "refs": [
-  {
-   "label": "연속혈당측정과 개인별 디지털 코칭 전향적 코호트",
-   "doi": "10.1016/j.pcd.2025.12.002",
-   "pmid": "41390265"
-  }
- ],
- "queried": {
-  "date": "2026-08-07",
-  "ctgov": "lifestyle coaching AND Diabetes — 158건 반환, 중재명 직접 일치 5건",
-  "pubmed": "\"lifestyle coaching\" AND \"Diabetes\" — 71건, 시험·코호트 등 53건",
-  "negative": "\"lifestyle coaching\" AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 48건",
-  "safety": "\"lifestyle coaching\" AND (adverse OR toxicity OR case report OR harm) — 19건"
- }
+  "id": "lifestyle-coaching-diabetes-pos",
+  "subj": "생활습관 코칭",
+  "claim": "제2형 당뇨병의 혈당을 생활습관 코칭으로 낮추는가",
+  "line": "당뇨병 환자에서 생활습관 코칭 후 당화혈색소가 단기간 줄었습니다",
+  "effect": "당화혈색소·식사·신체활동 개선",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 110,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "생활습관 코칭은 약물이 아니므로 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "제2형 당뇨병 또는 전당뇨병 성인 110명이 연속혈당측정과 개인별 생활습관 코칭을 8주 받은 전향적 코호트입니다.",
+  "saw": "혈당 변동성이 가장 큰 집단에서 당화혈색소가 7.39%에서 6.82%로 줄었고 신체활동과 식사 습관도 좋아졌습니다.",
+  "limit": "무작위 대조군이 없는 단기 관찰 연구이고 혈당 변동성에 따른 하위군 결과가 중심입니다.",
+  "against": "대조군이 없어 코칭 자체와 연속혈당측정, 동시 진료의 효과를 나눌 수 없습니다.",
+  "use": "당뇨병 표준 치료와 함께 생활습관 변화를 돕는 보조 프로그램으로만 평가합니다.",
+  "refs": [
+    {
+      "label": "연속혈당측정과 개인별 디지털 코칭 전향적 코호트",
+      "doi": "10.1016/j.pcd.2025.12.002",
+      "pmid": "41390265"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "lifestyle coaching AND Diabetes — 158건 반환, 중재명 직접 일치 5건",
+    "pubmed": "\"lifestyle coaching\" AND \"Diabetes\" — 71건, 시험·코호트 등 53건",
+    "negative": "\"lifestyle coaching\" AND \"Diabetes\" AND (no effect OR did not OR failed OR negative OR no significant difference) — 48건",
+    "safety": "\"lifestyle coaching\" AND (adverse OR toxicity OR case report OR harm) — 19건"
+  },
+  "vs": "CGM+개인 맞춤 생활습관 코칭 vs 기초선(대조군 없음), 제2형 당뇨·전당뇨 110명 8주 전향적 코호트: 혈당 변동이 큰 군의 HbA1c 7.39%→6.82%(p=.004), 신체활동 점수 증가(p=.005), 모든 군에서 식습관 개선"
 }

@@ -1,33 +1,34 @@
 {
- "id": "meal-delivery-diet-quality-pos",
- "subj": "식사 배달",
- "claim": "상업적 meal delivery를 포함한 식이 개입에서 식단 질이 개선됐습니다",
- "line": "식사 배달 식이 개입은 식단의 질을 개선했습니다",
- "effect": "식단 질 d=1.93",
- "tier": "trial",
- "dir": "pos",
- "n": 31,
- "synth": "single",
- "known": "off",
- "knownWhy": "식사 배달 비약물 중재로 허가 적응증을 적용하지 않습니다.",
- "why": "중등도 이상 우울 증상이 있는 성인을 상업적 meal delivery 식이군과 자가 실행 식이군으로 나눈 무작위 파일럿 시험입니다.",
- "saw": "31명이 2주간 meal delivery 20명과 자가 실행 11명으로 나뉘었습니다. 전체 식이 개입에서 식단 질이 유의하게 개선됐고 효과크기는 d=1.93이었습니다.",
- "limit": "2주 파일럿이고 두 군 모두 식이 지침을 받아 meal delivery만의 효과를 분리하기 어렵습니다.",
- "against": "식단 질 개선의 군 간 차이는 표본이 작아 확정적으로 해석할 수 없습니다.",
- "use": "단기 식단 질 개선 가능성을 보여주는 예비 근거로만 사용합니다.",
- "refs": [
-  {
-   "label": "Meals that heal · Sci Rep · 무작위 파일럿",
-   "doi": "10.1038/s41598-026-45991-3",
-   "pmid": "42034775",
-   "pmc": "PMC13315607"
-  }
- ],
- "queried": {
-  "date": "2026-08-07",
-  "ctgov": "meal delivery AND Diet Quality · 11건 반환, 중재명 직접 일치 0건",
-  "pubmed": "\"meal delivery\" AND \"Diet Quality\" · 5건",
-  "negative": "\"meal delivery\" AND \"Diet Quality\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
-  "safety": "\"meal delivery\" AND (adverse OR toxicity OR case report OR harm) · 14건"
- }
+  "id": "meal-delivery-diet-quality-pos",
+  "subj": "식사 배달",
+  "claim": "상업적 meal delivery를 포함한 식이 개입에서 식단 질이 개선됐습니다",
+  "line": "식사 배달 식이 개입은 식단의 질을 개선했습니다",
+  "effect": "식단 질 d=1.93",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 31,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식사 배달 비약물 중재로 허가 적응증을 적용하지 않습니다.",
+  "why": "중등도 이상 우울 증상이 있는 성인을 상업적 meal delivery 식이군과 자가 실행 식이군으로 나눈 무작위 파일럿 시험입니다.",
+  "saw": "31명이 2주간 meal delivery 20명과 자가 실행 11명으로 나뉘었습니다. 전체 식이 개입에서 식단 질이 유의하게 개선됐고 효과크기는 d=1.93이었습니다.",
+  "limit": "2주 파일럿이고 두 군 모두 식이 지침을 받아 meal delivery만의 효과를 분리하기 어렵습니다.",
+  "against": "식단 질 개선의 군 간 차이는 표본이 작아 확정적으로 해석할 수 없습니다.",
+  "use": "단기 식단 질 개선 가능성을 보여주는 예비 근거로만 사용합니다.",
+  "refs": [
+    {
+      "label": "Meals that heal · Sci Rep · 무작위 파일럿",
+      "doi": "10.1038/s41598-026-45991-3",
+      "pmid": "42034775",
+      "pmc": "PMC13315607"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "meal delivery AND Diet Quality · 11건 반환, 중재명 직접 일치 0건",
+    "pubmed": "\"meal delivery\" AND \"Diet Quality\" · 5건",
+    "negative": "\"meal delivery\" AND \"Diet Quality\" AND (no effect OR did not OR failed OR negative OR no significant difference) · 2건",
+    "safety": "\"meal delivery\" AND (adverse OR toxicity OR case report OR harm) · 14건"
+  },
+  "vs": "상업 식사 배달 vs 영양 지침만 제공, 우울 증상 성인 31명 무작위 파일럿(20명 vs 11명) 2주: 전체 식단 질 전후 효과크기 d=1.93, 식사 배달군 우울 증상 d=1.62 vs 지침군 d=.54; 식단 질 향상이 우울 증상 변량의 17% 설명"
 }
