@@ -21632,3 +21632,32 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 기공 — 불안 — qigong-anxiety-null
 - [x] 필라테스 — 폐경 후 우울·불안 — pilates-depression-pos
 - [x] 원예 — 스트레스 — gardening-stress-null
+- [x] batch1549 phosphatidylserine-cognition
+- [x] batch1549 citicoline-cognition
+- [x] batch1549 hmb-sarcopenia
+- [x] batch1549 beta-alanine-exercise
+- [x] batch1549 d-ribose-fatigue
+- [x] batch1549 holy-basil-stress
+- [x] batch1549 schisandra-fatigue
+- [x] batch1549 sulforaphane-diabetes
+- [x] batch1549 broccoli-sprout-blood-pressure
+- [x] batch1549 watermelon-blood-pressure
+- [x] batch1549 nordic-diet-cholesterol
+- [x] batch1549 portfolio-diet-cholesterol
+- [x] batch1549 vegetarian-diet-blood-pressure
+- [x] batch1549 high-protein-breakfast-weight
+- [x] batch1549 strawberry-cognition
+- [x] batch1549 grape-cognition
+- [x] batch1549 citrus-flavanone-blood-pressure
+- [x] batch1549 black-garlic-cholesterol
+- [x] batch1549 onion-quercetin-blood-pressure
+- [x] batch1549 rice-bran-cholesterol
+- [x] batch1549 sprouted-grain-glycemia
+- [x] batch1549 singing-dementia
+- [x] batch1549 choir-wellbeing
+- [x] batch1549 drumming-stress
+- [x] batch1549 resistance-training-blood-pressure
+- [x] batch1549 interval-training-cognition
+- [x] batch1549 stretching-blood-pressure
+- [x] batch1549 swimming-blood-pressure
+- [x] batch1549 hot-yoga-blood-pressure
