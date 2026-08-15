@@ -1,0 +1,29 @@
+{
+  "id": "cinnamon-hypertension-null",
+  "subj": "계피",
+  "claim": "고혈압 환자의 혈압을 낮추는가",
+  "line": "고혈압에서 계피는 혈압을 임상적으로 유의하게 낮추지 못했습니다.",
+  "effect": "SBP -3.4 대 +1.9mmHg",
+  "vs": "제1기 고혈압 RCT(n=59)에서 계피 1500mg/일 vs 위약 90일: SBP 변화 -3.4±11.4 vs +1.9±10.2mmHg(p=.06); 기저 혈압을 보정하면 치료 효과가 유의하지 않았습니다.",
+  "tier": "trial",
+  "dir": "null",
+  "n": 59,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "계피와 위약을 비교한 파일럿 RCT에서 혈압의 임상적 우월성이 확인되지 않았습니다.",
+  "why": "계피와 위약의 24시간 활동혈압 및 대사 지표를 확인했습니다.",
+  "saw": "보정 전 SBP 변화는 작았고 기저값 보정 후 계피의 혈압 효과가 유의하지 않았습니다.",
+  "limit": "소규모 파일럿시험이며 고혈압 표준치료를 대신하지 않습니다.",
+  "against": "계피를 혈압약의 대체제로 기록하지 않습니다.",
+  "use": "계피의 혈압 효과가 일관되지 않은 결과로 기록합니다.",
+  "refs": [
+    { "label": "제1기 고혈압 계피 무작위 위약 대조시험", "pmid": "33628723" },
+    { "label": "제2형 당뇨병 계피 혈압 무작위시험", "pmid": "21861719" }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "pubmed": "cinnamon hypertension randomized placebo; PMID 33628723, 21861719",
+    "negative": "cinnamon hypertension AND (no effect OR no significant difference)",
+    "safety": "cinnamon hypertension AND (adverse OR toxicity OR harm)"
+  }
+}

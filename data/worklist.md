@@ -21452,3 +21452,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 기공 — 만성 허리통증에 쓰는가 — 항목 생성(qigong-low-back-pain-null) <!-- PubMed PMID 39994723 -->
 - [x] 걷기 — 치매 인지기능에 쓰는가 — 항목 생성(walking-cognition-null) <!-- PubMed PMID 32192537 -->
 - [x] 명상 — 불면증에 쓰는가 — 항목 생성(meditation-insomnia-pos) <!-- PubMed PMID 25142566·27663102; ClinicalTrials.gov NCT00768781 -->
+- [x] 차전자피 — 관해기 궤양성 대장염 위장 증상에 쓰는가 — 항목 생성(psyllium-ulcerative-colitis-pos) <!-- PubMed PMID 1654592 -->
+- [x] 차전자피 — 치질에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 차전자피 — 위식도 역류에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 아마씨 — 무릎 골관절염에 쓰는가 — 근거 부족(초록에 비교 수치 미확인) <!-- PubMed PMID 29705472 -->
+- [x] 아마씨 — 폐경 이행기 증상에 쓰는가 — 항목 생성(flaxseed-menopause-pos) <!-- PubMed PMID 39364521 -->
+- [x] 치아씨드 — 제2형 당뇨병에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 치아씨드 — 과체중 체중감량에 쓰는가 — 항목 생성(chia-seed-obesity-null) <!-- PubMed PMID 19628108 -->
+- [x] 계피 — 고혈압에 쓰는가 — 항목 생성(cinnamon-hypertension-null) <!-- PubMed PMID 33628723·21861719 -->
+- [x] 계피 — 원발성 생리통에 쓰는가 — 항목 생성(cinnamon-menstrual-pain-pos) <!-- PubMed PMID 32603204·26023601 -->
+- [x] 베르베린 — 고혈압에 쓰는가 — 항목 생성(berberine-hypertension-null) <!-- PubMed PMID 33461163·40740996 -->
+- [x] 베르베린 — C형간염에 쓰는가 — 근거 부족(직접 비교 수치 미확인) <!-- PubMed PMID 19800084 -->
+- [x] 인삼 — 경도인지장애 기억력에 쓰는가 — 항목 생성(ginseng-cognition-pos) <!-- PubMed PMID 32055589 -->
+- [x] 홍삼 — 류마티스 질환 피로에 쓰는가 — 항목 생성(red-ginseng-rheumatic-fatigue-null) <!-- PubMed PMID 38576235 -->
+- [x] 인삼 — 발기부전에 쓰는가 — 항목 생성(ginseng-erectile-dysfunction-null) <!-- PubMed PMID 33871063·34169686 -->
+- [x] 페퍼민트 오일 — 편두통에 쓰는가 — 항목 생성(peppermint-oil-headache-pos) <!-- PubMed PMID 31404204 -->
+- [x] 페퍼민트 오일 — 기능성 소화불량에 쓰는가 — 항목 생성(peppermint-oil-dyspepsia-pos) <!-- PubMed PMID 31827561·28695660 -->
+- [x] 흑종초 — 천식에 쓰는가 — 항목 생성(black-seed-asthma-pos) <!-- PubMed PMID 28093815; ClinicalTrials.gov NCT02407262 -->
+- [x] 흑종초 — 류마티스관절염에 쓰는가 — 항목 생성(black-seed-rheumatoid-arthritis-null) <!-- PubMed PMID 27247920 -->
+- [x] 밀크시슬 — 비알코올성 지방간염에 쓰는가 — 항목 생성(milk-thistle-nash-null) <!-- PubMed PMID 28419855; ClinicalTrials.gov NCT02006498 -->
+- [x] 밀크시슬 — 제2형 당뇨병에 쓰는가 — 항목 생성(milk-thistle-diabetes-pos) <!-- PubMed PMID 25765835·29895491 -->
+- [x] 아티초크 추출물 — 고콜레스테롤혈증에 쓰는가 — 항목 생성(artichoke-hypercholesterolemia-pos) <!-- PubMed PMID 35010984 -->
+- [x] 아티초크 추출물 — 기능성 소화불량에 쓰는가 — 항목 생성(artichoke-dyspepsia-pos) <!-- PubMed PMID 14653829·25954317 -->
+- [x] 크랜베리 — 재발성 요로감염에 쓰는가 — 항목 생성(cranberry-recurrent-uti-pos) <!-- PubMed PMID 39863114·29046404; ClinicalTrials.gov NCT03042273 -->
+- [x] D-만노스 — 재발성 요로감염에 쓰는가 — 항목 생성(d-mannose-recurrent-uti-null) <!-- PubMed PMID 38587819 -->
+- [x] 석류 주스 — 고혈압에 쓰는가 — 항목 생성(pomegranate-hypertension-pos) <!-- PubMed PMID 27888156 -->
+- [x] 지중해식 식단 — 우울 증상에 쓰는가 — 항목 생성(mediterranean-diet-depression-pos) <!-- PubMed PMID 29215971·35441666 -->
+- [x] 무용치료 — 우울 증상에 쓰는가 — 기존 항목 연결(dance-therapy-depression-pos) <!-- PubMed PMID 31481910 -->
+- [x] 무용치료 — 골다공증에 쓰는가 — 근거 부족(직접 비교 수치 미확인)
+- [x] 점진적 근육이완 — 치과 불안에 쓰는가 — 항목 생성(progressive-muscle-relaxation-anxiety-pos) <!-- PubMed PMID 30430667 -->
+- [x] 횡격막 호흡 — 노인 불면증에 쓰는가 — 항목 생성(diaphragmatic-breathing-insomnia-pos) <!-- PubMed PMID 40085337·42268268 -->

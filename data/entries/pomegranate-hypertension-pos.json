@@ -1,0 +1,26 @@
+{
+  "id": "pomegranate-hypertension-pos",
+  "subj": "석류 주스",
+  "claim": "혈압을 낮추는가",
+  "line": "석류 주스는 위약보다 수축기·이완기 혈압을 낮췄습니다.",
+  "effect": "수축기혈압 WMD -4.96mmHg",
+  "vs": "석류 주스 위약 대조 RCT 8개 메타분석에서 위약 대비 수축기혈압 WMD -4.96mmHg(95% CI -7.67~-2.25, p<.001), 이완기혈압 WMD -2.01mmHg(-3.71~-0.31, p=.021)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "메타분석 초록에 8개 시험의 전체 참가자 수가 제시되지 않아 n을 추정하지 않았습니다.",
+  "why": "석류 주스와 위약을 비교한 혈압 무작위시험 메타분석의 상대효과를 확인했습니다.",
+  "saw": "수축기·이완기 혈압이 위약보다 낮아졌습니다.",
+  "limit": "시험별 주스 용량·기간과 참가자 특성이 다르며 혈압약 대체효과는 평가하지 않았습니다.",
+  "against": "석류 주스를 혈압약의 대체제로 기록하지 않습니다.",
+  "use": "혈압 보조요법에 대한 석류 주스의 상대효과로 기록합니다.",
+  "refs": [{ "label": "석류 주스 혈압 무작위시험 메타분석", "pmid": "27888156" }],
+  "queried": {
+    "date": "2026-08-15",
+    "pubmed": "pomegranate hypertension randomized placebo; PMID 27888156",
+    "negative": "pomegranate hypertension AND (no effect OR no significant difference)",
+    "safety": "pomegranate hypertension AND (adverse OR toxicity OR harm)"
+  }
+}
