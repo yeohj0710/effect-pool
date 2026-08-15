@@ -1,35 +1,36 @@
 {
- "id": "ledipasvir-hiv-pos",
- "subj": "레디파스비르",
- "claim": "HIV-1과 HCV에 함께 감염된 사람의 HCV 치료에 레디파스비르를 포함한 요법을 사용한다",
- "line": "HIV/HCV 동시감염 레디파스비르 요법 SVR12 96%",
- "effect": "SVR12 96%",
- "tier": "trial",
- "dir": "pos",
- "n": 335,
- "synth": "single",
- "known": "off",
- "knownWhy": "허가사항은 HCV 치료이며 HIV-1/HCV 동시감염 환자에서의 레디파스비르 사용은 별도 허가 적응증으로 분류하지 않았습니다.",
- "why": "HIV 치료를 유지하면서 HCV를 치료할 때 지속 바이러스 반응과 HIV 억제, 약물 상호작용을 함께 확인해야 합니다.",
- "saw": "다기관 단일군 시험에서 HIV-1/HCV 유전자형 1형 또는 4형 동시감염 환자 335명이 레디파스비르·소포스부비르를 12주 받았습니다. SVR12는 322명(96%)이었고 간경변 유무와 이전 치료 여부에 따른 차이는 뚜렷하지 않았습니다. HIV 바이러스 반등은 없었고 이상반응으로 중단한 환자도 없었습니다.",
- "limit": "무작위 대조군이 없는 단일군 시험이며 안정적인 항레트로바이러스 치료를 받는 환자가 중심이었습니다.",
- "against": "두통 25%, 피로 21%, 설사 11%가 있었고 테노포비르를 포함한 항레트로바이러스 요법과의 상호작용을 별도로 관리해야 합니다.",
- "use": "HIV-1/HCV 동시감염 환자에서 레디파스비르를 사용할 때는 항레트로바이러스 약물과 신기능을 확인하고 시험의 대상 조건 안에서만 해석합니다.",
- "refs": [
-  {
-   "label": "Ledipasvir and Sofosbuvir for HCV in Patients Coinfected with HIV-1",
-   "pmid": "26196665"
+  "id": "ledipasvir-hiv-pos",
+  "subj": "레디파스비르",
+  "claim": "HIV-1과 HCV에 함께 감염된 사람의 HCV 치료에 레디파스비르를 포함한 요법을 사용한다",
+  "line": "HIV/HCV 동시감염 레디파스비르 요법 SVR12 96%",
+  "effect": "SVR12 96%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 335,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "허가사항은 HCV 치료이며 HIV-1/HCV 동시감염 환자에서의 레디파스비르 사용은 별도 허가 적응증으로 분류하지 않았습니다.",
+  "why": "HIV 치료를 유지하면서 HCV를 치료할 때 지속 바이러스 반응과 HIV 억제, 약물 상호작용을 함께 확인해야 합니다.",
+  "saw": "다기관 단일군 시험에서 HIV-1/HCV 유전자형 1형 또는 4형 동시감염 환자 335명이 레디파스비르·소포스부비르를 12주 받았습니다. SVR12는 322명(96%)이었고 간경변 유무와 이전 치료 여부에 따른 차이는 뚜렷하지 않았습니다. HIV 바이러스 반등은 없었고 이상반응으로 중단한 환자도 없었습니다.",
+  "limit": "무작위 대조군이 없는 단일군 시험이며 안정적인 항레트로바이러스 치료를 받는 환자가 중심이었습니다.",
+  "against": "두통 25%, 피로 21%, 설사 11%가 있었고 테노포비르를 포함한 항레트로바이러스 요법과의 상호작용을 별도로 관리해야 합니다.",
+  "use": "HIV-1/HCV 동시감염 환자에서 레디파스비르를 사용할 때는 항레트로바이러스 약물과 신기능을 확인하고 시험의 대상 조건 안에서만 해석합니다.",
+  "refs": [
+    {
+      "label": "Ledipasvir and Sofosbuvir for HCV in Patients Coinfected with HIV-1",
+      "pmid": "26196665"
+    },
+    {
+      "label": "ION-4",
+      "nct": "NCT02073656"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "ledipasvir AND HIV · 17건",
+    "pubmed": "ledipasvir AND HIV · 234편; PMID 26196665 PubMed abstract verified 2026-08-15; 335명 단일군 공개시험의 SVR 96%는 동시 대조군 상대효과가 아닙니다.",
+    "negative": "ledipasvir AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) · 167편",
+    "safety": "ledipasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 555편"
   },
-  {
-   "label": "ION-4",
-   "nct": "NCT02073656"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "ledipasvir AND HIV · 17건",
-  "pubmed": "ledipasvir AND HIV · 234편",
-  "negative": "ledipasvir AND HIV AND (no effect OR did not OR failed to OR negative OR no significant difference) · 167편",
-  "safety": "ledipasvir AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 555편"
- }
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 335명 단일군 공개시험의 SVR 96%는 동시 대조군 상대효과가 아닙니다."
 }

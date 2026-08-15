@@ -22,11 +22,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"IVACAFTOR\" → 4건 반환; 당뇨병 적응증 없음",
     "ctgov": "query.intr=ivacaftor&query.cond=Diabetes&countTotal=true&pageSize=1000 → 5건 반환, InterventionName exact 일치 0건",
-    "pubmed": "ivacaftor AND \"Diabetes\" → 115건",
+    "pubmed": "ivacaftor AND \"Diabetes\" → 115건; PMID 40788823,41587755 PubMed abstract verified 2026-08-15; 이바카프토르 단독이 아닌 ETI 병용 공개시험이며, 이바카프토르 단독 효과의 직접 대조 결과가 없습니다.",
     "negative": "ivacaftor AND \"Diabetes\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 29건",
     "safety": "ivacaftor AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 455건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 이바카프토르 단독이 아닌 ETI 병용 공개시험이며, 이바카프토르 단독 효과의 직접 대조 결과가 없습니다."
 }

@@ -3,7 +3,7 @@
   "subj": "로라제팜",
   "claim": "로라제팜은 알코올 금단 증상을 줄인다",
   "line": "알코올 금단에서 로라제팜은 클로르디아제폭사이드와 비슷했지만 어지럼·과민성이 더 흔했습니다",
-  "effect": "CIWA-Ar 감소; 효과 유사",
+  "effect": "알코올 금단 증상 완화",
   "tier": "trial",
   "dir": "pos",
   "n": 100,
@@ -11,19 +11,26 @@
   "known": "standard",
   "knownWhy": "알코올 금단 증후군 벤조디아제핀 표준요법",
   "why": "알코올 금단에서 로라제팜을 다른 벤조디아제핀과 직접 비교한 무작위시험이 있고, 간 기능을 알기 어려울 때 쓰는 표준 선택지다.",
-  "saw": "중등도·비합병 알코올 금단 남성 100명이 로라제팜 8 mg/일 또는 클로르디아제폭사이드 80 mg/일을 8일간 감량 투여받았다. 두 군 모두 CIWA-Ar 점수가 비슷하게 낮아졌고, 로라제팜군에서는 어지럼과 과민성이 더 흔했다.",
-  "limit": "비합병 금단 입원 남성 대상의 고정 용량 시험이며, 중증 금단·금단 섬망·간질환 환자에 그대로 일반화할 수 없다.",
+  "saw": "중등도 비합병 알코올 금단 입원 환자 100명을 로라제팜 8mg/일 또는 클로르디아제폭사이드 80mg/일에 무작위 배정한 이중눈가림시험에서 두 약물의 금단 증상 완화 효과는 비슷했습니다. 다른 111명 비교시험에서는 로라제팜·프레가발린·티아프리드 모두 증상을 줄였고 일부 지표는 프레가발린이 우수했습니다.",
+  "limit": "비합병 금단과 정해진 감량 일정의 결과이며 중증 금단·간질·섬망 환자에게 일반화할 수 없습니다.",
   "against": "다른 무작위시험에서는 고용량 프레가발린이 일부 금단 지표에서 로라제팜보다 우수했지만, 로라제팜 자체의 금단 완화 효과를 부정한 결과는 아니다.",
   "use": "알코올 금단의 표준 벤조디아제핀 선택지로 사용하되 호흡억제, 진정, 의존성과 금단 중증도를 감시한다.",
   "refs": [
-    { "label": "로라제팜과 클로르디아제폭사이드 알코올 금단 무작위시험", "pmid": "19371497" },
-    { "label": "로라제팜·프레가발린·티아프리드 비교시험", "pmid": "20078487" }
+    {
+      "label": "로라제팜과 클로르디아제폭사이드 알코올 금단 무작위시험",
+      "pmid": "19371497"
+    },
+    {
+      "label": "로라제팜·프레가발린·티아프리드 비교시험",
+      "pmid": "20078487"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=lorazepam · cond=Alcohol Withdrawal · 총 12건, 로라제팜 직접 확인 8건",
-    "pubmed": "lorazepam AND Alcohol Withdrawal · 283편",
+    "pubmed": "lorazepam AND Alcohol Withdrawal · 283편; PMID 19371497 PubMed abstract verified 2026-08-15",
     "negative": "lorazepam AND Alcohol Withdrawal AND (no effect OR did not OR failed to OR negative OR no significant difference) · 193편",
     "safety": "lorazepam AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 2693편"
-  }
+  },
+  "vs": "이중눈가림 RCT·n=100: 로라제팜 8mg/일 vs 클로르디아제폭사이드 80mg/일, CIWA 금단 증상 완화 효과 유사; 별도 n=111에서 로라제팜·프레가발린·티아프리드 모두 개선."
 }

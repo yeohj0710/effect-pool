@@ -10,20 +10,28 @@
   "known": "off",
   "knownWhy": "폐암 치료로 허가받은 적 없음",
   "why": "면역능이 있는 동물과 환자유래 이식 모델에서 레플루노마이드 활성대사체가 피리미딘 합성을 막아 LKB1 결손 종양을 억제했습니다.",
-  "saw": "여러 폐암 이식·유전모델에서 종양 성장이 줄었고, 별도 전이 모델에서는 동물의 78%에서 폐 전이가 억제됐습니다.",
-  "limit": "세포·이식·유전 동물모델 결과이며 사람 폐암 환자에서 안전성과 항암 효과를 시험하지 않았습니다.",
+  "saw": "LKB1 결핍 종양의 생쥐 이종이식·유전자변형 모델에서 레플루노마이드는 종양 성장을 줄였고, 별도 폐 전이 모델에서는 동물의 78%에서 폐 전이를 막았습니다. 세포주와 모델별 작용기전은 달랐습니다.",
+  "limit": "세포·생쥐 전임상 연구이며 사람 폐암 치료효과나 안전한 용량을 보여주지 않습니다.",
   "against": "사람 폐암 임상시험 결과는 없고, ClinicalTrials.gov에는 RAS 변이 난치암 20명 모집시험만 등록돼 있습니다.",
   "use": "레플루노마이드 폐암 신호는 LKB1 결손을 선별하는 전임상 가설로만 남아 있습니다.",
-  "effect": "동물 전이 78% 예방",
+  "effect": "LKB1 결핍 종양 성장·전이 억제",
   "refs": [
-    { "label": "Hoxhaj 2021 · Molecular Cancer · LKB1 결손 종양 레플루노마이드 동물시험", "doi": "10.1186/s12943-021-01366-6", "pmid": "33293343" },
-    { "label": "NCT06229340 · RAS 변이 난치암 레플루노마이드 시험", "nct": "NCT06229340" }
+    {
+      "label": "Hoxhaj 2021 · Molecular Cancer · LKB1 결손 종양 레플루노마이드 동물시험",
+      "doi": "10.1186/s12943-021-01366-6",
+      "pmid": "33293343"
+    },
+    {
+      "label": "NCT06229340 · RAS 변이 난치암 레플루노마이드 시험",
+      "nct": "NCT06229340"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=leflunomide, cond=Lung Cancer → 1건 반환·1건 직접 대조",
-    "pubmed": "leflunomide AND Lung Cancer → 20건",
+    "pubmed": "leflunomide AND Lung Cancer → 20건; PMID 33293343 PubMed abstract verified 2026-08-15",
     "negative": "leflunomide AND Lung Cancer AND (no effect OR did not OR failed to OR negative OR no significant difference) → 18건",
     "safety": "leflunomide AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1606건"
-  }
+  },
+  "vs": "LKB1 결핍 생쥐 종양 비교: 레플루노마이드 vs 대조군, 종양 성장 억제; 폐 전이 모델에서 78% 동물의 전이 예방."
 }

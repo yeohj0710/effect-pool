@@ -14,15 +14,30 @@
   "against": "반대 검색에서는 메토트렉세이트 뒤 치료 관련 골수형성이상증후군이 생긴 증례가 확인됐고, 직접 치료시험보다 이식·GVHD 예방 연구가 대부분이었습니다.",
   "use": "자가면역 증상이 동반된 골수형성이상증후군에서 나온 단일 증례 신호로만 기록하며, 치료 효과의 근거로 확대하지 않습니다.",
   "refs": [
-    { "label": "Goh 2003 · Am J Hematol · 피부근염·골수형성이상증후군 증례", "doi": "10.1002/ajh.10430", "pmid": "14587044" },
-    { "label": "Methotrexate-induced myelodysplasia mimicking MDS · 증례", "doi": "10.5045/br.2018.53.4.268", "pmid": "30588461", "pmc": "PMC6300683" },
-    { "label": "Methotrexate toxicity-related hypoplastic MDS · 증례", "doi": "10.7759/cureus.40580", "pmid": "37469807", "pmc": "PMC10352143" }
+    {
+      "label": "Goh 2003 · Am J Hematol · 피부근염·골수형성이상증후군 증례",
+      "doi": "10.1002/ajh.10430",
+      "pmid": "14587044"
+    },
+    {
+      "label": "Methotrexate-induced myelodysplasia mimicking MDS · 증례",
+      "doi": "10.5045/br.2018.53.4.268",
+      "pmid": "30588461",
+      "pmc": "PMC6300683"
+    },
+    {
+      "label": "Methotrexate toxicity-related hypoplastic MDS · 증례",
+      "doi": "10.7759/cureus.40580",
+      "pmid": "37469807",
+      "pmc": "PMC10352143"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "query.intr=methotrexate&query.cond=Myelodysplastic Syndrome → 126건 반환, InterventionName에 methotrexate 포함 83건(대부분 이식·GVHD 예방)",
-    "pubmed": "methotrexate myelodysplastic syndrome → 301건; methotrexate AND \"myelodysplastic syndrome\"[Title] → 56건; 직접 치료 증례 PMID 14587044",
+    "pubmed": "methotrexate myelodysplastic syndrome → 301건; methotrexate AND \"myelodysplastic syndrome\"[Title] → 56건; 직접 치료 증례 PMID 14587044; PMID 14587044,30588461,37469807 PubMed abstract verified 2026-08-15; 메토트렉세이트 반응·독성 증례 자료로 대조군이 없습니다.",
     "negative": "methotrexate myelodysplastic syndrome AND (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 187건; methotrexate AND \"myelodysplastic syndrome\" AND (therapy OR treatment) → 184건",
     "safety": "methotrexate myelodysplastic syndrome AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 176건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 0건; 메토트렉세이트 반응·독성 증례 자료로 대조군이 없습니다."
 }
