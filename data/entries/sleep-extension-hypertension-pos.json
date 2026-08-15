@@ -6,15 +6,32 @@
   "effect": "수축기 혈압 −7.0mmHg",
   "tier": "trial",
   "dir": "pos",
-  "n": 53,
+  "n": 16,
   "synth": "single",
   "known": "off",
   "knownWhy": "수면 연장은 약물이 아닌 행동 중재입니다",
   "why": "수면이 부족한 대학생에서 수면 시간을 늘리는 중재가 혈압과 주간 졸림에 미치는 영향을 평가했습니다",
-  "saw": "대학생 53명이 수면 연장 중재에 참여했고 수면 시간이 늘면서 수축기 혈압이 7.0mmHg 낮아졌습니다",
-  "limit": "젊고 건강한 대학생을 대상으로 한 단일 연구이며 고혈압 환자나 장기 심혈관 결과에 바로 적용할 수 없습니다",
+  "saw": "수면시간이 짧고 전고혈압 또는 1기 고혈압인 성인 16명이 기술 보조 수면 연장군 11명과 자기관리 대조군 5명으로 무작위 배정되었습니다.",
+  "limit": "16명의 파일럿 시험이고 군별 표본이 불균형하며 결과가 예비 효능으로 보고되어 고혈압 치료 효과를 확정할 수 없습니다.",
   "against": "수면 연장이 고혈압 약물 치료를 대신하거나 모든 사람의 혈압을 낮춘다고 단정할 수 없습니다",
   "use": "혈압 관리에서 수면 부족을 교정하는 생활습관 보조 방법으로 검토하고 혈압을 추적합니다",
-  "refs": [{ "label": "대학생 수면 연장과 혈압 연구", "doi": "10.1016/j.sleh.2019.10.003", "pmid": "31753739" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=sleep extension · cond=Hypertension 6건", "pubmed": "sleep extension AND Hypertension 69건", "negative": "sleep extension AND Hypertension AND (no effect OR did not OR failed OR no significant difference) 41건", "safety": "sleep extension AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 424건" }
+  "refs": [
+    {
+      "label": "대학생 수면 연장과 혈압 연구",
+      "doi": "10.1016/j.sleh.2019.10.003",
+      "pmid": "31753739"
+    },
+    {
+      "label": "2026 · PubMed · 전고혈압 성인 기술 보조 수면 연장 무작위 파일럿시험",
+      "pmid": "31739848"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intr=sleep extension · cond=Hypertension 6건",
+    "pubmed": "sleep extension AND Hypertension 69건; PMID 31739848 PubMed abstract verified 2026-08-15",
+    "negative": "sleep extension AND Hypertension AND (no effect OR did not OR failed OR no significant difference) 41건",
+    "safety": "sleep extension AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 424건"
+  },
+  "vs": "기술 보조 수면 연장 11명 vs 자기관리 대조 5명: 6주 총 수면시간 P=.027, 24시간 수축기 혈압 P=.013, 이완기 혈압 P=.026, 수면장애 P=.003, 수면 관련 기능장애 P=.008."
 }

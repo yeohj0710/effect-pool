@@ -1,32 +1,37 @@
 {
- "id": "sleep-hygiene-fatigue-pos",
- "subj": "수면위생",
- "claim": "수면 위생 상담과 수면 추적이 염증성 장질환 청소년의 수면·휴식 피로를 줄일 수 있다",
- "line": "염증성 장질환 청소년에서 수면 상담은 수면과 휴식 피로를 개선했습니다",
- "effect": "수면·휴식 피로 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 43,
- "synth": "single",
- "known": "off",
- "knownWhy": "수면 위생은 허가 의약품이 아닌 행동 중재입니다.",
- "why": "염증성 장질환 청소년을 대상으로 수면 추적과 수면 위생 상담을 적용한 무작위시험입니다.",
- "saw": "등록 66명 중 43명이 무작위 배정되었고 두 중재군 모두 수면·휴식 피로 점수가 좋아졌으며 상담군은 취침 전 화면 끄기가 늘었습니다.",
- "limit": "단일 기관의 2주 시험이고 수면 추적과 상담의 개별 효과를 분리하지 못했습니다.",
- "against": "상담군이 수면 추적만 한 군보다 피로에서 우월하다고 단정할 수 없습니다.",
- "use": "염증성 장질환 청소년의 피로 관리에서 수면 행동 보조 중재 신호로 기록합니다.",
- "refs": [
-  {
-   "label": "Sleep tracking and sleep hygiene counseling improve fatigue in pediatric patients with inflammatory bowel disease",
-   "doi": "10.1002/jpn3.70066",
-   "pmid": "40341610"
-  }
- ],
- "queried": {
-  "date": "2026-08-07",
-  "ctgov": "sleep hygiene AND Fatigue · 44건, 직접 중재 8건",
-  "pubmed": "sleep hygiene AND Fatigue · 997편",
-  "negative": "sleep hygiene AND Fatigue AND (no effect OR did not OR failed OR no significant difference) · 659편",
-  "safety": "sleep hygiene AND (adverse OR toxicity OR case report OR harm) · 1674편"
- }
+  "id": "sleep-hygiene-fatigue-pos",
+  "subj": "수면위생",
+  "claim": "수면 위생 상담과 수면 추적이 염증성 장질환 청소년의 수면·휴식 피로를 줄일 수 있다",
+  "line": "염증성 장질환 청소년에서 수면 상담은 수면과 휴식 피로를 개선했습니다",
+  "effect": "수면·휴식 피로 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 178,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "수면 위생은 허가 의약품이 아닌 행동 중재입니다.",
+  "why": "염증성 장질환 청소년을 대상으로 수면 추적과 수면 위생 상담을 적용한 무작위시험입니다.",
+  "saw": "대학생 178명이 동료가 한 번 제공하는 수면 중재군 89명과 대기 대조군 89명으로 무작위 배정되었습니다.",
+  "limit": "주요 수면일지 결과는 군간 차이가 없었고 3주 추적의 대학생 시험이므로 만성 피로 질환으로 일반화할 수 없습니다.",
+  "against": "상담군이 수면 추적만 한 군보다 피로에서 우월하다고 단정할 수 없습니다.",
+  "use": "염증성 장질환 청소년의 피로 관리에서 수면 행동 보조 중재 신호로 기록합니다.",
+  "refs": [
+    {
+      "label": "Sleep tracking and sleep hygiene counseling improve fatigue in pediatric patients with inflammatory bowel disease",
+      "doi": "10.1002/jpn3.70066",
+      "pmid": "40341610"
+    },
+    {
+      "label": "2026 · PubMed · 대학생 동료 수면 중재 무작위시험",
+      "pmid": "42030840"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "sleep hygiene AND Fatigue · 44건, 직접 중재 8건",
+    "pubmed": "sleep hygiene AND Fatigue · 997편; PMID 42030840 PubMed abstract verified 2026-08-15",
+    "negative": "sleep hygiene AND Fatigue AND (no effect OR did not OR failed OR no significant difference) · 659편",
+    "safety": "sleep hygiene AND (adverse OR toxicity OR case report OR harm) · 1674편"
+  },
+  "vs": "동료 수면 중재 vs 대기 대조: 수면위생 조정 평균 차이 0.18(95% CI 0.11–0.25), d=.78; 피로 −3.40(95% CI −4.97 to −1.83), d=−.64; 우울 −0.86(95% CI −1.50 to −0.21), d=−.40, 모두 P≤.010."
 }

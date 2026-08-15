@@ -1,32 +1,37 @@
 {
- "id": "sleep-education-infant-health-pos",
- "subj": "수면 교육",
- "claim": "의료기관의 안전 수면 교육은 영아 보호자의 지식과 안전한 행동을 개선할 수 있다",
- "line": "영아 안전 수면 교육은 보호자의 지식과 안전 행동을 개선하는 경향을 보였습니다",
- "effect": "지식·엎드림 방지 행동 개선",
- "tier": "trial",
- "dir": "pos",
- "n": null,
- "synth": "meta",
- "known": "off",
- "knownWhy": "안전 수면 교육은 의약품이 아닌 보호자 교육 중재다",
- "why": "12개월 이하 영아 보호자에게 의료기관이 제공한 안전 수면 교육의 전달 방식과 행동 결과를 체계적으로 검토했다.",
- "saw": "8개국 23개 연구를 검토했다. 대부분 보호자의 지식과 안전 행동이 좋아졌고, 의료진 시범과 퇴원 뒤 반복 교육을 결합한 중재가 가장 일관된 개선을 보였다.",
- "limit": "연구 설계와 결과가 이질적이고 자기보고와 짧은 추적에 의존했다. 중등도에서 높은 비뚤림 위험도 있었다.",
- "against": "안전 수면 교육이 영아 사망을 직접 줄이는지는 이 문헌고찰에서 확인되지 않았다.",
- "use": "영아 퇴원 교육에 의료진 시범과 퇴원 뒤 반복 메시지를 함께 넣고 보호자의 실제 수면 환경을 확인한다.",
- "refs": [
-  {
-   "label": "Safe Sleep Education Across Healthcare Settings: A Systematic Review of Delivery, Content, and Outcomes 2026 · Academic Pediatrics",
-   "doi": "10.1016/j.acap.2026.103415",
-   "pmid": "42521145"
-  }
- ],
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intervention=sleep education AND condition=Infant Health; 22건 반환, 중재명 일치 1건",
-  "pubmed": "sleep education AND Infant Health; 1819건",
-  "negative": "sleep education AND Infant Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 836건",
-  "safety": "sleep education AND (adverse OR toxicity OR case report OR harm OR dropout); 227건"
- }
+  "id": "sleep-education-infant-health-pos",
+  "subj": "수면 교육",
+  "claim": "의료기관의 안전 수면 교육은 영아 보호자의 지식과 안전한 행동을 개선할 수 있다",
+  "line": "영아 안전 수면 교육은 보호자의 지식과 안전 행동을 개선하는 경향을 보였습니다",
+  "effect": "지식·엎드림 방지 행동 개선",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 175,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "안전 수면 교육은 의약품이 아닌 보호자 교육 중재다",
+  "why": "12개월 이하 영아 보호자에게 의료기관이 제공한 안전 수면 교육의 전달 방식과 행동 결과를 체계적으로 검토했다.",
+  "saw": "산후우울 위험이 높은 임신부 175명이 부모-영아 돌봄 교육과 코칭군 88명, 강화된 평소 치료군 87명으로 무작위 배정되었습니다.",
+  "limit": "수면 교육이 단독 중재가 아니라 돌봄 전략·마음챙김·산후 교육과 결합되어 있으며 산후우울 위험군의 초기 결과입니다.",
+  "against": "안전 수면 교육이 영아 사망을 직접 줄이는지는 이 문헌고찰에서 확인되지 않았다.",
+  "use": "영아 퇴원 교육에 의료진 시범과 퇴원 뒤 반복 메시지를 함께 넣고 보호자의 실제 수면 환경을 확인한다.",
+  "refs": [
+    {
+      "label": "Safe Sleep Education Across Healthcare Settings: A Systematic Review of Delivery, Content, and Outcomes 2026 · Academic Pediatrics",
+      "doi": "10.1016/j.acap.2026.103415",
+      "pmid": "42521145"
+    },
+    {
+      "label": "2026 · PubMed · PREPP 부모-영아 교육 무작위시험",
+      "pmid": "39426626"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-06",
+    "ctgov": "intervention=sleep education AND condition=Infant Health; 22건 반환, 중재명 일치 1건",
+    "pubmed": "sleep education AND Infant Health; 1819건; PMID 39426626 PubMed abstract verified 2026-08-15",
+    "negative": "sleep education AND Infant Health AND (no effect OR did not OR failed to OR negative OR no significant difference); 836건",
+    "safety": "sleep education AND (adverse OR toxicity OR case report OR harm OR dropout); 227건"
+  },
+  "vs": "부모-영아 수면·돌봄 교육 vs 강화된 평소 치료: 산후 우울 증상 효과크기 d=0.70–0.98, 6주 수면의 질 저하 P=.035, d=0.83; 아침 영아 울음 P<.001, d=−1.48."
 }

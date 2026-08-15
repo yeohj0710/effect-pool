@@ -6,23 +6,31 @@
   "effect": "야간 청색광·우울 증상 연관",
   "tier": "obs",
   "dir": "harm",
-  "n": null,
+  "n": 55,
   "synth": "single",
   "known": "off",
   "knownWhy": "수면 광기기는 비약물 기기이며 야간 청색광 노출은 정신건강 위해 신호를 따로 평가해야 합니다.",
   "why": "청소년의 야간 인공 청색광 노출과 우울 증상을 비교한 환자-대조 연구와 동물 기전 연구입니다.",
-  "saw": "야간 기기 사용 4시간 초과, 청색광 화면 사용과 수면 중 야간등 사용이 청소년의 우울 증상과 유의하게 연관됐습니다. 동물에서는 수면 중 청색광이 우울 유사 행동과 분자 신호를 유발했습니다.",
-  "limit": "사람 자료는 관찰연구라 야간 청색광이 우울 증상을 직접 일으킨다고 확정할 수 없고 초록에 사람 수가 제시되지 않았습니다.",
+  "saw": "취침 전 전자기기를 사용하는 젊은 성인 55명이 청색광 감소 기능 활성화군 29명과 활성 대조군 26명으로 무작위 배정되었습니다.",
+  "limit": "1주 실험이며 청색광 노출 자체의 장기 정신건강 위해를 입증하지 않았습니다. 결과는 수면·정신건강 개선 없음과 사용성 저하에 대한 것입니다.",
   "against": "이 결과는 특정 야간 노출과 우울 증상의 연관 신호이며, 모든 수면 광기기의 임상적 위해를 입증하지 않습니다.",
   "use": "수면 광기기나 야간 화면 노출을 평가할 때 청소년 정신건강 안전성 신호로 기록합니다.",
   "refs": [
-    { "label": "야간 청색광 노출과 우울 증상 기전 연구", "pmid": "41734626" }
+    {
+      "label": "야간 청색광 노출과 우울 증상 기전 연구",
+      "pmid": "41734626"
+    },
+    {
+      "label": "2026 · PubMed · 전자기기 청색광 감소 기능 무작위시험",
+      "pmid": "34176370"
+    }
   ],
   "queried": {
     "date": "2026-08-09",
     "ctgov": "intr=sleep light device, cond=Mental Health · 7건; 중재명 일치 0건",
-    "pubmed": "sleep light device AND Mental Health · 43편",
+    "pubmed": "sleep light device AND Mental Health · 43편; PMID 34176370 PubMed abstract verified 2026-08-15",
     "negative": "sleep light device AND Mental Health AND (no benefit OR no difference OR failed OR ineffective) · 15편",
     "safety": "sleep light device AND Mental Health AND (adverse OR safety OR toxicity OR harm OR dropout) · 12편"
-  }
+  },
+  "vs": "청색광 감소 기능 vs 활성 대조: 1주 후 객관적 수면, 자기보고 수면, 정신건강에서 더 큰 개선이 없었고, 청색광 감소군이 소프트웨어를 더 산만하게 평가하고 더 자주 껐습니다."
 }

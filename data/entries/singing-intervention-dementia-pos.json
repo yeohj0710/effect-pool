@@ -1,32 +1,37 @@
 {
- "id": "singing-intervention-dementia-pos",
- "subj": "노래 중재",
- "claim": "지역사회 거주 치매 환자의 기분과 초조에 노래 중재를 쓴다",
- "line": "노래 중재는 치매의 기분·초조를 개선했지만 삶의 질 근거는 약했습니다",
- "effect": "기분 개선·초조 감소; 삶의 질 불확실",
- "tier": "trial",
- "dir": "pos",
- "n": 361,
- "synth": "meta",
- "known": "off",
- "knownWhy": "노래 중재는 치매 치료의 허가 의약품이 아닌 심리사회적 중재입니다.",
- "why": "지역사회 거주 치매 환자의 노래 중재 연구 14편, 총 361명을 합친 정량적 체계적 고찰입니다.",
- "saw": "고찰에서 노래 중재는 기분을 개선하고 초조를 줄였지만 삶의 질을 유의하게 개선한다는 강한 근거는 없었습니다.",
- "limit": "포함 연구의 결과가 일관되지 않았고 대조군이 없는 연구가 섞여 중재 효과를 확정하기 어렵습니다.",
- "against": "노래 중재가 치매 약물이나 인지 재활을 대체한다는 근거는 아닙니다.",
- "use": "치매 돌봄에서 기분과 행동 증상을 위한 비약물 보조 중재의 제한적 근거로 기록합니다.",
- "refs": [
-  {
-   "label": "Singing interventions for community-dwelling people with dementia systematic review",
-   "doi": "10.1177/14713012241273837",
-   "pmid": "39148243"
-  }
- ],
- "queried": {
-  "date": "2026-08-09",
-  "ctgov": "query.intr=singing intervention AND query.cond=Dementia · 27건 · InterventionName 완전일치 0건",
-  "pubmed": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] · 10건",
-  "negative": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 6건",
-  "safety": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] AND (adverse OR toxicity OR case report OR harm) · 5건"
- }
+  "id": "singing-intervention-dementia-pos",
+  "subj": "노래 중재",
+  "claim": "지역사회 거주 치매 환자의 기분과 초조에 노래 중재를 쓴다",
+  "line": "노래 중재는 치매의 기분·초조를 개선했지만 삶의 질 근거는 약했습니다",
+  "effect": "기분 개선·초조 감소; 삶의 질 불확실",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1097,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "노래 중재는 치매 치료의 허가 의약품이 아닌 심리사회적 중재입니다.",
+  "why": "지역사회 거주 치매 환자의 노래 중재 연구 14편, 총 361명을 합친 정량적 체계적 고찰입니다.",
+  "saw": "치매 음악 기반 치료 무작위시험 22건, 무작위 배정 참여자 1,097명을 검토한 코크란 메타분석입니다.",
+  "limit": "대부분 노래와 수용적 음악이 함께 포함된 음악 중재이며 모든 연구가 기관 거주 치매 환자를 대상으로 했고 근거 질이 낮거나 중간 정도였습니다.",
+  "against": "노래 중재가 치매 약물이나 인지 재활을 대체한다는 근거는 아닙니다.",
+  "use": "치매 돌봄에서 기분과 행동 증상을 위한 비약물 보조 중재의 제한적 근거로 기록합니다.",
+  "refs": [
+    {
+      "label": "Singing interventions for community-dwelling people with dementia systematic review",
+      "doi": "10.1177/14713012241273837",
+      "pmid": "39148243"
+    },
+    {
+      "label": "2026 · PubMed · 치매 음악 기반 치료 코크란 메타분석",
+      "pmid": "30033623"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-09",
+    "ctgov": "query.intr=singing intervention AND query.cond=Dementia · 27건 · InterventionName 완전일치 0건",
+    "pubmed": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] · 10건; PMID 30033623 PubMed abstract verified 2026-08-15",
+    "negative": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] AND (no effect OR did not OR failed OR negative OR no significant difference) · 6건",
+    "safety": "\"singing intervention\" AND \"Dementia\"[Title/Abstract] AND (adverse OR toxicity OR case report OR harm) · 5건"
+  },
+  "vs": "음악 기반 치료 vs 평소 돌봄·다른 활동: 정서적 웰빙·삶의 질 SMD 0.32(95% CI 0.02–0.62), 불안 SMD −0.43(95% CI −0.72 to −0.14), 우울 증상 SMD −0.27(95% CI −0.45 to −0.09), 행동 문제 SMD −0.23(95% CI −0.46 to −0.01)."
 }
