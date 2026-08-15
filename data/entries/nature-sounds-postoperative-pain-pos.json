@@ -1,28 +1,37 @@
 {
-  "id": "nature-sounds-postoperative-pain-pos",
-  "subj": "자연음",
-  "claim": "복강경 담낭절제술 뒤 첫 보행의 통증을 자연음으로 낮춘다",
-  "line": "복강경 수술 후 자연음을 들은 환자는 첫 보행 때 통증이 낮았습니다",
-  "effect": "통증·불안·스트레스 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 70,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "수술 후 통증은 자연음의 허가 적응증이 아닙니다.",
-  "why": "복강경 담낭절제술 환자를 첫 보행 때 자연음 청취와 표준 돌봄에 무작위 배정했습니다.",
-  "saw": "환자 70명을 자연음군과 대조군에 35명씩 배정했습니다. 첫 보행 뒤 자연음군의 통증·불안·스트레스 점수가 대조군보다 낮았고, 수술력 보정 뒤에도 연관이 유지됐습니다.",
-  "limit": "한 번의 첫 보행 직후 평가이고 단일 병동 연구라 장기 통증이나 다른 수술에 일반화하기 어렵습니다.",
-  "against": "섬유근육통의 여러 음향환경 교차시험에서는 도시 소리가 통증을 악화시켰지만 자연음 자체의 독립 효과는 분리하기 어려웠습니다.",
-  "use": "수술 직후 비약물 통증 중재를 연구할 근거로만 기록합니다.",
-  "refs": [
-    { "label": "복강경 담낭절제술 첫 보행 자연음 무작위시험", "pmid": "42423776", "nct": "NCT06848777" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=nature sounds · cond=Pain → 10건 반환, 물질 대조 후 10건",
-    "pubmed": "nature sounds AND Pain → 384편",
-    "negative": "nature sounds AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) → 203편",
-    "safety": "nature sounds AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1395편"
+ "id": "nature-sounds-postoperative-pain-pos",
+ "subj": "자연음",
+ "claim": "복강경 담낭절제술 뒤 첫 보행의 통증을 자연음으로 낮춘다",
+ "line": "복강경 수술 후 자연음을 들은 환자는 첫 보행 때 통증이 낮았습니다",
+ "effect": "통증·불안·스트레스 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 100,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "수술 후 통증은 자연음의 허가 적응증이 아닙니다.",
+ "why": "복강경 담낭절제술 환자를 첫 보행 때 자연음 청취와 표준 돌봄에 무작위 배정했습니다.",
+ "saw": "PubMed 초록은 수술 후 음악·자연음과 조용한 휴식을 무작위 비교하고 통증·이완 VAS의 군별 변화량을 보고했다.",
+ "limit": "한 번의 첫 보행 직후 평가이고 단일 병동 연구라 장기 통증이나 다른 수술에 일반화하기 어렵습니다.",
+ "against": "섬유근육통의 여러 음향환경 교차시험에서는 도시 소리가 통증을 악화시켰지만 자연음 자체의 독립 효과는 분리하기 어려웠습니다.",
+ "use": "수술 직후 비약물 통증 중재를 연구할 근거로만 기록합니다.",
+ "refs": [
+  {
+   "label": "복강경 담낭절제술 첫 보행 자연음 무작위시험",
+   "pmid": "42423776",
+   "nct": "NCT06848777"
+  },
+  {
+   "label": "Music and nature sounds on pain and anxiety in cardiac surgical patients",
+   "pmid": "22314630"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=nature sounds · cond=Pain → 10건 반환, 물질 대조 후 10건",
+  "pubmed": "nature sounds AND Pain → 384편; PMID 22314630 PubMed abstract verified 2026-08-15",
+  "negative": "nature sounds AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) → 203편",
+  "safety": "nature sounds AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 1395편"
+ },
+ "vs": "심장수술 환자 100명(음악·자연음 49명 vs 대조군 51명)에서 2일차 통증 변화량 -1.4±1.4 vs -0.4±1.4(p=0.001), 이완 변화량 1.9±2.7 vs 0.3±2.9(p=0.03)로 중재군이 더 개선됐다."
 }

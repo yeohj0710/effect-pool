@@ -1,20 +1,37 @@
 {
-  "id": "olive-oil-mucositis-pos",
-  "subj": "올리브오일",
-  "claim": "오존화 올리브오일 겔은 임플란트 주위 점막염 관리에 사용되어 염증 지표를 개선했습니다",
-  "line": "오존화 올리브오일 겔은 임플란트 주위 점막염의 지표를 개선했습니다",
-  "effect": "점막염 지표 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "올리브오일은 약물이 아닌 식품이며 오존화 겔의 점막염 사용은 허가 적응증이 아닙니다",
-  "why": "오존화 올리브오일 겔의 국소 적용이 임플란트 주위 점막염 관리에 미치는 효과를 임상시험으로 평가했습니다",
-  "saw": "임플란트 주위 점막염 환자에서 오존화 올리브오일 겔을 국소 적용한 임상시험이 염증과 점막염 지표 개선을 보고했습니다",
-  "limit": "일반 식용 올리브오일이 아닌 오존화 겔의 국소 시험이며 초록에 분석 참가자 수가 제시되지 않았습니다",
-  "against": "오존화 겔의 결과를 먹는 올리브오일의 효과나 암 치료 중 구강 점막염 치료로 확대할 수 없습니다",
-  "use": "치과 영역의 국소 보조 중재 근거로만 검토하고 제품의 멸균·안전성과 표준 치료를 확인합니다",
-  "refs": [{ "label": "오존화 올리브오일 겔과 임플란트 주위 점막염 임상시험", "doi": "10.1615/JLongTermEffMedImplants.2023047323", "pmid": "38305372" }],
-  "queried": { "date": "2026-08-06", "ctgov": "intr=olive oil · cond=Mucositis 5건", "pubmed": "olive oil AND Mucositis 226건", "negative": "olive oil AND Mucositis AND (no effect OR did not OR failed OR no significant difference) 199건", "safety": "olive oil AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 2,917건" }
+ "id": "olive-oil-mucositis-pos",
+ "subj": "올리브오일",
+ "claim": "오존화 올리브오일 겔은 임플란트 주위 점막염 관리에 사용되어 염증 지표를 개선했습니다",
+ "line": "오존화 올리브오일 겔은 임플란트 주위 점막염의 지표를 개선했습니다",
+ "effect": "점막염 지표 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 42,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "올리브오일은 약물이 아닌 식품이며 오존화 겔의 점막염 사용은 허가 적응증이 아닙니다",
+ "why": "오존화 올리브오일 겔의 국소 적용이 임플란트 주위 점막염 관리에 미치는 효과를 임상시험으로 평가했습니다",
+ "saw": "PubMed 초록은 42명 단일맹검 무작위시험에서 올리브오일·꿀·표준관리를 비교하고 구강점막염과 통증의 군 간 결과를 보고했다.",
+ "limit": "일반 식용 올리브오일이 아닌 오존화 겔의 국소 시험이며 초록에 분석 참가자 수가 제시되지 않았습니다",
+ "against": "오존화 겔의 결과를 먹는 올리브오일의 효과나 암 치료 중 구강 점막염 치료로 확대할 수 없습니다",
+ "use": "치과 영역의 국소 보조 중재 근거로만 검토하고 제품의 멸균·안전성과 표준 치료를 확인합니다",
+ "refs": [
+  {
+   "label": "오존화 올리브오일 겔과 임플란트 주위 점막염 임상시험",
+   "doi": "10.1615/JLongTermEffMedImplants.2023047323",
+   "pmid": "38305372"
+  },
+  {
+   "label": "Honey or olive oil for oral mucositis and pain in children with leukemia",
+   "pmid": "36792398"
+  }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=olive oil · cond=Mucositis 5건",
+  "pubmed": "olive oil AND Mucositis 226건; PMID 36792398 PubMed abstract verified 2026-08-15",
+  "negative": "olive oil AND Mucositis AND (no effect OR did not OR failed OR no significant difference) 199건",
+  "safety": "olive oil AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 2,917건"
+ },
+ "vs": "백혈병으로 화학요법을 받는 소아 42명에서 올리브오일 vs 표준관리: 올리브오일군의 구강점막염 통증이 대조군보다 낮았고(p=0.00), 꿀군도 점막염 중증도·통증이 대조군보다 낮았다(p=0.00)."
 }

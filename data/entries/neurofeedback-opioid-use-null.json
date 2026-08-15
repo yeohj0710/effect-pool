@@ -1,32 +1,37 @@
 {
-  "id": "neurofeedback-opioid-use-null",
-  "subj": "뉴로피드백",
-  "claim": "신경되먹임을 오피오이드 사용장애에 쓴다",
-  "line": "신경되먹임 파일럿에서 치료를 완료한 사람은 2명뿐이었습니다",
-  "effect": "치료 완료 2명",
-  "tier": "trial",
-  "dir": "null",
-  "n": 15,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
-  "why": "외래 오피오이드 의존 환자에게 알파·세타 신경되먹임을 더한 파일럿을 확인했습니다",
-  "saw": "참여 의사를 보인 약 15명 중 2명만 치료를 끝내 결과 효능을 해석할 수 없었습니다",
-  "limit": "단일 소규모 실행 가능성 연구이며 대조 효능 자료가 없습니다",
-  "against": "치료 전후 실행 가능성 평가",
-  "use": "오피오이드 사용장애 치료로 권하지 않으며 큰 시험이 필요합니다",
-  "refs": [
-    {
-      "label": "Neurofeedback for opioid dependent patients in an outpatient setting",
-      "doi": "10.1186/s13011-022-00458-2",
-      "pmid": "35428348"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=neurofeedback · cond=Opioid Use: 5건",
-    "pubmed": "neurofeedback AND Opioid Use AND (randomized OR trial OR meta-analysis): 9건",
-    "negative": "neurofeedback AND Opioid Use AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 16건",
-    "safety": "neurofeedback AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 192건"
+ "id": "neurofeedback-opioid-use-null",
+ "subj": "뉴로피드백",
+ "claim": "신경되먹임을 오피오이드 사용장애에 쓴다",
+ "line": "신경되먹임 파일럿에서 치료를 완료한 사람은 2명뿐이었습니다",
+ "effect": "치료 완료 2명",
+ "tier": "trial",
+ "dir": "null",
+ "n": 30,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "비약물 중재이며 해당 적응증 허가를 확인하지 못함",
+ "why": "외래 오피오이드 의존 환자에게 알파·세타 신경되먹임을 더한 파일럿을 확인했습니다",
+ "saw": "PubMed 초록은 3군 무작위 임상시험의 군별 표본 수, 대조 조건, 불안·우울의 사후 및 추적 상대 효과를 보고했다.",
+ "limit": "단일 소규모 실행 가능성 연구이며 대조 효능 자료가 없습니다",
+ "against": "치료 전후 실행 가능성 평가",
+ "use": "오피오이드 사용장애 치료로 권하지 않으며 큰 시험이 필요합니다",
+ "refs": [
+  {
+   "label": "Neurofeedback for opioid dependent patients in an outpatient setting",
+   "doi": "10.1186/s13011-022-00458-2",
+   "pmid": "35428348"
+  },
+  {
+   "label": "LORETA Z-score neurofeedback for depression and anxiety in opioid use disorder",
+   "pmid": "38377950"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=neurofeedback · cond=Opioid Use: 5건",
+  "pubmed": "neurofeedback AND Opioid Use AND (randomized OR trial OR meta-analysis): 9건; PMID 38377950 PubMed abstract verified 2026-08-15",
+  "negative": "neurofeedback AND Opioid Use AND (no effect OR did not OR failed OR negative OR \"no significant difference\"): 16건",
+  "safety": "neurofeedback AND (adverse OR toxicity OR \"case report\" OR overdose OR self-medication): 192건"
+ },
+ "vs": "메타돈 유지치료 중인 오피오이드 사용장애 남성 30명에서 LORETA Z-score 뉴로피드백 vs 주의편향수정 vs 유지치료 대조군: 두 중재군의 불안·우울이 사후 유의하게 감소했고(p<0.05), 뉴로피드백군의 감소가 주의편향수정보다 컸다."
 }
