@@ -1,37 +1,38 @@
 {
- "id": "buspirone-heroin-dependence-pos",
- "subj": "부스피론",
- "claim": "헤로인·아편 의존 환자에서 부스피론은 금단 증상을 낮췄다.",
- "line": "부스피론은 헤로인·아편 의존 환자의 금단 증상을 낮췄다.",
- "effect": "금단 점수↓",
- "tier": "trial",
- "dir": "pos",
- "n": 20,
- "synth": "single",
- "why": "부스피론을 헤로인·아편 금단에 사용한 소규모 이중눈가림 무작위시험에서 객관적·주관적 금단 점수가 낮아졌습니다.",
- "saw": "만성 아편 사용자 20명을 무작위 배정한 이중눈가림시험에서 부스피론군은 위약군보다 객관적 아편 금단 척도와 주관적 금단 척도가 여러 평가일에 낮았습니다. 별도 15명 파일럿시험에서도 부프레노르핀 보조 금단 과정에서 부스피론군의 금단 점수와 수면 지표가 더 크게 개선되었습니다.",
- "limit": "두 시험 모두 표본이 작고 금단 기간의 단기 지표를 평가했습니다. 유지치료, 재발, 장기 금주 효과를 확인한 근거가 아니며 다른 오피오이드 치료와 함께 시행되었습니다.",
- "against": "반대쪽 검색에서는 부스피론 AND (heroin OR opiate OR opioid) dependence AND (no effect OR did not OR failed OR negative OR no significant difference) 18건을 확인했지만, 직접적인 대규모 부정적 무작위시험은 찾지 못했습니다.",
- "use": "오피오이드 금단 증상 완화에 대한 초기 신호가 있으나 표본이 작아 표준 치료를 대체할 근거는 아닙니다.",
- "refs": [
-  {
-   "label": "Rose 2003 · Am J Addict · 아편 금단 이중눈가림시험",
-   "doi": "10.1080/10550490390202776",
-   "pmid": "12851021"
+  "id": "buspirone-heroin-dependence-pos",
+  "subj": "부스피론",
+  "claim": "헤로인·아편 의존 환자에서 부스피론은 금단 증상을 낮췄다.",
+  "line": "부스피론은 헤로인·아편 의존 환자의 금단 증상을 낮췄다.",
+  "effect": "금단 점수 감소",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 20,
+  "synth": "single",
+  "why": "부스피론을 헤로인·아편 금단에 사용한 소규모 이중눈가림 무작위시험에서 객관적·주관적 금단 점수가 낮아졌습니다.",
+  "saw": "만성 아편 사용자 20명을 메타돈 안정화 후 부스피론과 위약에 이중맹검 무작위 배정했습니다. 부스피론군은 13·14·15·17일 객관적 금단 점수와 16일 주관적 금단 점수가 위약보다 낮았습니다.",
+  "limit": "입원 남성 20명의 짧은 금단시험이며 장기 금주나 재발은 평가하지 않았습니다.",
+  "against": "반대쪽 검색에서는 부스피론 AND (heroin OR opiate OR opioid) dependence AND (no effect OR did not OR failed OR negative OR no significant difference) 18건을 확인했지만, 직접적인 대규모 부정적 무작위시험은 찾지 못했습니다.",
+  "use": "오피오이드 금단 증상 완화에 대한 초기 신호가 있으나 표본이 작아 표준 치료를 대체할 근거는 아닙니다.",
+  "refs": [
+    {
+      "label": "Rose 2003 · Am J Addict · 아편 금단 이중눈가림시험",
+      "doi": "10.1080/10550490390202776",
+      "pmid": "12851021"
+    },
+    {
+      "label": "Bergeria 2023 · Exp Clin Psychopharmacol · 오피오이드 금단 파일럿 무작위시험",
+      "doi": "10.1037/pha0000550",
+      "pmid": "35266779",
+      "pmc": "PMC11000212"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "fda": "openFDA drug label search=openfda.substance_name:\"BUSPIRONE\" · 170건 반환",
+    "ctgov": "query.intr=buspirone&query.cond=Heroin Dependence&countTotal=true · 1건 반환",
+    "pubmed": "buspirone AND (heroin OR opiate OR opioid) dependence · 40건 반환; PMID 12851021 PubMed abstract verified 2026-08-15",
+    "negative": "buspirone AND (heroin OR opiate OR opioid) dependence AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 18건 반환",
+    "safety": "buspirone AND (heroin OR opiate OR opioid) dependence AND (adverse OR toxicity OR \"case report\") · 11건 반환"
   },
-  {
-   "label": "Bergeria 2023 · Exp Clin Psychopharmacol · 오피오이드 금단 파일럿 무작위시험",
-   "doi": "10.1037/pha0000550",
-   "pmid": "35266779",
-   "pmc": "PMC11000212"
-  }
- ],
- "queried": {
-  "date": "2026-08-04",
-  "fda": "openFDA drug label search=openfda.substance_name:\"BUSPIRONE\" · 170건 반환",
-  "ctgov": "query.intr=buspirone&query.cond=Heroin Dependence&countTotal=true · 1건 반환",
-  "pubmed": "buspirone AND (heroin OR opiate OR opioid) dependence · 40건 반환",
-  "negative": "buspirone AND (heroin OR opiate OR opioid) dependence AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") · 18건 반환",
-  "safety": "buspirone AND (heroin OR opiate OR opioid) dependence AND (adverse OR toxicity OR \"case report\") · 11건 반환"
- }
+  "vs": "부스피론 vs 위약, n=20: 객관적 금단 p=.040·.025·.035·.035; 주관적 p=.050."
 }

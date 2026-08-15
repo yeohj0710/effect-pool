@@ -14,14 +14,20 @@
   "against": "반대 검색은 관련 증례와 소규모 연구뿐이어서 독립적인 확증 결과를 추가하지 못했습니다.",
   "use": "치료저항성 면역성 혈소판감소증에서 초기 반응 신호로 설명하고 확립된 치료 효과로 표시하지 않습니다.",
   "refs": [
-    { "label": "Zhao 2024 · Am J Hematol · 면역성 혈소판감소증 공개 2상", "doi": "10.1002/ajh.27433", "pmid": "38980207", "nct": "NCT05446831" }
+    {
+      "label": "Zhao 2024 · Am J Hematol · 면역성 혈소판감소증 공개 2상",
+      "doi": "10.1002/ajh.27433",
+      "pmid": "38980207",
+      "nct": "NCT05446831"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.generic_name:\"baricitinib\" → 2건 반환; 류마티스관절염·입원 코로나19·중증 원형탈모증 표시, 면역성 혈소판감소증 문구 없음",
     "ctgov": "query.intr=baricitinib&query.cond=Immune Thrombocytopenia&countTotal=true&pageSize=1000 → 4건 반환, InterventionName 정확 대조 후 2건",
-    "pubmed": "baricitinib AND \"immune thrombocytopenia\" → 6건",
+    "pubmed": "baricitinib AND \"immune thrombocytopenia\" → 6건; PubMed abstract verified 2026-08-15; PMID 38980207은 면역성 혈소판감소증 35명의 공개 단일군 시험으로 대조군이 없습니다.",
     "negative": "baricitinib AND \"immune thrombocytopenia\" AND (\"no effect\" OR \"did not\" OR \"failed to\" OR negative OR \"no significant difference\") → 0건",
     "safety": "baricitinib AND (adverse OR toxicity OR hepatotoxicity OR \"case report\" OR overdose OR \"self-medication\") → 946건"
-  }
+  },
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 없음(0건). PMID 38980207은 면역성 혈소판감소증 35명의 공개 단일군 시험으로 대조군이 없습니다."
 }

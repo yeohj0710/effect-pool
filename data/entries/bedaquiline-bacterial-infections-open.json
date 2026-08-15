@@ -1,41 +1,42 @@
 {
- "id": "bedaquiline-bacterial-infections-open",
- "subj": "베다퀼린",
- "claim": "결핵 외 세균 감염에 베다퀼린을 쓴다",
- "line": "결핵 외 감염에서 사람 치료 결과는 없고 세균 사멸 기전 신호만 있다.",
- "effect": "한센병 313명·유전자 2,074개 변화",
- "tier": "trial",
- "dir": "pos",
- "n": 313,
- "synth": "single",
- "known": "off",
- "knownWhy": "베다퀼린 허가는 폐 다제내성결핵 병용요법이며 결핵 외 세균 감염은 허가 적응증이 아닙니다",
- "why": "결핵균 ATP 합성효소 억제제인 베다퀼린이 다른 세균 감염에서도 숙주 면역을 돕는지 사람 시험과 기전 연구를 확인합니다.",
- "saw": "한센병 접촉자와 HIV 감염자를 대상으로 한 베다퀼린 노출 후 예방시험 NCT05406479는 313명을 완료했고, Mycobacterium abscessus 폐질환 플랫폼시험 NCT07485010은 300명을 대상으로 등록 중입니다. 사람 결과는 아직 확인하지 못했지만 대식세포 실험에서 비결핵 세균의 세포 내 사멸이 증가했습니다.",
- "limit": "사람 임상시험의 결과 논문이 없고, 대식세포 실험은 실제 환자 치료효과를 보여주지 않습니다.",
- "against": "결핵 외 감염에서 베다퀼린의 임상 효능을 확인한 무작위 결과는 찾지 못했습니다.",
- "use": "비결핵성 세균 감염의 숙주표적 치료 후보로만 기록합니다.",
- "refs": [
-  {
-   "label": "Giraud-Gatineau 2020 · bedaquiline과 대식세포 세균 방어",
-   "doi": "10.7554/eLife.55692",
-   "pmid": "32369020",
-   "pmc": "PMC7200153"
+  "id": "bedaquiline-bacterial-infections-open",
+  "subj": "베다퀼린",
+  "claim": "결핵 외 세균 감염에 베다퀼린을 쓴다",
+  "line": "결핵 외 감염에서 사람 치료 결과는 없고 세균 사멸 기전 신호만 있다.",
+  "effect": "한센병 313명·유전자 2,074개 변화",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 313,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "베다퀼린 허가는 폐 다제내성결핵 병용요법이며 결핵 외 세균 감염은 허가 적응증이 아닙니다",
+  "why": "결핵균 ATP 합성효소 억제제인 베다퀼린이 다른 세균 감염에서도 숙주 면역을 돕는지 사람 시험과 기전 연구를 확인합니다.",
+  "saw": "한센병 접촉자와 HIV 감염자를 대상으로 한 베다퀼린 노출 후 예방시험 NCT05406479는 313명을 완료했고, Mycobacterium abscessus 폐질환 플랫폼시험 NCT07485010은 300명을 대상으로 등록 중입니다. 사람 결과는 아직 확인하지 못했지만 대식세포 실험에서 비결핵 세균의 세포 내 사멸이 증가했습니다.",
+  "limit": "사람 임상시험의 결과 논문이 없고, 대식세포 실험은 실제 환자 치료효과를 보여주지 않습니다.",
+  "against": "결핵 외 감염에서 베다퀼린의 임상 효능을 확인한 무작위 결과는 찾지 못했습니다.",
+  "use": "비결핵성 세균 감염의 숙주표적 치료 후보로만 기록합니다.",
+  "refs": [
+    {
+      "label": "Giraud-Gatineau 2020 · bedaquiline과 대식세포 세균 방어",
+      "doi": "10.7554/eLife.55692",
+      "pmid": "32369020",
+      "pmc": "PMC7200153"
+    },
+    {
+      "label": "Bedaquiline 한센병 노출 후 예방시험",
+      "nct": "NCT05406479"
+    },
+    {
+      "label": "Mycobacterium abscessus bedaquiline 플랫폼시험 · 모집 중",
+      "nct": "NCT07485010"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intervention=bedaquiline AND condition=Bacterial Infections; 85건 반환, 34건 직접 대조",
+    "pubmed": "bedaquiline AND Bacterial Infections; 5편; PubMed abstract verified 2026-08-15; PMID 32369020은 사람 대조 임상시험이 아닌 배양 인간 대식세포 전임상 연구입니다.",
+    "negative": "bedaquiline AND Bacterial Infections AND (no effect OR did not OR failed to OR negative); 1편",
+    "safety": "bedaquiline AND (adverse OR toxicity OR hepatotoxicity OR case report); 608편"
   },
-  {
-   "label": "Bedaquiline 한센병 노출 후 예방시험",
-   "nct": "NCT05406479"
-  },
-  {
-   "label": "Mycobacterium abscessus bedaquiline 플랫폼시험 · 모집 중",
-   "nct": "NCT07485010"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "intervention=bedaquiline AND condition=Bacterial Infections; 85건 반환, 34건 직접 대조",
-  "pubmed": "bedaquiline AND Bacterial Infections; 5편",
-  "negative": "bedaquiline AND Bacterial Infections AND (no effect OR did not OR failed to OR negative); 1편",
-  "safety": "bedaquiline AND (adverse OR toxicity OR hepatotoxicity OR case report); 608편"
- }
+  "vs": "PubMed screen: qualifying numeric intervention-versus-control result 없음(0건). PMID 32369020은 사람 대조 임상시험이 아닌 배양 인간 대식세포 전임상 연구입니다."
 }

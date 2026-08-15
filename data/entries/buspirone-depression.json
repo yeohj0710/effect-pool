@@ -8,8 +8,8 @@
   "n": 102,
   "synth": "single",
   "why": "SSRI에 반응하지 않은 주요우울삽화 환자에서 부스피론 보조요법과 위약을 비교한 무작위시험을 확인했습니다.",
-  "saw": "102명이 무작위 배정된 시험에서 전체 환자의 종료 시점 MADRS 차이는 없었고 초기 중증 하위군에서만 제한적 신호가 있었습니다.",
-  "limit": "기존 SSRI에 반응하지 않은 환자의 보조요법 연구이며 부스피론 단독 우울증 치료를 평가하지 않았습니다.",
+  "saw": "SSRI에 반응하지 않은 주요우울장애 외래환자 102명을 부스피론 추가군과 위약 추가군에 무작위 배정했습니다. 전체군의 종료점 차이는 없었지만 초기 1주와 기저 MADRS가 30보다 큰 중증 하위군에서 부스피론군의 감소가 더 컸습니다(p=.034, .026).",
+  "limit": "전체군 종료점에서 우월성이 없고 중증 하위군 결과는 탐색적입니다.",
   "against": "반대 검색 478건을 확인했습니다. 다른 89명 공개 무작위시험에서도 부스피론 보조요법은 우울 증상 전체의 유의한 이득을 보이지 않았습니다.",
   "use": "우울증 치료제로 표시하지 말고, 전체 효과가 없고 중증 하위군에서만 탐색적 신호가 있었던 보조요법 시험으로 설명해야 합니다.",
   "refs": [
@@ -25,11 +25,13 @@
     }
   ],
   "queried": {
-    "date": "2026-08-04",
+    "date": "2026-08-15",
     "fda": "openfda.substance_name:BUSPIRONE → 170건; 허가 문구는 불안장애이며 우울증 적응증 없음",
     "ctgov": "query.intr=buspirone&query.cond=Depression&countTotal=true&pageSize=50 → 7건 반환, InterventionName 대조 후 buspirone 일치 6건",
-    "pubmed": "buspirone AND Depression → 585건",
+    "pubmed": "buspirone AND Depression → 585건; PMID 11465522 PubMed abstract verified 2026-08-15",
     "negative": "buspirone AND Depression AND (no effect OR did not OR failed to OR negative OR null association OR no significant difference) → 478건",
     "safety": "buspirone AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose) → 870건"
-  }
+  },
+  "effect": "중증 하위군 MADRS↓",
+  "vs": "부스피론 추가 vs 위약 추가, n=102: 전체 종료점 NS; MADRS>30 하위군 p=.026."
 }

@@ -3,14 +3,14 @@
   "subj": "부프로피온",
   "claim": "항우울제를 암 관련 피로에 쓴다",
   "line": "암 관련 피로에서 부프로피온은 6주 후 피로를 줄였다.",
-  "effect": "6주 BFI 유의하게 개선",
+  "effect": "암 피로 BFI 개선 p=.006",
   "tier": "trial",
   "dir": "pos",
   "n": 30,
   "synth": "single",
   "why": "부프로피온의 허가사항은 주요우울장애·계절성우울장애이며 암 관련 피로는 허가 적응증이 아닙니다.",
-  "saw": "암 관련 피로 환자 30명을 부프로피온군과 위약군 각각 15명으로 무작위 배정한 이중맹검 시험에서 2주에는 차이가 없었지만 6주 BFI 피로 점수는 부프로피온군에서 유의하게 더 좋아졌습니다. 기능상태와 불안·우울 점수도 6주에 개선됐습니다.",
-  "limit": "30명 규모의 6주 시험이며 암종과 치료 상태가 섞였습니다. 피로를 측정한 결과이지 종양 반응이나 생존을 평가한 결과가 아닙니다.",
+  "saw": "암 관련 피로 환자 30명을 부프로피온 15명과 위약 15명에 6주 이중맹검 무작위 배정했습니다. 2주에는 군 간 차이가 없었지만 6주 BFI 피로 점수와 수행상태가 부프로피온군에서 유의하게 더 개선됐습니다(p=.006).",
+  "limit": "30명의 6주 소규모 시험이며 암종과 치료 상태가 다양합니다.",
   "against": "반대 검색 313건. 결과를 보고한 직접 무작위시험은 작고 짧으며, 암 관련 피로의 장기 효과와 안전성을 확정하지 못했습니다.",
   "use": "암 관련 피로를 줄인 작은 무작위시험이 있지만, 장기 효과와 암종별 차이는 더 확인해야 합니다.",
   "refs": [
@@ -21,11 +21,12 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.substance_name:\"BUPROPION\" → 259건, 주요우울장애·계절성우울장애 적응증 확인",
     "ctgov": "query.intr=bupropion&query.cond=Cancer → 36건 반환, InterventionName 대조 후 bupropion 26건",
-    "pubmed": "bupropion Cancer → 413건",
+    "pubmed": "bupropion Cancer → 413건; PMID 32106832 PubMed abstract verified 2026-08-15",
     "negative": "bupropion Cancer (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 313건",
     "safety": "bupropion Cancer (adverse OR toxicity OR case report OR overdose OR self-medication) → 152건"
-  }
+  },
+  "vs": "부프로피온 n=15 vs 위약 n=15: 6주 BFI 피로 개선(p=.006); 총 n=30."
 }

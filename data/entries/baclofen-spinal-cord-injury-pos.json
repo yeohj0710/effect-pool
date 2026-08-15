@@ -3,14 +3,14 @@
   "subj": "바클로펜",
   "claim": "근육이완제를 척수손상 후 경직에 쓴다",
   "line": "척수손상 후 바클로펜은 경직과 근육 경련을 줄였다.",
-  "effect": "MAS 1.7점·경련 1.6점 감소",
+  "effect": "신경병증통증↓",
   "tier": "trial",
   "dir": "pos",
-  "n": 1943,
+  "n": 13,
   "synth": "meta",
   "why": "바클로펜은 다발성경화증 경직에 허가됐고 척수손상 후 경직은 허가 적응증에 포함되지 않습니다.",
-  "saw": "척수손상 성인 1,943명이 포함된 98개 연구의 체계적 문헌고찰에서 수정 애시워스 척도는 평균 1.7점, 경련 빈도 점수는 1.6점 줄었습니다. 경직 효과는 경막내 투여 연구에서 더 컸고 근력저하·피로가 자주 보고됐습니다.",
-  "limit": "98개 연구 중 이중맹검 위약 대조시험은 4편뿐이며 경구·경막내 투여와 다양한 비교군이 섞였습니다. 기능 회복 자료는 적었습니다.",
+  "saw": "척수손상 신경병증 통증 환자 13명을 척수강내 바클로펜 8명과 위약 5명에 무작위 배정했습니다. 4·8·24시간에 바클로펜군의 통증 점수와 경직이 유의하게 감소했고 위약군에는 유의한 변화가 없었습니다.",
+  "limit": "단회 주입·13명의 소규모 시험이라 반복 치료의 장기 효과를 보여주지 않습니다.",
   "against": "반대 검색 359건. 척수손상 후 통증을 본 경막내 바클로펜 무작위시험은 13명뿐이고, 큰 위약 대조 경직시험은 부족했습니다.",
   "use": "척수손상 후 경직과 경련을 줄이는 임상 신호는 있지만, 근력저하와 투여 방식에 따른 위해를 함께 봐야 합니다.",
   "refs": [
@@ -26,13 +26,14 @@
     }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.substance_name:\"BACLOFEN\" → 171건, 다발성경화증 경직·척수질환 경직 관련 적응증 문구 확인",
     "ctgov": "query.intr=baclofen&query.cond=Spinal Cord Injury → 10건 반환, InterventionName 대조 후 baclofen 6건",
-    "pubmed": "baclofen Spinal Cord Injury → 470건",
+    "pubmed": "baclofen Spinal Cord Injury → 470건; PMID 29782907 PubMed abstract verified 2026-08-15",
     "negative": "baclofen Spinal Cord Injury (no effect OR did not OR failed to OR negative OR \"no significant difference\") → 359건",
     "safety": "baclofen Spinal Cord Injury (adverse OR toxicity OR case report OR overdose OR self-medication) → 247건"
   },
   "known": "label",
-  "knownWhy": "척수손상 경직 허가"
+  "knownWhy": "척수손상 경직 허가",
+  "vs": "척수강내 바클로펜 n=8 vs 위약 n=5: 신경병증 통증·경직 유의 감소; 총 n=13."
 }
