@@ -1,28 +1,37 @@
 {
-  "id": "progressive-relaxation-pain-pos",
-  "subj": "점진적 이완",
-  "claim": "만성 긴장형 두통의 통증과 기능장애에 점진적 근육 이완을 쓰는가",
-  "line": "점진적 근육 이완 뒤 만성 긴장형 두통의 통증·기능장애가 줄었습니다.",
-  "effect": "통증·기능장애 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 169,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "점진적 이완은 약물이 아닌 비약물 중재이며 두통의 허가 치료가 아닙니다.",
-  "why": "만성 긴장형 두통 환자 169명을 점진적 근육 이완·복식호흡 중재군과 대조군에 무작위 배정했습니다.",
-  "saw": "12주 뒤 중재군 84명은 통증 강도와 장애가 낮아지고 수면의 질이 좋아졌다고 보고했습니다.",
-  "limit": "초록에는 군 간 효과크기와 대조군의 정확한 결과가 충분히 제시되지 않았고 중재가 복식호흡과 함께 제공됐습니다.",
-  "against": "점진적 이완 단독이 모든 만성 통증의 원인이나 두통을 치료한다는 근거는 아닙니다.",
-  "use": "만성 긴장형 두통의 표준 평가·치료에 더하는 이완 훈련으로 검토하고 과용 진통제 여부를 함께 확인합니다.",
-  "refs": [
-    { "label": "만성 긴장형 두통 점진적 이완·복식호흡 무작위시험", "doi": "10.1097/HNP.0000000000000460", "pmid": "34054116" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=progressive relaxation · cond=Pain · 164건 반환",
-    "pubmed": "progressive relaxation AND Pain · 533편; trial 검색 280편",
-    "negative": "progressive relaxation AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 94편",
-    "safety": "progressive relaxation AND (adverse OR toxicity OR case report OR harm OR dropout) · 358편"
+ "id": "progressive-relaxation-pain-pos",
+ "subj": "점진적 이완",
+ "claim": "만성 긴장형 두통의 통증과 기능장애에 점진적 근육 이완을 쓰는가",
+ "line": "점진적 근육 이완 뒤 만성 긴장형 두통의 통증·기능장애가 줄었습니다.",
+ "effect": "통증·기능장애 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 74,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "점진적 이완은 약물이 아닌 비약물 중재이며 두통의 허가 치료가 아닙니다.",
+ "why": "만성 긴장형 두통 환자 169명을 점진적 근육 이완·복식호흡 중재군과 대조군에 무작위 배정했습니다.",
+ "saw": "PubMed 초록은 관상동맥조영술 전 30분 점진적 이완 운동을 시행한 74명 무작위 대조시험에서 통증과 불안은 낮고 안락감은 높았다고 수치로 보고했다.",
+ "limit": "초록에는 군 간 효과크기와 대조군의 정확한 결과가 충분히 제시되지 않았고 중재가 복식호흡과 함께 제공됐습니다.",
+ "against": "점진적 이완 단독이 모든 만성 통증의 원인이나 두통을 치료한다는 근거는 아닙니다.",
+ "use": "만성 긴장형 두통의 표준 평가·치료에 더하는 이완 훈련으로 검토하고 과용 진통제 여부를 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "만성 긴장형 두통 점진적 이완·복식호흡 무작위시험",
+   "doi": "10.1097/HNP.0000000000000460",
+   "pmid": "34054116"
+  },
+  {
+   "pmid": "41739828",
+   "label": "관상동맥조영술 전 점진적 이완 운동 무작위 대조시험"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=progressive relaxation · cond=Pain · 164건 반환",
+  "pubmed": "progressive relaxation AND Pain · 533편; trial 검색 280편; PMID 41739828 PubMed abstract verified 2026-08-15",
+  "negative": "progressive relaxation AND Pain AND (no effect OR did not OR failed OR negative OR no significant difference) · 94편",
+  "safety": "progressive relaxation AND (adverse OR toxicity OR case report OR harm OR dropout) · 358편"
+ },
+ "vs": "관상동맥조영술 환자 74명에서 시술 전 점진적 이완 운동군 vs 표준 진료군: 통증 0.45±0.83 vs 1.02±1.23, 상태불안 39.78±6.84 vs 44.75±7.51, 안락감 77.13±7.67 vs 72.81±7.39였고 각각 p=0.033, p=0.004, p=0.016이었다."
 }

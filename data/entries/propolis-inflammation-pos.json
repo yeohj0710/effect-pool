@@ -1,32 +1,37 @@
 {
-  "id": "propolis-inflammation-pos",
-  "subj": "프로폴리스",
-  "claim": "강황·프로폴리스 복합제가 혈액투석 환자의 염증 표지를 줄인다",
-  "line": "강황·프로폴리스 복합제가 혈액투석 환자의 일부 염증 표지를 줄였습니다.",
-  "effect": "일부 염증 표지 감소",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 40,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "프로폴리스 복합제는 혈액투석 염증의 허가 치료 적응증이 아닙니다.",
-  "why": "혈액투석 환자에서 강황과 녹색 프로폴리스가 든 미세캡슐을 위약과 비교한 무작위 이중맹검시험입니다.",
-  "saw": "40명을 두 군으로 배정하고 38명이 완료했습니다. 강황·프로폴리스군에서 C반응단백과 MIP-1이 줄었지만 요독물질은 변하지 않았습니다.",
-  "limit": "프로폴리스 단독이 아닌 강황 병용이고 표본이 작으며 장기 임상 결과를 확인하지 않았습니다.",
-  "against": "염증 표지 감소가 혈액투석 환자의 생존이나 신장 기능 회복을 입증하지는 않습니다.",
-  "use": "혈액투석 환자의 염증 보조요법에서 프로폴리스 복합제의 탐색적 신호로 기록합니다.",
-  "refs": [
-    {
-      "label": "혈액투석 환자 강황·프로폴리스 미세캡슐 무작위시험",
-      "doi": "10.3390/life15060891",
-      "pmid": "40566544"
-    }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=propolis · cond=Inflammation 12건 반환, 물질 일치 12건",
-    "pubmed": "propolis AND Inflammation 575건",
-    "negative": "propolis AND Inflammation AND (no effect OR did not OR failed OR negative OR no significant difference) 517건",
-    "safety": "propolis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1214건"
+ "id": "propolis-inflammation-pos",
+ "subj": "프로폴리스",
+ "claim": "강황·프로폴리스 복합제가 혈액투석 환자의 염증 표지를 줄인다",
+ "line": "강황·프로폴리스 복합제가 혈액투석 환자의 일부 염증 표지를 줄였습니다.",
+ "effect": "일부 염증 표지 감소",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 1139,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "프로폴리스 복합제는 혈액투석 염증의 허가 치료 적응증이 아닙니다.",
+ "why": "혈액투석 환자에서 강황과 녹색 프로폴리스가 든 미세캡슐을 위약과 비교한 무작위 이중맹검시험입니다.",
+ "saw": "PubMed 초록은 성인 프로폴리스 보충 무작위시험 20건을 합쳐 IL-6와 TNF-α는 감소했지만 CRP 전체 효과는 유의하지 않았다고 보고했다.",
+ "limit": "프로폴리스 단독이 아닌 강황 병용이고 표본이 작으며 장기 임상 결과를 확인하지 않았습니다.",
+ "against": "염증 표지 감소가 혈액투석 환자의 생존이나 신장 기능 회복을 입증하지는 않습니다.",
+ "use": "혈액투석 환자의 염증 보조요법에서 프로폴리스 복합제의 탐색적 신호로 기록합니다.",
+ "refs": [
+  {
+   "label": "혈액투석 환자 강황·프로폴리스 미세캡슐 무작위시험",
+   "doi": "10.3390/life15060891",
+   "pmid": "40566544"
+  },
+  {
+   "pmid": "39490733",
+   "label": "프로폴리스 염증 바이오마커 무작위시험 메타분석"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=propolis · cond=Inflammation 12건 반환, 물질 일치 12건",
+  "pubmed": "propolis AND Inflammation 575건; PMID 39490733 PubMed abstract verified 2026-08-15",
+  "negative": "propolis AND Inflammation AND (no effect OR did not OR failed OR negative OR no significant difference) 517건",
+  "safety": "propolis AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) 1214건"
+ },
+ "vs": "프로폴리스 보충 무작위시험 20건, 1,139명 메타분석에서 대조군 대비 IL-6 WMD -2.48(95% CI -4.62~-0.34, p=0.023), TNF-α WMD -0.86(95% CI -1.45~-0.26, p=0.005)였고 CRP는 WMD 0.01(95% CI -0.03~0.05, p=0.646)로 차이가 없었다."
 }

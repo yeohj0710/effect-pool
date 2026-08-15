@@ -6,12 +6,12 @@
  "effect": "FMA-LE·MBI 개선",
  "tier": "trial",
  "dir": "pos",
- "n": 60,
+ "n": 39,
  "synth": "single",
  "known": "off",
  "knownWhy": "외골격 로봇 재활은 편마비 뇌졸중의 허가 적응증이 아닌 실험적 재활 중재입니다",
  "why": "편마비 뇌졸중 환자 60명을 무작위 배정해 외골격 로봇 보행훈련과 치료사 보행훈련을 비교한 시험입니다",
- "saw": "두 군 30명씩이 3주 동안 기존 물리·작업치료에 외골격 로봇 훈련 또는 치료사 보행훈련을 더했습니다. 로봇군은 하지 Fugl-Meyer 운동점수와 일상생활 점수가 더 크게 좋아졌습니다",
+ "saw": "PubMed 초록은 두 군 모두 일반 재활을 받고 추가 훈련을 로봇 또는 수기로 수행한 단일맹검 무작위시험에서 고유수용성 신경근 촉진 로봇치료의 추가 효과를 보고했다.",
  "limit": "단일 기관의 3주 시험이고 장기 보행 유지나 퇴원 후 기능은 확인하지 않았습니다",
  "against": "두 군 모두 운동기능이 좋아졌고 로봇군의 우월성이 모든 기능 지표에서 확인된 것은 아닙니다",
  "use": "외골격 로봇은 단기 운동기능 보조 효과와 장기 독립생활 효과를 나눠 평가합니다",
@@ -20,13 +20,18 @@
    "label": "Lower limb exoskeleton robot-assisted rehabilitation in hemiplegic stroke · 무작위시험",
    "doi": "10.1186/s12883-026-04975-6",
    "pmid": "42144590"
+  },
+  {
+   "pmid": "42049149",
+   "label": "뇌졸중 편마비 환자의 고유수용성 신경근 촉진 로봇치료 무작위시험"
   }
  ],
  "queried": {
-  "date": "2026-08-11",
+  "date": "2026-08-15",
   "ctgov": "\"rehabilitation robot\" AND \"Hemiplegia\" → 20건 반환, intervention 이름 대조 통과 1건",
-  "pubmed": "\"rehabilitation robot\" AND \"Hemiplegia\" → 38건, PMID 42144590 직접 결과",
+  "pubmed": "\"rehabilitation robot\" AND \"Hemiplegia\" → 38건, PMID 42144590 직접 결과; PMID 42049149 PubMed abstract verified 2026-08-15",
   "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 3건",
   "safety": "\"rehabilitation robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 18건"
- }
+ },
+ "vs": "뇌졸중 환자 39명에서 고유수용성 신경근 촉진 로봇치료 20명 vs 수기 훈련 19명: 8주 후 Fugl-Meyer 상지, ARAT, Box and Block, Nine-Hole Peg, 경직도가 로봇군에서 더 크게 개선됐고 손목 굴근·팔꿈치 굴근 감소의 로봇군 소속 오즈는 각각 8.065배와 5.051배였다."
 }

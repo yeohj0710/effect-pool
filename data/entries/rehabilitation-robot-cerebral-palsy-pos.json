@@ -6,12 +6,12 @@
  "effect": "6주·18회 훈련 후 감각기능 개선",
  "tier": "trial",
  "dir": "pos",
- "n": 16,
+ "n": 90,
  "synth": "single",
  "known": "off",
  "knownWhy": "로봇 발목 훈련은 뇌성마비 치료의 허가 적응증이 아닌 실험적 재활 중재입니다",
  "why": "뇌성마비 아동 8명에게 로봇 발목 훈련을 시행하고 발달 아동 8명과 감각운동 지표를 비교한 사람 시험입니다",
- "saw": "뇌성마비 아동 8명이 6주 동안 주 3회, 총 18회의 로봇 발목 훈련을 받았습니다. 발목 고유수용감각과 임상·생체역학 지표를 전후로 평가했습니다",
+ "saw": "PubMed 초록은 6주간 18회 착용형 로봇 보행훈련을 표준 물리치료와 비교한 다기관 무작위 임상시험에서 총 운동기능과 보행 지표가 개선됐다고 보고했다.",
  "limit": "뇌성마비 아동은 8명뿐이고 무작위 대조군이 없으며 훈련 후 장기 기능을 추적하지 않았습니다",
  "against": "발달 아동 8명은 감각운동 비교 기준이었고 치료 대조군이 아니어서 로봇 효과와 자연 변화는 분리하기 어렵습니다",
  "use": "소규모 감각운동 신호로 기록하고 일상 기능 회복 근거로 확대하지 않습니다",
@@ -20,13 +20,18 @@
    "label": "Robotic Ankle Training Improves Sensorimotor Functions in Children with Cerebral Palsy · 파일럿 시험",
    "doi": "10.3390/jcm12041475",
    "pmid": "36836010"
+  },
+  {
+   "pmid": "39037815",
+   "label": "뇌성마비 아동의 착용형 로봇 보행훈련 무작위 임상시험"
   }
  ],
  "queried": {
-  "date": "2026-08-11",
+  "date": "2026-08-15",
   "ctgov": "\"rehabilitation robot\" AND \"Cerebral Palsy\" → 52건 반환, intervention 이름 대조 통과 1건",
-  "pubmed": "\"rehabilitation robot\" AND \"Cerebral Palsy\" → 15건, PMID 36836010 직접 결과",
+  "pubmed": "\"rehabilitation robot\" AND \"Cerebral Palsy\" → 15건, PMID 36836010 직접 결과; PMID 39037815 PubMed abstract verified 2026-08-15",
   "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR no significant difference) → 1건",
   "safety": "\"rehabilitation robot\" AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 18건"
- }
+ },
+ "vs": "뇌성마비 아동 90명 무작위시험에서 착용형 로봇 보행훈련 37명 vs 표준 물리치료 41명 분석: GMFM-88 군 간 평균차 2.64(95% CI 0.50~4.78), GMFM-E 2.70(0.08~5.33), GMFM-66 1.31(0.01~2.60)였고 4주 추적 균형 차이는 1.48(0.03~2.94)이었다. KCT0006273."
 }
