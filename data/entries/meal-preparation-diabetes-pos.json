@@ -1,32 +1,33 @@
 {
- "id": "meal-preparation-diabetes-pos",
- "subj": "식사 준비",
- "claim": "식사 준비 훈련을 제2형 당뇨병 관리에 쓴다",
- "line": "식사 준비 훈련은 제2형 당뇨병 성인의 체중·당화혈색소(HbA1c)를 낮췄습니다",
- "effect": "체중 -2.2%, HbA1c -0.3%",
- "tier": "trial",
- "dir": "pos",
- "n": 72,
- "synth": "single",
- "known": "off",
- "knownWhy": "식사 준비 훈련은 허가 적응증을 적용하지 않는 비약물 행동 중재입니다.",
- "why": "제2형 당뇨병 성인 72명이 요리사와 균형 잡힌 저열량 식사를 준비하고 영양사 교육과 보수계 자기관리를 병행한 24주 단일군 2상 시험입니다.",
- "saw": "72명 중 53명이 24주 평가를 마쳤습니다. 식사 조절감 점수는 11.2점, 걸음 수는 하루 869보, 체중은 2.2%, HbA1c는 0.3% 줄었고 수축기 혈압은 3.5 mmHg 줄어드는 경향이었습니다.",
- "limit": "대조군이 없는 단일군 시험이고 53명만 평가를 마쳤으며 식사 준비 훈련, 영양 교육, 걷기 기록의 효과를 나눌 수 없습니다.",
- "against": "수축기 혈압 결과는 통계적으로 유의하지 않았고 약물치료를 받는 제2형 당뇨병 환자의 단기 결과입니다.",
- "use": "식사 준비를 포함한 생활습관 프로그램의 예비 근거로만 사용하며 당뇨병 치료를 대신하지 않습니다.",
- "refs": [
-  {
-   "label": "Effects of meal preparation training on body weight, glycemia, and blood pressure · 2상 시험",
-   "doi": "10.1186/1479-5868-9-125",
-   "pmid": "23075398"
-  }
- ],
- "queried": {
-  "date": "2026-08-07",
-  "ctgov": "query.intr=meal preparation AND query.cond=Diabetes → 89건, meal preparation 개입명 직접 일치 0건",
-  "pubmed": "meal preparation AND Diabetes → 575건; 제목·초록 정확검색 → 28건",
-  "negative": "meal preparation AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) → 363건",
-  "safety": "meal preparation AND (adverse OR toxicity OR case report OR harm OR dropout) → 693건"
- }
+  "id": "meal-preparation-diabetes-pos",
+  "subj": "식사 준비",
+  "claim": "식사 준비 훈련을 제2형 당뇨병 관리에 쓴다",
+  "line": "식사 준비 훈련은 제2형 당뇨병 성인의 체중·당화혈색소(HbA1c)를 낮췄습니다",
+  "effect": "체중 -2.2%, HbA1c -0.3%",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 72,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "식사 준비 훈련은 허가 적응증을 적용하지 않는 비약물 행동 중재입니다.",
+  "why": "제2형 당뇨병 성인 72명이 요리사와 균형 잡힌 저열량 식사를 준비하고 영양사 교육과 보수계 자기관리를 병행한 24주 단일군 2상 시험입니다.",
+  "saw": "72명 중 53명이 24주 평가를 마쳤습니다. 식사 조절감 점수는 11.2점, 걸음 수는 하루 869보, 체중은 2.2%, HbA1c는 0.3% 줄었고 수축기 혈압은 3.5 mmHg 줄어드는 경향이었습니다.",
+  "limit": "대조군이 없는 단일군 시험이고 53명만 평가를 마쳤으며 식사 준비 훈련, 영양 교육, 걷기 기록의 효과를 나눌 수 없습니다.",
+  "against": "수축기 혈압 결과는 통계적으로 유의하지 않았고 약물치료를 받는 제2형 당뇨병 환자의 단기 결과입니다.",
+  "use": "식사 준비를 포함한 생활습관 프로그램의 예비 근거로만 사용하며 당뇨병 치료를 대신하지 않습니다.",
+  "refs": [
+    {
+      "label": "Effects of meal preparation training on body weight, glycemia, and blood pressure · 2상 시험",
+      "doi": "10.1186/1479-5868-9-125",
+      "pmid": "23075398"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-07",
+    "ctgov": "query.intr=meal preparation AND query.cond=Diabetes → 89건, meal preparation 개입명 직접 일치 0건",
+    "pubmed": "meal preparation AND Diabetes → 575건; 제목·초록 정확검색 → 28건",
+    "negative": "meal preparation AND Diabetes AND (no effect OR did not OR failed OR negative OR no significant difference) → 363건",
+    "safety": "meal preparation AND (adverse OR toxicity OR case report OR harm OR dropout) → 693건"
+  },
+  "vs": "식사 준비·만보계 훈련 vs 기초선(대조군 없음), 제2형 당뇨병 72명 24주 프로그램(53명 완료): 식사조절 WEL +11.2점(95% CI 4.7~17.8), 걸음 수 +869보/일(198~1,540), 체중 -2.2%(-3.6~-0.8), HbA1c -0.3%(-0.6~-0.1), 단일군 전후 연구"
 }
