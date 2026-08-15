@@ -1,28 +1,36 @@
 {
-  "id": "collagen-peptides-knee-injuries-animal-pos",
-  "subj": "콜라겐 펩타이드",
-  "claim": "저분자 콜라겐 펩타이드가 무릎 인대 손상 뒤 연골 변화를 줄인다",
-  "line": "무릎 손상 동물 모델에서 저분자 콜라겐 펩타이드는 연골 보존 신호를 보였다.",
-  "effect": "연골 손상·골극 감소",
-  "tier": "animal",
-  "dir": "pos",
-  "n": null,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "무릎 인대 손상 치료는 콜라겐 펩타이드의 허가 적응증이 아닙니다.",
-  "why": "저분자 콜라겐 펩타이드를 아킬레스건·내측측부인대 손상과 전방십자인대 절단 토끼 모델에서 시험했습니다.",
-  "saw": "전방십자인대 절단 토끼에서 저분자 콜라겐 펩타이드는 연골 표면 손상·프로테오글리칸 소실·골극 형성을 줄이고 제2형 콜라겐 발현을 높였습니다. 사람 연골세포 실험에서도 염증성 사이토카인과 MMP가 줄었습니다.",
-  "limit": "주요 결과가 동물과 세포실험이라 사람의 무릎 손상 회복이나 경구 흡수 효과를 판단할 수 없습니다.",
-  "against": "사람 무릎 손상 환자에게 콜라겐 펩타이드를 투여한 임상효과는 이 조회에서 확인하지 못했습니다.",
-  "use": "무릎 손상 뒤 연골 보호를 탐색하는 전임상 가설로만 기록합니다.",
-  "refs": [
-    { "label": "저분자 콜라겐 펩타이드 무릎 손상 동물·세포실험", "pmid": "41016815" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=collagen peptides · cond=Knee Injuries → 4건 반환, 물질 대조 후 4건",
-    "pubmed": "collagen peptides AND Knee Injuries → 210편",
-    "negative": "collagen peptides AND Knee Injuries AND (no effect OR did not OR failed OR negative OR no significant difference) → 117편",
-    "safety": "collagen peptides AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9074편"
+ "id": "collagen-peptides-knee-injuries-animal-pos",
+ "subj": "콜라겐 펩타이드",
+ "claim": "저분자 콜라겐 펩타이드가 무릎 인대 손상 뒤 연골 변화를 줄인다",
+ "line": "무릎 손상 동물 모델에서 저분자 콜라겐 펩타이드는 연골 보존 신호를 보였다.",
+ "effect": "연골 손상·골극 감소",
+ "tier": "animal",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "무릎 인대 손상 치료는 콜라겐 펩타이드의 허가 적응증이 아닙니다.",
+ "why": "저분자 콜라겐 펩타이드를 아킬레스건·내측측부인대 손상과 전방십자인대 절단 토끼 모델에서 시험했습니다.",
+ "saw": "전방십자인대 절단 토끼에서 저분자 콜라겐 펩타이드는 연골 표면 손상·프로테오글리칸 소실·골극 형성을 줄이고 제2형 콜라겐 발현을 높였습니다. 사람 연골세포 실험에서도 염증성 사이토카인과 MMP가 줄었습니다.",
+ "limit": "주요 결과가 동물과 세포실험이라 사람의 무릎 손상 회복이나 경구 흡수 효과를 판단할 수 없습니다.",
+ "against": "사람 무릎 손상 환자에게 콜라겐 펩타이드를 투여한 임상효과는 이 조회에서 확인하지 못했습니다.",
+ "use": "무릎 손상 뒤 연골 보호를 탐색하는 전임상 가설로만 기록합니다.",
+ "refs": [
+  {
+   "label": "저분자 콜라겐 펩타이드 무릎 손상 동물·세포실험",
+   "pmid": "41016815"
+  },
+  {
+   "label": "콜라겐 펩타이드 무릎 손상 무작위시험",
+   "pmid": "39755603"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=collagen peptides · cond=Knee Injuries → 4건 반환, 물질 대조 후 4건",
+  "pubmed": "collagen peptides AND Knee Injuries → 210편; PMID 39755603 PubMed abstract verified 2026-08-15",
+  "negative": "collagen peptides AND Knee Injuries AND (no effect OR did not OR failed OR negative OR no significant difference) → 117편",
+  "safety": "collagen peptides AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 9074편"
+ },
+ "vs": "콜라겐 펩타이드+가수분해 콜라겐 vs 위약: 반월상연골병증 남성 32명(17 vs 15), 8주; 통증·삶의 질·운동공포·발 기능 p<.05, 다리 근력 p=.057"
 }
