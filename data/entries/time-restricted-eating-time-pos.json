@@ -1,28 +1,37 @@
 {
-  "id": "time-restricted-eating-time-pos",
-  "subj": "시간 제한 식사",
-  "claim": "시간 제한 식사는 섭취 시간과 생체리듬을 조정해 체중·대사 지표를 개선할 가능성이 있습니다",
-  "line": "시간 제한 식사로 체중과 대사 지표가 개선됐습니다",
-  "effect": "체중·대사 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": null,
-  "synth": "meta",
-  "known": "off",
-  "knownWhy": "시간 제한 식사는 의약품 허가 적응증이 아닌 식이 중재입니다.",
-  "why": "하루 섭취 창을 일정하게 제한하면 칼로리 섭취와 식사 시점을 조절하고 생체리듬과 대사를 맞출 가능성이 있습니다.",
-  "saw": "인간 대상 시간 제한 식사 연구 23편을 정리한 체계적 고찰에서 순응도는 약 80%였고 의도하지 않은 칼로리 섭취 감소, 평균 체중 3% 감소와 대사 지표 개선이 보고됐습니다.",
-  "limit": "포함 연구와 섭취 시간 창이 다양했고 고찰은 더 엄격한 장기 연구가 필요하다고 결론냈습니다.",
-  "against": "시간 제한만의 효과와 칼로리 감소 효과를 분리하기 어렵고 모든 사람에게 같은 식사 창이 적합하지 않습니다.",
-  "use": "체중·대사 관리에서 시간 제한 식사를 검토할 때 영양 충분성, 복약 시간, 섭식장애 위험을 함께 확인합니다.",
-  "refs": [
-    { "label": "시간 제한 식사와 생체리듬 체계적 고찰", "doi": "10.3390/nu12123770", "pmid": "33302500" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "time-restricted eating AND Time · 258건",
-    "pubmed": "time-restricted eating AND Time · 2,822건",
-    "negative": "time-restricted eating AND Time AND (no effect OR did not OR failed OR negative OR no significant difference) · 2,076건",
-    "safety": "time-restricted eating AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 853건"
+ "id": "time-restricted-eating-time-pos",
+ "subj": "시간 제한 식사",
+ "claim": "시간 제한 식사는 섭취 시간과 생체리듬을 조정해 체중·대사 지표를 개선할 가능성이 있습니다",
+ "line": "시간 제한 식사로 체중과 대사 지표가 개선됐습니다",
+ "effect": "체중·대사 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "meta",
+ "known": "off",
+ "knownWhy": "시간 제한 식사는 의약품 허가 적응증이 아닌 식이 중재입니다.",
+ "why": "하루 섭취 창을 일정하게 제한하면 칼로리 섭취와 식사 시점을 조절하고 생체리듬과 대사를 맞출 가능성이 있습니다.",
+ "saw": "인간 대상 시간 제한 식사 연구 23편을 정리한 체계적 고찰에서 순응도는 약 80%였고 의도하지 않은 칼로리 섭취 감소, 평균 체중 3% 감소와 대사 지표 개선이 보고됐습니다.",
+ "limit": "포함 연구와 섭취 시간 창이 다양했고 고찰은 더 엄격한 장기 연구가 필요하다고 결론냈습니다.",
+ "against": "시간 제한만의 효과와 칼로리 감소 효과를 분리하기 어렵고 모든 사람에게 같은 식사 창이 적합하지 않습니다.",
+ "use": "체중·대사 관리에서 시간 제한 식사를 검토할 때 영양 충분성, 복약 시간, 섭식장애 위험을 함께 확인합니다.",
+ "refs": [
+  {
+   "label": "시간 제한 식사와 생체리듬 체계적 고찰",
+   "doi": "10.3390/nu12123770",
+   "pmid": "33302500"
+  },
+  {
+   "label": "대사증후군 시간 제한 식사 무작위시험",
+   "pmid": "39348690"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "time-restricted eating AND Time · 258건",
+  "pubmed": "time-restricted eating AND Time · 2,822건; PMID 39348690 PubMed abstract verified 2026-08-15",
+  "negative": "time-restricted eating AND Time AND (no effect OR did not OR failed OR negative OR no significant difference) · 2,076건",
+  "safety": "time-restricted eating AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) · 853건"
+ },
+ "vs": "8~10시간 시간 제한 식사 vs 표준 관리: 3개월 HbA1c 군간 차이 -0.10% (95% CI -0.19~-0.003); 완료자 108명, NCT04057339"
 }
