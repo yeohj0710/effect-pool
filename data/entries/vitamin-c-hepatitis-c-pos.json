@@ -1,30 +1,40 @@
 {
-  "id": "vitamin-c-hepatitis-c-pos",
-  "subj": "비타민 C",
-  "claim": "비타민 C를 항바이러스제에 더해 C형간염의 간기능을 개선한다",
-  "line": "C형간염에서 비타민 C 병용군의 간기능 지표가 더 좋아졌습니다",
-  "effect": "AST·빌리루빈·알부민 개선",
-  "tier": "trial",
-  "dir": "pos",
-  "n": 200,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "C형간염 치료 보조용 비타민 C는 허가 적응증이 아닙니다.",
-  "why": "C형간염 환자에게 비타민 C를 항바이러스제와 함께 투여한 비교 연구에서 단기간 간기능 지표가 더 좋아졌습니다.",
-  "saw": "C형간염 환자 200명을 비타민 C 병용군 100명과 항바이러스제 단독군 100명으로 나눠 4주 뒤 검사했습니다. 병용군에서 AST, 직접·간접 빌리루빈, 총단백, 알부민이 단독군보다 더 개선됐습니다.",
-  "limit": "무작위배정 여부가 명확하지 않은 4주 비교 연구이고 바이러스 제거율, 재발, 장기 임상 결과를 확인하지 않았습니다.",
-  "against": "고용량 정주 비타민 C C형간염 시험은 10명 규모로 중단됐고, 다른 완료 시험도 10명 규모라 임상효과를 확정하기 어렵습니다.",
-  "use": "간기능 검사 개선을 바이러스 제거 또는 C형간염 완치와 혼동하지 않도록 분리해 기록합니다.",
-  "refs": [
-    { "label": "C형간염 항바이러스제 병용 비타민 C 비교 연구", "pmid": "35668562" },
-    { "label": "C형간염 고용량 정주 비타민 C 시험 · 중단", "nct": "NCT01250743" },
-    { "label": "만성 간염 고용량 비타민 C 시험", "nct": "NCT01413360" }
-  ],
-  "queried": {
-    "date": "2026-08-05",
-    "ctgov": "intr=vitamin c · cond=Hepatitis C → 26건 반환, 물질 대조 후 3건",
-    "pubmed": "vitamin c AND Hepatitis C → 47편",
-    "negative": "vitamin c AND Hepatitis C AND (no effect OR did not OR failed to OR negative OR no significant difference) → 29편",
-    "safety": "vitamin c AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 13823편"
+ "id": "vitamin-c-hepatitis-c-pos",
+ "subj": "비타민 C",
+ "claim": "비타민 C를 항바이러스제에 더해 C형간염의 간기능을 개선한다",
+ "line": "C형간염에서 비타민 C 병용군의 간기능 지표가 더 좋아졌습니다",
+ "effect": "AST·빌리루빈·알부민 개선",
+ "tier": "trial",
+ "dir": "pos",
+ "n": 200,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "C형간염 치료 보조용 비타민 C는 허가 적응증이 아닙니다.",
+ "why": "C형간염 환자에게 비타민 C를 항바이러스제와 함께 투여한 비교 연구에서 단기간 간기능 지표가 더 좋아졌습니다.",
+ "saw": "C형간염 환자 200명을 비타민 C 병용군 100명과 항바이러스제 단독군 100명으로 나눠 4주 뒤 검사했습니다. 병용군에서 AST, 직접·간접 빌리루빈, 총단백, 알부민이 단독군보다 더 개선됐습니다.",
+ "limit": "무작위배정 여부가 명확하지 않은 4주 비교 연구이고 바이러스 제거율, 재발, 장기 임상 결과를 확인하지 않았습니다.",
+ "against": "고용량 정주 비타민 C C형간염 시험은 10명 규모로 중단됐고, 다른 완료 시험도 10명 규모라 임상효과를 확정하기 어렵습니다.",
+ "use": "간기능 검사 개선을 바이러스 제거 또는 C형간염 완치와 혼동하지 않도록 분리해 기록합니다.",
+ "refs": [
+  {
+   "label": "C형간염 항바이러스제 병용 비타민 C 비교 연구",
+   "pmid": "35668562"
+  },
+  {
+   "label": "C형간염 고용량 정주 비타민 C 시험 · 중단",
+   "nct": "NCT01250743"
+  },
+  {
+   "label": "만성 간염 고용량 비타민 C 시험",
+   "nct": "NCT01413360"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=vitamin c · cond=Hepatitis C → 26건 반환, 물질 대조 후 3건",
+  "pubmed": "vitamin c AND Hepatitis C → 47편; PMID 35668562 PubMed abstract verified 2026-08-15",
+  "negative": "vitamin c AND Hepatitis C AND (no effect OR did not OR failed to OR negative OR no significant difference) → 29편",
+  "safety": "vitamin c AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) → 13823편"
+ },
+ "vs": "비타민 C 1,000 mg/일+항바이러스제 vs 항바이러스제 단독: 100명 vs 100명에서 ALT P<.01, AST P<.001, 직접·간접 빌리루빈 P<.01·P<.001, 총단백 P<.001, 알부민 P<.05"
 }

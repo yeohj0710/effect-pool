@@ -1,28 +1,34 @@
 {
-  "id": "virtual-reality-meditation-stress-null",
-  "subj": "가상현실 명상",
-  "claim": "가상현실 명상이 정신과 외래 환자의 지각 스트레스를 줄이는가",
-  "line": "가상현실 명상은 표준 이완보다 스트레스를 더 낮추지 못했습니다",
-  "tier": "trial",
-  "dir": "null",
-  "n": 50,
-  "synth": "single",
-  "known": "off",
-  "knownWhy": "가상현실 명상은 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
-  "why": "가상 자연환경 이완과 표준 이완을 같은 환자에게 교차 시행해 전반적 지각 스트레스를 비교했습니다.",
-  "saw": "불안·정신병·우울·양극성 장애로 외래 치료 중인 50명이 두 이완법을 각각 10일 사용했습니다. 두 방법 모두 즉각적인 정서 상태를 개선했지만 전반적 지각 스트레스와 정신과 증상의 단기 변화에는 유의한 차이가 없었습니다.",
-  "limit": "가상현실 명상 자체가 아니라 자연 영상 기반 이완 도구였고 표준 이완을 활성 대조군으로 사용했습니다.",
-  "against": "가상현실 이완은 표준 이완보다 전반적 지각 스트레스를 더 줄이지 못했습니다.",
-  "use": "정신과 외래에서 가상현실 명상을 스트레스 보조 중재로 평가할 때 활성 대조군 대비 우월성을 전제로 하지 않습니다.",
-  "effect": "전반적 지각 스트레스 차이 없음",
-  "refs": [
-    { "label": "정신과 환자 가상현실 이완 교차 무작위시험", "doi": "10.2196/16043", "pmid": "33448933", "pmc": "PMC7846446" }
-  ],
-  "queried": {
-    "date": "2026-08-06",
-    "ctgov": "intr=virtual reality meditation · cond=Stress · 18건 반환, 중재명 일치 0건",
-    "pubmed": "virtual reality meditation AND Stress AND (randomized OR trial OR meta-analysis) · 21편",
-    "negative": "virtual reality meditation AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 42편",
-    "safety": "virtual reality meditation AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 11편"
+ "id": "virtual-reality-meditation-stress-null",
+ "subj": "가상현실 명상",
+ "claim": "가상현실 명상이 정신과 외래 환자의 지각 스트레스를 줄이는가",
+ "line": "가상현실 명상은 표준 이완보다 스트레스를 더 낮추지 못했습니다",
+ "tier": "trial",
+ "dir": "null",
+ "n": 50,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "가상현실 명상은 의약품 허가 적응증이 아닌 심리행동 중재입니다.",
+ "why": "가상 자연환경 이완과 표준 이완을 같은 환자에게 교차 시행해 전반적 지각 스트레스를 비교했습니다.",
+ "saw": "불안·정신병·우울·양극성 장애로 외래 치료 중인 50명이 두 이완법을 각각 10일 사용했습니다. 두 방법 모두 즉각적인 정서 상태를 개선했지만 전반적 지각 스트레스와 정신과 증상의 단기 변화에는 유의한 차이가 없었습니다.",
+ "limit": "가상현실 명상 자체가 아니라 자연 영상 기반 이완 도구였고 표준 이완을 활성 대조군으로 사용했습니다.",
+ "against": "가상현실 이완은 표준 이완보다 전반적 지각 스트레스를 더 줄이지 못했습니다.",
+ "use": "정신과 외래에서 가상현실 명상을 스트레스 보조 중재로 평가할 때 활성 대조군 대비 우월성을 전제로 하지 않습니다.",
+ "effect": "전반적 지각 스트레스 차이 없음",
+ "refs": [
+  {
+   "label": "정신과 환자 가상현실 이완 교차 무작위시험",
+   "doi": "10.2196/16043",
+   "pmid": "33448933",
+   "pmc": "PMC7846446"
   }
+ ],
+ "queried": {
+  "date": "2026-08-15",
+  "ctgov": "intr=virtual reality meditation · cond=Stress · 18건 반환, 중재명 일치 0건",
+  "pubmed": "virtual reality meditation AND Stress AND (randomized OR trial OR meta-analysis) · 21편; PMID 33448933 PubMed abstract verified 2026-08-15",
+  "negative": "virtual reality meditation AND Stress AND (no effect OR did not OR failed OR negative OR no significant difference) · 42편",
+  "safety": "virtual reality meditation AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 11편"
+ },
+ "vs": "가상현실 이완 vs 표준 이완: 정신질환자 50명에서 총 부정정서 변화 16.2% vs 21.2%, t=-2.02 (95% CI -18.70~-0.28), P=.04; 단기 스트레스·증상은 차이 없음"
 }
