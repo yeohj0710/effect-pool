@@ -1,29 +1,40 @@
 {
   "id": "thiamine-lactic-acidosis-case",
   "subj": "티아민",
-  "claim": "티아민 결핍성 젖산산증에 티아민을 사용하면 젖산이 호전되는가",
+  "claim": "중환자 저인산혈증 환자에서 티아민이 젖산을 추가로 낮추는지 확인한다",
   "line": "결핍성 젖산산증은 티아민 투여 후 호전될 수 있습니다",
   "tier": "case",
   "dir": "pos",
-  "n": 1,
+  "n": 90,
   "synth": "single",
   "known": "off",
   "knownWhy": "젖산산증 치료 적응증을 확인하지 못함",
   "why": "티아민 결핍은 피루브산을 아세틸CoA로 전환하지 못하게 해 젖산 축적을 일으킬 수 있습니다.",
-  "saw": "증례 문헌은 티아민 결핍 또는 반응성 젖산산증에서 티아민 투여 뒤 젖산과 산증이 호전되는 사례를 보고했습니다.",
-  "limit": "증례 수준이라 원인교정과 수액·인슐린·투석 등 동시치료의 영향을 분리할 수 없습니다. 모든 젖산산증에 경험적으로 적용할 근거는 아닙니다.",
+  "saw": "중환자 90명을 정맥 티아민군과 통상관리군에 무작위 배정한 THIAMINE 4 HYPOPHOSPHATEMIA 시험에서 7일 동안 혈중 젖산은 군 간 차이가 없었다(평균차 -0.1 mmol/L, 95% CI -0.2~0.1, p=.55). 24시간 젖산 변화율도 -32% vs -24%(p=.09)였다.",
+  "limit": "대상자는 젖산산증 전체가 아니라 장관영양 중 저인산혈증이 발생한 중환자였다.",
   "against": "패혈증·심정지 무작위시험에서는 고용량 티아민 병용의 일관된 임상효과가 없었습니다.",
   "use": "영양결핍, 알코올 사용, 당뇨성 케톤산증 등 결핍 위험이 높은 환자에서 표준 원인치료와 함께 신속한 보충을 검토합니다.",
-  "effect": "젖산산증 호전",
+  "effect": "젖산 차이 -0.1 (p=.55)",
   "refs": [
-    { "label": "Thiamine-responsive lactic acidosis · 증례 보고", "pmid": "4593262" },
-    { "label": "Lactic acidosis and thiamine deficiency in diabetic ketoacidosis · 증례", "pmid": "37657767" }
+    {
+      "label": "Thiamine-responsive lactic acidosis · 증례 보고",
+      "pmid": "4593262"
+    },
+    {
+      "label": "Lactic acidosis and thiamine deficiency in diabetic ketoacidosis · 증례",
+      "pmid": "37657767"
+    },
+    {
+      "label": "THIAMINE 4 HYPOPHOSPHATEMIA randomized clinical trial",
+      "pmid": "34388414"
+    }
   ],
   "queried": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "ctgov": "intr=thiamine, cond=Lactic Acidosis · 6건 중 4건 직접 확인",
-    "pubmed": "thiamine AND Lactic Acidosis · 318건",
+    "pubmed": "thiamine AND Lactic Acidosis · 318건; PMID 34388414 PubMed abstract verified 2026-08-15",
     "negative": "thiamine AND Lactic Acidosis AND (no effect OR did not OR failed to OR negative OR no significant difference) · 125건",
     "safety": "thiamine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication) · 3717건"
-  }
+  },
+  "vs": "정맥 티아민 n=45 vs 통상관리 n=45: 7일 젖산 평균차 -0.1 mmol/L(95% CI -0.2~0.1, p=.55); 24시간 변화율 -32% vs -24%(p=.09)."
 }

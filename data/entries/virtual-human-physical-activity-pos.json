@@ -1,35 +1,36 @@
 {
- "id": "virtual-human-physical-activity-pos",
- "subj": "가상 인간",
- "claim": "가상 휴머노이드 코치가 지역사회 노인의 운동 프로그램에서 신체 기능 평가를 개선한다",
- "line": "가상 코치 운동 프로그램이 전통 방식보다 기능을 개선했습니다",
- "effect": "기능 평가 상호작용 유의",
- "tier": "trial",
- "dir": "pos",
- "n": 130,
- "synth": "single",
- "known": "off",
- "knownWhy": "가상 휴머노이드 코치는 노인 운동의 허가 적응증이 아닌 디지털 행동 중재입니다",
- "why": "지역사회 노인 130명을 실험군과 대조군에 배정해 가상 휴머노이드 코치 운동 프로그램을 비교한 비무작위 준실험 연구입니다",
- "saw": "평균 66.4세인 노인 130명을 두 지역사회 노인센터에서 모집해 실험군과 전통 방식 대조군에 배정했습니다. 세 시점의 건강 평가에서 혼합현실군의 신체 기능이 더 크게 개선됐습니다",
- "limit": "무작위 배정이 아니고 목적 표집을 사용했으며 두 센터에 국한됐습니다. 참가자는 주로 여성이었고 가상 코치가 실제 질환을 치료하는지는 평가하지 않았습니다",
- "against": "후속 질적 연구 9명은 기기 사용 문제와 기술 장벽을 함께 보고했습니다",
- "use": "노인 운동에서 가상 코치의 기능 평가 변화와 기술 장벽을 함께 기록합니다",
- "refs": [
-  {
-   "label": "Mixed reality technology for older adults: Evaluating the impact of a novel virtual humanoid coach in a community-based physical exercise program in the Philippines · 준실험 연구",
-   "pmid": "39096029"
+  "id": "virtual-human-physical-activity-pos",
+  "subj": "가상 인간",
+  "claim": "가상 휴머노이드 코치가 지역사회 노인의 운동 프로그램에서 신체 기능 평가를 개선한다",
+  "line": "가상 코치 운동 프로그램이 전통 방식보다 기능을 개선했습니다",
+  "effect": "기능 평가 상호작용 유의",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 130,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가상 휴머노이드 코치는 노인 운동의 허가 적응증이 아닌 디지털 행동 중재입니다",
+  "why": "지역사회 노인 130명을 실험군과 대조군에 배정해 가상 휴머노이드 코치 운동 프로그램을 비교한 비무작위 준실험 연구입니다",
+  "saw": "평균 66.4세인 노인 130명을 두 지역사회 노인센터에서 모집해 실험군과 전통 방식 대조군에 배정했습니다. 세 시점의 건강 평가에서 혼합현실군의 신체 기능이 더 크게 개선됐습니다",
+  "limit": "무작위 배정이 아니고 목적 표집을 사용했으며 두 센터에 국한됐습니다. 참가자는 주로 여성이었고 가상 코치가 실제 질환을 치료하는지는 평가하지 않았습니다",
+  "against": "후속 질적 연구 9명은 기기 사용 문제와 기술 장벽을 함께 보고했습니다",
+  "use": "노인 운동에서 가상 코치의 기능 평가 변화와 기술 장벽을 함께 기록합니다",
+  "refs": [
+    {
+      "label": "Mixed reality technology for older adults: Evaluating the impact of a novel virtual humanoid coach in a community-based physical exercise program in the Philippines · 준실험 연구",
+      "pmid": "39096029"
+    },
+    {
+      "label": "Community-Dwelling Filipino Older Adults' Experiences with Virtual Coach for Health-Enhancing Physical Activity · 질적 후속 연구",
+      "pmid": "39997785"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"virtual human\" AND \"Physical Activity\" → 3건 반환",
+    "pubmed": "\"virtual human\" AND \"Physical Activity\" → 5건, PMID 39096029 직접 결과 및 PMID 39997785 후속 연구; PubMed abstract verified 2026-08-15; 관련 PubMed 연구는 비무작위 연구이며 군 간 효과값을 제시하지 않아 새 비교효과를 추가하지 않음",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 2건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 0건"
   },
-  {
-   "label": "Community-Dwelling Filipino Older Adults' Experiences with Virtual Coach for Health-Enhancing Physical Activity · 질적 후속 연구",
-   "pmid": "39997785"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"virtual human\" AND \"Physical Activity\" → 3건 반환",
-  "pubmed": "\"virtual human\" AND \"Physical Activity\" → 5건, PMID 39096029 직접 결과 및 PMID 39997785 후속 연구",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 2건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 0건"
- }
+  "vs": "PubMed 선별 결과 vs 새 수치 비교효과 없음: 관련 PubMed 연구는 비무작위 연구이며 군 간 효과값을 제시하지 않아 새 비교효과를 추가하지 않음; 검색·검토 항목 35자."
 }

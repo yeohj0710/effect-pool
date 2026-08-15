@@ -1,31 +1,36 @@
 {
- "id": "virtual-human-pain-perception-pos",
- "subj": "가상 인간",
- "claim": "가상 인물의 사회적 지지가 실험적인 열 통증의 강도와 불쾌감을 낮춘다",
- "line": "가상 인물의 사회적 지지가 열 통증을 낮췄습니다",
- "effect": "강도·불쾌감 감소",
- "tier": "trial",
- "dir": "pos",
- "n": 97,
- "synth": "single",
- "known": "off",
- "knownWhy": "가상 인물의 통증 조절은 허가 적응증이 아닌 실험적 비약물 중재입니다",
- "why": "건강한 참가자 97명이 가상 인물의 사회적 지지와 중립 자극 조건을 번갈아 경험한 사람 실험입니다",
- "saw": "참가자 97명이 몰입형 가상현실에서 열 자극을 받으며 사회적 지지를 하는 가상 인물, 중립 단어, 무지지 조건을 경험했습니다. 가상 인물의 지지가 통증 강도와 불쾌감을 낮췄습니다",
- "limit": "건강한 사람의 실험적 열 통증이고 실제 통증 환자의 치료 결과가 아닙니다. 가상 인물의 행위자성은 통증 결과에 영향을 주지 않았습니다",
- "against": "사회적 지지는 피부전도도와 심박수에는 영향을 주지 않았고 행위자성에 따른 차이도 없었습니다",
- "use": "가상 인물의 사회적 단서가 통증 지각과 생리 지표에 미치는 영향을 분리해 기록합니다",
- "refs": [
-  {
-   "label": "Social support of virtual characters reduces pain perception · 통증 실험",
-   "pmid": "38088523"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"virtual human\" AND \"Pain\" → 5건 반환",
-  "pubmed": "\"virtual human\" AND \"Pain\" → 36건, PMID 38088523 직접 결과",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 19건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1건"
- }
+  "id": "virtual-human-pain-perception-pos",
+  "subj": "가상 인간",
+  "claim": "가상 인간의 심리사회적 인터뷰가 만성 통증 환자의 통증 간섭을 낮출 수 있다",
+  "line": "가상 인물의 사회적 지지가 열 통증을 낮췄습니다",
+  "effect": "통증간섭 d=.43 (p=.049)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 94,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가상 인물의 통증 조절은 허가 적응증이 아닌 실험적 비약물 중재입니다",
+  "why": "건강한 참가자 97명이 가상 인물의 사회적 지지와 중립 자극 조건을 번갈아 경험한 사람 실험입니다",
+  "saw": "만성 근골격계 통증 환자 94명을 표준·심리사회적 위험요인·통증교육 가상 인간 인터뷰군에 무작위 배정했다. 표준 인터뷰와 비교한 심리사회적 인터뷰는 통증 간섭을 더 크게 낮췄다(p=.049, d=.43). 통증 강도 차이는 경계선 수준(p=.054, d=.36)이었다.",
+  "limit": "세 중재군 간 비교이며, 가상 인간 인터뷰가 일반 대면치료보다 우월한지 평가한 시험은 아니다.",
+  "against": "사회적 지지는 피부전도도와 심박수에는 영향을 주지 않았고 행위자성에 따른 차이도 없었습니다",
+  "use": "가상 인물의 사회적 단서가 통증 지각과 생리 지표에 미치는 영향을 분리해 기록합니다",
+  "refs": [
+    {
+      "label": "Social support of virtual characters reduces pain perception · 통증 실험",
+      "pmid": "38088523"
+    },
+    {
+      "label": "Virtual human-delivered interviews for chronic pain",
+      "pmid": "37363989"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"virtual human\" AND \"Pain\" → 5건 반환",
+    "pubmed": "\"virtual human\" AND \"Pain\" → 36건, PMID 38088523 직접 결과; PMID 37363989 PubMed abstract verified 2026-08-15",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) → 19건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR case report OR overdose OR self-medication) → 1건"
+  },
+  "vs": "심리사회적 가상 인간 인터뷰 vs 표준 가상 인간 인터뷰, n=94: 통증 간섭 p=.049, d=.43; 통증 강도 p=.054, d=.36."
 }

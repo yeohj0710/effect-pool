@@ -1,32 +1,37 @@
 {
- "id": "therapeutic-gardening-depressive-symptoms-pos",
- "subj": "치료적 원예",
- "claim": "치료적 원예가 우울 증상을 개선할 수 있다",
- "line": "치료적 원예는 우울 증상을 완화했습니다",
- "effect": "우울 증상 개선",
- "tier": "trial",
- "dir": "pos",
- "n": 42,
- "synth": "single",
- "why": "건강한 여성 42명을 무작위 배정한 소규모 연구에서 원예 활동 후 우울 증상과 전반적 기분 장애가 개선됐다.",
- "limit": "분석을 완료한 참가자가 32명인 소규모 연구이며 활성 대조군만 사용했다.",
- "against": "원예와 미술 활동을 직접 비교해 원예만의 효과를 분리하기 어려웠다.",
- "use": "정신건강 증진 프로그램의 보조 활동으로 추가 검증할 수 있다.",
- "refs": [
-  {
-   "label": "A pilot randomized controlled trial of group-based indoor gardening and art activities",
-   "doi": "10.1371/journal.pone.0269248",
-   "pmid": "35793277"
-  }
- ],
- "known": "off",
- "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
- "saw": "건강한 여성 42명을 무작위 배정한 소규모 연구에서 원예 활동 후 우울 증상과 전반적 기분 장애가 개선됐다.",
- "queried": {
-  "date": "2026-08-06",
-  "ctgov": "intr=therapeutic gardening, cond=Depressive Symptoms · 0건 직접 확인",
-  "pubmed": "therapeutic gardening AND Depressive Symptoms · 75건",
-  "negative": "therapeutic gardening AND Depressive Symptoms AND (no effect OR did not OR failed OR negative OR no significant difference) · 131건",
-  "safety": "therapeutic gardening AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1805건"
- }
+  "id": "therapeutic-gardening-depressive-symptoms-pos",
+  "subj": "치료적 원예",
+  "claim": "치료적 원예와 정원·숲 기반 가상현실 중재가 노년기 우울 증상을 낮출 수 있다",
+  "line": "치료적 원예는 우울 증상을 완화했습니다",
+  "effect": "우울 SMD -0.83 (p<.001)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 746,
+  "synth": "meta",
+  "why": "건강한 여성 42명을 무작위 배정한 소규모 연구에서 원예 활동 후 우울 증상과 전반적 기분 장애가 개선됐다.",
+  "limit": "정원·숲 중재만 분리한 우울 효과가 아니라 여러 가상현실 심리중재를 합친 효과다.",
+  "against": "원예와 미술 활동을 직접 비교해 원예만의 효과를 분리하기 어려웠다.",
+  "use": "정신건강 증진 프로그램의 보조 활동으로 추가 검증할 수 있다.",
+  "refs": [
+    {
+      "label": "A pilot randomized controlled trial of group-based indoor gardening and art activities",
+      "doi": "10.1371/journal.pone.0269248",
+      "pmid": "35793277"
+    },
+    {
+      "label": "Immersive virtual reality psychological interventions in older adults: meta-analysis",
+      "pmid": "41538389"
+    }
+  ],
+  "known": "off",
+  "knownWhy": "허가 적응증이 아닌 주제의 근거를 정리한 항목.",
+  "saw": "노인 746명을 포함한 가상현실 심리중재 무작위시험 10개 메타분석에서 정원·숲 치료가 중재의 40%를 차지했다. 통제군과 비교한 우울 증상 효과는 SMD -0.83(95% CI -1.05~-0.60, p<.001)이었다.",
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "intr=therapeutic gardening, cond=Depressive Symptoms · 0건 직접 확인",
+    "pubmed": "therapeutic gardening AND Depressive Symptoms · 75건; PMID 41538389 PubMed abstract verified 2026-08-15",
+    "negative": "therapeutic gardening AND Depressive Symptoms AND (no effect OR did not OR failed OR negative OR no significant difference) · 131건",
+    "safety": "therapeutic gardening AND (adverse OR toxicity OR case report OR overdose OR self-medication) · 1805건"
+  },
+  "vs": "가상현실 심리중재(정원·숲 치료 포함) vs 통제: 우울 증상 SMD -0.83(95% CI -1.05~-0.60, p<.001), 10개 RCT n=746."
 }

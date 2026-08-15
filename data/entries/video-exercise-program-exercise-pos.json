@@ -1,33 +1,38 @@
 {
- "id": "video-exercise-program-exercise-pos",
- "subj": "영상 운동 프로그램",
- "claim": "고령 여성의 균형 능력을 높인다",
- "line": "고령 여성에서 비디오 운동은 균형을 개선했지만 인지는 바꾸지 않았습니다",
- "effect": "균형 개선·인지 변화 없음",
- "tier": "trial",
- "dir": "pos",
- "n": 19,
- "synth": "single",
- "known": "off",
- "knownWhy": "비약물 운동 개입이라 의약품 허가 적응증이 아님",
- "why": "외딴 섬의 고령 여성 19명을 운동군 9명과 대조군 10명으로 나눠 3개월 비디오 운동 전후를 비교했습니다.",
- "saw": "비디오 운동군의 눈을 뜬 한발 서기 균형이 유의하게 좋아졌고 인지 기능은 좋아지지 않았습니다.",
- "limit": "19명 소규모 연구이고 고령 여성만 포함해 다른 연령·성별로 일반화하기 어렵습니다.",
- "against": "인지 기능에는 개선이 관찰되지 않았습니다.",
- "use": "비디오 운동의 균형 신호와 인지 결과의 차이를 함께 기록합니다.",
- "refs": [
-  {
-   "label": "Maruyama 2020 · Journal of Physical Therapy Science · 대조군 시험",
-   "doi": "10.1589/jpts.32.653",
-   "pmid": "33132525",
-   "pmc": "PMC7590856"
-  }
- ],
- "queried": {
-  "date": "2026-08-09",
-  "ctgov": "query.intr=video exercise program AND query.cond=Exercise · 675건 반환 · InterventionName 완전일치 0건",
-  "pubmed": "\"video exercise program\" AND \"Exercise\"[Title/Abstract] · 8건",
-  "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 3건",
-  "safety": "\"video exercise program\" AND (adverse OR toxicity OR harm OR safety OR case report) · 1건"
- }
+  "id": "video-exercise-program-exercise-pos",
+  "subj": "영상 운동 프로그램",
+  "claim": "영상이 포함된 디지털 운동 프로그램이 고령자의 낙상 위험을 낮출 수 있다",
+  "line": "고령 여성에서 비디오 운동은 균형을 개선했지만 인지는 바꾸지 않았습니다",
+  "effect": "낙상 RR 0.89 (p=.03)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1628,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "비약물 운동 개입이라 의약품 허가 적응증이 아님",
+  "why": "외딴 섬의 고령 여성 19명을 운동군 9명과 대조군 10명으로 나눠 3개월 비디오 운동 전후를 비교했습니다.",
+  "saw": "지역사회 고령자 1,628명을 영상 교육만 제공한 대조군과 Safe Step 앱 운동+교육군에 무작위 배정했다. 12개월 낙상률은 2.21 vs 2.41회/인년으로 유의하지 않았지만(IRR 0.92, 95% CI 0.76~1.11, p=.37), 한 번 이상 낙상 위험은 53.0% vs 59.6%(RR 0.89, 95% CI 0.80~0.99, p=.03)였다.",
+  "limit": "운동군의 공식 중도탈락이 20%로 대조군 8%보다 많았고, 주 90분 목표 달성률은 12개월에 9.1%였다.",
+  "against": "인지 기능에는 개선이 관찰되지 않았습니다.",
+  "use": "비디오 운동의 균형 신호와 인지 결과의 차이를 함께 기록합니다.",
+  "refs": [
+    {
+      "label": "Maruyama 2020 · Journal of Physical Therapy Science · 대조군 시험",
+      "doi": "10.1589/jpts.32.653",
+      "pmid": "33132525",
+      "pmc": "PMC7590856"
+    },
+    {
+      "label": "Safe Step digital exercise program for fall prevention",
+      "pmid": "40163860"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.intr=video exercise program AND query.cond=Exercise · 675건 반환 · InterventionName 완전일치 0건",
+    "pubmed": "\"video exercise program\" AND \"Exercise\"[Title/Abstract] · 8건; PMID 40163860 PubMed abstract verified 2026-08-15",
+    "negative": "같은 검색어 AND (no effect OR did not OR failed OR negative OR no significant difference OR null) · 3건",
+    "safety": "\"video exercise program\" AND (adverse OR toxicity OR harm OR safety OR case report) · 1건"
+  },
+  "vs": "앱 운동+영상교육 n=약814 vs 영상교육 n=약814: 낙상률 IRR 0.92(95% CI 0.76~1.11, p=.37), 한 번 이상 낙상 RR 0.89(95% CI 0.80~0.99, p=.03)."
 }

@@ -1,27 +1,36 @@
 {
   "id": "taurine-obesity-pos",
   "subj": "타우린",
-  "claim": "타우린이 비만 관련 염증을 줄인다",
+  "claim": "타우린을 운동과 함께 비만 남성의 체중 관리에 보조로 쓴다",
   "line": "타우린은 비만 여성의 체중은 바꾸지 못했지만 IL-6를 낮췄습니다",
   "tier": "trial",
   "dir": "pos",
-  "effect": "체중 변화 없음·IL-6↓",
-  "n": 16,
+  "effect": "체중 -5.50kg (p=.003)",
+  "n": 44,
   "synth": "single",
   "why": "비만 여성 무작위시험에서 타우린은 체중이나 체지방을 바꾸지 않았지만 혈장·피하지방의 염증 관련 지표를 개선했습니다.",
-  "saw": "비만 여성 16명을 두 군에 무작위 배정한 시험에서 신체계측 변화는 없었고, 타우린 단독군의 IL-6가 감소했습니다. 타우린과 운동을 함께 한 군에서는 항염증 인터루킨과 지방세포 구조 지표가 변했습니다.",
-  "limit": "체중감량 시험이 아니며 표본이 16명으로 작습니다. 운동과 타우린을 함께 평가한 군의 결과는 타우린 단독 효과로 분리하기 어렵습니다.",
+  "saw": "비만 남성 44명을 네 군에 무작위 배정한 12주 시험에서 운동+타우린군(n=11)은 대조군보다 asprosin -11.20 ng/mL(p<.001), 체중 -5.50 kg(p=.003), BMI -1.80(p=.002), 체지방률 -4.90%p(p<.001), spexin +0.29(p<.001)를 보였다. Cohen d는 1.17~1.87이었다.",
+  "limit": "운동과 타우린을 함께 사용한 비교이므로 타우린 단독 효과는 분리되지 않았다.",
   "against": "반대 검색 385건을 확인했습니다. 원문에서도 신체계측 지표에는 변화가 없었습니다.",
   "use": "비만에서 타우린의 체중감량 효과가 아니라 염증·지방조직 지표에 관한 제한적 근거를 설명할 때 사용합니다.",
   "refs": [
-    { "label": "비만 여성 타우린·운동 무작위시험", "pmid": "34255136", "nct": "NCT04279600" }
+    {
+      "label": "비만 여성 타우린·운동 무작위시험",
+      "pmid": "34255136",
+      "nct": "NCT04279600"
+    },
+    {
+      "label": "Taurine supplementation and exercise in obese men",
+      "pmid": "42514394"
+    }
   ],
   "queried": {
-    "date": "2026-08-04",
+    "date": "2026-08-15",
     "fda": "openFDA drug label openfda.substance_name:\"taurine\": 20건; 확인된 처방 라벨은 영양공급 적응증이며 비만 허가는 아님",
     "ctgov": "query.intr=taurine&query.cond=Obesity: 10건 반환, interventions에서 taurine 일치 3건",
-    "pubmed": "taurine AND Obesity: 514건",
+    "pubmed": "taurine AND Obesity: 514건; PMID 42514394 PubMed abstract verified 2026-08-15",
     "negative": "taurine AND Obesity AND (no effect OR did not OR failed to OR negative OR no significant difference): 385건",
     "safety": "taurine AND (adverse OR toxicity OR hepatotoxicity OR case report OR overdose OR self-medication): 3821건"
-  }
+  },
+  "vs": "운동+타우린 n=11 vs 대조 n=11: 체중 -5.50 kg(p=.003), BMI -1.80(p=.002), 체지방률 -4.90%p(p<.001), asprosin -11.20 ng/mL(p<.001), Cohen d 1.17~1.87."
 }

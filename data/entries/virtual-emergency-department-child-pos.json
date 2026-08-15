@@ -1,31 +1,36 @@
 {
- "id": "virtual-emergency-department-child-pos",
- "subj": "가상 응급실",
- "claim": "소아의 비응급 증상을 가상 응급실에서 평가한다",
- "line": "소아 가상 응급실은 대부분 신체 응급실 전원 없이 관리됐다.",
- "effect": "신체 응급실 전원 없이 관리 85.6%",
- "tier": "obs",
- "dir": "pos",
- "n": 130821,
- "synth": "single",
- "known": "off",
- "knownWhy": "가상 응급실은 비약물 의료 서비스이며 허가 약물 적응증이 아니다.",
- "why": "호주 소아 가상 응급실의 2년간 실제 이용 자료에서 소아 환자의 진료 결과를 분석했다.",
- "saw": "소아 방문 130821건 중 85.6%가 신체 응급실 전원 없이 관리됐고, 주요 진단은 바이러스 감염이었다.",
- "limit": "후향적 서비스 자료라 환자 선택과 진단의 정확성을 무작위 비교로 확인하지 못했다.",
- "against": "신체 응급실 진료와 직접 비교하지 않아 안전성이나 임상 결과의 우월성은 확정할 수 없다.",
- "use": "비응급 소아 환자의 가상 응급실 선별과 전원 기준을 평가할 때 참고한다.",
- "refs": [
-  {
-   "label": "Implementation of a Paediatric Virtual Emergency Department: A Descriptive Analysis",
-   "pmid": "41474075"
-  }
- ],
- "queried": {
-  "date": "2026-08-11",
-  "ctgov": "\"virtual emergency department\" AND \"Child\" 검색 0건",
-  "pubmed": "\"virtual emergency department\" AND \"Child\" 검색 3건; PMID 41474075 직접 소아 서비스 분석",
-  "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
-  "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
- }
+  "id": "virtual-emergency-department-child-pos",
+  "subj": "가상 응급실",
+  "claim": "소아 응급실 정맥로 확보에서 가상현실이 시술 통증을 낮출 수 있다",
+  "line": "소아 가상 응급실은 대부분 신체 응급실 전원 없이 관리됐다.",
+  "effect": "통증 SMD -0.48",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 130821,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "가상 응급실은 비약물 의료 서비스이며 허가 약물 적응증이 아니다.",
+  "why": "호주 소아 가상 응급실의 2년간 실제 이용 자료에서 소아 환자의 진료 결과를 분석했다.",
+  "saw": "소아 응급실 정맥로 확보 중 가상현실과 대조를 비교한 무작위시험 12개 메타분석에서 한 시점 통증 SMD는 -0.48(95% CI -0.70~-0.26), 기저치 대비 변화 통증 SMD는 -0.37(95% CI -0.65~-0.09)였다.",
+  "limit": "12개 시험 중 저위험 비뚤림 시험은 1개였고 이질성 I²가 약 66%였다.",
+  "against": "신체 응급실 진료와 직접 비교하지 않아 안전성이나 임상 결과의 우월성은 확정할 수 없다.",
+  "use": "비응급 소아 환자의 가상 응급실 선별과 전원 기준을 평가할 때 참고한다.",
+  "refs": [
+    {
+      "label": "Implementation of a Paediatric Virtual Emergency Department: A Descriptive Analysis",
+      "pmid": "41474075"
+    },
+    {
+      "label": "Virtual reality for pediatric emergency department venous-access pain: meta-analysis",
+      "pmid": "42572549"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "\"virtual emergency department\" AND \"Child\" 검색 0건",
+    "pubmed": "\"virtual emergency department\" AND \"Child\" 검색 3건; PMID 41474075 직접 소아 서비스 분석; PMID 42572549 PubMed abstract verified 2026-08-15",
+    "negative": "동일 검색 AND (no effect OR did not OR failed OR negative OR null association OR no significant difference) 1건",
+    "safety": "동일 검색 AND (adverse OR toxicity OR harm OR case report OR overdose OR self-medication) 1건"
+  },
+  "vs": "소아 응급실 정맥로 확보 가상현실 vs 표준 처치: 12개 RCT, 통증 SMD -0.48(95% CI -0.70~-0.26), 변화량 SMD -0.37(95% CI -0.65~-0.09)."
 }

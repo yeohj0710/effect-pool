@@ -1,33 +1,38 @@
 {
- "id": "virtual-group-peer-support-caregiver-pos",
- "subj": "가상 집단 동료지원",
- "claim": "섭식장애 자녀를 돌보는 보호자에게 virtual group peer support를 제공하면 돌봄 부담이 줄어든다",
- "line": "온라인 동료지지는 보호자 돌봄 부담을 줄였습니다",
- "effect": "돌봄 부담 MD -4.69; 지원 요구 개선",
- "tier": "obs",
- "dir": "pos",
- "n": 35,
- "synth": "single",
- "known": "off",
- "knownWhy": "Virtual group peer support는 약물이 아닌 보호자 지원 중재입니다",
- "why": "보호자가 동료 보호자가 진행한 온라인 지지 모임에 3개월 참여한 실제 중재 평가입니다",
- "saw": "섭식장애 자녀 보호자 35명이 온라인 부모 주도 동료 지지 모임에 참여했습니다. 사후 돌봄 부담은 MD -4.69(P=.050), 정보·지원 요구 충족은 MD +5.60(P<.001), 자녀를 도울 자신감은 MD +8.09(P<.01)였습니다",
- "limit": "무작위 대조군이 없는 혼합방법 연구이고, 참여자와 진행자가 자발적으로 참여했으며 추적 기간이 3개월입니다",
- "against": "반대 검색 39편과 안전성 검색 14편을 확인했지만, 직접 비교한 실패 연구로 해석할 수는 없습니다",
- "use": "섭식장애 자녀 보호자 지원에서 온라인 동료 모임을 보조 서비스로 검토할 때 참고합니다",
- "refs": [
-  {
-   "label": "2026 · Journal of Eating Disorders · 온라인 부모 주도 동료 지지 모임",
-   "doi": "10.1186/s40337-026-01534-9",
-   "pmid": "41580858",
-   "pmc": "PMC12911330"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "virtual group peer support AND Caregiver · 3건",
-  "pubmed": "virtual group peer support AND caregiver · 64편",
-  "negative": "virtual group peer support AND caregiver AND no effect/did not/failed/negative/no significant difference · 39편",
-  "safety": "virtual group peer support AND caregiver AND adverse/toxicity/safety/harm/distress · 14편"
- }
+  "id": "virtual-group-peer-support-caregiver-pos",
+  "subj": "가상 집단 동료지원",
+  "claim": "섭식장애 환자와 보호자의 온라인 집단 동료지원은 12개월 환자 고통을 낮추지 못했다",
+  "line": "온라인 동료지지는 보호자 돌봄 부담을 줄였습니다",
+  "effect": "DASS 차이 p=.87",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 371,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "Virtual group peer support는 약물이 아닌 보호자 지원 중재입니다",
+  "why": "보호자가 동료 보호자가 진행한 온라인 지지 모임에 3개월 참여한 실제 중재 평가입니다",
+  "saw": "섭식장애 환자-보호자 371쌍을 온라인 자기관리 자료와 집단 채팅이 포함된 ECHOMANTRA+통상치료군(n=185), 통상치료군(n=186)에 무작위 배정했다. 12개월 환자 DASS-21 군 차이는 0.48, 95% CI -0.20~0.23, 표준화 추정치 .02(p=.87)로 유의하지 않았다. 최소 참여 기준을 충족한 쌍은 20%였다.",
+  "limit": "온라인 집단 채팅 참여가 낮아 전체 효과가 참여 부족의 영향을 받았을 수 있다.",
+  "against": "반대 검색 39편과 안전성 검색 14편을 확인했지만, 직접 비교한 실패 연구로 해석할 수는 없습니다",
+  "use": "섭식장애 자녀 보호자 지원에서 온라인 동료 모임을 보조 서비스로 검토할 때 참고합니다",
+  "refs": [
+    {
+      "label": "2026 · Journal of Eating Disorders · 온라인 부모 주도 동료 지지 모임",
+      "doi": "10.1186/s40337-026-01534-9",
+      "pmid": "41580858",
+      "pmc": "PMC12911330"
+    },
+    {
+      "label": "TRIANGLE ECHOMANTRA digital aftercare RCT",
+      "pmid": "40690482"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "virtual group peer support AND Caregiver · 3건",
+    "pubmed": "virtual group peer support AND caregiver · 64편; PMID 40690482 PubMed abstract verified 2026-08-15",
+    "negative": "virtual group peer support AND caregiver AND no effect/did not/failed/negative/no significant difference · 39편",
+    "safety": "virtual group peer support AND caregiver AND adverse/toxicity/safety/harm/distress · 14편"
+  },
+  "vs": "ECHOMANTRA 온라인 집단지원 n=185 vs 통상치료 n=186: 12개월 DASS-21 차이 0.48, 95% CI -0.20~0.23, 표준화 추정치 .02(p=.87); 최소 참여 20%."
 }

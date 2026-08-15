@@ -1,31 +1,36 @@
 {
- "id": "task-oriented-training-multiple-sclerosis-pos",
- "subj": "과제지향 훈련",
- "claim": "과제지향훈련이 다발성경화증의 기능이동과 보행을 개선할 가능성이 있다",
- "line": "다발성경화증 보행·기능 개선, 용량 미확정",
- "effect": "기능이동·보행·피로 개선 신호",
- "tier": "trial",
- "dir": "pos",
- "n": 385,
- "synth": "meta",
- "known": "off",
- "knownWhy": "과제지향훈련은 재활 중재이며 의약품 허가 적응증을 적용하지 않습니다",
- "why": "다발성경화증 성인 무작위시험을 모은 체계적 문헌고찰에서 385명의 자료를 분석했습니다. 평균 10주 동안 약 19회의 과제지향훈련을 비교했습니다",
- "saw": "과제지향훈련은 기능이동, 손 기능, 피로, 보행 능력, 보행 지구력 개선 가능성을 보였습니다",
- "limit": "훈련 강도, 결과 지표, 연구 설계가 서로 달라 장기 최적 용량은 정해지지 않았습니다",
- "against": "다발성경화증의 질병 진행을 바꾸거나 모든 환자의 기능을 개선한다고 단정할 수 없습니다",
- "use": "다발성경화증 재활 계획에서 과제지향훈련을 검토할 때 메타분석 신호로 참고합니다",
- "refs": [
-  {
-   "label": "The Impact of Task-Oriented Training on Health Outcomes in Multiple Sclerosis: A Systematic Review and Meta-Analysis",
-   "pmid": "42132414"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "task-oriented training 반환 395건, 정확한 중재명 대조 75건; Multiple Sclerosis 후보 시험 10건",
-  "pubmed": "task-oriented training AND Multiple Sclerosis 검색 57건; PMID 42132414 체계적 문헌고찰 확인",
-  "negative": "task-oriented training AND Multiple Sclerosis AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 44건",
-  "safety": "task-oriented training AND Multiple Sclerosis AND (adverse OR toxicity OR harm OR risk OR case report) 검색 9건"
- }
+  "id": "task-oriented-training-multiple-sclerosis-pos",
+  "subj": "과제지향 훈련",
+  "claim": "과제지향 훈련과 가상현실 훈련이 다발성경화증의 이동과 보행을 개선할 수 있다",
+  "line": "다발성경화증 보행·기능 개선, 용량 미확정",
+  "effect": "T25FW p=.02; TUG p=.05",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 36,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "과제지향훈련은 재활 중재이며 의약품 허가 적응증을 적용하지 않습니다",
+  "why": "다발성경화증 성인 무작위시험을 모은 체계적 문헌고찰에서 385명의 자료를 분석했습니다. 평균 10주 동안 약 19회의 과제지향훈련을 비교했습니다",
+  "saw": "다발성경화증 환자 36명을 감각운동군, 가상현실군, 대조군으로 무작위 배정한 8주 시험에서 가상현실군은 대조군보다 T25FW(p=.02)와 TUG(p=.05)가 개선됐다. 감각운동군도 대조군보다 T25FW p<.001, TUG p=.01이었다.",
+  "limit": "초록에 세 군의 표본 수 합계가 전체 등록 수와 일치하지 않아 군별 효과크기와 정확한 군별 표본 수는 확인하지 않았다.",
+  "against": "다발성경화증의 질병 진행을 바꾸거나 모든 환자의 기능을 개선한다고 단정할 수 없습니다",
+  "use": "다발성경화증 재활 계획에서 과제지향훈련을 검토할 때 메타분석 신호로 참고합니다",
+  "refs": [
+    {
+      "label": "The Impact of Task-Oriented Training on Health Outcomes in Multiple Sclerosis: A Systematic Review and Meta-Analysis",
+      "pmid": "42132414"
+    },
+    {
+      "label": "Sensory motor and virtual reality interventions in multiple sclerosis",
+      "pmid": "40571688"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "task-oriented training 반환 395건, 정확한 중재명 대조 75건; Multiple Sclerosis 후보 시험 10건",
+    "pubmed": "task-oriented training AND Multiple Sclerosis 검색 57건; PMID 42132414 체계적 문헌고찰 확인; PMID 40571688 PubMed abstract verified 2026-08-15",
+    "negative": "task-oriented training AND Multiple Sclerosis AND (no effect OR did not OR failed OR negative OR no significant difference) 검색 44건",
+    "safety": "task-oriented training AND Multiple Sclerosis AND (adverse OR toxicity OR harm OR risk OR case report) 검색 9건"
+  },
+  "vs": "가상현실·과제지향 훈련 vs 일상관리, n=36: T25FW p=.02, TUG p=.05; 감각운동군 비교는 T25FW p<.001, TUG p=.01."
 }

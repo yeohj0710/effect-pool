@@ -1,32 +1,37 @@
 {
- "id": "virtual-nature-exposure-acute-pain-pos",
- "subj": "가상 자연 노출",
- "claim": "급성 통증에 가상 자연환경 노출을 적용한다",
- "line": "전기자극으로 유발한 급성 통증에서 가상 자연환경은 통증을 줄였습니다",
- "effect": "통증 보고 감소; n=49",
- "tier": "trial",
- "dir": "pos",
- "n": 49,
- "synth": "single",
- "known": "off",
- "knownWhy": "가상 자연 노출은 비약물 중재이며 급성 통증에 의약품 허가 적응증을 적용하지 않습니다.",
- "why": "건강한 참가자 49명이 전기자극을 받으며 가상 자연, 도시, 실내 대조환경을 경험했습니다.",
- "saw": "가상 자연환경에서 도시·실내 환경보다 통증 보고가 낮았고 통증 관련 뇌 활성도 감소했습니다.",
- "limit": "건강인의 실험적 전기자극이라 임상 급성 통증 환자에게 일반화할 수 없습니다.",
- "against": "반복 시술 통증과 장기 진통 효과는 확인하지 않았습니다.",
- "use": "급성 통증의 비약물 감각 중재를 설계할 때 참고하는 기전 근거로만 기록합니다.",
- "refs": [
-  {
-   "label": "Nature exposure induces analgesic effects by acting on nociception-related neural processing",
-   "doi": "10.1038/s41467-025-56870-2",
-   "pmid": "40082419"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "virtual nature exposure AND Acute Pain · 4건 반환",
-  "pubmed": "virtual nature exposure AND Acute Pain · 10편",
-  "negative": "virtual nature exposure AND Acute Pain AND (no effect OR did not OR failed OR no significant difference) · 9편",
-  "safety": "virtual nature exposure AND (adverse OR toxicity OR case report OR harm) · 99편"
- }
+  "id": "virtual-nature-exposure-acute-pain-pos",
+  "subj": "가상 자연 노출",
+  "claim": "급성 입원 통증에 몰입형 가상현실 자연환경 노출을 적용할 수 있다",
+  "line": "전기자극으로 유발한 급성 통증에서 가상 자연환경은 통증을 줄였습니다",
+  "effect": "통증 -1.3 vs -.6 (p=.008)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 100,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "가상 자연 노출은 비약물 중재이며 급성 통증에 의약품 허가 적응증을 적용하지 않습니다.",
+  "why": "건강한 참가자 49명이 전기자극을 받으며 가상 자연, 도시, 실내 대조환경을 경험했습니다.",
+  "saw": "입원환자 100명을 3차원 가상현실군(n=50)과 2차원 자연영상 대조군(n=50)에 배정했다. 통증 감소는 -1.3 vs -0.6점(p=.008), 통증 반응 달성률은 65% vs 40%(p=.01), NNT는 4였다.",
+  "limit": "무작위시험이 아니라 비교 코호트 연구였고, 가상현실 영상의 자연환경 요소가 초록에 명확히 기술되지 않았다.",
+  "against": "반복 시술 통증과 장기 진통 효과는 확인하지 않았습니다.",
+  "use": "급성 통증의 비약물 감각 중재를 설계할 때 참고하는 기전 근거로만 기록합니다.",
+  "refs": [
+    {
+      "label": "Nature exposure induces analgesic effects by acting on nociception-related neural processing",
+      "doi": "10.1038/s41467-025-56870-2",
+      "pmid": "40082419"
+    },
+    {
+      "label": "Virtual reality for pain management in hospitalized patients",
+      "pmid": "28356241"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "virtual nature exposure AND Acute Pain · 4건 반환",
+    "pubmed": "virtual nature exposure AND Acute Pain · 10편; PMID 28356241 PubMed abstract verified 2026-08-15",
+    "negative": "virtual nature exposure AND Acute Pain AND (no effect OR did not OR failed OR no significant difference) · 9편",
+    "safety": "virtual nature exposure AND (adverse OR toxicity OR case report OR harm) · 99편"
+  },
+  "vs": "3D 가상현실 자연환경 n=50 vs 2D 자연영상 n=50: 통증 감소 -1.3 vs -0.6점(p=.008), 반응률 65% vs 40%(p=.01), NNT=4."
 }

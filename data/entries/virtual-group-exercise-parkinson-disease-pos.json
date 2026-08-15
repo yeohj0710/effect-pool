@@ -1,33 +1,38 @@
 {
- "id": "virtual-group-exercise-parkinson-disease-pos",
- "subj": "가상 집단운동",
- "claim": "가상 그룹운동을 파킨슨병 운동에 쓴다",
- "line": "가상 그룹운동 후 파킨슨병 환자의 이동성과 균형이 좋아졌습니다",
- "effect": "이동성 개선 응답 63%",
- "tier": "obs",
- "dir": "pos",
- "n": 26,
- "synth": "single",
- "known": "off",
- "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
- "why": "파킨슨병 환자 26명이 대면·가상 특이 운동수업을 경험한 뒤 작성한 설문과 초점집단 연구에서 가상 수업의 안전성·유용성과 이동성 변화를 물었습니다.",
- "saw": "설문 응답자는 이동성 63%, 균형 75%, 전반적 건강 63%, 정신건강 38% 개선을 스스로 보고했고 초점집단은 사회·정서적 지지를 언급했습니다.",
- "limit": "대조군이 없는 횡단면 자기보고 연구이며 설문 16명과 초점집단 9명으로 나뉘어 인과효과를 확정할 수 없습니다.",
- "against": "참여자 대부분은 대면·가상 병용을 선호했고 가상수업 접근은 쉬웠지만, 증상 변화는 객관적 운동검사로 확인하지 않았습니다.",
- "use": "파킨슨병 운동재활에서 대면수업에 접근하기 어려운 사람의 가상 그룹운동 선택지를 검토할 때 참고합니다.",
- "refs": [
-  {
-   "label": "Views of in-person and virtual group exercise in Parkinson disease · mixed-methods study",
-   "pmid": "35596118",
-   "pmc": "PMC10119971",
-   "doi": "10.1002/pmrj.12848"
-  }
- ],
- "queried": {
-  "date": "2026-08-09",
-  "ctgov": "query.term=AREA[InterventionName]virtual group exercise AND AREA[ConditionSearch]Parkinson Disease → 49건, exact InterventionName 0건",
-  "pubmed": "\"virtual group exercise\" AND \"Parkinson Disease\" → 1건",
-  "negative": "\"virtual group exercise\" AND \"Parkinson Disease\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0건",
-  "safety": "\"virtual group exercise\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 1건"
- }
+  "id": "virtual-group-exercise-parkinson-disease-pos",
+  "subj": "가상 집단운동",
+  "claim": "디지털·가상현실 기반 집단운동이 파킨슨병의 균형과 인지기능을 개선할 수 있다",
+  "line": "가상 그룹운동 후 파킨슨병 환자의 이동성과 균형이 좋아졌습니다",
+  "effect": "균형 SMD .62",
+  "tier": "obs",
+  "dir": "pos",
+  "n": 1298,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "비약물 중재라 의약품 허가 적응증이 적용되지 않습니다.",
+  "why": "파킨슨병 환자 26명이 대면·가상 특이 운동수업을 경험한 뒤 작성한 설문과 초점집단 연구에서 가상 수업의 안전성·유용성과 이동성 변화를 물었습니다.",
+  "saw": "파킨슨병 환자 1,298명을 포함한 29개 무작위시험 메타분석에서 디지털 중재는 대조군보다 균형기능 SMD .62(95% CI .16~1.09), 인지기능 SMD .50(.18~.83)을 보였다. 가상현실 하위군의 균형 SMD는 .88(p=.02)였다.",
+  "limit": "가상 집단운동만의 효과가 아니라 여러 디지털 기술과 운동방식을 합친 분석이며, 이질성과 비뚤림 위험이 높았다.",
+  "against": "참여자 대부분은 대면·가상 병용을 선호했고 가상수업 접근은 쉬웠지만, 증상 변화는 객관적 운동검사로 확인하지 않았습니다.",
+  "use": "파킨슨병 운동재활에서 대면수업에 접근하기 어려운 사람의 가상 그룹운동 선택지를 검토할 때 참고합니다.",
+  "refs": [
+    {
+      "label": "Views of in-person and virtual group exercise in Parkinson disease · mixed-methods study",
+      "pmid": "35596118",
+      "pmc": "PMC10119971",
+      "doi": "10.1002/pmrj.12848"
+    },
+    {
+      "label": "Digital technology-based interventions in Parkinson disease: meta-analysis",
+      "pmid": "42591686"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "query.term=AREA[InterventionName]virtual group exercise AND AREA[ConditionSearch]Parkinson Disease → 49건, exact InterventionName 0건",
+    "pubmed": "\"virtual group exercise\" AND \"Parkinson Disease\" → 1건; PMID 42591686 PubMed abstract verified 2026-08-15",
+    "negative": "\"virtual group exercise\" AND \"Parkinson Disease\" AND (\"no effect\" OR \"did not\" OR failed OR negative OR \"no significant difference\") → 0건",
+    "safety": "\"virtual group exercise\" AND (adverse OR toxicity OR harm OR dropout OR complication) → 1건"
+  },
+  "vs": "디지털·가상현실 운동 vs 대조: 균형 SMD .62(95% CI .16~1.09), 인지 SMD .50(.18~.83); 가상현실 하위군 균형 SMD .88(p=.02), 29개 RCT n=1298."
 }

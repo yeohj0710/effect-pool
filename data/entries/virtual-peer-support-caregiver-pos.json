@@ -1,33 +1,38 @@
 {
- "id": "virtual-peer-support-caregiver-pos",
- "subj": "가상 동료지원",
- "claim": "치매 가족돌봄자에게 virtual peer support를 제공하면 지원의 실행 가능성과 만족도가 높다",
- "line": "가상 동료지원은 치매 가족돌봄자의 만족도를 높였습니다",
- "effect": "멘티 유지율 93%, 만족도 4.6/5",
- "tier": "trial",
- "dir": "pos",
- "n": 26,
- "synth": "single",
- "known": "off",
- "knownWhy": "Virtual peer support는 약물 허가 적응증이 아닌 돌봄자 지원 중재입니다.",
- "why": "현재 돌봄자와 전 돌봄자를 가상 동료 멘토로 연결한 직접 중재 연구가 있어 trial 칸에 넣었습니다.",
- "saw": "흑인 치매 가족돌봄자 26명(멘토 11명, 멘티 15명)을 6개월 Pair 2 Care 가상 동료지원에 참여시킨 실행 가능성 연구입니다. 멘토 유지율은 90%, 멘티 유지율은 93%였고 평균 만족도는 4.6/5였습니다.",
- "limit": "소규모 실행 가능성 연구이며 모든 참여자가 여성이었습니다. 대조군이 없어 삶의 질이나 건강 결과의 치료 효과는 판단할 수 없습니다.",
- "against": "완전한 효능시험이 아니며 건강 결과의 대조군 비교는 없었습니다.",
- "use": "치매 가족돌봄자 프로그램을 설계할 때 가상 동료 멘토 연결의 실행 가능성과 수용성을 가늠하는 근거로 사용합니다.",
- "refs": [
-  {
-   "label": "2026 · Journal of the American Geriatrics Society · 흑인 치매 가족돌봄자 Pair 2 Care 실행 가능성 연구",
-   "doi": "10.1111/jgs.70241",
-   "pmid": "41403114",
-   "nct": "NCT06064955"
-  }
- ],
- "queried": {
-  "date": "2026-08-08",
-  "ctgov": "virtual peer support AND Caregiver · 3건",
-  "pubmed": "virtual peer support AND caregiver · 8편",
-  "negative": "virtual peer support AND caregiver AND (no effect OR did not OR failed OR negative OR no significant difference) · 5편",
-  "safety": "virtual peer support AND caregiver AND (adverse OR toxicity OR safety OR harm OR distress) · 2편"
- }
+  "id": "virtual-peer-support-caregiver-pos",
+  "subj": "가상 동료지원",
+  "claim": "가상 iSupport 집단 동료지원이 치매 가족돌봄자의 정신건강과 자기효능감을 개선할 수 있다",
+  "line": "가상 동료지원은 치매 가족돌봄자의 만족도를 높였습니다",
+  "effect": "삶의 질 +12.0 (p<.001)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 149,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "Virtual peer support는 약물 허가 적응증이 아닌 돌봄자 지원 중재입니다.",
+  "why": "현재 돌봄자와 전 돌봄자를 가상 동료 멘토로 연결한 직접 중재 연구가 있어 trial 칸에 넣었습니다.",
+  "saw": "치매 가족돌봄자 149명을 대상으로 한 가상 iSupport 무작위시험에서 통상관리군과 비교해 정신건강 관련 삶의 질이 12.0점 증가(p<.001), 자기효능감은 14.8에서 18.5로 증가(p<.001), 사회적 지지는 .25점 증가(p=.028), 돌봄행동 반응은 -.25점 감소(p=.028), 치매 환자 입원률은 60% 낮았다(p=.045).",
+  "limit": "다요소 프로그램으로 집단 동료지원, 교육, 서비스 연결 중 하나의 효과만 분리할 수 없다.",
+  "against": "완전한 효능시험이 아니며 건강 결과의 대조군 비교는 없었습니다.",
+  "use": "치매 가족돌봄자 프로그램을 설계할 때 가상 동료 멘토 연결의 실행 가능성과 수용성을 가늠하는 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "2026 · Journal of the American Geriatrics Society · 흑인 치매 가족돌봄자 Pair 2 Care 실행 가능성 연구",
+      "doi": "10.1111/jgs.70241",
+      "pmid": "41403114",
+      "nct": "NCT06064955"
+    },
+    {
+      "label": "Virtual iSupport program for dementia carers",
+      "pmid": "41023309"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-15",
+    "ctgov": "virtual peer support AND Caregiver · 3건",
+    "pubmed": "virtual peer support AND caregiver · 8편; PMID 41023309 PubMed abstract verified 2026-08-15",
+    "negative": "virtual peer support AND caregiver AND (no effect OR did not OR failed OR negative OR no significant difference) · 5편",
+    "safety": "virtual peer support AND caregiver AND (adverse OR toxicity OR safety OR harm OR distress) · 2편"
+  },
+  "vs": "가상 iSupport n=149 vs 통상관리: 정신건강 삶의 질 +12.0점(p<.001), 자기효능감 14.8→18.5(p<.001), 입원률 60% 감소(p=.045)."
 }

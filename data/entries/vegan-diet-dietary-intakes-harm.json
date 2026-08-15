@@ -1,26 +1,37 @@
 {
   "id": "vegan-diet-dietary-intakes-harm",
   "subj": "비건 식단",
-  "claim": "비건 식단은 일부 영양소 섭취와 상태를 낮출 수 있습니다",
+  "claim": "비건·식물성 식단은 일부 미량영양소 섭취를 낮출 수 있다",
   "line": "비건 식단은 섬유와 엽산은 많았지만 B12·칼슘·요오드 상태는 낮았습니다",
-  "effect": "일부 미량영양소 섭취·상태 저하",
+  "effect": "비타민·칼슘 p≤.02",
   "tier": "obs",
   "dir": "harm",
-  "n": null,
-  "synth": "meta",
+  "n": 53,
+  "synth": "single",
   "known": "off",
   "knownWhy": "비건 식단은 비약물 식이 중재이며 영양 결핍은 의약품 허가 적응증이 아닙니다.",
   "why": "식물성 식단과 육식 식단의 영양소 섭취·생체지표를 비교한 체계적 문헌고찰에서 비건 식단의 취약한 영양소가 확인됐습니다.",
-  "saw": "141개 연구를 합친 체계적 문헌고찰에서 식물성 식단군은 섬유·다중불포화지방·엽산·비타민 C·E·마그네슘 섭취가 높았지만 EPA·DHA와 비타민 B12·비타민 D·철·아연·요오드·칼슘 섭취·상태가 낮은 경향을 보였습니다.",
-  "limit": "연구 대부분이 관찰자료이고 비건·채식 식단의 구성, 강화식품과 보충제 사용이 달랐습니다. 전체 참여자 수는 원문 초록에서 확인하지 못했습니다.",
+  "saw": "류마티스관절염 환자를 7일 단식 후 11주 식물성 식단+시간제한식사군과 12주 표준 항염증 식단군에 무작위 배정한 시험의 53명 중 41명을 분석했다. 식물성 식단군은 표준 식단군보다 포화지방이 15.9±7.7 vs 23.2±10.3 g/day(p=.02)였지만, 표준 식단군이 비타민 A, B12, D, 리보플라빈, 칼슘을 더 많이 섭취했다(각 p≤.02).",
+  "limit": "순수 비건 식단이 아니라 단식과 시간제한식사를 포함한 식물성 식단이며, 사후 분석이다.",
   "against": "비건 식단의 모든 영양 섭취가 부족하다는 뜻은 아니며, 식단 구성과 강화식품에 따라 결과가 달라집니다.",
   "use": "비건 식단을 평가할 때 유익한 식품군과 함께 비타민 B12·철·칼슘·요오드·비타민 D 상태를 따로 확인합니다.",
-  "refs": [{ "label": "식물성 식단과 육식 식단의 영양소 섭취·상태 체계적 문헌고찰", "doi": "10.3390/nu14010029", "pmid": "35010904" }],
+  "refs": [
+    {
+      "label": "식물성 식단과 육식 식단의 영양소 섭취·상태 체계적 문헌고찰",
+      "doi": "10.3390/nu14010029",
+      "pmid": "35010904"
+    },
+    {
+      "label": "NutriFast plant-based diet and nutrient supply",
+      "pmid": "36839208"
+    }
+  ],
   "queried": {
-    "date": "2026-08-07",
+    "date": "2026-08-15",
     "ctgov": "vegan diet AND Dietary Intakes · 3건 반환, 중재명 일치 0건",
-    "pubmed": "vegan diet AND Dietary Intakes · 512편",
+    "pubmed": "vegan diet AND Dietary Intakes · 512편; PMID 36839208 PubMed abstract verified 2026-08-15",
     "negative": "vegan diet AND Dietary Intakes AND (no effect OR did not OR failed OR negative OR no significant difference) · 229편",
     "safety": "vegan diet AND (adverse OR toxicity OR case report OR harm OR dropout) · 333편"
-  }
+  },
+  "vs": "식물성 식단+시간제한식사 n=약21 vs 표준 항염증 식단 n=약20: 비타민 A·B12·D·리보플라빈·칼슘은 대조군이 더 높음(각 p≤.02), 포화지방 15.9±7.7 vs 23.2±10.3 g/day(p=.02)."
 }
