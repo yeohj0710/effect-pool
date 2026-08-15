@@ -21422,3 +21422,33 @@ ClinicalTrials.gov 에서 뽑았습니다. 물질 동일성을 대조했고 표�
 - [x] 태극권 — 불안에 듣는다 — 근거 부족(2026-08-15, 불안 자체의 직접 정량 비교 결과를 확인하지 못함)
 - [x] 태극권 — 골다공증에 듣는다 — 항목 생성(tai-chi-osteoporosis-pos) <!-- PubMed PMID 38072989·41733627 -->
 - [x] 태극권 — 만성 통증에 듣는다 — 항목 생성(tai-chi-chronic-pain-pos) <!-- PubMed PMID 38980862·27125299 -->
+- [x] 셀레늄 — 하시모토 갑상선염 자가항체에 쓰는가 — 항목 생성(selenium-autoimmune-thyroiditis-pos) <!-- PubMed PMID 30306604·25574167 -->
+- [x] 셀레늄 — 다발성경화증 인지기능에 쓰는가 — 항목 생성(selenium-cognitive-function-null) <!-- PubMed PMID 37917350 -->
+- [x] 셀레늄 — 천식 삶의 질에 쓰는가 — 항목 생성(selenium-asthma-null) <!-- PubMed PMID 17234657 -->
+- [x] 비타민C — 감기 기간에 쓰는가 — 기존 항목 연결(vitamin-c-cold-prevention-null) <!-- PubMed PMID 23440782 -->
+- [x] 비타민C — 철결핍성 빈혈에 쓰는가 — 항목 생성(vitamin-c-iron-deficiency-pos) <!-- PubMed PMID 41287676 -->
+- [x] 비타민C — 통풍 요산에 쓰는가 — 항목 생성(vitamin-c-gout-null) <!-- PubMed PMID 23681955·21671418 -->
+- [x] 비타민 B12 — 당뇨병성 신경병증에 쓰는가 — 항목 생성(vitamin-b12-neuropathy-pos) <!-- PubMed PMID 36457818·33513879 -->
+- [x] 비타민 B6 — 손목터널증후군에 쓰는가 — 항목 생성(vitamin-b6-carpal-tunnel-null) <!-- PubMed PMID 2749352 -->
+- [x] 아연 — 여드름 병변에 쓰는가 — 항목 생성(zinc-acne-pos) <!-- PubMed PMID 28369875 -->
+- [x] 아연 — 당뇨병성 족부궤양에 쓰는가 — 항목 생성(zinc-wound-healing-pos) <!-- PubMed PMID 28395131 -->
+- [x] 아연 — 감기 기간에 쓰는가 — 기존 항목 연결(zinc-cold-duration) <!-- PubMed PMID 38719213 -->
+- [x] 철분 — 하지불안증후군에 쓰는가 — 항목 생성(iron-restless-legs-pos) <!-- PubMed PMID 38625730·34157632 -->
+- [x] 엽산 — 성인 우울 증상에 쓰는가 — 항목 생성(folic-acid-depression-null) <!-- PubMed PMID 25644193 -->
+- [x] L-카르니틴 — 피로에 쓰는가 — 기존 항목 연결(carnitine-fatigue-observation) <!-- PubMed PMID 40536003 -->
+- [x] L-카르니틴 — 만성 심부전에 쓰는가 — 항목 생성(l-carnitine-heart-failure-null) <!-- PubMed PMID 10075143 -->
+- [x] 사프란 — 저기분 성인 불안에 쓰는가 — 기존 항목 연결(saffron-depression-pos) <!-- PubMed PMID 40414301 -->
+- [x] 사프란 — 황반변성에 쓰는가 — 기존 항목 연결(saffron-macular-dystrophy-pos) <!-- PubMed PMID 30343354·28289690 -->
+- [x] 사프란 — ADHD에 쓰는가 — 근거 부족(직접 비교 수치 미확인) <!-- PubMed PMID 38424688 -->
+- [x] 사프란 — 불안·스트레스에 쓰는가 — 항목 생성(saffron-anxiety-pos) <!-- PubMed PMID 28735826 -->
+- [x] 라벤더 — 불안에 쓰는가 — 항목 생성(lavender-anxiety-pos) <!-- PubMed PMID 39400653·34775136; ClinicalTrials.gov NCT06387849 -->
+- [x] 캐모마일 — 만성 불면증에 쓰는가 — 항목 생성(chamomile-insomnia-null) <!-- PubMed PMID 21939549 -->
+- [x] 발레리안 — 불면증에 쓰는가 — 기존 항목 연결(valerian-sleep-pos) <!-- PubMed PMID 37899385·17940604 -->
+- [x] 음악치료 — 불안에 쓰는가 — 기존 항목 연결(music-therapy-anxiety-pos) <!-- PubMed PMID 34365216 -->
+- [x] 수면위생 — 불면증에 쓰는가 — 근거 부족(직접 비교 수치 미확인) <!-- PubMed PMID 39999728 -->
+- [x] 유산소운동 — 주요우울장애에 쓰는가 — 항목 생성(aerobic-exercise-depression-pos) <!-- PubMed PMID 38355154 -->
+- [x] 필라테스 — 만성 허리통증에 쓰는가 — 항목 생성(pilates-low-back-pain-pos) <!-- PubMed PMID 39275840 -->
+- [x] 기공 — 폐경 후 불안에 쓰는가 — 근거 부족(불안 효과크기 미확인) <!-- PubMed PMID 36181076 -->
+- [x] 기공 — 만성 허리통증에 쓰는가 — 항목 생성(qigong-low-back-pain-null) <!-- PubMed PMID 39994723 -->
+- [x] 걷기 — 치매 인지기능에 쓰는가 — 항목 생성(walking-cognition-null) <!-- PubMed PMID 32192537 -->
+- [x] 명상 — 불면증에 쓰는가 — 항목 생성(meditation-insomnia-pos) <!-- PubMed PMID 25142566·27663102; ClinicalTrials.gov NCT00768781 -->
