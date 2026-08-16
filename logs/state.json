@@ -2,20 +2,20 @@
   "updated": "2026-08-16",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 7918,
-  "subjects": 2528,
-  "refs": 11037,
+  "entries": 7950,
+  "subjects": 2537,
+  "refs": 11069,
   "kinds": {
-    "supp": 1037,
+    "supp": 1039,
     "rx": 2629,
-    "life": 1348,
-    "otc": 195,
-    "care": 960,
-    "move": 786,
+    "life": 1350,
+    "otc": 196,
+    "care": 982,
+    "move": 791,
     "food": 963
   },
   "tiers": {
-    "trial": 7090,
+    "trial": 7122,
     "obs": 732,
     "animal": 32,
     "lab": 17,
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 190,
-    "null": 1580,
+    "null": 1587,
     "open": 1102,
-    "pos": 5043
+    "pos": 5071
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1644 processed 30 fresh plantar-fasciitis self-management candidates: 19 new entries were recorded, 2 existing entries were linked, and 8 topics were screened without a retained topic-specific numeric or relative result. Nineteen PubMed reference links were added. Resume with batch 1645."
+    "note": "Worklist 17174/17174 checked. Batch 1645 processed 30 fresh carpal-tunnel self-management candidates: 32 new entries were recorded, 1 existing topic was linked, and 7 topics were screened without a retained topic-specific numeric or relative result. Thirty-two PubMed reference links were added. Resume with batch 1646."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1644 processed 30 fresh plantar-fasciitis self-management candidates; all 30 were non-prescription-category candidates. Nineteen PubMed-backed entries were added, 2 existing entries linked, and 8 topics were screened because the selected records lacked direct topic-specific numeric or relative results."
+    "note": "Batch 1645 processed 30 fresh carpal-tunnel self-management candidates; all 30 were non-prescription-category candidates. Thirty-two PubMed-backed entries were added, 1 existing topic linked, and 7 topics were screened because the selected records lacked direct topic-specific numeric or relative results."
   },
   "checkpoints": {
-    "over_counter_share": "27.7% (2195 entries)",
-    "rx_share": "33.2% (2629)",
-    "no_effect_or_harm_share": "22.4% (1773)",
-    "vs_share": "88.2% (6980 entries)",
+    "over_counter_share": "27.6% (2198 entries)",
+    "rx_share": "33.1% (2629)",
+    "no_effect_or_harm_share": "22.4% (1777)",
+    "vs_share": "88.2% (7012 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "89.5% (7090)",
-    "non_trial_share": "10.5% (828)",
+    "trial_share": "89.6% (7122)",
+    "non_trial_share": "10.4% (828)",
     "build_warnings": {
       "unknown_n": 550,
-      "thin_study": 1434,
+      "thin_study": 1443,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,8 +60,56 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1644 processed 30 fresh plantar-fasciitis self-management candidates: 19 new entries were recorded, 2 topics were linked to existing entries, and 8 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1645.",
+  "next": "Batch 1645 processed 30 fresh carpal-tunnel self-management candidates: 32 new entries were recorded, 1 topic was linked to an existing entry, and 7 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1646.",
   "last_batch": {
+    "id": "1645",
+    "commit": "6c2bd682",
+    "pushed": true,
+    "expansion_commit": "6c2bd682",
+    "data_commits": ["6c2bd682"],
+    "maintenance": false,
+    "processed_topics": 30,
+    "new_entries": 32,
+    "existing_links": 1,
+    "no_evidence_rejects": 7,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 7,
+    "new_references": 32,
+    "existing_reference_links": 0,
+    "build": "7950 entries; 11069 refs; 7122 trial; 732 obs; 32 animal; 17 lab; 47 case; 7012 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 수근관증후군 자기관리 후보 30개를 다뤘고 모두 비처방 범주 후보로 분류했다. 최종 검색은 고유 PMID 127개를 반환했고 127개를 요청해 127개 논문 기록과 127개 초록을 확보했다. 중재군과 대조군의 숫자 비교 또는 유효한 상대효과를 확인한 32개 신규 항목을 PMID 33855879, 32362377, 35782066, 38551521, 17964883, 22259003, 23791320, 32291222, 40579300, 32893098, 35719196, 26281946, 31634868, 23248650, 32507434, 40325700, 29991270, 39416799, 27495063, 35022874, 42057378, 35078486, 31214549, 34256988, 38851555, 28785810, 25428566, 19380259, 25298894, 9820263, 41361445, 15792815에 근거해 기록하고 PubMed 참조 링크 32개를 추가했다. 신규 항목은 손목 보조기·교육·운동, 인체공학 키보드, 신경가동술, 도수치료, 침술·지압·건침, 근막 박리술, 초음파, 저강도 레이저, 테이핑, 체외충격파, 파라핀, 부항, 국소 멘톨, 요가, 알파리포산·비타민 B군, 메코발라민을 다룬다. 비타민 B6는 기존 항목으로 연결했고 활동 조정, 마음챙김, 체중 감량, 마사지, 열·냉찜질, 오메가3는 선택한 기록에서 주제에 직접 대응하는 수치 비교 또는 유효한 상대효과가 없어 보류했다. 신규 항목의 비교·효과·줄 길이 경고는 남기지 않았고, 실제 소표본 경고 9건이 새로 남았다.",
+    "qualified_topics": ["wrist-splint-carpal-tunnel", "night-splint-carpal-tunnel", "ergonomic-carpal-tunnel", "tendon-gliding-carpal-tunnel", "nerve-gliding-carpal-tunnel", "hand-exercise-carpal-tunnel", "strengthening-carpal-tunnel", "stretching-carpal-tunnel", "yoga-carpal-tunnel", "patient-education-carpal-tunnel", "workplace-education-carpal-tunnel", "manual-therapy-carpal-tunnel", "acupuncture-carpal-tunnel", "acupressure-carpal-tunnel", "dry-needling-carpal-tunnel", "ultrasound-carpal-tunnel", "low-level-laser-carpal-tunnel", "tens-carpal-tunnel", "shockwave-carpal-tunnel", "kinesio-taping-carpal-tunnel", "paraffin-carpal-tunnel", "vitamin-b6-carpal-tunnel", "vitamin-b12-carpal-tunnel"],
+    "screened_topics": ["activity-modification-carpal-tunnel", "mindfulness-carpal-tunnel", "weight-loss-carpal-tunnel", "massage-carpal-tunnel", "heat-carpal-tunnel", "ice-carpal-tunnel", "omega3-carpal-tunnel"],
+    "new_entry_ids": ["tendon-nerve-gliding-carpal-tunnel-null", "self-carpal-ligament-stretch-carpal-tunnel-pos", "neuromobilization-carpal-tunnel-pos", "vr-tendon-nerve-gliding-carpal-tunnel-pos", "neutral-mcp-splint-carpal-tunnel-pos", "ergonomic-keyboard-carpal-tunnel-null", "wrist-splint-education-carpal-tunnel-pos", "education-night-splint-exercise-carpal-tunnel-pos", "education-self-mobilization-carpal-tunnel-pos", "neurodynamics-exercise-carpal-tunnel-pos", "manual-neurodynamic-carpal-tunnel-pos", "manual-therapy-vs-surgery-carpal-tunnel-pos", "acupuncture-vs-medical-carpal-tunnel-pos", "acupuncture-sham-splint-carpal-tunnel-pos", "acupressure-carpal-tunnel-pos", "dry-needling-carpal-tunnel-pos", "diacutaneous-fibrolysis-carpal-tunnel-pos", "ultrasound-nerve-gliding-carpal-tunnel-pos", "low-level-laser-carpal-tunnel-meta-pos", "low-level-laser-vs-steroid-carpal-tunnel-null", "home-kinesio-vs-tens-carpal-tunnel-pos", "radial-shockwave-carpal-tunnel-pos", "shockwave-pillar-pain-carpal-tunnel-pos", "kinesio-taping-sham-carpal-tunnel-pos", "kinesio-taping-exercise-carpal-tunnel-pos", "paraffin-carpal-tunnel-pos", "ultrasound-vs-paraffin-carpal-tunnel-pos", "cupping-carpal-tunnel-pos", "topical-menthol-carpal-tunnel-pos", "yoga-carpal-tunnel-pos", "ala-b-vitamin-carpal-tunnel-null", "mecobalamin-carpal-tunnel-pos"],
+    "existing_linked_entry_ids": ["vitamin-b6-carpal-tunnel-null"],
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 164,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "previous_batch_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": ["신경·건 활주 운동=move", "손목 인대 자가 스트레칭=move", "정중신경 가동술=move", "손목 보조기=care", "인체공학 키보드=care", "근막 박리술=care", "파라핀 욕조=care", "국소 멘톨 젤=otc", "알파리포산·비타민 B군=supp", "메코발라민=supp"],
+    "targeted_batch_warnings_fixed": 0,
+    "build_errors_fixed": 0,
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 6,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 1,
+    "next_official_deployment_check": "after batch 1645",
+    "topics": ["wrist-splint-carpal-tunnel", "night-splint-carpal-tunnel", "ergonomic-carpal-tunnel", "activity-modification-carpal-tunnel", "tendon-gliding-carpal-tunnel", "nerve-gliding-carpal-tunnel", "hand-exercise-carpal-tunnel", "strengthening-carpal-tunnel", "stretching-carpal-tunnel", "yoga-carpal-tunnel", "mindfulness-carpal-tunnel", "weight-loss-carpal-tunnel", "patient-education-carpal-tunnel", "workplace-education-carpal-tunnel", "massage-carpal-tunnel", "manual-therapy-carpal-tunnel", "acupuncture-carpal-tunnel", "acupressure-carpal-tunnel", "dry-needling-carpal-tunnel", "ultrasound-carpal-tunnel", "low-level-laser-carpal-tunnel", "tens-carpal-tunnel", "shockwave-carpal-tunnel", "kinesio-taping-carpal-tunnel", "paraffin-carpal-tunnel", "heat-carpal-tunnel", "ice-carpal-tunnel", "vitamin-b6-carpal-tunnel", "vitamin-b12-carpal-tunnel", "omega3-carpal-tunnel"]
+  },
+  "previous_last_batch_1644": {
     "id": "1644",
     "commit": "83257df8",
     "pushed": true,
@@ -2338,8 +2386,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1645",
-    "worklist_line": "new-expansion-candidates-batch1645",
+    "next_batch": "1646",
+    "worklist_line": "new-expansion-candidates-batch1646",
     "topic": null,
     "unchecked": 0
   }
