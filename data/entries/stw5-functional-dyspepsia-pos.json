@@ -1,0 +1,30 @@
+{
+  "id": "stw5-functional-dyspepsia-pos",
+  "subj": "STW 5",
+  "claim": "기능성 소화불량 증상을 줄이는가",
+  "line": "기능성 소화불량 메타분석에서 STW 5는 위약보다 가장 불편한 위장 증상을 줄였습니다.",
+  "effect": "미호전 OR 0.22",
+  "vs": "기능성 소화불량 위약 대조 RCT 3편 메타분석에서 STW 5군 138명 대 위약군 135명의 가장 불편한 위장 증상 중증도 결과는 OR 0.22(95% CI 0.11~0.47; P=.001)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 273,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "STW 5는 기능성 소화불량의 의약품 허가 적응증이 아닌 한방 복합제입니다.",
+  "why": "STW 5와 위약을 비교한 무작위시험의 원자료를 합친 메타분석입니다.",
+  "saw": "위약 대조 RCT 3편의 유효성 자료와 별도 비교시험의 안전성 자료를 분석했습니다.",
+  "limit": "포함 연구의 제형과 기능성 소화불량 아형이 달랐고, 일부 분석은 원자료 재분석이었습니다.",
+  "against": "STW 5와 시사프라이드의 일부 비교시험에서는 유의한 차이가 없었습니다.",
+  "use": "허브 복합제의 기능성 소화불량 비교 근거를 읽을 때 참고할 자료입니다.",
+  "refs": [
+    { "label": "STW 5 기능성 소화불량 메타분석", "pmid": "15606389" },
+    { "label": "STW 5 기능성 소화불량 무작위시험", "pmid": "12055663" }
+  ],
+  "queried": {
+    "date": "2026-08-16",
+    "ctgov": "query.intr=STW 5 · query.cond=functional dyspepsia → 3건, 정확 개입명 1건",
+    "pubmed": "STW 5 functional dyspepsia randomized trial → PMID 15606389, 12055663",
+    "negative": "STW 5 functional dyspepsia AND (no effect OR no significant difference)",
+    "safety": "STW 5 AND (adverse OR toxicity OR case report)"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gluten-challenge-dyspepsia-harm",
+  "subj": "글루텐 재도입",
+  "claim": "기능성 소화불량 증상을 악화하는가",
+  "line": "임상시험 메타분석에서 글루텐 재도입은 복부팽만·조기포만감·상복부 통증을 더 심하게 했습니다.",
+  "effect": "복부팽만 WMD 0.67 증가",
+  "vs": "기능성 소화불량 임상시험 메타분석(5개 RCT)에서 글루텐 재도입군 대 제한·위약군은 복부팽만 WMD 0.67(95% CI 0.37~0.97), 조기포만감 0.91(0.58~1.23), 상복부 통증 0.46(0.17~0.75)만큼 더 높았습니다.",
+  "tier": "trial",
+  "dir": "harm",
+  "n": null,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "글루텐 재도입은 기능성 소화불량의 허가 치료가 아니라 식이 노출입니다.",
+  "why": "글루텐 재도입과 제한·위약을 비교한 임상시험을 합친 메타분석입니다.",
+  "saw": "5개 RCT의 복부팽만, 조기포만감, 상복부 통증, 오심 결과를 무작위효과 모형으로 합쳤습니다.",
+  "limit": "메타분석에 포함된 사람 수가 초록에 제시되지 않았고 연구 간 이질성이 있었습니다.",
+  "against": "오심은 WMD 0.13(95% CI -0.17~0.43)으로 유의한 차이가 없었습니다.",
+  "use": "글루텐 제한을 평가할 때 증상별 결과가 다를 수 있음을 보여주는 근거입니다.",
+  "refs": [
+    { "label": "글루텐과 소화불량 증상 임상시험 메타분석", "pmid": "37115663" }
+  ],
+  "queried": {
+    "date": "2026-08-16",
+    "ctgov": "query.intr=gluten free diet · query.cond=functional dyspepsia → 0건",
+    "pubmed": "gluten free diet functional dyspepsia randomized trial → PMID 37115663, 32051513, 32629906",
+    "negative": "gluten functional dyspepsia AND (no effect OR no significant difference)",
+    "safety": "gluten free diet AND (adverse OR toxicity OR case report)"
+  }
+}
