@@ -1,0 +1,21 @@
+{
+ "id": "balneotherapy-rheumatoid-arthritis-pos",
+ "subj": "온천요법",
+ "claim": "온천요법이 류마티스관절염 기능을 개선하는가",
+ "line": "온천요법은 약물치료만 한 경우보다 기능장애 odds를 낮췄습니다.",
+ "effect": "HAQ-DI OR 0.37~0.44",
+ "tier": "trial",
+ "dir": "pos",
+ "n": null,
+ "synth": "single",
+ "known": "off",
+ "knownWhy": "온천요법은 의약품 허가 적응증이 아닌 보조요법입니다.",
+ "why": "류마티스관절염 환자를 온천요법과 기존 약물치료군으로 비교한 임상시험에서 기능 결과를 보고했습니다.",
+ "saw": "HAQ-DI 기능장애 odds ratio는 21일에 0.37(95% CI 0.09~0.64, P=.01), 3개월에 0.44(95% CI 0.15~0.72, P=.004)였습니다.",
+ "limit": "초록에 전체 무작위 배정 인원이 제시되지 않아 표본 수를 채우지 않았습니다.",
+ "against": "온천요법이 류마티스관절염 질병활성도와 모든 기능 결과를 개선한다고 볼 수 없습니다.",
+ "use": "온천요법의 단기 기능장애 결과를 검토할 때 사용합니다.",
+ "refs": [{"label":"류마티스관절염 온천요법 임상시험","pmid":"28471579"}],
+ "queried": {"date":"2026-08-16","pubmed":"balneotherapy rheumatoid arthritis randomized trial; PMID 28471579","negative":"balneotherapy rheumatoid arthritis AND (no effect OR no significant difference)","safety":"balneotherapy rheumatoid arthritis AND (adverse OR harm OR dropout)"},
+ "vs": "온천요법+약물 vs 약물; HAQ-DI OR 0.37(21일), OR 0.44(3개월)"
+}
