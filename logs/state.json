@@ -1,21 +1,21 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 8005,
-  "subjects": 2549,
-  "refs": 11124,
+  "entries": 8028,
+  "subjects": 2554,
+  "refs": 11147,
   "kinds": {
     "supp": 1039,
     "rx": 2629,
     "life": 1352,
-    "otc": 196,
-    "care": 1018,
-    "move": 808,
+    "otc": 198,
+    "care": 1035,
+    "move": 812,
     "food": 963
   },
   "tiers": {
-    "trial": 7177,
+    "trial": 7200,
     "obs": 732,
     "animal": 32,
     "lab": 17,
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 190,
-    "null": 1598,
+    "null": 1606,
     "open": 1104,
-    "pos": 5113
+    "pos": 5128
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1647 processed 30 fresh chronic-neck-pain self-management candidates: 20 new entries were recorded, 2 existing topics were linked, and 12 topics were screened without a retained topic-specific numeric or relative result. Twenty PubMed reference links were added. Resume with batch 1648."
+    "note": "Worklist 17174/17174 checked. Batch 1648 processed 30 fresh shoulder-pain self-management candidates: 23 new entries were recorded, 4 existing topics were linked, and 12 topics were screened without a retained topic-specific numeric or relative result. Twenty-three PubMed reference links were added. Resume with batch 1649."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1647 processed 30 fresh chronic-neck-pain self-management candidates; all 30 were non-prescription-category candidates. Twenty PubMed-backed entries were added, 2 existing topics linked, and 12 topics were screened because the selected records lacked direct topic-specific numeric or relative results."
+    "note": "Batch 1648 processed 30 fresh shoulder-pain self-management candidates; all 30 were non-prescription-category candidates. Twenty-three PubMed-backed entries were added, 4 existing topics linked, and 12 topics were screened because the selected records lacked direct topic-specific numeric or relative results."
   },
   "checkpoints": {
-    "over_counter_share": "27.5% (2198 entries)",
-    "rx_share": "32.8% (2629)",
-    "no_effect_or_harm_share": "22.3% (1788 entries)",
-    "vs_share": "88.3% (7067 entries)",
+    "over_counter_share": "27.4% (2200 entries)",
+    "rx_share": "32.7% (2629)",
+    "no_effect_or_harm_share": "22.4% (1796 entries)",
+    "vs_share": "88.3% (7090 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "89.7% (7177)",
+    "trial_share": "89.7% (7200)",
     "non_trial_share": "10.3% (828)",
     "build_warnings": {
       "unknown_n": 550,
-      "thin_study": 1463,
+      "thin_study": 1472,
       "targeted_batch_warnings": 0
     }
   },
@@ -60,8 +60,56 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1647 processed 30 fresh chronic-neck-pain self-management candidates: 20 new entries were recorded, 2 topics were linked to existing entries, and 12 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1648.",
+  "next": "Batch 1648 processed 30 fresh shoulder-pain self-management candidates: 23 new entries were recorded, 4 topics were linked to existing entries, and 12 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1649.",
   "last_batch": {
+    "id": "1648",
+    "commit": "41b6cbcd",
+    "pushed": true,
+    "expansion_commit": "41b6cbcd",
+    "data_commits": ["41b6cbcd"],
+    "maintenance": false,
+    "processed_topics": 30,
+    "new_entries": 23,
+    "existing_links": 4,
+    "no_evidence_rejects": 12,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 12,
+    "new_references": 23,
+    "existing_reference_links": 0,
+    "build": "8028 entries; 11147 refs; 7200 trial; 732 obs; 32 animal; 17 lab; 47 case; 7090 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 어깨 통증 자기관리 후보 30개를 다뤘고 모두 비처방 범주 후보로 분류했다. 최종 검색은 고유 PMID 165개를 반환했고 165개를 요청해 165개 논문 기록과 164개 초록을 확보했다. 중재군과 대조군의 숫자 비교 또는 유효한 상대효과를 확인한 23개 신규 항목을 PMID 37490337, 40589240, 36723056, 39327172, 36000960, 38432789, 38376127, 38431547, 40601531, 39571379, 37030191, 41233171, 37759246, 30935341, 34235343, 37546088, 16262574, 38704572, 29979799, 40628437, 38884511, 16223204, 39202470에 근거해 기록하고 PubMed 참조 링크 23개를 추가했다. 신규 항목은 원격 물리치료, 고유수용성·견갑 안정화 운동, 치료 초음파, 도수치료, 원격재활, 마사지, 경피 전기신경 자극, 건침·전기 건침, 저강도 레이저, 체외충격파, 냉찜질, 국소 NSAID·디클로페낙, 키네시올로지 테이핑을 다룬다. 기존 운동·근력운동·견갑 안정화·침술 항목은 연결했다. 스트레칭·유산소·요가·필라테스·태극권·환자교육·자기관리·인체공학·활동 조정·지압·열치료·국소 멘톨은 선택한 기록에서 주제에 직접 대응하는 수치 비교 또는 유효한 상대효과가 없어 보류했다. 신규 항목의 비교·효과·줄 길이 오류는 남기지 않았고, 실제 소표본 경고 9건이 새로 남았다.",
+    "qualified_topics": ["exercise-shoulder-pain", "strengthening-shoulder-pain", "scapular-stabilization-shoulder-pain", "rotator-cuff-exercise-shoulder-pain", "home-exercise-shoulder-pain", "tele-rehabilitation-shoulder-pain", "manual-therapy-shoulder-pain", "mobilization-shoulder-pain", "massage-shoulder-pain", "acupuncture-shoulder-pain", "dry-needling-shoulder-pain", "low-level-laser-shoulder-pain", "tens-shoulder-pain", "ultrasound-shoulder-pain", "cold-shoulder-pain", "shockwave-shoulder-pain", "kinesio-taping-shoulder-pain", "topical-NSAID-shoulder-pain"],
+    "screened_topics": ["stretching-shoulder-pain", "aerobic-exercise-shoulder-pain", "yoga-shoulder-pain", "pilates-shoulder-pain", "tai-chi-shoulder-pain", "education-shoulder-pain", "self-management-shoulder-pain", "ergonomic-shoulder-pain", "activity-modification-shoulder-pain", "acupressure-shoulder-pain", "heat-shoulder-pain", "topical-menthol-shoulder-pain"],
+    "new_entry_ids": ["digital-physical-therapy-shoulder-null", "proprioceptive-strengthening-shoulder-null", "ultrasound-calcific-tendinitis-shoulder-pos", "mobilization-with-movement-shoulder-pos", "scapular-movement-training-shoulder-null", "scapular-stabilization-shoulder-pos", "targeted-scapular-stabilization-shoulder-pos", "manual-therapy-exercise-shoulder-pos", "telerehab-rotator-cuff-shoulder-null", "mobilization-with-movement-immediate-shoulder-pos", "scapular-mobilization-shoulder-null", "massage-postmastectomy-shoulder-pos", "tens-postoperative-shoulder-pos", "dry-needling-trigger-compression-shoulder-null", "dry-needling-sham-shoulder-pos", "electrical-dry-needling-shoulder-null", "low-level-laser-shoulder-pos", "shockwave-rotator-cuff-shoulder-pos", "cold-therapy-shoulder-null", "shockwave-adhesive-capsulitis-shoulder-pos", "topical-nsaid-frozen-shoulder-pos", "topical-diclofenac-shoulder-pos", "kinesio-taping-cold-shoulder-pos"],
+    "existing_linked_entry_ids": ["physical-therapy-subacromial-impingement-pos", "shoulder-exercise-pain-pos-meta", "neuromuscular-exercise-pain-pos", "acupuncture-shoulder-pain-open"],
+    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 164,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "previous_batch_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": ["견갑 안정화 운동=move", "냉찜질=care", "전기 건침=care", "국소 NSAID=otc", "국소 디클로페낙=otc"],
+    "targeted_batch_warnings_fixed": 5,
+    "build_errors_fixed": 0,
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 6,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 1,
+    "next_official_deployment_check": "after batch 1648",
+    "topics": ["exercise-shoulder-pain", "strengthening-shoulder-pain", "scapular-stabilization-shoulder-pain", "rotator-cuff-exercise-shoulder-pain", "stretching-shoulder-pain", "aerobic-exercise-shoulder-pain", "yoga-shoulder-pain", "pilates-shoulder-pain", "tai-chi-shoulder-pain", "home-exercise-shoulder-pain", "education-shoulder-pain", "self-management-shoulder-pain", "ergonomic-shoulder-pain", "activity-modification-shoulder-pain", "tele-rehabilitation-shoulder-pain", "manual-therapy-shoulder-pain", "mobilization-shoulder-pain", "massage-shoulder-pain", "acupuncture-shoulder-pain", "acupressure-shoulder-pain", "dry-needling-shoulder-pain", "low-level-laser-shoulder-pain", "tens-shoulder-pain", "ultrasound-shoulder-pain", "heat-shoulder-pain", "cold-shoulder-pain", "shockwave-shoulder-pain", "kinesio-taping-shoulder-pain", "topical-menthol-shoulder-pain", "topical-NSAID-shoulder-pain"]
+  },
+  "previous_last_batch_1647": {
     "id": "1647",
     "commit": "90fe4d7b",
     "pushed": true,
@@ -2482,8 +2530,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1647",
-    "worklist_line": "new-expansion-candidates-batch1647",
+    "next_batch": "1649",
+    "worklist_line": "new-expansion-candidates-batch1649",
     "topic": null,
     "unchecked": 0
   }
