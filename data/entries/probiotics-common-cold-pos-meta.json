@@ -1,0 +1,25 @@
+{
+  "id": "probiotics-common-cold-pos-meta",
+  "subj": "프로바이오틱스",
+  "claim": "프로바이오틱스는 감기 발생을 소폭 줄일 가능성이 있습니다.",
+  "line": "감기 예방 메타분석에서 프로바이오틱스의 감기 위험 감소 효과는 작고 불확실했습니다.",
+  "effect": "감기 RR 0.92",
+  "vs": "감기 예방 무작위시험 10개(총 2,894명) 메타분석에서 프로바이오틱스의 감기 위험은 대조군보다 낮았지만 RR 0.92(95% CI 0.85~1.00)로 경계선 효과였습니다. 3개월 이하 복용군은 RR 0.82(95% CI 0.70~0.97)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 2894,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "균주·복용 기간이 연구마다 달라 특정 제품의 효과로 일반화할 수 없습니다.",
+  "why": "프로바이오틱스와 대조 조건을 비교한 감기 예방 무작위시험 메타분석입니다.",
+  "saw": "전체 분석의 감기 위험 감소는 작았고 단기간 복용 하위군에서만 더 뚜렷했습니다.",
+  "limit": "균주와 활성 성분 조합이 달랐고 전체 95% CI가 1.00에 닿았습니다.",
+  "against": "프로바이오틱스가 감기를 확실히 예방하거나 치료한다고 단정하지 않습니다.",
+  "use": "감기 예방을 위한 프로바이오틱스 근거의 크기와 불확실성을 설명할 때 사용합니다.",
+  "refs": [
+    { "label": "프로바이오틱스 감기 예방 메타분석", "pmid": "23372900" },
+    { "label": "학령기 아동 프로바이오틱스 감기 예방 무작위시험", "pmid": "22507276" },
+    { "label": "프로바이오틱스 감기 증상 완화 무작위시험", "pmid": "40362799" }
+  ],
+  "queried": { "date": "2026-08-16", "pubmed": "probiotics common cold randomized meta-analysis; PMID 23372900·22507276·40362799", "negative": "probiotics common cold AND (no effect OR no significant difference)", "safety": "probiotics AND (adverse OR bacteremia OR harm)" }
+}
