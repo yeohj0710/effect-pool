@@ -2,20 +2,20 @@
   "updated": "2026-08-18",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 8814,
-  "subjects": 2964,
-  "refs": 11934,
+  "entries": 8830,
+  "subjects": 2974,
+  "refs": 11950,
   "kinds": {
     "supp": 1120,
-    "rx": 2675,
+    "rx": 2677,
     "life": 1392,
-    "otc": 249,
-    "care": 1471,
+    "otc": 251,
+    "care": 1483,
     "move": 922,
     "food": 985
   },
   "tiers": {
-    "trial": 7980,
+    "trial": 7996,
     "obs": 738,
     "animal": 32,
     "lab": 17,
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 196,
-    "null": 1856,
-    "open": 1120,
-    "pos": 5642
+    "null": 1861,
+    "open": 1122,
+    "pos": 5651
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1692 processed 30 fresh wart self-care candidates: 27 new entries were recorded, and 22 topics were retained through new evidence with 3 existing entries linked; 8 topics were screened without a retained topic-specific numeric or relative result. Twenty-seven new PubMed PMIDs and 27 new reference links were added. Resume with batch 1693."
+    "note": "Worklist 17174/17174 checked. Batch 1693 processed 30 fresh acne self-care candidates: 16 new entries were recorded, and 20 topics were retained through new evidence with 15 existing entries linked; 10 topics were screened without a retained topic-specific numeric or relative result. Twelve new PubMed PMIDs and 16 new reference links were added. Resume with batch 1694."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1692 processed 30 fresh wart self-care candidates. Twenty-one candidates were non-prescription-category topics under the repository's over-the-counter, supplement, food, care, life, or movement categories and were prioritized; nine prescription-category candidates were also screened. Twenty-seven PubMed-backed entries were added and three existing wart entries were linked; 8 topics were screened because the selected records lacked a direct numeric or valid relative effect, were duplicate reviews, protocols, or non-comparative records."
+    "note": "Batch 1693 processed 30 fresh acne self-care candidates. Twenty-nine candidates were non-prescription-category topics under the repository's over-the-counter, supplement, food, care, life, or movement categories and were prioritized; one prescription-category candidate was also screened. Sixteen PubMed-backed entries were added and fifteen existing acne entries were linked; 10 topics were screened because the selected records lacked a direct numeric or valid relative effect, were duplicate reviews, protocols, or non-comparative records."
   },
   "checkpoints": {
-    "over_counter_share": "26.7% (2354 entries)",
-    "rx_share": "30.3% (2675)",
-    "no_effect_or_harm_share": "23.3% (2052 entries)",
-    "vs_share": "89.3% (7876 entries)",
+    "over_counter_share": "26.7% (2356 entries)",
+    "rx_share": "30.3% (2677)",
+    "no_effect_or_harm_share": "23.3% (2057 entries)",
+    "vs_share": "89.4% (7892 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "90.5% (7980)",
-    "non_trial_share": "9.5% (834)",
+    "trial_share": "90.6% (7996)",
+    "non_trial_share": "9.4% (834)",
     "build_warnings": {
       "unknown_n": 571,
-      "thin_study": 1740,
-      "targeted_batch_warnings": 9
+      "thin_study": 1745,
+      "targeted_batch_warnings": 7
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1692 processed 30 fresh wart self-care candidates: 27 new entries were recorded, and 22 topics were retained through new evidence with 3 existing entries linked; 8 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1693.",
+  "next": "Batch 1693 processed 30 fresh acne self-care candidates: 16 new entries were recorded, and 20 topics were retained through new evidence with 15 existing entries linked; 10 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1694.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -159,7 +159,7 @@
     "next_official_deployment_check": "after batch 1691",
     "topics": ["permethrin-scabies", "ivermectin-scabies", "benzyl-benzoate-scabies", "sulfur-scabies", "crotamiton-scabies", "lindane-scabies", "malathion-scabies", "spinosad-scabies", "moxidectin-scabies", "topical-ivermectin-scabies", "permethrin-ivermectin-scabies", "permethrin-benzyl-benzoate-scabies", "tea-tree-oil-scabies", "neem-oil-scabies", "clove-oil-scabies", "essential-oil-scabies", "aloe-vera-scabies", "coconut-oil-scabies", "turmeric-scabies", "pine-oil-scabies", "phenothrin-scabies", "pyrethrin-scabies", "washing-bedding-scabies", "hot-water-laundry-scabies", "bagging-clothes-scabies", "household-contact-scabies", "antihistamine-itch-scabies", "calamine-scabies", "topical-steroid-itch-scabies", "post-scabies-itch-scabies"]
   },
-  "last_batch": {
+  "previous_last_batch_1692": {
     "id": "1692",
     "commit": "0cf95115",
     "pushed": true,
@@ -207,6 +207,55 @@
     "remaining_parked_non_prescription_topics": 1,
     "next_official_deployment_check": "after batch 1692",
     "topics": ["salicylic-acid-warts", "duct-tape-warts", "cryotherapy-warts", "home-cryotherapy-warts", "cantharidin-warts", "podophyllotoxin-warts", "imiquimod-warts", "tretinoin-warts", "5-fluorouracil-warts", "bleomycin-warts", "intralesional-immunotherapy-warts", "candida-antigen-warts", "mumps-antigen-warts", "vitamin-d-warts", "zinc-warts", "tea-tree-oil-warts", "garlic-warts", "adhesive-tape-warts", "hypnotherapy-warts", "occlusion-warts", "keratolytic-warts", "salicylic-acid-cryotherapy-warts", "home-salicylic-acid-warts", "laser-warts", "pulsed-dye-laser-warts", "photodynamic-warts", "electrosurgery-warts", "curettage-warts", "hand-washing-warts", "expectant-management-warts"]
+  },
+  "last_batch": {
+    "id": "1693",
+    "commit": "5e560387",
+    "pushed": true,
+    "expansion_commit": "5e560387",
+    "data_commits": ["5e560387"],
+    "maintenance": false,
+    "processed_topics": 30,
+    "new_entries": 16,
+    "existing_links": 15,
+    "no_evidence_rejects": 10,
+    "non_prescription_topics_available": 29,
+    "non_prescription_topics_processed": 29,
+    "prescription_topics_processed": 1,
+    "screened_nonqualifying_topics": 10,
+    "new_references": 16,
+    "existing_reference_links": 0,
+    "build": "8830 entries; 11950 refs; 7996 trial; 738 obs; 32 animal; 17 lab; 47 case; 7892 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 여드름(acne) 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 29개를 우선 처리했다. 고유 PMID 189개를 검색해 189개 기록과 187개 초록을 확보했고, 수치 비교 또는 유효한 상대효과가 있는 신규 항목 16개를 12개 신규 PMID(26048131, 38943431, 32356369, 39487326, 34674160, 36999489, 22384983, 41240206, 37558093, 39606608, 32447767, 42098589)에 근거해 기록했다. 기존 벤조일퍼옥사이드·살리실산·아젤라산 유지기·아연·티트리 오일·녹차·꿀·프로바이오틱스·비타민 D·저혈당 식단·세정제·하이드로콜로이드 패치·청색·적색 LED·적색광·화학적 필링 항목 15개를 연결했고, 10개 후보는 직접적인 수치 비교나 유효한 상대효과가 없어 보류했다. 신규 비교 경고 4건, 줄 길이 경고 1건, 신규 영문 경고 2건을 고쳤고 빌드 오류는 없었다. 실제 표본 수 20~36명의 소표본 경고 5건은 원문 정보에 맞춰 유지했다.",
+    "qualified_topics": ["benzoyl-peroxide-acne", "adapalene-acne", "azelaic-acid-acne", "salicylic-acid-acne", "topical-zinc-acne", "tea-tree-oil-acne", "green-tea-acne", "honey-acne", "probiotics-acne", "vitamin-d-acne", "low-glycemic-diet-acne", "facial-cleansing-acne", "moisturizer-acne", "sunscreen-acne", "hydrocolloid-patch-acne", "blue-red-led-acne", "red-light-acne", "photodynamic-acne", "chemical-peel-acne", "stress-management-acne"],
+    "screened_topics": ["niacinamide-acne", "propolis-acne", "turmeric-acne", "aloe-vera-acne", "omega-3-acne", "dairy-acne", "chocolate-acne", "mandelic-acid-acne", "microneedling-acne", "exercise-acne"],
+    "new_entry_ids": ["benzoyl-peroxide-acne-meta-pos", "topical-acne-treatments-meta-pos", "topical-acne-treatments-cochrane-open", "azelaic-acid-cochrane-null", "salicylic-acid-cochrane-null", "alpha-hydroxy-acid-acne-cochrane-null", "adapalene-clindamycin-acne-pos", "triple-combination-acne-pos", "salicylic-acid-mask-acne-pos", "moisturizer-adapalene-acne-pos", "sunscreen-postacne-pigment-pos", "photodynamic-isotretinoin-acne-pos", "ala-pdt-acne-pos", "ala-pdt-acne-dose-null", "jessner-salicylic-peel-acne-null", "tea-tree-oil-acne-meta-pos"],
+    "existing_linked_entry_ids": ["benzoyl-peroxide-acne-open", "salicylic-acid-acne-rct-null", "azelaic-acid-maintenance-acne-pos", "zinc-acne-pos", "tea-tree-oil-acne-pos", "green-tea-acne-null", "honey-acne-null", "probiotic-acne-pos-direct", "vitamin-d-acne-relapse-pos", "low-glycemic-diet-acne-pos", "facial-cleansing-acne-pos", "hydrocolloid-patch-acne-null", "blue-red-led-acne-pos", "red-light-acne-null", "chemical-peel-acne-open"],
+    "new_entry_vs_warnings_fixed": 4,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 1,
+    "new_entry_english_warnings_fixed": 2,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 184,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "previous_batch_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": ["국소 여드름 치료=care", "과일산=care", "아다팔렌·클린다마이신=rx", "클린다마이신·벤조일퍼옥사이드·아다팔렌=rx", "살리실산·리포하이드록시산=care", "보습제·아다팔렌=care", "여드름 자외선차단제=care", "광역학치료·이소트레티노인=care", "알라 광역학치료=care", "제스너 용액·살리실산 필링=care"],
+    "targeted_batch_warnings_fixed": 7,
+    "build_errors_fixed": 0,
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 6,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 1,
+    "next_official_deployment_check": "after batch 1693",
+    "topics": ["benzoyl-peroxide-acne", "adapalene-acne", "azelaic-acid-acne", "salicylic-acid-acne", "niacinamide-acne", "topical-zinc-acne", "tea-tree-oil-acne", "green-tea-acne", "honey-acne", "propolis-acne", "turmeric-acne", "aloe-vera-acne", "probiotics-acne", "omega-3-acne", "vitamin-d-acne", "low-glycemic-diet-acne", "dairy-acne", "chocolate-acne", "facial-cleansing-acne", "moisturizer-acne", "sunscreen-acne", "hydrocolloid-patch-acne", "blue-red-led-acne", "red-light-acne", "photodynamic-acne", "chemical-peel-acne", "mandelic-acid-acne", "microneedling-acne", "stress-management-acne", "exercise-acne"]
   },
   "previous_last_batch_1649": {
     "id": "1649",
@@ -2726,8 +2775,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1693",
-    "worklist_line": "new-expansion-candidates-batch1693",
+    "next_batch": "1694",
+    "worklist_line": "new-expansion-candidates-batch1694",
     "topic": null,
     "unchecked": 0
   }
