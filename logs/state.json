@@ -2,15 +2,15 @@
   "updated": "2026-08-18",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 8860,
-  "subjects": 2984,
-  "refs": 11980,
+  "entries": 8882,
+  "subjects": 2997,
+  "refs": 12002,
   "kinds": {
     "supp": 1126,
     "rx": 2677,
-    "life": 1392,
+    "life": 1393,
     "otc": 251,
-    "care": 1506,
+    "care": 1527,
     "move": 922,
     "food": 986
   },
@@ -22,17 +22,17 @@
     "case": 47
   },
   "dirs": {
-    "harm": 197,
-    "null": 1873,
-    "open": 1126,
-    "pos": 5664
+    "harm": 198,
+    "null": 1880,
+    "open": 1130,
+    "pos": 5674
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1694 processed 30 fresh atopic-dermatitis and eczema self-care candidates: 30 new PubMed-backed entries were recorded, 27 topics were retained through numeric or valid relative-effect evidence, and 3 topics were screened without a retained topic-specific comparison. Resume with batch 1695."
+    "note": "Worklist 17174/17174 checked. Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates: 22 new PubMed-backed entries were recorded, 22 topics were retained through numeric or valid relative-effect evidence, and 8 topics were screened without a retained topic-specific comparison. Resume with batch 1696."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1694 processed 30 fresh atopic-dermatitis and eczema self-care candidates. All 30 candidates were non-prescription-category topics under the repository's supplement, food, care, or life categories. Thirty PubMed-backed entries were added without fabricating participant counts; 27 topics had numeric intervention-versus-control results or valid relative effects, and 3 topics were screened because the selected records lacked a qualifying direct comparison."
+    "note": "Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates. All 30 candidates were non-prescription-category topics under the repository's care or life categories. Twenty-two PubMed-backed entries were added without fabricating participant counts; 22 topics had numeric intervention-versus-control results or valid relative effects, and 8 topics were screened because the selected records lacked a qualifying direct comparison."
   },
   "checkpoints": {
-    "over_counter_share": "26.7% (2363 entries)",
-    "rx_share": "30.2% (2677)",
-    "no_effect_or_harm_share": "23.4% (2070 entries)",
-    "vs_share": "89.4% (7922 entries)",
+    "over_counter_share": "26.6% (2363 entries)",
+    "rx_share": "30.1% (2677)",
+    "no_effect_or_harm_share": "23.4% (2078 entries)",
+    "vs_share": "89.4% (7944 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "90.6% (8026)",
+    "trial_share": "90.6% (8048)",
     "non_trial_share": "9.4% (834)",
     "build_warnings": {
       "unknown_n": 576,
-      "thin_study": 1754,
-      "targeted_batch_warnings": 25
+      "thin_study": 1762,
+      "targeted_batch_warnings": 32
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1694 processed 30 fresh atopic-dermatitis and eczema self-care candidates: 30 new entries were recorded, 27 topics were retained through verified PubMed comparisons, and 3 topics were screened. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1695.",
+  "next": "Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates: 22 new entries were recorded, 22 topics were retained through verified PubMed comparisons, and 8 topics were screened. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1696.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -209,35 +209,35 @@
     "topics": ["salicylic-acid-warts", "duct-tape-warts", "cryotherapy-warts", "home-cryotherapy-warts", "cantharidin-warts", "podophyllotoxin-warts", "imiquimod-warts", "tretinoin-warts", "5-fluorouracil-warts", "bleomycin-warts", "intralesional-immunotherapy-warts", "candida-antigen-warts", "mumps-antigen-warts", "vitamin-d-warts", "zinc-warts", "tea-tree-oil-warts", "garlic-warts", "adhesive-tape-warts", "hypnotherapy-warts", "occlusion-warts", "keratolytic-warts", "salicylic-acid-cryotherapy-warts", "home-salicylic-acid-warts", "laser-warts", "pulsed-dye-laser-warts", "photodynamic-warts", "electrosurgery-warts", "curettage-warts", "hand-washing-warts", "expectant-management-warts"]
   },
   "last_batch": {
-    "id": "1694",
-    "commit": "a1168017",
+    "id": "1695",
+    "commit": "8475a9ed",
     "pushed": true,
-    "expansion_commit": "a1168017",
-    "data_commits": ["a1168017"],
+    "expansion_commit": "8475a9ed",
+    "data_commits": ["8475a9ed"],
     "maintenance": false,
     "processed_topics": 30,
-    "new_entries": 30,
+    "new_entries": 22,
     "existing_links": 0,
-    "no_evidence_rejects": 3,
+    "no_evidence_rejects": 8,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 3,
-    "new_references": 30,
+    "screened_nonqualifying_topics": 8,
+    "new_references": 22,
     "existing_reference_links": 0,
-    "build": "8860 entries; 11980 refs; 8026 trial; 738 obs; 32 animal; 17 lab; 47 case; 7922 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities 검색은 아토피피부염·습진 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 30개를 우선 처리했다. 고유 PMID 178개를 검색해 178개 기록과 172개 초록을 확보했다. 개입군과 대조군의 숫자 결과 또는 유효한 상대효과가 확인된 30개 신규 항목을 30개 신규 PMID에 근거해 기록했고, 27개 주제를 유지했다. 엑시머 광선치료·꿀·스트레스 관리 3개 주제는 선택한 기록에서 직접적인 수치 비교 또는 유효한 상대효과가 없어 보류했다. 보습제·코코넛 오일·키토산 유도체·표백제 목욕·기능성 섬유·프로바이오틱스·영양 보충·자외선B·습포·알로에 보조요법을 다뤘다. 신규 줄 길이 경고 16건과 효과 길이 경고 2건을 고쳤고, 초기 빌드 오류 7건은 n null 처리·비공식 등록번호 제거·처방약 분류 수정으로 해결했다. 신규 비교·영문 경고는 남기지 않았다. 원문에 참가자 수가 없던 5개 메타분석·시험은 n=null로 기록했고, 실제 소표본 경고 9건은 유지했다.",
-    "qualified_topics": ["emollient-eczema", "ceramide-moisturizer-eczema", "colloidal-oatmeal-eczema", "coconut-oil-eczema", "sunflower-oil-eczema", "petrolatum-eczema", "urea-eczema", "glycerol-eczema", "bleach-bath-eczema", "wet-wrap-eczema", "bathing-eczema", "soap-free-cleanser-eczema", "bath-oil-eczema", "salt-bath-eczema", "dead-sea-bath-eczema", "phototherapy-eczema", "uvb-eczema", "probiotics-eczema", "vitamin-d-eczema", "vitamin-e-eczema", "evening-primrose-oil-eczema", "borage-oil-eczema", "fish-oil-eczema", "aloe-vera-eczema", "oatmeal-eczema", "mindfulness-eczema", "education-eczema"],
-    "screened_topics": ["excimer-eczema", "honey-eczema", "stress-management-eczema"],
-    "new_entry_ids": ["isosorbide-diester-eczema-pos", "otc-petrolatum-eczema-null", "coconut-olive-oil-eczema-pos", "chitosan-emulsion-eczema-pos", "infant-moisturizer-prevention-eczema-open", "linoleic-dexpanthenol-ceramide-eczema-pos", "ceramide-magnesium-eczema-pos", "vitamin-b12-barrier-eczema-pos", "glycerin-urea-eczema-null", "bleach-bath-eczema-null-meta", "bleach-bath-eczema-null", "functional-textiles-eczema-open", "borage-oil-eczema-null", "gla-eczema-prevention-null", "fine-bubble-shower-eczema-null", "uvb-band-eczema-null", "balneophototherapy-eczema-pos", "uvb-optimized-eczema-null", "probiotic-strains-eczema-pos", "probiotics-eczema-meta-2025", "prenatal-fish-oil-eczema-genotype-open", "aloe-olive-eczema-pos", "wet-wrap-eczema-meta-null", "wet-wrap-steroid-eczema-pos", "emollient-eczema-cochrane-open", "infant-skin-care-prevention-eczema-harm", "urea-glycerol-emollient-eczema-pos", "physiological-lipid-emollient-eczema-pos", "ceramide-amino-acid-emollient-eczema-null", "maternal-fish-oil-probiotics-eczema-null"],
+    "build": "8882 entries; 12002 refs; 8048 trial; 738 obs; 32 animal; 17 lab; 47 case; 7944 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 손 습진·직업성 손 피부염 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 30개를 우선 처리했다. 고유 PMID 95개를 검색해 95개 기록을 요청했고 94개 논문 기록과 93개 초록을 확보했다. 개입군과 대조군의 숫자 결과 또는 유효한 상대효과가 확인된 22개 신규 항목을 22개 신규 PMID에 근거해 기록했고, 22개 주제를 유지했다. 손 보습·요소·세라마이드·장벽관리, 보호장갑, 손 위생·보습 성분 손 소독제, 자외선치료·파라핀욕, 교육·문자메시지·모니터링 앱을 다뤘다. 니트릴 장갑·이온토포레시스·습포·식이·어유·프로바이오틱스·꿀·알로에 8개 주제는 선택한 기록에서 직접적인 수치 비교 또는 유효한 상대효과가 없어 보류했다. 신규 비교·효과·줄 길이·영문 경고 32건을 고쳤고 빌드 오류는 없었다. 모든 신규 항목에 원문에서 확인한 참가자 수를 기록했으며, 실제 소표본 경고 8건은 유지했다.",
+    "qualified_topics": ["hand-eczema-moisturizer", "hand-eczema-barrier-cream", "hand-eczema-urea", "hand-eczema-glycerol", "hand-eczema-ceramide", "hand-eczema-paraffin", "hand-eczema-petrolatum", "hand-eczema-protective-cream", "hand-eczema-gloves", "hand-eczema-cotton-gloves", "occupational-hand-eczema-prevention", "hand-washing-hand-eczema", "alcohol-hand-rub-eczema", "soap-hand-eczema", "hand-eczema-phototherapy", "hand-eczema-uvb", "hand-eczema-puva", "hand-eczema-nb-uvb", "hand-eczema-psoralen", "hand-eczema-bath", "hand-eczema-education", "hand-eczema-behavioral"],
+    "screened_topics": ["hand-eczema-nitrile-gloves", "hand-eczema-iontophoresis", "hand-eczema-wet-wrap", "hand-eczema-diet", "hand-eczema-fish-oil", "hand-eczema-probiotics", "hand-eczema-honey", "hand-eczema-aloe"],
+    "new_entry_ids": ["sms-hand-eczema-behavior-pos", "urea-moisturizer-hand-eczema-relapse-pos", "hands4u-hand-eczema-prevention-open", "coconut-glycerin-hand-dermatitis-null", "petrolatum-panthenol-hand-eczema-pos", "ceramide-hand-dermatitis-pos", "lipid-emollient-hand-dermatitis-null", "semipermeable-gloves-hand-dermatitis-null", "occupational-hand-dermatitis-prevention-meta-open", "alcohol-hand-rub-formulation-harm", "alcohol-hand-rub-gel-spray-null", "emollient-propanol-hand-rub-pos", "glycerol-who-hand-rub-pos", "hand-hygiene-abhs-barrier-pos", "moisturizer-after-handwashing-pos", "hand-eczema-puva-nbuvb-meta-open", "hand-eczema-puva-nbuvb-pos", "hand-eczema-nbuvb-puva-null", "paraffin-bath-hand-eczema-pos", "hand-eczema-monitoring-app-null", "hand-eczema-monitoring-app-longterm-open", "prevex-hand-eczema-education-null"],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 0,
-    "new_entry_effect_warnings_fixed": 2,
-    "new_entry_line_warnings_fixed": 16,
+    "new_entry_vs_warnings_fixed": 3,
+    "new_entry_effect_warnings_fixed": 15,
+    "new_entry_line_warnings_fixed": 14,
     "new_entry_english_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 188,
+    "open_numeric_comparisons": 192,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -245,17 +245,17 @@
     "previous_category_reclassifications": [],
     "previous_batch_category_reclassifications": [],
     "category_reclassifications": [],
-    "new_subject_categories": ["키토산 유도체 보습제=care", "리놀레산·덱스판테놀·세라마이드=care", "세라마이드·마그네슘 보습제=care", "글리세린·요소 보습제=care", "기능성 섬유=care", "보리지유=supp", "감마리놀렌산=supp", "미세기포 샤워=care", "습포요법=care", "생리적 지질 보습제=care"],
-    "targeted_batch_warnings_fixed": 18,
-    "build_errors_fixed": 7,
+    "new_subject_categories": ["문자메시지 행동지원=care", "코코넛·글리세린 보습제=care", "판테놀·바셀린 연고=care", "손 피부보호 프로그램=care", "보호장갑=care", "손 소독제=care", "보습 성분 손 소독제=care", "글리세린 손 소독제=care", "손 위생=care", "손 자외선치료=care", "손 파라핀욕=care", "손 습진 모바일 앱=care", "손 습진 교육=life"],
+    "targeted_batch_warnings_fixed": 32,
+    "build_errors_fixed": 0,
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 6,
     "remaining_english_entries": 0,
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1694",
-    "topics": ["emollient-eczema", "ceramide-moisturizer-eczema", "colloidal-oatmeal-eczema", "coconut-oil-eczema", "sunflower-oil-eczema", "petrolatum-eczema", "urea-eczema", "glycerol-eczema", "bleach-bath-eczema", "wet-wrap-eczema", "bathing-eczema", "soap-free-cleanser-eczema", "bath-oil-eczema", "salt-bath-eczema", "dead-sea-bath-eczema", "phototherapy-eczema", "uvb-eczema", "excimer-eczema", "probiotics-eczema", "vitamin-d-eczema", "vitamin-e-eczema", "evening-primrose-oil-eczema", "borage-oil-eczema", "fish-oil-eczema", "honey-eczema", "aloe-vera-eczema", "oatmeal-eczema", "mindfulness-eczema", "stress-management-eczema", "education-eczema"]
+    "next_official_deployment_check": "after batch 1695",
+    "topics": ["hand-eczema-moisturizer", "hand-eczema-barrier-cream", "hand-eczema-urea", "hand-eczema-glycerol", "hand-eczema-ceramide", "hand-eczema-paraffin", "hand-eczema-petrolatum", "hand-eczema-protective-cream", "hand-eczema-gloves", "hand-eczema-cotton-gloves", "hand-eczema-nitrile-gloves", "occupational-hand-eczema-prevention", "hand-washing-hand-eczema", "alcohol-hand-rub-eczema", "soap-hand-eczema", "hand-eczema-phototherapy", "hand-eczema-uvb", "hand-eczema-puva", "hand-eczema-nb-uvb", "hand-eczema-psoralen", "hand-eczema-iontophoresis", "hand-eczema-bath", "hand-eczema-wet-wrap", "hand-eczema-education", "hand-eczema-behavioral", "hand-eczema-diet", "hand-eczema-fish-oil", "hand-eczema-probiotics", "hand-eczema-honey", "hand-eczema-aloe"]
   },
   "previous_last_batch_1649": {
     "id": "1649",
@@ -2775,8 +2775,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1695",
-    "worklist_line": "new-expansion-candidates-batch1695",
+    "next_batch": "1696",
+    "worklist_line": "new-expansion-candidates-batch1696",
     "topic": null,
     "unchecked": 0
   }
