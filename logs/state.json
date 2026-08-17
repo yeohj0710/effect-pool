@@ -2,37 +2,37 @@
   "updated": "2026-08-18",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 8758,
-  "subjects": 2942,
-  "refs": 11878,
+  "entries": 8787,
+  "subjects": 2954,
+  "refs": 11907,
   "kinds": {
     "supp": 1117,
-    "rx": 2650,
+    "rx": 2666,
     "life": 1392,
-    "otc": 241,
-    "care": 1452,
+    "otc": 246,
+    "care": 1460,
     "move": 922,
     "food": 984
   },
   "tiers": {
-    "trial": 7926,
-    "obs": 736,
+    "trial": 7954,
+    "obs": 737,
     "animal": 32,
     "lab": 17,
     "case": 47
   },
   "dirs": {
-    "harm": 195,
-    "null": 1835,
-    "open": 1119,
-    "pos": 5609
+    "harm": 196,
+    "null": 1846,
+    "open": 1120,
+    "pos": 5625
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1690 processed 30 fresh tinea-versicolor self-care candidates: 24 new entries were recorded, and 16 topics were retained through new evidence or an existing link; 14 topics were screened without a retained topic-specific numeric or relative result. Twenty-four new PubMed PMIDs and 24 new reference links were added. Resume with batch 1691."
+    "note": "Worklist 17174/17174 checked. Batch 1691 processed 30 fresh scabies self-care candidates: 29 new entries were recorded, and 14 topics were retained through new evidence with 2 existing entries linked; 16 topics were screened without a retained topic-specific numeric or relative result. Twenty-nine new PubMed PMIDs and 29 new reference links were added. Resume with batch 1692."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,28 +40,28 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1690 processed 30 fresh tinea-versicolor self-care candidates. Twenty-six candidates were non-prescription-category topics under the repository's over-the-counter, care, life, or movement categories and were prioritized; four prescription-category candidates were also screened. Twenty-four PubMed-backed entries were added and one existing ketoconazole shampoo entry was linked; 14 topics were screened because the selected records lacked a direct numeric or valid relative effect, were duplicates, or were review, protocol, or non-comparative records."
+    "note": "Batch 1691 processed 30 fresh scabies self-care candidates. Eighteen candidates were non-prescription-category topics under the repository's over-the-counter, supplement, food, care, life, or movement categories and were prioritized; twelve prescription-category candidates were also screened. Twenty-nine PubMed-backed entries were added and two existing scabies entries were linked; 16 topics were screened because the selected records lacked a direct numeric or valid relative effect, were duplicate reviews, animal-only records, protocols, or non-comparative records."
   },
   "checkpoints": {
-    "over_counter_share": "26.7% (2342 entries)",
-    "rx_share": "30.3% (2650)",
-    "no_effect_or_harm_share": "23.2% (2030 entries)",
-    "vs_share": "89.3% (7820 entries)",
+    "over_counter_share": "26.7% (2347 entries)",
+    "rx_share": "30.3% (2666)",
+    "no_effect_or_harm_share": "23.2% (2042 entries)",
+    "vs_share": "89.3% (7849 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "90.5% (7926)",
-    "non_trial_share": "9.5% (832)",
+    "trial_share": "90.5% (7954)",
+    "non_trial_share": "9.5% (833)",
     "build_warnings": {
-      "unknown_n": 565,
-      "thin_study": 1733,
-      "targeted_batch_warnings": 14
+      "unknown_n": 568,
+      "thin_study": 1734,
+      "targeted_batch_warnings": 22
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1690 processed 30 fresh tinea-versicolor self-care candidates: 24 new entries were recorded, and 16 topics were retained through new evidence or an existing link; 14 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1691.",
-  "last_batch": {
+  "next": "Batch 1691 processed 30 fresh scabies self-care candidates: 29 new entries were recorded, and 14 topics were retained through new evidence with 2 existing entries linked; 16 topics were screened without a retained topic-specific numeric or relative result. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1692.",
+  "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
     "pushed": true,
@@ -109,6 +109,55 @@
     "remaining_parked_non_prescription_topics": 1,
     "next_official_deployment_check": "after batch 1689",
     "topics": ["selenium-sulfide-tinea-versicolor", "zinc-pyrithione-tinea-versicolor", "clotrimazole-tinea-versicolor", "miconazole-tinea-versicolor", "econazole-tinea-versicolor", "bifonazole-tinea-versicolor", "ciclopirox-tinea-versicolor", "sertaconazole-tinea-versicolor", "terbinafine-topical-tinea-versicolor", "naftifine-tinea-versicolor", "ketoconazole-cream-tinea-versicolor", "ketoconazole-shampoo-tinea-versicolor", "fluconazole-tinea-versicolor", "itraconazole-tinea-versicolor", "single-dose-fluconazole-tinea-versicolor", "terbinafine-oral-tinea-versicolor", "sulfur-salicylic-acid-tinea-versicolor", "propylene-glycol-tinea-versicolor", "benzoyl-peroxide-tinea-versicolor", "salicylic-acid-tinea-versicolor", "urea-tinea-versicolor", "tea-tree-oil-tinea-versicolor", "neem-tinea-versicolor", "coconut-oil-tinea-versicolor", "vinegar-tinea-versicolor", "garlic-tinea-versicolor", "photodynamic-tinea-versicolor", "uvb-tinea-versicolor", "laser-tinea-versicolor", "maintenance-shampoo-tinea-versicolor"]
+  },
+  "last_batch": {
+    "id": "1691",
+    "commit": "6fe51d3d",
+    "pushed": true,
+    "expansion_commit": "6fe51d3d",
+    "data_commits": ["6fe51d3d"],
+    "maintenance": false,
+    "processed_topics": 30,
+    "new_entries": 29,
+    "existing_links": 2,
+    "no_evidence_rejects": 16,
+    "non_prescription_topics_available": 18,
+    "non_prescription_topics_processed": 18,
+    "prescription_topics_processed": 12,
+    "screened_nonqualifying_topics": 16,
+    "new_references": 29,
+    "existing_reference_links": 0,
+    "build": "8787 entries; 11907 refs; 7954 trial; 737 obs; 32 animal; 17 lab; 47 case; 7849 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 옴(scabies) 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 18개를 우선 처리했다. 고유 PMID 55개를 검색해 55개 기록과 53개 초록을 확보했고, 수치 비교 또는 유효한 상대효과가 있는 신규 항목 29개를 29개 PMID에 근거해 기록했다. 기존 퍼메트린·이버멕틴 항목 2개를 연결했고, 16개 후보는 동물시험·프로토콜·중복 문헌·비교 수치 부족으로 보류했다. 신규 비교 경고 21건과 효과 길이 경고 1건을 고쳤고 빌드 오류·줄 길이·영문 주어 경고는 없었다. 실제 소표본 경고 1건과 표본 수 미상 3건은 유지했다.",
+    "qualified_topics": ["permethrin-scabies", "ivermectin-scabies", "benzyl-benzoate-scabies", "sulfur-scabies", "crotamiton-scabies", "lindane-scabies", "spinosad-scabies", "topical-ivermectin-scabies", "permethrin-ivermectin-scabies", "permethrin-benzyl-benzoate-scabies", "essential-oil-scabies", "aloe-vera-scabies", "household-contact-scabies", "topical-steroid-itch-scabies"],
+    "screened_topics": ["malathion-scabies", "moxidectin-scabies", "tea-tree-oil-scabies", "neem-oil-scabies", "clove-oil-scabies", "coconut-oil-scabies", "turmeric-scabies", "pine-oil-scabies", "phenothrin-scabies", "pyrethrin-scabies", "washing-bedding-scabies", "hot-water-laundry-scabies", "bagging-clothes-scabies", "antihistamine-itch-scabies", "calamine-scabies", "post-scabies-itch-scabies"],
+    "new_entry_ids": ["benzyl-benzoate-scabies-pos", "ivermectin-scabies-inferior", "ivermectin-scabies-treatment-failure-null", "high-dose-ivermectin-severe-scabies-null", "ivermectin-two-dose-permethrin-scabies-null", "benzyl-benzoate-ivermectin-scabies-null", "ivermectin-benzyl-benzoate-scabies-null-meta", "sulfur-scabies-regimen-pos", "ivermectin-sulfur-scabies-pos", "sulfur-lindane-scabies-null", "permethrin-four-agents-scabies-pos", "permethrin-crotamiton-scabies-pos", "topical-ivermectin-crotamiton-scabies-pos", "ivermectin-crotamiton-scabies-pos", "permethrin-lindane-scabies-pos", "ivermectin-lindane-scabies-pos", "spinosad-scabies-pos", "topical-ivermectin-scabies-pos", "ivermectin-permethrin-combo-scabies-null", "ivermectin-permethrin-persistent-scabies-pos", "community-ivermectin-scabies-pos", "one-vs-two-dose-ivermectin-mda-scabies-null", "community-scabies-control-strategies-pos", "household-scabies-treatment-null", "aloe-vera-gel-scabies-null", "lippia-oil-scabies-open", "triamcinolone-post-scabies-prurigo-pos", "ivermectin-permethrin-combo-scabies-meta-null", "ivermectin-azithromycin-community-scabies-null"],
+    "existing_linked_entry_ids": ["permethrin-scabies-pos", "ivermectin-scabies"],
+    "new_entry_vs_warnings_fixed": 21,
+    "new_entry_effect_warnings_fixed": 1,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 173,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "previous_batch_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": ["벤질벤조에이트=rx", "유황 연고=otc", "크로타미톤=otc", "린데인=rx", "국소 이버멕틴=rx", "이버멕틴·퍼메트린 병용=rx", "고용량 이버멕틴=rx", "옴 치료 2회 요법=care", "지역사회 이버멕틴 집단치료=care", "이버멕틴 집단투약=care", "가정 접촉자 동시치료=care", "알로에 베라 겔=care", "리피아 오일=care", "이버멕틴·아지트로마이신 집단투약=care"],
+    "targeted_batch_warnings_fixed": 22,
+    "build_errors_fixed": 0,
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 6,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 1,
+    "next_official_deployment_check": "after batch 1691",
+    "topics": ["permethrin-scabies", "ivermectin-scabies", "benzyl-benzoate-scabies", "sulfur-scabies", "crotamiton-scabies", "lindane-scabies", "malathion-scabies", "spinosad-scabies", "moxidectin-scabies", "topical-ivermectin-scabies", "permethrin-ivermectin-scabies", "permethrin-benzyl-benzoate-scabies", "tea-tree-oil-scabies", "neem-oil-scabies", "clove-oil-scabies", "essential-oil-scabies", "aloe-vera-scabies", "coconut-oil-scabies", "turmeric-scabies", "pine-oil-scabies", "phenothrin-scabies", "pyrethrin-scabies", "washing-bedding-scabies", "hot-water-laundry-scabies", "bagging-clothes-scabies", "household-contact-scabies", "antihistamine-itch-scabies", "calamine-scabies", "topical-steroid-itch-scabies", "post-scabies-itch-scabies"]
   },
   "previous_last_batch_1649": {
     "id": "1649",
@@ -2628,8 +2677,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1691",
-    "worklist_line": "new-expansion-candidates-batch1691",
+    "next_batch": "1692",
+    "worklist_line": "new-expansion-candidates-batch1692",
     "topic": null,
     "unchecked": 0
   }
