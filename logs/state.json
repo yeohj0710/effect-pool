@@ -2,16 +2,16 @@
   "updated": "2026-08-18",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 8882,
-  "subjects": 2997,
-  "refs": 12002,
+  "entries": 8910,
+  "subjects": 3010,
+  "refs": 12030,
   "kinds": {
-    "supp": 1126,
+    "supp": 1131,
     "rx": 2677,
     "life": 1393,
-    "otc": 251,
-    "care": 1527,
-    "move": 922,
+    "otc": 256,
+    "care": 1543,
+    "move": 924,
     "food": 986
   },
   "tiers": {
@@ -23,16 +23,16 @@
   },
   "dirs": {
     "harm": 198,
-    "null": 1880,
-    "open": 1130,
-    "pos": 5674
+    "null": 1886,
+    "open": 1133,
+    "pos": 5693
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 2491,
-    "note": "Worklist 17174/17174 checked. Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates: 22 new PubMed-backed entries were recorded, 22 topics were retained through numeric or valid relative-effect evidence, and 8 topics were screened without a retained topic-specific comparison. Resume with batch 1696."
+    "note": "Worklist 17174/17174 checked. Batch 1696 processed 30 fresh dry-eye self-care candidates: 28 new PubMed-backed entries were recorded, 24 topics were retained through numeric or valid relative-effect evidence, 7 existing evidence entries were linked, and 6 topics were screened without a retained topic-specific comparison. Resume with batch 1697."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 1,
-    "note": "Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates. All 30 candidates were non-prescription-category topics under the repository's care or life categories. Twenty-two PubMed-backed entries were added without fabricating participant counts; 22 topics had numeric intervention-versus-control results or valid relative effects, and 8 topics were screened because the selected records lacked a qualifying direct comparison."
+    "note": "Batch 1696 processed 30 fresh dry-eye self-care candidates. All 30 candidates were non-prescription-category topics under the repository's OTC, supplement, movement, or care categories. Twenty-eight PubMed-backed entries were added without fabricating participant counts; 24 topics had numeric intervention-versus-control results or valid relative effects, 7 existing entries were linked for duplicate evidence, and 6 topics were screened because the selected records lacked a qualifying direct comparison."
   },
   "checkpoints": {
-    "over_counter_share": "26.6% (2363 entries)",
-    "rx_share": "30.1% (2677)",
-    "no_effect_or_harm_share": "23.4% (2078 entries)",
-    "vs_share": "89.4% (7944 entries)",
+    "over_counter_share": "26.6% (2373 entries)",
+    "rx_share": "30.0% (2677)",
+    "no_effect_or_harm_share": "23.4% (2084 entries)",
+    "vs_share": "89.5% (7972 entries)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "90.6% (8048)",
+    "trial_share": "90.6% (8076)",
     "non_trial_share": "9.4% (834)",
     "build_warnings": {
-      "unknown_n": 576,
-      "thin_study": 1762,
-      "targeted_batch_warnings": 32
+      "unknown_n": 578,
+      "thin_study": 1768,
+      "targeted_batch_warnings": 14
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 1695 processed 30 fresh hand-eczema and occupational-hand-dermatitis self-care candidates: 22 new entries were recorded, 22 topics were retained through verified PubMed comparisons, and 8 topics were screened. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1696.",
+  "next": "Batch 1696 processed 30 fresh dry-eye self-care candidates: 28 new entries were recorded, 24 topics were retained through verified PubMed comparisons, 7 existing entries were linked, and 6 topics were screened. Worklist 17174/17174 is checked; resume with fresh non-prescription batch 1697.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -209,35 +209,35 @@
     "topics": ["salicylic-acid-warts", "duct-tape-warts", "cryotherapy-warts", "home-cryotherapy-warts", "cantharidin-warts", "podophyllotoxin-warts", "imiquimod-warts", "tretinoin-warts", "5-fluorouracil-warts", "bleomycin-warts", "intralesional-immunotherapy-warts", "candida-antigen-warts", "mumps-antigen-warts", "vitamin-d-warts", "zinc-warts", "tea-tree-oil-warts", "garlic-warts", "adhesive-tape-warts", "hypnotherapy-warts", "occlusion-warts", "keratolytic-warts", "salicylic-acid-cryotherapy-warts", "home-salicylic-acid-warts", "laser-warts", "pulsed-dye-laser-warts", "photodynamic-warts", "electrosurgery-warts", "curettage-warts", "hand-washing-warts", "expectant-management-warts"]
   },
   "last_batch": {
-    "id": "1695",
-    "commit": "8475a9ed",
+    "id": "1696",
+    "commit": "226caaef",
     "pushed": true,
-    "expansion_commit": "8475a9ed",
-    "data_commits": ["8475a9ed"],
+    "expansion_commit": "226caaef",
+    "data_commits": ["226caaef"],
     "maintenance": false,
     "processed_topics": 30,
-    "new_entries": 22,
-    "existing_links": 0,
-    "no_evidence_rejects": 8,
+    "new_entries": 28,
+    "existing_links": 7,
+    "no_evidence_rejects": 6,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 8,
-    "new_references": 22,
+    "screened_nonqualifying_topics": 6,
+    "new_references": 28,
     "existing_reference_links": 0,
-    "build": "8882 entries; 12002 refs; 8048 trial; 738 obs; 32 animal; 17 lab; 47 case; 7944 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities 검색은 손 습진·직업성 손 피부염 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 30개를 우선 처리했다. 고유 PMID 95개를 검색해 95개 기록을 요청했고 94개 논문 기록과 93개 초록을 확보했다. 개입군과 대조군의 숫자 결과 또는 유효한 상대효과가 확인된 22개 신규 항목을 22개 신규 PMID에 근거해 기록했고, 22개 주제를 유지했다. 손 보습·요소·세라마이드·장벽관리, 보호장갑, 손 위생·보습 성분 손 소독제, 자외선치료·파라핀욕, 교육·문자메시지·모니터링 앱을 다뤘다. 니트릴 장갑·이온토포레시스·습포·식이·어유·프로바이오틱스·꿀·알로에 8개 주제는 선택한 기록에서 직접적인 수치 비교 또는 유효한 상대효과가 없어 보류했다. 신규 비교·효과·줄 길이·영문 경고 32건을 고쳤고 빌드 오류는 없었다. 모든 신규 항목에 원문에서 확인한 참가자 수를 기록했으며, 실제 소표본 경고 8건은 유지했다.",
-    "qualified_topics": ["hand-eczema-moisturizer", "hand-eczema-barrier-cream", "hand-eczema-urea", "hand-eczema-glycerol", "hand-eczema-ceramide", "hand-eczema-paraffin", "hand-eczema-petrolatum", "hand-eczema-protective-cream", "hand-eczema-gloves", "hand-eczema-cotton-gloves", "occupational-hand-eczema-prevention", "hand-washing-hand-eczema", "alcohol-hand-rub-eczema", "soap-hand-eczema", "hand-eczema-phototherapy", "hand-eczema-uvb", "hand-eczema-puva", "hand-eczema-nb-uvb", "hand-eczema-psoralen", "hand-eczema-bath", "hand-eczema-education", "hand-eczema-behavioral"],
-    "screened_topics": ["hand-eczema-nitrile-gloves", "hand-eczema-iontophoresis", "hand-eczema-wet-wrap", "hand-eczema-diet", "hand-eczema-fish-oil", "hand-eczema-probiotics", "hand-eczema-honey", "hand-eczema-aloe"],
-    "new_entry_ids": ["sms-hand-eczema-behavior-pos", "urea-moisturizer-hand-eczema-relapse-pos", "hands4u-hand-eczema-prevention-open", "coconut-glycerin-hand-dermatitis-null", "petrolatum-panthenol-hand-eczema-pos", "ceramide-hand-dermatitis-pos", "lipid-emollient-hand-dermatitis-null", "semipermeable-gloves-hand-dermatitis-null", "occupational-hand-dermatitis-prevention-meta-open", "alcohol-hand-rub-formulation-harm", "alcohol-hand-rub-gel-spray-null", "emollient-propanol-hand-rub-pos", "glycerol-who-hand-rub-pos", "hand-hygiene-abhs-barrier-pos", "moisturizer-after-handwashing-pos", "hand-eczema-puva-nbuvb-meta-open", "hand-eczema-puva-nbuvb-pos", "hand-eczema-nbuvb-puva-null", "paraffin-bath-hand-eczema-pos", "hand-eczema-monitoring-app-null", "hand-eczema-monitoring-app-longterm-open", "prevex-hand-eczema-education-null"],
-    "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 3,
-    "new_entry_effect_warnings_fixed": 15,
-    "new_entry_line_warnings_fixed": 14,
-    "new_entry_english_warnings_fixed": 0,
+    "build": "8910 entries; 12030 refs; 8076 trial; 738 obs; 32 animal; 17 lab; 47 case; 7972 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities 검색은 안구건조증 자기관리 후보 30개를 다뤘고, 비처방 범주 후보 30개를 우선 처리했다. 고유 PMID 185개를 검색해 185개 기록을 요청했고 183개 논문 기록과 182개 초록을 확보했다. 개입군과 대조군의 숫자 결과 또는 유효한 상대효과가 확인된 28개 신규 항목을 28개 신규 PMID에 근거해 기록했고, 24개 주제를 유지했다. 인공눈물·히알루론산·트레할로스·지질 제형, 오메가3·비타민 D·비타민 A, 가습기·온찜질·깜박임 운동·요가, IPL·광선·열압박·마이봄샘 압출, 귀 지압·눈물점 플러그를 다뤘다. 기존 castor-oil-dry-eye-pos, flaxseed-eye-drops-dry-eye-pos, green-tea-dry-eye-pos, eyelid-hygiene-dry-eye-pos, yoga-dry-eye-pos, laughter-exercise-dry-eye-pos, scleral-lens-dry-eye-pos 7개 항목은 중복 참고문헌을 연결했다. 수분 고글·화면 휴식·전자종이 화면·침술·마음챙김·교육 6개 주제는 선택한 기록에서 직접적인 수치 비교 또는 유효한 상대효과가 없어 보류했다. 신규 비교·효과·줄 길이·영문 경고 13건과 분류 빌드 오류 1건을 고쳤고, 실제 소표본 경고 6건과 원문에 참가자 수가 없던 메타분석 2건은 유지했다.",
+    "qualified_topics": ["dry-eye-artificial-tears", "dry-eye-hyaluronic-acid", "dry-eye-trehalose", "dry-eye-lipid-tears", "dry-eye-castor-oil", "dry-eye-flaxseed-oil", "dry-eye-omega3", "dry-eye-vitamin-d", "dry-eye-vitamin-a", "dry-eye-green-tea", "dry-eye-humidifier", "dry-eye-warm-compress", "dry-eye-eyelid-hygiene", "dry-eye-lid-massage", "dry-eye-blink-exercise", "dry-eye-acupressure", "dry-eye-yoga", "dry-eye-laughter", "dry-eye-intense-pulsed-light", "dry-eye-light-therapy", "dry-eye-thermal-pulsation", "dry-eye-meibomian-expression", "dry-eye-punctal-plug", "dry-eye-scleral-lens"],
+    "screened_topics": ["dry-eye-moisture-goggles", "dry-eye-screen-break", "dry-eye-eink", "dry-eye-acupuncture", "dry-eye-mindfulness", "dry-eye-education"],
+    "new_entry_ids": ["lipid-artificial-tears-dry-eye-pos", "preservative-free-artificial-tears-lipid-pos", "hyaluronic-acid-molecular-weight-dry-eye-pos", "sodium-hyaluronate-dry-eye-null", "trehalose-liposome-artificial-tears-pos", "omega3-sjogren-dry-eye-pos", "omega3-mgd-dry-eye-pos", "omega3-mgd-dry-eye-null", "topical-vitamin-d-dry-eye-pos", "omega3-dry-eye-prevention-null", "vitamin-a-eye-gel-dry-eye-pos", "desktop-humidifier-dry-eye-pos", "eyelid-warming-meta-open", "eyelid-warming-mask-dry-eye-pos", "meibomian-debridement-device-dry-eye-null", "lipiflow-vs-warm-compress-dry-eye-open", "ipl-dry-eye-2021-pos", "ipl-meibomian-expression-dry-eye-open", "auricular-acupressure-dry-eye-meta-pos", "yoga-visual-discomfort-computer-pos", "bioptron-dry-eye-pos", "punctal-plug-dry-eye-meta-pos", "punctal-plug-sham-dry-eye-pos", "hyaluronate-canalicular-gel-dry-eye-null", "chitosan-canalicular-plug-dry-eye-null", "meibomian-gland-squeezer-dry-eye-pos", "blinking-exercise-dry-eye-pos-new", "okra-eyelid-patch-dry-eye-pos"],
+    "existing_linked_entry_ids": ["castor-oil-dry-eye-pos", "flaxseed-eye-drops-dry-eye-pos", "green-tea-dry-eye-pos", "eyelid-hygiene-dry-eye-pos", "yoga-dry-eye-pos", "laughter-exercise-dry-eye-pos", "scleral-lens-dry-eye-pos"],
+    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_effect_warnings_fixed": 3,
+    "new_entry_line_warnings_fixed": 3,
+    "new_entry_english_warnings_fixed": 2,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 192,
+    "open_numeric_comparisons": 195,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -245,17 +245,17 @@
     "previous_category_reclassifications": [],
     "previous_batch_category_reclassifications": [],
     "category_reclassifications": [],
-    "new_subject_categories": ["문자메시지 행동지원=care", "코코넛·글리세린 보습제=care", "판테놀·바셀린 연고=care", "손 피부보호 프로그램=care", "보호장갑=care", "손 소독제=care", "보습 성분 손 소독제=care", "글리세린 손 소독제=care", "손 위생=care", "손 자외선치료=care", "손 파라핀욕=care", "손 습진 모바일 앱=care", "손 습진 교육=life"],
-    "targeted_batch_warnings_fixed": 32,
-    "build_errors_fixed": 0,
+    "new_subject_categories": ["지질 인공눈물=otc", "고분자 히알루론산 인공눈물=otc", "트레할로스·지질 인공눈물=otc", "온열 눈꺼풀 마스크=care", "열·압박 눈꺼풀 치료=care", "마이봄샘 압출기=care", "광선치료=care", "눈물점 플러그=care", "히알루론산 눈물점 충전재=care", "키토산 눈물점 폐쇄=care", "오크라 눈꺼풀 패치=care", "눈꺼풀 깜박임 운동=move", "비타민 A 안연고=care"],
+    "targeted_batch_warnings_fixed": 14,
+    "build_errors_fixed": 1,
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 6,
     "remaining_english_entries": 0,
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 1,
-    "next_official_deployment_check": "after batch 1695",
-    "topics": ["hand-eczema-moisturizer", "hand-eczema-barrier-cream", "hand-eczema-urea", "hand-eczema-glycerol", "hand-eczema-ceramide", "hand-eczema-paraffin", "hand-eczema-petrolatum", "hand-eczema-protective-cream", "hand-eczema-gloves", "hand-eczema-cotton-gloves", "hand-eczema-nitrile-gloves", "occupational-hand-eczema-prevention", "hand-washing-hand-eczema", "alcohol-hand-rub-eczema", "soap-hand-eczema", "hand-eczema-phototherapy", "hand-eczema-uvb", "hand-eczema-puva", "hand-eczema-nb-uvb", "hand-eczema-psoralen", "hand-eczema-iontophoresis", "hand-eczema-bath", "hand-eczema-wet-wrap", "hand-eczema-education", "hand-eczema-behavioral", "hand-eczema-diet", "hand-eczema-fish-oil", "hand-eczema-probiotics", "hand-eczema-honey", "hand-eczema-aloe"]
+    "next_official_deployment_check": "after batch 1696",
+    "topics": ["dry-eye-artificial-tears", "dry-eye-hyaluronic-acid", "dry-eye-trehalose", "dry-eye-lipid-tears", "dry-eye-castor-oil", "dry-eye-flaxseed-oil", "dry-eye-omega3", "dry-eye-vitamin-d", "dry-eye-vitamin-a", "dry-eye-green-tea", "dry-eye-humidifier", "dry-eye-moisture-goggles", "dry-eye-warm-compress", "dry-eye-eyelid-hygiene", "dry-eye-lid-massage", "dry-eye-blink-exercise", "dry-eye-screen-break", "dry-eye-eink", "dry-eye-acupuncture", "dry-eye-acupressure", "dry-eye-yoga", "dry-eye-mindfulness", "dry-eye-laughter", "dry-eye-intense-pulsed-light", "dry-eye-light-therapy", "dry-eye-thermal-pulsation", "dry-eye-meibomian-expression", "dry-eye-punctal-plug", "dry-eye-scleral-lens", "dry-eye-education"]
   },
   "previous_last_batch_1649": {
     "id": "1649",
@@ -2775,8 +2775,8 @@
     ]
   },
   "resume": {
-    "next_batch": "1696",
-    "worklist_line": "new-expansion-candidates-batch1696",
+    "next_batch": "1697",
+    "worklist_line": "new-expansion-candidates-batch1697",
     "topic": null,
     "unchecked": 0
   }
