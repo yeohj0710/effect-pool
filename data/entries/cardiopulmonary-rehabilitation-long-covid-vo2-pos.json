@@ -1,0 +1,31 @@
+{
+  "tier": "trial",
+  "known": "off",
+  "knownWhy": "롱코비드 비처방 중재는 의약품 허가 적응증을 적용하지 않습니다.",
+  "id": "cardiopulmonary-rehabilitation-long-covid-vo2-pos",
+  "subj": "재활",
+  "dir": "pos",
+  "synth": "single",
+  "n": 40,
+  "claim": "심폐 재활이 평소 생활보다 롱코비드 체력을 높이는가",
+  "line": "심폐 재활은 최대산소섭취량을 대조군보다 2.4mL/kg/min 더 높였습니다.",
+  "effect": "최대산소섭취량 +2.4",
+  "why": "롱코비드 성인 40명을 8주 심폐 재활군과 평소 생활 대조군으로 무작위 배정했습니다.",
+  "saw": "최대산소섭취량은 재활군 +2.7(95% CI 1.6~3.8), 대조군 +0.3(-0.8~1.3)mL/kg/min이었고 군간 P=.003이었습니다.",
+  "limit": "40명 시험이고 심폐 재활 구성요소를 따로 평가하지 않았습니다.",
+  "against": "증상 부담과 회복 속도를 보면서 재활량을 조절합니다.",
+  "use": "감독 심폐 재활의 체력·증상 부담 비교 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "COVID-Rehab 롱코비드 심폐 재활 무작위시험",
+      "pmid": "38917451"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-18",
+    "pubmed": "cardiopulmonary rehabilitation long COVID randomized controlled trial VO2 peak; PMID 38917451",
+    "negative": "cardiopulmonary rehabilitation long COVID 38917451 AND (no effect OR no significant difference)",
+    "safety": "cardiopulmonary rehabilitation long COVID 38917451 AND (adverse OR harm OR post-exertional malaise)"
+  },
+  "vs": "재활군 20명 대비 평소 생활군 20명; 최대산소섭취량 +2.7 vs +0.3mL/kg/min, 군간 P=.003"
+}

@@ -1,0 +1,31 @@
+{
+  "tier": "trial",
+  "known": "off",
+  "knownWhy": "롱코비드 비처방 중재는 의약품 허가 적응증을 적용하지 않습니다.",
+  "id": "pasc-pulmonary-rehabilitation-meta-2026",
+  "subj": "호흡치료",
+  "dir": "pos",
+  "synth": "meta",
+  "n": 673,
+  "claim": "폐 재활이 평소 치료보다 PASC 피로와 기능을 개선하는가",
+  "line": "폐 재활은 6분 보행을 76.85m, 피로를 표준화 평균 1.15 줄였습니다.",
+  "effect": "피로 SMD -1.15",
+  "why": "PASC 환자 673명을 포함한 무작위시험 10편의 메타분석입니다.",
+  "saw": "평소 치료와 비교해 6분 보행 MD 76.85m(95% CI 57.35~96.36), 최대흡기압 MD 17.63cmH₂O, 피로 SMD -1.15(-1.83~-0.48), 삶의 질 SMD 1.73이었습니다.",
+  "limit": "대부분 연구의 비뚤림 위험이 중간 정도였고 숨참 결과는 유의하지 않았습니다.",
+  "against": "폐 재활이 모든 호흡곤란을 줄인다고 단정하지 않습니다.",
+  "use": "PASC 기능·피로 결과의 비교 근거로 사용합니다.",
+  "refs": [
+    {
+      "label": "PASC 폐 재활 체계적 문헌고찰·메타분석",
+      "pmid": "41244103"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-18",
+    "pubmed": "pulmonary rehabilitation post-acute sequelae SARS-CoV-2 controlled trial meta-analysis; PMID 41244103",
+    "negative": "PASC pulmonary rehabilitation 41244103 AND (no effect OR no significant difference)",
+    "safety": "PASC pulmonary rehabilitation 41244103 AND (adverse OR harm OR safety)"
+  },
+  "vs": "폐 재활 673명 무작위시험 대비 평소 치료; 6분 보행 MD +76.85m, 피로 SMD -1.15"
+}
