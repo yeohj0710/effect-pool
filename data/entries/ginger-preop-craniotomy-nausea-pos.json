@@ -1,0 +1,27 @@
+{
+  "id": "ginger-preop-craniotomy-nausea-pos",
+  "subj": "생강 보충제",
+  "claim": "신경외과 수술 전 생강을 탄수화물 음료에 넣으면 수술 후 구토가 줄어드는가",
+  "line": "신경외과 수술 전 생강 음료는 수술 후 구토 횟수를 줄였습니다.",
+  "effect": "구토 발생률비 0.32",
+  "vs": "신경외과 개두술 48명 무작위시험에서 생강 첨가 음료 대 일반 음료: 수술 후 구토 6회 대 23회, 구토 발생률비 0.32(95% CI 0.16~0.80; P=.017), 군간 차이와 오심·구토 발생 25% 대 37.5%(P=.534)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 48,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "생강은 식품·보충제 성분이며 수술 후 표준 항구토 처치를 대체하지 않습니다.",
+  "why": "선택적 신경종양 개두술 성인을 생강 첨가 탄수화물 음료와 일반 음료에 이중맹검 무작위 배정했습니다.",
+  "saw": "48명 시험에서 오심·구토 전체 발생은 다르지 않았지만 구토 횟수와 발생률은 생강군에서 낮았습니다.",
+  "limit": "신경외과 개두술 48명 단일시험이며 모든 수술·생강 제품에 일반화할 수 없습니다.",
+  "against": "심한 구토나 탈수는 생강 음료가 아니라 의료진의 원인 평가와 수액 처치가 필요합니다.",
+  "use": "신경외과 수술 전 생강 음료의 수술 후 구토 보조근거로 기록합니다.",
+  "refs": [{ "label": "개두술 전 생강 첨가 음료 무작위시험", "pmid": "41112738" }],
+  "queried": {
+    "date": "2026-08-18",
+    "ctgov": "ginger preoperative carbohydrate drink nausea vomiting; 등록정보 확인",
+    "pubmed": "ginger preoperative carbohydrate drink postoperative nausea vomiting randomized",
+    "negative": "ginger postoperative nausea vomiting AND (no effect OR no difference)",
+    "safety": "ginger surgery AND (bleeding OR adverse OR interaction)"
+  }
+}

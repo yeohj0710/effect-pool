@@ -1,0 +1,27 @@
+{
+  "id": "ginger-postop-nausea-meta-pos",
+  "subj": "생강 보충제",
+  "claim": "수술 후 오심에서 생강이 위약보다 오심 점수를 낮추는가",
+  "line": "수술 후 생강 보충은 오심 점수를 낮췄지만 구토 예방효과는 일관되지 않았습니다.",
+  "effect": "오심 점수 SMD −1.10",
+  "vs": "14개 무작위시험 1,506명에서 생강 대 위약: 수술 2시간 오심 점수 SMD −1.10(95% CI −1.95~−0.25), 6시간 −1.54(−3.05~−0.03), 12시간 −2.04(−3.67~−0.41)",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1506,
+  "synth": "meta",
+  "known": "off",
+  "knownWhy": "수술 후 생강은 보조요법 연구이며 항구토제와 마취 관리가 기본입니다.",
+  "why": "수술 후 오심·구토 생강 무작위시험 14개를 체계적으로 합쳤습니다.",
+  "saw": "생강은 수술 후 2·6·12시간 오심 점수를 낮췄지만 구토·구제 항구토제 사용의 차이는 일관되지 않았습니다.",
+  "limit": "수술 종류와 생강 제형이 달랐고 연구 질이 낮거나 불확실했습니다.",
+  "against": "수술 후 구토가 지속되면 생강 보충보다 장폐색·출혈·탈수 평가가 먼저입니다.",
+  "use": "수술 후 오심의 생강 보조근거와 구토 결과의 불일치를 함께 설명합니다.",
+  "refs": [{ "label": "수술 후 오심·구토 생강 메타분석", "pmid": "34700257" }],
+  "queried": {
+    "date": "2026-08-18",
+    "ctgov": "ginger postoperative nausea vomiting randomized; 등록정보 확인",
+    "pubmed": "ginger postoperative nausea vomiting systematic review meta-analysis randomized",
+    "negative": "ginger postoperative nausea AND (no effect OR vomiting no difference)",
+    "safety": "ginger surgery AND (bleeding OR adverse OR interaction)"
+  }
+}
