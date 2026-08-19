@@ -1,0 +1,33 @@
+{
+  "id": "ht-dash-groceries-pos",
+  "subj": "고혈압 대시식 장보기",
+  "kind": "food",
+  "claim": "영양사가 돕는 대시식 식료품이 자기관리보다 치료 중 고혈압을 낮춘다",
+  "line": "대시식 식료품 배송군에서 자기관리보다 수축기혈압이 더 낮아졌습니다.",
+  "effect": "수축기 −5.0mmHg, P=.002",
+  "vs": "고혈압 성인 176명 무작위시험에서 대시식 식료품 배송 vs 자기관리는 3개월 수축기혈압이 −7.0 vs −2.0mmHg, 군 간 차이는 −5.0mmHg(P=.002)였습니다.",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 176,
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "약물이 아닌 식사·운동·행동·보충제·기기 중재이므로 처방약 허가 적응증을 적용하지 않습니다.",
+  "why": "치료 중인 흑인 성인 176명을 12주 대시식 식료품 배송·상담군과 자기관리군에 무작위 배정했습니다.",
+  "saw": "3개월 수축기혈압 변화는 대시식 식료품군 −7.0mmHg, 자기관리군 −2.0mmHg였고 군 간 차이는 −5.0mmHg(95% CI −8.0~−1.9, P=.002)였습니다. 이완기혈압 차이는 −1.8mmHg였습니다.",
+  "limit": "대부분이 여러 고혈압약을 복용한 흑인 성인이며 3개월 추적입니다.",
+  "against": "대시식 식료품 배송이 모든 고혈압 환자에게 약물치료를 대신한다는 뜻은 아닙니다.",
+  "use": "치료 중 고혈압에서 식품 접근성과 식단 상담을 함께 비교합니다.",
+  "refs": [
+    {
+      "label": "고혈압 대시식 식료품 배송 무작위시험",
+      "pmid": "41904226",
+      "registry": "NCT05393232"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-19",
+    "pubmed": "DASH groceries hypertension randomized trial; PMID 41904226",
+    "negative": "DASH groceries hypertension randomized trial AND (no effect OR no significant difference OR failed)",
+    "safety": "DASH groceries hypertension randomized trial AND (adverse OR safety OR harm)"
+  }
+}
