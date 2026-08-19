@@ -1,0 +1,34 @@
+{
+  "tier": "trial",
+  "synth": "single",
+  "known": "off",
+  "knownWhy": "약물이 아닌 운동·행동·보충제·식사·수기·기기 중재이므로 처방약 허가 적응증을 적용하지 않습니다.",
+  "id": "copd-acupuncture-pos",
+  "subj": "침 치료",
+  "kind": "care",
+  "dir": "pos",
+  "n": 74,
+  "claim": "침 치료가 가짜침보다 COPD 폐기능 저하를 줄이는가",
+  "line": "침 치료는 FEV1 저하를 줄였습니다.",
+  "effect": "FEV1 변화차 -3.97%; p=.003",
+  "why": "COPD 성인 74명을 침 치료 37명과 가짜침 37명에 36회 무작위 배정했습니다. 두 군 모두 COPD 약물치료를 받았습니다.",
+  "saw": "FEV1% 변화는 침군 +1.35, 가짜침군 -2.44였고 보정 군간 차이는 -3.46(95% CI -5.69~-1.24, p=.003)였습니다.",
+  "limit": "약물치료에 더한 36회 침 시험이며 추적기간이 짧습니다.",
+  "against": "침 치료가 COPD 약물치료를 대체하거나 장기 악화를 막는다고 확정할 수 없습니다.",
+  "use": "보완요법을 선택할 때 가짜침 비교 근거로 참고합니다.",
+  "vs": "침 37명 vs 가짜침 37명에서 FEV1% 변화 +1.35 vs -2.44, 보정 차이 -3.46(95% CI -5.69~-1.24, p=.003)였습니다.",
+  "pmid": "39227880",
+  "label": "침 치료 COPD 시험",
+  "refs": [
+    {
+      "label": "침 치료 COPD 시험",
+      "pmid": "39227880"
+    }
+  ],
+  "queried": {
+    "date": "2026-08-19",
+    "pubmed": "COPD 침 치료 randomized trial; PMID 39227880",
+    "negative": "COPD 침 치료 randomized trial AND (no effect OR no significant difference OR failed)",
+    "safety": "COPD 침 치료 randomized trial AND (adverse OR harm OR safety)"
+  }
+}
