@@ -535,7 +535,7 @@
   "last_batch": {
     "id": "1881",
     "commit": "5adfd2790860db862978cf5856dbdebcc694f4ae",
-    "pushed": true,
+    "pushed": false,
     "expansion_commit": "5adfd2790860db862978cf5856dbdebcc694f4ae",
     "data_commits": [
       "5adfd2790860db862978cf5856dbdebcc694f4ae"
@@ -618,7 +618,7 @@
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
     "build": "13803 entries; 16923 refs; 12953 trial; 12864 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities로 수근관증후군 비처방 후보 60개 주제를 검색했다. 검색 결과 2061개 레코드에서 고유 PMID 556개를 확인했고, 두 검색 묶음의 XML 2061개에서 556개 고유 초록 블록을 확보했다. 엄격 후보 파서는 540개 초록을 읽어 비교 후보 37건을 만들었고, 처방약·수술·다른 질환·관찰·재분석·비치료 평가를 제외해 부목·운동·테이핑·수기치료·침·부항·자기장·식물성 도포 등 30건을 기록했다.",
+    "research": "PubMed E-utilities로 수근관증후군 비처방 후보 60개 주제를 검색했다. 검색 결과 2061개 레코드에서 고유 PMID 556개를 확인했고, 중복 제거한 두 EFetch 묶음 886개에서 556개 고유 초록 블록을 확보했다. 엄격 후보 파서는 540개 초록을 읽어 비교 후보 37건을 만들었고, 처방약·수술·다른 질환·관찰·재분석·비치료 평가를 제외해 부목·운동·테이핑·수기치료·침·부항·자기장·식물성 도포 등 30건을 기록했다.",
     "qualified_topics": [
       "cts-wrist-brace",
       "cts-yoga",
@@ -833,15 +833,15 @@
       "38016794"
     ],
     "unique_pmids": 556,
-    "requested": 2061,
-    "fetched": 2061,
-    "abstracts": 2061,
+    "requested": 886,
+    "fetched": 886,
+    "abstracts": 886,
     "parsed_abstracts": 556,
     "unique_abstract_pmids": 556,
+    "search_returned_records": 2061,
     "search_candidates": 37,
     "candidate_parser_parsed": 540,
     "search_topic_count": 60,
-    "search_returned_records": 2061,
     "non_prescription_entry_ids": [
       "cts-soft-hand-brace-rct",
       "cts-yoga-rct",
@@ -50071,7 +50071,7 @@
   "previous_last_batch_1881": {
     "id": "1881",
     "commit": "5adfd2790860db862978cf5856dbdebcc694f4ae",
-    "pushed": true,
+    "pushed": false,
     "expansion_commit": "5adfd2790860db862978cf5856dbdebcc694f4ae",
     "data_commits": [
       "5adfd2790860db862978cf5856dbdebcc694f4ae"
@@ -50154,7 +50154,7 @@
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
     "build": "13803 entries; 16923 refs; 12953 trial; 12864 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities로 수근관증후군 비처방 후보 60개 주제를 검색했다. 검색 결과 2061개 레코드에서 고유 PMID 556개를 확인했고, 두 검색 묶음의 XML 2061개에서 556개 고유 초록 블록을 확보했다. 엄격 후보 파서는 540개 초록을 읽어 비교 후보 37건을 만들었고, 처방약·수술·다른 질환·관찰·재분석·비치료 평가를 제외해 부목·운동·테이핑·수기치료·침·부항·자기장·식물성 도포 등 30건을 기록했다.",
+    "research": "PubMed E-utilities로 수근관증후군 비처방 후보 60개 주제를 검색했다. 검색 결과 2061개 레코드에서 고유 PMID 556개를 확인했고, 중복 제거한 두 EFetch 묶음 886개에서 556개 고유 초록 블록을 확보했다. 엄격 후보 파서는 540개 초록을 읽어 비교 후보 37건을 만들었고, 처방약·수술·다른 질환·관찰·재분석·비치료 평가를 제외해 부목·운동·테이핑·수기치료·침·부항·자기장·식물성 도포 등 30건을 기록했다.",
     "qualified_topics": [
       "cts-wrist-brace",
       "cts-yoga",
@@ -50369,15 +50369,15 @@
       "38016794"
     ],
     "unique_pmids": 556,
-    "requested": 2061,
-    "fetched": 2061,
-    "abstracts": 2061,
+    "requested": 886,
+    "fetched": 886,
+    "abstracts": 886,
     "parsed_abstracts": 556,
     "unique_abstract_pmids": 556,
+    "search_returned_records": 2061,
     "search_candidates": 37,
     "candidate_parser_parsed": 540,
     "search_topic_count": 60,
-    "search_returned_records": 2061,
     "non_prescription_entry_ids": [
       "cts-soft-hand-brace-rct",
       "cts-yoga-rct",
