@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
-import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -38,17 +38,12 @@ function payloadHash() {
   return hash.digest("hex");
 }
 
-function prepareStaticDeployment() {
-  const linked = join(repo, ".vercel");
-  const deploymentLink = join(output, ".vercel");
-  const deploymentConfig = join(output, "vercel.json");
-  rmSync(deploymentLink, { recursive: true, force: true });
-  cpSync(linked, deploymentLink, { recursive: true });
-
-  const config = JSON.parse(readFileSync(join(repo, "vercel.json"), "utf8"));
-  delete config.buildCommand;
-  delete config.outputDirectory;
-  writeFileSync(deploymentConfig, `${JSON.stringify(config, null, 2)}\n`, "utf8");
+function cleanGeneratedDeploymentArtifacts() {
+  // `vercel build` writes its output under the repo-level `.vercel` directory.
+  // Never copy that directory into `site`: timestamps and diagnostics would
+  // make an unchanged public payload look new on every check.
+  rmSync(join(output, ".vercel"), { recursive: true, force: true });
+  rmSync(join(output, "vercel.json"), { force: true });
 }
 
 if (!existsSync(join(output, "index.html"))) {
@@ -57,7 +52,7 @@ if (!existsSync(join(output, "index.html"))) {
 }
 
 // Deploy the already-built static payload directly to avoid a duplicate remote build.
-prepareStaticDeployment();
+cleanGeneratedDeploymentArtifacts();
 
 const current = payloadHash();
 const previous = existsSync(state) ? readFileSync(state, "utf8").trim() : "";
