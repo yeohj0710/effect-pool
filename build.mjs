@@ -2,6 +2,7 @@
 // site/ 는 생성물이다. 직접 고치지 마라.
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync, rmSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { readPermitManifest } from "./tools/kr-drug-data-reader.mjs";
@@ -408,11 +409,16 @@ const updated = entries.map((e) => e.queried.date).sort().at(-1) ?? "";
 
 // 목록에 필요한 것만 HTML 에 넣는다. 펼쳤을 때 쓰는 긴 글은 따로 뺀다.
 // 473건이면 상세까지 인라인할 때 950KB 인데, 그중 대부분은 아무도 안 펼치는 글이다.
-const LIST = ["id", "subj", "claim", "line", "effect", "kind", "tier", "dir", "n", "synth", "known", "score"];
-const DETAIL = ["vs", "why", "saw", "limit", "against", "use", "knownWhy", "refs", "queried"];
+const LIST = ["id", "subj", "line", "effect", "kind", "tier", "dir", "n", "synth", "known", "score"];
+const DETAIL = ["claim", "vs", "why", "saw", "limit", "against", "use", "knownWhy", "refs", "queried"];
 const SHARD = 48;   // 상세 묶음 하나에 담을 항목 수. 화면 하나를 덮고도 남는 크기다
 
 const list = entries.map((e) => Object.fromEntries(LIST.filter((k) => e[k] != null).map((k) => [k, e[k]])));
+const search = Object.fromEntries(entries.filter((e) => e.claim != null).map((e) => [e.id, e.claim]));
+const dataVersion = createHash("sha256")
+  .update(JSON.stringify({ list, search }))
+  .digest("hex")
+  .slice(0, 16);
 
 const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
@@ -422,7 +428,9 @@ const refTotal = entries.reduce((a, e) => a + e.refs.length, 0);
 writeFileSync(join(outDir, "index.html"),
   tpl.replace("__ENTRIES__",
     JSON.stringify({ updated, tiers: meta.tiers, kinds: meta.kinds,
-                     shard: SHARD, refs: refTotal, entries: list })), "utf8");
+                     shard: SHARD, refs: refTotal, entries: list }))
+    .replaceAll("__DATA_VERSION__", dataVersion), "utf8");
+writeFileSync(join(outDir, "search.json"), JSON.stringify(search), "utf8");
 
 // 상세는 순위 순으로 잘라서 묶음 파일로 낸다.
 // 통짜로 내면 항목 하나 펼치려고 640건 상세를 다 받는다 — 1.1MB 다.

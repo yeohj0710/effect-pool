@@ -710,16 +710,34 @@ function render(){
 let watchers = [];   // 이어 붙이기를 지켜보는 눈. 다시 그릴 때 놓아준다
 let fills = [];      // 묶음마다 "끝까지 그리기"
 
+/* 검색어를 입력할 때만 주장 색인을 받는다. 첫 화면을 열 때마다 아무도 검색하지 않을
+   주장까지 내려보내지 않는다. */
+let searchIndex = null, searchJob = null, searchError = false;
+function loadSearchIndex(){
+  if (searchIndex) return Promise.resolve(searchIndex);
+  if (!searchJob) searchJob = fetch('search.json?v=__DATA_VERSION__')
+    .then((r) => { if (!r.ok) throw new Error('search index ' + r.status); return r.json(); })
+    .then((j) => { searchIndex = j; return j; })
+    .catch((e) => { searchError = true; throw e; });
+  return searchJob;
+}
+
 /* 찾을 거리를 항목마다 한 번만 만들어 붙여 둔다.
    글자마다 이어 붙이고 소문자로 바꾸면 5천 줄 × 네 칸을 매번 새로 만든다.
    첫 검색 때 한 번 만들고 그다음부터는 그대로 쓴다. */
 const hay = (e) => e._h || (e._h =
-  (e.subj + ' ' + e.line + ' ' + e.claim + ' ' + (e.effect || '')).toLowerCase());
+  (e.subj + ' ' + e.line + ' ' + (e.effect || '') + ' ' + (searchIndex?.[e.id] || '')).toLowerCase());
 
 function paint(){
   watchers.forEach((o) => o.disconnect());
   watchers = []; fills = [];
   const q = query.toLowerCase();
+  if (q && !searchIndex){
+    hitsEl.textContent = searchError ? '검색 색인을 불러오지 못했습니다' : '검색 색인을 불러오는 중…';
+    groupsEl.innerHTML = '<div class="empty">' + (searchError ? '검색 색인을 불러오지 못했습니다.' : '검색 색인을 불러오는 중…') + '</div>';
+    if (!searchError) loadSearchIndex().then(() => { if (query.toLowerCase() === q) paint(); }).catch(() => {});
+    return;
+  }
   const hits = DATA.entries.filter(e =>
     (filter === 'all' || e.dir === filter) &&
     (kindFilter === 'all' || e.kind === kindFilter) &&
@@ -874,7 +892,7 @@ const details = {};
 const shardJobs = new Map();
 
 function loadShard(n){
-  if (!shardJobs.has(n)) shardJobs.set(n, fetch('d/' + n + '.json')
+  if (!shardJobs.has(n)) shardJobs.set(n, fetch('d/' + n + '.json?v=__DATA_VERSION__')
     .then((r) => r.json()).then((j) => Object.assign(details, j))
     .catch(() => {}));
   return shardJobs.get(n);
@@ -901,7 +919,7 @@ function open(item, tier, trigger){
   document.getElementById('s-tier').textContent =
     ((KIND[item.kind] || {}).name ? KIND[item.kind].name + ' · ' : '') + tier.name + ' · ' + d.t;
   document.getElementById('s-title').textContent = item.subj + ' — ' + item.line;
-  document.getElementById('s-claim').textContent = '도는 주장 — ' + item.claim;
+  document.getElementById('s-claim').textContent = '도는 주장을 불러오는 중…';
 
   const thin = item.synth === 'single' && Number.isInteger(item.n) && item.n < 50;
   const weight = item.n == null
@@ -924,6 +942,7 @@ function open(item, tier, trigger){
     if (openId !== item.id) return;              // 그새 다른 걸 열었으면 버린다
     const x = all[item.id];
     if (!x) { body.querySelector('.loading').textContent = '근거를 불러오지 못했습니다.'; return; }
+    document.getElementById('s-claim').textContent = '도는 주장 — ' + x.claim;
 
     const refs = (x.refs || []).map((r) => {
       const links = Object.keys(REF).filter((k) => r[k])

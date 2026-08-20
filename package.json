@@ -6,6 +6,6 @@
   "description": "무엇을 했을 때 개입군과 대조군이 얼마나 갈렸는지 사람한테 재본 숫자를 모으는 근거 풀",
   "scripts": {
     "build": "node build.mjs",
-    "deploy": "node build.mjs && vercel --prod"
+    "deploy": "node build.mjs && node scripts/deploy-if-changed.mjs"
   }
 }
