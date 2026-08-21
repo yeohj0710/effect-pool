@@ -2,28 +2,28 @@
   "updated": "2026-08-22",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 18500,
-  "subjects": 11527,
-  "refs": 21620,
+  "entries": 18530,
+  "subjects": 11557,
+  "refs": 21650,
   "kinds": {
-    "otc": 533,
-    "supp": 2529,
+    "otc": 535,
+    "supp": 2537,
     "food": 1478,
-    "move": 2855,
-    "life": 2481,
-    "care": 5935,
+    "move": 2856,
+    "life": 2487,
+    "care": 5948,
     "rx": 2689
   },
   "tiers": {
-    "trial": 17650,
+    "trial": 17680,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 12713,
-    "null": 4104,
+    "pos": 12735,
+    "null": 4112,
     "open": 1454,
     "harm": 229
   },
@@ -32,35 +32,35 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2060은 아토피피부염 비처방 중재 직접 근거 30건을 기록했다. Resume with batch 2061."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2061은 알레르기비염 비처방 중재 직접 근거 30건을 기록했다. Resume with batch 2062."
   },
   "backlog": {
     "vs_missing": 0,
     "english_subjects": 0,
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
-    "parked_non_prescription_topics": 925,
-    "note": "Batch 2060은 아토피피부염 비처방 후보 50개 검색에서 비교 수치·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. Resume with batch 2061."
+    "parked_non_prescription_topics": 875,
+    "note": "Batch 2061은 알레르기비염 비처방 후보 50개 검색에서 비교 수치·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. Resume with batch 2062."
   },
   "checkpoints": {
-    "over_counter_share": "24.5% (4540 entries)",
+    "over_counter_share": "24.6% (4550 entries)",
     "rx_share": "14.5% (2689)",
-    "no_effect_or_harm_share": "23.4% (4333 entries)",
-    "vs_share": "94.9% (17561)",
+    "no_effect_or_harm_share": "23.4% (4341 entries)",
+    "vs_share": "94.9% (17591)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.4% (17650)",
+    "trial_share": "95.4% (17680)",
     "non_trial_share": "4.6% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1279,
-      "thin_study": 4748,
-      "targeted_batch_warnings": 15
+      "unknown_n": 1280,
+      "thin_study": 4989,
+      "targeted_batch_warnings": 12
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2060 data commit 510ea3d2a; PUSHED=false checkpoint f30458f27; PUSHED=true marker 3a6ddb75f; known_items a0ea08052. Resume with fresh non-prescription batch 2061.",
+  "next": "Batch 2061 data commit PENDING; PUSHED=false checkpoint PENDING; PUSHED=true marker PENDING; known_items PENDING. Resume with fresh non-prescription batch 2062.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -4467,7 +4467,7 @@
       "probiotic-low-back-pain"
     ]
   },
-  "last_batch": {
+  "previous_last_batch_2060": {
     "id": "2060",
     "commit": "510ea3d2a",
     "pushed": true,
@@ -4587,10 +4587,101 @@
     "build_error_lines": 0,
     "build_warning_log": ["주의  ad-autohemotherapy-2060-12588384 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-bath-puva-2060-10651692 — 사람 12명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-borage-oil-2060-9244815 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-hempseed-oil-2060-16019622 — 사람 수 미상. 원문을 보고 n 을 채우세요","주의  ad-mares-milk-2060-19462320 — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-merino-wool-2060-28182252 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-nbuvb-uva1-2060-19103360 — 사람 13명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-otc-moisturizer-2060-32947459 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-probiotic-bath-2060-33730257 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-triherbal-2060-15793525 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-urea-moisturizer-2060-19508310 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-vitaminb12-2060-15149512 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ad-wet-wrap-2060-15245526 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"]
   },
+  "last_batch": {
+    "id": "2061",
+    "commit": "PENDING",
+    "pushed": false,
+    "expansion_commit": "PENDING",
+    "data_commits": ["PENDING"],
+    "checkpoint_commit": "PENDING",
+    "push_marker_commit": "PENDING",
+    "known_items_commit": "PENDING",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "ar-hydrogen-saline-2061-29798076","ar-pmbl-2061-32858239","ar-clear-guard-2061-18625073","rhino-xyloglucan-2061-28604115","ar-nasya-2061-24279907","ar-acupuncture-cetirizine-2061-26964157","ar-acupoint-intensity-2061-29354954","ar-moxibustion-auto-2061-29231566","ar-dog-days-plaster-2061-26946731","ar-acupuncture-orm-2061-25578128","ar-acupuncture-nasal-points-2061-25675568","ar-warm-acupuncture-2061-26964159","ar-moxibustion-spray-2061-25543425","ar-aerobic-exercise-2061-42196705","ar-syn53-2061-40577168","ar-probiotic-mrqlq-2061-28228426","ar-bb536-2061-17083353","ar-fish-oil-2061-8484622","ar-vitamin-e-2061-16440532","ar-health-lifestyle-2061-23214314","ar-nasal-filter-2061-15727589","ar-rhinophototherapy-2061-27921413","ar-phototherapy-device-2061-19476405","ar-phototherapy-fexofenadine-2061-21366599","ar-air-filter-pillow-2061-20486336","ar-mite-encasing-2061-15298561","ar-patient-training-2061-11167354","ar-nursing-counseling-2061-29382478","ar-professional-training-2061-24899217","ar-b-lactis-2061-23299716"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 436,
+    "non_prescription_topics_available": 50,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 436,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "18530 entries; 21650 refs; 17680 trial; 754 obs; 32 animal; 17 lab; 47 case; 17591 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 알레르기비염 식염수 세척·침·운동·유산균·보충제·환경관리 후보 50개를 검색했다. 1396개 검색 레코드와 고유 PMID 996개를 확인했고 996개를 요청해 996개 논문 기록과 975개 초록을 확보했다. 후보 parser 466건 중 비처방 중재의 무작위 비교에서 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 30건을 30개 신규 PMID에 근거해 기록했다. 436건은 중복·고찰·프로토콜·관찰·사례·수치 부족·대상 불일치·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.",
+    "qualified_topics": [
+      "ar-saline-irrigation","ar-hypertonic-saline","ar-isotonic-saline","ar-nasal-lavage","ar-nasal-spray","ar-saline-plus","ar-acupuncture","ar-electroacupuncture","ar-acupressure","ar-massage","ar-yoga","ar-breathing","ar-exercise","ar-mindfulness","ar-relaxation","ar-probiotic","ar-prebiotic","ar-synbiotic","ar-vitamin-d","ar-omega3","ar-fish-oil","ar-butterbur","ar-spirulina","ar-herbal","ar-tcm","ar-quercetin","ar-curcumin","ar-honey","ar-local-honey","ar-garlic","ar-ginkgo","ar-stinging-nettle","ar-eucalyptus","ar-ginger","ar-steam","ar-inhalation","ar-phototherapy","ar-red-light","ar-laser","ar-air-purifier","ar-humidifier","ar-dust-mite","ar-allergen-avoidance","ar-pet-avoidance","ar-education","ar-self-management","ar-sleep","ar-stress","ar-balneotherapy","ar-salt-cave"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "ar-hydrogen-saline-2061-29798076","ar-pmbl-2061-32858239","ar-clear-guard-2061-18625073","rhino-xyloglucan-2061-28604115","ar-nasya-2061-24279907","ar-acupuncture-cetirizine-2061-26964157","ar-acupoint-intensity-2061-29354954","ar-moxibustion-auto-2061-29231566","ar-dog-days-plaster-2061-26946731","ar-acupuncture-orm-2061-25578128","ar-acupuncture-nasal-points-2061-25675568","ar-warm-acupuncture-2061-26964159","ar-moxibustion-spray-2061-25543425","ar-aerobic-exercise-2061-42196705","ar-syn53-2061-40577168","ar-probiotic-mrqlq-2061-28228426","ar-bb536-2061-17083353","ar-fish-oil-2061-8484622","ar-vitamin-e-2061-16440532","ar-health-lifestyle-2061-23214314","ar-nasal-filter-2061-15727589","ar-rhinophototherapy-2061-27921413","ar-phototherapy-device-2061-19476405","ar-phototherapy-fexofenadine-2061-21366599","ar-air-filter-pillow-2061-20486336","ar-mite-encasing-2061-15298561","ar-patient-training-2061-11167354","ar-nursing-counseling-2061-29382478","ar-professional-training-2061-24899217","ar-b-lactis-2061-23299716"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 10,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "open_numeric_comparisons": 17591,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "알레르기비염 수소식염수 세척=care","알레르기비염 세균용해물 보충제=supp","알레르기비염 장벽보호 비강분무=care","알레르기비염 자일로글루칸 분무=care","알레르기비염 나시야 분무=care","알레르기비염 침·세티리진 비교=care","알레르기비염 경혈 부착=care","알레르기비염 자동화 뜸=care","알레르기비염 삼복첩=care","알레르기비염 침·오메가3=care","알레르기비염 비강 경혈침=care","알레르기비염 온침=care","알레르기비염 뜸·비강분무=care","알레르기비염 유산소 운동=move","알레르기비염 다균주 유산균=supp","알레르기비염 유산균 엠알큐엘큐=supp","알레르기비염 비피도박테리움 비비536=supp","알레르기비염 어유 보충=supp","알레르기비염 비타민이 보충=supp","알레르기비염 건강생활관리=life","알레르기비염 비강 필터=care","알레르기비염 비강 광선치료=care","알레르기비염 광선기기=care","알레르기비염 광선·펙소페나딘=care","알레르기비염 베개 공기필터=life","알레르기비염 집먼지진드기 차단=life","알레르기비염 환자교육=life","알레르기비염 간호상담=life","알레르기비염 전문가 교육=life","알레르기비염 비피도박테리움 락티스=supp"
+    ],
+    "targeted_batch_warnings_remaining": 12,
+    "targeted_batch_warnings_fixed": 10,
+    "discarded_non_numeric_candidates": [],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 875,
+    "next_official_deployment_check": "after batch 2061",
+    "new_pmids": ["29798076","32858239","18625073","28604115","24279907","26964157","29354954","29231566","26946731","25578128","25675568","26964159","25543425","42196705","40577168","28228426","17083353","8484622","16440532","23214314","15727589","27921413","19476405","21366599","20486336","15298561","11167354","29382478","24899217","23299716"],
+    "unique_pmids": 996,
+    "requested": 996,
+    "fetched": 996,
+    "fetch_chunks": 20,
+    "abstracts": 975,
+    "parsed_abstracts": 975,
+    "search_candidates": 466,
+    "candidate_parser_parsed": 996,
+    "candidate_parser_candidates": 466,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 50,
+    "search_returned_records": 1396,
+    "supplemental_query_count": 20,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": ["ar-hydrogen-saline-2061-29798076","ar-pmbl-2061-32858239","ar-clear-guard-2061-18625073","rhino-xyloglucan-2061-28604115","ar-nasya-2061-24279907","ar-acupuncture-cetirizine-2061-26964157","ar-acupoint-intensity-2061-29354954","ar-moxibustion-auto-2061-29231566","ar-dog-days-plaster-2061-26946731","ar-acupuncture-orm-2061-25578128","ar-acupuncture-nasal-points-2061-25675568","ar-warm-acupuncture-2061-26964159","ar-moxibustion-spray-2061-25543425","ar-aerobic-exercise-2061-42196705","ar-syn53-2061-40577168","ar-probiotic-mrqlq-2061-28228426","ar-bb536-2061-17083353","ar-fish-oil-2061-8484622","ar-vitamin-e-2061-16440532","ar-health-lifestyle-2061-23214314","ar-nasal-filter-2061-15727589","ar-rhinophototherapy-2061-27921413","ar-phototherapy-device-2061-19476405","ar-phototherapy-fexofenadine-2061-21366599","ar-air-filter-pillow-2061-20486336","ar-mite-encasing-2061-15298561","ar-patient-training-2061-11167354","ar-nursing-counseling-2061-29382478","ar-professional-training-2061-24899217","ar-b-lactis-2061-23299716"],
+    "categories": {"otc": 2, "supp": 8, "food": 0, "move": 1, "life": 6, "care": 13, "rx": 0},
+    "new_build_warnings": ["주의  ar-acupuncture-orm-2061-25578128 — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-aerobic-exercise-2061-42196705 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-air-filter-pillow-2061-20486336 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-b-lactis-2061-23299716 — 사람 수 미상. 원문을 보고 n 을 채우세요","주의  ar-bb536-2061-17083353 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-clear-guard-2061-18625073 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-fish-oil-2061-8484622 — 사람 37명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-hydrogen-saline-2061-29798076 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-nasal-filter-2061-15727589 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-nasya-2061-24279907 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-phototherapy-fexofenadine-2061-21366599 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  rhino-xyloglucan-2061-28604115 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"],
+    "new_unknown_n_warnings": ["ar-b-lactis-2061-23299716"],
+    "new_thin_study_warnings": ["ar-hydrogen-saline-2061-29798076:20","ar-clear-guard-2061-18625073:20","rhino-xyloglucan-2061-28604115:40","ar-nasya-2061-24279907:20","ar-acupuncture-orm-2061-25578128:25","ar-aerobic-exercise-2061-42196705:18","ar-bb536-2061-17083353:44","ar-fish-oil-2061-8484622:37","ar-nasal-filter-2061-15727589:46","ar-phototherapy-fexofenadine-2061-21366599:31","ar-air-filter-pillow-2061-20486336:35"],
+    "validator_truthful_thin_studies": ["ar-hydrogen-saline-2061-29798076:20","ar-clear-guard-2061-18625073:20","rhino-xyloglucan-2061-28604115:40","ar-nasya-2061-24279907:20","ar-acupuncture-orm-2061-25578128:25","ar-aerobic-exercise-2061-42196705:18","ar-bb536-2061-17083353:44","ar-fish-oil-2061-8484622:37","ar-nasal-filter-2061-15727589:46","ar-phototherapy-fexofenadine-2061-21366599:31","ar-air-filter-pillow-2061-20486336:35"],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": ["주의  ar-acupuncture-orm-2061-25578128 — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-aerobic-exercise-2061-42196705 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-air-filter-pillow-2061-20486336 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-b-lactis-2061-23299716 — 사람 수 미상. 원문을 보고 n 을 채우세요","주의  ar-bb536-2061-17083353 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-clear-guard-2061-18625073 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-fish-oil-2061-8484622 — 사람 37명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-hydrogen-saline-2061-29798076 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-nasal-filter-2061-15727589 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-nasya-2061-24279907 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  ar-phototherapy-fexofenadine-2061-21366599 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다","주의  rhino-xyloglucan-2061-28604115 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"]
+  },
   "resume": {
-    "next_batch": "2061",
-    "worklist_line": "new-expansion-candidates-batch2061",
-    "topic": "new-expansion-candidates-batch2061",
+    "next_batch": "2062",
+    "worklist_line": "new-expansion-candidates-batch2062",
+    "topic": "new-expansion-candidates-batch2062",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
