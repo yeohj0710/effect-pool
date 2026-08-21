@@ -2,28 +2,28 @@
   "updated": "2026-08-21",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 17505,
-  "subjects": 10570,
-  "refs": 20625,
+  "entries": 17535,
+  "subjects": 10599,
+  "refs": 20655,
   "kinds": {
     "otc": 521,
     "supp": 2373,
     "food": 1419,
-    "move": 2640,
-    "life": 2328,
-    "care": 5535,
+    "move": 2641,
+    "life": 2332,
+    "care": 5560,
     "rx": 2689
   },
   "tiers": {
-    "trial": 16655,
+    "trial": 16685,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 11971,
-    "null": 3869,
+    "pos": 11993,
+    "null": 3877,
     "open": 1440,
     "harm": 225
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2026는 만성 골반통·골반저 근막통증·외음부통·자궁내막증 비처방 후보 30개 주제를 검색하고 직접 비교 근거 20건을 기록했다. Resume with batch 2027."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2027는 만성 턱관절장애·턱 통증·저작근 근막통증 비처방 후보 30개 주제를 검색하고 직접 비교 근거 30건을 기록했다. Resume with batch 2028."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 975,
-    "note": "Batch 2026는 만성 골반통 비처방 후보 30개 주제를 기본·보충 검색했다. 작성 전 후보 87건과 작성 후 후보 67건을 선별해 직접 수치 근거 20건을 기록했고 나머지는 보류했다. Resume with batch 2027."
+    "note": "Batch 2027는 만성 턱관절장애 비처방 후보 30개 주제를 검색했다. 작성 전 후보 194건과 작성 후 보류 후보 164건을 선별해 직접 수치 근거 30건을 기록했다. Resume with batch 2028."
   },
   "checkpoints": {
     "over_counter_share": "24.6% (4313 entries)",
-    "rx_share": "15.4% (2689)",
-    "no_effect_or_harm_share": "23.4% (4094 entries)",
-    "vs_share": "94.6% (16566)",
+    "rx_share": "15.3% (2689)",
+    "no_effect_or_harm_share": "23.4% (4102 entries)",
+    "vs_share": "94.6% (16596)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.1% (16655)",
-    "non_trial_share": "4.9% (850 entries)",
+    "trial_share": "95.2% (16685)",
+    "non_trial_share": "4.8% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1254,
-      "thin_study": 4383,
-      "targeted_batch_warnings": 554
+      "unknown_n": 1256,
+      "thin_study": 4399,
+      "targeted_batch_warnings": 504
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2026 data commit f59c895109624fbea8de816d3f172c1d8bea49b7, PUSHED=false checkpoint 95b6d4db71482cbb227b111640a220f1eee48583, and PUSHED=true marker b11d873d2d3aee2d725c04e2f40d0a757ce86870 are on origin/main. Resume with fresh non-prescription batch 2027.",
+  "next": "Batch 2027 data commit 198373ca324d52bca78ee9559302f4d48ac67cac is present locally. PUSHED=false checkpoint is pending before push and marker. Resume with batch 2028 after final push.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -533,214 +533,341 @@
     ]
   },
   "last_batch": {
-    "id": "2026",
-    "commit": "f59c895109624fbea8de816d3f172c1d8bea49b7",
-    "pushed": true,
-    "expansion_commit": "f59c895109624fbea8de816d3f172c1d8bea49b7",
+    "id": "2027",
+    "commit": "198373ca324d52bca78ee9559302f4d48ac67cac",
+    "pushed": false,
+    "expansion_commit": "198373ca324d52bca78ee9559302f4d48ac67cac",
     "data_commits": [
-      "f59c895109624fbea8de816d3f172c1d8bea49b7"
+      "198373ca324d52bca78ee9559302f4d48ac67cac"
     ],
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "pelvic-aerobic-exercise",
-      "pelvic-resistance-exercise",
-      "pelvic-walking",
-      "pelvic-aquatic-exercise",
-      "pelvic-home-exercise",
-      "pelvic-floor-training",
-      "pelvic-stretching",
-      "pelvic-yoga",
-      "pelvic-pilates",
-      "pelvic-tai-chi",
-      "pelvic-self-management",
-      "pelvic-education",
-      "pelvic-cbt",
-      "pelvic-mindfulness",
-      "pelvic-weight-management",
-      "pelvic-ergonomic",
-      "pelvic-acupuncture",
-      "pelvic-electroacupuncture",
-      "pelvic-acupressure",
-      "pelvic-massage",
-      "pelvic-manual-therapy",
-      "pelvic-mobilization",
-      "pelvic-spinal-manipulation",
-      "pelvic-tens",
-      "pelvic-heat",
-      "pelvic-ultrasound",
-      "pelvic-low-level-laser",
-      "pelvic-shockwave",
-      "pelvic-orthosis",
-      "pelvic-pain-neuroscience"
+      "tmj-aerobic-exercise",
+      "tmj-jaw-exercise",
+      "tmj-resistance-exercise",
+      "tmj-home-exercise",
+      "tmj-self-management",
+      "tmj-education",
+      "tmj-cbt",
+      "tmj-mindfulness",
+      "tmj-biofeedback",
+      "tmj-posture",
+      "tmj-manual-therapy",
+      "tmj-mobilization",
+      "tmj-massage",
+      "tmj-acupuncture",
+      "tmj-electroacupuncture",
+      "tmj-acupressure",
+      "tmj-tens",
+      "tmj-heat",
+      "tmj-cold",
+      "tmj-ultrasound",
+      "tmj-low-level-laser",
+      "tmj-shockwave",
+      "tmj-orthosis",
+      "tmj-soft-diet",
+      "tmj-relaxation",
+      "tmj-yoga",
+      "tmj-pilates",
+      "tmj-virtual-rehab",
+      "tmj-pain-education",
+      "tmj-sleep"
     ],
-    "new_entries": 20,
+    "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 67,
+    "no_evidence_rejects": 164,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 67,
-    "new_references": 20,
+    "screened_nonqualifying_topics": 164,
+    "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "17505 entries; 20625 refs; 16655 trial; 16566 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities에서 만성 골반통·골반저 근막통증·외음부통·자궁내막증 관련 비처방 후보 30개 주제를 기본·보충 검색했다. 총 검색 레코드 1262개에서 고유 PMID 599개를 확인했고 599개를 EFetch 요청해 599개 논문 기록과 592개 초록을 확보했다. 작성 전 직접 수치 비교 후보 87건에서 비처방 시험 20건을 기록했고, 작성 후 남은 후보 67건은 처방약·주사·고찰·프로토콜·관찰연구·동물연구·중복·혼합 대상·수치 부족 등으로 보류했다.",
+    "build": "17535 entries; 20655 refs; 16685 trial; 16596 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities에서 만성 턱관절장애·턱 통증·저작근 근막통증 비처방 후보 30개 주제를 검색했다. 총 검색 레코드 1118개에서 고유 PMID 640개를 확인했고 640개를 EFetch 요청해 640개 논문 기록과 635개 초록을 확보했다. 작성 전 직접 수치 비교 후보 194건에서 비처방 시험 30건을 기록했고, 작성 후 남은 후보 164건은 처방약·수술·고찰·프로토콜·관찰연구·동물연구·중복·혼합 대상·수치 부족 등으로 보류했다.",
     "qualified_topics": [
-      "만성 골반통 종합재활",
-      "만성 골반통 골반구조 스트레칭",
-      "골반염 후 만성 골반통 레이저침",
-      "복벽 근막통증 아시침",
-      "만성 전립선·골반통 충격파",
-      "골반저 근막통증 질 스트레칭·레이저",
-      "복벽 근막통증 치료초음파",
-      "만성 골반통 체성인지치료",
-      "만성 골반통 체성인지치료 1년",
-      "특발성 만성 골반통 침술",
-      "복벽 통증 허혈성 압박",
-      "외음부통 인지행동·물리치료",
-      "자궁내막증 통증 심리·감각자극",
-      "만성 전립선·골반통 자기장레이저",
-      "근막성 골반통 고주파·수기치료",
-      "만성 전립선·골반통 저강도 초음파",
-      "여성 만성 골반통 원격 요가",
-      "만성 골반통 환자용 교육도구",
-      "골반염 후 만성 골반통 전기침",
-      "만성 전립선·골반통 경혈 매입침"
+      "안정화장치·긴장형 두통 관리",
+      "턱관절 디스크 재위치 온레이",
+      "턱관절 안정화 교합장치",
+      "턱관절 디스크변위 맞춤 교합장치",
+      "턱관절 디스크변위 장치·초음파·레이저",
+      "턱관절 통증 전기자극·레이저·장치",
+      "턱관절 디스크변위 경피전기자극",
+      "만성 턱관절 근막통증 카이로프랙틱",
+      "만성 턱관절 통증 물리치료",
+      "턱관절 통증 키네시오 테이핑",
+      "각성 이갈이 수기치료·교육",
+      "턱관절장애 수기·물리치료 교육",
+      "방사선치료 환자 턱운동",
+      "턱관절장애 맞춤 인지행동치료",
+      "턱 근육 근막통증 침술",
+      "턱관절·안면통 미세체계 침술",
+      "저작근 레이저침",
+      "통증성 턱관절장애 광생체조절",
+      "턱관절장애 적색·적외선 광치료",
+      "턱관절 통증 저출력 레이저",
+      "턱관절 근육통 저출력 레이저",
+      "저작근 통증 통증점 레이저",
+      "저작근 근막통 저출력 레이저",
+      "턱관절장애 저출력 레이저",
+      "근막성 턱관절장애 레이저",
+      "저작근 근막통 행동변화·교합장치",
+      "턱 근막통 깊은 건침",
+      "턱관절 정골 수기치료",
+      "교합장치·의사소통 추가",
+      "근육성 턱관절장애 레이저·교합장치"
     ],
     "screened_topics": [
-      "9916956",
-      "17012454",
-      "25394949",
-      "29960200",
-      "33559439",
-      "35511322",
-      "39539076",
-      "41339844",
-      "24463657",
-      "25527482",
-      "39261815",
-      "11890430",
-      "15195037",
-      "16334718",
-      "16816065",
-      "17478360",
-      "18173143",
-      "18307680",
-      "18538692",
-      "19958132",
-      "21147422",
-      "21245238",
-      "21901713",
-      "23433012",
-      "24595586",
-      "27059833",
-      "29372565",
-      "29757454",
-      "31034580",
-      "31359734",
-      "33186125",
-      "34907064",
-      "35162761",
-      "36112273",
-      "36483239",
-      "36520243",
-      "38243752",
-      "38500327",
-      "39745239",
-      "39828740",
-      "40747556",
-      "40964118",
-      "1826544",
-      "11034686",
-      "15183941",
-      "16765092",
-      "18380933",
-      "21056393",
-      "21542535",
-      "21607003",
-      "22110274",
-      "23409749",
-      "23577819",
-      "26480553",
-      "26576808",
-      "26727408",
-      "26919512",
-      "26964165",
-      "29318334",
-      "30655636",
-      "31592976",
-      "32897461",
-      "34994286",
-      "38199787",
-      "39360492",
-      "39505516",
-      "41791364"
+      "17095133",
+      "23252583",
+      "23415640",
+      "27912927",
+      "32769919",
+      "40814998",
+      "42168393",
+      "14717039",
+      "19361725",
+      "20401352",
+      "22165121",
+      "23994055",
+      "30446325",
+      "32456996",
+      "35943324",
+      "38110552",
+      "39095959",
+      "39800573",
+      "41413604",
+      "3866069",
+      "9586517",
+      "9728121",
+      "10371004",
+      "11402280",
+      "11433856",
+      "11889661",
+      "15472659",
+      "16428185",
+      "17696035",
+      "17714105",
+      "18936595",
+      "19004308",
+      "20158007",
+      "20216107",
+      "22071849",
+      "22809314",
+      "23351923",
+      "23778767",
+      "24352400",
+      "24822235",
+      "25050337",
+      "25050363",
+      "25542604",
+      "25644634",
+      "25874243",
+      "27012575",
+      "28054261",
+      "28681366",
+      "28804935",
+      "29209867",
+      "29944925",
+      "31585522",
+      "34455912",
+      "35020685",
+      "35935326",
+      "35951347",
+      "35960692",
+      "36456937",
+      "37031885",
+      "37565891",
+      "38012102",
+      "38475974",
+      "38570297",
+      "38685720",
+      "39282765",
+      "39425628",
+      "40043882",
+      "40512291",
+      "40685989",
+      "40817995",
+      "41043597",
+      "42186926",
+      "2001315",
+      "3468737",
+      "6580439",
+      "7488989",
+      "7610782",
+      "8370861",
+      "9008994",
+      "9345797",
+      "9364091",
+      "11202838",
+      "11323125",
+      "11345684",
+      "11355435",
+      "11383262",
+      "12221818",
+      "12366541",
+      "12787453",
+      "12816627",
+      "14973990",
+      "15022533",
+      "15065478",
+      "15243608",
+      "15848979",
+      "16040444",
+      "16153777",
+      "16202040",
+      "16570467",
+      "16873324",
+      "16873326",
+      "17244231",
+      "17244232",
+      "17570054",
+      "18356022",
+      "18797094",
+      "19054288",
+      "20401354",
+      "20626187",
+      "20739691",
+      "20877732",
+      "21142584",
+      "21178599",
+      "21538074",
+      "21680092",
+      "21728748",
+      "21779740",
+      "21935818",
+      "22513948",
+      "22549668",
+      "23229236",
+      "23484300",
+      "23524722",
+      "23631112",
+      "23721033",
+      "23916269",
+      "24094979",
+      "24364193",
+      "24364194",
+      "24386767",
+      "24660650",
+      "24822236",
+      "25439631",
+      "26276455",
+      "26397370",
+      "26485379",
+      "26485380",
+      "26606783",
+      "27018034",
+      "27410169",
+      "28029069",
+      "28218006",
+      "28222947",
+      "28660990",
+      "28738106",
+      "28791820",
+      "29073802",
+      "31547949",
+      "33797785",
+      "34922723",
+      "34948580",
+      "35785423",
+      "36459910",
+      "37759222",
+      "38477803",
+      "38749875",
+      "38851933",
+      "38958698",
+      "39349842",
+      "39778109",
+      "39912963",
+      "40008779",
+      "41084405",
+      "41288985"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_ids": [
-      "pelvic-comprehensive-rehab-32325162-pos",
-      "pelvic-structure-stretching-16752240-pos",
-      "pelvic-pid-laser-acupoint-40005470-pos",
-      "pelvic-myofascial-ashi-acupuncture-32967393-null",
-      "pelvic-prostatitis-shockwave-32989261-pos",
-      "pelvic-floor-stretch-laser-35028769-null",
-      "pelvic-myofascial-ultrasound-35918696-null",
-      "pelvic-mensendieck-16647914-pos",
-      "pelvic-mensendieck-followup-18845283-pos",
-      "pelvic-acupuncture-25673173-null",
-      "pelvic-myofascial-compression-26628263-null",
-      "pelvic-vulvodynia-cbt-pt-26755091-pos",
-      "pelvic-endometriosis-psychosomatic-28258747-pos",
-      "pelvic-prostatitis-magnetolaser-30742386-pos",
-      "pelvic-myofascial-rf-manual-38722560-null",
-      "pelvic-prostatitis-ultrasound-39438979-null",
-      "pelvic-yoga-39723995-null",
-      "pelvic-toolkit-41692123-pos",
-      "pelvic-pid-electroacupuncture-33909360-pos",
-      "pelvic-prostatitis-catgut-24946635-pos"
+      "tmj-stabilization-appliance-headache-12425225-pos",
+      "tmj-disk-repositioning-onlay-3174047-pos",
+      "tmj-stabilization-appliance-9669465-pos",
+      "tmj-mri-splint-thickness-29146196-pos",
+      "tmj-splint-ultrasound-laser-34756640-pos",
+      "tmj-tens-laser-splint-38650337-null",
+      "tmj-tens-disc-displacement-31876451-pos",
+      "tmj-chiropractic-self-care-24080932-pos",
+      "tmj-physiotherapy-manual-38007478-pos",
+      "tmj-kinesio-taping-exercise-38832764-pos",
+      "tmj-bruxism-manual-education-38894567-pos",
+      "tmj-manual-physical-education-39609984-pos",
+      "tmj-jaw-exercise-radiotherapy-39576571-pos",
+      "tmj-tailored-cbt-12455427-pos",
+      "tmj-acupuncture-jaw-muscle-19888488-pos",
+      "tmj-microsystem-acupuncture-19876045-pos",
+      "tmj-laser-acupuncture-20238281-null",
+      "tmj-photobiomodulation-33907210-null",
+      "tmj-red-infrared-led-35751005-pos",
+      "tmj-low-level-laser-28836528-null",
+      "tmj-low-level-laser-palpation-20491229-null",
+      "tmj-laser-masticatory-pain-26496720-pos",
+      "tmj-laser-myofascial-pain-23143142-null",
+      "tmj-low-level-laser-mpds-18783114-null",
+      "tmj-low-level-laser-mpds-19002646-pos",
+      "tmj-behavioral-splint-22672361-pos",
+      "tmj-dry-needling-medication-25662558-pos",
+      "tmj-osteopathic-manipulation-35248270-null",
+      "tmj-splint-communication-40384540-pos",
+      "tmj-laser-splint-40643712-pos"
     ],
-    "new_entry_vs_warnings_fixed": 0,
-    "new_entry_effect_warnings_fixed": 7,
-    "new_entry_line_warnings_fixed": 17,
-    "new_entry_scale_warnings_fixed": 8,
+    "new_entry_vs_warnings_fixed": 3,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 21,
+    "new_entry_scale_warnings_fixed": 26,
     "new_entry_english_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 2,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 16566,
-    "subject_names_renamed": 0,
-    "subject_entries_renamed": 0,
+    "open_numeric_comparisons": 16596,
+    "subject_names_renamed": 2,
+    "subject_entries_renamed": 2,
     "sample_sizes_filled": 0,
     "sample_size_corrections": 0,
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "만성 골반통 종합재활=care",
-      "만성 골반통 골반구조 스트레칭=care",
-      "골반염 후 만성 골반통 레이저침=care",
-      "복벽 근막통증 아시침=care",
-      "만성 전립선·골반통 충격파=care",
-      "골반저 근막통증 질 스트레칭·레이저=care",
-      "복벽 근막통증 치료초음파=care",
-      "만성 골반통 체성인지치료=life",
-      "만성 골반통 체성인지치료 1년=life",
-      "특발성 만성 골반통 침술=care",
-      "복벽 통증 허혈성 압박=care",
-      "외음부통 인지행동·물리치료=life",
-      "자궁내막증 통증 심리·감각자극=life",
-      "만성 전립선·골반통 자기장레이저=care",
-      "근막성 골반통 고주파·수기치료=care",
-      "만성 전립선·골반통 저강도 초음파=care",
-      "여성 만성 골반통 원격 요가=move",
-      "만성 골반통 환자용 교육도구=life",
-      "골반염 후 만성 골반통 전기침=care",
-      "만성 전립선·골반통 경혈 매입침=care"
+      "안정화장치·긴장형 두통 관리=care",
+      "턱관절 디스크 재위치 온레이=care",
+      "턱관절 안정화 교합장치=care",
+      "턱관절 디스크변위 맞춤 교합장치=care",
+      "턱관절 디스크변위 장치·초음파·레이저=care",
+      "턱관절 통증 전기자극·레이저·장치=care",
+      "턱관절 디스크변위 경피전기자극=care",
+      "만성 턱관절 근막통증 카이로프랙틱=care",
+      "만성 턱관절 통증 물리치료=care",
+      "턱관절 통증 키네시오 테이핑=care",
+      "각성 이갈이 수기치료·교육=life",
+      "턱관절장애 수기·물리치료 교육=care",
+      "방사선치료 환자 턱운동=move",
+      "턱관절장애 맞춤 인지행동치료=life",
+      "턱 근육 근막통증 침술=care",
+      "턱관절·안면통 미세체계 침술=care",
+      "저작근 레이저침=care",
+      "통증성 턱관절장애 광생체조절=care",
+      "턱관절장애 적색·적외선 광치료=care",
+      "턱관절 통증 저출력 레이저=care",
+      "턱관절 근육통 저출력 레이저=care",
+      "저작근 통증 통증점 레이저=care",
+      "저작근 근막통 저출력 레이저=care",
+      "턱관절장애 저출력 레이저=care",
+      "근막성 턱관절장애 레이저=care",
+      "저작근 근막통 행동변화·교합장치=life",
+      "턱 근막통 깊은 건침=care",
+      "턱관절 정골 수기치료=care",
+      "교합장치·의사소통 추가=life",
+      "근육성 턱관절장애 레이저·교합장치=care"
     ],
-    "targeted_warning_topics_remaining": 554,
-    "targeted_warning_topics_fixed": 32,
-    "build_errors_fixed": 0,
+    "targeted_warning_topics_remaining": 504,
+    "targeted_warning_topics_fixed": 50,
+    "build_errors_fixed": 1,
     "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -751,2161 +878,351 @@
     "remaining_parked_non_prescription_topics": 975,
     "next_official_deployment_check": "after batch 2000",
     "topics": [
-      "pelvic-aerobic-exercise",
-      "pelvic-resistance-exercise",
-      "pelvic-walking",
-      "pelvic-aquatic-exercise",
-      "pelvic-home-exercise",
-      "pelvic-floor-training",
-      "pelvic-stretching",
-      "pelvic-yoga",
-      "pelvic-pilates",
-      "pelvic-tai-chi",
-      "pelvic-self-management",
-      "pelvic-education",
-      "pelvic-cbt",
-      "pelvic-mindfulness",
-      "pelvic-weight-management",
-      "pelvic-ergonomic",
-      "pelvic-acupuncture",
-      "pelvic-electroacupuncture",
-      "pelvic-acupressure",
-      "pelvic-massage",
-      "pelvic-manual-therapy",
-      "pelvic-mobilization",
-      "pelvic-spinal-manipulation",
-      "pelvic-tens",
-      "pelvic-heat",
-      "pelvic-ultrasound",
-      "pelvic-low-level-laser",
-      "pelvic-shockwave",
-      "pelvic-orthosis",
-      "pelvic-pain-neuroscience"
+      "tmj-aerobic-exercise",
+      "tmj-jaw-exercise",
+      "tmj-resistance-exercise",
+      "tmj-home-exercise",
+      "tmj-self-management",
+      "tmj-education",
+      "tmj-cbt",
+      "tmj-mindfulness",
+      "tmj-biofeedback",
+      "tmj-posture",
+      "tmj-manual-therapy",
+      "tmj-mobilization",
+      "tmj-massage",
+      "tmj-acupuncture",
+      "tmj-electroacupuncture",
+      "tmj-acupressure",
+      "tmj-tens",
+      "tmj-heat",
+      "tmj-cold",
+      "tmj-ultrasound",
+      "tmj-low-level-laser",
+      "tmj-shockwave",
+      "tmj-orthosis",
+      "tmj-soft-diet",
+      "tmj-relaxation",
+      "tmj-yoga",
+      "tmj-pilates",
+      "tmj-virtual-rehab",
+      "tmj-pain-education",
+      "tmj-sleep"
     ],
     "screened_nonqualifying": [
-      "9916956",
-      "17012454",
-      "25394949",
-      "29960200",
-      "33559439",
-      "35511322",
-      "39539076",
-      "41339844",
-      "24463657",
-      "25527482",
-      "39261815",
-      "11890430",
-      "15195037",
-      "16334718",
-      "16816065",
-      "17478360",
-      "18173143",
-      "18307680",
-      "18538692",
-      "19958132",
-      "21147422",
-      "21245238",
-      "21901713",
-      "23433012",
-      "24595586",
-      "27059833",
-      "29372565",
-      "29757454",
-      "31034580",
-      "31359734",
-      "33186125",
-      "34907064",
-      "35162761",
-      "36112273",
-      "36483239",
-      "36520243",
-      "38243752",
-      "38500327",
-      "39745239",
-      "39828740",
-      "40747556",
-      "40964118",
-      "1826544",
-      "11034686",
-      "15183941",
-      "16765092",
-      "18380933",
-      "21056393",
-      "21542535",
-      "21607003",
-      "22110274",
-      "23409749",
-      "23577819",
-      "26480553",
-      "26576808",
-      "26727408",
-      "26919512",
-      "26964165",
-      "29318334",
-      "30655636",
-      "31592976",
-      "32897461",
-      "34994286",
-      "38199787",
-      "39360492",
-      "39505516",
-      "41791364"
+      "17095133",
+      "23252583",
+      "23415640",
+      "27912927",
+      "32769919",
+      "40814998",
+      "42168393",
+      "14717039",
+      "19361725",
+      "20401352",
+      "22165121",
+      "23994055",
+      "30446325",
+      "32456996",
+      "35943324",
+      "38110552",
+      "39095959",
+      "39800573",
+      "41413604",
+      "3866069",
+      "9586517",
+      "9728121",
+      "10371004",
+      "11402280",
+      "11433856",
+      "11889661",
+      "15472659",
+      "16428185",
+      "17696035",
+      "17714105",
+      "18936595",
+      "19004308",
+      "20158007",
+      "20216107",
+      "22071849",
+      "22809314",
+      "23351923",
+      "23778767",
+      "24352400",
+      "24822235",
+      "25050337",
+      "25050363",
+      "25542604",
+      "25644634",
+      "25874243",
+      "27012575",
+      "28054261",
+      "28681366",
+      "28804935",
+      "29209867",
+      "29944925",
+      "31585522",
+      "34455912",
+      "35020685",
+      "35935326",
+      "35951347",
+      "35960692",
+      "36456937",
+      "37031885",
+      "37565891",
+      "38012102",
+      "38475974",
+      "38570297",
+      "38685720",
+      "39282765",
+      "39425628",
+      "40043882",
+      "40512291",
+      "40685989",
+      "40817995",
+      "41043597",
+      "42186926",
+      "2001315",
+      "3468737",
+      "6580439",
+      "7488989",
+      "7610782",
+      "8370861",
+      "9008994",
+      "9345797",
+      "9364091",
+      "11202838",
+      "11323125",
+      "11345684",
+      "11355435",
+      "11383262",
+      "12221818",
+      "12366541",
+      "12787453",
+      "12816627",
+      "14973990",
+      "15022533",
+      "15065478",
+      "15243608",
+      "15848979",
+      "16040444",
+      "16153777",
+      "16202040",
+      "16570467",
+      "16873324",
+      "16873326",
+      "17244231",
+      "17244232",
+      "17570054",
+      "18356022",
+      "18797094",
+      "19054288",
+      "20401354",
+      "20626187",
+      "20739691",
+      "20877732",
+      "21142584",
+      "21178599",
+      "21538074",
+      "21680092",
+      "21728748",
+      "21779740",
+      "21935818",
+      "22513948",
+      "22549668",
+      "23229236",
+      "23484300",
+      "23524722",
+      "23631112",
+      "23721033",
+      "23916269",
+      "24094979",
+      "24364193",
+      "24364194",
+      "24386767",
+      "24660650",
+      "24822236",
+      "25439631",
+      "26276455",
+      "26397370",
+      "26485379",
+      "26485380",
+      "26606783",
+      "27018034",
+      "27410169",
+      "28029069",
+      "28218006",
+      "28222947",
+      "28660990",
+      "28738106",
+      "28791820",
+      "29073802",
+      "31547949",
+      "33797785",
+      "34922723",
+      "34948580",
+      "35785423",
+      "36459910",
+      "37759222",
+      "38477803",
+      "38749875",
+      "38851933",
+      "38958698",
+      "39349842",
+      "39778109",
+      "39912963",
+      "40008779",
+      "41084405",
+      "41288985"
     ],
     "new_pmids": [
-      "32325162",
-      "16752240",
-      "40005470",
-      "32967393",
-      "32989261",
-      "35028769",
-      "35918696",
-      "16647914",
-      "18845283",
-      "25673173",
-      "26628263",
-      "26755091",
-      "28258747",
-      "30742386",
-      "38722560",
-      "39438979",
-      "39723995",
-      "41692123",
-      "33909360",
-      "24946635"
+      "12425225",
+      "3174047",
+      "9669465",
+      "29146196",
+      "34756640",
+      "38650337",
+      "31876451",
+      "24080932",
+      "38007478",
+      "38832764",
+      "38894567",
+      "39609984",
+      "39576571",
+      "12455427",
+      "19888488",
+      "19876045",
+      "20238281",
+      "33907210",
+      "35751005",
+      "28836528",
+      "20491229",
+      "26496720",
+      "23143142",
+      "18783114",
+      "19002646",
+      "22672361",
+      "25662558",
+      "35248270",
+      "40384540",
+      "40643712"
     ],
-    "unique_pmids": 599,
-    "requested": 599,
-    "fetched": 599,
-    "abstracts": 592,
-    "parsed_abstracts": 599,
-    "search_candidates": 87,
-    "candidate_parser_parsed": 599,
-    "candidate_parser_candidates": 87,
-    "candidate_parser_candidates_after_write": 67,
-    "manual_candidates": 20,
+    "unique_pmids": 640,
+    "requested": 640,
+    "fetched": 640,
+    "abstracts": 635,
+    "parsed_abstracts": 635,
+    "search_candidates": 194,
+    "candidate_parser_parsed": 640,
+    "candidate_parser_candidates": 194,
+    "candidate_parser_candidates_after_write": 164,
+    "manual_candidates": 30,
     "search_topic_count": 30,
-    "search_returned_records": 1262,
+    "search_returned_records": 1118,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "pelvic-comprehensive-rehab-32325162-pos",
-      "pelvic-structure-stretching-16752240-pos",
-      "pelvic-pid-laser-acupoint-40005470-pos",
-      "pelvic-myofascial-ashi-acupuncture-32967393-null",
-      "pelvic-prostatitis-shockwave-32989261-pos",
-      "pelvic-floor-stretch-laser-35028769-null",
-      "pelvic-myofascial-ultrasound-35918696-null",
-      "pelvic-mensendieck-16647914-pos",
-      "pelvic-mensendieck-followup-18845283-pos",
-      "pelvic-acupuncture-25673173-null",
-      "pelvic-myofascial-compression-26628263-null",
-      "pelvic-vulvodynia-cbt-pt-26755091-pos",
-      "pelvic-endometriosis-psychosomatic-28258747-pos",
-      "pelvic-prostatitis-magnetolaser-30742386-pos",
-      "pelvic-myofascial-rf-manual-38722560-null",
-      "pelvic-prostatitis-ultrasound-39438979-null",
-      "pelvic-yoga-39723995-null",
-      "pelvic-toolkit-41692123-pos",
-      "pelvic-pid-electroacupuncture-33909360-pos",
-      "pelvic-prostatitis-catgut-24946635-pos"
+      "tmj-stabilization-appliance-headache-12425225-pos",
+      "tmj-disk-repositioning-onlay-3174047-pos",
+      "tmj-stabilization-appliance-9669465-pos",
+      "tmj-mri-splint-thickness-29146196-pos",
+      "tmj-splint-ultrasound-laser-34756640-pos",
+      "tmj-tens-laser-splint-38650337-null",
+      "tmj-tens-disc-displacement-31876451-pos",
+      "tmj-chiropractic-self-care-24080932-pos",
+      "tmj-physiotherapy-manual-38007478-pos",
+      "tmj-kinesio-taping-exercise-38832764-pos",
+      "tmj-bruxism-manual-education-38894567-pos",
+      "tmj-manual-physical-education-39609984-pos",
+      "tmj-jaw-exercise-radiotherapy-39576571-pos",
+      "tmj-tailored-cbt-12455427-pos",
+      "tmj-acupuncture-jaw-muscle-19888488-pos",
+      "tmj-microsystem-acupuncture-19876045-pos",
+      "tmj-laser-acupuncture-20238281-null",
+      "tmj-photobiomodulation-33907210-null",
+      "tmj-red-infrared-led-35751005-pos",
+      "tmj-low-level-laser-28836528-null",
+      "tmj-low-level-laser-palpation-20491229-null",
+      "tmj-laser-masticatory-pain-26496720-pos",
+      "tmj-laser-myofascial-pain-23143142-null",
+      "tmj-low-level-laser-mpds-18783114-null",
+      "tmj-low-level-laser-mpds-19002646-pos",
+      "tmj-behavioral-splint-22672361-pos",
+      "tmj-dry-needling-medication-25662558-pos",
+      "tmj-osteopathic-manipulation-35248270-null",
+      "tmj-splint-communication-40384540-pos",
+      "tmj-laser-splint-40643712-pos"
     ],
     "new_build_warnings": [
-      "주의  pelvic-comprehensive-rehab-32325162-pos — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-mensendieck-16647914-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  pelvic-mensendieck-followup-18845283-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ashi-acupuncture-32967393-null — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-compression-26628263-null — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ultrasound-35918696-null — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-pid-laser-acupoint-40005470-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-prostatitis-shockwave-32989261-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-toolkit-41692123-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-vulvodynia-cbt-pt-26755091-pos — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-yoga-39723995-null — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tmj-acupuncture-jaw-muscle-19888488-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-bruxism-manual-education-38894567-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-dry-needling-medication-25662558-pos — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-kinesio-taping-exercise-38832764-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tmj-laser-acupuncture-20238281-null — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-masticatory-pain-26496720-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-myofascial-pain-23143142-null — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-28836528-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-18783114-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-19002646-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-palpation-20491229-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-manual-physical-education-39609984-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-microsystem-acupuncture-19876045-pos — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-osteopathic-manipulation-35248270-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-red-infrared-led-35751005-pos — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tailored-cbt-12455427-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tmj-tens-disc-displacement-31876451-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tens-laser-splint-38650337-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [
-      "주의  pelvic-mensendieck-16647914-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
+      "주의  tmj-kinesio-taping-exercise-38832764-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tmj-tailored-cbt-12455427-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_thin_study_warnings": [
-      "주의  pelvic-comprehensive-rehab-32325162-pos — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-mensendieck-followup-18845283-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ashi-acupuncture-32967393-null — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-compression-26628263-null — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ultrasound-35918696-null — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-pid-laser-acupoint-40005470-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-prostatitis-shockwave-32989261-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-toolkit-41692123-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-vulvodynia-cbt-pt-26755091-pos — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-yoga-39723995-null — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tmj-acupuncture-jaw-muscle-19888488-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-bruxism-manual-education-38894567-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-dry-needling-medication-25662558-pos — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-acupuncture-20238281-null — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-masticatory-pain-26496720-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-myofascial-pain-23143142-null — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-28836528-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-18783114-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-19002646-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-palpation-20491229-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-manual-physical-education-39609984-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-microsystem-acupuncture-19876045-pos — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-osteopathic-manipulation-35248270-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-red-infrared-led-35751005-pos — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tens-disc-displacement-31876451-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tens-laser-splint-38650337-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  pelvic-comprehensive-rehab-32325162-pos — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-mensendieck-16647914-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  pelvic-mensendieck-followup-18845283-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ashi-acupuncture-32967393-null — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-compression-26628263-null — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-myofascial-ultrasound-35918696-null — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-pid-laser-acupoint-40005470-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-prostatitis-shockwave-32989261-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-toolkit-41692123-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-vulvodynia-cbt-pt-26755091-pos — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  pelvic-yoga-39723995-null — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tmj-acupuncture-jaw-muscle-19888488-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-bruxism-manual-education-38894567-pos — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-dry-needling-medication-25662558-pos — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-kinesio-taping-exercise-38832764-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tmj-laser-acupuncture-20238281-null — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-masticatory-pain-26496720-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-laser-myofascial-pain-23143142-null — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-28836528-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-18783114-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-mpds-19002646-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-low-level-laser-palpation-20491229-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-manual-physical-education-39609984-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-microsystem-acupuncture-19876045-pos — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-osteopathic-manipulation-35248270-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-red-infrared-led-35751005-pos — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tailored-cbt-12455427-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tmj-tens-disc-displacement-31876451-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tmj-tens-laser-splint-38650337-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "checkpoint_commit": "95b6d4db71482cbb227b111640a220f1eee48583",
-    "push_marker_commit": "b11d873d2d3aee2d725c04e2f40d0a757ce86870",
-    "supplemental_queries": [
-      {
-        "topic": "pelvic-floor-training",
-        "query": "chronic pelvic pain pelvic floor physiotherapy randomized trial",
-        "records": [
-          {
-            "pmid": "34127429"
-          },
-          {
-            "pmid": "38256327"
-          },
-          {
-            "pmid": "39142363"
-          },
-          {
-            "pmid": "39946383"
-          },
-          {
-            "pmid": "29318334"
-          },
-          {
-            "pmid": "33428320"
-          },
-          {
-            "pmid": "41006088"
-          },
-          {
-            "pmid": "37512085"
-          },
-          {
-            "pmid": "41935896"
-          },
-          {
-            "pmid": "39496364"
-          },
-          {
-            "pmid": "33640993"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "29280115"
-          },
-          {
-            "pmid": "23569140"
-          },
-          {
-            "pmid": "35511322"
-          },
-          {
-            "pmid": "20883912"
-          },
-          {
-            "pmid": "36520243"
-          },
-          {
-            "pmid": "38133837"
-          },
-          {
-            "pmid": "38722560"
-          },
-          {
-            "pmid": "40741923"
-          },
-          {
-            "pmid": "32386466"
-          },
-          {
-            "pmid": "42275942"
-          },
-          {
-            "pmid": "36602613"
-          },
-          {
-            "pmid": "38564267"
-          },
-          {
-            "pmid": "25394949"
-          },
-          {
-            "pmid": "37498821"
-          },
-          {
-            "pmid": "39137366"
-          },
-          {
-            "pmid": "38678773"
-          },
-          {
-            "pmid": "21147422"
-          },
-          {
-            "pmid": "32818475"
-          },
-          {
-            "pmid": "32609653"
-          },
-          {
-            "pmid": "32897461"
-          },
-          {
-            "pmid": "39723995"
-          },
-          {
-            "pmid": "27059833"
-          },
-          {
-            "pmid": "21607003"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-home-exercise",
-        "query": "chronic pelvic pain physical therapy randomized controlled trial",
-        "records": [
-          {
-            "pmid": "39054514"
-          },
-          {
-            "pmid": "38256327"
-          },
-          {
-            "pmid": "39142363"
-          },
-          {
-            "pmid": "39946383"
-          },
-          {
-            "pmid": "36729570"
-          },
-          {
-            "pmid": "39984628"
-          },
-          {
-            "pmid": "31892357"
-          },
-          {
-            "pmid": "33428320"
-          },
-          {
-            "pmid": "29037623"
-          },
-          {
-            "pmid": "40780241"
-          },
-          {
-            "pmid": "41006088"
-          },
-          {
-            "pmid": "39459464"
-          },
-          {
-            "pmid": "27869485"
-          },
-          {
-            "pmid": "37512085"
-          },
-          {
-            "pmid": "33129015"
-          },
-          {
-            "pmid": "39828740"
-          },
-          {
-            "pmid": "41935896"
-          },
-          {
-            "pmid": "40787872"
-          },
-          {
-            "pmid": "22110274"
-          },
-          {
-            "pmid": "11034686"
-          },
-          {
-            "pmid": "26411805"
-          },
-          {
-            "pmid": "32386466"
-          },
-          {
-            "pmid": "33447905"
-          },
-          {
-            "pmid": "29757454"
-          },
-          {
-            "pmid": "35691037"
-          },
-          {
-            "pmid": "29372565"
-          },
-          {
-            "pmid": "20429665"
-          },
-          {
-            "pmid": "37853420"
-          },
-          {
-            "pmid": "37042070"
-          },
-          {
-            "pmid": "31636030"
-          },
-          {
-            "pmid": "40783857"
-          },
-          {
-            "pmid": "34635804"
-          },
-          {
-            "pmid": "24595586"
-          },
-          {
-            "pmid": "29757068"
-          },
-          {
-            "pmid": "35511322"
-          },
-          {
-            "pmid": "38847290"
-          },
-          {
-            "pmid": "34907064"
-          },
-          {
-            "pmid": "41065045"
-          },
-          {
-            "pmid": "32609653"
-          },
-          {
-            "pmid": "37478248"
-          },
-          {
-            "pmid": "29944729"
-          },
-          {
-            "pmid": "32818475"
-          },
-          {
-            "pmid": "39539076"
-          },
-          {
-            "pmid": "40409968"
-          },
-          {
-            "pmid": "36520243"
-          },
-          {
-            "pmid": "23569140"
-          },
-          {
-            "pmid": "41033777"
-          },
-          {
-            "pmid": "38133837"
-          },
-          {
-            "pmid": "36602613"
-          },
-          {
-            "pmid": "38722560"
-          },
-          {
-            "pmid": "27741200"
-          },
-          {
-            "pmid": "42264522"
-          },
-          {
-            "pmid": "25939517"
-          },
-          {
-            "pmid": "32233224"
-          },
-          {
-            "pmid": "32087613"
-          },
-          {
-            "pmid": "41073678"
-          },
-          {
-            "pmid": "39496364"
-          },
-          {
-            "pmid": "39212395"
-          },
-          {
-            "pmid": "27406174"
-          },
-          {
-            "pmid": "26022102"
-          },
-          {
-            "pmid": "30221818"
-          },
-          {
-            "pmid": "22568773"
-          },
-          {
-            "pmid": "35935300"
-          },
-          {
-            "pmid": "37419648"
-          },
-          {
-            "pmid": "36767032"
-          },
-          {
-            "pmid": "40659407"
-          },
-          {
-            "pmid": "21917358"
-          },
-          {
-            "pmid": "31037757"
-          },
-          {
-            "pmid": "38696453"
-          },
-          {
-            "pmid": "21542535"
-          },
-          {
-            "pmid": "42275942"
-          },
-          {
-            "pmid": "31447380"
-          },
-          {
-            "pmid": "36269028"
-          },
-          {
-            "pmid": "29797500"
-          },
-          {
-            "pmid": "25546177"
-          },
-          {
-            "pmid": "17122613"
-          },
-          {
-            "pmid": "33260203"
-          },
-          {
-            "pmid": "33929052"
-          },
-          {
-            "pmid": "34592023"
-          },
-          {
-            "pmid": "38012776"
-          },
-          {
-            "pmid": "39261949"
-          },
-          {
-            "pmid": "31004340"
-          },
-          {
-            "pmid": "39088433"
-          },
-          {
-            "pmid": "38621728"
-          },
-          {
-            "pmid": "39137366"
-          },
-          {
-            "pmid": "41880554"
-          },
-          {
-            "pmid": "25394949"
-          },
-          {
-            "pmid": "38564267"
-          },
-          {
-            "pmid": "18620466"
-          },
-          {
-            "pmid": "39873778"
-          },
-          {
-            "pmid": "37498821"
-          },
-          {
-            "pmid": "33657762"
-          },
-          {
-            "pmid": "24619189"
-          },
-          {
-            "pmid": "35414092"
-          },
-          {
-            "pmid": "19394499"
-          },
-          {
-            "pmid": "14699269"
-          },
-          {
-            "pmid": "37939703"
-          },
-          {
-            "pmid": "16752240"
-          },
-          {
-            "pmid": "40005470"
-          },
-          {
-            "pmid": "19705093"
-          },
-          {
-            "pmid": "34556520"
-          },
-          {
-            "pmid": "30312595"
-          },
-          {
-            "pmid": "21147422"
-          },
-          {
-            "pmid": "32325162"
-          },
-          {
-            "pmid": "17012454"
-          },
-          {
-            "pmid": "29316946"
-          },
-          {
-            "pmid": "33394979"
-          },
-          {
-            "pmid": "27179664"
-          },
-          {
-            "pmid": "23234638"
-          },
-          {
-            "pmid": "19535099"
-          },
-          {
-            "pmid": "39424858"
-          },
-          {
-            "pmid": "34016168"
-          },
-          {
-            "pmid": "33991702"
-          },
-          {
-            "pmid": "33934208"
-          },
-          {
-            "pmid": "32897461"
-          },
-          {
-            "pmid": "32214294"
-          },
-          {
-            "pmid": "32498932"
-          },
-          {
-            "pmid": "31034580"
-          },
-          {
-            "pmid": "36456417"
-          },
-          {
-            "pmid": "33947367"
-          },
-          {
-            "pmid": "39723995"
-          },
-          {
-            "pmid": "33909360"
-          },
-          {
-            "pmid": "40044193"
-          },
-          {
-            "pmid": "33276764"
-          },
-          {
-            "pmid": "30252113"
-          },
-          {
-            "pmid": "17162029"
-          },
-          {
-            "pmid": "16647914"
-          },
-          {
-            "pmid": "31864519"
-          },
-          {
-            "pmid": "29329442"
-          },
-          {
-            "pmid": "26550815"
-          },
-          {
-            "pmid": "19641356"
-          },
-          {
-            "pmid": "24799153"
-          },
-          {
-            "pmid": "18845283"
-          },
-          {
-            "pmid": "27133814"
-          },
-          {
-            "pmid": "27059833"
-          },
-          {
-            "pmid": "12381971"
-          },
-          {
-            "pmid": "26576808"
-          },
-          {
-            "pmid": "26319650"
-          },
-          {
-            "pmid": "26628263"
-          },
-          {
-            "pmid": "22204615"
-          },
-          {
-            "pmid": "21708042"
-          },
-          {
-            "pmid": "20337203"
-          },
-          {
-            "pmid": "19111075"
-          },
-          {
-            "pmid": "21571345"
-          },
-          {
-            "pmid": "22142713"
-          },
-          {
-            "pmid": "16881464"
-          },
-          {
-            "pmid": "41834720"
-          },
-          {
-            "pmid": "42252301"
-          },
-          {
-            "pmid": "23496876"
-          },
-          {
-            "pmid": "23354911"
-          },
-          {
-            "pmid": "16566972"
-          },
-          {
-            "pmid": "14751338"
-          },
-          {
-            "pmid": "34898069"
-          },
-          {
-            "pmid": "23948819"
-          },
-          {
-            "pmid": "12161831"
-          },
-          {
-            "pmid": "21607003"
-          },
-          {
-            "pmid": "25704221"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-cbt",
-        "query": "chronic pelvic pain cognitive behavioral therapy randomized controlled trial",
-        "records": [
-          {
-            "pmid": "40780241"
-          },
-          {
-            "pmid": "38566501"
-          },
-          {
-            "pmid": "16575378"
-          },
-          {
-            "pmid": "35964133"
-          },
-          {
-            "pmid": "40844480"
-          },
-          {
-            "pmid": "34907064"
-          },
-          {
-            "pmid": "31123837"
-          },
-          {
-            "pmid": "29316946"
-          },
-          {
-            "pmid": "35414092"
-          },
-          {
-            "pmid": "21943084"
-          },
-          {
-            "pmid": "32165549"
-          },
-          {
-            "pmid": "32165550"
-          },
-          {
-            "pmid": "31103481"
-          },
-          {
-            "pmid": "16647914"
-          },
-          {
-            "pmid": "18845283"
-          },
-          {
-            "pmid": "22204615"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-mindfulness",
-        "query": "chronic pelvic pain mindfulness randomized controlled trial",
-        "records": [
-          {
-            "pmid": "36251868"
-          },
-          {
-            "pmid": "21542535"
-          },
-          {
-            "pmid": "36797461"
-          },
-          {
-            "pmid": "32165550"
-          },
-          {
-            "pmid": "32165549"
-          },
-          {
-            "pmid": "40044193"
-          },
-          {
-            "pmid": "31103481"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-yoga",
-        "query": "chronic pelvic pain yoga randomized controlled trial women",
-        "records": [
-          {
-            "pmid": "27869485"
-          },
-          {
-            "pmid": "29944729"
-          },
-          {
-            "pmid": "41033777"
-          },
-          {
-            "pmid": "39723995"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-acupuncture",
-        "query": "endometriosis pain acupuncture randomized controlled trial",
-        "records": [
-          {
-            "pmid": "36716811"
-          },
-          {
-            "pmid": "39110208"
-          },
-          {
-            "pmid": "36921836"
-          },
-          {
-            "pmid": "21901713"
-          },
-          {
-            "pmid": "41220586"
-          },
-          {
-            "pmid": "40859475"
-          },
-          {
-            "pmid": "29944729"
-          },
-          {
-            "pmid": "18794019"
-          },
-          {
-            "pmid": "27741200"
-          },
-          {
-            "pmid": "32648394"
-          },
-          {
-            "pmid": "30937963"
-          },
-          {
-            "pmid": "16579094"
-          },
-          {
-            "pmid": "16646732"
-          },
-          {
-            "pmid": "19761114"
-          },
-          {
-            "pmid": "35403398"
-          },
-          {
-            "pmid": "28258747"
-          },
-          {
-            "pmid": "19958132"
-          },
-          {
-            "pmid": "32242399"
-          },
-          {
-            "pmid": "21442808"
-          },
-          {
-            "pmid": "29880009"
-          },
-          {
-            "pmid": "34161143"
-          },
-          {
-            "pmid": "20728977"
-          },
-          {
-            "pmid": "18537469"
-          },
-          {
-            "pmid": "20886791"
-          },
-          {
-            "pmid": "26319650"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-home-exercise",
-        "query": "endometriosis exercise randomized controlled trial",
-        "records": [
-          {
-            "pmid": "34627209"
-          },
-          {
-            "pmid": "39946383"
-          },
-          {
-            "pmid": "37467936"
-          },
-          {
-            "pmid": "39110208"
-          },
-          {
-            "pmid": "39261815"
-          },
-          {
-            "pmid": "41006088"
-          },
-          {
-            "pmid": "35162761"
-          },
-          {
-            "pmid": "40440865"
-          },
-          {
-            "pmid": "40747556"
-          },
-          {
-            "pmid": "40686285"
-          },
-          {
-            "pmid": "40581284"
-          },
-          {
-            "pmid": "41033777"
-          },
-          {
-            "pmid": "29944729"
-          },
-          {
-            "pmid": "12642146"
-          },
-          {
-            "pmid": "39360492"
-          },
-          {
-            "pmid": "36767032"
-          },
-          {
-            "pmid": "30980691"
-          },
-          {
-            "pmid": "41791364"
-          },
-          {
-            "pmid": "38012776"
-          },
-          {
-            "pmid": "41313614"
-          },
-          {
-            "pmid": "42413249"
-          },
-          {
-            "pmid": "9764869"
-          },
-          {
-            "pmid": "22455972"
-          },
-          {
-            "pmid": "15762970"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-yoga",
-        "query": "endometriosis yoga randomized trial",
-        "records": [
-          {
-            "pmid": "37345574"
-          },
-          {
-            "pmid": "34627209"
-          },
-          {
-            "pmid": "34373298"
-          },
-          {
-            "pmid": "27869485"
-          },
-          {
-            "pmid": "31443810"
-          },
-          {
-            "pmid": "41033777"
-          },
-          {
-            "pmid": "39360492"
-          },
-          {
-            "pmid": "29944729"
-          },
-          {
-            "pmid": "27552065"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-self-management",
-        "query": "endometriosis self management randomized trial",
-        "records": [
-          {
-            "pmid": "41385548"
-          },
-          {
-            "pmid": "39261815"
-          },
-          {
-            "pmid": "35249825"
-          },
-          {
-            "pmid": "33129015"
-          },
-          {
-            "pmid": "41436256"
-          },
-          {
-            "pmid": "35488093"
-          },
-          {
-            "pmid": "40686285"
-          },
-          {
-            "pmid": "38199787"
-          },
-          {
-            "pmid": "41033777"
-          },
-          {
-            "pmid": "38043860"
-          },
-          {
-            "pmid": "36767032"
-          },
-          {
-            "pmid": "38869629"
-          },
-          {
-            "pmid": "37260160"
-          },
-          {
-            "pmid": "29194531"
-          },
-          {
-            "pmid": "40338925"
-          },
-          {
-            "pmid": "31820806"
-          },
-          {
-            "pmid": "27552065"
-          },
-          {
-            "pmid": "31875661"
-          },
-          {
-            "pmid": "38551435"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-floor-training",
-        "query": "endometriosis pelvic floor physical therapy trial",
-        "records": [
-          {
-            "pmid": "38256327"
-          },
-          {
-            "pmid": "39946383"
-          },
-          {
-            "pmid": "39261815"
-          },
-          {
-            "pmid": "33428320"
-          },
-          {
-            "pmid": "41006088"
-          },
-          {
-            "pmid": "33939210"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "40846214"
-          },
-          {
-            "pmid": "21689334"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-home-exercise",
-        "query": "vulvodynia pelvic floor physical therapy randomized trial",
-        "records": [
-          {
-            "pmid": "34127429"
-          },
-          {
-            "pmid": "39142363"
-          },
-          {
-            "pmid": "29318334"
-          },
-          {
-            "pmid": "37606427"
-          },
-          {
-            "pmid": "40653877"
-          },
-          {
-            "pmid": "36112273"
-          },
-          {
-            "pmid": "20883912"
-          },
-          {
-            "pmid": "20724927"
-          },
-          {
-            "pmid": "32818475"
-          },
-          {
-            "pmid": "32819864"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "28363763"
-          },
-          {
-            "pmid": "41204926"
-          },
-          {
-            "pmid": "38564267"
-          },
-          {
-            "pmid": "35852280"
-          },
-          {
-            "pmid": "26755091"
-          },
-          {
-            "pmid": "36929279"
-          },
-          {
-            "pmid": "29960200"
-          },
-          {
-            "pmid": "38678773"
-          },
-          {
-            "pmid": "26600287"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-cbt",
-        "query": "vulvodynia cognitive behavioral therapy randomized trial",
-        "records": [
-          {
-            "pmid": "36533637"
-          },
-          {
-            "pmid": "25104563"
-          },
-          {
-            "pmid": "34972640"
-          },
-          {
-            "pmid": "40653877"
-          },
-          {
-            "pmid": "19022580"
-          },
-          {
-            "pmid": "37401654"
-          },
-          {
-            "pmid": "34014693"
-          },
-          {
-            "pmid": "26727408"
-          },
-          {
-            "pmid": "38429870"
-          },
-          {
-            "pmid": "35191716"
-          },
-          {
-            "pmid": "39537187"
-          },
-          {
-            "pmid": "28164286"
-          },
-          {
-            "pmid": "34656202"
-          },
-          {
-            "pmid": "26755091"
-          },
-          {
-            "pmid": "19879555"
-          },
-          {
-            "pmid": "35090839"
-          },
-          {
-            "pmid": "30688760"
-          },
-          {
-            "pmid": "25329756"
-          },
-          {
-            "pmid": "19183087"
-          },
-          {
-            "pmid": "25540035"
-          },
-          {
-            "pmid": "39292441"
-          },
-          {
-            "pmid": "25059263"
-          },
-          {
-            "pmid": "31103481"
-          },
-          {
-            "pmid": "40789188"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-mindfulness",
-        "query": "vulvodynia mindfulness randomized trial",
-        "records": [
-          {
-            "pmid": "40653877"
-          },
-          {
-            "pmid": "34972640"
-          },
-          {
-            "pmid": "30688760"
-          },
-          {
-            "pmid": "40789188"
-          },
-          {
-            "pmid": "31103481"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-acupuncture",
-        "query": "vulvodynia acupuncture randomized trial",
-        "records": [
-          {
-            "pmid": "36533637"
-          },
-          {
-            "pmid": "39142363"
-          },
-          {
-            "pmid": "41429681"
-          },
-          {
-            "pmid": "32650673"
-          },
-          {
-            "pmid": "25639289"
-          },
-          {
-            "pmid": "31592976"
-          },
-          {
-            "pmid": "36130137"
-          },
-          {
-            "pmid": "38564267"
-          },
-          {
-            "pmid": "41975391"
-          },
-          {
-            "pmid": "30341023"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-floor-training",
-        "query": "interstitial cystitis pelvic floor physical therapy randomized trial",
-        "records": [
-          {
-            "pmid": "34127429"
-          },
-          {
-            "pmid": "36112273"
-          },
-          {
-            "pmid": "35691037"
-          },
-          {
-            "pmid": "20724927"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "22503015"
-          },
-          {
-            "pmid": "39261949"
-          },
-          {
-            "pmid": "33186125"
-          },
-          {
-            "pmid": "40411588"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-self-management",
-        "query": "interstitial cystitis self management randomized trial",
-        "records": [
-          {
-            "pmid": "36729570"
-          },
-          {
-            "pmid": "38768800"
-          },
-          {
-            "pmid": "35964133"
-          },
-          {
-            "pmid": "21943084"
-          },
-          {
-            "pmid": "18199015"
-          },
-          {
-            "pmid": "34907064"
-          },
-          {
-            "pmid": "33186125"
-          },
-          {
-            "pmid": "40411588"
-          },
-          {
-            "pmid": "29894774"
-          },
-          {
-            "pmid": "18582395"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-mindfulness",
-        "query": "interstitial cystitis mindfulness randomized trial",
-        "records": [
-          {
-            "pmid": "27116196"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-manual-therapy",
-        "query": "chronic prostatitis pelvic floor physical therapy randomized trial",
-        "records": [
-          {
-            "pmid": "34127429"
-          },
-          {
-            "pmid": "20429665"
-          },
-          {
-            "pmid": "35691037"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "37771836"
-          },
-          {
-            "pmid": "39496364"
-          },
-          {
-            "pmid": "17433028"
-          },
-          {
-            "pmid": "25394949"
-          },
-          {
-            "pmid": "33751183"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-shockwave",
-        "query": "chronic prostatitis chronic pelvic pain syndrome shockwave randomized trial",
-        "records": [
-          {
-            "pmid": "40787872"
-          },
-          {
-            "pmid": "29757454"
-          },
-          {
-            "pmid": "29372565"
-          },
-          {
-            "pmid": "37853420"
-          },
-          {
-            "pmid": "38847290"
-          },
-          {
-            "pmid": "34635804"
-          },
-          {
-            "pmid": "30019814"
-          },
-          {
-            "pmid": "32989261"
-          },
-          {
-            "pmid": "33929052"
-          },
-          {
-            "pmid": "33434323"
-          },
-          {
-            "pmid": "31004340"
-          },
-          {
-            "pmid": "32233224"
-          },
-          {
-            "pmid": "31037757"
-          },
-          {
-            "pmid": "34911370"
-          },
-          {
-            "pmid": "42275556"
-          },
-          {
-            "pmid": "31447380"
-          },
-          {
-            "pmid": "41539403"
-          },
-          {
-            "pmid": "27380504"
-          },
-          {
-            "pmid": "33126371"
-          },
-          {
-            "pmid": "32223104"
-          },
-          {
-            "pmid": "23405798"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-acupuncture",
-        "query": "chronic prostatitis acupuncture randomized controlled trial",
-        "records": [
-          {
-            "pmid": "34399062"
-          },
-          {
-            "pmid": "40787872"
-          },
-          {
-            "pmid": "38115243"
-          },
-          {
-            "pmid": "29757454"
-          },
-          {
-            "pmid": "29372565"
-          },
-          {
-            "pmid": "37313559"
-          },
-          {
-            "pmid": "35691037"
-          },
-          {
-            "pmid": "21436307"
-          },
-          {
-            "pmid": "39745239"
-          },
-          {
-            "pmid": "40783857"
-          },
-          {
-            "pmid": "41044820"
-          },
-          {
-            "pmid": "32975161"
-          },
-          {
-            "pmid": "18187077"
-          },
-          {
-            "pmid": "32240476"
-          },
-          {
-            "pmid": "29733836"
-          },
-          {
-            "pmid": "42264522"
-          },
-          {
-            "pmid": "25453515"
-          },
-          {
-            "pmid": "29273095"
-          },
-          {
-            "pmid": "39219163"
-          },
-          {
-            "pmid": "38431530"
-          },
-          {
-            "pmid": "38621728"
-          },
-          {
-            "pmid": "35935300"
-          },
-          {
-            "pmid": "29231360"
-          },
-          {
-            "pmid": "25939517"
-          },
-          {
-            "pmid": "34889286"
-          },
-          {
-            "pmid": "16334718"
-          },
-          {
-            "pmid": "37079509"
-          },
-          {
-            "pmid": "35486014"
-          },
-          {
-            "pmid": "31368269"
-          },
-          {
-            "pmid": "32195959"
-          },
-          {
-            "pmid": "33793110"
-          },
-          {
-            "pmid": "19394499"
-          },
-          {
-            "pmid": "26964165"
-          },
-          {
-            "pmid": "34941034"
-          },
-          {
-            "pmid": "31096505"
-          },
-          {
-            "pmid": "35403411"
-          },
-          {
-            "pmid": "27821109"
-          },
-          {
-            "pmid": "21245238"
-          },
-          {
-            "pmid": "25582816"
-          },
-          {
-            "pmid": "28499367"
-          },
-          {
-            "pmid": "31977907"
-          },
-          {
-            "pmid": "21355145"
-          },
-          {
-            "pmid": "30335011"
-          },
-          {
-            "pmid": "41914019"
-          },
-          {
-            "pmid": "26480553"
-          },
-          {
-            "pmid": "34914219"
-          },
-          {
-            "pmid": "24377219"
-          },
-          {
-            "pmid": "20353107"
-          },
-          {
-            "pmid": "30173449"
-          },
-          {
-            "pmid": "40783962"
-          },
-          {
-            "pmid": "24946635"
-          },
-          {
-            "pmid": "29231344"
-          },
-          {
-            "pmid": "29717841"
-          },
-          {
-            "pmid": "19835121"
-          },
-          {
-            "pmid": "19565733"
-          },
-          {
-            "pmid": "22471127"
-          },
-          {
-            "pmid": "18257183"
-          },
-          {
-            "pmid": "16739846"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-tens",
-        "query": "chronic pelvic pain transcutaneous electrical nerve stimulation randomized trial",
-        "records": [
-          {
-            "pmid": "33740342"
-          },
-          {
-            "pmid": "39828740"
-          },
-          {
-            "pmid": "33129015"
-          },
-          {
-            "pmid": "31368415"
-          },
-          {
-            "pmid": "37042070"
-          },
-          {
-            "pmid": "42264522"
-          },
-          {
-            "pmid": "40626937"
-          },
-          {
-            "pmid": "31636030"
-          },
-          {
-            "pmid": "23710833"
-          },
-          {
-            "pmid": "36412569"
-          },
-          {
-            "pmid": "40783857"
-          },
-          {
-            "pmid": "32803220"
-          },
-          {
-            "pmid": "37478248"
-          },
-          {
-            "pmid": "21056390"
-          },
-          {
-            "pmid": "21056393"
-          },
-          {
-            "pmid": "22985128"
-          },
-          {
-            "pmid": "19111075"
-          },
-          {
-            "pmid": "35935300"
-          },
-          {
-            "pmid": "33274514"
-          },
-          {
-            "pmid": "23433012"
-          },
-          {
-            "pmid": "36456417"
-          },
-          {
-            "pmid": "24619189"
-          },
-          {
-            "pmid": "19394499"
-          },
-          {
-            "pmid": "22568773"
-          },
-          {
-            "pmid": "26319650"
-          },
-          {
-            "pmid": "33909360"
-          },
-          {
-            "pmid": "26576808"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-heat",
-        "query": "chronic pelvic pain thermotherapy randomized trial",
-        "records": [
-          {
-            "pmid": "39438979"
-          },
-          {
-            "pmid": "40787872"
-          },
-          {
-            "pmid": "29757454"
-          },
-          {
-            "pmid": "29372565"
-          },
-          {
-            "pmid": "34635804"
-          },
-          {
-            "pmid": "30019814"
-          },
-          {
-            "pmid": "38847290"
-          },
-          {
-            "pmid": "14651434"
-          },
-          {
-            "pmid": "37853420"
-          },
-          {
-            "pmid": "11279750"
-          },
-          {
-            "pmid": "12957198"
-          },
-          {
-            "pmid": "42275942"
-          },
-          {
-            "pmid": "32233224"
-          },
-          {
-            "pmid": "31037757"
-          },
-          {
-            "pmid": "33434323"
-          },
-          {
-            "pmid": "40587060"
-          },
-          {
-            "pmid": "41539403"
-          },
-          {
-            "pmid": "42275556"
-          },
-          {
-            "pmid": "31447380"
-          },
-          {
-            "pmid": "34911370"
-          },
-          {
-            "pmid": "33929052"
-          },
-          {
-            "pmid": "31004340"
-          },
-          {
-            "pmid": "25546177"
-          },
-          {
-            "pmid": "33126371"
-          },
-          {
-            "pmid": "36789645"
-          },
-          {
-            "pmid": "20564681"
-          },
-          {
-            "pmid": "22100490"
-          },
-          {
-            "pmid": "15596188"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-manual-therapy",
-        "query": "myofascial pelvic pain manual therapy randomized trial",
-        "records": [
-          {
-            "pmid": "29318334"
-          },
-          {
-            "pmid": "40367769"
-          },
-          {
-            "pmid": "37853420"
-          },
-          {
-            "pmid": "35028769"
-          },
-          {
-            "pmid": "29757068"
-          },
-          {
-            "pmid": "38722560"
-          },
-          {
-            "pmid": "34592023"
-          },
-          {
-            "pmid": "25920314"
-          },
-          {
-            "pmid": "33991702"
-          },
-          {
-            "pmid": "42201799"
-          },
-          {
-            "pmid": "22503015"
-          },
-          {
-            "pmid": "34016168"
-          },
-          {
-            "pmid": "22703751"
-          },
-          {
-            "pmid": "23234638"
-          },
-          {
-            "pmid": "19535099"
-          },
-          {
-            "pmid": "41773603"
-          },
-          {
-            "pmid": "25527482"
-          },
-          {
-            "pmid": "29720379"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-education",
-        "query": "chronic pelvic pain patient toolkit randomized trial",
-        "records": [
-          {
-            "pmid": "41692123"
-          }
-        ]
-      },
-      {
-        "topic": "pelvic-pain-neuroscience",
-        "query": "chronic pelvic pain pain education randomized controlled trial",
-        "records": [
-          {
-            "pmid": "39142363"
-          },
-          {
-            "pmid": "39946383"
-          },
-          {
-            "pmid": "36729570"
-          },
-          {
-            "pmid": "39984628"
-          },
-          {
-            "pmid": "34399062"
-          },
-          {
-            "pmid": "40780241"
-          },
-          {
-            "pmid": "41935896"
-          },
-          {
-            "pmid": "35964133"
-          },
-          {
-            "pmid": "37853420"
-          },
-          {
-            "pmid": "39496364"
-          },
-          {
-            "pmid": "37267394"
-          },
-          {
-            "pmid": "39263198"
-          },
-          {
-            "pmid": "37794569"
-          },
-          {
-            "pmid": "32386466"
-          },
-          {
-            "pmid": "42160242"
-          },
-          {
-            "pmid": "39873778"
-          },
-          {
-            "pmid": "37419648"
-          },
-          {
-            "pmid": "37095614"
-          },
-          {
-            "pmid": "41692123"
-          },
-          {
-            "pmid": "35266184"
-          },
-          {
-            "pmid": "38012776"
-          },
-          {
-            "pmid": "37349849"
-          },
-          {
-            "pmid": "25394949"
-          },
-          {
-            "pmid": "28187404"
-          },
-          {
-            "pmid": "19394499"
-          },
-          {
-            "pmid": "19958132"
-          },
-          {
-            "pmid": "17478360"
-          },
-          {
-            "pmid": "32818475"
-          },
-          {
-            "pmid": "21943084"
-          },
-          {
-            "pmid": "16816065"
-          },
-          {
-            "pmid": "30396557"
-          },
-          {
-            "pmid": "30221818"
-          },
-          {
-            "pmid": "8616132"
-          },
-          {
-            "pmid": "32897461"
-          },
-          {
-            "pmid": "34016168"
-          },
-          {
-            "pmid": "20883991"
-          },
-          {
-            "pmid": "33947367"
-          },
-          {
-            "pmid": "14687747"
-          },
-          {
-            "pmid": "29391360"
-          },
-          {
-            "pmid": "40044193"
-          },
-          {
-            "pmid": "12548208"
-          },
-          {
-            "pmid": "27059833"
-          },
-          {
-            "pmid": "24792311"
-          },
-          {
-            "pmid": "42252301"
-          },
-          {
-            "pmid": "25582816"
-          },
-          {
-            "pmid": "24491296"
-          },
-          {
-            "pmid": "19735378"
-          },
-          {
-            "pmid": "16530506"
-          },
-          {
-            "pmid": "17084960"
-          },
-          {
-            "pmid": "24807502"
-          },
-          {
-            "pmid": "42417298"
-          },
-          {
-            "pmid": "30742386"
-          },
-          {
-            "pmid": "15183941"
-          }
-        ]
-      }
-    ],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "supplemental_queries": [],
     "categories": {
-      "care": 14,
-      "life": 5,
+      "care": 25,
+      "life": 4,
       "move": 1
     }
   },
@@ -5973,9 +4290,9 @@
     ]
   },
   "resume": {
-    "next_batch": "2027",
-    "worklist_line": "new-expansion-candidates-batch2027",
-    "topic": "new-expansion-candidates-batch2027",
+    "next_batch": "2028",
+    "worklist_line": "new-expansion-candidates-batch2028",
+    "topic": "new-expansion-candidates-batch2028",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -7270,10 +5587,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 16566,
-  "unknownN": 1254,
-  "thinStudy": 4383,
-  "openNumeric": 16566,
+  "withVs": 16596,
+  "unknownN": 1256,
+  "thinStudy": 4399,
+  "openNumeric": 16596,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
