@@ -2,28 +2,28 @@
   "updated": "2026-08-21",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 17655,
-  "subjects": 10715,
-  "refs": 20775,
+  "entries": 17681,
+  "subjects": 10741,
+  "refs": 20801,
   "kinds": {
-    "otc": 525,
-    "supp": 2381,
-    "food": 1422,
-    "move": 2650,
-    "life": 2356,
-    "care": 5632,
+    "otc": 526,
+    "supp": 2389,
+    "food": 1424,
+    "move": 2651,
+    "life": 2358,
+    "care": 5644,
     "rx": 2689
   },
   "tiers": {
-    "trial": 16805,
+    "trial": 16831,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 12073,
-    "null": 3914,
+    "pos": 12090,
+    "null": 3923,
     "open": 1442,
     "harm": 226
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2031는 만성 불면·수면장애의 인지행동치료·수면제한·마음챙김·침술·지압·빛·운동·음악·보충제 직접 비교 근거 30건을 기록했다. Resume with batch 2032."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2032는 일차성 생리통의 뜸·침·운동·보충제·빛·자석·교육·테이핑·고주파·tDCS 직접 비교 근거 26건을 기록했다. Resume with batch 2033."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 975,
-    "note": "Batch 2031는 만성 불면·수면장애의 비처방·비약물 후보를 검색하고 직접 초록 수치 또는 효과크기가 있는 30건을 기록했다. Resume with batch 2032."
+    "note": "Batch 2032는 일차성 생리통 비처방·비약물 후보를 PubMed에서 보강 검색하고 숫자 결과 또는 효과크기가 있는 26건을 기록했다. Resume with batch 2033."
   },
   "checkpoints": {
-    "over_counter_share": "24.5% (4328 entries)",
+    "over_counter_share": "24.5% (4339 entries)",
     "rx_share": "15.2% (2689)",
-    "no_effect_or_harm_share": "23.5% (4140 entries)",
-    "vs_share": "94.7% (16716)",
+    "no_effect_or_harm_share": "23.5% (4149 entries)",
+    "vs_share": "94.7% (16742)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.2% (16805)",
+    "trial_share": "95.2% (16831)",
     "non_trial_share": "4.8% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1257,
-      "thin_study": 4636,
+      "unknown_n": 1259,
+      "thin_study": 4641,
       "targeted_batch_warnings": 467
     }
   },
@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2031 data commit 12f5d5f44f43833cbc334119667f358a92a09ea2, PUSHED=false checkpoint 44b405b1a5203d34e2410b988516c7ff98db5124, and PUSHED=true marker 67e02a6539e609ae4a5ab2c432aedf6f74270037 are on origin/main. Resume with fresh non-prescription batch 2032.",
+  "next": "Batch 2032 data commit 4e3ffbabcedb87611da726cfe4c0330a34d35854, PUSHED=false checkpoint pending. Resume with fresh non-prescription batch 2033.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -533,135 +533,123 @@
     ]
   },
   "last_batch": {
-    "id": "2031",
-    "commit": "12f5d5f4",
-    "pushed": true,
-    "expansion_commit": "12f5d5f4",
+    "id": "2032",
+    "commit": "4e3ffbabcedb87611da726cfe4c0330a34d35854",
+    "pushed": false,
+    "expansion_commit": "4e3ffbabcedb87611da726cfe4c0330a34d35854",
     "data_commits": [
-      "12f5d5f4"
+      "4e3ffbabcedb87611da726cfe4c0330a34d35854"
     ],
     "maintenance": false,
-    "processed_topics": 30,
+    "processed_topics": 26,
     "selected_topics": [
-      "insomnia-digital-cbt-shiftwork",
-      "insomnia-cbt-heart-failure",
-      "insomnia-internet-cbt-pain",
-      "insomnia-cbt-sleep-coach",
-      "insomnia-cbt-telemedicine",
-      "insomnia-internet-cbt-breast-cancer",
-      "insomnia-cbt-taichi-late-life",
-      "insomnia-behavior-cognitive-cbt",
-      "insomnia-cbt-menopause-telephone",
-      "insomnia-mbsr-cbt-cancer",
-      "insomnia-sleep-restriction-habit",
-      "insomnia-self-help-book",
-      "insomnia-cbt-online-face-waitlist",
-      "insomnia-cbt-osteoarthritis",
-      "insomnia-cbt-menopause-small",
-      "insomnia-mbct-breast-cancer",
-      "insomnia-mbti-older-adults",
-      "insomnia-taichi-breast-cancer",
-      "insomnia-acupuncture-cbt-cancer",
-      "insomnia-acupuncture-sham-cancer",
-      "insomnia-auricular-acupuncture-null",
-      "insomnia-auricular-acupressure-hemodialysis",
-      "insomnia-self-acupressure-cancer",
-      "insomnia-bright-light-poststroke",
-      "insomnia-morning-light-pilot",
-      "insomnia-aerobic-exercise-elderly",
-      "insomnia-music-older-adults",
-      "insomnia-saffron-supplement",
-      "insomnia-melatonin-age-related",
-      "insomnia-melatonin-older-null"
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
     ],
-    "new_entries": 30,
+    "new_entries": 26,
     "existing_links": 0,
-    "no_evidence_rejects": 904,
-    "non_prescription_topics_available": 30,
-    "non_prescription_topics_processed": 30,
+    "no_evidence_rejects": 572,
+    "non_prescription_topics_available": 26,
+    "non_prescription_topics_processed": 26,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 904,
-    "new_references": 30,
+    "screened_nonqualifying_topics": 572,
+    "new_references": 26,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "17655 entries; 20775 refs; 16805 trial; 754 obs; 16716 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 만성 불면·수면장애 비처방·비약물 후보 30개 주제를 검색했다. 검색 레코드 5952개에서 고유 PMID 2531개를 확인했고 2531개를 요청해 2531개 논문 기록과 2506개 초록을 확보했다. 후보 934개를 선별해 인지행동치료·수면제한·마음챙김·태극권·침술·지압·빛·운동·음악·사프란·멜라토닌 중 직접 비교 수치 또는 유효한 효과크기가 있는 30건을 기록했다. 나머지 904건은 처방약 단독·고찰·관찰연구·2차 분석·프로토콜·중복·수치 부족 또는 불면 결과 분리 불가로 보류했다.",
+    "build": "17681 entries; 20801 refs; 16831 trial; 754 obs; 16742 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차성 생리통의 비처방·비약물 후보를 검색했다. 초기 30개 주제 460개 레코드에 45개 보강 검색 3931개 레코드를 더해 총 4391개 레코드와 고유 PMID 1542개를 확인했고, 1542개를 요청해 1542개 논문 기록과 1509개 초록을 확보했다. 후보 598개를 선별해 뜸·표재침·De Qi 침·팔단금·오메가3·프로바이오틱스·멜라토닌·빛치료·자석·서양톱풀 차·PEA 복합제·붕소·척추교정·고주파·tDCS·허브·교육·테이핑·구아이페네신·발레리안의 직접 비교 수치 또는 효과크기가 있는 26건을 기록했다. 나머지 572건은 처방약 단독·고찰·관찰연구·프로토콜·중복·수치 부족 또는 대상·결과 불일치로 보류했다.",
     "qualified_topics": [
-      "insomnia-digital-cbt-shiftwork",
-      "insomnia-cbt-heart-failure",
-      "insomnia-internet-cbt-pain",
-      "insomnia-cbt-sleep-coach",
-      "insomnia-cbt-telemedicine",
-      "insomnia-internet-cbt-breast-cancer",
-      "insomnia-cbt-taichi-late-life",
-      "insomnia-behavior-cognitive-cbt",
-      "insomnia-cbt-menopause-telephone",
-      "insomnia-mbsr-cbt-cancer",
-      "insomnia-sleep-restriction-habit",
-      "insomnia-self-help-book",
-      "insomnia-cbt-online-face-waitlist",
-      "insomnia-cbt-osteoarthritis",
-      "insomnia-cbt-menopause-small",
-      "insomnia-mbct-breast-cancer",
-      "insomnia-mbti-older-adults",
-      "insomnia-taichi-breast-cancer",
-      "insomnia-acupuncture-cbt-cancer",
-      "insomnia-acupuncture-sham-cancer",
-      "insomnia-auricular-acupuncture-null",
-      "insomnia-auricular-acupressure-hemodialysis",
-      "insomnia-self-acupressure-cancer",
-      "insomnia-bright-light-poststroke",
-      "insomnia-morning-light-pilot",
-      "insomnia-aerobic-exercise-elderly",
-      "insomnia-music-older-adults",
-      "insomnia-saffron-supplement",
-      "insomnia-melatonin-age-related",
-      "insomnia-melatonin-older-null"
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "insomnia-digital-cbt-shiftwork",
-      "insomnia-cbt-heart-failure",
-      "insomnia-internet-cbt-pain",
-      "insomnia-cbt-sleep-coach",
-      "insomnia-cbt-telemedicine",
-      "insomnia-internet-cbt-breast-cancer",
-      "insomnia-cbt-taichi-late-life",
-      "insomnia-behavior-cognitive-cbt",
-      "insomnia-cbt-menopause-telephone",
-      "insomnia-mbsr-cbt-cancer",
-      "insomnia-sleep-restriction-habit",
-      "insomnia-self-help-book",
-      "insomnia-cbt-online-face-waitlist",
-      "insomnia-cbt-osteoarthritis",
-      "insomnia-cbt-menopause-small",
-      "insomnia-mbct-breast-cancer",
-      "insomnia-mbti-older-adults",
-      "insomnia-taichi-breast-cancer",
-      "insomnia-acupuncture-cbt-cancer",
-      "insomnia-acupuncture-sham-cancer",
-      "insomnia-auricular-acupuncture-null",
-      "insomnia-auricular-acupressure-hemodialysis",
-      "insomnia-self-acupressure-cancer",
-      "insomnia-bright-light-poststroke",
-      "insomnia-morning-light-pilot",
-      "insomnia-aerobic-exercise-elderly",
-      "insomnia-music-older-adults",
-      "insomnia-saffron-supplement",
-      "insomnia-melatonin-age-related",
-      "insomnia-melatonin-older-null"
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_vs_warnings_fixed": 6,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_scale_warnings_fixed": 1,
+    "new_entry_scale_warnings_fixed": 0,
     "new_entry_english_warnings_fixed": 0,
     "new_entry_subject_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 16716,
+    "open_numeric_comparisons": 16742,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -669,36 +657,32 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "교대근무자 디지털 인지행동치료=life",
-      "심부전 인지행동치료=life",
-      "만성 통증 인터넷 불면 인지행동치료=life",
-      "노인 수면 코치 인지행동치료=life",
-      "불면 인지행동치료 원격·대면 비교=care",
-      "유방암 생존자 인터넷 인지행동치료=life",
-      "노년 불면 인지행동치료·태극권=move",
-      "만성 불면 행동·인지·통합치료=life",
-      "폐경기 전화 인지행동치료=life",
-      "암 환자 마음챙김 기반 스트레스 감소=life",
-      "불면 수면제한치료=life",
-      "불면 인지행동 자기계발서=life",
-      "불면 온라인·대면 인지행동치료=life",
-      "골관절염 불면 인지행동치료=life",
-      "여성 불면 상담·수면교육=life",
-      "유방암 생존자 마음챙김 인지치료=life",
-      "노인 마음챙김 불면치료=life",
-      "유방암 생존자 태극권=move",
-      "암 생존자 불면 침술=care",
-      "항암 중 불면 침술=care",
-      "불면 귀침술=care",
-      "혈액투석 환자 귀 지압=care",
-      "암 환자 자가 지압=care",
-      "뇌졸중 후 불면 밝은빛치료=care",
-      "불면 아침 밝은빛치료=care",
-      "노인 불면 유산소운동=move",
-      "노인 취침 음악=life",
-      "수면 불편 사프란 보충=supp",
-      "연령 관련 불면 멜라토닌=supp",
-      "고령자 멜라토닌 보충=supp"
+      "일차성 생리통 조절 뜸=care",
+      "일차성 생리통 표재침=care",
+      "일차성 생리통 양측 De Qi 침=care",
+      "일차성 생리통 팔단금 운동=move",
+      "일차성 생리통 오메가3=supp",
+      "일차성 생리통 프로바이오틱스=supp",
+      "생리통 멜라토닌 보조=supp",
+      "일차성 생리통 저강도 빛치료=care",
+      "일차성 생리통 정적 자석=care",
+      "일차성 생리통 서양톱풀 차=food",
+      "일차성 생리통 PEA 복합제=supp",
+      "일차성 생리통 붕소 보충=supp",
+      "일차성 생리통 척추교정 대조시험=care",
+      "일차성 생리통 비침습 고주파=care",
+      "일차성 생리통 경두개 직류자극=care",
+      "일차성 생리통 티우크리움 보충=supp",
+      "생리통 자기조절 교육=life",
+      "일차성 생리통 의료용 테이핑=care",
+      "경련성 생리통 허브 달임물=food",
+      "일차성 생리통 구아이페네신=otc",
+      "일차성 생리통 발레리안=supp",
+      "청소년 생리통 자기조절 교육=life",
+      "일차성 생리통 체외 자기신경자극=care",
+      "일차성 생리통 아리스톨로키아·쿠스투 허브=supp",
+      "생리통 관련 불안 EMDR=care",
+      "일차성 생리통 가정용 tDCS 사용성=care"
     ],
     "targeted_warning_topics_remaining": 467,
     "targeted_warning_topics_fixed": 6,
@@ -710,215 +694,328 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 975,
-    "next_official_deployment_check": "after batch 2031",
+    "next_official_deployment_check": "after batch 2032",
     "topics": [
-      "insomnia-digital-cbt-shiftwork",
-      "insomnia-cbt-heart-failure",
-      "insomnia-internet-cbt-pain",
-      "insomnia-cbt-sleep-coach",
-      "insomnia-cbt-telemedicine",
-      "insomnia-internet-cbt-breast-cancer",
-      "insomnia-cbt-taichi-late-life",
-      "insomnia-behavior-cognitive-cbt",
-      "insomnia-cbt-menopause-telephone",
-      "insomnia-mbsr-cbt-cancer",
-      "insomnia-sleep-restriction-habit",
-      "insomnia-self-help-book",
-      "insomnia-cbt-online-face-waitlist",
-      "insomnia-cbt-osteoarthritis",
-      "insomnia-cbt-menopause-small",
-      "insomnia-mbct-breast-cancer",
-      "insomnia-mbti-older-adults",
-      "insomnia-taichi-breast-cancer",
-      "insomnia-acupuncture-cbt-cancer",
-      "insomnia-acupuncture-sham-cancer",
-      "insomnia-auricular-acupuncture-null",
-      "insomnia-auricular-acupressure-hemodialysis",
-      "insomnia-self-acupressure-cancer",
-      "insomnia-bright-light-poststroke",
-      "insomnia-morning-light-pilot",
-      "insomnia-aerobic-exercise-elderly",
-      "insomnia-music-older-adults",
-      "insomnia-saffron-supplement",
-      "insomnia-melatonin-age-related",
-      "insomnia-melatonin-older-null"
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "40403587",
-      "34657160",
-      "35486418",
-      "27550552",
-      "32658298",
-      "29471478",
-      "25142571",
-      "24865869",
-      "27213646",
-      "24395850",
-      "39185919",
-      "21790620",
-      "26414893",
-      "23711168",
-      "32316886",
-      "32424878",
-      "34193328",
-      "28489508",
-      "31081899",
-      "37101228",
-      "18456940",
-      "35426736",
-      "33855642",
-      "34581703",
-      "37374270",
-      "26537306",
-      "15660547",
-      "34438361",
-      "11600532",
-      "12615559"
+      "42343515",
+      "17378197",
+      "29949331",
+      "38384881",
+      "22261128",
+      "38444064",
+      "34668986",
+      "26797192",
+      "16131292",
+      "26238568",
+      "26233289",
+      "25906949",
+      "10353498",
+      "40759447",
+      "31498389",
+      "26850798",
+      "38555264",
+      "26564807",
+      "30312165",
+      "15243011",
+      "21959068",
+      "40241329",
+      "24853619",
+      "39110054",
+      "35241174",
+      "38696453"
     ],
-    "unique_pmids": 2531,
-    "requested": 2531,
-    "fetched": 2531,
-    "abstracts": 2506,
-    "parsed_abstracts": 2531,
-    "search_candidates": 934,
-    "candidate_parser_parsed": 2531,
-    "candidate_parser_candidates": 934,
-    "candidate_parser_candidates_after_write": 30,
-    "manual_candidates": 30,
+    "unique_pmids": 1542,
+    "requested": 1542,
+    "fetched": 1542,
+    "abstracts": 1509,
+    "parsed_abstracts": 1542,
+    "search_candidates": 598,
+    "candidate_parser_parsed": 1542,
+    "candidate_parser_candidates": 598,
+    "candidate_parser_candidates_after_write": 26,
+    "manual_candidates": 26,
     "search_topic_count": 30,
-    "search_returned_records": 5952,
-    "supplemental_query_count": 15,
+    "search_returned_records": 4391,
+    "supplemental_query_count": 45,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "insomnia-digital-cbt-shiftwork",
-      "insomnia-cbt-heart-failure",
-      "insomnia-internet-cbt-pain",
-      "insomnia-cbt-sleep-coach",
-      "insomnia-cbt-telemedicine",
-      "insomnia-internet-cbt-breast-cancer",
-      "insomnia-cbt-taichi-late-life",
-      "insomnia-behavior-cognitive-cbt",
-      "insomnia-cbt-menopause-telephone",
-      "insomnia-mbsr-cbt-cancer",
-      "insomnia-sleep-restriction-habit",
-      "insomnia-self-help-book",
-      "insomnia-cbt-online-face-waitlist",
-      "insomnia-cbt-osteoarthritis",
-      "insomnia-cbt-menopause-small",
-      "insomnia-mbct-breast-cancer",
-      "insomnia-mbti-older-adults",
-      "insomnia-taichi-breast-cancer",
-      "insomnia-acupuncture-cbt-cancer",
-      "insomnia-acupuncture-sham-cancer",
-      "insomnia-auricular-acupuncture-null",
-      "insomnia-auricular-acupressure-hemodialysis",
-      "insomnia-self-acupressure-cancer",
-      "insomnia-bright-light-poststroke",
-      "insomnia-morning-light-pilot",
-      "insomnia-aerobic-exercise-elderly",
-      "insomnia-music-older-adults",
-      "insomnia-saffron-supplement",
-      "insomnia-melatonin-age-related",
-      "insomnia-melatonin-older-null"
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
     ],
     "categories": {
-      "life": 16,
-      "care": 8,
-      "move": 3,
-      "supp": 3
+      "otc": 1,
+      "supp": 8,
+      "food": 2,
+      "move": 1,
+      "life": 2,
+      "care": 12
     },
     "new_build_warnings": [
-      "주의  insomnia-self-acupressure-cancer — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  insomnia-cbt-menopause-small — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-auricular-acupuncture-null — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-morning-light-pilot — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-age-related — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-older-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [
-      "주의  insomnia-self-acupressure-cancer — 사람 수 미상. 원문을 보고 n 을 채우세요"
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_thin_study_warnings": [
-      "주의  insomnia-cbt-menopause-small — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-auricular-acupuncture-null — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-morning-light-pilot — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-age-related — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-older-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  insomnia-self-acupressure-cancer — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  insomnia-cbt-menopause-small — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-auricular-acupuncture-null — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-morning-light-pilot — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-age-related — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  insomnia-melatonin-older-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "checkpoint_commit": "44b405b1a5203d34e2410b988516c7ff98db5124",
-    "push_marker_commit": "67e02a6539e609ae4a5ab2c432aedf6f74270037",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
     "supplemental_queries": [
       {
-        "topic": "cbti-rct-broad",
-        "returned": 309
+        "topic": "nonpharm-rct",
+        "returned": 26
       },
       {
-        "topic": "internet-cbti-broad",
-        "returned": 72
+        "topic": "menstrual-pain-exercise",
+        "returned": 71
       },
       {
-        "topic": "behavioral-insomnia-older",
-        "returned": 1000
+        "topic": "dysmenorrhoea-acupuncture",
+        "returned": 174
       },
       {
-        "topic": "sleep-restriction-rct",
-        "returned": 76
+        "topic": "dysmenorrhea-acupuncture-sham",
+        "returned": 25
       },
       {
-        "topic": "exercise-insomnia-rct",
-        "returned": 151
+        "topic": "dysmenorrhea-acupressure-sham",
+        "returned": 11
       },
       {
-        "topic": "yoga-insomnia-rct",
-        "returned": 39
+        "topic": "dysmenorrhea-heat-clinical",
+        "returned": 29
       },
       {
-        "topic": "tai-chi-insomnia-rct",
-        "returned": 24
+        "topic": "dysmenorrhea-ginger-placebo",
+        "returned": 6
       },
       {
-        "topic": "acupuncture-insomnia-sham",
-        "returned": 101
+        "topic": "menstrual-pain-ginger",
+        "returned": 17
       },
       {
-        "topic": "acupressure-insomnia-rct",
-        "returned": 64
+        "topic": "dysmenorrhea-fennel-placebo",
+        "returned": 6
       },
       {
-        "topic": "lavender-insomnia-rct",
-        "returned": 12
+        "topic": "dysmenorrhea-vitd-placebo",
+        "returned": 11
       },
       {
-        "topic": "bright-light-insomnia-rct",
-        "returned": 46
+        "topic": "dysmenorrhea-vite-placebo",
+        "returned": 15
       },
       {
-        "topic": "music-insomnia-rct",
-        "returned": 54
+        "topic": "dysmenorrhea-magnesium-supplement",
+        "returned": 3
       },
       {
-        "topic": "weighted-blanket-insomnia-rct",
-        "returned": 5
-      },
-      {
-        "topic": "melatonin-insomnia-rct",
-        "returned": 132
-      },
-      {
-        "topic": "magnesium-insomnia-rct",
+        "topic": "dysmenorrhea-fishoil-placebo",
         "returned": 8
+      },
+      {
+        "topic": "dysmenorrhea-thiamine-placebo",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-aromatherapy-clinical",
+        "returned": 9
+      },
+      {
+        "topic": "dysmenorrhea-rct-broad",
+        "returned": 427
+      },
+      {
+        "topic": "menstrual-cramps-rct",
+        "returned": 913
+      },
+      {
+        "topic": "menstrual-pain-rct",
+        "returned": 846
+      },
+      {
+        "topic": "dysmenorrhea-clinical-trial",
+        "returned": 722
+      },
+      {
+        "topic": "dysmenorrhea-thermal",
+        "returned": 2
+      },
+      {
+        "topic": "dysmenorrhea-massage-rct",
+        "returned": 22
+      },
+      {
+        "topic": "dysmenorrhea-herbal-rct",
+        "returned": 68
+      },
+      {
+        "topic": "dysmenorrhea-essential-oil",
+        "returned": 7
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-b",
+        "returned": 25
+      },
+      {
+        "topic": "dysmenorrhea-traditional-medicine",
+        "returned": 110
+      },
+      {
+        "topic": "dysmenorrhea-moxibustion-rct",
+        "returned": 63
+      },
+      {
+        "topic": "dysmenorrhea-qigong",
+        "returned": 0
+      },
+      {
+        "topic": "dysmenorrhea-pilates",
+        "returned": 3
+      },
+      {
+        "topic": "dysmenorrhea-aquatic",
+        "returned": 1
+      },
+      {
+        "topic": "dysmenorrhea-pelvic-exercise",
+        "returned": 11
+      },
+      {
+        "topic": "dysmenorrhea-ginger-rct",
+        "returned": 7
+      },
+      {
+        "topic": "dysmenorrhea-fennel-rct",
+        "returned": 8
+      },
+      {
+        "topic": "dysmenorrhea-heat-rct",
+        "returned": 20
+      },
+      {
+        "topic": "dysmenorrhea-massage-rct2",
+        "returned": 23
+      },
+      {
+        "topic": "dysmenorrhea-yoga-rct",
+        "returned": 13
+      },
+      {
+        "topic": "dysmenorrhea-pilates-rct",
+        "returned": 3
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-d-rct",
+        "returned": 9
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-e-rct",
+        "returned": 10
+      },
+      {
+        "topic": "dysmenorrhea-magnesium-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-aromatherapy-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-essential-oil-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-relaxation-rct",
+        "returned": 18
+      },
+      {
+        "topic": "dysmenorrhea-behavioral-rct",
+        "returned": 16
+      },
+      {
+        "topic": "dysmenorrhea-acupressure-rct2",
+        "returned": 26
+      },
+      {
+        "topic": "dysmenorrhea-acupuncture-rct2",
+        "returned": 123
       }
     ]
   },
@@ -3986,9 +4083,9 @@
     ]
   },
   "resume": {
-    "next_batch": "2032",
-    "worklist_line": "new-expansion-candidates-batch2032",
-    "topic": "new-expansion-candidates-batch2032",
+    "next_batch": "2033",
+    "worklist_line": "new-expansion-candidates-batch2033",
+    "topic": "new-expansion-candidates-batch2033",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -5283,10 +5380,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 16716,
-  "unknownN": 1257,
-  "thinStudy": 4636,
-  "openNumeric": 16716,
+  "withVs": 16742,
+  "unknownN": 1259,
+  "thinStudy": 4641,
+  "openNumeric": 16742,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -74953,6 +75050,493 @@
       {
         "topic": "laser-tinnitus-rct",
         "returned": 25
+      }
+    ]
+  },
+  "previous_last_batch_2031": {
+    "id": "2032",
+    "commit": "4e3ffbabcedb87611da726cfe4c0330a34d35854",
+    "pushed": false,
+    "expansion_commit": "4e3ffbabcedb87611da726cfe4c0330a34d35854",
+    "data_commits": [
+      "4e3ffbabcedb87611da726cfe4c0330a34d35854"
+    ],
+    "maintenance": false,
+    "processed_topics": 26,
+    "selected_topics": [
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
+    ],
+    "new_entries": 26,
+    "existing_links": 0,
+    "no_evidence_rejects": 572,
+    "non_prescription_topics_available": 26,
+    "non_prescription_topics_processed": 26,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 572,
+    "new_references": 26,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "17681 entries; 20801 refs; 16831 trial; 754 obs; 16742 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차성 생리통의 비처방·비약물 후보를 검색했다. 초기 30개 주제 460개 레코드에 45개 보강 검색 3931개 레코드를 더해 총 4391개 레코드와 고유 PMID 1542개를 확인했고, 1542개를 요청해 1542개 논문 기록과 1509개 초록을 확보했다. 후보 598개를 선별해 뜸·표재침·De Qi 침·팔단금·오메가3·프로바이오틱스·멜라토닌·빛치료·자석·서양톱풀 차·PEA 복합제·붕소·척추교정·고주파·tDCS·허브·교육·테이핑·구아이페네신·발레리안의 직접 비교 수치 또는 효과크기가 있는 26건을 기록했다. 나머지 572건은 처방약 단독·고찰·관찰연구·프로토콜·중복·수치 부족 또는 대상·결과 불일치로 보류했다.",
+    "qualified_topics": [
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 6,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 16742,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "일차성 생리통 조절 뜸=care",
+      "일차성 생리통 표재침=care",
+      "일차성 생리통 양측 De Qi 침=care",
+      "일차성 생리통 팔단금 운동=move",
+      "일차성 생리통 오메가3=supp",
+      "일차성 생리통 프로바이오틱스=supp",
+      "생리통 멜라토닌 보조=supp",
+      "일차성 생리통 저강도 빛치료=care",
+      "일차성 생리통 정적 자석=care",
+      "일차성 생리통 서양톱풀 차=food",
+      "일차성 생리통 PEA 복합제=supp",
+      "일차성 생리통 붕소 보충=supp",
+      "일차성 생리통 척추교정 대조시험=care",
+      "일차성 생리통 비침습 고주파=care",
+      "일차성 생리통 경두개 직류자극=care",
+      "일차성 생리통 티우크리움 보충=supp",
+      "생리통 자기조절 교육=life",
+      "일차성 생리통 의료용 테이핑=care",
+      "경련성 생리통 허브 달임물=food",
+      "일차성 생리통 구아이페네신=otc",
+      "일차성 생리통 발레리안=supp",
+      "청소년 생리통 자기조절 교육=life",
+      "일차성 생리통 체외 자기신경자극=care",
+      "일차성 생리통 아리스톨로키아·쿠스투 허브=supp",
+      "생리통 관련 불안 EMDR=care",
+      "일차성 생리통 가정용 tDCS 사용성=care"
+    ],
+    "targeted_warning_topics_remaining": 467,
+    "targeted_warning_topics_fixed": 6,
+    "discarded_non_numeric_candidates": [],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 975,
+    "next_official_deployment_check": "after batch 2032",
+    "topics": [
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "42343515",
+      "17378197",
+      "29949331",
+      "38384881",
+      "22261128",
+      "38444064",
+      "34668986",
+      "26797192",
+      "16131292",
+      "26238568",
+      "26233289",
+      "25906949",
+      "10353498",
+      "40759447",
+      "31498389",
+      "26850798",
+      "38555264",
+      "26564807",
+      "30312165",
+      "15243011",
+      "21959068",
+      "40241329",
+      "24853619",
+      "39110054",
+      "35241174",
+      "38696453"
+    ],
+    "unique_pmids": 1542,
+    "requested": 1542,
+    "fetched": 1542,
+    "abstracts": 1509,
+    "parsed_abstracts": 1542,
+    "search_candidates": 598,
+    "candidate_parser_parsed": 1542,
+    "candidate_parser_candidates": 598,
+    "candidate_parser_candidates_after_write": 26,
+    "manual_candidates": 26,
+    "search_topic_count": 30,
+    "search_returned_records": 4391,
+    "supplemental_query_count": 45,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "dysmenorrhea-yinyang-moxibustion-null",
+      "dysmenorrhea-superficial-needling-pos",
+      "dysmenorrhea-deqi-needling-pos",
+      "dysmenorrhea-baduanjin-pos",
+      "dysmenorrhea-omega3-pos",
+      "dysmenorrhea-probiotic-null",
+      "dysmenorrhea-melatonin-null",
+      "dysmenorrhea-low-level-light-pos",
+      "dysmenorrhea-static-magnet-pos",
+      "dysmenorrhea-achillea-tea-pos",
+      "dysmenorrhea-pea-transpolydatin-pos",
+      "dysmenorrhea-boron-pos",
+      "dysmenorrhea-spinal-manipulation-10353498-null",
+      "dysmenorrhea-radiofrequency-pos",
+      "dysmenorrhea-tdcs-pos",
+      "dysmenorrhea-teucrium-null",
+      "dysmenorrhea-psychoeducation-pos",
+      "dysmenorrhea-medical-taping-pos",
+      "dysmenorrhea-herbal-decoction-pos",
+      "dysmenorrhea-guaifenesin-null",
+      "dysmenorrhea-valerian-pos",
+      "dysmenorrhea-psychoeducation-adolescent-pos",
+      "dysmenorrhea-magnetic-innervation-null",
+      "dysmenorrhea-aristolochia-qust-pos",
+      "dysmenorrhea-emdr-null",
+      "dysmenorrhea-home-tdcs-usability-null"
+    ],
+    "categories": {
+      "otc": 1,
+      "supp": 8,
+      "food": 2,
+      "move": 1,
+      "life": 2,
+      "care": 12
+    },
+    "new_build_warnings": [
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
+    "new_thin_study_warnings": [
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  dysmenorrhea-achillea-tea-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-aristolochia-qust-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  dysmenorrhea-melatonin-null — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-radiofrequency-pos — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-tdcs-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-guaifenesin-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-home-tdcs-usability-null — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "supplemental_queries": [
+      {
+        "topic": "nonpharm-rct",
+        "returned": 26
+      },
+      {
+        "topic": "menstrual-pain-exercise",
+        "returned": 71
+      },
+      {
+        "topic": "dysmenorrhoea-acupuncture",
+        "returned": 174
+      },
+      {
+        "topic": "dysmenorrhea-acupuncture-sham",
+        "returned": 25
+      },
+      {
+        "topic": "dysmenorrhea-acupressure-sham",
+        "returned": 11
+      },
+      {
+        "topic": "dysmenorrhea-heat-clinical",
+        "returned": 29
+      },
+      {
+        "topic": "dysmenorrhea-ginger-placebo",
+        "returned": 6
+      },
+      {
+        "topic": "menstrual-pain-ginger",
+        "returned": 17
+      },
+      {
+        "topic": "dysmenorrhea-fennel-placebo",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-vitd-placebo",
+        "returned": 11
+      },
+      {
+        "topic": "dysmenorrhea-vite-placebo",
+        "returned": 15
+      },
+      {
+        "topic": "dysmenorrhea-magnesium-supplement",
+        "returned": 3
+      },
+      {
+        "topic": "dysmenorrhea-fishoil-placebo",
+        "returned": 8
+      },
+      {
+        "topic": "dysmenorrhea-thiamine-placebo",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-aromatherapy-clinical",
+        "returned": 9
+      },
+      {
+        "topic": "dysmenorrhea-rct-broad",
+        "returned": 427
+      },
+      {
+        "topic": "menstrual-cramps-rct",
+        "returned": 913
+      },
+      {
+        "topic": "menstrual-pain-rct",
+        "returned": 846
+      },
+      {
+        "topic": "dysmenorrhea-clinical-trial",
+        "returned": 722
+      },
+      {
+        "topic": "dysmenorrhea-thermal",
+        "returned": 2
+      },
+      {
+        "topic": "dysmenorrhea-massage-rct",
+        "returned": 22
+      },
+      {
+        "topic": "dysmenorrhea-herbal-rct",
+        "returned": 68
+      },
+      {
+        "topic": "dysmenorrhea-essential-oil",
+        "returned": 7
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-b",
+        "returned": 25
+      },
+      {
+        "topic": "dysmenorrhea-traditional-medicine",
+        "returned": 110
+      },
+      {
+        "topic": "dysmenorrhea-moxibustion-rct",
+        "returned": 63
+      },
+      {
+        "topic": "dysmenorrhea-qigong",
+        "returned": 0
+      },
+      {
+        "topic": "dysmenorrhea-pilates",
+        "returned": 3
+      },
+      {
+        "topic": "dysmenorrhea-aquatic",
+        "returned": 1
+      },
+      {
+        "topic": "dysmenorrhea-pelvic-exercise",
+        "returned": 11
+      },
+      {
+        "topic": "dysmenorrhea-ginger-rct",
+        "returned": 7
+      },
+      {
+        "topic": "dysmenorrhea-fennel-rct",
+        "returned": 8
+      },
+      {
+        "topic": "dysmenorrhea-heat-rct",
+        "returned": 20
+      },
+      {
+        "topic": "dysmenorrhea-massage-rct2",
+        "returned": 23
+      },
+      {
+        "topic": "dysmenorrhea-yoga-rct",
+        "returned": 13
+      },
+      {
+        "topic": "dysmenorrhea-pilates-rct",
+        "returned": 3
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-d-rct",
+        "returned": 9
+      },
+      {
+        "topic": "dysmenorrhea-vitamin-e-rct",
+        "returned": 10
+      },
+      {
+        "topic": "dysmenorrhea-magnesium-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-aromatherapy-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-essential-oil-rct",
+        "returned": 6
+      },
+      {
+        "topic": "dysmenorrhea-relaxation-rct",
+        "returned": 18
+      },
+      {
+        "topic": "dysmenorrhea-behavioral-rct",
+        "returned": 16
+      },
+      {
+        "topic": "dysmenorrhea-acupressure-rct2",
+        "returned": 26
+      },
+      {
+        "topic": "dysmenorrhea-acupuncture-rct2",
+        "returned": 123
       }
     ]
   }
