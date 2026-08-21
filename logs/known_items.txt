@@ -13539,3 +13539,20 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 1312b0dcba221c750f83c59a55c62a69c1458aff
 - search scope: PubMed E-utilities and EFetch only; chronic subjective tinnitus nonprescription and non-drug candidates; no browser or ClinicalTrials.gov-only records used; supplemental searches covered broader CBT, sound enrichment, hearing aids, bimodal neuromodulation, acupuncture, Ginkgo, melatonin, mindfulness, music therapy, and laser queries
 - next_batch: 2031; resume point: new-expansion-candidates-batch2031
+
+## Batch 2031 — 만성 불면·수면장애 비처방·비약물 후보
+- topics: 30 selected; non-prescription selected 30; prescription selected 0
+- search: 5952 records; 2531 unique PMID; 15 supplemental queries; candidate parser 934; selected 30; held/excluded 904
+- fetch: requested 2531; fetched 2531; abstracts 2506; missing 0
+- selected PMID: 40403587, 34657160, 35486418, 27550552, 32658298, 29471478, 25142571, 24865869, 27213646, 24395850, 39185919, 21790620, 26414893, 23711168, 32316886, 32424878, 34193328, 28489508, 31081899, 37101228, 18456940, 35426736, 33855642, 34581703, 37374270, 26537306, 15660547, 34438361, 11600532, 12615559
+- new entries: 30; existing links 0; categories life 16, care 8, move 3, supp 3
+- evidence: digital and telephone CBT, sleep coaches, telemedicine, self-help, sleep restriction, mindfulness, Tai Chi, acupuncture, acupressure, bright light, aerobic exercise, music, saffron, and melatonin; each selected PMID had direct numeric group results or a valid effect size in the PubMed abstract
+- excluded/held: prescription-only or inseparable medication studies, reviews and meta-analyses, protocols, observational and secondary analyses, nonrandomized studies, animal studies, duplicate PMID, and candidates without sufficient direct numeric comparison or effect size
+- validator: etc/validate2031.mjs passed; 30 files, 30 unique PMID, errors 0, warnings 0; unknown-n 1 (insomnia-self-acupressure-cancer); truthful thin-study 5 (insomnia-cbt-menopause-small n=44, insomnia-auricular-acupuncture-null n=28, insomnia-morning-light-pilot n=14, insomnia-melatonin-age-related n=30, insomnia-melatonin-older-null n=40)
+- build: node build.mjs exit 0; errors 0; new comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 1; English warnings fixed 0; subject warnings fixed 0; truthful new warnings 6; targeted remaining 467
+- totals after batch: entries 17655; subjects 10715; refs 20775; numeric group-comparison entries 16716; unknown-n 1257; thin-study 4636
+- data commit: 12f5d5f44f43833cbc334119667f358a92a09ea2
+- PUSHED=false checkpoint: 44b405b1a5203d34e2410b988516c7ff98db5124
+- PUSHED=true marker: 67e02a6539e609ae4a5ab2c432aedf6f74270037
+- search scope: PubMed E-utilities and EFetch only; chronic insomnia and sleep-disorder nonprescription and non-drug candidates; no browser or ClinicalTrials.gov-only records used; supplemental searches covered CBT-I, sleep restriction, exercise, yoga, Tai Chi, acupuncture, acupressure, lavender, bright light, music, weighted blankets, melatonin, and magnesium
+- next_batch: 2032; resume point: new-expansion-candidates-batch2032
