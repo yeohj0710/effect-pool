@@ -14113,3 +14113,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: c33df8b74
 - PUSHED=true marker: 46cd30370
 - next_batch: 2060; resume point: new-expansion-candidates-batch2060
+
+## Batch 2060 — 아토피피부염 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 1639 records; 959 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 959; chunks 20; fetched 959; abstracts 915; missing 0
+- candidates: parser 368; selected 30; held/excluded 338
+- selected PMID: 19843084, 19508310, 28333952, 15245526, 32947459, 16766330, 28182252, 33730257, 42359599, 21358807, 19103360, 10651692, 37814388, 15149512, 12000479, 19397561, 29445852, 17919141, 39275147, 16019622, 9244815, 20545710, 18077922, 15793525, 9560837, 19462320, 12588384, 22560125, 36882111, 18795916
+- new IDs and PMID: ad-triclosan-emollient-2060-19843084=19843084, ad-urea-moisturizer-2060-19508310=19508310, ad-om85-2060-28333952=28333952, ad-wet-wrap-2060-15245526=15245526, ad-otc-moisturizer-2060-32947459=32947459, ad-exomega-2060-16766330=16766330, ad-merino-wool-2060-28182252=28182252, ad-probiotic-bath-2060-33730257=33730257, ad-reduced-bathing-2060-42359599=42359599, ad-water-softener-2060-21358807=21358807, ad-nbuvb-uva1-2060-19103360=19103360, ad-bath-puva-2060-10651692=10651692, ad-blue-light-2060-37814388=37814388, ad-vitaminb12-2060-15149512=15149512, ad-parent-training-2060-12000479=12000479, ad-eczema-workshop-2060-19397561=19397561, ad-adult-education-2060-29445852=29445852, ad-lgg-2060-17919141=17919141, ad-omega-gla-2060-39275147=39275147, ad-hempseed-oil-2060-16019622=16019622, ad-borage-oil-2060-9244815=9244815, ad-blackcurrant-oil-2060-20545710=20545710, ad-herbal-ointment-2060-18077922=18077922, ad-triherbal-2060-15793525=15793525, ad-egg-elimination-2060-9560837=9560837, ad-mares-milk-2060-19462320=19462320, ad-autohemotherapy-2060-12588384=12588384, ad-polypodium-2060-22560125=22560125, ad-homeopathy-2060-36882111=36882111, ad-vitreoscilla-2060-18795916=18795916
+- categories: care 14, supp 7, life 5, food 3, otc 1, move 0, rx 0
+- evidence: 보습제·습포·의류·프로바이오틱 목욕·자외선비·광화학치료·청색광·비타민비 크림·자가혈액치료·비트레오실라 용해물, 부모·환자 교육과 목욕감소, 유산균·세균용해물·양치식물·보리지유·블랙커런트씨유, 오메가삼·대마씨유·마유·달걀 제외식을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 338건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2060.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects and titles, errors 0, warnings 0; unknown-n 1 (ad-hempseed-oil-2060-16019622); truthful thin-study 12 (ad-urea-moisturizer-2060-19508310 n=44, ad-wet-wrap-2060-15245526 n=19, ad-otc-moisturizer-2060-32947459 n=20, ad-merino-wool-2060-28182252 n=39, ad-probiotic-bath-2060-33730257 n=22, ad-nbuvb-uva1-2060-19103360 n=13, ad-bath-puva-2060-10651692 n=12, ad-vitaminb12-2060-15149512 n=49, ad-borage-oil-2060-9244815 n=24, ad-triherbal-2060-15793525 n=49, ad-mares-milk-2060-19462320 n=23, ad-autohemotherapy-2060-12588384 n=31)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 13; comparator warnings fixed 3; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 13
+- totals after batch: entries 18500; subjects 11527; refs 21620; numeric group-comparison entries 17561; unknown-n 1279; thin-study 4748
+- data commit: 510ea3d2a
+- PUSHED=false checkpoint: f30458f27
+- PUSHED=true marker: 3a6ddb75f
+- next_batch: 2061; resume point: new-expansion-candidates-batch2061
