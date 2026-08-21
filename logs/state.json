@@ -2,28 +2,28 @@
   "updated": "2026-08-22",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 18380,
-  "subjects": 11414,
-  "refs": 21500,
+  "entries": 18410,
+  "subjects": 11442,
+  "refs": 21530,
   "kinds": {
     "otc": 532,
     "supp": 2518,
     "food": 1473,
-    "move": 2807,
-    "life": 2463,
-    "care": 5898,
+    "move": 2831,
+    "life": 2464,
+    "care": 5903,
     "rx": 2689
   },
   "tiers": {
-    "trial": 17530,
+    "trial": 17560,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 12614,
-    "null": 4083,
+    "pos": 12643,
+    "null": 4084,
     "open": 1454,
     "harm": 229
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2056는 류마티스관절염의 운동·교육·온라인 자가관리·물리치료·보충제 직접 근거 30건을 기록했다. Resume with batch 2057."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2057는 파킨슨병의 운동·재활·행동중재 직접 근거 30건을 기록했다. Resume with batch 2058."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 975,
-    "note": "Batch 2056는 비처방 후보 50개 검색에서 비교 수치·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. Resume with batch 2057."
+    "note": "Batch 2057는 파킨슨병 비처방 후보 50개 검색에서 비교 수치·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. Resume with batch 2058."
   },
   "checkpoints": {
     "over_counter_share": "24.6% (4523 entries)",
     "rx_share": "14.6% (2689)",
-    "no_effect_or_harm_share": "23.5% (4312 entries)",
-    "vs_share": "94.9% (17441)",
+    "no_effect_or_harm_share": "23.4% (4313 entries)",
+    "vs_share": "94.9% (17471)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.4% (17530)",
+    "trial_share": "95.4% (17560)",
     "non_trial_share": "4.6% (850 entries)",
     "build_warnings": {
       "unknown_n": 1278,
-      "thin_study": 4878,
-      "targeted_batch_warnings": 11
+      "thin_study": 4933,
+      "targeted_batch_warnings": 15
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2056 data commit 76a445a98; PUSHED=false checkpoint 8d8af095a; PUSHED=true marker 3bae99a3a; known_items 1ef7fdfe7 are on origin/main. Resume with fresh non-prescription batch 2057.",
+  "next": "Batch 2057 data commit 31ff34ca2; PUSHED=false checkpoint pending; PUSHED=true marker pending; known_items pending. Resume with fresh non-prescription batch 2058.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -616,7 +616,7 @@
     "build_error_lines": 0,
     "build_warning_log": ["주의  cervicogenic-headache-triggerpoint-2055-23845200 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  insomnia-computer-cbt-2055-27784409 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  insomnia-digital-cbti-comisa-2055-40557787 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  insomnia-melissa-phytosome-2055-39683592 — 사람 수 미상. 원문을 보고 n 을 채우세요", "주의  insomnia-minimal-cbti-cancer-2055-25746777 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  insomnia-probiotic-bifidobacterium-2055-37960353 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  low-back-acupuncture-placebo-2055-20075014 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  low-back-acupuncture-sensory-2055-24021562 — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  low-back-deep-tissue-massage-2055-41270086 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  low-back-gua-sha-2055-40922243 — 사람 32명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"]
   },
-  "last_batch": {
+  "previous_last_batch_2056": {
     "id": "2056",
     "commit": "76a445a98",
     "pushed": true,
@@ -673,6 +673,64 @@
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": ["주의  ra-active-breaks-2056-34693756 — 사람 15명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-coq10-2056-26342738 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-creatine-2056-26414681 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-curcumin-2056-35178811 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-knee-muscle-training-2056-10368839 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-moderate-exercise-2056-24719046 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-nerve-mobilization-2056-28933133 — 사람 12명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-pool-exercise-2056-15728422 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-smartphone-hiit-2056-34673536 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-supervised-aerobic-2056-19363565 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  ra-wrist-orthosis-2056-9598884 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"]
+  },
+  "last_batch": {
+    "id": "2057",
+    "commit": "31ff34ca2",
+    "pushed": false,
+    "expansion_commit": "31ff34ca2",
+    "data_commits": ["31ff34ca2"],
+    "checkpoint_commit": "PENDING",
+    "push_marker_commit": null,
+    "known_items_commit": null,
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "parkinson-aerobic-brain-2057-34951063", "parkinson-mindful-yoga-2057-30958514", "parkinson-progressive-resistance-2057-23536417", "parkinson-dual-task-executive-2057-39164804", "parkinson-tai-chi-aerobic-2057-38888734", "parkinson-balance-brisk-walk-2057-38866225", "parkinson-brisk-walk-balance-2057-33967056", "parkinson-home-exergame-2057-37691341", "parkinson-emst-swallow-2057-21098406", "parkinson-tdcs-vr-treadmill-2057-39342307", "parkinson-three-exercise-2057-23128427", "parkinson-exergame-upper-limb-2057-38182919", "parkinson-balance-vs-resistance-2057-27879959", "parkinson-vr-telerehab-2057-29333454", "parkinson-dual-task-gait-2057-40610273", "parkinson-lsvt-big-hand-2057-36133576", "parkinson-emst-dysphagia-2057-33650729", "parkinson-rhythmic-auditory-falls-2057-30033755", "parkinson-action-imagery-2057-34286884", "parkinson-tai-chi-symptoms-2057-31665879", "parkinson-periodized-resistance-2057-33927114", "parkinson-sensory-exercise-anxiety-2057-32298270", "parkinson-upper-limb-exercise-2057-41452680", "parkinson-exercise-cognition-2057-26148003", "parkinson-high-intensity-bootcamp-2057-30531382", "parkinson-task-specific-turning-2057-35717662", "parkinson-home-treadmill-2057-22257506", "parkinson-three-modal-exercise-2057-29337023", "parkinson-resistance-anxiety-2057-30231121", "parkinson-delivery-exercise-2057-26308937"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 929,
+    "non_prescription_topics_available": 50,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 929,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "18410 entries; 21530 refs; 17560 trial; 754 obs; 17471 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 파킨슨병 비처방 후보 50개를 검색했다. 7212개 검색 레코드와 고유 PMID 2490개를 확인했고 2490개를 요청해 2490개 논문 기록과 2455개 초록을 확보했다. 후보 parser 959건 중 운동·재활·행동중재의 중재군과 대조군 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 929건은 중복·고찰·프로토콜·관찰·사례·수치 부족·대상 불일치·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 n<50 연구 15건은 원문 수치대로 경고를 유지했고, 비교군·효과 길이·줄 길이·영문 주어 경고를 수정했다.",
+    "qualified_topics": ["parkinson-exercise", "parkinson-aerobic", "parkinson-resistance", "parkinson-treadmill", "parkinson-cycling", "parkinson-walking", "parkinson-dance", "parkinson-tango", "parkinson-tai-chi", "parkinson-qigong", "parkinson-yoga", "parkinson-mindfulness", "parkinson-cbt", "parkinson-music", "parkinson-speech", "parkinson-occupational", "parkinson-physiotherapy", "parkinson-balance", "parkinson-cueing", "parkinson-virtual-reality", "parkinson-exergaming", "parkinson-boxing", "parkinson-nordic-walking", "parkinson-home-exercise", "parkinson-telerehab", "parkinson-dual-task", "parkinson-gait-training", "parkinson-fall-prevention", "parkinson-sleep", "parkinson-fatigue", "parkinson-diet", "parkinson-mediterranean", "parkinson-ketogenic", "parkinson-probiotic", "parkinson-vitamin-d", "parkinson-omega3", "parkinson-coq10", "parkinson-creatine", "parkinson-aquatic", "parkinson-hydrotherapy", "parkinson-massage", "parkinson-acupuncture", "parkinson-tens", "parkinson-tdcs", "parkinson-vagus", "parkinson-wearable", "parkinson-smartphone", "parkinson-caregiver-education", "parkinson-relaxation", "parkinson-breathing"],
+    "new_entry_ids": ["parkinson-aerobic-brain-2057-34951063", "parkinson-mindful-yoga-2057-30958514", "parkinson-progressive-resistance-2057-23536417", "parkinson-dual-task-executive-2057-39164804", "parkinson-tai-chi-aerobic-2057-38888734", "parkinson-balance-brisk-walk-2057-38866225", "parkinson-brisk-walk-balance-2057-33967056", "parkinson-home-exergame-2057-37691341", "parkinson-emst-swallow-2057-21098406", "parkinson-tdcs-vr-treadmill-2057-39342307", "parkinson-three-exercise-2057-23128427", "parkinson-exergame-upper-limb-2057-38182919", "parkinson-balance-vs-resistance-2057-27879959", "parkinson-vr-telerehab-2057-29333454", "parkinson-dual-task-gait-2057-40610273", "parkinson-lsvt-big-hand-2057-36133576", "parkinson-emst-dysphagia-2057-33650729", "parkinson-rhythmic-auditory-falls-2057-30033755", "parkinson-action-imagery-2057-34286884", "parkinson-tai-chi-symptoms-2057-31665879", "parkinson-periodized-resistance-2057-33927114", "parkinson-sensory-exercise-anxiety-2057-32298270", "parkinson-upper-limb-exercise-2057-41452680", "parkinson-exercise-cognition-2057-26148003", "parkinson-high-intensity-bootcamp-2057-30531382", "parkinson-task-specific-turning-2057-35717662", "parkinson-home-treadmill-2057-22257506", "parkinson-three-modal-exercise-2057-29337023", "parkinson-resistance-anxiety-2057-30231121", "parkinson-delivery-exercise-2057-26308937"],
+    "existing_linked_entries": [],
+    "warning_fix_counts": {"vs": 10, "effect": 5, "line": 7, "scale": 0, "english": 1, "subject": 0, "translation": 0, "targeted_fixed": 23, "targeted_remaining": 15},
+    "open_numeric_comparisons": 17471,
+    "no_renames_or_reclassifications": [],
+    "new_subject_categories": ["파킨슨병 유산소운동 뇌기능=move", "파킨슨병 마음챙김 요가=move", "파킨슨병 이중과제 보행훈련=move", "초기 파킨슨병 태극권·유산소운동=move", "파킨슨병 균형·빠른걷기=move", "파킨슨병 지역사회 빠른걷기=move", "파킨슨병 가정용 게임운동=move", "파킨슨병 호기근 근력훈련=care", "파킨슨병 소뇌 직류자극·증강현실 보행=care", "파킨슨병 트레드밀·저항운동=move", "파킨슨병 상지 게임운동=move", "파킨슨병 균형 대 저항운동=move", "파킨슨병 가상현실 원격재활=care", "파킨슨병 이중과제 보폭훈련=move", "파킨슨병 과제형 대동작치료=care", "파킨슨병 호기근 삼킴훈련=care", "파킨슨병 리듬청각 보행훈련=life", "파킨슨병 동작관찰·운동심상=move", "경증 파킨슨병 단순 태극권=move", "파킨슨병 주기화 저항운동=move", "파킨슨병 감각집중 운동=move", "파킨슨병 상지 운동=move", "파킨슨병 저항·기능운동 인지=move", "파킨슨병 고강도 다중운동=move", "파킨슨병 과제특이 회전운동=move", "경증 파킨슨병 가정 트레드밀=move", "노인 파킨슨병 기능·자전거·게임운동=move", "노인 파킨슨병 저항운동=move", "파킨슨병 개인·집단·가정운동=move"],
+    "new_pmids": ["34951063", "30958514", "23536417", "39164804", "38888734", "38866225", "33967056", "37691341", "21098406", "39342307", "23128427", "38182919", "27879959", "29333454", "40610273", "36133576", "33650729", "30033755", "34286884", "31665879", "33927114", "32298270", "41452680", "26148003", "30531382", "35717662", "22257506", "29337023", "30231121", "26308937"],
+    "unique_pmids": 2490,
+    "requested_pmids": 2490,
+    "fetched_pmids": 2490,
+    "fetch_chunks": 50,
+    "abstracts": 2455,
+    "search_candidates": 959,
+    "candidate_parser_parsed": 2490,
+    "candidate_parser_candidates": 959,
+    "after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 50,
+    "search_records": 7212,
+    "supplemental_queries": 20,
+    "missing_pmids": 0,
+    "non_prescription_entry_ids": ["parkinson-aerobic-brain-2057-34951063", "parkinson-mindful-yoga-2057-30958514", "parkinson-progressive-resistance-2057-23536417", "parkinson-dual-task-executive-2057-39164804", "parkinson-tai-chi-aerobic-2057-38888734", "parkinson-balance-brisk-walk-2057-38866225", "parkinson-brisk-walk-balance-2057-33967056", "parkinson-home-exergame-2057-37691341", "parkinson-emst-swallow-2057-21098406", "parkinson-tdcs-vr-treadmill-2057-39342307", "parkinson-three-exercise-2057-23128427", "parkinson-exergame-upper-limb-2057-38182919", "parkinson-balance-vs-resistance-2057-27879959", "parkinson-vr-telerehab-2057-29333454", "parkinson-dual-task-gait-2057-40610273", "parkinson-lsvt-big-hand-2057-36133576", "parkinson-emst-dysphagia-2057-33650729", "parkinson-rhythmic-auditory-falls-2057-30033755", "parkinson-action-imagery-2057-34286884", "parkinson-tai-chi-symptoms-2057-31665879", "parkinson-periodized-resistance-2057-33927114", "parkinson-sensory-exercise-anxiety-2057-32298270", "parkinson-upper-limb-exercise-2057-41452680", "parkinson-exercise-cognition-2057-26148003", "parkinson-high-intensity-bootcamp-2057-30531382", "parkinson-task-specific-turning-2057-35717662", "parkinson-home-treadmill-2057-22257506", "parkinson-three-modal-exercise-2057-29337023", "parkinson-resistance-anxiety-2057-30231121", "parkinson-delivery-exercise-2057-26308937"],
+    "new_build_warnings": ["주의  parkinson-action-imagery-2057-34286884 — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-balance-vs-resistance-2057-27879959 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-dual-task-executive-2057-39164804 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-dual-task-gait-2057-40610273 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-exergame-upper-limb-2057-38182919 — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-high-intensity-bootcamp-2057-30531382 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-home-treadmill-2057-22257506 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-lsvt-big-hand-2057-36133576 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-periodized-resistance-2057-33927114 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-resistance-anxiety-2057-30231121 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-sensory-exercise-anxiety-2057-32298270 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-tai-chi-symptoms-2057-31665879 — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-task-specific-turning-2057-35717662 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-tdcs-vr-treadmill-2057-39342307 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-upper-limb-exercise-2057-41452680 — 사람 37명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": ["parkinson-action-imagery-2057-34286884:25", "parkinson-balance-vs-resistance-2057-27879959:40", "parkinson-dual-task-executive-2057-39164804:28", "parkinson-dual-task-gait-2057-40610273:28", "parkinson-exergame-upper-limb-2057-38182919:23", "parkinson-high-intensity-bootcamp-2057-30531382:27", "parkinson-home-treadmill-2057-22257506:20", "parkinson-lsvt-big-hand-2057-36133576:14", "parkinson-periodized-resistance-2057-33927114:35", "parkinson-resistance-anxiety-2057-30231121:35", "parkinson-sensory-exercise-anxiety-2057-32298270:35", "parkinson-tai-chi-symptoms-2057-31665879:41", "parkinson-task-specific-turning-2057-35717662:22", "parkinson-tdcs-vr-treadmill-2057-39342307:17", "parkinson-upper-limb-exercise-2057-41452680:37"],
+    "validator_truthful_thin_studies": ["parkinson-action-imagery-2057-34286884:25", "parkinson-balance-vs-resistance-2057-27879959:40", "parkinson-dual-task-executive-2057-39164804:28", "parkinson-dual-task-gait-2057-40610273:28", "parkinson-exergame-upper-limb-2057-38182919:23", "parkinson-high-intensity-bootcamp-2057-30531382:27", "parkinson-home-treadmill-2057-22257506:20", "parkinson-lsvt-big-hand-2057-36133576:14", "parkinson-periodized-resistance-2057-33927114:35", "parkinson-resistance-anxiety-2057-30231121:35", "parkinson-sensory-exercise-anxiety-2057-32298270:35", "parkinson-tai-chi-symptoms-2057-31665879:41", "parkinson-task-specific-turning-2057-35717662:22", "parkinson-tdcs-vr-treadmill-2057-39342307:17", "parkinson-upper-limb-exercise-2057-41452680:37"],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": ["주의  parkinson-action-imagery-2057-34286884 — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-balance-vs-resistance-2057-27879959 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-dual-task-executive-2057-39164804 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-dual-task-gait-2057-40610273 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-exergame-upper-limb-2057-38182919 — 사람 23명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-high-intensity-bootcamp-2057-30531382 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-home-treadmill-2057-22257506 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-lsvt-big-hand-2057-36133576 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-periodized-resistance-2057-33927114 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-resistance-anxiety-2057-30231121 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-sensory-exercise-anxiety-2057-32298270 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-tai-chi-symptoms-2057-31665879 — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-task-specific-turning-2057-35717662 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-tdcs-vr-treadmill-2057-39342307 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다", "주의  parkinson-upper-limb-exercise-2057-41452680 — 사람 37명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"]
   },
   "previous_last_batch_2054": {
     "id": "2054",
@@ -4271,9 +4329,9 @@
     ]
   },
   "resume": {
-    "next_batch": "2057",
-    "worklist_line": "new-expansion-candidates-batch2057",
-    "topic": "new-expansion-candidates-batch2057",
+    "next_batch": "2058",
+    "worklist_line": "new-expansion-candidates-batch2058",
+    "topic": "new-expansion-candidates-batch2058",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
