@@ -13506,3 +13506,19 @@ batch1993_resume=next_batch=1994; worklist_line=new-expansion-candidates-batch19
 - selected evidence: internet and in-person cough suppression, speech and voice therapy, physiotherapy and speech therapy, cough desensitization, mindfulness, home video practice, diaphragmatic breathing, nasal saline, inhaled salt, chronic cough management education, behavioral speech therapy, lung-cancer symptom rehabilitation, bronchiectasis pulmonary rehabilitation and airway clearance, high-frequency chest-wall oscillation, ELTGOL, COPD airway-clearance devices, saline and pulmonary rehabilitation, and acute COPD respiratory rehabilitation; each selected record had direct comparative numeric or valid relative-effect information in the abstract
 - excluded/held: prescription-only or inseparable medication studies, reviews and meta-analyses, protocols, observational and secondary analyses, diagnostic or mechanistic studies, animal studies, duplicate PMID, mixed populations without separable cough or respiratory outcomes, and candidates without sufficient direct numeric comparison
 - next_batch: 2029; resume point: new-expansion-candidates-batch2029
+
+Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
+- topics: 30 selected; non-prescription selected 30; prescription selected 0
+- search: 1330 records; 333 unique PMID; 37 supplemental queries; candidate parser 53; manually reviewed candidate pool 61; selected 30; held/excluded 31
+- fetch: requested 333; fetched 333; abstracts 330; missing 0
+- selected PMID: 10229979, 18594748, 19388861, 20537762, 22521235, 24574085, 28501886, 28558139, 30536161, 32460989, 32563787, 32852889, 35638864, 8739868, 34397104, 27267518, 18598831, 38189966, 18972900, 22379743, 29178954, 21518647, 30274540, 24717957, 28635218, 15907672, 18983380, 23714166, 21997904, 27935259
+- new entries: 30; existing links 0; categories care 23, otc 4, food 3
+- evidence: alkaline nasal douching, thermal water inhalation and irrigation, acupuncture, saline olfaction safety, rhinophototherapy, surfactant irrigation safety, mineral and hyaluronic irrigation, povidone-iodine, manuka honey, saline delivery, postoperative irrigation, hypertonic saline, dexpanthenol, colloidal silver, xylitol, electrolyzed acid water, nursing intervention; each selected PMID had direct group numbers, p-values, confidence interval, or valid relative effect in the abstract
+- excluded/held: reviews and meta-analyses, observational studies, protocols, surgery-only comparisons, prescription-only studies, inseparable prescription cointerventions, acute-only disease, duplicate PMID, and records without sufficient numeric comparison
+- validator: etc/validate2029.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects; errors 0; warnings 0; unknown-n 0; truthful thin-study 12 (vasomotor-rhinitis-acupuncture-pos n=24, saline-irrigation-olfaction-null n=32, surfactant-nasal-irrigation-harm n=33, hyaluronic-acid-crs-irrigation-null n=30, manuka-honey-cf-crs-irrigation-pos n=13, large-volume-irrigation-crs-pos n=38, postethmoidectomy-seawater-irrigation-null n=20, colloidal-silver-crs-null n=22, manuka-honey-afrs-null n=34, postop-saline-douching-pos n=23, postop-high-volume-saline-pos n=31, manuka-honey-crs-irrigation-null n=42)
+- build: node build.mjs exit 0; errors 0; new comparator warnings fixed 6; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; truthful new warnings 12; targeted remaining 496
+- totals after batch: entries 17595; subjects 10657; refs 20715; numeric group-comparison entries 16656; unknown-n 1256; thin-study 4616
+- data commit: 8a8c9601
+- PUSHED=false checkpoint: 09a29121
+- PUSHED=true marker: 7ec673565e062b930ecafad263fe53073df983cf
+- next_batch: 2030; resume point: new-expansion-candidates-batch2030
