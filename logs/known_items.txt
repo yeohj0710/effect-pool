@@ -14017,6 +14017,26 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - search scope: PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다. 저포드맵·식이·식이섬유·프로바이오틱·신바이오틱·식품 보충·운동·요가·마음챙김·CBT·최면·침술·이완·자기관리·교육·디지털·심리치료·기능성 설사·소아 IBS·식품불내성 후보를 검색했다.
 - next_batch: 2055; resume point: new-expansion-candidates-batch2055
 
+## Batch 2056 — 류마티스관절염 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 3947 records; 1943 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 1943; chunks 39; fetched 1943; abstracts 1891; missing 0
+- candidates: parser 701; selected 30; held/excluded 671
+- selected PMID: 38794726, 34673536, 11142075, 26414681, 28584189, 31325348, 24719046, 18815153, 15728422, 8316770, 34693756, 28933133, 11886964, 19363565, 10368839, 22942402, 11263764, 17907231, 10206568, 11166484, 23666599, 30793700, 9598884, 34398311, 40569081, 32159257, 26342738, 24673738, 35178811, 22924372
+- new IDs and PMID: ra-lifestyle-app-2056-38794726=38794726, ra-smartphone-hiit-2056-34673536=34673536, arthritis-self-management-2056-11142075=11142075, ra-creatine-2056-26414681=26414681, ra-sitting-counsel-sms-2056-28584189=28584189, ra-telephone-education-2056-31325348=31325348, ra-moderate-exercise-2056-24719046=24719046, ra-behavioral-education-2056-18815153=18815153, ra-pool-exercise-2056-15728422=15728422, ra-longterm-training-null-2056-8316770=8316770, ra-active-breaks-2056-34693756=34693756, ra-nerve-mobilization-2056-28933133=28933133, ra-quadriceps-rehab-2056-11886964=11886964, ra-supervised-aerobic-2056-19363565=19363565, ra-knee-muscle-training-2056-10368839=10368839, ra-cardiovascular-education-2056-22942402=22942402, ra-dynamic-strength-2056-11263764=11263764, ra-mbsr-2056-17907231=17907231, ra-cbt-2056-10206568=10206568, ra-cbt-early-2056-11166484=11166484, ra-online-self-management-2056-23666599=23666599, ra-fatigue-cbt-2056-30793700=30793700, ra-wrist-orthosis-2056-9598884=9598884, ra-peloidotherapy-2056-34398311=34398311, ra-astaxanthin-2056-40569081=40569081, ra-garlic-2056-32159257=32159257, ra-coq10-2056-26342738=26342738, ra-probiotic-lcasei-2056-24673738=24673738, ra-curcumin-2056-35178811=35178811, ra-fish-oil-2056-22924372=22924372
+- categories: supp 7, move 10, life 11, care 2, otc 0, food 0, rx 0
+- evidence: 앱 생활상담·스마트폰 고강도 간헐운동·관절염 자가관리·앉기 줄이기 상담과 문자·전화교육, 행동교육·인지행동치료·마음챙김·온라인 자가관리·피로 프로그램, 온수풀·유산소·근력·신경가동화·대퇴사두근 재활, 손목 보조기·온열 진흙팩, 크레아틴·아스타잔틴·마늘·코엔자임큐텐·락토바실러스·커큐민·어유를 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 671건을 보류했다. 류마티스관절염과 다른 염증성 류마티스질환·건선관절염·골관절염이 섞인 연구는 대상 범위를 항목에 명시했고, 공통 약물치료가 있는 보조중재는 비처방 추가효과만 기록했다. 초기 자궁내막증 검색 50개 주제는 기존 PMID 중복이 많아 신규 항목으로 사용하지 않았고, 최종 배치는 류마티스관절염 검색 결과로 기록했다.
+- validator: etc/validate2056.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 0; truthful thin-study 11 (ra-active-breaks-2056-34693756 n=15, ra-coq10-2056-26342738 n=44, ra-creatine-2056-26414681 n=40, ra-curcumin-2056-35178811 n=48, ra-knee-muscle-training-2056-10368839 n=36, ra-moderate-exercise-2056-24719046 n=19, ra-nerve-mobilization-2056-28933133 n=12, ra-pool-exercise-2056-15728422 n=46, ra-smartphone-hiit-2056-34673536 n=40, ra-supervised-aerobic-2056-19363565 n=30, ra-wrist-orthosis-2056-9598884 n=40)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 11; comparator warnings fixed 8; effect warnings fixed 21; line warnings fixed 18; scale warnings fixed 1; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 1; build errors fixed 0; targeted remaining 11
+- totals after batch: entries 18380; subjects 11414; refs 21500; numeric group-comparison entries 17441; unknown-n 1278; thin-study 4878
+- data commit: 76a445a988c7e7369fc52c489548e263feafa688
+- PUSHED=false checkpoint: 8d8af095a1cfd803b095873687efbbb8da09c76a
+- PUSHED=true marker: 3bae99a3a68ac2770c7af0d396759a9e5c216d82
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered rheumatoid arthritis exercise, aerobic and resistance training, aquatic exercise, yoga, tai chi, mindfulness, cognitive-behavioural therapy, self-management, education, occupational therapy, hand exercise, splints, physiotherapy, manual therapy, acupuncture, massage, TENS, thermal and spa therapy, diet, Mediterranean diet, omega-3, vitamin D, probiotics, fish oil, curcumin, ginger, herbal medicine, weight loss, telehealth, apps, sleep, relaxation, fatigue and complementary medicine queries
+- next_batch: 2057; resume point: new-expansion-candidates-batch2057
+
 ## Batch 2055 — 요통·두통·월경통·불면 비처방·비약물 후보
 - date: 2026-08-22
 - topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
