@@ -13996,3 +13996,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 247613be0
 - PUSHED=true marker: fabba6404
 - next_batch: 2054; resume point: new-expansion-candidates-batch2054
+
+## Batch 2054 — 과민성장증후군 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 2741 records; 1288 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 1288; chunks 26; fetched 1288; abstracts 1258; missing 0
+- candidates: parser 330; selected 30; held/excluded 300
+- selected PMID: 23072079, 26133538, 28809383, 24521561, 27845337, 7865643, 55586, 16093252, 2998181, 39849073, 27277368, 34491647, 38729390, 37052402, 36501047, 33245332, 30243949, 18785988, 38401741, 35704960, 23272986, 30502501, 22546751, 28164346, 42124549, 42623122, 2099583, 23602047, 31330810, 41138567
+- new IDs and PMID: ibs-2054-acupuncture-pinaverium-23072079=23072079, ibs-2054-alpha-galactosidase-26133538=26133538, ibs-2054-alpha-galactosidase-gos-28809383=28809383, ibs-2054-ancient-wheat-24521561=24521561, ibs-2054-b-infantis-nonpatients-27845337=27845337, ibs-2054-bran-7865643=7865643, ibs-2054-bran-biscuits-55586=55586, ibs-2054-cbt-mebeverine-16093252=16093252, ibs-2054-childhood-recurrent-abdominal-pain-fiber-2998181=2998181, ibs-2054-colonoscopic-probiotic-39849073=39849073, ibs-2054-education-27277368=27277368, ibs-2054-fire-needling-acupoint-plaster-34491647=34491647, ibs-2054-fodmap-reintroduction-38729390=38729390, ibs-2054-fructose-reintroduction-37052402=37052402, ibs-2054-functional-diarrhea-synbiotic-36501047=36501047, ibs-2054-hypnotherapy-ibd-33245332=33245332, ibs-2054-integrative-group-30243949=30243949, ibs-2054-lab4-probiotic-18785988=18785988, ibs-2054-low-fodmap-reintroduction-38401741=38401741, ibs-2054-menthol-limonene-gingerol-35704960=35704960, ibs-2054-mindfulness-bds-23272986=23272986, ibs-2054-online-cbt-children-30502501=30502501, ibs-2054-osteopathy-22546751=22546751, ibs-2054-palmitoylethanolamide-polydatin-28164346=28164346, ibs-2054-pediatric-low-fodmap-42124549=42124549, ibs-2054-personalized-diet-42623122=42623122, ibs-2054-psychotherapy-acupuncture-2099583=2099583, ibs-2054-regul8-23602047=23602047, ibs-2054-ssrd-31330810=31330810, ibs-2054-ssrd-low-fodmap-41138567=41138567
+- categories: supp 8, food 11, life 6, care 5
+- evidence: 저포드맵·전분·당류 제한·고대 밀·식이섬유·밀기울 식단, FODMAP·과당 재도입, 미생물군 기반 맞춤 식단, 프로바이오틱·신바이오틱·알파갈락토시다제·식품 보충제, 환자교육·인지행동치료·온라인 자기관리·마음챙김·최면, 침술·화침·경혈첩·정골도수치료를 포함했다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 300건을 보류했다. IBD 관해 환자의 IBS형 증상, 기능성 복통·설사, 비진료 복부 증상 집단은 대상 제한을 항목에 기록했고, 공통 처방약 배경에서는 비처방 추가효과만 기록했다.
+- validator: etc/validate2054.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 2 (ibs-2054-personalized-diet-42623122, ibs-2054-psychotherapy-acupuncture-2099583); truthful thin-study 7 (ibs-2054-fructose-reintroduction-37052402 n=39, ibs-2054-fodmap-reintroduction-38729390 n=45, ibs-2054-ancient-wheat-24521561 n=20, ibs-2054-colonoscopic-probiotic-39849073 n=22, ibs-2054-functional-diarrhea-synbiotic-36501047 n=40, ibs-2054-alpha-galactosidase-gos-28809383 n=31, ibs-2054-osteopathy-22546751 n=30)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 9; comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 2; scale warnings fixed 0; English warnings fixed 1; subject warnings fixed 3; build errors fixed 0; targeted remaining 9
+- totals after batch: entries 18320; subjects 11354; refs 21440; numeric group-comparison entries 17381; unknown-n 1277; thin-study 4858
+- data commit: 0db36f49232b6e3aba7bb47082cbb10557a56071
+- PUSHED=false checkpoint: 879bd35c76b7002f1344c1611092952e1ea036b9
+- PUSHED=true marker: bd009b47f971379e0e048b4ad3a2aa385554cb20
+- search scope: PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다. 저포드맵·식이·식이섬유·프로바이오틱·신바이오틱·식품 보충·운동·요가·마음챙김·CBT·최면·침술·이완·자기관리·교육·디지털·심리치료·기능성 설사·소아 IBS·식품불내성 후보를 검색했다.
+- next_batch: 2055; resume point: new-expansion-candidates-batch2055
