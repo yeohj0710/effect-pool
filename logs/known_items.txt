@@ -13777,3 +13777,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 2f7c36404a41bd078e148aec9a0adae436869c84
 - search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered low-FODMAP dietitian and education, elimination and lactose-free diets, fermented milk, enteric-coated peppermint, ginger, omega-3, herbal medicine, soluble fiber, oats, meal timing, breathing, digital and telehealth self-management, online mindfulness and hypnotherapy, physical activity, and heat therapy queries
 - next_batch: 2043; resume point: new-expansion-candidates-batch2043
+
+## Batch 2043 — 다낭성난소증후군 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 30 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 1742 records; 885 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 885; chunks 18; fetched 885; abstracts 872; missing 0
+- candidates: parser 327; selected 30; held/excluded 297
+- selected PMID: 35325125, 35647831, 42147112, 35606099, 34769797, 21962963, 18583464, 25026923, 28316072, 33462940, 15206484, 18074942, 25670222, 33010974, 28679140, 29859385, 30961460, 28142296, 35857132, 29250843, 38439205, 31273783, 34664527, 26613790, 23482444, 31126554, 34453504, 23676106, 34742935, 38328008
+- new IDs and PMID: pcos-hiit-moderate-35325125=35325125, pcos-aerobic-metformin-35647831=35647831, pcos-taichi-diet-42147112=42147112, pcos-supervised-aerobic-35606099=35606099, pcos-aerobic-training-34769797=34769797, pcos-diet-exercise-21962963=21962963, pcos-hypocaloric-exercise-18583464=18583464, pcos-vegan-lowcal-25026923=25026923, pcos-dash-diet-28316072=28316072, pcos-ketogenic-33462940=33462940, pcos-inositol-15206484=15206484, pcos-myo-inositol-18074942=18074942, pcos-myo-dchiro-inositol-25670222=25670222, pcos-vitamin-d-hirsutism-33010974=33010974, pcos-vitamin-d-metabolic-28679140=28679140, pcos-vitamin-d-omega3-29859385=29859385, pcos-omega3-vitamin-e-30961460=30961460, pcos-probiotic-28142296=28142296, pcos-multistrain-probiotic-35857132=35857132, pcos-cinnamon-29250843=29250843, pcos-essential-amino-acid-38439205=38439205, pcos-nac-carnitine-31273783=31273783, pcos-coq10-34664527=34664527, pcos-chromium-26613790=26613790, pcos-acupuncture-ovulation-23482444=23482444, pcos-tung-acupuncture-31126554=31126554, pcos-electroacupuncture-sham-34453504=34453504, pcos-abdominal-acupuncture-23676106=23676106, pcos-mindfulness-selfmanagement-34742935=34742935, pcos-mbct-cupping-38328008=38328008
+- categories: move 5, food 5, supp 14, care 5, life 1
+- evidence: 고강도·중등도 유산소·감독 유산소·유산소 훈련, 태극권·식이, 운동·식이·저열량·비건·DASH·케톤식, 이노시톨·미오이노시톨·미오이노시톨/디키로이노시톨, 비타민D·비타민D와 오메가3·오메가3와 비타민E, 프로바이오틱·다균주 프로바이오틱, 계피, 필수아미노산, NAC·카르니틴, CoQ10, 크롬, 침술·전기침·복부침, 마음챙김·자가관리·마음챙김 기반 인지치료와 부항. 각 항목은 PubMed 초록에서 군간 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·혼합 질환·다낭성난소증후군 대상 또는 결과 불일치 후보 297건을 보류했다. 침술 고찰·메타분석 PMID 31264709와 27136291, 운동과 메트포르민의 비처방 효과를 분리할 수 없는 PMID 30690191, 군간 수치가 불명확한 커큐민 PMID 31780025와 신바이오틱 PMID 39636391, 표본 수 미상 비타민D PMID 40219003은 제외했다.
+- validator: etc/validate2043.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 1 (pcos-mindfulness-selfmanagement-34742935); truthful thin-study 8 (pcos-hiit-moderate-35325125 n=29, pcos-aerobic-metformin-35647831 n=40, pcos-supervised-aerobic-35606099 n=36, pcos-vegan-lowcal-25026923 n=18, pcos-ketogenic-33462940 n=20, pcos-essential-amino-acid-38439205 n=21, pcos-acupuncture-ovulation-23482444 n=32, pcos-mbct-cupping-38328008 n=19)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 9; comparator warnings fixed 9; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 1; build errors fixed 0; targeted remaining 9
+- totals after batch: entries 17990; subjects 11045; refs 21110; numeric group-comparison entries 17051; unknown-n 1266; thin-study 4747
+- data commit: 5cde276027613253b5f70aab53d01ac3879fdffb
+- PUSHED=false checkpoint: 180ef1fbcb45cd532986af8d4585b5813232c57b
+- PUSHED=true marker: pending
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered physical-activity coaching, home exercise, walking, diet and exercise, intermittent fasting, low-carbohydrate and ketogenic diets, prebiotics, CoQ10, chromium, magnesium, selenium, spearmint, herbal supplements, vitamin E, folate, aromatherapy, telehealth, self-management, health coaching, and patient education queries
+- next_batch: 2044; resume point: new-expansion-candidates-batch2044
