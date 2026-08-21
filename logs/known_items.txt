@@ -13556,3 +13556,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 67e02a6539e609ae4a5ab2c432aedf6f74270037
 - search scope: PubMed E-utilities and EFetch only; chronic insomnia and sleep-disorder nonprescription and non-drug candidates; no browser or ClinicalTrials.gov-only records used; supplemental searches covered CBT-I, sleep restriction, exercise, yoga, Tai Chi, acupuncture, acupressure, lavender, bright light, music, weighted blankets, melatonin, and magnesium
 - next_batch: 2032; resume point: new-expansion-candidates-batch2032
+
+## Batch 2032 — 일차성 생리통 비처방·비약물 후보
+- date: 2026-08-21
+- topics: 26 selected; non-prescription selected 26; prescription selected 0
+- search: 4391 records; 1542 unique PMID; 45 supplemental queries; initial 30 topics returned 460 records, supplemental searches returned 3931 records
+- fetch: requested 1542; chunks 31; fetched 1542; abstracts 1509; missing 0
+- candidates: parser 598; selected 26; held/excluded 572
+- selected PMID: 42343515, 17378197, 29949331, 38384881, 22261128, 38444064, 34668986, 26797192, 16131292, 26238568, 26233289, 25906949, 10353498, 40759447, 31498389, 26850798, 38555264, 26564807, 30312165, 15243011, 21959068, 40241329, 24853619, 39110054, 35241174, 38696453
+- new IDs and PMID: dysmenorrhea-yinyang-moxibustion-null=42343515, dysmenorrhea-superficial-needling-pos=17378197, dysmenorrhea-deqi-needling-pos=29949331, dysmenorrhea-baduanjin-pos=38384881, dysmenorrhea-omega3-pos=22261128, dysmenorrhea-probiotic-null=38444064, dysmenorrhea-melatonin-null=34668986, dysmenorrhea-low-level-light-pos=26797192, dysmenorrhea-static-magnet-pos=16131292, dysmenorrhea-achillea-tea-pos=26238568, dysmenorrhea-pea-transpolydatin-pos=26233289, dysmenorrhea-boron-pos=25906949, dysmenorrhea-spinal-manipulation-10353498-null=10353498, dysmenorrhea-radiofrequency-pos=40759447, dysmenorrhea-tdcs-pos=31498389, dysmenorrhea-teucrium-null=26850798, dysmenorrhea-psychoeducation-pos=38555264, dysmenorrhea-medical-taping-pos=26564807, dysmenorrhea-herbal-decoction-pos=30312165, dysmenorrhea-guaifenesin-null=15243011, dysmenorrhea-valerian-pos=21959068, dysmenorrhea-psychoeducation-adolescent-pos=40241329, dysmenorrhea-magnetic-innervation-null=24853619, dysmenorrhea-aristolochia-qust-pos=39110054, dysmenorrhea-emdr-null=35241174, dysmenorrhea-home-tdcs-usability-null=38696453
+- categories: care 12, supp 8, food 2, move 1, life 2, otc 1
+- evidence: 뜸·표재침·De Qi 침·팔단금·오메가3·프로바이오틱스·멜라토닌·저강도 빛·정적 자석·서양톱풀 차·PEA 복합제·붕소·척추교정·고주파·tDCS·티우크리움·자기조절 교육·의료용 테이핑·허브 달임물·구아이페네신·발레리안·체외 자기신경자극·EMDR·가정용 tDCS 사용성. 각 항목은 PubMed 초록에서 군간 수치·비율·효과크기 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·비무작위 단일군·동물연구·중복 PMID·수치 부족·주제 또는 결과 불일치 후보 572건을 보류했다. 원래 있던 PMID 1535359 척추 수기치료 항목은 덮어쓰지 않고 PMID 10353498을 별도 ID로 기록했다.
+- validator: etc/validate2032.mjs passed; 26 files, 26 unique PMID, errors 0, warnings 0
+- build: node build.mjs exit 0; errors 0; new warnings 7; comparator warnings fixed 6; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; build errors fixed 0; targeted remaining 467
+- truthful warnings: unknown-n 2 (dysmenorrhea-achillea-tea-pos, dysmenorrhea-aristolochia-qust-pos); thin-study 5 (dysmenorrhea-melatonin-null n=40, dysmenorrhea-radiofrequency-pos n=45, dysmenorrhea-tdcs-pos n=22, dysmenorrhea-guaifenesin-null n=34, dysmenorrhea-home-tdcs-usability-null n=49)
+- totals after batch: entries 17681; subjects 10741; refs 20801; numeric group-comparison entries 16742; unknown-n 1259; thin-study 4641
+- data commit: 4e3ffbabcedb87611da726cfe4c0330a34d35854
+- PUSHED=false checkpoint: 2eae399c90c9ed4780fd1d57d7ab3ee400da148e
+- PUSHED=true marker: 2cae605abdb62a18aa56d096a91c308a73a99a62
+- next_batch: 2033; resume point: new-expansion-candidates-batch2033
