@@ -13977,3 +13977,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: f85ed5edd
 - search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered migraine prevention, acute migraine, exercise, behavioral therapy, self-management, mindfulness, biofeedback, acupuncture, electrical and magnetic stimulation, tDCS, rTMS, nerve stimulation, devices, supplements, menstrual migraine, pediatric migraine, telemedicine and headache care queries
 - next_batch: 2053; resume point: new-expansion-candidates-batch2053
+
+## Batch 2053 — 불면·수면장애 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 10054 records; 3319 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 3319; chunks 67; fetched 3319; abstracts 3286; missing 0
+- candidates: parser 1211; selected 30; held/excluded 1181
+- selected PMID: 24497661, 22323041, 34124972, 40458292, 38736364, 30026614, 30714310, 26158889, 25083010, 22055281, 28345961, 39377371, 32069463, 40205789, 34619500, 36111518, 25867693, 33627370, 36919571, 39957717, 38674278, 27784416, 27223689, 14655916, 32394890, 21397868, 28236619, 38777285, 25749595, 37107734
+- new IDs and PMID: insomnia-cbti-ptsd-24497661=24497661, insomnia-cbti-hearing-22323041=22323041, insomnia-cbti-gynecologic-cancer-34124972=34124972, insomnia-digital-cbti-depression-40458292=40458292, insomnia-postpartum-cbti-38736364=38736364, insomnia-brief-behavioral-cancer-30026614=30026614, insomnia-cbti-older-depression-30714310=30714310, insomnia-cbti-adolescent-26158889=26158889, insomnia-video-cbti-breast-cancer-25083010=25083010, insomnia-self-help-22055281=22055281, insomnia-internet-cbti-28345961=28345961, insomnia-smartphone-cbti-39377371=39377371, insomnia-nurse-internet-cbti-32069463=32069463, insomnia-sleep-compression-40205789=40205789, insomnia-cbti-acupressure-34619500=34619500, insomnia-cbgt-hemodialysis-36111518=36111518, insomnia-cbti-depression-25867693=25867693, insomnia-adolescent-prevention-33627370=33627370, insomnia-audio-tools-36919571=36919571, insomnia-personalized-app-39957717=39957717, insomnia-dim-light-38674278=38674278, insomnia-sound-mattress-autism-27784416=27784416, insomnia-music-elderly-27223689=27223689, insomnia-exercise-stretch-postmenopause-14655916=14655916, insomnia-exercise-poor-sleep-32394890=32394890, insomnia-mindfulness-21397868=21397868, insomnia-acupuncture-biofeedback-zolpidem-28236619=28236619, insomnia-tai-chi-cbti-inflammation-38777285=38777285, insomnia-tai-chi-cbti-cytokine-25749595=25749595, insomnia-aerobic-exercise-37107734=37107734
+- categories: life 21, move 5, care 4
+- evidence: 불면 인지행동치료, 디지털·스마트폰·자기관리 치료, 수면제한·수면압축, 산후·청소년·암·혈액투석·우울증 동반 불면 행동치료, 마음챙김, 유산소 운동·스트레칭·태극권, 음악·앱 오디오, 따뜻한 어두운 빛, 소리 매트리스, 침·바이오피드백·지압을 포함한다. 각 항목은 PubMed 초록에서 비교군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치·처방약 단독·비처방 효과 분리 불가 후보 1181건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2053.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 2 (insomnia-cbti-older-depression-30714310, insomnia-personalized-app-39957717); truthful thin-study 11 (insomnia-cbti-acupressure-34619500 n=40, insomnia-cbti-depression-25867693 n=41, insomnia-cbti-ptsd-24497661 n=45, insomnia-cbti-gynecologic-cancer-34124972 n=35, insomnia-cbti-hearing-22323041 n=32, insomnia-dim-light-38674278 n=40, insomnia-exercise-poor-sleep-32394890 n=40, insomnia-mindfulness-21397868 n=30, insomnia-sound-mattress-autism-27784416 n=45, insomnia-acupuncture-biofeedback-zolpidem-28236619 n=49, insomnia-aerobic-exercise-37107734 n=24)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 13; comparator warnings fixed 11; line/effect/scale field fixes 30; subject warning fixed 1; targeted remaining 13; no English or build errors
+- totals after batch: entries 18290; subjects 11334; refs 21410; numeric group-comparison entries 17351; unknown-n 1275; thin-study 4851
+- data commit: 277342758
+- PUSHED=false checkpoint: 247613be0
+- PUSHED=true marker: fabba6404
+- next_batch: 2054; resume point: new-expansion-candidates-batch2054
