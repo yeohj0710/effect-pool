@@ -13259,3 +13259,22 @@ batch1993_resume=next_batch=1994; worklist_line=new-expansion-candidates-batch19
 - selected evidence: HIFU with contrast-agent enhancement, uterine artery embolization versus hysterectomy or myomectomy, embolization versus uterine artery occlusion, embolic microsphere selection, focused ultrasound, microwave ablation, vitamin D, Guizhi Fuling Wan, PVA particle size, pain and recovery, ovarian reserve, long-term reintervention, and vascular-access comparisons
 - excluded/held: acupuncture protocol, reviews and meta-analyses, observational or non-randomized studies, adenomyosis-only records, prescription analgesic adjuncts, duplicate PMID, single-arm studies, and candidates without sufficient direct numeric comparison
 - next_batch: 2016; resume point: new-expansion-candidates-batch2016
+
+## Batch 2016
+- date: 2026-08-21
+- topics: 30; selected: 21; search records: 388; unique PMID: 229
+- fetch: requested 229; chunks 3; fetched 229; abstracts 218; missing 0
+- candidates: pre-write 53; post-write 32; selected 21; excluded/held 32
+- new IDs and PMID: uti-acupuncture-2016-pos=9599500, uti-cranberry-juice-2016-null=22305026, uti-cranberry-lingonberry-2016-pos=11431298, uti-cranberry-phytosome-2016-pos=38999860, uti-cranberry-placebo-2016-null=21148516, uti-cranberry-propolis-2016-pos=31117097, uti-cranberry-risk-subgroup-2016-pos=29111902, uti-cranberry-ur65-2016-pos=22961092, uti-dmannose-combination-2016-null=40162673, uti-dmannose-large-2016-pos=32633244, uti-dmannose-pac-2016-pos=29521263, uti-herbal-add-on-2016-pos=41399819, uti-high-pac-cranberry-2016-pos=38214795, uti-lactobacillus-crispatus-2016-pos=21498386, uti-lactobacillus-vaginal-2016-null=7863140, uti-nasturtium-horseradish-2016-pos=41782129, uti-oral-vaginal-probiotic-2016-pos=38084984, uti-probiotic-add-on-2016-pos=34486272, uti-probiotic-cranberry-2016-pos=31516055, uti-segmental-acupuncture-2016-pos=39060726, uti-water-intake-2016-pos=30285042
+- categories: care 2, food 8, supp 10, life 1
+- build: exit 0; errors 0; new warnings 4; comparator warnings fixed 13; effect warnings fixed 0; line warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; targeted remaining 648
+- truthful warnings: unknown-n 2 (uti-cranberry-ur65-2016-pos, uti-dmannose-combination-2016-null); thin-study 2 (uti-cranberry-phytosome-2016-pos n=46, uti-lactobacillus-vaginal-2016-null n=47)
+- validator: etc/validate2016.mjs passed; 21 files, 21 unique PMID, 21 Korean subjects
+- search scope: recurrent urinary tract infection non-antibiotic candidates; PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used
+- selected evidence: cranberry and cranberry-lingonberry products, D-mannose and proanthocyanidin supplements, oral/vaginal probiotics, cranberry-propolis, nasturtium-horseradish herbs, water intake, acupuncture, segmental acupuncture, and add-on probiotic/herbal treatment with common antibacterial therapy
+- excluded/held: prescription-only or inseparable drug studies, reviews and meta-analyses, protocols, observational studies, ex-vivo or biomarker studies, safety-only studies, duplicate or overlapping acupuncture records, pediatric or unrelated records, and candidates without direct clinical numeric comparison
+- data commit: 57a88d951d27537647350f3e26215d09f94e9461
+- PUSHED=false checkpoint: d2d5860ecd4551dbed272e47d0381a3cb1d9cf5f
+- PUSHED=true marker: 520486b5db5afd76dbe8f8650a1557945240ceb7
+- totals after batch: entries 17243; subjects 10315; refs 20363; numeric group-comparison entries 16304; unknown-n 1243; thin-study 4274
+- next_batch: 2017; resume point: new-expansion-candidates-batch2017
