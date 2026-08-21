@@ -13697,3 +13697,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 32637eafdb412642681b0c689d214f63f9e64230
 - search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered multicomponent exercise, home and supervised exercise, telehealth, internet and app interventions, breathing and relaxation, biofeedback, education, omega-3, carnitine, saffron, probiotics, vegetarian and low-FODMAP diets, spa therapy, chiropractic, auricular stimulation, and laser queries
 - next_batch: 2039; resume point: new-expansion-candidates-batch2039
+
+## Batch 2039 — 편두통 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 30 searched; selected 23; non-prescription selected 23; prescription selected 0
+- search: 2467 records; 1218 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 1218; chunks 25; fetched 1218; abstracts 1183; missing 0
+- candidates: parser 253; selected 23; held/excluded 230
+- selected PMID: 27769879, 20812037, 20880898, 25252515, 22345630, 3898645, 7751496, 17659990, 17117562, 17058041, 30316627, 34554691, 34058041, 32096902, 37150129, 12421156, 30427505, 35236061, 19134454, 35565731, 28526386, 35906640, 29475774
+- new IDs and PMID: migraine-mindfulness-hrv-27769879=27769879, migraine-behavior-selfefficacy-20812037=20812037, migraine-behavior-beta-blocker-20880898=20880898, migraine-behavioral-management-25252515=25252515, migraine-multimodal-behavioral-22345630=22345630, migraine-relaxation-acupuncture-3898645=3898645, migraine-relaxation-biofeedback-propranolol-7751496=7751496, migraine-butterbur-music-17659990=17659990, migraine-auricular-point-17117562=17117562, migraine-tms-high-low-17058041=17058041, migraine-rtms-sham-30316627=30316627, migraine-rtms-amitriptyline-34554691=34554691, migraine-tdcs-allodynia-34058041=34058041, migraine-pmes-supraorbital-32096902=32096902, migraine-iprgc-lens-37150129=37150129, migraine-tinted-spectacles-12421156=12421156, migraine-laser-botulinum-30427505=30427505, migraine-transcranial-magnet-35236061=35236061, migraine-herbal-flunarizine-19134454=19134454, migraine-resveratrol-hormonal-35565731=35565731, migraine-folic-pyridoxine-28526386=28526386, migraine-soy-isoflavone-35906640=35906640, migraine-dao-supplement-29475774=29475774
+- categories: life 7, care 11, supp 5
+- evidence: 마음챙김·행동관리·다요소 행동치료·이완·생체되먹임, 소아 버터버·음악치료, 귀점요법, TMS·rTMS·tDCS, PMES·눈썹위 신경자극, 광민감 필터·착색 안경, 저강도 레이저, 경두개 자기치료, 한약, 레스베라트롤, 엽산·피리독신, 대두 이소플라본, DAO 보충제. 각 항목은 PubMed 초록에서 군간 숫자·비율·효과크기·P값 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과를 분리할 수 없는 연구·고찰·메타분석·프로토콜·관찰·단일군·2차 분석·동물·중복 PMID·초록 없음·수치 부족·편두통 대상 또는 결과 불일치 후보 230건을 보류했다. 처방약이 함께 있는 요인설계·비교시험은 비약물 중재군의 결과를 분리할 수 있는 경우만 기록했다.
+- validator: etc/validate2039.mjs passed; 23 files, 23 unique PMID, 23 Korean subjects, errors 0, warnings 0; unknown-n 0; truthful thin-study 8 (migraine-mindfulness-hrv-27769879 n=36, migraine-relaxation-acupuncture-3898645 n=30, migraine-relaxation-biofeedback-propranolol-7751496 n=33, migraine-tms-high-low-17058041 n=42, migraine-rtms-sham-30316627 n=26, migraine-tinted-spectacles-12421156 n=17, migraine-laser-botulinum-30427505 n=36, migraine-herbal-flunarizine-19134454 n=32)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 8; comparator warnings fixed 0; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; build errors fixed 0; targeted remaining 9
+- totals after batch: entries 17870; subjects 10927; refs 20990; numeric group-comparison entries 16931; unknown-n 1264; thin-study 4714
+- data commit: 249c60e43a2e5dae0d640e86dd47bab06db83acf
+- PUSHED=false checkpoint: 0ee6c9f1d1d5c951e8c4a87d1ee52ff4055ff888
+- PUSHED=true marker: pending
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered exercise, behavioral therapy, CBT, mindfulness, relaxation, biofeedback, sleep, diet, ketogenic diet, magnesium and vitamins, acupuncture, acupressure, TENS, tDCS, rTMS, vagus and trigeminal stimulation, supraorbital stimulation, light therapy, massage, manual therapy, omega-3, probiotics, herbal supplements, and DAO queries
+- next_batch: 2040; resume point: new-expansion-candidates-batch2040
