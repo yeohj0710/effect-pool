@@ -13577,6 +13577,27 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 2cae605abdb62a18aa56d096a91c308a73a99a62
 - next_batch: 2033; resume point: new-expansion-candidates-batch2033
 
+## Batch 2034 — 비알코올성·대사이상 지방간 비처방·비약물 후보
+- date: 2026-08-21
+- topics: 30 initial topics; selected: 30; non-prescription selected: 30; prescription selected: 0
+- search: 3322 records; 1174 unique PMID; 20 supplemental queries
+- fetch: requested 1174; chunks 24; fetched 1174; abstracts 1159; missing 0
+- candidates: parser 497; selected 30; held/excluded 467
+- selected PMID: 36508737, 36549296, 38035997, 30667502, 36930148, 33461965, 38892505, 38358794, 35058605, 32312333, 30477827, 24401715, 37817641, 41168313, 33045675, 38886203, 34565261, 31136662, 35067753, 37855891, 32237922, 40025618, 31126574, 29652567, 28346567, 26430826, 33190008, 36963888, 29117472, 38462919
+- new IDs and PMID: nafld-lchf-hclf-null-36508737=36508737, nafld-adf-aerobic-pos-36549296=36549296, nafld-asian-mediterranean-pentadecanoic-pos-38035997=38035997, nafld-low-sugar-adolescent-pos-30667502=30667502, nafld-time-restricted-eating-null-36930148=36930148, nafld-green-mediterranean-pos-33461965=33461965, nafld-inulin-prebiotic-null-38892505=38892505, nafld-mobile-coaching-pos-38358794=38358794, nafld-low-sugar-adult-pos-35058605=35058605, nafld-garlic-pos-32312333=32312333, nafld-zataria-pos-30477827=30477827, nafld-synbiotic-pos-24401715=24401715, nafld-ginger-null-37817641=37817641, nafld-nano-curcumin-null-41168313=41168313, nafld-chromium-null-33045675=33045675, masld-smartphone-lifestyle-null-38886203=38886203, nafld-mediterranean-children-pos-34565261=34565261, nafld-yogurt-pos-31136662=31136662, nafld-fish-oil-vitd-pos-35067753=35067753, nafld-dash-diet-pos-37855891=37855891, nafld-cranberry-null-32237922=32237922, nafld-chitosan-pos-40025618=40025618, nafld-soymilk-pos-31126574=31126574, nafld-khorasan-wheat-pos-29652567=29652567, nafld-lowgi-mediterranean-pos-28346567=28346567, nafld-multistrain-probiotic-pos-26430826=26430826, nafld-sumac-pos-33190008=33190008, nafld-propolis-inositol-null-36963888=36963888, nafld-text-message-pos-29117472=29117472, masld-gluten-free-pos-38462919=38462919
+- categories: food 12, supp 13, move 1, life 2, care 2
+- evidence: 저탄수화물 고지방식, 격일단식·유산소운동, 아시아식·그린 지중해식, 저당식, 시간제한 식사, 모바일 생활코칭, 마늘·시라지 타임·신바이오틱·생강·나노커큐민·크롬·프로바이오틱·수마크·키토산·크랜베리, 요구르트·두유·고대 밀, 고혈압 예방식, 저혈당지수 지중해식, 문자 생활상담, 글루텐 제한식. 각 항목은 PubMed 초록에서 군간 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·2차 분석·동물연구·중복 PMID·초록 없음·수치 부족·지방간 대상 또는 결과 불일치 후보 467건을 보류했다.
+- validator: etc/validate2034.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0
+- build: node build.mjs exit 0; errors 0; new truthful warnings 10; comparator warnings fixed 6; effect warnings fixed 4; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; build errors fixed 0; targeted remaining 467
+- truthful warnings: unknown-n 1 (nafld-mediterranean-children-pos-34565261); thin-study 9 (nafld-low-sugar-adolescent-pos-30667502 n=40, nafld-inulin-prebiotic-null-38892505 n=19, nafld-low-sugar-adult-pos-35058605 n=43, nafld-chromium-null-33045675 n=46, nafld-cranberry-null-32237922 n=41, nafld-khorasan-wheat-pos-29652567 n=40, nafld-multistrain-probiotic-pos-26430826 n=42, nafld-text-message-pos-29117472 n=30, masld-gluten-free-pos-38462919 n=45)
+- totals after batch: entries 17727; subjects 10786; refs 20847; numeric group-comparison entries 16788; unknown-n 1261; thin-study 4656
+- data commit: 2c339a5e42a22af39af5ec2b7c38f021c6001307
+- PUSHED=false checkpoint: ac270277590b2ffb97aa78a81df0e36c461f6669
+- PUSHED=true marker: 688d04779add26cfd1203ad2e2da4b774b74b61a
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered MASLD, NASH lifestyle, low-sugar and DASH diets, fiber, polyphenols, herbal supplements, probiotics, exercise·diet combinations, mobile intervention, and nonpharmacological fatty-liver trials
+- next_batch: 2035; resume point: new-expansion-candidates-batch2035
+
 ## Batch 2033 — 자궁내막증 비처방·비약물 후보
 - date: 2026-08-21
 - topics searched: 30 initial topics; selected: 16; non-prescription selected: 16; prescription selected: 0
