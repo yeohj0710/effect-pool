@@ -13183,3 +13183,22 @@ batch1993_resume=next_batch=1994; worklist_line=new-expansion-candidates-batch19
 - selected evidence: allergen avoidance education, acupuncture and moxibustion, saline and thermal-water nasal care, phototherapy, sunglasses and wraparound glasses, probiotics, spirulina, grapeseed and herbal supplements, herbal patches, and nonprescription nasal sprays
 - excluded/held: prescription-only or inseparable drug studies, reviews and meta-analyses, protocols, observational studies, case reports, animal studies, duplicate PMID, non-allergic-rhinitis records, and candidates without sufficient direct numeric comparison
 - next_batch: 2012; resume point: new-expansion-candidates-batch2012
+
+## Batch 2012
+- date: 2026-08-21
+- topics: 30; selected: 9; search records: 1267; unique PMID: 820
+- fetch: requested 820; chunks 9; fetched 820; abstracts 783; missing 0
+- candidates: pre-write 146; post-write 137; selected 9; excluded/held 137
+- new IDs: migraine-butterbur-prophylaxis-2012-pos, migraine-citron-syrup-2012-pos, migraine-rose-oil-2012-null, migraine-basil-oil-2012-pos, migraine-nanocurcumin-adipokine-2012-pos, migraine-supraorbital-neurostimulation-flunarizine-2012-pos, migraine-acupuncture-drug-comparison-2012-pos, migraine-acupuncture-sham-reho-2012-pos, migraine-biofeedback-relaxation-2012-pos
+- new PMID: 11410074, 26721220, 28917373, 32155616, 35786344, 30428122, 11038990, 31368270, 7635723
+- categories: care 6, supp 2, food 1
+- build: exit 0; errors 0; new warnings 4; comparator warnings fixed 1; line warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; build errors fixed 0; targeted remaining 648
+- truthful warnings: unknown-n 0; thin-study 4
+- validator: etc/validate2012.mjs passed; 9 files, 9 unique PMID, 9 Korean subjects
+- data commit: bc0fbc4398f70eecdf4af14b3503534302ef2a5d
+- PUSHED=false checkpoint: c5b8977d3a87b16dfd09d40a83574dac4f0a6b3a
+- PUSHED=true marker: 7e67c9129a2f4bf06cfbcd011593f1339862fa9a
+- search scope: migraine nonprescription candidates; PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used
+- selected evidence: butterbur extract, citron syrup, topical rose oil, topical basil oil, nano-curcumin, supraorbital transcutaneous neurostimulation, acupuncture versus standard prevention, acupuncture versus sham, and biofeedback-assisted relaxation
+- excluded/held: prescription-only or inseparable drug studies, reviews and meta-analyses, protocols, observational studies, case reports, animal studies, secondary analyses, duplicate PMID, non-migraine records, no-control studies, and candidates without sufficient direct numeric comparison
+- next_batch: 2013; resume point: new-expansion-candidates-batch2013
