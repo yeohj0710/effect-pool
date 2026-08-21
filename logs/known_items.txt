@@ -12948,3 +12948,22 @@ batch1993_resume=next_batch=1994; worklist_line=new-expansion-candidates-batch19
 - excluded/held: duplicate PMID, review/meta-analysis/protocol/observational/case/animal/no abstract, nonseparable prescription combinations, or insufficient numeric comparison
 - next_batch: 2000; resume point: new-expansion-candidates-batch2000
 
+
+## Batch 2000
+- date: 2026-08-21
+- topics: 30; selected: 19; search records: 341; unique PMID: 239
+- fetch: requested 239; fetched 239; abstracts 226; missing 0
+- candidates: pre-write 24; post-write 5; selected 19; excluded 5
+- new IDs: common-cold-2000-acupuncture-fever-86-pos, common-cold-2000-acupuncture-fever-pos, common-cold-2000-beta-glucan-pos, common-cold-2000-carrageenan-nasal-null, common-cold-2000-colloidal-silver-device-pos, common-cold-2000-day-nurse-otc-pos, common-cold-2000-echinacea-rhinovirus-null, common-cold-2000-echinacea-treatment-null, common-cold-2000-ginseng-prevention-pos, common-cold-2000-herbal-community-pos, common-cold-2000-kakkonto-null, common-cold-2000-lactoferrin-pos, common-cold-2000-menthol-lozenge-pos, common-cold-2000-probiotic-childcare-null, common-cold-2000-probiotic-conscripts-null, common-cold-2000-vitamin-c-prophylaxis-null, common-cold-2000-vitamin-d-respiratory-null, common-cold-2000-zinc-geriatric-safety-null, common-cold-2000-zinc-gluconate-pos
+- new PMID: 16941972, 17432639, 23927572, 22950667, 21946445, 6547101, 16049208, 12484708, 8879982, 33419674, 24785885, 23642947, 2323078, 28674113, 24793963, 368370, 27357103, 16280656, 1397668
+- categories: care 4, supp 11, otc 4
+- build: exit 0; errors 0; new warnings 1; comparator warnings fixed 1; line warnings fixed 1; English warnings fixed 1; subject warnings fixed 1; targeted remaining 759
+- truthful warnings: unknown-n 1; thin-study 0
+- validator: etc/validate2000.mjs passed; 19 files, 19 unique PMID, 19 Korean subjects
+- data commit: 3f8ae71b8646143b72ebd0db7b1eb25c0b3b2de7
+- PUSHED=false checkpoint: d1506bca133851db03245b8a6187a32be236063d
+- PUSHED=true marker: 6e5a53ea3aa716d22c05a248e3713ccf199a6e96
+- search scope: common cold and upper respiratory infection nonprescription candidates; PubMed RCT filter; no ClinicalTrials.gov-only records used
+- excluded/held: duplicate PMID, prescription-only or nonseparable drug study, observational/cohort/biomarker/pharmacokinetic study, unrelated allergic rhinitis/UTI outcome, placebo-matching study, or insufficient clinical comparison
+- next_batch: 2001; resume point: new-expansion-candidates-batch2001
+
