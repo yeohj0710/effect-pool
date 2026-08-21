@@ -13637,3 +13637,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=true marker: 9e55e80982507c86d03ff2b315fb57b265a17df9
 - search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered exercise, intradialytic training, home rehabilitation, breathing, digital self-management, blood-flow restriction, low-phosphorus food, and renal diet queries
 - next_batch: 2036; resume point: new-expansion-candidates-batch2036
+
+## Batch 2036 — 무릎 골관절염 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 30 selected; non-prescription selected 30; prescription selected 0
+- search: 7373 records; 3168 unique PMID; 20 supplemental queries
+- fetch: requested 3168; chunks 64; fetched 3168; abstracts 3099; missing 0
+- candidates: parser 1061; selected 30; held/excluded 1031
+- selected PMID: 38054019, 41401375, 41041935, 34453570, 41504515, 40374307, 27540824, 40716116, 29635402, 22951360, 28078435, 39412672, 20056719, 25591130, 36527538, 34057129, 23721797, 35678062, 12374520, 40855215, 39400265, 12465157, 30195882, 19340512, 16309928, 19682376, 19766392, 25626851, 26973326, 26111989
+- new IDs and PMID: knee-oa-soft-tissue-mobilization-pos-38054019=38054019, knee-oa-mobile-personalized-pos-41401375=41401375, knee-oa-pain-education-exercise-open-41041935=41041935, knee-oa-mobile-app-accuracy-pos-34453570=34453570, knee-oa-emg-nmes-null-41504515=41504515, knee-oa-painful-exercise-open-40374307=40374307, knee-oa-bml-exercise-null-27540824=27540824, knee-oa-self-directed-digital-open-40716116=40716116, knee-oa-intensive-diet-exercise-pos-29635402=29635402, knee-oa-group-cycling-pos-22951360=22951360, knee-oa-supervised-home-pos-28078435=28078435, knee-oa-remote-behavior-pos-39412672=39412672, knee-oa-resistance-activity-pos-20056719=20056719, knee-oa-hip-leg-strength-null-25591130=25591130, knee-oa-taping-physical-therapy-pos-36527538=36527538, knee-oa-ankle-dorsiflexion-null-34057129=34057129, knee-oa-stabilization-null-23721797=23721797, knee-oa-laser-exercise-pos-35678062=35678062, knee-oa-glucosamine-longterm-pos-12374520=12374520, knee-oa-cetylated-fatty-acids-pos-40855215=40855215, knee-oa-herbal-gj191-null-39400265=39400265, knee-oa-vitamin-e-null-12465157=12465157, knee-oa-garlic-pos-30195882=30195882, knee-oa-eggshell-membrane-pos-19340512=19340512, knee-oa-msm-pos-16309928=16309928, knee-oa-botanical-np06-pos-19682376=19682376, knee-oa-electroacupuncture-pos-19766392=19766392, knee-oa-lateral-wedge-null-25626851=25626851, knee-oa-manual-therapy-null-26973326=26973326, knee-oa-vibration-pos-26111989=26111989
+- categories: care 8, life 5, move 9, supp 8
+- evidence: 연부조직가동술·맞춤 운동앱·통증교육·운동 정확도 앱·근전도 피드백·전기자극·통증 허용 운동·골수병변 운동·자기주도 운동·집중 식이·운동·집단 자전거·감독·가정운동·원격 활동중재·저항운동·엉덩이·다리 강화·테이핑·발목 가동술·안정화운동·고강도 레이저·글루코사민·세틸화 지방산·복합허브·비타민E·마늘·난각막·MSM·황백·귤피 추출물·전기침·외측 쐐기 깔창·도수치료·전신진동. 각 항목은 PubMed 초록에서 군간 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·2차 분석·동물연구·중복 PMID·초록 없음·수치 부족·무릎 골관절염 대상 또는 결과 불일치 후보 1031건을 보류했다.
+- validator: etc/validate2036.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 0; truthful thin-study 10 (knee-oa-mobile-personalized-pos-41401375 n=29, knee-oa-pain-education-exercise-open-41041935 n=36, knee-oa-painful-exercise-open-40374307 n=20, knee-oa-bml-exercise-null-27540824 n=35, knee-oa-self-directed-digital-open-40716116 n=24, knee-oa-group-cycling-pos-22951360 n=37, knee-oa-remote-behavior-pos-39412672 n=31, knee-oa-taping-physical-therapy-pos-36527538 n=40, knee-oa-electroacupuncture-pos-19766392 n=40, knee-oa-vibration-pos-26111989 n=39)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 10; comparator warnings fixed 8; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; build errors fixed 0; targeted remaining 10
+- totals after batch: entries 17787; subjects 10845; refs 20907; numeric group-comparison entries 16848; unknown-n 1261; thin-study 4678
+- data commit: b3a63c382c228840854e64134c2b54dfcd124dcc
+- PUSHED=false checkpoint: 12d6a99e26e7a46800e3512ccc26f29e84666695
+- PUSHED=true marker: pending
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered knee osteoarthritis exercise, pain education, digital and self-directed exercise, diet·exercise, cycling, remote activity, manual therapy, laser, acupuncture, orthotics, glucosamine, cetylated fatty acids, botanical supplements, vitamin E, garlic, eggshell membrane, MSM, and vibration queries
+- next_batch: 2037; resume point: new-expansion-candidates-batch2037
