@@ -13576,3 +13576,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 2eae399c90c9ed4780fd1d57d7ab3ee400da148e
 - PUSHED=true marker: 2cae605abdb62a18aa56d096a91c308a73a99a62
 - next_batch: 2033; resume point: new-expansion-candidates-batch2033
+
+## Batch 2033 — 자궁내막증 비처방·비약물 후보
+- date: 2026-08-21
+- topics searched: 30 initial topics; selected: 16; non-prescription selected: 16; prescription selected: 0
+- search: 1756 records; 580 unique PMID; 50 supplemental queries
+- fetch: requested 580; chunks 12; fetched 580; abstracts 567; missing 0
+- candidates: parser 221; selected 16; held/excluded 205
+- selected PMID: 22728166, 39046647, 23275012, 23292545, 21601979, 36266431, 36882181, 24016037, 32530335, 37020589, 18005966, 31997236, 41663453, 25673440, 31951599, 21767149
+- new IDs and PMID: endometriosis-antioxidant-vitamins-pos=22728166, endometriosis-sanjie-capsule-pos=39046647, endometriosis-chinese-medicine-qol-pos=23275012, endometriosis-chinese-herbal-recurrence-null=23292545, endometriosis-pea-transpolydatin-pos=21601979, endometriosis-silymarin-pos=36266431, endometriosis-tdcs-pos=36882181, endometriosis-lidocaine-pertubation-qol=24016037, endometriosis-hyaluronan-gel-pos=32530335, endometriosis-astaxanthin-pos=37020589, endometriosis-vitamin-ce-null=18005966, endometriosis-chinese-sequential-pos=31997236, endometriosis-nac-biomarker-pos=41663453, endometriosis-kuntai-addback-pos=25673440, endometriosis-omega3-feasibility-open=31951599, endometriosis-chm-feasibility-open=21767149
+- categories: supp 13, care 3
+- evidence: 항산화 비타민, 산제 진통 캡슐, 수술 후 중국의학, 재발 중국 허브, PEA·트랜스폴리다틴, 실리마린, tDCS, 리도카인 자궁관 관류, 히알루론산 겔, 아스타잔틴, 비타민 C·E, 중국의학 순차치료, NAC, 곤타이 보조 캡슐, 오메가3, 개별화 중국 허브 파일럿; 각 항목은 PubMed 초록에서 군간 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·주제 불일치 후보 205건을 보류했다. 50개 보강 검색 뒤에도 직접 수치 근거가 충분한 비처방 후보는 16건이었다.
+- validator: etc/validate2033.mjs passed; 16 files, 16 unique PMID, 16 Korean subjects, errors 0, warnings 0
+- build: node build.mjs exit 0; errors 0; new truthful warnings 7; comparator warnings fixed 0; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 1; subject warnings fixed 1; build errors fixed 1; targeted remaining 467
+- truthful warnings: unknown-n 1 (endometriosis-hyaluronan-gel-pos); thin-study 6 (endometriosis-tdcs-pos n=36, endometriosis-lidocaine-pertubation-qol n=42, endometriosis-vitamin-ce-null n=34, endometriosis-nac-biomarker-pos n=25, endometriosis-omega3-feasibility-open n=33, endometriosis-chm-feasibility-open n=40)
+- totals after batch: entries 17697; subjects 10757; refs 20817; numeric group-comparison entries 16758; unknown-n 1260; thin-study 4647
+- data commit: 0e235034612de4f05aca7e1586ed987e42990fb8
+- PUSHED=false checkpoint: 90ff4e615608d419423e1aa0fff326c0c6af9474
+- PUSHED=true marker: 1df2c62d2ae91b828a9b6ba82c14d20c0759a39c
+- next_batch: 2034; resume point: new-expansion-candidates-batch2034
