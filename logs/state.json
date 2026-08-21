@@ -2,28 +2,28 @@
   "updated": "2026-08-21",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 17435,
-  "subjects": 10500,
-  "refs": 20555,
+  "entries": 17465,
+  "subjects": 10530,
+  "refs": 20585,
   "kinds": {
     "otc": 521,
     "supp": 2372,
     "food": 1419,
-    "move": 2625,
-    "life": 2318,
-    "care": 5491,
+    "move": 2629,
+    "life": 2320,
+    "care": 5515,
     "rx": 2689
   },
   "tiers": {
-    "trial": 16585,
+    "trial": 16615,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 11927,
-    "null": 3843,
+    "pos": 11946,
+    "null": 3854,
     "open": 1440,
     "harm": 225
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2023은 만성 목 통증 비처방·자기관리 후보 30개 주제를 검색하고 직접 비교 근거 30건을 기록했다. Resume with batch 2024."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2024는 만성 어깨 통증·회전근개·충돌증후군·오십견 비처방 후보 30개 주제를 검색하고 직접 비교 근거 30건을 기록했다. Resume with batch 2025."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 975,
-    "note": "Batch 2023은 만성 목 통증 비처방·자기관리 후보 30개 주제를 검색했다. 작성 전 후보 157건과 재실행 후 후보 127건을 선별해 직접 수치 근거 30건을 기록했고 나머지는 보류했다. Resume with batch 2024."
+    "note": "Batch 2024는 만성 어깨 통증 비처방 후보 30개 주제를 기본·보충 검색했다. 작성 전 후보 114건과 재실행 후 후보 84건을 선별해 직접 수치 근거 30건을 기록했고 나머지는 보류했다. Resume with batch 2025."
   },
   "checkpoints": {
     "over_counter_share": "24.7% (4312 entries)",
     "rx_share": "15.4% (2689)",
-    "no_effect_or_harm_share": "23.3% (4068 entries)",
-    "vs_share": "94.6% (16496)",
+    "no_effect_or_harm_share": "23.4% (4079 entries)",
+    "vs_share": "94.6% (16526)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.1% (16585)",
+    "trial_share": "95.1% (16615)",
     "non_trial_share": "4.9% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1251,
-      "thin_study": 4352,
-      "targeted_batch_warnings": 602
+      "unknown_n": 1253,
+      "thin_study": 4361,
+      "targeted_batch_warnings": 599
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2023 data commit 14b5de49274931b1d7f484e9751f48048feb8199, PUSHED=false checkpoint 25eadec8df73d9e5647d6bd5125c862eb4c88328, and PUSHED=true marker 1caebf207d552fe721a3d3f3c9d6690344e14df5 are on origin/main. Resume with fresh non-prescription batch 2024.",
+  "next": "Batch 2024 data commit b51c5c25 is present locally. PUSHED=false checkpoint is pending before push and marker. Resume with batch 2025 after final push.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -533,28 +533,31 @@
     ]
   },
   "last_batch": {
-    "id": "2023",
-    "commit": "14b5de49274931b1d7f484e9751f48048feb8199",
-    "pushed": true,
-    "expansion_commit": "14b5de49274931b1d7f484e9751f48048feb8199",
+    "id": "2024",
+    "commit": "b51c5c25",
+    "pushed": false,
+    "expansion_commit": "b51c5c25",
     "data_commits": [
-      "14b5de49274931b1d7f484e9751f48048feb8199"
+      "b51c5c25"
     ],
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "aerobic-exercise",
-      "resistance-exercise",
-      "deep-neck-flexor",
+      "rotator-cuff-exercise",
+      "shoulder-resistance",
       "scapular-exercise",
+      "motor-control",
+      "home-exercise",
+      "aerobic-exercise",
+      "stretching",
       "yoga",
       "pilates",
       "tai-chi",
-      "stretching",
+      "aquatic-exercise",
       "posture",
       "ergonomic",
       "self-management",
-      "education",
+      "patient-education",
       "mindfulness",
       "cbt",
       "acupuncture",
@@ -562,234 +565,188 @@
       "acupressure",
       "massage",
       "manual-therapy",
+      "joint-mobilization",
       "spinal-manipulation",
-      "heat",
-      "cold",
       "tens",
-      "low-level-laser",
+      "heat",
       "ultrasound",
-      "traction",
-      "cervical-collar",
-      "kinesio-taping",
-      "dry-needling",
-      "movement-breaks"
+      "low-level-laser",
+      "shockwave",
+      "kinesio-taping"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 127,
+    "no_evidence_rejects": 84,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 127,
+    "screened_nonqualifying_topics": 84,
     "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "17435 entries; 20555 refs; 16585 trial; 16496 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities에서 만성 목 통증 비처방·자기관리 후보 30개 주제를 검색했다. 검색 레코드 1625개에서 고유 PMID 832개를 확인했고 832개를 EFetch 요청해 832개 논문 기록과 825개 초록을 확보했다. 작성 전 후보 157건에서 직접 수치 비교나 유효한 효과크기가 확인된 30건을 기록했고, 작성 후 남은 후보 127건은 처방약 단독·병용 분리 불가, 고찰·프로토콜·관찰연구·동물연구·중복·수치 부족 등으로 보류했다.",
+    "build": "17465 entries; 20585 refs; 16615 trial; 16526 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities에서 만성 어깨 통증·회전근개·충돌증후군·오십견 비처방 후보 30개 주제를 검색했다. 기본·보충 검색 레코드 1845개에서 고유 PMID 1067개를 확인했고 1067개를 EFetch 요청해 1067개 논문 기록과 1050개 초록을 확보했다. 작성 전 후보 114건에서 직접 수치 비교나 유효한 효과크기가 확인된 30건을 기록했고, 작성 후 남은 후보 84건은 처방약·주사·수술, 고찰·프로토콜·관찰연구·동물연구·중복·혼합 대상·수치 부족 등으로 보류했다.",
     "qualified_topics": [
-      "만성 목 통증 경추성 어지럼 수기치료",
-      "만성 목 통증 횡격막 수기치료",
-      "만성 목 통증 경추·견갑 저항운동",
-      "만성 목 통증 수기치료·목운동 순응도",
-      "만성 목 통증 전기진통 추가",
-      "만성 목 통증 집중운동",
-      "만성 목 통증 운동·척추수기치료",
-      "만성 목 통증 자세운동",
-      "만성 목 통증 목근육 훈련 장기추적",
-      "만성 목 통증 수기치료·스트레칭",
-      "만성 목 통증 경추견인",
-      "만성 목 통증 근력·스트레칭",
-      "만성 목 통증 수기치료·경피전기자극",
-      "만성 목 통증 행동등급활동",
-      "만성 목 통증 자세재교육·스트레칭",
-      "만성 목 통증 가정운동",
-      "만성 목 통증 경추·흉추 조작",
-      "만성 목 통증 경추 추력조작",
-      "만성 목 통증 건침 자극반응",
-      "만성 목 통증 건침·근막이완",
-      "만성 목 통증 통증과학 교육",
-      "만성 목 통증 수기기법·운동",
-      "만성 목 통증 슬링운동",
-      "만성 목 통증 건침·가짜침",
-      "만성 목 통증 다이내믹 테이핑",
-      "만성 목 통증 경추조작·가동",
-      "만성 목 통증 침술·레이저침",
-      "만성 목 통증 레이저·건침",
-      "만성 목 통증 저속·고속 수기치료",
-      "만성폐쇄성폐질환 동반 목 통증 근에너지기법"
+      "목·어깨 근막통증 초음파·마사지",
+      "만성 회전근개 석회성건염 충격파",
+      "편마비 어깨 통증 전기자극",
+      "회전근개 석회성건염 충격파 강도",
+      "어깨 통증 가정운동",
+      "뇌졸중 어깨 통증 마사지",
+      "어깨 충돌증후군 고강도레이저",
+      "노인 비특이적 어깨 통증 건침",
+      "어깨 충돌증후군 레이저침",
+      "어깨 통증 물리치료·건침",
+      "만성 어깨 통증 관절위치감각운동",
+      "석회성 어깨건염 충격파 위치탐색",
+      "석회성 회전근개건염 충격파 위치비교",
+      "어깨 충돌증후군 저강도레이저",
+      "만성 어깨 충돌증후군 운동량",
+      "어깨 충돌증후군 충격파·운동",
+      "만성 목·어깨 근막통증 건침",
+      "오십견 견갑흉곽운동",
+      "어깨 충돌증후군 초음파·레이저",
+      "오십견 근막왜곡모델 수기치료",
+      "어깨주위염 침·온침·운동",
+      "회전근개건병증 덱스트로스 주사",
+      "노인 비특이적 어깨 통증 건침 추가",
+      "어깨 충돌증후군 충격파·등속운동",
+      "오십견 모바일 운동알림",
+      "뇌졸중 어깨 통증 건침 추가",
+      "편마비 어깨 통증 건침 위치",
+      "어깨 충돌증후군 스마트운동복",
+      "석회성 어깨건병증 충격파 방식",
+      "회전근개 관련 어깨 통증 교육"
     ],
     "screened_topics": [
       "15322438",
-      "22136113",
-      "25639496",
-      "26472297",
-      "31283555",
-      "35364620",
-      "15722803",
-      "17156464",
-      "20605552",
-      "21296263",
-      "24819432",
-      "29405174",
-      "31438954",
-      "33086286",
-      "38498321",
-      "38650337",
-      "2324655",
-      "3524727",
-      "6335859",
-      "9758075",
-      "9825752",
-      "10767816",
-      "12067088",
-      "15846703",
-      "16461168",
-      "16686557",
-      "16781068",
-      "16856065",
-      "17210506",
-      "17714105",
-      "19888488",
-      "20091523",
-      "20091561",
-      "20578644",
-      "21195292",
-      "21735434",
-      "23158966",
-      "23656601",
-      "24011656",
-      "25066503",
-      "25274197",
-      "26387859",
+      "21849055",
+      "26203643",
+      "29613883",
+      "29902472",
+      "29932415",
+      "35821447",
+      "37616239",
+      "38118247",
+      "24734244",
+      "25714415",
+      "25915145",
+      "29183339",
+      "30945504",
+      "35068440",
+      "40368375",
+      "769630",
+      "11272799",
+      "11783834",
+      "14987190",
+      "16181170",
+      "17624477",
+      "17931902",
+      "19540671",
+      "20545477",
+      "21705873",
+      "21739685",
+      "22699130",
+      "22873210",
+      "25069201",
+      "25271097",
+      "25432061",
+      "25555523",
+      "25609368",
+      "26964162",
       "27010596",
-      "27145001",
-      "27498549",
-      "27576192",
-      "27584139",
-      "27852100",
-      "29760878",
-      "29999203",
-      "33740346",
-      "34663135",
-      "35124626",
-      "37408438",
-      "41159519",
-      "41222518",
-      "41855589",
-      "10478769",
+      "27283590",
+      "27283591",
+      "28601750",
+      "29071931",
+      "29354969",
+      "31475496",
+      "32379581",
+      "32764872",
+      "33127212",
+      "33715788",
+      "35213351",
+      "38639609",
+      "39589081",
+      "39930809",
+      "1281062",
+      "7894919",
+      "8740603",
+      "9698005",
+      "11034725",
       "11783835",
-      "12438988",
-      "12691336",
-      "12865832",
-      "15614241",
-      "16034925",
-      "16436850",
-      "16490395",
-      "17218057",
-      "17369784",
-      "17413465",
-      "17644487",
-      "18722818",
-      "18824949",
-      "18843681",
-      "19105826",
-      "19160247",
-      "20393393",
-      "20439056",
-      "21317771",
-      "21570335",
-      "22419306",
-      "22466021",
-      "22542489",
-      "22895940",
-      "23129812",
-      "23382279",
-      "23387504",
-      "23480978",
-      "24171895",
-      "24225010",
+      "15180118",
+      "16881095",
+      "17080543",
+      "17449984",
+      "17916468",
+      "18996235",
+      "19630975",
+      "20034440",
+      "20046171",
+      "20134218",
+      "20585816",
+      "20713438",
+      "21246849",
+      "23604641",
+      "23819225",
       "24400934",
-      "24467843",
-      "25258045",
-      "25282679",
-      "25410083",
-      "25629215",
-      "25812548",
-      "26397370",
-      "28084834",
-      "28301865",
-      "29160551",
-      "29229058",
-      "29329551",
-      "29669079",
-      "29984567",
-      "30354023",
-      "30757926",
-      "30883334",
-      "31149935",
-      "31379301",
-      "31954696",
-      "32824394",
-      "32829943",
-      "33789432",
-      "34201686",
-      "35179608",
-      "35879756",
-      "36247101",
-      "36512354",
-      "37599520",
-      "38704120",
-      "38876707",
-      "39147008",
-      "39177587",
-      "40376752",
-      "41147514",
-      "41979233",
-      "42029130"
+      "25042302",
+      "26669201",
+      "30773863",
+      "31056885",
+      "32444201",
+      "32517390",
+      "34759182",
+      "35316820",
+      "37577885",
+      "39682050",
+      "41431232",
+      "41702117"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_ids": [
-      "neck-cervicogenic-dizziness-25220110-pos",
-      "neck-diaphragm-manual-33992285-pos",
-      "neck-resistance-massage-36181044-pos",
-      "neck-manual-exercise-adherence-40273517-null",
-      "neck-electroanalgesic-add-on-40910433-null",
-      "neck-intensive-training-9507618-null",
-      "neck-exercise-manipulation-11295901-null",
-      "neck-posture-exercise-17341512-pos",
-      "neck-training-three-year-17525699-null",
-      "neck-manual-stretching-17724558-null",
-      "neck-traction-18431541-null",
-      "neck-strength-stretch-18586810-null",
-      "neck-manual-tens-18620635-null",
-      "neck-graded-activity-18692420-null",
-      "neck-posture-stretching-19060998-null",
-      "neck-home-exercise-22423628-null",
-      "neck-cervical-thoracic-manipulation-22711239-null",
-      "neck-cervical-thrust-30442354-pos",
-      "neck-dry-needling-ltr-30636729-null",
-      "neck-dry-needling-myofascial-release-33431282-null",
-      "neck-pain-neuroscience-education-34444594-pos",
-      "neck-manual-technique-exercise-36120764-null",
-      "neck-sling-exercise-36278336-null",
-      "neck-dry-needling-sham-36709694-null",
-      "neck-dynamic-taping-38288463-pos",
-      "neck-cervical-manipulation-mobilization-30621368-null",
-      "neck-acupuncture-laser-39653805-null",
-      "neck-laser-dry-needling-39680232-null",
-      "neck-manual-oxidative-stress-40908711-pos",
-      "neck-met-copd-40550078-pos"
+      "shoulder-ultrasound-massage-9755021-null",
+      "shoulder-shockwave-calcific-14625334-pos",
+      "shoulder-nmes-tens-29777714-pos",
+      "shoulder-shockwave-energy-17356145-null",
+      "shoulder-home-exercise-workers-14573714-pos",
+      "shoulder-stroke-massage-15519938-pos",
+      "shoulder-hilt-ultrasound-19482902-pos",
+      "shoulder-dry-needling-25794307-null",
+      "shoulder-laser-acupuncture-27816913-pos",
+      "shoulder-dry-needling-add-on-27937046-null",
+      "shoulder-position-sense-38608097-pos",
+      "shoulder-shockwave-navigation-9814931-pos",
+      "shoulder-shockwave-localization-16002492-null",
+      "shoulder-laser-home-exercise-19250050-null",
+      "shoulder-exercise-dose-19450093-pos",
+      "shoulder-shockwave-exercise-19755551-null",
+      "shoulder-myofascial-dry-needling-28017188-null",
+      "shoulder-scapulothoracic-exercise-21252605-pos",
+      "shoulder-electrotherapy-exercise-21946399-null",
+      "shoulder-fascial-manual-22918828-pos",
+      "shoulder-acupuncture-exercise-25675562-pos",
+      "shoulder-dextrose-prolotherapy-26301385-pos",
+      "shoulder-dry-needling-26760574-pos",
+      "shoulder-shockwave-exercise-27477254-pos",
+      "shoulder-mobile-exercise-reminder-28632975-pos",
+      "shoulder-dry-needling-stroke-32009422-pos",
+      "shoulder-dry-needling-trigger-32488238-null",
+      "shoulder-smart-shirt-32942730-pos",
+      "shoulder-shockwave-modes-33283581-null",
+      "shoulder-education-reassurance-38112759-pos"
     ],
-    "new_entry_vs_warnings_fixed": 13,
+    "new_entry_vs_warnings_fixed": 3,
     "new_entry_effect_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 3,
+    "new_entry_line_warnings_fixed": 0,
     "new_entry_scale_warnings_fixed": 0,
     "new_entry_english_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 2,
+    "new_entry_subject_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 16496,
+    "open_numeric_comparisons": 16526,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -797,39 +754,39 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "만성 목 통증 경추성 어지럼 수기치료=care",
-      "만성 목 통증 횡격막 수기치료=care",
-      "만성 목 통증 경추·견갑 저항운동=move",
-      "만성 목 통증 수기치료·목운동 순응도=move",
-      "만성 목 통증 전기진통 추가=care",
-      "만성 목 통증 집중운동=move",
-      "만성 목 통증 운동·척추수기치료=move",
-      "만성 목 통증 자세운동=move",
-      "만성 목 통증 목근육 훈련 장기추적=move",
-      "만성 목 통증 수기치료·스트레칭=care",
-      "만성 목 통증 경추견인=care",
-      "만성 목 통증 근력·스트레칭=move",
-      "만성 목 통증 수기치료·경피전기자극=care",
-      "만성 목 통증 행동등급활동=move",
-      "만성 목 통증 자세재교육·스트레칭=move",
-      "만성 목 통증 가정운동=move",
-      "만성 목 통증 경추·흉추 조작=care",
-      "만성 목 통증 경추 추력조작=care",
-      "만성 목 통증 건침 자극반응=care",
-      "만성 목 통증 건침·근막이완=care",
-      "만성 목 통증 통증과학 교육=care",
-      "만성 목 통증 수기기법·운동=care",
-      "만성 목 통증 슬링운동=move",
-      "만성 목 통증 건침·가짜침=care",
-      "만성 목 통증 다이내믹 테이핑=care",
-      "만성 목 통증 경추조작·가동=care",
-      "만성 목 통증 침술·레이저침=care",
-      "만성 목 통증 레이저·건침=care",
-      "만성 목 통증 저속·고속 수기치료=care",
-      "만성폐쇄성폐질환 동반 목 통증 근에너지기법=care"
+      "목·어깨 근막통증 초음파·마사지=care",
+      "만성 회전근개 석회성건염 충격파=care",
+      "편마비 어깨 통증 전기자극=care",
+      "회전근개 석회성건염 충격파 강도=care",
+      "어깨 통증 가정운동=move",
+      "뇌졸중 어깨 통증 마사지=care",
+      "어깨 충돌증후군 고강도레이저=care",
+      "노인 비특이적 어깨 통증 건침=care",
+      "어깨 충돌증후군 레이저침=care",
+      "어깨 통증 물리치료·건침=care",
+      "만성 어깨 통증 관절위치감각운동=move",
+      "석회성 어깨건염 충격파 위치탐색=care",
+      "석회성 회전근개건염 충격파 위치비교=care",
+      "어깨 충돌증후군 저강도레이저=care",
+      "만성 어깨 충돌증후군 운동량=move",
+      "어깨 충돌증후군 충격파·운동=care",
+      "만성 목·어깨 근막통증 건침=care",
+      "오십견 견갑흉곽운동=move",
+      "어깨 충돌증후군 초음파·레이저=care",
+      "오십견 근막왜곡모델 수기치료=care",
+      "어깨주위염 침·온침·운동=care",
+      "회전근개건병증 덱스트로스 주사=care",
+      "노인 비특이적 어깨 통증 건침 추가=care",
+      "어깨 충돌증후군 충격파·등속운동=care",
+      "오십견 모바일 운동알림=life",
+      "뇌졸중 어깨 통증 건침 추가=care",
+      "편마비 어깨 통증 건침 위치=care",
+      "어깨 충돌증후군 스마트운동복=care",
+      "석회성 어깨건병증 충격파 방식=care",
+      "회전근개 관련 어깨 통증 교육=life"
     ],
-    "targeted_warning_topics_remaining": 602,
-    "targeted_warning_topics_fixed": 16,
+    "targeted_warning_topics_remaining": 599,
+    "targeted_warning_topics_fixed": 3,
     "build_errors_fixed": 0,
     "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
@@ -841,18 +798,21 @@
     "remaining_parked_non_prescription_topics": 975,
     "next_official_deployment_check": "after batch 2000",
     "topics": [
-      "aerobic-exercise",
-      "resistance-exercise",
-      "deep-neck-flexor",
+      "rotator-cuff-exercise",
+      "shoulder-resistance",
       "scapular-exercise",
+      "motor-control",
+      "home-exercise",
+      "aerobic-exercise",
+      "stretching",
       "yoga",
       "pilates",
       "tai-chi",
-      "stretching",
+      "aquatic-exercise",
       "posture",
       "ergonomic",
       "self-management",
-      "education",
+      "patient-education",
       "mindfulness",
       "cbt",
       "acupuncture",
@@ -860,271 +820,4100 @@
       "acupressure",
       "massage",
       "manual-therapy",
+      "joint-mobilization",
       "spinal-manipulation",
-      "heat",
-      "cold",
       "tens",
-      "low-level-laser",
+      "heat",
       "ultrasound",
-      "traction",
-      "cervical-collar",
-      "kinesio-taping",
-      "dry-needling",
-      "movement-breaks"
+      "low-level-laser",
+      "shockwave",
+      "kinesio-taping"
     ],
     "screened_nonqualifying": [
       "15322438",
-      "22136113",
-      "25639496",
-      "26472297",
-      "31283555",
-      "35364620",
-      "15722803",
-      "17156464",
-      "20605552",
-      "21296263",
-      "24819432",
-      "29405174",
-      "31438954",
-      "33086286",
-      "38498321",
-      "38650337",
-      "2324655",
-      "3524727",
-      "6335859",
-      "9758075",
-      "9825752",
-      "10767816",
-      "12067088",
-      "15846703",
-      "16461168",
-      "16686557",
-      "16781068",
-      "16856065",
-      "17210506",
-      "17714105",
-      "19888488",
-      "20091523",
-      "20091561",
-      "20578644",
-      "21195292",
-      "21735434",
-      "23158966",
-      "23656601",
-      "24011656",
-      "25066503",
-      "25274197",
-      "26387859",
+      "21849055",
+      "26203643",
+      "29613883",
+      "29902472",
+      "29932415",
+      "35821447",
+      "37616239",
+      "38118247",
+      "24734244",
+      "25714415",
+      "25915145",
+      "29183339",
+      "30945504",
+      "35068440",
+      "40368375",
+      "769630",
+      "11272799",
+      "11783834",
+      "14987190",
+      "16181170",
+      "17624477",
+      "17931902",
+      "19540671",
+      "20545477",
+      "21705873",
+      "21739685",
+      "22699130",
+      "22873210",
+      "25069201",
+      "25271097",
+      "25432061",
+      "25555523",
+      "25609368",
+      "26964162",
       "27010596",
-      "27145001",
-      "27498549",
-      "27576192",
-      "27584139",
-      "27852100",
-      "29760878",
-      "29999203",
-      "33740346",
-      "34663135",
-      "35124626",
-      "37408438",
-      "41159519",
-      "41222518",
-      "41855589",
-      "10478769",
+      "27283590",
+      "27283591",
+      "28601750",
+      "29071931",
+      "29354969",
+      "31475496",
+      "32379581",
+      "32764872",
+      "33127212",
+      "33715788",
+      "35213351",
+      "38639609",
+      "39589081",
+      "39930809",
+      "1281062",
+      "7894919",
+      "8740603",
+      "9698005",
+      "11034725",
       "11783835",
-      "12438988",
-      "12691336",
-      "12865832",
-      "15614241",
-      "16034925",
-      "16436850",
-      "16490395",
-      "17218057",
-      "17369784",
-      "17413465",
-      "17644487",
-      "18722818",
-      "18824949",
-      "18843681",
-      "19105826",
-      "19160247",
-      "20393393",
-      "20439056",
-      "21317771",
-      "21570335",
-      "22419306",
-      "22466021",
-      "22542489",
-      "22895940",
-      "23129812",
-      "23382279",
-      "23387504",
-      "23480978",
-      "24171895",
-      "24225010",
+      "15180118",
+      "16881095",
+      "17080543",
+      "17449984",
+      "17916468",
+      "18996235",
+      "19630975",
+      "20034440",
+      "20046171",
+      "20134218",
+      "20585816",
+      "20713438",
+      "21246849",
+      "23604641",
+      "23819225",
       "24400934",
-      "24467843",
-      "25258045",
-      "25282679",
-      "25410083",
-      "25629215",
-      "25812548",
-      "26397370",
-      "28084834",
-      "28301865",
-      "29160551",
-      "29229058",
-      "29329551",
-      "29669079",
-      "29984567",
-      "30354023",
-      "30757926",
-      "30883334",
-      "31149935",
-      "31379301",
-      "31954696",
-      "32824394",
-      "32829943",
-      "33789432",
-      "34201686",
-      "35179608",
-      "35879756",
-      "36247101",
-      "36512354",
-      "37599520",
-      "38704120",
-      "38876707",
-      "39147008",
-      "39177587",
-      "40376752",
-      "41147514",
-      "41979233",
-      "42029130"
+      "25042302",
+      "26669201",
+      "30773863",
+      "31056885",
+      "32444201",
+      "32517390",
+      "34759182",
+      "35316820",
+      "37577885",
+      "39682050",
+      "41431232",
+      "41702117"
     ],
     "new_pmids": [
-      "25220110",
-      "33992285",
-      "36181044",
-      "40273517",
-      "40910433",
-      "9507618",
-      "11295901",
-      "17341512",
-      "17525699",
-      "17724558",
-      "18431541",
-      "18586810",
-      "18620635",
-      "18692420",
-      "19060998",
-      "22423628",
-      "22711239",
-      "30442354",
-      "30636729",
-      "33431282",
-      "34444594",
-      "36120764",
-      "36278336",
-      "36709694",
-      "38288463",
-      "30621368",
-      "39653805",
-      "39680232",
-      "40908711",
-      "40550078"
+      "9755021",
+      "14625334",
+      "29777714",
+      "17356145",
+      "14573714",
+      "15519938",
+      "19482902",
+      "25794307",
+      "27816913",
+      "27937046",
+      "38608097",
+      "9814931",
+      "16002492",
+      "19250050",
+      "19450093",
+      "19755551",
+      "28017188",
+      "21252605",
+      "21946399",
+      "22918828",
+      "25675562",
+      "26301385",
+      "26760574",
+      "27477254",
+      "28632975",
+      "32009422",
+      "32488238",
+      "32942730",
+      "33283581",
+      "38112759"
     ],
-    "unique_pmids": 832,
-    "requested": 832,
-    "fetched": 832,
-    "abstracts": 825,
-    "parsed_abstracts": 832,
-    "search_candidates": 157,
-    "candidate_parser_parsed": 832,
-    "candidate_parser_candidates": 157,
-    "candidate_parser_candidates_after_write": 127,
+    "unique_pmids": 1067,
+    "requested": 1067,
+    "fetched": 1067,
+    "abstracts": 1050,
+    "parsed_abstracts": 1067,
+    "search_candidates": 114,
+    "candidate_parser_parsed": 1067,
+    "candidate_parser_candidates": 114,
+    "candidate_parser_candidates_after_write": 84,
     "manual_candidates": 30,
     "search_topic_count": 30,
-    "search_returned_records": 1625,
+    "search_returned_records": 1845,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "neck-cervicogenic-dizziness-25220110-pos",
-      "neck-diaphragm-manual-33992285-pos",
-      "neck-resistance-massage-36181044-pos",
-      "neck-manual-exercise-adherence-40273517-null",
-      "neck-electroanalgesic-add-on-40910433-null",
-      "neck-intensive-training-9507618-null",
-      "neck-exercise-manipulation-11295901-null",
-      "neck-posture-exercise-17341512-pos",
-      "neck-training-three-year-17525699-null",
-      "neck-manual-stretching-17724558-null",
-      "neck-traction-18431541-null",
-      "neck-strength-stretch-18586810-null",
-      "neck-manual-tens-18620635-null",
-      "neck-graded-activity-18692420-null",
-      "neck-posture-stretching-19060998-null",
-      "neck-home-exercise-22423628-null",
-      "neck-cervical-thoracic-manipulation-22711239-null",
-      "neck-cervical-thrust-30442354-pos",
-      "neck-dry-needling-ltr-30636729-null",
-      "neck-dry-needling-myofascial-release-33431282-null",
-      "neck-pain-neuroscience-education-34444594-pos",
-      "neck-manual-technique-exercise-36120764-null",
-      "neck-sling-exercise-36278336-null",
-      "neck-dry-needling-sham-36709694-null",
-      "neck-dynamic-taping-38288463-pos",
-      "neck-cervical-manipulation-mobilization-30621368-null",
-      "neck-acupuncture-laser-39653805-null",
-      "neck-laser-dry-needling-39680232-null",
-      "neck-manual-oxidative-stress-40908711-pos",
-      "neck-met-copd-40550078-pos"
+      "shoulder-ultrasound-massage-9755021-null",
+      "shoulder-shockwave-calcific-14625334-pos",
+      "shoulder-nmes-tens-29777714-pos",
+      "shoulder-shockwave-energy-17356145-null",
+      "shoulder-home-exercise-workers-14573714-pos",
+      "shoulder-stroke-massage-15519938-pos",
+      "shoulder-hilt-ultrasound-19482902-pos",
+      "shoulder-dry-needling-25794307-null",
+      "shoulder-laser-acupuncture-27816913-pos",
+      "shoulder-dry-needling-add-on-27937046-null",
+      "shoulder-position-sense-38608097-pos",
+      "shoulder-shockwave-navigation-9814931-pos",
+      "shoulder-shockwave-localization-16002492-null",
+      "shoulder-laser-home-exercise-19250050-null",
+      "shoulder-exercise-dose-19450093-pos",
+      "shoulder-shockwave-exercise-19755551-null",
+      "shoulder-myofascial-dry-needling-28017188-null",
+      "shoulder-scapulothoracic-exercise-21252605-pos",
+      "shoulder-electrotherapy-exercise-21946399-null",
+      "shoulder-fascial-manual-22918828-pos",
+      "shoulder-acupuncture-exercise-25675562-pos",
+      "shoulder-dextrose-prolotherapy-26301385-pos",
+      "shoulder-dry-needling-26760574-pos",
+      "shoulder-shockwave-exercise-27477254-pos",
+      "shoulder-mobile-exercise-reminder-28632975-pos",
+      "shoulder-dry-needling-stroke-32009422-pos",
+      "shoulder-dry-needling-trigger-32488238-null",
+      "shoulder-smart-shirt-32942730-pos",
+      "shoulder-shockwave-modes-33283581-null",
+      "shoulder-education-reassurance-38112759-pos"
     ],
     "new_build_warnings": [
-      "주의  neck-diaphragm-manual-33992285-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-ltr-30636729-null — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-myofascial-release-33431282-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-graded-activity-18692420-null — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  neck-laser-dry-needling-39680232-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-manual-oxidative-stress-40908711-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-posture-stretching-19060998-null — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-resistance-massage-36181044-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-sling-exercise-36278336-null — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-traction-18431541-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-dry-needling-25794307-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-stroke-32009422-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-trigger-32488238-null — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-laser-home-exercise-19250050-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-mobile-exercise-reminder-28632975-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-myofascial-dry-needling-28017188-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-position-sense-38608097-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-scapulothoracic-exercise-21252605-pos — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-exercise-27477254-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-modes-33283581-null — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-smart-shirt-32942730-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_unknown_n_warnings": [
-      "주의  neck-graded-activity-18692420-null — 사람 수 미상. 원문을 보고 n 을 채우세요"
+      "주의  shoulder-mobile-exercise-reminder-28632975-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-smart-shirt-32942730-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_thin_study_warnings": [
-      "주의  neck-diaphragm-manual-33992285-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-ltr-30636729-null — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-myofascial-release-33431282-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-laser-dry-needling-39680232-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-manual-oxidative-stress-40908711-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-posture-stretching-19060998-null — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-resistance-massage-36181044-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-sling-exercise-36278336-null — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-traction-18431541-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-dry-needling-25794307-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-stroke-32009422-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-trigger-32488238-null — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-laser-home-exercise-19250050-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-myofascial-dry-needling-28017188-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-position-sense-38608097-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-scapulothoracic-exercise-21252605-pos — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-exercise-27477254-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-modes-33283581-null — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  neck-diaphragm-manual-33992285-pos — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-ltr-30636729-null — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-dry-needling-myofascial-release-33431282-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-graded-activity-18692420-null — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  neck-laser-dry-needling-39680232-null — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-manual-oxidative-stress-40908711-pos — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-posture-stretching-19060998-null — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-resistance-massage-36181044-pos — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-sling-exercise-36278336-null — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  neck-traction-18431541-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-dry-needling-25794307-null — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-stroke-32009422-pos — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-dry-needling-trigger-32488238-null — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-laser-home-exercise-19250050-null — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-mobile-exercise-reminder-28632975-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-myofascial-dry-needling-28017188-null — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-position-sense-38608097-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-scapulothoracic-exercise-21252605-pos — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-exercise-27477254-pos — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-shockwave-modes-33283581-null — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-smart-shirt-32942730-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
-    "checkpoint_commit": "25eadec8df73d9e5647d6bd5125c862eb4c88328",
-    "push_marker_commit": "1caebf207d552fe721a3d3f3c9d6690344e14df5",
-    "supplemental_queries": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "supplemental_queries": [
+      {
+        "topic": "rotator-cuff-exercise",
+        "query": "chronic rotator cuff tendinopathy exercise randomized trial",
+        "records": [
+          {
+            "pmid": "38383459"
+          },
+          {
+            "pmid": "36723056"
+          },
+          {
+            "pmid": "40325781"
+          },
+          {
+            "pmid": "23547590"
+          },
+          {
+            "pmid": "41313312"
+          },
+          {
+            "pmid": "39235616"
+          },
+          {
+            "pmid": "39571743"
+          },
+          {
+            "pmid": "26301385"
+          },
+          {
+            "pmid": "31000394"
+          },
+          {
+            "pmid": "32975923"
+          },
+          {
+            "pmid": "29397432"
+          },
+          {
+            "pmid": "32379581"
+          },
+          {
+            "pmid": "23893418"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "21157654"
+          }
+        ]
+      },
+      {
+        "topic": "rotator-cuff-exercise",
+        "query": "rotator cuff disease therapeutic exercise randomized controlled trial",
+        "records": [
+          {
+            "pmid": "27283590"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "34265255"
+          },
+          {
+            "pmid": "32128761"
+          },
+          {
+            "pmid": "12804509"
+          },
+          {
+            "pmid": "39358776"
+          },
+          {
+            "pmid": "37021475"
+          },
+          {
+            "pmid": "40325781"
+          },
+          {
+            "pmid": "30707445"
+          },
+          {
+            "pmid": "33536163"
+          },
+          {
+            "pmid": "33536162"
+          },
+          {
+            "pmid": "21986048"
+          },
+          {
+            "pmid": "42268261"
+          },
+          {
+            "pmid": "32555026"
+          },
+          {
+            "pmid": "41313312"
+          },
+          {
+            "pmid": "41271422"
+          },
+          {
+            "pmid": "40102149"
+          },
+          {
+            "pmid": "31000394"
+          },
+          {
+            "pmid": "20530557"
+          },
+          {
+            "pmid": "37147087"
+          },
+          {
+            "pmid": "39143625"
+          },
+          {
+            "pmid": "33609357"
+          },
+          {
+            "pmid": "32379581"
+          },
+          {
+            "pmid": "35131978"
+          },
+          {
+            "pmid": "28215611"
+          },
+          {
+            "pmid": "16262574"
+          },
+          {
+            "pmid": "19644905"
+          },
+          {
+            "pmid": "35033043"
+          },
+          {
+            "pmid": "10226960"
+          },
+          {
+            "pmid": "32238172"
+          },
+          {
+            "pmid": "33127212"
+          },
+          {
+            "pmid": "8241852"
+          },
+          {
+            "pmid": "34964778"
+          },
+          {
+            "pmid": "9688035"
+          },
+          {
+            "pmid": "28586628"
+          },
+          {
+            "pmid": "26976375"
+          },
+          {
+            "pmid": "23117648"
+          },
+          {
+            "pmid": "25920340"
+          },
+          {
+            "pmid": "15834056"
+          },
+          {
+            "pmid": "24522460"
+          },
+          {
+            "pmid": "18628653"
+          }
+        ]
+      },
+      {
+        "topic": "shoulder-resistance",
+        "query": "subacromial pain syndrome resistance exercise randomized trial",
+        "records": [
+          {
+            "pmid": "32017660"
+          },
+          {
+            "pmid": "27351548"
+          },
+          {
+            "pmid": "38532530"
+          },
+          {
+            "pmid": "33634829"
+          },
+          {
+            "pmid": "36898767"
+          },
+          {
+            "pmid": "28416022"
+          },
+          {
+            "pmid": "39069293"
+          },
+          {
+            "pmid": "35033043"
+          },
+          {
+            "pmid": "35702007"
+          },
+          {
+            "pmid": "34048281"
+          },
+          {
+            "pmid": "28818450"
+          },
+          {
+            "pmid": "35245813"
+          },
+          {
+            "pmid": "30501388"
+          },
+          {
+            "pmid": "21120304"
+          },
+          {
+            "pmid": "29499710"
+          },
+          {
+            "pmid": "20713438"
+          },
+          {
+            "pmid": "25622594"
+          },
+          {
+            "pmid": "22581193"
+          },
+          {
+            "pmid": "8241852"
+          }
+        ]
+      },
+      {
+        "topic": "scapular-exercise",
+        "query": "subacromial pain syndrome scapular stabilization exercise randomized trial",
+        "records": [
+          {
+            "pmid": "38432789"
+          },
+          {
+            "pmid": "28652066"
+          },
+          {
+            "pmid": "21849731"
+          },
+          {
+            "pmid": "39419431"
+          },
+          {
+            "pmid": "41303896"
+          },
+          {
+            "pmid": "32861372"
+          },
+          {
+            "pmid": "41975358"
+          },
+          {
+            "pmid": "28818450"
+          },
+          {
+            "pmid": "29329890"
+          }
+        ]
+      },
+      {
+        "topic": "motor-control",
+        "query": "shoulder impingement motor control exercise randomized controlled trial",
+        "records": [
+          {
+            "pmid": "41276811"
+          },
+          {
+            "pmid": "34307681"
+          },
+          {
+            "pmid": "38532530"
+          },
+          {
+            "pmid": "40483124"
+          },
+          {
+            "pmid": "39593596"
+          },
+          {
+            "pmid": "39158032"
+          },
+          {
+            "pmid": "37648216"
+          },
+          {
+            "pmid": "23053685"
+          },
+          {
+            "pmid": "32143732"
+          },
+          {
+            "pmid": "29499710"
+          },
+          {
+            "pmid": "27262892"
+          }
+        ]
+      },
+      {
+        "topic": "home-exercise",
+        "query": "rotator cuff tendinopathy home exercise randomized trial",
+        "records": [
+          {
+            "pmid": "27351548"
+          },
+          {
+            "pmid": "25715230"
+          },
+          {
+            "pmid": "21765229"
+          },
+          {
+            "pmid": "38383459"
+          },
+          {
+            "pmid": "39202470"
+          },
+          {
+            "pmid": "37821122"
+          },
+          {
+            "pmid": "39235616"
+          },
+          {
+            "pmid": "40615995"
+          },
+          {
+            "pmid": "39571743"
+          },
+          {
+            "pmid": "30501388"
+          },
+          {
+            "pmid": "28641737"
+          },
+          {
+            "pmid": "29747540"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "25622594"
+          },
+          {
+            "pmid": "26849812"
+          }
+        ]
+      },
+      {
+        "topic": "stretching",
+        "query": "adhesive capsulitis stretching exercise randomized controlled trial",
+        "records": [
+          {
+            "pmid": "35443651"
+          },
+          {
+            "pmid": "40317031"
+          },
+          {
+            "pmid": "37001795"
+          },
+          {
+            "pmid": "33010843"
+          },
+          {
+            "pmid": "31475938"
+          },
+          {
+            "pmid": "26229109"
+          },
+          {
+            "pmid": "39436270"
+          },
+          {
+            "pmid": "40768512"
+          },
+          {
+            "pmid": "42363316"
+          },
+          {
+            "pmid": "39682050"
+          },
+          {
+            "pmid": "28081633"
+          },
+          {
+            "pmid": "27002662"
+          },
+          {
+            "pmid": "23037929"
+          },
+          {
+            "pmid": "22113218"
+          },
+          {
+            "pmid": "33475581"
+          },
+          {
+            "pmid": "23662659"
+          },
+          {
+            "pmid": "29932415"
+          },
+          {
+            "pmid": "29037627"
+          },
+          {
+            "pmid": "19011582"
+          },
+          {
+            "pmid": "23604641"
+          },
+          {
+            "pmid": "24211154"
+          },
+          {
+            "pmid": "26203643"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "2009043"
+          },
+          {
+            "pmid": "17416123"
+          }
+        ]
+      },
+      {
+        "topic": "posture",
+        "query": "shoulder impingement posture exercise randomized trial",
+        "records": [
+          {
+            "pmid": "39593596"
+          },
+          {
+            "pmid": "17416125"
+          },
+          {
+            "pmid": "29351510"
+          },
+          {
+            "pmid": "14573714"
+          },
+          {
+            "pmid": "19630975"
+          },
+          {
+            "pmid": "32476583"
+          },
+          {
+            "pmid": "31514108"
+          }
+        ]
+      },
+      {
+        "topic": "patient-education",
+        "query": "rotator cuff tendinopathy patient education randomized trial",
+        "records": [
+          {
+            "pmid": "29747540"
+          }
+        ]
+      },
+      {
+        "topic": "self-management",
+        "query": "shoulder pain self management randomized trial",
+        "records": [
+          {
+            "pmid": "37368401"
+          },
+          {
+            "pmid": "37490337"
+          },
+          {
+            "pmid": "27283590"
+          },
+          {
+            "pmid": "22405512"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "39475196"
+          },
+          {
+            "pmid": "27836071"
+          },
+          {
+            "pmid": "35964498"
+          },
+          {
+            "pmid": "35389367"
+          },
+          {
+            "pmid": "38438448"
+          },
+          {
+            "pmid": "26160149"
+          },
+          {
+            "pmid": "40329151"
+          },
+          {
+            "pmid": "35562030"
+          },
+          {
+            "pmid": "40750272"
+          },
+          {
+            "pmid": "36066943"
+          },
+          {
+            "pmid": "31934865"
+          },
+          {
+            "pmid": "31233183"
+          },
+          {
+            "pmid": "39499769"
+          },
+          {
+            "pmid": "38824872"
+          },
+          {
+            "pmid": "40616068"
+          },
+          {
+            "pmid": "40498501"
+          },
+          {
+            "pmid": "38479114"
+          },
+          {
+            "pmid": "38112759"
+          },
+          {
+            "pmid": "37784197"
+          },
+          {
+            "pmid": "25432061"
+          },
+          {
+            "pmid": "41651519"
+          },
+          {
+            "pmid": "23235575"
+          },
+          {
+            "pmid": "26560014"
+          },
+          {
+            "pmid": "21977855"
+          },
+          {
+            "pmid": "36697215"
+          },
+          {
+            "pmid": "27010596"
+          },
+          {
+            "pmid": "38479190"
+          },
+          {
+            "pmid": "33250396"
+          },
+          {
+            "pmid": "29305377"
+          },
+          {
+            "pmid": "38183045"
+          },
+          {
+            "pmid": "34996788"
+          },
+          {
+            "pmid": "26359220"
+          },
+          {
+            "pmid": "39165152"
+          },
+          {
+            "pmid": "39112984"
+          },
+          {
+            "pmid": "35710235"
+          },
+          {
+            "pmid": "36991326"
+          },
+          {
+            "pmid": "34052386"
+          },
+          {
+            "pmid": "39137205"
+          },
+          {
+            "pmid": "28729305"
+          },
+          {
+            "pmid": "23958154"
+          },
+          {
+            "pmid": "22753863"
+          },
+          {
+            "pmid": "30725015"
+          },
+          {
+            "pmid": "28601750"
+          },
+          {
+            "pmid": "29858144"
+          },
+          {
+            "pmid": "40617791"
+          },
+          {
+            "pmid": "32476583"
+          },
+          {
+            "pmid": "30451774"
+          },
+          {
+            "pmid": "39312271"
+          },
+          {
+            "pmid": "34155073"
+          },
+          {
+            "pmid": "32046647"
+          },
+          {
+            "pmid": "41588041"
+          },
+          {
+            "pmid": "31243692"
+          },
+          {
+            "pmid": "41258669"
+          },
+          {
+            "pmid": "26875155"
+          },
+          {
+            "pmid": "32026827"
+          },
+          {
+            "pmid": "8094485"
+          },
+          {
+            "pmid": "40042225"
+          },
+          {
+            "pmid": "33120779"
+          },
+          {
+            "pmid": "34011108"
+          },
+          {
+            "pmid": "21345714"
+          },
+          {
+            "pmid": "39432806"
+          },
+          {
+            "pmid": "10680388"
+          },
+          {
+            "pmid": "34101691"
+          },
+          {
+            "pmid": "27707686"
+          },
+          {
+            "pmid": "39797512"
+          },
+          {
+            "pmid": "28318848"
+          },
+          {
+            "pmid": "2712613"
+          },
+          {
+            "pmid": "28459155"
+          },
+          {
+            "pmid": "41469620"
+          },
+          {
+            "pmid": "31391076"
+          },
+          {
+            "pmid": "20585816"
+          },
+          {
+            "pmid": "23925924"
+          },
+          {
+            "pmid": "23560519"
+          },
+          {
+            "pmid": "29509614"
+          },
+          {
+            "pmid": "28139112"
+          },
+          {
+            "pmid": "28947462"
+          },
+          {
+            "pmid": "28368549"
+          },
+          {
+            "pmid": "23561068"
+          },
+          {
+            "pmid": "27938361"
+          },
+          {
+            "pmid": "40971509"
+          },
+          {
+            "pmid": "17761004"
+          },
+          {
+            "pmid": "23998556"
+          },
+          {
+            "pmid": "27638495"
+          },
+          {
+            "pmid": "20138809"
+          },
+          {
+            "pmid": "20163739"
+          },
+          {
+            "pmid": "23064844"
+          },
+          {
+            "pmid": "25042302"
+          },
+          {
+            "pmid": "17998780"
+          },
+          {
+            "pmid": "25872504"
+          },
+          {
+            "pmid": "26919829"
+          },
+          {
+            "pmid": "24238700"
+          },
+          {
+            "pmid": "8628585"
+          },
+          {
+            "pmid": "16881095"
+          },
+          {
+            "pmid": "24612447"
+          },
+          {
+            "pmid": "25427288"
+          },
+          {
+            "pmid": "15861964"
+          },
+          {
+            "pmid": "29406451"
+          },
+          {
+            "pmid": "9698005"
+          },
+          {
+            "pmid": "28844717"
+          }
+        ]
+      },
+      {
+        "topic": "acupuncture",
+        "query": "shoulder pain acupuncture randomized controlled trial",
+        "records": [
+          {
+            "pmid": "29198932"
+          },
+          {
+            "pmid": "33306198"
+          },
+          {
+            "pmid": "27283590"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "22405512"
+          },
+          {
+            "pmid": "39140690"
+          },
+          {
+            "pmid": "39792722"
+          },
+          {
+            "pmid": "40129422"
+          },
+          {
+            "pmid": "15846753"
+          },
+          {
+            "pmid": "37957858"
+          },
+          {
+            "pmid": "11773673"
+          },
+          {
+            "pmid": "39287298"
+          },
+          {
+            "pmid": "35728386"
+          },
+          {
+            "pmid": "39260860"
+          },
+          {
+            "pmid": "38138244"
+          },
+          {
+            "pmid": "39020490"
+          },
+          {
+            "pmid": "38273431"
+          },
+          {
+            "pmid": "27471137"
+          },
+          {
+            "pmid": "35793879"
+          },
+          {
+            "pmid": "33907132"
+          },
+          {
+            "pmid": "40954053"
+          },
+          {
+            "pmid": "35061682"
+          },
+          {
+            "pmid": "36401477"
+          },
+          {
+            "pmid": "31475496"
+          },
+          {
+            "pmid": "27062955"
+          },
+          {
+            "pmid": "20647296"
+          },
+          {
+            "pmid": "41325795"
+          },
+          {
+            "pmid": "38491439"
+          },
+          {
+            "pmid": "41431232"
+          },
+          {
+            "pmid": "41294702"
+          },
+          {
+            "pmid": "11886971"
+          },
+          {
+            "pmid": "41496087"
+          },
+          {
+            "pmid": "38092534"
+          },
+          {
+            "pmid": "36625982"
+          },
+          {
+            "pmid": "32891270"
+          },
+          {
+            "pmid": "37478239"
+          },
+          {
+            "pmid": "19489707"
+          },
+          {
+            "pmid": "35770597"
+          },
+          {
+            "pmid": "35605593"
+          },
+          {
+            "pmid": "12594972"
+          },
+          {
+            "pmid": "24742182"
+          },
+          {
+            "pmid": "26795764"
+          },
+          {
+            "pmid": "25432061"
+          },
+          {
+            "pmid": "37577885"
+          },
+          {
+            "pmid": "27720812"
+          },
+          {
+            "pmid": "30866914"
+          },
+          {
+            "pmid": "15561384"
+          },
+          {
+            "pmid": "12798078"
+          },
+          {
+            "pmid": "37652590"
+          },
+          {
+            "pmid": "37330796"
+          },
+          {
+            "pmid": "31056885"
+          },
+          {
+            "pmid": "38986592"
+          },
+          {
+            "pmid": "28106306"
+          },
+          {
+            "pmid": "30908336"
+          },
+          {
+            "pmid": "32750136"
+          },
+          {
+            "pmid": "27010596"
+          },
+          {
+            "pmid": "40944772"
+          },
+          {
+            "pmid": "37616239"
+          },
+          {
+            "pmid": "28371868"
+          },
+          {
+            "pmid": "24745863"
+          },
+          {
+            "pmid": "26129899"
+          },
+          {
+            "pmid": "23297553"
+          },
+          {
+            "pmid": "16225693"
+          },
+          {
+            "pmid": "37076182"
+          },
+          {
+            "pmid": "27288517"
+          },
+          {
+            "pmid": "25042309"
+          },
+          {
+            "pmid": "31096502"
+          },
+          {
+            "pmid": "25027157"
+          },
+          {
+            "pmid": "37550698"
+          },
+          {
+            "pmid": "22295817"
+          },
+          {
+            "pmid": "34336070"
+          },
+          {
+            "pmid": "34521235"
+          },
+          {
+            "pmid": "32571096"
+          },
+          {
+            "pmid": "37076183"
+          },
+          {
+            "pmid": "29439829"
+          },
+          {
+            "pmid": "18257436"
+          },
+          {
+            "pmid": "15337631"
+          },
+          {
+            "pmid": "40352290"
+          },
+          {
+            "pmid": "33431276"
+          },
+          {
+            "pmid": "22219023"
+          },
+          {
+            "pmid": "22871295"
+          },
+          {
+            "pmid": "36991326"
+          },
+          {
+            "pmid": "32358370"
+          },
+          {
+            "pmid": "31914084"
+          },
+          {
+            "pmid": "20545477"
+          },
+          {
+            "pmid": "34949626"
+          },
+          {
+            "pmid": "17908569"
+          },
+          {
+            "pmid": "37458014"
+          },
+          {
+            "pmid": "38867624"
+          },
+          {
+            "pmid": "38373756"
+          },
+          {
+            "pmid": "28901172"
+          },
+          {
+            "pmid": "20655660"
+          },
+          {
+            "pmid": "16941969"
+          },
+          {
+            "pmid": "19630975"
+          },
+          {
+            "pmid": "37577887"
+          },
+          {
+            "pmid": "19644905"
+          },
+          {
+            "pmid": "15322438"
+          },
+          {
+            "pmid": "32301166"
+          },
+          {
+            "pmid": "22493908"
+          },
+          {
+            "pmid": "35403396"
+          },
+          {
+            "pmid": "41397716"
+          },
+          {
+            "pmid": "35213351"
+          },
+          {
+            "pmid": "27270119"
+          },
+          {
+            "pmid": "39532438"
+          },
+          {
+            "pmid": "10534595"
+          },
+          {
+            "pmid": "18403402"
+          },
+          {
+            "pmid": "32377180"
+          },
+          {
+            "pmid": "31097283"
+          },
+          {
+            "pmid": "33761976"
+          },
+          {
+            "pmid": "42150829"
+          },
+          {
+            "pmid": "39797512"
+          },
+          {
+            "pmid": "33081823"
+          },
+          {
+            "pmid": "28713084"
+          },
+          {
+            "pmid": "38013444"
+          },
+          {
+            "pmid": "11841108"
+          },
+          {
+            "pmid": "18652322"
+          },
+          {
+            "pmid": "34840636"
+          },
+          {
+            "pmid": "24494280"
+          },
+          {
+            "pmid": "11494182"
+          },
+          {
+            "pmid": "30945504"
+          },
+          {
+            "pmid": "41276816"
+          },
+          {
+            "pmid": "33126918"
+          },
+          {
+            "pmid": "25609368"
+          },
+          {
+            "pmid": "33272311"
+          },
+          {
+            "pmid": "34160428"
+          },
+          {
+            "pmid": "23352187"
+          },
+          {
+            "pmid": "39589081"
+          },
+          {
+            "pmid": "34776182"
+          },
+          {
+            "pmid": "29549891"
+          },
+          {
+            "pmid": "39261248"
+          },
+          {
+            "pmid": "11272799"
+          },
+          {
+            "pmid": "12924842"
+          },
+          {
+            "pmid": "27816913"
+          },
+          {
+            "pmid": "18292916"
+          },
+          {
+            "pmid": "40156397"
+          },
+          {
+            "pmid": "33860035"
+          },
+          {
+            "pmid": "30455091"
+          },
+          {
+            "pmid": "38639609"
+          },
+          {
+            "pmid": "29354931"
+          },
+          {
+            "pmid": "31083192"
+          },
+          {
+            "pmid": "20034440"
+          },
+          {
+            "pmid": "30249298"
+          },
+          {
+            "pmid": "38413037"
+          },
+          {
+            "pmid": "28923050"
+          },
+          {
+            "pmid": "24929455"
+          },
+          {
+            "pmid": "30235704"
+          },
+          {
+            "pmid": "31475497"
+          },
+          {
+            "pmid": "21246849"
+          },
+          {
+            "pmid": "17080543"
+          },
+          {
+            "pmid": "22873210"
+          },
+          {
+            "pmid": "17926610"
+          },
+          {
+            "pmid": "16025785"
+          },
+          {
+            "pmid": "25380241"
+          },
+          {
+            "pmid": "21378086"
+          },
+          {
+            "pmid": "40551650"
+          },
+          {
+            "pmid": "25666690"
+          },
+          {
+            "pmid": "29071929"
+          },
+          {
+            "pmid": "27348908"
+          },
+          {
+            "pmid": "30672178"
+          },
+          {
+            "pmid": "29890806"
+          },
+          {
+            "pmid": "25233646"
+          },
+          {
+            "pmid": "27167369"
+          },
+          {
+            "pmid": "33371060"
+          },
+          {
+            "pmid": "769630"
+          },
+          {
+            "pmid": "31277532"
+          },
+          {
+            "pmid": "41839592"
+          },
+          {
+            "pmid": "21739685"
+          },
+          {
+            "pmid": "27348909"
+          },
+          {
+            "pmid": "15157691"
+          },
+          {
+            "pmid": "32869577"
+          },
+          {
+            "pmid": "30773863"
+          },
+          {
+            "pmid": "27583882"
+          },
+          {
+            "pmid": "26669201"
+          },
+          {
+            "pmid": "28254107"
+          },
+          {
+            "pmid": "31099216"
+          },
+          {
+            "pmid": "35025154"
+          },
+          {
+            "pmid": "30141290"
+          },
+          {
+            "pmid": "7894919"
+          },
+          {
+            "pmid": "29364040"
+          },
+          {
+            "pmid": "17036485"
+          },
+          {
+            "pmid": "32869579"
+          },
+          {
+            "pmid": "17722825"
+          },
+          {
+            "pmid": "10890339"
+          },
+          {
+            "pmid": "29071987"
+          },
+          {
+            "pmid": "41558700"
+          },
+          {
+            "pmid": "25335248"
+          },
+          {
+            "pmid": "28483685"
+          },
+          {
+            "pmid": "25675562"
+          },
+          {
+            "pmid": "29354969"
+          },
+          {
+            "pmid": "19186729"
+          },
+          {
+            "pmid": "26976375"
+          },
+          {
+            "pmid": "22043668"
+          },
+          {
+            "pmid": "20353111"
+          },
+          {
+            "pmid": "24298784"
+          },
+          {
+            "pmid": "16941968"
+          },
+          {
+            "pmid": "25069201"
+          },
+          {
+            "pmid": "9806695"
+          },
+          {
+            "pmid": "26964162"
+          },
+          {
+            "pmid": "17691577"
+          },
+          {
+            "pmid": "17926616"
+          },
+          {
+            "pmid": "29481640"
+          },
+          {
+            "pmid": "30091545"
+          },
+          {
+            "pmid": "23620934"
+          },
+          {
+            "pmid": "17585669"
+          },
+          {
+            "pmid": "16972832"
+          },
+          {
+            "pmid": "33415870"
+          },
+          {
+            "pmid": "23819225"
+          },
+          {
+            "pmid": "18630538"
+          },
+          {
+            "pmid": "16813184"
+          },
+          {
+            "pmid": "23342781"
+          },
+          {
+            "pmid": "24791510"
+          },
+          {
+            "pmid": "29071931"
+          },
+          {
+            "pmid": "19358503"
+          },
+          {
+            "pmid": "19127912"
+          },
+          {
+            "pmid": "18972728"
+          },
+          {
+            "pmid": "19097508"
+          }
+        ]
+      },
+      {
+        "topic": "electroacupuncture",
+        "query": "periarthritis shoulder electroacupuncture randomized trial",
+        "records": [
+          {
+            "pmid": "31475497"
+          },
+          {
+            "pmid": "29071987"
+          },
+          {
+            "pmid": "17926610"
+          },
+          {
+            "pmid": "38413037"
+          },
+          {
+            "pmid": "7894919"
+          },
+          {
+            "pmid": "23620934"
+          },
+          {
+            "pmid": "19186729"
+          }
+        ]
+      },
+      {
+        "topic": "massage",
+        "query": "shoulder pain massage randomized controlled trial",
+        "records": [
+          {
+            "pmid": "39465967"
+          },
+          {
+            "pmid": "25595999"
+          },
+          {
+            "pmid": "35079831"
+          },
+          {
+            "pmid": "36637800"
+          },
+          {
+            "pmid": "39792722"
+          },
+          {
+            "pmid": "26542271"
+          },
+          {
+            "pmid": "40325761"
+          },
+          {
+            "pmid": "40329151"
+          },
+          {
+            "pmid": "40603619"
+          },
+          {
+            "pmid": "41233171"
+          },
+          {
+            "pmid": "40641717"
+          },
+          {
+            "pmid": "20055567"
+          },
+          {
+            "pmid": "37759246"
+          },
+          {
+            "pmid": "40125732"
+          },
+          {
+            "pmid": "24990417"
+          },
+          {
+            "pmid": "36348045"
+          },
+          {
+            "pmid": "37752263"
+          },
+          {
+            "pmid": "26023217"
+          },
+          {
+            "pmid": "35605593"
+          },
+          {
+            "pmid": "23297553"
+          },
+          {
+            "pmid": "40944772"
+          },
+          {
+            "pmid": "14736355"
+          },
+          {
+            "pmid": "21570335"
+          },
+          {
+            "pmid": "31096502"
+          },
+          {
+            "pmid": "35331719"
+          },
+          {
+            "pmid": "23192716"
+          },
+          {
+            "pmid": "26477632"
+          },
+          {
+            "pmid": "38320240"
+          },
+          {
+            "pmid": "41588041"
+          },
+          {
+            "pmid": "30680850"
+          },
+          {
+            "pmid": "34991428"
+          },
+          {
+            "pmid": "39663074"
+          },
+          {
+            "pmid": "20347836"
+          },
+          {
+            "pmid": "38727119"
+          },
+          {
+            "pmid": "28139112"
+          },
+          {
+            "pmid": "38867624"
+          },
+          {
+            "pmid": "25042302"
+          },
+          {
+            "pmid": "38013444"
+          },
+          {
+            "pmid": "23524365"
+          },
+          {
+            "pmid": "15519938"
+          },
+          {
+            "pmid": "19467911"
+          },
+          {
+            "pmid": "30470892"
+          },
+          {
+            "pmid": "39206782"
+          },
+          {
+            "pmid": "28719982"
+          },
+          {
+            "pmid": "30149414"
+          },
+          {
+            "pmid": "32056816"
+          },
+          {
+            "pmid": "12952518"
+          },
+          {
+            "pmid": "33860035"
+          },
+          {
+            "pmid": "20006290"
+          },
+          {
+            "pmid": "24338903"
+          },
+          {
+            "pmid": "33126918"
+          },
+          {
+            "pmid": "21705873"
+          },
+          {
+            "pmid": "32703613"
+          },
+          {
+            "pmid": "23620953"
+          },
+          {
+            "pmid": "25677413"
+          },
+          {
+            "pmid": "10517036"
+          },
+          {
+            "pmid": "39137205"
+          },
+          {
+            "pmid": "9755021"
+          },
+          {
+            "pmid": "17760981"
+          },
+          {
+            "pmid": "29991270"
+          },
+          {
+            "pmid": "23561068"
+          },
+          {
+            "pmid": "40551650"
+          },
+          {
+            "pmid": "25439510"
+          },
+          {
+            "pmid": "20170774"
+          },
+          {
+            "pmid": "17761004"
+          },
+          {
+            "pmid": "25943440"
+          },
+          {
+            "pmid": "22540970"
+          },
+          {
+            "pmid": "42301656"
+          },
+          {
+            "pmid": "17585669"
+          },
+          {
+            "pmid": "36281150"
+          },
+          {
+            "pmid": "15322438"
+          },
+          {
+            "pmid": "21849055"
+          },
+          {
+            "pmid": "42021349"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "15108949"
+          },
+          {
+            "pmid": "21145085"
+          },
+          {
+            "pmid": "31525829"
+          },
+          {
+            "pmid": "19817194"
+          },
+          {
+            "pmid": "32869579"
+          },
+          {
+            "pmid": "9435797"
+          },
+          {
+            "pmid": "17926616"
+          },
+          {
+            "pmid": "16941968"
+          },
+          {
+            "pmid": "23620934"
+          },
+          {
+            "pmid": "11872106"
+          },
+          {
+            "pmid": "29071931"
+          },
+          {
+            "pmid": "16813184"
+          }
+        ]
+      },
+      {
+        "topic": "manual-therapy",
+        "query": "rotator cuff disease manual therapy randomized controlled trial",
+        "records": [
+          {
+            "pmid": "27283590"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "40102149"
+          },
+          {
+            "pmid": "20530557"
+          },
+          {
+            "pmid": "32481335"
+          },
+          {
+            "pmid": "21623001"
+          },
+          {
+            "pmid": "42472794"
+          },
+          {
+            "pmid": "21393644"
+          },
+          {
+            "pmid": "26976375"
+          },
+          {
+            "pmid": "25185788"
+          },
+          {
+            "pmid": "12881822"
+          },
+          {
+            "pmid": "25920340"
+          }
+        ]
+      },
+      {
+        "topic": "joint-mobilization",
+        "query": "adhesive capsulitis joint mobilization randomized trial",
+        "records": [
+          {
+            "pmid": "35443651"
+          },
+          {
+            "pmid": "25157702"
+          },
+          {
+            "pmid": "33185587"
+          },
+          {
+            "pmid": "39905175"
+          },
+          {
+            "pmid": "34964679"
+          },
+          {
+            "pmid": "33992280"
+          },
+          {
+            "pmid": "37559358"
+          },
+          {
+            "pmid": "26284892"
+          },
+          {
+            "pmid": "22405512"
+          },
+          {
+            "pmid": "31475938"
+          },
+          {
+            "pmid": "38092231"
+          },
+          {
+            "pmid": "33010843"
+          },
+          {
+            "pmid": "26229109"
+          },
+          {
+            "pmid": "39436270"
+          },
+          {
+            "pmid": "37266649"
+          },
+          {
+            "pmid": "40768512"
+          },
+          {
+            "pmid": "38824872"
+          },
+          {
+            "pmid": "42363316"
+          },
+          {
+            "pmid": "41549328"
+          },
+          {
+            "pmid": "18254123"
+          },
+          {
+            "pmid": "11587654"
+          },
+          {
+            "pmid": "30268804"
+          },
+          {
+            "pmid": "41231165"
+          },
+          {
+            "pmid": "15162102"
+          },
+          {
+            "pmid": "30312288"
+          },
+          {
+            "pmid": "29202560"
+          },
+          {
+            "pmid": "31324377"
+          },
+          {
+            "pmid": "38118247"
+          },
+          {
+            "pmid": "16506872"
+          },
+          {
+            "pmid": "26485477"
+          },
+          {
+            "pmid": "38763611"
+          },
+          {
+            "pmid": "42264812"
+          },
+          {
+            "pmid": "25714415"
+          },
+          {
+            "pmid": "41975488"
+          },
+          {
+            "pmid": "20585816"
+          },
+          {
+            "pmid": "34187937"
+          },
+          {
+            "pmid": "31409380"
+          },
+          {
+            "pmid": "29658838"
+          },
+          {
+            "pmid": "23985778"
+          },
+          {
+            "pmid": "31622290"
+          },
+          {
+            "pmid": "29037627"
+          },
+          {
+            "pmid": "1281062"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "22850489"
+          },
+          {
+            "pmid": "30893230"
+          },
+          {
+            "pmid": "17416123"
+          },
+          {
+            "pmid": "24211154"
+          },
+          {
+            "pmid": "41992361"
+          },
+          {
+            "pmid": "42082230"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "19270045"
+          },
+          {
+            "pmid": "23620934"
+          }
+        ]
+      },
+      {
+        "topic": "tens",
+        "query": "shoulder pain transcutaneous electrical nerve stimulation randomized trial",
+        "records": [
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "25271097"
+          },
+          {
+            "pmid": "32128761"
+          },
+          {
+            "pmid": "39140690"
+          },
+          {
+            "pmid": "40389679"
+          },
+          {
+            "pmid": "11034725"
+          },
+          {
+            "pmid": "26619821"
+          },
+          {
+            "pmid": "37759246"
+          },
+          {
+            "pmid": "35055558"
+          },
+          {
+            "pmid": "35152592"
+          },
+          {
+            "pmid": "37097883"
+          },
+          {
+            "pmid": "11237161"
+          },
+          {
+            "pmid": "40954053"
+          },
+          {
+            "pmid": "40750272"
+          },
+          {
+            "pmid": "37459422"
+          },
+          {
+            "pmid": "36276359"
+          },
+          {
+            "pmid": "29777714"
+          },
+          {
+            "pmid": "32803220"
+          },
+          {
+            "pmid": "36565102"
+          },
+          {
+            "pmid": "29743962"
+          },
+          {
+            "pmid": "25555523"
+          },
+          {
+            "pmid": "28554433"
+          },
+          {
+            "pmid": "25432061"
+          },
+          {
+            "pmid": "37577885"
+          },
+          {
+            "pmid": "41005804"
+          },
+          {
+            "pmid": "32967397"
+          },
+          {
+            "pmid": "17666721"
+          },
+          {
+            "pmid": "9483161"
+          },
+          {
+            "pmid": "27270119"
+          },
+          {
+            "pmid": "27288517"
+          },
+          {
+            "pmid": "32517390"
+          },
+          {
+            "pmid": "8740603"
+          },
+          {
+            "pmid": "28400182"
+          },
+          {
+            "pmid": "25990576"
+          },
+          {
+            "pmid": "29183339"
+          },
+          {
+            "pmid": "34406254"
+          },
+          {
+            "pmid": "28106306"
+          },
+          {
+            "pmid": "24287218"
+          },
+          {
+            "pmid": "34776182"
+          },
+          {
+            "pmid": "21119312"
+          },
+          {
+            "pmid": "32143732"
+          },
+          {
+            "pmid": "20685721"
+          },
+          {
+            "pmid": "22493908"
+          },
+          {
+            "pmid": "29505689"
+          },
+          {
+            "pmid": "28735847"
+          },
+          {
+            "pmid": "36600309"
+          },
+          {
+            "pmid": "33761976"
+          },
+          {
+            "pmid": "18338278"
+          },
+          {
+            "pmid": "11810350"
+          },
+          {
+            "pmid": "25439510"
+          },
+          {
+            "pmid": "31097283"
+          },
+          {
+            "pmid": "37918714"
+          },
+          {
+            "pmid": "30866914"
+          },
+          {
+            "pmid": "32975923"
+          },
+          {
+            "pmid": "34840636"
+          },
+          {
+            "pmid": "30863472"
+          },
+          {
+            "pmid": "33935058"
+          },
+          {
+            "pmid": "24355994"
+          },
+          {
+            "pmid": "30040706"
+          },
+          {
+            "pmid": "19916253"
+          },
+          {
+            "pmid": "41060383"
+          },
+          {
+            "pmid": "22699130"
+          },
+          {
+            "pmid": "11272799"
+          },
+          {
+            "pmid": "24343457"
+          },
+          {
+            "pmid": "18403402"
+          },
+          {
+            "pmid": "23560519"
+          },
+          {
+            "pmid": "26472297"
+          },
+          {
+            "pmid": "18292916"
+          },
+          {
+            "pmid": "26552835"
+          },
+          {
+            "pmid": "29777953"
+          },
+          {
+            "pmid": "33715788"
+          },
+          {
+            "pmid": "9806695"
+          },
+          {
+            "pmid": "23037929"
+          },
+          {
+            "pmid": "17624477"
+          },
+          {
+            "pmid": "23352187"
+          },
+          {
+            "pmid": "27002665"
+          },
+          {
+            "pmid": "22873210"
+          },
+          {
+            "pmid": "17926610"
+          },
+          {
+            "pmid": "15180118"
+          },
+          {
+            "pmid": "16225693"
+          },
+          {
+            "pmid": "20046171"
+          },
+          {
+            "pmid": "29354931"
+          },
+          {
+            "pmid": "31475497"
+          },
+          {
+            "pmid": "34336070"
+          },
+          {
+            "pmid": "15322438"
+          },
+          {
+            "pmid": "21252605"
+          },
+          {
+            "pmid": "15695959"
+          },
+          {
+            "pmid": "3488361"
+          },
+          {
+            "pmid": "33089368"
+          },
+          {
+            "pmid": "31099216"
+          },
+          {
+            "pmid": "42287703"
+          },
+          {
+            "pmid": "11387579"
+          },
+          {
+            "pmid": "23620934"
+          },
+          {
+            "pmid": "7894919"
+          },
+          {
+            "pmid": "29071987"
+          },
+          {
+            "pmid": "19186729"
+          },
+          {
+            "pmid": "20353111"
+          },
+          {
+            "pmid": "14634938"
+          },
+          {
+            "pmid": "17926616"
+          },
+          {
+            "pmid": "20926997"
+          },
+          {
+            "pmid": "17722825"
+          },
+          {
+            "pmid": "20134218"
+          },
+          {
+            "pmid": "12881822"
+          },
+          {
+            "pmid": "18972728"
+          }
+        ]
+      },
+      {
+        "topic": "heat",
+        "query": "adhesive capsulitis heat therapy randomized trial",
+        "records": [
+          {
+            "pmid": "24217037"
+          },
+          {
+            "pmid": "22405512"
+          },
+          {
+            "pmid": "40389679"
+          },
+          {
+            "pmid": "40628437"
+          },
+          {
+            "pmid": "40857136"
+          },
+          {
+            "pmid": "37545213"
+          },
+          {
+            "pmid": "37545212"
+          },
+          {
+            "pmid": "40401517"
+          },
+          {
+            "pmid": "39711473"
+          },
+          {
+            "pmid": "15162102"
+          },
+          {
+            "pmid": "35964170"
+          },
+          {
+            "pmid": "37667875"
+          },
+          {
+            "pmid": "25441567"
+          },
+          {
+            "pmid": "32756135"
+          },
+          {
+            "pmid": "3511478"
+          },
+          {
+            "pmid": "34784804"
+          },
+          {
+            "pmid": "38777616"
+          },
+          {
+            "pmid": "18455944"
+          },
+          {
+            "pmid": "40172546"
+          },
+          {
+            "pmid": "30040706"
+          },
+          {
+            "pmid": "32553435"
+          },
+          {
+            "pmid": "30762780"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "31622290"
+          },
+          {
+            "pmid": "29037627"
+          },
+          {
+            "pmid": "28142347"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "20046171"
+          },
+          {
+            "pmid": "19270045"
+          },
+          {
+            "pmid": "34965635"
+          },
+          {
+            "pmid": "17416123"
+          },
+          {
+            "pmid": "22143923"
+          },
+          {
+            "pmid": "22985567"
+          }
+        ]
+      },
+      {
+        "topic": "ultrasound",
+        "query": "shoulder impingement therapeutic ultrasound randomized trial",
+        "records": [
+          {
+            "pmid": "24217037"
+          },
+          {
+            "pmid": "36082154"
+          },
+          {
+            "pmid": "31813166"
+          },
+          {
+            "pmid": "25761173"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "39441207"
+          },
+          {
+            "pmid": "25824429"
+          },
+          {
+            "pmid": "40586862"
+          },
+          {
+            "pmid": "34966059"
+          },
+          {
+            "pmid": "41418245"
+          },
+          {
+            "pmid": "31150601"
+          },
+          {
+            "pmid": "36730000"
+          },
+          {
+            "pmid": "15162102"
+          },
+          {
+            "pmid": "37253875"
+          },
+          {
+            "pmid": "23246416"
+          },
+          {
+            "pmid": "33338463"
+          },
+          {
+            "pmid": "32444201"
+          },
+          {
+            "pmid": "17464615"
+          },
+          {
+            "pmid": "32816787"
+          },
+          {
+            "pmid": "33858205"
+          },
+          {
+            "pmid": "29703659"
+          },
+          {
+            "pmid": "28376756"
+          },
+          {
+            "pmid": "26051846"
+          },
+          {
+            "pmid": "32638239"
+          },
+          {
+            "pmid": "21368663"
+          },
+          {
+            "pmid": "29613883"
+          },
+          {
+            "pmid": "28655271"
+          },
+          {
+            "pmid": "29459121"
+          },
+          {
+            "pmid": "24346151"
+          },
+          {
+            "pmid": "15921471"
+          },
+          {
+            "pmid": "24625273"
+          },
+          {
+            "pmid": "21946399"
+          },
+          {
+            "pmid": "22495146"
+          },
+          {
+            "pmid": "27002665"
+          },
+          {
+            "pmid": "19482902"
+          },
+          {
+            "pmid": "42287703"
+          },
+          {
+            "pmid": "17916468"
+          },
+          {
+            "pmid": "19717942"
+          }
+        ]
+      },
+      {
+        "topic": "shockwave",
+        "query": "calcific shoulder tendinitis shock wave randomized controlled trial",
+        "records": [
+          {
+            "pmid": "32128761"
+          },
+          {
+            "pmid": "35361169"
+          },
+          {
+            "pmid": "35068440"
+          },
+          {
+            "pmid": "12085291"
+          },
+          {
+            "pmid": "33283581"
+          },
+          {
+            "pmid": "29185674"
+          },
+          {
+            "pmid": "39294797"
+          },
+          {
+            "pmid": "18069011"
+          },
+          {
+            "pmid": "23499780"
+          },
+          {
+            "pmid": "16002492"
+          },
+          {
+            "pmid": "16649891"
+          },
+          {
+            "pmid": "10530851"
+          },
+          {
+            "pmid": "12594112"
+          },
+          {
+            "pmid": "9814931"
+          },
+          {
+            "pmid": "17356145"
+          },
+          {
+            "pmid": "15795200"
+          },
+          {
+            "pmid": "12043769"
+          },
+          {
+            "pmid": "14648264"
+          },
+          {
+            "pmid": "11400897"
+          },
+          {
+            "pmid": "22745199"
+          },
+          {
+            "pmid": "26361756"
+          },
+          {
+            "pmid": "32114063"
+          },
+          {
+            "pmid": "25219475"
+          },
+          {
+            "pmid": "19358394"
+          },
+          {
+            "pmid": "21508083"
+          },
+          {
+            "pmid": "28586628"
+          },
+          {
+            "pmid": "12881822"
+          },
+          {
+            "pmid": "14625334"
+          },
+          {
+            "pmid": "11953624"
+          },
+          {
+            "pmid": "22672772"
+          },
+          {
+            "pmid": "24728846"
+          },
+          {
+            "pmid": "17347862"
+          },
+          {
+            "pmid": "27070534"
+          },
+          {
+            "pmid": "9324482"
+          }
+        ]
+      },
+      {
+        "topic": "kinesio-taping",
+        "query": "rotator cuff tendinopathy kinesio taping randomized trial",
+        "records": [
+          {
+            "pmid": "39202470"
+          },
+          {
+            "pmid": "30676323"
+          },
+          {
+            "pmid": "38378298"
+          },
+          {
+            "pmid": "29185674"
+          }
+        ]
+      },
+      {
+        "topic": "manual-therapy",
+        "query": "myofascial shoulder pain dry needling randomized trial",
+        "records": [
+          {
+            "pmid": "39140690"
+          },
+          {
+            "pmid": "30935341"
+          },
+          {
+            "pmid": "31103113"
+          },
+          {
+            "pmid": "39639410"
+          },
+          {
+            "pmid": "37225266"
+          },
+          {
+            "pmid": "39930809"
+          },
+          {
+            "pmid": "32990529"
+          },
+          {
+            "pmid": "28017188"
+          },
+          {
+            "pmid": "32009422"
+          },
+          {
+            "pmid": "25794307"
+          },
+          {
+            "pmid": "26760574"
+          },
+          {
+            "pmid": "20545477"
+          },
+          {
+            "pmid": "32290577"
+          },
+          {
+            "pmid": "30796868"
+          },
+          {
+            "pmid": "17449984"
+          },
+          {
+            "pmid": "25042309"
+          },
+          {
+            "pmid": "29439829"
+          },
+          {
+            "pmid": "37101278"
+          },
+          {
+            "pmid": "25576642"
+          },
+          {
+            "pmid": "22871295"
+          },
+          {
+            "pmid": "30893405"
+          },
+          {
+            "pmid": "27937046"
+          },
+          {
+            "pmid": "19630975"
+          },
+          {
+            "pmid": "28923050"
+          },
+          {
+            "pmid": "29364040"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "24725800"
+          }
+        ]
+      },
+      {
+        "topic": "home-exercise",
+        "query": "frozen shoulder physiotherapy exercise randomized controlled trial",
+        "records": [
+          {
+            "pmid": "36861780"
+          },
+          {
+            "pmid": "35443651"
+          },
+          {
+            "pmid": "25157702"
+          },
+          {
+            "pmid": "36670364"
+          },
+          {
+            "pmid": "41276811"
+          },
+          {
+            "pmid": "34265255"
+          },
+          {
+            "pmid": "22405512"
+          },
+          {
+            "pmid": "36922413"
+          },
+          {
+            "pmid": "27139495"
+          },
+          {
+            "pmid": "27834675"
+          },
+          {
+            "pmid": "24630545"
+          },
+          {
+            "pmid": "25271097"
+          },
+          {
+            "pmid": "40317031"
+          },
+          {
+            "pmid": "31475938"
+          },
+          {
+            "pmid": "33010843"
+          },
+          {
+            "pmid": "37001795"
+          },
+          {
+            "pmid": "37021475"
+          },
+          {
+            "pmid": "26229109"
+          },
+          {
+            "pmid": "31200629"
+          },
+          {
+            "pmid": "29169668"
+          },
+          {
+            "pmid": "40389679"
+          },
+          {
+            "pmid": "29720374"
+          },
+          {
+            "pmid": "39700302"
+          },
+          {
+            "pmid": "39436270"
+          },
+          {
+            "pmid": "40768512"
+          },
+          {
+            "pmid": "40580799"
+          },
+          {
+            "pmid": "11773673"
+          },
+          {
+            "pmid": "37595942"
+          },
+          {
+            "pmid": "37558085"
+          },
+          {
+            "pmid": "15657070"
+          },
+          {
+            "pmid": "41476186"
+          },
+          {
+            "pmid": "29046254"
+          },
+          {
+            "pmid": "12792213"
+          },
+          {
+            "pmid": "30707445"
+          },
+          {
+            "pmid": "36842462"
+          },
+          {
+            "pmid": "37667875"
+          },
+          {
+            "pmid": "40857136"
+          },
+          {
+            "pmid": "39308811"
+          },
+          {
+            "pmid": "41846416"
+          },
+          {
+            "pmid": "11587654"
+          },
+          {
+            "pmid": "28081633"
+          },
+          {
+            "pmid": "42363316"
+          },
+          {
+            "pmid": "18292916"
+          },
+          {
+            "pmid": "32602557"
+          },
+          {
+            "pmid": "39682050"
+          },
+          {
+            "pmid": "29157224"
+          },
+          {
+            "pmid": "28318848"
+          },
+          {
+            "pmid": "17684085"
+          },
+          {
+            "pmid": "18509580"
+          },
+          {
+            "pmid": "35598025"
+          },
+          {
+            "pmid": "37452810"
+          },
+          {
+            "pmid": "35964170"
+          },
+          {
+            "pmid": "33043381"
+          },
+          {
+            "pmid": "38689290"
+          },
+          {
+            "pmid": "29037627"
+          },
+          {
+            "pmid": "30268804"
+          },
+          {
+            "pmid": "30526016"
+          },
+          {
+            "pmid": "35749349"
+          },
+          {
+            "pmid": "27002662"
+          },
+          {
+            "pmid": "35687702"
+          },
+          {
+            "pmid": "21252605"
+          },
+          {
+            "pmid": "42104784"
+          },
+          {
+            "pmid": "17665470"
+          },
+          {
+            "pmid": "21119312"
+          },
+          {
+            "pmid": "34117042"
+          },
+          {
+            "pmid": "23507791"
+          },
+          {
+            "pmid": "15695959"
+          },
+          {
+            "pmid": "18511530"
+          },
+          {
+            "pmid": "37147087"
+          },
+          {
+            "pmid": "29893977"
+          },
+          {
+            "pmid": "33475581"
+          },
+          {
+            "pmid": "33296615"
+          },
+          {
+            "pmid": "30040706"
+          },
+          {
+            "pmid": "31409380"
+          },
+          {
+            "pmid": "19011582"
+          },
+          {
+            "pmid": "23426700"
+          },
+          {
+            "pmid": "28632975"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "3511478"
+          },
+          {
+            "pmid": "30056414"
+          },
+          {
+            "pmid": "23352187"
+          },
+          {
+            "pmid": "26657263"
+          },
+          {
+            "pmid": "12632439"
+          },
+          {
+            "pmid": "41975488"
+          },
+          {
+            "pmid": "35099430"
+          },
+          {
+            "pmid": "41992361"
+          },
+          {
+            "pmid": "26875065"
+          },
+          {
+            "pmid": "23037929"
+          },
+          {
+            "pmid": "23604641"
+          },
+          {
+            "pmid": "26203643"
+          },
+          {
+            "pmid": "17931902"
+          },
+          {
+            "pmid": "41588720"
+          },
+          {
+            "pmid": "21944980"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "36327536"
+          },
+          {
+            "pmid": "10093796"
+          },
+          {
+            "pmid": "22502793"
+          },
+          {
+            "pmid": "20585816"
+          },
+          {
+            "pmid": "25675562"
+          },
+          {
+            "pmid": "24211154"
+          },
+          {
+            "pmid": "34965635"
+          },
+          {
+            "pmid": "17416123"
+          },
+          {
+            "pmid": "2009043"
+          },
+          {
+            "pmid": "23662659"
+          },
+          {
+            "pmid": "11678298"
+          }
+        ]
+      },
+      {
+        "topic": "manual-therapy",
+        "query": "frozen shoulder manual therapy randomized trial",
+        "records": [
+          {
+            "pmid": "36861780"
+          },
+          {
+            "pmid": "35443651"
+          },
+          {
+            "pmid": "25157702"
+          },
+          {
+            "pmid": "33185587"
+          },
+          {
+            "pmid": "34334099"
+          },
+          {
+            "pmid": "24217037"
+          },
+          {
+            "pmid": "37001795"
+          },
+          {
+            "pmid": "25271097"
+          },
+          {
+            "pmid": "39905175"
+          },
+          {
+            "pmid": "31475938"
+          },
+          {
+            "pmid": "37559358"
+          },
+          {
+            "pmid": "39189938"
+          },
+          {
+            "pmid": "33010843"
+          },
+          {
+            "pmid": "40819086"
+          },
+          {
+            "pmid": "26284892"
+          },
+          {
+            "pmid": "26229109"
+          },
+          {
+            "pmid": "40768512"
+          },
+          {
+            "pmid": "37266649"
+          },
+          {
+            "pmid": "12792213"
+          },
+          {
+            "pmid": "38353489"
+          },
+          {
+            "pmid": "22284766"
+          },
+          {
+            "pmid": "22087611"
+          },
+          {
+            "pmid": "18555732"
+          },
+          {
+            "pmid": "11552189"
+          },
+          {
+            "pmid": "41846416"
+          },
+          {
+            "pmid": "21833684"
+          },
+          {
+            "pmid": "28081633"
+          },
+          {
+            "pmid": "23423135"
+          },
+          {
+            "pmid": "32941053"
+          },
+          {
+            "pmid": "26485477"
+          },
+          {
+            "pmid": "30268804"
+          },
+          {
+            "pmid": "29273079"
+          },
+          {
+            "pmid": "28483657"
+          },
+          {
+            "pmid": "29037627"
+          },
+          {
+            "pmid": "35198631"
+          },
+          {
+            "pmid": "41231165"
+          },
+          {
+            "pmid": "41543217"
+          },
+          {
+            "pmid": "25770420"
+          },
+          {
+            "pmid": "38763611"
+          },
+          {
+            "pmid": "17665470"
+          },
+          {
+            "pmid": "31097283"
+          },
+          {
+            "pmid": "21944980"
+          },
+          {
+            "pmid": "30312288"
+          },
+          {
+            "pmid": "24205764"
+          },
+          {
+            "pmid": "29658838"
+          },
+          {
+            "pmid": "42472794"
+          },
+          {
+            "pmid": "19011582"
+          },
+          {
+            "pmid": "20527999"
+          },
+          {
+            "pmid": "20635603"
+          },
+          {
+            "pmid": "2009043"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "19393928"
+          },
+          {
+            "pmid": "29020962"
+          },
+          {
+            "pmid": "16409980"
+          },
+          {
+            "pmid": "17905957"
+          },
+          {
+            "pmid": "23352187"
+          },
+          {
+            "pmid": "15318285"
+          },
+          {
+            "pmid": "31324377"
+          },
+          {
+            "pmid": "16506872"
+          },
+          {
+            "pmid": "38413037"
+          },
+          {
+            "pmid": "17931902"
+          },
+          {
+            "pmid": "41992361"
+          },
+          {
+            "pmid": "27771263"
+          },
+          {
+            "pmid": "41975488"
+          },
+          {
+            "pmid": "32374228"
+          },
+          {
+            "pmid": "23037929"
+          },
+          {
+            "pmid": "42264812"
+          },
+          {
+            "pmid": "22918828"
+          },
+          {
+            "pmid": "25830267"
+          },
+          {
+            "pmid": "19270045"
+          },
+          {
+            "pmid": "17585669"
+          },
+          {
+            "pmid": "23620934"
+          },
+          {
+            "pmid": "23785922"
+          }
+        ]
+      },
+      {
+        "topic": "scapular-exercise",
+        "query": "shoulder pain scapular stabilization randomized controlled trial",
+        "records": [
+          {
+            "pmid": "38432789"
+          },
+          {
+            "pmid": "35673945"
+          },
+          {
+            "pmid": "36922413"
+          },
+          {
+            "pmid": "37866984"
+          },
+          {
+            "pmid": "38376127"
+          },
+          {
+            "pmid": "28652066"
+          },
+          {
+            "pmid": "21849731"
+          },
+          {
+            "pmid": "38438448"
+          },
+          {
+            "pmid": "39419431"
+          },
+          {
+            "pmid": "34663424"
+          },
+          {
+            "pmid": "40615303"
+          },
+          {
+            "pmid": "41303896"
+          },
+          {
+            "pmid": "37452810"
+          },
+          {
+            "pmid": "40839658"
+          },
+          {
+            "pmid": "38561733"
+          },
+          {
+            "pmid": "35821447"
+          },
+          {
+            "pmid": "21944077"
+          },
+          {
+            "pmid": "41975358"
+          },
+          {
+            "pmid": "42260441"
+          },
+          {
+            "pmid": "28605288"
+          },
+          {
+            "pmid": "26891646"
+          },
+          {
+            "pmid": "37341050"
+          },
+          {
+            "pmid": "39755484"
+          },
+          {
+            "pmid": "32861372"
+          },
+          {
+            "pmid": "29329890"
+          },
+          {
+            "pmid": "40368375"
+          },
+          {
+            "pmid": "29278869"
+          },
+          {
+            "pmid": "29319386"
+          },
+          {
+            "pmid": "31013190"
+          },
+          {
+            "pmid": "31391076"
+          },
+          {
+            "pmid": "28818450"
+          },
+          {
+            "pmid": "15162353"
+          },
+          {
+            "pmid": "42347953"
+          },
+          {
+            "pmid": "40156270"
+          }
+        ]
+      },
+      {
+        "topic": "rotator-cuff-exercise",
+        "query": "subacromial pain exercise therapy randomized controlled trial",
+        "records": [
+          {
+            "pmid": "38432789"
+          },
+          {
+            "pmid": "27283590"
+          },
+          {
+            "pmid": "41276811"
+          },
+          {
+            "pmid": "31813166"
+          },
+          {
+            "pmid": "34265255"
+          },
+          {
+            "pmid": "36082154"
+          },
+          {
+            "pmid": "32017660"
+          },
+          {
+            "pmid": "37030191"
+          },
+          {
+            "pmid": "27283591"
+          },
+          {
+            "pmid": "37777940"
+          },
+          {
+            "pmid": "27351548"
+          },
+          {
+            "pmid": "21765229"
+          },
+          {
+            "pmid": "38532530"
+          },
+          {
+            "pmid": "39419431"
+          },
+          {
+            "pmid": "28652066"
+          },
+          {
+            "pmid": "40712864"
+          },
+          {
+            "pmid": "39593596"
+          },
+          {
+            "pmid": "36000960"
+          },
+          {
+            "pmid": "29169668"
+          },
+          {
+            "pmid": "33634829"
+          },
+          {
+            "pmid": "35500978"
+          },
+          {
+            "pmid": "37377154"
+          },
+          {
+            "pmid": "33020137"
+          },
+          {
+            "pmid": "33941143"
+          },
+          {
+            "pmid": "26471852"
+          },
+          {
+            "pmid": "37021475"
+          },
+          {
+            "pmid": "39792722"
+          },
+          {
+            "pmid": "22349588"
+          },
+          {
+            "pmid": "21849731"
+          },
+          {
+            "pmid": "39716615"
+          },
+          {
+            "pmid": "41330610"
+          },
+          {
+            "pmid": "34382931"
+          },
+          {
+            "pmid": "41476428"
+          },
+          {
+            "pmid": "32555026"
+          },
+          {
+            "pmid": "28812398"
+          },
+          {
+            "pmid": "35710235"
+          },
+          {
+            "pmid": "41303896"
+          },
+          {
+            "pmid": "41720248"
+          },
+          {
+            "pmid": "30707445"
+          },
+          {
+            "pmid": "27251897"
+          },
+          {
+            "pmid": "27720812"
+          },
+          {
+            "pmid": "34666734"
+          },
+          {
+            "pmid": "35183878"
+          },
+          {
+            "pmid": "38194359"
+          },
+          {
+            "pmid": "3511478"
+          },
+          {
+            "pmid": "40615995"
+          },
+          {
+            "pmid": "32217273"
+          },
+          {
+            "pmid": "29777953"
+          },
+          {
+            "pmid": "21110409"
+          },
+          {
+            "pmid": "28416022"
+          },
+          {
+            "pmid": "40975207"
+          },
+          {
+            "pmid": "33744191"
+          },
+          {
+            "pmid": "20534140"
+          },
+          {
+            "pmid": "27288517"
+          },
+          {
+            "pmid": "32942730"
+          },
+          {
+            "pmid": "35033043"
+          },
+          {
+            "pmid": "27262892"
+          },
+          {
+            "pmid": "33400012"
+          },
+          {
+            "pmid": "33930326"
+          },
+          {
+            "pmid": "36095157"
+          },
+          {
+            "pmid": "28588109"
+          },
+          {
+            "pmid": "34866887"
+          },
+          {
+            "pmid": "40722073"
+          },
+          {
+            "pmid": "31726386"
+          },
+          {
+            "pmid": "39069293"
+          },
+          {
+            "pmid": "32571081"
+          },
+          {
+            "pmid": "29540872"
+          },
+          {
+            "pmid": "30026230"
+          },
+          {
+            "pmid": "37820844"
+          },
+          {
+            "pmid": "38618993"
+          },
+          {
+            "pmid": "36872599"
+          },
+          {
+            "pmid": "36898767"
+          },
+          {
+            "pmid": "32217272"
+          },
+          {
+            "pmid": "28106306"
+          },
+          {
+            "pmid": "25450903"
+          },
+          {
+            "pmid": "29157224"
+          },
+          {
+            "pmid": "24625273"
+          },
+          {
+            "pmid": "19250050"
+          },
+          {
+            "pmid": "31394380"
+          },
+          {
+            "pmid": "36918309"
+          },
+          {
+            "pmid": "26361756"
+          },
+          {
+            "pmid": "30680850"
+          },
+          {
+            "pmid": "23619543"
+          },
+          {
+            "pmid": "25403253"
+          },
+          {
+            "pmid": "15788347"
+          },
+          {
+            "pmid": "34759182"
+          },
+          {
+            "pmid": "35702007"
+          },
+          {
+            "pmid": "24970843"
+          },
+          {
+            "pmid": "20584793"
+          },
+          {
+            "pmid": "21119312"
+          },
+          {
+            "pmid": "15278758"
+          },
+          {
+            "pmid": "34048281"
+          },
+          {
+            "pmid": "32857944"
+          },
+          {
+            "pmid": "33307783"
+          },
+          {
+            "pmid": "26098920"
+          },
+          {
+            "pmid": "23523255"
+          },
+          {
+            "pmid": "22581193"
+          },
+          {
+            "pmid": "34991428"
+          },
+          {
+            "pmid": "32816787"
+          },
+          {
+            "pmid": "19755551"
+          },
+          {
+            "pmid": "25920340"
+          },
+          {
+            "pmid": "32861372"
+          },
+          {
+            "pmid": "32894159"
+          },
+          {
+            "pmid": "31366649"
+          },
+          {
+            "pmid": "28895673"
+          },
+          {
+            "pmid": "33131393"
+          },
+          {
+            "pmid": "39757334"
+          },
+          {
+            "pmid": "40368129"
+          },
+          {
+            "pmid": "27670388"
+          },
+          {
+            "pmid": "35245813"
+          },
+          {
+            "pmid": "31594195"
+          },
+          {
+            "pmid": "31348227"
+          },
+          {
+            "pmid": "32764872"
+          },
+          {
+            "pmid": "29329890"
+          },
+          {
+            "pmid": "26093810"
+          },
+          {
+            "pmid": "19031167"
+          },
+          {
+            "pmid": "27220527"
+          },
+          {
+            "pmid": "30455091"
+          },
+          {
+            "pmid": "28446376"
+          },
+          {
+            "pmid": "31514108"
+          },
+          {
+            "pmid": "38499998"
+          },
+          {
+            "pmid": "28818450"
+          },
+          {
+            "pmid": "31472414"
+          },
+          {
+            "pmid": "29499710"
+          },
+          {
+            "pmid": "28586628"
+          },
+          {
+            "pmid": "29481640"
+          },
+          {
+            "pmid": "28566400"
+          },
+          {
+            "pmid": "21538218"
+          },
+          {
+            "pmid": "20134218"
+          },
+          {
+            "pmid": "28655271"
+          },
+          {
+            "pmid": "28483685"
+          },
+          {
+            "pmid": "17983467"
+          },
+          {
+            "pmid": "41932102"
+          },
+          {
+            "pmid": "26051846"
+          },
+          {
+            "pmid": "25915145"
+          },
+          {
+            "pmid": "33127212"
+          },
+          {
+            "pmid": "30501388"
+          },
+          {
+            "pmid": "10231100"
+          },
+          {
+            "pmid": "26875065"
+          },
+          {
+            "pmid": "23630367"
+          },
+          {
+            "pmid": "15834056"
+          },
+          {
+            "pmid": "10226960"
+          },
+          {
+            "pmid": "27002665"
+          },
+          {
+            "pmid": "26916927"
+          },
+          {
+            "pmid": "21120304"
+          },
+          {
+            "pmid": "21378086"
+          },
+          {
+            "pmid": "21088117"
+          },
+          {
+            "pmid": "24952581"
+          },
+          {
+            "pmid": "23893418"
+          },
+          {
+            "pmid": "25108752"
+          },
+          {
+            "pmid": "27477254"
+          },
+          {
+            "pmid": "21898066"
+          },
+          {
+            "pmid": "41975358"
+          },
+          {
+            "pmid": "21946399"
+          },
+          {
+            "pmid": "25622594"
+          },
+          {
+            "pmid": "42231228"
+          },
+          {
+            "pmid": "41580269"
+          },
+          {
+            "pmid": "24965759"
+          },
+          {
+            "pmid": "21849055"
+          },
+          {
+            "pmid": "18955427"
+          },
+          {
+            "pmid": "8241852"
+          },
+          {
+            "pmid": "26976375"
+          },
+          {
+            "pmid": "22030233"
+          },
+          {
+            "pmid": "9825390"
+          },
+          {
+            "pmid": "19450093"
+          },
+          {
+            "pmid": "8775698"
+          },
+          {
+            "pmid": "9653685"
+          },
+          {
+            "pmid": "20713438"
+          }
+        ]
+      }
+    ],
     "categories": {
-      "care": 19,
-      "move": 11
+      "care": 24,
+      "move": 4,
+      "life": 2
     }
   },
   "previous_last_batch_1649": {
@@ -4191,9 +7980,9 @@
     ]
   },
   "resume": {
-    "next_batch": "2024",
-    "worklist_line": "new-expansion-candidates-batch2024",
-    "topic": "new-expansion-candidates-batch2024",
+    "next_batch": "2025",
+    "worklist_line": "new-expansion-candidates-batch2025",
+    "topic": "new-expansion-candidates-batch2025",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -5488,10 +9277,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 16496,
-  "unknownN": 1251,
-  "thinStudy": 4352,
-  "openNumeric": 16496,
+  "withVs": 16526,
+  "unknownN": 1253,
+  "thinStudy": 4361,
+  "openNumeric": 16526,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
