@@ -13617,3 +13617,23 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 90ff4e615608d419423e1aa0fff326c0c6af9474
 - PUSHED=true marker: 1df2c62d2ae91b828a9b6ba82c14d20c0759a39c
 - next_batch: 2034; resume point: new-expansion-candidates-batch2034
+
+## Batch 2035 — 만성콩팥병 비처방·비약물 후보
+- date: 2026-08-21
+- topics: 30 selected; non-prescription selected 30; prescription selected 0
+- search: 4776 records; 2334 unique PMID; 20 supplemental queries
+- fetch: requested 2334; chunks 47; fetched 2334; abstracts 2293; missing 0
+- candidates: parser 986; selected 30; held/excluded 956
+- selected PMID: 38320198, 34893535, 40176268, 40613582, 34536050, 34197486, 39415658, 34847564, 32826635, 30810061, 28623895, 40349685, 33609277, 34245292, 40279052, 30571753, 24449105, 38184737, 29879707, 33888536, 35604581, 41865914, 31025412, 30590827, 33320101, 33316435, 29413495, 34501792, 25236582, 27751628
+- new IDs and PMID: ckd-hemodialysis-exercise-pos-38320198=38320198, ckd-lifestyle-intervention-pos-34893535=34893535, ckd-elastic-band-exercise-pos-40176268=40176268, ckd-hemodialysis-aerobic-cardiac-pos-40613582=40613582, ckd-hemodialysis-periodized-exercise-pos-34536050=34536050, ckd-frailty-home-exercise-open-34197486=34197486, ckd-peritoneal-home-exercise-null-39415658=39415658, ckd-hemodialysis-exercise-memory-pos-34847564=34847564, ckd-blood-flow-restriction-exercise-pos-32826635=32826635, ckd-nondialysis-aerobic-vascular-pos-30810061=30810061, ckd-predialysis-home-exercise-pos-28623895=28623895, ckd-hemodialysis-cognitive-aerobic-pos-40349685=40349685, ckd-predialysis-resistance-exercise-pos-33609277=33609277, ckd-hemodialysis-vr-exercise-pos-34245292=34245292, ckd-hemodialysis-breathing-pos-40279052=40279052, ckd-ckd-self-administered-exercise-pos-30571753=30571753, ckd-overweight-aerobic-exercise-pos-24449105=24449105, ckd-kidney-beam-open-38184737=38184737, ckd-hemodialysis-cerebral-flow-pos-29879707=29879707, ckd-ckd-sedentary-reduction-pos-33888536=33888536, ckd-hemodialysis-intradialytic-exercise-pos-35604581=35604581, ckd-ckd-home-multicomponent-pos-41865914=41865914, ckd-high-intensity-interval-pos-31025412=31025412, ckd-nordic-renal-diet-pos-30590827=30590827, ckd-mobile-self-management-pos-33320101=33320101, ckd-nondialysis-aerobic-cardio-pos-33316435=33316435, ckd-hemodialysis-respiratory-training-pos-29413495=29413495, ckd-hemodialysis-exercise-qol-pos-34501792=34501792, ckd-progressive-ckd-rehabilitation-open-25236582=25236582, ckd-low-phosphorus-additive-food-pos-27751628=27751628
+- categories: move 23, life 4, care 1, food 2
+- evidence: 혈액투석·비투석 운동, 가정운동, 호흡운동, 가상현실 운동, 인지·유산소운동, 좌식행동 감소, 모바일 자기관리, 디지털 운동, 노르딕 신장식, 인산염 첨가물 없는 식품 선택. 각 항목은 PubMed 초록에서 군간 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·2차 분석·동물연구·중복 PMID·초록 없음·수치 부족·대상 또는 결과 불일치 후보 956건을 보류했다. 2차 분석 PMID 36195272는 제외하고 직접 원 연구 PMID 30590827을 사용했다.
+- validator: etc/validate2035.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 0; truthful thin-study 12 (ckd-hemodialysis-periodized-exercise-pos-34536050 n=39, ckd-frailty-home-exercise-open-34197486 n=29, ckd-nondialysis-aerobic-vascular-pos-30810061 n=36, ckd-predialysis-home-exercise-pos-28623895 n=36, ckd-overweight-aerobic-exercise-pos-24449105 n=27, ckd-kidney-beam-open-38184737 n=42, ckd-hemodialysis-cerebral-flow-pos-29879707 n=30, ckd-hemodialysis-intradialytic-exercise-pos-35604581 n=24, ckd-high-intensity-interval-pos-31025412 n=14, ckd-nordic-renal-diet-pos-30590827 n=18, ckd-nondialysis-aerobic-cardio-pos-33316435 n=36, ckd-progressive-ckd-rehabilitation-open-25236582 n=20)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 12; comparator warnings fixed 7; effect warnings fixed 0; line warnings fixed 1; scale warnings fixed 5; English warnings fixed 1; subject warnings fixed 0; build errors fixed 0; targeted remaining 467
+- totals after batch: entries 17757; subjects 10816; refs 20877; numeric group-comparison entries 16818; unknown-n 1261; thin-study 4668
+- data commit: 7ef4232a716b0e2e134abe174d2c7c3b8932463f
+- PUSHED=false checkpoint: 2cebb6e803a0d4309a86d897febde63ac19b973a
+- PUSHED=true marker: 9e55e80982507c86d03ff2b315fb57b265a17df9
+- search scope: PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used; supplemental searches covered exercise, intradialytic training, home rehabilitation, breathing, digital self-management, blood-flow restriction, low-phosphorus food, and renal diet queries
+- next_batch: 2036; resume point: new-expansion-candidates-batch2036
