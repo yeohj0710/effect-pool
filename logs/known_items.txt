@@ -14151,3 +14151,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 1fcb9625e
 - PUSHED=true marker: a2354ccad
 - next_batch: 2062; resume point: new-expansion-candidates-batch2062
+
+## Batch 2062 — 저요통 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 5124 records; 2233 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 2233; chunks 45; fetched 2233; abstracts 2174; missing 0
+- candidates: parser 608; selected 30; held/excluded 578
+- selected PMID: 29673974, 42223934, 36988362, 36745155, 31028971, 38257659, 40325643, 16215330, 27981455, 20146793, 24781721, 38876629, 15864148, 12221343, 37934400, 41517716, 41633229, 31821992, 12381971, 40020954, 28042685, 42154299, 21147422, 38217579, 34391248, 36350802, 30605517, 22594388, 39392599, 30832454
+- new IDs and PMID: lbp-cbt-telehealth-2062-29673974=29673974, lbp-supported-self-management-2062-42223934=42223934, lbp-electroacupuncture-2062-36988362=36988362, lbp-laser-guided-exercise-2062-36745155=36745155, lbp-wet-cupping-2062-31028971=31028971, lbp-exercise-app-supervision-2062-38257659=38257659, lbp-auricular-acupuncture-laser-2062-40325643=40325643, lbp-manual-specific-exercise-2062-16215330=16215330, lbp-virtual-walking-2062-27981455=27981455, lbp-nordic-walking-2062-20146793=20146793, lbp-health-education-2062-24781721=24781721, lbp-exercise-kinesiotape-2062-38876629=38876629, lbp-motivational-exercise-2062-15864148=15864148, lbp-vibration-extension-2062-12221343=12221343, lbp-mat-pilates-2062-37934400=37934400, lbp-myofascial-pilates-2062-41517716=41517716, lbp-feldenkrais-stabilization-2062-41633229=41633229, lbp-stabilization-exercise-2062-31821992=31821992, lbp-specific-home-exercise-2062-12381971=12381971, lbp-act-exercise-2062-40020954=40020954, lbp-core-stabilization-2062-28042685=28042685, lbp-peloidotherapy-2062-42154299=42154299, lbp-pelvic-floor-exercise-2062-21147422=21147422, lbp-virtual-reality-2062-38217579=38217579, lbp-pilates-quality-life-2062-34391248=34391248, lbp-mindfulness-2062-36350802=36350802, lbp-mbct-cognitive-therapy-2062-30605517=30605517, lbp-ergonomics-back-school-2062-22594388=22594388, lbp-acupuncture-timing-2062-39392599=39392599, lbp-tai-chi-core-2062-30832454=30832454
+- categories: move 13, life 8, care 9, otc 0, supp 0, food 0, rx 0
+- evidence: 운동·필라테스·태극권·가정운동·가상현실, 마음챙김·인지행동·수용전념·건강교육·인체공학, 침·전기침·도수치료·부항·진흙치료·레이저·테이핑·자기관리 중재를 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 578건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2062.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects and titles, errors 0, warnings 0; unknown-n 0; truthful thin-study 13 (lbp-virtual-walking-2062-27981455 n=44, lbp-health-education-2062-24781721 n=49, lbp-myofascial-pilates-2062-41517716 n=32, lbp-feldenkrais-stabilization-2062-41633229 n=40, lbp-stabilization-exercise-2062-31821992 n=40, lbp-specific-home-exercise-2062-12381971 n=20, lbp-act-exercise-2062-40020954 n=40, lbp-core-stabilization-2062-28042685 n=25, lbp-pelvic-floor-exercise-2062-21147422 n=20, lbp-virtual-reality-2062-38217579 n=27, lbp-pilates-quality-life-2062-34391248 n=39, lbp-acupuncture-timing-2062-39392599 n=30, lbp-tai-chi-core-2062-30832454 n=43)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 13; comparator warnings fixed 7; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 13
+- totals after batch: entries 18560; subjects 11587; refs 21680; numeric group-comparison entries 17621; unknown-n 1280; thin-study 5002
+- data commit: 3c6add600
+- PUSHED=false checkpoint: 56b3f4ffe
+- PUSHED=true marker: 8300851f2
+- next_batch: 2063; resume point: new-expansion-candidates-batch2063
