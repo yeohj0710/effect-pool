@@ -12967,3 +12967,23 @@ batch1993_resume=next_batch=1994; worklist_line=new-expansion-candidates-batch19
 - excluded/held: duplicate PMID, prescription-only or nonseparable drug study, observational/cohort/biomarker/pharmacokinetic study, unrelated allergic rhinitis/UTI outcome, placebo-matching study, or insufficient clinical comparison
 - next_batch: 2001; resume point: new-expansion-candidates-batch2001
 
+
+## Batch 2001
+- date: 2026-08-21
+- topics: 30; selected: 21; search records: 454; unique PMID: 257
+- fetch: requested 257; fetched 257; abstracts 255; missing 0
+- candidates: pre-write 22; post-write 18; selected 21; excluded/held 18
+- new IDs: acupuncture-timing-mode-dysmenorrhea-2001-null, antioxidant-endometriosis-dysmenorrhea-2001-pos, arogya-lifestyle-dysmenorrhea-2001-pos, auricular-acupressure-dysmenorrhea-2001-pos, curcumin-pms-dysmenorrhea-2001-open, deqi-acupuncture-dysmenorrhea-2001-null, dietary-fat-menstrual-symptoms-2001-null, fish-oil-dysmenorrhea-2001-pos, fitt-exercise-dysmenorrhea-2001-pos, functional-exercise-dysmenorrhea-2001-pos, karinat-dysmenorrhea-2001-pos, long-needle-acupuncture-dysmenorrhea-2001-pos, low-fat-vegetarian-diet-dysmenorrhea-2001-pos, low-level-light-dysmenorrhea-2001-pos, simple-acupressure-dysmenorrhea-2001-pos, superficial-electroacupuncture-dysmenorrhea-2001-pos, taichong-acupressure-dysmenorrhea-2001-pos, tens-dysmenorrhea-2001-pos, topical-heat-dysmenorrhea-2001-pos, vitamin-e-dysmenorrhea-2001-pos, vitamin-k1-acupoint-dysmenorrhea-2001-pos
+- new PMID: 28700680, 34122682, 39705086, 19292653, 35065636, 28698243, 3628545, 20795425, 31586377, 32415471, 15605774, 31929849, 10674588, 22648444, 28917360, 18050629, 20547392, 8296814, 11239634, 15777446, 24445356
+- categories: care 10, supp 5, life 1, food 2, move 2, otc 1
+- build: exit 0; errors 0; new warnings 7; comparator warnings fixed 5; line warnings fixed 0; English warnings fixed 0; subject warnings fixed 5; targeted remaining 754
+- truthful warnings: unknown-n 0; thin-study 7
+- validator: etc/validate2001.mjs passed; 21 files, 21 unique PMID, 21 Korean subjects
+- data commit: 4ae8f0c3886c35ec9ef061acb7ca23dccb6b998f
+- PUSHED=false checkpoint: 4b35cc41876a39a2a81da757b6c8059881822461
+- PUSHED=true marker: eed6787026fa2d8fc587a70c3ea6ca85172d07b2
+- search scope: dysmenorrhea and menstrual pain nonprescription candidates; PubMed E-utilities and EFetch only; no browser or ClinicalTrials.gov-only records used
+- selected evidence: heat patch, structured exercise, functional exercise, lifestyle practice, diet, acupressure, acupuncture, electrostimulation, low-level light therapy, fish oil, vitamin E, antioxidant supplementation, and curcumin biomarker outcome
+- excluded/held: retracted Zumba trial, prescription-only diclofenac/estetrol/cyclobenzaprine, menstrual-headache or PCOS studies, observational or quasi-experimental studies, acupuncture blood-flow-only study, spa study, and candidates without sufficient direct numeric comparison
+- next_batch: 2002; resume point: new-expansion-candidates-batch2002
+
