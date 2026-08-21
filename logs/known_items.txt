@@ -14132,3 +14132,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: f30458f27
 - PUSHED=true marker: 3a6ddb75f
 - next_batch: 2061; resume point: new-expansion-candidates-batch2061
+
+## Batch 2061 — 알레르기비염 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 1396 records; 996 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 996; chunks 20; fetched 996; abstracts 975; missing 0
+- candidates: parser 466; selected 30; held/excluded 436
+- selected PMID: 29798076, 32858239, 18625073, 28604115, 24279907, 26964157, 29354954, 29231566, 26946731, 25578128, 25675568, 26964159, 25543425, 42196705, 40577168, 28228426, 17083353, 8484622, 16440532, 23214314, 15727589, 27921413, 19476405, 21366599, 20486336, 15298561, 11167354, 29382478, 24899217, 23299716
+- new IDs and PMID: ar-hydrogen-saline-2061-29798076=29798076, ar-pmbl-2061-32858239=32858239, ar-clear-guard-2061-18625073=18625073, rhino-xyloglucan-2061-28604115=28604115, ar-nasya-2061-24279907=24279907, ar-acupuncture-cetirizine-2061-26964157=26964157, ar-acupoint-intensity-2061-29354954=29354954, ar-moxibustion-auto-2061-29231566=29231566, ar-dog-days-plaster-2061-26946731=26946731, ar-acupuncture-orm-2061-25578128=25578128, ar-acupuncture-nasal-points-2061-25675568=25675568, ar-warm-acupuncture-2061-26964159=26964159, ar-moxibustion-spray-2061-25543425=25543425, ar-aerobic-exercise-2061-42196705=42196705, ar-syn53-2061-40577168=40577168, ar-probiotic-mrqlq-2061-28228426=28228426, ar-bb536-2061-17083353=17083353, ar-fish-oil-2061-8484622=8484622, ar-vitamin-e-2061-16440532=16440532, ar-health-lifestyle-2061-23214314=23214314, ar-nasal-filter-2061-15727589=15727589, ar-rhinophototherapy-2061-27921413=27921413, ar-phototherapy-device-2061-19476405=19476405, ar-phototherapy-fexofenadine-2061-21366599=21366599, ar-air-filter-pillow-2061-20486336=20486336, ar-mite-encasing-2061-15298561=15298561, ar-patient-training-2061-11167354=11167354, ar-nursing-counseling-2061-29382478=29382478, ar-professional-training-2061-24899217=24899217, ar-b-lactis-2061-23299716=23299716
+- categories: care 13, supp 8, life 6, move 1, otc 2, food 0, rx 0
+- evidence: 수소식염수·장벽보호·자일로글루칸 비강중재, 침·경혈·뜸·삼복첩, 유산소운동과 다균주·단일균주 유산균, 어유·비타민이, 건강생활관리·교육·상담, 비강필터·광선치료·공기필터·진드기차단을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 436건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2061.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects and titles, errors 0, warnings 0; unknown-n 1 (ar-b-lactis-2061-23299716); truthful thin-study 11 (ar-hydrogen-saline-2061-29798076 n=20, ar-clear-guard-2061-18625073 n=20, rhino-xyloglucan-2061-28604115 n=40, ar-nasya-2061-24279907 n=20, ar-acupuncture-orm-2061-25578128 n=25, ar-aerobic-exercise-2061-42196705 n=18, ar-bb536-2061-17083353 n=44, ar-fish-oil-2061-8484622 n=37, ar-nasal-filter-2061-15727589 n=46, ar-phototherapy-fexofenadine-2061-21366599 n=31, ar-air-filter-pillow-2061-20486336 n=35)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 12; comparator warnings fixed 10; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 12
+- totals after batch: entries 18530; subjects 11557; refs 21650; numeric group-comparison entries 17591; unknown-n 1280; thin-study 4989
+- data commit: 30608f2e7
+- PUSHED=false checkpoint: 1fcb9625e
+- PUSHED=true marker: a2354ccad
+- next_batch: 2062; resume point: new-expansion-candidates-batch2062
