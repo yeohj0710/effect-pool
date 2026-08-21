@@ -2,28 +2,28 @@
   "updated": "2026-08-21",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 17697,
-  "subjects": 10757,
-  "refs": 20817,
+  "entries": 17727,
+  "subjects": 10786,
+  "refs": 20847,
   "kinds": {
     "otc": 526,
-    "supp": 2402,
-    "food": 1424,
-    "move": 2651,
-    "life": 2358,
-    "care": 5647,
+    "supp": 2415,
+    "food": 1436,
+    "move": 2652,
+    "life": 2360,
+    "care": 5649,
     "rx": 2689
   },
   "tiers": {
-    "trial": 16847,
+    "trial": 16877,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 12102,
-    "null": 3925,
+    "pos": 12123,
+    "null": 3934,
     "open": 1444,
     "harm": 226
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2033은 자궁내막증의 항산화제·허브·PEA·tDCS·리도카인 관류·히알루론산 겔·보충제 직접 비교 근거 16건을 기록했다. Resume with batch 2034."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2034는 비알코올성·대사이상 지방간의 식단·운동·생활중재·식품·보충제 직접 비교 근거 30건을 기록했다. Resume with batch 2035."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 975,
-    "note": "Batch 2033은 자궁내막증 비처방·비약물 후보를 PubMed에서 50개 검색어로 보강하고 숫자 결과 또는 유효한 상대효과가 있는 16건을 기록했다. Resume with batch 2034."
+    "note": "Batch 2034는 지방간 비처방·비약물 후보를 PubMed에서 20개 보강 검색으로 확장하고 숫자 결과 또는 유효한 상대효과가 있는 30건을 기록했다. Resume with batch 2035."
   },
   "checkpoints": {
-    "over_counter_share": "24.6% (4352 entries)",
+    "over_counter_share": "24.7% (4377 entries)",
     "rx_share": "15.2% (2689)",
-    "no_effect_or_harm_share": "23.5% (4151 entries)",
-    "vs_share": "94.7% (16758)",
+    "no_effect_or_harm_share": "23.5% (4160 entries)",
+    "vs_share": "94.7% (16788)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.2% (16847)",
+    "trial_share": "95.2% (16877)",
     "non_trial_share": "4.8% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1260,
-      "thin_study": 4647,
+      "unknown_n": 1261,
+      "thin_study": 4656,
       "targeted_batch_warnings": 467
     }
   },
@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2033 data commit 0e235034612de4f05aca7e1586ed987e42990fb8, PUSHED=false checkpoint 90ff4e615608d419423e1aa0fff326c0c6af9474, PUSHED=true marker 1df2c62d2ae91b828a9b6ba82c14d20c0759a39c, and known_items log 19f17dea27d0088512d54ba902931f1b214f3778 are on origin/main. Resume with fresh non-prescription batch 2034.",
+  "next": "Batch 2034 data commit 2c339a5e42a22af39af5ec2b7c38f021c6001307, PUSHED=false checkpoint pending. Resume with fresh non-prescription batch 2035.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -533,119 +533,175 @@
     ]
   },
   "last_batch": {
-    "id": "2033",
-    "commit": "0e235034612de4f05aca7e1586ed987e42990fb8",
-    "pushed": true,
-    "expansion_commit": "0e235034612de4f05aca7e1586ed987e42990fb8",
+    "id": "2034",
+    "commit": "2c339a5e42a22af39af5ec2b7c38f021c6001307",
+    "pushed": false,
+    "expansion_commit": "2c339a5e42a22af39af5ec2b7c38f021c6001307",
     "data_commits": [
-      "0e235034612de4f05aca7e1586ed987e42990fb8"
+      "2c339a5e42a22af39af5ec2b7c38f021c6001307"
     ],
     "maintenance": false,
-    "processed_topics": 16,
+    "processed_topics": 30,
     "selected_topics": [
-      "endometriosis-antioxidant-vitamins-pos",
-      "endometriosis-sanjie-capsule-pos",
-      "endometriosis-chinese-medicine-qol-pos",
-      "endometriosis-chinese-herbal-recurrence-null",
-      "endometriosis-pea-transpolydatin-pos",
-      "endometriosis-silymarin-pos",
-      "endometriosis-tdcs-pos",
-      "endometriosis-lidocaine-pertubation-qol",
-      "endometriosis-hyaluronan-gel-pos",
-      "endometriosis-astaxanthin-pos",
-      "endometriosis-vitamin-ce-null",
-      "endometriosis-chinese-sequential-pos",
-      "endometriosis-nac-biomarker-pos",
-      "endometriosis-kuntai-addback-pos",
-      "endometriosis-omega3-feasibility-open",
-      "endometriosis-chm-feasibility-open"
+      "nafld-lchf-hclf-null-36508737",
+      "nafld-adf-aerobic-pos-36549296",
+      "nafld-asian-mediterranean-pentadecanoic-pos-38035997",
+      "nafld-low-sugar-adolescent-pos-30667502",
+      "nafld-time-restricted-eating-null-36930148",
+      "nafld-green-mediterranean-pos-33461965",
+      "nafld-inulin-prebiotic-null-38892505",
+      "nafld-mobile-coaching-pos-38358794",
+      "nafld-low-sugar-adult-pos-35058605",
+      "nafld-garlic-pos-32312333",
+      "nafld-zataria-pos-30477827",
+      "nafld-synbiotic-pos-24401715",
+      "nafld-ginger-null-37817641",
+      "nafld-nano-curcumin-null-41168313",
+      "nafld-chromium-null-33045675",
+      "masld-smartphone-lifestyle-null-38886203",
+      "nafld-mediterranean-children-pos-34565261",
+      "nafld-yogurt-pos-31136662",
+      "nafld-fish-oil-vitd-pos-35067753",
+      "nafld-dash-diet-pos-37855891",
+      "nafld-cranberry-null-32237922",
+      "nafld-chitosan-pos-40025618",
+      "nafld-soymilk-pos-31126574",
+      "nafld-khorasan-wheat-pos-29652567",
+      "nafld-lowgi-mediterranean-pos-28346567",
+      "nafld-multistrain-probiotic-pos-26430826",
+      "nafld-sumac-pos-33190008",
+      "nafld-propolis-inositol-null-36963888",
+      "nafld-text-message-pos-29117472",
+      "masld-gluten-free-pos-38462919"
     ],
-    "new_entries": 16,
+    "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 205,
-    "non_prescription_topics_available": 16,
-    "non_prescription_topics_processed": 16,
+    "no_evidence_rejects": 467,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 205,
-    "new_references": 16,
+    "screened_nonqualifying_topics": 467,
+    "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "17697 entries; 20817 refs; 16847 trial; 754 obs; 16758 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 자궁내막증 관련 골반통·불임의 비처방·비약물 후보를 검색했다. 30개 주제와 50개 보강 검색에서 총 1756개 레코드와 고유 PMID 580개를 확인했고, 580개를 요청해 580개 논문 기록과 567개 초록을 확보했다. 후보 221개를 선별해 항산화 비타민, 산제 진통 캡슐, 중국의학·허브, PEA·트랜스폴리다틴, 실리마린, tDCS, 리도카인 관류, 히알루론산 겔, 아스타잔틴, 비타민 C·E, NAC, 곤타이, 오메가3 실행 가능성의 직접 비교 수치 또는 유효한 상대효과가 있는 16건을 기록했다. 나머지 205건은 처방약·처방약 병용으로 효과 분리 불가·고찰·메타분석·프로토콜·관찰·2차 분석·동물·중복·수치 부족·대상 또는 결과 불일치로 보류했다.",
+    "build": "17727 entries; 20847 refs; 16877 trial; 754 obs; 16788 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 비알코올성·대사이상 지방간의 식단·운동·생활중재·식품·보충제 후보를 검색했다. 30개 초기 주제와 20개 보강 검색에서 총 3322개 레코드와 고유 PMID 1174개를 확인했고, 1174개를 요청해 1174개 논문 기록과 1159개 초록을 확보했다. 후보 497개를 선별해 저탄수화물식, 격일단식·운동, 지중해식, 저당식, 시간제한 식사, 모바일 생활코칭, 마늘·허브·생강·커큐민·크롬·신바이오틱·프로바이오틱, 요구르트·두유·곡물·크랜베리·키토산 등 직접 비교 수치 또는 유효한 상대효과가 있는 30건을 기록했다. 나머지 467건은 처방약·처방약 병용으로 효과 분리 불가·고찰·메타분석·프로토콜·관찰·2차 분석·동물·중복·수치 부족·대상 또는 결과 불일치로 보류했다.",
     "qualified_topics": [
-      "endometriosis-antioxidant-vitamins-pos",
-      "endometriosis-sanjie-capsule-pos",
-      "endometriosis-chinese-medicine-qol-pos",
-      "endometriosis-chinese-herbal-recurrence-null",
-      "endometriosis-pea-transpolydatin-pos",
-      "endometriosis-silymarin-pos",
-      "endometriosis-tdcs-pos",
-      "endometriosis-lidocaine-pertubation-qol",
-      "endometriosis-hyaluronan-gel-pos",
-      "endometriosis-astaxanthin-pos",
-      "endometriosis-vitamin-ce-null",
-      "endometriosis-chinese-sequential-pos",
-      "endometriosis-nac-biomarker-pos",
-      "endometriosis-kuntai-addback-pos",
-      "endometriosis-omega3-feasibility-open",
-      "endometriosis-chm-feasibility-open"
+      "nafld-lchf-hclf-null-36508737",
+      "nafld-adf-aerobic-pos-36549296",
+      "nafld-asian-mediterranean-pentadecanoic-pos-38035997",
+      "nafld-low-sugar-adolescent-pos-30667502",
+      "nafld-time-restricted-eating-null-36930148",
+      "nafld-green-mediterranean-pos-33461965",
+      "nafld-inulin-prebiotic-null-38892505",
+      "nafld-mobile-coaching-pos-38358794",
+      "nafld-low-sugar-adult-pos-35058605",
+      "nafld-garlic-pos-32312333",
+      "nafld-zataria-pos-30477827",
+      "nafld-synbiotic-pos-24401715",
+      "nafld-ginger-null-37817641",
+      "nafld-nano-curcumin-null-41168313",
+      "nafld-chromium-null-33045675",
+      "masld-smartphone-lifestyle-null-38886203",
+      "nafld-mediterranean-children-pos-34565261",
+      "nafld-yogurt-pos-31136662",
+      "nafld-fish-oil-vitd-pos-35067753",
+      "nafld-dash-diet-pos-37855891",
+      "nafld-cranberry-null-32237922",
+      "nafld-chitosan-pos-40025618",
+      "nafld-soymilk-pos-31126574",
+      "nafld-khorasan-wheat-pos-29652567",
+      "nafld-lowgi-mediterranean-pos-28346567",
+      "nafld-multistrain-probiotic-pos-26430826",
+      "nafld-sumac-pos-33190008",
+      "nafld-propolis-inositol-null-36963888",
+      "nafld-text-message-pos-29117472",
+      "masld-gluten-free-pos-38462919"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "endometriosis-antioxidant-vitamins-pos",
-      "endometriosis-sanjie-capsule-pos",
-      "endometriosis-chinese-medicine-qol-pos",
-      "endometriosis-chinese-herbal-recurrence-null",
-      "endometriosis-pea-transpolydatin-pos",
-      "endometriosis-silymarin-pos",
-      "endometriosis-tdcs-pos",
-      "endometriosis-lidocaine-pertubation-qol",
-      "endometriosis-hyaluronan-gel-pos",
-      "endometriosis-astaxanthin-pos",
-      "endometriosis-vitamin-ce-null",
-      "endometriosis-chinese-sequential-pos",
-      "endometriosis-nac-biomarker-pos",
-      "endometriosis-kuntai-addback-pos",
-      "endometriosis-omega3-feasibility-open",
-      "endometriosis-chm-feasibility-open"
+      "nafld-lchf-hclf-null-36508737",
+      "nafld-adf-aerobic-pos-36549296",
+      "nafld-asian-mediterranean-pentadecanoic-pos-38035997",
+      "nafld-low-sugar-adolescent-pos-30667502",
+      "nafld-time-restricted-eating-null-36930148",
+      "nafld-green-mediterranean-pos-33461965",
+      "nafld-inulin-prebiotic-null-38892505",
+      "nafld-mobile-coaching-pos-38358794",
+      "nafld-low-sugar-adult-pos-35058605",
+      "nafld-garlic-pos-32312333",
+      "nafld-zataria-pos-30477827",
+      "nafld-synbiotic-pos-24401715",
+      "nafld-ginger-null-37817641",
+      "nafld-nano-curcumin-null-41168313",
+      "nafld-chromium-null-33045675",
+      "masld-smartphone-lifestyle-null-38886203",
+      "nafld-mediterranean-children-pos-34565261",
+      "nafld-yogurt-pos-31136662",
+      "nafld-fish-oil-vitd-pos-35067753",
+      "nafld-dash-diet-pos-37855891",
+      "nafld-cranberry-null-32237922",
+      "nafld-chitosan-pos-40025618",
+      "nafld-soymilk-pos-31126574",
+      "nafld-khorasan-wheat-pos-29652567",
+      "nafld-lowgi-mediterranean-pos-28346567",
+      "nafld-multistrain-probiotic-pos-26430826",
+      "nafld-sumac-pos-33190008",
+      "nafld-propolis-inositol-null-36963888",
+      "nafld-text-message-pos-29117472",
+      "masld-gluten-free-pos-38462919"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 0,
-    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 6,
+    "new_entry_effect_warnings_fixed": 4,
     "new_entry_line_warnings_fixed": 0,
     "new_entry_scale_warnings_fixed": 0,
-    "new_entry_english_warnings_fixed": 1,
-    "new_entry_subject_warnings_fixed": 1,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 16758,
-    "subject_names_renamed": 1,
+    "open_numeric_comparisons": 16788,
+    "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
     "sample_size_corrections": 0,
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "자궁내막증 항산화 비타민=supp",
-      "자궁내막증 산제 진통 캡슐=supp",
-      "자궁내막증 수술 후 중국의학=supp",
-      "자궁내막증 재발 중국 허브=supp",
-      "자궁내막증 PEA·트랜스폴리다틴=supp",
-      "자궁내막종 실리마린 보충=supp",
-      "자궁내막증 만성 골반통 tDCS=care",
-      "자궁내막증 리도카인 자궁관 관류=care",
-      "자궁내막증 수술 후 히알루론산 겔=care",
-      "자궁내막증 불임 아스타잔틴=supp",
-      "자궁내막증 비타민 C·E 보충=supp",
-      "자궁내막증 불임 중국의학 순차치료=supp",
-      "자궁내막증 불임 NAC 보충=supp",
-      "자궁내막증 곤타이 보조 캡슐=supp",
-      "자궁내막증 오메가3 시험 지속성=supp",
-      "자궁내막증 개별화 중국 허브 파일럿=supp"
+      "비알코올성 지방간 저탄수화물 고지방식=food",
+      "비알코올성 지방간 격일단식·유산소운동=move",
+      "비알코올성 지방간 아시아 지중해식·펜타데칸산=food",
+      "소아 비알코올성 지방간 저당식=food",
+      "비알코올성 지방간 시간제한 식사=life",
+      "비알코올성 지방간 그린 지중해식=food",
+      "비알코올성 지방간 이눌린 프리바이오틱=supp",
+      "비알코올성 지방간 모바일 생활코칭=care",
+      "성인 비알코올성 지방간 저당식=food",
+      "비알코올성 지방간 마늘분말=supp",
+      "비알코올성 지방간 시라지 타임=supp",
+      "비알코올성 지방간 신바이오틱=supp",
+      "당뇨병 동반 지방간 생강=supp",
+      "섬유화 동반 지방간 나노커큐민=supp",
+      "비알코올성 지방간 크롬=supp",
+      "대사이상 지방간 스마트폰 생활중재=care",
+      "소아 비알코올성 지방간 지중해식=food",
+      "비알코올성 지방간 요구르트=food",
+      "비알코올성 지방간 어유·비타민D=supp",
+      "비알코올성 지방간 고혈압 예방식=food",
+      "비알코올성 지방간 크랜베리=supp",
+      "비알코올성 지방간 키토산=supp",
+      "비알코올성 지방간 두유=food",
+      "비알코올성 지방간 고대 밀=food",
+      "비알코올성 지방간 저혈당지수 지중해식=food",
+      "비알코올성 지방간 다균주 프로바이오틱=supp",
+      "비알코올성 지방간 수마크=supp",
+      "비알코올성 지방간 알파리포산·이노시톨·프로폴리스=supp",
+      "비알코올성 지방간 문자 생활상담=life",
+      "대사이상 지방간 글루텐 제한식=food"
     ],
     "targeted_warning_topics_remaining": 467,
-    "targeted_warning_topics_fixed": 2,
+    "targeted_warning_topics_fixed": 6,
     "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -654,314 +710,248 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 975,
-    "next_official_deployment_check": "after batch 2033",
+    "next_official_deployment_check": "after batch 2034",
     "topics": [
-      "endometriosis-antioxidant-vitamins-pos",
-      "endometriosis-sanjie-capsule-pos",
-      "endometriosis-chinese-medicine-qol-pos",
-      "endometriosis-chinese-herbal-recurrence-null",
-      "endometriosis-pea-transpolydatin-pos",
-      "endometriosis-silymarin-pos",
-      "endometriosis-tdcs-pos",
-      "endometriosis-lidocaine-pertubation-qol",
-      "endometriosis-hyaluronan-gel-pos",
-      "endometriosis-astaxanthin-pos",
-      "endometriosis-vitamin-ce-null",
-      "endometriosis-chinese-sequential-pos",
-      "endometriosis-nac-biomarker-pos",
-      "endometriosis-kuntai-addback-pos",
-      "endometriosis-omega3-feasibility-open",
-      "endometriosis-chm-feasibility-open"
+      "nafld-lchf-hclf-null-36508737",
+      "nafld-adf-aerobic-pos-36549296",
+      "nafld-asian-mediterranean-pentadecanoic-pos-38035997",
+      "nafld-low-sugar-adolescent-pos-30667502",
+      "nafld-time-restricted-eating-null-36930148",
+      "nafld-green-mediterranean-pos-33461965",
+      "nafld-inulin-prebiotic-null-38892505",
+      "nafld-mobile-coaching-pos-38358794",
+      "nafld-low-sugar-adult-pos-35058605",
+      "nafld-garlic-pos-32312333",
+      "nafld-zataria-pos-30477827",
+      "nafld-synbiotic-pos-24401715",
+      "nafld-ginger-null-37817641",
+      "nafld-nano-curcumin-null-41168313",
+      "nafld-chromium-null-33045675",
+      "masld-smartphone-lifestyle-null-38886203",
+      "nafld-mediterranean-children-pos-34565261",
+      "nafld-yogurt-pos-31136662",
+      "nafld-fish-oil-vitd-pos-35067753",
+      "nafld-dash-diet-pos-37855891",
+      "nafld-cranberry-null-32237922",
+      "nafld-chitosan-pos-40025618",
+      "nafld-soymilk-pos-31126574",
+      "nafld-khorasan-wheat-pos-29652567",
+      "nafld-lowgi-mediterranean-pos-28346567",
+      "nafld-multistrain-probiotic-pos-26430826",
+      "nafld-sumac-pos-33190008",
+      "nafld-propolis-inositol-null-36963888",
+      "nafld-text-message-pos-29117472",
+      "masld-gluten-free-pos-38462919"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "22728166",
-      "39046647",
-      "23275012",
-      "23292545",
-      "21601979",
-      "36266431",
-      "36882181",
-      "24016037",
-      "32530335",
-      "37020589",
-      "18005966",
-      "31997236",
-      "41663453",
-      "25673440",
-      "31951599",
-      "21767149"
+      "36508737",
+      "36549296",
+      "38035997",
+      "30667502",
+      "36930148",
+      "33461965",
+      "38892505",
+      "38358794",
+      "35058605",
+      "32312333",
+      "30477827",
+      "24401715",
+      "37817641",
+      "41168313",
+      "33045675",
+      "38886203",
+      "34565261",
+      "31136662",
+      "35067753",
+      "37855891",
+      "32237922",
+      "40025618",
+      "31126574",
+      "29652567",
+      "28346567",
+      "26430826",
+      "33190008",
+      "36963888",
+      "29117472",
+      "38462919"
     ],
-    "unique_pmids": 580,
-    "requested": 580,
-    "fetched": 580,
-    "abstracts": 567,
-    "parsed_abstracts": 580,
-    "search_candidates": 221,
-    "candidate_parser_parsed": 580,
-    "candidate_parser_candidates": 221,
-    "candidate_parser_candidates_after_write": 16,
-    "manual_candidates": 16,
+    "unique_pmids": 1174,
+    "requested": 1174,
+    "fetched": 1174,
+    "abstracts": 1159,
+    "parsed_abstracts": 1174,
+    "search_candidates": 497,
+    "candidate_parser_parsed": 1174,
+    "candidate_parser_candidates": 497,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
     "search_topic_count": 30,
-    "search_returned_records": 1756,
-    "supplemental_query_count": 50,
+    "search_returned_records": 3322,
+    "supplemental_query_count": 20,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "endometriosis-antioxidant-vitamins-pos",
-      "endometriosis-sanjie-capsule-pos",
-      "endometriosis-chinese-medicine-qol-pos",
-      "endometriosis-chinese-herbal-recurrence-null",
-      "endometriosis-pea-transpolydatin-pos",
-      "endometriosis-silymarin-pos",
-      "endometriosis-tdcs-pos",
-      "endometriosis-lidocaine-pertubation-qol",
-      "endometriosis-hyaluronan-gel-pos",
-      "endometriosis-astaxanthin-pos",
-      "endometriosis-vitamin-ce-null",
-      "endometriosis-chinese-sequential-pos",
-      "endometriosis-nac-biomarker-pos",
-      "endometriosis-kuntai-addback-pos",
-      "endometriosis-omega3-feasibility-open",
-      "endometriosis-chm-feasibility-open"
+      "nafld-lchf-hclf-null-36508737",
+      "nafld-adf-aerobic-pos-36549296",
+      "nafld-asian-mediterranean-pentadecanoic-pos-38035997",
+      "nafld-low-sugar-adolescent-pos-30667502",
+      "nafld-time-restricted-eating-null-36930148",
+      "nafld-green-mediterranean-pos-33461965",
+      "nafld-inulin-prebiotic-null-38892505",
+      "nafld-mobile-coaching-pos-38358794",
+      "nafld-low-sugar-adult-pos-35058605",
+      "nafld-garlic-pos-32312333",
+      "nafld-zataria-pos-30477827",
+      "nafld-synbiotic-pos-24401715",
+      "nafld-ginger-null-37817641",
+      "nafld-nano-curcumin-null-41168313",
+      "nafld-chromium-null-33045675",
+      "masld-smartphone-lifestyle-null-38886203",
+      "nafld-mediterranean-children-pos-34565261",
+      "nafld-yogurt-pos-31136662",
+      "nafld-fish-oil-vitd-pos-35067753",
+      "nafld-dash-diet-pos-37855891",
+      "nafld-cranberry-null-32237922",
+      "nafld-chitosan-pos-40025618",
+      "nafld-soymilk-pos-31126574",
+      "nafld-khorasan-wheat-pos-29652567",
+      "nafld-lowgi-mediterranean-pos-28346567",
+      "nafld-multistrain-probiotic-pos-26430826",
+      "nafld-sumac-pos-33190008",
+      "nafld-propolis-inositol-null-36963888",
+      "nafld-text-message-pos-29117472",
+      "masld-gluten-free-pos-38462919"
     ],
     "categories": {
+      "food": 12,
       "supp": 13,
-      "care": 3
+      "move": 1,
+      "life": 2,
+      "care": 2
     },
     "new_build_warnings": [
-      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  nafld-mediterranean-children-pos-34565261 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  masld-gluten-free-pos-38462919 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-chromium-null-33045675 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-cranberry-null-32237922 — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-inulin-prebiotic-null-38892505 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-khorasan-wheat-pos-29652567 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adolescent-pos-30667502 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adult-pos-35058605 — 사람 43명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-multistrain-probiotic-pos-26430826 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-text-message-pos-29117472 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [
-      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
+      "주의  nafld-mediterranean-children-pos-34565261 — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_thin_study_warnings": [
-      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  masld-gluten-free-pos-38462919 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-chromium-null-33045675 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-cranberry-null-32237922 — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-inulin-prebiotic-null-38892505 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-khorasan-wheat-pos-29652567 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adolescent-pos-30667502 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adult-pos-35058605 — 사람 43명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-multistrain-probiotic-pos-26430826 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-text-message-pos-29117472 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  nafld-mediterranean-children-pos-34565261 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  masld-gluten-free-pos-38462919 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-chromium-null-33045675 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-cranberry-null-32237922 — 사람 41명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-inulin-prebiotic-null-38892505 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-khorasan-wheat-pos-29652567 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adolescent-pos-30667502 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-low-sugar-adult-pos-35058605 — 사람 43명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-multistrain-probiotic-pos-26430826 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nafld-text-message-pos-29117472 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "checkpoint_commit": "90ff4e615608d419423e1aa0fff326c0c6af9474",
-    "push_marker_commit": "1df2c62d2ae91b828a9b6ba82c14d20c0759a39c",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
     "supplemental_queries": [
       {
-        "topic": "endometriosis-chronic-pelvic-physio",
-        "returned": 18
+        "topic": "masld-rct",
+        "returned": 329
       },
       {
-        "topic": "endometriosis-chronic-pelvic-acupuncture",
-        "returned": 13
-      },
-      {
-        "topic": "endometriosis-pain-vitamin-placebo",
-        "returned": 13
-      },
-      {
-        "topic": "endometriosis-pain-diet-rct",
-        "returned": 26
-      },
-      {
-        "topic": "endometriosis-pain-exercise-rct",
-        "returned": 24
-      },
-      {
-        "topic": "endometrioma-acupuncture-rct",
-        "returned": 26
-      },
-      {
-        "topic": "endometriosis-pelvic-floor-therapy",
-        "returned": 14
-      },
-      {
-        "topic": "endometriosis-manual-pelvic-pain",
-        "returned": 5
-      },
-      {
-        "topic": "endometriosis-tens-pelvic-pain",
-        "returned": 7
-      },
-      {
-        "topic": "endometriosis-high-frequency-tens",
-        "returned": 0
-      },
-      {
-        "topic": "endometriosis-pain-psychotherapy",
-        "returned": 27
-      },
-      {
-        "topic": "endometriosis-pain-relaxation",
-        "returned": 9
-      },
-      {
-        "topic": "endometriosis-pain-herbal-placebo",
-        "returned": 10
-      },
-      {
-        "topic": "endometriosis-pain-chinese-herbal-placebo",
-        "returned": 10
-      },
-      {
-        "topic": "endometriosis-pain-pea-placebo",
-        "returned": 1
-      },
-      {
-        "topic": "endometriosis-pain-antioxidant-placebo",
-        "returned": 18
-      },
-      {
-        "topic": "endometriosis-pain-omega3",
-        "returned": 2
-      },
-      {
-        "topic": "endometriosis-pain-melatonin",
-        "returned": 5
-      },
-      {
-        "topic": "endometriosis-pain-yoga",
-        "returned": 8
-      },
-      {
-        "topic": "endometriosis-pain-mindfulness",
-        "returned": 7
-      },
-      {
-        "topic": "endometriosis-pain-clinical-trial",
-        "returned": 207
-      },
-      {
-        "topic": "endometriosis-pain-randomized-placebo",
-        "returned": 203
-      },
-      {
-        "topic": "endometriosis-pain-acupuncture-trial",
-        "returned": 26
-      },
-      {
-        "topic": "endometriosis-pain-exercise-trial",
-        "returned": 17
-      },
-      {
-        "topic": "endometriosis-pain-physical-therapy-trial",
+        "topic": "masld-diet-rct",
         "returned": 62
       },
       {
-        "topic": "endometriosis-pain-herbal-trial",
-        "returned": 23
-      },
-      {
-        "topic": "endometriosis-pain-vitamin-trial",
-        "returned": 24
-      },
-      {
-        "topic": "endometrioma-randomized-placebo",
-        "returned": 200
-      },
-      {
-        "topic": "endometriosis-related-pelvic-pain-placebo",
-        "returned": 60
-      },
-      {
-        "topic": "endometriosis-pelvic-pain-behavioral",
-        "returned": 65
-      },
-      {
-        "topic": "endometriosis-pelvic-pain-physiotherapy",
-        "returned": 30
-      },
-      {
-        "topic": "endometriosis-pelvic-pain-electrical",
-        "returned": 7
-      },
-      {
-        "topic": "endometriosis-pain-massage-trial",
-        "returned": 1
-      },
-      {
-        "topic": "endometriosis-pain-diet-trial",
+        "topic": "masld-exercise-rct",
         "returned": 28
       },
       {
-        "topic": "endometriosis-pain-chinese-medicine-trial",
-        "returned": 52
+        "topic": "nash-lifestyle-rct",
+        "returned": 238
       },
       {
-        "topic": "endometriosis-internet-psychological-rct",
-        "returned": 2
+        "topic": "nafld-weight-loss-rct",
+        "returned": 126
       },
       {
-        "topic": "endometriosis-pain-course-rct",
-        "returned": 17
+        "topic": "nafld-free-sugar-rct",
+        "returned": 9
       },
       {
-        "topic": "endometriosis-physio-rct-results",
-        "returned": 23
+        "topic": "nafld-dash-rct",
+        "returned": 10
       },
       {
-        "topic": "endometriosis-exercise-rct-results",
-        "returned": 16
+        "topic": "nafld-high-fiber-rct",
+        "returned": 12
       },
       {
-        "topic": "endometriosis-pelvic-floor-training",
-        "returned": 3
-      },
-      {
-        "topic": "endometriosis-acupuncture-sham-pain",
+        "topic": "nafld-vegetarian-rct",
         "returned": 5
       },
       {
-        "topic": "endometriosis-tdcs-rct",
+        "topic": "nafld-polyphenol-rct",
+        "returned": 51
+      },
+      {
+        "topic": "nafld-herbal-rct",
+        "returned": 167
+      },
+      {
+        "topic": "nafld-garlic-rct",
+        "returned": 4
+      },
+      {
+        "topic": "nafld-ginger-rct",
         "returned": 2
       },
       {
-        "topic": "endometriosis-omega3-results",
-        "returned": 5
+        "topic": "nafld-prebiotic-rct",
+        "returned": 34
       },
       {
-        "topic": "endometriosis-herbal-placebo-pain",
-        "returned": 8
+        "topic": "nafld-probiotic-rct",
+        "returned": 61
       },
       {
-        "topic": "endometriosis-silymarin-placebo",
-        "returned": 1
+        "topic": "nafld-exercise-diet-rct",
+        "returned": 45
       },
       {
-        "topic": "endometriosis-antioxidant-placebo-rct",
-        "returned": 26
-      },
-      {
-        "topic": "endometriosis-chinese-herbal-rct",
-        "returned": 14
-      },
-      {
-        "topic": "endometriosis-chinese-medicine-qol",
-        "returned": 19
-      },
-      {
-        "topic": "endometriosis-self-management-rct",
-        "returned": 20
-      },
-      {
-        "topic": "endometriosis-nondrug-pain-rct",
+        "topic": "nafld-mobile-rct",
         "returned": 0
+      },
+      {
+        "topic": "nafld-lifestyle-education-rct",
+        "returned": 50
+      },
+      {
+        "topic": "nafld-supplement-placebo-rct",
+        "returned": 180
+      },
+      {
+        "topic": "fatty-liver-nondrug-rct",
+        "returned": 10
       }
     ]
   },
@@ -4029,9 +4019,9 @@
     ]
   },
   "resume": {
-    "next_batch": "2034",
-    "worklist_line": "new-expansion-candidates-batch2034",
-    "topic": "new-expansion-candidates-batch2034",
+    "next_batch": "2035",
+    "worklist_line": "new-expansion-candidates-batch2035",
+    "topic": "new-expansion-candidates-batch2035",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -5326,10 +5316,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 16758,
-  "unknownN": 1260,
-  "thinStudy": 4647,
-  "openNumeric": 16758,
+  "withVs": 16788,
+  "unknownN": 1261,
+  "thinStudy": 4656,
+  "openNumeric": 16788,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -75970,6 +75960,439 @@
       {
         "topic": "dysmenorrhea-acupuncture-rct2",
         "returned": 123
+      }
+    ]
+  },
+  "previous_last_batch_2033": {
+    "id": "2033",
+    "commit": "0e235034612de4f05aca7e1586ed987e42990fb8",
+    "pushed": true,
+    "expansion_commit": "0e235034612de4f05aca7e1586ed987e42990fb8",
+    "data_commits": [
+      "0e235034612de4f05aca7e1586ed987e42990fb8"
+    ],
+    "maintenance": false,
+    "processed_topics": 16,
+    "selected_topics": [
+      "endometriosis-antioxidant-vitamins-pos",
+      "endometriosis-sanjie-capsule-pos",
+      "endometriosis-chinese-medicine-qol-pos",
+      "endometriosis-chinese-herbal-recurrence-null",
+      "endometriosis-pea-transpolydatin-pos",
+      "endometriosis-silymarin-pos",
+      "endometriosis-tdcs-pos",
+      "endometriosis-lidocaine-pertubation-qol",
+      "endometriosis-hyaluronan-gel-pos",
+      "endometriosis-astaxanthin-pos",
+      "endometriosis-vitamin-ce-null",
+      "endometriosis-chinese-sequential-pos",
+      "endometriosis-nac-biomarker-pos",
+      "endometriosis-kuntai-addback-pos",
+      "endometriosis-omega3-feasibility-open",
+      "endometriosis-chm-feasibility-open"
+    ],
+    "new_entries": 16,
+    "existing_links": 0,
+    "no_evidence_rejects": 205,
+    "non_prescription_topics_available": 16,
+    "non_prescription_topics_processed": 16,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 205,
+    "new_references": 16,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "17697 entries; 20817 refs; 16847 trial; 754 obs; 16758 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 자궁내막증 관련 골반통·불임의 비처방·비약물 후보를 검색했다. 30개 주제와 50개 보강 검색에서 총 1756개 레코드와 고유 PMID 580개를 확인했고, 580개를 요청해 580개 논문 기록과 567개 초록을 확보했다. 후보 221개를 선별해 항산화 비타민, 산제 진통 캡슐, 중국의학·허브, PEA·트랜스폴리다틴, 실리마린, tDCS, 리도카인 관류, 히알루론산 겔, 아스타잔틴, 비타민 C·E, NAC, 곤타이, 오메가3 실행 가능성의 직접 비교 수치 또는 유효한 상대효과가 있는 16건을 기록했다. 나머지 205건은 처방약·처방약 병용으로 효과 분리 불가·고찰·메타분석·프로토콜·관찰·2차 분석·동물·중복·수치 부족·대상 또는 결과 불일치로 보류했다.",
+    "qualified_topics": [
+      "endometriosis-antioxidant-vitamins-pos",
+      "endometriosis-sanjie-capsule-pos",
+      "endometriosis-chinese-medicine-qol-pos",
+      "endometriosis-chinese-herbal-recurrence-null",
+      "endometriosis-pea-transpolydatin-pos",
+      "endometriosis-silymarin-pos",
+      "endometriosis-tdcs-pos",
+      "endometriosis-lidocaine-pertubation-qol",
+      "endometriosis-hyaluronan-gel-pos",
+      "endometriosis-astaxanthin-pos",
+      "endometriosis-vitamin-ce-null",
+      "endometriosis-chinese-sequential-pos",
+      "endometriosis-nac-biomarker-pos",
+      "endometriosis-kuntai-addback-pos",
+      "endometriosis-omega3-feasibility-open",
+      "endometriosis-chm-feasibility-open"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "endometriosis-antioxidant-vitamins-pos",
+      "endometriosis-sanjie-capsule-pos",
+      "endometriosis-chinese-medicine-qol-pos",
+      "endometriosis-chinese-herbal-recurrence-null",
+      "endometriosis-pea-transpolydatin-pos",
+      "endometriosis-silymarin-pos",
+      "endometriosis-tdcs-pos",
+      "endometriosis-lidocaine-pertubation-qol",
+      "endometriosis-hyaluronan-gel-pos",
+      "endometriosis-astaxanthin-pos",
+      "endometriosis-vitamin-ce-null",
+      "endometriosis-chinese-sequential-pos",
+      "endometriosis-nac-biomarker-pos",
+      "endometriosis-kuntai-addback-pos",
+      "endometriosis-omega3-feasibility-open",
+      "endometriosis-chm-feasibility-open"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 1,
+    "new_entry_subject_warnings_fixed": 1,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 16758,
+    "subject_names_renamed": 1,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "자궁내막증 항산화 비타민=supp",
+      "자궁내막증 산제 진통 캡슐=supp",
+      "자궁내막증 수술 후 중국의학=supp",
+      "자궁내막증 재발 중국 허브=supp",
+      "자궁내막증 PEA·트랜스폴리다틴=supp",
+      "자궁내막종 실리마린 보충=supp",
+      "자궁내막증 만성 골반통 tDCS=care",
+      "자궁내막증 리도카인 자궁관 관류=care",
+      "자궁내막증 수술 후 히알루론산 겔=care",
+      "자궁내막증 불임 아스타잔틴=supp",
+      "자궁내막증 비타민 C·E 보충=supp",
+      "자궁내막증 불임 중국의학 순차치료=supp",
+      "자궁내막증 불임 NAC 보충=supp",
+      "자궁내막증 곤타이 보조 캡슐=supp",
+      "자궁내막증 오메가3 시험 지속성=supp",
+      "자궁내막증 개별화 중국 허브 파일럿=supp"
+    ],
+    "targeted_warning_topics_remaining": 467,
+    "targeted_warning_topics_fixed": 2,
+    "discarded_non_numeric_candidates": [],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 975,
+    "next_official_deployment_check": "after batch 2033",
+    "topics": [
+      "endometriosis-antioxidant-vitamins-pos",
+      "endometriosis-sanjie-capsule-pos",
+      "endometriosis-chinese-medicine-qol-pos",
+      "endometriosis-chinese-herbal-recurrence-null",
+      "endometriosis-pea-transpolydatin-pos",
+      "endometriosis-silymarin-pos",
+      "endometriosis-tdcs-pos",
+      "endometriosis-lidocaine-pertubation-qol",
+      "endometriosis-hyaluronan-gel-pos",
+      "endometriosis-astaxanthin-pos",
+      "endometriosis-vitamin-ce-null",
+      "endometriosis-chinese-sequential-pos",
+      "endometriosis-nac-biomarker-pos",
+      "endometriosis-kuntai-addback-pos",
+      "endometriosis-omega3-feasibility-open",
+      "endometriosis-chm-feasibility-open"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "22728166",
+      "39046647",
+      "23275012",
+      "23292545",
+      "21601979",
+      "36266431",
+      "36882181",
+      "24016037",
+      "32530335",
+      "37020589",
+      "18005966",
+      "31997236",
+      "41663453",
+      "25673440",
+      "31951599",
+      "21767149"
+    ],
+    "unique_pmids": 580,
+    "requested": 580,
+    "fetched": 580,
+    "abstracts": 567,
+    "parsed_abstracts": 580,
+    "search_candidates": 221,
+    "candidate_parser_parsed": 580,
+    "candidate_parser_candidates": 221,
+    "candidate_parser_candidates_after_write": 16,
+    "manual_candidates": 16,
+    "search_topic_count": 30,
+    "search_returned_records": 1756,
+    "supplemental_query_count": 50,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "endometriosis-antioxidant-vitamins-pos",
+      "endometriosis-sanjie-capsule-pos",
+      "endometriosis-chinese-medicine-qol-pos",
+      "endometriosis-chinese-herbal-recurrence-null",
+      "endometriosis-pea-transpolydatin-pos",
+      "endometriosis-silymarin-pos",
+      "endometriosis-tdcs-pos",
+      "endometriosis-lidocaine-pertubation-qol",
+      "endometriosis-hyaluronan-gel-pos",
+      "endometriosis-astaxanthin-pos",
+      "endometriosis-vitamin-ce-null",
+      "endometriosis-chinese-sequential-pos",
+      "endometriosis-nac-biomarker-pos",
+      "endometriosis-kuntai-addback-pos",
+      "endometriosis-omega3-feasibility-open",
+      "endometriosis-chm-feasibility-open"
+    ],
+    "categories": {
+      "supp": 13,
+      "care": 3
+    },
+    "new_build_warnings": [
+      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [
+      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
+    "new_thin_study_warnings": [
+      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  endometriosis-hyaluronan-gel-pos — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  endometriosis-tdcs-pos — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-lidocaine-pertubation-qol — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-vitamin-ce-null — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-nac-biomarker-pos — 사람 25명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-omega3-feasibility-open — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  endometriosis-chm-feasibility-open — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "checkpoint_commit": "90ff4e615608d419423e1aa0fff326c0c6af9474",
+    "push_marker_commit": "1df2c62d2ae91b828a9b6ba82c14d20c0759a39c",
+    "supplemental_queries": [
+      {
+        "topic": "endometriosis-chronic-pelvic-physio",
+        "returned": 18
+      },
+      {
+        "topic": "endometriosis-chronic-pelvic-acupuncture",
+        "returned": 13
+      },
+      {
+        "topic": "endometriosis-pain-vitamin-placebo",
+        "returned": 13
+      },
+      {
+        "topic": "endometriosis-pain-diet-rct",
+        "returned": 26
+      },
+      {
+        "topic": "endometriosis-pain-exercise-rct",
+        "returned": 24
+      },
+      {
+        "topic": "endometrioma-acupuncture-rct",
+        "returned": 26
+      },
+      {
+        "topic": "endometriosis-pelvic-floor-therapy",
+        "returned": 14
+      },
+      {
+        "topic": "endometriosis-manual-pelvic-pain",
+        "returned": 5
+      },
+      {
+        "topic": "endometriosis-tens-pelvic-pain",
+        "returned": 7
+      },
+      {
+        "topic": "endometriosis-high-frequency-tens",
+        "returned": 0
+      },
+      {
+        "topic": "endometriosis-pain-psychotherapy",
+        "returned": 27
+      },
+      {
+        "topic": "endometriosis-pain-relaxation",
+        "returned": 9
+      },
+      {
+        "topic": "endometriosis-pain-herbal-placebo",
+        "returned": 10
+      },
+      {
+        "topic": "endometriosis-pain-chinese-herbal-placebo",
+        "returned": 10
+      },
+      {
+        "topic": "endometriosis-pain-pea-placebo",
+        "returned": 1
+      },
+      {
+        "topic": "endometriosis-pain-antioxidant-placebo",
+        "returned": 18
+      },
+      {
+        "topic": "endometriosis-pain-omega3",
+        "returned": 2
+      },
+      {
+        "topic": "endometriosis-pain-melatonin",
+        "returned": 5
+      },
+      {
+        "topic": "endometriosis-pain-yoga",
+        "returned": 8
+      },
+      {
+        "topic": "endometriosis-pain-mindfulness",
+        "returned": 7
+      },
+      {
+        "topic": "endometriosis-pain-clinical-trial",
+        "returned": 207
+      },
+      {
+        "topic": "endometriosis-pain-randomized-placebo",
+        "returned": 203
+      },
+      {
+        "topic": "endometriosis-pain-acupuncture-trial",
+        "returned": 26
+      },
+      {
+        "topic": "endometriosis-pain-exercise-trial",
+        "returned": 17
+      },
+      {
+        "topic": "endometriosis-pain-physical-therapy-trial",
+        "returned": 62
+      },
+      {
+        "topic": "endometriosis-pain-herbal-trial",
+        "returned": 23
+      },
+      {
+        "topic": "endometriosis-pain-vitamin-trial",
+        "returned": 24
+      },
+      {
+        "topic": "endometrioma-randomized-placebo",
+        "returned": 200
+      },
+      {
+        "topic": "endometriosis-related-pelvic-pain-placebo",
+        "returned": 60
+      },
+      {
+        "topic": "endometriosis-pelvic-pain-behavioral",
+        "returned": 65
+      },
+      {
+        "topic": "endometriosis-pelvic-pain-physiotherapy",
+        "returned": 30
+      },
+      {
+        "topic": "endometriosis-pelvic-pain-electrical",
+        "returned": 7
+      },
+      {
+        "topic": "endometriosis-pain-massage-trial",
+        "returned": 1
+      },
+      {
+        "topic": "endometriosis-pain-diet-trial",
+        "returned": 28
+      },
+      {
+        "topic": "endometriosis-pain-chinese-medicine-trial",
+        "returned": 52
+      },
+      {
+        "topic": "endometriosis-internet-psychological-rct",
+        "returned": 2
+      },
+      {
+        "topic": "endometriosis-pain-course-rct",
+        "returned": 17
+      },
+      {
+        "topic": "endometriosis-physio-rct-results",
+        "returned": 23
+      },
+      {
+        "topic": "endometriosis-exercise-rct-results",
+        "returned": 16
+      },
+      {
+        "topic": "endometriosis-pelvic-floor-training",
+        "returned": 3
+      },
+      {
+        "topic": "endometriosis-acupuncture-sham-pain",
+        "returned": 5
+      },
+      {
+        "topic": "endometriosis-tdcs-rct",
+        "returned": 2
+      },
+      {
+        "topic": "endometriosis-omega3-results",
+        "returned": 5
+      },
+      {
+        "topic": "endometriosis-herbal-placebo-pain",
+        "returned": 8
+      },
+      {
+        "topic": "endometriosis-silymarin-placebo",
+        "returned": 1
+      },
+      {
+        "topic": "endometriosis-antioxidant-placebo-rct",
+        "returned": 26
+      },
+      {
+        "topic": "endometriosis-chinese-herbal-rct",
+        "returned": 14
+      },
+      {
+        "topic": "endometriosis-chinese-medicine-qol",
+        "returned": 19
+      },
+      {
+        "topic": "endometriosis-self-management-rct",
+        "returned": 20
+      },
+      {
+        "topic": "endometriosis-nondrug-pain-rct",
+        "returned": 0
       }
     ]
   }
