@@ -13522,3 +13522,20 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 09a29121
 - PUSHED=true marker: 7ec673565e062b930ecafad263fe53073df983cf
 - next_batch: 2030; resume point: new-expansion-candidates-batch2030
+
+## Batch 2030 — 만성 주관적 이명 비처방·비약물 후보
+- topics: 30 selected; non-prescription selected 30; prescription selected 0
+- search: 727 records; 381 unique PMID; 15 supplemental queries; candidate parser 100; selected 30; held/excluded 70
+- fetch: requested 381; fetched 381; abstracts 378; missing 0
+- selected PMID: 19045972, 33650921, 38518137, 31300303, 10472473, 11981384, 12051570, 12670617, 17086074, 19079954, 21422304, 23937007, 26547700, 26667790, 26960786, 29298868, 36268807, 34715486, 40505169, 41289736, 41736184, 42307286, 21859051, 14505199, 17334317, 24737198, 22526737, 23899886, 42050847, 29231363
+- new entries: 30; existing links 0; categories care 22, life 3, supp 5
+- evidence: biofeedback and cognitive-behavioral therapy, sound and music therapy, hearing aids and masking devices, acupuncture, TENS, laser, rTMS, tDCS, bimodal stimulation, melatonin, Ginkgo, vitamin B12, antioxidant therapy, and herbal capsule; each selected PMID had direct numeric group results or a valid effect size in the PubMed abstract
+- excluded/held: prescription-only or inseparable medication studies, reviews and meta-analyses, protocols, observational or nonrandomized studies, animal studies, duplicate PMID, acute-only records, and candidates without sufficient direct numeric comparison or effect size
+- validator: etc/validate2030.mjs passed; 30 files, 30 unique PMID, errors 0, warnings 0, unknown-n 0; truthful thin-study 15 (tinnitus-hearing-aid-ginkgo n=33, tinnitus-low-power-laser-null n=49, tinnitus-transmeatal-laser-null n=45, tinnitus-rtms-sham-null n=14, tinnitus-combined-rtms-null n=40, tinnitus-vitamin-b12-deficiency n=40, tinnitus-bimodal-auditory-somatosensory n=20, tinnitus-tdcs-notched-music n=26, tinnitus-hdtrns-acoustic-null n=13, tinnitus-musical-auditory-training n=20, tinnitus-cochlear-laser-feasibility n=35, tinnitus-rtms-pilot n=4, tinnitus-modulated-sound-suppression n=20, tinnitus-hearing-masking-device-null n=21, tinnitus-tens-masseter n=31)
+- build: node build.mjs exit 0; errors 0; new comparator warnings fixed 10; effect warnings fixed 0; line warnings fixed 3; scale warnings fixed 11; English warnings fixed 0; subject warnings fixed 0; truthful new warnings 15; targeted remaining 472
+- totals after batch: entries 17625; subjects 10685; refs 20745; numeric group-comparison entries 16686; unknown-n 1256; thin-study 4631
+- data commit: fee353325c27e414d058ce67b4a2c9df2060c288
+- PUSHED=false checkpoint: bcdf77476eedb52e466bcb8de0cf0d5a1a66f0c6
+- PUSHED=true marker: 1312b0dcba221c750f83c59a55c62a69c1458aff
+- search scope: PubMed E-utilities and EFetch only; chronic subjective tinnitus nonprescription and non-drug candidates; no browser or ClinicalTrials.gov-only records used; supplemental searches covered broader CBT, sound enrichment, hearing aids, bimodal neuromodulation, acupuncture, Ginkgo, melatonin, mindfulness, music therapy, and laser queries
+- next_batch: 2031; resume point: new-expansion-candidates-batch2031
