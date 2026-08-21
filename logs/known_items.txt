@@ -14075,3 +14075,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 6f48780f9
 - PUSHED=true marker: 5bcf11d15
 - next_batch: 2058; resume point: new-expansion-candidates-batch2058
+
+## Batch 2058 — 다발성경화증 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 6133 records; 2067 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 2067; chunks 42; fetched 2067; abstracts 2054; missing 0
+- candidates: parser 836; selected 30; held/excluded 806
+- selected PMID: 37739574, 36206832, 33161005, 36082806, 39578772, 32887411, 32481240, 40528281, 40252300, 41046656, 33503527, 41218293, 41139575, 33878619, 28732757, 37716212, 35443843, 37801956, 41418486, 39961428, 35584738, 38368747, 35905806, 41106533, 35349884, 38873806, 34595963, 36609834, 32249509, 34356994
+- new IDs and PMID: ms-cogex-2058-37739574=37739574, ms-dns-balance-2058-36206832=36206832, ms-vr-balance-2058-33161005=33161005, ms-fast-resistance-2058-36082806=36082806, ms-resistance-women-2058-39578772=39578772, ms-strength-dual-task-2058-32887411=32887411, ms-aquatic-halliwick-2058-32481240=32481240, ms-vestibular-rehab-2058-40528281=40528281, ms-outdoor-walking-2058-40252300=40252300, ms-bfr-low-intensity-2058-41046656=41046656, ms-periodized-exercise-2058-33503527=33503527, ms-aquatic-therapy-2058-41218293=41218293, ms-bfr-training-2058-41139575=41139575, ms-robot-exoskeleton-2058-33878619=33878619, ms-multimodal-exercise-2058-28732757=28732757, ms-home-aerobic-2058-37716212=37716212, ms-exergaming-2058-35443843=35443843, ms-saffron-corrective-2058-37801956=37801956, ms-peak-interval-2058-41418486=41418486, ms-activity-coaching-2058-39961428=39961428, ms-four-exercise-2058-35584738=35584738, ms-hip-abductor-2058-38368747=38368747, ms-strength-spasticity-2058-35905806=35905806, ms-hybrid-telerehab-2058-41106533=41106533, ms-aerobic-frenkel-2058-35349884=35349884, ms-music-gait-2058-38873806=38873806, ms-fall-prevention-2058-34595963=34595963, ms-multitask-training-2058-36609834=36609834, ms-group-home-exercise-2058-32249509=32249509, ms-robot-gait-2058-34356994=34356994
+- categories: care 6, move 21, supp 1, life 2, otc 0, food 0, rx 0
+- evidence: 인지재활·유산소, 코어·동적신경근안정화, 가상현실·로봇·전정·원격재활, 저항·혈류제한·수중·야외걷기·다중운동, 게임운동·음악보행·이중과제, 물리치료 활동상담, 낙상예방 교육·운동, 사프란 보충을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 806건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2058.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects, errors 0, warnings 0; unknown-n 0; truthful thin-study 18 (ms-aerobic-frenkel-2058-35349884 n=32, ms-aquatic-halliwick-2058-32481240 n=30, ms-aquatic-therapy-2058-41218293 n=26, ms-bfr-low-intensity-2058-41046656 n=41, ms-exergaming-2058-35443843 n=36, ms-fast-resistance-2058-36082806 n=30, ms-hip-abductor-2058-38368747 n=40, ms-home-aerobic-2058-37716212 n=48, ms-hybrid-telerehab-2058-41106533 n=44, ms-multitask-training-2058-36609834 n=42, ms-peak-interval-2058-41418486 n=12, ms-periodized-exercise-2058-33503527 n=31, ms-resistance-women-2058-39578772 n=25, ms-robot-exoskeleton-2058-33878619 n=10, ms-robot-gait-2058-34356994 n=27, ms-strength-dual-task-2058-32887411 n=31, ms-strength-spasticity-2058-35905806 n=30, ms-vr-balance-2058-33161005 n=39)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 18; comparator warnings fixed 6; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 1; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 18
+- totals after batch: entries 18440; subjects 11471; refs 21560; numeric group-comparison entries 17501; unknown-n 1278; thin-study 4721
+- data commit: 5aca0bab7
+- PUSHED=false checkpoint: 6167bdbc0
+- PUSHED=true marker: 6f00be48e
+- next_batch: 2059; resume point: new-expansion-candidates-batch2059
