@@ -2,28 +2,28 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19612,
-  "subjects": 12626,
-  "refs": 22732,
+  "entries": 19642,
+  "subjects": 12656,
+  "refs": 22762,
   "kinds": {
     "otc": 748,
-    "supp": 2808,
-    "food": 1525,
-    "move": 2928,
-    "life": 2616,
-    "care": 6298,
+    "supp": 2809,
+    "food": 1529,
+    "move": 2939,
+    "life": 2618,
+    "care": 6310,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18762,
+    "trial": 18792,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13514,
-    "null": 4397,
+    "pos": 13536,
+    "null": 4405,
     "open": 1464,
     "harm": 237
   },
@@ -31,8 +31,8 @@
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 10124,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2106은 요통의 운동·교육·열·수기치료·침·기기·자기관리 직접 근거 30건을 기록했다. Resume with batch 2107."
+    "no_evidence_pending": 12256,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2107은 무릎골관절염의 운동·체중관리·태극권·침·수기치료·물리치료·보충제 직접 근거 30건을 기록했다. Resume with batch 2108."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2106은 요통의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2107."
+    "note": "Batch 2107은 무릎골관절염의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2108."
   },
   "checkpoints": {
-    "over_counter_share": "25.9% (5081 entries)",
+    "over_counter_share": "25.9% (5086 entries)",
     "rx_share": "13.7% (2689)",
-    "no_effect_or_harm_share": "23.6% (4634 entries)",
-    "vs_share": "95.2% (18673)",
+    "no_effect_or_harm_share": "23.6% (4642 entries)",
+    "vs_share": "95.2% (18703)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18762)",
+    "trial_share": "95.7% (18792)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
       "unknown_n": 1333,
-      "thin_study": 5326,
-      "targeted_batch_warnings": 14
+      "thin_study": 5335,
+      "targeted_batch_warnings": 9
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2106 data and marker pushed; known_items and final state commit pending. Resume with batch 2107.",
+  "next": "Batch 2107 data commit b13aaa1f57e1d25a8e5cfe24aa14027da21989fd; PUSHED=false checkpoint pending; resume with batch 2108.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,130 +6772,130 @@
     ]
   },
   "last_batch": {
-    "id": "2106",
-    "commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
-    "pushed": true,
-    "expansion_commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
+    "id": "2107",
+    "commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
+    "pushed": false,
+    "expansion_commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
     "data_commits": [
-      "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4"
+      "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd"
     ],
-    "checkpoint_commit": "90bc8b99c33cd3b4697be16a85c62e314f3c205b",
-    "push_marker_commit": "63a1697be6fe6676ca4398f8e6db9649bb3b05d7",
-    "known_items_commit": "026e2eaee46ca5993a8c1b2a79c65d67accf8f4b",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "nonspecific-lbp-core-hip-exercise-32669487-2106",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
-      "chronic-lbp-video-telerehabilitation-34357527-2106",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
-      "nonspecific-lbp-core-stabilization-23411647-2106",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
-      "nonspecific-lbp-perturbation-training-41788596-2106",
-      "chronic-lbp-swimming-stroke-41027336-2106",
-      "acute-lbp-ordinary-activity-exercise-7823996-2106",
-      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
-      "sedentary-women-lbp-individualized-exercise-36872766-2106",
-      "mechanical-lbp-exercise-class-10426734-2106",
-      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
-      "young-lbp-active-break-39707287-2106",
-      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
-      "fruit-workers-lbp-exercise-38160342-2106",
-      "chronic-lbp-pilates-extension-30368347-2106",
-      "low-back-pain-directional-exercise-15564907-2106",
-      "lumbar-instability-stabilization-exercise-22935853-2106",
-      "chronic-lbp-mhealth-exercise-35241140-2106",
-      "adolescent-lbp-trunk-vibration-32992943-2106",
-      "worker-lbp-social-network-exercise-39971914-2106",
-      "chronic-lbp-three-approaches-18188660-2106",
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
-      "acute-lbp-exercise-sickness-absence-7644960-2106",
-      "acute-lbp-exercise-advice-8235809-2106",
-      "nonspecific-lbp-fascial-release-core-39177625-2106",
-      "industrial-lbp-adapted-exercise-33164978-2106",
-      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 2527,
+    "no_evidence_rejects": 2132,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 2527,
+    "screened_nonqualifying_topics": 2132,
     "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19612 entries; 22732 refs; 18762 trial; 754 obs; 32 animal; 17 lab; 47 case; 18673 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 요통의 비처방·비약물 중재 후보를 검색했다. 215개 검색 주제에서 레코드 41556개와 고유 PMID 6189개를 확인했고 6189개를 요청해 6189개 논문 기록과 6110개 초록을 확보했다. 후보 parser 2557건에서 운동·교육·열·수기치료·침·기기·자기관리 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2527건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 14건의 경고는 유지했고 비교 경고 9건과 규모 문장 경고 1건을 수정했다.",
+    "build": "19642 entries; 22762 refs; 18792 trial; 754 obs; 32 animal; 17 lab; 47 case; 18703 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 무릎골관절염의 비처방·비약물 중재 후보를 검색했다. 235개 검색 주제에서 레코드 35245개와 고유 PMID 5215개를 확인했고 5215개를 요청해 5215개 논문 기록과 5183개 초록을 확보했다. 후보 parser 2162건에서 운동·체중관리·태극권·침·수기치료·물리치료·보충제 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2132건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 9건의 경고는 유지했고 비교 경고 1건과 규모 문장 경고 1건을 수정했다.",
     "qualified_topics": [
-      "nonspecific-lbp-core-hip-exercise-32669487-2106",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
-      "chronic-lbp-video-telerehabilitation-34357527-2106",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
-      "nonspecific-lbp-core-stabilization-23411647-2106",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
-      "nonspecific-lbp-perturbation-training-41788596-2106",
-      "chronic-lbp-swimming-stroke-41027336-2106",
-      "acute-lbp-ordinary-activity-exercise-7823996-2106",
-      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
-      "sedentary-women-lbp-individualized-exercise-36872766-2106",
-      "mechanical-lbp-exercise-class-10426734-2106",
-      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
-      "young-lbp-active-break-39707287-2106",
-      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
-      "fruit-workers-lbp-exercise-38160342-2106",
-      "chronic-lbp-pilates-extension-30368347-2106",
-      "low-back-pain-directional-exercise-15564907-2106",
-      "lumbar-instability-stabilization-exercise-22935853-2106",
-      "chronic-lbp-mhealth-exercise-35241140-2106",
-      "adolescent-lbp-trunk-vibration-32992943-2106",
-      "worker-lbp-social-network-exercise-39971914-2106",
-      "chronic-lbp-three-approaches-18188660-2106",
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
-      "acute-lbp-exercise-sickness-absence-7644960-2106",
-      "acute-lbp-exercise-advice-8235809-2106",
-      "nonspecific-lbp-fascial-release-core-39177625-2106",
-      "industrial-lbp-adapted-exercise-33164978-2106",
-      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "nonspecific-lbp-core-hip-exercise-32669487-2106",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
-      "chronic-lbp-video-telerehabilitation-34357527-2106",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
-      "nonspecific-lbp-core-stabilization-23411647-2106",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
-      "nonspecific-lbp-perturbation-training-41788596-2106",
-      "chronic-lbp-swimming-stroke-41027336-2106",
-      "acute-lbp-ordinary-activity-exercise-7823996-2106",
-      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
-      "sedentary-women-lbp-individualized-exercise-36872766-2106",
-      "mechanical-lbp-exercise-class-10426734-2106",
-      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
-      "young-lbp-active-break-39707287-2106",
-      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
-      "fruit-workers-lbp-exercise-38160342-2106",
-      "chronic-lbp-pilates-extension-30368347-2106",
-      "low-back-pain-directional-exercise-15564907-2106",
-      "lumbar-instability-stabilization-exercise-22935853-2106",
-      "chronic-lbp-mhealth-exercise-35241140-2106",
-      "adolescent-lbp-trunk-vibration-32992943-2106",
-      "worker-lbp-social-network-exercise-39971914-2106",
-      "chronic-lbp-three-approaches-18188660-2106",
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
-      "acute-lbp-exercise-sickness-absence-7644960-2106",
-      "acute-lbp-exercise-advice-8235809-2106",
-      "nonspecific-lbp-fascial-release-core-39177625-2106",
-      "industrial-lbp-adapted-exercise-33164978-2106",
-      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 9,
+    "new_entry_vs_warnings_fixed": 1,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
     "new_entry_scale_warnings_fixed": 1,
@@ -6904,7 +6904,7 @@
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18673,
+    "open_numeric_comparisons": 18703,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6912,51 +6912,50 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "급성 요통 운동지시·일상조언=move",
-      "급성 요통 운동·결근=move",
-      "급성 요통 일상활동·운동=move",
-      "청소년 요통 몸통안정화·진동=care",
-      "만성 요통 운동·전기자극·테이핑=care",
-      "만성 요통 저출력레이저·운동=care",
-      "만성 요통 모바일 운동교육=life",
-      "만성 요통 필라테스·신전운동=move",
-      "만성 요통 필라테스·단파투열=care",
-      "만성 요통 수영 영법=move",
-      "만성 요통 10분 코어운동=move",
-      "만성 요통 유산소·물리치료·가정운동=care",
-      "만성 요통 영상 원격운동=life",
-      "과수원 근로자 요통 운동=move",
-      "산업근로자 요통 맞춤운동=life",
-      "요통 방향선호 맞춤운동=move",
-      "요통 맥켄지·나선형안정화운동=move",
-      "요추 불안정성 안정화운동=move",
-      "기계적 요통 운동교실=move",
-      "비특이적 요통 균형·햄스트링운동=move",
-      "비특이적 요통 코어·엉덩이운동=move",
-      "비특이적 요통 코어안정화운동=move",
-      "비특이적 요통 근막이완·코어운동=care",
-      "비특이적 요통 두침·운동=care",
-      "비특이적 요통 교란자극 운동=move",
-      "재발성 요통 신경근운동·상담=move",
-      "천장관절 요통 수기치료·안정화운동=care",
-      "좌식 여성 요통 맞춤운동=move",
-      "근로자 요통 사회관계망 운동=life",
-      "청년 요통 활동휴식=move"
+      "중증 무릎골관절염 침·물리치료=care",
+      "무릎골관절염 급성 저항운동=move",
+      "무릎골관절염 수중운동·직류자극=care",
+      "무릎골관절염 지역사회 걷기=move",
+      "무릎골관절염 수동운동·전기자극=care",
+      "무릎골관절염 고강도·저강도 자전거=move",
+      "무릎골관절염 식이·운동 체중감량=food",
+      "무릎골관절염 식이·운동 체중감량예비=food",
+      "무릎골관절염 전기자극·등척성운동=care",
+      "무릎골관절염 운동·식이 생체표지=food",
+      "무릎골관절염 태극권·팔단금·자전거=move",
+      "무릎골관절염 운동·통증대처훈련=care",
+      "무릎골관절염 글루코사민·콘드로이틴=supp",
+      "무릎골관절염 고강도·저출력레이저=care",
+      "무릎골관절염 가정·수업운동=move",
+      "무릎골관절염 가정 무릎폄운동량=move",
+      "무릎골관절염 집중 체중감량=food",
+      "무릎골관절염 균형·고유감각운동=move",
+      "무릎골관절염 운동사슬·코어운동=move",
+      "무릎골관절염 저출력레이저·근력운동=care",
+      "무릎골관절염 수기치료·재활=care",
+      "무릎골관절염 비수술 다중관리=care",
+      "무릎골관절염 전자기장·운동=care",
+      "무릎골관절염 광생체조절·운동=care",
+      "무릎골관절염 신체활동 행동지원=life",
+      "무릎골관절염 대퇴사두근운동·교육=move",
+      "무릎골관절염 문자 운동순응도=life",
+      "무릎골관절염 온천요법·가정운동=care",
+      "무릎골관절염 태극권·물리치료운동=move",
+      "중증 무릎골관절염 저항운동량=move"
     ],
-    "targeted_batch_warnings_remaining": 14,
-    "targeted_batch_warnings_fixed": 10,
+    "targeted_batch_warnings_remaining": 9,
+    "targeted_batch_warnings_fixed": 2,
     "discarded_non_numeric_candidates": [
       "review-17087866",
-      "protocol-19473546",
-      "protocol-34551809",
-      "meta-research-39848632",
-      "observational-39090661",
-      "observational-24072729",
-      "quasi-experimental-41703525",
-      "surgery-10851101",
-      "radiofrequency-32389224",
-      "injection-8439713",
-      "medication-8976475"
+      "meta-analysis-39868691",
+      "protocol-24693988",
+      "protocol-18831745",
+      "observational-15986358",
+      "nonrandomized-20378679",
+      "quasi-experimental-25078945",
+      "injection-41057853",
+      "surgery-32989354",
+      "prescription-30185216"
     ],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -6965,943 +6964,1003 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2106",
+    "next_official_deployment_check": "after batch 2107",
     "topics": [
-      "nonspecific-lbp-core-hip-exercise-32669487-2106",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
-      "chronic-lbp-video-telerehabilitation-34357527-2106",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
-      "nonspecific-lbp-core-stabilization-23411647-2106",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
-      "nonspecific-lbp-perturbation-training-41788596-2106",
-      "chronic-lbp-swimming-stroke-41027336-2106",
-      "acute-lbp-ordinary-activity-exercise-7823996-2106",
-      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
-      "sedentary-women-lbp-individualized-exercise-36872766-2106",
-      "mechanical-lbp-exercise-class-10426734-2106",
-      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
-      "young-lbp-active-break-39707287-2106",
-      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
-      "fruit-workers-lbp-exercise-38160342-2106",
-      "chronic-lbp-pilates-extension-30368347-2106",
-      "low-back-pain-directional-exercise-15564907-2106",
-      "lumbar-instability-stabilization-exercise-22935853-2106",
-      "chronic-lbp-mhealth-exercise-35241140-2106",
-      "adolescent-lbp-trunk-vibration-32992943-2106",
-      "worker-lbp-social-network-exercise-39971914-2106",
-      "chronic-lbp-three-approaches-18188660-2106",
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
-      "acute-lbp-exercise-sickness-absence-7644960-2106",
-      "acute-lbp-exercise-advice-8235809-2106",
-      "nonspecific-lbp-fascial-release-core-39177625-2106",
-      "industrial-lbp-adapted-exercise-33164978-2106",
-      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "8235809",
-      "7644960",
-      "7823996",
-      "32992943",
-      "35794120",
-      "2136991",
-      "35241140",
-      "30368347",
-      "36946839",
-      "41027336",
-      "39923121",
-      "18188660",
-      "34357527",
-      "38160342",
-      "33164978",
-      "15564907",
-      "34657873",
-      "22935853",
-      "10426734",
-      "40016482",
-      "32669487",
-      "23411647",
-      "39177625",
-      "35543941",
-      "41788596",
-      "37466018",
-      "30691749",
-      "36872766",
-      "39971914",
-      "39707287"
+      "22914302",
+      "20594330",
+      "40898048",
+      "23061875",
+      "20012051",
+      "10219009",
+      "25887362",
+      "10983905",
+      "16897119",
+      "18359648",
+      "31472246",
+      "22921688",
+      "17561418",
+      "41042410",
+      "15113993",
+      "35413476",
+      "16899803",
+      "16371799",
+      "41987086",
+      "28776408",
+      "25455832",
+      "26241775",
+      "39868691",
+      "34656170",
+      "37403119",
+      "10527090",
+      "32985994",
+      "19734131",
+      "29407226",
+      "40753853"
     ],
-    "unique_pmids": 6189,
-    "requested": 6189,
-    "fetched": 6189,
-    "fetch_chunks": 124,
-    "abstracts": 6110,
-    "parsed_abstracts": 6110,
-    "search_candidates": 2557,
-    "candidate_parser_parsed": 6189,
-    "candidate_parser_candidates": 2557,
+    "unique_pmids": 5215,
+    "requested": 5215,
+    "fetched": 5215,
+    "fetch_chunks": 105,
+    "abstracts": 5183,
+    "parsed_abstracts": 5183,
+    "search_candidates": 2162,
+    "candidate_parser_parsed": 5215,
+    "candidate_parser_candidates": 2162,
     "candidate_parser_candidates_after_write": 30,
     "manual_candidates": 30,
-    "search_topic_count": 215,
-    "search_returned_records": 41556,
-    "supplemental_query_count": 185,
+    "search_topic_count": 235,
+    "search_returned_records": 35245,
+    "supplemental_query_count": 205,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "nonspecific-lbp-core-hip-exercise-32669487-2106",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
-      "chronic-lbp-video-telerehabilitation-34357527-2106",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
-      "nonspecific-lbp-core-stabilization-23411647-2106",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
-      "nonspecific-lbp-perturbation-training-41788596-2106",
-      "chronic-lbp-swimming-stroke-41027336-2106",
-      "acute-lbp-ordinary-activity-exercise-7823996-2106",
-      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
-      "sedentary-women-lbp-individualized-exercise-36872766-2106",
-      "mechanical-lbp-exercise-class-10426734-2106",
-      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
-      "young-lbp-active-break-39707287-2106",
-      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
-      "fruit-workers-lbp-exercise-38160342-2106",
-      "chronic-lbp-pilates-extension-30368347-2106",
-      "low-back-pain-directional-exercise-15564907-2106",
-      "lumbar-instability-stabilization-exercise-22935853-2106",
-      "chronic-lbp-mhealth-exercise-35241140-2106",
-      "adolescent-lbp-trunk-vibration-32992943-2106",
-      "worker-lbp-social-network-exercise-39971914-2106",
-      "chronic-lbp-three-approaches-18188660-2106",
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
-      "acute-lbp-exercise-sickness-absence-7644960-2106",
-      "acute-lbp-exercise-advice-8235809-2106",
-      "nonspecific-lbp-fascial-release-core-39177625-2106",
-      "industrial-lbp-adapted-exercise-33164978-2106",
-      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
     ],
     "categories": {
       "otc": 0,
-      "supp": 0,
-      "food": 0,
-      "move": 18,
-      "life": 4,
-      "care": 8,
+      "supp": 1,
+      "food": 4,
+      "move": 11,
+      "life": 2,
+      "care": 12,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "chronic-lbp-low-energy-laser-exercise-2136991-2106:20",
-      "chronic-lbp-mhealth-exercise-35241140-2106:40",
-      "chronic-lbp-pilates-extension-30368347-2106:47",
-      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106:36",
-      "chronic-lbp-swimming-stroke-41027336-2106:30",
-      "chronic-lbp-ten-minute-core-exercise-39923121-2106:30",
-      "fruit-workers-lbp-exercise-38160342-2106:44",
-      "industrial-lbp-adapted-exercise-33164978-2106:18",
-      "lumbar-instability-stabilization-exercise-22935853-2106:30",
-      "nonspecific-lbp-balance-hamstring-training-40016482-2106:26",
-      "nonspecific-lbp-core-stabilization-23411647-2106:30",
-      "nonspecific-lbp-perturbation-training-41788596-2106:44",
-      "sacroiliac-lbp-manipulation-stabilization-30691749-2106:40",
-      "worker-lbp-social-network-exercise-39971914-2106:40"
+      "knee-oa-acute-resistance-exercise-20594330-2107:31",
+      "knee-oa-cpm-electrical-isometric-20012051-2107:40",
+      "knee-oa-cycle-intensity-10219009-2107:39",
+      "knee-oa-diet-exercise-preliminary-10983905-2107:24",
+      "knee-oa-exercise-pain-coping-22921688-2107:20",
+      "knee-oa-kinetic-core-exercise-41987086-2107:48",
+      "knee-oa-low-level-laser-exercise-28776408-2107:40",
+      "knee-oa-photobiomodulation-exercise-34656170-2107:42",
+      "severe-knee-oa-resistance-volume-40753853-2107:28"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "lbp-supp-1",
+        "topic": "koa-supp-1",
         "returned": 1000
       },
       {
-        "topic": "lbp-supp-2",
+        "topic": "koa-supp-2",
+        "returned": 173
+      },
+      {
+        "topic": "koa-supp-3",
         "returned": 1000
       },
       {
-        "topic": "lbp-supp-3",
-        "returned": 170
-      },
-      {
-        "topic": "lbp-supp-4",
+        "topic": "koa-supp-4",
         "returned": 1000
       },
       {
-        "topic": "lbp-supp-5",
-        "returned": 1000
+        "topic": "koa-supp-5",
+        "returned": 14
       },
       {
-        "topic": "lbp-supp-6",
-        "returned": 1000
+        "topic": "koa-supp-6",
+        "returned": 130
       },
       {
-        "topic": "lbp-supp-7",
-        "returned": 27
+        "topic": "koa-supp-7",
+        "returned": 51
       },
       {
-        "topic": "lbp-supp-8",
-        "returned": 1000
+        "topic": "koa-supp-8",
+        "returned": 156
       },
       {
-        "topic": "lbp-supp-9",
-        "returned": 34
+        "topic": "koa-supp-9",
+        "returned": 26
       },
       {
-        "topic": "lbp-supp-10",
-        "returned": 52
+        "topic": "koa-supp-10",
+        "returned": 236
       },
       {
-        "topic": "lbp-supp-11",
-        "returned": 22
+        "topic": "koa-supp-11",
+        "returned": 60
       },
       {
-        "topic": "lbp-supp-12",
-        "returned": 7
+        "topic": "koa-supp-12",
+        "returned": 11
       },
       {
-        "topic": "lbp-supp-13",
-        "returned": 49
-      },
-      {
-        "topic": "lbp-supp-14",
-        "returned": 89
-      },
-      {
-        "topic": "lbp-supp-15",
-        "returned": 151
-      },
-      {
-        "topic": "lbp-supp-16",
-        "returned": 40
-      },
-      {
-        "topic": "lbp-supp-17",
-        "returned": 137
-      },
-      {
-        "topic": "lbp-supp-18",
-        "returned": 200
-      },
-      {
-        "topic": "lbp-supp-19",
-        "returned": 121
-      },
-      {
-        "topic": "lbp-supp-20",
-        "returned": 35
-      },
-      {
-        "topic": "lbp-supp-21",
-        "returned": 126
-      },
-      {
-        "topic": "lbp-supp-22",
-        "returned": 72
-      },
-      {
-        "topic": "lbp-supp-23",
-        "returned": 154
-      },
-      {
-        "topic": "lbp-supp-24",
-        "returned": 117
-      },
-      {
-        "topic": "lbp-supp-25",
-        "returned": 460
-      },
-      {
-        "topic": "lbp-supp-26",
-        "returned": 111
-      },
-      {
-        "topic": "lbp-supp-27",
-        "returned": 234
-      },
-      {
-        "topic": "lbp-supp-28",
-        "returned": 174
-      },
-      {
-        "topic": "lbp-supp-29",
-        "returned": 719
-      },
-      {
-        "topic": "lbp-supp-30",
-        "returned": 53
-      },
-      {
-        "topic": "lbp-supp-31",
-        "returned": 83
-      },
-      {
-        "topic": "lbp-supp-32",
-        "returned": 13
-      },
-      {
-        "topic": "lbp-supp-33",
+        "topic": "koa-supp-13",
         "returned": 38
       },
       {
-        "topic": "lbp-supp-34",
-        "returned": 116
+        "topic": "koa-supp-14",
+        "returned": 43
       },
       {
-        "topic": "lbp-supp-35",
+        "topic": "koa-supp-15",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-16",
         "returned": 3
       },
       {
-        "topic": "lbp-supp-36",
-        "returned": 46
-      },
-      {
-        "topic": "lbp-supp-37",
-        "returned": 116
-      },
-      {
-        "topic": "lbp-supp-38",
-        "returned": 78
-      },
-      {
-        "topic": "lbp-supp-39",
-        "returned": 93
-      },
-      {
-        "topic": "lbp-supp-40",
-        "returned": 8
-      },
-      {
-        "topic": "lbp-supp-41",
-        "returned": 4
-      },
-      {
-        "topic": "lbp-supp-42",
-        "returned": 26
-      },
-      {
-        "topic": "lbp-supp-43",
-        "returned": 17
-      },
-      {
-        "topic": "lbp-supp-44",
-        "returned": 4
-      },
-      {
-        "topic": "lbp-supp-45",
-        "returned": 25
-      },
-      {
-        "topic": "lbp-supp-46",
-        "returned": 3
-      },
-      {
-        "topic": "lbp-supp-47",
-        "returned": 28
-      },
-      {
-        "topic": "lbp-supp-48",
-        "returned": 25
-      },
-      {
-        "topic": "lbp-supp-49",
-        "returned": 159
-      },
-      {
-        "topic": "lbp-supp-50",
-        "returned": 159
-      },
-      {
-        "topic": "lbp-supp-51",
+        "topic": "koa-supp-17",
         "returned": 5
       },
       {
-        "topic": "lbp-supp-52",
-        "returned": 28
+        "topic": "koa-supp-18",
+        "returned": 1000
       },
       {
-        "topic": "lbp-supp-53",
-        "returned": 19
+        "topic": "koa-supp-19",
+        "returned": 63
       },
       {
-        "topic": "lbp-supp-54",
-        "returned": 57
+        "topic": "koa-supp-20",
+        "returned": 118
       },
       {
-        "topic": "lbp-supp-55",
-        "returned": 737
-      },
-      {
-        "topic": "lbp-supp-56",
-        "returned": 293
-      },
-      {
-        "topic": "lbp-supp-57",
-        "returned": 296
-      },
-      {
-        "topic": "lbp-supp-58",
-        "returned": 66
-      },
-      {
-        "topic": "lbp-supp-59",
-        "returned": 101
-      },
-      {
-        "topic": "lbp-supp-60",
-        "returned": 3
-      },
-      {
-        "topic": "lbp-supp-61",
+        "topic": "koa-supp-21",
         "returned": 7
       },
       {
-        "topic": "lbp-supp-62",
-        "returned": 3
-      },
-      {
-        "topic": "lbp-supp-63",
-        "returned": 89
-      },
-      {
-        "topic": "lbp-supp-64",
-        "returned": 42
-      },
-      {
-        "topic": "lbp-supp-65",
-        "returned": 35
-      },
-      {
-        "topic": "lbp-supp-66",
-        "returned": 14
-      },
-      {
-        "topic": "lbp-supp-67",
-        "returned": 14
-      },
-      {
-        "topic": "lbp-supp-68",
-        "returned": 27
-      },
-      {
-        "topic": "lbp-supp-69",
-        "returned": 55
-      },
-      {
-        "topic": "lbp-supp-70",
-        "returned": 11
-      },
-      {
-        "topic": "lbp-supp-71",
-        "returned": 24
-      },
-      {
-        "topic": "lbp-supp-72",
-        "returned": 22
-      },
-      {
-        "topic": "lbp-supp-73",
-        "returned": 70
-      },
-      {
-        "topic": "lbp-supp-74",
-        "returned": 158
-      },
-      {
-        "topic": "lbp-supp-75",
-        "returned": 265
-      },
-      {
-        "topic": "lbp-supp-76",
-        "returned": 143
-      },
-      {
-        "topic": "lbp-supp-77",
+        "topic": "koa-supp-22",
         "returned": 148
       },
       {
-        "topic": "lbp-supp-78",
-        "returned": 30
+        "topic": "koa-supp-23",
+        "returned": 2
       },
       {
-        "topic": "lbp-supp-79",
-        "returned": 1
+        "topic": "koa-supp-24",
+        "returned": 94
       },
       {
-        "topic": "lbp-supp-80",
-        "returned": 23
+        "topic": "koa-supp-25",
+        "returned": 37
       },
       {
-        "topic": "lbp-supp-81",
-        "returned": 16
-      },
-      {
-        "topic": "lbp-supp-82",
-        "returned": 0
-      },
-      {
-        "topic": "lbp-supp-83",
-        "returned": 119
-      },
-      {
-        "topic": "lbp-supp-84",
-        "returned": 11
-      },
-      {
-        "topic": "lbp-supp-85",
-        "returned": 8
-      },
-      {
-        "topic": "lbp-supp-86",
-        "returned": 35
-      },
-      {
-        "topic": "lbp-supp-87",
-        "returned": 6
-      },
-      {
-        "topic": "lbp-supp-88",
-        "returned": 41
-      },
-      {
-        "topic": "lbp-supp-89",
-        "returned": 26
-      },
-      {
-        "topic": "lbp-supp-90",
-        "returned": 36
-      },
-      {
-        "topic": "lbp-supp-91",
-        "returned": 14
-      },
-      {
-        "topic": "lbp-supp-92",
-        "returned": 331
-      },
-      {
-        "topic": "lbp-supp-93",
-        "returned": 545
-      },
-      {
-        "topic": "lbp-supp-94",
-        "returned": 256
-      },
-      {
-        "topic": "lbp-supp-95",
-        "returned": 388
-      },
-      {
-        "topic": "lbp-supp-96",
-        "returned": 76
-      },
-      {
-        "topic": "lbp-supp-97",
-        "returned": 57
-      },
-      {
-        "topic": "lbp-supp-98",
-        "returned": 496
-      },
-      {
-        "topic": "lbp-supp-99",
-        "returned": 496
-      },
-      {
-        "topic": "lbp-supp-100",
-        "returned": 332
-      },
-      {
-        "topic": "lbp-supp-101",
-        "returned": 332
-      },
-      {
-        "topic": "lbp-supp-102",
-        "returned": 246
-      },
-      {
-        "topic": "lbp-supp-103",
-        "returned": 300
-      },
-      {
-        "topic": "lbp-supp-104",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-supp-105",
-        "returned": 154
-      },
-      {
-        "topic": "lbp-supp-106",
-        "returned": 12
-      },
-      {
-        "topic": "lbp-supp-107",
-        "returned": 75
-      },
-      {
-        "topic": "lbp-supp-108",
-        "returned": 49
-      },
-      {
-        "topic": "lbp-supp-109",
-        "returned": 70
-      },
-      {
-        "topic": "lbp-supp-110",
-        "returned": 91
-      },
-      {
-        "topic": "lbp-supp-111",
-        "returned": 47
-      },
-      {
-        "topic": "lbp-supp-112",
-        "returned": 12
-      },
-      {
-        "topic": "lbp-supp-113",
-        "returned": 59
-      },
-      {
-        "topic": "lbp-supp-114",
-        "returned": 6
-      },
-      {
-        "topic": "lbp-supp-115",
-        "returned": 10
-      },
-      {
-        "topic": "lbp-supp-116",
-        "returned": 41
-      },
-      {
-        "topic": "lbp-supp-117",
+        "topic": "koa-supp-26",
         "returned": 4
       },
       {
-        "topic": "lbp-supp-118",
-        "returned": 19
-      },
-      {
-        "topic": "lbp-supp-119",
+        "topic": "koa-supp-27",
         "returned": 1
       },
       {
-        "topic": "lbp-supp-120",
-        "returned": 88
+        "topic": "koa-supp-28",
+        "returned": 580
       },
       {
-        "topic": "lbp-supp-121",
-        "returned": 27
+        "topic": "koa-supp-29",
+        "returned": 8
       },
       {
-        "topic": "lbp-supp-122",
-        "returned": 11
+        "topic": "koa-supp-30",
+        "returned": 28
       },
       {
-        "topic": "lbp-supp-123",
-        "returned": 1
+        "topic": "koa-supp-31",
+        "returned": 250
       },
       {
-        "topic": "lbp-supp-124",
-        "returned": 0
+        "topic": "koa-supp-32",
+        "returned": 38
       },
       {
-        "topic": "lbp-supp-125",
-        "returned": 13
-      },
-      {
-        "topic": "lbp-supp-126",
-        "returned": 137
-      },
-      {
-        "topic": "lbp-supp-127",
-        "returned": 33
-      },
-      {
-        "topic": "lbp-supp-128",
-        "returned": 29
-      },
-      {
-        "topic": "lbp-supp-129",
-        "returned": 9
-      },
-      {
-        "topic": "lbp-supp-130",
-        "returned": 29
-      },
-      {
-        "topic": "lbp-supp-131",
-        "returned": 16
-      },
-      {
-        "topic": "lbp-supp-132",
-        "returned": 22
-      },
-      {
-        "topic": "lbp-supp-133",
-        "returned": 3
-      },
-      {
-        "topic": "lbp-supp-134",
-        "returned": 2
-      },
-      {
-        "topic": "lbp-supp-135",
-        "returned": 2
-      },
-      {
-        "topic": "lbp-supp-136",
-        "returned": 16
-      },
-      {
-        "topic": "lbp-supp-137",
-        "returned": 7
-      },
-      {
-        "topic": "lbp-supp-138",
-        "returned": 1
-      },
-      {
-        "topic": "lbp-supp-139",
-        "returned": 0
-      },
-      {
-        "topic": "lbp-supp-140",
-        "returned": 44
-      },
-      {
-        "topic": "lbp-supp-141",
-        "returned": 21
-      },
-      {
-        "topic": "lbp-supp-142",
-        "returned": 22
-      },
-      {
-        "topic": "lbp-supp-143",
-        "returned": 7
-      },
-      {
-        "topic": "lbp-supp-144",
-        "returned": 6
-      },
-      {
-        "topic": "lbp-supp-145",
-        "returned": 7
-      },
-      {
-        "topic": "lbp-supp-146",
-        "returned": 9
-      },
-      {
-        "topic": "lbp-supp-147",
-        "returned": 3
-      },
-      {
-        "topic": "lbp-supp-148",
-        "returned": 6
-      },
-      {
-        "topic": "lbp-supp-149",
-        "returned": 6
-      },
-      {
-        "topic": "lbp-supp-150",
-        "returned": 1
-      },
-      {
-        "topic": "lbp-outcome-1",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-2",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-3",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-4",
-        "returned": 554
-      },
-      {
-        "topic": "lbp-outcome-5",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-6",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-7",
-        "returned": 868
-      },
-      {
-        "topic": "lbp-outcome-8",
-        "returned": 227
-      },
-      {
-        "topic": "lbp-outcome-9",
-        "returned": 704
-      },
-      {
-        "topic": "lbp-outcome-10",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-11",
-        "returned": 20
-      },
-      {
-        "topic": "lbp-outcome-12",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-13",
-        "returned": 807
-      },
-      {
-        "topic": "lbp-outcome-14",
-        "returned": 375
-      },
-      {
-        "topic": "lbp-outcome-15",
-        "returned": 657
-      },
-      {
-        "topic": "lbp-outcome-16",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-outcome-17",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-broad-acute-lbp",
-        "returned": 415
-      },
-      {
-        "topic": "lbp-broad-subacute-lbp",
-        "returned": 96
-      },
-      {
-        "topic": "lbp-broad-chronic-lbp",
-        "returned": 1000
-      },
-      {
-        "topic": "lbp-broad-nonspecific-lbp",
-        "returned": 413
-      },
-      {
-        "topic": "lbp-broad-mechanical-lbp",
-        "returned": 77
-      },
-      {
-        "topic": "lbp-broad-occupational-lbp",
-        "returned": 11
-      },
-      {
-        "topic": "lbp-broad-older-adult-lbp",
-        "returned": 0
-      },
-      {
-        "topic": "lbp-broad-pregnancy-lbp",
-        "returned": 1
-      },
-      {
-        "topic": "lbp-broad-adolescent-lbp",
-        "returned": 1
-      },
-      {
-        "topic": "lbp-broad-sciatica-exercise",
+        "topic": "koa-supp-33",
         "returned": 34
       },
       {
-        "topic": "lbp-broad-lumbar-pain-yoga",
+        "topic": "koa-supp-34",
+        "returned": 18
+      },
+      {
+        "topic": "koa-supp-35",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-36",
+        "returned": 60
+      },
+      {
+        "topic": "koa-supp-37",
+        "returned": 50
+      },
+      {
+        "topic": "koa-supp-38",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-39",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-40",
         "returned": 0
       },
       {
-        "topic": "lbp-broad-back-pain-massage",
-        "returned": 280
+        "topic": "koa-supp-41",
+        "returned": 10
       },
       {
-        "topic": "lbp-broad-back-pain-acupuncture",
-        "returned": 9
-      },
-      {
-        "topic": "lbp-broad-back-pain-education",
+        "topic": "koa-supp-42",
         "returned": 0
       },
       {
-        "topic": "lbp-broad-back-pain-heat",
+        "topic": "koa-supp-43",
+        "returned": 67
+      },
+      {
+        "topic": "koa-supp-44",
+        "returned": 47
+      },
+      {
+        "topic": "koa-supp-45",
+        "returned": 68
+      },
+      {
+        "topic": "koa-supp-46",
+        "returned": 207
+      },
+      {
+        "topic": "koa-supp-47",
+        "returned": 145
+      },
+      {
+        "topic": "koa-supp-48",
+        "returned": 83
+      },
+      {
+        "topic": "koa-supp-49",
         "returned": 2
       },
       {
-        "topic": "lbp-broad-back-pain-mindfulness",
-        "returned": 105
+        "topic": "koa-supp-50",
+        "returned": 83
       },
       {
-        "topic": "lbp-broad-back-pain-self-management",
+        "topic": "koa-supp-51",
+        "returned": 15
+      },
+      {
+        "topic": "koa-supp-52",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-53",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-54",
+        "returned": 57
+      },
+      {
+        "topic": "koa-supp-55",
+        "returned": 57
+      },
+      {
+        "topic": "koa-supp-56",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-57",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-58",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-59",
+        "returned": 159
+      },
+      {
+        "topic": "koa-supp-60",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-61",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-62",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-63",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-64",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-65",
+        "returned": 12
+      },
+      {
+        "topic": "koa-supp-66",
+        "returned": 79
+      },
+      {
+        "topic": "koa-supp-67",
+        "returned": 69
+      },
+      {
+        "topic": "koa-supp-68",
         "returned": 26
       },
       {
-        "topic": "lbp-broad-back-pain-manual",
+        "topic": "koa-supp-69",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-70",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-71",
+        "returned": 15
+      },
+      {
+        "topic": "koa-supp-72",
+        "returned": 30
+      },
+      {
+        "topic": "koa-supp-73",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-74",
+        "returned": 14
+      },
+      {
+        "topic": "koa-supp-75",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-76",
+        "returned": 150
+      },
+      {
+        "topic": "koa-supp-77",
+        "returned": 118
+      },
+      {
+        "topic": "koa-supp-78",
+        "returned": 146
+      },
+      {
+        "topic": "koa-supp-79",
+        "returned": 73
+      },
+      {
+        "topic": "koa-supp-80",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-81",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-82",
+        "returned": 23
+      },
+      {
+        "topic": "koa-supp-83",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-84",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-85",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-86",
+        "returned": 18
+      },
+      {
+        "topic": "koa-supp-87",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-88",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-89",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-90",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-91",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-92",
+        "returned": 78
+      },
+      {
+        "topic": "koa-supp-93",
+        "returned": 148
+      },
+      {
+        "topic": "koa-supp-94",
+        "returned": 55
+      },
+      {
+        "topic": "koa-supp-95",
+        "returned": 86
+      },
+      {
+        "topic": "koa-supp-96",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-97",
+        "returned": 259
+      },
+      {
+        "topic": "koa-supp-98",
+        "returned": 259
+      },
+      {
+        "topic": "koa-supp-99",
+        "returned": 208
+      },
+      {
+        "topic": "koa-supp-100",
+        "returned": 208
+      },
+      {
+        "topic": "koa-supp-101",
+        "returned": 205
+      },
+      {
+        "topic": "koa-supp-102",
+        "returned": 152
+      },
+      {
+        "topic": "koa-supp-103",
+        "returned": 515
+      },
+      {
+        "topic": "koa-supp-104",
+        "returned": 657
+      },
+      {
+        "topic": "koa-supp-105",
+        "returned": 21
+      },
+      {
+        "topic": "koa-supp-106",
+        "returned": 24
+      },
+      {
+        "topic": "koa-supp-107",
+        "returned": 21
+      },
+      {
+        "topic": "koa-supp-108",
+        "returned": 47
+      },
+      {
+        "topic": "koa-supp-109",
+        "returned": 81
+      },
+      {
+        "topic": "koa-supp-110",
+        "returned": 25
+      },
+      {
+        "topic": "koa-supp-111",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-112",
+        "returned": 37
+      },
+      {
+        "topic": "koa-supp-113",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-114",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-115",
+        "returned": 14
+      },
+      {
+        "topic": "koa-supp-116",
         "returned": 0
+      },
+      {
+        "topic": "koa-supp-117",
+        "returned": 98
+      },
+      {
+        "topic": "koa-supp-118",
+        "returned": 24
+      },
+      {
+        "topic": "koa-supp-119",
+        "returned": 17
+      },
+      {
+        "topic": "koa-supp-120",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-122",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-123",
+        "returned": 114
+      },
+      {
+        "topic": "koa-supp-124",
+        "returned": 85
+      },
+      {
+        "topic": "koa-supp-125",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-126",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-127",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-128",
+        "returned": 144
+      },
+      {
+        "topic": "koa-supp-129",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-130",
+        "returned": 49
+      },
+      {
+        "topic": "koa-supp-131",
+        "returned": 76
+      },
+      {
+        "topic": "koa-supp-132",
+        "returned": 92
+      },
+      {
+        "topic": "koa-supp-133",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-134",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-135",
+        "returned": 35
+      },
+      {
+        "topic": "koa-supp-136",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-137",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-138",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-139",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-140",
+        "returned": 39
+      },
+      {
+        "topic": "koa-supp-141",
+        "returned": 131
+      },
+      {
+        "topic": "koa-supp-142",
+        "returned": 114
+      },
+      {
+        "topic": "koa-supp-143",
+        "returned": 59
+      },
+      {
+        "topic": "koa-supp-144",
+        "returned": 97
+      },
+      {
+        "topic": "koa-supp-145",
+        "returned": 67
+      },
+      {
+        "topic": "koa-supp-146",
+        "returned": 26
+      },
+      {
+        "topic": "koa-supp-147",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-148",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-149",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-150",
+        "returned": 16
+      },
+      {
+        "topic": "koa-supp-151",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-152",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-153",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-154",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-155",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-156",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-157",
+        "returned": 46
+      },
+      {
+        "topic": "koa-supp-158",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-159",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-160",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-161",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-162",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-163",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-164",
+        "returned": 337
+      },
+      {
+        "topic": "koa-supp-165",
+        "returned": 162
+      },
+      {
+        "topic": "koa-supp-166",
+        "returned": 160
+      },
+      {
+        "topic": "koa-supp-167",
+        "returned": 103
+      },
+      {
+        "topic": "koa-supp-168",
+        "returned": 99
+      },
+      {
+        "topic": "koa-supp-169",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-170",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-171",
+        "returned": 4
+      },
+      {
+        "topic": "koa-outcome-1",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-2",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-3",
+        "returned": 271
+      },
+      {
+        "topic": "koa-outcome-4",
+        "returned": 993
+      },
+      {
+        "topic": "koa-outcome-5",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-6",
+        "returned": 49
+      },
+      {
+        "topic": "koa-outcome-7",
+        "returned": 676
+      },
+      {
+        "topic": "koa-outcome-8",
+        "returned": 903
+      },
+      {
+        "topic": "koa-outcome-9",
+        "returned": 874
+      },
+      {
+        "topic": "koa-outcome-10",
+        "returned": 629
+      },
+      {
+        "topic": "koa-outcome-11",
+        "returned": 170
+      },
+      {
+        "topic": "koa-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-13",
+        "returned": 270
+      },
+      {
+        "topic": "koa-outcome-14",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-15",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-broad-early-knee-oa",
+        "returned": 42
+      },
+      {
+        "topic": "koa-broad-mild-knee-oa",
+        "returned": 25
+      },
+      {
+        "topic": "koa-broad-severe-knee-oa",
+        "returned": 85
+      },
+      {
+        "topic": "koa-broad-older-knee-oa",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-broad-obesity-knee-oa",
+        "returned": 269
+      },
+      {
+        "topic": "koa-broad-women-knee-oa",
+        "returned": 544
+      },
+      {
+        "topic": "koa-broad-postmenopause-knee-oa",
+        "returned": 0
+      },
+      {
+        "topic": "koa-broad-work-knee-oa",
+        "returned": 135
+      },
+      {
+        "topic": "koa-broad-bilateral-knee-oa",
+        "returned": 44
+      },
+      {
+        "topic": "koa-broad-knee-oa-exercise",
+        "returned": 6
+      },
+      {
+        "topic": "koa-broad-knee-oa-weight-loss",
+        "returned": 183
+      },
+      {
+        "topic": "koa-broad-knee-oa-tai-chi",
+        "returned": 79
+      },
+      {
+        "topic": "koa-broad-knee-oa-yoga",
+        "returned": 29
+      },
+      {
+        "topic": "koa-broad-knee-oa-acupuncture",
+        "returned": 303
+      },
+      {
+        "topic": "koa-broad-knee-oa-massage",
+        "returned": 65
+      },
+      {
+        "topic": "koa-broad-knee-oa-brace",
+        "returned": 103
+      },
+      {
+        "topic": "koa-broad-knee-oa-taping",
+        "returned": 55
+      },
+      {
+        "topic": "koa-broad-knee-oa-supplement",
+        "returned": 85
       }
     ]
   },
   "resume": {
-    "next_batch": "2107",
-    "worklist_line": "new-expansion-candidates-batch2107",
-    "topic": "new-expansion-candidates-batch2107",
+    "next_batch": "2108",
+    "worklist_line": "new-expansion-candidates-batch2108",
+    "topic": "new-expansion-candidates-batch2108",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -9196,10 +9255,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18673,
+  "withVs": 18703,
   "unknownN": 1333,
-  "thinStudy": 5326,
-  "openNumeric": 18673,
+  "thinStudy": 5335,
+  "openNumeric": 18703,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -92665,6 +92724,1133 @@
       {
         "topic": "migraine-81",
         "returned": 167
+      }
+    ]
+  },
+  "previous_last_batch_2106": {
+    "id": "2106",
+    "commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
+    "pushed": true,
+    "expansion_commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
+    "data_commits": [
+      "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4"
+    ],
+    "checkpoint_commit": "90bc8b99c33cd3b4697be16a85c62e314f3c205b",
+    "push_marker_commit": "63a1697be6fe6676ca4398f8e6db9649bb3b05d7",
+    "known_items_commit": "026e2eaee46ca5993a8c1b2a79c65d67accf8f4b",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 2527,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 2527,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19612 entries; 22732 refs; 18762 trial; 754 obs; 32 animal; 17 lab; 47 case; 18673 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 요통의 비처방·비약물 중재 후보를 검색했다. 215개 검색 주제에서 레코드 41556개와 고유 PMID 6189개를 확인했고 6189개를 요청해 6189개 논문 기록과 6110개 초록을 확보했다. 후보 parser 2557건에서 운동·교육·열·수기치료·침·기기·자기관리 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2527건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 14건의 경고는 유지했고 비교 경고 9건과 규모 문장 경고 1건을 수정했다.",
+    "qualified_topics": [
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 9,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 1,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18673,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "급성 요통 운동지시·일상조언=move",
+      "급성 요통 운동·결근=move",
+      "급성 요통 일상활동·운동=move",
+      "청소년 요통 몸통안정화·진동=care",
+      "만성 요통 운동·전기자극·테이핑=care",
+      "만성 요통 저출력레이저·운동=care",
+      "만성 요통 모바일 운동교육=life",
+      "만성 요통 필라테스·신전운동=move",
+      "만성 요통 필라테스·단파투열=care",
+      "만성 요통 수영 영법=move",
+      "만성 요통 10분 코어운동=move",
+      "만성 요통 유산소·물리치료·가정운동=care",
+      "만성 요통 영상 원격운동=life",
+      "과수원 근로자 요통 운동=move",
+      "산업근로자 요통 맞춤운동=life",
+      "요통 방향선호 맞춤운동=move",
+      "요통 맥켄지·나선형안정화운동=move",
+      "요추 불안정성 안정화운동=move",
+      "기계적 요통 운동교실=move",
+      "비특이적 요통 균형·햄스트링운동=move",
+      "비특이적 요통 코어·엉덩이운동=move",
+      "비특이적 요통 코어안정화운동=move",
+      "비특이적 요통 근막이완·코어운동=care",
+      "비특이적 요통 두침·운동=care",
+      "비특이적 요통 교란자극 운동=move",
+      "재발성 요통 신경근운동·상담=move",
+      "천장관절 요통 수기치료·안정화운동=care",
+      "좌식 여성 요통 맞춤운동=move",
+      "근로자 요통 사회관계망 운동=life",
+      "청년 요통 활동휴식=move"
+    ],
+    "targeted_batch_warnings_remaining": 14,
+    "targeted_batch_warnings_fixed": 10,
+    "discarded_non_numeric_candidates": [
+      "review-17087866",
+      "protocol-19473546",
+      "protocol-34551809",
+      "meta-research-39848632",
+      "observational-39090661",
+      "observational-24072729",
+      "quasi-experimental-41703525",
+      "surgery-10851101",
+      "radiofrequency-32389224",
+      "injection-8439713",
+      "medication-8976475"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2106",
+    "topics": [
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "8235809",
+      "7644960",
+      "7823996",
+      "32992943",
+      "35794120",
+      "2136991",
+      "35241140",
+      "30368347",
+      "36946839",
+      "41027336",
+      "39923121",
+      "18188660",
+      "34357527",
+      "38160342",
+      "33164978",
+      "15564907",
+      "34657873",
+      "22935853",
+      "10426734",
+      "40016482",
+      "32669487",
+      "23411647",
+      "39177625",
+      "35543941",
+      "41788596",
+      "37466018",
+      "30691749",
+      "36872766",
+      "39971914",
+      "39707287"
+    ],
+    "unique_pmids": 6189,
+    "requested": 6189,
+    "fetched": 6189,
+    "fetch_chunks": 124,
+    "abstracts": 6110,
+    "parsed_abstracts": 6110,
+    "search_candidates": 2557,
+    "candidate_parser_parsed": 6189,
+    "candidate_parser_candidates": 2557,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 215,
+    "search_returned_records": 41556,
+    "supplemental_query_count": 185,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 0,
+      "food": 0,
+      "move": 18,
+      "life": 4,
+      "care": 8,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": [
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106:20",
+      "chronic-lbp-mhealth-exercise-35241140-2106:40",
+      "chronic-lbp-pilates-extension-30368347-2106:47",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106:36",
+      "chronic-lbp-swimming-stroke-41027336-2106:30",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106:30",
+      "fruit-workers-lbp-exercise-38160342-2106:44",
+      "industrial-lbp-adapted-exercise-33164978-2106:18",
+      "lumbar-instability-stabilization-exercise-22935853-2106:30",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106:26",
+      "nonspecific-lbp-core-stabilization-23411647-2106:30",
+      "nonspecific-lbp-perturbation-training-41788596-2106:44",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106:40",
+      "worker-lbp-social-network-exercise-39971914-2106:40"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "lbp-supp-1",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-2",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-3",
+        "returned": 170
+      },
+      {
+        "topic": "lbp-supp-4",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-5",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-6",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-7",
+        "returned": 27
+      },
+      {
+        "topic": "lbp-supp-8",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-9",
+        "returned": 34
+      },
+      {
+        "topic": "lbp-supp-10",
+        "returned": 52
+      },
+      {
+        "topic": "lbp-supp-11",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-12",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-13",
+        "returned": 49
+      },
+      {
+        "topic": "lbp-supp-14",
+        "returned": 89
+      },
+      {
+        "topic": "lbp-supp-15",
+        "returned": 151
+      },
+      {
+        "topic": "lbp-supp-16",
+        "returned": 40
+      },
+      {
+        "topic": "lbp-supp-17",
+        "returned": 137
+      },
+      {
+        "topic": "lbp-supp-18",
+        "returned": 200
+      },
+      {
+        "topic": "lbp-supp-19",
+        "returned": 121
+      },
+      {
+        "topic": "lbp-supp-20",
+        "returned": 35
+      },
+      {
+        "topic": "lbp-supp-21",
+        "returned": 126
+      },
+      {
+        "topic": "lbp-supp-22",
+        "returned": 72
+      },
+      {
+        "topic": "lbp-supp-23",
+        "returned": 154
+      },
+      {
+        "topic": "lbp-supp-24",
+        "returned": 117
+      },
+      {
+        "topic": "lbp-supp-25",
+        "returned": 460
+      },
+      {
+        "topic": "lbp-supp-26",
+        "returned": 111
+      },
+      {
+        "topic": "lbp-supp-27",
+        "returned": 234
+      },
+      {
+        "topic": "lbp-supp-28",
+        "returned": 174
+      },
+      {
+        "topic": "lbp-supp-29",
+        "returned": 719
+      },
+      {
+        "topic": "lbp-supp-30",
+        "returned": 53
+      },
+      {
+        "topic": "lbp-supp-31",
+        "returned": 83
+      },
+      {
+        "topic": "lbp-supp-32",
+        "returned": 13
+      },
+      {
+        "topic": "lbp-supp-33",
+        "returned": 38
+      },
+      {
+        "topic": "lbp-supp-34",
+        "returned": 116
+      },
+      {
+        "topic": "lbp-supp-35",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-36",
+        "returned": 46
+      },
+      {
+        "topic": "lbp-supp-37",
+        "returned": 116
+      },
+      {
+        "topic": "lbp-supp-38",
+        "returned": 78
+      },
+      {
+        "topic": "lbp-supp-39",
+        "returned": 93
+      },
+      {
+        "topic": "lbp-supp-40",
+        "returned": 8
+      },
+      {
+        "topic": "lbp-supp-41",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-42",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-supp-43",
+        "returned": 17
+      },
+      {
+        "topic": "lbp-supp-44",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-45",
+        "returned": 25
+      },
+      {
+        "topic": "lbp-supp-46",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-47",
+        "returned": 28
+      },
+      {
+        "topic": "lbp-supp-48",
+        "returned": 25
+      },
+      {
+        "topic": "lbp-supp-49",
+        "returned": 159
+      },
+      {
+        "topic": "lbp-supp-50",
+        "returned": 159
+      },
+      {
+        "topic": "lbp-supp-51",
+        "returned": 5
+      },
+      {
+        "topic": "lbp-supp-52",
+        "returned": 28
+      },
+      {
+        "topic": "lbp-supp-53",
+        "returned": 19
+      },
+      {
+        "topic": "lbp-supp-54",
+        "returned": 57
+      },
+      {
+        "topic": "lbp-supp-55",
+        "returned": 737
+      },
+      {
+        "topic": "lbp-supp-56",
+        "returned": 293
+      },
+      {
+        "topic": "lbp-supp-57",
+        "returned": 296
+      },
+      {
+        "topic": "lbp-supp-58",
+        "returned": 66
+      },
+      {
+        "topic": "lbp-supp-59",
+        "returned": 101
+      },
+      {
+        "topic": "lbp-supp-60",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-61",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-62",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-63",
+        "returned": 89
+      },
+      {
+        "topic": "lbp-supp-64",
+        "returned": 42
+      },
+      {
+        "topic": "lbp-supp-65",
+        "returned": 35
+      },
+      {
+        "topic": "lbp-supp-66",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-67",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-68",
+        "returned": 27
+      },
+      {
+        "topic": "lbp-supp-69",
+        "returned": 55
+      },
+      {
+        "topic": "lbp-supp-70",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-71",
+        "returned": 24
+      },
+      {
+        "topic": "lbp-supp-72",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-73",
+        "returned": 70
+      },
+      {
+        "topic": "lbp-supp-74",
+        "returned": 158
+      },
+      {
+        "topic": "lbp-supp-75",
+        "returned": 265
+      },
+      {
+        "topic": "lbp-supp-76",
+        "returned": 143
+      },
+      {
+        "topic": "lbp-supp-77",
+        "returned": 148
+      },
+      {
+        "topic": "lbp-supp-78",
+        "returned": 30
+      },
+      {
+        "topic": "lbp-supp-79",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-80",
+        "returned": 23
+      },
+      {
+        "topic": "lbp-supp-81",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-82",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-83",
+        "returned": 119
+      },
+      {
+        "topic": "lbp-supp-84",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-85",
+        "returned": 8
+      },
+      {
+        "topic": "lbp-supp-86",
+        "returned": 35
+      },
+      {
+        "topic": "lbp-supp-87",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-88",
+        "returned": 41
+      },
+      {
+        "topic": "lbp-supp-89",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-supp-90",
+        "returned": 36
+      },
+      {
+        "topic": "lbp-supp-91",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-92",
+        "returned": 331
+      },
+      {
+        "topic": "lbp-supp-93",
+        "returned": 545
+      },
+      {
+        "topic": "lbp-supp-94",
+        "returned": 256
+      },
+      {
+        "topic": "lbp-supp-95",
+        "returned": 388
+      },
+      {
+        "topic": "lbp-supp-96",
+        "returned": 76
+      },
+      {
+        "topic": "lbp-supp-97",
+        "returned": 57
+      },
+      {
+        "topic": "lbp-supp-98",
+        "returned": 496
+      },
+      {
+        "topic": "lbp-supp-99",
+        "returned": 496
+      },
+      {
+        "topic": "lbp-supp-100",
+        "returned": 332
+      },
+      {
+        "topic": "lbp-supp-101",
+        "returned": 332
+      },
+      {
+        "topic": "lbp-supp-102",
+        "returned": 246
+      },
+      {
+        "topic": "lbp-supp-103",
+        "returned": 300
+      },
+      {
+        "topic": "lbp-supp-104",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-105",
+        "returned": 154
+      },
+      {
+        "topic": "lbp-supp-106",
+        "returned": 12
+      },
+      {
+        "topic": "lbp-supp-107",
+        "returned": 75
+      },
+      {
+        "topic": "lbp-supp-108",
+        "returned": 49
+      },
+      {
+        "topic": "lbp-supp-109",
+        "returned": 70
+      },
+      {
+        "topic": "lbp-supp-110",
+        "returned": 91
+      },
+      {
+        "topic": "lbp-supp-111",
+        "returned": 47
+      },
+      {
+        "topic": "lbp-supp-112",
+        "returned": 12
+      },
+      {
+        "topic": "lbp-supp-113",
+        "returned": 59
+      },
+      {
+        "topic": "lbp-supp-114",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-115",
+        "returned": 10
+      },
+      {
+        "topic": "lbp-supp-116",
+        "returned": 41
+      },
+      {
+        "topic": "lbp-supp-117",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-118",
+        "returned": 19
+      },
+      {
+        "topic": "lbp-supp-119",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-120",
+        "returned": 88
+      },
+      {
+        "topic": "lbp-supp-121",
+        "returned": 27
+      },
+      {
+        "topic": "lbp-supp-122",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-123",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-124",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-125",
+        "returned": 13
+      },
+      {
+        "topic": "lbp-supp-126",
+        "returned": 137
+      },
+      {
+        "topic": "lbp-supp-127",
+        "returned": 33
+      },
+      {
+        "topic": "lbp-supp-128",
+        "returned": 29
+      },
+      {
+        "topic": "lbp-supp-129",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-supp-130",
+        "returned": 29
+      },
+      {
+        "topic": "lbp-supp-131",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-132",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-133",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-134",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-supp-135",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-supp-136",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-137",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-138",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-139",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-140",
+        "returned": 44
+      },
+      {
+        "topic": "lbp-supp-141",
+        "returned": 21
+      },
+      {
+        "topic": "lbp-supp-142",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-143",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-144",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-145",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-146",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-supp-147",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-148",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-149",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-150",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-outcome-1",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-2",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-3",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-4",
+        "returned": 554
+      },
+      {
+        "topic": "lbp-outcome-5",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-6",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-7",
+        "returned": 868
+      },
+      {
+        "topic": "lbp-outcome-8",
+        "returned": 227
+      },
+      {
+        "topic": "lbp-outcome-9",
+        "returned": 704
+      },
+      {
+        "topic": "lbp-outcome-10",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-11",
+        "returned": 20
+      },
+      {
+        "topic": "lbp-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-13",
+        "returned": 807
+      },
+      {
+        "topic": "lbp-outcome-14",
+        "returned": 375
+      },
+      {
+        "topic": "lbp-outcome-15",
+        "returned": 657
+      },
+      {
+        "topic": "lbp-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-17",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-broad-acute-lbp",
+        "returned": 415
+      },
+      {
+        "topic": "lbp-broad-subacute-lbp",
+        "returned": 96
+      },
+      {
+        "topic": "lbp-broad-chronic-lbp",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-broad-nonspecific-lbp",
+        "returned": 413
+      },
+      {
+        "topic": "lbp-broad-mechanical-lbp",
+        "returned": 77
+      },
+      {
+        "topic": "lbp-broad-occupational-lbp",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-broad-older-adult-lbp",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-pregnancy-lbp",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-broad-adolescent-lbp",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-broad-sciatica-exercise",
+        "returned": 34
+      },
+      {
+        "topic": "lbp-broad-lumbar-pain-yoga",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-back-pain-massage",
+        "returned": 280
+      },
+      {
+        "topic": "lbp-broad-back-pain-acupuncture",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-broad-back-pain-education",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-back-pain-heat",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-broad-back-pain-mindfulness",
+        "returned": 105
+      },
+      {
+        "topic": "lbp-broad-back-pain-self-management",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-broad-back-pain-manual",
+        "returned": 0
       }
     ]
   }
