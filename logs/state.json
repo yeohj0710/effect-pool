@@ -2,37 +2,37 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19642,
-  "subjects": 12656,
-  "refs": 22762,
+  "entries": 19672,
+  "subjects": 12684,
+  "refs": 22792,
   "kinds": {
     "otc": 748,
-    "supp": 2809,
+    "supp": 2810,
     "food": 1529,
-    "move": 2939,
-    "life": 2618,
-    "care": 6310,
+    "move": 2947,
+    "life": 2620,
+    "care": 6329,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18792,
+    "trial": 18822,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13536,
-    "null": 4405,
-    "open": 1464,
+    "pos": 13553,
+    "null": 4417,
+    "open": 1465,
     "harm": 237
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 12256,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2107은 무릎골관절염의 운동·체중관리·태극권·침·수기치료·물리치료·보충제 직접 근거 30건을 기록했다. Resume with batch 2108."
+    "no_evidence_pending": 13028,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2108은 어깨 통증·회전근개·충돌증후군·유착성관절낭염의 운동·물리치료·수기치료·침·테이핑·보충제·교육 직접 근거 30건을 기록했다. Resume with batch 2109."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2107은 무릎골관절염의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2108."
+    "note": "Batch 2108은 어깨 통증의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2109."
   },
   "checkpoints": {
-    "over_counter_share": "25.9% (5086 entries)",
+    "over_counter_share": "25.9% (5087 entries)",
     "rx_share": "13.7% (2689)",
-    "no_effect_or_harm_share": "23.6% (4642 entries)",
-    "vs_share": "95.2% (18703)",
+    "no_effect_or_harm_share": "23.7% (4654 entries)",
+    "vs_share": "95.2% (18733)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18792)",
+    "trial_share": "95.7% (18822)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1333,
-      "thin_study": 5335,
-      "targeted_batch_warnings": 9
+      "unknown_n": 1334,
+      "thin_study": 5346,
+      "targeted_batch_warnings": 12
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2107 data and marker pushed; known_items and final state commit pending. Resume with batch 2108.",
+  "next": "Batch 2108 data commit b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359; PUSHED=false checkpoint pending; resume with batch 2109.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,130 +6772,130 @@
     ]
   },
   "last_batch": {
-    "id": "2107",
-    "commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
-    "pushed": true,
-    "expansion_commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
+    "id": "2108",
+    "commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
+    "pushed": false,
+    "expansion_commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
     "data_commits": [
-      "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd"
+      "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359"
     ],
-    "checkpoint_commit": "452f7639cca84c87d539edfe4ce0a255b558c988",
-    "push_marker_commit": "1409e7fe1ba8b28518041b82b332a1ff6f3e365d",
-    "known_items_commit": "ed66f35a540b2d844c47c2ff64687c3fd1e50df9",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "knee-oa-aquatic-tdcs-40898048-2107",
-      "severe-knee-oa-resistance-volume-40753853-2107",
-      "knee-oa-high-low-laser-41042410-2107",
-      "knee-oa-quadriceps-education-10527090-2107",
-      "knee-oa-kinesthesia-balance-16371799-2107",
-      "knee-oa-pemf-exercise-39868691-2107",
-      "knee-oa-diet-exercise-idea-25887362-2107",
-      "knee-oa-spa-home-exercise-19734131-2107",
-      "knee-oa-tai-chi-physical-therapy-29407226-2107",
-      "knee-oa-home-extensor-dose-35413476-2107",
-      "knee-oa-glucosamine-exercise-17561418-2107",
-      "knee-oa-cycle-intensity-10219009-2107",
-      "knee-oa-acupuncture-exercise-22914302-2107",
-      "knee-oa-electrical-stimulation-exercise-16897119-2107",
-      "knee-oa-photobiomodulation-exercise-34656170-2107",
-      "knee-oa-kinetic-core-exercise-41987086-2107",
-      "knee-oa-home-class-exercise-15113993-2107",
-      "knee-oa-manual-rehabilitation-25455832-2107",
-      "knee-oa-exercise-modalities-31472246-2107",
-      "knee-oa-nonsurgical-medic-26241775-2107",
-      "knee-oa-acute-resistance-exercise-20594330-2107",
-      "knee-oa-exercise-diet-biomarkers-18359648-2107",
-      "knee-oa-diet-exercise-preliminary-10983905-2107",
-      "knee-oa-community-walking-23061875-2107",
-      "knee-oa-exercise-pain-coping-22921688-2107",
-      "knee-oa-prevop-adherence-37403119-2107",
-      "knee-oa-sms-exercise-adherence-32985994-2107",
-      "knee-oa-cpm-electrical-isometric-20012051-2107",
-      "knee-oa-low-level-laser-exercise-28776408-2107",
-      "knee-oa-intensive-weight-loss-16899803-2107"
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 2132,
+    "no_evidence_rejects": 772,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 2132,
+    "screened_nonqualifying_topics": 772,
     "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19642 entries; 22762 refs; 18792 trial; 754 obs; 32 animal; 17 lab; 47 case; 18703 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 무릎골관절염의 비처방·비약물 중재 후보를 검색했다. 235개 검색 주제에서 레코드 35245개와 고유 PMID 5215개를 확인했고 5215개를 요청해 5215개 논문 기록과 5183개 초록을 확보했다. 후보 parser 2162건에서 운동·체중관리·태극권·침·수기치료·물리치료·보충제 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2132건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 9건의 경고는 유지했고 비교 경고 1건과 규모 문장 경고 1건을 수정했다.",
+    "build": "19672 entries; 22792 refs; 18822 trial; 754 obs; 32 animal; 17 lab; 47 case; 18733 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 어깨 통증·회전근개·충돌증후군·유착성관절낭염의 비처방·비약물 중재 후보를 검색했다. 261개 검색 주제에서 레코드 19846개와 고유 PMID 2159개를 확인했고 2159개를 요청해 2159개 논문 기록과 2123개 초록을 확보했다. 후보 parser 802건에서 운동·물리치료·수기치료·침·테이핑·전기자극·레이저·교육·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 772건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·수술·주사·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 11건과 사람 수 미상 1건의 경고는 유지했고 비교 경고 7건과 규모 문장 경고 1건을 수정했다.",
     "qualified_topics": [
-      "knee-oa-aquatic-tdcs-40898048-2107",
-      "severe-knee-oa-resistance-volume-40753853-2107",
-      "knee-oa-high-low-laser-41042410-2107",
-      "knee-oa-quadriceps-education-10527090-2107",
-      "knee-oa-kinesthesia-balance-16371799-2107",
-      "knee-oa-pemf-exercise-39868691-2107",
-      "knee-oa-diet-exercise-idea-25887362-2107",
-      "knee-oa-spa-home-exercise-19734131-2107",
-      "knee-oa-tai-chi-physical-therapy-29407226-2107",
-      "knee-oa-home-extensor-dose-35413476-2107",
-      "knee-oa-glucosamine-exercise-17561418-2107",
-      "knee-oa-cycle-intensity-10219009-2107",
-      "knee-oa-acupuncture-exercise-22914302-2107",
-      "knee-oa-electrical-stimulation-exercise-16897119-2107",
-      "knee-oa-photobiomodulation-exercise-34656170-2107",
-      "knee-oa-kinetic-core-exercise-41987086-2107",
-      "knee-oa-home-class-exercise-15113993-2107",
-      "knee-oa-manual-rehabilitation-25455832-2107",
-      "knee-oa-exercise-modalities-31472246-2107",
-      "knee-oa-nonsurgical-medic-26241775-2107",
-      "knee-oa-acute-resistance-exercise-20594330-2107",
-      "knee-oa-exercise-diet-biomarkers-18359648-2107",
-      "knee-oa-diet-exercise-preliminary-10983905-2107",
-      "knee-oa-community-walking-23061875-2107",
-      "knee-oa-exercise-pain-coping-22921688-2107",
-      "knee-oa-prevop-adherence-37403119-2107",
-      "knee-oa-sms-exercise-adherence-32985994-2107",
-      "knee-oa-cpm-electrical-isometric-20012051-2107",
-      "knee-oa-low-level-laser-exercise-28776408-2107",
-      "knee-oa-intensive-weight-loss-16899803-2107"
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "knee-oa-aquatic-tdcs-40898048-2107",
-      "severe-knee-oa-resistance-volume-40753853-2107",
-      "knee-oa-high-low-laser-41042410-2107",
-      "knee-oa-quadriceps-education-10527090-2107",
-      "knee-oa-kinesthesia-balance-16371799-2107",
-      "knee-oa-pemf-exercise-39868691-2107",
-      "knee-oa-diet-exercise-idea-25887362-2107",
-      "knee-oa-spa-home-exercise-19734131-2107",
-      "knee-oa-tai-chi-physical-therapy-29407226-2107",
-      "knee-oa-home-extensor-dose-35413476-2107",
-      "knee-oa-glucosamine-exercise-17561418-2107",
-      "knee-oa-cycle-intensity-10219009-2107",
-      "knee-oa-acupuncture-exercise-22914302-2107",
-      "knee-oa-electrical-stimulation-exercise-16897119-2107",
-      "knee-oa-photobiomodulation-exercise-34656170-2107",
-      "knee-oa-kinetic-core-exercise-41987086-2107",
-      "knee-oa-home-class-exercise-15113993-2107",
-      "knee-oa-manual-rehabilitation-25455832-2107",
-      "knee-oa-exercise-modalities-31472246-2107",
-      "knee-oa-nonsurgical-medic-26241775-2107",
-      "knee-oa-acute-resistance-exercise-20594330-2107",
-      "knee-oa-exercise-diet-biomarkers-18359648-2107",
-      "knee-oa-diet-exercise-preliminary-10983905-2107",
-      "knee-oa-community-walking-23061875-2107",
-      "knee-oa-exercise-pain-coping-22921688-2107",
-      "knee-oa-prevop-adherence-37403119-2107",
-      "knee-oa-sms-exercise-adherence-32985994-2107",
-      "knee-oa-cpm-electrical-isometric-20012051-2107",
-      "knee-oa-low-level-laser-exercise-28776408-2107",
-      "knee-oa-intensive-weight-loss-16899803-2107"
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 1,
+    "new_entry_vs_warnings_fixed": 7,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
     "new_entry_scale_warnings_fixed": 1,
@@ -6904,7 +6904,7 @@
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18703,
+    "open_numeric_comparisons": 18733,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6912,50 +6912,50 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "중증 무릎골관절염 침·물리치료=care",
-      "무릎골관절염 급성 저항운동=move",
-      "무릎골관절염 수중운동·직류자극=care",
-      "무릎골관절염 지역사회 걷기=move",
-      "무릎골관절염 수동운동·전기자극=care",
-      "무릎골관절염 고강도·저강도 자전거=move",
-      "무릎골관절염 식이·운동 체중감량=food",
-      "무릎골관절염 식이·운동 체중감량예비=food",
-      "무릎골관절염 전기자극·등척성운동=care",
-      "무릎골관절염 운동·식이 생체표지=food",
-      "무릎골관절염 태극권·팔단금·자전거=move",
-      "무릎골관절염 운동·통증대처훈련=care",
-      "무릎골관절염 글루코사민·콘드로이틴=supp",
-      "무릎골관절염 고강도·저출력레이저=care",
-      "무릎골관절염 가정·수업운동=move",
-      "무릎골관절염 가정 무릎폄운동량=move",
-      "무릎골관절염 집중 체중감량=food",
-      "무릎골관절염 균형·고유감각운동=move",
-      "무릎골관절염 운동사슬·코어운동=move",
-      "무릎골관절염 저출력레이저·근력운동=care",
-      "무릎골관절염 수기치료·재활=care",
-      "무릎골관절염 비수술 다중관리=care",
-      "무릎골관절염 전자기장·운동=care",
-      "무릎골관절염 광생체조절·운동=care",
-      "무릎골관절염 신체활동 행동지원=life",
-      "무릎골관절염 대퇴사두근운동·교육=move",
-      "무릎골관절염 문자 운동순응도=life",
-      "무릎골관절염 온천요법·가정운동=care",
-      "무릎골관절염 태극권·물리치료운동=move",
-      "중증 무릎골관절염 저항운동량=move"
+      "직장인 목어깨 저항운동=life",
+      "직장인 목어깨 초단기 저항운동=move",
+      "직장인 목어깨 근력운동 빈도=move",
+      "어깨 유착성관절낭염 물리치료=care",
+      "어깨 석회성건염 초산이온도입=care",
+      "어깨 통증 경흉추수기치료=care",
+      "어깨 통증 고주파심부열=care",
+      "당뇨병 어깨 움직임운동=move",
+      "어깨 통증 탄성밴드운동=move",
+      "어깨 충돌증후군 목가동술=care",
+      "어깨 충돌증후군 전자기자극=care",
+      "어깨 충돌증후군 신경가동술=care",
+      "어깨 충돌증후군 흉추수기치료=care",
+      "어깨 통증 간섭레이저=care",
+      "어깨 통증 신경근조절운동=move",
+      "직장인 고노출 어깨 카페교육=life",
+      "어깨 통증 계지복령환=supp",
+      "어깨 회전근개 고강도운동량=move",
+      "어깨 회전근개 키네시오테이핑=care",
+      "어깨 회전근개 건염 체외충격파=care",
+      "어깨 회전근개 압박점치료=care",
+      "어깨 통증 연부조직치료=care",
+      "어깨 충돌증후군 건침운동=care",
+      "어깨 충돌증후군 고강도레이저=care",
+      "어깨 충돌증후군 추운동=move",
+      "어깨 충돌증후군 경직테이핑=care",
+      "어깨 충돌증후군 특이운동=move",
+      "어깨 회전근개 부분파열 고출력레이저=care",
+      "어깨 힘줄병변 간섭광치료=care",
+      "어깨 회전근개 실매선침=care"
     ],
-    "targeted_batch_warnings_remaining": 9,
-    "targeted_batch_warnings_fixed": 2,
+    "targeted_batch_warnings_remaining": 12,
+    "targeted_batch_warnings_fixed": 8,
     "discarded_non_numeric_candidates": [
-      "review-17087866",
-      "meta-analysis-39868691",
-      "protocol-24693988",
-      "protocol-18831745",
-      "observational-15986358",
-      "nonrandomized-20378679",
-      "quasi-experimental-25078945",
-      "injection-41057853",
-      "surgery-32989354",
-      "prescription-30185216"
+      "surgery-31813166",
+      "surgery-29169668",
+      "injection-37021475",
+      "injection-41476186",
+      "protocol-32894159",
+      "review-27283590",
+      "observational-25188589",
+      "secondary-38530232",
+      "postoperative-33305619",
+      "nerve-block-32517390"
     ],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -6964,1003 +6964,1119 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2107",
+    "next_official_deployment_check": "after batch 2108",
     "topics": [
-      "knee-oa-aquatic-tdcs-40898048-2107",
-      "severe-knee-oa-resistance-volume-40753853-2107",
-      "knee-oa-high-low-laser-41042410-2107",
-      "knee-oa-quadriceps-education-10527090-2107",
-      "knee-oa-kinesthesia-balance-16371799-2107",
-      "knee-oa-pemf-exercise-39868691-2107",
-      "knee-oa-diet-exercise-idea-25887362-2107",
-      "knee-oa-spa-home-exercise-19734131-2107",
-      "knee-oa-tai-chi-physical-therapy-29407226-2107",
-      "knee-oa-home-extensor-dose-35413476-2107",
-      "knee-oa-glucosamine-exercise-17561418-2107",
-      "knee-oa-cycle-intensity-10219009-2107",
-      "knee-oa-acupuncture-exercise-22914302-2107",
-      "knee-oa-electrical-stimulation-exercise-16897119-2107",
-      "knee-oa-photobiomodulation-exercise-34656170-2107",
-      "knee-oa-kinetic-core-exercise-41987086-2107",
-      "knee-oa-home-class-exercise-15113993-2107",
-      "knee-oa-manual-rehabilitation-25455832-2107",
-      "knee-oa-exercise-modalities-31472246-2107",
-      "knee-oa-nonsurgical-medic-26241775-2107",
-      "knee-oa-acute-resistance-exercise-20594330-2107",
-      "knee-oa-exercise-diet-biomarkers-18359648-2107",
-      "knee-oa-diet-exercise-preliminary-10983905-2107",
-      "knee-oa-community-walking-23061875-2107",
-      "knee-oa-exercise-pain-coping-22921688-2107",
-      "knee-oa-prevop-adherence-37403119-2107",
-      "knee-oa-sms-exercise-adherence-32985994-2107",
-      "knee-oa-cpm-electrical-isometric-20012051-2107",
-      "knee-oa-low-level-laser-exercise-28776408-2107",
-      "knee-oa-intensive-weight-loss-16899803-2107"
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "22914302",
-      "20594330",
-      "40898048",
-      "23061875",
-      "20012051",
-      "10219009",
-      "25887362",
-      "10983905",
-      "16897119",
-      "18359648",
-      "31472246",
-      "22921688",
-      "17561418",
-      "41042410",
-      "15113993",
-      "35413476",
-      "16899803",
-      "16371799",
-      "41987086",
-      "28776408",
-      "25455832",
-      "26241775",
-      "39868691",
-      "34656170",
-      "37403119",
-      "10527090",
-      "32985994",
-      "19734131",
-      "29407226",
-      "40753853"
+      "18461010",
+      "21177034",
+      "22753863",
+      "15222514",
+      "14586921",
+      "20819223",
+      "31191789",
+      "29893977",
+      "21665107",
+      "23791561",
+      "40262114",
+      "33220710",
+      "28259517",
+      "22507365",
+      "15788347",
+      "36512271",
+      "35716471",
+      "39591809",
+      "18591761",
+      "28858120",
+      "30932877",
+      "31774063",
+      "29481640",
+      "30672303",
+      "27472856",
+      "28352939",
+      "28812398",
+      "40083157",
+      "22643725",
+      "41496087"
     ],
-    "unique_pmids": 5215,
-    "requested": 5215,
-    "fetched": 5215,
-    "fetch_chunks": 105,
-    "abstracts": 5183,
-    "parsed_abstracts": 5183,
-    "search_candidates": 2162,
-    "candidate_parser_parsed": 5215,
-    "candidate_parser_candidates": 2162,
+    "unique_pmids": 2159,
+    "requested": 2159,
+    "fetched": 2159,
+    "fetch_chunks": 44,
+    "abstracts": 2123,
+    "parsed_abstracts": 2123,
+    "search_candidates": 802,
+    "candidate_parser_parsed": 2159,
+    "candidate_parser_candidates": 802,
     "candidate_parser_candidates_after_write": 30,
     "manual_candidates": 30,
-    "search_topic_count": 235,
-    "search_returned_records": 35245,
-    "supplemental_query_count": 205,
+    "search_topic_count": 261,
+    "search_returned_records": 19846,
+    "supplemental_query_count": 231,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "knee-oa-aquatic-tdcs-40898048-2107",
-      "severe-knee-oa-resistance-volume-40753853-2107",
-      "knee-oa-high-low-laser-41042410-2107",
-      "knee-oa-quadriceps-education-10527090-2107",
-      "knee-oa-kinesthesia-balance-16371799-2107",
-      "knee-oa-pemf-exercise-39868691-2107",
-      "knee-oa-diet-exercise-idea-25887362-2107",
-      "knee-oa-spa-home-exercise-19734131-2107",
-      "knee-oa-tai-chi-physical-therapy-29407226-2107",
-      "knee-oa-home-extensor-dose-35413476-2107",
-      "knee-oa-glucosamine-exercise-17561418-2107",
-      "knee-oa-cycle-intensity-10219009-2107",
-      "knee-oa-acupuncture-exercise-22914302-2107",
-      "knee-oa-electrical-stimulation-exercise-16897119-2107",
-      "knee-oa-photobiomodulation-exercise-34656170-2107",
-      "knee-oa-kinetic-core-exercise-41987086-2107",
-      "knee-oa-home-class-exercise-15113993-2107",
-      "knee-oa-manual-rehabilitation-25455832-2107",
-      "knee-oa-exercise-modalities-31472246-2107",
-      "knee-oa-nonsurgical-medic-26241775-2107",
-      "knee-oa-acute-resistance-exercise-20594330-2107",
-      "knee-oa-exercise-diet-biomarkers-18359648-2107",
-      "knee-oa-diet-exercise-preliminary-10983905-2107",
-      "knee-oa-community-walking-23061875-2107",
-      "knee-oa-exercise-pain-coping-22921688-2107",
-      "knee-oa-prevop-adherence-37403119-2107",
-      "knee-oa-sms-exercise-adherence-32985994-2107",
-      "knee-oa-cpm-electrical-isometric-20012051-2107",
-      "knee-oa-low-level-laser-exercise-28776408-2107",
-      "knee-oa-intensive-weight-loss-16899803-2107"
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
     ],
     "categories": {
       "otc": 0,
       "supp": 1,
-      "food": 4,
-      "move": 11,
+      "food": 0,
+      "move": 8,
       "life": 2,
-      "care": 12,
+      "care": 19,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "new_unknown_n_warnings": [],
+    "new_unknown_n_warnings": [
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
     "new_thin_study_warnings": [
-      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "knee-oa-acute-resistance-exercise-20594330-2107:31",
-      "knee-oa-cpm-electrical-isometric-20012051-2107:40",
-      "knee-oa-cycle-intensity-10219009-2107:39",
-      "knee-oa-diet-exercise-preliminary-10983905-2107:24",
-      "knee-oa-exercise-pain-coping-22921688-2107:20",
-      "knee-oa-kinetic-core-exercise-41987086-2107:48",
-      "knee-oa-low-level-laser-exercise-28776408-2107:40",
-      "knee-oa-photobiomodulation-exercise-34656170-2107:42",
-      "severe-knee-oa-resistance-volume-40753853-2107:28"
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108:36",
+      "shoulder-deep-heating-ultrasound-31191789-2108:38",
+      "shoulder-elastic-band-physiotherapy-21665107-2108:22",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108:36",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108:40",
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108:31",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108:42",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108:46",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108:34",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108:36",
+      "shoulder-tendinopathy-interferential-light-22643725-2108:30"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "koa-supp-1",
-        "returned": 1000
+        "topic": "shoulder-supp-1",
+        "returned": 489
       },
       {
-        "topic": "koa-supp-2",
-        "returned": 173
+        "topic": "shoulder-supp-2",
+        "returned": 490
       },
       {
-        "topic": "koa-supp-3",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-supp-4",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-supp-5",
-        "returned": 14
-      },
-      {
-        "topic": "koa-supp-6",
-        "returned": 130
-      },
-      {
-        "topic": "koa-supp-7",
-        "returned": 51
-      },
-      {
-        "topic": "koa-supp-8",
-        "returned": 156
-      },
-      {
-        "topic": "koa-supp-9",
-        "returned": 26
-      },
-      {
-        "topic": "koa-supp-10",
-        "returned": 236
-      },
-      {
-        "topic": "koa-supp-11",
-        "returned": 60
-      },
-      {
-        "topic": "koa-supp-12",
-        "returned": 11
-      },
-      {
-        "topic": "koa-supp-13",
-        "returned": 38
-      },
-      {
-        "topic": "koa-supp-14",
-        "returned": 43
-      },
-      {
-        "topic": "koa-supp-15",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-supp-16",
-        "returned": 3
-      },
-      {
-        "topic": "koa-supp-17",
-        "returned": 5
-      },
-      {
-        "topic": "koa-supp-18",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-supp-19",
-        "returned": 63
-      },
-      {
-        "topic": "koa-supp-20",
-        "returned": 118
-      },
-      {
-        "topic": "koa-supp-21",
-        "returned": 7
-      },
-      {
-        "topic": "koa-supp-22",
-        "returned": 148
-      },
-      {
-        "topic": "koa-supp-23",
-        "returned": 2
-      },
-      {
-        "topic": "koa-supp-24",
-        "returned": 94
-      },
-      {
-        "topic": "koa-supp-25",
-        "returned": 37
-      },
-      {
-        "topic": "koa-supp-26",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-27",
-        "returned": 1
-      },
-      {
-        "topic": "koa-supp-28",
-        "returned": 580
-      },
-      {
-        "topic": "koa-supp-29",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-30",
-        "returned": 28
-      },
-      {
-        "topic": "koa-supp-31",
-        "returned": 250
-      },
-      {
-        "topic": "koa-supp-32",
-        "returned": 38
-      },
-      {
-        "topic": "koa-supp-33",
-        "returned": 34
-      },
-      {
-        "topic": "koa-supp-34",
-        "returned": 18
-      },
-      {
-        "topic": "koa-supp-35",
-        "returned": 10
-      },
-      {
-        "topic": "koa-supp-36",
-        "returned": 60
-      },
-      {
-        "topic": "koa-supp-37",
-        "returned": 50
-      },
-      {
-        "topic": "koa-supp-38",
-        "returned": 13
-      },
-      {
-        "topic": "koa-supp-39",
-        "returned": 20
-      },
-      {
-        "topic": "koa-supp-40",
-        "returned": 0
-      },
-      {
-        "topic": "koa-supp-41",
-        "returned": 10
-      },
-      {
-        "topic": "koa-supp-42",
-        "returned": 0
-      },
-      {
-        "topic": "koa-supp-43",
-        "returned": 67
-      },
-      {
-        "topic": "koa-supp-44",
-        "returned": 47
-      },
-      {
-        "topic": "koa-supp-45",
-        "returned": 68
-      },
-      {
-        "topic": "koa-supp-46",
-        "returned": 207
-      },
-      {
-        "topic": "koa-supp-47",
-        "returned": 145
-      },
-      {
-        "topic": "koa-supp-48",
-        "returned": 83
-      },
-      {
-        "topic": "koa-supp-49",
-        "returned": 2
-      },
-      {
-        "topic": "koa-supp-50",
-        "returned": 83
-      },
-      {
-        "topic": "koa-supp-51",
-        "returned": 15
-      },
-      {
-        "topic": "koa-supp-52",
-        "returned": 5
-      },
-      {
-        "topic": "koa-supp-53",
-        "returned": 6
-      },
-      {
-        "topic": "koa-supp-54",
-        "returned": 57
-      },
-      {
-        "topic": "koa-supp-55",
-        "returned": 57
-      },
-      {
-        "topic": "koa-supp-56",
-        "returned": 6
-      },
-      {
-        "topic": "koa-supp-57",
-        "returned": 2
-      },
-      {
-        "topic": "koa-supp-58",
-        "returned": 10
-      },
-      {
-        "topic": "koa-supp-59",
-        "returned": 159
-      },
-      {
-        "topic": "koa-supp-60",
-        "returned": 33
-      },
-      {
-        "topic": "koa-supp-61",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-62",
-        "returned": 5
-      },
-      {
-        "topic": "koa-supp-63",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-64",
-        "returned": 0
-      },
-      {
-        "topic": "koa-supp-65",
-        "returned": 12
-      },
-      {
-        "topic": "koa-supp-66",
-        "returned": 79
-      },
-      {
-        "topic": "koa-supp-67",
-        "returned": 69
-      },
-      {
-        "topic": "koa-supp-68",
-        "returned": 26
-      },
-      {
-        "topic": "koa-supp-69",
-        "returned": 3
-      },
-      {
-        "topic": "koa-supp-70",
-        "returned": 2
-      },
-      {
-        "topic": "koa-supp-71",
-        "returned": 15
-      },
-      {
-        "topic": "koa-supp-72",
-        "returned": 30
-      },
-      {
-        "topic": "koa-supp-73",
-        "returned": 9
-      },
-      {
-        "topic": "koa-supp-74",
-        "returned": 14
-      },
-      {
-        "topic": "koa-supp-75",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-76",
-        "returned": 150
-      },
-      {
-        "topic": "koa-supp-77",
-        "returned": 118
-      },
-      {
-        "topic": "koa-supp-78",
-        "returned": 146
-      },
-      {
-        "topic": "koa-supp-79",
-        "returned": 73
-      },
-      {
-        "topic": "koa-supp-80",
-        "returned": 20
-      },
-      {
-        "topic": "koa-supp-81",
-        "returned": 2
-      },
-      {
-        "topic": "koa-supp-82",
-        "returned": 23
-      },
-      {
-        "topic": "koa-supp-83",
-        "returned": 33
-      },
-      {
-        "topic": "koa-supp-84",
-        "returned": 11
-      },
-      {
-        "topic": "koa-supp-85",
-        "returned": 7
-      },
-      {
-        "topic": "koa-supp-86",
-        "returned": 18
-      },
-      {
-        "topic": "koa-supp-87",
-        "returned": 11
-      },
-      {
-        "topic": "koa-supp-88",
-        "returned": 7
-      },
-      {
-        "topic": "koa-supp-89",
-        "returned": 1
-      },
-      {
-        "topic": "koa-supp-90",
-        "returned": 6
-      },
-      {
-        "topic": "koa-supp-91",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-92",
+        "topic": "shoulder-supp-3",
         "returned": 78
       },
       {
-        "topic": "koa-supp-93",
-        "returned": 148
-      },
-      {
-        "topic": "koa-supp-94",
-        "returned": 55
-      },
-      {
-        "topic": "koa-supp-95",
-        "returned": 86
-      },
-      {
-        "topic": "koa-supp-96",
-        "returned": 22
-      },
-      {
-        "topic": "koa-supp-97",
-        "returned": 259
-      },
-      {
-        "topic": "koa-supp-98",
-        "returned": 259
-      },
-      {
-        "topic": "koa-supp-99",
-        "returned": 208
-      },
-      {
-        "topic": "koa-supp-100",
-        "returned": 208
-      },
-      {
-        "topic": "koa-supp-101",
-        "returned": 205
-      },
-      {
-        "topic": "koa-supp-102",
-        "returned": 152
-      },
-      {
-        "topic": "koa-supp-103",
-        "returned": 515
-      },
-      {
-        "topic": "koa-supp-104",
-        "returned": 657
-      },
-      {
-        "topic": "koa-supp-105",
-        "returned": 21
-      },
-      {
-        "topic": "koa-supp-106",
-        "returned": 24
-      },
-      {
-        "topic": "koa-supp-107",
-        "returned": 21
-      },
-      {
-        "topic": "koa-supp-108",
-        "returned": 47
-      },
-      {
-        "topic": "koa-supp-109",
-        "returned": 81
-      },
-      {
-        "topic": "koa-supp-110",
-        "returned": 25
-      },
-      {
-        "topic": "koa-supp-111",
-        "returned": 11
-      },
-      {
-        "topic": "koa-supp-112",
-        "returned": 37
-      },
-      {
-        "topic": "koa-supp-113",
-        "returned": 5
-      },
-      {
-        "topic": "koa-supp-114",
-        "returned": 3
-      },
-      {
-        "topic": "koa-supp-115",
-        "returned": 14
-      },
-      {
-        "topic": "koa-supp-116",
-        "returned": 0
-      },
-      {
-        "topic": "koa-supp-117",
-        "returned": 98
-      },
-      {
-        "topic": "koa-supp-118",
-        "returned": 24
-      },
-      {
-        "topic": "koa-supp-119",
-        "returned": 17
-      },
-      {
-        "topic": "koa-supp-120",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-121",
+        "topic": "shoulder-supp-4",
         "returned": 2
       },
       {
-        "topic": "koa-supp-122",
-        "returned": 22
-      },
-      {
-        "topic": "koa-supp-123",
-        "returned": 114
-      },
-      {
-        "topic": "koa-supp-124",
-        "returned": 85
-      },
-      {
-        "topic": "koa-supp-125",
-        "returned": 22
-      },
-      {
-        "topic": "koa-supp-126",
-        "returned": 33
-      },
-      {
-        "topic": "koa-supp-127",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-128",
-        "returned": 144
-      },
-      {
-        "topic": "koa-supp-129",
-        "returned": 7
-      },
-      {
-        "topic": "koa-supp-130",
-        "returned": 49
-      },
-      {
-        "topic": "koa-supp-131",
-        "returned": 76
-      },
-      {
-        "topic": "koa-supp-132",
-        "returned": 92
-      },
-      {
-        "topic": "koa-supp-133",
-        "returned": 9
-      },
-      {
-        "topic": "koa-supp-134",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-135",
-        "returned": 35
-      },
-      {
-        "topic": "koa-supp-136",
-        "returned": 20
-      },
-      {
-        "topic": "koa-supp-137",
-        "returned": 3
-      },
-      {
-        "topic": "koa-supp-138",
-        "returned": 0
-      },
-      {
-        "topic": "koa-supp-139",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-140",
-        "returned": 39
-      },
-      {
-        "topic": "koa-supp-141",
-        "returned": 131
-      },
-      {
-        "topic": "koa-supp-142",
-        "returned": 114
-      },
-      {
-        "topic": "koa-supp-143",
-        "returned": 59
-      },
-      {
-        "topic": "koa-supp-144",
-        "returned": 97
-      },
-      {
-        "topic": "koa-supp-145",
-        "returned": 67
-      },
-      {
-        "topic": "koa-supp-146",
-        "returned": 26
-      },
-      {
-        "topic": "koa-supp-147",
-        "returned": 22
-      },
-      {
-        "topic": "koa-supp-148",
-        "returned": 20
-      },
-      {
-        "topic": "koa-supp-149",
-        "returned": 3
-      },
-      {
-        "topic": "koa-supp-150",
-        "returned": 16
-      },
-      {
-        "topic": "koa-supp-151",
-        "returned": 1
-      },
-      {
-        "topic": "koa-supp-152",
-        "returned": 6
-      },
-      {
-        "topic": "koa-supp-153",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-154",
-        "returned": 6
-      },
-      {
-        "topic": "koa-supp-155",
-        "returned": 10
-      },
-      {
-        "topic": "koa-supp-156",
-        "returned": 8
-      },
-      {
-        "topic": "koa-supp-157",
-        "returned": 46
-      },
-      {
-        "topic": "koa-supp-158",
-        "returned": 1
-      },
-      {
-        "topic": "koa-supp-159",
-        "returned": 4
-      },
-      {
-        "topic": "koa-supp-160",
-        "returned": 13
-      },
-      {
-        "topic": "koa-supp-161",
-        "returned": 9
-      },
-      {
-        "topic": "koa-supp-162",
-        "returned": 7
-      },
-      {
-        "topic": "koa-supp-163",
-        "returned": 13
-      },
-      {
-        "topic": "koa-supp-164",
-        "returned": 337
-      },
-      {
-        "topic": "koa-supp-165",
-        "returned": 162
-      },
-      {
-        "topic": "koa-supp-166",
-        "returned": 160
-      },
-      {
-        "topic": "koa-supp-167",
-        "returned": 103
-      },
-      {
-        "topic": "koa-supp-168",
-        "returned": 99
-      },
-      {
-        "topic": "koa-supp-169",
-        "returned": 5
-      },
-      {
-        "topic": "koa-supp-170",
-        "returned": 11
-      },
-      {
-        "topic": "koa-supp-171",
-        "returned": 4
-      },
-      {
-        "topic": "koa-outcome-1",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-2",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-3",
-        "returned": 271
-      },
-      {
-        "topic": "koa-outcome-4",
-        "returned": 993
-      },
-      {
-        "topic": "koa-outcome-5",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-6",
-        "returned": 49
-      },
-      {
-        "topic": "koa-outcome-7",
-        "returned": 676
-      },
-      {
-        "topic": "koa-outcome-8",
-        "returned": 903
-      },
-      {
-        "topic": "koa-outcome-9",
-        "returned": 874
-      },
-      {
-        "topic": "koa-outcome-10",
-        "returned": 629
-      },
-      {
-        "topic": "koa-outcome-11",
-        "returned": 170
-      },
-      {
-        "topic": "koa-outcome-12",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-13",
-        "returned": 270
-      },
-      {
-        "topic": "koa-outcome-14",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-15",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-outcome-16",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-broad-early-knee-oa",
-        "returned": 42
-      },
-      {
-        "topic": "koa-broad-mild-knee-oa",
-        "returned": 25
-      },
-      {
-        "topic": "koa-broad-severe-knee-oa",
-        "returned": 85
-      },
-      {
-        "topic": "koa-broad-older-knee-oa",
-        "returned": 1000
-      },
-      {
-        "topic": "koa-broad-obesity-knee-oa",
-        "returned": 269
-      },
-      {
-        "topic": "koa-broad-women-knee-oa",
-        "returned": 544
-      },
-      {
-        "topic": "koa-broad-postmenopause-knee-oa",
-        "returned": 0
-      },
-      {
-        "topic": "koa-broad-work-knee-oa",
-        "returned": 135
-      },
-      {
-        "topic": "koa-broad-bilateral-knee-oa",
-        "returned": 44
-      },
-      {
-        "topic": "koa-broad-knee-oa-exercise",
-        "returned": 6
-      },
-      {
-        "topic": "koa-broad-knee-oa-weight-loss",
-        "returned": 183
-      },
-      {
-        "topic": "koa-broad-knee-oa-tai-chi",
-        "returned": 79
-      },
-      {
-        "topic": "koa-broad-knee-oa-yoga",
+        "topic": "shoulder-supp-5",
         "returned": 29
       },
       {
-        "topic": "koa-broad-knee-oa-acupuncture",
-        "returned": 303
+        "topic": "shoulder-supp-6",
+        "returned": 71
       },
       {
-        "topic": "koa-broad-knee-oa-massage",
-        "returned": 65
+        "topic": "shoulder-supp-7",
+        "returned": 42
       },
       {
-        "topic": "koa-broad-knee-oa-brace",
-        "returned": 103
+        "topic": "shoulder-supp-8",
+        "returned": 18
       },
       {
-        "topic": "koa-broad-knee-oa-taping",
+        "topic": "shoulder-supp-9",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-10",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-11",
+        "returned": 509
+      },
+      {
+        "topic": "shoulder-supp-12",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-13",
+        "returned": 19
+      },
+      {
+        "topic": "shoulder-supp-14",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-15",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-16",
+        "returned": 276
+      },
+      {
+        "topic": "shoulder-supp-17",
+        "returned": 78
+      },
+      {
+        "topic": "shoulder-supp-18",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-19",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-20",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-21",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-supp-22",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-23",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-24",
+        "returned": 17
+      },
+      {
+        "topic": "shoulder-supp-25",
+        "returned": 76
+      },
+      {
+        "topic": "shoulder-supp-26",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-27",
+        "returned": 89
+      },
+      {
+        "topic": "shoulder-supp-28",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-29",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-30",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-31",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-32",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-33",
+        "returned": 275
+      },
+      {
+        "topic": "shoulder-supp-34",
+        "returned": 419
+      },
+      {
+        "topic": "shoulder-supp-35",
+        "returned": 604
+      },
+      {
+        "topic": "shoulder-supp-36",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-37",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-38",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-39",
+        "returned": 13
+      },
+      {
+        "topic": "shoulder-supp-40",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-41",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-42",
+        "returned": 63
+      },
+      {
+        "topic": "shoulder-supp-43",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-44",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-45",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-46",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-47",
+        "returned": 413
+      },
+      {
+        "topic": "shoulder-supp-48",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-49",
+        "returned": 72
+      },
+      {
+        "topic": "shoulder-supp-50",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-51",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-52",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-53",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-54",
+        "returned": 14
+      },
+      {
+        "topic": "shoulder-supp-55",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-56",
         "returned": 55
       },
       {
-        "topic": "koa-broad-knee-oa-supplement",
-        "returned": 85
+        "topic": "shoulder-supp-57",
+        "returned": 165
+      },
+      {
+        "topic": "shoulder-supp-58",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-59",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-60",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-61",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-62",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-63",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-64",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-65",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-66",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-67",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-68",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-69",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-70",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-71",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-72",
+        "returned": 14
+      },
+      {
+        "topic": "shoulder-supp-73",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-74",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-75",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-76",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-77",
+        "returned": 26
+      },
+      {
+        "topic": "shoulder-supp-78",
+        "returned": 212
+      },
+      {
+        "topic": "shoulder-supp-79",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-80",
+        "returned": 37
+      },
+      {
+        "topic": "shoulder-supp-81",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-82",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-83",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-84",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-85",
+        "returned": 31
+      },
+      {
+        "topic": "shoulder-supp-86",
+        "returned": 53
+      },
+      {
+        "topic": "shoulder-supp-87",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-supp-88",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-89",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-90",
+        "returned": 230
+      },
+      {
+        "topic": "shoulder-supp-91",
+        "returned": 134
+      },
+      {
+        "topic": "shoulder-supp-92",
+        "returned": 889
+      },
+      {
+        "topic": "shoulder-supp-93",
+        "returned": 1000
+      },
+      {
+        "topic": "shoulder-supp-94",
+        "returned": 76
+      },
+      {
+        "topic": "shoulder-supp-95",
+        "returned": 21
+      },
+      {
+        "topic": "shoulder-supp-96",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-97",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-98",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-100",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-101",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-102",
+        "returned": 43
+      },
+      {
+        "topic": "shoulder-supp-103",
+        "returned": 149
+      },
+      {
+        "topic": "shoulder-supp-104",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-105",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-106",
+        "returned": 56
+      },
+      {
+        "topic": "shoulder-supp-107",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-108",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-109",
+        "returned": 55
+      },
+      {
+        "topic": "shoulder-supp-110",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-111",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-112",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-113",
+        "returned": 116
+      },
+      {
+        "topic": "shoulder-supp-114",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-115",
+        "returned": 18
+      },
+      {
+        "topic": "shoulder-supp-116",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-117",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-118",
+        "returned": 41
+      },
+      {
+        "topic": "shoulder-supp-119",
+        "returned": 40
+      },
+      {
+        "topic": "shoulder-supp-120",
+        "returned": 27
+      },
+      {
+        "topic": "shoulder-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-122",
+        "returned": 26
+      },
+      {
+        "topic": "shoulder-supp-123",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-124",
+        "returned": 103
+      },
+      {
+        "topic": "shoulder-supp-125",
+        "returned": 54
+      },
+      {
+        "topic": "shoulder-supp-126",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-127",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-128",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-129",
+        "returned": 17
+      },
+      {
+        "topic": "shoulder-supp-130",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-131",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-132",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-133",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-134",
+        "returned": 27
+      },
+      {
+        "topic": "shoulder-supp-135",
+        "returned": 59
+      },
+      {
+        "topic": "shoulder-supp-136",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-137",
+        "returned": 253
+      },
+      {
+        "topic": "shoulder-supp-138",
+        "returned": 138
+      },
+      {
+        "topic": "shoulder-supp-139",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-140",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-141",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-142",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-143",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-144",
+        "returned": 69
+      },
+      {
+        "topic": "shoulder-supp-145",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-146",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-147",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-148",
+        "returned": 72
+      },
+      {
+        "topic": "shoulder-supp-149",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-150",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-151",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-152",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-supp-153",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-supp-154",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-155",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-156",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-157",
+        "returned": 24
+      },
+      {
+        "topic": "shoulder-supp-158",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-159",
+        "returned": 42
+      },
+      {
+        "topic": "shoulder-supp-160",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-161",
+        "returned": 650
+      },
+      {
+        "topic": "shoulder-supp-162",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-163",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-164",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-165",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-166",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-167",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-168",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-169",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-170",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-171",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-172",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-173",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-174",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-175",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-176",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-177",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-178",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-179",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-180",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-181",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-182",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-183",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-184",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-185",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-186",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-187",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-188",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-189",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-190",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-191",
+        "returned": 19
+      },
+      {
+        "topic": "shoulder-supp-192",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-193",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-194",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-195",
+        "returned": 18
+      },
+      {
+        "topic": "shoulder-supp-196",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-197",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-outcome-1",
+        "returned": 784
+      },
+      {
+        "topic": "shoulder-outcome-2",
+        "returned": 508
+      },
+      {
+        "topic": "shoulder-outcome-3",
+        "returned": 153
+      },
+      {
+        "topic": "shoulder-outcome-4",
+        "returned": 238
+      },
+      {
+        "topic": "shoulder-outcome-5",
+        "returned": 91
+      },
+      {
+        "topic": "shoulder-outcome-6",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-outcome-7",
+        "returned": 232
+      },
+      {
+        "topic": "shoulder-outcome-8",
+        "returned": 49
+      },
+      {
+        "topic": "shoulder-outcome-9",
+        "returned": 706
+      },
+      {
+        "topic": "shoulder-outcome-10",
+        "returned": 190
+      },
+      {
+        "topic": "shoulder-outcome-11",
+        "returned": 1000
+      },
+      {
+        "topic": "shoulder-outcome-12",
+        "returned": 665
+      },
+      {
+        "topic": "shoulder-outcome-13",
+        "returned": 272
+      },
+      {
+        "topic": "shoulder-outcome-14",
+        "returned": 214
+      },
+      {
+        "topic": "shoulder-outcome-15",
+        "returned": 252
+      },
+      {
+        "topic": "shoulder-outcome-16",
+        "returned": 21
+      },
+      {
+        "topic": "shoulder-broad-rotator-cuff",
+        "returned": 125
+      },
+      {
+        "topic": "shoulder-broad-subacromial",
+        "returned": 80
+      },
+      {
+        "topic": "shoulder-broad-impingement",
+        "returned": 162
+      },
+      {
+        "topic": "shoulder-broad-frozen-shoulder",
+        "returned": 330
+      },
+      {
+        "topic": "shoulder-broad-adhesive-capsulitis",
+        "returned": 339
+      },
+      {
+        "topic": "shoulder-broad-chronic-shoulder-pain",
+        "returned": 109
+      },
+      {
+        "topic": "shoulder-broad-acute-shoulder-pain",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-broad-older-adults",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-broad-workers",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-women",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-broad-office-workers",
+        "returned": 56
+      },
+      {
+        "topic": "shoulder-broad-athletes",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-broad-primary-care",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-home-rehab",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-manual-exercise",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-broad-acupuncture",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-taping",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-supplement",
+        "returned": 0
       }
     ]
   },
   "resume": {
-    "next_batch": "2108",
-    "worklist_line": "new-expansion-candidates-batch2108",
-    "topic": "new-expansion-candidates-batch2108",
+    "next_batch": "2109",
+    "worklist_line": "new-expansion-candidates-batch2109",
+    "topic": "new-expansion-candidates-batch2109",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -9255,10 +9371,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18703,
-  "unknownN": 1333,
-  "thinStudy": 5335,
-  "openNumeric": 18703,
+  "withVs": 18733,
+  "unknownN": 1334,
+  "thinStudy": 5346,
+  "openNumeric": 18733,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -93851,6 +93967,1192 @@
       {
         "topic": "lbp-broad-back-pain-manual",
         "returned": 0
+      }
+    ]
+  },
+  "previous_last_batch_2107": {
+    "id": "2107",
+    "commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
+    "pushed": true,
+    "expansion_commit": "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd",
+    "data_commits": [
+      "b13aaa1f57e1d25a8e5cfe24aa14027da21989fd"
+    ],
+    "checkpoint_commit": "452f7639cca84c87d539edfe4ce0a255b558c988",
+    "push_marker_commit": "1409e7fe1ba8b28518041b82b332a1ff6f3e365d",
+    "known_items_commit": "ed66f35a540b2d844c47c2ff64687c3fd1e50df9",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 2132,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 2132,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19642 entries; 22762 refs; 18792 trial; 754 obs; 32 animal; 17 lab; 47 case; 18703 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 무릎골관절염의 비처방·비약물 중재 후보를 검색했다. 235개 검색 주제에서 레코드 35245개와 고유 PMID 5215개를 확인했고 5215개를 요청해 5215개 논문 기록과 5183개 초록을 확보했다. 후보 parser 2162건에서 운동·체중관리·태극권·침·수기치료·물리치료·보충제 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2132건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 9건의 경고는 유지했고 비교 경고 1건과 규모 문장 경고 1건을 수정했다.",
+    "qualified_topics": [
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 1,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 1,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18703,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "중증 무릎골관절염 침·물리치료=care",
+      "무릎골관절염 급성 저항운동=move",
+      "무릎골관절염 수중운동·직류자극=care",
+      "무릎골관절염 지역사회 걷기=move",
+      "무릎골관절염 수동운동·전기자극=care",
+      "무릎골관절염 고강도·저강도 자전거=move",
+      "무릎골관절염 식이·운동 체중감량=food",
+      "무릎골관절염 식이·운동 체중감량예비=food",
+      "무릎골관절염 전기자극·등척성운동=care",
+      "무릎골관절염 운동·식이 생체표지=food",
+      "무릎골관절염 태극권·팔단금·자전거=move",
+      "무릎골관절염 운동·통증대처훈련=care",
+      "무릎골관절염 글루코사민·콘드로이틴=supp",
+      "무릎골관절염 고강도·저출력레이저=care",
+      "무릎골관절염 가정·수업운동=move",
+      "무릎골관절염 가정 무릎폄운동량=move",
+      "무릎골관절염 집중 체중감량=food",
+      "무릎골관절염 균형·고유감각운동=move",
+      "무릎골관절염 운동사슬·코어운동=move",
+      "무릎골관절염 저출력레이저·근력운동=care",
+      "무릎골관절염 수기치료·재활=care",
+      "무릎골관절염 비수술 다중관리=care",
+      "무릎골관절염 전자기장·운동=care",
+      "무릎골관절염 광생체조절·운동=care",
+      "무릎골관절염 신체활동 행동지원=life",
+      "무릎골관절염 대퇴사두근운동·교육=move",
+      "무릎골관절염 문자 운동순응도=life",
+      "무릎골관절염 온천요법·가정운동=care",
+      "무릎골관절염 태극권·물리치료운동=move",
+      "중증 무릎골관절염 저항운동량=move"
+    ],
+    "targeted_batch_warnings_remaining": 9,
+    "targeted_batch_warnings_fixed": 2,
+    "discarded_non_numeric_candidates": [
+      "review-17087866",
+      "meta-analysis-39868691",
+      "protocol-24693988",
+      "protocol-18831745",
+      "observational-15986358",
+      "nonrandomized-20378679",
+      "quasi-experimental-25078945",
+      "injection-41057853",
+      "surgery-32989354",
+      "prescription-30185216"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2107",
+    "topics": [
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "22914302",
+      "20594330",
+      "40898048",
+      "23061875",
+      "20012051",
+      "10219009",
+      "25887362",
+      "10983905",
+      "16897119",
+      "18359648",
+      "31472246",
+      "22921688",
+      "17561418",
+      "41042410",
+      "15113993",
+      "35413476",
+      "16899803",
+      "16371799",
+      "41987086",
+      "28776408",
+      "25455832",
+      "26241775",
+      "39868691",
+      "34656170",
+      "37403119",
+      "10527090",
+      "32985994",
+      "19734131",
+      "29407226",
+      "40753853"
+    ],
+    "unique_pmids": 5215,
+    "requested": 5215,
+    "fetched": 5215,
+    "fetch_chunks": 105,
+    "abstracts": 5183,
+    "parsed_abstracts": 5183,
+    "search_candidates": 2162,
+    "candidate_parser_parsed": 5215,
+    "candidate_parser_candidates": 2162,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 235,
+    "search_returned_records": 35245,
+    "supplemental_query_count": 205,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "knee-oa-aquatic-tdcs-40898048-2107",
+      "severe-knee-oa-resistance-volume-40753853-2107",
+      "knee-oa-high-low-laser-41042410-2107",
+      "knee-oa-quadriceps-education-10527090-2107",
+      "knee-oa-kinesthesia-balance-16371799-2107",
+      "knee-oa-pemf-exercise-39868691-2107",
+      "knee-oa-diet-exercise-idea-25887362-2107",
+      "knee-oa-spa-home-exercise-19734131-2107",
+      "knee-oa-tai-chi-physical-therapy-29407226-2107",
+      "knee-oa-home-extensor-dose-35413476-2107",
+      "knee-oa-glucosamine-exercise-17561418-2107",
+      "knee-oa-cycle-intensity-10219009-2107",
+      "knee-oa-acupuncture-exercise-22914302-2107",
+      "knee-oa-electrical-stimulation-exercise-16897119-2107",
+      "knee-oa-photobiomodulation-exercise-34656170-2107",
+      "knee-oa-kinetic-core-exercise-41987086-2107",
+      "knee-oa-home-class-exercise-15113993-2107",
+      "knee-oa-manual-rehabilitation-25455832-2107",
+      "knee-oa-exercise-modalities-31472246-2107",
+      "knee-oa-nonsurgical-medic-26241775-2107",
+      "knee-oa-acute-resistance-exercise-20594330-2107",
+      "knee-oa-exercise-diet-biomarkers-18359648-2107",
+      "knee-oa-diet-exercise-preliminary-10983905-2107",
+      "knee-oa-community-walking-23061875-2107",
+      "knee-oa-exercise-pain-coping-22921688-2107",
+      "knee-oa-prevop-adherence-37403119-2107",
+      "knee-oa-sms-exercise-adherence-32985994-2107",
+      "knee-oa-cpm-electrical-isometric-20012051-2107",
+      "knee-oa-low-level-laser-exercise-28776408-2107",
+      "knee-oa-intensive-weight-loss-16899803-2107"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 1,
+      "food": 4,
+      "move": 11,
+      "life": 2,
+      "care": 12,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": [
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "knee-oa-acute-resistance-exercise-20594330-2107:31",
+      "knee-oa-cpm-electrical-isometric-20012051-2107:40",
+      "knee-oa-cycle-intensity-10219009-2107:39",
+      "knee-oa-diet-exercise-preliminary-10983905-2107:24",
+      "knee-oa-exercise-pain-coping-22921688-2107:20",
+      "knee-oa-kinetic-core-exercise-41987086-2107:48",
+      "knee-oa-low-level-laser-exercise-28776408-2107:40",
+      "knee-oa-photobiomodulation-exercise-34656170-2107:42",
+      "severe-knee-oa-resistance-volume-40753853-2107:28"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  knee-oa-acute-resistance-exercise-20594330-2107 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cpm-electrical-isometric-20012051-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-cycle-intensity-10219009-2107 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-diet-exercise-preliminary-10983905-2107 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-exercise-pain-coping-22921688-2107 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-kinetic-core-exercise-41987086-2107 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-low-level-laser-exercise-28776408-2107 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  knee-oa-photobiomodulation-exercise-34656170-2107 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  severe-knee-oa-resistance-volume-40753853-2107 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "koa-supp-1",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-2",
+        "returned": 173
+      },
+      {
+        "topic": "koa-supp-3",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-4",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-5",
+        "returned": 14
+      },
+      {
+        "topic": "koa-supp-6",
+        "returned": 130
+      },
+      {
+        "topic": "koa-supp-7",
+        "returned": 51
+      },
+      {
+        "topic": "koa-supp-8",
+        "returned": 156
+      },
+      {
+        "topic": "koa-supp-9",
+        "returned": 26
+      },
+      {
+        "topic": "koa-supp-10",
+        "returned": 236
+      },
+      {
+        "topic": "koa-supp-11",
+        "returned": 60
+      },
+      {
+        "topic": "koa-supp-12",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-13",
+        "returned": 38
+      },
+      {
+        "topic": "koa-supp-14",
+        "returned": 43
+      },
+      {
+        "topic": "koa-supp-15",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-16",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-17",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-18",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-supp-19",
+        "returned": 63
+      },
+      {
+        "topic": "koa-supp-20",
+        "returned": 118
+      },
+      {
+        "topic": "koa-supp-21",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-22",
+        "returned": 148
+      },
+      {
+        "topic": "koa-supp-23",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-24",
+        "returned": 94
+      },
+      {
+        "topic": "koa-supp-25",
+        "returned": 37
+      },
+      {
+        "topic": "koa-supp-26",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-27",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-28",
+        "returned": 580
+      },
+      {
+        "topic": "koa-supp-29",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-30",
+        "returned": 28
+      },
+      {
+        "topic": "koa-supp-31",
+        "returned": 250
+      },
+      {
+        "topic": "koa-supp-32",
+        "returned": 38
+      },
+      {
+        "topic": "koa-supp-33",
+        "returned": 34
+      },
+      {
+        "topic": "koa-supp-34",
+        "returned": 18
+      },
+      {
+        "topic": "koa-supp-35",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-36",
+        "returned": 60
+      },
+      {
+        "topic": "koa-supp-37",
+        "returned": 50
+      },
+      {
+        "topic": "koa-supp-38",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-39",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-40",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-41",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-42",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-43",
+        "returned": 67
+      },
+      {
+        "topic": "koa-supp-44",
+        "returned": 47
+      },
+      {
+        "topic": "koa-supp-45",
+        "returned": 68
+      },
+      {
+        "topic": "koa-supp-46",
+        "returned": 207
+      },
+      {
+        "topic": "koa-supp-47",
+        "returned": 145
+      },
+      {
+        "topic": "koa-supp-48",
+        "returned": 83
+      },
+      {
+        "topic": "koa-supp-49",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-50",
+        "returned": 83
+      },
+      {
+        "topic": "koa-supp-51",
+        "returned": 15
+      },
+      {
+        "topic": "koa-supp-52",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-53",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-54",
+        "returned": 57
+      },
+      {
+        "topic": "koa-supp-55",
+        "returned": 57
+      },
+      {
+        "topic": "koa-supp-56",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-57",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-58",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-59",
+        "returned": 159
+      },
+      {
+        "topic": "koa-supp-60",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-61",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-62",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-63",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-64",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-65",
+        "returned": 12
+      },
+      {
+        "topic": "koa-supp-66",
+        "returned": 79
+      },
+      {
+        "topic": "koa-supp-67",
+        "returned": 69
+      },
+      {
+        "topic": "koa-supp-68",
+        "returned": 26
+      },
+      {
+        "topic": "koa-supp-69",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-70",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-71",
+        "returned": 15
+      },
+      {
+        "topic": "koa-supp-72",
+        "returned": 30
+      },
+      {
+        "topic": "koa-supp-73",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-74",
+        "returned": 14
+      },
+      {
+        "topic": "koa-supp-75",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-76",
+        "returned": 150
+      },
+      {
+        "topic": "koa-supp-77",
+        "returned": 118
+      },
+      {
+        "topic": "koa-supp-78",
+        "returned": 146
+      },
+      {
+        "topic": "koa-supp-79",
+        "returned": 73
+      },
+      {
+        "topic": "koa-supp-80",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-81",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-82",
+        "returned": 23
+      },
+      {
+        "topic": "koa-supp-83",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-84",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-85",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-86",
+        "returned": 18
+      },
+      {
+        "topic": "koa-supp-87",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-88",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-89",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-90",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-91",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-92",
+        "returned": 78
+      },
+      {
+        "topic": "koa-supp-93",
+        "returned": 148
+      },
+      {
+        "topic": "koa-supp-94",
+        "returned": 55
+      },
+      {
+        "topic": "koa-supp-95",
+        "returned": 86
+      },
+      {
+        "topic": "koa-supp-96",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-97",
+        "returned": 259
+      },
+      {
+        "topic": "koa-supp-98",
+        "returned": 259
+      },
+      {
+        "topic": "koa-supp-99",
+        "returned": 208
+      },
+      {
+        "topic": "koa-supp-100",
+        "returned": 208
+      },
+      {
+        "topic": "koa-supp-101",
+        "returned": 205
+      },
+      {
+        "topic": "koa-supp-102",
+        "returned": 152
+      },
+      {
+        "topic": "koa-supp-103",
+        "returned": 515
+      },
+      {
+        "topic": "koa-supp-104",
+        "returned": 657
+      },
+      {
+        "topic": "koa-supp-105",
+        "returned": 21
+      },
+      {
+        "topic": "koa-supp-106",
+        "returned": 24
+      },
+      {
+        "topic": "koa-supp-107",
+        "returned": 21
+      },
+      {
+        "topic": "koa-supp-108",
+        "returned": 47
+      },
+      {
+        "topic": "koa-supp-109",
+        "returned": 81
+      },
+      {
+        "topic": "koa-supp-110",
+        "returned": 25
+      },
+      {
+        "topic": "koa-supp-111",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-112",
+        "returned": 37
+      },
+      {
+        "topic": "koa-supp-113",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-114",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-115",
+        "returned": 14
+      },
+      {
+        "topic": "koa-supp-116",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-117",
+        "returned": 98
+      },
+      {
+        "topic": "koa-supp-118",
+        "returned": 24
+      },
+      {
+        "topic": "koa-supp-119",
+        "returned": 17
+      },
+      {
+        "topic": "koa-supp-120",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "koa-supp-122",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-123",
+        "returned": 114
+      },
+      {
+        "topic": "koa-supp-124",
+        "returned": 85
+      },
+      {
+        "topic": "koa-supp-125",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-126",
+        "returned": 33
+      },
+      {
+        "topic": "koa-supp-127",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-128",
+        "returned": 144
+      },
+      {
+        "topic": "koa-supp-129",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-130",
+        "returned": 49
+      },
+      {
+        "topic": "koa-supp-131",
+        "returned": 76
+      },
+      {
+        "topic": "koa-supp-132",
+        "returned": 92
+      },
+      {
+        "topic": "koa-supp-133",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-134",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-135",
+        "returned": 35
+      },
+      {
+        "topic": "koa-supp-136",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-137",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-138",
+        "returned": 0
+      },
+      {
+        "topic": "koa-supp-139",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-140",
+        "returned": 39
+      },
+      {
+        "topic": "koa-supp-141",
+        "returned": 131
+      },
+      {
+        "topic": "koa-supp-142",
+        "returned": 114
+      },
+      {
+        "topic": "koa-supp-143",
+        "returned": 59
+      },
+      {
+        "topic": "koa-supp-144",
+        "returned": 97
+      },
+      {
+        "topic": "koa-supp-145",
+        "returned": 67
+      },
+      {
+        "topic": "koa-supp-146",
+        "returned": 26
+      },
+      {
+        "topic": "koa-supp-147",
+        "returned": 22
+      },
+      {
+        "topic": "koa-supp-148",
+        "returned": 20
+      },
+      {
+        "topic": "koa-supp-149",
+        "returned": 3
+      },
+      {
+        "topic": "koa-supp-150",
+        "returned": 16
+      },
+      {
+        "topic": "koa-supp-151",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-152",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-153",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-154",
+        "returned": 6
+      },
+      {
+        "topic": "koa-supp-155",
+        "returned": 10
+      },
+      {
+        "topic": "koa-supp-156",
+        "returned": 8
+      },
+      {
+        "topic": "koa-supp-157",
+        "returned": 46
+      },
+      {
+        "topic": "koa-supp-158",
+        "returned": 1
+      },
+      {
+        "topic": "koa-supp-159",
+        "returned": 4
+      },
+      {
+        "topic": "koa-supp-160",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-161",
+        "returned": 9
+      },
+      {
+        "topic": "koa-supp-162",
+        "returned": 7
+      },
+      {
+        "topic": "koa-supp-163",
+        "returned": 13
+      },
+      {
+        "topic": "koa-supp-164",
+        "returned": 337
+      },
+      {
+        "topic": "koa-supp-165",
+        "returned": 162
+      },
+      {
+        "topic": "koa-supp-166",
+        "returned": 160
+      },
+      {
+        "topic": "koa-supp-167",
+        "returned": 103
+      },
+      {
+        "topic": "koa-supp-168",
+        "returned": 99
+      },
+      {
+        "topic": "koa-supp-169",
+        "returned": 5
+      },
+      {
+        "topic": "koa-supp-170",
+        "returned": 11
+      },
+      {
+        "topic": "koa-supp-171",
+        "returned": 4
+      },
+      {
+        "topic": "koa-outcome-1",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-2",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-3",
+        "returned": 271
+      },
+      {
+        "topic": "koa-outcome-4",
+        "returned": 993
+      },
+      {
+        "topic": "koa-outcome-5",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-6",
+        "returned": 49
+      },
+      {
+        "topic": "koa-outcome-7",
+        "returned": 676
+      },
+      {
+        "topic": "koa-outcome-8",
+        "returned": 903
+      },
+      {
+        "topic": "koa-outcome-9",
+        "returned": 874
+      },
+      {
+        "topic": "koa-outcome-10",
+        "returned": 629
+      },
+      {
+        "topic": "koa-outcome-11",
+        "returned": 170
+      },
+      {
+        "topic": "koa-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-13",
+        "returned": 270
+      },
+      {
+        "topic": "koa-outcome-14",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-15",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-broad-early-knee-oa",
+        "returned": 42
+      },
+      {
+        "topic": "koa-broad-mild-knee-oa",
+        "returned": 25
+      },
+      {
+        "topic": "koa-broad-severe-knee-oa",
+        "returned": 85
+      },
+      {
+        "topic": "koa-broad-older-knee-oa",
+        "returned": 1000
+      },
+      {
+        "topic": "koa-broad-obesity-knee-oa",
+        "returned": 269
+      },
+      {
+        "topic": "koa-broad-women-knee-oa",
+        "returned": 544
+      },
+      {
+        "topic": "koa-broad-postmenopause-knee-oa",
+        "returned": 0
+      },
+      {
+        "topic": "koa-broad-work-knee-oa",
+        "returned": 135
+      },
+      {
+        "topic": "koa-broad-bilateral-knee-oa",
+        "returned": 44
+      },
+      {
+        "topic": "koa-broad-knee-oa-exercise",
+        "returned": 6
+      },
+      {
+        "topic": "koa-broad-knee-oa-weight-loss",
+        "returned": 183
+      },
+      {
+        "topic": "koa-broad-knee-oa-tai-chi",
+        "returned": 79
+      },
+      {
+        "topic": "koa-broad-knee-oa-yoga",
+        "returned": 29
+      },
+      {
+        "topic": "koa-broad-knee-oa-acupuncture",
+        "returned": 303
+      },
+      {
+        "topic": "koa-broad-knee-oa-massage",
+        "returned": 65
+      },
+      {
+        "topic": "koa-broad-knee-oa-brace",
+        "returned": 103
+      },
+      {
+        "topic": "koa-broad-knee-oa-taping",
+        "returned": 55
+      },
+      {
+        "topic": "koa-broad-knee-oa-supplement",
+        "returned": 85
       }
     ]
   }
