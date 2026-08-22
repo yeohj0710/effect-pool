@@ -15168,3 +15168,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20184; subjects 13183; refs 23304; numeric comparison entries 19245; unknown-n 1369; thin-study 5552
 - data commit: 334b33465a0d56ebfb7e64fc844bb619701c8269; PUSHED=false checkpoint: 6cd96c69192cea277c023cf3177ebe1573ae3025; PUSHED=true marker: 246c71c598bff94de3b40ee90ca93247d9afded2
 - next_batch: 2130; resume point: new-expansion-candidates-batch2130
+
+## Batch 2130 (2026-08-23) — 과민성장증후군 비처방·보존적 근거 확장
+- topics: 30; selected: 18; non-prescription selected: 18; prescription selected: 0
+- search: 30 topics; 1964 search records; 1353 unique PMID
+- fetch: requested 1353; fetched 1352; chunks 14; abstracts 1319; missing 1 (38261686)
+- candidates: parser 1352 parsed; candidate parser candidates 386; selected 18; held/excluded 368
+- selected PMID: 3322956, 10811333, 24454500, 24931748, 25161987, 26388670, 29610559, 29688915, 29856472, 30429592, 31009707, 32152868, 34552937, 35222693, 36717369, 37697878, 40142519, 42157997
+- new IDs and PMID: ibs-ayurvedic-diet-34552937-2130=34552937, ibs-ispaghula-3322956-2130=3322956, ibs-cbt-durability-30429592-2130=30429592, ibs-insomnia-behavior-32152868-2130=32152868, ibs-moxibustion-longterm-35222693-2130=35222693, ibs-tongxie-herbal-31009707-2130=31009707, ibs-hunyuan-moxibustion-37697878-2130=37697878, ibs-umbilical-moxibustion-42157997-2130=42157997, ibs-herb-partition-moxibustion-24454500-2130=24454500, ibs-tongxie-29856472-2130=29856472, ibs-bifidobacterium-36717369-2130=36717369, ibs-celiac-probiotic-29688915-2130=29688915, ibs-multispecies-probiotic-26388670-2130=26388670, ibs-probiotic-compound-25161987-2130=25161987, ibs-pediatric-bifidobacterium-40142519-2130=40142519, ibs-homeopathy-24931748-2130=24931748, ibs-lactobacillus-gasseri-29610559-2130=29610559, ibs-lactobacillus-rosehip-10811333-2130=10811333
+- categories: otc 0, supp 10, food 1, move 0, life 1, care 6, rx 0; all 18 selected entries are non-prescription or conservative-care entries
+- evidence: 저포드맵을 포함한 영양치료·차전자피, 가정형 인지행동치료·불면 행동치료, 뜸·약물칸막이뜸·배꼽뜸, 한방 과립, 비피도박테리움·락토바실러스 등 프로바이오틱스의 직접 숫자 비교·비율·효과크기·신뢰구간 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 유효한 결과와 무효 결과, 공통 처방약·셀리악병 하위군·표본 수 미상의 한계를 초록 수치대로 기록했다.
+- excluded/held: 고찰·메타분석·프로토콜·관찰연구·단일군·처방약 단독·처방약 병용으로 비처방 효과를 분리할 수 없는 연구·수치 부족 후보 368건을 보류했다. PMID 38261686은 EFetch 응답에서 확인되지 않아 제외했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2130.mjs passed; 18 files, 18 unique PMID, 18 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 2 (ibs-homeopathy-24931748-2130, ibs-umbilical-moxibustion-42157997-2130); truthful thin-study 2 (ibs-insomnia-behavior-32152868-2130 n=25, ibs-lactobacillus-gasseri-29610559-2130 n=48)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 4; comparator warnings fixed 4; effect warnings fixed 1; line warnings fixed 2; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20202; subjects 13200; refs 23322; numeric comparison entries 19263; unknown-n 1371; thin-study 5554
+- data commit: 4e68ca223fb0a607f2b9292fc1f8ff3d37cca5ae; PUSHED=false checkpoint: 065cc0d796537c4840385a40578b9a14fce38d6c; PUSHED=true marker: 64c53fd90eb9dd4f012f41a144390c235b96d2fa
+- next_batch: 2131; resume point: new-expansion-candidates-batch2131
