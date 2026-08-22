@@ -2,28 +2,28 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19749,
-  "subjects": 12758,
-  "refs": 22869,
+  "entries": 19779,
+  "subjects": 12788,
+  "refs": 22899,
   "kinds": {
     "otc": 748,
     "supp": 2811,
     "food": 1529,
-    "move": 2967,
-    "life": 2623,
-    "care": 6382,
+    "move": 2974,
+    "life": 2627,
+    "care": 6401,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18899,
+    "trial": 18929,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13605,
-    "null": 4441,
+    "pos": 13616,
+    "null": 4460,
     "open": 1465,
     "harm": 238
   },
@@ -31,8 +31,8 @@
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 14590,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2111은 족저근막통증의 운동·깔창·테이핑·충격파·초음파·온열·수기·주사 비교 중 직접 수치 근거 17건을 기록했다. Resume with batch 2112."
+    "no_evidence_pending": 14722,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2112는 외측상과염·테니스엘보의 운동·보조기·테이핑·수기·충격파·레이저·초음파·전기·교육 직접 근거 30건을 기록했다. Resume with batch 2113."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2111은 족저근막통증의 비처방·비약물 후보를 검색했고 중재군과 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 PubMed 직접 근거 17건을 기록했다. ClinicalTrials.gov 결과 9건은 신규 PMID 연결 부족 또는 기존 근거로 제외했다. Resume with batch 2112."
+    "note": "Batch 2112는 외측상과염·테니스엘보의 비처방·비약물 후보를 검색했고 중재군과 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 PubMed 직접 근거 30건을 기록했다. Resume with batch 2113."
   },
   "checkpoints": {
-    "over_counter_share": "25.8% (5088 entries)",
+    "over_counter_share": "25.7% (5088 entries)",
     "rx_share": "13.6% (2689)",
-    "no_effect_or_harm_share": "23.7% (4679 entries)",
-    "vs_share": "95.2% (18810)",
+    "no_effect_or_harm_share": "23.8% (4698 entries)",
+    "vs_share": "95.3% (18840)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18899)",
+    "trial_share": "95.7% (18929)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1336,
-      "thin_study": 5378,
-      "targeted_batch_warnings": 8
+      "unknown_n": 1338,
+      "thin_study": 5386,
+      "targeted_batch_warnings": 10
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2111 data, marker, known_items, and final state pushed; resume with batch 2112.",
+  "next": "Batch 2112 data commit 8d0cd63b1b9fad2b65b8dda871af29653cd024ed; PUSHED=false checkpoint pending; resume with batch 2113.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,100 +6772,139 @@
     ]
   },
   "last_batch": {
-    "id": "2111",
-    "commit": "701adcfb8f730ad7d6240919048fafce3cebb18a",
-    "pushed": true,
-    "expansion_commit": "701adcfb8f730ad7d6240919048fafce3cebb18a",
+    "id": "2112",
+    "commit": "8d0cd63b1b9fad2b65b8dda871af29653cd024ed",
+    "pushed": false,
+    "expansion_commit": "8d0cd63b1b9fad2b65b8dda871af29653cd024ed",
     "data_commits": [
-      "701adcfb8f730ad7d6240919048fafce3cebb18a"
+      "8d0cd63b1b9fad2b65b8dda871af29653cd024ed"
     ],
-    "checkpoint_commit": "69b85599c4c739a7c712b52d5132ae682ae27fe3",
-    "push_marker_commit": "6924cbeba451f16ba3e195e77e8dd82ef5f0d691",
-    "known_items_commit": "444658f155388430d2276703c80c669aa5705285",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "plantar-orthosis-sandal-26669302-2111",
-      "plantar-stretching-combined-28985685-2111",
-      "plantar-supervised-home-protocol-31387381-2111",
-      "plantar-dynamic-taping-theraband-41809693-2111",
-      "plantar-eswt-anesthesia-16023010-2111",
-      "plantar-rpwt-schedule-42335588-2111",
-      "plantar-heel-orthosis-taping-22011796-2111",
-      "plantar-orthoses-feasibility-15153583-2111",
-      "plantar-eswt-anesthesia-energy-15849646-2111",
-      "plantar-ultrasound-sham-8733444-2111",
-      "plantar-insole-usual-care-34732484-2111",
-      "plantar-cassava-wax-38802489-2111",
-      "plantar-prf-trf-27906949-2111",
-      "plantar-radiation-steroid-25936814-2111",
-      "plantar-autologous-blood-steroid-17880872-2111",
-      "plantar-load-restriction-blood-40049391-2111",
-      "plantar-injection-modalities-16868321-2111"
+      "tennis-telephone-joint-protection-35723150-2112",
+      "tennis-strengthening-self-management-33250396-2112",
+      "tennis-home-supervised-exercise-19887440-2112",
+      "tennis-ice-exercise-16371498-2112",
+      "tennis-cyriax-exercise-light-16502745-2112",
+      "tennis-dynamic-brace-16394754-2112",
+      "tennis-brace-placebo-9685101-2112",
+      "tennis-ultrasound-exercise-steroid-26468172-2112",
+      "tennis-ultrasound-eccentric-steroid-28588166-2112",
+      "tennis-eswt-placebo-12931804-2112",
+      "tennis-eswt-sham-12382950-2112",
+      "tennis-eswt-positive-15090392-2112",
+      "tennis-radial-eswt-sham-26544854-2112",
+      "tennis-low-laser-sham-7973480-2112",
+      "tennis-laser-splint-eswt-41400750-2112",
+      "tennis-workplace-education-34756796-2112",
+      "tennis-peloid-band-28620677-2112",
+      "tennis-leech-diclofenac-21368667-2112",
+      "tennis-physio-cost-26036675-2112",
+      "tennis-physio-wait-see-11879861-2112",
+      "tennis-cyriax-steroid-8898143-2112",
+      "tennis-eswt-steroid-12188483-2112",
+      "tennis-eswt-surgery-33636381-2112",
+      "tennis-eswt-thermography-12227111-2112",
+      "tennis-sensorimotor-conservative-19154822-2112",
+      "tennis-conservative-subgroups-17890274-2112",
+      "tennis-optimise-physiotherapy-38194841-2112",
+      "tennis-electrical-stimulation-18586811-2112",
+      "tennis-minimal-occupational-12810936-2112",
+      "tennis-mobilization-exercise-wait-17012266-2112"
     ],
-    "new_entries": 17,
+    "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 82,
+    "no_evidence_rejects": 132,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 82,
-    "new_references": 17,
+    "screened_nonqualifying_topics": 132,
+    "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19749 entries; 22869 refs; 18899 trial; 754 obs; 32 animal; 17 lab; 47 case; 18810 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 족저근막통증의 비처방·비약물 중재 후보를 검색했다. 264개 검색 주제에서 레코드 4947개와 고유 PMID 460개를 확인했고 460개를 요청해 460개 논문 기록과 456개 초록을 확보했다. 후보 parser 99건에서 운동·깔창·테이핑·충격파·레이저·초음파·온열·수기·주사 비교의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 17건을 기록했다. 82건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. ClinicalTrials.gov 완료·결과 공개 결과 9건도 확인했으나 신규 PMID 연결 부족 또는 기존 근거로 기록하지 않았다. 실제 소규모 연구 8건과 사람 수 미상 0건의 경고는 유지했고 새 비교 경고 5건, 규모 경고 3건, 줄 길이 경고 4건을 수정했으며 새 빌드 오류 9건은 PMID 없는 등록자료 항목을 제외해 해결했다.",
+    "build": "19779 entries; 22899 refs; 18929 trial; 754 obs; 32 animal; 17 lab; 47 case; 18840 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 외측상과염·테니스엘보의 비처방·비약물 중재 후보를 검색했다. 162개 검색 주제에서 레코드 3914개와 고유 PMID 477개를 확인했고 477개를 요청해 477개 논문 기록과 470개 초록을 확보했다. 후보 parser 162건에서 운동·보조기·테이핑·수기·충격파·레이저·초음파·전기·교육의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 132건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 8건과 사람 수 미상 2건의 경고는 유지했고 새 비교 경고 4건, 규모 경고 4건을 수정했다.",
     "qualified_topics": [
-      "plantar-orthosis-sandal-26669302-2111",
-      "plantar-stretching-combined-28985685-2111",
-      "plantar-supervised-home-protocol-31387381-2111",
-      "plantar-dynamic-taping-theraband-41809693-2111",
-      "plantar-eswt-anesthesia-16023010-2111",
-      "plantar-rpwt-schedule-42335588-2111",
-      "plantar-heel-orthosis-taping-22011796-2111",
-      "plantar-orthoses-feasibility-15153583-2111",
-      "plantar-eswt-anesthesia-energy-15849646-2111",
-      "plantar-ultrasound-sham-8733444-2111",
-      "plantar-insole-usual-care-34732484-2111",
-      "plantar-cassava-wax-38802489-2111",
-      "plantar-prf-trf-27906949-2111",
-      "plantar-radiation-steroid-25936814-2111",
-      "plantar-autologous-blood-steroid-17880872-2111",
-      "plantar-load-restriction-blood-40049391-2111",
-      "plantar-injection-modalities-16868321-2111"
+      "tennis-telephone-joint-protection-35723150-2112",
+      "tennis-strengthening-self-management-33250396-2112",
+      "tennis-home-supervised-exercise-19887440-2112",
+      "tennis-ice-exercise-16371498-2112",
+      "tennis-cyriax-exercise-light-16502745-2112",
+      "tennis-dynamic-brace-16394754-2112",
+      "tennis-brace-placebo-9685101-2112",
+      "tennis-ultrasound-exercise-steroid-26468172-2112",
+      "tennis-ultrasound-eccentric-steroid-28588166-2112",
+      "tennis-eswt-placebo-12931804-2112",
+      "tennis-eswt-sham-12382950-2112",
+      "tennis-eswt-positive-15090392-2112",
+      "tennis-radial-eswt-sham-26544854-2112",
+      "tennis-low-laser-sham-7973480-2112",
+      "tennis-laser-splint-eswt-41400750-2112",
+      "tennis-workplace-education-34756796-2112",
+      "tennis-peloid-band-28620677-2112",
+      "tennis-leech-diclofenac-21368667-2112",
+      "tennis-physio-cost-26036675-2112",
+      "tennis-physio-wait-see-11879861-2112",
+      "tennis-cyriax-steroid-8898143-2112",
+      "tennis-eswt-steroid-12188483-2112",
+      "tennis-eswt-surgery-33636381-2112",
+      "tennis-eswt-thermography-12227111-2112",
+      "tennis-sensorimotor-conservative-19154822-2112",
+      "tennis-conservative-subgroups-17890274-2112",
+      "tennis-optimise-physiotherapy-38194841-2112",
+      "tennis-electrical-stimulation-18586811-2112",
+      "tennis-minimal-occupational-12810936-2112",
+      "tennis-mobilization-exercise-wait-17012266-2112"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "plantar-orthosis-sandal-26669302-2111",
-      "plantar-stretching-combined-28985685-2111",
-      "plantar-supervised-home-protocol-31387381-2111",
-      "plantar-dynamic-taping-theraband-41809693-2111",
-      "plantar-eswt-anesthesia-16023010-2111",
-      "plantar-rpwt-schedule-42335588-2111",
-      "plantar-heel-orthosis-taping-22011796-2111",
-      "plantar-orthoses-feasibility-15153583-2111",
-      "plantar-eswt-anesthesia-energy-15849646-2111",
-      "plantar-ultrasound-sham-8733444-2111",
-      "plantar-insole-usual-care-34732484-2111",
-      "plantar-cassava-wax-38802489-2111",
-      "plantar-prf-trf-27906949-2111",
-      "plantar-radiation-steroid-25936814-2111",
-      "plantar-autologous-blood-steroid-17880872-2111",
-      "plantar-load-restriction-blood-40049391-2111",
-      "plantar-injection-modalities-16868321-2111"
+      "tennis-telephone-joint-protection-35723150-2112",
+      "tennis-strengthening-self-management-33250396-2112",
+      "tennis-home-supervised-exercise-19887440-2112",
+      "tennis-ice-exercise-16371498-2112",
+      "tennis-cyriax-exercise-light-16502745-2112",
+      "tennis-dynamic-brace-16394754-2112",
+      "tennis-brace-placebo-9685101-2112",
+      "tennis-ultrasound-exercise-steroid-26468172-2112",
+      "tennis-ultrasound-eccentric-steroid-28588166-2112",
+      "tennis-eswt-placebo-12931804-2112",
+      "tennis-eswt-sham-12382950-2112",
+      "tennis-eswt-positive-15090392-2112",
+      "tennis-radial-eswt-sham-26544854-2112",
+      "tennis-low-laser-sham-7973480-2112",
+      "tennis-laser-splint-eswt-41400750-2112",
+      "tennis-workplace-education-34756796-2112",
+      "tennis-peloid-band-28620677-2112",
+      "tennis-leech-diclofenac-21368667-2112",
+      "tennis-physio-cost-26036675-2112",
+      "tennis-physio-wait-see-11879861-2112",
+      "tennis-cyriax-steroid-8898143-2112",
+      "tennis-eswt-steroid-12188483-2112",
+      "tennis-eswt-surgery-33636381-2112",
+      "tennis-eswt-thermography-12227111-2112",
+      "tennis-sensorimotor-conservative-19154822-2112",
+      "tennis-conservative-subgroups-17890274-2112",
+      "tennis-optimise-physiotherapy-38194841-2112",
+      "tennis-electrical-stimulation-18586811-2112",
+      "tennis-minimal-occupational-12810936-2112",
+      "tennis-mobilization-exercise-wait-17012266-2112"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_vs_warnings_fixed": 4,
     "new_entry_effect_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 4,
-    "new_entry_scale_warnings_fixed": 3,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 4,
     "new_entry_english_warnings_fixed": 0,
     "new_entry_subject_warnings_fixed": 0,
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18810,
+    "open_numeric_comparisons": 18840,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6873,30 +6912,41 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "족저근막통증 자가혈액주사=care",
-      "족저근막통증 카사바 왁스욕=care",
-      "만성 발뒤꿈치통증 테이핑·탄력밴드=move",
-      "족저근막통증 무마취 충격파=care",
-      "족저근막통증 충격파 국소마취=care",
-      "족저근막통증 발뒤꿈치 보조기·테이핑=care",
-      "족저근막통증 주사방법 비교=care",
-      "족저근막통증 맞춤깔창=care",
-      "족저근막통증 자가혈액주사 후 체중부하 제한=life",
-      "족저근막통증 기능성·완충 깔창=care",
-      "족저근막통증 곡선샌들·깔창=care",
-      "족저근막통증 펄스·열 고주파=care",
-      "족저근막통증 방사선치료=care",
-      "족저근막통증 충격파 일정=care",
-      "족저근막통증 아킬레스·족저근막 동시스트레칭=move",
-      "족저근막통증 외래·가정재활=move",
-      "족저근막통증 치료초음파=care"
+      "테니스엘보 팔꿈치 보조기=care",
+      "테니스엘보 보존치료 하위군=care",
+      "테니스엘보 수기·운동·편광광=care",
+      "테니스엘보 시리아스 물리치료=move",
+      "테니스엘보 동적 폄 보조기=care",
+      "테니스엘보 저주파 전기자극=care",
+      "테니스엘보 충격파·가짜치료=care",
+      "테니스엘보 저에너지 충격파=care",
+      "테니스엘보 중간용량 충격파=care",
+      "테니스엘보 충격파·스테로이드 비교=care",
+      "테니스엘보 충격파·수술=care",
+      "테니스엘보 충격파·가짜치료 열영상=care",
+      "테니스엘보 가정·지도운동=move",
+      "테니스엘보 운동·얼음찜질=life",
+      "테니스엘보 레이저·보조기·충격파=care",
+      "테니스엘보 거머리요법=care",
+      "테니스엘보 저출력레이저=care",
+      "테니스엘보 작업조정·자가운동=life",
+      "테니스엘보 관절가동·운동=move",
+      "테니스엘보 최적화 물리치료=move",
+      "테니스엘보 펠로이드·밴드=care",
+      "테니스엘보 물리치료·운동=move",
+      "테니스엘보 물리치료·기다려보기=move",
+      "테니스엘보 방사형 충격파=care",
+      "테니스엘보 보존치료·감각운동=care",
+      "테니스엘보 강화운동·자가관리=move",
+      "테니스엘보 전화 추적·관절보호교육=life",
+      "테니스엘보 치료초음파·편심운동=care",
+      "테니스엘보 초음파·운동=care",
+      "테니스엘보 직장기반 교육=life"
     ],
-    "targeted_batch_warnings_remaining": 8,
-    "targeted_batch_warnings_fixed": 12,
-    "build_errors_fixed": 9,
-    "discarded_non_numeric_candidates": [
-      "clinicaltrials-results-without-new-pmid-9"
-    ],
+    "targeted_batch_warnings_remaining": 10,
+    "targeted_batch_warnings_fixed": 8,
+    "build_errors_fixed": 0,
+    "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
     "remaining_english_subjects": 0,
@@ -6904,1084 +6954,714 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2111",
+    "next_official_deployment_check": "after batch 2112",
     "topics": [
-      "plantar-orthosis-sandal-26669302-2111",
-      "plantar-stretching-combined-28985685-2111",
-      "plantar-supervised-home-protocol-31387381-2111",
-      "plantar-dynamic-taping-theraband-41809693-2111",
-      "plantar-eswt-anesthesia-16023010-2111",
-      "plantar-rpwt-schedule-42335588-2111",
-      "plantar-heel-orthosis-taping-22011796-2111",
-      "plantar-orthoses-feasibility-15153583-2111",
-      "plantar-eswt-anesthesia-energy-15849646-2111",
-      "plantar-ultrasound-sham-8733444-2111",
-      "plantar-insole-usual-care-34732484-2111",
-      "plantar-cassava-wax-38802489-2111",
-      "plantar-prf-trf-27906949-2111",
-      "plantar-radiation-steroid-25936814-2111",
-      "plantar-autologous-blood-steroid-17880872-2111",
-      "plantar-load-restriction-blood-40049391-2111",
-      "plantar-injection-modalities-16868321-2111"
+      "tennis-telephone-joint-protection-35723150-2112",
+      "tennis-strengthening-self-management-33250396-2112",
+      "tennis-home-supervised-exercise-19887440-2112",
+      "tennis-ice-exercise-16371498-2112",
+      "tennis-cyriax-exercise-light-16502745-2112",
+      "tennis-dynamic-brace-16394754-2112",
+      "tennis-brace-placebo-9685101-2112",
+      "tennis-ultrasound-exercise-steroid-26468172-2112",
+      "tennis-ultrasound-eccentric-steroid-28588166-2112",
+      "tennis-eswt-placebo-12931804-2112",
+      "tennis-eswt-sham-12382950-2112",
+      "tennis-eswt-positive-15090392-2112",
+      "tennis-radial-eswt-sham-26544854-2112",
+      "tennis-low-laser-sham-7973480-2112",
+      "tennis-laser-splint-eswt-41400750-2112",
+      "tennis-workplace-education-34756796-2112",
+      "tennis-peloid-band-28620677-2112",
+      "tennis-leech-diclofenac-21368667-2112",
+      "tennis-physio-cost-26036675-2112",
+      "tennis-physio-wait-see-11879861-2112",
+      "tennis-cyriax-steroid-8898143-2112",
+      "tennis-eswt-steroid-12188483-2112",
+      "tennis-eswt-surgery-33636381-2112",
+      "tennis-eswt-thermography-12227111-2112",
+      "tennis-sensorimotor-conservative-19154822-2112",
+      "tennis-conservative-subgroups-17890274-2112",
+      "tennis-optimise-physiotherapy-38194841-2112",
+      "tennis-electrical-stimulation-18586811-2112",
+      "tennis-minimal-occupational-12810936-2112",
+      "tennis-mobilization-exercise-wait-17012266-2112"
     ],
-    "screened_nonqualifying": [
-      "ClinicalTrials.gov result records 9건: 신규 PMID 연결 부족 또는 기존 근거"
-    ],
+    "screened_nonqualifying": [],
     "new_pmids": [
-      "17880872",
-      "38802489",
-      "41809693",
-      "16023010",
-      "15849646",
-      "22011796",
-      "16868321",
-      "34732484",
-      "40049391",
-      "15153583",
-      "26669302",
-      "27906949",
-      "25936814",
-      "42335588",
-      "28985685",
-      "31387381",
-      "8733444"
+      "9685101",
+      "17890274",
+      "16502745",
+      "8898143",
+      "16394754",
+      "18586811",
+      "12931804",
+      "15090392",
+      "12382950",
+      "12188483",
+      "33636381",
+      "12227111",
+      "19887440",
+      "16371498",
+      "41400750",
+      "21368667",
+      "7973480",
+      "12810936",
+      "17012266",
+      "38194841",
+      "28620677",
+      "26036675",
+      "11879861",
+      "26544854",
+      "19154822",
+      "33250396",
+      "35723150",
+      "28588166",
+      "26468172",
+      "34756796"
     ],
-    "unique_pmids": 460,
-    "requested": 460,
-    "fetched": 460,
+    "unique_pmids": 477,
+    "requested": 477,
+    "fetched": 477,
     "fetch_chunks": 10,
-    "abstracts": 456,
-    "parsed_abstracts": 456,
-    "search_candidates": 99,
-    "candidate_parser_parsed": 460,
-    "candidate_parser_candidates": 99,
-    "candidate_parser_candidates_after_write": 17,
-    "manual_candidates": 17,
-    "search_topic_count": 264,
-    "search_returned_records": 4947,
-    "supplemental_query_count": 235,
+    "abstracts": 470,
+    "parsed_abstracts": 470,
+    "search_candidates": 162,
+    "candidate_parser_parsed": 477,
+    "candidate_parser_candidates": 162,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 162,
+    "search_returned_records": 3914,
+    "supplemental_query_count": 132,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "plantar-orthosis-sandal-26669302-2111",
-      "plantar-stretching-combined-28985685-2111",
-      "plantar-supervised-home-protocol-31387381-2111",
-      "plantar-dynamic-taping-theraband-41809693-2111",
-      "plantar-eswt-anesthesia-16023010-2111",
-      "plantar-rpwt-schedule-42335588-2111",
-      "plantar-heel-orthosis-taping-22011796-2111",
-      "plantar-orthoses-feasibility-15153583-2111",
-      "plantar-eswt-anesthesia-energy-15849646-2111",
-      "plantar-ultrasound-sham-8733444-2111",
-      "plantar-insole-usual-care-34732484-2111",
-      "plantar-cassava-wax-38802489-2111",
-      "plantar-prf-trf-27906949-2111",
-      "plantar-radiation-steroid-25936814-2111",
-      "plantar-autologous-blood-steroid-17880872-2111",
-      "plantar-load-restriction-blood-40049391-2111",
-      "plantar-injection-modalities-16868321-2111"
+      "tennis-telephone-joint-protection-35723150-2112",
+      "tennis-strengthening-self-management-33250396-2112",
+      "tennis-home-supervised-exercise-19887440-2112",
+      "tennis-ice-exercise-16371498-2112",
+      "tennis-cyriax-exercise-light-16502745-2112",
+      "tennis-dynamic-brace-16394754-2112",
+      "tennis-brace-placebo-9685101-2112",
+      "tennis-ultrasound-exercise-steroid-26468172-2112",
+      "tennis-ultrasound-eccentric-steroid-28588166-2112",
+      "tennis-eswt-placebo-12931804-2112",
+      "tennis-eswt-sham-12382950-2112",
+      "tennis-eswt-positive-15090392-2112",
+      "tennis-radial-eswt-sham-26544854-2112",
+      "tennis-low-laser-sham-7973480-2112",
+      "tennis-laser-splint-eswt-41400750-2112",
+      "tennis-workplace-education-34756796-2112",
+      "tennis-peloid-band-28620677-2112",
+      "tennis-leech-diclofenac-21368667-2112",
+      "tennis-physio-cost-26036675-2112",
+      "tennis-physio-wait-see-11879861-2112",
+      "tennis-cyriax-steroid-8898143-2112",
+      "tennis-eswt-steroid-12188483-2112",
+      "tennis-eswt-surgery-33636381-2112",
+      "tennis-eswt-thermography-12227111-2112",
+      "tennis-sensorimotor-conservative-19154822-2112",
+      "tennis-conservative-subgroups-17890274-2112",
+      "tennis-optimise-physiotherapy-38194841-2112",
+      "tennis-electrical-stimulation-18586811-2112",
+      "tennis-minimal-occupational-12810936-2112",
+      "tennis-mobilization-exercise-wait-17012266-2112"
     ],
     "categories": {
       "otc": 0,
       "supp": 0,
       "food": 0,
-      "move": 3,
-      "life": 1,
-      "care": 13,
+      "move": 7,
+      "life": 4,
+      "care": 19,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tennis-eswt-steroid-12188483-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tennis-telephone-joint-protection-35723150-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tennis-electrical-stimulation-18586811-2112 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-surgery-33636381-2112 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-thermography-12227111-2112 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ice-exercise-16371498-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-leech-diclofenac-21368667-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-low-laser-sham-7973480-2112 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ultrasound-exercise-steroid-26468172-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-workplace-education-34756796-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "new_unknown_n_warnings": [],
+    "new_unknown_n_warnings": [
+      "주의  tennis-eswt-steroid-12188483-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tennis-telephone-joint-protection-35723150-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
     "new_thin_study_warnings": [
-      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tennis-electrical-stimulation-18586811-2112 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-surgery-33636381-2112 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-thermography-12227111-2112 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ice-exercise-16371498-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-leech-diclofenac-21368667-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-low-laser-sham-7973480-2112 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ultrasound-exercise-steroid-26468172-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-workplace-education-34756796-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "plantar-cassava-wax-38802489-2111:40",
-      "plantar-dynamic-taping-theraband-41809693-2111:20",
-      "plantar-heel-orthosis-taping-22011796-2111:17",
-      "plantar-injection-modalities-16868321-2111:44",
-      "plantar-orthoses-feasibility-15153583-2111:48",
-      "plantar-prf-trf-27906949-2111:20",
-      "plantar-supervised-home-protocol-31387381-2111:47",
-      "plantar-ultrasound-sham-8733444-2111:19"
+      "tennis-electrical-stimulation-18586811-2112:18",
+      "tennis-eswt-surgery-33636381-2112:29",
+      "tennis-eswt-thermography-12227111-2112:33",
+      "tennis-ice-exercise-16371498-2112:40",
+      "tennis-leech-diclofenac-21368667-2112:40",
+      "tennis-low-laser-sham-7973480-2112:36",
+      "tennis-ultrasound-exercise-steroid-26468172-2112:49",
+      "tennis-workplace-education-34756796-2112:49"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  tennis-eswt-steroid-12188483-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tennis-telephone-joint-protection-35723150-2112 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  tennis-electrical-stimulation-18586811-2112 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-surgery-33636381-2112 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-eswt-thermography-12227111-2112 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ice-exercise-16371498-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-leech-diclofenac-21368667-2112 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-low-laser-sham-7973480-2112 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-ultrasound-exercise-steroid-26468172-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tennis-workplace-education-34756796-2112 — 사람 49명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "plantar-supp-1",
-        "returned": 34
+        "topic": "tennis-supp-1",
+        "returned": 15
       },
       {
-        "topic": "plantar-supp-2",
-        "returned": 28
-      },
-      {
-        "topic": "plantar-supp-3",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-4",
-        "returned": 97
-      },
-      {
-        "topic": "plantar-supp-5",
-        "returned": 92
-      },
-      {
-        "topic": "plantar-supp-6",
-        "returned": 21
-      },
-      {
-        "topic": "plantar-supp-7",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-8",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-supp-9",
-        "returned": 41
-      },
-      {
-        "topic": "plantar-supp-10",
-        "returned": 18
-      },
-      {
-        "topic": "plantar-supp-11",
-        "returned": 13
-      },
-      {
-        "topic": "plantar-supp-12",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-13",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-14",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-15",
-        "returned": 10
-      },
-      {
-        "topic": "plantar-supp-16",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-17",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-18",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-19",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-20",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-21",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-22",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-23",
+        "topic": "tennis-supp-2",
         "returned": 3
       },
       {
-        "topic": "plantar-supp-24",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-25",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-26",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-27",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-28",
-        "returned": 32
-      },
-      {
-        "topic": "plantar-supp-29",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-30",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-31",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-32",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-33",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-34",
-        "returned": 6
-      },
-      {
-        "topic": "plantar-supp-35",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-36",
-        "returned": 31
-      },
-      {
-        "topic": "plantar-supp-37",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-38",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-39",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-40",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-41",
-        "returned": 6
-      },
-      {
-        "topic": "plantar-supp-42",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-43",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-44",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-supp-45",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-46",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-47",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-48",
-        "returned": 91
-      },
-      {
-        "topic": "plantar-supp-49",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-50",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-51",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-52",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-53",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-54",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-55",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-56",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-57",
-        "returned": 74
-      },
-      {
-        "topic": "plantar-supp-58",
-        "returned": 18
-      },
-      {
-        "topic": "plantar-supp-59",
-        "returned": 19
-      },
-      {
-        "topic": "plantar-supp-60",
-        "returned": 11
-      },
-      {
-        "topic": "plantar-supp-61",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-supp-62",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-63",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-64",
-        "returned": 52
-      },
-      {
-        "topic": "plantar-supp-65",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-66",
-        "returned": 38
-      },
-      {
-        "topic": "plantar-supp-67",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-68",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-69",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-70",
-        "returned": 46
-      },
-      {
-        "topic": "plantar-supp-71",
-        "returned": 24
-      },
-      {
-        "topic": "plantar-supp-72",
-        "returned": 23
-      },
-      {
-        "topic": "plantar-supp-73",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-74",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-75",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-76",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-77",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-78",
+        "topic": "tennis-supp-3",
         "returned": 12
       },
       {
-        "topic": "plantar-supp-79",
-        "returned": 6
+        "topic": "tennis-supp-4",
+        "returned": 189
       },
       {
-        "topic": "plantar-supp-80",
-        "returned": 2
+        "topic": "tennis-supp-5",
+        "returned": 152
       },
       {
-        "topic": "plantar-supp-81",
-        "returned": 2
+        "topic": "tennis-supp-6",
+        "returned": 206
       },
       {
-        "topic": "plantar-supp-82",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-83",
+        "topic": "tennis-supp-7",
         "returned": 0
       },
       {
-        "topic": "plantar-supp-84",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-85",
+        "topic": "tennis-supp-8",
         "returned": 1
       },
       {
-        "topic": "plantar-supp-86",
-        "returned": 8
+        "topic": "tennis-supp-9",
+        "returned": 2
       },
       {
-        "topic": "plantar-supp-87",
-        "returned": 29
-      },
-      {
-        "topic": "plantar-supp-88",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-89",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-supp-90",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-91",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-92",
-        "returned": 20
-      },
-      {
-        "topic": "plantar-supp-93",
+        "topic": "tennis-supp-10",
         "returned": 3
       },
       {
-        "topic": "plantar-supp-94",
-        "returned": 17
-      },
-      {
-        "topic": "plantar-supp-95",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-96",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-97",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-98",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-99",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-100",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-101",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-102",
-        "returned": 36
-      },
-      {
-        "topic": "plantar-supp-103",
-        "returned": 202
-      },
-      {
-        "topic": "plantar-supp-104",
-        "returned": 97
-      },
-      {
-        "topic": "plantar-supp-105",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-106",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-107",
+        "topic": "tennis-supp-11",
         "returned": 0
       },
       {
-        "topic": "plantar-supp-108",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-109",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-110",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-111",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-112",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-113",
-        "returned": 13
-      },
-      {
-        "topic": "plantar-supp-114",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-115",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-116",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-117",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-118",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-119",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-120",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-121",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-122",
-        "returned": 25
-      },
-      {
-        "topic": "plantar-supp-123",
-        "returned": 6
-      },
-      {
-        "topic": "plantar-supp-124",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-125",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-supp-126",
-        "returned": 17
-      },
-      {
-        "topic": "plantar-supp-127",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-128",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-129",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-130",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-131",
-        "returned": 77
-      },
-      {
-        "topic": "plantar-supp-132",
-        "returned": 49
-      },
-      {
-        "topic": "plantar-supp-133",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-134",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-135",
-        "returned": 28
-      },
-      {
-        "topic": "plantar-supp-136",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-137",
-        "returned": 20
-      },
-      {
-        "topic": "plantar-supp-138",
-        "returned": 23
-      },
-      {
-        "topic": "plantar-supp-139",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-140",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-141",
-        "returned": 15
-      },
-      {
-        "topic": "plantar-supp-142",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-143",
-        "returned": 18
-      },
-      {
-        "topic": "plantar-supp-144",
-        "returned": 113
-      },
-      {
-        "topic": "plantar-supp-145",
-        "returned": 54
-      },
-      {
-        "topic": "plantar-supp-146",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-147",
-        "returned": 25
-      },
-      {
-        "topic": "plantar-supp-148",
-        "returned": 5
-      },
-      {
-        "topic": "plantar-supp-149",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-150",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-151",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-152",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-153",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-154",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-155",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-156",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-157",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-158",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-159",
-        "returned": 78
-      },
-      {
-        "topic": "plantar-supp-160",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-161",
-        "returned": 4
-      },
-      {
-        "topic": "plantar-supp-162",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-163",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-164",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-165",
-        "returned": 7
-      },
-      {
-        "topic": "plantar-supp-166",
-        "returned": 26
-      },
-      {
-        "topic": "plantar-supp-167",
-        "returned": 6
-      },
-      {
-        "topic": "plantar-supp-168",
-        "returned": 13
-      },
-      {
-        "topic": "plantar-supp-169",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-170",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-171",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-172",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-supp-173",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-174",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-175",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-176",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-177",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-178",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-179",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-180",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-181",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-182",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-183",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-184",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-185",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-186",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-187",
-        "returned": 1
-      },
-      {
-        "topic": "plantar-supp-188",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-189",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-supp-190",
-        "returned": 49
-      },
-      {
-        "topic": "plantar-supp-191",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-192",
-        "returned": 15
-      },
-      {
-        "topic": "plantar-supp-193",
-        "returned": 9
-      },
-      {
-        "topic": "plantar-supp-194",
-        "returned": 13
-      },
-      {
-        "topic": "plantar-supp-195",
+        "topic": "tennis-supp-12",
         "returned": 11
       },
       {
-        "topic": "plantar-supp-196",
-        "returned": 2
+        "topic": "tennis-supp-13",
+        "returned": 13
       },
       {
-        "topic": "plantar-supp-197",
-        "returned": 87
+        "topic": "tennis-supp-14",
+        "returned": 11
       },
       {
-        "topic": "plantar-supp-198",
-        "returned": 2
-      },
-      {
-        "topic": "plantar-supp-199",
-        "returned": 10
-      },
-      {
-        "topic": "plantar-supp-200",
-        "returned": 217
-      },
-      {
-        "topic": "plantar-supp-201",
+        "topic": "tennis-supp-15",
         "returned": 16
       },
       {
-        "topic": "plantar-outcome-1",
-        "returned": 218
-      },
-      {
-        "topic": "plantar-outcome-2",
-        "returned": 197
-      },
-      {
-        "topic": "plantar-outcome-3",
-        "returned": 25
-      },
-      {
-        "topic": "plantar-outcome-4",
-        "returned": 105
-      },
-      {
-        "topic": "plantar-outcome-5",
-        "returned": 59
-      },
-      {
-        "topic": "plantar-outcome-6",
-        "returned": 53
-      },
-      {
-        "topic": "plantar-outcome-7",
-        "returned": 16
-      },
-      {
-        "topic": "plantar-outcome-8",
-        "returned": 3
-      },
-      {
-        "topic": "plantar-outcome-9",
-        "returned": 47
-      },
-      {
-        "topic": "plantar-outcome-10",
-        "returned": 243
-      },
-      {
-        "topic": "plantar-outcome-11",
-        "returned": 27
-      },
-      {
-        "topic": "plantar-outcome-12",
-        "returned": 41
-      },
-      {
-        "topic": "plantar-outcome-13",
-        "returned": 43
-      },
-      {
-        "topic": "plantar-outcome-14",
-        "returned": 26
-      },
-      {
-        "topic": "plantar-outcome-15",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-outcome-16",
-        "returned": 50
-      },
-      {
-        "topic": "plantar-broad-chronic",
-        "returned": 95
-      },
-      {
-        "topic": "plantar-broad-recalcitrant",
-        "returned": 21
-      },
-      {
-        "topic": "plantar-broad-acute",
+        "topic": "tennis-supp-16",
         "returned": 1
       },
       {
-        "topic": "plantar-broad-morning",
-        "returned": 0
+        "topic": "tennis-supp-17",
+        "returned": 1
       },
       {
-        "topic": "plantar-broad-runners",
-        "returned": 8
-      },
-      {
-        "topic": "plantar-broad-athletes",
-        "returned": 99
-      },
-      {
-        "topic": "plantar-broad-workers",
-        "returned": 6
-      },
-      {
-        "topic": "plantar-broad-obesity",
+        "topic": "tennis-supp-18",
         "returned": 5
       },
       {
-        "topic": "plantar-broad-women",
-        "returned": 29
+        "topic": "tennis-supp-19",
+        "returned": 7
       },
       {
-        "topic": "plantar-broad-older-adults",
-        "returned": 63
-      },
-      {
-        "topic": "plantar-broad-bilateral",
+        "topic": "tennis-supp-20",
         "returned": 2
       },
       {
-        "topic": "plantar-broad-ultrasound",
+        "topic": "tennis-supp-21",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-22",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-23",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-24",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-25",
+        "returned": 20
+      },
+      {
+        "topic": "tennis-supp-26",
         "returned": 0
       },
       {
-        "topic": "plantar-broad-orthotic",
+        "topic": "tennis-supp-27",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-28",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-29",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-30",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-31",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-32",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-33",
+        "returned": 16
+      },
+      {
+        "topic": "tennis-supp-34",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-35",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-36",
+        "returned": 6
+      },
+      {
+        "topic": "tennis-supp-37",
+        "returned": 31
+      },
+      {
+        "topic": "tennis-supp-38",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-39",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-40",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-41",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-42",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-43",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-44",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-45",
+        "returned": 5
+      },
+      {
+        "topic": "tennis-supp-46",
+        "returned": 20
+      },
+      {
+        "topic": "tennis-supp-47",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-48",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-49",
+        "returned": 16
+      },
+      {
+        "topic": "tennis-supp-50",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-51",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-52",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-53",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-54",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-55",
+        "returned": 48
+      },
+      {
+        "topic": "tennis-supp-56",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-57",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-58",
+        "returned": 9
+      },
+      {
+        "topic": "tennis-supp-59",
+        "returned": 7
+      },
+      {
+        "topic": "tennis-supp-60",
+        "returned": 7
+      },
+      {
+        "topic": "tennis-supp-61",
+        "returned": 21
+      },
+      {
+        "topic": "tennis-supp-62",
+        "returned": 18
+      },
+      {
+        "topic": "tennis-supp-63",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-64",
+        "returned": 20
+      },
+      {
+        "topic": "tennis-supp-65",
+        "returned": 65
+      },
+      {
+        "topic": "tennis-supp-66",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-67",
+        "returned": 22
+      },
+      {
+        "topic": "tennis-supp-68",
+        "returned": 20
+      },
+      {
+        "topic": "tennis-supp-69",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-70",
+        "returned": 9
+      },
+      {
+        "topic": "tennis-supp-71",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-72",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-73",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-74",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-75",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-76",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-77",
+        "returned": 49
+      },
+      {
+        "topic": "tennis-supp-78",
+        "returned": 5
+      },
+      {
+        "topic": "tennis-supp-79",
+        "returned": 12
+      },
+      {
+        "topic": "tennis-supp-80",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-81",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-82",
+        "returned": 10
+      },
+      {
+        "topic": "tennis-supp-83",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-84",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-85",
+        "returned": 3
+      },
+      {
+        "topic": "tennis-supp-86",
+        "returned": 15
+      },
+      {
+        "topic": "tennis-supp-87",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-88",
+        "returned": 4
+      },
+      {
+        "topic": "tennis-supp-89",
+        "returned": 8
+      },
+      {
+        "topic": "tennis-supp-90",
+        "returned": 7
+      },
+      {
+        "topic": "tennis-supp-91",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-supp-92",
+        "returned": 10
+      },
+      {
+        "topic": "tennis-supp-93",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-94",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-95",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-96",
+        "returned": 0
+      },
+      {
+        "topic": "tennis-supp-97",
+        "returned": 6
+      },
+      {
+        "topic": "tennis-supp-98",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-supp-100",
+        "returned": 14
+      },
+      {
+        "topic": "tennis-supp-101",
+        "returned": 7
+      },
+      {
+        "topic": "tennis-supp-102",
+        "returned": 6
+      },
+      {
+        "topic": "tennis-supp-103",
+        "returned": 52
+      },
+      {
+        "topic": "tennis-supp-104",
+        "returned": 13
+      },
+      {
+        "topic": "tennis-outcome-1",
+        "returned": 212
+      },
+      {
+        "topic": "tennis-outcome-2",
+        "returned": 138
+      },
+      {
+        "topic": "tennis-outcome-3",
+        "returned": 21
+      },
+      {
+        "topic": "tennis-outcome-4",
+        "returned": 86
+      },
+      {
+        "topic": "tennis-outcome-5",
+        "returned": 64
+      },
+      {
+        "topic": "tennis-outcome-6",
+        "returned": 63
+      },
+      {
+        "topic": "tennis-outcome-7",
+        "returned": 270
+      },
+      {
+        "topic": "tennis-outcome-8",
+        "returned": 196
+      },
+      {
+        "topic": "tennis-outcome-9",
+        "returned": 21
+      },
+      {
+        "topic": "tennis-outcome-10",
+        "returned": 44
+      },
+      {
+        "topic": "tennis-outcome-11",
+        "returned": 10
+      },
+      {
+        "topic": "tennis-outcome-12",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-outcome-13",
+        "returned": 54
+      },
+      {
+        "topic": "tennis-outcome-14",
+        "returned": 137
+      },
+      {
+        "topic": "tennis-outcome-15",
+        "returned": 35
+      },
+      {
+        "topic": "tennis-outcome-16",
+        "returned": 37
+      },
+      {
+        "topic": "tennis-broad-chronic",
+        "returned": 54
+      },
+      {
+        "topic": "tennis-broad-recalcitrant",
+        "returned": 1
+      },
+      {
+        "topic": "tennis-broad-acute",
+        "returned": 2
+      },
+      {
+        "topic": "tennis-broad-workers",
+        "returned": 12
+      },
+      {
+        "topic": "tennis-broad-athletes",
+        "returned": 85
+      },
+      {
+        "topic": "tennis-broad-older-adults",
+        "returned": 187
+      },
+      {
+        "topic": "tennis-broad-women",
         "returned": 30
       },
       {
-        "topic": "plantar-broad-exercise",
+        "topic": "tennis-broad-bilateral",
+        "returned": 5
+      },
+      {
+        "topic": "tennis-broad-primary-care",
+        "returned": 20
+      },
+      {
+        "topic": "tennis-broad-occupational",
+        "returned": 22
+      },
+      {
+        "topic": "tennis-broad-self-care",
         "returned": 0
       },
       {
-        "topic": "plantar-broad-shockwave",
-        "returned": 46
-      },
-      {
-        "topic": "plantar-broad-acupuncture",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-broad-manual",
-        "returned": 0
-      },
-      {
-        "topic": "plantar-broad-self-care",
-        "returned": 0
+        "topic": "tennis-broad-conservative",
+        "returned": 43
       }
-    ],
-    "clinicaltrials_result_records": 9,
-    "clinicaltrials_new_entries": 0
+    ]
   },
   "resume": {
-    "next_batch": "2112",
-    "worklist_line": "new-expansion-candidates-batch2112",
-    "topic": "new-expansion-candidates-batch2112",
+    "next_batch": "2113",
+    "worklist_line": "new-expansion-candidates-batch2113",
+    "topic": "new-expansion-candidates-batch2113",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -9276,10 +8956,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18810,
-  "unknownN": 1336,
-  "thinStudy": 5378,
-  "openNumeric": 18810,
+  "withVs": 18840,
+  "unknownN": 1338,
+  "thinStudy": 5386,
+  "openNumeric": 18840,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -98833,5 +98513,1212 @@
         "returned": 15
       }
     ]
+  },
+  "previous_last_batch_2111": {
+    "id": "2111",
+    "commit": "701adcfb8f730ad7d6240919048fafce3cebb18a",
+    "pushed": true,
+    "expansion_commit": "701adcfb8f730ad7d6240919048fafce3cebb18a",
+    "data_commits": [
+      "701adcfb8f730ad7d6240919048fafce3cebb18a"
+    ],
+    "checkpoint_commit": "69b85599c4c739a7c712b52d5132ae682ae27fe3",
+    "push_marker_commit": "6924cbeba451f16ba3e195e77e8dd82ef5f0d691",
+    "known_items_commit": "444658f155388430d2276703c80c669aa5705285",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "plantar-orthosis-sandal-26669302-2111",
+      "plantar-stretching-combined-28985685-2111",
+      "plantar-supervised-home-protocol-31387381-2111",
+      "plantar-dynamic-taping-theraband-41809693-2111",
+      "plantar-eswt-anesthesia-16023010-2111",
+      "plantar-rpwt-schedule-42335588-2111",
+      "plantar-heel-orthosis-taping-22011796-2111",
+      "plantar-orthoses-feasibility-15153583-2111",
+      "plantar-eswt-anesthesia-energy-15849646-2111",
+      "plantar-ultrasound-sham-8733444-2111",
+      "plantar-insole-usual-care-34732484-2111",
+      "plantar-cassava-wax-38802489-2111",
+      "plantar-prf-trf-27906949-2111",
+      "plantar-radiation-steroid-25936814-2111",
+      "plantar-autologous-blood-steroid-17880872-2111",
+      "plantar-load-restriction-blood-40049391-2111",
+      "plantar-injection-modalities-16868321-2111"
+    ],
+    "new_entries": 17,
+    "existing_links": 0,
+    "no_evidence_rejects": 82,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 82,
+    "new_references": 17,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19749 entries; 22869 refs; 18899 trial; 754 obs; 32 animal; 17 lab; 47 case; 18810 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 족저근막통증의 비처방·비약물 중재 후보를 검색했다. 264개 검색 주제에서 레코드 4947개와 고유 PMID 460개를 확인했고 460개를 요청해 460개 논문 기록과 456개 초록을 확보했다. 후보 parser 99건에서 운동·깔창·테이핑·충격파·레이저·초음파·온열·수기·주사 비교의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 17건을 기록했다. 82건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. ClinicalTrials.gov 완료·결과 공개 결과 9건도 확인했으나 신규 PMID 연결 부족 또는 기존 근거로 기록하지 않았다. 실제 소규모 연구 8건과 사람 수 미상 0건의 경고는 유지했고 새 비교 경고 5건, 규모 경고 3건, 줄 길이 경고 4건을 수정했으며 새 빌드 오류 9건은 PMID 없는 등록자료 항목을 제외해 해결했다.",
+    "qualified_topics": [
+      "plantar-orthosis-sandal-26669302-2111",
+      "plantar-stretching-combined-28985685-2111",
+      "plantar-supervised-home-protocol-31387381-2111",
+      "plantar-dynamic-taping-theraband-41809693-2111",
+      "plantar-eswt-anesthesia-16023010-2111",
+      "plantar-rpwt-schedule-42335588-2111",
+      "plantar-heel-orthosis-taping-22011796-2111",
+      "plantar-orthoses-feasibility-15153583-2111",
+      "plantar-eswt-anesthesia-energy-15849646-2111",
+      "plantar-ultrasound-sham-8733444-2111",
+      "plantar-insole-usual-care-34732484-2111",
+      "plantar-cassava-wax-38802489-2111",
+      "plantar-prf-trf-27906949-2111",
+      "plantar-radiation-steroid-25936814-2111",
+      "plantar-autologous-blood-steroid-17880872-2111",
+      "plantar-load-restriction-blood-40049391-2111",
+      "plantar-injection-modalities-16868321-2111"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "plantar-orthosis-sandal-26669302-2111",
+      "plantar-stretching-combined-28985685-2111",
+      "plantar-supervised-home-protocol-31387381-2111",
+      "plantar-dynamic-taping-theraband-41809693-2111",
+      "plantar-eswt-anesthesia-16023010-2111",
+      "plantar-rpwt-schedule-42335588-2111",
+      "plantar-heel-orthosis-taping-22011796-2111",
+      "plantar-orthoses-feasibility-15153583-2111",
+      "plantar-eswt-anesthesia-energy-15849646-2111",
+      "plantar-ultrasound-sham-8733444-2111",
+      "plantar-insole-usual-care-34732484-2111",
+      "plantar-cassava-wax-38802489-2111",
+      "plantar-prf-trf-27906949-2111",
+      "plantar-radiation-steroid-25936814-2111",
+      "plantar-autologous-blood-steroid-17880872-2111",
+      "plantar-load-restriction-blood-40049391-2111",
+      "plantar-injection-modalities-16868321-2111"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 4,
+    "new_entry_scale_warnings_fixed": 3,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18810,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "족저근막통증 자가혈액주사=care",
+      "족저근막통증 카사바 왁스욕=care",
+      "만성 발뒤꿈치통증 테이핑·탄력밴드=move",
+      "족저근막통증 무마취 충격파=care",
+      "족저근막통증 충격파 국소마취=care",
+      "족저근막통증 발뒤꿈치 보조기·테이핑=care",
+      "족저근막통증 주사방법 비교=care",
+      "족저근막통증 맞춤깔창=care",
+      "족저근막통증 자가혈액주사 후 체중부하 제한=life",
+      "족저근막통증 기능성·완충 깔창=care",
+      "족저근막통증 곡선샌들·깔창=care",
+      "족저근막통증 펄스·열 고주파=care",
+      "족저근막통증 방사선치료=care",
+      "족저근막통증 충격파 일정=care",
+      "족저근막통증 아킬레스·족저근막 동시스트레칭=move",
+      "족저근막통증 외래·가정재활=move",
+      "족저근막통증 치료초음파=care"
+    ],
+    "targeted_batch_warnings_remaining": 8,
+    "targeted_batch_warnings_fixed": 12,
+    "build_errors_fixed": 9,
+    "discarded_non_numeric_candidates": [
+      "clinicaltrials-results-without-new-pmid-9"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2111",
+    "topics": [
+      "plantar-orthosis-sandal-26669302-2111",
+      "plantar-stretching-combined-28985685-2111",
+      "plantar-supervised-home-protocol-31387381-2111",
+      "plantar-dynamic-taping-theraband-41809693-2111",
+      "plantar-eswt-anesthesia-16023010-2111",
+      "plantar-rpwt-schedule-42335588-2111",
+      "plantar-heel-orthosis-taping-22011796-2111",
+      "plantar-orthoses-feasibility-15153583-2111",
+      "plantar-eswt-anesthesia-energy-15849646-2111",
+      "plantar-ultrasound-sham-8733444-2111",
+      "plantar-insole-usual-care-34732484-2111",
+      "plantar-cassava-wax-38802489-2111",
+      "plantar-prf-trf-27906949-2111",
+      "plantar-radiation-steroid-25936814-2111",
+      "plantar-autologous-blood-steroid-17880872-2111",
+      "plantar-load-restriction-blood-40049391-2111",
+      "plantar-injection-modalities-16868321-2111"
+    ],
+    "screened_nonqualifying": [
+      "ClinicalTrials.gov result records 9건: 신규 PMID 연결 부족 또는 기존 근거"
+    ],
+    "new_pmids": [
+      "17880872",
+      "38802489",
+      "41809693",
+      "16023010",
+      "15849646",
+      "22011796",
+      "16868321",
+      "34732484",
+      "40049391",
+      "15153583",
+      "26669302",
+      "27906949",
+      "25936814",
+      "42335588",
+      "28985685",
+      "31387381",
+      "8733444"
+    ],
+    "unique_pmids": 460,
+    "requested": 460,
+    "fetched": 460,
+    "fetch_chunks": 10,
+    "abstracts": 456,
+    "parsed_abstracts": 456,
+    "search_candidates": 99,
+    "candidate_parser_parsed": 460,
+    "candidate_parser_candidates": 99,
+    "candidate_parser_candidates_after_write": 17,
+    "manual_candidates": 17,
+    "search_topic_count": 264,
+    "search_returned_records": 4947,
+    "supplemental_query_count": 235,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "plantar-orthosis-sandal-26669302-2111",
+      "plantar-stretching-combined-28985685-2111",
+      "plantar-supervised-home-protocol-31387381-2111",
+      "plantar-dynamic-taping-theraband-41809693-2111",
+      "plantar-eswt-anesthesia-16023010-2111",
+      "plantar-rpwt-schedule-42335588-2111",
+      "plantar-heel-orthosis-taping-22011796-2111",
+      "plantar-orthoses-feasibility-15153583-2111",
+      "plantar-eswt-anesthesia-energy-15849646-2111",
+      "plantar-ultrasound-sham-8733444-2111",
+      "plantar-insole-usual-care-34732484-2111",
+      "plantar-cassava-wax-38802489-2111",
+      "plantar-prf-trf-27906949-2111",
+      "plantar-radiation-steroid-25936814-2111",
+      "plantar-autologous-blood-steroid-17880872-2111",
+      "plantar-load-restriction-blood-40049391-2111",
+      "plantar-injection-modalities-16868321-2111"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 0,
+      "food": 0,
+      "move": 3,
+      "life": 1,
+      "care": 13,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": [
+      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "plantar-cassava-wax-38802489-2111:40",
+      "plantar-dynamic-taping-theraband-41809693-2111:20",
+      "plantar-heel-orthosis-taping-22011796-2111:17",
+      "plantar-injection-modalities-16868321-2111:44",
+      "plantar-orthoses-feasibility-15153583-2111:48",
+      "plantar-prf-trf-27906949-2111:20",
+      "plantar-supervised-home-protocol-31387381-2111:47",
+      "plantar-ultrasound-sham-8733444-2111:19"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  plantar-cassava-wax-38802489-2111 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-dynamic-taping-theraband-41809693-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-heel-orthosis-taping-22011796-2111 — 사람 17명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-injection-modalities-16868321-2111 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-orthoses-feasibility-15153583-2111 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-prf-trf-27906949-2111 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-supervised-home-protocol-31387381-2111 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  plantar-ultrasound-sham-8733444-2111 — 사람 19명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "plantar-supp-1",
+        "returned": 34
+      },
+      {
+        "topic": "plantar-supp-2",
+        "returned": 28
+      },
+      {
+        "topic": "plantar-supp-3",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-4",
+        "returned": 97
+      },
+      {
+        "topic": "plantar-supp-5",
+        "returned": 92
+      },
+      {
+        "topic": "plantar-supp-6",
+        "returned": 21
+      },
+      {
+        "topic": "plantar-supp-7",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-8",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-9",
+        "returned": 41
+      },
+      {
+        "topic": "plantar-supp-10",
+        "returned": 18
+      },
+      {
+        "topic": "plantar-supp-11",
+        "returned": 13
+      },
+      {
+        "topic": "plantar-supp-12",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-13",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-14",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-15",
+        "returned": 10
+      },
+      {
+        "topic": "plantar-supp-16",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-17",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-18",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-19",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-20",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-21",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-22",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-23",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-24",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-25",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-26",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-27",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-28",
+        "returned": 32
+      },
+      {
+        "topic": "plantar-supp-29",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-30",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-31",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-32",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-33",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-34",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-supp-35",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-36",
+        "returned": 31
+      },
+      {
+        "topic": "plantar-supp-37",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-38",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-39",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-40",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-41",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-supp-42",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-43",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-44",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-45",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-46",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-47",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-48",
+        "returned": 91
+      },
+      {
+        "topic": "plantar-supp-49",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-50",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-51",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-52",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-53",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-54",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-55",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-56",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-57",
+        "returned": 74
+      },
+      {
+        "topic": "plantar-supp-58",
+        "returned": 18
+      },
+      {
+        "topic": "plantar-supp-59",
+        "returned": 19
+      },
+      {
+        "topic": "plantar-supp-60",
+        "returned": 11
+      },
+      {
+        "topic": "plantar-supp-61",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-62",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-63",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-64",
+        "returned": 52
+      },
+      {
+        "topic": "plantar-supp-65",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-66",
+        "returned": 38
+      },
+      {
+        "topic": "plantar-supp-67",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-68",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-69",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-70",
+        "returned": 46
+      },
+      {
+        "topic": "plantar-supp-71",
+        "returned": 24
+      },
+      {
+        "topic": "plantar-supp-72",
+        "returned": 23
+      },
+      {
+        "topic": "plantar-supp-73",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-74",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-75",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-76",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-77",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-78",
+        "returned": 12
+      },
+      {
+        "topic": "plantar-supp-79",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-supp-80",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-81",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-82",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-83",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-84",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-85",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-86",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-87",
+        "returned": 29
+      },
+      {
+        "topic": "plantar-supp-88",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-89",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-90",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-91",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-92",
+        "returned": 20
+      },
+      {
+        "topic": "plantar-supp-93",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-94",
+        "returned": 17
+      },
+      {
+        "topic": "plantar-supp-95",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-96",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-97",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-98",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-100",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-101",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-102",
+        "returned": 36
+      },
+      {
+        "topic": "plantar-supp-103",
+        "returned": 202
+      },
+      {
+        "topic": "plantar-supp-104",
+        "returned": 97
+      },
+      {
+        "topic": "plantar-supp-105",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-106",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-107",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-108",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-109",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-110",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-111",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-112",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-113",
+        "returned": 13
+      },
+      {
+        "topic": "plantar-supp-114",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-115",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-116",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-117",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-118",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-119",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-120",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-121",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-122",
+        "returned": 25
+      },
+      {
+        "topic": "plantar-supp-123",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-supp-124",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-125",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-supp-126",
+        "returned": 17
+      },
+      {
+        "topic": "plantar-supp-127",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-128",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-129",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-130",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-131",
+        "returned": 77
+      },
+      {
+        "topic": "plantar-supp-132",
+        "returned": 49
+      },
+      {
+        "topic": "plantar-supp-133",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-134",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-135",
+        "returned": 28
+      },
+      {
+        "topic": "plantar-supp-136",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-137",
+        "returned": 20
+      },
+      {
+        "topic": "plantar-supp-138",
+        "returned": 23
+      },
+      {
+        "topic": "plantar-supp-139",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-140",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-141",
+        "returned": 15
+      },
+      {
+        "topic": "plantar-supp-142",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-143",
+        "returned": 18
+      },
+      {
+        "topic": "plantar-supp-144",
+        "returned": 113
+      },
+      {
+        "topic": "plantar-supp-145",
+        "returned": 54
+      },
+      {
+        "topic": "plantar-supp-146",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-147",
+        "returned": 25
+      },
+      {
+        "topic": "plantar-supp-148",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-supp-149",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-150",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-151",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-152",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-153",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-154",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-155",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-156",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-157",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-158",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-159",
+        "returned": 78
+      },
+      {
+        "topic": "plantar-supp-160",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-161",
+        "returned": 4
+      },
+      {
+        "topic": "plantar-supp-162",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-163",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-164",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-165",
+        "returned": 7
+      },
+      {
+        "topic": "plantar-supp-166",
+        "returned": 26
+      },
+      {
+        "topic": "plantar-supp-167",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-supp-168",
+        "returned": 13
+      },
+      {
+        "topic": "plantar-supp-169",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-170",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-171",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-172",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-supp-173",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-174",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-175",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-176",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-177",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-178",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-179",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-180",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-181",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-182",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-183",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-184",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-185",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-186",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-187",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-supp-188",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-189",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-supp-190",
+        "returned": 49
+      },
+      {
+        "topic": "plantar-supp-191",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-192",
+        "returned": 15
+      },
+      {
+        "topic": "plantar-supp-193",
+        "returned": 9
+      },
+      {
+        "topic": "plantar-supp-194",
+        "returned": 13
+      },
+      {
+        "topic": "plantar-supp-195",
+        "returned": 11
+      },
+      {
+        "topic": "plantar-supp-196",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-197",
+        "returned": 87
+      },
+      {
+        "topic": "plantar-supp-198",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-supp-199",
+        "returned": 10
+      },
+      {
+        "topic": "plantar-supp-200",
+        "returned": 217
+      },
+      {
+        "topic": "plantar-supp-201",
+        "returned": 16
+      },
+      {
+        "topic": "plantar-outcome-1",
+        "returned": 218
+      },
+      {
+        "topic": "plantar-outcome-2",
+        "returned": 197
+      },
+      {
+        "topic": "plantar-outcome-3",
+        "returned": 25
+      },
+      {
+        "topic": "plantar-outcome-4",
+        "returned": 105
+      },
+      {
+        "topic": "plantar-outcome-5",
+        "returned": 59
+      },
+      {
+        "topic": "plantar-outcome-6",
+        "returned": 53
+      },
+      {
+        "topic": "plantar-outcome-7",
+        "returned": 16
+      },
+      {
+        "topic": "plantar-outcome-8",
+        "returned": 3
+      },
+      {
+        "topic": "plantar-outcome-9",
+        "returned": 47
+      },
+      {
+        "topic": "plantar-outcome-10",
+        "returned": 243
+      },
+      {
+        "topic": "plantar-outcome-11",
+        "returned": 27
+      },
+      {
+        "topic": "plantar-outcome-12",
+        "returned": 41
+      },
+      {
+        "topic": "plantar-outcome-13",
+        "returned": 43
+      },
+      {
+        "topic": "plantar-outcome-14",
+        "returned": 26
+      },
+      {
+        "topic": "plantar-outcome-15",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-outcome-16",
+        "returned": 50
+      },
+      {
+        "topic": "plantar-broad-chronic",
+        "returned": 95
+      },
+      {
+        "topic": "plantar-broad-recalcitrant",
+        "returned": 21
+      },
+      {
+        "topic": "plantar-broad-acute",
+        "returned": 1
+      },
+      {
+        "topic": "plantar-broad-morning",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-broad-runners",
+        "returned": 8
+      },
+      {
+        "topic": "plantar-broad-athletes",
+        "returned": 99
+      },
+      {
+        "topic": "plantar-broad-workers",
+        "returned": 6
+      },
+      {
+        "topic": "plantar-broad-obesity",
+        "returned": 5
+      },
+      {
+        "topic": "plantar-broad-women",
+        "returned": 29
+      },
+      {
+        "topic": "plantar-broad-older-adults",
+        "returned": 63
+      },
+      {
+        "topic": "plantar-broad-bilateral",
+        "returned": 2
+      },
+      {
+        "topic": "plantar-broad-ultrasound",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-broad-orthotic",
+        "returned": 30
+      },
+      {
+        "topic": "plantar-broad-exercise",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-broad-shockwave",
+        "returned": 46
+      },
+      {
+        "topic": "plantar-broad-acupuncture",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-broad-manual",
+        "returned": 0
+      },
+      {
+        "topic": "plantar-broad-self-care",
+        "returned": 0
+      }
+    ],
+    "clinicaltrials_result_records": 9,
+    "clinicaltrials_new_entries": 0
   }
 }
