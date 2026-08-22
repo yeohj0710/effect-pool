@@ -14291,3 +14291,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: 1d2b39a537f645d83920f4d8aeff82c82e47edf8
 - PUSHED=true marker: 1e5f912bb1d234dac8ea6b9c62e488da9394f64c
 - next_batch: 2070; resume point: new-expansion-candidates-batch2070
+
+## Batch 2070 — 기능성 소화불량 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 28; non-prescription selected 28; prescription selected 0
+- search: 1751 records; 1240 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 1240; chunks 25; fetched 1240; abstracts 1235; missing 0
+- candidates: parser 576; selected 28; held/excluded 548
+- selected PMID: 2699615, 41054174, 18467083, 37787432, 33624527, 38981452, 21478070, 36716715, 31232957, 39203808, 31945816, 20136803, 39256061, 41240546, 42126803, 19961914, 28571727, 30156436, 9006790, 10604046, 10192108, 12030948, 29498457, 19563187, 37655713, 38401078, 2677269, 33900373
+- new IDs and PMID: dyspepsia-curcuma-2070-2699615=2699615, functional-dyspepsia-asafoetida-2070-41054174=41054174, functional-dyspepsia-astaxanthin-2070-18467083=18467083, functional-dyspepsia-auricular-vagal-multicenter-2070-37787432=37787432, functional-dyspepsia-auricular-vagal-stimulation-2070-33624527=33624527, functional-dyspepsia-bunium-coriander-2070-38981452=38981452, functional-dyspepsia-carbosymag-2070-21478070=21478070, functional-dyspepsia-celery-ajwain-2070-36716715=36716715, functional-dyspepsia-comfort-care-2070-31232957=31232957, functional-dyspepsia-fermented-kiwi-2070-39203808=39203808, functional-dyspepsia-flos-lonicera-2070-31945816=31945816, functional-dyspepsia-interferential-stimulation-2070-20136803=20136803, functional-dyspepsia-jing-si-tea-2070-39256061=39256061, functional-dyspepsia-juniper-2070-41240546=41240546, functional-dyspepsia-lianxia-xiaopi-2070-42126803=42126803, functional-dyspepsia-mastic-gum-2070-19961914=19961914, functional-dyspepsia-mentha-pulegium-2070-28571727=28571727, functional-dyspepsia-multienzyme-2070-30156436=30156436, functional-dyspepsia-peppermint-caraway-2070-9006790=9006790, functional-dyspepsia-peppermint-caraway-cisapride-2070-10604046=10604046, functional-dyspepsia-peppermint-caraway-formulation-2070-10192108=10192108, functional-dyspepsia-red-pepper-2070-12030948=12030948, functional-dyspepsia-rikkunshito-2070-29498457=29498457, functional-dyspepsia-transcutaneous-acupoint-stimulation-2070-19563187=19563187, functional-dyspepsia-virtual-reality-2070-37655713=37655713, post-pump-inhibitor-dyspepsia-spirulina-2070-38401078=38401078, uncomplicated-dyspepsia-antacid-reassurance-2070-2677269=2677269, uninvestigated-dyspepsia-web-education-2070-33900373=33900373
+- categories: otc 5, supp 13, food 3, life 2, care 5, move 0, rx 0
+- evidence: 페퍼민트·캐러웨이·제산제 복합제, 매스틱검·강황·아스타잔틴·효소·허브·육군자탕·스피룰리나 보충, 고춧가루·허브차·발효 골드키위, 웹교육·가상현실, 귀미주신경·간섭전기·경피전기경혈 자극, 안심돌봄을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰·사례·동물·초록 없음·수치 부족·대상 불일치 후보 548건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2070.mjs passed; 28 files, 28 unique PMID, 28 Korean subjects and titles, errors 0, warnings 0; unknown-n 1 (functional-dyspepsia-virtual-reality-2070-37655713); truthful thin-study 7 (functional-dyspepsia-peppermint-caraway-2070-9006790 n=45, functional-dyspepsia-auricular-vagal-stimulation-2070-33624527 n=36, functional-dyspepsia-interferential-stimulation-2070-20136803 n=44, functional-dyspepsia-red-pepper-2070-12030948 n=30, functional-dyspepsia-multienzyme-2070-30156436 n=40, functional-dyspepsia-jing-si-tea-2070-39256061 n=26, post-pump-inhibitor-dyspepsia-2070-38401078 n=43)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 8; comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 8
+- totals after batch: entries 18753; subjects 11780; refs 21873; numeric group-comparison entries 17814; unknown-n 1286; thin-study 5063
+- data commit: d495f73927297040a6d72f8f8ec788c60c4bf768
+- PUSHED=false checkpoint: aac97a3a99c1865858088a8065392aa26009a230
+- PUSHED=true marker: 7954817562a778fd7c10bd549ee85eebcbbce155
+- next_batch: 2071; resume point: new-expansion-candidates-batch2071
