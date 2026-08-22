@@ -1,29 +1,28 @@
 {
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19570,
-  "subjects": 12584,
-  "refs": 22690,
+  "entries": 19582,
+  "subjects": 12596,
+  "refs": 22702,
   "kinds": {
-    "undefined": 10339,
-    "supp": 1483,
-    "care": 4106,
-    "move": 1667,
-    "food": 458,
-    "otc": 480,
-    "life": 1025,
-    "rx": 12
+    "otc": 748,
+    "supp": 2808,
+    "food": 1525,
+    "move": 2910,
+    "life": 2612,
+    "care": 6290,
+    "rx": 2689
   },
   "tiers": {
-    "trial": 18720,
+    "trial": 18732,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13480,
+    "pos": 13492,
     "null": 4389,
     "open": 1464,
     "harm": 237
@@ -32,8 +31,8 @@
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 5591,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2104는 월경통·월경 관련 증상의 비처방 자기관리·보조중재 직접 근거 16건을 기록했다. Resume with batch 2105."
+    "no_evidence_pending": 7597,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2105는 일차성 두통(긴장형 두통·편두통)의 침·이완·수기치료·자극·식이·보충중재 직접 근거 12건을 기록했다. Resume with batch 2106."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2104는 월경통·월경 관련 비처방 후보를 검색했고 수치 기준을 충족한 직접 근거 16건을 기록했다. Resume with batch 2105."
+    "note": "Batch 2105는 일차성 두통의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 12건을 기록했다. Resume with batch 2106."
   },
   "checkpoints": {
-    "over_counter_share": "12.4% (2421 entries)",
-    "rx_share": "0.1% (12)",
+    "over_counter_share": "25.9% (5081 entries)",
+    "rx_share": "13.7% (2689)",
     "no_effect_or_harm_share": "23.6% (4626 entries)",
-    "vs_share": "95.2% (18631)",
+    "vs_share": "95.2% (18643)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18720)",
-    "non_trial_share": "4.3% (850)",
+    "trial_share": "95.7% (18732)",
+    "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
       "unknown_n": 1333,
-      "thin_study": 5305,
-      "targeted_batch_warnings": 5
+      "thin_study": 5312,
+      "targeted_batch_warnings": 7
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2104 data commit adf23c8e178fbacdea09a714ec24abf50b6d7d59; PUSHED=true; checkpoint/marker/known commits pending or recorded. Resume with batch 2105.",
+  "next": "Batch 2105 data commit 03ab5d64664852d700eec9432edd7bdb80180df7; PUSHED=false checkpoint pending; resume with batch 2106.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6773,85 +6772,73 @@
     ]
   },
   "last_batch": {
-    "id": "2104",
-    "commit": "adf23c8e178fbacdea09a714ec24abf50b6d7d59",
-    "pushed": true,
-    "expansion_commit": "adf23c8e178fbacdea09a714ec24abf50b6d7d59",
+    "id": "2105",
+    "commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
+    "pushed": false,
+    "expansion_commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
     "data_commits": [
-      "adf23c8e178fbacdea09a714ec24abf50b6d7d59"
+      "03ab5d64664852d700eec9432edd7bdb80180df7"
     ],
-    "checkpoint_commit": "3de8967e80d527a0a5bff3053d0bb85bb60e6683",
-    "push_marker_commit": "b5712d71f9ae8ca4ac6e390e3888dbbe2a45970e",
-    "known_items_commit": "e6c4af181233369cbba137e6e147fb8421a8b1ff",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
-    "processed_topics": 16,
+    "processed_topics": 12,
     "selected_topics": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104",
-      "dysmenorrhea-cherry-seed-belt-40347860-2104",
-      "dysmenorrhea-eft-42091422-2104",
-      "dysmenorrhea-hypnosis-24568323-2104",
-      "dysmenorrhea-pine-bark-18567279-2104",
-      "dysmenorrhea-reiki-34647912-2104",
-      "dysmenorrhea-warm-footbath-34560833-2104",
-      "menstrual-pain-red-ginseng-25063041-2104",
-      "oligoamenorrhea-fennel-tea-30370852-2104",
-      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
-      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
-      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
-      "primary-dysmenorrhea-rose-tea-16154059-2104",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
-      "primary-dysmenorrhea-yoga-22963270-2104"
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
     ],
-    "new_entries": 16,
+    "new_entries": 12,
     "existing_links": 0,
-    "no_evidence_rejects": 466,
-    "non_prescription_topics_available": 16,
-    "non_prescription_topics_processed": 16,
+    "no_evidence_rejects": 2006,
+    "non_prescription_topics_available": 12,
+    "non_prescription_topics_processed": 12,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 466,
-    "new_references": 16,
+    "screened_nonqualifying_topics": 2006,
+    "new_references": 12,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19570 entries; 22690 refs; 18720 trial; 754 obs; 32 animal; 17 lab; 47 case; 18631 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 일차성 월경통·월경 관련 증상의 비처방 자기관리·보조중재 후보를 검색했다. 190개 검색 주제에서 레코드 22355개와 고유 PMID 1875개를 확인했고, 1875개를 요청해 1875개 논문 기록과 1788개 초록을 확보했다. 후보 parser 482건에서 고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·처방약 단독·수치 부족·대조군 부족·대상 불일치 후보를 제외했다. 중재군과 대조군의 숫자 결과·비율·효과크기·신뢰구간 또는 유효한 상대효과를 확인한 신규 항목 16건을 16개 신규 PMID(23158705, 40347860, 42091422, 24568323, 18567279, 34647912, 34560833, 25063041, 30370852, 40434025, 8416468, 30957578, 35981113, 16154059, 25243766, 22963270)에 근거해 기록했고, 466건은 선별 제외 또는 보류했다. 모든 신규 항목은 PubMed 초록에서 직접 확인했으며 필요한 등록번호만 ClinicalTrials.gov에서 교차 확인했고 브라우저는 사용하지 않았다.",
+    "build": "19582 entries; 22702 refs; 18732 trial; 754 obs; 18643 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차성 두통의 비처방·비약물 중재 후보를 검색했다. 긴장형 두통 검색 198개 주제와 편두통 보강 검색 81개 주제, 총 279개 검색 주제에서 레코드 30351개와 고유 PMID 5150개를 확인했고 5150개를 요청해 5150개 논문 기록과 5052개 초록을 확보했다. 후보 parser 2018건에서 침·이완·수기치료·자극·식이·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 12건을 기록했다. 2006건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 7건의 경고는 유지했고, 새 오류·비정상 경고는 없었다.",
     "qualified_topics": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104",
-      "dysmenorrhea-cherry-seed-belt-40347860-2104",
-      "dysmenorrhea-eft-42091422-2104",
-      "dysmenorrhea-hypnosis-24568323-2104",
-      "dysmenorrhea-pine-bark-18567279-2104",
-      "dysmenorrhea-reiki-34647912-2104",
-      "dysmenorrhea-warm-footbath-34560833-2104",
-      "menstrual-pain-red-ginseng-25063041-2104",
-      "oligoamenorrhea-fennel-tea-30370852-2104",
-      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
-      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
-      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
-      "primary-dysmenorrhea-rose-tea-16154059-2104",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
-      "primary-dysmenorrhea-yoga-22963270-2104"
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104",
-      "dysmenorrhea-cherry-seed-belt-40347860-2104",
-      "dysmenorrhea-eft-42091422-2104",
-      "dysmenorrhea-hypnosis-24568323-2104",
-      "dysmenorrhea-pine-bark-18567279-2104",
-      "dysmenorrhea-reiki-34647912-2104",
-      "dysmenorrhea-warm-footbath-34560833-2104",
-      "menstrual-pain-red-ginseng-25063041-2104",
-      "oligoamenorrhea-fennel-tea-30370852-2104",
-      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
-      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
-      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
-      "primary-dysmenorrhea-rose-tea-16154059-2104",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
-      "primary-dysmenorrhea-yoga-22963270-2104"
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_vs_warnings_fixed": 0,
@@ -6863,7 +6850,7 @@
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18631,
+    "open_numeric_comparisons": 18643,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6871,30 +6858,34 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "월경통 아로마 마사지=care",
-      "월경통 체리씨앗 온열벨트=care",
-      "월경통 감정자유기법=care",
-      "월경통 최면=care",
-      "월경통 소나무껍질추출물=supp",
-      "청소년 월경통 레이키=care",
-      "월경통 온수 족욕=care",
-      "월경통 홍삼=supp",
-      "월경주기장애 회향차=food",
-      "폐경이행기 월경증상 아스파라거스=supp",
-      "월경전증후군 필수지방산=supp",
-      "일차성 월경통 알파리포산=supp",
-      "일차성 월경통 마사지 이완=care",
-      "일차성 월경통 장미차=food",
-      "일차성 월경통 고강도운동=move",
-      "일차성 월경통 요가=move"
+      "청소년 긴장형 두통 이완훈련=care",
+      "만성 편두통 침=care",
+      "만성 편두통 마음챙김=care",
+      "전조 없는 편두통 침=care",
+      "편두통 목수기치료=care",
+      "편두통 외부삼차신경자극=care",
+      "비편두통 두통 진동마사지=care",
+      "소아 편두통 비타민디 보충=supp",
+      "난치성 편두통 케톤식=food",
+      "긴장형 두통 침 물리치료=care",
+      "긴장형 두통 침 위약=care",
+      "긴장형 두통 감정자유기법=care"
     ],
-    "targeted_batch_warnings_remaining": 5,
+    "targeted_batch_warnings_remaining": 7,
     "targeted_batch_warnings_fixed": 0,
     "discarded_non_numeric_candidates": [
-      "dysmenorrhea-sujok-41456132-2104",
-      "dysmenorrhea-vipon-tampon-23799280-2104",
-      "primary-dysmenorrhea-toki-shakuyaku-9288368-2104",
-      "primary-dysmenorrhea-aerobic-exercise-30696591-2104"
+      "review-27092807",
+      "review-28392178",
+      "review-19160338",
+      "review-27351677",
+      "review-14973986",
+      "single-arm-7828189",
+      "single-arm-11972582",
+      "single-arm-15836592",
+      "single-arm-29637898",
+      "single-arm-19606507",
+      "single-arm-30970172",
+      "protocol-36401476"
     ],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -6903,101 +6894,1116 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2104",
-    "new_pmids": [
-      "23158705",
-      "40347860",
-      "42091422",
-      "24568323",
-      "18567279",
-      "34647912",
-      "34560833",
-      "25063041",
-      "30370852",
-      "40434025",
-      "8416468",
-      "30957578",
-      "35981113",
-      "16154059",
-      "25243766",
-      "22963270"
+    "next_official_deployment_check": "after batch 2105",
+    "topics": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
     ],
-    "unique_pmids": 1875,
-    "requested": 1875,
-    "fetched": 1875,
-    "fetch_chunks": 38,
-    "abstracts": 1788,
-    "parsed_abstracts": 1788,
-    "search_candidates": 482,
-    "candidate_parser_parsed": 1875,
-    "candidate_parser_candidates": 482,
-    "candidate_parser_candidates_after_write": 16,
-    "manual_candidates": 16,
-    "search_topic_count": 190,
-    "search_returned_records": 22355,
-    "supplemental_query_count": 160,
-    "fetch_missing": 0,
-    "missing_pmids": [],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "2272819",
+      "23370087",
+      "30213202",
+      "28580293",
+      "37655399",
+      "28856913",
+      "41070536",
+      "35733373",
+      "35948778",
+      "2245457",
+      "2231488",
+      "23452711"
+    ],
+    "unique_pmids": 5150,
+    "requested": 5150,
+    "fetched": 5150,
+    "fetch_chunks": 103,
+    "abstracts": 5052,
+    "parsed_abstracts": 5052,
+    "search_candidates": 2018,
+    "candidate_parser_parsed": 5150,
+    "candidate_parser_candidates": 2018,
+    "candidate_parser_candidates_after_write": 12,
+    "manual_candidates": 12,
+    "search_topic_count": 279,
+    "search_returned_records": 30351,
+    "supplemental_query_count": 249,
+    "missing_pmids": 0,
     "non_prescription_entry_ids": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104",
-      "dysmenorrhea-cherry-seed-belt-40347860-2104",
-      "dysmenorrhea-eft-42091422-2104",
-      "dysmenorrhea-hypnosis-24568323-2104",
-      "dysmenorrhea-pine-bark-18567279-2104",
-      "dysmenorrhea-reiki-34647912-2104",
-      "dysmenorrhea-warm-footbath-34560833-2104",
-      "menstrual-pain-red-ginseng-25063041-2104",
-      "oligoamenorrhea-fennel-tea-30370852-2104",
-      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
-      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
-      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
-      "primary-dysmenorrhea-rose-tea-16154059-2104",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
-      "primary-dysmenorrhea-yoga-22963270-2104"
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
     ],
     "categories": {
-      "care": 7,
-      "supp": 5,
-      "food": 2,
-      "move": 2
+      "otc": 0,
+      "supp": 1,
+      "food": 1,
+      "move": 0,
+      "life": 0,
+      "care": 10,
+      "rx": 0
     },
     "new_build_warnings": [
-      "주의  dysmenorrhea-aromatherapy-massage-23158705-2104 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  menstrual-pain-red-ginseng-25063041-2104 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  oligoamenorrhea-fennel-tea-30370852-2104 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  premenstrual-syndrome-essential-fatty-acid-8416468-2104 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  primary-dysmenorrhea-vigorous-exercise-25243766-2104 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104:44",
-      "menstrual-pain-red-ginseng-25063041-2104:22",
-      "oligoamenorrhea-fennel-tea-30370852-2104:40",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104:27",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104:10"
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "dysmenorrhea-aromatherapy-massage-23158705-2104:44",
-      "menstrual-pain-red-ginseng-25063041-2104:22",
-      "oligoamenorrhea-fennel-tea-30370852-2104:40",
-      "premenstrual-syndrome-essential-fatty-acid-8416468-2104:27",
-      "primary-dysmenorrhea-vigorous-exercise-25243766-2104:10"
+      "adolescent-tension-headache-relaxation-2272819-2105:48",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105:29",
+      "migraine-cervical-manual-therapy-37655399-2105:20",
+      "migraine-trigeminal-stimulation-28856913-2105:38",
+      "tension-headache-acupuncture-physio-2245457-2105:48",
+      "tension-headache-acupuncture-sham-2231488-2105:14",
+      "tension-headache-eft-23452711-2105:35"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  dysmenorrhea-aromatherapy-massage-23158705-2104 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  menstrual-pain-red-ginseng-25063041-2104 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  oligoamenorrhea-fennel-tea-30370852-2104 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  premenstrual-syndrome-essential-fatty-acid-8416468-2104 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  primary-dysmenorrhea-vigorous-exercise-25243766-2104 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "tth-supp-1",
+        "returned": 37
+      },
+      {
+        "topic": "tth-supp-2",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-3",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-4",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-5",
+        "returned": 37
+      },
+      {
+        "topic": "tth-supp-6",
+        "returned": 15
+      },
+      {
+        "topic": "tth-supp-7",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-8",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-9",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-10",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-11",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-12",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-13",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-14",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-15",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-16",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-17",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-18",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-19",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-20",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-21",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-22",
+        "returned": 99
+      },
+      {
+        "topic": "tth-supp-23",
+        "returned": 117
+      },
+      {
+        "topic": "tth-supp-24",
+        "returned": 60
+      },
+      {
+        "topic": "tth-supp-25",
+        "returned": 14
+      },
+      {
+        "topic": "tth-supp-26",
+        "returned": 48
+      },
+      {
+        "topic": "tth-supp-27",
+        "returned": 19
+      },
+      {
+        "topic": "tth-supp-28",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-29",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-30",
+        "returned": 11
+      },
+      {
+        "topic": "tth-supp-31",
+        "returned": 16
+      },
+      {
+        "topic": "tth-supp-32",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-33",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-34",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-35",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-36",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-37",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-38",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-39",
+        "returned": 44
+      },
+      {
+        "topic": "tth-supp-40",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-41",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-42",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-43",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-44",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-45",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-46",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-47",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-48",
+        "returned": 18
+      },
+      {
+        "topic": "tth-supp-49",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-50",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-51",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-52",
+        "returned": 9
+      },
+      {
+        "topic": "tth-supp-53",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-54",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-55",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-56",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-57",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-58",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-59",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-60",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-61",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-62",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-63",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-64",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-65",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-66",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-67",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-68",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-69",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-70",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-71",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-72",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-73",
+        "returned": 24
+      },
+      {
+        "topic": "tth-supp-74",
+        "returned": 50
+      },
+      {
+        "topic": "tth-supp-75",
+        "returned": 15
+      },
+      {
+        "topic": "tth-supp-76",
+        "returned": 46
+      },
+      {
+        "topic": "tth-supp-77",
+        "returned": 13
+      },
+      {
+        "topic": "tth-supp-78",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-79",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-80",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-81",
+        "returned": 48
+      },
+      {
+        "topic": "tth-supp-82",
+        "returned": 20
+      },
+      {
+        "topic": "tth-supp-83",
+        "returned": 20
+      },
+      {
+        "topic": "tth-supp-84",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-85",
+        "returned": 11
+      },
+      {
+        "topic": "tth-supp-86",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-87",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-88",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-89",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-90",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-91",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-92",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-93",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-94",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-95",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-96",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-97",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-98",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-100",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-101",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-102",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-103",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-104",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-105",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-106",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-107",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-108",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-109",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-110",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-111",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-112",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-113",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-114",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-115",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-116",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-117",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-118",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-119",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-120",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-122",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-123",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-124",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-125",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-126",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-127",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-128",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-129",
+        "returned": 47
+      },
+      {
+        "topic": "tth-supp-130",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-131",
+        "returned": 7
+      },
+      {
+        "topic": "tth-outcome-1",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-2",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-3",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-4",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-5",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-6",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-7",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-8",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-9",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-10",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-11",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-13",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-14",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-15",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-17",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-broad-exercise",
+        "returned": 38
+      },
+      {
+        "topic": "tth-broad-massage",
+        "returned": 19
+      },
+      {
+        "topic": "tth-broad-manual",
+        "returned": 51
+      },
+      {
+        "topic": "tth-broad-acupuncture",
+        "returned": 74
+      },
+      {
+        "topic": "tth-broad-acupressure",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-tens",
+        "returned": 9
+      },
+      {
+        "topic": "tth-broad-biofeedback",
+        "returned": 21
+      },
+      {
+        "topic": "tth-broad-relaxation",
+        "returned": 44
+      },
+      {
+        "topic": "tth-broad-mindfulness",
+        "returned": 7
+      },
+      {
+        "topic": "tth-broad-yoga",
+        "returned": 4
+      },
+      {
+        "topic": "tth-broad-magnesium",
+        "returned": 4
+      },
+      {
+        "topic": "tth-broad-riboflavin",
+        "returned": 3
+      },
+      {
+        "topic": "tth-broad-coq10",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-herbal",
+        "returned": 7
+      },
+      {
+        "topic": "tth-broad-heat",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-sleep",
+        "returned": 38
+      },
+      {
+        "topic": "tth-broad-stress",
+        "returned": 15
+      },
+      {
+        "topic": "tth-broad-selfcare",
+        "returned": 26
+      },
+      {
+        "topic": "tth-broad-quality",
+        "returned": 82
+      },
+      {
+        "topic": "tth-broad-placebo",
+        "returned": 194
+      },
+      {
+        "topic": "migraine-1",
+        "returned": 60
+      },
+      {
+        "topic": "migraine-2",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-3",
+        "returned": 22
+      },
+      {
+        "topic": "migraine-4",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-5",
+        "returned": 22
+      },
+      {
+        "topic": "migraine-6",
+        "returned": 32
+      },
+      {
+        "topic": "migraine-7",
+        "returned": 30
+      },
+      {
+        "topic": "migraine-8",
+        "returned": 25
+      },
+      {
+        "topic": "migraine-9",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-10",
+        "returned": 20
+      },
+      {
+        "topic": "migraine-11",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-12",
+        "returned": 6
+      },
+      {
+        "topic": "migraine-13",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-14",
+        "returned": 1
+      },
+      {
+        "topic": "migraine-15",
+        "returned": 8
+      },
+      {
+        "topic": "migraine-16",
+        "returned": 2
+      },
+      {
+        "topic": "migraine-17",
+        "returned": 64
+      },
+      {
+        "topic": "migraine-18",
+        "returned": 83
+      },
+      {
+        "topic": "migraine-19",
+        "returned": 81
+      },
+      {
+        "topic": "migraine-20",
+        "returned": 194
+      },
+      {
+        "topic": "migraine-21",
+        "returned": 7
+      },
+      {
+        "topic": "migraine-22",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-23",
+        "returned": 9
+      },
+      {
+        "topic": "migraine-24",
+        "returned": 35
+      },
+      {
+        "topic": "migraine-25",
+        "returned": 84
+      },
+      {
+        "topic": "migraine-26",
+        "returned": 270
+      },
+      {
+        "topic": "migraine-27",
+        "returned": 55
+      },
+      {
+        "topic": "migraine-28",
+        "returned": 70
+      },
+      {
+        "topic": "migraine-29",
+        "returned": 4
+      },
+      {
+        "topic": "migraine-30",
+        "returned": 89
+      },
+      {
+        "topic": "migraine-31",
+        "returned": 45
+      },
+      {
+        "topic": "migraine-32",
+        "returned": 17
+      },
+      {
+        "topic": "migraine-33",
+        "returned": 18
+      },
+      {
+        "topic": "migraine-34",
+        "returned": 116
+      },
+      {
+        "topic": "migraine-35",
+        "returned": 98
+      },
+      {
+        "topic": "migraine-36",
+        "returned": 125
+      },
+      {
+        "topic": "migraine-37",
+        "returned": 114
+      },
+      {
+        "topic": "migraine-38",
+        "returned": 327
+      },
+      {
+        "topic": "migraine-39",
+        "returned": 44
+      },
+      {
+        "topic": "migraine-40",
+        "returned": 13
+      },
+      {
+        "topic": "migraine-41",
+        "returned": 19
+      },
+      {
+        "topic": "migraine-42",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-43",
+        "returned": 6
+      },
+      {
+        "topic": "migraine-44",
+        "returned": 62
+      },
+      {
+        "topic": "migraine-45",
+        "returned": 62
+      },
+      {
+        "topic": "migraine-46",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-47",
+        "returned": 65
+      },
+      {
+        "topic": "migraine-48",
+        "returned": 39
+      },
+      {
+        "topic": "migraine-49",
+        "returned": 5
+      },
+      {
+        "topic": "migraine-50",
+        "returned": 48
+      },
+      {
+        "topic": "migraine-51",
+        "returned": 2
+      },
+      {
+        "topic": "migraine-52",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-53",
+        "returned": 0
+      },
+      {
+        "topic": "migraine-54",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-55",
+        "returned": 0
+      },
+      {
+        "topic": "migraine-56",
+        "returned": 5
+      },
+      {
+        "topic": "migraine-57",
+        "returned": 9
+      },
+      {
+        "topic": "migraine-58",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-59",
+        "returned": 87
+      },
+      {
+        "topic": "migraine-60",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-61",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-62",
+        "returned": 3
+      },
+      {
+        "topic": "migraine-63",
+        "returned": 3
+      },
+      {
+        "topic": "migraine-64",
+        "returned": 112
+      },
+      {
+        "topic": "migraine-65",
+        "returned": 20
+      },
+      {
+        "topic": "migraine-66",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-67",
+        "returned": 33
+      },
+      {
+        "topic": "migraine-68",
+        "returned": 290
+      },
+      {
+        "topic": "migraine-69",
+        "returned": 123
+      },
+      {
+        "topic": "migraine-70",
+        "returned": 123
+      },
+      {
+        "topic": "migraine-71",
+        "returned": 47
+      },
+      {
+        "topic": "migraine-72",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-73",
+        "returned": 228
+      },
+      {
+        "topic": "migraine-74",
+        "returned": 462
+      },
+      {
+        "topic": "migraine-75",
+        "returned": 601
+      },
+      {
+        "topic": "migraine-76",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-77",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-78",
+        "returned": 835
+      },
+      {
+        "topic": "migraine-79",
+        "returned": 875
+      },
+      {
+        "topic": "migraine-80",
+        "returned": 146
+      },
+      {
+        "topic": "migraine-81",
+        "returned": 167
+      }
     ]
   },
   "resume": {
-    "next_batch": "2105",
-    "worklist_line": "new-expansion-candidates-batch2105",
-    "topic": "new-expansion-candidates-batch2105",
+    "next_batch": "2106",
+    "worklist_line": "new-expansion-candidates-batch2106",
+    "topic": "new-expansion-candidates-batch2106",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -8292,10 +9298,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18631,
+  "withVs": 18643,
   "unknownN": 1333,
-  "thinStudy": 5305,
-  "openNumeric": 18631,
+  "thinStudy": 5312,
+  "openNumeric": 18643,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -90311,6 +91317,228 @@
       "주의  functional-dyspepsia-red-pepper-2070-12030948 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
       "주의  functional-dyspepsia-virtual-reality-2070-37655713 — 사람 수 미상. 원문을 보고 n 을 채우세요",
       "주의  post-pump-inhibitor-dyspepsia-spirulina-2070-38401078 — 사람 43명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ]
+  },
+  "previous_last_batch_2104": {
+    "id": "2104",
+    "commit": "adf23c8e178fbacdea09a714ec24abf50b6d7d59",
+    "pushed": true,
+    "expansion_commit": "adf23c8e178fbacdea09a714ec24abf50b6d7d59",
+    "data_commits": [
+      "adf23c8e178fbacdea09a714ec24abf50b6d7d59"
+    ],
+    "checkpoint_commit": "3de8967e80d527a0a5bff3053d0bb85bb60e6683",
+    "push_marker_commit": "b5712d71f9ae8ca4ac6e390e3888dbbe2a45970e",
+    "known_items_commit": "e6c4af181233369cbba137e6e147fb8421a8b1ff",
+    "maintenance": false,
+    "processed_topics": 16,
+    "selected_topics": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104",
+      "dysmenorrhea-cherry-seed-belt-40347860-2104",
+      "dysmenorrhea-eft-42091422-2104",
+      "dysmenorrhea-hypnosis-24568323-2104",
+      "dysmenorrhea-pine-bark-18567279-2104",
+      "dysmenorrhea-reiki-34647912-2104",
+      "dysmenorrhea-warm-footbath-34560833-2104",
+      "menstrual-pain-red-ginseng-25063041-2104",
+      "oligoamenorrhea-fennel-tea-30370852-2104",
+      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
+      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
+      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
+      "primary-dysmenorrhea-rose-tea-16154059-2104",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
+      "primary-dysmenorrhea-yoga-22963270-2104"
+    ],
+    "new_entries": 16,
+    "existing_links": 0,
+    "no_evidence_rejects": 466,
+    "non_prescription_topics_available": 16,
+    "non_prescription_topics_processed": 16,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 466,
+    "new_references": 16,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19570 entries; 22690 refs; 18720 trial; 754 obs; 32 animal; 17 lab; 47 case; 18631 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차성 월경통·월경 관련 증상의 비처방 자기관리·보조중재 후보를 검색했다. 190개 검색 주제에서 레코드 22355개와 고유 PMID 1875개를 확인했고, 1875개를 요청해 1875개 논문 기록과 1788개 초록을 확보했다. 후보 parser 482건에서 고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·처방약 단독·수치 부족·대조군 부족·대상 불일치 후보를 제외했다. 중재군과 대조군의 숫자 결과·비율·효과크기·신뢰구간 또는 유효한 상대효과를 확인한 신규 항목 16건을 16개 신규 PMID(23158705, 40347860, 42091422, 24568323, 18567279, 34647912, 34560833, 25063041, 30370852, 40434025, 8416468, 30957578, 35981113, 16154059, 25243766, 22963270)에 근거해 기록했고, 466건은 선별 제외 또는 보류했다. 모든 신규 항목은 PubMed 초록에서 직접 확인했으며 필요한 등록번호만 ClinicalTrials.gov에서 교차 확인했고 브라우저는 사용하지 않았다.",
+    "qualified_topics": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104",
+      "dysmenorrhea-cherry-seed-belt-40347860-2104",
+      "dysmenorrhea-eft-42091422-2104",
+      "dysmenorrhea-hypnosis-24568323-2104",
+      "dysmenorrhea-pine-bark-18567279-2104",
+      "dysmenorrhea-reiki-34647912-2104",
+      "dysmenorrhea-warm-footbath-34560833-2104",
+      "menstrual-pain-red-ginseng-25063041-2104",
+      "oligoamenorrhea-fennel-tea-30370852-2104",
+      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
+      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
+      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
+      "primary-dysmenorrhea-rose-tea-16154059-2104",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
+      "primary-dysmenorrhea-yoga-22963270-2104"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104",
+      "dysmenorrhea-cherry-seed-belt-40347860-2104",
+      "dysmenorrhea-eft-42091422-2104",
+      "dysmenorrhea-hypnosis-24568323-2104",
+      "dysmenorrhea-pine-bark-18567279-2104",
+      "dysmenorrhea-reiki-34647912-2104",
+      "dysmenorrhea-warm-footbath-34560833-2104",
+      "menstrual-pain-red-ginseng-25063041-2104",
+      "oligoamenorrhea-fennel-tea-30370852-2104",
+      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
+      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
+      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
+      "primary-dysmenorrhea-rose-tea-16154059-2104",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
+      "primary-dysmenorrhea-yoga-22963270-2104"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18631,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "월경통 아로마 마사지=care",
+      "월경통 체리씨앗 온열벨트=care",
+      "월경통 감정자유기법=care",
+      "월경통 최면=care",
+      "월경통 소나무껍질추출물=supp",
+      "청소년 월경통 레이키=care",
+      "월경통 온수 족욕=care",
+      "월경통 홍삼=supp",
+      "월경주기장애 회향차=food",
+      "폐경이행기 월경증상 아스파라거스=supp",
+      "월경전증후군 필수지방산=supp",
+      "일차성 월경통 알파리포산=supp",
+      "일차성 월경통 마사지 이완=care",
+      "일차성 월경통 장미차=food",
+      "일차성 월경통 고강도운동=move",
+      "일차성 월경통 요가=move"
+    ],
+    "targeted_batch_warnings_remaining": 5,
+    "targeted_batch_warnings_fixed": 0,
+    "discarded_non_numeric_candidates": [
+      "dysmenorrhea-sujok-41456132-2104",
+      "dysmenorrhea-vipon-tampon-23799280-2104",
+      "primary-dysmenorrhea-toki-shakuyaku-9288368-2104",
+      "primary-dysmenorrhea-aerobic-exercise-30696591-2104"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2104",
+    "new_pmids": [
+      "23158705",
+      "40347860",
+      "42091422",
+      "24568323",
+      "18567279",
+      "34647912",
+      "34560833",
+      "25063041",
+      "30370852",
+      "40434025",
+      "8416468",
+      "30957578",
+      "35981113",
+      "16154059",
+      "25243766",
+      "22963270"
+    ],
+    "unique_pmids": 1875,
+    "requested": 1875,
+    "fetched": 1875,
+    "fetch_chunks": 38,
+    "abstracts": 1788,
+    "parsed_abstracts": 1788,
+    "search_candidates": 482,
+    "candidate_parser_parsed": 1875,
+    "candidate_parser_candidates": 482,
+    "candidate_parser_candidates_after_write": 16,
+    "manual_candidates": 16,
+    "search_topic_count": 190,
+    "search_returned_records": 22355,
+    "supplemental_query_count": 160,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104",
+      "dysmenorrhea-cherry-seed-belt-40347860-2104",
+      "dysmenorrhea-eft-42091422-2104",
+      "dysmenorrhea-hypnosis-24568323-2104",
+      "dysmenorrhea-pine-bark-18567279-2104",
+      "dysmenorrhea-reiki-34647912-2104",
+      "dysmenorrhea-warm-footbath-34560833-2104",
+      "menstrual-pain-red-ginseng-25063041-2104",
+      "oligoamenorrhea-fennel-tea-30370852-2104",
+      "perimenopause-menstrual-symptoms-asparagus-40434025-2104",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104",
+      "primary-dysmenorrhea-alpha-lipoic-acid-30957578-2104",
+      "primary-dysmenorrhea-massage-relaxation-35981113-2104",
+      "primary-dysmenorrhea-rose-tea-16154059-2104",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104",
+      "primary-dysmenorrhea-yoga-22963270-2104"
+    ],
+    "categories": {
+      "care": 7,
+      "supp": 5,
+      "food": 2,
+      "move": 2
+    },
+    "new_build_warnings": [
+      "주의  dysmenorrhea-aromatherapy-massage-23158705-2104 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  menstrual-pain-red-ginseng-25063041-2104 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  oligoamenorrhea-fennel-tea-30370852-2104 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  premenstrual-syndrome-essential-fatty-acid-8416468-2104 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  primary-dysmenorrhea-vigorous-exercise-25243766-2104 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104:44",
+      "menstrual-pain-red-ginseng-25063041-2104:22",
+      "oligoamenorrhea-fennel-tea-30370852-2104:40",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104:27",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104:10"
+    ],
+    "validator_truthful_thin_studies": [
+      "dysmenorrhea-aromatherapy-massage-23158705-2104:44",
+      "menstrual-pain-red-ginseng-25063041-2104:22",
+      "oligoamenorrhea-fennel-tea-30370852-2104:40",
+      "premenstrual-syndrome-essential-fatty-acid-8416468-2104:27",
+      "primary-dysmenorrhea-vigorous-exercise-25243766-2104:10"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  dysmenorrhea-aromatherapy-massage-23158705-2104 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  menstrual-pain-red-ginseng-25063041-2104 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  oligoamenorrhea-fennel-tea-30370852-2104 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  premenstrual-syndrome-essential-fatty-acid-8416468-2104 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  primary-dysmenorrhea-vigorous-exercise-25243766-2104 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ]
   }
 }
