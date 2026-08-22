@@ -15072,3 +15072,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20109; subjects 13111; refs 23229; numeric comparison entries 19170; unknown-n 1367; thin-study 5517
 - data commit: ebe92bc4f23c6f51f2dec4ae1482a58425901efd; PUSHED=false checkpoint: f2709bca3628b9dd71e999f42c182fdd3d436caf; PUSHED=true marker: 5de6fd15b2761fdb4d188da0d64126d9bfc45a5a
 - next_batch: 2124; resume point: new-expansion-candidates-batch2124
+
+## Batch 2124 (2026-08-23) — 주사·주사 경향 민감성 피부 비처방·보존적 근거 확장
+- topics: 56 검색 주제(30 base + 26 supplemental); selected: 8; non-prescription selected: 8; prescription selected: 0
+- search: 1205 search records; 403 unique PMID; 추가로 ClinicalTrials.gov 주사 결과 후보 8건을 직접 확인
+- fetch: requested 403; fetched 403; chunks 5; abstracts 374; missing 0
+- candidates: parser 403 parsed; candidate parser candidates 164; selected 8; held/excluded 156
+- selected PMID: 20830241, 24305430, 30124733, 30930972, 31251544, 33911789, 35765796, 40111222
+- new IDs and PMID: rosacea-egcg-20830241-2124=20830241, rosacea-gla-33911789-2124=33911789, rosacea-gluconolactone-serum-40111222-2124=40111222, rosacea-ipl-skincare-35765796-2124=35765796, rosacea-mfu-v-31251544-2124=31251544, rosacea-rbfgf-30930972-2124=30930972, sensitive-skin-cleanser-24305430-2124=24305430, sensitive-skin-natural-regimen-30124733-2124=30124733
+- categories: otc 0, supp 1, food 0, move 0, life 0, care 7, rx 0; all 8 selected entries are non-prescription or conservative-care entries
+- evidence: 글루코놀락톤 보습 세럼·저자극 세안·천연 민감성 피부 관리, 미세집속 초음파·광치료 후 식물성 관리, 녹차 카테킨 크림, 감마리놀렌산 보조요법, 피부재생 성장인자 겔의 직접 숫자 비교·비율·효과크기 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 기존 데이터베이스와 PMID가 겹치는 주사 레이저·보습제·광역학 후보는 제외했다.
+- excluded/held: 처방약 단독·처방약 효과가 분리되지 않는 병용·혼합 피부질환 하위군 미분리·단일군·고찰·메타분석·프로토콜·수치 부족·중복 후보 156건을 보류했다. ClinicalTrials.gov NCT01618864와 NCT02075671은 게시 결과를 직접 확인했지만 논문·PMID가 없는 등록정보만 있어 현재 build.mjs 규칙상 기록하지 않았다. 브라우저는 사용하지 않았다.
+- validator: etc/validate2124.mjs passed; 8 files, 8 unique PMID, 8 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 4 (rosacea-egcg-20830241-2124 n=4, rosacea-ipl-skincare-35765796-2124 n=10, rosacea-gla-33911789-2124 n=31, sensitive-skin-cleanser-24305430-2124 n=40)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 4; new targeted warnings remaining 0; comparator warnings fixed 6; scale warnings fixed 1; translation warnings fixed 1; temporary registry-only build errors fixed 2 by excluding those records
+- totals after batch: entries 20117; subjects 13119; refs 23237; numeric comparison entries 19178; unknown-n 1367; thin-study 5521
+- data commit: e346185c9; PUSHED=false checkpoint: 39dfc9950dd994cc9253590d0ea1190d0ea59a9e; PUSHED=true marker: e27f38af0933baea0851db1d8febc2f7119d72cc
+- next_batch: 2125; resume point: new-expansion-candidates-batch2125
