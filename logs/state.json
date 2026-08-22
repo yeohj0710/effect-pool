@@ -2,28 +2,28 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19672,
-  "subjects": 12684,
-  "refs": 22792,
+  "entries": 19702,
+  "subjects": 12714,
+  "refs": 22822,
   "kinds": {
     "otc": 748,
     "supp": 2810,
     "food": 1529,
-    "move": 2947,
-    "life": 2620,
-    "care": 6329,
+    "move": 2963,
+    "life": 2621,
+    "care": 6342,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18822,
+    "trial": 18852,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13553,
-    "null": 4417,
+    "pos": 13575,
+    "null": 4425,
     "open": 1465,
     "harm": 237
   },
@@ -31,8 +31,8 @@
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 13028,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2108은 어깨 통증·회전근개·충돌증후군·유착성관절낭염의 운동·물리치료·수기치료·침·테이핑·보충제·교육 직접 근거 30건을 기록했다. Resume with batch 2109."
+    "no_evidence_pending": 13836,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2109는 만성·비특이 목 통증의 운동·자세교정·수기치료·침·전기자극·교육·원격재활 직접 근거 30건을 기록했다. Resume with batch 2110."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2108은 어깨 통증의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2109."
+    "note": "Batch 2109는 만성·비특이 목 통증의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2110."
   },
   "checkpoints": {
-    "over_counter_share": "25.9% (5087 entries)",
-    "rx_share": "13.7% (2689)",
-    "no_effect_or_harm_share": "23.7% (4654 entries)",
-    "vs_share": "95.2% (18733)",
+    "over_counter_share": "25.8% (5087 entries)",
+    "rx_share": "13.6% (2689)",
+    "no_effect_or_harm_share": "23.7% (4662 entries)",
+    "vs_share": "95.2% (18763)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18822)",
+    "trial_share": "95.7% (18852)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
       "unknown_n": 1334,
-      "thin_study": 5346,
-      "targeted_batch_warnings": 12
+      "thin_study": 5356,
+      "targeted_batch_warnings": 10
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2108 data and marker pushed; known_items and final state commit pending. Resume with batch 2109.",
+  "next": "Batch 2109 data commit bd7528b3c; PUSHED=false checkpoint pending; resume with batch 2110.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,139 +6772,139 @@
     ]
   },
   "last_batch": {
-    "id": "2108",
-    "commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
-    "pushed": true,
-    "expansion_commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
+    "id": "2109",
+    "commit": "bd7528b3c",
+    "pushed": false,
+    "expansion_commit": "bd7528b3c",
     "data_commits": [
-      "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359"
+      "bd7528b3c"
     ],
-    "checkpoint_commit": "d73c93ab8e01ca5116abdbbccff7dadae09716df",
-    "push_marker_commit": "ed947638699d4e91e944c45903b76bff0bddcd90",
-    "known_items_commit": "5d2b41aba7af1b9e58b92e2203b52aade0875ad9",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
-      "shoulder-subacromial-specific-exercise-28812398-2108",
-      "shoulder-neuromuscular-control-exercise-15788347-2108",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108",
-      "shoulder-soft-tissue-therapy-31774063-2108",
-      "shoulder-cervicothoracic-manipulation-20819223-2108",
-      "shoulder-interferential-laser-22507365-2108",
-      "shoulder-thread-acupuncture-41496087-2108",
-      "shoulder-deep-heating-ultrasound-31191789-2108",
-      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
-      "shoulder-elastic-band-physiotherapy-21665107-2108",
-      "shoulder-subacromial-rigid-taping-28352939-2108",
-      "shoulder-impingement-neuromobilization-33220710-2108",
-      "shoulder-tendinopathy-interferential-light-22643725-2108",
-      "shoulder-rotator-cuff-shockwave-28858120-2108",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
-      "shoulder-diabetes-movement-intervention-29893977-2108",
-      "office-neck-shoulder-resistance-18461010-2108",
-      "office-neck-shoulder-strength-frequency-22753863-2108",
-      "office-neck-shoulder-short-resistance-21177034-2108",
-      "shoulder-impingement-thoracic-manipulation-28259517-2108",
-      "shoulder-rotator-cuff-trigger-point-30932877-2108",
-      "shoulder-impingement-cervical-mobilization-23791561-2108",
-      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
-      "shoulder-occupational-shoulder-cafe-36512271-2108"
+      "neck-post-isometric-myofascial-release-35698187-2109",
+      "neck-stabilization-dynamic-exercise-39232708-2109",
+      "neck-lower-trapezius-strengthening-32202262-2109",
+      "neck-telemedicine-exercise-41509952-2109",
+      "neck-active-behavioural-physiotherapy-40753854-2109",
+      "neck-telerehabilitation-synchronous-asynchronous-37812269-2109",
+      "neck-active-proprioceptive-home-exercise-10767816-2109",
+      "neck-dry-needling-exercise-trigger-point-35272249-2109",
+      "neck-stabilization-dynamic-combined-exercise-29794305-2109",
+      "neck-myofascial-release-radiculopathy-38296722-2109",
+      "neck-stabilization-exercise-three-groups-19565156-2109",
+      "neck-high-power-ultrasound-traditional-40325732-2109",
+      "neck-manipulation-exercise-mechanical-36637358-2109",
+      "neck-manual-dry-needling-athletes-39649564-2109",
+      "neck-kinesio-taping-myofascial-28343625-2109",
+      "neck-smartphone-home-exercise-39215449-2109",
+      "neck-integrated-inhibition-trigger-point-36951194-2109",
+      "neck-scapula-focused-exercise-28605288-2109",
+      "neck-qigong-exercise-long-term-18090079-2109",
+      "neck-pnf-vertebral-mobilization-35710215-2109",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109",
+      "neck-stabilization-radiculopathy-28946516-2109",
+      "neck-postural-physiotherapy-manual-33484509-2109",
+      "neck-spinal-manipulation-home-stretching-34706706-2109",
+      "neck-aerobic-exercise-long-term-32183555-2109",
+      "neck-muscle-energy-stretching-32400728-2109",
+      "neck-stretching-mobilization-32826008-2109",
+      "neck-kinesio-postural-correction-32709516-2109",
+      "neck-isometric-extension-exercise-28118272-2109",
+      "neck-dry-needling-obliquus-capitis-34535409-2109"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 772,
+    "no_evidence_rejects": 808,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 772,
+    "screened_nonqualifying_topics": 808,
     "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19672 entries; 22792 refs; 18822 trial; 754 obs; 32 animal; 17 lab; 47 case; 18733 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 어깨 통증·회전근개·충돌증후군·유착성관절낭염의 비처방·비약물 중재 후보를 검색했다. 261개 검색 주제에서 레코드 19846개와 고유 PMID 2159개를 확인했고 2159개를 요청해 2159개 논문 기록과 2123개 초록을 확보했다. 후보 parser 802건에서 운동·물리치료·수기치료·침·테이핑·전기자극·레이저·교육·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 772건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·수술·주사·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 11건과 사람 수 미상 1건의 경고는 유지했고 비교 경고 7건과 규모 문장 경고 1건을 수정했다.",
+    "build": "19702 entries; 22822 refs; 18852 trial; 754 obs; 32 animal; 17 lab; 47 case; 18763 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 만성·비특이 목 통증의 비처방·비약물 중재 후보를 검색했다. 241개 검색 주제에서 레코드 22297개와 고유 PMID 2335개를 확인했고 2335개를 요청해 2335개 논문 기록과 2323개 초록을 확보했다. 후보 parser 838건에서 운동·자세교정·물리치료·수기치료·침·테이핑·전기자극·원격재활·교육과 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 808건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·수술·주사·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 10건과 사람 수 미상 0건의 경고는 유지했고 비교 경고 5건을 수정했다.",
     "qualified_topics": [
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
-      "shoulder-subacromial-specific-exercise-28812398-2108",
-      "shoulder-neuromuscular-control-exercise-15788347-2108",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108",
-      "shoulder-soft-tissue-therapy-31774063-2108",
-      "shoulder-cervicothoracic-manipulation-20819223-2108",
-      "shoulder-interferential-laser-22507365-2108",
-      "shoulder-thread-acupuncture-41496087-2108",
-      "shoulder-deep-heating-ultrasound-31191789-2108",
-      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
-      "shoulder-elastic-band-physiotherapy-21665107-2108",
-      "shoulder-subacromial-rigid-taping-28352939-2108",
-      "shoulder-impingement-neuromobilization-33220710-2108",
-      "shoulder-tendinopathy-interferential-light-22643725-2108",
-      "shoulder-rotator-cuff-shockwave-28858120-2108",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
-      "shoulder-diabetes-movement-intervention-29893977-2108",
-      "office-neck-shoulder-resistance-18461010-2108",
-      "office-neck-shoulder-strength-frequency-22753863-2108",
-      "office-neck-shoulder-short-resistance-21177034-2108",
-      "shoulder-impingement-thoracic-manipulation-28259517-2108",
-      "shoulder-rotator-cuff-trigger-point-30932877-2108",
-      "shoulder-impingement-cervical-mobilization-23791561-2108",
-      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
-      "shoulder-occupational-shoulder-cafe-36512271-2108"
+      "neck-post-isometric-myofascial-release-35698187-2109",
+      "neck-stabilization-dynamic-exercise-39232708-2109",
+      "neck-lower-trapezius-strengthening-32202262-2109",
+      "neck-telemedicine-exercise-41509952-2109",
+      "neck-active-behavioural-physiotherapy-40753854-2109",
+      "neck-telerehabilitation-synchronous-asynchronous-37812269-2109",
+      "neck-active-proprioceptive-home-exercise-10767816-2109",
+      "neck-dry-needling-exercise-trigger-point-35272249-2109",
+      "neck-stabilization-dynamic-combined-exercise-29794305-2109",
+      "neck-myofascial-release-radiculopathy-38296722-2109",
+      "neck-stabilization-exercise-three-groups-19565156-2109",
+      "neck-high-power-ultrasound-traditional-40325732-2109",
+      "neck-manipulation-exercise-mechanical-36637358-2109",
+      "neck-manual-dry-needling-athletes-39649564-2109",
+      "neck-kinesio-taping-myofascial-28343625-2109",
+      "neck-smartphone-home-exercise-39215449-2109",
+      "neck-integrated-inhibition-trigger-point-36951194-2109",
+      "neck-scapula-focused-exercise-28605288-2109",
+      "neck-qigong-exercise-long-term-18090079-2109",
+      "neck-pnf-vertebral-mobilization-35710215-2109",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109",
+      "neck-stabilization-radiculopathy-28946516-2109",
+      "neck-postural-physiotherapy-manual-33484509-2109",
+      "neck-spinal-manipulation-home-stretching-34706706-2109",
+      "neck-aerobic-exercise-long-term-32183555-2109",
+      "neck-muscle-energy-stretching-32400728-2109",
+      "neck-stretching-mobilization-32826008-2109",
+      "neck-kinesio-postural-correction-32709516-2109",
+      "neck-isometric-extension-exercise-28118272-2109",
+      "neck-dry-needling-obliquus-capitis-34535409-2109"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
-      "shoulder-subacromial-specific-exercise-28812398-2108",
-      "shoulder-neuromuscular-control-exercise-15788347-2108",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108",
-      "shoulder-soft-tissue-therapy-31774063-2108",
-      "shoulder-cervicothoracic-manipulation-20819223-2108",
-      "shoulder-interferential-laser-22507365-2108",
-      "shoulder-thread-acupuncture-41496087-2108",
-      "shoulder-deep-heating-ultrasound-31191789-2108",
-      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
-      "shoulder-elastic-band-physiotherapy-21665107-2108",
-      "shoulder-subacromial-rigid-taping-28352939-2108",
-      "shoulder-impingement-neuromobilization-33220710-2108",
-      "shoulder-tendinopathy-interferential-light-22643725-2108",
-      "shoulder-rotator-cuff-shockwave-28858120-2108",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
-      "shoulder-diabetes-movement-intervention-29893977-2108",
-      "office-neck-shoulder-resistance-18461010-2108",
-      "office-neck-shoulder-strength-frequency-22753863-2108",
-      "office-neck-shoulder-short-resistance-21177034-2108",
-      "shoulder-impingement-thoracic-manipulation-28259517-2108",
-      "shoulder-rotator-cuff-trigger-point-30932877-2108",
-      "shoulder-impingement-cervical-mobilization-23791561-2108",
-      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
-      "shoulder-occupational-shoulder-cafe-36512271-2108"
+      "neck-post-isometric-myofascial-release-35698187-2109",
+      "neck-stabilization-dynamic-exercise-39232708-2109",
+      "neck-lower-trapezius-strengthening-32202262-2109",
+      "neck-telemedicine-exercise-41509952-2109",
+      "neck-active-behavioural-physiotherapy-40753854-2109",
+      "neck-telerehabilitation-synchronous-asynchronous-37812269-2109",
+      "neck-active-proprioceptive-home-exercise-10767816-2109",
+      "neck-dry-needling-exercise-trigger-point-35272249-2109",
+      "neck-stabilization-dynamic-combined-exercise-29794305-2109",
+      "neck-myofascial-release-radiculopathy-38296722-2109",
+      "neck-stabilization-exercise-three-groups-19565156-2109",
+      "neck-high-power-ultrasound-traditional-40325732-2109",
+      "neck-manipulation-exercise-mechanical-36637358-2109",
+      "neck-manual-dry-needling-athletes-39649564-2109",
+      "neck-kinesio-taping-myofascial-28343625-2109",
+      "neck-smartphone-home-exercise-39215449-2109",
+      "neck-integrated-inhibition-trigger-point-36951194-2109",
+      "neck-scapula-focused-exercise-28605288-2109",
+      "neck-qigong-exercise-long-term-18090079-2109",
+      "neck-pnf-vertebral-mobilization-35710215-2109",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109",
+      "neck-stabilization-radiculopathy-28946516-2109",
+      "neck-postural-physiotherapy-manual-33484509-2109",
+      "neck-spinal-manipulation-home-stretching-34706706-2109",
+      "neck-aerobic-exercise-long-term-32183555-2109",
+      "neck-muscle-energy-stretching-32400728-2109",
+      "neck-stretching-mobilization-32826008-2109",
+      "neck-kinesio-postural-correction-32709516-2109",
+      "neck-isometric-extension-exercise-28118272-2109",
+      "neck-dry-needling-obliquus-capitis-34535409-2109"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 7,
+    "new_entry_vs_warnings_fixed": 5,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_scale_warnings_fixed": 1,
+    "new_entry_scale_warnings_fixed": 0,
     "new_entry_english_warnings_fixed": 0,
     "new_entry_subject_warnings_fixed": 0,
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18733,
+    "open_numeric_comparisons": 18763,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6912,50 +6912,50 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "직장인 목어깨 저항운동=life",
-      "직장인 목어깨 초단기 저항운동=move",
-      "직장인 목어깨 근력운동 빈도=move",
-      "어깨 유착성관절낭염 물리치료=care",
-      "어깨 석회성건염 초산이온도입=care",
-      "어깨 통증 경흉추수기치료=care",
-      "어깨 통증 고주파심부열=care",
-      "당뇨병 어깨 움직임운동=move",
-      "어깨 통증 탄성밴드운동=move",
-      "어깨 충돌증후군 목가동술=care",
-      "어깨 충돌증후군 전자기자극=care",
-      "어깨 충돌증후군 신경가동술=care",
-      "어깨 충돌증후군 흉추수기치료=care",
-      "어깨 통증 간섭레이저=care",
-      "어깨 통증 신경근조절운동=move",
-      "직장인 고노출 어깨 카페교육=life",
-      "어깨 통증 계지복령환=supp",
-      "어깨 회전근개 고강도운동량=move",
-      "어깨 회전근개 키네시오테이핑=care",
-      "어깨 회전근개 건염 체외충격파=care",
-      "어깨 회전근개 압박점치료=care",
-      "어깨 통증 연부조직치료=care",
-      "어깨 충돌증후군 건침운동=care",
-      "어깨 충돌증후군 고강도레이저=care",
-      "어깨 충돌증후군 추운동=move",
-      "어깨 충돌증후군 경직테이핑=care",
-      "어깨 충돌증후군 특이운동=move",
-      "어깨 회전근개 부분파열 고출력레이저=care",
-      "어깨 힘줄병변 간섭광치료=care",
-      "어깨 회전근개 실매선침=care"
+      "만성목통증 행동물리치료=care",
+      "만성목통증 고유감각·가정운동=move",
+      "목 통증 유산소운동 추가=move",
+      "목근막통증 건침·운동=care",
+      "목 통증 뒤통수근 건침=care",
+      "목 통증 흉추수기·건침=care",
+      "기계적목통증 고출력초음파=care",
+      "목 통증 승모근 통증점 억제=care",
+      "목 통증 등척성신전운동=move",
+      "기계적목기능장애 테이핑·자세교정=move",
+      "경추근막통증 키네시오테이핑=care",
+      "목 통증 하부승모근 강화운동=move",
+      "기계적목통증 경추수기·운동=care",
+      "운동선수 급성목통증 수기·건침=care",
+      "기계적목통증 정적신장·근에너지=move",
+      "경추신경근병증 근막이완=care",
+      "기계적목통증 고유감각·척추가동술=move",
+      "비특이목통증 등척이완·근막이완=care",
+      "자세성목통증 수기·물리치료=care",
+      "장기목통증 기공·운동=move",
+      "비특이목통증 견갑안정화운동=move",
+      "비특이목통증 영상가정운동=move",
+      "지속성목통증 척추수기·가정신장=care",
+      "비특이목통증 안정화·동적·병합운동=move",
+      "전방머리자세 목 안정화·동적운동=move",
+      "목 통증 안정화운동 장기추적=move",
+      "경추신경근병증 안정화·가정운동=move",
+      "비특이목통증 경추가동·신장운동=move",
+      "비특이목통증 원격운동=life",
+      "비특이목통증 동기·비동기원격재활=move"
     ],
-    "targeted_batch_warnings_remaining": 12,
-    "targeted_batch_warnings_fixed": 8,
+    "targeted_batch_warnings_remaining": 10,
+    "targeted_batch_warnings_fixed": 5,
     "discarded_non_numeric_candidates": [
-      "surgery-31813166",
-      "surgery-29169668",
-      "injection-37021475",
-      "injection-41476186",
-      "protocol-32894159",
-      "review-27283590",
-      "observational-25188589",
-      "secondary-38530232",
-      "postoperative-33305619",
-      "nerve-block-32517390"
+      "review-27317503",
+      "review-17369784",
+      "protocol-37812269",
+      "secondary-40934681",
+      "secondary-40446333",
+      "botulinum-21735434",
+      "injection-33691056",
+      "surgery-29226895",
+      "single-subject-27002668",
+      "nonrandomized-32922531"
     ],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -6964,1119 +6964,1031 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2108",
+    "next_official_deployment_check": "after batch 2109",
     "topics": [
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
-      "shoulder-subacromial-specific-exercise-28812398-2108",
-      "shoulder-neuromuscular-control-exercise-15788347-2108",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108",
-      "shoulder-soft-tissue-therapy-31774063-2108",
-      "shoulder-cervicothoracic-manipulation-20819223-2108",
-      "shoulder-interferential-laser-22507365-2108",
-      "shoulder-thread-acupuncture-41496087-2108",
-      "shoulder-deep-heating-ultrasound-31191789-2108",
-      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
-      "shoulder-elastic-band-physiotherapy-21665107-2108",
-      "shoulder-subacromial-rigid-taping-28352939-2108",
-      "shoulder-impingement-neuromobilization-33220710-2108",
-      "shoulder-tendinopathy-interferential-light-22643725-2108",
-      "shoulder-rotator-cuff-shockwave-28858120-2108",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
-      "shoulder-diabetes-movement-intervention-29893977-2108",
-      "office-neck-shoulder-resistance-18461010-2108",
-      "office-neck-shoulder-strength-frequency-22753863-2108",
-      "office-neck-shoulder-short-resistance-21177034-2108",
-      "shoulder-impingement-thoracic-manipulation-28259517-2108",
-      "shoulder-rotator-cuff-trigger-point-30932877-2108",
-      "shoulder-impingement-cervical-mobilization-23791561-2108",
-      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
-      "shoulder-occupational-shoulder-cafe-36512271-2108"
+      "neck-post-isometric-myofascial-release-35698187-2109",
+      "neck-stabilization-dynamic-exercise-39232708-2109",
+      "neck-lower-trapezius-strengthening-32202262-2109",
+      "neck-telemedicine-exercise-41509952-2109",
+      "neck-active-behavioural-physiotherapy-40753854-2109",
+      "neck-telerehabilitation-synchronous-asynchronous-37812269-2109",
+      "neck-active-proprioceptive-home-exercise-10767816-2109",
+      "neck-dry-needling-exercise-trigger-point-35272249-2109",
+      "neck-stabilization-dynamic-combined-exercise-29794305-2109",
+      "neck-myofascial-release-radiculopathy-38296722-2109",
+      "neck-stabilization-exercise-three-groups-19565156-2109",
+      "neck-high-power-ultrasound-traditional-40325732-2109",
+      "neck-manipulation-exercise-mechanical-36637358-2109",
+      "neck-manual-dry-needling-athletes-39649564-2109",
+      "neck-kinesio-taping-myofascial-28343625-2109",
+      "neck-smartphone-home-exercise-39215449-2109",
+      "neck-integrated-inhibition-trigger-point-36951194-2109",
+      "neck-scapula-focused-exercise-28605288-2109",
+      "neck-qigong-exercise-long-term-18090079-2109",
+      "neck-pnf-vertebral-mobilization-35710215-2109",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109",
+      "neck-stabilization-radiculopathy-28946516-2109",
+      "neck-postural-physiotherapy-manual-33484509-2109",
+      "neck-spinal-manipulation-home-stretching-34706706-2109",
+      "neck-aerobic-exercise-long-term-32183555-2109",
+      "neck-muscle-energy-stretching-32400728-2109",
+      "neck-stretching-mobilization-32826008-2109",
+      "neck-kinesio-postural-correction-32709516-2109",
+      "neck-isometric-extension-exercise-28118272-2109",
+      "neck-dry-needling-obliquus-capitis-34535409-2109"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "18461010",
-      "21177034",
-      "22753863",
-      "15222514",
-      "14586921",
-      "20819223",
-      "31191789",
-      "29893977",
-      "21665107",
-      "23791561",
-      "40262114",
-      "33220710",
-      "28259517",
-      "22507365",
-      "15788347",
-      "36512271",
-      "35716471",
-      "39591809",
-      "18591761",
-      "28858120",
-      "30932877",
-      "31774063",
-      "29481640",
-      "30672303",
-      "27472856",
-      "28352939",
-      "28812398",
-      "40083157",
-      "22643725",
-      "41496087"
+      "40753854",
+      "10767816",
+      "32183555",
+      "35272249",
+      "34535409",
+      "36517270",
+      "40325732",
+      "36951194",
+      "28118272",
+      "32709516",
+      "28343625",
+      "32202262",
+      "36637358",
+      "39649564",
+      "32400728",
+      "38296722",
+      "35710215",
+      "35698187",
+      "33484509",
+      "18090079",
+      "28605288",
+      "39215449",
+      "34706706",
+      "29794305",
+      "39232708",
+      "19565156",
+      "28946516",
+      "32826008",
+      "41509952",
+      "37812269"
     ],
-    "unique_pmids": 2159,
-    "requested": 2159,
-    "fetched": 2159,
-    "fetch_chunks": 44,
-    "abstracts": 2123,
-    "parsed_abstracts": 2123,
-    "search_candidates": 802,
-    "candidate_parser_parsed": 2159,
-    "candidate_parser_candidates": 802,
+    "unique_pmids": 2335,
+    "requested": 2335,
+    "fetched": 2335,
+    "fetch_chunks": 47,
+    "abstracts": 2323,
+    "parsed_abstracts": 2323,
+    "search_candidates": 838,
+    "candidate_parser_parsed": 2335,
+    "candidate_parser_candidates": 838,
     "candidate_parser_candidates_after_write": 30,
     "manual_candidates": 30,
-    "search_topic_count": 261,
-    "search_returned_records": 19846,
-    "supplemental_query_count": 231,
+    "search_topic_count": 241,
+    "search_returned_records": 22297,
+    "supplemental_query_count": 211,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
-      "shoulder-subacromial-specific-exercise-28812398-2108",
-      "shoulder-neuromuscular-control-exercise-15788347-2108",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108",
-      "shoulder-soft-tissue-therapy-31774063-2108",
-      "shoulder-cervicothoracic-manipulation-20819223-2108",
-      "shoulder-interferential-laser-22507365-2108",
-      "shoulder-thread-acupuncture-41496087-2108",
-      "shoulder-deep-heating-ultrasound-31191789-2108",
-      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
-      "shoulder-elastic-band-physiotherapy-21665107-2108",
-      "shoulder-subacromial-rigid-taping-28352939-2108",
-      "shoulder-impingement-neuromobilization-33220710-2108",
-      "shoulder-tendinopathy-interferential-light-22643725-2108",
-      "shoulder-rotator-cuff-shockwave-28858120-2108",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
-      "shoulder-diabetes-movement-intervention-29893977-2108",
-      "office-neck-shoulder-resistance-18461010-2108",
-      "office-neck-shoulder-strength-frequency-22753863-2108",
-      "office-neck-shoulder-short-resistance-21177034-2108",
-      "shoulder-impingement-thoracic-manipulation-28259517-2108",
-      "shoulder-rotator-cuff-trigger-point-30932877-2108",
-      "shoulder-impingement-cervical-mobilization-23791561-2108",
-      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
-      "shoulder-occupational-shoulder-cafe-36512271-2108"
+      "neck-post-isometric-myofascial-release-35698187-2109",
+      "neck-stabilization-dynamic-exercise-39232708-2109",
+      "neck-lower-trapezius-strengthening-32202262-2109",
+      "neck-telemedicine-exercise-41509952-2109",
+      "neck-active-behavioural-physiotherapy-40753854-2109",
+      "neck-telerehabilitation-synchronous-asynchronous-37812269-2109",
+      "neck-active-proprioceptive-home-exercise-10767816-2109",
+      "neck-dry-needling-exercise-trigger-point-35272249-2109",
+      "neck-stabilization-dynamic-combined-exercise-29794305-2109",
+      "neck-myofascial-release-radiculopathy-38296722-2109",
+      "neck-stabilization-exercise-three-groups-19565156-2109",
+      "neck-high-power-ultrasound-traditional-40325732-2109",
+      "neck-manipulation-exercise-mechanical-36637358-2109",
+      "neck-manual-dry-needling-athletes-39649564-2109",
+      "neck-kinesio-taping-myofascial-28343625-2109",
+      "neck-smartphone-home-exercise-39215449-2109",
+      "neck-integrated-inhibition-trigger-point-36951194-2109",
+      "neck-scapula-focused-exercise-28605288-2109",
+      "neck-qigong-exercise-long-term-18090079-2109",
+      "neck-pnf-vertebral-mobilization-35710215-2109",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109",
+      "neck-stabilization-radiculopathy-28946516-2109",
+      "neck-postural-physiotherapy-manual-33484509-2109",
+      "neck-spinal-manipulation-home-stretching-34706706-2109",
+      "neck-aerobic-exercise-long-term-32183555-2109",
+      "neck-muscle-energy-stretching-32400728-2109",
+      "neck-stretching-mobilization-32826008-2109",
+      "neck-kinesio-postural-correction-32709516-2109",
+      "neck-isometric-extension-exercise-28118272-2109",
+      "neck-dry-needling-obliquus-capitis-34535409-2109"
     ],
     "categories": {
       "otc": 0,
-      "supp": 1,
+      "supp": 0,
       "food": 0,
-      "move": 8,
-      "life": 2,
-      "care": 19,
+      "move": 16,
+      "life": 1,
+      "care": 13,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  neck-active-behavioural-physiotherapy-40753854-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-obliquus-capitis-34535409-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-thoracic-manipulation-36517270-2109 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-lower-trapezius-strengthening-32202262-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-manual-dry-needling-athletes-39649564-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-myofascial-release-radiculopathy-38296722-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-scapula-focused-exercise-28605288-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-smartphone-home-exercise-39215449-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stabilization-radiculopathy-28946516-2109 — 사람 32명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stretching-mobilization-32826008-2109 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
-    "new_unknown_n_warnings": [
-      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요"
-    ],
+    "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  neck-active-behavioural-physiotherapy-40753854-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-obliquus-capitis-34535409-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-thoracic-manipulation-36517270-2109 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-lower-trapezius-strengthening-32202262-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-manual-dry-needling-athletes-39649564-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-myofascial-release-radiculopathy-38296722-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-scapula-focused-exercise-28605288-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-smartphone-home-exercise-39215449-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stabilization-radiculopathy-28946516-2109 — 사람 32명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stretching-mobilization-32826008-2109 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108:36",
-      "shoulder-deep-heating-ultrasound-31191789-2108:38",
-      "shoulder-elastic-band-physiotherapy-21665107-2108:22",
-      "shoulder-impingement-electromagnetic-stimulation-40262114-2108:36",
-      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108:40",
-      "shoulder-rotator-cuff-high-low-volume-39591809-2108:31",
-      "shoulder-rotator-cuff-kinesio-tape-18591761-2108:42",
-      "shoulder-subacromial-high-intensity-laser-30672303-2108:46",
-      "shoulder-subacromial-pendulum-exercise-27472856-2108:34",
-      "shoulder-supraspinatus-high-power-laser-40083157-2108:36",
-      "shoulder-tendinopathy-interferential-light-22643725-2108:30"
+      "neck-active-behavioural-physiotherapy-40753854-2109:40",
+      "neck-dry-needling-obliquus-capitis-34535409-2109:40",
+      "neck-dry-needling-thoracic-manipulation-36517270-2109:42",
+      "neck-lower-trapezius-strengthening-32202262-2109:40",
+      "neck-manual-dry-needling-athletes-39649564-2109:30",
+      "neck-myofascial-release-radiculopathy-38296722-2109:34",
+      "neck-scapula-focused-exercise-28605288-2109:30",
+      "neck-smartphone-home-exercise-39215449-2109:34",
+      "neck-stabilization-radiculopathy-28946516-2109:32",
+      "neck-stretching-mobilization-32826008-2109:38"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  neck-active-behavioural-physiotherapy-40753854-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-obliquus-capitis-34535409-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-dry-needling-thoracic-manipulation-36517270-2109 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-lower-trapezius-strengthening-32202262-2109 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-manual-dry-needling-athletes-39649564-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-myofascial-release-radiculopathy-38296722-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-scapula-focused-exercise-28605288-2109 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-smartphone-home-exercise-39215449-2109 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stabilization-radiculopathy-28946516-2109 — 사람 32명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  neck-stretching-mobilization-32826008-2109 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "shoulder-supp-1",
-        "returned": 489
+        "topic": "neck-supp-1",
+        "returned": 522
       },
       {
-        "topic": "shoulder-supp-2",
-        "returned": 490
+        "topic": "neck-supp-2",
+        "returned": 523
       },
       {
-        "topic": "shoulder-supp-3",
-        "returned": 78
+        "topic": "neck-supp-3",
+        "returned": 84
       },
       {
-        "topic": "shoulder-supp-4",
-        "returned": 2
+        "topic": "neck-supp-4",
+        "returned": 87
       },
       {
-        "topic": "shoulder-supp-5",
-        "returned": 29
-      },
-      {
-        "topic": "shoulder-supp-6",
-        "returned": 71
-      },
-      {
-        "topic": "shoulder-supp-7",
-        "returned": 42
-      },
-      {
-        "topic": "shoulder-supp-8",
-        "returned": 18
-      },
-      {
-        "topic": "shoulder-supp-9",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-10",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-11",
-        "returned": 509
-      },
-      {
-        "topic": "shoulder-supp-12",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-13",
+        "topic": "neck-supp-5",
         "returned": 19
       },
       {
-        "topic": "shoulder-supp-14",
-        "returned": 7
+        "topic": "neck-supp-6",
+        "returned": 228
       },
       {
-        "topic": "shoulder-supp-15",
-        "returned": 34
+        "topic": "neck-supp-7",
+        "returned": 601
       },
       {
-        "topic": "shoulder-supp-16",
-        "returned": 276
+        "topic": "neck-supp-8",
+        "returned": 99
       },
       {
-        "topic": "shoulder-supp-17",
-        "returned": 78
+        "topic": "neck-supp-9",
+        "returned": 46
       },
       {
-        "topic": "shoulder-supp-18",
-        "returned": 0
+        "topic": "neck-supp-10",
+        "returned": 46
       },
       {
-        "topic": "shoulder-supp-19",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-20",
-        "returned": 5
-      },
-      {
-        "topic": "shoulder-supp-21",
-        "returned": 9
-      },
-      {
-        "topic": "shoulder-supp-22",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-23",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-24",
-        "returned": 17
-      },
-      {
-        "topic": "shoulder-supp-25",
-        "returned": 76
-      },
-      {
-        "topic": "shoulder-supp-26",
-        "returned": 47
-      },
-      {
-        "topic": "shoulder-supp-27",
-        "returned": 89
-      },
-      {
-        "topic": "shoulder-supp-28",
-        "returned": 66
-      },
-      {
-        "topic": "shoulder-supp-29",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-30",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-31",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-32",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-33",
-        "returned": 275
-      },
-      {
-        "topic": "shoulder-supp-34",
-        "returned": 419
-      },
-      {
-        "topic": "shoulder-supp-35",
-        "returned": 604
-      },
-      {
-        "topic": "shoulder-supp-36",
-        "returned": 8
-      },
-      {
-        "topic": "shoulder-supp-37",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-38",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-39",
-        "returned": 13
-      },
-      {
-        "topic": "shoulder-supp-40",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-41",
-        "returned": 15
-      },
-      {
-        "topic": "shoulder-supp-42",
-        "returned": 63
-      },
-      {
-        "topic": "shoulder-supp-43",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-44",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-45",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-46",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-47",
-        "returned": 413
-      },
-      {
-        "topic": "shoulder-supp-48",
-        "returned": 47
-      },
-      {
-        "topic": "shoulder-supp-49",
-        "returned": 72
-      },
-      {
-        "topic": "shoulder-supp-50",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-51",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-52",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-53",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-54",
-        "returned": 14
-      },
-      {
-        "topic": "shoulder-supp-55",
-        "returned": 66
-      },
-      {
-        "topic": "shoulder-supp-56",
-        "returned": 55
-      },
-      {
-        "topic": "shoulder-supp-57",
-        "returned": 165
-      },
-      {
-        "topic": "shoulder-supp-58",
-        "returned": 5
-      },
-      {
-        "topic": "shoulder-supp-59",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-60",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-61",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-62",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-63",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-64",
-        "returned": 5
-      },
-      {
-        "topic": "shoulder-supp-65",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-66",
-        "returned": 8
-      },
-      {
-        "topic": "shoulder-supp-67",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-68",
-        "returned": 12
-      },
-      {
-        "topic": "shoulder-supp-69",
-        "returned": 16
-      },
-      {
-        "topic": "shoulder-supp-70",
-        "returned": 16
-      },
-      {
-        "topic": "shoulder-supp-71",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-72",
-        "returned": 14
-      },
-      {
-        "topic": "shoulder-supp-73",
-        "returned": 5
-      },
-      {
-        "topic": "shoulder-supp-74",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-75",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-76",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-77",
-        "returned": 26
-      },
-      {
-        "topic": "shoulder-supp-78",
-        "returned": 212
-      },
-      {
-        "topic": "shoulder-supp-79",
-        "returned": 12
-      },
-      {
-        "topic": "shoulder-supp-80",
-        "returned": 37
-      },
-      {
-        "topic": "shoulder-supp-81",
-        "returned": 64
-      },
-      {
-        "topic": "shoulder-supp-82",
-        "returned": 64
-      },
-      {
-        "topic": "shoulder-supp-83",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-84",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-85",
-        "returned": 31
-      },
-      {
-        "topic": "shoulder-supp-86",
-        "returned": 53
-      },
-      {
-        "topic": "shoulder-supp-87",
-        "returned": 9
-      },
-      {
-        "topic": "shoulder-supp-88",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-89",
-        "returned": 66
-      },
-      {
-        "topic": "shoulder-supp-90",
-        "returned": 230
-      },
-      {
-        "topic": "shoulder-supp-91",
-        "returned": 134
-      },
-      {
-        "topic": "shoulder-supp-92",
-        "returned": 889
-      },
-      {
-        "topic": "shoulder-supp-93",
-        "returned": 1000
-      },
-      {
-        "topic": "shoulder-supp-94",
-        "returned": 76
-      },
-      {
-        "topic": "shoulder-supp-95",
+        "topic": "neck-supp-11",
         "returned": 21
       },
       {
-        "topic": "shoulder-supp-96",
-        "returned": 2
+        "topic": "neck-supp-12",
+        "returned": 4
       },
       {
-        "topic": "shoulder-supp-97",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-98",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-99",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-100",
-        "returned": 8
-      },
-      {
-        "topic": "shoulder-supp-101",
-        "returned": 11
-      },
-      {
-        "topic": "shoulder-supp-102",
-        "returned": 43
-      },
-      {
-        "topic": "shoulder-supp-103",
-        "returned": 149
-      },
-      {
-        "topic": "shoulder-supp-104",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-105",
-        "returned": 11
-      },
-      {
-        "topic": "shoulder-supp-106",
-        "returned": 56
-      },
-      {
-        "topic": "shoulder-supp-107",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-108",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-109",
-        "returned": 55
-      },
-      {
-        "topic": "shoulder-supp-110",
-        "returned": 33
-      },
-      {
-        "topic": "shoulder-supp-111",
-        "returned": 33
-      },
-      {
-        "topic": "shoulder-supp-112",
+        "topic": "neck-supp-13",
         "returned": 5
       },
       {
-        "topic": "shoulder-supp-113",
-        "returned": 116
+        "topic": "neck-supp-14",
+        "returned": 0
       },
       {
-        "topic": "shoulder-supp-114",
-        "returned": 15
+        "topic": "neck-supp-15",
+        "returned": 554
       },
       {
-        "topic": "shoulder-supp-115",
-        "returned": 18
+        "topic": "neck-supp-16",
+        "returned": 4
       },
       {
-        "topic": "shoulder-supp-116",
-        "returned": 3
+        "topic": "neck-supp-17",
+        "returned": 67
       },
       {
-        "topic": "shoulder-supp-117",
-        "returned": 3
+        "topic": "neck-supp-18",
+        "returned": 233
       },
       {
-        "topic": "shoulder-supp-118",
-        "returned": 41
+        "topic": "neck-supp-19",
+        "returned": 599
       },
       {
-        "topic": "shoulder-supp-119",
+        "topic": "neck-supp-20",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-21",
+        "returned": 19
+      },
+      {
+        "topic": "neck-supp-22",
+        "returned": 7
+      },
+      {
+        "topic": "neck-supp-23",
+        "returned": 62
+      },
+      {
+        "topic": "neck-supp-24",
+        "returned": 30
+      },
+      {
+        "topic": "neck-supp-25",
         "returned": 40
       },
       {
-        "topic": "shoulder-supp-120",
-        "returned": 27
+        "topic": "neck-supp-26",
+        "returned": 52
       },
       {
-        "topic": "shoulder-supp-121",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-122",
-        "returned": 26
-      },
-      {
-        "topic": "shoulder-supp-123",
-        "returned": 64
-      },
-      {
-        "topic": "shoulder-supp-124",
-        "returned": 103
-      },
-      {
-        "topic": "shoulder-supp-125",
-        "returned": 54
-      },
-      {
-        "topic": "shoulder-supp-126",
-        "returned": 12
-      },
-      {
-        "topic": "shoulder-supp-127",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-128",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-129",
-        "returned": 17
-      },
-      {
-        "topic": "shoulder-supp-130",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-131",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-132",
-        "returned": 34
-      },
-      {
-        "topic": "shoulder-supp-133",
-        "returned": 33
-      },
-      {
-        "topic": "shoulder-supp-134",
-        "returned": 27
-      },
-      {
-        "topic": "shoulder-supp-135",
-        "returned": 59
-      },
-      {
-        "topic": "shoulder-supp-136",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-137",
-        "returned": 253
-      },
-      {
-        "topic": "shoulder-supp-138",
-        "returned": 138
-      },
-      {
-        "topic": "shoulder-supp-139",
-        "returned": 5
-      },
-      {
-        "topic": "shoulder-supp-140",
-        "returned": 47
-      },
-      {
-        "topic": "shoulder-supp-141",
-        "returned": 34
-      },
-      {
-        "topic": "shoulder-supp-142",
-        "returned": 15
-      },
-      {
-        "topic": "shoulder-supp-143",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-144",
-        "returned": 69
-      },
-      {
-        "topic": "shoulder-supp-145",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-146",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-147",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-148",
-        "returned": 72
-      },
-      {
-        "topic": "shoulder-supp-149",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-150",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-151",
-        "returned": 11
-      },
-      {
-        "topic": "shoulder-supp-152",
-        "returned": 28
-      },
-      {
-        "topic": "shoulder-supp-153",
-        "returned": 28
-      },
-      {
-        "topic": "shoulder-supp-154",
-        "returned": 16
-      },
-      {
-        "topic": "shoulder-supp-155",
-        "returned": 33
-      },
-      {
-        "topic": "shoulder-supp-156",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-157",
-        "returned": 24
-      },
-      {
-        "topic": "shoulder-supp-158",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-159",
-        "returned": 42
-      },
-      {
-        "topic": "shoulder-supp-160",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-161",
-        "returned": 650
-      },
-      {
-        "topic": "shoulder-supp-162",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-163",
-        "returned": 33
-      },
-      {
-        "topic": "shoulder-supp-164",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-165",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-166",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-167",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-168",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-169",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-170",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-171",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-172",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-173",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-174",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-175",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-176",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-177",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-178",
-        "returned": 7
-      },
-      {
-        "topic": "shoulder-supp-179",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-180",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-181",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-182",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-183",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-184",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-supp-185",
-        "returned": 10
-      },
-      {
-        "topic": "shoulder-supp-186",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-supp-187",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-188",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-189",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-190",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-supp-191",
-        "returned": 19
-      },
-      {
-        "topic": "shoulder-supp-192",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-supp-193",
-        "returned": 6
-      },
-      {
-        "topic": "shoulder-supp-194",
-        "returned": 3
-      },
-      {
-        "topic": "shoulder-supp-195",
+        "topic": "neck-supp-27",
         "returned": 18
       },
       {
-        "topic": "shoulder-supp-196",
+        "topic": "neck-supp-28",
+        "returned": 61
+      },
+      {
+        "topic": "neck-supp-29",
+        "returned": 35
+      },
+      {
+        "topic": "neck-supp-30",
+        "returned": 51
+      },
+      {
+        "topic": "neck-supp-31",
         "returned": 11
       },
       {
-        "topic": "shoulder-supp-197",
-        "returned": 9
+        "topic": "neck-supp-32",
+        "returned": 19
       },
       {
-        "topic": "shoulder-outcome-1",
-        "returned": 784
+        "topic": "neck-supp-33",
+        "returned": 13
       },
       {
-        "topic": "shoulder-outcome-2",
-        "returned": 508
+        "topic": "neck-supp-34",
+        "returned": 3
       },
       {
-        "topic": "shoulder-outcome-3",
-        "returned": 153
+        "topic": "neck-supp-35",
+        "returned": 26
       },
       {
-        "topic": "shoulder-outcome-4",
-        "returned": 238
+        "topic": "neck-supp-36",
+        "returned": 73
       },
       {
-        "topic": "shoulder-outcome-5",
-        "returned": 91
+        "topic": "neck-supp-37",
+        "returned": 25
       },
       {
-        "topic": "shoulder-outcome-6",
-        "returned": 34
+        "topic": "neck-supp-38",
+        "returned": 30
       },
       {
-        "topic": "shoulder-outcome-7",
-        "returned": 232
+        "topic": "neck-supp-39",
+        "returned": 12
       },
       {
-        "topic": "shoulder-outcome-8",
-        "returned": 49
-      },
-      {
-        "topic": "shoulder-outcome-9",
-        "returned": 706
-      },
-      {
-        "topic": "shoulder-outcome-10",
-        "returned": 190
-      },
-      {
-        "topic": "shoulder-outcome-11",
-        "returned": 1000
-      },
-      {
-        "topic": "shoulder-outcome-12",
-        "returned": 665
-      },
-      {
-        "topic": "shoulder-outcome-13",
-        "returned": 272
-      },
-      {
-        "topic": "shoulder-outcome-14",
-        "returned": 214
-      },
-      {
-        "topic": "shoulder-outcome-15",
-        "returned": 252
-      },
-      {
-        "topic": "shoulder-outcome-16",
+        "topic": "neck-supp-40",
         "returned": 21
       },
       {
-        "topic": "shoulder-broad-rotator-cuff",
-        "returned": 125
+        "topic": "neck-supp-41",
+        "returned": 13
       },
       {
-        "topic": "shoulder-broad-subacromial",
-        "returned": 80
+        "topic": "neck-supp-42",
+        "returned": 24
       },
       {
-        "topic": "shoulder-broad-impingement",
-        "returned": 162
-      },
-      {
-        "topic": "shoulder-broad-frozen-shoulder",
-        "returned": 330
-      },
-      {
-        "topic": "shoulder-broad-adhesive-capsulitis",
-        "returned": 339
-      },
-      {
-        "topic": "shoulder-broad-chronic-shoulder-pain",
-        "returned": 109
-      },
-      {
-        "topic": "shoulder-broad-acute-shoulder-pain",
-        "returned": 4
-      },
-      {
-        "topic": "shoulder-broad-older-adults",
-        "returned": 28
-      },
-      {
-        "topic": "shoulder-broad-workers",
+        "topic": "neck-supp-43",
         "returned": 0
       },
       {
-        "topic": "shoulder-broad-women",
-        "returned": 2
-      },
-      {
-        "topic": "shoulder-broad-office-workers",
-        "returned": 56
-      },
-      {
-        "topic": "shoulder-broad-athletes",
-        "returned": 1
-      },
-      {
-        "topic": "shoulder-broad-primary-care",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-broad-home-rehab",
-        "returned": 0
-      },
-      {
-        "topic": "shoulder-broad-manual-exercise",
+        "topic": "neck-supp-44",
         "returned": 5
       },
       {
-        "topic": "shoulder-broad-acupuncture",
+        "topic": "neck-supp-45",
         "returned": 0
       },
       {
-        "topic": "shoulder-broad-taping",
+        "topic": "neck-supp-46",
+        "returned": 3
+      },
+      {
+        "topic": "neck-supp-47",
+        "returned": 83
+      },
+      {
+        "topic": "neck-supp-48",
+        "returned": 18
+      },
+      {
+        "topic": "neck-supp-49",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-50",
+        "returned": 14
+      },
+      {
+        "topic": "neck-supp-51",
+        "returned": 7
+      },
+      {
+        "topic": "neck-supp-52",
+        "returned": 12
+      },
+      {
+        "topic": "neck-supp-53",
+        "returned": 30
+      },
+      {
+        "topic": "neck-supp-54",
+        "returned": 18
+      },
+      {
+        "topic": "neck-supp-55",
+        "returned": 10
+      },
+      {
+        "topic": "neck-supp-56",
+        "returned": 3
+      },
+      {
+        "topic": "neck-supp-57",
         "returned": 0
       },
       {
-        "topic": "shoulder-broad-supplement",
+        "topic": "neck-supp-58",
+        "returned": 34
+      },
+      {
+        "topic": "neck-supp-59",
+        "returned": 27
+      },
+      {
+        "topic": "neck-supp-60",
+        "returned": 48
+      },
+      {
+        "topic": "neck-supp-61",
+        "returned": 287
+      },
+      {
+        "topic": "neck-supp-62",
+        "returned": 79
+      },
+      {
+        "topic": "neck-supp-63",
+        "returned": 115
+      },
+      {
+        "topic": "neck-supp-64",
+        "returned": 115
+      },
+      {
+        "topic": "neck-supp-65",
+        "returned": 56
+      },
+      {
+        "topic": "neck-supp-66",
+        "returned": 69
+      },
+      {
+        "topic": "neck-supp-67",
+        "returned": 16
+      },
+      {
+        "topic": "neck-supp-68",
+        "returned": 468
+      },
+      {
+        "topic": "neck-supp-69",
+        "returned": 226
+      },
+      {
+        "topic": "neck-supp-70",
+        "returned": 1000
+      },
+      {
+        "topic": "neck-supp-71",
+        "returned": 996
+      },
+      {
+        "topic": "neck-supp-72",
+        "returned": 38
+      },
+      {
+        "topic": "neck-supp-73",
+        "returned": 148
+      },
+      {
+        "topic": "neck-supp-74",
+        "returned": 206
+      },
+      {
+        "topic": "neck-supp-75",
+        "returned": 52
+      },
+      {
+        "topic": "neck-supp-76",
+        "returned": 173
+      },
+      {
+        "topic": "neck-supp-77",
+        "returned": 34
+      },
+      {
+        "topic": "neck-supp-78",
+        "returned": 6
+      },
+      {
+        "topic": "neck-supp-79",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-80",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-81",
+        "returned": 5
+      },
+      {
+        "topic": "neck-supp-82",
+        "returned": 43
+      },
+      {
+        "topic": "neck-supp-83",
+        "returned": 43
+      },
+      {
+        "topic": "neck-supp-84",
+        "returned": 12
+      },
+      {
+        "topic": "neck-supp-85",
+        "returned": 96
+      },
+      {
+        "topic": "neck-supp-86",
+        "returned": 13
+      },
+      {
+        "topic": "neck-supp-87",
+        "returned": 26
+      },
+      {
+        "topic": "neck-supp-88",
+        "returned": 111
+      },
+      {
+        "topic": "neck-supp-89",
+        "returned": 93
+      },
+      {
+        "topic": "neck-supp-90",
+        "returned": 93
+      },
+      {
+        "topic": "neck-supp-91",
+        "returned": 14
+      },
+      {
+        "topic": "neck-supp-92",
+        "returned": 152
+      },
+      {
+        "topic": "neck-supp-93",
+        "returned": 12
+      },
+      {
+        "topic": "neck-supp-94",
+        "returned": 17
+      },
+      {
+        "topic": "neck-supp-95",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-96",
+        "returned": 5
+      },
+      {
+        "topic": "neck-supp-97",
+        "returned": 56
+      },
+      {
+        "topic": "neck-supp-98",
+        "returned": 45
+      },
+      {
+        "topic": "neck-supp-99",
+        "returned": 17
+      },
+      {
+        "topic": "neck-supp-100",
+        "returned": 38
+      },
+      {
+        "topic": "neck-supp-101",
+        "returned": 61
+      },
+      {
+        "topic": "neck-supp-102",
+        "returned": 89
+      },
+      {
+        "topic": "neck-supp-103",
+        "returned": 57
+      },
+      {
+        "topic": "neck-supp-104",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-105",
         "returned": 0
+      },
+      {
+        "topic": "neck-supp-106",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-107",
+        "returned": 7
+      },
+      {
+        "topic": "neck-supp-108",
+        "returned": 24
+      },
+      {
+        "topic": "neck-supp-109",
+        "returned": 6
+      },
+      {
+        "topic": "neck-supp-110",
+        "returned": 16
+      },
+      {
+        "topic": "neck-supp-111",
+        "returned": 18
+      },
+      {
+        "topic": "neck-supp-112",
+        "returned": 15
+      },
+      {
+        "topic": "neck-supp-113",
+        "returned": 13
+      },
+      {
+        "topic": "neck-supp-114",
+        "returned": 52
+      },
+      {
+        "topic": "neck-supp-115",
+        "returned": 17
+      },
+      {
+        "topic": "neck-supp-116",
+        "returned": 62
+      },
+      {
+        "topic": "neck-supp-117",
+        "returned": 34
+      },
+      {
+        "topic": "neck-supp-118",
+        "returned": 3
+      },
+      {
+        "topic": "neck-supp-119",
+        "returned": 6
+      },
+      {
+        "topic": "neck-supp-120",
+        "returned": 4
+      },
+      {
+        "topic": "neck-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-122",
+        "returned": 31
+      },
+      {
+        "topic": "neck-supp-123",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-124",
+        "returned": 12
+      },
+      {
+        "topic": "neck-supp-125",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-126",
+        "returned": 34
+      },
+      {
+        "topic": "neck-supp-127",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-128",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-129",
+        "returned": 5
+      },
+      {
+        "topic": "neck-supp-130",
+        "returned": 33
+      },
+      {
+        "topic": "neck-supp-131",
+        "returned": 19
+      },
+      {
+        "topic": "neck-supp-132",
+        "returned": 14
+      },
+      {
+        "topic": "neck-supp-133",
+        "returned": 18
+      },
+      {
+        "topic": "neck-supp-134",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-135",
+        "returned": 16
+      },
+      {
+        "topic": "neck-supp-136",
+        "returned": 27
+      },
+      {
+        "topic": "neck-supp-137",
+        "returned": 13
+      },
+      {
+        "topic": "neck-supp-138",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-139",
+        "returned": 802
+      },
+      {
+        "topic": "neck-supp-140",
+        "returned": 47
+      },
+      {
+        "topic": "neck-supp-141",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-142",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-143",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-144",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-145",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-146",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-147",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-148",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-149",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-150",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-151",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-152",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-153",
+        "returned": 14
+      },
+      {
+        "topic": "neck-supp-154",
+        "returned": 2
+      },
+      {
+        "topic": "neck-supp-155",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-156",
+        "returned": 5
+      },
+      {
+        "topic": "neck-supp-157",
+        "returned": 1
+      },
+      {
+        "topic": "neck-supp-158",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-159",
+        "returned": 71
+      },
+      {
+        "topic": "neck-supp-160",
+        "returned": 31
+      },
+      {
+        "topic": "neck-supp-161",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-162",
+        "returned": 43
+      },
+      {
+        "topic": "neck-supp-163",
+        "returned": 6
+      },
+      {
+        "topic": "neck-supp-164",
+        "returned": 4
+      },
+      {
+        "topic": "neck-supp-165",
+        "returned": 7
+      },
+      {
+        "topic": "neck-supp-166",
+        "returned": 21
+      },
+      {
+        "topic": "neck-supp-167",
+        "returned": 21
+      },
+      {
+        "topic": "neck-supp-168",
+        "returned": 21
+      },
+      {
+        "topic": "neck-supp-169",
+        "returned": 11
+      },
+      {
+        "topic": "neck-supp-170",
+        "returned": 26
+      },
+      {
+        "topic": "neck-supp-171",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-172",
+        "returned": 4
+      },
+      {
+        "topic": "neck-supp-173",
+        "returned": 12
+      },
+      {
+        "topic": "neck-supp-174",
+        "returned": 16
+      },
+      {
+        "topic": "neck-supp-175",
+        "returned": 8
+      },
+      {
+        "topic": "neck-supp-176",
+        "returned": 0
+      },
+      {
+        "topic": "neck-supp-177",
+        "returned": 5
+      },
+      {
+        "topic": "neck-outcome-1",
+        "returned": 928
+      },
+      {
+        "topic": "neck-outcome-2",
+        "returned": 432
+      },
+      {
+        "topic": "neck-outcome-3",
+        "returned": 193
+      },
+      {
+        "topic": "neck-outcome-4",
+        "returned": 561
+      },
+      {
+        "topic": "neck-outcome-5",
+        "returned": 268
+      },
+      {
+        "topic": "neck-outcome-6",
+        "returned": 366
+      },
+      {
+        "topic": "neck-outcome-7",
+        "returned": 928
+      },
+      {
+        "topic": "neck-outcome-8",
+        "returned": 445
+      },
+      {
+        "topic": "neck-outcome-9",
+        "returned": 174
+      },
+      {
+        "topic": "neck-outcome-10",
+        "returned": 74
+      },
+      {
+        "topic": "neck-outcome-11",
+        "returned": 41
+      },
+      {
+        "topic": "neck-outcome-12",
+        "returned": 121
+      },
+      {
+        "topic": "neck-outcome-13",
+        "returned": 327
+      },
+      {
+        "topic": "neck-outcome-14",
+        "returned": 137
+      },
+      {
+        "topic": "neck-outcome-15",
+        "returned": 43
+      },
+      {
+        "topic": "neck-outcome-16",
+        "returned": 88
+      },
+      {
+        "topic": "neck-broad-chronic",
+        "returned": 634
+      },
+      {
+        "topic": "neck-broad-mechanical",
+        "returned": 140
+      },
+      {
+        "topic": "neck-broad-nonspecific",
+        "returned": 123
+      },
+      {
+        "topic": "neck-broad-office-workers",
+        "returned": 74
+      },
+      {
+        "topic": "neck-broad-computer-workers",
+        "returned": 28
+      },
+      {
+        "topic": "neck-broad-older-adults",
+        "returned": 1000
+      },
+      {
+        "topic": "neck-broad-women",
+        "returned": 0
+      },
+      {
+        "topic": "neck-broad-workers",
+        "returned": 314
+      },
+      {
+        "topic": "neck-broad-whiplash",
+        "returned": 0
+      },
+      {
+        "topic": "neck-broad-cervicogenic",
+        "returned": 68
+      },
+      {
+        "topic": "neck-broad-cervical-radiculopathy",
+        "returned": 173
+      },
+      {
+        "topic": "neck-broad-primary-care",
+        "returned": 0
+      },
+      {
+        "topic": "neck-broad-home-exercise",
+        "returned": 56
+      },
+      {
+        "topic": "neck-broad-manual-exercise",
+        "returned": 8
+      },
+      {
+        "topic": "neck-broad-acupuncture",
+        "returned": 3
+      },
+      {
+        "topic": "neck-broad-taping",
+        "returned": 0
+      },
+      {
+        "topic": "neck-broad-supplement",
+        "returned": 0
+      },
+      {
+        "topic": "neck-broad-ergonomic",
+        "returned": 15
       }
     ]
   },
   "resume": {
-    "next_batch": "2109",
-    "worklist_line": "new-expansion-candidates-batch2109",
-    "topic": "new-expansion-candidates-batch2109",
+    "next_batch": "2110",
+    "worklist_line": "new-expansion-candidates-batch2110",
+    "topic": "new-expansion-candidates-batch2110",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -9371,10 +9283,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18733,
+  "withVs": 18763,
   "unknownN": 1334,
-  "thinStudy": 5346,
-  "openNumeric": 18733,
+  "thinStudy": 5356,
+  "openNumeric": 18763,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -95153,6 +95065,1308 @@
       {
         "topic": "koa-broad-knee-oa-supplement",
         "returned": 85
+      }
+    ]
+  },
+  "previous_last_batch_2108": {
+    "id": "2108",
+    "commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
+    "pushed": true,
+    "expansion_commit": "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359",
+    "data_commits": [
+      "b8e3f9d1fd4a5328c83e66aad8fb7eee1667f359"
+    ],
+    "checkpoint_commit": "d73c93ab8e01ca5116abdbbccff7dadae09716df",
+    "push_marker_commit": "ed947638699d4e91e944c45903b76bff0bddcd90",
+    "known_items_commit": "5d2b41aba7af1b9e58b92e2203b52aade0875ad9",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 772,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 772,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19672 entries; 22792 refs; 18822 trial; 754 obs; 32 animal; 17 lab; 47 case; 18733 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 어깨 통증·회전근개·충돌증후군·유착성관절낭염의 비처방·비약물 중재 후보를 검색했다. 261개 검색 주제에서 레코드 19846개와 고유 PMID 2159개를 확인했고 2159개를 요청해 2159개 논문 기록과 2123개 초록을 확보했다. 후보 parser 802건에서 운동·물리치료·수기치료·침·테이핑·전기자극·레이저·교육·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 772건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·수술·주사·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 11건과 사람 수 미상 1건의 경고는 유지했고 비교 경고 7건과 규모 문장 경고 1건을 수정했다.",
+    "qualified_topics": [
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 7,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 1,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18733,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "직장인 목어깨 저항운동=life",
+      "직장인 목어깨 초단기 저항운동=move",
+      "직장인 목어깨 근력운동 빈도=move",
+      "어깨 유착성관절낭염 물리치료=care",
+      "어깨 석회성건염 초산이온도입=care",
+      "어깨 통증 경흉추수기치료=care",
+      "어깨 통증 고주파심부열=care",
+      "당뇨병 어깨 움직임운동=move",
+      "어깨 통증 탄성밴드운동=move",
+      "어깨 충돌증후군 목가동술=care",
+      "어깨 충돌증후군 전자기자극=care",
+      "어깨 충돌증후군 신경가동술=care",
+      "어깨 충돌증후군 흉추수기치료=care",
+      "어깨 통증 간섭레이저=care",
+      "어깨 통증 신경근조절운동=move",
+      "직장인 고노출 어깨 카페교육=life",
+      "어깨 통증 계지복령환=supp",
+      "어깨 회전근개 고강도운동량=move",
+      "어깨 회전근개 키네시오테이핑=care",
+      "어깨 회전근개 건염 체외충격파=care",
+      "어깨 회전근개 압박점치료=care",
+      "어깨 통증 연부조직치료=care",
+      "어깨 충돌증후군 건침운동=care",
+      "어깨 충돌증후군 고강도레이저=care",
+      "어깨 충돌증후군 추운동=move",
+      "어깨 충돌증후군 경직테이핑=care",
+      "어깨 충돌증후군 특이운동=move",
+      "어깨 회전근개 부분파열 고출력레이저=care",
+      "어깨 힘줄병변 간섭광치료=care",
+      "어깨 회전근개 실매선침=care"
+    ],
+    "targeted_batch_warnings_remaining": 12,
+    "targeted_batch_warnings_fixed": 8,
+    "discarded_non_numeric_candidates": [
+      "surgery-31813166",
+      "surgery-29169668",
+      "injection-37021475",
+      "injection-41476186",
+      "protocol-32894159",
+      "review-27283590",
+      "observational-25188589",
+      "secondary-38530232",
+      "postoperative-33305619",
+      "nerve-block-32517390"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2108",
+    "topics": [
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "18461010",
+      "21177034",
+      "22753863",
+      "15222514",
+      "14586921",
+      "20819223",
+      "31191789",
+      "29893977",
+      "21665107",
+      "23791561",
+      "40262114",
+      "33220710",
+      "28259517",
+      "22507365",
+      "15788347",
+      "36512271",
+      "35716471",
+      "39591809",
+      "18591761",
+      "28858120",
+      "30932877",
+      "31774063",
+      "29481640",
+      "30672303",
+      "27472856",
+      "28352939",
+      "28812398",
+      "40083157",
+      "22643725",
+      "41496087"
+    ],
+    "unique_pmids": 2159,
+    "requested": 2159,
+    "fetched": 2159,
+    "fetch_chunks": 44,
+    "abstracts": 2123,
+    "parsed_abstracts": 2123,
+    "search_candidates": 802,
+    "candidate_parser_parsed": 2159,
+    "candidate_parser_candidates": 802,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 261,
+    "search_returned_records": 19846,
+    "supplemental_query_count": 231,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108",
+      "shoulder-subacromial-specific-exercise-28812398-2108",
+      "shoulder-neuromuscular-control-exercise-15788347-2108",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108",
+      "shoulder-soft-tissue-therapy-31774063-2108",
+      "shoulder-cervicothoracic-manipulation-20819223-2108",
+      "shoulder-interferential-laser-22507365-2108",
+      "shoulder-thread-acupuncture-41496087-2108",
+      "shoulder-deep-heating-ultrasound-31191789-2108",
+      "shoulder-adhesive-capsulitis-physical-therapy-15222514-2108",
+      "shoulder-elastic-band-physiotherapy-21665107-2108",
+      "shoulder-subacromial-rigid-taping-28352939-2108",
+      "shoulder-impingement-neuromobilization-33220710-2108",
+      "shoulder-tendinopathy-interferential-light-22643725-2108",
+      "shoulder-rotator-cuff-shockwave-28858120-2108",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108",
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108",
+      "shoulder-diabetes-movement-intervention-29893977-2108",
+      "office-neck-shoulder-resistance-18461010-2108",
+      "office-neck-shoulder-strength-frequency-22753863-2108",
+      "office-neck-shoulder-short-resistance-21177034-2108",
+      "shoulder-impingement-thoracic-manipulation-28259517-2108",
+      "shoulder-rotator-cuff-trigger-point-30932877-2108",
+      "shoulder-impingement-cervical-mobilization-23791561-2108",
+      "shoulder-subacromial-dry-needling-exercise-29481640-2108",
+      "shoulder-occupational-shoulder-cafe-36512271-2108"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 1,
+      "food": 0,
+      "move": 8,
+      "life": 2,
+      "care": 19,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
+    "new_thin_study_warnings": [
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "shoulder-calcific-tendinitis-iontophoresis-14586921-2108:36",
+      "shoulder-deep-heating-ultrasound-31191789-2108:38",
+      "shoulder-elastic-band-physiotherapy-21665107-2108:22",
+      "shoulder-impingement-electromagnetic-stimulation-40262114-2108:36",
+      "shoulder-pain-gyejibongnyeong-hwan-35716471-2108:40",
+      "shoulder-rotator-cuff-high-low-volume-39591809-2108:31",
+      "shoulder-rotator-cuff-kinesio-tape-18591761-2108:42",
+      "shoulder-subacromial-high-intensity-laser-30672303-2108:46",
+      "shoulder-subacromial-pendulum-exercise-27472856-2108:34",
+      "shoulder-supraspinatus-high-power-laser-40083157-2108:36",
+      "shoulder-tendinopathy-interferential-light-22643725-2108:30"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  shoulder-thread-acupuncture-41496087-2108 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  shoulder-calcific-tendinitis-iontophoresis-14586921-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-deep-heating-ultrasound-31191789-2108 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-elastic-band-physiotherapy-21665107-2108 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-impingement-electromagnetic-stimulation-40262114-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-pain-gyejibongnyeong-hwan-35716471-2108 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-high-low-volume-39591809-2108 — 사람 31명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-rotator-cuff-kinesio-tape-18591761-2108 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-high-intensity-laser-30672303-2108 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-subacromial-pendulum-exercise-27472856-2108 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-supraspinatus-high-power-laser-40083157-2108 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  shoulder-tendinopathy-interferential-light-22643725-2108 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "shoulder-supp-1",
+        "returned": 489
+      },
+      {
+        "topic": "shoulder-supp-2",
+        "returned": 490
+      },
+      {
+        "topic": "shoulder-supp-3",
+        "returned": 78
+      },
+      {
+        "topic": "shoulder-supp-4",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-5",
+        "returned": 29
+      },
+      {
+        "topic": "shoulder-supp-6",
+        "returned": 71
+      },
+      {
+        "topic": "shoulder-supp-7",
+        "returned": 42
+      },
+      {
+        "topic": "shoulder-supp-8",
+        "returned": 18
+      },
+      {
+        "topic": "shoulder-supp-9",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-10",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-11",
+        "returned": 509
+      },
+      {
+        "topic": "shoulder-supp-12",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-13",
+        "returned": 19
+      },
+      {
+        "topic": "shoulder-supp-14",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-15",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-16",
+        "returned": 276
+      },
+      {
+        "topic": "shoulder-supp-17",
+        "returned": 78
+      },
+      {
+        "topic": "shoulder-supp-18",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-19",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-20",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-21",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-supp-22",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-23",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-24",
+        "returned": 17
+      },
+      {
+        "topic": "shoulder-supp-25",
+        "returned": 76
+      },
+      {
+        "topic": "shoulder-supp-26",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-27",
+        "returned": 89
+      },
+      {
+        "topic": "shoulder-supp-28",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-29",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-30",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-31",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-32",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-33",
+        "returned": 275
+      },
+      {
+        "topic": "shoulder-supp-34",
+        "returned": 419
+      },
+      {
+        "topic": "shoulder-supp-35",
+        "returned": 604
+      },
+      {
+        "topic": "shoulder-supp-36",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-37",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-38",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-39",
+        "returned": 13
+      },
+      {
+        "topic": "shoulder-supp-40",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-41",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-42",
+        "returned": 63
+      },
+      {
+        "topic": "shoulder-supp-43",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-44",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-45",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-46",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-47",
+        "returned": 413
+      },
+      {
+        "topic": "shoulder-supp-48",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-49",
+        "returned": 72
+      },
+      {
+        "topic": "shoulder-supp-50",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-51",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-52",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-53",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-54",
+        "returned": 14
+      },
+      {
+        "topic": "shoulder-supp-55",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-56",
+        "returned": 55
+      },
+      {
+        "topic": "shoulder-supp-57",
+        "returned": 165
+      },
+      {
+        "topic": "shoulder-supp-58",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-59",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-60",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-61",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-62",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-63",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-64",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-65",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-66",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-67",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-68",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-69",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-70",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-71",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-72",
+        "returned": 14
+      },
+      {
+        "topic": "shoulder-supp-73",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-74",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-75",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-76",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-77",
+        "returned": 26
+      },
+      {
+        "topic": "shoulder-supp-78",
+        "returned": 212
+      },
+      {
+        "topic": "shoulder-supp-79",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-80",
+        "returned": 37
+      },
+      {
+        "topic": "shoulder-supp-81",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-82",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-83",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-84",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-85",
+        "returned": 31
+      },
+      {
+        "topic": "shoulder-supp-86",
+        "returned": 53
+      },
+      {
+        "topic": "shoulder-supp-87",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-supp-88",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-89",
+        "returned": 66
+      },
+      {
+        "topic": "shoulder-supp-90",
+        "returned": 230
+      },
+      {
+        "topic": "shoulder-supp-91",
+        "returned": 134
+      },
+      {
+        "topic": "shoulder-supp-92",
+        "returned": 889
+      },
+      {
+        "topic": "shoulder-supp-93",
+        "returned": 1000
+      },
+      {
+        "topic": "shoulder-supp-94",
+        "returned": 76
+      },
+      {
+        "topic": "shoulder-supp-95",
+        "returned": 21
+      },
+      {
+        "topic": "shoulder-supp-96",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-97",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-98",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-100",
+        "returned": 8
+      },
+      {
+        "topic": "shoulder-supp-101",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-102",
+        "returned": 43
+      },
+      {
+        "topic": "shoulder-supp-103",
+        "returned": 149
+      },
+      {
+        "topic": "shoulder-supp-104",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-105",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-106",
+        "returned": 56
+      },
+      {
+        "topic": "shoulder-supp-107",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-108",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-109",
+        "returned": 55
+      },
+      {
+        "topic": "shoulder-supp-110",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-111",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-112",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-113",
+        "returned": 116
+      },
+      {
+        "topic": "shoulder-supp-114",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-115",
+        "returned": 18
+      },
+      {
+        "topic": "shoulder-supp-116",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-117",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-118",
+        "returned": 41
+      },
+      {
+        "topic": "shoulder-supp-119",
+        "returned": 40
+      },
+      {
+        "topic": "shoulder-supp-120",
+        "returned": 27
+      },
+      {
+        "topic": "shoulder-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-122",
+        "returned": 26
+      },
+      {
+        "topic": "shoulder-supp-123",
+        "returned": 64
+      },
+      {
+        "topic": "shoulder-supp-124",
+        "returned": 103
+      },
+      {
+        "topic": "shoulder-supp-125",
+        "returned": 54
+      },
+      {
+        "topic": "shoulder-supp-126",
+        "returned": 12
+      },
+      {
+        "topic": "shoulder-supp-127",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-128",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-129",
+        "returned": 17
+      },
+      {
+        "topic": "shoulder-supp-130",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-131",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-132",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-133",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-134",
+        "returned": 27
+      },
+      {
+        "topic": "shoulder-supp-135",
+        "returned": 59
+      },
+      {
+        "topic": "shoulder-supp-136",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-137",
+        "returned": 253
+      },
+      {
+        "topic": "shoulder-supp-138",
+        "returned": 138
+      },
+      {
+        "topic": "shoulder-supp-139",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-supp-140",
+        "returned": 47
+      },
+      {
+        "topic": "shoulder-supp-141",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-supp-142",
+        "returned": 15
+      },
+      {
+        "topic": "shoulder-supp-143",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-144",
+        "returned": 69
+      },
+      {
+        "topic": "shoulder-supp-145",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-146",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-147",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-148",
+        "returned": 72
+      },
+      {
+        "topic": "shoulder-supp-149",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-150",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-151",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-152",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-supp-153",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-supp-154",
+        "returned": 16
+      },
+      {
+        "topic": "shoulder-supp-155",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-156",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-157",
+        "returned": 24
+      },
+      {
+        "topic": "shoulder-supp-158",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-159",
+        "returned": 42
+      },
+      {
+        "topic": "shoulder-supp-160",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-161",
+        "returned": 650
+      },
+      {
+        "topic": "shoulder-supp-162",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-163",
+        "returned": 33
+      },
+      {
+        "topic": "shoulder-supp-164",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-165",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-166",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-167",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-168",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-169",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-170",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-171",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-172",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-173",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-174",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-175",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-176",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-177",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-178",
+        "returned": 7
+      },
+      {
+        "topic": "shoulder-supp-179",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-180",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-181",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-182",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-183",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-184",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-supp-185",
+        "returned": 10
+      },
+      {
+        "topic": "shoulder-supp-186",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-supp-187",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-188",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-189",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-190",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-supp-191",
+        "returned": 19
+      },
+      {
+        "topic": "shoulder-supp-192",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-supp-193",
+        "returned": 6
+      },
+      {
+        "topic": "shoulder-supp-194",
+        "returned": 3
+      },
+      {
+        "topic": "shoulder-supp-195",
+        "returned": 18
+      },
+      {
+        "topic": "shoulder-supp-196",
+        "returned": 11
+      },
+      {
+        "topic": "shoulder-supp-197",
+        "returned": 9
+      },
+      {
+        "topic": "shoulder-outcome-1",
+        "returned": 784
+      },
+      {
+        "topic": "shoulder-outcome-2",
+        "returned": 508
+      },
+      {
+        "topic": "shoulder-outcome-3",
+        "returned": 153
+      },
+      {
+        "topic": "shoulder-outcome-4",
+        "returned": 238
+      },
+      {
+        "topic": "shoulder-outcome-5",
+        "returned": 91
+      },
+      {
+        "topic": "shoulder-outcome-6",
+        "returned": 34
+      },
+      {
+        "topic": "shoulder-outcome-7",
+        "returned": 232
+      },
+      {
+        "topic": "shoulder-outcome-8",
+        "returned": 49
+      },
+      {
+        "topic": "shoulder-outcome-9",
+        "returned": 706
+      },
+      {
+        "topic": "shoulder-outcome-10",
+        "returned": 190
+      },
+      {
+        "topic": "shoulder-outcome-11",
+        "returned": 1000
+      },
+      {
+        "topic": "shoulder-outcome-12",
+        "returned": 665
+      },
+      {
+        "topic": "shoulder-outcome-13",
+        "returned": 272
+      },
+      {
+        "topic": "shoulder-outcome-14",
+        "returned": 214
+      },
+      {
+        "topic": "shoulder-outcome-15",
+        "returned": 252
+      },
+      {
+        "topic": "shoulder-outcome-16",
+        "returned": 21
+      },
+      {
+        "topic": "shoulder-broad-rotator-cuff",
+        "returned": 125
+      },
+      {
+        "topic": "shoulder-broad-subacromial",
+        "returned": 80
+      },
+      {
+        "topic": "shoulder-broad-impingement",
+        "returned": 162
+      },
+      {
+        "topic": "shoulder-broad-frozen-shoulder",
+        "returned": 330
+      },
+      {
+        "topic": "shoulder-broad-adhesive-capsulitis",
+        "returned": 339
+      },
+      {
+        "topic": "shoulder-broad-chronic-shoulder-pain",
+        "returned": 109
+      },
+      {
+        "topic": "shoulder-broad-acute-shoulder-pain",
+        "returned": 4
+      },
+      {
+        "topic": "shoulder-broad-older-adults",
+        "returned": 28
+      },
+      {
+        "topic": "shoulder-broad-workers",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-women",
+        "returned": 2
+      },
+      {
+        "topic": "shoulder-broad-office-workers",
+        "returned": 56
+      },
+      {
+        "topic": "shoulder-broad-athletes",
+        "returned": 1
+      },
+      {
+        "topic": "shoulder-broad-primary-care",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-home-rehab",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-manual-exercise",
+        "returned": 5
+      },
+      {
+        "topic": "shoulder-broad-acupuncture",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-taping",
+        "returned": 0
+      },
+      {
+        "topic": "shoulder-broad-supplement",
+        "returned": 0
       }
     ]
   }
