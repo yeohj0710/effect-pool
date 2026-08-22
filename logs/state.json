@@ -2,27 +2,27 @@
   "updated": "2026-08-22",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19241,
-  "subjects": 12258,
-  "refs": 22361,
+  "entries": 19245,
+  "subjects": 12262,
+  "refs": 22365,
   "kinds": {
-    "otc": 660,
-    "supp": 2693,
+    "otc": 662,
+    "supp": 2694,
     "food": 1501,
     "move": 2905,
-    "life": 2591,
+    "life": 2592,
     "care": 6202,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18391,
+    "trial": 18395,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13237,
+    "pos": 13241,
     "null": 4309,
     "open": 1463,
     "harm": 232
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 3216,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2090은 자궁내막증 비처방·비약물 직접 근거 2건을 기록했다. Resume with batch 2091."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2091은 생리통 비처방·비약물 직접 근거 4건을 기록했다. Resume with batch 2092."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2090은 자궁내막증 비처방·비약물 후보 30개를 검색했고 수치 기준을 충족한 신규 근거 2건만 기록했다. Resume with batch 2091."
+    "note": "Batch 2091은 생리통 비처방·보충제·비약물 후보 30개를 검색했고 수치 기준을 충족한 신규 근거 4건을 기록했다. Resume with batch 2092."
   },
   "checkpoints": {
-    "over_counter_share": "25.2% (4854 entries)",
+    "over_counter_share": "25.2% (4857 entries)",
     "rx_share": "14.0% (2689)",
     "no_effect_or_harm_share": "23.6% (4541 entries)",
-    "vs_share": "95.1% (18302)",
+    "vs_share": "95.1% (18306)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.6% (18391)",
+    "trial_share": "95.6% (18395)",
     "non_trial_share": "4.4% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1322,
-      "thin_study": 5221,
-      "targeted_batch_warnings": 1
+      "unknown_n": 1323,
+      "thin_study": 5223,
+      "targeted_batch_warnings": 3
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2090 data commit dc3df6002a4bf3d5661f646d80d34f89154c2b4d; PUSHED=true; checkpoint/marker/known commits pending or recorded. Resume with batch 2091.",
+  "next": "Batch 2091 data commit bf0716183; PUSHED=false; checkpoint/marker/known commits pending or recorded. Resume with batch 2092.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,43 +6772,49 @@
     ]
   },
   "last_batch": {
-    "id": "2090",
-    "commit": "dc3df6002a4bf3d5661f646d80d34f89154c2b4d",
-    "pushed": true,
-    "expansion_commit": "dc3df6002a4bf3d5661f646d80d34f89154c2b4d",
+    "id": "2091",
+    "commit": "bf0716183",
+    "pushed": false,
+    "expansion_commit": "bf0716183",
     "data_commits": [
-      "dc3df6002a4bf3d5661f646d80d34f89154c2b4d"
+      "bf0716183"
     ],
-    "checkpoint_commit": "f8983768de8eb7e284b47bd09bbea58ffbb6bf02",
-    "push_marker_commit": "e900cfd7fbe25153c1ec81f8fea1bef95e81d342",
-    "known_items_commit": "e38e2a9f25eb3c78857c0d772ee6ea21604086ed",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090",
-      "endometriosis-self-care-counselling-32727601-2090"
+      "dysmenorrhea-ibuprofen-pg-392621-2091",
+      "dysmenorrhea-music-drawing-39455971-2091",
+      "dysmenorrhea-naproxen-sodium-6571974-2091",
+      "dysmenorrhea-pea-39910730-2091"
     ],
-    "new_entries": 2,
+    "new_entries": 4,
     "existing_links": 0,
-    "no_evidence_rejects": 436,
+    "no_evidence_rejects": 220,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 436,
-    "new_references": 2,
+    "screened_nonqualifying_topics": 220,
+    "new_references": 4,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19241 entries; 22361 refs; 18391 trial; 754 obs; 32 animal; 17 lab; 47 case; 18302 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 자궁내막증의 식이·보충제·운동·자가관리·비침습 중재 후보를 검색했다. 30개 비처방 주제와 보충·확장 검색어 49개를 포함한 79개 검색어에서 레코드 4811개와 고유 PMID 1735개를 확인했고, 1735개를 요청해 1735개 논문 기록과 1711개 초록을 확보했다. 후보 parser 438건에서 처방약 단독·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·대조군 부족·초록 없음·수치 부족·대상 불일치 후보를 제외하고, 직접 비교 수치·효과크기·신뢰구간이 확인된 신규 항목 2건을 2개 신규 PMID에 근거해 기록했다. 436건은 선별 보류 또는 제외했다. ClinicalTrials.gov에서도 완료된 비처방·비약물 시험을 확인했지만 공개 결과 수치가 없는 등록자료는 기록하지 않았다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저는 사용하지 않았다.",
+    "build": "19245 entries; 22365 refs; 18395 trial; 754 obs; 32 animal; 17 lab; 47 case; 18306 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차 생리통의 보충제·일반의약품·식이·운동·자가관리 후보를 검색했다. 30개 비처방 주제와 보충·확장 검색어 50개를 포함한 80개 검색어에서 레코드 4209개와 고유 PMID 1109개를 확인했고, 1109개를 요청해 1109개 논문 기록과 1094개 초록을 확보했다. 후보 parser 224건에서 처방약 단독·고찰·메타분석·프로토콜·비무작위 연구·사례보고·동물연구·중복 PMID·대조군 부족·수치 부족·대상 불일치 후보를 제외하고, 직접 비교 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 4건을 4개 신규 PMID에 근거해 기록했다. 220건은 선별 보류 또는 제외했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저는 사용하지 않았다.",
     "qualified_topics": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090",
-      "endometriosis-self-care-counselling-32727601-2090"
+      "dysmenorrhea-ibuprofen-pg-392621-2091",
+      "dysmenorrhea-music-drawing-39455971-2091",
+      "dysmenorrhea-naproxen-sodium-6571974-2091",
+      "dysmenorrhea-pea-39910730-2091"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090",
-      "endometriosis-self-care-counselling-32727601-2090"
+      "dysmenorrhea-ibuprofen-pg-392621-2091",
+      "dysmenorrhea-music-drawing-39455971-2091",
+      "dysmenorrhea-naproxen-sodium-6571974-2091",
+      "dysmenorrhea-pea-39910730-2091"
     ],
     "existing_linked_entry_ids": [],
     "new_entry_vs_warnings_fixed": 0,
@@ -6820,7 +6826,7 @@
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18302,
+    "open_numeric_comparisons": 18306,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6828,10 +6834,12 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "자궁내막증 나프록센 경구제=otc",
-      "자궁내막증 자기관리 상담=life"
+      "생리통 이부프로펜=otc",
+      "생리통 음악·그림 활동=life",
+      "생리통 나프록센나트륨=otc",
+      "생리통 팔미토일에탄올아미드=supp"
     ],
-    "targeted_batch_warnings_remaining": 1,
+    "targeted_batch_warnings_remaining": 3,
     "targeted_batch_warnings_fixed": 0,
     "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
@@ -6841,55 +6849,68 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2090",
+    "next_official_deployment_check": "after batch 2091",
     "new_pmids": [
-      "3883265",
-      "32727601"
+      "392621",
+      "39455971",
+      "6571974",
+      "39910730"
     ],
-    "unique_pmids": 1735,
-    "requested": 1735,
-    "fetched": 1735,
-    "fetch_chunks": 35,
-    "abstracts": 1711,
-    "parsed_abstracts": 1711,
-    "search_candidates": 438,
-    "candidate_parser_parsed": 1735,
-    "candidate_parser_candidates": 438,
-    "candidate_parser_candidates_after_write": 2,
-    "manual_candidates": 2,
-    "search_topic_count": 79,
-    "search_returned_records": 4811,
-    "supplemental_query_count": 49,
+    "unique_pmids": 1109,
+    "requested": 1109,
+    "fetched": 1109,
+    "fetch_chunks": 23,
+    "abstracts": 1094,
+    "parsed_abstracts": 1094,
+    "search_candidates": 224,
+    "candidate_parser_parsed": 1109,
+    "candidate_parser_candidates": 224,
+    "candidate_parser_candidates_after_write": 4,
+    "manual_candidates": 4,
+    "search_topic_count": 80,
+    "search_returned_records": 4209,
+    "supplemental_query_count": 50,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090",
-      "endometriosis-self-care-counselling-32727601-2090"
+      "dysmenorrhea-ibuprofen-pg-392621-2091",
+      "dysmenorrhea-music-drawing-39455971-2091",
+      "dysmenorrhea-naproxen-sodium-6571974-2091",
+      "dysmenorrhea-pea-39910730-2091"
     ],
     "categories": {
-      "otc": 1,
-      "life": 1
+      "otc": 2,
+      "life": 1,
+      "supp": 1
     },
     "new_build_warnings": [
-      "주의  endometriosis-naproxen-dysmenorrhea-3883265-2090 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  dysmenorrhea-ibuprofen-pg-392621-2091 — 사람 15명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-naproxen-sodium-6571974-2091 — 사람 12명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-pea-39910730-2091 — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
-    "new_unknown_n_warnings": [],
+    "new_unknown_n_warnings": [
+      "dysmenorrhea-pea-39910730-2091"
+    ],
     "new_thin_study_warnings": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090:20"
+      "dysmenorrhea-ibuprofen-pg-392621-2091:15",
+      "dysmenorrhea-naproxen-sodium-6571974-2091:12"
     ],
     "validator_truthful_thin_studies": [
-      "endometriosis-naproxen-dysmenorrhea-3883265-2090:20"
+      "dysmenorrhea-ibuprofen-pg-392621-2091:15",
+      "dysmenorrhea-naproxen-sodium-6571974-2091:12"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  endometriosis-naproxen-dysmenorrhea-3883265-2090 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  dysmenorrhea-ibuprofen-pg-392621-2091 — 사람 15명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-naproxen-sodium-6571974-2091 — 사람 12명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  dysmenorrhea-pea-39910730-2091 — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ]
   },
   "resume": {
-    "next_batch": "2091",
-    "worklist_line": "new-expansion-candidates-batch2091",
-    "topic": "new-expansion-candidates-batch2091",
+    "next_batch": "2092",
+    "worklist_line": "new-expansion-candidates-batch2092",
+    "topic": "new-expansion-candidates-batch2092",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -8184,10 +8205,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18302,
-  "unknownN": 1322,
-  "thinStudy": 5221,
-  "openNumeric": 18302,
+  "withVs": 18306,
+  "unknownN": 1323,
+  "thinStudy": 5223,
+  "openNumeric": 18306,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
