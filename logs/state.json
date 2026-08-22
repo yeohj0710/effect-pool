@@ -2,28 +2,28 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19809,
-  "subjects": 12818,
-  "refs": 22929,
+  "entries": 19839,
+  "subjects": 12847,
+  "refs": 22959,
   "kinds": {
     "otc": 748,
     "supp": 2811,
     "food": 1529,
-    "move": 2976,
-    "life": 2629,
-    "care": 6427,
+    "move": 2992,
+    "life": 2630,
+    "care": 6440,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18959,
+    "trial": 18989,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13635,
-    "null": 4471,
+    "pos": 13651,
+    "null": 4485,
     "open": 1465,
     "harm": 238
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2113은 손목터널증후군의 보조기·운동·전기·초음파·레이저·침·수기·온열·교육 직접 근거 30건을 기록했다. Resume with batch 2114."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2114는 발목 염좌·만성 발목 불안정의 보조기·운동·수기·냉온·원격 재활 직접 근거 30건을 기록했다. Resume with batch 2115."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,19 +40,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2113은 손목터널증후군의 비처방·비약물 후보를 검색했고 중재군과 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 PubMed 직접 근거 30건을 기록했다. Resume with batch 2114."
+    "note": "Batch 2114는 발목 염좌·만성 발목 불안정의 비처방·비약물 후보를 검색했고 중재군과 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 PubMed 직접 근거 30건을 기록했다. Resume with batch 2115."
   },
   "checkpoints": {
-    "over_counter_share": "25.7% (5088 entries)",
+    "over_counter_share": "25.6% (5088 entries)",
     "rx_share": "13.6% (2689)",
-    "no_effect_or_harm_share": "23.8% (4709 entries)",
-    "vs_share": "95.3% (18870)",
+    "no_effect_or_harm_share": "23.8% (4723 entries)",
+    "vs_share": "95.3% (18900)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18959)",
+    "trial_share": "95.7% (18989)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
-      "unknown_n": 1343,
-      "thin_study": 5401,
+      "unknown_n": 1344,
+      "thin_study": 5420,
       "targeted_batch_warnings": 20
     }
   },
@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2113 data, marker, known_items, and final state pushed; resume with batch 2114.",
+  "next": "Batch 2114 data committed; PUSHED=false checkpoint pending; resume with batch 2115 after push marker.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,179 +6772,179 @@
     ]
   },
   "last_batch": {
-    "id": "2113",
-    "commit": "0e1957103",
-    "pushed": true,
-    "expansion_commit": "0e1957103",
+    "id": "2114",
+    "commit": "701c56e96",
+    "pushed": false,
+    "expansion_commit": "701c56e96",
     "data_commits": [
-      "0e1957103"
+      "701c56e96"
     ],
-    "checkpoint_commit": "b6664ffc6",
-    "push_marker_commit": "93238d930",
-    "known_items_commit": "fac10659c",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "carpal-splint-duration-32870276-2113",
-      "carpal-splint-angle-7979936-2113",
-      "carpal-dynamic-splint-27698630-2113",
-      "carpal-electroacupuncture-splint-27270119-2113",
-      "carpal-splint-laser-19544043-2113",
-      "carpal-ifc-tens-splint-24728028-2113",
-      "carpal-ultrasound-tecar-40106005-2113",
-      "carpal-mirror-exercise-37947269-2113",
-      "carpal-ultrasound-intensity-9862296-2113",
-      "carpal-diode-laser-19025407-2113",
-      "carpal-laser-taping-29594333-2113",
-      "carpal-laser-microtens-12098159-2113",
-      "carpal-acupuncture-neuro-28334999-2113",
-      "carpal-tens-fmri-20684895-2113",
-      "carpal-magnet-placebo-11927062-2113",
-      "carpal-acupuncture-steroid-19590482-2113",
-      "carpal-acupuncture-steroid-long-21111685-2113",
-      "carpal-kinesio-taping-34275887-2113",
-      "carpal-fibrolysis-33373445-2113",
-      "carpal-manual-surgery-pain-28295825-2113",
-      "carpal-manual-surgery-function-28158963-2113",
-      "carpal-biofield-27487406-2113",
-      "carpal-nocturnal-splint-workers-15640980-2113",
-      "carpal-manual-surgery-4yr-32766779-2113",
-      "carpal-computer-education-17448621-2113",
-      "carpal-ultrasound-thermotherapy-16083171-2113",
-      "carpal-nondrug-ultrasound-31006972-2113",
-      "carpal-splint-steroid-phonophoresis-21153642-2113",
-      "carpal-neurodynamic-sham-19801812-2113",
-      "carpal-heat-wrap-15375809-2113"
+      "ankle-active-brace-31042441-2114",
+      "ankle-airbrace-10024963-2114",
+      "ankle-bfr-strength-37558223-2114",
+      "ankle-brace-prevention-24398222-2114",
+      "ankle-calf-stretch-timing-30691752-2114",
+      "ankle-contrast-heat-27036491-2114",
+      "ankle-early-mobilization-8129116-2114",
+      "ankle-fibular-tape-28677942-2114",
+      "ankle-floss-band-41710447-2114",
+      "ankle-hip-strength-41057880-2114",
+      "ankle-hop-female-40174886-2114",
+      "ankle-hop-stabilization-30192681-2114",
+      "ankle-isokinetic-band-36454876-2114",
+      "ankle-maitland-36430049-2114",
+      "ankle-mobilization-33877325-2114",
+      "ankle-neuromuscular-gait-17597944-2114",
+      "ankle-orthoses-sway-9710166-2114",
+      "ankle-orthosis-25967531-2114",
+      "ankle-physio-severity-19463081-2114",
+      "ankle-self-mobilization-33049708-2114",
+      "ankle-sensory-rehab-26717498-2114",
+      "ankle-smart-rehab-38424225-2114",
+      "ankle-stroboscopic-balance-34775656-2114",
+      "ankle-support-21422934-2114",
+      "ankle-tele-neuromuscular-38154933-2114",
+      "ankle-textured-insole-41005102-2114",
+      "ankle-traction-27632835-2114",
+      "ankle-vibration-34214989-2114",
+      "ankle-vr-exercise-30958334-2114",
+      "ankle-wiifit-26076737-2114"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 369,
+    "no_evidence_rejects": 180,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 369,
+    "screened_nonqualifying_topics": 180,
     "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19809 entries; 22929 refs; 18959 trial; 754 obs; 32 animal; 17 lab; 47 case; 18870 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 손목터널증후군의 비처방·비약물 중재 후보를 검색했다. 158개 검색 주제에서 레코드 6136개와 고유 PMID 1040개를 확인했고 1040개를 요청해 1040개 논문 기록과 1034개 초록을 확보했다. 후보 parser 399건에서 보조기·운동·전기·초음파·레이저·침·수기·온열·교육의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 369건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 15건과 사람 수 미상 5건의 경고는 유지했고 새 비교 경고 6건, 규모 경고 25건, 주제 경고 1건을 수정했다.",
+    "build": "19839 entries; 22959 refs; 18989 trial; 754 obs; 32 animal; 17 lab; 47 case; 18900 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 발목 염좌·만성 발목 불안정의 비처방·비약물 중재 후보를 검색했다. 162개 검색 주제에서 레코드 4522개와 고유 PMID 631개를 확인했고 631개를 요청해 631개 논문 기록과 629개 초록을 확보했다. 후보 parser 210건에서 보조기·운동·수기·테이핑·냉온치료·원격 재활의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 180건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 19건과 사람 수 미상 1건의 경고는 유지했고 새 비교 경고 13건과 규모 경고 1건을 수정했다.",
     "qualified_topics": [
-      "carpal-splint-duration-32870276-2113",
-      "carpal-splint-angle-7979936-2113",
-      "carpal-dynamic-splint-27698630-2113",
-      "carpal-electroacupuncture-splint-27270119-2113",
-      "carpal-splint-laser-19544043-2113",
-      "carpal-ifc-tens-splint-24728028-2113",
-      "carpal-ultrasound-tecar-40106005-2113",
-      "carpal-mirror-exercise-37947269-2113",
-      "carpal-ultrasound-intensity-9862296-2113",
-      "carpal-diode-laser-19025407-2113",
-      "carpal-laser-taping-29594333-2113",
-      "carpal-laser-microtens-12098159-2113",
-      "carpal-acupuncture-neuro-28334999-2113",
-      "carpal-tens-fmri-20684895-2113",
-      "carpal-magnet-placebo-11927062-2113",
-      "carpal-acupuncture-steroid-19590482-2113",
-      "carpal-acupuncture-steroid-long-21111685-2113",
-      "carpal-kinesio-taping-34275887-2113",
-      "carpal-fibrolysis-33373445-2113",
-      "carpal-manual-surgery-pain-28295825-2113",
-      "carpal-manual-surgery-function-28158963-2113",
-      "carpal-biofield-27487406-2113",
-      "carpal-nocturnal-splint-workers-15640980-2113",
-      "carpal-manual-surgery-4yr-32766779-2113",
-      "carpal-computer-education-17448621-2113",
-      "carpal-ultrasound-thermotherapy-16083171-2113",
-      "carpal-nondrug-ultrasound-31006972-2113",
-      "carpal-splint-steroid-phonophoresis-21153642-2113",
-      "carpal-neurodynamic-sham-19801812-2113",
-      "carpal-heat-wrap-15375809-2113"
+      "ankle-active-brace-31042441-2114",
+      "ankle-airbrace-10024963-2114",
+      "ankle-bfr-strength-37558223-2114",
+      "ankle-brace-prevention-24398222-2114",
+      "ankle-calf-stretch-timing-30691752-2114",
+      "ankle-contrast-heat-27036491-2114",
+      "ankle-early-mobilization-8129116-2114",
+      "ankle-fibular-tape-28677942-2114",
+      "ankle-floss-band-41710447-2114",
+      "ankle-hip-strength-41057880-2114",
+      "ankle-hop-female-40174886-2114",
+      "ankle-hop-stabilization-30192681-2114",
+      "ankle-isokinetic-band-36454876-2114",
+      "ankle-maitland-36430049-2114",
+      "ankle-mobilization-33877325-2114",
+      "ankle-neuromuscular-gait-17597944-2114",
+      "ankle-orthoses-sway-9710166-2114",
+      "ankle-orthosis-25967531-2114",
+      "ankle-physio-severity-19463081-2114",
+      "ankle-self-mobilization-33049708-2114",
+      "ankle-sensory-rehab-26717498-2114",
+      "ankle-smart-rehab-38424225-2114",
+      "ankle-stroboscopic-balance-34775656-2114",
+      "ankle-support-21422934-2114",
+      "ankle-tele-neuromuscular-38154933-2114",
+      "ankle-textured-insole-41005102-2114",
+      "ankle-traction-27632835-2114",
+      "ankle-vibration-34214989-2114",
+      "ankle-vr-exercise-30958334-2114",
+      "ankle-wiifit-26076737-2114"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "carpal-splint-duration-32870276-2113",
-      "carpal-splint-angle-7979936-2113",
-      "carpal-dynamic-splint-27698630-2113",
-      "carpal-electroacupuncture-splint-27270119-2113",
-      "carpal-splint-laser-19544043-2113",
-      "carpal-ifc-tens-splint-24728028-2113",
-      "carpal-ultrasound-tecar-40106005-2113",
-      "carpal-mirror-exercise-37947269-2113",
-      "carpal-ultrasound-intensity-9862296-2113",
-      "carpal-diode-laser-19025407-2113",
-      "carpal-laser-taping-29594333-2113",
-      "carpal-laser-microtens-12098159-2113",
-      "carpal-acupuncture-neuro-28334999-2113",
-      "carpal-tens-fmri-20684895-2113",
-      "carpal-magnet-placebo-11927062-2113",
-      "carpal-acupuncture-steroid-19590482-2113",
-      "carpal-acupuncture-steroid-long-21111685-2113",
-      "carpal-kinesio-taping-34275887-2113",
-      "carpal-fibrolysis-33373445-2113",
-      "carpal-manual-surgery-pain-28295825-2113",
-      "carpal-manual-surgery-function-28158963-2113",
-      "carpal-biofield-27487406-2113",
-      "carpal-nocturnal-splint-workers-15640980-2113",
-      "carpal-manual-surgery-4yr-32766779-2113",
-      "carpal-computer-education-17448621-2113",
-      "carpal-ultrasound-thermotherapy-16083171-2113",
-      "carpal-nondrug-ultrasound-31006972-2113",
-      "carpal-splint-steroid-phonophoresis-21153642-2113",
-      "carpal-neurodynamic-sham-19801812-2113",
-      "carpal-heat-wrap-15375809-2113"
+      "ankle-active-brace-31042441-2114",
+      "ankle-airbrace-10024963-2114",
+      "ankle-bfr-strength-37558223-2114",
+      "ankle-brace-prevention-24398222-2114",
+      "ankle-calf-stretch-timing-30691752-2114",
+      "ankle-contrast-heat-27036491-2114",
+      "ankle-early-mobilization-8129116-2114",
+      "ankle-fibular-tape-28677942-2114",
+      "ankle-floss-band-41710447-2114",
+      "ankle-hip-strength-41057880-2114",
+      "ankle-hop-female-40174886-2114",
+      "ankle-hop-stabilization-30192681-2114",
+      "ankle-isokinetic-band-36454876-2114",
+      "ankle-maitland-36430049-2114",
+      "ankle-mobilization-33877325-2114",
+      "ankle-neuromuscular-gait-17597944-2114",
+      "ankle-orthoses-sway-9710166-2114",
+      "ankle-orthosis-25967531-2114",
+      "ankle-physio-severity-19463081-2114",
+      "ankle-self-mobilization-33049708-2114",
+      "ankle-sensory-rehab-26717498-2114",
+      "ankle-smart-rehab-38424225-2114",
+      "ankle-stroboscopic-balance-34775656-2114",
+      "ankle-support-21422934-2114",
+      "ankle-tele-neuromuscular-38154933-2114",
+      "ankle-textured-insole-41005102-2114",
+      "ankle-traction-27632835-2114",
+      "ankle-vibration-34214989-2114",
+      "ankle-vr-exercise-30958334-2114",
+      "ankle-wiifit-26076737-2114"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 6,
+    "new_entry_vs_warnings_fixed": 13,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_scale_warnings_fixed": 25,
+    "new_entry_scale_warnings_fixed": 1,
     "new_entry_english_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 1,
+    "new_entry_subject_warnings_fixed": 0,
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18870,
-    "subject_names_renamed": 1,
+    "open_numeric_comparisons": 18900,
+    "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
     "sample_size_corrections": 0,
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "손목터널증후군 국소·원위 전기침=care",
-      "손목터널증후군 전기침·경구 스테로이드=care",
-      "손목터널증후군 전기침 장기추적=care",
-      "손목터널증후군 진동 바이오필드 치료=care",
-      "손목터널증후군 컴퓨터 환자교육=life",
-      "손목터널증후군 다이오드 레이저=care",
-      "손목터널증후군 동적 신장 보조기=care",
-      "손목터널증후군 전기침·야간 보조기=care",
-      "손목터널증후군 섬유유착 해리=care",
-      "손목터널증후군 저강도 온열 랩=life",
-      "손목터널증후군 간섭전류·경피전기·보조기=care",
-      "손목터널증후군 키네시오 테이핑=care",
-      "손목터널증후군 레이저·미세전류 경피전기=care",
-      "손목터널증후군 저출력 레이저·키네시오 테이핑=care",
-      "손목터널증후군 자석치료=care",
-      "손목터널증후군 수기치료·수술 4년 추적=care",
-      "손목터널증후군 수기치료·수술 기능=care",
-      "손목터널증후군 수기치료와 수술의 통증 결과=care",
-      "손목터널증후군 거울치료·반대손 운동=move",
-      "손목터널증후군 신경활주 기법=move",
-      "손목터널증후군 야간 손목 보조기=care",
-      "손목터널증후군 비약물 초음파=care",
-      "손목터널증후군 손목 보조기 각도=care",
-      "손목터널증후군 중립 손목 보조기 기간=care",
-      "손목터널증후군 보조기·저출력 레이저=care",
-      "손목터널증후군 스플린트·스테로이드 음파치료=care",
-      "손목터널증후군 경피전기자극=care",
-      "손목터널증후군 초음파 치료 강도=care",
-      "손목터널증후군 초음파·테카르 치료=care",
-      "손목터널증후군 초음파 온열치료=care"
+      "발목 불안정 능동 발목 보조기=care",
+      "급성 발목 염좌 공기쿠션 보조기=care",
+      "기능성 발목 불안정 저부하 혈류제한훈련=move",
+      "발목 염좌 재발예방 발목 보조기=care",
+      "만성 발목 불안정 관절가동·종아리 스트레칭=move",
+      "발목 염좌 냉·온열치료=care",
+      "초발 외측 발목 염좌 조기 가동=move",
+      "만성 발목 불안정 종아리뼈 테이핑=care",
+      "만성 발목 불안정 플로스 밴드=care",
+      "기능성 발목 불안정 엉덩이·발목 근력훈련=move",
+      "여성 운동선수 만성 발목 불안정 홉 안정화훈련=move",
+      "만성 발목 불안정 균형훈련=move",
+      "기능성 발목 불안정 등속성·탄력밴드 근력훈련=move",
+      "만성 발목 불안정 마이틀랜드 가동술=care",
+      "급성 발목 염좌 종아리뼈·목말뼈 가동술=care",
+      "기능성 발목 불안정 신경근훈련=move",
+      "기능성 발목 불안정 발목 보조기=care",
+      "발목 염좌 단계적 발목 보조기=care",
+      "중증 발목 염좌 물리치료=move",
+      "만성 발목 불안정 자가 관절가동술=move",
+      "만성 발목 불안정 감각표적 재활=move",
+      "기능성 발목 불안정 지능형 재활훈련=move",
+      "만성 발목 불안정 점멸안경 균형훈련=move",
+      "급성 발목 염좌 외부 지지대=care",
+      "발목 염좌 재발예방 원격 신경근운동=life",
+      "만성 발목 불안정 질감 깔창=care",
+      "만성 발목 불안정 목말관절 견인=care",
+      "만성 발목 불안정 전신진동=move",
+      "기능성 발목 불안정 가상현실 운동=move",
+      "발목 염좌 위핏 운동치료=move"
     ],
     "targeted_batch_warnings_remaining": 0,
-    "targeted_batch_warnings_fixed": 32,
+    "targeted_batch_warnings_fixed": 14,
     "build_errors_fixed": 0,
     "discarded_non_numeric_candidates": [],
     "discarded_excess_entries": [],
@@ -6954,735 +6954,235 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2113",
+    "next_official_deployment_check": "after batch 2114",
     "topics": [
-      "carpal-splint-duration-32870276-2113",
-      "carpal-splint-angle-7979936-2113",
-      "carpal-dynamic-splint-27698630-2113",
-      "carpal-electroacupuncture-splint-27270119-2113",
-      "carpal-splint-laser-19544043-2113",
-      "carpal-ifc-tens-splint-24728028-2113",
-      "carpal-ultrasound-tecar-40106005-2113",
-      "carpal-mirror-exercise-37947269-2113",
-      "carpal-ultrasound-intensity-9862296-2113",
-      "carpal-diode-laser-19025407-2113",
-      "carpal-laser-taping-29594333-2113",
-      "carpal-laser-microtens-12098159-2113",
-      "carpal-acupuncture-neuro-28334999-2113",
-      "carpal-tens-fmri-20684895-2113",
-      "carpal-magnet-placebo-11927062-2113",
-      "carpal-acupuncture-steroid-19590482-2113",
-      "carpal-acupuncture-steroid-long-21111685-2113",
-      "carpal-kinesio-taping-34275887-2113",
-      "carpal-fibrolysis-33373445-2113",
-      "carpal-manual-surgery-pain-28295825-2113",
-      "carpal-manual-surgery-function-28158963-2113",
-      "carpal-biofield-27487406-2113",
-      "carpal-nocturnal-splint-workers-15640980-2113",
-      "carpal-manual-surgery-4yr-32766779-2113",
-      "carpal-computer-education-17448621-2113",
-      "carpal-ultrasound-thermotherapy-16083171-2113",
-      "carpal-nondrug-ultrasound-31006972-2113",
-      "carpal-splint-steroid-phonophoresis-21153642-2113",
-      "carpal-neurodynamic-sham-19801812-2113",
-      "carpal-heat-wrap-15375809-2113"
+      "ankle-active-brace-31042441-2114",
+      "ankle-airbrace-10024963-2114",
+      "ankle-bfr-strength-37558223-2114",
+      "ankle-brace-prevention-24398222-2114",
+      "ankle-calf-stretch-timing-30691752-2114",
+      "ankle-contrast-heat-27036491-2114",
+      "ankle-early-mobilization-8129116-2114",
+      "ankle-fibular-tape-28677942-2114",
+      "ankle-floss-band-41710447-2114",
+      "ankle-hip-strength-41057880-2114",
+      "ankle-hop-female-40174886-2114",
+      "ankle-hop-stabilization-30192681-2114",
+      "ankle-isokinetic-band-36454876-2114",
+      "ankle-maitland-36430049-2114",
+      "ankle-mobilization-33877325-2114",
+      "ankle-neuromuscular-gait-17597944-2114",
+      "ankle-orthoses-sway-9710166-2114",
+      "ankle-orthosis-25967531-2114",
+      "ankle-physio-severity-19463081-2114",
+      "ankle-self-mobilization-33049708-2114",
+      "ankle-sensory-rehab-26717498-2114",
+      "ankle-smart-rehab-38424225-2114",
+      "ankle-stroboscopic-balance-34775656-2114",
+      "ankle-support-21422934-2114",
+      "ankle-tele-neuromuscular-38154933-2114",
+      "ankle-textured-insole-41005102-2114",
+      "ankle-traction-27632835-2114",
+      "ankle-vibration-34214989-2114",
+      "ankle-vr-exercise-30958334-2114",
+      "ankle-wiifit-26076737-2114"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "28334999",
-      "19590482",
-      "21111685",
-      "27487406",
-      "17448621",
-      "19025407",
-      "27698630",
-      "27270119",
-      "33373445",
-      "15375809",
-      "24728028",
-      "34275887",
-      "12098159",
-      "29594333",
-      "11927062",
-      "32766779",
-      "28158963",
-      "28295825",
-      "37947269",
-      "19801812",
-      "15640980",
-      "31006972",
-      "7979936",
-      "32870276",
-      "19544043",
-      "21153642",
-      "20684895",
-      "9862296",
-      "40106005",
-      "16083171"
+      "31042441",
+      "10024963",
+      "37558223",
+      "24398222",
+      "30691752",
+      "27036491",
+      "8129116",
+      "28677942",
+      "41710447",
+      "41057880",
+      "40174886",
+      "30192681",
+      "36454876",
+      "36430049",
+      "33877325",
+      "17597944",
+      "9710166",
+      "25967531",
+      "19463081",
+      "33049708",
+      "26717498",
+      "38424225",
+      "34775656",
+      "21422934",
+      "38154933",
+      "41005102",
+      "27632835",
+      "34214989",
+      "30958334",
+      "26076737"
     ],
-    "unique_pmids": 1040,
-    "requested": 1040,
-    "fetched": 1040,
-    "fetch_chunks": 21,
-    "abstracts": 1034,
-    "parsed_abstracts": 1034,
-    "search_candidates": 399,
-    "candidate_parser_parsed": 1040,
-    "candidate_parser_candidates": 399,
+    "unique_pmids": 631,
+    "requested": 631,
+    "fetched": 631,
+    "fetch_chunks": 13,
+    "abstracts": 629,
+    "parsed_abstracts": 629,
+    "search_candidates": 210,
+    "candidate_parser_parsed": 631,
+    "candidate_parser_candidates": 210,
     "candidate_parser_candidates_after_write": 30,
     "manual_candidates": 30,
-    "search_topic_count": 158,
-    "search_returned_records": 6136,
-    "supplemental_query_count": 128,
+    "search_topic_count": 162,
+    "search_returned_records": 4522,
+    "supplemental_query_count": 132,
     "fetch_missing": 0,
     "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "carpal-splint-duration-32870276-2113",
-      "carpal-splint-angle-7979936-2113",
-      "carpal-dynamic-splint-27698630-2113",
-      "carpal-electroacupuncture-splint-27270119-2113",
-      "carpal-splint-laser-19544043-2113",
-      "carpal-ifc-tens-splint-24728028-2113",
-      "carpal-ultrasound-tecar-40106005-2113",
-      "carpal-mirror-exercise-37947269-2113",
-      "carpal-ultrasound-intensity-9862296-2113",
-      "carpal-diode-laser-19025407-2113",
-      "carpal-laser-taping-29594333-2113",
-      "carpal-laser-microtens-12098159-2113",
-      "carpal-acupuncture-neuro-28334999-2113",
-      "carpal-tens-fmri-20684895-2113",
-      "carpal-magnet-placebo-11927062-2113",
-      "carpal-acupuncture-steroid-19590482-2113",
-      "carpal-acupuncture-steroid-long-21111685-2113",
-      "carpal-kinesio-taping-34275887-2113",
-      "carpal-fibrolysis-33373445-2113",
-      "carpal-manual-surgery-pain-28295825-2113",
-      "carpal-manual-surgery-function-28158963-2113",
-      "carpal-biofield-27487406-2113",
-      "carpal-nocturnal-splint-workers-15640980-2113",
-      "carpal-manual-surgery-4yr-32766779-2113",
-      "carpal-computer-education-17448621-2113",
-      "carpal-ultrasound-thermotherapy-16083171-2113",
-      "carpal-nondrug-ultrasound-31006972-2113",
-      "carpal-splint-steroid-phonophoresis-21153642-2113",
-      "carpal-neurodynamic-sham-19801812-2113",
-      "carpal-heat-wrap-15375809-2113"
+      "ankle-active-brace-31042441-2114",
+      "ankle-airbrace-10024963-2114",
+      "ankle-bfr-strength-37558223-2114",
+      "ankle-brace-prevention-24398222-2114",
+      "ankle-calf-stretch-timing-30691752-2114",
+      "ankle-contrast-heat-27036491-2114",
+      "ankle-early-mobilization-8129116-2114",
+      "ankle-fibular-tape-28677942-2114",
+      "ankle-floss-band-41710447-2114",
+      "ankle-hip-strength-41057880-2114",
+      "ankle-hop-female-40174886-2114",
+      "ankle-hop-stabilization-30192681-2114",
+      "ankle-isokinetic-band-36454876-2114",
+      "ankle-maitland-36430049-2114",
+      "ankle-mobilization-33877325-2114",
+      "ankle-neuromuscular-gait-17597944-2114",
+      "ankle-orthoses-sway-9710166-2114",
+      "ankle-orthosis-25967531-2114",
+      "ankle-physio-severity-19463081-2114",
+      "ankle-self-mobilization-33049708-2114",
+      "ankle-sensory-rehab-26717498-2114",
+      "ankle-smart-rehab-38424225-2114",
+      "ankle-stroboscopic-balance-34775656-2114",
+      "ankle-support-21422934-2114",
+      "ankle-tele-neuromuscular-38154933-2114",
+      "ankle-textured-insole-41005102-2114",
+      "ankle-traction-27632835-2114",
+      "ankle-vibration-34214989-2114",
+      "ankle-vr-exercise-30958334-2114",
+      "ankle-wiifit-26076737-2114"
     ],
     "categories": {
       "otc": 0,
       "supp": 0,
       "food": 0,
-      "move": 2,
-      "life": 2,
-      "care": 26,
+      "move": 16,
+      "life": 1,
+      "care": 13,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  ankle-support-21422934-2114 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  ankle-active-brace-31042441-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-bfr-strength-37558223-2114 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-calf-stretch-timing-30691752-2114 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-fibular-tape-28677942-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-floss-band-41710447-2114 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-female-40174886-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-stabilization-30192681-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-maitland-36430049-2114 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-mobilization-33877325-2114 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-neuromuscular-gait-17597944-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthoses-sway-9710166-2114 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthosis-25967531-2114 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-self-mobilization-33049708-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-smart-rehab-38424225-2114 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-stroboscopic-balance-34775656-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-textured-insole-41005102-2114 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-traction-27632835-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vibration-34214989-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vr-exercise-30958334-2114 — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [
-      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요"
+      "주의  ankle-support-21422934-2114 — 사람 수 미상. 원문을 보고 n 을 채우세요"
     ],
     "new_thin_study_warnings": [
-      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  ankle-active-brace-31042441-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-bfr-strength-37558223-2114 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-calf-stretch-timing-30691752-2114 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-fibular-tape-28677942-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-floss-band-41710447-2114 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-female-40174886-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-stabilization-30192681-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-maitland-36430049-2114 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-mobilization-33877325-2114 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-neuromuscular-gait-17597944-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthoses-sway-9710166-2114 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthosis-25967531-2114 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-self-mobilization-33049708-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-smart-rehab-38424225-2114 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-stroboscopic-balance-34775656-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-textured-insole-41005102-2114 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-traction-27632835-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vibration-34214989-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vr-exercise-30958334-2114 — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "carpal-biofield-27487406-2113:30",
-      "carpal-diode-laser-19025407-2113:36",
-      "carpal-fibrolysis-33373445-2113:39",
-      "carpal-kinesio-taping-34275887-2113:30",
-      "carpal-laser-microtens-12098159-2113:11",
-      "carpal-magnet-placebo-11927062-2113:30",
-      "carpal-mirror-exercise-37947269-2113:39",
-      "carpal-neurodynamic-sham-19801812-2113:40",
-      "carpal-nondrug-ultrasound-31006972-2113:33",
-      "carpal-splint-duration-32870276-2113:30",
-      "carpal-splint-laser-19544043-2113:45",
-      "carpal-tens-fmri-20684895-2113:20",
-      "carpal-ultrasound-intensity-9862296-2113:18",
-      "carpal-ultrasound-tecar-40106005-2113:42",
-      "carpal-ultrasound-thermotherapy-16083171-2113:18"
+      "ankle-active-brace-31042441-2114:16",
+      "ankle-bfr-strength-37558223-2114:46",
+      "ankle-calf-stretch-timing-30691752-2114:10",
+      "ankle-fibular-tape-28677942-2114:16",
+      "ankle-floss-band-41710447-2114:42",
+      "ankle-hop-female-40174886-2114:28",
+      "ankle-hop-stabilization-30192681-2114:18",
+      "ankle-maitland-36430049-2114:48",
+      "ankle-mobilization-33877325-2114:45",
+      "ankle-neuromuscular-gait-17597944-2114:20",
+      "ankle-orthoses-sway-9710166-2114:22",
+      "ankle-orthosis-25967531-2114:47",
+      "ankle-self-mobilization-33049708-2114:18",
+      "ankle-smart-rehab-38424225-2114:34",
+      "ankle-stroboscopic-balance-34775656-2114:28",
+      "ankle-textured-insole-41005102-2114:24",
+      "ankle-traction-27632835-2114:20",
+      "ankle-vibration-34214989-2114:16",
+      "ankle-vr-exercise-30958334-2114:21"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
-      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  ankle-support-21422934-2114 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  ankle-active-brace-31042441-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-bfr-strength-37558223-2114 — 사람 46명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-calf-stretch-timing-30691752-2114 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-fibular-tape-28677942-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-floss-band-41710447-2114 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-female-40174886-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-hop-stabilization-30192681-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-maitland-36430049-2114 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-mobilization-33877325-2114 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-neuromuscular-gait-17597944-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthoses-sway-9710166-2114 — 사람 22명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-orthosis-25967531-2114 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-self-mobilization-33049708-2114 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-smart-rehab-38424225-2114 — 사람 34명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-stroboscopic-balance-34775656-2114 — 사람 28명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-textured-insole-41005102-2114 — 사람 24명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-traction-27632835-2114 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vibration-34214989-2114 — 사람 16명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  ankle-vr-exercise-30958334-2114 — 사람 21명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "carpal-supp-1",
-        "returned": 14
-      },
-      {
-        "topic": "carpal-supp-2",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-3",
-        "returned": 9
-      },
-      {
-        "topic": "carpal-supp-4",
-        "returned": 166
-      },
-      {
-        "topic": "carpal-supp-5",
-        "returned": 247
-      },
-      {
-        "topic": "carpal-supp-6",
-        "returned": 201
-      },
-      {
-        "topic": "carpal-supp-7",
-        "returned": 117
-      },
-      {
-        "topic": "carpal-supp-8",
-        "returned": 14
-      },
-      {
-        "topic": "carpal-supp-9",
-        "returned": 88
-      },
-      {
-        "topic": "carpal-supp-10",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-11",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-12",
+        "topic": "ankle initial search",
         "returned": 0
       },
       {
-        "topic": "carpal-supp-13",
-        "returned": 9
-      },
-      {
-        "topic": "carpal-supp-14",
-        "returned": 15
-      },
-      {
-        "topic": "carpal-supp-15",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-16",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-17",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-18",
-        "returned": 29
-      },
-      {
-        "topic": "carpal-supp-19",
-        "returned": 42
-      },
-      {
-        "topic": "carpal-supp-20",
-        "returned": 36
-      },
-      {
-        "topic": "carpal-supp-21",
-        "returned": 17
-      },
-      {
-        "topic": "carpal-supp-22",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-23",
+        "topic": "ankle supplemental and outcome search",
         "returned": 0
-      },
-      {
-        "topic": "carpal-supp-24",
-        "returned": 20
-      },
-      {
-        "topic": "carpal-supp-25",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-26",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-supp-27",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-28",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-29",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-30",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-31",
-        "returned": 35
-      },
-      {
-        "topic": "carpal-supp-32",
-        "returned": 66
-      },
-      {
-        "topic": "carpal-supp-33",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-34",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-35",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-36",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-37",
-        "returned": 6
-      },
-      {
-        "topic": "carpal-supp-38",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-supp-39",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-40",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-41",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-42",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-43",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-44",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-45",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-46",
-        "returned": 4
-      },
-      {
-        "topic": "carpal-supp-47",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-48",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-49",
-        "returned": 28
-      },
-      {
-        "topic": "carpal-supp-50",
-        "returned": 14
-      },
-      {
-        "topic": "carpal-supp-51",
-        "returned": 73
-      },
-      {
-        "topic": "carpal-supp-52",
-        "returned": 36
-      },
-      {
-        "topic": "carpal-supp-53",
-        "returned": 8
-      },
-      {
-        "topic": "carpal-supp-54",
-        "returned": 14
-      },
-      {
-        "topic": "carpal-supp-55",
-        "returned": 38
-      },
-      {
-        "topic": "carpal-supp-56",
-        "returned": 20
-      },
-      {
-        "topic": "carpal-supp-57",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-58",
-        "returned": 37
-      },
-      {
-        "topic": "carpal-supp-59",
-        "returned": 18
-      },
-      {
-        "topic": "carpal-supp-60",
-        "returned": 13
-      },
-      {
-        "topic": "carpal-supp-61",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-62",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-63",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-64",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-65",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-supp-66",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-supp-67",
-        "returned": 20
-      },
-      {
-        "topic": "carpal-supp-68",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-supp-69",
-        "returned": 16
-      },
-      {
-        "topic": "carpal-supp-70",
-        "returned": 32
-      },
-      {
-        "topic": "carpal-supp-71",
-        "returned": 11
-      },
-      {
-        "topic": "carpal-supp-72",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-73",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-supp-74",
-        "returned": 4
-      },
-      {
-        "topic": "carpal-supp-75",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-76",
-        "returned": 0
-      },
-      {
-        "topic": "carpal-supp-77",
-        "returned": 55
-      },
-      {
-        "topic": "carpal-supp-78",
-        "returned": 4
-      },
-      {
-        "topic": "carpal-supp-79",
-        "returned": 10
-      },
-      {
-        "topic": "carpal-supp-80",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-81",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-82",
-        "returned": 17
-      },
-      {
-        "topic": "carpal-supp-83",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-84",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-supp-85",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-supp-86",
-        "returned": 49
-      },
-      {
-        "topic": "carpal-supp-87",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-supp-88",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-89",
-        "returned": 8
-      },
-      {
-        "topic": "carpal-supp-90",
-        "returned": 12
-      },
-      {
-        "topic": "carpal-supp-91",
-        "returned": 5
-      },
-      {
-        "topic": "carpal-supp-92",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-93",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-94",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-95",
-        "returned": 35
-      },
-      {
-        "topic": "carpal-supp-96",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-supp-97",
-        "returned": 53
-      },
-      {
-        "topic": "carpal-supp-98",
-        "returned": 62
-      },
-      {
-        "topic": "carpal-supp-99",
-        "returned": 1
-      },
-      {
-        "topic": "carpal-supp-100",
-        "returned": 7
-      },
-      {
-        "topic": "carpal-outcome-1",
-        "returned": 176
-      },
-      {
-        "topic": "carpal-outcome-2",
-        "returned": 146
-      },
-      {
-        "topic": "carpal-outcome-3",
-        "returned": 154
-      },
-      {
-        "topic": "carpal-outcome-4",
-        "returned": 206
-      },
-      {
-        "topic": "carpal-outcome-5",
-        "returned": 97
-      },
-      {
-        "topic": "carpal-outcome-6",
-        "returned": 504
-      },
-      {
-        "topic": "carpal-outcome-7",
-        "returned": 136
-      },
-      {
-        "topic": "carpal-outcome-8",
-        "returned": 62
-      },
-      {
-        "topic": "carpal-outcome-9",
-        "returned": 196
-      },
-      {
-        "topic": "carpal-outcome-10",
-        "returned": 89
-      },
-      {
-        "topic": "carpal-outcome-11",
-        "returned": 94
-      },
-      {
-        "topic": "carpal-outcome-12",
-        "returned": 46
-      },
-      {
-        "topic": "carpal-outcome-13",
-        "returned": 65
-      },
-      {
-        "topic": "carpal-outcome-14",
-        "returned": 47
-      },
-      {
-        "topic": "carpal-outcome-15",
-        "returned": 93
-      },
-      {
-        "topic": "carpal-outcome-16",
-        "returned": 65
-      },
-      {
-        "topic": "carpal-broad-mild",
-        "returned": 6
-      },
-      {
-        "topic": "carpal-broad-moderate",
-        "returned": 85
-      },
-      {
-        "topic": "carpal-broad-severe",
-        "returned": 21
-      },
-      {
-        "topic": "carpal-broad-chronic",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-broad-workers",
-        "returned": 73
-      },
-      {
-        "topic": "carpal-broad-office",
-        "returned": 3
-      },
-      {
-        "topic": "carpal-broad-pregnancy",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-broad-diabetes",
-        "returned": 2
-      },
-      {
-        "topic": "carpal-broad-older-adults",
-        "returned": 745
-      },
-      {
-        "topic": "carpal-broad-women",
-        "returned": 116
-      },
-      {
-        "topic": "carpal-broad-bilateral",
-        "returned": 27
-      },
-      {
-        "topic": "carpal-broad-primary-care",
-        "returned": 59
       }
     ]
   },
   "resume": {
-    "next_batch": "2114",
-    "worklist_line": "new-expansion-candidates-batch2114",
-    "topic": "new-expansion-candidates-batch2114",
+    "next_batch": "2115",
+    "worklist_line": "new-expansion-candidates-batch2115",
+    "topic": "new-expansion-candidates-batch2115",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -8977,10 +8477,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18870,
-  "unknownN": 1343,
-  "thinStudy": 5401,
-  "openNumeric": 18870,
+  "withVs": 18900,
+  "unknownN": 1344,
+  "thinStudy": 5420,
+  "openNumeric": 18900,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -100626,6 +100126,914 @@
       {
         "topic": "tennis-broad-conservative",
         "returned": 43
+      }
+    ]
+  },
+  "previous_last_batch_2113": {
+    "id": "2113",
+    "commit": "0e1957103",
+    "pushed": true,
+    "expansion_commit": "0e1957103",
+    "data_commits": [
+      "0e1957103"
+    ],
+    "checkpoint_commit": "b6664ffc6",
+    "push_marker_commit": "93238d930",
+    "known_items_commit": "fac10659c",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      "carpal-splint-duration-32870276-2113",
+      "carpal-splint-angle-7979936-2113",
+      "carpal-dynamic-splint-27698630-2113",
+      "carpal-electroacupuncture-splint-27270119-2113",
+      "carpal-splint-laser-19544043-2113",
+      "carpal-ifc-tens-splint-24728028-2113",
+      "carpal-ultrasound-tecar-40106005-2113",
+      "carpal-mirror-exercise-37947269-2113",
+      "carpal-ultrasound-intensity-9862296-2113",
+      "carpal-diode-laser-19025407-2113",
+      "carpal-laser-taping-29594333-2113",
+      "carpal-laser-microtens-12098159-2113",
+      "carpal-acupuncture-neuro-28334999-2113",
+      "carpal-tens-fmri-20684895-2113",
+      "carpal-magnet-placebo-11927062-2113",
+      "carpal-acupuncture-steroid-19590482-2113",
+      "carpal-acupuncture-steroid-long-21111685-2113",
+      "carpal-kinesio-taping-34275887-2113",
+      "carpal-fibrolysis-33373445-2113",
+      "carpal-manual-surgery-pain-28295825-2113",
+      "carpal-manual-surgery-function-28158963-2113",
+      "carpal-biofield-27487406-2113",
+      "carpal-nocturnal-splint-workers-15640980-2113",
+      "carpal-manual-surgery-4yr-32766779-2113",
+      "carpal-computer-education-17448621-2113",
+      "carpal-ultrasound-thermotherapy-16083171-2113",
+      "carpal-nondrug-ultrasound-31006972-2113",
+      "carpal-splint-steroid-phonophoresis-21153642-2113",
+      "carpal-neurodynamic-sham-19801812-2113",
+      "carpal-heat-wrap-15375809-2113"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 369,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 369,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19809 entries; 22929 refs; 18959 trial; 754 obs; 32 animal; 17 lab; 47 case; 18870 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 손목터널증후군의 비처방·비약물 중재 후보를 검색했다. 158개 검색 주제에서 레코드 6136개와 고유 PMID 1040개를 확인했고 1040개를 요청해 1040개 논문 기록과 1034개 초록을 확보했다. 후보 parser 399건에서 보조기·운동·전기·초음파·레이저·침·수기·온열·교육의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 369건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독·비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 15건과 사람 수 미상 5건의 경고는 유지했고 새 비교 경고 6건, 규모 경고 25건, 주제 경고 1건을 수정했다.",
+    "qualified_topics": [
+      "carpal-splint-duration-32870276-2113",
+      "carpal-splint-angle-7979936-2113",
+      "carpal-dynamic-splint-27698630-2113",
+      "carpal-electroacupuncture-splint-27270119-2113",
+      "carpal-splint-laser-19544043-2113",
+      "carpal-ifc-tens-splint-24728028-2113",
+      "carpal-ultrasound-tecar-40106005-2113",
+      "carpal-mirror-exercise-37947269-2113",
+      "carpal-ultrasound-intensity-9862296-2113",
+      "carpal-diode-laser-19025407-2113",
+      "carpal-laser-taping-29594333-2113",
+      "carpal-laser-microtens-12098159-2113",
+      "carpal-acupuncture-neuro-28334999-2113",
+      "carpal-tens-fmri-20684895-2113",
+      "carpal-magnet-placebo-11927062-2113",
+      "carpal-acupuncture-steroid-19590482-2113",
+      "carpal-acupuncture-steroid-long-21111685-2113",
+      "carpal-kinesio-taping-34275887-2113",
+      "carpal-fibrolysis-33373445-2113",
+      "carpal-manual-surgery-pain-28295825-2113",
+      "carpal-manual-surgery-function-28158963-2113",
+      "carpal-biofield-27487406-2113",
+      "carpal-nocturnal-splint-workers-15640980-2113",
+      "carpal-manual-surgery-4yr-32766779-2113",
+      "carpal-computer-education-17448621-2113",
+      "carpal-ultrasound-thermotherapy-16083171-2113",
+      "carpal-nondrug-ultrasound-31006972-2113",
+      "carpal-splint-steroid-phonophoresis-21153642-2113",
+      "carpal-neurodynamic-sham-19801812-2113",
+      "carpal-heat-wrap-15375809-2113"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "carpal-splint-duration-32870276-2113",
+      "carpal-splint-angle-7979936-2113",
+      "carpal-dynamic-splint-27698630-2113",
+      "carpal-electroacupuncture-splint-27270119-2113",
+      "carpal-splint-laser-19544043-2113",
+      "carpal-ifc-tens-splint-24728028-2113",
+      "carpal-ultrasound-tecar-40106005-2113",
+      "carpal-mirror-exercise-37947269-2113",
+      "carpal-ultrasound-intensity-9862296-2113",
+      "carpal-diode-laser-19025407-2113",
+      "carpal-laser-taping-29594333-2113",
+      "carpal-laser-microtens-12098159-2113",
+      "carpal-acupuncture-neuro-28334999-2113",
+      "carpal-tens-fmri-20684895-2113",
+      "carpal-magnet-placebo-11927062-2113",
+      "carpal-acupuncture-steroid-19590482-2113",
+      "carpal-acupuncture-steroid-long-21111685-2113",
+      "carpal-kinesio-taping-34275887-2113",
+      "carpal-fibrolysis-33373445-2113",
+      "carpal-manual-surgery-pain-28295825-2113",
+      "carpal-manual-surgery-function-28158963-2113",
+      "carpal-biofield-27487406-2113",
+      "carpal-nocturnal-splint-workers-15640980-2113",
+      "carpal-manual-surgery-4yr-32766779-2113",
+      "carpal-computer-education-17448621-2113",
+      "carpal-ultrasound-thermotherapy-16083171-2113",
+      "carpal-nondrug-ultrasound-31006972-2113",
+      "carpal-splint-steroid-phonophoresis-21153642-2113",
+      "carpal-neurodynamic-sham-19801812-2113",
+      "carpal-heat-wrap-15375809-2113"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 6,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 25,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 1,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18870,
+    "subject_names_renamed": 1,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "손목터널증후군 국소·원위 전기침=care",
+      "손목터널증후군 전기침·경구 스테로이드=care",
+      "손목터널증후군 전기침 장기추적=care",
+      "손목터널증후군 진동 바이오필드 치료=care",
+      "손목터널증후군 컴퓨터 환자교육=life",
+      "손목터널증후군 다이오드 레이저=care",
+      "손목터널증후군 동적 신장 보조기=care",
+      "손목터널증후군 전기침·야간 보조기=care",
+      "손목터널증후군 섬유유착 해리=care",
+      "손목터널증후군 저강도 온열 랩=life",
+      "손목터널증후군 간섭전류·경피전기·보조기=care",
+      "손목터널증후군 키네시오 테이핑=care",
+      "손목터널증후군 레이저·미세전류 경피전기=care",
+      "손목터널증후군 저출력 레이저·키네시오 테이핑=care",
+      "손목터널증후군 자석치료=care",
+      "손목터널증후군 수기치료·수술 4년 추적=care",
+      "손목터널증후군 수기치료·수술 기능=care",
+      "손목터널증후군 수기치료와 수술의 통증 결과=care",
+      "손목터널증후군 거울치료·반대손 운동=move",
+      "손목터널증후군 신경활주 기법=move",
+      "손목터널증후군 야간 손목 보조기=care",
+      "손목터널증후군 비약물 초음파=care",
+      "손목터널증후군 손목 보조기 각도=care",
+      "손목터널증후군 중립 손목 보조기 기간=care",
+      "손목터널증후군 보조기·저출력 레이저=care",
+      "손목터널증후군 스플린트·스테로이드 음파치료=care",
+      "손목터널증후군 경피전기자극=care",
+      "손목터널증후군 초음파 치료 강도=care",
+      "손목터널증후군 초음파·테카르 치료=care",
+      "손목터널증후군 초음파 온열치료=care"
+    ],
+    "targeted_batch_warnings_remaining": 0,
+    "targeted_batch_warnings_fixed": 32,
+    "build_errors_fixed": 0,
+    "discarded_non_numeric_candidates": [],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2113",
+    "topics": [
+      "carpal-splint-duration-32870276-2113",
+      "carpal-splint-angle-7979936-2113",
+      "carpal-dynamic-splint-27698630-2113",
+      "carpal-electroacupuncture-splint-27270119-2113",
+      "carpal-splint-laser-19544043-2113",
+      "carpal-ifc-tens-splint-24728028-2113",
+      "carpal-ultrasound-tecar-40106005-2113",
+      "carpal-mirror-exercise-37947269-2113",
+      "carpal-ultrasound-intensity-9862296-2113",
+      "carpal-diode-laser-19025407-2113",
+      "carpal-laser-taping-29594333-2113",
+      "carpal-laser-microtens-12098159-2113",
+      "carpal-acupuncture-neuro-28334999-2113",
+      "carpal-tens-fmri-20684895-2113",
+      "carpal-magnet-placebo-11927062-2113",
+      "carpal-acupuncture-steroid-19590482-2113",
+      "carpal-acupuncture-steroid-long-21111685-2113",
+      "carpal-kinesio-taping-34275887-2113",
+      "carpal-fibrolysis-33373445-2113",
+      "carpal-manual-surgery-pain-28295825-2113",
+      "carpal-manual-surgery-function-28158963-2113",
+      "carpal-biofield-27487406-2113",
+      "carpal-nocturnal-splint-workers-15640980-2113",
+      "carpal-manual-surgery-4yr-32766779-2113",
+      "carpal-computer-education-17448621-2113",
+      "carpal-ultrasound-thermotherapy-16083171-2113",
+      "carpal-nondrug-ultrasound-31006972-2113",
+      "carpal-splint-steroid-phonophoresis-21153642-2113",
+      "carpal-neurodynamic-sham-19801812-2113",
+      "carpal-heat-wrap-15375809-2113"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "28334999",
+      "19590482",
+      "21111685",
+      "27487406",
+      "17448621",
+      "19025407",
+      "27698630",
+      "27270119",
+      "33373445",
+      "15375809",
+      "24728028",
+      "34275887",
+      "12098159",
+      "29594333",
+      "11927062",
+      "32766779",
+      "28158963",
+      "28295825",
+      "37947269",
+      "19801812",
+      "15640980",
+      "31006972",
+      "7979936",
+      "32870276",
+      "19544043",
+      "21153642",
+      "20684895",
+      "9862296",
+      "40106005",
+      "16083171"
+    ],
+    "unique_pmids": 1040,
+    "requested": 1040,
+    "fetched": 1040,
+    "fetch_chunks": 21,
+    "abstracts": 1034,
+    "parsed_abstracts": 1034,
+    "search_candidates": 399,
+    "candidate_parser_parsed": 1040,
+    "candidate_parser_candidates": 399,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 158,
+    "search_returned_records": 6136,
+    "supplemental_query_count": 128,
+    "fetch_missing": 0,
+    "missing_pmids": [],
+    "non_prescription_entry_ids": [
+      "carpal-splint-duration-32870276-2113",
+      "carpal-splint-angle-7979936-2113",
+      "carpal-dynamic-splint-27698630-2113",
+      "carpal-electroacupuncture-splint-27270119-2113",
+      "carpal-splint-laser-19544043-2113",
+      "carpal-ifc-tens-splint-24728028-2113",
+      "carpal-ultrasound-tecar-40106005-2113",
+      "carpal-mirror-exercise-37947269-2113",
+      "carpal-ultrasound-intensity-9862296-2113",
+      "carpal-diode-laser-19025407-2113",
+      "carpal-laser-taping-29594333-2113",
+      "carpal-laser-microtens-12098159-2113",
+      "carpal-acupuncture-neuro-28334999-2113",
+      "carpal-tens-fmri-20684895-2113",
+      "carpal-magnet-placebo-11927062-2113",
+      "carpal-acupuncture-steroid-19590482-2113",
+      "carpal-acupuncture-steroid-long-21111685-2113",
+      "carpal-kinesio-taping-34275887-2113",
+      "carpal-fibrolysis-33373445-2113",
+      "carpal-manual-surgery-pain-28295825-2113",
+      "carpal-manual-surgery-function-28158963-2113",
+      "carpal-biofield-27487406-2113",
+      "carpal-nocturnal-splint-workers-15640980-2113",
+      "carpal-manual-surgery-4yr-32766779-2113",
+      "carpal-computer-education-17448621-2113",
+      "carpal-ultrasound-thermotherapy-16083171-2113",
+      "carpal-nondrug-ultrasound-31006972-2113",
+      "carpal-splint-steroid-phonophoresis-21153642-2113",
+      "carpal-neurodynamic-sham-19801812-2113",
+      "carpal-heat-wrap-15375809-2113"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 0,
+      "food": 0,
+      "move": 2,
+      "life": 2,
+      "care": 26,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [
+      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요"
+    ],
+    "new_thin_study_warnings": [
+      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "carpal-biofield-27487406-2113:30",
+      "carpal-diode-laser-19025407-2113:36",
+      "carpal-fibrolysis-33373445-2113:39",
+      "carpal-kinesio-taping-34275887-2113:30",
+      "carpal-laser-microtens-12098159-2113:11",
+      "carpal-magnet-placebo-11927062-2113:30",
+      "carpal-mirror-exercise-37947269-2113:39",
+      "carpal-neurodynamic-sham-19801812-2113:40",
+      "carpal-nondrug-ultrasound-31006972-2113:33",
+      "carpal-splint-duration-32870276-2113:30",
+      "carpal-splint-laser-19544043-2113:45",
+      "carpal-tens-fmri-20684895-2113:20",
+      "carpal-ultrasound-intensity-9862296-2113:18",
+      "carpal-ultrasound-tecar-40106005-2113:42",
+      "carpal-ultrasound-thermotherapy-16083171-2113:18"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  carpal-heat-wrap-15375809-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-ifc-tens-splint-24728028-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-laser-taping-29594333-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-nocturnal-splint-workers-15640980-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-splint-angle-7979936-2113 — 사람 수 미상. 원문을 보고 n 을 채우세요",
+      "주의  carpal-biofield-27487406-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-diode-laser-19025407-2113 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-fibrolysis-33373445-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-kinesio-taping-34275887-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-laser-microtens-12098159-2113 — 사람 11명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-magnet-placebo-11927062-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-mirror-exercise-37947269-2113 — 사람 39명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-neurodynamic-sham-19801812-2113 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-nondrug-ultrasound-31006972-2113 — 사람 33명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-duration-32870276-2113 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-splint-laser-19544043-2113 — 사람 45명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-tens-fmri-20684895-2113 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-intensity-9862296-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-tecar-40106005-2113 — 사람 42명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  carpal-ultrasound-thermotherapy-16083171-2113 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "carpal-supp-1",
+        "returned": 14
+      },
+      {
+        "topic": "carpal-supp-2",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-3",
+        "returned": 9
+      },
+      {
+        "topic": "carpal-supp-4",
+        "returned": 166
+      },
+      {
+        "topic": "carpal-supp-5",
+        "returned": 247
+      },
+      {
+        "topic": "carpal-supp-6",
+        "returned": 201
+      },
+      {
+        "topic": "carpal-supp-7",
+        "returned": 117
+      },
+      {
+        "topic": "carpal-supp-8",
+        "returned": 14
+      },
+      {
+        "topic": "carpal-supp-9",
+        "returned": 88
+      },
+      {
+        "topic": "carpal-supp-10",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-11",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-12",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-13",
+        "returned": 9
+      },
+      {
+        "topic": "carpal-supp-14",
+        "returned": 15
+      },
+      {
+        "topic": "carpal-supp-15",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-16",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-17",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-18",
+        "returned": 29
+      },
+      {
+        "topic": "carpal-supp-19",
+        "returned": 42
+      },
+      {
+        "topic": "carpal-supp-20",
+        "returned": 36
+      },
+      {
+        "topic": "carpal-supp-21",
+        "returned": 17
+      },
+      {
+        "topic": "carpal-supp-22",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-23",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-24",
+        "returned": 20
+      },
+      {
+        "topic": "carpal-supp-25",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-26",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-supp-27",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-28",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-29",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-30",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-31",
+        "returned": 35
+      },
+      {
+        "topic": "carpal-supp-32",
+        "returned": 66
+      },
+      {
+        "topic": "carpal-supp-33",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-34",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-35",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-36",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-37",
+        "returned": 6
+      },
+      {
+        "topic": "carpal-supp-38",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-supp-39",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-40",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-41",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-42",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-43",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-44",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-45",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-46",
+        "returned": 4
+      },
+      {
+        "topic": "carpal-supp-47",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-48",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-49",
+        "returned": 28
+      },
+      {
+        "topic": "carpal-supp-50",
+        "returned": 14
+      },
+      {
+        "topic": "carpal-supp-51",
+        "returned": 73
+      },
+      {
+        "topic": "carpal-supp-52",
+        "returned": 36
+      },
+      {
+        "topic": "carpal-supp-53",
+        "returned": 8
+      },
+      {
+        "topic": "carpal-supp-54",
+        "returned": 14
+      },
+      {
+        "topic": "carpal-supp-55",
+        "returned": 38
+      },
+      {
+        "topic": "carpal-supp-56",
+        "returned": 20
+      },
+      {
+        "topic": "carpal-supp-57",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-58",
+        "returned": 37
+      },
+      {
+        "topic": "carpal-supp-59",
+        "returned": 18
+      },
+      {
+        "topic": "carpal-supp-60",
+        "returned": 13
+      },
+      {
+        "topic": "carpal-supp-61",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-62",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-63",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-64",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-65",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-supp-66",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-supp-67",
+        "returned": 20
+      },
+      {
+        "topic": "carpal-supp-68",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-supp-69",
+        "returned": 16
+      },
+      {
+        "topic": "carpal-supp-70",
+        "returned": 32
+      },
+      {
+        "topic": "carpal-supp-71",
+        "returned": 11
+      },
+      {
+        "topic": "carpal-supp-72",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-73",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-supp-74",
+        "returned": 4
+      },
+      {
+        "topic": "carpal-supp-75",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-76",
+        "returned": 0
+      },
+      {
+        "topic": "carpal-supp-77",
+        "returned": 55
+      },
+      {
+        "topic": "carpal-supp-78",
+        "returned": 4
+      },
+      {
+        "topic": "carpal-supp-79",
+        "returned": 10
+      },
+      {
+        "topic": "carpal-supp-80",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-81",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-82",
+        "returned": 17
+      },
+      {
+        "topic": "carpal-supp-83",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-84",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-supp-85",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-supp-86",
+        "returned": 49
+      },
+      {
+        "topic": "carpal-supp-87",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-supp-88",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-89",
+        "returned": 8
+      },
+      {
+        "topic": "carpal-supp-90",
+        "returned": 12
+      },
+      {
+        "topic": "carpal-supp-91",
+        "returned": 5
+      },
+      {
+        "topic": "carpal-supp-92",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-93",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-94",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-95",
+        "returned": 35
+      },
+      {
+        "topic": "carpal-supp-96",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-supp-97",
+        "returned": 53
+      },
+      {
+        "topic": "carpal-supp-98",
+        "returned": 62
+      },
+      {
+        "topic": "carpal-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "carpal-supp-100",
+        "returned": 7
+      },
+      {
+        "topic": "carpal-outcome-1",
+        "returned": 176
+      },
+      {
+        "topic": "carpal-outcome-2",
+        "returned": 146
+      },
+      {
+        "topic": "carpal-outcome-3",
+        "returned": 154
+      },
+      {
+        "topic": "carpal-outcome-4",
+        "returned": 206
+      },
+      {
+        "topic": "carpal-outcome-5",
+        "returned": 97
+      },
+      {
+        "topic": "carpal-outcome-6",
+        "returned": 504
+      },
+      {
+        "topic": "carpal-outcome-7",
+        "returned": 136
+      },
+      {
+        "topic": "carpal-outcome-8",
+        "returned": 62
+      },
+      {
+        "topic": "carpal-outcome-9",
+        "returned": 196
+      },
+      {
+        "topic": "carpal-outcome-10",
+        "returned": 89
+      },
+      {
+        "topic": "carpal-outcome-11",
+        "returned": 94
+      },
+      {
+        "topic": "carpal-outcome-12",
+        "returned": 46
+      },
+      {
+        "topic": "carpal-outcome-13",
+        "returned": 65
+      },
+      {
+        "topic": "carpal-outcome-14",
+        "returned": 47
+      },
+      {
+        "topic": "carpal-outcome-15",
+        "returned": 93
+      },
+      {
+        "topic": "carpal-outcome-16",
+        "returned": 65
+      },
+      {
+        "topic": "carpal-broad-mild",
+        "returned": 6
+      },
+      {
+        "topic": "carpal-broad-moderate",
+        "returned": 85
+      },
+      {
+        "topic": "carpal-broad-severe",
+        "returned": 21
+      },
+      {
+        "topic": "carpal-broad-chronic",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-broad-workers",
+        "returned": 73
+      },
+      {
+        "topic": "carpal-broad-office",
+        "returned": 3
+      },
+      {
+        "topic": "carpal-broad-pregnancy",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-broad-diabetes",
+        "returned": 2
+      },
+      {
+        "topic": "carpal-broad-older-adults",
+        "returned": 745
+      },
+      {
+        "topic": "carpal-broad-women",
+        "returned": 116
+      },
+      {
+        "topic": "carpal-broad-bilateral",
+        "returned": 27
+      },
+      {
+        "topic": "carpal-broad-primary-care",
+        "returned": 59
       }
     ]
   }
