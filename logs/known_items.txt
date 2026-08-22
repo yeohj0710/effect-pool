@@ -15152,3 +15152,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20176; subjects 13176; refs 23296; numeric comparison entries 19237; unknown-n 1369; thin-study 5549
 - data commit: 93880ff9680abdec575f324500533ad6eee65708; PUSHED=false checkpoint: 0492b5f8fb805489b4f7fe8badb1e2741725b101; PUSHED=true marker: 69f698ee8e3f7cd17ad057b4e55dbdc6147dd583
 - next_batch: 2129; resume point: new-expansion-candidates-batch2129
+
+## Batch 2129 (2026-08-23) — 편두통 비처방·보존적 근거 확장
+- topics: 30; selected: 8; non-prescription selected: 8; prescription selected: 0
+- search: 30 topics; 1964 search records; 1232 unique PMID
+- fetch: requested 1232; fetched 1226; chunks 13; abstracts 1183; missing 6 (28121095, 39471258, 33263968, 20734517, 33411427, 23304741)
+- candidates: parser 1226 parsed; candidate parser candidates 230; selected 8; held/excluded 222
+- selected PMID: 29379562, 32313669, 34484887, 34574879, 39474932, 39601100, 40457144, 42630056
+- new IDs and PMID: migraine-behavioral-weight-loss-32313669-2129=32313669, migraine-etns-subgroup-39601100-2129=39601100, migraine-exercise-sleep-40457144-2129=40457144, migraine-internet-cbt-39474932-2129=39474932, migraine-ketogenic-diet-34574879-2129=34574879, migraine-mbct-subgroup-34484887-2129=34484887, migraine-melatonin-29379562-2129=29379562, migraine-pediatric-aerobic-exercise-42630056-2129=42630056
+- categories: otc 0, supp 1, food 1, move 1, life 2, care 3, rx 0; all 8 selected entries are non-prescription or conservative-care entries
+- evidence: 자기주도 인터넷 인지행동치료·마음챙김 인지치료, 외부 삼차신경 자극, 소아 유산소 운동, 운동·수면 관리, 케톤식, 멜라토닌, 행동 체중감량의 직접 숫자 비교·비율·효과크기·신뢰구간 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 1차 ITT가 무효인 연구, 하위분석, 소규모 파일럿의 한계를 초록 수치대로 기록했다.
+- excluded/held: 고찰·메타분석·프로토콜·관찰연구·단일군·처방약 단독·처방약 병용으로 비처방 효과를 분리할 수 없는 연구·수치 부족 후보 222건을 보류했다. PMID 28121095·39471258·33263968·20734517·33411427·23304741은 EFetch 응답에서 확인되지 않아 제외했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2129.mjs passed; 8 files, 8 unique PMID, 8 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 3 (migraine-exercise-sleep-40457144-2129 n=19, migraine-ketogenic-diet-34574879-2129 n=26, migraine-pediatric-aerobic-exercise-42630056-2129 n=19)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 3; comparator warnings fixed 0; effect warnings fixed 1; line warnings fixed 1; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20184; subjects 13183; refs 23304; numeric comparison entries 19245; unknown-n 1369; thin-study 5552
+- data commit: 334b33465a0d56ebfb7e64fc844bb619701c8269; PUSHED=false checkpoint: 6cd96c69192cea277c023cf3177ebe1573ae3025; PUSHED=true marker: 246c71c598bff94de3b40ee90ca93247d9afded2
+- next_batch: 2130; resume point: new-expansion-candidates-batch2130
