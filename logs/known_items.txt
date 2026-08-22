@@ -15136,3 +15136,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20167; subjects 13168; refs 23287; numeric comparison entries 19228; unknown-n 1369; thin-study 5543
 - data commit: a5ca7ae2e303032766018cde1b1e277f3883e463; PUSHED=false checkpoint: 8e2d8e70b925246c6909fda85052e16e25adc85b; PUSHED=true marker: 028d7b2868544c82f0950d9b7c9925aefbd9f784
 - next_batch: 2128; resume point: new-expansion-candidates-batch2128
+
+## Batch 2128 (2026-08-23) — 원형탈모 비처방·보존적 근거 확장
+- topics: 30; selected: 9; non-prescription selected: 9; prescription selected: 0
+- search: 30 topics; 118 search records; 96 unique PMID
+- fetch: requested 96; fetched 96; chunks 1; abstracts 92; missing 0
+- candidates: parser 96 parsed; candidate parser candidates 16; selected 9; held/excluded 7
+- selected PMID: 16343028, 19840308, 30411986, 33359595, 34298402, 34710658, 34859460, 38840345, 39393548
+- new IDs and PMID: alopecia-areata-azelaic-anthralin-16343028-2128=16343028, alopecia-areata-dpcp-anthralin-34298402-2128=34298402, alopecia-areata-dpcp-regimen-34710658-2128=34710658, alopecia-areata-excimer-34859460-2128=34859460, alopecia-areata-excimer-children-19840308-2128=19840308, alopecia-areata-microneedle-betamethasone-39393548-2128=39393548, alopecia-areata-prp-minoxidil-38840345-2128=38840345, alopecia-areata-prp-saline-33359595-2128=33359595, alopecia-areata-puva-30411986-2128=30411986
+- categories: otc 0, supp 0, food 0, move 0, life 0, care 9, rx 0; all 9 selected entries are non-prescription or conservative-care entries
+- evidence: PUVA·엑시머 광치료, 안트랄린·접촉면역치료, 혈소판풍부혈장, 미세침 시술의 직접 숫자 비교·비율·효과크기 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 처방 성분이 포함된 보조요법은 비처방 시술 효과를 분리할 수 있는 범위만 기록했고, 소규모 연구의 한계를 초록 수치대로 유지했다.
+- excluded/held: 처방약 단독·처방약 혼합·고찰·메타분석·프로토콜·관찰연구·중복·수치 부족 후보 7건을 보류했다. PMID 34176196(기존 미세침·냉동치료 항목)과 31707498(기존 스퀼 추출물 항목)는 기존 데이터와 중복되어 새 항목으로 다시 기록하지 않았다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2128.mjs passed; 9 files, 9 unique PMID, 9 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 6 (alopecia-areata-azelaic-anthralin-16343028-2128 n=31, alopecia-areata-dpcp-regimen-34710658-2128 n=30, alopecia-areata-excimer-34859460-2128 n=16, alopecia-areata-excimer-children-19840308-2128 n=11, alopecia-areata-prp-saline-33359595-2128 n=27, alopecia-areata-puva-30411986-2128 n=40)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 6; comparator warnings fixed 0; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20176; subjects 13176; refs 23296; numeric comparison entries 19237; unknown-n 1369; thin-study 5549
+- data commit: 93880ff9680abdec575f324500533ad6eee65708; PUSHED=false checkpoint: 0492b5f8fb805489b4f7fe8badb1e2741725b101; PUSHED=true marker: 69f698ee8e3f7cd17ad057b4e55dbdc6147dd583
+- next_batch: 2129; resume point: new-expansion-candidates-batch2129
