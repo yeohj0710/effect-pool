@@ -15104,3 +15104,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20126; subjects 13128; refs 23246; numeric comparison entries 19187; unknown-n 1368; thin-study 5525
 - data commit: 3518ceab999089c5ae2adf0bf36dee7c354a3682; PUSHED=false checkpoint: 27e80140c618a4b7e36c01cba2e7c1d632534708; PUSHED=true marker: ae95d9a45ea9263194b1d46d9de86e0d4ac99f6c
 - next_batch: 2126; resume point: new-expansion-candidates-batch2126
+
+## Batch 2126 (2026-08-23) — 건선 비처방·보존적 근거 확장
+- topics: 30; selected: 20; non-prescription selected: 20; prescription selected: 0
+- search: 30 topics; 1176 search records; 840 unique PMID
+- fetch: requested 840; fetched 839; chunks 9; abstracts 790; missing 1 (40561100)
+- candidates: parser 839 parsed; candidate parser candidates 280; selected 20; held/excluded 260
+- selected PMID: 11069502, 15097957, 15206693, 16847198, 17519218, 18996858, 19423623, 20082244, 22466942, 22515588, 25834623, 29749363, 30156327, 37429654, 38899599, 40563994, 41203092, 41861208, 42555361, 8491161
+- new IDs and PMID: psoriasis-uva-sunbed-11069502-2126=11069502, psoriasis-nbuvb-cream-puva-15097957-2126=15097957, psoriasis-nbuvb-bath-puva-15206693-2126=15206693, psoriasis-puva-nbuvb-16847198-2126=16847198, psoriasis-saltwater-uvb-17519218-2126=17519218, psoriasis-low-calorie-diet-18996858-2126=18996858, psoriasis-home-uvb-19423623-2126=19423623, psoriasis-pulian-ointment-20082244-2126=20082244, psoriasis-auricular-formula-22466942-2126=22466942, psoriasis-targeted-uvb-22515588-2126=22515588, psoriasis-shidu-herbal-25834623-2126=25834623, psoriasis-unani-puva-29749363-2126=29749363, psoriasis-kunzea-oil-30156327-2126=30156327, psoriasis-moxibustion-obesity-37429654-2126=37429654, psoriasis-periodontal-38899599-2126=38899599, psoriasis-nac-vitamin-e-40563994-2126=40563994, psoriasis-jueyin-granules-41203092-2126=41203092, psoriasis-cupping-nbuvb-41861208-2126=41861208, psoriasis-meditation-42555361-2126=42555361, psoriasis-oily-fish-8491161-2126=8491161
+- categories: otc 0, supp 3, food 1, move 0, life 2, care 14, rx 0; non-prescription categories 20
+- evidence: 가정용·표적·협대역·목욕·소금물·선베드 광치료, 기름진 생선 식단, 쿤제아·아세틸시스테인·비타민이·쥐인 보충제, 마음챙김 명상, 이침·뜸·치주치료·저열량 식단·부항, 한방 외용제·포련 연고·유나니 치료의 직접 숫자 비교·비율·효과크기·신뢰구간 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 유의한 결과와 유의하지 않은 결과, 처방 성분이 포함된 보조요법과 분할신체 연구의 한계를 초록 수치대로 기록했다.
+- excluded/held: 고찰·메타분석·프로토콜·처방약 단독·처방약 혼합·관찰연구·중복·수치 부족 후보 260건을 보류했다. 표본 수나 p값만 있고 군별 수치 비교가 없는 후보 10건(32129962, 27680219, 24697586, 10877248, 7904411, 21435024, 1467291, 16645428, 34193264, 33258354)은 숫자 기준을 충족하지 않아 기록하지 않았다. PMID 40561100은 EFetch 응답에서 확인되지 않아 제외했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2126.mjs passed; 20 files, 20 unique PMID, 20 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 7 (psoriasis-kunzea-oil-30156327-2126 n=30, psoriasis-nac-vitamin-e-40563994-2126 n=45, psoriasis-nbuvb-bath-puva-15206693-2126 n=17, psoriasis-nbuvb-cream-puva-15097957-2126 n=30, psoriasis-oily-fish-8491161-2126 n=18, psoriasis-targeted-uvb-22515588-2126 n=30, psoriasis-uva-sunbed-11069502-2126 n=38)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 7; comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20146; subjects 13147; refs 23266; numeric comparison entries 19207; unknown-n 1368; thin-study 5532
+- data commit: cd48a3fba7d1cbc64bf0fbef5f67377d4999e38a; PUSHED=false checkpoint: 7e0d60617bd836b40e0c8e5858cc91f9c62cdbe4; PUSHED=true marker: 148d055817f42db0b7f1fb0be4a653ae93ff231f
+- next_batch: 2127; resume point: new-expansion-candidates-batch2127
