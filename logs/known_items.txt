@@ -15088,3 +15088,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20117; subjects 13119; refs 23237; numeric comparison entries 19178; unknown-n 1367; thin-study 5521
 - data commit: e346185c9a28f90354922270d1c1a3d335af3f74; PUSHED=false checkpoint: 39dfc9950dd994cc9253590d0ea1190d0ea59a9e; PUSHED=true marker: e27f38af0933baea0851db1d8febc2f7119d72cc
 - next_batch: 2125; resume point: new-expansion-candidates-batch2125
+
+## Batch 2125 (2026-08-23) — 만성 비부비동염 비처방·보존적 근거 확장
+- topics: 30; selected: 9; non-prescription selected: 9; prescription selected: 0
+- search: 30 topics; 325 search records; 196 unique PMID
+- fetch: requested 196; fetched 196; chunks 2; abstracts 195; missing 0
+- candidates: parser 196 parsed; candidate parser candidates 62; selected 9; held/excluded 53
+- selected PMID: 16481815, 17075402, 21290392, 25137523, 27556896, 31905760, 33892819, 39125554, 39950814
+- new IDs and PMID: aerd-low-salicylate-diet-33892819-2125=33892819, crs-debridement-17075402-2125=17075402, crs-hot-saline-25137523-2125=25137523, crs-nac-irrigation-39125554-2125=39125554, crs-nasal-packing-16481815-2125=16481815, crs-phototherapy-21290392-2125=21290392, crs-saline-irrigation-27556896-2125=27556896, crs-spray-cryotherapy-31905760-2125=31905760, crs-vitamin-d-39950814-2125=39950814
+- categories: otc 0, supp 1, food 0, move 0, life 1, care 7, rx 0; all 9 selected entries are non-prescription or conservative-care entries
+- evidence: 아세틸시스테인·식염수 세척, 수술 후 비흡수성 패킹·변연절제·분무 냉동치료·근적외선 광치료, 수술 중 식염수 온도, 저살리실산 식단, 수술 후 비타민디 보충의 직접 숫자 결과·비율·효과크기 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 유의한 결과와 유의하지 않은 결과, 수술 후 관리의 범위, 표본 수 미상과 소규모 연구의 한계를 초록 수치대로 기록했다.
+- excluded/held: 처방약 단독·처방약 병용으로 비처방 효과를 분리할 수 없는 연구·고찰·메타분석·프로토콜·단일군·건강인 연구·수치 부족·중복·대조군 부족 후보 53건을 보류했다. ClinicalTrials.gov-only 기록은 사용하지 않았다. 브라우저는 사용하지 않았다.
+- validator: etc/validate2125.mjs passed; 9 files, 9 unique PMID, 9 Korean subjects and titles, categories/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 1 (crs-saline-irrigation-27556896-2125); truthful thin-study 4 (aerd-low-salicylate-diet-33892819-2125 n=7, crs-nac-irrigation-39125554-2125 n=49, crs-phototherapy-21290392-2125 n=23, crs-spray-cryotherapy-31905760-2125 n=26)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 5; comparator warnings fixed 2; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20126; subjects 13128; refs 23246; numeric comparison entries 19187; unknown-n 1368; thin-study 5525
+- data commit: 3518ceab999089c5ae2adf0bf36dee7c354a3682; PUSHED=false checkpoint: 27e80140c618a4b7e36c01cba2e7c1d632534708; PUSHED=true marker: ae95d9a45ea9263194b1d46d9de86e0d4ac99f6c
+- next_batch: 2126; resume point: new-expansion-candidates-batch2126
