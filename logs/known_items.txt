@@ -14325,3 +14325,17 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: f0c85f156c597a335dc0adf33d678d4ff88f6e37
 - PUSHED=true marker: fc0e67617e7a28b56f9e59f135f5429111b99958
 - next_batch: 2072; resume point: new-expansion-candidates-batch2072
+- batch: 2072; topic: 원발성 월경통 비처방·비약물 후보; topics 50; selected 8; non-prescription selected 8; prescription selected 0
+- search: 1272 records; 638 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 638; chunks 13; fetched 638; abstracts 631; missing 0
+- candidates: parser 638 parsed; candidate parser candidates 60; selected 8; held/excluded 52
+- selected PMID: 36523895, 40004951, 11762659, 21476202, 12400430, 28318845, 24812900, 8935744
+- new IDs and PMID: dysmenorrhea-hiit-2072-36523895=36523895, dysmenorrhea-probiotic-hiit-2072-40004951=40004951, dysmenorrhea-vitamin-e-2072-11762659=11762659, dysmenorrhea-acupuncture-hrv-2072-21476202=21476202, dysmenorrhea-acupressure-2072-12400430=12400430, dysmenorrhea-communication-2072-28318845=28318845, dysmenorrhea-lingtong-2072-24812900=24812900, dysmenorrhea-vitamin-b1-2072-8935744=8935744
+- categories: otc 0, supp 3, food 0, life 1, care 3, move 1, rx 0
+- evidence: 고강도간헐운동·운동과 유산균·비타민E·침술·지압·진료 의사소통·링통캡슐·비타민B1을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다. 비타민B1 연구는 초록에서 위약군별 최종 비율을 분리하지 않아 통합 결과만 기록했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 52건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2072.mjs passed; 8 files, 8 unique PMID, 8 Korean subjects and titles, errors 0, warnings 0; unknown-n 2 (dysmenorrhea-hiit-2072-36523895, dysmenorrhea-probiotic-hiit-2072-40004951); truthful thin-study 1 (dysmenorrhea-acupuncture-hrv-2072-21476202 n=38)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 3; comparator warnings fixed 1; subject warnings fixed 1; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 3
+- totals after batch: entries 18791; subjects 11818; refs 21911; numeric comparison entries 17852; unknown-n 1290; thin-study 5072
+- data commit: ca919a529; PUSHED=false checkpoint: 95270ac71; PUSHED=true marker: a015aa642
+- next_batch: 2073; resume point: new-expansion-candidates-batch2073
