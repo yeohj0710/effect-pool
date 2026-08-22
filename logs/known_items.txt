@@ -14208,3 +14208,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: b3ef75022dd4b0fff3ad5f4671fdb01a0b22270c
 - PUSHED=true marker: 6914cfc78dfc4e41050223a4bc3fe83412054501
 - next_batch: 2065; resume point: new-expansion-candidates-batch2065
+
+## Batch 2065 — 장기 코로나 후유증 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 30; non-prescription selected 30; prescription selected 0
+- search: 1257 records; 509 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 509; chunks 11; fetched 509; abstracts 508; missing 0
+- candidates: parser 95; selected 30; held/excluded 65
+- selected PMID: 36815161, 41493630, 40943540, 39457358, 36905161, 36549786, 39681609, 41876788, 39358543, 39516528, 41058606, 38492007, 37792437, 39095520, 40706565, 42521821, 40544138, 38099612, 38330704, 38860716, 37155736, 39127085, 38794767, 37944311, 39779922, 40228859, 36208548, 40014480, 36501014, 40836768
+- new IDs and PMID: longcovid-vr-rehab-2065-36815161=36815161, longcovid-online-exercise-pediatric-2065-41493630=41493630, longcovid-hiit-triphala-2065-40943540=40943540, longcovid-mat-pilates-2065-39457358=39457358, longcovid-estim-perfusion-2065-36905161=36905161, longcovid-inspiratory-training-2065-36549786=36549786, longcovid-symptom-titrated-exercise-2065-39681609=39681609, longcovid-activity-coaching-2065-41876788=41876788, longcovid-digital-cognitive-2065-39358543=39358543, longcovid-tens-2065-39516528=39516528, longcovid-olfactory-web-2065-41058606=41058606, longcovid-olfactory-supplement-2065-38492007=38492007, longcovid-digital-support-2065-37792437=37792437, longcovid-estim-strength-2065-39095520=39095520, longcovid-ces-2065-40706565=40706565, longcovid-integrated-care-2065-42521821=42521821, longcovid-hyperoxia-2065-40544138=40544138, longcovid-creatine-breathing-2065-38099612=38099612, longcovid-lifestyle-adjustment-2065-38330704=38330704, longcovid-diaphragm-breathing-2065-38860716=38860716, longcovid-cbt-fatigue-2065-37155736=37155736, longcovid-intermittent-hypoxia-2065-39127085=39127085, longcovid-hydrogen-water-2065-38794767=38794767, longcovid-alpha-lipoic-2065-37944311=37944311, longcovid-weight-management-2065-39779922=39779922, longcovid-hbot-2065-40228859=40228859, longcovid-hbot-connectivity-2065-36208548=36208548, longcovid-tragus-stimulation-2065-40014480=40014480, longcovid-arginine-vitc-2065-36501014=36501014, longcovid-optimal-health-2065-40836768=40836768
+- categories: care 13, move 5, life 7, supp 4, food 1, otc 0, rx 0
+- evidence: 가상현실·온라인·증상맞춤·필라테스·신체활동 코칭, 흡기근·횡격막 호흡·간헐적 저산소 노출, 디지털 인지훈련·자기관리·심리교육, 후각훈련·보조제, 전기자극·귀이주 자극·고압산소, 체중관리·생활조정, 크레아틴·수소수·알파리포산·아르기닌·비타민씨를 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰·사례·수치 부족·대상 불일치 후보 65건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2065.mjs passed; 30 files, 30 unique PMID, 30 Korean subjects and titles, errors 0, warnings 0; unknown-n 0; truthful thin-study 10 (longcovid-vr-rehab-2065-36815161 n=32, longcovid-online-exercise-pediatric-2065-41493630 n=14, longcovid-mat-pilates-2065-39457358 n=49, longcovid-estim-perfusion-2065-36905161 n=18, longcovid-inspiratory-training-2065-36549786 n=26, longcovid-tens-2065-39516528 n=25, longcovid-estim-strength-2065-39095520 n=18, longcovid-ces-2065-40706565 n=40, longcovid-creatine-breathing-2065-38099612 n=8, longcovid-hydrogen-water-2065-38794767 n=32)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 10; comparator warnings fixed 4; effect warnings fixed 0; line warnings fixed 2; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 10
+- totals after batch: entries 18650; subjects 11677; refs 21770; numeric group-comparison entries 17711; unknown-n 1283; thin-study 5033
+- data commit: f84f421652171bc37583eaa3c20776e4fedc36a8
+- PUSHED=false checkpoint: d0bfbf0ca9662adfe4b155172e09f7a8275d8f43
+- PUSHED=true marker: 625c35a00c99353cf7e27cd9c972fc089fe12b56
+- next_batch: 2066; resume point: new-expansion-candidates-batch2066
