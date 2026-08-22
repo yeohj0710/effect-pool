@@ -2,28 +2,28 @@
   "updated": "2026-08-23",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 19582,
-  "subjects": 12596,
-  "refs": 22702,
+  "entries": 19612,
+  "subjects": 12626,
+  "refs": 22732,
   "kinds": {
     "otc": 748,
     "supp": 2808,
     "food": 1525,
-    "move": 2910,
-    "life": 2612,
-    "care": 6290,
+    "move": 2928,
+    "life": 2616,
+    "care": 6298,
     "rx": 2689
   },
   "tiers": {
-    "trial": 18732,
+    "trial": 18762,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 17
   },
   "dirs": {
-    "pos": 13492,
-    "null": 4389,
+    "pos": 13514,
+    "null": 4397,
     "open": 1464,
     "harm": 237
   },
@@ -31,8 +31,8 @@
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
-    "no_evidence_pending": 7597,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2105는 일차성 두통(긴장형 두통·편두통)의 침·이완·수기치료·자극·식이·보충중재 직접 근거 12건을 기록했다. Resume with batch 2106."
+    "no_evidence_pending": 10124,
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2106은 요통의 운동·교육·열·수기치료·침·기기·자기관리 직접 근거 30건을 기록했다. Resume with batch 2107."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,27 +40,27 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2105는 일차성 두통의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 12건을 기록했다. Resume with batch 2106."
+    "note": "Batch 2106은 요통의 비처방·비약물 후보를 검색했고 중재군과 대조군의 수치 결과·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 직접 근거 30건을 기록했다. Resume with batch 2107."
   },
   "checkpoints": {
     "over_counter_share": "25.9% (5081 entries)",
     "rx_share": "13.7% (2689)",
-    "no_effect_or_harm_share": "23.6% (4626 entries)",
-    "vs_share": "95.2% (18643)",
+    "no_effect_or_harm_share": "23.6% (4634 entries)",
+    "vs_share": "95.2% (18673)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "95.7% (18732)",
+    "trial_share": "95.7% (18762)",
     "non_trial_share": "4.3% (850 entries)",
     "build_warnings": {
       "unknown_n": 1333,
-      "thin_study": 5312,
-      "targeted_batch_warnings": 7
+      "thin_study": 5326,
+      "targeted_batch_warnings": 14
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2105 data and marker pushed; known_items and final state commit pending. Resume with batch 2106.",
+  "next": "Batch 2106 data commit 5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4; PUSHED=false checkpoint pending; resume with batch 2107.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6772,85 +6772,139 @@
     ]
   },
   "last_batch": {
-    "id": "2105",
-    "commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
-    "pushed": true,
-    "expansion_commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
+    "id": "2106",
+    "commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
+    "pushed": false,
+    "expansion_commit": "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4",
     "data_commits": [
-      "03ab5d64664852d700eec9432edd7bdb80180df7"
+      "5fb904620dfb2d62ffa57d86ab4f5f56f4514cc4"
     ],
-    "checkpoint_commit": "fdeb43245678b2a472d41571a66c9381b464ab86",
-    "push_marker_commit": "44798c94cd5a7a0bf02637527879a6925642e99a",
-    "known_items_commit": "c23d09b8a9307e3aa7a20144ecc06e31347953d2",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
-    "processed_topics": 12,
+    "processed_topics": 30,
     "selected_topics": [
-      "tension-headache-eft-23452711-2105",
-      "tension-headache-acupuncture-physio-2245457-2105",
-      "tension-headache-acupuncture-sham-2231488-2105",
-      "adolescent-tension-headache-relaxation-2272819-2105",
-      "nonmigraine-headache-vibration-41070536-2105",
-      "migraine-acupuncture-fmri-28580293-2105",
-      "chronic-migraine-acupuncture-topiramate-23370087-2105",
-      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
-      "migraine-cervical-manual-therapy-37655399-2105",
-      "migraine-trigeminal-stimulation-28856913-2105",
-      "refractory-migraine-ketogenic-diet-35948778-2105",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
     ],
-    "new_entries": 12,
+    "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 2006,
-    "non_prescription_topics_available": 12,
-    "non_prescription_topics_processed": 12,
+    "no_evidence_rejects": 2527,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 2006,
-    "new_references": 12,
+    "screened_nonqualifying_topics": 2527,
+    "new_references": 30,
     "existing_reference_links": 0,
     "duplicate_topic_pmids_removed": [],
     "duplicate_topic_pmids_retained": [],
-    "build": "19582 entries; 22702 refs; 18732 trial; 754 obs; 18643 numeric comparison entries; worklist 17174/17174",
-    "research": "PubMed E-utilities와 EFetch로 일차성 두통의 비처방·비약물 중재 후보를 검색했다. 긴장형 두통 검색 198개 주제와 편두통 보강 검색 81개 주제, 총 279개 검색 주제에서 레코드 30351개와 고유 PMID 5150개를 확인했고 5150개를 요청해 5150개 논문 기록과 5052개 초록을 확보했다. 후보 parser 2018건에서 침·이완·수기치료·자극·식이·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 12건을 기록했다. 2006건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 7건의 경고는 유지했고, 새 오류·비정상 경고는 없었다.",
+    "build": "19612 entries; 22732 refs; 18762 trial; 754 obs; 32 animal; 17 lab; 47 case; 18673 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 요통의 비처방·비약물 중재 후보를 검색했다. 215개 검색 주제에서 레코드 41556개와 고유 PMID 6189개를 확인했고 6189개를 요청해 6189개 논문 기록과 6110개 초록을 확보했다. 후보 parser 2557건에서 운동·교육·열·수기치료·침·기기·자기관리 중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 30건을 기록했다. 2527건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 14건의 경고는 유지했고 비교 경고 9건과 규모 문장 경고 1건을 수정했다.",
     "qualified_topics": [
-      "tension-headache-eft-23452711-2105",
-      "tension-headache-acupuncture-physio-2245457-2105",
-      "tension-headache-acupuncture-sham-2231488-2105",
-      "adolescent-tension-headache-relaxation-2272819-2105",
-      "nonmigraine-headache-vibration-41070536-2105",
-      "migraine-acupuncture-fmri-28580293-2105",
-      "chronic-migraine-acupuncture-topiramate-23370087-2105",
-      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
-      "migraine-cervical-manual-therapy-37655399-2105",
-      "migraine-trigeminal-stimulation-28856913-2105",
-      "refractory-migraine-ketogenic-diet-35948778-2105",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
     ],
     "screened_topics": [],
     "new_entry_ids": [
-      "tension-headache-eft-23452711-2105",
-      "tension-headache-acupuncture-physio-2245457-2105",
-      "tension-headache-acupuncture-sham-2231488-2105",
-      "adolescent-tension-headache-relaxation-2272819-2105",
-      "nonmigraine-headache-vibration-41070536-2105",
-      "migraine-acupuncture-fmri-28580293-2105",
-      "chronic-migraine-acupuncture-topiramate-23370087-2105",
-      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
-      "migraine-cervical-manual-therapy-37655399-2105",
-      "migraine-trigeminal-stimulation-28856913-2105",
-      "refractory-migraine-ketogenic-diet-35948778-2105",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
     ],
     "existing_linked_entry_ids": [],
-    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 9,
     "new_entry_effect_warnings_fixed": 0,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 1,
     "new_entry_english_warnings_fixed": 0,
     "new_entry_subject_warnings_fixed": 0,
     "new_entry_translation_warnings_fixed": 0,
     "legacy_sentence_edits": 0,
     "legacy_vs_filled": 0,
-    "open_numeric_comparisons": 18643,
+    "open_numeric_comparisons": 18673,
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
     "sample_sizes_filled": 0,
@@ -6858,34 +6912,51 @@
     "previous_category_reclassifications": [],
     "category_reclassifications": [],
     "new_subject_categories": [
-      "청소년 긴장형 두통 이완훈련=care",
-      "만성 편두통 침=care",
-      "만성 편두통 마음챙김=care",
-      "전조 없는 편두통 침=care",
-      "편두통 목수기치료=care",
-      "편두통 외부삼차신경자극=care",
-      "비편두통 두통 진동마사지=care",
-      "소아 편두통 비타민디 보충=supp",
-      "난치성 편두통 케톤식=food",
-      "긴장형 두통 침 물리치료=care",
-      "긴장형 두통 침 위약=care",
-      "긴장형 두통 감정자유기법=care"
+      "급성 요통 운동지시·일상조언=move",
+      "급성 요통 운동·결근=move",
+      "급성 요통 일상활동·운동=move",
+      "청소년 요통 몸통안정화·진동=care",
+      "만성 요통 운동·전기자극·테이핑=care",
+      "만성 요통 저출력레이저·운동=care",
+      "만성 요통 모바일 운동교육=life",
+      "만성 요통 필라테스·신전운동=move",
+      "만성 요통 필라테스·단파투열=care",
+      "만성 요통 수영 영법=move",
+      "만성 요통 10분 코어운동=move",
+      "만성 요통 유산소·물리치료·가정운동=care",
+      "만성 요통 영상 원격운동=life",
+      "과수원 근로자 요통 운동=move",
+      "산업근로자 요통 맞춤운동=life",
+      "요통 방향선호 맞춤운동=move",
+      "요통 맥켄지·나선형안정화운동=move",
+      "요추 불안정성 안정화운동=move",
+      "기계적 요통 운동교실=move",
+      "비특이적 요통 균형·햄스트링운동=move",
+      "비특이적 요통 코어·엉덩이운동=move",
+      "비특이적 요통 코어안정화운동=move",
+      "비특이적 요통 근막이완·코어운동=care",
+      "비특이적 요통 두침·운동=care",
+      "비특이적 요통 교란자극 운동=move",
+      "재발성 요통 신경근운동·상담=move",
+      "천장관절 요통 수기치료·안정화운동=care",
+      "좌식 여성 요통 맞춤운동=move",
+      "근로자 요통 사회관계망 운동=life",
+      "청년 요통 활동휴식=move"
     ],
-    "targeted_batch_warnings_remaining": 7,
-    "targeted_batch_warnings_fixed": 0,
+    "targeted_batch_warnings_remaining": 14,
+    "targeted_batch_warnings_fixed": 10,
     "discarded_non_numeric_candidates": [
-      "review-27092807",
-      "review-28392178",
-      "review-19160338",
-      "review-27351677",
-      "review-14973986",
-      "single-arm-7828189",
-      "single-arm-11972582",
-      "single-arm-15836592",
-      "single-arm-29637898",
-      "single-arm-19606507",
-      "single-arm-30970172",
-      "protocol-36401476"
+      "review-17087866",
+      "protocol-19473546",
+      "protocol-34551809",
+      "meta-research-39848632",
+      "observational-39090661",
+      "observational-24072729",
+      "quasi-experimental-41703525",
+      "surgery-10851101",
+      "radiofrequency-32389224",
+      "injection-8439713",
+      "medication-8976475"
     ],
     "discarded_excess_entries": [],
     "remaining_non_prescription_vs_missing": 0,
@@ -6894,1116 +6965,943 @@
     "remaining_non_prescription_english_subjects": 0,
     "remaining_non_prescription_english_entries": 0,
     "remaining_parked_non_prescription_topics": 625,
-    "next_official_deployment_check": "after batch 2105",
+    "next_official_deployment_check": "after batch 2106",
     "topics": [
-      "tension-headache-eft-23452711-2105",
-      "tension-headache-acupuncture-physio-2245457-2105",
-      "tension-headache-acupuncture-sham-2231488-2105",
-      "adolescent-tension-headache-relaxation-2272819-2105",
-      "nonmigraine-headache-vibration-41070536-2105",
-      "migraine-acupuncture-fmri-28580293-2105",
-      "chronic-migraine-acupuncture-topiramate-23370087-2105",
-      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
-      "migraine-cervical-manual-therapy-37655399-2105",
-      "migraine-trigeminal-stimulation-28856913-2105",
-      "refractory-migraine-ketogenic-diet-35948778-2105",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
     ],
     "screened_nonqualifying": [],
     "new_pmids": [
-      "2272819",
-      "23370087",
-      "30213202",
-      "28580293",
-      "37655399",
-      "28856913",
-      "41070536",
-      "35733373",
-      "35948778",
-      "2245457",
-      "2231488",
-      "23452711"
+      "8235809",
+      "7644960",
+      "7823996",
+      "32992943",
+      "35794120",
+      "2136991",
+      "35241140",
+      "30368347",
+      "36946839",
+      "41027336",
+      "39923121",
+      "18188660",
+      "34357527",
+      "38160342",
+      "33164978",
+      "15564907",
+      "34657873",
+      "22935853",
+      "10426734",
+      "40016482",
+      "32669487",
+      "23411647",
+      "39177625",
+      "35543941",
+      "41788596",
+      "37466018",
+      "30691749",
+      "36872766",
+      "39971914",
+      "39707287"
     ],
-    "unique_pmids": 5150,
-    "requested": 5150,
-    "fetched": 5150,
-    "fetch_chunks": 103,
-    "abstracts": 5052,
-    "parsed_abstracts": 5052,
-    "search_candidates": 2018,
-    "candidate_parser_parsed": 5150,
-    "candidate_parser_candidates": 2018,
-    "candidate_parser_candidates_after_write": 12,
-    "manual_candidates": 12,
-    "search_topic_count": 279,
-    "search_returned_records": 30351,
-    "supplemental_query_count": 249,
-    "missing_pmids": 0,
+    "unique_pmids": 6189,
+    "requested": 6189,
+    "fetched": 6189,
+    "fetch_chunks": 124,
+    "abstracts": 6110,
+    "parsed_abstracts": 6110,
+    "search_candidates": 2557,
+    "candidate_parser_parsed": 6189,
+    "candidate_parser_candidates": 2557,
+    "candidate_parser_candidates_after_write": 30,
+    "manual_candidates": 30,
+    "search_topic_count": 215,
+    "search_returned_records": 41556,
+    "supplemental_query_count": 185,
+    "fetch_missing": 0,
+    "missing_pmids": [],
     "non_prescription_entry_ids": [
-      "tension-headache-eft-23452711-2105",
-      "tension-headache-acupuncture-physio-2245457-2105",
-      "tension-headache-acupuncture-sham-2231488-2105",
-      "adolescent-tension-headache-relaxation-2272819-2105",
-      "nonmigraine-headache-vibration-41070536-2105",
-      "migraine-acupuncture-fmri-28580293-2105",
-      "chronic-migraine-acupuncture-topiramate-23370087-2105",
-      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
-      "migraine-cervical-manual-therapy-37655399-2105",
-      "migraine-trigeminal-stimulation-28856913-2105",
-      "refractory-migraine-ketogenic-diet-35948778-2105",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+      "nonspecific-lbp-core-hip-exercise-32669487-2106",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106",
+      "chronic-lbp-video-telerehabilitation-34357527-2106",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106",
+      "nonspecific-lbp-core-stabilization-23411647-2106",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106",
+      "nonspecific-lbp-perturbation-training-41788596-2106",
+      "chronic-lbp-swimming-stroke-41027336-2106",
+      "acute-lbp-ordinary-activity-exercise-7823996-2106",
+      "nonspecific-lbp-head-acupuncture-exercise-35543941-2106",
+      "sedentary-women-lbp-individualized-exercise-36872766-2106",
+      "mechanical-lbp-exercise-class-10426734-2106",
+      "chronic-lbp-exercise-electrostimulation-taping-35794120-2106",
+      "young-lbp-active-break-39707287-2106",
+      "recurrent-lbp-neuromuscular-counseling-37466018-2106",
+      "fruit-workers-lbp-exercise-38160342-2106",
+      "chronic-lbp-pilates-extension-30368347-2106",
+      "low-back-pain-directional-exercise-15564907-2106",
+      "lumbar-instability-stabilization-exercise-22935853-2106",
+      "chronic-lbp-mhealth-exercise-35241140-2106",
+      "adolescent-lbp-trunk-vibration-32992943-2106",
+      "worker-lbp-social-network-exercise-39971914-2106",
+      "chronic-lbp-three-approaches-18188660-2106",
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106",
+      "acute-lbp-exercise-sickness-absence-7644960-2106",
+      "acute-lbp-exercise-advice-8235809-2106",
+      "nonspecific-lbp-fascial-release-core-39177625-2106",
+      "industrial-lbp-adapted-exercise-33164978-2106",
+      "low-back-pain-mckenzie-spiral-stabilization-34657873-2106"
     ],
     "categories": {
       "otc": 0,
-      "supp": 1,
-      "food": 1,
-      "move": 0,
-      "life": 0,
-      "care": 10,
+      "supp": 0,
+      "food": 0,
+      "move": 18,
+      "life": 4,
+      "care": 8,
       "rx": 0
     },
     "new_build_warnings": [
-      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "validator_truthful_thin_studies": [
-      "adolescent-tension-headache-relaxation-2272819-2105:48",
-      "chronic-migraine-mindfulness-prophylaxis-30213202-2105:29",
-      "migraine-cervical-manual-therapy-37655399-2105:20",
-      "migraine-trigeminal-stimulation-28856913-2105:38",
-      "tension-headache-acupuncture-physio-2245457-2105:48",
-      "tension-headache-acupuncture-sham-2231488-2105:14",
-      "tension-headache-eft-23452711-2105:35"
+      "chronic-lbp-low-energy-laser-exercise-2136991-2106:20",
+      "chronic-lbp-mhealth-exercise-35241140-2106:40",
+      "chronic-lbp-pilates-extension-30368347-2106:47",
+      "chronic-lbp-pilates-shortwave-diathemy-36946839-2106:36",
+      "chronic-lbp-swimming-stroke-41027336-2106:30",
+      "chronic-lbp-ten-minute-core-exercise-39923121-2106:30",
+      "fruit-workers-lbp-exercise-38160342-2106:44",
+      "industrial-lbp-adapted-exercise-33164978-2106:18",
+      "lumbar-instability-stabilization-exercise-22935853-2106:30",
+      "nonspecific-lbp-balance-hamstring-training-40016482-2106:26",
+      "nonspecific-lbp-core-stabilization-23411647-2106:30",
+      "nonspecific-lbp-perturbation-training-41788596-2106:44",
+      "sacroiliac-lbp-manipulation-stabilization-30691749-2106:40",
+      "worker-lbp-social-network-exercise-39971914-2106:40"
     ],
     "build_exit": 0,
     "build_error_lines": 0,
     "build_warning_log": [
-      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
-      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+      "주의  chronic-lbp-low-energy-laser-exercise-2136991-2106 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-mhealth-exercise-35241140-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-extension-30368347-2106 — 사람 47명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-pilates-shortwave-diathemy-36946839-2106 — 사람 36명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-swimming-stroke-41027336-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-lbp-ten-minute-core-exercise-39923121-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  fruit-workers-lbp-exercise-38160342-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  industrial-lbp-adapted-exercise-33164978-2106 — 사람 18명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  lumbar-instability-stabilization-exercise-22935853-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-balance-hamstring-training-40016482-2106 — 사람 26명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-core-stabilization-23411647-2106 — 사람 30명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  nonspecific-lbp-perturbation-training-41788596-2106 — 사람 44명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  sacroiliac-lbp-manipulation-stabilization-30691749-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  worker-lbp-social-network-exercise-39971914-2106 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
     ],
     "supplemental_queries": [
       {
-        "topic": "tth-supp-1",
-        "returned": 37
+        "topic": "lbp-supp-1",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-2",
-        "returned": 40
+        "topic": "lbp-supp-2",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-3",
-        "returned": 2
+        "topic": "lbp-supp-3",
+        "returned": 170
       },
       {
-        "topic": "tth-supp-4",
-        "returned": 3
+        "topic": "lbp-supp-4",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-5",
-        "returned": 37
+        "topic": "lbp-supp-5",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-6",
-        "returned": 15
+        "topic": "lbp-supp-6",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-7",
-        "returned": 5
+        "topic": "lbp-supp-7",
+        "returned": 27
       },
       {
-        "topic": "tth-supp-8",
-        "returned": 8
+        "topic": "lbp-supp-8",
+        "returned": 1000
       },
       {
-        "topic": "tth-supp-9",
-        "returned": 6
+        "topic": "lbp-supp-9",
+        "returned": 34
       },
       {
-        "topic": "tth-supp-10",
-        "returned": 5
+        "topic": "lbp-supp-10",
+        "returned": 52
       },
       {
-        "topic": "tth-supp-11",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-12",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-13",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-14",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-15",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-16",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-17",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-18",
-        "returned": 6
-      },
-      {
-        "topic": "tth-supp-19",
-        "returned": 40
-      },
-      {
-        "topic": "tth-supp-20",
-        "returned": 5
-      },
-      {
-        "topic": "tth-supp-21",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-22",
-        "returned": 99
-      },
-      {
-        "topic": "tth-supp-23",
-        "returned": 117
-      },
-      {
-        "topic": "tth-supp-24",
-        "returned": 60
-      },
-      {
-        "topic": "tth-supp-25",
-        "returned": 14
-      },
-      {
-        "topic": "tth-supp-26",
-        "returned": 48
-      },
-      {
-        "topic": "tth-supp-27",
-        "returned": 19
-      },
-      {
-        "topic": "tth-supp-28",
+        "topic": "lbp-supp-11",
         "returned": 22
       },
       {
-        "topic": "tth-supp-29",
+        "topic": "lbp-supp-12",
         "returned": 7
       },
       {
-        "topic": "tth-supp-30",
-        "returned": 11
+        "topic": "lbp-supp-13",
+        "returned": 49
       },
       {
-        "topic": "tth-supp-31",
-        "returned": 16
-      },
-      {
-        "topic": "tth-supp-32",
-        "returned": 22
-      },
-      {
-        "topic": "tth-supp-33",
-        "returned": 23
-      },
-      {
-        "topic": "tth-supp-34",
-        "returned": 23
-      },
-      {
-        "topic": "tth-supp-35",
-        "returned": 4
-      },
-      {
-        "topic": "tth-supp-36",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-37",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-38",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-39",
-        "returned": 44
-      },
-      {
-        "topic": "tth-supp-40",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-41",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-42",
-        "returned": 7
-      },
-      {
-        "topic": "tth-supp-43",
-        "returned": 23
-      },
-      {
-        "topic": "tth-supp-44",
-        "returned": 5
-      },
-      {
-        "topic": "tth-supp-45",
-        "returned": 7
-      },
-      {
-        "topic": "tth-supp-46",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-47",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-48",
-        "returned": 18
-      },
-      {
-        "topic": "tth-supp-49",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-50",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-51",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-52",
-        "returned": 9
-      },
-      {
-        "topic": "tth-supp-53",
-        "returned": 22
-      },
-      {
-        "topic": "tth-supp-54",
-        "returned": 7
-      },
-      {
-        "topic": "tth-supp-55",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-56",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-57",
-        "returned": 12
-      },
-      {
-        "topic": "tth-supp-58",
-        "returned": 8
-      },
-      {
-        "topic": "tth-supp-59",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-60",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-61",
-        "returned": 40
-      },
-      {
-        "topic": "tth-supp-62",
-        "returned": 8
-      },
-      {
-        "topic": "tth-supp-63",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-64",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-65",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-66",
-        "returned": 7
-      },
-      {
-        "topic": "tth-supp-67",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-68",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-69",
-        "returned": 6
-      },
-      {
-        "topic": "tth-supp-70",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-71",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-72",
-        "returned": 4
-      },
-      {
-        "topic": "tth-supp-73",
-        "returned": 24
-      },
-      {
-        "topic": "tth-supp-74",
-        "returned": 50
-      },
-      {
-        "topic": "tth-supp-75",
-        "returned": 15
-      },
-      {
-        "topic": "tth-supp-76",
-        "returned": 46
-      },
-      {
-        "topic": "tth-supp-77",
-        "returned": 13
-      },
-      {
-        "topic": "tth-supp-78",
-        "returned": 12
-      },
-      {
-        "topic": "tth-supp-79",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-80",
-        "returned": 5
-      },
-      {
-        "topic": "tth-supp-81",
-        "returned": 48
-      },
-      {
-        "topic": "tth-supp-82",
-        "returned": 20
-      },
-      {
-        "topic": "tth-supp-83",
-        "returned": 20
-      },
-      {
-        "topic": "tth-supp-84",
-        "returned": 12
-      },
-      {
-        "topic": "tth-supp-85",
-        "returned": 11
-      },
-      {
-        "topic": "tth-supp-86",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-87",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-88",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-89",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-90",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-91",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-92",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-93",
-        "returned": 6
-      },
-      {
-        "topic": "tth-supp-94",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-95",
-        "returned": 4
-      },
-      {
-        "topic": "tth-supp-96",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-97",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-98",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-99",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-100",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-101",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-102",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-103",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-104",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-105",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-106",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-107",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-108",
-        "returned": 4
-      },
-      {
-        "topic": "tth-supp-109",
-        "returned": 7
-      },
-      {
-        "topic": "tth-supp-110",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-111",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-112",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-113",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-114",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-115",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-116",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-117",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-118",
-        "returned": 6
-      },
-      {
-        "topic": "tth-supp-119",
-        "returned": 8
-      },
-      {
-        "topic": "tth-supp-120",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-121",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-122",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-123",
-        "returned": 3
-      },
-      {
-        "topic": "tth-supp-124",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-125",
-        "returned": 0
-      },
-      {
-        "topic": "tth-supp-126",
-        "returned": 1
-      },
-      {
-        "topic": "tth-supp-127",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-128",
-        "returned": 4
-      },
-      {
-        "topic": "tth-supp-129",
-        "returned": 47
-      },
-      {
-        "topic": "tth-supp-130",
-        "returned": 2
-      },
-      {
-        "topic": "tth-supp-131",
-        "returned": 7
-      },
-      {
-        "topic": "tth-outcome-1",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-2",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-3",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-4",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-5",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-6",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-7",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-8",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-9",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-10",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-11",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-12",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-13",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-14",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-15",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-16",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-outcome-17",
-        "returned": 1000
-      },
-      {
-        "topic": "tth-broad-exercise",
-        "returned": 38
-      },
-      {
-        "topic": "tth-broad-massage",
-        "returned": 19
-      },
-      {
-        "topic": "tth-broad-manual",
-        "returned": 51
-      },
-      {
-        "topic": "tth-broad-acupuncture",
-        "returned": 74
-      },
-      {
-        "topic": "tth-broad-acupressure",
-        "returned": 1
-      },
-      {
-        "topic": "tth-broad-tens",
-        "returned": 9
-      },
-      {
-        "topic": "tth-broad-biofeedback",
-        "returned": 21
-      },
-      {
-        "topic": "tth-broad-relaxation",
-        "returned": 44
-      },
-      {
-        "topic": "tth-broad-mindfulness",
-        "returned": 7
-      },
-      {
-        "topic": "tth-broad-yoga",
-        "returned": 4
-      },
-      {
-        "topic": "tth-broad-magnesium",
-        "returned": 4
-      },
-      {
-        "topic": "tth-broad-riboflavin",
-        "returned": 3
-      },
-      {
-        "topic": "tth-broad-coq10",
-        "returned": 1
-      },
-      {
-        "topic": "tth-broad-herbal",
-        "returned": 7
-      },
-      {
-        "topic": "tth-broad-heat",
-        "returned": 1
-      },
-      {
-        "topic": "tth-broad-sleep",
-        "returned": 38
-      },
-      {
-        "topic": "tth-broad-stress",
-        "returned": 15
-      },
-      {
-        "topic": "tth-broad-selfcare",
-        "returned": 26
-      },
-      {
-        "topic": "tth-broad-quality",
-        "returned": 82
-      },
-      {
-        "topic": "tth-broad-placebo",
-        "returned": 194
-      },
-      {
-        "topic": "migraine-1",
-        "returned": 60
-      },
-      {
-        "topic": "migraine-2",
-        "returned": 14
-      },
-      {
-        "topic": "migraine-3",
-        "returned": 22
-      },
-      {
-        "topic": "migraine-4",
-        "returned": 24
-      },
-      {
-        "topic": "migraine-5",
-        "returned": 22
-      },
-      {
-        "topic": "migraine-6",
-        "returned": 32
-      },
-      {
-        "topic": "migraine-7",
-        "returned": 30
-      },
-      {
-        "topic": "migraine-8",
-        "returned": 25
-      },
-      {
-        "topic": "migraine-9",
-        "returned": 24
-      },
-      {
-        "topic": "migraine-10",
-        "returned": 20
-      },
-      {
-        "topic": "migraine-11",
-        "returned": 16
-      },
-      {
-        "topic": "migraine-12",
-        "returned": 6
-      },
-      {
-        "topic": "migraine-13",
-        "returned": 16
-      },
-      {
-        "topic": "migraine-14",
-        "returned": 1
-      },
-      {
-        "topic": "migraine-15",
-        "returned": 8
-      },
-      {
-        "topic": "migraine-16",
-        "returned": 2
-      },
-      {
-        "topic": "migraine-17",
-        "returned": 64
-      },
-      {
-        "topic": "migraine-18",
-        "returned": 83
-      },
-      {
-        "topic": "migraine-19",
-        "returned": 81
-      },
-      {
-        "topic": "migraine-20",
-        "returned": 194
-      },
-      {
-        "topic": "migraine-21",
-        "returned": 7
-      },
-      {
-        "topic": "migraine-22",
-        "returned": 10
-      },
-      {
-        "topic": "migraine-23",
-        "returned": 9
-      },
-      {
-        "topic": "migraine-24",
-        "returned": 35
-      },
-      {
-        "topic": "migraine-25",
-        "returned": 84
-      },
-      {
-        "topic": "migraine-26",
-        "returned": 270
-      },
-      {
-        "topic": "migraine-27",
-        "returned": 55
-      },
-      {
-        "topic": "migraine-28",
-        "returned": 70
-      },
-      {
-        "topic": "migraine-29",
-        "returned": 4
-      },
-      {
-        "topic": "migraine-30",
+        "topic": "lbp-supp-14",
         "returned": 89
       },
       {
-        "topic": "migraine-31",
-        "returned": 45
+        "topic": "lbp-supp-15",
+        "returned": 151
       },
       {
-        "topic": "migraine-32",
-        "returned": 17
+        "topic": "lbp-supp-16",
+        "returned": 40
       },
       {
-        "topic": "migraine-33",
-        "returned": 18
+        "topic": "lbp-supp-17",
+        "returned": 137
       },
       {
-        "topic": "migraine-34",
-        "returned": 116
+        "topic": "lbp-supp-18",
+        "returned": 200
       },
       {
-        "topic": "migraine-35",
-        "returned": 98
+        "topic": "lbp-supp-19",
+        "returned": 121
       },
       {
-        "topic": "migraine-36",
-        "returned": 125
+        "topic": "lbp-supp-20",
+        "returned": 35
       },
       {
-        "topic": "migraine-37",
-        "returned": 114
+        "topic": "lbp-supp-21",
+        "returned": 126
       },
       {
-        "topic": "migraine-38",
-        "returned": 327
+        "topic": "lbp-supp-22",
+        "returned": 72
       },
       {
-        "topic": "migraine-39",
-        "returned": 44
+        "topic": "lbp-supp-23",
+        "returned": 154
       },
       {
-        "topic": "migraine-40",
+        "topic": "lbp-supp-24",
+        "returned": 117
+      },
+      {
+        "topic": "lbp-supp-25",
+        "returned": 460
+      },
+      {
+        "topic": "lbp-supp-26",
+        "returned": 111
+      },
+      {
+        "topic": "lbp-supp-27",
+        "returned": 234
+      },
+      {
+        "topic": "lbp-supp-28",
+        "returned": 174
+      },
+      {
+        "topic": "lbp-supp-29",
+        "returned": 719
+      },
+      {
+        "topic": "lbp-supp-30",
+        "returned": 53
+      },
+      {
+        "topic": "lbp-supp-31",
+        "returned": 83
+      },
+      {
+        "topic": "lbp-supp-32",
         "returned": 13
       },
       {
-        "topic": "migraine-41",
+        "topic": "lbp-supp-33",
+        "returned": 38
+      },
+      {
+        "topic": "lbp-supp-34",
+        "returned": 116
+      },
+      {
+        "topic": "lbp-supp-35",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-36",
+        "returned": 46
+      },
+      {
+        "topic": "lbp-supp-37",
+        "returned": 116
+      },
+      {
+        "topic": "lbp-supp-38",
+        "returned": 78
+      },
+      {
+        "topic": "lbp-supp-39",
+        "returned": 93
+      },
+      {
+        "topic": "lbp-supp-40",
+        "returned": 8
+      },
+      {
+        "topic": "lbp-supp-41",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-42",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-supp-43",
+        "returned": 17
+      },
+      {
+        "topic": "lbp-supp-44",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-45",
+        "returned": 25
+      },
+      {
+        "topic": "lbp-supp-46",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-47",
+        "returned": 28
+      },
+      {
+        "topic": "lbp-supp-48",
+        "returned": 25
+      },
+      {
+        "topic": "lbp-supp-49",
+        "returned": 159
+      },
+      {
+        "topic": "lbp-supp-50",
+        "returned": 159
+      },
+      {
+        "topic": "lbp-supp-51",
+        "returned": 5
+      },
+      {
+        "topic": "lbp-supp-52",
+        "returned": 28
+      },
+      {
+        "topic": "lbp-supp-53",
         "returned": 19
       },
       {
-        "topic": "migraine-42",
-        "returned": 14
+        "topic": "lbp-supp-54",
+        "returned": 57
       },
       {
-        "topic": "migraine-43",
-        "returned": 6
+        "topic": "lbp-supp-55",
+        "returned": 737
       },
       {
-        "topic": "migraine-44",
-        "returned": 62
+        "topic": "lbp-supp-56",
+        "returned": 293
       },
       {
-        "topic": "migraine-45",
-        "returned": 62
+        "topic": "lbp-supp-57",
+        "returned": 296
       },
       {
-        "topic": "migraine-46",
-        "returned": 1000
+        "topic": "lbp-supp-58",
+        "returned": 66
       },
       {
-        "topic": "migraine-47",
-        "returned": 65
+        "topic": "lbp-supp-59",
+        "returned": 101
       },
       {
-        "topic": "migraine-48",
-        "returned": 39
-      },
-      {
-        "topic": "migraine-49",
-        "returned": 5
-      },
-      {
-        "topic": "migraine-50",
-        "returned": 48
-      },
-      {
-        "topic": "migraine-51",
-        "returned": 2
-      },
-      {
-        "topic": "migraine-52",
-        "returned": 16
-      },
-      {
-        "topic": "migraine-53",
-        "returned": 0
-      },
-      {
-        "topic": "migraine-54",
-        "returned": 10
-      },
-      {
-        "topic": "migraine-55",
-        "returned": 0
-      },
-      {
-        "topic": "migraine-56",
-        "returned": 5
-      },
-      {
-        "topic": "migraine-57",
-        "returned": 9
-      },
-      {
-        "topic": "migraine-58",
-        "returned": 10
-      },
-      {
-        "topic": "migraine-59",
-        "returned": 87
-      },
-      {
-        "topic": "migraine-60",
-        "returned": 14
-      },
-      {
-        "topic": "migraine-61",
-        "returned": 10
-      },
-      {
-        "topic": "migraine-62",
+        "topic": "lbp-supp-60",
         "returned": 3
       },
       {
-        "topic": "migraine-63",
+        "topic": "lbp-supp-61",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-62",
         "returned": 3
       },
       {
-        "topic": "migraine-64",
-        "returned": 112
+        "topic": "lbp-supp-63",
+        "returned": 89
       },
       {
-        "topic": "migraine-65",
-        "returned": 20
+        "topic": "lbp-supp-64",
+        "returned": 42
       },
       {
-        "topic": "migraine-66",
+        "topic": "lbp-supp-65",
+        "returned": 35
+      },
+      {
+        "topic": "lbp-supp-66",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-67",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-68",
+        "returned": 27
+      },
+      {
+        "topic": "lbp-supp-69",
+        "returned": 55
+      },
+      {
+        "topic": "lbp-supp-70",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-71",
         "returned": 24
       },
       {
-        "topic": "migraine-67",
-        "returned": 33
+        "topic": "lbp-supp-72",
+        "returned": 22
       },
       {
-        "topic": "migraine-68",
-        "returned": 290
+        "topic": "lbp-supp-73",
+        "returned": 70
       },
       {
-        "topic": "migraine-69",
-        "returned": 123
+        "topic": "lbp-supp-74",
+        "returned": 158
       },
       {
-        "topic": "migraine-70",
-        "returned": 123
+        "topic": "lbp-supp-75",
+        "returned": 265
       },
       {
-        "topic": "migraine-71",
+        "topic": "lbp-supp-76",
+        "returned": 143
+      },
+      {
+        "topic": "lbp-supp-77",
+        "returned": 148
+      },
+      {
+        "topic": "lbp-supp-78",
+        "returned": 30
+      },
+      {
+        "topic": "lbp-supp-79",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-80",
+        "returned": 23
+      },
+      {
+        "topic": "lbp-supp-81",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-82",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-83",
+        "returned": 119
+      },
+      {
+        "topic": "lbp-supp-84",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-85",
+        "returned": 8
+      },
+      {
+        "topic": "lbp-supp-86",
+        "returned": 35
+      },
+      {
+        "topic": "lbp-supp-87",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-88",
+        "returned": 41
+      },
+      {
+        "topic": "lbp-supp-89",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-supp-90",
+        "returned": 36
+      },
+      {
+        "topic": "lbp-supp-91",
+        "returned": 14
+      },
+      {
+        "topic": "lbp-supp-92",
+        "returned": 331
+      },
+      {
+        "topic": "lbp-supp-93",
+        "returned": 545
+      },
+      {
+        "topic": "lbp-supp-94",
+        "returned": 256
+      },
+      {
+        "topic": "lbp-supp-95",
+        "returned": 388
+      },
+      {
+        "topic": "lbp-supp-96",
+        "returned": 76
+      },
+      {
+        "topic": "lbp-supp-97",
+        "returned": 57
+      },
+      {
+        "topic": "lbp-supp-98",
+        "returned": 496
+      },
+      {
+        "topic": "lbp-supp-99",
+        "returned": 496
+      },
+      {
+        "topic": "lbp-supp-100",
+        "returned": 332
+      },
+      {
+        "topic": "lbp-supp-101",
+        "returned": 332
+      },
+      {
+        "topic": "lbp-supp-102",
+        "returned": 246
+      },
+      {
+        "topic": "lbp-supp-103",
+        "returned": 300
+      },
+      {
+        "topic": "lbp-supp-104",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-supp-105",
+        "returned": 154
+      },
+      {
+        "topic": "lbp-supp-106",
+        "returned": 12
+      },
+      {
+        "topic": "lbp-supp-107",
+        "returned": 75
+      },
+      {
+        "topic": "lbp-supp-108",
+        "returned": 49
+      },
+      {
+        "topic": "lbp-supp-109",
+        "returned": 70
+      },
+      {
+        "topic": "lbp-supp-110",
+        "returned": 91
+      },
+      {
+        "topic": "lbp-supp-111",
         "returned": 47
       },
       {
-        "topic": "migraine-72",
+        "topic": "lbp-supp-112",
+        "returned": 12
+      },
+      {
+        "topic": "lbp-supp-113",
+        "returned": 59
+      },
+      {
+        "topic": "lbp-supp-114",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-115",
+        "returned": 10
+      },
+      {
+        "topic": "lbp-supp-116",
+        "returned": 41
+      },
+      {
+        "topic": "lbp-supp-117",
+        "returned": 4
+      },
+      {
+        "topic": "lbp-supp-118",
+        "returned": 19
+      },
+      {
+        "topic": "lbp-supp-119",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-120",
+        "returned": 88
+      },
+      {
+        "topic": "lbp-supp-121",
+        "returned": 27
+      },
+      {
+        "topic": "lbp-supp-122",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-supp-123",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-124",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-125",
+        "returned": 13
+      },
+      {
+        "topic": "lbp-supp-126",
+        "returned": 137
+      },
+      {
+        "topic": "lbp-supp-127",
+        "returned": 33
+      },
+      {
+        "topic": "lbp-supp-128",
+        "returned": 29
+      },
+      {
+        "topic": "lbp-supp-129",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-supp-130",
+        "returned": 29
+      },
+      {
+        "topic": "lbp-supp-131",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-132",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-133",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-134",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-supp-135",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-supp-136",
+        "returned": 16
+      },
+      {
+        "topic": "lbp-supp-137",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-138",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-supp-139",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-supp-140",
+        "returned": 44
+      },
+      {
+        "topic": "lbp-supp-141",
+        "returned": 21
+      },
+      {
+        "topic": "lbp-supp-142",
+        "returned": 22
+      },
+      {
+        "topic": "lbp-supp-143",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-144",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-145",
+        "returned": 7
+      },
+      {
+        "topic": "lbp-supp-146",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-supp-147",
+        "returned": 3
+      },
+      {
+        "topic": "lbp-supp-148",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-149",
+        "returned": 6
+      },
+      {
+        "topic": "lbp-supp-150",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-outcome-1",
         "returned": 1000
       },
       {
-        "topic": "migraine-73",
-        "returned": 228
-      },
-      {
-        "topic": "migraine-74",
-        "returned": 462
-      },
-      {
-        "topic": "migraine-75",
-        "returned": 601
-      },
-      {
-        "topic": "migraine-76",
+        "topic": "lbp-outcome-2",
         "returned": 1000
       },
       {
-        "topic": "migraine-77",
+        "topic": "lbp-outcome-3",
         "returned": 1000
       },
       {
-        "topic": "migraine-78",
-        "returned": 835
+        "topic": "lbp-outcome-4",
+        "returned": 554
       },
       {
-        "topic": "migraine-79",
-        "returned": 875
+        "topic": "lbp-outcome-5",
+        "returned": 1000
       },
       {
-        "topic": "migraine-80",
-        "returned": 146
+        "topic": "lbp-outcome-6",
+        "returned": 1000
       },
       {
-        "topic": "migraine-81",
-        "returned": 167
+        "topic": "lbp-outcome-7",
+        "returned": 868
+      },
+      {
+        "topic": "lbp-outcome-8",
+        "returned": 227
+      },
+      {
+        "topic": "lbp-outcome-9",
+        "returned": 704
+      },
+      {
+        "topic": "lbp-outcome-10",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-11",
+        "returned": 20
+      },
+      {
+        "topic": "lbp-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-13",
+        "returned": 807
+      },
+      {
+        "topic": "lbp-outcome-14",
+        "returned": 375
+      },
+      {
+        "topic": "lbp-outcome-15",
+        "returned": 657
+      },
+      {
+        "topic": "lbp-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-outcome-17",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-broad-acute-lbp",
+        "returned": 415
+      },
+      {
+        "topic": "lbp-broad-subacute-lbp",
+        "returned": 96
+      },
+      {
+        "topic": "lbp-broad-chronic-lbp",
+        "returned": 1000
+      },
+      {
+        "topic": "lbp-broad-nonspecific-lbp",
+        "returned": 413
+      },
+      {
+        "topic": "lbp-broad-mechanical-lbp",
+        "returned": 77
+      },
+      {
+        "topic": "lbp-broad-occupational-lbp",
+        "returned": 11
+      },
+      {
+        "topic": "lbp-broad-older-adult-lbp",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-pregnancy-lbp",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-broad-adolescent-lbp",
+        "returned": 1
+      },
+      {
+        "topic": "lbp-broad-sciatica-exercise",
+        "returned": 34
+      },
+      {
+        "topic": "lbp-broad-lumbar-pain-yoga",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-back-pain-massage",
+        "returned": 280
+      },
+      {
+        "topic": "lbp-broad-back-pain-acupuncture",
+        "returned": 9
+      },
+      {
+        "topic": "lbp-broad-back-pain-education",
+        "returned": 0
+      },
+      {
+        "topic": "lbp-broad-back-pain-heat",
+        "returned": 2
+      },
+      {
+        "topic": "lbp-broad-back-pain-mindfulness",
+        "returned": 105
+      },
+      {
+        "topic": "lbp-broad-back-pain-self-management",
+        "returned": 26
+      },
+      {
+        "topic": "lbp-broad-back-pain-manual",
+        "returned": 0
       }
     ]
   },
   "resume": {
-    "next_batch": "2106",
-    "worklist_line": "new-expansion-candidates-batch2106",
-    "topic": "new-expansion-candidates-batch2106",
+    "next_batch": "2107",
+    "worklist_line": "new-expansion-candidates-batch2107",
+    "topic": "new-expansion-candidates-batch2107",
     "unchecked": 0
   },
   "previous_last_batch_1696": {
@@ -9298,10 +9196,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 18643,
+  "withVs": 18673,
   "unknownN": 1333,
-  "thinStudy": 5312,
-  "openNumeric": 18643,
+  "thinStudy": 5326,
+  "openNumeric": 18673,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -91539,6 +91437,1235 @@
       "주의  oligoamenorrhea-fennel-tea-30370852-2104 — 사람 40명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
       "주의  premenstrual-syndrome-essential-fatty-acid-8416468-2104 — 사람 27명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
       "주의  primary-dysmenorrhea-vigorous-exercise-25243766-2104 — 사람 10명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ]
+  },
+  "previous_last_batch_2105": {
+    "id": "2105",
+    "commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
+    "pushed": true,
+    "expansion_commit": "03ab5d64664852d700eec9432edd7bdb80180df7",
+    "data_commits": [
+      "03ab5d64664852d700eec9432edd7bdb80180df7"
+    ],
+    "checkpoint_commit": "fdeb43245678b2a472d41571a66c9381b464ab86",
+    "push_marker_commit": "44798c94cd5a7a0bf02637527879a6925642e99a",
+    "known_items_commit": "c23d09b8a9307e3aa7a20144ecc06e31347953d2",
+    "maintenance": false,
+    "processed_topics": 12,
+    "selected_topics": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+    ],
+    "new_entries": 12,
+    "existing_links": 0,
+    "no_evidence_rejects": 2006,
+    "non_prescription_topics_available": 12,
+    "non_prescription_topics_processed": 12,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 2006,
+    "new_references": 12,
+    "existing_reference_links": 0,
+    "duplicate_topic_pmids_removed": [],
+    "duplicate_topic_pmids_retained": [],
+    "build": "19582 entries; 22702 refs; 18732 trial; 754 obs; 18643 numeric comparison entries; worklist 17174/17174",
+    "research": "PubMed E-utilities와 EFetch로 일차성 두통의 비처방·비약물 중재 후보를 검색했다. 긴장형 두통 검색 198개 주제와 편두통 보강 검색 81개 주제, 총 279개 검색 주제에서 레코드 30351개와 고유 PMID 5150개를 확인했고 5150개를 요청해 5150개 논문 기록과 5052개 초록을 확보했다. 후보 parser 2018건에서 침·이완·수기치료·자극·식이·보충중재와 대조군의 숫자 결과·효과크기·신뢰구간 또는 유효한 상대효과가 있는 12건을 기록했다. 2006건은 중복·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·수치 부족·대조군 부족·처방약 단독 또는 비처방 효과 분리 불가로 보류했다. 실제 소규모 연구 7건의 경고는 유지했고, 새 오류·비정상 경고는 없었다.",
+    "qualified_topics": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+    ],
+    "screened_topics": [],
+    "new_entry_ids": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+    ],
+    "existing_linked_entry_ids": [],
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_translation_warnings_fixed": 0,
+    "legacy_sentence_edits": 0,
+    "legacy_vs_filled": 0,
+    "open_numeric_comparisons": 18643,
+    "subject_names_renamed": 0,
+    "subject_entries_renamed": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "previous_category_reclassifications": [],
+    "category_reclassifications": [],
+    "new_subject_categories": [
+      "청소년 긴장형 두통 이완훈련=care",
+      "만성 편두통 침=care",
+      "만성 편두통 마음챙김=care",
+      "전조 없는 편두통 침=care",
+      "편두통 목수기치료=care",
+      "편두통 외부삼차신경자극=care",
+      "비편두통 두통 진동마사지=care",
+      "소아 편두통 비타민디 보충=supp",
+      "난치성 편두통 케톤식=food",
+      "긴장형 두통 침 물리치료=care",
+      "긴장형 두통 침 위약=care",
+      "긴장형 두통 감정자유기법=care"
+    ],
+    "targeted_batch_warnings_remaining": 7,
+    "targeted_batch_warnings_fixed": 0,
+    "discarded_non_numeric_candidates": [
+      "review-27092807",
+      "review-28392178",
+      "review-19160338",
+      "review-27351677",
+      "review-14973986",
+      "single-arm-7828189",
+      "single-arm-11972582",
+      "single-arm-15836592",
+      "single-arm-29637898",
+      "single-arm-19606507",
+      "single-arm-30970172",
+      "protocol-36401476"
+    ],
+    "discarded_excess_entries": [],
+    "remaining_non_prescription_vs_missing": 0,
+    "remaining_english_subjects": 0,
+    "remaining_english_entries": 0,
+    "remaining_non_prescription_english_subjects": 0,
+    "remaining_non_prescription_english_entries": 0,
+    "remaining_parked_non_prescription_topics": 625,
+    "next_official_deployment_check": "after batch 2105",
+    "topics": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+    ],
+    "screened_nonqualifying": [],
+    "new_pmids": [
+      "2272819",
+      "23370087",
+      "30213202",
+      "28580293",
+      "37655399",
+      "28856913",
+      "41070536",
+      "35733373",
+      "35948778",
+      "2245457",
+      "2231488",
+      "23452711"
+    ],
+    "unique_pmids": 5150,
+    "requested": 5150,
+    "fetched": 5150,
+    "fetch_chunks": 103,
+    "abstracts": 5052,
+    "parsed_abstracts": 5052,
+    "search_candidates": 2018,
+    "candidate_parser_parsed": 5150,
+    "candidate_parser_candidates": 2018,
+    "candidate_parser_candidates_after_write": 12,
+    "manual_candidates": 12,
+    "search_topic_count": 279,
+    "search_returned_records": 30351,
+    "supplemental_query_count": 249,
+    "missing_pmids": 0,
+    "non_prescription_entry_ids": [
+      "tension-headache-eft-23452711-2105",
+      "tension-headache-acupuncture-physio-2245457-2105",
+      "tension-headache-acupuncture-sham-2231488-2105",
+      "adolescent-tension-headache-relaxation-2272819-2105",
+      "nonmigraine-headache-vibration-41070536-2105",
+      "migraine-acupuncture-fmri-28580293-2105",
+      "chronic-migraine-acupuncture-topiramate-23370087-2105",
+      "pediatric-migraine-vitamin-d-topiramate-35733373-2105",
+      "migraine-cervical-manual-therapy-37655399-2105",
+      "migraine-trigeminal-stimulation-28856913-2105",
+      "refractory-migraine-ketogenic-diet-35948778-2105",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105"
+    ],
+    "categories": {
+      "otc": 0,
+      "supp": 1,
+      "food": 1,
+      "move": 0,
+      "life": 0,
+      "care": 10,
+      "rx": 0
+    },
+    "new_build_warnings": [
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "new_unknown_n_warnings": [],
+    "new_thin_study_warnings": [
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "validator_truthful_thin_studies": [
+      "adolescent-tension-headache-relaxation-2272819-2105:48",
+      "chronic-migraine-mindfulness-prophylaxis-30213202-2105:29",
+      "migraine-cervical-manual-therapy-37655399-2105:20",
+      "migraine-trigeminal-stimulation-28856913-2105:38",
+      "tension-headache-acupuncture-physio-2245457-2105:48",
+      "tension-headache-acupuncture-sham-2231488-2105:14",
+      "tension-headache-eft-23452711-2105:35"
+    ],
+    "build_exit": 0,
+    "build_error_lines": 0,
+    "build_warning_log": [
+      "주의  adolescent-tension-headache-relaxation-2272819-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  chronic-migraine-mindfulness-prophylaxis-30213202-2105 — 사람 29명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-cervical-manual-therapy-37655399-2105 — 사람 20명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  migraine-trigeminal-stimulation-28856913-2105 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-physio-2245457-2105 — 사람 48명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-acupuncture-sham-2231488-2105 — 사람 14명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
+      "주의  tension-headache-eft-23452711-2105 — 사람 35명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다"
+    ],
+    "supplemental_queries": [
+      {
+        "topic": "tth-supp-1",
+        "returned": 37
+      },
+      {
+        "topic": "tth-supp-2",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-3",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-4",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-5",
+        "returned": 37
+      },
+      {
+        "topic": "tth-supp-6",
+        "returned": 15
+      },
+      {
+        "topic": "tth-supp-7",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-8",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-9",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-10",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-11",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-12",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-13",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-14",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-15",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-16",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-17",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-18",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-19",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-20",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-21",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-22",
+        "returned": 99
+      },
+      {
+        "topic": "tth-supp-23",
+        "returned": 117
+      },
+      {
+        "topic": "tth-supp-24",
+        "returned": 60
+      },
+      {
+        "topic": "tth-supp-25",
+        "returned": 14
+      },
+      {
+        "topic": "tth-supp-26",
+        "returned": 48
+      },
+      {
+        "topic": "tth-supp-27",
+        "returned": 19
+      },
+      {
+        "topic": "tth-supp-28",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-29",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-30",
+        "returned": 11
+      },
+      {
+        "topic": "tth-supp-31",
+        "returned": 16
+      },
+      {
+        "topic": "tth-supp-32",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-33",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-34",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-35",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-36",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-37",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-38",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-39",
+        "returned": 44
+      },
+      {
+        "topic": "tth-supp-40",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-41",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-42",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-43",
+        "returned": 23
+      },
+      {
+        "topic": "tth-supp-44",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-45",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-46",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-47",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-48",
+        "returned": 18
+      },
+      {
+        "topic": "tth-supp-49",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-50",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-51",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-52",
+        "returned": 9
+      },
+      {
+        "topic": "tth-supp-53",
+        "returned": 22
+      },
+      {
+        "topic": "tth-supp-54",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-55",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-56",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-57",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-58",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-59",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-60",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-61",
+        "returned": 40
+      },
+      {
+        "topic": "tth-supp-62",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-63",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-64",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-65",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-66",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-67",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-68",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-69",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-70",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-71",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-72",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-73",
+        "returned": 24
+      },
+      {
+        "topic": "tth-supp-74",
+        "returned": 50
+      },
+      {
+        "topic": "tth-supp-75",
+        "returned": 15
+      },
+      {
+        "topic": "tth-supp-76",
+        "returned": 46
+      },
+      {
+        "topic": "tth-supp-77",
+        "returned": 13
+      },
+      {
+        "topic": "tth-supp-78",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-79",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-80",
+        "returned": 5
+      },
+      {
+        "topic": "tth-supp-81",
+        "returned": 48
+      },
+      {
+        "topic": "tth-supp-82",
+        "returned": 20
+      },
+      {
+        "topic": "tth-supp-83",
+        "returned": 20
+      },
+      {
+        "topic": "tth-supp-84",
+        "returned": 12
+      },
+      {
+        "topic": "tth-supp-85",
+        "returned": 11
+      },
+      {
+        "topic": "tth-supp-86",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-87",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-88",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-89",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-90",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-91",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-92",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-93",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-94",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-95",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-96",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-97",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-98",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-99",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-100",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-101",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-102",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-103",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-104",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-105",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-106",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-107",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-108",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-109",
+        "returned": 7
+      },
+      {
+        "topic": "tth-supp-110",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-111",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-112",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-113",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-114",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-115",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-116",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-117",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-118",
+        "returned": 6
+      },
+      {
+        "topic": "tth-supp-119",
+        "returned": 8
+      },
+      {
+        "topic": "tth-supp-120",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-121",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-122",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-123",
+        "returned": 3
+      },
+      {
+        "topic": "tth-supp-124",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-125",
+        "returned": 0
+      },
+      {
+        "topic": "tth-supp-126",
+        "returned": 1
+      },
+      {
+        "topic": "tth-supp-127",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-128",
+        "returned": 4
+      },
+      {
+        "topic": "tth-supp-129",
+        "returned": 47
+      },
+      {
+        "topic": "tth-supp-130",
+        "returned": 2
+      },
+      {
+        "topic": "tth-supp-131",
+        "returned": 7
+      },
+      {
+        "topic": "tth-outcome-1",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-2",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-3",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-4",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-5",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-6",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-7",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-8",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-9",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-10",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-11",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-12",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-13",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-14",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-15",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-16",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-outcome-17",
+        "returned": 1000
+      },
+      {
+        "topic": "tth-broad-exercise",
+        "returned": 38
+      },
+      {
+        "topic": "tth-broad-massage",
+        "returned": 19
+      },
+      {
+        "topic": "tth-broad-manual",
+        "returned": 51
+      },
+      {
+        "topic": "tth-broad-acupuncture",
+        "returned": 74
+      },
+      {
+        "topic": "tth-broad-acupressure",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-tens",
+        "returned": 9
+      },
+      {
+        "topic": "tth-broad-biofeedback",
+        "returned": 21
+      },
+      {
+        "topic": "tth-broad-relaxation",
+        "returned": 44
+      },
+      {
+        "topic": "tth-broad-mindfulness",
+        "returned": 7
+      },
+      {
+        "topic": "tth-broad-yoga",
+        "returned": 4
+      },
+      {
+        "topic": "tth-broad-magnesium",
+        "returned": 4
+      },
+      {
+        "topic": "tth-broad-riboflavin",
+        "returned": 3
+      },
+      {
+        "topic": "tth-broad-coq10",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-herbal",
+        "returned": 7
+      },
+      {
+        "topic": "tth-broad-heat",
+        "returned": 1
+      },
+      {
+        "topic": "tth-broad-sleep",
+        "returned": 38
+      },
+      {
+        "topic": "tth-broad-stress",
+        "returned": 15
+      },
+      {
+        "topic": "tth-broad-selfcare",
+        "returned": 26
+      },
+      {
+        "topic": "tth-broad-quality",
+        "returned": 82
+      },
+      {
+        "topic": "tth-broad-placebo",
+        "returned": 194
+      },
+      {
+        "topic": "migraine-1",
+        "returned": 60
+      },
+      {
+        "topic": "migraine-2",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-3",
+        "returned": 22
+      },
+      {
+        "topic": "migraine-4",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-5",
+        "returned": 22
+      },
+      {
+        "topic": "migraine-6",
+        "returned": 32
+      },
+      {
+        "topic": "migraine-7",
+        "returned": 30
+      },
+      {
+        "topic": "migraine-8",
+        "returned": 25
+      },
+      {
+        "topic": "migraine-9",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-10",
+        "returned": 20
+      },
+      {
+        "topic": "migraine-11",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-12",
+        "returned": 6
+      },
+      {
+        "topic": "migraine-13",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-14",
+        "returned": 1
+      },
+      {
+        "topic": "migraine-15",
+        "returned": 8
+      },
+      {
+        "topic": "migraine-16",
+        "returned": 2
+      },
+      {
+        "topic": "migraine-17",
+        "returned": 64
+      },
+      {
+        "topic": "migraine-18",
+        "returned": 83
+      },
+      {
+        "topic": "migraine-19",
+        "returned": 81
+      },
+      {
+        "topic": "migraine-20",
+        "returned": 194
+      },
+      {
+        "topic": "migraine-21",
+        "returned": 7
+      },
+      {
+        "topic": "migraine-22",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-23",
+        "returned": 9
+      },
+      {
+        "topic": "migraine-24",
+        "returned": 35
+      },
+      {
+        "topic": "migraine-25",
+        "returned": 84
+      },
+      {
+        "topic": "migraine-26",
+        "returned": 270
+      },
+      {
+        "topic": "migraine-27",
+        "returned": 55
+      },
+      {
+        "topic": "migraine-28",
+        "returned": 70
+      },
+      {
+        "topic": "migraine-29",
+        "returned": 4
+      },
+      {
+        "topic": "migraine-30",
+        "returned": 89
+      },
+      {
+        "topic": "migraine-31",
+        "returned": 45
+      },
+      {
+        "topic": "migraine-32",
+        "returned": 17
+      },
+      {
+        "topic": "migraine-33",
+        "returned": 18
+      },
+      {
+        "topic": "migraine-34",
+        "returned": 116
+      },
+      {
+        "topic": "migraine-35",
+        "returned": 98
+      },
+      {
+        "topic": "migraine-36",
+        "returned": 125
+      },
+      {
+        "topic": "migraine-37",
+        "returned": 114
+      },
+      {
+        "topic": "migraine-38",
+        "returned": 327
+      },
+      {
+        "topic": "migraine-39",
+        "returned": 44
+      },
+      {
+        "topic": "migraine-40",
+        "returned": 13
+      },
+      {
+        "topic": "migraine-41",
+        "returned": 19
+      },
+      {
+        "topic": "migraine-42",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-43",
+        "returned": 6
+      },
+      {
+        "topic": "migraine-44",
+        "returned": 62
+      },
+      {
+        "topic": "migraine-45",
+        "returned": 62
+      },
+      {
+        "topic": "migraine-46",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-47",
+        "returned": 65
+      },
+      {
+        "topic": "migraine-48",
+        "returned": 39
+      },
+      {
+        "topic": "migraine-49",
+        "returned": 5
+      },
+      {
+        "topic": "migraine-50",
+        "returned": 48
+      },
+      {
+        "topic": "migraine-51",
+        "returned": 2
+      },
+      {
+        "topic": "migraine-52",
+        "returned": 16
+      },
+      {
+        "topic": "migraine-53",
+        "returned": 0
+      },
+      {
+        "topic": "migraine-54",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-55",
+        "returned": 0
+      },
+      {
+        "topic": "migraine-56",
+        "returned": 5
+      },
+      {
+        "topic": "migraine-57",
+        "returned": 9
+      },
+      {
+        "topic": "migraine-58",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-59",
+        "returned": 87
+      },
+      {
+        "topic": "migraine-60",
+        "returned": 14
+      },
+      {
+        "topic": "migraine-61",
+        "returned": 10
+      },
+      {
+        "topic": "migraine-62",
+        "returned": 3
+      },
+      {
+        "topic": "migraine-63",
+        "returned": 3
+      },
+      {
+        "topic": "migraine-64",
+        "returned": 112
+      },
+      {
+        "topic": "migraine-65",
+        "returned": 20
+      },
+      {
+        "topic": "migraine-66",
+        "returned": 24
+      },
+      {
+        "topic": "migraine-67",
+        "returned": 33
+      },
+      {
+        "topic": "migraine-68",
+        "returned": 290
+      },
+      {
+        "topic": "migraine-69",
+        "returned": 123
+      },
+      {
+        "topic": "migraine-70",
+        "returned": 123
+      },
+      {
+        "topic": "migraine-71",
+        "returned": 47
+      },
+      {
+        "topic": "migraine-72",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-73",
+        "returned": 228
+      },
+      {
+        "topic": "migraine-74",
+        "returned": 462
+      },
+      {
+        "topic": "migraine-75",
+        "returned": 601
+      },
+      {
+        "topic": "migraine-76",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-77",
+        "returned": 1000
+      },
+      {
+        "topic": "migraine-78",
+        "returned": 835
+      },
+      {
+        "topic": "migraine-79",
+        "returned": 875
+      },
+      {
+        "topic": "migraine-80",
+        "returned": 146
+      },
+      {
+        "topic": "migraine-81",
+        "returned": 167
+      }
     ]
   }
 }
