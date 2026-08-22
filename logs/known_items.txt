@@ -14227,3 +14227,22 @@ Batch 2029 — 만성 비부비동염·만성 비염 비처방 후보
 - PUSHED=false checkpoint: d0bfbf0ca9662adfe4b155172e09f7a8275d8f43
 - PUSHED=true marker: 625c35a00c99353cf7e27cd9c972fc089fe12b56
 - next_batch: 2066; resume point: new-expansion-candidates-batch2066
+
+## Batch 2066 — 근육성 뇌척수염·만성피로증후군 비처방·비약물 후보
+- date: 2026-08-22
+- topics: 50 searched; selected 25; non-prescription selected 25; prescription selected 0
+- search: 1560 records; 631 unique PMID; 20 supplemental queries; initial 30 topics plus 20 supplemental searches
+- fetch: requested 631; chunks 13; fetched 631; abstracts 615; missing 0
+- candidates: parser 149; selected 25; held/excluded 124
+- selected PMID: 40749563, 38834234, 30942029, 15039515, 8555852, 37619433, 35056360, 14763634, 26212172, 11271868, 22985998, 22385683, 23669515, 14971625, 27116645, 26950098, 37400824, 19912315, 20418251, 41806958, 31607352, 33068345, 14971626, 38072649, 20861404
+- new IDs and PMID: mecfs-acupressure-2066-40749563=40749563, mecfs-astragalus-postcovid-2066-38834234=38834234, mecfs-auricular-gold-needle-2066-30942029=30942029, mecfs-carnitine-2066-15039515=15039515, mecfs-cbt-2066-8555852=8555852, mecfs-clinician-elearning-2066-37619433=37619433, mecfs-compression-stockings-2066-35056360=35056360, mecfs-consumer-rehab-2066-14763634=14763634, mecfs-coq10-nadh-2066-26212172=26212172, mecfs-counselling-vs-cbt-2066-11271868=11271868, mecfs-family-cbt-2066-22985998=22985998, mecfs-fitnet-2066-22385683=22385683, mecfs-fitnet-longterm-2066-23669515=23669515, mecfs-graded-exercise-primary-care-2066-14971625=14971625, mecfs-graded-intermittent-exercise-2066-27116645=27116645, mecfs-guided-self-instruction-2066-26950098=26950098, mecfs-long-snake-moxibustion-2066-37400824=37400824, mecfs-orthostatic-training-2066-19912315=19912315, mecfs-pragmatic-rehab-2066-20418251=20418251, mecfs-prolong-qigong-2066-41806958=41806958, mecfs-qigong-2066-31607352=31607352, mecfs-scraping-tuina-2066-33068345=33068345, mecfs-siberian-ginseng-2066-14971626=14971626, mecfs-tailored-self-management-2066-38072649=38072649, mecfs-video-children-2066-20861404=20861404
+- categories: supp 4, move 4, life 11, care 6, otc 0, food 0, rx 0
+- evidence: 기공·점진운동·간헐운동·압박스타킹·기립훈련, 가정재활·인터넷 인지치료·자기관리·교육, 지압·두피긁기·추나·뜸·귀금침, 코엔자임큐텐·나드·카르니틴·시베리아인삼·황기 보충을 포함한다. 각 항목은 PubMed 초록에서 중재군·대조군의 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다.
+- excluded/held: 처방약 단독·처방약과 비처방 효과 분리 불가·고찰·메타분석·프로토콜·관찰연구·사례보고·동물연구·중복 PMID·초록 없음·수치 부족·대상 불일치 후보 124건을 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch만 사용했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2066.mjs passed; 25 files, 25 unique PMID, 25 Korean subjects and titles, errors 0, warnings 0; unknown-n 0; truthful thin-study 6 (mecfs-orthostatic-training-2066-19912315 n=38, mecfs-family-cbt-2066-22985998 n=44, mecfs-acupressure-2066-40749563 n=39, mecfs-compression-stockings-2066-35056360 n=16, mecfs-consumer-rehab-2066-14763634 n=47, mecfs-graded-intermittent-exercise-2066-27116645 n=24)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 6; comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 1; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 6
+- totals after batch: entries 18675; subjects 11702; refs 21795; numeric group-comparison entries 17736; unknown-n 1283; thin-study 5039
+- data commit: 40616ab7ec502b10b49bc1cc564ac961bc225b80
+- PUSHED=false checkpoint: 1c119854af0f20d5a683b09dbc4234d482dd0cb0
+- PUSHED=true marker: d87056712d4f2c671da6d64fae1819ba056a3e25
+- next_batch: 2067; resume point: new-expansion-candidates-batch2067
