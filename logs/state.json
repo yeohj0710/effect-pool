@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2192는 남성 난임 비처방 영양·생활·보조 후보를 검색해 신규 직접 수치 근거 30건을 기록했다. 현재 데이터 커밋은 PUSHED=false 체크포인트 상태다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2192는 남성 난임 비처방 영양·생활·보조 후보를 검색해 신규 직접 수치 근거 30건을 기록했다. 데이터와 PUSHED=false 체크포인트를 origin/main에 push했고, PUSHED=true 상태 마커를 기록한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -6773,11 +6773,11 @@
   },
   "last_batch": {
     "id": "2192",
-    "commit": "0f504e357",
-    "pushed": false,
-    "expansion_commit": "0f504e357",
-    "data_commits": ["0f504e357"],
-    "checkpoint_commit": null,
+    "commit": "0f504e35702df33ce8f9f95a888d275e7114c980",
+    "pushed": true,
+    "expansion_commit": "0f504e35702df33ce8f9f95a888d275e7114c980",
+    "data_commits": ["0f504e35702df33ce8f9f95a888d275e7114c980"],
+    "checkpoint_commit": "d06654a65bf514588e96217e1dab5a6a7bdbbb46",
     "push_marker_commit": null,
     "known_items_commit": null,
     "new_entries": 30,
@@ -6809,7 +6809,7 @@
     "build_warning_lines": 6,
     "build_error_lines": 0,
     "build_exit": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {"next_batch": "2193", "worklist_line": "new-expansion-candidates-batch2193", "topic": "new-expansion-candidates-batch2193", "unchecked": 0}
   },
   "previous_last_batch_2177": {
