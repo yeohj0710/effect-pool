@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2157 data is ready; PUSHED=false checkpoint is recorded before push.",
+  "next": "Batch 2157 data, state checkpoints, push marker, known_items, and final state are on origin/main; resume with batch 2158.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6774,12 +6774,12 @@
   "last_batch": {
     "id": "2157",
     "commit": "30bb4c0c1",
-    "pushed": false,
+    "pushed": true,
     "expansion_commit": "30bb4c0c1",
     "data_commits": [
       "30bb4c0c1"
     ],
-    "checkpoint_commit": "null",
+    "checkpoint_commit": "7029954f7",
     "push_marker_commit": "null",
     "known_items_commit": "null",
     "maintenance": false,
@@ -7174,7 +7174,7 @@
         "records": 683
       }
     ],
-    "pushed_state": "PUSHED=false"
+    "pushed_state": "PUSHED=true"
   },
   "resume": {
     "next_batch": "2158",
