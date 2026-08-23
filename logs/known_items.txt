@@ -15232,3 +15232,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20233; subjects 13227; refs 23353; numeric comparison entries 19294; unknown-n 1371; thin-study 5558
 - data commit: cdc9f86a9; PUSHED=false checkpoint: f0586778e; PUSHED=true marker: 6ebc0c13a
 - next_batch: 2134; resume point: new-expansion-candidates-batch2134
+
+## Batch 2134 (2026-08-23) — 만성 요통 비처방·보존적 근거 확장
+- topics: 30; selected: 20; non-prescription selected: 20; prescription selected: 0
+- search: 30 topics; 4170 search records; 2477 unique PMID
+- fetch: requested 2477; fetched 2470; chunks 25; abstracts 2400; missing 7 (32338846, 26985522, 30179389, 42594235, 25642548, 28121095, 41529127)
+- candidates: parser 2470 parsed; candidate parser candidates 675; selected 20; held/excluded 655
+- selected PMID: 12642755, 12890859, 18588702, 19096019, 19769912, 20515453, 21753728, 23878604, 24288556, 24965494, 25147574, 25222385, 29449764, 30183453, 31204031, 33927646, 35133634, 35207790, 38822395, 42319630
+- new IDs and PMID: low-back-mckenzie-31204031-2134=31204031; low-back-multimodal-exercise-19769912-2134=19769912; low-back-neurac-vibration-30183453-2134=30183453; low-back-electric-exercise-33927646-2134=33927646; low-back-mhealth-self-compassion-35133634-2134=35133634; low-back-yoga-frequency-23878604-2134=23878604; low-back-auricular-acupressure-25147574-2134=25147574; low-back-standardized-acupuncture-24288556-2134=24288556; low-back-manual-acupuncture-chiropractic-42319630-2134=42319630 (NCT04843800); low-back-neuroplastic-manual-29449764-2134=29449764; low-back-spinal-manipulation-38822395-2134=38822395; low-back-osteopathic-manual-24965494-2134=24965494; low-back-sensory-device-18588702-2134=18588702; low-back-manual-exercise-12642755-2134=12642755; low-back-alexander-exercise-19096019-2134=19096019; low-back-pain-neuroscience-stabilization-35207790-2134=35207790; low-back-exercise-auricular-acupuncture-21753728-2134=21753728; low-back-acupuncture-older-12890859-2134=12890859; low-back-core-stabilization-20515453-2134=20515453; back-related-leg-pain-manipulation-exercise-25222385-2134=25222385 (NCT00494065)
+- categories: otc 0, supp 0, food 0, move 3, life 5, care 12, rx 0; all 20 selected entries are non-prescription or conservative care
+- evidence: PubMed 초록 또는 ClinicalTrials.gov 등록번호에서 운동·교육·침·귀 지압·마사지·도수·척추수기·정골수기·전기자극·요가·자기관리의 무작위 군간 숫자 결과, 효과크기, 신뢰구간 또는 상대효과를 확인했다. 처방약 단독·고찰·메타분석·프로토콜·관찰연구·수치 부족 후보는 기록하지 않았다.
+- excluded/held: 후보 655건을 기존 식별자 중복, 처방약 단독, 고찰·메타분석·프로토콜·관찰·동물·수치 부족 또는 만성 요통 직접성 부족으로 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했고 20개 PMID와 2개 ClinicalTrials.gov 식별자를 연결했다.
+- validator: etc/validate2134.mjs passed; 20 files, 20 unique PMID, 22 reference links, Korean subject and title, category/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 6 (30, 37, 37, 49, 35, 45 participants)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 6; comparator warnings fixed 5; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 1; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20253; subjects 13244; refs 23375; numeric comparison entries 19314; unknown-n 1371; thin-study 5564
+- data commit: bc316f151; PUSHED=false checkpoint: adeafabd2; PUSHED=true marker: 59630ff23
+- next_batch: 2135; resume point: new-expansion-candidates-batch2135
