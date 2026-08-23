@@ -15264,3 +15264,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20273; subjects 13264; refs 23398; numeric comparison entries 19334; unknown-n 1371; thin-study 5568
 - data commit: 01ed0f6c710eb52da3b02ba5a4e10e21c096ccda; PUSHED=false checkpoint: 324dfde30e50320a9e977dd17217128ccd0c34e7; PUSHED=true marker: a67d61d590e227d6dbf22dfc1ff4ea6f548bcc34
 - next_batch: 2136; resume point: new-expansion-candidates-batch2136
+
+## Batch 2136 (2026-08-23) — 만성 어깨·회전근개 통증 비처방·보존적 근거 확장
+- topics: 30; selected: 20; non-prescription selected: 20; prescription selected: 0
+- search: 30 topics; 3203 search records; 2018 unique PMID
+- fetch: requested 2018; fetched 2016; chunks 21; abstracts 1989; missing 2 (39466939, 37490570)
+- candidates: parser 2016 parsed; candidate parser candidates 613; selected 20; held/excluded 593
+- selected PMID: 15471181, 16621849, 16673683, 17450065, 20046559, 21705873, 22958507, 23269329, 24970843, 25739842, 26678717, 27010596, 28875153, 28885231, 32064291, 33849087, 34412536, 34759002, 35037883, 40105684
+- new IDs and PMID: shoulder-rotator-high-load-28875153-2136=28875153 (NCT01984203); shoulder-subacromial-progressive-23269329-2136=23269329; shoulder-specific-exercise-24970843-2136=24970843 (NCT01037673); shoulder-dislocation-neuromuscular-32064291-2136=32064291 (NCT02371928); shoulder-scapular-control-34412536-2136=34412536 (NCT03545100); shoulder-acupuncture-neck-dissection-27010596-2136=27010596; shoulder-scapula-taping-20046559-2136=20046559; shoulder-individual-rehab-40105684-2136=40105684 (NCT05277909); shoulder-lymph-flow-35037883-2136=35037883 (NCT02462226); shoulder-multidim-pt-21705873-2136=21705873; shoulder-water-pt-22958507-2136=22958507; shoulder-aqua-mastectomy-33849087-2136=33849087; shoulder-graded-exercise-16673683-2136=16673683; shoulder-breast-cancer-exercise-34759002-2136=34759002; shoulder-manipulation-exercise-25739842-2136=25739842; shoulder-neuromuscular-taping-26678717-2136=26678717; shoulder-shortwave-diathermy-28885231-2136=28885231; shoulder-shockwave-calcific-15471181-2136=15471181; shoulder-task-chair-17450065-2136=17450065; shoulder-forearm-support-16621849-2136=16621849
+- categories: otc 0, supp 0, food 0, move 10, life 4, care 6, rx 0; all 20 selected entries are non-prescription or conservative-care entries
+- evidence: PubMed 초록과 ClinicalTrials.gov 등록번호에서 회전근개·견봉하 운동, 어깨탈구 신경근운동, 목절제 후 견갑운동·침, 테이핑, 유방암 후 림프운동·물리치료·수중운동, 만성 어깨 단계운동, 작업환경 중재, 수기·단파투열·체외충격파의 무작위 군간 숫자 결과, 비율, 효과크기, 신뢰구간 또는 유효한 상대효과를 확인했다. 공통 주사 후 운동 비교, 수술 후 특정 집단, 예방 연구와 표본 수 미상 여부를 원문 수치대로 기록했다.
+- excluded/held: 후보 593건을 기존 식별자 중복, 처방약 중심·비분리 병용, 고찰·메타분석·프로토콜·관찰·사례·동물연구·수치 부족 또는 어깨 통증 주제 직접성 부족으로 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했고 20개 PMID와 6개 ClinicalTrials.gov 식별자를 연결했다.
+- validator: etc/validate2136.mjs passed; 20 files, 20 unique PMID, 26 reference links, Korean subject and title, category/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 1 (shoulder-individual-rehab-40105684-2136); truthful thin-study 6 (48, 44, 32, 22, 36, 43 participants)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 7 (unknown-n 1 and thin-study 6); comparator warnings fixed 1; effect warnings fixed 9; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20293; subjects 13284; refs 23424; numeric comparison entries 19354; unknown-n 1372; thin-study 5574
+- data commit: 7bfca85ac8d397378cab8f1911b18b5afc5c57e6; PUSHED=false checkpoint: 4d53c40bd24e537298a8f18596f67f0c72e020e9; PUSHED=true marker: f5511e2e051c5c51b7f8d576430959e520fda6f3
+- next_batch: 2137; resume point: new-expansion-candidates-batch2137
