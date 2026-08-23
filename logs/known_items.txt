@@ -15280,3 +15280,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20293; subjects 13284; refs 23424; numeric comparison entries 19354; unknown-n 1372; thin-study 5574
 - data commit: 7bfca85ac8d397378cab8f1911b18b5afc5c57e6; PUSHED=false checkpoint: 4d53c40bd24e537298a8f18596f67f0c72e020e9; PUSHED=true marker: f5511e2e051c5c51b7f8d576430959e520fda6f3
 - next_batch: 2137; resume point: new-expansion-candidates-batch2137
+
+## Batch 2137 (2026-08-23) — 만성 엉덩관절·고관절 통증 비처방·보존적 근거 확장
+- topics: 30; selected: 20; non-prescription selected: 20; prescription selected: 0
+- search: 30 topics; 1709 search records; 977 unique PMID
+- fetch: requested 977; fetched 974; chunks 10; abstracts 966; missing 3 (32338846, 30179389, 27559567)
+- candidates: parser 974 parsed; candidate parser candidates 272; selected 20; held/excluded 252
+- selected PMID: 12892243, 17013852, 17040926, 17638034, 18833335, 19486959, 20134307, 20360503, 20618964, 22196125, 23661494, 24346625, 25305374, 26285180, 35915512, 37529332, 37728076, 40093662, 40836835, 40971509
+- new IDs and PMID: hip-acupuncture-cost-17638034-2137=17638034, hip-acupuncture-longterm-24346625-2137=24346625, hip-aquatic-timing-tha-22196125-2137=22196125, hip-arm-interval-tha-12892243-2137=12892243, hip-chicory-oa-20618964-2137=20618964, hip-community-oa-care-40093662-2137=40093662, hip-cycling-tha-20360503-2137=20360503, hip-early-strength-followup-20134307-2137=20134307, hip-engage-pa-35915512-2137=35915512, hip-forceful-traction-18833335-2137=18833335, hip-oral-enzyme-thr-37529332-2137=37529332, hip-prehab-hiit-37728076-2137=37728076, hip-preop-exercise-tha-17013852-2137=17013852, hip-preop-explosive-26285180-2137=26285180, hip-preop-neuromuscular-23661494-2137=23661494, hip-self-management-obese-40836835-2137=40836835, hip-self-management-primary-care-17040926-2137=17040926, hip-thr-supervised-resistance-25305374-2137=25305374, hip-waitlist-self-management-19486959-2137=19486959, peripheral-oa-mmw-device-40971509-2137=40971509
+- categories: otc 0, supp 2, food 0, move 8, life 5, care 5, rx 0; non-prescription categories 20
+- evidence: 고관절 골관절염과 관절치환 전후의 저항운동·신경근운동·인터벌운동·고정식 자전거, 견인수기·수중운동·밀리미터파 기기, 침술·자기관리·활동상담, 경구 효소·치커리 보충제의 직접 숫자 비교·비율·효과크기·신뢰구간 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 유의한 결과와 유의하지 않은 결과, 고관절·무릎 혼합 연구와 수술 전후 연구의 한계를 초록 수치대로 기록했다.
+- excluded/held: 고찰·메타분석·프로토콜·관찰·사례·처방약 단독·비분리 병용·수치 부족·고관절 주제 직접성 부족 후보 252건을 보류했다. PMID 32338846·30179389·27559567은 EFetch 응답에서 확인되지 않아 제외했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2137.mjs passed; 20 files, 20 unique PMID, Korean subjects and titles, category/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 6 (hip-arm-interval-tha-12892243-2137 n=14, hip-chicory-oa-20618964-2137 n=40, hip-early-strength-followup-20134307-2137 n=24, hip-engage-pa-35915512-2137 n=40, hip-forceful-traction-18833335-2137 n=19, hip-oral-enzyme-thr-37529332-2137 n=34)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 6; comparator warnings fixed 4; effect warnings fixed 8; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20313; subjects 13304; refs 23444; numeric comparison entries 19374; unknown-n 1372; thin-study 5580
+- data commit: 6224e3a9; PUSHED=false checkpoint: 3e2d85fda; PUSHED=true marker: 4d969f9ac
+- next_batch: 2138; resume point: new-expansion-candidates-batch2138
