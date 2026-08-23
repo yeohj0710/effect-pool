@@ -15184,3 +15184,19 @@ Batch 2121 (2026-08-23) — 알레르기비염 비처방·보존적 근거 확�
 - totals after batch: entries 20202; subjects 13200; refs 23322; numeric comparison entries 19263; unknown-n 1371; thin-study 5554
 - data commit: 4e68ca223fb0a607f2b9292fc1f8ff3d37cca5ae; PUSHED=false checkpoint: 065cc0d796537c4840385a40578b9a14fce38d6c; PUSHED=true marker: 64c53fd90eb9dd4f012f41a144390c235b96d2fa
 - next_batch: 2131; resume point: new-expansion-candidates-batch2131
+
+## Batch 2131 (2026-08-23) — 월경통 비처방·보존적 근거 재검색
+- topics: 30; selected: 1; non-prescription selected: 1; prescription selected: 0
+- search: 30 topics; 770 search records; 472 unique PMID
+- fetch: requested 472; fetched 472; chunks 5; abstracts 464; missing 0
+- candidates: parser 472 parsed; candidate parser candidates 30; selected 1; held/excluded 29
+- selected PMID: 28250781
+- new IDs and PMID: dysmenorrhea-acupressure-self-care-28250781-2131=28250781
+- categories: otc 0, supp 0, food 0, move 0, life 0, care 1, rx 0; all 1 selected entry is non-prescription or conservative care
+- evidence: 자기관리 교육·지압·이부프로펜을 비교한 120명 무작위 월경통 연구에서 중재 후 평균 통증 10.65 대19점과 지압 14.40점을 PubMed 초록에서 확인했다. 기존 PMID 중복·철회·고찰·처방약 단독 또는 비처방 효과 분리 불가·수치 부족 후보는 기록하지 않았다.
+- excluded/held: candidate 29건을 기존 데이터베이스 PMID 중복, 철회·고찰·처방약 단독 또는 혼합, 수치 부족으로 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했으며 브라우저와 ClinicalTrials.gov-only 기록은 사용하지 않았다.
+- validator: etc/validate2131.mjs passed; 1 file, 1 unique PMID, Korean subject and title, category/tier/sample-size/numeric comparison checks passed; errors 0, warnings 0; unknown-n 0; truthful thin-study 0
+- build: node build.mjs exit 0; errors 0; new truthful warnings 0; comparator warnings fixed 1; effect warnings fixed 0; line warnings fixed 0; scale warnings fixed 0; English warnings fixed 0; subject warnings fixed 0; translation warnings fixed 0; build errors fixed 0; targeted remaining 0
+- totals after batch: entries 20203; subjects 13201; refs 23323; numeric comparison entries 19264; unknown-n 1371; thin-study 5554
+- data commit: 1a827915c6a4d7f01587b41c58bea98b2d65f3b8; PUSHED=false checkpoint: 7fbcd51ab; PUSHED=true marker: ba5a406c5
+- next_batch: 2132; resume point: new-expansion-candidates-batch2132
