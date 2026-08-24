@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:26:31.806Z",
+  "updated": "2026-08-24T17:27:02.635Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 23221,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 2245는 하지불안증후군 비처방 후보 117건을 직접 선별해 신규 20건을 기록했다. PUSHED=false 체크포인트이며 같은 배치부터 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 2245는 하지불안증후군 비처방 후보 117건을 직접 선별해 신규 20건을 기록했다. 다음 재개점은 batch 2246다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2245는 하지불안증후군 운동·돌봄·기기·보충제 중재를 처리했다. 데이터 push 전 체크포인트다."
+    "note": "Batch 2245는 하지불안증후군 운동·돌봄·기기·보충제 중재를 처리했다. 다음 배치는 batch 2246다."
   },
   "checkpoints": {
     "over_counter_share": "3.5% (824 entries)",
@@ -60,11 +60,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 2245.",
+  "next": "Resume at batch 2246.",
   "resume": {
-    "next_batch": "2245",
-    "worklist_line": "new-expansion-candidates-batch2245",
-    "topic": "하지불안증후군 비처방 후보 batch 2245",
+    "next_batch": "2246",
+    "worklist_line": "new-expansion-candidates-batch2246",
+    "topic": "하지불안증후군 비처방 후보 batch 2246",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -6903,11 +6903,13 @@
   },
   "last_batch": {
     "id": "2245",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "6eac167bc1c52e1238c2442f16646920eb91fbba",
+    "pushed": true,
+    "expansion_commit": "6eac167bc1c52e1238c2442f16646920eb91fbba",
+    "data_commits": [
+      "6eac167bc1c52e1238c2442f16646920eb91fbba"
+    ],
+    "checkpoint_commit": "d9a996f152b1325dff98dc3f04083fdaa84aa56c",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7388,11 +7390,11 @@
       "rls-iron-oral",
       "rls-device-rct"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "2245",
-      "worklist_line": "new-expansion-candidates-batch2245",
-      "topic": "하지불안증후군 비처방 후보 batch 2245",
+      "next_batch": "2246",
+      "worklist_line": "new-expansion-candidates-batch2246",
+      "topic": "하지불안증후군 비처방 후보 batch 2246",
       "unchecked": 0
     }
   },
