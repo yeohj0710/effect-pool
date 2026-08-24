@@ -16551,3 +16551,19 @@ Batch 2190 — 골다공증 비처방 운동·영양·생활·낙상예방 후�
 - build: node build.mjs exit 0; errors 0; new truthful warnings 10; targeted warnings fixed 9; targeted warnings remaining 0; validator comparator fixes 8; effect-length fixes 0; line-length fixes 0; subject-name fixes 1; build errors fixed 1; unrelated legacy warnings retained
 - totals after batch: entries 22671; subjects 15555; refs 25802; numeric comparison entries 21732; unknown-n 1446; thin-study 6393; worklist 17174/17174
 - data commit: 486d36a58; PUSHED=false checkpoint: 2ba2df36c18ac10cdc38f98bf9e56eadbd90a295; PUSHED=true marker: b0779c6f996e3149bff4a3ffc92618ae382bc67e; known_items commit: pending; next_batch: 2221; resume point: new-expansion-candidates-batch2221
+
+## Batch 2221 (2026-08-24) — 자궁내막증·다낭성난소증후군 비처방 보충·생활·돌봄 근거 확장
+- topic: 자궁내막증 비처방·보조 관리 worklist 30개; selected: 30; non-prescription selected: 30; prescription selected: 0
+- supplemental search: 다낭성난소증후군 생활·영양 보충 20개 쿼리
+- search: core 30개 주제와 supplemental 20개 쿼리, 총 2476 search records; 1356 unique PMID
+- fetch: requested 1356; fetched 1354; chunks 15; abstracts 1318; missing 2 (22439157, 29763005); 두 식별자를 재확인했으며 모두 PubmedBookArticle·서적 기록으로 제외
+- candidates: parser 1354 parsed; candidate-like 97; final selected 21; held/excluded 76
+- selected PMID: 10443663, 35707478, 37356455, 40777909, 22154367, 34496450, 34714771, 40920401, 30410689, 19622617, 23017309, 28407657, 25949777, 24612081, 29480399, 32248805, 29498342, 34050763, 33368745, 24636395, 39239011
+- new IDs and PMID: endometriosis-vitamin-k2-d3-2221=10443663, pcos-acupressure-2221=35707478, pcos-antioxidant-2221=37356455, pcos-bacillus-synbiotic-2221=40777909, pcos-electroacupuncture-2221=22154367, pcos-garlic-2221=34496450, pcos-lifestyle-2221=34714771, pcos-myo-inositol-pregnancy-2221=40920401, pcos-omega3-cimt-2221=30410689, pcos-omega3-liver-2221=19622617, pcos-omega3-metabolic-2221=23017309, pcos-omega3-vitamin-e-2221=28407657, pcos-probiotic-2221=25949777, pcos-red-onion-2221=24612081, pcos-resistant-dextrin-2221=29480399, pcos-synbiotic-2221=32248805, pcos-synbiotic-apelin-2221=29498342, pcos-synbiotic-lifestyle-2221=34050763, pcos-thylakoid-spinach-2221=33368745, pcos-vitamin-d-highdose-2221=24636395, pcos-vitamin-d-inflammation-2221=39239011
+- categories: supp 17, care 2, life 1, food 1; tiers: trial 21; dirs: pos 14, null 7; all final entries non-prescription
+- evidence: 자궁내막증 비타민K2·비타민D3와 다낭성난소증후군 지압·전기침·생활중재·마늘·미오이노시톨·오메가3·프로바이오틱·신바이오틱·적양파·저항성 덱스트린·시금치 틸라코이드·비타민D·항산화 보충의 직접 군별 숫자·비율·효과크기·신뢰구간 또는 유효한 상대효과를 PubMed 초록에서 확인했다. 유의한 결과와 유의하지 않은 결과, 소규모 연구와 사람 수 미상 한계를 초록 수치대로 기록했다.
+- excluded/held: 후보 parser 97건 중 76건을 기존 PMID 중복, 처방약 단독·분리할 수 없는 병용, 고찰·메타분석·프로토콜·관찰·사례·동물·초록 없음·수치 부족 자료로 보류했다. 모든 신규 항목은 PubMed E-utilities와 EFetch로 직접 확인했다.
+- validator: etc/validate2221.mjs passed; 21 files, 21 unique PMID, Korean subjects, data/kinds.json category match, trial tier, sample-size, numeric comparison/effect and line-length checks passed; final errors 0, duplicate PMID 0, warnings 5; unknown-n 1 (pcos-synbiotic-lifestyle-2221); truthful thin-study 4 (pcos-omega3-liver-2221 n=25, pcos-thylakoid-spinach-2221 n=48, pcos-vitamin-d-highdose-2221 n=28, pcos-vitamin-d-inflammation-2221 n=40)
+- build: node build.mjs exit 0; errors 0; new truthful warnings 5; targeted warnings fixed 30; targeted warnings remaining 0; validator comparator fixes 8; effect-length fixes 20; line-length fixes 1; subject-name fixes 1; English fixes 0; build errors fixed 0; unrelated legacy warnings retained
+- totals after batch: entries 22692; subjects 15576; refs 25823; numeric comparison entries 21753; unknown-n 1447; thin-study 6397; worklist 17174/17174
+- data commit: 0bf53f92a79e82bd2876a0730d485005694fccc3; PUSHED=false checkpoint: 3183616536eb9cad8f73bd2ed6517a1f405e0251; PUSHED=true marker: 6a3e8b7b71d8602e695e33f42cb539f9b81e0836; known_items commit: pending; next_batch: 2222; resume point: new-expansion-candidates-batch2222
