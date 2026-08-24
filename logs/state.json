@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2213 data is committed locally; the PUSHED=false checkpoint is pending. Resume at batch 2214 after the push marker and state log are recorded.",
+  "next": "Batch 2213 data is pushed; resume at batch 2214.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6898,12 +6898,12 @@
   "last_batch": {
     "id": "2213",
     "commit": "e589a7b9b",
-    "pushed": false,
+    "pushed": true,
     "expansion_commit": "e589a7b9b",
     "data_commits": [
       "e589a7b9b"
     ],
-    "checkpoint_commit": null,
+    "checkpoint_commit": "62bc6804e",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7222,7 +7222,7 @@
     "subject_entries_renamed": 0,
     "open_numeric_comparisons": 21531,
     "supplemental_queries": [],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "2214",
       "worklist_line": "new-expansion-candidates-batch2214",
