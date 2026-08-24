@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:45:52.995Z",
+  "updated": "2026-08-24T17:46:24.083Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 23242,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 2246는 건성안·안구표면질환 후보 590건을 직접 선별해 신규 21건을 기록했다. PUSHED=false 체크포인트이며 같은 배치부터 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 2246는 건성안·안구표면질환 후보 590건을 직접 선별해 신규 21건을 기록했다. 다음 재개점은 batch 2247다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2246는 건성안·안구표면질환의 비처방 온찜질·기기·침·혈액 유래 점안·보충제·식품 중재를 처리했다. 데이터 push 전 체크포인트다."
+    "note": "Batch 2246는 건성안·안구표면질환의 비처방 온찜질·기기·침·혈액 유래 점안·보충제·식품 중재를 처리했다. 다음 배치는 batch 2247다."
   },
   "checkpoints": {
     "over_counter_share": "3.5% (825 entries)",
@@ -60,11 +60,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 2246.",
+  "next": "Resume at batch 2247.",
   "resume": {
-    "next_batch": "2246",
-    "worklist_line": "new-expansion-candidates-batch2246",
-    "topic": "건성안·안구표면질환 비처방 후보 batch 2246",
+    "next_batch": "2247",
+    "worklist_line": "new-expansion-candidates-batch2247",
+    "topic": "건성안·안구표면질환 비처방 후보 batch 2247",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -6903,11 +6903,13 @@
   },
   "last_batch": {
     "id": "2246",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "0e468e52e",
+    "pushed": true,
+    "expansion_commit": "0e468e52e",
+    "data_commits": [
+      "0e468e52e"
+    ],
+    "checkpoint_commit": "fe0e177e9",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7826,12 +7828,12 @@
       "dry-air-pollution",
       "dry-oral-hygiene"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "thin_studies_added": 10,
     "resume": {
-      "next_batch": "2246",
-      "worklist_line": "new-expansion-candidates-batch2246",
-      "topic": "건성안·안구표면질환 비처방 후보 batch 2246",
+      "next_batch": "2247",
+      "worklist_line": "new-expansion-candidates-batch2247",
+      "topic": "건성안·안구표면질환 비처방 후보 batch 2247",
       "unchecked": 0
     }
   },
