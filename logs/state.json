@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T15:48:38.095Z",
+  "updated": "2026-08-24T15:49:06.040Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 23148,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2239은 아토피피부염 비처방 검색에서 직접 확인 가능한 신규 10건을 기록했다. PUSHED=false 체크포인트이며 같은 배치부터 재개한다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2239은 아토피피부염 비처방 검색에서 직접 확인 가능한 신규 10건을 기록했다. 다음 재개점은 batch 2240이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2239은 아토피피부염 비처방 후보를 검색해 신규 10건을 기록했다. 데이터 push 전 체크포인트다."
+    "note": "Batch 2239은 아토피피부염 비처방 후보를 검색해 신규 10건을 기록했다. 다음 배치는 batch 2240이다."
   },
   "checkpoints": {
     "over_counter_share": "3.6% (824 entries)",
@@ -53,18 +53,18 @@
     "build_warnings": {
       "unknown_n": 1458,
       "thin_study": 6586,
-      "targeted_batch_warnings": 5
+      "targeted_batch_warnings": 0
     }
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 2239.",
+  "next": "Resume at batch 2240.",
   "resume": {
-    "next_batch": "2239",
-    "worklist_line": "new-expansion-candidates-batch2239",
-    "topic": "new-expansion-candidates-batch2239",
+    "next_batch": "2240",
+    "worklist_line": "new-expansion-candidates-batch2240",
+    "topic": "new-expansion-candidates-batch2240",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -6903,11 +6903,13 @@
   },
   "last_batch": {
     "id": "2239",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "ceb3d9e5a7fd0ac7b51243876062c281e1962660",
+    "pushed": true,
+    "expansion_commit": "ceb3d9e5a7fd0ac7b51243876062c281e1962660",
+    "data_commits": [
+      "ceb3d9e5a7fd0ac7b51243876062c281e1962660"
+    ],
+    "checkpoint_commit": "771128e99777903025239e440aa4994f5ad57b26",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7139,7 +7141,7 @@
     "build_errors_fixed": 0,
     "build_exit": 0,
     "build": "entries 23148; refs 26279; trial 22298; obs 754; animal 32; lab 17; case 47; numeric 22209; worklist 17174/17174",
-    "research": "PubMed E-utilities에서 아토피피부염 비처방 보습·목욕·생활관리 30개 주제, 보충제·식이 20개 주제, 보강 검색 15개 주제와 추가 보충·보습 검색 15개 주제를 확인했다. 핵심 검색은 1152개·고유 PMID 794개, 보충 검색은 815개·고유 PMID 589개, 보강 검색은 819개·고유 PMID 564개, 추가 검색은 450개·고유 PMID 323개를 반환했고 통합 고유 PMID는 1433개였다. 핵심 794건 중 792건을 fetch해 초록 768건, 보충 589건 중 588건을 fetch해 초록 556건, 보강 564건 중 560건을 fetch해 초록 548건, 추가 323건 중 323건을 fetch해 초록 312건을 확보했다. 누락 PMID는 재확인 결과 모두 PubmedBookArticle로 확인했다. 후보 parser는 각각 792건에서 53건, 588건에서 45건, 560건에서 36건, 323건에서 27건을 남겼고 통합 후보 유사 자료 99건 중 89건을 중복·처방약 단독·분리할 수 없는 병용·고찰·메타분석·프로토콜·관찰·사례·동물·초록 없음·수치 부족으로 보류했다. PubMed 초록에서 직접 확인한 신규 비처방 10건을 기록했고 targeted warning 5건을 수정했다. 실제 표본 수 미상 278건과 새 소표본 연구 6건의 경고는 유지했다.",
+    "research": "PubMed E-utilities에서 아토피피부염 비처방 보습·목욕·생활관리 30개 주제, 보충제·식이 20개 주제, 보강 검색 15개 주제와 추가 보충·보습 검색 15개 주제를 확인했다. 핵심 검색은 1152개·고유 PMID 794개, 보충 검색은 815개·고유 PMID 589개, 보강 검색은 819개·고유 PMID 564개, 추가 검색은 450개·고유 PMID 323개를 반환했고 통합 고유 PMID는 1433개였다. 핵심 794건 중 792건을 fetch해 초록 768건, 보충 589건 중 588건을 fetch해 초록 556건, 보강 564건 중 560건을 fetch해 초록 548건, 추가 323건 중 323건을 fetch해 초록 312건을 확보했다. 누락 PMID는 재확인 결과 모두 PubmedBookArticle로 확인했다. 후보 parser는 각각 792건에서 53건, 588건에서 45건, 560건에서 36건, 323건에서 27건을 남겼고 통합 후보 유사 자료 99건 중 89건을 중복·처방약 단독·분리할 수 없는 병용·고찰·메타분석·프로토콜·관찰·사례·동물·초록 없음·수치 부족으로 보류했다. PubMed 초록에서 직접 확인한 신규 비처방 10건을 기록했고 targeted warning 5건을 수정했다. 실제 표본 수 미상 0건과 새 소표본 연구 6건의 경고는 유지했다.",
     "qualified_topics": [
       "ad-bleach-bath-27543211-2239",
       "ad-gwakhyangjeonggi-37778520-2239",
@@ -7216,11 +7218,11 @@
       "ad-more-coconut-topical",
       "ad-more-shea"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "2239",
-      "worklist_line": "new-expansion-candidates-batch2239",
-      "topic": "new-expansion-candidates-batch2239",
+      "next_batch": "2240",
+      "worklist_line": "new-expansion-candidates-batch2240",
+      "topic": "new-expansion-candidates-batch2240",
       "unchecked": 0
     }
   },
