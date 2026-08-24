@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:42:49.524Z",
+  "updated": "2026-08-24T16:43:19.751Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 23185,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2243은 주사 비처방 검색에서 후보 13건을 직접 선별했지만 신규 기록은 없었다. PUSHED=false 체크포인트이며 같은 배치부터 재개한다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2243은 주사 비처방 검색에서 후보 13건을 직접 선별했지만 신규 기록은 없었다. 다음 재개점은 batch 2244이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2243은 주사 비처방 후보를 검색했지만 직접 확인 가능한 신규 수치 비교가 없어 보류했다. 데이터 push 전 체크포인트다."
+    "note": "Batch 2243은 주사 비처방 후보를 검색했지만 직접 확인 가능한 신규 수치 비교가 없어 보류했다. 다음 배치는 batch 2244이다."
   },
   "checkpoints": {
     "over_counter_share": "3.6% (824 entries)",
@@ -60,11 +60,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 2243.",
+  "next": "Resume at batch 2244.",
   "resume": {
-    "next_batch": "2243",
-    "worklist_line": "new-expansion-candidates-batch2243",
-    "topic": "주사 비처방 피부관리·광선·식이·보충제 batch 2243",
+    "next_batch": "2244",
+    "worklist_line": "new-expansion-candidates-batch2244",
+    "topic": "주사 비처방 피부관리·광선·식이·보충제 batch 2244",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -6903,11 +6903,13 @@
   },
   "last_batch": {
     "id": "2243",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "7a04d5fdd4e9785305ca28803a6f3ccade853f4c",
+    "pushed": true,
+    "expansion_commit": "7a04d5fdd4e9785305ca28803a6f3ccade853f4c",
+    "data_commits": [
+      "7a04d5fdd4e9785305ca28803a6f3ccade853f4c"
+    ],
+    "checkpoint_commit": "18885a2a8a2a1da103d241a6483fcc3ecb2ed280",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7101,11 +7103,11 @@
       "ros-yoga",
       "ros-exercise"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "2243",
-      "worklist_line": "new-expansion-candidates-batch2243",
-      "topic": "주사 비처방 피부관리·광선·식이·보충제 batch 2243",
+      "next_batch": "2244",
+      "worklist_line": "new-expansion-candidates-batch2244",
+      "topic": "주사 비처방 피부관리·광선·식이·보충제 batch 2244",
       "unchecked": 0
     }
   },
