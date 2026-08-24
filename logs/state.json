@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2216 data is committed locally; the PUSHED=false checkpoint is pending. Resume at batch 2217 after the push marker and state log are recorded.",
+  "next": "Batch 2216 data is pushed; resume at batch 2217.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6898,12 +6898,12 @@
   "last_batch": {
     "id": "2216",
     "commit": "aaf0b095e0cfdceedb77f53548d3bdf13fda9530",
-    "pushed": false,
+    "pushed": true,
     "expansion_commit": "aaf0b095e0cfdceedb77f53548d3bdf13fda9530",
     "data_commits": [
       "aaf0b095e0cfdceedb77f53548d3bdf13fda9530"
     ],
-    "checkpoint_commit": null,
+    "checkpoint_commit": "4a13c8d3100c5ef95a59e35390e0e8e7567e46a4",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7282,7 +7282,7 @@
       "insomnia-digital-cbti",
       "insomnia-sleep-hygiene"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "2217",
       "worklist_line": "new-expansion-candidates-batch2217",
