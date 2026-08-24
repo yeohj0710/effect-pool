@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:00:28.597Z",
+  "updated": "2026-08-24T16:00:56.594Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 23159,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2240은 건선 비처방 검색에서 직접 확인 가능한 신규 11건을 기록했다. PUSHED=false 체크포인트이며 같은 배치부터 재개한다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 2240은 건선 비처방 검색에서 직접 확인 가능한 신규 11건을 기록했다. 다음 재개점은 batch 2241이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 2240은 건선 비처방 후보를 검색해 신규 11건을 기록했다. 데이터 push 전 체크포인트다."
+    "note": "Batch 2240은 건선 비처방 후보를 검색해 신규 11건을 기록했다. 다음 배치는 batch 2241이다."
   },
   "checkpoints": {
     "over_counter_share": "3.6% (824 entries)",
@@ -60,11 +60,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 2240.",
+  "next": "Resume at batch 2241.",
   "resume": {
-    "next_batch": "2240",
-    "worklist_line": "new-expansion-candidates-batch2240",
-    "topic": "new-expansion-candidates-batch2240",
+    "next_batch": "2241",
+    "worklist_line": "new-expansion-candidates-batch2241",
+    "topic": "new-expansion-candidates-batch2241",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -6903,11 +6903,13 @@
   },
   "last_batch": {
     "id": "2240",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "7a1b0c4b0",
+    "pushed": true,
+    "expansion_commit": "7a1b0c4b0",
+    "data_commits": [
+      "7a1b0c4b0"
+    ],
+    "checkpoint_commit": "307022385",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7147,11 +7149,11 @@
       "ps-herbal-oral"
     ],
     "extra_queries": [],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "2240",
-      "worklist_line": "new-expansion-candidates-batch2240",
-      "topic": "new-expansion-candidates-batch2240",
+      "next_batch": "2241",
+      "worklist_line": "new-expansion-candidates-batch2241",
+      "topic": "new-expansion-candidates-batch2241",
       "unchecked": 0
     }
   },
