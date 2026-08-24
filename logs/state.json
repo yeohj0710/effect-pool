@@ -60,7 +60,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 2212 data is committed locally; the PUSHED=false checkpoint is pending. Resume at batch 2213 after the push marker and state log are recorded.",
+  "next": "Batch 2212 data is pushed; resume at batch 2213.",
   "previous_last_batch_1690": {
     "id": "1690",
     "commit": "1589b310",
@@ -6898,12 +6898,12 @@
   "last_batch": {
     "id": "2212",
     "commit": "764937351",
-    "pushed": false,
+    "pushed": true,
     "expansion_commit": "764937351",
     "data_commits": [
       "764937351"
     ],
-    "checkpoint_commit": null,
+    "checkpoint_commit": "19658d97b",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -7278,7 +7278,7 @@
       "finger-pain-exercise",
       "hand-function-exercise-orthosis"
     ],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "2213",
       "worklist_line": "new-expansion-candidates-batch2213",
