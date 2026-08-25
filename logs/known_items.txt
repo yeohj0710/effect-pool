@@ -17829,3 +17829,19 @@ Batch 2490 — 천식 비약물 환경관리·전자기기 후속 후보
 - 누적 집계: 항목 24606개; 주제 17247개; 근거 링크 27737개; 숫자 군간 비교 23667개; 사람 수 미상 1533개; 소규모 연구 7002개
 - checkpoint/data commit: d080e008091226a0337daa3c67b1eb6c6c6ac084; push marker: 156b6f4086c13d4765eed2598cbd0bc05a2f04ac; PUSHED=true
 - 다음 재개점: next_batch 2500; resume point new-expansion-candidates-batch2500; 천식 생활환경·보조기기 후속 후보 batch 2500
+
+Batch 2500 — 천식 생활환경·보조기기 후속 후보
+- 선정: 30개 주제; 신규 원 연구 16건; 비처방 주제 30개 처리
+- 검색: 1,498개 레코드; 고유 PMID 1,187개
+- fetch: 고유 PMID 1,187건 요청; 1,183건 확보; 12개 chunk; 일반 fetch 초록 1,167개와 재조회 초록 4개 확보; 누락 4건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,187건; 후보 605건; 신규 후보 406건; 효과 후보 251건; 수동 선별 0건; 신규 후보 제외 235건; 전체 parser 기준 비후보 582건
+- 신규 PMID: 12684289, 9042123, 2083956, 2196513, 14767083, 16905564, 22314457, 23005919, 11159302, 12755932, 7741566, 7849885, 10393599, 10807815, 9596110, 40605224
+- 신규 항목 ID: acute-asthma-bilevel-pressure-12684289-2500, asthma-heliox-9042123-2500, asthma-spacer-nebuhaler-2083956-2500, asthma-spacer-breathing-technique-2196513-2500, asthma-inhaler-spacer-vs-dpi-14767083-2500, asthma-bottle-spacer-16905564-2500, asthma-homemade-spacer-22314457-2500, asthma-valved-spacer-23005919-2500, asthma-spacer-electrostatic-11159302-2500, asthma-coated-spacer-12755932-2500, asthma-spacer-nebulizer-7741566-2500, asthma-spacer-nebulizer-7849885-2500, asthma-inhaler-nebulizer-10393599-2500, acute-wheeze-spacer-10807815-2500, asthma-spacer-deposition-9596110-2500, asthma-childhood-wheeze-spacer-40605224-2500
+- 범주별 신규: care 16건
+- 방향·등급: pos 7건, null 9건; trial 16건
+- 전용 검증: node etc/validate2500final.mjs exit 0; 오류 0; 경고 0; 초기 비교 문장 오류 3건 수정
+- 빌드: node build.mjs exit 0; build error 0건; 신규 build warning 0건
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 7건(12684289 n=30, 9042123 n=18, 2083956 n=20, 2196513 n=21, 23005919 n=31, 10807815 n=42, 9596110 n=10); 실제 소표본 경고는 유지
+- 누적 집계: 항목 24622개; 주제 17263개; 근거 링크 27753개; 숫자 군간 비교 23683개; 사람 수 미상 1533개; 소규모 연구 7009개
+- data/checkpoint commit: 6d9c71adf31f6f9a993020b05446140f19764d62; checkpoint state commit: 7f47da77aff5443d16a6efcff296ffe4b06d517c; push marker: 0c889f8355eee0ba79e1068ed7db753bb5740501; PUSHED=true
+- 다음 재개점: next_batch 2510; resume point new-expansion-candidates-batch2510; 천식 생활환경·보조기기 2차 후속 후보 batch 2510
