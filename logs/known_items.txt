@@ -17975,3 +17975,20 @@ Batch 2580 — 천식 비처방 운동·호흡·식이·자기관리 후보
 - 누적 집계: 항목 24624개; 주제 17264개; 근거 링크 27755개; 숫자 군간 비교 23685개; 사람 수 미상 1534개; 소규모 연구 7009개
 - data commit: 없음; checkpoint state commit: 060f430a0fcb78495ab839f155c6aa4aebc74dc0; push marker commit: f01e57b9a901af9d0fcf03e090fb5d4530bc6580; PUSHED=true
 - 다음 재개점: next_batch 2590; resume point new-expansion-candidates-batch2590; 천식 비처방 운동·식이·자기관리 후속 후보 batch 2590
+
+Batch 2590 — 천식 비처방 교육·간호·학교·원격·환경 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 2,055개 레코드; 고유 PMID 1,470개
+- fetch: 1,470건 요청; 1,457건 확보; 15개 chunk; 일반 fetch 초록 1,436개와 재조회 초록 13개 확보; 누락 13건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,470건; 후보 839건; 신규 후보 394건; 효과 후보 192건; 수동 선별 0건; 신규 후보 제외 192건; 전체 parser 기준 비후보 631건
+- 신규 PMID: 없음
+- 신규 항목 ID: 없음
+- 범주별 신규: 없음
+- 방향·등급: 없음
+- 전용 검증: node etc/validate2590final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고는 숨기거나 수정하지 않음
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·단일군·이차분석·혼합질환·비천식 연구·처방약 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24624개; 주제 17264개; 근거 링크 27755개; 숫자 군간 비교 23685개; 사람 수 미상 1534개; 소규모 연구 7009개
+- data commit: 없음; checkpoint state commit: 9a22f9975f174b2b952fd23dd9042d65238f6a47; push marker commit: 44a2b71a88e30844c5fd34cd20b0bcc20acc7185; PUSHED=true
+- 다음 재개점: next_batch 2600; resume point new-expansion-candidates-batch2600; 천식 비처방 학교·환경·원격 자기관리 후속 후보 batch 2600
