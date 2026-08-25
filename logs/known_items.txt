@@ -17320,3 +17320,16 @@ Batch 2190 — 골다공증 비처방 운동·영양·생활·낙상예방 후�
 - build: node build.mjs exit 0; final build errors 0; initial build errors 0; targeted warning fixes 18 (vs 1, line 5, scale 12); final new truthful warnings 9; data commit: 01cc2350d; PUSHED=false checkpoint: 29988f5c1; PUSHED=true marker: a1f71ccc3; known_items commit: 6d7e64d56
 - totals after batch: entries 24304; subjects 16965; refs 27435; numeric comparison entries 23365; unknown-n 1511; thin-study 6908; worklist 17174/17174
 - resume: next_batch 2287; resume point new-expansion-candidates-batch2287; resume topic: 천식 비처방 후속 후보 batch 2287; state.last_batch.pushed true; PUSHED=true
+
+Batch 2287 — 천식 비처방 행동·환경·심신 후속 후보
+- topics: 핵심 30개·세부 20개·추가 20개·표적 4개; worklist 처리 30개; 신규 선정 20개
+- search: 핵심·세부 통합 4008 records/2699 unique PMID; 추가 1988/1637; 표적 3364/2755; 전체 검색 records 9360; 통합 전체 unique PMID 4685
+- fetch: 핵심 requested 2699/fetched 2683/abstracts 2623/chunks 27/missing 16; missing 16건은 PubMedBookArticle로 재확인; 추가 1637/1637/1597/chunks 17; 직접 표적 7 fetched 7 abstracts 5; 표적 창 720 fetched 720 abstracts 694; 표적 창2 516 fetched 516 abstracts 490
+- candidates: parser parsed 4320/candidate-like 2374/new candidate-like 1260/effect-candidates 692; selected 20; parser 비후보 1946; 수동 효과 후보 제외 또는 보류 672; 직접 표적 제외 6; duplicate PMID replacements 0
+- new IDs and PMID: 비만소아천식-비타민D-37926939-2287=37926939, 성인천식-교육자가관리-12375708-2287=12375708, 성인천식-인터넷-자기관리-비용-22096523-2287=22096523, 성인천식-자가관리-비용-11334121-2287=11334121, 소아천식-간접흡연-최소중재-7961322-2287=7961322, 소아천식-사막먼지-노출감소-36573449-2287=36573449, 소아천식-지중해식-생선-32979724-2287=32979724, 소아천식-진료알림-17018460-2287=17018460, 소아천식-흡기근운동-18797738-2287=18797738, 지역약국-천식-소그룹교육-17365206-2287=17365206, 천식-들깨기름-지방산-10732825-2287=10732825, 천식-분무-마그네슘-1514723-2287=1514723, 천식-신체활동-자기확언-22269593-2287=22269593, 천식-올리고푸코이단-보충-36307493-2287=36307493, 천식-최대호기량증상-자가관리-2148702-2287=2148702, 천식-흡입-글루타티온-10575337-2287=10575337, 천식-흡입-마그네슘-9179429-2287=9179429, 천식-흡입-마그네슘-용량-8703659-2287=8703659, 청소년천식-동료-자기관리-비용-22758599-2287=22758599, 헝가리천식-지식교육-12823122-2287=12823122
+- categories: care 8; supp 7; move 2; life 2; food 1; tiers trial 20; directions pos 12, null 7, harm 1
+- evidence: PubMed 초록에서 천식 교육·자가관리·신체활동·호흡근운동·식이·보충·환경행동의 직접 비교 숫자 결과·비율·효과크기·신뢰구간 또는 유효한 상대효과를 확인했다. 고찰·메타분석·프로토콜·관찰·동물·초록 없음·수치 부족·처방약 단독·비처방 효과 분리 불가 연구와 기존 PMID는 제외했고, 혈중농도·노출행동·외부활동 같은 대리 결과는 한계를 명시했다. 결과를 추정하거나 보간하지 않았다.
+- validator: etc/validate2287.mjs passed; 20 files, 20 unique PMID, Korean subjects, category/tier/sample-size/numeric/comparator/line checks passed; final errors 0, warnings 0; unknown-n 3; truthful thin-study 7
+- build: node build.mjs exit 0; final build errors 0; initial build warnings 18; final warning lines 11 including 10 truthful new warnings; comparison wording fixes 7; subject rename 1; build errors fixed 0; data commit: 10e579984; PUSHED=false checkpoint: 0e2b23d45; PUSHED=true marker: e64f9f7ab
+- totals after batch: entries 24324; subjects 16985; refs 27455; numeric comparison entries 23385; unknown-n 1514; thin-study 6915; worklist 17174/17174
+- resume: next_batch 2288; resume point new-expansion-candidates-batch2288; resume topic: 천식 비처방 후속 후보 batch 2288; state.last_batch.pushed true; PUSHED=true
