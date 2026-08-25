@@ -17845,3 +17845,19 @@ Batch 2500 — 천식 생활환경·보조기기 후속 후보
 - 누적 집계: 항목 24622개; 주제 17263개; 근거 링크 27753개; 숫자 군간 비교 23683개; 사람 수 미상 1533개; 소규모 연구 7009개
 - data/checkpoint commit: 6d9c71adf31f6f9a993020b05446140f19764d62; checkpoint state commit: 7f47da77aff5443d16a6efcff296ffe4b06d517c; push marker: 0c889f8355eee0ba79e1068ed7db753bb5740501; PUSHED=true
 - 다음 재개점: next_batch 2510; resume point new-expansion-candidates-batch2510; 천식 생활환경·보조기기 2차 후속 후보 batch 2510
+
+Batch 2510 — 천식 환경 노출 회피·호흡 재활·학교 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,737개 레코드; 고유 PMID 1,232개
+- fetch: 고유 PMID 1,232건 요청; 1,226건 확보; 13개 chunk; 일반 fetch 초록 1,208개와 재조회 초록 6개 확보; 누락 6건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,232건; 후보 664건; 신규 후보 330건; 효과 후보 180건; 수동 선별 0건; 신규 후보 제외 179건; 전체 parser 기준 비후보 568건
+- 신규 PMID: 20538819
+- 신규 항목 ID: asthma-objective-airway-monitoring-20538819-2510
+- 범주별 신규: care 1건
+- 방향·등급: pos 1건; trial 1건
+- 전용 검증: node etc/validate2510final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 2510 신규 비교 warning 1건과 2500 기존 비교 표지어 warning 4건 수정
+- 실제 경고: unknown-n 1건(asthma-objective-airway-monitoring-20538819-2510; 초록에 전체 표본 수 없음); n<50 소규모 연구 0건; unknown-n은 null로 유지
+- 누적 집계: 항목 24623개; 주제 17264개; 근거 링크 27754개; 숫자 군간 비교 23684개; 사람 수 미상 1534개; 소규모 연구 7009개
+- data/checkpoint commit: e6d575b4bf3fbd7f357f336051ed43d24777f93c; checkpoint state commit: 17d67e99208caa3c23d7083569a66a016062eabc; push marker: 032e72b311bc1c1031dfb5f6dfea3e8b36d6be4a; PUSHED=true
+- 다음 재개점: next_batch 2520; resume point new-expansion-candidates-batch2520; 천식 환경·호흡 재활 보강 후보 batch 2520
