@@ -17797,3 +17797,19 @@ Batch 2470 — 천식 비약물 디지털 자기관리·교육 보강 후보
 - 누적 집계: 항목 24601개; 주제 17242개; 근거 링크 27732개; 숫자 군간 비교 23662개; 사람 수 미상 1533개; 소규모 연구 7000개
 - checkpoint/data commit: c7fa5e9f1cfeccc6523f538a65cd05df9aaaa7c4; push marker: 06bb08d74; PUSHED=true
 - 다음 재개점: next_batch 2480; resume point new-expansion-candidates-batch2480; 천식 비약물 웨어러블·전자 모니터·가정 디지털 후보 batch 2480
+
+Batch 2480 — 천식 비약물 웨어러블·전자 모니터·가정 디지털 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 985개 레코드; 고유 PMID 726개
+- fetch: 고유 PMID 726건 요청; 720건 확보; 8개 chunk; 일반 fetch 초록 713개와 재조회 초록 6개 확보; 누락 6건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 726건; 후보 387건; 신규 후보 184건; 효과 후보 98건; 수동 선별 0건; 신규 후보 제외 98건; 전체 parser 기준 비후보 86건
+- 신규 PMID: 11291422, 33449120
+- 신규 항목 ID: asthma-whistle-watch-11291422-2480, asthma-digital-care-personnel-time-33449120-2480
+- 범주별 신규: care 2건
+- 방향·등급: pos 2건; trial 2건
+- 전용 검증: node etc/validate2480final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 새 비교 경고 2건 수정
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 1건(asthma-whistle-watch-11291422-2480, n=43); 새 경고 1건 유지
+- 누적 집계: 항목 24603개; 주제 17244개; 근거 링크 27734개; 숫자 군간 비교 23664개; 사람 수 미상 1533개; 소규모 연구 7001개
+- checkpoint/data commit: aa602a8ecf66f48287a71edb04e4972fb392e8d4; push marker: be2c2069d3f2f858e03eef950a18da7723cea31d; PUSHED=true
+- 다음 재개점: next_batch 2490; resume point new-expansion-candidates-batch2490; 천식 비약물 환경관리·전자기기 후속 후보 batch 2490
