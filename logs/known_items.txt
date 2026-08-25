@@ -17333,3 +17333,17 @@ Batch 2287 — 천식 비처방 행동·환경·심신 후속 후보
 - build: node build.mjs exit 0; final build errors 0; initial build warnings 18; final warning lines 11 including 10 truthful new warnings; comparison wording fixes 7; subject rename 1; build errors fixed 0; data commit: 10e579984; PUSHED=false checkpoint: 0e2b23d45; PUSHED=true marker: e64f9f7ab
 - totals after batch: entries 24324; subjects 16985; refs 27455; numeric comparison entries 23385; unknown-n 1514; thin-study 6915; worklist 17174/17174
 - resume: next_batch 2288; resume point new-expansion-candidates-batch2288; resume topic: 천식 비처방 후속 후보 batch 2288; state.last_batch.pushed true; PUSHED=true
+
+Batch 2288 — 천식 비처방 심신·운동·교육·환경 후속 후보
+- topics: 핵심 30개·세부 20개·추가 20개·표적 4개; worklist 처리 30개; 신규 선정 20개
+- search: 핵심·세부 통합 3413 records/2368 unique PMID; 추가 2978/2579; 표적 74/73; 전체 검색 records 6465; 통합 전체 unique PMID 4239
+- fetch: 핵심 requested 2368/fetched 2353/abstracts 2311/chunks 24/missing 15; missing 15건은 PubMedBookArticle로 재확인; 추가 2579/2579/2545/chunks 26; 표적 73/73/70/chunks 1
+- candidates: parser parsed 5020/candidate-like 3021/고유 candidate-like 2486/effect-candidates 1028; selected 20; parser·비적격 필터 718; 수동 효과 후보 제외 또는 보류 1008; 수동 후보 5; duplicate PMID replacements 0
+- new IDs and PMID: 소아천식-진료알림-PAIR-UP-25288141-2288=25288141, 성인천식-증상-최대호기량-행동계획-11844120-2288=11844120, 천식-흡입기-복약알림-25062783-2288=25062783, 천식-약사-복약순응-37366806-2288=37366806, 천식-약국-문진-피드백-17510001-2288=17510001, 성인천식-웹-건강관리-행동계획-26678294-2288=26678294, 소아천식-가정-증상교육-15982192-2288=15982192, 천식-COPD-소그룹-동료검토-10557684-2288=10557684, 소아천식-흡기근-훈련-37285069-2288=37285069, 소아천식-호흡근-운동훈련-36945322-2288=36945322, 천식-심박변이-바이오피드백-29124506-2288=29124506, 성인천식-걷기-운동-22863207-2288=22863207, 천식-천식학교-교육비용-8836335-2288=8836335, 천식-지역사회-교육센터-7974314-2288=7974314, 비만천식-CPAP-기도반응-41225496-2288=41225496, 천식-지역약국-순응관리-33782092-2288=33782092, 지역약국-천식-감사피드백-27207626-2288=27207626, 소아천식-의료진-예방알림-15867114-2288=15867114, 천식-가정-공기청정-필터-39581037-2288=39581037, 천식포함-흡연중단-즉시예약-42121293-2288=42121293
+- categories: care 14; move 4; life 2; tiers trial 20; directions pos 11, null 9, open 0, harm 0
+- evidence: PubMed 초록에서 천식 교육·자가관리·운동·심신·약국관리·환경·금연 중재의 중재군과 대조군 숫자 결과·비율·효과크기·신뢰구간 또는 유효한 상대효과를 확인했다. 고찰·메타분석·프로토콜·관찰·동물·초록 없음·수치 부족·처방약 단독·비처방 효과 분리 불가 연구와 기존 PMID는 제외했고, 혼합 질환·약국 단위·대리지표 결과와 표본 수 미상은 한계를 명시했다. 결과를 추정하거나 보간하지 않았다.
+- validator: etc/validate2288.mjs passed; 20 files, 20 unique PMID, Korean subjects, category/tier/sample-size/numeric/comparator/line checks passed; final errors 0, warnings 0; unknown-n 4; truthful thin-study 2 (비만천식-CPAP-기도반응-41225496-2288 n=20, 성인천식-걷기-운동-22863207-2288 n=19)
+- build: node build.mjs exit 0; final build errors 0; initial build warnings 7; final warning lines 6, all truthful; comparison wording fixes 0; scale-number overlap fix 1; subject rename 0; build errors fixed 0
+- totals after batch: entries 24344; subjects 17005; refs 27475; numeric comparison entries 23405; unknown-n 1518; thin-study 6917; worklist 17174/17174
+- data commit: 1e2765be0; PUSHED=false checkpoint: efe9af970; PUSHED=true marker: 397e1d11f
+- resume: next_batch 2289; resume point new-expansion-candidates-batch2289; resume topic: 천식 비처방 후속 후보 batch 2289; state.last_batch.pushed true; PUSHED=true
