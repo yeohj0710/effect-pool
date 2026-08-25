@@ -17861,3 +17861,19 @@ Batch 2510 — 천식 환경 노출 회피·호흡 재활·학교 자기관리 �
 - 누적 집계: 항목 24623개; 주제 17264개; 근거 링크 27754개; 숫자 군간 비교 23684개; 사람 수 미상 1534개; 소규모 연구 7009개
 - data/checkpoint commit: e6d575b4bf3fbd7f357f336051ed43d24777f93c; checkpoint state commit: 17d67e99208caa3c23d7083569a66a016062eabc; push marker: 032e72b311bc1c1031dfb5f6dfea3e8b36d6be4a; PUSHED=true
 - 다음 재개점: next_batch 2520; resume point new-expansion-candidates-batch2520; 천식 환경·호흡 재활 보강 후보 batch 2520
+
+Batch 2520 — 천식 환경·호흡 재활 보강 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,634개 레코드; 고유 PMID 1,319개
+- fetch: 1,319건 요청; 1,314건 확보; 14개 chunk; 일반 fetch 초록 1,295개와 재조회 초록 5개 확보; 누락 5건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,319건; 후보 629건; 신규 후보 314건; 효과 후보 174건; 수동 선별 0건; 신규 후보 제외 174건; 전체 parser 기준 비후보 690건
+- 신규 PMID: 없음
+- 신규 항목 ID: 없음
+- 범주별 신규: 없음
+- 방향·등급: 없음
+- 전용 검증: node etc/validate2520final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 2520 신규 warning 0건
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 누적 집계: 항목 24623개; 주제 17264개; 근거 링크 27754개; 숫자 군간 비교 23684개; 사람 수 미상 1534개; 소규모 연구 7009개
+- data/checkpoint commit: 6b27e9843a8500da3dce5f72f61dc09dc5dab9a2; checkpoint state commit: f2297ef04; push marker: 3ad38a797403e805fa8a50f8bb5340e4c081483e; PUSHED=true
+- 다음 재개점: next_batch 2530; resume point new-expansion-candidates-batch2530; 천식 비처방 환경·자기관리 추가 후보 batch 2530
