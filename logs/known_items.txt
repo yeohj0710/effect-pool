@@ -18077,3 +18077,19 @@ Batch 2640 — 천식 비처방 장기 자기관리·운동·교육 후속 후�
 - 누적 집계: 항목 24629개; 주제 17265개; 근거 링크 27760개; 숫자 군간 비교 23690개; 사람 수 미상 1534개; 소규모 연구 7011개
 - data commit: f9ede9325bf48477cd81e9849ef4617b92f0c59b; checkpoint state commit: 61c803290b2031b938e9affed03d2e9c4b3e6450; push marker commit: e467af037d8d623f2704215e62118a23a211f6ab; PUSHED=true
 - 다음 재개점: next_batch 2650; resume point new-expansion-candidates-batch2650; 천식 비처방 소아·성인 교육·운동 후속 후보 batch 2650
+
+Batch 2650 — 천식 비처방 소아·성인 교육·운동 후속 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 3,527개 레코드; 고유 PMID 2,015개
+- fetch: 2,015건 요청; 2,003건 확보; 21개 chunk; 일반 fetch 초록 1,973개와 재조회 초록 12개 확보; 누락 12건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 2,015건; 후보 1,062건; 신규 후보 551건; 효과 후보 328건; 수동 선별 328건; 신규 후보 제외 328건; 전체 parser 기준 비후보 953건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2650final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,361건은 숨기거나 수정하지 않음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·단일군·이차분석·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24629개; 주제 17265개; 근거 링크 27760개; 숫자 군간 비교 23690개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: 없음(신규 data 파일 없음); checkpoint state commit: a968119f9b2e9b4935a23fb581a361c4d7a55c52; push marker commit: 01e20ec8b9fd8ba93c0fa3c5d7b87cfeaac4dcef; PUSHED=true
+- 다음 재개점: next_batch 2660; resume point new-expansion-candidates-batch2660; 천식 비처방 성인·소아 자가관리·지역사회 후속 후보 batch 2660
