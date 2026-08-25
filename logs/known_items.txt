@@ -17781,3 +17781,19 @@ Batch 2460 — 천식 비약물 자기관리·환경관리·심리 추가 후보
 - 누적 집계: 항목 24599개; 주제 17240개; 근거 링크 27730개; 숫자 군간 비교 23660개; 사람 수 미상 1532개; 소규모 연구 7000개
 - checkpoint/data commit: a8cbb48c7c9401a14e213d82884f0707c2556a76; push marker: 949545ae4; PUSHED=true
 - 다음 재개점: next_batch 2470; resume point new-expansion-candidates-batch2470; 천식 비약물 디지털 자기관리·교육 보강 후보 batch 2470
+
+Batch 2470 — 천식 비약물 디지털 자기관리·교육 보강 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 796개 레코드; 고유 PMID 514개
+- fetch: 고유 PMID 514건 요청; 508건 확보; 6개 chunk; 일반 fetch 초록 505개와 재조회 초록 6개 확보; 누락 6건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 514건; 후보 283건; 신규 후보 122건; 효과 후보 84건; 수동 선별 0건; 신규 후보 제외 84건; 전체 parser 기준 비후보 38건
+- 신규 PMID: 30765503, 28434269
+- 신규 항목 ID: asthma-electronic-management-system-30765503-2470, asthma-electronic-adherence-monitor-28434269-2470
+- 범주별 신규: care 2건
+- 방향·등급: pos 2건; trial 2건
+- 전용 검증: node etc/validate2470final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건
+- 실제 경고: unknown-n 1건(asthma-electronic-adherence-monitor-28434269-2470); n<50 소규모 연구 0건; 새 경고 1건 유지
+- 누적 집계: 항목 24601개; 주제 17242개; 근거 링크 27732개; 숫자 군간 비교 23662개; 사람 수 미상 1533개; 소규모 연구 7000개
+- checkpoint/data commit: c7fa5e9f1cfeccc6523f538a65cd05df9aaaa7c4; push marker: 06bb08d74; PUSHED=true
+- 다음 재개점: next_batch 2480; resume point new-expansion-candidates-batch2480; 천식 비약물 웨어러블·전자 모니터·가정 디지털 후보 batch 2480
