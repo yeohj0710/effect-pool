@@ -17765,3 +17765,19 @@ Batch 2450 — 천식 비약물 학교·가정교육·호흡운동 추가 후보
 - 누적 집계: 항목 24596개; 주제 17238개; 근거 링크 27727개; 숫자 군간 비교 23657개; 사람 수 미상 1531개; 소규모 연구 6999개
 - checkpoint: 83afad04d; data commit: NONE; push marker: a2908710f; PUSHED=true
 - 다음 재개점: next_batch 2460; resume point new-expansion-candidates-batch2460; 천식 비약물 자기관리·환경관리·심리 추가 후보 batch 2460
+
+Batch 2460 — 천식 비약물 자기관리·환경관리·심리 추가 후보
+- 선정: 30개 주제; 신규 원 연구 3건; 비처방 주제 30개 처리
+- 검색: 2,449개 레코드; 고유 PMID 1,841개
+- fetch: 고유 PMID 1,841건 요청; 1,827건 확보; 19개 chunk; 일반 fetch 초록 1,806개와 재조회 초록 14개 확보; 누락 14건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,841건; 후보 1,080건; 신규 후보 620건; 효과 후보 327건; 수동 선별 0건; 신규 후보 제외 324건; 전체 parser 기준 비후보 293건
+- 신규 PMID: 23033885, 18601636, 31584682
+- 신규 항목 ID: asthma-electronic-symptom-diary-23033885-2460, asthma-pharmacy-medication-record-18601636-2460, asthma-comprehensive-care-coordination-31584682-2460
+- 범주별 신규: care 3건
+- 방향·등급: pos 2건, null 1건; trial 3건
+- 전용 검증: node etc/validate2460final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; 초기 파일명 오류 3건 수정; 최종 build error 0건
+- 실제 경고: unknown-n 1건(asthma-comprehensive-care-coordination-31584682-2460); n<50 소규모 연구 1건(asthma-electronic-symptom-diary-23033885-2460, n=47); 새 경고 2건 유지
+- 누적 집계: 항목 24599개; 주제 17240개; 근거 링크 27730개; 숫자 군간 비교 23660개; 사람 수 미상 1532개; 소규모 연구 7000개
+- checkpoint/data commit: a8cbb48c7c9401a14e213d82884f0707c2556a76; push marker: 949545ae4; PUSHED=true
+- 다음 재개점: next_batch 2470; resume point new-expansion-candidates-batch2470; 천식 비약물 디지털 자기관리·교육 보강 후보 batch 2470
