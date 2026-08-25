@@ -18060,3 +18060,20 @@ Batch 2620 — 천식 비처방 공기질·주거환경·학교 후속 후보
 - 누적 집계: 항목 24628개; 주제 17265개; 근거 링크 27759개; 숫자 군간 비교 23689개; 사람 수 미상 1534개; 소규모 연구 7011개
 - data commit: 038941df30c9bf09c0f4cad3893ee280976d019c; checkpoint state commit: 9641cadb1b60d17b398ff3d356d0e261a8eb7e09; push marker commit: a33f5e1745e63d1c9f66a5b8c5b6267524c62de4; PUSHED=true
 - 다음 재개점: next_batch 2630; resume point new-expansion-candidates-batch2630; 천식 비처방 중재 안전성·장기결과 후속 후보 batch 2630
+
+Batch 2640 — 천식 비처방 장기 자기관리·운동·교육 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 875개 레코드; 고유 PMID 626개
+- fetch: 626건 요청; 618건 확보; 7개 chunk; 일반 fetch 초록 616개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 626건; 후보 331건; 신규 후보 148건; 효과 후보 87건; 수동 선별 87건; 신규 후보 제외 86건; 전체 parser 기준 비후보 295건
+- 신규 PMID: 40089702
+- 신규 항목 ID: 성인천식-자기관리교육-40089702-2640
+- 범주별 신규: care 1건; tier trial 1건; 방향 pos 1건
+- 기록: 성인 천식 자기관리교육 준실험 비교; 교육 102명 대 대조 102명; 천식 조절 개선 19.4% 대 0.6%, 자기관리 지식 24.3% 대 0.7%
+- 전용 검증: node etc/validate2640final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고는 숨기거나 수정하지 않음
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·처방약·관찰·회고 코호트·단일군·프로토콜·비천식 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24629개; 주제 17265개; 근거 링크 27760개; 숫자 군간 비교 23690개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: f9ede9325bf48477cd81e9849ef4617b92f0c59b; checkpoint state commit: 61c803290b2031b938e9affed03d2e9c4b3e6450; push marker commit: e467af037d8d623f2704215e62118a23a211f6ab; PUSHED=true
+- 다음 재개점: next_batch 2650; resume point new-expansion-candidates-batch2650; 천식 비처방 소아·성인 교육·운동 후속 후보 batch 2650
