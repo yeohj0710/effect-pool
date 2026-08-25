@@ -18026,3 +18026,20 @@ Batch 2600 — 천식 비처방 학교·환경·원격 자기관리 후속 후�
 - 누적 집계: 항목 24625개; 주제 17265개; 근거 링크 27756개; 숫자 군간 비교 23686개; 사람 수 미상 1534개; 소규모 연구 7009개
 - data commit: f247977a0a94aaca99d553300a735c9936fc76fd; checkpoint state commit: f0fe5a4e6c26daa4c62dd8a3d675c0e39efbd7b2; push marker commit: de3cd4485ee86703c39a4a783a9267a61892a96b; PUSHED=true
 - 다음 재개점: next_batch 2610; resume point new-expansion-candidates-batch2610; 천식 비처방 직장·알레르겐·디지털 후속 후보 batch 2610
+
+Batch 2620 — 천식 비처방 공기질·주거환경·학교 후속 후보
+- 선정: 30개 주제; 신규 원 연구 3건; 비처방 주제 30개 처리
+- 검색: 1,255개 레코드; 고유 PMID 754개
+- 추가 확인: NCT02291302 PubMed 검색 1건; 5개 레코드·고유 PMID 5개; target fetch 5건·초록 3개; 원시험 PMID 34547084는 기존 항목에 연결해 중복 기록하지 않음
+- fetch: 754건 요청; 752건 확보; 8개 chunk; 일반 fetch 초록 742개와 재조회 초록 2개 확보; 누락 2건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 754건; 후보 315건; 신규 후보 180건; 효과 후보 68건; 수동 선별 68건; 신규 후보 제외 65건; 전체 parser 기준 비후보 439건
+- 신규 PMID: 20420722, 22067982, 32510976
+- 신규 항목 ID: 급성천식-비침습환기-20420722-2620; 소아천식-비침습양압환기-22067982-2620; 중증천식-기관지열성형술-32510976-2620
+- 범주별 신규: care 2건; move 1건; tier trial 3건; 방향 pos 2건·null 1건
+- 전용 검증: node etc/validate2620final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 비교·제목·영문 warning 0건; 신규 소규모 연구 warning 2건은 유지
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 2건(PMID 22067982 n=20, PMID 32510976 n=30); 경고를 숨기거나 조작하지 않음
+- 선별 제외: 고찰·메타분석·처방약·관찰·이차분석·단일군·비천식 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24628개; 주제 17265개; 근거 링크 27759개; 숫자 군간 비교 23689개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: 038941df30c9bf09c0f4cad3893ee280976d019c; checkpoint state commit: 9641cadb1b60d17b398ff3d356d0e261a8eb7e09; push marker commit: a33f5e1745e63d1c9f66a5b8c5b6267524c62de4; PUSHED=true
+- 다음 재개점: next_batch 2630; resume point new-expansion-candidates-batch2630; 천식 비처방 중재 안전성·장기결과 후속 후보 batch 2630
