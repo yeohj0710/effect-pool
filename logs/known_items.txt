@@ -17992,3 +17992,20 @@ Batch 2590 — 천식 비처방 교육·간호·학교·원격·환경 후보
 - 누적 집계: 항목 24624개; 주제 17264개; 근거 링크 27755개; 숫자 군간 비교 23685개; 사람 수 미상 1534개; 소규모 연구 7009개
 - data commit: 없음; checkpoint state commit: 9a22f9975f174b2b952fd23dd9042d65238f6a47; push marker commit: 44a2b71a88e30844c5fd34cd20b0bcc20acc7185; PUSHED=true
 - 다음 재개점: next_batch 2600; resume point new-expansion-candidates-batch2600; 천식 비처방 학교·환경·원격 자기관리 후속 후보 batch 2600
+
+Batch 2600 — 천식 비처방 학교·환경·원격 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,914개 레코드; 고유 PMID 1,424개
+- fetch: 1,424건 요청; 1,413건 확보; 15개 chunk; 일반 fetch 초록 1,406개와 재조회 초록 11개 확보; 누락 11건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,424건; 후보 780건; 신규 후보 377건; 효과 후보 247건; 수동 선별 0건; 신규 후보 제외 246건; 전체 parser 기준 비후보 644건
+- 신규 PMID: 9544599
+- 신규 항목 ID: 성인-천식-응급관찰병동-9544599-2600
+- 범주별 신규: care 1건; tier trial 1건; 방향 pos 1건
+- 기록: 성인 천식 응급관찰병동; 응급관찰병동 대 입원진료; n=113; 치료비 1,202 대 2,247달러와 삶의 질 8개 영역 중 5개 우수; 최대호기량·8주 무재발 차이 없음
+- 전용 검증: node etc/validate2600final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고는 숨기거나 수정하지 않음
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·단일군·이차분석·혼합질환·비천식 연구·처방약 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24625개; 주제 17265개; 근거 링크 27756개; 숫자 군간 비교 23686개; 사람 수 미상 1534개; 소규모 연구 7009개
+- data commit: f247977a0a94aaca99d553300a735c9936fc76fd; checkpoint state commit: f0fe5a4e6c26daa4c62dd8a3d675c0e39efbd7b2; push marker commit: de3cd4485ee86703c39a4a783a9267a61892a96b; PUSHED=true
+- 다음 재개점: next_batch 2610; resume point new-expansion-candidates-batch2610; 천식 비처방 직장·알레르겐·디지털 후속 후보 batch 2610
