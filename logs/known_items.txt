@@ -18010,6 +18010,23 @@ Batch 2610 — 천식 비처방 직장·알레르겐·디지털 후속 후보
 - data commit: 없음; checkpoint state commit: fc5dbb85167819919ef1961641a82f7b24168fa0; push marker commit: 79b3b3b6a7a3fb21494d516fdcbe4095835e8803; PUSHED=true
 - 다음 재개점: next_batch 2620; resume point new-expansion-candidates-batch2620; 천식 비처방 공기질·주거환경·학교 후속 후보 batch 2620
 
+Batch 2630 — 천식 비처방 중재 안전성·장기결과 후속 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,198개 레코드; 고유 PMID 917개
+- fetch: 917건 요청; 909건 확보; 10개 chunk; 일반 fetch 초록 904개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 917건; 후보 475건; 신규 후보 270건; 효과 후보 129건; 수동 선별 129건; 신규 후보 제외 129건; 전체 parser 기준 비후보 442건
+- 신규 PMID: 없음
+- 신규 항목 ID: 없음
+- 범주별 신규: 없음
+- 방향·등급: 없음
+- 전용 검증: node etc/validate2630final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고는 숨기거나 수정하지 않음
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·처방약·관찰·이차분석·단일군·비천식 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24628개; 주제 17265개; 근거 링크 27759개; 숫자 군간 비교 23689개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: 없음; checkpoint state commit: 5d711bf38e3d810cf6953a644dbc5594d34518c7; push marker commit: 8a6c2cf6ff2cd59a9b36fece30079f09c2589441; PUSHED=true
+- 다음 재개점: next_batch 2640; resume point new-expansion-candidates-batch2640; 천식 비처방 장기 자기관리·운동·교육 후속 후보 batch 2640
+
 Batch 2600 — 천식 비처방 학교·환경·원격 자기관리 후속 후보
 - 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
 - 검색: 1,914개 레코드; 고유 PMID 1,424개
