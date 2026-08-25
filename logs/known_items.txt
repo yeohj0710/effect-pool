@@ -17441,3 +17441,19 @@ Batch 2295 — 천식 비처방 환경·예방·진료관리 후속 후보
 - build: node build.mjs exit 0; final build errors 0; initial new warning lines 10; final new warning lines 3, all truthful; warning fixes 7 (comparison wording 6, scale-number overlap 1); effect/line/English warnings 0; unknown-n 0 and thin-study 3 warnings retained; unrelated legacy warnings retained; data commit: 28a275209; PUSHED=false checkpoint: 10a77869f; PUSHED=true marker: b120f107
 - totals after batch: entries 24484; subjects 17126; refs 27615; numeric comparison entries 23545; unknown-n 1525; thin-study 6966; worklist 17174/17174
 - resume: next_batch 2296; resume point new-expansion-candidates-batch2296; resume topic: 천식 비처방 후속 후보 batch 2296; state.last_batch.pushed true; PUSHED=true
+
+Batch 2296 — 천식 비처방 행동·가정·학교 후속 후보
+- 선정: 핵심 30개 주제; 전체 검색 74개 주제; 신규 항목 20개
+- 검색: 5,708개 레코드; 통합 고유 PMID 3,592개 (핵심·세부 3,101/2,277; 추가 1,030/905; 표적 1,577/1,436)
+- fetch: 4,618건 요청; 4,614건 확보; 초록 4,531개; 누락 4건은 재조회해 PubmedBookArticle 초록 4개 확인
+- 후보: parser 4,614건; 후보 2,506건; 고유 후보 1,823건; 신규 후보 1,137건; 효과 후보 444건; 수동 선별 20건; 신규 후보 제외 1,117건; 전체 검색 PMID 기준 비후보 1,769건
+- 신규 PMID: 42240891, 21318637, 32073501, 8093148, 23211647, 35654369, 25144550, 29318917, 21502887, 29652761, 12527154, 32613871, 22710616, 29865929, 42059974, 14529102, 25443593, 25443867, 33072352, 36852293
+- 신규 항목 ID: asthma-aerobic-behavioral-42240891-2296, asthma-aerobic-diaphragmatic-training-21318637-2296, asthma-community-health-worker-education-32073501-2296, asthma-computer-supported-education-8093148-2296, asthma-fruit-fish-probiotic-supplement-23211647-2296, asthma-hiit-constant-load-35654369-2296, asthma-incentive-spirometry-25144550-2296, asthma-inspiratory-manual-exercise-29318917-2296, asthma-inspiratory-muscle-exercise-tolerance-21502887-2296, asthma-inspiratory-muscle-training-adult-29652761-2296, asthma-multimodal-stress-education-12527154-2296, asthma-music-pulmonary-rehab-32613871-2296, asthma-peer-led-program-22710616-2296, asthma-positive-pressure-respiratory-29865929-2296, asthma-resistance-photobiomodulation-42059974-2296, asthma-school-education-rap-14529102-2296, asthma-sharp-acceptance-25443593-2296, asthma-sharp-self-care-25443867-2296, asthma-telegram-education-33072352-2296, asthma-threshold-respiratory-training-36852293-2296
+- 범주별 신규: move 9, care 10, supp 1 (전부 비처방 범주)
+- 방향·등급: pos 13, null 3, open 4; trial 20
+- 전용 검증: exit 0; 오류 0; 경고 20건(자동 후보 목록 밖에서 초록을 직접 확인한 수동 선별 행)
+- 빌드: node build.mjs exit 0; build error 0; 신규 비교 경고 16건·규모 중복 경고 4건·영문 잔여 경고 1건 수정, 총 21건 수정; 최종 신규 경고 5건은 실제 소규모 연구 경고로 유지
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 5건 (PMID 25144550 n=14, 29318917 n=43, 21502887 n=15, 29652761 n=38, 42059974 n=30)
+- 누적 집계: 항목 24504개; 주제 17146개; 근거 링크 27635개; 숫자 군간 비교 23565개; 사람 수 미상 1525개; 소규모 연구 6971개
+- checkpoint: 12d4e68c3cb517abc0410d9e278902ab951ca227; data commit: eea420039dffb67df2b686e73e61bc7ef9dd08ca; push marker: 5ddea5fd51c2818f3506ab4461685d90aaf2a183; PUSHED=true
+- 다음 재개점: next_batch 2297; resume point new-expansion-candidates-batch2297; 천식 비처방 후속 후보 batch 2297
