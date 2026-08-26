@@ -20249,3 +20249,18 @@ Batch 3570 — 천식 비처방 성인 노인·취약계층·지역사회 전달
 - 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 3360ff835; push marker commit: 3ec58f7d5; marker-state commit: 48eb79e4a; PUSHED=true
 - 정확한 다음 재개점: next_batch 4040; resume point new-expansion-candidates-batch4040; 천식 비처방 성인 소화기·역류·식도 생활관리 65차 후보 batch 4040
+
+## Batch 4040 (2026-08-27) — 천식 비처방 성인 소화기·역류·식도 생활관리 근거 검색
+- 배치 4040: 주제 30개; 선정 0개; 검색 레코드 446개; 고유 PMID 347개
+- fetch: 요청 347건·확보 346건·청크 4개·일반 초록 344개; 누락 1건(29630273)은 재조회해 PubmedBookArticle 초록 1개 확보
+- 후보 선별: parser 347건·후보 33건·신규 후보 31건·효과 후보 2건; 신규 선정 0건·제외 2건·비후보 314건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate4040final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: 후보는 관찰적 체중·천식 분석과 만성기침 고찰이라 천식 성인 비처방 개입의 직접 대조군 수치를 확인할 수 없어 항목을 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: 446d67129; push marker commit: cbbb57c77; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 4050; resume point new-expansion-candidates-batch4050; 천식 비처방 성인 구강·치과·인후·상기도 생활관리 66차 후보 batch 4050
