@@ -18174,3 +18174,20 @@ Batch 2700 — 천식 비처방 지역사회·노출·학교 후속 후보
 - 누적 집계: 항목 24630개; 주제 17266개; 근거 링크 27761개; 숫자 군간 비교 23691개; 사람 수 미상 1534개; 소규모 연구 7011개
 - data commit: 없음(신규 data 파일 없음); checkpoint state commit: a4ed57ddc; push marker commit: df958ee53; PUSHED=true
 - 다음 재개점: next_batch 2710; resume point new-expansion-candidates-batch2710; 천식 비처방 학교·지역사회 자기관리 후속 후보 batch 2710
+
+Batch 2710 — 천식 비처방 학교·지역사회 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,686개 레코드; 고유 PMID 1,400개
+- fetch: 1,400건 요청; 1,393건 확보; 14개 chunk; 일반 fetch 초록 1,371개와 재조회 초록 7개 확보; 누락 7건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,400건; 후보 752건; 신규 후보 333건; 효과 후보 177건; 수동 선별 177건; 신규 후보 제외 176건; 전체 parser 기준 비후보 648건
+- 신규 ID와 PMID: 소아-천식-참여형-진료-질문목록-29785146-2710; PMID 29785146
+- 범주별 신규: care 1건; tier trial 1건; 방향 null 1건
+- 기록: 청소년 천식 질문목록·교육 영상 무작위시험; 질문목록·영상군은 통상진료군보다 참여적 의사결정 평가가 높음(OR 1.7, 95% CI 1.1~2.5). 실제 치료계획 반영과 천식 임상결과는 개선되지 않아 방향을 null로 기록
+- 전용 검증: node etc/validate2710final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,361건은 숨기거나 수정하지 않음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24631개; 주제 17267개; 근거 링크 27762개; 숫자 군간 비교 23692개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: a7d31bbca; checkpoint state commit: 0c740f54b; push marker commit: 9453b8687; PUSHED=true
+- 다음 재개점: next_batch 2720; resume point new-expansion-candidates-batch2720; 천식 비처방 공기질·운동·참여형 자기관리 후속 후보 batch 2720
