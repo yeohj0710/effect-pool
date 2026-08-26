@@ -20129,3 +20129,18 @@ Batch 3570 — 천식 비처방 성인 노인·취약계층·지역사회 전달
 - 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 24e76d121; push marker commit: 6555452ca; marker-state commit: 591092132; PUSHED=true
 - 정확한 다음 재개점: next_batch 3960; resume point new-expansion-candidates-batch3960; 천식 비처방 성인 여행·일상활동·사회참여 지원 57차 후보 batch 3960
+
+## Batch 3960 (2026-08-27) — 천식 비처방 성인 여행·일상활동·사회참여 지원 근거 검색
+- 배치 3960: 주제 30개; 선정 0개; 검색 레코드 2,709개; 고유 PMID 2,029개
+- fetch: 요청 2,029건·확보 2,022건·청크 21개·일반 초록 2,009개; 누락 7건(36538606, 27809421, 27977090, 41712744, 37874896, 29377651, 40310954)은 재조회해 PubmedBookArticle 초록 7개 확보
+- 후보 선별: parser 2,029건·후보 532건·신규 후보 376건·효과 후보 58건; 신규 선정 0건·제외 58건·비후보 1,497건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3960final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: 후보는 고찰·처방약·관찰·혼합질환·소아 연구와 비교군이 없는 전후 연구·연관성 분석이라 직접 대조군 수치가 확인된 신규 비처방 연구가 없어 항목을 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: eed08ae5b; push marker commit: 0837ad051; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 3970; resume point new-expansion-candidates-batch3970; 천식 비처방 성인 불안·우울·스트레스·정서 지원 58차 후보 batch 3970
