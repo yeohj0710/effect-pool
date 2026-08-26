@@ -18625,3 +18625,19 @@ Batch 2980 — 천식 비처방 환경·금연·직업·생활 후속 후보
 - 누적 집계: 항목 24676개; 주제 17311개; 근거 링크 27807개; 숫자 군간 비교 23737개; 사람 수 미상 1537개; 소규모 연구 7022개
 - data commit: 없음; checkpoint state commit: 4986b08ea3f14a076a26f842cd9ae57bbda6c866; push marker commit: 11d51e9a117120823ad29c4b1d3e1419757df7ea; PUSHED=true
 - 다음 재개점: next_batch 2990; resume point new-expansion-candidates-batch2990; 천식 비처방 주거·학교 환경과 금연 후속 후보 batch 2990
+
+Batch 2990 — 천식 비처방 주거·학교 환경과 금연 후속 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,245개 레코드; 고유 PMID 1,067개
+- fetch: 1,067건 요청; 1,059건 확보; 11개 chunk; 일반 fetch 초록 1,041개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,067건; 후보 629건; 신규 후보 310건; 효과 후보 189건; 수동 선별 189건; 신규 효과 후보 제외 189건; 전체 parser 기준 비후보 438건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2990final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,375건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,022건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·단일군·비천식·혼합질환·처방약 단독 연구·이차분석·비처방 효과를 분리할 수 없는 복합 중재·천식 결과 직접 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24676개; 주제 17311개; 근거 링크 27807개; 숫자 군간 비교 23737개; 사람 수 미상 1537개; 소규모 연구 7022개
+- data commit: 없음; checkpoint state commit: 27362880af93f51b3efe5a76489d18f98668f4fb; push marker commit: 2325ee84815f0d539911dabbf699af291fc419b0; PUSHED=true
+- 다음 재개점: next_batch 3000; resume point new-expansion-candidates-batch3000; 천식 비처방 학교교육·운동·자기관리 후속 후보 batch 3000
