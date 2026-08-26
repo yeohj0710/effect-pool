@@ -18370,6 +18370,22 @@ Batch 2830 — 천식 학교·가족·환경관리 후속 후보
 - data commit: 66a6e8d5d33aa60029bd9f146efa3d7a3b73dd43; checkpoint state commit: e2e03d193db5dadb48ee2b88ba38215a275d3293; push marker commit: d9938bf60eaecfc1333173305ba1a11e58155edb; PUSHED=true
 - 다음 재개점: next_batch 2840; resume point new-expansion-candidates-batch2840; 천식 학교·가족·환경관리 후속 후보 batch 2840
 
+Batch 2840 — 천식 학교·가족·환경관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 3,134개 레코드; 고유 PMID 2,118개
+- fetch: 2,118건 요청; 2,105건 확보; 22개 chunk; 일반 fetch 초록 2,071개와 재조회 초록 13개 확보; 누락 13건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 2,118건; 후보 1,133건; 신규 후보 532건; 효과 후보 301건; 수동 선별 301건; 신규 후보 제외 299건; 전체 parser 기준 비후보 985건
+- 신규 ID와 PMID: 천식-청소년-오렘-자기관리-훈련-27382591-2840(PMID 27382591), 천식-약사-흡입기-교육-37051472-2840(PMID 37051472)
+- 범주별 신규: care 2건; tier trial 2건; dir pos 2건
+- 전용 검증: node etc/validate2840final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 최종 warning 8,368건; 신규 warning 없음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,536건·n<50 7,016건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24655개; 주제 17291개; 근거 링크 27786개; 숫자 군간 비교 23716개; 사람 수 미상 1536개; 소규모 연구 7016개
+- data commit: a5e76959358fbfdb3d8d22f86356f818f5ccb6a1; checkpoint state commit: a1037a31e2733d4326e87e146c6216312e99e334; push marker commit: 8cf925049ebede71e2ac5d771ff5a83816d1718f; PUSHED=true
+- 다음 재개점: next_batch 2850; resume point new-expansion-candidates-batch2850; 천식 학교·가족·환경관리 후속 후보 batch 2850
+
 Batch 2820 — 천식 환경관리·학교·가족 중재 후속 후보
 - 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
 - 검색: 1,680개 레코드; 고유 PMID 1,212개
