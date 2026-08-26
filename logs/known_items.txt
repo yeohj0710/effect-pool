@@ -18449,3 +18449,19 @@ Batch 2870 — 천식 가족·가정환경·집먼지 관리 후속 후보
 - 누적 집계: 항목 24666개; 주제 17302개; 근거 링크 27797개; 숫자 군간 비교 23727개; 사람 수 미상 1537개; 소규모 연구 7018개
 - data commit: 00b341689e5397d26ec95d8218a992cca16037c1; checkpoint state commit: bc2f325eb06512b7a2cc70f6d7d9d2ae38e4110a; push marker commit: 98bedf644657a692606e64955eb26d503718cf65; PUSHED=true
 - 다음 재개점: next_batch 2880; resume point new-expansion-candidates-batch2880; 천식 가족·가정환경·집먼지 관리 후속 후보 batch 2880
+
+Batch 2880 — 천식 침실·습도·제습기·약료 관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 4건; 비처방 주제 30개 처리
+- 검색: 684개 레코드; 고유 PMID 570개
+- fetch: 570건 요청; 564건 확보; 6개 chunk; 일반 fetch 초록 561개와 재조회 초록 6개 확보; 누락 6건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 570건; 후보 224건; 신규 후보 97건; 효과 후보 51건; 수동 선별 51건; 신규 효과 후보 제외 47건; 전체 parser 기준 비후보 346건
+- 신규 ID와 PMID: asthma-mite-prevention-6342456-2880(PMID 6342456), asthma-dust-free-bedroom-6338475-2880(PMID 6338475), asthma-dehumidifier-10931126-2880(PMID 10931126), asthma-pharmacy-care-24991592-2880(PMID 24991592)
+- 범주별 신규: life 3건·care 1건; tier trial 4건; dir pos 2건·null 2건
+- 전용 검증: node etc/validate2880final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,373건; 초기 규모 중복 경고 4건을 line에서 제거
+- 새 경고 수정: targeted warning 4건(규모 숫자 중복 4건); effect·line·한국어 주제 경고 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 2건(먼지 없는 침실 n=20, 진드기 예방관리 n=46)은 숨기지 않음; 기존 unknown-n 1,537건·n<50 7,020건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24670개; 주제 17306개; 근거 링크 27801개; 숫자 군간 비교 23731개; 사람 수 미상 1537개; 소규모 연구 7020개
+- data commit: aa802001e621814fe05d49e1c7d3f23f6a079a9b; checkpoint state commit: 559338c10a16ad5289f3acbff07b9ad6ffa446fa; push marker commit: bb04ce1f306cda15aa8bcefb63b685a8767fab25; PUSHED=true
+- 다음 재개점: next_batch 2890; resume point new-expansion-candidates-batch2890; 천식 침실·습도·제습기·약료 관리 후속 후보 batch 2890
