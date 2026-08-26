@@ -18225,22 +18225,6 @@ Batch 2730 — 천식 비처방 지역사회 환경·학교·운동 보강 후�
 - data commit: 9d10ad60f13020f571cd8297fd11b6637754315d; checkpoint state commit: 9472822bf069aed90fc42cbd66dabf1e3f194e43; push marker commit: 881e054c5ef5886c0d401b2fb82d24fb899a6343; PUSHED=true
 - 다음 재개점: next_batch 2740; resume point new-expansion-candidates-batch2740; 천식 비처방 지역사회·문화권·가족 자기관리 후속 후보 batch 2740
 
-Batch 2750 — 천식 비처방 가정환경·금연·디지털 자기관리·돌봄전환 후보
-- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
-- 검색: 1,529개 레코드; 고유 PMID 1,069개
-- fetch: 1,069건 요청; 1,056건 확보; 11개 chunk; 일반 fetch 초록 1,044개와 재조회 초록 13개 확보; 누락 13건은 모두 PubmedBookArticle로 재조회
-- 후보: parser 1,069건; 후보 576건; 신규 후보 233건; 효과 후보 131건; 수동 선별 131건; 신규 후보 제외 131건; 전체 parser 기준 비후보 493건
-- 신규 ID와 PMID: 없음
-- 범주별 신규: 없음
-- 전용 검증: node etc/validate2750final.mjs exit 0; 오류 0; 경고 0
-- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,362건은 숨기거나 수정하지 않음
-- 새 경고 수정: 0건
-- 실제 경고: unknown-n 0건; n<50 소표본 0건; 신규 기록 없음
-- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
-- 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
-- data commit: 없음(신규 data 파일 없음); checkpoint state commit: 4e63e9efa187c206f0b84e80aa06e82b72a0c9f0; push marker commit: 2e1ce4b55e5bb1e9bf6f864436dfdd70d29f2d3c; PUSHED=true
-- 다음 재개점: next_batch 2760; resume point new-expansion-candidates-batch2760; 천식 비처방 가정환경·금연·디지털 자기관리·돌봄전환 후속 후보 batch 2760
-
 Batch 2740 — 천식 비처방 지역사회·문화권·가족 자기관리 후속 후보
 - 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
 - 검색: 1,504개 레코드; 고유 PMID 1,108개
@@ -18257,3 +18241,35 @@ Batch 2740 — 천식 비처방 지역사회·문화권·가족 자기관리 후
 - 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
 - data commit: 7a8b18c20bc2d16c56fe31f2a1898b6ac177870e; checkpoint state commit: b2b358657c251a883a0e9973443d80b2910f1d3a; push marker commit: 193dad0ba0ecb9b45f400573815dbc41201c5bce; PUSHED=true
 - 다음 재개점: next_batch 2750; resume point new-expansion-candidates-batch2750; 천식 비처방 지역사회·문화권·가족 자기관리 연속 후보 batch 2750
+
+Batch 2750 — 천식 비처방 가정환경·금연·디지털 자기관리·돌봄전환 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,529개 레코드; 고유 PMID 1,069개
+- fetch: 1,069건 요청; 1,056건 확보; 11개 chunk; 일반 fetch 초록 1,044개와 재조회 초록 13개 확보; 누락 13건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,069건; 후보 576건; 신규 후보 233건; 효과 후보 131건; 수동 선별 131건; 신규 후보 제외 131건; 전체 parser 기준 비후보 493건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2750final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,362건은 숨기거나 수정하지 않음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
+- data commit: 없음(신규 data 파일 없음); checkpoint state commit: 4e63e9efa187c206f0b84e80aa06e82b72a0c9f0; push marker commit: 2e1ce4b55e5bb1e9bf6f864436dfdd70d29f2d3c; PUSHED=true
+- 다음 재개점: next_batch 2760; resume point new-expansion-candidates-batch2760; 천식 비처방 가정환경·금연·디지털 자기관리·돌봄전환 후속 후보 batch 2760
+
+Batch 2760 — 천식 비처방 가정환경·직접흡연·운동·이완·건강코칭 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,738개 레코드; 고유 PMID 1,377개
+- fetch: 1,377건 요청; 1,366건 확보; 14개 chunk; 일반 fetch 초록 1,342개와 재조회 초록 11개 확보; 누락 11건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,377건; 후보 780건; 신규 후보 372건; 효과 후보 202건; 수동 선별 202건; 신규 후보 제외 202건; 전체 parser 기준 비후보 597건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2760final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,362건은 숨기거나 수정하지 않음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
+- data commit: 없음(신규 data 파일 없음); checkpoint state commit: e10cff70ad619cb69a23524dbd7ad29323969cf7; push marker commit: e8f4fa779e63cbf12adfce394d16dba643f8e6f4; PUSHED=true
+- 다음 재개점: next_batch 2770; resume point new-expansion-candidates-batch2770; 천식 비처방 환경·운동·건강코칭 후속 후보 batch 2770
