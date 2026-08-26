@@ -18865,3 +18865,19 @@ Batch 3130 — 천식 비처방 직장·여행·일상 기능 자기관리 잔�
 - 누적 집계: 항목 24679개; 주제 17313개; 근거 링크 27810개; 숫자 군간 비교 23740개; 사람 수 미상 1537개; 소규모 연구 7022개
 - data commit: 없음; checkpoint state commit: fc702b247f04c728a074c4775a7eb5d0d6eae366; push marker commit: 070089fbbbbf32d3e2e99b46fe79ed1769326836; PUSHED=true
 - 다음 재개점: next_batch 3140; resume point new-expansion-candidates-batch3140; 천식 비처방 성인 보완요법·호흡재활 원 연구 잔여 후보 batch 3140
+
+Batch 3140 — 천식 비처방 성인 보완요법·호흡재활 원 연구 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,992개 레코드; 고유 PMID 939개
+- fetch: 939건 요청; 938건 확보; 10개 chunk; 일반 fetch 초록 913개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 939건; 후보 465건; 신규 후보 268건; 효과 후보 161건; 수동 선별 161건; 신규 효과 후보 제외 160건; 전체 parser 기준 비후보 474건
+- 신규 ID와 PMID: 천식-야간-자세-2772857-3140 (PMID 2772857)
+- 범주별 신규: move 1건
+- 전용 검증: 첫 실행은 helper 누락으로 exit 1이었으나 helper를 보완한 재실행은 node etc/validate3140final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,376건; 신규 warning 1건(thin-study n=9)
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건; 기존 unknown-n 1,537건·n<50 7,022건과 신규 소표본 경고는 숨기거나 수정하지 않음
+- 선별 제외: 처방약·복합 중재·고찰·메타분석·관찰·이차분석·단일군·비천식·혼합질환·천식 결과 직접 비교 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24680개; 주제 17314개; 근거 링크 27811개; 숫자 군간 비교 23741개; 사람 수 미상 1537개; 소규모 연구 7023개
+- data commit: 8246d8dde15a017960f6dc3bea5d51862a244d59; checkpoint state commit: adff8519f3d51dc241e0dc5e659f200aedd02657; push marker commit: 5be7a5d9342a2ae804fe159718471539a08720ce; PUSHED=true
+- 다음 재개점: next_batch 3150; resume point new-expansion-candidates-batch3150; 천식 비처방 성인 보완요법·호흡재활 후속 원 연구 batch 3150
