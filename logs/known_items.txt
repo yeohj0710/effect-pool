@@ -19105,3 +19105,19 @@ Batch 3280 — 천식 비처방 성인 자기관리·심리·원격지원 잔여
 - 누적 집계: 항목 24697개; 주제 17331개; 근거 링크 27828개; 숫자 군간 비교 23758개; 사람 수 미상 1537개; 소규모 연구 7035개
 - data commit: 97e266fa9beac9e9a2c77800ce7c8bb3732401d0; checkpoint state commit: f2ecb901054b49353ad7bad1ec6f30486ca72570; push marker commit: 6262b254b9cee6ca6437ad0287a05bf0304edfcd; PUSHED=true
 - 다음 재개점: next_batch 3290; resume point new-expansion-candidates-batch3290; 천식 비처방 성인 영양·식이·보충제 잔여 후보 batch 3290
+
+Batch 3290 — 천식 비처방 성인 영양·식이·보충제 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 875개 레코드; 고유 PMID 704개
+- fetch: 704건 요청; 703건 확보; 8개 chunk; 일반 fetch 초록 691개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 704건; 후보 294건; 신규 후보 159건; 효과 후보 65건; 수동 선별 65건; 신규 효과 후보 제외 65건; 전체 parser 기준 비후보 410건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3290final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,386건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,035건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·비무작위·관찰·혼합질환·처방약 단독·수치 부족·중복·천식 외 결과만 있는 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24697개; 주제 17331개; 근거 링크 27828개; 숫자 군간 비교 23758개; 사람 수 미상 1537개; 소규모 연구 7035개
+- data commit: 없음; checkpoint state commit: ced1f99ee; push marker commit: 3ddac7d82; PUSHED=true
+- 다음 재개점: next_batch 3300; resume point new-expansion-candidates-batch3300; 천식 비처방 성인 영양·식이·보충제 2차 잔여 후보 batch 3300
