@@ -19057,3 +19057,19 @@ Batch 3250 — 천식 비처방 성인 실내 공기질·주거 개입 잔여 �
 - 누적 집계: 항목 24686개; 주제 17320개; 근거 링크 27817개; 숫자 군간 비교 23747개; 사람 수 미상 1537개; 소규모 연구 7029개
 - data commit: 95aab066887e5f16744d0cbc248d7c381ac44a1f; checkpoint state commit: c67f9cf0bfaa0eb382ac82e079a9b4483dd1c6ba; push marker commit: 4555b433a8afd86e47dc99a512522d6bdeb8538f; PUSHED=true
 - 다음 재개점: next_batch 3260; resume point new-expansion-candidates-batch3260; 천식 비처방 성인 실내 노출·호흡보조 잔여 후보 batch 3260
+
+Batch 3260 — 천식 비처방 성인 호흡보조·분무 전달 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 7건; 비처방 주제 30개 처리
+- 검색: 2,288개 레코드; 고유 PMID 1,275개
+- fetch: 1,275건 요청; 1,273건 확보; 13개 chunk; 일반 fetch 초록 1,249개와 재조회 초록 2개 확보; 누락 2건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,275건; 후보 699건; 신규 후보 510건; 효과 후보 256건; 수동 선별 256건; 신규 효과 후보 제외 249건; 전체 parser 기준 비후보 576건
+- 신규 ID와 PMID: asthma-paper-cup-spacer-12556017-3260 (PMID 12556017); acute-asthma-inhaler-nebulizer-8365298-3260 (PMID 8365298); acute-asthma-heliox-nebulizer-11991886-3260 (PMID 11991886); severe-asthma-heliox-nebulizer-16141015-3260 (PMID 16141015); asthma-heliox-air-nebulizer-24643901-3260 (PMID 24643901); stable-asthma-heliox-nebulizer-12442956-3260 (PMID 12442956); acute-asthma-heliox-treatment-9922408-3260 (PMID 9922408)
+- 범주별 신규: care 7건; trial 7건; pos 4건; null 3건
+- 전용 검증: node etc/validate3260final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,384건; 신규 warning 2건
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 2건(헬리옥스 네뷸라이저 n=45, 안정 천식 헬리옥스 분무 n=31); 기존 unknown-n 1,537건·n<50 7,029건에 신규 2건을 더한 7,031건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·고찰·메타분석·프로토콜·관찰·2차 분석·비천식·혼합질환·처방약 단독·수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24693개; 주제 17327개; 근거 링크 27824개; 숫자 군간 비교 23754개; 사람 수 미상 1537개; 소규모 연구 7031개
+- data commit: 36ae340500998f14f7fb0a6ced707e15ab92bf1b; checkpoint state commit: 0dfde25c2c16cda5a80505e1251f8677f2de00fc; push marker commit: a589ddd73f5d2715f29dc448642f4eb94a062ed8; PUSHED=true
+- 다음 재개점: next_batch 3270; resume point new-expansion-candidates-batch3270; 천식 비처방 성인 호흡운동·재활 잔여 후보 batch 3270
