@@ -19009,3 +19009,19 @@ Batch 3220 — 천식 비처방 성인 생활습관·환경 원 연구 심화 �
 - 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
 - data commit: 없음; checkpoint state commit: c28cf9033d34ab1024d85a45221402d9ab7a58e0; push marker commit: b9796c4e2bdcf3abca1392d6c657dd0caf070790; PUSHED=true
 - 다음 재개점: next_batch 3230; resume point new-expansion-candidates-batch3230; 천식 비처방 성인 환경·알레르겐 회피 잔여 후보 batch 3230
+
+Batch 3230 — 천식 비처방 성인 환경·알레르겐 회피 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 168개 레코드; 고유 PMID 118개
+- fetch: 118건 요청; 117건 확보; 2개 chunk; 일반 fetch 초록 115개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 118건; 후보 64건; 신규 후보 35건; 효과 후보 18건; 수동 선별 18건; 신규 효과 후보 제외 18건; 전체 parser 기준 비후보 54건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3230final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,377건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,024건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·소아·비천식 알레르기 결과·고찰·메타분석·프로토콜·관찰·2차 분석·혼합질환·처방약·면역치료·천식 결과 직접 비교 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
+- data commit: 없음; checkpoint state commit: 06ef4b68333637d42ff7d2f594becb08390bff46; push marker commit: ffcc82eda9144f75487bfc3cbfe356cbf9bb82dc; PUSHED=true
+- 다음 재개점: next_batch 3240; resume point new-expansion-candidates-batch3240; 천식 비처방 성인 실내환경·노출 저감 잔여 후보 batch 3240
