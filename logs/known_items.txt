@@ -18737,3 +18737,19 @@ Batch 3050 — 천식 비처방 아동·청소년 자기관리·행동중재 추
 - 누적 집계: 항목 24679개; 주제 17313개; 근거 링크 27810개; 숫자 군간 비교 23740개; 사람 수 미상 1537개; 소규모 연구 7022개
 - data commit: e4876467e398ace2b250bd0581e47fcdaec02f14; checkpoint state commit: f1639730e73138d425df05e8ed3d0b57821db60f; push marker commit: e6b6dbc7dbc154e80b7ec87f864ba839ff833bb3; PUSHED=true
 - 다음 재개점: next_batch 3060; resume point new-expansion-candidates-batch3060; 천식 비처방 심리·가족·사회지원 심화 후보 batch 3060
+
+Batch 3060 — 천식 비처방 심리·가족·사회지원 심화 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 2,822개 레코드; 고유 PMID 1,883개
+- fetch: 1,883건 요청; 1,866건 확보; 19개 chunk; 일반 fetch 초록 1,853개와 재조회 초록 17개 확보; 누락 17건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,883건; 후보 983건; 신규 후보 577건; 효과 후보 379건; 수동 선별 379건; 신규 효과 후보 제외 379건; 전체 parser 기준 비후보 900건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3060final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,375건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,022건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식·혼합질환·처방약 단독·비처방 효과를 분리할 수 없는 복합 중재·천식 결과 직접 수치 부족 연구; 기존 2360 배치 항목과 중복된 PMID; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24679개; 주제 17313개; 근거 링크 27810개; 숫자 군간 비교 23740개; 사람 수 미상 1537개; 소규모 연구 7022개
+- data commit: 없음; checkpoint state commit: da0022e5652e42923e3f629469fa98366133b0dd; push marker commit: 93822b4e50c21c696d4d937a546da93573f9c54b; PUSHED=true
+- 다음 재개점: next_batch 3070; resume point new-expansion-candidates-batch3070; 천식 비처방 사회경제·문화맞춤·환자참여 잔여 후보 batch 3070
