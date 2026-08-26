@@ -18945,3 +18945,19 @@ Batch 3180 — 천식 비처방 성인 자기관리·교육·재활 새 원 연�
 - 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
 - data commit: 없음; checkpoint state commit: e8d97bb35f118458cba13bfe03f8017cc042a27f; push marker commit: 15f46bf05b789b7698cbcbead603eec2325de670; PUSHED=true
 - 다음 재개점: next_batch 3190; resume point new-expansion-candidates-batch3190; 천식 비처방 성인 디지털·교육 전달방식 잔여 후보 batch 3190
+
+Batch 3190 — 천식 비처방 성인 디지털·교육 전달방식 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,446개 레코드; 고유 PMID 772개
+- fetch: 772건 요청; 764건 확보; 8개 chunk; 일반 fetch 초록 755개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 772건; 후보 408건; 신규 후보 191건; 효과 후보 37건; 수동 선별 37건; 신규 효과 후보 제외 37건; 전체 parser 기준 비후보 364건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3190final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,377건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,024건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식·혼합질환·처방약·천식 결과 직접 비교 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
+- data commit: 없음; checkpoint state commit: 28ad09ee134d4ba6ac6b5c9df9241c8afecf96fc; push marker commit: 00abe0b5aad9ee3e3456f6e7e0ce3e7b818c306c; PUSHED=true
+- 다음 재개점: next_batch 3200; resume point new-expansion-candidates-batch3200; 천식 비처방 성인 디지털·원격지원 잔여 후보 batch 3200
