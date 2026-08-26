@@ -18721,3 +18721,19 @@ Batch 3040 — 천식 비처방 교육·금연·가정방문 심화 후보
 - 누적 집계: 항목 24677개; 주제 17311개; 근거 링크 27808개; 숫자 군간 비교 23738개; 사람 수 미상 1537개; 소규모 연구 7022개
 - data commit: 없음; checkpoint state commit: 125c56d3013d81418e4104b92284c1ce05fee501; push marker commit: 6c0a6aafe7eed6578b790ed3838526e0840c390a; PUSHED=true
 - 다음 재개점: next_batch 3050; resume point new-expansion-candidates-batch3050; 천식 비처방 아동·청소년 자기관리·행동중재 추가 후보 batch 3050
+
+Batch 3050 — 천식 비처방 아동·청소년 자기관리·행동중재 추가 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 2,374개 레코드; 고유 PMID 1,474개
+- fetch: 1,474건 요청; 1,461건 확보; 15개 chunk; 일반 fetch 초록 1,448개와 재조회 초록 13개 확보; 누락 13건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,474건; 후보 796건; 신규 후보 395건; 효과 후보 201건; 수동 선별 201건; 신규 효과 후보 2건 선정·199건 제외; 전체 parser 기준 비후보 678건
+- 신규 ID와 PMID: asthma-behavioral-medication-compliance-3945199-3050(PMID 3945199), asthma-nurse-hierarchical-management-34306389-3050(PMID 34306389)
+- 범주별 신규: care 2건
+- 전용 검증: node etc/validate3050final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,375건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,022건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·후향 코호트·단일군·비천식·혼합질환·처방약 단독·비처방 효과를 분리할 수 없는 복합 중재·천식 결과 직접 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24679개; 주제 17313개; 근거 링크 27810개; 숫자 군간 비교 23740개; 사람 수 미상 1537개; 소규모 연구 7022개
+- data commit: e4876467e398ace2b250bd0581e47fcdaec02f14; checkpoint state commit: f1639730e73138d425df05e8ed3d0b57821db60f; push marker commit: e6b6dbc7dbc154e80b7ec87f864ba839ff833bb3; PUSHED=true
+- 다음 재개점: next_batch 3060; resume point new-expansion-candidates-batch3060; 천식 비처방 심리·가족·사회지원 심화 후보 batch 3060
