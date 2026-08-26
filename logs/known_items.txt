@@ -18305,3 +18305,19 @@ Batch 2780 — 천식 비처방 직접흡연·주거·공기질·디지털 자�
 - 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
 - data commit: 없음(신규 data 파일 없음); checkpoint state commit: daf6b13f4a4b4ba468fb36aa93399ef0ea2d1632; push marker commit: 033f594f2192d0aa4d7d16b2eddc529aabaf893a; PUSHED=true
 - 다음 재개점: next_batch 2790; resume point new-expansion-candidates-batch2790; 천식 비처방 지역사회·주거환경·디지털 자기관리·호흡재활 후속 후보 batch 2790
+
+Batch 2790 — 천식 비처방 보충제·식이·체중관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,464개 레코드; 고유 PMID 833개
+- fetch: 833건 요청; 832건 확보; 9개 chunk; 일반 fetch 초록 801개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 833건; 후보 409건; 신규 후보 233건; 효과 후보 123건; 수동 선별 123건; 신규 후보 제외 122건; 전체 parser 기준 비후보 424건
+- 신규 ID와 PMID: 천식-진드기-알레르겐-리포솜-면역치료-12063522-2790; PMID 12063522
+- 범주별 신규: care 1건; tier trial 1건; dir pos 1건
+- 전용 검증: node etc/validate2790final.mjs 최종 exit 0; 오류 0; 경고 0; 초기 줄 길이 오류 1건을 수정
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,362건은 숨기거나 수정하지 않음
+- 새 경고 수정: 전용 검증 줄 길이 1건; build warning 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24635개; 주제 17271개; 근거 링크 27766개; 숫자 군간 비교 23696개; 사람 수 미상 1535개; 소규모 연구 7011개
+- data commit: 92fc794c338351533eefb462f09ccbf64a83ff1f; checkpoint state commit: a88d21468f66d6bfbfb4351fec2b84e3a3ffd0a7; push marker commit: 8ae4afe3074499aeadcafe30a233f9f5a62b6b44; PUSHED=true
+- 다음 재개점: next_batch 2800; resume point new-expansion-candidates-batch2800; 천식 비처방 보충제·식이·체중관리 후속 후보 batch 2800
