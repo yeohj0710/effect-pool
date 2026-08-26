@@ -18401,3 +18401,19 @@ Batch 2820 — 천식 환경관리·학교·가족 중재 후속 후보
 - 누적 집계: 항목 24652개; 주제 17288개; 근거 링크 27783개; 숫자 군간 비교 23713개; 사람 수 미상 1536개; 소규모 연구 7016개
 - data commit: 23688e3a3d5461d0ea9ae30ba0146b12a9b63d81; checkpoint state commit: b66e4e9a0b40accd7471d80da1db2fdcd40e2ba5; push marker commit: 4b0204064e8775da968004fb4e6db0c0df17547a; PUSHED=true
 - 다음 재개점: next_batch 2830; resume point new-expansion-candidates-batch2830; 천식 환경·학교·가족 중재 후속 후보 batch 2830
+
+Batch 2850 — 천식 문화·지역사회·가족·흡연 노출 저감·가정환경 중재 후속 후보
+- 선정: 30개 주제; 신규 원 연구 5건; 비처방 주제 30개 처리
+- 검색: 1,741개 레코드; 고유 PMID 1,270개
+- fetch: 1,270건 요청; 1,254건 확보; 13개 chunk; 일반 fetch 초록 1,241개와 재조회 초록 16개 확보; 누락 16건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,270건; 후보 694건; 신규 후보 316건; 효과 후보 183건; 수동 선별 183건; 신규 후보 제외 311건; 전체 parser 기준 비후보 576건
+- 신규 ID와 PMID: asthma-breathe-easy-home-21148715-2850(PMID 21148715), asthma-home-allergen-dms-8319124-2850(PMID 8319124), asthma-pharmacy-care-25170362-2850(PMID 25170362), asthma-housing-voucher-24607675-2850(PMID 24607675), asthma-shared-decision-app-37329951-2850(PMID 37329951)
+- 범주별 신규: life 3건·care 2건; tier trial 5건; dir pos 4건·harm 1건
+- 전용 검증: node etc/validate2850final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 초기 build error 1건은 알레르겐 처리 연구의 vs에 처리군 수를 보강해 수정; 최종 warning 8,369건
+- 새 경고 수정: targeted warning 1건; effect·line·한국어 주제 경고 0건
+- 실제 경고: unknown-n 1건(대조 가정의 표본 수가 초록에 없는 알레르겐 처리 연구); n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,016건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24660개; 주제 17296개; 근거 링크 27791개; 숫자 군간 비교 23721개; 사람 수 미상 1537개; 소규모 연구 7016개
+- data commit: 998c81447; checkpoint state commit: 3f26dd60e3a72ccd6f0071429211164cc2cc9aa7; push marker commit: 93d435bb0; PUSHED=true
+- 다음 재개점: next_batch 2860; resume point new-expansion-candidates-batch2860; 천식 문화·지역사회·가족·환경관리 후속 후보 batch 2860
