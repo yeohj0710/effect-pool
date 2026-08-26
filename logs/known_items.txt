@@ -19041,3 +19041,19 @@ Batch 3240 — 천식 비처방 성인 실내환경·노출 저감 잔여 후보
 - 누적 집계: 항목 24682개; 주제 17316개; 근거 링크 27813개; 숫자 군간 비교 23743개; 사람 수 미상 1537개; 소규모 연구 7025개
 - data commit: 4630e3b7fa85e04eec675474aa8028361589649d; checkpoint state commit: f8251407d1f2fafd0de0ef27880ae10152473276; push marker commit: 83bdfa25680027e854365a126c996e705a405de8; PUSHED=true
 - 다음 재개점: next_batch 3250; resume point new-expansion-candidates-batch3250; 천식 비처방 성인 실내 공기질·주거 개입 잔여 후보 batch 3250
+
+Batch 3250 — 천식 비처방 성인 실내 공기질·주거 개입 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 4건; 비처방 주제 30개 처리
+- 검색: 274개 레코드; 고유 PMID 240개
+- fetch: 240건 요청; 239건 확보; 3개 chunk; 일반 fetch 초록 236개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 240건; 후보 90건; 신규 후보 55건; 효과 후보 37건; 수동 선별 37건; 신규 효과 후보 제외 33건; 전체 parser 기준 비후보 150건
+- 신규 ID와 PMID: asthma-cpap-osa-control-29992713-3250 (PMID 29992713); asthma-bipap-status-11733289-3250 (PMID 11733289); asthma-niv-nebulizer-19484669-3250 (PMID 19484669); asthma-cbp-severe-23131285-3250 (PMID 23131285)
+- 범주별 신규: care 4건; trial 4건; pos 2건; null 2건
+- 전용 검증: node etc/validate3250final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,382건; 신규 warning 4건
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 4건(CPAP n=37, BiPAP n=35, NIV n=36, 혈액정화 n=26); 기존 unknown-n 1,537건·n<50 7,025건에 신규 4건을 더한 7,029건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·고찰·메타분석·프로토콜·관찰·2차 분석·비천식·소아·혼합질환·처방약·수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24686개; 주제 17320개; 근거 링크 27817개; 숫자 군간 비교 23747개; 사람 수 미상 1537개; 소규모 연구 7029개
+- data commit: 95aab066887e5f16744d0cbc248d7c381ac44a1f; checkpoint state commit: c67f9cf0bfaa0eb382ac82e079a9b4483dd1c6ba; push marker commit: 4555b433a8afd86e47dc99a512522d6bdeb8538f; PUSHED=true
+- 다음 재개점: next_batch 3260; resume point new-expansion-candidates-batch3260; 천식 비처방 성인 실내 노출·호흡보조 잔여 후보 batch 3260
