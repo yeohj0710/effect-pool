@@ -19169,3 +19169,19 @@ Batch 3320 — 천식 비처방 성인 교육·자가관리·진료지원 잔여
 - 누적 집계: 항목 24697개; 주제 17331개; 근거 링크 27828개; 숫자 군간 비교 23758개; 사람 수 미상 1537개; 소규모 연구 7035개
 - data commit: 없음; checkpoint state commit: 4c2c88777; push marker commit: 70d83d7e8; PUSHED=true
 - 다음 재개점: next_batch 3330; resume point new-expansion-candidates-batch3330; 천식 비처방 성인 교육·자가관리·진료지원 3차 잔여 후보 batch 3330
+
+Batch 3330 — 천식 비처방 성인 교육·자가관리·진료지원 3차 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 2,744개 레코드; 고유 PMID 1,706개
+- fetch: 1,706건 요청; 1,697건 확보; 18개 chunk; 일반 fetch 초록 1,687개와 재조회 초록 9개 확보; 누락 9건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,706건; 후보 798건; 신규 후보 528건; 효과 후보 170건; 수동 선별 170건; 신규 효과 후보 제외 169건; 전체 parser 기준 비후보 908건
+- 신규 ID와 PMID: asthma-housing-upgrade-17699530-3330 (PMID 17699530)
+- 범주별 신규: life 1건; trial 1건; pos 1건
+- 전용 검증: node etc/validate3330final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,387건; 신규 warning 1건(unknown-n)
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 1건(성인 천식 하위집단 표본 수가 초록에 없어 n=null); n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,035건에 신규 unknown-n 1건을 더한 실제 경고는 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·비무작위·관찰·2차 분석·혼합질환·처방약 단독·수치 부족·중복·천식 외 결과만 있는 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24698개; 주제 17331개; 근거 링크 27829개; 숫자 군간 비교 23759개; 사람 수 미상 1538개; 소규모 연구 7035개
+- data commit: cb76e88d3; checkpoint state commit: 00479eea4; push marker commit: 49e73f7c2; PUSHED=true
+- 다음 재개점: next_batch 3340; resume point new-expansion-candidates-batch3340; 천식 비처방 성인 교육·자가관리·진료지원 4차 잔여 후보 batch 3340
