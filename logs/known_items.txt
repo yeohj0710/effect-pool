@@ -18417,3 +18417,19 @@ Batch 2850 — 천식 문화·지역사회·가족·흡연 노출 저감·가정
 - 누적 집계: 항목 24660개; 주제 17296개; 근거 링크 27791개; 숫자 군간 비교 23721개; 사람 수 미상 1537개; 소규모 연구 7016개
 - data commit: 998c81447; checkpoint state commit: 3f26dd60e3a72ccd6f0071429211164cc2cc9aa7; push marker commit: 93d435bb0; PUSHED=true
 - 다음 재개점: next_batch 2860; resume point new-expansion-candidates-batch2860; 천식 문화·지역사회·가족·환경관리 후속 후보 batch 2860
+
+Batch 2860 — 천식 가정환경·침구·집먼지 관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 4건; 비처방 주제 30개 처리
+- 검색: 314개 레코드; 고유 PMID 266개
+- fetch: 266건 요청; 261건 확보; 3개 chunk; 일반 fetch 초록 260개와 재조회 초록 5개 확보; 누락 5건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 266건; 후보 156건; 신규 후보 58건; 효과 후보 31건; 수동 선별 31건; 신규 효과 후보 제외 27건; 전체 parser 기준 비후보 110건
+- 신규 ID와 PMID: asthma-microstop-bedding-9074278-2860(PMID 9074278), asthma-anti-mite-measures-7001667-2860(PMID 7001667), asthma-house-dust-control-16136910-2860(PMID 16136910), asthma-microfine-bedding-24499343-2860(PMID 24499343)
+- 범주별 신규: life 4건; tier trial 4건; dir pos 3건·null 1건
+- 전용 검증: node etc/validate2860final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,371건; 초기 build error 1건은 항진드기 처리 침구의 영문 주어를 한국어로 바꿔 수정
+- 새 경고 수정: targeted warning 3건(영문 주어 1건·line 영문 1건·규모 숫자 중복 2건); effect·line 길이 경고 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 2건(집먼지진드기 관리 n=43, 성인 미세섬유 침구 n=25)은 숨기지 않음; 기존 unknown-n 1,537건·n<50 7,018건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식 연구·처방약 단독 연구·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24664개; 주제 17300개; 근거 링크 27795개; 숫자 군간 비교 23725개; 사람 수 미상 1537개; 소규모 연구 7018개
+- data commit: 4a99712affd2ff24e82912933998ad4edabc4e16; checkpoint state commit: 40c6f56ae6f3fd173108936759829966731a202a; push marker commit: 8f7552454790d15b8d438a9f676293d895e3138f; PUSHED=true
+- 다음 재개점: next_batch 2870; resume point new-expansion-candidates-batch2870; 천식 가정환경·침구·집먼지 관리 후속 후보 batch 2870
