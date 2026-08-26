@@ -18433,3 +18433,19 @@ Batch 2860 — 천식 가정환경·침구·집먼지 관리 후속 후보
 - 누적 집계: 항목 24664개; 주제 17300개; 근거 링크 27795개; 숫자 군간 비교 23725개; 사람 수 미상 1537개; 소규모 연구 7018개
 - data commit: 4a99712affd2ff24e82912933998ad4edabc4e16; checkpoint state commit: 40c6f56ae6f3fd173108936759829966731a202a; push marker commit: 8f7552454790d15b8d438a9f676293d895e3138f; PUSHED=true
 - 다음 재개점: next_batch 2870; resume point new-expansion-candidates-batch2870; 천식 가정환경·침구·집먼지 관리 후속 후보 batch 2870
+
+Batch 2870 — 천식 가족·가정환경·집먼지 관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 760개 레코드; 고유 PMID 603개
+- fetch: 603건 요청; 595건 확보; 7개 chunk; 일반 fetch 초록 590개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 603건; 후보 310건; 신규 후보 124건; 효과 후보 62건; 수동 선별 62건; 신규 효과 후보 제외 60건; 전체 parser 기준 비후보 293건
+- 신규 ID와 PMID: asthma-caregiver-home-visit-37584900-2870(PMID 37584900), asthma-previsit-video-28550963-2870(PMID 28550963)
+- 범주별 신규: care 2건; tier trial 2건; dir pos 2건
+- 전용 검증: node etc/validate2870final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 신규 warning 없음; 최종 warning 8,371건
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,018건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24666개; 주제 17302개; 근거 링크 27797개; 숫자 군간 비교 23727개; 사람 수 미상 1537개; 소규모 연구 7018개
+- data commit: 00b341689e5397d26ec95d8218a992cca16037c1; checkpoint state commit: bc2f325eb06512b7a2cc70f6d7d9d2ae38e4110a; push marker commit: 98bedf644657a692606e64955eb26d503718cf65; PUSHED=true
+- 다음 재개점: next_batch 2880; resume point new-expansion-candidates-batch2880; 천식 가족·가정환경·집먼지 관리 후속 후보 batch 2880
