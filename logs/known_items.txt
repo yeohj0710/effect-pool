@@ -19153,3 +19153,19 @@ Batch 3310 — 천식 비처방 성인 호흡·운동·심리 중재 3차 잔여
 - 누적 집계: 항목 24697개; 주제 17331개; 근거 링크 27828개; 숫자 군간 비교 23758개; 사람 수 미상 1537개; 소규모 연구 7035개
 - data commit: 없음; checkpoint state commit: a314cadcd; push marker commit: be2259dba; PUSHED=true
 - 다음 재개점: next_batch 3320; resume point new-expansion-candidates-batch3320; 천식 비처방 성인 호흡·운동·심리 2차 잔여 후보 batch 3320
+
+Batch 3320 — 천식 비처방 성인 교육·자가관리·진료지원 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 3,280개 레코드; 고유 PMID 1,965개
+- fetch: 1,965건 요청; 1,955건 확보; 20개 chunk; 일반 fetch 초록 1,939개와 재조회 초록 10개 확보; 누락 10건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,965건; 후보 747건; 신규 후보 444건; 효과 후보 156건; 수동 선별 156건; 신규 효과 후보 제외 156건; 전체 parser 기준 비후보 1,218건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3320final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,386건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,035건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·비무작위·관찰·2차 분석·혼합질환·처방약 단독·수치 부족·중복·천식 외 결과만 있는 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24697개; 주제 17331개; 근거 링크 27828개; 숫자 군간 비교 23758개; 사람 수 미상 1537개; 소규모 연구 7035개
+- data commit: 없음; checkpoint state commit: 4c2c88777; push marker commit: 70d83d7e8; PUSHED=true
+- 다음 재개점: next_batch 3330; resume point new-expansion-candidates-batch3330; 천식 비처방 성인 교육·자가관리·진료지원 3차 잔여 후보 batch 3330
