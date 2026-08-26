@@ -18513,3 +18513,19 @@ Batch 2910 — 천식 학교·가정 환경·자기관리 후속 후보
 - 누적 집계: 항목 24673개; 주제 17309개; 근거 링크 27804개; 숫자 군간 비교 23734개; 사람 수 미상 1537개; 소규모 연구 7021개
 - data commit: 4faaabc3664812898ec93e53a865d91227b5af75; checkpoint state commit: 1a01c4a1ab728b63df7179c493fb3fdf07315ca0; push marker commit: bfaf33981ef6b14ca0072259accd667685a2f04a; PUSHED=true
 - 다음 재개점: next_batch 2920; resume point new-expansion-candidates-batch2920; 천식 교육·운동·디지털 자기관리 후속 후보 batch 2920
+
+Batch 2920 — 천식 교육·운동·디지털 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 2,744개 레코드; 고유 PMID 1,998개
+- fetch: 1,998건 요청; 1,986건 확보; 20개 chunk; 일반 fetch 초록 1,952개와 재조회 초록 12개 확보; 누락 12건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,998건; 후보 942건; 신규 후보 487건; 효과 후보 282건; 수동 선별 282건; 신규 효과 후보 제외 282건; 전체 parser 기준 비후보 1,056건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2920final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,374건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,021건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24673개; 주제 17309개; 근거 링크 27804개; 숫자 군간 비교 23734개; 사람 수 미상 1537개; 소규모 연구 7021개
+- data commit: 없음; checkpoint state commit: bec864acc; push marker commit: 5197ae559; PUSHED=true
+- 다음 재개점: next_batch 2930; resume point new-expansion-candidates-batch2930; 천식 비처방 자기관리·운동·디지털 후속 후보 batch 2930
