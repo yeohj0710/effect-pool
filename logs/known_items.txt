@@ -20609,3 +20609,18 @@ Batch 3570 — 천식 비처방 성인 노인·취약계층·지역사회 전달
 - 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 1bb158ebf; push marker commit: 0d7878e1c; marker-state commit: 7c6e36240; PUSHED=true
 - 정확한 다음 재개점: next_batch 4280; resume point new-expansion-candidates-batch4280; 천식 비처방 성인 직업성 천식 근로자 건강문해·상담 지원 89차 후보 batch 4280
+
+## Batch 4280 (2026-08-27) — 천식 비처방 성인 직업성 천식 근로자 건강문해·상담 지원 근거 검색
+- 배치 4280: 주제 30개; 선정 0개; 검색 레코드 1,350개; 고유 PMID 809개
+- fetch: 요청 809건·확보 807건·청크 9개·일반 초록 788개; 누락 2건(41712744, 29494044)은 재조회해 PubmedBookArticle 초록 2개 확보
+- 후보 선별: parser 809건·후보 55건·신규 후보 36건·효과 후보 11건; 신규 선정 0건·제외 11건·비후보 754건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate4280final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: 효과 후보 11건은 고찰·관찰/방법 연구·처방약·알레르기 비대상·설문 또는 직접 중재군-대조군 수치 부족으로 제외했다. 제외 PMID: 35870435, 35993916, 28394084, 40272455, 30520413, 32890575, 33325455, 18418501, 33285618, 10051706, 12527158. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: 331e35cc5; push marker commit: 93936fc98; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 4290; resume point new-expansion-candidates-batch4290; 천식 비처방 성인 직업성 천식 근로자 직장 내 동료·지원 프로그램 90차 후보 batch 4290
