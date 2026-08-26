@@ -2,27 +2,27 @@
   "updated": "2026-08-26",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 24697,
+  "entries": 24698,
   "subjects": 17331,
-  "refs": 27828,
+  "refs": 27829,
   "kinds": {
     "supp": 3578,
     "rx": 2701,
     "food": 1801,
     "care": 8732,
-    "life": 3152,
+    "life": 3153,
     "move": 3906,
     "otc": 827
   },
   "tiers": {
-    "trial": 23846,
+    "trial": 23847,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-      "pos": 17030,
+      "pos": 17031,
       "null": 5778,
     "harm": 303,
     "open": 1584
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 3320은 천식 비처방 성인 교육·자가관리·진료지원 후보 30개를 검색했지만, 직접 확인 가능한 신규 수치 비교 원 연구가 없어 기록하지 않았다. 다음 재개점은 batch 3330이다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 3330은 천식 비처방 성인 교육·자가관리·진료지원 후보 30개를 검색했고, 직접 확인 가능한 무작위 대기자 대조 주거환경 개선 연구 1건을 기록했다. 다음 재개점은 batch 3340이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,18 +40,18 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 3320은 천식 비처방 성인 교육·자가관리·진료지원 후보 30개를 검색했지만, 직접 확인 가능한 신규 수치 비교 원 연구가 없어 기록하지 않았다. 다음 배치는 batch 3330이다."
+    "note": "Batch 3330은 천식 비처방 성인 교육·자가관리·진료지원 후보 30개를 검색했고, 직접 확인 가능한 무작위 대기자 대조 주거환경 개선 연구 1건을 기록했다. 다음 배치는 batch 3340이다."
   },
   "checkpoints": {
     "over_counter_share": "25.2% (6205 entries)",
     "rx_share": "11.0% (2701)",
       "no_effect_or_harm_share": "24.6% (6083 entries)",
-      "vs_share": "96.2% (23758)",
+      "vs_share": "96.2% (23759)",
     "unexpected_benefit_entries": 1,
       "trial_share": "96.6% (23846)",
       "non_trial_share": "3.5% (851)",
     "build_warnings": {
-      "unknown_n": 1537,
+      "unknown_n": 1538,
       "thin_study": 7035,
       "targeted_batch_warnings": 23
     },
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Resume at batch 3330.",
+  "next": "Resume at batch 3340.",
   "resume": {
-    "next_batch": "3330",
-    "worklist_line": "new-expansion-candidates-batch3330",
-    "topic": "천식 비처방 성인 교육·자가관리·진료지원 3차 잔여 후보 batch 3330",
+    "next_batch": "3340",
+    "worklist_line": "new-expansion-candidates-batch3340",
+    "topic": "천식 비처방 성인 교육·자가관리·진료지원 4차 잔여 후보 batch 3340",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9162,6 +9162,141 @@
     "resume": {"next_batch": "3060", "worklist_line": "new-expansion-candidates-batch3060", "topic": "천식 비처방 심리·가족·사회지원 심화 후보 batch 3060", "unchecked": 0}
   },
   "last_batch": {
+    "id": "3330",
+    "commit": "cb76e88d3",
+    "pushed": false,
+    "expansion_commit": "cb76e88d3",
+    "data_commits": ["cb76e88d3"],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
+    "maintenance": false,
+    "processed_topics": 30,
+    "new_entries": 1,
+    "existing_links": 0,
+    "no_evidence_rejects": 908,
+    "new_candidate_rejects": 169,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 169,
+    "new_references": 1,
+    "existing_reference_links": 0,
+    "duplicate_search_pmids_removed": 0,
+    "duplicate_topic_pmids_retained": [],
+    "search_topic_count": 30,
+    "search_returned_records": 2744,
+    "main_search_records": 2744,
+    "main_search_unique_pmids": 1706,
+    "refinement_query_count": 0,
+    "refinement_search_records": 0,
+    "refinement_unique_pmids": 0,
+    "extra_query_count": 0,
+    "extra_search_records": 0,
+    "extra_unique_pmids": 0,
+    "targeted_query_count": 0,
+    "targeted_search_records": 0,
+    "targeted_unique_pmids": 0,
+    "followup_query_count": 0,
+    "followup_search_records": 0,
+    "followup_unique_pmids": 0,
+    "combined_search_unique_pmids": 1706,
+    "combined_all_unique_pmids": 1706,
+    "requested": 1706,
+    "fetched": 1697,
+    "fetch_chunks": 18,
+    "abstracts": 1687,
+    "abstracts_all_sources": 1696,
+    "missing": 9,
+    "fetch_missing": 9,
+    "missing_pmids": [
+      "37874896",
+      "29377651",
+      "41712744",
+      "40310954",
+      "36538606",
+      "27809421",
+      "41945677",
+      "20734529",
+      "41926605"
+    ],
+    "refetched_missing": 9,
+    "refetch_requested_unique": 9,
+    "refetch_found_non_article": 9,
+    "refetch_found_pubmed_article": 0,
+    "refetch_found_pubmed_book_article": 9,
+    "refetch_abstracts": 9,
+    "candidate_parser_parsed": 1706,
+    "candidate_parser_candidates": 798,
+    "candidate_parser_candidates_after_write": 798,
+    "union_candidate_like": 798,
+    "union_new_candidate_like": 528,
+    "effect_candidate_rows": 170,
+    "manual_candidate_count": 170,
+    "manual_candidates": [],
+    "clinical_trials_manual_screened": 0,
+    "clinical_trials_manual_rejected": 0,
+    "clinical_trials_manual_reject_reason": "",
+    "selected_pmids": [
+      "17699530"
+    ],
+    "new_pmids": [
+      "17699530"
+    ],
+    "new_entry_ids": [
+      "asthma-housing-upgrade-17699530-3330"
+    ],
+    "categories": {
+      "life": 1
+    },
+    "tiers": {
+      "trial": 1
+    },
+    "dirs": {
+      "pos": 1
+    },
+    "unknown_n": 1,
+    "thin_studies": 0,
+    "validator_errors": 0,
+    "validator_warnings": 0,
+    "initial_validator_errors": 0,
+    "initial_validator_warnings": 0,
+    "initial_build_error_lines": 0,
+    "initial_build_warning_lines": 8386,
+    "build_warning_lines": 8387,
+    "new_build_warnings": [
+      "unknown_n asthma-housing-upgrade-17699530-3330"
+    ],
+    "new_unknown_n_warnings": [
+      "unknown_n asthma-housing-upgrade-17699530-3330"
+    ],
+    "new_thin_study_warnings": [],
+    "build_error_lines": 0,
+    "build_errors_fixed": 0,
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_english_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 0,
+    "new_entry_line_warnings_fixed": 0,
+    "open_numeric_comparisons": 23759,
+    "build_exit": 0,
+    "build": "24698 entries; 27829 refs; trial 23847; obs 754; animal 32; lab 18; case 47; numeric 23759; worklist 17174/17174",
+    "research": "PubMed E-utilities에서 천식 비처방 성인 교육·자가관리·진료지원 후보 30개 주제를 검색했다. 최종 검색은 2744개 레코드와 고유 PMID 1706개를 반환했다. 1706건을 요청해 1697건의 논문 기록과 일반 초록 1687개를 확보했고, 누락 9건은 재조회해 PubmedBookArticle 초록 9개를 확인했다. 후보 parser는 1706건에서 후보 798건, 신규 후보 528건, 효과 후보 170건을 확인했다. 신규 효과 후보를 직접 선별한 결과 무작위 대기자 대조 주거환경 개선 연구 1건(PMID 17699530)을 기록했고, 나머지는 고찰·메타분석·프로토콜·비무작위·관찰·2차 분석·혼합질환·처방약 단독·수치 부족·중복 또는 천식 외 결과만 있는 연구로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 전용 validator 오류·경고 0건, build exit 0이며 사람 수 미상 경고 1건은 실제 초록에 천식 하위집단 표본 수가 없어 유지했다.",
+    "remaining_non_prescription_vs_missing": 0,
+    "sample_sizes_filled": 0,
+    "sample_size_corrections": 0,
+    "category_reclassifications": [],
+    "pushed_state": "PUSHED=false",
+    "resume": {
+      "next_batch": "3340",
+      "worklist_line": "new-expansion-candidates-batch3340",
+      "topic": "천식 비처방 성인 교육·자가관리·진료지원 4차 잔여 후보 batch 3340",
+      "unchecked": 0
+    }
+  },
+  "previous_last_batch_3330": {
     "id": "3320",
     "commit": "4c2c88777",
     "pushed": true,
