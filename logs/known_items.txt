@@ -18142,3 +18142,19 @@ Batch 2670 — 천식 비처방 디지털·환경·행동 중재 후속 후보
 - 누적 집계: 항목 24629개; 주제 17265개; 근거 링크 27760개; 숫자 군간 비교 23690개; 사람 수 미상 1534개; 소규모 연구 7011개
 - data commit: 없음(신규 data 파일 없음); checkpoint state commit: 2e741a36f48bec315b60e47493c5cb2e35c64be7; push marker commit: 22d225a68afc8306ed0c745be7be38f0ce4ee14d; PUSHED=true
 - 다음 재개점: next_batch 2680; resume point new-expansion-candidates-batch2680; 천식 비처방 주거·학교·흡연환경 후속 후보 batch 2680
+
+Batch 2690 — 천식 비처방 환경·가정·학교 중재 보강 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,501개 레코드; 고유 PMID 1,053개
+- fetch: 1,053건 요청; 1,050건 확보; 11개 chunk; 일반 fetch 초록 1,032개와 재조회 초록 3개 확보; 누락 3건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,053건; 후보 535건; 신규 후보 278건; 효과 후보 156건; 수동 선별 156건; 신규 후보 제외 156건; 전체 parser 기준 비후보 518건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2690final.mjs exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 신규 warning 0건; 기존 unknown-n·n<50 경고 8,361건은 숨기거나 수정하지 않음
+- 새 경고 수정: 0건
+- 실제 경고: unknown-n 0건; n<50 소규모 연구 0건; 신규 기록 없음
+- 선별 제외: 고찰·메타분석·처방약·관찰·이차분석·비천식 환경실험·단일군·프로토콜·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24630개; 주제 17266개; 근거 링크 27761개; 숫자 군간 비교 23691개; 사람 수 미상 1534개; 소규모 연구 7011개
+- data commit: 없음(신규 data 파일 없음); checkpoint state commit: 131096e42b6fbebf856548f9cf5a2c0721b9b6fc; push marker commit: 4b7cd32682f54e57cbe68a3215679adfaf51005b; PUSHED=true
+- 다음 재개점: next_batch 2700; resume point new-expansion-candidates-batch2700; 천식 비처방 지역사회·노출·학교 후속 후보 batch 2700
