@@ -19073,3 +19073,19 @@ Batch 3260 — 천식 비처방 성인 호흡보조·분무 전달 잔여 후보
 - 누적 집계: 항목 24693개; 주제 17327개; 근거 링크 27824개; 숫자 군간 비교 23754개; 사람 수 미상 1537개; 소규모 연구 7031개
 - data commit: 36ae340500998f14f7fb0a6ced707e15ab92bf1b; checkpoint state commit: 0dfde25c2c16cda5a80505e1251f8677f2de00fc; push marker commit: a589ddd73f5d2715f29dc448642f4eb94a062ed8; PUSHED=true
 - 다음 재개점: next_batch 3270; resume point new-expansion-candidates-batch3270; 천식 비처방 성인 호흡운동·재활 잔여 후보 batch 3270
+
+Batch 3270 — 천식 비처방 성인 운동·호흡훈련 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 1,977개 레코드; 고유 PMID 1,091개
+- fetch: 1,091건 요청; 1,088건 확보; 11개 chunk; 일반 fetch 초록 1,033개와 재조회 초록 3개 확보; 누락 3건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,091건; 후보 415건; 신규 후보 255건; 효과 후보 141건; 수동 선별 141건; 신규 효과 후보 제외 139건; 전체 parser 기준 비후보 676건
+- 신규 ID와 PMID: adult-asthma-cpap-reactivity-22835615-3270 (PMID 22835615); life-threatening-asthma-ippb-373852-3270 (PMID 373852)
+- 범주별 신규: care 2건; trial 2건; pos 2건
+- 전용 검증: node etc/validate3270final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,386건; 신규 warning 2건
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 2건(CPAP n=25, 간헐적 양압호흡 n=19); 기존 unknown-n 1,537건·n<50 7,031건에 신규 2건을 더한 7,033건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·고찰·메타분석·비무작위·관찰·2차 분석·비천식·혼합질환·수치 부족·처방약 단독 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24695개; 주제 17329개; 근거 링크 27826개; 숫자 군간 비교 23756개; 사람 수 미상 1537개; 소규모 연구 7033개
+- data commit: 0e7935024c3b25f0be4d585e35c94828833bb264; checkpoint state commit: 5d95fcd2d5b7595a03aef304c5629fc935d3be83; push marker commit: 9dd6b5291dcd1be0d8abab41f0818cdafa267a78; PUSHED=true
+- 다음 재개점: next_batch 3280; resume point new-expansion-candidates-batch3280; 천식 비처방 성인 자기관리·심리·원격지원 잔여 후보 batch 3280
