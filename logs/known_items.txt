@@ -18353,3 +18353,19 @@ Batch 2810 — 천식 학교·가족·환경관리 후속 후보
 - 누적 집계: 항목 24650개; 주제 17286개; 근거 링크 27781개; 숫자 군간 비교 23711개; 사람 수 미상 1535개; 소규모 연구 7016개
 - data commit: 2d5deb86928ff3f0979297ec04781e08eda7712c; checkpoint state commit: 1028a27b4755654eb4b528c81f3150113fa80db7; push marker commit: 41f0569037d5bde0bdcf2f0bc1413986023331b; PUSHED=true
 - 다음 재개점: next_batch 2820; resume point new-expansion-candidates-batch2820; 천식 환경관리·학교·가족 중재 후속 후보 batch 2820
+
+Batch 2820 — 천식 환경관리·학교·가족 중재 후속 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 1,680개 레코드; 고유 PMID 1,212개
+- fetch: 1,212건 요청; 1,200건 확보; 13개 chunk; 일반 fetch 초록 1,186개와 재조회 초록 12개 확보; 누락 12건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,212건; 후보 627건; 신규 후보 257건; 효과 후보 145건; 수동 선별 145건; 신규 후보 제외 143건; 전체 parser 기준 비후보 585건
+- 신규 ID와 PMID: 천식-기상화-보건요원-가정중재-24228661-2820(PMID 24228661), 진드기-알레르기-천식-매트리스-커버-8596961-2820(PMID 8596961)
+- 범주별 신규: care 1건·life 1건; tier trial 2건; dir pos 1건·null 1건
+- 전용 검증: node etc/validate2820final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs exit 0; build error 0건; 최종 warning 8,368건; 신규 사람 수 미상 경고 1건은 숨기지 않음
+- 새 경고 수정: 0건; 신규 unknown-n 1건; 신규 n<50 소표본 0건
+- 실제 경고: unknown-n 1건(기상화 연구는 사람 수가 아닌 가구 수만 제시); n<50 소표본 0건
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24652개; 주제 17288개; 근거 링크 27783개; 숫자 군간 비교 23713개; 사람 수 미상 1536개; 소규모 연구 7016개
+- data commit: 23688e3a3d5461d0ea9ae30ba0146b12a9b63d81; checkpoint state commit: b66e4e9a0b40accd7471d80da1db2fdcd40e2ba5; push marker commit: 4b0204064e8775da968004fb4e6db0c0df17547a; PUSHED=true
+- 다음 재개점: next_batch 2830; resume point new-expansion-candidates-batch2830; 천식 환경·학교·가족 중재 후속 후보 batch 2830
