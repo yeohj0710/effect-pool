@@ -18224,3 +18224,20 @@ Batch 2730 — 천식 비처방 지역사회 환경·학교·운동 보강 후�
 - 누적 집계: 항목 24632개; 주제 17268개; 근거 링크 27763개; 숫자 군간 비교 23693개; 사람 수 미상 1534개; 소규모 연구 7011개
 - data commit: 9d10ad60f13020f571cd8297fd11b6637754315d; checkpoint state commit: 9472822bf069aed90fc42cbd66dabf1e3f194e43; push marker commit: 881e054c5ef5886c0d401b2fb82d24fb899a6343; PUSHED=true
 - 다음 재개점: next_batch 2740; resume point new-expansion-candidates-batch2740; 천식 비처방 지역사회·문화권·가족 자기관리 후속 후보 batch 2740
+
+Batch 2740 — 천식 비처방 지역사회·문화권·가족 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 1,504개 레코드; 고유 PMID 1,108개
+- fetch: 1,108건 요청; 1,097건 확보; 12개 chunk; 일반 fetch 초록 1,088개와 재조회 초록 11개 확보; 누락 11건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,108건; 후보 596건; 신규 후보 294건; 효과 후보 143건; 수동 선별 143건; 신규 후보 제외 141건; 전체 parser 기준 비후보 512건
+- 신규 ID와 PMID: 고격차-지역-천식-진료지침-개선-16293546-2740; PMID 16293546; 저소득-소아-천식-지역보건요원-가정교육-31288792-2740; PMID 31288792
+- 범주별 신규: care 2건; tier trial 2건; 방향 pos 2건
+- 기록: 안전망 보건센터 군집무작위시험은 교육·천식 키트·진료체계 중재 7곳이 대조 9곳보다 진료지침 준수 일부 지표를 더 개선(p<.01)했으나 환자 수는 초록에 없어 n=null로 유지. 지역보건요원 가정교육 준실험 연구는 개입군 130명과 대조군 160명에서 천식 발작 감소 차이 p=.049, 가족 정서건강 변화 p=.038을 보고
+- 전용 검증: node etc/validate2740final.mjs exit 0; 최종 오류 0; 최종 경고 0; 초기 effect 길이 오류 1건 수정
+- 빌드: node build.mjs exit 0; build error 0건; 신규 build warning 1건(unknown-n 1건); 전체 warning 8,362건
+- 새 경고 수정: 1건(전용 검증 effect 길이 오류); build의 unknown-n 경고는 숨기거나 수정하지 않음
+- 실제 경고: unknown-n 1건; n<50 소표본 0건; 신규 unknown-n 고격차-지역-천식-진료지침-개선-16293546-2740
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·혼합질환·단일군·비천식 연구·처방약 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24634개; 주제 17270개; 근거 링크 27765개; 숫자 군간 비교 23695개; 사람 수 미상 1535개; 소규모 연구 7011개
+- data commit: 7a8b18c20bc2d16c56fe31f2a1898b6ac177870e; checkpoint state commit: b2b358657c251a883a0e9973443d80b2910f1d3a; push marker commit: 193dad0ba0ecb9b45f400573815dbc41201c5bce; PUSHED=true
+- 다음 재개점: next_batch 2750; resume point new-expansion-candidates-batch2750; 천식 비처방 지역사회·문화권·가족 자기관리 연속 후보 batch 2750
