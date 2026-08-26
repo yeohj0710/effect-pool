@@ -19919,3 +19919,18 @@ Batch 3570 — 천식 비처방 성인 노인·취약계층·지역사회 전달
 - 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 216a5a6e017c4ff069ef0853be43fc9e25bb4da7; push marker commit: 98163c13a6106a89e53a490309546446afa9447a; marker-state commit: b7d48068c42d255042b330049e5fdea972673dcf; PUSHED=true
 - 정확한 다음 재개점: next_batch 3820; resume point new-expansion-candidates-batch3820; 천식 비처방 성인 응급 자기관리·증상대처·행동계획 43차 후보 batch 3820
+
+## Batch 3820 (2026-08-27) — 천식 비처방 성인 응급 자기관리·증상대처·행동계획 근거 검색
+- 배치 3820: 주제 30개; 선정 0개; 검색 레코드 2,685개; 고유 PMID 1,852개
+- fetch: 요청 1,852건·확보 1,838건·청크 19개·일반 초록 1,819개; 누락 14건은 재조회해 PubmedBookArticle 초록 14개 확보
+- 후보 선별: parser 1,852건·후보 458건·신규 후보 272건·효과 후보 71건; 신규 선정 0건·제외 71건·비후보 1,394건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3820final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: 후보는 고찰·처방약 조정·2차 분석·관찰·비무작위 전후 연구·혼합질환·소아·실행가능성·비교군 부족 자료라 직접 대조군 수치가 확인된 신규 비처방 연구가 없어 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24709개; 주제 17337개; 근거 링크 27840개; 숫자 군간 비교 23770개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: df47992dd2e3482eddd51a99edcd509211c625cd; push marker commit: 88cb377223bf42929642a72c5c0746b84d80c4a2; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 3830; resume point new-expansion-candidates-batch3830; 천식 비처방 성인 금연·담배 연기 노출 감소 44차 후보 batch 3830
