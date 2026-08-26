@@ -18657,3 +18657,19 @@ Batch 3000 — 천식 비처방 학교교육·운동·자기관리 후속 후보
 - 누적 집계: 항목 24676개; 주제 17311개; 근거 링크 27807개; 숫자 군간 비교 23737개; 사람 수 미상 1537개; 소규모 연구 7022개
 - data commit: 없음; checkpoint state commit: 0154cff5e7f17f50bb6d4a06aa1e13cc0cdaaf55; push marker commit: 17ddc8cc4; PUSHED=true
 - 다음 재개점: next_batch 3010; resume point new-expansion-candidates-batch3010; 천식 비처방 디지털·운동·보충제 잔여 후보 batch 3010
+
+Batch 3010 — 천식 비처방 디지털·운동·보충제 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 860개 레코드; 고유 PMID 715개
+- fetch: 715건 요청; 709건 확보; 8개 chunk; 일반 fetch 초록 694개와 재조회 초록 6개 확보; 누락 6건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 715건; 후보 391건; 신규 후보 176건; 효과 후보 94건; 수동 선별 94건; 신규 효과 후보 1건 선정·93건 제외; 전체 parser 기준 비후보 324건
+- 신규 ID와 PMID: asthma-feno-pregnancy-infant-development-38691129-3010(PMID 38691129)
+- 범주별 신규: care 1건
+- 전용 검증: node etc/validate3010final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,375건; 신규 warning 없음
+- 새 경고 수정: 1건(영문 한 줄); effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,022건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식·혼합질환·처방약 단독·비처방 효과를 분리할 수 없는 복합 중재·천식 결과 직접 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24677개; 주제 17311개; 근거 링크 27808개; 숫자 군간 비교 23738개; 사람 수 미상 1537개; 소규모 연구 7022개
+- data commit: 31e0c792ab73ec1049f183d55ec49711847838cc; checkpoint state commit: 417afad1d84e7cc8b719aca5678e5f45a303f9cf; push marker commit: bbb7d707e2ddb817852fd2d655b3487b6a0e28b7; PUSHED=true
+- 다음 재개점: next_batch 3020; resume point new-expansion-candidates-batch3020; 천식 비처방 심리·사회지원·보충제 잔여 후보 batch 3020
