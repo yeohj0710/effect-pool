@@ -19521,3 +19521,19 @@ Batch 3540 — 천식 비처방 성인 음식·영양·장내미생물·보충�
 - 누적 집계: 항목 24701개; 주제 17331개; 근거 링크 27832개; 숫자 군간 비교 23762개; 사람 수 미상 1538개; 소규모 연구 7035개
 - data commit: 없음; checkpoint state commit: b01ecb01c9f77ed4823ae578278c0d05d874787e; push marker commit: 152f5da157cdec5139be23646a243204ca9712bb; PUSHED=true
 - 다음 재개점: next_batch 3550; resume point new-expansion-candidates-batch3550; 천식 비처방 성인 디지털·원격 자기관리·전자모니터 16차 후보 batch 3550
+
+Batch 3550 — 천식 비처방 성인 디지털·원격 자기관리·전자모니터 16차 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 977개 레코드; 고유 PMID 620개
+- fetch: 620건 요청; 615건 확보; 7개 chunk; 일반 fetch 초록 613개와 재조회 초록 5개 확보; 누락 5건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 620건; 후보 165건; 신규 후보 89건; 효과 후보 32건; 수동 선별 0건 선정·32건 제외; 전체 parser 기준 비후보 455건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate3550final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,387건; 신규 warning 없음
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,538건·n<50 7,035건은 숨기거나 수정하지 않음
+- 선별 제외: 개발·사용성 연구·혼합질환·처방약 순응도·고찰·메타분석·프로토콜·관찰·단일군 전후·수치 부족·중복 연구; 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24701개; 주제 17331개; 근거 링크 27832개; 숫자 군간 비교 23762개; 사람 수 미상 1538개; 소규모 연구 7035개
+- data commit: 없음; checkpoint state commit: 7497235f3f3596486622824f71b59f5ec7427559; push marker commit: 37b39dfcd2553073082be819b32625b8efe596c3; PUSHED=true
+- 다음 재개점: next_batch 3560; resume point new-expansion-candidates-batch3560; 천식 비처방 성인 환자교육·행동계획·상담 17차 후보 batch 3560
