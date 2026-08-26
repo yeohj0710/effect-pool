@@ -19025,3 +19025,19 @@ Batch 3230 — 천식 비처방 성인 환경·알레르겐 회피 잔여 후보
 - 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
 - data commit: 없음; checkpoint state commit: 06ef4b68333637d42ff7d2f594becb08390bff46; push marker commit: ffcc82eda9144f75487bfc3cbfe356cbf9bb82dc; PUSHED=true
 - 다음 재개점: next_batch 3240; resume point new-expansion-candidates-batch3240; 천식 비처방 성인 실내환경·노출 저감 잔여 후보 batch 3240
+
+Batch 3240 — 천식 비처방 성인 실내환경·노출 저감 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 165개 레코드; 고유 PMID 145개
+- fetch: 145건 요청; 144건 확보; 2개 chunk; 일반 fetch 초록 144개와 재조회 초록 1개 확보; 누락 1건은 PubmedBookArticle로 재조회
+- 후보: parser 145건; 후보 37건; 신규 후보 18건; 효과 후보 8건; 수동 선별 8건; 신규 효과 후보 제외 7건; 전체 parser 기준 비후보 108건
+- 신규 ID와 PMID: asthma-benzyl-benzoate-mite-control-8027495-3240 (PMID 8027495)
+- 범주별 신규: life 1건; trial 1건; null 1건
+- 전용 검증: node etc/validate3240final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,378건; 신규 warning 1건
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건(asthma-benzyl-benzoate-mite-control-8027495-3240, n=12); 기존 unknown-n 1,537건·n<50 7,024건에 신규 1건을 더한 7,025건은 숨기거나 수정하지 않음
+- 선별 제외: 기존 PMID 중복·고찰·메타분석·프로토콜·관찰·2차 분석·비천식·소아·혼합질환·처방약·알레르기 결과·천식 결과 직접 비교 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24682개; 주제 17316개; 근거 링크 27813개; 숫자 군간 비교 23743개; 사람 수 미상 1537개; 소규모 연구 7025개
+- data commit: 4630e3b7fa85e04eec675474aa8028361589649d; checkpoint state commit: f8251407d1f2fafd0de0ef27880ae10152473276; push marker commit: 83bdfa25680027e854365a126c996e705a405de8; PUSHED=true
+- 다음 재개점: next_batch 3250; resume point new-expansion-candidates-batch3250; 천식 비처방 성인 실내 공기질·주거 개입 잔여 후보 batch 3250
