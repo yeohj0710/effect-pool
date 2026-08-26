@@ -18897,3 +18897,19 @@ Batch 3150 — 천식 비처방 성인 보완요법·호흡재활 후속 원 연
 - 누적 집계: 항목 24680개; 주제 17314개; 근거 링크 27811개; 숫자 군간 비교 23741개; 사람 수 미상 1537개; 소규모 연구 7023개
 - data commit: 없음; checkpoint state commit: 0c3d76a5541e30656b9f59c9dde666b365f7400a; push marker commit: b29d149b8f743d65c7749abb04c15546e8d0eb27; PUSHED=true
 - 다음 재개점: next_batch 3160; resume point new-expansion-candidates-batch3160; 천식 비처방 성인 보완요법 장기결과·안전성 잔여 후보 batch 3160
+
+Batch 3160 — 천식 비처방 성인 보완요법 장기결과·안전성 잔여 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 2,103개 레코드; 고유 PMID 1,798개
+- fetch: 1,798건 요청; 1,795건 확보; 18개 chunk; 일반 fetch 초록 1,763개와 재조회 초록 3개 확보; 누락 3건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,798건; 후보 787건; 신규 후보 489건; 효과 후보 157건; 수동 선별 157건; 신규 효과 후보 제외 156건; 전체 parser 기준 비후보 1,011건
+- 신규 ID와 PMID: 성인-알레르기천식-동종요법-면역요법-7983994-3160 (PMID 7983994)
+- 범주별 신규: care 1건
+- 전용 검증: node etc/validate3160final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,377건; 신규 warning 1건(thin-study n=28)
+- 새 경고 수정: 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건; 기존 unknown-n 1,537건·n<50 7,023건과 신규 소표본 경고는 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식·혼합질환·처방약·천식 결과 직접 비교 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24681개; 주제 17315개; 근거 링크 27812개; 숫자 군간 비교 23742개; 사람 수 미상 1537개; 소규모 연구 7024개
+- data commit: 6ffcda1c960f438977bccf1abe2bdf20a15d72e5; checkpoint state commit: 4c2bef073bb0ac7ed20429abefc25d197f60bed5; push marker commit: 106d23b5fd2ff47a25845c0ef034deb82afba7ad; PUSHED=true
+- 다음 재개점: next_batch 3170; resume point new-expansion-candidates-batch3170; 천식 비처방 성인 보완요법 원 연구·안전성 잔여 후보 batch 3170
