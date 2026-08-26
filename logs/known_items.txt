@@ -18465,3 +18465,19 @@ Batch 2880 — 천식 침실·습도·제습기·약료 관리 후속 후보
 - 누적 집계: 항목 24670개; 주제 17306개; 근거 링크 27801개; 숫자 군간 비교 23731개; 사람 수 미상 1537개; 소규모 연구 7020개
 - data commit: aa802001e621814fe05d49e1c7d3f23f6a079a9b; checkpoint state commit: 559338c10a16ad5289f3acbff07b9ad6ffa446fa; push marker commit: bb04ce1f306cda15aa8bcefb63b685a8767fab25; PUSHED=true
 - 다음 재개점: next_batch 2890; resume point new-expansion-candidates-batch2890; 천식 침실·습도·제습기·약료 관리 후속 후보 batch 2890
+
+Batch 2890 — 천식 침실·습도·제습기·약료 관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 1건; 비처방 주제 30개 처리
+- 검색: 1,490개 레코드; 고유 PMID 1,119개
+- fetch: 1,119건 요청; 1,110건 확보; 12개 chunk; 일반 fetch 초록 1,091개와 재조회 초록 9개 확보; 누락 9건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,119건; 후보 399건; 신규 후보 162건; 효과 후보 91건; 수동 선별 91건; 신규 효과 후보 제외 90건; 전체 parser 기준 비후보 720건
+- 신규 ID와 PMID: asthma-bedroom-air-cleaner-31753466-2890(PMID 31753466)
+- 범주별 신규: life 1건; tier trial 1건; dir pos 1건
+- 전용 검증: node etc/validate2890final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,374건
+- 새 경고 수정: targeted warning 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건(천식 침실 공기청정기 n=43)은 숨기지 않음; 기존 unknown-n 1,537건·n<50 7,021건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24671개; 주제 17307개; 근거 링크 27802개; 숫자 군간 비교 23732개; 사람 수 미상 1537개; 소규모 연구 7021개
+- data commit: 4300768f02316743e2aa929a011ec2a2ee1d3249; checkpoint state commit: 0d03ed0db7c20a6d94b33d4860e70cf35d68d76f; push marker commit: 2106f34cc15b998a42cec6e0ba6c9a2f06714a55; PUSHED=true
+- 다음 재개점: next_batch 2900; resume point new-expansion-candidates-batch2900; 천식 실내공기·금연·디지털 자기관리 후속 후보 batch 2900
