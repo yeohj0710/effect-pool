@@ -19441,3 +19441,19 @@ Batch 3490 — 천식 비처방 성인 교육·재활·환경·보완요법 10�
 - 누적 집계: 항목 24699개; 주제 17331개; 근거 링크 27830개; 숫자 군간 비교 23760개; 사람 수 미상 1538개; 소규모 연구 7035개
 - data commit: 7b48ae8cb; checkpoint state commit: 4927b5894; push marker commit: 0a4e7a9a9; PUSHED=true
 - 다음 재개점: next_batch 3500; resume point new-expansion-candidates-batch3500; 천식 비처방 성인 지역사회 약국·가정환경·운동·디지털 11차 후보 batch 3500
+
+Batch 3500 — 천식 비처방 성인 지역사회 약국·가정환경·운동·디지털 11차 후보
+- 선정: 30개 주제; 신규 원 연구 2건; 비처방 주제 30개 처리
+- 검색: 1,834개 레코드; 고유 PMID 1,427개
+- fetch: 1,427건 요청; 1,418건 확보; 15개 chunk; 일반 fetch 초록 1,397개와 재조회 초록 9개 확보; 누락 9건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 1,427건; 후보 525건; 신규 후보 239건; 효과 후보 69건; 수동 선별 2건 선정·67건 제외; 전체 parser 기준 비후보 902건
+- 신규 ID와 PMID: asthma-community-pharmacy-intervention-17176690-3500(PMID 17176690); asthma-high-altitude-pulmonary-rehabilitation-32846334-3500(PMID 32846334)
+- 범주별 신규: care 1건; move 1건
+- 전용 검증: node etc/validate3500final.mjs 최종 exit 0; 오류 0; 경고 0; 초기 effect 길이 오류 2건 수정
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,387건; 신규 warning 없음
+- 새 경고 수정: 검증 effect 길이 오류 2건; line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,538건·n<50 7,035건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·단일군 전후·혼합질환·처방약 단독·수치 부족·중복·천식 외 결과; 직접 군간 수치가 있는 준실험 비교연구 1건은 포함; 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24701개; 주제 17331개; 근거 링크 27832개; 숫자 군간 비교 23762개; 사람 수 미상 1538개; 소규모 연구 7035개
+- data commit: 499b3709e1d6c2b3fe055bcb2f79f664e29fc8dd; checkpoint state commit: 4d2fc4e71f995f5c81f23bb617e2600ba0beb7cf; push marker commit: ab4c81e2414f016890d44bd2946ff3b7ce11d3a9; PUSHED=true
+- 다음 재개점: next_batch 3510; resume point new-expansion-candidates-batch3510; 천식 비처방 성인 식이·보충제·수면·금연 12차 후보 batch 3510
