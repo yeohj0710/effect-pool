@@ -18481,3 +18481,19 @@ Batch 2890 — 천식 침실·습도·제습기·약료 관리 후속 후보
 - 누적 집계: 항목 24671개; 주제 17307개; 근거 링크 27802개; 숫자 군간 비교 23732개; 사람 수 미상 1537개; 소규모 연구 7021개
 - data commit: 4300768f02316743e2aa929a011ec2a2ee1d3249; checkpoint state commit: 0d03ed0db7c20a6d94b33d4860e70cf35d68d76f; push marker commit: 2106f34cc15b998a42cec6e0ba6c9a2f06714a55; PUSHED=true
 - 다음 재개점: next_batch 2900; resume point new-expansion-candidates-batch2900; 천식 실내공기·금연·디지털 자기관리 후속 후보 batch 2900
+
+Batch 2900 — 천식 실내공기·금연·디지털 자기관리 후속 후보
+- 선정: 30개 주제; 신규 원 연구 0건; 비처방 주제 30개 처리
+- 검색: 1,073개 레코드; 고유 PMID 889개
+- fetch: 889건 요청; 881건 확보; 9개 chunk; 일반 fetch 초록 874개와 재조회 초록 8개 확보; 누락 8건은 모두 PubmedBookArticle로 재조회
+- 후보: parser 889건; 후보 433건; 신규 후보 172건; 효과 후보 89건; 수동 선별 89건; 신규 효과 후보 제외 89건; 전체 parser 기준 비후보 456건
+- 신규 ID와 PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate2900final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,374건
+- 새 경고 수정: targeted warning 0건; effect·line·한국어 주제·규모 경고 수정 0건
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 기존 unknown-n 1,537건·n<50 7,021건은 숨기거나 수정하지 않음
+- 선별 제외: 고찰·메타분석·프로토콜·관찰·이차분석·단일군·비천식 연구·처방약 단독 연구·비처방 효과를 분리할 수 없는 복합 중재·비교군 수치 부족 연구; 결과를 추정하거나 보간하지 않음
+- 누적 집계: 항목 24671개; 주제 17307개; 근거 링크 27802개; 숫자 군간 비교 23732개; 사람 수 미상 1537개; 소규모 연구 7021개
+- data commit: 없음; checkpoint state commit: 131092a486ff6b544dd0dd45bd5da3e7898d8e3d; push marker commit: 4d9e7bf829e356129e4b50f2ba442779dc2f70a8; PUSHED=true
+- 다음 재개점: next_batch 2910; resume point new-expansion-candidates-batch2910; 천식 학교·가정 환경·자기관리 후속 후보 batch 2910
