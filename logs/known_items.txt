@@ -22803,3 +22803,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: 57facdcbf; checkpoint record commit: 3596ff03c; push marker commit: 7c2a3e738; PUSHED=true
 - 정확한 다음 재개점: next_batch 6080; resume point new-expansion-candidates-batch6080; 자궁내막증 비처방 통증관리·생활중재 62차 후보 batch 6080
+- batch 6080: 자궁내막증 비처방 보완 통증관리·생활중재 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 346개, 고유 PMID 272개, fetch 요청 272·성공 272·3개 청크, 일반 초록 267개, 누락 PMID 없음·재조회 없음
+- 후보 parser: 272건 파싱·후보 78건·신규 후보 41건·효과 후보 26건; 수동 검토 후보 26건; 선정 0건·효과 후보 제외 26건·비후보 194건; 범주별 신규 없음
+- 수동 검토 효과 후보 26건은 고찰·메타분석·관찰·동물·대조군 없음·처방약·대상 질환 불일치 또는 군간 수치 부족으로 제외했다. 36852092는 교육 중재 무작위시험이지만 군간 효과크기·비율·신뢰구간 없이 유의성만 제시했고, 31875661은 질적·전후 평가였다. 28869181은 대조군 없는 전후 수기치료 연구였고, 24273969는 초록에 군별 효과 수치가 없었다. 진단·수술·약물 고찰과 처방 호르몬 연구도 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6080final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: ced672e98; checkpoint record commit: 9ffc75db2; push marker commit: 0bbecee86; PUSHED=true
+- 정확한 다음 재개점: next_batch 6090; resume point new-expansion-candidates-batch6090; 자궁내막증 비처방 보완 통증관리·생활중재 63차 후보 batch 6090
