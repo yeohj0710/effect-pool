@@ -22739,3 +22739,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: 4d4a0b7119be88b704d88a3f9a86899b0a3a61f5; checkpoint record commit: 7aba6d028e06184f2df5792927dcb6f9ea38f5f1; push marker commit: a4f9c9c6080e5a175dc1221ee950ae1d80b3fffc; PUSHED=true
 - 정확한 다음 재개점: next_batch 6000; resume point new-expansion-candidates-batch6000; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 54차 후보 batch 6000
+- batch 6000: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 275개, 고유 PMID 201개, fetch 요청 201·성공 200·3개 청크, 일반 초록 193개, 최초 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 추가했고 전체 초록은 194개였다.
+- 후보 parser: 201건 파싱·후보 75건·신규 후보 39건·효과 후보 22건; 수동 검토 후보 22건; 선정 0건·효과 후보 제외 22건·비후보 126건; 범주별 신규 없음
+- 수동 검토 효과 후보 22건은 고찰·메타분석·동물·관찰·프로토콜·대조군 없음·처방약 또는 처방약 병용·대상 질환 불일치·혼합 대상·군간 수치 부족으로 제외했다. 17126335는 유착방지 무작위시험이지만 군별 실제 결과 수치가 부족했고, 28869181은 대조군 없는 골병리 치료 연구였다. 21901713·24346786·22592712·19588398·39360492·41791364는 고찰·메타분석 또는 비대상 연구였고, 나머지는 처방약·진단 연구·군간 수치 부족으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6000final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: 7a1616330a9507732b5e5e94919f5ab6737d28e6; checkpoint record commit: 2c903c6d515c1d2d00bacdc861164d8e5055cc8d; push marker commit: 11bfd91df35743f7ed35decfe08f7cfb96ad3b56; PUSHED=true
+- 정확한 다음 재개점: next_batch 6010; resume point new-expansion-candidates-batch6010; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 55차 후보 batch 6010
