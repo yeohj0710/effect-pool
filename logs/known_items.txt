@@ -22835,3 +22835,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: ecfd1b879; checkpoint record commit: d8c42dc7b; push marker commit: 1c45a19f0; PUSHED=true
 - 정확한 다음 재개점: next_batch 6120; resume point new-expansion-candidates-batch6120; 자궁내막증 비처방 비약물 통증관리·보완요법 66차 후보 batch 6120
+- batch 6120: 자궁내막증 비처방 비약물 통증관리·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 420개, 고유 PMID 302개, fetch 요청 302·성공 301·4개 청크, 일반 초록 292개, 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 추가했고 전체 초록은 293개였다.
+- 후보 parser: 302건 파싱·후보 75건·신규 후보 40건·효과 후보 24건; 수동 검토 후보 24건; 선정 0건·효과 후보 제외 24건·비후보 227건; 범주별 신규 없음
+- 수동 검토 효과 후보 24건은 고찰·메타분석·관찰·설문·프로토콜·동물·세포·처방약·대조군 없음·대상 질환 불일치 또는 군간 수치 부족으로 제외했다. 36852092는 교육 중재 무작위시험이지만 군간 효과크기·비율·신뢰구간 없이 유의성만 제시했고, 21589790·28869181은 각각 대조군 없는 마사지·수기치료 전후 연구였다. 20579357은 결과가 없는 생활중재 프로토콜이었고, 35148487은 의료이용 설문, 38006584는 영양 관리 고찰이었다. 12969698·41551998 등 처방약 연구와 진단·심리·침·한약·보충제 고찰도 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6120final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: b093293ef; checkpoint record commit: 0a931ae52; push marker commit: 5f4a6843e; PUSHED=true
+- 정확한 다음 재개점: next_batch 6130; resume point new-expansion-candidates-batch6130; 자궁내막증 비처방 식이·재활·심리 67차 후보 batch 6130
