@@ -22636,3 +22636,11 @@ Batch 5090
 - 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 698822c90804faece4854b9cb8e17a609fd3aafd; checkpoint state commit: bf298524e885b057722b176bfc041c1702365be7; checkpoint record commit: 30be66320db0c30db49c26219de014e0b039fc3c; push marker commit: e5d539257dfa38908d324e792988fadecffaf05b; PUSHED=true
 - 정확한 다음 재개점: next_batch 5870; resume point new-expansion-candidates-batch5870; 자궁내막증 비처방 불임·난소예비력·보완요법 40차 후보 batch 5870
+- batch 5870: 자궁내막증 비처방 불임·난소예비력·보완요법 40차 후보 30개; 선정 0건; 검색 레코드 452개; 고유 PMID 343개; fetch 요청 343·성공 343·4개 청크; 일반 초록 338개; 누락 PMID 없음·재조회 없음; 후보 parser 343건·후보 102건·신규 후보 85건·효과 후보 55건; 신규 데이터 0건·효과 후보 55건 제외·비후보 241건; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 효과 후보 55건은 고찰·메타분석·프로토콜·관찰·진단연구·동물·처방약 또는 처방약 병용·군간 수치 부족 연구로 제외했다. PMID 15749506은 대조군 없는 관찰 연구, 17126335는 군간 효과 수치가 부족한 무작위시험, 21392746·25294552는 수술 경로의 장기·2차 분석 또는 군간 수치 부족, 9363727·17218230·18173140·10325289·11937116·17178185·30002577·24199923은 처방약 또는 처방약 병용, 19958132는 무작위 sham 대조시험이지만 초록에 군간 숫자·효과크기가 없어 기록하지 않았다. 신규 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5870final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 없음; checkpoint state commit: 4fc0494703406f700ecbe0c8b1b0bbe0a9b94984; checkpoint record commit: 031cfe3c3a2d273d82ff7d97931eb4db18402051; push marker commit: f1d3de0b009e592008d0e59d4e513037b7494348; PUSHED=true
+- 정확한 다음 재개점: next_batch 5880; resume point new-expansion-candidates-batch5880; 자궁내막증 비처방 불임·난소예비력·보완요법 41차 후보 batch 5880
