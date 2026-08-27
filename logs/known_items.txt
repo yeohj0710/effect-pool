@@ -22620,3 +22620,11 @@ Batch 5090
 - 누적 집계: 항목 24,749개; 주제 17,376개; 근거 링크 27,880개; 숫자 군간 비교 23,810개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 없음; checkpoint state commit: bef2c211809fe1fffab0bd5777e43cecb871ab03; checkpoint record commit: 1aa71ce2863e7ed083188839302be2c85862792c; push marker commit: c664fb5a78411114e4299468a9415df680da71bb; PUSHED=true
 - 정확한 다음 재개점: next_batch 5850; resume point new-expansion-candidates-batch5850; 자궁내막증 비처방 운동·재활·통증교육 38차 후보 batch 5850
+- batch 5850: 자궁내막증 비처방 운동·재활·통증교육 38차 후보 30개; 선정 0건; 검색 레코드 255개; 고유 PMID 154개; fetch 요청 154·성공 154·2개 청크; 일반 초록 152개; 누락 PMID 없음·재조회 없음; 후보 parser 154건·후보 28건·신규 후보 15건·효과 후보 10건; 신규 데이터 0건·효과 후보 10건 제외·비후보 126건; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 후보 PMID: 40686285·39360492·20579357·41791364·21901713·24346786·38914481·41551998·38199787·31875661. 40686285는 무작위시험 참여자의 질적 인터뷰, 39360492·21901713·24346786·38199787은 고찰, 20579357은 프로토콜, 41791364는 단면 관찰, 38914481은 대조군 없는 전향 코호트, 41551998은 처방 시술인 보툴리눔 독소, 31875661은 무작위 대조군이 없는 질적 파일럿으로 제외했다. 신규 후보 PMID 39261815는 운동 중재 경험의 질적 분석, 35162761은 프로토콜, 19958132는 무작위 sham 대조시험이지만 초록에 군간 숫자나 효과크기가 없고, 28437003·41385548은 고찰이라 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5850final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,749개; 주제 17,376개; 근거 링크 27,880개; 숫자 군간 비교 23,810개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 없음; checkpoint state commit: 143e09ace083e897ce43a9a171059fda74ceac8a; checkpoint record commit: 9d50b64050b8c17d26619010f3a7ebc29cdc6c2b; push marker commit: 8eade7351a560164dd4c2ee85b210fd783df52be; PUSHED=true
+- 정확한 다음 재개점: next_batch 5860; resume point new-expansion-candidates-batch5860; 자궁내막증 비처방 운동·재활·통증교육 39차 후보 batch 5860
