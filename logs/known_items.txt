@@ -22586,3 +22586,12 @@ Batch 5090
 - 누적 집계: 항목 24,748개; 주제 17,375개; 근거 링크 27,879개; 숫자 군간 비교 23,809개; 사람 수 미상 1,264개; 소규모 연구 6,813개
 - data commit: 7304c97be395e878b293f7883392d3cab812c8c1; checkpoint state commit: 5c375f350a8f26ad7d4f1f8fd39f9f292c9801b1; checkpoint record commit: fb9fd856e970e63b16efedf39d50bf1a6f71ea80; push marker commit: 4c9b46eefadddf93d1f5038242bee58a5f512ea5; PUSHED=true
 - 정확한 다음 재개점: next_batch 5810; resume point new-expansion-candidates-batch5810; 자궁내막증 비처방 수술·불임 시술 33차 후보 batch 5810
+- batch 5810: 자궁내막증 비처방 통증 시술·재활 34차 후보 30개; 선정 0건; 검색 레코드 468개; 고유 PMID 287개; fetch 요청 287·성공 286·3개 청크; 일반 초록 278개; 최초 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 확인했고 전체 초록은 279개; 후보 parser 287건·후보 77건·신규 후보 29건·효과 후보 16건; 신규 데이터 0건·효과 후보 16건 제외·비후보 210건 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 제외 PMID: 41791364·28869181·21901713·24346786·39360492·40686285·40747556·38903416·41551998·42077502·31875661·38199787·41754163·23913583·41439725·26695425. 41791364·40747556은 자궁내막증 비처방 중재의 무작위 비교 근거가 아니고, 28869181은 대조군 없는 전후 연구, 21901713·24346786·39360492·38199787·41754163·23913583·41439725·26695425는 고찰·메타분석, 40686285는 질적 연구, 38903416은 건강인 실험통증 연구, 41551998·42077502는 처방약·처방성 시술 연구, 31875661은 수치가 충분한 군간 효과를 확인할 수 없는 파일럿 연구로 제외했다. 기존 운동·골반저 물리치료·수기치료·마사지·TENS·침·요가·디지털·식이·보충제 PMID는 중복으로 추가하지 않았고 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5810final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,403건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,813건
+- 누적 집계: 항목 24,748개; 주제 17,375개; 근거 링크 27,879개; 숫자 군간 비교 23,809개; 사람 수 미상 1,264개; 소규모 연구 6,813개
+- data commit: 없음; checkpoint state commit: 8907ee3ffa250fc186bc4227d8151a5be987b20e; checkpoint record commit: b9839de10464a4c3a37094163033984a56edc1a7; push marker commit: c7317474d4be7f43ec4f1d839811697b83dc50dc; PUSHED=true
+- 정확한 다음 재개점: next_batch 5820; resume point new-expansion-candidates-batch5820; 자궁내막증 비처방 보완요법·식이·운동 35차 후보 batch 5820
