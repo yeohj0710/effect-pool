@@ -23068,3 +23068,12 @@ Batch 5090
 - 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 28614e23f; checkpoint record commit: 77b188ff4; push marker commit: 5cfbc12f7; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6380; resume point new-expansion-candidates-batch6380; 자궁내막증 비처방 식이·재활·심리 92차 후보 batch 6380.
+- batch 6380: 자궁내막증 비처방 식이·재활·심리 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 1171개, 고유 PMID 1069개.
+- fetch: 1069건 요청·1066건 확보·11개 청크·일반 초록 1044개. 누락 PMID 38829978·22439157·31697458 3건은 재조회해 PubmedBookArticle 초록 3개를 추가했고 전체 초록은 1047개였다.
+- 후보 parser: 1069건 파싱·후보 104건·신규 후보 62건·효과 후보 32건; 수동 검토 후보 32건; 선정 0건·효과 후보 제외 32건·비후보 965건; 범주별 신규 없음.
+- 수동 검토 효과 후보 32건은 고찰·프로토콜·관찰·단일군·대조군 없음·대조군 결과 수치 부족·처방약·처방약 병용·수술·동물 또는 실험실 연구로 모두 제외했다. 41642663은 마음챙김 호흡의 중재군 전후 수치만 제시했고, 36852092는 무작위 교육 연구지만 군별 결과 수치나 효과크기를 제시하지 않았으며, 35514234는 중재군 감소율만 제시해 기록하지 않았다. 22439157은 기존 고찰 서지 레코드였다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6380final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: ce9fec06b; checkpoint record commit: 2682e905d; push marker commit: fdd3ebf5b; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6390; resume point new-expansion-candidates-batch6390; 자궁내막증 비처방 식이·재활·심리 93차 후보 batch 6390.
