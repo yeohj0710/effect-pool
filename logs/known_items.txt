@@ -22652,3 +22652,11 @@ Batch 5090
 - 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 없음; checkpoint state commit: 13ad64d20b93d7543dbefcc7c147164f3ee3a07f; checkpoint record commit: 7004f20ea696f1e4b0c6a2a7e52d36e04829a8c5; push marker commit: 6db1d9bc8e15f288d85b33ef14ec12e71cfe36fc; PUSHED=true
 - 정확한 다음 재개점: next_batch 5890; resume point new-expansion-candidates-batch5890; 자궁내막증 비처방 불임 수술·난소예비력 보존·보완요법 42차 후보 batch 5890
+- batch 5890: 자궁내막증 비처방 불임 수술·난소예비력 보존·보완요법 42차 후보 30개; 선정 0건; 검색 레코드 211개; 고유 PMID 171개; fetch 요청 171·성공 171·2개 청크; 일반 초록 169개; 누락 PMID 없음·재조회 없음; 후보 parser 171건·후보 53건·신규 후보 41건·효과 후보 26건; 신규 데이터 0건·효과 후보 26건 제외·비후보 118건; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 효과 후보 26건: 22592712·32199406·25924805·34923620·31712161·10962639·16235288·10796834·16765092·33095458·11687104·33435663·24696265·25009712·23913583·41439725는 고찰·진단 종설·치료 종설, 27405583·26695425는 진단 연구·고찰로 제외했다. 24996447·24273969는 처방약 병용 또는 군간 숫자 부족, 23731096은 비무작위 관찰 연구, 34448038은 후향 단일군 연구로 제외했다. 19724042·15327610·11677339는 만성 골반통·자궁근종 등 비대상 결과이거나 자궁내막증 하위군의 군간 숫자가 없었고, 10548704·9436672는 진단·마취 비교라 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5890final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 없음
+- 새 경고 수정: 후보 스크립트가 누락 재조회 파일을 필수로 읽던 오류 1건을 선택적 파일 처리로 수정; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 없음; checkpoint state commit: 63a088d09ed6ea5f4242db5d64edec5fd2aebabe; checkpoint record commit: f8ac7d948c0ed6db267c05b16e2979bf87094e97; push marker commit: 1ec215954305bfb97d6c924b66057abdd29045ce; PUSHED=true
+- 정확한 다음 재개점: next_batch 5900; resume point new-expansion-candidates-batch5900; 자궁내막증 비처방 불임 수술·난소예비력 보존·보완요법 43차 후보 batch 5900
