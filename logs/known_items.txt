@@ -22267,3 +22267,13 @@ Batch 5090
 - 누적 집계: 항목 24711개; 주제 17339개; 근거 링크 27842개; 숫자 군간 비교 23772개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: bac666f53; push marker commit: 53905e06f; PUSHED=true
 - 정확한 다음 재개점: next_batch 5490; resume point new-expansion-candidates-batch5490; 천식 비처방 성인 원격 모니터링·행동계획 210차 후보 batch 5490
+- batch 5490: 자궁내막증 비처방 통증·생활중재 후보 30개; 선정 0건; 검색 레코드 295개; 고유 PMID 188개; fetch 요청 188·성공 187·2개 청크; 일반 초록 182개; 누락 PMID 22439157 재조회 1건·PubmedBookArticle 초록 1개·전체 초록 183개; 후보 parser 188건·후보 7건·신규 후보 4건·자동 효과 후보 0건; 신규 수동 후보 4건은 2차 질적 분석·다른 질환 연구·프로토콜·비교군 수치 부족으로 제외했고 비후보 181건 및 기존 후보 3건은 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 제외 PMID: 39261815·30980691·34373298·38566501
+- 선별 제외: 39261815는 무작위시험의 2차 질적 인터뷰 분석, 30980691은 대장·자궁내막암 생존자 연구, 34373298은 무작위시험 프로토콜·사전 결과 없음, 38566501은 무작위 CBT 연구지만 초록에 군 간 수치 또는 유효한 상대효과가 없어 제외했다. 기존 항목과 중복되거나 초록의 군 간 수치가 부족한 침술·운동·골반저 물리치료·식이·보충제·심리치료·디지털 치료 연구는 신규 항목으로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5490final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 누적 집계: 항목 24711개; 주제 17339개; 근거 링크 27842개; 숫자 군간 비교 23772개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: e8da08b46; push marker commit: ea3d019fb; PUSHED=true
+- 정확한 다음 재개점: next_batch 5500; resume point new-expansion-candidates-batch5500; 자궁내막증 비처방 식이·운동·통증중재 2차 후보 batch 5500
