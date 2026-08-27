@@ -21593,3 +21593,20 @@ Batch 4920
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 8cfd18284; push marker commit: cc59d76d0; marker-state commit: 456844b80; PUSHED=true
 - 정확한 다음 재개점: next_batch 4930; resume point new-expansion-candidates-batch4930; 천식 비처방 성인 직업성 천식 장기 추적 후 직장 복귀·업무조정·장애 예방 중재 154차 후보 batch 4930
+
+Batch 4930
+- 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
+- 검색: PubMed E-utilities 검색 레코드 1,068개·고유 PMID 738개
+- fetch: 요청 738건·확보 738건·청크 8개·일반 초록 726개·전체 초록 726개; 누락 없음
+- 재확인: 요청 0건·확보 0건·초록 0개
+- 후보 선별: parser 738건·후보 44건·신규 후보 39건·효과 후보 9건; 신규 선정 0건·제외 9건·비후보 694건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate4930final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: PMID 11473139는 직업성 건강사건 보고방법 비교, PMID 17290390은 비호지킨 림프종 사례-대조 연구, PMID 2145721은 손 습진 역학연구, PMID 33325455는 COPD 입장문, PMID 12444395는 직업성이 아닌 가정환경 단일군 전후 연구, PMID 32534568은 천식 삶의 질 측정도구 분석, PMID 28566688은 알레르기비염 면역치료, PMID 16601014는 직장 천식 악화 유병률 관찰연구, PMID 38160049는 알레르기 천식 면역치료의 바이오마커 분석이라 배치 기준에 맞지 않아 제외했다. 기존 근거와 연결된 후보 5건은 신규 항목으로 중복 기록하지 않았다. 나머지는 기존 근거, 관찰·역학연구, 진단 연구, 처방약 연구 또는 선택한 주제에 직접 대응하는 수치 비교 부족으로 신규 효과 근거로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: 2c4596569; push marker commit: df061cca7; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 4940; resume point new-expansion-candidates-batch4940; 천식 비처방 성인 직업성 천식 장기 추적 후 업무능력·직장 지원·고용 유지 결과 155차 후보 batch 4940
