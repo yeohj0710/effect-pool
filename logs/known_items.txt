@@ -22779,3 +22779,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: 528608d1d98116e619e3cf661346ce770d1c3c4d; checkpoint record commit: f294094536cf19bba3890f863b1bff82ba643c1d; push marker commit: f8964b653db6ca83ae4c0deefd2cdc40330b035b; PUSHED=true
 - 정확한 다음 재개점: next_batch 6050; resume point new-expansion-candidates-batch6050; 자궁내막증 비처방 한약·영양·재활 59차 후보 batch 6050
+- batch 6050: 자궁내막증 비처방 한약·영양·재활 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 122개, 고유 PMID 102개, fetch 요청 102·성공 102·2개 청크, 일반 초록 99개, 누락 PMID 없음·재조회 없음
+- 후보 parser: 102건 파싱·후보 33건·신규 후보 10건·효과 후보 4건; 수동 검토 후보 4건; 선정 0건·효과 후보 제외 4건·비후보 69건; 범주별 신규 없음
+- 수동 검토 효과 후보 4건은 처방약 또는 처방약 병용·대조군 없음·고찰·메타분석·대상 질환 불일치로 제외했다. 41551998은 처방 주사제 무작위시험이었고, 33186771은 비대상 질환의 대조군 없는 파일럿 연구였다. 27000311과 41754163은 고찰·메타분석이었다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6050final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: 3ef4097c5; checkpoint record commit: 62784dc63; push marker commit: f9f2cd83a; PUSHED=true
+- 정확한 다음 재개점: next_batch 6060; resume point new-expansion-candidates-batch6060; 자궁내막증 비처방 비약물 통증관리·보충제 60차 후보 batch 6060
