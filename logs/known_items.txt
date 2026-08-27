@@ -22287,3 +22287,13 @@ Batch 5090
 - 누적 집계: 항목 24712개; 주제 17340개; 근거 링크 27843개; 숫자 군간 비교 23773개; 사람 수 미상 1262개; 소규모 연구 6805개
 - data commit: e6008591c40282d6085c6638172be3df56dc4560; checkpoint state commit: 40c019082; push marker commit: 21dd5b51e; PUSHED=true
 - 정확한 다음 재개점: next_batch 5510; resume point new-expansion-candidates-batch5510; 자궁내막증 비처방 보충제·한방 3차 후보 batch 5510
+- batch 5510: 자궁내막증 비처방 보충제·한방 후보 30개; 선정 4건; 검색 레코드 276개; 고유 PMID 170개; fetch 요청 170·성공 170·2개 청크; 일반 초록 168개; 누락 PMID 없음; 후보 parser 170건·후보 1건·신규 후보 1건·효과 후보 1건; 수동 shortlist 15건 중 신규 무작위 비교시험 4건 기록·신규 비적격 11건 제외·나머지 비후보 169건 보류; 신규 ID: endometriosis-garlic-tablet-pos·endometriosis-quyu-jiedu-ova-pos·endometriosis-quyu-jiedu-postop-pos·endometriosis-yiweining-recurrence-pos; 신규 PMID: 34335819·21866656·19271169·17005086; 범주별 신규: supp 4건
+- 수동 검토 제외 PMID: 41975269·41715206·30058418·40088332·11789280·11783186·16841679·8000220·15074102·30007250·18173140
+- 선별 제외: 41975269는 소셜미디어 정보 형식과 치료 의향 연구, 41715206은 결과가 없는 프로토콜, 30058418·40088332는 비교군 수치 부족, 11789280·11783186·16841679는 정확한 군간 수치·효과크기 부족, 8000220·30007250은 단일군·비교군 없음, 15074102는 초록 없음, 18173140은 GnRH-a 처방 병용으로 비처방 효과를 분리할 수 없어 제외했다. 기존 항목과 중복된 보충제·식이 연구도 추가하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5510final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning은 endometriosis-quyu-jiedu-ova-pos의 실제 n<50 소표본 경고 1건
+- 새 경고 수정: 1건(vs 대조군 비교 표현 1건); 신규 targeted warning 1건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건(endometriosis-quyu-jiedu-ova-pos, n=20); 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24716개; 주제 17344개; 근거 링크 27847개; 숫자 군간 비교 23777개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 0aa74e2edb8d599e9ff6943b4d87253e4c7cbd20; checkpoint state commit: c5e0fab91; push marker commit: 08c353059; PUSHED=true
+- 정확한 다음 재개점: next_batch 5520; resume point new-expansion-candidates-batch5520; 자궁내막증 비처방 생활습관·통증 자가관리 4차 후보 batch 5520
