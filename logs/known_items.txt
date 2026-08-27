@@ -22996,3 +22996,12 @@ Batch 5090
 - 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 8de43aae0; checkpoint record commit: ce2a0df40; push marker commit: ca3f639a5; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6300; resume point new-expansion-candidates-batch6300; 자궁내막증 비처방 식이·재활·심리 84차 후보 batch 6300.
+- batch 6300: 자궁내막증 비처방 식이·재활·심리 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 314개, 고유 PMID 260개.
+- fetch: 260건 요청·260건 확보·3개 청크·일반 초록 257개. 누락 PMID는 없었고 전체 초록은 257개였다.
+- 후보 parser: 260건 파싱·후보 75건·신규 후보 38건·효과 후보 20건; 수동 검토 후보 20건; 선정 0건·효과 후보 제외 20건·비후보 185건; 범주별 신규 없음.
+- 수동 검토 효과 후보 20건은 고찰·방법론·관찰·단일군·대조군 없음·군간 수치 부족·처방 연구·대상 질환 불일치 또는 동물 연구로 모두 제외했다. 21153437은 비처방 프로바이오틱 무작위 위약대조시험이지만 초록에 군별 표본 수만 있고 군간 결과 수치나 효과크기가 없어 제외했다. 34994286은 N-아세틸시스테인과 처방 피임약 병용을 피임약 단독과 비교해 비처방 효과를 분리할 수 없었다. 36852092는 교육 무작위시험이지만 군별 결과 수치나 효과크기가 없었고, 28869181·19958132는 대조군 없는 전후 또는 군간 효과 수치 부족 연구였다. 18054352·36164874·41665220은 동물 연구였으며, 35162761·41715206·20579357은 결과가 없는 중재 프로토콜이었다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6300final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: a42f6ccd6; checkpoint record commit: a349461a1; push marker commit: 69baa78e0; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6310; resume point new-expansion-candidates-batch6310; 자궁내막증 비처방 식이·재활·심리 85차 후보 batch 6310.
