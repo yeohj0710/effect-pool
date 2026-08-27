@@ -21899,3 +21899,12 @@ Batch 5090
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: fc1c4433e; push marker commit: 2dc7bc1c2; marker-state commit: b9c1a71bb; PUSHED=true
 - 정확한 다음 재개점: next_batch 5100; resume point new-expansion-candidates-batch5100; 천식 비처방 성인 직업성 천식 장기 추적 후 직무 유지·업무능력·직업 복귀 결과 171차 후보 batch 5100
+- batch 5110: 천식 비처방 성인 직업성 천식 장기 추적 후 증상·폐기능·노출 제거 결과 후보 30개; 선정 0건; 검색 레코드 1,186개; 고유 PMID 744개; fetch 요청 744·성공 744·8개 청크; 일반 초록 738개; 후보 parser 744건·후보 31건·신규 후보 29건·효과 후보 4건; 신규 효과 후보 4건 제외·수치 부족 및 기존 연결 후보 25건 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 선별 제외: PMID 12444395는 단일군 가정환경 전후 연구, PMID 32843184는 흡연·불면 증상 관찰 코호트, PMID 11473139는 직업건강 사건 보고방법 비교연구, PMID 32534568은 천식 삶의 질 측정도구 반응성 분석이라 배치 기준에 맞지 않아 제외했다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5110final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: 11351fd84; push marker commit: e37cf263e; PUSHED=true
+- 정확한 다음 재개점: next_batch 5120; resume point new-expansion-candidates-batch5120; 천식 비처방 성인 직업성 천식 장기 추적 후 조기 진단·감시·노출 예방 결과 173차 후보 batch 5120
