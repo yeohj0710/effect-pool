@@ -23140,3 +23140,12 @@ Batch 5090
 - 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 3a2658330; checkpoint record commit: 695876e1a; push marker commit: bd74abe4a; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6460; resume point new-expansion-candidates-batch6460; 자궁내막증 비처방 운동·재활·심리·식이 100차 후보 batch 6460.
+- batch 6460: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 944개, 고유 PMID 725개.
+- fetch: 725건 요청·724건 확보·8개 청크·일반 초록 718개. 누락 PMID 22439157 1건은 재조회해 PubmedBookArticle 초록 1개를 추가했고 전체 초록은 719개였다.
+- 후보 parser: 725건 파싱·후보 140건·신규 후보 91건·효과 후보 62건; 수동 검토 후보 62건; 선정 0건·효과 후보 제외 62건·비후보 585건; 범주별 신규 없음.
+- 수동 검토 효과 후보 62건은 처방약·수술·고찰·프로토콜·관찰·단일군·대조군 없음·대조군 결과 수치 부족·처방약 병용·보툴리눔 시술·진단 연구·동물 또는 실험실 연구로 모두 제외했다. 28869181은 골반 수기치료 전후 단일군 연구였고, 41642663·42077955는 비처방 호흡·교육 중재지만 군간 결과 수치나 효과크기가 없었다. 38581105·31875661은 대조군 없는 자기관리·자기결정 연구였으며, 41305963·42576801은 처방된 의료용 대마초 관찰연구였다. 40264635는 모바일 앱 품질 분석이고, 22439157은 기존 고찰 서지 레코드였다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6460final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 0d09a333b; checkpoint record commit: 13c9c385f; push marker commit: 1ce7e8e7f; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6470; resume point new-expansion-candidates-batch6470; 자궁내막증 비처방 운동·재활·심리·식이 101차 후보 batch 6470.
