@@ -22915,3 +22915,12 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: fb7d5cca5; checkpoint record commit: ac5ef259d; push marker commit: 602c8527f; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6210; resume point new-expansion-candidates-batch6210; 자궁내막증 비처방 식이·재활·심리 75차 후보 batch 6210.
+- batch 6210: 자궁내막증 비처방 식이·재활·심리 후보 30개를 처리했고, 선정 1건·신규 ID endometriosis-social-media-information-6210·신규 PMID 41975269를 기록했다. 검색 레코드 552개, 고유 PMID 321개.
+- fetch: 321건 요청·319건 확보·4개 청크·일반 초록 312개. 누락 PMID 38829978·22439157 2건은 재조회해 PubmedBookArticle 초록 2개를 추가했고 전체 초록은 314개였다.
+- 후보 parser: 321건 파싱·후보 84건·신규 후보 38건·효과 후보 23건; 수동 검토 후보 23건; 선정 1건·효과 후보 제외 22건·비후보 237건; 범주별 신규 care 1건.
+- 수동 검토 효과 후보 23건 중 PMID 41975269는 진단 전 여성의 소셜미디어 건강정보 형식 무작위시험으로, 개인 경험담군 대 사실형 정보군의 치료 탐색 의향 MD=.22(95% CI .04~.39)를 기록했다. 나머지 22건은 고찰·메타분석·프로토콜·관찰·사례·동물·대조군 없음·군간 수치 부족·처방 중재·처방약 병용·대상 질환 불일치로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6210final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: ee9f5453c; checkpoint state commit: 07129f884; checkpoint record commit: ee9f5d95e; push marker commit: 0a28505e0; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6220; resume point new-expansion-candidates-batch6220; 자궁내막증 비처방 식이·재활·심리 76차 후보 batch 6220.
