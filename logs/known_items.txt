@@ -21865,3 +21865,20 @@ Batch 5080
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: c9454c475; push marker commit: ddefbc823; marker-state commit: 215c1c056; PUSHED=true
 - 정확한 다음 재개점: next_batch 5090; resume point new-expansion-candidates-batch5090; 천식 비처방 성인 직업성 천식 장기 추적 후 제빵·농업·도장·미용·보건의료 작업장 관리 170차 후보 batch 5090
+
+Batch 5090
+- 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
+- 검색: PubMed E-utilities 검색 레코드 724개·고유 PMID 563개
+- fetch: 요청 563건·확보 563건·청크 6개·일반 초록 547개·전체 초록 547개; 누락 없음
+- 재확인: 요청 0건·확보 0건·초록 0개
+- 후보 선별: parser 563건·후보 20건·신규 후보 19건·효과 후보 2건; 신규 선정 0건·제외 2건·비후보 543건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate5090final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: PMID 24467247은 카펫 오염 제거 실험실 연구, PMID 2145721은 손 습진 역학연구라 배치 기준에 맞지 않아 제외했다. 기존 근거와 연결된 후보 1건은 신규 항목으로 중복 기록하지 않았다. 나머지는 기존 근거, 관찰·역학연구, 처방약 연구 또는 선택한 주제에 직접 대응하는 수치 비교 부족으로 신규 효과 근거로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: fc1c4433e; push marker commit: 2dc7bc1c2; marker-state commit: b9c1a71bb; PUSHED=true
+- 정확한 다음 재개점: next_batch 5100; resume point new-expansion-candidates-batch5100; 천식 비처방 성인 직업성 천식 장기 추적 후 직무 유지·업무능력·직업 복귀 결과 171차 후보 batch 5100
