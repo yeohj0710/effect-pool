@@ -22277,3 +22277,13 @@ Batch 5090
 - 누적 집계: 항목 24711개; 주제 17339개; 근거 링크 27842개; 숫자 군간 비교 23772개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: e8da08b46; push marker commit: ea3d019fb; PUSHED=true
 - 정확한 다음 재개점: next_batch 5500; resume point new-expansion-candidates-batch5500; 자궁내막증 비처방 식이·운동·통증중재 2차 후보 batch 5500
+- batch 5500: 자궁내막증 비처방 식이·운동·통증중재 후보 30개; 선정 1건; 검색 레코드 437개; 고유 PMID 302개; fetch 요청 302·성공 301·4개 청크; 일반 초록 292개; 누락 PMID 22439157 재조회 1건·PubmedBookArticle 초록 1개·전체 초록 293개; 후보 parser 302건·후보 23건·신규 후보 14건·효과 후보 7건; 오너트 신규 1건·신규 효과 후보 6건 제외·비후보·수치 부족 등 279건 및 기존 연결 후보 9건 보류; 신규 ID: ohnut-endometriosis-dyspareunia-pos; 신규 PMID: 39220343; 범주별 신규: care 1건
+- 수동 검토 제외 PMID: 39360492·38787068·40704733·38581105·38199787·31875661
+- 선별 제외: 39360492·40704733·38199787은 고찰·2차 문헌, 38787068은 보툴리눔 독소 시술을 포함해 비처방 효과를 분리할 수 없는 연구, 38581105는 무작위 비교군이 없는 혼합 골반통 소규모 연구, 31875661은 단일군 질적·전후 연구로 제외했다. 선정한 39220343는 오너트군과 대기 대조군의 평균 깊은 성교통 수치와 P값이 확인됐다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5500final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,393건; 신규 warning은 ohnut-endometriosis-dyspareunia-pos의 실제 n<50 소표본 경고 1건
+- 새 경고 수정: 2건(vs 대조군 표현 1건·effect 길이 1건); 신규 targeted warning 2건
+- 실제 경고: unknown-n 0건; n<50 소표본 1건(ohnut-endometriosis-dyspareunia-pos, n=31); 누적 build unknown-n 1,262건·n<50 6,805건
+- 누적 집계: 항목 24712개; 주제 17340개; 근거 링크 27843개; 숫자 군간 비교 23773개; 사람 수 미상 1262개; 소규모 연구 6805개
+- data commit: e6008591c40282d6085c6638172be3df56dc4560; checkpoint state commit: 40c019082; push marker commit: 21dd5b51e; PUSHED=true
+- 정확한 다음 재개점: next_batch 5510; resume point new-expansion-candidates-batch5510; 자궁내막증 비처방 보충제·한방 3차 후보 batch 5510
