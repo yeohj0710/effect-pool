@@ -21979,3 +21979,12 @@ Batch 5090
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 4f2ac2df9; push marker commit: 92a32f44f; PUSHED=true
 - 정확한 다음 재개점: next_batch 5200; resume point new-expansion-candidates-batch5200; 천식 비처방 성인 직업성 천식 알레르겐 회피·노출 제거 후 장기 예후 결과 181차 후보 batch 5200
+- batch 5200: 천식 비처방 성인 직업성 천식 알레르겐 회피·노출 제거 후 장기 예후 결과 후보 30개; 선정 0건; 검색 레코드 735개; 고유 PMID 370개; fetch 요청 370·성공 370·4개 청크; 일반 초록 367개; 후보 parser 370건·후보 13건·신규 후보 12건·효과 후보 3건; 신규 효과 후보 3건 제외·수치 부족 후보 9건 및 기존 연결 후보 1건 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 선별 제외: PMID 12444395는 단일군 가정환경 전후 연구, PMID 24467247은 비인체 카펫 실험, PMID 24280543은 천식이 없는 만성 기관지염 관찰연구라 배치 기준에 맞지 않아 제외했다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5200final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: c467f9ed1; push marker commit: 3aed3a149; PUSHED=true
+- 정확한 다음 재개점: next_batch 5210; resume point new-expansion-candidates-batch5210; 천식 비처방 성인 천식 스트레스·수면·불안 자기관리 결과 182차 후보 batch 5210
