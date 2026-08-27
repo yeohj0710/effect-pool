@@ -21525,3 +21525,20 @@ Batch 3570 — 천식 비처방 성인 노인·취약계층·지역사회 전달
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: a450c52a3; push marker commit: 45edd1158; marker-state commit: a23515f67; PUSHED=true
 - 정확한 다음 재개점: next_batch 4890; resume point new-expansion-candidates-batch4890; 천식 비처방 성인 직업성 천식 장기 추적 후 작업장 증상·악화 예방과 안전행동 150차 후보 batch 4890
+
+Batch 4890
+- 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
+- 검색: PubMed E-utilities 검색 레코드 487개·고유 PMID 366개
+- fetch: 요청 366건·확보 365건·청크 4개·일반 초록 363개·전체 초록 364개; 누락 PMID 30252274 1건
+- 재확인: 요청 1건·확보 1건·초록 1개·PubmedBookArticle 1건
+- 후보 선별: parser 366건·후보 8건·신규 후보 6건·효과 후보 0건; 신규 선정 0건·제외 6건·비후보 358건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate4890final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: 신규 후보 PMID 31028237·32497026·39546541·37252333은 인구집단·사망·단면 관찰연구, PMID 32080681은 4명 대상 직업성 천식 진단 유발시험, PMID 19318680은 수면무호흡증 사례-대조 연구라 제외했다. 기존 근거와 연결된 PMID 26014487·27908846은 중복 기록하지 않았다. 나머지는 기존 근거, 관찰·역학연구, 진단 연구 또는 선택한 주제에 직접 대응하는 수치 비교 부족으로 신규 효과 근거로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: 79c1cef24; push marker commit: 47bef1312; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 4900; resume point new-expansion-candidates-batch4900; 천식 비처방 성인 직업성 천식 장기 추적 후 작업장 보호구·환기·노출회피 중재 151차 후보 batch 4900
