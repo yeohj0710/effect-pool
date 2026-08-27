@@ -22517,3 +22517,13 @@ Batch 5090
 - 누적 집계: 항목 24720개; 주제 17348개; 근거 링크 27851개; 숫자 군간 비교 23781개; 사람 수 미상 1262개; 소규모 연구 6806개
 - data commit: 650ef1d425f23fd77dd4ed1cc4bcd6869da81501; checkpoint state repair commit: 3668b23e306db82252156fc9fc16f692a65020e1; checkpoint record commit: ff7c9bacb3e80e44c795550a1ccfb5b7b52002a9; push marker commit: 9b78832aa9110913f49618606a922f8a8df56a1c; aggregate correction commit: 0e48a1d82fe1b33cfc7d0392f8f698c06b7af8d3; PUSHED=true
 - 정확한 다음 재개점: next_batch 5740; resume point new-expansion-candidates-batch5740; 자궁내막증 비약물 기기·감각중재·수중요법·디지털 재활 26차 후보 batch 5740
+- batch 5740: 자궁내막증 비약물 기기·감각중재·수중요법·디지털 재활 26차 후보 30개; 선정 0건; 검색 레코드 472개; 고유 PMID 414개; fetch 요청 414·성공 413·5개 청크; 일반 초록 404개; 최초 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 확인했고 전체 고유 초록은 405개; 후보 parser 414건·후보 28건·신규 후보 14건·효과 후보 7건; 기존 항목과 중복된 Ohnut·저FODMAP·Odeya PMID 39220343·40319391·41712923은 추가하지 않았고, 신규 효과 후보 7건을 수동 검토해 7건 제외·비후보 386건 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 제외 PMID: 39360492·41642663·41791364·28869181·31013910·14644831·36789645
+- 선별 제외: 39360492와 14644831은 고찰, 41642663은 군간 수치가 없는 준실험, 41791364는 단면조사, 28869181은 대조군 없는 전후 연구, 31013910은 12명 단일군 rTMS 예비시험, 36789645는 8명·10명 단일군 OST+PEMF 예비시험으로 제외했다. Ohnut·저FODMAP·Odeya PMID 39220343·40319391·41712923은 기존 항목과 중복되어 추가하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5740final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24720개; 주제 17348개; 근거 링크 27851개; 숫자 군간 비교 23781개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 없음; checkpoint state commit: caa4060e4805ab4ffa9e4621ac03db509ce890c3; checkpoint record commit: a20e42008ff223a993e30d9c72199b4fb1a99f65; push marker commit: 999f5e5de9f08a3a44ae640a7b2e39a1aa4e1bcc; PUSHED=true
+- 정확한 다음 재개점: next_batch 5750; resume point new-expansion-candidates-batch5750; 자궁내막증 비약물 기기·감각중재·수중요법·디지털 재활 27차 후보 batch 5750
