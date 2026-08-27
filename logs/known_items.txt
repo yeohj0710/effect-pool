@@ -22612,3 +22612,11 @@ Batch 5090
 - 누적 집계: 항목 24,749개; 주제 17,376개; 근거 링크 27,880개; 숫자 군간 비교 23,810개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 40f760efab1b1e0a733d70beeb719e4557eeff9f; initial checkpoint state commit: 85f32ba3737fea287ccb5ccdcca93800c0769400; checkpoint record commit: 387dd1cd25c453f7cc4823d99b19666be7b8a14a; PUSHED=false correction commit: 26caaa41ab6c21c1ad5410c2187645a3d40083d1; push marker commit: a6f70b07be08589450da73fbe195a4308bae3264; PUSHED=true
 - 정확한 다음 재개점: next_batch 5840; resume point new-expansion-candidates-batch5840; 자궁내막증 비처방 재활·생활관리·보완요법 37차 후보 batch 5840
+- batch 5840: 자궁내막증 비처방 운동·재활·통증교육 37차 후보 30개; 선정 0건; 검색 레코드 115개; 고유 PMID 109개; fetch 요청 109·성공 109·2개 청크; 일반 초록 104개; 누락 PMID 없음·재조회 없음; 후보 parser 109건·후보 8건·신규 후보 4건·효과 후보 3건; 신규 데이터 0건·효과 후보 3건 제외·비후보 101건; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 후보 PMID: 31013910·36789645·38199787. PMID 31013910은 대조군 없는 rTMS 단일군 파일럿, 36789645는 대조군 없는 오존 사우나·펄스전자기장 병용 단일군 파일럿, 38199787은 고찰로 제외했다. 신규 후보 PMID 39261815는 운동·골반저근 훈련 무작위시험의 경험을 분석한 질적 연구라 군간 숫자 결과가 없고, 27678954는 초록이 없어 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5840final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,749개; 주제 17,376개; 근거 링크 27,880개; 숫자 군간 비교 23,810개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 없음; checkpoint state commit: bef2c211809fe1fffab0bd5777e43cecb871ab03; checkpoint record commit: 1aa71ce2863e7ed083188839302be2c85862792c; push marker commit: c664fb5a78411114e4299468a9415df680da71bb; PUSHED=true
+- 정확한 다음 재개점: next_batch 5850; resume point new-expansion-candidates-batch5850; 자궁내막증 비처방 운동·재활·통증교육 38차 후보 batch 5850
