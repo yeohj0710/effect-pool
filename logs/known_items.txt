@@ -22707,3 +22707,11 @@ Batch 5090
 - 누적 집계: 항목 24,753개; 주제 17,380개; 근거 링크 27,884개; 숫자 군간 비교 23,814개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: aae87a78c0503299b93eb02ff71eaca259b38392; checkpoint record commit: 4de861de065f96d48d9f12a6b0d9432cc3e6961a; push marker commit: da06ed8a16705e299a145b45cee56f321a8fbf11; PUSHED=true
 - 정확한 다음 재개점: next_batch 5960; resume point new-expansion-candidates-batch5960; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 50차 후보 batch 5960
+- batch 5960: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 1건을 기록했다. 검색 레코드 411개, 고유 PMID 337개, fetch 요청 337·성공 337·4개 청크, 일반 초록 334개, 누락 PMID 없음·재조회 없음
+- 후보 parser: 337건 파싱·후보 133건·신규 후보 100건·효과 후보 68건; 수동 검토 후보 68건; 선정 1건·효과 후보 제외 67건·비후보 204건. 신규 ID `endometrioma-laparoscopic-excision-technique-null-5960`; 신규 PMID `20357728`; 범주 `care` 1건; tier `trial` 1건; dir `null` 1건
+- PMID 20357728: 난소 자궁내막종 여성 92명을 초기 유착 부위 직접 박리군과 주변 난소 조직을 원형 절제한 뒤 박리한 군으로 무작위 배정했다. 완전한 낭종벽 제거율은 원형 절제 93% 대 직접 박리 74.5%였지만, 36개월 누적 임신 결과와 추적 재발률은 유의한 차이가 없었다. 수동 검토 후보 67건은 고찰·메타분석·동물·질적·관찰·프로토콜·대조군 없음·처방약·진단 연구·대상 질환 불일치 또는 군간 수치 부족으로 제외했고, 결과를 추정하거나 보간하지 않았다.
+- 전용 검증: `node etc/validate5960final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 80484b4396d5c7d939e492b47f042e9d87829fbd; checkpoint state commit: 3c24ab504a1afa5c7c170909e93654cf4ba01169; checkpoint record commit: d73073a6f9de4b8cad533716edb0b89b931e1d09; push marker commit: 25499952eb7613c689051a6d8d2917f63f88f6ff; PUSHED=true
+- 정확한 다음 재개점: next_batch 5970; resume point new-expansion-candidates-batch5970; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 51차 후보 batch 5970
