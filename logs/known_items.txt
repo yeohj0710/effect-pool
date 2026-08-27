@@ -22307,3 +22307,13 @@ Batch 5090
 - 누적 집계: 항목 24718개; 주제 17346개; 근거 링크 27849개; 숫자 군간 비교 23779개; 사람 수 미상 1262개; 소규모 연구 6806개
 - data commit: 18654974077df54efe330bb7b44e4e8314e57fd6; checkpoint state commit: 7f1b315cd (초기 748508ede는 last_batch ID 정정으로 대체); push marker commit: 360c7d172; PUSHED=true
 - 정확한 다음 재개점: next_batch 5530; resume point new-expansion-candidates-batch5530; 자궁내막증 비처방 운동·재활·골반저 5차 후보 batch 5530
+- batch 5530: 자궁내막증 비처방 운동·재활·골반저 후보 30개; 선정 1건; 검색 레코드 357개; 고유 PMID 150개; fetch 요청 150·성공 148·2개 청크; 일반 초록 146개; 최초 누락 PMID 38829978·31697458 2건을 재조회해 PubmedBookArticle 초록 2개를 확인했고 전체 초록은 148개; 후보 parser 150건·후보 7건·신규 후보 6건·효과 후보 3건; 수동 shortlist 7건에 수동 확인 신규 PMID 42632337을 합쳐 신규 후보 7건을 검토했고 1건 기록·6건 제외·비후보 143건 및 기존 연결 후보 1건 보류; 신규 ID: endometriosis-diet-exercise-coaching-pos; 신규 PMID: 42632337; 범주별 신규: move 1건
+- 수동 검토 제외 PMID: 39261815·30980691·39360492·38787068·34373298·38581105
+- 선별 제외: 39261815는 운동 경험 질적 분석, 30980691은 다른 암 생존자 대상 연구, 39360492는 고찰, 38787068은 보툴리눔 독소 시술과 골반저 중재를 함께 다뤄 비처방 효과를 분리할 수 없는 연구, 34373298은 결과가 없는 프로토콜, 38581105는 혼합 골반통 소규모 연구로 비교군 수치가 부족했다. 선정한 42632337은 식이·신체활동 코칭 RCT에서 비월경 골반통·배변통 변화와 전반적 건강상태 개선율의 군간 수치를 확인했다. 기존 운동·골반저·수기치료·침술 연구와 중복된 연구는 추가하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5530final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24719개; 주제 17347개; 근거 링크 27850개; 숫자 군간 비교 23780개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 7c879c15b5722565c1e570af6c3507c3a08090ab; checkpoint state commit: 7670d2fc5; push marker commit: 050da0eaa; PUSHED=true
+- 정확한 다음 재개점: next_batch 5540; resume point new-expansion-candidates-batch5540; 자궁내막증 비처방 심리·이완·교육 6차 후보 batch 5540
