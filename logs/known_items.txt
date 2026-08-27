@@ -22684,3 +22684,11 @@ Batch 5090
 - 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 없음; checkpoint state commit: ed3a6d57c05b78a89ff17a5f1baae560aeafc236; checkpoint record commit: 03acefe046147bbc136e156b9723cbf058444f77; push marker commit: 516a161d4ad555b9c01a9cc63ec2c7cff954e8a8; PUSHED=true
 - 정확한 다음 재개점: next_batch 5930; resume point new-expansion-candidates-batch5930; 자궁내막증 비처방 불임 보완요법·통증 재활 세부 47차 후보 batch 5930
+- batch 5930: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 1건을 기록했다. 검색 레코드 344개, 고유 PMID 271개, fetch 요청 271·성공 271·3개 청크, 일반 초록 269개, 누락 PMID 없음·재조회 없음
+- 후보 parser: 271건 파싱·후보 95건·신규 후보 59건·효과 후보 28건; 수동 검토 후보 30건; 선정 1건·효과 후보 제외 27건·비후보 176건. 신규 ID `endometriosis-co2-laser-gift-null-5930`; 신규 PMID `7921394`; 범주 `care` 1건; tier `trial` 1건; dir `null` 1건
+- PMID 7921394: 자궁내막증 여성 GIFT 중 CO₂ 레이저 소작군 21명과 무소작군 21명을 전향적 무작위 비교했고, 임상 임신률 38.1% 대 47.9%, 생아출생률 두 군 모두 23.8%였다. 두 명은 난관·난관 주위 질환으로 GIFT를 시행하지 못했다. n=44 단일 소규모 연구의 실제 얇은 근거 경고를 유지했다. 나머지 효과 후보는 고찰·메타분석·동물·질적·관찰·대조군 없음·처방약 또는 군간 수치 부족으로 제외했고, 결과를 추정하거나 보간하지 않았다.
+- 전용 검증: `node etc/validate5930final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,405건; 새 warning은 n<50 소표본 1건이며 숨기지 않았다.
+- 새 경고 수정: 비교 문구 경고 1건 수정; build error 0건; unknown-n 0건·n<50 소표본 1건; 누적 build unknown-n 1,264건·n<50 6,815건
+- 누적 집계: 항목 24,752개; 주제 17,379개; 근거 링크 27,883개; 숫자 군간 비교 23,813개; 사람 수 미상 1,264개; 소규모 연구 6,815개
+- data commit: e78099246352f74f6fbaf05350bdf8f1f8e06381; checkpoint state commit: b348f29c6f27e0d22e7170c3c0318b68853c83db; checkpoint record commit: 5b36e4240aaab4f63a1be748808e0a2fa393cc8d; push marker commit: b72d1a0e150f17c173747425d54bd83790212526; PUSHED=true
+- 정확한 다음 재개점: next_batch 5940; resume point new-expansion-candidates-batch5940; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 48차 후보 batch 5940
