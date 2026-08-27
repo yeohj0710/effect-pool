@@ -22507,3 +22507,13 @@ Batch 5090
 - 누적 집계: 항목 24719개; 주제 17347개; 근거 링크 27850개; 숫자 군간 비교 23780개; 사람 수 미상 1262개; 소규모 연구 6806개
 - data commit: 없음; checkpoint state commit: f1c9a44b292f47ac3f71cf1a14f14cf5dc9f56a3; push marker commit: fe70531166b6df9a179b27b61b952b87ad130452; PUSHED=true
 - 정확한 다음 재개점: next_batch 5730; resume point new-expansion-candidates-batch5730; 자궁내막증 비처방 보충제·허브·보완요법 25차 후보 batch 5730
+- batch 5730: 자궁내막증 비약물 기기·감각중재·수중요법·디지털 재활 25차 후보 30개; 선정 1건; 검색 레코드 1,076개; 고유 PMID 991개; fetch 요청 991·성공 988·10개 청크; 일반 초록 953개; 최초 누락 PMID 32809753·31644163·25905227 3건을 재조회해 PubmedBookArticle 초록 3개를 확인했고 전체 고유 초록은 956개; 후보 parser 991건·후보 8건·신규 후보 6건·효과 후보 3건; 기존 연결 후보 2건은 중복으로 보류하고 신규 후보 6건을 수동 검토했으며 후보 parser 밖에서 PMID 42013933을 추가 확인해 신규 기록 1건·6건 제외·비후보 983건 보류; 신규 ID·PMID: endometriosis-vr-ultrasound-pain-pos-5730 / 42013933; 범주별 신규: care 1건
+- 수동 검토 제외 PMID: 42652096·16765092·38787068·38581105·31875661·30980691
+- 선별 제외: 42652096은 동물 모델과 수치가 없는 임상군을 함께 다룬 연구, 16765092는 만성 골반통 고찰, 38787068은 보툴리눔 독소 시술 전후의 8명 단일군 마음챙김 연구, 38581105는 자궁내막증 여부가 섞인 골반통 단일군 추적 연구, 31875661은 질적·단일군 연구, 30980691은 대장·자궁내막암 생존자 대상 연구로 제외했다. PMID 42013933은 자궁내막증 여성 117명을 가상현실군 58명과 대조군 59명에 무작위 배정한 연구로, 평균 통증 3.2±2.6 대 4.0±3.0점(P=.08), 중등도 이상 통증 33.9% 대 55.2%(P=.027), OR 0.26(95% CI 0.10~0.63)을 초록에서 직접 확인해 기록했다. 기존 가상현실·골반저 물리치료·운동·수기치료·마사지·전기자극·마음챙김·CBT·앱 자기관리 항목과 중복된 연구는 추가하지 않았고 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5730final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning 없음
+- 새 경고 수정: 1건의 effect 길이 경고와 1건의 파일명·id 불일치 build error를 수정; 신규 targeted warning 1건 수정
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24720개; 주제 17348개; 근거 링크 27851개; 숫자 군간 비교 23781개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 650ef1d425f23fd77dd4ed1cc4bcd6869da81501; checkpoint state repair commit: 3668b23e306db82252156fc9fc16f692a65020e1; checkpoint record commit: ff7c9bacb3e80e44c795550a1ccfb5b7b52002a9; push marker commit: 9b78832aa9110913f49618606a922f8a8df56a1c; aggregate correction commit: 0e48a1d82fe1b33cfc7d0392f8f698c06b7af8d3; PUSHED=true
+- 정확한 다음 재개점: next_batch 5740; resume point new-expansion-candidates-batch5740; 자궁내막증 비약물 기기·감각중재·수중요법·디지털 재활 26차 후보 batch 5740
