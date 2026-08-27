@@ -22297,3 +22297,13 @@ Batch 5090
 - 누적 집계: 항목 24716개; 주제 17344개; 근거 링크 27847개; 숫자 군간 비교 23777개; 사람 수 미상 1262개; 소규모 연구 6806개
 - data commit: 0aa74e2edb8d599e9ff6943b4d87253e4c7cbd20; checkpoint state commit: c5e0fab91; push marker commit: 08c353059; PUSHED=true
 - 정확한 다음 재개점: next_batch 5520; resume point new-expansion-candidates-batch5520; 자궁내막증 비처방 생활습관·통증 자가관리 4차 후보 batch 5520
+- batch 5520: 자궁내막증 비처방 생활습관·통증 자가관리 후보 30개; 선정 2건; 검색 레코드 531개; 고유 PMID 454개; fetch 요청 454·성공 454·5개 청크; 일반 초록 452개; 누락 PMID 없음; 후보 parser 454건·후보 20건·신규 후보 14건·효과 후보 8건; 수동 검토 신규 후보 14건 중 2건 기록·12건 제외·비후보 434건 및 기존 연결 후보 6건 보류; 신규 ID: endometriosis-endo-app-qol-pos·endometriosis-nursing-self-care-pos; 신규 PMID: 39314601·41827618; 범주별 신규: life 1건·care 1건
+- 수동 검토 제외 PMID: 39261815·41385548·38199787·31875661·37159502·38648863·34373298·39259620·42077502·30980691·39360492·37283994
+- 선별 제외: 39261815·31875661은 질적·단일군 자기관리 연구, 41385548·38199787·39360492는 고찰, 37159502는 유전 연관 분석, 38648863·39259620·42077502는 처방약 연구, 30980691은 암 생존자 연구, 37283994는 인터뷰 연구로 제외했다. 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5520final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24718개; 주제 17346개; 근거 링크 27849개; 숫자 군간 비교 23779개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 18654974077df54efe330bb7b44e4e8314e57fd6; checkpoint state commit: 7f1b315cd (초기 748508ede는 last_batch ID 정정으로 대체); push marker commit: 360c7d172; PUSHED=true
+- 정확한 다음 재개점: next_batch 5530; resume point new-expansion-candidates-batch5530; 자궁내막증 비처방 운동·재활·골반저 5차 후보 batch 5530
