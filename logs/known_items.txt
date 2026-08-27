@@ -22723,3 +22723,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: 5564457aa90a4f4d72a8df1ce06cf0ef8e1f0e6c; checkpoint record commit: 1fabec8c4b0fc2ea1153c9c79288dab0f934b164; push marker commit: ef85f4a75912bb8582910e07b837c9f13d3d9276; PUSHED=true
 - 정확한 다음 재개점: next_batch 5980; resume point new-expansion-candidates-batch5980; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 52차 후보 batch 5980
+- batch 5980: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 280개, 고유 PMID 236개, fetch 요청 236·성공 235·3개 청크, 일반 초록 229개, 최초 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 추가했고 전체 초록은 230개였다.
+- 후보 parser: 236건 파싱·후보 106건·신규 후보 70건·효과 후보 46건; 수동 검토 후보 46건; 선정 0건·효과 후보 제외 46건·비후보 130건; 범주별 신규 없음
+- 수동 검토 효과 후보 46건은 고찰·메타분석·동물·관찰·프로토콜·대조군 없음·처방약 또는 처방약 병용·대상 질환 불일치·혼합 대상·군간 수치 부족으로 제외했다. 15327610·21461043은 자궁내막증 하위군의 군별 결과를 분리할 수 없었고, 17126335는 군간 실제 결과 수치가 부족했으며, 16169150·34448038·39458233·33186771은 대조군 없는 연구였다. 18165396·9074246·17629162는 처방약 또는 비대상 질환 연구였고, 33095458·24696265·31712161·21901713·24346786·25924805·32199406·39360492·41754163은 고찰·메타분석이었다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate5980final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: c2f6c41171d6de236176c85482492134402cd759; checkpoint record commit: 01b6f44a9987401ac2f09ffb52d1b6af97dc8259; push marker commit: 848f752397f3b1bdc2afd43b335ef7f0cf525f9d; PUSHED=true
+- 정확한 다음 재개점: next_batch 5990; resume point new-expansion-candidates-batch5990; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 53차 후보 batch 5990
