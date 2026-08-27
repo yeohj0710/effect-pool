@@ -22755,3 +22755,11 @@ Batch 5090
 - 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: 없음; checkpoint state commit: 120a4aeb037b010d2069e92c7a763fa92a056799; checkpoint record commit: 2598749caa5a61db15b843ac7c24b2b85284f12d; push marker commit: 20d359448cdfb6e944a8792160232922b2c29eba; PUSHED=true
 - 정확한 다음 재개점: next_batch 6020; resume point new-expansion-candidates-batch6020; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 56차 후보 batch 6020
+- batch 6020: 자궁내막증 비처방 수면·스트레스 관리·다학제 재활·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 268개, 고유 PMID 185개, fetch 요청 185·성공 185·2개 청크, 일반 초록 184개, 누락 PMID 없음·재조회 없음
+- 후보 parser: 185건 파싱·후보 63건·신규 후보 33건·효과 후보 18건; 수동 검토 후보 18건; 선정 0건·효과 후보 제외 18건·비후보 122건; 범주별 신규 없음
+- 수동 검토 효과 후보 18건은 고찰·메타분석·동물·관찰·프로토콜·대조군 없음·처방약 또는 처방약 병용·대상 질환 불일치·혼합 대상·군간 수치 부족으로 제외했다. 41551998은 처방 주사제 무작위시험이었고, 28869181은 대조군 없는 전후 연구였으며, 41665220은 동물 연구였다. 9628521·29786828은 처방 호르몬 또는 관련 고찰, 39360492·38199787·21901713·24346786·22592712·19588398·27000311·16820124·23913583·41439725·34923620·41754163은 고찰·메타분석 또는 비대상 연구였다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6020final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,754개; 주제 17,381개; 근거 링크 27,885개; 숫자 군간 비교 23,815개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: 55184a2708c8d4e99e1872b103950ccf886f8cf8; checkpoint record commit: bee0f91685f10468693895fc32561587859619ff; push marker commit: 19dd2fbee863949148a9c0781bd390e29edd6c60; PUSHED=true
+- 정확한 다음 재개점: next_batch 6030; resume point new-expansion-candidates-batch6030; 자궁내막증 비처방 수면·스트레스 관리·다학제 재활·보완요법 57차 후보 batch 6030
