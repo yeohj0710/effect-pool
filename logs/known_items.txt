@@ -21542,3 +21542,20 @@ Batch 4890
 - 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
 - data commit: 없음; checkpoint state commit: 79c1cef24; push marker commit: 47bef1312; marker-state commit: 63c0066d7; PUSHED=true
 - 정확한 다음 재개점: next_batch 4900; resume point new-expansion-candidates-batch4900; 천식 비처방 성인 직업성 천식 장기 추적 후 작업장 보호구·환기·노출회피 중재 151차 후보 batch 4900
+
+Batch 4900
+- 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
+- 검색: PubMed E-utilities 검색 레코드 1,592개·고유 PMID 1,063개
+- fetch: 요청 1,063건·확보 1,063건·청크 11개·일반 초록 1,055개·전체 초록 1,055개; 누락 없음
+- 재확인: 요청 0건·확보 0건·초록 0개
+- 후보 선별: parser 1,063건·후보 43건·신규 후보 40건·효과 후보 7건; 신규 선정 0건·제외 7건·비후보 1,020건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate4900final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: PMID 33325455는 COPD 입장문, PMID 12444395는 직업성이 아닌 가정환경 단일군 전후 연구, PMID 24467247은 카펫 오염 제거 실험실 연구, PMID 2198085는 알레르겐 유발 천식 반응 연구, PMID 17290390은 비호지킨 림프종 사례-대조 연구, PMID 32843184는 흡연·수면 관찰연구, PMID 32534568은 천식 삶의 질 측정도구 분석이라 배치 기준에 맞지 않아 제외했다. 기존 근거와 연결된 후보 3건은 신규 항목으로 중복 기록하지 않았다. 나머지는 기존 근거, 관찰·역학연구, 처방약 연구 또는 선택한 주제에 직접 대응하는 수치 비교 부족으로 신규 효과 근거로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: c4fb4588a; push marker commit: f52c74902; marker-state commit: PENDING; PUSHED=true
+- 정확한 다음 재개점: next_batch 4910; resume point new-expansion-candidates-batch4910; 천식 비처방 성인 직업성 천식 장기 추적 후 작업장 노출감시·호흡기 건강검진 중재 152차 후보 batch 4910
