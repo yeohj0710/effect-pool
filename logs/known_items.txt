@@ -22660,3 +22660,11 @@ Batch 5090
 - 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
 - data commit: 없음; checkpoint state commit: 63a088d09ed6ea5f4242db5d64edec5fd2aebabe; checkpoint record commit: f8ac7d948c0ed6db267c05b16e2979bf87094e97; push marker commit: 1ec215954305bfb97d6c924b66057abdd29045ce; PUSHED=true
 - 정확한 다음 재개점: next_batch 5900; resume point new-expansion-candidates-batch5900; 자궁내막증 비처방 불임 수술·난소예비력 보존·보완요법 43차 후보 batch 5900
+- batch 5900: 자궁내막증 비처방 통증 재활·운동·보충제·생활관리 44차 후보 30개; 선정 0건; 검색 레코드 289개; 고유 PMID 189개; fetch 요청 189·성공 188·2개 청크; 일반 초록 182개; 최초 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 확인했고 전체 초록은 183개; 후보 parser 189건·후보 79건·신규 후보 35건·효과 후보 15건; 신규 데이터 0건·효과 후보 15건 제외·비후보 110건; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 효과 후보 15건: 40686285·31875661·37283994는 질적·면담 연구, 41791364·42006396은 대상 질환이 아닌 연구, 21901713·24346786·41754163·41439725·33095458는 고찰·영양 종설·치료 종설로 제외했다. 36789645·15749506은 대조군 없는 단일군 또는 비무작위 연구, 41305963·42576801은 처방 대마 제제의 사례·전향 관찰 연구, 9628521은 처방 호르몬 병용 연구로 제외했다. 신규 후보 35162761·41715206은 프로토콜, 34373298은 예비 결과 프로토콜, 38566501은 군별 표본 수만 있고 군간 숫자 결과·효과크기가 없어 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5900final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,751개; 주제 17,378개; 근거 링크 27,882개; 숫자 군간 비교 23,812개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 없음; checkpoint state commit: d35778fcb39c05460ef25ea5e8334f127234199f; checkpoint record commit: 05a599c25ff53c91156e0bb8a1d3721f954efcef; push marker commit: 4140d395cf904d6e73e149e6a361a7069363eada; PUSHED=true
+- 정확한 다음 재개점: next_batch 5910; resume point new-expansion-candidates-batch5910; 자궁내막증 비처방 통증 재활·운동·보충제·생활관리 45차 후보 batch 5910
