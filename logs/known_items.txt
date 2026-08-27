@@ -22685,8 +22685,8 @@ Batch 5090
 - data commit: 없음; checkpoint state commit: ed3a6d57c05b78a89ff17a5f1baae560aeafc236; checkpoint record commit: 03acefe046147bbc136e156b9723cbf058444f77; push marker commit: 516a161d4ad555b9c01a9cc63ec2c7cff954e8a8; PUSHED=true
 - 정확한 다음 재개점: next_batch 5930; resume point new-expansion-candidates-batch5930; 자궁내막증 비처방 불임 보완요법·통증 재활 세부 47차 후보 batch 5930
 - batch 5930: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 1건을 기록했다. 검색 레코드 344개, 고유 PMID 271개, fetch 요청 271·성공 271·3개 청크, 일반 초록 269개, 누락 PMID 없음·재조회 없음
-- 후보 parser: 271건 파싱·후보 95건·신규 후보 59건·효과 후보 28건; 수동 검토 후보 30건; 선정 1건·효과 후보 제외 27건·비후보 176건. 신규 ID `endometriosis-co2-laser-gift-null-5930`; 신규 PMID `7921394`; 범주 `care` 1건; tier `trial` 1건; dir `null` 1건
-- PMID 7921394: 자궁내막증 여성 GIFT 중 CO₂ 레이저 소작군 21명과 무소작군 21명을 전향적 무작위 비교했고, 임상 임신률 38.1% 대 47.9%, 생아출생률 두 군 모두 23.8%였다. 두 명은 난관·난관 주위 질환으로 GIFT를 시행하지 못했다. n=44 단일 소규모 연구의 실제 얇은 근거 경고를 유지했다. 나머지 효과 후보는 고찰·메타분석·동물·질적·관찰·대조군 없음·처방약 또는 군간 수치 부족으로 제외했고, 결과를 추정하거나 보간하지 않았다.
+- 후보 parser: 271건 파싱·후보 95건·신규 후보 59건·효과 후보 28건; 수동 검토 후보 29건; 선정 1건·효과 후보 제외 28건·비후보 176건. 신규 ID `endometriosis-co2-laser-gift-null-5930`; 신규 PMID `7921394`; 범주 `care` 1건; tier `trial` 1건; dir `null` 1건
+- PMID 7921394: 자궁내막증 여성 GIFT 중 CO₂ 레이저 소작군 21명과 무소작군 21명을 전향적 무작위 비교했고, 임상 임신률 38.1% 대 47.9%, 생아출생률 두 군 모두 23.8%였다. 두 명은 난관·난관 주위 질환으로 GIFT를 시행하지 못했다. n=44 단일 소규모 연구의 실제 얇은 근거 경고를 유지했다. 나머지 효과 후보 28건은 고찰·메타분석·동물·질적·관찰·대조군 없음·처방약 또는 군간 수치 부족으로 제외했고, 결과를 추정하거나 보간하지 않았다.
 - 전용 검증: `node etc/validate5930final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,405건; 새 warning은 n<50 소표본 1건이며 숨기지 않았다.
 - 새 경고 수정: 비교 문구 경고 1건 수정; build error 0건; unknown-n 0건·n<50 소표본 1건; 누적 build unknown-n 1,264건·n<50 6,815건
 - 누적 집계: 항목 24,752개; 주제 17,379개; 근거 링크 27,883개; 숫자 군간 비교 23,813개; 사람 수 미상 1,264개; 소규모 연구 6,815개
@@ -22700,3 +22700,10 @@ Batch 5090
 - 누적 집계: 항목 24,753개; 주제 17,380개; 근거 링크 27,884개; 숫자 군간 비교 23,814개; 사람 수 미상 1,265개; 소규모 연구 6,815개
 - data commit: fcbc82dc259267268c142d1c5c14fcfcd3d725c8; checkpoint state commit: c16aa8a953f4de9e45f3adb178c5a0c6de0d14e4; checkpoint record commit: cba17e526871743b11e4d1f652628f0165747640; push marker commit: 18cbda68dde38d486fefc35847a7c5f82250cbf8; PUSHED=true
 - 정확한 다음 재개점: next_batch 5950; resume point new-expansion-candidates-batch5950; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 49차 후보 batch 5950
+- batch 5950: 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 685개, 고유 PMID 436개, fetch 요청 436·성공 435·5개 청크, 일반 초록 428개, 누락 PMID 22439157 1건을 재조회해 PubmedBookArticle 초록 1개를 추가했고 전체 초록은 429개였다.
+- 후보 parser: 436건 파싱·후보 172건·신규 후보 132건·효과 후보 85건; 수동 검토 후보 85건; 선정 0건·효과 후보 제외 85건·비후보 264건; 범주별 신규 없음. 처방약 연구, 고찰·메타분석·동물·질적·관찰·프로토콜·진단 연구, 혼합 원인군, 대조군 없음 또는 군간 수치 부족 연구를 기록하지 않았다.
+- 전용 검증: `node etc/validate5950final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건
+- 누적 집계: 항목 24,753개; 주제 17,380개; 근거 링크 27,884개; 숫자 군간 비교 23,814개; 사람 수 미상 1,265개; 소규모 연구 6,815개
+- data commit: 없음; checkpoint state commit: aae87a78c0503299b93eb02ff71eaca259b38392; checkpoint record commit: 4de861de065f96d48d9f12a6b0d9432cc3e6961a; push marker commit: da06ed8a16705e299a145b45cee56f321a8fbf11; PUSHED=true
+- 정확한 다음 재개점: next_batch 5960; resume point new-expansion-candidates-batch5960; 자궁내막증 비처방 수술·유착방지·불임 시술·보완요법 50차 후보 batch 5960
