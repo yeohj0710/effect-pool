@@ -22427,3 +22427,13 @@ Batch 5090
 - 누적 집계: 항목 24719개; 주제 17347개; 근거 링크 27850개; 숫자 군간 비교 23780개; 사람 수 미상 1262개; 소규모 연구 6806개
 - data commit: 없음; checkpoint state commit: da6ae7c50; push marker commit: 96a39e429; PUSHED=true
 - 정확한 다음 재개점: next_batch 5650; resume point new-expansion-candidates-batch5650; 자궁내막증 비처방 심리·이완·교육 17차 후보 batch 5650
+- batch 5650: 자궁내막증 비처방 심리·이완·교육 추가 후보 30개; 선정 0건; 검색 레코드 551개; 고유 PMID 456개; fetch 요청 456·성공 454·5개 청크; 일반 초록 450개; 최초 누락 PMID 22439157·38829978 2건을 재조회해 PubmedBookArticle 초록 2개를 확인했고 전체 고유 초록은 452개; 후보 parser 456건·후보 18건·신규 후보 9건·효과 후보 6건; 기존 연결 후보 9건은 중복으로 보류하고 신규 후보 9건을 수동 검토했으나 신규 기록 0건·9건 제외·비후보 438건 보류; 신규 ID·PMID 없음; 범주별 신규 없음
+- 수동 검토 제외 PMID: 39360492·39261815·31875661·38199787·39259620·38648863·38581105·41385548·27712641
+- 선별 제외: 39360492는 심리 중재 고찰, 39261815·31875661은 질적·단일군 연구, 38199787은 종합 관리 고찰, 39259620·38648863는 처방약 연구, 38581105는 혼합 골반통 단일군 추적 연구, 41385548은 식이 고찰, 27712641은 항문·골반통 고찰로 제외했다. 기존 마음챙김·CBT·앱 자기관리 항목과 중복된 연구는 추가하지 않았고 결과를 추정하거나 보간하거나 만들지 않음
+- 전용 검증: node etc/validate5650final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,394건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,806건
+- 누적 집계: 항목 24719개; 주제 17347개; 근거 링크 27850개; 숫자 군간 비교 23780개; 사람 수 미상 1262개; 소규모 연구 6806개
+- data commit: 없음; checkpoint state commit: a865f7a82; push marker commit: 564e2a8ab; PUSHED=true
+- 정확한 다음 재개점: next_batch 5660; resume point new-expansion-candidates-batch5660; 자궁내막증 비처방 심리·이완·교육 18차 후보 batch 5660
