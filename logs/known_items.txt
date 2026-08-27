@@ -22604,3 +22604,11 @@ Batch 5090
 - 누적 집계: 항목 24,748개; 주제 17,375개; 근거 링크 27,879개; 숫자 군간 비교 23,809개; 사람 수 미상 1,264개; 소규모 연구 6,813개
 - data commit: 없음; checkpoint state commit: 4c06e52b352a84b059df0214c30455d1fd54708d; checkpoint record commit: a7a163248d934f99c3929d3e07bf11a91c0c9bae; push marker commit: ce8e52a517bc93aae8fb45152204e1a6b88ff029; PUSHED=true
 - 정확한 다음 재개점: next_batch 5830; resume point new-expansion-candidates-batch5830; 자궁내막증 비처방 보완요법·식이·운동 36차 후보 batch 5830
+- batch 5830: 자궁내막증 비처방 재활·생활관리·보완요법 36차 후보 30개; 선정 1건; 검색 레코드 451개; 고유 PMID 370개; fetch 요청 370·성공 370·4개 청크; 일반 초록 366개; 누락 PMID 없음·재조회 없음; 후보 parser 370건·후보 16건·신규 후보 10건·효과 후보 7건; 신규 데이터 1건·효과 후보 6건 제외·비후보 354건; 신규 ID endometriosis-ablative-techniques-null-5830·PMID 41525928; 범주별 신규 care 1건·trial 1건·null 1건
+- 수동 검토 후보 PMID: 41551998·39360492·41791364·33095458·38914481·41525928·31875661. PMID 41525928은 자궁내막증 여성 34명의 153개 병변을 전기소작·아르곤 빔 응고·CO2 레이저로 무작위 비교한 연구로, 잔존 병변이 10/51(20%)·4/51(8%)·6/51(12%), P=.20이어서 care·trial·null로 기록했다. PMID 41551998은 처방 시술인 보툴리눔 독소, 39360492·33095458은 고찰, 41791364는 단면 관찰, 38914481은 대조군 없는 전향 코호트, 31875661은 무작위 대조군이 없는 질적 파일럿으로 제외했다. 신규 후보 PMID 27678954는 초록 없음, 41385548은 식이 고찰이라 보류했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: node etc/validate5830final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,404건; 신규 warning 1건(thin_study endometriosis-ablative-techniques-null-5830 n=34)
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 1건; 누적 build unknown-n 1,264건·n<50 6,814건
+- 누적 집계: 항목 24,749개; 주제 17,376개; 근거 링크 27,880개; 숫자 군간 비교 23,810개; 사람 수 미상 1,264개; 소규모 연구 6,814개
+- data commit: 40f760efab1b1e0a733d70beeb719e4557eeff9f; initial checkpoint state commit: 85f32ba3737fea287ccb5ccdcca93800c0769400; checkpoint record commit: 387dd1cd25c453f7cc4823d99b19666be7b8a14a; PUSHED=false correction commit: 26caaa41ab6c21c1ad5410c2187645a3d40083d1; push marker commit: a6f70b07be08589450da73fbe195a4308bae3264; PUSHED=true
+- 정확한 다음 재개점: next_batch 5840; resume point new-expansion-candidates-batch5840; 자궁내막증 비처방 재활·생활관리·보완요법 37차 후보 batch 5840
