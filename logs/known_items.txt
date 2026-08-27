@@ -21866,6 +21866,23 @@ Batch 5080
 - data commit: 없음; checkpoint state commit: c9454c475; push marker commit: ddefbc823; marker-state commit: 215c1c056; PUSHED=true
 - 정확한 다음 재개점: next_batch 5090; resume point new-expansion-candidates-batch5090; 천식 비처방 성인 직업성 천식 장기 추적 후 제빵·농업·도장·미용·보건의료 작업장 관리 170차 후보 batch 5090
 
+Batch 5100
+- 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
+- 검색: PubMed E-utilities 검색 레코드 1,504개·고유 PMID 830개
+- fetch: 요청 830건·확보 830건·청크 9개·일반 초록 809개·전체 초록 809개; 누락 없음
+- 재확인: 요청 0건·확보 0건·초록 0개
+- 후보 선별: parser 830건·후보 24건·신규 후보 22건·효과 후보 3건; 신규 선정 0건·제외 3건·비후보 806건
+- 신규 ID·PMID: 없음
+- 범주별 신규: 없음
+- 전용 검증: node etc/validate5100final.mjs 최종 exit 0; 오류 0; 경고 0
+- 빌드: node build.mjs 최종 exit 0; build error 0건; 최종 warning 8,391건; 신규 warning 없음
+- 새 경고 수정: 0건; 신규 targeted warning 없음
+- 실제 경고: unknown-n 0건; n<50 소표본 0건; 누적 build unknown-n 1,262건·n<50 6,804건
+- 선별 제외: PMID 16601014는 직장 천식 악화 유병률 관찰연구, PMID 11473139는 직업건강 사건 보고방법 비교연구, PMID 2145721은 손 습진 역학연구라 배치 기준에 맞지 않아 제외했다. 기존 근거와 연결된 후보 2건은 신규 항목으로 중복 기록하지 않았다. 나머지는 기존 근거, 관찰·역학연구, 처방약 연구 또는 선택한 주제에 직접 대응하는 수치 비교 부족으로 신규 효과 근거로 기록하지 않았다. 결과를 추정하거나 보간하거나 만들지 않음
+- 누적 집계: 항목 24710개; 주제 17338개; 근거 링크 27841개; 숫자 군간 비교 23771개; 사람 수 미상 1262개; 소규모 연구 6804개
+- data commit: 없음; checkpoint state commit: d0a2c8cae; push marker commit: cd4e116aa; marker-state commit: e0d365f96; PUSHED=true
+- 정확한 다음 재개점: next_batch 5110; resume point new-expansion-candidates-batch5110; 천식 비처방 성인 직업성 천식 장기 추적 후 직업성 천식 증상·폐기능·노출 제거 결과 172차 후보 batch 5110
+
 Batch 5090
 - 주제·선정: 30개 주제·30개 선정; 비처방 30개·처방 0개
 - 검색: PubMed E-utilities 검색 레코드 724개·고유 PMID 563개
