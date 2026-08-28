@@ -24256,3 +24256,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: e10cc38115ebad996431cf92a0e09544c2e52f95; push marker commit: 1a39bc7951d9d4fbd143bd0ce022c316ffa3463f; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7690; resume point new-expansion-candidates-batch7690; 자궁내막증 비처방 만성통증·재활·심리·디지털·영양 후보 batch 7690.
+- batch 7690: 자궁내막증 비처방 골반저 재활·보완요법·식이·보충제·수면 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 273개, 고유 PMID 211개.
+- fetch: 211건 요청·211건 확보·3개 청크·일반 초록 210개. 최종 누락 PMID는 없었고 재조회는 필요하지 않았다.
+- 후보 parser: 211건 파싱·후보 75건·신규 후보 36건·효과 후보 16건; 수동 검토 후보 16건; 선정 0건·효과 후보 제외 16건·비후보 136건; 범주별 신규 없음.
+- 수동 검토 21901713·24346786·19588398·22592712·27000311은 침술·한약·식이보충제 고찰 자료였고 37802878은 TCM 무작위시험 결과지표를 정리한 문헌고찰이었다. 21196745는 대조군 없는 후향적 TCM·최면 병용 자료였고 37517569는 자궁내막증이 아닌 원발성 월경통의 TCM 처방 연구였다. 41754163·41439725·16820124·38006584·39360492는 영양·염증·산화스트레스·영양관리·심리중재 고찰 자료였다. 41665220은 생쥐 연구, 38787068은 보툴리눔 독소 주사에 결합된 소규모 마음챙김 전후 자료, 31875661은 10명 질적 평가와 전후 비교였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7690final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: cb56b99a4e6e4af6773772ef1621a10cbc59514c; push marker commit: b93568d10d523ff33f52ba53f3178a26fc258b21; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7700; resume point new-expansion-candidates-batch7700; 자궁내막증 비처방 골반저 재활·보완요법·식이·보충제·수면 후보 batch 7700.
