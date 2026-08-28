@@ -23329,3 +23329,12 @@ Batch 5090
 - 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 5cc972b5f; checkpoint record commit: ed82f17c2; push marker commit: c9fb0d90c; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6670; resume point new-expansion-candidates-batch6670; 자궁내막증 비처방 운동·재활·심리·식이 121차 후보 batch 6670.
+- batch 6670: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 411개, 고유 PMID 309개.
+- fetch: 309건 요청·309건 확보·4개 청크·일반 초록 302개. 누락 PMID는 없었다.
+- 후보 parser: 309건 파싱·후보 104건·신규 후보 57건·효과 후보 32건; 수동 검토 후보 32건; 선정 0건·효과 후보 제외 32건·비후보 205건; 범주별 신규 없음.
+- 수동 검토 효과 후보 32건은 처방약·수술·고찰·프로토콜·관찰·단일군·질환 불일치·대조군 결과 수치 부족으로 모두 제외했다. 36852092는 비처방 교육 무작위 연구지만 군간 결과 수치나 효과크기가 없었고, 18262146은 펜톡시필린 처방약 연구였다. 18173140은 한약과 GnRH 작용제 병용 연구였고, 10645861은 수술 전후 연구였다. 19588398·22592712·37802878·39360492·38199787·24595586·21901713·24346786·27000311·41754163·23913583 등은 고찰이었다. 신규 PMID와 신규 근거 링크는 없다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6670final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 547324c46; checkpoint record commit: 72badaf73; push marker commit: 5b935d481; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6680; resume point new-expansion-candidates-batch6680; 자궁내막증 비처방 운동·재활·심리·식이 122차 후보 batch 6680.
