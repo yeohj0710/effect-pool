@@ -23653,3 +23653,12 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 91a9a5fa3; checkpoint record commit: 6141782bd; push marker commit: f44d8dfe3; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 7030; resume point new-expansion-candidates-batch7030; 자궁내막증 비처방 운동·재활·심리·식이 157차 후보 batch 7030.
+- batch 7030: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 352개, 고유 PMID 253개.
+- fetch: 253건 요청·252건 확보·3개 청크·일반 초록 247개. 초기 누락 PMID 22439157은 재조회에서 PubmedBookArticle 1건과 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 248개.
+- 후보 parser: 253건 파싱·후보 68건·신규 후보 25건·효과 후보 13건; 수동 검토 후보 13건; 선정 0건·효과 후보 제외 13건·비후보 185건; 범주별 신규 없음.
+- 수동 검토 PMID 41791364·39360492·23442755·37223304·34923620·29228373·24595586·15790607·38749550·27000311·41754163·21901713·24346786은 단면 설문·고찰·비무작위 수술·처방약 비교·수술 전후 단일군·처방 호르몬 또는 침 치료 고찰로 모두 제외했다. 신규 후보 중 39261815는 중재군 경험을 분석한 질적 연구, 35162761·34373298·41715206은 프로토콜, 38566501은 군별 효과크기·비율·신뢰구간이 없는 CBT 연구, 19958132는 군간 임상 결과 수치가 없는 전기피부 측정 연구였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7030final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: a7be6677e; checkpoint record commit: f403357aa; push marker commit: d701e3bbc; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 7040; resume point new-expansion-candidates-batch7040; 자궁내막증 비처방 운동·재활·심리·식이 158차 후보 batch 7040.
