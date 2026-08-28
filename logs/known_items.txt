@@ -23293,3 +23293,12 @@ Batch 5090
 - 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 1bdb1fb3f; checkpoint record commit: eef223417; push marker commit: 27cc853ed; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6630; resume point new-expansion-candidates-batch6630; 자궁내막증 비처방 운동·재활·심리·식이 117차 후보 batch 6630.
+- batch 6630: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 200개, 고유 PMID 152개.
+- fetch: 152건 요청·152건 확보·2개 청크·일반 초록 146개. 누락 PMID는 없었다.
+- 후보 parser: 152건 파싱·후보 70건·신규 후보 31건·효과 후보 20건; 수동 검토 후보 20건; 선정 0건·효과 후보 제외 20건·비후보 82건; 범주별 신규 없음.
+- 수동 검토 효과 후보 20건은 고찰·프로토콜·관찰·단일군·수술·시술·처방약·처방약 병용·질환 불일치·대조군 결과 수치 부족으로 모두 제외했다. 21461043은 수술적 LUNA 연구였고, 24996447은 경구피임약과 한약을 병용해 한약 효과를 분리할 수 없는 무작위 연구였다. 42576801·41305963은 처방된 의료용 대마초 관찰·사례 연구였고, 353274는 자궁내막증이 아닌 월경통 연구였다. 19588398·39360492·38199787·24595586·21901713·24346786·23913583·41754163 등은 고찰이었다. 신규 PMID와 신규 근거 링크는 없다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6630final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,755개; 주제 17,382개; 근거 링크 27,886개; 숫자 군간 비교 23,816개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: c80a789ac; checkpoint record commit: 56074c002; push marker commit: bad85d774; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6640; resume point new-expansion-candidates-batch6640; 자궁내막증 비처방 운동·재활·심리·식이 118차 후보 batch 6640.
