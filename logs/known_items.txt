@@ -24139,3 +24139,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 70fd4bfcc; push marker commit: f3510676e; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7560; resume point new-expansion-candidates-batch7560; 자궁내막증 비처방 추가 후보 batch 7560.
+- batch 7560: 자궁내막증 비처방 성건강·골반저·자기관리·디지털·보완요법 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 169개, 고유 PMID 148개.
+- fetch: 148건 요청·147건 확보·2개 청크·일반 초록 146개. 초기 누락 PMID 22439157은 재조회에서 PubmedBookArticle 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 147개.
+- 후보 parser: 148건 파싱·후보 48건·신규 후보 27건·효과 후보 14건; 수동 검토 후보 14건; 선정 0건·효과 후보 제외 14건·비후보 100건; 범주별 신규 없음.
+- 수동 검토 24595586·41439725·21901713·24346786·38006584·27000311·22592712·19588398은 고찰·문헌고찰 자료였다. 27328489·9693404·41551998은 처방약·보툴리눔 독소 연구, 23446860은 수술 고찰, 41665220은 동물연구, 37672087은 대조군 없는 15명 골반저 자극 파일럿이었다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7560final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: f52bc6303; push marker commit: 53b82146c; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7570; resume point new-expansion-candidates-batch7570; 자궁내막증 비처방 추가 후보 batch 7570.
