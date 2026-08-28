@@ -24175,3 +24175,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 4b3a9f5e9; push marker commit: 21b50b5c6; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7600; resume point new-expansion-candidates-batch7600; 자궁내막증 비처방 추가 후보 batch 7600.
+- batch 7600: 자궁내막증 비처방 물리치료·운동·심리·수면·식이·보충제 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 183개, 고유 PMID 142개.
+- fetch: 142건 요청·142건 확보·2개 청크·일반 초록 137개. 누락 PMID 없음·재조회 0건·최종 초록 137개.
+- 후보 parser: 142건 파싱·후보 41건·신규 후보 18건·효과 후보 8건; 수동 검토 후보 8건; 선정 0건·효과 후보 제외 8건·비후보 101건; 범주별 신규 없음.
+- 수동 검토 41791364는 중재 효과가 아닌 호주 여성 미식축구 선수의 단면 조사, 28869181은 대조군 없는 46명 정골의학 수기치료 전후 연구였다. 41665220은 생쥐 연구, 39360492·27000311·41754163·23913583은 고찰·문헌고찰 자료, 38749550은 처방 호르몬 비교 연구였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7600final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: df9593930; push marker commit: e513eb3a3; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7610; resume point new-expansion-candidates-batch7610; 자궁내막증 비처방 추가 후보 batch 7610.
