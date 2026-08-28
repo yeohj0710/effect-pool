@@ -23617,3 +23617,12 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: c1dc1f01f; checkpoint record commit: 982a459c8; push marker commit: 7edd9fd2a; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6990; resume point new-expansion-candidates-batch6990; 자궁내막증 비처방 운동·재활·심리·식이 153차 후보 batch 6990.
+- batch 6990: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 335개, 고유 PMID 271개.
+- fetch: 271건 요청·271건 확보·3개 청크·초록 271개. 누락 PMID와 재조회는 없었다.
+- 후보 parser: 271건 파싱·후보 66건·신규 후보 33건·효과 후보 21건; 수동 검토 후보 21건; 선정 0건·효과 후보 제외 21건·비후보 205건; 범주별 신규 없음.
+- 수동 검토 PMID 33186771·41791364·39360492·34923620·15790607·11385905·16047928·24595586·33206374·39259620·42077502·36852092·38903416·38581105·38199787·16765092·21901713·24346786·20579357·27000311·23913583는 보툴리눔 독소·처방약·처방약 병용·수술·단면·관찰·고찰·건강인 실험·대조군 없는 연구 또는 자궁내막증 대상 불일치로 모두 제외했다. 36852092는 교육 무작위 연구지만 군별 효과크기·비율·신뢰구간이 없었고, 신규 후보 중 40133680은 23명 교차 VR 연구지만 정확한 효과크기가 없었다. 37672087은 15명 골반저 전기자극 전후 연구로 대조군이 없었고, 38581105는 자궁내막증 여부가 섞인 대조군 없는 추적 자료였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate6990final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 6db4e6088; checkpoint record commit: f1213e731; push marker commit: 6179148a9; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 7000; resume point new-expansion-candidates-batch7000; 자궁내막증 비처방 운동·재활·심리·식이 154차 후보 batch 7000.
