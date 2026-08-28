@@ -23824,3 +23824,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: d840054ac; push marker commit: 264d278b6; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 7220; resume point new-expansion-candidates-batch7220; 자궁내막증 비처방 추가 후보 batch 7220.
+- batch 7220: 자궁내막증 비처방 허브·영양·식이·심신·운동 추가 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 73개, 고유 PMID 69개.
+- fetch: 69건 요청·69건 확보·1개 청크·일반 초록 69개. 초기 누락 PMID는 없었고 최종 누락 0건·전체 초록 69개.
+- 후보 parser: 69건 파싱·후보 25건·신규 후보 14건·효과 후보 1건; 수동 검토 후보 1건; 선정 0건·효과 후보 제외 1건·비후보 44건; 범주별 신규 없음.
+- 수동 검토 PMID 31875661은 Guided Self-Determination 단일군 전후 평가와 질적 연구로 군간 결과 수치가 없어 제외했다. 신규 후보 중 37885745는 무작위 대기자 대조 파일럿 연구지만 군별 수치·효과크기·비율·신뢰구간이 없었고, 35162761은 프로토콜, 39261815는 질적 자료, 41385548·24135500·24717915·32067036·42037530·28102491·22047005·26062522·16018814는 고찰이었다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7220final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 4babacf61; push marker commit: 392d17f56; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 7230; resume point new-expansion-candidates-batch7230; 자궁내막증 비처방 추가 후보 batch 7230.
