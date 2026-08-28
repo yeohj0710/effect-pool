@@ -24193,3 +24193,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 0106fbb27; push marker commit: b673975b1; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7620; resume point new-expansion-candidates-batch7620; 자궁내막증 비처방 추가 후보 batch 7620.
+- batch 7620: 자궁내막증 비처방 수중운동·이완·보완요법·식이·보충제 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 142개, 고유 PMID 126개.
+- fetch: 126건 요청·125건 확보·2개 청크·일반 초록 125개. 초기 누락 PMID 31644163은 재조회에서 PubmedBookArticle 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 126개.
+- 후보 parser: 126건 파싱·후보 29건·신규 후보 16건·효과 후보 10건; 수동 검토 후보 10건; 선정 0건·효과 후보 제외 10건·비후보 97건; 범주별 신규 없음.
+- 수동 검토 34370858은 처방 호르몬 연구, 25961688은 수술 연구, 21069706·38199787·27000311·23913583은 고찰·문헌고찰 자료, 37672087은 대조군 없는 15명 골반저 자극 파일럿, 20021654는 보조생식 연구, 29786828은 처방 호르몬 고찰, 31644163은 임상시험이 아닌 처방 호르몬 LiverTox 자료였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7620final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: cd7a90472; push marker commit: 70128dd2c; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7630; resume point new-expansion-candidates-batch7630; 자궁내막증 비처방 추가 후보 batch 7630.
