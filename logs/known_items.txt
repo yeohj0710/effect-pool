@@ -24274,3 +24274,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 50263a9229952aa7e37e1a7ed8e5c8c2ee2e08e8; push marker commit: 6082923bd61a0f753940085f385dcdd0bdc01e8f; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7710; resume point new-expansion-candidates-batch7710; 자궁내막증 비처방 통증·가임력 보조·생활중재 후보 batch 7710.
+- batch 7710: 자궁내막증 비처방 골반저·호흡·통증교육·심리·디지털 자기관리 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 410개, 고유 PMID 347개.
+- fetch: 347건 요청·347건 확보·4개 청크·일반 초록 347개. 최종 누락 PMID는 없었고 재조회는 필요하지 않았다.
+- 후보 parser: 347건 파싱·후보 101건·신규 후보 68건·효과 후보 48건; 수동 검토 후보 48건; 선정 0건·효과 후보 제외 48건·비후보 246건; 범주별 신규 없음.
+- 수동 검토 37672087·38581105·31875661은 대조군 없는 전후 또는 질적·자기관리 자료였다. 17126335는 수술 보조재 무작위시험이지만 초록에 중재군과 대조군의 추출 가능한 숫자 효과가 없었다. 16100643은 수술 대 샴수술 연구지만 군간 효과크기를 추출할 수 없었고, 22926841은 무작위 배정 없는 수술·프로게스틴 선택 비교였다. 20051692는 대조군 없는 rIL-2 용량 비교, 25881884는 진단 정확도 연구였다. 나머지는 침술·한약·보충제·심리·영양·수술·처방약 관련 고찰, 처방약 연구, 프로토콜, 동물 연구 또는 비대상 가임력 자료였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7710final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: cdfd43f0957061493963976f4460b6f720c12d56; push marker commit: 103972285b88b51ede5d6c3a6248de7715dfac51; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7720; resume point new-expansion-candidates-batch7720; 자궁내막증 비처방 골반저·호흡·통증교육·심리·디지털 자기관리 후보 batch 7720.
