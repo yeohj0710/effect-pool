@@ -24292,3 +24292,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 648085bdfef19e70bc33fd955b23dc1349e478dd; push marker commit: 9816f21767f54e2366944dc5d43a0d3062b5c262; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7730; resume point new-expansion-candidates-batch7730; 자궁내막증 비처방 통증 재활·심리·디지털·보완요법 후보 batch 7730.
+- batch 7730: 자궁내막증 비처방 통증·불안·성기능·생활습관 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 556개, 고유 PMID 464개.
+- fetch: 464건 요청·463건 일반 PubMed 기록 확보·5개 청크·일반 초록 463개. 초기 누락 PMID 31697458은 재조회에서 PubmedBookArticle 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 464개.
+- 후보 parser: 464건 파싱·후보 126건·신규 후보 84건·효과 후보 60건; 수동 검토 후보 60건; 선정 0건·효과 후보 제외 60건·비후보 338건; 범주별 신규 없음.
+- 수동 검토 38903416은 자궁내막증 환자가 아닌 건강한 자원자의 실험통증 디지털 도구 연구였고, 38914481은 대조군 없는 HIFU 전향적 코호트, 41305963은 대마 의료제품 사례군이었다. 42409154는 자궁내막증 하위군 결과를 분리하지 않은 혼합 산부인과 수술 연구였다. 18487215는 경구 펜톡시필린 처방약 연구였고 24996447·17126335 등은 처방약 병용 또는 수치 부족 자료였다. 16100643·22926841은 수술 관련 비교 자료지만 각각 추출 가능한 군간 효과크기 부족 또는 무작위 배정 부재였다. 나머지는 처방약·고찰·프로토콜·진단·비대상 가임력·동물 연구였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7730final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: b405057260e010a6ce7b7c2c9c44bad84bedadf9; push marker commit: a0e6d89ebe581e141f24aa74a1c70002d8c2b29a; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7740; resume point new-expansion-candidates-batch7740; 자궁내막증 비처방 통증·불안·성기능·생활습관 후보 batch 7740.
