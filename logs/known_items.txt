@@ -23995,3 +23995,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: c9a3cf276; push marker commit: c6dbd9559; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7400; resume point new-expansion-candidates-batch7400; 자궁내막증 비처방 추가 후보 batch 7400.
+- batch 7400: 자궁내막증 비처방 통증대처·상담·수면·운동·재활·보완요법·식이·보충제 후속 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 410개, 고유 PMID 338개.
+- fetch: 338건 요청·337건 확보·4개 청크·일반 초록 330개. 초기 누락 PMID 22439157은 재조회에서 PubmedBookArticle 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 331개.
+- 후보 parser: 338건 파싱·후보 74건·신규 후보 39건·효과 후보 19건; 수동 검토 후보 19건; 선정 0건·효과 후보 제외 19건·비후보 264건; 범주별 신규 없음.
+- 수동 검토 31875661은 대조군 없는 질적 자기관리 자료, 37672087은 대조군 없는 전후 전기자극 자료, 38787068은 보툴리눔 독소 주사에 동반한 마음챙김 자료, 41791364는 단면 관찰 자료였다. 31194864·24595586·39360492·21901713·24346786·27000311·22592712·19588398·38006584·23913583·41439725는 고찰·문헌고찰 자료였고, 37802878은 프로토콜이었다. 24996447·18173140은 불임 또는 처방약 병용 연구였으며, 41704847은 전임상 동물연구였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7400final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 5a86d80a4; push marker commit: 8def13399; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7410; resume point new-expansion-candidates-batch7410; 자궁내막증 비처방 추가 후보 batch 7410.
