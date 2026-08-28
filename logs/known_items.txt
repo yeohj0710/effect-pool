@@ -24130,3 +24130,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 5b33ec1fb; push marker commit: 77c737fe8; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7550; resume point new-expansion-candidates-batch7550; 자궁내막증 비처방 추가 후보 batch 7550.
+- batch 7550: 자궁내막증 비처방 불임·보완요법·열·재활·운동·심리·디지털 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 222개, 고유 PMID 161개.
+- fetch: 161건 요청·160건 확보·2개 청크·일반 초록 157개. 초기 누락 PMID 22439157은 재조회에서 PubmedBookArticle 초록 1개로 확인됐다. 최종 누락 0건·전체 초록 158개.
+- 후보 parser: 161건 파싱·후보 71건·신규 후보 33건·효과 후보 19건; 수동 검토 후보 19건; 선정 0건·효과 후보 제외 19건·비후보 90건; 범주별 신규 없음.
+- 수동 검토 27000311·22592712·19588398·19803886·37802878·41439725·23913583·41754163·19388539·21901713·24346786은 고찰·문헌고찰 자료였다. 24996447·18173140은 처방약과 허브를 함께 쓴 연구로 비처방 효과를 분리할 수 없었고, 20579357은 불임치료 프로토콜, 33095458은 수술 고찰, 41665220은 동물연구, 41551998은 보툴리눔 독소 연구, 38787068은 시술에 붙인 비대조 마음챙김 자료, 41791364는 관찰 자료였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7550final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815개.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 70fd4bfcc; push marker commit: f3510676e; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7560; resume point new-expansion-candidates-batch7560; 자궁내막증 비처방 추가 후보 batch 7560.
