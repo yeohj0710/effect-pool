@@ -24328,3 +24328,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: e20ba4b4ec4861d23a173293de39b46cb6894773; push marker commit: afaa72dd54d707048744c5051ea44679d37e4408; known_items commit: (after ledger commit); PUSHED=true.
 - 정확한 다음 재개점: next_batch 7770; resume point new-expansion-candidates-batch7770; 자궁내막증 비처방 자궁내막종·가임력·통증 중재 후보 batch 7770.
+- batch 7770: 자궁내막증 비처방 통합의학·자기관리·재활 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 276개, 고유 PMID 220개.
+- fetch: 220건 요청·217건 일반 PubMed 기록 확보·3개 청크·일반 초록 216개. 초기 누락 PMID 22439157·31697458·32119472는 재조회에서 PubmedBookArticle 초록 3개로 확인됐다. 최종 누락 0건·전체 초록 219개.
+- 후보 parser: 220건 파싱·후보 54건·신규 후보 27건·효과 후보 11건; 수동 검토 후보 11건; 선정 0건·효과 후보 제외 11건·비후보 166건; 범주별 신규 없음.
+- 수동 검토 19588398·21901713·38199787·16765092·34923620·27000311·41754163은 한약·침술·통합의학·만성 골반통·수술·보충제·영양 관련 고찰 자료였다. 24996447은 경구피임약과 한약 병용, 27370359는 IVF 보조 의료치료 연구로 비처방 효과를 분리할 수 없었다. 33186771은 비비교 보툴리눔 독소 연구, 31875661은 대조군 없는 자기관리 전후 자료였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7770final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 143739d517738e0894a9f7abef078dc1fbae6683; push marker commit: e849c4c208d0395d4b2601f73199d33e22be9e9d; known_items commit: (after ledger commit); PUSHED=true.
+- 정확한 다음 재개점: next_batch 7780; resume point new-expansion-candidates-batch7780; 자궁내막증 비처방 통합의학·자기관리·재활 후보 batch 7780.
