@@ -23779,3 +23779,12 @@ Batch 5090
 - 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 0e74727f524c76d065503f964c70f561a88cd7ca; push marker commit: 01042dbf06a7fd127f9b6130f99020bd2aec5b06; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 7170; resume point new-expansion-candidates-batch7170; 자궁내막증 비처방 추가 후보 batch 7170.
+- batch 7170: 자궁내막증 비처방 심리·자기관리·성건강·운동 추가 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 473개, 고유 PMID 432개.
+- fetch: 432건 요청·430건 확보·5개 청크·일반 초록 430개. 초기 누락 PMID 22439157·31697458은 재조회에서 PubmedBookArticle 초록 2건으로 확인됐다. 최종 누락 0건·전체 초록 432개.
+- 후보 parser: 430건 파싱·후보 39건·신규 후보 24건·효과 후보 16건; 수동 검토 후보 16건; 선정 0건·효과 후보 제외 16건·비후보 391건; 범주별 신규 없음.
+- 수동 검토 PMID 39360492·19415065·31875661·37831340·41694262·38581105·40643445·29228373·31194864·29786828·34923620·24595586·15790607·27328489·37674937·9207576은 고찰·문헌고찰·단일군·관찰·처방 치료·수술·프로토콜 또는 군간 결과 수치 부족으로 모두 제외했다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7170final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,758개; 주제 17,383개; 근거 링크 27,889개; 숫자 군간 비교 23,819개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: a5cec4621cca03cd6ad9169d2bf30fe0068d1f7f; push marker commit: 3e7cf40114089b7eec0d109c910bc2ef10bda66b; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 7180; resume point new-expansion-candidates-batch7180; 자궁내막증 비처방 추가 후보 batch 7180.
