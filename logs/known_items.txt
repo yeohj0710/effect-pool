@@ -23554,3 +23554,12 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 92cc45710430bb5d412f5344264a52333950d84b; checkpoint record commit: 864f5333039fe4700b22aead8e9ac10016c2b717; push marker commit: 11317a426dd746cb53c8e3c9edb5f474c391b032; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6920; resume point new-expansion-candidates-batch6920; 자궁내막증 비처방 운동·재활·심리·식이 146차 후보 batch 6920.
+- batch 6920: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 271개, 고유 PMID 204개.
+- fetch: 204건 요청·203건 확보·3개 청크·일반 초록 199개. 초기 누락 PMID 22439157은 재조회에서 PubmedBookArticle와 초록 1개로 확인됐다. 최종 누락은 0건이며 전체 초록은 200개다.
+- 후보 parser: 204건 파싱·후보 67건·신규 후보 33건·효과 후보 18건; 수동 검토 후보 18건; 선정 0건·효과 후보 제외 18건·비후보 137건; 범주별 신규 없음.
+- 수동 검토 PMID 41791364·39360492·40747556·33206374·39259620·41551998·37831340·31875661·29786828·21901713·24346786·11687104·19821276·19724042·27000311·41754163·23913583·41439725는 고찰·요약·관찰·생리 지표 연구·처방 호르몬·보툴리눔 독소·수술·단일군 전후·동물 연구 또는 자궁내막증 대상 불일치로 모두 제외했다. 신규 후보 중 38566501은 군별 표본 수와 유의성만 제시해 효과 수치가 부족했고, 35162761·34373298은 프로토콜, 39261815는 질적 면담, 19958132는 치료 효과가 아닌 전기피부 측정 연관 분석, 37885745는 동물 연구, 34994286는 처방 호르몬 병용 연구, 22439157은 고찰이었다. 신규 PMID와 신규 근거 링크는 없다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6920final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: e63c29ab3763fca7cb1443fb1564155d67a4e4c0; checkpoint record commit: 9e45caf2cf72938d5df67f465975dcf12a9d9572; push marker commit: 16969961708246b1c975463209a1073bfdd53797; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6930; resume point new-expansion-candidates-batch6930; 자궁내막증 비처방 운동·재활·심리·식이 147차 후보 batch 6930.
