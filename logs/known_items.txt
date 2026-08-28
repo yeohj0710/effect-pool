@@ -23392,6 +23392,15 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 74e01ad59; checkpoint record commit: 9b0a30833; push marker commit: 985483f7a; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6760; resume point new-expansion-candidates-batch6760; 자궁내막증 비처방 운동·재활·심리·식이 130차 후보 batch 6760.
+- batch 6760: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 230개, 고유 PMID 156개.
+- fetch: 156건 요청·155건 확보·2개 청크·일반 초록 155개. 초기 누락 PMID 1건은 재조회에서 PubmedBookArticle 1건과 초록 1개로 확인됐다. 최종 누락은 0건.
+- 후보 parser: 156건 파싱·후보 61건·신규 후보 27건·효과 후보 15건; 수동 검토 후보 15건; 선정 0건·효과 후보 제외 15건·비후보 95건; 범주별 신규 없음.
+- 수동 검토 효과 후보 15건은 고찰·관찰·사례·진단·프로토콜·처방약·수술·시술 또는 군간 결과 수치 부족으로 모두 제외했다. 21589790은 대조군 없는 23명 전후 마사지 연구였고, 38787068은 보툴리눔 독소 주사에 동반한 마음챙김 전후 평가였다. 35162761·34373298은 결과 수치가 없는 연구 설계·프로토콜이었고, 38566501은 군별 표본 수만 있고 결과 효과크기·비율·신뢰구간이 없었다. 신규 PMID와 신규 근거 링크는 없다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6760final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 05c43e52b; checkpoint record commit: eaf4ea31a; push marker commit: 3289fe722; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6770; resume point new-expansion-candidates-batch6770; 자궁내막증 비처방 운동·재활·심리·식이 131차 후보 batch 6770.
 - batch 6700: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 420개, 고유 PMID 256개.
 - fetch: 256건 요청·256건 확보·3개 청크·일반 초록 255개. 누락 PMID는 없었다. 재조회 0건.
 - 후보 parser: 256건 파싱·후보 93건·신규 후보 52건·효과 후보 32건; 수동 검토 후보 32건; 선정 0건·효과 후보 제외 32건·비후보 163건; 범주별 신규 없음.
