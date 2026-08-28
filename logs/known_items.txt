@@ -23446,3 +23446,12 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 46348ee9f2a33cd86ecc145a12af28fd493fd5b8; checkpoint record commit: 56f3d1398; push marker commit: ceaa001160093a261948005a941342b31877a61a; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 6800; resume point new-expansion-candidates-batch6800; 자궁내막증 비처방 운동·재활·심리·식이 134차 후보 batch 6800.
+- batch 6800: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 319개, 고유 PMID 228개.
+- fetch: 228건 요청·228건 확보·3개 청크·일반 초록 225개. 누락 PMID는 없었고 재조회 0건.
+- 후보 parser: 228건 파싱·후보 74건·신규 후보 32건·효과 후보 19건; 수동 검토 후보 19건; 선정 0건·효과 후보 제외 19건·비후보 154건; 범주별 신규 없음.
+- 수동 검토 PMID 39360492·38906210·34816682·11056245·11779591·38199787·29786828·31875661·39259620·36852092·34923620·35974874·16820124·38903416·21901713·24346786·34370858·27000311·23913583는 고찰·요약·관찰·프로토콜·수술·처방약 또는 질환 대상 불일치로 모두 제외했다. 36852092는 군별 결과 수치·효과크기·비율·신뢰구간 없이 P<.05만 제시했고, 신규 후보 중 35162761·34373298은 결과 수치가 없는 연구 설계·프로토콜, 38566501은 군별 표본 수만 있는 효과크기 부족 연구였다. 신규 PMID와 신규 근거 링크는 없다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 전용 검증: `node etc/validate6800final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 5f964e0c9d7964dfa591195e3370f92483a1a5fc; checkpoint record commit: 2e5718044; push marker commit: 6f0b03ca2c79a69dab5886c2029ee736d41fffc6; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 6810; resume point new-expansion-candidates-batch6810; 자궁내막증 비처방 운동·재활·심리·식이 135차 후보 batch 6810.
