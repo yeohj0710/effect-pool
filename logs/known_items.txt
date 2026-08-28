@@ -23671,3 +23671,12 @@ Batch 5090
 - 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: 없음; checkpoint state commit: 188da9b66; checkpoint record commit: da2b7ee31; push marker commit: 37d38163e; known_items commit: 없음; PUSHED=true.
 - 정확한 다음 재개점: next_batch 7050; resume point new-expansion-candidates-batch7050; 자궁내막증 비처방 운동·재활·심리·식이 159차 후보 batch 7050.
+- batch 7050: 자궁내막증 비처방 운동·재활·심리·식이 후보 30개를 처리했고, 선정 0건·신규 ID·PMID 없음. 검색 레코드 392개, 고유 PMID 321개.
+- fetch: 321건 요청·319건 확보·4개 청크·일반 초록 316개. 초기 누락 PMID 22439157·32119472는 재조회에서 PubmedBookArticle 2건과 초록 2개로 확인됐다. 최종 누락 0건·전체 초록 318개.
+- 후보 parser: 321건 파싱·후보 71건·신규 후보 39건·효과 후보 19건; 수동 검토 후보 19건; 선정 0건·효과 후보 제외 19건·비후보 250건; 범주별 신규 없음.
+- 수동 검토 PMID 39360492·24595586·33206374·39259620·36852092·33973648·37831340·31875661·41023704·35974874·38199787·29786828·16820124·34923620·27000311·41754163·23913583·21901713·24346786은 고찰·처방 호르몬·군별 결과값이 없는 교육 연구·질적 연구·불임 연구 방법론·인식 조사·수술 또는 침 치료 고찰로 모두 제외했다. 신규 후보 중 31800061은 건강 대조군을 둔 운동 전후 준실험 연구로 치료 대조군이 없었고, 37885745는 군별 효과크기·비율·신뢰구간이 없는 환경개선 연구, 38566501은 군별 효과 수치가 없는 CBT 연구, 34994286은 처방 피임약과 NAC 병용 효과를 분리할 수 없는 연구, 30001982는 처방 디에노게스트 병용 연구, 39241806은 관찰 연구였다. 신규 PMID와 신규 근거 링크는 없다.
+- 전용 검증: `node etc/validate7050final.mjs` 최종 exit 0; 오류 0; 경고 0. 빌드: `node build.mjs` 최종 exit 0; build error 0건; 최종 warning 8,406건; 신규 warning 없음.
+- 새 경고 수정: 0건; 신규 targeted warning 없음; 실제 경고: unknown-n 0건·n<50 소표본 0건; 누적 build unknown-n 1,265건·n<50 6,815건.
+- 누적 집계: 항목 24,756개; 주제 17,383개; 근거 링크 27,887개; 숫자 군간 비교 23,817개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
+- data commit: 없음; checkpoint state commit: 70eb646ab; checkpoint record commit: 4e044f7c3; push marker commit: 988941c45; known_items commit: 없음; PUSHED=true.
+- 정확한 다음 재개점: next_batch 7060; resume point new-expansion-candidates-batch7060; 자궁내막증 비처방 운동·재활·심리·식이 160차 후보 batch 7060.
