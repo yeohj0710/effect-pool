@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T06:15:20.551Z",
+  "updated": "2026-08-29T06:18:36.746Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24758,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 9960은 자궁내막증 비처방 자기관리·디지털 건강·심신 중재 추가 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9960 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 9970으로 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 9970은 자궁내막증 비처방 증상별 재활·사회적 지지·행동 중재·피로·수면·운동 추가 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9970 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 9980으로 재개한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 9960은 자궁내막증 비처방 자기관리·디지털 건강·심신 중재 추가 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9970으로 재개한다."
+    "note": "Batch 9970은 자궁내막증 비처방 증상별 재활·사회적 지지·행동 중재·피로·수면·운동 추가 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9980으로 재개한다."
   },
   "checkpoints": {
     "over_counter_share": "25.1% (6212 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 9970 checkpoint 7076c568a is on origin/main. Push marker is recorded; finalize logs and resume with batch 9980.",
+  "next": "Batch 9970 final logs are on origin/main. Resume with batch 9980.",
   "resume": {
-    "next_batch": "9970",
-    "worklist_line": "new-expansion-candidates-batch9970",
-    "topic": "자궁내막증 비처방 증상별 재활·사회적 지지·행동 중재·피로·수면·운동 추가 후보 batch 9970",
+    "next_batch": "9980",
+    "worklist_line": "new-expansion-candidates-batch9980",
+    "topic": "자궁내막증 비처방 추가 후보 batch 9980",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9605,8 +9605,8 @@
     "pushed": true,
     "data_commits": [],
     "checkpoint_commit": "7076c568a",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "3d0916ab3",
+    "known_items_commit": "97ae9777e",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 0,
