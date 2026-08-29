@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T12:24:16.585Z",
+  "updated": "2026-08-29T12:25:22.618Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24928,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 10480은 다발성경화증 비처방 호흡·운동·재활·식이·보충제 후보 30개 주제를 검색했고, PMID 41079238·28770664·31524664·37941305·37004274·19884575·30722036·32645227·15240203·38140847·20194584·38768010·40946696·32171169·41038140·37683559·34851211·28900546·23959713·29668399·41750192·39489207·25398725·31255988·34496278·41430777·40877830·29982544·37651846·41951219 30건을 추가했다. 다음 확장은 batch 10490이다."
+    "note": "Batch 10490은 다발성경화증 비처방 식이·보충제·운동·재활·심리 후보 30개 주제를 검색했고, PMID 31610401·38011378·40224203·34392854·40063041·41397213·24821457·30477834·37254895·20371148·39709700·30412513·28607753·25893397·39741757·28410453·35316705·29113572·30092206·31229528·41780471·29386274·37724548·42150723·36113117·20809354·34177385·38200916·26656775·24912561 30건을 추가했다. 다음 확장은 batch 10500이다."
   },
   "checkpoints": {
     "over_counter_share": "25.0% (6234 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10490 data and PUSHED=true marker are prepared. Resume with the final state sync.",
+  "next": "Batch 10490 final state is on origin/main. Resume with batch 10500.",
   "resume": {
-    "next_batch": "10490",
-    "worklist_line": "new-expansion-candidates-batch10490",
-    "topic": "다발성경화증 비처방 추가 후보 batch 10490",
+    "next_batch": "10500",
+    "worklist_line": "new-expansion-candidates-batch10500",
+    "topic": "다발성경화증 비처방 추가 후보 batch 10500",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9601,14 +9601,14 @@
   },
   "last_batch": {
     "id": "10490",
-    "commit": "ac55a3791",
+    "commit": "ac55a37917f27bef8f1f06b47382e0497432c76c",
     "pushed": true,
     "data_commits": [
-      "ac55a3791"
+      "ac55a37917f27bef8f1f06b47382e0497432c76c"
     ],
-    "checkpoint_commit": "c2ad528cc",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "checkpoint_commit": "c2ad528ccdd18ee49dd08dfead346a783a42f06b",
+    "push_marker_commit": "2f4d28fa615da266990c32125cda828be1f03039",
+    "known_items_commit": "b9a84ee3bea22f529a83593f8e9b15185e3519bd",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 30,
@@ -9802,9 +9802,9 @@
     "category_reclassifications": [],
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10490",
-      "worklist_line": "new-expansion-candidates-batch10490",
-      "topic": "다발성경화증 비처방 추가 후보 batch 10490",
+    "next_batch": "10500",
+    "worklist_line": "new-expansion-candidates-batch10500",
+    "topic": "다발성경화증 비처방 추가 후보 batch 10500",
       "unchecked": 0
     },
     "unknownN": 0,
