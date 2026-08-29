@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T11:29:39.363Z",
+  "updated": "2026-08-29T11:30:22.096Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24868,
@@ -61,7 +61,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10470 checkpoint state is ready. Resume with batch 10470 after the pushed marker.",
+  "next": "Batch 10470 data and PUSHED=true marker are on origin/main. Resume with batch 10480.",
   "resume": {
     "next_batch": "10470",
     "worklist_line": "new-expansion-candidates-batch10470",
@@ -9601,10 +9601,12 @@
   },
   "last_batch": {
     "id": "10470",
-    "commit": null,
-    "pushed": false,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "74fc8b5a5105316e417a5541f52a9e4ebe97963a",
+    "pushed": true,
+    "data_commits": [
+      "74fc8b5a5105316e417a5541f52a9e4ebe97963a"
+    ],
+    "checkpoint_commit": "2e253927f636ca2bdc5fc8f22a19ee5f33c4c7ae",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10088,7 +10090,7 @@
     "sample_sizes_filled": 0,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "10470",
       "worklist_line": "new-expansion-candidates-batch10470",
