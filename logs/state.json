@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T02:49:02.080Z",
+  "updated": "2026-08-29T02:50:08.334Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24758,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 9460은 자궁내막증 비처방 통증대처·수면·심리 후보 30개를 검색했고 신규 항목을 기록하지 않았다. 현재 checkpoint를 준비한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 9460은 자궁내막증 비처방 통증대처·수면·심리 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9460 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 9470으로 재개한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 9460은 자궁내막증 비처방 통증대처·수면·심리 후보 30개를 검색했고 신규 항목을 기록하지 않았다. 현재 checkpoint를 준비한다."
+    "note": "Batch 9460은 자궁내막증 비처방 통증대처·수면·심리 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 9470으로 재개한다."
   },
   "checkpoints": {
     "over_counter_share": "25.1% (6212 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 9460 checkpoint 1bebe95ab is on origin/main. Push marker is recorded; finalize logs and resume with batch 9470.",
+  "next": "Batch 9460 final logs are on origin/main. Resume with batch 9470.",
   "resume": {
-    "next_batch": "9460",
-    "worklist_line": "new-expansion-candidates-batch9460",
-    "topic": "자궁내막증 비처방 통증대처·수면·심리 추가 후보 batch 9460",
+    "next_batch": "9470",
+    "worklist_line": "new-expansion-candidates-batch9470",
+    "topic": "자궁내막증 비처방 생활습관·교육·재활 보완 후보 batch 9470",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9605,8 +9605,8 @@
     "pushed": true,
     "data_commits": [],
     "checkpoint_commit": "1bebe95ab",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "7fb6fba3d",
+    "known_items_commit": "4bc2001ca",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 0,
