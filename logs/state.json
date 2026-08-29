@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T07:34:09.919Z",
+  "updated": "2026-08-29T07:37:50.417Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24758,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 10160은 자궁내막증 비처방 물리치료·보완요법·심신중재 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10160 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10170으로 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 10170은 자궁내막증 비처방 운동·재활·교육 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10170 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10180으로 재개한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 10160은 자궁내막증 비처방 물리치료·보완요법·심신중재 후보 30개를 검색했으나 수치 근거를 충족하는 신규 연구가 없었다. Batch 10170으로 재개한다."
+    "note": "Batch 10170은 자궁내막증 비처방 운동·재활·교육 후보 30개를 검색했으나 수치 근거를 충족하는 신규 연구가 없었다. Batch 10180으로 재개한다."
   },
   "checkpoints": {
     "over_counter_share": "25.1% (6212 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10170 checkpoint b1678ac83 is on origin/main. Push marker is recorded; finalize logs and resume with batch 10180.",
+  "next": "Batch 10170 final logs are on origin/main. Resume with batch 10180.",
   "resume": {
-    "next_batch": "10170",
-    "worklist_line": "new-expansion-candidates-batch10170",
-    "topic": "자궁내막증 비처방 추가 후보 batch 10170",
+    "next_batch": "10180",
+    "worklist_line": "new-expansion-candidates-batch10180",
+    "topic": "자궁내막증 비처방 추가 후보 batch 10180",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9605,8 +9605,8 @@
     "pushed": true,
     "data_commits": [],
     "checkpoint_commit": "b1678ac83",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "88f09c4e9",
+    "known_items_commit": "cfb91e09a",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 0,
