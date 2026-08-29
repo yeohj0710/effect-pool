@@ -26982,3 +26982,14 @@ Batch 5090
 - 누적 집계: 항목 25,372개; 주제 17,885개; 근거 링크 28,504개; 숫자 군간 비교 24,433개; 사람 수 미상 1,279개; 소규모 연구 7,142개.
 - checkpoint state commit: c0ec18841; data commit: 30968e695; push marker commit: ab8091c7a; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 10650; resume point new-expansion-candidates-batch10650; 다음은 비처방 후보 주제 선정 batch 10650이다.
+- batch 10650: 자궁내막증 비처방 운동·식이·보충제·침·물리치료 후보 30개 주제를 처리했고 1건을 선정했다. 30개 주제 모두 비처방 후보였으며, 직접 수치가 충분한 출판·등록 결과가 있는 시험만 남겼다.
+- 검색·fetch: PubMed 검색 레코드 1,877개·고유 PMID 972개; 972건 요청·970건 기록·10개 청크·일반 초록 947개. 누락 PMID 22439157·25905227 2개는 재조회해 PubmedBookArticle 기록과 초록 2개를 확보했고 최종 초록은 949개였다. 기본 검색은 132개 레코드·고유 PMID 92개였고 보강 검색 20개가 1,745개 레코드를 추가했다.
+- 후보 parser: 972건 파싱·후보 112건·신규 후보 65건·효과 후보 55건; 수동 검토 55건·PubMed 선정 0건·효과 후보 제외 55건·비후보 860건. ClinicalTrials.gov 13개 검색어에서 원시 119건·고유 NCT 70건·결과 공개 NCT 6건을 확인했고, 결과표와 출판 초록이 연결된 1건을 선정했으며 5건은 결과표 부족·단일군·처방·수술 시험으로 제외했다.
+- 신규 ID·PMID·NCT: endometriosis-environmental-enrichment-ctgov-nct04179149-null(PMID 37885745; ClinicalTrials.gov NCT04179149).
+- 선정 근거: 환경풍부화 2군 무작위시험의 PubMed 초록과 ClinicalTrials.gov 결과표에서 환경풍부화군·대조군의 통증 평균과 표본 수를 직접 확인했다. 중재 종료 통증은 7.2 대 5.1점이었지만 등록 결과표에 군간 P값이 없어 통증 우월성을 주장하지 않고 null로 기록했다. 레스베라트롤·AHEI 식단·자기관리 웹의 NCT-only 결과는 수치가 있었지만 build가 요구하는 출판 PMID·DOI·PMC 연결이 없어 항목으로 만들지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 수동 제외: 처방약 단독·약물 병용 분리 불가, 고찰·메타분석·프로토콜, 관찰·단일군·동물·혼합질환·수치 부족 연구를 제외했다. PubMed 후보 55건은 출판 초록만으로 군간 수치가 충분하지 않거나 고찰·동물·처방·수술 연구여서 제외했다.
+- 범주별 신규: life 1건; 방향별 null 1건; tier trial 1건; unknown-n 0건·n<50 소표본 0건.
+- 전용 검증: 최종 exit 0·오류 0·경고 0건. PMID·NCT 중복 0건·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 초기 임시 4건에서 numeric 비교 오류 4건과 build error 4건이 발생했으며, NCT-only 3건을 제거하고 남은 1건에 출판 PMID를 연결하고 비교 표현을 보완해 해결했다. 최종 build exit 0·error 0건·warning 8,749건; 새 targeted warning 수정 0건·effect warning 수정 0건이며 새 unknown-n·소표본 warning은 0건이었다.
+- 누적 집계: 항목 25,373개; 주제 17,886개; 근거 링크 28,505개; 숫자 군간 비교 24,434개; 사람 수 미상 1,279개; 소규모 연구 7,142개.
+- checkpoint state commit: c48d0b15c; data commit: b41c74cd2; push marker commit: 2fbccc562; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 10660; resume point new-expansion-candidates-batch10660; 다음은 비처방 후보 주제 선정 batch 10660이다.
