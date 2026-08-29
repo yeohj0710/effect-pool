@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T08:46:27.424Z",
+  "updated": "2026-08-29T08:51:07.802Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24758,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 10300은 자궁내막증 비처방 재활·호흡·심리·교육·물리적 중재 후보 30개를 검색했으나 수치 근거를 충족하는 신규 항목을 기록하지 않았다. Batch 10300 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10310으로 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 10310은 자궁내막증 비처방 근막·성기능·통증교육·자기관리·운동·자기장 및 신경조절 후보 30개를 검색했으나 수치 근거를 충족하는 신규 항목을 기록하지 않았다. Batch 10310 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10320으로 재개한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 10300은 자궁내막증 비처방 재활·호흡·심리·교육·물리적 중재 후보 30개를 검색했으나 수치 근거를 충족하는 신규 연구가 없었다. Batch 10310으로 재개한다."
+    "note": "Batch 10310은 자궁내막증 비처방 근막·성기능·통증교육·자기관리·운동·자기장 및 신경조절 후보 30개를 검색했으나 수치 근거를 충족하는 신규 연구가 없었다. Batch 10320으로 재개한다."
   },
   "checkpoints": {
     "over_counter_share": "25.1% (6212 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10310 checkpoint f02aea900 is on origin/main. Push marker is recorded; finalize logs and resume with batch 10320.",
+  "next": "Batch 10310 final logs are on origin/main. Resume with batch 10320.",
   "resume": {
-    "next_batch": "10310",
-    "worklist_line": "new-expansion-candidates-batch10310",
-    "topic": "자궁내막증 비처방 추가 후보 batch 10310",
+    "next_batch": "10320",
+    "worklist_line": "new-expansion-candidates-batch10320",
+    "topic": "자궁내막증 비처방 추가 후보 batch 10320",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9605,8 +9605,8 @@
     "pushed": true,
     "data_commits": [],
     "checkpoint_commit": "f02aea900a32322088d5349c1d5433fbd3cc316e",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "eaa0f4ae4519dd8516ccf0c979d3040febcba125",
+    "known_items_commit": "5c578543aa209767c0098e28659a500ab475ad8e",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 0,
