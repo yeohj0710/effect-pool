@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T06:37:22.744Z",
+  "updated": "2026-08-29T06:41:00.550Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 24758,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174를 유지했다. Batch 10020은 자궁내막증 비처방 전기·기기·수기·골반저·심리 중재 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10020 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10030으로 재개한다."
+    "note": "Worklist 17174/17174를 유지했다. Batch 10030은 자궁내막증 비처방 난임·임신 교육·생활습관·운동·수면·지지 중재 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10030 checkpoint·PUSHED=true marker·known_items를 모두 push했다. Batch 10040으로 재개한다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 625,
-    "note": "Batch 10020은 자궁내막증 비처방 전기·기기·수기·골반저·심리 중재 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10030으로 재개한다."
+    "note": "Batch 10030은 자궁내막증 비처방 난임·임신 교육·생활습관·운동·수면·지지 중재 후보 30개를 검색했고 신규 항목을 기록하지 않았다. Batch 10040으로 재개한다."
   },
   "checkpoints": {
     "over_counter_share": "25.1% (6212 entries)",
@@ -61,11 +61,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10030 checkpoint 27f71b523 is on origin/main. Push marker is recorded; finalize logs and resume with batch 10040.",
+  "next": "Batch 10030 final logs are on origin/main. Resume with batch 10040.",
   "resume": {
-    "next_batch": "10030",
-    "worklist_line": "new-expansion-candidates-batch10030",
-    "topic": "자궁내막증 비처방 난임·임신 교육·생활습관·운동·수면·지지 중재 후보 batch 10030",
+    "next_batch": "10040",
+    "worklist_line": "new-expansion-candidates-batch10040",
+    "topic": "자궁내막증 비처방 추가 후보 batch 10040",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9605,8 +9605,8 @@
     "pushed": true,
     "data_commits": [],
     "checkpoint_commit": "27f71b523",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "27763c7ee",
+    "known_items_commit": "2e25d1efc",
     "maintenance": false,
     "processed_topics": 30,
     "new_entries": 0,
