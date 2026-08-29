@@ -26725,3 +26725,13 @@ Batch 5090
 - 누적 집계: 항목 24,760개; 주제 17,383개; 근거 링크 27,891개; 숫자 군간 비교 23,821개; 사람 수 미상 1,265개; 소규모 연구 6,815개.
 - data commit: c713e457d59b453f362d31e0477ee4be31b80603; checkpoint state commit: 8e68b83d9804cc4be2b6eb8667cb998c2d5e2802; push marker commit: 49ceebdecd1d8a085541916404b823cdce75c687; PUSHED=true.
 - 정확한 다음 재개점: next_batch 10430; resume point new-expansion-candidates-batch10430; 편두통 비처방 추가 후보 batch 10430.
+- batch 10430: 이명 비처방 인지행동·마음챙김·이완·상담·교육·소리치료·청각훈련·보청기·침술·전기자극·경두개자극·운동·수면·보충제 후보 30개 주제를 처리했고, 8건을 선정했다. 30개 주제 모두 비처방 후보였다.
+- 검색·fetch: 검색 레코드 1,485개·고유 PMID 755개; 755건 요청·753건 일반 PubMed 기록·8개 청크·초록 745개. 누락 PMID 2개는 refetch해 서지기록·초록 2개를 확보했고, 모두 PubMed Book Article이었다. 최종 초록은 747개였다.
+- 후보 parser: 755건 파싱·후보 384건·신규 후보 184건·효과 후보 87건; 수동 검토 87건·선정 8건·효과 후보 제외 79건·비후보 371건; 기존 근거 링크 200건. 신규 PMID 26773752·19205171·20044759·18843180·40390618·25906563·30528654·35368921 8건을 시술·기기(care) 범주로 기록했다.
+- 선정 근거: 26773752는 가상현실 61명·인지행동치료 58명·대기군 29명의 3개월 비교에서 중증도 p=.99·장애 p=.36으로 차이가 없었다. 19205171은 레이저 26명·위약 20명에서 한 단계 이상 호전율 61% 대 35%, 20044759는 훈련군 41명·대기군 26명에서 호전 42.2%와 THI P<.01, 18843180은 레이저 위약 대조 THI p=.97·VAS p=.69를 보고했다. 40390618은 전기침 추가 29/33 대 일반 침술 24/33(87.9% 대 72.7%), 25906563은 경혈 매입침 추가 24/31 대 전기침 단독 16/32(77.4% 대 50.0%), 30528654는 다회·단회 무작위잡음 자극에서 p<.05·η²>0.8, 35368921은 맞춤·일반 침술 50명씩에서 이명·수면 지표 P<.05를 초록에서 확인했다.
+- 수동 제외: 단일군·비무작위·관찰·고찰·메타분석·방법론·프로토콜, 처방약·약물 병용, 다른 질환·수술·청력손실 단독 연구, 군간 수치 부족 또는 이명 결과를 분리할 수 없는 연구를 제외했다.
+- 신규 ID·PMID: tinnitus-vr-cbt-26773752(PMID 26773752), tinnitus-low-level-laser-19205171(PMID 19205171), tinnitus-auditory-discrimination-20044759(PMID 20044759), tinnitus-low-level-laser-18843180(PMID 18843180), tinnitus-electroacupuncture-40390618(PMID 40390618), tinnitus-acupoint-embedding-25906563(PMID 25906563), tinnitus-transcranial-random-noise-30528654(PMID 30528654), tinnitus-acupuncture-points-35368921(PMID 35368921). 범주별 신규 care 8건; 방향별 pos 6건·null 2건; unknown-n 0건·n<50 소표본 2건.
+- 전용 검증: exit 0·오류 0·경고 0. build: exit 0·error 0건·warning 8408건; 새 소표본 warning 2건을 유지했고 새 warning 수정 0건.
+- 누적 집계: 항목 24,768개; 주제 17,383개; 근거 링크 27,899개; 숫자 군간 비교 23,829개; 사람 수 미상 1,265개; 소규모 연구 6,817개.
+- data commit: 7e6cf3985cf36d9f9528725b82587cba4cd4be82; checkpoint state commit: ed3296901d04bd24acd82ef25fc83105c07ce38b; push marker commit: da2df9bacad1207a33f95b82cdc4b9b8e2cc998e; PUSHED=true.
+- 정확한 다음 재개점: next_batch 10440; resume point new-expansion-candidates-batch10440; 이명 비처방 추가 후보 batch 10440.
