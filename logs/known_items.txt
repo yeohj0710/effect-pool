@@ -26949,3 +26949,15 @@ Batch 5090
 - 누적 집계: 항목 25,288개; 주제 17,809개; 근거 링크 28,420개; 숫자 군간 비교 24,349개; 사람 수 미상 1,277개; 소규모 연구 7,106개.
 - data commit: c09da6b94; checkpoint state commit: 3e1a845de; push marker commit: 4bc3ac13a; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 10620; resume point new-expansion-candidates-batch10620; 다음은 다발성경화증 비처방 추가 후보 batch 10620이다.
+- batch 10620: 파킨슨병 비처방 보충제·식이·운동·재활 후보 30개 주제를 처리했고 30건을 선정했다. 30개 주제 모두 비처방 후보였다.
+- 검색·fetch: PubMed 검색 레코드 3,928개·고유 PMID 1,798개; 1,798건 요청·1,795건 기록·18개 청크·일반 초록 1,769개. 누락 PMID 29763005·41115045·30234932 3개는 재조회해 PubmedBookArticle 기록과 초록 3개를 확보했고 최종 초록은 1,772개였다.
+- 후보 parser: 1,798건 파싱·후보 730건·신규 후보 607건·효과 후보 575건; 수동 검토 575건·선정 30건·효과 후보 제외 545건·비후보 1,068건; 기존 근거 링크 0건.
+- 신규 ID·PMID: pd-coq10-pilot-26054881(PMID 26054881), pd-coq10-highdose-24664227(PMID 24664227), pd-coq10-functional-12374491(PMID 12374491), pd-neuroaspis-34607196(PMID 34607196), pd-omega3-gene-30554092(PMID 30554092), pd-omega3-clinical-28342967(PMID 28342967), pd-vitd-clinical-42499083(PMID 42499083), pd-vitd-immune-40646117(PMID 40646117), pd-vitd-dbs-37373347(PMID 37373347), pd-probiotic-rbd-40717466(PMID 40717466), pd-probiotic-constipation-42634734(PMID 42634734), pd-probiotic-gene-30041526(PMID 30041526), pd-lcs-37470081(PMID 37470081), pd-synbiotic-40434674(PMID 40434674), pd-caffeine-39280310(PMID 39280310), pd-chocolate-22584952(PMID 22584952), pd-time-restricted-diet-41666212(PMID 41666212), pd-ketogenic-diet-30098269(PMID 30098269), pd-trunk-rehab-31097299(PMID 31097299), pd-telerehab-big-38267603(PMID 38267603), pd-freezing-resistance-32557868(PMID 32557868), pd-lsvt-big-20669294(PMID 20669294), pd-cross-education-37330755(PMID 37330755), pd-exergame-brain-39103924(PMID 39103924), pd-rebound-41592453(PMID 41592453), pd-verbal-gait-38207195(PMID 38207195), pd-handwriting-31506240(PMID 31506240), pd-homedext-28578819(PMID 28578819), pd-selfmanagement-rehab-20077478(PMID 20077478), pd-feldenkrais-25599428(PMID 25599428).
+- 선정 근거: 코엔자임Q10·오메가3·비타민D·프로바이오틱·카페인·초콜릿·시간제한 식사·저탄수화물 식단은 초록에서 군별 평균·비율·P값·신뢰구간을 확인했다. 운동·재활·원격재활·LSVT BIG·엑서게임·보행 지시·손기능·자기관리·펠덴크라이스는 군별 표본·변화량·P값·효과크기 또는 유효한 상대효과를 확인했다.
+- 수동 제외: 처방약 단독·약물 병용 분리 불가, 고찰·메타분석·프로토콜, 관찰·단일군·사례·동물·혼합질환·수치 부족 연구를 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 범주별 신규: supp 15건·food 3건·move 5건·care 7건; 방향별 pos 26건·null 4건; tier trial 30건; unknown-n 0건·n<50 소표본 18건.
+- 전용 검증: 최종 exit 0·오류 0·경고 18건. PMID 중복 0건·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 초기 누락 tier 오류 30건과 주제명 경고 2건을 수정했고, 실제 소표본 경고 18건은 유지했다.
+- build: 초기 error 30건·warning 8,712건에서 최종 exit 0·error 0건·warning 8,728건; 새 targeted warning은 소표본 18건만 남겼다.
+- 누적 집계: 항목 25,318개; 주제 17,839개; 근거 링크 28,450개; 숫자 군간 비교 24,379개; 사람 수 미상 1,277개; 소규모 연구 7,124개.
+- checkpoint state commit: 033e03dd0; data commit: e71935ad4; push marker commit: 6adddf29e; PUSHED=true 상태로 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 10630; resume point new-expansion-candidates-batch10630; 다음은 신규 비처방 후보 batch 10630이다.
