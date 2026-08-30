@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T03:53:56.839Z",
+  "updated": "2026-08-30T03:54:13.271Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 25883,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10840은 섬유근육통 비처방 후보 30개 주제에서 신규 항목 19건을 기록했다. 같은 batch 재개 상태다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10840은 섬유근육통 비처방 후보 30개 주제에서 신규 항목 19건을 기록했다. 다음 재개점은 batch 10850이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 10840은 섬유근육통 비처방 후보를 검색해 신규 PMID 9272472·1853462·20074436·30127510·28321566·32701637·30588705·38150768·30955403·21764215·32744483·11764222·14635300·23765203·21170277·38751921·38790395·30159280·37568391를 기록했다. 데이터 push 전 단계다."
+    "note": "Batch 10840은 섬유근육통 비처방 후보를 검색해 신규 PMID 9272472·1853462·20074436·30127510·28321566·32701637·30588705·38150768·30955403·21764215·32744483·11764222·14635300·23765203·21170277·38751921·38790395·30159280·37568391를 기록했다. 다음 확장은 batch 10850이다."
   },
   "checkpoints": {
     "over_counter_share": "14.8% (3818 entries)",
@@ -54,19 +54,19 @@
     "build_warnings": {
       "unknown_n": 1290,
       "thin_study": 7330,
-      "targeted_batch_warnings": 374
+      "targeted_batch_warnings": 375
     },
-    "targeted_batch_warnings": 374
+    "targeted_batch_warnings": 375
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10840 evidence ledger is pushed; finalize state and resume with batch 10850.",
+  "next": "Batch 10840 final state is on origin/main. Resume with batch 10850.",
   "resume": {
-    "next_batch": "10840",
-    "worklist_line": "new-expansion-candidates-batch10840",
-    "topic": "섬유근육통 비처방 후보 데이터 작성 batch 10840",
+    "next_batch": "10850",
+    "worklist_line": "new-expansion-candidates-batch10850",
+    "topic": "다음 비처방 후보 주제 선정 batch 10850",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -10286,9 +10286,9 @@
     "subject_entries_renamed": 0,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10840",
-      "worklist_line": "new-expansion-candidates-batch10840",
-      "topic": "섬유근육통 비처방 후보 데이터 작성 batch 10840",
+      "next_batch": "10850",
+      "worklist_line": "new-expansion-candidates-batch10850",
+      "topic": "다음 비처방 후보 주제 선정 batch 10850",
       "unchecked": 0
     },
     "unknownN": 1290,
