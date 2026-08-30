@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T15:02:39.909Z",
+  "updated": "2026-08-30T15:03:36.115Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26566,
@@ -53,7 +53,7 @@
     "non_trial_share": "3.2% (851)",
     "build_warnings": {
       "unknown_n": 1296,
-      "thin_study": 7612,
+      "thin_study": 7619,
       "targeted_batch_warnings": 411
     },
     "targeted_batch_warnings": 411
@@ -178,7 +178,7 @@
     "112": "0",
     "113": ".",
     "batch": "11250",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch11250",
     "topic": "다음 비처방 후보 주제 선정 batch 11250"
   },
@@ -9721,11 +9721,13 @@
   },
   "last_batch": {
     "id": "11240",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "0d68262d56cb51245c8d25c8bdb03a519460396c",
+    "pushed": true,
+    "expansion_commit": "0d68262d56cb51245c8d25c8bdb03a519460396c",
+    "data_commits": [
+      "0d68262d56cb51245c8d25c8bdb03a519460396c"
+    ],
+    "checkpoint_commit": "a173c1f4954e33ccf7bb1be6d9e9abacb2970b28",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10152,7 +10154,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "11250",
       "worklist_line": "new-expansion-candidates-batch11250",
