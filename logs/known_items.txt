@@ -27408,3 +27408,12 @@ Batch 5090
 - 누적 집계: 항목 26,328개; 주제 18,737개; 근거 링크 29,488개; 숫자 군간 비교 25,389개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,502개.
 - checkpoint state commit: 9e9e750849cfd4b7815e1bdc707801fd238b5588; data commit: 612ec2d85e1d7d3a2301ebd32329478075c660bc; push marker commit: 3da5f67597275cad151ff99ce950546e0d819b9d; PUSHED=true 상태와 데이터·마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11050; resume point new-expansion-candidates-batch11050; 다음은 다음 비처방 후보 주제 선정 batch 11050이다.
+- batch11050: 편두통의 비처방 운동·행동·식이·보충제·침·비약물 기기 후보 주제 30개를 선정해 처리했고 보강 검색 30개를 추가했다. 신규 DB 항목은 0건이다.
+- 검색·fetch: PubMed 기본·보강 검색 60개에서 검색 레코드 1,533건·고유 PMID 801개를 확인했다. 기본 검색은 1,011건·고유 PMID 679개, 보강 검색은 522건·고유 PMID 418개였다. 801건을 fetch해 801건과 일반 초록 781개를 확보했고 9개 청크에서 처리했다. 누락은 0건이었다. ClinicalTrials.gov 30개 검색은 원시 400건·고유 NCT 232개·결과 공개 NCT 50개였고 상세 50건을 모두 조회했다.
+- 후보·제외: 801건 파싱·후보 99건·신규 후보 16건·효과 후보 15건을 확인했다. 신규 PubMed 후보는 기존 항목과 중복되거나 프로토콜·약물·비대상·수치 부족으로 모두 제외했다. 비후보 702건, 효과 후보 15건을 기록하지 않았고, 결과 공개 ClinicalTrials.gov 50건도 기존 PMID 중복·등록정보만 있음·약물 병용·프로토콜·비대상 결과로 신규 기록에서 제외했다. 신규 NCT 선정 0건, 신규 PMID 0건이다.
+- 범주별 신규: 신규 0건; 방향별 신규 0건; tier trial 신규 0건.
+- 전용 검증·빌드: 등록자료 임시 행을 검토하는 과정에서 발생한 build 오류 14건은 논문 없는 등록정보 또는 기존 연구 중복으로 행을 제거해 해결했다. 최종 validator exit 0·오류 0·경고 0건, PMID/NCT 중복·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 최종 build exit 0·error 0건·warning 9,133건으로 이전과 같았다.
+- 실제 경고: 최종 DB에 추가된 항목이 없으므로 unknown-n 신규 0건·n<50 신규 소표본 0건이다. 임시 검토 행의 소표본 경고는 DB에 기록하지 않았다.
+- 누적 집계: 항목 26,328개; 주제 18,737개; 근거 링크 29,488개; 숫자 군간 비교 25,389개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,502개.
+- checkpoint state commit: 5c477a31ddd84a1006e5dcf5c83978113c435c93; data commit: 2b0524955a9dbc049760a7dafef750396436b3b5; push marker commit: 22a50bad89e6592370df55db01a23ea42d35d583; PUSHED=true 상태와 빈 데이터 커밋·마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11060; resume point new-expansion-candidates-batch11060; 다음은 다음 비처방 후보 주제 선정 batch 11060이다.
