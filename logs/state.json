@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T08:52:29.360Z",
+  "updated": "2026-08-30T08:53:33.808Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26240,
@@ -53,20 +53,20 @@
     "non_trial_share": "3.2% (851)",
     "build_warnings": {
       "unknown_n": 1295,
-      "thin_study": 7472,
-      "targeted_batch_warnings": 412
+      "thin_study": 7469,
+      "targeted_batch_warnings": 410
     },
-    "targeted_batch_warnings": 412
+    "targeted_batch_warnings": 410
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10990 checkpoint is recorded locally; continue with data commit. Resume with batch 10990.",
+  "next": "Batch 10990 final state is recorded locally; pushed data and marker commits are complete. Resume with batch 11000.",
   "resume": {
-    "next_batch": "10990",
-    "worklist_line": "new-expansion-candidates-batch10990",
-    "topic": "어깨 통증 비처방 후보 선별 batch 10990",
+    "next_batch": "11000",
+    "worklist_line": "new-expansion-candidates-batch11000",
+    "topic": "다음 비처방 후보 주제 선정 batch 11000",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9602,11 +9602,13 @@
   },
   "last_batch": {
     "id": "10990",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "b9ba09e7582c599a7acb855fb43fdad060b208ef",
+    "pushed": true,
+    "expansion_commit": "b9ba09e7582c599a7acb855fb43fdad060b208ef",
+    "data_commits": [
+      "b9ba09e7582c599a7acb855fb43fdad060b208ef"
+    ],
+    "checkpoint_commit": "160b35092b35706f72bc0043c363bd19836b50bc",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9764,7 +9766,7 @@
     "initial_validator_errors": 0,
     "initial_validator_warnings": 3,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9100,
+    "initial_build_warning_lines": 9097,
     "build_warning_lines": 9100,
     "new_build_warnings": [
       "주의  shoulder-bt-ccfes-40130466 — 사람 38명짜리 단일 연구 하나로 맨 위 칸입니다. 근거가 얇습니다",
@@ -9856,15 +9858,15 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10990",
-      "worklist_line": "new-expansion-candidates-batch10990",
-      "topic": "어깨 통증 비처방 후보 선별 batch 10990",
+      "next_batch": "11000",
+      "worklist_line": "new-expansion-candidates-batch11000",
+      "topic": "다음 비처방 후보 주제 선정 batch 11000",
       "unchecked": 0
     },
     "unknownN": 1295,
-    "thin": 7472
+    "thin": 7469
   },
   "previous_last_batch_10490": {
     "id": "10490",
