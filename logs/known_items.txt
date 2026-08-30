@@ -27348,3 +27348,13 @@ Batch 5090
 - 누적 집계: 항목 26,232개; 주제 18,641개; 근거 링크 29,392개; 숫자 군간 비교 25,293개; 사람 수 미상 1,295개; 소규모 연구 7,466개.
 - checkpoint state commit: da00fc1d3; data commit: af3ff3715; push marker commit: ba3a12ad9; PUSHED=true 상태로 무수익 배치 상태와 빈 데이터 단계를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 10990; resume point new-expansion-candidates-batch10990; 다음은 다음 비처방 후보 주제 선정 batch 10990이다.
+- batch10990: 만성 어깨 통증·어깨충돌·편마비 어깨의 비처방 운동·수기치료·전기자극·테이핑·초음파 후보를 30개 주제로 선정해 처리했다. 기본 30개와 보강 30개를 포함한 60개 검색을 수행했다.
+- 검색·fetch: 검색 레코드 2,489건·고유 PMID 1,349개를 확인했다. 기본 검색은 716건·고유 PMID 282개, 보강 검색은 1,773건·고유 PMID 1,164개였다. 1,349건을 fetch해 1,349건을 확보했고 14개 청크에서 일반 초록 1,340개를 확보했다. 누락은 0건이었다.
+- 후보·제외: 1,349건 파싱·후보 113건·신규 후보 13건·효과 후보 13건을 확인했다. 직접 효과 후보 5건과 ClinicalTrials.gov 연결 논문 PMID 3건을 선택해 8건을 기록했고, 효과 후보 중 8건과 ClinicalTrials.gov 결과 공개 등록시험 39건을 수치 부족·비대상·비무작위·단일군·2차 분석·약물 혼합·출판 PMID 부재 등으로 제외했다. 비후보 1,236건도 제외했다.
+- 신규 ID·PMID: shoulder-intramuscular-nmes-16244520(16244520), shoulder-fes-hemiplegia-10084443(10084443), shoulder-bt-ccfes-40130466(40130466), shoulder-strapping-16719027(16719027), shoulder-phonophoresis-37671378(37671378), shoulder-rhomboid-pressure-relaxation-33715788(33715788), shoulder-whiplash-rib-manipulation-28372320(28372320), shoulder-tens-intensity-2363027(2363027). ClinicalTrials.gov 신규 선정 0건.
+- 범주별 신규: care 8건; 방향별 pos 7건·null 1건; tier trial 8건.
+- 전용 검증·빌드: validator 최종 exit 0·오류 0·경고 3건이며 PMID/NCT 중복 0건·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 초기 build exit 0·error 0건·warning 9,097건에서 최종 build exit 0·error 0건·warning 9,100건으로 통과했다. 신규 비교 경고 2건을 수정했다.
+- 실제 경고: unknown-n 0건·n<50 소표본 3건은 원문 수치에 맞춰 유지했다. 신규 소표본 경고는 shoulder-bt-ccfes-40130466(n=38), shoulder-strapping-16719027(n=33), shoulder-rhomboid-pressure-relaxation-33715788(n=45)이다.
+- 누적 집계: 항목 26,240개; 주제 18,649개; 근거 링크 29,400개; 숫자 군간 비교 25,301개; 사람 수 미상 1,295개; 소규모 연구 7,469개.
+- checkpoint state commit: 160b35092b35706f72bc0043c363bd19836b50bc; data commit: b9ba09e7582c599a7acb855fb43fdad060b208ef; push marker commit: 5ba9817c2ac87d406618d563f0544c42407776af; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11000; resume point new-expansion-candidates-batch11000; 다음은 다음 비처방 후보 주제 선정 batch 11000이다.
