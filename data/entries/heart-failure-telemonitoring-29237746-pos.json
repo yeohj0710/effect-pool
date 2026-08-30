@@ -1,0 +1,25 @@
+{
+  "id": "heart-failure-telemonitoring-29237746-pos",
+  "subj": "원격 모니터링",
+  "kind": "care",
+  "claim": "심부전 퇴원 후 전화 원격모니터링은 일반 치료보다 건강상태를 조금 개선했습니다.",
+  "line": "KCCQ 2.5점 높음(95% CI 0.38~4.67)",
+  "effect": "KCCQ +2.5점; 95% CI",
+  "vs": "최근 심부전 입원 환자 1,521명 무작위시험에서 6개월 KCCQ 총점은 전화 원격모니터링군이 일반 치료군보다 평균 2.5점 높았습니다(95% CI 0.38~4.67, P=.02). 증상 점수 차이는 3.5점이었습니다(P=.003).",
+  "tier": "trial",
+  "dir": "pos",
+  "n": 1521,
+  "synth": "single",
+  "why": "퇴원 후 전화 모니터링과 일반 치료를 무작위 비교했습니다.",
+  "saw": "Tele-HF 시험에서 원격군 756명과 일반 치료군 765명을 6개월 추적했습니다.",
+  "limit": "통계적으로 유의했지만 건강상태 개선의 크기는 임상적으로 작았습니다.",
+  "against": "원격모니터링은 사망이나 입원을 줄이지 못한 시험의 이차 결과였습니다.",
+  "use": "심부전 전화 원격모니터링의 건강상태 결과를 설명할 때 사용합니다.",
+  "refs": [{ "label": "DeVore 2017 · Tele-HF 원격모니터링 건강상태 · 무작위시험", "pmid": "29237746" }],
+  "queried": {
+    "date": "2026-08-30",
+    "pubmed": "batch11240: heart failure telemonitoring health status randomized controlled trial",
+    "negative": "PMID 29237746 AND (\"no effect\" OR \"no significant difference\" OR failed OR negative OR null) → 0건",
+    "safety": "PMID 29237746 AND (adverse OR harm OR safety OR toxicity OR complication) → 0건"
+  }
+}
