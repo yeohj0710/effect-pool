@@ -27202,3 +27202,14 @@ Batch 5090
 - 누적 집계: 항목 25,883개; 주제 18,357개; 근거 링크 29,043개; 숫자 군간 비교 24,944개; 사람 수 미상 1,290개; 소규모 연구 7,330개.
 - checkpoint state commit: 38550f83f; data commit: 94441eb1f; push marker commit: 1871db084; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 10850; resume point new-expansion-candidates-batch10850; 다음은 다음 비처방 후보 주제 선정 batch 10850이다.
+- batch 10850: 손 골관절염 비처방 운동·손치료·보조기·온열·침·마사지·보충제 후보 30개 주제를 처리했고 신규 항목 9건을 선정했다. 30개 주제 모두 비처방 후보였다.
+- 검색·fetch: PubMed 기본 검색 30개에서 470개 레코드를 확보했고 고유 PMID는 259개였다. 보강 검색 20개에서 1,029개 레코드를 확보해 50개 검색의 최종 레코드는 1,499개·고유 PMID 626개였다. 626건을 요청해 624건을 일반 fetch했고 7개 청크에서 일반 초록 614개를 확보했다. 누락 PMID 32338846·30179389 2개는 재조회해 초록 2개를 확보했고 최종 초록은 616개였다.
+- 후보 parser: 626건 파싱·후보 121건·신규 후보 57건·효과 후보 55건; 효과 후보 55건을 수동 검토해 9건을 선정하고 46건을 제외했다. 후보가 아닌 505건은 군간 수치 부족·고찰·프로토콜·관찰·단일군·수술·동물·이차분석·중복 등으로 제외했고, ClinicalTrials.gov 26개 검색어에서 원시 104건·고유 NCT 56개·결과 공개 NCT 7건을 확인했지만 출판 PMID와 연결된 추가 수치 근거가 없어 7건을 제외했다.
+- 신규 ID·PMID·NCT: hand-oa-exercise-19013758(PMID 19013758), hand-oa-knitting-34391264(PMID 34391264), thumb-oa-proprioception-37202242(PMID 37202242), hand-oa-yoga-7699639(PMID 7699639), hand-oa-brine-bath-41837889(PMID 41837889), hand-oa-capsaicin-1375648(PMID 1375648), hand-oa-paraffin-exercise-31453499(PMID 31453499), thumb-oa-prp-40487141(PMID 40487141), thumb-oa-hyaluronic-acid-36700263(PMID 36700263); ClinicalTrials.gov 추가 선정 0건.
+- 선정 근거: PubMed 초록에서 손운동·뜨개질·고유수용성훈련·요가·염수욕·국소 캡사이신·파라핀과 가정운동·혈소판혈장주사·히알루론산주사와 비교군의 표본 수, 군간 변화·P값·효과크기·신뢰구간 또는 유효한 상대효과를 직접 확인했다. 군간 차이 없음 결과는 null로 남겼고, 요가 연구의 표본 수 미상과 실제 소표본 연구를 그대로 기록했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 수동 제외: 처방약 단독·약물 병용으로 비처방 효과를 분리할 수 없는 연구, 고찰·메타분석·프로토콜, 관찰·단일군·사례·수술·동물·이차분석·수치 부족 연구를 제외했다. ClinicalTrials.gov 결과 공개 7건은 출판 PMID와 군간 수치 결과가 연결되지 않아 항목으로 만들지 않았다.
+- 범주별 신규: move 4건·care 4건·otc 1건; 방향별 pos 5건·null 4건; tier trial 9건; unknown-n 1건·n<50 소표본 5건.
+- 전용 검증: 최종 exit 0·오류 0·경고 6건이며 PMID/NCT 중복 0건·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 초기 검증 오류 0건·경고 6건에서 수정 없이 통과했다. 초기 build exit 0·error 0건·warning 8,961건에서 새 build error와 targeted warning 없이 최종 build exit 0·error 0건·warning 8,961건으로 통과했다. 실제 unknown-n 1건과 소표본 5건은 유지했다.
+- 누적 집계: 항목 25,892개; 주제 18,366개; 근거 링크 29,052개; 숫자 군간 비교 24,953개; 사람 수 미상 1,291개; 소규모 연구 7,335개.
+- checkpoint state commit: 6dcb36dc5; data commit: e390786f0; push marker commit: 6e957ce46; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 10860; resume point new-expansion-candidates-batch10860; 다음은 다음 비처방 후보 주제 선정 batch 10860이다.
