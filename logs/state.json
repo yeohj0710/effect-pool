@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T01:48:57.612Z",
+  "updated": "2026-08-30T01:50:07.281Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 25727,
@@ -62,7 +62,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10780 push marker is recorded; finish the evidence ledger.",
+  "next": "Batch 10780 evidence ledger is pushed; finalize state and resume with batch 10790.",
   "resume": {
     "next_batch": "10780",
     "worklist_line": "new-expansion-candidates-batch10780",
@@ -9609,8 +9609,8 @@
       "b275295efcd60d3ff52fdeaa48a11da6c47f764e"
     ],
     "checkpoint_commit": "fd50ca260201456cc6018747c24ba13bf040183a",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "90546fd52abcf756e0e3efcce66f0bf6deabdd0d",
+    "known_items_commit": "32000933e748d2d5d1c6a149c9b967f3697ac9c6",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
