@@ -27517,3 +27517,13 @@ Batch 5090
 - 누적 집계: 항목 26,400개; 주제 18,806개; 근거 링크 29,560개; 숫자 군간 비교 25,461개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,537개.
 - checkpoint state commit: e34514b0bdfe37ba93a0c54973bfe2c022fa914b; data commit: 34ce1b3b3eafa538baa17d0f41fb47d74e10e9d1; push marker commit: d6d4b53f64a9a156f36778e2808fa1f76ab4b139; PUSHED=true 상태와 빈 데이터 배치 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11160; resume point new-expansion-candidates-batch11160; 다음은 다음 비처방 후보 주제 선정 batch 11160이다.
+- batch11160: 섬유근육통 비처방 운동·행동치료·자가관리·침술·물리치료 후보 주제 30개를 선정해 처리했고 보강 검색 30개를 추가했다. 신규 DB 항목은 0건이다.
+- 검색·fetch: PubMed 기본·보강 검색 60개에서 검색 레코드 2,402건·고유 PMID 617개를 확인했다. 기본 검색은 1,166건·고유 PMID 572개, 보강 검색은 1,236건·고유 PMID 589개였다. 617건을 fetch해 617건과 일반 초록 613개를 확보했고 7개 청크에서 처리했다. 누락은 0건이었다. ClinicalTrials.gov는 이번 배치에서 별도 검색하지 않았다.
+- 후보·제외: 617건 파싱·후보 133건·신규 후보 17건·효과 후보 17건을 확인했다. 신규 후보 17건은 이차분석·다른 질환·처방약 포함·혼합 대상·프로토콜·건강인 또는 수치 부족 연구로 기록 기준을 충족하지 못해 모두 제외했다. 기존 항목과 겹친 후보 116건과 비후보 484건도 신규 기록에서 제외했다.
+- 신규 ID·PMID: 없음.
+- 범주별 신규: 없음; 방향별 신규 없음; tier trial 신규 없음.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 0건, 최종 validator exit 0·오류 0·경고 0건으로 통과했다. 항목 수 0건 배치이며 PMID 중복·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사는 적용 대상이 없었다. 초기·최종 build exit 0·error 0건·warning 9,168건으로 통과했다. 새 build 오류와 새 targeted warning은 0건이었다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 소표본 0건이다. 기록 기준에 맞지 않는 연구는 n이 확인되더라도 항목으로 저장하지 않았다.
+- 누적 집계: 항목 26,400개; 주제 18,806개; 근거 링크 29,560개; 숫자 군간 비교 25,461개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,537개.
+- checkpoint state commit: f5c984666743631954f8086dd6f88b47ad1383a4; data commit: 53cc6061fb5f5bbfd85cdc3be31eb92efa5f2b24; push marker commit: bd70c2d1e2cb7f5d834a92b96a9da3d902e4e99a; PUSHED=true 상태와 빈 데이터 배치 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11170; resume point new-expansion-candidates-batch11170; 다음은 다음 비처방 후보 주제 선정 batch 11170이다.
