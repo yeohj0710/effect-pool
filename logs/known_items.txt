@@ -27427,3 +27427,13 @@ Batch 5090
 - 누적 집계: 항목 26,348개; 주제 18,755개; 근거 링크 29,508개; 숫자 군간 비교 25,409개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,513개.
 - checkpoint state commit: 3cb26ad81a91d2f886cf42298cae24ca71cfb41f; data commit: 6a006433629a559f052465cb6aa6dd4bd2500a27; push marker commit: c7d8369bd1add631f9790d75a488a46c885d4274; PUSHED=true 상태와 데이터·마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11070; resume point new-expansion-candidates-batch11070; 다음은 다음 비처방 후보 주제 선정 batch 11070이다.
+- batch11070: 발바닥근막염 비처방 운동·스트레칭·깔창·보조기·수기치료·충격파 후보 주제 30개를 선정해 처리했고 보강 검색 30개를 추가했다. 신규 DB 항목은 0건이다.
+- 검색·fetch: PubMed 기본·보강 검색 60개에서 검색 레코드 1,430건·고유 PMID 255개를 확인했다. 기본 검색은 690건·고유 PMID 237개, 보강 검색은 740건·고유 PMID 246개였다. 255건을 fetch해 255건과 일반 초록 255개를 확보했고 3개 청크에서 처리했다. 누락은 0건이었다. ClinicalTrials.gov는 이번 배치에서 별도 검색하지 않았다.
+- 후보·제외: 255건 파싱·후보 44건·신규 후보 1건·효과 후보 1건을 확인했다. 신규 PMID 40671207은 여러 중재군을 합친 1년 경과 분석으로 군별 수치 결과가 없어 제외했고, 나머지 후보 43건은 기존 DB PMID와 중복되어 신규 항목을 만들지 않았다. 비후보 211건도 신규 기록에서 제외했다.
+- 신규 ID·PMID: 신규 항목 0건이며 신규 PMID·NCT도 0건이다.
+- 범주별 신규: 신규 0건; 방향별 신규 0건; tier trial 신규 0건.
+- 전용 검증·빌드: 최종 validator exit 0·오류 0·경고 0건으로 통과했다. PMID 중복·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 최종 build exit 0·error 0건·warning 9,144건으로 이전과 같았다. 새 build 오류와 새 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 소표본 0건이다.
+- 누적 집계: 항목 26,348개; 주제 18,755개; 근거 링크 29,508개; 숫자 군간 비교 25,409개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,513개.
+- checkpoint state commit: f29e2714d618574262c283a7ed7ba7788b9fc63a; data commit: 3e5799e600367315ab46416f8ef0588488554cb0; push marker commit: add5b911e60dd17cc76af0ad169e317cb9c410a7; PUSHED=true 상태와 빈 데이터 커밋·마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11080; resume point new-expansion-candidates-batch11080; 다음은 다음 비처방 후보 주제 선정 batch 11080이다.
