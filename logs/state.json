@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T03:51:45.003Z",
+  "updated": "2026-08-30T03:52:14.328Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 25883,
@@ -54,15 +54,15 @@
     "build_warnings": {
       "unknown_n": 1290,
       "thin_study": 7330,
-      "targeted_batch_warnings": 372
+      "targeted_batch_warnings": 373
     },
-    "targeted_batch_warnings": 372
+    "targeted_batch_warnings": 373
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10840 checkpoint is recorded; resume with batch 10840.",
+  "next": "Batch 10840 push marker is recorded; finish the evidence ledger.",
   "resume": {
     "next_batch": "10840",
     "worklist_line": "new-expansion-candidates-batch10840",
@@ -9602,11 +9602,13 @@
   },
   "last_batch": {
     "id": "10840",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "94441eb1f",
+    "pushed": true,
+    "expansion_commit": "94441eb1f",
+    "data_commits": [
+      "94441eb1f"
+    ],
+    "checkpoint_commit": "38550f83f",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10282,7 +10284,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "10840",
       "worklist_line": "new-expansion-candidates-batch10840",
