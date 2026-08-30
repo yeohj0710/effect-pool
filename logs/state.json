@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T00:25:35.592Z",
+  "updated": "2026-08-30T00:25:50.804Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 25637,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10750은 다낭성난소증후군 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 같은 batch 재개 상태다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10750은 다낭성난소증후군 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 10760이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 10750은 다낭성난소증후군 비처방 후보를 검색해 신규 PMID 35794564·19494176·32503005·30977089·26666519·29468748·28466507·15037413·21627406·22855917·18691705·39415242·40770379·40393075·39878338·34009514·41776814·37968684·26132306·28668998·28742409·25868059·28980870·26279073·27050252·25510442·39465581·36788534·35754690·36273312를 기록했다. 데이터 push 전 단계다."
+    "note": "Batch 10750은 다낭성난소증후군 비처방 후보를 검색해 신규 PMID 35794564·19494176·32503005·30977089·26666519·29468748·28466507·15037413·21627406·22855917·18691705·39415242·40770379·40393075·39878338·34009514·41776814·37968684·26132306·28668998·28742409·25868059·28980870·26279073·27050252·25510442·39465581·36788534·35754690·36273312를 기록했다. 다음 확장은 batch 10760이다."
   },
   "checkpoints": {
     "over_counter_share": "14.7% (3772 entries)",
@@ -62,11 +62,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10750 evidence ledger is pushed; finalize state and resume with batch 10760.",
+  "next": "Batch 10750 final state is on origin/main. Resume with batch 10760.",
   "resume": {
-    "next_batch": "10750",
-    "worklist_line": "new-expansion-candidates-batch10750",
-    "topic": "다낭성난소증후군 비처방 후보 batch 10750",
+    "next_batch": "10760",
+    "worklist_line": "new-expansion-candidates-batch10760",
+    "topic": "다음 비처방 후보 주제 선정 batch 10760",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -10507,9 +10507,9 @@
     "subject_entries_renamed": 0,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10750",
-      "worklist_line": "new-expansion-candidates-batch10750",
-      "topic": "다낭성난소증후군 비처방 후보 batch 10750",
+      "next_batch": "10760",
+      "worklist_line": "new-expansion-candidates-batch10760",
+      "topic": "다음 비처방 후보 주제 선정 batch 10760",
       "unchecked": 0
     },
     "unknownN": 1285,
