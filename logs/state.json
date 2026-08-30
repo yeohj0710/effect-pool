@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T00:19:58.799Z",
+  "updated": "2026-08-30T00:24:25.819Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 25637,
@@ -23,10 +23,10 @@
     "lab": 18
   },
   "dirs": {
-    "pos": 17774,
+    "pos": 17775,
     "null": 5972,
     "open": 1586,
-    "harm": 305
+    "harm": 304
   },
   "worklist": {
     "total": 17174,
@@ -46,7 +46,7 @@
   "checkpoints": {
     "over_counter_share": "14.7% (3772 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.5% (6277 entries)",
+    "no_effect_or_harm_share": "24.5% (6276 entries)",
     "vs_share": "96.3% (24698)",
     "unexpected_benefit_entries": 1,
     "trial_share": "96.7% (24786)",
@@ -62,7 +62,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10750 checkpoint is recorded; resume with batch 10750.",
+  "next": "Batch 10750 push marker is recorded; finish the evidence ledger.",
   "resume": {
     "next_batch": "10750",
     "worklist_line": "new-expansion-candidates-batch10750",
@@ -9602,11 +9602,13 @@
   },
   "last_batch": {
     "id": "10750",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "b0bc50cd3a773590818b40b2bb3e41ee7b495853",
+    "pushed": true,
+    "expansion_commit": "b0bc50cd3a773590818b40b2bb3e41ee7b495853",
+    "data_commits": [
+      "b0bc50cd3a773590818b40b2bb3e41ee7b495853"
+    ],
+    "checkpoint_commit": "02930331e",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10128,9 +10130,8 @@
       "trial": 30
     },
     "dirs": {
-      "pos": 25,
-      "null": 4,
-      "harm": 1
+      "pos": 26,
+      "null": 4
     },
     "unknown_n": 1,
     "thin_studies": 8,
@@ -10504,7 +10505,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "10750",
       "worklist_line": "new-expansion-candidates-batch10750",
