@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T07:18:28.557Z",
+  "updated": "2026-08-30T07:19:43.253Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26142,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10940은 발바닥근막염·발뒤꿈치 통증 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 같은 batch 재개 상태다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10940은 발바닥근막염·발뒤꿈치 통증 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 10950이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 10940은 발바닥근막염·발뒤꿈치 통증 비처방 후보를 검색해 신규 PMID 29868796·23386757·20140409·32755237·37949704·30572281·37160200·31521520·38836136·31453560·32952509·36874677·33717869·28255655·38948638·41620820·28028519·16141740·25114704·24800188·40740179·32021400·39958140·24419823·29600719·19299346·37868394·22144721·31882151·33030035를 기록했다. 데이터 push 전 단계다."
+    "note": "Batch 10940은 발바닥근막염·발뒤꿈치 통증 비처방 후보를 검색해 신규 PMID 29868796·23386757·20140409·32755237·37949704·30572281·37160200·31521520·38836136·31453560·32952509·36874677·33717869·28255655·38948638·41620820·28028519·16141740·25114704·24800188·40740179·32021400·39958140·24419823·29600719·19299346·37868394·22144721·31882151·33030035를 기록했다. 다음 확장은 batch 10950이다."
   },
   "checkpoints": {
     "over_counter_share": "14.6% (3821 entries)",
@@ -62,11 +62,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10940 push marker is recorded; finish the evidence ledger.",
+  "next": "Batch 10940 final state is on origin/main. Resume with batch 10950.",
   "resume": {
-    "next_batch": "10940",
-    "worklist_line": "new-expansion-candidates-batch10940",
-    "topic": "발바닥근막염 비처방 후보 데이터 작성 batch 10940",
+    "next_batch": "10950",
+    "worklist_line": "new-expansion-candidates-batch10950",
+    "topic": "다음 비처방 후보 주제 선정 batch 10950",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9609,8 +9609,8 @@
       "0e8ada692999d7c98a78937d4433b69818e9f52c"
     ],
     "checkpoint_commit": "a8e76f8061976533d5cf59726c41a52125d63dd2",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "2dfffa8697cc217164177d09d475e2fc9daf7657",
+    "known_items_commit": "ce4fa5f4e28e8e4df2625f4907c803f765e4eec7",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -10125,9 +10125,9 @@
     "subject_entries_renamed": 1,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10940",
-      "worklist_line": "new-expansion-candidates-batch10940",
-      "topic": "발바닥근막염 비처방 후보 데이터 작성 batch 10940",
+      "next_batch": "10950",
+      "worklist_line": "new-expansion-candidates-batch10950",
+      "topic": "다음 비처방 후보 주제 선정 batch 10950",
       "unchecked": 0
     },
     "unknownN": 1294,
