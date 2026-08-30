@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T11:28:33.270Z",
+  "updated": "2026-08-30T11:28:58.699Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26353,
@@ -62,7 +62,7 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 11090 checkpoint is recorded locally; continue with the data step. Resume with batch 11100.",
+  "next": "Batch 11090 data, marker, and ledger commits are recorded; final state is being recorded. Resume with batch 11100.",
   "resume": {
     "next_batch": "11100",
     "worklist_line": "new-expansion-candidates-batch11100",
@@ -9602,11 +9602,13 @@
   },
   "last_batch": {
     "id": "11090",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "0c14aec094c835cadbd7df2d91943810c92c2caf",
+    "pushed": true,
+    "expansion_commit": "0c14aec094c835cadbd7df2d91943810c92c2caf",
+    "data_commits": [
+      "0c14aec094c835cadbd7df2d91943810c92c2caf"
+    ],
+    "checkpoint_commit": "ffdc7f1201f70c64c84771232d00aa5af358dd6c",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9814,7 +9816,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "11100",
       "worklist_line": "new-expansion-candidates-batch11100",
