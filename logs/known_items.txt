@@ -27358,3 +27358,13 @@ Batch 5090
 - 누적 집계: 항목 26,240개; 주제 18,649개; 근거 링크 29,400개; 숫자 군간 비교 25,301개; 사람 수 미상 1,295개; 소규모 연구 7,469개.
 - checkpoint state commit: 160b35092b35706f72bc0043c363bd19836b50bc; data commit: b9ba09e7582c599a7acb855fb43fdad060b208ef; push marker commit: 5ba9817c2ac87d406618d563f0544c42407776af; PUSHED=true 상태로 데이터와 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11000; resume point new-expansion-candidates-batch11000; 다음은 다음 비처방 후보 주제 선정 batch 11000이다.
+- batch11000: 근육성 뇌척수염·만성피로증후군의 비처방 운동·활동조절·재활·행동중재·침·보충제 후보를 30개 주제로 선정해 처리했고 보강 검색 30개를 추가했다.
+- 검색·fetch: PubMed 기본·보강 검색 60개에서 검색 레코드 1,904건·고유 PMID 680개를 확인했다. 기본 검색은 1,021건·고유 PMID 406개, 보강 검색은 883건·고유 PMID 407개였다. 680건을 fetch해 680건을 확보했고 7개 청크에서 일반 초록 662개를 확보했다. 누락은 0건이었다. NCT01650636과 시험 제목 targeted PubMed 검색 3개는 2건·고유 PMID 2개를 반환했고 2건을 fetch해 초록 2개를 확보했다.
+- 후보·제외: 680건 파싱·후보 32건·신규 후보 11건·효과 후보 10건을 확인했다. 효과 후보 10건은 건강인·처방약·관찰·비무작위·2차 분석·수치 부족 등으로 제외했다. targeted PMID 38736736은 기존 만성피로증후군 화상 스트레스관리 항목과 중복되어 기존 링크로 확인했고, 31377502는 같은 시험의 2차 분석으로 제외했다. ClinicalTrials.gov 30개 검색은 원시 87건·고유 NCT 47개·결과 공개 NCT 5개였고 상세 5건을 모두 조회했지만 진단 연구·처방약·단일군·비대상 조건으로 제외했다. 비후보 648건도 제외했다.
+- 신규 ID·PMID: 없음. 기존 링크: mecfs-video-cbsm-38736736-2147.json / PMID 38736736 / NCT01650636. ClinicalTrials.gov 신규 선정 0건.
+- 범주별 신규: 없음; 방향별 신규 없음; tier 신규 없음.
+- 전용 검증·빌드: validator 최종 exit 0·오류 0·경고 0건이며 PMID/NCT 중복·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사를 통과했다. 초기 build exit 0·error 0건·warning 9,100건에서 최종 build exit 0·error 0건·warning 9,100건으로 통과했다. 새 경고 수정은 없다.
+- 실제 경고: unknown-n 0건·n<50 소표본 0건. 누적 unknown-n 1,295건·소표본 7,469건은 원문에 맞춰 유지했다.
+- 누적 집계: 항목 26,240개; 주제 18,649개; 근거 링크 29,400개; 숫자 군간 비교 25,301개; 사람 수 미상 1,295개; 소규모 연구 7,469개.
+- checkpoint state commit: 837277f3eb4bc3e26150a819335adebbedd9ba60; data step commit: 06eaf18da6e1e48e435be54e50f5ac6051d6c1d7; push marker commit: 903fd6a533f2a6942f3187c3a83724d09df0264e; 신규 데이터 없이 PUSHED=true 상태와 데이터 단계 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11010; resume point new-expansion-candidates-batch11010; 다음은 다음 비처방 후보 주제 선정 batch 11010이다.
