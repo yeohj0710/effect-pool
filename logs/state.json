@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T09:06:56.693Z",
+  "updated": "2026-08-30T09:07:18.527Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26240,
@@ -62,11 +62,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 11000 checkpoint is recorded locally; continue with the data step. Resume with batch 11000.",
+  "next": "Batch 11000 final state is recorded locally; pushed data and marker commits are complete. Resume with batch 11010.",
   "resume": {
-    "next_batch": "11000",
-    "worklist_line": "new-expansion-candidates-batch11000",
-    "topic": "만성피로증후군 비처방 후보 선별 batch 11000",
+    "next_batch": "11010",
+    "worklist_line": "new-expansion-candidates-batch11010",
+    "topic": "다음 비처방 후보 주제 선정 batch 11010",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9602,11 +9602,13 @@
   },
   "last_batch": {
     "id": "11000",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "06eaf18da6e1e48e435be54e50f5ac6051d6c1d7",
+    "pushed": true,
+    "expansion_commit": "06eaf18da6e1e48e435be54e50f5ac6051d6c1d7",
+    "data_commits": [
+      "06eaf18da6e1e48e435be54e50f5ac6051d6c1d7"
+    ],
+    "checkpoint_commit": "837277f3eb4bc3e26150a819335adebbedd9ba60",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9773,11 +9775,11 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "11000",
-      "worklist_line": "new-expansion-candidates-batch11000",
-      "topic": "만성피로증후군 비처방 후보 선별 batch 11000",
+      "next_batch": "11010",
+      "worklist_line": "new-expansion-candidates-batch11010",
+      "topic": "다음 비처방 후보 주제 선정 batch 11010",
       "unchecked": 0
     },
     "unknownN": 1295,
