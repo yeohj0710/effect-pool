@@ -27497,3 +27497,13 @@ Batch 5090
 - 누적 집계: 항목 26,400개; 주제 18,806개; 근거 링크 29,560개; 숫자 군간 비교 25,461개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,537개.
 - checkpoint state commit: 174ed7abb5904d6bb03bef563823f4f7d98469b7; data commit: 1ab39d2c187862887943e48cbfe9a9f375e5106d; push marker commit: 94e48f84bb909d47a700f11fcc70fc0b616eff21; PUSHED=true 상태와 빈 데이터 배치 마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11140; resume point new-expansion-candidates-batch11140; 다음은 다음 비처방 후보 주제 선정 batch 11140이다.
+- batch11140: 편두통 비처방 운동·행동치료·자가관리·침술·물리치료·비약물 기기 후보 주제 30개를 선정해 처리했고 보강 검색 30개를 추가했다. 신규 DB 항목은 0건이다.
+- 검색·fetch: PubMed 기본·보강 검색 60개에서 검색 레코드 2,353건·고유 PMID 690개를 확인했다. 기본 검색은 1,082건·고유 PMID 552개, 보강 검색은 1,271건·고유 PMID 665개였다. 690건을 fetch해 690건과 일반 초록 674개를 확보했고 7개 청크에서 처리했다. 누락은 0건이었다. ClinicalTrials.gov는 이번 배치에서 별도 검색하지 않았다.
+- 후보·제외: 690건 파싱·후보 91건·신규 후보 15건·효과 후보 13건을 확인했다. 신규 후보 15건은 건강인·프로토콜·약물 연구·이차분석·초록 없음 또는 편두통 결과가 아닌 방법론 연구로 기록 기준을 충족하지 못해 모두 제외했다. 기존 항목과 겹친 후보 76건과 비후보 599건도 신규 기록에서 제외했다.
+- 신규 ID·PMID: 없음.
+- 범주별 신규: 없음; 방향별 신규 없음; tier trial 신규 없음.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 0건, 최종 validator exit 0·오류 0·경고 0건으로 통과했다. 항목 수 0건 배치이며 PMID 중복·한국어 subject·category·tier·sample size·numeric 비교·effect/line 길이 검사는 적용 대상이 없었다. 초기·최종 build exit 0·error 0건·warning 9,168건으로 통과했다. 새 build 오류와 새 targeted warning은 0건이었다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 소표본 0건이다. 기록 기준에 맞지 않는 연구는 n이 확인되더라도 항목으로 저장하지 않았다.
+- 누적 집계: 항목 26,400개; 주제 18,806개; 근거 링크 29,560개; 숫자 군간 비교 25,461개; 사람 수 미상 build 경고 1,295개; 소규모 연구 build 경고 7,537개.
+- checkpoint state commit: 394911fa69ad2dfc533055f00d4084e9e6221a8b; data commit: cdc099c6ae719b3baa5bf6b533f495ce455a2c1a; push marker commit: 4f63e30173ba605859e1500e72942fefc8719372; PUSHED=true 상태와 빈 데이터 배치 마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11150; resume point new-expansion-candidates-batch11150; 다음은 다음 비처방 후보 주제 선정 batch 11150이다.
