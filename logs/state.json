@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T06:48:26.127Z",
+  "updated": "2026-08-30T06:49:28.911Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26112,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10930은 어깨충돌증후군·회전근개질환 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 같은 batch 재개 상태다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 10930은 어깨충돌증후군·회전근개질환 비처방 후보 30개 주제에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 10940이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 10930은 어깨충돌증후군·회전근개질환 비처방 후보를 검색해 신규 PMID 33858205·37266723·40575530·32816787·33400012·37821122·27070534·23561869·21378086·23035005·29364027·22745199·14648264·35068440·18069011·24728846·10530851·17347862·19358394·11953624·33127554·35686864·34610286·10332014·29466076·19116968·22699130·33089368·39098382·37132278를 기록했다. 데이터 push 전 단계다."
+    "note": "Batch 10930은 어깨충돌증후군·회전근개질환 비처방 후보를 검색해 신규 PMID 33858205·37266723·40575530·32816787·33400012·37821122·27070534·23561869·21378086·23035005·29364027·22745199·14648264·35068440·18069011·24728846·10530851·17347862·19358394·11953624·33127554·35686864·34610286·10332014·29466076·19116968·22699130·33089368·39098382·37132278를 기록했다. 다음 확장은 batch 10940이다."
   },
   "checkpoints": {
     "over_counter_share": "14.6% (3821 entries)",
@@ -62,11 +62,11 @@
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
-  "next": "Batch 10930 push marker is recorded; finish the evidence ledger.",
+  "next": "Batch 10930 final state is on origin/main. Resume with batch 10940.",
   "resume": {
-    "next_batch": "10930",
-    "worklist_line": "new-expansion-candidates-batch10930",
-    "topic": "어깨충돌증후군·회전근개질환 비처방 후보 데이터 작성 batch 10930",
+    "next_batch": "10940",
+    "worklist_line": "new-expansion-candidates-batch10940",
+    "topic": "다음 비처방 후보 주제 선정 batch 10940",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9609,8 +9609,8 @@
       "589342ca678d78a8e17f0be621a0f95438be68a8"
     ],
     "checkpoint_commit": "07846725d4c2613f357d3517653eb33f9a41e621",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "ccaf9e3bc",
+    "known_items_commit": "c1ad97444",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -10133,9 +10133,9 @@
     "subject_entries_renamed": 0,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "10930",
-      "worklist_line": "new-expansion-candidates-batch10930",
-      "topic": "어깨충돌증후군·회전근개질환 비처방 후보 데이터 작성 batch 10930",
+      "next_batch": "10940",
+      "worklist_line": "new-expansion-candidates-batch10940",
+      "topic": "다음 비처방 후보 주제 선정 batch 10940",
       "unchecked": 0
     },
     "unknownN": 1294,
