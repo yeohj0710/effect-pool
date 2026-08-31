@@ -27853,3 +27853,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,059개; 주제 19,396개; 근거 링크 30,219개; 숫자 군간 비교 26,119개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,783개.
 - checkpoint state commit: 9b0ad34ca48677dae87d90559dadb644da3de260; data commit: 46815c0433533bfac2273b0d2cfde31f40adf89e; push marker commit: c8a0e994f690917d6f44eec72a7f61c95a729601; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11480; resume point new-expansion-candidates-batch11480; 다음은 다음 비처방 후보 주제 선정 batch 11480이다.
+- 배치 11480: 기능성 소화불량 비처방 후보 30개 주제·1개 선정. 기본 검색 30개 주제와 보강 검색 30개 질의에서 217개 레코드·고유 PMID 139개를 확인했고, 추가 확장 검색 30개 질의에서 437개 레코드·고유 PMID 344개를 확인했다. 기본·보강·추가 검색을 합친 고유 PMID는 358개였으며, 추가 검색에서 기본 검색에 없던 PMID 219개를 더 확인했다.
+- fetch·초록: 합산 고유 PMID 358개를 PubMed EFetch로 요청해 358개를 확보했고 5개 chunk, 일반 초록 358개, 누락 0건이었다.
+- 후보·제외: parser 358건·후보 30건·신규 후보 14건·효과 후보 13건·기존 연결 16건을 확인했다. 검색 중 후보가 아닌 328건은 기록하지 않았고, 신규 후보 중 프로토콜·생리기전·처방약·혼합 중재·수치 부족인 13건은 제외했다. 생활조언·선별검사의 음주 변화 수치와 증상 차이 없음이 확인된 1건만 기록했다.
+- 신규 PMID: 6754844.
+- 신규 ID: fd-screening-alcohol-advice-6754844-null.
+- 범주별 신규: life 1건; trial 1건; null 1건. 처방약 단독 연구는 기록하지 않았다.
+- 전용 검증·빌드: validator 1개 주제·1개 파일·고유 PMID 1·최종 오류 0·경고 0; 초기 오류 0·경고 0이었다. build exit 0·error 0건·초기 warning 9,448건과 최종 warning 9,448건이 같았고 새 targeted warning은 0건이었다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 0건이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,290개 레코드·고유 PMID 643개.
+- 누적 집계: 항목 27,060개; 주제 19,397개; 근거 링크 30,220개; 숫자 군간 비교 26,120개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,783개.
+- checkpoint state commit: d7afe47f03dd9951990713cc8603ab42ce5c2e4a; data commit: 274048c4f3a4d94d3ebc32a9fabe588de98e29b9; push marker commit: eab3362f7df9fccc013007cad9af84675ec024eb; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11490; resume point new-expansion-candidates-batch11490; 다음은 다음 비처방 후보 주제 선정 batch 11490이다.
