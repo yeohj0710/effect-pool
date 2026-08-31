@@ -27865,3 +27865,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,060개; 주제 19,397개; 근거 링크 30,220개; 숫자 군간 비교 26,120개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,783개.
 - checkpoint state commit: d7afe47f03dd9951990713cc8603ab42ce5c2e4a; data commit: 274048c4f3a4d94d3ebc32a9fabe588de98e29b9; push marker commit: eab3362f7df9fccc013007cad9af84675ec024eb; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11490; resume point new-expansion-candidates-batch11490; 다음은 다음 비처방 후보 주제 선정 batch 11490이다.
+- 배치 11490: 만성 목 통증 비처방 후보 30개 주제·20개 선정. 기본·보강 60개 질의에서 1,437개 레코드·고유 PMID 763개를 확인했고, 추가 확장 30개 질의에서 1,203개 레코드·고유 PMID 724개·신규 135개를 확인했다. 세 검색을 합친 고유 PMID는 898개였다.
+- fetch·초록: 합산 고유 PMID 898개를 PubMed EFetch로 요청해 898개 기록·10개 chunk·일반 초록 897개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 898건·후보 176건·신규 후보 39건·효과 후보 39건·기존 연결 137건을 확인했다. 수치 비교·효과크기·유효한 상대효과가 없거나 2차 분석·프로토콜·건강인·진단 연구·처방약인 722건을 후보에서 제외했고, 신규 후보 중 19건은 수동 선별에서 제외했다.
+- 신규 PMID: 38876630, 12151246, 25264016, 19236972, 12356613, 21621722, 40618509, 19209478, 39127951, 38943380, 39593460, 30883331, 17718644, 33218498, 34159691, 24473589, 15726272, 20205574, 31929138, 32258159.
+- 신규 ID: neck-mulligan-mobilization-38876630-pos, neck-neural-manual-12151246-pos, neck-mobilization-exercise-25264016-null, neck-preferred-mobilization-19236972-null, neck-chiropractic-mobilization-12356613-null, neck-cervical-manipulation-ppt-21621722-pos, neck-matched-manipulation-40618509-null, neck-thoracic-manipulation-19209478-pos, neck-myofascial-release-tens-39127951-pos, neck-dry-needling-cervical-spondylosis-38943380-null, neck-laser-dry-needling-39593460-null, neck-kinesio-dry-needling-30883331-null, neck-paraspinal-dry-needling-17718644-pos, neck-dry-needling-instructions-33218498-open, neck-kinesio-dry-exercise-34159691-pos, neck-electroacupuncture-24473589-null, neck-repetitive-magnetic-stimulation-15726272-pos, neck-central-pa-mobilization-20205574-pos, neck-global-postural-reeducation-31929138-pos, neck-muscle-energy-ischemic-compression-32258159-pos.
+- 범주별 신규: care 20건; trial 20건; pos 11건·null 8건·open 1건.
+- 전용 검증·빌드: 초기 validator 오류 5·경고 10, 최종 오류 0·경고 10; 초기 build 오류 0·경고 9,469건, 최종 build exit 0·오류 0·경고 9,458건이었다. 새 경고 11건(군간 표기 7·주제명 1·effect 길이 3)을 수정했고 새 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 1건·n<50 신규 9건이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,609개 레코드·고유 PMID 711개.
+- 누적 집계: 항목 27,080개; 주제 19,416개; 근거 링크 30,240개; 숫자 군간 비교 26,140개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,792개.
+- checkpoint state commit: bd358067327ff33b95e54c3890a8183ba885c84b; data commit: 2e6f1cebe6a1bd6a810253784255454a9a4df3d8; push marker commit: 8a4bc44c499aa20689e144b9cdd9fcc6a7d219be; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11500; resume point new-expansion-candidates-batch11500; 다음은 다음 비처방 후보 주제 선정 batch 11500이다.
