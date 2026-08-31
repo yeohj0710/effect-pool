@@ -27841,3 +27841,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,050개; 주제 19,387개; 근거 링크 30,210개; 숫자 군간 비교 26,110개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,782개.
 - checkpoint state commit: 0186f7160e4f0b7f7e73e48fedce6f88bec445ad; data commit: 1d0ff2775f482a706fb32ad9a53b1ac7185911cd; push marker commit: 51057cc2563c725ecc29be91d49142c7372401e9; validation correction state commit: d73cc63ee62d6415e3d9ee0676d9c6b0664e6b4b; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11470; resume point new-expansion-candidates-batch11470; 다음은 다음 비처방 후보 주제 선정 batch 11470이다.
+- 배치 11470: 불면증 비처방 후보 30개 주제·9개 선정. 기본 검색 30개 주제와 보강 검색 30개 질의에서 1,550개 레코드·고유 PMID 896개를 확인했고, 추가 확장 검색 30개 질의에서 486개 레코드·고유 PMID 294개를 확인했다. 기본·보강·추가 검색을 합친 고유 PMID는 1,014개였으며, 추가 검색에서 기본 검색에 없던 PMID 118개를 더 확인했다.
+- fetch·초록: 합산 고유 PMID 1,014개를 PubMed EFetch로 요청해 1,014개를 확보했고 11개 chunk, 일반 초록 1,007개, 누락 0건이었다.
+- 후보·제외: parser 1,014건·후보 122건·신규 후보 54건·효과 후보 54건·기존 연결 68건을 확인했다. 검색 중 후보가 아닌 892건은 기록하지 않았고, 신규 후보 중 직접 숫자·효과크기·유효한 상대효과가 부족하거나 다른 질환·프로토콜·2차분석·처방약 중심인 45건은 제외했다. 최종 9건만 원문 초록의 군간 숫자 결과·비율·효과크기·신뢰구간·통계값을 확인해 기록했다.
+- 신규 PMID: 39250131, 35099359, 18672743, 33798307, 39557434, 34002562, 18416075, 32096884, 39943753.
+- 신규 ID: ins-self-directed-cbti-39250131-pos, ins-bibliotherapy-cbti-35099359-pos, ins-abdominal-acupuncture-18672743-pos, ins-tiaoshen-acupuncture-33798307-pos, ins-electroacupuncture-39557434-pos, ins-aged-electroacupuncture-34002562-pos, ins-acupuncture-moxibustion-tuina-18416075-pos, ins-caregiver-acupressure-32096884-pos, ins-tiaoshu-acupuncture-39943753-pos.
+- 범주별 신규: care 9건; 모두 trial 9건; pos 9건. 처방약 단독 연구는 기록하지 않았다. 처방약을 대조군으로 사용한 침치료 연구는 비처방 중재의 효과가 분리된 경우만 포함했다.
+- 전용 검증·빌드: validator 9개 주제·9개 파일·고유 PMID 9·최종 오류 0·경고 1; 초기 오류 0·경고 1이었다. build exit 0·error 0건·초기 warning 9,449건에서 최종 warning 9,448건으로 줄었고, 새 targeted warning 1건(군간 비교 표현)을 수정했다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 1건(n=44명)이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,572개 레코드·고유 PMID 895개.
+- 누적 집계: 항목 27,059개; 주제 19,396개; 근거 링크 30,219개; 숫자 군간 비교 26,119개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,783개.
+- checkpoint state commit: 9b0ad34ca48677dae87d90559dadb644da3de260; data commit: 46815c0433533bfac2273b0d2cfde31f40adf89e; push marker commit: c8a0e994f690917d6f44eec72a7f61c95a729601; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11480; resume point new-expansion-candidates-batch11480; 다음은 다음 비처방 후보 주제 선정 batch 11480이다.
