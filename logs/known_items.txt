@@ -27925,3 +27925,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,121개; 주제 19,454개; 근거 링크 30,281개; 숫자 군간 비교 26,181개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,813개.
 - checkpoint state commit: 7ea1c00510a426c769f23749a06ff219b5274cf8; checkpoint metadata correction: 4547a08e7324b9f74035e85e2e69d45dc11a6b42; data commit: 46ae731d6e04e4dc5f0d92427096bee23bdd728f; push marker commit: 74d352843c7f5d47eb28b220e4e3259e125dba87; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11540; resume point new-expansion-candidates-batch11540; 다음은 다음 비처방 후보 주제 선정 batch 11540이다.
+- 배치 11540: 치질·치핵 비처방 후보 30개 주제·15개 선정. 기본·보강 60개 질의에서 113개 레코드·고유 PMID 66개를 확인했고, 추가 확장 31개 질의에서 79개 레코드·고유 PMID 57개·신규 4개를 확인했다. 추가 본문 검색 30개 질의에서 84개 레코드·고유 PMID 62개·신규 51개를 확인했다. 세 확장 검색을 기본 검색과 합친 고유 PMID는 121개였다.
+- fetch·초록: 합산 고유 PMID 121개를 PubMed EFetch로 요청해 121개 기록·3개 chunk·일반 초록 119개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 121건·후보 2건·신규 후보 0건·효과 후보 0건·기존 연결 2건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 비무작위·고찰·프로토콜·초록 없음·수치 부족·처방약 단독 중재인 119건을 자동 후보에서 제외했고, 수동 재검토로 신규 15건을 기록했다. parser 신규 후보 제외는 0건이었다.
+- 신규 PMID: 2844044, 26062190, 16167232, 27097430, 25256125, 22734377, 37068819, 20862941, 29231428, 25642882, 24847894, 20976480, 24124288, 34057643, 37434827.
+- 신규 ID: hemorrhoid-bran-after-ligation-2844044-pos, hemorrhoid-auricular-acupressure-26062190-pos, hemorrhoid-carrageenates-cream-16167232-null, hemorrhoid-herbal-fumigation-27097430-pos, hemorrhoid-perianal-support-pregnancy-25256125-pos, hemorrhoid-thread-embedding-22734377-pos, hemorrhoid-electroacupuncture-timing-37068819-pos, hemorrhoid-moxibustion-20862941-pos, hemorrhoid-electroacupuncture-catgut-29231428-pos, hemorrhoid-warm-bag-25642882-pos, hemorrhoid-triclosan-wound-care-24847894-pos, hemorrhoid-spicy-diet-postop-20976480-pos, hemorrhoid-commiphora-mukul-24124288-pos, hemorrhoid-flavonoid-postexcision-34057643-pos, hemorrhoid-health-education-37434827-pos.
+- 범주별 신규: care 10건, food 2건, supp 2건, otc 1건; trial 15건; pos 14건, null 1건.
+- 전용 검증·빌드: 초기 validator 오류 3·경고 2, 최종 오류 0·경고 2; 초기 build 오류 0·경고 9,485건, 최종 build exit 0·오류 0·경고 9,481건이었다. 새 targeted warning 4건을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 1건(hemorrhoid-warm-bag-25642882-pos), n<50 신규 1건(hemorrhoid-perianal-support-pregnancy-25256125-pos)이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·539개 레코드·고유 PMID 314개.
+- 누적 집계: 항목 27,136개; 주제 19,469개; 근거 링크 30,296개; 숫자 군간 비교 26,196개; 사람 수 미상 build 경고 1,318개; 소규모 연구 build 경고 7,814개.
+- checkpoint state commit: fa38f2ad2acba9eed51f86364b0fe702a519ba2c; data commit: 379188cbaa88a387b21790a721db80d1a36d7782; push marker commit: ce37a81408a20049d5d90cabae42c2ede3676ea3; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11550; resume point new-expansion-candidates-batch11550; 다음은 다음 비처방 후보 주제 선정 batch 11550이다.
