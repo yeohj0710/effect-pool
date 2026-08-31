@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T14:27:02.707Z",
+  "updated": "2026-08-31T14:27:35.475Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26956,
@@ -54,9 +54,9 @@
     "build_warnings": {
       "unknown_n": 1311,
       "thin_study": 7750,
-      "targeted_batch_warnings": 414
+      "targeted_batch_warnings": 417
     },
-    "targeted_batch_warnings": 414
+    "targeted_batch_warnings": 417
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "11390",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch11390",
     "topic": "다음 비처방 후보 주제 선정 batch 11390"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "11380",
-    "commit": null,
-    "pushed": false,
+    "commit": "29ef9fe92aaca10d15e2ebe2cda8f5e6b5bf07a7",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "data_commits": [
+      "29ef9fe92aaca10d15e2ebe2cda8f5e6b5bf07a7"
+    ],
+    "checkpoint_commit": "12c8e74df22e421bf35b0b4afec91ae16e63eb35",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9980,7 +9982,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "11390",
       "worklist_line": "new-expansion-candidates-batch11390",
