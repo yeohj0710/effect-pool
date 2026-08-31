@@ -27757,3 +27757,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 26,986개; 주제 19,323개; 근거 링크 30,146개; 숫자 군간 비교 26,046개; 사람 수 미상 build 경고 1,313개; 소규모 연구 build 경고 7,759개.
 - checkpoint state commit: 18ef0c7bcef183b50a99bde17c93279b1cc52c0e; data commit: 313ff8e83880b7a68ff717966d7f3e06878ec6b6; push marker commit: 66057f88ce85b4369f38e2a07502316955827718; PUSHED=true 상태와 데이터·마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11400; resume point new-expansion-candidates-batch11400; 다음은 다음 비처방 후보 주제 선정 batch 11400이다.
+- 배치 11400: 하지불안증후군 비처방 후보 30개 주제·6개 선정. 기본 검색 60개 질의(30개 주제+보강 30개), 194개 레코드·고유 PMID 56개; RCT 표지 보강검색 27개 질의, 290개 레코드·고유 PMID 166개; 합산 검색 레코드 484개·고유 PMID 179개.
+- fetch·초록: 합산 고유 PMID 179개 중 178개 fetch, 3개 chunk, 일반 초록 175개; 검색 누락 PMID 23304742 1개. fetch 기록은 PMID 41482622·31331578·30579508에 초록 없음으로 남겼다.
+- 후보 선별: 기본 parser 56건·후보 24건·신규 후보 6건·효과 후보 6건; 보강 parser 165건·후보 29건·신규 후보 11건·효과 후보 10건; 통합 후보 35건·기존 연결 후보 23건·신규 후보 12건·통합 효과 후보 11건. 신규 후보 7건(37390284, 29846278, 17700043, 28941948, 31331578, 18768245, 11247054)은 프로토콜·비RLS 대상·수치 부족·RLS 비대상 경련·개방형 단일군 등으로 제외했다.
+- 신규 PMID: 23929523, 24267148, 34779137, 27070250, 25763089, 35426733.
+- 신규 ID: rls-uremic-progressive-aerobic-23929523-pos, rls-low-ferritin-oral-iron-24267148-pos, rls-hemodialysis-lavender-massage-34779137-pos, rls-whole-body-vibration-27070250-pos, rls-standard-acupuncture-actigraph-25763089-pos, rls-yoga-feasibility-35426733-open.
+- 범주별 신규: move 3건·supp 1건·care 2건; 모두 trial 6건; pos 4건·open 2건. 처방약 단독 연구는 기록하지 않았다.
+- 전용 검증·빌드: validator 6개 주제·6개 파일·고유 PMID 6·오류 0·경고 5; build exit 0·error 0건·최종 warning 9,426건. 초기 build warning 9,427건에서 새 targeted warning 1건(요가 군간 비교 문구)을 수정해 최종 targeted warning 0건으로 만들었다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 소표본 5건(24,30,11,38,41명)이며 경고를 숨기거나 표본 수를 보정하지 않았다.
+- 부정·안전성 보강: 12개 질의·3개 레코드·고유 PMID 2개.
+- 누적 집계: 항목 26,992개; 주제 19,329개; 근거 링크 30,152개; 숫자 군간 비교 26,052개; 사람 수 미상 build 경고 1,313개; 소규모 연구 build 경고 7,764개.
+- checkpoint state commit: e54d8cfb20e7ea1ea5f226b5b83e875e0f8cd9fb; data commit: 0d7e4ad6872bea72a74a94f04761d75fa5ba83af; push marker commit: 16ae07d49c2dccebac5f6e7faeeb18bb65bd1102; 현재 PUSHED=true 상태와 데이터·마커를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11410; resume point new-expansion-candidates-batch11410; 다음은 다음 비처방 후보 주제 선정 batch 11410이다.
