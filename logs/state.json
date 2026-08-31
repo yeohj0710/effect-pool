@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T19:50:57.273Z",
+  "updated": "2026-08-31T19:51:52.848Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 27192,
@@ -54,9 +54,9 @@
     "build_warnings": {
       "unknown_n": 1321,
       "thin_study": 7831,
-      "targeted_batch_warnings": 505
+      "targeted_batch_warnings": 507
     },
-    "targeted_batch_warnings": 505
+    "targeted_batch_warnings": 507
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -9614,8 +9614,8 @@
       "59fa59a1586be84161a10e878973553314694f50"
     ],
     "checkpoint_commit": "03beac934e272d17c68bffb5d791e2d3f9018a74",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "9a42c414a772fe82218844e6831ab6d4da907ac6",
+    "known_items_commit": "15aedaf37d638fca689fb1083e3893300ff44ee8",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -165606,11 +165606,13 @@
   },
   "previous_last_batch_11570": {
     "id": "11580",
-    "commit": null,
-    "pushed": false,
+    "commit": "59fa59a1586be84161a10e878973553314694f50",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "data_commits": [
+      "59fa59a1586be84161a10e878973553314694f50"
+    ],
+    "checkpoint_commit": "03beac934e272d17c68bffb5d791e2d3f9018a74",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -165644,7 +165646,7 @@
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 18,
+    "new_references": 0,
     "existing_reference_links": 24,
     "duplicate_search_pmids_removed": 229,
     "duplicate_topic_pmids_retained": [],
@@ -165867,7 +165869,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "11590",
       "worklist_line": "new-expansion-candidates-batch11590",
