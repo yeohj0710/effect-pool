@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T11:37:45.821Z",
+  "updated": "2026-08-31T11:38:14.768Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 26716,
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "11310",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch11310",
     "topic": "다음 비처방 후보 주제 선정 batch 11310"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "11300",
-    "commit": null,
-    "pushed": false,
+    "commit": "a61b07ae0714cc4b13d03471acb2130e3690f735",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "data_commits": [
+      "a61b07ae0714cc4b13d03471acb2130e3690f735"
+    ],
+    "checkpoint_commit": "036fc292ea2ba0f49db4b2abf6b485284773f3f6",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10063,7 +10065,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "11310",
       "worklist_line": "new-expansion-candidates-batch11310",
