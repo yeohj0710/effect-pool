@@ -28020,3 +28020,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,240개; 주제 19,570개; 근거 링크 30,400개; 숫자 군간 비교 26,300개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,858개.
 - checkpoint state commit: 68bfb16a6f1594a884c684af7fd095308093a36b; data commit: 2babeb253f91adee0ee83c0ee6e5be00b9be5315; push marker commit: 5b545263c3f031d5c995740485852af071f00cfd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11620; resume point new-expansion-candidates-batch11620; 다음은 다음 비처방 후보 주제 선정 batch 11620이다.
+- 배치 11620: PCOS 비처방·돌봄 후보 30개 주제를 처리해 신규 항목 9건을 기록했다. 기본·재검색 60개 주제에서 812개 레코드·고유 PMID 346개, 첫 보강 30개 질의에서 948개 레코드·고유 PMID 465개·신규 166개, 두 번째 보강 30개 질의에서 778개 레코드·고유 PMID 432개·신규 52개, 광범위 보강 20개 질의에서 2,385개 레코드·고유 PMID 1,328개·신규 819개를 확인했다. 네 검색 세트를 합친 검색 레코드는 4,923개, 고유 PMID는 1,383개였다.
+- fetch·초록: 합산 고유 PMID 1,383개를 PubMed EFetch로 요청해 1,382개 원저 기록·14개 chunk·일반 초록 1,356개를 확보했고 29,763,005가 누락됐다. 29,763,005는 재조회에서 PubmedBookArticle인 StatPearls 연구 안내서로 확인됐고 PubMed 원저 0건·초록 0건이어서 사용하지 않았다.
+- 후보·제외: parser 1,382건·후보 64건·신규 후보 21건·효과 후보 21건·기존 연결 후보 43건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 처방약·고찰·관찰·프로토콜·질환 불일치·수치 부족 연구인 1,318건을 제외했고, 신규 후보 중 12건은 수동 재검토에서 처방약·고찰·관찰·프로토콜·질환 불일치·직접 수치 부족 사유로 제외했다. 운동·식사·보충제·돌봄에서 직접 군간 수치가 확인된 신규 항목 9건을 기록했다.
+- 신규 PMID: 36843192, 31558086, 34627875, 28598285, 32544011, 31420190, 36246128, 21385417, 28867886.
+- 신규 ID: pcos-exercise-sleep-2023-null, pcos-pulse-tlc-diet-qol-2019-pos, pcos-duodenal-resurfacing-2020-null, pcos-periodontal-myo-inositol-2017-pos, pcos-coq10-inflammation-2021-pos, pcos-pharmacist-care-2019-pos, pcos-hiit-detraining-2022-pos, pcos-low-gi-compliance-2011-pos, pcos-vitamin-d-profile-2017-pos.
+- 범주별 신규: move 2건·food 2건·care 3건·supp 2건; trial 9건; pos 7건·null 2건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 5, 최종 오류 0·경고 5; 초기 build 오류 0·경고 9,536건, 최종 build exit 0·오류 0·경고 9,534건이었다. 새 군간 비교 표현 경고 2건을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 5건(pcos-exercise-sleep-2023-null, pcos-duodenal-resurfacing-2020-null, pcos-coq10-inflammation-2021-pos, pcos-hiit-detraining-2022-pos, pcos-low-gi-compliance-2011-pos)이며 원문에 없는 표본 수를 채우거나 소표본 경고를 숨기지 않았다.
+- 부정·안전성 보강: 9개 질의·7개 레코드·고유 PMID 7개.
+- 누적 집계: 항목 27,249개; 주제 19,579개; 근거 링크 30,409개; 숫자 군간 비교 26,309개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,863개.
+- checkpoint state commit: 9091a2b05597725fd5c390497fe6841b50f2f628; data commit: a4e617abd042eea241e3380756cd9832589cbb65; push marker commit: d1513ce38f465d5e7640b08ad37492ea38bf67bf; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11630; resume point new-expansion-candidates-batch11630; 다음은 다음 비처방 후보 주제 선정 batch 11630이다.
