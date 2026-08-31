@@ -27805,3 +27805,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,029개; 주제 19,366개; 근거 링크 30,189개; 숫자 군간 비교 26,089개; 사람 수 미상 build 경고 1,314개; 소규모 연구 build 경고 7,775개.
 - checkpoint state commit: 8cdd580ce992467c70d0ea2a23a67547dfbe2955; data commit: 5fcc4a4932e5aad90bdc35d46d25308900bac73a; push marker commit: 22076ee6a2439d5a24bc5614dd9e8a475b144915; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11440; resume point new-expansion-candidates-batch11440; 다음은 다음 비처방 후보 주제 선정 batch 11440이다.
+- 배치 11440: 무릎 골관절염 비처방 후보 30개 주제·11개 선정. 기본 검색 30개 질의와 보강 검색 30개 질의, 총 60개 질의에서 1,393개 레코드·고유 PMID 890개를 확인했다(기본 1,018개 레코드·고유 PMID 783개, 보강 375개 레코드·고유 PMID 308개). 별도 추가 검색은 없었다.
+- fetch·초록: 고유 PMID 890개 중 890개 fetch, 9개 chunk, 일반 초록 884개, 누락 0건.
+- 후보 선별: parser 890건·후보 142건·신규 후보 39건·효과 후보 38건·기존 연결 후보 103건. 검색 중 후보가 아닌 748건은 기록하지 않았고 신규 후보 28건은 처방약·주사·관찰·2차분석·고찰·프로토콜·수치 부족 등으로 제외했다. 진흙욕 교차시험 PMID 27050908은 군간 효과 수치가 부족해 기록하지 않았다.
+- 신규 PMID: 27714506, 15937632, 12211508, 23512743, 39981153, 10555905, 31104873, 19679221, 18821708, 12375395, 33197270.
+- 신규 ID: koa-balneotherapy-27714506-open, koa-nurse-education-15937632-null, koa-diet-exercise-12211508-pos, koa-weight-maintenance-23512743-pos, koa-piascledine-39981153-open, koa-glucosamine-hydrochloride-10555905-open, koa-glucosamine-eye-pressure-31104873-null, koa-glucosamine-training-19679221-open, koa-glucosamine-chondroitin-18821708-null, koa-chondroitin-12375395-pos, koa-capsaicin-nof1-33197270-open.
+- 범주별 신규: care 2건·life 2건·move 1건·supp 6건·otc 1건; 모두 trial 11건; pos 3건·open 5건·null 3건. 처방약 단독 연구와 처방약 병용으로 비처방 효과를 분리할 수 없는 연구는 기록하지 않았다.
+- 전용 검증·빌드: validator 11개 주제·11개 파일·고유 PMID 11·오류 0·경고 4; build exit 0·error 0건·최종 warning 9,442건. 초기 build warning 9,445건에서 새 targeted warning 1건(보충제 주어)을 수정했고 수치 부족한 진흙욕 항목 1건을 제거해 최종 targeted warning 0건으로 만들었다.
+- 실제 경고: unknown-n 신규 1건·n<50 신규 3건(n=22, 36, 42명)이며 경고를 숨기거나 표본 수를 보정하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,269개 레코드·고유 PMID 852개.
+- 누적 집계: 항목 27,040개; 주제 19,377개; 근거 링크 30,200개; 숫자 군간 비교 26,100개; 사람 수 미상 build 경고 1,315개; 소규모 연구 build 경고 7,778개.
+- checkpoint state commit: 15f3390c7f397a6e58776981e0f10ddcf2695c3c; data commit: 931696c5d21324535eb1c57eb33b9df5088a7037; push marker commit: 6ad920925119ebadc628dc4a339ca0a745b88aea; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11450; resume point new-expansion-candidates-batch11450; 다음은 다음 비처방 후보 주제 선정 batch 11450이다.
