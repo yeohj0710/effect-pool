@@ -27877,3 +27877,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,080개; 주제 19,416개; 근거 링크 30,240개; 숫자 군간 비교 26,140개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,792개.
 - checkpoint state commit: bd358067327ff33b95e54c3890a8183ba885c84b; data commit: 2e6f1cebe6a1bd6a810253784255454a9a4df3d8; push marker commit: 8a4bc44c499aa20689e144b9cdd9fcc6a7d219be; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11500; resume point new-expansion-candidates-batch11500; 다음은 다음 비처방 후보 주제 선정 batch 11500이다.
+- 배치 11500: 손목터널증후군 비처방 후보 30개 주제·21개 선정. 기본·보강 60개 질의에서 390개 레코드·고유 PMID 229개를 확인했고, 추가 확장 30개 질의에서 625개 레코드·고유 PMID 317개·신규 95개를 확인했다. 세 검색을 합친 고유 PMID는 324개였다.
+- fetch·초록: 합산 고유 PMID 324개를 PubMed EFetch로 요청해 324개 기록·4개 chunk·일반 초록 321개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 324건·후보 24건·신규 후보 2건·효과 후보 2건·기존 연결 22건을 확인했다. 수치 비교·효과크기·유효한 상대효과가 없거나 수술 후·처방약·2차 분석·관찰 연구·수치 부족인 300건을 후보에서 제외했고, parser 신규 후보 중 2건은 수동 선별에서 제외했다. 추가 검색 초록을 수동 재검토해 직접 비교 결과가 확인된 21건을 기록했다.
+- 신규 PMID: 39487575, 41874253, 23791320, 28210859, 10768530, 37906312, 27814933, 19801812, 27909031, 31739206, 39919926, 11439376, 26456628, 28803691, 27487406, 38458950, 29017511, 29594333, 19380259, 37947269, 28299455.
+- 신규 ID: cts-splint-exercise-39487575-null, cts-rigid-splint-placebo-41874253-null, cts-splint-education-23791320-pos, cts-peloid-splint-28210859-pos, cts-neutral-splint-wear-10768530-pos, cts-high-intensity-laser-37906312-open, cts-shockwave-splint-27814933-open, cts-neurodynamic-sham-19801812-null, cts-flax-gel-splint-27909031-pos, cts-commercial-custom-orthosis-31739206-open, cts-manual-lymphatic-drainage-39919926-pos, cts-hand-brace-11439376-pos, cts-bach-flower-26456628-pos, cts-lavender-oil-28803691-pos, cts-biofield-27487406-pos, cts-mirror-therapy-38458950-pos, cts-mechanical-traction-29017511-open, cts-laser-kinesio-29594333-pos, cts-cupping-19380259-pos, cts-mirror-therapy-37947269-pos, cts-pea-supplement-28299455-null.
+- 범주별 신규: care 18건·move 2건·supp 1건; trial 21건; pos 13건·null 4건·open 4건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 12, 최종 오류 0·경고 12; 초기 build 오류 0·경고 9,477건, 최종 build exit 0·오류 0·경고 9,470건이었다. 새 군간 표기 경고 7건을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 12건이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,130개 레코드·고유 PMID 390개.
+- 누적 집계: 항목 27,101개; 주제 19,435개; 근거 링크 30,261개; 숫자 군간 비교 26,161개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,804개.
+- checkpoint state commit: c6d7f917c954b89fa1b3669dc6fd95f59fc72d71; data commit: 1c4366dd808e834215c7ca8948fba02182f4d1cd; push marker commit: 6d1c336da83434c28b8084a87a67e29d66a49fbd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11510; resume point new-expansion-candidates-batch11510; 다음은 다음 비처방 후보 주제 선정 batch 11510이다.
