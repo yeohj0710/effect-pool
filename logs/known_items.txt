@@ -27829,3 +27829,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,041개; 주제 19,378개; 근거 링크 30,201개; 숫자 군간 비교 26,101개; 사람 수 미상 build 경고 1,315개; 소규모 연구 build 경고 7,778개.
 - checkpoint state commit: 74968774d9565820ddb84866cc5f2893e1367493; data commit: cd36da870b36c6da40c22764e55a0f98bc3d8728; push marker commit: af601a7e2923cc52887e1ae17a7629d610bc27e4; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11460; resume point new-expansion-candidates-batch11460; 다음은 다음 비처방 후보 주제 선정 batch 11460이다.
+- 배치 11460: 만성 변비 비처방 후보 30개 주제·9개 선정. 기본 검색 30개 주제와 보강 검색 30개 질의에서 1,049개 레코드·고유 PMID 714개를 확인했고, 추가 확장 검색 30개 질의에서 888개 레코드·고유 PMID 641개를 확인했다. 기본·보강·추가 검색을 합친 고유 PMID는 824개였으며, 추가 검색에서 기본 검색에 없던 PMID 110개를 더 확인했다.
+- fetch·초록: 합산 고유 PMID 824개를 PubMed EFetch로 요청해 824개를 확보했고 10개 chunk, 일반 초록 818개, 누락 0건이었다.
+- 후보·제외: parser 824건·후보 109건·신규 후보 39건·효과 후보 39건·기존 연결 70건을 확인했다. 검색 중 후보가 아닌 715건은 기록하지 않았고, 신규 후보 중 직접 숫자·효과크기·유효한 상대효과가 부족하거나 다른 질환·소아·관찰·혼합 중재인 30건은 제외했다. 최종 9건만 원문 초록의 군간 숫자 결과나 통계값을 확인해 기록했다.
+- 신규 PMID: 30706488, 21322768, 25083090, 39438126, 34315242, 29389471, 9269803, 25543415, 35848844.
+- 신규 ID: cc-kiwifruit-30706488-pos, cc-fermented-milk-21322768-pos, cc-biofeedback-25083090-pos, cc-bisacodyl-39438126-pos, cc-post-tka-acupressure-34315242-pos, cc-icu-abdominal-massage-29389471-pos, cc-biofeedback-modes-9269803-null, cc-electroacupuncture-25543415-pos, cc-sci-abdominal-stimulation-35848844-pos.
+- 범주별 신규: care 6건·food 2건·otc 1건; 모두 trial 9건; pos 8건·null 1건. 처방약 단독 연구는 기록하지 않았다.
+- 전용 검증·빌드: validator 9개 주제·9개 파일·고유 PMID 9·최종 오류 0·경고 5; 초기 validator 오류 4건을 모두 해결했다. build exit 0·error 0건·초기 warning 9,454건에서 최종 warning 9,447건으로 줄었고, 새 targeted warning 3건(군간 비교 표현·영문 표기·표본 수 숫자 겹침)을 수정했다.
+- 실제 경고: unknown-n 신규 1건(PMID 39438126)·n<50 신규 4건(n=14, 39, 26, 10명)이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·1,500개 레코드·고유 PMID 974개.
+- 누적 집계: 항목 27,050개; 주제 19,387개; 근거 링크 30,210개; 숫자 군간 비교 26,110개; 사람 수 미상 build 경고 1,316개; 소규모 연구 build 경고 7,782개.
+- checkpoint state commit: 0186f7160e4f0b7f7e73e48fedce6f88bec445ad; data commit: 1d0ff2775f482a706fb32ad9a53b1ac7185911cd; push marker commit: 51057cc2563c725ecc29be91d49142c7372401e9; validation correction state commit: d73cc63ee62d6415e3d9ee0676d9c6b0664e6b4b; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11470; resume point new-expansion-candidates-batch11470; 다음은 다음 비처방 후보 주제 선정 batch 11470이다.
