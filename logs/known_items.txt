@@ -27889,3 +27889,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,101개; 주제 19,435개; 근거 링크 30,261개; 숫자 군간 비교 26,161개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,804개.
 - checkpoint state commit: c6d7f917c954b89fa1b3669dc6fd95f59fc72d71; data commit: 1c4366dd808e834215c7ca8948fba02182f4d1cd; push marker commit: 6d1c336da83434c28b8084a87a67e29d66a49fbd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11510; resume point new-expansion-candidates-batch11510; 다음은 다음 비처방 후보 주제 선정 batch 11510이다.
+- 배치 11510: 만성 비특이적 어깨 통증·회전근개 통증 비처방 후보 30개 주제·14개 선정. 기본·보강 60개 질의에서 1,064개 레코드·고유 PMID 598개를 확인했고, 추가 확장 30개 질의에서 863개 레코드·고유 PMID 544개·신규 84개를 확인했다. 추가 본문 검색 30개 질의에서 1,498개 레코드·고유 PMID 1,051개·신규 713개를 확인했다. 세 확장 검색을 기본 검색과 합친 고유 PMID는 1,395개였다.
+- fetch·초록: 합산 고유 PMID 1,395개를 PubMed EFetch로 요청해 1,395개 기록·15개 chunk·일반 초록 1,363개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 1,395건·후보 176건·신규 후보 22건·효과 후보 20건·기존 연결 154건을 확인했다. 수치 비교·효과크기·유효한 상대효과가 없거나 비무작위·2차 분석·관찰 연구·프로토콜·초록 없음·수치 부족·처방약·주사 중재인 1,219건을 후보에서 제외했고, 신규 후보 중 10건은 수동 선별에서 제외했다. 추가 검색 초록을 수동 재검토해 직접 비교 결과가 확인된 14건을 기록했다.
+- 신규 PMID: 35146785, 38394299, 18752983, 22211198, 25514821, 28330586, 20371564, 27137171, 38516212, 38672127, 24969812, 27497188, 35368768, 15609842.
+- 신규 ID: shoulder-cied-exercise-35146785-pos, shoulder-vr-exergame-38394299-pos, shoulder-cervical-mobilization-18752983-pos, shoulder-musician-shockwave-22211198-open, shoulder-handball-strength-prevention-25514821-pos, shoulder-wii-impingement-28330586-open, shoulder-swimmer-posture-exercise-20371564-pos, shoulder-supraspinatus-exercise-form-27137171-open, shoulder-handball-eccentric-38516212-pos, shoulder-supraspinatus-percutaneous-exercise-38672127-pos, shoulder-supraspinatus-concentric-eccentric-24969812-null, shoulder-dry-needling-symptomatic-control-27497188-open, shoulder-mind-body-acupressure-35368768-pos, shoulder-acupuncture-tens-15609842-null.
+- 범주별 신규: move 8건·care 6건; trial 14건; pos 8건·open 4건·null 2건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 9, 최종 오류 0·경고 9; 초기 build 오류 0·경고 9,482건, 최종 build exit 0·오류 0·경고 9,479건이었다. 새 군간 표기 경고 3건을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 9건이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 18개 질의·978개 레코드·고유 PMID 689개.
+- 누적 집계: 항목 27,115개; 주제 19,449개; 근거 링크 30,275개; 숫자 군간 비교 26,175개; 사람 수 미상 build 경고 1,317개; 소규모 연구 build 경고 7,813개.
+- checkpoint state commit: bf153c1986417c24a4e5fcf69818943be024ea12; checkpoint metadata correction: 2f964f8c4a1023510f5d4536f502ac55397e50b1; data commit: 5d62338536d25861f83da55dadce0e0b71cf5d69; push marker commit: ed851d5b1213b1870e16cff58956b2731a794fed; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11520; resume point new-expansion-candidates-batch11520; 다음은 다음 비처방 후보 주제 선정 batch 11520이다.
