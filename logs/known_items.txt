@@ -28092,3 +28092,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,364개; 주제 19,683개; 근거 링크 30,524개; 숫자 군간 비교 26,424개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,897개.
 - checkpoint state commit: 689bf82408fc92749aec81c66b4bc1bdee45aad0; data commit: dfb4481eb151fd5193bcd6471b97eef99253c86a; push marker commit: e9da349aef5ca39db21ce13c640d2112d6d2e77e; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11680; resume point new-expansion-candidates-batch11680; 다음은 다음 비처방 후보 주제 선정 batch 11680이다.
+- 배치 11680: 만성 비특이적 목 통증 비처방·비약물 후보 30개 주제를 처리해 신규 항목 8건을 기록했다. 기본·재검색 60개 주제에서 270개 레코드·고유 PMID 125개, 첫 보강 30개 질의에서 318개 레코드·고유 PMID 284개·신규 PMID 197개, 두 번째 보강 30개 질의에서 617개 레코드·고유 PMID 487개·신규 PMID 330개, 광범위 보강 21개 질의에서 51개 레코드·고유 PMID 49개·신규 PMID 27개를 확인했다. 네 검색 세트는 1,256개 레코드·중복 제거 후 고유 PMID 679개였다.
+- fetch·초록: 고유 PMID 679개를 PubMed EFetch로 요청해 679개 기록·7개 chunk·일반 초록 678개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 679건·후보 158건·신규 후보 24건·효과 후보 24건·기존 연결 후보 134건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 처방약·프로토콜·관찰·예측분석·건강인·위험요인만 측정한 연구·사례·질환 또는 표본 불일치·수치 부족 연구인 521건을 제외했고, 신규 후보 중 16건은 같은 기준으로 수동 제외했다. 건침·레이저·운동·작업장 중재·도수치료·전기자극에서 직접 군간 숫자·비율·P값 또는 유효한 상대효과가 확인된 신규 항목 8건을 기록했다. 고강도 레이저 연구 25274197은 초록에 구체적인 숫자·비율·효과크기가 없어 제외했다.
+- 신규 PMID: 30400984, 39663074, 17062645, 19716742, 31344787, 34519194, 40953550, 17210506.
+- 신규 ID: neck-dry-needling-30400984-pos, neck-laser-vacuum-39663074-pos, neck-mckenzie-17062645-null, neck-office-exercise-19716742-pos, neck-workplace-exercise-31344787-null, neck-whiplash-exercise-34519194-pos, neck-manipulation-expectation-40953550-pos, neck-taes-millimeter-17210506-null.
+- 범주별 신규: care 5건·move 2건·life 1건; trial 8건; pos 5건·null 3건.
+- 전용 검증·빌드: 초기 validator 오류 1·경고 3, 최종 validator 오류 0·경고 2; 초기 build exit 1·오류 1·경고 9,580건, 최종 build exit 0·오류 0·경고 9,578건이었다. 수치 요건을 충족하지 못한 레이저 연구를 제외해 build 오류 1건을 해결했고, 새 targeted warning 1건(번역투)을 수정해 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건, n<50 신규 2건(neck-laser-vacuum-39663074-pos, neck-taes-millimeter-17210506-null)이며 원문에 없는 표본 수를 채우거나 경고를 숨기지 않았다. 편타성 목 통증·목·허리 혼합 표본은 적용 범위를 항목에 적었다.
+- 부정·안전성 보강: 8개 질의·8개 레코드·고유 PMID 8개.
+- 누적 집계: 항목 27,372개; 주제 19,690개; 근거 링크 30,532개; 숫자 군간 비교 26,432개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,899개.
+- checkpoint state commit: 65ca077d9c6dec05f1de5764262844be7c0d4414; data commit: f139062511afa41ebe815da18d010c0cdb6bd3fe; push marker commit: 966f0f44903c4ada439498d2034ab56dc0aa7cfd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11690; resume point new-expansion-candidates-batch11690; 다음은 다음 비처방 후보 주제 선정 batch 11690이다.
