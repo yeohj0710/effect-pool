@@ -28008,3 +28008,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,227개; 주제 19,557개; 근거 링크 30,387개; 숫자 군간 비교 26,287개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,856개.
 - checkpoint state commit: 65368a71496f086c01d548a2712d5fa96099d7d3; data commit: 78a4d36f174c2ff2f7c52c999e7a028c868aa133; push marker commit: 9c2a24bbd513c107e2d1c09e08389869847a4d44; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11610; resume point new-expansion-candidates-batch11610; 다음은 다음 비처방 후보 주제 선정 batch 11610이다.
+- 배치 11610: 자궁근종 비처방·돌봄 후보 30개 주제를 검색했고 직접 수치 근거가 확인된 13개 항목을 기록했다. 기본·재검색 60개 주제에서 92개 레코드·고유 PMID 43개, 추가 보강 30개 질의에서 65개 레코드·고유 PMID 59개·신규 34개, 두 번째 보강 30개 질의에서 1개 레코드·고유 PMID 1개·신규 0개, 광범위 보강 20개 질의에서 144개 레코드·고유 PMID 128개·신규 59개를 확인했다. 네 검색을 합친 고유 PMID는 136개였다.
+- fetch·초록: 합산 고유 PMID 136개를 PubMed EFetch로 요청해 136개 기록·2개 chunk·일반 초록 136개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 136건·후보 13건·신규 후보 10건·효과 후보 10건·기존 연결 3건을 확인했다. 수치 비교·효과크기·유효한 상대효과가 없거나 건강 대조군·고찰·관찰·프로토콜·처방 진통 중재·수치 부족 연구를 제외했고, 자동 후보 중 7건은 무작위 군별 직접 결과 수치 부족·건강 대조군·처방 중재·종설 사유로 수동 제외했다. 수동 재검토로 parser 외의 직접 수치가 있는 연구를 추가해 신규 항목 13건을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 34242085, 23070101, 18187401, 34984488, 15297582, 21127866, 20399113, 33290238, 19713130, 32726530, 33687161, 33480045, 32143986.
+- 신규 ID: fibroid-hifu-uae-imaging-2022-null, fibroid-uae-rest-mri-2013-null, fibroid-emmy-uae-hysterectomy-hrqol-2007-null, fibroid-uae-pva-embozene-2023-null, fibroid-uae-pva-tagm-2004-null, fibroid-uae-apvam-tagm-2011-null, fibroid-uae-femoral-access-2010-pos, fibroid-uae-transradial-access-2020-pos, fibroid-uae-occlusion-longterm-2009-pos, fibroid-uae-myomectomy-femme-2y-2020-null, fibroid-vitamin-d-growth-blinded-2021-pos, fibroid-nac-volume-2021-pos, fibroid-education-tool-2020-null.
+- 범주별 신규: care 10건·supp 2건·life 1건; trial 13건; pos 5건·null 8건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 2, 최종 오류 0·경고 2; 초기 build 오류 0·경고 9,543건, 최종 build exit 0·오류 0·경고 9,529건이었다. 새 targeted warning 14건(효과 길이 13건·군간 비교 표현 1건)을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 2건(fibroid-hifu-uae-imaging-2022-null, fibroid-uae-apvam-tagm-2011-null)이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 13개 질의·9개 레코드·고유 PMID 9개.
+- 누적 집계: 항목 27,240개; 주제 19,570개; 근거 링크 30,400개; 숫자 군간 비교 26,300개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,858개.
+- checkpoint state commit: 68bfb16a6f1594a884c684af7fd095308093a36b; data commit: 2babeb253f91adee0ee83c0ee6e5be00b9be5315; push marker commit: 5b545263c3f031d5c995740485852af071f00cfd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11620; resume point new-expansion-candidates-batch11620; 다음은 다음 비처방 후보 주제 선정 batch 11620이다.
