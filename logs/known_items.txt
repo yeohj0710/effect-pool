@@ -27781,3 +27781,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,001개; 주제 19,338개; 근거 링크 30,161개; 숫자 군간 비교 26,061개; 사람 수 미상 build 경고 1,313개; 소규모 연구 build 경고 7,768개.
 - checkpoint state commit: 16e612de5ecdf2f4166a94b9ec6b89aa603b862d; data commit: a3f7a031f8c1639528d91a4ba695fb18b3be84ed; push marker commit: 144a922f1235ff0db0ecd97d62fadee4731fc4a6; 현재 PUSHED=true 상태와 데이터·마커를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11420; resume point new-expansion-candidates-batch11420; 다음은 다음 비처방 후보 주제 선정 batch 11420이다.
+- 배치 11420: 만성 정맥질환·하지정맥류·정맥성 다리궤양 비처방 후보 30개 주제·8개 선정. 기본 검색 30개 질의와 보강 검색 30개 질의, 총 60개 질의에서 307개 레코드·고유 PMID 209개를 확인했다(기본 201개 레코드·고유 PMID 176개, 보강 106개 레코드·고유 PMID 60개). 별도 추가 검색은 없었다.
+- fetch·초록: 고유 PMID 209개 중 209개 fetch, 3개 chunk, 일반 초록 207개, 누락 0건.
+- 후보 선별: parser 209건·후보 21건·신규 후보 14건·효과 후보 13건·기존 연결 후보 7건. 신규 후보 중 6건은 처방성 정맥활성약·수술·다른 질환 중심 연구·수치 부족 등으로 제외했고, 검색 결과에서 직접 숫자·효과크기·유효한 상대효과가 확인된 8건만 기록했다.
+- 신규 PMID: 25059736, 32501761, 40880420, 35457524, 1877335, 1413183, 31418532, 24732169.
+- 신규 ID: cvd-postthrombotic-compression-stockings-25059736-null, cvd-two-layer-bandage-apricot-32501761-open, cvd-venous-ulcer-education-healing-40880420-pos, cvd-venous-ulcer-self-care-brochure-35457524-pos, cvd-varicose-hydrotherapy-1877335-pos, cvd-hydroxyethylrutoside-1413183-null, cvd-venous-ulcer-compression-brochure-31418532-pos, cvd-kinesio-compression-postmenopause-24732169-pos.
+- 범주별 신규: care 4건·life 3건·supp 1건; 모두 trial 8건; pos 4건·open 2건·null 2건. 처방약 단독 연구는 기록하지 않았다.
+- 전용 검증·빌드: validator 8개 주제·8개 파일·고유 PMID 8·오류 0·경고 2; build exit 0·error 0건·최종 warning 9,432건. 초기 build warning 9,433건에서 새 targeted warning 1건(군간 비교 문구)을 수정해 최종 targeted warning 0건으로 만들었다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 소표본 2건(n=39, n=43)이며 경고를 숨기거나 표본 수를 보정하지 않았다.
+- 부정·안전성 보강: 16개 질의·3개 레코드·고유 PMID 3개.
+- 누적 집계: 항목 27,009개; 주제 19,346개; 근거 링크 30,169개; 숫자 군간 비교 26,069개; 사람 수 미상 build 경고 1,313개; 소규모 연구 build 경고 7,770개.
+- checkpoint state commit: 36f37f0ff9c23881ab9a601e3cb8b9498b75d48d; data commit: 3990023d29e5056a8b398bca8c0a03818ef01748; push marker commit: 79abd7c5a28cabdcbe7d0d33a9f391f89680e209; PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11430; resume point new-expansion-candidates-batch11430; 다음은 다음 비처방 후보 주제 선정 batch 11430이다.
