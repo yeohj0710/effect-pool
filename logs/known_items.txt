@@ -27996,3 +27996,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,222개; 주제 19,552개; 근거 링크 30,382개; 숫자 군간 비교 26,282개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,855개.
 - checkpoint state commit: ab64f00b15ce08b1e7c5f6507ea7010f5472ac7f; data commit: 8483321841fe85dcee22c281d34d8cadbdd70ec8; push marker commit: b190d47feeece490a6b00bee71de298215c71402; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
 - 정확한 다음 재개점: next_batch 11600; resume point new-expansion-candidates-batch11600; 다음은 다음 비처방 후보 주제 선정 batch 11600이다.
+- 배치 11600: 자궁내막증 비처방·돌봄 후보 30개 주제를 처리해 신규 항목 5건을 기록했다. 기본 검색은 60개 주제에서 102개 레코드·고유 PMID 49개를 확인했고, 보강 검색은 30개 질의에서 34개 레코드·고유 PMID 33개·신규 14개, 추가 보강은 30개 질의에서 13개 레코드·고유 PMID 13개·신규 5개, 광범위 보강은 20개 질의에서 349개 레코드·고유 PMID 230개·신규 167개를 확인했다. 네 검색을 합친 고유 PMID는 235개였다.
+- fetch·초록: 합산 고유 PMID 235개를 PubMed EFetch로 요청해 234개 원저 기록·3개 chunk·일반 초록 227개를 확보했고 22439157 한 건이 누락됐다. 22439157은 PubMed EFetch에서 PubmedBookArticle인 비교효과 고찰로 확인해 원저 근거에서 제외했다.
+- 후보·제외: parser 234건·후보 20건·신규 후보 8건·효과 후보 8건·기존 연결 12건을 확인했다. 수치 비교·효과크기·유효한 상대효과가 없거나 고찰·방법론·프로토콜·관찰·동물·초록 없음·질환 불일치·처방약 병용·직접 수치 부족 연구를 제외했고, 신규 후보 8건은 전기피부 측정 연관성, 커큐민 수치 부족, 비타민C 설계·수치 부족, 골반울혈증, 한약 방법론, 여성 불임 고찰, 자궁내막증 고찰, 질환 불일치 사유로 수동 제외했다. 직접 숫자·비율·P값 또는 효과 방향이 확인된 신규 항목 5건을 기록했다.
+- 신규 PMID: 19476631, 33305626, 28435128, 39187471, 40296083.
+- 신규 ID: endometriosis-high-antioxidant-diet-pos, vitamin-d-endometriosis-betacatenin-rct, endometriosis-fast-track-care-pos, endometriosis-body-image-writing-null, endometriosis-epro-online-usability-open.
+- 범주별 신규: food 1건·supp 1건·care 1건·life 2건; trial 5건; pos 3건·open 2건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 1, 최종 오류 0·경고 1; 초기 build 오류 0·경고 9,529건, 최종 build exit 0·오류 0·경고 9,527건이었다. 새 targeted warning 2건(군간 비교 표현 1건·영문 표현 1건)을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 1건(vitamin-d-endometriosis-betacatenin-rct)이며 원문에 없는 표본 수를 채우지 않고 경고를 숨기거나 조작하지 않았다.
+- 부정·안전성 보강: 5개 질의·3개 레코드·고유 PMID 3개.
+- 누적 집계: 항목 27,227개; 주제 19,557개; 근거 링크 30,387개; 숫자 군간 비교 26,287개; 사람 수 미상 build 경고 1,322개; 소규모 연구 build 경고 7,856개.
+- checkpoint state commit: 65368a71496f086c01d548a2712d5fa96099d7d3; data commit: 78a4d36f174c2ff2f7c52c999e7a028c868aa133; push marker commit: 9c2a24bbd513c107e2d1c09e08389869847a4d44; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11610; resume point new-expansion-candidates-batch11610; 다음은 다음 비처방 후보 주제 선정 batch 11610이다.
