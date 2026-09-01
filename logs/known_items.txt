@@ -28199,3 +28199,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,459개; 주제 19,775개; 근거 링크 30,619개; 숫자 군간 비교 26,519개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,942개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 9a4bf1597676b0d2bada03748f895f40a6ec9580; data commit: f02a0fb1ebadbffd9a1c4a45b7763c9c39cdfb0a; push marker commit: 3c17360efd231b9a17557df61914ed19ceeb8f6d; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11770; resume point new-expansion-candidates-batch11770; 다음은 다음 비처방 후보 주제 선정 batch 11770이다.
+- 배치 11770: 자궁내막증 비처방·비약물 후보 30개 worklist 주제를 처리했지만 신규 항목은 0건이었다. 기본·재검색 60개 주제에서 202개 레코드·고유 PMID 124개, 첫 보강 30개 질의에서 1,126개 레코드·고유 PMID 868개·신규 PMID 804개, 두 번째 보강 30개 질의에서 372개 레코드·고유 PMID 266개·신규 PMID 121개, 세 번째 보강 30개 질의에서 240개 레코드·고유 PMID 220개·신규 PMID 81개를 확인했다. 네 검색 세트는 1,940개 레코드·중복 제거 후 고유 PMID 1,130개였다.
+- fetch·초록: 고유 PMID 1,130개를 PubMed EFetch로 요청해 1,124개 기록·12개 chunk·원저 초록 1,088개를 확보했다. 누락 PMID 38829978, 31697458, 22439157, 32965830, 39012968, 32119472는 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 6건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 1,124건·후보 22건·신규 후보 9건·효과 후보 9건·기존 연결 후보 13건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 수치 부족 등인 1,102건을 제외했고, 신규 후보 9건은 처방 호르몬·다른 질환·고찰·관찰·대조군 없는 전후 연구·군간 수치 부족 등으로 수동 제외했다. 기존 연결 후보 13건은 중복 기록하지 않았다. 신규 항목을 만들 수 있는 중재군·대조군의 직접 숫자·비율·P값 또는 유효한 상대효과는 확인되지 않았으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 없음.
+- 범주별 신규: 없음; trial 0건; pos 0건·open 0건·null 0건·harm 0건.
+- 전용 검증·빌드: 초기·최종 validator 오류 0·경고 0; 초기·최종 build exit 0·오류 0·경고 9,624건이었다. 새 targeted warning과 수정 사항은 0건이며 최종 targeted warning도 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 0건이다. 신규 항목이 없어 표본 수를 채우거나 경고를 숨기지 않았다.
+- 부정·안전성 보강: 신규 선택 항목이 없어 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,459개; 주제 19,775개; 근거 링크 30,619개; 숫자 군간 비교 26,519개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,942개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 10f595de520e72b6a678da4d67ef627c0cbf3172; data commit: 없음(신규 항목 0건); push marker commit: 524b19ed7bbcc96cf04a13ef929c2b25d8d53e7e; 현재 PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11780; resume point new-expansion-candidates-batch11780; 다음은 다음 비처방 후보 주제 선정 batch 11780이다.
