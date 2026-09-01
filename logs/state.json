@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-01T20:34:59.477Z",
+  "updated": "2026-09-01T20:50:32.259Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 28009,
-  "subjects": 20306,
-  "refs": 31169,
+  "entries": 28011,
+  "subjects": 20308,
+  "refs": 31171,
   "kinds": {
     "undefined": 10367,
-    "food": 936,
-    "care": 8048,
+    "food": 937,
+    "care": 8049,
     "supp": 2700,
     "move": 3396,
     "otc": 609,
@@ -16,15 +16,15 @@
     "rx": 24
   },
   "tiers": {
-    "trial": 27158,
+    "trial": 27160,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19541,
-    "null": 6497,
+    "pos": 19542,
+    "null": 6498,
     "harm": 318,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12430는 담석증·담낭질환 비처방·비약물 후보에서 신규 항목 8건을 기록했다. 다음 재개점은 batch 12440이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12440는 치핵·치질 비처방·비약물 후보에서 신규 항목 2건을 기록했다. 다음 재개점은 batch 12450이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12430는 담석증·담낭질환에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 8건을 추가했다. 다음 확장은 batch 12440이다."
+    "note": "Batch 12440는 치핵·치질에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 2건을 추가했다. 다음 확장은 batch 12450이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.2% (4245 entries)",
+    "over_counter_share": "15.2% (4246 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6815)",
-    "vs_share": "96.6% (27069)",
+    "no_effect_or_harm_share": "24.3% (6816)",
+    "vs_share": "96.6% (27071)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27158)",
+    "trial_share": "97.0% (27160)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1347,
-      "thin_study": 8150,
+      "thin_study": 8152,
       "targeted_batch_warnings": 993
     },
     "targeted_batch_warnings": 993
@@ -63,15 +63,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12440",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12440",
-    "topic": "다음 비처방 후보 주제 선정 batch 12440"
+    "batch": "12450",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12450",
+    "topic": "다음 비처방 후보 주제 선정 batch 12450"
   },
   "resume": {
-    "next_batch": "12440",
-    "worklist_line": "new-expansion-candidates-batch12440",
-    "topic": "다음 비처방 후보 주제 선정 batch 12440",
+    "next_batch": "12450",
+    "worklist_line": "new-expansion-candidates-batch12450",
+    "topic": "다음 비처방 후보 주제 선정 batch 12450",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12430",
-    "commit": "097e62b3c28990e6737122dc66519995618426a9",
-    "pushed": true,
+    "id": "12440",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "097e62b3c28990e6737122dc66519995618426a9"
-    ],
-    "checkpoint_commit": "78ac0db78e1b2cdad425c3d495df256193f76329",
-    "push_marker_commit": "d2f33138ec3696c192197fa77c2b1a290b42d5d7",
-    "known_items_commit": "4d25abec9aae27f96f788aa43ef531331c040960",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "gallstone-1",
-        "subject": "담석증 고섬유식",
+        "id": "hemorrhoid-1",
+        "subject": "치핵 고섬유식",
         "category": "food"
       },
       {
-        "id": "gallstone-2",
-        "subject": "담석증 저지방식",
+        "id": "hemorrhoid-2",
+        "subject": "치핵 식이섬유 보충",
         "category": "food"
       },
       {
-        "id": "gallstone-3",
-        "subject": "담석증 지중해식",
-        "category": "food"
+        "id": "hemorrhoid-3",
+        "subject": "치핵 차전자피",
+        "category": "supp"
       },
       {
-        "id": "gallstone-4",
-        "subject": "담석증 채식",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-5",
-        "subject": "담석증 식물성 식단",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-6",
-        "subject": "담석증 체중감량 식단",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-7",
-        "subject": "담석증 점진적 체중감량",
+        "id": "hemorrhoid-4",
+        "subject": "치핵 수분 섭취",
         "category": "life"
       },
       {
-        "id": "gallstone-8",
-        "subject": "담석증 영양상담",
+        "id": "hemorrhoid-5",
+        "subject": "치핵 변비 관리",
         "category": "life"
       },
       {
-        "id": "gallstone-9",
-        "subject": "담석증 식이섬유 보충",
+        "id": "hemorrhoid-6",
+        "subject": "치핵 저잔사식",
         "category": "food"
       },
       {
-        "id": "gallstone-10",
-        "subject": "담석증 차전자피",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-11",
-        "subject": "담석증 프로바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-12",
-        "subject": "담석증 프리바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-13",
-        "subject": "담석증 신바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-14",
-        "subject": "담석증 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-15",
-        "subject": "담석증 칼슘 보충",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-16",
-        "subject": "담석증 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-17",
-        "subject": "담석증 생강",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-18",
-        "subject": "담석증 강황",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-19",
-        "subject": "담석증 수분 섭취",
+        "id": "hemorrhoid-7",
+        "subject": "치핵 영양상담",
         "category": "life"
       },
       {
-        "id": "gallstone-20",
-        "subject": "담석증 운동치료",
+        "id": "hemorrhoid-8",
+        "subject": "치핵 프로바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-9",
+        "subject": "치핵 플라보노이드",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-10",
+        "subject": "치핵 마로니에",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-11",
+        "subject": "치핵 위치하젤",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-12",
+        "subject": "치핵 알로에",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-13",
+        "subject": "치핵 허브 외용제",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-14",
+        "subject": "치핵 좌욕",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-15",
+        "subject": "치핵 냉찜질",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-16",
+        "subject": "치핵 온찜질",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-17",
+        "subject": "치핵 운동치료",
         "category": "move"
       },
       {
-        "id": "gallstone-21",
-        "subject": "담석증 신체활동",
+        "id": "hemorrhoid-18",
+        "subject": "치핵 신체활동",
         "category": "move"
       },
       {
-        "id": "gallstone-22",
-        "subject": "담석증 걷기",
+        "id": "hemorrhoid-19",
+        "subject": "치핵 걷기",
         "category": "move"
       },
       {
-        "id": "gallstone-23",
-        "subject": "담석증 근력운동",
+        "id": "hemorrhoid-20",
+        "subject": "치핵 근력운동",
         "category": "move"
       },
       {
-        "id": "gallstone-24",
-        "subject": "담석증 요가",
+        "id": "hemorrhoid-21",
+        "subject": "치핵 골반저운동",
         "category": "move"
       },
       {
-        "id": "gallstone-25",
-        "subject": "담석증 마음챙김",
+        "id": "hemorrhoid-22",
+        "subject": "치핵 요가",
+        "category": "move"
+      },
+      {
+        "id": "hemorrhoid-23",
+        "subject": "치핵 마음챙김",
         "category": "life"
       },
       {
-        "id": "gallstone-26",
-        "subject": "담석증 스트레스관리",
+        "id": "hemorrhoid-24",
+        "subject": "치핵 스트레스관리",
         "category": "life"
       },
       {
-        "id": "gallstone-27",
-        "subject": "담석증 자기관리",
+        "id": "hemorrhoid-25",
+        "subject": "치핵 자기관리",
         "category": "life"
       },
       {
-        "id": "gallstone-28",
-        "subject": "담석증 환자교육",
+        "id": "hemorrhoid-26",
+        "subject": "치핵 환자교육",
         "category": "life"
       },
       {
-        "id": "gallstone-29",
-        "subject": "담석증 온라인관리",
+        "id": "hemorrhoid-27",
+        "subject": "치핵 온라인관리",
         "category": "life"
       },
       {
-        "id": "gallstone-30",
-        "subject": "담석증 침치료",
+        "id": "hemorrhoid-28",
+        "subject": "치핵 전화상담",
+        "category": "life"
+      },
+      {
+        "id": "hemorrhoid-29",
+        "subject": "치핵 침치료",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-30",
+        "subject": "치핵 지압",
         "category": "care"
       }
     ],
-    "new_entries": 8,
-    "existing_links": 0,
-    "no_evidence_rejects": 291,
-    "new_candidate_rejects": 20,
-    "manual_screened_additions": 8,
+    "new_entries": 2,
+    "existing_links": 36,
+    "no_evidence_rejects": 461,
+    "new_candidate_rejects": 44,
+    "manual_screened_additions": 2,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 8,
-    "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 52,
+    "new_references": 2,
+    "existing_reference_links": 36,
+    "duplicate_search_pmids_removed": 673,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 371,
-    "main_search_records": 0,
-    "main_search_unique_pmids": 7,
+    "search_returned_records": 1216,
+    "main_search_records": 50,
+    "main_search_unique_pmids": 40,
     "refinement_query_count": 30,
-    "refinement_search_records": 0,
-    "refinement_unique_pmids": 0,
+    "refinement_search_records": 15,
+    "refinement_unique_pmids": 12,
     "extra_query_count": 30,
-    "extra_search_records": 35,
-    "extra_unique_pmids": 35,
-    "extra_new_unique_pmids": 35,
+    "extra_search_records": 92,
+    "extra_unique_pmids": 88,
+    "extra_new_unique_pmids": 71,
     "extra2_query_count": 30,
-    "extra2_search_records": 222,
-    "extra2_unique_pmids": 194,
-    "extra2_new_unique_pmids": 193,
+    "extra2_search_records": 621,
+    "extra2_unique_pmids": 433,
+    "extra2_new_unique_pmids": 407,
     "extra3_query_count": 30,
-    "extra3_search_records": 114,
-    "extra3_unique_pmids": 105,
-    "extra3_new_unique_pmids": 102,
+    "extra3_search_records": 453,
+    "extra3_unique_pmids": 310,
+    "extra3_new_unique_pmids": 282,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 16,
-    "followup_search_records": 12,
-    "followup_search_unique_pmids": 8,
-    "combined_search_unique_pmids": 319,
-    "combined_all_unique_pmids": 319,
-    "requested": 319,
-    "fetched": 319,
-    "fetch_chunks": 4,
-    "abstracts": 309,
-    "abstracts_all_sources": 309,
+    "followup_query_count": 4,
+    "followup_search_records": 2,
+    "followup_search_unique_pmids": 2,
+    "combined_search_unique_pmids": 543,
+    "combined_all_unique_pmids": 543,
+    "requested": 543,
+    "fetched": 543,
+    "fetch_chunks": 6,
+    "abstracts": 514,
+    "abstracts_all_sources": 514,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,70 +9823,47 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 16,
-    "followup_fetched": 8,
+    "followup_requested": 4,
+    "followup_fetched": 2,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 319,
-    "candidate_parser_candidates": 28,
-    "candidate_parser_candidates_after_write": 28,
-    "union_candidate_like": 28,
-    "union_new_candidate_like": 28,
-    "effect_candidate_rows": 28,
-    "manual_candidate_count": 8,
+    "candidate_parser_parsed": 543,
+    "candidate_parser_candidates": 82,
+    "candidate_parser_candidates_after_write": 82,
+    "union_candidate_like": 82,
+    "union_new_candidate_like": 46,
+    "effect_candidate_rows": 46,
+    "manual_candidate_count": 2,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "15865114",
-      "8781321",
-      "10647527",
-      "12111069",
-      "17197959",
-      "32682482",
-      "2902491",
-      "41548725"
+      "1661696",
+      "2820672"
     ],
-    "selected_ncts": [
-      "NCT03421340"
-    ],
+    "selected_ncts": [],
     "new_pmids": [
-      "15865114",
-      "8781321",
-      "10647527",
-      "12111069",
-      "17197959",
-      "32682482",
-      "2902491",
-      "41548725"
+      "1661696",
+      "2820672"
     ],
-    "new_ncts": [
-      "NCT03421340"
-    ],
+    "new_ncts": [],
     "new_entry_ids": [
-      "cholecystitis-observation-15865114-null",
-      "gallstone-low-fat-meal-8781321-pos",
-      "gallstone-exercise-10647527-null",
-      "cholecystitis-cholecystostomy-12111069-null",
-      "gallstone-pancreatitis-early-erc-17197959-null",
-      "gallstone-pancreatitis-apec-32682482-null",
-      "gallstone-pancreatitis-erc-2902491-pos",
-      "bile-duct-stone-cholangioscopy-41548725-null"
+      "hemorrhoid-electrotherapy-1661696-null",
+      "hemorrhoid-wheat-fiber-after-surgery-2820672-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "care": 6,
-      "food": 1,
-      "move": 1
+      "care": 1,
+      "food": 1
     },
     "tiers": {
-      "trial": 8
+      "trial": 2
     },
     "dirs": {
-      "null": 6,
-      "pos": 2
+      "null": 1,
+      "pos": 1
     },
     "unknown_n": 0,
     "thin_studies": 2,
@@ -9897,209 +9872,209 @@
     "initial_validator_errors": 0,
     "initial_validator_warnings": 2,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9850,
-    "build_warning_lines": 9846,
+    "initial_build_warning_lines": 9848,
+    "build_warning_lines": 9848,
     "new_build_warnings": [
-      "gallstone-low-fat-meal-8781321-pos",
-      "gallstone-exercise-10647527-null"
+      "hemorrhoid-electrotherapy-1661696-null",
+      "hemorrhoid-wheat-fiber-after-surgery-2820672-pos"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "gallstone-low-fat-meal-8781321-pos",
-      "gallstone-exercise-10647527-null"
+      "hemorrhoid-electrotherapy-1661696-null",
+      "hemorrhoid-wheat-fiber-after-surgery-2820672-pos"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 4,
+    "targeted_batch_warnings_fixed": 0,
     "targeted_warnings_total": 993,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 27069,
+    "open_numeric_comparisons": 27071,
     "build_exit": 0,
-    "build": "28009 entries; 31169 refs; trial 27158; obs 754; animal 32; lab 18; case 47; numeric 27069; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 담석증·담낭질환 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 0개 레코드·고유 PMID 7개였고, 첫 보강은 35개 레코드·고유 PMID 35개·신규 PMID 35개, 두 번째 보강은 222개 레코드·고유 PMID 194개·신규 PMID 193개, 세 번째 보강은 114개 레코드·고유 PMID 105개·신규 PMID 102개였다. 네 검색 세트는 371개 레코드·중복 제거 후 고유 PMID 319개였다. EFetch는 319개를 요청·수집했고 309개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 319건에서 후보 28건·신규 후보 28건·효과 후보 28건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 8건을 기록했고 수동 제외 목록 20건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 16개 질의에서 12개 레코드·고유 PMID 8개를 확인했다.",
+    "build": "28011 entries; 31171 refs; trial 27160; obs 754; animal 32; lab 18; case 47; numeric 27071; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 치핵·치질 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 50개 레코드·고유 PMID 40개였고, 첫 보강은 92개 레코드·고유 PMID 88개·신규 PMID 71개, 두 번째 보강은 621개 레코드·고유 PMID 433개·신규 PMID 407개, 세 번째 보강은 453개 레코드·고유 PMID 310개·신규 PMID 282개였다. 네 검색 세트는 1216개 레코드·중복 제거 후 고유 PMID 543개였다. EFetch는 543개를 요청·수집했고 514개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 543건에서 후보 82건·신규 후보 46건·효과 후보 46건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 2건을 기록했고 수동 제외 목록 44건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 4개 질의에서 2개 레코드·고유 PMID 2개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "gallstone-1",
-        "subject": "담석증 고섬유식",
+        "id": "hemorrhoid-1",
+        "subject": "치핵 고섬유식",
         "category": "food"
       },
       {
-        "id": "gallstone-2",
-        "subject": "담석증 저지방식",
+        "id": "hemorrhoid-2",
+        "subject": "치핵 식이섬유 보충",
         "category": "food"
       },
       {
-        "id": "gallstone-3",
-        "subject": "담석증 지중해식",
-        "category": "food"
+        "id": "hemorrhoid-3",
+        "subject": "치핵 차전자피",
+        "category": "supp"
       },
       {
-        "id": "gallstone-4",
-        "subject": "담석증 채식",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-5",
-        "subject": "담석증 식물성 식단",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-6",
-        "subject": "담석증 체중감량 식단",
-        "category": "food"
-      },
-      {
-        "id": "gallstone-7",
-        "subject": "담석증 점진적 체중감량",
+        "id": "hemorrhoid-4",
+        "subject": "치핵 수분 섭취",
         "category": "life"
       },
       {
-        "id": "gallstone-8",
-        "subject": "담석증 영양상담",
+        "id": "hemorrhoid-5",
+        "subject": "치핵 변비 관리",
         "category": "life"
       },
       {
-        "id": "gallstone-9",
-        "subject": "담석증 식이섬유 보충",
+        "id": "hemorrhoid-6",
+        "subject": "치핵 저잔사식",
         "category": "food"
       },
       {
-        "id": "gallstone-10",
-        "subject": "담석증 차전자피",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-11",
-        "subject": "담석증 프로바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-12",
-        "subject": "담석증 프리바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-13",
-        "subject": "담석증 신바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-14",
-        "subject": "담석증 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-15",
-        "subject": "담석증 칼슘 보충",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-16",
-        "subject": "담석증 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-17",
-        "subject": "담석증 생강",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-18",
-        "subject": "담석증 강황",
-        "category": "supp"
-      },
-      {
-        "id": "gallstone-19",
-        "subject": "담석증 수분 섭취",
+        "id": "hemorrhoid-7",
+        "subject": "치핵 영양상담",
         "category": "life"
       },
       {
-        "id": "gallstone-20",
-        "subject": "담석증 운동치료",
+        "id": "hemorrhoid-8",
+        "subject": "치핵 프로바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-9",
+        "subject": "치핵 플라보노이드",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-10",
+        "subject": "치핵 마로니에",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-11",
+        "subject": "치핵 위치하젤",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-12",
+        "subject": "치핵 알로에",
+        "category": "supp"
+      },
+      {
+        "id": "hemorrhoid-13",
+        "subject": "치핵 허브 외용제",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-14",
+        "subject": "치핵 좌욕",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-15",
+        "subject": "치핵 냉찜질",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-16",
+        "subject": "치핵 온찜질",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-17",
+        "subject": "치핵 운동치료",
         "category": "move"
       },
       {
-        "id": "gallstone-21",
-        "subject": "담석증 신체활동",
+        "id": "hemorrhoid-18",
+        "subject": "치핵 신체활동",
         "category": "move"
       },
       {
-        "id": "gallstone-22",
-        "subject": "담석증 걷기",
+        "id": "hemorrhoid-19",
+        "subject": "치핵 걷기",
         "category": "move"
       },
       {
-        "id": "gallstone-23",
-        "subject": "담석증 근력운동",
+        "id": "hemorrhoid-20",
+        "subject": "치핵 근력운동",
         "category": "move"
       },
       {
-        "id": "gallstone-24",
-        "subject": "담석증 요가",
+        "id": "hemorrhoid-21",
+        "subject": "치핵 골반저운동",
         "category": "move"
       },
       {
-        "id": "gallstone-25",
-        "subject": "담석증 마음챙김",
+        "id": "hemorrhoid-22",
+        "subject": "치핵 요가",
+        "category": "move"
+      },
+      {
+        "id": "hemorrhoid-23",
+        "subject": "치핵 마음챙김",
         "category": "life"
       },
       {
-        "id": "gallstone-26",
-        "subject": "담석증 스트레스관리",
+        "id": "hemorrhoid-24",
+        "subject": "치핵 스트레스관리",
         "category": "life"
       },
       {
-        "id": "gallstone-27",
-        "subject": "담석증 자기관리",
+        "id": "hemorrhoid-25",
+        "subject": "치핵 자기관리",
         "category": "life"
       },
       {
-        "id": "gallstone-28",
-        "subject": "담석증 환자교육",
+        "id": "hemorrhoid-26",
+        "subject": "치핵 환자교육",
         "category": "life"
       },
       {
-        "id": "gallstone-29",
-        "subject": "담석증 온라인관리",
+        "id": "hemorrhoid-27",
+        "subject": "치핵 온라인관리",
         "category": "life"
       },
       {
-        "id": "gallstone-30",
-        "subject": "담석증 침치료",
+        "id": "hemorrhoid-28",
+        "subject": "치핵 전화상담",
+        "category": "life"
+      },
+      {
+        "id": "hemorrhoid-29",
+        "subject": "치핵 침치료",
+        "category": "care"
+      },
+      {
+        "id": "hemorrhoid-30",
+        "subject": "치핵 지압",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "담석증 고섬유식",
-      "담석증 저지방식",
-      "담석증 지중해식",
-      "담석증 채식",
-      "담석증 식물성 식단",
-      "담석증 체중감량 식단",
-      "담석증 점진적 체중감량",
-      "담석증 영양상담",
-      "담석증 식이섬유 보충",
-      "담석증 차전자피",
-      "담석증 프로바이오틱",
-      "담석증 프리바이오틱",
-      "담석증 신바이오틱",
-      "담석증 비타민D",
-      "담석증 칼슘 보충",
-      "담석증 오메가3",
-      "담석증 생강",
-      "담석증 강황",
-      "담석증 수분 섭취",
-      "담석증 운동치료",
-      "담석증 신체활동",
-      "담석증 걷기",
-      "담석증 근력운동",
-      "담석증 요가",
-      "담석증 마음챙김",
-      "담석증 스트레스관리",
-      "담석증 자기관리",
-      "담석증 환자교육",
-      "담석증 온라인관리",
-      "담석증 침치료"
+      "치핵 고섬유식",
+      "치핵 식이섬유 보충",
+      "치핵 차전자피",
+      "치핵 수분 섭취",
+      "치핵 변비 관리",
+      "치핵 저잔사식",
+      "치핵 영양상담",
+      "치핵 프로바이오틱",
+      "치핵 플라보노이드",
+      "치핵 마로니에",
+      "치핵 위치하젤",
+      "치핵 알로에",
+      "치핵 허브 외용제",
+      "치핵 좌욕",
+      "치핵 냉찜질",
+      "치핵 온찜질",
+      "치핵 운동치료",
+      "치핵 신체활동",
+      "치핵 걷기",
+      "치핵 근력운동",
+      "치핵 골반저운동",
+      "치핵 요가",
+      "치핵 마음챙김",
+      "치핵 스트레스관리",
+      "치핵 자기관리",
+      "치핵 환자교육",
+      "치핵 온라인관리",
+      "치핵 전화상담",
+      "치핵 침치료",
+      "치핵 지압"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10107,38 +10082,62 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12440",
-      "worklist_line": "new-expansion-candidates-batch12440",
-      "topic": "다음 비처방 후보 주제 선정 batch 12440",
+      "next_batch": "12450",
+      "worklist_line": "new-expansion-candidates-batch12450",
+      "topic": "다음 비처방 후보 주제 선정 batch 12450",
       "unchecked": 0
     },
     "unknownN": 0,
     "thin": 2,
     "rejected_candidate_pmids": [
-      "32583297",
-      "1416572",
-      "38318932",
-      "35230533",
-      "22935027",
-      "15495060",
-      "20091549",
-      "33951361",
-      "17127188",
-      "15868595",
-      "15867044",
-      "2104681",
-      "16158082",
-      "34811629",
-      "16038966",
-      "26068960",
-      "22089363",
-      "16234101",
-      "38065510",
-      "7788532"
+      "11598479",
+      "19997953",
+      "16738292",
+      "29076869",
+      "25246307",
+      "32761813",
+      "41040768",
+      "26387487",
+      "34872729",
+      "28900452",
+      "26420770",
+      "24193286",
+      "11409185",
+      "8203791",
+      "42245301",
+      "20578418",
+      "28871428",
+      "23577929",
+      "33087033",
+      "8921768",
+      "16235372",
+      "19333053",
+      "40581923",
+      "34431511",
+      "20927750",
+      "35592120",
+      "11922398",
+      "42355550",
+      "32551439",
+      "23726831",
+      "11289288",
+      "29652112",
+      "38821379",
+      "23904726",
+      "8401640",
+      "18844269",
+      "22457863",
+      "30627524",
+      "18457475",
+      "40992167",
+      "19149363",
+      "18622465",
+      "22336851",
+      "30783957"
     ],
-    "new_search_pmids": 312
+    "new_search_pmids": 503
   },
   "previous_last_batch_10490": {
     "id": "10490",
