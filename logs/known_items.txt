@@ -28279,3 +28279,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,471개; 주제 19,785개; 근거 링크 30,631개; 숫자 군간 비교 26,531개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,949개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 08d799c96aad1cc65e1f5e61f0828cfe69531de1; data commit: 92bac134497e041da21ac1ce737b133f988ebb35; push marker commit: cce19c2fd6be796eb9b8180c23f20d3edebfcb8d; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11840; resume point new-expansion-candidates-batch11840; 다음은 다음 비처방 후보 주제 선정 batch 11840이다.
+- 배치 11840: 알레르기 비염 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 1건을 기록했다. 기본·재검색 60개 주제에서 383개 레코드·고유 PMID 254개, 첫 보강 30개 질의에서 1,297개 레코드·고유 PMID 1,114개·신규 PMID 1,013개, 두 번째 보강 30개 질의에서 368개 레코드·고유 PMID 327개·신규 PMID 138개, 세 번째 보강 30개 질의에서 72개 레코드·고유 PMID 57개·신규 PMID 3개를 확인했다. 네 검색 세트는 2,120개 레코드·중복 제거 후 고유 PMID 1,408개였다.
+- fetch·초록: 고유 PMID 1,408개를 PubMed EFetch로 요청해 1,398개 기록·15개 chunk·원저 초록 1,344개를 확보했다. 누락 PMID 27977090, 23946962, 32809396, 32809553, 29083616, 32491776, 26962617, 28722853, 31643635, 31643329는 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 10건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 1,398건·후보 32건·신규 후보 14건·효과 후보 14건·기존 연결 후보 18건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 처방약·동물·관찰·사례대조·멘델 무작위화·고찰·치과 결과·다른 질환·수치 부족 등인 1,366건을 제외했고, 신규 후보 중 13건은 같은 기준으로 수동 제외했다. 비타민 D3를 표준 비강 스테로이드에 추가한 무작위시험 1건은 군별 TNSS 수치와 P값이 확인되어 기록했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 36742943(allergic-rhinitis-vitamin-d3-adjuvant-36742943-pos).
+- 범주별 신규: supp 1건; trial 1건; pos 1건.
+- 전용 검증·빌드: 초기·최종 validator 오류 0건·경고 0건; 초기·최종 build exit 0·오류 0·경고 9,631건이었다. 새 targeted warning과 수정 사항은 0건이며 최종 targeted warning도 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 0건이다. 표본 수를 임의로 채우거나 기존 경고를 숨기지 않았다.
+- 부정·안전성 보강: 1개 질의·1개 레코드·고유 PMID 1개.
+- 누적 집계: 항목 27,472개; 주제 19,786개; 근거 링크 30,632개; 숫자 군간 비교 26,532개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,949개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 5fa72e361d0fa2c4ea087d12357e0f553e59f0fb; data commit: 4015413a7ebf7742b776c25f2208943599480851; push marker commit: 6704f516c571ef9c1d63fa9e24a0182aea8c4a63; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11850; resume point new-expansion-candidates-batch11850; 다음은 다음 비처방 후보 주제 선정 batch 11850이다.
