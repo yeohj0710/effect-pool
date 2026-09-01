@@ -28391,3 +28391,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,617개; 주제 19,928개; 근거 링크 30,777개; 숫자 군간 비교 26,677개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 7ee0cafe5; data commit: 3ce5e6b0d; push marker commit: 1a87dff5a; known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 11950; resume point new-expansion-candidates-batch11950; 다음은 다음 비처방 후보 주제 선정 batch 11950이다.
+- 배치 11950: 만성 경부통·목 통증 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 8건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 574개 레코드·고유 PMID 300개, 첫 보강 30개 질의에서 180개 레코드·고유 PMID 175개·신규 PMID 131개, 두 번째 보강 30개 질의에서 303개 레코드·고유 PMID 220개·신규 PMID 200개, 세 번째 보강은 0개 질의·0개 레코드였다. 네 검색 세트는 1057개 레코드·중복 제거 후 고유 PMID 631개였다.
+- 배치 11950 fetch·선별: 고유 PMID 631개를 PubMed EFetch로 요청·수집해 7개 chunk·원저 초록 628개를 확보했다. 누락 PMID는 0개였고, 신규 선택 PMID 8개를 재조회해 8개 PubmedArticle과 초록 8개를 확인했다. 후보 parser는 631건에서 후보 100건·신규 후보 9건·효과 후보 9건을 확인했다. 직접 숫자·비율·P값·효과크기가 있는 신규 항목 8건을 선택하고, 수동 제외 13건과 직접 수치 부족·2차 분석·재분석·건강인·비적합 연구를 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 41764757(neck-pain-kinetic-control-41764757-pos), 16686557(neck-pain-strength-training-16686557-pos), 39873466(neck-pain-kinesiotaping-39873466-pos), 23297561(neck-pain-tuina-23297561-pos), 15609843(neck-pain-cervical-traction-15609843-pos), 39177614(neck-pain-cervical-traction-insomnia-39177614-pos), 40997242(neck-pain-cervicolumbar-manual-40997242-pos), 16152838(neck-pain-vertebral-manipulation-16152838-pos). ClinicalTrials.gov 별도 검색은 하지 않았으며, 신규 refs에는 PubMed PMID를 직접 기록했다. 초록에 명시된 NCT06803134는 해당 항목의 메타데이터로 보존했다. 기존 항목 연결은 0건이다.
+- 수동 제외 PMID: 15322438, 40446333, 29229058, 29204914, 25274197, 31385489, 38415907, 19846359, 16739840, 21739688, 35850745, 39374216, 18608419. 재분석·2차 분석·건강인 연구·군간 수치 부족·관찰성 분석을 제외했다.
+- 범주별 신규: move 2건, care 6건; trial 8건; pos 8건.
+- 배치 11950 검증·빌드: 초기·최종 validator 오류 0건·경고 3건이었다. 초기 build exit 0·오류 0건·경고 9696건, 최종 build exit 0·오류 0건·경고 9689건이었다. 새 targeted warning은 7건(effect 길이 4건·vs 비교 표현 1건·줄 길이 1건·번역투 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 3건이다. n=44 운동조절 재훈련, n=30 경추견인, n=47 경추·요추 복합 도수치료의 소규모 연구 경고를 유지했다. 표본 수를 임의로 채우거나 경고를 숨기지 않았다. 누적 build 경고는 사람 수 미상 1339건·소규모 연구 8001건이다.
+- 부정·안전성 보강: 8개 질의·8개 레코드·고유 PMID 8개.
+- 누적 집계: 항목 27,625개; 주제 19,936개; 근거 링크 30,785개; 숫자 군간 비교 26,685개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 2fc0bfa72; data commit: bbd3666dc; push marker commit: c317d7a5a; known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 11960; resume point new-expansion-candidates-batch11960; 다음은 다음 비처방 후보 주제 선정 batch 11960이다.
