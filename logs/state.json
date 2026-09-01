@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T15:49:55.434Z",
+  "updated": "2026-09-01T16:14:36.597Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27808,
-  "subjects": 20107,
-  "refs": 30968,
+  "entries": 27838,
+  "subjects": 20137,
+  "refs": 30998,
   "kinds": {
     "undefined": 10367,
-    "food": 903,
-    "care": 8012,
-    "supp": 2658,
-    "move": 3342,
+    "food": 904,
+    "care": 8019,
+    "supp": 2659,
+    "move": 3356,
     "otc": 609,
-    "life": 1893,
+    "life": 1900,
     "rx": 24
   },
   "tiers": {
-    "trial": 26957,
+    "trial": 26987,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19402,
-    "null": 6436,
+    "pos": 19423,
+    "null": 6445,
     "harm": 317,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12300는 만성 신장병 비처방 관리 비처방·비약물 후보에서 신규 항목 20건을 기록했다. 다음 재개점은 batch 12310이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12310는 만성폐쇄성폐질환 비처방 관리 비처방·비약물 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 12320이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12300는 만성 신장병 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 20건을 추가했다. 다음 확장은 batch 12310이다."
+    "note": "Batch 12310는 만성폐쇄성폐질환 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12320이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.0% (4170 entries)",
+    "over_counter_share": "15.0% (4172 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6753)",
-    "vs_share": "96.6% (26868)",
+    "no_effect_or_harm_share": "24.3% (6762)",
+    "vs_share": "96.6% (26898)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "96.9% (26957)",
+    "trial_share": "96.9% (26987)",
     "non_trial_share": "3.1% (851)",
     "build_warnings": {
-      "unknown_n": 1345,
-      "thin_study": 8079,
-      "targeted_batch_warnings": 897
+      "unknown_n": 1346,
+      "thin_study": 8089,
+      "targeted_batch_warnings": 901
     },
-    "targeted_batch_warnings": 897
+    "targeted_batch_warnings": 901
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12310",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12310",
-    "topic": "다음 비처방 후보 주제 선정 batch 12310"
+    "batch": "12320",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12320",
+    "topic": "다음 비처방 후보 주제 선정 batch 12320"
   },
   "resume": {
-    "next_batch": "12310",
-    "worklist_line": "new-expansion-candidates-batch12310",
-    "topic": "다음 비처방 후보 주제 선정 batch 12310",
+    "next_batch": "12320",
+    "worklist_line": "new-expansion-candidates-batch12320",
+    "topic": "다음 비처방 후보 주제 선정 batch 12320",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,551 +9606,614 @@
     }
   },
   "last_batch": {
-    "id": "12300",
-    "commit": "7a837be1f9a6b2e7beb15db4314d3a38363debc8",
-    "pushed": true,
+    "id": "12310",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "7a837be1f9a6b2e7beb15db4314d3a38363debc8"
-    ],
-    "checkpoint_commit": "e016623caceb655eba77379414a45b21be4702f4",
-    "push_marker_commit": "71bb4b078a5e0c2f66961cf99f73bd5bd324dff4",
-    "known_items_commit": "32e87e51fe7c50402b7582f222419a0c487683aa",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "ckd-1",
-        "subject": "만성 신장병 걷기운동",
+        "id": "copd-1",
+        "subject": "만성폐쇄성폐질환 폐재활",
         "category": "move"
       },
       {
-        "id": "ckd-2",
-        "subject": "만성 신장병 유산소운동",
+        "id": "copd-2",
+        "subject": "만성폐쇄성폐질환 유산소운동",
         "category": "move"
       },
       {
-        "id": "ckd-3",
-        "subject": "만성 신장병 저항운동",
+        "id": "copd-3",
+        "subject": "만성폐쇄성폐질환 저항운동",
         "category": "move"
       },
       {
-        "id": "ckd-4",
-        "subject": "만성 신장병 고강도운동",
+        "id": "copd-4",
+        "subject": "만성폐쇄성폐질환 걷기운동",
         "category": "move"
       },
       {
-        "id": "ckd-5",
-        "subject": "만성 신장병 복합운동",
+        "id": "copd-5",
+        "subject": "만성폐쇄성폐질환 가정운동",
         "category": "move"
       },
       {
-        "id": "ckd-6",
-        "subject": "만성 신장병 요가",
+        "id": "copd-6",
+        "subject": "만성폐쇄성폐질환 호흡운동",
         "category": "move"
       },
       {
-        "id": "ckd-7",
-        "subject": "만성 신장병 태극권",
+        "id": "copd-7",
+        "subject": "만성폐쇄성폐질환 흡기근훈련",
         "category": "move"
       },
       {
-        "id": "ckd-8",
-        "subject": "만성 신장병 가정운동",
+        "id": "copd-8",
+        "subject": "만성폐쇄성폐질환 요가",
         "category": "move"
       },
       {
-        "id": "ckd-9",
-        "subject": "만성 신장병 체중감량",
+        "id": "copd-9",
+        "subject": "만성폐쇄성폐질환 태극권",
+        "category": "move"
+      },
+      {
+        "id": "copd-10",
+        "subject": "만성폐쇄성폐질환 인터벌운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-11",
+        "subject": "만성폐쇄성폐질환 근력운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-12",
+        "subject": "만성폐쇄성폐질환 상지운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-13",
+        "subject": "만성폐쇄성폐질환 자기관리",
         "category": "life"
       },
       {
-        "id": "ckd-10",
-        "subject": "만성 신장병 생활습관중재",
+        "id": "copd-14",
+        "subject": "만성폐쇄성폐질환 환자교육",
         "category": "life"
       },
       {
-        "id": "ckd-11",
-        "subject": "만성 신장병 자기관리",
+        "id": "copd-15",
+        "subject": "만성폐쇄성폐질환 행동계획",
         "category": "life"
       },
       {
-        "id": "ckd-12",
-        "subject": "만성 신장병 교육",
+        "id": "copd-16",
+        "subject": "만성폐쇄성폐질환 금연중재",
         "category": "life"
       },
       {
-        "id": "ckd-13",
-        "subject": "만성 신장병 가정혈압관리",
+        "id": "copd-17",
+        "subject": "만성폐쇄성폐질환 체중관리",
         "category": "life"
       },
       {
-        "id": "ckd-14",
-        "subject": "만성 신장병 원격관리",
+        "id": "copd-18",
+        "subject": "만성폐쇄성폐질환 영양상담",
+        "category": "food"
+      },
+      {
+        "id": "copd-19",
+        "subject": "만성폐쇄성폐질환 단백질보충",
+        "category": "supp"
+      },
+      {
+        "id": "copd-20",
+        "subject": "만성폐쇄성폐질환 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "copd-21",
+        "subject": "만성폐쇄성폐질환 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "copd-22",
+        "subject": "만성폐쇄성폐질환 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "copd-23",
+        "subject": "만성폐쇄성폐질환 식이보충",
+        "category": "food"
+      },
+      {
+        "id": "copd-24",
+        "subject": "만성폐쇄성폐질환 원격재활",
         "category": "care"
       },
       {
-        "id": "ckd-15",
-        "subject": "만성 신장병 마음챙김",
+        "id": "copd-25",
+        "subject": "만성폐쇄성폐질환 원격관리",
+        "category": "care"
+      },
+      {
+        "id": "copd-26",
+        "subject": "만성폐쇄성폐질환 모바일관리",
+        "category": "care"
+      },
+      {
+        "id": "copd-27",
+        "subject": "만성폐쇄성폐질환 전화상담",
+        "category": "care"
+      },
+      {
+        "id": "copd-28",
+        "subject": "만성폐쇄성폐질환 마음챙김",
         "category": "life"
       },
       {
-        "id": "ckd-16",
-        "subject": "만성 신장병 스트레스관리",
+        "id": "copd-29",
+        "subject": "만성폐쇄성폐질환 이완훈련",
         "category": "life"
       },
       {
-        "id": "ckd-17",
-        "subject": "만성 신장병 수면관리",
+        "id": "copd-30",
+        "subject": "만성폐쇄성폐질환 수면관리",
         "category": "life"
-      },
-      {
-        "id": "ckd-18",
-        "subject": "만성 신장병 저단백식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-19",
-        "subject": "만성 신장병 저염식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-20",
-        "subject": "만성 신장병 DASH식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-21",
-        "subject": "만성 신장병 지중해식",
-        "category": "food"
-      },
-      {
-        "id": "ckd-22",
-        "subject": "만성 신장병 식물성식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-23",
-        "subject": "만성 신장병 저탄수화물식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-24",
-        "subject": "만성 신장병 식이섬유",
-        "category": "food"
-      },
-      {
-        "id": "ckd-25",
-        "subject": "만성 신장병 견과류",
-        "category": "food"
-      },
-      {
-        "id": "ckd-26",
-        "subject": "만성 신장병 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-27",
-        "subject": "만성 신장병 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-28",
-        "subject": "만성 신장병 마그네슘",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-29",
-        "subject": "만성 신장병 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-30",
-        "subject": "만성 신장병 커큐민",
-        "category": "supp"
       }
     ],
-    "new_entries": 20,
-    "existing_links": 5,
-    "no_evidence_rejects": 1102,
-    "new_candidate_rejects": 10,
-    "manual_screened_additions": 20,
+    "new_entries": 30,
+    "existing_links": 28,
+    "no_evidence_rejects": 2190,
+    "new_candidate_rejects": 24,
+    "manual_screened_additions": 30,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 20,
-    "existing_reference_links": 5,
-    "duplicate_search_pmids_removed": 879,
+    "new_references": 30,
+    "existing_reference_links": 28,
+    "duplicate_search_pmids_removed": 1337,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 2016,
-    "main_search_records": 798,
-    "main_search_unique_pmids": 540,
+    "search_returned_records": 3618,
+    "main_search_records": 680,
+    "main_search_unique_pmids": 531,
     "refinement_query_count": 30,
-    "refinement_search_records": 634,
-    "refinement_unique_pmids": 482,
+    "refinement_search_records": 322,
+    "refinement_unique_pmids": 274,
     "extra_query_count": 30,
-    "extra_search_records": 503,
-    "extra_unique_pmids": 384,
-    "extra_new_unique_pmids": 280,
+    "extra_search_records": 878,
+    "extra_unique_pmids": 614,
+    "extra_new_unique_pmids": 452,
     "extra2_query_count": 30,
-    "extra2_search_records": 715,
-    "extra2_unique_pmids": 608,
-    "extra2_new_unique_pmids": 317,
-    "extra3_query_count": 0,
-    "extra3_search_records": 0,
-    "extra3_unique_pmids": 0,
-    "extra3_new_unique_pmids": 0,
+    "extra2_search_records": 1491,
+    "extra2_unique_pmids": 1340,
+    "extra2_new_unique_pmids": 1172,
+    "extra3_query_count": 30,
+    "extra3_search_records": 569,
+    "extra3_unique_pmids": 476,
+    "extra3_new_unique_pmids": 364,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 40,
-    "followup_search_records": 22,
-    "followup_search_unique_pmids": 19,
-    "combined_search_unique_pmids": 1137,
-    "combined_all_unique_pmids": 1137,
-    "requested": 1137,
-    "fetched": 1137,
-    "fetch_chunks": 12,
-    "abstracts": 1130,
-    "abstracts_all_sources": 1130,
-    "missing": 0,
-    "fetch_missing": 0,
-    "missing_pmids": [],
+    "followup_query_count": 60,
+    "followup_search_records": 34,
+    "followup_search_unique_pmids": 30,
+    "combined_search_unique_pmids": 2281,
+    "combined_all_unique_pmids": 2281,
+    "requested": 2281,
+    "fetched": 2253,
+    "fetch_chunks": 23,
+    "abstracts": 2172,
+    "abstracts_all_sources": 2200,
+    "missing": 28,
+    "fetch_missing": 28,
+    "missing_pmids": [
+      "38430688",
+      "35312562",
+      "31790904",
+      "27783918",
+      "32725799",
+      "35506072",
+      "21332611",
+      "33693009",
+      "37816541",
+      "41836034",
+      "19245725",
+      "31751183",
+      "19436210",
+      "10767227",
+      "20477315",
+      "38129630",
+      "29502125",
+      "23558890",
+      "31220851",
+      "21843930",
+      "12759479",
+      "30464436",
+      "37140957",
+      "33158422",
+      "15094886",
+      "32143652",
+      "39981351",
+      "42643654"
+    ],
     "refetched_missing": [],
-    "refetch_requested_unique": 0,
+    "refetch_requested_unique": 28,
     "refetch_found_non_article": 0,
-    "refetch_found_pubmed_article": 0,
+    "refetch_found_pubmed_article": 28,
     "refetch_found_pubmed_book_article": 0,
-    "refetch_abstracts": 0,
-    "refetch_article_abstracts": 0,
-    "followup_requested": 40,
-    "followup_fetched": 19,
+    "refetch_abstracts": 28,
+    "refetch_article_abstracts": 28,
+    "followup_requested": 60,
+    "followup_fetched": 30,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 1137,
-    "candidate_parser_candidates": 35,
-    "candidate_parser_candidates_after_write": 35,
-    "union_candidate_like": 35,
-    "union_new_candidate_like": 30,
-    "effect_candidate_rows": 30,
-    "manual_candidate_count": 20,
+    "candidate_parser_parsed": 2253,
+    "candidate_parser_candidates": 63,
+    "candidate_parser_candidates_after_write": 63,
+    "union_candidate_like": 63,
+    "union_new_candidate_like": 35,
+    "effect_candidate_rows": 35,
+    "manual_candidate_count": 30,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "25458662",
-      "36396566",
-      "30068502",
-      "26823552",
-      "37960159",
-      "22362063",
-      "36111910",
-      "31186389",
-      "37965713",
-      "30712743",
-      "36416089",
-      "36662615",
-      "25908532",
-      "32732154",
-      "42636918",
-      "36405836",
-      "38954482",
-      "41379554",
-      "21251861",
-      "29331722"
+      "18295615",
+      "16140230",
+      "41926857",
+      "41914100",
+      "9619472",
+      "25783889",
+      "42006109",
+      "40612580",
+      "26530543",
+      "38474867",
+      "38566419",
+      "37918542",
+      "20727209",
+      "19008675",
+      "21296261",
+      "27956829",
+      "26131612",
+      "10767227",
+      "20951018",
+      "34476247",
+      "39914178",
+      "31332025",
+      "35332685",
+      "34034036",
+      "29914940",
+      "17188853",
+      "17184783",
+      "30130430",
+      "19853399",
+      "28468749"
     ],
-    "selected_ncts": [],
+    "selected_ncts": [
+      "NCT02223962"
+    ],
     "new_pmids": [
-      "25458662",
-      "36396566",
-      "30068502",
-      "26823552",
-      "37960159",
-      "22362063",
-      "36111910",
-      "31186389",
-      "37965713",
-      "30712743",
-      "36416089",
-      "36662615",
-      "25908532",
-      "32732154",
-      "42636918",
-      "36405836",
-      "38954482",
-      "41379554",
-      "21251861",
-      "29331722"
+      "18295615",
+      "16140230",
+      "41926857",
+      "41914100",
+      "9619472",
+      "25783889",
+      "42006109",
+      "40612580",
+      "26530543",
+      "38474867",
+      "38566419",
+      "37918542",
+      "20727209",
+      "19008675",
+      "21296261",
+      "27956829",
+      "26131612",
+      "10767227",
+      "20951018",
+      "34476247",
+      "39914178",
+      "31332025",
+      "35332685",
+      "34034036",
+      "29914940",
+      "17188853",
+      "17184783",
+      "30130430",
+      "19853399",
+      "28468749"
     ],
-    "new_ncts": [],
+    "new_ncts": [
+      "NCT02223962"
+    ],
     "new_entry_ids": [
-      "ckd-exercise-25458662-pos",
-      "ckd-adolescent-self-management-36396566-null",
-      "ckd-parent-support-30068502-null",
-      "ckd-vegetarian-ketoanalogue-26823552-pos",
-      "ckd-meal-replacement-37960159-null",
-      "ckd-very-low-protein-22362063-pos",
-      "ckd-concurrent-exercise-36111910-pos",
-      "ckd-pediatric-resistance-31186389-pos",
-      "ckd-lifestyle-program-37965713-pos",
-      "ckd-pilates-30712743-pos",
-      "ckd-pediatric-exergaming-36416089-pos",
-      "ckd-ehealth-self-management-36662615-null",
-      "ckd-omega3-resolvins-25908532-pos",
-      "ckd-omega3-albuminuria-32732154-null",
-      "ckd-potassium-rich-diet-42636918-null",
-      "ckd-vitamin-d-36405836-null",
-      "ckd-smart-habits-38954482-pos",
-      "ckd-protein-quality-of-life-41379554-null",
-      "ckd-exercise-igf-21251861-null",
-      "ckd-vitamin-d-sclerostin-29331722-null"
+      "copd-adherence-18295615-pos",
+      "copd-home-rehab-16140230-pos",
+      "copd-mobile-app-41926857-pos",
+      "copd-vitamin-d-41914100-pos",
+      "copd-exercise-education-9619472-pos",
+      "copd-early-rehab-25783889-pos",
+      "copd-dance-42006109-null",
+      "copd-remote-gamification-40612580-pos",
+      "copd-post-exacerbation-counseling-26530543-null",
+      "copd-nutrition-rehab-38474867-pos",
+      "copd-discharge-self-management-38566419-null",
+      "copd-chest-mobilization-37918542-pos",
+      "copd-nordic-walking-20727209-pos",
+      "copd-aerobic-strength-19008675-pos",
+      "copd-tai-chi-qigong-21296261-pos",
+      "copd-telemonitor-cycle-27956829-pos",
+      "copd-liuzijue-qigong-26131612-pos",
+      "copd-outpatient-rehab-10767227-pos",
+      "copd-community-exercise-20951018-pos",
+      "copd-web-self-management-34476247-null",
+      "copd-vr-breathing-39914178-pos",
+      "copd-expiratory-resistance-31332025-pos",
+      "copd-inspiratory-manual-35332685-pos",
+      "copd-inspiratory-kinesiophobia-34034036-pos",
+      "copd-adjunctive-inspiratory-29914940-null",
+      "copd-interval-training-17188853-null",
+      "copd-smoking-support-17184783-null",
+      "copd-health-coaching-30130430-null",
+      "copd-disease-education-19853399-pos",
+      "copd-digital-self-management-28468749-null"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "move": 6,
-      "life": 4,
-      "food": 5,
-      "supp": 4,
-      "care": 1
+      "life": 7,
+      "move": 14,
+      "care": 7,
+      "supp": 1,
+      "food": 1
     },
     "tiers": {
-      "trial": 20
+      "trial": 30
     },
     "dirs": {
-      "pos": 10,
-      "null": 10
+      "pos": 21,
+      "null": 9
     },
-    "unknown_n": 2,
-    "thin_studies": 8,
+    "unknown_n": 1,
+    "thin_studies": 10,
     "validator_errors": 0,
-    "validator_warnings": 10,
+    "validator_warnings": 11,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 10,
+    "initial_validator_warnings": 11,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9784,
-    "build_warning_lines": 9773,
+    "initial_build_warning_lines": 9788,
+    "build_warning_lines": 9784,
     "new_build_warnings": [
-      "ckd-adolescent-self-management-36396566-null",
-      "ckd-very-low-protein-22362063-pos",
-      "ckd-concurrent-exercise-36111910-pos",
-      "ckd-pediatric-resistance-31186389-pos",
-      "ckd-pediatric-exergaming-36416089-pos",
-      "ckd-potassium-rich-diet-42636918-null",
-      "ckd-smart-habits-38954482-pos",
-      "ckd-exercise-igf-21251861-null",
-      "ckd-vegetarian-ketoanalogue-26823552-pos",
-      "ckd-lifestyle-program-37965713-pos"
+      "copd-home-rehab-16140230-pos",
+      "copd-vitamin-d-41914100-pos",
+      "copd-dance-42006109-null",
+      "copd-post-exacerbation-counseling-26530543-null",
+      "copd-nutrition-rehab-38474867-pos",
+      "copd-discharge-self-management-38566419-null",
+      "copd-chest-mobilization-37918542-pos",
+      "copd-aerobic-strength-19008675-pos",
+      "copd-vr-breathing-39914178-pos",
+      "copd-inspiratory-kinesiophobia-34034036-pos",
+      "copd-mobile-app-41926857-pos"
     ],
     "new_unknown_n_warnings": [
-      "ckd-vegetarian-ketoanalogue-26823552-pos",
-      "ckd-lifestyle-program-37965713-pos"
+      "copd-mobile-app-41926857-pos"
     ],
     "new_thin_study_warnings": [
-      "ckd-adolescent-self-management-36396566-null",
-      "ckd-very-low-protein-22362063-pos",
-      "ckd-concurrent-exercise-36111910-pos",
-      "ckd-pediatric-resistance-31186389-pos",
-      "ckd-pediatric-exergaming-36416089-pos",
-      "ckd-potassium-rich-diet-42636918-null",
-      "ckd-smart-habits-38954482-pos",
-      "ckd-exercise-igf-21251861-null"
+      "copd-home-rehab-16140230-pos",
+      "copd-vitamin-d-41914100-pos",
+      "copd-dance-42006109-null",
+      "copd-post-exacerbation-counseling-26530543-null",
+      "copd-nutrition-rehab-38474867-pos",
+      "copd-discharge-self-management-38566419-null",
+      "copd-chest-mobilization-37918542-pos",
+      "copd-aerobic-strength-19008675-pos",
+      "copd-vr-breathing-39914178-pos",
+      "copd-inspiratory-kinesiophobia-34034036-pos"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 11,
-    "targeted_warnings_total": 897,
+    "targeted_batch_warnings_fixed": 4,
+    "targeted_warnings_total": 901,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26868,
+    "open_numeric_comparisons": 26898,
     "build_exit": 0,
-    "build": "27808 entries; 30968 refs; trial 26957; obs 754; animal 32; lab 18; case 47; numeric 26868; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 만성 신장병 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 798개 레코드·고유 PMID 540개였고, 첫 보강은 503개 레코드·고유 PMID 384개·신규 PMID 280개, 두 번째 보강은 715개 레코드·고유 PMID 608개·신규 PMID 317개, 세 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개였다. 네 검색 세트는 2016개 레코드·중복 제거 후 고유 PMID 1137개였다. EFetch는 1137개를 요청·수집했고 1130개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1137건에서 후보 35건·신규 후보 30건·효과 후보 30건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 20건을 기록했고 수동 제외 목록 10건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 40개 질의에서 22개 레코드·고유 PMID 19개를 확인했다.",
+    "build": "27838 entries; 30998 refs; trial 26987; obs 754; animal 32; lab 18; case 47; numeric 26898; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 만성폐쇄성폐질환 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 680개 레코드·고유 PMID 531개였고, 첫 보강은 878개 레코드·고유 PMID 614개·신규 PMID 452개, 두 번째 보강은 1491개 레코드·고유 PMID 1340개·신규 PMID 1172개, 세 번째 보강은 569개 레코드·고유 PMID 476개·신규 PMID 364개였다. 네 검색 세트는 3618개 레코드·중복 제거 후 고유 PMID 2281개였다. EFetch는 2253개를 요청·수집했고 2172개 원저 초록을 확보했으며 누락 PMID는 28개였다. 후보 parser는 2253건에서 후보 63건·신규 후보 35건·효과 후보 35건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 24건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 34개 레코드·고유 PMID 30개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "ckd-1",
-        "subject": "만성 신장병 걷기운동",
+        "id": "copd-1",
+        "subject": "만성폐쇄성폐질환 폐재활",
         "category": "move"
       },
       {
-        "id": "ckd-2",
-        "subject": "만성 신장병 유산소운동",
+        "id": "copd-2",
+        "subject": "만성폐쇄성폐질환 유산소운동",
         "category": "move"
       },
       {
-        "id": "ckd-3",
-        "subject": "만성 신장병 저항운동",
+        "id": "copd-3",
+        "subject": "만성폐쇄성폐질환 저항운동",
         "category": "move"
       },
       {
-        "id": "ckd-4",
-        "subject": "만성 신장병 고강도운동",
+        "id": "copd-4",
+        "subject": "만성폐쇄성폐질환 걷기운동",
         "category": "move"
       },
       {
-        "id": "ckd-5",
-        "subject": "만성 신장병 복합운동",
+        "id": "copd-5",
+        "subject": "만성폐쇄성폐질환 가정운동",
         "category": "move"
       },
       {
-        "id": "ckd-6",
-        "subject": "만성 신장병 요가",
+        "id": "copd-6",
+        "subject": "만성폐쇄성폐질환 호흡운동",
         "category": "move"
       },
       {
-        "id": "ckd-7",
-        "subject": "만성 신장병 태극권",
+        "id": "copd-7",
+        "subject": "만성폐쇄성폐질환 흡기근훈련",
         "category": "move"
       },
       {
-        "id": "ckd-8",
-        "subject": "만성 신장병 가정운동",
+        "id": "copd-8",
+        "subject": "만성폐쇄성폐질환 요가",
         "category": "move"
       },
       {
-        "id": "ckd-9",
-        "subject": "만성 신장병 체중감량",
+        "id": "copd-9",
+        "subject": "만성폐쇄성폐질환 태극권",
+        "category": "move"
+      },
+      {
+        "id": "copd-10",
+        "subject": "만성폐쇄성폐질환 인터벌운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-11",
+        "subject": "만성폐쇄성폐질환 근력운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-12",
+        "subject": "만성폐쇄성폐질환 상지운동",
+        "category": "move"
+      },
+      {
+        "id": "copd-13",
+        "subject": "만성폐쇄성폐질환 자기관리",
         "category": "life"
       },
       {
-        "id": "ckd-10",
-        "subject": "만성 신장병 생활습관중재",
+        "id": "copd-14",
+        "subject": "만성폐쇄성폐질환 환자교육",
         "category": "life"
       },
       {
-        "id": "ckd-11",
-        "subject": "만성 신장병 자기관리",
+        "id": "copd-15",
+        "subject": "만성폐쇄성폐질환 행동계획",
         "category": "life"
       },
       {
-        "id": "ckd-12",
-        "subject": "만성 신장병 교육",
+        "id": "copd-16",
+        "subject": "만성폐쇄성폐질환 금연중재",
         "category": "life"
       },
       {
-        "id": "ckd-13",
-        "subject": "만성 신장병 가정혈압관리",
+        "id": "copd-17",
+        "subject": "만성폐쇄성폐질환 체중관리",
         "category": "life"
       },
       {
-        "id": "ckd-14",
-        "subject": "만성 신장병 원격관리",
+        "id": "copd-18",
+        "subject": "만성폐쇄성폐질환 영양상담",
+        "category": "food"
+      },
+      {
+        "id": "copd-19",
+        "subject": "만성폐쇄성폐질환 단백질보충",
+        "category": "supp"
+      },
+      {
+        "id": "copd-20",
+        "subject": "만성폐쇄성폐질환 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "copd-21",
+        "subject": "만성폐쇄성폐질환 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "copd-22",
+        "subject": "만성폐쇄성폐질환 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "copd-23",
+        "subject": "만성폐쇄성폐질환 식이보충",
+        "category": "food"
+      },
+      {
+        "id": "copd-24",
+        "subject": "만성폐쇄성폐질환 원격재활",
         "category": "care"
       },
       {
-        "id": "ckd-15",
-        "subject": "만성 신장병 마음챙김",
+        "id": "copd-25",
+        "subject": "만성폐쇄성폐질환 원격관리",
+        "category": "care"
+      },
+      {
+        "id": "copd-26",
+        "subject": "만성폐쇄성폐질환 모바일관리",
+        "category": "care"
+      },
+      {
+        "id": "copd-27",
+        "subject": "만성폐쇄성폐질환 전화상담",
+        "category": "care"
+      },
+      {
+        "id": "copd-28",
+        "subject": "만성폐쇄성폐질환 마음챙김",
         "category": "life"
       },
       {
-        "id": "ckd-16",
-        "subject": "만성 신장병 스트레스관리",
+        "id": "copd-29",
+        "subject": "만성폐쇄성폐질환 이완훈련",
         "category": "life"
       },
       {
-        "id": "ckd-17",
-        "subject": "만성 신장병 수면관리",
+        "id": "copd-30",
+        "subject": "만성폐쇄성폐질환 수면관리",
         "category": "life"
-      },
-      {
-        "id": "ckd-18",
-        "subject": "만성 신장병 저단백식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-19",
-        "subject": "만성 신장병 저염식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-20",
-        "subject": "만성 신장병 DASH식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-21",
-        "subject": "만성 신장병 지중해식",
-        "category": "food"
-      },
-      {
-        "id": "ckd-22",
-        "subject": "만성 신장병 식물성식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-23",
-        "subject": "만성 신장병 저탄수화물식이",
-        "category": "food"
-      },
-      {
-        "id": "ckd-24",
-        "subject": "만성 신장병 식이섬유",
-        "category": "food"
-      },
-      {
-        "id": "ckd-25",
-        "subject": "만성 신장병 견과류",
-        "category": "food"
-      },
-      {
-        "id": "ckd-26",
-        "subject": "만성 신장병 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-27",
-        "subject": "만성 신장병 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-28",
-        "subject": "만성 신장병 마그네슘",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-29",
-        "subject": "만성 신장병 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "ckd-30",
-        "subject": "만성 신장병 커큐민",
-        "category": "supp"
       }
     ],
     "screened_topics": [
-      "만성 신장병 걷기운동",
-      "만성 신장병 유산소운동",
-      "만성 신장병 저항운동",
-      "만성 신장병 고강도운동",
-      "만성 신장병 복합운동",
-      "만성 신장병 요가",
-      "만성 신장병 태극권",
-      "만성 신장병 가정운동",
-      "만성 신장병 체중감량",
-      "만성 신장병 생활습관중재",
-      "만성 신장병 자기관리",
-      "만성 신장병 교육",
-      "만성 신장병 가정혈압관리",
-      "만성 신장병 원격관리",
-      "만성 신장병 마음챙김",
-      "만성 신장병 스트레스관리",
-      "만성 신장병 수면관리",
-      "만성 신장병 저단백식이",
-      "만성 신장병 저염식이",
-      "만성 신장병 DASH식이",
-      "만성 신장병 지중해식",
-      "만성 신장병 식물성식이",
-      "만성 신장병 저탄수화물식이",
-      "만성 신장병 식이섬유",
-      "만성 신장병 견과류",
-      "만성 신장병 오메가3",
-      "만성 신장병 비타민D",
-      "만성 신장병 마그네슘",
-      "만성 신장병 프로바이오틱스",
-      "만성 신장병 커큐민"
+      "만성폐쇄성폐질환 폐재활",
+      "만성폐쇄성폐질환 유산소운동",
+      "만성폐쇄성폐질환 저항운동",
+      "만성폐쇄성폐질환 걷기운동",
+      "만성폐쇄성폐질환 가정운동",
+      "만성폐쇄성폐질환 호흡운동",
+      "만성폐쇄성폐질환 흡기근훈련",
+      "만성폐쇄성폐질환 요가",
+      "만성폐쇄성폐질환 태극권",
+      "만성폐쇄성폐질환 인터벌운동",
+      "만성폐쇄성폐질환 근력운동",
+      "만성폐쇄성폐질환 상지운동",
+      "만성폐쇄성폐질환 자기관리",
+      "만성폐쇄성폐질환 환자교육",
+      "만성폐쇄성폐질환 행동계획",
+      "만성폐쇄성폐질환 금연중재",
+      "만성폐쇄성폐질환 체중관리",
+      "만성폐쇄성폐질환 영양상담",
+      "만성폐쇄성폐질환 단백질보충",
+      "만성폐쇄성폐질환 비타민D",
+      "만성폐쇄성폐질환 오메가3",
+      "만성폐쇄성폐질환 프로바이오틱스",
+      "만성폐쇄성폐질환 식이보충",
+      "만성폐쇄성폐질환 원격재활",
+      "만성폐쇄성폐질환 원격관리",
+      "만성폐쇄성폐질환 모바일관리",
+      "만성폐쇄성폐질환 전화상담",
+      "만성폐쇄성폐질환 마음챙김",
+      "만성폐쇄성폐질환 이완훈련",
+      "만성폐쇄성폐질환 수면관리"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10158,28 +10221,42 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12310",
-      "worklist_line": "new-expansion-candidates-batch12310",
-      "topic": "다음 비처방 후보 주제 선정 batch 12310",
+      "next_batch": "12320",
+      "worklist_line": "new-expansion-candidates-batch12320",
+      "topic": "다음 비처방 후보 주제 선정 batch 12320",
       "unchecked": 0
     },
-    "unknownN": 2,
-    "thin": 8,
+    "unknownN": 1,
+    "thin": 10,
     "rejected_candidate_pmids": [
-      "23463811",
-      "38066237",
-      "35216581",
-      "35617138",
-      "33777424",
-      "30835093",
-      "26494562",
-      "28867396",
-      "8516499",
-      "30276144"
+      "33788419",
+      "12117045",
+      "25455421",
+      "11223731",
+      "16916336",
+      "26089656",
+      "30095981",
+      "33060615",
+      "31034455",
+      "36166273",
+      "15765633",
+      "17889580",
+      "15364757",
+      "26209025",
+      "24368884",
+      "23974802",
+      "34427156",
+      "38455608",
+      "28654302",
+      "32134815",
+      "17943778",
+      "32616320",
+      "32245961",
+      "24980127"
     ],
-    "new_search_pmids": 597
+    "new_search_pmids": 1750
   },
   "previous_last_batch_10490": {
     "id": "10490",
