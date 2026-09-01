@@ -28565,3 +28565,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,650개; 주제 19,959개; 근거 링크 30,810개; 숫자 군간 비교 26,710개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: e1f02ead9; data commit: 1e55b645d; push marker commit: 51d623684; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12110; resume point new-expansion-candidates-batch12110; 다음은 다음 비처방 후보 주제 선정 batch 12110이다.
+- 배치 12110: 아킬레스건병증 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 1건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 246개 레코드·고유 PMID 111개, 첫 보강 30개 질의에서 174개 레코드·고유 PMID 96개·신규 PMID 11개를 확인했고, 두 번째·세 번째 보강은 실행하지 않았다. 두 검색 세트는 420개 레코드·중복 제거 후 고유 PMID 122개였다.
+- 배치 12110 fetch·선별: 고유 PMID 122개를 PubMed EFetch로 요청·수집해 2개 chunk·초록 122개를 확보했다. 누락 PMID는 0개였고 선택 항목 재조회도 0건이었다. 후보 parser는 122건에서 후보 15건·신규 후보 3건·효과 후보 3건을 확인했다. 신규 적합 항목 1건을 기록했고, 기존 연결 12건과 수동 제외 13건 및 직접 수치 부족·비적합 107건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 22923162; 신규 항목 `achilles-insertional-nutraceutical-22923162-pos` 1건. 부착부 아킬레스건병증에서 체외충격파에 아르기닌·콜라겐·메틸설포닐메탄·비타민 C·브로멜라인 복합 보충제를 더한 무작위시험의 6개월 VAS 2.0 대 2.9점(P=.04), Ankle-Hindfoot Scale 92.4 대 76.5점(P=.0002), Roles and Maudsley 1.5 대 2.3점(P<.001)을 기록했다. 초록에 전체 표본 수가 없어 n을 null로 유지했으며 ClinicalTrials.gov 별도 검색은 하지 않았다.
+- 수동 제외 PMID: 26247163, 22075719, 29895234, 22104390, 33719579, 34694643, 30312310, 25990545, 9111460, 18641371, 27639439, 32619656, 37308969. 건강인·장기 단일군 추적·달리기 손상 2차 분석·주사·처방약·수술·동물·실험실·프로토콜 및 직접 군간 수치 부족 연구를 제외했다.
+- 범주별 신규: supp 1건; trial 1건; pos 1건.
+- 배치 12110 검증·빌드: 초기·최종 validator 오류 0건·경고 1건이었다. 초기 build exit 0·오류 0건·경고 9709건에서 effect·line 길이 targeted warning 2건을 수정해 최종 build exit 0·오류 0건·경고 9707건이 됐다. 새 targeted warning은 2건, 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 1건·n<50 신규 0건이다. 초록에서 표본 수를 확인할 수 없어 n을 null로 남겼고 사람 수 미상 경고를 유지했다. 기존 경고를 숨기거나 조작하지 않았으며 누적 build 경고는 사람 수 미상 1341건·소규모 연구 8017건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,651개; 주제 19,960개; 근거 링크 30,811개; 숫자 군간 비교 26,711개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: e37d4bb72; data commit: 199351d95; push marker commit: 0d16b3629; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12120; resume point new-expansion-candidates-batch12120; 다음은 다음 비처방 후보 주제 선정 batch 12120이다.
