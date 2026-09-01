@@ -28554,3 +28554,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,642개; 주제 19,952개; 근거 링크 30,802개; 숫자 군간 비교 26,702개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 6a3842da7; data commit: 20ade7d74; push marker commit: 4125a6a73; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12090; resume point new-expansion-candidates-batch12090; 다음은 다음 비처방 후보 주제 선정 batch 12090이다.
+- 배치 12100: 만성 발목 불안정성 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 8건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 627개 레코드·고유 PMID 182개, 첫 보강 30개 질의에서 276개 레코드·고유 PMID 164개·신규 PMID 13개를 확인했고, 두 번째·세 번째 보강은 실행하지 않았다. 두 검색 세트는 903개 레코드·중복 제거 후 고유 PMID 195개였다.
+- 배치 12100 fetch·선별: 고유 PMID 195개를 PubMed EFetch로 요청·수집해 2개 chunk·초록 195개를 확보했다. 누락 PMID는 0개였고 선택 항목 재조회도 0건이었다. 후보 parser는 195건에서 후보 24건·신규 후보 9건·효과 후보 9건을 확인했다. 신규 적합 항목 8건을 기록했고, 기존 연결 15건과 수동 제외 12건 및 직접 수치 부족·비적합 171건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 31033612, 41758902, 40843771, 27632846, 9549710, 18086314, 32423151, 42364572; 신규 항목 `ankle-instability-corrective-exercise-31033612-pos`, `ankle-instability-tdcs-bosu-41758902-pos`, `ankle-sprain-flossing-manual-40843771-pos`, `ankle-instability-baps-27632846-pos`, `ankle-instability-coordination-balance-9549710-pos`, `ankle-instability-stochastic-resonance-18086314-pos`, `ankle-instability-support-tape-32423151-pos`, `ankle-instability-figure-eight-brace-42364572-pos` 8건. 교정운동, 보수볼·tDCS, 압박밴드·수기치료, BAPS 균형재활, 협응·균형운동, 협응·공진자극, 보조기·키네시오테이프, 8자형 보조기의 직접 수치 결과를 기록했다. ClinicalTrials.gov 별도 검색은 하지 않았다.
+- 수동 제외 PMID: 38149335, 31103114, 39686483, 33933933, 7943509, 17530947, 41065921, 33491480, 28486729, 28362143, 15766428, 31042441. 신경되먹임·근막수기·건강인 예방·수술·수술 병용·측정방법 연구·직접 군간 수치 부족·실험실 생체역학 연구를 제외했다.
+- 범주별 신규: move 3건; care 5건; trial 8건; pos 8건.
+- 배치 12100 검증·빌드: 초기 validator 오류 0건·경고 8건, 최종 validator 오류 0건·경고 8건이었다. 초기 build exit 1·오류 1건·경고 9709건에서 영문 주어·vs 비교 문장·줄 길이 문제를 수정해 최종 build exit 0·오류 0건·경고 9706건이 됐다. 새 targeted warning은 4건, 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 8건(n=40, 37, 26, 22, 45, 30, 33, 22)이다. 실제 소규모 연구 경고를 유지했고 기존 경고를 숨기거나 조작하지 않았다. 누적 build 경고는 사람 수 미상 1340건·소규모 연구 8017건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,650개; 주제 19,959개; 근거 링크 30,810개; 숫자 군간 비교 26,710개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: e1f02ead9; data commit: 1e55b645d; push marker commit: 51d623684; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12110; resume point new-expansion-candidates-batch12110; 다음은 다음 비처방 후보 주제 선정 batch 12110이다.
