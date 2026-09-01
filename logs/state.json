@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T14:47:49.393Z",
+  "updated": "2026-09-01T14:50:12.559Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 27758,
@@ -52,8 +52,8 @@
     "trial_share": "96.9% (26907)",
     "non_trial_share": "3.1% (851)",
     "build_warnings": {
-      "unknown_n": 0,
-      "thin_study": 0,
+      "unknown_n": 1342,
+      "thin_study": 8063,
       "targeted_batch_warnings": 853
     },
     "targeted_batch_warnings": 853
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "12290",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch12290",
     "topic": "다음 비처방 후보 주제 선정 batch 12290"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "12280",
-    "commit": null,
-    "pushed": false,
+    "commit": "25cf30b9d",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "data_commits": [
+      "25cf30b9d"
+    ],
+    "checkpoint_commit": "b10c90fb171a1a64f09edfd32c9176f191b197c3",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9948,8 +9950,8 @@
     "initial_validator_errors": 0,
     "initial_validator_warnings": 7,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 0,
-    "build_warning_lines": 0,
+    "initial_build_warning_lines": 9791,
+    "build_warning_lines": 9754,
     "new_build_warnings": [
       "hyper-exercise-24172292-pos",
       "hyper-mindfulness-30425326-pos",
@@ -9971,7 +9973,7 @@
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 37,
     "targeted_warnings_total": 853,
     "validator_category_errors_fixed": 0,
     "open_numeric_comparisons": 26818,
@@ -10168,7 +10170,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "12290",
       "worklist_line": "new-expansion-candidates-batch12290",
