@@ -28210,3 +28210,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,459개; 주제 19,775개; 근거 링크 30,619개; 숫자 군간 비교 26,519개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,942개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 10f595de520e72b6a678da4d67ef627c0cbf3172; data commit: 없음(신규 항목 0건); push marker commit: 524b19ed7bbcc96cf04a13ef929c2b25d8d53e7e; 현재 PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11780; resume point new-expansion-candidates-batch11780; 다음은 다음 비처방 후보 주제 선정 batch 11780이다.
+- 배치 11780: 섬유근육통 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 2건을 기록했다. 기본·재검색 60개 주제에서 885개 레코드·고유 PMID 466개, 첫 보강 30개 질의에서 1,929개 레코드·고유 PMID 1,400개·신규 PMID 1,221개, 두 번째 보강 30개 질의에서 870개 레코드·고유 PMID 626개·신규 PMID 166개, 세 번째 보강 30개 질의에서 595개 레코드·고유 PMID 560개·신규 PMID 261개를 확인했다. 네 검색 세트는 4,279개 레코드·중복 제거 후 고유 PMID 2,114개였다.
+- fetch·초록: 고유 PMID 2,114개를 PubMed EFetch로 요청해 2,104개 기록·22개 chunk·원저 초록 2,054개를 확보했다. 누락 PMID 31082018, 32338846, 31873992, 30179389, 31498576, 28876750, 25905317, 32119472, 33211447, 29320016은 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 10건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 2,104건·후보 165건·신규 후보 36건·효과 후보 36건·기존 연결 후보 129건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 수치 부족 등인 1,939건을 제외했고, 신규 후보 중 34건은 처방약·혼합질환·후향·비무작위·전후·프로토콜·고찰·수치 부족 등으로 수동 제외했다. 온수운동과 통증 신경생리 교육 병용에서 초록에 확인된 중재군·대조군의 직접 숫자·백분율·P값만 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 21794393, 33167469.
+- 신규 ID: fibromyalgia-warm-water-exercise-21794393-pos, fibromyalgia-pain-education-exercise-33167469-pos.
+- 범주별 신규: move 1건·care 1건; trial 2건; pos 2건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 2, 최종 validator 오류 0·경고 2; 초기 build exit 0·오류 0·경고 9,627건, 최종 build exit 0·오류 0·경고 9,626건이었다. 새 targeted warning 1건(vs 비교 표현 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건, n<50 신규 2건(fibromyalgia-warm-water-exercise-21794393-pos, fibromyalgia-pain-education-exercise-33167469-pos)이며 원문에 없는 표본 수를 채우거나 소규모 연구 경고를 숨기지 않았다.
+- 부정·안전성 보강: 2개 질의·2개 레코드·고유 PMID 2개.
+- 누적 집계: 항목 27,461개; 주제 19,777개; 근거 링크 30,621개; 숫자 군간 비교 26,521개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,944개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 8eb195c9b50e073cca1de5ac314993d946a34309; data commit: b483102ccd5dc53bfbfb2876046c1cd95b60b1e3; push marker commit: 62b8d7e61bc21a325f03a7a5ddaed1548f268d28; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11790; resume point new-expansion-candidates-batch11790; 다음은 다음 비처방 후보 주제 선정 batch 11790이다.
