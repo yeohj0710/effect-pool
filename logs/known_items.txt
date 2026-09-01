@@ -28290,3 +28290,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,472개; 주제 19,786개; 근거 링크 30,632개; 숫자 군간 비교 26,532개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,949개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 5fa72e361d0fa2c4ea087d12357e0f553e59f0fb; data commit: 4015413a7ebf7742b776c25f2208943599480851; push marker commit: 6704f516c571ef9c1d63fa9e24a0182aea8c4a63; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11850; resume point new-expansion-candidates-batch11850; 다음은 다음 비처방 후보 주제 선정 batch 11850이다.
+- 배치 11850: 불면증 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 2건을 기록했다. 기본 30개 주제와 재검색 31개 주제에서 1,806개 레코드·고유 PMID 924개, 첫 보강 30개 질의에서 2,214개 레코드·고유 PMID 1,606개·신규 PMID 1,345개, 두 번째 보강 30개 질의에서 1,450개 레코드·고유 PMID 1,064개·신규 PMID 288개, 세 번째 보강 30개 질의에서 318개 레코드·고유 PMID 311개·신규 PMID 30개를 확인했다. 네 검색 세트는 5,788개 레코드·중복 제거 후 고유 PMID 2,587개였다.
+- fetch·초록: 고유 PMID 2,587개를 PubMed EFetch로 요청해 2,576개 기록·26개 chunk·원저 초록 2,514개를 확보했다. 누락 PMID 31643621, 38261668, 28876752, 31643277, 42412962, 30000925, 31643579, 41144604, 41232016, 38237006, 26844312는 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 11건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 2,576건·후보 177건·신규 후보 90건·효과 후보 90건·기존 연결 후보 87건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 다른 질환의 수면 결과·2차 분석 중 수치 부족·관찰·질적 연구·단일군·고찰·처방약·동물연구 등인 2,399건을 제외했고, 신규 후보 중 88건은 같은 기준으로 수동 제외했다. 전자우편 인지행동치료와 보조 이완요법은 불면증 환자를 대상으로 한 비처방 중재의 직접 효과크기·신뢰구간·군별 변화가 확인되어 기록했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 35457291(insomnia-email-cbti-35457291-pos), 36259123(insomnia-assisted-relaxation-36259123-pos).
+- 범주별 신규: care 1건, life 1건; trial 2건; pos 2건.
+- 전용 검증·빌드: 초기·최종 validator 오류 0건·경고 2건; 초기 build exit 0·오류 0·경고 9,635건, 최종 build exit 0·오류 0·경고 9,633건이었다. 새 targeted warning 2건(vs 비교 표현 1건·번역투 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 2건이다. n=41·25 소규모 연구 경고를 유지했고 표본 수를 임의로 채우거나 경고를 숨기지 않았다.
+- 부정·안전성 보강: 2개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,474개; 주제 19,788개; 근거 링크 30,634개; 숫자 군간 비교 26,534개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,951개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 1ad8424ed9ede8db52a2372152e4f15f741dc638; data commit: a5c4355b02b42deeb4ffa75b8e652169a0903277; push marker commit: 73194d7188fcd979a8ab8ded15ab0b77ea765de3; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11860; resume point new-expansion-candidates-batch11860; 다음은 다음 비처방 후보 주제 선정 batch 11860이다.
