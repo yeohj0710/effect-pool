@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T14:51:20.534Z",
+  "updated": "2026-09-01T15:18:07.585Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27758,
-  "subjects": 20060,
-  "refs": 30918,
+  "entries": 27788,
+  "subjects": 20088,
+  "refs": 30948,
   "kinds": {
     "undefined": 10367,
-    "food": 894,
-    "care": 8010,
-    "supp": 2645,
-    "move": 3329,
+    "food": 898,
+    "care": 8011,
+    "supp": 2654,
+    "move": 3336,
     "otc": 609,
-    "life": 1880,
+    "life": 1889,
     "rx": 24
   },
   "tiers": {
-    "trial": 26907,
+    "trial": 26937,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19369,
-    "null": 6419,
+    "pos": 19392,
+    "null": 6426,
     "harm": 317,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12280는 고혈압 비처방 관리 비처방·비약물 후보에서 신규 항목 26건을 기록했다. 다음 재개점은 batch 12290이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12290는 제2형 당뇨병 비처방 관리 비처방·비약물 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 12300이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12280는 고혈압 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 26건을 추가했다. 다음 확장은 batch 12290이다."
+    "note": "Batch 12290는 제2형 당뇨병 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12300이다."
   },
   "checkpoints": {
-    "over_counter_share": "14.9% (4148 entries)",
+    "over_counter_share": "15.0% (4161 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6736)",
-    "vs_share": "96.6% (26818)",
+    "no_effect_or_harm_share": "24.3% (6743)",
+    "vs_share": "96.6% (26848)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "96.9% (26907)",
+    "trial_share": "96.9% (26937)",
     "non_trial_share": "3.1% (851)",
     "build_warnings": {
-      "unknown_n": 1342,
-      "thin_study": 8063,
-      "targeted_batch_warnings": 853
+      "unknown_n": 1343,
+      "thin_study": 8071,
+      "targeted_batch_warnings": 886
     },
-    "targeted_batch_warnings": 853
+    "targeted_batch_warnings": 886
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12290",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12290",
-    "topic": "다음 비처방 후보 주제 선정 batch 12290"
+    "batch": "12300",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12300",
+    "topic": "다음 비처방 후보 주제 선정 batch 12300"
   },
   "resume": {
-    "next_batch": "12290",
-    "worklist_line": "new-expansion-candidates-batch12290",
-    "topic": "다음 비처방 후보 주제 선정 batch 12290",
+    "next_batch": "12300",
+    "worklist_line": "new-expansion-candidates-batch12300",
+    "topic": "다음 비처방 후보 주제 선정 batch 12300",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,194 +9606,192 @@
     }
   },
   "last_batch": {
-    "id": "12280",
-    "commit": "25cf30b9d5ec4c7f71a9135082891be07f44ae85f",
-    "pushed": true,
+    "id": "12290",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "25cf30b9d5ec4c7f71a9135082891be07f44ae85f"
-    ],
-    "checkpoint_commit": "b10c90fb171a1a64f09edfd32c9176f191b197c3",
-    "push_marker_commit": "849101c6574d614cbd300b7b170b47470a5f4bdc",
-    "known_items_commit": "159c702c305d932dc691bc6f7d5c6a396acc7801",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "hypertension-1",
-        "subject": "고혈압 걷기운동",
+        "id": "type2diabetes-1",
+        "subject": "제2형 당뇨병 걷기운동",
         "category": "move"
       },
       {
-        "id": "hypertension-2",
-        "subject": "고혈압 유산소운동",
+        "id": "type2diabetes-2",
+        "subject": "제2형 당뇨병 유산소운동",
         "category": "move"
       },
       {
-        "id": "hypertension-3",
-        "subject": "고혈압 저항운동",
+        "id": "type2diabetes-3",
+        "subject": "제2형 당뇨병 저항운동",
         "category": "move"
       },
       {
-        "id": "hypertension-4",
-        "subject": "고혈압 근력운동",
+        "id": "type2diabetes-4",
+        "subject": "제2형 당뇨병 고강도운동",
         "category": "move"
       },
       {
-        "id": "hypertension-5",
-        "subject": "고혈압 요가",
+        "id": "type2diabetes-5",
+        "subject": "제2형 당뇨병 복합운동",
         "category": "move"
       },
       {
-        "id": "hypertension-6",
-        "subject": "고혈압 태극권",
+        "id": "type2diabetes-6",
+        "subject": "제2형 당뇨병 요가",
         "category": "move"
       },
       {
-        "id": "hypertension-7",
-        "subject": "고혈압 등척성운동",
+        "id": "type2diabetes-7",
+        "subject": "제2형 당뇨병 태극권",
         "category": "move"
       },
       {
-        "id": "hypertension-8",
-        "subject": "고혈압 호흡운동",
+        "id": "type2diabetes-8",
+        "subject": "제2형 당뇨병 가정운동",
         "category": "move"
       },
       {
-        "id": "hypertension-9",
-        "subject": "고혈압 마음챙김",
+        "id": "type2diabetes-9",
+        "subject": "제2형 당뇨병 체중감량",
         "category": "life"
       },
       {
-        "id": "hypertension-10",
-        "subject": "고혈압 스트레스관리",
+        "id": "type2diabetes-10",
+        "subject": "제2형 당뇨병 생활습관중재",
         "category": "life"
       },
       {
-        "id": "hypertension-11",
-        "subject": "고혈압 수면관리",
+        "id": "type2diabetes-11",
+        "subject": "제2형 당뇨병 자기관리",
         "category": "life"
       },
       {
-        "id": "hypertension-12",
-        "subject": "고혈압 체중감량",
+        "id": "type2diabetes-12",
+        "subject": "제2형 당뇨병 교육",
         "category": "life"
       },
       {
-        "id": "hypertension-13",
-        "subject": "고혈압 자기관리",
+        "id": "type2diabetes-13",
+        "subject": "제2형 당뇨병 가정혈당관리",
         "category": "life"
       },
       {
-        "id": "hypertension-14",
-        "subject": "고혈압 환자교육",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-15",
-        "subject": "고혈압 가정혈압관리",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-16",
-        "subject": "고혈압 원격관리",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-17",
-        "subject": "고혈압 DASH식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-18",
-        "subject": "고혈압 저염식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-19",
-        "subject": "고혈압 지중해식",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-20",
-        "subject": "고혈압 채식",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-21",
-        "subject": "고혈압 칼륨식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-22",
-        "subject": "고혈압 비트주스",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-23",
-        "subject": "고혈압 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-24",
-        "subject": "고혈압 마그네슘",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-25",
-        "subject": "고혈압 코엔자임Q10",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-26",
-        "subject": "고혈압 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-27",
-        "subject": "고혈압 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-28",
-        "subject": "고혈압 마늘",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-29",
-        "subject": "고혈압 히비스커스",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-30",
-        "subject": "고혈압 침치료",
+        "id": "type2diabetes-14",
+        "subject": "제2형 당뇨병 연속혈당측정",
         "category": "care"
+      },
+      {
+        "id": "type2diabetes-15",
+        "subject": "제2형 당뇨병 원격관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-16",
+        "subject": "제2형 당뇨병 마음챙김",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-17",
+        "subject": "제2형 당뇨병 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-18",
+        "subject": "제2형 당뇨병 수면관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-19",
+        "subject": "제2형 당뇨병 저탄수화물식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-20",
+        "subject": "제2형 당뇨병 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-21",
+        "subject": "제2형 당뇨병 DASH식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-22",
+        "subject": "제2형 당뇨병 식물성식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-23",
+        "subject": "제2형 당뇨병 저혈당지수식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-24",
+        "subject": "제2형 당뇨병 시간제한식사",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-25",
+        "subject": "제2형 당뇨병 식이섬유",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-26",
+        "subject": "제2형 당뇨병 견과류",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-27",
+        "subject": "제2형 당뇨병 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-28",
+        "subject": "제2형 당뇨병 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-29",
+        "subject": "제2형 당뇨병 마그네슘",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-30",
+        "subject": "제2형 당뇨병 프로바이오틱스",
+        "category": "supp"
       }
     ],
-    "new_entries": 26,
-    "existing_links": 43,
-    "no_evidence_rejects": 1599,
-    "new_candidate_rejects": 59,
-    "manual_screened_additions": 26,
+    "new_entries": 30,
+    "existing_links": 22,
+    "no_evidence_rejects": 1741,
+    "new_candidate_rejects": 52,
+    "manual_screened_additions": 30,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 26,
-    "existing_reference_links": 43,
-    "duplicate_search_pmids_removed": 760,
+    "new_references": 30,
+    "existing_reference_links": 22,
+    "duplicate_search_pmids_removed": 814,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 2487,
-    "main_search_records": 2124,
-    "main_search_unique_pmids": 1586,
+    "search_returned_records": 2659,
+    "main_search_records": 2412,
+    "main_search_unique_pmids": 1785,
     "refinement_query_count": 30,
-    "refinement_search_records": 1231,
-    "refinement_unique_pmids": 982,
+    "refinement_search_records": 1407,
+    "refinement_unique_pmids": 1167,
     "extra_query_count": 30,
-    "extra_search_records": 363,
-    "extra_unique_pmids": 352,
-    "extra_new_unique_pmids": 141,
+    "extra_search_records": 247,
+    "extra_unique_pmids": 244,
+    "extra_new_unique_pmids": 60,
     "extra2_query_count": 0,
     "extra2_search_records": 0,
     "extra2_unique_pmids": 0,
@@ -9805,16 +9803,16 @@
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 0,
-    "followup_search_records": 0,
-    "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 1727,
-    "combined_all_unique_pmids": 1727,
-    "requested": 1727,
-    "fetched": 1727,
-    "fetch_chunks": 18,
-    "abstracts": 1709,
-    "abstracts_all_sources": 1709,
+    "followup_query_count": 60,
+    "followup_search_records": 32,
+    "followup_search_unique_pmids": 30,
+    "combined_search_unique_pmids": 1845,
+    "combined_all_unique_pmids": 1845,
+    "requested": 1845,
+    "fetched": 1845,
+    "fetch_chunks": 19,
+    "abstracts": 1835,
+    "abstracts_all_sources": 1835,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,344 +9823,360 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 0,
-    "followup_fetched": 0,
+    "followup_requested": 60,
+    "followup_fetched": 30,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 1727,
-    "candidate_parser_candidates": 128,
-    "candidate_parser_candidates_after_write": 128,
-    "union_candidate_like": 128,
-    "union_new_candidate_like": 85,
-    "effect_candidate_rows": 85,
-    "manual_candidate_count": 26,
+    "candidate_parser_parsed": 1845,
+    "candidate_parser_candidates": 104,
+    "candidate_parser_candidates_after_write": 104,
+    "union_candidate_like": 104,
+    "union_new_candidate_like": 82,
+    "effect_candidate_rows": 82,
+    "manual_candidate_count": 30,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "33470732",
-      "24172292",
-      "18728054",
-      "30425326",
-      "8490471",
-      "24174392",
-      "31652688",
-      "23550251",
-      "3475429",
-      "10804778",
-      "30914176",
-      "2856757",
-      "34265491",
-      "28049937",
-      "31473065",
-      "25125635",
-      "25267008",
-      "20597833",
-      "39711367",
-      "31239010",
-      "31153659",
-      "11677359",
-      "27938853",
-      "36364960",
-      "20657311",
-      "19574102"
+      "32363944",
+      "41342363",
+      "36051935",
+      "35233724",
+      "33071273",
+      "18511528",
+      "38726912",
+      "37670722",
+      "37742801",
+      "21616626",
+      "19934458",
+      "16298697",
+      "23855018",
+      "30641678",
+      "30814413",
+      "32033527",
+      "25738212",
+      "33905343",
+      "20980426",
+      "34383632",
+      "37315229",
+      "27379995",
+      "36939825",
+      "34052121",
+      "31012803",
+      "19779467",
+      "22356933",
+      "37909519",
+      "26362826",
+      "19734396"
     ],
     "selected_ncts": [],
     "new_pmids": [
-      "33470732",
-      "24172292",
-      "18728054",
-      "30425326",
-      "8490471",
-      "24174392",
-      "31652688",
-      "23550251",
-      "3475429",
-      "10804778",
-      "30914176",
-      "2856757",
-      "34265491",
-      "28049937",
-      "31473065",
-      "25125635",
-      "25267008",
-      "20597833",
-      "39711367",
-      "31239010",
-      "31153659",
-      "11677359",
-      "27938853",
-      "36364960",
-      "20657311",
-      "19574102"
+      "32363944",
+      "41342363",
+      "36051935",
+      "35233724",
+      "33071273",
+      "18511528",
+      "38726912",
+      "37670722",
+      "37742801",
+      "21616626",
+      "19934458",
+      "16298697",
+      "23855018",
+      "30641678",
+      "30814413",
+      "32033527",
+      "25738212",
+      "33905343",
+      "20980426",
+      "34383632",
+      "37315229",
+      "27379995",
+      "36939825",
+      "34052121",
+      "31012803",
+      "19779467",
+      "22356933",
+      "37909519",
+      "26362826",
+      "19734396"
     ],
     "new_ncts": [],
     "new_entry_ids": [
-      "hyper-exercise-33470732-pos",
-      "hyper-exercise-24172292-pos",
-      "hyper-exercise-18728054-pos",
-      "hyper-mindfulness-30425326-pos",
-      "hyper-stress-8490471-null",
-      "hyper-weight-24174392-pos",
-      "hyper-self-management-31652688-pos",
-      "hyper-home-bp-23550251-pos",
-      "hyper-diet-salt-potassium-3475429-pos",
-      "hyper-diet-salt-10804778-pos",
-      "hyper-mobile-app-30914176-harm",
-      "hyper-diet-vegetarian-2856757-pos",
-      "hyper-vitamin-d-34265491-pos",
-      "hyper-water-exercise-28049937-pos",
-      "hyper-lifestyle-31473065-pos",
-      "hyper-cpap-25125635-pos",
-      "hyper-telemonitor-25267008-pos",
-      "hyper-mobile-telemonitor-20597833-pos",
-      "hyper-dash-digital-39711367-pos",
-      "hyper-dash-tailored-31239010-pos",
-      "hyper-lifestyle-lipids-31153659-pos",
-      "hyper-dash-genotype-11677359-pos",
-      "hyper-diet-sodium-27938853-harm",
-      "hyper-diet-salt-community-36364960-pos",
-      "hyper-resistance-exercise-20657311-pos",
-      "hyper-relaxation-19574102-pos"
+      "t2dm-walking-32363944-pos",
+      "t2dm-combined-exercise-41342363-pos",
+      "t2dm-mindfulness-neuropathy-36051935-pos",
+      "t2dm-low-energy-diet-35233724-null",
+      "t2dm-leucine-33071273-null",
+      "t2dm-combined-exercise-18511528-pos",
+      "t2dm-telephone-support-38726912-null",
+      "t2dm-patient-engagement-37670722-pos",
+      "t2dm-family-self-care-37742801-pos",
+      "t2dm-online-education-21616626-pos",
+      "t2dm-cultural-self-care-19934458-pos",
+      "t2dm-symptom-self-care-16298697-pos",
+      "t2dm-mindful-eating-23855018-null",
+      "t2dm-dash-diet-30641678-pos",
+      "t2dm-okara-fiber-30814413-pos",
+      "t2dm-vitamin-d-32033527-pos",
+      "t2dm-calcium-vitamin-d-25738212-pos",
+      "t2dm-sitting-breaks-33905343-pos",
+      "t2dm-walking-groups-20980426-pos",
+      "t2dm-aerobic-resistance-34383632-pos",
+      "t2dm-yoga-37315229-pos",
+      "t2dm-telemonitoring-27379995-null",
+      "t2dm-wechat-family-36939825-pos",
+      "t2dm-mindful-relaxation-34052121-pos",
+      "t2dm-choline-magnesium-31012803-pos",
+      "t2dm-calcium-19779467-null",
+      "t2dm-symbiotic-shake-22356933-pos",
+      "t2dm-cinnamon-lipids-37909519-pos",
+      "t2dm-herbal-medicines-26362826-null",
+      "t2dm-cinnamon-hba1c-19734396-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "move": 5,
-      "life": 11,
-      "food": 8,
-      "supp": 1,
+      "move": 7,
+      "life": 9,
+      "food": 4,
+      "supp": 9,
       "care": 1
     },
     "tiers": {
-      "trial": 26
+      "trial": 30
     },
     "dirs": {
       "pos": 23,
-      "null": 1,
-      "harm": 2
+      "null": 7
     },
-    "unknown_n": 0,
-    "thin_studies": 7,
+    "unknown_n": 1,
+    "thin_studies": 8,
     "validator_errors": 0,
-    "validator_warnings": 7,
+    "validator_warnings": 9,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 7,
-    "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9791,
-    "build_warning_lines": 9754,
+    "initial_validator_warnings": 9,
+    "initial_build_error_lines": 60,
+    "initial_build_warning_lines": 9796,
+    "build_warning_lines": 9763,
     "new_build_warnings": [
-      "hyper-exercise-24172292-pos",
-      "hyper-mindfulness-30425326-pos",
-      "hyper-diet-salt-10804778-pos",
-      "hyper-vitamin-d-34265491-pos",
-      "hyper-water-exercise-28049937-pos",
-      "hyper-resistance-exercise-20657311-pos",
-      "hyper-relaxation-19574102-pos"
+      "t2dm-combined-exercise-18511528-pos",
+      "t2dm-symptom-self-care-16298697-pos",
+      "t2dm-sitting-breaks-33905343-pos",
+      "t2dm-aerobic-resistance-34383632-pos",
+      "t2dm-yoga-37315229-pos",
+      "t2dm-mindful-relaxation-34052121-pos",
+      "t2dm-calcium-19779467-null",
+      "t2dm-symbiotic-shake-22356933-pos",
+      "t2dm-combined-exercise-41342363-pos"
     ],
-    "new_unknown_n_warnings": [],
+    "new_unknown_n_warnings": [
+      "t2dm-combined-exercise-41342363-pos"
+    ],
     "new_thin_study_warnings": [
-      "hyper-exercise-24172292-pos",
-      "hyper-mindfulness-30425326-pos",
-      "hyper-diet-salt-10804778-pos",
-      "hyper-vitamin-d-34265491-pos",
-      "hyper-water-exercise-28049937-pos",
-      "hyper-resistance-exercise-20657311-pos",
-      "hyper-relaxation-19574102-pos"
+      "t2dm-combined-exercise-18511528-pos",
+      "t2dm-symptom-self-care-16298697-pos",
+      "t2dm-sitting-breaks-33905343-pos",
+      "t2dm-aerobic-resistance-34383632-pos",
+      "t2dm-yoga-37315229-pos",
+      "t2dm-mindful-relaxation-34052121-pos",
+      "t2dm-calcium-19779467-null",
+      "t2dm-symbiotic-shake-22356933-pos"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 37,
-    "targeted_warnings_total": 853,
+    "build_errors_fixed": 60,
+    "targeted_batch_warnings_fixed": 33,
+    "targeted_warnings_total": 886,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26818,
+    "open_numeric_comparisons": 26848,
     "build_exit": 0,
-    "build": "27758 entries; 30918 refs; trial 26907; obs 754; animal 32; lab 18; case 47; numeric 26818; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 고혈압 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 2124개 레코드·고유 PMID 1586개였고, 첫 보강은 363개 레코드·고유 PMID 352개·신규 PMID 141개, 두 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개, 세 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개였다. 네 검색 세트는 2487개 레코드·중복 제거 후 고유 PMID 1727개였다. EFetch는 1727개를 요청·수집했고 1709개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1727건에서 후보 128건·신규 후보 85건·효과 후보 85건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 26건을 기록했고 수동 제외 목록 59건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "27788 entries; 30948 refs; trial 26937; obs 754; animal 32; lab 18; case 47; numeric 26848; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 제2형 당뇨병 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 2412개 레코드·고유 PMID 1785개였고, 첫 보강은 247개 레코드·고유 PMID 244개·신규 PMID 60개, 두 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개, 세 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개였다. 네 검색 세트는 2659개 레코드·중복 제거 후 고유 PMID 1845개였다. EFetch는 1845개를 요청·수집했고 1835개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1845건에서 후보 104건·신규 후보 82건·효과 후보 82건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 52건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 32개 레코드·고유 PMID 30개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "hypertension-1",
-        "subject": "고혈압 걷기운동",
+        "id": "type2diabetes-1",
+        "subject": "제2형 당뇨병 걷기운동",
         "category": "move"
       },
       {
-        "id": "hypertension-2",
-        "subject": "고혈압 유산소운동",
+        "id": "type2diabetes-2",
+        "subject": "제2형 당뇨병 유산소운동",
         "category": "move"
       },
       {
-        "id": "hypertension-3",
-        "subject": "고혈압 저항운동",
+        "id": "type2diabetes-3",
+        "subject": "제2형 당뇨병 저항운동",
         "category": "move"
       },
       {
-        "id": "hypertension-4",
-        "subject": "고혈압 근력운동",
+        "id": "type2diabetes-4",
+        "subject": "제2형 당뇨병 고강도운동",
         "category": "move"
       },
       {
-        "id": "hypertension-5",
-        "subject": "고혈압 요가",
+        "id": "type2diabetes-5",
+        "subject": "제2형 당뇨병 복합운동",
         "category": "move"
       },
       {
-        "id": "hypertension-6",
-        "subject": "고혈압 태극권",
+        "id": "type2diabetes-6",
+        "subject": "제2형 당뇨병 요가",
         "category": "move"
       },
       {
-        "id": "hypertension-7",
-        "subject": "고혈압 등척성운동",
+        "id": "type2diabetes-7",
+        "subject": "제2형 당뇨병 태극권",
         "category": "move"
       },
       {
-        "id": "hypertension-8",
-        "subject": "고혈압 호흡운동",
+        "id": "type2diabetes-8",
+        "subject": "제2형 당뇨병 가정운동",
         "category": "move"
       },
       {
-        "id": "hypertension-9",
-        "subject": "고혈압 마음챙김",
+        "id": "type2diabetes-9",
+        "subject": "제2형 당뇨병 체중감량",
         "category": "life"
       },
       {
-        "id": "hypertension-10",
-        "subject": "고혈압 스트레스관리",
+        "id": "type2diabetes-10",
+        "subject": "제2형 당뇨병 생활습관중재",
         "category": "life"
       },
       {
-        "id": "hypertension-11",
-        "subject": "고혈압 수면관리",
+        "id": "type2diabetes-11",
+        "subject": "제2형 당뇨병 자기관리",
         "category": "life"
       },
       {
-        "id": "hypertension-12",
-        "subject": "고혈압 체중감량",
+        "id": "type2diabetes-12",
+        "subject": "제2형 당뇨병 교육",
         "category": "life"
       },
       {
-        "id": "hypertension-13",
-        "subject": "고혈압 자기관리",
+        "id": "type2diabetes-13",
+        "subject": "제2형 당뇨병 가정혈당관리",
         "category": "life"
       },
       {
-        "id": "hypertension-14",
-        "subject": "고혈압 환자교육",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-15",
-        "subject": "고혈압 가정혈압관리",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-16",
-        "subject": "고혈압 원격관리",
-        "category": "life"
-      },
-      {
-        "id": "hypertension-17",
-        "subject": "고혈압 DASH식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-18",
-        "subject": "고혈압 저염식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-19",
-        "subject": "고혈압 지중해식",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-20",
-        "subject": "고혈압 채식",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-21",
-        "subject": "고혈압 칼륨식이",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-22",
-        "subject": "고혈압 비트주스",
-        "category": "food"
-      },
-      {
-        "id": "hypertension-23",
-        "subject": "고혈압 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-24",
-        "subject": "고혈압 마그네슘",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-25",
-        "subject": "고혈압 코엔자임Q10",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-26",
-        "subject": "고혈압 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-27",
-        "subject": "고혈압 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-28",
-        "subject": "고혈압 마늘",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-29",
-        "subject": "고혈압 히비스커스",
-        "category": "supp"
-      },
-      {
-        "id": "hypertension-30",
-        "subject": "고혈압 침치료",
+        "id": "type2diabetes-14",
+        "subject": "제2형 당뇨병 연속혈당측정",
         "category": "care"
+      },
+      {
+        "id": "type2diabetes-15",
+        "subject": "제2형 당뇨병 원격관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-16",
+        "subject": "제2형 당뇨병 마음챙김",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-17",
+        "subject": "제2형 당뇨병 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-18",
+        "subject": "제2형 당뇨병 수면관리",
+        "category": "life"
+      },
+      {
+        "id": "type2diabetes-19",
+        "subject": "제2형 당뇨병 저탄수화물식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-20",
+        "subject": "제2형 당뇨병 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-21",
+        "subject": "제2형 당뇨병 DASH식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-22",
+        "subject": "제2형 당뇨병 식물성식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-23",
+        "subject": "제2형 당뇨병 저혈당지수식이",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-24",
+        "subject": "제2형 당뇨병 시간제한식사",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-25",
+        "subject": "제2형 당뇨병 식이섬유",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-26",
+        "subject": "제2형 당뇨병 견과류",
+        "category": "food"
+      },
+      {
+        "id": "type2diabetes-27",
+        "subject": "제2형 당뇨병 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-28",
+        "subject": "제2형 당뇨병 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-29",
+        "subject": "제2형 당뇨병 마그네슘",
+        "category": "supp"
+      },
+      {
+        "id": "type2diabetes-30",
+        "subject": "제2형 당뇨병 프로바이오틱스",
+        "category": "supp"
       }
     ],
     "screened_topics": [
-      "고혈압 걷기운동",
-      "고혈압 유산소운동",
-      "고혈압 저항운동",
-      "고혈압 근력운동",
-      "고혈압 요가",
-      "고혈압 태극권",
-      "고혈압 등척성운동",
-      "고혈압 호흡운동",
-      "고혈압 마음챙김",
-      "고혈압 스트레스관리",
-      "고혈압 수면관리",
-      "고혈압 체중감량",
-      "고혈압 자기관리",
-      "고혈압 환자교육",
-      "고혈압 가정혈압관리",
-      "고혈압 원격관리",
-      "고혈압 DASH식이",
-      "고혈압 저염식이",
-      "고혈압 지중해식",
-      "고혈압 채식",
-      "고혈압 칼륨식이",
-      "고혈압 비트주스",
-      "고혈압 오메가3",
-      "고혈압 마그네슘",
-      "고혈압 코엔자임Q10",
-      "고혈압 프로바이오틱스",
-      "고혈압 비타민D",
-      "고혈압 마늘",
-      "고혈압 히비스커스",
-      "고혈압 침치료"
+      "제2형 당뇨병 걷기운동",
+      "제2형 당뇨병 유산소운동",
+      "제2형 당뇨병 저항운동",
+      "제2형 당뇨병 고강도운동",
+      "제2형 당뇨병 복합운동",
+      "제2형 당뇨병 요가",
+      "제2형 당뇨병 태극권",
+      "제2형 당뇨병 가정운동",
+      "제2형 당뇨병 체중감량",
+      "제2형 당뇨병 생활습관중재",
+      "제2형 당뇨병 자기관리",
+      "제2형 당뇨병 교육",
+      "제2형 당뇨병 가정혈당관리",
+      "제2형 당뇨병 연속혈당측정",
+      "제2형 당뇨병 원격관리",
+      "제2형 당뇨병 마음챙김",
+      "제2형 당뇨병 스트레스관리",
+      "제2형 당뇨병 수면관리",
+      "제2형 당뇨병 저탄수화물식이",
+      "제2형 당뇨병 지중해식",
+      "제2형 당뇨병 DASH식이",
+      "제2형 당뇨병 식물성식이",
+      "제2형 당뇨병 저혈당지수식이",
+      "제2형 당뇨병 시간제한식사",
+      "제2형 당뇨병 식이섬유",
+      "제2형 당뇨병 견과류",
+      "제2형 당뇨병 오메가3",
+      "제2형 당뇨병 비타민D",
+      "제2형 당뇨병 마그네슘",
+      "제2형 당뇨병 프로바이오틱스"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10170,77 +10184,70 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12290",
-      "worklist_line": "new-expansion-candidates-batch12290",
-      "topic": "다음 비처방 후보 주제 선정 batch 12290",
+      "next_batch": "12300",
+      "worklist_line": "new-expansion-candidates-batch12300",
+      "topic": "다음 비처방 후보 주제 선정 batch 12300",
       "unchecked": 0
     },
-    "unknownN": 0,
-    "thin": 7,
+    "unknownN": 1,
+    "thin": 8,
     "rejected_candidate_pmids": [
-      "24851582",
-      "37160570",
-      "8404802",
-      "20738470",
-      "26047957",
-      "29651953",
-      "10346660",
-      "26773737",
-      "29778251",
-      "26471194",
-      "27070747",
-      "37917063",
-      "35122746",
-      "28333551",
-      "41370662",
-      "25293966",
-      "1669525",
-      "16552946",
-      "30905430",
-      "16961681",
-      "31957601",
-      "40669130",
-      "21133786",
-      "35166788",
-      "21531237",
-      "41875307",
-      "32627803",
-      "2455141",
-      "37049465",
-      "26897504",
-      "27413123",
-      "34959951",
-      "2248695",
-      "28077419",
-      "32529884",
-      "10352369",
-      "30957443",
-      "31286727",
-      "36646496",
-      "33212355",
-      "19204218",
-      "10642289",
-      "34052121",
-      "36198291",
-      "37424245",
-      "23031143",
-      "30646139",
-      "31215837",
-      "22151600",
-      "23732551",
-      "30471072",
-      "34791007",
-      "22435598",
-      "17012443",
-      "3270085",
-      "27128565",
-      "12669013",
-      "15588742",
-      "18579642"
+      "20734028",
+      "39954533",
+      "23404304",
+      "34511492",
+      "22092541",
+      "23668423",
+      "21151020",
+      "22327053",
+      "12684363",
+      "25546032",
+      "27208378",
+      "32978121",
+      "24152055",
+      "21476945",
+      "17063127",
+      "32494976",
+      "21213091",
+      "29573224",
+      "25151065",
+      "27314172",
+      "30852029",
+      "40944147",
+      "33132344",
+      "28353655",
+      "27353492",
+      "22486948",
+      "22094836",
+      "26173772",
+      "38412117",
+      "39744353",
+      "29208688",
+      "29053861",
+      "41508766",
+      "37864639",
+      "39672152",
+      "29526474",
+      "35200147",
+      "40576264",
+      "36346936",
+      "30691328",
+      "29341850",
+      "25883164",
+      "39271914",
+      "20419359",
+      "29583081",
+      "17718288",
+      "22749176",
+      "23039340",
+      "32166837",
+      "23976778",
+      "32948109",
+      "30859515"
     ],
-    "new_search_pmids": 141
+    "new_search_pmids": 60
   },
   "previous_last_batch_10490": {
     "id": "10490",
