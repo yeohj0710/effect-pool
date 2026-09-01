@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T20:22:31.811Z",
+  "updated": "2026-09-01T20:33:37.228Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 28001,
-  "subjects": 20298,
-  "refs": 31161,
+  "entries": 28009,
+  "subjects": 20306,
+  "refs": 31169,
   "kinds": {
     "undefined": 10367,
-    "food": 935,
-    "care": 8042,
+    "food": 936,
+    "care": 8048,
     "supp": 2700,
-    "move": 3395,
+    "move": 3396,
     "otc": 609,
     "life": 1929,
     "rx": 24
   },
   "tiers": {
-    "trial": 27150,
+    "trial": 27158,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19539,
-    "null": 6491,
+    "pos": 19541,
+    "null": 6497,
     "harm": 318,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12420는 게실질환·게실염 비처방·비약물 후보에서 신규 항목 12건을 기록했다. 다음 재개점은 batch 12430이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12430는 담석증·담낭질환 비처방·비약물 후보에서 신규 항목 8건을 기록했다. 다음 재개점은 batch 12440이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12420는 게실질환·게실염에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 12건을 추가했다. 다음 확장은 batch 12430이다."
+    "note": "Batch 12430는 담석증·담낭질환에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 8건을 추가했다. 다음 확장은 batch 12440이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.2% (4244 entries)",
+    "over_counter_share": "15.2% (4245 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6809)",
-    "vs_share": "96.6% (27061)",
+    "no_effect_or_harm_share": "24.3% (6815)",
+    "vs_share": "96.6% (27069)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27150)",
+    "trial_share": "97.0% (27158)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1347,
-      "thin_study": 8148,
-      "targeted_batch_warnings": 989
+      "thin_study": 8150,
+      "targeted_batch_warnings": 993
     },
-    "targeted_batch_warnings": 989
+    "targeted_batch_warnings": 993
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12430",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12430",
-    "topic": "다음 비처방 후보 주제 선정 batch 12430"
+    "batch": "12440",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12440",
+    "topic": "다음 비처방 후보 주제 선정 batch 12440"
   },
   "resume": {
-    "next_batch": "12430",
-    "worklist_line": "new-expansion-candidates-batch12430",
-    "topic": "다음 비처방 후보 주제 선정 batch 12430",
+    "next_batch": "12440",
+    "worklist_line": "new-expansion-candidates-batch12440",
+    "topic": "다음 비처방 후보 주제 선정 batch 12440",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12420",
-    "commit": "70ad9865b865981593bc104409988289dc28c150",
-    "pushed": true,
+    "id": "12430",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "70ad9865b865981593bc104409988289dc28c150"
-    ],
-    "checkpoint_commit": "7d1d1ddc3648e9d7db423ebf57c41b131e3e6c3e",
-    "push_marker_commit": "52257d5e1bc3cff73e98dea125b485f769b06da5",
-    "known_items_commit": "ed384c2f560210cb982826f7850cccdbfb3763f6",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "diverticular-1",
-        "subject": "게실질환 고섬유식",
+        "id": "gallstone-1",
+        "subject": "담석증 고섬유식",
         "category": "food"
       },
       {
-        "id": "diverticular-2",
-        "subject": "게실질환 식이섬유 보충",
+        "id": "gallstone-2",
+        "subject": "담석증 저지방식",
         "category": "food"
       },
       {
-        "id": "diverticular-3",
-        "subject": "게실질환 차전자피",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-4",
-        "subject": "게실질환 저잔사식",
+        "id": "gallstone-3",
+        "subject": "담석증 지중해식",
         "category": "food"
       },
       {
-        "id": "diverticular-5",
-        "subject": "게실질환 저섬유식",
+        "id": "gallstone-4",
+        "subject": "담석증 채식",
         "category": "food"
       },
       {
-        "id": "diverticular-6",
-        "subject": "게실질환 채식",
+        "id": "gallstone-5",
+        "subject": "담석증 식물성 식단",
         "category": "food"
       },
       {
-        "id": "diverticular-7",
-        "subject": "게실질환 지중해식",
+        "id": "gallstone-6",
+        "subject": "담석증 체중감량 식단",
         "category": "food"
       },
       {
-        "id": "diverticular-8",
-        "subject": "게실질환 식물성 식단",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-9",
-        "subject": "게실질환 견과류",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-10",
-        "subject": "게실질환 씨앗류",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-11",
-        "subject": "게실질환 붉은고기 줄이기",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-12",
-        "subject": "게실질환 프로바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-13",
-        "subject": "게실질환 프리바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-14",
-        "subject": "게실질환 신바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-15",
-        "subject": "게실질환 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-16",
-        "subject": "게실질환 칼슘 보충",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-17",
-        "subject": "게실질환 영양상담",
+        "id": "gallstone-7",
+        "subject": "담석증 점진적 체중감량",
         "category": "life"
       },
       {
-        "id": "diverticular-18",
-        "subject": "게실질환 운동치료",
+        "id": "gallstone-8",
+        "subject": "담석증 영양상담",
+        "category": "life"
+      },
+      {
+        "id": "gallstone-9",
+        "subject": "담석증 식이섬유 보충",
+        "category": "food"
+      },
+      {
+        "id": "gallstone-10",
+        "subject": "담석증 차전자피",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-11",
+        "subject": "담석증 프로바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-12",
+        "subject": "담석증 프리바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-13",
+        "subject": "담석증 신바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-14",
+        "subject": "담석증 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-15",
+        "subject": "담석증 칼슘 보충",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-16",
+        "subject": "담석증 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-17",
+        "subject": "담석증 생강",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-18",
+        "subject": "담석증 강황",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-19",
+        "subject": "담석증 수분 섭취",
+        "category": "life"
+      },
+      {
+        "id": "gallstone-20",
+        "subject": "담석증 운동치료",
         "category": "move"
       },
       {
-        "id": "diverticular-19",
-        "subject": "게실질환 신체활동",
+        "id": "gallstone-21",
+        "subject": "담석증 신체활동",
         "category": "move"
       },
       {
-        "id": "diverticular-20",
-        "subject": "게실질환 걷기",
+        "id": "gallstone-22",
+        "subject": "담석증 걷기",
         "category": "move"
       },
       {
-        "id": "diverticular-21",
-        "subject": "게실질환 근력운동",
+        "id": "gallstone-23",
+        "subject": "담석증 근력운동",
         "category": "move"
       },
       {
-        "id": "diverticular-22",
-        "subject": "게실질환 요가",
+        "id": "gallstone-24",
+        "subject": "담석증 요가",
         "category": "move"
       },
       {
-        "id": "diverticular-23",
-        "subject": "게실질환 마음챙김",
+        "id": "gallstone-25",
+        "subject": "담석증 마음챙김",
         "category": "life"
       },
       {
-        "id": "diverticular-24",
-        "subject": "게실질환 스트레스관리",
+        "id": "gallstone-26",
+        "subject": "담석증 스트레스관리",
         "category": "life"
       },
       {
-        "id": "diverticular-25",
-        "subject": "게실질환 자기관리",
+        "id": "gallstone-27",
+        "subject": "담석증 자기관리",
         "category": "life"
       },
       {
-        "id": "diverticular-26",
-        "subject": "게실질환 환자교육",
+        "id": "gallstone-28",
+        "subject": "담석증 환자교육",
         "category": "life"
       },
       {
-        "id": "diverticular-27",
-        "subject": "게실질환 온라인관리",
+        "id": "gallstone-29",
+        "subject": "담석증 온라인관리",
         "category": "life"
       },
       {
-        "id": "diverticular-28",
-        "subject": "게실질환 전화상담",
-        "category": "life"
-      },
-      {
-        "id": "diverticular-29",
-        "subject": "게실질환 침치료",
-        "category": "care"
-      },
-      {
-        "id": "diverticular-30",
-        "subject": "게실질환 마사지",
+        "id": "gallstone-30",
+        "subject": "담석증 침치료",
         "category": "care"
       }
     ],
-    "new_entries": 12,
+    "new_entries": 8,
     "existing_links": 0,
-    "no_evidence_rejects": 324,
-    "new_candidate_rejects": 54,
-    "manual_screened_additions": 12,
+    "no_evidence_rejects": 291,
+    "new_candidate_rejects": 20,
+    "manual_screened_additions": 8,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 12,
+    "new_references": 8,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 148,
+    "duplicate_search_pmids_removed": 52,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 538,
-    "main_search_records": 6,
-    "main_search_unique_pmids": 5,
+    "search_returned_records": 371,
+    "main_search_records": 0,
+    "main_search_unique_pmids": 7,
     "refinement_query_count": 30,
-    "refinement_search_records": 2,
-    "refinement_unique_pmids": 2,
+    "refinement_search_records": 0,
+    "refinement_unique_pmids": 0,
     "extra_query_count": 30,
-    "extra_search_records": 213,
-    "extra_unique_pmids": 200,
-    "extra_new_unique_pmids": 199,
+    "extra_search_records": 35,
+    "extra_unique_pmids": 35,
+    "extra_new_unique_pmids": 35,
     "extra2_query_count": 30,
-    "extra2_search_records": 212,
-    "extra2_unique_pmids": 182,
-    "extra2_new_unique_pmids": 182,
+    "extra2_search_records": 222,
+    "extra2_unique_pmids": 194,
+    "extra2_new_unique_pmids": 193,
     "extra3_query_count": 30,
-    "extra3_search_records": 107,
-    "extra3_unique_pmids": 63,
-    "extra3_new_unique_pmids": 60,
+    "extra3_search_records": 114,
+    "extra3_unique_pmids": 105,
+    "extra3_new_unique_pmids": 102,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 24,
-    "followup_search_records": 13,
-    "followup_search_unique_pmids": 10,
-    "combined_search_unique_pmids": 390,
-    "combined_all_unique_pmids": 390,
-    "requested": 390,
-    "fetched": 390,
+    "followup_query_count": 16,
+    "followup_search_records": 12,
+    "followup_search_unique_pmids": 8,
+    "combined_search_unique_pmids": 319,
+    "combined_all_unique_pmids": 319,
+    "requested": 319,
+    "fetched": 319,
     "fetch_chunks": 4,
-    "abstracts": 366,
-    "abstracts_all_sources": 366,
+    "abstracts": 309,
+    "abstracts_all_sources": 309,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,295 +9823,281 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 24,
-    "followup_fetched": 10,
+    "followup_requested": 16,
+    "followup_fetched": 8,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 390,
-    "candidate_parser_candidates": 66,
-    "candidate_parser_candidates_after_write": 66,
-    "union_candidate_like": 66,
-    "union_new_candidate_like": 66,
-    "effect_candidate_rows": 66,
-    "manual_candidate_count": 12,
+    "candidate_parser_parsed": 319,
+    "candidate_parser_candidates": 28,
+    "candidate_parser_candidates_after_write": 28,
+    "union_candidate_like": 28,
+    "union_new_candidate_like": 28,
+    "effect_candidate_rows": 28,
+    "manual_candidate_count": 8,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "32919816",
-      "35045564",
-      "28528364",
-      "12610327",
-      "31696504",
-      "21372765",
-      "31386199",
-      "40595170",
-      "40667761",
-      "16633103",
-      "23139608",
-      "31011868"
+      "15865114",
+      "8781321",
+      "10647527",
+      "12111069",
+      "17197959",
+      "32682482",
+      "2902491",
+      "41548725"
     ],
     "selected_ncts": [
-      "NCT03656328"
+      "NCT03421340"
     ],
     "new_pmids": [
-      "32919816",
-      "35045564",
-      "28528364",
-      "12610327",
-      "31696504",
-      "21372765",
-      "31386199",
-      "40595170",
-      "40667761",
-      "16633103",
-      "23139608",
-      "31011868"
+      "15865114",
+      "8781321",
+      "10647527",
+      "12111069",
+      "17197959",
+      "32682482",
+      "2902491",
+      "41548725"
     ],
     "new_ncts": [
-      "NCT03656328"
+      "NCT03421340"
     ],
     "new_entry_ids": [
-      "diverticular-vitamin-d-32919816-null",
-      "diverticulitis-reuteri-35045564-pos",
-      "diverticular-multistrain-probiotic-28528364-null",
-      "diverticular-e-coli-nissle-12610327-pos",
-      "diverticulitis-probiotic-antibiotic-31696504-pos",
-      "diverticular-symbiotic-f19-21372765-pos",
-      "diverticulitis-no-antibiotic-31386199-null",
-      "diverticulitis-daiobotanpito-40595170-null",
-      "diverticulitis-decision-aid-40667761-pos",
-      "diverticular-l-casei-mesalazine-16633103-null",
-      "diverticular-symbiotic-high-fiber-23139608-pos",
-      "diverticulitis-reuteri-antibiotic-31011868-pos"
+      "cholecystitis-observation-15865114-null",
+      "gallstone-low-fat-meal-8781321-pos",
+      "gallstone-exercise-10647527-null",
+      "cholecystitis-cholecystostomy-12111069-null",
+      "gallstone-pancreatitis-early-erc-17197959-null",
+      "gallstone-pancreatitis-apec-32682482-null",
+      "gallstone-pancreatitis-erc-2902491-pos",
+      "bile-duct-stone-cholangioscopy-41548725-null"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "supp": 10,
-      "care": 1,
-      "life": 1
+      "care": 6,
+      "food": 1,
+      "move": 1
     },
     "tiers": {
-      "trial": 12
+      "trial": 8
     },
     "dirs": {
-      "null": 5,
-      "pos": 7
+      "null": 6,
+      "pos": 2
     },
     "unknown_n": 0,
-    "thin_studies": 3,
+    "thin_studies": 2,
     "validator_errors": 0,
-    "validator_warnings": 3,
-    "initial_validator_errors": 11,
-    "initial_validator_warnings": 3,
-    "initial_build_error_lines": 2,
-    "initial_build_warning_lines": 9855,
-    "build_warning_lines": 9844,
+    "validator_warnings": 2,
+    "initial_validator_errors": 0,
+    "initial_validator_warnings": 2,
+    "initial_build_error_lines": 0,
+    "initial_build_warning_lines": 9850,
+    "build_warning_lines": 9846,
     "new_build_warnings": [
-      "diverticular-e-coli-nissle-12610327-pos",
-      "diverticulitis-decision-aid-40667761-pos",
-      "diverticular-symbiotic-high-fiber-23139608-pos"
+      "gallstone-low-fat-meal-8781321-pos",
+      "gallstone-exercise-10647527-null"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "diverticular-e-coli-nissle-12610327-pos",
-      "diverticulitis-decision-aid-40667761-pos",
-      "diverticular-symbiotic-high-fiber-23139608-pos"
+      "gallstone-low-fat-meal-8781321-pos",
+      "gallstone-exercise-10647527-null"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 2,
-    "targeted_batch_warnings_fixed": 12,
-    "targeted_warnings_total": 989,
+    "build_errors_fixed": 0,
+    "targeted_batch_warnings_fixed": 4,
+    "targeted_warnings_total": 993,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 27061,
+    "open_numeric_comparisons": 27069,
     "build_exit": 0,
-    "build": "28001 entries; 31161 refs; trial 27150; obs 754; animal 32; lab 18; case 47; numeric 27061; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 게실질환·게실염 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 6개 레코드·고유 PMID 5개였고, 첫 보강은 213개 레코드·고유 PMID 200개·신규 PMID 199개, 두 번째 보강은 212개 레코드·고유 PMID 182개·신규 PMID 182개, 세 번째 보강은 107개 레코드·고유 PMID 63개·신규 PMID 60개였다. 네 검색 세트는 538개 레코드·중복 제거 후 고유 PMID 390개였다. EFetch는 390개를 요청·수집했고 366개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 390건에서 후보 66건·신규 후보 66건·효과 후보 66건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 12건을 기록했고 수동 제외 목록 54건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 24개 질의에서 13개 레코드·고유 PMID 10개를 확인했다.",
+    "build": "28009 entries; 31169 refs; trial 27158; obs 754; animal 32; lab 18; case 47; numeric 27069; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 담석증·담낭질환 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 0개 레코드·고유 PMID 7개였고, 첫 보강은 35개 레코드·고유 PMID 35개·신규 PMID 35개, 두 번째 보강은 222개 레코드·고유 PMID 194개·신규 PMID 193개, 세 번째 보강은 114개 레코드·고유 PMID 105개·신규 PMID 102개였다. 네 검색 세트는 371개 레코드·중복 제거 후 고유 PMID 319개였다. EFetch는 319개를 요청·수집했고 309개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 319건에서 후보 28건·신규 후보 28건·효과 후보 28건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 8건을 기록했고 수동 제외 목록 20건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 16개 질의에서 12개 레코드·고유 PMID 8개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "diverticular-1",
-        "subject": "게실질환 고섬유식",
+        "id": "gallstone-1",
+        "subject": "담석증 고섬유식",
         "category": "food"
       },
       {
-        "id": "diverticular-2",
-        "subject": "게실질환 식이섬유 보충",
+        "id": "gallstone-2",
+        "subject": "담석증 저지방식",
         "category": "food"
       },
       {
-        "id": "diverticular-3",
-        "subject": "게실질환 차전자피",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-4",
-        "subject": "게실질환 저잔사식",
+        "id": "gallstone-3",
+        "subject": "담석증 지중해식",
         "category": "food"
       },
       {
-        "id": "diverticular-5",
-        "subject": "게실질환 저섬유식",
+        "id": "gallstone-4",
+        "subject": "담석증 채식",
         "category": "food"
       },
       {
-        "id": "diverticular-6",
-        "subject": "게실질환 채식",
+        "id": "gallstone-5",
+        "subject": "담석증 식물성 식단",
         "category": "food"
       },
       {
-        "id": "diverticular-7",
-        "subject": "게실질환 지중해식",
+        "id": "gallstone-6",
+        "subject": "담석증 체중감량 식단",
         "category": "food"
       },
       {
-        "id": "diverticular-8",
-        "subject": "게실질환 식물성 식단",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-9",
-        "subject": "게실질환 견과류",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-10",
-        "subject": "게실질환 씨앗류",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-11",
-        "subject": "게실질환 붉은고기 줄이기",
-        "category": "food"
-      },
-      {
-        "id": "diverticular-12",
-        "subject": "게실질환 프로바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-13",
-        "subject": "게실질환 프리바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-14",
-        "subject": "게실질환 신바이오틱",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-15",
-        "subject": "게실질환 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-16",
-        "subject": "게실질환 칼슘 보충",
-        "category": "supp"
-      },
-      {
-        "id": "diverticular-17",
-        "subject": "게실질환 영양상담",
+        "id": "gallstone-7",
+        "subject": "담석증 점진적 체중감량",
         "category": "life"
       },
       {
-        "id": "diverticular-18",
-        "subject": "게실질환 운동치료",
+        "id": "gallstone-8",
+        "subject": "담석증 영양상담",
+        "category": "life"
+      },
+      {
+        "id": "gallstone-9",
+        "subject": "담석증 식이섬유 보충",
+        "category": "food"
+      },
+      {
+        "id": "gallstone-10",
+        "subject": "담석증 차전자피",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-11",
+        "subject": "담석증 프로바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-12",
+        "subject": "담석증 프리바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-13",
+        "subject": "담석증 신바이오틱",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-14",
+        "subject": "담석증 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-15",
+        "subject": "담석증 칼슘 보충",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-16",
+        "subject": "담석증 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-17",
+        "subject": "담석증 생강",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-18",
+        "subject": "담석증 강황",
+        "category": "supp"
+      },
+      {
+        "id": "gallstone-19",
+        "subject": "담석증 수분 섭취",
+        "category": "life"
+      },
+      {
+        "id": "gallstone-20",
+        "subject": "담석증 운동치료",
         "category": "move"
       },
       {
-        "id": "diverticular-19",
-        "subject": "게실질환 신체활동",
+        "id": "gallstone-21",
+        "subject": "담석증 신체활동",
         "category": "move"
       },
       {
-        "id": "diverticular-20",
-        "subject": "게실질환 걷기",
+        "id": "gallstone-22",
+        "subject": "담석증 걷기",
         "category": "move"
       },
       {
-        "id": "diverticular-21",
-        "subject": "게실질환 근력운동",
+        "id": "gallstone-23",
+        "subject": "담석증 근력운동",
         "category": "move"
       },
       {
-        "id": "diverticular-22",
-        "subject": "게실질환 요가",
+        "id": "gallstone-24",
+        "subject": "담석증 요가",
         "category": "move"
       },
       {
-        "id": "diverticular-23",
-        "subject": "게실질환 마음챙김",
+        "id": "gallstone-25",
+        "subject": "담석증 마음챙김",
         "category": "life"
       },
       {
-        "id": "diverticular-24",
-        "subject": "게실질환 스트레스관리",
+        "id": "gallstone-26",
+        "subject": "담석증 스트레스관리",
         "category": "life"
       },
       {
-        "id": "diverticular-25",
-        "subject": "게실질환 자기관리",
+        "id": "gallstone-27",
+        "subject": "담석증 자기관리",
         "category": "life"
       },
       {
-        "id": "diverticular-26",
-        "subject": "게실질환 환자교육",
+        "id": "gallstone-28",
+        "subject": "담석증 환자교육",
         "category": "life"
       },
       {
-        "id": "diverticular-27",
-        "subject": "게실질환 온라인관리",
+        "id": "gallstone-29",
+        "subject": "담석증 온라인관리",
         "category": "life"
       },
       {
-        "id": "diverticular-28",
-        "subject": "게실질환 전화상담",
-        "category": "life"
-      },
-      {
-        "id": "diverticular-29",
-        "subject": "게실질환 침치료",
-        "category": "care"
-      },
-      {
-        "id": "diverticular-30",
-        "subject": "게실질환 마사지",
+        "id": "gallstone-30",
+        "subject": "담석증 침치료",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "게실질환 고섬유식",
-      "게실질환 식이섬유 보충",
-      "게실질환 차전자피",
-      "게실질환 저잔사식",
-      "게실질환 저섬유식",
-      "게실질환 채식",
-      "게실질환 지중해식",
-      "게실질환 식물성 식단",
-      "게실질환 견과류",
-      "게실질환 씨앗류",
-      "게실질환 붉은고기 줄이기",
-      "게실질환 프로바이오틱",
-      "게실질환 프리바이오틱",
-      "게실질환 신바이오틱",
-      "게실질환 비타민D",
-      "게실질환 칼슘 보충",
-      "게실질환 영양상담",
-      "게실질환 운동치료",
-      "게실질환 신체활동",
-      "게실질환 걷기",
-      "게실질환 근력운동",
-      "게실질환 요가",
-      "게실질환 마음챙김",
-      "게실질환 스트레스관리",
-      "게실질환 자기관리",
-      "게실질환 환자교육",
-      "게실질환 온라인관리",
-      "게실질환 전화상담",
-      "게실질환 침치료",
-      "게실질환 마사지"
+      "담석증 고섬유식",
+      "담석증 저지방식",
+      "담석증 지중해식",
+      "담석증 채식",
+      "담석증 식물성 식단",
+      "담석증 체중감량 식단",
+      "담석증 점진적 체중감량",
+      "담석증 영양상담",
+      "담석증 식이섬유 보충",
+      "담석증 차전자피",
+      "담석증 프로바이오틱",
+      "담석증 프리바이오틱",
+      "담석증 신바이오틱",
+      "담석증 비타민D",
+      "담석증 칼슘 보충",
+      "담석증 오메가3",
+      "담석증 생강",
+      "담석증 강황",
+      "담석증 수분 섭취",
+      "담석증 운동치료",
+      "담석증 신체활동",
+      "담석증 걷기",
+      "담석증 근력운동",
+      "담석증 요가",
+      "담석증 마음챙김",
+      "담석증 스트레스관리",
+      "담석증 자기관리",
+      "담석증 환자교육",
+      "담석증 온라인관리",
+      "담석증 침치료"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10121,72 +10105,38 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12430",
-      "worklist_line": "new-expansion-candidates-batch12430",
-      "topic": "다음 비처방 후보 주제 선정 batch 12430",
+      "next_batch": "12440",
+      "worklist_line": "new-expansion-candidates-batch12440",
+      "topic": "다음 비처방 후보 주제 선정 batch 12440",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 3,
+    "thin": 2,
     "rejected_candidate_pmids": [
-      "37013200",
-      "33077029",
-      "8540614",
-      "33418133",
-      "29278531",
-      "15855755",
-      "31397679",
-      "30730324",
-      "23669306",
-      "42390126",
-      "18728264",
-      "10215046",
-      "37662007",
-      "29607785",
-      "33745570",
-      "32767345",
-      "39200891",
-      "17390144",
-      "23426454",
-      "23592303",
-      "28555444",
-      "27170283",
-      "16432647",
-      "25829061",
-      "17431721",
-      "9068461",
-      "12738459",
-      "23271440",
-      "25255851",
-      "39727311",
-      "18751760",
-      "11156458",
-      "10924567",
-      "33825498",
-      "10859075",
-      "30660732",
-      "33279517",
-      "19652620",
-      "28608124",
-      "22549495",
-      "37074706",
-      "20361072",
-      "19561530",
-      "21567193",
-      "35262307",
-      "4012531",
-      "20922195",
-      "28808771",
-      "23092785",
-      "29844795",
-      "21037552",
-      "40459895",
-      "40263135",
-      "37962086"
+      "32583297",
+      "1416572",
+      "38318932",
+      "35230533",
+      "22935027",
+      "15495060",
+      "20091549",
+      "33951361",
+      "17127188",
+      "15868595",
+      "15867044",
+      "2104681",
+      "16158082",
+      "34811629",
+      "16038966",
+      "26068960",
+      "22089363",
+      "16234101",
+      "38065510",
+      "7788532"
     ],
-    "new_search_pmids": 385
+    "new_search_pmids": 312
   },
   "previous_last_batch_10490": {
     "id": "10490",
