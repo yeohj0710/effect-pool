@@ -28268,3 +28268,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,463개; 주제 19,779개; 근거 링크 30,623개; 숫자 군간 비교 26,523개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,944개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: a82257825658fb9fb4aa712fbd9eed56f0099e54; data commit: 없음(신규 항목 0건); push marker commit: a660999d1f3185dec7c33a09271cd18528cc6305; 현재 PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11830; resume point new-expansion-candidates-batch11830; 다음은 다음 비처방 후보 주제 선정 batch 11830이다.
+- 배치 11830: 과민성장증후군(IBS) 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 8건을 기록했다. 기본·재검색 60개 주제에서 809개 레코드·고유 PMID 447개, 첫 보강 29개 질의에서 1,641개 레코드·고유 PMID 1,291개·신규 PMID 1,095개, 두 번째 보강 30개 질의에서 797개 레코드·고유 PMID 592개·신규 PMID 158개, 세 번째 보강 30개 질의에서 220개 레코드·고유 PMID 218개·신규 PMID 13개를 확인했다. 네 검색 세트는 3,467개 레코드·중복 제거 후 고유 PMID 1,713개였다.
+- fetch·초록: 고유 PMID 1,713개를 PubMed EFetch로 요청해 1,709개 기록·18개 chunk·원저 초록 1,679개를 확보했다. 누락 PMID 25834868, 32965895, 20496364, 32119472는 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 4건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 1,709건·후보 101건·신규 후보 24건·효과 후보 24건·기존 연결 후보 77건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 처방약·혼합질환·관찰·예측·전후·고찰·비무작위·수치 부족 등인 1,608건을 제외했고, 신규 후보 중 16건은 같은 기준으로 수동 제외했다. 전분·자당 제한식, 통사 한약 복합제, 마음챙김·연민집중 치료 2건, 마음챙김 삶의 질, 노출 기반 인지행동치료, 장 지향 최면요법, 글루텐 재섭취 등 8건은 PubMed 초록에서 직접 확인한 비교 수치·비율·P값을 기록했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 31195706(ibs-ssrd-31195706-pos), 28634136(ibs-tongxie-formula-28634136-pos), 38523884(ibs-mindfulness-compassion-emotion-38523884-pos), 39050094(ibs-mindfulness-compassion-symptoms-39050094-pos), 26884786(ibs-mindfulness-qol-26884786-pos), 40406428(ibs-exposure-cbt-40406428-pos), 10457813(ibs-gut-directed-hypnotherapy-10457813-pos), 27799885(ibs-gluten-rechallenge-27799885-harm); ClinicalTrials.gov NCT01641224.
+- 범주별 신규: food 2건, supp 1건, life 5건; trial 8건; pos 7건·harm 1건.
+- 전용 검증·빌드: 초기·최종 validator 오류 0건·경고 5건; 초기 build exit 0·오류 0·경고 9,634건, 최종 build exit 0·오류 0·경고 9,631건이었다. 새 targeted warning 3건(vs 비교 표현 2건·effect 길이 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 5건이다. n=45 2건, n=24 1건, n=30 1건, n=12 1건의 소규모 연구 경고를 유지했고 표본 수를 임의로 채우거나 경고를 숨기지 않았다.
+- 부정·안전성 보강: 8개 질의·8개 레코드·고유 PMID 8개.
+- 누적 집계: 항목 27,471개; 주제 19,785개; 근거 링크 30,631개; 숫자 군간 비교 26,531개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,949개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 08d799c96aad1cc65e1f5e61f0828cfe69531de1; data commit: 92bac134497e041da21ac1ce737b133f988ebb35; push marker commit: cce19c2fd6be796eb9b8180c23f20d3edebfcb8d; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11840; resume point new-expansion-candidates-batch11840; 다음은 다음 비처방 후보 주제 선정 batch 11840이다.
