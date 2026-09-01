@@ -28466,3 +28466,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,636개; 주제 19,947개; 근거 링크 30,796개; 숫자 군간 비교 26,696개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: c0fd17730; data commit: 1586d474e; push marker commit: 7b6000528; known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12020; resume point new-expansion-candidates-batch12020; 다음은 다음 비처방 후보 주제 선정 batch 12020이다.
+- 배치 12020: 족저근막염·발뒤꿈치 통증 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 3건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 580개 레코드·고유 PMID 216개, 첫 보강 30개 질의에서 138개 레코드·고유 PMID 95개·신규 PMID 14개를 확인했고, 두 번째·세 번째 보강은 실행하지 않았다. 세 검색 세트는 718개 레코드·중복 제거 후 고유 PMID 230개였다.
+- 배치 12020 fetch·선별: 고유 PMID 230개를 PubMed EFetch로 요청·수집해 3개 chunk·원저 초록 230개를 확보했다. 누락 PMID는 0개였고 선택 항목 재조회도 0건이었다. 후보 parser는 230건에서 후보 38건·신규 후보 3건·효과 후보 3건을 확인했다. 직접 숫자·비율·P값·효과크기가 있는 신규 항목 3건을 선택하고, 수동 제외 13건과 직접 수치 부족 또는 비적합 192건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 13129987(plantar-fasciitis-magnetic-insole-13129987-null), 35180099(plantar-fasciitis-graston-35180099-pos), 26215551(acute-plantar-fasciitis-shockwave-26215551-null). ClinicalTrials.gov 별도 검색은 하지 않았으며, 신규 refs에는 PubMed PMID를 직접 기록했다. 기존 후보 연결은 35건이다.
+- 수동 제외 PMID: 9735623, 40671207, 29895234, 36363506, 28255655, 40049391, 30058377, 20398269, 25249320, 27891180, 36882804, 31882151, 23945520. 군간 효과크기 부족·장기 경과 분석·건강인 예방·주사·프로토콜·단면 연구를 제외했다.
+- 범주별 신규: care 3건; trial 3건; pos 1건, null 2건.
+- 배치 12020 검증·빌드: 초기·최종 validator 오류 0건·경고 1건이었다. 초기 build exit 0·오류 0건·경고 9697건, 최종 build exit 0·오류 0건·경고 9696건이었다. 새 targeted warning 1건(영문 표기 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 1건이다. n=30 Graston 수기치료 무작위시험의 소규모 연구 경고를 유지했다. 표본 수를 임의로 채우거나 경고를 숨기지 않았다. 누적 build 경고는 사람 수 미상 1339건·소규모 연구 8008건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,639개; 주제 19,949개; 근거 링크 30,799개; 숫자 군간 비교 26,699개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 6ac3d6615; data commit: 7b16e4434; push marker commit: c452d559a; known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12030; resume point new-expansion-candidates-batch12030; 다음은 다음 비처방 후보 주제 선정 batch 12030이다.
