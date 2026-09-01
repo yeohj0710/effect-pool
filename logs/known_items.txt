@@ -28116,3 +28116,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,375개; 주제 19,693개; 근거 링크 30,535개; 숫자 군간 비교 26,435개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,900개.
 - checkpoint state commit: 4049e6c16ee60cf174d64a1877648b0b3cf5bc9d; data commit: 468866776c7d61bd415d54c407888b11ae184c4e; push marker commit: aad163c70407b29ac19bd7ed9c558f602e7d1499; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11700; resume point new-expansion-candidates-batch11700; 다음은 다음 비처방 후보 주제 선정 batch 11700이다.
+- 배치 11700: 족저근막염 비처방·비약물 후보 30개 주제를 처리해 신규 항목 1건을 기록했다. 기본·재검색 60개 주제에서 494개 레코드·고유 PMID 135개, 첫 보강 30개 질의에서 544개 레코드·고유 PMID 248개·신규 PMID 114개, 두 번째 보강 30개 질의에서 715개 레코드·고유 PMID 251개·신규 PMID 27개, 광범위 보강 21개 질의에서 397개 레코드·고유 PMID 227개·신규 PMID 3개, 추가 직접 보강 24개 질의에서 1,607개 레코드·고유 PMID 833개·신규 PMID 621개를 확인했다. 다섯 검색 세트는 3,757개 레코드·중복 제거 후 고유 PMID 900개였다.
+- fetch·초록: 고유 PMID 900개를 PubMed EFetch로 요청해 895개 기록·9개 chunk·일반 초록 848개를 확보했다. 42485475, 27831676, 27831675, 31714699, 29763043 다섯 PMID는 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록이 없어 사용하지 않았다.
+- 후보·제외: parser 895건·후보 59건·신규 후보 10건·효과 후보 10건·기존 연결 후보 49건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 처방약·주사, 고찰·논평, 관찰·후향, 예측·손상 발생, 수치 부족 연구인 836건을 제외했고, 신규 후보 중 17건은 같은 기준으로 수동 제외했다. 체외충격파 무작위시험에서 군별 발 수와 12주 통증 감소율이 확인된 신규 항목 1건을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 14655885.
+- 신규 ID: pf-eswt-two-year-14655885-null.
+- 범주별 신규: care 1건; trial 1건; null 1건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 1, 최종 validator 오류 0·경고 1; 초기 build 오류 0·경고 9,582건, 최종 build exit 0·오류 0·경고 9,580건이었다. effect 길이와 줄 길이 targeted warning 2건을 수정했고 최종 신규 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건, n<50 신규 1건(pf-eswt-two-year-14655885-null, n=47)이며 원문에 없는 표본 수를 채우거나 소규모 연구 경고를 숨기지 않았다. 대조군도 12주 뒤 체외충격파를 받아 장기 결과는 직접 비교가 아니므로 dir을 null로 유지했고, 기존 보존치료에 포함된 디클로페낙·경구 NSAID를 한계에 명시했다.
+- 부정·안전성 보강: 1개 질의·1개 레코드·고유 PMID 1개.
+- 누적 집계: 항목 27,376개; 주제 19,693개; 근거 링크 30,536개; 숫자 군간 비교 26,436개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,901개.
+- checkpoint state commit: 47e345740; data commit: 1d3b507c4; push marker commit: 73f53bb07; 데이터와 PUSHED=true 상태를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11710; resume point new-expansion-candidates-batch11710; 다음은 다음 비처방 후보 주제 선정 batch 11710이다.
