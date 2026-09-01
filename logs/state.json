@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T19:57:39.031Z",
+  "updated": "2026-09-01T20:20:06.009Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27989,
-  "subjects": 20286,
-  "refs": 31149,
+  "entries": 28001,
+  "subjects": 20298,
+  "refs": 31161,
   "kinds": {
     "undefined": 10367,
     "food": 935,
-    "care": 8041,
-    "supp": 2690,
+    "care": 8042,
+    "supp": 2700,
     "move": 3395,
     "otc": 609,
-    "life": 1928,
+    "life": 1929,
     "rx": 24
   },
   "tiers": {
-    "trial": 27138,
+    "trial": 27150,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19532,
-    "null": 6486,
+    "pos": 19539,
+    "null": 6491,
     "harm": 318,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12410는 셀리악병 비처방·비약물 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 12420이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12420는 게실질환·게실염 비처방·비약물 후보에서 신규 항목 12건을 기록했다. 다음 재개점은 batch 12430이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12410는 셀리악병에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12420이다."
+    "note": "Batch 12420는 게실질환·게실염에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 12건을 추가했다. 다음 확장은 batch 12430이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.1% (4234 entries)",
+    "over_counter_share": "15.2% (4244 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6804)",
-    "vs_share": "96.6% (27049)",
+    "no_effect_or_harm_share": "24.3% (6809)",
+    "vs_share": "96.6% (27061)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27138)",
+    "trial_share": "97.0% (27150)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1347,
-      "thin_study": 8145,
-      "targeted_batch_warnings": 977
+      "thin_study": 8148,
+      "targeted_batch_warnings": 989
     },
-    "targeted_batch_warnings": 977
+    "targeted_batch_warnings": 989
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12420",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12420",
-    "topic": "다음 비처방 후보 주제 선정 batch 12420"
+    "batch": "12430",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12430",
+    "topic": "다음 비처방 후보 주제 선정 batch 12430"
   },
   "resume": {
-    "next_batch": "12420",
-    "worklist_line": "new-expansion-candidates-batch12420",
-    "topic": "다음 비처방 후보 주제 선정 batch 12420",
+    "next_batch": "12430",
+    "worklist_line": "new-expansion-candidates-batch12430",
+    "topic": "다음 비처방 후보 주제 선정 batch 12430",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12410",
-    "commit": "648cab1bb",
-    "pushed": true,
+    "id": "12420",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "648cab1bb"
-    ],
-    "checkpoint_commit": "34be85383",
-    "push_marker_commit": "0d0aebbe4",
-    "known_items_commit": "55dcf3acc",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "celiac-1",
-        "subject": "셀리악병 순수 귀리 섭취",
+        "id": "diverticular-1",
+        "subject": "게실질환 고섬유식",
         "category": "food"
       },
       {
-        "id": "celiac-2",
-        "subject": "셀리악병 소아 귀리 식단",
+        "id": "diverticular-2",
+        "subject": "게실질환 식이섬유 보충",
         "category": "food"
       },
       {
-        "id": "celiac-3",
-        "subject": "셀리악병 장기 귀리 섭취",
-        "category": "food"
-      },
-      {
-        "id": "celiac-4",
-        "subject": "셀리악병 비킬드 귀리",
-        "category": "food"
-      },
-      {
-        "id": "celiac-5",
-        "subject": "셀리악병 귀리 항체",
-        "category": "food"
-      },
-      {
-        "id": "celiac-6",
-        "subject": "셀리악병 소아 귀리 장기추적",
-        "category": "food"
-      },
-      {
-        "id": "celiac-7",
-        "subject": "셀리악병 성인 귀리 식단",
-        "category": "food"
-      },
-      {
-        "id": "celiac-8",
-        "subject": "셀리악병 저FODMAP 식단",
-        "category": "food"
-      },
-      {
-        "id": "celiac-9",
-        "subject": "셀리악병 저FODMAP 무글루텐식",
-        "category": "food"
-      },
-      {
-        "id": "celiac-10",
-        "subject": "셀리악병 이눌린·올리고프룩토스 뼈 대사",
+        "id": "diverticular-3",
+        "subject": "게실질환 차전자피",
         "category": "supp"
       },
       {
-        "id": "celiac-11",
-        "subject": "셀리악병 이눌린·올리고프룩토스 철 대사",
+        "id": "diverticular-4",
+        "subject": "게실질환 저잔사식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-5",
+        "subject": "게실질환 저섬유식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-6",
+        "subject": "게실질환 채식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-7",
+        "subject": "게실질환 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-8",
+        "subject": "게실질환 식물성 식단",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-9",
+        "subject": "게실질환 견과류",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-10",
+        "subject": "게실질환 씨앗류",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-11",
+        "subject": "게실질환 붉은고기 줄이기",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-12",
+        "subject": "게실질환 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-12",
-        "subject": "셀리악병 이눌린·올리고프룩토스 아미노산",
+        "id": "diverticular-13",
+        "subject": "게실질환 프리바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-13",
-        "subject": "셀리악병 이눌린·올리고프룩토스 비타민",
+        "id": "diverticular-14",
+        "subject": "게실질환 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-14",
-        "subject": "셀리악병 아연 보충",
+        "id": "diverticular-15",
+        "subject": "게실질환 비타민D",
         "category": "supp"
       },
       {
-        "id": "celiac-15",
-        "subject": "셀리악병 아연·무글루텐식",
+        "id": "diverticular-16",
+        "subject": "게실질환 칼슘 보충",
         "category": "supp"
       },
       {
-        "id": "celiac-16",
-        "subject": "셀리악병 비타민B군",
-        "category": "supp"
-      },
-      {
-        "id": "celiac-17",
-        "subject": "셀리악병 온라인 추적관리",
+        "id": "diverticular-17",
+        "subject": "게실질환 영양상담",
         "category": "life"
       },
       {
-        "id": "celiac-18",
-        "subject": "셀리악병 온라인 식이순응도 관리",
-        "category": "life"
-      },
-      {
-        "id": "celiac-19",
-        "subject": "셀리악병 적극적 환자교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-20",
-        "subject": "셀리악병 문자 교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-21",
-        "subject": "셀리악병 부모 심리교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-22",
-        "subject": "셀리악병 집단 식이교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-23",
-        "subject": "셀리악병 스마트폰 교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-24",
-        "subject": "셀리악병 고강도운동·인지행동교육",
+        "id": "diverticular-18",
+        "subject": "게실질환 운동치료",
         "category": "move"
       },
       {
-        "id": "celiac-25",
-        "subject": "셀리악병 소화효소 보충",
-        "category": "supp"
+        "id": "diverticular-19",
+        "subject": "게실질환 신체활동",
+        "category": "move"
       },
       {
-        "id": "celiac-26",
-        "subject": "셀리악병 글루텐분해효소",
-        "category": "supp"
+        "id": "diverticular-20",
+        "subject": "게실질환 걷기",
+        "category": "move"
       },
       {
-        "id": "celiac-27",
-        "subject": "잠재 셀리악병 신바이오틱",
-        "category": "supp"
+        "id": "diverticular-21",
+        "subject": "게실질환 근력운동",
+        "category": "move"
       },
       {
-        "id": "celiac-28",
-        "subject": "셀리악병 밀전분 무글루텐식",
-        "category": "food"
+        "id": "diverticular-22",
+        "subject": "게실질환 요가",
+        "category": "move"
       },
       {
-        "id": "celiac-29",
-        "subject": "무증상 셀리악병 무글루텐식",
-        "category": "food"
+        "id": "diverticular-23",
+        "subject": "게실질환 마음챙김",
+        "category": "life"
       },
       {
-        "id": "celiac-30",
-        "subject": "셀리악병 비타민K",
-        "category": "supp"
+        "id": "diverticular-24",
+        "subject": "게실질환 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-25",
+        "subject": "게실질환 자기관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-26",
+        "subject": "게실질환 환자교육",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-27",
+        "subject": "게실질환 온라인관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-28",
+        "subject": "게실질환 전화상담",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-29",
+        "subject": "게실질환 침치료",
+        "category": "care"
+      },
+      {
+        "id": "diverticular-30",
+        "subject": "게실질환 마사지",
+        "category": "care"
       }
     ],
-    "new_entries": 30,
-    "existing_links": 3,
-    "no_evidence_rejects": 451,
-    "new_candidate_rejects": 108,
-    "manual_screened_additions": 30,
+    "new_entries": 12,
+    "existing_links": 0,
+    "no_evidence_rejects": 324,
+    "new_candidate_rejects": 54,
+    "manual_screened_additions": 12,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 30,
-    "existing_reference_links": 3,
-    "duplicate_search_pmids_removed": 201,
+    "new_references": 12,
+    "existing_reference_links": 0,
+    "duplicate_search_pmids_removed": 148,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 793,
-    "main_search_records": 71,
-    "main_search_unique_pmids": 49,
+    "search_returned_records": 538,
+    "main_search_records": 6,
+    "main_search_unique_pmids": 5,
     "refinement_query_count": 30,
-    "refinement_search_records": 35,
-    "refinement_unique_pmids": 18,
+    "refinement_search_records": 2,
+    "refinement_unique_pmids": 2,
     "extra_query_count": 30,
-    "extra_search_records": 468,
-    "extra_unique_pmids": 451,
-    "extra_new_unique_pmids": 430,
+    "extra_search_records": 213,
+    "extra_unique_pmids": 200,
+    "extra_new_unique_pmids": 199,
     "extra2_query_count": 30,
-    "extra2_search_records": 188,
-    "extra2_unique_pmids": 139,
-    "extra2_new_unique_pmids": 115,
+    "extra2_search_records": 212,
+    "extra2_unique_pmids": 182,
+    "extra2_new_unique_pmids": 182,
     "extra3_query_count": 30,
-    "extra3_search_records": 66,
-    "extra3_unique_pmids": 56,
-    "extra3_new_unique_pmids": 46,
+    "extra3_search_records": 107,
+    "extra3_unique_pmids": 63,
+    "extra3_new_unique_pmids": 60,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 60,
-    "followup_search_records": 34,
-    "followup_search_unique_pmids": 28,
-    "combined_search_unique_pmids": 592,
-    "combined_all_unique_pmids": 592,
-    "requested": 592,
-    "fetched": 592,
-    "fetch_chunks": 6,
-    "abstracts": 569,
-    "abstracts_all_sources": 569,
+    "followup_query_count": 24,
+    "followup_search_records": 13,
+    "followup_search_unique_pmids": 10,
+    "combined_search_unique_pmids": 390,
+    "combined_all_unique_pmids": 390,
+    "requested": 390,
+    "fetched": 390,
+    "fetch_chunks": 4,
+    "abstracts": 366,
+    "abstracts_all_sources": 366,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,362 +9823,295 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 60,
-    "followup_fetched": 28,
+    "followup_requested": 24,
+    "followup_fetched": 10,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 592,
-    "candidate_parser_candidates": 141,
-    "candidate_parser_candidates_after_write": 141,
-    "union_candidate_like": 141,
-    "union_new_candidate_like": 138,
-    "effect_candidate_rows": 138,
-    "manual_candidate_count": 30,
+    "candidate_parser_parsed": 390,
+    "candidate_parser_candidates": 66,
+    "candidate_parser_candidates_after_write": 66,
+    "union_candidate_like": 66,
+    "union_new_candidate_like": 66,
+    "effect_candidate_rows": 66,
+    "manual_candidate_count": 12,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "29478494",
-      "15082581",
-      "11839710",
-      "18609150",
-      "16373275",
-      "16669961",
-      "7675045",
-      "35051648",
-      "30081576",
-      "30840918",
-      "30469412",
-      "30043079",
-      "30445682",
-      "20176568",
-      "29141505",
-      "19154566",
-      "29275927",
-      "23458849",
-      "22647800",
-      "28343658",
-      "41589456",
-      "33420717",
-      "32843265",
-      "34038293",
-      "16243716",
-      "38617446",
-      "32704500",
-      "12622768",
-      "24837306",
-      "3575131"
+      "32919816",
+      "35045564",
+      "28528364",
+      "12610327",
+      "31696504",
+      "21372765",
+      "31386199",
+      "40595170",
+      "40667761",
+      "16633103",
+      "23139608",
+      "31011868"
     ],
-    "selected_ncts": [],
+    "selected_ncts": [
+      "NCT03656328"
+    ],
     "new_pmids": [
-      "29478494",
-      "15082581",
-      "11839710",
-      "18609150",
-      "16373275",
-      "16669961",
-      "7675045",
-      "35051648",
-      "30081576",
-      "30840918",
-      "30469412",
-      "30043079",
-      "30445682",
-      "20176568",
-      "29141505",
-      "19154566",
-      "29275927",
-      "23458849",
-      "22647800",
-      "28343658",
-      "41589456",
-      "33420717",
-      "32843265",
-      "34038293",
-      "16243716",
-      "38617446",
-      "32704500",
-      "12622768",
-      "24837306",
-      "3575131"
+      "32919816",
+      "35045564",
+      "28528364",
+      "12610327",
+      "31696504",
+      "21372765",
+      "31386199",
+      "40595170",
+      "40667761",
+      "16633103",
+      "23139608",
+      "31011868"
     ],
-    "new_ncts": [],
+    "new_ncts": [
+      "NCT03656328"
+    ],
     "new_entry_ids": [
-      "celiac-oats-safety-children-29478494-null",
-      "celiac-oats-new-child-15082581-null",
-      "celiac-oats-five-year-11839710-null",
-      "celiac-oats-unkilned-18609150-null",
-      "celiac-oats-antibody-16373275-null",
-      "celiac-oats-child-long-16669961-null",
-      "celiac-oats-adult-7675045-null",
-      "celiac-lowfodmap-35051648-pos",
-      "celiac-lowfodmap-30081576-pos",
-      "celiac-inulin-bone-30840918-pos",
-      "celiac-inulin-iron-30469412-pos",
-      "celiac-inulin-amino-acids-30043079-pos",
-      "celiac-inulin-vitamins-30445682-pos",
-      "celiac-zinc-20176568-null",
-      "celiac-zinc-29141505-pos",
-      "celiac-b-vitamins-19154566-pos",
-      "celiac-ehealth-29275927-pos",
-      "celiac-online-adherence-23458849-pos",
-      "celiac-education-women-22647800-pos",
-      "celiac-teach-text-28343658-pos",
-      "celiac-parent-psych-41589456-pos",
-      "celiac-group-education-33420717-pos",
-      "celiac-smartphone-app-32843265-pos",
-      "celiac-hiit-cbt-34038293-pos",
-      "celiac-enzyme-16243716-pos",
-      "celiac-anpep-38617446-null",
-      "celiac-synbiotic-potential-32704500-pos",
-      "celiac-wheat-starch-gfd-12622768-null",
-      "celiac-gfd-asymptomatic-24837306-pos",
-      "celiac-vitamin-k-3575131-pos"
+      "diverticular-vitamin-d-32919816-null",
+      "diverticulitis-reuteri-35045564-pos",
+      "diverticular-multistrain-probiotic-28528364-null",
+      "diverticular-e-coli-nissle-12610327-pos",
+      "diverticulitis-probiotic-antibiotic-31696504-pos",
+      "diverticular-symbiotic-f19-21372765-pos",
+      "diverticulitis-no-antibiotic-31386199-null",
+      "diverticulitis-daiobotanpito-40595170-null",
+      "diverticulitis-decision-aid-40667761-pos",
+      "diverticular-l-casei-mesalazine-16633103-null",
+      "diverticular-symbiotic-high-fiber-23139608-pos",
+      "diverticulitis-reuteri-antibiotic-31011868-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "food": 11,
-      "supp": 11,
-      "life": 7,
-      "move": 1
+      "supp": 10,
+      "care": 1,
+      "life": 1
     },
     "tiers": {
-      "trial": 30
+      "trial": 12
     },
     "dirs": {
-      "null": 10,
-      "pos": 20
+      "null": 5,
+      "pos": 7
     },
     "unknown_n": 0,
-    "thin_studies": 11,
+    "thin_studies": 3,
     "validator_errors": 0,
-    "validator_warnings": 11,
-    "initial_validator_errors": 0,
-    "initial_validator_warnings": 11,
-    "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9851,
-    "build_warning_lines": 9841,
+    "validator_warnings": 3,
+    "initial_validator_errors": 11,
+    "initial_validator_warnings": 3,
+    "initial_build_error_lines": 2,
+    "initial_build_warning_lines": 9855,
+    "build_warning_lines": 9844,
     "new_build_warnings": [
-      "celiac-oats-unkilned-18609150-null",
-      "celiac-oats-child-long-16669961-null",
-      "celiac-inulin-bone-30840918-pos",
-      "celiac-inulin-iron-30469412-pos",
-      "celiac-inulin-amino-acids-30043079-pos",
-      "celiac-inulin-vitamins-30445682-pos",
-      "celiac-hiit-cbt-34038293-pos",
-      "celiac-enzyme-16243716-pos",
-      "celiac-anpep-38617446-null",
-      "celiac-gfd-asymptomatic-24837306-pos",
-      "celiac-vitamin-k-3575131-pos"
+      "diverticular-e-coli-nissle-12610327-pos",
+      "diverticulitis-decision-aid-40667761-pos",
+      "diverticular-symbiotic-high-fiber-23139608-pos"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "celiac-oats-unkilned-18609150-null",
-      "celiac-oats-child-long-16669961-null",
-      "celiac-inulin-bone-30840918-pos",
-      "celiac-inulin-iron-30469412-pos",
-      "celiac-inulin-amino-acids-30043079-pos",
-      "celiac-inulin-vitamins-30445682-pos",
-      "celiac-hiit-cbt-34038293-pos",
-      "celiac-enzyme-16243716-pos",
-      "celiac-anpep-38617446-null",
-      "celiac-gfd-asymptomatic-24837306-pos",
-      "celiac-vitamin-k-3575131-pos"
+      "diverticular-e-coli-nissle-12610327-pos",
+      "diverticulitis-decision-aid-40667761-pos",
+      "diverticular-symbiotic-high-fiber-23139608-pos"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 10,
-    "targeted_warnings_total": 977,
+    "build_errors_fixed": 2,
+    "targeted_batch_warnings_fixed": 12,
+    "targeted_warnings_total": 989,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 27049,
+    "open_numeric_comparisons": 27061,
     "build_exit": 0,
-    "build": "27989 entries; 31149 refs; trial 27138; obs 754; animal 32; lab 18; case 47; numeric 27049; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 셀리악병 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 71개 레코드·고유 PMID 49개였고, 첫 보강은 468개 레코드·고유 PMID 451개·신규 PMID 430개, 두 번째 보강은 188개 레코드·고유 PMID 139개·신규 PMID 115개, 세 번째 보강은 66개 레코드·고유 PMID 56개·신규 PMID 46개였다. 네 검색 세트는 793개 레코드·중복 제거 후 고유 PMID 592개였다. EFetch는 592개를 요청·수집했고 569개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 592건에서 후보 141건·신규 후보 138건·효과 후보 138건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 108건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 34개 레코드·고유 PMID 28개를 확인했다.",
+    "build": "28001 entries; 31161 refs; trial 27150; obs 754; animal 32; lab 18; case 47; numeric 27061; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 게실질환·게실염 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 6개 레코드·고유 PMID 5개였고, 첫 보강은 213개 레코드·고유 PMID 200개·신규 PMID 199개, 두 번째 보강은 212개 레코드·고유 PMID 182개·신규 PMID 182개, 세 번째 보강은 107개 레코드·고유 PMID 63개·신규 PMID 60개였다. 네 검색 세트는 538개 레코드·중복 제거 후 고유 PMID 390개였다. EFetch는 390개를 요청·수집했고 366개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 390건에서 후보 66건·신규 후보 66건·효과 후보 66건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 12건을 기록했고 수동 제외 목록 54건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 24개 질의에서 13개 레코드·고유 PMID 10개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "celiac-1",
-        "subject": "셀리악병 순수 귀리 섭취",
+        "id": "diverticular-1",
+        "subject": "게실질환 고섬유식",
         "category": "food"
       },
       {
-        "id": "celiac-2",
-        "subject": "셀리악병 소아 귀리 식단",
+        "id": "diverticular-2",
+        "subject": "게실질환 식이섬유 보충",
         "category": "food"
       },
       {
-        "id": "celiac-3",
-        "subject": "셀리악병 장기 귀리 섭취",
-        "category": "food"
-      },
-      {
-        "id": "celiac-4",
-        "subject": "셀리악병 비킬드 귀리",
-        "category": "food"
-      },
-      {
-        "id": "celiac-5",
-        "subject": "셀리악병 귀리 항체",
-        "category": "food"
-      },
-      {
-        "id": "celiac-6",
-        "subject": "셀리악병 소아 귀리 장기추적",
-        "category": "food"
-      },
-      {
-        "id": "celiac-7",
-        "subject": "셀리악병 성인 귀리 식단",
-        "category": "food"
-      },
-      {
-        "id": "celiac-8",
-        "subject": "셀리악병 저FODMAP 식단",
-        "category": "food"
-      },
-      {
-        "id": "celiac-9",
-        "subject": "셀리악병 저FODMAP 무글루텐식",
-        "category": "food"
-      },
-      {
-        "id": "celiac-10",
-        "subject": "셀리악병 이눌린·올리고프룩토스 뼈 대사",
+        "id": "diverticular-3",
+        "subject": "게실질환 차전자피",
         "category": "supp"
       },
       {
-        "id": "celiac-11",
-        "subject": "셀리악병 이눌린·올리고프룩토스 철 대사",
+        "id": "diverticular-4",
+        "subject": "게실질환 저잔사식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-5",
+        "subject": "게실질환 저섬유식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-6",
+        "subject": "게실질환 채식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-7",
+        "subject": "게실질환 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-8",
+        "subject": "게실질환 식물성 식단",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-9",
+        "subject": "게실질환 견과류",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-10",
+        "subject": "게실질환 씨앗류",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-11",
+        "subject": "게실질환 붉은고기 줄이기",
+        "category": "food"
+      },
+      {
+        "id": "diverticular-12",
+        "subject": "게실질환 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-12",
-        "subject": "셀리악병 이눌린·올리고프룩토스 아미노산",
+        "id": "diverticular-13",
+        "subject": "게실질환 프리바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-13",
-        "subject": "셀리악병 이눌린·올리고프룩토스 비타민",
+        "id": "diverticular-14",
+        "subject": "게실질환 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "celiac-14",
-        "subject": "셀리악병 아연 보충",
+        "id": "diverticular-15",
+        "subject": "게실질환 비타민D",
         "category": "supp"
       },
       {
-        "id": "celiac-15",
-        "subject": "셀리악병 아연·무글루텐식",
+        "id": "diverticular-16",
+        "subject": "게실질환 칼슘 보충",
         "category": "supp"
       },
       {
-        "id": "celiac-16",
-        "subject": "셀리악병 비타민B군",
-        "category": "supp"
-      },
-      {
-        "id": "celiac-17",
-        "subject": "셀리악병 온라인 추적관리",
+        "id": "diverticular-17",
+        "subject": "게실질환 영양상담",
         "category": "life"
       },
       {
-        "id": "celiac-18",
-        "subject": "셀리악병 온라인 식이순응도 관리",
-        "category": "life"
-      },
-      {
-        "id": "celiac-19",
-        "subject": "셀리악병 적극적 환자교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-20",
-        "subject": "셀리악병 문자 교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-21",
-        "subject": "셀리악병 부모 심리교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-22",
-        "subject": "셀리악병 집단 식이교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-23",
-        "subject": "셀리악병 스마트폰 교육",
-        "category": "life"
-      },
-      {
-        "id": "celiac-24",
-        "subject": "셀리악병 고강도운동·인지행동교육",
+        "id": "diverticular-18",
+        "subject": "게실질환 운동치료",
         "category": "move"
       },
       {
-        "id": "celiac-25",
-        "subject": "셀리악병 소화효소 보충",
-        "category": "supp"
+        "id": "diverticular-19",
+        "subject": "게실질환 신체활동",
+        "category": "move"
       },
       {
-        "id": "celiac-26",
-        "subject": "셀리악병 글루텐분해효소",
-        "category": "supp"
+        "id": "diverticular-20",
+        "subject": "게실질환 걷기",
+        "category": "move"
       },
       {
-        "id": "celiac-27",
-        "subject": "잠재 셀리악병 신바이오틱",
-        "category": "supp"
+        "id": "diverticular-21",
+        "subject": "게실질환 근력운동",
+        "category": "move"
       },
       {
-        "id": "celiac-28",
-        "subject": "셀리악병 밀전분 무글루텐식",
-        "category": "food"
+        "id": "diverticular-22",
+        "subject": "게실질환 요가",
+        "category": "move"
       },
       {
-        "id": "celiac-29",
-        "subject": "무증상 셀리악병 무글루텐식",
-        "category": "food"
+        "id": "diverticular-23",
+        "subject": "게실질환 마음챙김",
+        "category": "life"
       },
       {
-        "id": "celiac-30",
-        "subject": "셀리악병 비타민K",
-        "category": "supp"
+        "id": "diverticular-24",
+        "subject": "게실질환 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-25",
+        "subject": "게실질환 자기관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-26",
+        "subject": "게실질환 환자교육",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-27",
+        "subject": "게실질환 온라인관리",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-28",
+        "subject": "게실질환 전화상담",
+        "category": "life"
+      },
+      {
+        "id": "diverticular-29",
+        "subject": "게실질환 침치료",
+        "category": "care"
+      },
+      {
+        "id": "diverticular-30",
+        "subject": "게실질환 마사지",
+        "category": "care"
       }
     ],
     "screened_topics": [
-      "셀리악병 무글루텐식이",
-      "셀리악병 식이상담",
-      "셀리악병 식이교육",
-      "셀리악병 영양교육",
-      "셀리악병 귀리섭취",
-      "셀리악병 저FODMAP식이",
-      "셀리악병 지중해식이",
-      "셀리악병 식이섬유",
-      "셀리악병 프로바이오틱",
-      "셀리악병 프리바이오틱",
-      "셀리악병 신바이오틱",
-      "셀리악병 비타민D",
-      "셀리악병 철분보충",
-      "셀리악병 칼슘보충",
-      "셀리악병 비타민B군",
-      "셀리악병 아연보충",
-      "셀리악병 종합영양제",
-      "셀리악병 운동치료",
-      "셀리악병 유산소운동",
-      "셀리악병 근력운동",
-      "셀리악병 요가",
-      "셀리악병 마음챙김",
-      "셀리악병 스트레스관리",
-      "셀리악병 수면관리",
-      "셀리악병 자기관리",
-      "셀리악병 환자교육",
-      "셀리악병 온라인관리",
-      "셀리악병 상담전화",
-      "셀리악병 침치료",
-      "셀리악병 마사지"
+      "게실질환 고섬유식",
+      "게실질환 식이섬유 보충",
+      "게실질환 차전자피",
+      "게실질환 저잔사식",
+      "게실질환 저섬유식",
+      "게실질환 채식",
+      "게실질환 지중해식",
+      "게실질환 식물성 식단",
+      "게실질환 견과류",
+      "게실질환 씨앗류",
+      "게실질환 붉은고기 줄이기",
+      "게실질환 프로바이오틱",
+      "게실질환 프리바이오틱",
+      "게실질환 신바이오틱",
+      "게실질환 비타민D",
+      "게실질환 칼슘 보충",
+      "게실질환 영양상담",
+      "게실질환 운동치료",
+      "게실질환 신체활동",
+      "게실질환 걷기",
+      "게실질환 근력운동",
+      "게실질환 요가",
+      "게실질환 마음챙김",
+      "게실질환 스트레스관리",
+      "게실질환 자기관리",
+      "게실질환 환자교육",
+      "게실질환 온라인관리",
+      "게실질환 전화상담",
+      "게실질환 침치료",
+      "게실질환 마사지"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10188,126 +10119,72 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12420",
-      "worklist_line": "new-expansion-candidates-batch12420",
-      "topic": "다음 비처방 후보 주제 선정 batch 12420",
+      "next_batch": "12430",
+      "worklist_line": "new-expansion-candidates-batch12430",
+      "topic": "다음 비처방 후보 주제 선정 batch 12430",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 11,
+    "thin": 3,
     "rejected_candidate_pmids": [
-      "31060839",
-      "40331457",
-      "19756027",
-      "24264227",
-      "14992558",
-      "10673292",
-      "9040213",
-      "32708973",
-      "32160043",
-      "29191561",
-      "25683116",
-      "30938127",
-      "21647654",
-      "26692164",
-      "42147111",
-      "30367395",
-      "18375224",
-      "42438923",
-      "39125299",
-      "41245033",
-      "15825120",
-      "41190444",
-      "28943615",
-      "41831197",
-      "26217073",
-      "22237879",
-      "15526039",
-      "27495179",
-      "21939908",
-      "25172576",
-      "36465913",
-      "33908736",
-      "28178205",
-      "34073654",
-      "31157194",
-      "33321805",
-      "34659657",
-      "31540014",
-      "39384235",
-      "39911584",
-      "31354988",
-      "36963870",
-      "40887812",
-      "39568738",
-      "40699044",
-      "37485388",
-      "37946274",
-      "35029612",
-      "32397695",
-      "31426299",
-      "30959740",
-      "33917379",
-      "14719782",
-      "39190044",
-      "41718303",
-      "29194702",
-      "39206869",
-      "41835692",
-      "11792235",
-      "41769806",
-      "35782929",
-      "32950520",
-      "28140327",
-      "27574884",
-      "30177022",
-      "25564803",
-      "23688532",
-      "37704112",
-      "41903816",
-      "24026574",
-      "38749320",
-      "42389993",
-      "38716937",
-      "22153524",
-      "26605913",
-      "32071731",
-      "19111551",
-      "34362024",
-      "28813127",
-      "21397152",
-      "40111094",
-      "40061327",
-      "34797778",
-      "33053456",
-      "33707543",
-      "36569268",
-      "42667433",
-      "29380821",
-      "25970665",
-      "35016615",
-      "15379838",
-      "39739628",
-      "34613954",
-      "40543158",
-      "27629576",
-      "30934747",
-      "30885882",
-      "23074399",
-      "24964993",
-      "24240659",
-      "29542844",
-      "41094115",
-      "21904592",
-      "38892695",
-      "36687454",
-      "24521630",
-      "20059405",
-      "25968008"
+      "37013200",
+      "33077029",
+      "8540614",
+      "33418133",
+      "29278531",
+      "15855755",
+      "31397679",
+      "30730324",
+      "23669306",
+      "42390126",
+      "18728264",
+      "10215046",
+      "37662007",
+      "29607785",
+      "33745570",
+      "32767345",
+      "39200891",
+      "17390144",
+      "23426454",
+      "23592303",
+      "28555444",
+      "27170283",
+      "16432647",
+      "25829061",
+      "17431721",
+      "9068461",
+      "12738459",
+      "23271440",
+      "25255851",
+      "39727311",
+      "18751760",
+      "11156458",
+      "10924567",
+      "33825498",
+      "10859075",
+      "30660732",
+      "33279517",
+      "19652620",
+      "28608124",
+      "22549495",
+      "37074706",
+      "20361072",
+      "19561530",
+      "21567193",
+      "35262307",
+      "4012531",
+      "20922195",
+      "28808771",
+      "23092785",
+      "29844795",
+      "21037552",
+      "40459895",
+      "40263135",
+      "37962086"
     ],
-    "new_search_pmids": 543
+    "new_search_pmids": 385
   },
   "previous_last_batch_10490": {
     "id": "10490",
