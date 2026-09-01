@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T18:20:23.109Z",
+  "updated": "2026-09-01T18:31:28.764Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 27923,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12370는 섬유근육통 비처방·비약물 후보에서 신규 항목 8건을 기록했다. 다음 재개점은 batch 12380이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12380는 과민성장증후군 비처방·비약물 후보에서 신규 항목 0건을 기록했다. 다음 재개점은 batch 12390이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12370는 섬유근육통에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 8건을 추가했다. 다음 확장은 batch 12380이다."
+    "note": "Batch 12380는 과민성장증후군에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 0건을 추가했다. 다음 확장은 batch 12390이다."
   },
   "checkpoints": {
     "over_counter_share": "15.0% (4190 entries)",
@@ -63,15 +63,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12380",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12380",
-    "topic": "다음 비처방 후보 주제 선정 batch 12380"
+    "batch": "12390",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12390",
+    "topic": "다음 비처방 후보 주제 선정 batch 12390"
   },
   "resume": {
-    "next_batch": "12380",
-    "worklist_line": "new-expansion-candidates-batch12380",
-    "topic": "다음 비처방 후보 주제 선정 batch 12380",
+    "next_batch": "12390",
+    "worklist_line": "new-expansion-candidates-batch12390",
+    "topic": "다음 비처방 후보 주제 선정 batch 12390",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12370",
-    "commit": "76aa8e805293a00ecd2e77a108b057632b4dfcfa",
-    "pushed": true,
+    "id": "12380",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "76aa8e805293a00ecd2e77a108b057632b4dfcfa"
-    ],
-    "checkpoint_commit": "b058dd11e18757c4b67fa1c847488861cd243688",
-    "push_marker_commit": "b364657cd934731cd2f9bacc374692f229c2b578",
-    "known_items_commit": "222b57cd3e7ecaa0489b6e54c6f73ab0ff6eb0a8",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "fm-1",
-        "subject": "섬유근육통 운동치료",
+        "id": "ibs-1",
+        "subject": "과민성장증후군 운동치료",
         "category": "move"
       },
       {
-        "id": "fm-2",
-        "subject": "섬유근육통 유산소운동",
+        "id": "ibs-2",
+        "subject": "과민성장증후군 유산소운동",
         "category": "move"
       },
       {
-        "id": "fm-3",
-        "subject": "섬유근육통 저항운동",
+        "id": "ibs-3",
+        "subject": "과민성장증후군 걷기운동",
         "category": "move"
       },
       {
-        "id": "fm-4",
-        "subject": "섬유근육통 걷기운동",
+        "id": "ibs-4",
+        "subject": "과민성장증후군 요가",
         "category": "move"
       },
       {
-        "id": "fm-5",
-        "subject": "섬유근육통 수중운동",
+        "id": "ibs-5",
+        "subject": "과민성장증후군 태극권",
         "category": "move"
       },
       {
-        "id": "fm-6",
-        "subject": "섬유근육통 요가",
+        "id": "ibs-6",
+        "subject": "과민성장증후군 신체활동",
         "category": "move"
       },
       {
-        "id": "fm-7",
-        "subject": "섬유근육통 태극권",
-        "category": "move"
-      },
-      {
-        "id": "fm-8",
-        "subject": "섬유근육통 기공",
-        "category": "move"
-      },
-      {
-        "id": "fm-9",
-        "subject": "섬유근육통 스트레칭",
-        "category": "move"
-      },
-      {
-        "id": "fm-10",
-        "subject": "섬유근육통 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "fm-11",
-        "subject": "섬유근육통 인지행동치료",
+        "id": "ibs-7",
+        "subject": "과민성장증후군 인지행동치료",
         "category": "life"
       },
       {
-        "id": "fm-12",
-        "subject": "섬유근육통 마음챙김",
+        "id": "ibs-8",
+        "subject": "과민성장증후군 장지향 최면",
         "category": "life"
       },
       {
-        "id": "fm-13",
-        "subject": "섬유근육통 자기관리",
+        "id": "ibs-9",
+        "subject": "과민성장증후군 마음챙김",
         "category": "life"
       },
       {
-        "id": "fm-14",
-        "subject": "섬유근육통 환자교육",
+        "id": "ibs-10",
+        "subject": "과민성장증후군 스트레스관리",
         "category": "life"
       },
       {
-        "id": "fm-15",
-        "subject": "섬유근육통 통증대처",
+        "id": "ibs-11",
+        "subject": "과민성장증후군 이완훈련",
         "category": "life"
       },
       {
-        "id": "fm-16",
-        "subject": "섬유근육통 수면관리",
+        "id": "ibs-12",
+        "subject": "과민성장증후군 자기관리",
         "category": "life"
       },
       {
-        "id": "fm-17",
-        "subject": "섬유근육통 스트레스관리",
+        "id": "ibs-13",
+        "subject": "과민성장증후군 환자교육",
         "category": "life"
       },
       {
-        "id": "fm-18",
-        "subject": "섬유근육통 이완훈련",
+        "id": "ibs-14",
+        "subject": "과민성장증후군 온라인관리",
         "category": "life"
       },
       {
-        "id": "fm-19",
-        "subject": "섬유근육통 온라인심리관리",
+        "id": "ibs-15",
+        "subject": "과민성장증후군 수면관리",
         "category": "life"
       },
       {
-        "id": "fm-20",
-        "subject": "섬유근육통 전화지원",
-        "category": "life"
-      },
-      {
-        "id": "fm-21",
-        "subject": "섬유근육통 지중해식이",
+        "id": "ibs-16",
+        "subject": "과민성장증후군 저포드맵식이",
         "category": "food"
       },
       {
-        "id": "fm-22",
-        "subject": "섬유근육통 식이중재",
+        "id": "ibs-17",
+        "subject": "과민성장증후군 지중해식이",
         "category": "food"
       },
       {
-        "id": "fm-23",
-        "subject": "섬유근육통 체중관리",
-        "category": "life"
+        "id": "ibs-18",
+        "subject": "과민성장증후군 식이상담",
+        "category": "food"
       },
       {
-        "id": "fm-24",
-        "subject": "섬유근육통 비타민D",
+        "id": "ibs-19",
+        "subject": "과민성장증후군 식이섬유",
+        "category": "food"
+      },
+      {
+        "id": "ibs-20",
+        "subject": "과민성장증후군 글루텐제한",
+        "category": "food"
+      },
+      {
+        "id": "ibs-21",
+        "subject": "과민성장증후군 페퍼민트오일",
         "category": "supp"
       },
       {
-        "id": "fm-25",
-        "subject": "섬유근육통 코엔자임Q10",
+        "id": "ibs-22",
+        "subject": "과민성장증후군 차전자피",
         "category": "supp"
       },
       {
-        "id": "fm-26",
-        "subject": "섬유근육통 마그네슘",
+        "id": "ibs-23",
+        "subject": "과민성장증후군 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "fm-27",
-        "subject": "섬유근육통 오메가3",
+        "id": "ibs-24",
+        "subject": "과민성장증후군 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "fm-28",
-        "subject": "섬유근육통 커큐민",
+        "id": "ibs-25",
+        "subject": "과민성장증후군 커큐민",
         "category": "supp"
       },
       {
-        "id": "fm-29",
-        "subject": "섬유근육통 침치료",
+        "id": "ibs-26",
+        "subject": "과민성장증후군 글루타민",
+        "category": "supp"
+      },
+      {
+        "id": "ibs-27",
+        "subject": "과민성장증후군 침치료",
         "category": "care"
       },
       {
-        "id": "fm-30",
-        "subject": "섬유근육통 경피전기신경자극",
+        "id": "ibs-28",
+        "subject": "과민성장증후군 복부마사지",
+        "category": "care"
+      },
+      {
+        "id": "ibs-29",
+        "subject": "과민성장증후군 온열치료",
+        "category": "care"
+      },
+      {
+        "id": "ibs-30",
+        "subject": "과민성장증후군 골반저물리치료",
         "category": "care"
       }
     ],
-    "new_entries": 8,
-    "existing_links": 112,
-    "no_evidence_rejects": 1587,
-    "new_candidate_rejects": 16,
-    "manual_screened_additions": 8,
+    "new_entries": 0,
+    "existing_links": 90,
+    "no_evidence_rejects": 1722,
+    "new_candidate_rejects": 27,
+    "manual_screened_additions": 0,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 8,
-    "existing_reference_links": 112,
-    "duplicate_search_pmids_removed": 1369,
+    "new_references": 0,
+    "existing_reference_links": 90,
+    "duplicate_search_pmids_removed": 1360,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 3092,
-    "main_search_records": 399,
-    "main_search_unique_pmids": 274,
+    "search_returned_records": 3199,
+    "main_search_records": 481,
+    "main_search_unique_pmids": 374,
     "refinement_query_count": 30,
-    "refinement_search_records": 105,
-    "refinement_unique_pmids": 88,
+    "refinement_search_records": 111,
+    "refinement_unique_pmids": 97,
     "extra_query_count": 30,
-    "extra_search_records": 1148,
-    "extra_unique_pmids": 1001,
-    "extra_new_unique_pmids": 878,
+    "extra_search_records": 1279,
+    "extra_unique_pmids": 1011,
+    "extra_new_unique_pmids": 921,
     "extra2_query_count": 30,
-    "extra2_search_records": 834,
-    "extra2_unique_pmids": 563,
-    "extra2_new_unique_pmids": 433,
+    "extra2_search_records": 920,
+    "extra2_unique_pmids": 666,
+    "extra2_new_unique_pmids": 479,
     "extra3_query_count": 30,
-    "extra3_search_records": 711,
-    "extra3_unique_pmids": 545,
-    "extra3_new_unique_pmids": 455,
+    "extra3_search_records": 519,
+    "extra3_unique_pmids": 442,
+    "extra3_new_unique_pmids": 354,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 16,
-    "followup_search_records": 9,
-    "followup_search_unique_pmids": 8,
-    "combined_search_unique_pmids": 1723,
-    "combined_all_unique_pmids": 1723,
-    "requested": 1723,
-    "fetched": 1723,
-    "fetch_chunks": 18,
-    "abstracts": 1681,
-    "abstracts_all_sources": 1681,
+    "followup_query_count": 0,
+    "followup_search_records": 0,
+    "followup_search_unique_pmids": 0,
+    "combined_search_unique_pmids": 1839,
+    "combined_all_unique_pmids": 1839,
+    "requested": 1839,
+    "fetched": 1839,
+    "fetch_chunks": 19,
+    "abstracts": 1738,
+    "abstracts_all_sources": 1738,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,282 +9823,235 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 16,
-    "followup_fetched": 8,
+    "followup_requested": 0,
+    "followup_fetched": 0,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 1723,
-    "candidate_parser_candidates": 136,
-    "candidate_parser_candidates_after_write": 136,
-    "union_candidate_like": 136,
-    "union_new_candidate_like": 24,
-    "effect_candidate_rows": 24,
-    "manual_candidate_count": 8,
+    "candidate_parser_parsed": 1839,
+    "candidate_parser_candidates": 117,
+    "candidate_parser_candidates_after_write": 117,
+    "union_candidate_like": 117,
+    "union_new_candidate_like": 27,
+    "effect_candidate_rows": 27,
+    "manual_candidate_count": 0,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
-    "selected_pmids": [
-      "37245691",
-      "26180320",
-      "32891275",
-      "42013931",
-      "41141588",
-      "19078022",
-      "27443526",
-      "35893415"
-    ],
+    "selected_pmids": [],
     "selected_ncts": [],
-    "new_pmids": [
-      "37245691",
-      "26180320",
-      "32891275",
-      "42013931",
-      "41141588",
-      "19078022",
-      "27443526",
-      "35893415"
-    ],
+    "new_pmids": [],
     "new_ncts": [],
-    "new_entry_ids": [
-      "fibromyalgia-land-water-exercise-37245691-pos",
-      "fibromyalgia-exercise-types-26180320-pos",
-      "fibromyalgia-preferred-exercise-32891275-pos",
-      "fibromyalgia-land-water-fitness-42013931-pos",
-      "fibromyalgia-qigong-41141588-pos",
-      "fibromyalgia-massage-tens-19078022-pos",
-      "fibromyalgia-olive-oil-27443526-pos",
-      "fibromyalgia-cryostimulation-35893415-pos"
-    ],
+    "new_entry_ids": [],
     "existing_linked_entry_ids": [],
-    "categories": {
-      "move": 5,
-      "care": 2,
-      "food": 1
-    },
-    "tiers": {
-      "trial": 8
-    },
-    "dirs": {
-      "pos": 8
-    },
+    "categories": {},
+    "tiers": {},
+    "dirs": {},
     "unknown_n": 0,
-    "thin_studies": 5,
+    "thin_studies": 0,
     "validator_errors": 0,
-    "validator_warnings": 5,
+    "validator_warnings": 0,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 5,
+    "initial_validator_warnings": 0,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9815,
+    "initial_build_warning_lines": 9810,
     "build_warning_lines": 9810,
-    "new_build_warnings": [
-      "fibromyalgia-preferred-exercise-32891275-pos",
-      "fibromyalgia-qigong-41141588-pos",
-      "fibromyalgia-massage-tens-19078022-pos",
-      "fibromyalgia-olive-oil-27443526-pos",
-      "fibromyalgia-cryostimulation-35893415-pos"
-    ],
+    "new_build_warnings": [],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [
-      "fibromyalgia-preferred-exercise-32891275-pos",
-      "fibromyalgia-qigong-41141588-pos",
-      "fibromyalgia-massage-tens-19078022-pos",
-      "fibromyalgia-olive-oil-27443526-pos",
-      "fibromyalgia-cryostimulation-35893415-pos"
-    ],
+    "new_thin_study_warnings": [],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 5,
+    "targeted_batch_warnings_fixed": 0,
     "targeted_warnings_total": 942,
     "validator_category_errors_fixed": 0,
     "open_numeric_comparisons": 26983,
     "build_exit": 0,
     "build": "27923 entries; 31083 refs; trial 27072; obs 754; animal 32; lab 18; case 47; numeric 26983; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 섬유근육통 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 399개 레코드·고유 PMID 274개였고, 첫 보강은 1148개 레코드·고유 PMID 1001개·신규 PMID 878개, 두 번째 보강은 834개 레코드·고유 PMID 563개·신규 PMID 433개, 세 번째 보강은 711개 레코드·고유 PMID 545개·신규 PMID 455개였다. 네 검색 세트는 3092개 레코드·중복 제거 후 고유 PMID 1723개였다. EFetch는 1723개를 요청·수집했고 1681개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1723건에서 후보 136건·신규 후보 24건·효과 후보 24건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 8건을 기록했고 수동 제외 목록 16건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 16개 질의에서 9개 레코드·고유 PMID 8개를 확인했다.",
+    "research": "PubMed 기본 검색은 과민성장증후군 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 481개 레코드·고유 PMID 374개였고, 첫 보강은 1279개 레코드·고유 PMID 1011개·신규 PMID 921개, 두 번째 보강은 920개 레코드·고유 PMID 666개·신규 PMID 479개, 세 번째 보강은 519개 레코드·고유 PMID 442개·신규 PMID 354개였다. 네 검색 세트는 3199개 레코드·중복 제거 후 고유 PMID 1839개였다. EFetch는 1839개를 요청·수집했고 1738개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1839건에서 후보 117건·신규 후보 27건·효과 후보 27건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 0건을 기록했고 수동 제외 목록 27건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "fm-1",
-        "subject": "섬유근육통 운동치료",
+        "id": "ibs-1",
+        "subject": "과민성장증후군 운동치료",
         "category": "move"
       },
       {
-        "id": "fm-2",
-        "subject": "섬유근육통 유산소운동",
+        "id": "ibs-2",
+        "subject": "과민성장증후군 유산소운동",
         "category": "move"
       },
       {
-        "id": "fm-3",
-        "subject": "섬유근육통 저항운동",
+        "id": "ibs-3",
+        "subject": "과민성장증후군 걷기운동",
         "category": "move"
       },
       {
-        "id": "fm-4",
-        "subject": "섬유근육통 걷기운동",
+        "id": "ibs-4",
+        "subject": "과민성장증후군 요가",
         "category": "move"
       },
       {
-        "id": "fm-5",
-        "subject": "섬유근육통 수중운동",
+        "id": "ibs-5",
+        "subject": "과민성장증후군 태극권",
         "category": "move"
       },
       {
-        "id": "fm-6",
-        "subject": "섬유근육통 요가",
+        "id": "ibs-6",
+        "subject": "과민성장증후군 신체활동",
         "category": "move"
       },
       {
-        "id": "fm-7",
-        "subject": "섬유근육통 태극권",
-        "category": "move"
-      },
-      {
-        "id": "fm-8",
-        "subject": "섬유근육통 기공",
-        "category": "move"
-      },
-      {
-        "id": "fm-9",
-        "subject": "섬유근육통 스트레칭",
-        "category": "move"
-      },
-      {
-        "id": "fm-10",
-        "subject": "섬유근육통 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "fm-11",
-        "subject": "섬유근육통 인지행동치료",
+        "id": "ibs-7",
+        "subject": "과민성장증후군 인지행동치료",
         "category": "life"
       },
       {
-        "id": "fm-12",
-        "subject": "섬유근육통 마음챙김",
+        "id": "ibs-8",
+        "subject": "과민성장증후군 장지향 최면",
         "category": "life"
       },
       {
-        "id": "fm-13",
-        "subject": "섬유근육통 자기관리",
+        "id": "ibs-9",
+        "subject": "과민성장증후군 마음챙김",
         "category": "life"
       },
       {
-        "id": "fm-14",
-        "subject": "섬유근육통 환자교육",
+        "id": "ibs-10",
+        "subject": "과민성장증후군 스트레스관리",
         "category": "life"
       },
       {
-        "id": "fm-15",
-        "subject": "섬유근육통 통증대처",
+        "id": "ibs-11",
+        "subject": "과민성장증후군 이완훈련",
         "category": "life"
       },
       {
-        "id": "fm-16",
-        "subject": "섬유근육통 수면관리",
+        "id": "ibs-12",
+        "subject": "과민성장증후군 자기관리",
         "category": "life"
       },
       {
-        "id": "fm-17",
-        "subject": "섬유근육통 스트레스관리",
+        "id": "ibs-13",
+        "subject": "과민성장증후군 환자교육",
         "category": "life"
       },
       {
-        "id": "fm-18",
-        "subject": "섬유근육통 이완훈련",
+        "id": "ibs-14",
+        "subject": "과민성장증후군 온라인관리",
         "category": "life"
       },
       {
-        "id": "fm-19",
-        "subject": "섬유근육통 온라인심리관리",
+        "id": "ibs-15",
+        "subject": "과민성장증후군 수면관리",
         "category": "life"
       },
       {
-        "id": "fm-20",
-        "subject": "섬유근육통 전화지원",
-        "category": "life"
-      },
-      {
-        "id": "fm-21",
-        "subject": "섬유근육통 지중해식이",
+        "id": "ibs-16",
+        "subject": "과민성장증후군 저포드맵식이",
         "category": "food"
       },
       {
-        "id": "fm-22",
-        "subject": "섬유근육통 식이중재",
+        "id": "ibs-17",
+        "subject": "과민성장증후군 지중해식이",
         "category": "food"
       },
       {
-        "id": "fm-23",
-        "subject": "섬유근육통 체중관리",
-        "category": "life"
+        "id": "ibs-18",
+        "subject": "과민성장증후군 식이상담",
+        "category": "food"
       },
       {
-        "id": "fm-24",
-        "subject": "섬유근육통 비타민D",
+        "id": "ibs-19",
+        "subject": "과민성장증후군 식이섬유",
+        "category": "food"
+      },
+      {
+        "id": "ibs-20",
+        "subject": "과민성장증후군 글루텐제한",
+        "category": "food"
+      },
+      {
+        "id": "ibs-21",
+        "subject": "과민성장증후군 페퍼민트오일",
         "category": "supp"
       },
       {
-        "id": "fm-25",
-        "subject": "섬유근육통 코엔자임Q10",
+        "id": "ibs-22",
+        "subject": "과민성장증후군 차전자피",
         "category": "supp"
       },
       {
-        "id": "fm-26",
-        "subject": "섬유근육통 마그네슘",
+        "id": "ibs-23",
+        "subject": "과민성장증후군 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "fm-27",
-        "subject": "섬유근육통 오메가3",
+        "id": "ibs-24",
+        "subject": "과민성장증후군 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "fm-28",
-        "subject": "섬유근육통 커큐민",
+        "id": "ibs-25",
+        "subject": "과민성장증후군 커큐민",
         "category": "supp"
       },
       {
-        "id": "fm-29",
-        "subject": "섬유근육통 침치료",
+        "id": "ibs-26",
+        "subject": "과민성장증후군 글루타민",
+        "category": "supp"
+      },
+      {
+        "id": "ibs-27",
+        "subject": "과민성장증후군 침치료",
         "category": "care"
       },
       {
-        "id": "fm-30",
-        "subject": "섬유근육통 경피전기신경자극",
+        "id": "ibs-28",
+        "subject": "과민성장증후군 복부마사지",
+        "category": "care"
+      },
+      {
+        "id": "ibs-29",
+        "subject": "과민성장증후군 온열치료",
+        "category": "care"
+      },
+      {
+        "id": "ibs-30",
+        "subject": "과민성장증후군 골반저물리치료",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "섬유근육통 운동치료",
-      "섬유근육통 유산소운동",
-      "섬유근육통 저항운동",
-      "섬유근육통 걷기운동",
-      "섬유근육통 수중운동",
-      "섬유근육통 요가",
-      "섬유근육통 태극권",
-      "섬유근육통 기공",
-      "섬유근육통 스트레칭",
-      "섬유근육통 신체활동",
-      "섬유근육통 인지행동치료",
-      "섬유근육통 마음챙김",
-      "섬유근육통 자기관리",
-      "섬유근육통 환자교육",
-      "섬유근육통 통증대처",
-      "섬유근육통 수면관리",
-      "섬유근육통 스트레스관리",
-      "섬유근육통 이완훈련",
-      "섬유근육통 온라인심리관리",
-      "섬유근육통 전화지원",
-      "섬유근육통 지중해식이",
-      "섬유근육통 식이중재",
-      "섬유근육통 체중관리",
-      "섬유근육통 비타민D",
-      "섬유근육통 코엔자임Q10",
-      "섬유근육통 마그네슘",
-      "섬유근육통 오메가3",
-      "섬유근육통 커큐민",
-      "섬유근육통 침치료",
-      "섬유근육통 경피전기신경자극"
+      "과민성장증후군 운동치료",
+      "과민성장증후군 유산소운동",
+      "과민성장증후군 걷기운동",
+      "과민성장증후군 요가",
+      "과민성장증후군 태극권",
+      "과민성장증후군 신체활동",
+      "과민성장증후군 인지행동치료",
+      "과민성장증후군 장지향 최면",
+      "과민성장증후군 마음챙김",
+      "과민성장증후군 스트레스관리",
+      "과민성장증후군 이완훈련",
+      "과민성장증후군 자기관리",
+      "과민성장증후군 환자교육",
+      "과민성장증후군 온라인관리",
+      "과민성장증후군 수면관리",
+      "과민성장증후군 저포드맵식이",
+      "과민성장증후군 지중해식이",
+      "과민성장증후군 식이상담",
+      "과민성장증후군 식이섬유",
+      "과민성장증후군 글루텐제한",
+      "과민성장증후군 페퍼민트오일",
+      "과민성장증후군 차전자피",
+      "과민성장증후군 프로바이오틱",
+      "과민성장증후군 신바이오틱",
+      "과민성장증후군 커큐민",
+      "과민성장증후군 글루타민",
+      "과민성장증후군 침치료",
+      "과민성장증후군 복부마사지",
+      "과민성장증후군 온열치료",
+      "과민성장증후군 골반저물리치료"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10108,34 +10059,45 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12380",
-      "worklist_line": "new-expansion-candidates-batch12380",
-      "topic": "다음 비처방 후보 주제 선정 batch 12380",
+      "next_batch": "12390",
+      "worklist_line": "new-expansion-candidates-batch12390",
+      "topic": "다음 비처방 후보 주제 선정 batch 12390",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 5,
+    "thin": 0,
     "rejected_candidate_pmids": [
-      "12455823",
-      "27844124",
-      "22336292",
-      "26921267",
-      "28930252",
-      "8533042",
-      "10646411",
-      "19277851",
-      "22278161",
-      "23070672",
+      "24245807",
+      "22877888",
+      "23670660",
+      "19236549",
+      "38887623",
+      "21651595",
+      "18521115",
+      "15862939",
+      "31947991",
       "25602179",
-      "9192257",
-      "32551725",
-      "37265538",
-      "16401454",
-      "8826510"
+      "28987135",
+      "33139629",
+      "22963061",
+      "37126812",
+      "15128360",
+      "25834868",
+      "35633978",
+      "21481259",
+      "29614378",
+      "30806634",
+      "34789582",
+      "35558999",
+      "41054847",
+      "7699662",
+      "6151243",
+      "17950444",
+      "30207740"
     ],
-    "new_search_pmids": 1449
+    "new_search_pmids": 1465
   },
   "previous_last_batch_10490": {
     "id": "10490",
