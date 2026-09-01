@@ -28598,3 +28598,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,665개; 주제 19,973개; 근거 링크 30,825개; 숫자 군간 비교 26,725개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 9268d19d7; data commit: 5a70c3cc4; push marker commit: 09abfd5c8; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12140; resume point new-expansion-candidates-batch12140; 다음은 다음 비처방 후보 주제 선정 batch 12140이다.
+- 배치 12140: 만성 골반통 비처방 관리 worklist 30개 주제를 처리해 신규 항목 3건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 81개 레코드·고유 PMID 53개, 첫 보강 30개 질의에서 64개 레코드·고유 PMID 54개·신규 PMID 24개를 확인했고, 두 번째·세 번째 보강은 실행하지 않았다. 두 검색 세트는 145개 레코드·중복 제거 후 고유 PMID 77개였다.
+- 배치 12140 fetch·선별: 고유 PMID 77개를 PubMed EFetch로 요청·수집해 1개 chunk·초록 77개를 확보했다. 누락 PMID는 0개였고 선택 항목 재조회도 0건이었다. 후보 parser는 77건에서 후보 10건·신규 후보 2건·효과 후보 2건을 확인했다. 신규 적합 항목 3건을 기록했고, 기존 연결 8건과 수동 제외 20건 및 직접 수치 부족·비적합 67건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 19535099, 42275942, 41915619; 신규 항목 `chronic-pelvic-pain-myofascial-physical-therapy-19535099-pos`, `chronic-pelvic-pain-cret-42275942-pos`, `postpartum-pelvic-pain-vr-rehabilitation-41915619-null` 3건. 근막 물리치료, 저항·용량성 전기전달치료, 산후 가상현실 골반저 재활 추가의 직접 군간 응답률·통증·기능 수치를 기록했다. ClinicalTrials.gov 별도 검색은 하지 않았다.
+- 수동 제외 PMID: 16566972, 23234638, 18538692, 11890430, 27380504, 31004340, 32165550, 36483239, 37093572, 17012454, 32609653, 31981833, 32897461, 15879822, 39873778, 35339694, 17084960, 39539076, 31254522, 38431530. 약물 병용·중복 보고·진단·시험계획·수술 후·주사·2차 분석·다른 질환·군간 수치 부족 연구를 제외했다.
+- 범주별 신규: care 3건; trial 3건; pos 2건; null 1건.
+- 배치 12140 검증·빌드: 초기·최종 validator 오류 0건·경고 2건이었다. 초기 build exit 0·오류 0건·경고 9715건에서 `vs` 비교 표현 warning 1건을 수정해 최종 build exit 0·오류 0건·경고 9714건이 됐다. 새 targeted warning은 1건, 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 2건(n=48, 44)이다. 실제 소규모 연구 경고를 유지했고 기존 경고를 숨기거나 조작하지 않았다. 누적 build 경고는 사람 수 미상 1341건·소규모 연구 8024건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,668개; 주제 19,976개; 근거 링크 30,828개; 숫자 군간 비교 26,728개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: a15960c66; data commit: 3cd8520f7; push marker commit: c0ff66706; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12150; resume point new-expansion-candidates-batch12150; 다음은 다음 비처방 후보 주제 선정 batch 12150이다.
