@@ -28176,3 +28176,13 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,433개; 주제 19,750개; 근거 링크 30,593개; 숫자 군간 비교 26,493개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,933개.
 - checkpoint state commit: 40bea0b5c; data commit: 15930f8df; push marker commit: 12a23bcf5; 데이터와 PUSHED=true 상태를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11750; resume point new-expansion-candidates-batch11750; 다음은 다음 비처방 후보 주제 선정 batch 11750이다.
+- 배치 11750: 편두통 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 6건을 기록했다. 기본·재검색 60개 주제에서 376개 레코드·고유 PMID 243개, 첫 보강 30개 질의에서 1,070개 레코드·고유 PMID 923개·신규 PMID 795개, 두 번째 보강 30개 질의에서 1,388개 레코드·고유 PMID 1,113개·신규 PMID 741개, 세 번째 보강 30개 질의에서 368개 레코드·고유 PMID 329개·신규 PMID 191개, 네 번째 보강 30개 질의에서 1,042개 레코드·고유 PMID 912개·신규 PMID 409개를 확인했다. 다섯 검색 세트는 4,244개 레코드·중복 제거 후 고유 PMID 2,379개였다.
+- fetch·초록: 고유 PMID 2,379개를 PubMed EFetch로 요청해 2,326개 기록·24개 chunk·원저 초록 2,259개를 확보했다. 누락 PMID 53개는 재조회에서 PubmedBookArticle 23건과 PubmedArticle 30건으로 확인했고, PubmedArticle 원저 초록 29건을 추가 확인했다. 검색 누락 자료를 원저 근거로 임의 사용하지 않았다.
+- 후보·제외: parser 2,326건·후보 71건·신규 후보 28건·효과 후보 28건·기존 연결 후보 43건을 확인했다. 직접 군간 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 질환 불일치·처방약 혼합·프로토콜·고찰·관찰·진단·수치 부족인 2,255건을 제외했고, 신규 후보 수동 제외 22건도 같은 기준으로 제외했다. 온라인 행동훈련·수용전념치료 교육·청소년 이완훈련·경두개직류자극·신경되먹임·경두개자기자극에서 초록에 확인된 숫자·비율·유효한 상대효과만 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 27558500, 22728646, 2654069, 27208831, 32477475, 21075171.
+- 신규 ID: migraine-online-behavioral-training-27558500-pos, migraine-act-education-22728646-pos, adolescent-recurrent-headache-relaxation-2654069-pos, migraine-tdcs-27208831-null, migraine-neurofeedback-tdcs-sleep-32477475-null, migraine-rtms-alpha-synchronization-21075171-null.
+- 범주별 신규: life 2건·care 4건; trial 6건; pos 3건·null 3건. 무효·안전성 보강은 6개 질의·5개 레코드·고유 PMID 5개였다.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 4, 최종 오류 0·경고 4; 초기·최종 build exit 0·오류 0·경고 9,625건·9,619건이었다. 새 targeted warning 6건(vs 비교 표현 1건·effect 길이 5건)을 수정했고 최종 targeted warning은 0건이다. 실제 unknown-n 신규 0건, n<50 신규 4건(migraine-act-education-22728646-pos, migraine-tdcs-27208831-null, migraine-neurofeedback-tdcs-sleep-32477475-null, migraine-rtms-alpha-synchronization-21075171-null)이며 소규모 연구 경고를 숨기지 않았다.
+- 누적 집계: 항목 27,439개; 주제 19,755개; 근거 링크 30,599개; 숫자 군간 비교 26,499개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,937개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 0eb9fdd29; data commit: 6d17cd932; push marker commit: 2e7221cf2; 데이터·PUSHED=true 상태를 origin/main에 push했다.
+- 정확한 다음 재개점: next_batch 11760; resume point new-expansion-candidates-batch11760; 다음은 다음 비처방 후보 주제 선정 batch 11760이다.
