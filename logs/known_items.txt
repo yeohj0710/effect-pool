@@ -28444,3 +28444,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,627개; 주제 19,938개; 근거 링크 30,787개; 숫자 군간 비교 26,687개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 87ab42679; data commit: 없음; push marker commit: 452ea9caa; 데이터 변경 없이 PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12000; resume point new-expansion-candidates-batch12000; 다음은 다음 비처방 후보 주제 선정 batch 12000이다.
+- 배치 12000: 코골이·단순 코골이 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 4건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 217개 레코드·고유 PMID 122개, 첫 보강 30개 질의에서 85개 레코드·고유 PMID 61개·신규 PMID 13개, 두 번째·세 번째 보강은 0개 질의·0개 레코드였다. 네 검색 세트는 302개 레코드·중복 제거 후 고유 PMID 135개였다.
+- 배치 12000 fetch·선별: 고유 PMID 135개를 PubMed EFetch로 요청·수집해 2개 chunk·원저 초록 135개를 확보했다. 누락 PMID는 0개였고 선택 항목이 있어 재조회도 0건이었다. 후보 parser는 135건에서 후보 8건·신규 후보 7건·효과 후보 7건을 확인했다. 직접 숫자·비율·P값·효과크기가 있는 신규 항목 4건을 선택하고, 수동 제외 16건과 직접 수치 부족 또는 비적합 127건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 7528939(snoring-positional-7528939-null), 15785917(snoring-oral-appliance-15785917-pos), 31811542(snoring-myofunctional-support-31811542-pos), 36441246(snoring-palatal-device-36441246-pos). ClinicalTrials.gov 식별자는 신규 refs에 없었다. 기존 후보 연결은 1건이다.
+- 수동 제외 PMID: 39964526, 11398550, 11897643, 29161199, 27196421, 15929960, 14694248, 8016794, 23643652, 8686675, 19565403, 18956206, 8539677, 17700043, 22228439, 26931522. 2차 분석·처방약·CPAP 단독·수술·동물·진단·기전 연구·군간 수치 부족 연구를 제외했다.
+- 범주별 신규: life 1건, care 3건; trial 4건; pos 3건, null 1건.
+- 배치 12000 검증·빌드: 초기 validator 오류 4건·경고 3건, 최종 validator 오류 0건·경고 3건이었다. 초기 build exit 1·오류 4건·경고 9700건, 최종 build exit 0·오류 0건·경고 9694건이었다. 새 targeted warning 10건(effect 4건·줄 길이 2건·범주 4건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 3건이다. n=20 수면 자세 변경, n=24 전진형 구강기기, n=31 근기능치료 지원 연구의 소규모 경고를 유지했다. 표본 수를 임의로 채우거나 경고를 숨기지 않았다. 누적 build 경고는 사람 수 미상 1339건·소규모 연구 8006건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,631개; 주제 19,942개; 근거 링크 30,791개; 숫자 군간 비교 26,691개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: b54be2fa4; data commit: f38c5809f; push marker commit: 8e20fa759; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12010; resume point new-expansion-candidates-batch12010; 다음은 다음 비처방 후보 주제 선정 batch 12010이다.
