@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T18:32:56.133Z",
+  "updated": "2026-09-01T18:51:04.805Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27923,
-  "subjects": 20221,
-  "refs": 31083,
+  "entries": 27929,
+  "subjects": 20227,
+  "refs": 31089,
   "kinds": {
     "undefined": 10367,
-    "food": 908,
+    "food": 909,
     "care": 8039,
-    "supp": 2673,
+    "supp": 2675,
     "move": 3390,
     "otc": 609,
-    "life": 1913,
+    "life": 1916,
     "rx": 24
   },
   "tiers": {
-    "trial": 27072,
+    "trial": 27078,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19488,
-    "null": 6464,
+    "pos": 19493,
+    "null": 6465,
     "harm": 318,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12380는 과민성장증후군 비처방·비약물 후보에서 신규 항목 0건을 기록했다. 다음 재개점은 batch 12390이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12390는 궤양성대장염 비처방·비약물 후보에서 신규 항목 6건을 기록했다. 다음 재개점은 batch 12400이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12380는 과민성장증후군에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 0건을 추가했다. 다음 확장은 batch 12390이다."
+    "note": "Batch 12390는 궤양성대장염에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 6건을 추가했다. 다음 확장은 batch 12400이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.0% (4190 entries)",
+    "over_counter_share": "15.0% (4193 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6782)",
-    "vs_share": "96.6% (26983)",
+    "no_effect_or_harm_share": "24.3% (6783)",
+    "vs_share": "96.6% (26989)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27072)",
+    "trial_share": "97.0% (27078)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1346,
-      "thin_study": 8115,
-      "targeted_batch_warnings": 942
+      "thin_study": 8116,
+      "targeted_batch_warnings": 945
     },
-    "targeted_batch_warnings": 942
+    "targeted_batch_warnings": 945
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12390",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12390",
-    "topic": "다음 비처방 후보 주제 선정 batch 12390"
+    "batch": "12400",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12400",
+    "topic": "다음 비처방 후보 주제 선정 batch 12400"
   },
   "resume": {
-    "next_batch": "12390",
-    "worklist_line": "new-expansion-candidates-batch12390",
-    "topic": "다음 비처방 후보 주제 선정 batch 12390",
+    "next_batch": "12400",
+    "worklist_line": "new-expansion-candidates-batch12400",
+    "topic": "다음 비처방 후보 주제 선정 batch 12400",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,213 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12380",
+    "id": "12390",
     "commit": null,
-    "pushed": true,
+    "pushed": false,
     "expansion_commit": null,
     "data_commits": [],
-    "checkpoint_commit": "5fc389e26",
-    "push_marker_commit": "580d79522",
-    "known_items_commit": "76b273c35",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "ibs-1",
-        "subject": "과민성장증후군 운동치료",
+        "id": "uc-1",
+        "subject": "궤양성대장염 운동치료",
         "category": "move"
       },
       {
-        "id": "ibs-2",
-        "subject": "과민성장증후군 유산소운동",
+        "id": "uc-2",
+        "subject": "궤양성대장염 유산소운동",
         "category": "move"
       },
       {
-        "id": "ibs-3",
-        "subject": "과민성장증후군 걷기운동",
+        "id": "uc-3",
+        "subject": "궤양성대장염 근력운동",
         "category": "move"
       },
       {
-        "id": "ibs-4",
-        "subject": "과민성장증후군 요가",
+        "id": "uc-4",
+        "subject": "궤양성대장염 요가",
         "category": "move"
       },
       {
-        "id": "ibs-5",
-        "subject": "과민성장증후군 태극권",
+        "id": "uc-5",
+        "subject": "궤양성대장염 신체활동",
         "category": "move"
       },
       {
-        "id": "ibs-6",
-        "subject": "과민성장증후군 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "ibs-7",
-        "subject": "과민성장증후군 인지행동치료",
+        "id": "uc-6",
+        "subject": "궤양성대장염 인지행동치료",
         "category": "life"
       },
       {
-        "id": "ibs-8",
-        "subject": "과민성장증후군 장지향 최면",
+        "id": "uc-7",
+        "subject": "궤양성대장염 마음챙김",
         "category": "life"
       },
       {
-        "id": "ibs-9",
-        "subject": "과민성장증후군 마음챙김",
+        "id": "uc-8",
+        "subject": "궤양성대장염 스트레스관리",
         "category": "life"
       },
       {
-        "id": "ibs-10",
-        "subject": "과민성장증후군 스트레스관리",
+        "id": "uc-9",
+        "subject": "궤양성대장염 이완훈련",
         "category": "life"
       },
       {
-        "id": "ibs-11",
-        "subject": "과민성장증후군 이완훈련",
+        "id": "uc-10",
+        "subject": "궤양성대장염 수면관리",
         "category": "life"
       },
       {
-        "id": "ibs-12",
-        "subject": "과민성장증후군 자기관리",
+        "id": "uc-11",
+        "subject": "궤양성대장염 자기관리",
         "category": "life"
       },
       {
-        "id": "ibs-13",
-        "subject": "과민성장증후군 환자교육",
+        "id": "uc-12",
+        "subject": "궤양성대장염 환자교육",
         "category": "life"
       },
       {
-        "id": "ibs-14",
-        "subject": "과민성장증후군 온라인관리",
+        "id": "uc-13",
+        "subject": "궤양성대장염 온라인관리",
         "category": "life"
       },
       {
-        "id": "ibs-15",
-        "subject": "과민성장증후군 수면관리",
-        "category": "life"
-      },
-      {
-        "id": "ibs-16",
-        "subject": "과민성장증후군 저포드맵식이",
+        "id": "uc-14",
+        "subject": "궤양성대장염 식이상담",
         "category": "food"
       },
       {
-        "id": "ibs-17",
-        "subject": "과민성장증후군 지중해식이",
+        "id": "uc-15",
+        "subject": "궤양성대장염 지중해식이",
         "category": "food"
       },
       {
-        "id": "ibs-18",
-        "subject": "과민성장증후군 식이상담",
+        "id": "uc-16",
+        "subject": "궤양성대장염 저잔사식이",
         "category": "food"
       },
       {
-        "id": "ibs-19",
-        "subject": "과민성장증후군 식이섬유",
+        "id": "uc-17",
+        "subject": "궤양성대장염 배제식이",
         "category": "food"
       },
       {
-        "id": "ibs-20",
-        "subject": "과민성장증후군 글루텐제한",
+        "id": "uc-18",
+        "subject": "궤양성대장염 식이섬유",
         "category": "food"
       },
       {
-        "id": "ibs-21",
-        "subject": "과민성장증후군 페퍼민트오일",
+        "id": "uc-19",
+        "subject": "궤양성대장염 경장영양",
+        "category": "food"
+      },
+      {
+        "id": "uc-20",
+        "subject": "궤양성대장염 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-22",
-        "subject": "과민성장증후군 차전자피",
+        "id": "uc-21",
+        "subject": "궤양성대장염 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-23",
-        "subject": "과민성장증후군 프로바이오틱",
+        "id": "uc-22",
+        "subject": "궤양성대장염 프리바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-24",
-        "subject": "과민성장증후군 신바이오틱",
+        "id": "uc-23",
+        "subject": "궤양성대장염 커큐민",
         "category": "supp"
       },
       {
-        "id": "ibs-25",
-        "subject": "과민성장증후군 커큐민",
+        "id": "uc-24",
+        "subject": "궤양성대장염 오메가3",
         "category": "supp"
       },
       {
-        "id": "ibs-26",
-        "subject": "과민성장증후군 글루타민",
+        "id": "uc-25",
+        "subject": "궤양성대장염 차전자피",
         "category": "supp"
       },
       {
-        "id": "ibs-27",
-        "subject": "과민성장증후군 침치료",
+        "id": "uc-26",
+        "subject": "궤양성대장염 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "uc-27",
+        "subject": "궤양성대장염 알로에베라",
+        "category": "supp"
+      },
+      {
+        "id": "uc-28",
+        "subject": "궤양성대장염 침치료",
         "category": "care"
       },
       {
-        "id": "ibs-28",
-        "subject": "과민성장증후군 복부마사지",
+        "id": "uc-29",
+        "subject": "궤양성대장염 골반저물리치료",
         "category": "care"
       },
       {
-        "id": "ibs-29",
-        "subject": "과민성장증후군 온열치료",
-        "category": "care"
-      },
-      {
-        "id": "ibs-30",
-        "subject": "과민성장증후군 골반저물리치료",
+        "id": "uc-30",
+        "subject": "궤양성대장염 대변미생물이식",
         "category": "care"
       }
     ],
-    "new_entries": 0,
-    "existing_links": 90,
-    "no_evidence_rejects": 1722,
-    "new_candidate_rejects": 27,
-    "manual_screened_additions": 0,
+    "new_entries": 6,
+    "existing_links": 24,
+    "no_evidence_rejects": 1494,
+    "new_candidate_rejects": 116,
+    "manual_screened_additions": 6,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 0,
-    "existing_reference_links": 90,
-    "duplicate_search_pmids_removed": 1360,
+    "new_references": 6,
+    "existing_reference_links": 24,
+    "duplicate_search_pmids_removed": 780,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 3199,
-    "main_search_records": 481,
-    "main_search_unique_pmids": 374,
+    "search_returned_records": 2420,
+    "main_search_records": 182,
+    "main_search_unique_pmids": 142,
     "refinement_query_count": 30,
-    "refinement_search_records": 111,
-    "refinement_unique_pmids": 97,
+    "refinement_search_records": 39,
+    "refinement_unique_pmids": 32,
     "extra_query_count": 30,
-    "extra_search_records": 1279,
-    "extra_unique_pmids": 1011,
-    "extra_new_unique_pmids": 921,
+    "extra_search_records": 1120,
+    "extra_unique_pmids": 1016,
+    "extra_new_unique_pmids": 969,
     "extra2_query_count": 30,
-    "extra2_search_records": 920,
-    "extra2_unique_pmids": 666,
-    "extra2_new_unique_pmids": 479,
+    "extra2_search_records": 582,
+    "extra2_unique_pmids": 420,
+    "extra2_new_unique_pmids": 359,
     "extra3_query_count": 30,
-    "extra3_search_records": 519,
-    "extra3_unique_pmids": 442,
-    "extra3_new_unique_pmids": 354,
+    "extra3_search_records": 536,
+    "extra3_unique_pmids": 445,
+    "extra3_new_unique_pmids": 408,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 0,
-    "followup_search_records": 0,
-    "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 1839,
-    "combined_all_unique_pmids": 1839,
-    "requested": 1839,
-    "fetched": 1839,
-    "fetch_chunks": 19,
-    "abstracts": 1738,
-    "abstracts_all_sources": 1738,
+    "followup_query_count": 12,
+    "followup_search_records": 6,
+    "followup_search_unique_pmids": 6,
+    "combined_search_unique_pmids": 1640,
+    "combined_all_unique_pmids": 1640,
+    "requested": 1640,
+    "fetched": 1640,
+    "fetch_chunks": 17,
+    "abstracts": 1596,
+    "abstracts_all_sources": 1596,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9823,235 +9823,269 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 0,
-    "followup_fetched": 0,
+    "followup_requested": 12,
+    "followup_fetched": 6,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 1839,
-    "candidate_parser_candidates": 117,
-    "candidate_parser_candidates_after_write": 117,
-    "union_candidate_like": 117,
-    "union_new_candidate_like": 27,
-    "effect_candidate_rows": 27,
-    "manual_candidate_count": 0,
+    "candidate_parser_parsed": 1640,
+    "candidate_parser_candidates": 146,
+    "candidate_parser_candidates_after_write": 146,
+    "union_candidate_like": 146,
+    "union_new_candidate_like": 122,
+    "effect_candidate_rows": 122,
+    "manual_candidate_count": 6,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
-    "selected_pmids": [],
+    "selected_pmids": [
+      "2125646",
+      "34069621",
+      "42453321",
+      "42010310",
+      "42470576",
+      "40575360"
+    ],
     "selected_ncts": [],
-    "new_pmids": [],
+    "new_pmids": [
+      "2125646",
+      "34069621",
+      "42453321",
+      "42010310",
+      "42470576",
+      "40575360"
+    ],
     "new_ncts": [],
-    "new_entry_ids": [],
+    "new_entry_ids": [
+      "ibd-enteral-nutrition-2125646-pos",
+      "ibd-group-psychological-34069621-pos",
+      "ibd-information-prescription-42453321-pos",
+      "ibd-bvitamin-magnesium-42010310-pos",
+      "ibd-nurse-self-management-42470576-pos",
+      "ibd-ibs-probiotic-40575360-null"
+    ],
     "existing_linked_entry_ids": [],
-    "categories": {},
-    "tiers": {},
-    "dirs": {},
+    "categories": {
+      "food": 1,
+      "life": 3,
+      "supp": 2
+    },
+    "tiers": {
+      "trial": 6
+    },
+    "dirs": {
+      "pos": 5,
+      "null": 1
+    },
     "unknown_n": 0,
-    "thin_studies": 0,
+    "thin_studies": 1,
     "validator_errors": 0,
-    "validator_warnings": 0,
+    "validator_warnings": 1,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 0,
+    "initial_validator_warnings": 1,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9810,
-    "build_warning_lines": 9810,
-    "new_build_warnings": [],
+    "initial_build_warning_lines": 9814,
+    "build_warning_lines": 9811,
+    "new_build_warnings": [
+      "ibd-enteral-nutrition-2125646-pos"
+    ],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [],
+    "new_thin_study_warnings": [
+      "ibd-enteral-nutrition-2125646-pos"
+    ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "targeted_warnings_total": 942,
+    "targeted_batch_warnings_fixed": 3,
+    "targeted_warnings_total": 945,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26983,
+    "open_numeric_comparisons": 26989,
     "build_exit": 0,
-    "build": "27923 entries; 31083 refs; trial 27072; obs 754; animal 32; lab 18; case 47; numeric 26983; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 과민성장증후군 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 481개 레코드·고유 PMID 374개였고, 첫 보강은 1279개 레코드·고유 PMID 1011개·신규 PMID 921개, 두 번째 보강은 920개 레코드·고유 PMID 666개·신규 PMID 479개, 세 번째 보강은 519개 레코드·고유 PMID 442개·신규 PMID 354개였다. 네 검색 세트는 3199개 레코드·중복 제거 후 고유 PMID 1839개였다. EFetch는 1839개를 요청·수집했고 1738개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1839건에서 후보 117건·신규 후보 27건·효과 후보 27건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 0건을 기록했고 수동 제외 목록 27건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "27929 entries; 31089 refs; trial 27078; obs 754; animal 32; lab 18; case 47; numeric 26989; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 궤양성대장염 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 182개 레코드·고유 PMID 142개였고, 첫 보강은 1120개 레코드·고유 PMID 1016개·신규 PMID 969개, 두 번째 보강은 582개 레코드·고유 PMID 420개·신규 PMID 359개, 세 번째 보강은 536개 레코드·고유 PMID 445개·신규 PMID 408개였다. 네 검색 세트는 2420개 레코드·중복 제거 후 고유 PMID 1640개였다. EFetch는 1640개를 요청·수집했고 1596개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1640건에서 후보 146건·신규 후보 122건·효과 후보 122건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 6건을 기록했고 수동 제외 목록 116건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 12개 질의에서 6개 레코드·고유 PMID 6개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "ibs-1",
-        "subject": "과민성장증후군 운동치료",
+        "id": "uc-1",
+        "subject": "궤양성대장염 운동치료",
         "category": "move"
       },
       {
-        "id": "ibs-2",
-        "subject": "과민성장증후군 유산소운동",
+        "id": "uc-2",
+        "subject": "궤양성대장염 유산소운동",
         "category": "move"
       },
       {
-        "id": "ibs-3",
-        "subject": "과민성장증후군 걷기운동",
+        "id": "uc-3",
+        "subject": "궤양성대장염 근력운동",
         "category": "move"
       },
       {
-        "id": "ibs-4",
-        "subject": "과민성장증후군 요가",
+        "id": "uc-4",
+        "subject": "궤양성대장염 요가",
         "category": "move"
       },
       {
-        "id": "ibs-5",
-        "subject": "과민성장증후군 태극권",
+        "id": "uc-5",
+        "subject": "궤양성대장염 신체활동",
         "category": "move"
       },
       {
-        "id": "ibs-6",
-        "subject": "과민성장증후군 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "ibs-7",
-        "subject": "과민성장증후군 인지행동치료",
+        "id": "uc-6",
+        "subject": "궤양성대장염 인지행동치료",
         "category": "life"
       },
       {
-        "id": "ibs-8",
-        "subject": "과민성장증후군 장지향 최면",
+        "id": "uc-7",
+        "subject": "궤양성대장염 마음챙김",
         "category": "life"
       },
       {
-        "id": "ibs-9",
-        "subject": "과민성장증후군 마음챙김",
+        "id": "uc-8",
+        "subject": "궤양성대장염 스트레스관리",
         "category": "life"
       },
       {
-        "id": "ibs-10",
-        "subject": "과민성장증후군 스트레스관리",
+        "id": "uc-9",
+        "subject": "궤양성대장염 이완훈련",
         "category": "life"
       },
       {
-        "id": "ibs-11",
-        "subject": "과민성장증후군 이완훈련",
+        "id": "uc-10",
+        "subject": "궤양성대장염 수면관리",
         "category": "life"
       },
       {
-        "id": "ibs-12",
-        "subject": "과민성장증후군 자기관리",
+        "id": "uc-11",
+        "subject": "궤양성대장염 자기관리",
         "category": "life"
       },
       {
-        "id": "ibs-13",
-        "subject": "과민성장증후군 환자교육",
+        "id": "uc-12",
+        "subject": "궤양성대장염 환자교육",
         "category": "life"
       },
       {
-        "id": "ibs-14",
-        "subject": "과민성장증후군 온라인관리",
+        "id": "uc-13",
+        "subject": "궤양성대장염 온라인관리",
         "category": "life"
       },
       {
-        "id": "ibs-15",
-        "subject": "과민성장증후군 수면관리",
-        "category": "life"
-      },
-      {
-        "id": "ibs-16",
-        "subject": "과민성장증후군 저포드맵식이",
+        "id": "uc-14",
+        "subject": "궤양성대장염 식이상담",
         "category": "food"
       },
       {
-        "id": "ibs-17",
-        "subject": "과민성장증후군 지중해식이",
+        "id": "uc-15",
+        "subject": "궤양성대장염 지중해식이",
         "category": "food"
       },
       {
-        "id": "ibs-18",
-        "subject": "과민성장증후군 식이상담",
+        "id": "uc-16",
+        "subject": "궤양성대장염 저잔사식이",
         "category": "food"
       },
       {
-        "id": "ibs-19",
-        "subject": "과민성장증후군 식이섬유",
+        "id": "uc-17",
+        "subject": "궤양성대장염 배제식이",
         "category": "food"
       },
       {
-        "id": "ibs-20",
-        "subject": "과민성장증후군 글루텐제한",
+        "id": "uc-18",
+        "subject": "궤양성대장염 식이섬유",
         "category": "food"
       },
       {
-        "id": "ibs-21",
-        "subject": "과민성장증후군 페퍼민트오일",
+        "id": "uc-19",
+        "subject": "궤양성대장염 경장영양",
+        "category": "food"
+      },
+      {
+        "id": "uc-20",
+        "subject": "궤양성대장염 프로바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-22",
-        "subject": "과민성장증후군 차전자피",
+        "id": "uc-21",
+        "subject": "궤양성대장염 신바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-23",
-        "subject": "과민성장증후군 프로바이오틱",
+        "id": "uc-22",
+        "subject": "궤양성대장염 프리바이오틱",
         "category": "supp"
       },
       {
-        "id": "ibs-24",
-        "subject": "과민성장증후군 신바이오틱",
+        "id": "uc-23",
+        "subject": "궤양성대장염 커큐민",
         "category": "supp"
       },
       {
-        "id": "ibs-25",
-        "subject": "과민성장증후군 커큐민",
+        "id": "uc-24",
+        "subject": "궤양성대장염 오메가3",
         "category": "supp"
       },
       {
-        "id": "ibs-26",
-        "subject": "과민성장증후군 글루타민",
+        "id": "uc-25",
+        "subject": "궤양성대장염 차전자피",
         "category": "supp"
       },
       {
-        "id": "ibs-27",
-        "subject": "과민성장증후군 침치료",
+        "id": "uc-26",
+        "subject": "궤양성대장염 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "uc-27",
+        "subject": "궤양성대장염 알로에베라",
+        "category": "supp"
+      },
+      {
+        "id": "uc-28",
+        "subject": "궤양성대장염 침치료",
         "category": "care"
       },
       {
-        "id": "ibs-28",
-        "subject": "과민성장증후군 복부마사지",
+        "id": "uc-29",
+        "subject": "궤양성대장염 골반저물리치료",
         "category": "care"
       },
       {
-        "id": "ibs-29",
-        "subject": "과민성장증후군 온열치료",
-        "category": "care"
-      },
-      {
-        "id": "ibs-30",
-        "subject": "과민성장증후군 골반저물리치료",
+        "id": "uc-30",
+        "subject": "궤양성대장염 대변미생물이식",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "과민성장증후군 운동치료",
-      "과민성장증후군 유산소운동",
-      "과민성장증후군 걷기운동",
-      "과민성장증후군 요가",
-      "과민성장증후군 태극권",
-      "과민성장증후군 신체활동",
-      "과민성장증후군 인지행동치료",
-      "과민성장증후군 장지향 최면",
-      "과민성장증후군 마음챙김",
-      "과민성장증후군 스트레스관리",
-      "과민성장증후군 이완훈련",
-      "과민성장증후군 자기관리",
-      "과민성장증후군 환자교육",
-      "과민성장증후군 온라인관리",
-      "과민성장증후군 수면관리",
-      "과민성장증후군 저포드맵식이",
-      "과민성장증후군 지중해식이",
-      "과민성장증후군 식이상담",
-      "과민성장증후군 식이섬유",
-      "과민성장증후군 글루텐제한",
-      "과민성장증후군 페퍼민트오일",
-      "과민성장증후군 차전자피",
-      "과민성장증후군 프로바이오틱",
-      "과민성장증후군 신바이오틱",
-      "과민성장증후군 커큐민",
-      "과민성장증후군 글루타민",
-      "과민성장증후군 침치료",
-      "과민성장증후군 복부마사지",
-      "과민성장증후군 온열치료",
-      "과민성장증후군 골반저물리치료"
+      "궤양성대장염 운동치료",
+      "궤양성대장염 유산소운동",
+      "궤양성대장염 근력운동",
+      "궤양성대장염 요가",
+      "궤양성대장염 신체활동",
+      "궤양성대장염 인지행동치료",
+      "궤양성대장염 마음챙김",
+      "궤양성대장염 스트레스관리",
+      "궤양성대장염 이완훈련",
+      "궤양성대장염 수면관리",
+      "궤양성대장염 자기관리",
+      "궤양성대장염 환자교육",
+      "궤양성대장염 온라인관리",
+      "궤양성대장염 식이상담",
+      "궤양성대장염 지중해식이",
+      "궤양성대장염 저잔사식이",
+      "궤양성대장염 배제식이",
+      "궤양성대장염 식이섬유",
+      "궤양성대장염 경장영양",
+      "궤양성대장염 프로바이오틱",
+      "궤양성대장염 신바이오틱",
+      "궤양성대장염 프리바이오틱",
+      "궤양성대장염 커큐민",
+      "궤양성대장염 오메가3",
+      "궤양성대장염 차전자피",
+      "궤양성대장염 비타민D",
+      "궤양성대장염 알로에베라",
+      "궤양성대장염 침치료",
+      "궤양성대장염 골반저물리치료",
+      "궤양성대장염 대변미생물이식"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10059,45 +10093,134 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12390",
-      "worklist_line": "new-expansion-candidates-batch12390",
-      "topic": "다음 비처방 후보 주제 선정 batch 12390",
+      "next_batch": "12400",
+      "worklist_line": "new-expansion-candidates-batch12400",
+      "topic": "다음 비처방 후보 주제 선정 batch 12400",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 0,
+    "thin": 1,
     "rejected_candidate_pmids": [
-      "24245807",
-      "22877888",
-      "23670660",
-      "19236549",
-      "38887623",
-      "21651595",
-      "18521115",
-      "15862939",
-      "31947991",
-      "25602179",
-      "28987135",
-      "33139629",
-      "22963061",
-      "37126812",
-      "15128360",
-      "25834868",
-      "35633978",
-      "21481259",
-      "29614378",
-      "30806634",
-      "34789582",
-      "35558999",
-      "41054847",
-      "7699662",
-      "6151243",
-      "17950444",
-      "30207740"
+      "17206696",
+      "24445038",
+      "15905709",
+      "34844288",
+      "18052663",
+      "29102418",
+      "41371121",
+      "40507145",
+      "37247693",
+      "40362901",
+      "35762695",
+      "30561397",
+      "32142939",
+      "42193374",
+      "38970369",
+      "41901085",
+      "37611322",
+      "31329006",
+      "21825089",
+      "12373007",
+      "25597840",
+      "12244339",
+      "29085188",
+      "30632114",
+      "38599841",
+      "16015109",
+      "41009629",
+      "31885842",
+      "32678465",
+      "33098703",
+      "21115585",
+      "36556089",
+      "19352175",
+      "12480795",
+      "39357585",
+      "1908631",
+      "32297974",
+      "30844556",
+      "33159156",
+      "35889840",
+      "12723376",
+      "25830661",
+      "27696378",
+      "25204669",
+      "26046136",
+      "36017738",
+      "29529167",
+      "25531355",
+      "10029372",
+      "30535303",
+      "21660673",
+      "21122517",
+      "10967507",
+      "20133244",
+      "37094824",
+      "31599752",
+      "33917379",
+      "35099279",
+      "18457475",
+      "36322404",
+      "38779219",
+      "41471365",
+      "39993055",
+      "38585636",
+      "41129423",
+      "37284561",
+      "18537632",
+      "31832627",
+      "9042096",
+      "41641266",
+      "16861091",
+      "7967919",
+      "30736095",
+      "42137877",
+      "11072675",
+      "9040557",
+      "39869428",
+      "32657791",
+      "29915396",
+      "23092236",
+      "39200891",
+      "24382173",
+      "14697913",
+      "17263590",
+      "25391345",
+      "26538058",
+      "25593899",
+      "17242485",
+      "18384087",
+      "42653115",
+      "31384513",
+      "30480772",
+      "24889540",
+      "41808990",
+      "16901386",
+      "36777301",
+      "40396611",
+      "23958601",
+      "37266414",
+      "25469047",
+      "12656136",
+      "37849000",
+      "25914456",
+      "38318501",
+      "39652700",
+      "38929596",
+      "40943878",
+      "20485259",
+      "30787446",
+      "30078058",
+      "36032720",
+      "39250584",
+      "23995428",
+      "29722812",
+      "30065563",
+      "31052496"
     ],
-    "new_search_pmids": 1465
+    "new_search_pmids": 1498
   },
   "previous_last_batch_10490": {
     "id": "10490",
