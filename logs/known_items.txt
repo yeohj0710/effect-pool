@@ -28139,6 +28139,18 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,393개; 주제 19,710개; 근거 링크 30,553개; 숫자 군간 비교 26,453개; 사람 수 미상 build 경고 1,331개; 소규모 연구 build 경고 7,908개.
 - checkpoint state commit: 9be27b13c; data commit: 없음(신규 항목 0건); push marker commit: 03be22366; 현재 PUSHED=true 상태를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11730; resume point new-expansion-candidates-batch11730; 다음은 다음 비처방 후보 주제 선정 batch 11730이다.
+- 배치 11730: 레이노 현상 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 10건을 기록했다. 선정 항목은 10건이며 PubMed 기본·재검색 60개 주제와 보강검색 30개·30개·21개 질의에서 총 371개 레코드·중복 제거 후 고유 PMID 234개를 확인했다. 기본·재검색은 26개 레코드·고유 PMID 13개, 첫 보강은 89개 레코드·고유 PMID 60개·신규 PMID 52개, 두 번째 보강은 136개 레코드·고유 PMID 127개·신규 PMID 116개, 광범위 보강은 120개 레코드·고유 PMID 100개·신규 PMID 53개였다.
+- fetch·초록: 고유 PMID 234개를 PubMed EFetch로 요청해 233개 기록·3개 chunk·일반 초록 212개를 확보했다. 누락 PMID 33048480은 재조회에서 PubmedBookArticle로 확인했고 원저 자료로 사용하지 않았다. 재조회 초록은 1건이었다.
+- 후보·제외: parser 233건·후보 35건·신규 후보 35건·효과 후보 35건·기존 연결 후보 0건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 약물·질환 불일치·동물·고찰·관찰·초록 없음·수치 부족 연구인 198건을 제외했고, 신규 후보 수동 제외 28건도 같은 기준으로 제외했다. 온도 바이오피드백·침술·저출력 레이저·어유·은행잎 추출물·온열에서 직접 군간 수치·비율·P값 또는 유효한 상대효과가 확인된 신규 항목 10건을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 10789602, 9077368, 16279219, 15570642, 12099151, 2536517, 12710841, 22030896, 19159999, 7137735.
+- 신규 ID: raynaud-thermal-biofeedback-10789602-null, raynaud-acupuncture-primary-9077368-pos, raynaud-acupuncture-secondary-16279219-null, raynaud-low-laser-15570642-pos, raynaud-low-laser-12099151-null, raynaud-fish-oil-2536517-pos, raynaud-ginkgo-12710841-pos, raynaud-ginkgo-22030896-null, raynaud-ginkgo-nifedipine-19159999-null, raynaud-warm-vasodilation-7137735-pos.
+- 범주별 신규: care 6건·supp 4건; trial 10건; pos 5건·null 5건.
+- 전용 검증·빌드: 초기 validator 오류 0·경고 8, 최종 오류 0·경고 8; 초기 build exit 0·오류 0·경고 9,605건, 최종 build exit 0·오류 0·경고 9,596건이었다. 새 targeted warning 9건(effect 7건·줄 길이 1건·군간 비교 표현 1건)을 수정했고 최종 신규 targeted warning은 0건이다. 새 build warning은 unknown-n 2건과 n<50 6건이며 실제 경고를 숨기거나 조작하지 않았다.
+- 실제 경고: unknown-n 신규 2건(raynaud-acupuncture-secondary-16279219-null, raynaud-ginkgo-12710841-pos), n<50 신규 6건(raynaud-acupuncture-primary-9077368-pos, raynaud-low-laser-15570642-pos, raynaud-low-laser-12099151-null, raynaud-fish-oil-2536517-pos, raynaud-ginkgo-22030896-null, raynaud-warm-vasodilation-7137735-pos)이다. 표본 수를 모르는 연구는 n=null로 유지했고 소규모 연구 경고를 숨기지 않았다.
+- 부정·안전성 보강: 10개 질의·10개 레코드·고유 PMID 10개.
+- 누적 집계: 항목 27,403개; 주제 19,720개; 근거 링크 30,563개; 숫자 군간 비교 26,463개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,914개. 데이터 집계의 전체 unknown-n 1,295개·thin-study 7,466개도 유지했다.
+- checkpoint state commit: 1bae0eca9; data commit: bcf90bae8; push marker commit: daf0f33f6; 데이터와 PUSHED=true 상태를 origin/main에 올렸다.
+- 정확한 다음 재개점: next_batch 11740; resume point new-expansion-candidates-batch11740; 다음은 다음 비처방 후보 주제 선정 batch 11740이다.
 - 배치 11710: 손목터널증후군 비처방·비약물 후보 30개 주제를 처리해 신규 항목 17건을 기록했다. 기본·재검색 60개 주제에서 397개 레코드·고유 PMID 226개, 첫 보강 30개 질의에서 393개 레코드·고유 PMID 254개·신규 PMID 80개, 두 번째 보강 30개 질의에서 187개 레코드·고유 PMID 127개·신규 PMID 14개, 광범위 보강 21개 질의에서 889개 레코드·고유 PMID 381개·신규 PMID 128개를 확인했다. 네 검색 세트는 1,866개 레코드·중복 제거 후 고유 PMID 448개였다.
 - fetch·초록: 고유 PMID 448개를 PubMed EFetch로 요청해 448개 기록·5개 chunk·일반 초록 443개를 확보했고 누락은 0건이었다.
 - 후보·제외: parser 448건·후보 33건·신규 후보 8건·효과 후보 8건·기존 연결 후보 25건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 처방약·주사·수술 자체, 고찰·논평, 관찰·후향, 예측·질환 불일치·건강인·프로토콜·초록 없음·수치 부족 연구인 415건을 제외했고, 수동 제외 목록 101건도 같은 기준으로 제외했다. 섬유해리·도수치료·온열·냉각·전기자극·거울치료·저항운동·부목·마사지·침술·보충제·레이저·자기장·초음파 유도 전기자극·수욕법에서 중재군·대조군의 직접 숫자·비율·P값·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 17건을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
