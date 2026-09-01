@@ -1,31 +1,31 @@
 {
-  "updated": "2026-09-01T14:28:17.724Z",
+  "updated": "2026-09-01T14:47:49.393Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27732,
-  "subjects": 20037,
-  "refs": 30892,
+  "entries": 27758,
+  "subjects": 20060,
+  "refs": 30918,
   "kinds": {
     "undefined": 10367,
-    "food": 886,
-    "care": 8009,
-    "supp": 2644,
-    "move": 3324,
+    "food": 894,
+    "care": 8010,
+    "supp": 2645,
+    "move": 3329,
     "otc": 609,
-    "life": 1869,
+    "life": 1880,
     "rx": 24
   },
   "tiers": {
-    "trial": 26881,
+    "trial": 26907,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19346,
-    "null": 6418,
-    "harm": 315,
+    "pos": 19369,
+    "null": 6419,
+    "harm": 317,
     "open": 1653
   },
   "worklist": {
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12270는 다낭성난소증후군 비처방 관리 비처방·비약물 후보에서 신규 항목 0건을 기록했다. 다음 재개점은 batch 12280이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12280는 고혈압 비처방 관리 비처방·비약물 후보에서 신규 항목 26건을 기록했다. 다음 재개점은 batch 12290이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12270는 다낭성난소증후군 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 0건을 추가했다. 다음 확장은 batch 12280이다."
+    "note": "Batch 12280는 고혈압 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 26건을 추가했다. 다음 확장은 batch 12290이다."
   },
   "checkpoints": {
-    "over_counter_share": "14.9% (4139 entries)",
+    "over_counter_share": "14.9% (4148 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6733)",
-    "vs_share": "96.6% (26792)",
+    "no_effect_or_harm_share": "24.3% (6736)",
+    "vs_share": "96.6% (26818)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "96.9% (26881)",
+    "trial_share": "96.9% (26907)",
     "non_trial_share": "3.1% (851)",
     "build_warnings": {
-      "unknown_n": 1342,
-      "thin_study": 8056,
+      "unknown_n": 0,
+      "thin_study": 0,
       "targeted_batch_warnings": 853
     },
     "targeted_batch_warnings": 853
@@ -63,15 +63,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12280",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12280",
-    "topic": "다음 비처방 후보 주제 선정 batch 12280"
+    "batch": "12290",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12290",
+    "topic": "다음 비처방 후보 주제 선정 batch 12290"
   },
   "resume": {
-    "next_batch": "12280",
-    "worklist_line": "new-expansion-candidates-batch12280",
-    "topic": "다음 비처방 후보 주제 선정 batch 12280",
+    "next_batch": "12290",
+    "worklist_line": "new-expansion-candidates-batch12290",
+    "topic": "다음 비처방 후보 주제 선정 batch 12290",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,76 +9606,196 @@
     }
   },
   "last_batch": {
-    "id": "12270",
+    "id": "12280",
     "commit": null,
-    "pushed": true,
+    "pushed": false,
     "expansion_commit": null,
     "data_commits": [],
-    "checkpoint_commit": "4113183afd44349ea46b7486450e57b8d42ab41c",
-    "push_marker_commit": "82cb82416e69e1be5fad40b89473f0acb80698e7",
-    "known_items_commit": "23658e3bfb8204d39f79f8cac1b48d4a5bd7df1b",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
-      "다낭성난소증후군 걷기운동",
-      "다낭성난소증후군 유산소운동",
-      "다낭성난소증후군 저항운동",
-      "다낭성난소증후군 근력운동",
-      "다낭성난소증후군 요가",
-      "다낭성난소증후군 필라테스",
-      "다낭성난소증후군 고강도운동",
-      "다낭성난소증후군 가정운동",
-      "다낭성난소증후군 체중감량",
-      "다낭성난소증후군 생활습관중재",
-      "다낭성난소증후군 자기관리",
-      "다낭성난소증후군 마음챙김",
-      "다낭성난소증후군 스트레스관리",
-      "다낭성난소증후군 수면관리",
-      "다낭성난소증후군 인지행동치료",
-      "다낭성난소증후군 식이교육",
-      "다낭성난소증후군 저혈당식이",
-      "다낭성난소증후군 지중해식",
-      "다낭성난소증후군 케톤식이",
-      "다낭성난소증후군 단백질식이",
-      "다낭성난소증후군 이노시톨",
-      "다낭성난소증후군 비타민D",
-      "다낭성난소증후군 오메가3",
-      "다낭성난소증후군 프로바이오틱스",
-      "다낭성난소증후군 크롬",
-      "다낭성난소증후군 코엔자임Q10",
-      "다낭성난소증후군 침치료",
-      "다낭성난소증후군 마사지",
-      "다낭성난소증후군 교육",
-      "다낭성난소증후군 원격관리"
+      {
+        "id": "hypertension-1",
+        "subject": "고혈압 걷기운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-2",
+        "subject": "고혈압 유산소운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-3",
+        "subject": "고혈압 저항운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-4",
+        "subject": "고혈압 근력운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-5",
+        "subject": "고혈압 요가",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-6",
+        "subject": "고혈압 태극권",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-7",
+        "subject": "고혈압 등척성운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-8",
+        "subject": "고혈압 호흡운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-9",
+        "subject": "고혈압 마음챙김",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-10",
+        "subject": "고혈압 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-11",
+        "subject": "고혈압 수면관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-12",
+        "subject": "고혈압 체중감량",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-13",
+        "subject": "고혈압 자기관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-14",
+        "subject": "고혈압 환자교육",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-15",
+        "subject": "고혈압 가정혈압관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-16",
+        "subject": "고혈압 원격관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-17",
+        "subject": "고혈압 DASH식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-18",
+        "subject": "고혈압 저염식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-19",
+        "subject": "고혈압 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-20",
+        "subject": "고혈압 채식",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-21",
+        "subject": "고혈압 칼륨식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-22",
+        "subject": "고혈압 비트주스",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-23",
+        "subject": "고혈압 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-24",
+        "subject": "고혈압 마그네슘",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-25",
+        "subject": "고혈압 코엔자임Q10",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-26",
+        "subject": "고혈압 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-27",
+        "subject": "고혈압 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-28",
+        "subject": "고혈압 마늘",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-29",
+        "subject": "고혈압 히비스커스",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-30",
+        "subject": "고혈압 침치료",
+        "category": "care"
+      }
     ],
-    "new_entries": 0,
-    "existing_links": 16,
-    "no_evidence_rejects": 394,
-    "new_candidate_rejects": 3,
-    "manual_screened_additions": 0,
+    "new_entries": 26,
+    "existing_links": 43,
+    "no_evidence_rejects": 1599,
+    "new_candidate_rejects": 59,
+    "manual_screened_additions": 26,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 0,
-    "existing_reference_links": 16,
-    "duplicate_search_pmids_removed": 325,
+    "new_references": 26,
+    "existing_reference_links": 43,
+    "duplicate_search_pmids_removed": 760,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 738,
-    "main_search_records": 454,
-    "main_search_unique_pmids": 289,
+    "search_returned_records": 2487,
+    "main_search_records": 2124,
+    "main_search_unique_pmids": 1586,
     "refinement_query_count": 30,
-    "refinement_search_records": 295,
-    "refinement_unique_pmids": 212,
+    "refinement_search_records": 1231,
+    "refinement_unique_pmids": 982,
     "extra_query_count": 30,
-    "extra_search_records": 57,
-    "extra_unique_pmids": 56,
-    "extra_new_unique_pmids": 8,
-    "extra2_query_count": 30,
-    "extra2_search_records": 227,
-    "extra2_unique_pmids": 169,
-    "extra2_new_unique_pmids": 116,
+    "extra_search_records": 363,
+    "extra_unique_pmids": 352,
+    "extra_new_unique_pmids": 141,
+    "extra2_query_count": 0,
+    "extra2_search_records": 0,
+    "extra2_unique_pmids": 0,
+    "extra2_new_unique_pmids": 0,
     "extra3_query_count": 0,
     "extra3_search_records": 0,
     "extra3_unique_pmids": 0,
@@ -9686,13 +9806,13 @@
     "followup_query_count": 0,
     "followup_search_records": 0,
     "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 413,
-    "combined_all_unique_pmids": 413,
-    "requested": 413,
-    "fetched": 413,
-    "fetch_chunks": 5,
-    "abstracts": 413,
-    "abstracts_all_sources": 413,
+    "combined_search_unique_pmids": 1727,
+    "combined_all_unique_pmids": 1727,
+    "requested": 1727,
+    "fetched": 1727,
+    "fetch_chunks": 18,
+    "abstracts": 1709,
+    "abstracts_all_sources": 1709,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9709,109 +9829,338 @@
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 413,
-    "candidate_parser_candidates": 19,
-    "candidate_parser_candidates_after_write": 19,
-    "union_candidate_like": 19,
-    "union_new_candidate_like": 3,
-    "effect_candidate_rows": 3,
-    "manual_candidate_count": 0,
+    "candidate_parser_parsed": 1727,
+    "candidate_parser_candidates": 128,
+    "candidate_parser_candidates_after_write": 128,
+    "union_candidate_like": 128,
+    "union_new_candidate_like": 85,
+    "effect_candidate_rows": 85,
+    "manual_candidate_count": 26,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
-    "selected_pmids": [],
+    "selected_pmids": [
+      "33470732",
+      "24172292",
+      "18728054",
+      "30425326",
+      "8490471",
+      "24174392",
+      "31652688",
+      "23550251",
+      "3475429",
+      "10804778",
+      "30914176",
+      "2856757",
+      "34265491",
+      "28049937",
+      "31473065",
+      "25125635",
+      "25267008",
+      "20597833",
+      "39711367",
+      "31239010",
+      "31153659",
+      "11677359",
+      "27938853",
+      "36364960",
+      "20657311",
+      "19574102"
+    ],
     "selected_ncts": [],
-    "new_pmids": [],
+    "new_pmids": [
+      "33470732",
+      "24172292",
+      "18728054",
+      "30425326",
+      "8490471",
+      "24174392",
+      "31652688",
+      "23550251",
+      "3475429",
+      "10804778",
+      "30914176",
+      "2856757",
+      "34265491",
+      "28049937",
+      "31473065",
+      "25125635",
+      "25267008",
+      "20597833",
+      "39711367",
+      "31239010",
+      "31153659",
+      "11677359",
+      "27938853",
+      "36364960",
+      "20657311",
+      "19574102"
+    ],
     "new_ncts": [],
-    "new_entry_ids": [],
+    "new_entry_ids": [
+      "hyper-exercise-33470732-pos",
+      "hyper-exercise-24172292-pos",
+      "hyper-exercise-18728054-pos",
+      "hyper-mindfulness-30425326-pos",
+      "hyper-stress-8490471-null",
+      "hyper-weight-24174392-pos",
+      "hyper-self-management-31652688-pos",
+      "hyper-home-bp-23550251-pos",
+      "hyper-diet-salt-potassium-3475429-pos",
+      "hyper-diet-salt-10804778-pos",
+      "hyper-mobile-app-30914176-harm",
+      "hyper-diet-vegetarian-2856757-pos",
+      "hyper-vitamin-d-34265491-pos",
+      "hyper-water-exercise-28049937-pos",
+      "hyper-lifestyle-31473065-pos",
+      "hyper-cpap-25125635-pos",
+      "hyper-telemonitor-25267008-pos",
+      "hyper-mobile-telemonitor-20597833-pos",
+      "hyper-dash-digital-39711367-pos",
+      "hyper-dash-tailored-31239010-pos",
+      "hyper-lifestyle-lipids-31153659-pos",
+      "hyper-dash-genotype-11677359-pos",
+      "hyper-diet-sodium-27938853-harm",
+      "hyper-diet-salt-community-36364960-pos",
+      "hyper-resistance-exercise-20657311-pos",
+      "hyper-relaxation-19574102-pos"
+    ],
     "existing_linked_entry_ids": [],
-    "categories": {},
-    "tiers": {},
-    "dirs": {},
+    "categories": {
+      "move": 5,
+      "life": 11,
+      "food": 8,
+      "supp": 1,
+      "care": 1
+    },
+    "tiers": {
+      "trial": 26
+    },
+    "dirs": {
+      "pos": 23,
+      "null": 1,
+      "harm": 2
+    },
     "unknown_n": 0,
-    "thin_studies": 0,
+    "thin_studies": 7,
     "validator_errors": 0,
-    "validator_warnings": 0,
+    "validator_warnings": 7,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 0,
+    "initial_validator_warnings": 7,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9747,
-    "build_warning_lines": 9747,
-    "new_build_warnings": [],
+    "initial_build_warning_lines": 0,
+    "build_warning_lines": 0,
+    "new_build_warnings": [
+      "hyper-exercise-24172292-pos",
+      "hyper-mindfulness-30425326-pos",
+      "hyper-diet-salt-10804778-pos",
+      "hyper-vitamin-d-34265491-pos",
+      "hyper-water-exercise-28049937-pos",
+      "hyper-resistance-exercise-20657311-pos",
+      "hyper-relaxation-19574102-pos"
+    ],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [],
+    "new_thin_study_warnings": [
+      "hyper-exercise-24172292-pos",
+      "hyper-mindfulness-30425326-pos",
+      "hyper-diet-salt-10804778-pos",
+      "hyper-vitamin-d-34265491-pos",
+      "hyper-water-exercise-28049937-pos",
+      "hyper-resistance-exercise-20657311-pos",
+      "hyper-relaxation-19574102-pos"
+    ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
     "targeted_batch_warnings_fixed": 0,
     "targeted_warnings_total": 853,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26792,
+    "open_numeric_comparisons": 26818,
     "build_exit": 0,
-    "build": "27732 entries; 30892 refs; trial 26881; obs 754; animal 32; lab 18; case 47; numeric 26792; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 다낭성난소증후군 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 454개 레코드·고유 PMID 289개였고, 첫 보강은 57개 레코드·고유 PMID 56개·신규 PMID 8개, 두 번째 보강은 227개 레코드·고유 PMID 169개·신규 PMID 116개, 세 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개였다. 네 검색 세트는 738개 레코드·중복 제거 후 고유 PMID 413개였다. EFetch는 413개를 요청·수집했고 413개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 413건에서 후보 19건·신규 후보 3건·효과 후보 3건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 0건을 기록했고 수동 제외 목록 3건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "27758 entries; 30918 refs; trial 26907; obs 754; animal 32; lab 18; case 47; numeric 26818; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 고혈압 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 2124개 레코드·고유 PMID 1586개였고, 첫 보강은 363개 레코드·고유 PMID 352개·신규 PMID 141개, 두 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개, 세 번째 보강은 0개 레코드·고유 PMID 0개·신규 PMID 0개였다. 네 검색 세트는 2487개 레코드·중복 제거 후 고유 PMID 1727개였다. EFetch는 1727개를 요청·수집했고 1709개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1727건에서 후보 128건·신규 후보 85건·효과 후보 85건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 26건을 기록했고 수동 제외 목록 59건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
     "qualified_topics": [
-      "다낭성난소증후군 걷기운동",
-      "다낭성난소증후군 유산소운동",
-      "다낭성난소증후군 저항운동",
-      "다낭성난소증후군 근력운동",
-      "다낭성난소증후군 요가",
-      "다낭성난소증후군 필라테스",
-      "다낭성난소증후군 고강도운동",
-      "다낭성난소증후군 가정운동",
-      "다낭성난소증후군 체중감량",
-      "다낭성난소증후군 생활습관중재",
-      "다낭성난소증후군 자기관리",
-      "다낭성난소증후군 마음챙김",
-      "다낭성난소증후군 스트레스관리",
-      "다낭성난소증후군 수면관리",
-      "다낭성난소증후군 인지행동치료",
-      "다낭성난소증후군 식이교육",
-      "다낭성난소증후군 저혈당식이",
-      "다낭성난소증후군 지중해식",
-      "다낭성난소증후군 케톤식이",
-      "다낭성난소증후군 단백질식이",
-      "다낭성난소증후군 이노시톨",
-      "다낭성난소증후군 비타민D",
-      "다낭성난소증후군 오메가3",
-      "다낭성난소증후군 프로바이오틱스",
-      "다낭성난소증후군 크롬",
-      "다낭성난소증후군 코엔자임Q10",
-      "다낭성난소증후군 침치료",
-      "다낭성난소증후군 마사지",
-      "다낭성난소증후군 교육",
-      "다낭성난소증후군 원격관리"
+      {
+        "id": "hypertension-1",
+        "subject": "고혈압 걷기운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-2",
+        "subject": "고혈압 유산소운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-3",
+        "subject": "고혈압 저항운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-4",
+        "subject": "고혈압 근력운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-5",
+        "subject": "고혈압 요가",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-6",
+        "subject": "고혈압 태극권",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-7",
+        "subject": "고혈압 등척성운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-8",
+        "subject": "고혈압 호흡운동",
+        "category": "move"
+      },
+      {
+        "id": "hypertension-9",
+        "subject": "고혈압 마음챙김",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-10",
+        "subject": "고혈압 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-11",
+        "subject": "고혈압 수면관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-12",
+        "subject": "고혈압 체중감량",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-13",
+        "subject": "고혈압 자기관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-14",
+        "subject": "고혈압 환자교육",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-15",
+        "subject": "고혈압 가정혈압관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-16",
+        "subject": "고혈압 원격관리",
+        "category": "life"
+      },
+      {
+        "id": "hypertension-17",
+        "subject": "고혈압 DASH식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-18",
+        "subject": "고혈압 저염식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-19",
+        "subject": "고혈압 지중해식",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-20",
+        "subject": "고혈압 채식",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-21",
+        "subject": "고혈압 칼륨식이",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-22",
+        "subject": "고혈압 비트주스",
+        "category": "food"
+      },
+      {
+        "id": "hypertension-23",
+        "subject": "고혈압 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-24",
+        "subject": "고혈압 마그네슘",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-25",
+        "subject": "고혈압 코엔자임Q10",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-26",
+        "subject": "고혈압 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-27",
+        "subject": "고혈압 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-28",
+        "subject": "고혈압 마늘",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-29",
+        "subject": "고혈압 히비스커스",
+        "category": "supp"
+      },
+      {
+        "id": "hypertension-30",
+        "subject": "고혈압 침치료",
+        "category": "care"
+      }
     ],
     "screened_topics": [
-      "다낭성난소증후군 걷기운동",
-      "다낭성난소증후군 유산소운동",
-      "다낭성난소증후군 저항운동",
-      "다낭성난소증후군 근력운동",
-      "다낭성난소증후군 요가",
-      "다낭성난소증후군 필라테스",
-      "다낭성난소증후군 고강도운동",
-      "다낭성난소증후군 가정운동",
-      "다낭성난소증후군 체중감량",
-      "다낭성난소증후군 생활습관중재",
-      "다낭성난소증후군 자기관리",
-      "다낭성난소증후군 마음챙김",
-      "다낭성난소증후군 스트레스관리",
-      "다낭성난소증후군 수면관리",
-      "다낭성난소증후군 인지행동치료",
-      "다낭성난소증후군 식이교육",
-      "다낭성난소증후군 저혈당식이",
-      "다낭성난소증후군 지중해식",
-      "다낭성난소증후군 케톤식이",
-      "다낭성난소증후군 단백질식이",
-      "다낭성난소증후군 이노시톨",
-      "다낭성난소증후군 비타민D",
-      "다낭성난소증후군 오메가3",
-      "다낭성난소증후군 프로바이오틱스",
-      "다낭성난소증후군 크롬",
-      "다낭성난소증후군 코엔자임Q10",
-      "다낭성난소증후군 침치료",
-      "다낭성난소증후군 마사지",
-      "다낭성난소증후군 교육",
-      "다낭성난소증후군 원격관리"
+      "고혈압 걷기운동",
+      "고혈압 유산소운동",
+      "고혈압 저항운동",
+      "고혈압 근력운동",
+      "고혈압 요가",
+      "고혈압 태극권",
+      "고혈압 등척성운동",
+      "고혈압 호흡운동",
+      "고혈압 마음챙김",
+      "고혈압 스트레스관리",
+      "고혈압 수면관리",
+      "고혈압 체중감량",
+      "고혈압 자기관리",
+      "고혈압 환자교육",
+      "고혈압 가정혈압관리",
+      "고혈압 원격관리",
+      "고혈압 DASH식이",
+      "고혈압 저염식이",
+      "고혈압 지중해식",
+      "고혈압 채식",
+      "고혈압 칼륨식이",
+      "고혈압 비트주스",
+      "고혈압 오메가3",
+      "고혈압 마그네슘",
+      "고혈압 코엔자임Q10",
+      "고혈압 프로바이오틱스",
+      "고혈압 비타민D",
+      "고혈압 마늘",
+      "고혈압 히비스커스",
+      "고혈압 침치료"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -9819,21 +10168,77 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12280",
-      "worklist_line": "new-expansion-candidates-batch12280",
-      "topic": "다음 비처방 후보 주제 선정 batch 12280",
+      "next_batch": "12290",
+      "worklist_line": "new-expansion-candidates-batch12290",
+      "topic": "다음 비처방 후보 주제 선정 batch 12290",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 0,
+    "thin": 7,
     "rejected_candidate_pmids": [
-      "23876536",
-      "37782148",
-      "35253180"
+      "24851582",
+      "37160570",
+      "8404802",
+      "20738470",
+      "26047957",
+      "29651953",
+      "10346660",
+      "26773737",
+      "29778251",
+      "26471194",
+      "27070747",
+      "37917063",
+      "35122746",
+      "28333551",
+      "41370662",
+      "25293966",
+      "1669525",
+      "16552946",
+      "30905430",
+      "16961681",
+      "31957601",
+      "40669130",
+      "21133786",
+      "35166788",
+      "21531237",
+      "41875307",
+      "32627803",
+      "2455141",
+      "37049465",
+      "26897504",
+      "27413123",
+      "34959951",
+      "2248695",
+      "28077419",
+      "32529884",
+      "10352369",
+      "30957443",
+      "31286727",
+      "36646496",
+      "33212355",
+      "19204218",
+      "10642289",
+      "34052121",
+      "36198291",
+      "37424245",
+      "23031143",
+      "30646139",
+      "31215837",
+      "22151600",
+      "23732551",
+      "30471072",
+      "34791007",
+      "22435598",
+      "17012443",
+      "3270085",
+      "27128565",
+      "12669013",
+      "15588742",
+      "18579642"
     ],
-    "new_search_pmids": 124
+    "new_search_pmids": 141
   },
   "previous_last_batch_10490": {
     "id": "10490",
