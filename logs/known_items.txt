@@ -28234,3 +28234,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,462개; 주제 19,778개; 근거 링크 30,622개; 숫자 군간 비교 26,522개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,944개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 3220a857061cd071a002226f77995e76fd0b74f0; data commit: 0d965b603a9c909f43a40d849668c3228d0f501a; push marker commit: deba6d4899241e3b1fb109b2eb970225e90b6b56; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11800; resume point new-expansion-candidates-batch11800; 다음은 다음 비처방 후보 주제 선정 batch 11800이다.
+- 배치 11800: 코로나19 후유증(롱코비드) 비처방·비약물 후보 30개 worklist 주제를 처리해 신규 항목 1건을 기록했다. 기본·재검색 60개 주제에서 172개 레코드·고유 PMID 93개, 첫 보강 30개 질의에서 1,304개 레코드·고유 PMID 1,031개·신규 PMID 973개, 두 번째 보강 30개 질의에서 504개 레코드·고유 PMID 335개·신규 PMID 127개, 세 번째 보강 30개 질의에서 583개 레코드·고유 PMID 522개·신규 PMID 148개를 확인했다. 네 검색 세트는 2,563개 레코드·중복 제거 후 고유 PMID 1,341개였다.
+- fetch·초록: 고유 PMID 1,341개를 PubMed EFetch로 요청해 1,338개 기록·14개 chunk·원저 초록 1,279개를 확보했다. 누락 PMID 39812438, 40096423, 34181371은 재조회에서 모두 PubmedBookArticle로 확인했고 PubMed 원저 초록으로 사용하지 않았다. 재조회 초록은 3건이었지만 원저 초록은 0건이었다.
+- 후보·제외: parser 1,338건·후보 27건·신규 후보 17건·효과 후보 17건·기존 연결 후보 10건을 확인했다. 직접 숫자·비율·P값·효과크기·유효한 상대효과가 없거나 비중재·관찰·전후·프로토콜·고찰·처방약·건강인·수치 부족 등인 1,311건을 제외했고, 신규 후보 중 16건은 비무작위·관찰·전후·프로토콜·고찰·처방약·수치 부족 등으로 수동 제외했다. Listen 맞춤형 자기관리 지원 무작위시험에서 초록에 확인된 총 표본 수와 일상활동·정서적 웰빙·피로·자기효능감의 보정 평균차·95% 신뢰구간·P값을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 40046291.
+- 신규 ID: longcovid-listen-self-management-40046291-open.
+- 범주별 신규: care 1건; trial 1건; open 1건.
+- 전용 검증·빌드: 초기·최종 validator 오류 0·경고 0; 초기 build exit 0·오류 0·경고 9,627건, 최종 build exit 0·오류 0·경고 9,626건이었다. 새 targeted warning 1건(vs 비교 표현 1건)을 수정했고 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 0건이다. 초록에 군별 표본 수가 없어 총 표본 554명만 기록했으며, 실제 경고를 숨기거나 표본 수를 임의로 채우지 않았다.
+- 부정·안전성 보강: 1개 질의·1개 레코드·고유 PMID 1개.
+- 누적 집계: 항목 27,463개; 주제 19,779개; 근거 링크 30,623개; 숫자 군간 비교 26,523개; 사람 수 미상 build 경고 1,333개; 소규모 연구 build 경고 7,944개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 06c7ec1adfdc3a74f71114ec48eb5d1dd539d73d; data commit: 179dd782a86dd61b133089f283ccc52d7819fa92; push marker commit: c88baf3770376bbff6734ecbe759e1fff250cf17; 데이터·PUSHED=true 상태를 origin/main에 push했고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11810; resume point new-expansion-candidates-batch11810; 다음은 다음 비처방 후보 주제 선정 batch 11810이다.
