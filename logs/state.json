@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-01T17:48:32.590Z",
+  "updated": "2026-09-01T18:03:11.984Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27913,
-  "subjects": 20212,
-  "refs": 31073,
+  "entries": 27915,
+  "subjects": 20214,
+  "refs": 31075,
   "kinds": {
     "undefined": 10367,
     "food": 907,
     "care": 8037,
-    "supp": 2672,
+    "supp": 2673,
     "move": 3385,
     "otc": 609,
-    "life": 1912,
+    "life": 1913,
     "rx": 24
   },
   "tiers": {
-    "trial": 27062,
+    "trial": 27064,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19478,
+    "pos": 19480,
     "null": 6464,
     "harm": 318,
     "open": 1653
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12350는 골관절염 비처방·비약물 후보에서 신규 항목 16건을 기록했다. 다음 재개점은 batch 12360이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12360는 자궁내막증 비처방·비약물 후보에서 신규 항목 2건을 기록했다. 다음 재개점은 batch 12370이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12350는 골관절염에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 16건을 추가했다. 다음 확장은 batch 12360이다."
+    "note": "Batch 12360는 자궁내막증에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 2건을 추가했다. 다음 확장은 batch 12370이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.0% (4188 entries)",
+    "over_counter_share": "15.0% (4189 entries)",
     "rx_share": "0.1% (24)",
     "no_effect_or_harm_share": "24.3% (6782)",
-    "vs_share": "96.6% (26973)",
+    "vs_share": "96.6% (26975)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27062)",
+    "trial_share": "97.0% (27064)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1346,
       "thin_study": 8110,
-      "targeted_batch_warnings": 936
+      "targeted_batch_warnings": 937
     },
-    "targeted_batch_warnings": 936
+    "targeted_batch_warnings": 937
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12360",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12360",
-    "topic": "다음 비처방 후보 주제 선정 batch 12360"
+    "batch": "12370",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12370",
+    "topic": "다음 비처방 후보 주제 선정 batch 12370"
   },
   "resume": {
-    "next_batch": "12360",
-    "worklist_line": "new-expansion-candidates-batch12360",
-    "topic": "다음 비처방 후보 주제 선정 batch 12360",
+    "next_batch": "12370",
+    "worklist_line": "new-expansion-candidates-batch12370",
+    "topic": "다음 비처방 후보 주제 선정 batch 12370",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12350",
-    "commit": "4275a3130f6e9f759a26986db9b823cb348f82e6",
-    "pushed": true,
+    "id": "12360",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "4275a3130f6e9f759a26986db9b823cb348f82e6"
-    ],
-    "checkpoint_commit": "0b1df802b861e515fdac0076a5b7ee15e24f3e6f",
-    "push_marker_commit": "5fbdabae11a4d05bdc393b42e2502b36e0356186",
-    "known_items_commit": "0e6e1d6bdefc65fdcfebc205cf8c1750d049b429",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "oa-1",
-        "subject": "골관절염 운동치료",
+        "id": "endo-1",
+        "subject": "자궁내막증 운동치료",
         "category": "move"
       },
       {
-        "id": "oa-2",
-        "subject": "골관절염 유산소운동",
+        "id": "endo-2",
+        "subject": "자궁내막증 유산소운동",
         "category": "move"
       },
       {
-        "id": "oa-3",
-        "subject": "골관절염 저항운동",
+        "id": "endo-3",
+        "subject": "자궁내막증 걷기운동",
         "category": "move"
       },
       {
-        "id": "oa-4",
-        "subject": "골관절염 걷기운동",
+        "id": "endo-4",
+        "subject": "자궁내막증 요가",
         "category": "move"
       },
       {
-        "id": "oa-5",
-        "subject": "골관절염 수중운동",
+        "id": "endo-5",
+        "subject": "자궁내막증 골반저근운동",
         "category": "move"
       },
       {
-        "id": "oa-6",
-        "subject": "골관절염 태극권",
+        "id": "endo-6",
+        "subject": "자궁내막증 스트레칭",
         "category": "move"
       },
       {
-        "id": "oa-7",
-        "subject": "골관절염 요가",
+        "id": "endo-7",
+        "subject": "자궁내막증 신체활동",
         "category": "move"
       },
       {
-        "id": "oa-8",
-        "subject": "골관절염 균형운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-9",
-        "subject": "골관절염 신경근운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-10",
-        "subject": "골관절염 가정운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-11",
-        "subject": "골관절염 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "oa-12",
-        "subject": "골관절염 체중감량",
+        "id": "endo-8",
+        "subject": "자궁내막증 마음챙김",
         "category": "life"
       },
       {
-        "id": "oa-13",
-        "subject": "골관절염 자기관리",
+        "id": "endo-9",
+        "subject": "자궁내막증 인지행동치료",
         "category": "life"
       },
       {
-        "id": "oa-14",
-        "subject": "골관절염 환자교육",
+        "id": "endo-10",
+        "subject": "자궁내막증 자기관리",
         "category": "life"
       },
       {
-        "id": "oa-15",
-        "subject": "골관절염 인지행동치료",
+        "id": "endo-11",
+        "subject": "자궁내막증 환자교육",
         "category": "life"
       },
       {
-        "id": "oa-16",
-        "subject": "골관절염 마음챙김",
+        "id": "endo-12",
+        "subject": "자궁내막증 통증대처",
         "category": "life"
       },
       {
-        "id": "oa-17",
-        "subject": "골관절염 수면관리",
+        "id": "endo-13",
+        "subject": "자궁내막증 수면관리",
         "category": "life"
       },
       {
-        "id": "oa-18",
-        "subject": "골관절염 지중해식이",
+        "id": "endo-14",
+        "subject": "자궁내막증 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "endo-15",
+        "subject": "자궁내막증 체중관리",
+        "category": "life"
+      },
+      {
+        "id": "endo-16",
+        "subject": "자궁내막증 지중해식이",
         "category": "food"
       },
       {
-        "id": "oa-19",
-        "subject": "골관절염 항염식이",
+        "id": "endo-17",
+        "subject": "자궁내막증 항염식이",
         "category": "food"
       },
       {
-        "id": "oa-20",
-        "subject": "골관절염 글루코사민",
+        "id": "endo-18",
+        "subject": "자궁내막증 저포드맵식이",
+        "category": "food"
+      },
+      {
+        "id": "endo-19",
+        "subject": "자궁내막증 영양상담",
+        "category": "food"
+      },
+      {
+        "id": "endo-20",
+        "subject": "자궁내막증 오메가3",
         "category": "supp"
       },
       {
-        "id": "oa-21",
-        "subject": "골관절염 콘드로이틴",
+        "id": "endo-21",
+        "subject": "자궁내막증 비타민D",
         "category": "supp"
       },
       {
-        "id": "oa-22",
-        "subject": "골관절염 커큐민",
+        "id": "endo-22",
+        "subject": "자궁내막증 커큐민",
         "category": "supp"
       },
       {
-        "id": "oa-23",
-        "subject": "골관절염 비타민D",
+        "id": "endo-23",
+        "subject": "자궁내막증 N아세틸시스테인",
         "category": "supp"
       },
       {
-        "id": "oa-24",
-        "subject": "골관절염 오메가3",
+        "id": "endo-24",
+        "subject": "자궁내막증 멜라토닌",
         "category": "supp"
       },
       {
-        "id": "oa-25",
-        "subject": "골관절염 콜라겐",
-        "category": "supp"
-      },
-      {
-        "id": "oa-26",
-        "subject": "골관절염 침치료",
+        "id": "endo-25",
+        "subject": "자궁내막증 침치료",
         "category": "care"
       },
       {
-        "id": "oa-27",
-        "subject": "골관절염 경피전기신경자극",
+        "id": "endo-26",
+        "subject": "자궁내막증 경피전기신경자극",
         "category": "care"
       },
       {
-        "id": "oa-28",
-        "subject": "골관절염 원격관리",
+        "id": "endo-27",
+        "subject": "자궁내막증 마사지",
         "category": "care"
       },
       {
-        "id": "oa-29",
-        "subject": "골관절염 모바일관리",
+        "id": "endo-28",
+        "subject": "자궁내막증 온열치료",
         "category": "care"
       },
       {
-        "id": "oa-30",
-        "subject": "골관절염 보조기",
+        "id": "endo-29",
+        "subject": "자궁내막증 원격관리",
+        "category": "care"
+      },
+      {
+        "id": "endo-30",
+        "subject": "자궁내막증 모바일관리",
         "category": "care"
       }
     ],
-    "new_entries": 16,
-    "existing_links": 177,
-    "no_evidence_rejects": 2790,
-    "new_candidate_rejects": 49,
-    "manual_screened_additions": 16,
+    "new_entries": 2,
+    "existing_links": 10,
+    "no_evidence_rejects": 865,
+    "new_candidate_rejects": 20,
+    "manual_screened_additions": 2,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 16,
-    "existing_reference_links": 177,
-    "duplicate_search_pmids_removed": 1867,
+    "new_references": 2,
+    "existing_reference_links": 10,
+    "duplicate_search_pmids_removed": 328,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 4899,
-    "main_search_records": 1406,
-    "main_search_unique_pmids": 941,
+    "search_returned_records": 1208,
+    "main_search_records": 68,
+    "main_search_unique_pmids": 48,
     "refinement_query_count": 30,
-    "refinement_search_records": 566,
-    "refinement_unique_pmids": 496,
+    "refinement_search_records": 24,
+    "refinement_unique_pmids": 22,
     "extra_query_count": 30,
-    "extra_search_records": 937,
-    "extra_unique_pmids": 793,
-    "extra_new_unique_pmids": 470,
+    "extra_search_records": 617,
+    "extra_unique_pmids": 545,
+    "extra_new_unique_pmids": 509,
     "extra2_query_count": 30,
-    "extra2_search_records": 1971,
-    "extra2_unique_pmids": 1760,
-    "extra2_new_unique_pmids": 1487,
-    "extra3_query_count": 39,
-    "extra3_search_records": 585,
-    "extra3_unique_pmids": 525,
-    "extra3_new_unique_pmids": 403,
+    "extra2_search_records": 162,
+    "extra2_unique_pmids": 125,
+    "extra2_new_unique_pmids": 103,
+    "extra3_query_count": 30,
+    "extra3_search_records": 361,
+    "extra3_unique_pmids": 320,
+    "extra3_new_unique_pmids": 302,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 32,
-    "followup_search_records": 21,
-    "followup_search_unique_pmids": 16,
-    "combined_search_unique_pmids": 3032,
-    "combined_all_unique_pmids": 3032,
-    "requested": 3032,
-    "fetched": 3032,
-    "fetch_chunks": 31,
-    "abstracts": 2890,
-    "abstracts_all_sources": 2890,
+    "followup_query_count": 4,
+    "followup_search_records": 2,
+    "followup_search_unique_pmids": 2,
+    "combined_search_unique_pmids": 880,
+    "combined_all_unique_pmids": 880,
+    "requested": 880,
+    "fetched": 880,
+    "fetch_chunks": 9,
+    "abstracts": 856,
+    "abstracts_all_sources": 856,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,313 +9823,251 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 32,
-    "followup_fetched": 16,
+    "followup_requested": 4,
+    "followup_fetched": 2,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 3032,
-    "candidate_parser_candidates": 242,
-    "candidate_parser_candidates_after_write": 242,
-    "union_candidate_like": 242,
-    "union_new_candidate_like": 65,
-    "effect_candidate_rows": 65,
-    "manual_candidate_count": 16,
+    "candidate_parser_parsed": 880,
+    "candidate_parser_candidates": 15,
+    "candidate_parser_candidates_after_write": 15,
+    "union_candidate_like": 15,
+    "union_new_candidate_like": 5,
+    "effect_candidate_rows": 5,
+    "manual_candidate_count": 2,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "17167301",
-      "11867660",
-      "20399899",
-      "27050908",
-      "29176264",
-      "40507417",
-      "41456047",
-      "21375573",
-      "29326901",
-      "26034739",
-      "35371366",
-      "17688170",
-      "27768119",
-      "23525779",
-      "40856813",
-      "23964445"
+      "38566501",
+      "40088332"
     ],
-    "selected_ncts": [
-      "NCT06422910",
-      "NCT04767854"
-    ],
+    "selected_ncts": [],
     "new_pmids": [
-      "17167301",
-      "11867660",
-      "20399899",
-      "27050908",
-      "29176264",
-      "40507417",
-      "41456047",
-      "21375573",
-      "29326901",
-      "26034739",
-      "35371366",
-      "17688170",
-      "27768119",
-      "23525779",
-      "40856813",
-      "23964445"
+      "38566501",
+      "40088332"
     ],
-    "new_ncts": [
-      "NCT06422910",
-      "NCT04767854"
-    ],
+    "new_ncts": [],
     "new_entry_ids": [
-      "oa-exercise-comorbidity-17167301-pos",
-      "oa-exercise-depression-11867660-pos",
-      "oa-chondroitin-psoriasis-20399899-pos",
-      "oa-mud-bath-glucosamine-27050908-pos",
-      "oa-chondroitin-dose-29176264-pos",
-      "oa-collagen-collasel-40507417-pos",
-      "oa-exercise-app-41456047-null",
-      "oa-self-management-21375573-pos",
-      "oa-theracurmin-exercise-29326901-pos",
-      "oa-exercise-common-care-26034739-pos",
-      "oa-knee-taping-35371366-pos",
-      "oa-tens-salicylate-17688170-pos",
-      "oa-glucosamine-eye-pressure-27768119-harm",
-      "oa-self-management-literacy-23525779-pos",
-      "oa-supervised-vs-app-adherence-40856813-pos",
-      "oa-ginger-23964445-null"
+      "endometriosis-cbt-rct-38566501-pos",
+      "endometriosis-curcumin-art-40088332-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "move": 4,
-      "supp": 6,
-      "care": 4,
-      "life": 2
+      "life": 1,
+      "supp": 1
     },
     "tiers": {
-      "trial": 16
+      "trial": 2
     },
     "dirs": {
-      "pos": 13,
-      "null": 2,
-      "harm": 1
+      "pos": 2
     },
     "unknown_n": 0,
-    "thin_studies": 4,
+    "thin_studies": 0,
     "validator_errors": 0,
-    "validator_warnings": 4,
-    "initial_validator_errors": 14,
-    "initial_validator_warnings": 4,
+    "validator_warnings": 0,
+    "initial_validator_errors": 0,
+    "initial_validator_warnings": 0,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 31,
+    "initial_build_warning_lines": 9806,
     "build_warning_lines": 9805,
-    "new_build_warnings": [
-      "oa-mud-bath-glucosamine-27050908-pos",
-      "oa-theracurmin-exercise-29326901-pos",
-      "oa-knee-taping-35371366-pos",
-      "oa-tens-salicylate-17688170-pos"
-    ],
+    "new_build_warnings": [],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [
-      "oa-mud-bath-glucosamine-27050908-pos",
-      "oa-theracurmin-exercise-29326901-pos",
-      "oa-knee-taping-35371366-pos",
-      "oa-tens-salicylate-17688170-pos"
-    ],
+    "new_thin_study_warnings": [],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 27,
-    "targeted_warnings_total": 936,
+    "targeted_batch_warnings_fixed": 1,
+    "targeted_warnings_total": 937,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26973,
+    "open_numeric_comparisons": 26975,
     "build_exit": 0,
-    "build": "27913 entries; 31073 refs; trial 27062; obs 754; animal 32; lab 18; case 47; numeric 26973; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 골관절염 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 1406개 레코드·고유 PMID 941개였고, 첫 보강은 937개 레코드·고유 PMID 793개·신규 PMID 470개, 두 번째 보강은 1971개 레코드·고유 PMID 1760개·신규 PMID 1487개, 세 번째 보강은 585개 레코드·고유 PMID 525개·신규 PMID 403개였다. 네 검색 세트는 4899개 레코드·중복 제거 후 고유 PMID 3032개였다. EFetch는 3032개를 요청·수집했고 2890개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 3032건에서 후보 242건·신규 후보 65건·효과 후보 65건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 16건을 기록했고 수동 제외 목록 49건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 32개 질의에서 21개 레코드·고유 PMID 16개를 확인했다.",
+    "build": "27915 entries; 31075 refs; trial 27064; obs 754; animal 32; lab 18; case 47; numeric 26975; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 자궁내막증 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 68개 레코드·고유 PMID 48개였고, 첫 보강은 617개 레코드·고유 PMID 545개·신규 PMID 509개, 두 번째 보강은 162개 레코드·고유 PMID 125개·신규 PMID 103개, 세 번째 보강은 361개 레코드·고유 PMID 320개·신규 PMID 302개였다. 네 검색 세트는 1208개 레코드·중복 제거 후 고유 PMID 880개였다. EFetch는 880개를 요청·수집했고 856개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 880건에서 후보 15건·신규 후보 5건·효과 후보 5건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 2건을 기록했고 수동 제외 목록 20건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 4개 질의에서 2개 레코드·고유 PMID 2개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "oa-1",
-        "subject": "골관절염 운동치료",
+        "id": "endo-1",
+        "subject": "자궁내막증 운동치료",
         "category": "move"
       },
       {
-        "id": "oa-2",
-        "subject": "골관절염 유산소운동",
+        "id": "endo-2",
+        "subject": "자궁내막증 유산소운동",
         "category": "move"
       },
       {
-        "id": "oa-3",
-        "subject": "골관절염 저항운동",
+        "id": "endo-3",
+        "subject": "자궁내막증 걷기운동",
         "category": "move"
       },
       {
-        "id": "oa-4",
-        "subject": "골관절염 걷기운동",
+        "id": "endo-4",
+        "subject": "자궁내막증 요가",
         "category": "move"
       },
       {
-        "id": "oa-5",
-        "subject": "골관절염 수중운동",
+        "id": "endo-5",
+        "subject": "자궁내막증 골반저근운동",
         "category": "move"
       },
       {
-        "id": "oa-6",
-        "subject": "골관절염 태극권",
+        "id": "endo-6",
+        "subject": "자궁내막증 스트레칭",
         "category": "move"
       },
       {
-        "id": "oa-7",
-        "subject": "골관절염 요가",
+        "id": "endo-7",
+        "subject": "자궁내막증 신체활동",
         "category": "move"
       },
       {
-        "id": "oa-8",
-        "subject": "골관절염 균형운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-9",
-        "subject": "골관절염 신경근운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-10",
-        "subject": "골관절염 가정운동",
-        "category": "move"
-      },
-      {
-        "id": "oa-11",
-        "subject": "골관절염 신체활동",
-        "category": "move"
-      },
-      {
-        "id": "oa-12",
-        "subject": "골관절염 체중감량",
+        "id": "endo-8",
+        "subject": "자궁내막증 마음챙김",
         "category": "life"
       },
       {
-        "id": "oa-13",
-        "subject": "골관절염 자기관리",
+        "id": "endo-9",
+        "subject": "자궁내막증 인지행동치료",
         "category": "life"
       },
       {
-        "id": "oa-14",
-        "subject": "골관절염 환자교육",
+        "id": "endo-10",
+        "subject": "자궁내막증 자기관리",
         "category": "life"
       },
       {
-        "id": "oa-15",
-        "subject": "골관절염 인지행동치료",
+        "id": "endo-11",
+        "subject": "자궁내막증 환자교육",
         "category": "life"
       },
       {
-        "id": "oa-16",
-        "subject": "골관절염 마음챙김",
+        "id": "endo-12",
+        "subject": "자궁내막증 통증대처",
         "category": "life"
       },
       {
-        "id": "oa-17",
-        "subject": "골관절염 수면관리",
+        "id": "endo-13",
+        "subject": "자궁내막증 수면관리",
         "category": "life"
       },
       {
-        "id": "oa-18",
-        "subject": "골관절염 지중해식이",
+        "id": "endo-14",
+        "subject": "자궁내막증 스트레스관리",
+        "category": "life"
+      },
+      {
+        "id": "endo-15",
+        "subject": "자궁내막증 체중관리",
+        "category": "life"
+      },
+      {
+        "id": "endo-16",
+        "subject": "자궁내막증 지중해식이",
         "category": "food"
       },
       {
-        "id": "oa-19",
-        "subject": "골관절염 항염식이",
+        "id": "endo-17",
+        "subject": "자궁내막증 항염식이",
         "category": "food"
       },
       {
-        "id": "oa-20",
-        "subject": "골관절염 글루코사민",
+        "id": "endo-18",
+        "subject": "자궁내막증 저포드맵식이",
+        "category": "food"
+      },
+      {
+        "id": "endo-19",
+        "subject": "자궁내막증 영양상담",
+        "category": "food"
+      },
+      {
+        "id": "endo-20",
+        "subject": "자궁내막증 오메가3",
         "category": "supp"
       },
       {
-        "id": "oa-21",
-        "subject": "골관절염 콘드로이틴",
+        "id": "endo-21",
+        "subject": "자궁내막증 비타민D",
         "category": "supp"
       },
       {
-        "id": "oa-22",
-        "subject": "골관절염 커큐민",
+        "id": "endo-22",
+        "subject": "자궁내막증 커큐민",
         "category": "supp"
       },
       {
-        "id": "oa-23",
-        "subject": "골관절염 비타민D",
+        "id": "endo-23",
+        "subject": "자궁내막증 N아세틸시스테인",
         "category": "supp"
       },
       {
-        "id": "oa-24",
-        "subject": "골관절염 오메가3",
+        "id": "endo-24",
+        "subject": "자궁내막증 멜라토닌",
         "category": "supp"
       },
       {
-        "id": "oa-25",
-        "subject": "골관절염 콜라겐",
-        "category": "supp"
-      },
-      {
-        "id": "oa-26",
-        "subject": "골관절염 침치료",
+        "id": "endo-25",
+        "subject": "자궁내막증 침치료",
         "category": "care"
       },
       {
-        "id": "oa-27",
-        "subject": "골관절염 경피전기신경자극",
+        "id": "endo-26",
+        "subject": "자궁내막증 경피전기신경자극",
         "category": "care"
       },
       {
-        "id": "oa-28",
-        "subject": "골관절염 원격관리",
+        "id": "endo-27",
+        "subject": "자궁내막증 마사지",
         "category": "care"
       },
       {
-        "id": "oa-29",
-        "subject": "골관절염 모바일관리",
+        "id": "endo-28",
+        "subject": "자궁내막증 온열치료",
         "category": "care"
       },
       {
-        "id": "oa-30",
-        "subject": "골관절염 보조기",
+        "id": "endo-29",
+        "subject": "자궁내막증 원격관리",
+        "category": "care"
+      },
+      {
+        "id": "endo-30",
+        "subject": "자궁내막증 모바일관리",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "골관절염 운동치료",
-      "골관절염 유산소운동",
-      "골관절염 저항운동",
-      "골관절염 걷기운동",
-      "골관절염 수중운동",
-      "골관절염 태극권",
-      "골관절염 요가",
-      "골관절염 균형운동",
-      "골관절염 신경근운동",
-      "골관절염 가정운동",
-      "골관절염 신체활동",
-      "골관절염 체중감량",
-      "골관절염 자기관리",
-      "골관절염 환자교육",
-      "골관절염 인지행동치료",
-      "골관절염 마음챙김",
-      "골관절염 수면관리",
-      "골관절염 지중해식이",
-      "골관절염 항염식이",
-      "골관절염 글루코사민",
-      "골관절염 콘드로이틴",
-      "골관절염 커큐민",
-      "골관절염 비타민D",
-      "골관절염 오메가3",
-      "골관절염 콜라겐",
-      "골관절염 침치료",
-      "골관절염 경피전기신경자극",
-      "골관절염 원격관리",
-      "골관절염 모바일관리",
-      "골관절염 보조기"
+      "자궁내막증 운동치료",
+      "자궁내막증 유산소운동",
+      "자궁내막증 걷기운동",
+      "자궁내막증 요가",
+      "자궁내막증 골반저운동",
+      "자궁내막증 스트레칭",
+      "자궁내막증 신체활동",
+      "자궁내막증 마음챙김",
+      "자궁내막증 인지행동치료",
+      "자궁내막증 자기관리",
+      "자궁내막증 환자교육",
+      "자궁내막증 통증대처",
+      "자궁내막증 수면관리",
+      "자궁내막증 스트레스관리",
+      "자궁내막증 체중관리",
+      "자궁내막증 지중해식이",
+      "자궁내막증 항염식이",
+      "자궁내막증 저포드맵식이",
+      "자궁내막증 영양상담",
+      "자궁내막증 오메가3",
+      "자궁내막증 비타민D",
+      "자궁내막증 커큐민",
+      "자궁내막증 NAC",
+      "자궁내막증 멜라토닌",
+      "자궁내막증 침치료",
+      "자궁내막증 TENS",
+      "자궁내막증 마사지",
+      "자궁내막증 온열치료",
+      "자궁내막증 원격관리",
+      "자궁내막증 모바일관리"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10139,67 +10075,38 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12360",
-      "worklist_line": "new-expansion-candidates-batch12360",
-      "topic": "다음 비처방 후보 주제 선정 batch 12360",
+      "next_batch": "12370",
+      "worklist_line": "new-expansion-candidates-batch12370",
+      "topic": "다음 비처방 후보 주제 선정 batch 12370",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 4,
+    "thin": 0,
     "rejected_candidate_pmids": [
-      "23166425",
-      "26369333",
-      "9668732",
-      "35551165",
-      "35775838",
-      "34847699",
-      "39789623",
-      "26214142",
-      "25539478",
-      "38992879",
-      "24774470",
-      "37358256",
-      "26809601",
-      "22157279",
-      "19687625",
-      "11842864",
-      "23964444",
-      "31990581",
-      "12972723",
-      "40680699",
-      "39773322",
-      "30652930",
-      "22805303",
-      "20043801",
-      "20187817",
-      "37551682",
-      "38869746",
-      "26413749",
-      "40274279",
-      "20665344",
-      "18756654",
-      "36816197",
-      "25219641",
-      "30808203",
-      "25078945",
-      "37016749",
-      "25123117",
-      "32258112",
-      "37046951",
-      "21518313",
-      "31325229",
-      "36561495",
-      "33471039",
-      "42478955",
-      "21220090",
-      "23955063",
-      "42097689",
-      "20091527",
-      "35322346"
+      "29533153",
+      "28102491",
+      "38485397",
+      "27484764",
+      "20491565",
+      "29643586",
+      "39305835",
+      "36895681",
+      "38903416",
+      "35475975",
+      "36683601",
+      "41643815",
+      "21589790",
+      "41715206",
+      "36981595",
+      "38614242",
+      "19958132",
+      "18054352",
+      "34994286",
+      "31256576"
     ],
-    "new_search_pmids": 2091
+    "new_search_pmids": 832
   },
   "previous_last_batch_10490": {
     "id": "10490",
