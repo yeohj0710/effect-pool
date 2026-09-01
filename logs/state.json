@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T19:52:13.559Z",
+  "updated": "2026-09-01T19:53:31.223Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 27989,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12410는 셀리악병 비처방 후보에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12420이다."
+    "note": "Batch 12410는 셀리악병에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12420이다."
   },
   "checkpoints": {
     "over_counter_share": "15.1% (4234 entries)",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "12420",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch12420",
     "topic": "다음 비처방 후보 주제 선정 batch 12420"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "12410",
-    "commit": null,
-    "pushed": false,
+    "commit": "648cab1bb",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "data_commits": [
+      "648cab1bb"
+    ],
+    "checkpoint_commit": "34be85383",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9995,7 +9997,7 @@
     "open_numeric_comparisons": 27049,
     "build_exit": 0,
     "build": "27989 entries; 31149 refs; trial 27138; obs 754; animal 32; lab 18; case 47; numeric 27049; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 셀리악병 비처방 후보 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 71개 레코드·고유 PMID 49개였고, 첫 보강은 468개 레코드·고유 PMID 451개·신규 PMID 430개, 두 번째 보강은 188개 레코드·고유 PMID 139개·신규 PMID 115개, 세 번째 보강은 66개 레코드·고유 PMID 56개·신규 PMID 46개였다. 네 검색 세트는 793개 레코드·중복 제거 후 고유 PMID 592개였다. EFetch는 592개를 요청·수집했고 569개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 592건에서 후보 141건·신규 후보 138건·효과 후보 138건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 108건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 34개 레코드·고유 PMID 28개를 확인했다.",
+    "research": "PubMed 기본 검색은 셀리악병 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 71개 레코드·고유 PMID 49개였고, 첫 보강은 468개 레코드·고유 PMID 451개·신규 PMID 430개, 두 번째 보강은 188개 레코드·고유 PMID 139개·신규 PMID 115개, 세 번째 보강은 66개 레코드·고유 PMID 56개·신규 PMID 46개였다. 네 검색 세트는 793개 레코드·중복 제거 후 고유 PMID 592개였다. EFetch는 592개를 요청·수집했고 569개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 592건에서 후보 141건·신규 후보 138건·효과 후보 138건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 108건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 34개 레코드·고유 PMID 28개를 확인했다.",
     "qualified_topics": [
       {
         "id": "celiac-1",
@@ -10186,7 +10188,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "12420",
       "worklist_line": "new-expansion-candidates-batch12420",
