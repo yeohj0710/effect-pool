@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-01T18:04:45.031Z",
+  "updated": "2026-09-01T18:18:41.029Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27915,
-  "subjects": 20214,
-  "refs": 31075,
+  "entries": 27923,
+  "subjects": 20221,
+  "refs": 31083,
   "kinds": {
     "undefined": 10367,
-    "food": 907,
-    "care": 8037,
+    "food": 908,
+    "care": 8039,
     "supp": 2673,
-    "move": 3385,
+    "move": 3390,
     "otc": 609,
     "life": 1913,
     "rx": 24
   },
   "tiers": {
-    "trial": 27064,
+    "trial": 27072,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19480,
+    "pos": 19488,
     "null": 6464,
     "harm": 318,
     "open": 1653
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12360는 자궁내막증 비처방·비약물 후보에서 신규 항목 2건을 기록했다. 다음 재개점은 batch 12370이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12370는 섬유근육통 비처방·비약물 후보에서 신규 항목 8건을 기록했다. 다음 재개점은 batch 12380이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12360는 자궁내막증에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 2건을 추가했다. 다음 확장은 batch 12370이다."
+    "note": "Batch 12370는 섬유근육통에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 8건을 추가했다. 다음 확장은 batch 12380이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.0% (4189 entries)",
+    "over_counter_share": "15.0% (4190 entries)",
     "rx_share": "0.1% (24)",
     "no_effect_or_harm_share": "24.3% (6782)",
-    "vs_share": "96.6% (26975)",
+    "vs_share": "96.6% (26983)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27064)",
+    "trial_share": "97.0% (27072)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1346,
-      "thin_study": 8110,
-      "targeted_batch_warnings": 937
+      "thin_study": 8115,
+      "targeted_batch_warnings": 942
     },
-    "targeted_batch_warnings": 937
+    "targeted_batch_warnings": 942
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12370",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12370",
-    "topic": "다음 비처방 후보 주제 선정 batch 12370"
+    "batch": "12380",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12380",
+    "topic": "다음 비처방 후보 주제 선정 batch 12380"
   },
   "resume": {
-    "next_batch": "12370",
-    "worklist_line": "new-expansion-candidates-batch12370",
-    "topic": "다음 비처방 후보 주제 선정 batch 12370",
+    "next_batch": "12380",
+    "worklist_line": "new-expansion-candidates-batch12380",
+    "topic": "다음 비처방 후보 주제 선정 batch 12380",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12360",
-    "commit": "b8cd6d1da4c454fccd3ae559d131d584ce78f4ea",
-    "pushed": true,
+    "id": "12370",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "b8cd6d1da4c454fccd3ae559d131d584ce78f4ea"
-    ],
-    "checkpoint_commit": "3affb8b6ed1afe667cba2717092b6dcac64da2c2",
-    "push_marker_commit": "760bfc83f33e0582b99dff5b8708a9e0a85cc006",
-    "known_items_commit": "9061486d7827c16b5e08c04cc7476740a6883e1d",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "endo-1",
-        "subject": "자궁내막증 운동치료",
+        "id": "fm-1",
+        "subject": "섬유근육통 운동치료",
         "category": "move"
       },
       {
-        "id": "endo-2",
-        "subject": "자궁내막증 유산소운동",
+        "id": "fm-2",
+        "subject": "섬유근육통 유산소운동",
         "category": "move"
       },
       {
-        "id": "endo-3",
-        "subject": "자궁내막증 걷기운동",
+        "id": "fm-3",
+        "subject": "섬유근육통 저항운동",
         "category": "move"
       },
       {
-        "id": "endo-4",
-        "subject": "자궁내막증 요가",
+        "id": "fm-4",
+        "subject": "섬유근육통 걷기운동",
         "category": "move"
       },
       {
-        "id": "endo-5",
-        "subject": "자궁내막증 골반저근운동",
+        "id": "fm-5",
+        "subject": "섬유근육통 수중운동",
         "category": "move"
       },
       {
-        "id": "endo-6",
-        "subject": "자궁내막증 스트레칭",
+        "id": "fm-6",
+        "subject": "섬유근육통 요가",
         "category": "move"
       },
       {
-        "id": "endo-7",
-        "subject": "자궁내막증 신체활동",
+        "id": "fm-7",
+        "subject": "섬유근육통 태극권",
         "category": "move"
       },
       {
-        "id": "endo-8",
-        "subject": "자궁내막증 마음챙김",
+        "id": "fm-8",
+        "subject": "섬유근육통 기공",
+        "category": "move"
+      },
+      {
+        "id": "fm-9",
+        "subject": "섬유근육통 스트레칭",
+        "category": "move"
+      },
+      {
+        "id": "fm-10",
+        "subject": "섬유근육통 신체활동",
+        "category": "move"
+      },
+      {
+        "id": "fm-11",
+        "subject": "섬유근육통 인지행동치료",
         "category": "life"
       },
       {
-        "id": "endo-9",
-        "subject": "자궁내막증 인지행동치료",
+        "id": "fm-12",
+        "subject": "섬유근육통 마음챙김",
         "category": "life"
       },
       {
-        "id": "endo-10",
-        "subject": "자궁내막증 자기관리",
+        "id": "fm-13",
+        "subject": "섬유근육통 자기관리",
         "category": "life"
       },
       {
-        "id": "endo-11",
-        "subject": "자궁내막증 환자교육",
+        "id": "fm-14",
+        "subject": "섬유근육통 환자교육",
         "category": "life"
       },
       {
-        "id": "endo-12",
-        "subject": "자궁내막증 통증대처",
+        "id": "fm-15",
+        "subject": "섬유근육통 통증대처",
         "category": "life"
       },
       {
-        "id": "endo-13",
-        "subject": "자궁내막증 수면관리",
+        "id": "fm-16",
+        "subject": "섬유근육통 수면관리",
         "category": "life"
       },
       {
-        "id": "endo-14",
-        "subject": "자궁내막증 스트레스관리",
+        "id": "fm-17",
+        "subject": "섬유근육통 스트레스관리",
         "category": "life"
       },
       {
-        "id": "endo-15",
-        "subject": "자궁내막증 체중관리",
+        "id": "fm-18",
+        "subject": "섬유근육통 이완훈련",
         "category": "life"
       },
       {
-        "id": "endo-16",
-        "subject": "자궁내막증 지중해식이",
+        "id": "fm-19",
+        "subject": "섬유근육통 온라인심리관리",
+        "category": "life"
+      },
+      {
+        "id": "fm-20",
+        "subject": "섬유근육통 전화지원",
+        "category": "life"
+      },
+      {
+        "id": "fm-21",
+        "subject": "섬유근육통 지중해식이",
         "category": "food"
       },
       {
-        "id": "endo-17",
-        "subject": "자궁내막증 항염식이",
+        "id": "fm-22",
+        "subject": "섬유근육통 식이중재",
         "category": "food"
       },
       {
-        "id": "endo-18",
-        "subject": "자궁내막증 저포드맵식이",
-        "category": "food"
+        "id": "fm-23",
+        "subject": "섬유근육통 체중관리",
+        "category": "life"
       },
       {
-        "id": "endo-19",
-        "subject": "자궁내막증 영양상담",
-        "category": "food"
-      },
-      {
-        "id": "endo-20",
-        "subject": "자궁내막증 오메가3",
+        "id": "fm-24",
+        "subject": "섬유근육통 비타민D",
         "category": "supp"
       },
       {
-        "id": "endo-21",
-        "subject": "자궁내막증 비타민D",
+        "id": "fm-25",
+        "subject": "섬유근육통 코엔자임Q10",
         "category": "supp"
       },
       {
-        "id": "endo-22",
-        "subject": "자궁내막증 커큐민",
+        "id": "fm-26",
+        "subject": "섬유근육통 마그네슘",
         "category": "supp"
       },
       {
-        "id": "endo-23",
-        "subject": "자궁내막증 N아세틸시스테인",
+        "id": "fm-27",
+        "subject": "섬유근육통 오메가3",
         "category": "supp"
       },
       {
-        "id": "endo-24",
-        "subject": "자궁내막증 멜라토닌",
+        "id": "fm-28",
+        "subject": "섬유근육통 커큐민",
         "category": "supp"
       },
       {
-        "id": "endo-25",
-        "subject": "자궁내막증 침치료",
+        "id": "fm-29",
+        "subject": "섬유근육통 침치료",
         "category": "care"
       },
       {
-        "id": "endo-26",
-        "subject": "자궁내막증 경피전기신경자극",
-        "category": "care"
-      },
-      {
-        "id": "endo-27",
-        "subject": "자궁내막증 마사지",
-        "category": "care"
-      },
-      {
-        "id": "endo-28",
-        "subject": "자궁내막증 온열치료",
-        "category": "care"
-      },
-      {
-        "id": "endo-29",
-        "subject": "자궁내막증 원격관리",
-        "category": "care"
-      },
-      {
-        "id": "endo-30",
-        "subject": "자궁내막증 모바일관리",
+        "id": "fm-30",
+        "subject": "섬유근육통 경피전기신경자극",
         "category": "care"
       }
     ],
-    "new_entries": 2,
-    "existing_links": 10,
-    "no_evidence_rejects": 865,
-    "new_candidate_rejects": 20,
-    "manual_screened_additions": 2,
+    "new_entries": 8,
+    "existing_links": 112,
+    "no_evidence_rejects": 1587,
+    "new_candidate_rejects": 16,
+    "manual_screened_additions": 8,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 2,
-    "existing_reference_links": 10,
-    "duplicate_search_pmids_removed": 328,
+    "new_references": 8,
+    "existing_reference_links": 112,
+    "duplicate_search_pmids_removed": 1369,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 1208,
-    "main_search_records": 68,
-    "main_search_unique_pmids": 48,
+    "search_returned_records": 3092,
+    "main_search_records": 399,
+    "main_search_unique_pmids": 274,
     "refinement_query_count": 30,
-    "refinement_search_records": 24,
-    "refinement_unique_pmids": 22,
+    "refinement_search_records": 105,
+    "refinement_unique_pmids": 88,
     "extra_query_count": 30,
-    "extra_search_records": 617,
-    "extra_unique_pmids": 545,
-    "extra_new_unique_pmids": 509,
+    "extra_search_records": 1148,
+    "extra_unique_pmids": 1001,
+    "extra_new_unique_pmids": 878,
     "extra2_query_count": 30,
-    "extra2_search_records": 162,
-    "extra2_unique_pmids": 125,
-    "extra2_new_unique_pmids": 103,
+    "extra2_search_records": 834,
+    "extra2_unique_pmids": 563,
+    "extra2_new_unique_pmids": 433,
     "extra3_query_count": 30,
-    "extra3_search_records": 361,
-    "extra3_unique_pmids": 320,
-    "extra3_new_unique_pmids": 302,
+    "extra3_search_records": 711,
+    "extra3_unique_pmids": 545,
+    "extra3_new_unique_pmids": 455,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 4,
-    "followup_search_records": 2,
-    "followup_search_unique_pmids": 2,
-    "combined_search_unique_pmids": 880,
-    "combined_all_unique_pmids": 880,
-    "requested": 880,
-    "fetched": 880,
-    "fetch_chunks": 9,
-    "abstracts": 856,
-    "abstracts_all_sources": 856,
+    "followup_query_count": 16,
+    "followup_search_records": 9,
+    "followup_search_unique_pmids": 8,
+    "combined_search_unique_pmids": 1723,
+    "combined_all_unique_pmids": 1723,
+    "requested": 1723,
+    "fetched": 1723,
+    "fetch_chunks": 18,
+    "abstracts": 1681,
+    "abstracts_all_sources": 1681,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,251 +9823,282 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 4,
-    "followup_fetched": 2,
+    "followup_requested": 16,
+    "followup_fetched": 8,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 880,
-    "candidate_parser_candidates": 15,
-    "candidate_parser_candidates_after_write": 15,
-    "union_candidate_like": 15,
-    "union_new_candidate_like": 5,
-    "effect_candidate_rows": 5,
-    "manual_candidate_count": 2,
+    "candidate_parser_parsed": 1723,
+    "candidate_parser_candidates": 136,
+    "candidate_parser_candidates_after_write": 136,
+    "union_candidate_like": 136,
+    "union_new_candidate_like": 24,
+    "effect_candidate_rows": 24,
+    "manual_candidate_count": 8,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "38566501",
-      "40088332"
+      "37245691",
+      "26180320",
+      "32891275",
+      "42013931",
+      "41141588",
+      "19078022",
+      "27443526",
+      "35893415"
     ],
     "selected_ncts": [],
     "new_pmids": [
-      "38566501",
-      "40088332"
+      "37245691",
+      "26180320",
+      "32891275",
+      "42013931",
+      "41141588",
+      "19078022",
+      "27443526",
+      "35893415"
     ],
     "new_ncts": [],
     "new_entry_ids": [
-      "endometriosis-cbt-rct-38566501-pos",
-      "endometriosis-curcumin-art-40088332-pos"
+      "fibromyalgia-land-water-exercise-37245691-pos",
+      "fibromyalgia-exercise-types-26180320-pos",
+      "fibromyalgia-preferred-exercise-32891275-pos",
+      "fibromyalgia-land-water-fitness-42013931-pos",
+      "fibromyalgia-qigong-41141588-pos",
+      "fibromyalgia-massage-tens-19078022-pos",
+      "fibromyalgia-olive-oil-27443526-pos",
+      "fibromyalgia-cryostimulation-35893415-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "life": 1,
-      "supp": 1
+      "move": 5,
+      "care": 2,
+      "food": 1
     },
     "tiers": {
-      "trial": 2
+      "trial": 8
     },
     "dirs": {
-      "pos": 2
+      "pos": 8
     },
     "unknown_n": 0,
-    "thin_studies": 0,
+    "thin_studies": 5,
     "validator_errors": 0,
-    "validator_warnings": 0,
+    "validator_warnings": 5,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 0,
+    "initial_validator_warnings": 5,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9806,
-    "build_warning_lines": 9805,
-    "new_build_warnings": [],
+    "initial_build_warning_lines": 9815,
+    "build_warning_lines": 9810,
+    "new_build_warnings": [
+      "fibromyalgia-preferred-exercise-32891275-pos",
+      "fibromyalgia-qigong-41141588-pos",
+      "fibromyalgia-massage-tens-19078022-pos",
+      "fibromyalgia-olive-oil-27443526-pos",
+      "fibromyalgia-cryostimulation-35893415-pos"
+    ],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [],
+    "new_thin_study_warnings": [
+      "fibromyalgia-preferred-exercise-32891275-pos",
+      "fibromyalgia-qigong-41141588-pos",
+      "fibromyalgia-massage-tens-19078022-pos",
+      "fibromyalgia-olive-oil-27443526-pos",
+      "fibromyalgia-cryostimulation-35893415-pos"
+    ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 1,
-    "targeted_warnings_total": 937,
+    "targeted_batch_warnings_fixed": 5,
+    "targeted_warnings_total": 942,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26975,
+    "open_numeric_comparisons": 26983,
     "build_exit": 0,
-    "build": "27915 entries; 31075 refs; trial 27064; obs 754; animal 32; lab 18; case 47; numeric 26975; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 자궁내막증 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 68개 레코드·고유 PMID 48개였고, 첫 보강은 617개 레코드·고유 PMID 545개·신규 PMID 509개, 두 번째 보강은 162개 레코드·고유 PMID 125개·신규 PMID 103개, 세 번째 보강은 361개 레코드·고유 PMID 320개·신규 PMID 302개였다. 네 검색 세트는 1208개 레코드·중복 제거 후 고유 PMID 880개였다. EFetch는 880개를 요청·수집했고 856개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 880건에서 후보 15건·신규 후보 5건·효과 후보 5건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 2건을 기록했고 수동 제외 목록 20건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 4개 질의에서 2개 레코드·고유 PMID 2개를 확인했다.",
+    "build": "27923 entries; 31083 refs; trial 27072; obs 754; animal 32; lab 18; case 47; numeric 26983; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 섬유근육통 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 399개 레코드·고유 PMID 274개였고, 첫 보강은 1148개 레코드·고유 PMID 1001개·신규 PMID 878개, 두 번째 보강은 834개 레코드·고유 PMID 563개·신규 PMID 433개, 세 번째 보강은 711개 레코드·고유 PMID 545개·신규 PMID 455개였다. 네 검색 세트는 3092개 레코드·중복 제거 후 고유 PMID 1723개였다. EFetch는 1723개를 요청·수집했고 1681개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1723건에서 후보 136건·신규 후보 24건·효과 후보 24건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 8건을 기록했고 수동 제외 목록 16건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 16개 질의에서 9개 레코드·고유 PMID 8개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "endo-1",
-        "subject": "자궁내막증 운동치료",
+        "id": "fm-1",
+        "subject": "섬유근육통 운동치료",
         "category": "move"
       },
       {
-        "id": "endo-2",
-        "subject": "자궁내막증 유산소운동",
+        "id": "fm-2",
+        "subject": "섬유근육통 유산소운동",
         "category": "move"
       },
       {
-        "id": "endo-3",
-        "subject": "자궁내막증 걷기운동",
+        "id": "fm-3",
+        "subject": "섬유근육통 저항운동",
         "category": "move"
       },
       {
-        "id": "endo-4",
-        "subject": "자궁내막증 요가",
+        "id": "fm-4",
+        "subject": "섬유근육통 걷기운동",
         "category": "move"
       },
       {
-        "id": "endo-5",
-        "subject": "자궁내막증 골반저근운동",
+        "id": "fm-5",
+        "subject": "섬유근육통 수중운동",
         "category": "move"
       },
       {
-        "id": "endo-6",
-        "subject": "자궁내막증 스트레칭",
+        "id": "fm-6",
+        "subject": "섬유근육통 요가",
         "category": "move"
       },
       {
-        "id": "endo-7",
-        "subject": "자궁내막증 신체활동",
+        "id": "fm-7",
+        "subject": "섬유근육통 태극권",
         "category": "move"
       },
       {
-        "id": "endo-8",
-        "subject": "자궁내막증 마음챙김",
+        "id": "fm-8",
+        "subject": "섬유근육통 기공",
+        "category": "move"
+      },
+      {
+        "id": "fm-9",
+        "subject": "섬유근육통 스트레칭",
+        "category": "move"
+      },
+      {
+        "id": "fm-10",
+        "subject": "섬유근육통 신체활동",
+        "category": "move"
+      },
+      {
+        "id": "fm-11",
+        "subject": "섬유근육통 인지행동치료",
         "category": "life"
       },
       {
-        "id": "endo-9",
-        "subject": "자궁내막증 인지행동치료",
+        "id": "fm-12",
+        "subject": "섬유근육통 마음챙김",
         "category": "life"
       },
       {
-        "id": "endo-10",
-        "subject": "자궁내막증 자기관리",
+        "id": "fm-13",
+        "subject": "섬유근육통 자기관리",
         "category": "life"
       },
       {
-        "id": "endo-11",
-        "subject": "자궁내막증 환자교육",
+        "id": "fm-14",
+        "subject": "섬유근육통 환자교육",
         "category": "life"
       },
       {
-        "id": "endo-12",
-        "subject": "자궁내막증 통증대처",
+        "id": "fm-15",
+        "subject": "섬유근육통 통증대처",
         "category": "life"
       },
       {
-        "id": "endo-13",
-        "subject": "자궁내막증 수면관리",
+        "id": "fm-16",
+        "subject": "섬유근육통 수면관리",
         "category": "life"
       },
       {
-        "id": "endo-14",
-        "subject": "자궁내막증 스트레스관리",
+        "id": "fm-17",
+        "subject": "섬유근육통 스트레스관리",
         "category": "life"
       },
       {
-        "id": "endo-15",
-        "subject": "자궁내막증 체중관리",
+        "id": "fm-18",
+        "subject": "섬유근육통 이완훈련",
         "category": "life"
       },
       {
-        "id": "endo-16",
-        "subject": "자궁내막증 지중해식이",
+        "id": "fm-19",
+        "subject": "섬유근육통 온라인심리관리",
+        "category": "life"
+      },
+      {
+        "id": "fm-20",
+        "subject": "섬유근육통 전화지원",
+        "category": "life"
+      },
+      {
+        "id": "fm-21",
+        "subject": "섬유근육통 지중해식이",
         "category": "food"
       },
       {
-        "id": "endo-17",
-        "subject": "자궁내막증 항염식이",
+        "id": "fm-22",
+        "subject": "섬유근육통 식이중재",
         "category": "food"
       },
       {
-        "id": "endo-18",
-        "subject": "자궁내막증 저포드맵식이",
-        "category": "food"
+        "id": "fm-23",
+        "subject": "섬유근육통 체중관리",
+        "category": "life"
       },
       {
-        "id": "endo-19",
-        "subject": "자궁내막증 영양상담",
-        "category": "food"
-      },
-      {
-        "id": "endo-20",
-        "subject": "자궁내막증 오메가3",
+        "id": "fm-24",
+        "subject": "섬유근육통 비타민D",
         "category": "supp"
       },
       {
-        "id": "endo-21",
-        "subject": "자궁내막증 비타민D",
+        "id": "fm-25",
+        "subject": "섬유근육통 코엔자임Q10",
         "category": "supp"
       },
       {
-        "id": "endo-22",
-        "subject": "자궁내막증 커큐민",
+        "id": "fm-26",
+        "subject": "섬유근육통 마그네슘",
         "category": "supp"
       },
       {
-        "id": "endo-23",
-        "subject": "자궁내막증 N아세틸시스테인",
+        "id": "fm-27",
+        "subject": "섬유근육통 오메가3",
         "category": "supp"
       },
       {
-        "id": "endo-24",
-        "subject": "자궁내막증 멜라토닌",
+        "id": "fm-28",
+        "subject": "섬유근육통 커큐민",
         "category": "supp"
       },
       {
-        "id": "endo-25",
-        "subject": "자궁내막증 침치료",
+        "id": "fm-29",
+        "subject": "섬유근육통 침치료",
         "category": "care"
       },
       {
-        "id": "endo-26",
-        "subject": "자궁내막증 경피전기신경자극",
-        "category": "care"
-      },
-      {
-        "id": "endo-27",
-        "subject": "자궁내막증 마사지",
-        "category": "care"
-      },
-      {
-        "id": "endo-28",
-        "subject": "자궁내막증 온열치료",
-        "category": "care"
-      },
-      {
-        "id": "endo-29",
-        "subject": "자궁내막증 원격관리",
-        "category": "care"
-      },
-      {
-        "id": "endo-30",
-        "subject": "자궁내막증 모바일관리",
+        "id": "fm-30",
+        "subject": "섬유근육통 경피전기신경자극",
         "category": "care"
       }
     ],
     "screened_topics": [
-      "자궁내막증 운동치료",
-      "자궁내막증 유산소운동",
-      "자궁내막증 걷기운동",
-      "자궁내막증 요가",
-      "자궁내막증 골반저운동",
-      "자궁내막증 스트레칭",
-      "자궁내막증 신체활동",
-      "자궁내막증 마음챙김",
-      "자궁내막증 인지행동치료",
-      "자궁내막증 자기관리",
-      "자궁내막증 환자교육",
-      "자궁내막증 통증대처",
-      "자궁내막증 수면관리",
-      "자궁내막증 스트레스관리",
-      "자궁내막증 체중관리",
-      "자궁내막증 지중해식이",
-      "자궁내막증 항염식이",
-      "자궁내막증 저포드맵식이",
-      "자궁내막증 영양상담",
-      "자궁내막증 오메가3",
-      "자궁내막증 비타민D",
-      "자궁내막증 커큐민",
-      "자궁내막증 NAC",
-      "자궁내막증 멜라토닌",
-      "자궁내막증 침치료",
-      "자궁내막증 TENS",
-      "자궁내막증 마사지",
-      "자궁내막증 온열치료",
-      "자궁내막증 원격관리",
-      "자궁내막증 모바일관리"
+      "섬유근육통 운동치료",
+      "섬유근육통 유산소운동",
+      "섬유근육통 저항운동",
+      "섬유근육통 걷기운동",
+      "섬유근육통 수중운동",
+      "섬유근육통 요가",
+      "섬유근육통 태극권",
+      "섬유근육통 기공",
+      "섬유근육통 스트레칭",
+      "섬유근육통 신체활동",
+      "섬유근육통 인지행동치료",
+      "섬유근육통 마음챙김",
+      "섬유근육통 자기관리",
+      "섬유근육통 환자교육",
+      "섬유근육통 통증대처",
+      "섬유근육통 수면관리",
+      "섬유근육통 스트레스관리",
+      "섬유근육통 이완훈련",
+      "섬유근육통 온라인심리관리",
+      "섬유근육통 전화지원",
+      "섬유근육통 지중해식이",
+      "섬유근육통 식이중재",
+      "섬유근육통 체중관리",
+      "섬유근육통 비타민D",
+      "섬유근육통 코엔자임Q10",
+      "섬유근육통 마그네슘",
+      "섬유근육통 오메가3",
+      "섬유근육통 커큐민",
+      "섬유근육통 침치료",
+      "섬유근육통 경피전기신경자극"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10077,38 +10106,34 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12370",
-      "worklist_line": "new-expansion-candidates-batch12370",
-      "topic": "다음 비처방 후보 주제 선정 batch 12370",
+      "next_batch": "12380",
+      "worklist_line": "new-expansion-candidates-batch12380",
+      "topic": "다음 비처방 후보 주제 선정 batch 12380",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 0,
+    "thin": 5,
     "rejected_candidate_pmids": [
-      "29533153",
-      "28102491",
-      "38485397",
-      "27484764",
-      "20491565",
-      "29643586",
-      "39305835",
-      "36895681",
-      "38903416",
-      "35475975",
-      "36683601",
-      "41643815",
-      "21589790",
-      "41715206",
-      "36981595",
-      "38614242",
-      "19958132",
-      "18054352",
-      "34994286",
-      "31256576"
+      "12455823",
+      "27844124",
+      "22336292",
+      "26921267",
+      "28930252",
+      "8533042",
+      "10646411",
+      "19277851",
+      "22278161",
+      "23070672",
+      "25602179",
+      "9192257",
+      "32551725",
+      "37265538",
+      "16401454",
+      "8826510"
     ],
-    "new_search_pmids": 832
+    "new_search_pmids": 1449
   },
   "previous_last_batch_10490": {
     "id": "10490",
