@@ -28104,3 +28104,15 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,372개; 주제 19,690개; 근거 링크 30,532개; 숫자 군간 비교 26,432개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,899개.
 - checkpoint state commit: 65ca077d9c6dec05f1de5764262844be7c0d4414; data commit: f139062511afa41ebe815da18d010c0cdb6bd3fe; push marker commit: 966f0f44903c4ada439498d2034ab56dc0aa7cfd; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11690; resume point new-expansion-candidates-batch11690; 다음은 다음 비처방 후보 주제 선정 batch 11690이다.
+- 배치 11690: 이명 비처방·비약물 후보 30개 주제를 처리해 신규 항목 3건을 기록했다. 기본·재검색 60개 주제에서 504개 레코드·고유 PMID 223개, 첫 보강 30개 질의에서 256개 레코드·고유 PMID 201개·신규 PMID 56개, 두 번째 보강 30개 질의에서 841개 레코드·고유 PMID 416개·신규 PMID 197개, 광범위 보강 21개 질의에서 188개 레코드·고유 PMID 161개·신규 PMID 7개를 확인했다. 네 검색 세트는 1,789개 레코드·중복 제거 후 고유 PMID 483개였다.
+- fetch·초록: 고유 PMID 483개를 PubMed EFetch로 요청해 483개 기록·5개 chunk·일반 초록 479개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 483건·후보 58건·신규 후보 17건·효과 후보 17건·기존 연결 후보 41건을 확인했다. 직접 군간 수치·효과크기·유효한 상대효과가 없거나 약물·질환 불일치·건강인·질적 분석·예측분석만 있는 연구인 425건을 제외했고, 신규 후보 중 14건은 같은 기준으로 수동 제외했다. 인지행동치료·반복경두개자기자극·소리치료 반응예측에서 초록에 확인된 군별 표본 수·유의성·AUC 또는 유효한 상대효과만 기록했다. 반응 예측 항목은 치료 우월성으로 해석하지 않고 open으로 남겼다.
+- 신규 PMID: 25031187, 39390748, 41865279.
+- 신규 ID: tinnitus-cbt-cognitions-25031187-pos, tinnitus-rtms-alpha-39390748-pos, tinnitus-sound-therapy-predictor-41865279-open.
+- 범주별 신규: care 3건; trial 3건; pos 2건·open 1건.
+- 전용 검증·빌드: 초기 validator 오류 1·경고 1, 최종 validator 오류 0·경고 1; 초기 build exit 0·오류 0·경고 9,582건, 최종 build exit 0·오류 0·경고 9,579건이었다. 새 targeted warning 3건(군간 비교 표현·줄 길이·번역투)을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 0건, n<50 신규 1건(tinnitus-rtms-alpha-39390748-pos)이며 원문에 없는 표본 수를 채우거나 경고를 숨기지 않았다. 반응 예측 AUC는 치료 우월성 효과크기가 아니므로 open으로 유지했다.
+- 부정·안전성 보강: 3개 질의·2개 레코드·고유 PMID 2개.
+- 누적 집계: 항목 27,375개; 주제 19,693개; 근거 링크 30,535개; 숫자 군간 비교 26,435개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,900개.
+- checkpoint state commit: 4049e6c16ee60cf174d64a1877648b0b3cf5bc9d; data commit: 468866776c7d61bd415d54c407888b11ae184c4e; push marker commit: aad163c70407b29ac19bd7ed9c558f602e7d1499; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11700; resume point new-expansion-candidates-batch11700; 다음은 다음 비처방 후보 주제 선정 batch 11700이다.
