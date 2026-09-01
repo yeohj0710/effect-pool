@@ -28424,3 +28424,13 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,627개; 주제 19,938개; 근거 링크 30,787개; 숫자 군간 비교 26,687개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: b4d05c4b3; data commit: 4fe2617b7; push marker commit: e8e0407c3; known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 11980; resume point new-expansion-candidates-batch11980; 다음은 다음 비처방 후보 주제 선정 batch 11980이다.
+- 배치 11980: 만성 비부비동염·만성 부비동염 비처방·비약물 worklist 30개 주제를 처리했지만 신규 적합 항목은 0건이었다. 기본 30개 주제와 재검색 30개 주제에서 330개 레코드·고유 PMID 208개를 확인했고, 추가 보강검색은 실행하지 않았다. 기존 비강 세척 무작위시험 PMID 16735920 등 기존 근거 2건만 후보 parser에 남았으며 새 항목으로 중복 기록하지 않았다.
+- 배치 11980 fetch·선별: 고유 PMID 208개를 PubMed EFetch로 요청·수집해 3개 chunk·초록 208개를 확보했다. 누락 PMID는 0개였고 선택 항목이 없어 재조회도 0건이었다. 후보 parser는 208건에서 후보 2건·신규 후보 0건·효과 후보 0건을 확인했다. 수치 부족·기존 항목 중복 자료를 신규 항목으로 만들지 않았다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 없음. ClinicalTrials.gov 별도 검색은 하지 않았다. 기존 항목 연결도 0건이다.
+- 범주별 신규: 없음.
+- 배치 11980 검증·빌드: 초기·최종 validator 오류 0건·경고 0건이었다. 초기·최종 build exit 0·오류 0건·경고 9691건이었다. 새 targeted warning은 0건이고 최종 targeted warning도 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 0건이다. 새 항목이 없어 연구 표본 수 경고를 추가하지 않았고 기존 경고를 숨기거나 조작하지 않았다. 누적 build 경고는 사람 수 미상 1339건·소규모 연구 8003건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,627개; 주제 19,938개; 근거 링크 30,787개; 숫자 군간 비교 26,687개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 89f4c446f; data commit: 없음; push marker commit: 390bcc41d; known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 11990; resume point new-expansion-candidates-batch11990; 다음은 다음 비처방 후보 주제 선정 batch 11990이다.
