@@ -28402,3 +28402,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,625개; 주제 19,936개; 근거 링크 30,785개; 숫자 군간 비교 26,685개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 2fc0bfa72; data commit: bbd3666dc; push marker commit: c317d7a5a; known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 11960; resume point new-expansion-candidates-batch11960; 다음은 다음 비처방 후보 주제 선정 batch 11960이다.
+- 배치 11960: 만성 어깨 통증·회전근개 관련 통증 비처방·비약물 worklist 30개 주제를 처리해 신규 항목 1건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 258개 레코드·고유 PMID 103개, 첫 보강 30개 질의에서 304개 레코드·고유 PMID 215개·신규 PMID 201개, 두 번째·세 번째 보강은 0개 질의·0개 레코드였다. 네 검색 세트는 562개 레코드·중복 제거 후 고유 PMID 304개였다.
+- 배치 11960 fetch·선별: 고유 PMID 304개를 PubMed EFetch로 요청·수집해 4개 chunk·원저 초록 302개를 확보했다. 누락 PMID는 0개였고, 신규 선택 PMID 1개를 재조회해 1개 PubmedArticle과 초록 1개를 확인했다. 후보 parser는 304건에서 후보 63건·신규 후보 3건·효과 후보 3건을 확인했다. 직접 숫자·비율·P값·효과크기가 있는 신규 null 항목 1건을 선택하고, 수동 제외 3건과 재분석·2차 분석·기존 연구 중복을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 40368129(shoulder-pain-painful-exercise-40368129-null). ClinicalTrials.gov 별도 검색은 하지 않았으며, 신규 ref에는 PubMed PMID를 직접 기록했다. 초록에 명시된 NCT04553289는 해당 항목의 메타데이터로 보존했다. 기존 항목 연결은 0건이다.
+- 수동 제외 PMID: 15322438, 28099193, 38875839. 재분석·기존 편마비 어깨 말초신경자극 연구의 중복 보고·기대도 2차 분석을 제외했다.
+- 범주별 신규: move 1건; trial 1건; null 1건.
+- 배치 11960 검증·빌드: 초기·최종 validator 오류 0건·경고 1건이었다. 초기·최종 build exit 0·오류 0건·경고 9690건이었다. 새 targeted warning은 0건이고 최종 targeted warning도 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 1건이다. n=41 통증 허용 운동과 통증 없는 운동 비교 2차 분석의 소규모 연구 경고를 유지했다. 표본 수를 임의로 채우거나 경고를 숨기지 않았다. 누적 build 경고는 사람 수 미상 1339건·소규모 연구 8002건이다.
+- 부정·안전성 보강: 1개 질의·1개 레코드·고유 PMID 1개.
+- 누적 집계: 항목 27,626개; 주제 19,937개; 근거 링크 30,786개; 숫자 군간 비교 26,686개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: bbb6f91c7; data commit: 95e5a4cc2; push marker commit: f0b4f7f84; known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 11970; resume point new-expansion-candidates-batch11970; 다음은 다음 비처방 후보 주제 선정 batch 11970이다.
