@@ -28128,3 +28128,16 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,376개; 주제 19,693개; 근거 링크 30,536개; 숫자 군간 비교 26,436개; 사람 수 미상 build 경고 1,330개; 소규모 연구 build 경고 7,901개.
 - checkpoint state commit: 47e345740; data commit: 1d3b507c4; push marker commit: 73f53bb07; 데이터와 PUSHED=true 상태를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
 - 정확한 다음 재개점: next_batch 11710; resume point new-expansion-candidates-batch11710; 다음은 다음 비처방 후보 주제 선정 batch 11710이다.
+- 배치 11710: 손목터널증후군 비처방·비약물 후보 30개 주제를 처리해 신규 항목 17건을 기록했다. 기본·재검색 60개 주제에서 397개 레코드·고유 PMID 226개, 첫 보강 30개 질의에서 393개 레코드·고유 PMID 254개·신규 PMID 80개, 두 번째 보강 30개 질의에서 187개 레코드·고유 PMID 127개·신규 PMID 14개, 광범위 보강 21개 질의에서 889개 레코드·고유 PMID 381개·신규 PMID 128개를 확인했다. 네 검색 세트는 1,866개 레코드·중복 제거 후 고유 PMID 448개였다.
+- fetch·초록: 고유 PMID 448개를 PubMed EFetch로 요청해 448개 기록·5개 chunk·일반 초록 443개를 확보했고 누락은 0건이었다.
+- 후보·제외: parser 448건·후보 33건·신규 후보 8건·효과 후보 8건·기존 연결 후보 25건을 확인했다. 직접 숫자·효과크기·유효한 상대효과가 없거나 처방약·주사·수술 자체, 고찰·논평, 관찰·후향, 예측·질환 불일치·건강인·프로토콜·초록 없음·수치 부족 연구인 415건을 제외했고, 수동 제외 목록 101건도 같은 기준으로 제외했다. 섬유해리·도수치료·온열·냉각·전기자극·거울치료·저항운동·부목·마사지·침술·보충제·레이저·자기장·초음파 유도 전기자극·수욕법에서 중재군·대조군의 직접 숫자·비율·P값·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 17건을 기록했으며 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID: 36078691, 30594335, 21937521, 29590698, 19800329, 32442746, 42001196, 17617802, 29482955, 18370581, 29231607, 19803236, 37366197, 22037175, 26067628, 41503721, 19375278.
+- 신규 NCT: NCT05592184, NCT02217293.
+- 신규 ID: carpal-fibrolysis-36078691-pos, carpal-manual-health-30594335-pos, carpal-microwave-hyperthermia-21937521-pos, carpal-postop-cold-compression-29590698-null, carpal-postop-electrical-stimulation-19800329-pos, carpal-postop-mirror-32442746-pos, carpal-postop-resistance-dualtask-42001196-pos, carpal-postop-splint-17617802-null, carpal-postop-splint-regimens-29482955-null, carpal-targeted-massage-18370581-pos, carpal-acupuncture-distal-29231607-pos, carpal-acupuncture-tdp-herbal-19803236-pos, carpal-nutraceutical-37366197-pos, carpal-laser-magnetic-22037175-pos, carpal-pulsed-radiofrequency-26067628-pos, carpal-conditioning-stimulation-41503721-pos, carpal-contrast-bath-19375278-null.
+- 범주별 신규: care 14건·move 2건·supp 1건; trial 17건; pos 13건·null 4건.
+- 전용 검증·빌드: 초기 validator 오류 4·경고 8, 최종 오류 0·경고 8; 초기 build exit 0·오류 0·경고 9,597건, 최종 build exit 0·오류 0·경고 9,588건이었다. 새 targeted warning 9건(effect 1건·줄 길이 8건)을 수정했고 최종 targeted warning은 0건이다.
+- 실제 경고: unknown-n 신규 1건(carpal-postop-electrical-stimulation-19800329-pos), n<50 신규 7건(carpal-fibrolysis-36078691-pos, carpal-microwave-hyperthermia-21937521-pos, carpal-postop-mirror-32442746-pos, carpal-postop-resistance-dualtask-42001196-pos, carpal-targeted-massage-18370581-pos, carpal-laser-magnetic-22037175-pos, carpal-pulsed-radiofrequency-26067628-pos)이며 원문에 없는 표본 수를 채우거나 소규모 연구 경고를 숨기지 않았다. 수술 후 전기자극 연구는 초록에 표본 수가 없어 n=null로 유지했다.
+- 부정·안전성 보강: 17개 질의·15개 레코드·고유 PMID 15개.
+- 누적 집계: 항목 27,393개; 주제 19,710개; 근거 링크 30,553개; 숫자 군간 비교 26,453개; 사람 수 미상 build 경고 1,331개; 소규모 연구 build 경고 7,908개.
+- checkpoint state commit: c25551706; data commit: 98d6ed4f1; push marker commit: b1b99f185; 현재 PUSHED=true 상태와 데이터를 origin/main에 올렸고 known_items 기록을 이어서 푸시한다.
+- 정확한 다음 재개점: next_batch 11720; resume point new-expansion-candidates-batch11720; 다음은 다음 비처방 후보 주제 선정 batch 11720이다.
