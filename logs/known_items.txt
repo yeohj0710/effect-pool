@@ -28587,3 +28587,14 @@ batch11260 | 주제·선정=30·30 | 검색 레코드=1665 | 고유 PMID=448 | f
 - 누적 집계: 항목 27,660개; 주제 19,969개; 근거 링크 30,820개; 숫자 군간 비교 26,720개. Worklist 17,174/17,174 확인을 유지했다.
 - checkpoint state commit: 134e453e2; data commit: 9bd4ff41c; push marker commit: 79d3e569e; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
 - 정확한 다음 재개점: next_batch 12130; resume point new-expansion-candidates-batch12130; 다음은 다음 비처방 후보 주제 선정 batch 12130이다.
+- 배치 12130: 고관절 골관절염 비처방 관리 worklist 30개 주제를 처리해 신규 항목 5건을 기록했다. 기본 30개 주제와 재검색 30개 주제에서 351개 레코드·고유 PMID 177개, 첫 보강 30개 질의에서 268개 레코드·고유 PMID 173개·신규 PMID 43개를 확인했고, 두 번째·세 번째 보강은 실행하지 않았다. 두 검색 세트는 619개 레코드·중복 제거 후 고유 PMID 220개였다.
+- 배치 12130 fetch·선별: 고유 PMID 220개를 PubMed EFetch로 요청·수집해 3개 chunk·초록 219개를 확보했다. 누락 PMID는 0개였고 선택 항목 재조회도 0건이었다. 후보 parser는 220건에서 후보 25건·신규 후보 5건·효과 후보 5건을 확인했다. 신규 적합 항목 5건을 기록했고, 기존 연결 20건과 수동 제외 20건 및 직접 수치 부족·비적합 195건을 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다.
+- 신규 PMID·ID: 18283204, 11932878, 28830491, 32507443, 17961392; 신규 항목 `hip-oa-glucosamine-18283204-null`, `hip-oa-asu-11932878-null`, `hip-knee-oa-mussel-28830491-null`, `hip-oa-dry-needling-32507443-pos`, `hip-knee-oa-glucosamine-hcl-17961392-null` 5건. 글루코사민 황산염, 아보카도·대두 불검화물, 초록입홍합 추출물, 건침, 글루코사민 제형 비교의 직접 군간 수치·비율·P값·효과크기를 기록했다. ClinicalTrials.gov 별도 검색은 하지 않았다.
+- 수동 제외 PMID: 26787117, 6349649, 1353654, 19687625, 26620092, 41366694, 16290043, 29514801, 790548, 30853454, 26023213, 10806051, 18343244, 24557411, 25957650, 15695307, 16214379, 26631103, 25886499, 9117181. 동물·처방약·프로토콜·비임상·수술·2차 분석·혼합 질환·직접 군간 수치 부족 연구를 제외했다.
+- 범주별 신규: supp 4건; care 1건; trial 5건; null 4건; pos 1건.
+- 배치 12130 검증·빌드: 초기·최종 validator 오류 0건·경고 1건이었다. 초기 build exit 0·오류 0건·경고 9714건에서 `vs` 비교 표현·질환형 주어 warning 2건을 수정해 최종 build exit 0·오류 0건·경고 9712건이 됐다. 새 targeted warning은 2건, 최종 targeted warning은 0건이다. build exit code는 0이다.
+- 실제 경고: unknown-n 신규 0건·n<50 신규 1건(n=30)이다. 실제 건침 소규모 연구 경고를 유지했고 기존 경고를 숨기거나 조작하지 않았다. 누적 build 경고는 사람 수 미상 1341건·소규모 연구 8022건이다.
+- 부정·안전성 보강: 0개 질의·0개 레코드·고유 PMID 0개.
+- 누적 집계: 항목 27,665개; 주제 19,973개; 근거 링크 30,825개; 숫자 군간 비교 26,725개. Worklist 17,174/17,174 확인을 유지했다.
+- checkpoint state commit: 9268d19d7; data commit: 5a70c3cc4; push marker commit: 09abfd5c8; data·PUSHED=true 상태를 origin/main에 순서대로 push했고 known_items 기록을 이어서 확정한다.
+- 정확한 다음 재개점: next_batch 12140; resume point new-expansion-candidates-batch12140; 다음은 다음 비처방 후보 주제 선정 batch 12140이다.
