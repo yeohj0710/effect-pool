@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T16:30:47.919Z",
+  "updated": "2026-09-01T16:51:56.687Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 27838,
-  "subjects": 20137,
-  "refs": 30998,
+  "entries": 27868,
+  "subjects": 20167,
+  "refs": 31028,
   "kinds": {
     "undefined": 10367,
-    "food": 904,
-    "care": 8019,
-    "supp": 2659,
-    "move": 3356,
+    "food": 905,
+    "care": 8026,
+    "supp": 2665,
+    "move": 3364,
     "otc": 609,
-    "life": 1900,
+    "life": 1908,
     "rx": 24
   },
   "tiers": {
-    "trial": 26987,
+    "trial": 27017,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19423,
-    "null": 6445,
+    "pos": 19445,
+    "null": 6453,
     "harm": 317,
     "open": 1653
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12320는 천식 비처방 관리 비처방·비약물 후보에서 신규 항목 0건을 기록했다. 다음 재개점은 batch 12330이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12330는 관상동맥질환 비처방 관리 비처방·비약물 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 12340이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12320는 천식 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 0건을 추가했다. 다음 확장은 batch 12330이다."
+    "note": "Batch 12330는 관상동맥질환 비처방 관리에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12340이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.0% (4172 entries)",
+    "over_counter_share": "15.0% (4179 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6762)",
-    "vs_share": "96.6% (26898)",
+    "no_effect_or_harm_share": "24.3% (6770)",
+    "vs_share": "96.6% (26928)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "96.9% (26987)",
+    "trial_share": "96.9% (27017)",
     "non_trial_share": "3.1% (851)",
     "build_warnings": {
       "unknown_n": 1346,
-      "thin_study": 8089,
-      "targeted_batch_warnings": 901
+      "thin_study": 8094,
+      "targeted_batch_warnings": 902
     },
-    "targeted_batch_warnings": 901
+    "targeted_batch_warnings": 902
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12330",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12330",
-    "topic": "다음 비처방 후보 주제 선정 batch 12330"
+    "batch": "12340",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12340",
+    "topic": "다음 비처방 후보 주제 선정 batch 12340"
   },
   "resume": {
-    "next_batch": "12330",
-    "worklist_line": "new-expansion-candidates-batch12330",
-    "topic": "다음 비처방 후보 주제 선정 batch 12330",
+    "next_batch": "12340",
+    "worklist_line": "new-expansion-candidates-batch12340",
+    "topic": "다음 비처방 후보 주제 선정 batch 12340",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,213 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12320",
+    "id": "12330",
     "commit": null,
-    "pushed": true,
+    "pushed": false,
     "expansion_commit": null,
     "data_commits": [],
-    "checkpoint_commit": "8e4a1ad525e78fbeff8708dfeba1dde7c2ead436",
-    "push_marker_commit": "dbf1055e8b7ff75bb0e11012a29b8bb43d1d6a2e",
-    "known_items_commit": "b6f5da529c2a449e8bca7da6b7af5e3f88e4ad7c",
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "asthma-1",
-        "subject": "천식 폐재활",
+        "id": "cad-1",
+        "subject": "관상동맥질환 심장재활",
         "category": "move"
       },
       {
-        "id": "asthma-2",
-        "subject": "천식 유산소운동",
+        "id": "cad-2",
+        "subject": "관상동맥질환 운동훈련",
         "category": "move"
       },
       {
-        "id": "asthma-3",
-        "subject": "천식 호흡운동",
+        "id": "cad-3",
+        "subject": "관상동맥질환 유산소운동",
         "category": "move"
       },
       {
-        "id": "asthma-4",
-        "subject": "천식 요가",
+        "id": "cad-4",
+        "subject": "관상동맥질환 걷기운동",
         "category": "move"
       },
       {
-        "id": "asthma-5",
-        "subject": "천식 태극권",
+        "id": "cad-5",
+        "subject": "관상동맥질환 저항운동",
         "category": "move"
       },
       {
-        "id": "asthma-6",
-        "subject": "천식 기공",
+        "id": "cad-6",
+        "subject": "관상동맥질환 인터벌운동",
         "category": "move"
       },
       {
-        "id": "asthma-7",
-        "subject": "천식 흡기근훈련",
+        "id": "cad-7",
+        "subject": "관상동맥질환 요가",
         "category": "move"
       },
       {
-        "id": "asthma-8",
-        "subject": "천식 걷기운동",
+        "id": "cad-8",
+        "subject": "관상동맥질환 태극권",
         "category": "move"
       },
       {
-        "id": "asthma-9",
-        "subject": "천식 신체활동",
+        "id": "cad-9",
+        "subject": "관상동맥질환 기공",
         "category": "move"
       },
       {
-        "id": "asthma-10",
-        "subject": "천식 인터벌운동",
+        "id": "cad-10",
+        "subject": "관상동맥질환 호흡운동",
         "category": "move"
       },
       {
-        "id": "asthma-11",
-        "subject": "천식 저항운동",
+        "id": "cad-11",
+        "subject": "관상동맥질환 가정재활",
         "category": "move"
       },
       {
-        "id": "asthma-12",
-        "subject": "천식 스트레칭",
+        "id": "cad-12",
+        "subject": "관상동맥질환 신체활동",
         "category": "move"
       },
       {
-        "id": "asthma-13",
-        "subject": "천식 자기관리",
+        "id": "cad-13",
+        "subject": "관상동맥질환 자기관리",
         "category": "life"
       },
       {
-        "id": "asthma-14",
-        "subject": "천식 환자교육",
+        "id": "cad-14",
+        "subject": "관상동맥질환 환자교육",
         "category": "life"
       },
       {
-        "id": "asthma-15",
-        "subject": "천식 행동계획",
+        "id": "cad-15",
+        "subject": "관상동맥질환 금연중재",
         "category": "life"
       },
       {
-        "id": "asthma-16",
-        "subject": "천식 금연중재",
+        "id": "cad-16",
+        "subject": "관상동맥질환 체중관리",
         "category": "life"
       },
       {
-        "id": "asthma-17",
-        "subject": "천식 체중관리",
-        "category": "life"
-      },
-      {
-        "id": "asthma-18",
-        "subject": "천식 영양상담",
+        "id": "cad-17",
+        "subject": "관상동맥질환 지중해식이",
         "category": "food"
       },
       {
-        "id": "asthma-19",
-        "subject": "천식 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-20",
-        "subject": "천식 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-21",
-        "subject": "천식 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-22",
-        "subject": "천식 마그네슘보충",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-23",
-        "subject": "천식 식이중재",
+        "id": "cad-18",
+        "subject": "관상동맥질환 저염식이",
         "category": "food"
       },
       {
-        "id": "asthma-24",
-        "subject": "천식 원격재활",
+        "id": "cad-19",
+        "subject": "관상동맥질환 식물성식이",
+        "category": "food"
+      },
+      {
+        "id": "cad-20",
+        "subject": "관상동맥질환 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "cad-21",
+        "subject": "관상동맥질환 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "cad-22",
+        "subject": "관상동맥질환 코엔자임Q10",
+        "category": "supp"
+      },
+      {
+        "id": "cad-23",
+        "subject": "관상동맥질환 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "cad-24",
+        "subject": "관상동맥질환 원격재활",
         "category": "care"
       },
       {
-        "id": "asthma-25",
-        "subject": "천식 원격관리",
+        "id": "cad-25",
+        "subject": "관상동맥질환 원격관리",
         "category": "care"
       },
       {
-        "id": "asthma-26",
-        "subject": "천식 모바일관리",
+        "id": "cad-26",
+        "subject": "관상동맥질환 모바일관리",
         "category": "care"
       },
       {
-        "id": "asthma-27",
-        "subject": "천식 전화상담",
+        "id": "cad-27",
+        "subject": "관상동맥질환 전화상담",
         "category": "care"
       },
       {
-        "id": "asthma-28",
-        "subject": "천식 마음챙김",
+        "id": "cad-28",
+        "subject": "관상동맥질환 마음챙김",
         "category": "life"
       },
       {
-        "id": "asthma-29",
-        "subject": "천식 이완훈련",
+        "id": "cad-29",
+        "subject": "관상동맥질환 스트레스관리",
         "category": "life"
       },
       {
-        "id": "asthma-30",
-        "subject": "천식 수면관리",
+        "id": "cad-30",
+        "subject": "관상동맥질환 수면관리",
         "category": "life"
       }
     ],
-    "new_entries": 0,
-    "existing_links": 55,
-    "no_evidence_rejects": 1521,
-    "new_candidate_rejects": 17,
-    "manual_screened_additions": 0,
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 1486,
+    "new_candidate_rejects": 19,
+    "manual_screened_additions": 30,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 0,
-    "existing_reference_links": 55,
-    "duplicate_search_pmids_removed": 682,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_search_pmids_removed": 724,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 2275,
-    "main_search_records": 775,
-    "main_search_unique_pmids": 560,
+    "search_returned_records": 2259,
+    "main_search_records": 660,
+    "main_search_unique_pmids": 490,
     "refinement_query_count": 30,
-    "refinement_search_records": 397,
-    "refinement_unique_pmids": 344,
+    "refinement_search_records": 239,
+    "refinement_unique_pmids": 221,
     "extra_query_count": 30,
-    "extra_search_records": 643,
-    "extra_unique_pmids": 474,
-    "extra_new_unique_pmids": 317,
+    "extra_search_records": 796,
+    "extra_unique_pmids": 610,
+    "extra_new_unique_pmids": 421,
     "extra2_query_count": 30,
-    "extra2_search_records": 841,
-    "extra2_unique_pmids": 814,
-    "extra2_new_unique_pmids": 741,
+    "extra2_search_records": 797,
+    "extra2_unique_pmids": 760,
+    "extra2_new_unique_pmids": 666,
     "extra3_query_count": 30,
-    "extra3_search_records": 16,
-    "extra3_unique_pmids": 16,
-    "extra3_new_unique_pmids": 15,
+    "extra3_search_records": 6,
+    "extra3_unique_pmids": 6,
+    "extra3_new_unique_pmids": 3,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 0,
-    "followup_search_records": 0,
-    "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 1593,
-    "combined_all_unique_pmids": 1593,
-    "requested": 1593,
-    "fetched": 1593,
+    "followup_query_count": 60,
+    "followup_search_records": 32,
+    "followup_search_unique_pmids": 29,
+    "combined_search_unique_pmids": 1535,
+    "combined_all_unique_pmids": 1535,
+    "requested": 1535,
+    "fetched": 1535,
     "fetch_chunks": 16,
-    "abstracts": 1533,
-    "abstracts_all_sources": 1533,
+    "abstracts": 1475,
+    "abstracts_all_sources": 1475,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9823,235 +9823,351 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 0,
-    "followup_fetched": 0,
+    "followup_requested": 60,
+    "followup_fetched": 29,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 1593,
-    "candidate_parser_candidates": 72,
-    "candidate_parser_candidates_after_write": 72,
-    "union_candidate_like": 72,
-    "union_new_candidate_like": 17,
-    "effect_candidate_rows": 17,
-    "manual_candidate_count": 0,
+    "candidate_parser_parsed": 1535,
+    "candidate_parser_candidates": 49,
+    "candidate_parser_candidates_after_write": 49,
+    "union_candidate_like": 49,
+    "union_new_candidate_like": 49,
+    "effect_candidate_rows": 49,
+    "manual_candidate_count": 30,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
-    "selected_pmids": [],
+    "selected_pmids": [
+      "40498926",
+      "36649937",
+      "38029578",
+      "32694454",
+      "33577375",
+      "37265452",
+      "29934286",
+      "10805047",
+      "3571079",
+      "15486358",
+      "10898435",
+      "36093154",
+      "38146221",
+      "26440923",
+      "31960398",
+      "28350282",
+      "17417723",
+      "16244510",
+      "30086659",
+      "16617225",
+      "28112528",
+      "33342580",
+      "36743873",
+      "17674638",
+      "19543092",
+      "42268593",
+      "11451751",
+      "25092108",
+      "29932230",
+      "36960029"
+    ],
     "selected_ncts": [],
-    "new_pmids": [],
+    "new_pmids": [
+      "40498926",
+      "36649937",
+      "38029578",
+      "32694454",
+      "33577375",
+      "37265452",
+      "29934286",
+      "10805047",
+      "3571079",
+      "15486358",
+      "10898435",
+      "36093154",
+      "38146221",
+      "26440923",
+      "31960398",
+      "28350282",
+      "17417723",
+      "16244510",
+      "30086659",
+      "16617225",
+      "28112528",
+      "33342580",
+      "36743873",
+      "17674638",
+      "19543092",
+      "42268593",
+      "11451751",
+      "25092108",
+      "29932230",
+      "36960029"
+    ],
     "new_ncts": [],
-    "new_entry_ids": [],
+    "new_entry_ids": [
+      "cad-tech-rehab-40498926-pos",
+      "cad-cbt-distress-36649937-pos",
+      "cad-web-education-38029578-pos",
+      "cad-comprehensive-rehab-32694454-pos",
+      "cad-vr-rehab-33577375-pos",
+      "cad-opticare-obesity-37265452-pos",
+      "cad-home-telemonitor-29934286-pos",
+      "cad-postexercise-bp-10805047-null",
+      "cad-exercise-rwave-3571079-null",
+      "cad-older-women-exercise-15486358-pos",
+      "cad-exercise-frequency-10898435-pos",
+      "cad-combined-resistance-36093154-pos",
+      "cad-precede-selfmanagement-38146221-pos",
+      "cad-vitamin-d-26440923-pos",
+      "cad-mobile-health-31960398-pos",
+      "cad-heartcycle-mhealth-28350282-null",
+      "cad-expanded-rehab-17417723-pos",
+      "cad-lifestyle-stress-16244510-null",
+      "cad-cbt-biomarkers-30086659-null",
+      "cad-pbl-rehab-16617225-null",
+      "cad-omega3-28112528-pos",
+      "cad-lifestyle-nepal-33342580-pos",
+      "cad-myheartmate-36743873-null",
+      "cad-ornish-lifestyle-17674638-pos",
+      "cad-home-walking-women-19543092-pos",
+      "cad-vitamin-k-mk7-42268593-pos",
+      "cad-folate-endothelial-11451751-pos",
+      "cad-lcarnitine-25092108-pos",
+      "cad-selenium-29932230-null",
+      "cad-telediet-36960029-pos"
+    ],
     "existing_linked_entry_ids": [],
-    "categories": {},
-    "tiers": {},
-    "dirs": {},
+    "categories": {
+      "care": 7,
+      "life": 8,
+      "move": 8,
+      "supp": 6,
+      "food": 1
+    },
+    "tiers": {
+      "trial": 30
+    },
+    "dirs": {
+      "pos": 22,
+      "null": 8
+    },
     "unknown_n": 0,
-    "thin_studies": 0,
+    "thin_studies": 5,
     "validator_errors": 0,
-    "validator_warnings": 0,
+    "validator_warnings": 5,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 0,
+    "initial_validator_warnings": 5,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 9784,
-    "build_warning_lines": 9784,
-    "new_build_warnings": [],
+    "initial_build_warning_lines": 9790,
+    "build_warning_lines": 9789,
+    "new_build_warnings": [
+      "cad-vr-rehab-33577375-pos",
+      "cad-postexercise-bp-10805047-null",
+      "cad-older-women-exercise-15486358-pos",
+      "cad-omega3-28112528-pos",
+      "cad-lcarnitine-25092108-pos"
+    ],
     "new_unknown_n_warnings": [],
-    "new_thin_study_warnings": [],
+    "new_thin_study_warnings": [
+      "cad-vr-rehab-33577375-pos",
+      "cad-postexercise-bp-10805047-null",
+      "cad-older-women-exercise-15486358-pos",
+      "cad-omega3-28112528-pos",
+      "cad-lcarnitine-25092108-pos"
+    ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 0,
-    "targeted_warnings_total": 901,
+    "targeted_batch_warnings_fixed": 1,
+    "targeted_warnings_total": 902,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 26898,
+    "open_numeric_comparisons": 26928,
     "build_exit": 0,
-    "build": "27838 entries; 30998 refs; trial 26987; obs 754; animal 32; lab 18; case 47; numeric 26898; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 천식 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 775개 레코드·고유 PMID 560개였고, 첫 보강은 643개 레코드·고유 PMID 474개·신규 PMID 317개, 두 번째 보강은 841개 레코드·고유 PMID 814개·신규 PMID 741개, 세 번째 보강은 16개 레코드·고유 PMID 16개·신규 PMID 15개였다. 네 검색 세트는 2275개 레코드·중복 제거 후 고유 PMID 1593개였다. EFetch는 1593개를 요청·수집했고 1533개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1593건에서 후보 72건·신규 후보 17건·효과 후보 17건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 0건을 기록했고 수동 제외 목록 17건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 0개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "27868 entries; 31028 refs; trial 27017; obs 754; animal 32; lab 18; case 47; numeric 26928; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 관상동맥질환 비처방 관리 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 660개 레코드·고유 PMID 490개였고, 첫 보강은 796개 레코드·고유 PMID 610개·신규 PMID 421개, 두 번째 보강은 797개 레코드·고유 PMID 760개·신규 PMID 666개, 세 번째 보강은 6개 레코드·고유 PMID 6개·신규 PMID 3개였다. 네 검색 세트는 2259개 레코드·중복 제거 후 고유 PMID 1535개였다. EFetch는 1535개를 요청·수집했고 1475개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 1535건에서 후보 49건·신규 후보 49건·효과 후보 49건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 19건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 32개 레코드·고유 PMID 29개를 확인했다.",
     "qualified_topics": [
       {
-        "id": "asthma-1",
-        "subject": "천식 폐재활",
+        "id": "cad-1",
+        "subject": "관상동맥질환 심장재활",
         "category": "move"
       },
       {
-        "id": "asthma-2",
-        "subject": "천식 유산소운동",
+        "id": "cad-2",
+        "subject": "관상동맥질환 운동훈련",
         "category": "move"
       },
       {
-        "id": "asthma-3",
-        "subject": "천식 호흡운동",
+        "id": "cad-3",
+        "subject": "관상동맥질환 유산소운동",
         "category": "move"
       },
       {
-        "id": "asthma-4",
-        "subject": "천식 요가",
+        "id": "cad-4",
+        "subject": "관상동맥질환 걷기운동",
         "category": "move"
       },
       {
-        "id": "asthma-5",
-        "subject": "천식 태극권",
+        "id": "cad-5",
+        "subject": "관상동맥질환 저항운동",
         "category": "move"
       },
       {
-        "id": "asthma-6",
-        "subject": "천식 기공",
+        "id": "cad-6",
+        "subject": "관상동맥질환 인터벌운동",
         "category": "move"
       },
       {
-        "id": "asthma-7",
-        "subject": "천식 흡기근훈련",
+        "id": "cad-7",
+        "subject": "관상동맥질환 요가",
         "category": "move"
       },
       {
-        "id": "asthma-8",
-        "subject": "천식 걷기운동",
+        "id": "cad-8",
+        "subject": "관상동맥질환 태극권",
         "category": "move"
       },
       {
-        "id": "asthma-9",
-        "subject": "천식 신체활동",
+        "id": "cad-9",
+        "subject": "관상동맥질환 기공",
         "category": "move"
       },
       {
-        "id": "asthma-10",
-        "subject": "천식 인터벌운동",
+        "id": "cad-10",
+        "subject": "관상동맥질환 호흡운동",
         "category": "move"
       },
       {
-        "id": "asthma-11",
-        "subject": "천식 저항운동",
+        "id": "cad-11",
+        "subject": "관상동맥질환 가정재활",
         "category": "move"
       },
       {
-        "id": "asthma-12",
-        "subject": "천식 스트레칭",
+        "id": "cad-12",
+        "subject": "관상동맥질환 신체활동",
         "category": "move"
       },
       {
-        "id": "asthma-13",
-        "subject": "천식 자기관리",
+        "id": "cad-13",
+        "subject": "관상동맥질환 자기관리",
         "category": "life"
       },
       {
-        "id": "asthma-14",
-        "subject": "천식 환자교육",
+        "id": "cad-14",
+        "subject": "관상동맥질환 환자교육",
         "category": "life"
       },
       {
-        "id": "asthma-15",
-        "subject": "천식 행동계획",
+        "id": "cad-15",
+        "subject": "관상동맥질환 금연중재",
         "category": "life"
       },
       {
-        "id": "asthma-16",
-        "subject": "천식 금연중재",
+        "id": "cad-16",
+        "subject": "관상동맥질환 체중관리",
         "category": "life"
       },
       {
-        "id": "asthma-17",
-        "subject": "천식 체중관리",
-        "category": "life"
-      },
-      {
-        "id": "asthma-18",
-        "subject": "천식 영양상담",
+        "id": "cad-17",
+        "subject": "관상동맥질환 지중해식이",
         "category": "food"
       },
       {
-        "id": "asthma-19",
-        "subject": "천식 비타민D",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-20",
-        "subject": "천식 오메가3",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-21",
-        "subject": "천식 프로바이오틱스",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-22",
-        "subject": "천식 마그네슘보충",
-        "category": "supp"
-      },
-      {
-        "id": "asthma-23",
-        "subject": "천식 식이중재",
+        "id": "cad-18",
+        "subject": "관상동맥질환 저염식이",
         "category": "food"
       },
       {
-        "id": "asthma-24",
-        "subject": "천식 원격재활",
+        "id": "cad-19",
+        "subject": "관상동맥질환 식물성식이",
+        "category": "food"
+      },
+      {
+        "id": "cad-20",
+        "subject": "관상동맥질환 오메가3",
+        "category": "supp"
+      },
+      {
+        "id": "cad-21",
+        "subject": "관상동맥질환 비타민D",
+        "category": "supp"
+      },
+      {
+        "id": "cad-22",
+        "subject": "관상동맥질환 코엔자임Q10",
+        "category": "supp"
+      },
+      {
+        "id": "cad-23",
+        "subject": "관상동맥질환 프로바이오틱스",
+        "category": "supp"
+      },
+      {
+        "id": "cad-24",
+        "subject": "관상동맥질환 원격재활",
         "category": "care"
       },
       {
-        "id": "asthma-25",
-        "subject": "천식 원격관리",
+        "id": "cad-25",
+        "subject": "관상동맥질환 원격관리",
         "category": "care"
       },
       {
-        "id": "asthma-26",
-        "subject": "천식 모바일관리",
+        "id": "cad-26",
+        "subject": "관상동맥질환 모바일관리",
         "category": "care"
       },
       {
-        "id": "asthma-27",
-        "subject": "천식 전화상담",
+        "id": "cad-27",
+        "subject": "관상동맥질환 전화상담",
         "category": "care"
       },
       {
-        "id": "asthma-28",
-        "subject": "천식 마음챙김",
+        "id": "cad-28",
+        "subject": "관상동맥질환 마음챙김",
         "category": "life"
       },
       {
-        "id": "asthma-29",
-        "subject": "천식 이완훈련",
+        "id": "cad-29",
+        "subject": "관상동맥질환 스트레스관리",
         "category": "life"
       },
       {
-        "id": "asthma-30",
-        "subject": "천식 수면관리",
+        "id": "cad-30",
+        "subject": "관상동맥질환 수면관리",
         "category": "life"
       }
     ],
     "screened_topics": [
-      "천식 폐재활",
-      "천식 유산소운동",
-      "천식 호흡운동",
-      "천식 요가",
-      "천식 태극권",
-      "천식 기공",
-      "천식 흡기근훈련",
-      "천식 걷기운동",
-      "천식 신체활동",
-      "천식 인터벌운동",
-      "천식 저항운동",
-      "천식 스트레칭",
-      "천식 자기관리",
-      "천식 환자교육",
-      "천식 행동계획",
-      "천식 금연중재",
-      "천식 체중관리",
-      "천식 영양상담",
-      "천식 비타민D",
-      "천식 오메가3",
-      "천식 프로바이오틱스",
-      "천식 마그네슘보충",
-      "천식 식이중재",
-      "천식 원격재활",
-      "천식 원격관리",
-      "천식 모바일관리",
-      "천식 전화상담",
-      "천식 마음챙김",
-      "천식 이완훈련",
-      "천식 수면관리"
+      "관상동맥질환 심장재활",
+      "관상동맥질환 운동훈련",
+      "관상동맥질환 유산소운동",
+      "관상동맥질환 걷기운동",
+      "관상동맥질환 저항운동",
+      "관상동맥질환 인터벌운동",
+      "관상동맥질환 요가",
+      "관상동맥질환 태극권",
+      "관상동맥질환 기공",
+      "관상동맥질환 호흡운동",
+      "관상동맥질환 가정재활",
+      "관상동맥질환 신체활동",
+      "관상동맥질환 자기관리",
+      "관상동맥질환 환자교육",
+      "관상동맥질환 금연중재",
+      "관상동맥질환 체중관리",
+      "관상동맥질환 지중해식이",
+      "관상동맥질환 저염식이",
+      "관상동맥질환 식물성식이",
+      "관상동맥질환 오메가3",
+      "관상동맥질환 비타민D",
+      "관상동맥질환 코엔자임Q10",
+      "관상동맥질환 프로바이오틱스",
+      "관상동맥질환 원격재활",
+      "관상동맥질환 원격관리",
+      "관상동맥질환 모바일관리",
+      "관상동맥질환 전화상담",
+      "관상동맥질환 마음챙김",
+      "관상동맥질환 스트레스관리",
+      "관상동맥질환 수면관리"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10059,35 +10175,37 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12330",
-      "worklist_line": "new-expansion-candidates-batch12330",
-      "topic": "다음 비처방 후보 주제 선정 batch 12330",
+      "next_batch": "12340",
+      "worklist_line": "new-expansion-candidates-batch12340",
+      "topic": "다음 비처방 후보 주제 선정 batch 12340",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 0,
+    "thin": 5,
     "rejected_candidate_pmids": [
-      "18411832",
-      "23926751",
-      "38154554",
-      "10852793",
-      "24565457",
-      "30916664",
-      "30938089",
-      "33212796",
-      "32727225",
-      "18756654",
-      "35859665",
-      "18327432",
-      "34666208",
-      "33864928",
-      "35129399",
-      "25086579",
-      "27382613"
+      "36928518",
+      "31787026",
+      "18677174",
+      "34779349",
+      "14724371",
+      "26590130",
+      "34326136",
+      "24853566",
+      "16920656",
+      "12408204",
+      "27042130",
+      "21439754",
+      "18613991",
+      "25708169",
+      "14624399",
+      "20423411",
+      "34083407",
+      "37091669",
+      "41062377"
     ],
-    "new_search_pmids": 1033
+    "new_search_pmids": 1045
   },
   "previous_last_batch_10490": {
     "id": "10490",
