@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T11:28:14.764Z",
+  "updated": "2026-09-02T11:28:49.740Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 28645,
@@ -54,9 +54,9 @@
     "build_warnings": {
       "unknown_n": 1374,
       "thin_study": 8368,
-      "targeted_batch_warnings": 1138
+      "targeted_batch_warnings": 1147
     },
-    "targeted_batch_warnings": 1138
+    "targeted_batch_warnings": 1147
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "12800",
-    "status": "checkpointed",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch12800",
     "topic": "다음 비처방 후보 주제 선정 batch 12800"
   },
@@ -9607,13 +9607,15 @@
   },
   "last_batch": {
     "id": "12800",
-    "commit": null,
-    "pushed": false,
+    "commit": "e06c3a4d0ead0abdb23c5c82e0ef09ea1c19c20b",
+    "pushed": true,
     "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "data_commits": [
+      "e06c3a4d0ead0abdb23c5c82e0ef09ea1c19c20b"
+    ],
+    "checkpoint_commit": "ff700e5a01e2946fe36885fec2021d0122676d9b",
+    "push_marker_commit": "PENDING",
+    "known_items_commit": "PENDING",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -9812,7 +9814,7 @@
     "new_entry_scale_warnings_fixed": 0,
     "new_entry_translation_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 9,
-    "targeted_warnings_total": 1138,
+    "targeted_warnings_total": 1147,
     "validator_category_errors_fixed": 0,
     "open_numeric_comparisons": 27705,
     "build_exit": 0,
@@ -9903,7 +9905,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "12800",
       "worklist_line": "new-expansion-candidates-batch12800",
