@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-02T04:46:53.658Z",
+  "updated": "2026-09-02T05:06:08.304Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 28376,
-  "subjects": 20643,
-  "refs": 31536,
+  "entries": 28388,
+  "subjects": 20654,
+  "refs": 31548,
   "kinds": {
     "undefined": 10367,
     "food": 954,
-    "care": 8195,
+    "care": 8204,
     "supp": 2784,
     "move": 3418,
-    "otc": 672,
+    "otc": 675,
     "life": 1962,
     "rx": 24
   },
   "tiers": {
-    "trial": 27525,
+    "trial": 27537,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19814,
-    "null": 6579,
+    "pos": 19822,
+    "null": 6583,
     "harm": 321,
     "open": 1662
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12590는 자궁내막증 비처방·비약물 후보 비처방·비약물 후보에서 신규 항목 4건을 기록했다. 다음 재개점은 batch 12600이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12600는 건선 비처방·비약물 후보 비처방·비약물 후보에서 신규 항목 12건을 기록했다. 다음 재개점은 batch 12610이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,37 +41,37 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12590는 자궁내막증 비처방·비약물 후보에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 4건을 추가했다. 다음 확장은 batch 12600이다."
+    "note": "Batch 12600는 건선 비처방·비약물 후보에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 12건을 추가했다. 다음 확장은 batch 12610이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.5% (4410 entries)",
+    "over_counter_share": "15.5% (4413 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6900)",
-    "vs_share": "96.7% (27436)",
+    "no_effect_or_harm_share": "24.3% (6904)",
+    "vs_share": "96.7% (27448)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27525)",
+    "trial_share": "97.0% (27537)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1366,
-      "thin_study": 8288,
-      "targeted_batch_warnings": 1079
+      "thin_study": 8293,
+      "targeted_batch_warnings": 1085
     },
-    "targeted_batch_warnings": 1079
+    "targeted_batch_warnings": 1085
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12600",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12600",
-    "topic": "다음 비처방 후보 주제 선정 batch 12600"
+    "batch": "12610",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12610",
+    "topic": "다음 비처방 후보 주제 선정 batch 12610"
   },
   "resume": {
-    "next_batch": "12600",
-    "worklist_line": "new-expansion-candidates-batch12600",
-    "topic": "다음 비처방 후보 주제 선정 batch 12600",
+    "next_batch": "12610",
+    "worklist_line": "new-expansion-candidates-batch12610",
+    "topic": "다음 비처방 후보 주제 선정 batch 12610",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12590",
-    "commit": "2fcdc5d9f07af5ce50a736d0153b1565849556cf",
-    "pushed": true,
+    "id": "12600",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "2fcdc5d9f07af5ce50a736d0153b1565849556cf"
-    ],
-    "checkpoint_commit": "72252c817",
-    "push_marker_commit": "ad58410af",
-    "known_items_commit": "6528559cb",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "subject": "자궁내막증 유산소운동",
-        "term": "endometriosis aerobic exercise randomized",
-        "category": "move"
+        "subject": "건선 보습제",
+        "term": "psoriasis moisturizer randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 운동치료",
-        "term": "endometriosis exercise therapy randomized",
-        "category": "move"
+        "subject": "건선 연화제",
+        "term": "psoriasis emollient randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 요가",
-        "term": "endometriosis yoga randomized",
-        "category": "move"
+        "subject": "건선 콜타르",
+        "term": "psoriasis coal tar randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 스트레칭",
-        "term": "endometriosis stretching randomized",
-        "category": "move"
+        "subject": "건선 살리실산",
+        "term": "psoriasis salicylic acid randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 저항운동",
-        "term": "endometriosis resistance exercise randomized",
-        "category": "move"
+        "subject": "건선 요소 크림",
+        "term": "psoriasis urea cream randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 골반저 물리치료",
-        "term": "endometriosis pelvic floor physical therapy randomized",
-        "category": "move"
+        "subject": "건선 알로에베라",
+        "term": "psoriasis aloe vera randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 물리치료",
-        "term": "endometriosis physiotherapy randomized",
-        "category": "move"
+        "subject": "건선 캡사이신",
+        "term": "psoriasis capsaicin randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 경피전기신경자극",
-        "term": "endometriosis TENS randomized",
-        "category": "care"
+        "subject": "건선 비타민D 보충",
+        "term": "psoriasis vitamin D supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 전기자극",
-        "term": "endometriosis electrical stimulation randomized",
-        "category": "care"
+        "subject": "건선 오메가3",
+        "term": "psoriasis omega-3 supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 침술",
-        "term": "endometriosis acupuncture randomized",
-        "category": "care"
+        "subject": "건선 어유",
+        "term": "psoriasis fish oil randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 전기침",
-        "term": "endometriosis electroacupuncture randomized",
-        "category": "care"
+        "subject": "건선 프로바이오틱스",
+        "term": "psoriasis probiotics randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 지압",
-        "term": "endometriosis acupressure randomized",
-        "category": "care"
+        "subject": "건선 커큐민",
+        "term": "psoriasis curcumin randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 이침",
-        "term": "endometriosis auricular acupuncture randomized",
-        "category": "care"
+        "subject": "건선 강황",
+        "term": "psoriasis turmeric randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 뜸",
-        "term": "endometriosis moxibustion randomized",
-        "category": "care"
+        "subject": "건선 녹차",
+        "term": "psoriasis green tea randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 마사지",
-        "term": "endometriosis massage randomized",
-        "category": "care"
+        "subject": "건선 비타민E",
+        "term": "psoriasis vitamin E supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 수기치료",
-        "term": "endometriosis manual therapy randomized",
-        "category": "care"
+        "subject": "건선 비타민C",
+        "term": "psoriasis vitamin C supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 인지행동치료",
-        "term": "endometriosis cognitive behavioral therapy randomized",
-        "category": "care"
+        "subject": "건선 아연",
+        "term": "psoriasis zinc supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 마음챙김",
-        "term": "endometriosis mindfulness randomized",
-        "category": "care"
+        "subject": "건선 셀레늄",
+        "term": "psoriasis selenium supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 자기관리 교육",
-        "term": "endometriosis self-management education randomized",
-        "category": "care"
+        "subject": "건선 지중해식 식사",
+        "term": "psoriasis Mediterranean diet randomized",
+        "category": "food"
       },
       {
-        "subject": "자궁내막증 통증교육",
-        "term": "endometriosis pain education randomized",
-        "category": "care"
+        "subject": "건선 글루텐 제한 식사",
+        "term": "psoriasis gluten free diet randomized",
+        "category": "food"
       },
       {
-        "subject": "자궁내막증 온열치료",
-        "term": "endometriosis heat therapy randomized",
-        "category": "care"
-      },
-      {
-        "subject": "자궁내막증 이완요법",
-        "term": "endometriosis relaxation therapy randomized",
+        "subject": "건선 체중 감량",
+        "term": "psoriasis weight loss intervention randomized",
         "category": "life"
       },
       {
-        "subject": "자궁내막증 수면관리",
-        "term": "endometriosis sleep intervention randomized",
+        "subject": "건선 운동",
+        "term": "psoriasis exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 유산소운동",
+        "term": "psoriasis aerobic exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 요가",
+        "term": "psoriasis yoga randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 마음챙김",
+        "term": "psoriasis mindfulness randomized",
+        "category": "care"
+      },
+      {
+        "subject": "건선 스트레스관리",
+        "term": "psoriasis stress management randomized",
         "category": "life"
       },
       {
-        "subject": "자궁내막증 식이요법",
-        "term": "endometriosis dietary intervention randomized",
-        "category": "food"
+        "subject": "건선 인지행동치료",
+        "term": "psoriasis cognitive behavioral therapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 지중해식 식사",
-        "term": "endometriosis Mediterranean diet randomized",
-        "category": "food"
+        "subject": "건선 광선치료",
+        "term": "psoriasis phototherapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 저FODMAP 식사",
-        "term": "endometriosis low FODMAP diet randomized",
-        "category": "food"
+        "subject": "건선 발네오테라피",
+        "term": "psoriasis balneotherapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 오메가3",
-        "term": "endometriosis omega-3 supplementation randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 비타민D",
-        "term": "endometriosis vitamin D supplementation randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 커큐민",
-        "term": "endometriosis curcumin randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 NAC 보충",
-        "term": "endometriosis N-acetylcysteine randomized",
-        "category": "supp"
+        "subject": "건선 침술",
+        "term": "psoriasis acupuncture randomized",
+        "category": "care"
       }
     ],
-    "new_entries": 4,
-    "existing_links": 68,
-    "no_evidence_rejects": 803,
-    "new_candidate_rejects": 123,
-    "manual_screened_additions": 4,
+    "new_entries": 12,
+    "existing_links": 93,
+    "no_evidence_rejects": 399,
+    "new_candidate_rejects": 151,
+    "manual_screened_additions": 12,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 4,
-    "existing_reference_links": 68,
-    "duplicate_search_pmids_removed": 1254,
+    "new_references": 12,
+    "existing_reference_links": 93,
+    "duplicate_search_pmids_removed": 353,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 2252,
-    "main_search_records": 212,
-    "main_search_unique_pmids": 106,
+    "search_returned_records": 1008,
+    "main_search_records": 435,
+    "main_search_unique_pmids": 339,
     "refinement_query_count": 30,
-    "refinement_search_records": 128,
-    "refinement_unique_pmids": 59,
+    "refinement_search_records": 103,
+    "refinement_unique_pmids": 79,
     "extra_query_count": 30,
-    "extra_search_records": 52,
-    "extra_unique_pmids": 52,
-    "extra_new_unique_pmids": 19,
+    "extra_search_records": 269,
+    "extra_unique_pmids": 219,
+    "extra_new_unique_pmids": 134,
     "extra2_query_count": 30,
-    "extra2_search_records": 89,
-    "extra2_unique_pmids": 75,
-    "extra2_new_unique_pmids": 60,
-    "extra3_query_count": 102,
-    "extra3_search_records": 1899,
-    "extra3_unique_pmids": 944,
-    "extra3_new_unique_pmids": 813,
+    "extra2_search_records": 54,
+    "extra2_unique_pmids": 46,
+    "extra2_new_unique_pmids": 24,
+    "extra3_query_count": 30,
+    "extra3_search_records": 250,
+    "extra3_unique_pmids": 237,
+    "extra3_new_unique_pmids": 158,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 8,
+    "followup_query_count": 24,
     "followup_search_records": 0,
     "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 998,
-    "combined_all_unique_pmids": 998,
-    "requested": 998,
-    "fetched": 998,
-    "fetch_chunks": 10,
-    "abstracts": 977,
-    "abstracts_all_sources": 977,
+    "combined_search_unique_pmids": 655,
+    "combined_all_unique_pmids": 655,
+    "requested": 655,
+    "fetched": 655,
+    "fetch_chunks": 7,
+    "abstracts": 637,
+    "abstracts_all_sources": 637,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,264 +9823,294 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 8,
+    "followup_requested": 24,
     "followup_fetched": 0,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 998,
-    "candidate_parser_candidates": 195,
-    "candidate_parser_candidates_after_write": 195,
-    "union_candidate_like": 195,
-    "union_new_candidate_like": 127,
-    "effect_candidate_rows": 127,
-    "manual_candidate_count": 4,
+    "candidate_parser_parsed": 655,
+    "candidate_parser_candidates": 256,
+    "candidate_parser_candidates_after_write": 256,
+    "union_candidate_like": 256,
+    "union_new_candidate_like": 163,
+    "effect_candidate_rows": 163,
+    "manual_candidate_count": 12,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "21153437",
-      "40133680",
-      "30001982",
-      "34994286"
+      "3980799",
+      "7688774",
+      "17365266",
+      "23772997",
+      "24697586",
+      "12410709",
+      "12410708",
+      "34333826",
+      "7904411",
+      "9407171",
+      "6337559",
+      "30745966"
     ],
     "selected_ncts": [],
     "new_pmids": [
-      "21153437",
-      "40133680",
-      "30001982",
-      "34994286"
+      "3980799",
+      "7688774",
+      "17365266",
+      "23772997",
+      "24697586",
+      "12410709",
+      "12410708",
+      "34333826",
+      "7904411",
+      "9407171",
+      "6337559",
+      "30745966"
     ],
     "new_ncts": [],
     "new_entry_ids": [
-      "endometriosis-lactobacillus-gasseri-21153437-pos",
-      "endometriosis-virtual-reality-40133680-pos",
-      "endometriosis-dim-dienogest-30001982-pos",
-      "endometriosis-nac-contraceptive-34994286-null"
+      "psoriasis-coal-tar-suberythemic-uvb-3980799-null",
+      "psoriasis-capsaicin-7688774-pos",
+      "psoriasis-dithranol-lipogel-17365266-pos",
+      "psoriasis-bath-system-puva-23772997-null",
+      "psoriasis-bb-uva-puva-24697586-pos",
+      "psoriasis-nbuvb-frequency-12410709-pos",
+      "psoriasis-sunbed-lamps-12410708-null",
+      "psoriasis-excimer-dose-34333826-pos",
+      "psoriasis-heliotherapy-7904411-pos",
+      "psoriasis-uva-cabinets-9407171-pos",
+      "psoriasis-lisup-uvb-6337559-pos",
+      "psoriasis-nbuvb-puva-vietnam-30745966-null"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "supp": 3,
-      "care": 1
+      "otc": 3,
+      "care": 9
     },
     "tiers": {
-      "trial": 4
+      "trial": 12
     },
     "dirs": {
-      "pos": 3,
-      "null": 1
+      "null": 4,
+      "pos": 8
     },
     "unknown_n": 0,
-    "thin_studies": 2,
+    "thin_studies": 5,
     "validator_errors": 0,
-    "validator_warnings": 2,
+    "validator_warnings": 5,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 2,
-    "initial_build_error_lines": 1,
-    "initial_build_warning_lines": 10014,
-    "build_warning_lines": 10014,
+    "initial_validator_warnings": 5,
+    "initial_build_error_lines": 0,
+    "initial_build_warning_lines": 10025,
+    "build_warning_lines": 10019,
     "new_build_warnings": [
-      "endometriosis-virtual-reality-40133680-pos",
-      "endometriosis-dim-dienogest-30001982-pos"
+      "psoriasis-coal-tar-suberythemic-uvb-3980799-null",
+      "psoriasis-dithranol-lipogel-17365266-pos",
+      "psoriasis-sunbed-lamps-12410708-null",
+      "psoriasis-uva-cabinets-9407171-pos",
+      "psoriasis-lisup-uvb-6337559-pos"
     ],
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "endometriosis-virtual-reality-40133680-pos",
-      "endometriosis-dim-dienogest-30001982-pos"
+      "psoriasis-coal-tar-suberythemic-uvb-3980799-null",
+      "psoriasis-dithranol-lipogel-17365266-pos",
+      "psoriasis-sunbed-lamps-12410708-null",
+      "psoriasis-uva-cabinets-9407171-pos",
+      "psoriasis-lisup-uvb-6337559-pos"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 1,
-    "targeted_batch_warnings_fixed": 0,
-    "targeted_warnings_total": 1079,
+    "build_errors_fixed": 0,
+    "targeted_batch_warnings_fixed": 6,
+    "targeted_warnings_total": 1085,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 27436,
+    "open_numeric_comparisons": 27448,
     "build_exit": 0,
-    "build": "28376 entries; 31536 refs; trial 27525; obs 754; animal 32; lab 18; case 47; numeric 27436; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 자궁내막증 비처방·비약물 후보 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 212개 레코드·고유 PMID 106개였고, 첫 보강은 52개 레코드·고유 PMID 52개·신규 PMID 19개, 두 번째 보강은 89개 레코드·고유 PMID 75개·신규 PMID 60개, 세 번째 보강은 1899개 레코드·고유 PMID 944개·신규 PMID 813개였다. 네 검색 세트는 2252개 레코드·중복 제거 후 고유 PMID 998개였다. EFetch는 998개를 요청·수집했고 977개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 998건에서 후보 195건·신규 후보 127건·효과 후보 127건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 4건을 기록했고 수동 제외 목록 123건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 8개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "28388 entries; 31548 refs; trial 27537; obs 754; animal 32; lab 18; case 47; numeric 27448; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 건선 비처방·비약물 후보 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 435개 레코드·고유 PMID 339개였고, 첫 보강은 269개 레코드·고유 PMID 219개·신규 PMID 134개, 두 번째 보강은 54개 레코드·고유 PMID 46개·신규 PMID 24개, 세 번째 보강은 250개 레코드·고유 PMID 237개·신규 PMID 158개였다. 네 검색 세트는 1008개 레코드·중복 제거 후 고유 PMID 655개였다. EFetch는 655개를 요청·수집했고 637개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 655건에서 후보 256건·신규 후보 163건·효과 후보 163건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 12건을 기록했고 수동 제외 목록 151건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 24개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
     "qualified_topics": [
       {
-        "subject": "자궁내막증 유산소운동",
-        "term": "endometriosis aerobic exercise randomized",
-        "category": "move"
+        "subject": "건선 보습제",
+        "term": "psoriasis moisturizer randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 운동치료",
-        "term": "endometriosis exercise therapy randomized",
-        "category": "move"
+        "subject": "건선 연화제",
+        "term": "psoriasis emollient randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 요가",
-        "term": "endometriosis yoga randomized",
-        "category": "move"
+        "subject": "건선 콜타르",
+        "term": "psoriasis coal tar randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 스트레칭",
-        "term": "endometriosis stretching randomized",
-        "category": "move"
+        "subject": "건선 살리실산",
+        "term": "psoriasis salicylic acid randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 저항운동",
-        "term": "endometriosis resistance exercise randomized",
-        "category": "move"
+        "subject": "건선 요소 크림",
+        "term": "psoriasis urea cream randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 골반저 물리치료",
-        "term": "endometriosis pelvic floor physical therapy randomized",
-        "category": "move"
+        "subject": "건선 알로에베라",
+        "term": "psoriasis aloe vera randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 물리치료",
-        "term": "endometriosis physiotherapy randomized",
-        "category": "move"
+        "subject": "건선 캡사이신",
+        "term": "psoriasis capsaicin randomized",
+        "category": "otc"
       },
       {
-        "subject": "자궁내막증 경피전기신경자극",
-        "term": "endometriosis TENS randomized",
-        "category": "care"
+        "subject": "건선 비타민D 보충",
+        "term": "psoriasis vitamin D supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 전기자극",
-        "term": "endometriosis electrical stimulation randomized",
-        "category": "care"
+        "subject": "건선 오메가3",
+        "term": "psoriasis omega-3 supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 침술",
-        "term": "endometriosis acupuncture randomized",
-        "category": "care"
+        "subject": "건선 어유",
+        "term": "psoriasis fish oil randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 전기침",
-        "term": "endometriosis electroacupuncture randomized",
-        "category": "care"
+        "subject": "건선 프로바이오틱스",
+        "term": "psoriasis probiotics randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 지압",
-        "term": "endometriosis acupressure randomized",
-        "category": "care"
+        "subject": "건선 커큐민",
+        "term": "psoriasis curcumin randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 이침",
-        "term": "endometriosis auricular acupuncture randomized",
-        "category": "care"
+        "subject": "건선 강황",
+        "term": "psoriasis turmeric randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 뜸",
-        "term": "endometriosis moxibustion randomized",
-        "category": "care"
+        "subject": "건선 녹차",
+        "term": "psoriasis green tea randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 마사지",
-        "term": "endometriosis massage randomized",
-        "category": "care"
+        "subject": "건선 비타민E",
+        "term": "psoriasis vitamin E supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 수기치료",
-        "term": "endometriosis manual therapy randomized",
-        "category": "care"
+        "subject": "건선 비타민C",
+        "term": "psoriasis vitamin C supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 인지행동치료",
-        "term": "endometriosis cognitive behavioral therapy randomized",
-        "category": "care"
+        "subject": "건선 아연",
+        "term": "psoriasis zinc supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 마음챙김",
-        "term": "endometriosis mindfulness randomized",
-        "category": "care"
+        "subject": "건선 셀레늄",
+        "term": "psoriasis selenium supplementation randomized",
+        "category": "supp"
       },
       {
-        "subject": "자궁내막증 자기관리 교육",
-        "term": "endometriosis self-management education randomized",
-        "category": "care"
+        "subject": "건선 지중해식 식사",
+        "term": "psoriasis Mediterranean diet randomized",
+        "category": "food"
       },
       {
-        "subject": "자궁내막증 통증교육",
-        "term": "endometriosis pain education randomized",
-        "category": "care"
+        "subject": "건선 글루텐 제한 식사",
+        "term": "psoriasis gluten free diet randomized",
+        "category": "food"
       },
       {
-        "subject": "자궁내막증 온열치료",
-        "term": "endometriosis heat therapy randomized",
-        "category": "care"
-      },
-      {
-        "subject": "자궁내막증 이완요법",
-        "term": "endometriosis relaxation therapy randomized",
+        "subject": "건선 체중 감량",
+        "term": "psoriasis weight loss intervention randomized",
         "category": "life"
       },
       {
-        "subject": "자궁내막증 수면관리",
-        "term": "endometriosis sleep intervention randomized",
+        "subject": "건선 운동",
+        "term": "psoriasis exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 유산소운동",
+        "term": "psoriasis aerobic exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 요가",
+        "term": "psoriasis yoga randomized",
+        "category": "move"
+      },
+      {
+        "subject": "건선 마음챙김",
+        "term": "psoriasis mindfulness randomized",
+        "category": "care"
+      },
+      {
+        "subject": "건선 스트레스관리",
+        "term": "psoriasis stress management randomized",
         "category": "life"
       },
       {
-        "subject": "자궁내막증 식이요법",
-        "term": "endometriosis dietary intervention randomized",
-        "category": "food"
+        "subject": "건선 인지행동치료",
+        "term": "psoriasis cognitive behavioral therapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 지중해식 식사",
-        "term": "endometriosis Mediterranean diet randomized",
-        "category": "food"
+        "subject": "건선 광선치료",
+        "term": "psoriasis phototherapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 저FODMAP 식사",
-        "term": "endometriosis low FODMAP diet randomized",
-        "category": "food"
+        "subject": "건선 발네오테라피",
+        "term": "psoriasis balneotherapy randomized",
+        "category": "care"
       },
       {
-        "subject": "자궁내막증 오메가3",
-        "term": "endometriosis omega-3 supplementation randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 비타민D",
-        "term": "endometriosis vitamin D supplementation randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 커큐민",
-        "term": "endometriosis curcumin randomized",
-        "category": "supp"
-      },
-      {
-        "subject": "자궁내막증 NAC 보충",
-        "term": "endometriosis N-acetylcysteine randomized",
-        "category": "supp"
+        "subject": "건선 침술",
+        "term": "psoriasis acupuncture randomized",
+        "category": "care"
       }
     ],
     "screened_topics": [
-      "자궁내막증 유산소운동",
-      "자궁내막증 운동치료",
-      "자궁내막증 요가",
-      "자궁내막증 스트레칭",
-      "자궁내막증 저항운동",
-      "자궁내막증 골반저 물리치료",
-      "자궁내막증 물리치료",
-      "자궁내막증 경피전기신경자극",
-      "자궁내막증 전기자극",
-      "자궁내막증 침술",
-      "자궁내막증 전기침",
-      "자궁내막증 지압",
-      "자궁내막증 이침",
-      "자궁내막증 뜸",
-      "자궁내막증 마사지",
-      "자궁내막증 수기치료",
-      "자궁내막증 인지행동치료",
-      "자궁내막증 마음챙김",
-      "자궁내막증 자기관리 교육",
-      "자궁내막증 통증교육",
-      "자궁내막증 온열치료",
-      "자궁내막증 이완요법",
-      "자궁내막증 수면관리",
-      "자궁내막증 식이요법",
-      "자궁내막증 지중해식 식사",
-      "자궁내막증 저FODMAP 식사",
-      "자궁내막증 오메가3",
-      "자궁내막증 비타민D",
-      "자궁내막증 커큐민",
-      "자궁내막증 NAC 보충"
+      "건선 보습제",
+      "건선 연화제",
+      "건선 콜타르",
+      "건선 살리실산",
+      "건선 요소 크림",
+      "건선 알로에베라",
+      "건선 캡사이신",
+      "건선 비타민D 보충",
+      "건선 오메가3",
+      "건선 어유",
+      "건선 프로바이오틱스",
+      "건선 커큐민",
+      "건선 강황",
+      "건선 녹차",
+      "건선 비타민E",
+      "건선 비타민C",
+      "건선 아연",
+      "건선 셀레늄",
+      "건선 지중해식 식사",
+      "건선 글루텐 제한 식사",
+      "건선 체중 감량",
+      "건선 운동",
+      "건선 유산소운동",
+      "건선 요가",
+      "건선 마음챙김",
+      "건선 스트레스관리",
+      "건선 인지행동치료",
+      "건선 광선치료",
+      "건선 발네오테라피",
+      "건선 침술"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10090,141 +10118,169 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12600",
-      "worklist_line": "new-expansion-candidates-batch12600",
-      "topic": "다음 비처방 후보 주제 선정 batch 12600",
+      "next_batch": "12610",
+      "worklist_line": "new-expansion-candidates-batch12610",
+      "topic": "다음 비처방 후보 주제 선정 batch 12610",
       "unchecked": 0
     },
     "unknownN": 0,
-    "thin": 2,
+    "thin": 5,
     "rejected_candidate_pmids": [
-      "39360492",
-      "35162761",
-      "19830953",
-      "33446725",
-      "18537469",
-      "42075089",
-      "36875844",
-      "24717915",
-      "29533153",
-      "42037530",
-      "26062522",
-      "28102491",
-      "22047005",
-      "41754163",
-      "41797792",
-      "41439725",
-      "39261815",
-      "41791364",
-      "38012776",
-      "42077502",
-      "34373298",
-      "39040659",
-      "36199735",
-      "23913583",
-      "41373108",
-      "33395684",
-      "37416064",
-      "41715206",
-      "27000311",
-      "27048013",
-      "32824334",
-      "23718930",
-      "41385548",
-      "41628666",
-      "35974874",
-      "40747556",
-      "8765259",
-      "40643445",
-      "40535620",
-      "8000058",
-      "8354093",
-      "41551998",
-      "38787068",
-      "38199787",
-      "31697458",
-      "35475975",
-      "30402122",
-      "24610050",
-      "24346786",
-      "22592712",
-      "21901713",
-      "21187138",
-      "19588398",
-      "40420272",
-      "27484764",
-      "24996447",
-      "35814941",
-      "42264427",
-      "40686285",
-      "39305835",
-      "38906210",
-      "38907175",
-      "38243752",
-      "37306288",
-      "34826668",
-      "34154590",
-      "33516531",
-      "32936010",
-      "42576801",
-      "42409154",
-      "42035991",
-      "42116317",
-      "42006396",
-      "41790701",
-      "41790646",
-      "41776626",
-      "41665220",
-      "41503019",
-      "39159261",
-      "39000175",
-      "37283994",
-      "32132396",
-      "29889764",
-      "28911925",
-      "27522645",
-      "25730237",
-      "25461377",
-      "21196745",
-      "19046127",
-      "42537966",
-      "42340393",
-      "41672218",
-      "39490892",
-      "38914481",
-      "34585638",
-      "40575397",
-      "38983729",
-      "39575953",
-      "37010332",
-      "33623645",
-      "40731893",
-      "39490444",
-      "38768578",
-      "37672087",
-      "36206797",
-      "31532753",
-      "31390370",
-      "24595586",
-      "22536793",
-      "21401632",
-      "19958132",
-      "12742182",
-      "36454211",
-      "33693010",
-      "27069371",
-      "37220873",
-      "41457227",
-      "41305747",
-      "39837933",
-      "20579357",
-      "19388539",
-      "17765403",
-      "36774757"
+      "38306148",
+      "27025208",
+      "28301619",
+      "23549137",
+      "36745360",
+      "26491366",
+      "21289970",
+      "37556512",
+      "39564575",
+      "22026392",
+      "37921681",
+      "12890208",
+      "15764047",
+      "2654215",
+      "28238742",
+      "22798972",
+      "1676212",
+      "7307563",
+      "35398899",
+      "26515836",
+      "21507036",
+      "20486463",
+      "28049474",
+      "30865402",
+      "27560161",
+      "38872193",
+      "8219661",
+      "37446403",
+      "40987667",
+      "36249714",
+      "41211170",
+      "23842110",
+      "39154058",
+      "41919418",
+      "37240721",
+      "32472531",
+      "28404701",
+      "39422529",
+      "27650520",
+      "24729738",
+      "42538639",
+      "29387597",
+      "19710554",
+      "26456768",
+      "39913230",
+      "36151864",
+      "15298530",
+      "29387602",
+      "20178697",
+      "12476481",
+      "21494241",
+      "38734848",
+      "36676145",
+      "34327798",
+      "23329077",
+      "17428114",
+      "19646777",
+      "22356632",
+      "33240453",
+      "29924221",
+      "16436174",
+      "15238099",
+      "38431099",
+      "38093394",
+      "37726677",
+      "29882634",
+      "40402562",
+      "29776990",
+      "32385846",
+      "15948997",
+      "30394148",
+      "23204039",
+      "26714522",
+      "10233317",
+      "37925677",
+      "16285275",
+      "20232758",
+      "12771488",
+      "8396699",
+      "8319701",
+      "6203285",
+      "10417520",
+      "9647450",
+      "1419760",
+      "8981562",
+      "37358394",
+      "17100735",
+      "36219046",
+      "21797805",
+      "30745973",
+      "26481287",
+      "21910714",
+      "24155989",
+      "20015056",
+      "3883908",
+      "12622624",
+      "16164708",
+      "27451927",
+      "2609898",
+      "21535171",
+      "3662561",
+      "12207597",
+      "16713455",
+      "24828298",
+      "10570386",
+      "39825943",
+      "25356147",
+      "31309536",
+      "23848231",
+      "32222582",
+      "39401838",
+      "16774104",
+      "12664021",
+      "8609254",
+      "9242503",
+      "10396014",
+      "29846976",
+      "24780177",
+      "14571074",
+      "42231964",
+      "36796336",
+      "15250891",
+      "30958563",
+      "34847070",
+      "35270635",
+      "16375686",
+      "35466907",
+      "29441294",
+      "35645866",
+      "29511028",
+      "20842368",
+      "22548402",
+      "7960357",
+      "16327716",
+      "17053736",
+      "41754879",
+      "33251833",
+      "28494626",
+      "30815924",
+      "1726521",
+      "29336426",
+      "27052200",
+      "32356586",
+      "26092299",
+      "10731128",
+      "10908464",
+      "10796328",
+      "15491434",
+      "23423871",
+      "3285630",
+      "15149510"
     ],
-    "new_search_pmids": 892
+    "new_search_pmids": 316
   },
   "previous_last_batch_10490": {
     "id": "10490",
