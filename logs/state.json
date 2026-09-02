@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-02T04:25:04.376Z",
+  "updated": "2026-09-02T04:44:50.371Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 28372,
-  "subjects": 20639,
-  "refs": 31532,
+  "entries": 28376,
+  "subjects": 20643,
+  "refs": 31536,
   "kinds": {
     "undefined": 10367,
     "food": 954,
-    "care": 8194,
-    "supp": 2781,
+    "care": 8195,
+    "supp": 2784,
     "move": 3418,
     "otc": 672,
     "life": 1962,
     "rx": 24
   },
   "tiers": {
-    "trial": 27521,
+    "trial": 27525,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 19811,
-    "null": 6578,
+    "pos": 19814,
+    "null": 6579,
     "harm": 321,
     "open": 1662
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12580는 위식도역류 비처방·비약물 후보 비처방·비약물 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 12590이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 12590는 자궁내막증 비처방·비약물 후보 비처방·비약물 후보에서 신규 항목 4건을 기록했다. 다음 재개점은 batch 12600이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 12580는 위식도역류 비처방·비약물 후보에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 12590이다."
+    "note": "Batch 12590는 자궁내막증 비처방·비약물 후보에서 직접 수치·비율·P값·효과크기가 확인된 신규 항목 4건을 추가했다. 다음 확장은 batch 12600이다."
   },
   "checkpoints": {
-    "over_counter_share": "15.5% (4407 entries)",
+    "over_counter_share": "15.5% (4410 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (6899)",
-    "vs_share": "96.7% (27432)",
+    "no_effect_or_harm_share": "24.3% (6900)",
+    "vs_share": "96.7% (27436)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.0% (27521)",
+    "trial_share": "97.0% (27525)",
     "non_trial_share": "3.0% (851)",
     "build_warnings": {
       "unknown_n": 1366,
-      "thin_study": 8286,
+      "thin_study": 8288,
       "targeted_batch_warnings": 1079
     },
     "targeted_batch_warnings": 1079
@@ -63,15 +63,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "12590",
-    "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch12590",
-    "topic": "다음 비처방 후보 주제 선정 batch 12590"
+    "batch": "12600",
+    "status": "checkpointed",
+    "worklist_line": "new-expansion-candidates-batch12600",
+    "topic": "다음 비처방 후보 주제 선정 batch 12600"
   },
   "resume": {
-    "next_batch": "12590",
-    "worklist_line": "new-expansion-candidates-batch12590",
-    "topic": "다음 비처방 후보 주제 선정 batch 12590",
+    "next_batch": "12600",
+    "worklist_line": "new-expansion-candidates-batch12600",
+    "topic": "다음 비처방 후보 주제 선정 batch 12600",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9606,215 +9606,213 @@
     }
   },
   "last_batch": {
-    "id": "12580",
-    "commit": "d0a8ea481725e2830c7fd9ee2335265c24b6f167",
-    "pushed": true,
+    "id": "12590",
+    "commit": null,
+    "pushed": false,
     "expansion_commit": null,
-    "data_commits": [
-      "d0a8ea481725e2830c7fd9ee2335265c24b6f167"
-    ],
-    "checkpoint_commit": "2f004c3c17e87bb4dee10b1a90a51db688375a83",
-    "push_marker_commit": "35ad3738d0fd39ffc48c049d36f2cfcfe8c015ed",
-    "known_items_commit": "c9ca6a71f",
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "subject": "위식도역류 알긴산 제제",
-        "term": "gastroesophageal reflux alginate randomized",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 알긴산 래프트",
-        "term": "GERD alginate raft trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 나트륨 알긴산",
-        "term": "GERD sodium alginate clinical trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 씹어 먹는 제산제",
-        "term": "GERD chewable antacid randomized",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 탄산칼슘 제제",
-        "term": "GERD calcium carbonate antacid trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 껌 씹기",
-        "term": "GERD chewing gum randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 생활습관 교육",
-        "term": "GERD lifestyle education randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 체중 감량",
-        "term": "GERD weight loss randomized trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 저탄수화물 식사",
-        "term": "GERD low carbohydrate diet trial",
-        "category": "food"
-      },
-      {
-        "subject": "위식도역류 저지방 식사",
-        "term": "GERD low fat diet randomized",
-        "category": "food"
-      },
-      {
-        "subject": "위식도역류 식사 시간 조절",
-        "term": "GERD meal timing intervention trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 늦은 저녁 식사 회피",
-        "term": "GERD late evening meal avoidance trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 침대 머리 높이기",
-        "term": "GERD head of bed elevation randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 왼쪽으로 눕기",
-        "term": "GERD left lateral position randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 금연 중재",
-        "term": "GERD smoking cessation intervention",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 횡격막 호흡",
-        "term": "GERD diaphragmatic breathing randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 호흡운동",
-        "term": "GERD breathing exercise trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 이완요법",
-        "term": "GERD relaxation therapy randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 최면치료",
-        "term": "GERD hypnotherapy trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 침술",
-        "term": "GERD acupuncture randomized controlled trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 지압",
-        "term": "GERD acupressure randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 이침",
-        "term": "GERD auricular acupuncture trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 뜸",
-        "term": "GERD moxibustion randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 요가",
-        "term": "GERD yoga randomized trial",
+        "subject": "자궁내막증 유산소운동",
+        "term": "endometriosis aerobic exercise randomized",
         "category": "move"
       },
       {
-        "subject": "위식도역류 유산소운동",
-        "term": "GERD aerobic exercise trial",
+        "subject": "자궁내막증 운동치료",
+        "term": "endometriosis exercise therapy randomized",
         "category": "move"
       },
       {
-        "subject": "위식도역류 멜라토닌 보충",
-        "term": "GERD melatonin placebo randomized",
+        "subject": "자궁내막증 요가",
+        "term": "endometriosis yoga randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 스트레칭",
+        "term": "endometriosis stretching randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 저항운동",
+        "term": "endometriosis resistance exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 골반저 물리치료",
+        "term": "endometriosis pelvic floor physical therapy randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 물리치료",
+        "term": "endometriosis physiotherapy randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 경피전기신경자극",
+        "term": "endometriosis TENS randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 전기자극",
+        "term": "endometriosis electrical stimulation randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 침술",
+        "term": "endometriosis acupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 전기침",
+        "term": "endometriosis electroacupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 지압",
+        "term": "endometriosis acupressure randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 이침",
+        "term": "endometriosis auricular acupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 뜸",
+        "term": "endometriosis moxibustion randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 마사지",
+        "term": "endometriosis massage randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 수기치료",
+        "term": "endometriosis manual therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 인지행동치료",
+        "term": "endometriosis cognitive behavioral therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 마음챙김",
+        "term": "endometriosis mindfulness randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 자기관리 교육",
+        "term": "endometriosis self-management education randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 통증교육",
+        "term": "endometriosis pain education randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 온열치료",
+        "term": "endometriosis heat therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 이완요법",
+        "term": "endometriosis relaxation therapy randomized",
+        "category": "life"
+      },
+      {
+        "subject": "자궁내막증 수면관리",
+        "term": "endometriosis sleep intervention randomized",
+        "category": "life"
+      },
+      {
+        "subject": "자궁내막증 식이요법",
+        "term": "endometriosis dietary intervention randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 지중해식 식사",
+        "term": "endometriosis Mediterranean diet randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 저FODMAP 식사",
+        "term": "endometriosis low FODMAP diet randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 오메가3",
+        "term": "endometriosis omega-3 supplementation randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 프로바이오틱스",
-        "term": "GERD probiotics placebo randomized",
+        "subject": "자궁내막증 비타민D",
+        "term": "endometriosis vitamin D supplementation randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 감초 추출물",
-        "term": "GERD deglycyrrhizinated licorice trial",
+        "subject": "자궁내막증 커큐민",
+        "term": "endometriosis curcumin randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 커큐민 보충",
-        "term": "GERD curcumin randomized trial",
-        "category": "supp"
-      },
-      {
-        "subject": "위식도역류 알로에베라",
-        "term": "GERD aloe vera randomized trial",
+        "subject": "자궁내막증 NAC 보충",
+        "term": "endometriosis N-acetylcysteine randomized",
         "category": "supp"
       }
     ],
-    "new_entries": 30,
-    "existing_links": 42,
-    "no_evidence_rejects": 255,
-    "new_candidate_rejects": 189,
-    "manual_screened_additions": 30,
+    "new_entries": 4,
+    "existing_links": 68,
+    "no_evidence_rejects": 803,
+    "new_candidate_rejects": 123,
+    "manual_screened_additions": 4,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
-    "new_references": 30,
-    "existing_reference_links": 42,
-    "duplicate_search_pmids_removed": 818,
+    "new_references": 4,
+    "existing_reference_links": 68,
+    "duplicate_search_pmids_removed": 1254,
     "duplicate_topic_pmids_retained": [],
     "search_topic_count": 60,
-    "search_returned_records": 1334,
-    "main_search_records": 169,
-    "main_search_unique_pmids": 129,
+    "search_returned_records": 2252,
+    "main_search_records": 212,
+    "main_search_unique_pmids": 106,
     "refinement_query_count": 30,
-    "refinement_search_records": 29,
-    "refinement_unique_pmids": 26,
+    "refinement_search_records": 128,
+    "refinement_unique_pmids": 59,
     "extra_query_count": 30,
-    "extra_search_records": 223,
-    "extra_unique_pmids": 182,
-    "extra_new_unique_pmids": 101,
+    "extra_search_records": 52,
+    "extra_unique_pmids": 52,
+    "extra_new_unique_pmids": 19,
     "extra2_query_count": 30,
-    "extra2_search_records": 215,
-    "extra2_unique_pmids": 190,
-    "extra2_new_unique_pmids": 99,
-    "extra3_query_count": 88,
-    "extra3_search_records": 727,
-    "extra3_unique_pmids": 321,
-    "extra3_new_unique_pmids": 187,
+    "extra2_search_records": 89,
+    "extra2_unique_pmids": 75,
+    "extra2_new_unique_pmids": 60,
+    "extra3_query_count": 102,
+    "extra3_search_records": 1899,
+    "extra3_unique_pmids": 944,
+    "extra3_new_unique_pmids": 813,
     "targeted_query_count": 0,
     "targeted_search_records": 0,
     "targeted_search_unique_pmids": 0,
-    "followup_query_count": 60,
+    "followup_query_count": 8,
     "followup_search_records": 0,
     "followup_search_unique_pmids": 0,
-    "combined_search_unique_pmids": 516,
-    "combined_all_unique_pmids": 516,
-    "requested": 516,
-    "fetched": 516,
-    "fetch_chunks": 6,
-    "abstracts": 514,
-    "abstracts_all_sources": 514,
+    "combined_search_unique_pmids": 998,
+    "combined_all_unique_pmids": 998,
+    "requested": 998,
+    "fetched": 998,
+    "fetch_chunks": 10,
+    "abstracts": 977,
+    "abstracts_all_sources": 977,
     "missing": 0,
     "fetch_missing": 0,
     "missing_pmids": [],
@@ -9825,371 +9823,264 @@
     "refetch_found_pubmed_book_article": 0,
     "refetch_abstracts": 0,
     "refetch_article_abstracts": 0,
-    "followup_requested": 60,
+    "followup_requested": 8,
     "followup_fetched": 0,
     "followup_abstracts": 0,
     "followup_missing": 0,
     "followup_missing_pmids": [],
     "followup_new_pmids": 0,
-    "candidate_parser_parsed": 516,
-    "candidate_parser_candidates": 261,
-    "candidate_parser_candidates_after_write": 261,
-    "union_candidate_like": 261,
-    "union_new_candidate_like": 219,
-    "effect_candidate_rows": 219,
-    "manual_candidate_count": 30,
+    "candidate_parser_parsed": 998,
+    "candidate_parser_candidates": 195,
+    "candidate_parser_candidates_after_write": 195,
+    "union_candidate_like": 195,
+    "union_new_candidate_like": 127,
+    "effect_candidate_rows": 127,
+    "manual_candidate_count": 4,
     "clinical_trials_manual_screened": 0,
     "clinical_trials_manual_rejected": 0,
     "clinical_trials_manual_reject_reason": "이번 배치는 PubMed 직접 검색·EFetch로 확인했고 ClinicalTrials.gov 별도 검색은 하지 않았다.",
     "selected_pmids": [
-      "8494650",
-      "24024757",
-      "2855391",
-      "2986275",
-      "2213800",
-      "2675302",
-      "7486823",
-      "11854825",
-      "17179910",
-      "17577112",
-      "25041141",
-      "20515559",
-      "3513329",
-      "11850668",
-      "10594395",
-      "1783346",
-      "204058",
-      "381093",
-      "8071510",
-      "24732026",
-      "38867622",
-      "30942008",
-      "30945492",
-      "30232856",
-      "39931559",
-      "37307528",
-      "32746904",
-      "26742306",
-      "42093671",
-      "2990196"
+      "21153437",
+      "40133680",
+      "30001982",
+      "34994286"
     ],
-    "selected_ncts": [
-      "NCT01338077",
-      "NCT03238534",
-      "NCT06678997"
-    ],
+    "selected_ncts": [],
     "new_pmids": [
-      "8494650",
-      "24024757",
-      "2855391",
-      "2986275",
-      "2213800",
-      "2675302",
-      "7486823",
-      "11854825",
-      "17179910",
-      "17577112",
-      "25041141",
-      "20515559",
-      "3513329",
-      "11850668",
-      "10594395",
-      "1783346",
-      "204058",
-      "381093",
-      "8071510",
-      "24732026",
-      "38867622",
-      "30942008",
-      "30945492",
-      "30232856",
-      "39931559",
-      "37307528",
-      "32746904",
-      "26742306",
-      "42093671",
-      "2990196"
+      "21153437",
+      "40133680",
+      "30001982",
+      "34994286"
     ],
-    "new_ncts": [
-      "NCT01338077",
-      "NCT03238534",
-      "NCT06678997"
-    ],
+    "new_ncts": [],
     "new_entry_ids": [
-      "gerd-almagate-8494650-pos",
-      "gerd-sodium-alginate-24024757-pos",
-      "gerd-gastrocote-2855391-open",
-      "gerd-alginate-antacid-2986275-pos",
-      "gerd-dimethicone-alginate-2213800-pos",
-      "gerd-antacid-placebo-2675302-pos",
-      "gerd-boehmite-7486823-pos",
-      "gerd-antacid-formulations-11854825-pos",
-      "gerd-hydrotalcite-17179910-pos",
-      "gerd-hydrotalcite-placebo-17577112-pos",
-      "gerd-gaviscon-acid-pocket-25041141-pos",
-      "gerd-gaviscon-onset-20515559-pos",
-      "gerd-foaming-antacid-3513329-pos",
-      "gerd-antacid-self-treatment-11850668-pos",
-      "gerd-maalox-onset-10594395-pos",
-      "gerd-gelofalk-1783346-pos",
-      "gerd-gaviscon-multicenter-204058-open",
-      "gerd-antacid-scleroderma-381093-null",
-      "gerd-left-position-8071510-pos",
-      "gerd-infant-position-24732026-pos",
-      "gerd-acupuncture-38867622-pos",
-      "gerd-moxibustion-30942008-pos",
-      "gerd-acupuncture-cough-30945492-pos",
-      "gerd-acupuncture-sleep-30232856-pos",
-      "gerd-lpr-diet-protector-39931559-pos",
-      "gerd-poliprotect-37307528-pos",
-      "gerd-fermented-soy-32746904-null",
-      "gerd-aloe-vera-26742306-pos",
-      "gerd-zinc-carnosine-infant-42093671-pos",
-      "gerd-antacid-les-pressure-2990196-null"
+      "endometriosis-lactobacillus-gasseri-21153437-pos",
+      "endometriosis-virtual-reality-40133680-pos",
+      "endometriosis-dim-dienogest-30001982-pos",
+      "endometriosis-nac-contraceptive-34994286-null"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "otc": 20,
-      "life": 3,
-      "care": 4,
-      "food": 1,
-      "supp": 2
+      "supp": 3,
+      "care": 1
     },
     "tiers": {
-      "trial": 30
+      "trial": 4
     },
     "dirs": {
-      "pos": 25,
-      "open": 2,
-      "null": 3
+      "pos": 3,
+      "null": 1
     },
-    "unknown_n": 2,
-    "thin_studies": 8,
+    "unknown_n": 0,
+    "thin_studies": 2,
     "validator_errors": 0,
-    "validator_warnings": 10,
-    "initial_validator_errors": 8,
-    "initial_validator_warnings": 10,
-    "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 10020,
-    "build_warning_lines": 10012,
+    "validator_warnings": 2,
+    "initial_validator_errors": 0,
+    "initial_validator_warnings": 2,
+    "initial_build_error_lines": 1,
+    "initial_build_warning_lines": 10014,
+    "build_warning_lines": 10014,
     "new_build_warnings": [
-      "gerd-almagate-8494650-pos",
-      "gerd-antacid-placebo-2675302-pos",
-      "gerd-gaviscon-acid-pocket-25041141-pos",
-      "gerd-gaviscon-onset-20515559-pos",
-      "gerd-antacid-scleroderma-381093-null",
-      "gerd-left-position-8071510-pos",
-      "gerd-lpr-diet-protector-39931559-pos",
-      "gerd-antacid-les-pressure-2990196-null",
-      "gerd-gastrocote-2855391-open",
-      "gerd-gaviscon-multicenter-204058-open"
+      "endometriosis-virtual-reality-40133680-pos",
+      "endometriosis-dim-dienogest-30001982-pos"
     ],
-    "new_unknown_n_warnings": [
-      "gerd-gastrocote-2855391-open",
-      "gerd-gaviscon-multicenter-204058-open"
-    ],
+    "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "gerd-almagate-8494650-pos",
-      "gerd-antacid-placebo-2675302-pos",
-      "gerd-gaviscon-acid-pocket-25041141-pos",
-      "gerd-gaviscon-onset-20515559-pos",
-      "gerd-antacid-scleroderma-381093-null",
-      "gerd-left-position-8071510-pos",
-      "gerd-lpr-diet-protector-39931559-pos",
-      "gerd-antacid-les-pressure-2990196-null"
+      "endometriosis-virtual-reality-40133680-pos",
+      "endometriosis-dim-dienogest-30001982-pos"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 0,
-    "targeted_batch_warnings_fixed": 8,
+    "build_errors_fixed": 1,
+    "targeted_batch_warnings_fixed": 0,
     "targeted_warnings_total": 1079,
     "validator_category_errors_fixed": 0,
-    "open_numeric_comparisons": 27432,
+    "open_numeric_comparisons": 27436,
     "build_exit": 0,
-    "build": "28372 entries; 31532 refs; trial 27521; obs 754; animal 32; lab 18; case 47; numeric 27432; worklist 17174/17174",
-    "research": "PubMed 기본 검색은 위식도역류 비처방·비약물 후보 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 169개 레코드·고유 PMID 129개였고, 첫 보강은 223개 레코드·고유 PMID 182개·신규 PMID 101개, 두 번째 보강은 215개 레코드·고유 PMID 190개·신규 PMID 99개, 세 번째 보강은 727개 레코드·고유 PMID 321개·신규 PMID 187개였다. 네 검색 세트는 1334개 레코드·중복 제거 후 고유 PMID 516개였다. EFetch는 516개를 요청·수집했고 514개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 516건에서 후보 261건·신규 후보 219건·효과 후보 219건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 30건을 기록했고 수동 제외 목록 189건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 60개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
+    "build": "28376 entries; 31536 refs; trial 27525; obs 754; animal 32; lab 18; case 47; numeric 27436; worklist 17174/17174",
+    "research": "PubMed 기본 검색은 자궁내막증 비처방·비약물 후보 비처방 주제 30개와 재검색 주제 30개를 다뤘다. 기본 검색은 212개 레코드·고유 PMID 106개였고, 첫 보강은 52개 레코드·고유 PMID 52개·신규 PMID 19개, 두 번째 보강은 89개 레코드·고유 PMID 75개·신규 PMID 60개, 세 번째 보강은 1899개 레코드·고유 PMID 944개·신규 PMID 813개였다. 네 검색 세트는 2252개 레코드·중복 제거 후 고유 PMID 998개였다. EFetch는 998개를 요청·수집했고 977개 원저 초록을 확보했으며 누락 PMID는 0개였다. 후보 parser는 998건에서 후보 195건·신규 후보 127건·효과 후보 127건을 확인했다. 수동 선별로 직접 수치·비율·P값·효과크기가 있는 신규 항목 4건을 기록했고 수동 제외 목록 123건은 프로토콜·2차 분석·관찰·수치 부족 등으로 제외했다. 결과를 추정하거나 보간하거나 만들지 않았다. 선택 항목의 무효·안전성 보강검색은 8개 질의에서 0개 레코드·고유 PMID 0개를 확인했다.",
     "qualified_topics": [
       {
-        "subject": "위식도역류 알긴산 제제",
-        "term": "gastroesophageal reflux alginate randomized",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 알긴산 래프트",
-        "term": "GERD alginate raft trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 나트륨 알긴산",
-        "term": "GERD sodium alginate clinical trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 씹어 먹는 제산제",
-        "term": "GERD chewable antacid randomized",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 탄산칼슘 제제",
-        "term": "GERD calcium carbonate antacid trial",
-        "category": "otc"
-      },
-      {
-        "subject": "위식도역류 껌 씹기",
-        "term": "GERD chewing gum randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 생활습관 교육",
-        "term": "GERD lifestyle education randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 체중 감량",
-        "term": "GERD weight loss randomized trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 저탄수화물 식사",
-        "term": "GERD low carbohydrate diet trial",
-        "category": "food"
-      },
-      {
-        "subject": "위식도역류 저지방 식사",
-        "term": "GERD low fat diet randomized",
-        "category": "food"
-      },
-      {
-        "subject": "위식도역류 식사 시간 조절",
-        "term": "GERD meal timing intervention trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 늦은 저녁 식사 회피",
-        "term": "GERD late evening meal avoidance trial",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 침대 머리 높이기",
-        "term": "GERD head of bed elevation randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 왼쪽으로 눕기",
-        "term": "GERD left lateral position randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 금연 중재",
-        "term": "GERD smoking cessation intervention",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 횡격막 호흡",
-        "term": "GERD diaphragmatic breathing randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 호흡운동",
-        "term": "GERD breathing exercise trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 이완요법",
-        "term": "GERD relaxation therapy randomized",
-        "category": "life"
-      },
-      {
-        "subject": "위식도역류 최면치료",
-        "term": "GERD hypnotherapy trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 침술",
-        "term": "GERD acupuncture randomized controlled trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 지압",
-        "term": "GERD acupressure randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 이침",
-        "term": "GERD auricular acupuncture trial",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 뜸",
-        "term": "GERD moxibustion randomized",
-        "category": "care"
-      },
-      {
-        "subject": "위식도역류 요가",
-        "term": "GERD yoga randomized trial",
+        "subject": "자궁내막증 유산소운동",
+        "term": "endometriosis aerobic exercise randomized",
         "category": "move"
       },
       {
-        "subject": "위식도역류 유산소운동",
-        "term": "GERD aerobic exercise trial",
+        "subject": "자궁내막증 운동치료",
+        "term": "endometriosis exercise therapy randomized",
         "category": "move"
       },
       {
-        "subject": "위식도역류 멜라토닌 보충",
-        "term": "GERD melatonin placebo randomized",
+        "subject": "자궁내막증 요가",
+        "term": "endometriosis yoga randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 스트레칭",
+        "term": "endometriosis stretching randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 저항운동",
+        "term": "endometriosis resistance exercise randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 골반저 물리치료",
+        "term": "endometriosis pelvic floor physical therapy randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 물리치료",
+        "term": "endometriosis physiotherapy randomized",
+        "category": "move"
+      },
+      {
+        "subject": "자궁내막증 경피전기신경자극",
+        "term": "endometriosis TENS randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 전기자극",
+        "term": "endometriosis electrical stimulation randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 침술",
+        "term": "endometriosis acupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 전기침",
+        "term": "endometriosis electroacupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 지압",
+        "term": "endometriosis acupressure randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 이침",
+        "term": "endometriosis auricular acupuncture randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 뜸",
+        "term": "endometriosis moxibustion randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 마사지",
+        "term": "endometriosis massage randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 수기치료",
+        "term": "endometriosis manual therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 인지행동치료",
+        "term": "endometriosis cognitive behavioral therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 마음챙김",
+        "term": "endometriosis mindfulness randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 자기관리 교육",
+        "term": "endometriosis self-management education randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 통증교육",
+        "term": "endometriosis pain education randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 온열치료",
+        "term": "endometriosis heat therapy randomized",
+        "category": "care"
+      },
+      {
+        "subject": "자궁내막증 이완요법",
+        "term": "endometriosis relaxation therapy randomized",
+        "category": "life"
+      },
+      {
+        "subject": "자궁내막증 수면관리",
+        "term": "endometriosis sleep intervention randomized",
+        "category": "life"
+      },
+      {
+        "subject": "자궁내막증 식이요법",
+        "term": "endometriosis dietary intervention randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 지중해식 식사",
+        "term": "endometriosis Mediterranean diet randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 저FODMAP 식사",
+        "term": "endometriosis low FODMAP diet randomized",
+        "category": "food"
+      },
+      {
+        "subject": "자궁내막증 오메가3",
+        "term": "endometriosis omega-3 supplementation randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 프로바이오틱스",
-        "term": "GERD probiotics placebo randomized",
+        "subject": "자궁내막증 비타민D",
+        "term": "endometriosis vitamin D supplementation randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 감초 추출물",
-        "term": "GERD deglycyrrhizinated licorice trial",
+        "subject": "자궁내막증 커큐민",
+        "term": "endometriosis curcumin randomized",
         "category": "supp"
       },
       {
-        "subject": "위식도역류 커큐민 보충",
-        "term": "GERD curcumin randomized trial",
-        "category": "supp"
-      },
-      {
-        "subject": "위식도역류 알로에베라",
-        "term": "GERD aloe vera randomized trial",
+        "subject": "자궁내막증 NAC 보충",
+        "term": "endometriosis N-acetylcysteine randomized",
         "category": "supp"
       }
     ],
     "screened_topics": [
-      "위식도역류 알긴산 제제",
-      "위식도역류 알긴산 래프트",
-      "위식도역류 나트륨 알긴산",
-      "위식도역류 씹어 먹는 제산제",
-      "위식도역류 탄산칼슘 제제",
-      "위식도역류 껌 씹기",
-      "위식도역류 생활습관 교육",
-      "위식도역류 체중 감량",
-      "위식도역류 저탄수화물 식사",
-      "위식도역류 저지방 식사",
-      "위식도역류 식사 시간 조절",
-      "위식도역류 늦은 저녁 식사 회피",
-      "위식도역류 침대 머리 높이기",
-      "위식도역류 왼쪽으로 눕기",
-      "위식도역류 금연 중재",
-      "위식도역류 횡격막 호흡",
-      "위식도역류 호흡운동",
-      "위식도역류 이완요법",
-      "위식도역류 최면치료",
-      "위식도역류 침술",
-      "위식도역류 지압",
-      "위식도역류 이침",
-      "위식도역류 뜸",
-      "위식도역류 요가",
-      "위식도역류 유산소운동",
-      "위식도역류 멜라토닌 보충",
-      "위식도역류 프로바이오틱스",
-      "위식도역류 감초 추출물",
-      "위식도역류 커큐민 보충",
-      "위식도역류 알로에베라"
+      "자궁내막증 유산소운동",
+      "자궁내막증 운동치료",
+      "자궁내막증 요가",
+      "자궁내막증 스트레칭",
+      "자궁내막증 저항운동",
+      "자궁내막증 골반저 물리치료",
+      "자궁내막증 물리치료",
+      "자궁내막증 경피전기신경자극",
+      "자궁내막증 전기자극",
+      "자궁내막증 침술",
+      "자궁내막증 전기침",
+      "자궁내막증 지압",
+      "자궁내막증 이침",
+      "자궁내막증 뜸",
+      "자궁내막증 마사지",
+      "자궁내막증 수기치료",
+      "자궁내막증 인지행동치료",
+      "자궁내막증 마음챙김",
+      "자궁내막증 자기관리 교육",
+      "자궁내막증 통증교육",
+      "자궁내막증 온열치료",
+      "자궁내막증 이완요법",
+      "자궁내막증 수면관리",
+      "자궁내막증 식이요법",
+      "자궁내막증 지중해식 식사",
+      "자궁내막증 저FODMAP 식사",
+      "자궁내막증 오메가3",
+      "자궁내막증 비타민D",
+      "자궁내막증 커큐민",
+      "자궁내막증 NAC 보충"
     ],
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 0,
@@ -10197,207 +10088,141 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
-      "next_batch": "12590",
-      "worklist_line": "new-expansion-candidates-batch12590",
-      "topic": "다음 비처방 후보 주제 선정 batch 12590",
+      "next_batch": "12600",
+      "worklist_line": "new-expansion-candidates-batch12600",
+      "topic": "다음 비처방 후보 주제 선정 batch 12600",
       "unchecked": 0
     },
-    "unknownN": 2,
-    "thin": 8,
+    "unknownN": 0,
+    "thin": 2,
     "rejected_candidate_pmids": [
-      "39292631",
-      "32691466",
-      "36165039",
-      "37665080",
-      "40066936",
-      "2891580",
-      "15833233",
-      "26165071",
-      "3016226",
-      "40296273",
-      "22050449",
-      "42636164",
-      "9295978",
-      "8047802",
-      "28464343",
-      "24603400",
-      "12194554",
-      "36459357",
-      "10615584",
-      "23989054",
-      "41554945",
-      "41132014",
-      "16682569",
-      "8767437",
-      "27766723",
-      "15769439",
-      "21081772",
-      "40487675",
-      "34119741",
-      "27219496",
-      "36156932",
-      "17011315",
-      "8065190",
-      "36161053",
-      "10871974",
-      "9068463",
-      "2331957",
-      "2568015",
-      "9001831",
-      "11695354",
-      "8853758",
-      "1962618",
-      "1538721",
-      "16927137",
-      "9042987",
-      "33267591",
-      "10383525",
-      "7025235",
-      "7040158",
-      "1587191",
-      "12809818",
-      "3556957",
-      "7605854",
-      "6355792",
-      "8101695",
-      "6846300",
-      "1947791",
-      "3346792",
-      "12843909",
-      "23994670",
-      "40904246",
-      "17545782",
-      "41694490",
-      "22089363",
-      "38009009",
-      "16109188",
-      "10468675",
-      "18688720",
-      "16960528",
-      "40383259",
-      "35063245",
-      "28052291",
-      "29291607",
-      "42484803",
-      "18616070",
-      "22043833",
-      "39777899",
-      "7000475",
-      "37175640",
-      "1885899",
-      "2874168",
-      "27981311",
-      "3328282",
-      "40435992",
-      "31800987",
-      "23892829",
-      "11723599",
-      "12931293",
-      "34794325",
-      "38989656",
-      "17136289",
-      "25226514",
-      "38023576",
-      "38173157",
-      "1499443",
-      "34090551",
-      "32675389",
-      "7733082",
-      "9843762",
-      "8213706",
-      "31287522",
-      "20451523",
-      "7229228",
-      "15068963",
-      "22404184",
-      "20425477",
-      "28818054",
-      "24282373",
-      "19082662",
-      "4029557",
-      "25873206",
-      "16847231",
-      "10759625",
-      "9772038",
-      "23207247",
-      "20222915",
-      "22374468",
-      "21171670",
-      "20236248",
-      "19491837",
-      "29176476",
-      "25213052",
-      "37768310",
-      "12094846",
-      "6306094",
-      "21083596",
-      "340333",
-      "3307670",
-      "7614103",
-      "20132154",
-      "21694855",
-      "10950032",
-      "11207509",
-      "21320138",
-      "7794701",
-      "8439641",
-      "7636452",
-      "11500608",
-      "7794700",
-      "6321588",
-      "11273538",
-      "15233698",
-      "11929392",
-      "15615275",
-      "36814893",
-      "41563645",
-      "35010152",
-      "11072457",
-      "8281847",
-      "41026367",
-      "25133940",
-      "9549035",
-      "37458926",
-      "1420751",
-      "19641272",
-      "10232867",
-      "16128935",
-      "10463897",
-      "9076616",
-      "10215731",
-      "3902378",
-      "32647054",
-      "10886047",
-      "6548926",
-      "3073524",
-      "7004292",
-      "3068300",
-      "346430",
-      "341689",
-      "8212757",
-      "10102976",
-      "2979276",
-      "11704778",
-      "10215729",
-      "7863248",
-      "9570260",
-      "16431305",
-      "37061897",
-      "3285748",
-      "15563239",
-      "21333184",
-      "40383216",
-      "7911400",
-      "18080054",
-      "15922820",
-      "16113546",
-      "3316371",
-      "33825965",
-      "19185691"
+      "39360492",
+      "35162761",
+      "19830953",
+      "33446725",
+      "18537469",
+      "42075089",
+      "36875844",
+      "24717915",
+      "29533153",
+      "42037530",
+      "26062522",
+      "28102491",
+      "22047005",
+      "41754163",
+      "41797792",
+      "41439725",
+      "39261815",
+      "41791364",
+      "38012776",
+      "42077502",
+      "34373298",
+      "39040659",
+      "36199735",
+      "23913583",
+      "41373108",
+      "33395684",
+      "37416064",
+      "41715206",
+      "27000311",
+      "27048013",
+      "32824334",
+      "23718930",
+      "41385548",
+      "41628666",
+      "35974874",
+      "40747556",
+      "8765259",
+      "40643445",
+      "40535620",
+      "8000058",
+      "8354093",
+      "41551998",
+      "38787068",
+      "38199787",
+      "31697458",
+      "35475975",
+      "30402122",
+      "24610050",
+      "24346786",
+      "22592712",
+      "21901713",
+      "21187138",
+      "19588398",
+      "40420272",
+      "27484764",
+      "24996447",
+      "35814941",
+      "42264427",
+      "40686285",
+      "39305835",
+      "38906210",
+      "38907175",
+      "38243752",
+      "37306288",
+      "34826668",
+      "34154590",
+      "33516531",
+      "32936010",
+      "42576801",
+      "42409154",
+      "42035991",
+      "42116317",
+      "42006396",
+      "41790701",
+      "41790646",
+      "41776626",
+      "41665220",
+      "41503019",
+      "39159261",
+      "39000175",
+      "37283994",
+      "32132396",
+      "29889764",
+      "28911925",
+      "27522645",
+      "25730237",
+      "25461377",
+      "21196745",
+      "19046127",
+      "42537966",
+      "42340393",
+      "41672218",
+      "39490892",
+      "38914481",
+      "34585638",
+      "40575397",
+      "38983729",
+      "39575953",
+      "37010332",
+      "33623645",
+      "40731893",
+      "39490444",
+      "38768578",
+      "37672087",
+      "36206797",
+      "31532753",
+      "31390370",
+      "24595586",
+      "22536793",
+      "21401632",
+      "19958132",
+      "12742182",
+      "36454211",
+      "33693010",
+      "27069371",
+      "37220873",
+      "41457227",
+      "41305747",
+      "39837933",
+      "20579357",
+      "19388539",
+      "17765403",
+      "36774757"
     ],
-    "new_search_pmids": 387
+    "new_search_pmids": 892
   },
   "previous_last_batch_10490": {
     "id": "10490",
