@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-03T12:21:24.275Z",
+  "updated": "2026-09-03T12:51:13.120Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 29820,
-  "subjects": 21936,
-  "refs": 32980,
+  "entries": 29850,
+  "subjects": 21966,
+  "refs": 33010,
   "kinds": {
     "undefined": 10367,
     "care": 8690,
-    "supp": 3015,
-    "move": 3697,
-    "food": 1170,
+    "supp": 3023,
+    "move": 3702,
+    "food": 1187,
     "otc": 722,
     "life": 2135,
     "rx": 24
   },
   "tiers": {
-    "trial": 28969,
+    "trial": 28999,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 20906,
-    "null": 6908,
+    "pos": 20931,
+    "null": 6913,
     "open": 1675,
     "harm": 331
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13490는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13500이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13500는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13500이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,23 +41,23 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 13490는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13500이다."
+    "note": "Batch 13500는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13500이다."
   },
   "checkpoints": {
-    "over_counter_share": "16.5% (4907 entries)",
+    "over_counter_share": "16.5% (4932 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (7239)",
-    "vs_share": "96.8% (28880)",
+    "no_effect_or_harm_share": "24.3% (7244)",
+    "vs_share": "96.9% (28911)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.1% (28969)",
+    "trial_share": "97.1% (28999)",
     "non_trial_share": "2.9% (851)",
     "build_warnings": {
       "unknown_n": 1681,
-      "thin_study": 9038,
-      "targeted_batch_warnings": 1690
+      "thin_study": 9053,
+      "targeted_batch_warnings": 1695
     },
-    "targeted_batch_warnings": 1690,
-    "targeted_warnings_total": 1690
+    "targeted_batch_warnings": 1695,
+    "targeted_warnings_total": 1695
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13500",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch13500",
     "topic": "다음 비처방 후보 주제 선정 batch 13500"
   },
@@ -9607,482 +9607,518 @@
     }
   },
   "last_batch": {
-    "id": "13490",
-    "commit": "bf429d8f9",
-    "pushed": true,
-    "expansion_commit": "bf429d8f9",
-    "data_commits": [
-      "bf429d8f9"
-    ],
-    "checkpoint_commit": "1b8890a61",
-    "push_marker_commit": "8257af270",
-    "known_items_commit": "3535d5c8d",
+    "id": "13500",
+    "commit": null,
+    "pushed": false,
+    "expansion_commit": null,
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "batch-13490-1",
-        "subject": "식초 식후 혈당",
+        "topic": "batch-13500-selected-01",
+        "subject": "블루베리 뇌혈류",
         "kind": "food"
       },
       {
-        "id": "batch-13490-2",
-        "subject": "콩류 혈당조절",
+        "topic": "batch-13500-selected-02",
+        "subject": "식물성 스테롤 우유",
         "kind": "food"
       },
       {
-        "id": "batch-13490-3",
-        "subject": "아몬드 콜레스테롤",
+        "topic": "batch-13500-selected-03",
+        "subject": "식물성 스테롤·어유 스프레드",
         "kind": "food"
       },
       {
-        "id": "batch-13490-4",
-        "subject": "발효식품 염증",
+        "topic": "batch-13500-selected-04",
+        "subject": "식물성 스테롤·귀리 베타글루칸",
         "kind": "food"
       },
       {
-        "id": "batch-13490-5",
-        "subject": "요구르트 대사증후군",
+        "topic": "batch-13500-selected-05",
+        "subject": "콜레스테롤 저하 식단 포트폴리오",
         "kind": "food"
       },
       {
-        "id": "batch-13490-6",
-        "subject": "김치 콜레스테롤",
+        "topic": "batch-13500-selected-06",
+        "subject": "콩가루 머핀",
         "kind": "food"
       },
       {
-        "id": "batch-13490-7",
-        "subject": "코코넛워터 혈압",
+        "topic": "batch-13500-selected-07",
+        "subject": "콩 단백질 체중감량 식단",
         "kind": "food"
       },
       {
-        "id": "batch-13490-8",
-        "subject": "마테 체중",
+        "topic": "batch-13500-selected-08",
+        "subject": "자외선 버섯 비타민D",
         "kind": "food"
       },
       {
-        "id": "batch-13490-9",
-        "subject": "석류 폐경 증상",
+        "topic": "batch-13500-selected-09",
+        "subject": "자외선 느타리버섯 비타민D",
         "kind": "food"
       },
       {
-        "id": "batch-13490-10",
-        "subject": "타트체리 수면",
+        "topic": "batch-13500-selected-10",
+        "subject": "우유 펩타이드·식물성 스테롤",
         "kind": "food"
       },
       {
-        "id": "batch-13490-11",
-        "subject": "키위 수면",
+        "topic": "batch-13500-selected-11",
+        "subject": "토마토 추출물 혈압",
         "kind": "food"
       },
       {
-        "id": "batch-13490-12",
-        "subject": "카카오 수면",
+        "topic": "batch-13500-selected-12",
+        "subject": "토마토 추출물 고혈압",
         "kind": "food"
       },
       {
-        "id": "batch-13490-13",
-        "subject": "리보플라빈 편두통",
+        "topic": "batch-13500-selected-13",
+        "subject": "말린 사과 식후혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-14",
+        "subject": "효소처리 사과주스 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-15",
+        "subject": "사과 선행섭취 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-16",
+        "subject": "병아리콩 후무스 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-17",
+        "subject": "염소요거트·건포도 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-18",
+        "subject": "NAC COPD 악화 예방",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-14",
-        "subject": "코엔자임Q10 편두통",
+        "topic": "batch-13500-selected-19",
+        "subject": "NAC COPD 악화 감소",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-15",
-        "subject": "마그네슘 편두통",
+        "topic": "batch-13500-selected-20",
+        "subject": "NAC COPD 운동능력",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-16",
-        "subject": "프로바이오틱 항생제 설사",
+        "topic": "batch-13500-selected-21",
+        "subject": "오메가3 안구건조",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-17",
-        "subject": "아연 소아 설사",
+        "topic": "batch-13500-selected-22",
+        "subject": "L-카르니틴 노쇠",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-18",
-        "subject": "셀레늄 갑상선",
+        "topic": "batch-13500-selected-23",
+        "subject": "L-카르니틴 공복 피로",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-19",
-        "subject": "철분 피로",
+        "topic": "batch-13500-selected-24",
+        "subject": "크레아틴·인지행동치료",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-20",
-        "subject": "MSM 무릎통증",
+        "topic": "batch-13500-selected-25",
+        "subject": "크레아틴·양극성 기분",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-21",
-        "subject": "요가 불안",
+        "topic": "batch-13500-selected-26",
+        "subject": "파킨슨병 댄스수업",
         "kind": "move"
       },
       {
-        "id": "batch-13490-22",
-        "subject": "태극권 균형",
+        "topic": "batch-13500-selected-27",
+        "subject": "유산소운동 기분",
         "kind": "move"
       },
       {
-        "id": "batch-13490-23",
-        "subject": "필라테스 목통증",
+        "topic": "batch-13500-selected-28",
+        "subject": "가정 근력·균형운동 낙상",
         "kind": "move"
       },
       {
-        "id": "batch-13490-24",
-        "subject": "저항운동 제2형 당뇨",
+        "topic": "batch-13500-selected-29",
+        "subject": "짧은 걷기 혈압",
         "kind": "move"
       },
       {
-        "id": "batch-13490-25",
-        "subject": "인터벌 걷기 당뇨",
+        "topic": "batch-13500-selected-30",
+        "subject": "요가 통증관리",
         "kind": "move"
-      },
-      {
-        "id": "batch-13490-26",
-        "subject": "수중운동 섬유근육통",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13490-27",
-        "subject": "압박붕대 하지부종",
-        "kind": "care"
-      },
-      {
-        "id": "batch-13490-28",
-        "subject": "마음챙김 고혈압",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13490-29",
-        "subject": "음악치료 불안",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13490-30",
-        "subject": "자기연민 우울증",
-        "kind": "life"
       }
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 2252,
-    "new_candidate_rejects": 933,
-    "all_excluded_candidates": 3408,
+    "no_evidence_rejects": 2533,
+    "new_candidate_rejects": 1174,
+    "all_excluded_candidates": 4125,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 10,
+    "screened_nonqualifying_topics": 0,
     "new_references": 30,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 1810,
+    "duplicate_search_pmids_removed": 1906,
     "search_topic_count": 30,
-    "search_returned_records": 2516,
-    "main_search_records": 2516,
-    "main_search_unique_pmids": 2469,
+    "search_returned_records": 2832,
+    "main_search_records": 2832,
+    "main_search_unique_pmids": 2793,
     "extra_query_count": 30,
-    "extra_search_records": 1353,
-    "extra_unique_pmids": 1339,
+    "extra_search_records": 1669,
+    "extra_unique_pmids": 1666,
     "extra2_query_count": 30,
-    "extra2_search_records": 1379,
-    "extra2_unique_pmids": 1370,
+    "extra2_search_records": 1560,
+    "extra2_unique_pmids": 1553,
     "targeted_query_count": 60,
-    "targeted_search_records": 50558731,
-    "targeted_search_unique_pmids": 149,
+    "targeted_search_records": 50561872,
+    "targeted_search_unique_pmids": 224,
     "targeted_negative_hits": 30,
     "targeted_safety_hits": 30,
-    "combined_search_unique_pmids": 3438,
-    "requested": 3438,
-    "fetched": 3438,
-    "fetch_chunks": 35,
-    "abstracts": 3410,
+    "combined_search_unique_pmids": 4155,
+    "requested": 4155,
+    "fetched": 4155,
+    "fetch_chunks": 42,
+    "abstracts": 4119,
     "missing": 0,
-    "candidate_parser_parsed": 3438,
-    "candidate_parser_candidates": 1186,
-    "union_new_candidate_like": 963,
-    "effect_candidate_rows": 963,
+    "candidate_parser_parsed": 4155,
+    "candidate_parser_candidates": 1622,
+    "union_new_candidate_like": 1204,
+    "effect_candidate_rows": 1204,
     "selected_pmids": [
-      "16015276",
-      "26064976",
-      "28976933",
-      "39203806",
-      "37621033",
-      "36704786",
-      "23444963",
-      "26408319",
-      "22038497",
-      "36011907",
-      "29887900",
-      "39695092",
-      "39339787",
-      "17516722",
-      "40488914",
-      "35727573",
-      "32966722",
-      "38374579",
-      "12763985",
-      "41736325",
-      "38903593",
-      "41255935",
-      "38307949",
-      "28842722",
-      "32786188",
-      "34136657",
-      "12920428",
-      "23260618",
-      "11604980",
-      "37161071"
+      "28249119",
+      "25327602",
+      "29725824",
+      "30792143",
+      "21862744",
+      "26446482",
+      "30151230",
+      "22623385",
+      "39856927",
+      "22398753",
+      "19052855",
+      "16368299",
+      "29957099",
+      "30971750",
+      "31810219",
+      "26818604",
+      "35920045",
+      "39349461",
+      "10575333",
+      "28255088",
+      "31425752",
+      "27895474",
+      "25424121",
+      "39488067",
+      "29177955",
+      "31561398",
+      "32838817",
+      "39918027",
+      "16751820",
+      "33218747"
     ],
     "new_pmids": [
-      "16015276",
-      "26064976",
-      "28976933",
-      "39203806",
-      "37621033",
-      "36704786",
-      "23444963",
-      "26408319",
-      "22038497",
-      "36011907",
-      "29887900",
-      "39695092",
-      "39339787",
-      "17516722",
-      "40488914",
-      "35727573",
-      "32966722",
-      "38374579",
-      "12763985",
-      "41736325",
-      "38903593",
-      "41255935",
-      "38307949",
-      "28842722",
-      "32786188",
-      "34136657",
-      "12920428",
-      "23260618",
-      "11604980",
-      "37161071"
+      "28249119",
+      "25327602",
+      "29725824",
+      "30792143",
+      "21862744",
+      "26446482",
+      "30151230",
+      "22623385",
+      "39856927",
+      "22398753",
+      "19052855",
+      "16368299",
+      "29957099",
+      "30971750",
+      "31810219",
+      "26818604",
+      "35920045",
+      "39349461",
+      "10575333",
+      "28255088",
+      "31425752",
+      "27895474",
+      "25424121",
+      "39488067",
+      "29177955",
+      "31561398",
+      "32838817",
+      "39918027",
+      "16751820",
+      "33218747"
     ],
     "new_entry_ids": [
-      "vinegar-postprandial-16015276-pos",
-      "vinegar-diabetes-26064976-pos",
-      "legume-rice-glycemia-28976933-pos",
-      "lentil-glycemia-39203806-pos",
-      "almond-diet-37621033-null",
-      "almond-insulin-36704786-pos",
-      "kimchi-lipids-23444963-pos",
-      "yerba-mate-obesity-26408319-pos",
-      "tart-cherry-sleep-22038497-pos",
-      "tart-cherry-athletes-sleep-36011907-pos",
-      "camel-milk-metabolic-29887900-null",
-      "synbiotic-yogurt-metabolic-39695092-pos",
-      "kombucha-inflammation-39339787-pos",
-      "glucosamine-msm-osteoarthritis-17516722-pos",
-      "probiotic-aad-40488914-pos",
-      "multispecies-probiotic-aad-35727573-null",
-      "zinc-diarrhea-32966722-pos",
-      "selenium-graves-orbitopathy-38374579-pos",
-      "iron-fatigue-12763985-pos",
-      "iron-fatigue-2024-41736325-pos",
-      "yoga-students-anxiety-38903593-pos",
-      "tai-chi-balance-41255935-pos",
-      "resistance-diabetic-nephropathy-38307949-pos",
-      "interval-walking-diabetes-28842722-pos",
-      "compression-cellulitis-32786188-pos",
-      "mindfulness-blood-pressure-34136657-pos",
-      "music-gi-procedure-anxiety-12920428-pos",
-      "mindfulness-anxiety-bp-23260618-pos",
-      "music-ventilator-anxiety-11604980-pos",
-      "music-dental-anxiety-37161071-pos"
+      "blueberry-brain-perfusion-pos",
+      "plant-sterol-milk-pos",
+      "plant-sterol-fishspread-pos",
+      "plant-sterol-oat-beta-glucan-pos",
+      "dietary-portfolio-cholesterol-pos",
+      "soy-flour-muffin-null",
+      "soy-protein-weight-loss-null",
+      "uv-mushroom-vitamin-d-pos",
+      "uv-oyster-mushroom-vitamin-d-pos",
+      "milk-peptides-plant-sterol-pos",
+      "tomato-extract-bp-medicated-pos",
+      "tomato-extract-hypertension-pos",
+      "dried-apple-glucose-pos",
+      "enzyme-apple-juice-glucose-pos",
+      "apple-preload-glucose-pos",
+      "hummus-postmeal-glucose-pos",
+      "goat-yogurt-raisin-glucose-pos",
+      "nac-copd-exacerbation-null",
+      "nac-copd-exacerbation-pos",
+      "nac-copd-exercise-null",
+      "omega3-dry-eye-null",
+      "l-carnitine-frailty-pos",
+      "l-carnitine-fasting-fatigue-pos",
+      "creatine-cbt-depression-pos",
+      "creatine-bipolar-depression-pos",
+      "dance-parkinson-cognition-pos",
+      "aerobic-exercise-major-depression-pos",
+      "home-balance-exercise-falls-pos",
+      "walking-snacks-blood-pressure-pos",
+      "yoga-gulf-war-pain-pos"
     ],
     "categories": {
-      "food": 13,
-      "supp": 7,
-      "move": 4,
-      "care": 1,
-      "life": 5
+      "food": 17,
+      "supp": 8,
+      "move": 5
     },
     "tiers": {
       "trial": 30
     },
     "dirs": {
-      "pos": 27,
-      "null": 3
+      "pos": 25,
+      "null": 5
     },
-    "unknown_n": 2,
-    "thin_studies": 11,
+    "unknown_n": 0,
+    "thin_studies": 15,
     "validator_errors": 0,
-    "validator_warnings": 13,
+    "validator_warnings": 15,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 13,
+    "initial_validator_warnings": 15,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 10612,
-    "build_warning_lines": 10597,
-    "new_unknown_n_warnings": [
-      "lentil-glycemia-39203806-pos",
-      "mindfulness-blood-pressure-34136657-pos"
-    ],
+    "initial_build_warning_lines": 10618,
+    "build_warning_lines": 10613,
+    "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "vinegar-postprandial-16015276-pos",
-      "vinegar-diabetes-26064976-pos",
-      "legume-rice-glycemia-28976933-pos",
-      "yerba-mate-obesity-26408319-pos",
-      "tart-cherry-sleep-22038497-pos",
-      "tart-cherry-athletes-sleep-36011907-pos",
-      "camel-milk-metabolic-29887900-null",
-      "synbiotic-yogurt-metabolic-39695092-pos",
-      "selenium-graves-orbitopathy-38374579-pos",
-      "interval-walking-diabetes-28842722-pos",
-      "music-ventilator-anxiety-11604980-pos"
+      "blueberry-brain-perfusion-pos",
+      "uv-mushroom-vitamin-d-pos",
+      "uv-oyster-mushroom-vitamin-d-pos",
+      "tomato-extract-hypertension-pos",
+      "dried-apple-glucose-pos",
+      "enzyme-apple-juice-glucose-pos",
+      "apple-preload-glucose-pos",
+      "hummus-postmeal-glucose-pos",
+      "goat-yogurt-raisin-glucose-pos",
+      "nac-copd-exercise-null",
+      "omega3-dry-eye-null",
+      "l-carnitine-fasting-fatigue-pos",
+      "creatine-bipolar-depression-pos",
+      "dance-parkinson-cognition-pos",
+      "walking-snacks-blood-pressure-pos"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 5,
-    "new_entry_line_warnings_fixed": 1,
-    "new_entry_subject_warnings_fixed": 9,
+    "new_entry_vs_warnings_fixed": 1,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 4,
     "new_entry_translation_warnings_fixed": 0,
-    "targeted_batch_warnings_fixed": 15,
-    "open_numeric_comparisons": 28880,
+    "targeted_batch_warnings_fixed": 5,
+    "open_numeric_comparisons": 28911,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2516개 레코드·고유 PMID 2469개, 첫 보강 1353개 레코드·고유 PMID 1339개, 두 번째 보강 1379개 레코드·고유 PMID 1370개였다. 세 묶음은 5248개 레코드였고 중복 제거 후 3438개 PMID를 EFetch해 3410개 초록을 확보했다. 후보 parser는 3438건에서 후보 1186건·신규 후보 963건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 신규 후보 933건은 고찰·프로토콜·비무작위·수치 부족·중복 또는 주제 불일치로 제외했다. PMID별 부정·안전성 검색은 60회, 검색 레코드 50558731건, 고유 PMID 149건이었다. 전용 검증 오류 0·경고 13; 실제 n<50 11건·표본 수 미상 2건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 10612, 최종 exit 0·오류 0·경고 10597; 새 비교·줄·주제 경고 15건을 수정했다. 직접 대응 자료가 없어 보류한 worklist 주제는 코코넛워터 혈압·석류 폐경 증상·키위 수면·카카오 수면·리보플라빈 편두통·코엔자임Q10 편두통·마그네슘 편두통·필라테스 목통증·수중운동 섬유근육통·자기연민 우울증이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2832개 레코드·고유 PMID 2793개, 첫 보강 1669개 레코드·고유 PMID 1666개, 두 번째 보강 1560개 레코드·고유 PMID 1553개였다. 세 묶음은 6061개 레코드였고 중복 제거 후 4155개 PMID를 EFetch해 4119개 초록을 확보했다. 후보 parser는 4155건에서 후보 1622건·신규 후보 1204건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 신규 후보 1174건은 고찰·프로토콜·비무작위·수치 부족·중복 또는 주제 불일치로 제외했다. PMID별 부정·안전성 검색은 60회, 검색 레코드 50561872건, 고유 PMID 224건이었다. 전용 검증 오류 0·경고 15; 실제 n<50 15건·표본 수 미상 0건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 10618, 최종 exit 0·오류 0·경고 10613; 새 비교·줄·주제 경고 5건을 수정했다. 직접 대응 자료가 없어 보류한 worklist 주제는 이다.",
     "qualified_topics": [
       {
-        "id": "batch-13490-1",
-        "subject": "식초 식후 혈당",
+        "topic": "batch-13500-selected-01",
+        "subject": "블루베리 뇌혈류",
         "kind": "food"
       },
       {
-        "id": "batch-13490-2",
-        "subject": "콩류 혈당조절",
+        "topic": "batch-13500-selected-02",
+        "subject": "식물성 스테롤 우유",
         "kind": "food"
       },
       {
-        "id": "batch-13490-3",
-        "subject": "아몬드 콜레스테롤",
+        "topic": "batch-13500-selected-03",
+        "subject": "식물성 스테롤·어유 스프레드",
         "kind": "food"
       },
       {
-        "id": "batch-13490-4",
-        "subject": "발효식품 염증",
+        "topic": "batch-13500-selected-04",
+        "subject": "식물성 스테롤·귀리 베타글루칸",
         "kind": "food"
       },
       {
-        "id": "batch-13490-5",
-        "subject": "요구르트 대사증후군",
+        "topic": "batch-13500-selected-05",
+        "subject": "콜레스테롤 저하 식단 포트폴리오",
         "kind": "food"
       },
       {
-        "id": "batch-13490-6",
-        "subject": "김치 콜레스테롤",
+        "topic": "batch-13500-selected-06",
+        "subject": "콩가루 머핀",
         "kind": "food"
       },
       {
-        "id": "batch-13490-8",
-        "subject": "마테 체중",
+        "topic": "batch-13500-selected-07",
+        "subject": "콩 단백질 체중감량 식단",
         "kind": "food"
       },
       {
-        "id": "batch-13490-10",
-        "subject": "타트체리 수면",
+        "topic": "batch-13500-selected-08",
+        "subject": "자외선 버섯 비타민D",
         "kind": "food"
       },
       {
-        "id": "batch-13490-16",
-        "subject": "프로바이오틱 항생제 설사",
+        "topic": "batch-13500-selected-09",
+        "subject": "자외선 느타리버섯 비타민D",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-10",
+        "subject": "우유 펩타이드·식물성 스테롤",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-11",
+        "subject": "토마토 추출물 혈압",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-12",
+        "subject": "토마토 추출물 고혈압",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-13",
+        "subject": "말린 사과 식후혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-14",
+        "subject": "효소처리 사과주스 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-15",
+        "subject": "사과 선행섭취 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-16",
+        "subject": "병아리콩 후무스 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-17",
+        "subject": "염소요거트·건포도 혈당",
+        "kind": "food"
+      },
+      {
+        "topic": "batch-13500-selected-18",
+        "subject": "NAC COPD 악화 예방",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-17",
-        "subject": "아연 소아 설사",
+        "topic": "batch-13500-selected-19",
+        "subject": "NAC COPD 악화 감소",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-18",
-        "subject": "셀레늄 갑상선",
+        "topic": "batch-13500-selected-20",
+        "subject": "NAC COPD 운동능력",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-19",
-        "subject": "철분 피로",
+        "topic": "batch-13500-selected-21",
+        "subject": "오메가3 안구건조",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-20",
-        "subject": "MSM 무릎통증",
+        "topic": "batch-13500-selected-22",
+        "subject": "L-카르니틴 노쇠",
         "kind": "supp"
       },
       {
-        "id": "batch-13490-21",
-        "subject": "요가 불안",
+        "topic": "batch-13500-selected-23",
+        "subject": "L-카르니틴 공복 피로",
+        "kind": "supp"
+      },
+      {
+        "topic": "batch-13500-selected-24",
+        "subject": "크레아틴·인지행동치료",
+        "kind": "supp"
+      },
+      {
+        "topic": "batch-13500-selected-25",
+        "subject": "크레아틴·양극성 기분",
+        "kind": "supp"
+      },
+      {
+        "topic": "batch-13500-selected-26",
+        "subject": "파킨슨병 댄스수업",
         "kind": "move"
       },
       {
-        "id": "batch-13490-22",
-        "subject": "태극권 균형",
+        "topic": "batch-13500-selected-27",
+        "subject": "유산소운동 기분",
         "kind": "move"
       },
       {
-        "id": "batch-13490-24",
-        "subject": "저항운동 제2형 당뇨",
+        "topic": "batch-13500-selected-28",
+        "subject": "가정 근력·균형운동 낙상",
         "kind": "move"
       },
       {
-        "id": "batch-13490-25",
-        "subject": "인터벌 걷기 당뇨",
+        "topic": "batch-13500-selected-29",
+        "subject": "짧은 걷기 혈압",
         "kind": "move"
       },
       {
-        "id": "batch-13490-27",
-        "subject": "압박붕대 하지부종",
-        "kind": "care"
-      },
-      {
-        "id": "batch-13490-28",
-        "subject": "마음챙김 고혈압",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13490-29",
-        "subject": "음악치료 불안",
-        "kind": "life"
+        "topic": "batch-13500-selected-30",
+        "subject": "요가 통증관리",
+        "kind": "move"
       }
     ],
-    "screened_topics": [
-      "코코넛워터 혈압",
-      "석류 폐경 증상",
-      "키위 수면",
-      "카카오 수면",
-      "리보플라빈 편두통",
-      "코엔자임Q10 편두통",
-      "마그네슘 편두통",
-      "필라테스 목통증",
-      "수중운동 섬유근육통",
-      "자기연민 우울증"
-    ],
+    "screened_topics": [],
     "remaining_non_prescription_vs_missing": 0,
-    "sample_sizes_filled": 28,
+    "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 9,
-    "subject_entries_renamed": 9,
-    "pushed_state": "PUSHED=true",
+    "subject_names_renamed": 4,
+    "subject_entries_renamed": 4,
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "13500",
       "worklist_line": "new-expansion-candidates-batch13500",
       "topic": "다음 비처방 후보 주제 선정 batch 13500",
       "unchecked": 0
     },
-    "unknownN": 2,
-    "thin": 11
+    "unknownN": 0,
+    "thin": 15
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -33954,10 +33990,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 28929,
+  "withVs": 28959,
   "unknownN": 1681,
-  "thinStudy": 9038,
-  "openNumeric": 28880,
+  "thinStudy": 9053,
+  "openNumeric": 28911,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
