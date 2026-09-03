@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T10:15:28.789Z",
+  "updated": "2026-09-03T10:20:27.961Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 29700,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13450는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13450이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13450는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13460이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 13450는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13450이다."
+    "note": "Batch 13450는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13460이다."
   },
   "checkpoints": {
     "over_counter_share": "16.3% (4837 entries)",
@@ -64,15 +64,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "13450",
+    "batch": "13460",
     "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch13450",
-    "topic": "다음 비처방 후보 주제 선정 batch 13450"
+    "worklist_line": "new-expansion-candidates-batch13460",
+    "topic": "다음 비처방 후보 주제 선정 batch 13460"
   },
   "resume": {
-    "next_batch": "13450",
-    "worklist_line": "new-expansion-candidates-batch13450",
-    "topic": "다음 비처방 후보 주제 선정 batch 13450",
+    "next_batch": "13460",
+    "worklist_line": "new-expansion-candidates-batch13460",
+    "topic": "다음 비처방 후보 주제 선정 batch 13460",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9616,7 +9616,7 @@
     ],
     "checkpoint_commit": "9527d2105",
     "push_marker_commit": "57134191b",
-    "known_items_commit": null,
+    "known_items_commit": "47e5bf0e3",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -9928,9 +9928,9 @@
     "build_exit": 0,
     "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 3415개 레코드·고유 PMID 3317개, 첫 보강 3058개 레코드·고유 PMID 3002개, 두 번째 보강 3754개 레코드·고유 PMID 3670개였다. 세 묶음은 10227개 레코드였고 중복 제거 후 5704개 PMID를 EFetch해 5644개 초록을 확보했다. 후보 parser는 5704건에서 후보 2067건·신규 후보 1605건을 확인했다. 신규 항목 30건을 기록했고 신규 후보 1575건을 제외했다. PMID별 부정·안전성 검색은 60회, 검색 레코드 19건, 고유 PMID 15건이었다. 전용 검증 오류 0·경고 18; 실제 n<50 18건·표본 수 미상 0건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 10558, 최종 exit 0·오류 0·경고 10547; 비교 표현 경고 11건을 수정했다.",
     "resume": {
-      "next_batch": "13450",
-      "worklist_line": "new-expansion-candidates-batch13450",
-      "topic": "다음 비처방 후보 주제 선정 batch 13450",
+      "next_batch": "13460",
+      "worklist_line": "new-expansion-candidates-batch13460",
+      "topic": "다음 비처방 후보 주제 선정 batch 13460",
       "unchecked": 0
     },
     "sample_sizes_filled": 30,
