@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T00:48:54.840Z",
+  "updated": "2026-09-03T00:49:20.975Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 29180,
@@ -54,9 +54,9 @@
     "build_warnings": {
       "unknown_n": 1385,
       "thin_study": 8557,
-      "targeted_batch_warnings": 1257
+      "targeted_batch_warnings": 1259
     },
-    "targeted_batch_warnings": 1257
+    "targeted_batch_warnings": 1259
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "13220",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13220",
     "topic": "다음 비처방 후보 주제 선정 batch 13220"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "13220",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "f1ce29c02",
+    "pushed": true,
+    "expansion_commit": "f1ce29c02",
+    "data_commits": [
+      "f1ce29c02"
+    ],
+    "checkpoint_commit": "5648f1eb4",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9658,7 +9660,7 @@
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 212,
-    "new_references": 17,
+    "new_references": 0,
     "existing_reference_links": 216,
     "duplicate_search_pmids_removed": 901,
     "duplicate_topic_pmids_retained": [],
@@ -10722,7 +10724,7 @@
     "new_entry_subject_warnings_fixed": 2,
     "new_entry_translation_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 2,
-    "targeted_warnings_total": 1257,
+    "targeted_warnings_total": 1259,
     "open_numeric_comparisons": 28240,
     "build_exit": 0,
     "build": "29180 entries; 32340 refs; trial 28329; obs 754; animal 32; lab 18; case 47; numeric 28240; worklist 17174/17174",
@@ -10753,7 +10755,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 2,
     "subject_entries_renamed": 2,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13220",
       "worklist_line": "new-expansion-candidates-batch13220",
