@@ -1,39 +1,39 @@
 {
-  "updated": "2026-09-03T11:17:48.958Z",
+  "updated": "2026-09-03T11:52:40.256Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 29760,
-  "subjects": 21892,
-  "refs": 32920,
+  "entries": 29790,
+  "subjects": 21906,
+  "refs": 32950,
   "kinds": {
     "undefined": 10367,
-    "care": 8685,
-    "supp": 3004,
-    "move": 3688,
+    "care": 8689,
+    "supp": 3008,
+    "move": 3693,
     "food": 1157,
-    "otc": 719,
-    "life": 2116,
+    "otc": 722,
+    "life": 2130,
     "rx": 24
   },
   "tiers": {
-    "trial": 28909,
+    "trial": 28939,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 20856,
-    "null": 6899,
+    "pos": 20879,
+    "null": 6905,
     "open": 1675,
-    "harm": 330
+    "harm": 331
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13470는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13480이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13480는 비처방 후보에서 신규 항목 30건을 기록했다. 다음 재개점은 batch 13480이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,23 +41,23 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 13470는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13480이다."
+    "note": "Batch 13480는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13480이다."
   },
   "checkpoints": {
-    "over_counter_share": "16.4% (4880 entries)",
+    "over_counter_share": "16.4% (4887 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.3% (7229)",
-    "vs_share": "96.8% (28820)",
+    "no_effect_or_harm_share": "24.3% (7236)",
+    "vs_share": "96.8% (28850)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.1% (28909)",
+    "trial_share": "97.1% (28939)",
     "non_trial_share": "2.9% (851)",
     "build_warnings": {
-      "unknown_n": 1678,
-      "thin_study": 9019,
-      "targeted_batch_warnings": 1668
+      "unknown_n": 1679,
+      "thin_study": 9027,
+      "targeted_batch_warnings": 1676
     },
-    "targeted_batch_warnings": 1668,
-    "targeted_warnings_total": 1668
+    "targeted_batch_warnings": 1676,
+    "targeted_warnings_total": 1676
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13480",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch13480",
     "topic": "다음 비처방 후보 주제 선정 batch 13480"
   },
@@ -9607,360 +9607,469 @@
     }
   },
   "last_batch": {
-    "id": "13470",
-    "commit": "946eeeed6",
-    "pushed": true,
-    "expansion_commit": "946eeeed6",
-    "data_commits": [
-      "946eeeed6"
-    ],
-    "checkpoint_commit": "75f7745fc",
-    "push_marker_commit": "4dcf07096",
-    "known_items_commit": "4d64adfab",
+    "id": "13480",
+    "commit": null,
+    "pushed": false,
+    "expansion_commit": null,
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "batch-13470-1",
-        "subject": "비트 주스 혈압",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-2",
-        "subject": "히비스커스 차 혈압",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-3",
-        "subject": "코코아 플라바놀 혈압",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-4",
-        "subject": "아마씨 콜레스테롤",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-5",
-        "subject": "차전자피 콜레스테롤",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-6",
-        "subject": "녹차 체중",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-7",
-        "subject": "포도씨 추출물 혈압",
+        "id": "batch-13480-1",
+        "subject": "크랜베리 요로감염 예방",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-8",
-        "subject": "어유 중성지방",
+        "id": "batch-13480-2",
+        "subject": "D-만노스 요로감염",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-9",
-        "subject": "마그네슘 혈압",
+        "id": "batch-13480-3",
+        "subject": "프로바이오틱 요로감염",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-10",
-        "subject": "비타민 D 우울증",
+        "id": "batch-13480-4",
+        "subject": "아연 감기",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-11",
-        "subject": "페퍼민트 오일 과민성장증후군",
+        "id": "batch-13480-5",
+        "subject": "비타민 C 감기",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-12",
-        "subject": "생강 월경통",
+        "id": "batch-13480-6",
+        "subject": "에키네시아 감기",
         "kind": "supp"
       },
       {
-        "id": "batch-13470-13",
-        "subject": "푸룬 변비",
+        "id": "batch-13480-7",
+        "subject": "꿀 기침",
         "kind": "food"
       },
       {
-        "id": "batch-13470-14",
-        "subject": "키위 변비",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-15",
-        "subject": "차전자피 변비",
-        "kind": "food"
-      },
-      {
-        "id": "batch-13470-16",
-        "subject": "캐모마일 불안",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-13470-17",
-        "subject": "아슈와간다 스트레스",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-13470-18",
-        "subject": "멜라토닌 불면증",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-13470-19",
-        "subject": "요가 허리통증",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-20",
-        "subject": "태극권 낙상",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-21",
-        "subject": "균형운동 낙상",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-22",
-        "subject": "저항운동 근감소증",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-23",
-        "subject": "유산소운동 인지기능",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-24",
-        "subject": "댄스 파킨슨병",
-        "kind": "move"
-      },
-      {
-        "id": "batch-13470-25",
-        "subject": "마음챙김 만성통증",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13470-26",
-        "subject": "음악치료 치매",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13470-27",
-        "subject": "밝은 빛 계절성우울증",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13470-28",
-        "subject": "수면위생 불면증",
-        "kind": "life"
-      },
-      {
-        "id": "batch-13470-29",
-        "subject": "압박스타킹 기립성저혈압",
+        "id": "batch-13480-8",
+        "subject": "생리식염수 부비동염",
         "kind": "care"
       },
       {
-        "id": "batch-13470-30",
-        "subject": "집단교육 만성질환 자기관리",
+        "id": "batch-13480-9",
+        "subject": "생리식염수 알레르기비염",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-10",
+        "subject": "캡사이신 신경병증 통증",
+        "kind": "otc"
+      },
+      {
+        "id": "batch-13480-11",
+        "subject": "멘톨 국소 통증",
+        "kind": "otc"
+      },
+      {
+        "id": "batch-13480-12",
+        "subject": "마사지 허리통증",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-13",
+        "subject": "척추수기 허리통증",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-14",
+        "subject": "경피전기신경자극 무릎관절염",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-15",
+        "subject": "온열치료 허리통증",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-16",
+        "subject": "수중운동 섬유근육통",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-17",
+        "subject": "스트레칭 허리통증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-18",
+        "subject": "필라테스 허리통증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-19",
+        "subject": "걷기 우울증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-20",
+        "subject": "유산소운동 고혈압",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-21",
+        "subject": "저항운동 우울증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-22",
+        "subject": "수중운동 무릎관절염",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-23",
+        "subject": "폼롤러 운동회복",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-24",
+        "subject": "점진적 이완 불안",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-25",
+        "subject": "인지행동치료 불면증",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-26",
+        "subject": "수면제한 불면증",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-27",
+        "subject": "문자 금연지원",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-28",
+        "subject": "사회적 지지 만성질환",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-29",
+        "subject": "복식호흡 불안",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-30",
+        "subject": "미술치료 우울증",
         "kind": "life"
       }
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 3593,
-    "new_candidate_rejects": 1638,
-    "all_excluded_candidates": 5724,
+    "no_evidence_rejects": 3937,
+    "new_candidate_rejects": 1362,
+    "all_excluded_candidates": 6061,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 1638,
+    "screened_nonqualifying_topics": 12,
     "new_references": 30,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 2783,
+    "duplicate_search_pmids_removed": 3259,
     "search_topic_count": 30,
-    "search_returned_records": 3430,
-    "main_search_records": 3430,
-    "main_search_unique_pmids": 3345,
+    "search_returned_records": 3508,
+    "main_search_records": 3508,
+    "main_search_unique_pmids": 3325,
     "extra_query_count": 30,
-    "extra_search_records": 2318,
-    "extra_unique_pmids": 2278,
+    "extra_search_records": 2627,
+    "extra_unique_pmids": 2578,
     "extra2_query_count": 30,
-    "extra2_search_records": 2789,
-    "extra2_unique_pmids": 2757,
+    "extra2_search_records": 3215,
+    "extra2_unique_pmids": 3104,
     "targeted_query_count": 60,
-    "targeted_search_records": 36,
+    "targeted_search_records": 39,
     "targeted_search_unique_pmids": 30,
     "targeted_negative_hits": 30,
-    "targeted_safety_hits": 6,
-    "combined_search_unique_pmids": 5754,
-    "requested": 5754,
-    "fetched": 5754,
-    "fetch_chunks": 58,
-    "abstracts": 5686,
+    "targeted_safety_hits": 9,
+    "combined_search_unique_pmids": 6091,
+    "requested": 6091,
+    "fetched": 6091,
+    "fetch_chunks": 61,
+    "abstracts": 5974,
     "missing": 0,
-    "candidate_parser_parsed": 5754,
-    "candidate_parser_candidates": 2161,
-    "union_new_candidate_like": 1668,
-    "effect_candidate_rows": 1668,
+    "candidate_parser_parsed": 6091,
+    "candidate_parser_candidates": 2154,
+    "union_new_candidate_like": 1392,
+    "effect_candidate_rows": 1392,
     "selected_pmids": [
-      "19661447",
-      "25294299",
-      "40615058",
-      "36305974",
-      "23725524",
-      "33810049",
-      "32948827",
-      "20082737",
-      "37526943",
-      "36164983",
-      "18460483",
-      "34119421",
-      "17056811",
-      "8391569",
-      "1431597",
-      "8160720",
-      "15005829",
-      "37351191",
-      "29683391",
-      "33132345",
-      "36368945",
-      "32749491",
-      "23439798",
-      "38732539",
-      "30208396",
-      "37097767",
-      "41371252",
-      "36847050",
-      "39158851",
-      "17010806"
+      "33832544",
+      "19042940",
+      "38930419",
+      "32287355",
+      "37762768",
+      "40164493",
+      "19786306",
+      "23672386",
+      "37161852",
+      "41585325",
+      "35500971",
+      "40711680",
+      "31191092",
+      "32589670",
+      "38982124",
+      "35182048",
+      "41637045",
+      "38286128",
+      "26079158",
+      "38342031",
+      "21722952",
+      "37008265",
+      "41428342",
+      "27838659",
+      "24163238",
+      "35872394",
+      "35442179",
+      "41740752",
+      "38430076",
+      "12691335"
     ],
     "new_pmids": [
-      "19661447",
-      "25294299",
-      "40615058",
-      "36305974",
-      "23725524",
-      "33810049",
-      "32948827",
-      "20082737",
-      "37526943",
-      "36164983",
-      "18460483",
-      "34119421",
-      "17056811",
-      "8391569",
-      "1431597",
-      "8160720",
-      "15005829",
-      "37351191",
-      "29683391",
-      "33132345",
-      "36368945",
-      "32749491",
-      "23439798",
-      "38732539",
-      "30208396",
-      "37097767",
-      "41371252",
-      "36847050",
-      "39158851",
-      "17010806"
+      "33832544",
+      "19042940",
+      "38930419",
+      "32287355",
+      "37762768",
+      "40164493",
+      "19786306",
+      "23672386",
+      "37161852",
+      "41585325",
+      "35500971",
+      "40711680",
+      "31191092",
+      "32589670",
+      "38982124",
+      "35182048",
+      "41637045",
+      "38286128",
+      "26079158",
+      "38342031",
+      "21722952",
+      "37008265",
+      "41428342",
+      "27838659",
+      "24163238",
+      "35872394",
+      "35442179",
+      "41740752",
+      "38430076",
+      "12691335"
     ],
     "new_entry_ids": [
-      "beetroot-exercise-19661447",
-      "beetroot-bp-25294299",
-      "beetroot-aging-map-40615058",
-      "beetroot-cold-rewarming-36305974",
-      "hibiscus-green-tea-bp-23725524",
-      "hibiscus-lippia-bp-33810049",
-      "hibiscus-decoction-bp-32948827",
-      "cocoa-exercise-bp-20082737",
-      "cocoa-elderly-fitness-37526943",
-      "cocoa-femoral-endothelial-36164983",
-      "flaxseed-cardiovascular-18460483",
-      "flaxseed-hypertension-34119421",
-      "flaxseed-oil-lipids-17056811",
-      "psyllium-child-lipids-8391569",
-      "psyllium-ldl-1431597",
-      "psyllium-lipids-8160720",
-      "green-tea-weight-maintenance-15005829",
-      "grape-bilberry-bp-37351191",
-      "grape-seed-exercise-bp-29683391",
-      "grape-seed-hemodynamics-33132345",
-      "vitamin-d-depression-36368945",
-      "vitamin-d-depression-prevention-32749491",
-      "ashwagandha-stress-23439798",
-      "ashwagandha-chronic-stress-38732539",
-      "tai-chi-falls-30208396",
-      "exercise-falls-women-37097767",
-      "baduanjin-sarcopenia-41371252",
-      "yoga-musculoskeletal-pain-36847050",
-      "mindfulness-chronic-pain-39158851",
-      "compression-orthostatic-hypotension-17010806"
+      "echinacea-cold-33832544-pos",
+      "cranberry-uti-19042940-null",
+      "probiotic-uti-38930419-null",
+      "zinc-cold-32287355-pos",
+      "honey-throat-spray-37762768-pos",
+      "saline-sinusitis-pilot-40164493-null",
+      "saline-sinusitis-19786306-pos",
+      "menthol-cooling-23672386-pos",
+      "menthol-capsaicin-37161852-pos",
+      "thermo-mechanical-back-pain-41585325-pos",
+      "stretching-back-pain-35500971-null",
+      "resistance-hiv-depression-40711680-pos",
+      "foam-rolling-rom-31191092-pos",
+      "foam-rolling-dom-32589670-pos",
+      "foam-rolling-dom-38982124-pos",
+      "progressive-relaxation-pregnancy-35182048-pos",
+      "diaphragmatic-breathing-dental-41637045-pos",
+      "cbti-comorbid-depression-38286128-null",
+      "cbti-students-26079158-pos",
+      "sleep-restriction-stress-38342031-harm",
+      "text-smoking-uk-21722952-pos",
+      "text-smoking-china-37008265-pos",
+      "text-smoking-tb-41428342-pos",
+      "text-smoking-primary-care-27838659-pos",
+      "text-smoking-adolescent-24163238-pos",
+      "social-network-ra-35872394-null",
+      "peer-support-copd-35442179-pos",
+      "art-therapy-stroke-depression-41740752-pos",
+      "diaphragmatic-breathing-catheter-38430076-pos",
+      "tens-duration-knee-12691335-pos"
     ],
     "categories": {
-      "food": 17,
-      "supp": 7,
-      "move": 4,
-      "life": 1,
-      "care": 1
+      "supp": 4,
+      "otc": 3,
+      "care": 4,
+      "move": 5,
+      "life": 14
     },
     "tiers": {
       "trial": 30
     },
     "dirs": {
-      "pos": 26,
-      "null": 4
+      "pos": 23,
+      "null": 6,
+      "harm": 1
     },
     "unknown_n": 1,
-    "thin_studies": 12,
+    "thin_studies": 8,
     "validator_errors": 0,
-    "validator_warnings": 13,
+    "validator_warnings": 9,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 13,
+    "initial_validator_warnings": 9,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 10586,
-    "build_warning_lines": 10575,
+    "initial_build_warning_lines": 10592,
+    "build_warning_lines": 10584,
     "new_unknown_n_warnings": [
-      "flaxseed-hypertension-34119421"
+      "zinc-cold-32287355-pos"
     ],
     "new_thin_study_warnings": [
-      "beetroot-exercise-19661447",
-      "beetroot-bp-25294299",
-      "beetroot-cold-rewarming-36305974",
-      "cocoa-exercise-bp-20082737",
-      "cocoa-femoral-endothelial-36164983",
-      "psyllium-child-lipids-8391569",
-      "psyllium-ldl-1431597",
-      "psyllium-lipids-8160720",
-      "grape-bilberry-bp-37351191",
-      "grape-seed-exercise-bp-29683391",
-      "grape-seed-hemodynamics-33132345",
-      "compression-orthostatic-hypotension-17010806"
+      "menthol-cooling-23672386-pos",
+      "menthol-capsaicin-37161852-pos",
+      "thermo-mechanical-back-pain-41585325-pos",
+      "stretching-back-pain-35500971-null",
+      "resistance-hiv-depression-40711680-pos",
+      "foam-rolling-rom-31191092-pos",
+      "foam-rolling-dom-32589670-pos",
+      "tens-duration-knee-12691335-pos"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 7,
-    "new_entry_line_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 4,
-    "targeted_batch_warnings_fixed": 7,
-    "open_numeric_comparisons": 28820,
+    "new_entry_vs_warnings_fixed": 5,
+    "new_entry_line_warnings_fixed": 1,
+    "new_entry_subject_warnings_fixed": 2,
+    "new_entry_translation_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 8,
+    "open_numeric_comparisons": 28850,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 3430개 레코드·고유 PMID 3345개, 첫 보강 2318개 레코드·고유 PMID 2278개, 두 번째 보강 2789개 레코드·고유 PMID 2757개였다. 세 묶음은 8537개 레코드였고 중복 제거 후 5754개 PMID를 EFetch해 5686개 초록을 확보했다. 후보 parser는 5754건에서 후보 2161건·신규 후보 1668건을 확인했다. 신규 항목 30건을 기록했고 신규 후보 1638건을 제외했다. PMID별 부정·안전성 검색은 60회, 검색 레코드 36건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 13; 실제 n<50 12건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 10586, 최종 exit 0·오류 0·경고 10575; 비교 표현 경고 7건과 주제 경고 4건을 수정했다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 3508개 레코드·고유 PMID 3325개, 첫 보강 2627개 레코드·고유 PMID 2578개, 두 번째 보강 3215개 레코드·고유 PMID 3104개였다. 세 묶음은 9350개 레코드였고 중복 제거 후 6091개 PMID를 EFetch해 5974개 초록을 확보했다. 후보 parser는 6091건에서 후보 2154건·신규 후보 1392건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 신규 후보 1362건은 고찰·프로토콜·비무작위·수치 부족·중복 또는 주제 불일치로 제외했다. PMID별 부정·안전성 검색은 60회, 검색 레코드 39건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 9; 실제 n<50 8건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 10592, 최종 exit 0·오류 0·경고 10584; 새 비교·줄·주제 경고 8건을 수정했다. 직접 대응 자료가 없어 보류한 worklist 주제는 D-만노스 요로감염·비타민 C 감기·생리식염수 알레르기비염·캡사이신 신경병증 통증·마사지 허리통증·척추수기 허리통증·경피전기신경자극 무릎관절염·수중운동 섬유근육통·필라테스 허리통증·걷기 우울증·유산소운동 고혈압·수중운동 무릎관절염이다.",
+    "qualified_topics": [
+      {
+        "id": "batch-13480-1",
+        "subject": "크랜베리 요로감염 예방",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-13480-3",
+        "subject": "프로바이오틱 요로감염",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-13480-4",
+        "subject": "아연 감기",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-13480-6",
+        "subject": "에키네시아 감기",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-13480-7",
+        "subject": "꿀 기침",
+        "kind": "food"
+      },
+      {
+        "id": "batch-13480-8",
+        "subject": "생리식염수 부비동염",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-11",
+        "subject": "멘톨 국소 통증",
+        "kind": "otc"
+      },
+      {
+        "id": "batch-13480-15",
+        "subject": "온열치료 허리통증",
+        "kind": "care"
+      },
+      {
+        "id": "batch-13480-17",
+        "subject": "스트레칭 허리통증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-21",
+        "subject": "저항운동 우울증",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-23",
+        "subject": "폼롤러 운동회복",
+        "kind": "move"
+      },
+      {
+        "id": "batch-13480-24",
+        "subject": "점진적 이완 불안",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-25",
+        "subject": "인지행동치료 불면증",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-26",
+        "subject": "수면제한 불면증",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-27",
+        "subject": "문자 금연지원",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-28",
+        "subject": "사회적 지지 만성질환",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-29",
+        "subject": "복식호흡 불안",
+        "kind": "life"
+      },
+      {
+        "id": "batch-13480-30",
+        "subject": "미술치료 우울증",
+        "kind": "life"
+      }
+    ],
+    "screened_topics": [
+      "D-만노스 요로감염",
+      "비타민 C 감기",
+      "생리식염수 알레르기비염",
+      "캡사이신 신경병증 통증",
+      "마사지 허리통증",
+      "척추수기 허리통증",
+      "경피전기신경자극 무릎관절염",
+      "수중운동 섬유근육통",
+      "필라테스 허리통증",
+      "걷기 우울증",
+      "유산소운동 고혈압",
+      "수중운동 무릎관절염"
+    ],
+    "remaining_non_prescription_vs_missing": 0,
+    "sample_sizes_filled": 29,
+    "sample_size_corrections": 0,
+    "category_reclassifications": [],
+    "subject_names_renamed": 2,
+    "subject_entries_renamed": 2,
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "13480",
       "worklist_line": "new-expansion-candidates-batch13480",
       "topic": "다음 비처방 후보 주제 선정 batch 13480",
       "unchecked": 0
     },
-    "sample_sizes_filled": 29,
-    "pushed_state": "PUSHED=true"
+    "unknownN": 1,
+    "thin": 8
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -33832,10 +33941,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 28869,
-  "unknownN": 1678,
-  "thinStudy": 9019,
-  "openNumeric": 28820,
+  "withVs": 28899,
+  "unknownN": 1679,
+  "thinStudy": 9027,
+  "openNumeric": 28850,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
