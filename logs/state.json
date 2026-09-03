@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T08:59:07.123Z",
+  "updated": "2026-09-03T08:59:42.599Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 29640,
@@ -54,9 +54,9 @@
     "build_warnings": {
       "unknown_n": 1677,
       "thin_study": 8955,
-      "targeted_batch_warnings": 1590
+      "targeted_batch_warnings": 1596
     },
-    "targeted_batch_warnings": 1590
+    "targeted_batch_warnings": 1596
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "13430",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13430",
     "topic": "다음 비처방 후보 주제 선정 batch 13430"
   },
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "13430",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "c2d09fe7f",
+    "pushed": true,
+    "expansion_commit": "c2d09fe7f",
+    "data_commits": [
+      "c2d09fe7f"
+    ],
+    "checkpoint_commit": "a8a54bb62",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9956,7 +9958,7 @@
     "new_entry_subject_warnings_fixed": 5,
     "new_entry_translation_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 6,
-    "targeted_warnings_total": 1590,
+    "targeted_warnings_total": 1596,
     "open_numeric_comparisons": 28700,
     "build_exit": 0,
     "build": "29640 entries; 32800 refs; trial 28789; obs 754; animal 32; lab 18; case 47; numeric 28700; worklist 17174/17174",
@@ -10093,7 +10095,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 5,
     "subject_entries_renamed": 5,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13430",
       "worklist_line": "new-expansion-candidates-batch13430",
