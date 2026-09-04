@@ -1,39 +1,39 @@
 {
-  "updated": "2026-09-04T17:09:43.817Z",
+  "updated": "2026-09-04T17:29:59.062Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 30811,
-  "subjects": 22705,
-  "refs": 33972,
+  "entries": 30841,
+  "subjects": 22734,
+  "refs": 34002,
   "kinds": {
     "undefined": 10367,
     "care": 8711,
     "supp": 3357,
-    "move": 3880,
-    "food": 1529,
+    "move": 3882,
+    "food": 1552,
     "otc": 724,
-    "life": 2219,
+    "life": 2224,
     "rx": 24
   },
   "tiers": {
-    "trial": 29960,
+    "trial": 29990,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 21707,
-    "null": 7091,
+    "pos": 21725,
+    "null": 7101,
     "open": 1675,
-    "harm": 338
+    "harm": 340
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 14100는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 14200이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 14200는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 14200이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 14100는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 14200이다."
+    "note": "Batch 14200는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 14200이다."
   },
   "checkpoints": {
-    "over_counter_share": "18.2% (5610 entries)",
+    "over_counter_share": "18.3% (5633 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.1% (7429)",
-    "vs_share": "96.9% (29871)",
+    "no_effect_or_harm_share": "24.1% (7441)",
+    "vs_share": "97.0% (29901)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.2% (29960)",
+    "trial_share": "97.2% (29990)",
     "non_trial_share": "2.8% (851)",
     "build_warnings": {
       "unknown_n": 1701,
-      "thin_study": 9509,
+      "thin_study": 9530,
       "targeted_batch_warnings": 1796
     },
     "targeted_batch_warnings": 1796,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "14200",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch14200",
     "topic": "다음 비처방 후보 주제 선정 batch 14200"
   },
@@ -9607,526 +9607,527 @@
     }
   },
   "last_batch": {
-    "id": "14100",
-    "commit": "4f624a0f6",
-    "pushed": true,
-    "expansion_commit": "4f624a0f6",
-    "data_commits": [
-      "4f624a0f6"
-    ],
-    "checkpoint_commit": "7478de322",
-    "push_marker_commit": "420197e07",
-    "known_items_commit": "ae562c40a",
+    "id": "14200",
+    "commit": null,
+    "pushed": false,
+    "expansion_commit": null,
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "batch-14100-1",
-        "subject": "모링가 혈압",
-        "term": "moringa blood pressure randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-2",
-        "subject": "클로렐라 지질",
-        "term": "chlorella lipid randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-3",
-        "subject": "클로렐라 지질",
-        "term": "chlorella cholesterol randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-4",
-        "subject": "마테차 지질",
-        "term": "yerba mate lipid randomized controlled trial",
+        "id": "batch-14200-1",
+        "subject": "타트체리 혈압",
+        "term": "tart cherry blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14100-5",
-        "subject": "마테차 미세순환",
-        "term": "yerba mate microcirculation randomized controlled trial",
+        "id": "batch-14200-2",
+        "subject": "타트체리 심혈관 위험표지",
+        "term": "tart cherry cardiovascular risk randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14100-6",
-        "subject": "로열젤리 혈관기능",
-        "term": "royal jelly vascular endothelial function randomized controlled trial",
-        "kind": "supp"
+        "id": "batch-14200-3",
+        "subject": "체리 근력회복",
+        "term": "cherry muscle recovery randomized controlled trial",
+        "kind": "food"
       },
       {
-        "id": "batch-14100-7",
-        "subject": "식후 걷기 혈당",
-        "term": "post-meal walking glycemic randomized controlled trial",
+        "id": "batch-14200-4",
+        "subject": "체리 염증회복",
+        "term": "tart cherry exercise inflammation randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-5",
+        "subject": "포도주스 미세혈관",
+        "term": "grape juice microvascular randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-6",
+        "subject": "포도·석류주스 혈관기능",
+        "term": "grape pomegranate juice vascular randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-7",
+        "subject": "호밀 식후혈당",
+        "term": "rye postprandial glycemic randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-8",
+        "subject": "호밀 인슐린반응",
+        "term": "rye bread insulin response randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-9",
+        "subject": "보리 베타글루칸 LDL",
+        "term": "barley beta glucan LDL randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-10",
+        "subject": "귀리·보리 베타글루칸 지질",
+        "term": "oat barley beta glucan lipids randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-11",
+        "subject": "참깨·카놀라유 혈압",
+        "term": "sesame canola oil blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-12",
+        "subject": "세사민 지질",
+        "term": "sesamin lipid randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-13",
+        "subject": "호두 혈압",
+        "term": "walnut blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-14",
+        "subject": "호두 지질",
+        "term": "walnut cholesterol randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-15",
+        "subject": "아몬드 혈압",
+        "term": "almond blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-16",
+        "subject": "캐슈넛 자율신경",
+        "term": "cashew nuts baroreflex randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-17",
+        "subject": "헤이즐넛 혈관기능",
+        "term": "hazelnut vascular function randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-18",
+        "subject": "표고버섯 지질",
+        "term": "shiitake lipid randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-19",
+        "subject": "느타리버섯 식후대사",
+        "term": "oyster mushroom postprandial metabolism randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-20",
+        "subject": "콩단백 지질",
+        "term": "soy protein lipids randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-21",
+        "subject": "콩단백 혈압",
+        "term": "soy protein blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-22",
+        "subject": "녹차 EGCG 혈압",
+        "term": "green tea EGCG blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-23",
+        "subject": "녹차추출물 운동후 혈압",
+        "term": "green tea extract post exercise blood pressure randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-14200-24",
+        "subject": "온열요법 혈관기능",
+        "term": "passive heat therapy vascular function randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "batch-14200-25",
+        "subject": "냉기 노출 혈압",
+        "term": "cold exposure blood pressure randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "batch-14200-26",
+        "subject": "냉기 노출 대사반응",
+        "term": "cold exposure metabolic parameters randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "batch-14200-27",
+        "subject": "호흡운동 스트레스",
+        "term": "breathing exercise stress randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "batch-14200-28",
+        "subject": "느린호흡 산화스트레스",
+        "term": "slow breathing oxidative stress randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "batch-14200-29",
+        "subject": "짧은 운동 혈당",
+        "term": "exercise snacks glycemic randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14100-8",
-        "subject": "구기자 혈관기능",
-        "term": "wolfberry vascular function randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-9",
-        "subject": "블랙커런트 혈압",
-        "term": "blackcurrant blood pressure randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-10",
-        "subject": "블랙커런트 혈관기능",
-        "term": "blackcurrant vascular function randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-11",
-        "subject": "블랙커런트 혈압",
-        "term": "blackcurrant postexercise hypotension randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-12",
-        "subject": "블랙커런트 혈압",
-        "term": "blackcurrant central blood pressure randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-13",
-        "subject": "아티초크·베르가못 지질",
-        "term": "artichoke bergamot lipid randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-14",
-        "subject": "아티초크 간지방",
-        "term": "artichoke liver randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-15",
-        "subject": "로열젤리 지질",
-        "term": "royal jelly lipoprotein randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-16",
-        "subject": "식물스테롤 혈관기능",
-        "term": "plant sterol endothelial function randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-17",
-        "subject": "식물스테롤 LDL",
-        "term": "plant stanol soy milk LDL randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-18",
-        "subject": "식물스테롤 LDL",
-        "term": "plant sterol fermented milk LDL randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-19",
-        "subject": "식물스테롤 LDL",
-        "term": "plant sterol ester LDL randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-20",
-        "subject": "식물스테롤 LDL",
-        "term": "phytosterol emulsion LDL randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-14100-21",
-        "subject": "식물스테롤 LDL",
-        "term": "plant sterol salad dressing LDL randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-22",
-        "subject": "카놀라유 오메가3",
-        "term": "canola oil omega-3 randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-23",
-        "subject": "카놀라유 식후지질",
-        "term": "canola oil postprandial triglyceride randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-24",
-        "subject": "기장 혈당",
-        "term": "finger millet glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-25",
-        "subject": "기장 혈당",
-        "term": "pearl millet glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-26",
-        "subject": "저항전분 혈당",
-        "term": "resistant starch millet glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-27",
-        "subject": "수수 혈당",
-        "term": "sorghum glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-28",
-        "subject": "수수 혈당",
-        "term": "sorghum beverage glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-29",
-        "subject": "자색감자 혈당",
-        "term": "purple potato glycemic randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-14100-30",
-        "subject": "악력운동 혈압",
-        "term": "handgrip blood pressure randomized controlled trial",
+        "id": "batch-14200-30",
+        "subject": "걷기 휴식 혈당",
+        "term": "walking breaks glycemic randomized controlled trial",
         "kind": "move"
       }
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 640,
-    "new_candidate_rejects": 579,
-    "all_excluded_candidates": 1333,
+    "no_evidence_rejects": 877,
+    "new_candidate_rejects": 225,
+    "all_excluded_candidates": 1217,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 0,
     "new_references": 30,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 2455,
+    "duplicate_search_pmids_removed": 2157,
     "search_topic_count": 30,
-    "search_returned_records": 1191,
-    "main_search_records": 1191,
-    "main_search_unique_pmids": 1150,
+    "search_returned_records": 1025,
+    "main_search_records": 1025,
+    "main_search_unique_pmids": 964,
     "extra_query_count": 30,
-    "extra_search_records": 1421,
-    "extra_unique_pmids": 1363,
+    "extra_search_records": 1341,
+    "extra_unique_pmids": 1247,
     "extra2_query_count": 30,
-    "extra2_search_records": 1206,
-    "extra2_unique_pmids": 1169,
+    "extra2_search_records": 1038,
+    "extra2_unique_pmids": 975,
     "targeted_query_count": 60,
-    "targeted_search_records": 30,
-    "targeted_search_unique_pmids": 29,
-    "targeted_negative_hits": 29,
-    "targeted_safety_hits": 1,
-    "combined_search_unique_pmids": 1363,
-    "requested": 1363,
-    "fetched": 1363,
-    "fetch_chunks": 14,
-    "abstracts": 1357,
+    "targeted_search_records": 28,
+    "targeted_search_unique_pmids": 27,
+    "targeted_negative_hits": 26,
+    "targeted_safety_hits": 2,
+    "combined_search_unique_pmids": 1247,
+    "requested": 1247,
+    "fetched": 1247,
+    "fetch_chunks": 13,
+    "abstracts": 1237,
     "missing": 0,
-    "candidate_parser_parsed": 1363,
-    "candidate_parser_candidates": 723,
-    "union_new_candidate_like": 609,
-    "effect_candidate_rows": 609,
-    "existing_candidate_rows": 114,
+    "candidate_parser_parsed": 1247,
+    "candidate_parser_candidates": 370,
+    "union_new_candidate_like": 255,
+    "effect_candidate_rows": 255,
+    "existing_candidate_rows": 115,
     "selected_pmids": [
-      "35565903",
-      "37049486",
-      "27177615",
-      "19694438",
-      "25562195",
-      "34588374",
-      "38858835",
-      "33964853",
-      "28555052",
-      "40414296",
-      "37414403",
-      "32396017",
-      "38892519",
-      "29520889",
-      "17934240",
-      "25553599",
-      "22256472",
-      "18193377",
-      "19535421",
-      "31491873",
-      "11876261",
-      "35360684",
-      "31100881",
-      "35603664",
-      "31709970",
-      "39683424",
-      "27734128",
-      "40736155",
-      "31818516",
-      "21161116"
+      "27989253",
+      "24570273",
+      "21233776",
+      "25794236",
+      "25175762",
+      "20170591",
+      "39515756",
+      "30636184",
+      "18838533",
+      "23946347",
+      "35596008",
+      "26151734",
+      "30879358",
+      "8357360",
+      "39546040",
+      "16733237",
+      "28691541",
+      "34375514",
+      "34505919",
+      "15900307",
+      "10100174",
+      "18710606",
+      "24619865",
+      "27270841",
+      "26919177",
+      "34921497",
+      "41439857",
+      "36344308",
+      "42029706",
+      "30264906"
     ],
     "new_pmids": [
-      "35565903",
-      "37049486",
-      "27177615",
-      "19694438",
-      "25562195",
-      "34588374",
-      "38858835",
-      "33964853",
-      "28555052",
-      "40414296",
-      "37414403",
-      "32396017",
-      "38892519",
-      "29520889",
-      "17934240",
-      "25553599",
-      "22256472",
-      "18193377",
-      "19535421",
-      "31491873",
-      "11876261",
-      "35360684",
-      "31100881",
-      "35603664",
-      "31709970",
-      "39683424",
-      "27734128",
-      "40736155",
-      "31818516",
-      "21161116"
+      "27989253",
+      "24570273",
+      "21233776",
+      "25794236",
+      "25175762",
+      "20170591",
+      "39515756",
+      "30636184",
+      "18838533",
+      "23946347",
+      "35596008",
+      "26151734",
+      "30879358",
+      "8357360",
+      "39546040",
+      "16733237",
+      "28691541",
+      "34375514",
+      "34505919",
+      "15900307",
+      "10100174",
+      "18710606",
+      "24619865",
+      "27270841",
+      "26919177",
+      "34921497",
+      "41439857",
+      "36344308",
+      "42029706",
+      "30264906"
     ],
     "new_entry_ids": [
-      "moringa-blood-pressure-35565903",
-      "chlorella-lipids-37049486",
-      "chlorella-cholesterol-27177615",
-      "yerba-mate-lipids-19694438",
-      "yerba-mate-microcirculation-25562195",
-      "royal-jelly-vascular-34588374",
-      "postmeal-walking-glycemia-38858835",
-      "goji-vascular-33964853",
-      "blackcurrant-blood-pressure-28555052",
-      "blackcurrant-vascular-40414296",
-      "blackcurrant-postexercise-bp-37414403",
-      "blackcurrant-central-bp-32396017",
-      "artichoke-bergamot-lipids-38892519",
-      "artichoke-liver-29520889",
-      "royal-jelly-lipids-17934240",
-      "plant-sterol-vascular-25553599",
-      "plant-stanol-soymilk-22256472",
-      "plant-sterol-fermented-milk-18193377",
-      "plant-sterol-ester-19535421",
-      "plant-sterol-emulsion-31491873",
-      "plant-sterol-dressing-11876261",
-      "canola-oil-omega3-35360684",
-      "canola-oil-postprandial-lipids-31100881",
-      "finger-millet-glycemia-35603664",
-      "pearl-millet-glycemia-31709970",
-      "resistant-starch-millet-glycemia-39683424",
-      "sorghum-glycemia-27734128",
-      "sorghum-beverage-glycemia-40736155",
-      "purple-potato-glycemia-31818516",
-      "handgrip-blood-pressure-21161116"
+      "tart-cherry-bp-27989253",
+      "tart-cherry-risk-24570273",
+      "cherry-strength-21233776",
+      "cherry-inflammation-25794236",
+      "grape-juice-microvascular-25175762",
+      "grape-pomegranate-20170591",
+      "rye-glycemic-39515756",
+      "rye-insulin-30636184",
+      "barley-beta-glucan-18838533",
+      "oat-barley-beta-glucan-23946347",
+      "sesame-canola-bp-35596008",
+      "sesamin-lipids-26151734",
+      "walnut-bp-30879358",
+      "walnut-lipids-8357360",
+      "almond-bp-39546040",
+      "cashew-baroreflex-16733237",
+      "hazelnut-vascular-28691541",
+      "shiitake-lipids-34375514",
+      "oyster-mushroom-postmeal-34505919",
+      "soy-lipids-15900307",
+      "soy-bp-10100174",
+      "green-tea-egcg-bp-18710606",
+      "green-tea-exercise-bp-24619865",
+      "heat-therapy-vascular-27270841",
+      "cold-bp-surge-26919177",
+      "cold-metabolic-34921497",
+      "breathing-stress-41439857",
+      "slow-breathing-oxidative-36344308",
+      "exercise-snacks-glycemia-42029706",
+      "walking-breaks-glycemia-30264906"
     ],
     "categories": {
-      "supp": 8,
-      "food": 20,
+      "food": 23,
+      "life": 5,
       "move": 2
     },
     "tiers": {
       "trial": 30
     },
     "dirs": {
-      "null": 4,
-      "pos": 26
+      "pos": 18,
+      "null": 10,
+      "harm": 2
     },
-    "unknown_n": 1,
-    "thin_studies": 17,
+    "unknown_n": 0,
+    "thin_studies": 21,
     "validator_errors": 0,
-    "validator_warnings": 18,
+    "validator_warnings": 21,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 18,
+    "initial_validator_warnings": 21,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 11150,
-    "build_warning_lines": 11120,
-    "new_unknown_n_warnings": [
-      "postmeal-walking-glycemia-38858835"
-    ],
+    "initial_build_warning_lines": 11148,
+    "build_warning_lines": 11148,
+    "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "chlorella-cholesterol-27177615",
-      "goji-vascular-33964853",
-      "blackcurrant-blood-pressure-28555052",
-      "blackcurrant-vascular-40414296",
-      "blackcurrant-postexercise-bp-37414403",
-      "blackcurrant-central-bp-32396017",
-      "royal-jelly-lipids-17934240",
-      "plant-sterol-ester-19535421",
-      "plant-sterol-emulsion-31491873",
-      "canola-oil-postprandial-lipids-31100881",
-      "finger-millet-glycemia-35603664",
-      "pearl-millet-glycemia-31709970",
-      "resistant-starch-millet-glycemia-39683424",
-      "sorghum-glycemia-27734128",
-      "sorghum-beverage-glycemia-40736155",
-      "purple-potato-glycemia-31818516",
-      "handgrip-blood-pressure-21161116"
+      "tart-cherry-bp-27989253",
+      "tart-cherry-risk-24570273",
+      "cherry-strength-21233776",
+      "cherry-inflammation-25794236",
+      "grape-juice-microvascular-25175762",
+      "grape-pomegranate-20170591",
+      "rye-glycemic-39515756",
+      "rye-insulin-30636184",
+      "oat-barley-beta-glucan-23946347",
+      "sesamin-lipids-26151734",
+      "walnut-lipids-8357360",
+      "almond-bp-39546040",
+      "oyster-mushroom-postmeal-34505919",
+      "green-tea-exercise-bp-24619865",
+      "heat-therapy-vascular-27270841",
+      "cold-bp-surge-26919177",
+      "cold-metabolic-34921497",
+      "breathing-stress-41439857",
+      "slow-breathing-oxidative-36344308",
+      "exercise-snacks-glycemia-42029706",
+      "walking-breaks-glycemia-30264906"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 29,
+    "new_entry_vs_warnings_fixed": 4,
     "new_entry_effect_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 1,
+    "new_entry_line_warnings_fixed": 0,
     "new_entry_subject_warnings_fixed": 0,
-    "new_entry_translation_warnings_fixed": 1,
+    "new_entry_translation_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 0,
-    "open_numeric_comparisons": 29871,
+    "open_numeric_comparisons": 29901,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 1191개·고유 PMID 1150개, 첫 보강 검색 1421개·고유 PMID 1363개, 두 번째 보강 검색 1206개·고유 PMID 1169개였다. 세 묶음은 3818개 레코드였고 중복 제거 후 1363개 PMID를 EFetch해 1357개 초록을 확보했다. 후보 parser는 1363건에서 후보 723건·신규 후보 609건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 30건, 고유 PMID 29건이었다. 전용 검증 오류 0·경고 18; 실제 n<50 17건·표본 수 미상 1건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11150·11120; 새 비교 29·효과 0·주제 0·줄/번역 1건의 경고를 수정했다. 직접 항목으로 연결한 주제는 모링가 혈압·클로렐라 지질·클로렐라 지질·마테차 지질·마테차 미세순환·로열젤리 혈관기능·식후 걷기 혈당·구기자 혈관기능·블랙커런트 혈압·블랙커런트 혈관기능·블랙커런트 혈압·블랙커런트 혈압·아티초크·베르가못 지질·아티초크 간지방·로열젤리 지질·식물스테롤 혈관기능·식물스테롤 LDL·식물스테롤 LDL·식물스테롤 LDL·식물스테롤 LDL·식물스테롤 LDL·카놀라유 오메가3·카놀라유 식후지질·기장 혈당·기장 혈당·저항전분 혈당·수수 혈당·수수 혈당·자색감자 혈당·악력운동 혈압이고 보류 주제 0개는 이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 1025개·고유 PMID 964개, 첫 보강 검색 1341개·고유 PMID 1247개, 두 번째 보강 검색 1038개·고유 PMID 975개였다. 세 묶음은 3404개 레코드였고 중복 제거 후 1247개 PMID를 EFetch해 1237개 초록을 확보했다. 후보 parser는 1247건에서 후보 370건·신규 후보 255건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 28건, 고유 PMID 27건이었다. 전용 검증 오류 0·경고 21; 실제 n<50 21건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11148·11144; 새 비교 4·효과 0·주제 0·줄/번역 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 타트체리 혈압·타트체리 심혈관 위험표지·체리 근력회복·체리 염증회복·포도주스 미세혈관·포도·석류주스 혈관기능·호밀 식후혈당·호밀 인슐린반응·보리 베타글루칸 LDL·귀리·보리 베타글루칸 지질·참깨·카놀라유 혈압·세사민 지질·호두 혈압·호두 지질·아몬드 혈압·캐슈넛 자율신경·헤이즐넛 혈관기능·표고버섯 지질·느타리버섯 식후대사·콩단백 지질·콩단백 혈압·녹차 EGCG 혈압·녹차추출물 운동후 혈압·온열요법 혈관기능·냉기 노출 혈압·냉기 노출 대사반응·호흡운동 스트레스·느린호흡 산화스트레스·짧은 운동 혈당·걷기 휴식 혈당이고 보류 주제 0개는 이다.",
     "qualified_topics": [
       {
-        "subject": "모링가 혈압",
-        "kind": "supp"
-      },
-      {
-        "subject": "클로렐라 지질",
-        "kind": "supp"
-      },
-      {
-        "subject": "클로렐라 지질",
-        "kind": "supp"
-      },
-      {
-        "subject": "마테차 지질",
+        "subject": "타트체리 혈압",
         "kind": "food"
       },
       {
-        "subject": "마테차 미세순환",
+        "subject": "타트체리 심혈관 위험표지",
         "kind": "food"
       },
       {
-        "subject": "로열젤리 혈관기능",
-        "kind": "supp"
+        "subject": "체리 근력회복",
+        "kind": "food"
       },
       {
-        "subject": "식후 걷기 혈당",
+        "subject": "체리 염증회복",
+        "kind": "food"
+      },
+      {
+        "subject": "포도주스 미세혈관",
+        "kind": "food"
+      },
+      {
+        "subject": "포도·석류주스 혈관기능",
+        "kind": "food"
+      },
+      {
+        "subject": "호밀 식후혈당",
+        "kind": "food"
+      },
+      {
+        "subject": "호밀 인슐린반응",
+        "kind": "food"
+      },
+      {
+        "subject": "보리 베타글루칸 LDL",
+        "kind": "food"
+      },
+      {
+        "subject": "귀리·보리 베타글루칸 지질",
+        "kind": "food"
+      },
+      {
+        "subject": "참깨·카놀라유 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "세사민 지질",
+        "kind": "food"
+      },
+      {
+        "subject": "호두 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "호두 지질",
+        "kind": "food"
+      },
+      {
+        "subject": "아몬드 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "캐슈넛 자율신경",
+        "kind": "food"
+      },
+      {
+        "subject": "헤이즐넛 혈관기능",
+        "kind": "food"
+      },
+      {
+        "subject": "표고버섯 지질",
+        "kind": "food"
+      },
+      {
+        "subject": "느타리버섯 식후대사",
+        "kind": "food"
+      },
+      {
+        "subject": "콩단백 지질",
+        "kind": "food"
+      },
+      {
+        "subject": "콩단백 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "녹차 EGCG 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "녹차추출물 운동후 혈압",
+        "kind": "food"
+      },
+      {
+        "subject": "온열요법 혈관기능",
+        "kind": "life"
+      },
+      {
+        "subject": "냉기 노출 혈압",
+        "kind": "life"
+      },
+      {
+        "subject": "냉기 노출 대사반응",
+        "kind": "life"
+      },
+      {
+        "subject": "호흡운동 스트레스",
+        "kind": "life"
+      },
+      {
+        "subject": "느린호흡 산화스트레스",
+        "kind": "life"
+      },
+      {
+        "subject": "짧은 운동 혈당",
         "kind": "move"
       },
       {
-        "subject": "구기자 혈관기능",
-        "kind": "food"
-      },
-      {
-        "subject": "블랙커런트 혈압",
-        "kind": "food"
-      },
-      {
-        "subject": "블랙커런트 혈관기능",
-        "kind": "food"
-      },
-      {
-        "subject": "블랙커런트 혈압",
-        "kind": "food"
-      },
-      {
-        "subject": "블랙커런트 혈압",
-        "kind": "food"
-      },
-      {
-        "subject": "아티초크·베르가못 지질",
-        "kind": "supp"
-      },
-      {
-        "subject": "아티초크 간지방",
-        "kind": "food"
-      },
-      {
-        "subject": "로열젤리 지질",
-        "kind": "supp"
-      },
-      {
-        "subject": "식물스테롤 혈관기능",
-        "kind": "food"
-      },
-      {
-        "subject": "식물스테롤 LDL",
-        "kind": "food"
-      },
-      {
-        "subject": "식물스테롤 LDL",
-        "kind": "food"
-      },
-      {
-        "subject": "식물스테롤 LDL",
-        "kind": "supp"
-      },
-      {
-        "subject": "식물스테롤 LDL",
-        "kind": "supp"
-      },
-      {
-        "subject": "식물스테롤 LDL",
-        "kind": "food"
-      },
-      {
-        "subject": "카놀라유 오메가3",
-        "kind": "food"
-      },
-      {
-        "subject": "카놀라유 식후지질",
-        "kind": "food"
-      },
-      {
-        "subject": "기장 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "기장 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "저항전분 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "수수 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "수수 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "자색감자 혈당",
-        "kind": "food"
-      },
-      {
-        "subject": "악력운동 혈압",
+        "subject": "걷기 휴식 혈당",
         "kind": "move"
       }
     ],
     "screened_topics": [],
     "remaining_non_prescription_vs_missing": 0,
-    "sample_sizes_filled": 29,
+    "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "14200",
       "worklist_line": "new-expansion-candidates-batch14200",
       "topic": "다음 비처방 후보 주제 선정 batch 14200",
       "unchecked": 0
     },
-    "unknownN": 1,
-    "thin": 17
+    "unknownN": 0,
+    "thin": 21
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -33998,10 +33999,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 29920,
+  "withVs": 29950,
   "unknownN": 1701,
-  "thinStudy": 9509,
-  "openNumeric": 29871,
+  "thinStudy": 9530,
+  "openNumeric": 29901,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
