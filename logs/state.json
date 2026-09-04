@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:51:13.794Z",
+  "updated": "2026-09-04T14:51:47.902Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30669,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13780",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13780",
     "topic": "다음 비처방 후보 주제 선정 batch 13780"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "13780",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "4e9cc6bb1",
+    "pushed": true,
+    "expansion_commit": "4e9cc6bb1",
+    "data_commits": [
+      "4e9cc6bb1"
+    ],
+    "checkpoint_commit": "5747d4d3b",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9956,7 +9958,7 @@
     "initial_validator_warnings": 13,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11033,
-    "build_warning_lines": 11033,
+    "build_warning_lines": 11022,
     "new_unknown_n_warnings": [
       "cranberry-radiotherapy-21703829-null"
     ],
@@ -9976,14 +9978,14 @@
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 0,
-    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 4,
+    "new_entry_line_warnings_fixed": 2,
+    "new_entry_subject_warnings_fixed": 4,
+    "new_entry_translation_warnings_fixed": 3,
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 29729,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2559개·고유 PMID 2479개, 첫 보강 검색 3204개·고유 PMID 3103개, 두 번째 보강 검색 3926개·고유 PMID 3850개였다. 세 묶음은 9689개 레코드였고 중복 제거 후 5977개 PMID를 EFetch해 5882개 초록을 확보했다. 후보 parser는 5977건에서 후보 1565건·신규 후보 1316건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 32건, 고유 PMID 29건이었다. 전용 검증 오류 0·경고 13; 실제 n<50 12건·표본 수 미상 1건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11033·11033; 새 비교 0·줄/영문 0·주제 0·번역투 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 블루베리 혈압·혈관기능·크랜베리 섭취·요로건강·버섯 혈당·지질·감귤 혈압·건포도 혈당·혈압·해조류 지질·L-시트룰린 혈압·리코펜 혈관기능·케르세틴 혈관·혈압·알파리포산 보충·비타민B1 보충·칼슘 비타민D 골밀도·등척성 악력 혈압·태극권 낙상·기공 혈압·인터벌운동 인슐린·저항밴드 근력·호흡운동 혈압·음악치료 수면·아로마테라피 수면·정원 가꾸기 스트레스이고 보류 주제 9개는 치아씨드 포만감·피칸 지질·마카다미아 지질·검은콩 혈당·L-아르기닌 혈압·베타알라닌 운동수행·비타민B2 편두통·이노시톨 다낭성난소증후군·산림욕 스트레스이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2559개·고유 PMID 2479개, 첫 보강 검색 3204개·고유 PMID 3103개, 두 번째 보강 검색 3926개·고유 PMID 3850개였다. 세 묶음은 9689개 레코드였고 중복 제거 후 5977개 PMID를 EFetch해 5882개 초록을 확보했다. 후보 parser는 5977건에서 후보 1565건·신규 후보 1316건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 32건, 고유 PMID 29건이었다. 전용 검증 오류 0·경고 13; 실제 n<50 12건·표본 수 미상 1건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11033·11022; 새 비교 4·줄/영문 2·주제 4·번역투 3건의 경고를 수정했다. 직접 항목으로 연결한 주제는 블루베리 혈압·혈관기능·크랜베리 섭취·요로건강·버섯 혈당·지질·감귤 혈압·건포도 혈당·혈압·해조류 지질·L-시트룰린 혈압·리코펜 혈관기능·케르세틴 혈관·혈압·알파리포산 보충·비타민B1 보충·칼슘 비타민D 골밀도·등척성 악력 혈압·태극권 낙상·기공 혈압·인터벌운동 인슐린·저항밴드 근력·호흡운동 혈압·음악치료 수면·아로마테라피 수면·정원 가꾸기 스트레스이고 보류 주제 9개는 치아씨드 포만감·피칸 지질·마카다미아 지질·검은콩 혈당·L-아르기닌 혈압·베타알라닌 운동수행·비타민B2 편두통·이노시톨 다낭성난소증후군·산림욕 스트레스이다.",
     "qualified_topics": [
       {
         "subject": "블루베리 혈압·혈관기능",
@@ -10085,9 +10087,9 @@
     "sample_sizes_filled": 29,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 0,
-    "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "subject_names_renamed": 4,
+    "subject_entries_renamed": 4,
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13780",
       "worklist_line": "new-expansion-candidates-batch13780",
