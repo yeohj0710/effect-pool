@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T13:38:01.085Z",
+  "updated": "2026-09-04T13:39:37.251Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30609,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13760는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 13760이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13760는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 13770이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 13760는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13760이다."
+    "note": "Batch 13760는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13770이다."
   },
   "checkpoints": {
     "over_counter_share": "17.8% (5463 entries)",
@@ -64,15 +64,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "13760",
+    "batch": "13770",
     "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch13760",
-    "topic": "다음 비처방 후보 주제 선정 batch 13760"
+    "worklist_line": "new-expansion-candidates-batch13770",
+    "topic": "다음 비처방 후보 주제 선정 batch 13770"
   },
   "resume": {
-    "next_batch": "13760",
-    "worklist_line": "new-expansion-candidates-batch13760",
-    "topic": "다음 비처방 후보 주제 선정 batch 13760",
+    "next_batch": "13770",
+    "worklist_line": "new-expansion-candidates-batch13770",
+    "topic": "다음 비처방 후보 주제 선정 batch 13770",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9615,8 +9615,8 @@
       "13230dc4a"
     ],
     "checkpoint_commit": "c827fcaab",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "d8005f524",
+    "known_items_commit": "555292411",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -9957,7 +9957,7 @@
     "initial_validator_warnings": 23,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11003,
-    "build_warning_lines": 11003,
+    "build_warning_lines": 10992,
     "new_unknown_n_warnings": [
       "pomegranate-ellagitannin-strength-19952825-pos"
     ],
@@ -9987,14 +9987,14 @@
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 7,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 0,
-    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 3,
+    "new_entry_translation_warnings_fixed": 1,
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 29669,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 1444개·고유 PMID 1432개, 보강 검색은 1915개·고유 PMID 1894개와 2865개·고유 PMID 2842개였다. 세 묶음은 6224개 레코드였고 중복 제거 후 3743개 PMID를 EFetch해 3708개 초록을 확보했다. 후보 parser는 3743건에서 후보 708건·신규 후보 519건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보 489건은 수치 부족·고찰·프로토콜·비무작위·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 31건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 23; 실제 n<50 22건·표본 수 미상 1건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11003·11003; 새 비교 0·주제 0·영문 0건의 경고를 수정했다. 직접 수치가 확인된 주제는 홍차 집중력·발효식품 염증·석류 운동회복·다크초콜릿 기분·크롬 혈당·비타민E 운동회복·아연 설사·멜라토닌 시차·로즈마리 인지·줄넘기 혈압·노르딕워킹 혈압·근력운동 불면·스쿼트 낙상·수면위생 불면·웃음치료 스트레스이고 수치 근거를 확정하지 못한 주제 15개는 보리 포만감·호박씨 혈압·해바라기씨 지질·김치 혈압·키위 변비·자두 변비·마카 스트레스·레몬밤 불안·L-테아닌 스트레스·프로폴리스 구강·프로바이오틱 항생제 설사·계단운동 혈압·수중운동 무릎·자연 노출 스트레스·온찜질 생리통이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 1444개·고유 PMID 1432개, 보강 검색은 1915개·고유 PMID 1894개와 2865개·고유 PMID 2842개였다. 세 묶음은 6224개 레코드였고 중복 제거 후 3743개 PMID를 EFetch해 3708개 초록을 확보했다. 후보 parser는 3743건에서 후보 708건·신규 후보 519건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보 489건은 수치 부족·고찰·프로토콜·비무작위·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 31건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 23; 실제 n<50 22건·표본 수 미상 1건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11003·10992; 새 비교 7·주제 3·영문 1건의 경고를 수정했다. 직접 수치가 확인된 주제는 홍차 집중력·발효식품 염증·석류 운동회복·다크초콜릿 기분·크롬 혈당·비타민E 운동회복·아연 설사·멜라토닌 시차·로즈마리 인지·줄넘기 혈압·노르딕워킹 혈압·근력운동 불면·스쿼트 낙상·수면위생 불면·웃음치료 스트레스이고 수치 근거를 확정하지 못한 주제 15개는 보리 포만감·호박씨 혈압·해바라기씨 지질·김치 혈압·키위 변비·자두 변비·마카 스트레스·레몬밤 불안·L-테아닌 스트레스·프로폴리스 구강·프로바이오틱 항생제 설사·계단운동 혈압·수중운동 무릎·자연 노출 스트레스·온찜질 생리통이다.",
     "qualified_topics": [
       "홍차 집중력",
       "발효식품 염증",
@@ -10033,13 +10033,13 @@
     "sample_sizes_filled": 29,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 0,
-    "subject_entries_renamed": 0,
+    "subject_names_renamed": 3,
+    "subject_entries_renamed": 3,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "13760",
-      "worklist_line": "new-expansion-candidates-batch13760",
-      "topic": "다음 비처방 후보 주제 선정 batch 13760",
+      "next_batch": "13770",
+      "worklist_line": "new-expansion-candidates-batch13770",
+      "topic": "다음 비처방 후보 주제 선정 batch 13770",
       "unchecked": 0
     },
     "unknownN": 1,
