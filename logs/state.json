@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:13:57.446Z",
+  "updated": "2026-09-04T16:14:36.953Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30756,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13900",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13900",
     "topic": "다음 비처방 후보 주제 선정 batch 13900"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "13900",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "33fc7d5e5",
+    "pushed": true,
+    "expansion_commit": "33fc7d5e5",
+    "data_commits": [
+      "33fc7d5e5"
+    ],
+    "checkpoint_commit": "5f8d646bc",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9946,7 +9948,7 @@
     "initial_validator_warnings": 13,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11066,
-    "build_warning_lines": 11066,
+    "build_warning_lines": 11064,
     "new_unknown_n_warnings": [
       "ashwagandha-stress-37740662"
     ],
@@ -10096,7 +10098,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13900",
       "worklist_line": "new-expansion-candidates-batch13900",
