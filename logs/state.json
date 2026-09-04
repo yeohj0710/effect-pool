@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T13:07:39.971Z",
+  "updated": "2026-09-04T13:13:10.477Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30579,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13750는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 13750이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 13750는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 13760이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 13750는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13750이다."
+    "note": "Batch 13750는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 13760이다."
   },
   "checkpoints": {
     "over_counter_share": "17.8% (5442 entries)",
@@ -64,15 +64,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "13750",
+    "batch": "13760",
     "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch13750",
-    "topic": "다음 비처방 후보 주제 선정 batch 13750"
+    "worklist_line": "new-expansion-candidates-batch13760",
+    "topic": "다음 비처방 후보 주제 선정 batch 13760"
   },
   "resume": {
-    "next_batch": "13750",
-    "worklist_line": "new-expansion-candidates-batch13750",
-    "topic": "다음 비처방 후보 주제 선정 batch 13750",
+    "next_batch": "13760",
+    "worklist_line": "new-expansion-candidates-batch13760",
+    "topic": "다음 비처방 후보 주제 선정 batch 13760",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9615,8 +9615,8 @@
       "5c64d992c"
     ],
     "checkpoint_commit": "7f82d9e2e",
-    "push_marker_commit": null,
-    "known_items_commit": null,
+    "push_marker_commit": "b92c34615",
+    "known_items_commit": "b84f7291c",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -9954,7 +9954,7 @@
     "initial_validator_errors": 0,
     "initial_validator_warnings": 17,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 10969,
+    "initial_build_warning_lines": 10980,
     "build_warning_lines": 10969,
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
@@ -9978,14 +9978,14 @@
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 0,
-    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 6,
+    "new_entry_line_warnings_fixed": 2,
+    "new_entry_subject_warnings_fixed": 3,
+    "new_entry_translation_warnings_fixed": 1,
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 29639,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2567개·고유 PMID 2543개, 보강 검색은 3266개·고유 PMID 3230개와 2424개·고유 PMID 2400개였다. 세 묶음은 8257개 레코드였고 중복 제거 후 4606개 PMID를 EFetch해 4555개 초록을 확보했다. 후보 parser는 4606건에서 후보 1748건·신규 후보 1245건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보 1215건은 수치 부족·고찰·프로토콜·비무작위·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 36건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 17; 실제 n<50 17건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 10969·10969; 새 비교 0·줄 0·주제 0·영문 0건의 경고를 수정했다. 직접 수치가 확인된 주제는 귀리 LDL·콩 단백질 혈압·병아리콩 콜레스테롤·렌틸콩 혈당·아보카도 포만감·토마토 혈압·석류 혈압·블루베리 인지·카카오 혈압·녹차 집중력·오메가3 불안·비타민D 근력·로디올라 스트레스·베르베린 혈당·타우린 혈압·L-카르니틴 운동회복·NAC 운동회복·걷기 혈압·필라테스 허리통증·균형운동 낙상·스트레칭 목통증이고 수치 근거를 확정하지 못한 주제 9개는 비타민B12 피로·은행잎 인지·사프란 우울·춤 인지·수영 우울·마음챙김 불면·음악치료 불안·원예 스트레스·마사지 두통이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2567개·고유 PMID 2543개, 보강 검색은 3266개·고유 PMID 3230개와 2424개·고유 PMID 2400개였다. 세 묶음은 8257개 레코드였고 중복 제거 후 4606개 PMID를 EFetch해 4555개 초록을 확보했다. 후보 parser는 4606건에서 후보 1748건·신규 후보 1245건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보 1215건은 수치 부족·고찰·프로토콜·비무작위·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 36건, 고유 PMID 30건이었다. 전용 검증 오류 0·경고 17; 실제 n<50 17건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 10980·10969; 새 비교 6·줄 2·주제 3·영문 1건의 경고를 수정했다. 직접 수치가 확인된 주제는 귀리 LDL·콩 단백질 혈압·병아리콩 콜레스테롤·렌틸콩 혈당·아보카도 포만감·토마토 혈압·석류 혈압·블루베리 인지·카카오 혈압·녹차 집중력·오메가3 불안·비타민D 근력·로디올라 스트레스·베르베린 혈당·타우린 혈압·L-카르니틴 운동회복·NAC 운동회복·걷기 혈압·필라테스 허리통증·균형운동 낙상·스트레칭 목통증이고 수치 근거를 확정하지 못한 주제 9개는 비타민B12 피로·은행잎 인지·사프란 우울·춤 인지·수영 우울·마음챙김 불면·음악치료 불안·원예 스트레스·마사지 두통이다.",
     "qualified_topics": [
       "귀리 LDL",
       "콩 단백질 혈압",
@@ -10024,13 +10024,13 @@
     "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 0,
-    "subject_entries_renamed": 0,
+    "subject_names_renamed": 3,
+    "subject_entries_renamed": 3,
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "13750",
-      "worklist_line": "new-expansion-candidates-batch13750",
-      "topic": "다음 비처방 후보 주제 선정 batch 13750",
+      "next_batch": "13760",
+      "worklist_line": "new-expansion-candidates-batch13760",
+      "topic": "다음 비처방 후보 주제 선정 batch 13760",
       "unchecked": 0
     },
     "unknownN": 0,
