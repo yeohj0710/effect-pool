@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-04T23:36:37.362Z",
+  "updated": "2026-09-04T23:59:18.631Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 31143,
-  "subjects": 22891,
-  "refs": 34304,
+  "entries": 31173,
+  "subjects": 22905,
+  "refs": 34334,
   "kinds": {
     "undefined": 10367,
     "care": 8711,
-    "supp": 3453,
+    "supp": 3469,
     "move": 3969,
-    "food": 1642,
+    "food": 1656,
     "otc": 724,
     "life": 2253,
     "rx": 24
   },
   "tiers": {
-    "trial": 30292,
+    "trial": 30322,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 21976,
-    "null": 7144,
+    "pos": 21995,
+    "null": 7155,
     "open": 1679,
     "harm": 344
   },
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 18000는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 19000이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 19000는 비처방 후보에서 신규 항목 30건을 기록했고 다음 재개점은 batch 19000이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 18000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 19000이다."
+    "note": "Batch 19000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 19000이다."
   },
   "checkpoints": {
-    "over_counter_share": "18.7% (5819 entries)",
+    "over_counter_share": "18.8% (5849 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.0% (7488)",
-    "vs_share": "97.0% (30203)",
+    "no_effect_or_harm_share": "24.1% (7499)",
+    "vs_share": "97.0% (30233)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.3% (30292)",
+    "trial_share": "97.3% (30322)",
     "non_trial_share": "2.7% (851)",
     "build_warnings": {
       "unknown_n": 1708,
-      "thin_study": 9676,
+      "thin_study": 9693,
       "targeted_batch_warnings": 1796
     },
     "targeted_batch_warnings": 1796,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "19000",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch19000",
     "topic": "다음 비처방 후보 주제 선정 batch 19000"
   },
@@ -9607,593 +9607,575 @@
     }
   },
   "last_batch": {
-    "id": "18000",
-    "commit": "a54b20204",
-    "pushed": true,
-    "expansion_commit": "a54b20204",
-    "data_commits": [
-      "a54b20204"
-    ],
-    "checkpoint_commit": "78928a529",
-    "push_marker_commit": "e8380386c",
-    "known_items_commit": "7335c898bafb27557af5fd321ff35c39ed6aaa40",
+    "id": "19000",
+    "commit": null,
+    "pushed": false,
+    "expansion_commit": null,
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "batch-18000-1",
-        "subject": "토마토 혈압",
-        "term": "tomato blood pressure randomized controlled trial",
+        "id": "batch-19000-1",
+        "subject": "귀리 인슐린",
+        "term": "oat insulin sensitivity randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-2",
-        "subject": "마늘 혈압",
-        "term": "garlic blood pressure randomized controlled trial",
+        "id": "batch-19000-2",
+        "subject": "키위 변비",
+        "term": "kiwifruit constipation randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-3",
-        "subject": "양파 혈당",
-        "term": "onion glucose randomized controlled trial",
+        "id": "batch-19000-3",
+        "subject": "자두 변비",
+        "term": "prune plum constipation randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-4",
-        "subject": "아보카도 지질",
-        "term": "avocado lipid cholesterol randomized controlled trial",
+        "id": "batch-19000-4",
+        "subject": "건포도 혈당",
+        "term": "raisins glycemic glucose randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-5",
-        "subject": "녹차 혈압",
-        "term": "green tea blood pressure randomized controlled trial",
+        "id": "batch-19000-5",
+        "subject": "버섯 혈압",
+        "term": "mushroom blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-6",
-        "subject": "홍차 혈압",
-        "term": "black tea blood pressure randomized controlled trial",
+        "id": "batch-19000-6",
+        "subject": "코코아 인슐린",
+        "term": "cocoa insulin sensitivity randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-7",
-        "subject": "크랜베리 요로건강",
-        "term": "cranberry urinary tract randomized controlled trial",
+        "id": "batch-19000-7",
+        "subject": "케피어 지질",
+        "term": "kefir lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-8",
-        "subject": "요구르트 혈당",
-        "term": "yogurt glucose randomized controlled trial",
+        "id": "batch-19000-8",
+        "subject": "올리브유 식후혈당",
+        "term": "olive oil postprandial glucose randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-9",
-        "subject": "사과 혈당",
-        "term": "apple glucose randomized controlled trial",
+        "id": "batch-19000-9",
+        "subject": "호박씨 혈당",
+        "term": "pumpkin seed glucose randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-10",
-        "subject": "포도 혈압",
-        "term": "grape blood pressure randomized controlled trial",
+        "id": "batch-19000-10",
+        "subject": "치아씨 혈당",
+        "term": "chia seed glucose randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-11",
-        "subject": "비타민D 기분",
-        "term": "vitamin D mood randomized controlled trial",
+        "id": "batch-19000-11",
+        "subject": "석류 염증",
+        "term": "pomegranate inflammation randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-19000-12",
+        "subject": "캐슈넛 지질",
+        "term": "cashew nut lipid cholesterol randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "batch-19000-13",
+        "subject": "마그네슘 편두통",
+        "term": "magnesium migraine randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-12",
-        "subject": "오메가3 혈압",
-        "term": "omega-3 blood pressure randomized controlled trial",
+        "id": "batch-19000-14",
+        "subject": "비타민B12 우울",
+        "term": "vitamin B12 depression randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-13",
-        "subject": "철분 인지기능",
-        "term": "iron cognition randomized controlled trial",
+        "id": "batch-19000-15",
+        "subject": "엽산 우울",
+        "term": "folic acid depression randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-14",
-        "subject": "칼슘 혈압",
-        "term": "calcium blood pressure randomized controlled trial",
+        "id": "batch-19000-16",
+        "subject": "프로폴리스 인후통",
+        "term": "propolis sore throat randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-15",
-        "subject": "셀레늄 갑상선",
-        "term": "selenium thyroid randomized controlled trial",
+        "id": "batch-19000-17",
+        "subject": "비타민B6 구역",
+        "term": "vitamin B6 nausea randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-16",
-        "subject": "프로바이오틱 기분",
-        "term": "probiotic mood randomized controlled trial",
+        "id": "batch-19000-18",
+        "subject": "콜라겐 관절통증",
+        "term": "collagen joint pain randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-17",
-        "subject": "프리바이오틱 혈당",
-        "term": "prebiotic glucose randomized controlled trial",
+        "id": "batch-19000-19",
+        "subject": "크레아틴 우울",
+        "term": "creatine depression randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-18",
-        "subject": "커큐민 통증완화",
-        "term": "curcumin pain randomized controlled trial",
+        "id": "batch-19000-20",
+        "subject": "글루타민 장건강",
+        "term": "glutamine gut health randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-19",
-        "subject": "아슈와간다 긴장",
-        "term": "ashwagandha anxiety randomized controlled trial",
+        "id": "batch-19000-21",
+        "subject": "피크노제놀 혈압",
+        "term": "pycnogenol blood pressure randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-20",
-        "subject": "L-카르니틴 피로",
-        "term": "L-carnitine fatigue randomized controlled trial",
+        "id": "batch-19000-22",
+        "subject": "스피룰리나 지질",
+        "term": "spirulina lipid cholesterol randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-21",
-        "subject": "저항운동 혈당",
-        "term": "resistance training glucose randomized controlled trial",
-        "kind": "move"
+        "id": "batch-19000-23",
+        "subject": "코엔자임Q10 심박수",
+        "term": "coenzyme Q10 heart rate randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-22",
-        "subject": "유산소 혈압",
-        "term": "aerobic exercise blood pressure randomized controlled trial",
-        "kind": "move"
+        "id": "batch-19000-24",
+        "subject": "녹색입홍합 관절통",
+        "term": "green-lipped mussel joint pain randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-23",
-        "subject": "자전거 기분",
-        "term": "cycling mood randomized controlled trial",
-        "kind": "move"
+        "id": "batch-19000-25",
+        "subject": "로즈힙 관절통",
+        "term": "rose hip joint pain randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-24",
-        "subject": "걷기 혈압",
-        "term": "walking blood pressure randomized controlled trial",
-        "kind": "move"
+        "id": "batch-19000-26",
+        "subject": "아스타잔틴 피로",
+        "term": "astaxanthin fatigue randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-25",
-        "subject": "요가 허리관리",
-        "term": "yoga low back pain randomized controlled trial",
-        "kind": "move"
+        "id": "batch-19000-27",
+        "subject": "유청단백질 근육",
+        "term": "whey protein muscle strength randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-26",
-        "subject": "명상 수면",
-        "term": "meditation sleep randomized controlled trial",
-        "kind": "life"
+        "id": "batch-19000-28",
+        "subject": "칼륨 혈압",
+        "term": "potassium blood pressure randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-27",
-        "subject": "숲 걷기 혈압",
-        "term": "forest walking blood pressure randomized controlled trial",
-        "kind": "life"
+        "id": "batch-19000-29",
+        "subject": "칼슘 월경전증후군",
+        "term": "calcium premenstrual syndrome randomized controlled trial",
+        "kind": "supp"
       },
       {
-        "id": "batch-18000-28",
-        "subject": "음악치료 통증",
-        "term": "music therapy pain randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-29",
-        "subject": "마사지 긴장",
-        "term": "massage anxiety randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-30",
-        "subject": "웃음치료 긴장",
-        "term": "laughter therapy anxiety randomized controlled trial",
-        "kind": "life"
+        "id": "batch-19000-30",
+        "subject": "마그네슘 혈당",
+        "term": "magnesium glucose randomized controlled trial",
+        "kind": "supp"
       }
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 13104,
-    "new_candidate_rejects": 4986,
-    "all_excluded_candidates": 18090,
+    "no_evidence_rejects": 2819,
+    "new_candidate_rejects": 1794,
+    "all_excluded_candidates": 4613,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 3,
+    "screened_nonqualifying_topics": 14,
     "new_references": 30,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 22442,
+    "duplicate_search_pmids_removed": 5853,
     "search_topic_count": 30,
-    "search_returned_records": 9451,
-    "main_search_records": 9451,
-    "main_search_unique_pmids": 8890,
+    "search_returned_records": 2333,
+    "main_search_records": 2333,
+    "main_search_unique_pmids": 2272,
     "extra_query_count": 30,
-    "extra_search_records": 15548,
-    "extra_unique_pmids": 14658,
+    "extra_search_records": 4144,
+    "extra_unique_pmids": 4019,
     "extra2_query_count": 30,
-    "extra2_search_records": 16255,
-    "extra2_unique_pmids": 15291,
+    "extra2_search_records": 4245,
+    "extra2_unique_pmids": 4137,
     "targeted_query_count": 60,
-    "targeted_search_records": 34,
-    "targeted_search_unique_pmids": 30,
-    "targeted_negative_hits": 30,
-    "targeted_safety_hits": 4,
-    "combined_search_unique_pmids": 18812,
-    "requested": 18812,
-    "fetched": 18812,
-    "fetch_chunks": 19,
-    "abstracts": 18392,
+    "targeted_search_records": 35,
+    "targeted_search_unique_pmids": 29,
+    "targeted_negative_hits": 29,
+    "targeted_safety_hits": 6,
+    "combined_search_unique_pmids": 4869,
+    "requested": 4869,
+    "fetched": 4869,
+    "fetch_chunks": 5,
+    "abstracts": 4671,
     "missing": 0,
-    "candidate_parser_parsed": 18812,
-    "candidate_parser_candidates": 5708,
-    "union_new_candidate_like": 5016,
-    "effect_candidate_rows": 5016,
-    "existing_candidate_rows": 692,
+    "candidate_parser_parsed": 4869,
+    "candidate_parser_candidates": 2050,
+    "union_new_candidate_like": 1824,
+    "effect_candidate_rows": 1824,
+    "existing_candidate_rows": 226,
     "selected_pmids": [
-      "29131285",
-      "24035939",
-      "23404465",
-      "1308699",
-      "22810991",
-      "15630270",
-      "9292758",
-      "32294394",
-      "31902373",
-      "8093138",
-      "27544544",
-      "30820304",
-      "7852747",
-      "7636641",
-      "33863564",
-      "28068788",
-      "28255654",
-      "32705925",
-      "34838432",
-      "17693145",
-      "30414785",
-      "34649825",
-      "27551990",
-      "29363988",
-      "32931457",
-      "33682592",
-      "41665553",
-      "40859508",
-      "30057058",
-      "41109062"
+      "11978262",
+      "27019267",
+      "32577117",
+      "38135005",
+      "40190095",
+      "26338890",
+      "22854880",
+      "38741203",
+      "27605048",
+      "34794522",
+      "27577177",
+      "26850805",
+      "29665619",
+      "17381974",
+      "19077388",
+      "7573262",
+      "2047064",
+      "22500661",
+      "33562729",
+      "34371963",
+      "34542204",
+      "12487756",
+      "18797149",
+      "41162864",
+      "36839361",
+      "32486007",
+      "40573144",
+      "1336526",
+      "3889148",
+      "30587761"
     ],
     "selected_ncts": [],
     "new_pmids": [
-      "29131285",
-      "24035939",
-      "23404465",
-      "1308699",
-      "22810991",
-      "15630270",
-      "9292758",
-      "32294394",
-      "31902373",
-      "8093138",
-      "27544544",
-      "30820304",
-      "7852747",
-      "7636641",
-      "33863564",
-      "28068788",
-      "28255654",
-      "32705925",
-      "34838432",
-      "17693145",
-      "30414785",
-      "34649825",
-      "27551990",
-      "29363988",
-      "32931457",
-      "33682592",
-      "41665553",
-      "40859508",
-      "30057058",
-      "41109062"
+      "11978262",
+      "27019267",
+      "32577117",
+      "38135005",
+      "40190095",
+      "26338890",
+      "22854880",
+      "38741203",
+      "27605048",
+      "34794522",
+      "27577177",
+      "26850805",
+      "29665619",
+      "17381974",
+      "19077388",
+      "7573262",
+      "2047064",
+      "22500661",
+      "33562729",
+      "34371963",
+      "34542204",
+      "12487756",
+      "18797149",
+      "41162864",
+      "36839361",
+      "32486007",
+      "40573144",
+      "1336526",
+      "3889148",
+      "30587761"
     ],
     "new_ncts": [],
     "new_entry_ids": [
-      "aerobic-exercise-bp-34649825",
-      "apple-postprandial-31902373",
-      "ashwagandha-anxiety-34838432",
-      "avocado-lipids-1308699",
-      "black-tea-bp-9292758",
-      "calcium-bp-7636641",
-      "cranberry-bacteriuria-8093138",
-      "curcumin-muscle-soreness-32705925",
-      "cycling-mood-27551990",
-      "forest-walking-bp-41665553",
-      "garlic-bp-dose-24035939",
-      "garlic-bp-japanese-23404465",
-      "grape-juice-bp-15630270",
-      "grape-polyphenol-bp-22810991",
-      "l-carnitine-fatigue-celiac-17693145",
-      "laughter-yoga-anxiety-41109062",
-      "massage-anxiety-30057058",
-      "meditation-sleep-33682592",
-      "music-therapy-pain-40859508",
-      "omega3-bp-7852747",
-      "prebiotic-glucose-28255654",
-      "probiotic-depression-28068788",
-      "resistance-training-glucose-30414785",
-      "selenium-graves-orbitopathy-33863564",
-      "tomato-extract-bp-29131285",
-      "vitamin-d-anxiety-30820304",
-      "vitamin-d-perinatal-mood-27544544",
-      "walking-bp-29363988",
-      "yoga-low-back-32931457",
-      "yogurt-glucose-32294394"
+      "astaxanthin-fatigue-41162864",
+      "cashew-lipid-17381974",
+      "cocoa-insulin-22854880",
+      "cocoa-insulin-26338890",
+      "cocoa-insulin-40190095",
+      "collagen-joint-pain-22500661",
+      "collagen-joint-pain-33562729",
+      "collagen-joint-pain-34371963",
+      "coq10-heart-rate-18797149",
+      "kefir-lipid-38741203",
+      "magnesium-glucose-30587761",
+      "mushroom-bp-pih-32577117",
+      "mushroom-glucose-38135005",
+      "oat-insulin-11978262",
+      "oat-insulin-27019267",
+      "olive-postprandial-27605048",
+      "olive-postprandial-34794522",
+      "pomegranate-inflammation-26850805",
+      "pomegranate-inflammation-27577177",
+      "pomegranate-inflammation-29665619",
+      "potassium-bp-1336526",
+      "potassium-bp-3889148",
+      "spirulina-lipid-12487756",
+      "spirulina-lipid-34542204",
+      "vitamin-b6-nausea-19077388",
+      "vitamin-b6-nausea-2047064",
+      "vitamin-b6-nausea-7573262",
+      "whey-muscle-32486007",
+      "whey-muscle-36839361",
+      "whey-muscle-40573144"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "move": 5,
-      "food": 7,
-      "supp": 13,
-      "life": 5
+      "supp": 16,
+      "food": 14
     },
     "tiers": {
       "trial": 30
     },
     "dirs": {
-      "pos": 25,
-      "null": 5
+      "pos": 19,
+      "null": 11
     },
-    "unknown_n": 1,
-    "thin_studies": 12,
+    "unknown_n": 0,
+    "thin_studies": 17,
     "validator_errors": 0,
-    "validator_warnings": 13,
+    "validator_warnings": 17,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 13,
+    "initial_validator_warnings": 17,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 11351,
-    "build_warning_lines": 11297,
-    "new_unknown_n_warnings": [
-      "prebiotic-glucose-28255654"
-    ],
+    "initial_build_warning_lines": 11333,
+    "build_warning_lines": 11314,
+    "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
-      "apple-postprandial-31902373",
-      "avocado-lipids-1308699",
-      "curcumin-muscle-soreness-32705925",
-      "grape-juice-bp-15630270",
-      "grape-polyphenol-bp-22810991",
-      "laughter-yoga-anxiety-41109062",
-      "omega3-bp-7852747",
-      "resistance-training-glucose-30414785",
-      "selenium-graves-orbitopathy-33863564",
-      "walking-bp-29363988",
-      "yoga-low-back-32931457",
-      "yogurt-glucose-32294394"
+      "cocoa-insulin-22854880",
+      "cocoa-insulin-26338890",
+      "cocoa-insulin-40190095",
+      "coq10-heart-rate-18797149",
+      "magnesium-glucose-30587761",
+      "oat-insulin-11978262",
+      "olive-postprandial-27605048",
+      "olive-postprandial-34794522",
+      "pomegranate-inflammation-26850805",
+      "pomegranate-inflammation-29665619",
+      "potassium-bp-1336526",
+      "potassium-bp-3889148",
+      "spirulina-lipid-12487756",
+      "spirulina-lipid-34542204",
+      "whey-muscle-32486007",
+      "whey-muscle-36839361",
+      "whey-muscle-40573144"
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 1,
-    "new_entry_effect_warnings_fixed": 0,
-    "new_entry_line_warnings_fixed": 28,
-    "new_entry_subject_warnings_fixed": 1,
-    "new_entry_translation_warnings_fixed": 3,
-    "new_entry_scale_warnings_fixed": 21,
+    "new_entry_vs_warnings_fixed": 8,
+    "new_entry_effect_warnings_fixed": 1,
+    "new_entry_line_warnings_fixed": 4,
+    "new_entry_subject_warnings_fixed": 6,
+    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 0,
-    "open_numeric_comparisons": 30203,
+    "open_numeric_comparisons": 30233,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 9451개 레코드·고유 PMID 8890개, 첫 보강 검색 15548개·고유 PMID 14658개, 두 번째 보강 검색 16255개·고유 PMID 15291개였다. 세 묶음은 41254개 레코드였고 중복 제거 후 18812개 PMID를 19개 POST EFetch 청크로 요청해 18392개 초록을 확보했다. 후보 parser는 18812건에서 후보 5708건·신규 후보 5016건·기존 후보 692건을 확인했다. 초록에서 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했고 신규 후보 4986건은 고찰·프로토콜·비무작위·수치 부족·중복·처방약 병용 또는 주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 34건, 고유 PMID 30건이었고 부정 검색 적중 30회·안전성 검색 적중 4회였다. 전용 검증 exit 0·오류 0·경고 13; 실제 n<50 12건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11351, 최종 exit 0·오류 0·경고 11297였다. 새 비교·줄 길이·주어·번역투·규모 경고 54건을 수정했고, 실제 소표본·표본 수 미상 경고 13건과 집계 경고 1건은 유지했다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2333개 레코드·고유 PMID 2272개, 첫 보강 검색 4144개·고유 PMID 4019개, 두 번째 보강 검색 4245개·고유 PMID 4137개였다. 세 묶음은 10722개 레코드였고 중복 제거 후 4869개 PMID를 5개 POST EFetch 청크로 요청해 4671개 초록을 확보했다. 후보 parser는 4869건에서 후보 2050건·신규 후보 1824건·기존 후보 226건을 확인했다. 초록에서 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했고 신규 후보 1794건은 문헌 유형·수치 부족·주제 불일치·중복·처방약 병용 또는 단독 효과 분리 불가로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 35건, 고유 PMID 29건이었고 부정 검색 적중 29회·안전성 검색 적중 6회였다. 전용 검증 exit 0·오류 0·경고 17; 실제 n<50 17건·표본 수 미상 0건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11333, 최종 exit 0·오류 0·경고 11314였다. 새 비교·줄 길이·주어·번역투·규모 경고 19건을 수정했고, 실제 소표본·표본 수 미상 경고 17건과 집계 경고 1건은 유지했다.",
     "qualified_topics": [
       {
-        "id": "batch-18000-1",
-        "subject": "토마토 혈압",
-        "term": "tomato blood pressure randomized controlled trial",
+        "id": "batch-19000-1",
+        "subject": "귀리 인슐린",
+        "term": "oat insulin sensitivity randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-2",
-        "subject": "마늘 혈압",
-        "term": "garlic blood pressure randomized controlled trial",
+        "id": "batch-19000-5",
+        "subject": "버섯 혈압",
+        "term": "mushroom blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-4",
-        "subject": "아보카도 지질",
-        "term": "avocado lipid cholesterol randomized controlled trial",
+        "id": "batch-19000-6",
+        "subject": "코코아 인슐린",
+        "term": "cocoa insulin sensitivity randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-6",
-        "subject": "홍차 혈압",
-        "term": "black tea blood pressure randomized controlled trial",
+        "id": "batch-19000-7",
+        "subject": "케피어 지질",
+        "term": "kefir lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-7",
-        "subject": "크랜베리 요로건강",
-        "term": "cranberry urinary tract randomized controlled trial",
+        "id": "batch-19000-8",
+        "subject": "올리브유 식후혈당",
+        "term": "olive oil postprandial glucose randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-8",
-        "subject": "요구르트 혈당",
-        "term": "yogurt glucose randomized controlled trial",
+        "id": "batch-19000-11",
+        "subject": "석류 염증",
+        "term": "pomegranate inflammation randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-9",
-        "subject": "사과 혈당",
-        "term": "apple glucose randomized controlled trial",
+        "id": "batch-19000-12",
+        "subject": "캐슈넛 지질",
+        "term": "cashew nut lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-18000-10",
-        "subject": "포도 혈압",
-        "term": "grape blood pressure randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "batch-18000-11",
-        "subject": "비타민D 기분",
-        "term": "vitamin D mood randomized controlled trial",
+        "id": "batch-19000-17",
+        "subject": "비타민B6 구역",
+        "term": "vitamin B6 nausea randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-12",
-        "subject": "오메가3 혈압",
-        "term": "omega-3 blood pressure randomized controlled trial",
+        "id": "batch-19000-18",
+        "subject": "콜라겐 관절통증",
+        "term": "collagen joint pain randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-14",
-        "subject": "칼슘 혈압",
-        "term": "calcium blood pressure randomized controlled trial",
+        "id": "batch-19000-22",
+        "subject": "스피룰리나 지질",
+        "term": "spirulina lipid cholesterol randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-15",
-        "subject": "셀레늄 갑상선",
-        "term": "selenium thyroid randomized controlled trial",
+        "id": "batch-19000-23",
+        "subject": "코엔자임Q10 심박수",
+        "term": "coenzyme Q10 heart rate randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-16",
-        "subject": "프로바이오틱 기분",
-        "term": "probiotic mood randomized controlled trial",
+        "id": "batch-19000-26",
+        "subject": "아스타잔틴 피로",
+        "term": "astaxanthin fatigue randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-17",
-        "subject": "프리바이오틱 혈당",
-        "term": "prebiotic glucose randomized controlled trial",
+        "id": "batch-19000-27",
+        "subject": "유청단백질 근육",
+        "term": "whey protein muscle strength randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-18",
-        "subject": "커큐민 통증완화",
-        "term": "curcumin pain randomized controlled trial",
+        "id": "batch-19000-28",
+        "subject": "칼륨 혈압",
+        "term": "potassium blood pressure randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-18000-19",
-        "subject": "아슈와간다 긴장",
-        "term": "ashwagandha anxiety randomized controlled trial",
+        "id": "batch-19000-30",
+        "subject": "마그네슘 혈당",
+        "term": "magnesium glucose randomized controlled trial",
         "kind": "supp"
-      },
-      {
-        "id": "batch-18000-20",
-        "subject": "L-카르니틴 피로",
-        "term": "L-carnitine fatigue randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "batch-18000-21",
-        "subject": "저항운동 혈당",
-        "term": "resistance training glucose randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-18000-22",
-        "subject": "유산소 혈압",
-        "term": "aerobic exercise blood pressure randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-18000-23",
-        "subject": "자전거 기분",
-        "term": "cycling mood randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-18000-24",
-        "subject": "걷기 혈압",
-        "term": "walking blood pressure randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-18000-25",
-        "subject": "요가 허리관리",
-        "term": "yoga low back pain randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-18000-26",
-        "subject": "명상 수면",
-        "term": "meditation sleep randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-27",
-        "subject": "숲 걷기 혈압",
-        "term": "forest walking blood pressure randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-28",
-        "subject": "음악치료 통증",
-        "term": "music therapy pain randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-29",
-        "subject": "마사지 긴장",
-        "term": "massage anxiety randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "batch-18000-30",
-        "subject": "웃음치료 긴장",
-        "term": "laughter therapy anxiety randomized controlled trial",
-        "kind": "life"
       }
     ],
     "screened_topics": [
       {
-        "subject": "양파 혈당",
+        "subject": "키위 변비",
         "kind": "food",
-        "reason": "검색된 양파 연구는 퀘르세틴·양파껍질 등 다른 결과 중심이거나 주제에 맞는 군간 혈당 수치가 부족해 보류했다."
+        "reason": "검색된 기록은 다른 연구를 인용한 문헌이어서 직접 군간 수치가 있는 원시험으로 확인되지 않아 보류했다."
       },
       {
-        "subject": "녹차 혈압",
+        "subject": "자두 변비",
         "kind": "food",
-        "reason": "녹차 혈압 후보는 복합 보충제·운동 병용 또는 혈압 절대값 부족이 많아 이번 항목으로 기록하지 않았다."
+        "reason": "이번 검색에서 변비 결과와 직접 연결되는 적격 무작위시험 초록을 찾지 못했다."
       },
       {
-        "subject": "철분 인지기능",
+        "subject": "건포도 혈당",
+        "kind": "food",
+        "reason": "검색된 간식 연구는 운동 전 여러 간식을 비교했지만 건포도군의 군간 혈당 효과가 확인되지 않아 보류했다."
+      },
+      {
+        "subject": "호박씨 혈당",
+        "kind": "food",
+        "reason": "검색 결과에 호박씨 단독 중재와 직접 군간 혈당 수치가 없어 보류했다."
+      },
+      {
+        "subject": "치아씨 혈당",
+        "kind": "food",
+        "reason": "치아씨·노팔·콩·귀리를 함께 사용한 복합 식단이라 치아씨 효과를 분리할 수 없어 제외했다."
+      },
+      {
+        "subject": "마그네슘 편두통",
         "kind": "supp",
-        "reason": "철분 후보는 복합 미량영양소·영아 분유·처방약 연구가 많았고 이번 주제에 맞는 단독 보충 군간 수치가 부족했다."
+        "reason": "검색된 초록은 고찰·정맥치료·비교약 연구가 많았고 마그네슘 단독 대조군 수치가 부족했다."
+      },
+      {
+        "subject": "비타민B12 우울",
+        "kind": "supp",
+        "reason": "비타민B12·엽산·비타민B군 병용 또는 다른 우울 치료와 섞인 연구가 많아 단독 효과를 분리하지 못했다."
+      },
+      {
+        "subject": "엽산 우울",
+        "kind": "supp",
+        "reason": "엽산·비타민B군 병용 또는 항우울제 병용 연구가 많아 비처방 단독 효과를 분리하지 못했다."
+      },
+      {
+        "subject": "프로폴리스 인후통",
+        "kind": "supp",
+        "reason": "검색된 임상시험은 프로폴리스와 다른 허브 추출물을 함께 사용해 프로폴리스 효과를 분리하지 못했다."
+      },
+      {
+        "subject": "글루타민 장건강",
+        "kind": "supp",
+        "reason": "검색된 초록은 장건강과 직접 맞지 않거나 단일군·운동 스트레스 연구여서 적격 군간 수치가 부족했다."
+      },
+      {
+        "subject": "피크노제놀 혈압",
+        "kind": "supp",
+        "reason": "검색된 시험은 내피기능 등 다른 지표 중심이거나 혈압 결과가 직접 제시되지 않아 보류했다."
+      },
+      {
+        "subject": "녹색입홍합 관절통",
+        "kind": "supp",
+        "reason": "검색된 관절 연구는 단일군이거나 다른 해양유와 병용해 대조군 또는 단독 효과가 부족했다."
+      },
+      {
+        "subject": "로즈힙 관절통",
+        "kind": "supp",
+        "reason": "이번 검색에서 로즈힙과 관절통을 직접 비교한 적격 초록을 확인하지 못했다."
+      },
+      {
+        "subject": "칼슘 월경전증후군",
+        "kind": "supp",
+        "reason": "검색된 기록은 고찰·생체지표 연구가 대부분이고 칼슘 단독 군간 증상 수치가 부족했다."
       }
     ],
     "remaining_non_prescription_vs_missing": 0,
-    "sample_sizes_filled": 29,
+    "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 1,
-    "subject_entries_renamed": 1,
+    "subject_names_renamed": 6,
+    "subject_entries_renamed": 6,
     "warning_diff": {
-      "baseline": 11284,
-      "initial": 11351,
-      "final": 11297,
-      "new_actionable_fixed": 54,
-      "new_thin_kept": 12,
-      "new_unknown_kept": 1,
+      "baseline": 11297,
+      "initial": 11333,
+      "final": 11314,
+      "new_actionable_fixed": 19,
+      "new_thin_kept": 17,
+      "new_unknown_kept": 0,
       "aggregate_kept": 1
     },
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "19000",
       "worklist_line": "new-expansion-candidates-batch19000",
       "topic": "다음 비처방 후보 주제 선정 batch 19000",
       "unchecked": 0
     },
-    "unknownN": 1,
-    "thin": 12
+    "unknownN": 0,
+    "thin": 17
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -34065,10 +34047,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 30203,
+  "withVs": 30233,
   "unknownN": 1708,
-  "thinStudy": 9676,
-  "openNumeric": 30203,
+  "thinStudy": 9693,
+  "openNumeric": 30233,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
