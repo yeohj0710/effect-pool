@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:20:48.976Z",
+  "updated": "2026-09-04T15:21:17.747Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30699,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13790",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13790",
     "topic": "다음 비처방 후보 주제 선정 batch 13790"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "13790",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "f16dbc2ec",
+    "pushed": true,
+    "expansion_commit": "f16dbc2ec",
+    "data_commits": [
+      "f16dbc2ec"
+    ],
+    "checkpoint_commit": "35a0b72f3",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9955,7 +9957,7 @@
     "initial_validator_warnings": 16,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11047,
-    "build_warning_lines": 11047,
+    "build_warning_lines": 11038,
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
       "green-tea-obesity-22581111",
@@ -9977,14 +9979,14 @@
     ],
     "build_error_lines": 0,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_vs_warnings_fixed": 6,
     "new_entry_line_warnings_fixed": 0,
-    "new_entry_subject_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 3,
     "new_entry_translation_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 29759,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 3085개·고유 PMID 3059개, 첫 보강 검색 3594개·고유 PMID 3539개, 두 번째 보강 검색 4671개·고유 PMID 4635개였다. 세 묶음은 11350개 레코드였고 중복 제거 후 6969개 PMID를 EFetch해 6831개 초록을 확보했다. 후보 parser는 6969건에서 후보 2133건·신규 후보 1698건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 31건, 고유 PMID 28건이었다. 전용 검증 오류 0·경고 16; 실제 n<50 16건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11047·11038; 새 비교 0·줄/영문 0·주제 0·번역투 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 녹차 혈압·카카오 혈관기능·비트 운동수행·귀리 혈당·콩 단백질 지질·대추야자 혈당·코코아 기분·N-아세틸시스테인 호흡기·타우린 혈압·마그네슘 혈압·비타민D 우울 증상·스피루리나 지질·프로바이오틱 설사·철분 피로·걷기 혈압·수영·아쿠아로빅 실행기능·필라테스 균형·태극권 불안 완화·계단운동 체력·마음챙김 스트레스·웃음치료 스트레스·마사지 수면·일광 수면이고 보류 주제 7개는 아보카도 혈압·석류 혈압·체리 운동회복·비타민C 감기·오메가3 건성안·크레아틴 근력·요가 수면이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 3085개·고유 PMID 3059개, 첫 보강 검색 3594개·고유 PMID 3539개, 두 번째 보강 검색 4671개·고유 PMID 4635개였다. 세 묶음은 11350개 레코드였고 중복 제거 후 6969개 PMID를 EFetch해 6831개 초록을 확보했다. 후보 parser는 6969건에서 후보 2133건·신규 후보 1698건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 31건, 고유 PMID 28건이었다. 전용 검증 오류 0·경고 16; 실제 n<50 16건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11047·11038; 새 비교 6·줄/영문 0·주제 3·번역투 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 녹차 혈압·카카오 혈관기능·비트 운동수행·귀리 혈당·콩 단백질 지질·대추야자 혈당·코코아 기분·N-아세틸시스테인 호흡기·타우린 혈압·마그네슘 혈압·비타민D 우울 증상·스피루리나 지질·프로바이오틱 설사·철분 피로·걷기 혈압·수영·아쿠아로빅 실행기능·필라테스 균형·태극권 불안 완화·계단운동 체력·마음챙김 스트레스·웃음치료 스트레스·마사지 수면·일광 수면이고 보류 주제 7개는 아보카도 혈압·석류 혈압·체리 운동회복·비타민C 감기·오메가3 건성안·크레아틴 근력·요가 수면이다.",
     "qualified_topics": [
       {
         "subject": "녹차 혈압",
@@ -10092,9 +10094,9 @@
     "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 0,
-    "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "subject_names_renamed": 3,
+    "subject_entries_renamed": 3,
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13790",
       "worklist_line": "new-expansion-candidates-batch13790",
