@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T10:28:47.380Z",
+  "updated": "2026-09-04T10:29:21.904Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30429,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13700",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13700",
     "topic": "다음 비처방 후보 주제 선정 batch 13700"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "13700",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "4eb07c8de",
+    "pushed": true,
+    "expansion_commit": "4eb07c8de",
+    "data_commits": [
+      "4eb07c8de"
+    ],
+    "checkpoint_commit": "dbe4a81ca",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9808,7 +9810,7 @@
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
     "screened_nonqualifying_topics": 8,
-    "new_references": 30,
+    "new_references": 0,
     "existing_reference_links": 0,
     "duplicate_search_pmids_removed": 3461,
     "search_topic_count": 30,
@@ -10021,7 +10023,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 1,
     "subject_entries_renamed": 1,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13700",
       "worklist_line": "new-expansion-candidates-batch13700",
