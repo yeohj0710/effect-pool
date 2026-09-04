@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:48:12.033Z",
+  "updated": "2026-09-04T15:48:44.736Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30729,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "13800",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch13800",
     "topic": "다음 비처방 후보 주제 선정 batch 13800"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "13800",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "0bd8cdcdf",
+    "pushed": true,
+    "expansion_commit": "0bd8cdcdf",
+    "data_commits": [
+      "0bd8cdcdf"
+    ],
+    "checkpoint_commit": "70abe1531",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9948,13 +9950,13 @@
     },
     "unknown_n": 0,
     "thin_studies": 13,
-    "validator_errors": 1,
+    "validator_errors": 0,
     "validator_warnings": 13,
     "initial_validator_errors": 1,
     "initial_validator_warnings": 13,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11059,
-    "build_warning_lines": 11059,
+    "build_warning_lines": 11051,
     "new_unknown_n_warnings": [],
     "new_thin_study_warnings": [
       "garlic-oxidation-8316057",
@@ -9981,7 +9983,7 @@
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 29789,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2702개·고유 PMID 2667개, 첫 보강 검색 3311개·고유 PMID 3262개, 두 번째 보강 검색 4008개·고유 PMID 3957개였다. 세 묶음은 10021개 레코드였고 중복 제거 후 6104개 PMID를 EFetch해 6005개 초록을 확보했다. 후보 parser는 6104건에서 후보 1611건·신규 후보 1137건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 30건, 고유 PMID 27건이었다. 전용 검증 오류 1·경고 13; 실제 n<50 13건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11059·11051; 새 비교 6·효과 0·주제 2·줄/번역 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 마늘 혈압·망고 혈당·홍차 혈압·커피 운동수행·포도씨 추출물 혈압·오메가3 우울 증상·코엔자임Q10 혈압·레스베라트롤 혈압·셀레늄 갑상선·글루코사민 관절 증상·프로폴리스 구강건강·아세틸L카르니틴 신경 증상·조깅 우울 증상·춤 균형·요가 스트레스·태극권 수면·요통 스트레칭 운동·자연 노출 스트레스이고 보류 주제 12개는 양파 혈압·사과 포만감·키위 변비·배 혈당·파인애플 소화·아연 상처회복·칼슘 월경통·콜라겐 관절통·저항운동 혈압·수면위생 불면·침 편두통·온찜질 생리통이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 2702개·고유 PMID 2667개, 첫 보강 검색 3311개·고유 PMID 3262개, 두 번째 보강 검색 4008개·고유 PMID 3957개였다. 세 묶음은 10021개 레코드였고 중복 제거 후 6104개 PMID를 EFetch해 6005개 초록을 확보했다. 후보 parser는 6104건에서 후보 1611건·신규 후보 1137건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 30건을 기록했고 나머지 신규 후보는 고찰·프로토콜·관찰연구·수치 부족·주제 불일치로 제외했다. 항목별 부정·안전성 검색은 60회, 검색 레코드 30건, 고유 PMID 27건이었다. 전용 검증 오류 0·경고 13; 실제 n<50 13건·표본 수 미상 0건을 유지했다. node build.mjs 최초·최종 exit 0, 오류 0·0, 경고 11059·11051; 새 비교 6·효과 0·주제 2·줄/번역 0건의 경고를 수정했다. 직접 항목으로 연결한 주제는 마늘 혈압·망고 혈당·홍차 혈압·커피 운동수행·포도씨 추출물 혈압·오메가3 우울 증상·코엔자임Q10 혈압·레스베라트롤 혈압·셀레늄 갑상선·글루코사민 관절 증상·프로폴리스 구강건강·아세틸L카르니틴 신경 증상·조깅 우울 증상·춤 균형·요가 스트레스·태극권 수면·요통 스트레칭 운동·자연 노출 스트레스이고 보류 주제 12개는 양파 혈압·사과 포만감·키위 변비·배 혈당·파인애플 소화·아연 상처회복·칼슘 월경통·콜라겐 관절통·저항운동 혈압·수면위생 불면·침 편두통·온찜질 생리통이다.",
     "qualified_topics": [
       {
         "subject": "마늘 혈압",
@@ -10076,7 +10078,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 2,
     "subject_entries_renamed": 2,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "13800",
       "worklist_line": "new-expansion-candidates-batch13800",
