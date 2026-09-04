@@ -1,39 +1,39 @@
 {
-  "updated": "2026-09-04T20:39:51.669Z",
+  "updated": "2026-09-04T21:11:04.096Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 30996,
-  "subjects": 22818,
-  "refs": 34157,
+  "entries": 31023,
+  "subjects": 22830,
+  "refs": 34184,
   "kinds": {
     "undefined": 10367,
     "care": 8711,
-    "supp": 3400,
-    "move": 3932,
-    "food": 1599,
+    "supp": 3414,
+    "move": 3937,
+    "food": 1607,
     "otc": 724,
     "life": 2239,
     "rx": 24
   },
   "tiers": {
-    "trial": 30145,
+    "trial": 30172,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 21851,
-    "null": 7127,
+    "pos": 21871,
+    "null": 7132,
     "open": 1676,
-    "harm": 342
+    "harm": 344
   },
   "worklist": {
     "total": 17174,
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 14700는 비처방 후보에서 신규 항목 35건을 기록했고 다음 재개점은 batch 14800이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 14800는 비처방 후보에서 신규 항목 27건을 기록했고 다음 재개점은 batch 14800이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,19 +41,19 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 14700는 직접 수치가 확인된 신규 항목 35건을 추가했다. 다음 확장은 batch 14800이다."
+    "note": "Batch 14800는 직접 수치가 확인된 신규 항목 27건을 추가했다. 다음 확장은 batch 14800이다."
   },
   "checkpoints": {
-    "over_counter_share": "18.5% (5723 entries)",
+    "over_counter_share": "18.5% (5745 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24.1% (7469)",
-    "vs_share": "97.0% (30056)",
+    "no_effect_or_harm_share": "24.1% (7476)",
+    "vs_share": "97.0% (30083)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.3% (30145)",
+    "trial_share": "97.3% (30172)",
     "non_trial_share": "2.7% (851)",
     "build_warnings": {
-      "unknown_n": 1702,
-      "thin_study": 9605,
+      "unknown_n": 1704,
+      "thin_study": 9615,
       "targeted_batch_warnings": 1796
     },
     "targeted_batch_warnings": 1796,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "14800",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch14800",
     "topic": "다음 비처방 후보 주제 선정 batch 14800"
   },
@@ -9607,564 +9607,573 @@
     }
   },
   "last_batch": {
-    "id": "14700",
-    "commit": "a9423fc40",
-    "pushed": true,
-    "expansion_commit": "a9423fc40",
-    "data_commits": [
-      "a9423fc40"
-    ],
-    "checkpoint_commit": "e795e925e",
-    "push_marker_commit": "37bbd86a2",
-    "known_items_commit": "51dae7d96",
+    "id": "14800",
+    "commit": null,
+    "pushed": false,
+    "expansion_commit": null,
+    "data_commits": [],
+    "checkpoint_commit": null,
+    "push_marker_commit": null,
+    "known_items_commit": null,
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "batch-14700-1",
-        "subject": "귀리 식후혈당",
-        "term": "oat postprandial glucose randomized controlled trial",
+        "id": "batch-14800-1",
+        "subject": "귀리 지질",
+        "term": "oat lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-2",
-        "subject": "보리 식후혈당",
-        "term": "barley postprandial glucose randomized controlled trial",
+        "id": "batch-14800-2",
+        "subject": "보리 지질",
+        "term": "barley lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-3",
-        "subject": "사워도우 식후혈당",
-        "term": "sourdough bread postprandial glucose randomized controlled trial",
+        "id": "batch-14800-3",
+        "subject": "아몬드 포만감",
+        "term": "almond satiety appetite randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-4",
-        "subject": "아몬드 혈당",
-        "term": "almond postprandial glucose randomized controlled trial",
+        "id": "batch-14800-4",
+        "subject": "호두 지질",
+        "term": "walnut lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-5",
-        "subject": "호두 식후혈당",
-        "term": "walnut postprandial glucose randomized controlled trial",
+        "id": "batch-14800-5",
+        "subject": "아보카도 지질",
+        "term": "avocado lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-6",
-        "subject": "아보카도 식욕",
-        "term": "avocado appetite randomized controlled trial",
+        "id": "batch-14800-6",
+        "subject": "코코아 혈압",
+        "term": "cocoa blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-7",
-        "subject": "코코아 기분",
-        "term": "cocoa mood randomized controlled trial",
+        "id": "batch-14800-7",
+        "subject": "석류 간효소",
+        "term": "pomegranate liver enzymes randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-8",
-        "subject": "석류 혈압",
-        "term": "pomegranate blood pressure randomized controlled trial",
+        "id": "batch-14800-8",
+        "subject": "크랜베리 혈압",
+        "term": "cranberry blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-9",
-        "subject": "크랜베리 요로감염",
-        "term": "cranberry urinary tract infection randomized controlled trial",
+        "id": "batch-14800-9",
+        "subject": "케피어 장건강",
+        "term": "kefir gut health randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-10",
-        "subject": "케피어 대사",
-        "term": "kefir metabolic randomized controlled trial",
+        "id": "batch-14800-10",
+        "subject": "사워도우 소화",
+        "term": "sourdough digestion gastrointestinal randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "batch-14700-11",
-        "subject": "비타민D 호흡기감염",
-        "term": "vitamin D respiratory infection randomized controlled trial",
+        "id": "batch-14800-11",
+        "subject": "비타민D 근력",
+        "term": "vitamin D muscle strength randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-12",
-        "subject": "오메가3 심혈관사건",
-        "term": "omega-3 cardiovascular events randomized controlled trial",
+        "id": "batch-14800-12",
+        "subject": "오메가3 중성지방",
+        "term": "omega-3 triglycerides randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-13",
-        "subject": "크레아틴 인지기능",
-        "term": "creatine cognition randomized controlled trial",
+        "id": "batch-14800-13",
+        "subject": "크레아틴 운동수행",
+        "term": "creatine exercise performance randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-14",
-        "subject": "로디올라 피로",
-        "term": "Rhodiola fatigue randomized controlled trial",
+        "id": "batch-14800-14",
+        "subject": "로디올라 운동피로",
+        "term": "Rhodiola exercise fatigue randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-15",
-        "subject": "아슈와간다 스트레스",
-        "term": "ashwagandha stress randomized controlled trial",
+        "id": "batch-14800-15",
+        "subject": "아슈와간다 수면",
+        "term": "ashwagandha sleep randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-16",
-        "subject": "사프란 우울",
-        "term": "saffron depression randomized controlled trial",
+        "id": "batch-14800-16",
+        "subject": "사프란 불안",
+        "term": "saffron anxiety randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-17",
-        "subject": "커큐민 관절통",
-        "term": "curcumin joint pain randomized controlled trial",
+        "id": "batch-14800-17",
+        "subject": "커큐민 염증",
+        "term": "curcumin inflammation randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-18",
-        "subject": "코엔자임Q10 피로",
-        "term": "coenzyme Q10 fatigue randomized controlled trial",
+        "id": "batch-14800-18",
+        "subject": "코엔자임Q10 혈관기능",
+        "term": "coenzyme Q10 endothelial vascular randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-19",
-        "subject": "멜라토닌 시차",
-        "term": "melatonin jet lag randomized controlled trial",
+        "id": "batch-14800-19",
+        "subject": "멜라토닌 수면",
+        "term": "melatonin sleep randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-20",
-        "subject": "프로바이오틱 과민성장증후군",
-        "term": "probiotic irritable bowel syndrome randomized controlled trial",
+        "id": "batch-14800-20",
+        "subject": "프로바이오틱 설사",
+        "term": "probiotic diarrhea randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "batch-14700-21",
-        "subject": "태극권 균형",
-        "term": "tai chi balance randomized controlled trial",
+        "id": "batch-14800-21",
+        "subject": "비타민D 낙상",
+        "term": "vitamin D falls randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-14800-22",
+        "subject": "오메가3 기분",
+        "term": "omega-3 mood randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "batch-14800-23",
+        "subject": "태극권 낙상",
+        "term": "tai chi falls randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-22",
-        "subject": "필라테스 허리통증",
-        "term": "Pilates low back pain randomized controlled trial",
+        "id": "batch-14800-24",
+        "subject": "필라테스 균형",
+        "term": "Pilates balance randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-23",
-        "subject": "수영 우울",
-        "term": "swimming depression randomized controlled trial",
+        "id": "batch-14800-25",
+        "subject": "수영 심폐체력",
+        "term": "swimming aerobic capacity randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-24",
-        "subject": "계단운동 혈압",
-        "term": "stair climbing blood pressure randomized controlled trial",
+        "id": "batch-14800-26",
+        "subject": "계단운동 체력",
+        "term": "stair climbing fitness randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-25",
-        "subject": "노르딕워킹 혈압",
-        "term": "Nordic walking blood pressure randomized controlled trial",
+        "id": "batch-14800-27",
+        "subject": "노르딕워킹 심폐체력",
+        "term": "Nordic walking aerobic capacity randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-26",
-        "subject": "스트레칭 목통증",
-        "term": "stretching neck pain randomized controlled trial",
+        "id": "batch-14800-28",
+        "subject": "스트레칭 유연성",
+        "term": "stretching flexibility randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-27",
-        "subject": "자전거 혈압",
-        "term": "cycling blood pressure randomized controlled trial",
+        "id": "batch-14800-29",
+        "subject": "자전거 인슐린",
+        "term": "cycling insulin sensitivity randomized controlled trial",
         "kind": "move"
       },
       {
-        "id": "batch-14700-28",
-        "subject": "춤 우울",
-        "term": "dance depression randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-14700-29",
-        "subject": "호흡운동 혈압",
-        "term": "breathing exercise blood pressure randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "batch-14700-30",
-        "subject": "걷기 심혈관기능",
-        "term": "walking cardiovascular function randomized controlled trial",
+        "id": "batch-14800-30",
+        "subject": "춤 인지기능",
+        "term": "dance cognition randomized controlled trial",
         "kind": "move"
       }
     ],
-    "new_entries": 35,
+    "new_entries": 27,
     "existing_links": 0,
-    "no_evidence_rejects": 5929,
-    "new_candidate_rejects": 1997,
-    "all_excluded_candidates": 7926,
+    "no_evidence_rejects": 7757,
+    "new_candidate_rejects": 3596,
+    "all_excluded_candidates": 11353,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 4,
-    "new_references": 35,
+    "screened_nonqualifying_topics": 8,
+    "new_references": 27,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 9668,
+    "duplicate_search_pmids_removed": 15375,
     "search_topic_count": 30,
-    "search_returned_records": 4765,
-    "main_search_records": 4765,
-    "main_search_unique_pmids": 4646,
+    "search_returned_records": 6828,
+    "main_search_records": 6828,
+    "main_search_unique_pmids": 6617,
     "extra_query_count": 30,
-    "extra_search_records": 8648,
-    "extra_unique_pmids": 8438,
+    "extra_search_records": 10886,
+    "extra_unique_pmids": 10574,
     "extra2_query_count": 30,
-    "extra2_search_records": 4830,
-    "extra2_unique_pmids": 4717,
-    "targeted_query_count": 70,
-    "targeted_search_records": 33,
-    "targeted_search_unique_pmids": 31,
-    "targeted_negative_hits": 31,
-    "targeted_safety_hits": 2,
-    "combined_search_unique_pmids": 8575,
-    "requested": 8575,
-    "fetched": 8575,
-    "fetch_chunks": 86,
-    "abstracts": 8446,
+    "extra2_search_records": 9632,
+    "extra2_unique_pmids": 9366,
+    "targeted_query_count": 54,
+    "targeted_search_records": 32,
+    "targeted_search_unique_pmids": 26,
+    "targeted_negative_hits": 25,
+    "targeted_safety_hits": 7,
+    "combined_search_unique_pmids": 11971,
+    "requested": 11971,
+    "fetched": 11971,
+    "fetch_chunks": 120,
+    "abstracts": 11795,
     "missing": 0,
-    "candidate_parser_parsed": 8575,
-    "candidate_parser_candidates": 2646,
-    "union_new_candidate_like": 2032,
-    "effect_candidate_rows": 2032,
-    "existing_candidate_rows": 614,
+    "candidate_parser_parsed": 11971,
+    "candidate_parser_candidates": 4214,
+    "union_new_candidate_like": 3623,
+    "effect_candidate_rows": 3623,
+    "existing_candidate_rows": 591,
     "selected_pmids": [
-      "16015250",
-      "39366276",
-      "21561391",
-      "29490103",
-      "36329602",
-      "28610906",
-      "23364814",
-      "34498307",
-      "10586171",
-      "11825344",
-      "19296870",
-      "30601999",
-      "26063508",
-      "21115589",
-      "21118604",
-      "39601362",
-      "41599843",
-      "31669837",
-      "35477159",
-      "22682875",
-      "11083131",
-      "23549409",
-      "22587850",
-      "19129308",
-      "9372401",
-      "31145180",
-      "34651612",
-      "23131367",
-      "36508393",
-      "20160655",
-      "34472598",
-      "16304303",
-      "23793032",
-      "28121184",
-      "18996856"
+      "34956218",
+      "41535271",
+      "8270757",
+      "37156442",
+      "34079169",
+      "40832703",
+      "32301407",
+      "31749128",
+      "23430315",
+      "25203157",
+      "27490922",
+      "24973862",
+      "30400221",
+      "28873320",
+      "38408971",
+      "27616885",
+      "38987784",
+      "35596803",
+      "31562911",
+      "42602386",
+      "34546300",
+      "28599665",
+      "35500977",
+      "34299891",
+      "38569204",
+      "23773895",
+      "27054677"
     ],
     "new_pmids": [
-      "16015250",
-      "39366276",
-      "21561391",
-      "29490103",
-      "36329602",
-      "28610906",
-      "23364814",
-      "34498307",
-      "10586171",
-      "11825344",
-      "19296870",
-      "30601999",
-      "26063508",
-      "21115589",
-      "21118604",
-      "39601362",
-      "41599843",
-      "31669837",
-      "35477159",
-      "22682875",
-      "11083131",
-      "23549409",
-      "22587850",
-      "19129308",
-      "9372401",
-      "31145180",
-      "34651612",
-      "23131367",
-      "36508393",
-      "20160655",
-      "34472598",
-      "16304303",
-      "23793032",
-      "28121184",
-      "18996856"
+      "34956218",
+      "41535271",
+      "8270757",
+      "37156442",
+      "34079169",
+      "40832703",
+      "32301407",
+      "31749128",
+      "23430315",
+      "25203157",
+      "27490922",
+      "24973862",
+      "30400221",
+      "28873320",
+      "38408971",
+      "27616885",
+      "38987784",
+      "35596803",
+      "31562911",
+      "42602386",
+      "34546300",
+      "28599665",
+      "35500977",
+      "34299891",
+      "38569204",
+      "23773895",
+      "27054677"
     ],
     "new_entry_ids": [
-      "almond-paste-glycemia-36329602",
-      "ashwagandha-stress-41599843",
-      "barley-beta-glucan-glycemia-21561391",
-      "brisk-walking-lipids-18996856",
-      "cocoa-mood-23364814",
-      "coq10-fatigue-22682875",
-      "cranberry-bacteriuria-10586171",
-      "creatine-memory-21118604",
-      "curcumin-joint-pain-35477159",
-      "cycling-cardiovascular-31145180",
-      "cycling-postexercise-bp-34651612",
-      "dance-social-media-depression-36508393",
-      "dance-tango-depression-23131367",
-      "deep-breathing-pulmonary-16304303",
-      "kefir-lipids-11825344",
-      "melatonin-jetlag-11083131",
-      "oat-beta-glucan-glycemia-16015250",
-      "oat-particle-glycemia-39366276",
-      "omega3-cardiovascular-supfol-21115589",
-      "pomegranate-bp-34498307",
-      "probiotic-ibs-symptoms-23549409",
-      "rhodiola-salidroside-fatigue-39601362",
-      "saffron-depression-31669837",
-      "slow-breathing-abp-20160655",
-      "slow-breathing-heart-rate-34472598",
-      "sourdough-gastro-29490103",
-      "stair-walking-cardiovascular-23793032",
-      "stretching-neck-pain-9372401",
-      "tai-chi-falls-22587850",
-      "tai-chi-stroke-balance-19129308",
-      "vitamin-d-ibd-uri-30601999",
-      "vitamin-d-uri-19296870",
-      "vitamin-d-vidiflu-uri-26063508",
-      "walking-aerobic-capacity-28121184",
-      "walnut-meal-glycemia-28610906"
+      "almond-weight-37156442",
+      "ashwagandha-adhd-sleep-42602386",
+      "barley-lipids-8270757",
+      "cocoa-incident-hypertension-40832703",
+      "coq10-vascular-38987784",
+      "cranberry-cardiometabolic-32301407",
+      "creatine-training-performance-30400221",
+      "curcumin-atldl-27616885",
+      "cycling-glucose-27054677",
+      "kefir-gastro-31749128",
+      "melatonin-nocturia-35596803",
+      "nordic-walking-heart-failure-23773895",
+      "oats-lipid-metabolites-41535271",
+      "oats-lipids-34956218",
+      "omega3-chagas-28599665",
+      "omega3-gestational-diabetes-24973862",
+      "omega3-postprandial-lipemia-27490922",
+      "pilates-falls-35500977",
+      "probiotic-icu-safety-34546300",
+      "probiotic-perioperative-31562911",
+      "rhodiola-heat-acclimation-28873320",
+      "saffron-anxiety-38408971",
+      "stair-fitness-38569204",
+      "swimming-fitness-34299891",
+      "vitamin-d-sppb-23430315",
+      "vitamin-d-swimmers-25203157",
+      "walnut-lipids-34079169"
     ],
     "categories": {
-      "food": 10,
-      "supp": 12,
-      "move": 13
+      "food": 8,
+      "supp": 14,
+      "move": 5
     },
     "tiers": {
-      "trial": 35
+      "trial": 27
     },
     "dirs": {
-      "pos": 23,
-      "null": 12
+      "null": 5,
+      "pos": 20,
+      "harm": 2
     },
-    "unknown_n": 0,
-    "thin_studies": 12,
+    "unknown_n": 2,
+    "thin_studies": 10,
     "validator_errors": 0,
     "validator_warnings": 12,
     "initial_validator_errors": 0,
     "initial_validator_warnings": 12,
-    "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 11278,
-    "build_warning_lines": 11220,
-    "new_unknown_n_warnings": [],
+    "initial_build_error_lines": 1,
+    "initial_build_warning_lines": 11236,
+    "build_warning_lines": 11232,
+    "new_unknown_n_warnings": [
+      "oats-lipid-metabolites-41535271",
+      "omega3-postprandial-lipemia-27490922"
+    ],
     "new_thin_study_warnings": [
-      "almond-paste-glycemia-36329602",
-      "barley-beta-glucan-glycemia-21561391",
-      "brisk-walking-lipids-18996856",
-      "cranberry-bacteriuria-10586171",
-      "cycling-postexercise-bp-34651612",
-      "kefir-lipids-11825344",
-      "melatonin-jetlag-11083131",
-      "oat-particle-glycemia-39366276",
-      "pomegranate-bp-34498307",
-      "sourdough-gastro-29490103",
-      "walking-aerobic-capacity-28121184",
-      "walnut-meal-glycemia-28610906"
+      "cranberry-cardiometabolic-32301407",
+      "creatine-training-performance-30400221",
+      "curcumin-atldl-27616885",
+      "cycling-glucose-27054677",
+      "omega3-chagas-28599665",
+      "rhodiola-heat-acclimation-28873320",
+      "stair-fitness-38569204",
+      "swimming-fitness-34299891",
+      "vitamin-d-sppb-23430315",
+      "walnut-lipids-34079169"
     ],
     "build_error_lines": 0,
-    "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 16,
-    "new_entry_effect_warnings_fixed": 30,
-    "new_entry_line_warnings_fixed": 1,
-    "new_entry_subject_warnings_fixed": 9,
-    "new_entry_translation_warnings_fixed": 1,
-    "new_entry_scale_warnings_fixed": 1,
+    "build_errors_fixed": 1,
+    "new_entry_vs_warnings_fixed": 0,
+    "new_entry_effect_warnings_fixed": 1,
+    "new_entry_line_warnings_fixed": 0,
+    "new_entry_subject_warnings_fixed": 1,
+    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
     "targeted_batch_warnings_fixed": 0,
-    "open_numeric_comparisons": 30056,
+    "open_numeric_comparisons": 30083,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 4765개·고유 PMID 4646개, 첫 보강 검색 8648개·고유 PMID 8438개, 두 번째 보강 검색 4830개·고유 PMID 4717개였다. 세 묶음은 18243개 레코드였고 중복 제거 후 8575개 PMID를 EFetch해 8446개 초록을 확보했다. 후보 parser는 8575건에서 후보 2646건·신규 후보 2032건·기존 후보 614건을 확인했다. 직접 수치 또는 유효한 상대효과가 확인된 신규 비처방 항목 35건을 기록했고 신규 후보 1997건은 고찰·프로토콜·비무작위·수치 부족·중복 또는 주제 불일치로 제외했다. 항목별 부정·안전성 검색은 70회, 검색 레코드 33건, 고유 PMID 31건이었고 부정 검색 적중 31회·안전성 검색 적중 2회였다. 전용 검증 exit 0·오류 0·경고 12; 실제 n<50 12건·표본 수 미상 0건을 유지했다. node build.mjs exit 0·오류 0·최종 경고 11220; 초기 경고 11278건에서 새 비교 16건·effect 30건·제목 9건·문장 길이 1건·영문 잔재 1건·표본수 중복 1건을 수정했다. 실제 소표본 경고 12건과 전체 집계 경고 1건은 유지했다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 6828개 레코드·고유 PMID 6617개, 첫 보강 검색 10886개·고유 PMID 10574개, 두 번째 보강 검색 9632개·고유 PMID 9366개였다. 세 묶음은 27346개 레코드였고 중복 제거 후 11971개 PMID를 EFetch해 11795개 초록을 확보했다. 후보 parser는 11971건에서 후보 4214건·신규 후보 3623건·기존 후보 591건을 확인했다. 초록에서 직접 수치·효과·신뢰구간 또는 유효한 상대효과가 확인된 신규 비처방 항목 27건을 기록했고 신규 후보 3596건은 고찰·프로토콜·비무작위·수치 부족·중복 또는 주제 불일치로 제외했다. 항목별 부정·안전성 검색은 54회, 검색 레코드 32건, 고유 PMID 26건이었고 부정 검색 적중 25회·안전성 검색 적중 7회였다. 전용 검증 exit 0·오류 0·경고 12; 실제 n<50 10건·표본 수 미상 2건을 유지했다. node build.mjs 최초 exit 1·오류 1·경고 11236, 최종 exit 0·오류 0·경고 11232였다. 새 오류 1건을 수치 부족 항목 제외로 해소했고 effect·subject 경고 2건을 수정했다. 실제 소표본 경고 10건과 표본 수 미상 경고 2건, 전체 집계 경고 1건은 유지했다.",
     "qualified_topics": [
       {
-        "subject": "귀리 식후혈당",
+        "id": "batch-14800-1",
+        "subject": "귀리 지질",
+        "term": "oat lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "보리 식후혈당",
+        "id": "batch-14800-2",
+        "subject": "보리 지질",
+        "term": "barley lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "사워도우 식후혈당",
+        "id": "batch-14800-3",
+        "subject": "아몬드 포만감",
+        "term": "almond satiety appetite randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "아몬드 혈당",
+        "id": "batch-14800-4",
+        "subject": "호두 지질",
+        "term": "walnut lipid cholesterol randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "호두 식후혈당",
+        "id": "batch-14800-6",
+        "subject": "코코아 혈압",
+        "term": "cocoa blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "아보카도 식욕",
+        "id": "batch-14800-8",
+        "subject": "크랜베리 혈압",
+        "term": "cranberry blood pressure randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "코코아 기분",
+        "id": "batch-14800-9",
+        "subject": "케피어 장건강",
+        "term": "kefir gut health randomized controlled trial",
         "kind": "food"
       },
       {
-        "subject": "석류 혈압",
-        "kind": "food"
-      },
-      {
-        "subject": "크랜베리 요로감염",
-        "kind": "food"
-      },
-      {
-        "subject": "케피어 대사",
-        "kind": "food"
-      },
-      {
-        "subject": "비타민D 호흡기감염",
+        "id": "batch-14800-11",
+        "subject": "비타민D 근력",
+        "term": "vitamin D muscle strength randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "오메가3 심혈관사건",
+        "id": "batch-14800-12",
+        "subject": "오메가3 중성지방",
+        "term": "omega-3 triglycerides randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "크레아틴 인지기능",
+        "id": "batch-14800-13",
+        "subject": "크레아틴 운동수행",
+        "term": "creatine exercise performance randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "로디올라 피로",
+        "id": "batch-14800-14",
+        "subject": "로디올라 운동피로",
+        "term": "Rhodiola exercise fatigue randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "아슈와간다 스트레스",
+        "id": "batch-14800-15",
+        "subject": "아슈와간다 수면",
+        "term": "ashwagandha sleep randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "사프란 우울",
+        "id": "batch-14800-16",
+        "subject": "사프란 불안",
+        "term": "saffron anxiety randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "커큐민 관절통",
+        "id": "batch-14800-17",
+        "subject": "커큐민 염증",
+        "term": "curcumin inflammation randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "코엔자임Q10 피로",
+        "id": "batch-14800-18",
+        "subject": "코엔자임Q10 혈관기능",
+        "term": "coenzyme Q10 endothelial vascular randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "멜라토닌 시차",
+        "id": "batch-14800-19",
+        "subject": "멜라토닌 수면",
+        "term": "melatonin sleep randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "프로바이오틱 과민성장증후군",
+        "id": "batch-14800-20",
+        "subject": "프로바이오틱 설사",
+        "term": "probiotic diarrhea randomized controlled trial",
         "kind": "supp"
       },
       {
-        "subject": "태극권 균형",
+        "id": "batch-14800-24",
+        "subject": "필라테스 균형",
+        "term": "Pilates balance randomized controlled trial",
         "kind": "move"
       },
       {
-        "subject": "필라테스 허리통증",
+        "id": "batch-14800-25",
+        "subject": "수영 심폐체력",
+        "term": "swimming aerobic capacity randomized controlled trial",
         "kind": "move"
       },
       {
-        "subject": "수영 우울",
+        "id": "batch-14800-26",
+        "subject": "계단운동 체력",
+        "term": "stair climbing fitness randomized controlled trial",
         "kind": "move"
       },
       {
-        "subject": "계단운동 혈압",
+        "id": "batch-14800-27",
+        "subject": "노르딕워킹 심폐체력",
+        "term": "Nordic walking aerobic capacity randomized controlled trial",
         "kind": "move"
       },
       {
-        "subject": "노르딕워킹 혈압",
-        "kind": "move"
-      },
-      {
-        "subject": "스트레칭 목통증",
-        "kind": "move"
-      },
-      {
-        "subject": "자전거 혈압",
-        "kind": "move"
-      },
-      {
-        "subject": "춤 우울",
-        "kind": "move"
-      },
-      {
-        "subject": "호흡운동 혈압",
-        "kind": "move"
-      },
-      {
-        "subject": "걷기 심혈관기능",
+        "id": "batch-14800-29",
+        "subject": "자전거 인슐린",
+        "term": "cycling insulin sensitivity randomized controlled trial",
         "kind": "move"
       }
     ],
     "screened_topics": [
       {
-        "subject": "아보카도 식욕",
+        "subject": "아보카도 지질",
         "kind": "food",
-        "reason": "직접 수치와 대조군 결과가 확인되는 신규 연구 없음"
+        "reason": "직접 군간 수치와 유효한 상대효과가 확인되지 않음"
       },
       {
-        "subject": "필라테스 허리통증",
-        "kind": "move",
-        "reason": "신규 후보가 기존 항목 또는 수치 부족 연구로 제외됨"
+        "subject": "석류 간효소",
+        "kind": "food",
+        "reason": "무작위 대조와 관련 수치가 초록에서 확인되지 않음"
       },
       {
-        "subject": "수영 우울",
-        "kind": "move",
-        "reason": "직접 수치와 대조군 결과가 확인되는 신규 연구 없음"
+        "subject": "사워도우 소화",
+        "kind": "food",
+        "reason": "군간 숫자 결과가 초록에 없어 제외함"
       },
       {
-        "subject": "노르딕워킹 혈압",
+        "subject": "비타민D 낙상",
+        "kind": "supp",
+        "reason": "직접 낙상 결과의 군간 수치가 확인되지 않음"
+      },
+      {
+        "subject": "오메가3 기분",
+        "kind": "supp",
+        "reason": "확인된 신규 연구가 기분 결과가 아닌 다른 주제를 다룸"
+      },
+      {
+        "subject": "태극권 낙상",
         "kind": "move",
-        "reason": "신규 후보가 기존 항목 또는 수치 부족 연구로 제외됨"
+        "reason": "균형·기능 개선은 보고됐지만 군간 결과 수치가 초록에 없음"
+      },
+      {
+        "subject": "스트레칭 유연성",
+        "kind": "move",
+        "reason": "ROM 개선은 보고됐지만 군간 결과 수치가 초록에 없음"
+      },
+      {
+        "subject": "춤 인지기능",
+        "kind": "move",
+        "reason": "인지 개선은 보고됐지만 군간 결과 수치가 초록에 없음"
       }
     ],
     "remaining_non_prescription_vs_missing": 0,
-    "sample_sizes_filled": 35,
+    "sample_sizes_filled": 25,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 6,
-    "subject_entries_renamed": 9,
+    "subject_names_renamed": 2,
+    "subject_entries_renamed": 2,
     "warning_diff": {
-      "baseline": 11208,
-      "initial": 11278,
-      "final": 11220,
-      "new_actionable_fixed": 58,
-      "new_thin_kept": 12,
+      "baseline": 11220,
+      "initial": 11236,
+      "final": 11232,
+      "new_actionable_fixed": 2,
+      "new_thin_kept": 10,
+      "new_unknown_kept": 2,
       "aggregate_kept": 1
     },
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "14800",
       "worklist_line": "new-expansion-candidates-batch14800",
       "topic": "다음 비처방 후보 주제 선정 batch 14800",
       "unchecked": 0
     },
-    "unknownN": 0,
-    "thin": 12
+    "unknownN": 2,
+    "thin": 10
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -34036,10 +34045,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 30056,
-  "unknownN": 1702,
-  "thinStudy": 9605,
-  "openNumeric": 30056,
+  "withVs": 30083,
+  "unknownN": 1704,
+  "thinStudy": 9615,
+  "openNumeric": 30083,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
