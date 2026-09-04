@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T16:40:24.776Z",
+  "updated": "2026-09-04T16:40:57.157Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30781,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "14000",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch14000",
     "topic": "다음 비처방 후보 주제 선정 batch 14000"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "14000",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "339bf9bfc",
+    "pushed": true,
+    "expansion_commit": "339bf9bfc",
+    "data_commits": [
+      "339bf9bfc"
+    ],
+    "checkpoint_commit": "0c7aecde8",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9941,7 +9943,7 @@
     "initial_validator_warnings": 14,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11103,
-    "build_warning_lines": 11103,
+    "build_warning_lines": 11102,
     "new_unknown_n_warnings": [
       "papaya-digestion-23524622"
     ],
@@ -10086,7 +10088,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "14000",
       "worklist_line": "new-expansion-candidates-batch14000",
