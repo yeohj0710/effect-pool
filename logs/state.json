@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T17:07:45.300Z",
+  "updated": "2026-09-04T17:08:29.193Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 30811,
@@ -65,7 +65,7 @@
   },
   "next": {
     "batch": "14100",
-    "status": "checkpoint",
+    "status": "pushed",
     "worklist_line": "new-expansion-candidates-batch14100",
     "topic": "다음 비처방 후보 주제 선정 batch 14100"
   },
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "14100",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "4f624a0f6",
+    "pushed": true,
+    "expansion_commit": "4f624a0f6",
+    "data_commits": [
+      "4f624a0f6"
+    ],
+    "checkpoint_commit": "7478de322",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -9953,7 +9955,7 @@
     "initial_validator_warnings": 18,
     "initial_build_error_lines": 0,
     "initial_build_warning_lines": 11150,
-    "build_warning_lines": 11150,
+    "build_warning_lines": 11120,
     "new_unknown_n_warnings": [
       "postmeal-walking-glycemia-38858835"
     ],
@@ -10116,7 +10118,7 @@
     "category_reclassifications": [],
     "subject_names_renamed": 0,
     "subject_entries_renamed": 0,
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "14100",
       "worklist_line": "new-expansion-candidates-batch14100",
