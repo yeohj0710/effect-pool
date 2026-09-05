@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T01:11:35.864Z",
+  "updated": "2026-09-05T01:12:44.278Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 31229,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 21000는 비처방 후보 30개를 선별해 신규 항목 30건을 기록했고 다음 재개점은 batch 21000이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 21000는 비처방 후보 30개를 선별해 신규 항목 30건을 기록했고 다음 재개점은 batch 22000이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 21000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 21000이다."
+    "note": "Batch 21000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 22000이다."
   },
   "checkpoints": {
     "over_counter_share": "18.8% (5880 entries)",
@@ -64,15 +64,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "21000",
+    "batch": "22000",
     "status": "pushed",
-    "worklist_line": "new-expansion-candidates-batch21000",
-    "topic": "다음 비처방 후보 주제 선정 batch 21000"
+    "worklist_line": "new-expansion-candidates-batch22000",
+    "topic": "다음 비처방 후보 주제 선정 batch 22000"
   },
   "resume": {
-    "next_batch": "21000",
-    "worklist_line": "new-expansion-candidates-batch21000",
-    "topic": "다음 비처방 후보 주제 선정 batch 21000",
+    "next_batch": "22000",
+    "worklist_line": "new-expansion-candidates-batch22000",
+    "topic": "다음 비처방 후보 주제 선정 batch 22000",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9616,7 +9616,7 @@
     ],
     "checkpoint_commit": "9ea63b187",
     "push_marker_commit": "76b5eb4a4",
-    "known_items_commit": null,
+    "known_items_commit": "5afc326d8",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -10006,7 +10006,7 @@
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 30289,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 레코드 2241개·고유 PMID 2229개를 확인했고, 중복 제거 후 2229개 PMID를 3개 EFetch 청크로 요청해 2210개 초록을 확보했다. 후보 parser는 2229건에서 후보 918건·신규 후보 555건·기존 후보 363건을 확인했다. 초록에서 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했고, 수치·문헌 유형·주제 불일치 후보를 제외했다. 부정·안전성 표적 검색은 60회, 검색 레코드 38건·고유 PMID 28건이었고 부정 검색 적중 28회·안전성 검색 적중 10회였다. 전용 검증은 exit 0·오류 0·경고 8건이며 실제 n<50 8건·표본 수 미상 0건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11374, 최종 exit 0·오류 0·경고 11335였다. 새 경고 0건을 수정했고 실제 소표본 경고 8건과 집계 경고 1건은 유지했다. 검색·선별·데이터 작성·빌드·검증 결과를 다음 재개점 batch 21000와 함께 저장했다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 기본 검색 레코드 2241개·고유 PMID 2229개를 확인했고, 중복 제거 후 2229개 PMID를 3개 EFetch 청크로 요청해 2210개 초록을 확보했다. 후보 parser는 2229건에서 후보 918건·신규 후보 555건·기존 후보 363건을 확인했다. 초록에서 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했고, 수치·문헌 유형·주제 불일치 후보를 제외했다. 부정·안전성 표적 검색은 60회, 검색 레코드 38건·고유 PMID 28건이었고 부정 검색 적중 28회·안전성 검색 적중 10회였다. 전용 검증은 exit 0·오류 0·경고 8건이며 실제 n<50 8건·표본 수 미상 0건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11374, 최종 exit 0·오류 0·경고 11335였다. 새 경고 0건을 수정했고 실제 소표본 경고 8건과 집계 경고 1건은 유지했다. 검색·선별·데이터 작성·빌드·검증 결과를 다음 재개점 batch 22000와 함께 저장했다.",
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 30,
     "sample_size_corrections": 0,
@@ -10024,9 +10024,9 @@
     },
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "21000",
-      "worklist_line": "new-expansion-candidates-batch21000",
-      "topic": "다음 비처방 후보 주제 선정 batch 21000",
+      "next_batch": "22000",
+      "worklist_line": "new-expansion-candidates-batch22000",
+      "topic": "다음 비처방 후보 주제 선정 batch 22000",
       "unchecked": 0
     },
     "unknownN": 0,
