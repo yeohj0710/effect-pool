@@ -420,6 +420,19 @@ const dataVersion = createHash("sha256")
   .digest("hex")
   .slice(0, 16);
 
+// 목록도 통째로 HTML 에 넣지 않는다. 3만 건이면 첫 화면이 압축해도 1.7MB 다.
+// 앞 HEAD 건만 HTML 에 싣고, 나머지는 순위 순으로 LSHARD 건씩 l/<n>.json 으로 낸다.
+// 위에서부터 읽기만 하는 사람은 묶음 하나씩 이어 받고, 거르거나 찾는 사람만 전부 받는다.
+// 종류·결과별 건수는 여기서 세서 넘긴다. 화면이 전체 목록 없이도 칩에 숫자를 적어야 한다.
+const HEAD = 240;
+const LSHARD = 1000;
+const counts = { dir: {}, kind: {} };
+for (const e of list) {
+  counts.dir[e.dir] = (counts.dir[e.dir] ?? 0) + 1;
+  counts.kind[e.kind] = (counts.kind[e.kind] ?? 0) + 1;
+}
+const nonRx = list.filter((e) => e.kind !== "rx").length;
+
 const tpl = readFileSync(join(root, "src", "template.html"), "utf8");
 mkdirSync(outDir, { recursive: true });
 // 근거 자료 수는 여기서 세서 넘긴다. refs 는 상세로 뺐기 때문에 화면에서는 셀 수 없다.
@@ -428,9 +441,19 @@ const refTotal = entries.reduce((a, e) => a + e.refs.length, 0);
 writeFileSync(join(outDir, "index.html"),
   tpl.replace("__ENTRIES__",
     JSON.stringify({ updated, tiers: meta.tiers, kinds: meta.kinds,
-                     shard: SHARD, refs: refTotal, entries: list }))
+                     shard: SHARD, refs: refTotal,
+                     total: list.length, nonRx, off, counts,
+                     lshard: LSHARD, lshards: Math.ceil(list.length / LSHARD),
+                     entries: list.slice(0, HEAD) }))
     .replaceAll("__DATA_VERSION__", dataVersion), "utf8");
 writeFileSync(join(outDir, "search.json"), JSON.stringify(search), "utf8");
+
+const listDir = join(outDir, "l");
+mkdirSync(listDir, { recursive: true });
+for (const f of readdirSync(listDir)) rmSync(join(listDir, f));   // 항목이 줄면 꼬리가 남는다
+for (let i = 0; i * LSHARD < list.length; i++) {
+  writeFileSync(join(listDir, `${i}.json`), JSON.stringify(list.slice(i * LSHARD, (i + 1) * LSHARD)), "utf8");
+}
 
 // 상세는 순위 순으로 잘라서 묶음 파일로 낸다.
 // 통짜로 내면 항목 하나 펼치려고 640건 상세를 다 받는다 — 1.1MB 다.
