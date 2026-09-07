@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:02:36.104Z",
+  "updated": "2026-09-07T11:04:09.486Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 31943,
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 45000은 비처방 주제 30개에서 신규 항목 30건을 처리했고 다음 재개점은 batch 45000이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 45000은 비처방 주제 30개에서 신규 항목 30건을 처리했고 다음 재개점은 batch 46000이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,7 +40,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 45000은 직접 수치가 확인된 신규 항목 30건을 추가했다. 직접 근거가 맞지 않는 11개 주제는 보류했고 다음 확장은 batch 45000이다."
+    "note": "Batch 45000은 직접 수치가 확인된 신규 항목 30건을 추가했다. 직접 근거가 맞지 않는 11개 주제는 보류했고 다음 확장은 batch 46000이다."
   },
   "checkpoints": {
     "over_counter_share": "20.1% (6421 entries)",
@@ -53,25 +53,25 @@
     "build_warnings": {
       "unknown_n": 1750,
       "thin_study": 10053,
-      "targeted_batch_warnings": 1954
+      "targeted_batch_warnings": 1966
     },
-    "targeted_batch_warnings": 1954,
-    "targeted_warnings_total": 1954
+    "targeted_batch_warnings": 1966,
+    "targeted_warnings_total": 1966
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "45000",
-    "status": "checkpoint",
-    "worklist_line": "new-expansion-candidates-batch45000",
-    "topic": "다음 비처방 후보 주제 선정 batch 45000"
+    "batch": "46000",
+    "status": "pushed",
+    "worklist_line": "new-expansion-candidates-batch46000",
+    "topic": "다음 비처방 후보 주제 선정 batch 46000"
   },
   "resume": {
-    "next_batch": "45000",
-    "worklist_line": "new-expansion-candidates-batch45000",
-    "topic": "다음 비처방 후보 주제 선정 batch 45000",
+    "next_batch": "46000",
+    "worklist_line": "new-expansion-candidates-batch46000",
+    "topic": "다음 비처방 후보 주제 선정 batch 46000",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9614,8 +9614,8 @@
       "cfaf4bc89aa769fe332710b5b95a9d94c18aa331"
     ],
     "checkpoint_commit": "0f322c1ad67d87c158bbb9c71905a936fd896fd8",
-    "push_marker_commit": "pending",
-    "known_items_commit": "pending",
+    "push_marker_commit": "7c6e5c4e52ab682379b7da9b3d97d5da09158ada",
+    "known_items_commit": "75ae466691fc3f45d94f2c44e1f9c8d3b5f9856d",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
@@ -10029,9 +10029,9 @@
     },
     "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "45000",
-      "worklist_line": "new-expansion-candidates-batch45000",
-      "topic": "다음 비처방 후보 주제 선정 batch 45000",
+      "next_batch": "46000",
+      "worklist_line": "new-expansion-candidates-batch46000",
+      "topic": "다음 비처방 후보 주제 선정 batch 46000",
       "unchecked": 0
     },
     "unknownN": 1,
