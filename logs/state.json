@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T05:34:56.991Z",
+  "updated": "2026-09-07T05:35:27.408Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 31583,
@@ -33,7 +33,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 33000는 비처방 주제 30개를 포함한 30개 주제에서 신규 항목 30건을 처리했고 다음 재개점은 batch 33000이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 33000는 비처방 주제 30개를 포함한 30개 주제에서 신규 항목 30건을 처리했고 다음 재개점은 batch 34000이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -41,7 +41,7 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 33000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 33000이다."
+    "note": "Batch 33000는 직접 수치가 확인된 신규 항목 30건을 추가했다. 다음 확장은 batch 34000이다."
   },
   "checkpoints": {
     "over_counter_share": "19.5% (6169 entries)",
@@ -64,15 +64,15 @@
     "repo": "https://github.com/yeohj0710/effect-pool"
   },
   "next": {
-    "batch": "33000",
-    "status": "checkpoint",
-    "worklist_line": "new-expansion-candidates-batch33000",
-    "topic": "다음 비처방 후보 주제 선정 batch 33000"
+    "batch": "34000",
+    "status": "pushed",
+    "worklist_line": "new-expansion-candidates-batch34000",
+    "topic": "다음 비처방 후보 주제 선정 batch 34000"
   },
   "resume": {
-    "next_batch": "33000",
-    "worklist_line": "new-expansion-candidates-batch33000",
-    "topic": "다음 비처방 후보 주제 선정 batch 33000",
+    "next_batch": "34000",
+    "worklist_line": "new-expansion-candidates-batch34000",
+    "topic": "다음 비처방 후보 주제 선정 batch 34000",
     "unchecked": 0
   },
   "previous_last_batch_1690": {
@@ -9608,11 +9608,13 @@
   },
   "last_batch": {
     "id": "33000",
-    "commit": null,
-    "pushed": false,
-    "expansion_commit": null,
-    "data_commits": [],
-    "checkpoint_commit": null,
+    "commit": "487b7616a001af7190e027dbcfa099dd6a16e65b",
+    "pushed": true,
+    "expansion_commit": "487b7616a001af7190e027dbcfa099dd6a16e65b",
+    "data_commits": [
+      "487b7616a001af7190e027dbcfa099dd6a16e65b"
+    ],
+    "checkpoint_commit": "8b8981d069589ac3742f6db2cb6d5451c9c9b5a7",
     "push_marker_commit": null,
     "known_items_commit": null,
     "maintenance": false,
@@ -10005,7 +10007,7 @@
     "targeted_batch_warnings_fixed": 0,
     "open_numeric_comparisons": 30643,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 검색 레코드 12121개·고유 PMID 11793개를 확인했고, 검색 중복 328개를 제거한 뒤 11793개 PMID를 12개 EFetch 청크로 요청해 11739개 초록을 확보했다. 후보 parser는 11793건에서 후보 2711건·신규 후보 1971건·기존 후보 740건을 확인했다. 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했다. 부정·안전성 표적 검색은 60회, 검색 레코드 38건·고유 PMID 30건이었고 부정 검색 적중 30회·안전성 검색 적중 8회였다. 전용 검증은 exit 0·오류 0·경고 14건이며 실제 n<50 11건·표본 수 미상 3건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11556, 최종 exit 0·오류 0·경고 11540였다. 새 actionable 경고 17건을 수정했고 실제 소표본 경고 11건·표본 수 미상 3건·집계 경고 1건은 유지했다. 다음 재개점은 batch 33000이다.",
+    "research": "PubMed E-utilities로 비처방 주제 30개를 검색했다. 검색 레코드 12121개·고유 PMID 11793개를 확인했고, 검색 중복 328개를 제거한 뒤 11793개 PMID를 12개 EFetch 청크로 요청해 11739개 초록을 확보했다. 후보 parser는 11793건에서 후보 2711건·신규 후보 1971건·기존 후보 740건을 확인했다. 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했다. 부정·안전성 표적 검색은 60회, 검색 레코드 38건·고유 PMID 30건이었고 부정 검색 적중 30회·안전성 검색 적중 8회였다. 전용 검증은 exit 0·오류 0·경고 14건이며 실제 n<50 11건·표본 수 미상 3건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11556, 최종 exit 0·오류 0·경고 11540였다. 새 actionable 경고 17건을 수정했고 실제 소표본 경고 11건·표본 수 미상 3건·집계 경고 1건은 유지했다. 다음 재개점은 batch 34000이다.",
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 27,
     "sample_size_corrections": 0,
@@ -10021,11 +10023,11 @@
       "new_unknown_kept": 3,
       "aggregate_kept": 1
     },
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
-      "next_batch": "33000",
-      "worklist_line": "new-expansion-candidates-batch33000",
-      "topic": "다음 비처방 후보 주제 선정 batch 33000",
+      "next_batch": "34000",
+      "worklist_line": "new-expansion-candidates-batch34000",
+      "topic": "다음 비처방 후보 주제 선정 batch 34000",
       "unchecked": 0
     },
     "unknownN": 3,
@@ -145326,7 +145328,7 @@
       "unchecked": 0
     }
   },
-  "pushed_state": "PUSHED=false",
+  "pushed_state": "PUSHED=true",
   "previous_last_batch_2293": {
     "id": "2293",
     "commit": "7b37e9574d7f81a77a1b4fdccfffc5e1c2864bc9",
