@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:01:51.967Z",
+  "updated": "2026-09-07T11:02:36.104Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
   "entries": 31943,
@@ -53,10 +53,10 @@
     "build_warnings": {
       "unknown_n": 1750,
       "thin_study": 10053,
-      "targeted_batch_warnings": 1942
+      "targeted_batch_warnings": 1954
     },
-    "targeted_batch_warnings": 1942,
-    "targeted_warnings_total": 1942
+    "targeted_batch_warnings": 1954,
+    "targeted_warnings_total": 1954
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -9607,11 +9607,13 @@
   },
   "last_batch": {
     "id": "45000",
-    "commit": "pending",
-    "pushed": false,
-    "expansion_commit": "pending",
-    "data_commits": [],
-    "checkpoint_commit": "pending",
+    "commit": "cfaf4bc89aa769fe332710b5b95a9d94c18aa331",
+    "pushed": true,
+    "expansion_commit": "cfaf4bc89aa769fe332710b5b95a9d94c18aa331",
+    "data_commits": [
+      "cfaf4bc89aa769fe332710b5b95a9d94c18aa331"
+    ],
+    "checkpoint_commit": "0f322c1ad67d87c158bbb9c71905a936fd896fd8",
     "push_marker_commit": "pending",
     "known_items_commit": "pending",
     "maintenance": false,
@@ -10025,7 +10027,7 @@
       "new_unknown_kept": 1,
       "aggregate_kept": 0
     },
-    "pushed_state": "PUSHED=false",
+    "pushed_state": "PUSHED=true",
     "resume": {
       "next_batch": "45000",
       "worklist_line": "new-expansion-candidates-batch45000",
@@ -145330,7 +145332,7 @@
       "unchecked": 0
     }
   },
-  "pushed_state": "PUSHED=false",
+  "pushed_state": "PUSHED=true",
   "previous_last_batch_2293": {
     "id": "2293",
     "commit": "7b37e9574d7f81a77a1b4fdccfffc5e1c2864bc9",
