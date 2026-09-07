@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-07T10:17:59.141Z",
+  "updated": "2026-09-07T11:01:51.967Z",
   "root": "C:\\dev\\effect-pool",
   "goal": "Continuously expand the evidence database in safe batches until the user stops the goal.",
-  "entries": 31913,
-  "subjects": 23398,
-  "refs": 35074,
+  "entries": 31943,
+  "subjects": 23416,
+  "refs": 35104,
   "kinds": {
-    "care": 8749,
-    "supp": 3751,
-    "move": 4072,
-    "food": 1920,
-    "otc": 724,
+    "care": 8752,
+    "supp": 3769,
+    "move": 4073,
+    "food": 1925,
+    "otc": 727,
     "life": 2306,
     "rx": 24
   },
   "tiers": {
-    "trial": 31062,
+    "trial": 31092,
     "obs": 754,
     "case": 47,
     "animal": 32,
     "lab": 18
   },
   "dirs": {
-    "pos": 22576,
-    "null": 7310,
+    "pos": 22595,
+    "null": 7321,
     "open": 1679,
     "harm": 348
   },
@@ -32,7 +32,7 @@
     "checked": 17174,
     "unchecked": 0,
     "no_evidence_pending": 15091,
-    "note": "Worklist 17174/17174 확인을 유지했다. Batch 44000은 비처방 주제 30개에서 신규 항목 30건을 처리했고 다음 재개점은 batch 45000이다."
+    "note": "Worklist 17174/17174 확인을 유지했다. Batch 45000은 비처방 주제 30개에서 신규 항목 30건을 처리했고 다음 재개점은 batch 45000이다."
   },
   "backlog": {
     "vs_missing": 0,
@@ -40,23 +40,23 @@
     "non_prescription_vs_missing": 0,
     "first_non_prescription": null,
     "parked_non_prescription_topics": 565,
-    "note": "Batch 44000은 직접 수치가 확인된 신규 항목 30건을 추가했다. 직접 근거가 맞지 않는 8개 주제는 보류했고 다음 확장은 batch 45000이다."
+    "note": "Batch 45000은 직접 수치가 확인된 신규 항목 30건을 추가했다. 직접 근거가 맞지 않는 11개 주제는 보류했고 다음 확장은 batch 45000이다."
   },
   "checkpoints": {
-    "over_counter_share": "19.9% (6346 entries)",
+    "over_counter_share": "20.1% (6421 entries)",
     "rx_share": "0.1% (24)",
-    "no_effect_or_harm_share": "24% (7658)",
-    "vs_share": "97% (30973)",
+    "no_effect_or_harm_share": "24.0% (7669)",
+    "vs_share": "97.1% (31003)",
     "unexpected_benefit_entries": 1,
-    "trial_share": "97.3% (31062)",
+    "trial_share": "97.3% (31092)",
     "non_trial_share": "2.7% (851)",
     "build_warnings": {
-      "unknown_n": 1749,
-      "thin_study": 10042,
-      "targeted_batch_warnings": 1930
+      "unknown_n": 1750,
+      "thin_study": 10053,
+      "targeted_batch_warnings": 1942
     },
-    "targeted_batch_warnings": 1930,
-    "targeted_warnings_total": 1930
+    "targeted_batch_warnings": 1942,
+    "targeted_warnings_total": 1942
   },
   "deployment": {
     "url": "https://effect-pool.vercel.app",
@@ -64,7 +64,7 @@
   },
   "next": {
     "batch": "45000",
-    "status": "pushed",
+    "status": "checkpoint",
     "worklist_line": "new-expansion-candidates-batch45000",
     "topic": "다음 비처방 후보 주제 선정 batch 45000"
   },
@@ -9606,251 +9606,249 @@
     }
   },
   "last_batch": {
-    "id": "44000",
-    "commit": "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf",
-    "pushed": true,
-    "expansion_commit": "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf",
-    "data_commits": [
-      "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf"
-    ],
-    "checkpoint_commit": "25cf55b5dd202f147e1eb1fc4b37f54910f4428c",
-    "push_marker_commit": "0919d56b8",
-    "known_items_commit": "62cb7fb27",
+    "id": "45000",
+    "commit": "pending",
+    "pushed": false,
+    "expansion_commit": "pending",
+    "data_commits": [],
+    "checkpoint_commit": "pending",
+    "push_marker_commit": "pending",
+    "known_items_commit": "pending",
     "maintenance": false,
     "processed_topics": 30,
     "selected_topics": [
       {
-        "id": "green-tea-cholesterol",
-        "subject": "녹차 콜레스테롤",
-        "term": "green tea AND (cholesterol OR lipid) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "cocoa-endothelial",
-        "subject": "코코아 혈관기능",
-        "term": "cocoa AND (endothelial OR vascular function) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "chia-satiety",
-        "subject": "치아씨 포만감",
-        "term": "chia seed AND (satiety OR appetite OR hunger) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "turmeric-osteoarthritis",
-        "subject": "강황 골관절염",
-        "term": "turmeric AND osteoarthritis randomized controlled trial",
+        "id": "zinc-common-cold",
+        "subject": "아연 감기",
+        "term": "zinc AND common cold randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "curcumin-depression",
-        "subject": "커큐민 우울",
-        "term": "curcumin AND depression randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "coq10-migraine",
-        "subject": "코엔자임Q10 편두통",
-        "term": "coenzyme Q10 AND migraine randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "l-carnitine-exercise",
-        "subject": "L-카르니틴 운동",
-        "term": "L-carnitine AND exercise randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "beta-alanine-exercise",
-        "subject": "베타알라닌 운동",
-        "term": "beta-alanine AND exercise randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "probiotic-atopic-dermatitis",
-        "subject": "프로바이오틱 아토피",
-        "term": "probiotic AND atopic dermatitis randomized controlled trial",
-        "kind": "supp"
-      },
-      {
-        "id": "cranberry-urinary-tract",
-        "subject": "크랜베리 요로감염",
-        "term": "cranberry AND urinary tract infection randomized controlled trial",
+        "id": "elderberry-common-cold",
+        "subject": "엘더베리 감기",
+        "term": "elderberry AND common cold randomized controlled trial",
         "kind": "food"
       },
       {
-        "id": "tart-cherry-inflammation",
-        "subject": "타트체리 염증",
-        "term": "tart cherry AND inflammation randomized controlled trial",
-        "kind": "food"
+        "id": "saline-irrigation-sinusitis",
+        "subject": "생리식염수 코세척 부비동염",
+        "term": "saline nasal irrigation AND sinusitis randomized controlled trial",
+        "kind": "care"
       },
       {
-        "id": "sauna-cardiovascular",
-        "subject": "사우나 심혈관",
-        "term": "sauna AND (cardiovascular OR vascular) randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "sleep-hygiene-insomnia",
-        "subject": "수면위생 불면",
-        "term": "sleep hygiene AND insomnia randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "blue-light-sleep",
-        "subject": "청색광 수면",
-        "term": "blue light AND sleep randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "breathing-anxiety",
-        "subject": "호흡운동 불안",
-        "term": "breathing exercise AND anxiety randomized controlled trial",
-        "kind": "life"
-      },
-      {
-        "id": "tai-chi-balance",
-        "subject": "태극권 균형",
-        "term": "tai chi AND balance randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "balance-quality-of-life",
-        "subject": "균형운동 삶의질",
-        "term": "balance training AND quality of life randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "interval-glucose",
-        "subject": "인터벌운동 혈당",
-        "term": "interval training AND (glucose OR glycemic OR insulin) randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "aerobic-cognition",
-        "subject": "유산소운동 인지기능",
-        "term": "aerobic exercise AND cognition randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "stretching-low-back-pain",
-        "subject": "스트레칭 허리통증",
-        "term": "stretching AND low back pain randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "yoga-glucose",
-        "subject": "요가 혈당",
-        "term": "yoga AND (glucose OR glycemic OR insulin) randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "resistance-glucose",
-        "subject": "저항운동 혈당",
-        "term": "resistance training AND (glucose OR glycemic OR insulin) randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "walking-glucose",
-        "subject": "걷기 혈당",
-        "term": "walking AND (glucose OR glycemic OR insulin) randomized controlled trial",
-        "kind": "move"
-      },
-      {
-        "id": "flaxseed-bone",
-        "subject": "아마씨 골밀도",
-        "term": "flaxseed AND (bone density OR bone mineral) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "psyllium-glucose",
-        "subject": "차전자피 혈당",
-        "term": "psyllium AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "id": "probiotic-allergic-rhinitis",
+        "subject": "프로바이오틱 알레르기비염",
+        "term": "probiotic AND allergic rhinitis randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "pomegranate-endothelial",
-        "subject": "석류 혈관기능",
-        "term": "pomegranate AND (endothelial OR vascular function) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "beetroot-endothelial",
-        "subject": "비트 혈관기능",
-        "term": "beetroot AND (endothelial OR vascular function) randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "garlic-immune",
-        "subject": "마늘 면역",
-        "term": "garlic AND immune randomized controlled trial",
-        "kind": "food"
-      },
-      {
-        "id": "vitamin-e-fatty-liver",
-        "subject": "비타민E 지방간",
-        "term": "vitamin E AND nonalcoholic fatty liver randomized controlled trial",
+        "id": "glycine-sleep",
+        "subject": "글리신 수면",
+        "term": "glycine AND sleep randomized controlled trial",
         "kind": "supp"
       },
       {
-        "id": "magnesium-migraine",
-        "subject": "마그네슘 편두통",
-        "term": "magnesium AND migraine randomized controlled trial",
+        "id": "saffron-pms",
+        "subject": "사프란 월경전증후군",
+        "term": "saffron AND premenstrual randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "chasteberry-pms",
+        "subject": "체스트베리 월경전증후군",
+        "term": "chasteberry AND premenstrual randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "myo-inositol-pcos",
+        "subject": "미오이노시톨 다낭성난소증후군",
+        "term": "myo-inositol AND polycystic ovary randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "capsaicin-neuropathy",
+        "subject": "캡사이신 신경병증 통증",
+        "term": "capsaicin AND neuropathic pain randomized controlled trial",
+        "kind": "otc"
+      },
+      {
+        "id": "xylitol-dental-caries",
+        "subject": "자일리톨 치아우식",
+        "term": "xylitol AND dental caries randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "oil-pulling-oral-health",
+        "subject": "오일풀링 구강건강",
+        "term": "oil pulling AND oral health randomized controlled trial",
+        "kind": "care"
+      },
+      {
+        "id": "collagen-muscle",
+        "subject": "콜라겐 근육",
+        "term": "collagen AND muscle randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "whey-protein-muscle",
+        "subject": "유청단백질 근육",
+        "term": "whey protein AND older adults muscle randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "sodium-bicarbonate-exercise",
+        "subject": "탄산수소나트륨 운동능력",
+        "term": "sodium bicarbonate AND exercise randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "manuka-wound",
+        "subject": "마누카꿀 상처",
+        "term": "manuka honey AND wound randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "inositol-anxiety",
+        "subject": "이노시톨 불안",
+        "term": "inositol AND anxiety randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "peppermint-nausea",
+        "subject": "페퍼민트 메스꺼움",
+        "term": "peppermint AND nausea randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "exercise-cognition",
+        "subject": "운동 인지기능",
+        "term": "exercise AND cognition randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "nitrate-exercise",
+        "subject": "질산염 운동능력",
+        "term": "nitrate AND exercise performance randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "protein-older-muscle",
+        "subject": "단백질 보충 고령자 근육",
+        "term": "protein supplementation AND older adults muscle randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "probiotic-oral-health",
+        "subject": "프로바이오틱 구강건강",
+        "term": "probiotic AND oral health randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "green-tea-oral-health",
+        "subject": "녹차 구강건강",
+        "term": "green tea AND oral health randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "tea-tree-acne",
+        "subject": "티트리 여드름",
+        "term": "tea tree AND acne randomized controlled trial",
+        "kind": "care"
+      },
+      {
+        "id": "curcumin-fatty-liver",
+        "subject": "커큐민 지방간",
+        "term": "curcumin AND nonalcoholic fatty liver randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "astaxanthin-eye",
+        "subject": "아스타잔틴 눈 피로",
+        "term": "astaxanthin AND eye randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "lutein-cognition",
+        "subject": "루테인 인지기능",
+        "term": "lutein AND cognition randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "boron-bone",
+        "subject": "붕소 골밀도",
+        "term": "boron AND bone randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "lemon-balm-insomnia",
+        "subject": "레몬밤 불면",
+        "term": "lemon balm AND insomnia randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "passionflower-sleep",
+        "subject": "패션플라워 수면",
+        "term": "passionflower AND sleep randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "gaba-anxiety",
+        "subject": "감마아미노부티르산 불안",
+        "term": "GABA AND anxiety randomized controlled trial",
         "kind": "supp"
       }
     ],
     "qualified_topics": [
-      "녹차 콜레스테롤",
-      "코코아 혈관기능",
-      "강황 골관절염",
-      "커큐민 우울",
-      "베타알라닌 운동",
-      "프로바이오틱 아토피",
-      "크랜베리 요로감염",
-      "타트체리 염증",
-      "사우나 심혈관",
-      "청색광 수면",
-      "호흡운동 불안",
-      "태극권 균형",
-      "균형운동 삶의질",
-      "인터벌운동 혈당",
-      "스트레칭 허리통증",
-      "걷기 혈당",
-      "아마씨 골밀도",
-      "차전자피 혈당",
-      "석류 혈관기능",
-      "비트 혈관기능",
-      "마늘 면역",
-      "비타민E 지방간"
+      "saline-irrigation-sinusitis",
+      "saffron-pms",
+      "chasteberry-pms",
+      "capsaicin-neuropathy",
+      "xylitol-dental-caries",
+      "oil-pulling-oral-health",
+      "collagen-muscle",
+      "whey-protein-muscle",
+      "sodium-bicarbonate-exercise",
+      "manuka-wound",
+      "peppermint-nausea",
+      "exercise-cognition",
+      "nitrate-exercise",
+      "protein-older-muscle",
+      "probiotic-oral-health",
+      "green-tea-oral-health",
+      "curcumin-fatty-liver",
+      "astaxanthin-eye",
+      "lutein-cognition"
     ],
     "existing_topics_skipped": [],
     "screened_topics": [
-      "chia-satiety",
-      "coq10-migraine",
-      "l-carnitine-exercise",
-      "sleep-hygiene-insomnia",
-      "aerobic-cognition",
-      "yoga-glucose",
-      "resistance-glucose",
-      "magnesium-migraine"
+      "zinc-common-cold",
+      "elderberry-common-cold",
+      "probiotic-allergic-rhinitis",
+      "glycine-sleep",
+      "myo-inositol-pcos",
+      "inositol-anxiety",
+      "tea-tree-acne",
+      "boron-bone",
+      "lemon-balm-insomnia",
+      "passionflower-sleep",
+      "gaba-anxiety"
     ],
     "new_entries": 30,
     "existing_links": 0,
-    "no_evidence_rejects": 9876,
-    "new_candidate_rejects": 2565,
-    "all_excluded_candidates": 12441,
+    "no_evidence_rejects": 6431,
+    "new_candidate_rejects": 3829,
+    "all_excluded_candidates": 10260,
     "non_prescription_topics_available": 30,
     "non_prescription_topics_processed": 30,
     "prescription_topics_processed": 0,
-    "screened_nonqualifying_topics": 8,
+    "screened_nonqualifying_topics": 11,
     "new_references": 30,
     "existing_reference_links": 0,
-    "duplicate_search_pmids_removed": 970,
+    "duplicate_search_pmids_removed": 263,
     "search_topic_count": 30,
-    "search_returned_records": 14429,
-    "main_search_records": 14429,
-    "main_search_unique_pmids": 13459,
+    "search_returned_records": 11215,
+    "main_search_records": 11215,
+    "main_search_unique_pmids": 10952,
     "extra_query_count": 0,
     "extra_search_records": 0,
     "extra_unique_pmids": 0,
@@ -9864,170 +9862,170 @@
     "targeted_search_unique_pmids": 0,
     "targeted_negative_hits": 0,
     "targeted_safety_hits": 0,
-    "combined_search_unique_pmids": 13459,
-    "requested": 13459,
-    "fetched": 13459,
-    "fetch_chunks": 14,
-    "abstracts": 13366,
+    "combined_search_unique_pmids": 10952,
+    "requested": 10952,
+    "fetched": 10952,
+    "fetch_chunks": 11,
+    "abstracts": 10880,
     "missing": 0,
-    "candidate_parser_parsed": 13459,
-    "candidate_parser_candidates": 3583,
-    "union_new_candidate_like": 2595,
-    "effect_candidate_rows": 2595,
-    "existing_candidate_rows": 988,
+    "candidate_parser_parsed": 10952,
+    "candidate_parser_candidates": 4521,
+    "union_new_candidate_like": 3859,
+    "effect_candidate_rows": 3859,
+    "existing_candidate_rows": 662,
     "selected_pmids": [
-      "16277999",
-      "34606551",
-      "35860885",
-      "26255281",
-      "29713250",
-      "33561220",
-      "39589533",
-      "36117457",
-      "27776003",
-      "25776839",
-      "39085864",
-      "22745140",
-      "28346719",
-      "17043681",
-      "29705442",
-      "30255184",
-      "18922381",
-      "28017916",
-      "15681986",
-      "30396629",
-      "22419420",
-      "25395844",
-      "40954575",
-      "26607938",
-      "29165355",
-      "30087216",
-      "23718573",
-      "16154305",
-      "16484572",
-      "29957104"
+      "33457343",
+      "35799365",
+      "29076666",
+      "29319061",
+      "24709430",
+      "34808597",
+      "38762187",
+      "26097440",
+      "27429228",
+      "24221577",
+      "39447066",
+      "27834492",
+      "28650782",
+      "31818232",
+      "31345163",
+      "30967159",
+      "23195474",
+      "28007005",
+      "25584309",
+      "29344729",
+      "34756350",
+      "27777094",
+      "32508221",
+      "36145080",
+      "35565823",
+      "41096556",
+      "31204416",
+      "36986186",
+      "37364683",
+      "38092741"
     ],
     "selected_ncts": [],
     "new_pmids": [
-      "16277999",
-      "34606551",
-      "35860885",
-      "26255281",
-      "29713250",
-      "33561220",
-      "39589533",
-      "36117457",
-      "27776003",
-      "25776839",
-      "39085864",
-      "22745140",
-      "28346719",
-      "17043681",
-      "29705442",
-      "30255184",
-      "18922381",
-      "28017916",
-      "15681986",
-      "30396629",
-      "22419420",
-      "25395844",
-      "40954575",
-      "26607938",
-      "29165355",
-      "30087216",
-      "23718573",
-      "16154305",
-      "16484572",
-      "29957104"
+      "33457343",
+      "35799365",
+      "29076666",
+      "29319061",
+      "24709430",
+      "34808597",
+      "38762187",
+      "26097440",
+      "27429228",
+      "24221577",
+      "39447066",
+      "27834492",
+      "28650782",
+      "31818232",
+      "31345163",
+      "30967159",
+      "23195474",
+      "28007005",
+      "25584309",
+      "29344729",
+      "34756350",
+      "27777094",
+      "32508221",
+      "36145080",
+      "35565823",
+      "41096556",
+      "31204416",
+      "36986186",
+      "37364683",
+      "38092741"
     ],
     "new_ncts": [],
     "new_entry_ids": [
-      "balance-quality-of-life-25395844-pos",
-      "beetroot-endothelial-26607938-pos",
-      "beetroot-endothelial-29165355-pos",
-      "beta-alanine-exercise-26255281-pos",
-      "beta-alanine-exercise-29713250-pos",
-      "blue-light-sleep-28017916-harm",
-      "breathing-anxiety-15681986-pos",
-      "cocoa-endothelial-35860885-pos",
-      "cranberry-urinary-tract-17043681-null",
-      "cranberry-urinary-tract-29705442-pos",
-      "curcumin-depression-25776839-pos",
-      "curcumin-depression-39085864-pos",
-      "flaxseed-bone-30087216-pos",
-      "garlic-immune-16484572-pos",
-      "green-tea-cholesterol-16277999-null",
-      "green-tea-cholesterol-34606551-pos",
-      "interval-glucose-27776003-pos",
-      "interval-glucose-36117457-null",
-      "interval-glucose-39589533-pos",
-      "pomegranate-endothelial-29957104-pos",
-      "probiotic-atopic-dermatitis-28346719-pos",
-      "psyllium-glucose-16154305-pos",
-      "sauna-cardiovascular-18922381-pos",
-      "stretching-low-back-pain-40954575-pos",
-      "tai-chi-balance-22419420-pos",
-      "tai-chi-balance-30396629-pos",
-      "tart-cherry-inflammation-30255184-pos",
-      "turmeric-osteoarthritis-22745140-null",
-      "vitamin-e-fatty-liver-23718573-pos",
-      "walking-glucose-33561220-pos"
+      "astaxanthin-eye-36986186-pos",
+      "capsaicin-neuropathy-28007005-pos",
+      "capsaicin-neuropathy-29076666-null",
+      "capsaicin-neuropathy-35799365-pos",
+      "chasteberry-pms-23195474-pos",
+      "collagen-muscle-34808597-pos",
+      "curcumin-fatty-liver-31204416-pos",
+      "curcumin-fatty-liver-31345163-null",
+      "curcumin-fatty-liver-31818232-pos",
+      "curcumin-fatty-liver-41096556-pos",
+      "exercise-cognition-38092741-pos",
+      "green-tea-oral-health-35565823-pos",
+      "lutein-cognition-37364683-null",
+      "manuka-wound-24221577-null",
+      "manuka-wound-27429228-null",
+      "nitrate-exercise-27777094-pos",
+      "nitrate-exercise-27834492-null",
+      "nitrate-exercise-32508221-null",
+      "nitrate-exercise-36145080-null",
+      "oil-pulling-oral-health-25584309-null",
+      "peppermint-nausea-39447066-pos",
+      "probiotic-oral-health-28650782-null",
+      "saffron-pms-33457343-pos",
+      "saline-irrigation-sinusitis-30967159-pos",
+      "sodium-bicarbonate-exercise-26097440-pos",
+      "sodium-bicarbonate-exercise-29344729-pos",
+      "sodium-bicarbonate-exercise-34756350-pos",
+      "whey-protein-muscle-38762187-pos",
+      "xylitol-dental-caries-24709430-null",
+      "xylitol-dental-caries-29319061-pos"
     ],
     "existing_linked_entry_ids": [],
     "categories": {
-      "otc": 0,
-      "supp": 8,
-      "food": 11,
-      "move": 8,
-      "life": 3,
-      "care": 0,
+      "otc": 3,
+      "supp": 18,
+      "food": 5,
+      "move": 1,
+      "life": 0,
+      "care": 3,
       "rx": 0
     },
     "tiers": {
       "trial": 30
     },
     "dirs": {
-      "pos": 25,
-      "null": 4,
+      "pos": 19,
+      "null": 11,
       "open": 0,
-      "harm": 1
+      "harm": 0
     },
     "unknown_n": 1,
-    "thin_studies": 21,
+    "thin_studies": 11,
     "validator_errors": 0,
-    "validator_warnings": 22,
+    "validator_warnings": 12,
     "initial_validator_errors": 0,
-    "initial_validator_warnings": 22,
+    "initial_validator_warnings": 12,
     "initial_build_error_lines": 0,
-    "initial_build_warning_lines": 11746,
-    "build_warning_lines": 11707,
+    "initial_build_warning_lines": 11762,
+    "build_warning_lines": 11719,
     "build_errors_fixed": 0,
-    "new_entry_vs_warnings_fixed": 10,
-    "new_entry_effect_warnings_fixed": 17,
-    "new_entry_line_warnings_fixed": 1,
-    "new_entry_subject_warnings_fixed": 8,
-    "new_entry_translation_warnings_fixed": 1,
-    "new_entry_scale_warnings_fixed": 1,
-    "targeted_batch_warnings_fixed": 39,
-    "open_numeric_comparisons": 30973,
+    "new_entry_vs_warnings_fixed": 8,
+    "new_entry_effect_warnings_fixed": 19,
+    "new_entry_line_warnings_fixed": 11,
+    "new_entry_subject_warnings_fixed": 5,
+    "new_entry_translation_warnings_fixed": 0,
+    "new_entry_scale_warnings_fixed": 0,
+    "targeted_batch_warnings_fixed": 43,
+    "open_numeric_comparisons": 31003,
     "build_exit": 0,
-    "research": "PubMed E-utilities로 비처방 후보 주제 30개를 검색했다. 검색 레코드 14429개·중복 제거 고유 PMID 13459개를 확인했고 14개 EFetch 청크로 13459개를 요청해 13366개 초록을 확보했다. 후보 parser는 13459건에서 후보 3583건·신규 후보 2595건·기존 후보 988건을 확인했다. 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했다. 후보 기준 부족 9876건과 신규 후보 제외 2565건을 제외했고, 직접 근거가 맞지 않는 8개 주제는 보류했다. 전용 검증은 exit 0·오류 0·경고 22건이며 실제 n<50 21건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11746, 최종 exit 0·오류 0·경고 11707이었다. 새 actionable 경고 39건을 수정했고 실제 소표본·표본 수 미상 경고는 유지했다. 다음 재개점은 batch 45000이다.",
+    "research": "PubMed E-utilities로 비처방 후보 주제 30개를 검색했다. 검색 레코드 11215개·중복 제거 고유 PMID 10952개를 확인했고 11개 EFetch 청크로 10952개를 요청해 10880개 초록을 확보했다. 후보 parser는 10952건에서 후보 4521건·신규 후보 3859건·기존 후보 662건을 확인했다. 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했다. 후보 기준 부족 6431건과 신규 후보 제외 3829건을 제외했고, 직접 근거가 맞지 않는 11개 주제는 보류했다. 전용 검증은 exit 0·오류 0·경고 12건이며 실제 n<50 11건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11762, 최종 exit 0·오류 0·경고 11719였다. 새 actionable 경고 43건을 수정했고 실제 소표본·표본 수 미상 경고는 유지했다. 다음 재개점은 batch 46000이다.",
     "remaining_non_prescription_vs_missing": 0,
     "sample_sizes_filled": 29,
     "sample_size_corrections": 0,
     "category_reclassifications": [],
-    "subject_names_renamed": 6,
-    "subject_entries_renamed": 8,
+    "subject_names_renamed": 5,
+    "subject_entries_renamed": 5,
     "warning_diff": {
-      "baseline": 11685,
-      "initial": 11746,
-      "final": 11707,
-      "new_actionable_fixed": 39,
-      "new_thin_kept": 21,
+      "baseline": 11707,
+      "initial": 11762,
+      "final": 11719,
+      "new_actionable_fixed": 43,
+      "new_thin_kept": 11,
       "new_unknown_kept": 1,
       "aggregate_kept": 0
     },
-    "pushed_state": "PUSHED=true",
+    "pushed_state": "PUSHED=false",
     "resume": {
       "next_batch": "45000",
       "worklist_line": "new-expansion-candidates-batch45000",
@@ -10035,7 +10033,7 @@
       "unchecked": 0
     },
     "unknownN": 1,
-    "thin": 21
+    "thin": 11
   },
   "previous_last_batch_10490": {
     "id": "10490",
@@ -33907,10 +33905,10 @@
     "abstracts": 327,
     "next_official_deployment_check": "after batch 1719"
   },
-  "withVs": 30973,
-  "unknownN": 1749,
-  "thinStudy": 10042,
-  "openNumeric": 30973,
+  "withVs": 31003,
+  "unknownN": 1750,
+  "thinStudy": 10053,
+  "openNumeric": 31003,
   "englishSubjects": 0,
   "previous_last_batch_1720": {
     "id": "1720",
@@ -145332,7 +145330,7 @@
       "unchecked": 0
     }
   },
-  "pushed_state": "PUSHED=true",
+  "pushed_state": "PUSHED=false",
   "previous_last_batch_2293": {
     "id": "2293",
     "commit": "7b37e9574d7f81a77a1b4fdccfffc5e1c2864bc9",
@@ -217482,5 +217480,437 @@
     },
     "unknownN": 1,
     "thin": 11
+  },
+  "previous_last_batch_44000": {
+    "id": "44000",
+    "commit": "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf",
+    "pushed": true,
+    "expansion_commit": "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf",
+    "data_commits": [
+      "a1da6a192a8449f8d3a68aeda0bb146c5d7040bf"
+    ],
+    "checkpoint_commit": "25cf55b5dd202f147e1eb1fc4b37f54910f4428c",
+    "push_marker_commit": "0919d56b8",
+    "known_items_commit": "62cb7fb27",
+    "maintenance": false,
+    "processed_topics": 30,
+    "selected_topics": [
+      {
+        "id": "green-tea-cholesterol",
+        "subject": "녹차 콜레스테롤",
+        "term": "green tea AND (cholesterol OR lipid) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "cocoa-endothelial",
+        "subject": "코코아 혈관기능",
+        "term": "cocoa AND (endothelial OR vascular function) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "chia-satiety",
+        "subject": "치아씨 포만감",
+        "term": "chia seed AND (satiety OR appetite OR hunger) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "turmeric-osteoarthritis",
+        "subject": "강황 골관절염",
+        "term": "turmeric AND osteoarthritis randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "curcumin-depression",
+        "subject": "커큐민 우울",
+        "term": "curcumin AND depression randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "coq10-migraine",
+        "subject": "코엔자임Q10 편두통",
+        "term": "coenzyme Q10 AND migraine randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "l-carnitine-exercise",
+        "subject": "L-카르니틴 운동",
+        "term": "L-carnitine AND exercise randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "beta-alanine-exercise",
+        "subject": "베타알라닌 운동",
+        "term": "beta-alanine AND exercise randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "probiotic-atopic-dermatitis",
+        "subject": "프로바이오틱 아토피",
+        "term": "probiotic AND atopic dermatitis randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "cranberry-urinary-tract",
+        "subject": "크랜베리 요로감염",
+        "term": "cranberry AND urinary tract infection randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "tart-cherry-inflammation",
+        "subject": "타트체리 염증",
+        "term": "tart cherry AND inflammation randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "sauna-cardiovascular",
+        "subject": "사우나 심혈관",
+        "term": "sauna AND (cardiovascular OR vascular) randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "sleep-hygiene-insomnia",
+        "subject": "수면위생 불면",
+        "term": "sleep hygiene AND insomnia randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "blue-light-sleep",
+        "subject": "청색광 수면",
+        "term": "blue light AND sleep randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "breathing-anxiety",
+        "subject": "호흡운동 불안",
+        "term": "breathing exercise AND anxiety randomized controlled trial",
+        "kind": "life"
+      },
+      {
+        "id": "tai-chi-balance",
+        "subject": "태극권 균형",
+        "term": "tai chi AND balance randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "balance-quality-of-life",
+        "subject": "균형운동 삶의질",
+        "term": "balance training AND quality of life randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "interval-glucose",
+        "subject": "인터벌운동 혈당",
+        "term": "interval training AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "aerobic-cognition",
+        "subject": "유산소운동 인지기능",
+        "term": "aerobic exercise AND cognition randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "stretching-low-back-pain",
+        "subject": "스트레칭 허리통증",
+        "term": "stretching AND low back pain randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "yoga-glucose",
+        "subject": "요가 혈당",
+        "term": "yoga AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "resistance-glucose",
+        "subject": "저항운동 혈당",
+        "term": "resistance training AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "walking-glucose",
+        "subject": "걷기 혈당",
+        "term": "walking AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "kind": "move"
+      },
+      {
+        "id": "flaxseed-bone",
+        "subject": "아마씨 골밀도",
+        "term": "flaxseed AND (bone density OR bone mineral) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "psyllium-glucose",
+        "subject": "차전자피 혈당",
+        "term": "psyllium AND (glucose OR glycemic OR insulin) randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "pomegranate-endothelial",
+        "subject": "석류 혈관기능",
+        "term": "pomegranate AND (endothelial OR vascular function) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "beetroot-endothelial",
+        "subject": "비트 혈관기능",
+        "term": "beetroot AND (endothelial OR vascular function) randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "garlic-immune",
+        "subject": "마늘 면역",
+        "term": "garlic AND immune randomized controlled trial",
+        "kind": "food"
+      },
+      {
+        "id": "vitamin-e-fatty-liver",
+        "subject": "비타민E 지방간",
+        "term": "vitamin E AND nonalcoholic fatty liver randomized controlled trial",
+        "kind": "supp"
+      },
+      {
+        "id": "magnesium-migraine",
+        "subject": "마그네슘 편두통",
+        "term": "magnesium AND migraine randomized controlled trial",
+        "kind": "supp"
+      }
+    ],
+    "qualified_topics": [
+      "녹차 콜레스테롤",
+      "코코아 혈관기능",
+      "강황 골관절염",
+      "커큐민 우울",
+      "베타알라닌 운동",
+      "프로바이오틱 아토피",
+      "크랜베리 요로감염",
+      "타트체리 염증",
+      "사우나 심혈관",
+      "청색광 수면",
+      "호흡운동 불안",
+      "태극권 균형",
+      "균형운동 삶의질",
+      "인터벌운동 혈당",
+      "스트레칭 허리통증",
+      "걷기 혈당",
+      "아마씨 골밀도",
+      "차전자피 혈당",
+      "석류 혈관기능",
+      "비트 혈관기능",
+      "마늘 면역",
+      "비타민E 지방간"
+    ],
+    "existing_topics_skipped": [],
+    "screened_topics": [
+      "chia-satiety",
+      "coq10-migraine",
+      "l-carnitine-exercise",
+      "sleep-hygiene-insomnia",
+      "aerobic-cognition",
+      "yoga-glucose",
+      "resistance-glucose",
+      "magnesium-migraine"
+    ],
+    "new_entries": 30,
+    "existing_links": 0,
+    "no_evidence_rejects": 9876,
+    "new_candidate_rejects": 2565,
+    "all_excluded_candidates": 12441,
+    "non_prescription_topics_available": 30,
+    "non_prescription_topics_processed": 30,
+    "prescription_topics_processed": 0,
+    "screened_nonqualifying_topics": 8,
+    "new_references": 30,
+    "existing_reference_links": 0,
+    "duplicate_search_pmids_removed": 970,
+    "search_topic_count": 30,
+    "search_returned_records": 14429,
+    "main_search_records": 14429,
+    "main_search_unique_pmids": 13459,
+    "extra_query_count": 0,
+    "extra_search_records": 0,
+    "extra_unique_pmids": 0,
+    "extra2_query_count": 0,
+    "extra2_search_records": 0,
+    "extra2_unique_pmids": 0,
+    "paginated_search_records": 0,
+    "paginated_search_unique_pmids": 0,
+    "targeted_query_count": 0,
+    "targeted_search_records": 0,
+    "targeted_search_unique_pmids": 0,
+    "targeted_negative_hits": 0,
+    "targeted_safety_hits": 0,
+    "combined_search_unique_pmids": 13459,
+    "requested": 13459,
+    "fetched": 13459,
+    "fetch_chunks": 14,
+    "abstracts": 13366,
+    "missing": 0,
+    "candidate_parser_parsed": 13459,
+    "candidate_parser_candidates": 3583,
+    "union_new_candidate_like": 2595,
+    "effect_candidate_rows": 2595,
+    "existing_candidate_rows": 988,
+    "selected_pmids": [
+      "16277999",
+      "34606551",
+      "35860885",
+      "26255281",
+      "29713250",
+      "33561220",
+      "39589533",
+      "36117457",
+      "27776003",
+      "25776839",
+      "39085864",
+      "22745140",
+      "28346719",
+      "17043681",
+      "29705442",
+      "30255184",
+      "18922381",
+      "28017916",
+      "15681986",
+      "30396629",
+      "22419420",
+      "25395844",
+      "40954575",
+      "26607938",
+      "29165355",
+      "30087216",
+      "23718573",
+      "16154305",
+      "16484572",
+      "29957104"
+    ],
+    "selected_ncts": [],
+    "new_pmids": [
+      "16277999",
+      "34606551",
+      "35860885",
+      "26255281",
+      "29713250",
+      "33561220",
+      "39589533",
+      "36117457",
+      "27776003",
+      "25776839",
+      "39085864",
+      "22745140",
+      "28346719",
+      "17043681",
+      "29705442",
+      "30255184",
+      "18922381",
+      "28017916",
+      "15681986",
+      "30396629",
+      "22419420",
+      "25395844",
+      "40954575",
+      "26607938",
+      "29165355",
+      "30087216",
+      "23718573",
+      "16154305",
+      "16484572",
+      "29957104"
+    ],
+    "new_ncts": [],
+    "new_entry_ids": [
+      "balance-quality-of-life-25395844-pos",
+      "beetroot-endothelial-26607938-pos",
+      "beetroot-endothelial-29165355-pos",
+      "beta-alanine-exercise-26255281-pos",
+      "beta-alanine-exercise-29713250-pos",
+      "blue-light-sleep-28017916-harm",
+      "breathing-anxiety-15681986-pos",
+      "cocoa-endothelial-35860885-pos",
+      "cranberry-urinary-tract-17043681-null",
+      "cranberry-urinary-tract-29705442-pos",
+      "curcumin-depression-25776839-pos",
+      "curcumin-depression-39085864-pos",
+      "flaxseed-bone-30087216-pos",
+      "garlic-immune-16484572-pos",
+      "green-tea-cholesterol-16277999-null",
+      "green-tea-cholesterol-34606551-pos",
+      "interval-glucose-27776003-pos",
+      "interval-glucose-36117457-null",
+      "interval-glucose-39589533-pos",
+      "pomegranate-endothelial-29957104-pos",
+      "probiotic-atopic-dermatitis-28346719-pos",
+      "psyllium-glucose-16154305-pos",
+      "sauna-cardiovascular-18922381-pos",
+      "stretching-low-back-pain-40954575-pos",
+      "tai-chi-balance-22419420-pos",
+      "tai-chi-balance-30396629-pos",
+      "tart-cherry-inflammation-30255184-pos",
+      "turmeric-osteoarthritis-22745140-null",
+      "vitamin-e-fatty-liver-23718573-pos",
+      "walking-glucose-33561220-pos"
+    ],
+    "existing_linked_entry_ids": [],
+    "categories": {
+      "otc": 0,
+      "supp": 8,
+      "food": 11,
+      "move": 8,
+      "life": 3,
+      "care": 0,
+      "rx": 0
+    },
+    "tiers": {
+      "trial": 30
+    },
+    "dirs": {
+      "pos": 25,
+      "null": 4,
+      "open": 0,
+      "harm": 1
+    },
+    "unknown_n": 1,
+    "thin_studies": 21,
+    "validator_errors": 0,
+    "validator_warnings": 22,
+    "initial_validator_errors": 0,
+    "initial_validator_warnings": 22,
+    "initial_build_error_lines": 0,
+    "initial_build_warning_lines": 11746,
+    "build_warning_lines": 11707,
+    "build_errors_fixed": 0,
+    "new_entry_vs_warnings_fixed": 10,
+    "new_entry_effect_warnings_fixed": 17,
+    "new_entry_line_warnings_fixed": 1,
+    "new_entry_subject_warnings_fixed": 8,
+    "new_entry_translation_warnings_fixed": 1,
+    "new_entry_scale_warnings_fixed": 1,
+    "targeted_batch_warnings_fixed": 39,
+    "open_numeric_comparisons": 30973,
+    "build_exit": 0,
+    "research": "PubMed E-utilities로 비처방 후보 주제 30개를 검색했다. 검색 레코드 14429개·중복 제거 고유 PMID 13459개를 확인했고 14개 EFetch 청크로 13459개를 요청해 13366개 초록을 확보했다. 후보 parser는 13459건에서 후보 3583건·신규 후보 2595건·기존 후보 988건을 확인했다. 직접 군간 수치·효과크기·신뢰구간 또는 유효한 상대효과가 확인된 신규 항목 30건을 기록했다. 후보 기준 부족 9876건과 신규 후보 제외 2565건을 제외했고, 직접 근거가 맞지 않는 8개 주제는 보류했다. 전용 검증은 exit 0·오류 0·경고 22건이며 실제 n<50 21건·표본 수 미상 1건을 유지했다. node build.mjs 최초 exit 0·오류 0·경고 11746, 최종 exit 0·오류 0·경고 11707이었다. 새 actionable 경고 39건을 수정했고 실제 소표본·표본 수 미상 경고는 유지했다. 다음 재개점은 batch 45000이다.",
+    "remaining_non_prescription_vs_missing": 0,
+    "sample_sizes_filled": 29,
+    "sample_size_corrections": 0,
+    "category_reclassifications": [],
+    "subject_names_renamed": 6,
+    "subject_entries_renamed": 8,
+    "warning_diff": {
+      "baseline": 11685,
+      "initial": 11746,
+      "final": 11707,
+      "new_actionable_fixed": 39,
+      "new_thin_kept": 21,
+      "new_unknown_kept": 1,
+      "aggregate_kept": 0
+    },
+    "pushed_state": "PUSHED=true",
+    "resume": {
+      "next_batch": "45000",
+      "worklist_line": "new-expansion-candidates-batch45000",
+      "topic": "다음 비처방 후보 주제 선정 batch 45000",
+      "unchecked": 0
+    },
+    "unknownN": 1,
+    "thin": 21
   }
 }
